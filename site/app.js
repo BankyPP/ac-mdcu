@@ -158,6 +158,7 @@ function rHome(){
     h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${r.soon?'<span class="soon">เร็ว ๆ นี้</span>':(r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:"")}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span></button>`).join("")}</div>`;
   }
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
+  h+=`<p class="hint" style="text-align:center;margin-top:18px">อัปเดตเว็บล่าสุด ${typeof BUILD!=="undefined"?BUILD:""}</p>`;
   $("main").innerHTML=h;
   $("hExp").onclick=exportLink;$("hImp").onclick=importPrompt;$("hFile").onclick=exportFile;$("hFileIn").onclick=importFile;
   document.querySelectorAll("[data-type]").forEach(b=>b.onclick=()=>{P.type=b.dataset.type;save();rHome();});

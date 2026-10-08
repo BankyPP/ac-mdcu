@@ -18,6 +18,8 @@ def num(f):
 js=['const IMGS={};const WARDS={};']
 if imgs: js.append('Object.assign(IMGS,'+json.dumps(imgs)+');')
 js.append('const CONFIG='+json.dumps(cfg,ensure_ascii=False)+';')
+import datetime
+js.append('const BUILD='+json.dumps(datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).strftime('%d/%m/%Y %H:%M'))+';')
 total=0
 for w in cfg.get('wards',[]):
     wid=json.dumps(w['id']); d=w.get('dir','data')
