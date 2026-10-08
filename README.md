@@ -38,3 +38,6 @@ Publish: ไฟล์หน้า = out/index.html ; รูปทุกไฟล
 - Lecture / ไฟล์เนื้อหา / สรุป (แม้ส่งช่วง Gen) → คลัง lecture ของ Subspe (เก็บใน claude.ai Project "Bank AC Compilation" → `subspe-sx/lectures/` เพราะ repo นี้เป็นสาธารณะ) — ไม่ใส่ใน Gen
 - อะไรที่ใส่ใน Subspe แล้วไม่ต้องใส่ใน Gen; หลังเปลี่ยนเป็นช่วง Subspe ทุกอย่าง → Subspe
 - กติกาเต็มอยู่ใน Project: `sx-mcq/กติกาการจัดไฟล์ศัลย์.md`
+
+## Kit สำหรับวอร์ด/บัญชีอื่น
+`kit/ac-site-kit.zip` (+ `kit/PROMPT.md`, `kit/FEATURES.md`) — โครงเว็บนี้แบบเปล่า ใช้สร้าง artifact ใน Claude บัญชีอื่น (ซิงก์บัญชี Claude ในตัว) สร้างใหม่ทุกครั้งที่แก้ฟีเจอร์
