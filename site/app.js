@@ -15,6 +15,8 @@ const now=()=>Date.now();
 
 /* ---------------- wards & question banks ---------------- */
 const WL=(CFG.wards&&CFG.wards.length)?CFG.wards:[{id:"main",name:CFG.brand||"คลังข้อสอบ",brand:CFG.brand||"MCQ",short:"MCQ"}];
+/* every ward gets the study year appended (config "year", e.g. Y4 → later Y5) */
+if(CFG.year)WL.forEach(w=>{const y=" "+CFG.year;if(!String(w.name).endsWith(y))w.name+=y;w.short=(w.short||w.id)+(String(w.short||"").endsWith(y)?"":y);});
 const YEAR=q=>parseInt(String(q.set).replace(/\D/g,""))||0;
 const ROK=r=>{r=String(r||"");let m=/^Ro?([A-Z])(\d*)$/.exec(r);if(m)return [0,m[1].charCodeAt(0),+m[2]||0];m=/^Ro?(\d+)$/.exec(r);if(m)return [1,+m[1],0];return [2,0,0];};
 const cmpRo=(a,b)=>{const x=ROK(a.ro),y=ROK(b.ro);return x[0]-y[0]||x[1]-y[1]||x[2]-y[2];};
