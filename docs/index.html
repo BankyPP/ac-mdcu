@@ -443,7 +443,7 @@ function rWards(){
   $("main").innerHTML=h;bindAcctCard();
 }
 function acctCard(){
-  if(fb&&fb.user)return `<div class="card"><h3>☁️ บันทึกในบัญชีแล้ว</h3><span class="rd">${esc(fb.user.email||fb.user.displayName||"")} · เปิดจากเครื่องไหนก็ได้ความคืบหน้าเดิม</span><button class="linkbtn" data-act="acct">จัดการบัญชี</button></div>`;
+  if(fb&&fb.user)return `<div class="card"><h3>☁️ บันทึกในบัญชีแล้ว</h3><span class="rd">${esc(who(fb.user))} · เปิดจากเครื่องไหนก็ได้ความคืบหน้าเดิม</span><button class="linkbtn" data-act="acct">จัดการบัญชี</button></div>`;
   return `<div class="card"><h3>เข้าสู่ระบบ (ไม่บังคับ)</h3><span class="rd">ใช้งานได้เลยโดยไม่ต้องสมัคร ความคืบหน้าจะเก็บในเบราว์เซอร์นี้ ถ้าเข้าสู่ระบบ จะบันทึกในบัญชีและใช้ได้หลายเครื่อง</span><button class="btn primary" data-act="acct">เข้าสู่ระบบ / สมัคร</button></div>`;
 }
 function bindAcctCard(){document.querySelectorAll('[data-act="acct"]').forEach(b=>b.onclick=()=>go("signin"));}
@@ -869,7 +869,7 @@ function checkHashImport(){const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]*)/.exec(
 let fb=null,fbFail=false,pushT=null,inkT=null;const inkDirty=new Set();let sync="local";
 const fbOn=()=>!!(CFG.firebase&&CFG.firebase.apiKey);
 function paintAcct(){const b=$("acctBtn");b.hidden=view==="signin";
-  if(fb&&fb.user){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บัญชี: "+(fb.user.email||fb.user.displayName||"");}else{b.classList.remove("on");b.textContent="👤";b.title=b.ariaLabel="เข้าสู่ระบบ";}
+  if(fb&&fb.user){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บัญชี: "+who(fb.user);}else{b.classList.remove("on");b.textContent="👤";b.title=b.ariaLabel="เข้าสู่ระบบ";}
   paintSync();}
 $("acctBtn").onclick=()=>go("signin");
 function paintSync(){const el=$("syncNote");if(!el)return;
@@ -931,33 +931,36 @@ function cloudInk(k){if(!fb||!fb.user)return;inkDirty.add(k);clearTimeout(inkT);
 document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="hidden"&&fb&&fb.user){pushNow();flushInk();}});
 
 let authErr="";
-function errMsg(e){const c=(e&&e.code)||"";return ({"auth/invalid-email":"อีเมลไม่ถูกต้อง","auth/missing-password":"กรุณาใส่รหัสผ่าน","auth/weak-password":"รหัสผ่านต้องยาวอย่างน้อย 6 ตัว","auth/email-already-in-use":"อีเมลนี้สมัครไว้แล้ว ให้กดเข้าสู่ระบบแทน","auth/invalid-credential":"อีเมลหรือรหัสผ่านไม่ถูกต้อง","auth/wrong-password":"อีเมลหรือรหัสผ่านไม่ถูกต้อง","auth/user-not-found":"ยังไม่มีบัญชีนี้ ให้กดสมัครใหม่","auth/too-many-requests":"ลองหลายครั้งเกินไป รอสักครู่แล้วลองใหม่","auth/popup-closed-by-user":"ปิดหน้าต่างก่อนเข้าสู่ระบบเสร็จ","auth/unauthorized-domain":"โดเมนนี้ยังไม่ได้รับอนุญาตใน Firebase (Authorized domains)","auth/network-request-failed":"เชื่อมต่อไม่ได้ ตรวจอินเทอร์เน็ตแล้วลองใหม่"})[c]||("เข้าสู่ระบบไม่สำเร็จ"+(c?` (${c})`:""));}
+const UDOM="@sxmcq.example.com";   /* usernames are stored as <name>@sxmcq.example.com (reserved domain — no mail is ever delivered) */
+const who=u=>{const e=(u&&u.email)||"";return e.endsWith(UDOM)?e.slice(0,-UDOM.length):(e||(u&&u.displayName)||"");};
+function toEmail(x){x=String(x||"").trim();if(x.includes("@"))return x;const n=x.toLowerCase();if(!/^[a-z0-9._-]{3,30}$/.test(n))throw {code:"bad-username"};return n+UDOM;}
+function errMsg(e){const c=(e&&e.code)||"";return ({"bad-username":"ชื่อผู้ใช้ใช้ได้เฉพาะ a-z, 0-9, จุด, ขีด ยาว 3–30 ตัว","auth/invalid-email":"ชื่อผู้ใช้หรืออีเมลไม่ถูกต้อง","auth/missing-password":"กรุณาใส่รหัสผ่าน","auth/weak-password":"รหัสผ่านต้องยาวอย่างน้อย 6 ตัว","auth/email-already-in-use":"ชื่อผู้ใช้/อีเมลนี้มีคนใช้แล้ว ถ้าเป็นของคุณให้กดเข้าสู่ระบบ","auth/invalid-credential":"ชื่อผู้ใช้/อีเมล หรือรหัสผ่านไม่ถูกต้อง","auth/wrong-password":"ชื่อผู้ใช้/อีเมล หรือรหัสผ่านไม่ถูกต้อง","auth/user-not-found":"ยังไม่มีบัญชีนี้ ให้กดสมัครใหม่","auth/too-many-requests":"ลองหลายครั้งเกินไป รอสักครู่แล้วลองใหม่","auth/popup-closed-by-user":"ปิดหน้าต่างก่อนเข้าสู่ระบบเสร็จ","auth/unauthorized-domain":"โดเมนนี้ยังไม่ได้รับอนุญาตใน Firebase (Authorized domains)","auth/network-request-failed":"เชื่อมต่อไม่ได้ ตรวจอินเทอร์เน็ตแล้วลองใหม่"})[c]||("เข้าสู่ระบบไม่สำเร็จ"+(c?` (${c})`:""));}
 function rSignin(){
   let h=`<h1 class="h2">บัญชีของฉัน</h1>`;
   if(!fbOn()){h+=`<div class="card"><h3>ระบบบัญชีกำลังจะเปิดเร็ว ๆ นี้</h3><span class="rd" style="margin:0">ตอนนี้ความคืบหน้าบันทึกในเบราว์เซอร์นี้ ถ้าจะย้ายเครื่อง ให้กด "ส่งลิงก์ความคืบหน้า" ในกระดาษคำตอบ แล้วเปิดลิงก์นั้นบนเครื่องใหม่</span></div><div class="row2"><button class="btn" id="back">กลับ</button></div>`;$("main").innerHTML=h;$("back").onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");return;}
   if(!fb){h+=fbFail?`<p class="sub">เชื่อมต่อระบบบัญชีไม่ได้ ตรวจอินเทอร์เน็ตแล้วรีเฟรชหน้า ระหว่างนี้ใช้งานได้ตามปกติ (บันทึกในเครื่อง)</p><button class="btn" id="back">กลับ</button>`:`<p class="sub">กำลังเชื่อมต่อระบบบัญชี…</p>`;$("main").innerHTML=h;const bk=$("back");if(bk)bk.onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");return;}
   if(fb.user){
-    h+=`<div class="card"><h3>☁️ เข้าสู่ระบบแล้ว</h3><span class="rd">${esc(fb.user.email||fb.user.displayName||"")}</span><span class="rd">ความคืบหน้า โน้ต และที่เขียนไว้ บันทึกในบัญชีนี้อัตโนมัติ เปิดจากเครื่องไหนก็ได้</span></div>
+    h+=`<div class="card"><h3>☁️ เข้าสู่ระบบแล้ว</h3><span class="rd">${esc(who(fb.user))}</span><span class="rd">ความคืบหน้า โน้ต และที่เขียนไว้ บันทึกในบัญชีนี้อัตโนมัติ เปิดจากเครื่องไหนก็ได้</span></div>
     <div class="stack"><button class="btn primary" id="back">กลับไปทำข้อสอบ</button><button class="btn ghost" id="out">ออกจากระบบ</button></div>`;
     $("main").innerHTML=h;$("back").onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");
     $("out").onclick=async()=>{const wipe=confirm("ออกจากระบบ\n\nกด OK = ลบความคืบหน้าออกจากเครื่องนี้ด้วย (แนะนำถ้าเป็นเครื่องคนอื่น — ข้อมูลยังอยู่ในบัญชี)\nกด Cancel = เก็บไว้ในเครื่องนี้");await pushNow();await flushInk();await fb.au.signOut(fb.auth);if(wipe){st={w:{},phase:1,t:0,migrated:1};ink={};persist();try{localStorage.setItem(IKEY,"{}");}catch(e){}}go("");};
     return;}
   h+=`<p class="sub">ไม่บังคับ — เข้าสู่ระบบเพื่อบันทึกความคืบหน้าในบัญชี แล้วใช้ได้หลายเครื่อง ความคืบหน้าที่ทำไว้ในเครื่องนี้จะรวมเข้าบัญชีให้</p>
   <button class="btn primary gbtn" id="gIn">เข้าสู่ระบบด้วย Google</button>
-  <p class="hint" style="margin-top:6px">ถ้าเปิดจากในแอป LINE/IG แล้วกด Google ไม่ได้ ให้เปิดลิงก์ใน Safari/Chrome หรือใช้อีเมลด้านล่าง</p>
-  <div class="or">หรือใช้อีเมล</div>
-  <input class="field-in" id="em" type="email" autocomplete="email" placeholder="อีเมล">
-  <input class="field-in" id="pw" type="password" autocomplete="current-password" placeholder="รหัสผ่าน (อย่างน้อย 6 ตัว)">
+  <p class="hint" style="margin-top:6px">ถ้าเปิดจากในแอป LINE/IG แล้วกด Google ไม่ได้ ให้เปิดลิงก์ใน Safari/Chrome หรือใช้ชื่อผู้ใช้ด้านล่าง</p>
+  <div class="or">หรือใช้ชื่อผู้ใช้ / อีเมล</div>
+  <input class="field-in" id="em" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="ชื่อผู้ใช้ (a-z, 0-9) หรืออีเมล">
+  <input class="field-in" id="pw" type="password" autocomplete="current-password" placeholder="รหัสผ่าน (อย่างน้อย 6 ตัว ตัวเลขล้วนก็ได้)">
   <p class="err" id="err">${esc(authErr)}</p>
   <div class="row2" style="margin-top:4px"><button class="btn primary" id="eIn">เข้าสู่ระบบ</button><button class="btn" id="eUp">สมัครใหม่</button><span class="spacer"></span><button class="linkbtn" id="eReset">ลืมรหัสผ่าน</button></div>
   <div class="row2"><button class="btn ghost" id="skip">ใช้งานโดยไม่เข้าสู่ระบบ</button></div>`;
   $("main").innerHTML=h;
   const A=fb.au,err=m=>{authErr=m;$("err").textContent=m;};
-  const em=()=>$("em").value.trim(),pw=()=>$("pw").value;
+  const em=()=>toEmail($("em").value),pw=()=>$("pw").value;
   $("gIn").onclick=async()=>{err("");const p=new A.GoogleAuthProvider();try{await A.signInWithPopup(fb.auth,p);}catch(e){if(["auth/popup-blocked","auth/operation-not-supported-in-this-environment","auth/cancelled-popup-request"].includes(e.code)){try{await A.signInWithRedirect(fb.auth,p);}catch(e2){err(errMsg(e2));}}else err(errMsg(e));}};
   $("eIn").onclick=async()=>{err("");try{await A.signInWithEmailAndPassword(fb.auth,em(),pw());}catch(e){err(errMsg(e));}};
   $("eUp").onclick=async()=>{err("");try{await A.createUserWithEmailAndPassword(fb.auth,em(),pw());}catch(e){err(errMsg(e));}};
-  $("eReset").onclick=async()=>{if(!em()){err("ใส่อีเมลก่อน แล้วกดลืมรหัสผ่าน");return;}try{await A.sendPasswordResetEmail(fb.auth,em());err("ส่งลิงก์ตั้งรหัสผ่านใหม่ไปที่อีเมลแล้ว");}catch(e){err(errMsg(e));}};
+  $("eReset").onclick=async()=>{const v=$("em").value.trim();if(!v.includes("@")){err("รีเซ็ตรหัสได้เฉพาะบัญชีที่สมัครด้วยอีเมล — ใส่อีเมลแล้วกดอีกครั้ง");return;}try{await A.sendPasswordResetEmail(fb.auth,em());err("ส่งลิงก์ตั้งรหัสผ่านใหม่ไปที่อีเมลแล้ว");}catch(e){err(errMsg(e));}};
   $("skip").onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");
 }
 
