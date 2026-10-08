@@ -1,1 +1,25 @@
-# sx-mcq
+# MCQ Platform Kit (สำเนาโครง platform "AC Peds MCQ" แบบเปล่า)
+
+โครงนี้คือ platform เดิมทุกอย่าง (หน้าตา, กระดาษคำตอบ, การบันทึก, การเรียงข้อ, การเลือกหลายชุด ฯลฯ) แต่ **ไม่มีข้อสอบ** — ใส่ข้อสอบวอร์ดไหนก็ได้
+
+```
+template.html        หน้าเว็บทั้งหมด (CSS + JS) — มีช่อง /*DATA*/ /*TITLE*/ /*BRAND*/ /*SUB*/ ให้ build.py เติม
+config.json          ชื่อ platform, ชื่อย่อ, storageKey, ป้ายฟิลด์, ตารางชื่อไฟล์ต้นฉบับ (โค้ด → ชื่อไฟล์)
+core.js              const IMGS={}; const QB=[];
+data/data_bN.js      ข้อสอบ 1 ไฟล์ต่อ 1 ชุด (ปี + rotation) — build เรียงตามเลข N (N = ลำดับที่สร้าง → rid)
+img/*.jpg            รูปโจทย์ (q…) และรูปเฉลย/สไลด์ (k…) — ชื่อไฟล์ (ไม่รวมนามสกุล) = image key
+fixes.js (ไม่บังคับ)  แพตช์ทับข้อมูลภายหลังแบบอ้าง rid (ถ้าต้องแก้ทีละมาก ๆ)
+build.py             python3 build.py [outdir]  → out/index.html + out/img/
+tools/validate.js    node tools/validate.js      → ต้องได้ "bad 0"
+tools/optcheck.js    node tools/optcheck.js [fromRid] → หาช้อยที่ "ใบ้คำตอบ" (ช้อยถูกยาว/มีวงเล็บ)
+tools/find.js        node tools/find.js "<regex>" → ค้นข้อเดิมในคลังเพื่ออ้างอิง/ตอบให้สอดคล้อง
+tools/smoke.py       python3 tools/smoke.py      → เปิดหน้าใน Chromium ขนาดมือถือ ทดสอบตอบ/รูป/error
+examples/            ตัวอย่างรูปแบบไฟล์ข้อมูล (อย่า build ตรง ๆ)
+```
+
+Publish: ไฟล์หน้า = out/index.html ; รูปทุกไฟล์ส่งเป็น supporting files `img/<ชื่อ>.jpg` (ไม่ฝัง base64 เพราะหน้าจะเกิน 16 MB) ; ประกาศ capabilities `db` + `user` เพื่อให้ความคืบหน้าซิงก์ตามบัญชี
+
+## เว็บไซต์ (GitHub Pages)
+- เว็บ: https://bankypp.github.io/sx-mcq/
+- หน้าเว็บที่ build แล้วอยู่ใน `docs/` (GitHub Pages → branch `main`, โฟลเดอร์ `/docs`)
+- build: `python3 build.py docs`

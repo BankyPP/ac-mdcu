@@ -1,0 +1,2 @@
+const IMGS={};
+const QB=[];
