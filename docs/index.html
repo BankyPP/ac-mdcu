@@ -493,7 +493,9 @@ function rHome(){
     const sc=staffList().length;
     h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${r.soon?'<span class="soon">เร็ว ๆ นี้</span>':(r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:"")}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span></button>`).join("")}</div>`;
   }
+  if(type==="MCQ")h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd">ส่งลิงก์ไปเปิดบนเครื่องอื่น หรือวางลิงก์/รหัสที่ได้มา (รวมถึงจาก artifact ใน Claude) — ย้ายเฉพาะคำตอบของ Phase ${p}</span><div class="row2" style="margin-top:0"><button class="btn" id="hExp">ส่งลิงก์ความคืบหน้า</button><button class="btn ghost" id="hImp">นำเข้า</button></div></div>`;
   $("main").innerHTML=h;
+  {const e=$("hExp");if(e)e.onclick=exportLink;const i=$("hImp");if(i)i.onclick=importPrompt;}
   document.querySelectorAll("[data-type]").forEach(b=>b.onclick=()=>{P.type=b.dataset.type;save();rHome();});
   document.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{st.phase=+b.dataset.ph;save();rHome();});
   document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(ward+"/"+b.dataset.go));
@@ -862,7 +864,7 @@ function importPrompt(){const c=prompt("วางลิงก์หรือร�
   if(m){w=m[1]&&WARDS[m[1]]?m[1]:ward;o=decodeP(w,m[2]);}
   else{try{const x=JSON.parse(decodeURIComponent(escape(atob(c.trim()))));if(x&&x.a)o=x.a;}catch(e){}}
   const n=Object.keys(o).length;if(!n){alert("ลิงก์หรือรหัสไม่ถูกต้อง หรือไม่ตรงกับข้อในคลังนี้");return;}
-  if(confirm(`นำเข้าความคืบหน้า ${n} ข้อ เข้า Phase ${ph()} ของเครื่องนี้?`)){applyImport(w,o);alert("นำเข้าเรียบร้อย");if(view==="svc"){sheet();rQuiz();}}}
+  if(confirm(`นำเข้าความคืบหน้า ${n} ข้อ เข้า Phase ${ph()} ของเครื่องนี้?`)){applyImport(w,o);alert("นำเข้าเรียบร้อย");if(view==="svc"){sheet();rQuiz();}else if(view==="home")rHome();}}
 function checkHashImport(){const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]*)/.exec(location.hash||"");if(!m)return false;
   const w=m[1]&&WARDS[m[1]]?m[1]:WL[0].id,o=decodeP(w,m[2]);try{history.replaceState(null,"",location.pathname+location.search+"#/"+w);}catch(e){location.hash="#/"+w;}
   setTimeout(()=>{const n=Object.keys(o).length;if(n&&confirm(`ลิงก์นี้มีความคืบหน้า ${n} ข้อ — นำเข้าเข้า Phase ${ph()} ของเครื่องนี้ไหม?`)){applyImport(w,o);toast("นำเข้าเรียบร้อย");route();}},300);return true;}
