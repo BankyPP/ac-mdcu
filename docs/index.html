@@ -408,7 +408,7 @@ function toast(m){const t=$("toast");t.textContent=m;t.hidden=false;clearTimeout
 
 /* ---------------- router ---------------- */
 let view="wards", pick=null;
-function parseHash(){const h=(location.hash||"").replace(/^#\/?/,"");if(/(^|&)p=/.test(h))return {w:"",v:""};const a=h.split("/");return {w:a[0]||"",v:a[1]||""};}
+function parseHash(){const h=(location.hash||"").replace(/^#\/?/,"");if(/(^|&)(p|all)=/.test(h))return {w:"",v:""};const a=h.split("/");return {w:a[0]||"",v:a[1]||""};}
 function go(path){const h="#/"+path;if(location.hash===h)route();else location.hash=h;}
 window.addEventListener("hashchange",route);
 function route(){
@@ -493,9 +493,9 @@ function rHome(){
     const sc=staffList().length;
     h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${r.soon?'<span class="soon">เร็ว ๆ นี้</span>':(r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:"")}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span></button>`).join("")}</div>`;
   }
-  if(type==="MCQ")h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd">ส่งลิงก์ไปเปิดบนเครื่องอื่น หรือวางลิงก์/รหัสที่ได้มา (รวมถึงจาก artifact ใน Claude) — ย้ายเฉพาะคำตอบของ Phase ${p}</span><div class="row2" style="margin-top:0"><button class="btn" id="hExp">ส่งลิงก์ความคืบหน้า</button><button class="btn ghost" id="hImp">นำเข้า</button></div></div>`;
+  h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
   $("main").innerHTML=h;
-  {const e=$("hExp");if(e)e.onclick=exportLink;const i=$("hImp");if(i)i.onclick=importPrompt;}
+  $("hExp").onclick=exportLink;$("hImp").onclick=importPrompt;$("hFile").onclick=exportFile;$("hFileIn").onclick=importFile;
   document.querySelectorAll("[data-type]").forEach(b=>b.onclick=()=>{P.type=b.dataset.type;save();rHome();});
   document.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{st.phase=+b.dataset.ph;save();rHome();});
   document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(ward+"/"+b.dataset.go));
@@ -850,24 +850,64 @@ document.addEventListener("keydown",e=>{
 
 /* ---------------- progress link export / import ---------------- */
 const SITE=(()=>{try{if(/^https?:$/.test(location.protocol))return location.origin+location.pathname;}catch(e){}return CFG.siteUrl||"";})();
-function exportLink(){
-  const P=P_(),p=ph(),a={};W_().QB.forEach(q=>{const x=lockedAns(P,p,q.uid);if(x!==undefined)a[q.uid]=x;});
-  if(!Object.keys(a).length){alert("ยังไม่มีคำตอบให้ส่ง");return;}
-  const link=SITE+"#p="+ward+"."+Object.keys(a).map(u=>H7(u)+a[u]).join("");
-  (async()=>{if(navigator.share){try{await navigator.share({title:"ความคืบหน้า "+(W_().cfg.brand||""),url:link});return;}catch(e){if(e&&e.name==="AbortError")return;}}
-    try{await navigator.clipboard.writeText(link);alert("คัดลอกลิงก์ความคืบหน้าแล้ว — เปิดลิงก์นี้บนเครื่องใหม่เพื่อนำความคืบหน้าไปด้วย");}catch(e){prompt("คัดลอกลิงก์นี้ไปเปิดบนเครื่องใหม่:",link);}})();
-}
+/* "all" link: every ward, both phases (answer sequences, last 20 each), ⚑ flags.
+   format  #all=<ward>:<entry>,<entry>~<ward>:…   entry = <7-char hash of uid><P1 answers>[-<P2 answers>][!]  */
+const SEQMAX=20;
+function encodeAll(){const parts=[];
+  WL.forEach(w=>{const W=WARDS[w.id];if(!W||!st.w[w.id])return;const P=PWof(st,w.id),es=[];
+    W.QB.forEach(q=>{const u=q.uid,a1=atts(P,1,u).slice(-SEQMAX).map(x=>x[0]).join(""),a2=atts(P,2,u).slice(-SEQMAX).map(x=>x[0]).join(""),f=flagged(P,u);
+      if(!a1&&!a2&&!f)return;es.push(H7(u)+a1+(a2||f?"-"+a2:"")+(f?"!":""));});
+    if(es.length)parts.push(w.id+":"+es.join(","));});
+  return parts.join("~");}
+function decodeAll(str){const out={};let n=0;
+  String(str||"").split("~").forEach(part=>{const k=part.indexOf(":");if(k<1)return;const w=part.slice(0,k),W=WARDS[w];if(!W)return;
+    const m={};W.QB.forEach(q=>{m[H7(q.uid)]=q.uid;});const o={};
+    part.slice(k+1).split(",").forEach(e=>{const r=/^([0-9a-z]{7})([0-4]*)(?:-([0-4]*))?(!)?$/.exec(e);if(!r||!m[r[1]])return;
+      o[m[r[1]]]={1:r[2].split("").map(Number),2:(r[3]||"").split("").map(Number),f:!!r[4]};n++;});
+    if(Object.keys(o).length)out[w]=o;});
+  return {data:out,n};}
+function applyAll(data,replace){let t=now();
+  for(const w in data){const P=PWof(st,w),o=data[w];
+    if(replace){P.att={1:{},2:{}};P.open={1:{},2:{}};P.flag={};}
+    for(const u in o){[1,2].forEach(p=>{const seq=o[u][p];if(!seq.length)return;const cur=atts(P,p,u);
+        if(replace||seq.length>cur.length)P.att[p][u]=seq.map(a=>[a,t++]);});
+      if(o[u].f)P.flag[u]=[1,t++];}}
+  save();}
+function shareLink(link,title){(async()=>{if(navigator.share){try{await navigator.share({title,url:link});return;}catch(e){if(e&&e.name==="AbortError")return;}}
+  try{await navigator.clipboard.writeText(link);alert("คัดลอกลิงก์ความคืบหน้าแล้ว — เปิดลิงก์นี้บนเครื่องใหม่เพื่อนำความคืบหน้าไปด้วย");}catch(e){prompt("คัดลอกลิงก์นี้ไปเปิดบนเครื่องใหม่:",link);}})();}
+function exportLink(){const d=encodeAll();if(!d){alert("ยังไม่มีคำตอบให้ส่ง");return;}shareLink(SITE+"#all="+d,"ความคืบหน้า "+(CFG.siteName||""));}
+/* older single-phase links: #p=[ward.]<hash7+answer>… (also made by the artifact in Claude) */
 function decodeP(w,p){const W=WARDS[w];if(!W)return {};const m={};W.QB.forEach(q=>{m[H7(q.uid)]=q.uid;});const o={};p=String(p).replace(/[^0-9a-z]/g,"");for(let i=0;i+8<=p.length;i+=8){const u=m[p.slice(i,i+7)],v=+p[i+7];if(u&&v>=0&&v<5)o[u]=v;}return o;}
 function applyImport(w,o){const P=PWof(st,w),p=ph(),t=now();let n=0;Object.keys(o).forEach(u=>{const a=lastA(P,p,u);if(!a||a[0]!==o[u]){(P.att[p][u]=P.att[p][u]||[]).push([o[u],t]);n++;}});save();return n;}
-function importPrompt(){const c=prompt("วางลิงก์หรือรหัสความคืบหน้าที่สำรองไว้:");if(!c)return;
-  const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]+)/.exec(c);let o={},w=ward;
-  if(m){w=m[1]&&WARDS[m[1]]?m[1]:ward;o=decodeP(w,m[2]);}
-  else{try{const x=JSON.parse(decodeURIComponent(escape(atob(c.trim()))));if(x&&x.a)o=x.a;}catch(e){}}
+const askMode=n=>confirm(`นำเข้าความคืบหน้า ${n} ข้อ (ทุกวอร์ด ทุก Phase)\n\nกด OK = รวมกับของเครื่องนี้ (ข้อไหนทำในเครื่องนี้มากกว่า จะเก็บของเครื่องนี้ไว้)\nกด Cancel = ไม่นำเข้า`);
+function afterImport(){toast("นำเข้าเรียบร้อย");route();}
+function importText(c){
+  const a=/[#&]all=([0-9a-z:,~!_-]*)/.exec(c);
+  if(a){const r=decodeAll(a[1]);if(!r.n){alert("ลิงก์ไม่ถูกต้อง หรือไม่ตรงกับข้อในคลังนี้");return;}if(askMode(r.n)){applyAll(r.data,false);afterImport();}return;}
+  const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]+)/.exec(c);let o={},w=ward||WL[0].id;
+  if(m){w=m[1]&&WARDS[m[1]]?m[1]:w;o=decodeP(w,m[2]);}
+  else{try{const x=JSON.parse(decodeURIComponent(escape(atob(String(c).trim()))));if(x&&x.a)o=x.a;}catch(e){}}
   const n=Object.keys(o).length;if(!n){alert("ลิงก์หรือรหัสไม่ถูกต้อง หรือไม่ตรงกับข้อในคลังนี้");return;}
-  if(confirm(`นำเข้าความคืบหน้า ${n} ข้อ เข้า Phase ${ph()} ของเครื่องนี้?`)){applyImport(w,o);alert("นำเข้าเรียบร้อย");if(view==="svc"){sheet();rQuiz();}else if(view==="home")rHome();}}
-function checkHashImport(){const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]*)/.exec(location.hash||"");if(!m)return false;
-  const w=m[1]&&WARDS[m[1]]?m[1]:WL[0].id,o=decodeP(w,m[2]);try{history.replaceState(null,"",location.pathname+location.search+"#/"+w);}catch(e){location.hash="#/"+w;}
-  setTimeout(()=>{const n=Object.keys(o).length;if(n&&confirm(`ลิงก์นี้มีความคืบหน้า ${n} ข้อ — นำเข้าเข้า Phase ${ph()} ของเครื่องนี้ไหม?`)){applyImport(w,o);toast("นำเข้าเรียบร้อย");route();}},300);return true;}
+  if(confirm(`ลิงก์/รหัสแบบเก่า มีความคืบหน้า ${n} ข้อของวอร์ด ${WARDS[w].cfg.name} — นำเข้าเข้า Phase ${ph()} ของเครื่องนี้?`)){applyImport(w,o);afterImport();}}
+function importPrompt(){const c=prompt("วางลิงก์หรือรหัสความคืบหน้าที่สำรองไว้:");if(c)importText(c);}
+function checkHashImport(){const h=location.hash||"";if(!/[#&](all|p)=/.test(h))return false;
+  try{history.replaceState(null,"",location.pathname+location.search+"#/");}catch(e){location.hash="#/";}
+  setTimeout(()=>importText(h),300);return true;}
+/* full backup file: everything incl. typed notes and handwriting */
+function exportFile(){
+  const blob=new Blob([JSON.stringify({kind:"ac-mcq-backup",v:3,site:CFG.siteName||"",t:now(),st,ink})],{type:"application/json"});
+  const d=new Date(),a=document.createElement("a");a.href=URL.createObjectURL(blob);
+  a.download=`ac-mcq-backup-${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}.json`;
+  document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1500);}
+function importFile(){
+  const i=document.createElement("input");i.type="file";i.accept=".json,application/json";
+  i.onchange=async()=>{const f=i.files&&i.files[0];if(!f)return;let o;try{o=JSON.parse(await f.text());}catch(e){o=null;}
+    if(!o||o.kind!=="ac-mcq-backup"||!o.st){alert("ไฟล์นี้ไม่ใช่ไฟล์สำรองของเว็บนี้");return;}
+    if(!confirm("นำเข้าไฟล์สำรอง? จะรวมกับข้อมูลในเครื่องนี้ (คำตอบรวมกัน โน้ตใช้ฉบับที่แก้ล่าสุด)"))return;
+    mergeSt(st,o.st);const ks=[];for(const k in o.ink||{}){if(!ink[k]||(o.ink[k].ts||0)>(ink[k].ts||0)){ink[k]=o.ink[k];ks.push(k);}}
+    try{localStorage.setItem(IKEY,JSON.stringify(ink));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}
+    save();ks.forEach(k=>cloudInk(k));afterImport();};
+  i.click();}
 
 /* ---------------- accounts (Firebase, optional) ---------------- */
 let fb=null,fbFail=false,pushT=null,inkT=null;const inkDirty=new Set();let sync="local";
