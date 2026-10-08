@@ -90,7 +90,9 @@ function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]
 function show(v){
   view=v;const quiz=v==="svc"||v==="sess";
   $("nav").hidden=!quiz;$("openSheet").hidden=!quiz;$("homeBtn").hidden=v==="wards";
-  const w=ward&&W_();$("brand").textContent=w?(w.cfg.brand||w.cfg.name):(CFG.siteName||CFG.title||"คลังข้อสอบเก่า");
+  const w=ward&&W_();const fill=(t,ty)=>String(t).replace(/\{short\}/g,w.cfg.short||w.cfg.id).replace(/\{type\}/g,ty||"");
+  $("brand").classList.toggle("long",!!w&&!quiz);
+  $("brand").textContent=w?(quiz?fill(CFG.quizBrand||"AC {short} {type}","MCQ"):fill(CFG.homeBrand||w.cfg.brand||w.cfg.name)):(CFG.siteName||CFG.title||"คลังข้อสอบเก่า");
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
@@ -533,7 +535,7 @@ function checkHashImport(){const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]*)/.exec(
 let fb=null,fbFail=false,pushT=null,inkT=null;const inkDirty=new Set();let sync="local";
 const fbOn=()=>!!(CFG.firebase&&CFG.firebase.apiKey);
 function paintAcct(){const b=$("acctBtn");if(!fbOn()){b.hidden=true;return;}b.hidden=view==="signin";
-  if(fb&&fb.user){b.classList.add("on");b.textContent="☁️ "+((fb.user.email||fb.user.displayName||"บัญชี").split("@")[0]);}else{b.classList.remove("on");b.textContent="เข้าสู่ระบบ";}
+  if(fb&&fb.user){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บัญชี: "+(fb.user.email||fb.user.displayName||"");}else{b.classList.remove("on");b.textContent="👤";b.title=b.ariaLabel="เข้าสู่ระบบ";}
   paintSync();}
 $("acctBtn").onclick=()=>go("signin");
 function paintSync(){const el=$("syncNote");if(!el)return;
