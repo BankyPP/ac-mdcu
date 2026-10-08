@@ -12,6 +12,7 @@ const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",
 const plain=s=>{try{return (new DOMParser().parseFromString(String(s==null?"":s),"text/html").body.textContent||"").replace(/\s+/g," ").trim();}catch(e){return String(s||"");}};
 const H7=s=>{let h=0x811c9dc5;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,0x01000193)>>>0;}return h.toString(36).padStart(7,"0");};
 const now=()=>Date.now();
+const IN_FRAME=(()=>{try{return window.top!==window;}catch(e){return true;}})();   /* true when shown inside claude.ai (artifact) */
 
 /* ---------------- wards & question banks ---------------- */
 const WL=(CFG.wards&&CFG.wards.length)?CFG.wards:[{id:"main",name:CFG.brand||"คลังข้อสอบ",brand:CFG.brand||"MCQ",short:"MCQ"}];
@@ -111,6 +112,8 @@ function rWards(){
   $("main").innerHTML=h;bindAcctCard();
 }
 function acctCard(){
+  if(cl)return `<div class="card"><h3>☁️ บันทึกในบัญชี Claude แล้ว</h3><span class="rd" style="margin:0">ความคืบหน้าบันทึกในบัญชี Claude ของคุณอัตโนมัติ เปิดจากเครื่องไหนก็ได้</span></div>`;
+  if(HAS_CLAUDE()&&!fbOn())return "";
   if(fb&&fb.user)return `<div class="card"><h3>☁️ บันทึกในบัญชีแล้ว</h3><span class="rd">${esc(who(fb.user))} · เปิดจากเครื่องไหนก็ได้ความคืบหน้าเดิม</span><button class="linkbtn" data-act="acct">จัดการบัญชี</button></div>`;
   return `<div class="card"><h3>เข้าสู่ระบบ (ไม่บังคับ)</h3><span class="rd">ใช้งานได้เลยโดยไม่ต้องสมัคร ความคืบหน้าจะเก็บในเบราว์เซอร์นี้ ถ้าเข้าสู่ระบบ จะบันทึกในบัญชีและใช้ได้หลายเครื่อง</span><button class="btn primary" data-act="acct">เข้าสู่ระบบ / สมัคร</button></div>`;
 }
@@ -348,7 +351,7 @@ function bindAsk(q){
     let cut=700,pr=askPrompt(q,done,ask,cut),url="https://claude.ai/new?q="+encodeURIComponent(pr);
     while(url.length>7000&&cut>80){cut=Math.round(cut*0.7);pr=askPrompt(q,done,ask,cut);url="https://claude.ai/new?q="+encodeURIComponent(pr);}
     try{navigator.clipboard&&navigator.clipboard.writeText(full).catch(()=>{});}catch(e){}
-    const w=window.open(url,"_blank","noopener");if(!w)location.href=url;
+    let w=null;try{w=window.open(url,"_blank","noopener");}catch(e){}if(!w&&!IN_FRAME)location.href=url;else if(!w)toast("คัดลอกคำถามไว้แล้ว — เปิด claude.ai แล้ววาง");
   };
 }
 
@@ -519,7 +522,7 @@ document.addEventListener("keydown",e=>{
 });
 
 /* ---------------- progress link export / import ---------------- */
-const SITE=(()=>{try{if(/^https?:$/.test(location.protocol))return location.origin+location.pathname;}catch(e){}return CFG.siteUrl||"";})();
+const SITE=(()=>{try{if(!IN_FRAME&&/^https?:$/.test(location.protocol))return location.origin+location.pathname;}catch(e){}return CFG.siteUrl||"";})();
 /* "all" link: every ward, both phases (answer sequences, last 20 each), ⚑ flags.
    format  #all=<ward>:<entry>,<entry>~<ward>:…   entry = <7-char hash of uid><P1 answers>[-<P2 answers>][!]  */
 const SEQMAX=20;
@@ -545,14 +548,16 @@ function applyAll(data,replace){let t=now();
   save();}
 function shareLink(link,title){(async()=>{if(navigator.share){try{await navigator.share({title,url:link});return;}catch(e){if(e&&e.name==="AbortError")return;}}
   try{await navigator.clipboard.writeText(link);alert("คัดลอกลิงก์ความคืบหน้าแล้ว — เปิดลิงก์นี้บนเครื่องใหม่เพื่อนำความคืบหน้าไปด้วย");}catch(e){prompt("คัดลอกลิงก์นี้ไปเปิดบนเครื่องใหม่:",link);}})();}
-function exportLink(){const d=encodeAll();if(!d){alert("ยังไม่มีคำตอบให้ส่ง");return;}shareLink(SITE+"#all="+d,"ความคืบหน้า "+(CFG.siteName||""));}
+function exportLink(){const d=encodeAll();if(!d){alert("ยังไม่มีคำตอบให้ส่ง");return;}
+  if(!SITE){const code="AC-PROGRESS:"+d;(async()=>{try{await navigator.clipboard.writeText(code);alert("คัดลอกรหัสความคืบหน้าแล้ว — บนเครื่องใหม่กด \"นำเข้าลิงก์ / รหัส\" แล้ววางรหัสนี้");}catch(e){prompt("คัดลอกรหัสนี้ไปวางบนเครื่องใหม่ (ปุ่มนำเข้าลิงก์ / รหัส):",code);}})();return;}
+  shareLink(SITE+"#all="+d,"ความคืบหน้า "+(CFG.siteName||""));}
 /* older single-phase links: #p=[ward.]<hash7+answer>… (also made by the artifact in Claude) */
 function decodeP(w,p){const W=WARDS[w];if(!W)return {};const m={};W.QB.forEach(q=>{m[H7(q.uid)]=q.uid;});const o={};p=String(p).replace(/[^0-9a-z]/g,"");for(let i=0;i+8<=p.length;i+=8){const u=m[p.slice(i,i+7)],v=+p[i+7];if(u&&v>=0&&v<5)o[u]=v;}return o;}
 function applyImport(w,o){const P=PWof(st,w),p=ph(),t=now();let n=0;Object.keys(o).forEach(u=>{const a=lastA(P,p,u);if(!a||a[0]!==o[u]){(P.att[p][u]=P.att[p][u]||[]).push([o[u],t]);n++;}});save();return n;}
 const askMode=n=>confirm(`นำเข้าความคืบหน้า ${n} ข้อ (ทุกวอร์ด ทุก Phase)\n\nกด OK = รวมกับของเครื่องนี้ (ข้อไหนทำในเครื่องนี้มากกว่า จะเก็บของเครื่องนี้ไว้)\nกด Cancel = ไม่นำเข้า`);
 function afterImport(){toast("นำเข้าเรียบร้อย");route();}
 function importText(c){
-  const a=/[#&]all=([0-9a-z:,~!_-]*)/.exec(c);
+  const a=/(?:[#&]all=|AC-PROGRESS:)([0-9a-z:,~!_-]*)/.exec(c);
   if(a){const r=decodeAll(a[1]);if(!r.n){alert("ลิงก์ไม่ถูกต้อง หรือไม่ตรงกับข้อในคลังนี้");return;}if(askMode(r.n)){applyAll(r.data,false);afterImport();}return;}
   const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]+)/.exec(c);let o={},w=ward||WL[0].id;
   if(m){w=m[1]&&WARDS[m[1]]?m[1]:w;o=decodeP(w,m[2]);}
@@ -564,10 +569,11 @@ function checkHashImport(){const h=location.hash||"";if(!/[#&](all|p)=/.test(h))
   try{history.replaceState(null,"",location.pathname+location.search+"#/");}catch(e){location.hash="#/";}
   setTimeout(()=>importText(h),300);return true;}
 /* full backup file: everything incl. typed notes and handwriting */
-function exportFile(){
+async function exportFile(){
   const blob=new Blob([JSON.stringify({kind:"ac-mcq-backup",v:3,site:CFG.siteName||"",t:now(),st,ink})],{type:"application/json"});
-  const d=new Date(),a=document.createElement("a");a.href=URL.createObjectURL(blob);
-  a.download=`ac-mcq-backup-${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}.json`;
+  const d=new Date(),fn=`ac-mcq-backup-${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}.json`;
+  if(HAS_CLAUDE()){try{const dl=await window.claude.use("downloads");if(dl){try{await dl.save({filename:fn,data:blob});return;}catch(e){const c=e&&e.code;if(c==="declined")return;if(!["unavailable","not_granted","capability_disabled","capability_removed"].includes(c)){toast("บันทึกไฟล์ไม่สำเร็จ"+(c?" ("+c+")":""));return;}}}}catch(e){}}
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=fn;
   document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1500);}
 function importFile(){
   const i=document.createElement("input");i.type="file";i.accept=".json,application/json";
@@ -581,13 +587,18 @@ function importFile(){
 
 /* ---------------- accounts (Firebase, optional) ---------------- */
 let fb=null,fbFail=false,pushT=null,inkT=null;const inkDirty=new Set();let sync="local";
+/* When the page runs as an artifact inside claude.ai, progress syncs to the viewer's Claude account (db + user capabilities). */
+let cl=null;
+const HAS_CLAUDE=()=>!!(window.claude&&typeof window.claude.use==="function");
 const fbOn=()=>!!(CFG.firebase&&CFG.firebase.apiKey);
 function paintAcct(){const b=$("acctBtn");b.hidden=view==="signin";
-  if(fb&&fb.user){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บัญชี: "+who(fb.user);}else{b.classList.remove("on");b.textContent="👤";b.title=b.ariaLabel="เข้าสู่ระบบ";}
+  if(cl){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บันทึกในบัญชี Claude";}
+  else if(fb&&fb.user){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บัญชี: "+who(fb.user);}else{b.classList.remove("on");b.textContent="👤";b.title=b.ariaLabel="เข้าสู่ระบบ";}
   paintSync();}
 $("acctBtn").onclick=()=>go("signin");
 function paintSync(){const el=$("syncNote");if(!el)return;
-  if(fb&&fb.user)el.textContent=sync==="error"?"⚠️ ซิงก์กับบัญชีไม่สำเร็จ — ยังบันทึกในเครื่องนี้อยู่":sync==="saving"?"☁️ กำลังบันทึก…":"☁️ บันทึกในบัญชีแล้ว · ใช้ได้ทุกเครื่อง";
+  if(cl)el.textContent=sync==="error"?"⚠️ ซิงก์กับบัญชี Claude ไม่สำเร็จ — ยังบันทึกในเครื่องนี้อยู่":sync==="saving"?"☁️ กำลังบันทึก…":"☁️ บันทึกในบัญชี Claude แล้ว · ใช้ได้ทุกเครื่อง";
+  else if(fb&&fb.user)el.textContent=sync==="error"?"⚠️ ซิงก์กับบัญชีไม่สำเร็จ — ยังบันทึกในเครื่องนี้อยู่":sync==="saving"?"☁️ กำลังบันทึก…":"☁️ บันทึกในบัญชีแล้ว · ใช้ได้ทุกเครื่อง";
   else el.textContent=fbOn()?"💾 บันทึกในเบราว์เซอร์นี้ — เข้าสู่ระบบเพื่อใช้หลายเครื่อง":"💾 บันทึกในเบราว์เซอร์นี้ — ย้ายเครื่องได้ด้วยปุ่ม \"ส่งลิงก์ความคืบหน้า\"";}
 async function initFB(){
   if(!fbOn())return;
@@ -638,11 +649,45 @@ async function pull(){
 }
 async function pushNow(){if(!fb||!fb.user)return;clearTimeout(pushT);sync="saving";paintSync();
   try{await fb.fs.setDoc(uref(),{d:JSON.stringify(st),t:st.t||now(),v:3});sync="cloud";}catch(e){console.warn(e);sync="error";}paintSync();}
-function cloudPush(){if(!fb||!fb.user)return;clearTimeout(pushT);pushT=setTimeout(pushNow,1500);}
+function cloudPush(){if(cl){clearTimeout(pushT);pushT=setTimeout(clPush,1500);return;}if(!fb||!fb.user)return;clearTimeout(pushT);pushT=setTimeout(pushNow,1500);}
 async function flushInk(){if(!fb||!fb.user)return;clearTimeout(inkT);const ks=[...inkDirty];inkDirty.clear();
   for(const k of ks){try{if(ink[k])await fb.fs.setDoc(fb.fs.doc(inkCol(),inkId(k)),{k,d:JSON.stringify(ink[k]),ts:ink[k].ts||now()});}catch(e){console.warn(e);inkDirty.add(k);sync="error";}}paintSync();}
-function cloudInk(k){if(!fb||!fb.user)return;inkDirty.add(k);clearTimeout(inkT);inkT=setTimeout(flushInk,2000);}
-document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="hidden"&&fb&&fb.user){pushNow();flushInk();}});
+function cloudInk(k){if(cl){inkDirty.add(k);clearTimeout(inkT);inkT=setTimeout(clInk,2000);return;}if(!fb||!fb.user)return;inkDirty.add(k);clearTimeout(inkT);inkT=setTimeout(flushInk,2000);}
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState!=="hidden")return;if(cl){clPush();clInk();}else if(fb&&fb.user){pushNow();flushInk();}});
+
+/* ---- Claude account backend: docs in data/users/<id>/ — "meta", "w_<ward>" (one per ward, < 256 KiB each), "ink_<hash>" ---- */
+async function initClaude(){
+  try{
+    const [db,user]=await Promise.all([window.claude.use("db"),window.claude.use("user")]);
+    if(!db||!user)return;const uid=await user.id();if(!uid)return;
+    cl={db,col:"data/users/"+uid};sync="saving";paintAcct();
+    await clPull();sync="cloud";
+  }catch(e){console.warn("claude sync",e);if(cl)sync="error";}
+  paintAcct();if(view==="svc"||view==="sess")rQuiz();else route();
+}
+async function clPull(){
+  const snap=await cl.db.collection(cl.col).limit(1000).get();
+  const r={w:{},t:0},rts={};
+  snap.docs.forEach(d=>{const id=d.id,x=d.data()||{};try{
+    if(id==="meta"){const m=JSON.parse(x.d||"{}");r.phase=m.phase;r.noteMode=m.noteMode;r.t=Math.max(r.t,x.t||0);}
+    else if(id.startsWith("w_")){r.w[id.slice(2)]=JSON.parse(x.d||"{}");r.t=Math.max(r.t,x.t||0);}
+    else if(id.startsWith("ink_")&&x.k){const v=JSON.parse(x.d);rts[x.k]=v.ts||0;if(!ink[x.k]||(v.ts||0)>(ink[x.k].ts||0))ink[x.k]=v;}
+  }catch(e){}});
+  mergeSt(st,r);
+  try{localStorage.setItem(KEY,JSON.stringify(st));localStorage.setItem(IKEY,JSON.stringify(ink));}catch(e){}
+  await clPush();
+  Object.keys(ink).forEach(k=>{if((ink[k].ts||0)>(rts[k]||0))inkDirty.add(k);});
+  await clInk();
+}
+let clBusy=false,clAgain=false;
+async function clPush(){if(!cl)return;clearTimeout(pushT);if(clBusy){clAgain=true;return;}clBusy=true;sync="saving";paintSync();
+  try{const t=st.t||now();
+    await cl.db.doc(cl.col+"/meta").set({d:JSON.stringify({phase:st.phase,noteMode:st.noteMode||"",lastWard:st.lastWard||""}),t});
+    for(const id in st.w)await cl.db.doc(cl.col+"/w_"+id).set({d:JSON.stringify(st.w[id]),t});
+    sync="cloud";}catch(e){console.warn(e);sync="error";}
+  clBusy=false;paintSync();if(clAgain){clAgain=false;clPush();}}
+async function clInk(){if(!cl)return;clearTimeout(inkT);const ks=[...inkDirty];inkDirty.clear();
+  for(const k of ks){try{if(ink[k])await cl.db.doc(cl.col+"/ink_"+inkId(k)).set({k,d:JSON.stringify(ink[k]),ts:ink[k].ts||now()});}catch(e){console.warn(e);inkDirty.add(k);sync="error";}}paintSync();}
 
 let authErr="";
 const UDOM="@sxmcq.example.com";   /* usernames are stored as <name>@sxmcq.example.com (reserved domain — no mail is ever delivered) */
@@ -651,6 +696,9 @@ function toEmail(x){x=String(x||"").trim();if(x.includes("@"))return x;const n=x
 function errMsg(e){const c=(e&&e.code)||"";return ({"bad-username":"ชื่อผู้ใช้ใช้ได้เฉพาะ a-z, 0-9, จุด, ขีด ยาว 3–30 ตัว","auth/invalid-email":"ชื่อผู้ใช้หรืออีเมลไม่ถูกต้อง","auth/missing-password":"กรุณาใส่รหัสผ่าน","auth/weak-password":"รหัสผ่านต้องยาวอย่างน้อย 6 ตัว","auth/email-already-in-use":"ชื่อผู้ใช้/อีเมลนี้มีคนใช้แล้ว ถ้าเป็นของคุณให้กดเข้าสู่ระบบ","auth/invalid-credential":"ชื่อผู้ใช้/อีเมล หรือรหัสผ่านไม่ถูกต้อง","auth/wrong-password":"ชื่อผู้ใช้/อีเมล หรือรหัสผ่านไม่ถูกต้อง","auth/user-not-found":"ยังไม่มีบัญชีนี้ ให้กดสมัครใหม่","auth/too-many-requests":"ลองหลายครั้งเกินไป รอสักครู่แล้วลองใหม่","auth/popup-closed-by-user":"ปิดหน้าต่างก่อนเข้าสู่ระบบเสร็จ","auth/unauthorized-domain":"โดเมนนี้ยังไม่ได้รับอนุญาตใน Firebase (Authorized domains)","auth/network-request-failed":"เชื่อมต่อไม่ได้ ตรวจอินเทอร์เน็ตแล้วลองใหม่"})[c]||("เข้าสู่ระบบไม่สำเร็จ"+(c?` (${c})`:""));}
 function rSignin(){
   let h=`<h1 class="h2">บัญชีของฉัน</h1>`;
+  const back=()=>{const b=$("back");if(b)b.onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");};
+  if(cl){h+=`<div class="card"><h3>☁️ บันทึกในบัญชี Claude แล้ว</h3><span class="rd" style="margin:0">ความคืบหน้า โน้ต และที่เขียนไว้ บันทึกในบัญชี Claude ของคุณอัตโนมัติ ไม่ต้องสมัครเพิ่ม เปิดจากเครื่องไหนก็ได้ (ต้องล็อกอิน Claude บัญชีเดียวกัน)</span></div><div class="row2"><button class="btn primary" id="back">กลับไปทำข้อสอบ</button></div>`;$("main").innerHTML=h;back();return;}
+  if(HAS_CLAUDE()&&!fbOn()){h+=`<div class="card"><h3>💾 บันทึกในเบราว์เซอร์นี้</h3><span class="rd" style="margin:0">ล็อกอิน Claude แล้วเปิดหน้านี้ใหม่ ความคืบหน้าจะบันทึกในบัญชี Claude อัตโนมัติ ระหว่างนี้ย้ายเครื่องได้ด้วยปุ่ม "ส่งลิงก์ความคืบหน้า" หรือไฟล์สำรองในหน้า home</span></div><div class="row2"><button class="btn" id="back">กลับ</button></div>`;$("main").innerHTML=h;back();return;}
   if(!fbOn()){h+=`<div class="card"><h3>ระบบบัญชีกำลังจะเปิดเร็ว ๆ นี้</h3><span class="rd" style="margin:0">ตอนนี้ความคืบหน้าบันทึกในเบราว์เซอร์นี้ ถ้าจะย้ายเครื่อง ให้กด "ส่งลิงก์ความคืบหน้า" ในกระดาษคำตอบ แล้วเปิดลิงก์นั้นบนเครื่องใหม่</span></div><div class="row2"><button class="btn" id="back">กลับ</button></div>`;$("main").innerHTML=h;$("back").onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");return;}
   if(!fb){h+=fbFail?`<p class="sub">เชื่อมต่อระบบบัญชีไม่ได้ ตรวจอินเทอร์เน็ตแล้วรีเฟรชหน้า ระหว่างนี้ใช้งานได้ตามปกติ (บันทึกในเครื่อง)</p><button class="btn" id="back">กลับ</button>`:`<p class="sub">กำลังเชื่อมต่อระบบบัญชี…</p>`;$("main").innerHTML=h;const bk=$("back");if(bk)bk.onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");return;}
   if(fb.user){
@@ -683,5 +731,5 @@ const remember=()=>{if(ward){st.lastWard=ward;persist();}};
 window.addEventListener("hashchange",remember);
 checkHashImport();
 route();
-initFB();
+if(HAS_CLAUDE())initClaude();else initFB();
 })();
