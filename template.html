@@ -440,7 +440,7 @@ $("backup").onclick=async()=>{
   try{await navigator.clipboard.writeText(code);alert("คัดลอกรหัสความคืบหน้าแล้ว — เก็บไว้ในโน้ต แล้วกด \"นำเข้า\" บนเครื่องอื่นเพื่อวางรหัสนี้");}
   catch(e){prompt("คัดลอกรหัสนี้เก็บไว้:",code);}};
 $("restore").onclick=()=>{const c=prompt("วางลิงก์หรือรหัสความคืบหน้าที่สำรองไว้:");if(!c)return;
-  const m=/[#&]p=([0-9a-z]+)/.exec(c);if(m){importObj(decP(m[1]),"นำเข้าความคืบหน้า");return;}
+  const m=/[#&]p=(?:[a-z0-9_-]+\.)?([0-9a-z]+)/.exec(c);if(m){importObj(decP(m[1]),"นำเข้าความคืบหน้า");return;}
   try{const o=JSON.parse(decodeURIComponent(escape(atob(c.trim()))));if(!o.a)throw 0;importObj(o.a,"นำเข้าความคืบหน้า");}
   catch(e){alert("ลิงก์หรือรหัสไม่ถูกต้อง");}};
 if(SITE)$("backup").textContent="ส่งลิงก์ความคืบหน้า";
