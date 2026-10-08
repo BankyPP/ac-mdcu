@@ -21,6 +21,17 @@
         "MEQ",
         "OSCE"
       ]
+    },
+    {
+      "id": "subspe",
+      "name": "Subspecialty Surgery",
+      "short": "Subspe Sx",
+      "sub": "MDCU",
+      "brand": "AC Subspe Sx Y4 MCQ",
+      "dir": "data_subspe",
+      "noExam": [
+        "MEQ"
+      ]
     }
   ],
   "firebase": null,

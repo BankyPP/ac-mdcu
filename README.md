@@ -27,3 +27,14 @@ Publish: ไฟล์หน้า = out/index.html ; รูปทุกไฟล
 - `config.json` → `firebase`: ใส่ firebaseConfig เพื่อเปิดระบบบัญชี (ไม่ใส่ = บันทึกในเบราว์เซอร์อย่างเดียว)
 - ความคืบหน้าในเว็บ: Phase 1 / Phase 2 แยกกัน, เก็บประวัติการตอบทุกครั้ง (ใช้กับ Ward staff round), โน้ตพิมพ์/เขียนต่อข้อ, ⚑ ไม่มั่นใจ
 - `template.html` + `build.py` ยังใช้ build เวอร์ชัน artifact ใน Claude ได้ตามเดิม
+
+## วอร์ดศัลย์ (Gen Sx + Subspe Sx)
+| วอร์ด | id | สอบ | โฟลเดอร์ข้อสอบ |
+|---|---|---|---|
+| General Surgery Y4 (Gen Sx) | `sx` | MCQ | `data/` |
+| Subspecialty Surgery Y4 (Subspe Sx) | `subspe` | MCQ + OSCE | `data_subspe/` |
+
+- ตอนนี้วน **Gen Sx**: ข้อสอบเก่า/AC ของ Gen → `data/` เท่านั้น
+- Lecture / ไฟล์เนื้อหา / สรุป (แม้ส่งช่วง Gen) → คลัง lecture ของ Subspe (เก็บใน claude.ai Project "Bank AC Compilation" → `subspe-sx/lectures/` เพราะ repo นี้เป็นสาธารณะ) — ไม่ใส่ใน Gen
+- อะไรที่ใส่ใน Subspe แล้วไม่ต้องใส่ใน Gen; หลังเปลี่ยนเป็นช่วง Subspe ทุกอย่าง → Subspe
+- กติกาเต็มอยู่ใน Project: `sx-mcq/กติกาการจัดไฟล์ศัลย์.md`

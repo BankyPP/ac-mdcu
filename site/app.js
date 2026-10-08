@@ -106,7 +106,7 @@ $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
 /* ---------------- wards ---------------- */
 function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
-  h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span></span></a>`;}).join("");
+  h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb" style="font-size:${(()=>{const n=Math.max(...String(w.short||w.id).split(" ").map(x=>x.length));return n>5?11:n>4?12.5:14;})()}px">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span></span></a>`;}).join("");
   h+=acctCard();
   $("main").innerHTML=h;bindAcctCard();
 }

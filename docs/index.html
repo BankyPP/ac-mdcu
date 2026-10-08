@@ -331,9 +331,10 @@ details.grp li{margin:6px 0}
 
 <script>
 const IMGS={};const WARDS={};
-const CONFIG={"title": "คลังข้อสอบเก่าศัลย์ Sx Y4", "brand": "AC Sx MCQ", "sub": "คลังข้อสอบเก่า", "storageKey": "ac-sx-mcq-mdcu-y4-v1", "setLabel": "ปี", "roLabel": "Rotation", "chipStrip": "MDCU", "files": {}, "siteUrl": "https://bankypp.github.io/sx-mcq/", "siteName": "คลังข้อสอบเก่า", "wards": [{"id": "sx", "name": "General Surgery", "short": "Gen Sx", "sub": "MDCU", "brand": "AC Gen Sx Y4 MCQ", "dir": "data", "noExam": ["MEQ", "OSCE"]}], "firebase": null, "homeBrand": "AC {short} for MDCU79 by BankyPP", "quizBrand": "AC {short} {type}", "year": "Y4"};
-const BUILD="08/10/2026 23:27";
+const CONFIG={"title": "คลังข้อสอบเก่าศัลย์ Sx Y4", "brand": "AC Sx MCQ", "sub": "คลังข้อสอบเก่า", "storageKey": "ac-sx-mcq-mdcu-y4-v1", "setLabel": "ปี", "roLabel": "Rotation", "chipStrip": "MDCU", "files": {}, "siteUrl": "https://bankypp.github.io/sx-mcq/", "siteName": "คลังข้อสอบเก่า", "wards": [{"id": "sx", "name": "General Surgery", "short": "Gen Sx", "sub": "MDCU", "brand": "AC Gen Sx Y4 MCQ", "dir": "data", "noExam": ["MEQ", "OSCE"]}, {"id": "subspe", "name": "Subspecialty Surgery", "short": "Subspe Sx", "sub": "MDCU", "brand": "AC Subspe Sx Y4 MCQ", "dir": "data_subspe", "noExam": ["MEQ"]}], "firebase": null, "homeBrand": "AC {short} for MDCU79 by BankyPP", "quizBrand": "AC {short} {type}", "year": "Y4"};
+const BUILD="09/10/2026 00:09";
 WARDS["sx"]={QB:[],HY:null};
+WARDS["subspe"]={QB:[],HY:null};
 </script>
 <script>
 (function(){
@@ -444,7 +445,7 @@ $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
 /* ---------------- wards ---------------- */
 function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
-  h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span></span></a>`;}).join("");
+  h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb" style="font-size:${(()=>{const n=Math.max(...String(w.short||w.id).split(" ").map(x=>x.length));return n>5?11:n>4?12.5:14;})()}px">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span></span></a>`;}).join("");
   h+=acctCard();
   $("main").innerHTML=h;bindAcctCard();
 }
