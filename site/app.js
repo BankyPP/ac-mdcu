@@ -105,7 +105,7 @@ $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
 function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
   h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span></span></a>`;}).join("");
-  if(fbOn())h+=acctCard();
+  h+=acctCard();
   $("main").innerHTML=h;bindAcctCard();
 }
 function acctCard(){
@@ -534,7 +534,7 @@ function checkHashImport(){const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]*)/.exec(
 /* ---------------- accounts (Firebase, optional) ---------------- */
 let fb=null,fbFail=false,pushT=null,inkT=null;const inkDirty=new Set();let sync="local";
 const fbOn=()=>!!(CFG.firebase&&CFG.firebase.apiKey);
-function paintAcct(){const b=$("acctBtn");if(!fbOn()){b.hidden=true;return;}b.hidden=view==="signin";
+function paintAcct(){const b=$("acctBtn");b.hidden=view==="signin";
   if(fb&&fb.user){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บัญชี: "+(fb.user.email||fb.user.displayName||"");}else{b.classList.remove("on");b.textContent="👤";b.title=b.ariaLabel="เข้าสู่ระบบ";}
   paintSync();}
 $("acctBtn").onclick=()=>go("signin");
@@ -600,7 +600,7 @@ let authErr="";
 function errMsg(e){const c=(e&&e.code)||"";return ({"auth/invalid-email":"อีเมลไม่ถูกต้อง","auth/missing-password":"กรุณาใส่รหัสผ่าน","auth/weak-password":"รหัสผ่านต้องยาวอย่างน้อย 6 ตัว","auth/email-already-in-use":"อีเมลนี้สมัครไว้แล้ว ให้กดเข้าสู่ระบบแทน","auth/invalid-credential":"อีเมลหรือรหัสผ่านไม่ถูกต้อง","auth/wrong-password":"อีเมลหรือรหัสผ่านไม่ถูกต้อง","auth/user-not-found":"ยังไม่มีบัญชีนี้ ให้กดสมัครใหม่","auth/too-many-requests":"ลองหลายครั้งเกินไป รอสักครู่แล้วลองใหม่","auth/popup-closed-by-user":"ปิดหน้าต่างก่อนเข้าสู่ระบบเสร็จ","auth/unauthorized-domain":"โดเมนนี้ยังไม่ได้รับอนุญาตใน Firebase (Authorized domains)","auth/network-request-failed":"เชื่อมต่อไม่ได้ ตรวจอินเทอร์เน็ตแล้วลองใหม่"})[c]||("เข้าสู่ระบบไม่สำเร็จ"+(c?` (${c})`:""));}
 function rSignin(){
   let h=`<h1 class="h2">บัญชีของฉัน</h1>`;
-  if(!fbOn()){h+=`<p class="sub">ระบบบัญชียังไม่เปิดใช้ ความคืบหน้าบันทึกในเบราว์เซอร์นี้ ย้ายเครื่องได้ด้วยปุ่ม "ส่งลิงก์ความคืบหน้า" ในกระดาษคำตอบ</p><button class="btn" id="back">กลับ</button>`;$("main").innerHTML=h;$("back").onclick=()=>history.length>1?history.back():go("");return;}
+  if(!fbOn()){h+=`<div class="card"><h3>ระบบบัญชีกำลังจะเปิดเร็ว ๆ นี้</h3><span class="rd" style="margin:0">ตอนนี้ความคืบหน้าบันทึกในเบราว์เซอร์นี้ ถ้าจะย้ายเครื่อง ให้กด "ส่งลิงก์ความคืบหน้า" ในกระดาษคำตอบ แล้วเปิดลิงก์นั้นบนเครื่องใหม่</span></div><div class="row2"><button class="btn" id="back">กลับ</button></div>`;$("main").innerHTML=h;$("back").onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");return;}
   if(!fb){h+=fbFail?`<p class="sub">เชื่อมต่อระบบบัญชีไม่ได้ ตรวจอินเทอร์เน็ตแล้วรีเฟรชหน้า ระหว่างนี้ใช้งานได้ตามปกติ (บันทึกในเครื่อง)</p><button class="btn" id="back">กลับ</button>`:`<p class="sub">กำลังเชื่อมต่อระบบบัญชี…</p>`;$("main").innerHTML=h;const bk=$("back");if(bk)bk.onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");return;}
   if(fb.user){
     h+=`<div class="card"><h3>☁️ เข้าสู่ระบบแล้ว</h3><span class="rd">${esc(fb.user.email||fb.user.displayName||"")}</span><span class="rd">ความคืบหน้า โน้ต และที่เขียนไว้ บันทึกในบัญชีนี้อัตโนมัติ เปิดจากเครื่องไหนก็ได้</span></div>
