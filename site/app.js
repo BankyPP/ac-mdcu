@@ -152,7 +152,7 @@ const ROUNDS=[
   {k:"quality",n:"Quality round",d:"Speedrun ข้อที่ยังไม่เคยทำ จับเวลาเป็นเซต ตั้งค่าเองได้ทั้งหมด"},
   {k:"admission",n:"Admission round",d:"เคสใหม่ที่ AI สร้างให้ทีละข้อ เนื้อหาเหมาะกับชั้นปีในวอร์ดนี้ · เก็บทุกข้อไว้ในคลังของคุณ"},
   {k:"io",n:"Round I/O",d:"",soon:1},
-  {k:"longcase",n:"Long case round",d:"เริ่มจาก chief complaint แล้วดำเนินเคสทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ · AI สร้างเคสใหม่"}
+  {k:"longcase",n:"Long case",d:"AI ให้ chief complaint มา แล้วดำเนินเคสเองทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ"}
 ];
 const yearTxt=()=>{const m=/(\d+)/.exec(wYear());return m?"ปี "+m[1]:"";};
 /* ---------------- Morning round: 10 a day, new set at 07:30 (phone's clock) ---------------- */
@@ -277,7 +277,7 @@ function svcQ(){const W=W_(),s=svcS();let q=W.byU[s.cur];if(!q||!inSet(q)){q=svc
 const isSess=()=>view==="sess";
 const legPaper=()=>view==="exam"?P_().leg:bank[st.legSel];
 const legIdx=()=>view==="exam"?P_().leg.cur:Math.max(0,Math.min((legPaper().list.length-1),st.legIdx||0));
-function curQ(){if(view==="adm")return P_().adm.cur;if(view==="admq"){const it=bank[st.admSel];return it&&it.q;}if(view==="lrev"||view==="exam"){const X=legPaper();return X?W_().byU[X.list[legIdx()]]:null;}if(isSess()){const s=P_().sess;return W_().byU[s.list[s.cur]];}return svcQ();}
+function curQ(){if(view==="adm")return P_().adm.cur;if(view==="admq"){const it=bank[st.admSel];return it&&it.q;}if(view==="lrev"||view==="exam"){const X=legPaper();return X?legQ(X.list[legIdx()]):null;}if(isSess()){const s=P_().sess;return W_().byU[s.list[s.cur]];}return svcQ();}
 function doneAns(q){if(view==="admq"){const it=bank[st.admSel];return it&&it.a!=null?it.a:undefined;}if(view==="lrev"){const a=bank[st.legSel].ans[q.uid];return a==null?-2:a;}if(isAdv()){const h=hist(P_(),q.uid,P_().sess.hp,true);return h.length?h[h.length-1][0]:null;}if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
 
 function rQuiz(){
@@ -287,7 +287,7 @@ function rQuiz(){
   if(isAdv()){const s=P.sess;if(s.ans[q.uid]===undefined){s.ans[q.uid]=-9;s.ts=now();save();}}   /* advisor: -9 = answer read */
   let h="";
   if(view==="adm"){const A=P.adm;h+=`<div class="sessbar">Admission round · ข้อที่ ${A.n+(locked?0:1)} · ถูกแล้ว ${A.right}/${A.n} · ${esc(W.cfg.short||"")}</div>`;}
-  else if(view==="lrev"){const X=legPaper(),i=legIdx();h+=`<div class="sessbar">Legendary round · เฉลยข้อ ${i+1}/${X.list.length} · ได้เกรด ${esc(X.grade)}${X.star[q.uid]?" · ★ ติดดาวไว้":""}</div>`;}
+  else if(view==="lrev"){const X=legPaper(),i=legIdx();h+=`<div class="sessbar">Legendary round · เฉลยข้อ ${i+1}/${X.list.length} · ได้เกรด ${esc(gradeOf(X.pct))}${X.star[q.uid]?" · ★ ติดดาวไว้":""}</div>`;}
   else if(view==="admq"){const L_=bankItems("adm",ward),i=L_.findIndex(x=>x.key===st.admSel);h+=`<div class="sessbar">Admission round · คลังของฉัน ข้อ ${i+1}/${L_.length} · สร้างเมื่อ ${fmtD(bank[st.admSel].c)}</div>`;}
   else if(isAdv()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · อ่านเฉลย · ประวัติ${s.hp==="p"?` Phase ${s.ph}`:"ทั้ง 2 Phase"}</div>`;}
   else if(isSess()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · Phase ${s.ph}</div>`;}
@@ -370,7 +370,9 @@ function explain(q,done,R,p){
   else h+=`<div class="verdict"><span class="v ${ok?"ok":"no"}">${ok?"ถูก":skip?"หมดเวลา":"ผิด"}</span><span class="ans">${adv?"ครั้งล่าสุด · ":""}${ok?"":skip?"ไม่ได้ตอบ · ":`คุณตอบ ${L[done]} · `}เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
   h+=`<div class="tagline">`;
   if(q.rep)h+=`<span class="tag rep">repeated x${q.rep}</span>`;
-  if(view==="lrev"){const X=legPaper();if(X.star[q.uid])h+=`<span class="tag starTag">★ ติดดาวไว้ตอนสอบ</span>`;}
+  if(view==="lrev"){const X=legPaper(),sr=legSrc(X,q.uid);
+    h+=`<span class="tag rep">ที่มาของข้อนี้: ${sr==="unit"?`Unit round — ${esc((W.byLec[q.unit]||{}).title||q.set)}`:sr==="adm"?`Admission round — เคสที่ AI เคยสร้างให้คุณ${q.topic?` (${esc(q.topic)})`:""}`:`ข้อสอบเก่า (AC) ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id} ในคลัง${sr==="acd"?" · ตอนสอบเป็นข้อที่คุณเคยทำแล้ว":sr==="acn"?" · ตอนสอบเป็นข้อที่ยังไม่เคยทำ":""}`}</span>`;
+    if(X.star[q.uid])h+=`<span class="tag starTag">★ ติดดาวไว้ตอนสอบ</span>`;}
   if(adv)h+=advResetBtn(q);
   else if(!q.adm&&view!=="lrev")h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
   if(s&&s.kind==="morning")h+=`<span class="tag rep">ที่มา: ${q.unit?`Unit round — ${esc((W.byLec[q.unit]||{}).title||q.set)} (นับว่าเจอข้อนี้แล้ว)`:`ข้อสอบเก่า (AC) ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id} ในคลัง`}</span>`;
@@ -670,6 +672,8 @@ function rQEdit(){
 function qeSum(){const el=$("qeSum");if(!el||!QED)return;el.innerHTML=qDesc(QED);}
 
 /* ---------------- Admission round: a new AI-written case each time ---------------- */
+/* link into the Claude version of this site at a given page — the page is in both the query (?go=) and the hash, since the host may pass only one of them into the frame */
+const artLink=path=>CFG.artifactUrl?CFG.artifactUrl+"?go="+encodeURIComponent(path)+"#/"+path:"";
 const AIKEY=KEY+"-ai";                 /* {key, model}: kept only in this browser, never synced */
 const aiCfg=()=>ld(AIKEY)||{};
 let admBusy=false,admErr="",admSetup=false;
@@ -757,7 +761,7 @@ function rAdm(){
     if(HAS_CLAUDE()){if(!mode)x+=`<div class="card"><h3>ใช้ Claude จากหน้านี้ไม่ได้</h3><span class="rd" style="margin:0">ล็อกอิน Claude แล้วเปิดหน้านี้ใหม่ แล้วกดอนุญาตเมื่อหน้านี้ขอใช้ Claude (ใช้โควตาบัญชีของคุณเอง)</span></div>`;}
     else{const c=aiCfg();
       x+=`<div class="card"><h3>เชื่อม AI สำหรับ Admission round</h3><span class="rd">เว็บนี้ไม่มี AI ในตัว เลือกได้ 2 ทาง</span>
-        ${CFG.artifactUrl?`<a class="btn primary" style="display:block;text-align:center;text-decoration:none;margin-bottom:12px" href="${esc(CFG.artifactUrl)}#/${esc(ward)}/adm" target="_blank" rel="noopener">เปิด Admission round ใน Claude ↗ (ฟรี ใช้บัญชี Claude)</a><span class="rd">ความคืบหน้าในเว็บกับใน Claude แยกกัน ย้ายได้ด้วยปุ่ม "ส่งลิงก์ความคืบหน้า"</span>`:""}
+        ${CFG.artifactUrl?`<a class="btn primary" style="display:block;text-align:center;text-decoration:none;margin-bottom:12px" href="${esc(artLink(ward+"/adm"))}" target="_blank" rel="noopener">เปิด Admission round ใน Claude ↗ (ฟรี ใช้บัญชี Claude)</a><span class="rd">ความคืบหน้าในเว็บกับใน Claude แยกกัน ย้ายได้ด้วยปุ่ม "ส่งลิงก์ความคืบหน้า" (คลังเคส Admission / Long case ย้ายด้วย "ไฟล์สำรอง")</span>`:""}
         <div class="or">หรือใส่ Anthropic API key ของตัวเอง</div>
         <input class="field-in" id="aiKey" type="password" autocomplete="off" spellcheck="false" placeholder="sk-ant-…" value="${esc(c.key||"")}">
         <input class="field-in" id="aiModel" type="text" autocapitalize="none" spellcheck="false" placeholder="โมเดล (เว้นว่าง = claude-sonnet-5-5)" value="${esc(c.model||"")}" style="margin-top:8px">
@@ -873,7 +877,7 @@ async function aiText(pr,onText,maxTok){
   const j=await r.json().catch(()=>null);if(!r.ok)throw {code:"api",status:r.status,message:j&&j.error&&j.error.message||""};
   const t=((j&&j.content)||[]).filter(x=>x.type==="text").map(x=>x.text).join("");if(!t.trim())throw {code:"empty"};return t;}
 function aiErrHTML(e){
-  if(e&&e.code==="no_ai")return HAS_CLAUDE()?`<p class="hint">ใช้ Claude จากหน้านี้ไม่ได้ — ล็อกอิน Claude แล้วเปิดหน้านี้ใหม่ แล้วกดอนุญาตเมื่อหน้านี้ขอใช้ Claude</p>`:`<p class="hint">เว็บนี้ยังไม่ได้เชื่อม AI — ใส่ API key ได้ที่ <a href="#/${esc(ward)}/adm">Admission round</a>${CFG.artifactUrl?` หรือ <a href="${esc(CFG.artifactUrl)}" target="_blank" rel="noopener">เปิดเว็บนี้ใน Claude ↗</a> (ฟรี ใช้บัญชี Claude)`:""}</p>`;
+  if(e&&e.code==="no_ai")return HAS_CLAUDE()?`<p class="hint">ใช้ Claude จากหน้านี้ไม่ได้ — ล็อกอิน Claude แล้วเปิดหน้านี้ใหม่ แล้วกดอนุญาตเมื่อหน้านี้ขอใช้ Claude</p>`:`<p class="hint">เว็บนี้ยังไม่ได้เชื่อม AI — ใส่ API key ได้ที่ <a href="#/${esc(ward)}/adm">Admission round</a>${CFG.artifactUrl?` หรือ <a href="${esc(artLink(ward+"/"+(view==="lcase"?"lcase":view==="report"?"report":"adm")))}" target="_blank" rel="noopener">เปิดเว็บนี้ใน Claude ↗</a> (ฟรี ใช้บัญชี Claude)`:""}</p>`;
   return `<p class="hint">${esc((admMsg(e)||"").replace("สร้างโจทย์ไม่สำเร็จ","ขอคำแนะนำไม่สำเร็จ").replace("AI ไม่ยอมสร้างโจทย์ข้อนี้","AI ไม่ตอบคำขอนี้")||"ขอคำแนะนำไม่สำเร็จ ลองใหม่อีกครั้ง")}</p>`;}
 function mdLite(t){const out=[];let ul=false;const f=s=>esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");const cl=()=>{if(ul){out.push("</ul>");ul=false;}};
   String(t||"").split(/\n/).forEach(l=>{const m=/^\s*(?:[-*•]|\d+[.)])\s+(.*)$/.exec(l);
@@ -983,39 +987,52 @@ function admSheet(){
 
 /* ---------------- Legendary round: real exam simulation (count + time per ward: config wards[].exam.MCQ = {n, min}) ---------------- */
 const examCfg=()=>{const e=((W_()||{}).cfg||{}).exam;const m=e&&e.MCQ;return m&&m.n&&m.min?m:null;};
-const GRADES=[[85,"A"],[80,"B+"],[75,"B"],[70,"C+"],[65,"C"],[60,"D+"],[55,"D"],[-1,"F"]];   /* <55 F, ≥85 A, the rest split evenly (5% each) */
+const GRADES=[[80,"A"],[75,"B+"],[70,"B"],[65,"C+"],[60,"C"],[55,"D+"],[50,"D"],[-1,"F"]];   /* A ≥80 · B+ 75 · B 70 · C+ 65 · C 60 · D+ 55 · D 50 · F <50 (the grade is always recomputed from the % so older papers follow the current scale) */
 const gradeOf=pct=>GRADES.find(g=>pct>=g[0])[1];
 const gCls=g=>g==="A"?"ga":g[0]==="B"?"gb":g[0]==="C"?"gc":g[0]==="D"?"gd":"gf";
 const fmtDT=t=>{const d=new Date(t);return fmtD(t)+" "+String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0");};
+/* a paper mixes old-exam questions already done / not yet done (this phase), Unit round questions and the viewer's own Admission cases — the share of each is random every time */
+const legQw=(wid,u)=>(WARDS[wid]&&WARDS[wid].byU[u])||(bank["adm|"+wid+"|"+u]||{}).q||((bank[st.legSel]||{}).aq||{})[u]||null;
+const legQ=u=>legQw(ward,u);
+const LSRC={acd:"ข้อสอบเก่า (AC) ที่เคยทำแล้ว",acn:"ข้อสอบเก่า (AC) ที่ยังไม่เคยทำ",unit:"Unit round (โจทย์ที่แต่งจาก lecture)",adm:"Admission round (เคสที่ AI เคยสร้างให้คุณ)"};
+const LSRS={acd:"AC เคยทำ",acn:"AC ใหม่",unit:"Unit",adm:"Admission"};
+function legPools(){const W=W_(),P=P_(),p=ph(),o={acd:[],acn:[],unit:[],adm:[]};
+  W.QB.forEach(q=>o[atts(P,p,q.uid).length?"acd":"acn"].push(q.uid));
+  W.UNIT.forEach(Lc=>Lc.QB.forEach(q=>o.unit.push(q.uid)));
+  bankItems("adm",ward).forEach(x=>{if(x.q&&x.q.uid&&Array.isArray(x.q.opts))o.adm.push(x.q.uid);});return o;}
+function legDraw(n){const pools=legPools(),ks=Object.keys(pools).filter(k=>pools[k].length),w={};ks.forEach(k=>{w[k]=Math.random();});
+  const tot=ks.reduce((a,k)=>a+w[k],0)||1,cnt={};ks.forEach(k=>{cnt[k]=Math.min(pools[k].length,Math.floor(n*w[k]/tot));});
+  let sum=ks.reduce((a,k)=>a+cnt[k],0);
+  while(sum<n){const av=ks.filter(k=>cnt[k]<pools[k].length);if(!av.length)break;cnt[av[Math.floor(Math.random()*av.length)]]++;sum++;}
+  const src={},list=[];ks.forEach(k=>shuffle(pools[k]).slice(0,cnt[k]).forEach(u=>{src[u]=k;list.push(u);}));return {list:shuffle(list),src};}
+const legSrc=(X,u)=>(X.src&&X.src[u])||(String(u).startsWith("ADM|")?"adm":String(u).startsWith("U|")?"unit":"ac");
 function rLegend(){
   const W=W_(),P=P_(),E=examCfg(),QB=W.QB;
   let h=`<h1 class="h2">Legendary round</h1><p class="sub">จำลองสอบจริง จำนวนข้อและเวลาเท่ากับสอบจริงของวอร์ดนี้ ทำรวดเดียวโดยไม่เฉลยทีละข้อ ส่งแล้วได้เกรดทันที · หมดเวลาระบบส่งให้เอง ข้อที่ยังไม่ทำนับเป็นไม่ได้คะแนน</p>`;
   if(!E){h+=`<div class="card"><h3>ยังไม่ได้ตั้งค่าการสอบจริงของวอร์ดนี้</h3><span class="rd" style="margin:0">บอก Claude ว่าวอร์ดนี้สอบ MCQ กี่ข้อ กี่นาที แล้วจะเปิด Legendary round ให้</span></div>`;$("main").innerHTML=h;return;}
-  const n=Math.min(E.n,QB.length),L_=P.leg;
+  const PL=legPools(),avail=PL.acd.length+PL.acn.length+PL.unit.length+PL.adm.length,n=Math.min(E.n,avail),L_=P.leg;
   if(L_){const a=Object.keys(L_.ans).length,s=Object.keys(L_.star).filter(u=>L_.star[u]).length;
     h+=`<button class="resume" id="lgResume"><span>กำลังสอบอยู่ · <b>เหลือเวลา <span id="lgLeft">${hms(L_.end-now())}</span></b><span class="rd">ตอบแล้ว ${a}/${L_.list.length} ข้อ${s?` · ★ ${s}`:""} · เวลาเดินต่อแม้ปิดหน้า เหมือนสอบจริง</span></span><span class="go">→</span></button>`;}
-  else{const pool=st.legPool==="fresh"?"fresh":"all";
-    h+=`<div class="card"><h3>MCQ ${n} ข้อ · ${E.min} นาที</h3><span class="rd">เหมือนสอบจริงของ ${esc(W.cfg.short||W.cfg.name)}${n<E.n?` (คลังมี ${QB.length} ข้อ จึงใช้ทั้งหมด)`:""} · เปลี่ยนคำตอบได้จนหมดเวลา · กด ☆ ติดดาวข้อที่อยากกลับมาดู · ส่งแล้วจะเห็นเกรดก่อน แล้วค่อยเลือกดู Short answer paper หรือ Long explanation</span>
-    <div class="lbl" style="margin-top:4px">เลือกข้อสอบจาก</div><div class="chips" id="lgPool">${[["all","สุ่มจากทั้งคลัง"],["fresh","เน้นข้อที่ยังไม่เคยทำ"]].map(([v,t])=>`<button class="chip" data-v="${v}" aria-pressed="${pool===v}">${t}</button>`).join("")}</div>
+  else{
+    h+=`<div class="card"><h3>MCQ ${n} ข้อ · ${E.min} นาที</h3><span class="rd">เหมือนสอบจริงของ ${esc(W.cfg.short||W.cfg.name)}${n<E.n?` (มีข้อให้สุ่มทั้งหมด ${avail} ข้อ จึงใช้ทั้งหมด)`:""} · เปลี่ยนคำตอบได้จนหมดเวลา · กด ☆ ติดดาวข้อที่อยากกลับมาดู · ส่งแล้วจะเห็นเกรดก่อน แล้วค่อยเลือกดู Short answer paper หรือ Long explanation</span>
+    <span class="rd">ข้อสอบจริงอาจตรงหรือไม่ตรงกับข้อสอบเก่า จึง<b>สุ่มสัดส่วนใหม่ทุกครั้ง</b>ว่าจะมีข้อสอบเก่าที่เคยทำ/ยังไม่เคยทำ โจทย์ Unit round และเคสจาก Admission round ของคุณอย่างละกี่ข้อ — บอกที่มาของแต่ละข้อตอนเฉลย</span>
+    <p class="hint" style="margin:0">ตอนนี้มีให้สุ่ม: ข้อสอบเก่า ${PL.acd.length+PL.acn.length} ข้อ (เคยทำใน Phase ${ph()} แล้ว ${PL.acd.length}) · Unit round ${PL.unit.length} · Admission ของคุณ ${PL.adm.length}</p>
     <div class="row2"><span class="spacer"></span><button class="btn primary" id="lgGo">เริ่มสอบ</button></div></div>`;}
   const H=bankItems("leg",ward).reverse();
-  if(H.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">ผลสอบที่ผ่านมา</h2><div class="card" style="padding:6px">${H.map(x=>`<button class="srow" data-lk="${esc(x.key)}"><span class="lgg ${gCls(x.grade)}">${esc(x.grade)}</span><span class="meta" style="flex:1">${fmtDT(x.t1)} · ${x.n} ข้อ${x.auto?" · หมดเวลา":""}</span><span class="go">→</span></button>`).join("")}</div>`;
+  if(H.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">ผลสอบที่ผ่านมา</h2><div class="card" style="padding:6px">${H.map(x=>`<button class="srow" data-lk="${esc(x.key)}"><span class="lgg ${gCls(gradeOf(x.pct))}">${esc(gradeOf(x.pct))}</span><span class="meta" style="flex:1">${fmtDT(x.t1)} · ${x.n} ข้อ${x.auto?" · หมดเวลา":""}</span><span class="go">→</span></button>`).join("")}</div>`;
   $("main").innerHTML=h;
   const r=$("lgResume");if(r){r.onclick=()=>go(ward+"/exam");const el=$("lgLeft");show._t=setInterval(()=>{if(!document.body.contains(el)){clearInterval(show._t);return;}el.textContent=hms(P.leg?P.leg.end-now():0);},1000);}
-  document.querySelectorAll("#lgPool [data-v]").forEach(b=>b.onclick=()=>{st.legPool=b.dataset.v;persist();rLegend();});
-  const g=$("lgGo");if(g)g.onclick=()=>{if(!confirm(`เริ่มสอบ ${n} ข้อ เวลา ${E.min} นาที?\nเวลาจะเดินทันทีและเดินต่อแม้ออกจากหน้านี้`))return;legStart(st.legPool==="fresh"?"fresh":"all");};
+  const g=$("lgGo");if(g)g.onclick=()=>{if(!confirm(`เริ่มสอบ ${n} ข้อ เวลา ${E.min} นาที?\nเวลาจะเดินทันทีและเดินต่อแม้ออกจากหน้านี้`))return;legStart();};
   document.querySelectorAll("[data-lk]").forEach(b=>b.onclick=()=>{st.legSel=b.dataset.lk;st.legMode="grade";persist();go(ward+"/lres");});
 }
-function legStart(pool){
-  const W=W_(),P=P_(),E=examCfg(),p=ph();let qs=shuffle(W.QB);
-  if(pool==="fresh")qs=qs.filter(q=>!atts(P,p,q.uid).length).concat(qs.filter(q=>atts(P,p,q.uid).length));
-  const n=Math.min(E.n,qs.length),t=now();
-  P.leg={id:t.toString(36),list:shuffle(qs.slice(0,n)).map(q=>q.uid),ans:{},star:{},cur:0,t0:t,end:t+E.min*60000,min:E.min,ph:p};qStop();save();go(ward+"/exam");
+function legStart(){
+  const P=P_(),E=examCfg(),p=ph(),t=now(),D=legDraw(E.n);if(!D.list.length){toast("ยังไม่มีข้อให้สุ่ม");return;}
+  P.leg={id:t.toString(36),list:D.list,src:D.src,ans:{},star:{},cur:0,t0:t,end:t+E.min*60000,min:E.min,ph:p};qStop();save();go(ward+"/exam");
 }
 function legPick(i){const X=P_().leg;if(!X)return;const u=X.list[X.cur];if(X.ans[u]===i)delete X.ans[u];else X.ans[u]=i;save();rExam();}
 function rExam(){
   const W=W_(),P=P_(),X=P.leg;if(!X){go(ward+"/legend");return;}
-  const i=X.cur,q=W.byU[X.list[i]];if(!q){$("main").innerHTML=`<div class="empty">ไม่พบข้อนี้ในคลัง</div>`;paintNav();return;}
+  const i=X.cur,q=legQ(X.list[i]);if(!q){$("main").innerHTML=`<div class="empty">ไม่พบข้อนี้ในคลัง</div>`;paintNav();return;}
   const a=X.ans[q.uid],sd=!!X.star[q.uid],nA=Object.keys(X.ans).length,nS=Object.keys(X.star).filter(u=>X.star[u]).length;
   $("exT").textContent=hms(X.end-now());$("exN").innerHTML=`ตอบแล้ว <b>${nA}</b>/${X.list.length}${nS?` · ★ ${nS}`:""}`;
   let h=`<div class="qhead"><div class="qnum">${i+1}.</div><div class="fields"><span class="field"><b>Legendary</b>${esc(W.cfg.short||"")}</span></div><button class="flag star" id="starBtn" aria-pressed="${sd}" title="ติดดาวไว้กลับมาดู">${sd?"★ ติดดาวแล้ว":"☆ ติดดาว"}</button></div>`;
@@ -1034,9 +1051,12 @@ function legAskSubmit(){const X=P_().leg;if(!X)return;const n=X.list.length,a=Ob
   if(!confirm(`ส่งข้อสอบ?\nตอบแล้ว ${a}/${n} ข้อ${n-a?` · ยังไม่ได้ทำ ${n-a} ข้อ`:""}${s?` · ติดดาวไว้ ${s} ข้อ`:""}\nเหลือเวลา ${hms(X.end-now())}`))return;closeS(true);legSubmit(ward,false);}
 function legSubmit(wid,auto){
   const P=PWof(st,wid),X=P.leg,W=WARDS[wid];if(!X||!W)return;const t=Math.min(now(),X.end);let score=0;
-  X.list.forEach(u=>{const q=W.byU[u],a=X.ans[u];if(q&&a!=null){if(a===q.ans)score++;(P.att[X.ph][u]=P.att[X.ph][u]||[]).push([a,t]);}});
+  X.list.forEach(u=>{const q=legQw(wid,u),a=X.ans[u];if(q&&a!=null){if(a===q.ans)score++;const sr=legSrc(X,u);
+    if(sr==="unit")(P.unit.att[u]=P.unit.att[u]||[]).push([a,t]);else if(sr!=="adm")(P.att[X.ph][u]=P.att[X.ph][u]||[]).push([a,t]);}});
   const n=X.list.length,pct=n?score/n*100:0,k="leg|"+wid+"|"+X.id;
-  bankPut(k,{list:X.list,ans:X.ans,star:X.star,n,score,pct,grade:gradeOf(pct),t0:X.t0,t1:t,min:X.min,auto:!!auto,ph:X.ph});
+  /* Admission cases are copied into the paper so it stays readable even if that case leaves the bank */
+  const aq={};X.list.forEach(u=>{if(legSrc(X,u)==="adm"){const q=legQw(wid,u);if(q)aq[u]=q;}});
+  bankPut(k,{list:X.list,src:X.src||{},aq,ans:X.ans,star:X.star,n,score,pct,grade:gradeOf(pct),t0:X.t0,t1:t,min:X.min,auto:!!auto,ph:X.ph});
   P.leg=null;st.legSel=k;st.legMode="grade";save();
   if(ward===wid&&["exam","legend","lres"].includes(view))go(wid+"/lres");
   else{toast("หมดเวลา Legendary round — ระบบส่งข้อสอบให้แล้ว ดูผลได้ที่ Legendary round");if(view==="home"&&ward===wid)rHome();}
@@ -1044,11 +1064,11 @@ function legSubmit(wid,auto){
 setInterval(()=>{WL.forEach(w=>{const P=st.w[w.id];if(P&&P.leg&&now()>=P.leg.end)legSubmit(w.id,true);});const el=$("exT");if(el&&view==="exam"&&P_().leg){const left=P_().leg.end-now();el.textContent=hms(left);el.classList.toggle("low",left<5*60e3);}},1000);
 function legSheet(){
   const W=W_(),X=legPaper(),ex=view==="exam",f=st.legF||"all";
-  $("sheetTitle").textContent=ex?"กระดาษคำตอบ · Legendary round":`กระดาษคำตอบ · เกรด ${X.grade}`;$("setChips").innerHTML="";
+  $("sheetTitle").textContent=ex?"กระดาษคำตอบ · Legendary round":`กระดาษคำตอบ · เกรด ${gradeOf(X.pct)}`;$("setChips").innerHTML="";
   const FS=ex?[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["star","★ ติดดาว"]]:[["all","ทั้งหมด"],["wrong","ผิด"],["todo","ไม่ได้ทำ"],["star","★ ติดดาว"]];if(!FS.some(x=>x[0]===f))st.legF="all";
   $("statusChips").innerHTML=FS.map(([v,t])=>`<button class="chip" aria-pressed="${(st.legF||"all")===v}" data-lf="${v}">${t}</button>`).join("");
   document.querySelectorAll("[data-lf]").forEach(b=>b.onclick=()=>{st.legF=b.dataset.lf;persist();sheet();});
-  const qs=X.list.map(u=>W.byU[u]),nA=Object.keys(X.ans).length,nS=Object.keys(X.star).filter(u=>X.star[u]).length,ff=st.legF||"all";
+  const qs=X.list.map(legQ),nA=Object.keys(X.ans).length,nS=Object.keys(X.star).filter(u=>X.star[u]).length,ff=st.legF||"all";
   if(ex){statLabels(["ตอบแล้ว","ติดดาว","เหลือเวลา"]);$("sDone").textContent=`${nA}/${X.list.length}`;$("sRight").textContent="★ "+nS;$("sPct").textContent=mmss((X.end-now())/1000);}
   else stats(nA,X.list.length,X.score);
   const v=qs.map((q,i)=>[q,i]).filter(([q])=>{if(!q)return false;const a=X.ans[q.uid];return ff==="todo"?a==null:ff==="star"?!!X.star[q.uid]:ff==="wrong"?a!=null&&a!==q.ans:true;});
@@ -1056,21 +1076,22 @@ function legSheet(){
   if(ex){$("rows").innerHTML=v.length?v.map(([q,i])=>{const a=X.ans[q.uid];return `<button class="srow${i===cur?" cur":""}" data-xi="${i}"><span class="n">${i+1}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b${a===j?" f":""}">${L[j]}</span>`).join("")}</span><span class="meta">${X.star[q.uid]?"★":""}${a==null?" ยังไม่ทำ":""}</span></button>`;}).join(""):`<div class="empty">ไม่มีข้อที่ตรงกับตัวกรองนี้</div>`;
     document.querySelectorAll("[data-xi]").forEach(b=>b.onclick=()=>{closeS();X.cur=+b.dataset.xi;save();rExam();window.scrollTo(0,0);});
     $("sheetFoot").innerHTML=`<span class="hint">ยังไม่เฉลยจนกว่าจะส่ง · ★ = ติดดาวไว้</span><span class="spacer"></span><button class="btn primary" id="sheetSub" type="button">ส่งข้อสอบ</button>`;$("sheetSub").onclick=legAskSubmit;return;}
-  rows(v.map(([q,i])=>({q:Object.assign({},q,{id:i+1}),a:X.ans[q.uid]==null?-2:X.ans[q.uid],cur:i===cur,meta:(X.star[q.uid]?"★ ":"")+(X.ans[q.uid]==null?"ไม่ได้ทำ · ":""),go:()=>{st.legIdx=i;persist();pick=null;rQuiz();window.scrollTo(0,0);}})),"ไม่มีข้อที่ตรงกับตัวกรองนี้");
+  rows(v.map(([q,i])=>({q:Object.assign({},q,{id:i+1,set:LSRS[legSrc(X,q.uid)]||"AC",ro:""}),a:X.ans[q.uid]==null?-2:X.ans[q.uid],cur:i===cur,meta:(X.star[q.uid]?"★ ":"")+(X.ans[q.uid]==null?"ไม่ได้ทำ · ":""),go:()=>{st.legIdx=i;persist();pick=null;rQuiz();window.scrollTo(0,0);}})),"ไม่มีข้อที่ตรงกับตัวกรองนี้");
   $("sheetFoot").innerHTML=`<span class="hint">เส้นเขียวรอบวง = เฉลย · ★ = ติดดาวไว้ตอนสอบ</span><span class="spacer"></span><button class="link" id="toLres">กลับไปผลสอบ</button>`;$("toLres").onclick=()=>{closeS(true);go(ward+"/lres");};
 }
 function rLRes(){
   const W=W_(),X=bank[st.legSel];if(!X){go(ward+"/legend");return;}const mode=st.legMode==="short"?"short":"grade";
-  const qs=X.list.map(u=>W.byU[u]).filter(Boolean),nA=qs.filter(q=>X.ans[q.uid]!=null).length,nS=qs.filter(q=>X.star[q.uid]).length,used=Math.round((X.t1-X.t0)/1000);
+  const qs=X.list.map(legQ).filter(Boolean),nA=qs.filter(q=>X.ans[q.uid]!=null).length,nS=qs.filter(q=>X.star[q.uid]).length,used=Math.round((X.t1-X.t0)/1000);
   let h=`<h1 class="h2">ผล Legendary round</h1><p class="sub">${fmtDT(X.t1)} · MCQ ${X.n} ข้อ · ${X.auto?`หมดเวลา ${X.min} นาที ระบบส่งให้`:`ใช้เวลา ${mmss(used)} จาก ${X.min} นาที`}</p>`;
-  h+=`<div class="gradebox ${gCls(X.grade)}"><span class="k">เกรด</span><span class="g">${esc(X.grade)}</span></div>`;
+  const G=gradeOf(X.pct);h+=`<div class="gradebox ${gCls(G)}"><span class="k">เกรด</span><span class="g">${esc(G)}</span></div>`;
   h+=`<div class="row2 center"><button class="btn${mode==="short"?" primary":""}" id="lrShort" type="button">Short answer paper</button><button class="btn" id="lrLong" type="button">Long explanation</button></div>`;
   if(mode==="short"){const f=st.lrF||"all",wr=qs.filter(q=>X.ans[q.uid]!=null&&X.ans[q.uid]!==q.ans).length;
     h+=`<div class="score">${X.score}<span style="font-size:22px;color:var(--muted)"> / ${X.n}</span></div><p class="statline" style="text-align:center"><b>${X.pct.toFixed(1)}%</b> · ถูก ${X.score} · ผิด ${wr} · ไม่ได้ทำ ${X.n-nA}${nS?` · ★ ${nS}`:""}</p>`;
-    h+=`<p class="hint" style="text-align:center">เกณฑ์: A ≥85% · B+ 80 · B 75 · C+ 70 · C 65 · D+ 60 · D 55 · F &lt;55%</p>`;
+    {const c={};qs.forEach(q=>{const k=legSrc(X,q.uid);c[k]=(c[k]||0)+1;});h+=`<p class="hint" style="text-align:center">ชุดนี้สุ่มได้: ${["acd","acn","ac","unit","adm"].filter(k=>c[k]).map(k=>`${LSRS[k]||"ข้อสอบเก่า (AC)"} ${c[k]}`).join(" · ")}</p>`;}
+    h+=`<p class="hint" style="text-align:center">เกณฑ์: A ≥80% · B+ 75 · B 70 · C+ 65 · C 60 · D+ 55 · D 50 · F &lt;50%</p>`;
     h+=`<div class="chips" id="lrF">${[["all","ทั้งหมด"],["wrong","ผิด"],["todo","ไม่ได้ทำ"],["star","★ ติดดาว"]].map(([v,t])=>`<button class="chip" data-v="${v}" aria-pressed="${f===v}">${t}</button>`).join("")}</div>`;
-    const v=X.list.map((u,i)=>[W.byU[u],i]).filter(([q])=>{if(!q)return false;const a=X.ans[q.uid];return f==="wrong"?a!=null&&a!==q.ans:f==="todo"?a==null:f==="star"?!!X.star[q.uid]:true;});
-    h+=`<div class="card" style="padding:6px;margin-top:10px"><div class="rows" style="padding:0">${v.map(([q,i])=>{const a=X.ans[q.uid],nd=a==null;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");return `<button class="srow" data-li="${i}"><span class="n">${i+1}</span><span class="bs">${bs}</span><span class="meta">${X.star[q.uid]?"★ ":""}${nd?"ไม่ได้ทำ":a===q.ans?"✓":"✗"}</span></button>`;}).join("")||`<div class="empty">ไม่มีข้อที่ตรงกับตัวกรองนี้</div>`}</div></div><p class="hint">แตะข้อไหนก็ได้เพื่อดูเฉลยละเอียดของข้อนั้น</p>`;}
+    const v=X.list.map((u,i)=>[legQ(u),i]).filter(([q])=>{if(!q)return false;const a=X.ans[q.uid];return f==="wrong"?a!=null&&a!==q.ans:f==="todo"?a==null:f==="star"?!!X.star[q.uid]:true;});
+    h+=`<div class="card" style="padding:6px;margin-top:10px"><div class="rows" style="padding:0">${v.map(([q,i])=>{const a=X.ans[q.uid],nd=a==null;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");return `<button class="srow" data-li="${i}"><span class="n">${i+1}</span><span class="bs">${bs}</span><span class="meta">${X.star[q.uid]?"★ ":""}${nd?"ไม่ได้ทำ":a===q.ans?"✓":"✗"} · ${LSRS[legSrc(X,q.uid)]||"AC"}</span></button>`;}).join("")||`<div class="empty">ไม่มีข้อที่ตรงกับตัวกรองนี้</div>`}</div></div><p class="hint">แตะข้อไหนก็ได้เพื่อดูเฉลยละเอียดของข้อนั้น</p>`;}
   else h+=`<p class="hint" style="text-align:center">ดูคะแนนและข้อที่ถูก/ผิดใน Short answer paper หรืออ่านเฉลยทีละข้อใน Long explanation</p>`;
   h+=`<div class="stack" style="margin-top:14px"><button class="btn ghost" id="lrBack" type="button">กลับ Legendary round</button></div>`;
   $("main").innerHTML=h;
@@ -1091,12 +1112,12 @@ The student will work through the case step by step like a long-case exam; at ea
 
 Reply with only a JSON object:
 {"topic":"short English topic label (the final diagnosis, hidden from the student until the end)",
- "intro":"English: patient identification (age, sex, occupation, province) + chief complaint with duration, one or two sentences, no diagnosis",
+ "intro":"English chief complaint ONLY: the main symptom and its duration, e.g. \"Right lower abdominal pain for 1 day\" — no age, sex, history or any other detail (the student takes the history next)",
  "stages":[ exactly 8 objects in this order, each {"k":"<hx|pe|ddx|lab|dx|init|tx|fu>","info":"…","answer":"…"} ],
  "pearls":["4–6 Thai take-home points"],
  "guide":"main guideline or textbook with year, or empty string"}
 Stage content:
-- hx: info = the full history the patient gives when asked well (present illness with timeline, pertinent positives and negatives, past history, drugs, allergy, family, social, systemic review) in English; answer = Thai: what should be asked and why, which findings matter.
+- hx: info = the full history the patient gives when asked well, starting with patient identification (age, sex, occupation, province), then present illness with timeline, pertinent positives and negatives, past history, drugs, allergy, family, social, systemic review) in English; answer = Thai: what should be asked and why, which findings matter.
 - pe: info = vital signs and examination findings in English; answer = Thai: what to examine and how to interpret the findings.
 - ddx: info = ""; answer = Thai: 3–5 differential diagnoses with points for and against, then the most likely diagnosis.
 - lab: info = investigation results in English (values with units; imaging/pathology reports as text); answer = Thai: which investigations and why, interpretation.
@@ -1117,14 +1138,17 @@ const lcCur=()=>{const k=P_().lcCur;return k&&bank[k]?Object.assign({key:k},bank
 function lcSave(x){const k=x.key;const v=Object.assign({},x);delete v.key;bankPut(k,v);}
 function rLCase(){
   const W=W_(),P=P_();let x=st.lcView&&bank[st.lcView]&&st.lcView.split("|")[1]===ward?Object.assign({key:st.lcView},bank[st.lcView]):lcCur();
-  let h=`<h1 class="h2">Long case round</h1>`;
-  if(!x){h+=`<p class="sub">AI สร้างเคสใหม่ให้ เริ่มจาก chief complaint แล้วดำเนินเคสทีละขั้น 8 ขั้นเหมือนสอบ long case — เขียนคำตอบของตัวเองก่อน แล้วกดดูข้อมูลและเฉลยของขั้นนั้น (สไตล์ MEQ) · เนื้อหาตามวอร์ด ${esc(W.cfg.name)}</p>`;
+  let h=`<h1 class="h2">Long case</h1>`;
+  if(!x){h+=`<p class="sub">AI ให้ chief complaint (อาการ + ระยะเวลา) มา แล้วคุณดำเนินเคสเองทีละขั้น 8 ขั้นเหมือนสอบ long case — เขียนคำตอบของตัวเองก่อน แล้วกดดูข้อมูลและเฉลยของขั้นนั้น (สไตล์ MEQ) · เนื้อหาตามวอร์ด ${esc(W.cfg.name)}</p>`;
     if(lcBusy)h+=`<div class="card"><h3>กำลังสร้างเคสใหม่…</h3><span class="rd" style="margin:0">ใช้เวลาประมาณ 20–90 วินาที</span><div class="spin" aria-hidden="true"></div></div>`;
-    else{h+=`<div class="stack"><button class="btn primary" id="lcNew" type="button">✦ สร้างเคสใหม่</button></div>`;if(lcErr)h+=`<div class="card"><h3>สร้างเคสไม่สำเร็จ</h3>${aiErrHTML(lcErr)}</div>`;}
+    else{if(lcErr&&lcErr.code!=="no_ai")h+=`<div class="card"><h3>สร้างเคสไม่สำเร็จ</h3>${aiErrHTML(lcErr)}</div>`;h+=`<div id="lcBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;}
     const H=bankItems("lc",ward).reverse();
     if(H.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">เคสที่เคยทำ</h2><div class="card" style="padding:6px">${H.map(c=>`<button class="srow" data-lc="${esc(c.key)}"><span class="meta" style="flex:1"><b>${esc(c.step>=8?c.case.topic:"เคสที่ยังทำไม่จบ")}</b> · ${esc(c.case.intro.slice(0,70))}${c.case.intro.length>70?"…":""}<br>${fmtD(c.c)} · ${Math.min(c.step,8)}/8 ขั้น</span><span class="go">→</span></button>`).join("")}</div>`;
     $("main").innerHTML=h;
-    const nb=$("lcNew");if(nb)nb.onclick=lcNew;
+    if(!lcBusy)aiMode().then(mode=>{const box=$("lcBox");if(!box||view!=="lcase")return;box.innerHTML=lcConnectHTML(mode);
+      const nb=$("lcNew");if(nb)nb.onclick=lcNew;
+      const sv=$("aiSave");if(sv)sv.onclick=()=>{const k=$("aiKey").value.trim(),m=$("aiModel").value.trim();if(!/^sk-/.test(k)){toast("key ควรขึ้นต้นด้วย sk-");return;}try{localStorage.setItem(AIKEY,JSON.stringify({key:k,model:m}));}catch(e){}lcNew();};
+      const dl=$("aiDel");if(dl)dl.onclick=()=>{try{localStorage.removeItem(AIKEY);}catch(e){}rLCase();};});
     document.querySelectorAll("[data-lc]").forEach(b=>b.onclick=()=>{const k=b.dataset.lc;if((bank[k].step||0)<8){P.lcCur=k;st.lcView="";save();}else{st.lcView=k;persist();}rLCase();window.scrollTo(0,0);});
     return;}
   const C=x.case,done=Math.min(x.step||0,8),my=x.my||{};
@@ -1150,6 +1174,17 @@ function rLCase(){
     catch(e){console.warn("lc fb",e);const o=$("lcFbOut");if(o)o.innerHTML=aiErrHTML(e);}
     lcFbBusy=false;const b2=$("lcFb");if(b2)b2.disabled=false;};
 }
+/* the start button: make a case right away when AI is reachable; otherwise the button opens this page in Claude, or the API key form */
+function lcConnectHTML(mode){
+  if(mode)return `<div class="stack"><button class="btn primary" id="lcNew" type="button">✦ เริ่มเคสใหม่</button></div>${HAS_CLAUDE()?"":`<p class="hint" style="text-align:center">ใช้ API key ที่บันทึกไว้ในเบราว์เซอร์นี้ · <button class="linkbtn" id="aiDel" style="font-size:13px;padding:0">ลบ key</button></p>`}`;
+  if(HAS_CLAUDE())return `<div class="card"><h3>ใช้ Claude จากหน้านี้ไม่ได้</h3><span class="rd" style="margin:0">ล็อกอิน Claude แล้วเปิดหน้านี้ใหม่ แล้วกดอนุญาตเมื่อหน้านี้ขอใช้ Claude (ใช้โควตาบัญชีของคุณเอง)</span></div>`;
+  const c=aiCfg();
+  return `${CFG.artifactUrl?`<a class="btn primary" style="display:block;text-align:center;text-decoration:none;margin-bottom:8px" href="${esc(artLink(ward+"/lcase"))}" target="_blank" rel="noopener">✦ เริ่มเคสใหม่ใน Claude ↗ (ฟรี ใช้บัญชี Claude)</a>`:""}
+  <div class="card"><h3>หรือใช้ในเว็บนี้ด้วย Anthropic API key</h3><span class="rd">เว็บนี้ไม่มี AI ในตัว ใส่ key ของคุณแล้วเริ่มเคสได้ทันที</span>
+  <input class="field-in" id="aiKey" type="password" autocomplete="off" spellcheck="false" placeholder="sk-ant-…" value="${esc(c.key||"")}">
+  <input class="field-in" id="aiModel" type="text" autocapitalize="none" spellcheck="false" placeholder="โมเดล (เว้นว่าง = claude-sonnet-5-5)" value="${esc(c.model||"")}" style="margin-top:8px">
+  <span class="rd" style="margin-top:6px">key เก็บไว้ในเบราว์เซอร์นี้เท่านั้น (ไม่ซิงก์ ไม่ส่งไปที่อื่นนอกจาก api.anthropic.com) · คิดเงินตามการใช้งานจากบัญชี API ของคุณ</span>
+  <div class="row2" style="margin-top:6px"><button class="btn primary" id="aiSave" type="button">บันทึกแล้วเริ่มเคส</button>${c.key?`<button class="btn ghost" id="aiDel" type="button">ลบ key</button>`:""}</div></div>`;}
 async function lcNew(){if(lcBusy)return;lcBusy=true;lcErr="";const wid=ward;rLCase();
   try{const c=await lcGen();const k="lc|"+wid+"|"+now().toString(36);bankPut(k,{case:c,step:0,my:{}});PWof(st,wid).lcCur=k;st.lcView="";save();}
   catch(e){console.warn("long case",e);lcErr=e;}
@@ -1391,6 +1426,7 @@ function mergeSt(a,b){
   }
   if((b.t||0)>(a.t||0)){a.phase=b.phase===2?2:1;a.noteMode=b.noteMode||a.noteMode;if(b.qp)a.qp=b.qp;}
   if(!a.qp&&b.qp)a.qp=b.qp;
+  if(b.lastRoute&&(b.lastRouteT||0)>(a.lastRouteT||0)){a.lastRoute=b.lastRoute;a.lastRouteT=b.lastRouteT;}
   a.t=Math.max(a.t||0,b.t||0);
 }
 async function pull(){
@@ -1428,13 +1464,13 @@ async function initClaude(){
     cl={db,col:"data/users/"+uid,bcol:"data/bank/"+uid};sync="saving";paintAcct();
     await clPull();sync="cloud";
   }catch(e){console.warn("claude sync",e);if(cl)sync="error";}
-  paintAcct();if(view==="svc"||view==="sess")rQuiz();else route();
+  paintAcct();if(view==="svc"||view==="sess")rQuiz();else if(view==="wards"&&!(location.hash||"").replace(/^#\/?/,"")&&startPath())go(startPath());else route();
 }
 async function clPull(){
   const snap=await cl.db.collection(cl.col).limit(1000).get();
   const r={w:{},t:0},rts={};let old=null;
   snap.docs.forEach(d=>{const id=d.id,x=d.data()||{};try{
-    if(id==="meta"){const m=JSON.parse(x.d||"{}");r.phase=m.phase;r.noteMode=m.noteMode;if(m.qp)r.qp=m.qp;r.t=Math.max(r.t,x.t||0);}
+    if(id==="meta"){const m=JSON.parse(x.d||"{}");r.phase=m.phase;r.noteMode=m.noteMode;if(m.qp)r.qp=m.qp;if(m.lastRoute){r.lastRoute=m.lastRoute;r.lastRouteT=m.lastRouteT||0;}r.t=Math.max(r.t,x.t||0);}
     else if(id==="progress"&&Array.isArray(x.a))old=x;   /* progress saved by the earlier single-page artifact */
     else if(id.startsWith("w_")){r.w[id.slice(2)]=JSON.parse(x.d||"{}");r.t=Math.max(r.t,x.t||0);}
     else if(id.startsWith("ink_")&&x.k){const v=JSON.parse(x.d);rts[x.k]=v.ts||0;if(!ink[x.k]||(v.ts||0)>(ink[x.k].ts||0))ink[x.k]=v;}
@@ -1456,7 +1492,7 @@ async function clBank(){if(!cl)return;clearTimeout(bankT);const ks=[...bankDirty
 let clBusy=false,clAgain=false;
 async function clPush(){if(!cl)return;clearTimeout(pushT);if(clBusy){clAgain=true;return;}clBusy=true;sync="saving";paintSync();
   try{const t=st.t||now();
-    await cl.db.doc(cl.col+"/meta").set({d:JSON.stringify({phase:st.phase,noteMode:st.noteMode||"",lastWard:st.lastWard||"",qp:st.qp||null}),t});
+    await cl.db.doc(cl.col+"/meta").set({d:JSON.stringify({phase:st.phase,noteMode:st.noteMode||"",lastWard:st.lastWard||"",qp:st.qp||null,lastRoute:st.lastRoute||"",lastRouteT:st.lastRouteT||0}),t});
     for(const id in st.w)await cl.db.doc(cl.col+"/w_"+id).set({d:JSON.stringify(st.w[id]),t});
     sync="cloud";}catch(e){console.warn(e);sync="error";}
   clBusy=false;paintSync();if(clAgain){clAgain=false;clPush();}}
@@ -1503,7 +1539,15 @@ function rSignin(){
 /* ---------------- start ---------------- */
 const remember=()=>{if(ward){st.lastWard=ward;persist();}};
 window.addEventListener("hashchange",remember);
+/* opening without a page: take ?go=<ward>/<view> from a link; inside Claude, otherwise reopen the last page used there */
+const RESTORE=["home","adm","lcase","legend","exam","lres","advisor","report","unit","quality","service","grand","hy","kw"];
+function startPath(){if((location.hash||"").replace(/^#\/?/,""))return "";let g="";try{g=new URLSearchParams(location.search).get("go")||"";}catch(e){}
+  if(!g&&IN_FRAME&&st.lastRoute&&now()-(st.lastRouteT||0)<14*86400e3)g=st.lastRoute;
+  return /^[\w-]+(\/[\w-]+)?$/.test(g)&&WARDS[g.split("/")[0]]?g:"";}
+function noteRoute(){if(!ward||!RESTORE.includes(view))return;const r=ward+"/"+view;if(st.lastRoute!==r){st.lastRoute=r;st.lastRouteT=now();persist();}}
+window.addEventListener("hashchange",()=>setTimeout(noteRoute,0));
 checkHashImport();
-route();
+{const g=startPath();if(g){try{history.replaceState(null,"","#/"+g);}catch(e){location.hash="#/"+g;}}}
+route();noteRoute();
 if(HAS_CLAUDE())initClaude();else initFB();
 })();
