@@ -56,6 +56,7 @@ function PWof(S,id){
   P.unit=P.unit||{};P.unit.att=P.unit.att||{};        /* Unit round answers (both phases share) */
   P.morn=P.morn||{};                                   /* Morning round: {1|2: {day, list, ans, ts}} */
   P.adm=P.adm||{cur:null,ans:null,next:null,n:0,right:0,recent:[],ts:0};   /* Admission round */
+  P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
   return P;
 }
 /* migrate the earlier single-sheet site/artifact format {a:{uid:ans},t} → Phase 1 attempts */
@@ -68,7 +69,8 @@ let ward=null;               // current ward id
 const W_=()=>WARDS[ward];
 const P_=()=>PWof(st,ward);
 const ph=()=>st.phase===2?2:1;
-const atts=(P,p,u)=>P.att[p][u]||[];
+const rawAtts=(P,p,u)=>P.att[p][u]||[];
+const atts=(P,p,u)=>{const a=P.att[p][u]||[],r=P.reset&&P.reset[p]&&P.reset[p][u];return r&&r[0]?a.filter(x=>x[1]>r[0]):a;};
 const lastA=(P,p,u)=>{const a=atts(P,p,u);return a.length?a[a.length-1]:null;};
 const lockedAns=(P,p,u)=>{const a=lastA(P,p,u);if(!a)return undefined;const o=P.open[p][u];if(o&&o>=a[1])return undefined;return a[0];};
 const latestAny=(P,u)=>{const a=lastA(P,1,u),b=lastA(P,2,u);if(!a)return b;if(!b)return a;return a[1]>=b[1]?a:b;};
@@ -95,7 +97,7 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report"].includes(v))v="home";
   show(v);
 }
 function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]).filter(u=>W_().byU[u]);if(!s.list.length){P.sess=null;return false;}if(s.cur>=s.list.length)s.cur=s.list.length-1;if(s.cur<0)s.cur=0;return true;}
@@ -109,7 +111,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm})[v]();
+  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -137,7 +139,7 @@ const ROUNDS=[
   {k:"legend",n:"Legendary round",d:"",soon:1},
   {k:"staff",n:"Ward staff round",d:"ทวนข้อที่เคยทำแล้ว แต่ยังทำถูกติดกันไม่ถึง 2 ครั้ง"},
   {k:"teach",n:"Teaching round",d:"",soon:1},
-  {k:"advisor",n:"Advisor round",d:"",soon:1},
+  {k:"advisor",n:"Advisor round",d:"อ่านเฉลยข้อที่เคยทำแล้วแบบเร็ว ๆ ไม่ต้องตอบ พร้อมคำแนะนำเฉพาะช้อยที่เคยเลือก และรายงานว่าผิดเรื่องไหนมากสุด"},
   {k:"unit",n:"Unit round",d:"โจทย์ใหม่แบบ case-based จาก lecture แต่ละบท สุ่มใหม่ทุกครั้งที่เข้า"},
   {k:"quality",n:"Quality round",d:"Speedrun ข้อที่ยังไม่เคยทำ จับเวลาเป็นเซต ตั้งค่าเองได้ทั้งหมด"},
   {k:"admission",n:"Admission round",d:"เคสใหม่ที่ AI สร้างให้ทีละข้อ เนื้อหาเหมาะกับชั้นปีในวอร์ดนี้"}
@@ -206,15 +208,15 @@ function rHome(){
   document.querySelectorAll("[data-round]").forEach(b=>b.onclick=()=>{const k=b.dataset.round;const R=ROUNDS.find(r=>r.k===k);if(R.soon){toast("โหมดนี้จะเพิ่มภายหลัง");return;}
     if(k==="unit")return go(ward+"/unit");if(k==="admission")return go(ward+"/adm");if(k==="morning")return startMorning();
     if(!QB.length){toast("ยังไม่มีข้อสอบในคลัง");return;}
-    if(k==="quality")return go(ward+"/quality");
+    if(k==="quality")return go(ward+"/quality");if(k==="advisor")return go(ward+"/advisor");
     if(k==="grand")go(ward+"/grand");else if(k==="service")go(ward+"/service");
     else if(k==="staff"){const l=staffList();if(!l.length){toast(Object.keys(P.att[p]).length?"ไม่มีข้อที่ต้องทวน — ทุกข้อที่ทำแล้วถูกติดกัน 2 ครั้งแล้ว":"ยังไม่มีข้อที่เคยทำใน Phase นี้");return;}startSess("staff","Ward staff round",l.map(q=>q.uid));}
     else toast("โหมดนี้จะเพิ่มภายหลัง");});
 }
-function startSess(kind,title,uids){
+function startSess(kind,title,uids,extra){
   if(!uids.length){toast("ไม่มีข้อที่เข้าเงื่อนไข");return;}
   if(kind!=="quality")qStop();
-  P_().sess={kind,title,ph:ph(),list:uids,ans:{},cur:0,ts:now()};save();go(ward+"/sess");
+  P_().sess=Object.assign({kind,title,ph:ph(),list:uids,ans:{},cur:0,ts:now()},extra||{});save();go(ward+"/sess");
 }
 
 /* ---------------- service round: choose sets ---------------- */
@@ -263,14 +265,16 @@ const svcVisible=()=>svcList().filter(svcPass);
 function svcQ(){const W=W_(),s=svcS();let q=W.byU[s.cur];if(!q||!inSet(q)){q=svcVisible()[0]||svcList()[0]||W.QB[0];if(q)s.cur=q.uid;}return q;}
 const isSess=()=>view==="sess";
 function curQ(){if(view==="adm")return P_().adm.cur;if(isSess()){const s=P_().sess;return W_().byU[s.list[s.cur]];}return svcQ();}
-function doneAns(q){if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
+function doneAns(q){if(isAdv()){const h=hist(P_(),q.uid,P_().sess.hp,true);return h.length?h[h.length-1][0]:null;}if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
 
 function rQuiz(){
   const W=W_(),P=P_(),R=W.R,q=curQ();
   if(!q){$("main").innerHTML=`<div class="empty">ไม่มีข้อในชุดนี้</div>`;return;}
-  const done=doneAns(q);if(done!==undefined)pick=done>=0?done:null;const locked=done!==undefined;
+  const done=doneAns(q);if(done!==undefined)pick=done!=null&&done>=0?done:null;const locked=done!==undefined;
+  if(isAdv()){const s=P.sess;if(s.ans[q.uid]===undefined){s.ans[q.uid]=-9;s.ts=now();save();}}   /* advisor: -9 = answer read */
   let h="";
   if(view==="adm"){const A=P.adm;h+=`<div class="sessbar">Admission round · ข้อที่ ${A.n+(locked?0:1)} · ถูกแล้ว ${A.right}/${A.n} · ${esc(W.cfg.short||"")}</div>`;}
+  else if(isAdv()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · อ่านเฉลย · ประวัติ${s.hp==="p"?` Phase ${s.ph}`:"ทั้ง 2 Phase"}</div>`;}
   else if(isSess()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · Phase ${s.ph}</div>`;}
   const lab=q.adm?["เคส","Admission"]:q.unit?["Lecture","Unit"]:[CFG.setLabel||"ปี",CFG.roLabel||"Rotation"];
   h+=`<div class="qhead"><div class="qnum">${q.adm?"A":q.id}.</div><div class="fields"><span class="field"><b>${lab[0]}</b>${esc(q.set)}</span><span class="field"><b>${lab[1]}</b>${esc(q.ro)}</span></div>${q.adm?"":`<button class="flag" id="flagBtn" aria-pressed="${flagged(P,q.uid)}" title="ทำเครื่องหมายข้อที่ยังไม่มั่นใจ">⚑ ไม่มั่นใจ</button>`}</div>`;
@@ -279,7 +283,8 @@ function rQuiz(){
   if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
   const gi=(q.gray||"").indexOf(" — "),g1=gi>=0?q.gray.slice(0,gi):q.gray;if(g1)h+=`<p class="gray">${esc(g1)}</p>`;
   h+=`<ul class="opts" role="radiogroup" aria-label="ตัวเลือก">`;
-  q.opts.forEach((o,i)=>{let c="opt";if(pick===i)c+=" sel";if(locked){if(i===q.ans)c+=" correct";else if(i===done)c+=" wrongpick";else c+=" dim";}
+  const everPick=isAdv()?new Set(hist(P,q.uid,P.sess.hp,true).map(x=>x[0])):null;
+  q.opts.forEach((o,i)=>{let c="opt";if(pick===i)c+=" sel";if(locked){if(i===q.ans)c+=" correct";else if(i===done||(everPick&&everPick.has(i)))c+=" wrongpick";else c+=" dim";}
     h+=`<li class="${c}" role="radio" tabindex="0" aria-checked="${pick===i}" aria-disabled="${locked}" data-i="${i}"><span class="bub">${L[i]}</span><span class="txt">${esc(o)}</span></li>`;});
   h+=`</ul>`;
   const p=isSess()?P.sess.ph:ph();
@@ -305,6 +310,7 @@ function bindQuiz(q,locked){
   document.querySelectorAll(".opt").forEach(el=>{const f=()=>{if(locked)return;pick=+el.dataset.i;rQuiz();};el.addEventListener("click",f);el.addEventListener("keydown",e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();f();}});});
   const c=$("confirm");if(c)c.onclick=confirmAns;
   if($("flagBtn"))$("flagBtn").onclick=()=>{const on=!flagged(P,q.uid);P.flag[q.uid]=[on?1:0,now()];save();$("flagBtn").setAttribute("aria-pressed",on);toast(on?"ทำเครื่องหมาย ไม่มั่นใจ แล้ว":"เอาเครื่องหมายออกแล้ว");};
+  if(isAdv())bindAdv(q);
   const rb=$("redo");if(rb)rb.onclick=()=>{if(isSess()){delete P.sess.ans[q.uid];if(P.sess.kind==="morning"&&P.morn[P.sess.ph])delete P.morn[P.sess.ph].ans[q.uid];}else P.open[ph()][q.uid]=now();if(P.sess)P.sess.ts=now();pick=null;save();rQuiz();window.scrollTo(0,0);};
   const pb=$("preBox");if(pb)pb.addEventListener("toggle",()=>{if(pb.open)mountNotes(pb);});
   mountNotes(document);
@@ -333,11 +339,14 @@ function step(d){
 $("prev").onclick=()=>step(-1);$("next").onclick=()=>step(1);
 
 function explain(q,done,R,p){
-  const ok=done===q.ans,skip=done<0,P=P_(),W=W_(),s=isSess()?P.sess:null;
-  let h=`<section class="exp" aria-live="polite"><div class="verdict"><span class="v ${ok?"ok":"no"}">${ok?"ถูก":skip?"หมดเวลา":"ผิด"}</span><span class="ans">${ok?"":skip?"ไม่ได้ตอบ · ":`คุณตอบ ${L[done]} · `}เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
+  const ok=done===q.ans,skip=done!=null&&done<0,P=P_(),W=W_(),s=isSess()?P.sess:null,adv=isAdv();
+  let h=`<section class="exp" aria-live="polite">`;
+  if(adv&&done==null)h+=`<div class="verdict"><span class="v new">ยังไม่เคยทำ</span><span class="ans">เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
+  else h+=`<div class="verdict"><span class="v ${ok?"ok":"no"}">${ok?"ถูก":skip?"หมดเวลา":"ผิด"}</span><span class="ans">${adv?"ครั้งล่าสุด · ":""}${ok?"":skip?"ไม่ได้ตอบ · ":`คุณตอบ ${L[done]} · `}เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
   h+=`<div class="tagline">`;
   if(q.rep)h+=`<span class="tag rep">repeated x${q.rep}</span>`;
-  if(!q.adm)h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
+  if(adv)h+=advResetBtn(q);
+  else if(!q.adm)h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
   if(s&&s.kind==="morning")h+=`<span class="tag rep">ที่มา: ${q.unit?`Unit round — ${esc((W.byLec[q.unit]||{}).title||q.set)} (นับว่าเจอข้อนี้แล้ว)`:`ข้อสอบเก่า (AC) ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id} ในคลัง`}</span>`;
   if(q.unit){const Lc=W.byLec[q.unit]||{},n=uAtts(P,q.uid).length;h+=`<span class="tag">Unit round · ${esc(Lc.title||q.set)}${Lc.src?` · จาก ${esc(Lc.src)}`:""}</span><span class="tag">เจอข้อนี้มาแล้ว ${n} ครั้ง (รวมครั้งนี้)</span>`;}
   else if(q.adm)h+=`<span class="tag">Admission round · เคสที่ AI สร้างใหม่${q.topic?` · ${esc(q.topic)}`:""}</span>`;
@@ -346,12 +355,14 @@ function explain(q,done,R,p){
   if(q.flag)h+=`<span class="tag warn">⚠ คีย์ไม่ชัวร์ / โจทย์ต้นฉบับไม่ครบ</span>`;
   h+=`</div>`;if(q.key)h+=`<div class="tagline"><span class="tag">คีย์ในไฟล์: ${q.key}</span></div>`;
   if(q.adm)h+=`<p class="hint" style="margin:4px 0 0">โจทย์และเฉลยข้อนี้ AI สร้างขึ้นใหม่ อาจผิดพลาดได้ ควรเทียบกับตำรา/guideline</p>`;
+  if(adv)h+=advBox(q);
   {const gi=(q.gray||"").indexOf(" — ");if(gi>=0)h+=`<div class="tagline"><span class="tag">ส่วนที่เหลือของโจทย์ต้นฉบับ: ${esc(q.gray.slice(gi+3))}</span></div>`;}
   const sec=(t,b,cls="")=>b?`<div class="sec ${cls}"><h3>${t}</h3>${b}</div>`:"";
   const rich=s=>(s||"").replace(/\{\{IMG:(\w+)\}\}/g,(m,k)=>IMGS[k]?`<figure><img src="${IMGS[k]}" alt="ภาพจากไฟล์ต้นฉบับ"><figcaption>จากไฟล์ต้นฉบับ</figcaption></figure>`:"");
   h+=sec("ตีความโจทย์",`<p>${R(q.interp)}</p>`);
   h+=sec(`ทำไม ${L[q.ans]} ถูก`,`<p>${R(q.why)}</p>`);
-  let w=`<ul class="wrong-list">`;Object.keys(q.wrong||{}).sort().forEach(k=>{w+=`<li><span class="l">${k}</span><span>${R(q.wrong[k])}</span></li>`;});w+=`</ul>`;
+  const picked=adv?new Set(hist(P,q.uid,s.hp,true).map(x=>L[x[0]])):new Set();
+  let w=`<ul class="wrong-list">`;Object.keys(q.wrong||{}).sort().forEach(k=>{w+=`<li${picked.has(k)?' class="picked"':""}><span class="l">${k}</span><span>${picked.has(k)?`<b class="youpick">คุณเคยเลือกข้อนี้</b> `:""}${R(q.wrong[k])}</span></li>`;});w+=`</ul>`;
   h+=sec("ทำไมข้ออื่นผิด",w);
   h+=sec("ระวังกับดัก",q.trap?`<div class="box">${R(q.trap)}</div>`:"","trap");
   h+=sec("สรุปความรู้จากข้อนี้",`<ul>${(q.summary||[]).map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
@@ -731,9 +742,205 @@ function rAdm(){
   });
 }
 
+/* ---------------- Advisor round: read the answers of questions already done (no answering) + personalised advice + topic report ---------------- */
+const isAdv=()=>view==="sess"&&!!P_().sess&&P_().sess.kind==="advisor";
+const advS=()=>{const a=st.adv||(st.adv={});a.sets=a.sets||[];a.f=a.f||"all";a.ord=a.ord||"bank";if(a.n==null)a.n=0;a.hp=a.hp==="p"?"p":"all";a.undone=!!a.undone;return a;};
+const hPh=hp=>hp==="p"?[ph()]:[1,2];
+/* answer history of one question [[ans, ts, phase]…] oldest first · raw = include attempts made before a reset */
+function hist(P,u,hp,raw){const f=raw?rawAtts:atts;let o=[];hPh(hp).forEach(p=>{o=o.concat(f(P,p,u).map(x=>[x[0],x[1],p]));});return o.sort((x,y)=>x[1]-y[1]);}
+const nWrong=(h,q)=>h.filter(x=>x[0]!==q.ans).length;
+const topicOf=(W,q)=>(W.TOPIC&&W.TOPIC[q.set+"|"+q.ro+"|"+q.orig])||q.topic||"Others";
+const ADVF=[["all","ทุกข้อที่ทำแล้ว"],["w1","ผิด ≥ 1 ครั้ง"],["w2","ผิด ≥ 2 ครั้ง"],["w3","ผิด ≥ 3 ครั้ง"],["last","ล่าสุดยังผิด"],["fixed","เคยผิด แต่ล่าสุดถูก"],["clean","ถูกทุกครั้ง"]];
+const ADVO=[["bank","ตามลำดับในคลัง"],["wrong","ผิดบ่อยสุดก่อน"],["topic","จัดตามหัวข้อ"],["rand","สุ่ม"]];
+function advPass(f,q,h){const w=nWrong(h,q),l=h[h.length-1];
+  switch(f){case"w1":return w>=1;case"w2":return w>=2;case"w3":return w>=3;case"last":return l[0]!==q.ans;case"fixed":return w>=1&&l[0]===q.ans;case"clean":return w===0;default:return true;}}
+function advPool(a){const W=W_(),P=P_(),sel=a.sets.filter(k=>W.sets.includes(k)),out=[];
+  W.QB.forEach(q=>{if(sel.length&&!sel.includes(setKey(q)))return;const h=hist(P,q.uid,a.hp);if(h.length?advPass(a.f,q,h):a.undone)out.push([q,h]);});return out;}
+function advList(a){const W=W_();let l=advPool(a);
+  if(a.ord==="rand")l=shuffle(l);
+  else if(a.ord==="wrong")l=l.slice().sort((x,y)=>nWrong(y[1],y[0])-nWrong(x[1],x[0])||(y[1].length?1:0)-(x[1].length?1:0)||x[0].id-y[0].id);
+  else if(a.ord==="topic")l=l.slice().sort((x,y)=>topicOf(W,x[0]).localeCompare(topicOf(W,y[0]))||x[0].id-y[0].id);
+  if(a.n)l=l.slice(0,a.n);return l.map(x=>x[0].uid);}
+function rAdvisor(){
+  const W=W_(),P=P_(),QB=W.QB,a=advS();
+  if(!QB.length){$("main").innerHTML=`<div class="empty">ยังไม่มีข้อสอบในคลัง</div>`;return;}
+  const sel=new Set(a.sets.filter(k=>W.sets.includes(k))),years=[...new Set(QB.map(q=>q.set))];
+  const chips=(id,list,cur)=>`<div class="chips" id="${id}">${list.map(([v,t])=>`<button class="chip" data-v="${esc(v)}" aria-pressed="${String(v)===String(cur)}">${t}</button>`).join("")}</div>`;
+  let h=`<h1 class="h2">Advisor round</h1><p class="sub">อ่านเฉลยข้อที่เคยทำแล้วแบบเร็ว ๆ ไม่ต้องตอบ ทุกข้อมีคำแนะนำเฉพาะช้อยที่คุณเคยเลือก และกดรีเซ็ตให้ข้อไหนกลับเป็นข้อที่ยังไม่ทำได้ เผื่ออยากทำใหม่</p>`;
+  h+=`<button class="resume" id="advRep"><span>📊 <b>รายงานจาก Advisor</b><span class="rd">ผิดเรื่องไหนมากสุด · เรื่องไหนสำคัญ ควรอ่านเพิ่ม · แบ่งตามหัวข้อบทเรียน</span></span><span class="go">→</span></button>`;
+  h+=`<div class="lbl">ใช้ประวัติการตอบจาก</div>${chips("aHp",[["all","ทั้ง 2 Phase"],["p",`เฉพาะ Phase ${ph()}`]],a.hp)}`;
+  h+=`<div class="lbl">ปีและ rotation <span class="hint">ไม่เลือกเลย = ทุกชุด · ตัวเลข = ทำแล้ว/ทั้งหมด</span></div>`;
+  h+=years.map(y=>{const ks=W.sets.filter(k=>k.split(" ")[0]===y);return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=QB.filter(q=>setKey(q)===k),d=qs.filter(q=>hist(P,q.uid,a.hp).length).length;return `<button class="chip" data-k="${esc(k)}" aria-pressed="${sel.has(k)}">${esc(k.split(" ").slice(1).join(" "))}<span class="c">${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");
+  h+=`<div class="lbl">เลือกจากจำนวนครั้งที่ผิด</div>${chips("aF",ADVF,a.f)}`;
+  h+=`<label class="chk" style="display:flex;gap:8px;align-items:center;margin-top:12px;font-size:15px"><input type="checkbox" id="aUndone" ${a.undone?"checked":""} style="width:20px;height:20px"> รวมข้อที่ยังไม่เคยทำด้วย</label>`;
+  h+=`<div class="lbl">ลำดับ</div>${chips("aO",ADVO,a.ord)}`;
+  h+=`<div class="lbl">จำนวนข้อ</div>${chips("aN",[[10,"10 ข้อ"],[20,"20 ข้อ"],[40,"40 ข้อ"],[0,"ทั้งหมด"]],a.n)}`;
+  const pool=advPool(a),n=a.n?Math.min(a.n,pool.length):pool.length;
+  h+=`<p class="statline" style="margin-top:14px">${pool.length?`จะได้อ่านเฉลย <b>${n}</b> ข้อ${n<pool.length?` (จาก ${pool.length} ข้อที่เข้าเงื่อนไข)`:""}`:Object.keys(P.att[1]).length+Object.keys(P.att[2]).length?"ไม่มีข้อที่เข้าเงื่อนไขนี้":"ยังไม่เคยทำข้อไหนเลย — ติ๊ก “รวมข้อที่ยังไม่เคยทำด้วย” เพื่ออ่านเฉลยข้อใหม่ได้"}</p>`;
+  h+=`<div class="row2"><span class="spacer"></span><button class="btn primary" id="aGo" ${pool.length?"":"disabled"}>เริ่มอ่านเฉลย</button></div>`;
+  $("main").innerHTML=h;
+  const re=()=>{persist();rAdvisor();};
+  $("advRep").onclick=()=>go(ward+"/report");
+  [["aHp","hp"],["aF","f"],["aO","ord"],["aN","n"]].forEach(([id,k])=>document.querySelectorAll(`#${id} [data-v]`).forEach(b=>b.onclick=()=>{a[k]=k==="n"?+b.dataset.v:b.dataset.v;re();}));
+  document.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(sel.has(k))sel.delete(k);else sel.add(k);a.sets=W.sets.filter(x=>sel.has(x));re();});
+  $("aUndone").onchange=e=>{a.undone=e.target.checked;re();};
+  $("aGo").onclick=()=>{const l=advList(a);if(!l.length){toast("ไม่มีข้อที่เข้าเงื่อนไข");return;}save();startSess("advisor","Advisor round",l,{hp:a.hp});};
+}
+/* reset = this question counts as not done again (Service sheet, Grand "ยังไม่เคยทำ", Quality, Ward staff, Morning) — the answer history is kept for advice and the report */
+const advIsReset=(P,q,hp)=>hist(P,q.uid,hp,true).length>0&&!hist(P,q.uid,hp).length;
+function advResetBtn(q){const P=P_(),s=P.sess;if(!hist(P,q.uid,s.hp,true).length)return "";
+  return advIsReset(P,q,s.hp)?`<span class="tag">รีเซ็ตแล้ว — นับเป็นข้อที่ยังไม่ทำ</span><button class="link redo" id="advUnreset" type="button">ยกเลิกรีเซ็ต</button>`:`<button class="link redo" id="advReset" type="button">รีเซ็ตให้เป็นข้อที่ยังไม่ทำ</button>`;}
+const fmtD=t=>{const d=new Date(t);return d.getDate()+"/"+(d.getMonth()+1)+"/"+String(d.getFullYear()).slice(2);};
+function advBox(q){
+  const W=W_(),P=P_(),s=P.sess,R=W.R,h=hist(P,q.uid,s.hp,true),w=nWrong(h,q),last=h[h.length-1],tp=topicOf(W,q);
+  const cnt={};h.forEach(x=>{if(x[0]!==q.ans)cnt[x[0]]=(cnt[x[0]]||0)+1;});
+  const wl=Object.keys(cnt).map(Number).sort((x,y)=>cnt[y]-cnt[x]||x-y);const outs=cnt[-1]||0,picks=wl.filter(x=>x>=0);
+  const tq=W.QB.filter(x=>topicOf(W,x)===tp),tlw=tq.filter(x=>{const g=hist(P,x.uid,s.hp,true);return g.length&&g[g.length-1][0]!==x.ans;}).length;
+  const tips=[];
+  if(!h.length)tips.push("ยังไม่เคยทำข้อนี้ — ลองคิดคำตอบในใจก่อนอ่านเหตุผล จะจำได้ดีกว่าอ่านผ่าน ๆ (อ่านแล้วข้อนี้ยังนับเป็นข้อที่ยังไม่ทำ)");
+  else if(!w)tips.push(`ตอบถูกทุกครั้ง (${h.length} ครั้ง) — ข้อนี้เข้าใจแล้ว อ่านแค่ “สรุปความรู้” ทวนก็พอ`+(flagged(P,q.uid)?" แต่ยังติด ⚑ ไม่มั่นใจไว้ อ่าน “ทำไม "+L[q.ans]+" ถูก” ให้ชัดว่าถูกเพราะอะไร ไม่ใช่เดาถูก":""));
+  else if(last[0]===q.ans)tips.push(`เคยผิด ${w} ครั้ง แล้วตอบถูกในครั้งล่าสุด — ดีขึ้นแล้ว แต่ข้อที่เคยพลาดมักพลาดซ้ำได้ ทวนจุดที่เคยสับสนด้านล่างอีกรอบ`);
+  else{const same=picks.length===1&&cnt[picks[0]]>=2;
+    if(same)tips.push(`เลือก ${L[picks[0]]} ซ้ำ ${cnt[picks[0]]} ครั้ง — แปลว่ามีความเข้าใจที่คลาดเคลื่อนเรื่องนี้ ไม่ใช่แค่เดาผิด อ่านเหตุผลว่าทำไม ${L[picks[0]]} ไม่ใช่คำตอบ แล้วเทียบกับ ${L[q.ans]}`);
+    else if(picks.length>1)tips.push(`ตอบไม่ซ้ำกันเลย (${picks.map(x=>L[x]).join(", ")}) — น่าจะยังไม่มีหลักในการตัดสินข้อนี้ เริ่มจาก “ตีความโจทย์” แล้วจับกฎใน “ทำไม ${L[q.ans]} ถูก” ให้ได้ก่อน`);
+    else if(picks.length)tips.push(`ล่าสุดตอบ ${L[picks[0]]} ซึ่งยังผิด — ดูด้านล่างว่าช้อยนี้ผิดเพราะอะไร และต่างจาก ${L[q.ans]} ตรงไหน`);}
+  if(outs)tips.push(`หมดเวลา/ไม่ได้ตอบ ${outs} ครั้ง — ฝึกจับ keyword ในโจทย์ให้เร็วขึ้น ดูใน “ตีความโจทย์”`);
+  if(q.flag)tips.push(`ข้อนี้มี ⚠ ${esc(plain(q.flag).replace(/^⚠\s*/,""))}`);
+  if(q.opinion&&/⚠/.test(q.opinion))tips.push("คำตอบในคลังข้อนี้ต่างจากคีย์ในไฟล์ หรือยังมีข้อถกเถียง — อ่าน “ความเห็นของผม” ประกอบก่อนจำ");
+  let x=`<div class="sec adv"><h3>🧭 คำแนะนำสำหรับคุณ</h3>`;
+  if(h.length)x+=`<div class="hrow"><span class="hint">ประวัติการตอบ</span>${h.map(a=>`<span class="hb ${a[0]===q.ans?"ok":"no"}" title="Phase ${a[2]} · ${fmtD(a[1])}">${a[0]>=0?L[a[0]]:"–"}</span>`).join("")}</div>`;
+  x+=`<ul>${tips.map(t=>`<li>${t}</li>`).join("")}</ul>`;
+  picks.forEach(i=>{const t=(q.wrong||{})[L[i]];x+=`<div class="box"><b>ทำไม ${L[i]} ที่คุณเลือก${cnt[i]>1?` (${cnt[i]} ครั้ง)`:""} ถึงผิด</b><br>${t?R(t):"ดูเหตุผลใน “ทำไม "+L[q.ans]+" ถูก” ด้านล่าง"}</div>`;});
+  if(w&&q.trap)x+=`<div class="box trapbox"><b>กับดักที่น่าจะทำให้พลาด</b><br>${R(q.trap)}</div>`;
+  x+=`<p class="hint" style="margin:8px 0 0">หัวข้อ <b>${esc(tp)}</b> · ในคลังมี ${tq.length} ข้อ · ล่าสุดยังผิด ${tlw} ข้อ · <button class="linkbtn" id="advToRep" type="button" style="font-size:13px;padding:0">ดูรายงานรายหัวข้อ</button></p>`;
+  x+=`<div class="row" style="margin-top:8px"><button class="btn" id="advAI" type="button">✦ ขอคำแนะนำเพิ่มจาก AI</button></div><div id="advAIout" class="aiout">${advAIc[q.uid]?mdLite(advAIc[q.uid]):""}</div>`;
+  return x+`</div>`;
+}
+const advAIc={};let advAIbusy=false;
+function bindAdv(q){
+  const P=P_(),s=P.sess;
+  const set=c=>{hPh(s.hp).forEach(p=>{if(rawAtts(P,p,q.uid).length)P.reset[p][q.uid]=[c,now()];});save();rQuiz();};
+  const r=$("advReset");if(r)r.onclick=()=>{set(now());toast("รีเซ็ตแล้ว — ข้อนี้กลับเป็นข้อที่ยังไม่ทำ ไปทำใหม่ได้ใน Service / Grand round");};
+  const u=$("advUnreset");if(u)u.onclick=()=>{set(0);toast("ยกเลิกรีเซ็ตแล้ว");};
+  const tr=$("advToRep");if(tr)tr.onclick=()=>go(ward+"/report");
+  const b=$("advAI");if(b)b.onclick=async()=>{if(advAIbusy)return;const out=$("advAIout");advAIbusy=true;b.disabled=true;out.innerHTML=`<p class="hint">กำลังคิด… (ประมาณ 10–60 วินาที)</p>`;
+    try{const t=await aiText(advPrompt(q),t=>{const o=$("advAIout");if(o)o.innerHTML=mdLite(t);});advAIc[q.uid]=t;const o=$("advAIout");if(o)o.innerHTML=mdLite(t);}
+    catch(e){console.warn("advisor ai",e);const o=$("advAIout");if(o)o.innerHTML=aiErrHTML(e);}
+    advAIbusy=false;const bb=$("advAI");if(bb)bb.disabled=false;};
+}
+function advPrompt(q){const W=W_(),P=P_(),h=hist(P,q.uid,P.sess.hp,true),c=n=>t=>{t=plain(t);return t.length>n?t.slice(0,n)+"…":t;};
+  return [`คุณเป็นอาจารย์ที่ปรึกษา (advisor) ของนิสิตแพทย์${yearTxt()} จุฬาฯ ในวอร์ด ${W.cfg.name} นิสิตกำลังทบทวนข้อสอบเก่าข้อนี้`,
+  `โจทย์: ${plain(q.stem)}`,`ตัวเลือก: ${q.opts.map((o,i)=>L[i]+". "+plain(o)).join(" | ")}`,`เฉลยในคลัง: ${L[q.ans]}`,
+  `ประวัติการตอบของนิสิต (เก่าไปใหม่): ${h.length?h.map(a=>a[0]>=0?L[a[0]]:"หมดเวลา").join(", "):"ยังไม่เคยทำ"}`,
+  q.guide?`Guideline ที่คลังอ้าง: ${plain(q.guide)}`:"",`คำอธิบายในคลัง: ${c(1500)(q.why)}`,
+  `ทำไมข้ออื่นผิด: ${Object.keys(q.wrong||{}).sort().map(k=>k+": "+c(300)(q.wrong[k])).join(" / ")}`,q.trap?`กับดัก: ${c(400)(q.trap)}`:"",
+  "",`เขียนคำแนะนำเฉพาะตัวสำหรับนิสิตคนนี้ เป็นภาษาไทยปนศัพท์แพทย์ภาษาอังกฤษ สั้นกระชับ 4–7 bullet (ขึ้นต้นด้วย "- ") ได้แก่ ความคิดแบบไหนที่น่าจะทำให้เลือกช้อยที่เคยเลือก (ถ้าเคยผิด) และกฎ/จุดแยกที่ทำให้รู้ว่าเฉลยถูก วิธีจำ และเรื่องที่ควรไปอ่านต่อ ถ้าตอบถูกทุกครั้งให้แนะนำว่าควรต่อยอดเรื่องไหน ห้ามแต่งตัวเลขหรือแหล่งอ้างอิงที่ไม่มีจริง ถ้าคิดว่าเฉลยในคลังอาจผิดให้บอกพร้อมเหตุผล ใช้ **ตัวหนา** ได้ ไม่ต้องมีหัวข้อหรือคำเกริ่น`].filter(Boolean).join("\n");}
+async function aiText(pr,onText){
+  const mode=await aiMode();if(!mode)throw {code:"no_ai"};
+  if(mode==="claude"){const smp=await window.claude.use("sample");const r=await smp(pr,{modelTier:"default",onText:onText?(u=>onText(u.text)):undefined});return r.text;}
+  const c=aiCfg();let r;
+  try{r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":c.key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},body:JSON.stringify({model:c.model||"claude-sonnet-5-5",max_tokens:4096,messages:[{role:"user",content:pr}]})});}
+  catch(e){throw {code:"network"};}
+  const j=await r.json().catch(()=>null);if(!r.ok)throw {code:"api",status:r.status,message:j&&j.error&&j.error.message||""};
+  const t=((j&&j.content)||[]).filter(x=>x.type==="text").map(x=>x.text).join("");if(!t.trim())throw {code:"empty"};return t;}
+function aiErrHTML(e){
+  if(e&&e.code==="no_ai")return HAS_CLAUDE()?`<p class="hint">ใช้ Claude จากหน้านี้ไม่ได้ — ล็อกอิน Claude แล้วเปิดหน้านี้ใหม่ แล้วกดอนุญาตเมื่อหน้านี้ขอใช้ Claude</p>`:`<p class="hint">เว็บนี้ยังไม่ได้เชื่อม AI — ใส่ API key ได้ที่ <a href="#/${esc(ward)}/adm">Admission round</a>${CFG.artifactUrl?` หรือ <a href="${esc(CFG.artifactUrl)}" target="_blank" rel="noopener">เปิดเว็บนี้ใน Claude ↗</a> (ฟรี ใช้บัญชี Claude)`:""}</p>`;
+  return `<p class="hint">${esc((admMsg(e)||"").replace("สร้างโจทย์ไม่สำเร็จ","ขอคำแนะนำไม่สำเร็จ").replace("AI ไม่ยอมสร้างโจทย์ข้อนี้","AI ไม่ตอบคำขอนี้")||"ขอคำแนะนำไม่สำเร็จ ลองใหม่อีกครั้ง")}</p>`;}
+function mdLite(t){const out=[];let ul=false;const f=s=>esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");const cl=()=>{if(ul){out.push("</ul>");ul=false;}};
+  String(t||"").split(/\n/).forEach(l=>{const m=/^\s*(?:[-*•]|\d+[.)])\s+(.*)$/.exec(l);
+    if(/^\s*#{1,4}\s+/.test(l)){cl();out.push(`<h4>${f(l.replace(/^\s*#+\s+/,""))}</h4>`);}
+    else if(m){if(!ul){out.push("<ul>");ul=true;}out.push(`<li>${f(m[1])}</li>`);}
+    else{cl();if(l.trim())out.push(`<p>${f(l)}</p>`);}});cl();return out.join("");}
+function rAdvResult(W,P,s,qs){
+  const seen=qs.filter(q=>s.ans[q.uid]!==undefined).length,A=q=>{const h=hist(P,q.uid,s.hp,true);return h.length?h[h.length-1][0]:undefined;};
+  const lw=qs.filter(q=>{const a=A(q);return a!==undefined&&a!==q.ans;}),nd=qs.filter(q=>A(q)===undefined).length,rs=qs.filter(q=>advIsReset(P,q,s.hp)).length;
+  let h=`<h1 class="h2">สรุป Advisor round</h1><p class="sub">อ่านเฉลยไป ${seen}/${qs.length} ข้อ</p>
+  <p class="statline">ล่าสุดยังผิด <b>${lw.length}</b> ข้อ${nd?` · ยังไม่เคยทำ <b>${nd}</b> ข้อ`:""}${rs?` · รีเซ็ตเป็นยังไม่ทำ <b>${rs}</b> ข้อ`:""}</p>
+  <div class="stack"><button class="btn primary" id="rRep">📊 ดูรายงานจาก Advisor</button>${lw.length?`<button class="btn" id="rTry">ลองทำข้อที่ล่าสุดยังผิดอีกครั้ง (${lw.length})</button>`:""}${seen<qs.length?`<button class="btn" id="rBack">อ่านข้อที่ยังไม่ได้อ่านต่อ</button>`:""}<button class="btn ghost" id="rNew">ตั้งค่า Advisor round ใหม่</button><button class="btn ghost" id="rHome">กลับหน้าหลัก</button></div>
+  <div class="card" style="padding:6px"><div class="rows" style="padding:0">${qs.map((q,i)=>{const a=A(q);const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");return `<button class="srow" data-i="${i}"><span class="n">${q.id}</span><span class="bs">${bs}</span><span class="meta">${s.ans[q.uid]!==undefined?"อ่านแล้ว · ":""}${esc(q.set)} ${esc(q.ro)}</span></button>`;}).join("")}</div></div>`;
+  $("main").innerHTML=h;
+  $("rRep").onclick=()=>go(ward+"/report");$("rNew").onclick=()=>go(ward+"/advisor");$("rHome").onclick=()=>go(ward);
+  const t=$("rTry");if(t)t.onclick=()=>startSess("redo","Advisor round (ข้อที่ยังผิด)",lw.map(q=>q.uid));
+  const rb=$("rBack");if(rb)rb.onclick=()=>{s.cur=Math.max(0,s.list.findIndex(u=>s.ans[u]===undefined));save();go(ward+"/sess");};
+  document.querySelectorAll("[data-i]").forEach(b=>b.onclick=()=>{s.cur=+b.dataset.i;save();go(ward+"/sess");});
+}
+/* ---------------- Advisor report: weak topics, importance, what to read ---------------- */
+function topicStats(hp){const W=W_(),P=P_(),T={};
+  W.QB.forEach(q=>{const k=topicOf(W,q),t=T[k]||(T[k]={k,qs:[],done:0,lw:0,wa:0,att:0,sets:new Set(),wrongQ:[],fixedQ:[],todoQ:[],noteQ:[]});t.qs.push(q);t.sets.add(setKey(q));
+    const h=hist(P,q.uid,hp,true);
+    if(h.length){t.done++;t.att+=h.length;const w=nWrong(h,q);t.wa+=w;if(h[h.length-1][0]!==q.ans){t.lw++;t.wrongQ.push(q);}else if(w)t.fixedQ.push(q);}
+    if(!hist(P,q.uid,hp).length)t.todoQ.push(q);
+    const n=P.post[q.uid];if(n&&n.t&&n.t.trim())t.noteQ.push(q);});
+  const L_=Object.values(T),ns=L_.map(t=>t.qs.length).sort((a,b)=>a-b),med=ns[Math.floor(ns.length/2)]||1,nSets=W.sets.length;
+  L_.forEach(t=>{const n=t.qs.length;t.n=n;t.acc=t.done?(t.done-t.lw)/t.done:null;t.cov=t.done/n;t.imp=n/med;
+    t.everySet=nSets>1&&t.sets.size>=nSets;
+    t.tier=(t.done>=2&&t.acc<0.6)||t.lw>=3?"red":(n>=med&&t.cov<0.5)?"orange":(t.done&&(t.acc<0.8||t.fixedQ.length>=2))?"yellow":(t.done&&t.acc>=0.8&&t.cov>=0.5)?"green":"gray";
+    t.score=(t.lw*2+(t.wa-t.lw)*0.5+(1-t.cov)*n*0.4)*Math.sqrt(t.imp);});
+  return L_.sort((a,b)=>b.score-a.score||a.k.localeCompare(b.k));}
+const TIER={red:["🔴","ต้องอ่านเพิ่มก่อน"],orange:["🟠","ออกสอบบ่อย แต่ยังทำน้อย"],yellow:["🟡","ทวนอีกนิด"],green:["🟢","ทำได้ดี"],gray:["⚪","ยังไม่ค่อยได้ทำ"]};
+function topicAdvice(t){const n=t.qs.length,pc=x=>Math.round(x*100)+"%";
+  const imp=t.everySet?`ออกทุกชุดที่มีในคลัง (${t.sets.size} ชุด) — เรื่องนี้ออกสอบแน่นอน`:t.imp>=1.5?`มีในคลังถึง ${n} ข้อ (มากกว่าหัวข้ออื่นโดยเฉลี่ย) — เรื่องนี้สำคัญ`:`มีในคลัง ${n} ข้อ จาก ${t.sets.size} ชุด`;
+  const st=!t.done?"ยังไม่เคยทำข้อในหัวข้อนี้":`ทำแล้ว ${t.done}/${n} ข้อ · ล่าสุดถูก ${pc(t.acc)} · ผิดสะสม ${t.wa} ครั้ง`;
+  const act={red:`ล่าสุดยังผิด ${t.lw} ข้อ ควรกลับไปอ่านเนื้อหาหัวข้อนี้จาก lecture/ตำราให้เป็นระบบ แล้วอ่านเฉลยข้อที่ผิดอีกรอบ`,orange:`ยังทำไปแค่ ${pc(t.cov)} ของข้อในหัวข้อนี้ ลองทำข้อที่เหลืออีก ${t.todoQ.length} ข้อก่อน เพื่อดูว่าเข้าใจจริงไหม`,yellow:`เกือบดีแล้ว ทวนข้อที่ยังผิด${t.fixedQ.length?`และข้อที่เคยผิดแล้วแก้ได้ (${t.fixedQ.length} ข้อ)`:""}อีกรอบ`,green:"ทำได้ดีแล้ว อ่านแค่สรุปความรู้ทวนก่อนสอบก็พอ",gray:`ยังมีข้อให้ทำอีก ${t.todoQ.length} ข้อ`}[t.tier];
+  return {imp,st,act};}
+let advPlanBusy=false;
+function rReport(){
+  const W=W_(),P=P_(),a=advS(),R=W.R;
+  if(!W.QB.length){$("main").innerHTML=`<div class="empty">ยังไม่มีข้อสอบในคลัง</div>`;return;}
+  const T=topicStats(a.hp),all=W.QB.length,done=T.reduce((x,t)=>x+t.done,0),lw=T.reduce((x,t)=>x+t.lw,0),wa=T.reduce((x,t)=>x+t.wa,0);
+  let h=`<h1 class="h2">รายงานจาก Advisor</h1><p class="sub">วิเคราะห์จากประวัติการตอบทุกครั้ง (รวมข้อที่รีเซ็ตแล้ว) แบ่งตามหัวข้อบทเรียน · เรียงจากเรื่องที่ควรอ่านก่อน</p>`;
+  h+=`<div class="chips" id="rHp">${[["all","ทั้ง 2 Phase"],["p",`เฉพาะ Phase ${ph()}`]].map(([v,t])=>`<button class="chip" data-v="${v}" aria-pressed="${a.hp===v}">${t}</button>`).join("")}</div>`;
+  h+=`<p class="statline">เคยทำ <b>${done}</b>/${all} ข้อ · ล่าสุดถูก <b>${done?Math.round((done-lw)/done*100)+"%":"–"}</b> · ล่าสุดยังผิด <b>${lw}</b> ข้อ · ผิดสะสม <b>${wa}</b> ครั้ง</p>`;
+  const tw=T.filter(t=>t.done).sort((x,y)=>y.lw-x.lw||y.wa-x.wa||x.k.localeCompare(y.k));
+  if(tw.length){const mx=Math.max(1,...tw.map(t=>t.lw));
+    h+=`<div class="card"><h3>ผิดเรื่องไหนมากที่สุด</h3><span class="rd">จำนวนข้อที่ครั้งล่าสุดยังตอบผิด ในแต่ละหัวข้อ</span><div class="tbars">${tw.slice(0,10).map(t=>`<div class="tbar"><span class="tn">${esc(t.k)}</span><span class="tt"><i style="width:${t.lw/mx*100}%"></i></span><span class="tv">${t.lw}/${t.done}</span></div>`).join("")}</div></div>`;}
+  else h+=`<div class="card"><h3>ยังไม่มีประวัติการตอบ</h3><span class="rd" style="margin:0">ทำข้อสอบใน round ไหนก็ได้ แล้วกลับมาดูรายงาน — ระหว่างนี้ด้านล่างคือหัวข้อที่ออกสอบบ่อยที่สุดในคลัง</span></div>`;
+  const plan=P.advPlan;
+  h+=`<div class="card"><h3>✦ ให้ AI วางแผนการอ่านจากผลของฉัน</h3><span class="rd">ส่งสถิติรายหัวข้อและข้อที่ยังผิดให้ AI ช่วยจัดลำดับว่าควรอ่านอะไรก่อน เน้นตรงไหน</span><button class="btn" id="planGo" ${advPlanBusy?"disabled":""}>${plan?"วางแผนใหม่":"วางแผนการอ่าน"}</button><div id="planOut" class="aiout">${advPlanBusy?`<p class="hint">กำลังคิด… (ประมาณ 20–90 วินาที)</p>`:plan?mdLite(plan.t)+`<p class="hint">วางแผนเมื่อ ${fmtD(plan.ts)} · AI อาจผิดพลาดได้ ควรเทียบกับ lecture/guideline</p>`:""}</div></div>`;
+  h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">คำแนะนำรายหัวข้อ</h2>`;
+  const res=W.RES||[],lecs=(W.cfg.lectures||[]);
+  h+=T.map((t,i)=>{const ad=topicAdvice(t),tg=TIER[t.tier];
+    const rs=res.filter(r=>r.topic===t.k).concat(lecs.filter(l=>l&&l.topic===t.k)),units=W.UNIT.filter(Lc=>Lc.topic===t.k);
+    const pts=t.wrongQ.concat(t.fixedQ).slice(0,8).map(q=>{const s=(q.summary||[]).filter(x=>!/^ดูข้อ/.test(plain(x)))[0];return s?`<li><button class="qref" data-u="${esc(q.uid)}">ข้อ ${q.id}</button> ${R(s)}</li>`:"";}).join("");
+    return `<details class="grp tcard" ${i<3&&t.tier!=="green"?"open":""}><summary><span>${tg[0]}</span> <b>${esc(t.k)}</b> <span class="tag">${tg[1]}</span></summary>
+    <p class="tline">${ad.imp}</p><p class="tline">${ad.st}</p><p class="tline"><b>แนะนำ:</b> ${ad.act}</p>
+    <div class="tools">${t.wrongQ.length?`<button class="tool" data-tw="${i}">🧭 อ่านเฉลยข้อที่ยังผิด<span class="n">${t.wrongQ.length}</span></button>`:""}<button class="tool" data-ta="${i}">📖 อ่านเฉลยทั้งหัวข้อ<span class="n">${t.qs.length}</span></button>${t.todoQ.length?`<button class="tool" data-tt="${i}">✎ ทำข้อที่ยังไม่ทำ<span class="n">${t.todoQ.length}</span></button>`:""}</div>
+    ${pts?`<div class="tsub">จุดที่เคยพลาดในหัวข้อนี้</div><ul>${pts}</ul>`:""}
+    ${t.noteQ.length?`<div class="tsub">โน้ตที่คุณจดไว้ในหัวข้อนี้</div><ul>${t.noteQ.slice(0,6).map(q=>{const n=P.post[q.uid].t.trim();return `<li><button class="qref" data-u="${esc(q.uid)}">ข้อ ${q.id}</button> ${esc(n.length>220?n.slice(0,220)+"…":n)}</li>`;}).join("")}</ul>`:""}
+    <div class="tsub">Lecture / resources</div>${rs.length||units.length?`<ul>${rs.map(r=>`<li>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`:esc(r.title)}${r.type?` <span class="hint">· ${esc(r.type)}</span>`:""}${r.note?` — ${esc(r.note)}`:""}</li>`).join("")}${units.map(Lc=>`<li>Unit round: <a href="#/${esc(ward)}/unit">${esc(Lc.title)}</a></li>`).join("")}</ul>`:`<p class="hint" style="margin:2px 0 0">ยังไม่มี lecture หรือ resource ของหัวข้อนี้ในวอร์ดนี้ — เมื่ออัปโหลดเพิ่ม จะขึ้นที่นี่อัตโนมัติ</p>`}
+    </details>`;}).join("");
+  $("main").innerHTML=h;bindRefs();
+  document.querySelectorAll("#rHp [data-v]").forEach(b=>b.onclick=()=>{a.hp=b.dataset.v;persist();rReport();});
+  const S=(sel,f)=>document.querySelectorAll(sel).forEach(b=>b.onclick=()=>f(T[+Object.values(b.dataset)[0]]));
+  S("[data-tw]",t=>startSess("advisor",`Advisor · ${t.k} (ข้อที่ยังผิด)`,t.wrongQ.map(q=>q.uid),{hp:a.hp}));
+  S("[data-ta]",t=>startSess("advisor",`Advisor · ${t.k}`,t.qs.map(q=>q.uid),{hp:a.hp}));
+  S("[data-tt]",t=>startSess("topic",`หัวข้อ ${t.k}`,t.todoQ.map(q=>q.uid)));
+  $("planGo").onclick=async()=>{if(advPlanBusy)return;advPlanBusy=true;const wid=ward;$("planGo").disabled=true;$("planOut").innerHTML=`<p class="hint">กำลังคิด… (ประมาณ 20–90 วินาที)</p>`;
+    try{const t=await aiText(planPrompt(T),t=>{const o=$("planOut");if(o&&view==="report")o.innerHTML=mdLite(t);});PWof(st,wid).advPlan={t,ts:now()};save();}
+    catch(e){console.warn("plan",e);advPlanBusy=false;const o=$("planOut");if(o&&view==="report"){o.innerHTML=aiErrHTML(e);$("planGo").disabled=false;}return;}
+    advPlanBusy=false;if(view==="report"&&ward===wid)rReport();};
+}
+function planPrompt(T){const W=W_(),c=(s,n)=>{s=plain(s);return s.length>n?s.slice(0,n)+"…":s;};
+  const rows=T.map(t=>`- ${t.k}: ในคลัง ${t.qs.length} ข้อ (${t.sets.size} ชุด) · ทำแล้ว ${t.done} · ล่าสุดผิด ${t.lw} · ผิดสะสม ${t.wa} ครั้ง`).join("\n");
+  const wq=T.filter(t=>t.wrongQ.length).slice(0,6).map(t=>`[${t.k}]\n`+t.wrongQ.slice(0,5).map(q=>`  • ${c(q.stem,160)} → เฉลย: ${c(q.opts[q.ans],60)} · ประเด็น: ${c((q.summary||[])[0]||"",160)}`).join("\n")).join("\n");
+  return `คุณเป็นอาจารย์ที่ปรึกษา (advisor) ของนิสิตแพทย์${yearTxt()} จุฬาฯ วอร์ด ${W.cfg.name} (ขอบเขต: ${W.cfg.scope||W.cfg.name}) นี่คือผลการทำข้อสอบเก่า (AC) ของนิสิต แยกตามหัวข้อ:
+
+${rows}
+
+ตัวอย่างข้อที่ครั้งล่าสุดยังตอบผิด:
+${wq||"(ยังไม่มี)"}
+
+เขียนแผนการอ่านเฉพาะตัวเป็นภาษาไทยปนศัพท์แพทย์ภาษาอังกฤษ กระชับ อ่านง่ายบนมือถือ โดยมี:
+## จุดอ่อนหลัก — 2–4 หัวข้อที่ควรอ่านก่อน พร้อมเหตุผลจากตัวเลขด้านบน และ concept ที่น่าจะยังไม่เข้าใจจากข้อที่ผิด
+## เรื่องสำคัญที่ออกบ่อย — หัวข้อที่มีในคลังเยอะหรือออกหลายชุด ควรเน้นอะไรในแต่ละเรื่อง
+## ควรไปอ่านเพิ่ม — เนื้อหา/หัวข้อย่อยที่ควรอ่านจาก lecture, ตำราหรือ guideline มาตรฐาน (ระบุชื่อ guideline ได้ถ้ามั่นใจว่ามีจริง)
+## แผนสั้น ๆ — ลำดับการทบทวนที่แนะนำ
+ใช้ bullet ขึ้นต้นด้วย "- " และ **ตัวหนา** ได้ ห้ามแต่งตัวเลขหรือแหล่งอ้างอิงที่ไม่มีจริง ไม่ต้องมีคำเกริ่นหรือคำลงท้าย`;}
+
 /* ---------------- session result ---------------- */
 function rResult(){
   const W=W_(),P=P_(),s=P.sess;const qs=s.list.map(u=>W.byU[u]).filter(Boolean);
+  if(s.kind==="advisor")return rAdvResult(W,P,s,qs);
   const ans=qs.filter(q=>s.ans[q.uid]>=0),right=ans.filter(q=>s.ans[q.uid]===q.ans),wrong=ans.filter(q=>s.ans[q.uid]!==q.ans),tout=qs.filter(q=>s.ans[q.uid]<0).length,skip=qs.length-ans.length-tout;
   let h=`<h1 class="h2">สรุป ${esc(s.title)}</h1><p class="sub">Phase ${s.ph} · ${qs.length} ข้อ</p>
   <div class="score">${right.length}<span style="font-size:22px;color:var(--muted)"> / ${qs.length}</span></div>
@@ -778,12 +985,13 @@ function sheet(){
     const s=P.sess,qs=s.list.map(u=>W.byU[u]).filter(Boolean);
     $("sheetTitle").textContent=s.title;$("setChips").innerHTML="";
     const f=st.sessF||"all";
-    $("statusChips").innerHTML=[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["wrong","ตอบผิด"]].map(([v,t])=>`<button class="chip" aria-pressed="${f===v}" data-sf="${v}">${t}</button>`).join("");
+    $("statusChips").innerHTML=[["all","ทั้งหมด"],["todo",s.kind==="advisor"?"ยังไม่อ่าน":"ยังไม่ทำ"],["wrong",s.kind==="advisor"?"ล่าสุดผิด":"ตอบผิด"]].map(([v,t])=>`<button class="chip" aria-pressed="${f===v}" data-sf="${v}">${t}</button>`).join("");
     document.querySelectorAll("[data-sf]").forEach(b=>b.onclick=()=>{st.sessF=b.dataset.sf;persist();sheet();});
-    const done=qs.filter(q=>s.ans[q.uid]!==undefined),right=done.filter(q=>s.ans[q.uid]===q.ans);
+    const adv=s.kind==="advisor",A=q=>{if(!adv)return s.ans[q.uid];const h=hist(P,q.uid,s.hp,true);return h.length?h[h.length-1][0]:undefined;};
+    const done=qs.filter(q=>s.ans[q.uid]!==undefined),right=adv?qs.filter(q=>A(q)===q.ans):done.filter(q=>s.ans[q.uid]===q.ans);
     stats(done.length,qs.length,right.length);
-    const v=qs.map((q,i)=>[q,i]).filter(([q])=>{const a=s.ans[q.uid];return f==="todo"?a===undefined:f==="wrong"?a!==undefined&&a!==q.ans:true;});
-    rows(v.map(([q,i])=>({q,a:s.ans[q.uid],cur:i===s.cur,go:()=>{if(!qNavOK(i)){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}pick=null;s.cur=i;save();rQuiz();window.scrollTo(0,0);}})),f==="wrong"?"ยังไม่มีข้อที่ตอบผิดในรอบนี้":"ทำครบทุกข้อในรอบนี้แล้ว");
+    const v=qs.map((q,i)=>[q,i]).filter(([q])=>{const a=s.ans[q.uid],b=A(q);return f==="todo"?a===undefined:f==="wrong"?b!==undefined&&b!==q.ans:true;});
+    rows(v.map(([q,i])=>({q,a:A(q),meta:adv&&s.ans[q.uid]!==undefined?"อ่านแล้ว · ":"",cur:i===s.cur,go:()=>{if(!qNavOK(i)){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}pick=null;s.cur=i;save();rQuiz();window.scrollTo(0,0);}})),f==="wrong"?"ยังไม่มีข้อที่ตอบผิดในรอบนี้":"ทำครบทุกข้อในรอบนี้แล้ว");
     $("sheetFoot").innerHTML=`<span class="hint">เส้นเขียวรอบวง = เฉลย</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span><button class="link" id="toResult">จบรอบ ดูสรุป</button>`;
     $("toResult").onclick=()=>{closeS(true);go(ward+"/result");};
     paintSync();return;
@@ -939,7 +1147,7 @@ function mergeSt(a,b){
   for(const id in b.w){const r=PWof(b,id),l=PWof(a,id);
     [1,2].forEach(p=>{
       for(const u in r.att[p]){const m=new Map();(l.att[p][u]||[]).concat(r.att[p][u]).forEach(x=>m.set(x[1]+":"+x[0],x));l.att[p][u]=[...m.values()].sort((x,y)=>x[1]-y[1]);}
-      newer(l.pre[p],r.pre[p]);
+      newer(l.pre[p],r.pre[p]);newer(l.reset[p],r.reset[p]);
       for(const u in r.open[p])l.open[p][u]=Math.max(l.open[p][u]||0,r.open[p][u]);
     });
     for(const u in r.unit.att){const m=new Map();(l.unit.att[u]||[]).concat(r.unit.att[u]).forEach(x=>m.set(x[1]+":"+x[0],x));l.unit.att[u]=[...m.values()].sort((x,y)=>x[1]-y[1]);}
@@ -947,6 +1155,7 @@ function mergeSt(a,b){
       if(a&&a.day===c.day&&(a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);
       else if(!a||c.day>a.day||(c.day===a.day&&(c.ts||0)>(a.ts||0)))l.morn[p]=c;});
     if((r.adm.ts||0)>(l.adm.ts||0))l.adm=r.adm;
+    if(r.advPlan&&(!l.advPlan||(r.advPlan.ts||0)>(l.advPlan.ts||0)))l.advPlan=r.advPlan;
     newer(l.flag,r.flag);newer(l.post,r.post);
     if((b.t||0)>(a.t||0)){l.svc=r.svc;l.type=r.type;l.pick=r.pick;}
     if(r.sess&&(!l.sess||(r.sess.ts||0)>(l.sess.ts||0)))l.sess=r.sess;
