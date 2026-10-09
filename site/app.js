@@ -399,13 +399,13 @@ function explain(q,done,R,p){
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
   h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");
   h+=sec("โจทย์แบบใหม่ที่อาจออก",`<ul>${(q.variants||[]).map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
-  if(!q.adm)h+=`<div class="sec mine"><h3>สรุปของฉันจากข้อนี้</h3><p class="hint" style="margin:0 0 6px">เขียนสรุปด้วยคำของตัวเองช่วยให้จำได้นานกว่าอ่านผ่าน ๆ (บันทึกอัตโนมัติ)</p>${noteHTML("post",0,q)}</div>`;
+  h+=`<div class="sec mine"><h3>สรุปของฉันจากข้อนี้</h3><p class="hint" style="margin:0 0 6px">เขียนสรุปด้วยคำของตัวเองช่วยให้จำได้นานกว่าอ่านผ่าน ๆ (บันทึกอัตโนมัติ)</p>${noteHTML("post",0,q)}</div>`;
   h+=`<div class="sec ask"><h3>ถาม Claude เพิ่มเติม</h3>
     <div class="qchips">${ASKQ.map((t,i)=>`<button class="chip" type="button" data-aq="${i}">${t}</button>`).join("")}</div>
     <textarea class="ntext" id="askTxt" placeholder="พิมพ์สิ่งที่อยากถามเกี่ยวกับข้อนี้ เช่น ทำไม C ถึงไม่ใช่คำตอบ"></textarea>
     <div class="row"><button class="btn primary" id="askGo" type="button">เปิดใน Claude ↗</button><span class="hint">เปิดในบัญชี Claude ของคุณเอง พร้อมโจทย์ เฉลย และคำถามนี้</span></div>
     <p class="hint" style="margin-top:6px">AI อาจผิดพลาดได้ ควรเทียบกับ guideline · ถ้า Claude ไม่ขึ้นข้อความ ให้กดวาง (คัดลอกไว้ให้แล้ว)</p></div>`;
-  if(noteHas("pre",p,q.uid))h+=`<details class="pre" id="preBox"><summary>✎ ที่ทดไว้ก่อนตอบ</summary>${noteHTML("pre",p,q)}</details>`;
+  {const has=noteHas("pre",p,q.uid);h+=`<details class="pre" id="preBox" ${has?"open":""}><summary>${has?"✎ ที่ทดไว้ (ทดต่อได้)":"✎ ทด / จดเพิ่ม"}</summary>${noteHTML("pre",p,q)}</details>`;}   /* scratch notes stay open for writing after answering too */
   h+=`</section>`;
   return h;
 }
@@ -1042,7 +1042,9 @@ function rExam(){
   /* the original recall text (gray) is left out during the exam — it often carries the note-taker's hints; it shows again in the explanations */
   h+=`<ul class="opts" role="radiogroup" aria-label="ตัวเลือก">${q.opts.map((o,j)=>`<li class="opt${a===j?" sel":""}" role="radio" tabindex="0" aria-checked="${a===j}" data-i="${j}"><span class="bub">${L[j]}</span><span class="txt">${esc(o)}</span></li>`).join("")}</ul>`;
   h+=`<div class="actions"><span class="hint">แตะช้อยเพื่อเลือก แตะซ้ำเพื่อยกเลิก เปลี่ยนได้จนกว่าจะส่ง · กด A–E ได้</span></div>`;
+  {const has=noteHas("pre",X.ph,q.uid);h+=`<details class="pre" id="preBox" ${has?"open":""}><summary>✎ ทด / จด</summary>${noteHTML("pre",X.ph,q)}</details>`;}
   $("main").innerHTML=h;
+  {const pb=$("preBox");if(pb)pb.addEventListener("toggle",()=>{if(pb.open)mountNotes(pb);});mountNotes(document);}
   document.querySelectorAll(".opt").forEach(el=>{const f=()=>legPick(+el.dataset.i);el.onclick=f;el.onkeydown=e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();f();}};});
   $("starBtn").onclick=()=>{if(X.star[q.uid])delete X.star[q.uid];else X.star[q.uid]=1;save();rExam();};
   paintNav();
