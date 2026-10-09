@@ -20,7 +20,7 @@ examples/            ตัวอย่างรูปแบบไฟล์ข�
 Publish: ไฟล์หน้า = out/index.html ; รูปทุกไฟล์ส่งเป็น supporting files `img/<ชื่อ>.jpg` (ไม่ฝัง base64 เพราะหน้าจะเกิน 16 MB) ; ประกาศ capabilities `db` + `user` เพื่อให้ความคืบหน้าซิงก์ตามบัญชี
 
 ## เว็บไซต์ (GitHub Pages)
-- เว็บ: https://bankypp.github.io/sx-mcq/  (GitHub Pages → branch `main`, โฟลเดอร์ `/docs`)
+- เว็บ: https://bankypp.github.io/ac-mdcu/  (GitHub Pages → branch `main`, โฟลเดอร์ `/docs`)
 - build: `python3 build_site.py` → `docs/index.html` (+ `docs/img/`)
 - หน้าตาหน้าโจทย์มาจาก CSS ของ `template.html` (เหมือน platform เดิม) + `site/extra.css`; ตัวแอปอยู่ที่ `site/app.js`, โครงหน้าอยู่ที่ `site/body.html`
 - `config.json` → `wards`: วอร์ดแต่ละอัน (`dir` = โฟลเดอร์ข้อสอบ data_bN.js และ `highyield.js` ถ้ามี)
