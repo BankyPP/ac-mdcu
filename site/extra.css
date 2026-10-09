@@ -142,3 +142,4 @@ details.grp li{margin:6px 0}
 @media (prefers-reduced-motion:reduce){.spin{animation-duration:3s}}
 .resume.qprog{background:var(--sheet);border-color:var(--rule)}
 .resume.qprog[aria-pressed="true"]{border-color:var(--form);background:var(--form-soft)}
+.tag{overflow-wrap:anywhere;word-break:break-word}
