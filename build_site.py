@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the website: template.html (look) + site/ (app) + config.json + each ward's data → docs/index.html (+ docs/img/).
 python3 build_site.py [outdir]   (default: docs)
-Each ward in config.json "wards" has "dir": its data folder holding data_b*.js (one file per set) and optional highyield.js
+Each ward in config.json "wards" has "dir": its data folder holding data_b*.js (one file per set) optional unit_*.js (Unit round banks) and optional highyield.js
 (sets W.HY = {topics:[{title, points:[…], refs:[rid…], rep}], keywords:[{k, v, refs:[rid…]}]})."""
 import glob, json, os, shutil, html, sys, re
 ROOT=os.path.dirname(os.path.abspath(__file__)); os.chdir(ROOT)
@@ -28,6 +28,8 @@ for w in cfg.get('wards',[]):
         js.append('(function(QB){\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+'].QB);')
     fx=os.path.join(d,'fixes.js') if d!='data' else 'fixes.js'
     if os.path.exists(fx): js.append('(function(QB){\n'+open(fx,encoding='utf-8').read()+'\n})(WARDS['+wid+'].QB);')
+    for f in sorted(glob.glob(os.path.join(d,'unit_*.js'))):     # Unit round banks: W.UNIT.push({id,title,short,src,QB:[…]})
+        js.append('(function(W){W.UNIT=W.UNIT||[];\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
     hy=os.path.join(d,'highyield.js')
     if os.path.exists(hy): js.append('(function(W){\n'+open(hy,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
 out=(head+'</style>\n<style>\n'+open('site/extra.css',encoding='utf-8').read()+'</style>\n</head>\n<body>\n'

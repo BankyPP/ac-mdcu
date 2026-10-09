@@ -32,6 +32,9 @@ WL.forEach(w=>{
   W.byU={};QB.forEach(q=>{W.byU[q.uid]=q;});
   W.sets=[...new Set(QB.map(setKey))];
   W.R=s=>String(s==null?"":s).replace(/(ข้อ(?:ถัดไป)?\s*)(\d[\d,\s]*(?:\([^()]*\)[\d,\s]*)*)/g,(m,p,nums)=>p+nums.replace(/\([^()]*\)|\d+/g,t=>t[0]==="("?W.R(t):((+t>=10&&W.RID2ID[+t])?W.RID2ID[+t]:t)));
+  /* Unit round banks (<dir>/unit_*.js → W.UNIT.push({id,title,short,src,QB:[…]})): new case-based questions per lecture, shared by both phases */
+  W.UNIT=(W.UNIT||[]).filter(x=>x&&x.id&&Array.isArray(x.QB));W.byLec={};
+  W.UNIT.forEach(Lc=>{W.byLec[Lc.id]=Lc;Lc.QB.forEach((q,i)=>{q.unit=Lc.id;q.n=q.n||i+1;q.id="U"+q.n;q.set=Lc.short||Lc.title;q.ro="Unit";q.uid="U|"+Lc.id+"|"+q.n;W.byU[q.uid]=q;});});
 });
 
 /* ---------------- state ---------------- */
@@ -49,6 +52,9 @@ function PWof(S,id){
   P.svc=P.svc||{};P.svc[1]=P.svc[1]||blankSvc();P.svc[2]=P.svc[2]||blankSvc();
   P.flag=P.flag||{};P.post=P.post||{};P.pick=P.pick||[];P.type=P.type||"MCQ";
   if(P.sess===undefined)P.sess=null;
+  P.unit=P.unit||{};P.unit.att=P.unit.att||{};        /* Unit round answers (both phases share) */
+  P.morn=P.morn||{};                                   /* Morning round: {1|2: {day, list, ans, ts}} */
+  P.adm=P.adm||{cur:null,ans:null,next:null,n:0,right:0,recent:[],ts:0};   /* Admission round */
   return P;
 }
 /* migrate the earlier single-sheet site/artifact format {a:{uid:ans},t} → Phase 1 attempts */
@@ -66,6 +72,7 @@ const lastA=(P,p,u)=>{const a=atts(P,p,u);return a.length?a[a.length-1]:null;};
 const lockedAns=(P,p,u)=>{const a=lastA(P,p,u);if(!a)return undefined;const o=P.open[p][u];if(o&&o>=a[1])return undefined;return a[0];};
 const latestAny=(P,u)=>{const a=lastA(P,1,u),b=lastA(P,2,u);if(!a)return b;if(!b)return a;return a[1]>=b[1]?a:b;};
 const streak=(P,p,q)=>{const a=atts(P,p,q.uid);let n=0;for(let i=a.length-1;i>=0&&a[i][0]===q.ans;i--)n++;return n;};
+const uAtts=(P,u)=>P.unit.att[u]||[];
 const flagged=(P,u)=>!!(P.flag[u]&&P.flag[u][0]);
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 
@@ -81,25 +88,27 @@ window.addEventListener("hashchange",route);
 function route(){
   const h=parseHash();closeS(true);pick=null;
   if(h.w==="signin"){ward=null;return show("signin");}
-  if(!h.w||!WARDS[h.w]||!WL.some(x=>x.id===h.w)){ward=null;return show("wards");}
+  if(!h.w||!WARDS[h.w]||!WL.some(x=>x.id===h.w)){if(QR)qStop();ward=null;return show("wards");}
+  if(QR&&QR.ward!==h.w)qStop();
   ward=h.w;
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm"].includes(v))v="home";
   show(v);
 }
 function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]).filter(u=>W_().byU[u]);if(!s.list.length){P.sess=null;return false;}if(s.cur>=s.list.length)s.cur=s.list.length-1;if(s.cur<0)s.cur=0;return true;}
 function show(v){
-  view=v;const quiz=v==="svc"||v==="sess";
-  $("nav").hidden=!quiz;$("openSheet").hidden=!quiz;$("homeBtn").hidden=v==="wards";
+  view=v;const quiz=v==="svc"||v==="sess"||v==="adm";
+  clearInterval(show._t);
+  $("nav").hidden=!quiz;$("openSheet").hidden=!quiz||v==="adm";$("homeBtn").hidden=v==="wards";paintQR();
   const w=ward&&W_();const fill=(t,ty)=>String(t).replace(/\{short\}/g,w.cfg.short||w.cfg.id).replace(/\{type\}/g,ty||"");
   $("brand").classList.toggle("long",!!w&&!quiz);
   $("brand").textContent=w?(quiz?fill(CFG.quizBrand||"AC {short} {type}","MCQ"):fill(CFG.homeBrand||w.cfg.brand||w.cfg.name)):(CFG.siteName||CFG.title||"คลังข้อสอบเก่า");
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW})[v]();
+  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -123,14 +132,30 @@ function bindAcctCard(){document.querySelectorAll('[data-act="acct"]').forEach(b
 const ROUNDS=[
   {k:"grand",n:"Grand round",d:"สุ่มข้อจากทั้งคลัง ไม่สนว่าปีไหนหรือเรื่องอะไร"},
   {k:"service",n:"Service round",d:"เลือกปีและ rotation ที่อยากทำ ทำแบบกระดาษคำตอบ"},
-  {k:"morning",n:"Morning round",d:"",soon:1},
+  {k:"morning",n:"Morning round",d:"วันละ 10 ข้อ จากข้อที่เคยทำแล้ว และโจทย์ Unit round ที่ยังไม่เคยเจอ ชุดใหม่ทุกวัน 07:30"},
   {k:"legend",n:"Legendary round",d:"",soon:1},
   {k:"staff",n:"Ward staff round",d:"ทวนข้อที่เคยทำแล้ว แต่ยังทำถูกติดกันไม่ถึง 2 ครั้ง"},
   {k:"teach",n:"Teaching round",d:"",soon:1},
   {k:"advisor",n:"Advisor round",d:"",soon:1},
-  {k:"unit",n:"Unit round",d:"",soon:1},
-  {k:"quality",n:"Quality round",d:"",soon:1}
+  {k:"unit",n:"Unit round",d:"โจทย์ใหม่แบบ case-based จาก lecture แต่ละบท สุ่มใหม่ทุกครั้งที่เข้า"},
+  {k:"quality",n:"Quality round",d:"Speedrun ข้อที่ยังไม่เคยทำ จับเวลาเป็นเซต ตั้งค่าเองได้ทั้งหมด"},
+  {k:"admission",n:"Admission round",d:"เคสใหม่ที่ AI สร้างให้ทีละข้อ เนื้อหาเหมาะกับชั้นปีในวอร์ดนี้"}
 ];
+const yearTxt=()=>{const m=/(\d+)/.exec(CFG.year||"");return m?"ปี "+m[1]:"";};
+/* ---------------- Morning round: 10 a day, new set at 07:30 (phone's clock) ---------------- */
+const MORN_N=10;
+const mDay=t=>{const d=new Date((t||now())-7.5*3600e3);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");};
+function mNext(){const d=new Date(),r=new Date(d);r.setHours(7,30,0,0);if(r<=d)r.setDate(r.getDate()+1);return r.getTime();}
+const hms=ms=>{const x=Math.max(0,Math.floor(ms/1000));return String(Math.floor(x/3600)).padStart(2,"0")+":"+String(Math.floor(x/60)%60).padStart(2,"0")+":"+String(x%60).padStart(2,"0");};
+function mPool(P,p){const W=W_();let pool=W.QB.filter(q=>atts(P,p,q.uid).length);W.UNIT.forEach(Lc=>{pool=pool.concat(Lc.QB.filter(q=>!uAtts(P,q.uid).length));});return pool;}
+function morning(make){const P=P_(),p=ph(),d=mDay();let m=P.morn[p];
+  if(m&&m.day===d){m.list=m.list.filter(u=>W_().byU[u]);return m;}
+  if(!make)return null;
+  const pool=mPool(P,p);if(!pool.length)return null;
+  m=P.morn[p]={day:d,list:shuffle(pool).slice(0,MORN_N).map(q=>q.uid),ans:{},ts:now()};save();return m;}
+function startMorning(){const m=morning(true);if(!m){toast("ยังไม่มีข้อให้ทำ — ต้องเคยทำข้อสอบเก่าใน Phase นี้ หรือมีโจทย์ Unit round");return;}
+  qStop();const i=m.list.findIndex(u=>m.ans[u]===undefined);
+  P_().sess={kind:"morning",title:"Morning round",ph:ph(),day:m.day,list:m.list.slice(),ans:Object.assign({},m.ans),cur:i<0?0:i,ts:now()};save();go(ward+"/sess");}
 const staffList=()=>{const P=P_(),p=ph();return W_().QB.filter(q=>atts(P,p,q.uid).length&&streak(P,p,q)<2);};
 const p2lists=()=>{const P=P_(),QB=W_().QB;return {
   wrong:QB.filter(q=>{const a=latestAny(P,q.uid);return a&&a[0]!==q.ans;}),
@@ -163,7 +188,9 @@ function rHome(){
       <button class="tool" data-p2="flag">⚑ ข้อที่ยังไม่มั่นใจ<span class="n">${l.flag.length}</span></button>
       <button class="tool" data-p2="nop1">○ ไม่เคยทำใน Phase 1<span class="n">${l.nop1.length}</span></button></div></div>`;}
     const sc=staffList().length;
-    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${r.soon?'<span class="soon">เร็ว ๆ นี้</span>':(r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:"")}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span></button>`).join("")}</div>`;
+    const mm=morning(false),ma=mm?mm.list.filter(u=>mm.ans[u]!==undefined).length:0;
+    const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
+    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
   }
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
   h+=`<p class="hint" style="text-align:center;margin-top:18px">อัปเดตเว็บล่าสุด ${typeof BUILD!=="undefined"?BUILD:""}</p>`;
@@ -174,13 +201,18 @@ function rHome(){
   document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(ward+"/"+b.dataset.go));
   document.querySelectorAll("[data-p2]").forEach(b=>b.onclick=()=>{const k=b.dataset.p2,l=p2lists()[k];const t={wrong:"ข้อที่ยังผิดอยู่",right:"ข้อที่ทำถูกแล้ว",flag:"ข้อที่ยังไม่มั่นใจ",nop1:"ข้อที่ไม่เคยทำใน Phase 1"}[k];startSess("p2"+k,t,l.map(q=>q.uid));});
   const rs=$("resume");if(rs)rs.onclick=()=>go(ward+"/sess");
-  document.querySelectorAll("[data-round]").forEach(b=>b.onclick=()=>{const k=b.dataset.round;if(!QB.length&&!ROUNDS.find(r=>r.k===k).soon){toast("ยังไม่มีข้อสอบในคลัง");return;}
+  const mc=$("mClock");if(mc){let lastDay=mDay();show._t=setInterval(()=>{if(!document.body.contains(mc)){clearInterval(show._t);return;}mc.textContent=hms(mNext()-now());if(mDay()!==lastDay){lastDay=mDay();rHome();}},1000);}
+  document.querySelectorAll("[data-round]").forEach(b=>b.onclick=()=>{const k=b.dataset.round;const R=ROUNDS.find(r=>r.k===k);if(R.soon){toast("โหมดนี้จะเพิ่มภายหลัง");return;}
+    if(k==="unit")return go(ward+"/unit");if(k==="admission")return go(ward+"/adm");if(k==="morning")return startMorning();
+    if(!QB.length){toast("ยังไม่มีข้อสอบในคลัง");return;}
+    if(k==="quality")return go(ward+"/quality");
     if(k==="grand")go(ward+"/grand");else if(k==="service")go(ward+"/service");
     else if(k==="staff"){const l=staffList();if(!l.length){toast(Object.keys(P.att[p]).length?"ไม่มีข้อที่ต้องทวน — ทุกข้อที่ทำแล้วถูกติดกัน 2 ครั้งแล้ว":"ยังไม่มีข้อที่เคยทำใน Phase นี้");return;}startSess("staff","Ward staff round",l.map(q=>q.uid));}
     else toast("โหมดนี้จะเพิ่มภายหลัง");});
 }
 function startSess(kind,title,uids){
   if(!uids.length){toast("ไม่มีข้อที่เข้าเงื่อนไข");return;}
+  if(kind!=="quality")qStop();
   P_().sess={kind,title,ph:ph(),list:uids,ans:{},cur:0,ts:now()};save();go(ward+"/sess");
 }
 
@@ -229,16 +261,18 @@ const svcList=()=>W_().QB.filter(inSet);
 const svcVisible=()=>svcList().filter(svcPass);
 function svcQ(){const W=W_(),s=svcS();let q=W.byU[s.cur];if(!q||!inSet(q)){q=svcVisible()[0]||svcList()[0]||W.QB[0];if(q)s.cur=q.uid;}return q;}
 const isSess=()=>view==="sess";
-function curQ(){if(isSess()){const s=P_().sess;return W_().byU[s.list[s.cur]];}return svcQ();}
-function doneAns(q){return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
+function curQ(){if(view==="adm")return P_().adm.cur;if(isSess()){const s=P_().sess;return W_().byU[s.list[s.cur]];}return svcQ();}
+function doneAns(q){if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
 
 function rQuiz(){
   const W=W_(),P=P_(),R=W.R,q=curQ();
   if(!q){$("main").innerHTML=`<div class="empty">ไม่มีข้อในชุดนี้</div>`;return;}
-  const done=doneAns(q);if(done!==undefined)pick=done;const locked=done!==undefined;
+  const done=doneAns(q);if(done!==undefined)pick=done>=0?done:null;const locked=done!==undefined;
   let h="";
-  if(isSess()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · Phase ${s.ph}</div>`;}
-  h+=`<div class="qhead"><div class="qnum">${q.id}.</div><div class="fields"><span class="field"><b>${CFG.setLabel||"ปี"}</b>${esc(q.set)}</span><span class="field"><b>${CFG.roLabel||"Rotation"}</b>${esc(q.ro)}</span></div><button class="flag" id="flagBtn" aria-pressed="${flagged(P,q.uid)}" title="ทำเครื่องหมายข้อที่ยังไม่มั่นใจ">⚑ ไม่มั่นใจ</button></div>`;
+  if(view==="adm"){const A=P.adm;h+=`<div class="sessbar">Admission round · ข้อที่ ${A.n+(locked?0:1)} · ถูกแล้ว ${A.right}/${A.n} · ${esc(W.cfg.short||"")}</div>`;}
+  else if(isSess()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · Phase ${s.ph}</div>`;}
+  const lab=q.adm?["เคส","Admission"]:q.unit?["Lecture","Unit"]:[CFG.setLabel||"ปี",CFG.roLabel||"Rotation"];
+  h+=`<div class="qhead"><div class="qnum">${q.adm?"A":q.id}.</div><div class="fields"><span class="field"><b>${lab[0]}</b>${esc(q.set)}</span><span class="field"><b>${lab[1]}</b>${esc(q.ro)}</span></div>${q.adm?"":`<button class="flag" id="flagBtn" aria-pressed="${flagged(P,q.uid)}" title="ทำเครื่องหมายข้อที่ยังไม่มั่นใจ">⚑ ไม่มั่นใจ</button>`}</div>`;
   h+=`<p class="stem">${q.stem}</p>`;
   if(!q.img&&q.imgNote)h+=`<div class="img-missing">🖼 ${q.imgNote}</div>`;
   if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
@@ -259,7 +293,8 @@ function rQuiz(){
 }
 function paintNav(){
   const P=P_();let a=0,n=0;
-  if(isSess()){const s=P.sess;$("pos").textContent=`${s.cur+1} / ${s.list.length}`;$("prev").disabled=s.cur===0;$("next").disabled=false;$("next").textContent=s.cur===s.list.length-1?"ดูสรุปรอบนี้":"ข้อถัดไป";n=s.list.length;a=Object.keys(s.ans).filter(u=>s.list.includes(u)).length;}
+  if(view==="adm"){const A=P.adm,ok=A.ans!=null;$("pos").textContent=`ข้อที่ ${A.n+(ok?0:1)}`;$("prev").disabled=true;$("next").disabled=!ok;$("next").textContent=ok?(A.next?"ข้อต่อไป":admBusy?"กำลังสร้าง…":"ข้อต่อไป"):"ข้อต่อไป";$("prog").style.width="0";return;}
+  if(isSess()){const s=P.sess;$("pos").textContent=`${s.cur+1} / ${s.list.length}`;$("prev").disabled=s.cur===0||!qNavOK(s.cur-1);$("next").disabled=s.cur<s.list.length-1?!qNavOK(s.cur+1):qLock();$("next").textContent=s.cur===s.list.length-1?"ดูสรุปรอบนี้":"ข้อถัดไป";n=s.list.length;a=Object.keys(s.ans).filter(u=>s.list.includes(u)).length;}
   else{const v=svcVisible(),q=svcQ(),i=v.findIndex(x=>x.uid===(q&&q.uid));$("pos").textContent=`${i>=0?i+1:"–"} / ${v.length}`;$("prev").disabled=v.length<2&&i>=0;$("next").disabled=v.length<2&&i>=0;$("next").textContent="ข้อถัดไป";
     const l=svcList();n=l.length;a=l.filter(x=>lockedAns(P,ph(),x.uid)!==undefined).length;}
   $("count").textContent=`${a}/${n}`;$("prog").style.width=(n?a/n*100:0)+"%";
@@ -268,20 +303,26 @@ function bindQuiz(q,locked){
   const P=P_();
   document.querySelectorAll(".opt").forEach(el=>{const f=()=>{if(locked)return;pick=+el.dataset.i;rQuiz();};el.addEventListener("click",f);el.addEventListener("keydown",e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();f();}});});
   const c=$("confirm");if(c)c.onclick=confirmAns;
-  $("flagBtn").onclick=()=>{const on=!flagged(P,q.uid);P.flag[q.uid]=[on?1:0,now()];save();$("flagBtn").setAttribute("aria-pressed",on);toast(on?"ทำเครื่องหมาย ไม่มั่นใจ แล้ว":"เอาเครื่องหมายออกแล้ว");};
-  const rb=$("redo");if(rb)rb.onclick=()=>{if(isSess())delete P.sess.ans[q.uid];else P.open[ph()][q.uid]=now();if(P.sess)P.sess.ts=now();pick=null;save();rQuiz();window.scrollTo(0,0);};
+  if($("flagBtn"))$("flagBtn").onclick=()=>{const on=!flagged(P,q.uid);P.flag[q.uid]=[on?1:0,now()];save();$("flagBtn").setAttribute("aria-pressed",on);toast(on?"ทำเครื่องหมาย ไม่มั่นใจ แล้ว":"เอาเครื่องหมายออกแล้ว");};
+  const rb=$("redo");if(rb)rb.onclick=()=>{if(isSess()){delete P.sess.ans[q.uid];if(P.sess.kind==="morning"&&P.morn[P.sess.ph])delete P.morn[P.sess.ph].ans[q.uid];}else P.open[ph()][q.uid]=now();if(P.sess)P.sess.ts=now();pick=null;save();rQuiz();window.scrollTo(0,0);};
   const pb=$("preBox");if(pb)pb.addEventListener("toggle",()=>{if(pb.open)mountNotes(pb);});
   mountNotes(document);
   bindAsk(q);
 }
 function confirmAns(){
   if(pick===null)return;const P=P_(),q=curQ(),p=isSess()?P.sess.ph:ph();
-  (P.att[p][q.uid]=P.att[p][q.uid]||[]).push([pick,now()]);
-  if(isSess()){P.sess.ans[q.uid]=pick;P.sess.ts=now();}else svcS().cur=q.uid;
+  if(view==="adm"){admAnswer(pick);return;}
+  if(q.unit)(P.unit.att[q.uid]=P.unit.att[q.uid]||[]).push([pick,now()]);
+  else (P.att[p][q.uid]=P.att[p][q.uid]||[]).push([pick,now()]);
+  if(isSess()){const s=P.sess;s.ans[q.uid]=pick;s.ts=now();
+    if(s.kind==="morning"){const m=P.morn[s.ph];if(m&&m.day===s.day){m.ans[q.uid]=pick;m.ts=now();}}}
+  else svcS().cur=q.uid;
   save();rQuiz();
   const e=document.querySelector(".exp");if(e)setTimeout(()=>e.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"}),60);
 }
 function step(d){
+  if(view==="adm"){if(d>0)admNext();return;}
+  if(isSess()){const s=P_().sess;const to=s.cur+d;if(to>=0&&to<s.list.length&&!qNavOK(to)){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}if(d>0&&s.cur===s.list.length-1&&qLock()){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}}
   pick=null;
   if(isSess()){const s=P_().sess;if(d>0&&s.cur===s.list.length-1){go(ward+"/result");return;}s.cur=Math.max(0,Math.min(s.list.length-1,s.cur+d));s.ts=now();save();rQuiz();window.scrollTo(0,0);return;}
   const v=svcVisible();if(!v.length)return;const q=svcQ();
@@ -291,15 +332,19 @@ function step(d){
 $("prev").onclick=()=>step(-1);$("next").onclick=()=>step(1);
 
 function explain(q,done,R,p){
-  const ok=done===q.ans;
-  let h=`<section class="exp" aria-live="polite"><div class="verdict"><span class="v ${ok?"ok":"no"}">${ok?"ถูก":"ผิด"}</span><span class="ans">${ok?"":`คุณตอบ ${L[done]} · `}เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
+  const ok=done===q.ans,skip=done<0,P=P_(),W=W_(),s=isSess()?P.sess:null;
+  let h=`<section class="exp" aria-live="polite"><div class="verdict"><span class="v ${ok?"ok":"no"}">${ok?"ถูก":skip?"หมดเวลา":"ผิด"}</span><span class="ans">${ok?"":skip?"ไม่ได้ตอบ · ":`คุณตอบ ${L[done]} · `}เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
   h+=`<div class="tagline">`;
   if(q.rep)h+=`<span class="tag rep">repeated x${q.rep}</span>`;
-  h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
-  {const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;}
-  if(q.guide)h+=`<div class="guide">📘 <b>อ้างอิง guideline:</b> ${q.guide}</div>`;
+  if(!q.adm)h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
+  if(s&&s.kind==="morning")h+=`<span class="tag rep">ที่มา: ${q.unit?`Unit round — ${esc((W.byLec[q.unit]||{}).title||q.set)} (นับว่าเจอข้อนี้แล้ว)`:`ข้อสอบเก่า (AC) ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id} ในคลัง`}</span>`;
+  if(q.unit){const Lc=W.byLec[q.unit]||{},n=uAtts(P,q.uid).length;h+=`<span class="tag">Unit round · ${esc(Lc.title||q.set)}${Lc.src?` · จาก ${esc(Lc.src)}`:""}</span><span class="tag">เจอข้อนี้มาแล้ว ${n} ครั้ง (รวมครั้งนี้)</span>`;}
+  else if(q.adm)h+=`<span class="tag">Admission round · เคสที่ AI สร้างใหม่${q.topic?` · ${esc(q.topic)}`:""}</span>`;
+  else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;}
+  if(q.guide)h+=`<div class="guide">📘 <b>อ้างอิง${q.adm||q.unit?"":" guideline"}:</b> ${q.adm?esc(q.guide):q.guide}</div>`;
   if(q.flag)h+=`<span class="tag warn">⚠ คีย์ไม่ชัวร์ / โจทย์ต้นฉบับไม่ครบ</span>`;
-  h+=`</div><div class="tagline"><span class="tag">คีย์ในไฟล์: ${q.key}</span></div>`;
+  h+=`</div>`;if(q.key)h+=`<div class="tagline"><span class="tag">คีย์ในไฟล์: ${q.key}</span></div>`;
+  if(q.adm)h+=`<p class="hint" style="margin:4px 0 0">โจทย์และเฉลยข้อนี้ AI สร้างขึ้นใหม่ อาจผิดพลาดได้ ควรเทียบกับตำรา/guideline</p>`;
   {const gi=(q.gray||"").indexOf(" — ");if(gi>=0)h+=`<div class="tagline"><span class="tag">ส่วนที่เหลือของโจทย์ต้นฉบับ: ${esc(q.gray.slice(gi+3))}</span></div>`;}
   const sec=(t,b,cls="")=>b?`<div class="sec ${cls}"><h3>${t}</h3>${b}</div>`:"";
   const rich=s=>(s||"").replace(/\{\{IMG:(\w+)\}\}/g,(m,k)=>IMGS[k]?`<figure><img src="${IMGS[k]}" alt="ภาพจากไฟล์ต้นฉบับ"><figcaption>จากไฟล์ต้นฉบับ</figcaption></figure>`:"");
@@ -314,7 +359,7 @@ function explain(q,done,R,p){
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
   h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");
   h+=sec("โจทย์แบบใหม่ที่อาจออก",`<ul>${(q.variants||[]).map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
-  h+=`<div class="sec mine"><h3>สรุปของฉันจากข้อนี้</h3><p class="hint" style="margin:0 0 6px">เขียนสรุปด้วยคำของตัวเองช่วยให้จำได้นานกว่าอ่านผ่าน ๆ (บันทึกอัตโนมัติ)</p>${noteHTML("post",0,q)}</div>`;
+  if(!q.adm)h+=`<div class="sec mine"><h3>สรุปของฉันจากข้อนี้</h3><p class="hint" style="margin:0 0 6px">เขียนสรุปด้วยคำของตัวเองช่วยให้จำได้นานกว่าอ่านผ่าน ๆ (บันทึกอัตโนมัติ)</p>${noteHTML("post",0,q)}</div>`;
   h+=`<div class="sec ask"><h3>ถาม Claude เพิ่มเติม</h3>
     <div class="qchips">${ASKQ.map((t,i)=>`<button class="chip" type="button" data-aq="${i}">${t}</button>`).join("")}</div>
     <textarea class="ntext" id="askTxt" placeholder="พิมพ์สิ่งที่อยากถามเกี่ยวกับข้อนี้ เช่น ทำไม C ถึงไม่ใช่คำตอบ"></textarea>
@@ -417,17 +462,285 @@ function inkPad(box,key,onSave){
   return {size};
 }
 
+/* ---------------- Unit round ---------------- */
+function rUnit(){
+  const W=W_(),P=P_(),Ls=W.UNIT;
+  let h=`<h1 class="h2">Unit round</h1><p class="sub">โจทย์ใหม่แบบ case-based ที่สร้างจาก lecture แต่ละบท ครอบคลุมทุกจุดในสไลด์ สุ่มใหม่ทุกครั้งที่กดเข้า (เจอข้อซ้ำได้) ใช้ร่วมกันทั้งสอง Phase</p>`;
+  if(!Ls.length){h+=`<div class="card"><h3>ยังไม่มีโจทย์ Unit round ในวอร์ดนี้</h3><span class="rd" style="margin:0">ส่งไฟล์ lecture ให้ Claude แล้วจะสร้างโจทย์ case-based ภาษาอังกฤษให้บทละประมาณ 200 ข้อ ครอบคลุมทุกเรื่องในสไลด์</span></div>`;$("main").innerHTML=h;return;}
+  const opts=[10,20,40];let n=opts.includes(st.unitN)?st.unitN:10;
+  h+=`<div class="yh" style="font-family:var(--num);font-weight:700;margin-bottom:6px">สุ่มครั้งละ</div><div class="chips">${opts.map(x=>`<button class="chip" data-un="${x}" aria-pressed="${x===n}">${x} ข้อ</button>`).join("")}</div>`;
+  const all=[].concat(...Ls.map(Lc=>Lc.QB)),seen=a=>a.filter(q=>uAtts(P,q.uid).length).length;
+  h+=`<div class="stack">`+Ls.map(Lc=>`<button class="resume" data-lec="${esc(Lc.id)}"><span><b>${esc(Lc.title)}</b><span class="rd">เคยเจอแล้ว ${seen(Lc.QB)}/${Lc.QB.length} ข้อ</span></span><span class="go">→</span></button>`).join("")
+    +(Ls.length>1?`<button class="resume" data-lec="*"><span><b>สุ่มจากทุกบท</b><span class="rd">เคยเจอแล้ว ${seen(all)}/${all.length} ข้อ</span></span><span class="go">→</span></button>`:"")+`</div>`;
+  $("main").innerHTML=h;
+  document.querySelectorAll("[data-un]").forEach(b=>b.onclick=()=>{n=+b.dataset.un;st.unitN=n;persist();document.querySelectorAll("[data-un]").forEach(x=>x.setAttribute("aria-pressed",x===b));});
+  document.querySelectorAll("[data-lec]").forEach(b=>b.onclick=()=>{const id=b.dataset.lec,Lc=W.byLec[id],pool=id==="*"?all:Lc.QB;startSess("unit","Unit round · "+(id==="*"?"ทุกบท":Lc.title),shuffle(pool).slice(0,n).map(q=>q.uid));});
+}
+
+/* ---------------- sounds: synthesized with Web Audio (no files) ---------------- */
+const SOUNDS=[["ding","ding"],["ding2","ding x2"],["ring","ring"],["triple","triple ring"],["alarm","alarm"],["bell","large bell"],["none","ไม่มีเสียง"]];
+const SND={ctx:null,
+  init(){try{if(!this.ctx){const C=window.AudioContext||window.webkitAudioContext;if(!C)return null;this.ctx=new C();}if(this.ctx.state==="suspended")this.ctx.resume();}catch(e){return null;}return this.ctx;},
+  play(k,vol){if(!k||k==="none")return;const c=this.init();if(!c)return;const g=c.createGain();g.gain.value=vol==null?qpS().vol:vol;g.connect(c.destination);sndRender(k,c,g,c.currentTime+0.03);}};
+function sndTone(c,d,f,t,dur,type,peak,atk){const o=c.createOscillator(),g=c.createGain();o.type=type||"sine";o.frequency.value=f;g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(peak,t+(atk||0.006));g.gain.exponentialRampToValueAtTime(0.0001,t+dur);o.connect(g);g.connect(d);o.start(t);o.stop(t+dur+0.05);}
+function sndDing(c,d,t){[[1318.5,.42,1.4],[2637,.14,.7],[3955,.05,.35]].forEach(([f,a,u])=>sndTone(c,d,f,t,u,"sine",a));}
+function sndRing(c,d,t,len){   /* electric bell: bright metal tone struck ~24 times a second */
+  const m=c.createGain();m.gain.setValueAtTime(0,t);m.connect(d);
+  [[910,.30],[1838,.13],[2731,.07],[3603,.04]].forEach(([f,a])=>{const o=c.createOscillator(),g=c.createGain();o.type="triangle";o.frequency.value=f;g.gain.value=a;o.connect(g);g.connect(m);o.start(t);o.stop(t+len+0.9);});
+  for(let x=0;x<len;x+=1/24){m.gain.setValueAtTime(1,t+x);m.gain.setTargetAtTime(0.35,t+x+0.004,0.012);}
+  m.gain.setValueAtTime(0.85,t+len);m.gain.setTargetAtTime(0.0001,t+len,0.16);}
+function sndBell(c,d,t){       /* large temple bell: low strike, inharmonic partials, long ringing decay */
+  const f=98;[[0.5,.24,13],[1,.27,11],[1.004,.18,11],[1.19,.15,7],[1.56,.12,5.5],[2,.10,4.5],[2.51,.07,3.4],[2.66,.05,2.8],[3.01,.04,2.3],[4.1,.03,1.5],[5.43,.016,1]].forEach(([k,a,u])=>sndTone(c,d,f*k,t,u,"sine",a,0.004));
+  const n=Math.floor(c.sampleRate*0.06),b=c.createBuffer(1,n,c.sampleRate),x=b.getChannelData(0);for(let i=0;i<n;i++)x[i]=(Math.random()*2-1)*(1-i/n);
+  const s=c.createBufferSource();s.buffer=b;const lp=c.createBiquadFilter();lp.type="lowpass";lp.frequency.value=700;const ng=c.createGain();ng.gain.value=.22;s.connect(lp);lp.connect(ng);ng.connect(d);s.start(t);}
+function sndRender(k,c,d,t){switch(k){
+  case"ding":sndDing(c,d,t);break;case"ding2":sndDing(c,d,t);sndDing(c,d,t+.3);break;
+  case"ring":sndRing(c,d,t,1.6);break;case"triple":sndRing(c,d,t,.3);sndRing(c,d,t+.55,.3);sndRing(c,d,t+1.1,1.9);break;
+  case"alarm":for(let i=0;i<12;i++)sndTone(c,d,i%2?740:988,t+i*.13,.11,"square",.3,.004);break;
+  case"bell":sndBell(c,d,t);break;}}
+window.__snd={render:sndRender};   /* used by tools/smoke_site.py to check loudness offline */
+
+/* ---------------- Quality round: timed speedrun of never-done questions ---------------- */
+const KINDS=[["q","ตอบคำถาม"],["rest","พัก / เปลี่ยนข้อ"],["sol","อ่านเฉลย"],["ready","เตรียมพร้อม"],["free","อื่น ๆ"]];
+const QPRESET=[
+  {id:"p1",name:"Speedrun AC",warm:{sec:5,sound:"bell"},loops:15,end:"triple",blocks:[
+    {name:"Cycle A",rep:4,phases:[{name:"QT",sec:18,sound:"ding2",kind:"q"},{name:"Resting",sec:2,sound:"ding",kind:"rest"}]},
+    {name:"Cycle B",rep:1,phases:[{name:"Solution",sec:35,sound:"ring",kind:"sol"},{name:"Ready",sec:5,sound:"ding",kind:"ready"}]}]},
+  {id:"p2",name:"Supersonic run AC",warm:{sec:5,sound:"bell"},loops:80,end:"triple",blocks:[
+    {name:"Cycle A",rep:1,phases:[{name:"Intense",sec:13,sound:"ding2",kind:"q"},{name:"Resting",sec:2,sound:"ding",kind:"rest"}]}]}];
+const clone=o=>JSON.parse(JSON.stringify(o));
+function qpS(){const q=st.qp||(st.qp={});q.custom=q.custom||[];q.over=q.over||{};if(!q.sel)q.sel="p1";if(q.vol==null)q.vol=0.8;q.mand=!!q.mand;return q;}
+const qProgs=()=>{const q=qpS();return QPRESET.map(p=>Object.assign(clone(q.over[p.id]||p),{id:p.id,builtin:1})).concat(q.custom.map(clone));};
+const qProg=id=>qProgs().find(p=>p.id===id)||qProgs()[0];
+const mmss=s=>{s=Math.max(0,Math.ceil(s));return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");};
+const nz=(v,m)=>Math.max(m,parseInt(v,10)||m);
+const qLen=pg=>{const c=pg.blocks.reduce((a,b)=>a+nz(b.rep,1)*b.phases.reduce((x,f)=>x+nz(f.sec,1),0),0);return {cycle:c,total:c*nz(pg.loops,1)};};
+function qDesc(pg){const L=qLen(pg),w=pg.warm&&+pg.warm.sec>0?+pg.warm.sec:0;
+  return esc(pg.blocks.map(b=>`${b.name}${nz(b.rep,1)>1?" ×"+nz(b.rep,1):""}: ${b.phases.map(f=>f.name+" "+nz(f.sec,1)+"s").join(" → ")}`).join(" · "))+` · วน ${nz(pg.loops,1)} รอบ = <b>${mmss(L.total)}</b>${w?` (+ warm up ${w} วิ)`:""}`;}
+function qSegs(pg){const S=[];let t=0;const add=o=>{o.t0=t;t+=nz(o.sec,1);o.t1=t;S.push(o);};
+  if(pg.warm&&+pg.warm.sec>0)add({name:"Warm up",sec:+pg.warm.sec,sound:pg.warm.sound,kind:"warm"});
+  for(let l=1;l<=nz(pg.loops,1)&&S.length<20000;l++)pg.blocks.forEach((b,bi)=>{for(let r=1;r<=nz(b.rep,1);r++)b.phases.forEach(f=>add({name:f.name,sec:f.sec,sound:f.sound,kind:f.kind||"free",bi,bname:b.name,rep:r,reps:nz(b.rep,1),loop:l}));});
+  return {S,total:t};}
+let QR=null;   /* running timer: {pg,mand,S,total,el0,t0,paused,i,front,done,alarm,ward} */
+const qOn=()=>!!(QR&&!QR.done&&QR.ward===ward&&P_().sess&&P_().sess.kind==="quality");
+const qEl=()=>QR.paused?QR.el0:QR.el0+(performance.now()-QR.t0)/1000;
+const qSeg=()=>QR&&QR.i>=0?QR.S[QR.i]:null;
+/* mandatory mode: questions change by themselves; only while reading solutions can you page back through questions already done */
+function qLock(){if(!qOn()||!QR.mand)return false;const g=qSeg();return !g||(g.kind!=="sol"&&g.kind!=="free");}
+function qNavOK(i){if(!qOn()||!QR.mand)return true;const g=qSeg();if(!g)return false;if(g.kind==="sol"||g.kind==="free")return i<QR.front;return i===QR.front;}
+function qStart(pg,mand){qStop();SND.init();const {S,total}=qSegs(pg);
+  QR={pg,mand,S,total,el0:0,t0:performance.now(),paused:false,i:-1,front:0,done:false,alarm:false,ward};
+  const s=P_().sess;if(s){const i=s.list.findIndex(u=>s.ans[u]===undefined);QR.front=i<0?s.list.length:i;}
+  QR.iv=setInterval(qTick,200);qTick();}
+function qStop(){if(QR){clearInterval(QR.iv);QR=null;}paintQR();}
+function qTick(){if(!QR)return;if(QR.paused||QR.done){paintQR();return;}
+  const el=qEl();
+  if(el>=QR.total){if(QR.i>=0)qEnd(QR.S[QR.i]);qFinish("หมดเวลา "+QR.pg.name);return;}
+  let i=QR.i;
+  while(QR&&!QR.done&&i+1<QR.S.length&&QR.S[i+1].t0<=el){if(i>=0)qEnd(QR.S[i]);if(!QR||QR.done)break;i++;QR.i=i;qBegin(QR.S[i],!(i+1<QR.S.length&&QR.S[i+1].t0<=el));}
+  paintQR();if(view==="sess")paintNav();}
+function qBegin(g,audible){let snd=g.sound;if(QR.alarm){QR.alarm=false;if(g.kind!=="q")snd="alarm";}
+  if(audible)SND.play(snd);
+  if(QR.mand&&g.kind==="q")qGoFront();}
+function qEnd(g){if(!QR.mand||QR.ward!==ward)return;const s=P_().sess;if(!s||s.kind!=="quality")return;
+  if(g.kind==="q"){const u=s.list[QR.front];if(u&&s.ans[u]===undefined){
+      if(view==="sess"&&s.cur===QR.front&&pick!==null)confirmAns();
+      else{s.ans[u]=-1;s.ts=now();save();QR.alarm=true;if(view==="sess"&&s.cur===QR.front)rQuiz();}}}
+  else if(g.kind==="rest"){QR.front++;if(QR.front>=s.list.length)qFinish("ทำครบทุกข้อที่ยังไม่เคยทำแล้ว");}}
+function qGoFront(){const s=P_().sess;if(!s||QR.front>=s.list.length)return;if(s.cur!==QR.front){s.cur=QR.front;s.ts=now();save();if(view==="sess"){pick=null;rQuiz();window.scrollTo(0,0);}}}
+function qFinish(msg){if(!QR||QR.done)return;QR.done=true;clearInterval(QR.iv);SND.play(QR.pg.end||"triple");toast(msg);paintQR();if(view==="sess")paintNav();}
+function qPause(){if(!QR||QR.done)return;if(QR.paused){QR.t0=performance.now();QR.paused=false;SND.init();}else{QR.el0=qEl();QR.paused=true;}paintQR();if(view==="sess")paintNav();}
+function qReset(){if(!QR)return;if(!confirm("เริ่มจับเวลาใหม่ตั้งแต่ต้น (รวม warm up)? ข้อที่ตอบไปแล้วยังเก็บไว้"))return;qStart(QR.pg,QR.mand);if(QR.front>=P_().sess.list.length)qFinish("ทำครบทุกข้อในรอบนี้แล้ว");}
+function paintQR(){const b=$("qbar");if(!b)return;
+  const on=!!(QR&&ward&&QR.ward===ward&&view==="sess"&&P_().sess&&P_().sess.kind==="quality");
+  b.hidden=!on;document.body.classList.toggle("qon",on);if(!on)return;
+  const g=qSeg(),el=qEl();let ph="",t="",meta="";
+  if(QR.done){ph="จบแล้ว";t="0:00";meta=QR.pg.name;}
+  else if(g){ph=g.name;t=mmss(g.t1-el);const w0=QR.S[0].kind==="warm"?QR.S[0].t1:0;
+    meta=g.kind==="warm"?`${QR.pg.name} · warm up`:`${g.bname} ${g.rep}/${g.reps} · รอบ ${g.loop}/${nz(QR.pg.loops,1)} · เหลือ ${mmss(QR.total-Math.max(el,w0))}`;}
+  $("qbPh").textContent=ph+(QR.paused?" · หยุดอยู่":"");$("qbT").textContent=t;$("qbMeta").textContent=meta+(QR.mand?" · mandatory":"");
+  $("qbPause").textContent=QR.paused?"▶ ต่อ":"⏸ พัก";$("qbPause").disabled=QR.done;b.dataset.k=QR.done?"done":g?g.kind:"";
+  const v=$("qbVol");if(document.activeElement!==v)v.value=qpS().vol;}
+$("qbPause").onclick=qPause;$("qbReset").onclick=qReset;
+$("qbStop").onclick=()=>{if(QR&&!QR.done&&!confirm("หยุดจับเวลาและจบรอบนี้?"))return;qStop();go(ward+"/result");};
+$("qbVol").oninput=e=>{qpS().vol=+e.target.value;persist();};
+$("qbVol").onchange=()=>{save();SND.play("ding");};
+
+function rQuality(){
+  const W=W_(),P=P_(),p=ph(),q=qpS(),pool=W.QB.filter(x=>!atts(P,p,x.uid).length),PG=qProgs();
+  if(!PG.some(x=>x.id===q.sel))q.sel=PG[0].id;
+  let h=`<h1 class="h2">Quality round</h1><p class="sub">Speedrun ข้อสอบเก่าที่ยังไม่เคยทำใน Phase ${p} (เหลือ <b>${pool.length}</b> ข้อ) สุ่มลำดับ จับเวลาเป็นเซตแบบ OSCE</p>`;
+  if(QR&&!QR.done&&QR.ward===ward)h+=`<button class="resume" id="qBack"><span>กำลังจับเวลา: <b>${esc(QR.pg.name)}</b><span class="rd">กลับไปทำต่อ</span></span><span class="go">→</span></button>`;
+  h+=`<div class="yh" style="font-family:var(--num);font-weight:700;margin:14px 0 6px">ชุดจับเวลา</div><div class="stack" style="margin-top:0">`+PG.map(pg=>`<button class="resume qprog" data-pg="${esc(pg.id)}" aria-pressed="${pg.id===q.sel}"><span><b>${esc(pg.name)}</b>${pg.builtin?' <span class="tag">preset</span>':''}<span class="rd">${qDesc(pg)}</span></span><span class="go">${pg.id===q.sel?"✓":""}</span></button>`).join("")+`</div>`;
+  h+=`<label class="chk"><input type="checkbox" id="qMand" ${q.mand?"checked":""}><span><b>Mandatory</b> — หมดเวลาแล้วเปลี่ยนหน้าจอให้อัตโนมัติ: หมดเวลาตอบ = ส่งคำตอบที่เลือกไว้ (ไม่ได้เลือก = ข้าม + เสียง alarm) · จบช่วงพัก = ไปข้อต่อไป · ช่วงอ่านเฉลยเลื่อนดูข้อที่ทำไปแล้วได้</span></label>`;
+  h+=`<div class="card"><h3>เสียง</h3><div class="qrow"><span>🔊</span><input type="range" id="qVol" min="0" max="1" step="0.05" value="${q.vol}" style="flex:1"></div><div class="chips" style="margin-top:8px">${SOUNDS.filter(x=>x[0]!=="none").map(([k,t])=>`<button class="chip" data-snd="${k}">▶ ${t}</button>`).join("")}</div></div>`;
+  h+=`<div class="row2"><button class="btn" id="qEdit">แก้ไขชุดนี้</button><button class="btn" id="qNew">สร้างชุดใหม่</button><span class="spacer"></span><button class="btn primary" id="qGo">Start</button></div>`;
+  $("main").innerHTML=h;
+  const qb=$("qBack");if(qb)qb.onclick=()=>go(ward+"/sess");
+  document.querySelectorAll("[data-pg]").forEach(b=>b.onclick=()=>{q.sel=b.dataset.pg;save();rQuality();});
+  $("qMand").onchange=e=>{q.mand=e.target.checked;save();};
+  $("qVol").oninput=e=>{q.vol=+e.target.value;persist();};$("qVol").onchange=()=>save();
+  document.querySelectorAll("[data-snd]").forEach(b=>b.onclick=()=>SND.play(b.dataset.snd));
+  $("qEdit").onclick=()=>{QED=clone(qProg(q.sel));go(ward+"/qedit");};
+  $("qNew").onclick=()=>{QED={name:"ชุดใหม่",warm:{sec:5,sound:"bell"},loops:10,end:"triple",blocks:[{name:"เซต 1",rep:1,phases:[{name:"ตอบคำถาม",sec:30,sound:"ding2",kind:"q"},{name:"พัก",sec:5,sound:"ding",kind:"rest"}]}]};go(ward+"/qedit");};
+  $("qGo").onclick=()=>{if(!pool.length){toast("ทำครบทุกข้อใน Phase นี้แล้ว");return;}const pg=qProg(q.sel);
+    startSess("quality","Quality round · "+pg.name,shuffle(pool).map(x=>x.uid));qStart(pg,q.mand);if(view==="sess")rQuiz();};
+}
+let QED=null;   /* timer set being edited */
+function rQEdit(){
+  if(!QED)QED=clone(qProg(qpS().sel));const e=QED;if(!e.warm)e.warm={sec:0,sound:"bell"};
+  const sel=(v,list,a)=>`<select class="field-in sel" ${a}>${list.map(([k,t])=>`<option value="${k}" ${k===v?"selected":""}>${t}</option>`).join("")}</select>`;
+  const ix=(bi,pi)=>`data-b="${bi}"${pi==null?"":` data-p="${pi}"`}`;
+  let h=`<h1 class="h2">${e.id?"แก้ไขชุดจับเวลา":"สร้างชุดจับเวลาใหม่"}</h1><p class="sub">ตั้งชื่อ ตั้งเวลา เรียงลำดับ เพิ่ม/ลบได้ทั้งหมด · กด ▶ เพื่อฟังเสียง</p>`;
+  h+=`<label class="fl">ชื่อชุด<input class="field-in" data-f="name" value="${esc(e.name)}"></label>`;
+  h+=`<div class="card qe"><h3>Warm up</h3><span class="rd">นับครั้งเดียวหลังกด Start ไม่นับรวมในเวลาทั้งหมด (0 = ไม่มี)</span><div class="qrow"><input class="field-in num" type="number" min="0" inputmode="numeric" data-f="warm.sec" value="${+e.warm.sec||0}"><span>วิ</span>${sel(e.warm.sound,SOUNDS,'data-f="warm.sound"')}<button class="chip" data-play="warm">▶</button></div></div>`;
+  e.blocks.forEach((b,bi)=>{
+    h+=`<div class="card qe"><div class="qrow"><input class="field-in" data-f="b.name" ${ix(bi)} value="${esc(b.name)}" aria-label="ชื่อเซต"><span>วน</span><input class="field-in num" type="number" min="1" inputmode="numeric" data-f="b.rep" ${ix(bi)} value="${nz(b.rep,1)}"><span>รอบ</span></div>
+      <div class="qrow end"><button class="chip" data-a="bup" ${ix(bi)} ${bi?"":"disabled"}>↑</button><button class="chip" data-a="bdn" ${ix(bi)} ${bi<e.blocks.length-1?"":"disabled"}>↓</button><button class="chip" data-a="bdel" ${ix(bi)}>ลบเซตนี้</button></div>`;
+    b.phases.forEach((f,pi)=>{h+=`<div class="qphase"><div class="qrow"><input class="field-in" data-f="p.name" ${ix(bi,pi)} value="${esc(f.name)}" aria-label="ชื่อ phase"><input class="field-in num" type="number" min="1" inputmode="numeric" data-f="p.sec" ${ix(bi,pi)} value="${nz(f.sec,1)}"><span>วิ</span></div>
+      <div class="qrow">${sel(f.sound,SOUNDS,`data-f="p.sound" ${ix(bi,pi)}`)}<button class="chip" data-play="${bi}.${pi}">▶</button>${sel(f.kind||"free",KINDS,`data-f="p.kind" ${ix(bi,pi)}`)}</div>
+      <div class="qrow end"><button class="chip" data-a="pup" ${ix(bi,pi)} ${pi?"":"disabled"}>↑</button><button class="chip" data-a="pdn" ${ix(bi,pi)} ${pi<b.phases.length-1?"":"disabled"}>↓</button><button class="chip" data-a="pdel" ${ix(bi,pi)}>ลบ</button></div></div>`;});
+    h+=`<button class="linkbtn" data-a="padd" ${ix(bi)}>+ เพิ่ม phase</button></div>`;});
+  h+=`<button class="btn" data-a="badd" style="margin-top:12px">+ เพิ่มเซต</button>`;
+  h+=`<div class="card qe"><div class="qrow"><span>วนทุกเซตทั้งหมด</span><input class="field-in num" type="number" min="1" inputmode="numeric" data-f="loops" value="${nz(e.loops,1)}"><span>รอบ</span></div><div class="qrow"><span>เสียงตอนจบ</span>${sel(e.end||"triple",SOUNDS,'data-f="end"')}<button class="chip" data-play="end">▶</button></div><p class="rd" id="qeSum" style="margin:8px 0 0"></p></div>`;
+  h+=`<p class="hint">ประเภทของ phase ใช้กับโหมด mandatory — <b>ตอบคำถาม</b>: หมดเวลาแล้วส่งคำตอบ/ข้ามให้ · <b>พัก / เปลี่ยนข้อ</b>: จบแล้วไปข้อต่อไป · <b>อ่านเฉลย</b>: เลื่อนดูข้อที่ทำไปแล้วได้ · <b>เตรียมพร้อม</b>: จบแล้วกลับไปข้อที่ยังไม่ได้ทำ</p>`;
+  h+=`<div class="stack">${e.id?`<button class="btn primary" data-a="save">บันทึก</button>`:""}<button class="btn ${e.id?"":"primary"}" data-a="saveas">บันทึกเป็น preset ใหม่</button>${e.builtin&&qpS().over[e.id]?`<button class="btn ghost" data-a="restore">คืนค่าเดิมของ preset นี้</button>`:""}${e.id&&!e.builtin?`<button class="btn ghost" data-a="del">ลบชุดนี้</button>`:""}<button class="btn ghost" data-a="cancel">ยกเลิก</button></div>`;
+  $("main").innerHTML=h;qeSum();
+  const tgt=el=>{const bi=el.dataset.b==null?null:+el.dataset.b,pi=el.dataset.p==null?null:+el.dataset.p;return {b:bi==null?null:e.blocks[bi],f:pi==null?null:e.blocks[bi].phases[pi],bi,pi};};
+  document.querySelectorAll("#main [data-f]").forEach(el=>{const h2=()=>{const k=el.dataset.f,v=el.value,{b,f}=tgt(el);
+      if(k==="name")e.name=v;else if(k==="warm.sec")e.warm.sec=Math.max(0,parseInt(v,10)||0);else if(k==="warm.sound")e.warm.sound=v;else if(k==="loops")e.loops=nz(v,1);else if(k==="end")e.end=v;
+      else if(k==="b.name")b.name=v;else if(k==="b.rep")b.rep=nz(v,1);else if(k==="p.name")f.name=v;else if(k==="p.sec")f.sec=nz(v,1);else if(k==="p.sound")f.sound=v;else if(k==="p.kind")f.kind=v;qeSum();};
+    el.addEventListener("input",h2);el.addEventListener("change",h2);});
+  document.querySelectorAll("#main [data-play]").forEach(el=>el.onclick=()=>{const k=el.dataset.play;SND.play(k==="warm"?e.warm.sound:k==="end"?e.end:(()=>{const [bi,pi]=k.split(".").map(Number);return e.blocks[bi].phases[pi].sound;})());});
+  const sw=(a,i,j)=>{if(j<0||j>=a.length)return;[a[i],a[j]]=[a[j],a[i]];};
+  document.querySelectorAll("#main [data-a]").forEach(el=>el.onclick=()=>{const a=el.dataset.a,{b,bi,pi}=tgt(el),q=qpS();
+    if(a==="bup")sw(e.blocks,bi,bi-1);else if(a==="bdn")sw(e.blocks,bi,bi+1);else if(a==="bdel"){if(e.blocks.length<2){toast("ต้องมีอย่างน้อย 1 เซต");return;}e.blocks.splice(bi,1);}
+    else if(a==="pup")sw(b.phases,pi,pi-1);else if(a==="pdn")sw(b.phases,pi,pi+1);else if(a==="pdel"){if(b.phases.length<2){toast("เซตต้องมีอย่างน้อย 1 phase");return;}b.phases.splice(pi,1);}
+    else if(a==="padd")b.phases.push({name:"Phase "+(b.phases.length+1),sec:10,sound:"ding",kind:"free"});
+    else if(a==="badd")e.blocks.push({name:"เซต "+(e.blocks.length+1),rep:1,phases:[{name:"ตอบคำถาม",sec:20,sound:"ding2",kind:"q"},{name:"พัก",sec:5,sound:"ding",kind:"rest"}]});
+    else if(a==="cancel"){QED=null;go(ward+"/quality");return;}
+    else if(a==="save"||a==="saveas"||a==="restore"||a==="del"){
+      const out=clone(e);delete out.builtin;if(!out.name.trim())out.name="ไม่มีชื่อ";
+      if(qSegs(out).S.length>=20000){toast("ชุดนี้ยาวเกินไป ลดจำนวนรอบลง");return;}
+      if(a==="save"){if(e.builtin)q.over[e.id]=out;else q.custom=q.custom.map(x=>x.id===e.id?out:x);q.sel=e.id;}
+      else if(a==="saveas"){const nm=prompt("ตั้งชื่อ preset ใหม่",e.id?e.name+" (ของฉัน)":e.name);if(!nm)return;out.name=nm.trim()||out.name;out.id="c"+now().toString(36);q.custom.push(out);q.sel=out.id;}
+      else if(a==="restore"){if(!confirm("คืนค่า preset นี้เป็นแบบเดิม?"))return;delete q.over[e.id];q.sel=e.id;}
+      else if(a==="del"){if(!confirm(`ลบชุด "${e.name}"?`))return;q.custom=q.custom.filter(x=>x.id!==e.id);q.sel="p1";}
+      QED=null;save();toast("บันทึกแล้ว");go(ward+"/quality");return;}
+    rQEdit();});
+}
+function qeSum(){const el=$("qeSum");if(!el||!QED)return;el.innerHTML=qDesc(QED);}
+
+/* ---------------- Admission round: a new AI-written case each time ---------------- */
+const AIKEY=KEY+"-ai";                 /* {key, model}: kept only in this browser, never synced */
+const aiCfg=()=>ld(AIKEY)||{};
+let admBusy=false,admErr="",admSetup=false;
+async function aiMode(){if(HAS_CLAUDE()){try{return (await window.claude.use("sample"))?"claude":"";}catch(e){return "";}}return aiCfg().key?"key":"";}
+const yrN=()=>{const m=/(\d+)/.exec(CFG.year||"");return m?+m[1]:0;};
+const ord=n=>n+(n===1?"st":n===2?"nd":n===3?"rd":"th");
+function admPrompt(W){const w=W.cfg,A=P_().adm,pos=Math.floor(Math.random()*5),y=yrN(),yr=y?ord(y)+"-year":"clinical-year";
+  return `Write ONE brand-new multiple-choice question for a past-exam practice website used by ${yr} medical students at Chulalongkorn University (MDCU), Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
+
+Scope (stay inside it): ${w.scope||w.name}.
+Level: what a ${yr} medical student is expected to know and use in real clinical practice. Content may come from any reliable source (standard textbooks, current international or Thai guidelines). The case may be invented or typical of real practice, common or uncommon.
+
+Question rules:
+- Case-based only: the stem MUST present a patient case (age, sex, presentation, relevant history, examination and test results as needed). Ask anything about the case: diagnosis, initial management, definitive treatment, most important or next investigation, pathophysiology, etiology, mechanism of disease or of a drug, pertinent findings, complications, prognosis, and so on.
+- Stem and all options in formal English, like a real exam. No hints in the stem: no diagnosis or interpretation in parentheses after lab values, no naming the sign or disease the student must work out, no normal ranges unless essential.
+- Exactly 5 options with one single best answer. Options are parallel in style and similar in length; the correct option must not be longer or more specific than the others. No parentheses, no " / ", no "e.g.", no "all of the above" or "none of the above".
+- Put the correct answer at position ${"ABCDE"[pos]} (index ${pos}).
+- It may be straightforward or contain a plausible trap.
+- Use a different topic from these recent ones: ${(A.recent||[]).slice(-15).join("; ")||"none"}.
+
+Explanation: write it for Thai medical students, in Thai mixed with English medical terms, concise but complete. You may use <b>…</b> for emphasis, no other HTML.
+
+Reply with only a JSON object with exactly these keys:
+{"topic": "short English topic label",
+ "stem": "the case and question",
+ "opts": ["A text","B text","C text","D text","E text"],
+ "ans": ${pos},
+ "interp": "what the case shows and what is being asked (Thai)",
+ "why": "why the answer is correct, with the key facts, criteria or numbers (Thai)",
+ "wrong": {"<letter>": "why this option is wrong here and when it would be right (Thai)"} for each of the 4 other letters,
+ "trap": "the common trap (Thai), or empty string",
+ "summary": ["4–7 Thai bullet points of high-yield knowledge on this topic, each complete on its own"],
+ "guide": "guideline or textbook (with year) the answer is based on, or empty string if it is general knowledge",
+ "mnemonic": "short memory aid, or empty string",
+ "variants": ["2–3 Thai bullets: other ways this topic could be asked"]}`;}
+const san=s=>esc(String(s==null?"":s)).replace(/&lt;(\/?)(b|i|br)\s*\/?&gt;/gi,"<$1$2>");
+function admCheck(o){
+  if(!o||typeof o!=="object")throw {code:"bad"};const opts=Array.isArray(o.opts)?o.opts.map(x=>String(x).trim()):[];const ans=+o.ans;
+  if(opts.length!==5||opts.some(x=>!x)||!o.stem||!(ans>=0&&ans<5))throw {code:"bad"};
+  const W0=o.wrong||{},wrong={};let j=0;for(let i=0;i<5;i++){if(i===ans)continue;const k=L[i];wrong[k]=san(Array.isArray(W0)?W0[j]:(W0[k]||W0[k.toLowerCase()]||""));j++;}
+  const ts=now(),arr=x=>(Array.isArray(x)?x:[]).map(san).filter(Boolean);
+  return {adm:1,uid:"ADM|"+ts.toString(36),set:"Case",ro:CFG.year||"",topic:String(o.topic||"").slice(0,80),stem:san(o.stem),opts,ans,interp:san(o.interp),why:san(o.why),wrong,trap:san(o.trap),summary:arr(o.summary),guide:String(o.guide||"").slice(0,300),mnemonic:san(o.mnemonic),variants:arr(o.variants),ts};}
+async function admGen(W){
+  const mode=await aiMode();if(!mode)throw {code:"no_ai"};const pr=admPrompt(W);let o;
+  if(mode==="claude"){const smp=await window.claude.use("sample");o=await smp.json(pr,{modelTier:"default",cache:false});}
+  else{const c=aiCfg();let r;
+    try{r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":c.key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},body:JSON.stringify({model:c.model||"claude-sonnet-5-5",max_tokens:4096,messages:[{role:"user",content:pr}]})});}
+    catch(e){throw {code:"network"};}
+    const j=await r.json().catch(()=>null);if(!r.ok)throw {code:"api",status:r.status,message:j&&j.error&&j.error.message||""};
+    const t=((j&&j.content)||[]).filter(x=>x.type==="text").map(x=>x.text).join(""),a=t.indexOf("{"),b=t.lastIndexOf("}");
+    if(a<0||b<a)throw {code:"invalid_json"};try{o=JSON.parse(t.slice(a,b+1));}catch(e){throw {code:"invalid_json"};}}
+  return admCheck(o);}
+function admMsg(e){const c=e&&e.code;
+  if(c==="no_ai")return "";
+  if(c==="api")return e.status===401?"API key ไม่ถูกต้อง — ตรวจ key แล้วบันทึกใหม่":e.status===404?"ไม่พบโมเดลนี้ — ตรวจชื่อโมเดลในการตั้งค่า":e.status===429?"เรียกใช้ถี่เกินไปหรือเครดิตหมด ลองใหม่ภายหลัง":e.status===529||e.status>=500?"เซิร์ฟเวอร์ AI ไม่ว่างชั่วคราว ลองใหม่อีกครั้ง":"สร้างโจทย์ไม่สำเร็จ ("+e.status+(e.message?": "+e.message:"")+")";
+  return ({network:"เชื่อมต่อ AI ไม่ได้ ตรวจอินเทอร์เน็ตแล้วลองใหม่",not_granted:"ยังไม่ได้อนุญาตให้หน้านี้ใช้ Claude — เปิดหน้านี้ใหม่แล้วกดอนุญาต",sampling_disabled:"บัญชีนี้ใช้ Claude จากหน้านี้ไม่ได้",rate_limited:"ใช้ Claude ถี่เกินไปหรือครบโควตาแล้ว ลองใหม่ภายหลัง",session_expired:"ต้องเข้าสู่ระบบ Claude ใหม่",invalid_json:"AI ตอบกลับมาในรูปแบบที่อ่านไม่ได้ ลองใหม่อีกครั้ง",bad:"โจทย์ที่ได้ไม่ครบ ลองใหม่อีกครั้ง",refused:"AI ไม่ยอมสร้างโจทย์ข้อนี้ ลองใหม่อีกครั้ง",cancelled:"ยกเลิกแล้ว"})[c]||"สร้างโจทย์ไม่สำเร็จ ลองใหม่อีกครั้ง";}
+async function admRun(target){
+  if(admBusy)return;admBusy=true;admErr="";const wid=ward;if(view==="adm")(P_().adm.cur?paintNav():rAdm());
+  try{const q=await admGen(WARDS[wid]);const A=PWof(st,wid).adm;if(target==="cur"||!A.cur){A.cur=q;A.ans=null;}else A.next=q;A.ts=now();save();}
+  catch(e){console.warn("admission",e);admErr=admMsg(e);if(e&&e.code==="no_ai")admSetup=true;}
+  admBusy=false;if(view==="adm"&&ward===wid){const A=P_().adm;if(A.cur&&A.ans!=null){paintNav();if(admErr)toast(admErr);}else rAdm();}}
+function admAnswer(i){const A=P_().adm;if(!A.cur||A.ans!=null)return;A.ans=i;A.n=(A.n||0)+1;if(i===A.cur.ans)A.right=(A.right||0)+1;
+  A.recent=(A.recent||[]).concat(A.cur.topic||[]).slice(-25);A.ts=now();save();rQuiz();
+  const e=document.querySelector(".exp");if(e)setTimeout(()=>e.scrollIntoView({behavior:"smooth",block:"start"}),60);
+  if(!A.next)admRun("next");}
+function admNext(){const A=P_().adm;if(A.ans==null)return;
+  if(A.next){A.cur=A.next;A.next=null;A.ans=null;A.ts=now();save();pick=null;rAdm();window.scrollTo(0,0);}
+  else if(admBusy)toast("กำลังสร้างข้อต่อไป รอสักครู่…");
+  else{A.cur=null;A.ans=null;admErr="";save();rAdm();}}
+function rAdm(){
+  const W=W_(),A=P_().adm;
+  if(!admSetup&&A.cur&&A.ans!=null&&A.next){A.cur=A.next;A.next=null;A.ans=null;A.ts=now();save();}   /* came back after answering → the next case */
+  if(!admSetup&&A.cur){$("nav").hidden=false;pick=null;rQuiz();if(!HAS_CLAUDE()){const sb=document.querySelector(".sessbar");if(sb)sb.insertAdjacentHTML("beforeend",` · <button class="linkbtn" id="admSet" style="font-size:13px;padding:0">ตั้งค่า AI</button>`);const b=$("admSet");if(b)b.onclick=()=>{admSetup=true;rAdm();};}return;}
+  $("nav").hidden=true;
+  let h=`<h1 class="h2">Admission round</h1><p class="sub">เคสใหม่ที่ AI สร้างขึ้นทีละข้อ เนื้อหา ${esc(W.cfg.name)} เหมาะกับนิสิตแพทย์${yearTxt()} — ข้อเดิมจะอยู่จนกว่าจะตอบ ตอบแล้วสร้างข้อใหม่ให้ทันที ไม่มีคลังข้อสอบ</p>`;
+  if(admBusy){h+=`<div class="card"><h3>กำลังสร้างเคสใหม่…</h3><span class="rd" style="margin:0">ใช้เวลาประมาณ 10–60 วินาที</span><div class="spin" aria-hidden="true"></div></div>`;$("main").innerHTML=h;return;}
+  h+=`<div id="admBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;$("main").innerHTML=h;
+  aiMode().then(mode=>{const box=$("admBox");if(!box||view!=="adm")return;
+    if(mode&&!admSetup&&!admErr){admRun("cur");return;}
+    let x="";
+    if(admErr)x+=`<div class="card"><h3>สร้างโจทย์ไม่สำเร็จ</h3><span class="rd">${esc(admErr)}</span>${mode?`<button class="btn primary" id="admRetry">ลองใหม่</button>`:""}</div>`;
+    if(HAS_CLAUDE()){if(!mode)x+=`<div class="card"><h3>ใช้ Claude จากหน้านี้ไม่ได้</h3><span class="rd" style="margin:0">ล็อกอิน Claude แล้วเปิดหน้านี้ใหม่ แล้วกดอนุญาตเมื่อหน้านี้ขอใช้ Claude (ใช้โควตาบัญชีของคุณเอง)</span></div>`;}
+    else{const c=aiCfg();
+      x+=`<div class="card"><h3>เชื่อม AI สำหรับ Admission round</h3><span class="rd">เว็บนี้ไม่มี AI ในตัว เลือกได้ 2 ทาง</span>
+        ${CFG.artifactUrl?`<a class="btn primary" style="display:block;text-align:center;text-decoration:none;margin-bottom:12px" href="${esc(CFG.artifactUrl)}#/${esc(ward)}/adm" target="_blank" rel="noopener">เปิด Admission round ใน Claude ↗ (ฟรี ใช้บัญชี Claude)</a><span class="rd">ความคืบหน้าในเว็บกับใน Claude แยกกัน ย้ายได้ด้วยปุ่ม "ส่งลิงก์ความคืบหน้า"</span>`:""}
+        <div class="or">หรือใส่ Anthropic API key ของตัวเอง</div>
+        <input class="field-in" id="aiKey" type="password" autocomplete="off" spellcheck="false" placeholder="sk-ant-…" value="${esc(c.key||"")}">
+        <input class="field-in" id="aiModel" type="text" autocapitalize="none" spellcheck="false" placeholder="โมเดล (เว้นว่าง = claude-sonnet-5-5)" value="${esc(c.model||"")}" style="margin-top:8px">
+        <span class="rd" style="margin-top:6px">key เก็บไว้ในเบราว์เซอร์นี้เท่านั้น (ไม่ซิงก์ ไม่ส่งไปที่อื่นนอกจาก api.anthropic.com) · คิดเงินตามการใช้งานจากบัญชี API ของคุณ ราว ๆ ไม่ถึง 1 บาทต่อข้อ</span>
+        <div class="row2" style="margin-top:6px"><button class="btn primary" id="aiSave">บันทึกแล้วเริ่ม</button>${c.key?`<button class="btn ghost" id="aiDel">ลบ key</button>`:""}${A.cur?`<button class="btn ghost" id="aiBack">กลับไปข้อเดิม</button>`:""}</div></div>`;}
+    box.innerHTML=x;
+    const rt=$("admRetry");if(rt)rt.onclick=()=>{admErr="";admSetup=false;rAdm();};
+    const sv=$("aiSave");if(sv)sv.onclick=()=>{const k=$("aiKey").value.trim(),m=$("aiModel").value.trim();if(!/^sk-/.test(k)){toast("key ควรขึ้นต้นด้วย sk-");return;}try{localStorage.setItem(AIKEY,JSON.stringify({key:k,model:m}));}catch(e){}admErr="";admSetup=false;rAdm();};
+    const dl=$("aiDel");if(dl)dl.onclick=()=>{try{localStorage.removeItem(AIKEY);}catch(e){}admSetup=true;rAdm();};
+    const bk=$("aiBack");if(bk)bk.onclick=()=>{admSetup=false;rAdm();};
+  });
+}
+
 /* ---------------- session result ---------------- */
 function rResult(){
   const W=W_(),P=P_(),s=P.sess;const qs=s.list.map(u=>W.byU[u]).filter(Boolean);
-  const ans=qs.filter(q=>s.ans[q.uid]!==undefined),right=ans.filter(q=>s.ans[q.uid]===q.ans),wrong=ans.filter(q=>s.ans[q.uid]!==q.ans),skip=qs.length-ans.length;
+  const ans=qs.filter(q=>s.ans[q.uid]>=0),right=ans.filter(q=>s.ans[q.uid]===q.ans),wrong=ans.filter(q=>s.ans[q.uid]!==q.ans),tout=qs.filter(q=>s.ans[q.uid]<0).length,skip=qs.length-ans.length-tout;
   let h=`<h1 class="h2">สรุป ${esc(s.title)}</h1><p class="sub">Phase ${s.ph} · ${qs.length} ข้อ</p>
   <div class="score">${right.length}<span style="font-size:22px;color:var(--muted)"> / ${qs.length}</span></div>
-  <p class="statline">ถูก <b>${right.length}</b> · ผิด <b>${wrong.length}</b>${skip?` · ยังไม่ได้ตอบ <b>${skip}</b>`:""} · ความแม่น <b>${ans.length?Math.round(right.length/ans.length*100)+"%":"–"}</b></p>
+  <p class="statline">ถูก <b>${right.length}</b> · ผิด <b>${wrong.length}</b>${tout?` · หมดเวลา <b>${tout}</b>`:""}${skip?` · ยังไม่ได้ตอบ <b>${skip}</b>`:""} · ความแม่น <b>${ans.length?Math.round(right.length/ans.length*100)+"%":"–"}</b></p>
   <div class="stack">${wrong.length?`<button class="btn primary" id="rWrong">ทำข้อที่ผิดในรอบนี้อีกครั้ง (${wrong.length})</button>`:""}${skip?`<button class="btn" id="rBack">กลับไปทำข้อที่ข้ามไว้</button>`:""}<button class="btn ghost" id="rHome">กลับหน้าหลัก</button></div>
   <div class="card" style="padding:6px"><div class="rows" style="padding:0">${qs.map((q,i)=>{const a=s.ans[q.uid];const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(a!==undefined&&j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");return `<button class="srow" data-i="${i}"><span class="n">${q.id}</span><span class="bs">${bs}</span><span class="meta">${esc(q.set)} ${esc(q.ro)}</span></button>`;}).join("")}</div></div>`;
   $("main").innerHTML=h;
-  const rw=$("rWrong");if(rw)rw.onclick=()=>startSess(s.kind,s.title.replace(/ \(ข้อที่ผิด\)$/,"")+" (ข้อที่ผิด)",wrong.map(q=>q.uid));
+  const rw=$("rWrong");if(rw)rw.onclick=()=>startSess(s.kind==="quality"||s.kind==="morning"?"redo":s.kind,s.title.replace(/ \(ข้อที่ผิด\)$/,"")+" (ข้อที่ผิด)",wrong.map(q=>q.uid));
   const rb=$("rBack");if(rb)rb.onclick=()=>{s.cur=Math.max(0,s.list.findIndex(u=>s.ans[u]===undefined));save();go(ward+"/sess");};
   $("rHome").onclick=()=>go(ward);
   document.querySelectorAll("[data-i]").forEach(b=>b.onclick=()=>{s.cur=+b.dataset.i;save();go(ward+"/sess");});
@@ -469,7 +782,7 @@ function sheet(){
     const done=qs.filter(q=>s.ans[q.uid]!==undefined),right=done.filter(q=>s.ans[q.uid]===q.ans);
     stats(done.length,qs.length,right.length);
     const v=qs.map((q,i)=>[q,i]).filter(([q])=>{const a=s.ans[q.uid];return f==="todo"?a===undefined:f==="wrong"?a!==undefined&&a!==q.ans:true;});
-    rows(v.map(([q,i])=>({q,a:s.ans[q.uid],cur:i===s.cur,go:()=>{s.cur=i;save();rQuiz();window.scrollTo(0,0);}})),f==="wrong"?"ยังไม่มีข้อที่ตอบผิดในรอบนี้":"ทำครบทุกข้อในรอบนี้แล้ว");
+    rows(v.map(([q,i])=>({q,a:s.ans[q.uid],cur:i===s.cur,go:()=>{if(!qNavOK(i)){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}pick=null;s.cur=i;save();rQuiz();window.scrollTo(0,0);}})),f==="wrong"?"ยังไม่มีข้อที่ตอบผิดในรอบนี้":"ทำครบทุกข้อในรอบนี้แล้ว");
     $("sheetFoot").innerHTML=`<span class="hint">เส้นเขียวรอบวง = เฉลย</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span><button class="link" id="toResult">จบรอบ ดูสรุป</button>`;
     $("toResult").onclick=()=>{closeS(true);go(ward+"/result");};
     paintSync();return;
@@ -511,7 +824,7 @@ $("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeS();})
 /* ---------------- keyboard ---------------- */
 document.addEventListener("keydown",e=>{
   if($("overlay").classList.contains("open")){if(e.key==="Escape")closeS();return;}
-  if(view!=="svc"&&view!=="sess")return;
+  if(view!=="svc"&&view!=="sess"&&view!=="adm")return;
   const tg=e.target;if(tg&&(tg.tagName==="INPUT"||tg.tagName==="TEXTAREA"||tg.isContentEditable))return;
   if(e.metaKey||e.ctrlKey||e.altKey)return;
   const q=curQ();if(!q)return;const locked=doneAns(q)!==undefined;
@@ -628,11 +941,17 @@ function mergeSt(a,b){
       newer(l.pre[p],r.pre[p]);
       for(const u in r.open[p])l.open[p][u]=Math.max(l.open[p][u]||0,r.open[p][u]);
     });
+    for(const u in r.unit.att){const m=new Map();(l.unit.att[u]||[]).concat(r.unit.att[u]).forEach(x=>m.set(x[1]+":"+x[0],x));l.unit.att[u]=[...m.values()].sort((x,y)=>x[1]-y[1]);}
+    [1,2].forEach(p=>{const a=l.morn[p],c=r.morn[p];if(!c)return;
+      if(a&&a.day===c.day&&(a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);
+      else if(!a||c.day>a.day||(c.day===a.day&&(c.ts||0)>(a.ts||0)))l.morn[p]=c;});
+    if((r.adm.ts||0)>(l.adm.ts||0))l.adm=r.adm;
     newer(l.flag,r.flag);newer(l.post,r.post);
     if((b.t||0)>(a.t||0)){l.svc=r.svc;l.type=r.type;l.pick=r.pick;}
     if(r.sess&&(!l.sess||(r.sess.ts||0)>(l.sess.ts||0)))l.sess=r.sess;
   }
-  if((b.t||0)>(a.t||0)){a.phase=b.phase===2?2:1;a.noteMode=b.noteMode||a.noteMode;}
+  if((b.t||0)>(a.t||0)){a.phase=b.phase===2?2:1;a.noteMode=b.noteMode||a.noteMode;if(b.qp)a.qp=b.qp;}
+  if(!a.qp&&b.qp)a.qp=b.qp;
   a.t=Math.max(a.t||0,b.t||0);
 }
 async function pull(){
@@ -667,12 +986,14 @@ async function initClaude(){
 }
 async function clPull(){
   const snap=await cl.db.collection(cl.col).limit(1000).get();
-  const r={w:{},t:0},rts={};
+  const r={w:{},t:0},rts={};let old=null;
   snap.docs.forEach(d=>{const id=d.id,x=d.data()||{};try{
-    if(id==="meta"){const m=JSON.parse(x.d||"{}");r.phase=m.phase;r.noteMode=m.noteMode;r.t=Math.max(r.t,x.t||0);}
+    if(id==="meta"){const m=JSON.parse(x.d||"{}");r.phase=m.phase;r.noteMode=m.noteMode;if(m.qp)r.qp=m.qp;r.t=Math.max(r.t,x.t||0);}
+    else if(id==="progress"&&Array.isArray(x.a))old=x;   /* progress saved by the earlier single-page artifact */
     else if(id.startsWith("w_")){r.w[id.slice(2)]=JSON.parse(x.d||"{}");r.t=Math.max(r.t,x.t||0);}
     else if(id.startsWith("ink_")&&x.k){const v=JSON.parse(x.d);rts[x.k]=v.ts||0;if(!ink[x.k]||(v.ts||0)>(ink[x.k].ts||0))ink[x.k]=v;}
   }catch(e){}});
+  if(old){const R=PWof(r,WL[0].id),t=old.t||1;old.a.forEach(([u,a])=>{if(typeof a==="number"&&!(R.att[1][u]&&R.att[1][u].length))R.att[1][u]=[[a,t]];});}
   mergeSt(st,r);
   try{localStorage.setItem(KEY,JSON.stringify(st));localStorage.setItem(IKEY,JSON.stringify(ink));}catch(e){}
   await clPush();
@@ -682,7 +1003,7 @@ async function clPull(){
 let clBusy=false,clAgain=false;
 async function clPush(){if(!cl)return;clearTimeout(pushT);if(clBusy){clAgain=true;return;}clBusy=true;sync="saving";paintSync();
   try{const t=st.t||now();
-    await cl.db.doc(cl.col+"/meta").set({d:JSON.stringify({phase:st.phase,noteMode:st.noteMode||"",lastWard:st.lastWard||""}),t});
+    await cl.db.doc(cl.col+"/meta").set({d:JSON.stringify({phase:st.phase,noteMode:st.noteMode||"",lastWard:st.lastWard||"",qp:st.qp||null}),t});
     for(const id in st.w)await cl.db.doc(cl.col+"/w_"+id).set({d:JSON.stringify(st.w[id]),t});
     sync="cloud";}catch(e){console.warn(e);sync="error";}
   clBusy=false;paintSync();if(clAgain){clAgain=false;clPush();}}
