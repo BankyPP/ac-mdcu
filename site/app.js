@@ -16,8 +16,9 @@ const IN_FRAME=(()=>{try{return window.top!==window;}catch(e){return true;}})();
 
 /* ---------------- wards & question banks ---------------- */
 const WL=(CFG.wards&&CFG.wards.length)?CFG.wards:[{id:"main",name:CFG.brand||"คลังข้อสอบ",brand:CFG.brand||"MCQ",short:"MCQ"}];
-/* every ward gets the study year appended (config "year", e.g. Y4 → later Y5) */
-if(CFG.year)WL.forEach(w=>{const y=" "+CFG.year;if(!String(w.name).endsWith(y))w.name+=y;w.short=(w.short||w.id)+(String(w.short||"").endsWith(y)?"":y);});
+/* each ward carries the study year it is taken in (config wards[].year, e.g. "Y4"; a Y5 subject is a new ward with "Y5") — appended to its names */
+WL.forEach(w=>{w.year=w.year||CFG.year||"";if(!w.year)return;const y=" "+w.year;if(!String(w.name).endsWith(y))w.name+=y;w.short=(w.short||w.id)+(String(w.short||"").endsWith(y)?"":y);});
+const wYear=()=>(ward&&WARDS[ward]&&WARDS[ward].cfg.year)||CFG.year||"";
 const YEAR=q=>parseInt(String(q.set).replace(/\D/g,""))||0;
 const ROK=r=>{r=String(r||"");let m=/^Ro?([A-Z])(\d*)$/.exec(r);if(m)return [0,m[1].charCodeAt(0),+m[2]||0];m=/^Ro?(\d+)$/.exec(r);if(m)return [1,+m[1],0];return [2,0,0];};
 const cmpRo=(a,b)=>{const x=ROK(a.ro),y=ROK(b.ro);return x[0]-y[0]||x[1]-y[1]||x[2]-y[2];};
@@ -141,7 +142,7 @@ const ROUNDS=[
   {k:"quality",n:"Quality round",d:"Speedrun ข้อที่ยังไม่เคยทำ จับเวลาเป็นเซต ตั้งค่าเองได้ทั้งหมด"},
   {k:"admission",n:"Admission round",d:"เคสใหม่ที่ AI สร้างให้ทีละข้อ เนื้อหาเหมาะกับชั้นปีในวอร์ดนี้"}
 ];
-const yearTxt=()=>{const m=/(\d+)/.exec(CFG.year||"");return m?"ปี "+m[1]:"";};
+const yearTxt=()=>{const m=/(\d+)/.exec(wYear());return m?"ปี "+m[1]:"";};
 /* ---------------- Morning round: 10 a day, new set at 07:30 (phone's clock) ---------------- */
 const MORN_N=10;
 const mDay=t=>{const d=new Date((t||now())-7.5*3600e3);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");};
@@ -636,7 +637,7 @@ const AIKEY=KEY+"-ai";                 /* {key, model}: kept only in this browse
 const aiCfg=()=>ld(AIKEY)||{};
 let admBusy=false,admErr="",admSetup=false;
 async function aiMode(){if(HAS_CLAUDE()){try{return (await window.claude.use("sample"))?"claude":"";}catch(e){return "";}}return aiCfg().key?"key":"";}
-const yrN=()=>{const m=/(\d+)/.exec(CFG.year||"");return m?+m[1]:0;};
+const yrN=()=>{const m=/(\d+)/.exec(wYear());return m?+m[1]:0;};
 const ord=n=>n+(n===1?"st":n===2?"nd":n===3?"rd":"th");
 function admPrompt(W){const w=W.cfg,A=P_().adm,pos=Math.floor(Math.random()*5),y=yrN(),yr=y?ord(y)+"-year":"clinical-year";
   return `Write ONE brand-new multiple-choice question for a past-exam practice website used by ${yr} medical students at Chulalongkorn University (MDCU), Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
@@ -673,7 +674,7 @@ function admCheck(o){
   if(opts.length!==5||opts.some(x=>!x)||!o.stem||!(ans>=0&&ans<5))throw {code:"bad"};
   const W0=o.wrong||{},wrong={};let j=0;for(let i=0;i<5;i++){if(i===ans)continue;const k=L[i];wrong[k]=san(Array.isArray(W0)?W0[j]:(W0[k]||W0[k.toLowerCase()]||""));j++;}
   const ts=now(),arr=x=>(Array.isArray(x)?x:[]).map(san).filter(Boolean);
-  return {adm:1,uid:"ADM|"+ts.toString(36),set:"Case",ro:CFG.year||"",topic:String(o.topic||"").slice(0,80),stem:san(o.stem),opts,ans,interp:san(o.interp),why:san(o.why),wrong,trap:san(o.trap),summary:arr(o.summary),guide:String(o.guide||"").slice(0,300),mnemonic:san(o.mnemonic),variants:arr(o.variants),ts};}
+  return {adm:1,uid:"ADM|"+ts.toString(36),set:"Case",ro:wYear(),topic:String(o.topic||"").slice(0,80),stem:san(o.stem),opts,ans,interp:san(o.interp),why:san(o.why),wrong,trap:san(o.trap),summary:arr(o.summary),guide:String(o.guide||"").slice(0,300),mnemonic:san(o.mnemonic),variants:arr(o.variants),ts};}
 async function admGen(W){
   const mode=await aiMode();if(!mode)throw {code:"no_ai"};const pr=admPrompt(W);let o;
   if(mode==="claude"){const smp=await window.claude.use("sample");o=await smp.json(pr,{modelTier:"default",cache:false});}

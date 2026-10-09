@@ -11,14 +11,14 @@
 - เป็นโครง platform เดิมครบทุกฟีเจอร์แบบยังไม่มีข้อสอบ อ่าน README.md, FEATURES.md (รายการฟีเจอร์ทั้งหมด), examples/data_b1.example.js และ examples/highyield.example.js ก่อน
 - ห้ามออกแบบหน้าตาใหม่ ห้ามแก้ CSS/JS/การทำงานเอง (template.html, site/app.js, site/extra.css, site/body.html, build_site.py) — แก้แค่ config.json แล้วเพิ่มข้อสอบในโฟลเดอร์ข้อสอบของวอร์ด และรูปใน img/
 - config.json ให้ตั้งเป็น:
-  - title: "[ชื่อแท็บ เช่น คลังข้อสอบเก่า Med Y4]"
+  - title: "[ชื่อแท็บ เช่น คลังข้อสอบเก่า MDCU — ไม่ใส่ปี เพราะใช้ทุกชั้นปี]"
   - siteName: "คลังข้อสอบเก่า"
   - homeBrand: "AC {short} [MDCU79] by [ชื่อเรา]"   (หัวข้อแถบบนหน้า home)
   - quizBrand: "AC {short} {type}"                 (หัวข้อแถบบนตอนทำข้อสอบ เช่น AC Med Y4 MCQ)
-  - year: "[Y4]"   (ต่อท้ายชื่อวอร์ดและชื่อย่อทุกวอร์ดอัตโนมัติ)
   - storageKey: ตั้งใหม่ ไม่ซ้ำกับ platform อื่น
   - siteUrl: ""   firebase: null
-  - wards: [{"id":"[w1]","name":"[ชื่อวอร์ดเต็ม เช่น Medicine]","short":"[ชื่อย่อ เช่น Med]","sub":"[MDCU]","dir":"data","noExam":[ชนิดที่วอร์ดนี้ไม่มีสอบ เช่น "MEQ","OSCE"]}]
+  - wards: [{"id":"[w1]","name":"[ชื่อวอร์ดเต็ม เช่น Medicine]","short":"[ชื่อย่อ เช่น Med]","year":"[ชั้นปีที่เรียนวิชานี้ เช่น Y4]","sub":"[MDCU]","dir":"data","noExam":[ชนิดที่วอร์ดนี้ไม่มีสอบ เช่น "MEQ","OSCE"]}]
+    (year ต่อท้ายชื่อวอร์ดและชื่อย่ออัตโนมัติ และใช้กำหนดระดับเนื้อหาของ Admission round — เป็นปีที่เรียนวิชานั้น ไม่ต้องเปลี่ยนตอนขึ้นปี วิชาของปีถัดไปเพิ่มเป็นวอร์ดใหม่ เช่น Ambu Y5)
     (ถ้ามีหลายวอร์ด เพิ่มทีละอัน เรียงตามที่อยากให้แสดง แต่ละวอร์ดใช้โฟลเดอร์ข้อสอบของตัวเอง เช่น data_w2)
 - build ด้วย `python3 build_site.py out` ได้ out/index.html แล้ว publish เป็น artifact เดียว (ลิงก์เดียว ใช้ลิงก์เดิมตลอด อัปเดตในที่เดิม)
 - รูปทุกรูปส่งเป็น supporting files (`img/xxx.jpg`) ห้ามฝัง base64 เพราะหน้าจะเกิน 16 MB
@@ -100,7 +100,7 @@
 | ช่อง | ตัวอย่าง |
 |---|---|
 | ชื่อวอร์ด / คณะ | Medicine · จุฬาฯ (MDCU) |
-| title | คลังข้อสอบเก่า Med Y4 |
+| title | คลังข้อสอบเก่า MDCU |
 | homeBrand | AC {short} MDCU79 by BankyPP (`{short}` = ชื่อย่อวอร์ด + ปี) |
-| year | Y4 |
+| wards[].year | Y4 (ปีที่เรียนวิชานั้น แต่ละวอร์ดตั้งของตัวเอง) |
 | wards | id สั้น ๆ ภาษาอังกฤษ (ห้ามเปลี่ยนภายหลัง), ชื่อเต็ม, ชื่อย่อ, คำโปรย, noExam |
