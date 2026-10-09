@@ -1374,7 +1374,7 @@ let fb=null,fbFail=false,pushT=null,inkT=null;const inkDirty=new Set();let sync=
 /* When the page runs as an artifact inside claude.ai, progress syncs to the viewer's Claude account (db + user capabilities). */
 let cl=null;
 const HAS_CLAUDE=()=>!!(window.claude&&typeof window.claude.use==="function");
-const fbOn=()=>!!(CFG.firebase&&CFG.firebase.apiKey);
+const fbOn=()=>!!(CFG.firebase&&CFG.firebase.apiKey)&&!HAS_CLAUDE();   /* inside Claude the Claude account is the sync, Firebase sign-in is for the GitHub site only */
 function paintAcct(){const b=$("acctBtn");b.hidden=view==="signin";
   if(cl){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บันทึกในบัญชี Claude";}
   else if(fb&&fb.user){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บัญชี: "+who(fb.user);}else{b.classList.remove("on");b.textContent="👤";b.title=b.ariaLabel="เข้าสู่ระบบ";}
