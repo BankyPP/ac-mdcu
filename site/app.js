@@ -63,6 +63,11 @@ function PWof(S,id){
 (function(){if(st.migrated)return;const o=ld(CFG.storageKey||"");if(o&&o.a&&typeof o.a==="object"){const P=PWof(st,WL[0].id),t=o.t||now();Object.keys(o.a).forEach(u=>{if(typeof o.a[u]==="number"&&!P.att[1][u])P.att[1][u]=[[o.a[u],t]];});}st.migrated=1;})();
 function persist(){try{localStorage.setItem(KEY,JSON.stringify(st));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}}
 function save(){st.t=now();persist();cloudPush();}
+/* bank: larger per-user items kept one record each (Admission cases, Legendary papers, Long cases) — key "<kind>|<ward>|<id>" → {…, c:createdTs, ts} · own localStorage key, own cloud docs (a ward doc must stay < 256 KiB) */
+const BKEY=KEY+"-bank";let bank=ld(BKEY)||{};const bankDirty=new Set();let bankT=null;
+function bankPut(k,v){v.ts=now();if(!v.c)v.c=v.ts;bank[k]=v;try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}cloudBank(k);}
+const bankItems=(kind,w)=>{const pre=kind+"|"+w+"|";return Object.keys(bank).filter(k=>k.startsWith(pre)).map(k=>Object.assign({key:k},bank[k])).sort((a,b)=>(a.c||0)-(b.c||0));};
+function bankMerge(o){const ks=[];for(const k in o||{}){if(!bank[k]||(o[k].ts||0)>(bank[k].ts||0)){bank[k]=o[k];ks.push(k);}}try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){}return ks;}
 function saveInk(k){if(ink[k])ink[k].ts=now();try{localStorage.setItem(IKEY,JSON.stringify(ink));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม — ลบรูปที่เขียนบางข้อออก");}cloudInk(k);}
 
 let ward=null;               // current ward id
@@ -97,21 +102,24 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase"].includes(v))v="home";
+  if(v==="exam"&&!P_().leg)v="legend";
+  if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
+  if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
   show(v);
 }
 function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]).filter(u=>W_().byU[u]);if(!s.list.length){P.sess=null;return false;}if(s.cur>=s.list.length)s.cur=s.list.length-1;if(s.cur<0)s.cur=0;return true;}
 function show(v){
-  view=v;const quiz=v==="svc"||v==="sess"||v==="adm";
+  view=v;const quiz=["svc","sess","adm","exam","lrev","admq"].includes(v);
   clearInterval(show._t);
-  $("nav").hidden=!quiz;$("openSheet").hidden=!quiz||v==="adm";$("homeBtn").hidden=v==="wards";paintQR();
+  $("nav").hidden=!quiz;$("exnav").hidden=v!=="exam";$("openSheet").hidden=!quiz;$("homeBtn").hidden=v==="wards";paintQR();
   const w=ward&&W_();const fill=(t,ty)=>String(t).replace(/\{short\}/g,w.cfg.short||w.cfg.id).replace(/\{type\}/g,ty||"");
   $("brand").classList.toggle("long",!!w&&!quiz);
   $("brand").textContent=w?(quiz?fill(CFG.quizBrand||"AC {short} {type}","MCQ"):fill(CFG.homeBrand||w.cfg.brand||w.cfg.name)):(CFG.siteName||CFG.title||"คลังข้อสอบเก่า");
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport})[v]();
+  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -136,13 +144,15 @@ const ROUNDS=[
   {k:"grand",n:"Grand round",d:"สุ่มข้อจากทั้งคลัง ไม่สนว่าปีไหนหรือเรื่องอะไร"},
   {k:"service",n:"Service round",d:"เลือกปีและ rotation ที่อยากทำ ทำแบบกระดาษคำตอบ"},
   {k:"morning",n:"Morning round",d:"วันละ 10 ข้อ จากข้อที่เคยทำแล้ว และโจทย์ Unit round ที่ยังไม่เคยเจอ ชุดใหม่ทุกวัน 07:30"},
-  {k:"legend",n:"Legendary round",d:"",soon:1},
+  {k:"legend",n:"Legendary round",d:"จำลองสอบจริง จำนวนข้อและเวลาเท่าสอบจริงของวอร์ด ทำรวดเดียว ส่งแล้วได้เกรด"},
   {k:"staff",n:"Ward staff round",d:"ทวนข้อที่เคยทำแล้ว แต่ยังทำถูกติดกันไม่ถึง 2 ครั้ง"},
   {k:"teach",n:"Teaching round",d:"",soon:1},
   {k:"advisor",n:"Advisor round",d:"อ่านเฉลยข้อที่เคยทำแล้วแบบเร็ว ๆ ไม่ต้องตอบ พร้อมคำแนะนำเฉพาะช้อยที่เคยเลือก และรายงานว่าผิดเรื่องไหนมากสุด"},
   {k:"unit",n:"Unit round",d:"โจทย์ใหม่แบบ case-based จาก lecture แต่ละบท สุ่มใหม่ทุกครั้งที่เข้า"},
   {k:"quality",n:"Quality round",d:"Speedrun ข้อที่ยังไม่เคยทำ จับเวลาเป็นเซต ตั้งค่าเองได้ทั้งหมด"},
-  {k:"admission",n:"Admission round",d:"เคสใหม่ที่ AI สร้างให้ทีละข้อ เนื้อหาเหมาะกับชั้นปีในวอร์ดนี้"}
+  {k:"admission",n:"Admission round",d:"เคสใหม่ที่ AI สร้างให้ทีละข้อ เนื้อหาเหมาะกับชั้นปีในวอร์ดนี้ · เก็บทุกข้อไว้ในคลังของคุณ"},
+  {k:"io",n:"Round I/O",d:"",soon:1},
+  {k:"longcase",n:"Long case round",d:"เริ่มจาก chief complaint แล้วดำเนินเคสทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ · AI สร้างเคสใหม่"}
 ];
 const yearTxt=()=>{const m=/(\d+)/.exec(wYear());return m?"ปี "+m[1]:"";};
 /* ---------------- Morning round: 10 a day, new set at 07:30 (phone's clock) ---------------- */
@@ -192,7 +202,7 @@ function rHome(){
       <button class="tool" data-p2="nop1">○ ไม่เคยทำใน Phase 1<span class="n">${l.nop1.length}</span></button></div></div>`;}
     const sc=staffList().length;
     const mm=morning(false),ma=mm?mm.list.filter(u=>mm.ans[u]!==undefined).length:0;
-    const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
+    const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="legend"&&P.leg?'<span class="badge">กำลังสอบ</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
     h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
   }
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
@@ -206,9 +216,9 @@ function rHome(){
   const rs=$("resume");if(rs)rs.onclick=()=>go(ward+"/sess");
   const mc=$("mClock");if(mc){let lastDay=mDay();show._t=setInterval(()=>{if(!document.body.contains(mc)){clearInterval(show._t);return;}mc.textContent=hms(mNext()-now());if(mDay()!==lastDay){lastDay=mDay();rHome();}},1000);}
   document.querySelectorAll("[data-round]").forEach(b=>b.onclick=()=>{const k=b.dataset.round;const R=ROUNDS.find(r=>r.k===k);if(R.soon){toast("โหมดนี้จะเพิ่มภายหลัง");return;}
-    if(k==="unit")return go(ward+"/unit");if(k==="admission")return go(ward+"/adm");if(k==="morning")return startMorning();
+    if(k==="unit")return go(ward+"/unit");if(k==="admission")return go(ward+"/adm");if(k==="morning")return startMorning();if(k==="longcase")return go(ward+"/lcase");
     if(!QB.length){toast("ยังไม่มีข้อสอบในคลัง");return;}
-    if(k==="quality")return go(ward+"/quality");if(k==="advisor")return go(ward+"/advisor");
+    if(k==="quality")return go(ward+"/quality");if(k==="advisor")return go(ward+"/advisor");if(k==="legend")return go(ward+"/legend");
     if(k==="grand")go(ward+"/grand");else if(k==="service")go(ward+"/service");
     else if(k==="staff"){const l=staffList();if(!l.length){toast(Object.keys(P.att[p]).length?"ไม่มีข้อที่ต้องทวน — ทุกข้อที่ทำแล้วถูกติดกัน 2 ครั้งแล้ว":"ยังไม่มีข้อที่เคยทำใน Phase นี้");return;}startSess("staff","Ward staff round",l.map(q=>q.uid));}
     else toast("โหมดนี้จะเพิ่มภายหลัง");});
@@ -226,7 +236,8 @@ function rService(){
   const sel=new Set(P.pick.filter(k=>W.sets.includes(k)));
   const years=[...new Set(QB.map(q=>q.set))];
   let h=`<h1 class="h2">Service round</h1><p class="sub">เลือกปีและ rotation ที่อยากทำ เลือกได้หลายชุด ไม่เลือกเลย = ทุกชุด</p>`;
-  h+=years.map(y=>{const ks=W.sets.filter(k=>k.split(" ")[0]===y);return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=QB.filter(q=>setKey(q)===k),d=qs.filter(q=>lockedAns(P,p,q.uid)!==undefined).length;return `<button class="chip" data-k="${esc(k)}" aria-pressed="${sel.has(k)}">${esc(k.split(" ").slice(1).join(" "))}<span class="c">${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");
+  h+=years.map(y=>{const ks=W.sets.filter(k=>k.split(" ")[0]===y);return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=QB.filter(q=>setKey(q)===k),d=qs.filter(q=>lockedAns(P,p,q.uid)!==undefined).length;const full=d===qs.length,pc=Math.round(d/qs.length*100);return `<button class="chip svchip${full?" done":""}" data-k="${esc(k)}" aria-pressed="${sel.has(k)}" style="--pc:${pc}%">${esc(k.split(" ").slice(1).join(" "))}<span class="c">${full?"✓ ครบ ":""}${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");
+  h+=`<p class="hint">แถบสีในปุ่ม = สัดส่วนที่ทำแล้วใน Phase ${p} · ✓ ครบ = ทำครบทุกข้อในชุดนั้นแล้ว</p>`;
   h+=`<div class="row2"><button class="btn ghost" id="spClear">ล้างที่เลือก</button><span class="spacer"></span><button class="btn primary" id="spGo">เริ่มทำ</button></div>`;
   $("main").innerHTML=h;
   document.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(sel.has(k))sel.delete(k);else sel.add(k);b.setAttribute("aria-pressed",sel.has(k));});
@@ -264,8 +275,10 @@ const svcList=()=>W_().QB.filter(inSet);
 const svcVisible=()=>svcList().filter(svcPass);
 function svcQ(){const W=W_(),s=svcS();let q=W.byU[s.cur];if(!q||!inSet(q)){q=svcVisible()[0]||svcList()[0]||W.QB[0];if(q)s.cur=q.uid;}return q;}
 const isSess=()=>view==="sess";
-function curQ(){if(view==="adm")return P_().adm.cur;if(isSess()){const s=P_().sess;return W_().byU[s.list[s.cur]];}return svcQ();}
-function doneAns(q){if(isAdv()){const h=hist(P_(),q.uid,P_().sess.hp,true);return h.length?h[h.length-1][0]:null;}if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
+const legPaper=()=>view==="exam"?P_().leg:bank[st.legSel];
+const legIdx=()=>view==="exam"?P_().leg.cur:Math.max(0,Math.min((legPaper().list.length-1),st.legIdx||0));
+function curQ(){if(view==="adm")return P_().adm.cur;if(view==="admq"){const it=bank[st.admSel];return it&&it.q;}if(view==="lrev"||view==="exam"){const X=legPaper();return X?W_().byU[X.list[legIdx()]]:null;}if(isSess()){const s=P_().sess;return W_().byU[s.list[s.cur]];}return svcQ();}
+function doneAns(q){if(view==="admq"){const it=bank[st.admSel];return it&&it.a!=null?it.a:undefined;}if(view==="lrev"){const a=bank[st.legSel].ans[q.uid];return a==null?-2:a;}if(isAdv()){const h=hist(P_(),q.uid,P_().sess.hp,true);return h.length?h[h.length-1][0]:null;}if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
 
 function rQuiz(){
   const W=W_(),P=P_(),R=W.R,q=curQ();
@@ -274,10 +287,12 @@ function rQuiz(){
   if(isAdv()){const s=P.sess;if(s.ans[q.uid]===undefined){s.ans[q.uid]=-9;s.ts=now();save();}}   /* advisor: -9 = answer read */
   let h="";
   if(view==="adm"){const A=P.adm;h+=`<div class="sessbar">Admission round · ข้อที่ ${A.n+(locked?0:1)} · ถูกแล้ว ${A.right}/${A.n} · ${esc(W.cfg.short||"")}</div>`;}
+  else if(view==="lrev"){const X=legPaper(),i=legIdx();h+=`<div class="sessbar">Legendary round · เฉลยข้อ ${i+1}/${X.list.length} · ได้เกรด ${esc(X.grade)}${X.star[q.uid]?" · ★ ติดดาวไว้":""}</div>`;}
+  else if(view==="admq"){const L_=bankItems("adm",ward),i=L_.findIndex(x=>x.key===st.admSel);h+=`<div class="sessbar">Admission round · คลังของฉัน ข้อ ${i+1}/${L_.length} · สร้างเมื่อ ${fmtD(bank[st.admSel].c)}</div>`;}
   else if(isAdv()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · อ่านเฉลย · ประวัติ${s.hp==="p"?` Phase ${s.ph}`:"ทั้ง 2 Phase"}</div>`;}
   else if(isSess()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · Phase ${s.ph}</div>`;}
   const lab=q.adm?["เคส","Admission"]:q.unit?["Lecture","Unit"]:[CFG.setLabel||"ปี",CFG.roLabel||"Rotation"];
-  h+=`<div class="qhead"><div class="qnum">${q.adm?"A":q.id}.</div><div class="fields"><span class="field"><b>${lab[0]}</b>${esc(q.set)}</span><span class="field"><b>${lab[1]}</b>${esc(q.ro)}</span></div>${q.adm?"":`<button class="flag" id="flagBtn" aria-pressed="${flagged(P,q.uid)}" title="ทำเครื่องหมายข้อที่ยังไม่มั่นใจ">⚑ ไม่มั่นใจ</button>`}</div>`;
+  h+=`<div class="qhead"><div class="qnum">${view==="lrev"?legIdx()+1:q.adm?"A":q.id}.</div><div class="fields"><span class="field"><b>${lab[0]}</b>${esc(q.set)}</span><span class="field"><b>${lab[1]}</b>${esc(q.ro)}</span></div>${q.adm?"":`<button class="flag" id="flagBtn" aria-pressed="${flagged(P,q.uid)}" title="ทำเครื่องหมายข้อที่ยังไม่มั่นใจ">⚑ ไม่มั่นใจ</button>`}</div>`;
   h+=`<p class="stem">${q.stem}</p>`;
   if(!q.img&&q.imgNote)h+=`<div class="img-missing">🖼 ${q.imgNote}</div>`;
   if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
@@ -299,7 +314,12 @@ function rQuiz(){
 }
 function paintNav(){
   const P=P_();let a=0,n=0;
-  if(view==="adm"){const A=P.adm,ok=A.ans!=null;$("pos").textContent=`ข้อที่ ${A.n+(ok?0:1)}`;$("prev").disabled=true;$("next").disabled=!ok;$("next").textContent=ok?(A.next?"ข้อต่อไป":admBusy?"กำลังสร้าง…":"ข้อต่อไป"):"ข้อต่อไป";$("prog").style.width="0";return;}
+  if(view==="exam"||view==="lrev"){const X=legPaper(),i=legIdx(),n=X.list.length;$("pos").textContent=`${i+1} / ${n}`;$("prev").disabled=i===0;$("next").disabled=false;
+    $("next").textContent=i===n-1?(view==="exam"?"ดูกระดาษคำตอบ":"กลับไปผลสอบ"):"ข้อถัดไป";
+    const a=view==="exam"?Object.keys(X.ans).length:X.score;$("count").textContent=`${a}/${n}`;$("prog").style.width=(view==="exam"?a/n*100:(i+1)/n*100)+"%";return;}
+  if(view==="admq"){const L_=bankItems("adm",ward),i=L_.findIndex(x=>x.key===st.admSel);$("pos").textContent=`${i+1} / ${L_.length}`;$("prev").disabled=i<=0;$("next").disabled=i>=L_.length-1;$("next").textContent="ข้อถัดไป";
+    const d=L_.filter(x=>x.a!=null);$("count").textContent=`${d.length}/${L_.length}`;$("prog").style.width="0";return;}
+  if(view==="adm"){const B=bankItems("adm",ward);$("count").textContent=`${B.filter(x=>x.a!=null).length}/${B.length}`;const A=P.adm,ok=A.ans!=null;$("pos").textContent=`ข้อที่ ${A.n+(ok?0:1)}`;$("prev").disabled=true;$("next").disabled=!ok;$("next").textContent=ok?(A.next?"ข้อต่อไป":admBusy?"กำลังสร้าง…":"ข้อต่อไป"):"ข้อต่อไป";$("prog").style.width="0";return;}
   if(isSess()){const s=P.sess;$("pos").textContent=`${s.cur+1} / ${s.list.length}`;$("prev").disabled=s.cur===0||!qNavOK(s.cur-1);$("next").disabled=s.cur<s.list.length-1?!qNavOK(s.cur+1):qLock();$("next").textContent=s.cur===s.list.length-1?"ดูสรุปรอบนี้":"ข้อถัดไป";n=s.list.length;a=Object.keys(s.ans).filter(u=>s.list.includes(u)).length;}
   else{const v=svcVisible(),q=svcQ(),i=v.findIndex(x=>x.uid===(q&&q.uid));$("pos").textContent=`${i>=0?i+1:"–"} / ${v.length}`;$("prev").disabled=v.length<2&&i>=0;$("next").disabled=v.length<2&&i>=0;$("next").textContent="ข้อถัดไป";
     const l=svcList();n=l.length;a=l.filter(x=>lockedAns(P,ph(),x.uid)!==undefined).length;}
@@ -319,6 +339,7 @@ function bindQuiz(q,locked){
 function confirmAns(){
   if(pick===null)return;const P=P_(),q=curQ(),p=isSess()?P.sess.ph:ph();
   if(view==="adm"){admAnswer(pick);return;}
+  if(view==="admq"){const it=bank[st.admSel];if(it){admBank(ward,it.q,pick);}rQuiz();return;}
   if(q.unit)(P.unit.att[q.uid]=P.unit.att[q.uid]||[]).push([pick,now()]);
   else (P.att[p][q.uid]=P.att[p][q.uid]||[]).push([pick,now()]);
   if(isSess()){const s=P.sess;s.ans[q.uid]=pick;s.ts=now();
@@ -329,6 +350,9 @@ function confirmAns(){
 }
 function step(d){
   if(view==="adm"){if(d>0)admNext();return;}
+  if(view==="exam"){const X=P_().leg;if(d>0&&X.cur===X.list.length-1){openS();return;}X.cur=Math.max(0,Math.min(X.list.length-1,X.cur+d));save();rExam();window.scrollTo(0,0);return;}
+  if(view==="lrev"){const X=legPaper(),i=legIdx()+d;if(i>=X.list.length){go(ward+"/lres");return;}st.legIdx=Math.max(0,i);persist();pick=null;rQuiz();window.scrollTo(0,0);return;}
+  if(view==="admq"){const L_=bankItems("adm",ward),i=L_.findIndex(x=>x.key===st.admSel)+d;if(i<0||i>=L_.length)return;st.admSel=L_[i].key;persist();pick=null;rQuiz();window.scrollTo(0,0);return;}
   if(isSess()){const s=P_().sess;const to=s.cur+d;if(to>=0&&to<s.list.length&&!qNavOK(to)){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}if(d>0&&s.cur===s.list.length-1&&qLock()){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}}
   pick=null;
   if(isSess()){const s=P_().sess;if(d>0&&s.cur===s.list.length-1){go(ward+"/result");return;}s.cur=Math.max(0,Math.min(s.list.length-1,s.cur+d));s.ts=now();save();rQuiz();window.scrollTo(0,0);return;}
@@ -336,17 +360,19 @@ function step(d){
   const nx=d>0?v.find(x=>x.id>q.id):[...v].reverse().find(x=>x.id<q.id);
   const t=nx||(d>0?v[0]:v[v.length-1]);if(t.uid!==q.uid){svcS().cur=t.uid;save();rQuiz();window.scrollTo(0,0);}
 }
-$("prev").onclick=()=>step(-1);$("next").onclick=()=>step(1);
+$("prev").onclick=()=>step(-1);$("next").onclick=()=>step(1);$("exSub").onclick=()=>legAskSubmit();
 
 function explain(q,done,R,p){
   const ok=done===q.ans,skip=done!=null&&done<0,P=P_(),W=W_(),s=isSess()?P.sess:null,adv=isAdv();
   let h=`<section class="exp" aria-live="polite">`;
   if(adv&&done==null)h+=`<div class="verdict"><span class="v new">ยังไม่เคยทำ</span><span class="ans">เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
+  else if(view==="lrev"&&done===-2)h+=`<div class="verdict"><span class="v new">ไม่ได้ทำ</span><span class="ans">ข้อนี้ไม่ได้ตอบในการสอบ · เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
   else h+=`<div class="verdict"><span class="v ${ok?"ok":"no"}">${ok?"ถูก":skip?"หมดเวลา":"ผิด"}</span><span class="ans">${adv?"ครั้งล่าสุด · ":""}${ok?"":skip?"ไม่ได้ตอบ · ":`คุณตอบ ${L[done]} · `}เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
   h+=`<div class="tagline">`;
   if(q.rep)h+=`<span class="tag rep">repeated x${q.rep}</span>`;
+  if(view==="lrev"){const X=legPaper();if(X.star[q.uid])h+=`<span class="tag starTag">★ ติดดาวไว้ตอนสอบ</span>`;}
   if(adv)h+=advResetBtn(q);
-  else if(!q.adm)h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
+  else if(!q.adm&&view!=="lrev")h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
   if(s&&s.kind==="morning")h+=`<span class="tag rep">ที่มา: ${q.unit?`Unit round — ${esc((W.byLec[q.unit]||{}).title||q.set)} (นับว่าเจอข้อนี้แล้ว)`:`ข้อสอบเก่า (AC) ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id} ในคลัง`}</span>`;
   if(q.unit){const Lc=W.byLec[q.unit]||{},n=uAtts(P,q.uid).length;h+=`<span class="tag">Unit round · ${esc(Lc.title||q.set)}${Lc.src?` · จาก ${esc(Lc.src)}`:""}</span><span class="tag">เจอข้อนี้มาแล้ว ${n} ครั้ง (รวมครั้งนี้)</span>`;}
   else if(q.adm)h+=`<span class="tag">Admission round · เคสที่ AI สร้างใหม่${q.topic?` · ${esc(q.topic)}`:""}</span>`;
@@ -702,25 +728,28 @@ function admMsg(e){const c=e&&e.code;
   return ({network:"เชื่อมต่อ AI ไม่ได้ ตรวจอินเทอร์เน็ตแล้วลองใหม่",not_granted:"ยังไม่ได้อนุญาตให้หน้านี้ใช้ Claude — เปิดหน้านี้ใหม่แล้วกดอนุญาต",sampling_disabled:"บัญชีนี้ใช้ Claude จากหน้านี้ไม่ได้",rate_limited:"ใช้ Claude ถี่เกินไปหรือครบโควตาแล้ว ลองใหม่ภายหลัง",session_expired:"ต้องเข้าสู่ระบบ Claude ใหม่",invalid_json:"AI ตอบกลับมาในรูปแบบที่อ่านไม่ได้ ลองใหม่อีกครั้ง",bad:"โจทย์ที่ได้ไม่ครบ ลองใหม่อีกครั้ง",refused:"AI ไม่ยอมสร้างโจทย์ข้อนี้ ลองใหม่อีกครั้ง",cancelled:"ยกเลิกแล้ว"})[c]||"สร้างโจทย์ไม่สำเร็จ ลองใหม่อีกครั้ง";}
 async function admRun(target){
   if(admBusy)return;admBusy=true;admErr="";const wid=ward;if(view==="adm")(P_().adm.cur?paintNav():rAdm());
-  try{const q=await admGen(WARDS[wid]);const A=PWof(st,wid).adm;if(target==="cur"||!A.cur){A.cur=q;A.ans=null;}else A.next=q;A.ts=now();save();}
+  try{const q=await admGen(WARDS[wid]);const A=PWof(st,wid).adm;if(target==="cur"||!A.cur){A.cur=q;A.ans=null;admBank(wid,q,null);}else A.next=q;A.ts=now();save();}
   catch(e){console.warn("admission",e);admErr=admMsg(e);if(e&&e.code==="no_ai")admSetup=true;}
   admBusy=false;if(view==="adm"&&ward===wid){const A=P_().adm;if(A.cur&&A.ans!=null){paintNav();if(admErr)toast(admErr);}else rAdm();}}
-function admAnswer(i){const A=P_().adm;if(!A.cur||A.ans!=null)return;A.ans=i;A.n=(A.n||0)+1;if(i===A.cur.ans)A.right=(A.right||0)+1;
+function admBank(wid,q,a){const k="adm|"+wid+"|"+q.uid,o=bank[k];bankPut(k,{q,a,c:o&&o.c});}
+function admAnswer(i){const A=P_().adm;if(!A.cur||A.ans!=null)return;A.ans=i;A.n=(A.n||0)+1;if(i===A.cur.ans)A.right=(A.right||0)+1;admBank(ward,A.cur,i);
   A.recent=(A.recent||[]).concat(A.cur.topic||[]).slice(-25);A.ts=now();save();rQuiz();
   const e=document.querySelector(".exp");if(e)setTimeout(()=>e.scrollIntoView({behavior:"smooth",block:"start"}),60);
   if(!A.next)admRun("next");}
 function admNext(){const A=P_().adm;if(A.ans==null)return;
-  if(A.next){A.cur=A.next;A.next=null;A.ans=null;A.ts=now();save();pick=null;rAdm();window.scrollTo(0,0);}
+  if(A.next){A.cur=A.next;A.next=null;A.ans=null;A.ts=now();admBank(ward,A.cur,null);save();pick=null;rAdm();window.scrollTo(0,0);}
   else if(admBusy)toast("กำลังสร้างข้อต่อไป รอสักครู่…");
   else{A.cur=null;A.ans=null;admErr="";save();rAdm();}}
 function rAdm(){
   const W=W_(),A=P_().adm;
-  if(!admSetup&&A.cur&&A.ans!=null&&A.next){A.cur=A.next;A.next=null;A.ans=null;A.ts=now();save();}   /* came back after answering → the next case */
+  if(!admSetup&&A.cur&&A.ans!=null&&A.next){A.cur=A.next;A.next=null;A.ans=null;A.ts=now();admBank(ward,A.cur,null);save();}   /* came back after answering → the next case */
+  if(A.cur&&!bank["adm|"+ward+"|"+A.cur.uid])admBank(ward,A.cur,A.ans);   /* cases made before the bank existed */
   if(!admSetup&&A.cur){$("nav").hidden=false;pick=null;rQuiz();if(!HAS_CLAUDE()){const sb=document.querySelector(".sessbar");if(sb)sb.insertAdjacentHTML("beforeend",` · <button class="linkbtn" id="admSet" style="font-size:13px;padding:0">ตั้งค่า AI</button>`);const b=$("admSet");if(b)b.onclick=()=>{admSetup=true;rAdm();};}return;}
   $("nav").hidden=true;
-  let h=`<h1 class="h2">Admission round</h1><p class="sub">เคสใหม่ที่ AI สร้างขึ้นทีละข้อ เนื้อหา ${esc(W.cfg.name)} เหมาะกับนิสิตแพทย์${yearTxt()} — ข้อเดิมจะอยู่จนกว่าจะตอบ ตอบแล้วสร้างข้อใหม่ให้ทันที ไม่มีคลังข้อสอบ</p>`;
+  let h=`<h1 class="h2">Admission round</h1><p class="sub">เคสใหม่ที่ AI สร้างขึ้นทีละข้อ เนื้อหา ${esc(W.cfg.name)} เหมาะกับนิสิตแพทย์${yearTxt()} — ข้อเดิมจะอยู่จนกว่าจะตอบ ตอบแล้วสร้างข้อใหม่ให้ทันที · ทุกเคสเก็บไว้ในคลังของคุณ ดูย้อนหลังได้จากกระดาษคำตอบ</p>`;
   if(admBusy){h+=`<div class="card"><h3>กำลังสร้างเคสใหม่…</h3><span class="rd" style="margin:0">ใช้เวลาประมาณ 10–60 วินาที</span><div class="spin" aria-hidden="true"></div></div>`;$("main").innerHTML=h;return;}
-  h+=`<div id="admBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;$("main").innerHTML=h;
+  {const B=bankItems("adm",ward);if(B.length){const d=B.filter(x=>x.a!=null),r=d.filter(x=>x.a===x.q.ans);h+=`<div class="card"><h3>คลัง Admission ของฉัน</h3><span class="rd">เคสที่ AI เคยสร้างให้ ${B.length} ข้อ · ตอบแล้ว ${d.length} · ถูก ${r.length} — เปิดดูโจทย์และเฉลยเก่าได้ตลอด แม้ตอนสร้างข้อใหม่ไม่ได้</span><button class="btn" id="admBankBtn">📋 เปิดกระดาษคำตอบ</button></div>`;}}
+  h+=`<div id="admBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;$("main").innerHTML=h;{const bb=$("admBankBtn");if(bb)bb.onclick=openS;}
   aiMode().then(mode=>{const box=$("admBox");if(!box||view!=="adm")return;
     if(mode&&!admSetup&&!admErr){admRun("cur");return;}
     let x="";
@@ -835,11 +864,11 @@ function advPrompt(q){const W=W_(),P=P_(),h=hist(P,q.uid,P.sess.hp,true),c=n=>t=
   q.guide?`Guideline ที่คลังอ้าง: ${plain(q.guide)}`:"",`คำอธิบายในคลัง: ${c(1500)(q.why)}`,
   `ทำไมข้ออื่นผิด: ${Object.keys(q.wrong||{}).sort().map(k=>k+": "+c(300)(q.wrong[k])).join(" / ")}`,q.trap?`กับดัก: ${c(400)(q.trap)}`:"",
   "",`เขียนคำแนะนำเฉพาะตัวสำหรับนิสิตคนนี้ เป็นภาษาไทยปนศัพท์แพทย์ภาษาอังกฤษ สั้นกระชับ 4–7 bullet (ขึ้นต้นด้วย "- ") ได้แก่ ความคิดแบบไหนที่น่าจะทำให้เลือกช้อยที่เคยเลือก (ถ้าเคยผิด) และกฎ/จุดแยกที่ทำให้รู้ว่าเฉลยถูก วิธีจำ และเรื่องที่ควรไปอ่านต่อ ถ้าตอบถูกทุกครั้งให้แนะนำว่าควรต่อยอดเรื่องไหน ห้ามแต่งตัวเลขหรือแหล่งอ้างอิงที่ไม่มีจริง ถ้าคิดว่าเฉลยในคลังอาจผิดให้บอกพร้อมเหตุผล ใช้ **ตัวหนา** ได้ ไม่ต้องมีหัวข้อหรือคำเกริ่น`].filter(Boolean).join("\n");}
-async function aiText(pr,onText){
+async function aiText(pr,onText,maxTok){
   const mode=await aiMode();if(!mode)throw {code:"no_ai"};
   if(mode==="claude"){const smp=await window.claude.use("sample");const r=await smp(pr,{modelTier:"default",onText:onText?(u=>onText(u.text)):undefined});return r.text;}
   const c=aiCfg();let r;
-  try{r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":c.key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},body:JSON.stringify({model:c.model||"claude-sonnet-5-5",max_tokens:4096,messages:[{role:"user",content:pr}]})});}
+  try{r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":c.key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},body:JSON.stringify({model:c.model||"claude-sonnet-5-5",max_tokens:maxTok||4096,messages:[{role:"user",content:pr}]})});}
   catch(e){throw {code:"network"};}
   const j=await r.json().catch(()=>null);if(!r.ok)throw {code:"api",status:r.status,message:j&&j.error&&j.error.message||""};
   const t=((j&&j.content)||[]).filter(x=>x.type==="text").map(x=>x.text).join("");if(!t.trim())throw {code:"empty"};return t;}
@@ -937,6 +966,197 @@ ${wq||"(ยังไม่มี)"}
 ## แผนสั้น ๆ — ลำดับการทบทวนที่แนะนำ
 ใช้ bullet ขึ้นต้นด้วย "- " และ **ตัวหนา** ได้ ห้ามแต่งตัวเลขหรือแหล่งอ้างอิงที่ไม่มีจริง ไม่ต้องมีคำเกริ่นหรือคำลงท้าย`;}
 
+/* ---------------- Admission bank: answer sheet of every case the AI made ---------------- */
+function admSheet(){
+  const A=P_().adm,B=bankItems("adm",ward),f=st.admF||"all";
+  $("sheetTitle").textContent="กระดาษคำตอบ · Admission round";$("setChips").innerHTML="";
+  $("statusChips").innerHTML=[["all","ทั้งหมด"],["wrong","ตอบผิด"],["right","ตอบถูก"],["todo","ยังไม่ตอบ"]].map(([v,t])=>`<button class="chip" aria-pressed="${f===v}" data-af="${v}">${t}</button>`).join("");
+  document.querySelectorAll("[data-af]").forEach(b=>b.onclick=()=>{st.admF=b.dataset.af;persist();sheet();});
+  const d=B.filter(x=>x.a!=null),r=d.filter(x=>x.a===x.q.ans);stats(d.length,B.length,r.length);
+  const v=B.map((x,i)=>[x,i]).filter(([x])=>f==="wrong"?x.a!=null&&x.a!==x.q.ans:f==="right"?x.a===x.q.ans:f==="todo"?x.a==null:true);
+  rows(v.map(([x,i])=>({q:Object.assign({},x.q,{id:i+1,set:x.q.topic||"Case",ro:""}),a:x.a==null?undefined:x.a,cur:view==="admq"?x.key===st.admSel:!!(A.cur&&A.cur.uid===x.q.uid),meta:fmtD(x.c)+" · ",
+    go:()=>{st.admSel=x.key;persist();pick=null;if(A.cur&&A.cur.uid===x.q.uid&&A.ans==null)go(ward+"/adm");else go(ward+"/admq");}})).reverse(),B.length?"ไม่มีข้อที่ตรงกับตัวกรองนี้":"ยังไม่มีเคสในคลัง — เริ่ม Admission round เพื่อให้ AI สร้างเคสแรก");
+  $("sheetFoot").innerHTML=`<span class="hint">เรียงจากเคสล่าสุด · ทุกเคสที่ AI สร้างเก็บไว้ในคลังของคุณ (ย้ายระหว่างเว็บกับ Claude ด้วย “ไฟล์สำรอง” ในหน้าวอร์ด)</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span>${view==="admq"?`<button class="link" id="toAdm">กลับไปข้อปัจจุบัน</button>`:""}`;
+  const ta=$("toAdm");if(ta)ta.onclick=()=>{closeS(true);go(ward+"/adm");};
+  paintSync();
+}
+
+/* ---------------- Legendary round: real exam simulation (count + time per ward: config wards[].exam.MCQ = {n, min}) ---------------- */
+const examCfg=()=>{const e=((W_()||{}).cfg||{}).exam;const m=e&&e.MCQ;return m&&m.n&&m.min?m:null;};
+const GRADES=[[85,"A"],[80,"B+"],[75,"B"],[70,"C+"],[65,"C"],[60,"D+"],[55,"D"],[-1,"F"]];   /* <55 F, ≥85 A, the rest split evenly (5% each) */
+const gradeOf=pct=>GRADES.find(g=>pct>=g[0])[1];
+const gCls=g=>g==="A"?"ga":g[0]==="B"?"gb":g[0]==="C"?"gc":g[0]==="D"?"gd":"gf";
+const fmtDT=t=>{const d=new Date(t);return fmtD(t)+" "+String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0");};
+function rLegend(){
+  const W=W_(),P=P_(),E=examCfg(),QB=W.QB;
+  let h=`<h1 class="h2">Legendary round</h1><p class="sub">จำลองสอบจริง จำนวนข้อและเวลาเท่ากับสอบจริงของวอร์ดนี้ ทำรวดเดียวโดยไม่เฉลยทีละข้อ ส่งแล้วได้เกรดทันที · หมดเวลาระบบส่งให้เอง ข้อที่ยังไม่ทำนับเป็นไม่ได้คะแนน</p>`;
+  if(!E){h+=`<div class="card"><h3>ยังไม่ได้ตั้งค่าการสอบจริงของวอร์ดนี้</h3><span class="rd" style="margin:0">บอก Claude ว่าวอร์ดนี้สอบ MCQ กี่ข้อ กี่นาที แล้วจะเปิด Legendary round ให้</span></div>`;$("main").innerHTML=h;return;}
+  const n=Math.min(E.n,QB.length),L_=P.leg;
+  if(L_){const a=Object.keys(L_.ans).length,s=Object.keys(L_.star).filter(u=>L_.star[u]).length;
+    h+=`<button class="resume" id="lgResume"><span>กำลังสอบอยู่ · <b>เหลือเวลา <span id="lgLeft">${hms(L_.end-now())}</span></b><span class="rd">ตอบแล้ว ${a}/${L_.list.length} ข้อ${s?` · ★ ${s}`:""} · เวลาเดินต่อแม้ปิดหน้า เหมือนสอบจริง</span></span><span class="go">→</span></button>`;}
+  else{const pool=st.legPool==="fresh"?"fresh":"all";
+    h+=`<div class="card"><h3>MCQ ${n} ข้อ · ${E.min} นาที</h3><span class="rd">เหมือนสอบจริงของ ${esc(W.cfg.short||W.cfg.name)}${n<E.n?` (คลังมี ${QB.length} ข้อ จึงใช้ทั้งหมด)`:""} · เปลี่ยนคำตอบได้จนหมดเวลา · กด ☆ ติดดาวข้อที่อยากกลับมาดู · ส่งแล้วจะเห็นเกรดก่อน แล้วค่อยเลือกดู Short answer paper หรือ Long explanation</span>
+    <div class="lbl" style="margin-top:4px">เลือกข้อสอบจาก</div><div class="chips" id="lgPool">${[["all","สุ่มจากทั้งคลัง"],["fresh","เน้นข้อที่ยังไม่เคยทำ"]].map(([v,t])=>`<button class="chip" data-v="${v}" aria-pressed="${pool===v}">${t}</button>`).join("")}</div>
+    <div class="row2"><span class="spacer"></span><button class="btn primary" id="lgGo">เริ่มสอบ</button></div></div>`;}
+  const H=bankItems("leg",ward).reverse();
+  if(H.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">ผลสอบที่ผ่านมา</h2><div class="card" style="padding:6px">${H.map(x=>`<button class="srow" data-lk="${esc(x.key)}"><span class="lgg ${gCls(x.grade)}">${esc(x.grade)}</span><span class="meta" style="flex:1">${fmtDT(x.t1)} · ${x.n} ข้อ${x.auto?" · หมดเวลา":""}</span><span class="go">→</span></button>`).join("")}</div>`;
+  $("main").innerHTML=h;
+  const r=$("lgResume");if(r){r.onclick=()=>go(ward+"/exam");const el=$("lgLeft");show._t=setInterval(()=>{if(!document.body.contains(el)){clearInterval(show._t);return;}el.textContent=hms(P.leg?P.leg.end-now():0);},1000);}
+  document.querySelectorAll("#lgPool [data-v]").forEach(b=>b.onclick=()=>{st.legPool=b.dataset.v;persist();rLegend();});
+  const g=$("lgGo");if(g)g.onclick=()=>{if(!confirm(`เริ่มสอบ ${n} ข้อ เวลา ${E.min} นาที?\nเวลาจะเดินทันทีและเดินต่อแม้ออกจากหน้านี้`))return;legStart(st.legPool==="fresh"?"fresh":"all");};
+  document.querySelectorAll("[data-lk]").forEach(b=>b.onclick=()=>{st.legSel=b.dataset.lk;st.legMode="grade";persist();go(ward+"/lres");});
+}
+function legStart(pool){
+  const W=W_(),P=P_(),E=examCfg(),p=ph();let qs=shuffle(W.QB);
+  if(pool==="fresh")qs=qs.filter(q=>!atts(P,p,q.uid).length).concat(qs.filter(q=>atts(P,p,q.uid).length));
+  const n=Math.min(E.n,qs.length),t=now();
+  P.leg={id:t.toString(36),list:shuffle(qs.slice(0,n)).map(q=>q.uid),ans:{},star:{},cur:0,t0:t,end:t+E.min*60000,min:E.min,ph:p};qStop();save();go(ward+"/exam");
+}
+function legPick(i){const X=P_().leg;if(!X)return;const u=X.list[X.cur];if(X.ans[u]===i)delete X.ans[u];else X.ans[u]=i;save();rExam();}
+function rExam(){
+  const W=W_(),P=P_(),X=P.leg;if(!X){go(ward+"/legend");return;}
+  const i=X.cur,q=W.byU[X.list[i]];if(!q){$("main").innerHTML=`<div class="empty">ไม่พบข้อนี้ในคลัง</div>`;paintNav();return;}
+  const a=X.ans[q.uid],sd=!!X.star[q.uid],nA=Object.keys(X.ans).length,nS=Object.keys(X.star).filter(u=>X.star[u]).length;
+  $("exT").textContent=hms(X.end-now());$("exN").innerHTML=`ตอบแล้ว <b>${nA}</b>/${X.list.length}${nS?` · ★ ${nS}`:""}`;
+  let h=`<div class="qhead"><div class="qnum">${i+1}.</div><div class="fields"><span class="field"><b>Legendary</b>${esc(W.cfg.short||"")}</span></div><button class="flag star" id="starBtn" aria-pressed="${sd}" title="ติดดาวไว้กลับมาดู">${sd?"★ ติดดาวแล้ว":"☆ ติดดาว"}</button></div>`;
+  h+=`<p class="stem">${q.stem}</p>`;
+  if(!q.img&&q.imgNote)h+=`<div class="img-missing">🖼 ${q.imgNote}</div>`;
+  if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
+  /* the original recall text (gray) is left out during the exam — it often carries the note-taker's hints; it shows again in the explanations */
+  h+=`<ul class="opts" role="radiogroup" aria-label="ตัวเลือก">${q.opts.map((o,j)=>`<li class="opt${a===j?" sel":""}" role="radio" tabindex="0" aria-checked="${a===j}" data-i="${j}"><span class="bub">${L[j]}</span><span class="txt">${esc(o)}</span></li>`).join("")}</ul>`;
+  h+=`<div class="actions"><span class="hint">แตะช้อยเพื่อเลือก แตะซ้ำเพื่อยกเลิก เปลี่ยนได้จนกว่าจะส่ง · กด A–E ได้</span></div>`;
+  $("main").innerHTML=h;
+  document.querySelectorAll(".opt").forEach(el=>{const f=()=>legPick(+el.dataset.i);el.onclick=f;el.onkeydown=e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();f();}};});
+  $("starBtn").onclick=()=>{if(X.star[q.uid])delete X.star[q.uid];else X.star[q.uid]=1;save();rExam();};
+  paintNav();
+}
+function legAskSubmit(){const X=P_().leg;if(!X)return;const n=X.list.length,a=Object.keys(X.ans).length,s=Object.keys(X.star).filter(u=>X.star[u]).length;
+  if(!confirm(`ส่งข้อสอบ?\nตอบแล้ว ${a}/${n} ข้อ${n-a?` · ยังไม่ได้ทำ ${n-a} ข้อ`:""}${s?` · ติดดาวไว้ ${s} ข้อ`:""}\nเหลือเวลา ${hms(X.end-now())}`))return;closeS(true);legSubmit(ward,false);}
+function legSubmit(wid,auto){
+  const P=PWof(st,wid),X=P.leg,W=WARDS[wid];if(!X||!W)return;const t=Math.min(now(),X.end);let score=0;
+  X.list.forEach(u=>{const q=W.byU[u],a=X.ans[u];if(q&&a!=null){if(a===q.ans)score++;(P.att[X.ph][u]=P.att[X.ph][u]||[]).push([a,t]);}});
+  const n=X.list.length,pct=n?score/n*100:0,k="leg|"+wid+"|"+X.id;
+  bankPut(k,{list:X.list,ans:X.ans,star:X.star,n,score,pct,grade:gradeOf(pct),t0:X.t0,t1:t,min:X.min,auto:!!auto,ph:X.ph});
+  P.leg=null;st.legSel=k;st.legMode="grade";save();
+  if(ward===wid&&["exam","legend","lres"].includes(view))go(wid+"/lres");
+  else{toast("หมดเวลา Legendary round — ระบบส่งข้อสอบให้แล้ว ดูผลได้ที่ Legendary round");if(view==="home"&&ward===wid)rHome();}
+}
+setInterval(()=>{WL.forEach(w=>{const P=st.w[w.id];if(P&&P.leg&&now()>=P.leg.end)legSubmit(w.id,true);});const el=$("exT");if(el&&view==="exam"&&P_().leg){const left=P_().leg.end-now();el.textContent=hms(left);el.classList.toggle("low",left<5*60e3);}},1000);
+function legSheet(){
+  const W=W_(),X=legPaper(),ex=view==="exam",f=st.legF||"all";
+  $("sheetTitle").textContent=ex?"กระดาษคำตอบ · Legendary round":`กระดาษคำตอบ · เกรด ${X.grade}`;$("setChips").innerHTML="";
+  const FS=ex?[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["star","★ ติดดาว"]]:[["all","ทั้งหมด"],["wrong","ผิด"],["todo","ไม่ได้ทำ"],["star","★ ติดดาว"]];if(!FS.some(x=>x[0]===f))st.legF="all";
+  $("statusChips").innerHTML=FS.map(([v,t])=>`<button class="chip" aria-pressed="${(st.legF||"all")===v}" data-lf="${v}">${t}</button>`).join("");
+  document.querySelectorAll("[data-lf]").forEach(b=>b.onclick=()=>{st.legF=b.dataset.lf;persist();sheet();});
+  const qs=X.list.map(u=>W.byU[u]),nA=Object.keys(X.ans).length,nS=Object.keys(X.star).filter(u=>X.star[u]).length,ff=st.legF||"all";
+  if(ex){statLabels(["ตอบแล้ว","ติดดาว","เหลือเวลา"]);$("sDone").textContent=`${nA}/${X.list.length}`;$("sRight").textContent="★ "+nS;$("sPct").textContent=mmss((X.end-now())/1000);}
+  else stats(nA,X.list.length,X.score);
+  const v=qs.map((q,i)=>[q,i]).filter(([q])=>{if(!q)return false;const a=X.ans[q.uid];return ff==="todo"?a==null:ff==="star"?!!X.star[q.uid]:ff==="wrong"?a!=null&&a!==q.ans:true;});
+  const cur=legIdx();
+  if(ex){$("rows").innerHTML=v.length?v.map(([q,i])=>{const a=X.ans[q.uid];return `<button class="srow${i===cur?" cur":""}" data-xi="${i}"><span class="n">${i+1}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b${a===j?" f":""}">${L[j]}</span>`).join("")}</span><span class="meta">${X.star[q.uid]?"★":""}${a==null?" ยังไม่ทำ":""}</span></button>`;}).join(""):`<div class="empty">ไม่มีข้อที่ตรงกับตัวกรองนี้</div>`;
+    document.querySelectorAll("[data-xi]").forEach(b=>b.onclick=()=>{closeS();X.cur=+b.dataset.xi;save();rExam();window.scrollTo(0,0);});
+    $("sheetFoot").innerHTML=`<span class="hint">ยังไม่เฉลยจนกว่าจะส่ง · ★ = ติดดาวไว้</span><span class="spacer"></span><button class="btn primary" id="sheetSub" type="button">ส่งข้อสอบ</button>`;$("sheetSub").onclick=legAskSubmit;return;}
+  rows(v.map(([q,i])=>({q:Object.assign({},q,{id:i+1}),a:X.ans[q.uid]==null?-2:X.ans[q.uid],cur:i===cur,meta:(X.star[q.uid]?"★ ":"")+(X.ans[q.uid]==null?"ไม่ได้ทำ · ":""),go:()=>{st.legIdx=i;persist();pick=null;rQuiz();window.scrollTo(0,0);}})),"ไม่มีข้อที่ตรงกับตัวกรองนี้");
+  $("sheetFoot").innerHTML=`<span class="hint">เส้นเขียวรอบวง = เฉลย · ★ = ติดดาวไว้ตอนสอบ</span><span class="spacer"></span><button class="link" id="toLres">กลับไปผลสอบ</button>`;$("toLres").onclick=()=>{closeS(true);go(ward+"/lres");};
+}
+function rLRes(){
+  const W=W_(),X=bank[st.legSel];if(!X){go(ward+"/legend");return;}const mode=st.legMode==="short"?"short":"grade";
+  const qs=X.list.map(u=>W.byU[u]).filter(Boolean),nA=qs.filter(q=>X.ans[q.uid]!=null).length,nS=qs.filter(q=>X.star[q.uid]).length,used=Math.round((X.t1-X.t0)/1000);
+  let h=`<h1 class="h2">ผล Legendary round</h1><p class="sub">${fmtDT(X.t1)} · MCQ ${X.n} ข้อ · ${X.auto?`หมดเวลา ${X.min} นาที ระบบส่งให้`:`ใช้เวลา ${mmss(used)} จาก ${X.min} นาที`}</p>`;
+  h+=`<div class="gradebox ${gCls(X.grade)}"><span class="k">เกรด</span><span class="g">${esc(X.grade)}</span></div>`;
+  h+=`<div class="row2 center"><button class="btn${mode==="short"?" primary":""}" id="lrShort" type="button">Short answer paper</button><button class="btn" id="lrLong" type="button">Long explanation</button></div>`;
+  if(mode==="short"){const f=st.lrF||"all",wr=qs.filter(q=>X.ans[q.uid]!=null&&X.ans[q.uid]!==q.ans).length;
+    h+=`<div class="score">${X.score}<span style="font-size:22px;color:var(--muted)"> / ${X.n}</span></div><p class="statline" style="text-align:center"><b>${X.pct.toFixed(1)}%</b> · ถูก ${X.score} · ผิด ${wr} · ไม่ได้ทำ ${X.n-nA}${nS?` · ★ ${nS}`:""}</p>`;
+    h+=`<p class="hint" style="text-align:center">เกณฑ์: A ≥85% · B+ 80 · B 75 · C+ 70 · C 65 · D+ 60 · D 55 · F &lt;55%</p>`;
+    h+=`<div class="chips" id="lrF">${[["all","ทั้งหมด"],["wrong","ผิด"],["todo","ไม่ได้ทำ"],["star","★ ติดดาว"]].map(([v,t])=>`<button class="chip" data-v="${v}" aria-pressed="${f===v}">${t}</button>`).join("")}</div>`;
+    const v=X.list.map((u,i)=>[W.byU[u],i]).filter(([q])=>{if(!q)return false;const a=X.ans[q.uid];return f==="wrong"?a!=null&&a!==q.ans:f==="todo"?a==null:f==="star"?!!X.star[q.uid]:true;});
+    h+=`<div class="card" style="padding:6px;margin-top:10px"><div class="rows" style="padding:0">${v.map(([q,i])=>{const a=X.ans[q.uid],nd=a==null;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");return `<button class="srow" data-li="${i}"><span class="n">${i+1}</span><span class="bs">${bs}</span><span class="meta">${X.star[q.uid]?"★ ":""}${nd?"ไม่ได้ทำ":a===q.ans?"✓":"✗"}</span></button>`;}).join("")||`<div class="empty">ไม่มีข้อที่ตรงกับตัวกรองนี้</div>`}</div></div><p class="hint">แตะข้อไหนก็ได้เพื่อดูเฉลยละเอียดของข้อนั้น</p>`;}
+  else h+=`<p class="hint" style="text-align:center">ดูคะแนนและข้อที่ถูก/ผิดใน Short answer paper หรืออ่านเฉลยทีละข้อใน Long explanation</p>`;
+  h+=`<div class="stack" style="margin-top:14px"><button class="btn ghost" id="lrBack" type="button">กลับ Legendary round</button></div>`;
+  $("main").innerHTML=h;
+  $("lrShort").onclick=()=>{st.legMode="short";persist();rLRes();};
+  $("lrLong").onclick=()=>{st.legMode="short";st.legIdx=0;persist();go(ward+"/lrev");};
+  $("lrBack").onclick=()=>go(ward+"/legend");
+  document.querySelectorAll("#lrF [data-v]").forEach(b=>b.onclick=()=>{st.lrF=b.dataset.v;persist();rLRes();});
+  document.querySelectorAll("[data-li]").forEach(b=>b.onclick=()=>{st.legIdx=+b.dataset.li;persist();go(ward+"/lrev");});
+}
+
+/* ---------------- Long case round: chief complaint → 8 stages, answer then reveal (MEQ style); AI writes the case ---------------- */
+const LCS=[["hx","1. History taking","ซักประวัติ present illness, past history และประวัติอื่น ๆ — จะถามอะไรบ้าง เพราะอะไร"],["pe","2. Physical examination","จะตรวจร่างกายอะไรบ้าง มองหาอะไร"],["ddx","3. Differential diagnoses","DDx มีอะไรบ้าง และ most likely diagnosis คืออะไร เพราะอะไร"],["lab","4. Lab investigation","จะส่งตรวจอะไรบ้าง เพื่ออะไร"],["dx","5. Definite diagnosis","วินิจฉัยสุดท้ายคืออะไร (รวม staging/classification ถ้ามี)"],["init","6. Initial management","จะจัดการเบื้องต้นอย่างไร"],["tx","7. Specific, symptomatic, supportive treatment","รักษาจำเพาะ รักษาตามอาการ และ supportive อย่างไร"],["fu","8. Plan follow up","วางแผนติดตามอย่างไร"]];
+let lcBusy=false,lcErr="",lcFbBusy=false;
+function lcPrompt(W){const w=W.cfg,y=yrN(),yr=y?ord(y)+"-year":"clinical-year",recent=bankItems("lc",ward).slice(-12).map(x=>x.case.topic).join("; ");
+  return `Write ONE realistic long-case examination case for ${yr} medical students at Chulalongkorn University (MDCU), Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
+Scope (stay inside it): ${w.scope||w.name}. Choose a disease commonly seen or important in a Thai teaching hospital. Avoid these recent topics: ${recent||"none"}.
+The student will work through the case step by step like a long-case exam; at each stage they write their answer first, then your text for that stage is revealed (MEQ style). Do not reveal the diagnosis before stage 3.
+
+Reply with only a JSON object:
+{"topic":"short English topic label (the final diagnosis, hidden from the student until the end)",
+ "intro":"English: patient identification (age, sex, occupation, province) + chief complaint with duration, one or two sentences, no diagnosis",
+ "stages":[ exactly 8 objects in this order, each {"k":"<hx|pe|ddx|lab|dx|init|tx|fu>","info":"…","answer":"…"} ],
+ "pearls":["4–6 Thai take-home points"],
+ "guide":"main guideline or textbook with year, or empty string"}
+Stage content:
+- hx: info = the full history the patient gives when asked well (present illness with timeline, pertinent positives and negatives, past history, drugs, allergy, family, social, systemic review) in English; answer = Thai: what should be asked and why, which findings matter.
+- pe: info = vital signs and examination findings in English; answer = Thai: what to examine and how to interpret the findings.
+- ddx: info = ""; answer = Thai: 3–5 differential diagnoses with points for and against, then the most likely diagnosis.
+- lab: info = investigation results in English (values with units; imaging/pathology reports as text); answer = Thai: which investigations and why, interpretation.
+- dx: info = ""; answer = Thai: definite diagnosis with classification, staging or severity.
+- init: info = ""; answer = Thai: initial management in order of priority.
+- tx: info = ""; answer = Thai: specific, symptomatic and supportive treatment, including operation choice if relevant.
+- fu: info = ""; answer = Thai: follow-up plan, monitoring, complications to watch, patient education.
+Thai text may mix English medical terms. Use "\\n- " bullets inside answers for lists. No hints of the diagnosis in intro, hx info or pe info beyond what a real patient would show. Do not invent guideline names or numbers you are unsure of.`;}
+function lcCheck(o){if(!o||typeof o!=="object"||!Array.isArray(o.stages)||o.stages.length<8||!o.intro)throw {code:"bad"};
+  const st_=LCS.map(([k],i)=>{const x=o.stages.find(s=>s&&s.k===k)||o.stages[i]||{};return {k,info:String(x.info||""),answer:String(x.answer||"")};});
+  if(st_.some(x=>!x.answer))throw {code:"bad"};
+  return {topic:String(o.topic||"").slice(0,80),intro:String(o.intro),stages:st_,pearls:(Array.isArray(o.pearls)?o.pearls:[]).map(String),guide:String(o.guide||"").slice(0,300)};}
+async function lcGen(){const mode=await aiMode();if(!mode)throw {code:"no_ai"};const pr=lcPrompt(W_());let o;
+  if(mode==="claude"){const smp=await window.claude.use("sample");o=await smp.json(pr,{modelTier:"default",cache:false});}
+  else{const t=await aiText(pr,null,12000);const a=t.indexOf("{"),b=t.lastIndexOf("}");if(a<0||b<a)throw {code:"invalid_json"};try{o=JSON.parse(t.slice(a,b+1));}catch(e){throw {code:"invalid_json"};}}
+  return lcCheck(o);}
+const lcCur=()=>{const k=P_().lcCur;return k&&bank[k]?Object.assign({key:k},bank[k]):null;};
+function lcSave(x){const k=x.key;const v=Object.assign({},x);delete v.key;bankPut(k,v);}
+function rLCase(){
+  const W=W_(),P=P_();let x=st.lcView&&bank[st.lcView]&&st.lcView.split("|")[1]===ward?Object.assign({key:st.lcView},bank[st.lcView]):lcCur();
+  let h=`<h1 class="h2">Long case round</h1>`;
+  if(!x){h+=`<p class="sub">AI สร้างเคสใหม่ให้ เริ่มจาก chief complaint แล้วดำเนินเคสทีละขั้น 8 ขั้นเหมือนสอบ long case — เขียนคำตอบของตัวเองก่อน แล้วกดดูข้อมูลและเฉลยของขั้นนั้น (สไตล์ MEQ) · เนื้อหาตามวอร์ด ${esc(W.cfg.name)}</p>`;
+    if(lcBusy)h+=`<div class="card"><h3>กำลังสร้างเคสใหม่…</h3><span class="rd" style="margin:0">ใช้เวลาประมาณ 20–90 วินาที</span><div class="spin" aria-hidden="true"></div></div>`;
+    else{h+=`<div class="stack"><button class="btn primary" id="lcNew" type="button">✦ สร้างเคสใหม่</button></div>`;if(lcErr)h+=`<div class="card"><h3>สร้างเคสไม่สำเร็จ</h3>${aiErrHTML(lcErr)}</div>`;}
+    const H=bankItems("lc",ward).reverse();
+    if(H.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">เคสที่เคยทำ</h2><div class="card" style="padding:6px">${H.map(c=>`<button class="srow" data-lc="${esc(c.key)}"><span class="meta" style="flex:1"><b>${esc(c.step>=8?c.case.topic:"เคสที่ยังทำไม่จบ")}</b> · ${esc(c.case.intro.slice(0,70))}${c.case.intro.length>70?"…":""}<br>${fmtD(c.c)} · ${Math.min(c.step,8)}/8 ขั้น</span><span class="go">→</span></button>`).join("")}</div>`;
+    $("main").innerHTML=h;
+    const nb=$("lcNew");if(nb)nb.onclick=lcNew;
+    document.querySelectorAll("[data-lc]").forEach(b=>b.onclick=()=>{const k=b.dataset.lc;if((bank[k].step||0)<8){P.lcCur=k;st.lcView="";save();}else{st.lcView=k;persist();}rLCase();window.scrollTo(0,0);});
+    return;}
+  const C=x.case,done=Math.min(x.step||0,8),my=x.my||{};
+  h+=`<p class="sub">${done>=8?`เคส: <b>${esc(C.topic)}</b> · `:""}${fmtD(x.c)} · ${done}/8 ขั้น</p>`;
+  h+=`<div class="card lcintro"><h3>Chief complaint</h3><p style="margin:0">${esc(C.intro)}</p></div>`;
+  LCS.forEach(([k,t,ask],i)=>{const S=C.stages[i];if(i>done)return;const open=i<done;
+    h+=`<div class="card lcstep${open?" done":""}"><h3>${t}</h3><span class="rd">${ask}</span>`;
+    if(open){h+=my[k]?`<div class="lcmine"><b>คำตอบของฉัน</b><br>${esc(my[k]).replace(/\n/g,"<br>")}</div>`:`<p class="hint">ไม่ได้เขียนคำตอบในขั้นนี้</p>`;
+      if(S.info)h+=`<div class="lcinfo"><b>ข้อมูลที่ได้</b>${mdLite(S.info)}</div>`;
+      h+=`<div class="lcans"><b>เฉลย / แนวคิด</b>${mdLite(S.answer)}</div>`;}
+    else h+=`<textarea class="ntext" id="lcTxt" placeholder="เขียนคำตอบของคุณ (ไม่บังคับ) แล้วกดดูเฉลย">${esc(my[k]||"")}</textarea><div class="row2"><span class="spacer"></span><button class="btn primary" id="lcReveal" type="button">ดูข้อมูลและเฉลยขั้นนี้</button></div>`;
+    h+=`</div>`;});
+  if(done>=8){h+=`<div class="card"><h3>สรุปเคส: ${esc(C.topic)}</h3>${C.pearls.length?`<ul>${C.pearls.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:""}${C.guide?`<p class="hint">📘 อ้างอิง: ${esc(C.guide)}</p>`:""}<p class="hint">เคสและเฉลยนี้ AI สร้างขึ้น อาจผิดพลาดได้ ควรเทียบกับตำรา/guideline</p></div>`;
+    h+=`<div class="card"><h3>✦ ให้ AI ประเมินคำตอบของฉัน</h3><span class="rd">เทียบคำตอบที่เขียนในแต่ละขั้นกับเฉลย บอกจุดที่ดีและสิ่งที่ขาด</span><button class="btn" id="lcFb" type="button" ${lcFbBusy?"disabled":""}>${x.fb?"ประเมินใหม่":"ประเมินคำตอบ"}</button><div class="aiout" id="lcFbOut">${lcFbBusy?`<p class="hint">กำลังประเมิน…</p>`:x.fb?mdLite(x.fb):""}</div></div>`;}
+  h+=`<div class="stack" style="margin-top:12px">${done>=8?`<button class="btn primary" id="lcNext" type="button">เคสใหม่ / ดูเคสอื่น</button>`:`<button class="btn ghost" id="lcList" type="button">ดูเคสอื่น (เคสนี้เก็บไว้ทำต่อได้)</button>`}</div>`;
+  $("main").innerHTML=h;
+  const ta=$("lcTxt");if(ta){ta.oninput=()=>{clearTimeout(rLCase._t);rLCase._t=setTimeout(()=>{const y=bank[x.key];y.my=Object.assign({},y.my||{},{[LCS[done][0]]:ta.value});bankPut(x.key,y);},800);};}
+  const rv=$("lcReveal");if(rv)rv.onclick=()=>{clearTimeout(rLCase._t);const y=bank[x.key];y.my=Object.assign({},y.my||{});if(ta)y.my[LCS[done][0]]=ta.value;y.step=done+1;bankPut(x.key,y);rLCase();const c=document.querySelectorAll(".lcstep")[done];if(c)setTimeout(()=>c.scrollIntoView({block:"start"}),50);};
+  const nx=$("lcNext");if(nx)nx.onclick=()=>{if(P.lcCur===x.key)P.lcCur="";st.lcView="";save();rLCase();window.scrollTo(0,0);};
+  const ls=$("lcList");if(ls)ls.onclick=()=>{P.lcCur="";st.lcView="";save();rLCase();window.scrollTo(0,0);};
+  const fbb=$("lcFb");if(fbb)fbb.onclick=async()=>{if(lcFbBusy)return;lcFbBusy=true;fbb.disabled=true;$("lcFbOut").innerHTML=`<p class="hint">กำลังประเมิน… (ประมาณ 10–60 วินาที)</p>`;const k=x.key;
+    try{const t=await aiText(lcFbPrompt(bank[k]),t=>{const o=$("lcFbOut");if(o)o.innerHTML=mdLite(t);});const y=bank[k];y.fb=t;bankPut(k,y);}
+    catch(e){console.warn("lc fb",e);const o=$("lcFbOut");if(o)o.innerHTML=aiErrHTML(e);}
+    lcFbBusy=false;const b2=$("lcFb");if(b2)b2.disabled=false;};
+}
+async function lcNew(){if(lcBusy)return;lcBusy=true;lcErr="";const wid=ward;rLCase();
+  try{const c=await lcGen();const k="lc|"+wid+"|"+now().toString(36);bankPut(k,{case:c,step:0,my:{}});PWof(st,wid).lcCur=k;st.lcView="";save();}
+  catch(e){console.warn("long case",e);lcErr=e;}
+  lcBusy=false;if(view==="lcase"&&ward===wid)rLCase();}
+function lcFbPrompt(x){const C=x.case,my=x.my||{};
+  return `คุณเป็นอาจารย์ศัลยกรรมที่คุมสอบ long case ของนิสิตแพทย์${yearTxt()} จุฬาฯ เคส: ${C.topic}\nChief complaint: ${C.intro}\n\n`+LCS.map(([k,t],i)=>`### ${t}\nคำตอบของนิสิต: ${(my[k]||"(ไม่ได้เขียน)").slice(0,1500)}\nเฉลย: ${C.stages[i].answer.slice(0,1500)}`).join("\n\n")+`\n\nประเมินคำตอบของนิสิตเป็นภาษาไทยปนศัพท์แพทย์อังกฤษ กระชับ: แต่ละขั้น 1–3 bullet (ขึ้นต้น "- ") บอกสิ่งที่ทำได้ดีและสิ่งที่ขาด/ผิด โดยใช้หัวข้อ "## <ชื่อขั้น>" แล้วปิดท้ายด้วย "## ภาพรวม" 2–4 bullet ว่าควรฝึกอะไรเพิ่ม ถ้าขั้นไหนนิสิตไม่ได้เขียน ให้บอกสั้น ๆ ว่าควรตอบอะไร ห้ามแต่งข้อมูลที่ไม่มีจริง`;}
+
 /* ---------------- session result ---------------- */
 function rResult(){
   const W=W_(),P=P_(),s=P.sess;const qs=s.list.map(u=>W.byU[u]).filter(Boolean);
@@ -979,8 +1199,11 @@ function rKW(){
 }
 
 /* ---------------- answer sheet ---------------- */
+function statLabels(a){document.querySelectorAll("#overlay .stat .k").forEach((e,i)=>{e.textContent=a[i];});}
 function sheet(){
-  const W=W_(),P=P_(),p=ph();
+  const W=W_(),P=P_(),p=ph();statLabels(["ทำแล้ว","ถูก","ความแม่น"]);
+  if(view==="exam"||view==="lrev")return legSheet();
+  if(view==="adm"||view==="admq")return admSheet();
   if(isSess()){
     const s=P.sess,qs=s.list.map(u=>W.byU[u]).filter(Boolean);
     $("sheetTitle").textContent=s.title;$("setChips").innerHTML="";
@@ -1033,9 +1256,10 @@ $("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeS();})
 /* ---------------- keyboard ---------------- */
 document.addEventListener("keydown",e=>{
   if($("overlay").classList.contains("open")){if(e.key==="Escape")closeS();return;}
-  if(view!=="svc"&&view!=="sess"&&view!=="adm")return;
+  if(!["svc","sess","adm","exam","lrev","admq"].includes(view))return;
   const tg=e.target;if(tg&&(tg.tagName==="INPUT"||tg.tagName==="TEXTAREA"||tg.isContentEditable))return;
   if(e.metaKey||e.ctrlKey||e.altKey)return;
+  if(view==="exam"){const k=e.key.toUpperCase(),i="ABCDE".indexOf(k),n="12345".indexOf(e.key);if(i>=0||n>=0){legPick(i>=0?i:n);return;}if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1);return;}
   const q=curQ();if(!q)return;const locked=doneAns(q)!==undefined;
   const k=e.key.toUpperCase(),idx="ABCDE".indexOf(k),nidx="12345".indexOf(e.key);
   if(!locked&&(idx>=0||nidx>=0)){pick=idx>=0?idx:nidx;rQuiz();return;}
@@ -1092,7 +1316,7 @@ function checkHashImport(){const h=location.hash||"";if(!/[#&](all|p)=/.test(h))
   setTimeout(()=>importText(h),300);return true;}
 /* full backup file: everything incl. typed notes and handwriting */
 async function exportFile(){
-  const blob=new Blob([JSON.stringify({kind:"ac-mcq-backup",v:3,site:CFG.siteName||"",t:now(),st,ink})],{type:"application/json"});
+  const blob=new Blob([JSON.stringify({kind:"ac-mcq-backup",v:3,site:CFG.siteName||"",t:now(),st,ink,bank})],{type:"application/json"});
   const d=new Date(),fn=`ac-mcq-backup-${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}.json`;
   if(HAS_CLAUDE()){try{const dl=await window.claude.use("downloads");if(dl){try{await dl.save({filename:fn,data:blob});return;}catch(e){const c=e&&e.code;if(c==="declined")return;if(!["unavailable","not_granted","capability_disabled","capability_removed"].includes(c)){toast("บันทึกไฟล์ไม่สำเร็จ"+(c?" ("+c+")":""));return;}}}}catch(e){}}
   const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=fn;
@@ -1104,7 +1328,8 @@ function importFile(){
     if(!confirm("นำเข้าไฟล์สำรอง? จะรวมกับข้อมูลในเครื่องนี้ (คำตอบรวมกัน โน้ตใช้ฉบับที่แก้ล่าสุด)"))return;
     mergeSt(st,o.st);const ks=[];for(const k in o.ink||{}){if(!ink[k]||(o.ink[k].ts||0)>(ink[k].ts||0)){ink[k]=o.ink[k];ks.push(k);}}
     try{localStorage.setItem(IKEY,JSON.stringify(ink));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}
-    save();ks.forEach(k=>cloudInk(k));afterImport();};
+    const bs=bankMerge(o.bank);
+    save();ks.forEach(k=>cloudInk(k));bs.forEach(k=>cloudBank(k));afterImport();};
   i.click();}
 
 /* ---------------- accounts (Firebase, optional) ---------------- */
@@ -1141,6 +1366,7 @@ async function initFB(){
 const uref=()=>fb.fs.doc(fb.db,"users",fb.user.uid);
 const inkCol=()=>fb.fs.collection(fb.db,"users",fb.user.uid,"ink");
 const inkId=k=>"i"+H7(k)+H7(k+"#");
+const bankCol=()=>fb.fs.collection(fb.db,"users",fb.user.uid,"bank");
 function newer(dst,src){for(const k in src||{}){const s=src[k],d=dst[k];const ts=x=>x?((Array.isArray(x)?x[1]:x.ts)||0):-1;if(!d||ts(s)>ts(d))dst[k]=s;}}
 function mergeSt(a,b){
   if(!b||!b.w)return;
@@ -1155,6 +1381,9 @@ function mergeSt(a,b){
       if(a&&a.day===c.day&&(a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);
       else if(!a||c.day>a.day||(c.day===a.day&&(c.ts||0)>(a.ts||0)))l.morn[p]=c;});
     if((r.adm.ts||0)>(l.adm.ts||0))l.adm=r.adm;
+    if(r.leg&&!bank["leg|"+id+"|"+r.leg.id]){if(!l.leg)l.leg=r.leg;else if(l.leg.id===r.leg.id){l.leg.ans=Object.assign({},r.leg.ans,l.leg.ans);l.leg.star=Object.assign({},r.leg.star,l.leg.star);}}
+    if(l.leg&&bank["leg|"+id+"|"+l.leg.id])l.leg=null;
+    if(r.lcCur&&!l.lcCur)l.lcCur=r.lcCur;
     if(r.advPlan&&(!l.advPlan||(r.advPlan.ts||0)>(l.advPlan.ts||0)))l.advPlan=r.advPlan;
     newer(l.flag,r.flag);newer(l.post,r.post);
     if((b.t||0)>(a.t||0)){l.svc=r.svc;l.type=r.type;l.pick=r.pick;}
@@ -1171,25 +1400,32 @@ async function pull(){
   const remoteTs={};
   const is=await fs.getDocs(inkCol());
   is.forEach(x=>{const d=x.data();if(!d||!d.k)return;try{const v=JSON.parse(d.d);remoteTs[d.k]=v.ts||0;if(!ink[d.k]||(v.ts||0)>(ink[d.k].ts||0))ink[d.k]=v;}catch(e){}});
-  try{localStorage.setItem(KEY,JSON.stringify(st));localStorage.setItem(IKEY,JSON.stringify(ink));}catch(e){}
+  const bTs={};
+  try{const bs=await fs.getDocs(bankCol());bs.forEach(x=>{const d=x.data();if(!d||!d.k)return;try{const v=JSON.parse(d.d);bTs[d.k]=v.ts||0;if(!bank[d.k]||(v.ts||0)>(bank[d.k].ts||0))bank[d.k]=v;}catch(e){}});}catch(e){console.warn(e);}
+  try{localStorage.setItem(KEY,JSON.stringify(st));localStorage.setItem(IKEY,JSON.stringify(ink));localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){}
   await pushNow();
   Object.keys(ink).forEach(k=>{if((ink[k].ts||0)>(remoteTs[k]||0))inkDirty.add(k);});
   await flushInk();
+  Object.keys(bank).forEach(k=>{if((bank[k].ts||0)>(bTs[k]||0))bankDirty.add(k);});
+  await flushBank();
 }
 async function pushNow(){if(!fb||!fb.user)return;clearTimeout(pushT);sync="saving";paintSync();
   try{await fb.fs.setDoc(uref(),{d:JSON.stringify(st),t:st.t||now(),v:3});sync="cloud";}catch(e){console.warn(e);sync="error";}paintSync();}
 function cloudPush(){if(cl){clearTimeout(pushT);pushT=setTimeout(clPush,1500);return;}if(!fb||!fb.user)return;clearTimeout(pushT);pushT=setTimeout(pushNow,1500);}
 async function flushInk(){if(!fb||!fb.user)return;clearTimeout(inkT);const ks=[...inkDirty];inkDirty.clear();
   for(const k of ks){try{if(ink[k])await fb.fs.setDoc(fb.fs.doc(inkCol(),inkId(k)),{k,d:JSON.stringify(ink[k]),ts:ink[k].ts||now()});}catch(e){console.warn(e);inkDirty.add(k);sync="error";}}paintSync();}
+async function flushBank(){if(!fb||!fb.user)return;clearTimeout(bankT);const ks=[...bankDirty];bankDirty.clear();
+  for(const k of ks){try{if(bank[k])await fb.fs.setDoc(fb.fs.doc(bankCol(),inkId(k)),{k,d:JSON.stringify(bank[k]),ts:bank[k].ts||now()});}catch(e){console.warn(e);bankDirty.add(k);sync="error";}}paintSync();}
+function cloudBank(k){bankDirty.add(k);clearTimeout(bankT);if(cl){bankT=setTimeout(clBank,1500);return;}if(!fb||!fb.user)return;bankT=setTimeout(flushBank,1500);}
 function cloudInk(k){if(cl){inkDirty.add(k);clearTimeout(inkT);inkT=setTimeout(clInk,2000);return;}if(!fb||!fb.user)return;inkDirty.add(k);clearTimeout(inkT);inkT=setTimeout(flushInk,2000);}
-document.addEventListener("visibilitychange",()=>{if(document.visibilityState!=="hidden")return;if(cl){clPush();clInk();}else if(fb&&fb.user){pushNow();flushInk();}});
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState!=="hidden")return;if(cl){clPush();clInk();clBank();}else if(fb&&fb.user){pushNow();flushInk();flushBank();}});
 
 /* ---- Claude account backend: docs in data/users/<id>/ — "meta", "w_<ward>" (one per ward, < 256 KiB each), "ink_<hash>" ---- */
 async function initClaude(){
   try{
     const [db,user]=await Promise.all([window.claude.use("db"),window.claude.use("user")]);
     if(!db||!user)return;const uid=await user.id();if(!uid)return;
-    cl={db,col:"data/users/"+uid};sync="saving";paintAcct();
+    cl={db,col:"data/users/"+uid,bcol:"data/bank/"+uid};sync="saving";paintAcct();
     await clPull();sync="cloud";
   }catch(e){console.warn("claude sync",e);if(cl)sync="error";}
   paintAcct();if(view==="svc"||view==="sess")rQuiz();else route();
@@ -1209,7 +1445,14 @@ async function clPull(){
   await clPush();
   Object.keys(ink).forEach(k=>{if((ink[k].ts||0)>(rts[k]||0))inkDirty.add(k);});
   await clInk();
+  const bts={};
+  try{const bs=await cl.db.collection(cl.bcol).limit(1000).get();bs.docs.forEach(d=>{const x=d.data()||{};if(!x.k)return;try{const v=JSON.parse(x.d);bts[x.k]=v.ts||0;if(!bank[x.k]||(v.ts||0)>(bank[x.k].ts||0))bank[x.k]=v;}catch(e){}});
+    localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){console.warn("bank",e);}
+  Object.keys(bank).forEach(k=>{if((bank[k].ts||0)>(bts[k]||0))bankDirty.add(k);});
+  await clBank();
 }
+async function clBank(){if(!cl)return;clearTimeout(bankT);const ks=[...bankDirty];bankDirty.clear();
+  for(const k of ks){try{if(bank[k])await cl.db.doc(cl.bcol+"/"+inkId(k)).set({k,d:JSON.stringify(bank[k]),ts:bank[k].ts||now()});}catch(e){console.warn(e);bankDirty.add(k);sync="error";}}paintSync();}
 let clBusy=false,clAgain=false;
 async function clPush(){if(!cl)return;clearTimeout(pushT);if(clBusy){clAgain=true;return;}clBusy=true;sync="saving";paintSync();
   try{const t=st.t||now();

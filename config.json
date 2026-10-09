@@ -14,7 +14,12 @@
     "77AQ": "77A_Gen_Sx_AC_MCQ.pdf",
     "77AK": "Key_77A_Gen_Sx_AC77_RoA_MCQ_Gen_Sx.pdf",
     "77BQ": "77B_Gen_Sx_AC_MCQ.pdf",
-    "77BK": "Key_77B_Gen_Sx_AC77_RoB_MCQ_Gen_Sx.pdf"
+    "77BK": "Key_77B_Gen_Sx_AC77_RoB_MCQ_Gen_Sx.pdf",
+    "77CQ": "77C_Gen_Sx_AC_MCQ.pdf",
+    "77CK1": "Key_77C_Gen_Sx_AC_Sx_77_Ro_C_Key_solution_V.1",
+    "77CK2": "Key_77C_Gen_Sx_AC_Gen_Sx_Rotate_C_MDCU77_by_Ro_C_V.2",
+    "77DQ": "77D_Gen_Sx_AC_MCQ.pdf",
+    "77DK": "Key_77D_GenSx_by_Vchakarn77.pdf"
   },
   "siteUrl": "https://bankypp.github.io/ac-mdcu/",
   "siteName": "คลังข้อสอบเก่า",
@@ -32,7 +37,13 @@
         "OSCE"
       ],
       "lectures": [],
-      "scope": "General surgery limited to: hepatobiliary and pancreatic surgery; breast surgery; vascular surgery (excluding cardiovascular-thoracic surgery); the main gastrointestinal tract and other abdominal organs (excluding colorectal surgery)"
+      "scope": "General surgery limited to: hepatobiliary and pancreatic surgery; breast surgery; vascular surgery (excluding cardiovascular-thoracic surgery); the main gastrointestinal tract and other abdominal organs (excluding colorectal surgery)",
+      "exam": {
+        "MCQ": {
+          "n": 100,
+          "min": 150
+        }
+      }
     },
     {
       "id": "subspe",
