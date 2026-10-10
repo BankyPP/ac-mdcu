@@ -5,7 +5,9 @@ Each ward in config.json "wards" has "dir": its data folder holding data_b*.js (
 (sets W.HY = {topics:[{title, points:[…], refs:[rid…], rep}], keywords:[{k, v, refs:[rid…]}]})."""
 import glob, json, os, shutil, html, sys, re
 ROOT=os.path.dirname(os.path.abspath(__file__)); os.chdir(ROOT)
-OUT=sys.argv[1] if len(sys.argv)>1 else os.path.join(ROOT,'docs')
+ARGS=[a for a in sys.argv[1:] if not a.startswith('--')]
+PACK='--pack' in sys.argv      # Claude artifact build: an artifact version holds at most ~510 files, so images are stacked into a few sprite sheets per prefix
+OUT=ARGS[0] if ARGS else os.path.join(ROOT,'docs')
 tpl=open('template.html',encoding='utf-8').read()
 cfg=json.load(open('config.json',encoding='utf-8'))
 head=tpl[:tpl.index('</style>')]                                   # doctype … platform CSS
@@ -15,6 +17,25 @@ imgs={os.path.splitext(os.path.basename(f))[0]:'img/'+os.path.basename(f) for f 
 def num(f):
     b=os.path.basename(f)[6:-3]
     return int(b) if b.isdigit() else 10**9
+packs={}
+if PACK:
+    from PIL import Image
+    groups={}
+    for k in imgs: groups.setdefault(re.sub(r'_[^_]*$','',k),[]).append(k)
+    os.makedirs(os.path.join(OUT,'img'),exist_ok=True)
+    for g,ks in sorted(groups.items()):
+        ims=[(k,Image.open(imgs[k]).convert('RGB')) for k in ks]
+        sheets=[[]];h=0
+        for k,im in ims:
+            if h+im.height>30000 and sheets[-1]: sheets.append([]);h=0
+            sheets[-1].append((k,im));h+=im.height
+        for si,sh in enumerate(sheets):
+            W=max(im.width for _,im in sh);H=sum(im.height for _,im in sh)
+            c=Image.new('RGB',(W,H),'white');y=0;fn='img/pk_%s_%d.jpg'%(g,si)
+            for k,im in sh:
+                c.paste(im,(0,y));packs[k]={'p':fn,'w':im.width,'h':im.height,'W':W,'H':H,'y':y};y+=im.height
+            c.save(os.path.join(OUT,fn),quality=82,optimize=True,progressive=True)
+    imgs={k:packs[k] for k in imgs}
 js=['const IMGS={};const WARDS={};']
 if imgs: js.append('Object.assign(IMGS,'+json.dumps(imgs)+');')
 js.append('const CONFIG='+json.dumps(cfg,ensure_ascii=False)+';')
@@ -42,5 +63,6 @@ out=re.sub(r'<title>.*?</title>','<title>'+html.escape(cfg.get('title',title))+'
 os.makedirs(os.path.join(OUT,'img'),exist_ok=True)
 open(os.path.join(OUT,'index.html'),'w',encoding='utf-8').write(out)
 open(os.path.join(OUT,'.nojekyll'),'w').close()
-for f in imgs.values(): shutil.copy(f,os.path.join(OUT,f))
-print('built',os.path.join(OUT,'index.html'),len(out.encode()),'bytes,',len(imgs),'images')
+if not PACK:
+    for f in imgs.values(): shutil.copy(f,os.path.join(OUT,f))
+print('built',os.path.join(OUT,'index.html'),len(out.encode()),'bytes,',len(imgs),'images'+(' in %d sprite sheets'%len(set(v['p'] for v in packs.values())) if PACK else ''))

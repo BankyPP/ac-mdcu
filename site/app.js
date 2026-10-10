@@ -6,6 +6,10 @@
    Progress: localStorage per browser; optional Firebase account sync.
    ============================================================ */
 const L="ABCDE";
+/* an image is either a file path, or (Claude artifact build) a slot in a sprite sheet {p,w,h,W,H,y} drawn with CSS so it scales like an <img> */
+function imgHTML(k,alt,lazy){const v=IMGS[k];if(!v)return "";if(typeof v==="string")return `<img ${lazy?'loading="lazy" ':""}src="${v}" alt="${alt}">`;
+  const py=v.H>v.h?v.y/(v.H-v.h)*100:0;
+  return `<span class="spr" role="img" aria-label="${alt}" style="width:min(100%,${v.w}px);aspect-ratio:${v.w}/${v.h};background-image:url('${v.p}');background-size:${(v.W/v.w*100).toFixed(4)}% auto;background-position:0 ${py.toFixed(5)}%"></span>`;}
 const CFG=(typeof CONFIG!=="undefined"&&CONFIG)||{};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -333,7 +337,7 @@ function rQuiz(){
   h+=tagRow(q);
   h+=`<p class="stem">${q.stem}</p>`;
   if(!q.img&&q.imgNote)h+=`<div class="img-missing">🖼 ${q.imgNote}</div>`;
-  if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
+  if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>imgHTML(k,"ภาพประกอบโจทย์")).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
   const gi=(q.gray||"").indexOf(" — "),g1=gi>=0?q.gray.slice(0,gi):q.gray;if(g1)h+=`<p class="gray">${esc(g1)}</p>`;
   h+=`<ul class="opts" role="radiogroup" aria-label="ตัวเลือก">`;
   const everPick=isAdv()?new Set(hist(P,q.uid,P.sess.hp,true).map(x=>x[0])):null;
@@ -431,7 +435,7 @@ function explain(q,done,R,p){
   if(adv)h+=advBox(q);
   {const gi=(q.gray||"").indexOf(" — ");if(gi>=0)h+=`<div class="tagline"><span class="tag">ส่วนที่เหลือของโจทย์ต้นฉบับ: ${esc(q.gray.slice(gi+3))}</span></div>`;}
   const sec=(t,b,cls="")=>b?`<div class="sec ${cls}"><h3>${t}</h3>${b}</div>`:"";
-  const rich=s=>(s||"").replace(/\{\{IMG:(\w+)\}\}/g,(m,k)=>IMGS[k]?`<figure><img src="${IMGS[k]}" alt="ภาพจากไฟล์ต้นฉบับ"><figcaption>จากไฟล์ต้นฉบับ</figcaption></figure>`:"");
+  const rich=s=>(s||"").replace(/\{\{IMG:(\w+)\}\}/g,(m,k)=>IMGS[k]?`<figure>${imgHTML(k,"ภาพจากไฟล์ต้นฉบับ")}<figcaption>จากไฟล์ต้นฉบับ</figcaption></figure>`:"");
   h+=sec("ตีความโจทย์",`<p>${R(q.interp)}</p>`);
   h+=sec(`ทำไม ${L[q.ans]} ถูก`,`<p>${R(q.why)}</p>`);
   const picked=adv?new Set(hist(P,q.uid,s.hp,true).map(x=>L[x[0]])):new Set();
@@ -440,7 +444,7 @@ function explain(q,done,R,p){
   h+=sec("ระวังกับดัก",q.trap?`<div class="box">${R(q.trap)}</div>`:"","trap");
   h+=sec("สรุปความรู้จากข้อนี้",`<ul>${(q.summary||[]).map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
   h+=sec("สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${rich(q.notes)}</div>`:"","notes");
-  if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg];h+=sec("สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map(k=>`<img loading="lazy" src="${IMGS[k]}" alt="สไลด์อ้างอิงจากไฟล์เฉลย">`).join("")}</div>`);}
+  if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg];h+=sec("สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map(k=>imgHTML(k,"สไลด์อ้างอิงจากไฟล์เฉลย",1)).join("")}</div>`);}
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
   h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");
   h+=sec("โจทย์แบบใหม่ที่อาจออก",`<ul>${(q.variants||[]).map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
@@ -1100,7 +1104,7 @@ function rExam(){
   let h=`<div class="qhead"><div class="qnum">${i+1}.</div><div class="fields"></div><button class="flag star" id="starBtn" aria-pressed="${sd}" title="ติดดาวไว้กลับมาดู">${sd?"★ ติดดาวแล้ว":"☆ ติดดาว"}</button></div>`;
   h+=`<p class="stem">${q.stem}</p>`;
   if(!q.img&&q.imgNote)h+=`<div class="img-missing">🖼 ${q.imgNote}</div>`;
-  if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
+  if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>imgHTML(k,"ภาพประกอบโจทย์")).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
   /* the original recall text (gray) is left out during the exam — it often carries the note-taker's hints; it shows again in the explanations */
   h+=`<ul class="opts" role="radiogroup" aria-label="ตัวเลือก">${q.opts.map((o,j)=>`<li class="opt${a===j?" sel":""}" role="radio" tabindex="0" aria-checked="${a===j}" data-i="${j}"><span class="bub">${L[j]}</span><span class="txt">${esc(o)}</span></li>`).join("")}</ul>`;
   /* Legendary question page: number, question and choices only — no tags, sources or hints, whatever other rounds show (rule set by the user) */
