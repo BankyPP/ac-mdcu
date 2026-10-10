@@ -227,10 +227,15 @@ function rHome(){
     h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
   }
   if(IN_FRAME&&HAS_CLAUDE())h+=clStartCard();
+  if(HAS_CLAUDE()&&CFG.siteUrl){const ua=bankItems("adm",ward).filter(unsent).length,ul=bankItems("leg",ward).filter(unsent).length;
+    h+=`<div class="card"><h3>ส่งจาก Claude ไปเว็บ</h3><span class="rd">เว็บ (GitHub) กับ Claude เก็บข้อมูลแยกกัน ปุ่มนี้เปิดเว็บพร้อมเคส Admission (โจทย์ เฉลย คำตอบของคุณ) และผลสอบ Legendary (รวมโจทย์ AI) ที่ยังไม่ได้ส่ง เว็บจะเก็บเข้าคลังให้ — ข้อที่ผิดไปขึ้นใน Ward staff round ของเว็บด้วย</span>
+      <p class="statline" style="margin:8px 0 0">ยังไม่ได้ส่ง: Admission <b>${ua}</b> เคส · Legendary <b>${ul}</b> ครั้ง</p>
+      <div class="row2"><button class="btn${ua+ul?" primary":""}" id="hSendWeb" type="button" ${ua+ul?"":"disabled"}>ส่งไปเว็บ</button></div><p class="hint" id="hSendNote" style="margin:6px 0 0"></p></div>`;}
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
   h+=`<p class="hint" style="text-align:center;margin-top:18px">อัปเดตเว็บล่าสุด ${typeof BUILD!=="undefined"?BUILD:""}</p>`;
   $("main").innerHTML=h;
   document.querySelectorAll("[data-cs]").forEach(b=>b.onclick=()=>{st.clStart=b.dataset.cs;save();rHome();});
+  {const b=$("hSendWeb");if(b)b.onclick=()=>sendWeb(bankItems("adm",ward).filter(unsent).map(x=>x.key).concat(bankItems("leg",ward).filter(unsent).map(x=>x.key)),"hSendNote");}
   $("hExp").onclick=exportLink;$("hImp").onclick=importPrompt;$("hFile").onclick=exportFile;$("hFileIn").onclick=importFile;
   document.querySelectorAll("[data-type]").forEach(b=>b.onclick=()=>{P.type=b.dataset.type;save();rHome();});
   document.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{st.phase=+b.dataset.ph;save();rHome();});
@@ -852,7 +857,7 @@ async function admRun(target){
   try{const q=await admGen(WARDS[wid]);const A=PWof(st,wid).adm;if(target==="cur"||!A.cur){A.cur=q;A.ans=null;admBank(wid,q,null);}else A.next=q;A.ts=now();save();}
   catch(e){console.warn("admission",e);admErr=admMsg(e);if(e&&e.code==="no_ai")admSetup=true;}
   admBusy=false;if(view==="adm"&&ward===wid){const A=P_().adm;if(A.cur&&A.ans!=null){paintNav();if(admErr)toast(admErr);}else rAdm();}}
-function admBank(wid,q,a){const k="adm|"+wid+"|"+q.uid,o=bank[k],v={q,a,c:o&&o.c};if(o&&o.h)v.h=o.h;bankPut(k,v);}
+function admBank(wid,q,a){const k="adm|"+wid+"|"+q.uid,o=bank[k],v={q,a,c:o&&o.c};if(o&&o.h)v.h=o.h;if(o&&o.sent)v.sent=o.sent;bankPut(k,v);}
 function admAnswer(i){const A=P_().adm;if(!A.cur||A.ans!=null)return;A.ans=i;A.n=(A.n||0)+1;if(i===A.cur.ans)A.right=(A.right||0)+1;admBank(ward,A.cur,i);
   A.recent=(A.recent||[]).concat(A.cur.topic||[]).slice(-25);A.ts=now();save();rQuiz();
   const e=document.querySelector(".exp");if(e)setTimeout(()=>e.scrollIntoView({behavior:"smooth",block:"start"}),60);
@@ -1097,8 +1102,9 @@ function admSheet(){
   const v=B.map((x,i)=>[x,i]).filter(([x])=>f==="wrong"?x.a!=null&&x.a!==x.q.ans:f==="right"?x.a===x.q.ans:f==="todo"?x.a==null:true);
   rows(v.map(([x,i])=>({q:Object.assign({},x.q,{id:i+1,set:x.q.topic||"Case",ro:""}),a:x.a==null?undefined:x.a,cur:view==="admq"?x.key===st.admSel:!!(A.cur&&A.cur.uid===x.q.uid),meta:fmtD(x.c)+" · ",
     go:()=>{st.admSel=x.key;persist();pick=null;if(A.cur&&A.cur.uid===x.q.uid&&A.ans==null)go(ward+"/adm");else go(ward+"/admq");}})).reverse(),B.length?"ไม่มีข้อที่ตรงกับตัวกรองนี้":"ยังไม่มีเคสในคลัง — เริ่ม Admission round เพื่อให้ AI สร้างเคสแรก");
-  $("sheetFoot").innerHTML=`<span class="hint">เรียงจากเคสล่าสุด · ทุกเคสที่ AI สร้างเก็บไว้ในคลังของคุณ (ย้ายระหว่างเว็บกับ Claude ด้วย “ไฟล์สำรอง” ในหน้าวอร์ด)</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span>${view==="admq"?`<button class="link" id="toAdm">กลับไปข้อปัจจุบัน</button>`:""}`;
+  $("sheetFoot").innerHTML=`<span class="hint">เรียงจากเคสล่าสุด · ทุกเคสที่ AI สร้างเก็บไว้ในคลังของคุณ (ย้ายระหว่างเว็บกับ Claude ด้วย “ไฟล์สำรอง” ในหน้าวอร์ด)</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span>${view==="admq"?`<button class="link" id="toAdm">กลับไปข้อปัจจุบัน</button>`:""}${HAS_CLAUDE()&&CFG.siteUrl&&B.length?(()=>{const u=B.filter(unsent).length;return `<span style="flex-basis:100%"></span><button class="btn${u?" primary":""}" id="admWeb" type="button">${u?`ส่งเคสที่ยังไม่ได้ส่งไปเว็บ (${u})`:"ส่งทุกเคสไปเว็บอีกครั้ง"}</button><span class="hint" id="admWebNote" style="flex-basis:100%"></span>`;})():""}`;
   const ta=$("toAdm");if(ta)ta.onclick=()=>{closeS(true);go(ward+"/adm");};
+  {const b=$("admWeb");if(b)b.onclick=()=>{const u=B.filter(unsent);sendWeb((u.length?u:B).map(x=>x.key),"admWebNote");};}
   paintSync();
 }
 
@@ -1232,14 +1238,14 @@ function rLHist(){
     h+=`<div class="card"><div class="lhstat"><span><b>${n}</b>ครั้ง</span><span><b>${avg.toFixed(1)}%</b>เฉลี่ย</span><span><b>${esc(gradeOf(best.pct))}</b>ดีสุด (${(+best.pct).toFixed(1)}%)</span><span><b>${esc(gradeOf(H[0].pct))}</b>ล่าสุด</span></div>
       ${n>1?`<div class="lhtrend" aria-label="เกรดตามลำดับครั้ง">${H.slice().reverse().map((x,i)=>`<span class="lgg ${gCls(gradeOf(x.pct))}" title="ครั้งที่ ${i+1} · ${(+x.pct).toFixed(1)}%">${esc(gradeOf(x.pct))}</span>`).join("")}</div>`:""}</div>`;
     h+=legRows(H,n);}
-  if(HAS_CLAUDE()&&n&&CFG.siteUrl){const un=H.filter(x=>!x.sent).length;
+  if(HAS_CLAUDE()&&n&&CFG.siteUrl){const un=H.filter(unsent).length;
     h+=`<div class="card"><h3>ส่งผลสอบไปดูในเว็บ</h3><span class="rd">เว็บ (GitHub) กับ Claude เก็บข้อมูลแยกกัน ปุ่มนี้เปิดเว็บพร้อมผลสอบและเฉลยครบทุกข้อ รวมโจทย์ที่ AI สร้าง — เปิดแล้วเว็บจะเก็บไว้ในประวัติให้ (ถ้าเข้าสู่ระบบในเว็บ จะเก็บในบัญชีด้วย)</span>
       <div class="row2"><button class="btn${un?" primary":""}" id="lhSend" type="button">${un?`ส่งที่ยังไม่ได้ส่ง (${un} ครั้ง)`:"ส่งทั้งหมดอีกครั้ง"}</button></div><p class="hint" id="lhNote" style="margin:6px 0 0"></p></div>`;}
   h+=`<div class="stack" style="margin-top:14px"><button class="btn ghost" id="lhBack" type="button">กลับ Legendary round</button></div>`;
   $("main").innerHTML=h;
   document.querySelectorAll("[data-lk]").forEach(b=>b.onclick=()=>{st.legSel=b.dataset.lk;st.legMode="grade";persist();go(ward+"/lres");});
   $("lhBack").onclick=()=>go(ward+"/legend");
-  const sb=$("lhSend");if(sb)sb.onclick=()=>{const L_=H.filter(x=>!x.sent);legSendWeb((L_.length?L_:H).map(x=>x.key));};
+  const sb=$("lhSend");if(sb)sb.onclick=()=>{const L_=H.filter(unsent);legSendWeb((L_.length?L_:H).map(x=>x.key));};
 }
 /* papers → link to the website: #legs=<z|j>.<base64url of {w, b:{bankKey: item}}> (deflate when the browser has CompressionStream) */
 const b64u=u8=>{let s="";for(let i=0;i<u8.length;i+=0x8000)s+=String.fromCharCode.apply(null,u8.subarray(i,i+0x8000));return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");};
@@ -1247,21 +1253,27 @@ const ub64=t=>{t=t.replace(/-/g,"+").replace(/_/g,"/");const s=atob(t),u=new Uin
 async function packStr(str){const u=new TextEncoder().encode(str);if(typeof CompressionStream==="function"){try{const b=await new Response(new Blob([u]).stream().pipeThrough(new CompressionStream("deflate-raw"))).arrayBuffer();return "z."+b64u(new Uint8Array(b));}catch(e){}}return "j."+b64u(u);}
 async function unpackStr(t){const k=t.slice(0,2),u=ub64(t.slice(2));if(k==="z."){const b=await new Response(new Blob([u]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).arrayBuffer();return new TextDecoder().decode(b);}return new TextDecoder().decode(u);}
 function legBundle(keys){const b={};keys.forEach(k=>{const x=bank[k];if(!x)return;b[k]=x;(x.list||[]).forEach(u=>{if(String(u).startsWith("LAI|")){const lk="lai|"+k.split("|")[1]+"|"+u;if(bank[lk])b[lk]=bank[lk];}});});return b;}
-async function legSendWeb(keys){const note=$("lhNote");
-  try{const d=await packStr(JSON.stringify({w:ward,b:legBundle(keys)})),url=CFG.siteUrl.replace(/#.*$/,"")+"#legs="+d;
-    keys.forEach(k=>{const x=bank[k];if(x&&!x.sent){x.sent=now();bankPut(k,x);}});
+/* not sent yet = never sent, or changed after it was sent (an Admission case answered again in Ward staff) */
+const unsent=x=>!x.sent||(x.ts||0)>x.sent+5000;
+function legSendWeb(keys){return sendWeb(keys,"lhNote");}
+/* bank items made in Claude → the website in one link (#bank=); a very large batch goes in parts of ~150 Admission cases */
+async function sendWeb(keys,noteId){const note=$(noteId||"lhNote");
+  const adm=keys.filter(k=>k.startsWith("adm|")),rest=keys.filter(k=>!k.startsWith("adm|")),cut=adm.slice(0,150),left=adm.length-cut.length;keys=rest.concat(cut);
+  try{const d=await packStr(JSON.stringify({w:ward,b:legBundle(keys)})),url=CFG.siteUrl.replace(/#.*$/,"")+"#bank="+d;
+    keys.forEach(k=>{const x=bank[k];if(x&&unsent(x)){x.sent=now()+10000;bankPut(k,x);}});
+    if(left)toast(`ส่งไป ${cut.length} เคส เหลืออีก ${left} เคส — กดส่งอีกครั้งหลังเว็บเปิดแล้ว`);
     const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
-    if(note)note.innerHTML=`เปิดเว็บในแท็บใหม่แล้ว (ลิงก์ยาว ${Math.round(url.length/1024)} KB) — ถ้าไม่เปิด <button class="linkbtn" id="lhCopy">คัดลอกลิงก์</button> ไปเปิดในเบราว์เซอร์เอง`;
+    if(note)note.innerHTML=`${left?`ส่งไปแล้วบางส่วน เหลืออีก ${left} เคส · `:""}เปิดเว็บในแท็บใหม่แล้ว (ลิงก์ยาว ${Math.round(url.length/1024)} KB) — ถ้าไม่เปิด <button class="linkbtn" id="lhCopy">คัดลอกลิงก์</button> ไปเปิดในเบราว์เซอร์เอง`;
     const c=$("lhCopy");if(c)c.onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว");}catch(e){prompt("คัดลอกลิงก์นี้ไปเปิดในเบราว์เซอร์:",url);}};
   }catch(e){console.warn(e);toast("สร้างลิงก์ไม่สำเร็จ");}}
 /* website side: a #legs= link adds those papers (and their AI questions) to this browser's history */
-function checkLegImport(){const m=/[#&]legs=([zj]\.[A-Za-z0-9_-]+)/.exec(location.hash||"");if(!m)return false;
+function checkLegImport(){const m=/[#&](?:legs|bank)=([zj]\.[A-Za-z0-9_-]+)/.exec(location.hash||"");if(!m)return false;
   try{history.replaceState(null,"",location.pathname+location.search+"#/");}catch(e){location.hash="#/";}
   (async()=>{try{const o=JSON.parse(await unpackStr(m[1]));const w=o&&WARDS[o.w]?o.w:null,b=o&&o.b;if(!w||!b||typeof b!=="object")throw 0;
-    const keys=Object.keys(b).filter(k=>/^(leg|lai)\|/.test(k)&&k.split("|")[1]===w);let np=0;
-    keys.forEach(k=>{const v=b[k];if(!v||typeof v!=="object")return;if(k.startsWith("leg|")){v.imp=v.imp||now();np++;}if(!bank[k]||(v.ts||0)>=(bank[k].ts||0)){bank[k]=v;cloudBank(k);}});
+    const keys=Object.keys(b).filter(k=>/^(leg|lai|adm)\|/.test(k)&&k.split("|")[1]===w);let np=0,na=0;
+    keys.forEach(k=>{const v=b[k];if(!v||typeof v!=="object")return;if(k.startsWith("leg|")){v.imp=v.imp||now();np++;}if(k.startsWith("adm|")){if(!v.q||!Array.isArray(v.q.opts))return;na++;}if(!bank[k]||(v.ts||0)>=(bank[k].ts||0)){bank[k]=v;cloudBank(k);}});
     try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){}
-    toast(`นำเข้าผลสอบ Legendary จาก Claude ${np} ครั้งแล้ว`);go(w+"/lhist");}
+    toast("นำเข้าจาก Claude แล้ว: "+[np?`ผลสอบ Legendary ${np} ครั้ง`:"",na?`เคส Admission ${na} เคส`:""].filter(Boolean).join(" · "));go(w+"/"+(np?"lhist":"adm"));}
   catch(e){console.warn(e);alert("ลิงก์ผลสอบไม่ถูกต้อง หรือไม่ครบ (ลองคัดลอกลิงก์ใหม่ทั้งหมด)");}})();
   return true;}
 function legStart(aiQs){
