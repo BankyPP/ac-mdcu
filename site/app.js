@@ -109,7 +109,7 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch"].includes(v))v="home";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
   if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
@@ -126,7 +126,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff})[v]();
+  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -226,7 +226,7 @@ function rHome(){
     const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="legend"&&P.leg?'<span class="badge">กำลังสอบ</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
     h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
   }
-  if(IN_FRAME&&HAS_CLAUDE()){const cs=clStart();h+=`<div class="card"><h3>เปิดเว็บนี้ใน Claude แล้วไปที่</h3><span class="rd">หน้าที่จะเปิดให้ทันทีเมื่อกดลิงก์เข้ามาใน Claude (เช่นจากปุ่มในเว็บที่ไม่มี AI) ไม่ต้องเลือกวอร์ดใหม่</span><div class="chips" id="clStart">${CLSTART.map(([v,t])=>`<button class="chip" data-cs="${v}" aria-pressed="${cs===v}">${t}</button>`).join("")}</div></div>`;}
+  if(IN_FRAME&&HAS_CLAUDE())h+=clStartCard();
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
   h+=`<p class="hint" style="text-align:center;margin-top:18px">อัปเดตเว็บล่าสุด ${typeof BUILD!=="undefined"?BUILD:""}</p>`;
   $("main").innerHTML=h;
@@ -250,6 +250,25 @@ function startSess(kind,title,uids,extra){
   if(!uids.length){toast("ไม่มีข้อที่เข้าเงื่อนไข");return;}
   if(kind!=="quality")qStop();
   P_().sess=Object.assign({kind,title,ph:ph(),list:uids,ans:{},cur:0,ts:now()},extra||{});save();go(ward+"/sess");
+}
+
+/* ---------------- opening in Claude: one tap to the page you came for ---------------- */
+function clStartCard(){const cs=clStart();return `<div class="card"><h3>เปิดเว็บนี้ใน Claude แล้วไปที่</h3><span class="rd">claude.ai ไม่ส่งต่อว่ากดมาจากปุ่มไหนในเว็บ จึงเลือกได้ว่าจะให้ถามทุกครั้ง (กดครั้งเดียว ไม่ต้องเลือกวอร์ด) หรือเปิดหน้าเดิมเสมอ</span><div class="chips">${CLSTART.map(([v,t])=>`<button class="chip" data-cs="${v}" aria-pressed="${cs===v}">${t}</button>`).join("")}</div></div>`;}
+function rLaunch(){
+  const W=W_(),P=P_(),w=W.cfg,lr=st.lastRoute&&st.lastRoute.split("/")[0]===ward?st.lastRoute.split("/")[1]:"";
+  const VN={home:"หน้าวอร์ด",adm:"Admission round",lcase:"Long case",legend:"Legendary round",exam:"Legendary round (กำลังสอบ)",lres:"ผล Legendary round",advisor:"Advisor round",report:"รายงาน Advisor",unit:"Unit round",quality:"Quality round",service:"Service round",grand:"Grand round",hy:"High-yield",kw:"Keyword",staff:"Ward staff round"};
+  const it=(v,t,d,b)=>`<button class="resume" data-lv="${v}"><span>${b?`<span class="lbadge">${b}</span>`:""}<b>${t}</b><span class="rd">${d}</span></span><span class="go">→</span></button>`;
+  const nAdm=bankItems("adm",ward).length,nLc=bankItems("lc",ward).length;
+  let h=`<div class="whead"><h1 class="h2">จะไปหน้าไหน?</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0 0 12px">${esc(w.name)} · หน้าที่ต้องใช้ AI เปิดใน Claude ได้เลย</p><div class="stack" style="margin-top:0">`;
+  h+=it("adm","Admission round",`เคสใหม่ที่ AI สร้างให้ทีละข้อ${nAdm?` · คลังของคุณมี ${nAdm} เคส`:""}`);
+  h+=it("lcase","Long case",`AI ให้ chief complaint แล้วดำเนินเคสทีละขั้น${nLc?` · ทำไปแล้ว ${nLc} เคส`:""}`);
+  h+=it(P.leg?"exam":"legend","Legendary round",P.leg?`กำลังสอบอยู่ใน Claude · เหลือเวลา ${hms(P.leg.end-now())}`:"จำลองสอบจริง พร้อมโจทย์ใหม่จาก AI",P.leg?"กำลังสอบ":"");
+  if(lr&&!["adm","lcase","legend","exam","home"].includes(lr))h+=it(lr,"หน้าล่าสุดที่ใช้ใน Claude",VN[lr]||lr);
+  h+=it("home","หน้าวอร์ด","round อื่น ๆ ทั้งหมด");
+  h+=`</div>`+clStartCard();
+  $("main").innerHTML=h;
+  document.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>go(ward+"/"+b.dataset.lv));
+  document.querySelectorAll("[data-cs]").forEach(b=>b.onclick=()=>{st.clStart=b.dataset.cs;save();rLaunch();});
 }
 
 /* ---------------- Ward staff round: choose where the questions come from ---------------- */
@@ -1726,10 +1745,11 @@ window.addEventListener("hashchange",remember);
 /* opening without a page: take ?go=<ward>/<view> from a link; inside Claude, otherwise reopen the last page used there */
 const RESTORE=["home","adm","lcase","legend","exam","lres","advisor","report","unit","quality","service","grand","hy","kw","staff"];
 /* claude.ai may not hand the link's page (?go= / #) to the artifact frame, so inside Claude the viewer picks where it opens: Admission (default), Long case, Legendary or the last page used */
-const CLSTART=[["adm","Admission round"],["lcase","Long case"],["legend","Legendary round"],["last","หน้าล่าสุดที่ใช้"]];
-const clStart=()=>CLSTART.some(x=>x[0]===st.clStart)?st.clStart:"adm";
+/* claude.ai hands neither ?go= nor # to the artifact frame and cuts the link to the opening tab (COOP), so the page can't know which button was pressed on the website: by default it asks with one tap (launcher), or opens a fixed page */
+const CLSTART=[["ask","ให้เลือกทุกครั้ง"],["adm","Admission round"],["lcase","Long case"],["legend","Legendary round"],["last","หน้าล่าสุดที่ใช้"]];
+const clStart=()=>CLSTART.some(x=>x[0]===st.clStart)?st.clStart:"ask";
 function startPath(){if((location.hash||"").replace(/^#\/?/,""))return "";let g="";try{g=new URLSearchParams(location.search).get("go")||"";}catch(e){}
-  if(!g&&IN_FRAME){const cs=clStart();if(cs==="last")g=st.lastRoute||"";else g=(st.lastWard&&WARDS[st.lastWard]?st.lastWard:WL[0].id)+"/"+cs;}
+  if(!g&&IN_FRAME){const cs=clStart();if(cs==="last")g=st.lastRoute||"";else g=(st.lastWard&&WARDS[st.lastWard]?st.lastWard:WL[0].id)+"/"+(cs==="ask"?"launch":cs);}
   return /^[\w-]+(\/[\w-]+)?$/.test(g)&&WARDS[g.split("/")[0]]?g:"";}
 function noteRoute(){if(!ward||!RESTORE.includes(view))return;const r=ward+"/"+view;if(st.lastRoute!==r){st.lastRoute=r;st.lastRouteT=now();persist();if(cl)cloudPush();}}
 window.addEventListener("hashchange",()=>setTimeout(noteRoute,0));
