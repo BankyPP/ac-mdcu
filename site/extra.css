@@ -197,3 +197,15 @@ details.tcard .tools{margin-top:10px}
 .lcinfo{border-left:4px solid var(--hl);padding-left:10px}
 .lcans{border-left:4px solid var(--right);padding-left:10px}
 .lcinfo ul,.lcans ul{margin:4px 0;padding-left:20px} .lcinfo p,.lcans p{margin:4px 0}
+/* ---------- seen elsewhere ---------- */
+.field.seen{border-color:var(--warn);color:var(--warn);background:var(--warn-soft)}
+.field.seen b{color:var(--warn)}
+.field.seen.rel{border-style:dashed}
+.field.seen.new{border-color:var(--rule);color:var(--muted);background:transparent}
+.field.seen.new b{color:var(--muted)}
+.seenbox{border-left:4px solid var(--warn);background:var(--warn-soft);border-radius:4px;padding:8px 10px;margin:8px 0;font-size:14px;overflow-wrap:anywhere}
+.seenbox>div{margin:3px 0}
+.seenbox .hgrp{display:inline-flex;align-items:center;gap:4px;margin-right:10px;flex-wrap:wrap}
+.legban{position:sticky;top:52px;z-index:14;display:flex;align-items:center;gap:8px;flex-wrap:wrap;max-width:760px;margin:0 auto;padding:8px 16px;background:var(--warn-soft);border-bottom:1px solid var(--warn);font-size:14px}
+.legban span{flex:1;min-width:0}
+.legban .btn{padding:4px 12px;min-height:32px;font-size:13.5px}

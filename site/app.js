@@ -31,6 +31,8 @@ WL.forEach(w=>{
   W.RID2ID={};W.byRid={};QB.forEach(q=>{W.RID2ID[q.rid]=q.id;W.byRid[q.rid]=q;});
   const seen={};QB.forEach(q=>{let u=[q.set,q.ro,q.file,q.page,q.orig,(q.stem||"").slice(0,48)].join("|");if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;});
   W.byU={};QB.forEach(q=>{W.byU[q.uid]=q;});
+  /* related questions (data/dups.js: groups of set|ro|orig) → W.REL[uid] = [other uids] */
+  {const k2u={};QB.forEach(q=>{k2u[q.set+"|"+q.ro+"|"+q.orig]=q.uid;});W.REL={};(W.DUP||[]).forEach(g=>{const us=g.map(k=>k2u[k]).filter(Boolean);us.forEach(u=>{W.REL[u]=us.filter(x=>x!==u);});});}
   W.sets=[...new Set(QB.map(setKey))];
   W.R=s=>String(s==null?"":s).replace(/(ข้อ(?:ถัดไป)?\s*)(\d[\d,\s]*(?:\([^()]*\)[\d,\s]*)*)/g,(m,p,nums)=>p+nums.replace(/\([^()]*\)|\d+/g,t=>t[0]==="("?W.R(t):((+t>=10&&W.RID2ID[+t])?W.RID2ID[+t]:t)));
   /* Unit round banks (<dir>/unit_*.js → W.UNIT.push({id,title,short,src,QB:[…]})): new case-based questions per lecture, shared by both phases */
@@ -56,6 +58,7 @@ function PWof(S,id){
   P.unit=P.unit||{};P.unit.att=P.unit.att||{};        /* Unit round answers (both phases share) */
   P.morn=P.morn||{};                                   /* Morning round: {1|2: {day, list, ans, ts}} */
   P.adm=P.adm||{cur:null,ans:null,next:null,n:0,right:0,recent:[],ts:0};   /* Admission round */
+  P.seen=P.seen||{};   /* where each question has been shown: {uid: {roundKey: firstTs}} */
   P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
   return P;
 }
@@ -112,7 +115,7 @@ function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]
 function show(v){
   view=v;const quiz=["svc","sess","adm","exam","lrev","admq"].includes(v);
   clearInterval(show._t);
-  $("nav").hidden=!quiz;$("exnav").hidden=v!=="exam";$("openSheet").hidden=!quiz;$("homeBtn").hidden=v==="wards";paintQR();
+  $("nav").hidden=!quiz;$("exnav").hidden=v!=="exam";paintLegBan();$("openSheet").hidden=!quiz;$("homeBtn").hidden=v==="wards";paintQR();
   const w=ward&&W_();const fill=(t,ty)=>String(t).replace(/\{short\}/g,w.cfg.short||w.cfg.id).replace(/\{type\}/g,ty||"");
   $("brand").classList.toggle("long",!!w&&!quiz);
   $("brand").textContent=w?(quiz?fill(CFG.quizBrand||"AC {short} {type}","MCQ"):fill(CFG.homeBrand||w.cfg.brand||w.cfg.name)):(CFG.siteName||CFG.title||"คลังข้อสอบเก่า");
@@ -280,6 +283,33 @@ const legIdx=()=>view==="exam"?P_().leg.cur:Math.max(0,Math.min((legPaper().list
 function curQ(){if(view==="adm")return P_().adm.cur;if(view==="admq"){const it=bank[st.admSel];return it&&it.q;}if(view==="lrev"||view==="exam"){const X=legPaper();return X?legQ(X.list[legIdx()]):null;}if(isSess()){const s=P_().sess;return W_().byU[s.list[s.cur]];}return svcQ();}
 function doneAns(q){if(view==="admq"){const it=bank[st.admSel];return it&&it.a!=null?it.a:undefined;}if(view==="lrev"){const a=bank[st.legSel].ans[q.uid];return a==null?-2:a;}if(isAdv()){const h=hist(P_(),q.uid,P_().sess.hp,true);return h.length?h[h.length-1][0]:null;}if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
 
+/* ---------------- seen elsewhere: which rounds a question (or a related question) has already appeared in ---------------- */
+const RKL={service:"service round",grand:"grand round",morning:"morning round",staff:"ward staff round",quality:"quality round",unit:"unit round",advisor:"advisor round",topic:"advisor round (รายหัวข้อ)",redo:"รอบทำข้อผิดซ้ำ",phase2:"ทบทวนก่อนสอบ (Phase 2)",legend:"legendary round",adm:"admission round"};
+const RKO=Object.keys(RKL);
+function curRK(){if(view==="svc")return "service";if(view==="adm"||view==="admq")return "adm";if(view==="exam"||view==="lrev")return "legend";
+  if(view==="sess"){const k=(P_().sess||{}).kind||"";return k.startsWith("p2")?"phase2":RKL[k]?k:"grand";}return "";}
+function markSeen(q,rk){if(!q||!rk)return;const P=P_(),m=P.seen[q.uid]||(P.seen[q.uid]={});if(!m[rk]){m[rk]=now();save();}}
+const seenIn=(P,u)=>Object.keys(P.seen[u]||{}).sort((a,b)=>RKO.indexOf(a)-RKO.indexOf(b));
+function relSeen(P,W,u){const o=new Set();(W.REL[u]||[]).forEach(x=>seenIn(P,x).forEach(k=>o.add(k)));return RKO.filter(k=>o.has(k));}
+const rkNames=ks=>ks.map(k=>RKL[k]||k).join(", ");
+function seenFields(q,rk){const P=P_(),W=W_();let h="";
+  const a=seenIn(P,q.uid).filter(k=>k!==rk),b=relSeen(P,W,q.uid);
+  if(a.length)h+=`<span class="field seen"><b>เคยเจอใน</b>${esc(rkNames(a))}</span>`;
+  if(b.length)h+=`<span class="field seen rel"><b>ข้อคล้ายเคยเจอใน</b>${esc(rkNames(b))}</span>`;
+  return h;}
+/* explanation: the same question's earlier answers in other rounds (correct or not), and the related questions in the bank */
+function seenHistHTML(q,rk){const P=P_(),W=W_(),g={},L_=[];
+  const add=(x,ph)=>{const r=x[2]||"?";if(r===rk)return;(g[r]=g[r]||[]).push([x[0],x[1],ph]);};
+  if(q.unit)(P.unit.att[q.uid]||[]).forEach(x=>add(x,0));else [1,2].forEach(ph=>(P.att[ph][q.uid]||[]).forEach(x=>add(x,ph)));
+  RKO.concat(["?"]).forEach(r=>{if(!g[r])return;L_.push(`<span class="hgrp"><b>${r==="?"?"ก่อนหน้านี้ (ไม่ได้บันทึก round)":esc(RKL[r])}</b> ${g[r].map(x=>`<span class="hb ${x[0]===q.ans?"ok":"no"}" title="${x[2]?"Phase "+x[2]+" · ":""}${fmtD(x[1])}">${x[0]>=0?L[x[0]]:"–"}</span>`).join("")}</span>`);});
+  const onlySeen=seenIn(P,q.uid).filter(k=>k!==rk&&!g[k]);
+  const rel=(W.REL[q.uid]||[]).map(u=>W.byU[u]).filter(Boolean);
+  if(!L_.length&&!onlySeen.length&&!rel.length)return "";
+  let h=`<div class="seenbox">`;
+  if(L_.length)h+=`<div><span class="hint">ข้อนี้เคยตอบใน round อื่น:</span> ${L_.join(" ")}</div>`;
+  if(onlySeen.length)h+=`<div><span class="hint">เคยเจอ (ยังไม่ได้ตอบ) ใน:</span> ${esc(rkNames(onlySeen))}</div>`;
+  if(rel.length)h+=`<div><span class="hint">ข้อคล้ายกันในคลัง:</span> ${rel.map(x=>`<button class="qref" data-u="${esc(x.uid)}">ข้อ ${x.id}</button> <span class="hint">${esc(x.set)} ${esc(x.ro)}${seenIn(P,x.uid).length?" · เคยเจอใน "+esc(rkNames(seenIn(P,x.uid))):""}</span>`).join(" · ")}</div>`;
+  return h+`</div>`;}
 function rQuiz(){
   const W=W_(),P=P_(),R=W.R,q=curQ();
   if(!q){$("main").innerHTML=`<div class="empty">ไม่มีข้อในชุดนี้</div>`;return;}
@@ -292,7 +322,7 @@ function rQuiz(){
   else if(isAdv()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · อ่านเฉลย · ประวัติ${s.hp==="p"?` Phase ${s.ph}`:"ทั้ง 2 Phase"}</div>`;}
   else if(isSess()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · Phase ${s.ph}</div>`;}
   const lab=q.adm?["เคส","Admission"]:q.unit?["Lecture","Unit"]:[CFG.setLabel||"ปี",CFG.roLabel||"Rotation"];
-  h+=`<div class="qhead"><div class="qnum">${view==="lrev"?legIdx()+1:q.adm?"A":q.id}.</div><div class="fields"><span class="field"><b>${lab[0]}</b>${esc(q.set)}</span><span class="field"><b>${lab[1]}</b>${esc(q.ro)}</span></div>${q.adm?"":`<button class="flag" id="flagBtn" aria-pressed="${flagged(P,q.uid)}" title="ทำเครื่องหมายข้อที่ยังไม่มั่นใจ">⚑ ไม่มั่นใจ</button>`}</div>`;
+  h+=`<div class="qhead"><div class="qnum">${view==="lrev"?legIdx()+1:q.adm?"A":q.id}.</div><div class="fields"><span class="field"><b>${lab[0]}</b>${esc(q.set)}</span><span class="field"><b>${lab[1]}</b>${esc(q.ro)}</span>${view==="lrev"?legPreFields(legPaper(),q.uid):seenFields(q,curRK())}</div>${q.adm?"":`<button class="flag" id="flagBtn" aria-pressed="${flagged(P,q.uid)}" title="ทำเครื่องหมายข้อที่ยังไม่มั่นใจ">⚑ ไม่มั่นใจ</button>`}</div>`;
   h+=`<p class="stem">${q.stem}</p>`;
   if(!q.img&&q.imgNote)h+=`<div class="img-missing">🖼 ${q.imgNote}</div>`;
   if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
@@ -309,7 +339,8 @@ function rQuiz(){
     h+=`<details class="pre" id="preBox" ${has?"open":""}><summary>✎ ทด / จดก่อนตอบ</summary>${noteHTML("pre",p,q)}</details>`;
   }else h+=explain(q,done,R,p);
   $("main").innerHTML=h;
-  bindQuiz(q,locked);
+  bindQuiz(q,locked);bindRefs();
+  if(view!=="lrev"&&view!=="admq")markSeen(q,curRK());
   paintNav();
 }
 function paintNav(){
@@ -340,8 +371,9 @@ function confirmAns(){
   if(pick===null)return;const P=P_(),q=curQ(),p=isSess()?P.sess.ph:ph();
   if(view==="adm"){admAnswer(pick);return;}
   if(view==="admq"){const it=bank[st.admSel];if(it){admBank(ward,it.q,pick);}rQuiz();return;}
-  if(q.unit)(P.unit.att[q.uid]=P.unit.att[q.uid]||[]).push([pick,now()]);
-  else (P.att[p][q.uid]=P.att[p][q.uid]||[]).push([pick,now()]);
+  const rk=curRK();
+  if(q.unit)(P.unit.att[q.uid]=P.unit.att[q.uid]||[]).push([pick,now(),rk]);
+  else (P.att[p][q.uid]=P.att[p][q.uid]||[]).push([pick,now(),rk]);
   if(isSess()){const s=P.sess;s.ans[q.uid]=pick;s.ts=now();
     if(s.kind==="morning"){const m=P.morn[s.ph];if(m&&m.day===s.day){m.ans[q.uid]=pick;m.ts=now();}}}
   else svcS().cur=q.uid;
@@ -361,6 +393,9 @@ function step(d){
   const t=nx||(d>0?v[0]:v[v.length-1]);if(t.uid!==q.uid){svcS().cur=t.uid;save();rQuiz();window.scrollTo(0,0);}
 }
 $("prev").onclick=()=>step(-1);$("next").onclick=()=>step(1);$("exSub").onclick=()=>legAskSubmit();
+/* while a Legendary exam runs, every other page of that ward shows a bar to go back or submit */
+function paintLegBan(){const b=$("legban");if(!b)return;const X=ward&&WARDS[ward]&&st.w[ward]&&st.w[ward].leg;b.hidden=!X||view==="exam";if(!b.hidden)$("legbanT").textContent=hms(X.end-now());}
+$("legbanGo").onclick=()=>go(ward+"/exam");$("legbanSub").onclick=()=>legAskSubmit();
 
 function explain(q,done,R,p){
   const ok=done===q.ans,skip=done!=null&&done<0,P=P_(),W=W_(),s=isSess()?P.sess:null,adv=isAdv();
@@ -381,7 +416,9 @@ function explain(q,done,R,p){
   else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;}
   if(q.guide)h+=`<div class="guide">📘 <b>อ้างอิง${q.adm||q.unit?"":" guideline"}:</b> ${q.adm?esc(q.guide):q.guide}</div>`;
   if(q.flag)h+=`<span class="tag warn">⚠ คีย์ไม่ชัวร์ / โจทย์ต้นฉบับไม่ครบ</span>`;
-  h+=`</div>`;if(q.key)h+=`<div class="tagline"><span class="tag">คีย์ในไฟล์: ${q.key}</span></div>`;
+  h+=`</div>`;
+  if(view==="lrev")h+=legPreHTML(legPaper(),q);else if(!q.adm)h+=seenHistHTML(q,curRK());
+  if(q.key)h+=`<div class="tagline"><span class="tag">คีย์ในไฟล์: ${q.key}</span></div>`;
   if(q.adm)h+=`<p class="hint" style="margin:4px 0 0">โจทย์และเฉลยข้อนี้ AI สร้างขึ้นใหม่ อาจผิดพลาดได้ ควรเทียบกับตำรา/guideline</p>`;
   if(adv)h+=advBox(q);
   {const gi=(q.gray||"").indexOf(" — ");if(gi>=0)h+=`<div class="tagline"><span class="tag">ส่วนที่เหลือของโจทย์ต้นฉบับ: ${esc(q.gray.slice(gi+3))}</span></div>`;}
@@ -1004,7 +1041,21 @@ function legDraw(n){const pools=legPools(),ks=Object.keys(pools).filter(k=>pools
   const tot=ks.reduce((a,k)=>a+w[k],0)||1,cnt={};ks.forEach(k=>{cnt[k]=Math.min(pools[k].length,Math.floor(n*w[k]/tot));});
   let sum=ks.reduce((a,k)=>a+cnt[k],0);
   while(sum<n){const av=ks.filter(k=>cnt[k]<pools[k].length);if(!av.length)break;cnt[av[Math.floor(Math.random()*av.length)]]++;sum++;}
-  const src={},list=[];ks.forEach(k=>shuffle(pools[k]).slice(0,cnt[k]).forEach(u=>{src[u]=k;list.push(u);}));return {list:shuffle(list),src};}
+  const src={},list=[];ks.forEach(k=>shuffle(pools[k]).slice(0,cnt[k]).forEach(u=>{src[u]=k;list.push(u);}));
+  /* every topic of the old-exam bank gets at least one question when possible: swap in an AC question for each missing topic, taking out one from the most crowded topic */
+  {const W=W_(),P=P_(),p=ph(),tp=u=>{const q=W.byU[u];return q&&!q.unit?topicOf(W,q):"";},cnt2={};list.forEach(u=>{const t=tp(u);if(t)cnt2[t]=(cnt2[t]||0)+1;});
+    const all=[...new Set(W.QB.map(q=>topicOf(W,q)))],inList=new Set(list);
+    shuffle(all).forEach(t=>{if(cnt2[t])return;const cand=W.QB.filter(q=>topicOf(W,q)===t&&!inList.has(q.uid));if(!cand.length)return;
+      const big=Object.keys(cnt2).sort((a,b)=>cnt2[b]-cnt2[a])[0];if(!big||cnt2[big]<2)return;
+      const outs=list.filter(u=>tp(u)===big),out=outs[Math.floor(Math.random()*outs.length)],q=cand[Math.floor(Math.random()*cand.length)];
+      list[list.indexOf(out)]=q.uid;delete src[out];inList.delete(out);inList.add(q.uid);src[q.uid]=atts(P,p,q.uid).length?"acd":"acn";cnt2[big]--;cnt2[t]=1;});}
+  return {list:shuffle(list),src};}
+function legPreFields(X,u){const o=(X&&X.pre||{})[u];if(!o)return `<span class="field seen new"><b>ก่อนสอบ</b>ข้อใหม่ ไม่เคยเจอ</span>`;let h="";
+  if(o.s&&o.s.length)h+=`<span class="field seen"><b>ก่อนสอบเคยเจอใน</b>${esc(rkNames(o.s))}</span>`;
+  if(o.r&&o.r.length)h+=`<span class="field seen rel"><b>ข้อคล้ายเคยเจอใน</b>${esc(rkNames(o.r))}</span>`;return h;}
+function legPreHTML(X,q){const o=(X&&X.pre||{})[q.uid],W=W_(),rel=(W.REL[q.uid]||[]).map(u=>W.byU[u]).filter(Boolean);
+  let t=!o?"ข้อนี้เป็นข้อใหม่ ก่อนสอบไม่เคยเจอทั้งข้อนี้และข้อคล้าย":[o.s&&o.s.length?`ซ้ำกับที่เคยเจอใน ${rkNames(o.s)}`:"",o.r&&o.r.length?`มีข้อคล้ายที่เคยเจอใน ${rkNames(o.r)}`:""].filter(Boolean).join(" · ");
+  return `<div class="seenbox"><div><span class="hint">ก่อนสอบ:</span> ${esc(t)}</div>${rel.length?`<div><span class="hint">ข้อคล้ายกันในคลัง:</span> ${rel.map(x=>`<button class="qref" data-u="${esc(x.uid)}">ข้อ ${x.id}</button> <span class="hint">${esc(x.set)} ${esc(x.ro)}</span>`).join(" · ")}</div>`:""}</div>`;}
 const legSrc=(X,u)=>(X.src&&X.src[u])||(String(u).startsWith("ADM|")?"adm":String(u).startsWith("U|")?"unit":"ac");
 function rLegend(){
   const W=W_(),P=P_(),E=examCfg(),QB=W.QB;
@@ -1012,22 +1063,24 @@ function rLegend(){
   if(!E){h+=`<div class="card"><h3>ยังไม่ได้ตั้งค่าการสอบจริงของวอร์ดนี้</h3><span class="rd" style="margin:0">บอก Claude ว่าวอร์ดนี้สอบ MCQ กี่ข้อ กี่นาที แล้วจะเปิด Legendary round ให้</span></div>`;$("main").innerHTML=h;return;}
   const PL=legPools(),avail=PL.acd.length+PL.acn.length+PL.unit.length+PL.adm.length,n=Math.min(E.n,avail),L_=P.leg;
   if(L_){const a=Object.keys(L_.ans).length,s=Object.keys(L_.star).filter(u=>L_.star[u]).length;
-    h+=`<button class="resume" id="lgResume"><span>กำลังสอบอยู่ · <b>เหลือเวลา <span id="lgLeft">${hms(L_.end-now())}</span></b><span class="rd">ตอบแล้ว ${a}/${L_.list.length} ข้อ${s?` · ★ ${s}`:""} · เวลาเดินต่อแม้ปิดหน้า เหมือนสอบจริง</span></span><span class="go">→</span></button>`;}
+    h+=`<button class="resume" id="lgResume"><span>กำลังสอบอยู่ · <b>เหลือเวลา <span id="lgLeft">${hms(L_.end-now())}</span></b><span class="rd">ตอบแล้ว ${a}/${L_.list.length} ข้อ${s?` · ★ ${s}`:""} · เวลาเดินต่อแม้ปิดหน้า เหมือนสอบจริง</span></span><span class="go">→</span></button><div class="row2" style="margin-top:0"><span class="spacer"></span><button class="btn primary" id="lgSub" type="button">Submit ส่งข้อสอบเลย</button></div>`;}
   else{
     h+=`<div class="card"><h3>MCQ ${n} ข้อ · ${E.min} นาที</h3><span class="rd">เหมือนสอบจริงของ ${esc(W.cfg.short||W.cfg.name)}${n<E.n?` (มีข้อให้สุ่มทั้งหมด ${avail} ข้อ จึงใช้ทั้งหมด)`:""} · เปลี่ยนคำตอบได้จนหมดเวลา · กด ☆ ติดดาวข้อที่อยากกลับมาดู · ส่งแล้วจะเห็นเกรดก่อน แล้วค่อยเลือกดู Short answer paper หรือ Long explanation</span>
-    <span class="rd">ข้อสอบจริงอาจตรงหรือไม่ตรงกับข้อสอบเก่า จึง<b>สุ่มสัดส่วนใหม่ทุกครั้ง</b>ว่าจะมีข้อสอบเก่าที่เคยทำ/ยังไม่เคยทำ โจทย์ Unit round และเคสจาก Admission round ของคุณอย่างละกี่ข้อ — บอกที่มาของแต่ละข้อตอนเฉลย</span>
+    <span class="rd">ข้อสอบจริงอาจตรงหรือไม่ตรงกับข้อสอบเก่า จึง<b>สุ่มทุกอย่างใหม่ทุกครั้ง</b> ทั้งจำนวนข้อที่ซ้ำกับที่เคยเจอ ข้อสอบเก่าที่ยังไม่เคยทำ โจทย์ Unit round และเคสจาก Admission round ของคุณ และพยายามให้มีครบทุกหัวข้อในชุดเดียว — ระหว่างทำไม่บอกข้อมูลอะไรเลย ตอนเฉลยจึงบอกว่าแต่ละข้อมาจากไหนและเคยเจอมาก่อนหรือไม่</span>
     <p class="hint" style="margin:0">ตอนนี้มีให้สุ่ม: ข้อสอบเก่า ${PL.acd.length+PL.acn.length} ข้อ (เคยทำใน Phase ${ph()} แล้ว ${PL.acd.length}) · Unit round ${PL.unit.length} · Admission ของคุณ ${PL.adm.length}</p>
     <div class="row2"><span class="spacer"></span><button class="btn primary" id="lgGo">เริ่มสอบ</button></div></div>`;}
   const H=bankItems("leg",ward).reverse();
   if(H.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">ผลสอบที่ผ่านมา</h2><div class="card" style="padding:6px">${H.map(x=>`<button class="srow" data-lk="${esc(x.key)}"><span class="lgg ${gCls(gradeOf(x.pct))}">${esc(gradeOf(x.pct))}</span><span class="meta" style="flex:1">${fmtDT(x.t1)} · ${x.n} ข้อ${x.auto?" · หมดเวลา":""}</span><span class="go">→</span></button>`).join("")}</div>`;
   $("main").innerHTML=h;
+  const ls=$("lgSub");if(ls)ls.onclick=legAskSubmit;
   const r=$("lgResume");if(r){r.onclick=()=>go(ward+"/exam");const el=$("lgLeft");show._t=setInterval(()=>{if(!document.body.contains(el)){clearInterval(show._t);return;}el.textContent=hms(P.leg?P.leg.end-now():0);},1000);}
   const g=$("lgGo");if(g)g.onclick=()=>{if(!confirm(`เริ่มสอบ ${n} ข้อ เวลา ${E.min} นาที?\nเวลาจะเดินทันทีและเดินต่อแม้ออกจากหน้านี้`))return;legStart();};
   document.querySelectorAll("[data-lk]").forEach(b=>b.onclick=()=>{st.legSel=b.dataset.lk;st.legMode="grade";persist();go(ward+"/lres");});
 }
 function legStart(){
-  const P=P_(),E=examCfg(),p=ph(),t=now(),D=legDraw(E.n);if(!D.list.length){toast("ยังไม่มีข้อให้สุ่ม");return;}
-  P.leg={id:t.toString(36),list:D.list,src:D.src,ans:{},star:{},cur:0,t0:t,end:t+E.min*60000,min:E.min,ph:p};qStop();save();go(ward+"/exam");
+  const P=P_(),W=W_(),E=examCfg(),p=ph(),t=now(),D=legDraw(E.n);if(!D.list.length){toast("ยังไม่มีข้อให้สุ่ม");return;}
+  const pre={};D.list.forEach(u=>{const a=seenIn(P,u),b=relSeen(P,W,u);if(a.length||b.length)pre[u]={s:a,r:b};});   /* where each question had been seen before this exam */
+  P.leg={id:t.toString(36),list:D.list,src:D.src,pre,ans:{},star:{},cur:0,t0:t,end:t+E.min*60000,min:E.min,ph:p};qStop();save();go(ward+"/exam");
 }
 function legPick(i){const X=P_().leg;if(!X)return;const u=X.list[X.cur];if(X.ans[u]===i)delete X.ans[u];else X.ans[u]=i;save();rExam();}
 function rExam(){
@@ -1035,7 +1088,8 @@ function rExam(){
   const i=X.cur,q=legQ(X.list[i]);if(!q){$("main").innerHTML=`<div class="empty">ไม่พบข้อนี้ในคลัง</div>`;paintNav();return;}
   const a=X.ans[q.uid],sd=!!X.star[q.uid],nA=Object.keys(X.ans).length,nS=Object.keys(X.star).filter(u=>X.star[u]).length;
   $("exT").textContent=hms(X.end-now());$("exN").innerHTML=`ตอบแล้ว <b>${nA}</b>/${X.list.length}${nS?` · ★ ${nS}`:""}`;
-  let h=`<div class="qhead"><div class="qnum">${i+1}.</div><div class="fields"><span class="field"><b>Legendary</b>${esc(W.cfg.short||"")}</span></div><button class="flag star" id="starBtn" aria-pressed="${sd}" title="ติดดาวไว้กลับมาดู">${sd?"★ ติดดาวแล้ว":"☆ ติดดาว"}</button></div>`;
+  /* real-exam feel: no source, year or "seen before" tags while answering */
+  let h=`<div class="qhead"><div class="qnum">${i+1}.</div><div class="fields"></div><button class="flag star" id="starBtn" aria-pressed="${sd}" title="ติดดาวไว้กลับมาดู">${sd?"★ ติดดาวแล้ว":"☆ ติดดาว"}</button></div>`;
   h+=`<p class="stem">${q.stem}</p>`;
   if(!q.img&&q.imgNote)h+=`<div class="img-missing">🖼 ${q.imgNote}</div>`;
   if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
@@ -1043,27 +1097,27 @@ function rExam(){
   h+=`<ul class="opts" role="radiogroup" aria-label="ตัวเลือก">${q.opts.map((o,j)=>`<li class="opt${a===j?" sel":""}" role="radio" tabindex="0" aria-checked="${a===j}" data-i="${j}"><span class="bub">${L[j]}</span><span class="txt">${esc(o)}</span></li>`).join("")}</ul>`;
   h+=`<div class="actions"><span class="hint">แตะช้อยเพื่อเลือก แตะซ้ำเพื่อยกเลิก เปลี่ยนได้จนกว่าจะส่ง · กด A–E ได้</span></div>`;
   {const has=noteHas("pre",X.ph,q.uid);h+=`<details class="pre" id="preBox" ${has?"open":""}><summary>✎ ทด / จด</summary>${noteHTML("pre",X.ph,q)}</details>`;}
-  $("main").innerHTML=h;
+  $("main").innerHTML=h;markSeen(q,"legend");
   {const pb=$("preBox");if(pb)pb.addEventListener("toggle",()=>{if(pb.open)mountNotes(pb);});mountNotes(document);}
   document.querySelectorAll(".opt").forEach(el=>{const f=()=>legPick(+el.dataset.i);el.onclick=f;el.onkeydown=e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();f();}};});
   $("starBtn").onclick=()=>{if(X.star[q.uid])delete X.star[q.uid];else X.star[q.uid]=1;save();rExam();};
   paintNav();
 }
 function legAskSubmit(){const X=P_().leg;if(!X)return;const n=X.list.length,a=Object.keys(X.ans).length,s=Object.keys(X.star).filter(u=>X.star[u]).length;
-  if(!confirm(`ส่งข้อสอบ?\nตอบแล้ว ${a}/${n} ข้อ${n-a?` · ยังไม่ได้ทำ ${n-a} ข้อ`:""}${s?` · ติดดาวไว้ ${s} ข้อ`:""}\nเหลือเวลา ${hms(X.end-now())}`))return;closeS(true);legSubmit(ward,false);}
-function legSubmit(wid,auto){
+  if(!confirm(`Submit ส่งข้อสอบ?\nตอบแล้ว ${a}/${n} ข้อ${n-a?` · ยังไม่ได้ทำ ${n-a} ข้อ`:""}${s?` · ติดดาวไว้ ${s} ข้อ`:""}\nเหลือเวลา ${hms(X.end-now())}`))return;closeS(true);legSubmit(ward,false,true);}
+function legSubmit(wid,auto,nav){
   const P=PWof(st,wid),X=P.leg,W=WARDS[wid];if(!X||!W)return;const t=Math.min(now(),X.end);let score=0;
   X.list.forEach(u=>{const q=legQw(wid,u),a=X.ans[u];if(q&&a!=null){if(a===q.ans)score++;const sr=legSrc(X,u);
-    if(sr==="unit")(P.unit.att[u]=P.unit.att[u]||[]).push([a,t]);else if(sr!=="adm")(P.att[X.ph][u]=P.att[X.ph][u]||[]).push([a,t]);}});
+    if(sr==="unit")(P.unit.att[u]=P.unit.att[u]||[]).push([a,t,"legend"]);else if(sr!=="adm")(P.att[X.ph][u]=P.att[X.ph][u]||[]).push([a,t,"legend"]);}});
   const n=X.list.length,pct=n?score/n*100:0,k="leg|"+wid+"|"+X.id;
   /* Admission cases are copied into the paper so it stays readable even if that case leaves the bank */
   const aq={};X.list.forEach(u=>{if(legSrc(X,u)==="adm"){const q=legQw(wid,u);if(q)aq[u]=q;}});
-  bankPut(k,{list:X.list,src:X.src||{},aq,ans:X.ans,star:X.star,n,score,pct,grade:gradeOf(pct),t0:X.t0,t1:t,min:X.min,auto:!!auto,ph:X.ph});
+  bankPut(k,{list:X.list,src:X.src||{},pre:X.pre||{},aq,ans:X.ans,star:X.star,n,score,pct,grade:gradeOf(pct),t0:X.t0,t1:t,min:X.min,auto:!!auto,ph:X.ph});
   P.leg=null;st.legSel=k;st.legMode="grade";save();
-  if(ward===wid&&["exam","legend","lres"].includes(view))go(wid+"/lres");
+  if(ward===wid&&(nav||["exam","legend","lres"].includes(view)))go(wid+"/lres");
   else{toast("หมดเวลา Legendary round — ระบบส่งข้อสอบให้แล้ว ดูผลได้ที่ Legendary round");if(view==="home"&&ward===wid)rHome();}
 }
-setInterval(()=>{WL.forEach(w=>{const P=st.w[w.id];if(P&&P.leg&&now()>=P.leg.end)legSubmit(w.id,true);});const el=$("exT");if(el&&view==="exam"&&P_().leg){const left=P_().leg.end-now();el.textContent=hms(left);el.classList.toggle("low",left<5*60e3);}},1000);
+setInterval(()=>{WL.forEach(w=>{const P=st.w[w.id];if(P&&P.leg&&now()>=P.leg.end)legSubmit(w.id,true);});paintLegBan();const el=$("exT");if(el&&view==="exam"&&P_().leg){const left=P_().leg.end-now();el.textContent=hms(left);el.classList.toggle("low",left<5*60e3);}},1000);
 function legSheet(){
   const W=W_(),X=legPaper(),ex=view==="exam",f=st.legF||"all";
   $("sheetTitle").textContent=ex?"กระดาษคำตอบ · Legendary round":`กระดาษคำตอบ · เกรด ${gradeOf(X.pct)}`;$("setChips").innerHTML="";
@@ -1077,7 +1131,7 @@ function legSheet(){
   const cur=legIdx();
   if(ex){$("rows").innerHTML=v.length?v.map(([q,i])=>{const a=X.ans[q.uid];return `<button class="srow${i===cur?" cur":""}" data-xi="${i}"><span class="n">${i+1}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b${a===j?" f":""}">${L[j]}</span>`).join("")}</span><span class="meta">${X.star[q.uid]?"★":""}${a==null?" ยังไม่ทำ":""}</span></button>`;}).join(""):`<div class="empty">ไม่มีข้อที่ตรงกับตัวกรองนี้</div>`;
     document.querySelectorAll("[data-xi]").forEach(b=>b.onclick=()=>{closeS();X.cur=+b.dataset.xi;save();rExam();window.scrollTo(0,0);});
-    $("sheetFoot").innerHTML=`<span class="hint">ยังไม่เฉลยจนกว่าจะส่ง · ★ = ติดดาวไว้</span><span class="spacer"></span><button class="btn primary" id="sheetSub" type="button">ส่งข้อสอบ</button>`;$("sheetSub").onclick=legAskSubmit;return;}
+    $("sheetFoot").innerHTML=`<span class="hint">ยังไม่เฉลยจนกว่าจะส่ง · ★ = ติดดาวไว้</span><span class="spacer"></span><button class="btn primary" id="sheetSub" type="button">Submit ส่งข้อสอบ</button>`;$("sheetSub").onclick=legAskSubmit;return;}
   rows(v.map(([q,i])=>({q:Object.assign({},q,{id:i+1,set:LSRS[legSrc(X,q.uid)]||"AC",ro:""}),a:X.ans[q.uid]==null?-2:X.ans[q.uid],cur:i===cur,meta:(X.star[q.uid]?"★ ":"")+(X.ans[q.uid]==null?"ไม่ได้ทำ · ":""),go:()=>{st.legIdx=i;persist();pick=null;rQuiz();window.scrollTo(0,0);}})),"ไม่มีข้อที่ตรงกับตัวกรองนี้");
   $("sheetFoot").innerHTML=`<span class="hint">เส้นเขียวรอบวง = เฉลย · ★ = ติดดาวไว้ตอนสอบ</span><span class="spacer"></span><button class="link" id="toLres">กลับไปผลสอบ</button>`;$("toLres").onclick=()=>{closeS(true);go(ward+"/lres");};
 }
@@ -1089,6 +1143,8 @@ function rLRes(){
   h+=`<div class="row2 center"><button class="btn${mode==="short"?" primary":""}" id="lrShort" type="button">Short answer paper</button><button class="btn" id="lrLong" type="button">Long explanation</button></div>`;
   if(mode==="short"){const f=st.lrF||"all",wr=qs.filter(q=>X.ans[q.uid]!=null&&X.ans[q.uid]!==q.ans).length;
     h+=`<div class="score">${X.score}<span style="font-size:22px;color:var(--muted)"> / ${X.n}</span></div><p class="statline" style="text-align:center"><b>${X.pct.toFixed(1)}%</b> · ถูก ${X.score} · ผิด ${wr} · ไม่ได้ทำ ${X.n-nA}${nS?` · ★ ${nS}`:""}</p>`;
+    {const pre=X.pre||{},sn=qs.filter(q=>pre[q.uid]&&pre[q.uid].s&&pre[q.uid].s.length).length,rl=qs.filter(q=>pre[q.uid]&&!(pre[q.uid].s&&pre[q.uid].s.length)&&pre[q.uid].r&&pre[q.uid].r.length).length;
+      if(X.pre)h+=`<p class="hint" style="text-align:center">ก่อนสอบ: เคยเจอข้อนั้นมาแล้ว ${sn} ข้อ · มีข้อคล้ายที่เคยเจอ ${rl} ข้อ · ข้อใหม่ ${qs.length-sn-rl} ข้อ</p>`;}
     {const c={};qs.forEach(q=>{const k=legSrc(X,q.uid);c[k]=(c[k]||0)+1;});h+=`<p class="hint" style="text-align:center">ชุดนี้สุ่มได้: ${["acd","acn","ac","unit","adm"].filter(k=>c[k]).map(k=>`${LSRS[k]||"ข้อสอบเก่า (AC)"} ${c[k]}`).join(" · ")}</p>`;}
     h+=`<p class="hint" style="text-align:center">เกณฑ์: A ≥80% · B+ 75 · B 70 · C+ 65 · C 60 · D+ 55 · D 50 · F &lt;50%</p>`;
     h+=`<div class="chips" id="lrF">${[["all","ทั้งหมด"],["wrong","ผิด"],["todo","ไม่ได้ทำ"],["star","★ ติดดาว"]].map(([v,t])=>`<button class="chip" data-v="${v}" aria-pressed="${f===v}">${t}</button>`).join("")}</div>`;
@@ -1418,6 +1474,7 @@ function mergeSt(a,b){
       if(a&&a.day===c.day&&(a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);
       else if(!a||c.day>a.day||(c.day===a.day&&(c.ts||0)>(a.ts||0)))l.morn[p]=c;});
     if((r.adm.ts||0)>(l.adm.ts||0))l.adm=r.adm;
+    for(const u in r.seen){const a=l.seen[u]||(l.seen[u]={}),b=r.seen[u];for(const k in b)a[k]=a[k]?Math.min(a[k],b[k]):b[k];}
     if(r.leg&&!bank["leg|"+id+"|"+r.leg.id]){if(!l.leg)l.leg=r.leg;else if(l.leg.id===r.leg.id){l.leg.ans=Object.assign({},r.leg.ans,l.leg.ans);l.leg.star=Object.assign({},r.leg.star,l.leg.star);}}
     if(l.leg&&bank["leg|"+id+"|"+l.leg.id])l.leg=null;
     if(r.lcCur&&!l.lcCur)l.lcCur=r.lcCur;
