@@ -109,7 +109,7 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist"].includes(v))v="home";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
   if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
@@ -126,7 +126,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch})[v]();
+  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -224,7 +224,7 @@ function rHome(){
     const sc=staffList().length;
     const mm=morning(false),ma=mm?mm.list.filter(u=>mm.ans[u]!==undefined).length:0;
     const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="legend"&&P.leg?'<span class="badge">กำลังสอบ</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
-    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
+    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
   }
   if(IN_FRAME&&HAS_CLAUDE())h+=clStartCard();
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
@@ -1198,6 +1198,7 @@ function rLegend(){
   let h=`<h1 class="h2">Legendary round</h1><p class="sub">จำลองสอบจริง จำนวนข้อและเวลาเท่ากับสอบจริงของวอร์ดนี้ ทำรวดเดียวโดยไม่เฉลยทีละข้อ ส่งแล้วได้เกรดทันที · หมดเวลาระบบส่งให้เอง ข้อที่ยังไม่ทำนับเป็นไม่ได้คะแนน</p>`;
   if(!E){h+=`<div class="card"><h3>ยังไม่ได้ตั้งค่าการสอบจริงของวอร์ดนี้</h3><span class="rd" style="margin:0">บอก Claude ว่าวอร์ดนี้สอบ MCQ กี่ข้อ กี่นาที แล้วจะเปิด Legendary round ให้</span></div>`;$("main").innerHTML=h;return;}
   const PL=legPools(),avail=PL.acd.length+PL.acn.length+PL.unit.length+PL.adm.length,n=Math.min(E.n,avail),L_=P.leg;
+  h+=`<div class="lgbig"><span class="w">สอบจริง ${esc(W.cfg.short||W.cfg.name)}</span><span><b>${E.n}</b> ข้อ</span><span class="dot">·</span><span><b>${E.min}</b> นาที</span></div>`;
   if(L_){const a=Object.keys(L_.ans).length,s=Object.keys(L_.star).filter(u=>L_.star[u]).length;
     h+=`<button class="resume" id="lgResume"><span>กำลังสอบอยู่ · <b>เหลือเวลา <span id="lgLeft">${hms(L_.end-now())}</span></b><span class="rd">ตอบแล้ว ${a}/${L_.list.length} ข้อ${s?` · ★ ${s}`:""} · เวลาเดินต่อแม้ปิดหน้า เหมือนสอบจริง</span></span><span class="go">→</span></button><div class="row2" style="margin-top:0"><span class="spacer"></span><button class="btn primary" id="lgSub" type="button">Submit ส่งข้อสอบเลย</button></div>`;}
   else{
@@ -1208,7 +1209,8 @@ function rLegend(){
     :`<label class="chk"><input type="checkbox" id="lgAI" ${st.legAI!==false&&legAIOK()?"checked":""} ${legAIOK()?"":"disabled"}><span><b>มีโจทย์ใหม่ที่ AI สร้างปนอยู่บางข้อ</b> — สุ่มจำนวนเองทุกครั้ง${legAIOK()?"":HAS_CLAUDE()?"":` · ต้องเปิดใน Claude${CFG.artifactUrl?` (<a href="${esc(artLink(ward+"/legend"))}" target="_blank" rel="noopener">เปิด Legendary round ใน Claude</a>)`:""} หรือใส่ API key ที่ Admission round ก่อน`}</span></label>
     <div class="row2"><span class="spacer"></span><button class="btn primary" id="lgGo">เริ่มสอบ</button></div>`}</div>`;}
   const H=bankItems("leg",ward).reverse();
-  if(H.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">ผลสอบที่ผ่านมา</h2><div class="card" style="padding:6px">${H.map(x=>`<button class="srow" data-lk="${esc(x.key)}"><span class="lgg ${gCls(gradeOf(x.pct))}">${esc(gradeOf(x.pct))}</span><span class="meta" style="flex:1">${fmtDT(x.t1)} · ${x.n} ข้อ${x.auto?" · หมดเวลา":""}</span><span class="go">→</span></button>`).join("")}</div>`;
+  h+=`<button class="resume" id="lgHist" style="margin-top:18px"><span>📜 <b>ประวัติการสอบ Legendary round</b><span class="rd">${H.length?`สอบไปแล้ว ${H.length} ครั้ง · ดูผลและเฉลยย้อนหลังได้ทุกครั้ง`:"ยังไม่เคยสอบ"}${HAS_CLAUDE()?" · ส่งผลสอบไปดูในเว็บได้":""}</span></span><span class="go">→</span></button>`;
+  if(H.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:18px">ล่าสุด</h2>`+legRows(H.slice(0,3),H.length);
   $("main").innerHTML=h;
   const ls=$("lgSub");if(ls)ls.onclick=legAskSubmit;
   const r=$("lgResume");if(r){r.onclick=()=>go(ward+"/exam");const el=$("lgLeft");show._t=setInterval(()=>{if(!document.body.contains(el)){clearInterval(show._t);return;}el.textContent=hms(P.leg?P.leg.end-now():0);},1000);}
@@ -1217,7 +1219,51 @@ function rLegend(){
   const gx=$("lgAIx");if(gx)gx.onclick=()=>{if(LG){LG.halt="abort";LG.stop&&LG.stop();}};
   const gn=$("lgAInow");if(gn)gn.onclick=()=>{if(LG){LG.halt="now";LG.stop&&LG.stop();}};
   document.querySelectorAll("[data-lk]").forEach(b=>b.onclick=()=>{st.legSel=b.dataset.lk;st.legMode="grade";persist();go(ward+"/lres");});
+  $("lgHist").onclick=()=>go(ward+"/lhist");
 }
+/* ---------------- Legendary history: every paper, and sending papers made in Claude to the website ---------------- */
+function legRows(H,total){return `<div class="card" style="padding:6px">${H.map((x,i)=>{const nai=Object.values(x.src||{}).filter(v=>v==="ai").length,used=Math.round(((x.t1||0)-(x.t0||0))/1000);
+  return `<button class="srow" data-lk="${esc(x.key)}"><span class="lgg ${gCls(gradeOf(x.pct))}">${esc(gradeOf(x.pct))}</span><span class="meta" style="flex:1"><b>ครั้งที่ ${total-i}</b> · ${fmtDT(x.t1)}<br>${x.score}/${x.n} (${(+x.pct||0).toFixed(1)}%) · ${x.auto?"หมดเวลา":"ใช้เวลา "+mmss(used)}${nai?` · โจทย์ AI ${nai}`:""}${x.via==="claude"||nai?" · ทำใน Claude":x.via==="web"?" · ทำในเว็บ":""}</span><span class="go">→</span></button>`;}).join("")}</div>`;}
+function rLHist(){
+  const H=bankItems("leg",ward).reverse(),n=H.length;
+  let h=`<h1 class="h2">ประวัติ Legendary round</h1><p class="sub">ผลสอบทุกครั้ง แตะครั้งไหนก็ได้เพื่อดูเกรด Short answer paper และ Long explanation ของครั้งนั้น (รวมโจทย์ที่ AI สร้างในชุดนั้น)</p>`;
+  if(!n){h+=`<div class="empty">ยังไม่เคยสอบ Legendary round${HAS_CLAUDE()?"":" ในเว็บนี้ — ผลสอบที่ทำใน Claude ส่งมาดูที่นี่ได้ด้วยปุ่ม “ส่งไปดูในเว็บ” ในหน้าประวัติของ Claude"}</div>`;}
+  else{const ps=H.map(x=>+x.pct||0),best=H.reduce((a,x)=>(+x.pct||0)>(+a.pct||0)?x:a,H[0]),avg=ps.reduce((a,b)=>a+b,0)/n;
+    h+=`<div class="card"><div class="lhstat"><span><b>${n}</b>ครั้ง</span><span><b>${avg.toFixed(1)}%</b>เฉลี่ย</span><span><b>${esc(gradeOf(best.pct))}</b>ดีสุด (${(+best.pct).toFixed(1)}%)</span><span><b>${esc(gradeOf(H[0].pct))}</b>ล่าสุด</span></div>
+      ${n>1?`<div class="lhtrend" aria-label="เกรดตามลำดับครั้ง">${H.slice().reverse().map((x,i)=>`<span class="lgg ${gCls(gradeOf(x.pct))}" title="ครั้งที่ ${i+1} · ${(+x.pct).toFixed(1)}%">${esc(gradeOf(x.pct))}</span>`).join("")}</div>`:""}</div>`;
+    h+=legRows(H,n);}
+  if(HAS_CLAUDE()&&n&&CFG.siteUrl){const un=H.filter(x=>!x.sent).length;
+    h+=`<div class="card"><h3>ส่งผลสอบไปดูในเว็บ</h3><span class="rd">เว็บ (GitHub) กับ Claude เก็บข้อมูลแยกกัน ปุ่มนี้เปิดเว็บพร้อมผลสอบและเฉลยครบทุกข้อ รวมโจทย์ที่ AI สร้าง — เปิดแล้วเว็บจะเก็บไว้ในประวัติให้ (ถ้าเข้าสู่ระบบในเว็บ จะเก็บในบัญชีด้วย)</span>
+      <div class="row2"><button class="btn${un?" primary":""}" id="lhSend" type="button">${un?`ส่งที่ยังไม่ได้ส่ง (${un} ครั้ง)`:"ส่งทั้งหมดอีกครั้ง"}</button></div><p class="hint" id="lhNote" style="margin:6px 0 0"></p></div>`;}
+  h+=`<div class="stack" style="margin-top:14px"><button class="btn ghost" id="lhBack" type="button">กลับ Legendary round</button></div>`;
+  $("main").innerHTML=h;
+  document.querySelectorAll("[data-lk]").forEach(b=>b.onclick=()=>{st.legSel=b.dataset.lk;st.legMode="grade";persist();go(ward+"/lres");});
+  $("lhBack").onclick=()=>go(ward+"/legend");
+  const sb=$("lhSend");if(sb)sb.onclick=()=>{const L_=H.filter(x=>!x.sent);legSendWeb((L_.length?L_:H).map(x=>x.key));};
+}
+/* papers → link to the website: #legs=<z|j>.<base64url of {w, b:{bankKey: item}}> (deflate when the browser has CompressionStream) */
+const b64u=u8=>{let s="";for(let i=0;i<u8.length;i+=0x8000)s+=String.fromCharCode.apply(null,u8.subarray(i,i+0x8000));return btoa(s).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");};
+const ub64=t=>{t=t.replace(/-/g,"+").replace(/_/g,"/");const s=atob(t),u=new Uint8Array(s.length);for(let i=0;i<s.length;i++)u[i]=s.charCodeAt(i);return u;};
+async function packStr(str){const u=new TextEncoder().encode(str);if(typeof CompressionStream==="function"){try{const b=await new Response(new Blob([u]).stream().pipeThrough(new CompressionStream("deflate-raw"))).arrayBuffer();return "z."+b64u(new Uint8Array(b));}catch(e){}}return "j."+b64u(u);}
+async function unpackStr(t){const k=t.slice(0,2),u=ub64(t.slice(2));if(k==="z."){const b=await new Response(new Blob([u]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).arrayBuffer();return new TextDecoder().decode(b);}return new TextDecoder().decode(u);}
+function legBundle(keys){const b={};keys.forEach(k=>{const x=bank[k];if(!x)return;b[k]=x;(x.list||[]).forEach(u=>{if(String(u).startsWith("LAI|")){const lk="lai|"+k.split("|")[1]+"|"+u;if(bank[lk])b[lk]=bank[lk];}});});return b;}
+async function legSendWeb(keys){const note=$("lhNote");
+  try{const d=await packStr(JSON.stringify({w:ward,b:legBundle(keys)})),url=CFG.siteUrl.replace(/#.*$/,"")+"#legs="+d;
+    keys.forEach(k=>{const x=bank[k];if(x&&!x.sent){x.sent=now();bankPut(k,x);}});
+    const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
+    if(note)note.innerHTML=`เปิดเว็บในแท็บใหม่แล้ว (ลิงก์ยาว ${Math.round(url.length/1024)} KB) — ถ้าไม่เปิด <button class="linkbtn" id="lhCopy">คัดลอกลิงก์</button> ไปเปิดในเบราว์เซอร์เอง`;
+    const c=$("lhCopy");if(c)c.onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว");}catch(e){prompt("คัดลอกลิงก์นี้ไปเปิดในเบราว์เซอร์:",url);}};
+  }catch(e){console.warn(e);toast("สร้างลิงก์ไม่สำเร็จ");}}
+/* website side: a #legs= link adds those papers (and their AI questions) to this browser's history */
+function checkLegImport(){const m=/[#&]legs=([zj]\.[A-Za-z0-9_-]+)/.exec(location.hash||"");if(!m)return false;
+  try{history.replaceState(null,"",location.pathname+location.search+"#/");}catch(e){location.hash="#/";}
+  (async()=>{try{const o=JSON.parse(await unpackStr(m[1]));const w=o&&WARDS[o.w]?o.w:null,b=o&&o.b;if(!w||!b||typeof b!=="object")throw 0;
+    const keys=Object.keys(b).filter(k=>/^(leg|lai)\|/.test(k)&&k.split("|")[1]===w);let np=0;
+    keys.forEach(k=>{const v=b[k];if(!v||typeof v!=="object")return;if(k.startsWith("leg|")){v.imp=v.imp||now();np++;}if(!bank[k]||(v.ts||0)>=(bank[k].ts||0)){bank[k]=v;cloudBank(k);}});
+    try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){}
+    toast(`นำเข้าผลสอบ Legendary จาก Claude ${np} ครั้งแล้ว`);go(w+"/lhist");}
+  catch(e){console.warn(e);alert("ลิงก์ผลสอบไม่ถูกต้อง หรือไม่ครบ (ลองคัดลอกลิงก์ใหม่ทั้งหมด)");}})();
+  return true;}
 function legStart(aiQs){
   aiQs=aiQs||[];const P=P_(),W=W_(),E=examCfg(),p=ph(),t=now(),id=t.toString(36),D=legDraw(Math.max(0,E.n-aiQs.length));if(!D.list.length&&!aiQs.length){toast("ยังไม่มีข้อให้สุ่ม");return;}
   aiQs.forEach((q,i)=>{q.lai=1;q.uid="LAI|"+id+"|"+(i+1);q.set="AI สร้างใหม่";q.ro=fmtD(t);q.ts=t;bankPut("lai|"+ward+"|"+q.uid,{q,h:[],paper:id});D.src[q.uid]="ai";D.list.push(q.uid);});
@@ -1255,7 +1301,7 @@ function legSubmit(wid,auto,nav){
   const n=X.list.length,pct=n?score/n*100:0,k="leg|"+wid+"|"+X.id;
   /* Admission cases are copied into the paper so it stays readable even if that case leaves the bank */
   const aq={};X.list.forEach(u=>{const sr0=legSrc(X,u);if(sr0==="adm"||sr0==="ai"){const q=legQw(wid,u);if(q)aq[u]=q;}});
-  bankPut(k,{list:X.list,src:X.src||{},pre:X.pre||{},aq,ans:X.ans,star:X.star,n,score,pct,grade:gradeOf(pct),t0:X.t0,t1:t,min:X.min,auto:!!auto,ph:X.ph});
+  bankPut(k,{list:X.list,src:X.src||{},pre:X.pre||{},aq,ans:X.ans,star:X.star,n,score,pct,grade:gradeOf(pct),t0:X.t0,t1:t,min:X.min,auto:!!auto,ph:X.ph,via:HAS_CLAUDE()?"claude":"web"});
   P.leg=null;st.legSel=k;st.legMode="grade";save();
   if(ward===wid&&(nav||["exam","legend","lres"].includes(view)))go(wid+"/lres");
   else{toast("หมดเวลา Legendary round — ระบบส่งข้อสอบให้แล้ว ดูผลได้ที่ Legendary round");if(view==="home"&&ward===wid)rHome();}
@@ -1294,9 +1340,10 @@ function rLRes(){
     const v=X.list.map((u,i)=>[legQ(u),i]).filter(([q])=>{if(!q)return false;const a=X.ans[q.uid];return f==="wrong"?a!=null&&a!==q.ans:f==="todo"?a==null:f==="star"?!!X.star[q.uid]:true;});
     h+=`<div class="card" style="padding:6px;margin-top:10px"><div class="rows" style="padding:0">${v.map(([q,i])=>{const a=X.ans[q.uid],nd=a==null;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");return `<button class="srow" data-li="${i}"><span class="n">${i+1}</span><span class="bs">${bs}</span><span class="meta">${X.star[q.uid]?"★ ":""}${nd?"ไม่ได้ทำ":a===q.ans?"✓":"✗"} · ${LSRS[legSrc(X,q.uid)]||"AC"}</span></button>`;}).join("")||`<div class="empty">ไม่มีข้อที่ตรงกับตัวกรองนี้</div>`}</div></div><p class="hint">แตะข้อไหนก็ได้เพื่อดูเฉลยละเอียดของข้อนั้น</p>`;}
   else h+=`<p class="hint" style="text-align:center">ดูคะแนนและข้อที่ถูก/ผิดใน Short answer paper หรืออ่านเฉลยทีละข้อใน Long explanation</p>`;
-  h+=`<div class="stack" style="margin-top:14px"><button class="btn ghost" id="lrBack" type="button">กลับ Legendary round</button></div>`;
+  h+=`<div class="stack" style="margin-top:14px">${HAS_CLAUDE()&&CFG.siteUrl?`<button class="btn" id="lrWeb" type="button">ส่งผลสอบครั้งนี้ไปดูในเว็บ</button><p class="hint" id="lhNote" style="margin:0"></p>`:""}<button class="btn ghost" id="lrHist" type="button">ประวัติการสอบทั้งหมด</button><button class="btn ghost" id="lrBack" type="button">กลับ Legendary round</button></div>`;
   $("main").innerHTML=h;
   $("lrShort").onclick=()=>{st.legMode="short";persist();rLRes();};
+  $("lrHist").onclick=()=>go(ward+"/lhist");{const b=$("lrWeb");if(b)b.onclick=()=>legSendWeb([st.legSel]);}
   $("lrLong").onclick=()=>{st.legMode="short";st.legIdx=0;persist();go(ward+"/lrev");};
   $("lrBack").onclick=()=>go(ward+"/legend");
   document.querySelectorAll("#lrF [data-v]").forEach(b=>b.onclick=()=>{st.lrF=b.dataset.v;persist();rLRes();});
@@ -1743,7 +1790,7 @@ function rSignin(){
 const remember=()=>{if(ward){st.lastWard=ward;persist();}};
 window.addEventListener("hashchange",remember);
 /* opening without a page: take ?go=<ward>/<view> from a link; inside Claude, otherwise reopen the last page used there */
-const RESTORE=["home","adm","lcase","legend","exam","lres","advisor","report","unit","quality","service","grand","hy","kw","staff"];
+const RESTORE=["home","adm","lcase","legend","exam","lres","lhist","advisor","report","unit","quality","service","grand","hy","kw","staff"];
 /* claude.ai may not hand the link's page (?go= / #) to the artifact frame, so inside Claude the viewer picks where it opens: Admission (default), Long case, Legendary or the last page used */
 /* claude.ai hands neither ?go= nor # to the artifact frame and cuts the link to the opening tab (COOP), so the page can't know which button was pressed on the website: by default it asks with one tap (launcher), or opens a fixed page */
 const CLSTART=[["ask","ให้เลือกทุกครั้ง"],["adm","Admission round"],["lcase","Long case"],["legend","Legendary round"],["last","หน้าล่าสุดที่ใช้"]];
@@ -1753,7 +1800,7 @@ function startPath(){if((location.hash||"").replace(/^#\/?/,""))return "";let g=
   return /^[\w-]+(\/[\w-]+)?$/.test(g)&&WARDS[g.split("/")[0]]?g:"";}
 function noteRoute(){if(!ward||!RESTORE.includes(view))return;const r=ward+"/"+view;if(st.lastRoute!==r){st.lastRoute=r;st.lastRouteT=now();persist();if(cl)cloudPush();}}
 window.addEventListener("hashchange",()=>setTimeout(noteRoute,0));
-checkHashImport();
+if(!checkLegImport())checkHashImport();
 {const g=startPath();if(g){try{history.replaceState(null,"","#/"+g);}catch(e){location.hash="#/"+g;}}}
 route();noteRoute();
 if(HAS_CLAUDE())initClaude();else initFB();
