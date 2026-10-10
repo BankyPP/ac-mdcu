@@ -219,3 +219,5 @@ details.tcard .tools{margin-top:10px}
 .stem-img .spr+.spr{border-top:1px solid var(--rule)}
 .kimg .spr{width:100%!important;max-width:640px;border:1px solid var(--rule);border-radius:4px}
 figure .spr{width:100%!important}
+/* Legendary: AI writing new questions before the paper starts */
+.lgai{margin-top:12px;padding:12px 14px;border-left:4px solid var(--form);background:var(--form-soft);border-radius:4px;font-size:14px;line-height:1.6;color:var(--ink)}
