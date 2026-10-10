@@ -292,6 +292,13 @@ function markSeen(q,rk){if(!q||!rk)return;const P=P_(),m=P.seen[q.uid]||(P.seen[
 const seenIn=(P,u)=>Object.keys(P.seen[u]||{}).sort((a,b)=>RKO.indexOf(a)-RKO.indexOf(b));
 function relSeen(P,W,u){const o=new Set();(W.REL[u]||[]).forEach(x=>seenIn(P,x).forEach(k=>o.add(k)));return RKO.filter(k=>o.has(k));}
 const rkNames=ks=>ks.map(k=>RKL[k]||k).join(", ");
+/* subject tags (data/tags.js: 1–3 per question, chapter-level) — shown before and after answering in every round; never on the Legendary question page */
+function tagRow(q){const W=W_();let t=[];
+  if(q.adm)t=q.topic?[q.topic]:[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=[].concat(Lc.tags||Lc.topic||[]);}
+  else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];
+  if(!t.length)return "";
+  const lec=W.TAGLEC||{};   /* future: tag → lecture code */
+  return `<div class="ttags"><span class="tl">เรื่อง</span>${t.map(x=>`<span class="tt">${esc(x)}${lec[x]?` <b>${esc(lec[x])}</b>`:""}</span>`).join("")}</div>`;}
 function seenFields(q,rk){const P=P_(),W=W_();let h="";
   const a=seenIn(P,q.uid).filter(k=>k!==rk),b=relSeen(P,W,q.uid);
   if(a.length)h+=`<span class="field seen"><b>เคยเจอใน</b>${esc(rkNames(a))}</span>`;
@@ -323,6 +330,7 @@ function rQuiz(){
   else if(isSess()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · Phase ${s.ph}</div>`;}
   const lab=q.adm?["เคส","Admission"]:q.unit?["Lecture","Unit"]:[CFG.setLabel||"ปี",CFG.roLabel||"Rotation"];
   h+=`<div class="qhead"><div class="qnum">${view==="lrev"?legIdx()+1:q.adm?"A":q.id}.</div><div class="fields"><span class="field"><b>${lab[0]}</b>${esc(q.set)}</span><span class="field"><b>${lab[1]}</b>${esc(q.ro)}</span>${view==="lrev"?legPreFields(legPaper(),q.uid):seenFields(q,curRK())}</div>${q.adm?"":`<button class="flag" id="flagBtn" aria-pressed="${flagged(P,q.uid)}" title="ทำเครื่องหมายข้อที่ยังไม่มั่นใจ">⚑ ไม่มั่นใจ</button>`}</div>`;
+  h+=tagRow(q);
   h+=`<p class="stem">${q.stem}</p>`;
   if(!q.img&&q.imgNote)h+=`<div class="img-missing">🖼 ${q.imgNote}</div>`;
   if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
@@ -1095,7 +1103,7 @@ function rExam(){
   if(q.img){const IL=Array.isArray(q.img)?q.img:[q.img];h+=`<div class="stem-img">${IL.map(k=>`<img src="${IMGS[k]}" alt="ภาพประกอบโจทย์">`).join("")}${q.imgNote?`<div class="img-note">${q.imgNote}</div>`:""}</div>`;}
   /* the original recall text (gray) is left out during the exam — it often carries the note-taker's hints; it shows again in the explanations */
   h+=`<ul class="opts" role="radiogroup" aria-label="ตัวเลือก">${q.opts.map((o,j)=>`<li class="opt${a===j?" sel":""}" role="radio" tabindex="0" aria-checked="${a===j}" data-i="${j}"><span class="bub">${L[j]}</span><span class="txt">${esc(o)}</span></li>`).join("")}</ul>`;
-  h+=`<div class="actions"><span class="hint">แตะช้อยเพื่อเลือก แตะซ้ำเพื่อยกเลิก เปลี่ยนได้จนกว่าจะส่ง · กด A–E ได้</span></div>`;
+  /* Legendary question page: number, question and choices only — no tags, sources or hints, whatever other rounds show (rule set by the user) */
   {const has=noteHas("pre",X.ph,q.uid);h+=`<details class="pre" id="preBox" ${has?"open":""}><summary>✎ ทด / จด</summary>${noteHTML("pre",X.ph,q)}</details>`;}
   $("main").innerHTML=h;markSeen(q,"legend");
   {const pb=$("preBox");if(pb)pb.addEventListener("toggle",()=>{if(pb.open)mountNotes(pb);});mountNotes(document);}
