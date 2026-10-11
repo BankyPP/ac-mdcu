@@ -197,7 +197,7 @@ function rGrades(){
 const ROUNDS=[
   {k:"grand",n:"Grand round",d:"สุ่มข้อจากทั้งคลัง ไม่สนว่าปีไหนหรือเรื่องอะไร"},
   {k:"service",n:"Service round",d:"เลือกปีและ rotation ที่อยากทำ ทำแบบกระดาษคำตอบ"},
-  {k:"morning",n:"Morning round",d:"วันละ 10 ข้อ จากข้อที่เคยทำแล้ว และโจทย์ Unit round ที่ยังไม่เคยเจอ ชุดใหม่ทุกวัน 07:30"},
+  {k:"morning",n:"Morning round",d:"วันละ 15 ข้อ: ข้อสอบเก่าที่เคยทำแล้ว 5 ข้อ + โจทย์ Unit round 10 ข้อ ชุดใหม่ทุกวัน 07:30"},
   {k:"legend",n:"Legendary round",d:"จำลองสอบจริง จำนวนข้อและเวลาเท่าสอบจริงของวอร์ด ทำรวดเดียว ส่งแล้วได้เกรด · มีโจทย์ใหม่ที่ AI สร้างเฉพาะชุดนั้นปนอยู่บางข้อ"},
   {k:"staff",n:"Ward staff round",d:"ทวนข้อที่เคยทำแล้ว แต่ยังทำถูกติดกันไม่ถึง 2 ครั้ง · เลือกได้ว่าเฉพาะข้อสอบเก่า หรือรวมโจทย์จาก Unit, Admission และ Legendary ด้วย"},
   {k:"teach",n:"Teaching round",d:"ใบเหลือง · CTA · Flashcard · Oral"},
@@ -210,7 +210,7 @@ const ROUNDS=[
 ];
 const yearTxt=()=>{const m=/(\d+)/.exec(wYear());return m?"ปี "+m[1]:"";};
 /* ---------------- Morning round: 10 a day, new set at 07:30 (phone's clock) ---------------- */
-const MORN_N=10;
+const MORN_N=15,MORN_AC=5;
 const mDay=t=>{const d=new Date((t||now())-7.5*3600e3);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");};
 function mNext(){const d=new Date(),r=new Date(d);r.setHours(7,30,0,0);if(r<=d)r.setDate(r.getDate()+1);return r.getTime();}
 const hms=ms=>{const x=Math.max(0,Math.floor(ms/1000));return String(Math.floor(x/3600)).padStart(2,"0")+":"+String(Math.floor(x/60)%60).padStart(2,"0")+":"+String(x%60).padStart(2,"0");};
@@ -219,8 +219,14 @@ function morning(make){const P=P_(),p=ph(),d=mDay();let m=P.morn[p];
   if(m&&m.day===d){m.list=m.list.filter(u=>W_().byU[u]);return m;}
   if(!make)return null;
   const pool=mPool(P,p);if(!pool.length)return null;
-  m=P.morn[p]={day:d,list:shuffle(pool).slice(0,MORN_N).map(q=>q.uid),ans:{},ts:now()};save();return m;}
-function startMorning(){const m=morning(true);if(!m){toast("ยังไม่มีข้อให้ทำ — ต้องเคยทำข้อสอบเก่าใน Phase นี้ หรือมีโจทย์ Unit round");return;}
+  /* 5 old-exam questions already done + 10 Unit round questions (not met yet first); a short pool is topped up from the other */
+  const W=W_(),acDone=shuffle(W.QB.filter(q=>atts(P,p,q.uid).length)),acRest=shuffle(W.QB.filter(q=>!atts(P,p,q.uid).length)),U=[].concat(...W.UNIT.map(Lc=>Lc.QB)),
+    uNew=shuffle(U.filter(q=>!uAtts(P,q.uid).length)),uOld=shuffle(U.filter(q=>uAtts(P,q.uid).length)),ac=acDone.concat(acRest),un=uNew.concat(uOld);
+  let a=ac.slice(0,MORN_AC),u=un.slice(0,MORN_N-MORN_AC);
+  if(u.length<MORN_N-MORN_AC)a=ac.slice(0,MORN_N-u.length);else if(a.length<MORN_AC)u=un.slice(0,MORN_N-a.length);
+  if(!a.length&&!u.length)return null;
+  m=P.morn[p]={day:d,list:shuffle(a.concat(u)).map(q=>q.uid),ans:{},ts:now()};save();return m;}
+function startMorning(){const m=morning(true);if(!m){toast("ยังไม่มีข้อให้ทำ — ยังไม่มีข้อสอบเก่าหรือโจทย์ Unit round ในวอร์ดนี้");return;}
   qStop();const i=m.list.findIndex(u=>m.ans[u]===undefined);
   P_().sess={kind:"morning",title:"Morning round",ph:ph(),day:m.day,list:m.list.slice(),ans:Object.assign({},m.ans),cur:i<0?0:i,ts:now()};save();go(ward+"/sess");}
 /* questions outside the old-exam bank: Admission cases (bank "adm") and the AI questions written for one Legendary paper (bank "lai") — both live in the bank; Ward staff round is the only other place they come back */
@@ -274,7 +280,7 @@ function rHome(){
     const sc=staffList().length;
     const mm=morning(false),ma=mm?mm.list.filter(u=>mm.ans[u]!==undefined).length:0;
     const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="legend"&&P.leg?'<span class="badge">กำลังสอบ</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
-    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
+    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?" mwarn":""}" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?`<span class="mtodo">${mm&&ma?`วันนี้ทำไป ${ma}/${mm.list.length} — ทำให้ครบด้วย`:"วันนี้ยังไม่ได้ทำ — ทำด้วยนะ"}</span>`:""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
   }
   h+=gradeCard(ward);
   if(IN_FRAME&&HAS_CLAUDE())h+=clStartCard();
@@ -681,16 +687,21 @@ function inkPad(box,key,onSave){
 /* ---------------- Unit round ---------------- */
 function rUnit(){
   const W=W_(),P=P_(),Ls=W.UNIT;
-  let h=`<h1 class="h2">Unit round</h1><p class="sub">โจทย์ใหม่แบบ case-based ที่สร้างจาก lecture แต่ละบท ครอบคลุมทุกจุดในสไลด์ สุ่มใหม่ทุกครั้งที่กดเข้า (เจอข้อซ้ำได้) ใช้ร่วมกันทั้งสอง Phase</p>`;
+  let h=`<h1 class="h2">Unit round</h1><p class="sub">โจทย์ใหม่แบบ case-based ที่สร้างจาก lecture แต่ละบท ครอบคลุมทุกจุดในสไลด์ เก็บไว้ในคลังแล้ว ทำได้ทั้งในเว็บและใน Claude ไม่ต้องสร้างใหม่ · สุ่มใหม่ทุกครั้งที่เริ่ม (เจอข้อซ้ำได้) ใช้ร่วมกันทั้งสอง Phase</p>`;
   if(!Ls.length){h+=`<div class="card"><h3>ยังไม่มีโจทย์ Unit round ในวอร์ดนี้</h3><span class="rd" style="margin:0">ส่งไฟล์ lecture ให้ Claude แล้วจะสร้างโจทย์ case-based ภาษาอังกฤษให้บทละประมาณ 200 ข้อ ครอบคลุมทุกเรื่องในสไลด์</span></div>`;$("main").innerHTML=h;return;}
   const opts=[10,20,40];let n=opts.includes(st.unitN)?st.unitN:10;
   h+=`<div class="yh" style="font-family:var(--num);font-weight:700;margin-bottom:6px">สุ่มครั้งละ</div><div class="chips">${opts.map(x=>`<button class="chip" data-un="${x}" aria-pressed="${x===n}">${x} ข้อ</button>`).join("")}</div>`;
   const all=[].concat(...Ls.map(Lc=>Lc.QB)),seen=a=>a.filter(q=>uAtts(P,q.uid).length).length;
-  h+=`<div class="stack">`+Ls.map(Lc=>`<button class="resume" data-lec="${esc(Lc.id)}"><span><b>${esc(Lc.title)}</b><span class="rd">เคยเจอแล้ว ${seen(Lc.QB)}/${Lc.QB.length} ข้อ</span></span><span class="go">→</span></button>`).join("")
-    +(Ls.length>1?`<button class="resume" data-lec="*"><span><b>สุ่มจากทุกบท</b><span class="rd">เคยเจอแล้ว ${seen(all)}/${all.length} ข้อ</span></span><span class="go">→</span></button>`:"")+`</div>`;
+  const sel=new Set((st.unitSel||[]).filter(id=>W.byLec[id]));
+  h+=`<div class="yh" style="font-family:var(--num);font-weight:700;margin:14px 0 6px">บท <span class="hint" style="font-weight:400">เลือกได้หลายบท · ไม่เลือกเลย = สุ่มรวมทุกบท · ตัวเลข = เคยเจอแล้ว/ทั้งหมด</span></div>`;
+  h+=`<div class="stack" style="margin-top:0">`+Ls.map(Lc=>`<button class="resume qprog" data-lec="${esc(Lc.id)}" aria-pressed="${sel.has(Lc.id)}"><span><b>${esc(Lc.title)}</b><span class="rd">เคยเจอแล้ว ${seen(Lc.QB)}/${Lc.QB.length} ข้อ</span></span><span class="go">${sel.has(Lc.id)?"✓":""}</span></button>`).join("")+`</div>`;
+  const pool=sel.size?[].concat(...Ls.filter(Lc=>sel.has(Lc.id)).map(Lc=>Lc.QB)):all;
+  h+=`<p class="statline" style="margin-top:10px">${sel.size?`จาก ${sel.size} บทที่เลือก`:"สุ่มรวมทุกบท"} · มีโจทย์ ${pool.length} ข้อ (เคยเจอแล้ว ${seen(pool)})</p><div class="row2"><button class="btn ghost" id="uClr" type="button" ${sel.size?"":"disabled"}>ล้างที่เลือก</button><span class="spacer"></span><button class="btn primary" id="uGo" type="button">เริ่มทำ ${Math.min(n,pool.length)} ข้อ</button></div>`;
   $("main").innerHTML=h;
-  document.querySelectorAll("[data-un]").forEach(b=>b.onclick=()=>{n=+b.dataset.un;st.unitN=n;persist();document.querySelectorAll("[data-un]").forEach(x=>x.setAttribute("aria-pressed",x===b));});
-  document.querySelectorAll("[data-lec]").forEach(b=>b.onclick=()=>{const id=b.dataset.lec,Lc=W.byLec[id],pool=id==="*"?all:Lc.QB;startSess("unit","Unit round · "+(id==="*"?"ทุกบท":Lc.title),shuffle(pool).slice(0,n).map(q=>q.uid));});
+  document.querySelectorAll("[data-un]").forEach(b=>b.onclick=()=>{st.unitN=+b.dataset.un;persist();rUnit();});
+  document.querySelectorAll("[data-lec]").forEach(b=>b.onclick=()=>{const id=b.dataset.lec;if(sel.has(id))sel.delete(id);else sel.add(id);st.unitSel=[...sel];persist();rUnit();});
+  $("uClr").onclick=()=>{st.unitSel=[];persist();rUnit();};
+  $("uGo").onclick=()=>{const t=sel.size===1?W.byLec[[...sel][0]].title:sel.size?sel.size+" บท":"ทุกบท";startSess("unit","Unit round · "+t,shuffle(pool).slice(0,n).map(q=>q.uid));};
 }
 
 /* ---------------- sounds: synthesized with Web Audio (no files) ---------------- */
