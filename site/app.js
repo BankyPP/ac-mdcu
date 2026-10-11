@@ -988,6 +988,7 @@ function rAdm(){
   let h=`<h1 class="h2">Admission round</h1><p class="sub">เคสใหม่ที่ AI สร้างขึ้นทีละข้อ เนื้อหา ${esc(W.cfg.name)} เหมาะกับนิสิตแพทย์${yearTxt()} — ข้อเดิมจะอยู่จนกว่าจะตอบ ตอบแล้วสร้างข้อใหม่ให้ทันที · ทุกเคสเก็บไว้ในคลังของคุณ ดูย้อนหลังได้จากกระดาษคำตอบ</p>`;
   if(admBusy){h+=`<div class="card"><h3>กำลังสร้างเคสใหม่…</h3><span class="rd" style="margin:0">ใช้เวลาประมาณ 10–60 วินาที</span><div class="spin" aria-hidden="true"></div></div>`;$("main").innerHTML=h;return;}
   {const B=bankItems("adm",ward);if(B.length){const d=B.filter(x=>x.a!=null),r=d.filter(x=>x.a===x.q.ans);h+=`<div class="card"><h3>คลัง Admission ของฉัน</h3><span class="rd">เคสที่ AI เคยสร้างให้ ${B.length} ข้อ · ตอบแล้ว ${d.length} · ถูก ${r.length} — เปิดดูโจทย์และเฉลยเก่าได้ตลอด แม้ตอนสร้างข้อใหม่ไม่ได้</span><button class="btn" id="admBankBtn">📋 เปิดกระดาษคำตอบ</button></div>`;}}
+  if(!HAS_CLAUDE()&&fb&&fb.user&&sync==="error")h+=`<p class="hint" style="color:var(--wrong)">⚠ บันทึกขึ้นบัญชีไม่สำเร็จ — ตรวจ Firestore rules หรืออินเทอร์เน็ต</p>`;
   h+=sharedAdmCard()+ufaBtn("ufaAdm");
   h+=`<div id="admBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;$("main").innerHTML=h;{const bb=$("admBankBtn");if(bb)bb.onclick=openS;}bindSharedAdm();bindUfa();
   aiMode().then(mode=>{const box=$("admBox");if(!box||view!=="adm")return;
@@ -1344,7 +1345,7 @@ function rLegend(){
   $("lgHist").onclick=()=>go(ward+"/lhist");
 }
 /* ---------------- shared bank: AI-made questions anyone shared ("Update for all") — Firestore shared/<ward>/items, read by every visitor of the website ---------------- */
-const SHARED={},SHAREDQ={};let sharedT=0;
+const SHARED={},SHAREDQ={};let sharedT=0,sharedErr="";
 const SPKEY=KEY+"-sharepend";
 const unshared=x=>!x.shared;
 function shareItems(wid){const o=[];["adm","lai","lc"].forEach(kd=>bankItems(kd,wid).forEach(x=>{if(!unshared(x))return;if((kd==="lc"&&x.case)||(kd!=="lc"&&x.q&&Array.isArray(x.q.opts)))o.push(x.key);}));return o;}
@@ -1353,12 +1354,13 @@ async function loadShared(){if(!fb)return;try{for(const w of WL){const snap=awai
     snap.forEach(x=>{const d=x.data();if(!d||!d.d)return;try{const v=JSON.parse(d.d);if(d.kind==="lc"){if(v&&v.case)L_.push({id:x.id,kind:"lc",case:v.case,orig:v.orig||"",ts:d.ts||0,by:d.by});}
       else if(v&&v.q&&Array.isArray(v.q.opts)&&v.q.uid){L_.push({id:x.id,kind:d.kind,q:v.q,ts:d.ts||0,by:d.by});SHAREDQ[w.id+"|"+v.q.uid]=v.q;}}catch(e){}});
     SHARED[w.id]=L_.sort((a,b)=>a.ts-b.ts);}
-  sharedT=now();if(["adm","lcase","home","sess"].includes(view))route();}catch(e){console.warn("shared",e);}}
+  sharedT=now();sharedErr="";if(["adm","lcase","home","sess"].includes(view))route();}catch(e){console.warn("shared",e);sharedErr=(e&&(e.code||e.message))||"error";sharedT=now();if(view==="adm")route();}}
 /* upload to the shared bank (website, signed in); without sign-in the keys wait in this browser until the next sign-in */
 async function shareUpload(wid,keys){keys=keys.filter(k=>bank[k]);if(!keys.length)return 0;
   if(!fb||!fb.user){const pend=ld(SPKEY)||{};pend[wid]=[...new Set((pend[wid]||[]).concat(keys))];try{localStorage.setItem(SPKEY,JSON.stringify(pend));}catch(e){}return -keys.length;}
   let n=0;for(const k of keys){const x=bank[k],kd=k.split("|")[0],v=kd==="lc"?{case:x.case,orig:k}:{q:x.q};
-    try{await fb.fs.setDoc(fb.fs.doc(fb.db,"shared",wid,"items",inkId(k)),{kind:kd,d:JSON.stringify(v),ts:now(),by:fb.user.uid});x.shared=now()+10000;bankPut(k,x);n++;}catch(e){console.warn("share",e);}}
+    try{await fb.fs.setDoc(fb.fs.doc(fb.db,"shared",wid,"items",inkId(k)),{kind:kd,d:JSON.stringify(v),ts:now(),by:fb.user.uid});x.shared=now()+10000;bankPut(k,x);n++;}catch(e){console.warn("share",e);sharedErr=(e&&(e.code||e.message))||"error";}}
+  if(!n&&sharedErr)toast("แชร์ไม่สำเร็จ: "+sharedErr+(String(sharedErr).includes("permission")?" — ตรวจ Firestore rules":""));
   if(n)loadShared();return n;}
 async function flushSharePend(){const pend=ld(SPKEY);if(!pend||!fb||!fb.user)return;try{localStorage.removeItem(SPKEY);}catch(e){}let n=0;for(const w in pend)n+=Math.max(0,await shareUpload(w,pend[w]||[]));if(n)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);}
 /* the "Update for all" button: in Claude it opens the website with the items (website imports them for you and uploads them to the shared bank); on the website it uploads directly */
@@ -1377,7 +1379,8 @@ async function updateForAll(noteId){const keys=shareItems(ward);const note=$(not
 const ufaBtn=(id)=>{const n=shareCount(ward);return n&&(HAS_CLAUDE()?CFG.siteUrl:fbOn())?`<div class="ufa"><button class="btn ufab" data-ufa="${id}" type="button">🌐 Update for all (${n})</button><span class="hint">แชร์โจทย์ใหม่ที่ AI สร้าง (Admission · Legendary · Long case) ขึ้นเว็บให้ทุกคน ทุกเครื่อง ทุกบัญชี — ไม่รวมคำตอบของคุณ</span><span class="hint" id="${id}"></span></div>`:"";};
 const bindUfa=()=>document.querySelectorAll("[data-ufa]").forEach(b=>b.onclick=()=>updateForAll(b.dataset.ufa));
 /* shared bank on the Admission page and the Long case page (website) */
-function sharedAdmCard(){const L_=(SHARED[ward]||[]).filter(x=>x.kind!=="lc");if(!L_.length)return "";
+function sharedAdmCard(){const L_=(SHARED[ward]||[]).filter(x=>x.kind!=="lc");
+  if(!L_.length){if(HAS_CLAUDE()||!fbOn())return "";return `<div class="card"><h3>🌐 คลังรวมจากทุกคน</h3><span class="rd" style="margin:0">${sharedErr?`โหลดคลังรวมไม่ได้ (${esc(sharedErr)})${String(sharedErr).includes("permission")?" — ตรวจ Firestore rules":""}`:sharedT?"ยังไม่มีโจทย์ในคลังรวม — กด 🌐 Update for all ใน Claude เพื่อแชร์โจทย์ที่ AI สร้างขึ้นมาที่นี่":"กำลังโหลดคลังรวม…"}</span></div>`;}
   const mine=x=>!!(bank["adm|"+ward+"|"+x.q.uid]||bank["lai|"+ward+"|"+x.q.uid]),todo=L_.filter(x=>!mine(x));
   return `<div class="card"><h3>🌐 คลังรวมจากทุกคน</h3><span class="rd">โจทย์ที่ AI สร้างและผู้ใช้แชร์ไว้ ${L_.length} ข้อ · ยังไม่เคยทำ ${todo.length} ข้อ — ตอบแล้วจะเก็บเข้าคลังของคุณ</span><div class="row2"><button class="btn" id="shAll" type="button">ทำทั้งหมด</button><span class="spacer"></span><button class="btn primary" id="shNew" type="button" ${todo.length?"":"disabled"}>ทำข้อที่ยังไม่เคยทำ (${todo.length})</button></div></div>`;}
 function bindSharedAdm(){const L_=(SHARED[ward]||[]).filter(x=>x.kind!=="lc"),mine=x=>!!(bank["adm|"+ward+"|"+x.q.uid]||bank["lai|"+ward+"|"+x.q.uid]);
