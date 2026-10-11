@@ -289,12 +289,13 @@ function rHome(){
   if(HAS_CLAUDE()&&CFG.siteUrl){const ua=bankItems("adm",ward).filter(unsent).length,ul=bankItems("leg",ward).filter(unsent).length;
     h+=`<div class="card"><h3>ส่งจาก Claude ไปเว็บ</h3><span class="rd">เว็บ (GitHub) กับ Claude เก็บข้อมูลแยกกัน ปุ่มนี้เปิดเว็บพร้อมเคส Admission (โจทย์ เฉลย คำตอบของคุณ) และผลสอบ Legendary (รวมโจทย์ AI) ที่ยังไม่ได้ส่ง เว็บจะเก็บเข้าคลังให้ — ข้อที่ผิดไปขึ้นใน Ward staff round ของเว็บด้วย</span>
       <p class="statline" style="margin:8px 0 0">ยังไม่ได้ส่ง: Admission <b>${ua}</b> เคส · Legendary <b>${ul}</b> ครั้ง</p>
-      <div class="row2"><button class="btn${ua+ul?" primary":""}" id="hSendWeb" type="button" ${ua+ul?"":"disabled"}>ส่งไปเว็บ (เฉพาะของฉัน)</button></div><p class="hint" id="hSendNote" style="margin:6px 0 0"></p>${ufaBtn("ufaHome")}</div>`;}
+      <div class="row2"><button class="btn${ua+ul?" primary":""}" id="hSendWeb" type="button" ${ua+ul?"":"disabled"}>ส่งไปเว็บ (เฉพาะของฉัน)</button><button class="btn ghost" id="hSendAll" type="button">ส่งทั้งหมดอีกครั้ง</button></div><p class="hint" id="hSendNote" style="margin:6px 0 0"></p>${ufaBtn("ufaHome")}</div>`;}
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
   h+=`<p class="hint" style="text-align:center;margin-top:18px">อัปเดตเว็บล่าสุด ${typeof BUILD!=="undefined"?BUILD:""}</p>`;
   $("main").innerHTML=h;
   document.querySelectorAll("[data-cs]").forEach(b=>b.onclick=()=>{st.clStart=b.dataset.cs;save();rHome();});
   bindUfa();
+  {const b=$("hSendAll");if(b)b.onclick=()=>sendWeb(bankItems("adm",ward).map(x=>x.key).concat(bankItems("leg",ward).map(x=>x.key)),"hSendNote");}
   {const b=$("hSendWeb");if(b)b.onclick=()=>sendWeb(bankItems("adm",ward).filter(unsent).map(x=>x.key).concat(bankItems("leg",ward).filter(unsent).map(x=>x.key)),"hSendNote");}
   $("hExp").onclick=exportLink;$("hImp").onclick=importPrompt;$("hFile").onclick=exportFile;$("hFileIn").onclick=importFile;
   document.querySelectorAll("[data-type]").forEach(b=>b.onclick=()=>{P.type=b.dataset.type;save();rHome();});
@@ -1218,9 +1219,9 @@ function admSheet(){
   const v=B.map((x,i)=>[x,i]).filter(([x])=>f==="wrong"?x.a!=null&&x.a!==x.q.ans:f==="right"?x.a===x.q.ans:f==="todo"?x.a==null:true);
   rows(v.map(([x,i])=>({q:Object.assign({},x.q,{id:i+1,set:(Array.isArray(x.q.tags)&&x.q.tags.length?x.q.tags:guessTags(W_(),x.q.topic)).join(", ")||"Case",ro:""}),a:x.a==null?undefined:x.a,cur:view==="admq"?x.key===st.admSel:!!(A.cur&&A.cur.uid===x.q.uid),meta:fmtD(x.c)+" · ",
     go:()=>{st.admSel=x.key;persist();pick=null;if(A.cur&&A.cur.uid===x.q.uid&&A.ans==null)go(ward+"/adm");else go(ward+"/admq");}})).reverse(),B.length?"ไม่มีข้อที่ตรงกับตัวกรองนี้":"ยังไม่มีเคสในคลัง — เริ่ม Admission round เพื่อให้ AI สร้างเคสแรก");
-  $("sheetFoot").innerHTML=`<span class="hint">เรียงจากเคสล่าสุด · ทุกเคสที่ AI สร้างเก็บไว้ในคลังของคุณ (ย้ายระหว่างเว็บกับ Claude ด้วย “ไฟล์สำรอง” ในหน้าวอร์ด)</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span>${view==="admq"?`<button class="link" id="toAdm">กลับไปข้อปัจจุบัน</button>`:""}${HAS_CLAUDE()&&CFG.siteUrl&&B.length?(()=>{const u=B.filter(unsent).length;return `<span style="flex-basis:100%"></span><button class="btn${u?" primary":""}" id="admWeb" type="button">${u?`ส่งเคสที่ยังไม่ได้ส่งไปเว็บ (${u})`:"ส่งทุกเคสไปเว็บอีกครั้ง"}</button><span class="hint" id="admWebNote" style="flex-basis:100%"></span>`;})():""}`;
+  $("sheetFoot").innerHTML=`<span class="hint">เรียงจากเคสล่าสุด · ทุกเคสที่ AI สร้างเก็บไว้ในคลังของคุณ (ย้ายระหว่างเว็บกับ Claude ด้วย “ไฟล์สำรอง” ในหน้าวอร์ด)</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span>${view==="admq"?`<button class="link" id="toAdm">กลับไปข้อปัจจุบัน</button>`:""}${HAS_CLAUDE()&&CFG.siteUrl&&B.length?(()=>{const u=B.filter(unsent).length;return `<span style="flex-basis:100%"></span>${u?`<button class="btn primary" id="admWeb" type="button">ส่งเคสที่ยังไม่ได้ส่งไปเว็บ (${u})</button>`:""}<button class="btn" id="admWebAll" type="button">ส่งทุกเคสไปเว็บ (${B.length})</button><span class="hint" id="admWebNote" style="flex-basis:100%"></span>`;})():""}`;
   const ta=$("toAdm");if(ta)ta.onclick=()=>{closeS(true);go(ward+"/adm");};
-  {const b=$("admWeb");if(b)b.onclick=()=>{const u=B.filter(unsent);sendWeb((u.length?u:B).map(x=>x.key),"admWebNote");};}
+  {const b=$("admWeb");if(b)b.onclick=()=>sendWeb(B.filter(unsent).map(x=>x.key),"admWebNote");const ba=$("admWebAll");if(ba)ba.onclick=()=>sendWeb(B.map(x=>x.key),"admWebNote");}
   {const f=$("sheetFoot");if(f){f.insertAdjacentHTML("beforeend",ufaBtn("ufaSheet"));bindUfa();}}
   paintSync();
 }
