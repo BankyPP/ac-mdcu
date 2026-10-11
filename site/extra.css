@@ -257,6 +257,8 @@ figure .spr{width:100%!important}
 .grtab tr[data-gw]:hover{background:var(--sheet)}
 .grsc{display:block;font-weight:400;font-size:12.5px;color:var(--muted)}
 .grg{font-family:var(--num);font-weight:700;font-size:18px}
-.grline{display:flex;align-items:baseline;gap:8px;width:100%;margin:-4px 0 12px;padding:8px 12px;border:1px solid var(--rule);border-radius:10px;background:var(--sheet);font:inherit;font-size:13.5px;color:var(--ink);text-align:left;cursor:pointer}
+.grline{display:flex;align-items:baseline;gap:8px;width:100%;margin:-4px 0 12px;padding:8px 12px;border:1.5px solid var(--form);border-radius:8px;background:var(--form-soft);font:inherit;font-size:13.5px;color:var(--ink);text-align:left;cursor:pointer}
 .grline span{flex:1;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .grline .go{flex:none;color:var(--form)}
+.wgr{margin-left:auto;flex:none;display:flex;flex-direction:column;align-items:center;min-width:30px;font-family:var(--num);font-weight:700;font-size:16px;line-height:1.3}
+.wcd b,.exd b{white-space:nowrap}
