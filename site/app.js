@@ -109,7 +109,7 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach"].includes(v))v="home";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
   if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
@@ -126,7 +126,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist})[v]();
+  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -153,7 +153,7 @@ const ROUNDS=[
   {k:"morning",n:"Morning round",d:"วันละ 10 ข้อ จากข้อที่เคยทำแล้ว และโจทย์ Unit round ที่ยังไม่เคยเจอ ชุดใหม่ทุกวัน 07:30"},
   {k:"legend",n:"Legendary round",d:"จำลองสอบจริง จำนวนข้อและเวลาเท่าสอบจริงของวอร์ด ทำรวดเดียว ส่งแล้วได้เกรด · มีโจทย์ใหม่ที่ AI สร้างเฉพาะชุดนั้นปนอยู่บางข้อ"},
   {k:"staff",n:"Ward staff round",d:"ทวนข้อที่เคยทำแล้ว แต่ยังทำถูกติดกันไม่ถึง 2 ครั้ง · เลือกได้ว่าเฉพาะข้อสอบเก่า หรือรวมโจทย์จาก Unit, Admission และ Legendary ด้วย"},
-  {k:"teach",n:"Teaching round",d:"",soon:1},
+  {k:"teach",n:"Teaching round",d:"ใบเหลือง · CTA · Flashcard · Oral"},
   {k:"advisor",n:"Advisor round",d:"อ่านเฉลยข้อที่เคยทำแล้วแบบเร็ว ๆ ไม่ต้องตอบ พร้อมคำแนะนำเฉพาะช้อยที่เคยเลือก และรายงานว่าผิดเรื่องไหนมากสุด"},
   {k:"unit",n:"Unit round",d:"โจทย์ใหม่แบบ case-based จาก lecture แต่ละบท สุ่มใหม่ทุกครั้งที่เข้า"},
   {k:"quality",n:"Quality round",d:"Speedrun ข้อสอบเก่า จับเวลาเป็นเซต · เลือกปีที่จะทำ หรือสุ่มจากทั้งคลัง ตั้งค่าเองได้ทั้งหมด"},
@@ -244,7 +244,7 @@ function rHome(){
   const rs=$("resume");if(rs)rs.onclick=()=>go(ward+"/sess");
   const mc=$("mClock");if(mc){let lastDay=mDay();show._t=setInterval(()=>{if(!document.body.contains(mc)){clearInterval(show._t);return;}mc.textContent=hms(mNext()-now());if(mDay()!==lastDay){lastDay=mDay();rHome();}},1000);}
   document.querySelectorAll("[data-round]").forEach(b=>b.onclick=()=>{const k=b.dataset.round;const R=ROUNDS.find(r=>r.k===k);if(R.soon){toast("โหมดนี้จะเพิ่มภายหลัง");return;}
-    if(k==="unit")return go(ward+"/unit");if(k==="admission")return go(ward+"/adm");if(k==="morning")return startMorning();if(k==="longcase")return go(ward+"/lcase");
+    if(k==="teach")return go(ward+"/teach");if(k==="unit")return go(ward+"/unit");if(k==="admission")return go(ward+"/adm");if(k==="morning")return startMorning();if(k==="longcase")return go(ward+"/lcase");
     if(!QB.length){toast("ยังไม่มีข้อสอบในคลัง");return;}
     if(k==="quality")return go(ward+"/quality");if(k==="advisor")return go(ward+"/advisor");if(k==="legend")return go(ward+"/legend");
     if(k==="grand")go(ward+"/grand");else if(k==="service")go(ward+"/service");
@@ -255,6 +255,21 @@ function startSess(kind,title,uids,extra){
   if(!uids.length){toast("ไม่มีข้อที่เข้าเงื่อนไข");return;}
   if(kind!=="quality")qStop();
   P_().sess=Object.assign({kind,title,ph:ph(),list:uids,ans:{},cur:0,ts:now()},extra||{});save();go(ward+"/sess");
+}
+
+/* ---------------- Teaching round: 4 tools (to be built later) ---------------- */
+const TEACH=[
+  {k:"yellow",n:"ใบเหลือง",d:"ช่วยเขียนใบเหลือง case report แบบ SOAP"},
+  {k:"cta",n:"CTA",d:"ฝึกหัตถการ — ใช้มากในวอร์ดสูติ-นรีเวช แต่ศัลย์ก็ใช้ได้"},
+  {k:"flash",n:"Flashcard",d:"ฝึก keyword และความรู้จำเพาะสั้น ๆ แบบถามตอบเร็ว คนละแนวกับ MCQ"},
+  {k:"oral",n:"Oral",d:"ฝึกสอบปากเปล่า ตอบคำถามจาก flashcard"}];
+function rTeach(){
+  let h=`<h1 class="h2">Teaching round</h1><p class="sub">${esc(W_().cfg.name)} · เลือกเครื่องมือ</p>`;
+  h+=`<div class="rounds">${TEACH.map((t,i)=>`<button class="round" data-teach="${t.k}" aria-disabled="true"><span class="soon">เร็ว ๆ นี้</span><span class="rn">${String(i+1).padStart(2,"0")}</span><b>${t.n}</b><span class="rd">${t.d}</span></button>`).join("")}</div>`;
+  h+=`<div class="stack" style="margin-top:14px"><button class="btn ghost" id="tBack" type="button">กลับหน้าวอร์ด</button></div>`;
+  $("main").innerHTML=h;
+  document.querySelectorAll("[data-teach]").forEach(b=>b.onclick=()=>toast(`${TEACH.find(t=>t.k===b.dataset.teach).n} จะเพิ่มภายหลัง`));
+  $("tBack").onclick=()=>go(ward);
 }
 
 /* ---------------- opening in Claude: one tap to the page you came for ---------------- */
