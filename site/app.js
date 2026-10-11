@@ -150,8 +150,9 @@ function bindAcctCard(){document.querySelectorAll('[data-act="acct"]').forEach(b
 /* ---------------- exam dates per ward (config wards[].dates: [{part, at:"YYYY-MM-DD[THH:MM]"}], times in Thailand) ---------------- */
 const TH_MON=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];
 function examDates(w){return ((w&&w.dates)||[]).map(x=>{const m=/^(\d{4})-(\d\d)-(\d\d)(?:T(\d\d):(\d\d))?/.exec(x.at||"");if(!m)return null;
-  const y=+m[1],mo=+m[2],d=+m[3],hasT=!!m[4],t=Date.UTC(y,mo-1,d,hasT?+m[4]:23,hasT?+m[5]:59)-7*3600e3;
-  const td=new Date(Date.now()+7*3600e3),today=Date.UTC(td.getUTCFullYear(),td.getUTCMonth(),td.getUTCDate()),days=Math.round((Date.UTC(y,mo-1,d)-today)/864e5);
+  /* days left = full 24-hour days counted back from the exam time (e.g. 17/11 13:30 → "1 d" for an exam at 18/11 13:30); a date without a time counts to the start of that day and shows "วันนี้" on the day */
+  const y=+m[1],mo=+m[2],d=+m[3],hasT=!!m[4],at=Date.UTC(y,mo-1,d,hasT?+m[4]:0,hasT?+m[5]:0)-7*3600e3,t=hasT?at:at+864e5-1;
+  const days=Math.max(0,Math.ceil((at-Date.now())/864e5));
   return {part:x.part,label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}`:""}`,days,past:Date.now()>t};}).filter(Boolean);}
 /* countdown: "N w N d" while more than 14 days are left, then "N d" — no hours or minutes */
 const cdTxt=d=>d<=0?"วันนี้":d<=14?`${d} d`:`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:"");
