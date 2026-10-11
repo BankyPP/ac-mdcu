@@ -518,7 +518,7 @@ function paintNav(){
     const a=view==="exam"?Object.keys(X.ans).length:X.score;$("count").textContent=`${a}/${n}`;$("prog").style.width=(view==="exam"?a/n*100:(i+1)/n*100)+"%";return;}
   if(view==="admq"){const L_=bankItems("adm",ward),i=L_.findIndex(x=>x.key===st.admSel);$("pos").textContent=`${i+1} / ${L_.length}`;$("prev").disabled=i<=0;$("next").disabled=i>=L_.length-1;$("next").textContent="ข้อถัดไป";
     const d=L_.filter(x=>x.a!=null);$("count").textContent=`${d.length}/${L_.length}`;$("prog").style.width="0";return;}
-  if(view==="adm"){const B=bankItems("adm",ward);$("count").textContent=`${B.filter(x=>x.a!=null).length}/${B.length}`;const A=P.adm,ok=A.ans!=null;$("pos").textContent=`ข้อที่ ${A.n+(ok?0:1)}`;$("prev").disabled=true;$("next").disabled=!ok;$("next").textContent=ok?(A.next?"ข้อต่อไป":admBusy?"กำลังสร้าง…":"ข้อต่อไป"):"ข้อต่อไป";$("prog").style.width="0";return;}
+  if(view==="adm"){const B=bankItems("adm",ward);$("count").textContent=`${B.filter(x=>x.a!=null).length}/${B.length}`;const A=P.adm,ok=A.ans!=null;$("pos").textContent=`ข้อที่ ${A.n+(ok?0:1)}`;$("prev").disabled=true;$("next").disabled=!ok;$("next").textContent=ok?(A.next?"ข้อต่อไป":admBusy?(admWant?"รอสักครู่…":"ข้อต่อไป (กำลังสร้าง)"):"ข้อต่อไป"):"ข้อต่อไป";$("prog").style.width="0";return;}
   if(isSess()){const s=P.sess;$("pos").textContent=`${s.cur+1} / ${s.list.length}`;$("prev").disabled=s.cur===0||!qNavOK(s.cur-1);$("next").disabled=s.cur<s.list.length-1?!qNavOK(s.cur+1):qLock();$("next").textContent=s.cur===s.list.length-1?"ดูสรุปรอบนี้":"ข้อถัดไป";n=s.list.length;a=Object.keys(s.ans).filter(u=>s.list.includes(u)).length;}
   else{const v=svcVisible(),q=svcQ(),i=v.findIndex(x=>x.uid===(q&&q.uid));$("pos").textContent=`${i>=0?i+1:"–"} / ${v.length}`;$("prev").disabled=v.length<2&&i>=0;$("next").disabled=v.length<2&&i>=0;$("next").textContent="ข้อถัดไป";
     const l=svcList();n=l.length;a=l.filter(x=>lockedAns(P,ph(),x.uid)!==undefined).length;}
@@ -597,6 +597,7 @@ function explain(q,done,R,p){
   h+=`</div>`;
   if(view==="lrev")h+=legPreHTML(legPaper(),q);else if(!q.adm)h+=seenHistHTML(q,curRK());
   if(q.key)h+=`<div class="tagline"><span class="tag">คีย์ในไฟล์: ${q.key}</span></div>`;
+  if(view==="adm")h+=`<div class="card" id="admWait" ${admWant?"":"hidden"}><h3>กำลังสร้างข้อต่อไป…</h3><span class="rd" style="margin:0">ประมาณ 20–60 วินาที เสร็จแล้วจะไปข้อต่อไปให้เอง</span><div class="spin" aria-hidden="true"></div></div>`;
   if(q.adm)h+=`<p class="hint" style="margin:4px 0 0">โจทย์และเฉลยข้อนี้ AI สร้างขึ้นใหม่ อาจผิดพลาดได้ ควรเทียบกับตำรา/guideline</p>`;
   if(adv)h+=advBox(q);
   {const gi=(q.gray||"").indexOf(" — ");if(gi>=0)h+=`<div class="tagline"><span class="tag">ส่วนที่เหลือของโจทย์ต้นฉบับ: ${esc(q.gray.slice(gi+3))}</span></div>`;}
@@ -909,7 +910,7 @@ function qeSum(){const el=$("qeSum");if(!el||!QED)return;el.innerHTML=qDesc(QED)
 const artLink=path=>CFG.artifactUrl?CFG.artifactUrl+"?go="+encodeURIComponent(path)+"#/"+path:"";
 const AIKEY=KEY+"-ai";                 /* {key, model}: kept only in this browser, never synced */
 const aiCfg=()=>ld(AIKEY)||{};
-let admBusy=false,admErr="",admSetup=false;
+let admBusy=false,admErr="",admSetup=false,admWant=false;
 async function aiMode(){if(HAS_CLAUDE()){try{return (await window.claude.use("sample"))?"claude":"";}catch(e){return "";}}return aiCfg().key?"key":"";}
 const yrN=()=>{const m=/(\d+)/.exec(wYear());return m?+m[1]:0;};
 const ord=n=>n+(n===1?"st":n===2?"nd":n===3?"rd":"th");
@@ -969,7 +970,7 @@ async function admRun(target){
   if(admBusy)return;admBusy=true;admErr="";const wid=ward;if(view==="adm")(P_().adm.cur?paintNav():rAdm());
   try{const q=await admGen(WARDS[wid]);const A=PWof(st,wid).adm;if(target==="cur"||!A.cur){A.cur=q;A.ans=null;admBank(wid,q,null);}else A.next=q;A.ts=now();save();}
   catch(e){console.warn("admission",e);admErr=admMsg(e);if(e&&e.code==="no_ai")admSetup=true;}
-  admBusy=false;if(view==="adm"&&ward===wid){const A=P_().adm;if(A.cur&&A.ans!=null){paintNav();if(admErr)toast(admErr);}else rAdm();}}
+  admBusy=false;if(view==="adm"&&ward===wid){const A=P_().adm;if(A.cur&&A.ans!=null){if(admWant&&A.next){admWant=false;admNext();return;}admWant=false;paintNav();const e=$("admWait");if(e)e.hidden=true;if(admErr)toast(admErr+" — กด ข้อต่อไป เพื่อลองใหม่");}else rAdm();}else admWant=false;}
 function admBank(wid,q,a){const k="adm|"+wid+"|"+q.uid,o=bank[k],v={q,a,c:o&&o.c};if(o&&o.h)v.h=o.h;if(o&&o.sent)v.sent=o.sent;bankPut(k,v);}
 function admAnswer(i){const A=P_().adm;if(!A.cur||A.ans!=null)return;A.ans=i;A.n=(A.n||0)+1;if(i===A.cur.ans)A.right=(A.right||0)+1;admBank(ward,A.cur,i);
   A.recent=(A.recent||[]).concat(A.cur.topic||[]).slice(-25);A.ts=now();save();rQuiz();
@@ -977,7 +978,7 @@ function admAnswer(i){const A=P_().adm;if(!A.cur||A.ans!=null)return;A.ans=i;A.n
   if(!A.next)admRun("next");}
 function admNext(){const A=P_().adm;if(A.ans==null)return;
   if(A.next){A.cur=A.next;A.next=null;A.ans=null;A.ts=now();admBank(ward,A.cur,null);save();pick=null;rAdm();window.scrollTo(0,0);}
-  else if(admBusy)toast("กำลังสร้างข้อต่อไป รอสักครู่…");
+  else if(admBusy){admWant=true;toast("กำลังสร้างข้อต่อไป — เสร็จแล้วจะไปให้เอง");paintNav();const e=$("admWait");if(e)e.hidden=false;}
   else{A.cur=null;A.ans=null;admErr="";save();rAdm();}}
 function rAdm(){
   const W=W_(),A=P_().adm;
