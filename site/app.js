@@ -165,9 +165,9 @@ function cdOf(x){const t=now();
     if(d<0)return {txt:"Exam done 🎉",done:true,hot:false,k:"done"};
     return {txt:d===0?"วันนี้":d<=14?`${d} d`:`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:""),done:false,hot:d<=14,days:d,k:d<=14?"hot":"far"};}
   const r=x.at-t;if(r<=0)return x.dur&&-r<x.dur*6e4?{txt:"กำลังสอบ ✍️",done:false,hot:false,k:"live"}:{txt:"Exam done 🎉",done:true,hot:false,k:"done"};
-  /* always rounded up: more than 1 day left = 2 d; exactly 24 h left = "24 h"; the last 2 h "N h N min"; the last hour "N min" */
+  /* always rounded up: more than 2 days left = "N d"; the second-to-last day "1 d N h"; exactly 24 h left = "24 h"; the last 2 h "N h N min"; the last hour "N min" */
   const d=Math.ceil(r/864e5),hh=Math.ceil(r/36e5),mm=Math.ceil(r/6e4);
-  const txt=r>864e5?(d>14?`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:""):`${d} d`):r>72e5?`${hh} h`:r>36e5?`${Math.floor(mm/60)} h`+(mm%60?` ${mm%60} min`:""):`${mm} min`;
+  const txt=r>1728e5?(d>14?`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:""):`${d} d`):r>864e5?`${Math.floor(hh/24)} d`+(hh%24?` ${hh%24} h`:""):r>72e5?`${hh} h`:r>36e5?`${Math.floor(mm/60)} h`+(mm%60?` ${mm%60} min`:""):`${mm} min`;
   return {txt,done:false,hot:d<=14,days:d,k:d<=14?"hot":"far"};}
 const cdHTML=x=>{const c=cdOf(x);return `<b data-cdat="${x.at}" data-cdt="${x.hasT?1:0}" data-cdf="${x.fixedDone?1:0}" data-cdd="${x.dur||0}" data-cdk="${c.k}">${esc(c.txt)}</b>`;};
 /* the numbers tick on their own; crossing into the last 14 days or the end of the exam redraws the page (warning bar, colours) */
