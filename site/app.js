@@ -116,7 +116,7 @@ function route(){
   if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
   show(v);
 }
-function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]).filter(u=>qAny(u));if(!s.list.length){P.sess=null;return false;}if(s.cur>=s.list.length)s.cur=s.list.length-1;if(s.cur<0)s.cur=0;return true;}
+function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]).filter(u=>qAny(u)||(!sharedT&&fbOn()&&/^(ADM|LAI)\|/.test(u)));if(!s.list.length){P.sess=null;return false;}if(s.cur>=s.list.length)s.cur=s.list.length-1;if(s.cur<0)s.cur=0;return true;}
 function show(v){
   view=v;const quiz=["svc","sess","adm","exam","lrev","admq"].includes(v);
   clearInterval(show._t);
@@ -137,6 +137,7 @@ function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
   if(SUBJ.length)h+=`<button class="grline" id="toGrades" type="button">📊 <b>สรุปเกรด</b>${(()=>{const L_=SUBJ.map(S=>{const G=(st.grades||{})[S.id]||{},g=GPARTS.map(([k])=>G[k]||"–");return g.some(x=>x!=="–")?`${esc(S.name)} ${g.map(esc).join("/")}`:"";}).filter(Boolean);return L_.length?`<span>${L_.join(" · ")}</span>`:`<span>ยังไม่ได้ใส่เกรด</span>`;})()}<span class="go">→</span></button>${SUBJ.some(S=>GPARTS.some(([k])=>((st.grades||{})[S.id]||{})[k]))?`<p class="hint" style="margin:-8px 0 12px">เรียง Theory / Competency / Performance</p>`:""}`;
   h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb" style="font-size:${(()=>{const n=Math.max(...String(w.short||w.id).split(" ").map(x=>x.length));return n>5?11:n>4?12.5:14;})()}px">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span>${examDates(w).sort((a,b)=>a.at-b.at).map(x=>{const c=cdOf(x),sc=x.score&&scoreOf(x.score);return `<span class="wcd${c.hot?" hot":""}${c.done?" done":""}">สอบ${x.part?" "+esc(x.part):""}${x.label?" "+esc(x.label):""} · ${cdHTML(x)}${c.hot?` — ควรเริ่ม Phase 2 ของ ${esc(x.part||"ข้อสอบ")}`:""}${sc?` · คะแนน ${esc(sc)}`:""}</span>`;}).join("")}</span>${(()=>{const S=subjOf(w.id),G=S&&(st.grades||{})[S.id]||{},g=GPARTS.map(([k])=>G[k]);return g.some(Boolean)?`<span class="wgr" title="Theory / Competency / Performance">${g.map(x=>x?`<span class="${gCls(x)}">${esc(x)}</span>`:`<span class="hint">–</span>`).join("")}</span>`:"";})()}</a>`;}).join("");
+  {const pend=ld(SPKEY),n=pend?Object.values(pend).reduce((x,a)=>x+a.length,0):0;if(n&&fbOn()&&!(fb&&fb.user))h+=`<div class="card"><h3>🌐 มีโจทย์รอแชร์ให้ทุกคน ${n} ข้อ</h3><span class="rd">เข้าสู่ระบบแล้วระบบจะแชร์ขึ้นคลังรวมให้ทันที</span><button class="btn" data-act="acct" type="button">เข้าสู่ระบบ</button></div>`;}
   h+=acctCard();
   $("main").innerHTML=h;bindAcctCard();{const b=$("toGrades");if(b)b.onclick=()=>go("grades");}
 }
@@ -232,7 +233,7 @@ function startMorning(){const m=morning(true);if(!m){toast("ยังไม่�
   P_().sess={kind:"morning",title:"Morning round",ph:ph(),day:m.day,list:m.list.slice(),ans:Object.assign({},m.ans),cur:i<0?0:i,ts:now()};save();go(ward+"/sess");}
 /* questions outside the old-exam bank: Admission cases (bank "adm") and the AI questions written for one Legendary paper (bank "lai") — both live in the bank; Ward staff round is the only other place they come back */
 const extKey=(q,wid)=>(q.lai?"lai|":"adm|")+(wid||ward)+"|"+q.uid;
-const qAny=(u,wid)=>{wid=wid||ward;const W=WARDS[wid];return (W&&W.byU[u])||(bank["adm|"+wid+"|"+u]||{}).q||(bank["lai|"+wid+"|"+u]||{}).q||null;};
+const qAny=(u,wid)=>{wid=wid||ward;const W=WARDS[wid];return (W&&W.byU[u])||(bank["adm|"+wid+"|"+u]||{}).q||(bank["lai|"+wid+"|"+u]||{}).q||SHAREDQ[wid+"|"+u]||null;};
 /* answers to an Admission case / Legendary AI question: the first answer (a, Admission only) + every later one (h) */
 const extAtts=(q,wid)=>{const it=bank[extKey(q,wid)];if(!it)return [];return (q.lai||it.a==null?[]:[[it.a,it.c||0,"adm"]]).concat(it.h||[]);};
 function extPush(q,x,wid){const k=extKey(q,wid),it=bank[k];if(!it)return;it.h=(it.h||[]).concat([x]);bankPut(k,it);}
@@ -288,11 +289,12 @@ function rHome(){
   if(HAS_CLAUDE()&&CFG.siteUrl){const ua=bankItems("adm",ward).filter(unsent).length,ul=bankItems("leg",ward).filter(unsent).length;
     h+=`<div class="card"><h3>ส่งจาก Claude ไปเว็บ</h3><span class="rd">เว็บ (GitHub) กับ Claude เก็บข้อมูลแยกกัน ปุ่มนี้เปิดเว็บพร้อมเคส Admission (โจทย์ เฉลย คำตอบของคุณ) และผลสอบ Legendary (รวมโจทย์ AI) ที่ยังไม่ได้ส่ง เว็บจะเก็บเข้าคลังให้ — ข้อที่ผิดไปขึ้นใน Ward staff round ของเว็บด้วย</span>
       <p class="statline" style="margin:8px 0 0">ยังไม่ได้ส่ง: Admission <b>${ua}</b> เคส · Legendary <b>${ul}</b> ครั้ง</p>
-      <div class="row2"><button class="btn${ua+ul?" primary":""}" id="hSendWeb" type="button" ${ua+ul?"":"disabled"}>ส่งไปเว็บ</button></div><p class="hint" id="hSendNote" style="margin:6px 0 0"></p></div>`;}
+      <div class="row2"><button class="btn${ua+ul?" primary":""}" id="hSendWeb" type="button" ${ua+ul?"":"disabled"}>ส่งไปเว็บ (เฉพาะของฉัน)</button></div><p class="hint" id="hSendNote" style="margin:6px 0 0"></p>${ufaBtn("ufaHome")}</div>`;}
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
   h+=`<p class="hint" style="text-align:center;margin-top:18px">อัปเดตเว็บล่าสุด ${typeof BUILD!=="undefined"?BUILD:""}</p>`;
   $("main").innerHTML=h;
   document.querySelectorAll("[data-cs]").forEach(b=>b.onclick=()=>{st.clStart=b.dataset.cs;save();rHome();});
+  bindUfa();
   {const b=$("hSendWeb");if(b)b.onclick=()=>sendWeb(bankItems("adm",ward).filter(unsent).map(x=>x.key).concat(bankItems("leg",ward).filter(unsent).map(x=>x.key)),"hSendNote");}
   $("hExp").onclick=exportLink;$("hImp").onclick=importPrompt;$("hFile").onclick=exportFile;$("hFileIn").onclick=importFile;
   document.querySelectorAll("[data-type]").forEach(b=>b.onclick=()=>{P.type=b.dataset.type;save();rHome();});
@@ -536,7 +538,7 @@ function confirmAns(){
   if(view==="admq"){const it=bank[st.admSel];if(it){admBank(ward,it.q,pick);}rQuiz();return;}
   const rk=curRK();
   if(q.unit)(P.unit.att[q.uid]=P.unit.att[q.uid]||[]).push([pick,now(),rk]);
-  else if(q.adm)extPush(q,[pick,now(),rk]);
+  else if(q.adm){if(bank[extKey(q)])extPush(q,[pick,now(),rk]);else if(q.lai)bankPut(extKey(q),{q,h:[[pick,now(),rk]]});else admBank(ward,q,pick);}
   else (P.att[p][q.uid]=P.att[p][q.uid]||[]).push([pick,now(),rk]);
   if(isSess()){const s=P.sess;s.ans[q.uid]=pick;s.ts=now();
     if(s.kind==="morning"){const m=P.morn[s.ph];if(m&&m.day===s.day){m.ans[q.uid]=pick;m.ts=now();}}}
@@ -975,7 +977,8 @@ function rAdm(){
   let h=`<h1 class="h2">Admission round</h1><p class="sub">เคสใหม่ที่ AI สร้างขึ้นทีละข้อ เนื้อหา ${esc(W.cfg.name)} เหมาะกับนิสิตแพทย์${yearTxt()} — ข้อเดิมจะอยู่จนกว่าจะตอบ ตอบแล้วสร้างข้อใหม่ให้ทันที · ทุกเคสเก็บไว้ในคลังของคุณ ดูย้อนหลังได้จากกระดาษคำตอบ</p>`;
   if(admBusy){h+=`<div class="card"><h3>กำลังสร้างเคสใหม่…</h3><span class="rd" style="margin:0">ใช้เวลาประมาณ 10–60 วินาที</span><div class="spin" aria-hidden="true"></div></div>`;$("main").innerHTML=h;return;}
   {const B=bankItems("adm",ward);if(B.length){const d=B.filter(x=>x.a!=null),r=d.filter(x=>x.a===x.q.ans);h+=`<div class="card"><h3>คลัง Admission ของฉัน</h3><span class="rd">เคสที่ AI เคยสร้างให้ ${B.length} ข้อ · ตอบแล้ว ${d.length} · ถูก ${r.length} — เปิดดูโจทย์และเฉลยเก่าได้ตลอด แม้ตอนสร้างข้อใหม่ไม่ได้</span><button class="btn" id="admBankBtn">📋 เปิดกระดาษคำตอบ</button></div>`;}}
-  h+=`<div id="admBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;$("main").innerHTML=h;{const bb=$("admBankBtn");if(bb)bb.onclick=openS;}
+  h+=sharedAdmCard()+ufaBtn("ufaAdm");
+  h+=`<div id="admBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;$("main").innerHTML=h;{const bb=$("admBankBtn");if(bb)bb.onclick=openS;}bindSharedAdm();bindUfa();
   aiMode().then(mode=>{const box=$("admBox");if(!box||view!=="adm")return;
     if(mode&&!admSetup&&!admErr){admRun("cur");return;}
     let x="";
@@ -1205,6 +1208,7 @@ function admSheet(){
   $("sheetFoot").innerHTML=`<span class="hint">เรียงจากเคสล่าสุด · ทุกเคสที่ AI สร้างเก็บไว้ในคลังของคุณ (ย้ายระหว่างเว็บกับ Claude ด้วย “ไฟล์สำรอง” ในหน้าวอร์ด)</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span>${view==="admq"?`<button class="link" id="toAdm">กลับไปข้อปัจจุบัน</button>`:""}${HAS_CLAUDE()&&CFG.siteUrl&&B.length?(()=>{const u=B.filter(unsent).length;return `<span style="flex-basis:100%"></span><button class="btn${u?" primary":""}" id="admWeb" type="button">${u?`ส่งเคสที่ยังไม่ได้ส่งไปเว็บ (${u})`:"ส่งทุกเคสไปเว็บอีกครั้ง"}</button><span class="hint" id="admWebNote" style="flex-basis:100%"></span>`;})():""}`;
   const ta=$("toAdm");if(ta)ta.onclick=()=>{closeS(true);go(ward+"/adm");};
   {const b=$("admWeb");if(b)b.onclick=()=>{const u=B.filter(unsent);sendWeb((u.length?u:B).map(x=>x.key),"admWebNote");};}
+  {const f=$("sheetFoot");if(f){f.insertAdjacentHTML("beforeend",ufaBtn("ufaSheet"));bindUfa();}}
   paintSync();
 }
 
@@ -1328,6 +1332,50 @@ function rLegend(){
   document.querySelectorAll("[data-lk]").forEach(b=>b.onclick=()=>{st.legSel=b.dataset.lk;st.legMode="grade";persist();go(ward+"/lres");});
   $("lgHist").onclick=()=>go(ward+"/lhist");
 }
+/* ---------------- shared bank: AI-made questions anyone shared ("Update for all") — Firestore shared/<ward>/items, read by every visitor of the website ---------------- */
+const SHARED={},SHAREDQ={};let sharedT=0;
+const SPKEY=KEY+"-sharepend";
+const unshared=x=>!x.shared;
+function shareItems(wid){const o=[];["adm","lai","lc"].forEach(kd=>bankItems(kd,wid).forEach(x=>{if(!unshared(x))return;if((kd==="lc"&&x.case)||(kd!=="lc"&&x.q&&Array.isArray(x.q.opts)))o.push(x.key);}));return o;}
+const shareCount=wid=>shareItems(wid).length;
+async function loadShared(){if(!fb)return;try{for(const w of WL){const snap=await fb.fs.getDocs(fb.fs.collection(fb.db,"shared",w.id,"items"));const L_=[];
+    snap.forEach(x=>{const d=x.data();if(!d||!d.d)return;try{const v=JSON.parse(d.d);if(d.kind==="lc"){if(v&&v.case)L_.push({id:x.id,kind:"lc",case:v.case,orig:v.orig||"",ts:d.ts||0,by:d.by});}
+      else if(v&&v.q&&Array.isArray(v.q.opts)&&v.q.uid){L_.push({id:x.id,kind:d.kind,q:v.q,ts:d.ts||0,by:d.by});SHAREDQ[w.id+"|"+v.q.uid]=v.q;}}catch(e){}});
+    SHARED[w.id]=L_.sort((a,b)=>a.ts-b.ts);}
+  sharedT=now();if(["adm","lcase","home","sess"].includes(view))route();}catch(e){console.warn("shared",e);}}
+/* upload to the shared bank (website, signed in); without sign-in the keys wait in this browser until the next sign-in */
+async function shareUpload(wid,keys){keys=keys.filter(k=>bank[k]);if(!keys.length)return 0;
+  if(!fb||!fb.user){const pend=ld(SPKEY)||{};pend[wid]=[...new Set((pend[wid]||[]).concat(keys))];try{localStorage.setItem(SPKEY,JSON.stringify(pend));}catch(e){}return -keys.length;}
+  let n=0;for(const k of keys){const x=bank[k],kd=k.split("|")[0],v=kd==="lc"?{case:x.case,orig:k}:{q:x.q};
+    try{await fb.fs.setDoc(fb.fs.doc(fb.db,"shared",wid,"items",inkId(k)),{kind:kd,d:JSON.stringify(v),ts:now(),by:fb.user.uid});x.shared=now()+10000;bankPut(k,x);n++;}catch(e){console.warn("share",e);}}
+  if(n)loadShared();return n;}
+async function flushSharePend(){const pend=ld(SPKEY);if(!pend||!fb||!fb.user)return;try{localStorage.removeItem(SPKEY);}catch(e){}let n=0;for(const w in pend)n+=Math.max(0,await shareUpload(w,pend[w]||[]));if(n)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);}
+/* the "Update for all" button: in Claude it opens the website with the items (website imports them for you and uploads them to the shared bank); on the website it uploads directly */
+async function updateForAll(noteId){const keys=shareItems(ward);const note=$(noteId);
+  if(!keys.length){toast("ไม่มีโจทย์ใหม่ที่ยังไม่ได้แชร์");return;}
+  if(HAS_CLAUDE()){if(!CFG.siteUrl)return;const cut=keys.slice(0,150);
+    try{const d=await packStr(JSON.stringify({w:ward,b:legBundle(cut),share:cut})),url=CFG.siteUrl.replace(/#.*$/,"")+"#bank="+d;
+      cut.forEach(k=>{const x=bank[k];if(x){x.shared=now()+10000;bankPut(k,x);}});
+      const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
+      if(note)note.innerHTML=`เปิดเว็บแล้ว — ในเว็บต้อง<b>เข้าสู่ระบบ</b>จึงจะแชร์ให้ทุกคนได้ (ยังไม่เข้าสู่ระบบ เว็บจะเก็บไว้รอ แล้วแชร์ให้ทันทีที่เข้าสู่ระบบ)${keys.length>cut.length?` · เหลืออีก ${keys.length-cut.length} ข้อ กดอีกครั้ง`:""} · ถ้าแท็บใหม่ไม่เปิด <button class="linkbtn" id="ufaCopy">คัดลอกลิงก์</button>`;
+      const c=$("ufaCopy");if(c)c.onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว");}catch(e){prompt("คัดลอกลิงก์นี้ไปเปิดในเบราว์เซอร์:",url);}};}
+    catch(e){console.warn(e);toast("สร้างลิงก์ไม่สำเร็จ");}return;}
+  const n=await shareUpload(ward,keys);
+  if(n<0){toast("เข้าสู่ระบบก่อน แล้วระบบจะแชร์ให้ทุกคนทันที");go("signin");}else if(n)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);else toast("แชร์ไม่สำเร็จ — ตรวจการเชื่อมต่อ");
+  if(view==="adm"||view==="lcase"||view==="lhist")route();}
+const ufaBtn=(id)=>{const n=shareCount(ward);return n&&(HAS_CLAUDE()?CFG.siteUrl:fbOn())?`<div class="ufa"><button class="btn ufab" data-ufa="${id}" type="button">🌐 Update for all (${n})</button><span class="hint">แชร์โจทย์ใหม่ที่ AI สร้าง (Admission · Legendary · Long case) ขึ้นเว็บให้ทุกคน ทุกเครื่อง ทุกบัญชี — ไม่รวมคำตอบของคุณ</span><span class="hint" id="${id}"></span></div>`:"";};
+const bindUfa=()=>document.querySelectorAll("[data-ufa]").forEach(b=>b.onclick=()=>updateForAll(b.dataset.ufa));
+/* shared bank on the Admission page and the Long case page (website) */
+function sharedAdmCard(){const L_=(SHARED[ward]||[]).filter(x=>x.kind!=="lc");if(!L_.length)return "";
+  const mine=x=>!!(bank["adm|"+ward+"|"+x.q.uid]||bank["lai|"+ward+"|"+x.q.uid]),todo=L_.filter(x=>!mine(x));
+  return `<div class="card"><h3>🌐 คลังรวมจากทุกคน</h3><span class="rd">โจทย์ที่ AI สร้างและผู้ใช้แชร์ไว้ ${L_.length} ข้อ · ยังไม่เคยทำ ${todo.length} ข้อ — ตอบแล้วจะเก็บเข้าคลังของคุณ</span><div class="row2"><button class="btn" id="shAll" type="button">ทำทั้งหมด</button><span class="spacer"></span><button class="btn primary" id="shNew" type="button" ${todo.length?"":"disabled"}>ทำข้อที่ยังไม่เคยทำ (${todo.length})</button></div></div>`;}
+function bindSharedAdm(){const L_=(SHARED[ward]||[]).filter(x=>x.kind!=="lc"),mine=x=>!!(bank["adm|"+ward+"|"+x.q.uid]||bank["lai|"+ward+"|"+x.q.uid]);
+  const a=$("shAll");if(a)a.onclick=()=>startSess("adm","Admission · คลังรวม",shuffle(L_).map(x=>x.q.uid));
+  const b=$("shNew");if(b)b.onclick=()=>startSess("adm","Admission · คลังรวม (ข้อใหม่)",shuffle(L_.filter(x=>!mine(x))).map(x=>x.q.uid));}
+function sharedLcHTML(){const L_=(SHARED[ward]||[]).filter(x=>x.kind==="lc"&&!bank[x.orig]&&!bank["lc|"+ward+"|S"+x.id]);if(!L_.length)return "";
+  return `<h2 class="h2" style="font-size:18px;margin-top:22px">🌐 เคสรวมจากทุกคน</h2><div class="card" style="padding:6px">${L_.map(x=>`<button class="srow" data-shlc="${esc(x.id)}"><span class="meta" style="flex:1">${esc(x.case.intro.slice(0,90))}${x.case.intro.length>90?"…":""}</span><span class="go">→</span></button>`).join("")}</div>`;}
+function bindSharedLc(){document.querySelectorAll("[data-shlc]").forEach(b=>b.onclick=()=>{const x=(SHARED[ward]||[]).find(y=>y.id===b.dataset.shlc);if(!x)return;const k="lc|"+ward+"|S"+x.id;bankPut(k,{case:x.case,step:0,my:{},shared:now()+10000});P_().lcCur=k;st.lcView="";save();rLCase();window.scrollTo(0,0);});}
+
 /* ---------------- Legendary history: every paper, and sending papers made in Claude to the website ---------------- */
 function legRows(H,total){return `<div class="card" style="padding:6px">${H.map((x,i)=>{const nai=Object.values(x.src||{}).filter(v=>v==="ai").length,used=Math.round(((x.t1||0)-(x.t0||0))/1000);
   return `<button class="srow" data-lk="${esc(x.key)}"><span class="lgg ${gCls(gradeOf(x.pct))}">${esc(gradeOf(x.pct))}</span><span class="meta" style="flex:1"><b>ครั้งที่ ${total-i}</b> · ${fmtDT(x.t1)}<br>${x.score}/${x.n} (${(+x.pct||0).toFixed(1)}%) · ${x.auto?"หมดเวลา":"ใช้เวลา "+mmss(used)}${nai?` · โจทย์ AI ${nai}`:""}${x.via==="claude"||nai?" · ทำใน Claude":x.via==="web"?" · ทำในเว็บ":""}</span><span class="go">→</span></button>`;}).join("")}</div>`;}
@@ -1342,10 +1390,11 @@ function rLHist(){
   if(HAS_CLAUDE()&&n&&CFG.siteUrl){const un=H.filter(unsent).length;
     h+=`<div class="card"><h3>ส่งผลสอบไปดูในเว็บ</h3><span class="rd">เว็บ (GitHub) กับ Claude เก็บข้อมูลแยกกัน ปุ่มนี้เปิดเว็บพร้อมผลสอบและเฉลยครบทุกข้อ รวมโจทย์ที่ AI สร้าง — เปิดแล้วเว็บจะเก็บไว้ในประวัติให้ (ถ้าเข้าสู่ระบบในเว็บ จะเก็บในบัญชีด้วย)</span>
       <div class="row2"><button class="btn${un?" primary":""}" id="lhSend" type="button">${un?`ส่งที่ยังไม่ได้ส่ง (${un} ครั้ง)`:"ส่งทั้งหมดอีกครั้ง"}</button></div><p class="hint" id="lhNote" style="margin:6px 0 0"></p></div>`;}
+  h+=ufaBtn("ufaLh");
   h+=`<div class="stack" style="margin-top:14px"><button class="btn ghost" id="lhBack" type="button">กลับ Legendary round</button></div>`;
   $("main").innerHTML=h;
   document.querySelectorAll("[data-lk]").forEach(b=>b.onclick=()=>{st.legSel=b.dataset.lk;st.legMode="grade";persist();go(ward+"/lres");});
-  $("lhBack").onclick=()=>go(ward+"/legend");
+  $("lhBack").onclick=()=>go(ward+"/legend");bindUfa();
   const sb=$("lhSend");if(sb)sb.onclick=()=>{const L_=H.filter(unsent);legSendWeb((L_.length?L_:H).map(x=>x.key));};
 }
 /* papers → link to the website: #legs=<z|j>.<base64url of {w, b:{bankKey: item}}> (deflate when the browser has CompressionStream) */
@@ -1371,10 +1420,14 @@ async function sendWeb(keys,noteId){const note=$(noteId||"lhNote");
 function checkLegImport(){const m=/[#&](?:legs|bank)=([zj]\.[A-Za-z0-9_-]+)/.exec(location.hash||"");if(!m)return false;
   try{history.replaceState(null,"",location.pathname+location.search+"#/");}catch(e){location.hash="#/";}
   (async()=>{try{const o=JSON.parse(await unpackStr(m[1]));const w=o&&WARDS[o.w]?o.w:null,b=o&&o.b;if(!w||!b||typeof b!=="object")throw 0;
-    const keys=Object.keys(b).filter(k=>/^(leg|lai|adm)\|/.test(k)&&k.split("|")[1]===w);let np=0,na=0;
+    const keys=Object.keys(b).filter(k=>/^(leg|lai|adm|lc)\|/.test(k)&&k.split("|")[1]===w);let np=0,na=0;
     keys.forEach(k=>{const v=b[k];if(!v||typeof v!=="object")return;if(k.startsWith("leg|")){v.imp=v.imp||now();np++;}if(k.startsWith("adm|")){if(!v.q||!Array.isArray(v.q.opts))return;na++;}if(!bank[k]||(v.ts||0)>=(bank[k].ts||0)){bank[k]=v;cloudBank(k);}});
     try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){}
-    toast("นำเข้าจาก Claude แล้ว: "+[np?`ผลสอบ Legendary ${np} ครั้ง`:"",na?`เคส Admission ${na} เคส`:""].filter(Boolean).join(" · "));go(w+"/"+(np?"lhist":"adm"));}
+    toast("นำเข้าจาก Claude แล้ว: "+[np?`ผลสอบ Legendary ${np} ครั้ง`:"",na?`เคส Admission ${na} เคส`:""].filter(Boolean).join(" · "));
+    if(Array.isArray(o.share)&&o.share.length){const sk=o.share.filter(k=>/^(adm|lai|lc)\|/.test(k)&&k.split("|")[1]===w&&b[k]);sk.forEach(k=>{if(!bank[k]&&b[k])bank[k]=b[k];});
+      const wait=async()=>{for(let i=0;i<40&&!(fb&&fb.user)&&fbOn();i++)await new Promise(r=>setTimeout(r,250));const n=await shareUpload(w,sk);
+        if(n>0)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);else if(n<0){toast("เข้าสู่ระบบเพื่อแชร์โจทย์ให้ทุกคน — เก็บไว้รอแล้ว");}};wait();}
+    go(w+"/"+(np?"lhist":"adm"));}
   catch(e){console.warn(e);alert("ลิงก์ผลสอบไม่ถูกต้อง หรือไม่ครบ (ลองคัดลอกลิงก์ใหม่ทั้งหมด)");}})();
   return true;}
 function legStart(aiQs){
@@ -1504,12 +1557,14 @@ function rLCase(){
     if(lcBusy)h+=`<div class="card"><h3>กำลังสร้างเคสใหม่…</h3><span class="rd" style="margin:0">ใช้เวลาประมาณ 20–90 วินาที</span><div class="spin" aria-hidden="true"></div></div>`;
     else{if(lcErr&&lcErr.code!=="no_ai")h+=`<div class="card"><h3>สร้างเคสไม่สำเร็จ</h3>${aiErrHTML(lcErr)}</div>`;h+=`<div id="lcBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;}
     const H=bankItems("lc",ward).reverse();
+    h+=sharedLcHTML()+ufaBtn("ufaLc");
     if(H.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">เคสที่เคยทำ</h2><div class="card" style="padding:6px">${H.map(c=>`<button class="srow" data-lc="${esc(c.key)}"><span class="meta" style="flex:1"><b>${esc(c.step>=8?c.case.topic:"เคสที่ยังทำไม่จบ")}</b> · ${esc(c.case.intro.slice(0,70))}${c.case.intro.length>70?"…":""}<br>${fmtD(c.c)} · ${Math.min(c.step,8)}/8 ขั้น</span><span class="go">→</span></button>`).join("")}</div>`;
     $("main").innerHTML=h;
     if(!lcBusy)aiMode().then(mode=>{const box=$("lcBox");if(!box||view!=="lcase")return;box.innerHTML=lcConnectHTML(mode);
       const nb=$("lcNew");if(nb)nb.onclick=lcNew;
       const sv=$("aiSave");if(sv)sv.onclick=()=>{const k=$("aiKey").value.trim(),m=$("aiModel").value.trim();if(!/^sk-/.test(k)){toast("key ควรขึ้นต้นด้วย sk-");return;}try{localStorage.setItem(AIKEY,JSON.stringify({key:k,model:m}));}catch(e){}lcNew();};
       const dl=$("aiDel");if(dl)dl.onclick=()=>{try{localStorage.removeItem(AIKEY);}catch(e){}rLCase();};});
+    bindSharedLc();bindUfa();
     document.querySelectorAll("[data-lc]").forEach(b=>b.onclick=()=>{const k=b.dataset.lc;if((bank[k].step||0)<8){P.lcCur=k;st.lcView="";save();}else{st.lcView=k;persist();}rLCase();window.scrollTo(0,0);});
     return;}
   const C=x.case,done=Math.min(x.step||0,8),my=x.my||{};
@@ -1749,12 +1804,12 @@ async function initFB(){
     const b="https://www.gstatic.com/firebasejs/10.12.2/";
     const [ap,au,fs]=await Promise.all([import(b+"firebase-app.js"),import(b+"firebase-auth.js"),import(b+"firebase-firestore.js")]);
     const app=ap.initializeApp(CFG.firebase);
-    fb={au,fs,auth:au.getAuth(app),db:fs.getFirestore(app),user:null};
+    fb={au,fs,auth:au.getAuth(app),db:fs.getFirestore(app),user:null};loadShared();
     try{await au.setPersistence(fb.auth,au.browserLocalPersistence);}catch(e){}
     au.getRedirectResult(fb.auth).catch(e=>{authErr=errMsg(e);});
     au.onAuthStateChanged(fb.auth,async u=>{
       fb.user=u;
-      if(u){sync="saving";paintAcct();try{await pull();sync="cloud";}catch(e){console.warn(e);sync="error";}}else sync="local";
+      if(u){sync="saving";paintAcct();try{await pull();sync="cloud";}catch(e){console.warn(e);sync="error";}flushSharePend();}else sync="local";
       paintAcct();if(view==="signin"||view==="wards"||view==="home")route();else if(view==="svc"||view==="sess")rQuiz();
     });
   }catch(e){console.warn("firebase",e);fb=null;fbFail=true;if(view==="signin")rSignin();}

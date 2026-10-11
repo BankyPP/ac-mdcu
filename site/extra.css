@@ -265,3 +265,6 @@ figure .spr{width:100%!important}
 /* Morning round not finished today */
 .round.mwarn{border-color:var(--wrong);background:var(--wrong-soft)}
 .round .mtodo{display:block;margin-top:6px;font-size:13px;font-weight:600;color:var(--wrong)}
+/* Update for all */
+.ufa{display:flex;flex-direction:column;gap:4px;margin:14px 0 4px;flex-basis:100%}
+.ufab{border-color:var(--form);color:var(--form);font-weight:600}
