@@ -428,9 +428,28 @@ function markSeen(q,rk){if(!q||!rk)return;const P=P_(),m=P.seen[q.uid]||(P.seen[
 const seenIn=(P,u)=>Object.keys(P.seen[u]||{}).sort((a,b)=>RKO.indexOf(a)-RKO.indexOf(b));
 function relSeen(P,W,u){const o=new Set();(W.REL[u]||[]).forEach(x=>seenIn(P,x).forEach(k=>o.add(k)));return RKO.filter(k=>o.has(k));}
 const rkNames=ks=>ks.map(k=>RKL[k]||k).join(", ");
+/* broad chapter-level tags (never diagnosis names): the ward's own vocabulary from data/tags.js, or the surgery list */
+const BROAD0=["Pre-op & post-op","MIS","Hemostasis & transfusion","Fluid & electrolyte","Metabolic response","Nutrition","Surgical infection","Onco","Professionalism & ethics","Surgical safety","Trauma","Burn","Plastic","Transplant","Breast","Thyroid & parathyroid","Esophagus","Stomach & duodenum","Small bowel","Appendix","Acute abdomen","Hernia","Liver","Jaundice","Gallstone","Pancreas","Spleen","Colorectal","Anorectal","Vascular"];
+const broadOf=W=>{if(!W)return BROAD0;if(!W._broad){const s=new Set();Object.values(W.TAGS||{}).forEach(a=>a.forEach(t=>s.add(t)));s.delete("Misc");W._broad=s.size?[...s]:BROAD0;}return W._broad;};
+const TAGRX=[["Vascular",/aneurysm|\baaa\b|limb isch|claudicat|peripheral arter|\bpad\b|\bdvt\b|thrombo|venous|varicose|embol|carotid|arterial|mesenteric isch/],
+  ["Transplant",/transplant|rejection|donor|brain death/],["Breast",/breast|mastitis|nipple|fibroadenoma|phyllodes/],["Thyroid & parathyroid",/thyroid|parathyroid|goit|graves|\bmen ?2/],
+  ["Esophagus",/esophag|oesophag|achalasia|barrett|\bgerd\b|boerhaave|caustic/],["Stomach & duodenum",/gastr(?!o?enteritis)|stomach|peptic|duoden|upper gi|pylor|dumping|bariatric|\bgist\b/],
+  ["Appendix",/appendic|appendix/],["Hernia",/hernia|hydrocele/],["Anorectal",/\banal\b|anus|hemorrhoid|haemorrhoid|fissure|perianal|anorectal|pilonidal|fistula-in-ano/],
+  ["Colorectal",/colon|colorectal|\brectal|rectum|sigmoid|diverticul|crohn|colitis|\bibd\b|lower gi/],["Small bowel",/small bowel|small intestin|\bsbo\b|ileus|meckel|adhesi|intussus|enterocutaneous|short bowel|mesenteric/],
+  ["Spleen",/splen/],["Pancrea",/pancrea|whipple|ipmn|insulinoma/],["Gallstone",/gallstone|cholecyst|biliary colic|cholelith|gallbladder|mirizzi/],
+  ["Jaundice",/jaundice|choledoch|cholangi|periampull|ampull|bile duct|\bcbd\b|klatskin|obstructive biliary/],["Liver",/liver|hepat|cirrho|portal hyper|varice|\bhcc\b|budd/],
+  ["Acute abdomen",/acute abdomen|peritonit|perforat|bowel obstruction|volvulus|strangulat|incarcerat|appendicitis/],
+  ["Trauma",/trauma|injur|\bfast\b|laceration|hemoperitoneum|haemoperitoneum|primary survey/],["Burn",/burn/],["Plastic",/wound healing|suture|skin graft|\bflap|scar|keloid|lipoma|epidermoid/],
+  ["Fluid & electrolyte",/natremia|kalemia|calcemia|acidosis|alkalosis|acid-base|fluid|electrolyte|dehydrat|shock/],["Metabolic response",/metabolic response|starvation|stress response/],
+  ["Nutrition",/nutrition|\btpn\b|parenteral|enteral|refeeding|malnutrition/],["Surgical infection",/infection|abscess|cellulitis|necrotizing|\bssi\b|sepsis|septic|tetanus|antibiotic prophylaxis/],
+  ["Hemostasis & transfusion",/transfus|coagul|hemophilia|haemophilia|warfarin|anticoag|heparin|platelet|von willebrand/],["Pre-op & post-op",/preoperat|postoperat|perioperat|\basa\b|post-op|pre-op/],
+  ["MIS",/laparoscop|minimally invasive|pneumoperitoneum/],["Professionalism & ethics",/ethic|consent|autonomy|palliative|professional/],
+  ["Onco",/cancer|carcinoma|tumou?r|malignan|lymphoma|neoplasm|metasta|sarcoma|\bhcc\b|\bgist\b|insulinoma/]];
+function guessTags(W,txt){const v=broadOf(W),t=String(txt||"").toLowerCase(),o=[];TAGRX.forEach(([k,rx])=>{const n=k==="Pancrea"?"Pancreas":k;if(rx.test(t)&&v.includes(n)&&!o.includes(n))o.push(n);});const on=o.indexOf("Onco");if(on>=0){o.splice(on,1);o.push("Onco");}return o.slice(0,4);}
+function cleanTags(W,a,txt){const v=broadOf(W),lc=v.map(x=>x.toLowerCase()),o=[];(Array.isArray(a)?a:[]).forEach(x=>{const i=lc.indexOf(String(x).trim().toLowerCase());if(i>=0&&!o.includes(v[i]))o.push(v[i]);});return o.length?o.slice(0,4):guessTags(W,txt);}
 /* subject tags (data/tags.js: 1–3 per question, chapter-level) — shown before and after answering in every round; never on the Legendary question page */
 function tagRow(q){const W=W_();let t=[];
-  if(q.adm)t=q.topic?[q.topic]:[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=[].concat(Lc.tags||Lc.topic||[]);}
+  if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=[].concat(Lc.tags||Lc.topic||[]);}
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];
   if(!t.length)return "";
   const lec=W.TAGLEC||{};   /* future: tag → lecture code */
@@ -899,6 +918,7 @@ Explanation: write it for Thai medical students, in Thai mixed with English medi
 
 Reply with only a JSON object with exactly these keys:
 {"topic": "short English topic label",
+ "tags": ["1–4 broad chapter-level subjects this case belongs to, chosen ONLY from: ${broadOf(W).join("; ")} — never a diagnosis name"],
  "stem": "the case and question",
  "opts": ["A text","B text","C text","D text","E text"],
  "ans": ${pos},
@@ -916,7 +936,7 @@ function admCheck(o){
   if(opts.length!==5||opts.some(x=>!x)||!o.stem||!(ans>=0&&ans<5))throw {code:"bad"};
   const W0=o.wrong||{},wrong={};let j=0;for(let i=0;i<5;i++){if(i===ans)continue;const k=L[i];wrong[k]=san(Array.isArray(W0)?W0[j]:(W0[k]||W0[k.toLowerCase()]||""));j++;}
   const ts=now(),arr=x=>(Array.isArray(x)?x:[]).map(san).filter(Boolean);
-  return {adm:1,uid:"ADM|"+ts.toString(36),set:"Case",ro:wYear(),topic:String(o.topic||"").slice(0,80),stem:san(o.stem),opts,ans,interp:san(o.interp),why:san(o.why),wrong,trap:san(o.trap),summary:arr(o.summary),guide:String(o.guide||"").slice(0,300),mnemonic:san(o.mnemonic),variants:arr(o.variants),ts};}
+  return {adm:1,uid:"ADM|"+ts.toString(36),set:"Case",ro:wYear(),topic:String(o.topic||"").slice(0,80),tags:cleanTags(W_(),o.tags,(o.topic||"")+" "+(o.stem||"")),stem:san(o.stem),opts,ans,interp:san(o.interp),why:san(o.why),wrong,trap:san(o.trap),summary:arr(o.summary),guide:String(o.guide||"").slice(0,300),mnemonic:san(o.mnemonic),variants:arr(o.variants),ts};}
 /* one AI call that must answer with a JSON object — through Claude (inside Claude) or the viewer's own API key */
 async function aiJSON(pr,maxTok){
   const mode=await aiMode();if(!mode)throw {code:"no_ai"};
@@ -1180,7 +1200,7 @@ function admSheet(){
   document.querySelectorAll("[data-af]").forEach(b=>b.onclick=()=>{st.admF=b.dataset.af;persist();sheet();});
   const d=B.filter(x=>x.a!=null),r=d.filter(x=>x.a===x.q.ans);stats(d.length,B.length,r.length);
   const v=B.map((x,i)=>[x,i]).filter(([x])=>f==="wrong"?x.a!=null&&x.a!==x.q.ans:f==="right"?x.a===x.q.ans:f==="todo"?x.a==null:true);
-  rows(v.map(([x,i])=>({q:Object.assign({},x.q,{id:i+1,set:x.q.topic||"Case",ro:""}),a:x.a==null?undefined:x.a,cur:view==="admq"?x.key===st.admSel:!!(A.cur&&A.cur.uid===x.q.uid),meta:fmtD(x.c)+" · ",
+  rows(v.map(([x,i])=>({q:Object.assign({},x.q,{id:i+1,set:x.a!=null&&x.q.topic?x.q.topic:((Array.isArray(x.q.tags)&&x.q.tags.length?x.q.tags:guessTags(W_(),x.q.topic)).join(", ")||"Case"),ro:""}),a:x.a==null?undefined:x.a,cur:view==="admq"?x.key===st.admSel:!!(A.cur&&A.cur.uid===x.q.uid),meta:fmtD(x.c)+" · ",
     go:()=>{st.admSel=x.key;persist();pick=null;if(A.cur&&A.cur.uid===x.q.uid&&A.ans==null)go(ward+"/adm");else go(ward+"/admq");}})).reverse(),B.length?"ไม่มีข้อที่ตรงกับตัวกรองนี้":"ยังไม่มีเคสในคลัง — เริ่ม Admission round เพื่อให้ AI สร้างเคสแรก");
   $("sheetFoot").innerHTML=`<span class="hint">เรียงจากเคสล่าสุด · ทุกเคสที่ AI สร้างเก็บไว้ในคลังของคุณ (ย้ายระหว่างเว็บกับ Claude ด้วย “ไฟล์สำรอง” ในหน้าวอร์ด)</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span>${view==="admq"?`<button class="link" id="toAdm">กลับไปข้อปัจจุบัน</button>`:""}${HAS_CLAUDE()&&CFG.siteUrl&&B.length?(()=>{const u=B.filter(unsent).length;return `<span style="flex-basis:100%"></span><button class="btn${u?" primary":""}" id="admWeb" type="button">${u?`ส่งเคสที่ยังไม่ได้ส่งไปเว็บ (${u})`:"ส่งทุกเคสไปเว็บอีกครั้ง"}</button><span class="hint" id="admWebNote" style="flex-basis:100%"></span>`;})():""}`;
   const ta=$("toAdm");if(ta)ta.onclick=()=>{closeS(true);go(ward+"/adm");};
@@ -1238,6 +1258,7 @@ Explanation: for Thai medical students, in Thai mixed with English medical terms
 
 Reply with only a JSON object {"questions": [ … ]} holding ${specs.length} objects in the order above, each with exactly these keys:
 {"topic": "short English topic label",
+ "tags": ["1–4 broad chapter-level subjects, chosen ONLY from: ${broadOf(W).join("; ")} — never a diagnosis name"],
  "stem": "the case and question",
  "opts": ["A text","B text","C text","D text","E text"],
  "ans": <index of the correct option>,
