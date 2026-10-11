@@ -134,7 +134,7 @@ $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
 /* ---------------- wards ---------------- */
 function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
-  h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb" style="font-size:${(()=>{const n=Math.max(...String(w.short||w.id).split(" ").map(x=>x.length));return n>5?11:n>4?12.5:14;})()}px">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span></span></a>`;}).join("");
+  h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb" style="font-size:${(()=>{const n=Math.max(...String(w.short||w.id).split(" ").map(x=>x.length));return n>5?11:n>4?12.5:14;})()}px">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span>${examDates(w).filter(x=>!x.past).sort((a,b)=>a.days-b.days).map(x=>`<span class="wcd${x.days<=14?" hot":""}">สอบ ${esc(x.part)} ${esc(x.label)} · <b>${x.days<=0?"วันนี้":"อีก "+cdTxt(x.days)}</b>${x.days<=14?` — ควรเริ่ม Phase 2 ของ ${esc(x.part)}`:""}</span>`).join("")}</span></a>`;}).join("");
   h+=acctCard();
   $("main").innerHTML=h;bindAcctCard();
 }
@@ -147,6 +147,15 @@ function acctCard(){
 function bindAcctCard(){document.querySelectorAll('[data-act="acct"]').forEach(b=>b.onclick=()=>go("signin"));}
 
 /* ---------------- home ---------------- */
+/* ---------------- exam dates per ward (config wards[].dates: [{part, at:"YYYY-MM-DD[THH:MM]"}], times in Thailand) ---------------- */
+const TH_MON=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];
+function examDates(w){return ((w&&w.dates)||[]).map(x=>{const m=/^(\d{4})-(\d\d)-(\d\d)(?:T(\d\d):(\d\d))?/.exec(x.at||"");if(!m)return null;
+  const y=+m[1],mo=+m[2],d=+m[3],hasT=!!m[4],t=Date.UTC(y,mo-1,d,hasT?+m[4]:23,hasT?+m[5]:59)-7*3600e3;
+  const td=new Date(Date.now()+7*3600e3),today=Date.UTC(td.getUTCFullYear(),td.getUTCMonth(),td.getUTCDate()),days=Math.round((Date.UTC(y,mo-1,d)-today)/864e5);
+  return {part:x.part,label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}`:""}`,days,past:Date.now()>t};}).filter(Boolean);}
+/* countdown: "N w N d" while more than 14 days are left, then "N d" — no hours or minutes */
+const cdTxt=d=>d<=0?"วันนี้":d<=14?`${d} d`:`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:"");
+const nextExam=w=>examDates(w).filter(x=>!x.past).sort((a,b)=>a.days-b.days)[0]||null;
 const ROUNDS=[
   {k:"grand",n:"Grand round",d:"สุ่มข้อจากทั้งคลัง ไม่สนว่าปีไหนหรือเรื่องอะไร"},
   {k:"service",n:"Service round",d:"เลือกปีและ rotation ที่อยากทำ ทำแบบกระดาษคำตอบ"},
@@ -199,7 +208,10 @@ const p2lists=()=>{const P=P_(),QB=W_().QB;return {
 function rHome(){
   const W=W_(),P=P_(),p=ph(),w=W.cfg,QB=W.QB;
   const type=P.type||"MCQ",hasQ=type==="MCQ"&&QB.length>0;
-  let h=`<div class="whead"><h1 class="h2">${esc(w.name)}</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0">${esc(w.sub||"")}</p>`;
+  const ED=examDates(w).filter(x=>!x.past),soon=ED.filter(x=>x.days<=14).sort((a,b)=>a.days-b.days);
+  let h=soon.length&&p===1?`<div class="p2warn"><b>ควรเริ่ม Phase 2 ของ ${soon.map(x=>`${esc(x.part)} (สอบ${x.days<=0?"วันนี้":` ${esc(x.label)} · เหลือ ${cdTxt(x.days)}`})`).join(" และ ")} ได้แล้ว</b><button class="btn" id="toP2" type="button">ไป Phase 2</button></div>`:"";
+  h+=`<div class="whead"><h1 class="h2">${esc(w.name)}</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0">${esc(w.sub||"")}</p>`;
+  if(ED.length)h+=`<div class="exdates">${ED.map(x=>`<span class="exd${x.days<=14?" hot":""}"><span class="k">สอบ ${esc(x.part)}</span><span class="v">${esc(x.label)}</span><b>${cdTxt(x.days)}</b></span>`).join("")}</div>`;
   h+=`<div class="tabs" role="tablist">${["MCQ","MEQ","OSCE"].map(t=>`<button class="tab" role="tab" aria-selected="${t===type}" data-type="${t}">${t}</button>`).join("")}</div>`;
   const noEx=(w.noExam||[]).includes(type);
   if(!noEx){h+=`<div class="seg" role="group" aria-label="Phase"><button data-ph="1" aria-pressed="${p===1}"><b>Phase 1</b>ช่วงเรียน</button><button data-ph="2" aria-pressed="${p===2}"><b>Phase 2</b>ช่วงใกล้สอบ</button></div>`;
@@ -239,6 +251,7 @@ function rHome(){
   $("hExp").onclick=exportLink;$("hImp").onclick=importPrompt;$("hFile").onclick=exportFile;$("hFileIn").onclick=importFile;
   document.querySelectorAll("[data-type]").forEach(b=>b.onclick=()=>{P.type=b.dataset.type;save();rHome();});
   document.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{st.phase=+b.dataset.ph;save();rHome();});
+  {const b=$("toP2");if(b)b.onclick=()=>{st.phase=2;save();rHome();};}
   document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(ward+"/"+b.dataset.go));
   document.querySelectorAll("[data-p2]").forEach(b=>b.onclick=()=>{const k=b.dataset.p2,l=p2lists()[k];const t={wrong:"ข้อที่ยังผิดอยู่",right:"ข้อที่ทำถูกแล้ว",flag:"ข้อที่ยังไม่มั่นใจ",nop1:"ข้อที่ไม่เคยทำใน Phase 1"}[k];startSess("p2"+k,t,l.map(q=>q.uid));});
   const rs=$("resume");if(rs)rs.onclick=()=>go(ward+"/sess");
@@ -260,12 +273,12 @@ function startSess(kind,title,uids,extra){
 /* ---------------- Teaching round: 4 tools (to be built later) ---------------- */
 const TEACH=[
   {k:"yellow",n:"ใบเหลือง",d:"ช่วยเขียนใบเหลือง case report แบบ SOAP"},
-  {k:"cta",n:"CTA",d:"ฝึกหัตถการ — ใช้มากในวอร์ดสูติ-นรีเวช แต่ศัลย์ก็ใช้ได้"},
-  {k:"flash",n:"Flashcard",d:"ฝึก keyword และความรู้จำเพาะสั้น ๆ แบบถามตอบเร็ว คนละแนวกับ MCQ"},
-  {k:"oral",n:"Oral",d:"ฝึกสอบปากเปล่า ตอบคำถามจาก flashcard"}];
+  {k:"cta",n:"CTA",d:"ฝึกหัตถการ"},
+  {k:"flash",n:"Flashcard",d:"ฝึก keyword และความรู้จำเพาะสั้น ๆ แบบถามตอบเร็ว"},
+  {k:"oral",n:"Oral",d:"ฝึกสอบปากเปล่าจาก flashcard"}];
 function rTeach(){
   let h=`<h1 class="h2">Teaching round</h1><p class="sub">${esc(W_().cfg.name)} · เลือกเครื่องมือ</p>`;
-  h+=`<div class="rounds">${TEACH.map((t,i)=>`<button class="round" data-teach="${t.k}" aria-disabled="true"><span class="soon">เร็ว ๆ นี้</span><span class="rn">${String(i+1).padStart(2,"0")}</span><b>${t.n}</b><span class="rd">${t.d}</span></button>`).join("")}</div>`;
+  h+=`<div class="rounds">${TEACH.map((t,i)=>`<button class="round" data-teach="${t.k}" aria-disabled="true"><span class="soon">เร็ว ๆ นี้</span><span class="rn">${String(i+1).padStart(2,"0")}</span><b>${t.n}</b><span class="rd">${t.d}${(()=>{const x=((W_().cfg.teach||{})[t.k]);return Array.isArray(x)&&x.length?" · "+x.map(esc).join(", "):"";})()}</span></button>`).join("")}</div>`;
   h+=`<div class="stack" style="margin-top:14px"><button class="btn ghost" id="tBack" type="button">กลับหน้าวอร์ด</button></div>`;
   $("main").innerHTML=h;
   document.querySelectorAll("[data-teach]").forEach(b=>b.onclick=()=>toast(`${TEACH.find(t=>t.k===b.dataset.teach).n} จะเพิ่มภายหลัง`));

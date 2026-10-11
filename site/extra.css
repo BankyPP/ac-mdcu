@@ -234,3 +234,13 @@ figure .spr{width:100%!important}
 .lgbig .w{flex-basis:100%;font-size:13px;color:var(--muted)}
 .lgbig .dot{color:var(--muted)}
 .lhtrend .lgg{display:inline-block;width:auto;min-width:30px;font-size:14px;padding:2px 6px;border-radius:6px;background:var(--sheet)}
+/* exam dates + countdown */
+.exdates{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 2px}
+.exd{display:inline-flex;align-items:baseline;gap:8px;padding:6px 12px;border-radius:999px;background:var(--sheet);border:1px solid var(--rule);font-size:13.5px;color:var(--ink)}
+.exd .k{font-weight:600}.exd .v{color:var(--muted)}
+.exd b{font-family:var(--num);font-size:17px;color:var(--form)}
+.exd.hot{border-color:var(--wrong);background:var(--wrong-soft)}.exd.hot b{color:var(--wrong)}
+.p2warn{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 14px;padding:12px 14px;border-radius:10px;background:var(--wrong);color:#fff;font-size:15px;line-height:1.5}
+.p2warn b{flex:1 1 220px}.p2warn .btn{background:#fff;color:var(--wrong);border-color:#fff}
+.wcd{display:block;margin-top:3px;font-size:13px;color:var(--muted)}.wcd b{font-family:var(--num);color:var(--form)}
+.wcd.hot,.wcd.hot b{color:var(--wrong)}
