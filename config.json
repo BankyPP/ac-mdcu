@@ -35,6 +35,38 @@
   "siteName": "คลังข้อสอบเก่า",
   "wards": [
     {
+      "id": "med",
+      "name": "Internal Medicine",
+      "short": "Med",
+      "year": "Y4",
+      "sub": "MDCU",
+      "brand": "AC Med Y4 MCQ",
+      "dir": "data_med",
+      "scope": "Internal medicine",
+      "dates": [
+        {
+          "part": "",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "ped",
+      "name": "Pediatrics",
+      "short": "Ped",
+      "year": "Y4",
+      "sub": "MDCU",
+      "brand": "AC Ped Y4 MCQ",
+      "dir": "data_ped",
+      "scope": "Pediatrics",
+      "dates": [
+        {
+          "part": "",
+          "done": true
+        }
+      ]
+    },
+    {
       "id": "sx",
       "name": "General Surgery",
       "short": "Gen Sx",
@@ -57,7 +89,8 @@
       "dates": [
         {
           "part": "MCQ",
-          "at": "2026-11-18T13:30"
+          "at": "2026-11-18T13:30",
+          "score": "gensx-mcq"
         }
       ]
     },
@@ -81,7 +114,8 @@
         },
         {
           "part": "MCQ",
-          "at": "2026-12-30"
+          "at": "2026-12-30",
+          "score": "subspe-mcq"
         }
       ]
     },
@@ -107,5 +141,46 @@
   },
   "homeBrand": "AC {short} MDCU79 by BankyPP",
   "quizBrand": "AC {short} {type}",
-  "artifactUrl": "https://claude.ai/artifact/5KGcnr6yKsqvXGNh73mmfE"
+  "artifactUrl": "https://claude.ai/artifact/5KGcnr6yKsqvXGNh73mmfE",
+  "subjects": [
+    {
+      "id": "medicine",
+      "name": "Medicine",
+      "wards": [
+        "med"
+      ]
+    },
+    {
+      "id": "pediatrics",
+      "name": "Pediatrics",
+      "wards": [
+        "ped"
+      ]
+    },
+    {
+      "id": "surgery",
+      "name": "Surgery",
+      "wards": [
+        "sx",
+        "subspe"
+      ],
+      "scores": [
+        {
+          "k": "gensx-mcq",
+          "label": "Gen Sx MCQ"
+        },
+        {
+          "k": "subspe-mcq",
+          "label": "Subspe MCQ"
+        }
+      ]
+    },
+    {
+      "id": "obgyn",
+      "name": "Obstetrics-Gynecology",
+      "wards": [
+        "obgyn"
+      ]
+    }
+  ]
 }

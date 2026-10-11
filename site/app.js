@@ -103,6 +103,7 @@ window.addEventListener("hashchange",route);
 function route(){
   const h=parseHash();closeS(true);pick=null;
   if(h.w==="signin"){ward=null;return show("signin");}
+  if(h.w==="grades"){ward=null;return show("grades");}
   if(!h.w||!WARDS[h.w]||!WL.some(x=>x.id===h.w)){if(QR)qStop();ward=null;return show("wards");}
   if(QR&&QR.ward!==h.w)qStop();
   ward=h.w;
@@ -126,7 +127,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach})[v]();
+  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -134,9 +135,10 @@ $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
 /* ---------------- wards ---------------- */
 function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
-  h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb" style="font-size:${(()=>{const n=Math.max(...String(w.short||w.id).split(" ").map(x=>x.length));return n>5?11:n>4?12.5:14;})()}px">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span>${examDates(w).filter(x=>!x.past).sort((a,b)=>a.days-b.days).map(x=>`<span class="wcd${x.days<=14?" hot":""}">สอบ ${esc(x.part)} ${esc(x.label)} · <b>${x.days<=0?"วันนี้":"อีก "+cdTxt(x.days)}</b>${x.days<=14?` — ควรเริ่ม Phase 2 ของ ${esc(x.part)}`:""}</span>`).join("")}</span></a>`;}).join("");
+  h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb" style="font-size:${(()=>{const n=Math.max(...String(w.short||w.id).split(" ").map(x=>x.length));return n>5?11:n>4?12.5:14;})()}px">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}${w.sub?" · ":""}${n?`${n} ข้อ`:"ยังไม่มีข้อสอบ"}</span>${examDates(w).sort((a,b)=>a.at-b.at).map(x=>{const c=cdOf(x),sc=x.score&&scoreOf(x.score);return `<span class="wcd${c.hot?" hot":""}${c.done?" done":""}">สอบ${x.part?" "+esc(x.part):""}${x.label?" "+esc(x.label):""} · ${cdHTML(x)}${c.hot?` — ควรเริ่ม Phase 2 ของ ${esc(x.part||"ข้อสอบ")}`:""}${sc?` · คะแนน ${esc(sc)}`:""}</span>`;}).join("")}</span></a>`;}).join("");
+  if(SUBJ.length)h+=`<button class="resume" id="toGrades"><span>📊 <b>สรุปเกรด</b><span class="rd">เกรดทุกวิชา${(()=>{const n=SUBJ.reduce((a,S)=>a+GPARTS.filter(([k])=>((st.grades||{})[S.id]||{})[k]).length,0);return n?` · ใส่แล้ว ${n} ช่อง`:""})()}</span></span><span class="go">→</span></button>`;
   h+=acctCard();
-  $("main").innerHTML=h;bindAcctCard();
+  $("main").innerHTML=h;bindAcctCard();{const b=$("toGrades");if(b)b.onclick=()=>go("grades");}
 }
 function acctCard(){
   if(cl)return `<div class="card"><h3>☁️ บันทึกในบัญชี Claude แล้ว</h3><span class="rd" style="margin:0">ความคืบหน้าบันทึกในบัญชี Claude ของคุณอัตโนมัติ เปิดจากเครื่องไหนก็ได้</span></div>`;
@@ -149,14 +151,49 @@ function bindAcctCard(){document.querySelectorAll('[data-act="acct"]').forEach(b
 /* ---------------- home ---------------- */
 /* ---------------- exam dates per ward (config wards[].dates: [{part, at:"YYYY-MM-DD[THH:MM]"}], times in Thailand) ---------------- */
 const TH_MON=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];
-function examDates(w){return ((w&&w.dates)||[]).map(x=>{const m=/^(\d{4})-(\d\d)-(\d\d)(?:T(\d\d):(\d\d))?/.exec(x.at||"");if(!m)return null;
-  /* days left = full 24-hour days counted back from the exam time (e.g. 17/11 13:30 → "1 d" for an exam at 18/11 13:30); a date without a time counts to the start of that day and shows "วันนี้" on the day */
-  const y=+m[1],mo=+m[2],d=+m[3],hasT=!!m[4],at=Date.UTC(y,mo-1,d,hasT?+m[4]:0,hasT?+m[5]:0)-7*3600e3,t=hasT?at:at+864e5-1;
-  const days=Math.max(0,Math.ceil((at-Date.now())/864e5));
-  return {part:x.part,label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}`:""}`,days,past:Date.now()>t};}).filter(Boolean);}
-/* countdown: "N w N d" while more than 14 days are left, then "N d" — no hours or minutes */
-const cdTxt=d=>d<=0?"วันนี้":d<=14?`${d} d`:`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:"");
-const nextExam=w=>examDates(w).filter(x=>!x.past).sort((a,b)=>a.days-b.days)[0]||null;
+function examDates(w){return ((w&&w.dates)||[]).map(x=>{
+  if(x.done&&!x.at)return {part:x.part||"",label:"",at:0,hasT:false,score:x.score||"",fixedDone:true};
+  const m=/^(\d{4})-(\d\d)-(\d\d)(?:T(\d\d):(\d\d))?/.exec(x.at||"");if(!m)return null;
+  const y=+m[1],mo=+m[2],d=+m[3],hasT=!!m[4],at=Date.UTC(y,mo-1,d,hasT?+m[4]:0,hasT?+m[5]:0)-7*3600e3;
+  const dur=(((w.exam||{})[x.part]||{}).min)||0;
+  return {part:x.part||"",label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}`:""}`,at,hasT,dur,score:x.score||""};}).filter(Boolean);}
+/* countdown, cut to whole units from the exam time: "N w N d" → last 14 days "N d" → last 24 h "N h" → last 2 h "1 h N min" → last hour "N min" (0 min at the start) → "Exam done 🎉" for good.
+   An exam without a time counts whole days to that date and shows "วันนี้" on the day. */
+function cdOf(x){const t=now();
+  if(x.fixedDone)return {txt:"Exam done 🎉",done:true,hot:false,k:"done"};
+  if(!x.hasT){const td=new Date(t+7*3600e3),today=Date.UTC(td.getUTCFullYear(),td.getUTCMonth(),td.getUTCDate())-7*3600e3,d=Math.round((x.at-today)/864e5);
+    if(d<0)return {txt:"Exam done 🎉",done:true,hot:false,k:"done"};
+    return {txt:d===0?"วันนี้":d<=14?`${d} d`:`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:""),done:false,hot:d<=14,days:d,k:d<=14?"hot":"far"};}
+  const r=x.at-t;if(r<=0)return x.dur&&-r<x.dur*6e4?{txt:"กำลังสอบ ✍️",done:false,hot:false,k:"live"}:{txt:"Exam done 🎉",done:true,hot:false,k:"done"};
+  const d=Math.floor(r/864e5),hh=Math.floor(r/36e5),mm=Math.floor(r/6e4);
+  const txt=d>14?`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:""):d>=1?`${d} d`:hh>=2?`${hh} h`:hh>=1?`1 h ${mm-60} min`:`${mm} min`;
+  return {txt,done:false,hot:d<=14,days:d,k:d<=14?"hot":"far"};}
+const cdHTML=x=>{const c=cdOf(x);return `<b data-cdat="${x.at}" data-cdt="${x.hasT?1:0}" data-cdf="${x.fixedDone?1:0}" data-cdd="${x.dur||0}" data-cdk="${c.k}">${esc(c.txt)}</b>`;};
+/* the numbers tick on their own; crossing into the last 14 days or the end of the exam redraws the page (warning bar, colours) */
+setInterval(()=>{let redo=false;document.querySelectorAll("[data-cdat]").forEach(el=>{const c=cdOf({at:+el.dataset.cdat,hasT:el.dataset.cdt==="1",fixedDone:el.dataset.cdf==="1",dur:+el.dataset.cdd||0});if(el.textContent!==c.txt)el.textContent=c.txt;if(el.dataset.cdk!==c.k)redo=true;});
+  if(redo){if(view==="home")rHome();else if(view==="wards")rWards();}},15000);
+/* ---------------- grades and scores (config subjects: one subject can span several wards, e.g. Surgery = Gen Sx + Subspe Sx) ---------------- */
+const GRADE_OPTS=["A","B+","B","C+","C","D+","D","F"];
+const SUBJ=CFG.subjects||[];
+const subjOf=wid=>SUBJ.find(s=>(s.wards||[]).includes(wid))||null;
+const grS=id=>{st.grades=st.grades||{};return st.grades[id]||(st.grades[id]={});};
+const GPARTS=[["theory","Theory in"],["comp","Competency in"],["perf","Performance in"]];
+function gradeCard(wid){const S=subjOf(wid);if(!S)return "";const G=(st.grades||{})[S.id]||{};
+  return `<div class="card grcard"><h3>เกรด · ${esc(S.name)}</h3>${GPARTS.map(([k,t])=>`<label class="grrow"><span>${t} ${esc(S.name)}</span><select class="field-in grsel" data-gs="${esc(S.id)}" data-gk="${k}"><option value="">—</option>${GRADE_OPTS.map(g=>`<option ${G[k]===g?"selected":""}>${g}</option>`).join("")}</select></label>`).join("")}
+    ${(S.scores||[]).map(x=>`<label class="grrow"><span>คะแนน ${esc(x.label)}</span><input class="field-in grin" data-gs="${esc(S.id)}" data-gsc="${esc(x.k)}" value="${esc((G.sc||{})[x.k]||"")}" placeholder="ยังไม่ออก" inputmode="decimal"></label>`).join("")}
+    <button class="linkbtn" data-go-grades type="button">ดูเกรดทุกวิชา →</button></div>`;}
+function bindGrades(){document.querySelectorAll("[data-gk]").forEach(el=>el.onchange=()=>{const G=grS(el.dataset.gs);G[el.dataset.gk]=el.value;G.ts=now();save();toast("บันทึกเกรดแล้ว");});
+  document.querySelectorAll("[data-gsc]").forEach(el=>el.onchange=()=>{const G=grS(el.dataset.gs);G.sc=G.sc||{};G.sc[el.dataset.gsc]=el.value.trim();G.ts=now();save();toast("บันทึกคะแนนแล้ว");});
+  document.querySelectorAll("[data-go-grades]").forEach(b=>b.onclick=()=>go("grades"));}
+const scoreOf=k=>{for(const S of SUBJ){const v=(((st.grades||{})[S.id]||{}).sc||{})[k];if(v)return v;}return "";};
+function rGrades(){
+  let h=`<h1 class="h2">สรุปเกรด</h1><p class="sub">เกรดทุกวิชา · ใส่หรือแก้ได้ที่หน้าวอร์ดของวิชานั้น</p>`;
+  h+=`<div class="card" style="padding:6px"><table class="grtab"><thead><tr><th></th>${GPARTS.map(([k,t])=>`<th>${t.replace(" in","")}</th>`).join("")}</tr></thead><tbody>${SUBJ.map(S=>{const G=(st.grades||{})[S.id]||{};
+    return `<tr data-gw="${esc((S.wards||[])[0]||"")}"><th>${esc(S.name)}${(S.scores||[]).map(x=>(G.sc||{})[x.k]?`<span class="grsc">${esc(x.label)}: ${esc(G.sc[x.k])}</span>`:"").join("")}</th>${GPARTS.map(([k])=>`<td>${G[k]?`<span class="grg ${gCls(G[k])}">${esc(G[k])}</span>`:`<span class="hint">—</span>`}</td>`).join("")}</tr>`;}).join("")}</tbody></table></div>`;
+  h+=`<p class="hint">แตะชื่อวิชาเพื่อไปหน้าวอร์ดและใส่เกรด/คะแนน</p><div class="stack" style="margin-top:10px"><button class="btn ghost" id="grBack" type="button">กลับหน้าเลือกวอร์ด</button></div>`;
+  $("main").innerHTML=h;
+  document.querySelectorAll("[data-gw]").forEach(r=>r.onclick=()=>{if(r.dataset.gw&&WARDS[r.dataset.gw])go(r.dataset.gw);});
+  $("grBack").onclick=()=>go("");}
 const ROUNDS=[
   {k:"grand",n:"Grand round",d:"สุ่มข้อจากทั้งคลัง ไม่สนว่าปีไหนหรือเรื่องอะไร"},
   {k:"service",n:"Service round",d:"เลือกปีและ rotation ที่อยากทำ ทำแบบกระดาษคำตอบ"},
@@ -209,10 +246,10 @@ const p2lists=()=>{const P=P_(),QB=W_().QB;return {
 function rHome(){
   const W=W_(),P=P_(),p=ph(),w=W.cfg,QB=W.QB;
   const type=P.type||"MCQ",hasQ=type==="MCQ"&&QB.length>0;
-  const ED=examDates(w).filter(x=>!x.past),soon=ED.filter(x=>x.days<=14).sort((a,b)=>a.days-b.days);
-  let h=soon.length&&p===1?`<div class="p2warn"><b>ควรเริ่ม Phase 2 ของ ${soon.map(x=>`${esc(x.part)} (สอบ${x.days<=0?"วันนี้":` ${esc(x.label)} · เหลือ ${cdTxt(x.days)}`})`).join(" และ ")} ได้แล้ว</b><button class="btn" id="toP2" type="button">ไป Phase 2</button></div>`:"";
+  const ED=examDates(w),soon=ED.filter(x=>cdOf(x).hot).sort((a,b)=>a.at-b.at);
+  let h=soon.length&&p===1?`<div class="p2warn"><b>ควรเริ่ม Phase 2 ของ ${soon.map(x=>`${esc(x.part||"ข้อสอบ")} (สอบ ${esc(x.label)} · เหลือ ${esc(cdOf(x).txt)})`).join(" และ ")} ได้แล้ว</b><button class="btn" id="toP2" type="button">ไป Phase 2</button></div>`:"";
   h+=`<div class="whead"><h1 class="h2">${esc(w.name)}</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0">${esc(w.sub||"")}</p>`;
-  if(ED.length)h+=`<div class="exdates">${ED.map(x=>`<span class="exd${x.days<=14?" hot":""}"><span class="k">สอบ ${esc(x.part)}</span><span class="v">${esc(x.label)}</span><b>${cdTxt(x.days)}</b></span>`).join("")}</div>`;
+  if(ED.length)h+=`<div class="exdates">${ED.map(x=>{const c=cdOf(x),sc=x.score&&scoreOf(x.score);return `<span class="exd${c.hot?" hot":""}${c.done?" done":""}"><span class="k">สอบ${x.part?" "+esc(x.part):""}</span>${x.label?`<span class="v">${esc(x.label)}</span>`:""}${cdHTML(x)}${sc?`<span class="v">คะแนน ${esc(sc)}</span>`:""}</span>`;}).join("")}</div>`;
   h+=`<div class="tabs" role="tablist">${["MCQ","MEQ","OSCE"].map(t=>`<button class="tab" role="tab" aria-selected="${t===type}" data-type="${t}">${t}</button>`).join("")}</div>`;
   const noEx=(w.noExam||[]).includes(type);
   if(!noEx){h+=`<div class="seg" role="group" aria-label="Phase"><button data-ph="1" aria-pressed="${p===1}"><b>Phase 1</b>ช่วงเรียน</button><button data-ph="2" aria-pressed="${p===2}"><b>Phase 2</b>ช่วงใกล้สอบ</button></div>`;
@@ -239,6 +276,7 @@ function rHome(){
     const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="legend"&&P.leg?'<span class="badge">กำลังสอบ</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
     h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
   }
+  h+=gradeCard(ward);
   if(IN_FRAME&&HAS_CLAUDE())h+=clStartCard();
   if(HAS_CLAUDE()&&CFG.siteUrl){const ua=bankItems("adm",ward).filter(unsent).length,ul=bankItems("leg",ward).filter(unsent).length;
     h+=`<div class="card"><h3>ส่งจาก Claude ไปเว็บ</h3><span class="rd">เว็บ (GitHub) กับ Claude เก็บข้อมูลแยกกัน ปุ่มนี้เปิดเว็บพร้อมเคส Admission (โจทย์ เฉลย คำตอบของคุณ) และผลสอบ Legendary (รวมโจทย์ AI) ที่ยังไม่ได้ส่ง เว็บจะเก็บเข้าคลังให้ — ข้อที่ผิดไปขึ้นใน Ward staff round ของเว็บด้วย</span>
@@ -253,6 +291,7 @@ function rHome(){
   document.querySelectorAll("[data-type]").forEach(b=>b.onclick=()=>{P.type=b.dataset.type;save();rHome();});
   document.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{st.phase=+b.dataset.ph;save();rHome();});
   {const b=$("toP2");if(b)b.onclick=()=>{st.phase=2;save();rHome();};}
+  bindGrades();
   document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(ward+"/"+b.dataset.go));
   document.querySelectorAll("[data-p2]").forEach(b=>b.onclick=()=>{const k=b.dataset.p2,l=p2lists()[k];const t={wrong:"ข้อที่ยังผิดอยู่",right:"ข้อที่ทำถูกแล้ว",flag:"ข้อที่ยังไม่มั่นใจ",nop1:"ข้อที่ไม่เคยทำใน Phase 1"}[k];startSess("p2"+k,t,l.map(q=>q.uid));});
   const rs=$("resume");if(rs)rs.onclick=()=>go(ward+"/sess");
@@ -1716,6 +1755,7 @@ function mergeSt(a,b){
   }
   if((b.t||0)>(a.t||0)){a.phase=b.phase===2?2:1;a.noteMode=b.noteMode||a.noteMode;if(b.qp)a.qp=b.qp;["staffAll","legAI","clStart","lastWard"].forEach(k=>{if(b[k]!==undefined&&b[k]!=="")a[k]=b[k];});}
   ["staffAll","legAI","clStart","lastWard"].forEach(k=>{if(a[k]===undefined&&b[k]!==undefined)a[k]=b[k];});
+  if(b.grades){a.grades=a.grades||{};for(const k in b.grades){const x=b.grades[k];if(x&&(!a.grades[k]||(x.ts||0)>(a.grades[k].ts||0)))a.grades[k]=x;}}
   if(!a.qp&&b.qp)a.qp=b.qp;
   if(b.lastRoute&&(b.lastRouteT||0)>(a.lastRouteT||0)){a.lastRoute=b.lastRoute;a.lastRouteT=b.lastRouteT;}
   a.t=Math.max(a.t||0,b.t||0);
@@ -1761,7 +1801,7 @@ async function clPull(){
   const snap=await cl.db.collection(cl.col).limit(1000).get();
   const r={w:{},t:0},rts={};let old=null;
   snap.docs.forEach(d=>{const id=d.id,x=d.data()||{};try{
-    if(id==="meta"){const m=JSON.parse(x.d||"{}");r.phase=m.phase;r.noteMode=m.noteMode;if(m.qp)r.qp=m.qp;if(m.lastRoute){r.lastRoute=m.lastRoute;r.lastRouteT=m.lastRouteT||0;}["staffAll","legAI","clStart","lastWard"].forEach(k=>{if(m[k]!==undefined&&m[k]!=="")r[k]=m[k];});r.t=Math.max(r.t,x.t||0);}
+    if(id==="meta"){const m=JSON.parse(x.d||"{}");r.phase=m.phase;r.noteMode=m.noteMode;if(m.qp)r.qp=m.qp;if(m.lastRoute){r.lastRoute=m.lastRoute;r.lastRouteT=m.lastRouteT||0;}["staffAll","legAI","clStart","lastWard"].forEach(k=>{if(m[k]!==undefined&&m[k]!=="")r[k]=m[k];});if(m.grades)r.grades=m.grades;r.t=Math.max(r.t,x.t||0);}
     else if(id==="progress"&&Array.isArray(x.a))old=x;   /* progress saved by the earlier single-page artifact */
     else if(id.startsWith("w_")){r.w[id.slice(2)]=JSON.parse(x.d||"{}");r.t=Math.max(r.t,x.t||0);}
     else if(id.startsWith("ink_")&&x.k){const v=JSON.parse(x.d);rts[x.k]=v.ts||0;if(!ink[x.k]||(v.ts||0)>(ink[x.k].ts||0))ink[x.k]=v;}
@@ -1783,7 +1823,7 @@ async function clBank(){if(!cl)return;clearTimeout(bankT);const ks=[...bankDirty
 let clBusy=false,clAgain=false;
 async function clPush(){if(!cl)return;clearTimeout(pushT);if(clBusy){clAgain=true;return;}clBusy=true;sync="saving";paintSync();
   try{const t=st.t||now();
-    await cl.db.doc(cl.col+"/meta").set({d:JSON.stringify({phase:st.phase,noteMode:st.noteMode||"",lastWard:st.lastWard||"",qp:st.qp||null,lastRoute:st.lastRoute||"",lastRouteT:st.lastRouteT||0,staffAll:st.staffAll,legAI:st.legAI,clStart:st.clStart}),t});
+    await cl.db.doc(cl.col+"/meta").set({d:JSON.stringify({phase:st.phase,noteMode:st.noteMode||"",lastWard:st.lastWard||"",qp:st.qp||null,lastRoute:st.lastRoute||"",lastRouteT:st.lastRouteT||0,staffAll:st.staffAll,legAI:st.legAI,clStart:st.clStart,grades:st.grades||{}}),t});
     for(const id in st.w)await cl.db.doc(cl.col+"/w_"+id).set({d:JSON.stringify(st.w[id]),t});
     sync="cloud";}catch(e){console.warn(e);sync="error";}
   clBusy=false;paintSync();if(clAgain){clAgain=false;clPush();}}
