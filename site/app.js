@@ -155,8 +155,8 @@ function examDates(w){return ((w&&w.dates)||[]).map(x=>{
   if(x.done&&!x.at)return {part:x.part||"",label:"",at:0,hasT:false,score:x.score||"",fixedDone:true};
   const m=/^(\d{4})-(\d\d)-(\d\d)(?:T(\d\d):(\d\d))?/.exec(x.at||"");if(!m)return null;
   const y=+m[1],mo=+m[2],d=+m[3],hasT=!!m[4],at=Date.UTC(y,mo-1,d,hasT?+m[4]:0,hasT?+m[5]:0)-7*3600e3;
-  const dur=(((w.exam||{})[x.part]||{}).min)||0;
-  return {part:x.part||"",label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}`:""}`,at,hasT,dur,score:x.score||""};}).filter(Boolean);}
+  const e=/^(\d\d):(\d\d)$/.exec(x.end||""),dur=hasT&&e?(+e[1]*60+ +e[2])-(+m[4]*60+ +m[5]):(((w.exam||{})[x.part]||{}).min)||0;
+  return {part:x.part||"",label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}${e?"–"+x.end:""}`:""}`,at,hasT,dur,score:x.score||""};}).filter(Boolean);}
 /* countdown, cut to whole units from the exam time: "N w N d" → last 14 days "N d" → last 24 h "N h" → last 2 h "1 h N min" → last hour "N min" (0 min at the start) → "Exam done 🎉" for good.
    An exam without a time counts whole days to that date and shows "วันนี้" on the day. */
 function cdOf(x){const t=now();
