@@ -157,7 +157,7 @@ function examDates(w){return ((w&&w.dates)||[]).map(x=>{
   const y=+m[1],mo=+m[2],d=+m[3],hasT=!!m[4],at=Date.UTC(y,mo-1,d,hasT?+m[4]:0,hasT?+m[5]:0)-7*3600e3;
   const e=/^(\d\d):(\d\d)$/.exec(x.end||""),dur=hasT&&e?(+e[1]*60+ +e[2])-(+m[4]*60+ +m[5]):(((w.exam||{})[x.part]||{}).min)||0;
   return {part:x.part||"",label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}${e?"–"+x.end:""}`:""}`,at,hasT,dur,score:x.score||""};}).filter(Boolean);}
-/* countdown, cut to whole units from the exam time: "N w N d" → last 14 days "N d" → last 24 h "N h" → last 2 h "1 h N min" → last hour "N min" (0 min at the start) → "Exam done 🎉" for good.
+/* countdown, always rounded up from the exam time: "N w N d" → last 14 days "N d" → last 24 h "N h" → last 2 h "1 h N min" → last hour "N min" (0 min at the start) → "Exam done 🎉" for good.
    An exam without a time counts whole days to that date and shows "วันนี้" on the day. */
 function cdOf(x){const t=now();
   if(x.fixedDone)return {txt:"Exam done 🎉",done:true,hot:false,k:"done"};
@@ -165,8 +165,9 @@ function cdOf(x){const t=now();
     if(d<0)return {txt:"Exam done 🎉",done:true,hot:false,k:"done"};
     return {txt:d===0?"วันนี้":d<=14?`${d} d`:`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:""),done:false,hot:d<=14,days:d,k:d<=14?"hot":"far"};}
   const r=x.at-t;if(r<=0)return x.dur&&-r<x.dur*6e4?{txt:"กำลังสอบ ✍️",done:false,hot:false,k:"live"}:{txt:"Exam done 🎉",done:true,hot:false,k:"done"};
-  const d=Math.floor(r/864e5),hh=Math.floor(r/36e5),mm=Math.floor(r/6e4);
-  const txt=d>14?`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:""):d>=1?`${d} d`:hh>=2?`${hh} h`:hh>=1?`1 h ${mm-60} min`:`${mm} min`;
+  /* always rounded up: more than 1 day left = 2 d; exactly 24 h left = "24 h"; the last 2 h "N h N min"; the last hour "N min" */
+  const d=Math.ceil(r/864e5),hh=Math.ceil(r/36e5),mm=Math.ceil(r/6e4);
+  const txt=r>864e5?(d>14?`${Math.floor(d/7)} w`+(d%7?` ${d%7} d`:""):`${d} d`):r>72e5?`${hh} h`:r>36e5?`${Math.floor(mm/60)} h`+(mm%60?` ${mm%60} min`:""):`${mm} min`;
   return {txt,done:false,hot:d<=14,days:d,k:d<=14?"hot":"far"};}
 const cdHTML=x=>{const c=cdOf(x);return `<b data-cdat="${x.at}" data-cdt="${x.hasT?1:0}" data-cdf="${x.fixedDone?1:0}" data-cdd="${x.dur||0}" data-cdk="${c.k}">${esc(c.txt)}</b>`;};
 /* the numbers tick on their own; crossing into the last 14 days or the end of the exam redraws the page (warning bar, colours) */
