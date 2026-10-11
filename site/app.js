@@ -419,7 +419,10 @@ const isSess=()=>view==="sess";
 const legPaper=()=>view==="exam"?P_().leg:bank[st.legSel];
 const legIdx=()=>view==="exam"?P_().leg.cur:Math.max(0,Math.min((legPaper().list.length-1),st.legIdx||0));
 function curQ(){if(view==="adm")return P_().adm.cur;if(view==="admq"){const it=bank[st.admSel];return it&&it.q;}if(view==="lrev"||view==="exam"){const X=legPaper();return X?legQ(X.list[legIdx()]):null;}if(isSess()){const s=P_().sess;return qAny(s.list[s.cur]);}return svcQ();}
-function doneAns(q){if(view==="admq"){const it=bank[st.admSel];return it&&it.a!=null?it.a:undefined;}if(view==="lrev"){const a=bank[st.legSel].ans[q.uid];return a==null?-2:a;}if(isAdv()){const h=hist(P_(),q.uid,P_().sess.hp,true);return h.length?h[h.length-1][0]:null;}if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
+/* "ทำข้อนี้ใหม่" where answers aren't kept in a session: Legendary review, Admission (current case and bank), Advisor — null = answering again, a number = the new answer */
+const REDO={};
+function redoKey(q){if(!q)return "";if(view==="lrev")return "lrev|"+st.legSel+"|"+q.uid;if(view==="admq")return "admq|"+st.admSel;if(view==="adm")return "adm|"+q.uid;if(isAdv())return "adv|"+q.uid;return "";}
+function doneAns(q){{const k=redoKey(q);if(k&&k in REDO)return REDO[k]===null?undefined:REDO[k];}if(view==="admq"){const it=bank[st.admSel];return it&&it.a!=null?it.a:undefined;}if(view==="lrev"){const a=bank[st.legSel].ans[q.uid];return a==null?-2:a;}if(isAdv()){const h=hist(P_(),q.uid,P_().sess.hp,true);return h.length?h[h.length-1][0]:null;}if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
 
 /* ---------------- seen elsewhere: which rounds a question (or a related question) has already appeared in ---------------- */
 const RKL={service:"service round",grand:"grand round",morning:"morning round",staff:"ward staff round",quality:"quality round",unit:"unit round",advisor:"advisor round",topic:"advisor round (รายหัวข้อ)",redo:"รอบทำข้อผิดซ้ำ",phase2:"ทบทวนก่อนสอบ (Phase 2)",legend:"legendary round",adm:"admission round"};
@@ -527,13 +530,21 @@ function bindQuiz(q,locked){
   const c=$("confirm");if(c)c.onclick=confirmAns;
   if($("flagBtn"))$("flagBtn").onclick=()=>{const on=!flagged(P,q.uid);P.flag[q.uid]=[on?1:0,now()];save();$("flagBtn").setAttribute("aria-pressed",on);toast(on?"ทำเครื่องหมาย ไม่มั่นใจ แล้ว":"เอาเครื่องหมายออกแล้ว");};
   if(isAdv())bindAdv(q);
-  const rb=$("redo");if(rb)rb.onclick=()=>{if(isSess()){delete P.sess.ans[q.uid];if(P.sess.kind==="morning"&&P.morn[P.sess.ph])delete P.morn[P.sess.ph].ans[q.uid];}else P.open[ph()][q.uid]=now();if(P.sess)P.sess.ts=now();pick=null;save();rQuiz();window.scrollTo(0,0);};
+  const rb=$("redo");if(rb)rb.onclick=()=>{const rk=redoKey(q);if(rk){REDO[rk]=null;pick=null;rQuiz();window.scrollTo(0,0);return;}if(isSess()){delete P.sess.ans[q.uid];if(P.sess.kind==="morning"&&P.morn[P.sess.ph])delete P.morn[P.sess.ph].ans[q.uid];}else P.open[ph()][q.uid]=now();if(P.sess)P.sess.ts=now();pick=null;save();rQuiz();window.scrollTo(0,0);};
   const pb=$("preBox");if(pb)pb.addEventListener("toggle",()=>{if(pb.open)mountNotes(pb);});
   mountNotes(document);
   bindAsk(q);
 }
 function confirmAns(){
   if(pick===null)return;const P=P_(),q=curQ(),p=isSess()?P.sess.ph:ph();
+  const rdk=redoKey(q),again=rdk&&REDO[rdk]===null;
+  if(again&&(view==="adm"||view==="admq"||view==="lrev")){const t=now();
+    if(view==="admq"){const it=bank[st.admSel];if(it){if(it.a==null)admBank(ward,it.q,pick);else extPush(it.q,[pick,t,"adm"]);}}
+    else if(q.unit)(P.unit.att[q.uid]=P.unit.att[q.uid]||[]).push([pick,t,curRK()]);
+    else if(q.adm){if(bank[extKey(q)])extPush(q,[pick,t,curRK()]);else if(q.lai)bankPut(extKey(q),{q,h:[[pick,t,curRK()]]});else admBank(ward,q,pick);}
+    else (P.att[ph()][q.uid]=P.att[ph()][q.uid]||[]).push([pick,t,curRK()]);
+    REDO[rdk]=pick;save();rQuiz();const e=document.querySelector(".exp");if(e)setTimeout(()=>e.scrollIntoView({behavior:"smooth",block:"start"}),60);return;}
+  if(rdk&&rdk.startsWith("adv|"))delete REDO[rdk];
   if(view==="adm"){admAnswer(pick);return;}
   if(view==="admq"){const it=bank[st.admSel];if(it){admBank(ward,it.q,pick);}rQuiz();return;}
   const rk=curRK();
@@ -575,7 +586,7 @@ function explain(q,done,R,p){
     h+=`<span class="tag rep">ที่มาของข้อนี้: ${sr==="unit"?`Unit round — ${esc((W.byLec[q.unit]||{}).title||q.set)}`:sr==="adm"?`Admission round — เคสที่ AI เคยสร้างให้คุณ${q.topic?` (${esc(q.topic)})`:""}`:sr==="ai"?`โจทย์ใหม่ที่ AI สร้างขึ้นเฉพาะข้อสอบชุดนี้${q.topic?` (${esc(q.topic)})`:""} — ไม่เคยเจอที่ไหนมาก่อน และจะกลับมาอีกเฉพาะใน Ward staff round`:`ข้อสอบเก่า (AC) ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id} ในคลัง${sr==="acd"?" · ตอนสอบเป็นข้อที่คุณเคยทำแล้ว":sr==="acn"?" · ตอนสอบเป็นข้อที่ยังไม่เคยทำ":""}`}</span>`;
     if(X.star[q.uid])h+=`<span class="tag starTag">★ ติดดาวไว้ตอนสอบ</span>`;}
   if(adv)h+=advResetBtn(q);
-  else if(!q.adm&&view!=="lrev")h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
+  h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
   if(s&&s.kind==="morning")h+=`<span class="tag rep">ที่มา: ${q.unit?`Unit round — ${esc((W.byLec[q.unit]||{}).title||q.set)} (นับว่าเจอข้อนี้แล้ว)`:`ข้อสอบเก่า (AC) ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id} ในคลัง`}</span>`;
   if(q.unit){const Lc=W.byLec[q.unit]||{},n=uAtts(P,q.uid).length;h+=`<span class="tag">Unit round · ${esc(Lc.title||q.set)}${Lc.src?` · จาก ${esc(Lc.src)}`:""}</span><span class="tag">เจอข้อนี้มาแล้ว ${n} ครั้ง (รวมครั้งนี้)</span>`;}
   else if(q.lai)h+=`<span class="tag">Legendary round · โจทย์ใหม่ที่ AI สร้างสำหรับข้อสอบวันที่ ${fmtD(q.ts)}${q.topic?` · ${esc(q.topic)}`:""}</span>`;
