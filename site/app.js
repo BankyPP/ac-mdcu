@@ -454,6 +454,17 @@ const TAGRX=[["Vascular",/aneurysm|\baaa\b|limb isch|claudicat|peripheral arter|
 function guessTags(W,txt){const v=broadOf(W),t=String(txt||"").toLowerCase(),o=[];TAGRX.forEach(([k,rx])=>{const n=k==="Pancrea"?"Pancreas":k;if(rx.test(t)&&v.includes(n)&&!o.includes(n))o.push(n);});const on=o.indexOf("Onco");if(on>=0){o.splice(on,1);o.push("Onco");}return o.slice(0,4);}
 function cleanTags(W,a,txt){const v=broadOf(W),lc=v.map(x=>x.toLowerCase()),o=[];(Array.isArray(a)?a:[]).forEach(x=>{const i=lc.indexOf(String(x).trim().toLowerCase());if(i>=0&&!o.includes(v[i]))o.push(v[i]);});return o.length?o.slice(0,4):guessTags(W,txt);}
 /* subject tags (data/tags.js: 1–3 per question, chapter-level) — shown before and after answering in every round; never on the Legendary question page */
+function qTags(q){const W=W_();let t=[];
+  if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=[].concat(Lc.tags||Lc.topic||[]);}
+  else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];return t;}
+/* attached resources outside the lectures (<dir>/resources.js → W.RES=[{code,title,topic,tags,type,url,note,points:[…]}]) */
+const resOf=W=>(W&&W.RES||[]).filter(r=>r&&r.title);
+function resFor(q){const W=W_(),tg=qTags(q),tp=q.adm||q.unit?"":topicOf(W,q);return resOf(W).filter(r=>(r.tags||[]).some(t=>tg.includes(t))||(tp&&r.topic===tp));}
+const resLabel=r=>(r.code?r.code+" ":"")+r.title;
+const resPts=(r,n)=>(Array.isArray(r.points)?r.points:[]).slice(0,n||99);
+/* where an AI-written question takes its content from: picked uniformly at random among "anywhere" and every attached resource that has content */
+function pickSrc(W){const rs=resOf(W).filter(r=>resPts(r).length),o=[null].concat(rs);return o[Math.floor(Math.random()*o.length)];}
+const srcPrompt=r=>r?`\nContent source for this question: build it mainly on the attached resource below (you may add standard textbook or guideline knowledge, but the key point tested must come from it).\nResource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}\n`:"";
 function tagRow(q){const W=W_();let t=[];
   if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=[].concat(Lc.tags||Lc.topic||[]);}
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];
@@ -592,6 +603,7 @@ function explain(q,done,R,p){
   if(q.unit){const Lc=W.byLec[q.unit]||{},n=uAtts(P,q.uid).length;h+=`<span class="tag">Unit round · ${esc(Lc.title||q.set)}${Lc.src?` · จาก ${esc(Lc.src)}`:""}</span><span class="tag">เจอข้อนี้มาแล้ว ${n} ครั้ง (รวมครั้งนี้)</span>`;}
   else if(q.lai)h+=`<span class="tag">Legendary round · โจทย์ใหม่ที่ AI สร้างสำหรับข้อสอบวันที่ ${fmtD(q.ts)}${q.topic?` · ${esc(q.topic)}`:""}</span>`;
   else if(q.adm)h+=`<span class="tag">Admission round · เคสที่ AI สร้างใหม่${q.topic?` · ${esc(q.topic)}`:""}</span>`;
+  if(q.adm)h+=`<span class="tag">ที่มาของเนื้อหา: ${q.srcRes?`resource ที่แนบไว้ — ${esc(q.srcRes)}`:"ความรู้ทั่วไป / ตำรา / guideline ภายนอก (ไม่ได้มาจากไฟล์ที่แนบ)"}</span>`;
   else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;}
   if(q.guide)h+=`<div class="guide">📘 <b>อ้างอิง${q.adm||q.unit?"":" guideline"}:</b> ${q.adm?esc(q.guide):q.guide}</div>`;
   if(q.flag)h+=`<span class="tag warn">⚠ คีย์ไม่ชัวร์ / โจทย์ต้นฉบับไม่ครบ</span>`;
@@ -614,6 +626,7 @@ function explain(q,done,R,p){
   h+=sec("สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${rich(q.notes)}</div>`:"","notes");
   if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg];h+=sec("สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map(k=>imgHTML(k,"สไลด์อ้างอิงจากไฟล์เฉลย",1)).join("")}</div>`);}
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
+  {const rs=resFor(q);if(rs.length)h+=sec("อ่านเพิ่มจาก resource ที่แนบไว้",rs.map(r=>`<div class="resitem"><b>${esc(resLabel(r))}</b>${r.url?` · <a href="${esc(r.url)}" target="_blank" rel="noopener">เปิด</a>`:""}${resPts(r,6).length?`<ul>${resPts(r,6).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:r.note?`<p>${esc(r.note)}</p>`:""}</div>`).join(""));}
   h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");
   h+=sec("โจทย์แบบใหม่ที่อาจออก",`<ul>${(q.variants||[]).map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
   h+=`<div class="sec mine"><h3>สรุปของฉันจากข้อนี้</h3><p class="hint" style="margin:0 0 6px">เขียนสรุปด้วยคำของตัวเองช่วยให้จำได้นานกว่าอ่านผ่าน ๆ (บันทึกอัตโนมัติ)</p>${noteHTML("post",0,q)}</div>`;
@@ -640,6 +653,7 @@ function askPrompt(q,done,ask,cut){
     q.guide?`Guideline ที่คลังอ้าง: ${plain(q.guide)}`:"",
     `คำอธิบายในคลัง: ${why}`,
     wr?`ทำไมข้ออื่นผิด: ${wr}`:"",
+    (()=>{const rs=resFor(q);if(!rs.length)return "";return "ข้อมูลจาก resource ที่ฉันแนบไว้ (ใช้ประกอบคำตอบได้ ถ้าขัดกับ guideline ให้บอก):\n"+rs.slice(0,3).map(r=>`- ${resLabel(r)}: ${c(Math.round(cut/2))(resPts(r).join(" · ")||r.note||"")}`).join("\n");})(),
     "",`คำถามของฉัน: ${ask||"ช่วยอธิบายเพิ่มให้เข้าใจลึกขึ้น"}`,
     "",`กติกา: ตอบภาษาไทยปนศัพท์แพทย์ภาษาอังกฤษ อธิบายให้เข้าใจง่าย อิงหลักฐานหรือ guideline ล่าสุดที่ระบุชื่อได้ (ถ้าค้นเว็บได้ให้ตรวจ guideline ล่าสุดก่อนตอบ) ถ้าไม่แน่ใจหรือหลักฐานยังไม่ชัดให้บอกตรง ๆ ห้ามแต่งตัวเลข แหล่งอ้างอิง หรือข้อมูลที่ไม่มีจริง ถ้าคิดว่าเฉลยในคลังอาจผิด ให้บอกพร้อมเหตุผล`
   ].filter(x=>x!=="").join("\n").replace(/\n\n+/g,"\n\n");
@@ -915,7 +929,8 @@ let admBusy=false,admErr="",admSetup=false,admWant=false;
 async function aiMode(){if(HAS_CLAUDE()){try{return (await window.claude.use("sample"))?"claude":"";}catch(e){return "";}}return aiCfg().key?"key":"";}
 const yrN=()=>{const m=/(\d+)/.exec(wYear());return m?+m[1]:0;};
 const ord=n=>n+(n===1?"st":n===2?"nd":n===3?"rd":"th");
-function admPrompt(W){const w=W.cfg,A=P_().adm,pos=Math.floor(Math.random()*5),y=yrN(),yr=y?ord(y)+"-year":"clinical-year";
+let admSrc=null;
+function admPrompt(W){const w=W.cfg,A=P_().adm,pos=Math.floor(Math.random()*5),y=yrN(),yr=y?ord(y)+"-year":"clinical-year";admSrc=pickSrc(W);
   return `Write ONE brand-new multiple-choice question for a past-exam practice website used by ${yr} medical students at Chulalongkorn University (MDCU), Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
 
 Scope (stay inside it): ${w.scope||w.name}.
@@ -928,7 +943,7 @@ Question rules:
 - Put the correct answer at position ${"ABCDE"[pos]} (index ${pos}).
 - It may be straightforward or contain a plausible trap.
 - Use a different topic from these recent ones: ${(A.recent||[]).slice(-15).join("; ")||"none"}.
-
+${srcPrompt(admSrc)}
 Explanation: write it for Thai medical students, in Thai mixed with English medical terms, concise but complete. You may use <b>…</b> for emphasis, no other HTML.
 
 Reply with only a JSON object with exactly these keys:
@@ -962,7 +977,7 @@ async function aiJSON(pr,maxTok){
   const j=await r.json().catch(()=>null);if(!r.ok)throw {code:"api",status:r.status,message:j&&j.error&&j.error.message||""};
   const t=((j&&j.content)||[]).filter(x=>x.type==="text").map(x=>x.text).join(""),a=t.indexOf("{"),b=t.lastIndexOf("}");
   if(a<0||b<a)throw {code:"invalid_json"};try{return JSON.parse(t.slice(a,b+1));}catch(e){throw {code:"invalid_json"};}}
-async function admGen(W){return admCheck(await aiJSON(admPrompt(W),4096));}
+async function admGen(W){const pr=admPrompt(W),src=admSrc,q=admCheck(await aiJSON(pr,4096));if(src)q.srcRes=resLabel(src);return q;}
 function admMsg(e){const c=e&&e.code;
   if(c==="no_ai")return "";
   if(c==="api")return e.status===401?"API key ไม่ถูกต้อง — ตรวจ key แล้วบันทึกใหม่":e.status===404?"ไม่พบโมเดลนี้ — ตรวจชื่อโมเดลในการตั้งค่า":e.status===429?"เรียกใช้ถี่เกินไปหรือเครดิตหมด ลองใหม่ภายหลัง":e.status===529||e.status>=500?"เซิร์ฟเวอร์ AI ไม่ว่างชั่วคราว ลองใหม่อีกครั้ง":"สร้างโจทย์ไม่สำเร็จ ("+e.status+(e.message?": "+e.message:"")+")";
@@ -1264,7 +1279,8 @@ Scope (stay inside it): ${w.scope||w.name}.
 Level: what a ${yr} medical student is expected to know and use in real clinical practice, from standard textbooks and current international or Thai guidelines. Common and uncommon conditions are both fine.
 
 Write the questions in this order, one per line below (topic to use, and the position of the correct answer):
-${specs.map((x,i)=>`${i+1}. topic: ${x.topic||"any topic inside the scope"} — correct answer at position ${"ABCDE"[x.pos]} (index ${x.pos})`).join("\n")}
+${specs.map((x,i)=>`${i+1}. topic: ${x.res?"from attached resource "+(x.res.code||x.res.title):x.topic||"any topic inside the scope"} — correct answer at position ${"ABCDE"[x.pos]} (index ${x.pos})${x.res?" — build it mainly on that resource (listed below); the key point tested must come from it":""}`).join("\n")}
+${(()=>{const u=[...new Set(specs.filter(x=>x.res).map(x=>x.res))];return u.length?"\nAttached resources (only for the questions that name them; the others use any reliable source):\n"+u.map(r=>`Resource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}`).join("\n\n")+"\n":"";})()}
 
 Question rules (every question):
 - Case-based only: the stem MUST present a patient case (age, sex, presentation, relevant history, examination and test results as needed). Ask anything about the case: diagnosis, initial management, definitive treatment, most important or next investigation, pathophysiology, etiology, mechanism of disease or of a drug, pertinent findings, complications, prognosis, and so on. Vary what is asked across the questions.
@@ -1292,12 +1308,12 @@ let LG=null;   /* AI questions being written before a Legendary paper starts: {k
 function paintLG(){const el=$("lgAIn");if(el&&LG)el.textContent=LG.done+"/"+LG.k;}
 async function legGenAI(k){
   const W=W_(),tp=shuffle([...new Set(W.QB.map(q=>topicOf(W,q)))].filter(t=>t&&t!=="Others")),specs=[];
-  for(let i=0;i<k;i++)specs.push({topic:tp.length?tp[i%tp.length]:"",pos:Math.floor(Math.random()*5)});
+  for(let i=0;i<k;i++)specs.push({topic:tp.length?tp[i%tp.length]:"",pos:Math.floor(Math.random()*5),res:pickSrc(W)});
   const B=[];for(let i=0;i<specs.length;i+=3)B.push(specs.slice(i,i+3));
   const out=[];let err=null,bi=0,fatal=false;
   const worker=async()=>{while(bi<B.length&&!fatal&&LG&&!LG.halt){const b=B[bi++];
     try{const o=await aiJSON(legAIPrompt(W,b),12000);const L_=Array.isArray(o&&o.questions)?o.questions:Array.isArray(o)?o:[];
-      L_.slice(0,b.length).forEach(x=>{try{out.push(admCheck(x));}catch(e){}});}
+      L_.slice(0,b.length).forEach((x,j)=>{try{const q=admCheck(x);if(b[j]&&b[j].res)q.srcRes=resLabel(b[j].res);out.push(q);}catch(e){}});}
     catch(e){err=e;const c=e&&e.code;if(["no_ai","not_granted","sampling_disabled","session_expired"].includes(c)||(c==="api"&&[401,403,404].includes(e.status)))fatal=true;}
     if(LG){LG.done=out.length;paintLG();}}};
   const stop=new Promise(r=>{LG.stop=r;});
