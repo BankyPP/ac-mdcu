@@ -254,15 +254,16 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=(W.cfg.rotation)|
     return {d,L,S,n,dn,rt,st:st_};});
   rows.filter(r=>r.d<=today).forEach(r=>{if(r.st==="full")run++;else if(r.st!=="today")run=0;});streak=run;
   const past=rows.filter(r=>r.d<=today).length;
-  let h=`<h1 class="h2">ประวัติ Morning round</h1><p class="sub">ทุกวันของวอร์ดนี้${rot.start?` (${dayTH(rot.start)} – ${dayTH(rot.end||end)})`:""} · วันนับตั้งแต่ 07:30 ถึง 07:29 ของวันถัดไป · แตะวันที่เพื่อดูทั้ง 15 ข้อและเฉลย</p>`;
+  let h=`<h1 class="h2">ประวัติ Morning round</h1><p class="sub">ทุกวันของวอร์ดนี้${rot.start?` (${dayTH(rot.start)} – ${dayTH(rot.end||end)})`:""} · วันนับตั้งแต่ 07:30 ถึง 07:29 ของวันถัดไป · แตะวันที่เพื่อดูทั้ง 15 ข้อและเฉลย · เรียงจากวันแรกลงมา เปิดหน้ามาจะเลื่อนไปที่วันนี้ให้</p>`;
   h+=`<div class="card mhsum"><div><b>${full}</b><span>วันที่ทำครบ</span></div><div><b>${partial}</b><span>ทำไม่ครบ</span></div><div><b class="${miss?"bad":""}">${miss}</b><span>ไม่ได้ทำ</span></div><div><b>${ans}</b><span>ข้อที่ตอบ</span></div><div><b>${ans?Math.round(right/ans*100)+"%":"–"}</b><span>ถูก ${right} ข้อ</span></div><div><b>${streak}</b><span>วันติดต่อกัน</span></div></div>`;
   h+=`<p class="hint" style="margin:6px 0 10px">ผ่านมาแล้ว ${past} จาก ${rows.length} วัน${HAS_CLAUDE()?" · ประวัตินี้เก็บแยกในเว็บกับใน Claude (เข้าสู่ระบบในเว็บเพื่อรวมหลายเครื่อง)":""}</p><div class="mhlist">`;
-  rows.slice().reverse().forEach(r=>{
+  rows.forEach(r=>{
     const lab=r.st==="future"?`<span class="mhs fut">ยังไม่ถึง</span>`:r.st==="miss"?`<span class="mhs miss">ไม่ได้ทำ</span>`:r.st==="today"?`<span class="mhs part">${r.dn?`วันนี้ทำไป ${r.dn}/${r.n}`:"วันนี้ยังไม่ได้ทำ"}</span>`:r.st==="part"?`<span class="mhs part">ทำ ${r.dn}/${r.n}</span>`:`<span class="mhs ok">ครบ ${r.dn}/${r.n}</span>`;
     const sc=r.dn?`<span class="mhr">ถูก <b>${r.rt}</b>/${r.dn} (${Math.round(r.rt/r.dn*100)}%)${r.S.map(x=>` · AC ${x.ac.right}/${x.ac.done}${x.ac.n>x.ac.done?` จาก ${x.ac.n}`:""} · Unit ${x.un.right}/${x.un.done}${x.un.n>x.un.done?` จาก ${x.un.n}`:""}`).join("")}</span>`:"";
     const head=`<span class="mhd${r.d===today?" now":""}">${dayTH(r.d)}</span>${lab}${sc}`;
-    if(!r.n){h+=`<div class="mhrow">${head}</div>`;return;}
-    h+=`<details class="mhrow"${r.d===today?" open":""}><summary>${head}</summary>`;
+    const id=r.d===today?' id="mhToday"':"";
+    if(!r.n){h+=`<div class="mhrow"${id}>${head}</div>`;return;}
+    h+=`<details class="mhrow"${id}${r.d===today?" open":""}><summary>${head}</summary>`;
     r.L.forEach((x,li)=>{const S=r.S[li];if(r.L.length>1)h+=`<div class="hint">Phase ${x.p}</div>`;
       h+=`<ol class="mhq">${S.list.map((u,i)=>{const q=W.byU[u],a=x.ans[u],res=a===undefined?`<span class="mhx na">ไม่ได้ตอบ</span>`:a<0?`<span class="mhx no">หมดเวลา</span>`:a===q.ans?`<span class="mhx ok">✓ ${L[a]}</span>`:`<span class="mhx no">✗ ${L[a]} · เฉลย ${L[q.ans]}</span>`;
         const src=q.unit?`Unit · ${esc((W.byLec[q.unit]||{}).short||q.set)} ข้อ ${q.n}`:`AC ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id}`;
@@ -270,6 +271,7 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=(W.cfg.rotation)|
     h+=`</details>`;});
   h+=`</div>`;
   $("main").innerHTML=h;
+  {const t=$("mhToday");if(t&&rows.indexOf(rows.find(r=>r.d===today))>2)setTimeout(()=>t.scrollIntoView({block:"start"}),30);}
   document.querySelectorAll("[data-md]").forEach(b=>b.onclick=()=>{const d=b.dataset.md,p=+b.dataset.mp,i=+b.dataset.mi,x=(mornRecs()[d]||[]).find(y=>y.p===p);if(!x)return;
     const P=P_();if(d===mDay()&&P.morn[p]&&P.morn[p].day===d&&p===ph()){qStop();P.sess={kind:"morning",title:"Morning round",ph:p,day:d,list:P.morn[p].list.slice(),ans:Object.assign({},P.morn[p].ans),cur:i,ts:now()};save();return go(ward+"/sess");}
     qStop();P.sess={kind:"mday",title:"Morning round · "+dayTH(d),ph:p,day:d,list:mornStat(x).list,ans:Object.assign({},x.ans),cur:i,ts:now()};save();go(ward+"/sess");});
