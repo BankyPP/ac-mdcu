@@ -7,7 +7,9 @@ var MQT=null,MQTi=null,MQsaveT=null;var MQAI={busy:{},err:{}};
 function mqL(wid){const W=WARDS[wid||ward];if(!W)return [];const L=W.MQ||(W.MQ=[]);
   if(!L._ok){L._ok=1;const seen={};L.forEach((q,n)=>{if(!Array.isArray(q.parts)||!q.parts.length)q.parts=[{subs:q.subs||[]}];q.subs=[];
     q.parts.forEach((p,pi)=>{p.i=pi;p.subs=p.subs||[];p.subs.forEach((s,k)=>{s._p=pi;s._k=k;s._i=q.subs.length;q.subs.push(s);});});
-    let u="MQ|"+q.set+"|"+q.file+"|"+q.page+"|"+q.orig;if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;q.n=n;});}
+    let u="MQ|"+q.set+"|"+q.file+"|"+q.page+"|"+q.orig;if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;q.n=n;})
+    /* files are loaded meq_b1, b2, b3 … — keep each set together in the order its first file appears (ไฟล์ดำ p1–5, p6–15 …, then short ans …) */
+    const so=[...new Set(L.map(q=>q.set))];L.sort((a,b)=>so.indexOf(a.set)-so.indexOf(b.set)||a.n-b.n);L.forEach((q,i)=>{q.n=i;});}
   return L;}
 function mqInitP(P){const m=P.meq=P.meq||{};m.a1=m.a1||{};m.a2=m.a2||{};m.star=m.star||{};m.v=m.v||{};const v=m.v;
   v.set=v.set||"all";v.status=v.status||"all";v.style=v.style||"all";v.tags=Array.isArray(v.tags)?v.tags:[];v.gl=Array.isArray(v.gl)?v.gl:[];return m;}
