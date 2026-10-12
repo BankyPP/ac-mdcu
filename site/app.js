@@ -69,7 +69,8 @@ function PWof(S,id){
   P.mornH=P.mornH||{};mornOne(P);                                 /* Morning round history: {"<day>|<phase>": {day, p, list, ans, ts}} — earlier days, archived when a new day's set is made */
   P.adm=P.adm||{cur:null,ans:null,next:null,n:0,right:0,recent:[],ts:0};   /* Admission round */
   P.seen=P.seen||{};   /* where each question has been shown: {uid: {roundKey: firstTs}} */
-  P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
+  P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};
+  mqInitP(P);   /* MEQ progress (site/meq.js): {a1,a2,star,v} */   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
   return P;
 }
 /* migrate the earlier single-sheet site/artifact format {a:{uid:ans},t} → Phase 1 attempts */
@@ -136,7 +137,8 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy"].includes(v))v="home";
+  if((v==="mqr"||v==="mq"||v==="mqhy")&&!mqL().length)v="home";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
   if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
@@ -144,7 +146,7 @@ function route(){
 }
 function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]).filter(u=>qAny(u)||(!sharedT&&fbOn()&&/^(ADM|LAI)\|/.test(u)));if(!s.list.length){P.sess=null;return false;}if(s.cur>=s.list.length)s.cur=s.list.length-1;if(s.cur<0)s.cur=0;return true;}
 function show(v){
-  view=v;const quiz=["svc","sess","adm","exam","lrev","admq"].includes(v);
+  mqTStop();view=v;const quiz=["svc","sess","adm","exam","lrev","admq"].includes(v);
   clearInterval(show._t);
   $("nav").hidden=!quiz;$("exnav").hidden=v!=="exam";paintLegBan();$("openSheet").hidden=!quiz;$("homeBtn").hidden=v==="wards";paintQR();
   const w=ward&&W_();const fill=(t,ty)=>String(t).replace(/\{short\}/g,w.cfg.short||w.cfg.id).replace(/\{type\}/g,ty||"");
@@ -153,7 +155,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates})[v]();
+  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -254,7 +256,7 @@ function rGrades(){
   document.querySelectorAll("[data-gw]").forEach(r=>r.onclick=()=>{if(r.dataset.gw&&WARDS[r.dataset.gw])go(r.dataset.gw);});
   $("grBack").onclick=()=>go("");}
 const ROUNDS=[
-  {k:"grand",n:"Grand round",d:"สุ่มข้อจากทั้งคลัง ไม่สนว่าปีไหนหรือเรื่องอะไร"},
+  {k:"grand",n:"Grand round",d:"สุ่มจากคลังข้อสอบเก่า (AC) ทั้งหมดเท่านั้น ไม่สนว่าปีไหนหรือเรื่องอะไร"},
   {k:"service",n:"Service round",d:"เลือกปีและ rotation ที่อยากทำ ทำแบบกระดาษคำตอบ"},
   {k:"morning",n:"Morning round",d:"วันละ 15 ข้อ: ข้อสอบเก่าที่เคยทำแล้ว 5 ข้อ + โจทย์ Unit round 10 ข้อ ชุดใหม่ทุกวัน 07:30 · ชุดเดียวกันทั้ง 2 Phase"},
   {k:"legend",n:"Legendary round",d:"จำลองสอบจริง จำนวนข้อและเวลาเท่าสอบจริงของวอร์ด ทำรวดเดียว ส่งแล้วได้เกรด · มีโจทย์ใหม่ที่ AI สร้างเฉพาะชุดนั้นปนอยู่บางข้อ"},
@@ -368,6 +370,7 @@ function rHome(){
   h+=`<p class="phase-hint">${p===1?"ทำเพื่อเก็บความรู้ไปใช้บนวอร์ด และดูว่าข้อสอบชอบออกแนวไหน เนื้อหาไหนมีหรือไม่มีในสไลด์":"ทวนข้อสอบเก่ารอบสองก่อนสอบ มีหน้าสรุป high-yield, keyword และทวนเฉพาะข้อที่ยังผิด/ไม่มั่นใจ — ความคืบหน้าแยกจาก Phase 1"}</p>`;}
   if(noEx){
     h+=`<div class="empty" style="padding:44px 10px"><b style="font-family:var(--num);font-size:18px;color:var(--ink)">${esc(w.name)} ไม่มีสอบ ${type}</b><br><span class="hint">วอร์ดนี้สอบเฉพาะ ${["MCQ","MEQ","OSCE"].filter(t=>!(w.noExam||[]).includes(t)).join(" / ")}</span></div>`;
+  }else if(type==="MEQ"&&mqL().length){h+=mqHomeHTML();
   }else if(type!=="MCQ"){
     h+=`<div class="empty" style="padding:40px 10px">ยังไม่มีข้อสอบ ${type} ในวอร์ดนี้<br><span class="hint">ส่งไฟล์ ${type} ให้ Claude แล้วให้เพิ่มเข้าเว็บ</span></div>`;
   }else{
@@ -397,7 +400,7 @@ function rHome(){
       <div class="row2"><button class="btn${ua+ul?" primary":""}" id="hSendWeb" type="button" ${ua+ul?"":"disabled"}>ส่งไปเว็บ (เฉพาะของฉัน)</button><button class="btn ghost" id="hSendAll" type="button">ส่งทั้งหมดอีกครั้ง</button></div><p class="hint" id="hSendNote" style="margin:6px 0 0"></p>${ufaBtn("ufaHome")}</div>`;}
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
   h+=`<p class="hint" style="text-align:center;margin-top:18px">อัปเดตเว็บล่าสุด ${typeof BUILD!=="undefined"?BUILD:""}</p>`;
-  $("main").innerHTML=h;
+  $("main").innerHTML=h;if(type==="MEQ"&&!noEx)mqBindHome();
   document.querySelectorAll("[data-cs]").forEach(b=>b.onclick=()=>{st.clStart=b.dataset.cs;save();rHome();});
   bindUfa();
   {const b=$("hSendAll");if(b)b.onclick=()=>sendWeb(bankItems("adm",ward).map(x=>x.key).concat(bankItems("leg",ward).map(x=>x.key)),"hSendNote");}
@@ -1978,6 +1981,7 @@ function mergeSt(a,b){
     if(r.lcCur&&!l.lcCur)l.lcCur=r.lcCur;
     if(r.advPlan&&(!l.advPlan||(r.advPlan.ts||0)>(l.advPlan.ts||0)))l.advPlan=r.advPlan;
     newer(l.flag,r.flag);newer(l.post,r.post);
+    {const a=mqInitP(l),c=mqInitP(r);newer(a.a1,c.a1);newer(a.a2,c.a2);newer(a.star,c.star);if((c.v.ts||0)>(a.v.ts||0))l.meq.v=c.v;}
     if((b.t||0)>(a.t||0)){l.svc=r.svc;l.type=r.type;l.pick=r.pick;}
     if(r.sess&&(!l.sess||(r.sess.ts||0)>(l.sess.ts||0)))l.sess=r.sess;
   }

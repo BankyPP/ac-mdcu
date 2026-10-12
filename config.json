@@ -29,7 +29,9 @@
     "78CQ": "78C_GenSx_AC_rotate_C.pdf",
     "78CK": "Key_78C_Gen_Sx_AC78_RoC_MCQ_Gen_Sx.pdf",
     "78DQ": "78D_GenSx_AC_rotate_D.pdf",
-    "78DK": "Key_78D_GenSx_MCQ_GenSx_rotate_D.pdf"
+    "78DK": "Key_78D_GenSx_MCQ_GenSx_rotate_D.pdf",
+    "OBBK": "Key ไฟล์ดำ MEQ 2024 vers 1",
+    "OBSA": "THE MUST AC MEQ OBGYN short answer"
   },
   "siteUrl": "https://bankypp.github.io/ac-mdcu/",
   "siteName": "คลังข้อสอบเก่า",
@@ -48,7 +50,8 @@
           "part": "",
           "done": true
         }
-      ]
+      ],
+      "meqTopics": []
     },
     {
       "id": "ped",
@@ -64,6 +67,9 @@
           "part": "",
           "done": true
         }
+      ],
+      "noExam": [
+        "MEQ"
       ]
     },
     {
@@ -139,7 +145,41 @@
       "sub": "MDCU",
       "brand": "AC OB-GYN Y4 MCQ",
       "dir": "data_obgyn",
-      "scope": "Obstetrics and gynecology: antenatal care, normal and abnormal labour and delivery, obstetric complications and emergencies, postpartum care, gynecologic disorders, gynecologic oncology, reproductive endocrinology and infertility, family planning"
+      "scope": "Obstetrics and gynecology: antenatal care, normal and abnormal labour and delivery, obstetric complications and emergencies, postpartum care, gynecologic disorders, gynecologic oncology, reproductive endocrinology and infertility, family planning",
+      "meqTopics": [
+        [
+          "ante",
+          "Antenatal care"
+        ],
+        [
+          "labor",
+          "Labor & delivery"
+        ],
+        [
+          "pp",
+          "Postpartum"
+        ],
+        [
+          "comp",
+          "Obstetric complications"
+        ],
+        [
+          "med",
+          "Medical diseases in pregnancy"
+        ],
+        [
+          "gyn",
+          "Gynecology"
+        ],
+        [
+          "onco",
+          "Gyn oncology"
+        ],
+        [
+          "repro",
+          "Reproductive & family planning"
+        ]
+      ]
     }
   ],
   "firebase": {

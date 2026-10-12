@@ -490,6 +490,212 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .gate input{width:100%;font:inherit;font-size:17px;padding:11px 14px;border:1.5px solid var(--rule);border-radius:8px;background:var(--sheet);color:var(--ink);text-align:center}
 .gate .btn{width:100%}
 .gate .gerr{color:var(--wrong);font-size:14px;margin:0}
+
+/* ===== MEQ (site/meq.js) — ported from meq-platform-kit, scoped under .mqv ===== */
+.mqv .case-tag{border-color:var(--ink)!important}
+.mqv .qhead{flex-wrap:wrap}
+.mqv .qhead .fields{flex:1;min-width:0}
+.mqv .qtools{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-left:auto;padding-bottom:4px;flex:none}
+.mqv .timer{white-space:nowrap;font-family:var(--num);font-weight:600;font-size:14px;color:var(--muted);border:1.5px solid var(--rule);border-radius:3px;padding:1px 8px}
+.mqv .timer.over{color:var(--wrong);border-color:var(--wrong)}
+.mqv .tbtn{white-space:nowrap;border:1.5px solid var(--rule);background:transparent;border-radius:3px;padding:0 8px;font-size:13px;line-height:1.75;cursor:pointer;color:var(--muted)}
+.mqv .tbtn:hover{border-color:var(--form);color:var(--form)}
+.mqv .starbtn{border:1.5px solid var(--rule);background:transparent;border-radius:3px;padding:0 8px;font-size:16px;line-height:1.5;cursor:pointer;color:var(--muted)}
+.mqv .starbtn[aria-pressed="true"]{border-color:var(--warn);color:var(--warn);background:var(--warn-soft)}
+.mqv .stem table,.mqv .subq table,.mqv .exp table{border-collapse:collapse;margin:8px 0;font-size:15px}
+.mqv .stem td,.mqv .stem th,.mqv .subq td,.mqv .subq th,.mqv .exp td,.mqv .exp th{border:1px solid var(--rule);padding:3px 8px;text-align:left}
+.mqv .subq{margin:22px 0 0;padding-top:16px;border-top:1px solid var(--rule)}
+.mqv .subq .sh{display:flex;gap:10px;align-items:baseline}
+.mqv .subq .sn{font-family:var(--num);font-weight:700;color:var(--form);font-size:19px;flex:none;min-width:34px}
+.mqv .subq .sq{flex:1;font-size:17px;line-height:1.65}
+.mqv .subq .mk{font-size:12px;color:var(--muted);flex:none;font-family:var(--num);border:1px solid var(--rule);border-radius:3px;padding:0 6px}
+.mqv .subq .stem-img{margin-left:44px}
+.mqv textarea.ans{display:block;width:calc(100% - 44px);margin:10px 0 0 44px;min-height:84px;padding:10px 12px;border:1.5px solid var(--rule);border-radius:6px;background:var(--sheet);color:var(--ink);font:inherit;font-size:16px;line-height:1.55;resize:vertical}
+.mqv textarea.ans:focus{border-color:var(--form);outline:none;box-shadow:0 0 0 3px var(--form-soft)}
+.mqv .sbody{margin-left:44px}
+.mqv .mmine{margin-top:10px;padding:8px 12px;border-left:3px solid var(--graphite);white-space:pre-wrap;font-size:15.5px;background:var(--sheet);border-radius:0 4px 4px 0}
+.mqv .mmine .lab,.mqv .model .lab{display:block;font-size:12px;font-weight:600;letter-spacing:.03em;margin-bottom:2px;white-space:normal}
+.mqv .mmine .lab{color:var(--muted)}
+.mqv .mmine.none{color:var(--muted);font-style:italic}
+.mqv .model{margin-top:10px;background:var(--right-soft);border:1px solid var(--right);border-radius:6px;padding:10px 12px;animation:reveal .35s ease-out}
+.mqv .model .lab{color:var(--right)}
+.mqv .model .a{font-weight:600;font-size:16.5px}
+.mqv .model .mexp{margin-top:8px;font-size:15.5px}
+.mqv .model .mexp ul,.mqv .model .mexp ol{margin:4px 0;padding-left:20px}
+.mqv .pts{list-style:none;padding:0;margin:10px 0 0}
+.mqv .pts li{margin:4px 0}
+.mqv .pts label{display:flex;gap:9px;align-items:flex-start;cursor:pointer;font-size:15.5px}
+.mqv .pts input{margin-top:5px;width:18px;height:18px;flex:none;accent-color:var(--right)}
+.mqv .pts .ph{font-size:12px;font-weight:600;color:var(--right);letter-spacing:.03em}
+.mqv .grade{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap;align-items:center}
+.mqv .grade .gl{font-size:13px;color:var(--muted);flex-basis:100%}
+.mqv .mgbtn{white-space:nowrap;border:1.5px solid var(--rule);background:var(--sheet);border-radius:999px;padding:3px 12px;font-size:14px;cursor:pointer}
+.mqv .mgbtn.g2[aria-pressed="true"]{background:var(--right);border-color:var(--right);color:#fff}
+.mqv .mgbtn.g1[aria-pressed="true"]{background:var(--warn);border-color:var(--warn);color:#fff}
+.mqv .mgbtn.g0[aria-pressed="true"]{background:var(--wrong);border-color:var(--wrong);color:#fff}
+.mqv .sub-meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.mqv .mscore{font-family:var(--num);font-weight:700;font-size:24px}
+.mqv .srow .b.f.half{background:var(--warn);border-color:var(--warn);color:#fff}
+.mqv .srow .more{font-size:11px;color:var(--muted);font-family:var(--num)}
+.mqv .srow .st{color:var(--warn);font-size:13px}
+@media (max-width:520px){.mqv .qtools{order:3;flex-basis:100%;margin-left:0;padding-bottom:0}}
+.mqv .qnum small{display:block;font-family:var(--body);font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--muted);line-height:1.2;margin-bottom:2px}
+.mqv .psteps{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px}
+.mqv .pstep{font-family:var(--num);font-weight:600;font-size:14px;border:1.5px solid var(--rule);background:transparent;border-radius:999px;padding:2px 12px;cursor:pointer;color:var(--ink)}
+.mqv .pstep.done{border-color:var(--right);color:var(--right)}
+.mqv .pstep.open{border-color:var(--form);color:var(--form)}
+.mqv .pstep.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.mqv .pstep:disabled{opacity:.45;cursor:not-allowed}
+.mqv .case{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:12px 14px 12px}
+.mqv .case-lab{font-family:var(--num);font-weight:700;font-size:13px;letter-spacing:.06em;color:var(--form);margin-bottom:4px}
+.mqv .case .stem{margin:0}
+.mqv details.prev{margin:12px 0 0;border:1px dashed var(--rule);border-radius:6px;padding:6px 12px}
+.mqv details.prev summary{cursor:pointer;font-size:13.5px;font-weight:600;color:var(--muted)}
+.mqv .pinfo{display:flex;gap:10px;margin:8px 0;font-size:15.5px;line-height:1.6}
+.mqv .pinfo .pn{flex:none;font-family:var(--num);font-weight:700;color:var(--form);min-width:30px}
+.mqv .pinfo>div{min-width:0}
+.mqv section.part{margin-top:22px;border-top:3px solid var(--form);padding-top:12px}
+.mqv .part-h{display:flex;align-items:baseline;gap:10px}
+.mqv .pnum{font-family:var(--num);font-weight:700;font-size:22px;color:var(--form)}
+.mqv .part-h .mk{font-size:12px;color:var(--muted);font-family:var(--num);border:1px solid var(--rule);border-radius:3px;padding:0 6px}
+.mqv .pinfo-cur{margin-top:8px;font-size:17px;line-height:1.7}
+.mqv .pinfo-cur table,.mqv .pinfo table{border-collapse:collapse;margin:8px 0;font-size:15px}
+.mqv .pinfo-cur td,.mqv .pinfo-cur th,.mqv .pinfo td,.mqv .pinfo th{border:1px solid var(--rule);padding:3px 8px;text-align:left}
+.mqv .subq .sn{min-width:52px}
+.mqv textarea.ans{width:calc(100% - 62px);margin-left:62px}
+.mqv .sbody,.mqv .subq .stem-img{margin-left:62px}
+.mqv .sgray{margin-left:62px}
+.mqv .pverdict{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:20px;padding-top:12px;border-top:1px solid var(--rule)}
+.mqv .pscore{font-family:var(--num);font-weight:700;font-size:18px}
+.mqv .nextpart{margin-left:auto}
+.mqv .exp-h{font-family:var(--num);font-weight:700;font-size:15px;letter-spacing:.04em;color:var(--muted);margin-bottom:4px}
+.mqv .crow{display:grid;grid-template-columns:52px 1fr;gap:4px 10px;padding:8px;border-radius:4px;align-items:start}
+.mqv .crow.cur{background:var(--form-soft)}
+.mqv .crow .cn{border:0;background:transparent;cursor:pointer;font-family:var(--num);font-weight:700;font-size:20px;color:var(--form);line-height:1;padding:4px 0;text-align:right;border-radius:4px}
+.mqv .crow .cn .cl{display:block;font-family:var(--body);font-size:10.5px;font-weight:600;color:var(--muted);letter-spacing:.04em}
+.mqv .crow .cn:hover{background:var(--form-soft)}
+.mqv .cparts{display:flex;flex-wrap:wrap;gap:6px;min-width:0}
+.mqv .pchip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule);background:var(--sheet);border-radius:6px;padding:3px 7px;cursor:pointer}
+.mqv .pchip:hover{border-color:var(--form)}
+.mqv .pchip.cur{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.mqv .pchip.lock{opacity:.5;cursor:not-allowed;background:transparent}
+.mqv .pchip .pl{font-family:var(--num);font-weight:600;font-size:12.5px;color:var(--ink)}
+.mqv .pchip .bs{display:flex;gap:4px}
+.mqv .pchip .b{width:16px;height:16px;border-radius:50%;border:1.5px solid var(--form);font-family:var(--num);font-size:9px;display:grid;place-items:center;color:var(--form);opacity:.75}
+.mqv .pchip .b.f{background:var(--graphite);border-color:var(--graphite);color:var(--on-graphite);opacity:1}
+.mqv .pchip .b.f.ok{background:var(--right);border-color:var(--right);color:#fff}
+.mqv .pchip .b.f.half{background:var(--warn);border-color:var(--warn);color:#fff}
+.mqv .pchip .b.f.no{background:var(--wrong);border-color:var(--wrong);color:#fff}
+.mqv .cmeta{grid-column:2;font-size:12px;color:var(--muted);font-family:var(--num)}
+.mqv .cmeta .st{color:var(--warn)}
+@media (max-width:520px){.mqv .subq .sn{min-width:0}
+.mqv textarea.ans{width:100%;margin-left:0}
+.mqv .sbody,.mqv .subq .stem-img,.mqv .sgray{margin-left:0}
+.mqv .pnum{font-size:20px}
+.mqv .case{padding:10px 12px}}
+.mqv .sblk{margin-top:10px;padding:8px 12px;border:1px solid var(--rule);border-radius:6px;background:var(--sheet);font-size:15.5px;line-height:1.6}
+.mqv .sblk .lab,.mqv .filekey .lab{display:block;font-size:12px;font-weight:600;letter-spacing:.03em;margin-bottom:2px;color:var(--muted)}
+.mqv .sblk .lab small{font-weight:500}
+.mqv .sblk.aibox{border-left:4px solid var(--form)}
+.mqv .sblk.aibox .lab{color:var(--form)}
+.mqv .aimiss{margin-top:6px}
+.mqv .muted{color:var(--muted);font-size:14.5px}
+.mqv .filekey{margin-top:10px;padding:8px 12px;border-left:4px solid var(--hl);background:var(--sheet);border-radius:0 6px 6px 0;font-size:15px;line-height:1.6}
+.mqv .filekey .fk{margin-bottom:6px}
+.mqv .filekey .kimg img{max-width:560px}
+.mqv .sugbox{border-style:dashed;border-color:var(--ink)}
+.mqv .sugline{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
+.mqv .sug{white-space:nowrap;border-radius:999px;padding:1px 10px;font-size:14px;font-weight:600;color:#fff}
+.mqv .sug.g2{background:var(--right)}
+.mqv .sug.g1{background:var(--warn)}
+.mqv .sug.g0{background:var(--wrong)}
+.mqv .rubric{margin-top:6px;font-size:14.5px;color:var(--ink)}
+.mqv .mgbtn .sm{font-size:11px;font-weight:600;border-radius:999px;padding:0 6px;border:1px solid currentColor;margin-left:2px}
+.mqv .ailink{color:var(--form);font-size:14px}
+.mqv .mmine-lab{margin:10px 0 0 62px;font-size:12px;font-weight:600;letter-spacing:.03em;color:var(--muted)}
+.mqv .mmine-lab span{font-weight:500}
+.mqv textarea.ans.ro{margin-top:4px;background:var(--paper);border-color:var(--rule);cursor:default;resize:none;color:var(--ink)}
+.mqv textarea.ans.ro:focus{box-shadow:none;border-color:var(--muted)}
+.mqv .pts .pgrp{margin:8px 0 6px}
+.mqv .pts .pgl{font-size:14.5px;font-weight:600}
+.mqv .pts .pgl .alt{display:inline-block;font-size:12px;font-weight:600;color:var(--right);border:1px solid var(--right);border-radius:999px;padding:0 8px;margin-left:2px}
+.mqv .pts .pgrp ul{list-style:none;margin:4px 0 0;padding-left:14px;border-left:2px solid var(--right)}
+@media (max-width:520px){.mqv .mmine-lab{margin-left:0}}
+.mqv .grade .sredo{margin-left:auto;color:var(--muted);font-size:13px}
+.mqv .pverdict .predo{color:var(--muted)}
+.mqv .sact{margin:8px 0 0 62px}
+@media (max-width:520px){.mqv .sact{margin-left:0}}
+.mqv .timer.paused{color:var(--warn);border-color:var(--warn);background:var(--warn-soft)}
+.mqv .tbtn.on{border-color:var(--warn);color:var(--warn);background:var(--warn-soft)}
+.mqv .case.old .stem,.mqv .case.old .stem td,.mqv .case.old .stem th,.mqv details.prev.old .pinfo{color:var(--muted)}
+.mqv .case.old .stem b,.mqv details.prev.old .pinfo b{color:var(--muted)}
+.mqv .case.old{background:transparent}
+.mqv .oldtag,.mqv .newtag{display:inline-block;font-family:var(--body);font-size:11px;font-weight:600;letter-spacing:.03em;border-radius:999px;padding:0 8px;vertical-align:2px}
+.mqv .oldtag{color:var(--muted);border:1px solid var(--rule)}
+.mqv .newtag{color:var(--paper);background:var(--ink);margin-right:8px}
+.mqv .pinfo-cur{color:var(--ink);font-weight:500}
+.mqv .pinfo-cur td,.mqv .pinfo-cur th{color:var(--ink)}
+.mqv .pinfo-cur{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:10px 14px}
+.mqv .part-h{flex-wrap:wrap}
+.mqv .ptime{font-family:var(--num);font-weight:600;font-size:13px;color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:0 6px;margin-left:auto}
+.mqv .pchip .ptm{font-family:var(--num);font-size:10.5px;color:var(--muted)}
+.mqv .aiold{margin-top:6px}
+.mqv .tl-h{font-family:var(--num);font-weight:700;font-size:13px;letter-spacing:.06em;color:var(--form);margin:18px 0 2px}
+.mqv .tl-h:first-child{margin-top:0}
+.mqv .tchips .chip{font-size:14px;padding:4px 12px}
+.mqv .chip .cnt{font-family:var(--num);font-size:11.5px;opacity:.7;margin-left:4px}
+.mqv .tsum{margin:14px 0 4px;font-size:14px;color:var(--muted)}
+.mqv .tsum b{color:var(--ink);font-family:var(--num)}
+.mqv .trows{margin:4px -8px 0}
+.mqv .trows .crow{border-bottom:1px solid var(--rule)}
+.mqv .ttags{display:inline-flex;flex-wrap:wrap;gap:4px;margin-left:6px;vertical-align:middle}
+.mqv .ttag{font-size:11px;line-height:1.4;border:1px solid var(--rule);border-radius:999px;padding:0 7px;color:var(--muted);white-space:nowrap}
+.mqv .ttag.on{border-color:var(--form);color:var(--form)}
+.mqv .mtbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:-6px 0 16px;padding:8px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--sheet);font-size:13.5px}
+.mqv .mtbar .back{color:var(--form);font-size:14px;font-weight:600;text-decoration:none;padding:2px 0}
+.mqv .mtbar .tsel{color:var(--muted);min-width:0}
+.mqv .mtbar .tcnt{margin-left:auto;font-family:var(--num);font-weight:600;color:var(--muted)}
+.mqv .subq>.ttags{display:flex;margin:6px 0 0 44px}
+.mqv .sum-head{margin-bottom:10px}
+.mqv .sum-head .hint{margin:4px 0 8px;font-size:13px;color:var(--muted);line-height:1.6}
+.mqv .sum-tools{display:flex;gap:6px}
+.mqv details.sumt{border:1px solid var(--rule);border-radius:8px;background:var(--sheet);margin:10px 0;overflow:hidden}
+.mqv details.sumt>summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:10px;padding:12px 14px;border-left:4px solid var(--form)}
+.mqv details.sumt>summary::-webkit-details-marker,.mqv details.sums>summary::-webkit-details-marker{display:none}
+.mqv details.sumt>summary::before,.mqv details.sums>summary::before{content:"▸";color:var(--form);font-size:13px;transition:transform .15s;flex:none}
+.mqv details[open]>summary::before{transform:rotate(90deg)}
+.mqv .st-name{font-weight:700;font-size:17px;color:var(--ink)}
+.mqv .st-meta{margin-left:auto;font-family:var(--num);font-size:12.5px;color:var(--muted);white-space:nowrap}
+.mqv .sum-intro{padding:2px 16px 4px;font-size:14.5px;line-height:1.65}
+.mqv .sumg{padding:4px 12px 10px}
+.mqv .sumg-h{font-weight:700;font-size:13.5px;letter-spacing:.03em;color:var(--form);margin:12px 4px 6px;padding-bottom:4px;border-bottom:1px dashed var(--rule)}
+.mqv details.sums{border:1px solid var(--rule);border-radius:6px;margin:6px 0;background:var(--paper)}
+.mqv details.sums>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;padding:9px 10px}
+.mqv .ss-name{font-weight:600;font-size:15px;flex:1 1 60%;min-width:0}
+.mqv .lv{font-size:11.5px;border-radius:999px;padding:0 8px;line-height:1.6;white-space:nowrap;border:1px solid var(--rule);color:var(--muted)}
+.mqv .lv.hot{background:var(--wrong);border-color:var(--wrong);color:#fff}
+.mqv .lv.warm{border-color:var(--warn);color:var(--warn)}
+.mqv .lv.rep{border-color:var(--form);color:var(--form)}
+.mqv .nums{font-family:var(--num);font-size:12px;color:var(--muted);white-space:nowrap}
+.mqv .sums-b{padding:2px 14px 12px;font-size:14.5px;line-height:1.65;border-top:1px dashed var(--rule)}
+.mqv .sums-b ul{margin:4px 0 8px;padding-left:20px}
+.mqv .sums-b li{margin:2px 0}
+.mqv .trend{margin:8px 0 4px;color:var(--ink)}
+.mqv .sb-h{font-weight:700;font-size:12.5px;letter-spacing:.03em;color:var(--form);margin-top:10px}
+.mqv .sb-h.warn{color:var(--warn)}
+.mqv ul.pearl li{color:var(--muted)}
+.mqv .refs{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.mqv .ref{border:1px solid var(--rule);background:var(--sheet);border-radius:6px;padding:2px 8px;cursor:pointer;font-family:var(--num);font-weight:600;font-size:13px;color:var(--ink);display:inline-flex;gap:5px;align-items:baseline}
+.mqv .ref small{font-weight:500;font-size:10.5px;color:var(--muted)}
+.mqv .ref:hover{border-color:var(--form)}
+.mqv .toplist{margin:0;padding:6px 16px 12px 36px;font-size:14.5px;line-height:1.7}
+.mqv .toplist li{margin:0 0 6px}
+.mqv .toplist .toplink{color:var(--ink);font-size:14.5px;text-decoration:none;font-weight:600;padding:0;text-align:left;display:inline}
+.mqv .toplist .ttag{margin:0 2px}
+.mqv .cq{font-size:13.5px;color:var(--ink);margin:0 0 4px;line-height:1.45}
+.mqv .crow{grid-template-columns:52px 1fr}.mqv .cmeta{grid-column:2}
+.mqv .mqnav{margin-top:26px;border-top:1px solid var(--rule);padding-top:14px}
+.mqv .mtbar{margin:0 0 14px}
 </style>
 </head>
 <body>
@@ -543,11 +749,13 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 
 <script>
 const IMGS={};const WARDS={};
-Object.assign(IMGS,{"k75c_1": "img/k75c_1.jpg", "k75c_10": "img/k75c_10.jpg", "k75c_11": "img/k75c_11.jpg", "k75c_12": "img/k75c_12.jpg", "k75c_13": "img/k75c_13.jpg", "k75c_14": "img/k75c_14.jpg", "k75c_15": "img/k75c_15.jpg", "k75c_16": "img/k75c_16.jpg", "k75c_17": "img/k75c_17.jpg", "k75c_18": "img/k75c_18.jpg", "k75c_19": "img/k75c_19.jpg", "k75c_2": "img/k75c_2.jpg", "k75c_20": "img/k75c_20.jpg", "k75c_21": "img/k75c_21.jpg", "k75c_22": "img/k75c_22.jpg", "k75c_23": "img/k75c_23.jpg", "k75c_24": "img/k75c_24.jpg", "k75c_25": "img/k75c_25.jpg", "k75c_26": "img/k75c_26.jpg", "k75c_27": "img/k75c_27.jpg", "k75c_28": "img/k75c_28.jpg", "k75c_29": "img/k75c_29.jpg", "k75c_3": "img/k75c_3.jpg", "k75c_30": "img/k75c_30.jpg", "k75c_31": "img/k75c_31.jpg", "k75c_32": "img/k75c_32.jpg", "k75c_33": "img/k75c_33.jpg", "k75c_34": "img/k75c_34.jpg", "k75c_35": "img/k75c_35.jpg", "k75c_36": "img/k75c_36.jpg", "k75c_37": "img/k75c_37.jpg", "k75c_38": "img/k75c_38.jpg", "k75c_39": "img/k75c_39.jpg", "k75c_4": "img/k75c_4.jpg", "k75c_40": "img/k75c_40.jpg", "k75c_41": "img/k75c_41.jpg", "k75c_42": "img/k75c_42.jpg", "k75c_43": "img/k75c_43.jpg", "k75c_44": "img/k75c_44.jpg", "k75c_45": "img/k75c_45.jpg", "k75c_46": "img/k75c_46.jpg", "k75c_47": "img/k75c_47.jpg", "k75c_48": "img/k75c_48.jpg", "k75c_49": "img/k75c_49.jpg", "k75c_5": "img/k75c_5.jpg", "k75c_50": "img/k75c_50.jpg", "k75c_51": "img/k75c_51.jpg", "k75c_52": "img/k75c_52.jpg", "k75c_53": "img/k75c_53.jpg", "k75c_54": "img/k75c_54.jpg", "k75c_6": "img/k75c_6.jpg", "k75c_7": "img/k75c_7.jpg", "k75c_8": "img/k75c_8.jpg", "k75c_9": "img/k75c_9.jpg", "k75d_1": "img/k75d_1.jpg", "k75d_10": "img/k75d_10.jpg", "k75d_11": "img/k75d_11.jpg", "k75d_12": "img/k75d_12.jpg", "k75d_13": "img/k75d_13.jpg", "k75d_14": "img/k75d_14.jpg", "k75d_15": "img/k75d_15.jpg", "k75d_16": "img/k75d_16.jpg", "k75d_17": "img/k75d_17.jpg", "k75d_18": "img/k75d_18.jpg", "k75d_19": "img/k75d_19.jpg", "k75d_2": "img/k75d_2.jpg", "k75d_20": "img/k75d_20.jpg", "k75d_21": "img/k75d_21.jpg", "k75d_22": "img/k75d_22.jpg", "k75d_23": "img/k75d_23.jpg", "k75d_24": "img/k75d_24.jpg", "k75d_25": "img/k75d_25.jpg", "k75d_26": "img/k75d_26.jpg", "k75d_27": "img/k75d_27.jpg", "k75d_28": "img/k75d_28.jpg", "k75d_29": "img/k75d_29.jpg", "k75d_3": "img/k75d_3.jpg", "k75d_30": "img/k75d_30.jpg", "k75d_31": "img/k75d_31.jpg", "k75d_32": "img/k75d_32.jpg", "k75d_33": "img/k75d_33.jpg", "k75d_34": "img/k75d_34.jpg", "k75d_35": "img/k75d_35.jpg", "k75d_36": "img/k75d_36.jpg", "k75d_4": "img/k75d_4.jpg", "k75d_5": "img/k75d_5.jpg", "k75d_6": "img/k75d_6.jpg", "k75d_7": "img/k75d_7.jpg", "k75d_8": "img/k75d_8.jpg", "k75d_9": "img/k75d_9.jpg", "k76a_1": "img/k76a_1.jpg", "k76a_10": "img/k76a_10.jpg", "k76a_11": "img/k76a_11.jpg", "k76a_12": "img/k76a_12.jpg", "k76a_13": "img/k76a_13.jpg", "k76a_14": "img/k76a_14.jpg", "k76a_15": "img/k76a_15.jpg", "k76a_16": "img/k76a_16.jpg", "k76a_17": "img/k76a_17.jpg", "k76a_18": "img/k76a_18.jpg", "k76a_19": "img/k76a_19.jpg", "k76a_20": "img/k76a_20.jpg", "k76a_21": "img/k76a_21.jpg", "k76a_22": "img/k76a_22.jpg", "k76a_23": "img/k76a_23.jpg", "k76a_24": "img/k76a_24.jpg", "k76a_25": "img/k76a_25.jpg", "k76a_26": "img/k76a_26.jpg", "k76a_27": "img/k76a_27.jpg", "k76a_28": "img/k76a_28.jpg", "k76a_29": "img/k76a_29.jpg", "k76a_2_1": "img/k76a_2_1.jpg", "k76a_2_2": "img/k76a_2_2.jpg", "k76a_3": "img/k76a_3.jpg", "k76a_30": "img/k76a_30.jpg", "k76a_31": "img/k76a_31.jpg", "k76a_32": "img/k76a_32.jpg", "k76a_33": "img/k76a_33.jpg", "k76a_34": "img/k76a_34.jpg", "k76a_35": "img/k76a_35.jpg", "k76a_36": "img/k76a_36.jpg", "k76a_37": "img/k76a_37.jpg", "k76a_38": "img/k76a_38.jpg", "k76a_39": "img/k76a_39.jpg", "k76a_4": "img/k76a_4.jpg", "k76a_40": "img/k76a_40.jpg", "k76a_41": "img/k76a_41.jpg", "k76a_42": "img/k76a_42.jpg", "k76a_43": "img/k76a_43.jpg", "k76a_44": "img/k76a_44.jpg", "k76a_45": "img/k76a_45.jpg", "k76a_46": "img/k76a_46.jpg", "k76a_47_1": "img/k76a_47_1.jpg", "k76a_47_2": "img/k76a_47_2.jpg", "k76a_48": "img/k76a_48.jpg", "k76a_49": "img/k76a_49.jpg", "k76a_5": "img/k76a_5.jpg", "k76a_50": "img/k76a_50.jpg", "k76a_51": "img/k76a_51.jpg", "k76a_52": "img/k76a_52.jpg", "k76a_53": "img/k76a_53.jpg", "k76a_54": "img/k76a_54.jpg", "k76a_55": "img/k76a_55.jpg", "k76a_56": "img/k76a_56.jpg", "k76a_57": "img/k76a_57.jpg", "k76a_58": "img/k76a_58.jpg", "k76a_59": "img/k76a_59.jpg", "k76a_6": "img/k76a_6.jpg", "k76a_60": "img/k76a_60.jpg", "k76a_61": "img/k76a_61.jpg", "k76a_62": "img/k76a_62.jpg", "k76a_63": "img/k76a_63.jpg", "k76a_64": "img/k76a_64.jpg", "k76a_65": "img/k76a_65.jpg", "k76a_66": "img/k76a_66.jpg", "k76a_67": "img/k76a_67.jpg", "k76a_68": "img/k76a_68.jpg", "k76a_69": "img/k76a_69.jpg", "k76a_7": "img/k76a_7.jpg", "k76a_70": "img/k76a_70.jpg", "k76a_71": "img/k76a_71.jpg", "k76a_72": "img/k76a_72.jpg", "k76a_73": "img/k76a_73.jpg", "k76a_74": "img/k76a_74.jpg", "k76a_75": "img/k76a_75.jpg", "k76a_8": "img/k76a_8.jpg", "k76a_9": "img/k76a_9.jpg", "k76c_1": "img/k76c_1.jpg", "k76c_10": "img/k76c_10.jpg", "k76c_11": "img/k76c_11.jpg", "k76c_12": "img/k76c_12.jpg", "k76c_13": "img/k76c_13.jpg", "k76c_14": "img/k76c_14.jpg", "k76c_15": "img/k76c_15.jpg", "k76c_16": "img/k76c_16.jpg", "k76c_17": "img/k76c_17.jpg", "k76c_18": "img/k76c_18.jpg", "k76c_19": "img/k76c_19.jpg", "k76c_2": "img/k76c_2.jpg", "k76c_20": "img/k76c_20.jpg", "k76c_21": "img/k76c_21.jpg", "k76c_22": "img/k76c_22.jpg", "k76c_23": "img/k76c_23.jpg", "k76c_24": "img/k76c_24.jpg", "k76c_25": "img/k76c_25.jpg", "k76c_26": "img/k76c_26.jpg", "k76c_27": "img/k76c_27.jpg", "k76c_28": "img/k76c_28.jpg", "k76c_29": "img/k76c_29.jpg", "k76c_3": "img/k76c_3.jpg", "k76c_30": "img/k76c_30.jpg", "k76c_31": "img/k76c_31.jpg", "k76c_32": "img/k76c_32.jpg", "k76c_33": "img/k76c_33.jpg", "k76c_34": "img/k76c_34.jpg", "k76c_35": "img/k76c_35.jpg", "k76c_36": "img/k76c_36.jpg", "k76c_37": "img/k76c_37.jpg", "k76c_38": "img/k76c_38.jpg", "k76c_39": "img/k76c_39.jpg", "k76c_4": "img/k76c_4.jpg", "k76c_40": "img/k76c_40.jpg", "k76c_41": "img/k76c_41.jpg", "k76c_42": "img/k76c_42.jpg", "k76c_43": "img/k76c_43.jpg", "k76c_44": "img/k76c_44.jpg", "k76c_45": "img/k76c_45.jpg", "k76c_46": "img/k76c_46.jpg", "k76c_47": "img/k76c_47.jpg", "k76c_48": "img/k76c_48.jpg", "k76c_49": "img/k76c_49.jpg", "k76c_5": "img/k76c_5.jpg", "k76c_50": "img/k76c_50.jpg", "k76c_51": "img/k76c_51.jpg", "k76c_52": "img/k76c_52.jpg", "k76c_53": "img/k76c_53.jpg", "k76c_54": "img/k76c_54.jpg", "k76c_55": "img/k76c_55.jpg", "k76c_56": "img/k76c_56.jpg", "k76c_57": "img/k76c_57.jpg", "k76c_58": "img/k76c_58.jpg", "k76c_59": "img/k76c_59.jpg", "k76c_6": "img/k76c_6.jpg", "k76c_60": "img/k76c_60.jpg", "k76c_61": "img/k76c_61.jpg", "k76c_62": "img/k76c_62.jpg", "k76c_63": "img/k76c_63.jpg", "k76c_64": "img/k76c_64.jpg", "k76c_65": "img/k76c_65.jpg", "k76c_66": "img/k76c_66.jpg", "k76c_67": "img/k76c_67.jpg", "k76c_68": "img/k76c_68.jpg", "k76c_69": "img/k76c_69.jpg", "k76c_7": "img/k76c_7.jpg", "k76c_70": "img/k76c_70.jpg", "k76c_71": "img/k76c_71.jpg", "k76c_72": "img/k76c_72.jpg", "k76c_8": "img/k76c_8.jpg", "k76c_9": "img/k76c_9.jpg", "k76d_1": "img/k76d_1.jpg", "k76d_10": "img/k76d_10.jpg", "k76d_11": "img/k76d_11.jpg", "k76d_12": "img/k76d_12.jpg", "k76d_13": "img/k76d_13.jpg", "k76d_14": "img/k76d_14.jpg", "k76d_15": "img/k76d_15.jpg", "k76d_16": "img/k76d_16.jpg", "k76d_17": "img/k76d_17.jpg", "k76d_18": "img/k76d_18.jpg", "k76d_19": "img/k76d_19.jpg", "k76d_2": "img/k76d_2.jpg", "k76d_20": "img/k76d_20.jpg", "k76d_21": "img/k76d_21.jpg", "k76d_22": "img/k76d_22.jpg", "k76d_23": "img/k76d_23.jpg", "k76d_24": "img/k76d_24.jpg", "k76d_25": "img/k76d_25.jpg", "k76d_26": "img/k76d_26.jpg", "k76d_27": "img/k76d_27.jpg", "k76d_28": "img/k76d_28.jpg", "k76d_29": "img/k76d_29.jpg", "k76d_3": "img/k76d_3.jpg", "k76d_30": "img/k76d_30.jpg", "k76d_31": "img/k76d_31.jpg", "k76d_32": "img/k76d_32.jpg", "k76d_33": "img/k76d_33.jpg", "k76d_34": "img/k76d_34.jpg", "k76d_35": "img/k76d_35.jpg", "k76d_36": "img/k76d_36.jpg", "k76d_37": "img/k76d_37.jpg", "k76d_38": "img/k76d_38.jpg", "k76d_39": "img/k76d_39.jpg", "k76d_4": "img/k76d_4.jpg", "k76d_40": "img/k76d_40.jpg", "k76d_41": "img/k76d_41.jpg", "k76d_42": "img/k76d_42.jpg", "k76d_43": "img/k76d_43.jpg", "k76d_44": "img/k76d_44.jpg", "k76d_45": "img/k76d_45.jpg", "k76d_46": "img/k76d_46.jpg", "k76d_47": "img/k76d_47.jpg", "k76d_48": "img/k76d_48.jpg", "k76d_49": "img/k76d_49.jpg", "k76d_5": "img/k76d_5.jpg", "k76d_50": "img/k76d_50.jpg", "k76d_51": "img/k76d_51.jpg", "k76d_52": "img/k76d_52.jpg", "k76d_53": "img/k76d_53.jpg", "k76d_54": "img/k76d_54.jpg", "k76d_55": "img/k76d_55.jpg", "k76d_56": "img/k76d_56.jpg", "k76d_57": "img/k76d_57.jpg", "k76d_58": "img/k76d_58.jpg", "k76d_59": "img/k76d_59.jpg", "k76d_6": "img/k76d_6.jpg", "k76d_60": "img/k76d_60.jpg", "k76d_61": "img/k76d_61.jpg", "k76d_7": "img/k76d_7.jpg", "k76d_8": "img/k76d_8.jpg", "k76d_9": "img/k76d_9.jpg", "k77b_10": "img/k77b_10.jpg", "k77b_21": "img/k77b_21.jpg", "k77b_39": "img/k77b_39.jpg", "k77b_40": "img/k77b_40.jpg", "k77c_10": "img/k77c_10.jpg", "k77c_11": "img/k77c_11.jpg", "k77c_12": "img/k77c_12.jpg", "k77c_13": "img/k77c_13.jpg", "k77c_16": "img/k77c_16.jpg", "k77c_17": "img/k77c_17.jpg", "k77c_18": "img/k77c_18.jpg", "k77c_2": "img/k77c_2.jpg", "k77c_22": "img/k77c_22.jpg", "k77c_30": "img/k77c_30.jpg", "k77c_31": "img/k77c_31.jpg", "k77c_36": "img/k77c_36.jpg", "k77c_39": "img/k77c_39.jpg", "k77c_41": "img/k77c_41.jpg", "k77c_42": "img/k77c_42.jpg", "k77c_43": "img/k77c_43.jpg", "k77c_44": "img/k77c_44.jpg", "k77c_45": "img/k77c_45.jpg", "k77c_47": "img/k77c_47.jpg", "k77c_49": "img/k77c_49.jpg", "k77c_5": "img/k77c_5.jpg", "k77c_50": "img/k77c_50.jpg", "k77c_51": "img/k77c_51.jpg", "k77c_52": "img/k77c_52.jpg", "k77c_54": "img/k77c_54.jpg", "k77c_56": "img/k77c_56.jpg", "k77c_57": "img/k77c_57.jpg", "k77c_59": "img/k77c_59.jpg", "k77c_6": "img/k77c_6.jpg", "k77c_60": "img/k77c_60.jpg", "k77c_62": "img/k77c_62.jpg", "k77c_65": "img/k77c_65.jpg", "k77c_67": "img/k77c_67.jpg", "k77c_69": "img/k77c_69.jpg", "k77c_7": "img/k77c_7.jpg", "k77c_72": "img/k77c_72.jpg", "k77c_73": "img/k77c_73.jpg", "k77c_77": "img/k77c_77.jpg", "k77c_8": "img/k77c_8.jpg", "k77c_9": "img/k77c_9.jpg", "k77d_1": "img/k77d_1.jpg", "k77d_10": "img/k77d_10.jpg", "k77d_11": "img/k77d_11.jpg", "k77d_16": "img/k77d_16.jpg", "k77d_2": "img/k77d_2.jpg", "k77d_20": "img/k77d_20.jpg", "k77d_21": "img/k77d_21.jpg", "k77d_22": "img/k77d_22.jpg", "k77d_24": "img/k77d_24.jpg", "k77d_25": "img/k77d_25.jpg", "k77d_27": "img/k77d_27.jpg", "k77d_28": "img/k77d_28.jpg", "k77d_3": "img/k77d_3.jpg", "k77d_35": "img/k77d_35.jpg", "k77d_37": "img/k77d_37.jpg", "k77d_38": "img/k77d_38.jpg", "k77d_39": "img/k77d_39.jpg", "k77d_4": "img/k77d_4.jpg", "k77d_40": "img/k77d_40.jpg", "k77d_41": "img/k77d_41.jpg", "k77d_42": "img/k77d_42.jpg", "k77d_43": "img/k77d_43.jpg", "k77d_44": "img/k77d_44.jpg", "k77d_45": "img/k77d_45.jpg", "k77d_46": "img/k77d_46.jpg", "k77d_47": "img/k77d_47.jpg", "k77d_48": "img/k77d_48.jpg", "k77d_49": "img/k77d_49.jpg", "k77d_52": "img/k77d_52.jpg", "k77d_53": "img/k77d_53.jpg", "k77d_55": "img/k77d_55.jpg", "k77d_57": "img/k77d_57.jpg", "k77d_58": "img/k77d_58.jpg", "k77d_6": "img/k77d_6.jpg", "k77d_61": "img/k77d_61.jpg", "k77d_64": "img/k77d_64.jpg", "k77d_65": "img/k77d_65.jpg", "k77d_7": "img/k77d_7.jpg", "k77d_71": "img/k77d_71.jpg", "k77d_73": "img/k77d_73.jpg", "k77d_74": "img/k77d_74.jpg", "k77d_75": "img/k77d_75.jpg", "k77d_77": "img/k77d_77.jpg", "k77d_79": "img/k77d_79.jpg", "k77d_8": "img/k77d_8.jpg", "k77d_9": "img/k77d_9.jpg", "k78a_43": "img/k78a_43.jpg", "k78c_59": "img/k78c_59.jpg", "k78d_1": "img/k78d_1.jpg", "k78d_10": "img/k78d_10.jpg", "k78d_11": "img/k78d_11.jpg", "k78d_12": "img/k78d_12.jpg", "k78d_13": "img/k78d_13.jpg", "k78d_14": "img/k78d_14.jpg", "k78d_15": "img/k78d_15.jpg", "k78d_16": "img/k78d_16.jpg", "k78d_18": "img/k78d_18.jpg", "k78d_19": "img/k78d_19.jpg", "k78d_1b": "img/k78d_1b.jpg", "k78d_2": "img/k78d_2.jpg", "k78d_20": "img/k78d_20.jpg", "k78d_22": "img/k78d_22.jpg", "k78d_25": "img/k78d_25.jpg", "k78d_26": "img/k78d_26.jpg", "k78d_27": "img/k78d_27.jpg", "k78d_28": "img/k78d_28.jpg", "k78d_29": "img/k78d_29.jpg", "k78d_3": "img/k78d_3.jpg", "k78d_30": "img/k78d_30.jpg", "k78d_31": "img/k78d_31.jpg", "k78d_32": "img/k78d_32.jpg", "k78d_33": "img/k78d_33.jpg", "k78d_34": "img/k78d_34.jpg", "k78d_35": "img/k78d_35.jpg", "k78d_36": "img/k78d_36.jpg", "k78d_37": "img/k78d_37.jpg", "k78d_38": "img/k78d_38.jpg", "k78d_39": "img/k78d_39.jpg", "k78d_4": "img/k78d_4.jpg", "k78d_40": "img/k78d_40.jpg", "k78d_41": "img/k78d_41.jpg", "k78d_43": "img/k78d_43.jpg", "k78d_44": "img/k78d_44.jpg", "k78d_45": "img/k78d_45.jpg", "k78d_46": "img/k78d_46.jpg", "k78d_48": "img/k78d_48.jpg", "k78d_5": "img/k78d_5.jpg", "k78d_50": "img/k78d_50.jpg", "k78d_52": "img/k78d_52.jpg", "k78d_53": "img/k78d_53.jpg", "k78d_54": "img/k78d_54.jpg", "k78d_55": "img/k78d_55.jpg", "k78d_57": "img/k78d_57.jpg", "k78d_6": "img/k78d_6.jpg", "k78d_60": "img/k78d_60.jpg", "k78d_61": "img/k78d_61.jpg", "k78d_62": "img/k78d_62.jpg", "k78d_63": "img/k78d_63.jpg", "k78d_64": "img/k78d_64.jpg", "k78d_65": "img/k78d_65.jpg", "k78d_68": "img/k78d_68.jpg", "k78d_69": "img/k78d_69.jpg", "k78d_7": "img/k78d_7.jpg", "k78d_70": "img/k78d_70.jpg", "k78d_71": "img/k78d_71.jpg", "k78d_75": "img/k78d_75.jpg", "k78d_76": "img/k78d_76.jpg", "k78d_77": "img/k78d_77.jpg", "k78d_78": "img/k78d_78.jpg", "k78d_79": "img/k78d_79.jpg", "k78d_8": "img/k78d_8.jpg", "k78d_80": "img/k78d_80.jpg", "k78d_84": "img/k78d_84.jpg", "k78d_85": "img/k78d_85.jpg", "k78d_86": "img/k78d_86.jpg", "k78d_9": "img/k78d_9.jpg", "l02_advliver": "img/l02_advliver.jpg", "l02_advmass": "img/l02_advmass.jpg", "l02_applecore": "img/l02_applecore.jpg", "l02_axilla": "img/l02_axilla.jpg", "l02_axr": "img/l02_axr.jpg", "l02_bafull": "img/l02_bafull.jpg", "l02_barrettq": "img/l02_barrettq.jpg", "l02_car": "img/l02_car.jpg", "l02_cellcycle": "img/l02_cellcycle.jpg", "l02_cnb": "img/l02_cnb.jpg", "l02_colmass": "img/l02_colmass.jpg", "l02_colpolyp": "img/l02_colpolyp.jpg", "l02_ctc": "img/l02_ctc.jpg", "l02_ctc3": "img/l02_ctc3.jpg", "l02_ctliver": "img/l02_ctliver.jpg", "l02_ctmets": "img/l02_ctmets.jpg", "l02_ctobs": "img/l02_ctobs.jpg", "l02_deaths2019": "img/l02_deaths2019.jpg", "l02_distended": "img/l02_distended.jpg", "l02_exent": "img/l02_exent.jpg", "l02_factors": "img/l02_factors.jpg", "l02_fna": "img/l02_fna.jpg", "l02_gross": "img/l02_gross.jpg", "l02_histo": "img/l02_histo.jpg", "l02_holistic": "img/l02_holistic.jpg", "l02_limbe": "img/l02_limbe.jpg", "l02_livermet": "img/l02_livermet.jpg", "l02_men": "img/l02_men.jpg", "l02_mentable": "img/l02_mentable.jpg", "l02_metcascade": "img/l02_metcascade.jpg", "l02_nstage": "img/l02_nstage.jpg", "l02_petct": "img/l02_petct.jpg", "l02_petctq": "img/l02_petctq.jpg", "l02_polypectomy": "img/l02_polypectomy.jpg", "l02_proctoscopy": "img/l02_proctoscopy.jpg", "l02_prolapse": "img/l02_prolapse.jpg", "l02_rectmass": "img/l02_rectmass.jpg", "l02_specimen": "img/l02_specimen.jpg", "l02_stagesimple": "img/l02_stagesimple.jpg", "l02_targeted": "img/l02_targeted.jpg", "l02_thfemale": "img/l02_thfemale.jpg", "l02_thmale": "img/l02_thmale.jpg", "l02_tme": "img/l02_tme.jpg", "l02_tmeq": "img/l02_tmeq.jpg", "l02_tstage": "img/l02_tstage.jpg", "l02_vogel": "img/l02_vogel.jpg", "l02_who": "img/l02_who.jpg", "q76a_41": "img/q76a_41.jpg", "q76c_20": "img/q76c_20.jpg", "q76c_63": "img/q76c_63.jpg", "q77a_2": "img/q77a_2.jpg", "q77a_26": "img/q77a_26.jpg", "q77a_35": "img/q77a_35.jpg", "q77a_36": "img/q77a_36.jpg", "q77a_42": "img/q77a_42.jpg", "q77a_47": "img/q77a_47.jpg", "q77a_5": "img/q77a_5.jpg", "q77a_65": "img/q77a_65.jpg", "q77a_66": "img/q77a_66.jpg", "q77a_69": "img/q77a_69.jpg", "q77a_71": "img/q77a_71.jpg", "q77a_8": "img/q77a_8.jpg", "q77a_8b": "img/q77a_8b.jpg", "q77b_26": "img/q77b_26.jpg", "q77b_27": "img/q77b_27.jpg", "q77b_30": "img/q77b_30.jpg", "q77b_31": "img/q77b_31.jpg", "q77b_32": "img/q77b_32.jpg", "q77b_34": "img/q77b_34.jpg", "q77b_45": "img/q77b_45.jpg", "q77b_66": "img/q77b_66.jpg", "q77c_42": "img/q77c_42.jpg", "q77d_13": "img/q77d_13.jpg", "q77d_31": "img/q77d_31.jpg", "q77d_33": "img/q77d_33.jpg", "q77d_41": "img/q77d_41.jpg", "q77d_63": "img/q77d_63.jpg", "q77d_66": "img/q77d_66.jpg", "q77d_67": "img/q77d_67.jpg", "q78a_26": "img/q78a_26.jpg", "q78a_29": "img/q78a_29.jpg", "q78a_30": "img/q78a_30.jpg", "q78a_33": "img/q78a_33.jpg", "q78a_45": "img/q78a_45.jpg", "q78a_46": "img/q78a_46.jpg", "q78a_47": "img/q78a_47.jpg", "q78a_48": "img/q78a_48.jpg", "q78a_49": "img/q78a_49.jpg", "q78a_53": "img/q78a_53.jpg", "q78a_55": "img/q78a_55.jpg", "q78a_56": "img/q78a_56.jpg", "q78a_57": "img/q78a_57.jpg", "q78c_53": "img/q78c_53.jpg", "q78c_54": "img/q78c_54.jpg", "q78c_58": "img/q78c_58.jpg", "q78d_15": "img/q78d_15.jpg", "q78d_19": "img/q78d_19.jpg", "q78d_51": "img/q78d_51.jpg", "q78d_69": "img/q78d_69.jpg"});
-const CONFIG={"title": "คลังข้อสอบเก่า MDCU", "brand": "AC Sx MCQ", "sub": "คลังข้อสอบเก่า", "storageKey": "ac-sx-mcq-mdcu-y4-v1", "setLabel": "ปี", "roLabel": "Rotation", "chipStrip": "MDCU", "files": {"76AQ": "AC_GenSx_rotate_A_MDCU76.pdf", "76AK": "Key AC_GenSx_76_Rotate_A.pdf", "76CK": "Key_76C_Gen_Sx_Solution_by_Academic_team_Rotate_C_MDCU76_AC_general_surgery.pdf", "76DK": "Key_76D_Gen_Sx_AC_76_Rotate_D.pdf", "77AQ": "77A_Gen_Sx_AC_MCQ.pdf", "77AK": "Key_77A_Gen_Sx_AC77_RoA_MCQ_Gen_Sx.pdf", "77BQ": "77B_Gen_Sx_AC_MCQ.pdf", "77BK": "Key_77B_Gen_Sx_AC77_RoB_MCQ_Gen_Sx.pdf", "77CQ": "77C_Gen_Sx_AC_MCQ.pdf", "77CK1": "Key_77C_Gen_Sx_AC_Sx_77_Ro_C_Key_solution_V.1", "77CK2": "Key_77C_Gen_Sx_AC_Gen_Sx_Rotate_C_MDCU77_by_Ro_C_V.2", "77DQ": "77D_Gen_Sx_AC_MCQ.pdf", "77DK": "Key_77D_GenSx_by_Vchakarn77.pdf", "75CQ": "75C_Gen_Sx_AC_MCQ_GEN_Sx_MDCU75_Rotate_C.pdf", "75DQ": "75D_Gen_Sx_AC_MCQ_GeneralSx_MDCU75_Rotate_D.pdf", "75CDK": "Key_75CD_Gen_Sx_Key_AC_MCQ_GEN_Sx_MDCU75.pdf", "78AQ": "78A_GenSx_MCQ_by_MDCU78A.pdf", "78AK": "Key_78A_Gen_Sx_AC78_RoA_MCQ_Gen_Sx.pdf", "78BQ": "78B_Gensx_AC_MCQ_rotate_B.pdf", "78CQ": "78C_GenSx_AC_rotate_C.pdf", "78CK": "Key_78C_Gen_Sx_AC78_RoC_MCQ_Gen_Sx.pdf", "78DQ": "78D_GenSx_AC_rotate_D.pdf", "78DK": "Key_78D_GenSx_MCQ_GenSx_rotate_D.pdf"}, "siteUrl": "https://bankypp.github.io/ac-mdcu/", "siteName": "คลังข้อสอบเก่า", "wards": [{"id": "med", "name": "Internal Medicine", "short": "Med", "year": "Y4", "sub": "MDCU", "brand": "AC Med Y4 MCQ", "dir": "data_med", "scope": "Internal medicine", "dates": [{"part": "", "done": true}]}, {"id": "ped", "name": "Pediatrics", "short": "Ped", "year": "Y4", "sub": "MDCU", "brand": "AC Ped Y4 MCQ", "dir": "data_ped", "scope": "Pediatrics", "dates": [{"part": "", "done": true}]}, {"id": "sx", "name": "General Surgery", "short": "Gen Sx", "year": "Y4", "sub": "MDCU", "brand": "AC Gen Sx Y4 MCQ", "dir": "data", "noExam": ["MEQ", "OSCE"], "lectures": [{"title": "L02 Surgical Oncology", "topic": "Oncology principles"}], "scope": "General surgery limited to: hepatobiliary and pancreatic surgery; breast surgery; vascular surgery (excluding cardiovascular-thoracic surgery); the main gastrointestinal tract and other abdominal organs (excluding colorectal surgery)", "exam": {"MCQ": {"n": 100, "min": 150}}, "dates": [{"part": "MCQ", "at": "2026-11-18T13:30", "end": "16:00", "score": "gensx-mcq"}], "rotation": {"start": "2026-10-12", "end": "2026-11-22"}}, {"id": "subspe", "name": "Subspecialty Surgery", "short": "Subspe Sx", "year": "Y4", "sub": "MDCU", "brand": "AC Subspe Sx Y4 MCQ", "dir": "data_subspe", "noExam": ["MEQ"], "lectures": [], "scope": "Subspecialty surgery: colorectal surgery; cardiovascular-thoracic surgery; neurosurgery; pediatric surgery; urology; plastic surgery", "dates": [{"part": "OSCE", "at": "2026-12-28T13:00", "end": "16:00"}, {"part": "MCQ", "at": "2026-12-30T13:30", "end": "16:00", "score": "subspe-mcq"}]}, {"id": "obgyn", "name": "Obstetrics-Gynecology", "short": "OB-GYN", "year": "Y4", "sub": "MDCU", "brand": "AC OB-GYN Y4 MCQ", "dir": "data_obgyn", "scope": "Obstetrics and gynecology: antenatal care, normal and abnormal labour and delivery, obstetric complications and emergencies, postpartum care, gynecologic disorders, gynecologic oncology, reproductive endocrinology and infertility, family planning"}], "firebase": {"apiKey": "AIzaSyDIzd81Qw7shAOj3uiGU1T8tm90HXtF4yg", "authDomain": "ac-mdcu.firebaseapp.com", "projectId": "ac-mdcu", "storageBucket": "ac-mdcu.firebasestorage.app", "messagingSenderId": "537236830552", "appId": "1:537236830552:web:40d77940f7adf0fecd8d2d", "measurementId": "G-BYB1HZMHK6"}, "homeBrand": "AC {short} MDCU79 by BankyPP", "quizBrand": "AC {short} {type}", "artifactUrl": "https://claude.ai/artifact/5KGcnr6yKsqvXGNh73mmfE", "subjects": [{"id": "medicine", "name": "Medicine", "wards": ["med"]}, {"id": "pediatrics", "name": "Pediatrics", "wards": ["ped"]}, {"id": "surgery", "name": "Surgery", "wards": ["sx", "subspe"], "scores": [{"k": "gensx-mcq", "label": "Gen Sx MCQ"}, {"k": "subspe-mcq", "label": "Subspe MCQ"}]}, {"id": "obgyn", "name": "Obstetrics-Gynecology", "wards": ["obgyn"]}], "gate": {"on": true, "salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b"}};
-const BUILD="12/10/2026 21:15";
+Object.assign(IMGS,{"k75c_1": "img/k75c_1.jpg", "k75c_10": "img/k75c_10.jpg", "k75c_11": "img/k75c_11.jpg", "k75c_12": "img/k75c_12.jpg", "k75c_13": "img/k75c_13.jpg", "k75c_14": "img/k75c_14.jpg", "k75c_15": "img/k75c_15.jpg", "k75c_16": "img/k75c_16.jpg", "k75c_17": "img/k75c_17.jpg", "k75c_18": "img/k75c_18.jpg", "k75c_19": "img/k75c_19.jpg", "k75c_2": "img/k75c_2.jpg", "k75c_20": "img/k75c_20.jpg", "k75c_21": "img/k75c_21.jpg", "k75c_22": "img/k75c_22.jpg", "k75c_23": "img/k75c_23.jpg", "k75c_24": "img/k75c_24.jpg", "k75c_25": "img/k75c_25.jpg", "k75c_26": "img/k75c_26.jpg", "k75c_27": "img/k75c_27.jpg", "k75c_28": "img/k75c_28.jpg", "k75c_29": "img/k75c_29.jpg", "k75c_3": "img/k75c_3.jpg", "k75c_30": "img/k75c_30.jpg", "k75c_31": "img/k75c_31.jpg", "k75c_32": "img/k75c_32.jpg", "k75c_33": "img/k75c_33.jpg", "k75c_34": "img/k75c_34.jpg", "k75c_35": "img/k75c_35.jpg", "k75c_36": "img/k75c_36.jpg", "k75c_37": "img/k75c_37.jpg", "k75c_38": "img/k75c_38.jpg", "k75c_39": "img/k75c_39.jpg", "k75c_4": "img/k75c_4.jpg", "k75c_40": "img/k75c_40.jpg", "k75c_41": "img/k75c_41.jpg", "k75c_42": "img/k75c_42.jpg", "k75c_43": "img/k75c_43.jpg", "k75c_44": "img/k75c_44.jpg", "k75c_45": "img/k75c_45.jpg", "k75c_46": "img/k75c_46.jpg", "k75c_47": "img/k75c_47.jpg", "k75c_48": "img/k75c_48.jpg", "k75c_49": "img/k75c_49.jpg", "k75c_5": "img/k75c_5.jpg", "k75c_50": "img/k75c_50.jpg", "k75c_51": "img/k75c_51.jpg", "k75c_52": "img/k75c_52.jpg", "k75c_53": "img/k75c_53.jpg", "k75c_54": "img/k75c_54.jpg", "k75c_6": "img/k75c_6.jpg", "k75c_7": "img/k75c_7.jpg", "k75c_8": "img/k75c_8.jpg", "k75c_9": "img/k75c_9.jpg", "k75d_1": "img/k75d_1.jpg", "k75d_10": "img/k75d_10.jpg", "k75d_11": "img/k75d_11.jpg", "k75d_12": "img/k75d_12.jpg", "k75d_13": "img/k75d_13.jpg", "k75d_14": "img/k75d_14.jpg", "k75d_15": "img/k75d_15.jpg", "k75d_16": "img/k75d_16.jpg", "k75d_17": "img/k75d_17.jpg", "k75d_18": "img/k75d_18.jpg", "k75d_19": "img/k75d_19.jpg", "k75d_2": "img/k75d_2.jpg", "k75d_20": "img/k75d_20.jpg", "k75d_21": "img/k75d_21.jpg", "k75d_22": "img/k75d_22.jpg", "k75d_23": "img/k75d_23.jpg", "k75d_24": "img/k75d_24.jpg", "k75d_25": "img/k75d_25.jpg", "k75d_26": "img/k75d_26.jpg", "k75d_27": "img/k75d_27.jpg", "k75d_28": "img/k75d_28.jpg", "k75d_29": "img/k75d_29.jpg", "k75d_3": "img/k75d_3.jpg", "k75d_30": "img/k75d_30.jpg", "k75d_31": "img/k75d_31.jpg", "k75d_32": "img/k75d_32.jpg", "k75d_33": "img/k75d_33.jpg", "k75d_34": "img/k75d_34.jpg", "k75d_35": "img/k75d_35.jpg", "k75d_36": "img/k75d_36.jpg", "k75d_4": "img/k75d_4.jpg", "k75d_5": "img/k75d_5.jpg", "k75d_6": "img/k75d_6.jpg", "k75d_7": "img/k75d_7.jpg", "k75d_8": "img/k75d_8.jpg", "k75d_9": "img/k75d_9.jpg", "k76a_1": "img/k76a_1.jpg", "k76a_10": "img/k76a_10.jpg", "k76a_11": "img/k76a_11.jpg", "k76a_12": "img/k76a_12.jpg", "k76a_13": "img/k76a_13.jpg", "k76a_14": "img/k76a_14.jpg", "k76a_15": "img/k76a_15.jpg", "k76a_16": "img/k76a_16.jpg", "k76a_17": "img/k76a_17.jpg", "k76a_18": "img/k76a_18.jpg", "k76a_19": "img/k76a_19.jpg", "k76a_20": "img/k76a_20.jpg", "k76a_21": "img/k76a_21.jpg", "k76a_22": "img/k76a_22.jpg", "k76a_23": "img/k76a_23.jpg", "k76a_24": "img/k76a_24.jpg", "k76a_25": "img/k76a_25.jpg", "k76a_26": "img/k76a_26.jpg", "k76a_27": "img/k76a_27.jpg", "k76a_28": "img/k76a_28.jpg", "k76a_29": "img/k76a_29.jpg", "k76a_2_1": "img/k76a_2_1.jpg", "k76a_2_2": "img/k76a_2_2.jpg", "k76a_3": "img/k76a_3.jpg", "k76a_30": "img/k76a_30.jpg", "k76a_31": "img/k76a_31.jpg", "k76a_32": "img/k76a_32.jpg", "k76a_33": "img/k76a_33.jpg", "k76a_34": "img/k76a_34.jpg", "k76a_35": "img/k76a_35.jpg", "k76a_36": "img/k76a_36.jpg", "k76a_37": "img/k76a_37.jpg", "k76a_38": "img/k76a_38.jpg", "k76a_39": "img/k76a_39.jpg", "k76a_4": "img/k76a_4.jpg", "k76a_40": "img/k76a_40.jpg", "k76a_41": "img/k76a_41.jpg", "k76a_42": "img/k76a_42.jpg", "k76a_43": "img/k76a_43.jpg", "k76a_44": "img/k76a_44.jpg", "k76a_45": "img/k76a_45.jpg", "k76a_46": "img/k76a_46.jpg", "k76a_47_1": "img/k76a_47_1.jpg", "k76a_47_2": "img/k76a_47_2.jpg", "k76a_48": "img/k76a_48.jpg", "k76a_49": "img/k76a_49.jpg", "k76a_5": "img/k76a_5.jpg", "k76a_50": "img/k76a_50.jpg", "k76a_51": "img/k76a_51.jpg", "k76a_52": "img/k76a_52.jpg", "k76a_53": "img/k76a_53.jpg", "k76a_54": "img/k76a_54.jpg", "k76a_55": "img/k76a_55.jpg", "k76a_56": "img/k76a_56.jpg", "k76a_57": "img/k76a_57.jpg", "k76a_58": "img/k76a_58.jpg", "k76a_59": "img/k76a_59.jpg", "k76a_6": "img/k76a_6.jpg", "k76a_60": "img/k76a_60.jpg", "k76a_61": "img/k76a_61.jpg", "k76a_62": "img/k76a_62.jpg", "k76a_63": "img/k76a_63.jpg", "k76a_64": "img/k76a_64.jpg", "k76a_65": "img/k76a_65.jpg", "k76a_66": "img/k76a_66.jpg", "k76a_67": "img/k76a_67.jpg", "k76a_68": "img/k76a_68.jpg", "k76a_69": "img/k76a_69.jpg", "k76a_7": "img/k76a_7.jpg", "k76a_70": "img/k76a_70.jpg", "k76a_71": "img/k76a_71.jpg", "k76a_72": "img/k76a_72.jpg", "k76a_73": "img/k76a_73.jpg", "k76a_74": "img/k76a_74.jpg", "k76a_75": "img/k76a_75.jpg", "k76a_8": "img/k76a_8.jpg", "k76a_9": "img/k76a_9.jpg", "k76c_1": "img/k76c_1.jpg", "k76c_10": "img/k76c_10.jpg", "k76c_11": "img/k76c_11.jpg", "k76c_12": "img/k76c_12.jpg", "k76c_13": "img/k76c_13.jpg", "k76c_14": "img/k76c_14.jpg", "k76c_15": "img/k76c_15.jpg", "k76c_16": "img/k76c_16.jpg", "k76c_17": "img/k76c_17.jpg", "k76c_18": "img/k76c_18.jpg", "k76c_19": "img/k76c_19.jpg", "k76c_2": "img/k76c_2.jpg", "k76c_20": "img/k76c_20.jpg", "k76c_21": "img/k76c_21.jpg", "k76c_22": "img/k76c_22.jpg", "k76c_23": "img/k76c_23.jpg", "k76c_24": "img/k76c_24.jpg", "k76c_25": "img/k76c_25.jpg", "k76c_26": "img/k76c_26.jpg", "k76c_27": "img/k76c_27.jpg", "k76c_28": "img/k76c_28.jpg", "k76c_29": "img/k76c_29.jpg", "k76c_3": "img/k76c_3.jpg", "k76c_30": "img/k76c_30.jpg", "k76c_31": "img/k76c_31.jpg", "k76c_32": "img/k76c_32.jpg", "k76c_33": "img/k76c_33.jpg", "k76c_34": "img/k76c_34.jpg", "k76c_35": "img/k76c_35.jpg", "k76c_36": "img/k76c_36.jpg", "k76c_37": "img/k76c_37.jpg", "k76c_38": "img/k76c_38.jpg", "k76c_39": "img/k76c_39.jpg", "k76c_4": "img/k76c_4.jpg", "k76c_40": "img/k76c_40.jpg", "k76c_41": "img/k76c_41.jpg", "k76c_42": "img/k76c_42.jpg", "k76c_43": "img/k76c_43.jpg", "k76c_44": "img/k76c_44.jpg", "k76c_45": "img/k76c_45.jpg", "k76c_46": "img/k76c_46.jpg", "k76c_47": "img/k76c_47.jpg", "k76c_48": "img/k76c_48.jpg", "k76c_49": "img/k76c_49.jpg", "k76c_5": "img/k76c_5.jpg", "k76c_50": "img/k76c_50.jpg", "k76c_51": "img/k76c_51.jpg", "k76c_52": "img/k76c_52.jpg", "k76c_53": "img/k76c_53.jpg", "k76c_54": "img/k76c_54.jpg", "k76c_55": "img/k76c_55.jpg", "k76c_56": "img/k76c_56.jpg", "k76c_57": "img/k76c_57.jpg", "k76c_58": "img/k76c_58.jpg", "k76c_59": "img/k76c_59.jpg", "k76c_6": "img/k76c_6.jpg", "k76c_60": "img/k76c_60.jpg", "k76c_61": "img/k76c_61.jpg", "k76c_62": "img/k76c_62.jpg", "k76c_63": "img/k76c_63.jpg", "k76c_64": "img/k76c_64.jpg", "k76c_65": "img/k76c_65.jpg", "k76c_66": "img/k76c_66.jpg", "k76c_67": "img/k76c_67.jpg", "k76c_68": "img/k76c_68.jpg", "k76c_69": "img/k76c_69.jpg", "k76c_7": "img/k76c_7.jpg", "k76c_70": "img/k76c_70.jpg", "k76c_71": "img/k76c_71.jpg", "k76c_72": "img/k76c_72.jpg", "k76c_8": "img/k76c_8.jpg", "k76c_9": "img/k76c_9.jpg", "k76d_1": "img/k76d_1.jpg", "k76d_10": "img/k76d_10.jpg", "k76d_11": "img/k76d_11.jpg", "k76d_12": "img/k76d_12.jpg", "k76d_13": "img/k76d_13.jpg", "k76d_14": "img/k76d_14.jpg", "k76d_15": "img/k76d_15.jpg", "k76d_16": "img/k76d_16.jpg", "k76d_17": "img/k76d_17.jpg", "k76d_18": "img/k76d_18.jpg", "k76d_19": "img/k76d_19.jpg", "k76d_2": "img/k76d_2.jpg", "k76d_20": "img/k76d_20.jpg", "k76d_21": "img/k76d_21.jpg", "k76d_22": "img/k76d_22.jpg", "k76d_23": "img/k76d_23.jpg", "k76d_24": "img/k76d_24.jpg", "k76d_25": "img/k76d_25.jpg", "k76d_26": "img/k76d_26.jpg", "k76d_27": "img/k76d_27.jpg", "k76d_28": "img/k76d_28.jpg", "k76d_29": "img/k76d_29.jpg", "k76d_3": "img/k76d_3.jpg", "k76d_30": "img/k76d_30.jpg", "k76d_31": "img/k76d_31.jpg", "k76d_32": "img/k76d_32.jpg", "k76d_33": "img/k76d_33.jpg", "k76d_34": "img/k76d_34.jpg", "k76d_35": "img/k76d_35.jpg", "k76d_36": "img/k76d_36.jpg", "k76d_37": "img/k76d_37.jpg", "k76d_38": "img/k76d_38.jpg", "k76d_39": "img/k76d_39.jpg", "k76d_4": "img/k76d_4.jpg", "k76d_40": "img/k76d_40.jpg", "k76d_41": "img/k76d_41.jpg", "k76d_42": "img/k76d_42.jpg", "k76d_43": "img/k76d_43.jpg", "k76d_44": "img/k76d_44.jpg", "k76d_45": "img/k76d_45.jpg", "k76d_46": "img/k76d_46.jpg", "k76d_47": "img/k76d_47.jpg", "k76d_48": "img/k76d_48.jpg", "k76d_49": "img/k76d_49.jpg", "k76d_5": "img/k76d_5.jpg", "k76d_50": "img/k76d_50.jpg", "k76d_51": "img/k76d_51.jpg", "k76d_52": "img/k76d_52.jpg", "k76d_53": "img/k76d_53.jpg", "k76d_54": "img/k76d_54.jpg", "k76d_55": "img/k76d_55.jpg", "k76d_56": "img/k76d_56.jpg", "k76d_57": "img/k76d_57.jpg", "k76d_58": "img/k76d_58.jpg", "k76d_59": "img/k76d_59.jpg", "k76d_6": "img/k76d_6.jpg", "k76d_60": "img/k76d_60.jpg", "k76d_61": "img/k76d_61.jpg", "k76d_7": "img/k76d_7.jpg", "k76d_8": "img/k76d_8.jpg", "k76d_9": "img/k76d_9.jpg", "k77b_10": "img/k77b_10.jpg", "k77b_21": "img/k77b_21.jpg", "k77b_39": "img/k77b_39.jpg", "k77b_40": "img/k77b_40.jpg", "k77c_10": "img/k77c_10.jpg", "k77c_11": "img/k77c_11.jpg", "k77c_12": "img/k77c_12.jpg", "k77c_13": "img/k77c_13.jpg", "k77c_16": "img/k77c_16.jpg", "k77c_17": "img/k77c_17.jpg", "k77c_18": "img/k77c_18.jpg", "k77c_2": "img/k77c_2.jpg", "k77c_22": "img/k77c_22.jpg", "k77c_30": "img/k77c_30.jpg", "k77c_31": "img/k77c_31.jpg", "k77c_36": "img/k77c_36.jpg", "k77c_39": "img/k77c_39.jpg", "k77c_41": "img/k77c_41.jpg", "k77c_42": "img/k77c_42.jpg", "k77c_43": "img/k77c_43.jpg", "k77c_44": "img/k77c_44.jpg", "k77c_45": "img/k77c_45.jpg", "k77c_47": "img/k77c_47.jpg", "k77c_49": "img/k77c_49.jpg", "k77c_5": "img/k77c_5.jpg", "k77c_50": "img/k77c_50.jpg", "k77c_51": "img/k77c_51.jpg", "k77c_52": "img/k77c_52.jpg", "k77c_54": "img/k77c_54.jpg", "k77c_56": "img/k77c_56.jpg", "k77c_57": "img/k77c_57.jpg", "k77c_59": "img/k77c_59.jpg", "k77c_6": "img/k77c_6.jpg", "k77c_60": "img/k77c_60.jpg", "k77c_62": "img/k77c_62.jpg", "k77c_65": "img/k77c_65.jpg", "k77c_67": "img/k77c_67.jpg", "k77c_69": "img/k77c_69.jpg", "k77c_7": "img/k77c_7.jpg", "k77c_72": "img/k77c_72.jpg", "k77c_73": "img/k77c_73.jpg", "k77c_77": "img/k77c_77.jpg", "k77c_8": "img/k77c_8.jpg", "k77c_9": "img/k77c_9.jpg", "k77d_1": "img/k77d_1.jpg", "k77d_10": "img/k77d_10.jpg", "k77d_11": "img/k77d_11.jpg", "k77d_16": "img/k77d_16.jpg", "k77d_2": "img/k77d_2.jpg", "k77d_20": "img/k77d_20.jpg", "k77d_21": "img/k77d_21.jpg", "k77d_22": "img/k77d_22.jpg", "k77d_24": "img/k77d_24.jpg", "k77d_25": "img/k77d_25.jpg", "k77d_27": "img/k77d_27.jpg", "k77d_28": "img/k77d_28.jpg", "k77d_3": "img/k77d_3.jpg", "k77d_35": "img/k77d_35.jpg", "k77d_37": "img/k77d_37.jpg", "k77d_38": "img/k77d_38.jpg", "k77d_39": "img/k77d_39.jpg", "k77d_4": "img/k77d_4.jpg", "k77d_40": "img/k77d_40.jpg", "k77d_41": "img/k77d_41.jpg", "k77d_42": "img/k77d_42.jpg", "k77d_43": "img/k77d_43.jpg", "k77d_44": "img/k77d_44.jpg", "k77d_45": "img/k77d_45.jpg", "k77d_46": "img/k77d_46.jpg", "k77d_47": "img/k77d_47.jpg", "k77d_48": "img/k77d_48.jpg", "k77d_49": "img/k77d_49.jpg", "k77d_52": "img/k77d_52.jpg", "k77d_53": "img/k77d_53.jpg", "k77d_55": "img/k77d_55.jpg", "k77d_57": "img/k77d_57.jpg", "k77d_58": "img/k77d_58.jpg", "k77d_6": "img/k77d_6.jpg", "k77d_61": "img/k77d_61.jpg", "k77d_64": "img/k77d_64.jpg", "k77d_65": "img/k77d_65.jpg", "k77d_7": "img/k77d_7.jpg", "k77d_71": "img/k77d_71.jpg", "k77d_73": "img/k77d_73.jpg", "k77d_74": "img/k77d_74.jpg", "k77d_75": "img/k77d_75.jpg", "k77d_77": "img/k77d_77.jpg", "k77d_79": "img/k77d_79.jpg", "k77d_8": "img/k77d_8.jpg", "k77d_9": "img/k77d_9.jpg", "k78a_43": "img/k78a_43.jpg", "k78c_59": "img/k78c_59.jpg", "k78d_1": "img/k78d_1.jpg", "k78d_10": "img/k78d_10.jpg", "k78d_11": "img/k78d_11.jpg", "k78d_12": "img/k78d_12.jpg", "k78d_13": "img/k78d_13.jpg", "k78d_14": "img/k78d_14.jpg", "k78d_15": "img/k78d_15.jpg", "k78d_16": "img/k78d_16.jpg", "k78d_18": "img/k78d_18.jpg", "k78d_19": "img/k78d_19.jpg", "k78d_1b": "img/k78d_1b.jpg", "k78d_2": "img/k78d_2.jpg", "k78d_20": "img/k78d_20.jpg", "k78d_22": "img/k78d_22.jpg", "k78d_25": "img/k78d_25.jpg", "k78d_26": "img/k78d_26.jpg", "k78d_27": "img/k78d_27.jpg", "k78d_28": "img/k78d_28.jpg", "k78d_29": "img/k78d_29.jpg", "k78d_3": "img/k78d_3.jpg", "k78d_30": "img/k78d_30.jpg", "k78d_31": "img/k78d_31.jpg", "k78d_32": "img/k78d_32.jpg", "k78d_33": "img/k78d_33.jpg", "k78d_34": "img/k78d_34.jpg", "k78d_35": "img/k78d_35.jpg", "k78d_36": "img/k78d_36.jpg", "k78d_37": "img/k78d_37.jpg", "k78d_38": "img/k78d_38.jpg", "k78d_39": "img/k78d_39.jpg", "k78d_4": "img/k78d_4.jpg", "k78d_40": "img/k78d_40.jpg", "k78d_41": "img/k78d_41.jpg", "k78d_43": "img/k78d_43.jpg", "k78d_44": "img/k78d_44.jpg", "k78d_45": "img/k78d_45.jpg", "k78d_46": "img/k78d_46.jpg", "k78d_48": "img/k78d_48.jpg", "k78d_5": "img/k78d_5.jpg", "k78d_50": "img/k78d_50.jpg", "k78d_52": "img/k78d_52.jpg", "k78d_53": "img/k78d_53.jpg", "k78d_54": "img/k78d_54.jpg", "k78d_55": "img/k78d_55.jpg", "k78d_57": "img/k78d_57.jpg", "k78d_6": "img/k78d_6.jpg", "k78d_60": "img/k78d_60.jpg", "k78d_61": "img/k78d_61.jpg", "k78d_62": "img/k78d_62.jpg", "k78d_63": "img/k78d_63.jpg", "k78d_64": "img/k78d_64.jpg", "k78d_65": "img/k78d_65.jpg", "k78d_68": "img/k78d_68.jpg", "k78d_69": "img/k78d_69.jpg", "k78d_7": "img/k78d_7.jpg", "k78d_70": "img/k78d_70.jpg", "k78d_71": "img/k78d_71.jpg", "k78d_75": "img/k78d_75.jpg", "k78d_76": "img/k78d_76.jpg", "k78d_77": "img/k78d_77.jpg", "k78d_78": "img/k78d_78.jpg", "k78d_79": "img/k78d_79.jpg", "k78d_8": "img/k78d_8.jpg", "k78d_80": "img/k78d_80.jpg", "k78d_84": "img/k78d_84.jpg", "k78d_85": "img/k78d_85.jpg", "k78d_86": "img/k78d_86.jpg", "k78d_9": "img/k78d_9.jpg", "kbk_1": "img/kbk_1.jpg", "kbk_2": "img/kbk_2.jpg", "kbk_2a": "img/kbk_2a.jpg", "kbk_2b": "img/kbk_2b.jpg", "kbk_2t": "img/kbk_2t.jpg", "kbk_3": "img/kbk_3.jpg", "kbk_4": "img/kbk_4.jpg", "kbk_5": "img/kbk_5.jpg", "kbk_5a": "img/kbk_5a.jpg", "kbk_5b": "img/kbk_5b.jpg", "ksa_2a": "img/ksa_2a.jpg", "ksa_2b": "img/ksa_2b.jpg", "ksa_2c": "img/ksa_2c.jpg", "ksa_2d": "img/ksa_2d.jpg", "ksa_2e": "img/ksa_2e.jpg", "ksa_3a": "img/ksa_3a.jpg", "ksa_3b": "img/ksa_3b.jpg", "ksa_3c": "img/ksa_3c.jpg", "ksa_3d": "img/ksa_3d.jpg", "ksa_3e": "img/ksa_3e.jpg", "ksa_3f": "img/ksa_3f.jpg", "l02_advliver": "img/l02_advliver.jpg", "l02_advmass": "img/l02_advmass.jpg", "l02_applecore": "img/l02_applecore.jpg", "l02_axilla": "img/l02_axilla.jpg", "l02_axr": "img/l02_axr.jpg", "l02_bafull": "img/l02_bafull.jpg", "l02_barrettq": "img/l02_barrettq.jpg", "l02_car": "img/l02_car.jpg", "l02_cellcycle": "img/l02_cellcycle.jpg", "l02_cnb": "img/l02_cnb.jpg", "l02_colmass": "img/l02_colmass.jpg", "l02_colpolyp": "img/l02_colpolyp.jpg", "l02_ctc": "img/l02_ctc.jpg", "l02_ctc3": "img/l02_ctc3.jpg", "l02_ctliver": "img/l02_ctliver.jpg", "l02_ctmets": "img/l02_ctmets.jpg", "l02_ctobs": "img/l02_ctobs.jpg", "l02_deaths2019": "img/l02_deaths2019.jpg", "l02_distended": "img/l02_distended.jpg", "l02_exent": "img/l02_exent.jpg", "l02_factors": "img/l02_factors.jpg", "l02_fna": "img/l02_fna.jpg", "l02_gross": "img/l02_gross.jpg", "l02_histo": "img/l02_histo.jpg", "l02_holistic": "img/l02_holistic.jpg", "l02_limbe": "img/l02_limbe.jpg", "l02_livermet": "img/l02_livermet.jpg", "l02_men": "img/l02_men.jpg", "l02_mentable": "img/l02_mentable.jpg", "l02_metcascade": "img/l02_metcascade.jpg", "l02_nstage": "img/l02_nstage.jpg", "l02_petct": "img/l02_petct.jpg", "l02_petctq": "img/l02_petctq.jpg", "l02_polypectomy": "img/l02_polypectomy.jpg", "l02_proctoscopy": "img/l02_proctoscopy.jpg", "l02_prolapse": "img/l02_prolapse.jpg", "l02_rectmass": "img/l02_rectmass.jpg", "l02_specimen": "img/l02_specimen.jpg", "l02_stagesimple": "img/l02_stagesimple.jpg", "l02_targeted": "img/l02_targeted.jpg", "l02_thfemale": "img/l02_thfemale.jpg", "l02_thmale": "img/l02_thmale.jpg", "l02_tme": "img/l02_tme.jpg", "l02_tmeq": "img/l02_tmeq.jpg", "l02_tstage": "img/l02_tstage.jpg", "l02_vogel": "img/l02_vogel.jpg", "l02_who": "img/l02_who.jpg", "q76a_41": "img/q76a_41.jpg", "q76c_20": "img/q76c_20.jpg", "q76c_63": "img/q76c_63.jpg", "q77a_2": "img/q77a_2.jpg", "q77a_26": "img/q77a_26.jpg", "q77a_35": "img/q77a_35.jpg", "q77a_36": "img/q77a_36.jpg", "q77a_42": "img/q77a_42.jpg", "q77a_47": "img/q77a_47.jpg", "q77a_5": "img/q77a_5.jpg", "q77a_65": "img/q77a_65.jpg", "q77a_66": "img/q77a_66.jpg", "q77a_69": "img/q77a_69.jpg", "q77a_71": "img/q77a_71.jpg", "q77a_8": "img/q77a_8.jpg", "q77a_8b": "img/q77a_8b.jpg", "q77b_26": "img/q77b_26.jpg", "q77b_27": "img/q77b_27.jpg", "q77b_30": "img/q77b_30.jpg", "q77b_31": "img/q77b_31.jpg", "q77b_32": "img/q77b_32.jpg", "q77b_34": "img/q77b_34.jpg", "q77b_45": "img/q77b_45.jpg", "q77b_66": "img/q77b_66.jpg", "q77c_42": "img/q77c_42.jpg", "q77d_13": "img/q77d_13.jpg", "q77d_31": "img/q77d_31.jpg", "q77d_33": "img/q77d_33.jpg", "q77d_41": "img/q77d_41.jpg", "q77d_63": "img/q77d_63.jpg", "q77d_66": "img/q77d_66.jpg", "q77d_67": "img/q77d_67.jpg", "q78a_26": "img/q78a_26.jpg", "q78a_29": "img/q78a_29.jpg", "q78a_30": "img/q78a_30.jpg", "q78a_33": "img/q78a_33.jpg", "q78a_45": "img/q78a_45.jpg", "q78a_46": "img/q78a_46.jpg", "q78a_47": "img/q78a_47.jpg", "q78a_48": "img/q78a_48.jpg", "q78a_49": "img/q78a_49.jpg", "q78a_53": "img/q78a_53.jpg", "q78a_55": "img/q78a_55.jpg", "q78a_56": "img/q78a_56.jpg", "q78a_57": "img/q78a_57.jpg", "q78c_53": "img/q78c_53.jpg", "q78c_54": "img/q78c_54.jpg", "q78c_58": "img/q78c_58.jpg", "q78d_15": "img/q78d_15.jpg", "q78d_19": "img/q78d_19.jpg", "q78d_51": "img/q78d_51.jpg", "q78d_69": "img/q78d_69.jpg"});
+const CONFIG={"title": "คลังข้อสอบเก่า MDCU", "brand": "AC Sx MCQ", "sub": "คลังข้อสอบเก่า", "storageKey": "ac-sx-mcq-mdcu-y4-v1", "setLabel": "ปี", "roLabel": "Rotation", "chipStrip": "MDCU", "files": {"76AQ": "AC_GenSx_rotate_A_MDCU76.pdf", "76AK": "Key AC_GenSx_76_Rotate_A.pdf", "76CK": "Key_76C_Gen_Sx_Solution_by_Academic_team_Rotate_C_MDCU76_AC_general_surgery.pdf", "76DK": "Key_76D_Gen_Sx_AC_76_Rotate_D.pdf", "77AQ": "77A_Gen_Sx_AC_MCQ.pdf", "77AK": "Key_77A_Gen_Sx_AC77_RoA_MCQ_Gen_Sx.pdf", "77BQ": "77B_Gen_Sx_AC_MCQ.pdf", "77BK": "Key_77B_Gen_Sx_AC77_RoB_MCQ_Gen_Sx.pdf", "77CQ": "77C_Gen_Sx_AC_MCQ.pdf", "77CK1": "Key_77C_Gen_Sx_AC_Sx_77_Ro_C_Key_solution_V.1", "77CK2": "Key_77C_Gen_Sx_AC_Gen_Sx_Rotate_C_MDCU77_by_Ro_C_V.2", "77DQ": "77D_Gen_Sx_AC_MCQ.pdf", "77DK": "Key_77D_GenSx_by_Vchakarn77.pdf", "75CQ": "75C_Gen_Sx_AC_MCQ_GEN_Sx_MDCU75_Rotate_C.pdf", "75DQ": "75D_Gen_Sx_AC_MCQ_GeneralSx_MDCU75_Rotate_D.pdf", "75CDK": "Key_75CD_Gen_Sx_Key_AC_MCQ_GEN_Sx_MDCU75.pdf", "78AQ": "78A_GenSx_MCQ_by_MDCU78A.pdf", "78AK": "Key_78A_Gen_Sx_AC78_RoA_MCQ_Gen_Sx.pdf", "78BQ": "78B_Gensx_AC_MCQ_rotate_B.pdf", "78CQ": "78C_GenSx_AC_rotate_C.pdf", "78CK": "Key_78C_Gen_Sx_AC78_RoC_MCQ_Gen_Sx.pdf", "78DQ": "78D_GenSx_AC_rotate_D.pdf", "78DK": "Key_78D_GenSx_MCQ_GenSx_rotate_D.pdf", "OBBK": "Key ไฟล์ดำ MEQ 2024 vers 1", "OBSA": "THE MUST AC MEQ OBGYN short answer"}, "siteUrl": "https://bankypp.github.io/ac-mdcu/", "siteName": "คลังข้อสอบเก่า", "wards": [{"id": "med", "name": "Internal Medicine", "short": "Med", "year": "Y4", "sub": "MDCU", "brand": "AC Med Y4 MCQ", "dir": "data_med", "scope": "Internal medicine", "dates": [{"part": "", "done": true}], "meqTopics": []}, {"id": "ped", "name": "Pediatrics", "short": "Ped", "year": "Y4", "sub": "MDCU", "brand": "AC Ped Y4 MCQ", "dir": "data_ped", "scope": "Pediatrics", "dates": [{"part": "", "done": true}], "noExam": ["MEQ"]}, {"id": "sx", "name": "General Surgery", "short": "Gen Sx", "year": "Y4", "sub": "MDCU", "brand": "AC Gen Sx Y4 MCQ", "dir": "data", "noExam": ["MEQ", "OSCE"], "lectures": [{"title": "L02 Surgical Oncology", "topic": "Oncology principles"}], "scope": "General surgery limited to: hepatobiliary and pancreatic surgery; breast surgery; vascular surgery (excluding cardiovascular-thoracic surgery); the main gastrointestinal tract and other abdominal organs (excluding colorectal surgery)", "exam": {"MCQ": {"n": 100, "min": 150}}, "dates": [{"part": "MCQ", "at": "2026-11-18T13:30", "end": "16:00", "score": "gensx-mcq"}], "rotation": {"start": "2026-10-12", "end": "2026-11-22"}}, {"id": "subspe", "name": "Subspecialty Surgery", "short": "Subspe Sx", "year": "Y4", "sub": "MDCU", "brand": "AC Subspe Sx Y4 MCQ", "dir": "data_subspe", "noExam": ["MEQ"], "lectures": [], "scope": "Subspecialty surgery: colorectal surgery; cardiovascular-thoracic surgery; neurosurgery; pediatric surgery; urology; plastic surgery", "dates": [{"part": "OSCE", "at": "2026-12-28T13:00", "end": "16:00"}, {"part": "MCQ", "at": "2026-12-30T13:30", "end": "16:00", "score": "subspe-mcq"}]}, {"id": "obgyn", "name": "Obstetrics-Gynecology", "short": "OB-GYN", "year": "Y4", "sub": "MDCU", "brand": "AC OB-GYN Y4 MCQ", "dir": "data_obgyn", "scope": "Obstetrics and gynecology: antenatal care, normal and abnormal labour and delivery, obstetric complications and emergencies, postpartum care, gynecologic disorders, gynecologic oncology, reproductive endocrinology and infertility, family planning", "meqTopics": [["ante", "Antenatal care"], ["labor", "Labor & delivery"], ["pp", "Postpartum"], ["comp", "Obstetric complications"], ["med", "Medical diseases in pregnancy"], ["gyn", "Gynecology"], ["onco", "Gyn oncology"], ["repro", "Reproductive & family planning"]]}], "firebase": {"apiKey": "AIzaSyDIzd81Qw7shAOj3uiGU1T8tm90HXtF4yg", "authDomain": "ac-mdcu.firebaseapp.com", "projectId": "ac-mdcu", "storageBucket": "ac-mdcu.firebasestorage.app", "messagingSenderId": "537236830552", "appId": "1:537236830552:web:40d77940f7adf0fecd8d2d", "measurementId": "G-BYB1HZMHK6"}, "homeBrand": "AC {short} MDCU79 by BankyPP", "quizBrand": "AC {short} {type}", "artifactUrl": "https://claude.ai/artifact/5KGcnr6yKsqvXGNh73mmfE", "subjects": [{"id": "medicine", "name": "Medicine", "wards": ["med"]}, {"id": "pediatrics", "name": "Pediatrics", "wards": ["ped"]}, {"id": "surgery", "name": "Surgery", "wards": ["sx", "subspe"], "scores": [{"k": "gensx-mcq", "label": "Gen Sx MCQ"}, {"k": "subspe-mcq", "label": "Subspe MCQ"}]}, {"id": "obgyn", "name": "Obstetrics-Gynecology", "wards": ["obgyn"]}], "gate": {"on": true, "salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b"}};
+const BUILD="12/10/2026 22:56";
 WARDS["med"]={QB:[],HY:null};
+WARDS["med"].MQ=[];
 WARDS["ped"]={QB:[],HY:null};
+WARDS["ped"].MQ=[];
 WARDS["sx"]={QB:[],HY:null};
 (function(QB){
 (function(){
@@ -6846,12 +7054,622 @@ W.TAGS={
 };
 
 })(WARDS["sx"]);
+WARDS["sx"].MQ=[];
 WARDS["subspe"]={QB:[],HY:null};
+WARDS["subspe"].MQ=[];
 WARDS["obgyn"]={QB:[],HY:null};
+WARDS["obgyn"].MQ=[];
+(function(QB){
+(function(){
+/* OB-GYN MEQ — "ไฟล์ดำ" (Key ไฟล์ดำ MEQ 2024 vers 1, โค้ด OBBK) หน้า 1–5 เท่านั้น (ผู้ใช้สั่ง 12 ต.ค. 2026: ทำ 5 หน้าแรกก่อน)
+   หน้า 1 = ปก + แนวการตอบ MEQ สูติ · หน้า 2–4 = ข้อ 1 (PPROM 32 wk) + โน้ต PROM + แนวทาง RTCOG 2567 · หน้า 5 = ข้อ 2 (PROM 34 wk)
+   โครงสร้าง (สไตล์ 1): ข้อ = case ; parts[] = ชุด part ที่เปิดพร้อมกัน (มีข้อมูลใหม่คั่น = เปิดทีละชุด) ; subs[] = Part */
+const KS=" (เฉลยในไฟล์)";
+const C=o=>Object.assign({set:"ไฟล์ดำ",ro:"",file:"OBBK",opinion:""},o);
+const A=(label,any,need)=>({label,any,need:need||1});
+const GUIDE=`<b>แนวตอบ MEQ สูติ (หน้าปกไฟล์ดำ):</b><ul><li><b>ซักประวัติ</b> CC, PI, PH, OB-GYN Hx, SH, FH — เขียนให้ครบเหมือนใบเหลือง</li><li><b>Dx &amp; DDx</b>: ถ้าเป็นคนท้องเขียน format <b>G_P_ GA __ wks with …</b> (เช่น with septic/hypovolemic shock with anemia); อย่าลืมโรคร่วม เช่น HbE trait, Anti-C, Anti-M, infertility; เขียนให้ specific ที่สุด (1°/2°, Lt./Rt., PID or TOA or infected tumor, severe/without severe preeclampsia หรือ gestational HTN); DDx ตอบแค่ 4–5 อันที่เด่น</li><li><b>หลักการ manage</b>: admit, NPO, counselling, consult หมอ → lab investigate → supportive Rx (เขียนละเอียด ให้ยาอะไร โดสเท่าไหร่ เปิดเส้นยังไง rate เท่าไหร่) → definite Rx → f/u, วางแผนครอบครัว</li><li>ปี 77 อาจารย์ออก POP-Q</li></ul>{{IMG:kbk_1}}`;
+QB.push(
+C({page:2, orig:"ข้อ 1", title:"PPROM 32 wk (primigravida)", stem:`A 25-year-old primigravida at 32 weeks of gestation has attended regular antenatal care at King Chulalongkorn Memorial Hospital without any complications. Today she presents with a large amount of clear fluid leaking from the vagina. She has no labor pain and reports good fetal movement.`,
+  gray:"หญิงไทยอายุ 25 ปี ครรภ์แรก อายุครรภ์ 32 สัปดาห์ ฝากครรภ์ที่โรงพยาบาลจุฬาลงกรณ์สม่ำเสมอ ไม่มีภาวะแทรกซ้อนระหว่างตั้งครรภ์ วันนี้มาด้วยมีน้ำใสไหลออกมาจากช่องคลอดปริมาณมาก ไม่มีเจ็บครรภ์ ลูกดิ้นดี",
+  parts:[
+   {gray:"A. จงระบุวิธีการตรวจวินิจฉัยและการส่งตรวจทางห้องปฏิบัติการเพื่อการวินิจฉัยในผู้ป่วยรายนี้", subs:[
+    {tags:["comp"], q:"Describe the history, physical examination and laboratory investigations you would use to establish the diagnosis in this patient.", marks:5,
+     ctx:"ครรภ์แรก GA 32 wk มีน้ำใสไหลจากช่องคลอดปริมาณมาก ไม่เจ็บครรภ์ ลูกดิ้นดี → สงสัย PPROM",
+     qx:"บอกสิ่งที่จะซักประวัติ ตรวจร่างกาย และส่งตรวจ เพื่อยืนยันว่าน้ำเดินจริง (และหาภาวะแทรกซ้อน) — ตอบให้ครบทั้ง 3 หมวด",
+     rubric:"<b>ได้</b>: มีครบ 3 หมวด — ซักลักษณะน้ำ/อาการติดเชื้อหรือเจ็บครรภ์, <b>sterile speculum examination</b> (เห็นน้ำไหลจาก cervix/pooling, ดู cord prolapse, cervix) และ test ยืนยัน (pH/nitrazine, fern, Nile blue) · <b>บางส่วน</b>: ขาด 1 หมวด หรือไม่มี sterile speculum exam · <b>ไม่ได้</b>: ไม่มีวิธียืนยัน ROM เลย หรือเลือกตรวจ PV",
+     key:"A. Hx taking → น้ำ: ลักษณะอย่างไร สี กลิ่น ปริมาณ ไหลมานานแค่ไหนแล้ว มีเลือดปนหรือไม่ กลั้นได้หรือไม่ · มีไข้มั้ย มีกดเจ็บมดลูก/เจ็บตามหน้าท้องมั้ย · PE → sterile speculum examination: สังเกต cervix ว่า dilate, efface มั้ย สังเกตว่ามี cord prolapse หรือไม่ · ให้คนไข้ไอ/เบ่ง แล้วดูว่ามีน้ำไหลมาจาก cervix มั้ย อาจสังเกตว่ามี pooling fluid in posterior fornix มั้ย · LAB → ถ้าไม่มั่นใจอาจทำ pH test, Fern test, Nile's blue test · ถ้าผล neg. แต่ไม่แน่ใจอาจส่ง TAS ดูปริมาณน้ำคร่ำ · CBC, UA, UC, Rectovaginal swab (for r/o infection)"+KS, kimg:["kbk_2a"],
+     ans:"<b>Hx</b>: ลักษณะน้ำ (สี กลิ่น ปริมาณ เวลาที่เริ่ม มีเลือดปน กลั้นได้ไหม), ไข้/ตกขาวมีกลิ่น/กดเจ็บมดลูก, เจ็บครรภ์, ลูกดิ้น · <b>PE</b>: V/S, abdominal exam (FHS, tenderness), <b>sterile speculum examination</b> — fluid ไหลจาก os เมื่อไอ/เบ่ง, pooling ใน posterior fornix, ดู cervix และ cord prolapse (<b>ห้าม PV</b>) · <b>Lab</b>: nitrazine/pH, fern test, Nile blue test; TAS ดูน้ำคร่ำถ้ายังไม่แน่ใจ; CBC, UA/UC, rectovaginal GBS swab",
+     exp:`<ul><li><b>หลักการวินิจฉัย PROM</b> (RTCOG 2567 — หน้า 4 ในไฟล์): <b>sterile speculum examination</b> เห็นน้ำคร่ำไหลจากปากมดลูกหรือขังในช่องคลอด (pooling) และ/หรือ nitrazine หรือ fern test ให้ผลบวก</li><li>Nitrazine: น้ำคร่ำด่าง (pH 7.0–7.5) → เปลี่ยนสีน้ำเงิน; false positive จากเลือด อสุจิ antiseptic, BV · Fern test: ผลึกรูปใบเฟิร์นเมื่อแห้ง · Nile blue: เซลล์ไขมันผิวทารกติดสีส้ม</li><li>ห้าม digital PV ใน PPROM ที่ยังไม่เจ็บครรภ์ — เพิ่มความเสี่ยงติดเชื้อและทำให้ latency สั้นลง</li><li>ซักประวัติ/ตรวจหา <b>chorioamnionitis</b> (ไข้, มดลูกกดเจ็บ, น้ำคร่ำมีกลิ่น, maternal/fetal tachycardia), labor, abruption, cord prolapse</li><li>ส่งตรวจเพิ่ม: U/S (GA, EFW, น้ำคร่ำ, ส่วนนำ), CBC, UA/UC, rectovaginal swab for GBS; CTG ถ้า GA ≥ 28 wk</li></ul>`,
+     points:[A("ซักประวัติ",["ลักษณะน้ำ: สี กลิ่น ปริมาณ เวลา กลั้นได้ไหม มีเลือดปนไหม","อาการติดเชื้อ: ไข้ ตกขาวมีกลิ่น ปวด/กดเจ็บท้อง","เจ็บครรภ์ / ลูกดิ้น"],2),
+       "Sterile speculum examination (ห้าม PV) — ดูน้ำไหลจาก os / pooling, ดู cervix และ cord prolapse",
+       A("Test ยืนยันน้ำคร่ำ",["pH / nitrazine test","Fern test","Nile blue test"],1),
+       A("ส่งตรวจเพิ่ม",["Ultrasound (TAS) ดูปริมาณน้ำคร่ำ / GA","CBC","UA / UC","Rectovaginal swab (GBS)"],2)],
+     kw:[[["สี|กลิ่น|ปริมาณ|color|odou?r|amount|กลั้น"],["ไข้|fever|ตกขาว|discharge|กดเจ็บ|tender"],["เจ็บครรภ์|contraction|labou?r|ลูกดิ้น|fetal movement"]],
+       ["speculum"],
+       [["ph|nitrazine"],["fern"],["nile"]],
+       [["tas|ultrasound|ultrasono|u/s|usg"],["cbc"],["ua\\b|uc\\b|urine"],["swab|gbs|rectovaginal"]]]},
+   ]},
+   {info:"The examination confirms rupture of the membranes.", gray:"B. หากทำการตรวจแล้วพบว่าเป็นน้ำเดินจริง", subs:[
+    {tags:["comp"], q:"What is the diagnosis?", marks:2,
+     ctx:"G1P0 GA 32 wk ตรวจยืนยันแล้วว่าถุงน้ำคร่ำแตก ยังไม่เจ็บครรภ์",
+     qx:"ให้การวินิจฉัย 1 อย่าง ในรูปแบบ G_P_ GA __ wk with …",
+     rubric:"<b>ได้</b>: G1P0 GA 32 wk with <b>preterm premature rupture of membranes (PPROM)</b> · <b>บางส่วน</b>: บอกแค่ PROM ไม่ระบุว่า preterm หรือไม่ใส่ GA · <b>ไม่ได้</b>: โรคอื่น",
+     auto:{any:["pprom|preterm\\s*premature\\s*rupture|preterm\\s*prom"],need:1},
+     key:"B. Dx: G1P0 GA 32 wks c̄ Preterm Premature Rupture of Membrane"+KS, kimg:["kbk_2b"],
+     ans:"<b>G1P0 GA 32 wk with preterm premature rupture of membranes (PPROM)</b>",
+     exp:`<ul><li>PROM = ถุงน้ำคร่ำแตกก่อนเจ็บครรภ์คลอด · <b>Preterm</b> PROM = เกิดก่อน GA 37 wk</li><li>เขียนตาม format ไฟล์ดำ: G_P_ GA __ wks with … และบอกภาวะแทรกซ้อนถ้ามี (เช่น with chorioamnionitis)</li></ul>`,
+     points:["PPROM / preterm premature rupture of membranes","ใส่ G1P0 GA 32 wk"]},
+    {tags:["comp"], q:"Outline the management of this patient.", marks:5,
+     ctx:"PPROM GA 32 wk ไม่มีเจ็บครรภ์ ไม่มีอาการติดเชื้อ ลูกดิ้นดี",
+     qx:"บอกแนวทางการรักษา: แนวทางหลัก (expectant) + การ monitor + ยา (antibiotic prolong latency, corticosteroid, GBS prophylaxis, MgSO4 ตาม GA) + เมื่อไรต้องให้คลอด",
+     rubric:"<b>ได้</b>: expectant management (admit, monitor แม่และลูก) + <b>antibiotic เพื่อ prolong latency</b> + <b>corticosteroid</b> + ให้คลอดเมื่อมี chorioamnionitis/labor/fetal compromise หรือถึง 34 wk (+ GBS prophylaxis ตอนเจ็บครรภ์) · <b>บางส่วน</b>: ขาด antibiotic หรือ steroid อย่างใดอย่างหนึ่ง หรือไม่มีเกณฑ์ให้คลอด · <b>ไม่ได้</b>: induction/ผ่าคลอดทันทีโดยไม่มีข้อบ่งชี้ หรือให้ tocolytic เป็นหลัก",
+     key:"Rx: Expectant management จนกว่าจะเข้า Term pregnancy or มี IUI เกิดขึ้น → Bed rest · Maternal monitoring for infection or labor signs, CBC if there's sign of infection · Fetal monitoring → daily NST · Prophylaxis antibiotic for prolonging latency period: Ampicillin 2 g IV q 6 h for 48 h then switch to Amoxicillin 250 mg 1 tab PO q 8 h for 5 days; Azithromycin 250 mg 4 tab PO OD for 7 days · Dexamethasone 6 mg IM q 12 h × 4 doses · ± Tocolytics · If ปากมดลูกจะคลอด → GBS prophylaxis as indicated (maternal fever, ROM ≥ 18 hr, preterm in active phase) → Ampicillin 2 g bolus then 1 g IV q 4 h until delivery · (หมึกเหลือง) investigation/fetal management (NST/EFM/US)/maternal management – expectant management – ดูว่ามี contraindication ไหม เช่น chorioamnionitis – plan for termination · ** ถ้ามี IUI จะให้ Ampicillin 2 g IV q 6 h, Gentamicin 240 mg IV drip (ไม่ให้ steroid, no tocolytic) + Metronidazole 500 mg PO q 8 h in case จะ c/s"+KS,
+     kimg:["kbk_2b","kbk_3","kbk_4"],
+     flag:"⚠ ไฟล์เขียน azithromycin 250 mg 4 tab PO OD for 7 days — สูตรมาตรฐาน (ACOG/RTCOG) คือ azithromycin 1 g (250 mg × 4) PO ครั้งเดียว ร่วมกับ ampicillin; เฉลยใช้สูตรมาตรฐาน",
+     ans:"<b>Admit</b> + counselling · <b>Expectant management</b> จนถึง 34 wk (หรือจนมีข้อบ่งชี้ให้คลอด): bed rest, monitor แม่ (V/S, อาการ chorioamnionitis, labor, abruption; CBC เมื่อสงสัย) และลูก (daily NST, U/S growth/AF) · <b>Antibiotic prolong latency</b> 7 วัน: ampicillin 2 g IV q 6 h + azithromycin 1 g PO ×1 ใน 48 h แรก → amoxicillin 250 mg PO q 8 h × 5 วัน · <b>Dexamethasone 6 mg IM q 12 h × 4 doses</b> · ± tocolytic ระยะสั้นเพื่อให้ steroid ครบ (ไม่ใช่ประจำ) · เมื่อเจ็บครรภ์: <b>GBS prophylaxis</b> ampicillin 2 g IV then 1 g IV q 4 h until delivery · <b>ให้คลอด</b>เมื่อ chorioamnionitis / non-reassuring fetal status / abruption / labor หรือ GA 34 wk · ถ้ามี IAI: ampicillin + gentamicin (+ metronidazole หรือ clindamycin ถ้าผ่าคลอด) แล้วให้คลอด",
+     exp:`<ul><li><b>ลำดับคิด PROM (หน้า 3 ในไฟล์)</b>: ① มี infection (IUI/chorioamnionitis) ไหม → ถ้ามี ให้ ATB แล้ว go on labor (prefer NL than C/S) · ② ถ้าไม่มี — in labor หรือ fetal compromise ไหม → ถ้ามี go on labor · ③ ถ้าไม่มี ดู GA</li><li><b>GA ≥ 37 wk</b>: ประเมิน cervix (Bishop) → favorable = induction; unfavorable = ripening หรือรอ 24–72 h + GBS prophylaxis · <b>34–36<sup>+6</sup> wk</b>: expedited delivery หรือ expectant · <b>24–33<sup>+6</sup> wk</b>: expectant management</li><li>Expectant 24–33<sup>+6</sup> wk: bed rest, maternal monitoring (infection/labor; WBC เมื่อมีอาการ), fetal monitoring (daily NST → ถ้าไม่ reactive ทำ BPP), <b>prophylactic ATB</b> (ampicillin + azithromycin 48 h แล้ว amoxicillin (+ azithromycin) 5 วัน) เพื่อยืด latency และลด IUI, <b>dexamethasone 6 mg IM q 12 h × 4</b>, ไม่ให้ tocolytic เป็นประจำ, <b>GBS prophylaxis</b> เมื่อเข้าสู่ระยะคลอด (ampicillin 2 g IV แล้ว 1 g q 4 h)</li><li><b>RTCOG 2567 (หน้า 4)</b>: 24<sup>0/7</sup>–33<sup>6/7</sup> wk — ประเมิน chorioamnionitis/labor/abruption, fetal well-being, corticosteroid single course, ATB prolong latency, ให้คลอดเมื่อมีข้อบ่งชี้หรือ GA 34 wk (หรือ 37), ก่อน 37 wk ให้ ATB ป้องกัน GBS ตอนคลอด, <b>คลอดช่วง 24–32 wk ให้ MgSO<sub>4</sub> for neuroprotection</b></li><li>ถ้าเป็น PPROM แล้วต่อมาเจ็บครรภ์ → หยุด ATB prolong latency แล้วเริ่ม GBS prophylaxis</li><li><b>IAI/chorioamnionitis</b>: ampicillin 2 g IV q 6 h + gentamicin (5 mg/kg/day หรือ 240 mg IV OD) แล้วให้คลอด; ไม่ให้ steroid หรือ tocolytic; ถ้าผ่าคลอดเพิ่ม metronidazole หรือ clindamycin</li><li>นอกไฟล์: GA 32 wk ยังไม่ถึงเกณฑ์ MgSO<sub>4</sub> ของ RTCOG (≤ 32 wk ตอนคลอด) แต่ถ้าคลอดก่อนครบ 32 wk ให้ได้</li></ul>`,
+     points:["Admit + expectant management (ไม่รีบให้คลอด)",
+       A("Monitor",["Maternal: V/S, อาการ chorioamnionitis / labor","Fetal: daily NST / U/S"],2),
+       "Antibiotic prolong latency (ampicillin + azithromycin/erythromycin → amoxicillin)",
+       "Corticosteroid: dexamethasone 6 mg IM q 12 h × 4",
+       A("แผนคลอด / ป้องกัน",["ให้คลอดเมื่อ chorioamnionitis, labor, fetal compromise, abruption หรือถึง 34 wk","GBS prophylaxis ตอนเจ็บครรภ์ (ampicillin 2 g IV then 1 g q 4 h)"],1)],
+     kw:[["admit|expectant"],[["v/s|vital|chorio|infect|labou?r|wbc|cbc"],["nst|ctg|efm|fetal monitor|u/s|ultrasound|bpp"]],["ampicillin|amoxicillin|azithro|erythro|antibiotic|atb"],["dexa|steroid|betameth"],[["chorio|terminat|deliver|คลอด|34"],["gbs"]]]}
+   ]}],
+  interp:"หญิงครรภ์แรก GA 32 wk น้ำใสไหลมากจากช่องคลอด ไม่มีเจ็บครรภ์ → ต้องยืนยันว่าเป็น ROM จริง (sterile speculum + test) แล้วจัดการแบบ PPROM ก่อน 34 wk",
+  approach:"A: ยืนยัน ROM ด้วย Hx + sterile speculum exam (ห้าม PV) + nitrazine/fern/Nile blue ± U/S; หาภาวะแทรกซ้อน (chorioamnionitis, labor, abruption, cord prolapse) · B: Dx PPROM → GA 24–33<sup>+6</sup> wk ที่ไม่มีภาวะแทรกซ้อน = expectant + ATB prolong latency + steroid + monitor แม่ลูก + GBS prophylaxis ตอนคลอด + คลอดเมื่อ 34 wk หรือมีข้อบ่งชี้",
+  trap:"ห้ามตรวจภายในด้วยนิ้ว (PV) ใน PPROM · GA 32 wk ยังอยู่ในกลุ่ม expectant (ไม่ใช่ 34–36<sup>+6</sup>) · tocolytic ไม่ใช่การรักษาหลัก และห้ามให้เมื่อมี chorioamnionitis",
+  summary:["PROM ยืนยันด้วย sterile speculum exam (fluid จาก os / pooling) + nitrazine หรือ fern test; Nile blue เสริม; U/S ช่วยเมื่อไม่แน่ใจ","ลำดับคิด: infection? → labor/fetal compromise? → GA (≥37 / 34–36<sup>+6</sup> / 24–33<sup>+6</sup>)","PPROM 24–33<sup>+6</sup> wk: expectant, ATB prolong latency 7 วัน, dexamethasone 6 mg IM q 12 h × 4, daily NST, คลอดเมื่อ 34 wk หรือมีข้อบ่งชี้","GBS prophylaxis: ampicillin 2 g IV แล้ว 1 g IV q 4 h จนคลอด (ให้เมื่อเจ็บครรภ์คลอดก่อน 37 wk)","คลอดช่วง 24–32 wk ให้ MgSO<sub>4</sub> for neuroprotection (RTCOG 2567)","IAI: ampicillin + gentamicin (+ metronidazole/clindamycin ถ้า C/S) แล้วให้คลอด ไม่ให้ steroid / tocolytic"],
+  notes:GUIDE+`<p><b>โน้ตหัวกระดาษ (หน้า 2):</b> Tx — admit? counseling โรคที่เป็น, symptomatic: IV, blood, supportive, specific: ATB เท่าไหร่ ยังไง? · Dx — … with (ภาวะแทรกซ้อน), CA → ต้องบอก stage ได้, preeclampsia → บอกด้วยว่า severe ไหม (r/o pul. edema)</p>{{IMG:kbk_2t}}<p><b>โน้ต PROM (หน้า 3)</b> และ <b>แนวทาง RTCOG 2567 (หน้า 4)</b>:</p>{{IMG:kbk_3}}{{IMG:kbk_4}}`,
+  kimg:["kbk_2"], tags:["comp"]}),
+
+C({page:5, orig:"ข้อ 2", title:"PROM 34 wk + breech", stem:`A 35-year-old married woman, gravida 2 para 1, at 34 weeks of gestation presents with fluid leaking from the vagina for 5 hours before arrival. Her first pregnancy ended in a normal vaginal delivery of a 3,000-g infant. She has attended 8 antenatal visits in this pregnancy and has no underlying illness or drug or food allergy.`,
+  gray:"หญิงไทยคู่ อายุ 35 ปี ตั้งครรภ์ได้ 34 สัปดาห์ ครรภ์นี้เป็นครรภ์ที่สอง ครรภ์แรกคลอดปกติ ทารกหนัก 3000 g ครรภ์นี้ ANC มาแล้ว 8 ครั้ง ไม่มีประวัติเจ็บป่วย แพ้ยา แพ้อาหาร มาด้วยมีน้ำไหลออกทางช่องคลอด 5 ชม. ก่อนมาโรงพยาบาล",
+  parts:[
+   {gray:"Part 1 จงซักประวัติเพิ่มเติม", subs:[
+    {tags:["comp"], q:"What additional history would you obtain?", marks:4,
+     ctx:"G2P1 GA 34 wk น้ำไหลทางช่องคลอด 5 ชม.",
+     qx:"บอกประวัติที่ต้องซักเพิ่ม — ลักษณะน้ำที่ไหล + อาการติดเชื้อ + เจ็บครรภ์ + ลูกดิ้น + ประวัติอื่นที่เกี่ยวข้อง",
+     rubric:"<b>ได้</b>: ซักลักษณะน้ำ (สี กลิ่น ปริมาณ เลือดปน กลั้นได้ไหม) + อาการติดเชื้อ (ไข้ ปวดท้อง/กดเจ็บ ตกขาว) + เจ็บครรภ์ + ลูกดิ้น · <b>บางส่วน</b>: ได้ 2–3 หมวด · <b>ไม่ได้</b>: ไม่ได้ซักลักษณะน้ำ",
+     key:"Hx: ลักษณะน้ำเป็นอย่างไร สี กลิ่น มีเลือดปนมั้ย ปริมาณ กลั้นได้หรือไม่ ทำอะไรถึงมีน้ำไหล · มีไข้หรือไม่ มีกดเจ็บหน้าท้องมั้ย มีหนองไหล/ตกขาวมั้ย มีประวัติ STI มั้ย — infection · มีปวดท้อง/ท้องแข็งมั้ย — in labor · ลูกดิ้นดีมั้ย — fetal compromise · ถามโรคประจำตัว ยาที่ใช้ (eg. เนื้อยากดภูมิ) ประวัติผ่าตัด แพ้ยาแพ้อาหาร · สูบบุหรี่ ดื่มเหล้า บาเสพติด · คนในครอบครัวเป็นโรคไรมั้ย สามีมีโรคไรมั้ย (esp. STI) · PE: vital signs to r/o severe condition; abdominal examination / Leopold / FHR / tenderness; sterile speculum examination ถ้ายังไม่ได้จะคลอด อย่า PV, PR !! → เบ่ง ไอ ดูว่ามี fluid pooling มั้ย, ดู cervix ดูว่ามี cord prolapse มั้ย, เก็บน้ำไปตรวจ pH test / Fern test / Nile blue test, ทำ cervical swab ไปตรวจเชื้อด้วย (ถ้า positive อาจต้องให้ ampicillin) · Lab inves.: CBC, UA, UC, GBS swab, TAS (U/S), Fern test / pH test / Nile blue test"+KS,
+     kimg:["kbk_5a"],
+     ans:"ลักษณะน้ำ: สี กลิ่น ปริมาณ มีเลือดปน กลั้นได้ไหม เริ่มเมื่อไร ทำอะไรอยู่ · อาการติดเชื้อ: ไข้ ปวด/กดเจ็บท้อง ตกขาว/หนอง ประวัติ STI · เจ็บครรภ์/ท้องแข็ง · ลูกดิ้น · โรคประจำตัว ยาที่ใช้ (ยากดภูมิ) ผ่าตัด แพ้ยา · สูบบุหรี่ สุรา สารเสพติด · ประวัติครอบครัว/สามี (STI)",
+     exp:`<ul><li>ซักเพื่อแยก 3 เรื่องที่เปลี่ยนการรักษา PROM: <b>infection</b> (chorioamnionitis), <b>in labor</b>, <b>fetal compromise</b></li><li>ไฟล์เขียนต่อถึง PE และ lab (แม้ part นี้ถามแค่ประวัติ): V/S, Leopold, FHR, <b>sterile speculum exam — ห้าม PV/PR</b>, pH/fern/Nile blue, cervical swab culture; lab CBC, UA, UC, GBS swab, TAS</li></ul>`,
+     points:[A("ลักษณะน้ำ",["สี","กลิ่น","ปริมาณ / เวลาที่เริ่ม","เลือดปน","กลั้นได้หรือไม่"],3),
+       A("อาการติดเชื้อ",["ไข้","ปวด/กดเจ็บท้อง","ตกขาว/หนอง","ประวัติ STI"],1),
+       "เจ็บครรภ์ / ท้องแข็ง","ลูกดิ้น",
+       A("ประวัติอื่น",["โรคประจำตัว / ยาที่ใช้ / แพ้ยา","สูบบุหรี่ สุรา สารเสพติด","ประวัติครอบครัว / สามี"],1)],
+     kw:[[["สี|colou?r"],["กลิ่น|odou?r|smell"],["ปริมาณ|amount|เวลา|onset|duration|นานแค่ไหน"],["เลือด|blood"],["กลั้น"]],[["ไข้|fever"],["ปวดท้อง|กดเจ็บ|tender|abdominal pain"],["ตกขาว|หนอง|discharge"],["sti|std|sexual"]],["เจ็บครรภ์|ท้องแข็ง|contraction|labou?r"],["ลูกดิ้น|fetal movement"],[["โรคประจำตัว|underlying|ยา|drug|แพ้"],["บุหรี่|smok|เหล้า|alcohol|สาร"],["ครอบครัว|family|สามี|husband|partner"]]]}
+   ]},
+   {info:`History and examination: clear, odorless fluid has been leaking continuously and she cannot hold it. Fetal movements are good and she has no fever.<br>FHS 150 bpm, fundal height 33 cm, <b>breech presentation</b>. Fern test positive, Nile blue test positive.<br>CBC normal, urinalysis normal, vital signs normal.`,
+    gray:"ผลการซักประวัติและตรวจร่างกาย พบว่าน้ำเดินไหลมาตลอดทั้งวัน น้ำใส ไม่มีกลิ่น กลั้นไม่ได้ ลูกดิ้นดี ไม่มีไข้ FHS 150 bpm, Fundal height 33 cm, Breech presentation, Fern test +ve, Nile blue test +ve, CBC normal, UA normal, V/S normal · Part 2 จงให้การรักษา", subs:[
+    {tags:["comp","labor"], q:"Outline the management of this patient.", marks:5,
+     ctx:"G2P1 GA 34 wk PROM ยืนยันแล้ว (fern +, Nile blue +) ไม่มีไข้ ไม่มีเจ็บครรภ์ FHS ปกติ ท่าก้น (breech)",
+     qx:"บอกแผนการรักษา PROM ที่ GA 34 wk (late preterm) ครอบคลุม admit, investigation, monitor, ยา และแผนการคลอด",
+     rubric:"<b>ได้</b>: admit + counselling ทางเลือก expectant vs ให้คลอด, monitor แม่ (V/S, chorioamnionitis, labor, abruption) และลูก (NST), GBS prophylaxis เมื่อเจ็บครรภ์, corticosteroid ถ้ายังไม่เคยได้ และบอกว่า<b>ไม่ต้อง</b>ให้ ATB prolong latency / MgSO<sub>4</sub> / tocolytic ที่ GA ≥ 34 wk · <b>บางส่วน</b>: ขาด 1–2 องค์ประกอบ หรือให้ ATB prolong latency/tocolytic · <b>ไม่ได้</b>: ไม่มีแผนการคลอดและไม่มี monitor",
+     key:"Part 2: Admit, bed rest, counselling กับผู้ป่วยเรื่องข้อดีข้อเสียของการรอคลอดเองกับการ induce ให้คลอดเลย, consult หมอเด็ก · Lab: CBC, UA, UC, Rectovaginal swab for GBS, Transabdominal USG, ส่ง M/S · Monitor maternal V/S, signs for chorioamnionitis, labor, abruptio placentae · Daily NST for monitoring fetus; terminate if non-reassuring · สามารถให้ dexamethasone 6 mg IM q 6 h for 48 hrs ถ้ายังไม่เคยได้มาก่อน · ไม่จำเป็นต้อง inhibit หากเริ่มครรภ์คลอด เนื่องจาก GA ≥ 34 weeks แล้ว · GBS prophylaxis: Ampicillin 2 g IV then 1 g q 4 h เมื่อเริ่มครรภ์จะคลอด · หลังให้ steroid ครบโดสอาจจะ induction หรือ expectant ก็ได้ เนื่องจากตาม ACOG 2020 ได้กล่าวไว้ว่าการ expectant ไม่ได้เพิ่มความเสี่ยงต่อการติดเชื้อแต่อย่างใด แต่ถ้ามีไข้ ติดเชื้อ เจ็บครรภ์ status แม่/ลูกไม่ดี อาจ terminate ทันที · (34–36<sup>6/7</sup> wks; ไม่ต้องให้ ATB for prolong latency, ไม่ต้องให้ MgSO<sub>4</sub>, ไม่ต้อง inhibit)"+KS,
+     kimg:["kbk_5b","kbk_3","kbk_4"],
+     flag:"⚠ ไฟล์เขียน dexamethasone 6 mg IM q 6 h for 48 hrs — ขนาดมาตรฐานคือ 6 mg IM q 12 h × 4 doses (รวม 48 ชม.); เฉลยใช้ขนาดมาตรฐาน",
+     ans:"<b>Admit</b>, counselling (expectant management vs induction ที่ 34–36<sup>+6</sup> wk), consult กุมารแพทย์ · Lab: CBC, UA/UC, rectovaginal GBS swab, U/S (GA, EFW, AF, ยืนยันท่าก้น) · Monitor แม่: V/S, อาการ chorioamnionitis, labor, abruption · Monitor ลูก: NST ทุกวัน (คลอดถ้า non-reassuring) · <b>Dexamethasone 6 mg IM q 12 h × 4</b> ถ้ายังไม่เคยได้ · <b>ไม่ให้</b> ATB prolong latency, MgSO<sub>4</sub>, tocolytic · เมื่อเจ็บครรภ์/จะคลอด: <b>GBS prophylaxis</b> ampicillin 2 g IV then 1 g IV q 4 h · คลอดทันทีเมื่อมีไข้/chorioamnionitis/labor/fetal compromise; ไม่เช่นนั้นคลอดได้ถึง 37 wk · ท่าก้น → วางแผนผ่าตัดคลอดเมื่อจะคลอด",
+     exp:`<ul><li>GA <b>34<sup>0/7</sup>–36<sup>6/7</sup> wk</b> (RTCOG 2567 หน้า 4): ทำได้ 2 ทาง — <b>expectant</b> (ประเมิน chorioamnionitis/labor/abruption และ fetal well-being เป็นระยะ, steroid single course ถ้าไม่เคยได้, คลอดเมื่อมีข้อบ่งชี้หรือ 37 wk, ATB ป้องกัน GBS ตอนคลอด) หรือ <b>ให้คลอด</b> (induction หรือผ่าตัดตามข้อบ่งชี้)</li><li>ที่ GA นี้ <b>ไม่ต้อง</b> ATB prolong latency, ไม่ต้อง MgSO<sub>4</sub> neuroprotection (ให้เฉพาะคลอด 24–32 wk), ไม่ต้อง tocolytic</li><li>ACOG 2020: expectant ที่ 34–36<sup>+6</sup> wk ไม่เพิ่มการติดเชื้อมากนัก แต่ถ้ามีไข้ ติดเชื้อ เจ็บครรภ์ หรือ status แม่/ลูกไม่ดีให้ terminate</li><li>นอกไฟล์: ทารกท่าก้นในครรภ์ preterm — เมื่อจะคลอดนิยม <b>cesarean delivery</b></li></ul>`,
+     points:["Admit + counselling ทางเลือก (expectant vs ให้คลอด)",
+       A("Monitor",["แม่: V/S, chorioamnionitis, labor, abruption","ลูก: NST / U/S"],2),
+       "Corticosteroid ถ้ายังไม่เคยได้ (dexamethasone 6 mg IM q 12 h × 4)",
+       "GBS prophylaxis เมื่อเจ็บครรภ์ (ampicillin 2 g IV then 1 g q 4 h)",
+       "ไม่ต้อง ATB prolong latency / MgSO4 / tocolytic ที่ GA ≥ 34 wk",
+       "เกณฑ์ให้คลอดทันที: ไข้/chorioamnionitis, labor, fetal compromise (และ breech → C/S)"],
+     kw:[["admit|counsel|expectant|induc"],[["v/s|vital|chorio|infect|labou?r|abruption"],["nst|ctg|u/s|ultrasound|usg"]],["dexa|steroid|betameth"],["gbs|ampicillin"],["ไม่ต้อง|no need|not need|ไม่ให้"],["terminat|คลอด|deliver|c/s|cesarean|caesarean"]]}
+   ]}],
+  interp:"G2P1 GA 34 wk น้ำเดิน 5 ชม. ผลตรวจยืนยัน PROM ไม่มีการติดเชื้อ ไม่มีเจ็บครรภ์ ทารกท่าก้น → late preterm PROM",
+  approach:"Part 1: ซักแยก infection / labor / fetal compromise + ประวัติทั่วไป · Part 2: GA 34–36<sup>+6</sup> wk → expectant หรือให้คลอด, monitor แม่ลูก, steroid ถ้าไม่เคยได้, GBS prophylaxis ตอนคลอด, ไม่ต้อง ATB prolong latency/MgSO<sub>4</sub>/tocolytic",
+  trap:"GA 34 wk ไม่ใช่กลุ่ม 24–33<sup>+6</sup> — อย่าให้ ATB prolong latency หรือ MgSO<sub>4</sub> · dexamethasone ขนาดมาตรฐาน q 12 h × 4 · ท่าก้นมีผลต่อวิธีคลอด",
+  summary:["PROM 34<sup>0/7</sup>–36<sup>6/7</sup> wk: expectant หรือให้คลอด; คลอดเมื่อมีข้อบ่งชี้หรือ 37 wk","ไม่ต้อง ATB prolong latency, MgSO<sub>4</sub>, tocolytic ที่ GA ≥ 34 wk","Corticosteroid single course ถ้ายังไม่เคยได้","GBS prophylaxis ตอนเจ็บครรภ์คลอดก่อน 37 wk: ampicillin 2 g IV แล้ว 1 g q 4 h","ซักประวัติ PROM แยก infection / labor / fetal compromise"],
+  notes:GUIDE+`<p><b>โน้ต PROM (หน้า 3)</b> และ <b>แนวทาง RTCOG 2567 (หน้า 4)</b>:</p>{{IMG:kbk_3}}{{IMG:kbk_4}}`,
+  kimg:["kbk_5"], tags:["comp"]})
+);
+})();
+
+})(WARDS["obgyn"].MQ);
+(function(QB){
+(function(){
+/* OB-GYN MEQ สไตล์ 2 (ถามตอบสั้นข้อเดียวจบ) — "THE MUST AC MEQ OBGYN short answer" (โค้ด OBSA) หน้า 1–3 เท่านั้น (ผู้ใช้สั่ง 12 ต.ค. 2026)
+   ตัวเลขสีชมพูหน้าข้อในไฟล์ (เช่น 73A, 72B) = ชุดข้อสอบที่เคยออก → seen + rep */
+const KS=" (เฉลยในไฟล์)";
+const C=o=>Object.assign({set:"short ans รวม",ro:"",file:"OBSA",sa:true,opinion:""},o);
+const A=(label,any,need)=>({label,any,need:need||1});
+const S=o=>({parts:[{subs:[Object.assign({q:""},o.sub)]}]});
+QB.push(
+C(Object.assign({page:2, orig:"1", stem:"What are the 7 cardinal movements of labor (mechanism of normal labor)? List them in order.", gray:"1. 7 ขั้นตอนของการคลอดปกติ",
+  interp:"ถาม cardinal movements of labor 7 ขั้นตามลำดับ",
+  summary:["Engagement → Descent → Flexion → Internal rotation → Extension → External rotation (restitution) → Expulsion","ช่วยจำ E-D-F-I-E-E-E"],
+  mnemonic:"<b>EDFIEEE</b> — Engagement, Descent, Flexion, Internal rotation, Extension, External rotation, Expulsion"},
+  S({sub:{tags:["labor"], marks:2, ctx:"ถามความรู้: กลไกการคลอดปกติ", qx:"บอก 7 ขั้นตอนเรียงลำดับ",
+   rubric:"<b>ได้</b>: ครบ 7 ขั้นและเรียงถูก · <b>บางส่วน</b>: ครบ 5–6 ขั้น หรือครบแต่สลับลำดับ · <b>ไม่ได้</b>: ≤ 4 ขั้น",
+   key:"EDFIEEE — engagement → descent → flexion → internal rotation → extension → external rotation → expulsion"+KS, kimg:["ksa_2a"],
+   ans:"Engagement → Descent → Flexion → Internal rotation → Extension → External rotation → Expulsion",
+   exp:`<ul><li><b>Engagement</b>: biparietal diameter ผ่าน pelvic inlet</li><li><b>Descent</b>: เกิดตลอดการคลอด</li><li><b>Flexion</b>: คางชิดอก ใช้ suboccipitobregmatic diameter ที่เล็กที่สุด</li><li><b>Internal rotation</b>: occiput หมุนมาด้านหน้า (OA) ใต้ symphysis pubis</li><li><b>Extension</b>: ศีรษะเงยคลอดผ่าน vulva</li><li><b>External rotation (restitution)</b>: ศีรษะหมุนกลับให้แนวกับไหล่</li><li><b>Expulsion</b>: ไหล่หน้า → ไหล่หลัง → ลำตัว</li></ul>`,
+   points:["Engagement","Descent","Flexion","Internal rotation","Extension","External rotation","Expulsion","เรียงลำดับถูก"],
+   kw:[["engage"],["descen"],["flex"],["internal\\s*rot"],["\\bextension|extens"],["external\\s*rot|restitution"],["expul"],["engage[\\s\\S]*descen[\\s\\S]*flex[\\s\\S]*internal[\\s\\S]*exten[\\s\\S]*external[\\s\\S]*expul"]]}}))),
+
+C(Object.assign({page:2, orig:"2", stem:"How many stages of lochia are there? Name and describe each stage.", gray:"2. น้ำคาวปลามีกี่ stage อะไรบ้าง จงอธิบาย",
+  interp:"ถามชนิดของ lochia 3 ระยะ พร้อมลักษณะและระยะเวลา",
+  summary:["Lochia rubra: แดง หลังคลอด – วันที่ 3–4","Lochia serosa: แดงจาง/ชมพู ต่อจาก rubra ~ถึงวันที่ 10","Lochia alba: ขาวเหลือง หลังวันที่ ~10 รวมน้ำคาวปลาทั้งหมด 24–36 วัน (ไม่เกิน ~6 สัปดาห์)"],
+  mnemonic:"<b>R-S-A</b> = Red → Sero(pink) → Alba(white) : แดง → ชมพู → ขาว"},
+  S({sub:{tags:["pp"], marks:3, ctx:"ถามความรู้: น้ำคาวปลา (lochia)", qx:"บอกว่ามี 3 ระยะ ชื่อแต่ละระยะ และอธิบายสี/ช่วงเวลา",
+   rubric:"<b>ได้</b>: ครบ 3 ระยะ (rubra, serosa, alba) พร้อมลักษณะ · <b>บางส่วน</b>: ครบชื่อแต่ไม่อธิบาย หรือได้ 2 ระยะ · <b>ไม่ได้</b>: ≤ 1 ระยะ",
+   key:"lochia rubra – สีแดงเข้ม พบตั้งแต่หลังคลอดจนถึง 3–4 วันหลังคลอด · lochia serosa – สีแดงอ่อน พบหลังจาก lochia rubra เป็นเวลาประมาณ 1 สัปดาห์ · lochia alba – สีขาวเหลือง พบต่อจาก lochia serosa เป็นเวลาประมาณ 3–5 สัปดาห์ (มักสิ้นสุดไม่เกิน 6 สัปดาห์หลังคลอด) · Williams: For the first few days after delivery, there is blood sufficient to color it red—lochia rubra. After 3 or 4 days, lochia becomes progressively pale in color—lochia serosa. After approximately the 10th day … white or yellow-white color—lochia alba. The average duration of lochial discharge ranges from 24 to 36 days"+KS, kimg:["ksa_2b"],
+   ans:"3 ระยะ: <b>lochia rubra</b> (แดง, หลังคลอด–วันที่ 3–4) → <b>lochia serosa</b> (แดงจาง/ชมพู, ต่อมาจนประมาณวันที่ 10) → <b>lochia alba</b> (ขาว–เหลือง, หลังวันที่ ~10 จนหมด ~3–6 สัปดาห์)",
+   exp:`<ul><li>Lochia = การหลุดลอกของ decidua หลังคลอด ประกอบด้วยเม็ดเลือดแดง decidua เซลล์เยื่อบุ และแบคทีเรีย</li><li>Rubra มีเลือดมาก → serosa สีซีดลง → alba มีเม็ดเลือดขาวปนและน้ำลดลง (Williams)</li><li>ระยะเวลาน้ำคาวปลารวมเฉลี่ย 24–36 วัน</li><li>น้ำคาวปลามีกลิ่นเหม็น หรือกลับเป็นสีแดงมาก/นาน นึกถึง endometritis, retained products, secondary PPH</li></ul>`,
+   points:["Lochia rubra — แดง, 3–4 วันแรก","Lochia serosa — แดงจาง/ชมพู, ถึง ~วันที่ 10","Lochia alba — ขาวเหลือง, หลัง ~10 วัน ถึง 3–6 สัปดาห์"],
+   kw:[["rubra"],["serosa"],["alba"]]}}))),
+
+C(Object.assign({page:2, orig:"3", stem:"What are the diagnostic criteria for postpartum hemorrhage? Include the definitions of primary and secondary postpartum hemorrhage.", gray:"3. เกณฑ์วินิจฉัย postpartum hemorrhage",
+  interp:"ถามนิยาม PPH — ปริมาณเลือด (เกณฑ์เก่า/ใหม่) และ primary vs secondary",
+  summary:["เกณฑ์ดั้งเดิม: ≥ 500 mL หลัง vaginal delivery หรือ ≥ 1,000 mL หลัง cesarean","ACOG 2017: cumulative blood loss ≥ 1,000 mL หรือเสียเลือดร่วมกับอาการ/อาการแสดงของ hypovolemia ภายใน 24 ชม. ไม่ว่าคลอดวิธีใด","Primary PPH ภายใน 24 ชม. · Secondary PPH 24 ชม. – 12 สัปดาห์หลังคลอด"]},
+  S({sub:{tags:["pp"], marks:3, ctx:"ถามความรู้: เกณฑ์วินิจฉัย PPH", qx:"บอกเกณฑ์ปริมาณเลือด (หรือ ACOG 2017) และนิยาม primary / secondary PPH",
+   rubric:"<b>ได้</b>: เกณฑ์ปริมาณเลือดอย่างใดอย่างหนึ่งถูก (500/1,000 mL ตามวิธีคลอด หรือ ACOG ≥ 1,000 mL หรือมี hypovolemia) + primary/secondary ถูก · <b>บางส่วน</b>: ได้เฉพาะเกณฑ์เลือดหรือเฉพาะ primary/secondary · <b>ไม่ได้</b>: ตัวเลขผิด",
+   key:"วินิจฉัยโดย WHO criteria เดิมคือ การเสียเลือดผ่าน genital tract ≥ 500 mL หลัง vaginal birth หรือ ≥ 1000 mL หลังการคลอดแบบ cesarean delivery ซึ่งยังเป็นที่นิยมในปัจจุบัน · วินิจฉัยโดย WHO criteria ใหม่คือ การเสียเลือดจาก genital tract ≥ 1000 mL จากการคลอดแบบใดก็ได้ · ★ วินิจฉัยโดย ACOG 2017 criteria คือ มีการเสียเลือด ≥ 1000 mL จากการคลอดแบบใดก็ได้ หรือ มี sign/symptom ของ hypovolemia จากการเสียเลือดหลังคลอด · primary PPH วินิจฉัยภายใน 24 hrs หลังคลอด, secondary PPH วินิจฉัยตั้งแต่หลังคลอด 24 hrs – 12 weeks (แก้จาก 6 weeks)"+KS, kimg:["ksa_2c"],
+   ans:"เกณฑ์เดิม: blood loss <b>≥ 500 mL หลัง vaginal delivery</b> หรือ <b>≥ 1,000 mL หลัง cesarean</b> · <b>ACOG 2017</b>: cumulative blood loss <b>≥ 1,000 mL</b> หรือ blood loss ร่วมกับ <b>signs/symptoms of hypovolemia</b> ภายใน 24 ชม. ไม่ว่าคลอดวิธีใด · <b>Primary PPH</b> ภายใน 24 ชม. หลังคลอด · <b>Secondary PPH</b> 24 ชม. – 12 สัปดาห์",
+   exp:`<ul><li>ไฟล์ติดดาวเกณฑ์ ACOG 2017 = ใช้ตอบเป็นหลัก</li><li>Secondary PPH: ตำราเก่าบางเล่มเขียน 24 ชม. – 6 สัปดาห์ แต่ไฟล์แก้เป็น 12 สัปดาห์ (ACOG)</li><li>สาเหตุ 4T: Tone (uterine atony พบบ่อยสุด), Trauma, Tissue, Thrombin</li></ul>`,
+   points:[A("เกณฑ์ปริมาณเลือด",["≥ 500 mL vaginal / ≥ 1,000 mL cesarean","ACOG 2017: ≥ 1,000 mL ไม่ว่าวิธีคลอด","หรือมี signs/symptoms of hypovolemia"],1),"Primary PPH ภายใน 24 ชม.","Secondary PPH 24 ชม. – 12 สัปดาห์"],
+   kw:[[["500"],["1,?000|1000"],["hypovol|shock"]],["primary|24\\s*h|24\\s*ชม"],["secondary|12\\s*w|12\\s*สัปดาห์|6\\s*w"]]}}))),
+
+C(Object.assign({page:2, orig:"4", rep:2, seen:"72C, 71", stem:"List 5 causes of a fundal height that is greater than expected for the gestational age.", gray:"4. ระบุ 5 สาเหตุที่ทำให้วัด fundal height ได้มากกว่า gestational age (สาเหตุของที่วัดขนาดท้องได้มากกว่าอายุครรภ์ 5 ข้อ)",
+  interp:"Size > date — ถามสาเหตุ 5 อย่าง",
+  summary:["Size > date: wrong LMP, full bladder, multiple pregnancy, polyhydramnios, fetal macrosomia/LGA, uterine myoma, molar pregnancy, pelvic/ovarian mass, maternal ascites, fetal anomaly","ต้องทวน LMP และให้ปัสสาวะก่อนวัด เป็นสาเหตุแรก ๆ ที่ต้องตัดออก"],
+  mnemonic:"<b>\"MOLAR BLOAT\"</b> — Myoma · Overdate/wrong LMP · LGA · Ascites · Retained urine(full bladder) · Bunch of babies(multiple) · Liquor มาก(polyhydramnios) · Ovarian tumor · Anomaly · Trophoblastic(molar)"},
+  S({sub:{tags:["ante"], marks:5, ctx:"ถามความรู้: fundal height มากกว่าอายุครรภ์ (size > date)", qx:"บอกสาเหตุ 5 อย่าง",
+   rubric:"<b>ได้</b>: ถูก 5 อย่าง · <b>บางส่วน</b>: ถูก 3–4 · <b>ไม่ได้</b>: ≤ 2",
+   key:"✓ full bladder ** · ✓ wrong LMP ** · fetal macrosomia (ขีดฆ่า → ใช้ fetal LGA) ✓ · ✓ multiple pregnancy · ✓ polyhydramnios · ✓ myoma uteri (pregnancy with uterine fibroids) · fetal anomalies · anterior placenta · ovarian tumor · maternal ascites · complete molar pregnancy · breech presentation"+KS, kimg:["ksa_2d"],
+   ans:"เลือก 5 จาก: <b>wrong LMP (dating error)</b>, <b>full bladder</b>, <b>multiple pregnancy</b>, <b>polyhydramnios</b>, <b>fetal LGA/macrosomia</b>, uterine myoma, (complete) molar pregnancy, ovarian tumor, maternal ascites, fetal anomalies",
+   exp:`<ul><li>ไฟล์ติ๊กถูก: full bladder**, wrong LMP**, fetal LGA, multiple pregnancy, polyhydramnios, myoma uteri</li><li>Anterior placenta และ breech presentation อยู่ในลิสต์ของไฟล์แต่ไม่ได้ติ๊ก — ไม่ควรใช้เป็นคำตอบหลัก</li><li>แนวคิด: เกินเพราะวันผิด (LMP), ของในมดลูกมากขึ้น (แฝด, น้ำคร่ำมาก, ทารกตัวโต, mole), หรือมีก้อน/ของเหลวนอกมดลูก (myoma, ovarian tumor, ascites, full bladder)</li></ul>`,
+   points:[A("สาเหตุ",["Wrong LMP / dating error","Full bladder","Multiple pregnancy","Polyhydramnios","Fetal LGA / macrosomia","Uterine myoma","Molar pregnancy","Ovarian tumor","Maternal ascites","Fetal anomalies"],5)],
+   kw:[[["lmp|dating|วันผิด|นับผิด"],["bladder|กระเพาะปัสสาวะ"],["multiple|twin|แฝด"],["polyhydram|hydramnios"],["lga|macrosom"],["myoma|fibroid|leiomyoma"],["mol(ar|e)|trophobl"],["ovar"],["ascites"],["anomal"]]]}}))),
+
+C(Object.assign({page:2, orig:"5", rep:3, seen:"73A, 72A, 72B", stem:"List 5 absolute indications for cesarean delivery.", gray:"5. Absolute indications of C/S 5 ข้อ",
+  interp:"ถาม absolute indication ของการผ่าตัดคลอด 5 อย่าง",
+  summary:["Absolute indication (คลอดทางช่องคลอดไม่ได้หรืออันตรายมาก): complete placenta previa, absolute CPD/severe contracted pelvis, transverse lie, advanced cervical cancer, active genital herpes","คำตอบที่ไฟล์ใช้: placenta previa totalis, fetal asphyxia/acidosis, severe contracted pelvis, advanced-stage cervical cancer, fetal transverse lie, eclampsia & HELLP"]},
+  S({sub:{tags:["labor"], marks:5, ctx:"ถามความรู้: absolute indications of cesarean delivery", qx:"บอก 5 อย่าง",
+   rubric:"<b>ได้</b>: ถูก 5 อย่างจากรายการที่ยอมรับ · <b>บางส่วน</b>: 3–4 · <b>ไม่ได้</b>: ≤ 2",
+   key:"✓1. total/complete placenta previa (placenta previa totalis) · ✓2. advanced CA cervix · 3. umbilical cord prolapse (ไม่ absolute มั้ง?) · ✓4. eclampsia and HELLP syndrome · ✓5. fetal transverse lie · ✓6. severe contracted pelvis / maternal pelvic deformity – absolute fetopelvic disproportion · 7. active genital herpes · 8. active genital syphilis / HPV infection · 9. placenta accreta, increta, percreta (x) → C/S + hysterectomy · ✓ fetal asphyxia or fetal acidosis · (เขียนเขียวด้านขวา) placenta previa totalis, fetal asphyxia or acidosis, severe contracted pelvis, advanced stage cervical cancer, fetal transverse lie, eclampsia & HELLP"+KS, kimg:["ksa_2e"],
+   flag:"⚠ ตามตำราทั่วไป eclampsia/HELLP และ fetal asphyxia ไม่ถือเป็น absolute indication เสมอไป (คลอดทางช่องคลอดได้ถ้าคุมอาการได้/คลอดได้เร็ว) — ไฟล์ใช้เป็นคำตอบ จึงนับให้ได้",
+   ans:"เลือก 5: <b>complete (total) placenta previa</b>, <b>severe contracted pelvis / absolute CPD</b>, <b>transverse lie</b>, <b>advanced cervical cancer</b>, <b>active genital herpes</b> (ไฟล์ยอมรับ eclampsia/HELLP และ fetal asphyxia/acidosis ด้วย)",
+   exp:`<ul><li>ไฟล์ติ๊กถูก: total placenta previa, advanced CA cervix, eclampsia &amp; HELLP, fetal transverse lie, severe contracted pelvis, fetal asphyxia/acidosis</li><li>Cord prolapse ไฟล์สงสัยว่าไม่ absolute (ถ้าปากมดลูกเปิดหมดคลอดทางช่องคลอดได้ทันที); placenta accreta spectrum ทำ C/S + hysterectomy</li><li>นอกไฟล์: previous classical uterine incision, vasa previa ก็เป็นข้อบ่งชี้ผ่าตัดคลอดที่หนักแน่น</li></ul>`,
+   points:[A("Absolute indications",["Complete / total placenta previa","Severe contracted pelvis / absolute CPD","Fetal transverse lie","Advanced cervical cancer","Active genital herpes","Eclampsia / HELLP (ตามไฟล์)","Fetal asphyxia / acidosis (ตามไฟล์)","Placenta accreta spectrum"],5)],
+   kw:[[["previa|praevia"],["contract|cpd|disproportion|pelvi"],["transverse"],["cervi[cx].*(ca|cancer)|ca.*cervi|cancer of (the )?cervix"],["herpes|hsv"],["eclamp|hellp"],["asphyx|acidosis"],["accreta|increta|percreta"]]]}}))),
+
+C(Object.assign({page:3, orig:"6", rep:2, seen:"72B, 72C", stem:"What is the Bishop score? What is it used for, and what are its components?", gray:"6. Bishop score คืออะไร ประเมินจากอะไร/ประกอบด้วยอะไรบ้าง",
+  interp:"ถามความหมาย การใช้ และ 5 องค์ประกอบของ Bishop score",
+  summary:["Bishop score ใช้ทำนายความสำเร็จของ induction of labor","5 องค์ประกอบ: dilatation, effacement, station, consistency, position","≥ 9 (ไฟล์) = favorable; ≤ 4 = unfavorable → cervical ripening ก่อน induction"],
+  mnemonic:"<b>\"Call PEDS\"</b> — Consistency, Position, Effacement, Dilatation, Station"},
+  S({sub:{tags:["labor"], marks:3, ctx:"ถามความรู้: Bishop score", qx:"บอกว่าใช้ทำอะไร + องค์ประกอบ 5 อย่าง (+ จุดตัด favorable/unfavorable)",
+   rubric:"<b>ได้</b>: บอกว่าใช้ predict ความสำเร็จของ induction + ครบ 5 องค์ประกอบ · <b>บางส่วน</b>: องค์ประกอบ 3–4 อย่าง หรือไม่บอกการใช้ · <b>ไม่ได้</b>: ≤ 2 องค์ประกอบ",
+   key:"คือ score ที่ใช้ในการ predict ผลของการ induction of labor โดยประเมินจาก 1. cervical dilatation (cm) 2. cervical effacement (%) 3. fetal station (−3 to +3) 4. cervical consistency 5. cervical position · โดยถ้าคะแนน ≥ 9 จัดเป็น favorable cervix ซึ่งมีโอกาสในการ induction of labor สำเร็จสูง, ถ้าคะแนน ≤ 4 จัดเป็น unfavorable cervix ซึ่งมีโอกาสในการ induction of labor สำเร็จต่ำ ควรรอ / ใช้ยาเพื่อให้ปากมดลูกสุกก่อน จึงค่อย induction of labor · (Table 26-2 Bishop Scoring System)"+KS, kimg:["ksa_3a"],
+   ans:"Score ทำนายความสำเร็จของ <b>induction of labor</b> จากการตรวจภายใน 5 อย่าง: <b>dilatation, effacement, station, consistency, position</b> (0–13 คะแนน) · ≥ 9 favorable · ≤ 4 unfavorable → ทำ cervical ripening ก่อน",
+   exp:`<table><tr><th>คะแนน</th><th>Dilatation</th><th>Effacement</th><th>Station</th><th>Consistency</th><th>Position</th></tr><tr><td>0</td><td>closed</td><td>0–30%</td><td>−3</td><td>firm</td><td>posterior</td></tr><tr><td>1</td><td>1–2 cm</td><td>40–50%</td><td>−2</td><td>medium</td><td>midposition</td></tr><tr><td>2</td><td>3–4 cm</td><td>60–70%</td><td>−1, 0</td><td>soft</td><td>anterior</td></tr><tr><td>3</td><td>≥ 5 cm</td><td>≥ 80%</td><td>+1, +2</td><td>—</td><td>—</td></tr></table><p>นอกไฟล์: ACOG ใช้ > 8 = favorable (โอกาสคลอดทางช่องคลอดใกล้เคียง spontaneous labor), ≤ 6 = unfavorable</p>`,
+   points:["ใช้ predict ความสำเร็จของ induction of labor",A("องค์ประกอบ",["Dilatation","Effacement","Station","Consistency","Position"],5),"จุดตัด: ≥ 9 favorable / ≤ 4 unfavorable"],
+   kw:[["induc|predict"],[["dilat"],["effac"],["station"],["consisten"],["position"]],["favo"]]}}))),
+
+C(Object.assign({page:3, orig:"7.1", stem:"A 35-year-old married woman at 39 weeks of gestation has a pelvic examination showing a soft, posterior cervix that is 1 cm dilated and 50% effaced, with the fetal head at station −2. Calculate the Bishop score and state whether the cervix is favorable.", gray:"7. หญิงไทยคู่อายุ 35 ปี GA 39 weeks ตรวจภายใน Cervix: soft consistency, Point ไปทางหลัง, Dilate 1 cm, Effacement 50%, Station −2 จงคำนวณ Bishop score และนี่เป็น favorable cervix หรือไม่",
+  interp:"คำนวณ Bishop score จากผลตรวจภายใน",
+  summary:["Dilatation 1 cm = 1, effacement 50% = 1, station −2 = 1, soft = 2, posterior = 0 → รวม 5","< 9 (ตามเกณฑ์ไฟล์) = ไม่ favorable → cervical ripening ก่อน induction"]},
+  S({sub:{tags:["labor"], marks:2, ctx:"GA 39 wk: soft, posterior, 1 cm, 50%, station −2", qx:"คำนวณคะแนนรวม + บอกว่า favorable หรือไม่",
+   rubric:"<b>ได้</b>: 5 คะแนน และ unfavorable/ไม่ favorable · <b>บางส่วน</b>: คะแนนถูกแต่สรุปผิด หรือคิดคะแนนผิด 1 ช่องแต่สรุปถูก · <b>ไม่ได้</b>: ผิดทั้งสองอย่าง",
+   auto:{all:["\\b5\\b"],any:["un\\s*-?\\s*favo|ไม่\\s*favo|not\\s*favo"],need:1},
+   key:"Dilatation 1 cm ได้ 1 คะแนน, Effacement 50% ได้ 1 คะแนน, Station −2 ได้ 1 คะแนน, Soft consistency ได้ 2 คะแนน, Posterior position ได้ 0 คะแนน รวม Bishop score ได้ 5 คะแนน เนื่องจากได้คะแนน < 9 คะแนนจึงไม่ favorable cervix"+KS, kimg:["ksa_3b"],
+   ans:"Dilatation 1 + effacement 1 + station 1 + consistency (soft) 2 + position (posterior) 0 = <b>5</b> → <b>unfavorable cervix</b>",
+   exp:`<ul><li>เกณฑ์ในไฟล์: ≥ 9 favorable · ≤ 4 unfavorable — 5 คะแนนยังไม่ถึง favorable</li><li>ควรทำ cervical ripening (เช่น misoprostol, Foley catheter) ก่อน induction</li></ul>`,
+   points:["คิดคะแนนรายช่องถูก (1/1/1/2/0)","รวม 5 คะแนน","สรุป: ไม่ favorable"],
+   kw:[["1[\\s\\S]*1[\\s\\S]*1[\\s\\S]*2[\\s\\S]*0"],["\\b5\\b"],["un\\s*-?\\s*favo|ไม่\\s*favo|not\\s*favo"]]}}))),
+
+C(Object.assign({page:3, orig:"7.2", stem:"A 35-year-old woman at 39 weeks of gestation has a pelvic examination showing a soft, anterior cervix that is 2 cm dilated and 80% effaced, with the fetal head at station −2. Calculate the Bishop score.", gray:"หญิงไทยอายุ 35 ปี GA 39 weeks ทำ Pelvic examination พบปากมดลูกนุ่ม อยู่ด้านหน้า Cervix เปิด 2 cm effacement 80% station −2 จงคำนวณ Bishop score",
+  interp:"คำนวณ Bishop score จากผลตรวจภายใน",
+  summary:["Dilatation 2 cm = 1, effacement 80% = 3, station −2 = 1, soft = 2, anterior = 2 → รวม 9","≥ 9 = favorable cervix → induction มีโอกาสสำเร็จสูง"]},
+  S({sub:{tags:["labor"], marks:2, ctx:"GA 39 wk: soft, anterior, 2 cm, 80%, station −2", qx:"คำนวณคะแนนรวม (และแปลผล)",
+   rubric:"<b>ได้</b>: 9 คะแนน (favorable) · <b>บางส่วน</b>: ผิด 1 ช่อง · <b>ไม่ได้</b>: ผิด ≥ 2 ช่อง",
+   auto:{all:["\\b9\\b"],any:["\\b9\\b"],need:1},
+   key:"Dilatation 2 cm ได้ 1 คะแนน, Effacement 80% ได้ 3 คะแนน, Station −2 ได้ 1 คะแนน, Soft consistency ได้ 2 คะแนน, Position anterior ได้ 2 คะแนน รวมได้ 9 คะแนน จัดเป็น Favorable cervix โอกาสคลอดสำเร็จสูง"+KS, kimg:["ksa_3b"],
+   ans:"Dilatation 1 + effacement 3 + station 1 + soft 2 + anterior 2 = <b>9</b> → <b>favorable cervix</b>",
+   exp:`<ul><li>Effacement ≥ 80% ได้ 3 คะแนน (ช่องที่มักคิดผิด)</li><li>Position anterior = 2, mid = 1, posterior = 0</li></ul>`,
+   points:["คิดคะแนนรายช่องถูก (1/3/1/2/2)","รวม 9 คะแนน","แปลผล favorable"],
+   kw:[["1[\\s\\S]*3[\\s\\S]*1[\\s\\S]*2[\\s\\S]*2"],["\\b9\\b"],["(?<!un\\s?)(?<!ไม่\\s?)favo"]]}}))),
+
+C(Object.assign({page:3, orig:"8", rep:1, seen:"73A", stem:"How many types of hypertensive disorders in pregnancy are there? Name them.", gray:"8. hypertensive disorders in pregnancy มีกี่ประเภท อะไรบ้าง",
+  interp:"ถามการแบ่งกลุ่ม hypertensive disorders of pregnancy",
+  summary:["ไฟล์: 3 กลุ่ม — chronic HT · pregnancy-induced HT (gestational HT, preeclampsia, eclampsia) · pregnancy-aggravated HT (superimposed preeclampsia/eclampsia)","ACOG: 4 กลุ่ม — chronic HT, gestational HT, preeclampsia–eclampsia, chronic HT with superimposed preeclampsia"]},
+  S({sub:{tags:["med"], marks:3, ctx:"ถามความรู้: classification of hypertensive disorders in pregnancy", qx:"บอกจำนวนกลุ่มและชื่อแต่ละกลุ่ม",
+   rubric:"<b>ได้</b>: ครบตามระบบใดระบบหนึ่ง (3 กลุ่มตามไฟล์ หรือ 4 กลุ่มตาม ACOG) · <b>บางส่วน</b>: ขาด 1 กลุ่ม · <b>ไม่ได้</b>: ขาด ≥ 2 กลุ่ม",
+   key:"1. Chronic hypertension · 2. Pregnancy-induced hypertension (PIH): gestational hypertension, pre-eclampsia, eclampsia · 3. Pregnancy-aggravated hypertension (PAH): superimposed pre-eclampsia, superimposed eclampsia"+KS, kimg:["ksa_3c"],
+   ans:"<b>Chronic hypertension</b> · <b>Gestational hypertension</b> · <b>Preeclampsia–eclampsia</b> · <b>Chronic hypertension with superimposed preeclampsia (/eclampsia)</b> (ไฟล์จัดเป็น 3 กลุ่ม: chronic HT, PIH = gestational HT/preeclampsia/eclampsia, PAH = superimposed preeclampsia/eclampsia)",
+   exp:`<ul><li>Chronic HT: BP ≥ 140/90 ก่อนตั้งครรภ์หรือก่อน 20 wk หรือคงอยู่ > 12 wk หลังคลอด</li><li>Gestational HT: BP สูงครั้งแรกหลัง 20 wk ไม่มี proteinuria/อาการรุนแรง</li><li>Preeclampsia: HT หลัง 20 wk + proteinuria หรือ end-organ dysfunction · Eclampsia: ชักใน preeclampsia</li><li>Superimposed preeclampsia: chronic HT แล้วเกิด preeclampsia</li></ul>`,
+   points:["Chronic hypertension",A("Pregnancy-induced (gestational) group",["Gestational hypertension","Preeclampsia","Eclampsia"],2),"Superimposed preeclampsia/eclampsia on chronic HT"],
+   kw:[["chronic"],[["gestational"],["pre-?\\s*eclamp"],["(?<!pre-?\\s?)eclamp"]],["superimpos|aggravat"]]}}))),
+
+C(Object.assign({page:3, orig:"9", rep:4, seen:"73A, 72B, 72C, 72A", stem:"List the symptoms and signs of polyhydramnios (5 items).", gray:"9. Polyhydramnios มี signs & symptoms อะไรบ้าง / อาการและอาการแสดงของ polyhydramnios 5 ข้อ (72A: Polyhydramnios มี sign อะไรบ้าง 5 ข้อ)",
+  interp:"ถามอาการ (symptoms) และอาการแสดง (signs) ของ polyhydramnios",
+  summary:["Symptoms: abdominal discomfort, shortness of breath, abnormal uterine contraction","Signs: size > date, edema, fluid thrill, distant fetal heart sound, difficulty palpating fetal parts","ชุด 72A ถามเฉพาะ signs 5 ข้อ"]},
+  S({sub:{tags:["comp"], marks:5, ctx:"ถามความรู้: polyhydramnios", qx:"บอกอาการ/อาการแสดง 5 อย่าง (ถ้าถาม signs ต้องเป็น signs)",
+   rubric:"<b>ได้</b>: ถูก 5 อย่าง · <b>บางส่วน</b>: 3–4 · <b>ไม่ได้</b>: ≤ 2",
+   key:"symptoms: 1. abdominal discomfort 2. shortness of breath 3. abnormal uterine contraction · signs: 1. size > date 2. edema 3. fluid thrill 4. distal fetal heart sound 5. difficulty in defining fetal parts"+KS, kimg:["ksa_3d"],
+   ans:"Symptoms: abdominal discomfort/tightness, dyspnea, preterm uterine contraction · Signs: <b>size > date</b>, <b>tense abdomen with fluid thrill</b>, <b>distant (muffled) fetal heart sounds</b>, <b>difficulty palpating fetal parts</b>, edema (lower limbs/vulva)",
+   exp:`<ul><li>"distal fetal heart sound" ในไฟล์ = ฟังเสียงหัวใจทารกได้ไกล/แผ่ว (distant, muffled)</li><li>สาเหตุ: idiopathic, fetal anomaly (GI obstruction, neural tube defect), diabetes, multiple pregnancy (TTTS), fetal anemia/hydrops</li><li>ภาวะแทรกซ้อน: preterm labor, PROM, malpresentation, cord prolapse, abruption เมื่อถุงน้ำแตก, PPH จาก atony</li></ul>`,
+   points:[A("Symptoms / signs",["Size > date","Fluid thrill / tense abdomen","Distant fetal heart sound","Difficult to palpate fetal parts","Edema","Abdominal discomfort","Dyspnea / shortness of breath","Abnormal / preterm contraction"],5)],
+   kw:[[["size\\s*>\\s*date|size more than date|fundal height"],["fluid thrill|thrill|tense"],["heart sound|fhs|distant|distal|muffl"],["fetal part|palpat"],["edema|oedema|บวม"],["discomfort|แน่นท้อง|ปวดท้อง"],["dyspn|shortness|หายใจ"],["contraction|ท้องแข็ง"]]]}}))),
+
+C(Object.assign({page:3, orig:"10", rep:2, seen:"73A, 72A", stem:"List 5 risk factors for placental abruption.", gray:"10. จงบอก risk factors of abruptio placenta 5 ข้อ",
+  interp:"ถามปัจจัยเสี่ยงรกลอกตัวก่อนกำหนด",
+  summary:["Prior abruption (เสี่ยงสูงสุด), preeclampsia/hypertension, PROM, multiple pregnancy, polyhydramnios, advanced age/multiparity, smoking, cocaine, trauma, chorioamnionitis"]},
+  S({sub:{tags:["comp"], marks:5, ctx:"ถามความรู้: placental abruption", qx:"บอก risk factors 5 อย่าง",
+   rubric:"<b>ได้</b>: ถูก 5 อย่าง · <b>บางส่วน</b>: 3–4 · <b>ไม่ได้</b>: ≤ 2",
+   key:"1. prior abruption 2. preeclampsia 3. chronic hypertension 4. premature rupture of membrane 5. multiple pregnancy 6. advanced maternal age 7. multiparity 8. cigarette smoking 9. low birthweight 10. polyhydramnios · (Table 41-4 Risk Factors for Placental Abruption: prior abruption RR 10–188, increased age and parity 1.3–2.3, preeclampsia 2.1–4.0, chronic hypertension 1.8–3.0, chorioamnionitis 3.0, PROM 2.4–4.9, multifetal gestation 2–8, low birthweight 14.0, hydramnios 2–8, cigarette smoking 1.4–1.9, single umbilical artery 3.4, cocaine use, uterine leiomyoma)"+KS, kimg:["ksa_3e"],
+   ans:"เลือก 5: <b>prior abruption</b>, <b>preeclampsia / chronic hypertension</b>, <b>PROM</b>, <b>multiple pregnancy</b>, <b>polyhydramnios</b>, advanced maternal age/multiparity, cigarette smoking, cocaine use, abdominal trauma, chorioamnionitis",
+   exp:`<ul><li>ปัจจัยเสี่ยงสูงสุด = เคยมี abruption มาก่อน (RR 10–188)</li><li>กลไกสำคัญ: hypertension/vasculopathy, การยุบตัวของมดลูกเร็วหลังน้ำคร่ำมาก/แฝดคลอดคนแรก, trauma</li><li>นอกไฟล์: abdominal trauma (อุบัติเหตุ) เป็น risk สำคัญทางคลินิก</li></ul>`,
+   points:[A("Risk factors",["Prior abruption","Preeclampsia / hypertension","PROM","Multiple pregnancy","Polyhydramnios","Advanced age / multiparity","Smoking / cocaine","Trauma","Chorioamnionitis"],5)],
+   kw:[[["prior|previous|เคย"],["pre-?\\s*eclamp|hypertens|ht\\b"],["prom|rupture"],["multiple|twin|แฝด|multifetal"],["polyhydram|hydramnios"],["age|multipar|parity"],["smok|cigar|cocaine"],["trauma|อุบัติเหตุ"],["chorio"]]]}}))),
+
+C(Object.assign({page:3, orig:"11", stem:"List 5 risk factors for placenta previa.", gray:"11. จงบอก risk factors of placenta previa 5 ข้อ",
+  interp:"ถามปัจจัยเสี่ยงรกเกาะต่ำ",
+  summary:["Prior cesarean/uterine surgery (myomectomy, D&C), advanced maternal age, multiparity, smoking, multiple pregnancy/large placenta, ART/IVF, prior previa, elevated MSAFP"]},
+  S({sub:{tags:["comp"], marks:5, ctx:"ถามความรู้: placenta previa", qx:"บอก risk factors 5 อย่าง",
+   rubric:"<b>ได้</b>: ถูก 5 อย่าง · <b>บางส่วน</b>: 3–4 · <b>ไม่ได้</b>: ≤ 2",
+   key:"1. prior cesarean delivery / myomectomy 2. advanced maternal age 3. multiparity 4. cigarette smoking 5. large placenta 6. uterine leiomyomas 7. elevated MSAFP levels (maternal serum α-fetoprotein) 8. ART used for conception"+KS, kimg:["ksa_3f"],
+   ans:"เลือก 5: <b>prior cesarean delivery / uterine surgery (myomectomy, D&amp;C)</b>, <b>advanced maternal age</b>, <b>multiparity</b>, <b>cigarette smoking</b>, <b>large placenta / multiple pregnancy</b>, uterine leiomyoma, ART, elevated MSAFP, prior placenta previa",
+   exp:`<ul><li>กลไก: แผลเป็น/ความเสียหายของ endometrium ส่วนบน หรือรกต้องการพื้นที่มาก → รกเกาะต่ำ</li><li>Prior C/S + previa → เสี่ยง placenta accreta spectrum สูงมาก</li><li>ไฟล์หน้า 3 ตัดที่ข้อ 8 (หน้าถัดไปยังไม่ได้ถอด)</li></ul>`,
+   points:[A("Risk factors",["Prior cesarean / uterine surgery","Advanced maternal age","Multiparity","Smoking","Large placenta / multiple pregnancy","Uterine leiomyoma","ART / IVF","Elevated MSAFP","Prior placenta previa"],5)],
+   kw:[[["cesarean|caesarean|c/s|myomectomy|uterine surg|d\\s*&\\s*c|curettage|ผ่าคลอด"],["age|อายุมาก"],["multipar|parity"],["smok|cigar"],["large placenta|multiple|twin|แฝด"],["leiomyom|myoma|fibroid"],["\\bart\\b|ivf|assisted"],["msafp|afp|fetoprotein"],["previous previa|prior previa|เคยเป็น"]]]}})))
+);
+})();
+
+})(WARDS["obgyn"].MQ);
 </script>
 <script>
 (function(){
 "use strict";
+/* ================= MEQ (modified essay question) =================
+   โครงสร้าง: ข้อ (case) → parts[] = ชุด part ที่เปิดพร้อมกัน (มีข้อมูลใหม่คั่น = เปิดทีละชุด) → subs[] = Part (คำถามย่อย)
+   สไตล์ 1 = case-based (มีเคส + Part ต่อเนื่อง) · สไตล์ 2 = short answer (q.sa: ข้อเดียวจบ ไม่มี part)
+   ไฟล์นี้ต่อหน้า app.js ใน <script> เดียวกัน — ใช้ของใน app.js ได้เฉพาะตอนเรียกฟังก์ชัน (ห้ามอ้างที่ top level)
+   ความคืบหน้า: P.meq = {a1:{uid:rec}, a2:{uid:rec}, star:{uid:[on,ts]}, v:{…มุมมองปัจจุบัน}} · rec = {t,g,gm,c,cs,kg,ai,ps,sd,reo,pz,pt,time,sub,ts} */
+var MQT=null,MQTi=null,MQsaveT=null;var MQAI={busy:{},err:{}};
+function mqL(wid){const W=WARDS[wid||ward];if(!W)return [];const L=W.MQ||(W.MQ=[]);
+  if(!L._ok){L._ok=1;const seen={};L.forEach((q,n)=>{if(!Array.isArray(q.parts)||!q.parts.length)q.parts=[{subs:q.subs||[]}];q.subs=[];
+    q.parts.forEach((p,pi)=>{p.i=pi;p.subs=p.subs||[];p.subs.forEach((s,k)=>{s._p=pi;s._k=k;s._i=q.subs.length;q.subs.push(s);});});
+    let u="MQ|"+q.set+"|"+q.file+"|"+q.page+"|"+q.orig;if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;q.n=n;});}
+  return L;}
+function mqInitP(P){const m=P.meq=P.meq||{};m.a1=m.a1||{};m.a2=m.a2||{};m.star=m.star||{};m.v=m.v||{};const v=m.v;
+  v.set=v.set||"all";v.status=v.status||"all";v.style=v.style||"all";v.tags=Array.isArray(v.tags)?v.tags:[];v.gl=Array.isArray(v.gl)?v.gl:[];return m;}
+function mqS(){return mqInitP(P_());}
+function mqA(){return mqS()["a"+ph()];}
+function mqRec(q){return mqA()[q.uid];}
+function mqEns(q){const A=mqA();return A[q.uid]||(A[q.uid]={t:{},g:{},gm:{},c:{},cs:{},ps:0,sd:{},ts:now()});}
+function mqTouch(q){const r=mqRec(q);if(r)r.ts=now();}
+function mqSave(q){if(q)mqTouch(q);clearTimeout(MQsaveT);save();}
+function mqVset(o){const v=mqS().v;Object.assign(v,o);v.ts=now();}
+const MQ_STY=[["all","ทุกแบบ"],["case","Case (สไตล์ 1)"],["sa","Short answer (สไตล์ 2)"]];
+function mqStyOk(q,sty){sty=sty||mqS().v.style;return sty==="all"||(sty==="sa"?!!q.sa:!q.sa);}
+function mqNum(q){return String(q.orig||q.n+1).replace(/^ข้อ\s*/,"");}
+function mqTitle(q){return q.title||plain(q.gray||"").replace(/^\d+(\.\d+)?\.?\s*/,"")||plain(q.stem).slice(0,70);}
+function mqGL(q,pi){const S=q.parts[pi].subs;if(!S.length)return "Part";const a=S[0]._i+1,b=S[S.length-1]._i+1;return a===b?"Part "+a:"Part "+a+"–"+b;}
+function mqReo(r,i){return !!(r&&r.reo&&r.reo[i]);}
+function mqPs(q,r){r=r||mqRec(q);if(!r)return 0;let p=r.ps||0;while(p<q.parts.length&&q.parts[p].subs.every(s=>r.sd&&r.sd[s._i]&&!mqReo(r,s._i)))p++;return p;}
+function mqSubDone(q,s,r){r=r||mqRec(q);if(!r||mqReo(r,s._i))return false;return s._p<(r.ps||0)||!!(r.sd&&r.sd[s._i]);}
+function mqCaseDone(q,r){r=r||mqRec(q);return !!(r&&(r.sub||mqPs(q,r)>=q.parts.length));}
+function mqAnyDone(q){const r=mqRec(q);return !!r&&q.subs.some(s=>mqSubDone(q,s,r));}
+function mqMk(s){return +s.marks||1;}
+function mqScoreOf(subs,r){let tot=0,got=0,graded=0,full=0;subs.forEach(s=>{const m=mqMk(s);tot+=m;const g=r&&r.g&&r.g[s._i];if(g!==undefined&&g!==null){graded++;got+=m*g/2;if(g===2)full++;}});
+  return {tot,got,graded,full,n:subs.length,all:graded===subs.length,perfect:full===subs.length};}
+function mqScore(q){const r=mqRec(q);if(!r||!mqCaseDone(q,r))return null;return mqScoreOf(q.subs,r);}
+function mqStar(q){const s=mqS().star[q.uid];return !!(s&&s[0]);}
+const mqPct=p=>p>=80?"var(--right)":p>=50?"var(--warn)":"var(--wrong)";
+const mqFmt=sec=>{sec=Math.max(0,Math.round(sec||0));return Math.floor(sec/60)+":"+String(sec%60).padStart(2,"0");};
+const mqNl=s=>esc(s).replace(/\n/g,"<br>");
+function mqImg(k){return IMGS[k]?`<figure>${imgHTML(k,"ภาพจากไฟล์ต้นฉบับ",1)}<figcaption>จากไฟล์ต้นฉบับ</figcaption></figure>`:"";}
+function mqRich(s){return String(s||"").replace(/\{\{IMG:(\w+)\}\}/g,(m,k)=>mqImg(k));}
+function mqImgs(x,note){if(!x)return note?`<div class="img-missing">🖼 ${note}</div>`:"";const L=[].concat(x).filter(k=>IMGS[k]);return L.length?`<div class="stem-img">${L.map(k=>imgHTML(k,"ภาพประกอบโจทย์",1)).join("")}${note?`<div class="img-note">${note}</div>`:""}</div>`:"";}
+function mqTopics(){const W=W_(),T=(W.cfg.meqTopics||[]).map(t=>Array.isArray(t)?t:[t.id,t.name]),have=new Set();mqL().forEach(q=>q.subs.forEach(s=>(s.tags||[]).forEach(t=>have.add(t))));
+  const o=T.filter(([k])=>have.has(k));have.forEach(k=>{if(!o.some(x=>x[0]===k))o.push([k,k]);});return o;}
+const mqTN=k=>(mqTopics().find(x=>x[0]===k)||[k,k])[1];
+/* ---- topic context (Unit round): only Parts tagged with a chosen topic ---- */
+const mqTM=()=>mqS().v.ctx==="topic";
+const mqTmatch=s=>(s.tags||[]).some(t=>mqS().v.tags.includes(t));
+const mqTsubs=(q,pi)=>q.parts[pi].subs.filter(mqTmatch);
+function mqTDone(q,pi){const r=mqRec(q);return !!r&&mqTsubs(q,pi).every(s=>mqSubDone(q,s,r));}
+function mqTParts(q){return q.parts.filter(p=>p.subs.some(mqTmatch)).map(p=>p.i);}
+function mqFirstT(q){const ps=mqTParts(q);const f=ps.find(pi=>!mqTDone(q,pi));return f!==undefined?f:(ps[0]||0);}
+function mqViewable(q,pi){if(pi<0||pi>=q.parts.length)return false;return mqTM()?q.parts[pi].subs.some(mqTmatch):pi<=mqPs(q);}
+function mqDefPart(q){return mqTM()?mqFirstT(q):Math.min(mqPs(q),q.parts.length-1);}
+function mqReoIds(q,pi){const r=mqRec(q);return r?(mqTM()?mqTsubs(q,pi):q.parts[pi].subs).filter(s=>mqReo(r,s._i)).map(s=>s._i):[];}
+function mqCur(){const v=mqS().v,q=mqL().find(x=>x.uid===v.u);if(!q)return null;let pi=+v.pi||0;if(!mqViewable(q,pi))pi=v.pi=mqDefPart(q);return {q,pi};}
+function mqPDone(q,pi){return mqTM()?mqTDone(q,pi):pi<mqPs(q);}
+function mqAnswering(){if(view!=="mq")return false;const c=mqCur();if(!c)return false;const {q,pi}=c;return !mqPDone(q,pi)||mqReoIds(q,pi).length>0;}
+function mqPaused(){const c=mqCur(),r=c&&mqRec(c.q);return !!(r&&r.pz&&r.pz[c.pi]);}
+/* ---- count-up timer (every MEQ question; pauses when the page is hidden or you leave) ---- */
+function mqTStart(){if(!mqAnswering()||mqPaused())return;const c=mqCur();if(!MQT)MQT={u:c.q.uid,pi:c.pi,p:ph(),w:ward,t0:now()};clearInterval(MQTi);MQTi=setInterval(mqTPaint,1000);mqTPaint();}
+function mqTStop(){clearInterval(MQTi);MQTi=null;if(MQT){const x=MQT;MQT=null;const P=st.w&&st.w[x.w];const r=P&&P.meq&&P.meq["a"+x.p]&&P.meq["a"+x.p][x.u];
+  if(r){const dt=Math.max(0,(now()-x.t0)/1000);r.time=(r.time||0)+dt;r.pt=r.pt||{};r.pt[x.pi]=(r.pt[x.pi]||0)+dt;r.ts=now();persist();cloudPush();}}}
+function mqElapsed(q,pi){const r=mqRec(q)||{},live=MQT&&MQT.u===q.uid?(now()-MQT.t0)/1000:0;return {all:(r.time||0)+live,part:((r.pt&&r.pt[pi])||0)+(MQT&&MQT.u===q.uid&&MQT.pi===pi?live:0)};}
+function mqTPaint(){const el=$("mqTimer");if(!el){if(view!=="mq")mqTStop();return;}const c=mqCur();if(!c)return;const e=mqElapsed(c.q,c.pi),multi=c.q.parts.length>1;
+  el.classList.toggle("paused",mqPaused());el.textContent=(mqPaused()?"⏸ ":"⏱ ")+(multi?`${mqGL(c.q,c.pi)} ${mqFmt(e.part)} · ทั้งข้อ ${mqFmt(e.all)}`:mqFmt(e.all));}
+document.addEventListener("visibilitychange",()=>{try{if(document.visibilityState==="hidden")mqTStop();else if(view==="mq")mqTStart();}catch(e){}});
+function mqTogglePause(){const c=mqCur();if(!c||!mqAnswering())return;const x=mqEns(c.q);x.pz=x.pz||{};if(x.pz[c.pi]){delete x.pz[c.pi];mqSave(c.q);mqView();}else{mqTStop();x.pz[c.pi]=1;mqSave(c.q);mqView();}}
+function mqTReset(){const c=mqCur();if(!c||!mqAnswering())return;mqTStop();const x=mqEns(c.q);x.pt=x.pt||{};x.time=Math.max(0,(x.time||0)-(x.pt[c.pi]||0));x.pt[c.pi]=0;mqSave(c.q);mqView();}
+/* ---- checklist + keyword suggestion (works on the website with no AI, unlimited) ---- */
+function mqSig(s){const t=JSON.stringify(s.points||[]);let h=5381;for(let i=0;i<t.length;i++)h=((h<<5)+h+t.charCodeAt(i))|0;return (h>>>0).toString(36);}
+function mqTicks(s,r){const i=s._i;return (r&&r.c&&r.c[i]&&r.cs&&r.cs[i]===mqSig(s))?r.c[i]:[];}
+function mqPtsScore(s,c){let tot=0,got=0;(s.points||[]).forEach((p,j)=>{if(typeof p==="string"){tot++;if(c[j]===true)got++;}else{const n=p.need||1,v=Array.isArray(c[j])?c[j].filter(Boolean).length:0;tot+=n;got+=Math.min(n,v);}});return {tot,got};}
+function mqRx(p,t){try{return new RegExp(p,"i").test(t);}catch(e){return false;}}
+function mqKwTicks(s,t){const K=s.kw||[];return (s.points||[]).map((p,j)=>{const k=K[j];if(typeof p==="string")return !!(k&&k.some(x=>mqRx(x,t)));return p.any.map((a,m)=>!!(k&&k[m]&&k[m].some(x=>mqRx(x,t))));});}
+function mqAutoFull(s,t){if(!s.auto||!t)return false;if((s.auto.all||[]).some(r=>!mqRx(r,t)))return false;const A=s.auto.any||[];return A.filter(r=>mqRx(r,t)).length>=(A.length?(s.auto.need||1):0);}
+function mqKwGrade(s,t){if(!t)return null;if(mqAutoFull(s,t))return {grade:2,auto:1};if(!s.kw||!(s.points||[]).length)return null;const c=mqKwTicks(s,t),sc=mqPtsScore(s,c);return {grade:sc.got>=sc.tot?2:sc.got>0?1:0,got:sc.got,tot:sc.tot,c};}
+function mqKwFill(q,subs){const x=mqEns(q);x.kg=x.kg||{};x.c=x.c||{};x.cs=x.cs||{};x.g=x.g||{};x.gm=x.gm||{};
+  subs.forEach(s=>{const i=s._i,t=((x.t&&x.t[i])||"").trim();delete x.kg[i];if(!t)return;const k=mqKwGrade(s,t);if(!k)return;
+    x.kg[i]={grade:k.grade,got:k.got,tot:k.tot,auto:k.auto||0};if(k.c){x.c[i]=k.c;x.cs[i]=mqSig(s);}if(!x.gm[i])x.g[i]=k.grade;});}
+const MQ_GOOD="ตอบถูกตามที่โจทย์ถาม ตรงกับเกณฑ์ \"ได้\" ของข้อนี้ — รายละเอียดอื่นในเฉลยเป็นความรู้เสริม";
+function mqSug(s,r){const t=((r&&r.t&&r.t[s._i])||"").trim();if(!t)return null;const ai=r.ai&&r.ai[s._i];
+  if(mqAutoFull(s,t))return {grade:2,why:(ai&&ai.grade===2&&ai.why)||"คำตอบมีคำสำคัญตรงเกณฑ์ \"ได้\" ของข้อนี้"};
+  if(ai&&ai.grade!=null)return {grade:ai.grade,why:ai.why||"",src:"ai"};
+  const k=r.kg&&r.kg[s._i];if(k)return {grade:k.grade,why:k.tot?`เจอคำสำคัญ ${k.got}/${k.tot} ประเด็น`:"",src:"kw"};return null;}
+/* ---- Claude / own-key grading (sample capability inside claude.ai) ---- */
+function mqAiPrompt(q,pi,subs,r){const P=q.parts,part=P[pi],W=W_();
+  let t=`คุณคืออาจารย์แพทย์ผู้ตรวจข้อสอบ MEQ วอร์ด ${W.cfg.name} ของนักศึกษาแพทย์ไทยชั้นปีที่ 4
+หน้าที่: อ่านคำตอบของนักศึกษาในแต่ละ Part ด้านล่าง แล้วประเมินเทียบกับโจทย์ เคส เฉลย เกณฑ์ และเฉลยในไฟล์ (ของรุ่นพี่)
+ขั้นตอนตรวจแต่ละ Part:
+1) อ่าน "เกณฑ์ให้คะแนน" ก่อน — เกณฑ์เป็นตัวตัดสินหลักเสมอ
+2) ตัดสินว่าตรงกับเกณฑ์ระดับใด: "ได้" / "บางส่วน" / "ไม่ได้" ใส่ level และ grade ให้ตรงกัน (ได้ = 2, บางส่วน = 1, ไม่ได้ = 0)
+3) ถ้าตรงเกณฑ์ "ได้" ต้องให้ "ได้" แม้ตอบสั้น — คำอธิบายเฉลยเป็นความรู้ประกอบ ห้ามหักเพราะไม่ได้อธิบายสิ่งที่โจทย์ไม่ได้ถาม
+4) โจทย์ให้ตอบ N อย่าง ตอบถูก N อย่าง = ได้ ไม่ต้องครบทุกอย่างในเฉลย; ตอบเกินไม่หัก เว้นแต่มีอันที่ผิดชัดเจน
+5) "บางส่วน" เมื่อถูกไม่ครบตามที่ถาม หรือขาดรายละเอียดที่โจทย์สั่งตรง ๆ (เช่น สั่งให้บอกขนาดยา)
+6) คำต่างแต่ความหมายถูกถือว่าถูก สะกดผิดเล็กน้อย/ไทยปนอังกฤษไม่หัก · ข้อมูลผิดที่อันตรายให้หัก · ประเมินเฉพาะที่เขียนจริง
+ตอบเป็น JSON object เท่านั้น ภาษาไทยปนศัพท์แพทย์อังกฤษ:
+{"results":[{"id": <id>, "level": "ได้", "grade": 2, "assess": "ประเมิน 2–4 ประโยค ว่าถูก/ผิด/ครบตรงไหน", "missing": "สิ่งที่ขาดตามเกณฑ์ (ว่างได้)", "why": "อ้างเกณฑ์ที่ตรงกับคำตอบ 1 ประโยค"}]}
+
+=== ${q.sa?"โจทย์":"เคส"} ===
+${plain(q.stem)}
+`;
+  P.slice(0,pi).forEach(p=>{if(p.info)t+=`\n=== ข้อมูลที่ได้ใน ${mqGL(q,p.i)} ===\n${plain(p.info)}\n`;});
+  if(part.info)t+=`\n=== ข้อมูลใหม่ก่อน ${mqGL(q,pi)} ===\n${plain(part.info)}\n`;
+  subs.forEach(s=>{t+=`
+--- Part id=${s._i} (${mqMk(s)} คะแนน) ---
+คำถาม: ${plain(s.q||q.stem)}
+${s.qx?"โจทย์ต้องการ: "+plain(s.qx)+"\n":""}${s.rubric?"เกณฑ์ให้คะแนน: "+plain(s.rubric)+"\n":""}${(s.points||[]).length?"ประเด็นที่ควรมี: "+mqPtsText(s)+"\n":""}เฉลย: ${plain(s.ans)}
+คำอธิบายเฉลย: ${plain(s.exp).slice(0,1600)}
+${s.key?"เฉลยในไฟล์: "+plain(s.key).slice(0,1100)+"\n":""}คำตอบของนักศึกษา:
+"""
+${String(r.t[s._i]).slice(0,3000)}
+"""
+`;});return t;}
+function mqPtsText(s){return (s.points||[]).map(p=>typeof p==="string"?plain(p):`${plain(p.label||"")} — ตอบ ${p.need||1} อย่างจาก: ${p.any.map(plain).join(" | ")}`).join(" ; ");}
+async function mqAiRun(q,pi,force){const k=q.uid+"#"+pi;if(MQAI.busy[k])return;const r=mqRec(q);if(!r)return;
+  const subs=(mqTM()?mqTsubs(q,pi):q.parts[pi].subs).filter(s=>!mqReo(r,s._i)&&mqSubDone(q,s,r)&&((r.t&&r.t[s._i])||"").trim()&&(force||!(r.ai&&r.ai[s._i])));
+  if(!subs.length)return;let mode="";try{mode=await aiMode();}catch(e){}if(!mode){MQAI.off=1;return;}
+  MQAI.busy[k]=1;delete MQAI.err[k];const rer=()=>{const c=view==="mq"&&mqCur();if(c&&c.q===q&&c.pi===pi){const y=scrollY;mqView();scrollTo(0,y);}};rer();
+  try{const out=await aiJSON(mqAiPrompt(q,pi,subs,r),3000);const arr=Array.isArray(out)?out:(out&&Array.isArray(out.results)?out.results:[]);
+    const x=mqEns(q);x.ai=x.ai||{};x.g=x.g||{};x.gm=x.gm||{};let n=0;const byOrder=arr.length===subs.length&&!arr.every(o=>subs.some(s=>s._i===+o.id));
+    arr.forEach((o,j)=>{const id=byOrder?subs[j]._i:+o.id;if(!subs.some(s=>s._i===id))return;const LV={"ได้":2,"ได้เต็ม":2,"บางส่วน":1,"ไม่ได้":0};
+      let g=LV[String(o.level||"").trim()];if(g===undefined){g=Math.round(+o.grade);if(!(g===0||g===1||g===2))g=null;}
+      if(g!==2&&mqAutoFull(q.subs[id],(x.t&&x.t[id])||"")){g=2;o.why="คำตอบตรงกับเกณฑ์ \"ได้\" ของข้อนี้";o.missing="";o.assess=MQ_GOOD;}
+      x.ai[id]={grade:g,assess:String(o.assess||"").slice(0,1500),missing:g===2?"":String(o.missing||"").slice(0,800),why:String(o.why||"").slice(0,400),at:now()};
+      if(g!=null&&!x.gm[id])x.g[id]=g;n++;});
+    if(!n)MQAI.err[k]="AI ตอบกลับในรูปแบบที่อ่านไม่ได้";mqSave(q);}
+  catch(e){const c=e&&e.code;if(["not_granted","sampling_disabled","not_declared","capability_disabled","capability_removed","no_ai"].includes(c))MQAI.off=1;
+    else MQAI.err[k]=c==="rate_limited"?"ใช้ AI ถี่เกินไป ลองใหม่อีกสักครู่":c==="invalid_json"?"AI ตอบกลับในรูปแบบที่อ่านไม่ได้":c==="cancelled"?"":"เชื่อมต่อ AI ไม่สำเร็จ";}
+  finally{delete MQAI.busy[k];rer();}}
+const mqAiAvail=()=>!MQAI.off&&(HAS_CLAUDE()||!!aiCfg().key);
+/* ---- rounds ---- */
+const MQ_ROUNDS=[
+  {k:"grand",n:"Grand round",d:"สุ่ม MEQ จากทั้งคลังทีละข้อ ยำรวมทุกแบบ (case + short answer) ไม่สนชุดหรือหัวข้อ"},
+  {k:"service",n:"Service round",d:"ทำ MEQ ตามชุดข้อสอบ เลือกชุดและแบบ (case / short answer) ได้ · เคสเปิด Part ทีละช่วงเหมือนสอบจริง พิมพ์ตอบแล้วดูเฉลย + คะแนนแนะนำ"},
+  {k:"staff",n:"Ward staff round",d:"ทวนข้อ MEQ ที่ทำแล้วแต่ยังมี Part ที่ไม่ได้เต็ม"},
+  {k:"teach",n:"Teaching round",d:"ใบเหลือง · CTA · Flashcard · Oral (ใช้ร่วมกับ MCQ / OSCE)"},
+  {k:"advisor",n:"Advisor round",d:"อ่านเฉลยข้อ MEQ ที่ทำแล้ว เรียงจากคะแนนน้อยสุดก่อน"},
+  {k:"unit",n:"Unit round",d:"ทำ MEQ ตามหัวข้อ เลือกได้หลายหัวข้อ — เปิดเฉพาะ Part ที่ตรงหัวข้อ"},
+  {k:"quality",n:"Quality round",d:"",soon:1,note:"จับเวลาแบบใหม่สำหรับ MEQ — รอรายละเอียด"},
+  {k:"admission",n:"Admission round",d:"",soon:1,note:"AI ออกโจทย์ให้ตอบแบบ short answer / short essay — กำลังทำ"},
+  {k:"io",n:"Round I/O",d:"",soon:1},
+  {k:"longcase",n:"Long case",d:"AI ให้ chief complaint มา แล้วดำเนินเคสเองทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ (ใช้ร่วมกับ MCQ / OSCE)"}
+];
+const MQ_RN=k=>(MQ_ROUNDS.find(r=>r.k===k)||{n:"MEQ"}).n;
+function mqStaffL(){return mqL().filter(q=>{const r=mqRec(q);return r&&q.subs.some(s=>mqSubDone(q,s,r)&&!(r.g&&r.g[s._i]===2));});}
+function mqAdvL(){return mqL().filter(mqAnyDone).map(q=>{const r=mqRec(q),S=q.subs.filter(s=>mqSubDone(q,s,r)),sc=mqScoreOf(S,r);return [q,sc.tot?sc.got/sc.tot:1];}).sort((a,b)=>a[1]-b[1]||a[0].n-b[0].n).map(x=>x[0]);}
+function mqPass(q,f){if(f==="todo")return !mqCaseDone(q);if(f==="notfull"){const sc=mqScore(q);return !!sc&&!sc.perfect;}if(f==="star")return mqStar(q);return true;}
+function mqTPass(q,f){const ps=mqTParts(q);if(!ps.length)return false;if(f==="todo")return ps.some(pi=>!mqTDone(q,pi));
+  if(f==="notfull"){const r=mqRec(q);return ps.some(pi=>mqTDone(q,pi)&&mqTsubs(q,pi).some(s=>!(r&&r.g&&r.g[s._i]===2)));}if(f==="star")return mqStar(q);return true;}
+function mqList(rk){const v=mqS().v,L=mqL(),setOk=q=>v.set==="all"||v.set.split("|").includes(q.set);rk=rk||v.r;
+  if(rk==="staff")return mqStaffL().filter(q=>mqStyOk(q));
+  if(rk==="advisor")return mqAdvL().filter(q=>mqStyOk(q));
+  if(rk==="unit")return v.tags.length?L.filter(q=>setOk(q)&&mqStyOk(q)&&mqTPass(q,v.status)):[];
+  if(rk==="grand")return v.gl.map(u=>L.find(q=>q.uid===u)).filter(Boolean);
+  return L.filter(q=>setOk(q)&&mqStyOk(q)&&mqPass(q,v.status));}
+/* ---- ward home (MEQ tab) ---- */
+function mqHomeHTML(){const P=P_(),p=ph(),L=mqL(),W=W_(),done=L.filter(q=>mqCaseDone(q)),scs=done.map(mqScore).filter(s=>s&&s.all);
+  const avg=scs.length?Math.round(scs.reduce((a,s)=>a+s.got/s.tot,0)/scs.length*100):null,nC=L.filter(q=>!q.sa).length,nS=L.length-nC,sl=mqStaffL().length;
+  let h=`<p class="statline">คลังมี <b>${L.length}</b> ข้อ · ข้อสอบเก่า <b>${L.length}</b> ข้อ (case ${nC} · short answer ${nS}) · Phase ${p} ทำแล้ว <b>${done.length}</b> ข้อ · คะแนนเฉลี่ย <b>${avg==null?"–":avg+"%"}</b></p>`;
+  const v=mqS().v,cq=v.u&&L.find(q=>q.uid===v.u);
+  if(cq&&!mqCaseDone(cq)&&mqAnyDone(cq))h+=`<button class="resume" id="mqResume"><span>ทำต่อ: <b>MEQ ข้อ ${esc(mqNum(cq))}</b><span class="rd">${esc(cq.set)} · ${esc(mqTitle(cq))}</span></span><span class="go">→</span></button>`;
+  if(p===2){h+=`<div class="card"><h3>ทบทวน MEQ ก่อนสอบ</h3><span class="rd">สรุปจากข้อสอบ MEQ เก่าเท่านั้น และทวนเฉพาะข้อที่ยังไม่ได้เต็ม</span><div class="tools">
+    <button class="tool" data-go="mqhy">📘 สรุป High-yield MEQ</button>
+    <button class="tool" data-mqp2="notfull">◐ ข้อที่ยังไม่ได้เต็ม<span class="n">${L.filter(q=>mqPass(q,"notfull")).length}</span></button>
+    <button class="tool" data-mqp2="star">★ ข้อที่ติดดาว<span class="n">${L.filter(mqStar).length}</span></button>
+    <button class="tool" data-mqp2="todo">○ ยังไม่ได้ทำใน Phase 2<span class="n">${L.filter(q=>!mqCaseDone(q)).length}</span></button></div></div>`;}
+  const cnt=k=>{const t=k==="service"?`มี <b>${L.length}</b> ข้อ · ${L.reduce((a,q)=>a+q.subs.length,0)} Part`:k==="staff"?`มีข้อให้ทวน <b>${sl}</b> ข้อ`:k==="advisor"?`อ่านเฉลยได้ <b>${L.filter(mqAnyDone).length}</b> ข้อ`:k==="unit"?`มี <b>${mqTopics().length}</b> หัวข้อ`:"";return t?`<span class="rcnt">${t}</span>`:"";};
+  h+=`<div class="rounds">${MQ_ROUNDS.map((r,i)=>`<button class="round" data-mqround="${r.k}" aria-disabled="${!!r.soon}">${r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="staff"&&sl?`<span class="badge">${sl}</span>`:""}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?(r.note||"รายละเอียดจะเพิ่มภายหลัง"):r.d}</span>${cnt(r.k)}</button>`).join("")}</div>`;
+  return h;}
+function mqBindHome(){
+  document.querySelectorAll("[data-mqround]").forEach(b=>b.onclick=()=>{const k=b.dataset.mqround,R=MQ_ROUNDS.find(r=>r.k===k);if(R.soon){toast(R.note||"โหมดนี้จะเพิ่มภายหลัง");return;}
+    if(k==="teach")return go(ward+"/teach");if(k==="longcase")return go(ward+"/lcase");if(k==="grand")return mqGrandNext(true);
+    mqVset({r:k,status:k==="service"||k==="unit"?mqS().v.status:"all"});save();go(ward+"/mqr");});
+  document.querySelectorAll("[data-mqp2]").forEach(b=>b.onclick=()=>{mqVset({r:"service",set:"all",style:"all",status:b.dataset.mqp2});save();go(ward+"/mqr");});
+  const rs=$("mqResume");if(rs)rs.onclick=()=>go(ward+"/mq");}
+/* ---- round list page ---- */
+function mqBubbles(q,subs,r){return subs.map(s=>{let c="b";if(r&&mqSubDone(q,s,r)){const g=r.g?r.g[s._i]:undefined;c+=" f"+(g===2?" ok":g===1?" half":g===0?" no":"");}return `<span class="${c}">${s._i+1}</span>`;}).join("");}
+function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
+  let h=`<div class="mqv"><div class="whead"><h1 class="h2">${esc(MQ_RN(rk))} · MEQ</h1><a href="#/${esc(ward)}">กลับหน้าวอร์ด</a></div><p class="sub" style="margin:0 0 10px">${esc((MQ_ROUNDS.find(r=>r.k===rk)||{}).d||"")}</p>`;
+  if(rk==="unit"){const cnt={};L.forEach(q=>q.subs.forEach(s=>(s.tags||[]).forEach(t=>{cnt[t]=(cnt[t]||0)+1;})));
+    h+=`<div class="tl-h">เลือกหัวข้อ (เลือกได้หลายหัวข้อ)</div><div class="chips tchips">${T.length?T.map(([k,n])=>`<button class="chip" type="button" data-mtag="${esc(k)}" aria-pressed="${v.tags.includes(k)}">${esc(n)}<span class="cnt">${cnt[k]||0}</span></button>`).join(""):`<span class="hint">ยังไม่ได้ติดหัวข้อให้ข้อ MEQ ในวอร์ดนี้</span>`}</div>`;}
+  h+=`<div class="tl-h">แบบข้อสอบ</div><div class="chips">${MQ_STY.map(([k,n])=>`<button class="chip" type="button" data-msty="${k}" aria-pressed="${v.style===k}">${n}</button>`).join("")}</div>`;
+  if(rk==="service"||rk==="unit"){const sets=[...new Set(L.map(q=>q.set))],sel=v.set==="all"?[]:v.set.split("|");
+    h+=`<div class="tl-h">ชุดข้อสอบ</div><div class="chips scroll">${[["all",v.set==="all"?"ทุกชุด":`ทุกชุด (เลือก ${sel.length})`]].concat(sets.map(x=>[x,x])).map(([k,n])=>`<button class="chip" type="button" data-mset="${esc(k)}" aria-pressed="${k==="all"?v.set==="all":sel.includes(k)}">${esc(n)}<span class="cnt">${k==="all"?"":L.filter(q=>q.set===k).length}</span></button>`).join("")}</div>`;
+    h+=`<div class="chips">${[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["notfull","ยังไม่ได้เต็ม"],["star","★ ติดดาว"]].map(([k,n])=>`<button class="chip" type="button" data-mst="${k}" aria-pressed="${v.status===k}">${n}</button>`).join("")}</div>`;}
+  const Q=mqList(rk);
+  if(rk==="unit"&&!v.tags.length)h+=`<div class="empty">เลือกหัวข้ออย่างน้อย 1 หัวข้อ — Part ที่ติดหัวข้อนั้นจะแสดงที่นี่</div>`;
+  else if(!Q.length)h+=`<div class="empty">${rk==="staff"?"ยังไม่มีข้อที่ต้องทวน — ทุก Part ที่ทำแล้วได้เต็ม":rk==="advisor"?"ยังไม่ได้ทำข้อ MEQ ใน Phase นี้":"ไม่มีข้อในเงื่อนไขที่เลือก"}</div>`;
+  else{const tm=rk==="unit";h+=`<div class="tsum">${Q.length} ข้อ · แตะเลขข้อหรือ Part เพื่อเริ่มทำ</div><div class="trows">`+Q.map(q=>{const r=mqRec(q)||null,sc=mqScore(q);
+      const gs=tm?q.parts.filter(p=>p.subs.some(s=>(s.tags||[]).some(t=>v.tags.includes(t)))).map(p=>p.i):q.parts.map(p=>p.i),ps=mqPs(q,r);
+      const chips=q.sa?`<button class="pchip" type="button" data-mgo="${esc(q.uid)}" data-p="0"><span class="pl">${mqCaseDone(q)?"✓ ":""}ตอบ</span><span class="bs">${mqBubbles(q,q.subs,r)}</span>${r&&r.time?`<span class="ptm">${mqFmt(r.time)}</span>`:""}</button>`
+        :gs.map(pi=>{const S=tm?q.parts[pi].subs.filter(s=>(s.tags||[]).some(t=>v.tags.includes(t))):q.parts[pi].subs,lock=!tm&&pi>ps;
+          return `<button class="pchip${lock?" lock":""}" type="button" data-mgo="${esc(q.uid)}" data-p="${pi}" ${lock?'aria-disabled="true"':""}><span class="pl">${lock?"🔒 ":pi<ps?"✓ ":""}${mqGL(q,pi)}</span><span class="bs">${mqBubbles(q,S,r)}</span>${r&&r.pt&&r.pt[pi]?`<span class="ptm">${mqFmt(r.pt[pi])}</span>`:""}</button>`;}).join("");
+      return `<div class="crow"><button class="cn" type="button" data-mgo="${esc(q.uid)}"><span class="cl">ข้อ</span>${esc(mqNum(q))}</button><div style="min-width:0"><div class="cq">${esc(mqTitle(q))}</div><div class="cparts">${chips}</div></div><div class="cmeta">${esc(q.set)}${q.ro?" · "+esc(q.ro):""} · ${q.sa?"short answer":"case"}${sc&&sc.all?` · <b style="color:${mqPct(Math.round(sc.got/sc.tot*100))}">${+sc.got.toFixed(1)}/${sc.tot}</b>`:""}${mqStar(q)?' · <span class="st">★</span>':""}</div></div>`;}).join("")+`</div>`;}
+  h+=`</div>`;$("main").innerHTML=h;
+  document.querySelectorAll("[data-mtag]").forEach(b=>b.onclick=()=>{const k=b.dataset.mtag,a=v.tags;const i=a.indexOf(k);if(i>=0)a.splice(i,1);else a.push(k);mqVset({});save();mqRList();});
+  document.querySelectorAll("[data-msty]").forEach(b=>b.onclick=()=>{mqVset({style:b.dataset.msty});save();mqRList();});
+  document.querySelectorAll("[data-mset]").forEach(b=>b.onclick=()=>{const k=b.dataset.mset;let sel=v.set==="all"?[]:v.set.split("|");if(k==="all")sel=[];else if(sel.includes(k))sel=sel.filter(x=>x!==k);else sel.push(k);mqVset({set:sel.length?sel.join("|"):"all"});save();mqRList();});
+  document.querySelectorAll("[data-mst]").forEach(b=>b.onclick=()=>{mqVset({status:b.dataset.mst});save();mqRList();});
+  document.querySelectorAll("[data-mgo]").forEach(b=>b.onclick=()=>{if(b.getAttribute("aria-disabled")==="true"){toast("ส่งคำตอบ Part ก่อนหน้าก่อน");return;}mqOpen(b.dataset.mgo,b.dataset.p===undefined?undefined:+b.dataset.p,rk);});}
+function mqOpen(u,pi,rk){const v=mqS().v;rk=rk||v.r||"service";const q=mqL().find(x=>x.uid===u);if(!q)return;
+  mqVset({u,r:rk,ctx:rk==="unit"?"topic":"set"});if(pi===undefined||!mqViewable(q,pi))pi=mqDefPart(q);v.pi=pi;save();if(view==="mq"){mqTStop();mqView();scrollTo(0,0);}else go(ward+"/mq");}
+function mqGrandNext(fromHome){const v=mqS().v,L=mqL();if(!L.length){toast("ยังไม่มีข้อ MEQ");return;}const cur=v.r==="grand"?v.u:null;
+  let pool=L.filter(q=>!mqCaseDone(q)&&q.uid!==cur);if(!pool.length)pool=L.filter(q=>q.uid!==cur);if(!pool.length)pool=L;
+  const q=pool[Math.floor(Math.random()*pool.length)];v.gl=(fromHome?[]:v.gl).filter(u=>u!==q.uid).concat(q.uid).slice(-60);mqOpen(q.uid,undefined,"grand");}
+function mqStep(d){const c=mqCur();if(!c)return;const {q,pi}=c,v=mqS().v;
+  if(mqTM()){const TP=mqTParts(q),k=TP.indexOf(pi);if(d>0&&k>=0&&k<TP.length-1)return mqOpen(q.uid,TP[k+1],"unit");if(d<0&&k>0)return mqOpen(q.uid,TP[k-1],"unit");}
+  else{if(d>0&&pi<q.parts.length-1&&pi<mqPs(q))return mqOpen(q.uid,pi+1,v.r);if(d<0&&pi>0)return mqOpen(q.uid,pi-1,v.r);}
+  if(v.r==="grand"){if(d>0)return mqGrandNext(false);const i=v.gl.indexOf(q.uid);if(i>0)return mqOpen(v.gl[i-1],undefined,"grand");return;}
+  const Q=mqList(),i=Q.indexOf(q);let t;if(i>=0)t=Q[i+d];else t=d>0?Q.find(x=>x.n>q.n):[...Q].reverse().find(x=>x.n<q.n);
+  if(!t){toast(d>0?"ข้อสุดท้ายในรายการแล้ว":"ข้อแรกในรายการแล้ว");return;}mqOpen(t.uid,d<0&&!mqTM()?mqDefPart(t):undefined,v.r);}
+/* ---- case view ---- */
+function mqView(){const c=mqCur();if(!c){go(ward);return;}const {q}=c;let pi=c.pi;const v=mqS().v,r=mqRec(q)||{},NP=q.parts.length,ps=mqPs(q),tm=mqTM();
+  const part=q.parts[pi],pDone=mqPDone(q,pi),SUBS=tm?mqTsubs(q,pi):part.subs,TP=tm?mqTParts(q):null,ans=mqAnswering(),gl=mqGL(q,pi);
+  const Q=v.r==="grand"?v.gl.map(u=>mqL().find(x=>x.uid===u)).filter(Boolean):mqList(),k=Q.indexOf(q);
+  let h=`<div class="mqv"><div class="mtbar"><a class="back" href="#/${esc(ward)}${v.r==="grand"?"":"/mqr"}">← ${v.r==="grand"?"หน้าวอร์ด":"รายการข้อ"}</a><span class="tsel">${esc(MQ_RN(v.r))}${tm?" · หัวข้อ: "+esc(v.tags.map(mqTN).join(", ")):""}</span><span class="tcnt">${k>=0?`${k+1}/${Q.length}`:""}</span></div>`;
+  h+=`<div class="qhead"><div class="qnum"><small>ข้อ</small>${esc(mqNum(q))}</div><div class="fields"><span class="field"><b>${esc(CFG.setLabel||"ชุด")}</b>${esc(q.set)}</span>${q.ro?`<span class="field"><b>${esc(CFG.roLabel||"Ro")}</b>${esc(q.ro)}</span>`:""}<span class="field case-tag"><b>MEQ</b>${q.sa?"short answer":`case · ${q.subs.length} Part`}</span></div>`;
+  h+=`<div class="qtools">${(!mqCaseDone(q)||ans)?`<span class="timer" id="mqTimer"></span>`:""}${ans?`<button class="tbtn${mqPaused()?" on":""}" id="mqPause" type="button">${mqPaused()?"▶ เดินต่อ":"⏸ หยุดเวลา"}</button><button class="tbtn" id="mqTRes" type="button">↺ เริ่มจับเวลาใหม่</button>`:""}<button class="starbtn" id="mqStar" aria-pressed="${mqStar(q)}" title="ติดดาวไว้ทบทวน">${mqStar(q)?"★":"☆"}</button></div></div>`;
+  if(tm){if(TP.length>1)h+=`<div class="psteps">${TP.map(j=>{const d=mqTDone(q,j);return `<button class="pstep ${d?"done":"open"}${j===pi?" on":""}" data-mpart="${j}">${d?"✓ ":""}${mqGL(q,j)}</button>`;}).join("")}</div>`;}
+  else if(NP>1)h+=`<div class="psteps">${q.parts.map((p,j)=>{const lock=j>ps;return `<button class="pstep ${j<ps?"done":j===ps?"open":"lock"}${j===pi?" on":""}" data-mpart="${j}" ${lock?'disabled title="ส่งคำตอบ Part ก่อนหน้าก่อน"':""}>${lock?"🔒 ":j<ps?"✓ ":""}${mqGL(q,j)}</button>`;}).join("")}</div>`;
+  if(!q.sa){h+=`<section class="case${pi>0?" old":""}"><div class="case-lab">ข้อ ${esc(mqNum(q))}${pi>0?' <span class="oldtag">ข้อมูลเดิม</span>':""}</div><div class="stem">${q.stem}</div>${mqImgs(q.img,q.imgNote)}${q.gray?`<p class="gray">${esc(q.gray)}</p>`:""}</section>`;
+    const prev=q.parts.slice(0,pi).filter(p=>p.info||p.img);
+    if(prev.length)h+=`<details class="prev old" open><summary>ข้อมูลเพิ่มเติมจาก Part ก่อนหน้า <span class="oldtag">ข้อมูลเดิม</span></summary>${prev.map(p=>`<div class="pinfo"><span class="pn">${esc(mqGL(q,p.i).replace("Part ","P"))}</span><div>${p.info?`<div>${p.info}</div>`:""}${mqImgs(p.img,p.imgNote)}</div></div>`).join("")}</details>`;}
+  const pm=SUBS.reduce((a,s)=>a+mqMk(s),0);
+  h+=`<section class="part"><div class="part-h"><span class="pnum">${q.sa?"คำถาม":esc(gl)}</span><span class="mk">${pm} คะแนน</span>${pDone&&!mqReoIds(q,pi).length&&r.pt&&r.pt[pi]?`<span class="ptime">⏱ ใช้เวลา ${mqFmt(r.pt[pi])}</span>`:""}</div>`;
+  if(part.info)h+=`<div class="pinfo-cur"><span class="newtag">ข้อมูลใหม่</span>${part.info}</div>`;
+  h+=mqImgs(part.img,part.imgNote);if(part.gray)h+=`<p class="gray">${esc(part.gray)}</p>`;
+  SUBS.forEach(s=>{const i=s._i,sn=q.sa?"":"Part "+(i+1),t=(r.t&&r.t[i])||"";
+    h+=`<div class="subq" id="mqs${i}"><div class="sh">${sn?`<span class="sn">${sn}</span>`:""}<div class="sq">${q.sa?q.stem:s.q}</div><span class="mk">${mqMk(s)} คะแนน</span></div>`;
+    if(tm&&(s.tags||[]).length)h+=`<div class="ttags">${s.tags.map(x=>`<span class="ttag${v.tags.includes(x)?" on":""}">${esc(mqTN(x))}</span>`).join("")}</div>`;
+    h+=mqImgs(s.img,s.imgNote);if(q.sa&&q.gray)h+=`<p class="gray sgray">${esc(q.gray)}</p>`;else if(s.gray)h+=`<p class="gray sgray">${esc(s.gray)}</p>`;
+    if(!mqSubDone(q,s,r)){h+=`<textarea class="ans" id="mqa${i}" data-i="${i}" rows="3" placeholder="พิมพ์คำตอบ${sn?" "+sn:""} (ไม่บังคับ)">${esc(t)}</textarea>`;
+      if(mqReo(r,i))h+=`<div class="actions sact"><button class="btn primary" type="button" data-mssub="${i}">ส่งคำตอบ & ดูเฉลย${sn?" "+sn:""}</button><span class="hint">กำลังทำข้อนี้ใหม่</span></div>`;}
+    else h+=mqDoneSub(q,pi,s,r,t);
+    h+=`</div>`;});
+  if(!pDone)h+=`<div class="actions"><button class="btn primary" id="mqSubmit" type="button">ส่งคำตอบ & ดูเฉลย${q.sa?"":" "+esc(gl)}</button><span class="hint">พิมพ์หรือไม่พิมพ์ก็ได้ · Ctrl/⌘+Enter${!tm&&pi<NP-1?` · ส่งแล้วจึงเปิด ${esc(mqGL(q,pi+1))}`:""}</span></div>`;
+  else{const sc=mqScoreOf(SUBS,r);h+=`<div class="pverdict">`;
+    if(sc.all){const p=Math.round(sc.got/sc.tot*100);h+=`<span class="pscore" style="color:${mqPct(p)}">${q.sa?"ได้":esc(gl)+":"} ${+sc.got.toFixed(1)}/${sc.tot} คะแนน</span>`;}else h+=`<span class="hint">ให้คะแนนตัวเองแล้ว ${sc.graded}/${sc.n} Part</span>`;
+    const RI=mqReoIds(q,pi);if(RI.length>1)h+=`<button class="btn primary" id="mqSubReo" type="button">ส่งคำตอบข้อที่ทำใหม่ทั้งหมด (${RI.length})</button>`;
+    h+=`<button class="link predo" id="mqRedoPart" type="button">↺ ทำ${q.sa?"ข้อนี้":" "+esc(gl)} ใหม่</button>`;
+    const typed=SUBS.filter(x=>!mqReo(r,x._i)&&((r.t&&r.t[x._i])||"").trim());if(typed.length&&mqAiAvail()){const kk=q.uid+"#"+pi;h+=MQAI.busy[kk]?`<span class="hint">⏳ AI กำลังอ่านคำตอบ…</span>`:`<button class="link ailink" id="mqAi" type="button">🤖 ${typed.every(x=>r.ai&&r.ai[x._i])?"ให้ AI ประเมินใหม่":"ให้ AI ประเมินคำตอบ"}</button>`;}
+    if(tm){const ix=TP.indexOf(pi);if(ix<TP.length-1)h+=`<button class="btn primary nextpart" id="mqNextPart" type="button">ไป ${esc(mqGL(q,TP[ix+1]))} →</button>`;}
+    else if(pi<NP-1)h+=`<button class="btn primary nextpart" id="mqNextPart" type="button">ไป ${esc(mqGL(q,pi+1))} →</button>`;
+    h+=`</div>`;
+    if(tm?pi===TP[TP.length-1]:pi===NP-1)h+=mqExplain(q,r);}
+  h+=`</section><div class="actions mqnav"><button class="btn ghost" id="mqPrev" type="button">‹ ก่อนหน้า</button><span class="spacer"></span><button class="btn${pDone?" primary":""}" id="mqNext" type="button">${v.r==="grand"?"สุ่มข้อถัดไป ›":"ถัดไป ›"}</button></div></div>`;
+  $("main").innerHTML=h;mqBindView(q,pi);mqTStart();mqTPaint();
+  if(pDone&&mqAiAvail()&&HAS_CLAUDE()){const kk=q.uid+"#"+pi;if(!MQAI.auto)MQAI.auto={};if(!MQAI.auto[kk]&&SUBS.some(x=>!mqReo(r,x._i)&&((r.t&&r.t[x._i])||"").trim()&&!(r.ai&&r.ai[x._i]))){MQAI.auto[kk]=1;setTimeout(()=>mqAiRun(q,pi,false),0);}}}
+function mqDoneSub(q,pi,s,r,t){const i=s._i,typed=!!t.trim(),ai=(r.ai&&r.ai[i])||null,kk=q.uid+"#"+pi,sg=mqSug(s,r);let h="";
+  h+=`<div class="mmine-lab">คำตอบของฉัน <span>· ส่งแล้ว</span></div><textarea class="ans ro" readonly rows="3" placeholder="— ไม่ได้พิมพ์คำตอบ —">${esc(t)}</textarea><div class="sbody">`;
+  if(s.ctx)h+=`<div class="sblk"><span class="lab">① เคสส่วนที่เกี่ยวกับข้อนี้</span><div>${s.ctx}</div></div>`;
+  if(s.qx)h+=`<div class="sblk"><span class="lab">② โจทย์ข้อนี้ถามอะไร</span><div>${s.qx}</div></div>`;
+  h+=`<div class="sblk aibox"><span class="lab">③ คำตอบของฉันเป็นอย่างไร</span>`;
+  if(!typed)h+=`<div class="muted">ไม่ได้พิมพ์คำตอบ — เทียบกับเฉลยและเกณฑ์ด้านล่าง แล้วให้คะแนนตัวเอง</div>`;
+  else{if(ai)h+=`<div><b>🤖 AI:</b> ${mqNl(sg&&sg.grade===2&&ai.grade!==2?MQ_GOOD:ai.assess)}</div>${ai.missing&&!(sg&&sg.grade===2)?`<div class="aimiss"><b>ขาด / ควรเพิ่ม:</b> ${mqNl(ai.missing)}</div>`:""}`;
+    else if(MQAI.busy[kk])h+=`<div class="muted">⏳ AI กำลังอ่านคำตอบ… (ครั้งแรกใน Claude จะมีหน้าต่างขออนุญาต)</div>`;
+    const kg=r.kg&&r.kg[i];
+    if(kg&&!ai){const miss=(s.points||[]).map((p,j)=>{const c=mqTicks(s,r)[j];return typeof p==="string"?(c===true?null:p):(Array.isArray(c)&&c.filter(Boolean).length>=(p.need||1)?null:(p.label||p.any.join(" / ")));}).filter(Boolean);
+      h+=`<div>🔎 <b>เทียบคำสำคัญ</b>${kg.auto?" — มีคำตอบหลักตรงเกณฑ์ \"ได้\"":kg.tot?` — เจอ <b>${kg.got}/${kg.tot}</b> ประเด็น (ติ๊กให้ในข้อ ④ แล้ว)`:""}</div>${miss.length&&!kg.auto?`<div class="aimiss"><b>ยังไม่เจอในคำตอบ:</b> ${miss.map(x=>plain(x)).map(esc).join(" · ")}</div>`:""}<div class="muted">ระบบจับคำสำคัญแบบคร่าว ๆ (ไม่ใช้ AI ใช้ได้ไม่จำกัด) — ถ้าเขียนด้วยคำอื่นอาจจับไม่ได้ ตรวจและแก้ติ๊กเองได้</div>`;}
+    else if(!ai&&!MQAI.busy[kk])h+=`<div class="muted">ข้อนี้ไม่มีคำสำคัญให้เทียบ — เทียบกับเฉลยและเกณฑ์ด้านล่างเอง</div>`;
+    if(MQAI.err[kk])h+=`<div class="muted">${esc(MQAI.err[kk])}</div>`;
+    if(!ai&&!MQAI.busy[kk]&&mqAiAvail())h+=`<div><button class="link ailink" type="button" data-mairun="1">🤖 ให้ AI ประเมินคำตอบ</button></div>`;}
+  h+=`</div><div class="model"><span class="lab">④ เฉลยและสิ่งที่ควรตอบ</span><div class="a">${s.ans||""}</div>${s.exp?`<div class="mexp">${mqRich(s.exp)}</div>`:""}`;
+  if((s.points||[]).length){const c=mqTicks(s,r);h+=`<ul class="pts"><li class="ph">ประเด็นที่ควรมีในคำตอบ (ติ๊กข้อที่ตอบได้)</li>${s.points.map((p,j)=>{
+    if(typeof p==="string")return `<li><label><input type="checkbox" data-ms="${i}" data-mp="${j}" ${c[j]===true?"checked":""}><span>${p}</span></label></li>`;
+    const vv=Array.isArray(c[j])?c[j]:[],need=p.need||1;
+    return `<li class="pgrp"><div class="pgl">${p.label?p.label+" ":""}<span class="alt">${need===1?"เลือกอย่างใดอย่างหนึ่งก็ถูก":`ตอบ ${need} อย่างจากนี้ก็ได้เต็ม`}</span></div><ul>${p.any.map((a,m)=>`<li><label><input type="checkbox" data-ms="${i}" data-mp="${j}" data-mk="${m}" ${vv[m]?"checked":""}><span>${a}</span></label></li>`).join("")}</ul></li>`;}).join("")}</ul>`;}
+  h+=`</div>`;
+  const KL=[].concat(s.kimg||[]).filter(x=>IMGS[x]);
+  if(s.key||KL.length)h+=`<div class="filekey"><span class="lab">เฉลยในไฟล์ (ของรุ่นพี่)</span>${s.key?`<div class="fk">${s.key}</div>`:""}${KL.length?`<div class="kimg">${KL.map(x=>imgHTML(x,"เฉลยจากไฟล์",1)).join("")}</div>`:""}</div>`;
+  if(s.flag)h+=`<div class="sub-meta"><span class="tag warn">${esc(s.flag)}</span></div>`;
+  h+=`<div class="sblk sugbox"><span class="lab">⑤ คะแนนที่แนะนำ</span>${sg?`<div class="sugline"><span class="sug g${sg.grade}">${MQ_GL[sg.grade]}</span> ${mqNl(sg.why||"")}</div><div class="muted">เป็นคำแนะนำ${sg.src==="kw"?"จากคำสำคัญ":sg.src==="ai"?"จาก AI":""}เท่านั้น — กดเลือกคะแนนเองด้านล่างได้</div>`:typed?`<div class="muted">ยังไม่มีคำแนะนำ</div>`:""}${s.rubric?`<div class="rubric"><b>เกณฑ์:</b> ${s.rubric}</div>`:""}</div>`;
+  const g=r.g?r.g[i]:undefined;
+  h+=`<div class="grade"><span class="gl">ให้คะแนนตัวเอง${r.gm&&r.gm[i]?"":g!==undefined?" (ตอนนี้ใช้คะแนนแนะนำ — กดเลือกเองได้)":""}:</span>${[[2,"✓ ได้"],[1,"◐ บางส่วน"],[0,"✗ ไม่ได้"]].map(([x,tx])=>`<button class="mgbtn g${x}" data-ms="${i}" data-mg="${x}" aria-pressed="${g===x}">${tx}${sg&&sg.grade===x?' <span class="sm">แนะนำ</span>':""}</button>`).join("")}<button class="link sredo" type="button" data-msredo="${i}">↺ ทำข้อนี้ใหม่</button></div></div>`;
+  return h;}
+const MQ_GL={2:"✓ ได้",1:"◐ บางส่วน",0:"✗ ไม่ได้"};
+function mqExplain(q,r){const tm=mqTM(),S=tm?q.subs.filter(s=>mqTmatch(s)&&mqSubDone(q,s,r)):q.subs,sc=mqScoreOf(S,r);
+  let h=`<section class="exp"><div class="exp-h">สรุปข้อ ${esc(mqNum(q))}</div><div class="verdict">`;
+  if(sc.all){const p=Math.round(sc.got/sc.tot*100);h+=`<span class="mscore" style="color:${mqPct(p)}">${+sc.got.toFixed(1)}/${sc.tot} คะแนน (${p}%)</span>`;}
+  else h+=`<span class="ans">ให้คะแนนตัวเองแล้ว ${sc.graded}/${sc.n} Part — ติ๊กประเด็นหรือกด ได้/บางส่วน/ไม่ได้ ในแต่ละ Part</span>`;
+  if(r.time)h+=`<span class="tag">⏱ ใช้เวลาทั้งข้อ ${mqFmt(r.time)}</span>`;h+=`</div>`;
+  if(q.parts.length>1&&!tm)h+=`<div class="tagline">${q.parts.map(p=>{const s=mqScoreOf(p.subs,r);return `<span class="tag">${esc(mqGL(q,p.i))}: ${s.all?`${+s.got.toFixed(1)}/${s.tot}`:"ยังให้คะแนนไม่ครบ"}</span>`;}).join("")}</div>`;
+  const FN=CFG.files||{};h+=`<div class="tagline">${q.rep?`<span class="tag rep">repeated x${q.rep}</span>`:""}${q.seen?`<span class="tag rep">เคยออก ${esc(q.seen)}</span>`:""}<span class="tag">ไฟล์ ${esc(FN[q.file]||q.file)} หน้า ${esc(q.page)} · ข้อ ${esc(mqNum(q))} ในต้นฉบับ</span><button class="link redo" id="mqRedoCase" type="button">ทำข้อนี้ใหม่ทั้งข้อ</button>${q.flag?`<span class="tag warn">${esc(typeof q.flag==="string"?q.flag:"⚠ เฉลยในไฟล์ไม่ชัวร์")}</span>`:""}</div>`;
+  const sec=(t,b,cls)=>b?`<div class="sec ${cls||""}"><h3>${t}</h3>${b}</div>`:"";
+  h+=sec("ประเด็นสำคัญของข้อนี้",q.interp?`<p>${q.interp}</p>`:"");
+  h+=sec("แนวคิด / ลำดับการคิดทั้งเคส",q.approach?`<div>${mqRich(q.approach)}</div>`:"");
+  h+=sec("ระวังกับดัก",q.trap?`<div class="box">${q.trap}</div>`:"","trap");
+  h+=sec("สรุปความรู้จากข้อนี้",(q.summary||[]).length?`<ul>${q.summary.map(s=>`<li>${s}</li>`).join("")}</ul>`:"");
+  h+=sec("สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${mqRich(q.notes)}</div>`:"","notes");
+  {const KL=[].concat(q.kimg||[]).filter(x=>IMGS[x]);if(KL.length)h+=sec("หน้า/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map(x=>imgHTML(x,"หน้าเฉลยจากไฟล์",1)).join("")}</div>`);}
+  h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
+  h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${q.opinion}</div>`:"","opinion");
+  h+=sec("คำถามต่อยอดที่อาจออก",(q.variants||[]).length?`<ul>${q.variants.map(s=>`<li>${s}</li>`).join("")}</ul>`:"");
+  return h+`</section>`;}
+function mqRe(){const y=scrollY;mqView();scrollTo(0,y);}
+function mqClearSub(x,i){["t","g","gm","c","cs","ai","kg"].forEach(k=>{if(x[k])delete x[k][i];});}
+function mqSubmit(){const c=mqCur();if(!c)return;const {q,pi}=c;if(mqPDone(q,pi))return;mqTStop();const x=mqEns(q);if(x.pz)delete x.pz[pi];
+  const subs=mqTM()?mqTsubs(q,pi):q.parts[pi].subs;
+  if(mqTM()){x.sd=x.sd||{};subs.forEach(s=>{if(!mqSubDone(q,s,x)){x.sd[s._i]=1;if(x.reo)delete x.reo[s._i];}});}
+  else{if(pi!==mqPs(q))return;x.ps=pi+1;subs.forEach(s=>{if(x.reo)delete x.reo[s._i];});}
+  if(mqPs(q,x)>=q.parts.length){x.sub=1;x.at=now();}
+  mqKwFill(q,subs);
+  mqSave(q);mqView();const e=$("mqs"+subs[0]._i);if(e)setTimeout(()=>e.scrollIntoView({block:"start"}),60);if(HAS_CLAUDE())mqAiRun(q,pi,false);}
+function mqSubmitReo(q,pi,ids){if(!ids.length)return;mqTStop();const x=mqEns(q);ids.forEach(i=>{if(x.reo)delete x.reo[i];});if(x.pz&&!mqReoIds(q,pi).length)delete x.pz[pi];
+  mqKwFill(q,ids.map(i=>q.subs[i]));mqSave(q);mqView();const e=$("mqs"+ids[0]);if(e)setTimeout(()=>e.scrollIntoView({block:"start"}),60);if(HAS_CLAUDE())mqAiRun(q,pi,false);}
+function mqRedoSub(q,pi,i){if(!confirm("ทำข้อนี้ใหม่? คำตอบ ติ๊ก และคะแนนของข้อนี้จะถูกล้าง (ข้ออื่นไม่เปลี่ยน)"))return;mqTStop();const x=mqEns(q);mqClearSub(x,i);x.reo=x.reo||{};x.reo[i]=1;x.sub=0;mqSave(q);mqView();
+  const ta=$("mqa"+i);if(ta){ta.scrollIntoView({block:"center"});ta.focus({preventScroll:true});}}
+function mqRedoPart(q,pi){if(!confirm("ทำส่วนนี้ใหม่ทั้งหน้า? คำตอบ ติ๊ก คะแนน และเวลาของส่วนนี้จะถูกล้าง (ส่วนอื่นไม่เปลี่ยน)"))return;mqTStop();const x=mqEns(q);if(x.pz)delete x.pz[pi];x.reo=x.reo||{};
+  (mqTM()?mqTsubs(q,pi):q.parts[pi].subs).forEach(s=>{const was=mqSubDone(q,s,x);mqClearSub(x,s._i);if(was)x.reo[s._i]=1;});x.sub=0;x.pt=x.pt||{};x.time=Math.max(0,(x.time||0)-(x.pt[pi]||0));x.pt[pi]=0;mqSave(q);mqView();scrollTo(0,0);}
+function mqRedoCase(q){if(!confirm(mqTM()?"ล้างคำตอบและคะแนนของ Part ที่ตรงหัวข้อที่เลือกในข้อนี้ เพื่อทำใหม่?":"ล้างคำตอบ คะแนน และเวลาของข้อนี้ทั้งข้อ เพื่อทำใหม่?"))return;mqTStop();const A=mqA();
+  if(mqTM()){const x=mqEns(q);x.reo=x.reo||{};q.subs.filter(mqTmatch).forEach(s=>{const was=mqSubDone(q,s,x);mqClearSub(x,s._i);if(x.sd)delete x.sd[s._i];if(was&&s._p<(x.ps||0))x.reo[s._i]=1;});x.sub=0;x.ts=now();}
+  else A[q.uid]={t:{},g:{},gm:{},c:{},cs:{},ps:0,sd:{},ts:now()};mqS().v.pi=mqDefPart(q);save();mqView();scrollTo(0,0);}
+function mqBindView(q,pi){const r=()=>mqRec(q)||{};
+  {const b=$("mqPause");if(b)b.onclick=mqTogglePause;}{const b=$("mqTRes");if(b)b.onclick=mqTReset;}
+  $("mqStar").onclick=()=>{const S=mqS().star;S[q.uid]=[mqStar(q)?0:1,now()];save();mqRe();};
+  document.querySelectorAll("[data-mpart]").forEach(b=>b.onclick=()=>mqOpen(q.uid,+b.dataset.mpart,mqS().v.r));
+  document.querySelectorAll("textarea.ans:not(.ro)").forEach(el=>{const fit=()=>{el.style.height="auto";el.style.height=Math.max(84,el.scrollHeight+4)+"px";};fit();
+    el.addEventListener("input",()=>{const x=mqEns(q);x.t[el.dataset.i]=el.value;x.ts=now();fit();clearTimeout(MQsaveT);MQsaveT=setTimeout(save,700);});});
+  document.querySelectorAll("textarea.ans.ro").forEach(el=>{el.style.height="auto";el.style.height=Math.max(60,el.scrollHeight+4)+"px";});
+  {const b=$("mqSubmit");if(b)b.onclick=mqSubmit;}
+  {const b=$("mqSubReo");if(b)b.onclick=()=>mqSubmitReo(q,pi,mqReoIds(q,pi));}
+  document.querySelectorAll("[data-mssub]").forEach(b=>b.onclick=()=>mqSubmitReo(q,pi,[+b.dataset.mssub]));
+  document.querySelectorAll("[data-msredo]").forEach(b=>b.onclick=()=>mqRedoSub(q,pi,+b.dataset.msredo));
+  {const b=$("mqRedoPart");if(b)b.onclick=()=>mqRedoPart(q,pi);}{const b=$("mqRedoCase");if(b)b.onclick=()=>mqRedoCase(q);}
+  {const b=$("mqAi");if(b)b.onclick=()=>mqAiRun(q,pi,true);}document.querySelectorAll("[data-mairun]").forEach(b=>b.onclick=()=>mqAiRun(q,pi,true));
+  {const b=$("mqNextPart");if(b)b.onclick=()=>mqStep(1);}
+  $("mqPrev").onclick=()=>mqStep(-1);$("mqNext").onclick=()=>mqStep(1);
+  document.querySelectorAll(".pts input").forEach(el=>el.onchange=()=>{const x=mqEns(q),i=+el.dataset.ms,j=+el.dataset.mp,s=q.subs[i],sig=mqSig(s);
+    x.c=x.c||{};x.cs=x.cs||{};if(x.cs[i]!==sig){x.c[i]=[];x.cs[i]=sig;}x.c[i]=x.c[i]||[];
+    if(el.dataset.mk!==undefined){const m=+el.dataset.mk;if(!Array.isArray(x.c[i][j]))x.c[i][j]=[];x.c[i][j][m]=el.checked;}else x.c[i][j]=el.checked;
+    x.gm=x.gm||{};x.g=x.g||{};if(!x.gm[i]){const sc=mqPtsScore(s,x.c[i]);x.g[i]=sc.got>=sc.tot?2:sc.got>0?1:0;}mqSave(q);mqRe();});
+  document.querySelectorAll(".mgbtn").forEach(el=>el.onclick=()=>{const x=mqEns(q),i=+el.dataset.ms,v=+el.dataset.mg;x.g=x.g||{};x.gm=x.gm||{};
+    if(x.g[i]===v&&x.gm[i]){delete x.g[i];delete x.gm[i];const k=x.kg&&x.kg[i];if(k&&!(x.ai&&x.ai[i]))x.g[i]=k.grade;else if(x.ai&&x.ai[i]&&x.ai[i].grade!=null)x.g[i]=x.ai[i].grade;}else{x.g[i]=v;x.gm[i]=1;}mqSave(q);mqRe();});}
+document.addEventListener("keydown",e=>{try{if(view!=="mq")return;if(e.key==="Enter"&&(e.ctrlKey||e.metaKey)){const b=$("mqSubmit")||$("mqSubReo")||document.querySelector("[data-mssub]");if(b){e.preventDefault();b.click();}}}catch(x){}});
+/* ---- Phase 2: high-yield toggles from MEQ old exams only ---- */
+function mqHY(){const L=mqL(),T=mqTopics(),v=mqS().v;let h=`<div class="mqv"><div class="whead"><h1 class="h2">สรุป High-yield · MEQ</h1><a href="#/${esc(ward)}">กลับหน้าวอร์ด</a></div>
+  <p class="sub" style="margin:0 0 10px">สรุปจากข้อสอบ MEQ เก่าในคลังเท่านั้น จัดตามหัวข้อ · แตะหัวข้อเพื่อเปิด/ปิด แตะข้อย่อยเพื่อดูประเด็น แล้วกด "ไปทำข้อนี้" เพื่อฝึก</p><div class="sum-tools"><button class="btn ghost" id="mqHyAll" type="button">เปิดทั้งหมด</button><button class="btn ghost" id="mqHyNone" type="button">ปิดทั้งหมด</button></div>`;
+  const groups=T.map(([k,n])=>[k,n,L.filter(q=>q.subs.some(s=>(s.tags||[]).includes(k)))]).filter(g=>g[2].length);
+  const un=L.filter(q=>!q.subs.some(s=>(s.tags||[]).length));if(un.length)groups.push(["_","อื่น ๆ",un]);
+  if(!groups.length)h+=`<div class="empty">ยังไม่มีข้อ MEQ ในวอร์ดนี้</div>`;
+  h+=groups.map(([k,n,qs])=>{const rep=qs.filter(q=>q.rep||q.seen).length;return `<details class="sumt"><summary><span class="st-name">${esc(n)}</span><span class="st-meta">${qs.length} ข้อ${rep?` · เคยออกซ้ำ ${rep}`:""}</span></summary><div class="sumg">${qs.map(q=>{const sc=mqScore(q);
+    return `<details class="sums"><summary><span class="ss-name">ข้อ ${esc(mqNum(q))} · ${esc(mqTitle(q))}</span>${q.rep?`<span class="lv hot">ซ้ำ x${q.rep}</span>`:q.seen?`<span class="lv rep">เคยออก ${esc(q.seen)}</span>`:""}<span class="lv">${q.sa?"short ans":"case"}</span>${sc&&sc.all?`<span class="nums">ได้ ${+sc.got.toFixed(1)}/${sc.tot}</span>`:""}</summary><div class="sums-b">${q.interp?`<p class="trend">${q.interp}</p>`:""}${(q.summary||[]).length?`<div class="sb-h">สรุป</div><ul>${q.summary.map(s=>`<li>${s}</li>`).join("")}</ul>`:""}${q.mnemonic?`<div class="sb-h">ช่วยจำ</div><div>${q.mnemonic}</div>`:""}${q.trap?`<div class="sb-h warn">ระวังกับดัก</div><div>${q.trap}</div>`:""}<div class="refs"><button class="ref" type="button" data-hyu="${esc(q.uid)}">ไปทำข้อนี้ <small>${esc(q.set)}</small></button></div></div></details>`;}).join("")}</div></details>`;}).join("");
+  h+=`</div>`;$("main").innerHTML=h;
+  $("mqHyAll").onclick=()=>document.querySelectorAll("details.sumt,details.sums").forEach(d=>d.open=true);$("mqHyNone").onclick=()=>document.querySelectorAll("details.sumt,details.sums").forEach(d=>d.open=false);
+  document.querySelectorAll("[data-hyu]").forEach(b=>b.onclick=()=>{mqVset({r:"service",set:"all",style:"all",status:"all"});mqOpen(b.dataset.hyu,undefined,"service");});}
+
 /* ============================================================
    AC MCQ website — wards → home (MCQ/MEQ/OSCE · Phase 1/2 · rounds) → quiz
    Question view is the same as the platform (template.html).
@@ -6921,7 +7739,8 @@ function PWof(S,id){
   P.mornH=P.mornH||{};mornOne(P);                                 /* Morning round history: {"<day>|<phase>": {day, p, list, ans, ts}} — earlier days, archived when a new day's set is made */
   P.adm=P.adm||{cur:null,ans:null,next:null,n:0,right:0,recent:[],ts:0};   /* Admission round */
   P.seen=P.seen||{};   /* where each question has been shown: {uid: {roundKey: firstTs}} */
-  P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
+  P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};
+  mqInitP(P);   /* MEQ progress (site/meq.js): {a1,a2,star,v} */   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
   return P;
 }
 /* migrate the earlier single-sheet site/artifact format {a:{uid:ans},t} → Phase 1 attempts */
@@ -6988,7 +7807,8 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy"].includes(v))v="home";
+  if((v==="mqr"||v==="mq"||v==="mqhy")&&!mqL().length)v="home";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
   if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
@@ -6996,7 +7816,7 @@ function route(){
 }
 function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]).filter(u=>qAny(u)||(!sharedT&&fbOn()&&/^(ADM|LAI)\|/.test(u)));if(!s.list.length){P.sess=null;return false;}if(s.cur>=s.list.length)s.cur=s.list.length-1;if(s.cur<0)s.cur=0;return true;}
 function show(v){
-  view=v;const quiz=["svc","sess","adm","exam","lrev","admq"].includes(v);
+  mqTStop();view=v;const quiz=["svc","sess","adm","exam","lrev","admq"].includes(v);
   clearInterval(show._t);
   $("nav").hidden=!quiz;$("exnav").hidden=v!=="exam";paintLegBan();$("openSheet").hidden=!quiz;$("homeBtn").hidden=v==="wards";paintQR();
   const w=ward&&W_();const fill=(t,ty)=>String(t).replace(/\{short\}/g,w.cfg.short||w.cfg.id).replace(/\{type\}/g,ty||"");
@@ -7005,7 +7825,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates})[v]();
+  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -7106,7 +7926,7 @@ function rGrades(){
   document.querySelectorAll("[data-gw]").forEach(r=>r.onclick=()=>{if(r.dataset.gw&&WARDS[r.dataset.gw])go(r.dataset.gw);});
   $("grBack").onclick=()=>go("");}
 const ROUNDS=[
-  {k:"grand",n:"Grand round",d:"สุ่มข้อจากทั้งคลัง ไม่สนว่าปีไหนหรือเรื่องอะไร"},
+  {k:"grand",n:"Grand round",d:"สุ่มจากคลังข้อสอบเก่า (AC) ทั้งหมดเท่านั้น ไม่สนว่าปีไหนหรือเรื่องอะไร"},
   {k:"service",n:"Service round",d:"เลือกปีและ rotation ที่อยากทำ ทำแบบกระดาษคำตอบ"},
   {k:"morning",n:"Morning round",d:"วันละ 15 ข้อ: ข้อสอบเก่าที่เคยทำแล้ว 5 ข้อ + โจทย์ Unit round 10 ข้อ ชุดใหม่ทุกวัน 07:30 · ชุดเดียวกันทั้ง 2 Phase"},
   {k:"legend",n:"Legendary round",d:"จำลองสอบจริง จำนวนข้อและเวลาเท่าสอบจริงของวอร์ด ทำรวดเดียว ส่งแล้วได้เกรด · มีโจทย์ใหม่ที่ AI สร้างเฉพาะชุดนั้นปนอยู่บางข้อ"},
@@ -7220,6 +8040,7 @@ function rHome(){
   h+=`<p class="phase-hint">${p===1?"ทำเพื่อเก็บความรู้ไปใช้บนวอร์ด และดูว่าข้อสอบชอบออกแนวไหน เนื้อหาไหนมีหรือไม่มีในสไลด์":"ทวนข้อสอบเก่ารอบสองก่อนสอบ มีหน้าสรุป high-yield, keyword และทวนเฉพาะข้อที่ยังผิด/ไม่มั่นใจ — ความคืบหน้าแยกจาก Phase 1"}</p>`;}
   if(noEx){
     h+=`<div class="empty" style="padding:44px 10px"><b style="font-family:var(--num);font-size:18px;color:var(--ink)">${esc(w.name)} ไม่มีสอบ ${type}</b><br><span class="hint">วอร์ดนี้สอบเฉพาะ ${["MCQ","MEQ","OSCE"].filter(t=>!(w.noExam||[]).includes(t)).join(" / ")}</span></div>`;
+  }else if(type==="MEQ"&&mqL().length){h+=mqHomeHTML();
   }else if(type!=="MCQ"){
     h+=`<div class="empty" style="padding:40px 10px">ยังไม่มีข้อสอบ ${type} ในวอร์ดนี้<br><span class="hint">ส่งไฟล์ ${type} ให้ Claude แล้วให้เพิ่มเข้าเว็บ</span></div>`;
   }else{
@@ -7249,7 +8070,7 @@ function rHome(){
       <div class="row2"><button class="btn${ua+ul?" primary":""}" id="hSendWeb" type="button" ${ua+ul?"":"disabled"}>ส่งไปเว็บ (เฉพาะของฉัน)</button><button class="btn ghost" id="hSendAll" type="button">ส่งทั้งหมดอีกครั้ง</button></div><p class="hint" id="hSendNote" style="margin:6px 0 0"></p>${ufaBtn("ufaHome")}</div>`;}
   h+=`<div class="card"><h3>ย้ายความคืบหน้า</h3><span class="rd"><b>ลิงก์</b> พาไปได้ทุกวอร์ด ทุก Phase พร้อม ⚑ (ไม่รวมโน้ต) · <b>ไฟล์สำรอง</b> ครบทุกอย่างรวมโน้ตและที่เขียนด้วยมือ</span><div class="tools"><button class="tool" id="hExp">🔗 ส่งลิงก์ความคืบหน้า</button><button class="tool" id="hImp">⤵ นำเข้าลิงก์ / รหัส</button><button class="tool" id="hFile">💾 ดาวน์โหลดไฟล์สำรอง</button><button class="tool" id="hFileIn">📂 นำเข้าไฟล์สำรอง</button></div></div>`;
   h+=`<p class="hint" style="text-align:center;margin-top:18px">อัปเดตเว็บล่าสุด ${typeof BUILD!=="undefined"?BUILD:""}</p>`;
-  $("main").innerHTML=h;
+  $("main").innerHTML=h;if(type==="MEQ"&&!noEx)mqBindHome();
   document.querySelectorAll("[data-cs]").forEach(b=>b.onclick=()=>{st.clStart=b.dataset.cs;save();rHome();});
   bindUfa();
   {const b=$("hSendAll");if(b)b.onclick=()=>sendWeb(bankItems("adm",ward).map(x=>x.key).concat(bankItems("leg",ward).map(x=>x.key)),"hSendNote");}
@@ -8830,6 +9651,7 @@ function mergeSt(a,b){
     if(r.lcCur&&!l.lcCur)l.lcCur=r.lcCur;
     if(r.advPlan&&(!l.advPlan||(r.advPlan.ts||0)>(l.advPlan.ts||0)))l.advPlan=r.advPlan;
     newer(l.flag,r.flag);newer(l.post,r.post);
+    {const a=mqInitP(l),c=mqInitP(r);newer(a.a1,c.a1);newer(a.a2,c.a2);newer(a.star,c.star);if((c.v.ts||0)>(a.v.ts||0))l.meq.v=c.v;}
     if((b.t||0)>(a.t||0)){l.svc=r.svc;l.type=r.type;l.pick=r.pick;}
     if(r.sess&&(!l.sess||(r.sess.ts||0)>(l.sess.ts||0)))l.sess=r.sess;
   }
