@@ -455,7 +455,7 @@ function guessTags(W,txt){const v=broadOf(W),t=String(txt||"").toLowerCase(),o=[
 function cleanTags(W,a,txt){const v=broadOf(W),lc=v.map(x=>x.toLowerCase()),o=[];(Array.isArray(a)?a:[]).forEach(x=>{const i=lc.indexOf(String(x).trim().toLowerCase());if(i>=0&&!o.includes(v[i]))o.push(v[i]);});return o.length?o.slice(0,4):guessTags(W,txt);}
 /* subject tags (data/tags.js: 1–3 per question, chapter-level) — shown before and after answering in every round; never on the Legendary question page */
 function qTags(q){const W=W_();let t=[];
-  if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=[].concat(Lc.tags||Lc.topic||[]);}
+  if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=Array.isArray(q.tags)&&q.tags.length?q.tags:[].concat(Lc.tags||Lc.topic||[]);}
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];return t;}
 /* attached resources outside the lectures (<dir>/resources.js → W.RES=[{code,title,topic,tags,type,url,note,points:[…]}]) */
 const resOf=W=>(W&&W.RES||[]).filter(r=>r&&r.title);
@@ -466,7 +466,7 @@ const resPts=(r,n)=>(Array.isArray(r.points)?r.points:[]).slice(0,n||99);
 function pickSrc(W){const rs=resOf(W).filter(r=>resPts(r).length),o=[null].concat(rs);return o[Math.floor(Math.random()*o.length)];}
 const srcPrompt=r=>r?`\nContent source for this question: build it mainly on the attached resource below (you may add standard textbook or guideline knowledge, but the key point tested must come from it).\nResource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}\n`:"";
 function tagRow(q){const W=W_();let t=[];
-  if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=[].concat(Lc.tags||Lc.topic||[]);}
+  if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=Array.isArray(q.tags)&&q.tags.length?q.tags:[].concat(Lc.tags||Lc.topic||[]);}
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];
   if(!t.length)return "";
   const lec=W.TAGLEC||{};   /* future: tag → lecture code */
@@ -604,6 +604,7 @@ function explain(q,done,R,p){
   else if(q.lai)h+=`<span class="tag">Legendary round · โจทย์ใหม่ที่ AI สร้างสำหรับข้อสอบวันที่ ${fmtD(q.ts)}${q.topic?` · ${esc(q.topic)}`:""}</span>`;
   else if(q.adm)h+=`<span class="tag">Admission round · เคสที่ AI สร้างใหม่${q.topic?` · ${esc(q.topic)}`:""}</span>`;
   if(q.adm)h+=`<span class="tag">ที่มาของเนื้อหา: ${q.srcRes?`resource ที่แนบไว้ — ${esc(q.srcRes)}`:"ความรู้ทั่วไป / ตำรา / guideline ภายนอก (ไม่ได้มาจากไฟล์ที่แนบ)"}</span>`;
+  else if(q.unit){if(q.src)h+=`<span class="tag">ที่มา: ${esc(q.src)}</span>`;}
   else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;}
   if(q.guide)h+=`<div class="guide">📘 <b>อ้างอิง${q.adm||q.unit?"":" guideline"}:</b> ${q.adm?esc(q.guide):q.guide}</div>`;
   if(q.flag)h+=`<span class="tag warn">⚠ คีย์ไม่ชัวร์ / โจทย์ต้นฉบับไม่ครบ</span>`;
@@ -624,7 +625,7 @@ function explain(q,done,R,p){
   h+=sec("ระวังกับดัก",q.trap?`<div class="box">${R(q.trap)}</div>`:"","trap");
   h+=sec("สรุปความรู้จากข้อนี้",`<ul>${(q.summary||[]).map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
   h+=sec("สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${rich(q.notes)}</div>`:"","notes");
-  if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg];h+=sec("สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map(k=>imgHTML(k,"สไลด์อ้างอิงจากไฟล์เฉลย",1)).join("")}</div>`);}
+  if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg];h+=sec(q.unit?"สไลด์/รูปอ้างอิงจาก lecture":"สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map(k=>imgHTML(k,q.unit?"สไลด์อ้างอิงจาก lecture":"สไลด์อ้างอิงจากไฟล์เฉลย",1)).join("")}</div>`);}
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
   {const rs=resFor(q);if(rs.length)h+=sec("อ่านเพิ่มจาก resource ที่แนบไว้",rs.map(r=>`<div class="resitem"><b>${esc(resLabel(r))}</b>${r.url?` · <a href="${esc(r.url)}" target="_blank" rel="noopener">เปิด</a>`:""}${resPts(r,6).length?`<ul>${resPts(r,6).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:r.note?`<p>${esc(r.note)}</p>`:""}</div>`).join(""));}
   h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");
