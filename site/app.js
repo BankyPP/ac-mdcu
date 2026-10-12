@@ -51,6 +51,11 @@ let st=ld(KEY)||{};
 if(!st.w)st.w={}; if(st.phase!==2)st.phase=1;
 let ink=ld(IKEY)||{};
 const blankSvc=()=>({set:"all",status:"all",cur:""});
+/* Morning round is one set per day for both Phases (user 12 Oct 2026): slot P.morn[1] only — an older per-Phase set in P.morn[2] is folded in (the busier set of the same day stays; the other, if answered, goes to history as "|2") */
+function mornOne(P){const b=P.morn&&P.morn[2];if(!b)return;const a=P.morn[1],n=x=>Object.keys((x&&x.ans)||{}).length;let keep=a,other=b;
+  if(!a||!a.day||(b.day>a.day)||(b.day===a.day&&n(b)>n(a))){keep=b;other=a;}
+  if(other&&other.day&&n(other)){const same=other.day===keep.day,pp=same?2:1;P.mornH[other.day+"|"+pp]=Object.assign({},other,{p:pp});}
+  P.morn[1]=keep;delete P.morn[2];}
 function PWof(S,id){
   let P=S.w[id];if(!P)P=S.w[id]={};
   P.att=P.att||{};P.att[1]=P.att[1]||{};P.att[2]=P.att[2]||{};
@@ -61,7 +66,7 @@ function PWof(S,id){
   if(P.sess===undefined)P.sess=null;
   P.unit=P.unit||{};P.unit.att=P.unit.att||{};        /* Unit round answers (both phases share) */
   P.morn=P.morn||{};                                   /* Morning round: {1|2: {day, list, ans, ts}} */
-  P.mornH=P.mornH||{};                                 /* Morning round history: {"<day>|<phase>": {day, p, list, ans, ts}} — earlier days, archived when a new day's set is made */
+  P.mornH=P.mornH||{};mornOne(P);                                 /* Morning round history: {"<day>|<phase>": {day, p, list, ans, ts}} — earlier days, archived when a new day's set is made */
   P.adm=P.adm||{cur:null,ans:null,next:null,n:0,right:0,recent:[],ts:0};   /* Admission round */
   P.seen=P.seen||{};   /* where each question has been shown: {uid: {roundKey: firstTs}} */
   P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
@@ -204,7 +209,7 @@ function rGrades(){
 const ROUNDS=[
   {k:"grand",n:"Grand round",d:"สุ่มข้อจากทั้งคลัง ไม่สนว่าปีไหนหรือเรื่องอะไร"},
   {k:"service",n:"Service round",d:"เลือกปีและ rotation ที่อยากทำ ทำแบบกระดาษคำตอบ"},
-  {k:"morning",n:"Morning round",d:"วันละ 15 ข้อ: ข้อสอบเก่าที่เคยทำแล้ว 5 ข้อ + โจทย์ Unit round 10 ข้อ ชุดใหม่ทุกวัน 07:30"},
+  {k:"morning",n:"Morning round",d:"วันละ 15 ข้อ: ข้อสอบเก่าที่เคยทำแล้ว 5 ข้อ + โจทย์ Unit round 10 ข้อ ชุดใหม่ทุกวัน 07:30 · ชุดเดียวกันทั้ง 2 Phase"},
   {k:"legend",n:"Legendary round",d:"จำลองสอบจริง จำนวนข้อและเวลาเท่าสอบจริงของวอร์ด ทำรวดเดียว ส่งแล้วได้เกรด · มีโจทย์ใหม่ที่ AI สร้างเฉพาะชุดนั้นปนอยู่บางข้อ"},
   {k:"staff",n:"Ward staff round",d:"ทวนข้อที่เคยทำแล้ว แต่ยังทำถูกติดกันไม่ถึง 2 ครั้ง · เลือกได้ว่าเฉพาะข้อสอบเก่า หรือรวมโจทย์จาก Unit, Admission และ Legendary ด้วย"},
   {k:"teach",n:"Teaching round",d:"ใบเหลือง · CTA · Flashcard · Oral"},
@@ -221,14 +226,15 @@ const MORN_N=15,MORN_AC=5;
 const mDay=t=>{const d=new Date((t||now())-7.5*3600e3);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");};
 function mNext(){const d=new Date(),r=new Date(d);r.setHours(7,30,0,0);if(r<=d)r.setDate(r.getDate()+1);return r.getTime();}
 const hms=ms=>{const x=Math.max(0,Math.floor(ms/1000));return String(Math.floor(x/3600)).padStart(2,"0")+":"+String(Math.floor(x/60)%60).padStart(2,"0")+":"+String(x%60).padStart(2,"0");};
-function mPool(P,p){const W=W_();let pool=W.QB.filter(q=>atts(P,p,q.uid).length);W.UNIT.forEach(Lc=>{pool=pool.concat(Lc.QB.filter(q=>!uAtts(P,q.uid).length));});return pool;}
-function morning(make){const P=P_(),p=ph(),d=mDay();let m=P.morn[p];
+const acDoneAny=(P,u)=>atts(P,1,u).length||atts(P,2,u).length;
+function mPool(P,p){const W=W_();let pool=W.QB.filter(q=>acDoneAny(P,q.uid));W.UNIT.forEach(Lc=>{pool=pool.concat(Lc.QB.filter(q=>!uAtts(P,q.uid).length));});return pool;}
+function morning(make){const P=P_(),p=1,d=mDay();mornOne(P);let m=P.morn[p];
   if(m&&m.day===d){m.list=m.list.filter(u=>W_().byU[u]);return m;}
   if(!make)return null;
   if(m&&m.day&&m.day!==d)P.mornH[m.day+"|"+p]=Object.assign({p},m);
   const pool=mPool(P,p);if(!pool.length)return null;
   /* 5 old-exam questions already done + 10 Unit round questions (not met yet first); a short pool is topped up from the other */
-  const W=W_(),acDone=shuffle(W.QB.filter(q=>atts(P,p,q.uid).length)),acRest=shuffle(W.QB.filter(q=>!atts(P,p,q.uid).length)),U=[].concat(...W.UNIT.map(Lc=>Lc.QB)),
+  const W=W_(),acDone=shuffle(W.QB.filter(q=>acDoneAny(P,q.uid))),acRest=shuffle(W.QB.filter(q=>!acDoneAny(P,q.uid))),U=[].concat(...W.UNIT.map(Lc=>Lc.QB)),
     uNew=shuffle(U.filter(q=>!uAtts(P,q.uid).length)),uOld=shuffle(U.filter(q=>uAtts(P,q.uid).length)),ac=acDone.concat(acRest),un=uNew.concat(uOld);
   let a=ac.slice(0,MORN_AC),u=un.slice(0,MORN_N-MORN_AC);
   if(u.length<MORN_N-MORN_AC)a=ac.slice(0,MORN_N-u.length);else if(a.length<MORN_AC)u=un.slice(0,MORN_N-a.length);
@@ -240,7 +246,7 @@ const TH_WD=["อา.","จ.","อ.","พ.","พฤ.","ศ.","ส."],TH_MO=["ม
 const dayTH=d=>{const [y,m,dd]=d.split("-").map(Number),t=new Date(y,m-1,dd);return `${TH_WD[t.getDay()]} ${dd} ${TH_MO[m-1]} ${String(y+543).slice(2)}`;};
 const addDay=(d,n)=>{const [y,m,dd]=d.split("-").map(Number),t=new Date(y,m-1,dd+n);return t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");};
 function mornRecs(){const P=P_(),o={};for(const k in P.mornH){const x=P.mornH[k];if(x&&x.day)(o[x.day]=o[x.day]||[]).push(Object.assign({p:+k.split("|")[1]||1},x));}
-  [1,2].forEach(p=>{const m=P.morn[p];if(!m||!m.day)return;const L=o[m.day]=(o[m.day]||[]).filter(x=>x.p!==p);L.push(Object.assign({p},m));});return o;}
+  [1,2].forEach(p=>{const m=P.morn[p];if(!m||!m.day)return;const L=o[m.day]=(o[m.day]||[]).filter(x=>x.p!==p);L.push(Object.assign({p},m));});for(const d in o)o[d].sort((a,b)=>a.p-b.p);return o;}
 function mornStat(x){const W=W_(),list=(x.list||[]).filter(u=>W.byU[u]),done=list.filter(u=>x.ans[u]!==undefined),qs=list.map(u=>W.byU[u]);
   const ok=u=>x.ans[u]===W.byU[u].ans,ac=qs.filter(q=>!q.unit),un=qs.filter(q=>q.unit);
   const part=a=>({n:a.length,done:a.filter(q=>x.ans[q.uid]!==undefined).length,right:a.filter(q=>ok(q.uid)).length});
@@ -249,10 +255,12 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=(W.cfg.rotation)|
   const keys=Object.keys(rec).sort(),start=rot.start||keys[0]||today,end=rot.end||(keys.length&&keys[keys.length-1]>today?keys[keys.length-1]:today);
   const days=[];for(let d=start;d<=end&&days.length<400;d=addDay(d,1))days.push(d);keys.forEach(k=>{if(!days.includes(k))days.push(k);});days.sort();
   let full=0,partial=0,miss=0,ans=0,right=0,streak=0,run=0;
-  const rows=days.map(d=>{const L0=rec[d]||[],S0=L0.map(mornStat),ix=S0.map((x,i)=>i),act=ix.filter(i=>S0[i].done>0),cur=ix.filter(i=>L0[i].p===ph()),keep=act.length?act:cur.length?cur:ix,L=keep.map(i=>L0[i]),S=keep.map(i=>S0[i]),n=S.reduce((a,x)=>a+x.n,0),dn=S.reduce((a,x)=>a+x.done,0),rt=S.reduce((a,x)=>a+x.right,0);
-    const st_=d>today?"future":d===today?(n&&dn>=n?"full":"today"):!n||!dn?"miss":dn>=n?"full":"part";
+  const rows=days.map(d=>{const L0=rec[d]||[],S0=L0.map(mornStat),ix=S0.map((x,i)=>i),act=ix.filter(i=>S0[i].done>0),cur=ix.filter(i=>L0[i].p===1),keep=act.length?act:cur.length?cur:ix,L=keep.map(i=>L0[i]),S=keep.map(i=>S0[i]),dn=S.reduce((a,x)=>a+x.done,0),rt=S.reduce((a,x)=>a+x.right,0);
+    /* completeness counts the day's main set (both Phases share it); a leftover set from before the Phases were merged only adds its answers */
+    const mi=L.findIndex(x=>x.p===1),M=S[mi<0?0:mi]||{n:0,done:0},n=M.n,mdn=M.done;
+    const st_=d>today?"future":d===today?(n&&mdn>=n?"full":"today"):!n||!dn?"miss":mdn>=n?"full":"part";
     if(d<=today){ans+=dn;right+=rt;if(st_==="full")full++;else if(st_==="part")partial++;else if(st_==="miss")miss++;}
-    return {d,L,S,n,dn,rt,st:st_};});
+    return {d,L,S,n,dn:mdn,all:dn,rt,st:st_};});
   rows.filter(r=>r.d<=today).forEach(r=>{if(r.st==="full")run++;else if(r.st!=="today")run=0;});streak=run;
   const past=rows.filter(r=>r.d<=today).length;
   let h=`<h1 class="h2">ประวัติ Morning round</h1><p class="sub">ทุกวันของวอร์ดนี้${rot.start?` (${dayTH(rot.start)} – ${dayTH(rot.end||end)})`:""} · วันนับตั้งแต่ 07:30 ถึง 07:29 ของวันถัดไป · แตะวันที่เพื่อดูทั้ง 15 ข้อและเฉลย · เรียงจากวันแรกลงมา เปิดหน้ามาจะเลื่อนไปที่วันนี้ให้</p>`;
@@ -260,12 +268,12 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=(W.cfg.rotation)|
   h+=`<p class="hint" style="margin:6px 0 10px">ผ่านมาแล้ว ${past} จาก ${rows.length} วัน${HAS_CLAUDE()?" · ประวัตินี้เก็บแยกในเว็บกับใน Claude (เข้าสู่ระบบในเว็บเพื่อรวมหลายเครื่อง)":""}</p><div class="mhlist">`;
   rows.forEach(r=>{
     const lab=r.st==="future"?`<span class="mhs fut">ยังไม่ถึง</span>`:r.st==="miss"?`<span class="mhs miss">ไม่ได้ทำ</span>`:r.st==="today"?`<span class="mhs part">${r.dn?`วันนี้ทำไป ${r.dn}/${r.n}`:"วันนี้ยังไม่ได้ทำ"}</span>`:r.st==="part"?`<span class="mhs part">ทำ ${r.dn}/${r.n}</span>`:`<span class="mhs ok">ครบ ${r.dn}/${r.n}</span>`;
-    const sc=r.dn?`<span class="mhr">ถูก <b>${r.rt}</b>/${r.dn} (${Math.round(r.rt/r.dn*100)}%)${r.S.map((x,i)=>` · ${r.S.length>1?`Phase ${r.L[i].p}: `:""}AC ถูก ${x.ac.right}/${x.ac.done}${x.ac.n>x.ac.done?` (ชุดนี้มี ${x.ac.n})`:""} · Unit ถูก ${x.un.right}/${x.un.done}${x.un.n>x.un.done?` (ชุดนี้มี ${x.un.n})`:""}`).join("")}</span>`:"";
+    const sc=r.all?`<span class="mhr">ถูก <b>${r.rt}</b>/${r.all} (${Math.round(r.rt/r.all*100)}%)${r.S.map((x,i)=>` · ${r.S.length>1?(r.L[i].p===1?"ชุดหลัก: ":"ชุดเดิมของ Phase 2: "):""}AC ถูก ${x.ac.right}/${x.ac.done}${x.ac.n>x.ac.done?` (ชุดนี้มี ${x.ac.n})`:""} · Unit ถูก ${x.un.right}/${x.un.done}${x.un.n>x.un.done?` (ชุดนี้มี ${x.un.n})`:""}`).join("")}</span>`:"";
     const head=`<span class="mhd${r.d===today?" now":""}">${dayTH(r.d)}</span>${lab}${sc}`;
     const id=r.d===today?' id="mhToday"':"";
     if(!r.n){h+=`<div class="mhrow"${id}>${head}</div>`;return;}
     h+=`<details class="mhrow"${id}${r.d===today?" open":""}><summary>${head}</summary>`;
-    r.L.forEach((x,li)=>{const S=r.S[li];if(r.L.length>1)h+=`<div class="hint">Phase ${x.p}</div>`;
+    r.L.forEach((x,li)=>{const S=r.S[li];if(r.L.length>1)h+=`<div class="hint">${x.p===1?"ชุดหลัก":"ชุดเดิมของ Phase 2 (ก่อนรวม 2 Phase เป็นชุดเดียว)"}</div>`;
       h+=`<ol class="mhq">${S.list.map((u,i)=>{const q=W.byU[u],a=x.ans[u],res=a===undefined?`<span class="mhx na">ไม่ได้ตอบ</span>`:a<0?`<span class="mhx no">หมดเวลา</span>`:a===q.ans?`<span class="mhx ok">✓ ${L[a]}</span>`:`<span class="mhx no">✗ ${L[a]} · เฉลย ${L[q.ans]}</span>`;
         const src=q.unit?`Unit · ${esc((W.byLec[q.unit]||{}).short||q.set)} ข้อ ${q.n}`:`AC ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id}`;
         return `<li><button class="mhopen" type="button" data-md="${esc(r.d)}" data-mp="${x.p}" data-mi="${i}"><span class="mhsrc">${src}</span><span class="mhst">${esc(plain(q.stem).slice(0,110))}${plain(q.stem).length>110?"…":""}</span>${res}</button></li>`;}).join("")}</ol>`;});
@@ -274,8 +282,8 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=(W.cfg.rotation)|
   $("main").innerHTML=h;
   {const t=$("mhToday");if(t&&rows.indexOf(rows.find(r=>r.d===today))>2)setTimeout(()=>t.scrollIntoView({block:"start"}),30);}
   document.querySelectorAll("[data-md]").forEach(b=>b.onclick=()=>{const d=b.dataset.md,p=+b.dataset.mp,i=+b.dataset.mi,x=(mornRecs()[d]||[]).find(y=>y.p===p);if(!x)return;
-    const P=P_();if(d===mDay()&&P.morn[p]&&P.morn[p].day===d&&p===ph()){qStop();P.sess={kind:"morning",title:"Morning round",ph:p,day:d,list:P.morn[p].list.slice(),ans:Object.assign({},P.morn[p].ans),cur:i,ts:now()};save();return go(ward+"/sess");}
-    qStop();P.sess={kind:"mday",title:"Morning round · "+dayTH(d),ph:p,day:d,list:mornStat(x).list,ans:Object.assign({},x.ans),cur:i,ts:now()};save();go(ward+"/sess");});
+    const P=P_();if(d===mDay()&&P.morn[1]&&P.morn[1].day===d&&p===1){qStop();P.sess={kind:"morning",title:"Morning round",ph:ph(),day:d,list:P.morn[1].list.slice(),ans:Object.assign({},P.morn[1].ans),cur:i,ts:now()};save();return go(ward+"/sess");}
+    qStop();P.sess={kind:"mday",title:"Morning round · "+dayTH(d),ph:ph(),day:d,list:mornStat(x).list,ans:Object.assign({},x.ans),cur:i,ts:now()};save();go(ward+"/sess");});
 }
 function startMorning(){const m=morning(true);if(!m){toast("ยังไม่มีข้อให้ทำ — ยังไม่มีข้อสอบเก่าหรือโจทย์ Unit round ในวอร์ดนี้");return;}
   qStop();const i=m.list.findIndex(u=>m.ans[u]===undefined);
@@ -592,7 +600,7 @@ function bindQuiz(q,locked){
   const c=$("confirm");if(c)c.onclick=confirmAns;
   if($("flagBtn"))$("flagBtn").onclick=()=>{const on=!flagged(P,q.uid);P.flag[q.uid]=[on?1:0,now()];save();$("flagBtn").setAttribute("aria-pressed",on);toast(on?"ทำเครื่องหมาย ไม่มั่นใจ แล้ว":"เอาเครื่องหมายออกแล้ว");};
   if(isAdv())bindAdv(q);
-  const rb=$("redo");if(rb)rb.onclick=()=>{const rk=redoKey(q);if(rk){REDO[rk]=null;pick=null;rQuiz();window.scrollTo(0,0);return;}if(isSess()){delete P.sess.ans[q.uid];if(P.sess.kind==="morning"&&P.morn[P.sess.ph])delete P.morn[P.sess.ph].ans[q.uid];}else P.open[ph()][q.uid]=now();if(P.sess)P.sess.ts=now();pick=null;save();rQuiz();window.scrollTo(0,0);};
+  const rb=$("redo");if(rb)rb.onclick=()=>{const rk=redoKey(q);if(rk){REDO[rk]=null;pick=null;rQuiz();window.scrollTo(0,0);return;}if(isSess()){delete P.sess.ans[q.uid];if(P.sess.kind==="morning"&&P.morn[1]&&P.morn[1].day===P.sess.day)delete P.morn[1].ans[q.uid];}else P.open[ph()][q.uid]=now();if(P.sess)P.sess.ts=now();pick=null;save();rQuiz();window.scrollTo(0,0);};
   const pb=$("preBox");if(pb)pb.addEventListener("toggle",()=>{if(pb.open)mountNotes(pb);});
   mountNotes(document);
   bindAsk(q);
@@ -614,7 +622,7 @@ function confirmAns(){
   else if(q.adm){if(bank[extKey(q)])extPush(q,[pick,now(),rk]);else if(q.lai)bankPut(extKey(q),{q,h:[[pick,now(),rk]]});else admBank(ward,q,pick);}
   else (P.att[p][q.uid]=P.att[p][q.uid]||[]).push([pick,now(),rk]);
   if(isSess()){const s=P.sess;s.ans[q.uid]=pick;s.ts=now();
-    if(s.kind==="morning"){const m=P.morn[s.ph];if(m&&m.day===s.day){m.ans[q.uid]=pick;m.ts=now();}}}
+    if(s.kind==="morning"){const m=P.morn[1];if(m&&m.day===s.day){m.ans[q.uid]=pick;m.ts=now();}}}
   else svcS().cur=q.uid;
   save();rQuiz();
   const e=document.querySelector(".exp");if(e)setTimeout(()=>e.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"}),60);
@@ -1914,6 +1922,7 @@ function mergeSt(a,b){
     [1,2].forEach(p=>{const a=l.morn[p],c=r.morn[p];if(!c)return;
       if(a&&a.day===c.day&&(a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);
       else if(!a||c.day>a.day||(c.day===a.day&&(c.ts||0)>(a.ts||0)))l.morn[p]=c;});
+    mornOne(l);
     for(const k in r.mornH){const a=l.mornH[k],c=r.mornH[k];if(!a)l.mornH[k]=c;else if((a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);else if((c.ts||0)>(a.ts||0))l.mornH[k]=c;}
     if((r.adm.ts||0)>(l.adm.ts||0))l.adm=r.adm;
     for(const u in r.seen){const a=l.seen[u]||(l.seen[u]={}),b=r.seen[u];for(const k in b)a[k]=a[k]?Math.min(a[k],b[k]):b[k];}
