@@ -227,6 +227,7 @@ figure .spr{width:100%!important}
 .lhstat b{display:block;font-family:var(--num);font-size:20px;color:var(--ink)}
 .lhtrend{display:flex;flex-wrap:wrap;gap:4px;margin-top:12px;justify-content:center}
 /* Legendary: exam size of this ward, made prominent */
+.round .rcnt{display:block;margin-top:4px;color:var(--muted);font-size:13px;line-height:1.4}.round .rcnt b{color:inherit;font-weight:700;font-size:inherit}
 .round .lgspec{display:block;margin-top:6px;font-family:var(--num);font-size:15px;color:var(--form)}
 .round .lgspec b{font-size:19px;font-weight:700}
 .lgbig{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:4px 0 14px;padding:12px 16px;border-radius:12px;background:var(--form-soft);color:var(--form);font-family:var(--num);font-size:18px}
