@@ -516,3 +516,12 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .mqv .crow{grid-template-columns:52px 1fr}.mqv .cmeta{grid-column:2}
 .mqv .mqnav{margin-top:26px;border-top:1px solid var(--rule);padding-top:14px}
 .mqv .mtbar{margin:0 0 14px}
+.mqdlg{position:fixed;inset:0;z-index:70;background:rgba(10,14,14,.5);display:grid;place-items:center;padding:16px}
+.mqdlg[hidden]{display:none}
+.mqdlg-box{background:var(--paper);color:var(--ink);border-radius:8px;border-top:3px solid var(--form);width:min(460px,100%);max-height:90vh;overflow:auto;padding:16px;box-shadow:0 12px 40px rgba(0,0,0,.3)}
+.mqdlg-box h3{margin:0 0 8px;font-size:17px}.mqdlg-box p{margin:0 0 10px;font-size:15px;line-height:1.6}
+.mqsteps{margin:0 0 10px;padding-left:20px;font-size:14.5px;line-height:1.6}
+.mqcode{display:block;width:100%;min-height:70px;margin:0 0 10px;padding:8px 10px;border:1.5px solid var(--rule);border-radius:6px;background:var(--sheet);color:var(--ink);font:12px/1.4 ui-monospace,monospace;resize:vertical;word-break:break-all}
+.mqdlg .dlg-act,.mqv .dlg-act{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+.mqdlg .dlg-act .btn{font-size:15px;padding:8px 14px;text-decoration:none}
+.mqv .row2{margin-bottom:8px}
