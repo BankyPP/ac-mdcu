@@ -227,15 +227,17 @@ function mqView(){const c=mqCur();if(!c){go(ward);return;}const {q}=c;let pi=c.p
   else if(NP>1)h+=`<div class="psteps">${q.parts.map((p,j)=>{const lock=j>ps;return `<button class="pstep ${j<ps?"done":j===ps?"open":"lock"}${j===pi?" on":""}" data-mpart="${j}" ${lock?'disabled title="ส่งคำตอบ Part ก่อนหน้าก่อน"':""}>${lock?"🔒 ":j<ps?"✓ ":""}${mqGL(q,j)}</button>`;}).join("")}</div>`;
   if(!q.sa){h+=`<section class="case${pi>0?" old":""}"><div class="case-lab">ข้อ ${esc(mqNum(q))}${pi>0?' <span class="oldtag">ข้อมูลเดิม</span>':""}</div><div class="stem">${q.stem}</div>${mqImgs(q.img,q.imgNote)}${q.gray?`<p class="gray">${esc(q.gray)}</p>`:""}</section>`;
     const prev=q.parts.slice(0,pi).filter(p=>p.info||p.img);
-    if(prev.length)h+=`<details class="prev old" open><summary>ข้อมูลเพิ่มเติมจาก Part ก่อนหน้า <span class="oldtag">ข้อมูลเดิม</span></summary>${prev.map(p=>`<div class="pinfo"><span class="pn">${esc(mqGL(q,p.i).replace("Part ","P"))}</span><div>${p.info?`<div>${p.info}</div>`:""}${mqImgs(p.img,p.imgNote)}</div></div>`).join("")}</details>`;}
+    if(prev.length)h+=`<details class="prev old" open><summary>ข้อมูลเพิ่มเติมจาก Part ก่อนหน้า <span class="oldtag">ข้อมูลเดิม</span></summary>${prev.map(p=>`<div class="pinfo"><span class="pn">${esc(mqGL(q,p.i).replace("Part ","P"))}</span><div>${p.info?`<div>${p.info}</div>`:""}${p.info&&(p.igray||p.gray)?`<p class="gray">${esc(p.igray||p.gray)}</p>`:""}${mqImgs(p.img,p.imgNote)}</div></div>`).join("")}</details>`;}
   const pm=SUBS.reduce((a,s)=>a+mqMk(s),0);
   h+=`<section class="part"><div class="part-h"><span class="pnum">${q.sa?"คำถาม":esc(gl)}</span><span class="mk">${pm} คะแนน</span>${pDone&&!mqReoIds(q,pi).length&&r.pt&&r.pt[pi]?`<span class="ptime">⏱ ใช้เวลา ${mqFmt(r.pt[pi])}</span>`:""}</div>`;
-  if(part.info)h+=`<div class="pinfo-cur"><span class="newtag">ข้อมูลใหม่</span>${part.info}</div>`;
-  h+=mqImgs(part.img,part.imgNote);if(part.gray)h+=`<p class="gray">${esc(part.gray)}</p>`;
+  /* Thai wording from the AC file sits under the English text it translates, like the case box: igray under the new information, sub gray under each Part's question (an old-style part.gray goes under the info, or under the first question) */
+  const pg=part.igray||(part.info?part.gray:"");
+  if(part.info)h+=`<div class="pinfo-cur"><span class="newtag">ข้อมูลใหม่</span>${part.info}${pg?`<p class="gray">${esc(pg)}</p>`:""}</div>`;
+  h+=mqImgs(part.img,part.imgNote);
   SUBS.forEach(s=>{const i=s._i,sn=q.sa?"":"Part "+(i+1),t=(r.t&&r.t[i])||"";
     h+=`<div class="subq" id="mqs${i}"><div class="sh">${sn?`<span class="sn">${sn}</span>`:""}<div class="sq">${q.sa?q.stem:s.q}</div><span class="mk">${mqMk(s)} คะแนน</span></div>`;
     if(tm&&(s.tags||[]).length)h+=`<div class="ttags">${s.tags.map(x=>`<span class="ttag${v.tags.includes(x)?" on":""}">${esc(mqTN(x))}</span>`).join("")}</div>`;
-    h+=mqImgs(s.img,s.imgNote);if(q.sa&&q.gray)h+=`<p class="gray sgray">${esc(q.gray)}</p>`;else if(s.gray)h+=`<p class="gray sgray">${esc(s.gray)}</p>`;
+    h+=mqImgs(s.img,s.imgNote);{const sg=q.sa?q.gray:(s.gray||(!part.info&&part.gray&&s===SUBS[0]?part.gray:""));if(sg)h+=`<p class="gray sgray">${esc(sg)}</p>`;}
     if(!mqSubDone(q,s,r)){h+=`<textarea class="ans" id="mqa${i}" data-i="${i}" rows="3" placeholder="พิมพ์คำตอบ${sn?" "+sn:""} (ไม่บังคับ)">${esc(t)}</textarea>`;
       if(mqReo(r,i))h+=`<div class="actions sact"><button class="btn primary" type="button" data-mssub="${i}">ส่งคำตอบ & ดูเฉลย${sn?" "+sn:""}</button><span class="hint">กำลังทำข้อนี้ใหม่</span></div>`;}
     else h+=mqDoneSub(q,pi,s,r,t);

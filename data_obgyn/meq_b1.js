@@ -10,8 +10,8 @@ QB.push(
 C({page:2, orig:"ข้อ 1", title:"PPROM 32 wk (primigravida)", stem:`A 25-year-old primigravida at 32 weeks of gestation has attended regular antenatal care at King Chulalongkorn Memorial Hospital without any complications. Today she presents with a large amount of clear fluid leaking from the vagina. She has no labor pain and reports good fetal movement.`,
   gray:"หญิงไทยอายุ 25 ปี ครรภ์แรก อายุครรภ์ 32 สัปดาห์ ฝากครรภ์ที่โรงพยาบาลจุฬาลงกรณ์สม่ำเสมอ ไม่มีภาวะแทรกซ้อนระหว่างตั้งครรภ์ วันนี้มาด้วยมีน้ำใสไหลออกมาจากช่องคลอดปริมาณมาก ไม่มีเจ็บครรภ์ ลูกดิ้นดี",
   parts:[
-   {gray:"A. จงระบุวิธีการตรวจวินิจฉัยและการส่งตรวจทางห้องปฏิบัติการเพื่อการวินิจฉัยในผู้ป่วยรายนี้", subs:[
-    {tags:["comp"], q:"Describe the history, physical examination and laboratory investigations you would use to establish the diagnosis in this patient.", marks:5,
+   {subs:[
+    {gray:"A. จงระบุวิธีการตรวจวินิจฉัยและการส่งตรวจทางห้องปฏิบัติการเพื่อการวินิจฉัยในผู้ป่วยรายนี้", tags:["comp"], q:"Describe the history, physical examination and laboratory investigations you would use to establish the diagnosis in this patient.", marks:5,
      ctx:"ครรภ์แรก GA 32 wk มีน้ำใสไหลจากช่องคลอดปริมาณมาก ไม่เจ็บครรภ์ ลูกดิ้นดี → สงสัย PPROM",
      qx:"บอกสิ่งที่จะซักประวัติ ตรวจร่างกาย และส่งตรวจ เพื่อยืนยันว่าน้ำเดินจริง (และหาภาวะแทรกซ้อน) — ตอบให้ครบทั้ง 3 หมวด",
      rubric:"<b>ได้</b>: มีครบ 3 หมวด — ซักลักษณะน้ำ/อาการติดเชื้อหรือเจ็บครรภ์, <b>sterile speculum examination</b> (เห็นน้ำไหลจาก cervix/pooling, ดู cord prolapse, cervix) และ test ยืนยัน (pH/nitrazine, fern, Nile blue) · <b>บางส่วน</b>: ขาด 1 หมวด หรือไม่มี sterile speculum exam · <b>ไม่ได้</b>: ไม่มีวิธียืนยัน ROM เลย หรือเลือกตรวจ PV",
@@ -27,7 +27,7 @@ C({page:2, orig:"ข้อ 1", title:"PPROM 32 wk (primigravida)", stem:`A 25-ye
        [["ph|nitrazine"],["fern"],["nile"]],
        [["tas|ultrasound|ultrasono|u/s|usg"],["cbc"],["ua\\b|uc\\b|urine"],["swab|gbs|rectovaginal"]]]},
    ]},
-   {info:"The examination confirms rupture of the membranes.", gray:"B. หากทำการตรวจแล้วพบว่าเป็นน้ำเดินจริง", subs:[
+   {info:"The examination confirms rupture of the membranes.", igray:"B. หากทำการตรวจแล้วพบว่าเป็นน้ำเดินจริง", subs:[
     {tags:["comp"], q:"What is the diagnosis?", marks:2,
      ctx:"G1P0 GA 32 wk ตรวจยืนยันแล้วว่าถุงน้ำคร่ำแตก ยังไม่เจ็บครรภ์",
      qx:"ให้การวินิจฉัย 1 อย่าง ในรูปแบบ G_P_ GA __ wk with …",
@@ -63,8 +63,8 @@ C({page:2, orig:"ข้อ 1", title:"PPROM 32 wk (primigravida)", stem:`A 25-ye
 C({page:5, orig:"ข้อ 2", title:"PROM 34 wk + breech", stem:`A 35-year-old married woman, gravida 2 para 1, at 34 weeks of gestation presents with fluid leaking from the vagina for 5 hours before arrival. Her first pregnancy ended in a normal vaginal delivery of a 3,000-g infant. She has attended 8 antenatal visits in this pregnancy and has no underlying illness or drug or food allergy.`,
   gray:"หญิงไทยคู่ อายุ 35 ปี ตั้งครรภ์ได้ 34 สัปดาห์ ครรภ์นี้เป็นครรภ์ที่สอง ครรภ์แรกคลอดปกติ ทารกหนัก 3000 g ครรภ์นี้ ANC มาแล้ว 8 ครั้ง ไม่มีประวัติเจ็บป่วย แพ้ยา แพ้อาหาร มาด้วยมีน้ำไหลออกทางช่องคลอด 5 ชม. ก่อนมาโรงพยาบาล",
   parts:[
-   {gray:"Part 1 จงซักประวัติเพิ่มเติม", subs:[
-    {tags:["comp"], q:"What additional history would you obtain?", marks:4,
+   {subs:[
+    {gray:"Part 1 จงซักประวัติเพิ่มเติม", tags:["comp"], q:"What additional history would you obtain?", marks:4,
      ctx:"G2P1 GA 34 wk น้ำไหลทางช่องคลอด 5 ชม.",
      qx:"บอกประวัติที่ต้องซักเพิ่ม — ลักษณะน้ำที่ไหล + อาการติดเชื้อ + เจ็บครรภ์ + ลูกดิ้น + ประวัติอื่นที่เกี่ยวข้อง",
      rubric:"<b>ได้</b>: ซักลักษณะน้ำ (สี กลิ่น ปริมาณ เลือดปน กลั้นได้ไหม) + อาการติดเชื้อ (ไข้ ปวดท้อง/กดเจ็บ ตกขาว) + เจ็บครรภ์ + ลูกดิ้น · <b>บางส่วน</b>: ได้ 2–3 หมวด · <b>ไม่ได้</b>: ไม่ได้ซักลักษณะน้ำ",
@@ -79,8 +79,8 @@ C({page:5, orig:"ข้อ 2", title:"PROM 34 wk + breech", stem:`A 35-year-old 
      kw:[[["สี|colou?r"],["กลิ่น|odou?r|smell"],["ปริมาณ|amount|เวลา|onset|duration|นานแค่ไหน"],["เลือด|blood"],["กลั้น"]],[["ไข้|fever"],["ปวดท้อง|กดเจ็บ|tender|abdominal pain"],["ตกขาว|หนอง|discharge"],["sti|std|sexual"]],["เจ็บครรภ์|ท้องแข็ง|contraction|labou?r"],["ลูกดิ้น|fetal movement"],[["โรคประจำตัว|underlying|ยา|drug|แพ้"],["บุหรี่|smok|เหล้า|alcohol|สาร"],["ครอบครัว|family|สามี|husband|partner"]]]}
    ]},
    {info:`History and examination: clear, odorless fluid has been leaking continuously and she cannot hold it. Fetal movements are good and she has no fever.<br>FHS 150 bpm, fundal height 33 cm, <b>breech presentation</b>. Fern test positive, Nile blue test positive.<br>CBC normal, urinalysis normal, vital signs normal.`,
-    gray:"ผลการซักประวัติและตรวจร่างกาย พบว่าน้ำเดินไหลมาตลอดทั้งวัน น้ำใส ไม่มีกลิ่น กลั้นไม่ได้ ลูกดิ้นดี ไม่มีไข้ FHS 150 bpm, Fundal height 33 cm, Breech presentation, Fern test +ve, Nile blue test +ve, CBC normal, UA normal, V/S normal · Part 2 จงให้การรักษา", subs:[
-    {tags:["comp","labor"], q:"Outline the management of this patient.", marks:5,
+    igray:"ผลการซักประวัติและตรวจร่างกาย พบว่าน้ำเดินไหลมาตลอดทั้งวัน น้ำใส ไม่มีกลิ่น กลั้นไม่ได้ ลูกดิ้นดี ไม่มีไข้ FHS 150 bpm, Fundal height 33 cm, Breech presentation, Fern test +ve, Nile blue test +ve, CBC normal, UA normal, V/S normal", subs:[
+    {gray:"Part 2 จงให้การรักษา", tags:["comp","labor"], q:"Outline the management of this patient.", marks:5,
      ctx:"G2P1 GA 34 wk PROM ยืนยันแล้ว (fern +, Nile blue +) ไม่มีไข้ ไม่มีเจ็บครรภ์ FHS ปกติ ท่าก้น (breech)",
      qx:"บอกแผนการรักษา PROM ที่ GA 34 wk (late preterm) ครอบคลุม admit, investigation, monitor, ยา และแผนการคลอด",
      rubric:"<b>ได้</b>: admit + counselling ทางเลือก expectant vs ให้คลอด, monitor แม่ (V/S, chorioamnionitis, labor, abruption) และลูก (NST), GBS prophylaxis เมื่อเจ็บครรภ์, corticosteroid ถ้ายังไม่เคยได้ และบอกว่า<b>ไม่ต้อง</b>ให้ ATB prolong latency / MgSO<sub>4</sub> / tocolytic ที่ GA ≥ 34 wk · <b>บางส่วน</b>: ขาด 1–2 องค์ประกอบ หรือให้ ATB prolong latency/tocolytic · <b>ไม่ได้</b>: ไม่มีแผนการคลอดและไม่มี monitor",
