@@ -234,6 +234,7 @@ function morning(make){const P=P_(),p=ph(),d=mDay();let m=P.morn[p];
   if(u.length<MORN_N-MORN_AC)a=ac.slice(0,MORN_N-u.length);else if(a.length<MORN_AC)u=un.slice(0,MORN_N-a.length);
   if(!a.length&&!u.length)return null;
   m=P.morn[p]={day:d,list:shuffle(a.concat(u)).map(q=>q.uid),ans:{},ts:now()};save();return m;}
+/* a day can hold one set per Phase: only sets with answers count (else the current Phase's set) so an untouched set of the other Phase does not show as a second, unfinished set */
 /* Morning round history: every day of the ward's rotation (config wards[].rotation {start,end}; otherwise first recorded day → today) with what was done that day */
 const TH_WD=["อา.","จ.","อ.","พ.","พฤ.","ศ.","ส."],TH_MO=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];
 const dayTH=d=>{const [y,m,dd]=d.split("-").map(Number),t=new Date(y,m-1,dd);return `${TH_WD[t.getDay()]} ${dd} ${TH_MO[m-1]} ${String(y+543).slice(2)}`;};
@@ -248,7 +249,7 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=(W.cfg.rotation)|
   const keys=Object.keys(rec).sort(),start=rot.start||keys[0]||today,end=rot.end||(keys.length&&keys[keys.length-1]>today?keys[keys.length-1]:today);
   const days=[];for(let d=start;d<=end&&days.length<400;d=addDay(d,1))days.push(d);keys.forEach(k=>{if(!days.includes(k))days.push(k);});days.sort();
   let full=0,partial=0,miss=0,ans=0,right=0,streak=0,run=0;
-  const rows=days.map(d=>{const L=rec[d]||[],S=L.map(mornStat),n=S.reduce((a,x)=>a+x.n,0),dn=S.reduce((a,x)=>a+x.done,0),rt=S.reduce((a,x)=>a+x.right,0);
+  const rows=days.map(d=>{const L0=rec[d]||[],S0=L0.map(mornStat),ix=S0.map((x,i)=>i),act=ix.filter(i=>S0[i].done>0),cur=ix.filter(i=>L0[i].p===ph()),keep=act.length?act:cur.length?cur:ix,L=keep.map(i=>L0[i]),S=keep.map(i=>S0[i]),n=S.reduce((a,x)=>a+x.n,0),dn=S.reduce((a,x)=>a+x.done,0),rt=S.reduce((a,x)=>a+x.right,0);
     const st_=d>today?"future":d===today?(n&&dn>=n?"full":"today"):!n||!dn?"miss":dn>=n?"full":"part";
     if(d<=today){ans+=dn;right+=rt;if(st_==="full")full++;else if(st_==="part")partial++;else if(st_==="miss")miss++;}
     return {d,L,S,n,dn,rt,st:st_};});
@@ -259,7 +260,7 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=(W.cfg.rotation)|
   h+=`<p class="hint" style="margin:6px 0 10px">ผ่านมาแล้ว ${past} จาก ${rows.length} วัน${HAS_CLAUDE()?" · ประวัตินี้เก็บแยกในเว็บกับใน Claude (เข้าสู่ระบบในเว็บเพื่อรวมหลายเครื่อง)":""}</p><div class="mhlist">`;
   rows.forEach(r=>{
     const lab=r.st==="future"?`<span class="mhs fut">ยังไม่ถึง</span>`:r.st==="miss"?`<span class="mhs miss">ไม่ได้ทำ</span>`:r.st==="today"?`<span class="mhs part">${r.dn?`วันนี้ทำไป ${r.dn}/${r.n}`:"วันนี้ยังไม่ได้ทำ"}</span>`:r.st==="part"?`<span class="mhs part">ทำ ${r.dn}/${r.n}</span>`:`<span class="mhs ok">ครบ ${r.dn}/${r.n}</span>`;
-    const sc=r.dn?`<span class="mhr">ถูก <b>${r.rt}</b>/${r.dn} (${Math.round(r.rt/r.dn*100)}%)${r.S.map(x=>` · AC ${x.ac.right}/${x.ac.done}${x.ac.n>x.ac.done?` จาก ${x.ac.n}`:""} · Unit ${x.un.right}/${x.un.done}${x.un.n>x.un.done?` จาก ${x.un.n}`:""}`).join("")}</span>`:"";
+    const sc=r.dn?`<span class="mhr">ถูก <b>${r.rt}</b>/${r.dn} (${Math.round(r.rt/r.dn*100)}%)${r.S.map((x,i)=>` · ${r.S.length>1?`Phase ${r.L[i].p}: `:""}AC ถูก ${x.ac.right}/${x.ac.done}${x.ac.n>x.ac.done?` (ชุดนี้มี ${x.ac.n})`:""} · Unit ถูก ${x.un.right}/${x.un.done}${x.un.n>x.un.done?` (ชุดนี้มี ${x.un.n})`:""}`).join("")}</span>`:"";
     const head=`<span class="mhd${r.d===today?" now":""}">${dayTH(r.d)}</span>${lab}${sc}`;
     const id=r.d===today?' id="mhToday"':"";
     if(!r.n){h+=`<div class="mhrow"${id}>${head}</div>`;return;}
