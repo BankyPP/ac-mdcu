@@ -298,3 +298,4 @@ details.mhrow[open]>summary::after{content:"▴"}
 .dtrow label{display:flex;flex-direction:column;gap:3px;font-size:12.5px;color:var(--muted)}
 .dtrow label.ck{flex-direction:row;align-items:center;gap:6px;font-size:13px;color:var(--ink)}
 .dtrow input[type=date],.dtrow input[type=time],.dtrow select{font:inherit;font-size:15px;padding:6px 8px;border:1.5px solid var(--rule);border-radius:6px;background:var(--sheet);color:var(--ink)}
+.dtmv{display:flex;gap:4px}.dtmv .btn{padding:4px 10px;min-height:0;font-size:13px;line-height:1.2}
