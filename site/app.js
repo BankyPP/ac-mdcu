@@ -120,7 +120,7 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates"].includes(v))v="home";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
   if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
@@ -137,7 +137,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist})[v]();
+  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -162,12 +162,38 @@ function bindAcctCard(){document.querySelectorAll('[data-act="acct"]').forEach(b
 /* ---------------- home ---------------- */
 /* ---------------- exam dates per ward (config wards[].dates: [{part, at:"YYYY-MM-DD[THH:MM]"}], times in Thailand) ---------------- */
 const TH_MON=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];
-function examDates(w){return ((w&&w.dates)||[]).map(x=>{
+/* exam dates and the rotation period can be edited on the website (st.wcfg[ward] = {dates, rotation, ts}, synced with the account); {reset:true} = back to config.json */
+const wOv=wid=>{const o=(st.wcfg||{})[wid];return o&&!o.reset?o:null;};
+const wDates=w=>{const o=w&&wOv(w.id);return (o&&Array.isArray(o.dates)?o.dates:(w&&w.dates))||[];};
+const wRot=w=>{const o=w&&wOv(w.id);return (o&&o.rotation&&o.rotation.start?o.rotation:(w&&w.rotation))||{};};
+function examDates(w){return wDates(w).map(x=>{
   if(x.done&&!x.at)return {part:x.part||"",label:"",at:0,hasT:false,score:x.score||"",fixedDone:true};
   const m=/^(\d{4})-(\d\d)-(\d\d)(?:T(\d\d):(\d\d))?/.exec(x.at||"");if(!m)return null;
   const y=+m[1],mo=+m[2],d=+m[3],hasT=!!m[4],at=Date.UTC(y,mo-1,d,hasT?+m[4]:0,hasT?+m[5]:0)-7*3600e3;
   const e=/^(\d\d):(\d\d)$/.exec(x.end||""),dur=hasT&&e?(+e[1]*60+ +e[2])-(+m[4]*60+ +m[5]):(((w.exam||{})[x.part]||{}).min)||0;
   return {part:x.part||"",label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}${e?"–"+x.end:""}`:""}`,at,hasT,dur,score:x.score||""};}).filter(Boolean);}
+function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign({},x)),rot=wRot(w),parts=["MCQ","MEQ","OSCE"];
+  const row=(x,i)=>{const m=/^(\d{4}-\d\d-\d\d)(?:T(\d\d:\d\d))?/.exec(x.at||"")||[];return `<div class="dtrow" data-i="${i}">
+    <label>สอบ<select data-f="part">${[...new Set(parts.concat(x.part?[x.part]:[]))].concat([""]).map(p=>`<option value="${esc(p)}"${p===(x.part||"")?" selected":""}>${p||"(ไม่ระบุ)"}</option>`).join("")}</select></label>
+    <label>วันที่<input type="date" data-f="d" value="${esc(m[1]||"")}"></label>
+    <label>เริ่ม<input type="time" data-f="t" value="${esc(m[2]||"")}"></label>
+    <label>จบ<input type="time" data-f="e" value="${esc(x.end||"")}"></label>
+    <label class="ck"><input type="checkbox" data-f="done"${x.done&&!x.at?" checked":""}> สอบไปแล้ว (ไม่ต้องใส่วัน)</label>
+    <button class="link" type="button" data-del="${i}">ลบ</button></div>`;};
+  let h=`<h1 class="h2">วันสอบ · ${esc(w.name)}</h1><p class="sub">แก้แล้วกดบันทึก นับถอยหลัง คำเตือน Phase 2 และหน้าประวัติ Morning round ใช้ค่านี้ทันที · เข้าสู่ระบบไว้จะใช้ค่าเดียวกันทุกเครื่อง${o?` · <b>กำลังใช้ค่าที่แก้เอง</b> (แก้ล่าสุด ${fmtDT(o.ts)})`:" · ตอนนี้ใช้ค่าตั้งต้นของเว็บ"}</p>`;
+  h+=`<div class="card"><h3>วันสอบ</h3><div id="dtRows">${D.map(row).join("")||`<p class="hint">ยังไม่มีวันสอบ</p>`}</div><button class="btn" id="dtAdd" type="button">+ เพิ่มวันสอบ</button>
+    <p class="hint" style="margin-top:8px">ไม่ใส่เวลาเริ่ม = นับถอยหลังเป็นวัน · ใส่เวลาเริ่มและจบ = ระหว่างสอบขึ้น "กำลังสอบ ✍️" · เหลือ ≤14 วันกล่องเป็นสีแดงและเตือนให้เริ่ม Phase 2</p></div>`;
+  h+=`<div class="card"><h3>ช่วงวอร์ด (rotation)</h3><span class="rd">ใช้กับหน้าประวัติ Morning round (เรียงครบทุกวันในช่วงนี้)</span><div class="dtrow"><label>เริ่ม<input type="date" id="rtS" value="${esc(rot.start||"")}"></label><label>จบ<input type="date" id="rtE" value="${esc(rot.end||"")}"></label></div></div>`;
+  h+=`<div class="stack"><button class="btn primary" id="dtSave" type="button">บันทึก</button>${o?`<button class="btn" id="dtReset" type="button">คืนค่าตั้งต้นของเว็บ</button>`:""}<a class="btn" href="#/${esc(ward)}">ยกเลิก</a></div>`;
+  $("main").innerHTML=h;
+  const read=()=>[...document.querySelectorAll("#dtRows .dtrow")].map(r=>{const g=f=>r.querySelector(`[data-f="${f}"]`),i=+r.dataset.i,old=D[i]||{},part=g("part").value,d=g("d").value,t=g("t").value,e=g("e").value,done=g("done").checked;
+    const x={part};if(old.score)x.score=old.score;if(d){x.at=d+(t?"T"+t:"");if(t&&e)x.end=e;}else if(done)x.done=true;else return null;return x;}).filter(Boolean);
+  document.querySelectorAll("[data-del]").forEach(b=>b.onclick=()=>{b.closest(".dtrow").remove();});
+  $("dtAdd").onclick=()=>{const box=$("dtRows"),i=D.length;D.push({part:"MCQ"});if(!box.querySelector(".dtrow"))box.innerHTML="";box.insertAdjacentHTML("beforeend",row(D[i],i));box.querySelector(`[data-del="${i}"]`).onclick=e=>e.target.closest(".dtrow").remove();};
+  $("dtSave").onclick=()=>{const dates=read(),s_=$("rtS").value,e_=$("rtE").value;if(s_&&e_&&e_<s_){toast("วันจบต้องไม่ก่อนวันเริ่ม");return;}
+    st.wcfg=st.wcfg||{};st.wcfg[w.id]={dates,rotation:s_?{start:s_,end:e_||s_}:null,ts:now()};save();toast("บันทึกวันสอบแล้ว");go(ward);};
+  const rs=$("dtReset");if(rs)rs.onclick=()=>{if(!confirm("กลับไปใช้วันสอบตั้งต้นของเว็บ?"))return;st.wcfg[w.id]={reset:true,ts:now()};save();toast("กลับเป็นค่าตั้งต้นแล้ว");go(ward);};
+}
 /* countdown, always rounded up from the exam time: "N w N d" → last 14 days "N d" → last 24 h "N h" → last 2 h "1 h N min" → last hour "N min" (0 min at the start) → "Exam done 🎉" for good.
    An exam without a time counts whole days to that date and shows "วันนี้" on the day. */
 function cdOf(x){const t=now();
@@ -251,7 +277,7 @@ function mornStat(x){const W=W_(),list=(x.list||[]).filter(u=>W.byU[u]),done=lis
   const ok=u=>x.ans[u]===W.byU[u].ans,ac=qs.filter(q=>!q.unit),un=qs.filter(q=>q.unit);
   const part=a=>({n:a.length,done:a.filter(q=>x.ans[q.uid]!==undefined).length,right:a.filter(q=>ok(q.uid)).length});
   return {list,n:list.length,done:done.length,right:done.filter(ok).length,ac:part(ac),un:part(un)};}
-function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=(W.cfg.rotation)||{};
+function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=wRot(W.cfg);
   const keys=Object.keys(rec).sort(),start=rot.start||keys[0]||today,end=rot.end||(keys.length&&keys[keys.length-1]>today?keys[keys.length-1]:today);
   const days=[];for(let d=start;d<=end&&days.length<400;d=addDay(d,1))days.push(d);keys.forEach(k=>{if(!days.includes(k))days.push(k);});days.sort();
   let full=0,partial=0,miss=0,ans=0,right=0,streak=0,run=0;
@@ -314,7 +340,7 @@ function rHome(){
   const ED=examDates(w),soon=ED.filter(x=>cdOf(x).hot).sort((a,b)=>a.at-b.at);
   let h=soon.length&&p===1?`<div class="p2warn"><b>ควรเริ่ม Phase 2 ของ ${soon.map(x=>`${esc(x.part||"ข้อสอบ")} (สอบ ${esc(x.label)} · เหลือ ${esc(cdOf(x).txt)})`).join(" และ ")} ได้แล้ว</b><button class="btn" id="toP2" type="button">ไป Phase 2</button></div>`:"";
   h+=`<div class="whead"><h1 class="h2">${esc(w.name)}</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0">${esc(w.sub||"")}</p>`;
-  if(ED.length)h+=`<div class="exdates">${ED.map(x=>{const c=cdOf(x),sc=x.score&&scoreOf(x.score);return `<span class="exd${c.hot?" hot":""}${c.done?" done":""}"><span class="k">สอบ${x.part?" "+esc(x.part):""}</span>${x.label?`<span class="v">${esc(x.label)}</span>`:""}${cdHTML(x)}${sc?`<span class="v">คะแนน ${esc(sc)}</span>`:""}</span>`;}).join("")}</div>`;
+  h+=`<div class="exdates">${ED.map(x=>{const c=cdOf(x),sc=x.score&&scoreOf(x.score);return `<span class="exd${c.hot?" hot":""}${c.done?" done":""}"><span class="k">สอบ${x.part?" "+esc(x.part):""}</span>${x.label?`<span class="v">${esc(x.label)}</span>`:""}${cdHTML(x)}${sc?`<span class="v">คะแนน ${esc(sc)}</span>`:""}</span>`;}).join("")}<a class="exedit" href="#/${esc(ward)}/dates">${ED.length?"✎ แก้วันสอบ":"+ ใส่วันสอบ"}</a></div>`;
   h+=`<div class="tabs" role="tablist">${["MCQ","MEQ","OSCE"].map(t=>`<button class="tab" role="tab" aria-selected="${t===type}" data-type="${t}">${t}</button>`).join("")}</div>`;
   const noEx=(w.noExam||[]).includes(type);
   if(!noEx){h+=`<div class="seg" role="group" aria-label="Phase"><button data-ph="1" aria-pressed="${p===1}"><b>Phase 1</b>ช่วงเรียน</button><button data-ph="2" aria-pressed="${p===2}"><b>Phase 2</b>ช่วงใกล้สอบ</button></div>`;
@@ -1936,6 +1962,7 @@ function mergeSt(a,b){
   }
   if((b.t||0)>(a.t||0)){a.phase=b.phase===2?2:1;a.noteMode=b.noteMode||a.noteMode;if(b.qp)a.qp=b.qp;["staffAll","legAI","clStart","lastWard"].forEach(k=>{if(b[k]!==undefined&&b[k]!=="")a[k]=b[k];});}
   ["staffAll","legAI","clStart","lastWard"].forEach(k=>{if(a[k]===undefined&&b[k]!==undefined)a[k]=b[k];});
+  if(b.wcfg){a.wcfg=a.wcfg||{};for(const k in b.wcfg){const x=b.wcfg[k];if(x&&(!a.wcfg[k]||(x.ts||0)>(a.wcfg[k].ts||0)))a.wcfg[k]=x;}}
   if(b.grades){a.grades=a.grades||{};for(const k in b.grades){const x=b.grades[k];if(x&&(!a.grades[k]||(x.ts||0)>(a.grades[k].ts||0)))a.grades[k]=x;}}
   if(!a.qp&&b.qp)a.qp=b.qp;
   if(b.lastRoute&&(b.lastRouteT||0)>(a.lastRouteT||0)){a.lastRoute=b.lastRoute;a.lastRouteT=b.lastRouteT;}
@@ -1982,7 +2009,7 @@ async function clPull(){
   const snap=await cl.db.collection(cl.col).limit(1000).get();
   const r={w:{},t:0},rts={};let old=null;
   snap.docs.forEach(d=>{const id=d.id,x=d.data()||{};try{
-    if(id==="meta"){const m=JSON.parse(x.d||"{}");r.phase=m.phase;r.noteMode=m.noteMode;if(m.qp)r.qp=m.qp;if(m.lastRoute){r.lastRoute=m.lastRoute;r.lastRouteT=m.lastRouteT||0;}["staffAll","legAI","clStart","lastWard"].forEach(k=>{if(m[k]!==undefined&&m[k]!=="")r[k]=m[k];});if(m.grades)r.grades=m.grades;r.t=Math.max(r.t,x.t||0);}
+    if(id==="meta"){const m=JSON.parse(x.d||"{}");r.phase=m.phase;r.noteMode=m.noteMode;if(m.qp)r.qp=m.qp;if(m.lastRoute){r.lastRoute=m.lastRoute;r.lastRouteT=m.lastRouteT||0;}["staffAll","legAI","clStart","lastWard"].forEach(k=>{if(m[k]!==undefined&&m[k]!=="")r[k]=m[k];});if(m.grades)r.grades=m.grades;if(m.wcfg)r.wcfg=m.wcfg;r.t=Math.max(r.t,x.t||0);}
     else if(id==="progress"&&Array.isArray(x.a))old=x;   /* progress saved by the earlier single-page artifact */
     else if(id.startsWith("w_")){r.w[id.slice(2)]=JSON.parse(x.d||"{}");r.t=Math.max(r.t,x.t||0);}
     else if(id.startsWith("ink_")&&x.k){const v=JSON.parse(x.d);rts[x.k]=v.ts||0;if(!ink[x.k]||(v.ts||0)>(ink[x.k].ts||0))ink[x.k]=v;}
@@ -2004,7 +2031,7 @@ async function clBank(){if(!cl)return;clearTimeout(bankT);const ks=[...bankDirty
 let clBusy=false,clAgain=false;
 async function clPush(){if(!cl)return;clearTimeout(pushT);if(clBusy){clAgain=true;return;}clBusy=true;sync="saving";paintSync();
   try{const t=st.t||now();
-    await cl.db.doc(cl.col+"/meta").set({d:JSON.stringify({phase:st.phase,noteMode:st.noteMode||"",lastWard:st.lastWard||"",qp:st.qp||null,lastRoute:st.lastRoute||"",lastRouteT:st.lastRouteT||0,staffAll:st.staffAll,legAI:st.legAI,clStart:st.clStart,grades:st.grades||{}}),t});
+    await cl.db.doc(cl.col+"/meta").set({d:JSON.stringify({phase:st.phase,noteMode:st.noteMode||"",lastWard:st.lastWard||"",qp:st.qp||null,lastRoute:st.lastRoute||"",lastRouteT:st.lastRouteT||0,staffAll:st.staffAll,legAI:st.legAI,clStart:st.clStart,grades:st.grades||{},wcfg:st.wcfg||{}}),t});
     for(const id in st.w)await cl.db.doc(cl.col+"/w_"+id).set({d:JSON.stringify(st.w[id]),t});
     sync="cloud";}catch(e){console.warn(e);sync="error";}
   clBusy=false;paintSync();if(clAgain){clAgain=false;clPush();}}

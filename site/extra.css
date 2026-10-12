@@ -291,3 +291,10 @@ details.mhrow[open]>summary::after{content:"▴"}
 .mhopen{display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:100%;text-align:left;background:none;border:1px solid var(--rule);border-radius:6px;padding:6px 8px;cursor:pointer;color:var(--ink);font:inherit}
 .mhsrc{font-size:11.5px;color:var(--muted)}.mhst{font-size:13.5px;line-height:1.45}
 .mhx{font-size:12.5px;font-weight:700}.mhx.ok{color:var(--right)}.mhx.no{color:var(--wrong)}.mhx.na{color:var(--muted);font-weight:400}
+/* exam date editor */
+.exedit{align-self:center;font-size:13px;color:var(--form);text-decoration:underline;text-underline-offset:2px;padding:4px 2px}
+.dtrow{display:flex;flex-wrap:wrap;align-items:flex-end;gap:8px 10px;padding:10px 0;border-bottom:1px dashed var(--rule)}
+.dtrow:last-child{border-bottom:0}
+.dtrow label{display:flex;flex-direction:column;gap:3px;font-size:12.5px;color:var(--muted)}
+.dtrow label.ck{flex-direction:row;align-items:center;gap:6px;font-size:13px;color:var(--ink)}
+.dtrow input[type=date],.dtrow input[type=time],.dtrow select{font:inherit;font-size:15px;padding:6px 8px;border:1.5px solid var(--rule);border-radius:6px;background:var(--sheet);color:var(--ink)}
