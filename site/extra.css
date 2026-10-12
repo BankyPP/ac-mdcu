@@ -299,3 +299,14 @@ details.mhrow[open]>summary::after{content:"▴"}
 .dtrow label.ck{flex-direction:row;align-items:center;gap:6px;font-size:13px;color:var(--ink)}
 .dtrow input[type=date],.dtrow input[type=time],.dtrow select{font:inherit;font-size:15px;padding:6px 8px;border:1.5px solid var(--rule);border-radius:6px;background:var(--sheet);color:var(--ink)}
 .dtmv{display:flex;gap:4px}.dtmv .btn{padding:4px 10px;min-height:0;font-size:13px;line-height:1.2}
+.dtmv{align-items:center}
+.dtgrip{cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;border:1.5px dashed var(--rule);border-radius:6px;padding:4px 10px;font-size:13px;color:var(--muted);background:var(--sheet)}
+.dtrow.drag{background:var(--sheet);box-shadow:0 4px 14px rgba(0,0,0,.18);border-radius:8px;position:relative;z-index:2}
+.dtrow.drag .dtgrip{cursor:grabbing;border-color:var(--form);color:var(--form)}
+/* password gate */
+body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{display:none!important}
+.gate{min-height:70vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;max-width:320px;margin:0 auto;padding:0 16px}
+.gate .gl{font-size:34px;opacity:.55}
+.gate input{width:100%;font:inherit;font-size:17px;padding:11px 14px;border:1.5px solid var(--rule);border-radius:8px;background:var(--sheet);color:var(--ink);text-align:center}
+.gate .btn{width:100%}
+.gate .gerr{color:var(--wrong);font-size:14px;margin:0}

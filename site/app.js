@@ -105,12 +105,28 @@ const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(M
 let toastT=null;
 function toast(m){const t=$("toast");t.textContent=m;t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>{t.hidden=true;},2600);}
 
+/* ---------------- password gate (config gate {on, salt, h = sha256(salt+password)}) ----------------
+   A device that has never signed in on this website is a guest: it must type the password on every visit (kept only in memory) before the ward list.
+   Signing in once marks the device as trusted (localStorage) and the gate never shows there again. Not shown inside Claude (the artifact is private).
+   This is a soft lock for a static site — the check runs in the browser. */
+const GKEY=KEY+"-trusted";let gateOk=false;
+const devTrusted=()=>{try{return localStorage.getItem(GKEY)==="1";}catch(e){return false;}};
+const markTrusted=()=>{try{localStorage.setItem(GKEY,"1");}catch(e){}};
+const gateOn=()=>{const g=CFG.gate;return !!(g&&g.on&&g.h)&&!IN_FRAME&&!gateOk&&!devTrusted()&&!(fb&&fb.user);};
+async function gateHash(t){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode((CFG.gate.salt||"")+t));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");}
+function rGate(){view="gate";document.body.classList.add("gated");$("nav").hidden=true;
+  $("main").innerHTML=`<form class="gate" id="gateF" autocomplete="off"><div class="gl" aria-hidden="true">🔒</div><input type="password" id="gateIn" placeholder="รหัสผ่าน" aria-label="รหัสผ่าน" autocomplete="off"><button class="btn primary" type="submit">เข้าเว็บ</button><p class="gerr" id="gateErr" hidden>รหัสไม่ถูกต้อง</p></form>`;
+  const i=$("gateIn");setTimeout(()=>i.focus(),50);
+  $("gateF").onsubmit=async e=>{e.preventDefault();let ok=false;try{ok=(await gateHash(i.value))===CFG.gate.h;}catch(x){}
+    if(ok){gateOk=true;document.body.classList.remove("gated");route();}else{$("gateErr").hidden=false;i.value="";i.focus();}};}
+
 /* ---------------- router ---------------- */
 let view="wards", pick=null;
 function parseHash(){const h=(location.hash||"").replace(/^#\/?/,"");if(/(^|&)(p|all)=/.test(h))return {w:"",v:""};const a=h.split("/");return {w:a[0]||"",v:a[1]||""};}
 function go(path){const h="#/"+path;if(location.hash===h)route();else location.hash=h;}
 window.addEventListener("hashchange",route);
 function route(){
+  if(gateOn())return rGate();document.body.classList.remove("gated");
   const h=parseHash();closeS(true);pick=null;
   if(h.w==="signin"){ward=null;return show("signin");}
   if(h.w==="grades"){ward=null;return show("grades");}
@@ -179,17 +195,20 @@ function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign(
     <label>เริ่ม<input type="time" data-f="t" value="${esc(m[2]||"")}"></label>
     <label>จบ<input type="time" data-f="e" value="${esc(x.end||"")}"></label>
     <label class="ck"><input type="checkbox" data-f="done"${x.done&&!x.at?" checked":""}> สอบไปแล้ว (ไม่ต้องใส่วัน)</label>
-    <span class="dtmv"><button class="btn" type="button" data-mv="-1" aria-label="เลื่อนขึ้น">▲</button><button class="btn" type="button" data-mv="1" aria-label="เลื่อนลง">▼</button></span>
+    <span class="dtmv"><span class="dtgrip" data-grip title="กดค้างแล้วลากเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰ ลาก</span><button class="btn" type="button" data-mv="-1" aria-label="เลื่อนขึ้น">↑ ขึ้น</button><button class="btn" type="button" data-mv="1" aria-label="เลื่อนลง">↓ ลง</button></span>
     <button class="link" type="button" data-del="${i}">ลบ</button></div>`;};
   let h=`<h1 class="h2">วันสอบ · ${esc(w.name)}</h1><p class="sub">แก้แล้วกดบันทึก นับถอยหลัง คำเตือน Phase 2 และหน้าประวัติ Morning round ใช้ค่านี้ทันที · เข้าสู่ระบบไว้จะใช้ค่าเดียวกันทุกเครื่อง${o?` · <b>กำลังใช้ค่าที่แก้เอง</b> (แก้ล่าสุด ${fmtDT(o.ts)})`:" · ตอนนี้ใช้ค่าตั้งต้นของเว็บ"}</p>`;
   h+=`<div class="card"><h3>วันสอบ</h3><div id="dtRows">${D.map(row).join("")||`<p class="hint">ยังไม่มีวันสอบ</p>`}</div><button class="btn" id="dtAdd" type="button">+ เพิ่มวันสอบ</button>
-    <p class="hint" style="margin-top:8px">▲▼ = ลำดับที่โชว์ในหน้าวอร์ดและหน้าแรก (บนสุด = ซ้ายสุด/ก่อน) · ไม่ใส่เวลาเริ่ม = นับถอยหลังเป็นวัน · ใส่เวลาเริ่มและจบ = ระหว่างสอบขึ้น "กำลังสอบ ✍️" · เหลือ ≤14 วันกล่องเป็นสีแดงและเตือนให้เริ่ม Phase 2</p></div>`;
+    <p class="hint" style="margin-top:8px">ลำดับในหน้านี้ = ลำดับที่โชว์ในหน้าวอร์ดและหน้าแรก (บนสุด = ซ้ายสุด/ก่อน) — กด ☰ ค้างแล้วลาก หรือกด ↑ ขึ้น / ↓ ลง · ไม่ใส่เวลาเริ่ม = นับถอยหลังเป็นวัน · ใส่เวลาเริ่มและจบ = ระหว่างสอบขึ้น "กำลังสอบ ✍️" · เหลือ ≤14 วันกล่องเป็นสีแดงและเตือนให้เริ่ม Phase 2</p></div>`;
   h+=`<div class="card"><h3>ช่วงวอร์ด (rotation)</h3><span class="rd">ใช้กับหน้าประวัติ Morning round (เรียงครบทุกวันในช่วงนี้)</span><div class="dtrow"><label>เริ่ม<input type="date" id="rtS" value="${esc(rot.start||"")}"></label><label>จบ<input type="date" id="rtE" value="${esc(rot.end||"")}"></label></div></div>`;
   h+=`<div class="stack"><button class="btn primary" id="dtSave" type="button">บันทึก</button>${o?`<button class="btn" id="dtReset" type="button">คืนค่าตั้งต้นของเว็บ</button>`:""}<a class="btn" href="#/${esc(ward)}">ยกเลิก</a></div>`;
   $("main").innerHTML=h;
   const read=()=>[...document.querySelectorAll("#dtRows .dtrow")].map(r=>{const g=f=>r.querySelector(`[data-f="${f}"]`),i=+r.dataset.i,old=D[i]||{},part=g("part").value,d=g("d").value,t=g("t").value,e=g("e").value,done=g("done").checked;
     const x={part};if(old.score)x.score=old.score;if(d){x.at=d+(t?"T"+t:"");if(t&&e)x.end=e;}else if(done)x.done=true;else return null;return x;}).filter(Boolean);
-  const bindRow=r=>{r.querySelector("[data-del]").onclick=()=>r.remove();r.querySelectorAll("[data-mv]").forEach(b=>b.onclick=()=>{const d=+b.dataset.mv,o=d<0?r.previousElementSibling:r.nextElementSibling;if(!o)return;if(d<0)o.before(r);else o.after(r);});};
+  const bindRow=r=>{r.querySelector("[data-del]").onclick=()=>r.remove();
+    const g=r.querySelector("[data-grip]");g.onpointerdown=e=>{e.preventDefault();g.setPointerCapture(e.pointerId);r.classList.add("drag");
+      g.onpointermove=ev=>{const box=$("dtRows"),rows=[...box.querySelectorAll(".dtrow")].filter(x=>x!==r);let before=null;for(const x of rows){const b=x.getBoundingClientRect();if(ev.clientY<b.top+b.height/2){before=x;break;}}if(before){if(before!==r.nextElementSibling)box.insertBefore(r,before);}else if(r!==box.lastElementChild)box.appendChild(r);};
+      g.onpointerup=g.onpointercancel=()=>{r.classList.remove("drag");g.onpointermove=null;};};r.querySelectorAll("[data-mv]").forEach(b=>b.onclick=()=>{const d=+b.dataset.mv,o=d<0?r.previousElementSibling:r.nextElementSibling;if(!o)return;if(d<0)o.before(r);else o.after(r);});};
   document.querySelectorAll("#dtRows .dtrow").forEach(bindRow);
   $("dtAdd").onclick=()=>{const box=$("dtRows"),i=D.length;D.push({part:"MCQ"});if(!box.querySelector(".dtrow"))box.innerHTML="";box.insertAdjacentHTML("beforeend",row(D[i],i));bindRow(box.lastElementChild);};
   $("dtSave").onclick=()=>{const dates=read(),s_=$("rtS").value,e_=$("rtE").value;if(s_&&e_&&e_<s_){toast("วันจบต้องไม่ก่อนวันเริ่ม");return;}
@@ -1928,7 +1947,7 @@ async function initFB(){
     au.getRedirectResult(fb.auth).catch(e=>{authErr=errMsg(e);});
     au.onAuthStateChanged(fb.auth,async u=>{
       fb.user=u;
-      if(u){sync="saving";paintAcct();try{await pull();sync="cloud";}catch(e){console.warn(e);sync="error";}flushSharePend();}else sync="local";
+      if(u){markTrusted();if(view==="gate"){gateOk=true;route();}sync="saving";paintAcct();try{await pull();sync="cloud";}catch(e){console.warn(e);sync="error";}flushSharePend();}else sync="local";
       paintAcct();if(view==="signin"||view==="wards"||view==="home")route();else if(view==="svc"||view==="sess")rQuiz();
     });
   }catch(e){console.warn("firebase",e);fb=null;fbFail=true;if(view==="signin")rSignin();}
