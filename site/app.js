@@ -61,6 +61,7 @@ function PWof(S,id){
   if(P.sess===undefined)P.sess=null;
   P.unit=P.unit||{};P.unit.att=P.unit.att||{};        /* Unit round answers (both phases share) */
   P.morn=P.morn||{};                                   /* Morning round: {1|2: {day, list, ans, ts}} */
+  P.mornH=P.mornH||{};                                 /* Morning round history: {"<day>|<phase>": {day, p, list, ans, ts}} — earlier days, archived when a new day's set is made */
   P.adm=P.adm||{cur:null,ans:null,next:null,n:0,right:0,recent:[],ts:0};   /* Admission round */
   P.seen=P.seen||{};   /* where each question has been shown: {uid: {roundKey: firstTs}} */
   P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
@@ -114,7 +115,7 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist"].includes(v))v="home";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
   if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
@@ -131,7 +132,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach})[v]();
+  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -224,6 +225,7 @@ function mPool(P,p){const W=W_();let pool=W.QB.filter(q=>atts(P,p,q.uid).length)
 function morning(make){const P=P_(),p=ph(),d=mDay();let m=P.morn[p];
   if(m&&m.day===d){m.list=m.list.filter(u=>W_().byU[u]);return m;}
   if(!make)return null;
+  if(m&&m.day&&m.day!==d)P.mornH[m.day+"|"+p]=Object.assign({p},m);
   const pool=mPool(P,p);if(!pool.length)return null;
   /* 5 old-exam questions already done + 10 Unit round questions (not met yet first); a short pool is topped up from the other */
   const W=W_(),acDone=shuffle(W.QB.filter(q=>atts(P,p,q.uid).length)),acRest=shuffle(W.QB.filter(q=>!atts(P,p,q.uid).length)),U=[].concat(...W.UNIT.map(Lc=>Lc.QB)),
@@ -232,6 +234,46 @@ function morning(make){const P=P_(),p=ph(),d=mDay();let m=P.morn[p];
   if(u.length<MORN_N-MORN_AC)a=ac.slice(0,MORN_N-u.length);else if(a.length<MORN_AC)u=un.slice(0,MORN_N-a.length);
   if(!a.length&&!u.length)return null;
   m=P.morn[p]={day:d,list:shuffle(a.concat(u)).map(q=>q.uid),ans:{},ts:now()};save();return m;}
+/* Morning round history: every day of the ward's rotation (config wards[].rotation {start,end}; otherwise first recorded day → today) with what was done that day */
+const TH_WD=["อา.","จ.","อ.","พ.","พฤ.","ศ.","ส."],TH_MO=["ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค.","พ.ย.","ธ.ค."];
+const dayTH=d=>{const [y,m,dd]=d.split("-").map(Number),t=new Date(y,m-1,dd);return `${TH_WD[t.getDay()]} ${dd} ${TH_MO[m-1]} ${String(y+543).slice(2)}`;};
+const addDay=(d,n)=>{const [y,m,dd]=d.split("-").map(Number),t=new Date(y,m-1,dd+n);return t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");};
+function mornRecs(){const P=P_(),o={};for(const k in P.mornH){const x=P.mornH[k];if(x&&x.day)(o[x.day]=o[x.day]||[]).push(Object.assign({p:+k.split("|")[1]||1},x));}
+  [1,2].forEach(p=>{const m=P.morn[p];if(!m||!m.day)return;const L=o[m.day]=(o[m.day]||[]).filter(x=>x.p!==p);L.push(Object.assign({p},m));});return o;}
+function mornStat(x){const W=W_(),list=(x.list||[]).filter(u=>W.byU[u]),done=list.filter(u=>x.ans[u]!==undefined),qs=list.map(u=>W.byU[u]);
+  const ok=u=>x.ans[u]===W.byU[u].ans,ac=qs.filter(q=>!q.unit),un=qs.filter(q=>q.unit);
+  const part=a=>({n:a.length,done:a.filter(q=>x.ans[q.uid]!==undefined).length,right:a.filter(q=>ok(q.uid)).length});
+  return {list,n:list.length,done:done.length,right:done.filter(ok).length,ac:part(ac),un:part(un)};}
+function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=(W.cfg.rotation)||{};
+  const keys=Object.keys(rec).sort(),start=rot.start||keys[0]||today,end=rot.end||(keys.length&&keys[keys.length-1]>today?keys[keys.length-1]:today);
+  const days=[];for(let d=start;d<=end&&days.length<400;d=addDay(d,1))days.push(d);keys.forEach(k=>{if(!days.includes(k))days.push(k);});days.sort();
+  let full=0,partial=0,miss=0,ans=0,right=0,streak=0,run=0;
+  const rows=days.map(d=>{const L=rec[d]||[],S=L.map(mornStat),n=S.reduce((a,x)=>a+x.n,0),dn=S.reduce((a,x)=>a+x.done,0),rt=S.reduce((a,x)=>a+x.right,0);
+    const st_=d>today?"future":d===today?(n&&dn>=n?"full":"today"):!n||!dn?"miss":dn>=n?"full":"part";
+    if(d<=today){ans+=dn;right+=rt;if(st_==="full")full++;else if(st_==="part")partial++;else if(st_==="miss")miss++;}
+    return {d,L,S,n,dn,rt,st:st_};});
+  rows.filter(r=>r.d<=today).forEach(r=>{if(r.st==="full")run++;else if(r.st!=="today")run=0;});streak=run;
+  const past=rows.filter(r=>r.d<=today).length;
+  let h=`<h1 class="h2">ประวัติ Morning round</h1><p class="sub">ทุกวันของวอร์ดนี้${rot.start?` (${dayTH(rot.start)} – ${dayTH(rot.end||end)})`:""} · วันนับตั้งแต่ 07:30 ถึง 07:29 ของวันถัดไป · แตะวันที่เพื่อดูทั้ง 15 ข้อและเฉลย</p>`;
+  h+=`<div class="card mhsum"><div><b>${full}</b><span>วันที่ทำครบ</span></div><div><b>${partial}</b><span>ทำไม่ครบ</span></div><div><b class="${miss?"bad":""}">${miss}</b><span>ไม่ได้ทำ</span></div><div><b>${ans}</b><span>ข้อที่ตอบ</span></div><div><b>${ans?Math.round(right/ans*100)+"%":"–"}</b><span>ถูก ${right} ข้อ</span></div><div><b>${streak}</b><span>วันติดต่อกัน</span></div></div>`;
+  h+=`<p class="hint" style="margin:6px 0 10px">ผ่านมาแล้ว ${past} จาก ${rows.length} วัน${HAS_CLAUDE()?" · ประวัตินี้เก็บแยกในเว็บกับใน Claude (เข้าสู่ระบบในเว็บเพื่อรวมหลายเครื่อง)":""}</p><div class="mhlist">`;
+  rows.slice().reverse().forEach(r=>{
+    const lab=r.st==="future"?`<span class="mhs fut">ยังไม่ถึง</span>`:r.st==="miss"?`<span class="mhs miss">ไม่ได้ทำ</span>`:r.st==="today"?`<span class="mhs part">${r.dn?`วันนี้ทำไป ${r.dn}/${r.n}`:"วันนี้ยังไม่ได้ทำ"}</span>`:r.st==="part"?`<span class="mhs part">ทำ ${r.dn}/${r.n}</span>`:`<span class="mhs ok">ครบ ${r.dn}/${r.n}</span>`;
+    const sc=r.dn?`<span class="mhr">ถูก <b>${r.rt}</b>/${r.dn} (${Math.round(r.rt/r.dn*100)}%)${r.S.map(x=>` · AC ${x.ac.right}/${x.ac.done}${x.ac.n>x.ac.done?` จาก ${x.ac.n}`:""} · Unit ${x.un.right}/${x.un.done}${x.un.n>x.un.done?` จาก ${x.un.n}`:""}`).join("")}</span>`:"";
+    const head=`<span class="mhd${r.d===today?" now":""}">${dayTH(r.d)}</span>${lab}${sc}`;
+    if(!r.n){h+=`<div class="mhrow">${head}</div>`;return;}
+    h+=`<details class="mhrow"${r.d===today?" open":""}><summary>${head}</summary>`;
+    r.L.forEach((x,li)=>{const S=r.S[li];if(r.L.length>1)h+=`<div class="hint">Phase ${x.p}</div>`;
+      h+=`<ol class="mhq">${S.list.map((u,i)=>{const q=W.byU[u],a=x.ans[u],res=a===undefined?`<span class="mhx na">ไม่ได้ตอบ</span>`:a<0?`<span class="mhx no">หมดเวลา</span>`:a===q.ans?`<span class="mhx ok">✓ ${L[a]}</span>`:`<span class="mhx no">✗ ${L[a]} · เฉลย ${L[q.ans]}</span>`;
+        const src=q.unit?`Unit · ${esc((W.byLec[q.unit]||{}).short||q.set)} ข้อ ${q.n}`:`AC ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id}`;
+        return `<li><button class="mhopen" type="button" data-md="${esc(r.d)}" data-mp="${x.p}" data-mi="${i}"><span class="mhsrc">${src}</span><span class="mhst">${esc(plain(q.stem).slice(0,110))}${plain(q.stem).length>110?"…":""}</span>${res}</button></li>`;}).join("")}</ol>`;});
+    h+=`</details>`;});
+  h+=`</div>`;
+  $("main").innerHTML=h;
+  document.querySelectorAll("[data-md]").forEach(b=>b.onclick=()=>{const d=b.dataset.md,p=+b.dataset.mp,i=+b.dataset.mi,x=(mornRecs()[d]||[]).find(y=>y.p===p);if(!x)return;
+    const P=P_();if(d===mDay()&&P.morn[p]&&P.morn[p].day===d&&p===ph()){qStop();P.sess={kind:"morning",title:"Morning round",ph:p,day:d,list:P.morn[p].list.slice(),ans:Object.assign({},P.morn[p].ans),cur:i,ts:now()};save();return go(ward+"/sess");}
+    qStop();P.sess={kind:"mday",title:"Morning round · "+dayTH(d),ph:p,day:d,list:mornStat(x).list,ans:Object.assign({},x.ans),cur:i,ts:now()};save();go(ward+"/sess");});
+}
 function startMorning(){const m=morning(true);if(!m){toast("ยังไม่มีข้อให้ทำ — ยังไม่มีข้อสอบเก่าหรือโจทย์ Unit round ในวอร์ดนี้");return;}
   qStop();const i=m.list.findIndex(u=>m.ans[u]===undefined);
   P_().sess={kind:"morning",title:"Morning round",ph:ph(),day:m.day,list:m.list.slice(),ans:Object.assign({},m.ans),cur:i<0?0:i,ts:now()};save();go(ward+"/sess");}
@@ -287,7 +329,7 @@ function rHome(){
     const rCount=k=>{const t=k==="service"?`มี <b>${QB.length}</b> ข้อ`:k==="unit"?`มี <b>${unitN(ward)}</b> ข้อ · ${W.UNIT.length} บท`:k==="admission"?`มี <b>${aiN("adm",ward)}</b> เคส`:k==="staff"?`มีข้อให้ทวน <b>${sc}</b> ข้อ`:k==="advisor"?`อ่านเฉลยได้ <b>${QB.filter(q=>atts(P,1,q.uid).length||atts(P,2,q.uid).length).length}</b> ข้อ`:"";return t?`<span class="rcnt">${t}</span>`:"";};
     const mm=morning(false),ma=mm?mm.list.filter(u=>mm.ans[u]!==undefined).length:0;
     const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="legend"&&P.leg?'<span class="badge">กำลังสอบ</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
-    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?" mwarn":""}" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${rCount(r.k)}${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?`<span class="mtodo">${mm&&ma?`วันนี้ทำไป ${ma}/${mm.list.length} — ทำให้ครบด้วย`:"วันนี้ยังไม่ได้ทำ — ทำด้วยนะ"}</span>`:""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span>`:""}</button>`).join("")}</div>`;
+    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?" mwarn":""}" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${rCount(r.k)}${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?`<span class="mtodo">${mm&&ma?`วันนี้ทำไป ${ma}/${mm.list.length} — ทำให้ครบด้วย`:"วันนี้ยังไม่ได้ทำ — ทำด้วยนะ"}</span>`:""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span><span class="mhist" data-mhist="1">📅 ประวัติรายวัน →</span>`:""}</button>`).join("")}</div>`;
   }
   h+=gradeCard(ward);
   if(IN_FRAME&&HAS_CLAUDE())h+=clStartCard();
@@ -311,7 +353,7 @@ function rHome(){
   document.querySelectorAll("[data-p2]").forEach(b=>b.onclick=()=>{const k=b.dataset.p2,l=p2lists()[k];const t={wrong:"ข้อที่ยังผิดอยู่",right:"ข้อที่ทำถูกแล้ว",flag:"ข้อที่ยังไม่มั่นใจ",nop1:"ข้อที่ไม่เคยทำใน Phase 1"}[k];startSess("p2"+k,t,l.map(q=>q.uid));});
   const rs=$("resume");if(rs)rs.onclick=()=>go(ward+"/sess");
   const mc=$("mClock");if(mc){let lastDay=mDay();show._t=setInterval(()=>{if(!document.body.contains(mc)){clearInterval(show._t);return;}mc.textContent=hms(mNext()-now());if(mDay()!==lastDay){lastDay=mDay();rHome();}},1000);}
-  document.querySelectorAll("[data-round]").forEach(b=>b.onclick=()=>{const k=b.dataset.round;const R=ROUNDS.find(r=>r.k===k);if(R.soon){toast("โหมดนี้จะเพิ่มภายหลัง");return;}
+  document.querySelectorAll("[data-round]").forEach(b=>b.onclick=e=>{if(e&&e.target&&e.target.closest&&e.target.closest("[data-mhist]"))return go(ward+"/mhist");const k=b.dataset.round;const R=ROUNDS.find(r=>r.k===k);if(R.soon){toast("โหมดนี้จะเพิ่มภายหลัง");return;}
     if(k==="teach")return go(ward+"/teach");if(k==="unit")return go(ward+"/unit");if(k==="admission")return go(ward+"/adm");if(k==="morning")return startMorning();if(k==="longcase")return go(ward+"/lcase");
     if(!QB.length){toast("ยังไม่มีข้อสอบในคลัง");return;}
     if(k==="quality")return go(ward+"/quality");if(k==="advisor")return go(ward+"/advisor");if(k==="legend")return go(ward+"/legend");
@@ -431,7 +473,7 @@ function redoKey(q){if(!q)return "";if(view==="lrev")return "lrev|"+st.legSel+"|
 function doneAns(q){{const k=redoKey(q);if(k&&k in REDO)return REDO[k]===null?undefined:REDO[k];}if(view==="admq"){const it=bank[st.admSel];return it&&it.a!=null?it.a:undefined;}if(view==="lrev"){const a=bank[st.legSel].ans[q.uid];return a==null?-2:a;}if(isAdv()){const h=hist(P_(),q.uid,P_().sess.hp,true);return h.length?h[h.length-1][0]:null;}if(view==="adm"){const a=P_().adm.ans;return a==null?undefined:a;}return isSess()?P_().sess.ans[q.uid]:lockedAns(P_(),ph(),q.uid);}
 
 /* ---------------- seen elsewhere: which rounds a question (or a related question) has already appeared in ---------------- */
-const RKL={service:"service round",grand:"grand round",morning:"morning round",staff:"ward staff round",quality:"quality round",unit:"unit round",advisor:"advisor round",topic:"advisor round (รายหัวข้อ)",redo:"รอบทำข้อผิดซ้ำ",phase2:"ทบทวนก่อนสอบ (Phase 2)",legend:"legendary round",adm:"admission round"};
+const RKL={service:"service round",grand:"grand round",morning:"morning round",staff:"ward staff round",quality:"quality round",unit:"unit round",advisor:"advisor round",topic:"advisor round (รายหัวข้อ)",redo:"รอบทำข้อผิดซ้ำ",phase2:"ทบทวนก่อนสอบ (Phase 2)",legend:"legendary round",adm:"admission round",mday:"morning round (ย้อนดู)"};
 const RKO=Object.keys(RKL);
 function curRK(){if(view==="svc")return "service";if(view==="adm"||view==="admq")return "adm";if(view==="exam"||view==="lrev")return "legend";
   if(view==="sess"){const k=(P_().sess||{}).kind||"";return k.startsWith("p2")?"phase2":RKL[k]?k:"grand";}return "";}
@@ -1869,6 +1911,7 @@ function mergeSt(a,b){
     [1,2].forEach(p=>{const a=l.morn[p],c=r.morn[p];if(!c)return;
       if(a&&a.day===c.day&&(a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);
       else if(!a||c.day>a.day||(c.day===a.day&&(c.ts||0)>(a.ts||0)))l.morn[p]=c;});
+    for(const k in r.mornH){const a=l.mornH[k],c=r.mornH[k];if(!a)l.mornH[k]=c;else if((a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);else if((c.ts||0)>(a.ts||0))l.mornH[k]=c;}
     if((r.adm.ts||0)>(l.adm.ts||0))l.adm=r.adm;
     for(const u in r.seen){const a=l.seen[u]||(l.seen[u]={}),b=r.seen[u];for(const k in b)a[k]=a[k]?Math.min(a[k],b[k]):b[k];}
     if(r.leg&&!bank["leg|"+id+"|"+r.leg.id]){if(!l.leg)l.leg=r.leg;else if(l.leg.id===r.leg.id){l.leg.ans=Object.assign({},r.leg.ans,l.leg.ans);l.leg.star=Object.assign({},r.leg.star,l.leg.star);}}

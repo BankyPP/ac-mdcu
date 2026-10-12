@@ -270,3 +270,24 @@ figure .spr{width:100%!important}
 .ufa{display:flex;flex-direction:column;gap:4px;margin:14px 0 4px;flex-basis:100%}
 .ufab{border-color:var(--form);color:var(--form);font-weight:600}
 .resitem{margin:6px 0 10px}.resitem ul{margin:4px 0 0}
+/* Morning round history */
+.round .mhist{margin-top:6px;font-size:12.5px;color:var(--form);text-decoration:underline;text-underline-offset:2px}
+.mhsum{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 6px;text-align:center}
+.mhsum b{display:block;font-family:var(--num);font-size:22px;line-height:1.1}.mhsum b.bad{color:var(--wrong)}
+.mhsum span{font-size:12px;color:var(--muted)}
+.mhlist{display:flex;flex-direction:column;gap:6px}
+.mhrow{border:1.5px solid var(--rule);border-radius:8px;background:var(--sheet);padding:9px 11px;display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
+details.mhrow{display:block}
+details.mhrow>summary{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;cursor:pointer;list-style:none}
+details.mhrow>summary::-webkit-details-marker{display:none}
+details.mhrow>summary::after{content:"▾";margin-left:auto;color:var(--muted);order:1}
+.mhrow .mhr{order:2}
+details.mhrow[open]>summary::after{content:"▴"}
+.mhd{font-family:var(--num);font-weight:700;min-width:96px}.mhd.now{color:var(--form)}
+.mhs{font-size:12.5px;border-radius:10px;padding:1px 8px;border:1px solid currentColor;white-space:nowrap}
+.mhs.ok{color:var(--right)}.mhs.part{color:var(--warn)}.mhs.miss{color:var(--wrong)}.mhs.fut{color:var(--muted);border-style:dashed}
+.mhr{flex-basis:100%;font-size:12.5px;color:var(--muted)}.mhr b{color:var(--ink)}
+.mhq{margin:8px 0 2px;padding-left:22px;display:flex;flex-direction:column;gap:5px}
+.mhopen{display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:100%;text-align:left;background:none;border:1px solid var(--rule);border-radius:6px;padding:6px 8px;cursor:pointer;color:var(--ink);font:inherit}
+.mhsrc{font-size:11.5px;color:var(--muted)}.mhst{font-size:13.5px;line-height:1.45}
+.mhx{font-size:12.5px;font-weight:700}.mhx.ok{color:var(--right)}.mhx.no{color:var(--wrong)}.mhx.na{color:var(--muted);font-weight:400}
