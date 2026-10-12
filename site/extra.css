@@ -525,3 +525,8 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .mqdlg .dlg-act,.mqv .dlg-act{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
 .mqdlg .dlg-act .btn{font-size:15px;padding:8px 14px;text-decoration:none}
 .mqv .row2{margin-bottom:8px}
+.wcard .acn{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 6px;margin-top:4px}
+.wcard .acl{font-size:12px;color:var(--muted)}
+.wcard .act{font-family:var(--num);font-size:12.5px;border:1px solid var(--rule);border-radius:999px;padding:0 8px;color:var(--ink);line-height:1.6}
+.wcard .act b{color:var(--form)}
+.wcard .act.z{color:var(--muted)}.wcard .act.z b{color:var(--muted)}
