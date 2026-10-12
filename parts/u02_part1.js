@@ -71,7 +71,7 @@ U({n:6, stem:"A 52-year-old office worker in Bangkok eats canned and preserved f
   summary:["Colorectal CA ← ชีวิตตะวันตก: อาหาร preservative/กระป๋อง, เนื้อแดง, ของปิ้งย่าง (nitrosamine)","ไทยมีแนวโน้มเหมือนต่างประเทศแล้ว → colorectal เป็นอันดับ 1 ในชายไทย 2022 (21.0%) และอันดับ 3 ในหญิง (10.7%)","Primary prevention ของ CRC: no smoking, no red meat, no over-grilled meat","Secondary prevention: colonoscopic polypectomy (polyp = premalignant lesion)"],
   tags:["Onco","Colorectal"], src:"L02 Surgical Oncology · ไฟล์ B หน้า 8 + ไฟล์ A หน้า 6, 8, 25 · ไม่มีสัญลักษณ์ · ลายมือ"}),
 
-U({n:7, stem:"A 72-year-old man who grew up in southern Thailand presents with progressive dysphagia to solids and a 7-kg weight loss. He smoked for 40 years, and in his youth he regularly ate stink beans (sato) and Gnetum leaves (bai liang) as part of the local diet. Which cancer did the lecture associate with this regional background?",
+U({n:7, stem:"A 72-year-old man who grew up in southern Thailand attends a cancer-risk counselling clinic. He smoked for 40 years, and in his youth he regularly ate stink beans (sato) and Gnetum leaves (bai liang) as part of the local diet. Which cancer did the lecture associate with this regional background?",
   opts:["Gastric cancer","Oral cavity cancer","Esophageal cancer","Nasopharyngeal cancer","Laryngeal cancer"], ans:2,
   interp:"กลืนลำบากต่อของแข็ง + น้ำหนักลด + ภาคใต้ (สะตอ ใบเหลียง) + สูบบุหรี่ → esophageal cancer",
   why:"ลายมือไฟล์ B หน้า 8 ที่ Esophagus (อันดับ 6, 4.1%): <b>\"สมัยก่อน: ภาคใต้ — สะตอ, ใบเหลียง\"</b> · ลายมือไฟล์ A หน้า 6: Esophagus → \"ภาคใต้ ∴ กินสะตอ\" + <b>\"/ smoking\"</b> · อาการ progressive dysphagia เป็นผลจาก mass effect ของ hollow viscus (obstruction)",
@@ -203,7 +203,7 @@ U({n:17, kimg:["l02_metcascade"], stem:"A 63-year-old woman underwent resection 
   summary:["Progression = invasion เข้ากระแสเลือด/น้ำเหลือง → metastasis","Metastatic cascade 6 ขั้น: primary neoplasm, angiogenesis, lymphovascular invasion, seeding in distant capillary bed, extravasation & neo-microenvironment start-up, metastatic growth","ตำแหน่งที่ชอบไป: ปอด ตับ bone marrow; CA breast → ตับ ปอด กระดูก","CA colon → regional LN → liver → lung (ไม่ค่อยไป bone)"],
   tags:["Onco","Colorectal","Liver"], src:"L02 Surgical Oncology · ไฟล์ B หน้า 19–20 + ไฟล์ A หน้า 18 · ไม่มีสัญลักษณ์ · ลายมือ"}),
 
-U({n:18, kimg:["l02_vogel"], stem:"To explain why cancer does not arise from a single event, a lecturer shows three pictures in sequence, child Anakin Skywalker, young adult Anakin, and Darth Vader, joined by a chain of four arrows. Which concept is this slide intended to teach?",
+U({n:18, kimg:["l02_vogel"], stem:"To illustrate how a normal cell becomes a cancer cell, a lecturer shows three pictures in sequence, child Anakin Skywalker, young adult Anakin, and Darth Vader, joined by a chain of four arrows. Which concept is this slide intended to teach?",
   opts:["Spontaneous regression","Multistep carcinogenesis","Single-hit transformation","Squamous metaplasia","Clonal deletion"], ans:1,
   interp:"ภาพ 3 ขั้นต่อด้วยลูกศรหลายอัน → มะเร็งเกิดจากหลายขั้นตอนสะสมกัน",
   why:"ไฟล์ A หน้า 11 / ไฟล์ B หน้า 11: Carcinogenesis — Normal cell ➜ Cancer cell, ภาพ Anakin เด็ก → Anakin หนุ่ม → Darth Vader ต่อด้วยลูกศร 4 อัน และข้อความ <b>\"Multisteps Carcinogenesis\"</b> · ตัวอย่างที่ชัดในบทเดียวกันคือ adenoma–carcinoma sequence: APC (5q) → DNA hypomethylation → K-ras (12p) → DCC (18q) → p53 (17p) สะสมจนกลายเป็น carcinoma ใน ~5–10 ปี (ดูรูปหลังตอบ)",
@@ -215,7 +215,7 @@ U({n:18, kimg:["l02_vogel"], stem:"To explain why cancer does not arise from a s
   summary:["Multistep carcinogenesis: normal cell → cancer cell ผ่านหลายขั้น (Anakin → Darth Vader)","Steps: initiation → promotion → progression","Colon: normal epithelium → hyperproliferative → early/intermediate/late adenoma → carcinoma → metastasis","ยีนตามลำดับ: APC (5q), DNA hypomethylation, K-ras (12p), DCC (18q), p53 (17p)"],
   tags:["Onco"], src:"L02 Surgical Oncology · ไฟล์ B หน้า 11, 21 + ไฟล์ A หน้า 11 · ไม่มีสัญลักษณ์"}),
 
-U({n:19, stem:"A researcher cultures cells taken from a patient's breast carcinoma. Unlike normal epithelial cells from the same patient, the tumor cells continue to divide indefinitely and do not undergo programmed cell death. Which feature of neoplastic cells listed in the lecture does this describe?",
+U({n:19, stem:"A researcher cultures cells taken from a patient's breast carcinoma. Unlike normal epithelial cells from the same patient, the tumor cells survive indefinitely in culture and never undergo programmed cell death. Which feature of neoplastic cells listed in the lecture does this describe?",
   opts:["Irreparable","Not differentiable","Genetic alteration","Immortal","Reparable"], ans:3,
   interp:"ไม่ตายตามโปรแกรม (ไม่ apoptosis) และแบ่งตัวไม่สิ้นสุด → Immortal",
   why:"ไฟล์ B หน้า 12 / ไฟล์ A หน้า 12 ตาราง Normal vs Neoplastic cell: Correct DNA content ↔ Genetic alteration · Proper differentiation ↔ Not differentiable · Reparable ↔ Irreparable · <b>Apoptosis ↔ Immortal</b> · ลายมือไฟล์ A: Apoptosis \"ตาย!!\" ↔ Immortal <b>\"ไม่ยอมตาย\"</b> · ไฟล์ B หน้า 14: \"Cancer NEVER die!\"",
@@ -239,7 +239,7 @@ U({n:20, stem:"A pathologist reviewing a poorly differentiated carcinoma explain
   summary:["ตาราง 4 คู่: correct DNA ↔ genetic alteration; proper differentiation ↔ not differentiable; reparable ↔ irreparable; apoptosis ↔ immortal","Not differentiable: แบ่งตัวเป็น cell ปกติไม่ได้ proliferate ไปเรื่อย ๆ","Stimulation signal ในเซลล์ปกติ → growth, differentiation","G0 = no more cell division = differentiation"],
   tags:["Onco"], src:"L02 Surgical Oncology · ไฟล์ B หน้า 12 + ไฟล์ A หน้า 12 · ไม่มีสัญลักษณ์ · ลายมือ"}),
 
-U({n:21, kimg:["l02_cellcycle"], stem:"A histology tutor tells students that most cells in the body spend the majority of their time in the phase that immediately follows mitosis, during which the cell grows and prepares for DNA synthesis. Which phase of the cell cycle is this?",
+U({n:21, kimg:["l02_cellcycle"], stem:"A histology tutor tells students that most actively dividing (cycling) cells spend the majority of their time in the phase that immediately follows mitosis, during which the cell grows and prepares for DNA synthesis. Which phase of the cell cycle is this?",
   opts:["G1","S","G2","M","G0"], ans:0,
   interp:"เฟสหลัง mitosis ที่เซลล์โตและเตรียมสังเคราะห์ DNA + เซลล์ส่วนใหญ่อยู่ = G1",
   why:"ไฟล์ B หน้า 13: <b>G1 — Gap1 (Growth, Preparation for DNA synthesis)</b> → checkpoint → S (DNA replication) → G2 (Preparation for mitosis, growth) → checkpoint → M (prophase, metaphase, anaphase, telophase) · ลายมือไฟล์ A หน้า 13: <b>\"cell ส่วนใหญ่อยู่ G1\"</b>",
@@ -506,7 +506,7 @@ U({n:42, stem:"A 10-month-old infant is diagnosed with retinoblastoma in both ey
   outside:"นอกสไลด์: Knudson two-hit hypothesis — hereditary retinoblastoma เป็นสองข้างและเกิดอายุน้อยกว่า sporadic",
   tags:["Onco"], src:"L02 Surgical Oncology · ไฟล์ B หน้า 16–17 + ไฟล์ A หน้า 16–17 · ไม่มีสัญลักษณ์ · ลายมือ"}),
 
-U({n:43, stem:"A breast surgeon counsels a 38-year-old woman whose sister carries a BRCA2 mutation. Afterwards, a medical student is asked which genes were listed together as DNA repair genes on the lecture slide of genetic abnormality examples. Which answer is correct?",
+U({n:43, stem:"A breast surgeon counsels a 38-year-old woman whose sister carries a hereditary breast cancer gene mutation. Afterwards, a medical student is asked which genes were listed together as DNA repair genes on the lecture slide of genetic abnormality examples. Which answer is correct?",
   opts:["BRCA1 and APC","p53 and Rb","Ras and Myc","HER-2-neu and Src","BRCA2 and MMR"], ans:4,
   interp:"สไลด์ตัวอย่าง genetic abnormality: DNA repair gene = BRCA2, MMR (BRCA1 อยู่กลุ่ม TSG)",
   why:"ไฟล์ B หน้า 17 (Genetic abnormality: Example): ▪ Oncogene ▪ HER-2-neu, Ras, Myc, Src, hTERT · ▪ Tumor suppressor gene ▪ p53, Rb, APC, BRCA1 · ▪ <b>DNA repair gene ▪ BRCA2, MMR</b> · ไฟล์ B หน้า 16: DNA repair gene ผิดปกติแบบ inactivated · BRCA mutation เป็น high-risk pt → removal of target organ (primary prevention, ไฟล์ B หน้า 27 / ไฟล์ A หน้า 23)",
