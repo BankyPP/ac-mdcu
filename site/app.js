@@ -70,7 +70,7 @@ function PWof(S,id){
   P.adm=P.adm||{cur:null,ans:null,next:null,n:0,right:0,recent:[],ts:0};   /* Admission round */
   P.seen=P.seen||{};   /* where each question has been shown: {uid: {roundKey: firstTs}} */
   P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};
-  mqInitP(P);   /* MEQ progress (site/meq.js): {a1,a2,star,v} */   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
+  mqInitP(P);P.ioSeen=P.ioSeen||{};   /* Round I/O: pages already opened {pageId|"T:"+topic: rev} */   /* MEQ progress (site/meq.js): {a1,a2,star,v} */   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
   return P;
 }
 /* migrate the earlier single-sheet site/artifact format {a:{uid:ans},t} → Phase 1 attempts */
@@ -138,7 +138,7 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin","io"].includes(v))v="home";
   if((v==="mqr"||v==="mq"||v==="mqhy")&&!mqL().length)v="home";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
@@ -156,7 +156,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY,mqin:mqIn})[v]();
+  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY,mqin:mqIn,io:rIO})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -203,10 +203,10 @@ function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign(
     <label class="ck"><input type="checkbox" data-f="done"${x.done&&!x.at?" checked":""}> สอบไปแล้ว (ไม่ต้องใส่วัน)</label>
     <span class="dtmv"><span class="dtgrip" data-grip title="กดค้างแล้วลากเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰ ลาก</span><button class="btn" type="button" data-mv="-1" aria-label="เลื่อนขึ้น">↑ ขึ้น</button><button class="btn" type="button" data-mv="1" aria-label="เลื่อนลง">↓ ลง</button></span>
     <button class="link" type="button" data-del="${i}">ลบ</button></div>`;};
-  let h=`<h1 class="h2">วันสอบ · ${esc(w.name)}</h1><p class="sub">แก้แล้วกดบันทึก นับถอยหลัง คำเตือน Phase 2 และหน้าประวัติ Morning round ใช้ค่านี้ทันที · เข้าสู่ระบบไว้จะใช้ค่าเดียวกันทุกเครื่อง${o?` · <b>กำลังใช้ค่าที่แก้เอง</b> (แก้ล่าสุด ${fmtDT(o.ts)})`:" · ตอนนี้ใช้ค่าตั้งต้นของเว็บ"}</p>`;
-  h+=`<div class="card"><h3>วันสอบ</h3><div id="dtRows">${D.map(row).join("")||`<p class="hint">ยังไม่มีวันสอบ</p>`}</div><button class="btn" id="dtAdd" type="button">+ เพิ่มวันสอบ</button>
+  let h=`<h1 class="h2">Admit · ICU · Discharge — ${esc(w.name)}</h1><p class="sub">แก้แล้วกดบันทึก นับถอยหลัง คำเตือน Phase 2 และหน้าประวัติ Morning round ใช้ค่านี้ทันที · เข้าสู่ระบบไว้จะใช้ค่าเดียวกันทุกเครื่อง${o?` · <b>กำลังใช้ค่าที่แก้เอง</b> (แก้ล่าสุด ${fmtDT(o.ts)})`:" · ตอนนี้ใช้ค่าตั้งต้นของเว็บ"}</p>`;
+  h+=`<div class="card"><h3>ICU <span class="hint" style="font-weight:400">(วันสอบ)</span></h3><div id="dtRows">${D.map(row).join("")||`<p class="hint">ยังไม่มี ICU</p>`}</div><button class="btn" id="dtAdd" type="button">+ เพิ่ม ICU</button>
     <p class="hint" style="margin-top:8px">ลำดับในหน้านี้ = ลำดับที่โชว์ในหน้าวอร์ดและหน้าแรก (บนสุด = ซ้ายสุด/ก่อน) — กด ☰ ค้างแล้วลาก หรือกด ↑ ขึ้น / ↓ ลง · ไม่ใส่เวลาเริ่ม = นับถอยหลังเป็นวัน · ใส่เวลาเริ่มและจบ = ระหว่างสอบขึ้น "กำลังสอบ ✍️" · เหลือ ≤14 วันกล่องเป็นสีแดงและเตือนให้เริ่ม Phase 2</p></div>`;
-  h+=`<div class="card"><h3>ช่วงวอร์ด (rotation)</h3><span class="rd">ใช้กับหน้าประวัติ Morning round (เรียงครบทุกวันในช่วงนี้)</span><div class="dtrow"><label>เริ่ม<input type="date" id="rtS" value="${esc(rot.start||"")}"></label><label>จบ<input type="date" id="rtE" value="${esc(rot.end||"")}"></label></div></div>`;
+  h+=`<div class="card"><h3>Admit &amp; Discharge</h3><span class="rd">วันเริ่มและวันจบวอร์ด — ใช้กับหน้าประวัติ Morning round (เรียงครบทุกวันในช่วงนี้)</span><div class="dtrow"><label>Admit<input type="date" id="rtS" value="${esc(rot.start||"")}"></label><label>Discharge<input type="date" id="rtE" value="${esc(rot.end||"")}"></label></div></div>`;
   h+=`<div class="stack"><button class="btn primary" id="dtSave" type="button">บันทึก</button>${o?`<button class="btn" id="dtReset" type="button">คืนค่าตั้งต้นของเว็บ</button>`:""}<a class="btn" href="#/${esc(ward)}">ยกเลิก</a></div>`;
   $("main").innerHTML=h;
   const read=()=>[...document.querySelectorAll("#dtRows .dtrow")].map(r=>{const g=f=>r.querySelector(`[data-f="${f}"]`),i=+r.dataset.i,old=D[i]||{},part=g("part").value,d=g("d").value,t=g("t").value,e=g("e").value,done=g("done").checked;
@@ -217,7 +217,7 @@ function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign(
       g.onpointerup=g.onpointercancel=()=>{r.classList.remove("drag");g.onpointermove=null;};};r.querySelectorAll("[data-mv]").forEach(b=>b.onclick=()=>{const d=+b.dataset.mv,o=d<0?r.previousElementSibling:r.nextElementSibling;if(!o)return;if(d<0)o.before(r);else o.after(r);});};
   document.querySelectorAll("#dtRows .dtrow").forEach(bindRow);
   $("dtAdd").onclick=()=>{const box=$("dtRows"),i=D.length;D.push({part:"MCQ"});if(!box.querySelector(".dtrow"))box.innerHTML="";box.insertAdjacentHTML("beforeend",row(D[i],i));bindRow(box.lastElementChild);};
-  $("dtSave").onclick=()=>{const dates=read(),s_=$("rtS").value,e_=$("rtE").value;if(s_&&e_&&e_<s_){toast("วันจบต้องไม่ก่อนวันเริ่ม");return;}
+  $("dtSave").onclick=()=>{const dates=read(),s_=$("rtS").value,e_=$("rtE").value;if(s_&&e_&&e_<s_){toast("วัน Discharge ต้องไม่ก่อนวัน Admit");return;}
     st.wcfg=st.wcfg||{};st.wcfg[w.id]={dates,rotation:s_?{start:s_,end:e_||s_}:null,ts:now()};save();toast("บันทึกวันสอบแล้ว");go(ward);};
   const rs=$("dtReset");if(rs)rs.onclick=()=>{if(!confirm("กลับไปใช้วันสอบตั้งต้นของเว็บ?"))return;st.wcfg[w.id]={reset:true,ts:now()};save();toast("กลับเป็นค่าตั้งต้นแล้ว");go(ward);};
 }
@@ -270,7 +270,7 @@ const ROUNDS=[
   {k:"unit",n:"Unit round",d:"โจทย์ใหม่แบบ case-based จาก lecture แต่ละบท สุ่มใหม่ทุกครั้งที่เข้า"},
   {k:"quality",n:"Quality round",d:"Speedrun ข้อสอบเก่า จับเวลาเป็นเซต · เลือกปีที่จะทำ หรือสุ่มจากทั้งคลัง ตั้งค่าเองได้ทั้งหมด"},
   {k:"admission",n:"Admission round",d:"เคสใหม่ที่ AI สร้างให้ทีละข้อ เนื้อหาเหมาะกับชั้นปีในวอร์ดนี้ · เก็บทุกข้อไว้ในคลังของคุณ"},
-  {k:"io",n:"Round I/O",d:"",soon:1},
+  {k:"io",n:"Round I/O",d:"อ่านสรุปเนื้อหาจาก Lecture (L) · Resource (R) · โน้ตวอร์ด (N) และรวมตามเรื่อง ที่ Claude สรุปให้ · ใช้ร่วมกับ MEQ / OSCE"},
   {k:"longcase",n:"Long case",d:"AI ให้ chief complaint มา แล้วดำเนินเคสเองทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ"}
 ];
 const yearTxt=()=>{const m=/(\d+)/.exec(wYear());return m?"ปี "+m[1]:"";};
@@ -376,7 +376,7 @@ function rHome(){
     h+=`<div class="empty" style="padding:44px 10px"><b style="font-family:var(--num);font-size:18px;color:var(--ink)">${esc(w.name)} ไม่มีสอบ ${type}</b><br><span class="hint">วอร์ดนี้สอบเฉพาะ ${["MCQ","MEQ","OSCE"].filter(t=>!(w.noExam||[]).includes(t)).join(" / ")}</span></div>`;
   }else if(type==="MEQ"&&mqL().length){h+=mqHomeHTML();
   }else if(type!=="MCQ"){
-    h+=`<div class="empty" style="padding:40px 10px">ยังไม่มีข้อสอบ ${type} ในวอร์ดนี้<br><span class="hint">ส่งไฟล์ ${type} ให้ Claude แล้วให้เพิ่มเข้าเว็บ</span></div>`;
+    h+=`<div class="empty" style="padding:40px 10px">ยังไม่มีข้อสอบ ${type} ในวอร์ดนี้<br><span class="hint">ส่งไฟล์ ${type} ให้ Claude แล้วให้เพิ่มเข้าเว็บ</span></div>`+ioCard();
   }else{
     if(!QB.length)h+=`<div class="card"><h3>ยังไม่มีข้อสอบในคลัง</h3><span class="rd" style="margin:0">ส่งไฟล์ข้อสอบเก่า (PDF/รูป/เอกสาร) ให้ Claude แล้วให้เพิ่มเข้าเว็บ ปุ่มด้านล่างจะใช้ได้เมื่อมีข้อสอบ</span></div>`;
     const done=QB.filter(q=>atts(P,p,q.uid).length),right=done.filter(q=>lastA(P,p,q.uid)[0]===q.ans);
@@ -394,7 +394,7 @@ function rHome(){
     const rCount=k=>{const t=k==="service"?`มี <b>${QB.length}</b> ข้อ`:k==="unit"?`มี <b>${unitN(ward)}</b> ข้อ · ${W.UNIT.length} บท`:k==="admission"?`มี <b>${aiN("adm",ward)}</b> เคส`:k==="staff"?`มีข้อให้ทวน <b>${sc}</b> ข้อ`:k==="advisor"?`อ่านเฉลยได้ <b>${QB.filter(q=>atts(P,1,q.uid).length||atts(P,2,q.uid).length).length}</b> ข้อ`:"";return t?`<span class="rcnt">${t}</span>`:"";};
     const mm=morning(false),ma=mm?mm.list.filter(u=>mm.ans[u]!==undefined).length:0;
     const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="legend"&&P.leg?'<span class="badge">กำลังสอบ</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
-    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?" mwarn":""}" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${rCount(r.k)}${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?`<span class="mtodo">${mm&&ma?`วันนี้ทำไป ${ma}/${mm.list.length} — ทำให้ครบด้วย`:"วันนี้ยังไม่ได้ทำ — ทำด้วยนะ"}</span>`:""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span><span class="mhist" data-mhist="1">📅 ประวัติรายวัน →</span>`:""}</button>`).join("")}</div>`;
+    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?" mwarn":""}" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${rCount(r.k)}${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?`<span class="mtodo">${mm&&ma?`วันนี้ทำไป ${ma}/${mm.list.length} — ทำให้ครบด้วย`:"วันนี้ยังไม่ได้ทำ — ทำด้วยนะ"}</span>`:""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span><span class="mhist" data-mhist="1">📅 ประวัติรายวัน →</span>`:""}</button>`).join("")}</div>`;
   }
   h+=gradeCard(ward);
   if(IN_FRAME&&HAS_CLAUDE())h+=clStartCard();
@@ -419,7 +419,7 @@ function rHome(){
   const rs=$("resume");if(rs)rs.onclick=()=>go(ward+"/sess");
   const mc=$("mClock");if(mc){let lastDay=mDay();show._t=setInterval(()=>{if(!document.body.contains(mc)){clearInterval(show._t);return;}mc.textContent=hms(mNext()-now());if(mDay()!==lastDay){lastDay=mDay();rHome();}},1000);}
   document.querySelectorAll("[data-round]").forEach(b=>b.onclick=e=>{if(e&&e.target&&e.target.closest&&e.target.closest("[data-mhist]"))return go(ward+"/mhist");const k=b.dataset.round;const R=ROUNDS.find(r=>r.k===k);if(R.soon){toast("โหมดนี้จะเพิ่มภายหลัง");return;}
-    if(k==="teach")return go(ward+"/teach");if(k==="unit")return go(ward+"/unit");if(k==="admission")return go(ward+"/adm");if(k==="morning")return startMorning();if(k==="longcase")return go(ward+"/lcase");
+    if(k==="io")return go(ward+"/io");if(k==="teach")return go(ward+"/teach");if(k==="unit")return go(ward+"/unit");if(k==="admission")return go(ward+"/adm");if(k==="morning")return startMorning();if(k==="longcase")return go(ward+"/lcase");
     if(!QB.length){toast("ยังไม่มีข้อสอบในคลัง");return;}
     if(k==="quality")return go(ward+"/quality");if(k==="advisor")return go(ward+"/advisor");if(k==="legend")return go(ward+"/legend");
     if(k==="grand")go(ward+"/grand");else if(k==="service")go(ward+"/service");
@@ -1986,6 +1986,7 @@ function mergeSt(a,b){
     if(r.lcCur&&!l.lcCur)l.lcCur=r.lcCur;
     if(r.advPlan&&(!l.advPlan||(r.advPlan.ts||0)>(l.advPlan.ts||0)))l.advPlan=r.advPlan;
     newer(l.flag,r.flag);newer(l.post,r.post);
+    for(const k in r.ioSeen||{})l.ioSeen[k]=Math.max(l.ioSeen[k]||0,r.ioSeen[k]);
     {const a=mqInitP(l),c=mqInitP(r);newer(a.a1,c.a1);newer(a.a2,c.a2);newer(a.star,c.star);if((c.v.ts||0)>(a.v.ts||0))l.meq.v=c.v;}
     if((b.t||0)>(a.t||0)){l.svc=r.svc;l.type=r.type;l.pick=r.pick;}
     if(r.sess&&(!l.sess||(r.sess.ts||0)>(l.sess.ts||0)))l.sess=r.sess;

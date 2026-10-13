@@ -140,7 +140,7 @@ const MQ_ROUNDS=[
   {k:"unit",n:"Unit round",d:"ทำ MEQ ตามหัวข้อ เลือกได้หลายหัวข้อ — เปิดเฉพาะ Part ที่ตรงหัวข้อ"},
   {k:"quality",n:"Quality round",d:"",soon:1,note:"จับเวลาแบบใหม่สำหรับ MEQ — รอรายละเอียด"},
   {k:"admission",n:"Admission round",d:"",soon:1,note:"AI ออกโจทย์ให้ตอบแบบ short answer / short essay — กำลังทำ"},
-  {k:"io",n:"Round I/O",d:"",soon:1},
+  {k:"io",n:"Round I/O",d:"อ่านสรุปเนื้อหาจาก Lecture (L) · Resource (R) · โน้ตวอร์ด (N) และรวมตามเรื่อง ที่ Claude สรุปให้ · ใช้ร่วมกับ MCQ / OSCE"},
   {k:"longcase",n:"Long case",d:"AI ให้ chief complaint มา แล้วดำเนินเคสเองทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ (ใช้ร่วมกับ MCQ / OSCE)"}
 ];
 const MQ_RN=k=>(MQ_ROUNDS.find(r=>r.k===k)||{n:"MEQ"}).n;
@@ -171,11 +171,11 @@ function mqHomeHTML(){const P=P_(),p=ph(),L=mqL(),W=W_(),done=L.filter(q=>mqCase
     <button class="btn" type="button" id="mqAllCl" style="margin-top:8px" ${need?"":"disabled"}>ส่งข้อที่ยังไม่ได้ให้ Claude ตรวจ (${need} ข้อ)</button></div>`;}
   if(HAS_CLAUDE())h+=`<button class="resume" id="mqInGo"><span><b>📋 ตรวจคำตอบ MEQ จากเว็บ</b><span class="rd">วางรหัสที่คัดลอกจากเว็บ แล้วให้ Claude ประเมิน</span></span><span class="go">→</span></button>`;
   const cnt=k=>{const t=k==="service"?`มี <b>${L.length}</b> ข้อ · ${L.reduce((a,q)=>a+q.subs.length,0)} Part`:k==="staff"?`มีข้อให้ทวน <b>${sl}</b> ข้อ`:k==="advisor"?`อ่านเฉลยได้ <b>${L.filter(mqAnyDone).length}</b> ข้อ`:k==="unit"?`มี <b>${mqTopics().length}</b> หัวข้อ`:"";return t?`<span class="rcnt">${t}</span>`:"";};
-  h+=`<div class="rounds">${MQ_ROUNDS.map((r,i)=>`<button class="round" data-mqround="${r.k}" aria-disabled="${!!r.soon}">${r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="staff"&&sl?`<span class="badge">${sl}</span>`:""}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.n}</b><span class="rd">${r.soon?(r.note||"รายละเอียดจะเพิ่มภายหลัง"):r.d}</span>${cnt(r.k)}</button>`).join("")}</div>`;
+  h+=`<div class="rounds">${MQ_ROUNDS.map((r,i)=>`<button class="round" data-mqround="${r.k}" aria-disabled="${!!r.soon}">${r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="staff"&&sl?`<span class="badge">${sl}</span>`:""}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}</b><span class="rd">${r.soon?(r.note||"รายละเอียดจะเพิ่มภายหลัง"):r.d}</span>${cnt(r.k)}</button>`).join("")}</div>`;
   return h;}
 function mqBindHome(){
   document.querySelectorAll("[data-mqround]").forEach(b=>b.onclick=()=>{const k=b.dataset.mqround,R=MQ_ROUNDS.find(r=>r.k===k);if(R.soon){toast(R.note||"โหมดนี้จะเพิ่มภายหลัง");return;}
-    if(k==="teach")return go(ward+"/teach");if(k==="longcase")return go(ward+"/lcase");if(k==="grand")return mqGrandNext(true);
+    if(k==="io")return go(ward+"/io");if(k==="teach")return go(ward+"/teach");if(k==="longcase")return go(ward+"/lcase");if(k==="grand")return mqGrandNext(true);
     mqVset({r:k,status:k==="service"||k==="unit"?mqS().v.status:"all"});save();go(ward+"/mqr");});
   document.querySelectorAll("[data-mqp2]").forEach(b=>b.onclick=()=>{mqVset({r:"service",set:"all",style:"all",status:b.dataset.mqp2});save();go(ward+"/mqr");});
   const rs=$("mqResume");if(rs)rs.onclick=()=>go(ward+"/mq");

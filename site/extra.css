@@ -530,3 +530,50 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .wcard .act{font-family:var(--num);font-size:12.5px;border:1px solid var(--rule);border-radius:999px;padding:0 8px;color:var(--ink);line-height:1.6}
 .wcard .act b{color:var(--form)}
 .wcard .act.z{color:var(--muted)}.wcard .act.z b{color:var(--muted)}
+/* ===== Round I/O (site/io.js) ===== */
+.iodot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#E0362C;margin-right:6px;vertical-align:1px;box-shadow:0 0 0 2px var(--sheet)}
+.iotiles,.iolist{display:flex;flex-direction:column;gap:8px}
+.iotile,.iorow{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:12px}
+.iotile:hover,.iorow:hover{border-color:var(--form)}
+.iotile .iok{flex:none;width:46px;height:46px;border-radius:50%;border:2px solid var(--form);display:grid;place-items:center;font-family:var(--num);font-weight:700;font-size:17px;color:var(--form)}
+.iotile .iot,.iorow .iot{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.iotile .iot b,.iorow .iot b{font-size:16px}
+.iotile .go,.iorow .go{font-family:var(--num);font-weight:700;color:var(--form)}
+.iotile .rcnt{font-size:12.5px;color:var(--muted)}
+.iocode{flex:none;font-family:var(--num);font-weight:700;font-size:13px;color:var(--form);border:1.5px solid var(--form);border-radius:4px;padding:1px 7px;white-space:nowrap}
+.iocode.big{font-size:16px;vertical-align:3px}
+.ioback{display:inline-block;margin:0 0 10px;color:var(--form);font-weight:600;text-decoration:none;font-size:14.5px}
+.iohead{margin-bottom:10px}.iohead .h2{margin:6px 0 2px}
+.iolegend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted);margin:8px 0 10px;padding:6px 10px;border:1px dashed var(--rule);border-radius:6px}
+.iobody{font-size:15.5px;line-height:1.65}
+.iov .iointro{background:var(--form-soft);border-radius:8px;padding:10px 12px;margin:0 0 12px;font-size:15.5px}
+.iov .box{background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:10px 12px;margin:0 0 10px;overflow-x:auto}
+.iov .box h3{margin:0 0 6px;font-size:16px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;color:var(--ink)}
+.iov .box h4{margin:8px 0 2px;font-size:14.5px;color:var(--form)}
+.iov .box p{margin:4px 0}.iov .box ul,.iov .box ol{margin:4px 0;padding-left:20px}.iov .box li{margin:2px 0}
+.iov .ref{margin-left:auto;font-family:var(--num);font-weight:400;font-size:11.5px;color:var(--form);white-space:nowrap}
+.iov .imp{color:#C62828;font-weight:700}
+.iov .hw{font-style:italic;color:#6a4a9c}
+.iov .warn{background:var(--warn-soft);color:var(--warn);border-radius:3px;padding:1px 5px;font-size:13px}
+.iov .chip{display:inline-block;font-size:11px;font-weight:500;padding:0 6px;border-radius:8px;border:1px solid currentColor;line-height:1.4;white-space:nowrap;background:transparent;cursor:default}
+.iov .chip.r{color:#C62828}.iov .chip.b{color:var(--form)}.iov .chip.g{color:#2E7D32}.iov .chip.o{color:#B26A00}.iov .chip.p{color:#6a4a9c}
+.iov table{border-collapse:collapse;width:100%;font-size:13.5px;margin:6px 0}
+.iov th,.iov td{border:1px solid var(--rule);padding:3px 6px;vertical-align:top;text-align:left}
+.iov th{background:var(--paper);font-weight:600}
+.iov .flow{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin:6px 0}
+.iov .flow .n{border:1px solid var(--form);border-radius:5px;padding:1px 6px;background:var(--form-soft);font-size:13.5px}
+.iov .flow .n.r{border-color:#C62828;color:#C62828;font-weight:700}
+.iov .ar{color:var(--form);font-weight:700}
+.iov .mn{display:grid;grid-template-columns:1fr;gap:6px}
+.iov .mn div{border-left:3px solid var(--form);background:var(--form-soft);padding:4px 8px;border-radius:0 6px 6px 0}
+.iov .two{display:grid;grid-template-columns:1fr;gap:8px}
+.iov .ioimg img,.iov .fig img{display:block;max-width:100%;height:auto;margin:6px 0;border:1px solid var(--rule);border-radius:4px;background:#fff}
+.iov .cap{font-size:12.5px;color:var(--muted)}
+.iov .iofix{display:inline-block;background:var(--warn-soft);color:var(--warn);border-radius:4px;padding:0 6px;font-size:12.5px;font-weight:600}
+.iov .iook{color:var(--right);font-weight:700}
+.ionav{display:flex;justify-content:space-between;gap:10px;margin-top:20px;padding-top:14px;border-top:1px solid var(--rule)}
+.ionav .btn{text-decoration:none;max-width:48%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.iotoc{display:flex;flex-direction:column;gap:2px;margin:0 0 14px;padding:8px 12px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet);font-size:14px}
+.iotoc .linkbtn{text-align:left}
+.iosec{margin-top:18px}.iosrc{font-size:17px;margin:0 0 8px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 8px;border-top:3px solid var(--form);padding-top:10px}
+.iosrcl{margin-left:auto;font-size:13px;font-weight:500;color:var(--form)}

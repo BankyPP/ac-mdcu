@@ -51,7 +51,7 @@ for w in cfg.get('wards',[]):
     if os.path.exists(fx): js.append('(function(QB){\n'+open(fx,encoding='utf-8').read()+'\n})(WARDS['+wid+'].QB);')
     for f in sorted(glob.glob(os.path.join(d,'unit_*.js'))):     # Unit round banks: W.UNIT.push({id,title,short,src,QB:[…]})
         js.append('(function(W){W.UNIT=W.UNIT||[];\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
-    for extra in ('topics.js','resources.js','dups.js','tags.js'):     # W.TOPIC={"set|ro|orig":"topic"} · W.RES=[{topic,title,type,url,note}] (Advisor round)
+    for extra in ('topics.js','resources.js','dups.js','tags.js','io.js'):     # W.TOPIC={"set|ro|orig":"topic"} · W.RES=[{topic,title,type,url,note}] (Advisor round)
         fp=os.path.join(d,extra)
         if os.path.exists(fp): js.append('(function(W){\n'+open(fp,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
     js.append(f'WARDS[{wid}].MQ=[];')
@@ -61,7 +61,7 @@ for w in cfg.get('wards',[]):
     if os.path.exists(hy): js.append('(function(W){\n'+open(hy,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
 out=(head+'</style>\n<style>\n'+open('site/extra.css',encoding='utf-8').read()+'</style>\n</head>\n<body>\n'
      +body.replace('/*TITLE*/',html.escape(title))
-     +'\n<script>\n'+'\n'.join(js)+'\n</script>\n<script>\n'+open('site/app.js',encoding='utf-8').read().replace('"use strict";\n','"use strict";\n'+open('site/meq.js',encoding='utf-8').read()+'\n',1)+'\n</script>\n</body>\n</html>\n')
+     +'\n<script>\n'+'\n'.join(js)+'\n</script>\n<script>\n'+open('site/app.js',encoding='utf-8').read().replace('"use strict";\n','"use strict";\n'+open('site/meq.js',encoding='utf-8').read()+'\n'+open('site/io.js',encoding='utf-8').read()+'\n',1)+'\n</script>\n</body>\n</html>\n')
 out=re.sub(r'<title>.*?</title>','<title>'+html.escape(cfg.get('title',title))+'</title>',out,count=1,flags=re.S)
 os.makedirs(os.path.join(OUT,'img'),exist_ok=True)
 open(os.path.join(OUT,'index.html'),'w',encoding='utf-8').write(out)
