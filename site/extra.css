@@ -577,3 +577,81 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .iotoc .linkbtn{text-align:left}
 .iosec{margin-top:18px}.iosrc{font-size:17px;margin:0 0 8px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 8px;border-top:3px solid var(--form);padding-top:10px}
 .iosrcl{margin-left:auto;font-size:13px;font-weight:500;color:var(--form)}
+/* ===== Round I/O — classes from the lecture summary pages (generated) ===== */
+.iov{--line:#d5dae3;--head:#20304f;--accent:#2f5d9c;--red:#c62828;--redbg:#fdecec;--soft:#f5f7fa;--g-crc:#d9822b;--g-crc-bg:#fff4e8;--g-br:#c2457a;--g-br-bg:#fdeef5;--g-gen:#3a7d5c;--g-gen-bg:#ecf7f1;--g-tx:#5a4fb0;--g-tx-bg:#f1effc;--g-pal:#4f6b8a;--g-pal-bg:#eef3f8;--warn:#9a6700;--warnbg:#fff6d6;--g-dx:#2f7d8c;--g-dx-bg:#eaf6f8;--g-ca:#8a5a2b;--g-ca-bg:#f8f1ea;--star:#2e8b3e;--g-ana:#4f6b8a;--g-ana-bg:#eef3f8;--g-fx:#2f7d8c;--g-fx-bg:#eaf6f8;--g-abs:#d9822b;--g-abs-bg:#fff4e8;--g-cys:#3a6fb0;--g-cys-bg:#edf3fc;--g-ben:#3a7d5c;--g-ben-bg:#ecf7f1;--g-hcc:#b23b3b;--g-hcc-bg:#fcefef;--g-cca:#5a4fb0;--g-cca-bg:#f1effc;--g-met:#8a5a2b;--g-met-bg:#f8f1ea;--g-pre:#55606e;--g-pre-bg:#f1f3f5}
+.iov .iobody .imp{color:var(--red);font-weight:700}
+.iov .iobody .hl{background:var(--redbg);color:var(--red);font-weight:700;padding:0 2px;border-radius:2px}
+.iov .iobody .hw{font-style:italic;color:#6a4a9c}
+.iov .iobody .st{color:var(--star);font-weight:700}
+.iov .iobody .ov{display:inline;border:1.5px solid var(--red);border-radius:9px;padding:0 3px;color:var(--red);font-weight:700;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.iov .iobody .warn{background:var(--warnbg);border-left:3px solid var(--warn);border-radius:3px;padding:1px 4px;font-size:15.1px;margin:2px 0 !important}
+.iov .iobody .clash{background:var(--redbg);border-left:3px solid var(--red);border-radius:3px;padding:1px 4px;font-size:15.1px;margin:2px 0 !important}
+.iov .iobody .cr{font-size:12.8px;color:var(--accent);white-space:nowrap}
+.iov .iobody .mut{color:var(--muted)}
+.iov .iobody .chip{display:inline-block;font-size:12.8px;font-weight:500;padding:0 4px;border-radius:7px;border:1px solid currentColor;line-height:1.35;vertical-align:1px;white-space:nowrap}
+.iov .iobody .chip.r{color:var(--red)}
+.iov .iobody .chip.b{color:var(--accent)}
+.iov .iobody .chip.g{color:var(--star)}
+.iov .iobody .chip.p{color:var(--g-cca)}
+.iov .iobody .chip.x{color:#fff;background:var(--red);border-color:var(--red)}
+.iov .iobody .chip.d{color:var(--warn);background:var(--paper)}
+.iov .iobody .chip.n{color:var(--g-fx)}
+.iov .iobody .chip.qz{color:#fff;background:var(--g-cca);border-color:var(--g-cca)}
+.iov .iobody .chip.s{color:var(--accent);background:var(--soft)}
+.iov .iobody .flow{display:flex;flex-wrap:wrap;align-items:center;gap:2px 3px;margin:2px 0}
+.iov .iobody .n{border:1px solid var(--accent);border-radius:4px;padding:0 4px;background:var(--soft);font-size:15.1px;line-height:1.35}
+.iov .iobody .n.r{border-color:var(--red);background:var(--redbg);color:var(--red);font-weight:700}
+.iov .iobody .ar{color:var(--accent);font-weight:700;font-size:15.9px}
+.iov .iobody .vflow{display:flex;flex-direction:column;align-items:stretch;gap:1px}
+.iov .iobody .vflow .ar{text-align:center;line-height:1}
+.iov .iobody .fig{display:flex;gap:4px;align-items:flex-start;margin:2px 0}
+.iov .iobody .fig img,.iov .iobody img.w{border:1px solid var(--line);border-radius:3px;display:block;max-width:100%;height:auto}
+.iov .iobody .cap{font-size:13.9px;color:var(--muted);line-height:1.27}
+.iov .iobody .g-ana{--gc:var(--g-ana);--gb:var(--g-ana-bg)}
+.iov .iobody .g-fx{--gc:var(--g-fx);--gb:var(--g-fx-bg)}
+.iov .iobody .g-abs{--gc:var(--g-abs);--gb:var(--g-abs-bg)}
+.iov .iobody .g-cys{--gc:var(--g-cys);--gb:var(--g-cys-bg)}
+.iov .iobody .g-ben{--gc:var(--g-ben);--gb:var(--g-ben-bg)}
+.iov .iobody .g-hcc{--gc:var(--g-hcc);--gb:var(--g-hcc-bg)}
+.iov .iobody .g-cca{--gc:var(--g-cca);--gb:var(--g-cca-bg)}
+.iov .iobody .g-met{--gc:var(--g-met);--gb:var(--g-met-bg)}
+.iov .iobody .g-pre{--gc:var(--g-pre);--gb:var(--g-pre-bg)}
+.iov .iobody .sub2{display:block;border-left:3px solid var(--gc,var(--accent));padding-left:4px;margin:2px 0}
+.iov .iobody .two{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+.iov .iobody .see{font-size:13.9px;color:var(--accent);border:1px dashed var(--accent);border-radius:4px;padding:0 4px;display:inline-block}
+.iov .iobody .vflow .n{overflow-wrap:anywhere}
+.iov .iobody .seg{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:4px;overflow:hidden;font-size:15.1px;text-align:center;position:relative}
+.iov .iobody .seg div{padding:2px 0;font-weight:700}
+.iov .iobody .seg .ra{background:#f6d7c3}
+.iov .iobody .seg .rp{background:#f9e8b8}
+.iov .iobody .seg .lm{background:#cfe3f5}
+.iov .iobody .seg .ll{background:#d9eed9}
+.iov .iobody .seg .lb{font-weight:500;font-size:13px;background:var(--soft);color:var(--head)}
+.iov .iobody .bl{border-left:2.5px solid #1e5bb8 !important}
+.iov .iobody .bl2{border-left:2.5px dashed #2e8b3e !important}
+.iov .iobody .tree{display:grid;grid-template-columns:1fr 1fr;gap:3px;margin:2px 0}
+.iov .iobody .tree>div{border:1px solid var(--accent);border-radius:4px;padding:1px 4px;background:var(--soft);font-size:15.1px}
+.iov .iobody .hy{counter-reset:hy;margin:0;padding:0;list-style:none}
+.iov .iobody .hy li{counter-increment:hy;margin:0 0 2px;padding-left:19px;position:relative}
+.iov .iobody .hy li::before{content:counter(hy);position:absolute;left:0;top:1px;font-weight:600;color:#fff;background:var(--head);border-radius:3px;font-size:13px;min-width:15px;text-align:center;line-height:1.5}
+.iov .iobody .dz td:first-child{font-weight:600;color:var(--head)}
+.iov .iobody .dz tr.gs td{background:var(--soft);font-weight:600;color:var(--accent);font-size:14.8px;padding:0 3px}
+.iov .iobody .mn{display:grid;grid-template-columns:1fr;gap:3px}
+.iov .iobody .mn div{border-left:3px solid var(--g-cca);background:var(--g-cca-bg);padding:1px 5px;border-radius:0 4px 4px 0}
+.iov .iobody .mn b.k{color:var(--g-cca)}
+.iov .iobody .mn2{grid-template-columns:1fr 1fr}
+.iov .iobody .src{font-size:21.8px;font-weight:500;color:var(--g-fx);border:1px solid currentColor;border-radius:6px;padding:0 4px;margin-left:4px;vertical-align:2px}
+.iov .iobody .grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;align-items:start}
+.iov .iobody .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;align-items:start}
+.iov .iobody .grid3,.iov .iobody .grid2{display:flex;flex-direction:column}
+.iov .iobody .mn,.iov .iobody .two,.iov .iobody .mn2,.iov .iobody .tree{grid-template-columns:1fr}
+.iov .iobody .chip.o{color:var(--g-crc)}
+.iov .iobody .fig img{border:1px solid var(--line);border-radius:3px;display:block;max-width:100%;height:auto}
+.iov .iobody .g-crc{--gc:var(--g-crc);--gb:var(--g-crc-bg)}
+.iov .iobody .g-br{--gc:var(--g-br);--gb:var(--g-br-bg)}
+.iov .iobody .g-gen{--gc:var(--g-gen);--gb:var(--g-gen-bg)}
+.iov .iobody .g-tx{--gc:var(--g-tx);--gb:var(--g-tx-bg)}
+.iov .iobody .g-pal{--gc:var(--g-pal);--gb:var(--g-pal-bg)}
+.iov .iobody .g-dx{--gc:var(--g-dx);--gb:var(--g-dx-bg)}
+.iov .iobody .g-ca{--gc:var(--g-ca);--gb:var(--g-ca-bg)}
+.iov .iobody .mn,.iov .iobody .two{grid-template-columns:1fr}

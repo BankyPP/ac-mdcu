@@ -28,7 +28,7 @@ all.forEach(q=>{const n=q.n;
   if(!Array.isArray(q.wrong)||q.wrong.length!==4)P(n,"wrong must be array of 4");
   ["interp","why","src"].forEach(k=>{if(!q[k]||String(q[k]).length<15)P(n,"missing "+k);});
   if(!Array.isArray(q.summary)||q.summary.length<3)P(n,"summary needs ≥3");
-  if(q.src&&!/^L02 Surgical Oncology · ไฟล์ [AB] หน้า/.test(q.src))P(n,"src format: "+q.src);
+  if(q.src&&!/^L02 Surgical Oncology · ไฟล์ [ABC] หน้า/.test(q.src))P(n,"src format: "+q.src);
   if(!Array.isArray(q.tags)||!q.tags.length||q.tags.length>4)P(n,"tags 1–4");else q.tags.forEach(t=>{if(!TAGS.includes(t))P(n,"bad tag "+t);});
   [].concat(q.img||[],q.kimg||[]).forEach(k=>{if(!fs.existsSync(path.join(IMG,k+".jpg")))P(n,"missing image "+k);});
   if(q.img)nimg++;if(q.outside)nout++;
