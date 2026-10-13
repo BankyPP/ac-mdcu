@@ -671,3 +671,6 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .mhrow.mred{border-color:var(--wrong)}
 .mhrow.mgood{border-color:var(--right)}
 .srow.lock{opacity:.5;cursor:not-allowed}.srow.lock .b{border-style:dashed}
+.staffnote{flex-basis:100%;margin-top:6px;padding:8px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet);font-size:14px;line-height:1.5}
+.staffnote.grad{border-color:var(--right);background:var(--right-soft)}
+.staffnote .chip{margin-top:6px;display:inline-block}

@@ -62,7 +62,7 @@ function PWof(S,id){
   P.pre=P.pre||{};P.pre[1]=P.pre[1]||{};P.pre[2]=P.pre[2]||{};
   P.open=P.open||{};P.open[1]=P.open[1]||{};P.open[2]=P.open[2]||{};
   P.svc=P.svc||{};P.svc[1]=P.svc[1]||blankSvc();P.svc[2]=P.svc[2]||blankSvc();
-  P.flag=P.flag||{};P.post=P.post||{};P.pick=P.pick||[];P.type=P.type||"MCQ";
+  P.flag=P.flag||{};P.post=P.post||{};P.skeep=P.skeep||{};   /* Ward staff round: questions kept on purpose {uid:[on,ts]} */P.pick=P.pick||[];P.type=P.type||"MCQ";
   if(P.sess===undefined)P.sess=null;
   P.unit=P.unit||{};P.unit.att=P.unit.att||{};        /* Unit round answers (both phases share) */
   P.morn=P.morn||{};                                   /* Morning round: {1|2: {day, list, ans, ts}} */
@@ -363,10 +363,14 @@ const extAtts=(q,wid)=>{const it=bank[extKey(q,wid)];if(!it)return [];return (q.
 function extPush(q,x,wid){const k=extKey(q,wid),it=bank[k];if(!it)return;it.h=(it.h||[]).concat([x]);bankPut(k,it);}
 const stk=(a,q)=>{let n=0;for(let i=a.length-1;i>=0&&a[i][0]===q.ans;i--)n++;return n;};
 /* Ward staff round: questions already answered but not yet right twice in a row — old exams only (this phase), or also Unit / Admission / Legendary AI questions */
+/* Ward staff round membership: latest answers are not yet right twice in a row (a wrong answer resets the run), OR flagged ⚑ ไม่มั่นใจ, OR kept by the user (P.skeep) */
+const kept=(P,u)=>!!(P.skeep&&P.skeep[u]&&P.skeep[u][0]);
+const qAttsOf=(P,q)=>q.unit?uAtts(P,q.uid):(q.adm||q.lai)?extAtts(q):atts(P,ph(),q.uid);
+const inStaff=(P,q,a)=>(a.length&&stk(a,q)<2)||flagged(P,q.uid)||kept(P,q.uid);
 function staffPools(){const P=P_(),p=ph(),W=W_(),o={ac:[],unit:[],adm:[],lai:[]};
-  W.QB.forEach(q=>{if(atts(P,p,q.uid).length&&streak(P,p,q)<2)o.ac.push(q.uid);});
-  W.UNIT.forEach(Lc=>Lc.QB.forEach(q=>{const a=uAtts(P,q.uid);if(a.length&&stk(a,q)<2)o.unit.push(q.uid);}));
-  ["adm","lai"].forEach(kd=>bankItems(kd,ward).forEach(x=>{const q=x.q;if(!q||!q.uid||!Array.isArray(q.opts))return;const a=extAtts(q);if(a.length&&stk(a,q)<2)o[kd].push(q.uid);}));
+  W.QB.forEach(q=>{if(inStaff(P,q,atts(P,p,q.uid)))o.ac.push(q.uid);});
+  W.UNIT.forEach(Lc=>Lc.QB.forEach(q=>{if(inStaff(P,q,uAtts(P,q.uid)))o.unit.push(q.uid);}));
+  ["adm","lai"].forEach(kd=>bankItems(kd,ward).forEach(x=>{const q=x.q;if(!q||!q.uid||!Array.isArray(q.opts))return;if(inStaff(P,q,extAtts(q)))o[kd].push(q.uid);}));
   return o;}
 const staffAll=()=>!!st.staffAll;
 const staffList=all=>{const o=staffPools();return (all==null?staffAll():all)?o.ac.concat(o.unit,o.adm,o.lai):o.ac;};
@@ -490,6 +494,8 @@ function rStaff(){
   h+=opt(0,"ข้อสอบเก่าเท่านั้น",`ข้อสอบเก่า (AC) ทุกปีในคลัง ที่ทำมาแล้วใน Phase ${p} จาก round ไหนก็ได้ (Service, Grand, Morning, Quality, Legendary ฯลฯ)`,o.ac.length);
   h+=opt(1,"รวมโจทย์ที่ไม่ใช่ข้อสอบเก่าด้วย",`ข้อสอบเก่า ${o.ac.length} · Unit round ${o.unit.length} · Admission round ${o.adm.length} · โจทย์ AI จาก Legendary round ${o.lai.length} — เงื่อนไขเดียวกัน (โจทย์ที่ไม่ใช่ข้อสอบเก่านับรวมทั้ง 2 Phase)`,o.ac.length+o.unit.length+o.adm.length+o.lai.length);
   h+=`</div>`;
+  {const nf=[].concat(o.ac,all?o.unit.concat(o.adm,o.lai):[]),f=nf.filter(u=>flagged(P,u)).length,k=nf.filter(u=>kept(P,u)).length;
+   h+=`<p class="hint">นับเฉพาะคำตอบล่าสุด — ต้องถูกติดกัน 2 ครั้งล่าสุดถึงจะพ้น ตอบผิดเมื่อไหร่นับใหม่ (ทำจาก round ไหนก็นับ) · ข้อที่ติด ⚑ ไม่มั่นใจ และข้อที่กด 📌 เก็บไว้ จะอยู่ใน round นี้เสมอจนกว่าจะเอาออก${f+k?` (ตอนนี้ ⚑ ${f} ข้อ · 📌 ${k} ข้อ)`:""}</p>`;}
   h+=`<p class="hint">โจทย์ใหม่ที่ AI สร้างใน Legendary round จะไม่ไปโผล่ใน round อื่นเลย นอกจากที่นี่ (เมื่อเลือก “รวมโจทย์ที่ไม่ใช่ข้อสอบเก่าด้วย”)</p>`;
   h+=`<p class="statline" style="margin-top:14px">${n?`มีข้อให้ทวน <b>${n}</b> ข้อ`:Object.keys(P.att[p]).length||o.unit.length+o.adm.length+o.lai.length?"ไม่มีข้อที่ต้องทวน — ทุกข้อที่ทำแล้วถูกติดกัน 2 ครั้งแล้ว":"ยังไม่มีข้อที่เคยทำใน Phase นี้"}</p>`;
   h+=`<div class="row2"><span class="spacer"></span><button class="btn primary" id="saGo" ${n?"":"disabled"}>เริ่มทวน</button></div>`;
@@ -667,6 +673,7 @@ function bindQuiz(q,locked){
   const P=P_();
   document.querySelectorAll(".opt").forEach(el=>{const f=()=>{if(locked)return;pick=+el.dataset.i;rQuiz();};el.addEventListener("click",f);el.addEventListener("keydown",e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();f();}});});
   const c=$("confirm");if(c)c.onclick=confirmAns;
+  {const kb=$("keepBtn");if(kb)kb.onclick=()=>{const on=!kept(P,q.uid);P.skeep[q.uid]=[on?1:0,now()];save();toast(on?"เก็บข้อนี้ไว้ใน Ward staff round แล้ว":"เอาออกจากที่เก็บไว้แล้ว");rQuiz();};}
   if($("flagBtn"))$("flagBtn").onclick=()=>{const on=!flagged(P,q.uid);P.flag[q.uid]=[on?1:0,now()];save();$("flagBtn").setAttribute("aria-pressed",on);toast(on?"ทำเครื่องหมาย ไม่มั่นใจ แล้ว":"เอาเครื่องหมายออกแล้ว");};
   if(isAdv())bindAdv(q);
   const rb=$("redo");if(rb)rb.onclick=()=>{const rk=redoKey(q);if(rk){REDO[rk]=null;pick=null;rQuiz();window.scrollTo(0,0);return;}if(isSess()){delete P.sess.ans[q.uid];if(P.sess.kind==="morning"&&P.morn[1]&&P.morn[1].day===P.sess.day)delete P.morn[1].ans[q.uid];}else P.open[ph()][q.uid]=now();if(P.sess)P.sess.ts=now();pick=null;save();rQuiz();window.scrollTo(0,0);};
@@ -729,6 +736,10 @@ function explain(q,done,R,p){
     if(X.star[q.uid])h+=`<span class="tag starTag">★ ติดดาวไว้ตอนสอบ</span>`;}
   if(adv)h+=advResetBtn(q);
   h+=`<button class="link redo" id="redo" type="button">ทำข้อนี้ใหม่</button>`;
+  if(view!=="exam"&&Array.isArray(q.opts)){const a=qAttsOf(P,q),k=stk(a,q),fl=flagged(P,q.uid),kp=kept(P,q.uid),justNow=!adv&&done===q.ans&&k===2&&a.length&&a[a.length-1][1]>now()-5*60e3;
+    /* status always reflects the LATEST answers of this question (any round) — so every place this explanation shows stays up to date */
+    if(a.length||fl||kp)h+=`<div class="staffnote${k>=2&&!fl&&!kp?" grad":""}">${justNow?"🎓 ถูก 2 ครั้งติดกันแล้ว — ข้อนี้<b>พ้นจาก Ward staff round</b>":k>=2?`✓ <b>พ้นจาก Ward staff round แล้ว</b> · ถูกติดกัน ${k} ครั้งล่าสุด`:a.length?`อยู่ใน Ward staff round · ถูกติดกันล่าสุด ${k}/2 ครั้ง${a.length&&a[a.length-1][0]!==q.ans?" (ล่าสุดผิด — นับใหม่)":""}`:"ยังไม่เคยตอบข้อนี้"}${k>=2&&fl?" · แต่ยังอยู่ใน Ward staff round เพราะติด ⚑ ไม่มั่นใจไว้":""}${k>=2&&kp?" · แต่ยังอยู่ใน Ward staff round เพราะกด 📌 เก็บไว้":""}
+      ${k>=2||kp?`<button class="chip" type="button" id="keepBtn" aria-pressed="${kp}">${kp?"📌 เก็บไว้ใน Ward staff round แล้ว (กดเพื่อเอาออก)":"📌 ยังอยากเก็บไว้ใน Ward staff round"}</button>`:""}</div>`;}
   if(s&&s.kind==="morning")h+=`<span class="tag rep">ที่มา: ${q.unit?`Unit round — ${esc((W.byLec[q.unit]||{}).title||q.set)} (นับว่าเจอข้อนี้แล้ว)`:`ข้อสอบเก่า (AC) ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id} ในคลัง`}</span>`;
   if(q.unit){const Lc=W.byLec[q.unit]||{},n=uAtts(P,q.uid).length;h+=`<span class="tag">Unit round · ${esc(Lc.title||q.set)}${Lc.src?` · จาก ${esc(Lc.src)}`:""}</span><span class="tag">เจอข้อนี้มาแล้ว ${n} ครั้ง (รวมครั้งนี้)</span>`;}
   else if(q.lai)h+=`<span class="tag">Legendary round · โจทย์ใหม่ที่ AI สร้างสำหรับข้อสอบวันที่ ${fmtD(q.ts)}${q.topic?` · ${esc(q.topic)}`:""}</span>`;
@@ -2008,7 +2019,7 @@ function mergeSt(a,b){
     if(l.leg&&bank["leg|"+id+"|"+l.leg.id])l.leg=null;
     if(r.lcCur&&!l.lcCur)l.lcCur=r.lcCur;
     if(r.advPlan&&(!l.advPlan||(r.advPlan.ts||0)>(l.advPlan.ts||0)))l.advPlan=r.advPlan;
-    newer(l.flag,r.flag);newer(l.post,r.post);
+    newer(l.flag,r.flag);newer(l.post,r.post);newer(l.skeep,r.skeep||{});
     for(const k in r.ioSeen||{})l.ioSeen[k]=Math.max(l.ioSeen[k]||0,r.ioSeen[k]);
     {const a=mqInitP(l),c=mqInitP(r);newer(a.a1,c.a1);newer(a.a2,c.a2);newer(a.star,c.star);if((c.v.ts||0)>(a.v.ts||0))l.meq.v=c.v;}
     if((b.t||0)>(a.t||0)){l.svc=r.svc;l.type=r.type;l.pick=r.pick;}
