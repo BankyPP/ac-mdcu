@@ -665,8 +665,8 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .round.mgood{border-color:var(--right);background:var(--right-soft)}
 .round.mgold,.mhrow.mgold{border-color:#E8B800;box-shadow:0 0 0 2px #F5C518,0 0 14px 4px rgba(245,197,24,.75)}
 .rounds .round.maura,.mhlist .mhrow.maura{z-index:1}
-.round.maura,.mhrow.maura{box-shadow:0 0 20px 8px var(--aura),0 0 44px 18px var(--aura2)}
-.round.mgold.maura,.mhrow.mgold.maura{box-shadow:0 0 0 2px #F5C518,0 0 14px 4px rgba(245,197,24,.75),0 0 30px 12px var(--aura),0 0 58px 22px var(--aura2)}
+.round.maura,.mhrow.maura{box-shadow:0 0 26px 12px var(--aura),0 0 64px 30px var(--aura2),0 0 120px 60px var(--aura3,var(--aura2))}
+.round.mgold.maura,.mhrow.mgold.maura{box-shadow:0 0 0 2px #F5C518,0 0 14px 4px rgba(245,197,24,.75),0 0 34px 14px var(--aura),0 0 72px 34px var(--aura2),0 0 128px 64px var(--aura3,var(--aura2))}
 .mhlist .mhrow{position:relative;z-index:2}
 .mhrow.mred{border-color:var(--wrong)}
 .mhrow.mgood{border-color:var(--right)}
