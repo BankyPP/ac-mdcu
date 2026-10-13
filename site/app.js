@@ -282,7 +282,7 @@ const hms=ms=>{const x=Math.max(0,Math.floor(ms/1000));return String(Math.floor(
 const acDoneAny=(P,u)=>atts(P,1,u).length||atts(P,2,u).length;
 function mPool(P,p){const W=W_();let pool=W.QB.filter(q=>acDoneAny(P,q.uid));W.UNIT.forEach(Lc=>{pool=pool.concat(Lc.QB.filter(q=>!uAtts(P,q.uid).length));});return pool;}
 function morning(make){const P=P_(),p=1,d=mDay();mornOne(P);let m=P.morn[p];
-  if(m&&m.day===d){m.list=m.list.filter(u=>W_().byU[u]);return m;}
+  if(m&&m.day===d){m.list=m.list.filter(u=>W_().byU[u]);if(!m.ot){m.ot={};for(const u in m.ans){const q=W_().byU[u];if(q&&m.ans[u]>=0)m.ot[u]=m.ans[u]===q.ans?1:0;}}return m;}
   if(!make)return null;
   if(m&&m.day&&m.day!==d)P.mornH[m.day+"|"+p]=Object.assign({p},m);
   const pool=mPool(P,p);if(!pool.length)return null;
@@ -304,6 +304,19 @@ function mornStat(x){const W=W_(),list=(x.list||[]).filter(u=>W.byU[u]),done=lis
   const ok=u=>x.ans[u]===W.byU[u].ans,ac=qs.filter(q=>!q.unit),un=qs.filter(q=>q.unit);
   const part=a=>({n:a.length,done:a.filter(q=>x.ans[q.uid]!==undefined).length,right:a.filter(q=>ok(q.uid)).length});
   return {list,n:list.length,done:done.length,right:done.filter(ok).length,ac:part(ac),un:part(un)};}
+/* Morning round 🔥 fire / 🏅 medal (counted from on-time answers only — x.ot):
+   🔥 day counts when ≥10 of that day's questions were answered on time · one missed day keeps the count (dim, number red, last chance), two missed days in a row → 0
+   🏅 = number of days with ≥12 right on time (any days) · gold edge = all 15 on time · aura = ≥12 right on time (random pastel per day) */
+const MF_LIT=10,MF_MEDAL=12;
+function mornGame(){const rec=mornRecs(),today=mDay(),days={};
+  for(const d in rec){let n=0,r=0;rec[d].forEach(x=>{const o=x.ot||{};for(const u in o){n++;if(o[u]===1)r++;}});days[d]={n,r,tot:(rec[d].find(x=>x.p===1)||rec[d][0]).list.length};}
+  const lit=d=>!!days[d]&&days[d].n>=MF_LIT,ks=Object.keys(days).filter(lit).sort();let fire=0;
+  if(ks.length){let miss=0;for(let d=ks[0];d<today;d=addDay(d,1)){if(lit(d)){fire++;miss=0;}else if(++miss>=2)fire=0;}if(lit(today))fire++;}
+  return {fire,on:lit(today),medals:Object.values(days).filter(x=>x.r>=MF_MEDAL).length,days};}
+const mornHue=d=>parseInt(H7((ward||"")+"|"+d),36)%360;
+const auraVars=d=>{const h=mornHue(d);return `--aura:hsla(${h},95%,72%,.85);--aura2:hsla(${(h+45)%360},95%,80%,.55)`;};
+function mornFx(d,G,all,isPast){const x=G.days[d]||{n:0,r:0,tot:15},c=[];c.push(all>=MF_LIT?"mgood":"mred");if(x.n>0&&x.n>=x.tot)c.push("mgold");if(x.r>=MF_MEDAL)c.push("maura");return c;}
+const mGameHTML=G=>`<span class="mgame"><span class="mfire${G.on?" on":""}" title="Morning round ติดกัน ${G.fire} วัน${G.on?"":" — วันนี้ยังไม่ติดไฟ (ทำให้ได้ ≥10 ข้อ)"}">🔥<i>${G.fire}</i></span><span class="mmedal" title="วันที่ถูก ≥12 ข้อ (ในวันนั้น)">🏅<i>${G.medals}</i></span></span>`;
 function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=wRot(W.cfg);
   const keys=Object.keys(rec).sort(),start=rot.start||keys[0]||today,end=rot.end||(keys.length&&keys[keys.length-1]>today?keys[keys.length-1]:today);
   const days=[];for(let d=start;d<=end&&days.length<400;d=addDay(d,1))days.push(d);keys.forEach(k=>{if(!days.includes(k))days.push(k);});days.sort();
@@ -315,17 +328,18 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=wRot(W.cfg);
     if(d<=today){ans+=dn;right+=rt;if(st_==="full")full++;else if(st_==="part")partial++;else if(st_==="miss")miss++;}
     return {d,L,S,n,dn:mdn,all:dn,rt,st:st_};});
   rows.filter(r=>r.d<=today).forEach(r=>{if(r.st==="full")run++;else if(r.st!=="today")run=0;});streak=run;
-  const past=rows.filter(r=>r.d<=today).length;
+  const past=rows.filter(r=>r.d<=today).length,MG=mornGame();
   let h=`<h1 class="h2">ประวัติ Morning round</h1><p class="sub">ทุกวันของวอร์ดนี้${rot.start?` (${dayTH(rot.start)} – ${dayTH(rot.end||end)})`:""} · วันนับตั้งแต่ 07:30 ถึง 07:29 ของวันถัดไป · แตะวันที่เพื่อดูทั้ง 15 ข้อและเฉลย · เรียงจากวันแรกลงมา เปิดหน้ามาจะเลื่อนไปที่วันนี้ให้</p>`;
-  h+=`<div class="card mhsum"><div><b>${full}</b><span>วันที่ทำครบ</span></div><div><b>${partial}</b><span>ทำไม่ครบ</span></div><div><b class="${miss?"bad":""}">${miss}</b><span>ไม่ได้ทำ</span></div><div><b>${ans}</b><span>ข้อที่ตอบ</span></div><div><b>${ans?Math.round(right/ans*100)+"%":"–"}</b><span>ถูก ${right} ข้อ</span></div><div><b>${streak}</b><span>วันติดต่อกัน</span></div></div>`;
+  h+=`<div class="card mhsum"><div><b>${full}</b><span>วันที่ทำครบ</span></div><div><b>${partial}</b><span>ทำไม่ครบ</span></div><div><b class="${miss?"bad":""}">${miss}</b><span>ไม่ได้ทำ</span></div><div><b>${ans}</b><span>ข้อที่ตอบ</span></div><div><b>${ans?Math.round(right/ans*100)+"%":"–"}</b><span>ถูก ${right} ข้อ</span></div><div><b>🔥 ${MG.fire}</b><span>ไฟติดกัน (≥10 ข้อ/วัน)</span></div><div><b>🏅 ${MG.medals}</b><span>วันที่ถูก ≥12 ข้อ</span></div></div>`;
   h+=`<p class="hint" style="margin:6px 0 10px">ผ่านมาแล้ว ${past} จาก ${rows.length} วัน${HAS_CLAUDE()?" · ประวัตินี้เก็บแยกในเว็บกับใน Claude (เข้าสู่ระบบในเว็บเพื่อรวมหลายเครื่อง)":""}</p><div class="mhlist">`;
   rows.forEach(r=>{
     const lab=r.st==="future"?`<span class="mhs fut">ยังไม่ถึง</span>`:r.st==="miss"?`<span class="mhs miss">ไม่ได้ทำ</span>`:r.st==="today"?`<span class="mhs part">${r.dn?`วันนี้ทำไป ${r.dn}/${r.n}`:r.n?"เปิดกล่องแล้ว ยังไม่ได้ทำ":"🎁 ยังไม่ได้เปิดกล่องวันนี้"}</span>`:r.st==="part"?`<span class="mhs part">ทำ ${r.dn}/${r.n}</span>`:`<span class="mhs ok">ครบ ${r.dn}/${r.n}</span>`;
     const sc=r.all?`<span class="mhr">ถูก <b>${r.rt}</b>/${r.all} (${Math.round(r.rt/r.all*100)}%)${r.S.map((x,i)=>` · ${r.S.length>1?(r.L[i].p===1?"ชุดหลัก: ":"ชุดเดิมของ Phase 2: "):""}AC ถูก ${x.ac.right}/${x.ac.done}${x.ac.n>x.ac.done?` (ชุดนี้มี ${x.ac.n})`:""} · Unit ถูก ${x.un.right}/${x.un.done}${x.un.n>x.un.done?` (ชุดนี้มี ${x.un.n})`:""}`).join("")}</span>`:"";
     const head=`<span class="mhd${r.d===today?" now":""}">${dayTH(r.d)}</span>${lab}${sc}`;
-    const id=r.d===today?' id="mhToday"':"";
-    if(!r.n){h+=`<div class="mhrow"${id}>${head}</div>`;return;}
-    h+=`<details class="mhrow"${id}${r.d===today?" open":""}><summary>${head}</summary>`;
+    const id=(r.d===today?' id="mhToday"':"")+(()=>{if(r.d>today)return "";const fx=mornFx(r.d,MG,r.all);return ` data-fx="${fx.join(" ")}"${fx.includes("maura")?` style="${auraVars(r.d)}"`:""}`;})();
+    const fxc=r.d>today?"":" "+mornFx(r.d,MG,r.all).join(" ");
+    if(!r.n){h+=`<div class="mhrow${fxc}"${id}>${head}</div>`;return;}
+    h+=`<details class="mhrow${fxc}"${id}${r.d===today?" open":""}><summary>${head}</summary>`;
     r.L.forEach((x,li)=>{const S=r.S[li];if(r.L.length>1)h+=`<div class="hint">${x.p===1?"ชุดหลัก":"ชุดเดิมของ Phase 2 (ก่อนรวม 2 Phase เป็นชุดเดียว)"}</div>`;
       h+=`<ol class="mhq">${S.list.map((u,i)=>{const q=W.byU[u],a=x.ans[u],res=a===undefined?`<span class="mhx na">ไม่ได้ตอบ</span>`:a<0?`<span class="mhx no">หมดเวลา</span>`:a===q.ans?`<span class="mhx ok">✓ ${L[a]}</span>`:`<span class="mhx no">✗ ${L[a]} · เฉลย ${L[q.ans]}</span>`;
         const src=q.unit?`Unit · ${esc((W.byLec[q.unit]||{}).short||q.set)} ข้อ ${q.n}`:`AC ${esc(q.set)} ${esc(q.ro)} · ข้อ ${q.id}`;
@@ -336,7 +350,7 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=wRot(W.cfg);
   {const t=$("mhToday");if(t&&rows.indexOf(rows.find(r=>r.d===today))>2)setTimeout(()=>t.scrollIntoView({block:"start"}),30);}
   document.querySelectorAll("[data-md]").forEach(b=>b.onclick=()=>{const d=b.dataset.md,p=+b.dataset.mp,i=+b.dataset.mi,x=(mornRecs()[d]||[]).find(y=>y.p===p);if(!x)return;
     const P=P_();if(d===mDay()&&P.morn[1]&&P.morn[1].day===d&&p===1){qStop();P.sess={kind:"morning",title:"Morning round",ph:ph(),day:d,list:P.morn[1].list.slice(),ans:Object.assign({},P.morn[1].ans),cur:i,ts:now()};save();return go(ward+"/sess");}
-    qStop();P.sess={kind:"mday",title:"Morning round · "+dayTH(d),ph:ph(),day:d,list:mornStat(x).list,ans:Object.assign({},x.ans),cur:i,ts:now()};save();go(ward+"/sess");});
+    qStop();P.sess={kind:"mday",title:"Morning round · "+dayTH(d),ph:ph(),day:d,mp:p,list:mornStat(x).list,ans:Object.assign({},x.ans),cur:i,ts:now()};save();go(ward+"/sess");});
 }
 function startMorning(){const m=morning(true);if(!m){toast("ยังไม่มีข้อให้ทำ — ยังไม่มีข้อสอบเก่าหรือโจทย์ Unit round ในวอร์ดนี้");return;}
   qStop();const i=m.list.findIndex(u=>m.ans[u]===undefined);
@@ -392,9 +406,9 @@ function rHome(){
       <button class="tool" data-p2="nop1">○ ไม่เคยทำใน Phase 1<span class="n">${l.nop1.length}</span></button></div></div>`;}
     const sc=staffList().length;
     const rCount=k=>{const t=k==="service"?`มี <b>${QB.length}</b> ข้อ`:k==="unit"?`มี <b>${unitN(ward)}</b> ข้อ · ${W.UNIT.length} บท`:k==="admission"?`มี <b>${aiN("adm",ward)}</b> เคส`:k==="staff"?`มีข้อให้ทวน <b>${sc}</b> ข้อ`:k==="advisor"?`อ่านเฉลยได้ <b>${QB.filter(q=>atts(P,1,q.uid).length||atts(P,2,q.uid).length).length}</b> ข้อ`:"";return t?`<span class="rcnt">${t}</span>`:"";};
-    const mm=morning(false),ma=mm?mm.list.filter(u=>mm.ans[u]!==undefined).length:0;
+    const mm=morning(false),ma=mm?mm.list.filter(u=>mm.ans[u]!==undefined).length:0,MG=mornGame(),mOn=QB.length+W.UNIT.length>0,mfx=mOn?mornFx(mDay(),MG,ma):[];
     const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="legend"&&P.leg?'<span class="badge">กำลังสอบ</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
-    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?" mwarn":""}" data-round="${r.k}" aria-disabled="${!!r.soon}">${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${rCount(r.k)}${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"&&QB.length+W.UNIT.length&&!(mm&&ma>=mm.list.length)?`<span class="mtodo">${mm&&ma?`วันนี้ทำไป ${ma}/${mm.list.length} — ทำให้ครบด้วย`:mm?"เปิดกล่องแล้ว ยังไม่ได้ทำ — ทำด้วยนะ":"🎁 ยังไม่ได้เปิดกล่องวันนี้"}</span>`:""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span><span class="mhist" data-mhist="1">📅 ประวัติรายวัน →</span>`:""}</button>`).join("")}</div>`;
+    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round${r.k==="morning"?mfx.map(c=>" "+(c==="mred"?"mwarn":c)).join(""):""}" data-round="${r.k}" aria-disabled="${!!r.soon}"${r.k==="morning"&&mfx.includes("maura")?` style="${auraVars(mDay())}"`:""}>${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}${r.k==="morning"&&mOn?mGameHTML(MG):""}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${rCount(r.k)}${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"&&mOn?`<span class="mtodo${ma>=MF_LIT?" ok":""}">${!mm?"🎁 ยังไม่ได้เปิดกล่องวันนี้":!ma?"เปิดกล่องแล้ว ยังไม่ได้ทำ — ทำด้วยนะ":ma<MF_LIT?`วันนี้ทำไป ${ma}/${mm.list.length} — อีก ${MF_LIT-ma} ข้อไฟติด 🔥`:ma<mm.list.length?`🔥 ไฟติดแล้ว · ทำไป ${ma}/${mm.list.length}`:`✓ ครบ ${ma}/${mm.list.length} ข้อแล้ว`}</span>`:""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span><span class="mhist" data-mhist="1">📅 ประวัติรายวัน →</span>`:""}</button>`).join("")}</div>`;
   }
   h+=gradeCard(ward);
   if(IN_FRAME&&HAS_CLAUDE())h+=clStartCard();
@@ -677,7 +691,10 @@ function confirmAns(){
   else if(q.adm){if(bank[extKey(q)])extPush(q,[pick,now(),rk]);else if(q.lai)bankPut(extKey(q),{q,h:[[pick,now(),rk]]});else admBank(ward,q,pick);}
   else (P.att[p][q.uid]=P.att[p][q.uid]||[]).push([pick,now(),rk]);
   if(isSess()){const s=P.sess;s.ans[q.uid]=pick;s.ts=now();
-    if(s.kind==="morning"){const m=P.morn[1];if(m&&m.day===s.day){m.ans[q.uid]=pick;m.ts=now();}}}
+    if(s.kind==="morning"){const m=P.morn[1];if(m&&m.day===s.day){m.ans[q.uid]=pick;m.ts=now();
+      /* on-time = answered inside that day's 07:30–07:29 window; only these count for 🔥 / 🏅 / gold edge / aura (first answer only) */
+      if(mDay()===m.day&&pick>=0){m.ot=m.ot||{};if(!(q.uid in m.ot))m.ot[q.uid]=pick===q.ans?1:0;}}}
+    if(s.kind==="mday"){const m1=P.morn[1],mp=s.mp||1,x=m1&&m1.day===s.day&&mp===1?m1:P.mornH[s.day+"|"+mp];if(x){x.ans=x.ans||{};x.ans[q.uid]=pick;x.ts=now();}}}
   else svcS().cur=q.uid;
   save();rQuiz();
   const e=document.querySelector(".exp");if(e)setTimeout(()=>e.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"}),60);
@@ -1975,10 +1992,10 @@ function mergeSt(a,b){
     });
     for(const u in r.unit.att){const m=new Map();(l.unit.att[u]||[]).concat(r.unit.att[u]).forEach(x=>m.set(x[1]+":"+x[0],x));l.unit.att[u]=[...m.values()].sort((x,y)=>x[1]-y[1]);}
     [1,2].forEach(p=>{const a=l.morn[p],c=r.morn[p];if(!c)return;
-      if(a&&a.day===c.day&&(a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);
+      if(a&&a.day===c.day&&(a.list||[]).join()===(c.list||[]).join()){a.ans=Object.assign({},c.ans,a.ans);if(a.ot||c.ot)a.ot=Object.assign({},c.ot,a.ot);}
       else if(!a||c.day>a.day||(c.day===a.day&&(c.ts||0)>(a.ts||0)))l.morn[p]=c;});
     mornOne(l);
-    for(const k in r.mornH){const a=l.mornH[k],c=r.mornH[k];if(!a)l.mornH[k]=c;else if((a.list||[]).join()===(c.list||[]).join())a.ans=Object.assign({},c.ans,a.ans);else if((c.ts||0)>(a.ts||0))l.mornH[k]=c;}
+    for(const k in r.mornH){const a=l.mornH[k],c=r.mornH[k];if(!a)l.mornH[k]=c;else if((a.list||[]).join()===(c.list||[]).join()){a.ans=Object.assign({},c.ans,a.ans);if(a.ot||c.ot)a.ot=Object.assign({},c.ot,a.ot);}else if((c.ts||0)>(a.ts||0))l.mornH[k]=c;}
     if((r.adm.ts||0)>(l.adm.ts||0))l.adm=r.adm;
     for(const u in r.seen){const a=l.seen[u]||(l.seen[u]={}),b=r.seen[u];for(const k in b)a[k]=a[k]?Math.min(a[k],b[k]):b[k];}
     if(r.leg&&!bank["leg|"+id+"|"+r.leg.id]){if(!l.leg)l.leg=r.leg;else if(l.leg.id===r.leg.id){l.leg.ans=Object.assign({},r.leg.ans,l.leg.ans);l.leg.star=Object.assign({},r.leg.star,l.leg.star);}}
