@@ -281,17 +281,20 @@ function mNext(){const d=new Date(),r=new Date(d);r.setHours(7,30,0,0);if(r<=d)r
 const hms=ms=>{const x=Math.max(0,Math.floor(ms/1000));return String(Math.floor(x/3600)).padStart(2,"0")+":"+String(Math.floor(x/60)%60).padStart(2,"0")+":"+String(x%60).padStart(2,"0");};
 const acDoneAny=(P,u)=>atts(P,1,u).length||atts(P,2,u).length;
 function mPool(P,p){const W=W_();let pool=W.QB.filter(q=>acDoneAny(P,q.uid));W.UNIT.forEach(Lc=>{pool=pool.concat(Lc.QB.filter(q=>!uAtts(P,q.uid).length));});return pool;}
+function mUsed(P){const S=new Set();const add=m=>{if(m&&m.list)m.list.forEach(u=>S.add(u));};Object.values(P.mornH||{}).forEach(add);Object.values(P.morn||{}).forEach(add);return S;}
+let mOut=0;
 function morning(make){const P=P_(),p=1,d=mDay();mornOne(P);let m=P.morn[p];
   if(m&&m.day===d){m.list=m.list.filter(u=>W_().byU[u]);if(!m.ot){m.ot={};for(const u in m.ans){const q=W_().byU[u];if(q&&m.ans[u]>=0)m.ot[u]=m.ans[u]===q.ans?1:0;}}return m;}
   if(!make)return null;
   if(m&&m.day&&m.day!==d)P.mornH[m.day+"|"+p]=Object.assign({p},m);
-  const pool=mPool(P,p);if(!pool.length)return null;
+  /* no repeats across the whole ward: a question that was ever in a Morning set (any day, answered or not) is never drawn again */
+  const used=mUsed(P),fresh=q=>!used.has(q.uid);
   /* 5 old-exam questions already done + 10 Unit round questions (not met yet first); a short pool is topped up from the other */
-  const W=W_(),acDone=shuffle(W.QB.filter(q=>acDoneAny(P,q.uid))),acRest=shuffle(W.QB.filter(q=>!acDoneAny(P,q.uid))),U=[].concat(...W.UNIT.map(Lc=>Lc.QB)),
+  const W=W_(),acDone=shuffle(W.QB.filter(q=>fresh(q)&&acDoneAny(P,q.uid))),acRest=shuffle(W.QB.filter(q=>fresh(q)&&!acDoneAny(P,q.uid))),U=[].concat(...W.UNIT.map(Lc=>Lc.QB)).filter(fresh),
     uNew=shuffle(U.filter(q=>!uAtts(P,q.uid).length)),uOld=shuffle(U.filter(q=>uAtts(P,q.uid).length)),ac=acDone.concat(acRest),un=uNew.concat(uOld);
   let a=ac.slice(0,MORN_AC),u=un.slice(0,MORN_N-MORN_AC);
   if(u.length<MORN_N-MORN_AC)a=ac.slice(0,MORN_N-u.length);else if(a.length<MORN_AC)u=un.slice(0,MORN_N-a.length);
-  if(!a.length&&!u.length)return null;
+  mOut=0;if(!a.length&&!u.length){mOut=1;return null;}
   m=P.morn[p]={day:d,list:shuffle(a.concat(u)).map(q=>q.uid),ans:{},ts:now()};save();return m;}
 /* a day can hold one set per Phase: only sets with answers count (else the current Phase's set) so an untouched set of the other Phase does not show as a second, unfinished set */
 /* Morning round history: every day of the ward's rotation (config wards[].rotation {start,end}; otherwise first recorded day → today) with what was done that day */
@@ -352,7 +355,7 @@ function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=wRot(W.cfg);
     const P=P_();if(d===mDay()&&P.morn[1]&&P.morn[1].day===d&&p===1){qStop();P.sess={kind:"morning",title:"Morning round",ph:ph(),day:d,list:P.morn[1].list.slice(),ans:Object.assign({},P.morn[1].ans),cur:i,ts:now()};save();return go(ward+"/sess");}
     qStop();P.sess={kind:"mday",title:"Morning round · "+dayTH(d),ph:ph(),day:d,mp:p,list:mornStat(x).list,ans:Object.assign({},x.ans),cur:i,ts:now()};save();go(ward+"/sess");});
 }
-function startMorning(){const m=morning(true);if(!m){toast("ยังไม่มีข้อให้ทำ — ยังไม่มีข้อสอบเก่าหรือโจทย์ Unit round ในวอร์ดนี้");return;}
+function startMorning(){const m=morning(true);if(!m){toast(mOut?"Morning round ออกครบทุกข้อในวอร์ดนี้แล้ว — ไม่มีข้อใหม่ที่ยังไม่เคยออก":"ยังไม่มีข้อให้ทำ — ยังไม่มีข้อสอบเก่าหรือโจทย์ Unit round ในวอร์ดนี้");return;}
   qStop();const i=m.list.findIndex(u=>m.ans[u]===undefined);
   P_().sess={kind:"morning",title:"Morning round",ph:ph(),day:m.day,list:m.list.slice(),ans:Object.assign({},m.ans),cur:i<0?0:i,ts:now()};save();go(ward+"/sess");}
 /* questions outside the old-exam bank: Admission cases (bank "adm") and the AI questions written for one Legendary paper (bank "lai") — both live in the bank; Ward staff round is the only other place they come back */
