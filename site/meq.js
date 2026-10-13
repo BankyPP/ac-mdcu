@@ -156,26 +156,28 @@ function mqList(rk){const v=mqS().v,L=mqL(),setOk=q=>v.set==="all"||v.set.split(
   if(rk==="grand")return v.gl.map(u=>L.find(q=>q.uid===u)).filter(Boolean);
   return L.filter(q=>setOk(q)&&mqStyOk(q)&&mqPass(q,v.status));}
 /* ---- ward home (MEQ tab) ---- */
-function mqHomeHTML(){const P=P_(),p=ph(),L=mqL(),W=W_(),done=L.filter(q=>mqCaseDone(q)),scs=done.map(mqScore).filter(s=>s&&s.all);
+function mqHomeHTML(type){type=type||"MEQ";const P=P_(),p=ph(),L=type==="MEQ"?mqL():[],W=W_(),done=L.filter(q=>mqCaseDone(q)),scs=done.map(mqScore).filter(s=>s&&s.all);
   const avg=scs.length?Math.round(scs.reduce((a,s)=>a+s.got/s.tot,0)/scs.length*100):null,nC=L.filter(q=>!q.sa).length,nS=L.length-nC,sl=mqStaffL().length;
-  let h=`<p class="statline">คลังมี <b>${L.length}</b> ข้อ · ข้อสอบเก่า <b>${L.length}</b> ข้อ (case ${nC} · short answer ${nS}) · Phase ${p} ทำแล้ว <b>${done.length}</b> ข้อ · คะแนนเฉลี่ย <b>${avg==null?"–":avg+"%"}</b></p>`;
+  let h=type==="OSCE"?`<p class="hint" style="margin:6px 0 10px">OSCE ใช้หน้าตาแบบเดียวกับ MEQ ไว้ก่อน — ฟีเจอร์และการจับเวลาของ OSCE จะเพิ่มตามที่อธิบายภายหลัง</p>`:"";
+  if(!L.length)h+=`<div class="card"><h3>ยังไม่มีข้อสอบ ${type} ในคลัง</h3><span class="rd" style="margin:0">ส่งไฟล์ข้อสอบเก่า ${type} (PDF/รูป/เอกสาร) ให้ Claude แล้วให้เพิ่มเข้าเว็บ ปุ่ม round ด้านล่างจะใช้ได้เมื่อมีข้อสอบ (Round I/O, Teaching และ Long case ใช้ได้เลย)</span></div>`;
+  h+=`<p class="statline">คลังมี <b>${L.length}</b> ข้อ · ข้อสอบเก่า <b>${L.length}</b> ข้อ${type==="MEQ"&&L.length?` (case ${nC} · short answer ${nS})`:""} · Phase ${p} ทำแล้ว <b>${done.length}</b> ข้อ · คะแนนเฉลี่ย <b>${avg==null?"–":avg+"%"}</b></p>`;
   const v=mqS().v,cq=v.u&&L.find(q=>q.uid===v.u);
   if(cq&&!mqCaseDone(cq)&&mqAnyDone(cq))h+=`<button class="resume" id="mqResume"><span>ทำต่อ: <b>MEQ ข้อ ${esc(mqNum(cq))}</b><span class="rd">${esc(cq.set)} · ${esc(mqTitle(cq))}</span></span><span class="go">→</span></button>`;
-  if(p===2){h+=`<div class="card"><h3>ทบทวน MEQ ก่อนสอบ</h3><span class="rd">สรุปจากข้อสอบ MEQ เก่าเท่านั้น และทวนเฉพาะข้อที่ยังไม่ได้เต็ม</span><div class="tools">
+  if(p===2&&L.length){h+=`<div class="card"><h3>ทบทวน MEQ ก่อนสอบ</h3><span class="rd">สรุปจากข้อสอบ MEQ เก่าเท่านั้น และทวนเฉพาะข้อที่ยังไม่ได้เต็ม</span><div class="tools">
     <button class="tool" data-go="mqhy">📘 สรุป High-yield MEQ</button>
     <button class="tool" data-mqp2="notfull">◐ ข้อที่ยังไม่ได้เต็ม<span class="n">${L.filter(q=>mqPass(q,"notfull")).length}</span></button>
     <button class="tool" data-mqp2="star">★ ข้อที่ติดดาว<span class="n">${L.filter(mqStar).length}</span></button>
     <button class="tool" data-mqp2="todo">○ ยังไม่ได้ทำใน Phase 2<span class="n">${L.filter(q=>!mqCaseDone(q)).length}</span></button></div></div>`;}
-  if(mqClOK()){const need=L.filter(q=>mqNeedAI(q)).length;h+=`<div class="card"><h3>🤖 ให้ Claude ตรวจ MEQ</h3><span class="rd">บนเว็บแนะนำคะแนนจากคำสำคัญ (ไม่จำกัด) · อยากได้คำประเมินละเอียด ส่งไปให้ Claude ตรวจได้ แล้วส่งผลกลับเว็บ</span>
+  if(mqClOK()&&L.length){const need=L.filter(q=>mqNeedAI(q)).length;h+=`<div class="card"><h3>🤖 ให้ Claude ตรวจ MEQ</h3><span class="rd">บนเว็บแนะนำคะแนนจากคำสำคัญ (ไม่จำกัด) · อยากได้คำประเมินละเอียด ส่งไปให้ Claude ตรวจได้ แล้วส่งผลกลับเว็บ</span>
     <div class="chips"><button class="chip" type="button" data-mqask="1" aria-pressed="${v.ask!==false}">ถามทุกครั้งหลังส่งคำตอบ</button><button class="chip" type="button" data-mqask="0" aria-pressed="${v.ask===false}">ไม่ต้องถาม (ใช้คำสำคัญอย่างเดียว)</button></div>
     <button class="btn" type="button" id="mqAllCl" style="margin-top:8px" ${need?"":"disabled"}>ส่งข้อที่ยังไม่ได้ให้ Claude ตรวจ (${need} ข้อ)</button></div>`;}
-  if(HAS_CLAUDE())h+=`<button class="resume" id="mqInGo"><span><b>📋 ตรวจคำตอบ MEQ จากเว็บ</b><span class="rd">วางรหัสที่คัดลอกจากเว็บ แล้วให้ Claude ประเมิน</span></span><span class="go">→</span></button>`;
+  if(HAS_CLAUDE()&&L.length)h+=`<button class="resume" id="mqInGo"><span><b>📋 ตรวจคำตอบ MEQ จากเว็บ</b><span class="rd">วางรหัสที่คัดลอกจากเว็บ แล้วให้ Claude ประเมิน</span></span><span class="go">→</span></button>`;
   const cnt=k=>{const t=k==="service"?`มี <b>${L.length}</b> ข้อ · ${L.reduce((a,q)=>a+q.subs.length,0)} Part`:k==="staff"?`มีข้อให้ทวน <b>${sl}</b> ข้อ`:k==="advisor"?`อ่านเฉลยได้ <b>${L.filter(mqAnyDone).length}</b> ข้อ`:k==="unit"?`มี <b>${mqTopics().length}</b> หัวข้อ`:"";return t?`<span class="rcnt">${t}</span>`:"";};
-  h+=`<div class="rounds">${MQ_ROUNDS.map((r,i)=>`<button class="round" data-mqround="${r.k}" aria-disabled="${!!r.soon}">${r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="staff"&&sl?`<span class="badge">${sl}</span>`:""}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}</b><span class="rd">${r.soon?(r.note||"รายละเอียดจะเพิ่มภายหลัง"):r.d}</span>${cnt(r.k)}</button>`).join("")}</div>`;
+  h+=`<div class="rounds">${MQ_ROUNDS.map((r,i)=>`<button class="round" data-mqround="${r.k}" aria-disabled="${!!r.soon}">${r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="staff"&&sl?`<span class="badge">${sl}</span>`:""}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}</b><span class="rd">${r.soon?(type!=="MEQ"&&r.k==="quality"?"จับเวลาแบบ OSCE — รอรายละเอียด":(r.note||"รายละเอียดจะเพิ่มภายหลัง")):type==="MEQ"?r.d:["io","teach","longcase"].includes(r.k)?r.d.replace(/MCQ \/ OSCE/,"MCQ / MEQ"):r.d.replace(/MEQ/g,type).replace(/ \(case \/ short answer\)| ยำรวมทุกแบบ \(case \+ short answer\)|เลือกชุดและแบบ \(case \/ short answer\) ได้ · เคสเปิด Part ทีละช่วงเหมือนสอบจริง พิมพ์ตอบแล้วดูเฉลย \+ คะแนนแนะนำ/g,"").replace(/MCQ \/ OSCE/,"MCQ / MEQ")}</span>${L.length?cnt(r.k):""}</button>`).join("")}</div>`;
   return h;}
-function mqBindHome(){
+function mqBindHome(type){type=type||"MEQ";
   document.querySelectorAll("[data-mqround]").forEach(b=>b.onclick=()=>{const k=b.dataset.mqround,R=MQ_ROUNDS.find(r=>r.k===k);if(R.soon){toast(R.note||"โหมดนี้จะเพิ่มภายหลัง");return;}
-    if(k==="io")return go(ward+"/io");if(k==="teach")return go(ward+"/teach");if(k==="longcase")return go(ward+"/lcase");if(k==="grand")return mqGrandNext(true);
+    if(k==="io")return go(ward+"/io");if(k==="teach")return go(ward+"/teach");if(k==="longcase")return go(ward+"/lcase");if(type!=="MEQ"||!mqL().length){toast(`ยังไม่มีข้อสอบ ${type} ในคลัง`);return;}if(k==="grand")return mqGrandNext(true);
     mqVset({r:k,status:k==="service"||k==="unit"?mqS().v.status:"all"});save();go(ward+"/mqr");});
   document.querySelectorAll("[data-mqp2]").forEach(b=>b.onclick=()=>{mqVset({r:"service",set:"all",style:"all",status:b.dataset.mqp2});save();go(ward+"/mqr");});
   const rs=$("mqResume");if(rs)rs.onclick=()=>go(ward+"/mq");
