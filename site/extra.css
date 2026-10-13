@@ -670,3 +670,4 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .mhlist .mhrow{position:relative;z-index:2}
 .mhrow.mred{border-color:var(--wrong)}
 .mhrow.mgood{border-color:var(--right)}
+.srow.lock{opacity:.5;cursor:not-allowed}.srow.lock .b{border-style:dashed}

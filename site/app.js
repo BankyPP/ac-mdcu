@@ -658,7 +658,7 @@ function paintNav(){
   if(view==="admq"){const L_=bankItems("adm",ward),i=L_.findIndex(x=>x.key===st.admSel);$("pos").textContent=`${i+1} / ${L_.length}`;$("prev").disabled=i<=0;$("next").disabled=i>=L_.length-1;$("next").textContent="ข้อถัดไป";
     const d=L_.filter(x=>x.a!=null);$("count").textContent=`${d.length}/${L_.length}`;$("prog").style.width="0";return;}
   if(view==="adm"){const B=bankItems("adm",ward);$("count").textContent=`${B.filter(x=>x.a!=null).length}/${B.length}`;const A=P.adm,ok=A.ans!=null;$("pos").textContent=`ข้อที่ ${A.n+(ok?0:1)}`;$("prev").disabled=true;$("next").disabled=!ok;$("next").textContent=ok?(A.next?"ข้อต่อไป":admBusy?(admWant?"รอสักครู่…":"ข้อต่อไป (กำลังสร้าง)"):"ข้อต่อไป"):"ข้อต่อไป";$("prog").style.width="0";return;}
-  if(isSess()){const s=P.sess;$("pos").textContent=`${s.cur+1} / ${s.list.length}`;$("prev").disabled=s.cur===0||!qNavOK(s.cur-1);$("next").disabled=s.cur<s.list.length-1?!qNavOK(s.cur+1):qLock();$("next").textContent=s.cur===s.list.length-1?"ดูสรุปรอบนี้":"ข้อถัดไป";n=s.list.length;a=Object.keys(s.ans).filter(u=>s.list.includes(u)).length;}
+  if(isSess()){const s=P.sess;$("pos").textContent=`${s.cur+1} / ${s.list.length}`;$("prev").disabled=s.cur===0||!qNavOK(s.cur-1);$("next").disabled=s.cur<s.list.length-1?!qNavOK(s.cur+1):(qLock()||mLastOpen());$("next").textContent=s.cur===s.list.length-1?"ดูสรุปรอบนี้":"ข้อถัดไป";n=s.list.length;a=Object.keys(s.ans).filter(u=>s.list.includes(u)).length;}
   else{const v=svcVisible(),q=svcQ(),i=v.findIndex(x=>x.uid===(q&&q.uid));$("pos").textContent=`${i>=0?i+1:"–"} / ${v.length}`;$("prev").disabled=v.length<2&&i>=0;$("next").disabled=v.length<2&&i>=0;$("next").textContent="ข้อถัดไป";
     const l=svcList();n=l.length;a=l.filter(x=>lockedAns(P,ph(),x.uid)!==undefined).length;}
   $("count").textContent=`${a}/${n}`;$("prog").style.width=(n?a/n*100:0)+"%";
@@ -704,7 +704,7 @@ function step(d){
   if(view==="exam"){const X=P_().leg;if(d>0&&X.cur===X.list.length-1){openS();return;}X.cur=Math.max(0,Math.min(X.list.length-1,X.cur+d));save();rExam();window.scrollTo(0,0);return;}
   if(view==="lrev"){const X=legPaper(),i=legIdx()+d;if(i>=X.list.length){go(ward+"/lres");return;}st.legIdx=Math.max(0,i);persist();pick=null;rQuiz();window.scrollTo(0,0);return;}
   if(view==="admq"){const L_=bankItems("adm",ward),i=L_.findIndex(x=>x.key===st.admSel)+d;if(i<0||i>=L_.length)return;st.admSel=L_[i].key;persist();pick=null;rQuiz();window.scrollTo(0,0);return;}
-  if(isSess()){const s=P_().sess;const to=s.cur+d;if(to>=0&&to<s.list.length&&!qNavOK(to)){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}if(d>0&&s.cur===s.list.length-1&&qLock()){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}}
+  if(isSess()){const s=P_().sess;const to=s.cur+d;if(to>=0&&to<s.list.length&&!qNavOK(to)){toast(navMsg());return;}if(d>0&&s.cur===s.list.length-1&&(qLock()||mLastOpen())){toast(navMsg());return;}}
   pick=null;
   if(isSess()){const s=P_().sess;if(d>0&&s.cur===s.list.length-1){go(ward+"/result");return;}s.cur=Math.max(0,Math.min(s.list.length-1,s.cur+d));s.ts=now();save();rQuiz();window.scrollTo(0,0);return;}
   const v=svcVisible();if(!v.length)return;const q=svcQ();
@@ -934,7 +934,12 @@ const qEl=()=>QR.paused?QR.el0:QR.el0+(performance.now()-QR.t0)/1000;
 const qSeg=()=>QR&&QR.i>=0?QR.S[QR.i]:null;
 /* mandatory mode: questions change by themselves; only while reading solutions can you page back through questions already done */
 function qLock(){if(!qOn()||!QR.mand)return false;const g=qSeg();return !g||(g.kind!=="sol"&&g.kind!=="free");}
-function qNavOK(i){if(!qOn()||!QR.mand)return true;const g=qSeg();if(!g)return false;if(g.kind==="sol"||g.kind==="free")return i<QR.front;return i===QR.front;}
+/* Morning round: questions open one at a time in order — can go back to answered ones, but not past the first unanswered question */
+const mFront=s=>{const i=s.list.findIndex(u=>s.ans[u]===undefined);return i<0?s.list.length:i;};
+const mLocked=i=>{if(view!=="sess")return false;const s=P_().sess;return !!(s&&s.kind==="morning"&&i>mFront(s));};
+const navMsg=()=>{const s=view==="sess"&&P_().sess;return s&&s.kind==="morning"?"ตอบข้อนี้ก่อน ถึงจะไปข้อถัดไปได้":"ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)";};
+const mLastOpen=()=>{const s=view==="sess"&&P_().sess;return !!(s&&s.kind==="morning"&&s.ans[s.list[s.cur]]===undefined);};
+function qNavOK(i){if(mLocked(i))return false;if(!qOn()||!QR.mand)return true;const g=qSeg();if(!g)return false;if(g.kind==="sol"||g.kind==="free")return i<QR.front;return i===QR.front;}
 function qStart(pg,mand){qStop();SND.init();const {S,total}=qSegs(pg);
   QR={pg,mand,S,total,el0:0,t0:performance.now(),paused:false,i:-1,front:0,done:false,alarm:false,ward};
   const s=P_().sess;if(s){const i=s.list.findIndex(u=>s.ans[u]===undefined);QR.front=i<0?s.list.length:i;}
@@ -1828,7 +1833,7 @@ function sheet(){
     const done=qs.filter(q=>s.ans[q.uid]!==undefined),right=adv?qs.filter(q=>A(q)===q.ans):done.filter(q=>s.ans[q.uid]===q.ans);
     stats(done.length,qs.length,right.length);
     const v=qs.map((q,i)=>[q,i]).filter(([q])=>{const a=s.ans[q.uid],b=A(q);return f==="todo"?a===undefined:f==="wrong"?b!==undefined&&b!==q.ans:true;});
-    rows(v.map(([q,i])=>({q,a:A(q),meta:adv&&s.ans[q.uid]!==undefined?"อ่านแล้ว · ":"",cur:i===s.cur,go:()=>{if(!qNavOK(i)){toast("ตอนนี้ยังเปลี่ยนข้อไม่ได้ (โหมด mandatory)");return;}pick=null;s.cur=i;save();rQuiz();window.scrollTo(0,0);}})),f==="wrong"?"ยังไม่มีข้อที่ตอบผิดในรอบนี้":"ทำครบทุกข้อในรอบนี้แล้ว");
+    rows(v.map(([q,i])=>({q,a:A(q),lock:mLocked(i)?i+1:0,meta:adv&&s.ans[q.uid]!==undefined?"อ่านแล้ว · ":"",cur:i===s.cur,go:()=>{if(!qNavOK(i)){toast(navMsg());return;}pick=null;s.cur=i;save();rQuiz();window.scrollTo(0,0);}})),f==="wrong"?"ยังไม่มีข้อที่ตอบผิดในรอบนี้":"ทำครบทุกข้อในรอบนี้แล้ว");
     $("sheetFoot").innerHTML=`<span class="hint">เส้นเขียวรอบวง = เฉลย</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span><button class="link" id="toResult">จบรอบ ดูสรุป</button>`;
     $("toResult").onclick=()=>{closeS(true);go(ward+"/result");};
     paintSync();return;
@@ -1858,9 +1863,10 @@ function sheet(){
 function stats(d,n,r){$("sDone").textContent=`${d}/${n}`;$("sRight").textContent=r;$("sPct").textContent=d?Math.round(r/d*100)+"%":"–";}
 function rows(list,empty){
   if(!list.length){$("rows").innerHTML=`<div class="empty">${empty}</div>`;return;}
-  $("rows").innerHTML=list.map((x,i)=>{const q=x.q,a=x.a;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(a!==undefined&&j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");
+  $("rows").innerHTML=list.map((x,i)=>{const q=x.q,a=x.a;
+    if(x.lock)return `<button class="srow lock" data-r="${i}"><span class="n">${x.lock}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b">${L[j]}</span>`).join("")}</span><span class="meta">🔒 ยังไม่ถึงข้อนี้</span></button>`;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(a!==undefined&&j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");
     return `<button class="srow ${x.cur?"cur":""}" data-r="${i}"><span class="n">${q.id}</span><span class="bs">${bs}</span><span class="meta">${x.meta||""}${esc(q.set)} ${esc(q.ro)}${flagged(P_(),q.uid)?" ⚑":""}</span></button>`;}).join("");
-  document.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{closeS();list[+b.dataset.r].go();});
+  document.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{const x=list[+b.dataset.r];if(x.lock){toast(navMsg());return;}closeS();x.go();});
 }
 function openS(){sheet._ok=0;sheet();$("overlay").classList.add("open");const c=document.querySelector(".srow.cur");if(c)c.scrollIntoView({block:"center"});$("closeSheet").focus();}
 function closeS(silent){$("overlay").classList.remove("open");if(!silent&&!$("openSheet").hidden)$("openSheet").focus();}
