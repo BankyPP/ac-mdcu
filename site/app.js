@@ -1404,6 +1404,7 @@ const LSRC={acd:"ข้อสอบเก่า (AC) ที่เคยทำแ
 const LSRS={acd:"AC เคยทำ",acn:"AC ใหม่",unit:"Unit",adm:"Admission",ai:"AI ใหม่"};
 function legPools(){const W=W_(),P=P_(),p=ph(),o={acd:[],acn:[],unit:[],adm:[]};
   W.QB.forEach(q=>o[atts(P,p,q.uid).length?"acd":"acn"].push(q.uid));
+  {const E=examCfg();if(E&&E.ai)return o;}   /* fixed mix (config exam.MCQ.ai, e.g. OB-GYN 70% AC + 30% AI): the rest of the paper is old-exam questions only */
   W.UNIT.forEach(Lc=>Lc.QB.forEach(q=>o.unit.push(q.uid)));
   bankItems("adm",ward).forEach(x=>{if(x.q&&x.q.uid&&Array.isArray(x.q.opts))o.adm.push(x.q.uid);});return o;}
 function legDraw(n){const pools=legPools(),ks=Object.keys(pools).filter(k=>pools[k].length),w={};ks.forEach(k=>{w[k]=Math.random();});
@@ -1421,7 +1422,7 @@ function legDraw(n){const pools=legPools(),ks=Object.keys(pools).filter(k=>pools
   return {list:shuffle(list),src};}
 /* brand-new questions the AI writes for one Legendary paper only: never shown in any other round, except Ward staff round once answered (bank "lai") */
 const legAIOK=()=>HAS_CLAUDE()||!!aiCfg().key;
-function legAIn(n){if(n<10)return Math.max(1,Math.round(n*0.1));const lo=Math.ceil(n*0.05),hi=Math.ceil(n*0.15);return lo+Math.floor(Math.random()*(hi-lo+1));}
+function legAIn(n){const E=examCfg();if(E&&E.ai)return Math.max(1,Math.round(n*E.ai));if(n<10)return Math.max(1,Math.round(n*0.1));const lo=Math.ceil(n*0.05),hi=Math.ceil(n*0.15);return lo+Math.floor(Math.random()*(hi-lo+1));}
 function legAIPrompt(W,specs){const w=W.cfg,y=yrN(),yr=y?ord(y)+"-year":"clinical-year";
   return `Write ${specs.length} brand-new multiple-choice questions for a simulated end-of-rotation exam (the real ward MCQ exam) taken by ${yr} medical students at Chulalongkorn University (MDCU), Thailand, at the end of their ${w.name.replace(/\s*Y\d+$/,"")} rotation. They are mixed into a paper of past-exam questions, so match the style and difficulty of a real final exam.
 
@@ -1429,8 +1430,11 @@ Scope (stay inside it): ${w.scope||w.name}.
 Level: what a ${yr} medical student is expected to know and use in real clinical practice, from standard textbooks and current international or Thai guidelines. Common and uncommon conditions are both fine.
 
 Write the questions in this order, one per line below (topic to use, and the position of the correct answer):
-${specs.map((x,i)=>`${i+1}. topic: ${x.res?"from attached resource "+(x.res.code||x.res.title):x.topic||"any topic inside the scope"} — correct answer at position ${"ABCDE"[x.pos]} (index ${x.pos})${x.res?" — build it mainly on that resource (listed below); the key point tested must come from it":""}`).join("\n")}
-${(()=>{const u=[...new Set(specs.filter(x=>x.res).map(x=>x.res))];return u.length?"\nAttached resources (only for the questions that name them; the others use any reliable source):\n"+u.map(r=>`Resource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}`).join("\n\n")+"\n":"";})()}
+${specs.map((x,i)=>x.base?`${i+1}. based on PAST-EXAM QUESTION ${i+1} below — correct answer at position ${"ABCDE"[x.pos]} (index ${x.pos})`:`${i+1}. topic: ${x.res?"from attached resource "+(x.res.code||x.res.title):x.topic||"any topic inside the scope"} — correct answer at position ${"ABCDE"[x.pos]} (index ${x.pos})${x.res?" — build it mainly on that resource (listed below); the key point tested must come from it":""}`).join("\n")}
+${specs.some(x=>x.base)?`
+Past-exam questions (real old exam items of this ward). For each new question N that names PAST-EXAM QUESTION N: test knowledge from the same content area (the same disease, topic or the key points listed), but it MUST NOT duplicate that past question or any other past-exam question — use a different patient scenario AND ask a different point with a different correct answer (for example, if the past question asks the diagnosis, ask the management, investigation, complication, mechanism or a related criterion instead; never just reword it).
+${specs.map((x,i)=>x.base?`PAST-EXAM QUESTION ${i+1}: ${pastBrief(x.base)}`:"").filter(Boolean).join("\n")}
+`:""}${(()=>{const u=[...new Set(specs.filter(x=>x.res).map(x=>x.res))];return u.length?"\nAttached resources (only for the questions that name them; the others use any reliable source):\n"+u.map(r=>`Resource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}`).join("\n\n")+"\n":"";})()}
 
 Question rules (every question):
 - Case-based only: the stem MUST present a patient case (age, sex, presentation, relevant history, examination and test results as needed). Ask anything about the case: diagnosis, initial management, definitive treatment, most important or next investigation, pathophysiology, etiology, mechanism of disease or of a drug, pertinent findings, complications, prognosis, and so on. Vary what is asked across the questions.
@@ -1454,11 +1458,13 @@ Reply with only a JSON object {"questions": [ … ]} holding ${specs.length} obj
  "guide": "guideline or textbook (with year) the answer is based on, or empty string",
  "mnemonic": "short memory aid, or empty string",
  "variants": ["2–3 Thai bullets: other ways this topic could be asked"]}`;}
+const pastBrief=q=>{const t=x=>String(x||"").replace(/<[^>]+>/g,"").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();return `${t(q.stem).slice(0,420)} | Correct answer: ${t(q.opts[q.ans])}${Array.isArray(q.summary)&&q.summary.length?" | Key points: "+q.summary.slice(0,4).map(t).join("; ").slice(0,500):""}`;};
 let LG=null;   /* AI questions being written before a Legendary paper starts: {k,done,wid,stop} */
 function paintLG(){const el=$("lgAIn");if(el&&LG)el.textContent=LG.done+"/"+LG.k;}
 async function legGenAI(k){
   const W=W_(),tp=shuffle([...new Set(W.QB.map(q=>topicOf(W,q)))].filter(t=>t&&t!=="Others")),specs=[];
-  for(let i=0;i<k;i++)specs.push({topic:tp.length?tp[i%tp.length]:"",pos:Math.floor(Math.random()*5),res:pickSrc(W)});
+  const E=examCfg(),fromAC=!!(E&&E.aiFromAC),base=fromAC?shuffle(W.QB.slice()):[];
+  for(let i=0;i<k;i++)specs.push(fromAC&&base.length?{base:base[i%base.length],pos:Math.floor(Math.random()*5)}:{topic:tp.length?tp[i%tp.length]:"",pos:Math.floor(Math.random()*5),res:pickSrc(W)});
   const B=[];for(let i=0;i<specs.length;i+=3)B.push(specs.slice(i,i+3));
   const out=[];let err=null,bi=0,fatal=false;
   const worker=async()=>{while(bi<B.length&&!fatal&&LG&&!LG.halt){const b=B[bi++];
@@ -1467,7 +1473,7 @@ async function legGenAI(k){
     catch(e){err=e;const c=e&&e.code;if(["no_ai","not_granted","sampling_disabled","session_expired"].includes(c)||(c==="api"&&[401,403,404].includes(e.status)))fatal=true;}
     if(LG){LG.done=out.length;paintLG();}}};
   const stop=new Promise(r=>{LG.stop=r;});
-  await Promise.race([Promise.all([worker(),worker()]),stop]);
+  await Promise.race([Promise.all(k>20?[worker(),worker(),worker()]:[worker(),worker()]),stop]);
   return {qs:out.slice(0,k),err};}
 async function legBegin(n){
   if(!(st.legAI!==false&&legAIOK())){legStart([]);return;}
@@ -1494,10 +1500,10 @@ function rLegend(){
     h+=`<button class="resume" id="lgResume"><span>กำลังสอบอยู่ · <b>เหลือเวลา <span id="lgLeft">${hms(L_.end-now())}</span></b><span class="rd">ตอบแล้ว ${a}/${L_.list.length} ข้อ${s?` · ★ ${s}`:""} · เวลาเดินต่อแม้ปิดหน้า เหมือนสอบจริง</span></span><span class="go">→</span></button><div class="row2" style="margin-top:0"><span class="spacer"></span><button class="btn primary" id="lgSub" type="button">Submit ส่งข้อสอบเลย</button></div>`;}
   else{
     h+=`<div class="card"><h3>MCQ ${n} ข้อ · ${E.min} นาที</h3><span class="rd">เหมือนสอบจริงของ ${esc(W.cfg.short||W.cfg.name)}${n<E.n?` (มีข้อให้สุ่มทั้งหมด ${avail} ข้อ จึงใช้ทั้งหมด)`:""} · เปลี่ยนคำตอบได้จนหมดเวลา · กด ☆ ติดดาวข้อที่อยากกลับมาดู · ส่งแล้วจะเห็นเกรดก่อน แล้วค่อยเลือกดู Short answer paper หรือ Long explanation</span>
-    <span class="rd">ข้อสอบจริงอาจตรงหรือไม่ตรงกับข้อสอบเก่า จึง<b>สุ่มทุกอย่างใหม่ทุกครั้ง</b> ทั้งจำนวนข้อที่ซ้ำกับที่เคยเจอ ข้อสอบเก่าที่ยังไม่เคยทำ โจทย์ Unit round เคสจาก Admission round ของคุณ และ<b>โจทย์ใหม่ที่ AI สร้างขึ้นเฉพาะชุดนั้น</b> (ไม่เคยเจอที่ไหน และจะกลับมาอีกเฉพาะใน Ward staff round) และพยายามให้มีครบทุกหัวข้อในชุดเดียว — ระหว่างทำไม่บอกข้อมูลอะไรเลย ตอนเฉลยจึงบอกว่าแต่ละข้อมาจากไหนและเคยเจอมาก่อนหรือไม่</span>
+    ${E.ai?`<span class="rd">สัดส่วนตามที่ตั้งไว้: <b>ข้อสอบเก่า (AC) ${Math.round((1-E.ai)*100)}% = ${E.n-Math.round(E.n*E.ai)} ข้อ</b> สุ่มใหม่ทุกครั้ง + <b>โจทย์ใหม่ที่ AI แต่ง ${Math.round(E.ai*100)}% = ${Math.round(E.n*E.ai)} ข้อ</b>${E.aiFromAC?" จากเนื้อหาที่เจอในข้อสอบเก่า แต่ไม่ซ้ำข้อสอบเก่า (สถานการณ์ใหม่ ถามคนละประเด็น)":""} — ถ้า AI สร้างได้ไม่ครบหรือไม่มี AI ใช้ข้อสอบเก่าแทนส่วนที่ขาด · พยายามให้มีครบทุกหัวข้อในชุดเดียว · ระหว่างทำไม่บอกข้อมูลอะไรเลย ตอนเฉลยจึงบอกว่าแต่ละข้อมาจากไหนและเคยเจอมาก่อนหรือไม่</span>`:`<span class="rd">ข้อสอบจริงอาจตรงหรือไม่ตรงกับข้อสอบเก่า จึง<b>สุ่มทุกอย่างใหม่ทุกครั้ง</b> ทั้งจำนวนข้อที่ซ้ำกับที่เคยเจอ ข้อสอบเก่าที่ยังไม่เคยทำ โจทย์ Unit round เคสจาก Admission round ของคุณ และ<b>โจทย์ใหม่ที่ AI สร้างขึ้นเฉพาะชุดนั้น</b> (ไม่เคยเจอที่ไหน และจะกลับมาอีกเฉพาะใน Ward staff round) และพยายามให้มีครบทุกหัวข้อในชุดเดียว — ระหว่างทำไม่บอกข้อมูลอะไรเลย ตอนเฉลยจึงบอกว่าแต่ละข้อมาจากไหนและเคยเจอมาก่อนหรือไม่</span>`}
     <p class="hint" style="margin:0">ตอนนี้มีให้สุ่ม: ข้อสอบเก่า ${PL.acd.length+PL.acn.length} ข้อ (เคยทำใน Phase ${ph()} แล้ว ${PL.acd.length}) · Unit round ${PL.unit.length} · Admission ของคุณ ${PL.adm.length}</p>
-    ${LG&&LG.wid===ward?`<div class="lgai"><b>กำลังเตรียมข้อสอบ</b> — AI กำลังเขียนโจทย์ใหม่ <b id="lgAIn">${LG.done}/${LG.k}</b> ข้อ · เวลาสอบยังไม่เริ่มนับ (ใช้เวลาประมาณ 1–3 นาที)<div class="row2" style="margin-top:8px"><button class="btn ghost" id="lgAIx">ยกเลิก</button><span class="spacer"></span><button class="btn" id="lgAInow">เริ่มเลย ไม่ต้องรอ</button></div></div>`
-    :`<label class="chk"><input type="checkbox" id="lgAI" ${st.legAI!==false&&legAIOK()?"checked":""} ${legAIOK()?"":"disabled"}><span><b>มีโจทย์ใหม่ที่ AI สร้างปนอยู่บางข้อ</b> — สุ่มจำนวนเองทุกครั้ง${legAIOK()?"":HAS_CLAUDE()?"":` · ต้องเปิดใน Claude${CFG.artifactUrl?` (<a href="${esc(artLink(ward+"/legend"))}" target="_blank" rel="noopener">เปิด Legendary round ใน Claude</a>)`:""} หรือใส่ API key ที่ Admission round ก่อน`}</span></label>
+    ${LG&&LG.wid===ward?`<div class="lgai"><b>กำลังเตรียมข้อสอบ</b> — AI กำลังเขียนโจทย์ใหม่ <b id="lgAIn">${LG.done}/${LG.k}</b> ข้อ · เวลาสอบยังไม่เริ่มนับ (ใช้เวลาประมาณ ${LG.k>20?Math.ceil(LG.k/9)+"–"+Math.ceil(LG.k/4.5):"1–3"} นาที)<div class="row2" style="margin-top:8px"><button class="btn ghost" id="lgAIx">ยกเลิก</button><span class="spacer"></span><button class="btn" id="lgAInow">เริ่มเลย ไม่ต้องรอ</button></div></div>`
+    :`<label class="chk"><input type="checkbox" id="lgAI" ${st.legAI!==false&&legAIOK()?"checked":""} ${legAIOK()?"":"disabled"}><span><b>มีโจทย์ใหม่ที่ AI สร้างปนอยู่${E.ai?` ${Math.round(E.n*E.ai)} ข้อ (${Math.round(E.ai*100)}%)`:"บางข้อ"}</b>${E.ai?"":" — สุ่มจำนวนเองทุกครั้ง"}${legAIOK()?"":HAS_CLAUDE()?"":` · ต้องเปิดใน Claude${CFG.artifactUrl?` (<a href="${esc(artLink(ward+"/legend"))}" target="_blank" rel="noopener">เปิด Legendary round ใน Claude</a>)`:""} หรือใส่ API key ที่ Admission round ก่อน`}</span></label>
     <div class="row2"><span class="spacer"></span><button class="btn primary" id="lgGo">เริ่มสอบ</button></div>`}</div>`;}
   const H=bankItems("leg",ward).reverse();
   h+=`<button class="resume" id="lgHist" style="margin-top:18px"><span>📜 <b>ประวัติการสอบ Legendary round</b><span class="rd">${H.length?`สอบไปแล้ว ${H.length} ครั้ง · ดูผลและเฉลยย้อนหลังได้ทุกครั้ง`:"ยังไม่เคยสอบ"}${HAS_CLAUDE()?" · ส่งผลสอบไปดูในเว็บได้":""}</span></span><span class="go">→</span></button>`;

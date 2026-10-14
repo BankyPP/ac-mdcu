@@ -189,7 +189,15 @@
           "repro",
           "Reproductive & family planning"
         ]
-      ]
+      ],
+      "exam": {
+        "MCQ": {
+          "n": 150,
+          "min": 180,
+          "ai": 0.3,
+          "aiFromAC": true
+        }
+      }
     }
   ],
   "firebase": {
