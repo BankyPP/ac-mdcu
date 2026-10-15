@@ -661,12 +661,10 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .round .mfire:not(.on){filter:grayscale(.65) opacity(.45)}
 .round .mfire:not(.on) i{color:var(--wrong);filter:none}
 .round .mfire .ff{font-weight:400}
-/* frozen fire: yesterday missed (grace day) — blue flame + blue number + "!" = if today is missed too, tomorrow the fire is 0 */
-.round .mfire.frz{filter:none}
-.round .mfire.frz .ff{filter:hue-rotate(185deg) saturate(1.6) brightness(1.05)}
+/* frozen fire: yesterday missed (grace day) — faded blue flame + blue number (same fade as the not-yet-lit fire) = if today is missed too, tomorrow the fire is 0 */
+.round .mfire.frz{filter:opacity(.5)}
+.round .mfire.frz .ff{filter:hue-rotate(185deg) saturate(1.3)}
 .round .mfire.frz i{color:#1E6FD9}
-.round .mfire.frz .fx{font-style:normal;font-weight:800;font-size:15px;color:#1E6FD9;margin-left:1px;animation:mfxb 1.2s ease-in-out infinite}
-@keyframes mfxb{50%{opacity:.35}}
 .round .mtodo.ok{color:var(--right)}
 .rounds .round{z-index:2}
 .round.mgood{border-color:var(--right);background:var(--right-soft)}
