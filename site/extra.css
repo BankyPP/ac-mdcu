@@ -679,3 +679,11 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .staffnote{flex-basis:100%;margin-top:6px;padding:8px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet);font-size:14px;line-height:1.5}
 .staffnote.grad{border-color:var(--right);background:var(--right-soft)}
 .staffnote .chip{margin-top:6px;display:inline-block}
+/* Morning history: fire at the end of each day, beside the date */
+.mhf{display:inline-flex;align-items:center;gap:2px;font-family:var(--num);font-size:14px;line-height:1}
+.mhf i{font-style:normal;font-weight:700;color:var(--ink)}
+.mhf small{font-size:11px;color:var(--muted);margin-left:3px}
+.mhf.frz .ff{filter:hue-rotate(185deg) saturate(1.3);opacity:.5}.mhf.frz i{color:#1E6FD9;opacity:.5}
+.mhf.out .ff{filter:grayscale(1);opacity:.4}.mhf.out i{color:var(--muted)}
+.mhf.wait .ff{filter:grayscale(.65);opacity:.45}.mhf.wait i{color:var(--wrong)}
+
