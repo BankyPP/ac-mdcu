@@ -655,12 +655,12 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .iov .iobody .g-dx{--gc:var(--g-dx);--gb:var(--g-dx-bg)}
 .iov .iobody .g-ca{--gc:var(--g-ca);--gb:var(--g-ca-bg)}
 .iov .iobody .mn,.iov .iobody .two{grid-template-columns:1fr}/* ===== Morning round 🔥 / 🏅 / green · gold edge · aura ===== */
-.round .mgame{display:inline-flex;gap:8px;margin-left:8px;vertical-align:1px;font-family:var(--num)}
+.round .mgame{display:inline-flex;gap:6px;margin-left:6px;vertical-align:1px;font-family:var(--num);white-space:nowrap}
 .round .mgame>span{display:inline-flex;align-items:center;gap:2px;font-size:14px}
 .round .mgame i{font-style:normal;font-weight:700;font-size:14px;color:var(--ink)}
 .round .mfire:not(.on){filter:grayscale(.65) opacity(.45)}
 .round .mfire:not(.on) i{color:var(--wrong);filter:none}
-.round .mfire .ff{font-weight:400}
+.round .mfire .ff{font-size:inherit;line-height:1}
 /* frozen fire: yesterday missed (grace day) — faded blue flame + blue number (same fade as the not-yet-lit fire) = if today is missed too, tomorrow the fire is 0 */
 .round .mfire.frz{filter:opacity(.5)}
 .round .mfire.frz .ff{filter:hue-rotate(185deg) saturate(1.3)}

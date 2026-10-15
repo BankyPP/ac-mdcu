@@ -320,7 +320,7 @@ function mornGame(){const rec=mornRecs(),today=mDay(),days={};
 const mornHue=d=>parseInt(H7((ward||"")+"|"+d),36)%360;
 const auraVars=d=>{const h=mornHue(d);return `--aura:hsla(${h},90%,84%,.95);--aura2:hsla(${(h+30)%360},90%,87%,.7);--aura3:hsla(${(h+60)%360},90%,91%,.5)`;};
 function mornFx(d,G,all,isPast){const x=G.days[d]||{n:0,r:0,tot:15},c=[];c.push(all>=MF_LIT?"mgood":"mred");if(x.n>0&&x.n>=x.tot)c.push("mgold");if(x.r>=MF_MEDAL)c.push("maura");return c;}
-const mGameHTML=G=>`<span class="mgame"><span class="mfire${G.on?" on":""}${G.risk?" frz":""}" title="Morning round ติดกัน ${G.fire} วัน${G.risk?" — ไฟกำลังจะดับ (ไฟแข็ง): เมื่อวานทำไม่ถึง 10 ข้อ ถ้าวันนี้ยังไม่ทำให้ได้ ≥10 ข้อ พรุ่งนี้ไฟเหลือ 0":G.on?"":" — วันนี้ยังไม่ติดไฟ (ทำให้ได้ ≥10 ข้อ)"}"><b class="ff">🔥</b><i>${G.fire}</i></span><span class="mmedal" title="วันที่ถูก ≥12 ข้อ (ในวันนั้น)">🏅<i>${G.medals}</i></span></span>`;
+const mGameHTML=G=>`<span class="mgame"><span class="mfire${G.on?" on":""}${G.risk?" frz":""}" title="Morning round ติดกัน ${G.fire} วัน${G.risk?" — ไฟกำลังจะดับ (ไฟแข็ง): เมื่อวานทำไม่ถึง 10 ข้อ ถ้าวันนี้ยังไม่ทำให้ได้ ≥10 ข้อ พรุ่งนี้ไฟเหลือ 0":G.on?"":" — วันนี้ยังไม่ติดไฟ (ทำให้ได้ ≥10 ข้อ)"}"><span class="ff">🔥</span><i>${G.fire}</i></span><span class="mmedal" title="วันที่ถูก ≥12 ข้อ (ในวันนั้น)">🏅<i>${G.medals}</i></span></span>`;
 function rMHist(){const W=W_(),rec=mornRecs(),today=mDay(),rot=wRot(W.cfg);
   const keys=Object.keys(rec).sort(),start=rot.start||keys[0]||today,end=rot.end||(keys.length&&keys[keys.length-1]>today?keys[keys.length-1]:today);
   const days=[];for(let d=start;d<=end&&days.length<400;d=addDay(d,1))days.push(d);keys.forEach(k=>{if(!days.includes(k))days.push(k);});days.sort();
