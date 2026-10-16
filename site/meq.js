@@ -186,6 +186,13 @@ function mqBindHome(type){type=type||"MEQ";
   {const b=$("mqInGo");if(b)b.onclick=()=>go(ward+"/mqin");}}
 /* ---- round list page ---- */
 function mqBubbles(q,subs,r){return subs.map(s=>{let c="b";if(r&&mqSubDone(q,s,r)){const g=r.g?r.g[s._i]:undefined;c+=" f"+(g===2?" ok":g===1?" half":g===0?" no":"");}return `<span class="${c}">${s._i+1}</span>`;}).join("");}
+/* MEQ search: case stem, recall text, title and the questions of parts already opened; answers/explanations only for parts already submitted */
+let mqQ="";
+function mqSearchText(q){const r=mqRec(q),ps=mqPs(q,r);let t=[q.title,q.stem,q.gray,q.set,q.ro,q.orig].map(flatTxt).join(" ");
+  q.parts.forEach((p,pi)=>{if(pi>ps&&!q.sa)return;t+=" "+[p.info,p.igray,p.gray].map(flatTxt).join(" ");
+    p.subs.forEach(sb=>{t+=" "+[sb.q,sb.gray,sb.tags].map(flatTxt).join(" ");if(mqSubDone(q,sb,r))t+=" "+["key","ans","exp","rubric","points","flag"].map(k=>flatTxt(sb[k])).join(" ");});});
+  if(mqCaseDone(q))t+=" "+["interp","summary","approach","trap","mnemonic","notes"].map(k=>flatTxt(q[k])).join(" ");
+  return t;}
 function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
   let h=`<div class="mqv"><div class="whead"><h1 class="h2">${esc(MQ_RN(rk))} · MEQ</h1><a href="#/${esc(ward)}">กลับหน้าวอร์ด</a></div><p class="sub" style="margin:0 0 10px">${esc((MQ_ROUNDS.find(r=>r.k===rk)||{}).d||"")}</p>`;
   if(rk==="unit"){const cnt={};L.forEach(q=>q.subs.forEach(s=>(s.tags||[]).forEach(t=>{cnt[t]=(cnt[t]||0)+1;})));
@@ -194,8 +201,10 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
   if(rk==="service"||rk==="unit"){const sets=[...new Set(L.map(q=>q.set))],sel=v.set==="all"?[]:v.set.split("|");
     h+=`<div class="tl-h">ชุดข้อสอบ</div><div class="chips scroll">${[["all",v.set==="all"?"ทุกชุด":`ทุกชุด (เลือก ${sel.length})`]].concat(sets.map(x=>[x,x])).map(([k,n])=>`<button class="chip" type="button" data-mset="${esc(k)}" aria-pressed="${k==="all"?v.set==="all":sel.includes(k)}">${esc(n)}<span class="cnt">${k==="all"?"":L.filter(q=>q.set===k).length}</span></button>`).join("")}</div>`;
     h+=`<div class="chips">${[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["notfull","ยังไม่ได้เต็ม"],["star","★ ติดดาว"]].map(([k,n])=>`<button class="chip" type="button" data-mst="${k}" aria-pressed="${v.status===k}">${n}</button>`).join("")}</div>`;}
-  const Q=mqList(rk);
+  h+=`<div class="ssearch"><input type="search" id="mqQ" placeholder="🔍 ค้นหาคำ / หัวข้อ" autocomplete="off" value="${esc(mqQ)}" aria-label="ค้นหาข้อ MEQ"><span id="mqQn"></span></div>`;
+  const Q0=mqList(rk),QT=srchTerms(mqQ),Q=QT.length?Q0.filter(q=>srchHit(mqSearchText(q),QT)):Q0;
   if(rk==="unit"&&!v.tags.length)h+=`<div class="empty">เลือกหัวข้ออย่างน้อย 1 หัวข้อ — Part ที่ติดหัวข้อนั้นจะแสดงที่นี่</div>`;
+  else if(!Q.length&&QT.length)h+=`<div class="empty">ไม่พบข้อที่มีคำว่า “${esc(mqQ.trim())}”</div>`;
   else if(!Q.length)h+=`<div class="empty">${rk==="staff"?"ยังไม่มีข้อที่ต้องทวน — ทุก Part ที่ทำแล้วได้เต็ม":rk==="advisor"?"ยังไม่ได้ทำข้อ MEQ ใน Phase นี้":"ไม่มีข้อในเงื่อนไขที่เลือก"}</div>`;
   else{const tm=rk==="unit";h+=`<div class="tsum">${Q.length} ข้อ · แตะเลขข้อหรือ Part เพื่อเริ่มทำ</div><div class="trows">`+Q.map(q=>{const r=mqRec(q)||null,sc=mqScore(q);
       const gs=tm?q.parts.filter(p=>p.subs.some(s=>(s.tags||[]).some(t=>v.tags.includes(t)))).map(p=>p.i):q.parts.map(p=>p.i),ps=mqPs(q,r);
@@ -204,6 +213,8 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
           return `<button class="pchip${lock?" lock":""}" type="button" data-mgo="${esc(q.uid)}" data-p="${pi}" ${lock?'aria-disabled="true"':""}><span class="pl">${lock?"🔒 ":pi<ps?"✓ ":""}${mqGL(q,pi)}</span><span class="bs">${mqBubbles(q,S,r)}</span>${r&&r.pt&&r.pt[pi]?`<span class="ptm">${mqFmt(r.pt[pi])}</span>`:""}</button>`;}).join("");
       return `<div class="crow"><button class="cn" type="button" data-mgo="${esc(q.uid)}"><span class="cl">ข้อ</span>${esc(mqNum(q))}</button><div style="min-width:0"><div class="cq">${esc(mqTitle(q))}</div><div class="cparts">${chips}</div></div><div class="cmeta">${esc(q.set)}${q.ro?" · "+esc(q.ro):""} · ${q.sa?"short answer":"case"}${sc&&sc.all?` · <b style="color:${mqPct(Math.round(sc.got/sc.tot*100))}">${+sc.got.toFixed(1)}/${sc.tot}</b>`:""}${mqStar(q)?' · <span class="st">★</span>':""}</div></div>`;}).join("")+`</div>`;}
   h+=`</div>`;$("main").innerHTML=h;
+  {const qi=$("mqQ"),qn=$("mqQn");if(qn)qn.textContent=QT.length?`พบ ${Q.length}/${Q0.length} ข้อ`:"";
+    if(qi){let tm=0;qi.addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(()=>{mqQ=qi.value;const p0=qi.selectionStart;mqRList();const n=$("mqQ");if(n){n.focus();try{n.setSelectionRange(p0,p0);}catch(e){}}},160);});}}
   document.querySelectorAll("[data-mtag]").forEach(b=>b.onclick=()=>{const k=b.dataset.mtag,a=v.tags;const i=a.indexOf(k);if(i>=0)a.splice(i,1);else a.push(k);mqVset({});save();mqRList();});
   document.querySelectorAll("[data-msty]").forEach(b=>b.onclick=()=>{mqVset({style:b.dataset.msty});save();mqRList();});
   document.querySelectorAll("[data-mset]").forEach(b=>b.onclick=()=>{const k=b.dataset.mset;let sel=v.set==="all"?[]:v.set.split("|");if(k==="all")sel=[];else if(sel.includes(k))sel=sel.filter(x=>x!==k);else sel.push(k);mqVset({set:sel.length?sel.join("|"):"all"});save();mqRList();});

@@ -1675,12 +1675,13 @@ function legSheet(){
   const qs=X.list.map(legQ),nA=Object.keys(X.ans).length,nS=Object.keys(X.star).filter(u=>X.star[u]).length,ff=st.legF||"all";
   if(ex){statLabels(["ตอบแล้ว","ติดดาว","เหลือเวลา"]);$("sDone").textContent=`${nA}/${X.list.length}`;$("sRight").textContent="★ "+nS;$("sPct").textContent=mmss((X.end-now())/1000);}
   else stats(nA,X.list.length,X.score);
-  const v=qs.map((q,i)=>[q,i]).filter(([q])=>{if(!q)return false;const a=X.ans[q.uid];return ff==="todo"?a==null:ff==="star"?!!X.star[q.uid]:ff==="wrong"?a!=null&&a!==q.ans:true;});
+  const T=srchTerms(sheetQ),v=qs.map((q,i)=>[q,i]).filter(([q])=>{if(!q)return false;const a=X.ans[q.uid];return ff==="todo"?a==null:ff==="star"?!!X.star[q.uid]:ff==="wrong"?a!=null&&a!==q.ans:true;}).filter(([q])=>!T.length||srchHit(qSearchText(q,!ex,ex),T));
+  if(ex)sheetQPaint(v.length);
   const cur=legIdx();
-  if(ex){$("rows").innerHTML=v.length?v.map(([q,i])=>{const a=X.ans[q.uid];return `<button class="srow${i===cur?" cur":""}" data-xi="${i}"><span class="n">${i+1}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b${a===j?" f":""}">${L[j]}</span>`).join("")}</span><span class="meta">${X.star[q.uid]?"★":""}${a==null?" ยังไม่ทำ":""}</span></button>`;}).join(""):`<div class="empty">ไม่มีข้อที่ตรงกับตัวกรองนี้</div>`;
+  if(ex){$("rows").innerHTML=!v.length&&T.length?`<div class="empty">ไม่พบข้อที่มีคำว่า “${esc(sheetQ.trim())}”</div>`:v.length?v.map(([q,i])=>{const a=X.ans[q.uid];return `<button class="srow${i===cur?" cur":""}" data-xi="${i}"><span class="n">${i+1}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b${a===j?" f":""}">${L[j]}</span>`).join("")}</span><span class="meta">${X.star[q.uid]?"★":""}${a==null?" ยังไม่ทำ":""}</span></button>`;}).join(""):`<div class="empty">ไม่มีข้อที่ตรงกับตัวกรองนี้</div>`;
     document.querySelectorAll("[data-xi]").forEach(b=>b.onclick=()=>{closeS();X.cur=+b.dataset.xi;save();rExam();window.scrollTo(0,0);});
     $("sheetFoot").innerHTML=`<span class="hint">ยังไม่เฉลยจนกว่าจะส่ง · ★ = ติดดาวไว้</span><span class="spacer"></span><button class="btn primary" id="sheetSub" type="button">Submit ส่งข้อสอบ</button>`;$("sheetSub").onclick=legAskSubmit;return;}
-  rows(v.map(([q,i])=>({q:Object.assign({},q,{id:i+1,set:LSRS[legSrc(X,q.uid)]||"AC",ro:""}),a:X.ans[q.uid]==null?-2:X.ans[q.uid],cur:i===cur,meta:(X.star[q.uid]?"★ ":"")+(X.ans[q.uid]==null?"ไม่ได้ทำ · ":""),go:()=>{st.legIdx=i;persist();pick=null;rQuiz();window.scrollTo(0,0);}})),"ไม่มีข้อที่ตรงกับตัวกรองนี้");
+  rows(v.map(([q,i])=>({q:Object.assign({},q,{id:i+1,set:LSRS[legSrc(X,q.uid)]||"AC",ro:""}),rev:true,a:X.ans[q.uid]==null?-2:X.ans[q.uid],cur:i===cur,meta:(X.star[q.uid]?"★ ":"")+(X.ans[q.uid]==null?"ไม่ได้ทำ · ":""),go:()=>{st.legIdx=i;persist();pick=null;rQuiz();window.scrollTo(0,0);}})),"ไม่มีข้อที่ตรงกับตัวกรองนี้");
   $("sheetFoot").innerHTML=`<span class="hint">เส้นเขียวรอบวง = เฉลย · ★ = ติดดาวไว้ตอนสอบ</span><span class="spacer"></span><button class="link" id="toLres">กลับไปผลสอบ</button>`;$("toLres").onclick=()=>{closeS(true);go(ward+"/lres");};
 }
 function rLRes(){
@@ -1885,8 +1886,21 @@ function sheet(){
   $("reset").onclick=()=>{if(confirm(`ล้างกระดาษคำตอบ Phase ${p} ของชุดที่เลือก แล้วเริ่มทำใหม่? (ประวัติการตอบยังเก็บไว้ใช้กับ Ward staff round)`)){const t=now();pool.forEach(q=>{P.open[p][q.uid]=t;});sv.status="all";pick=null;save();sheet();rQuiz();}};
   paintSync();
 }
+/* ---------------- search inside the answer sheet: every word typed must appear (any order, any case) — question, choices, recall text, topic/tags; plus the explanation once the question has been answered ---------------- */
+let sheetQ="";
+function srchNorm(s){return String(s==null?"":s).replace(/<[^>]+>/g," ").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/&quot;/g,'"').toLowerCase().replace(/\s+/g," ");}
+function srchTerms(q){return srchNorm(q).trim().split(" ").filter(Boolean);}
+function srchHit(text,terms){if(!terms.length)return true;const t=srchNorm(text);return terms.every(w=>t.includes(w));}
+function flatTxt(v){return v==null?"":typeof v==="string"||typeof v==="number"?String(v):Array.isArray(v)?v.map(flatTxt).join(" "):typeof v==="object"?Object.values(v).map(flatTxt).join(" "):"";}
+function qSearchText(q,rev,bare){if(!q)return "";const W=W_();let t=[q.stem,q.opts,bare?"":q.gray,q.imgNote].map(flatTxt).join(" ");   /* bare = Legendary exam in progress: only what the exam page shows (no recall text, tags or explanations) */
+  if(!bare){try{t+=" "+(W&&!q.unit?topicOf(W,q):flatTxt(q.topic))+" "+flatTxt(qTags(q));}catch(e){t+=" "+flatTxt(q.tags)+" "+flatTxt(q.topic);}}
+  if(rev)t+=" "+["key","interp","why","wrong","trap","summary","notes","mnemonic","guide","opinion","variants","outside","exp","src","flag"].map(k=>flatTxt(q[k])).join(" ");
+  return t;}
+function sheetQPaint(n,tot){const el=$("sheetQn");if(el)el.textContent=srchTerms(sheetQ).length?`พบ ${n}${tot!=null?"/"+tot:""} ข้อ`:"";}
+{const qi=$("sheetQ");if(qi){let tm=0;qi.addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(()=>{sheetQ=qi.value;sheet();},140);});}}
 function stats(d,n,r){$("sDone").textContent=`${d}/${n}`;$("sRight").textContent=r;$("sPct").textContent=d?Math.round(r/d*100)+"%":"–";}
 function rows(list,empty){
+  {const T=srchTerms(sheetQ),tot=list.length;if(T.length){list=list.filter(x=>!x.lock&&srchHit(qSearchText(x.q,x.rev||(x.a!==undefined&&x.a!==null)),T));if(!list.length)empty=`ไม่พบข้อที่มีคำว่า “${esc(sheetQ.trim())}” ในกระดาษคำตอบนี้`;}sheetQPaint(list.length,tot);}
   if(!list.length){$("rows").innerHTML=`<div class="empty">${empty}</div>`;return;}
   $("rows").innerHTML=list.map((x,i)=>{const q=x.q,a=x.a;
     if(x.lock)return `<button class="srow lock" data-r="${i}"><span class="n">${x.lock}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b">${L[j]}</span>`).join("")}</span><span class="meta">🔒 ยังไม่ถึงข้อนี้</span></button>`;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(a!==undefined&&j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");
