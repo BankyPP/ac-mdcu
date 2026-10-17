@@ -8,14 +8,17 @@ const QIMG={"42.4":"qyz_42-4","42.8":"qyz_42-8"};
 const got={};all.forEach(q=>{if(got[q.orig])throw "dup orig "+q.orig;if(!byO[q.orig])throw "unknown orig "+q.orig;got[q.orig]=q;});
 const miss=QL.filter(q=>!got[q.orig]&&!q.gen).map(q=>q.orig);if(miss.length)console.log("⚠ missing (not yet written):",miss.join(", "));
 const TOP={},TAG={},out=[];
+const FIX=fs.existsSync(P+"obyz_fix.js")?eval(fs.readFileSync(P+"obyz_fix.js","utf8")):{};
 QL.forEach(L=>{const q=got[L.orig];if(!q)return;
+  const F=FIX[q.orig]||{};Object.keys(F).forEach(k=>{if(k[0]!=="+")q[k]=F[k];});if(F["+notes"])q.notes+=F["+notes"];
   const o={set:"YUZU",ro:"",file:"OYZ",orig:q.orig,page:L.page};
   if(QIMG[q.orig])o.img=QIMG[q.orig];
   Object.keys(q).forEach(k=>{if(!(k in o)&&k!=="tp"&&k!=="tg"&&k!=="wrong")o[k]=q[k];});
   const w={};let j=0;for(let i=0;i<5;i++){if(i!==q.ans)w[LT[i]]=q.wrong[j++];}o.wrong=w;
   if(o.opinion===undefined)o.opinion="";
   o.kimg=[...L.k1,...L.k2];o.kcap=[...L.k1.map(()=>"ver.1 · 02_2_YUZU_Key_1.pdf หน้า "+L.page+(L.gen?" (ลายมือที่ใช้แต่งโจทย์ — ver.2 หน้านี้ไม่ได้จด)":"")),...L.k2.map(()=>"ver.2 · 02_3_YUZU_Key_2.pdf หน้า "+L.page)];
-  o.kimg.forEach(k=>{const src=fs.existsSync(YZ+"crops3/"+k+".jpg")?YZ+"crops3/"+k+".jpg":YZ+"crops2/"+k+".jpg";fs.copyFileSync(src,IMG+k+".jpg");});   /* crops3 = display crops with the gap above each question (handwriting written above the question line) */
+  if(F["+kimg"]){o.kimg=o.kimg.concat(F["+kimg"]);o.kcap=o.kcap.concat(F["+kcap"]||[]);}
+  o.kimg.forEach(k=>{if(!/^kyz/.test(k))return;const src=fs.existsSync(YZ+"crops3/"+k+".jpg")?YZ+"crops3/"+k+".jpg":YZ+"crops2/"+k+".jpg";fs.copyFileSync(src,IMG+k+".jpg");});   /* crops3 = display crops with the gap above each question (handwriting written above the question line) */
   const key="YUZU||"+q.orig;TOP[key]=q.tp;TAG[key]=q.tg;out.push(o);});
 /* ข้อ 0 = book page 2 "Just in case" resignation form — Service round only, any choice goes to the next unanswered question */
 out.unshift({set:"YUZU",ro:"",file:"OYZ",orig:"0",page:2,notice:true,stem:"",img:"yuzu_resign",alt:"ใบลาออก — Just in case (หนังสือ YUZU หน้า 2)",opts:["ปิด","ลาออก"]});
