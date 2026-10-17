@@ -141,7 +141,7 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin","io"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin","io","tch","taker","case"].includes(v))v="home";
   if((v==="mqr"||v==="mq"||v==="mqhy")&&!mqL().length)v="home";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
@@ -159,7 +159,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY,mqin:mqIn,io:rIO})[v]();
+  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY,mqin:mqIn,io:rIO,tch:rTch,taker:rTaker,case:rCase})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -209,6 +209,7 @@ function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign(
   let h=`<h1 class="h2">Admit · ICU · Discharge — ${esc(w.name)}</h1><p class="sub">แก้แล้วกดบันทึก นับถอยหลัง คำเตือน Phase 2 และหน้าประวัติ Morning round ใช้ค่านี้ทันที · เข้าสู่ระบบไว้จะใช้ค่าเดียวกันทุกเครื่อง${o?` · <b>กำลังใช้ค่าที่แก้เอง</b> (แก้ล่าสุด ${fmtDT(o.ts)})`:" · ตอนนี้ใช้ค่าตั้งต้นของเว็บ"}</p>`;
   h+=`<div class="card"><h3>ICU <span class="hint" style="font-weight:400">(วันสอบ)</span></h3><div id="dtRows">${D.map(row).join("")||`<p class="hint">ยังไม่มี ICU</p>`}</div><button class="btn" id="dtAdd" type="button">+ เพิ่ม ICU</button>
     <p class="hint" style="margin-top:8px">ลำดับในหน้านี้ = ลำดับที่โชว์ในหน้าวอร์ดและหน้าแรก (บนสุด = ซ้ายสุด/ก่อน) — กด ☰ ค้างแล้วลาก หรือกด ↑ ขึ้น / ↓ ลง · ไม่ใส่เวลาเริ่ม = นับถอยหลังเป็นวัน · ใส่เวลาเริ่มและจบ = ระหว่างสอบขึ้น "กำลังสอบ ✍️" · เหลือ ≤14 วันกล่องเป็นสีแดงและเตือนให้เริ่ม Phase 2</p></div>`;
+  {const E0=Object.assign({},(w.exam||{}).MCQ,o&&o.exam);h+=`<div class="card"><h3>MCQ สอบจริง <span class="hint" style="font-weight:400">(จำนวนข้อ · เวลา — ใช้กับ Legendary round)</span></h3><div class="dtrow"><label>จำนวนข้อ<input type="number" id="exN" min="1" max="500" value="${esc(E0.n||"")}" placeholder="เช่น 100"></label><label>เวลา (นาที)<input type="number" id="exM" min="1" max="600" value="${esc(E0.min||"")}" placeholder="เช่น 150"></label></div><span class="rd">เว้นว่าง = ใช้ค่าตั้งต้นของเว็บ${(w.exam||{}).MCQ?` (${w.exam.MCQ.n} ข้อ ${w.exam.MCQ.min} นาที)`:" (ยังไม่มี)"} · MEQ / OSCE ยังไม่มี Legendary round</span></div>`;}
   h+=`<div class="card"><h3>Admit &amp; Discharge</h3><span class="rd">วันเริ่มและวันจบวอร์ด — ใช้กับหน้าประวัติ Morning round (เรียงครบทุกวันในช่วงนี้)</span><div class="dtrow"><label>Admit<input type="date" id="rtS" value="${esc(rot.start||"")}"></label><label>Discharge<input type="date" id="rtE" value="${esc(rot.end||"")}"></label></div></div>`;
   h+=`<div class="stack"><button class="btn primary" id="dtSave" type="button">บันทึก</button>${o?`<button class="btn" id="dtReset" type="button">คืนค่าตั้งต้นของเว็บ</button>`:""}<a class="btn" href="#/${esc(ward)}">ยกเลิก</a></div>`;
   $("main").innerHTML=h;
@@ -221,7 +222,8 @@ function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign(
   document.querySelectorAll("#dtRows .dtrow").forEach(bindRow);
   $("dtAdd").onclick=()=>{const box=$("dtRows"),i=D.length;D.push({part:"MCQ"});if(!box.querySelector(".dtrow"))box.innerHTML="";box.insertAdjacentHTML("beforeend",row(D[i],i));bindRow(box.lastElementChild);};
   $("dtSave").onclick=()=>{const dates=read(),s_=$("rtS").value,e_=$("rtE").value;if(s_&&e_&&e_<s_){toast("วัน Discharge ต้องไม่ก่อนวัน Admit");return;}
-    st.wcfg=st.wcfg||{};st.wcfg[w.id]={dates,rotation:s_?{start:s_,end:e_||s_}:null,ts:now()};save();toast("บันทึกวันสอบแล้ว");go(ward);};
+    const xn=+$("exN").value,xm=+$("exM").value;if((xn||xm)&&!(xn>0&&xm>0)){toast("ใส่ทั้งจำนวนข้อและเวลา (หรือเว้นว่างทั้งคู่)");return;}
+    st.wcfg=st.wcfg||{};st.wcfg[w.id]={dates,rotation:s_?{start:s_,end:e_||s_}:null,ts:now()};if(xn>0&&xm>0)st.wcfg[w.id].exam={n:Math.round(xn),min:Math.round(xm)};save();toast("บันทึกวันสอบแล้ว");go(ward);};
   const rs=$("dtReset");if(rs)rs.onclick=()=>{if(!confirm("กลับไปใช้วันสอบตั้งต้นของเว็บ?"))return;st.wcfg[w.id]={reset:true,ts:now()};save();toast("กลับเป็นค่าตั้งต้นแล้ว");go(ward);};
 }
 /* countdown, always rounded up from the exam time: "N w N d" → last 14 days "N d" → last 24 h "N h" → last 2 h "1 h N min" → last hour "N min" (0 min at the start) → "Exam done 🎉" for good.
@@ -397,6 +399,7 @@ function rHome(){
   let h=soon.length&&p===1?`<div class="p2warn"><b>ควรเริ่ม Phase 2 ของ ${soon.map(x=>`${esc(x.part||"ข้อสอบ")} (สอบ ${esc(x.label)} · เหลือ ${esc(cdOf(x).txt)})`).join(" และ ")} ได้แล้ว</b><button class="btn" id="toP2" type="button">ไป Phase 2</button></div>`:"";
   h+=`<div class="whead"><h1 class="h2">${esc(w.name)}</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0">${esc(w.sub||"")}</p>`;
   h+=`<div class="exdates">${ED.map(x=>{const c=cdOf(x),sc=x.score&&scoreOf(x.score);return `<span class="exd${c.hot?" hot":""}${c.done?" done":""}"><span class="k">สอบ${x.part?" "+esc(x.part):""}</span>${x.label?`<span class="v">${esc(x.label)}</span>`:""}${cdHTML(x)}${sc?`<span class="v">คะแนน ${esc(sc)}</span>`:""}</span>`;}).join("")}<a class="exedit" href="#/${esc(ward)}/dates">${ED.length?"✎ แก้วันสอบ":"+ ใส่วันสอบ"}</a></div>`;
+  h+=tkHomeCard();
   h+=`<div class="tabs" role="tablist">${["MCQ","MEQ","OSCE"].map(t=>`<button class="tab" role="tab" aria-selected="${t===type}" data-type="${t}">${t}</button>`).join("")}</div>`;
   const noEx=(w.noExam||[]).includes(type);
   if(!noEx){h+=`<div class="seg" role="group" aria-label="Phase"><button data-ph="1" aria-pressed="${p===1}"><b>Phase 1</b>ช่วงเรียน</button><button data-ph="2" aria-pressed="${p===2}"><b>Phase 2</b>ช่วงใกล้สอบ</button></div>`;
@@ -461,20 +464,7 @@ function startSess(kind,title,uids,extra){
   P_().sess=Object.assign({kind,title,ph:ph(),list:uids,ans:{},cur:0,ts:now()},extra||{});save();go(ward+"/sess");
 }
 
-/* ---------------- Teaching round: 4 tools (to be built later) ---------------- */
-const TEACH=[
-  {k:"yellow",n:"ใบเหลือง",d:"ช่วยเขียนใบเหลือง case report แบบ SOAP"},
-  {k:"cta",n:"CTA",d:"ฝึกหัตถการ"},
-  {k:"flash",n:"Flashcard",d:"ฝึก keyword และความรู้จำเพาะสั้น ๆ แบบถามตอบเร็ว"},
-  {k:"oral",n:"Oral",d:"ฝึกสอบปากเปล่าจาก flashcard"}];
-function rTeach(){
-  let h=`<h1 class="h2">Teaching round</h1><p class="sub">${esc(W_().cfg.name)} · เลือกเครื่องมือ</p>`;
-  h+=`<div class="rounds">${TEACH.map((t,i)=>`<button class="round" data-teach="${t.k}" aria-disabled="true"><span class="soon">เร็ว ๆ นี้</span><span class="rn">${String(i+1).padStart(2,"0")}</span><b>${t.n}</b><span class="rd">${t.d}${(()=>{const x=((W_().cfg.teach||{})[t.k]);return Array.isArray(x)&&x.length?" · "+x.map(esc).join(", "):"";})()}</span></button>`).join("")}</div>`;
-  h+=`<div class="stack" style="margin-top:14px"><button class="btn ghost" id="tBack" type="button">กลับหน้าวอร์ด</button></div>`;
-  $("main").innerHTML=h;
-  document.querySelectorAll("[data-teach]").forEach(b=>b.onclick=()=>toast(`${TEACH.find(t=>t.k===b.dataset.teach).n} จะเพิ่มภายหลัง`));
-  $("tBack").onclick=()=>go(ward);
-}
+/* Teaching round → site/teach.js */
 
 /* ---------------- opening in Claude: one tap to the page you came for ---------------- */
 function clStartCard(){const cs=clStart();return `<div class="card"><h3>เปิดเว็บนี้ใน Claude แล้วไปที่</h3><span class="rd">claude.ai ไม่ส่งต่อว่ากดมาจากปุ่มไหนในเว็บ จึงเลือกได้ว่าจะให้ถามทุกครั้ง (กดครั้งเดียว ไม่ต้องเลือกวอร์ด) หรือเปิดหน้าเดิมเสมอ</span><div class="chips">${CLSTART.map(([v,t])=>`<button class="chip" data-cs="${v}" aria-pressed="${cs===v}">${t}</button>`).join("")}</div></div>`;}
@@ -1420,7 +1410,7 @@ function admSheet(){
 }
 
 /* ---------------- Legendary round: real exam simulation (count + time per ward: config wards[].exam.MCQ = {n, min}) ---------------- */
-const examCfg=()=>{const e=((W_()||{}).cfg||{}).exam;const m=e&&e.MCQ;return m&&m.n&&m.min?m:null;};
+const examCfg=()=>{const W=W_()||{},e=(W.cfg||{}).exam,o=W.cfg&&wOv(W.cfg.id),m=Object.assign({},e&&e.MCQ,o&&o.exam);return m.n&&m.min?m:null;};   /* config exam.MCQ, overridden by the count/time set on the dates page (st.wcfg[ward].exam) */
 const GRADES=[[80,"A"],[75,"B+"],[70,"B"],[65,"C+"],[60,"C"],[55,"D+"],[50,"D"],[-1,"F"]];   /* A ≥80 · B+ 75 · B 70 · C+ 65 · C 60 · D+ 55 · D 50 · F <50 (the grade is always recomputed from the % so older papers follow the current scale) */
 const gradeOf=pct=>GRADES.find(g=>pct>=g[0])[1];
 const gCls=g=>g==="A"?"ga":g[0]==="B"?"gb":g[0]==="C"?"gc":g[0]==="D"?"gd":"gf";
