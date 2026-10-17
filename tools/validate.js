@@ -2,7 +2,7 @@
 const {QB,imgs}=require("./load")();const L="ABCDE";let bad=0;
 const need=["set","ro","stem","opts","key","interp","why","wrong","summary","variants"];
 QB.forEach((q,i)=>{const r=i+1,e=[];
-  need.forEach(k=>{if(q[k]===undefined||q[k]===null||q[k]==="")e.push("missing "+k);});
+  need.forEach(k=>{if(q[k]===undefined||q[k]===null||(q[k]===""&&k!=="ro"))e.push("missing "+k);});   /* ro may be blank (book sets such as YUZU) */
   if(!Array.isArray(q.opts)||q.opts.length!==5)e.push("opts!=5");
   if(!(q.ans>=0&&q.ans<5))e.push("ans");
   const w=Object.keys(q.wrong||{});if(w.length!==4||w.includes(L[q.ans]))e.push("wrong must have the 4 other letters");
