@@ -16,7 +16,7 @@ QL.forEach(L=>{const q=got[L.orig];if(!q)return;
   if(o.opinion===undefined)o.opinion="";
   o.kimg=[...L.k1,...L.k2];o.kcap=[...L.k1.map(()=>"ver.1 · 02_2_YUZU_Key_1.pdf หน้า "+L.page+(L.gen?" (ลายมือที่ใช้แต่งโจทย์ — ver.2 หน้านี้ไม่ได้จด)":"")),...L.k2.map(()=>"ver.2 · 02_3_YUZU_Key_2.pdf หน้า "+L.page)];
   if(q.orig==="1.1")o.popup={img:"yuzu_resign",alt:"ใบลาออก",btns:["ปิด","ลาออก"]};
-  o.kimg.forEach(k=>{if(!fs.existsSync(IMG+k+".jpg"))fs.copyFileSync(YZ+"crops2/"+k+".jpg",IMG+k+".jpg");});
+  o.kimg.forEach(k=>{const src=fs.existsSync(YZ+"crops3/"+k+".jpg")?YZ+"crops3/"+k+".jpg":YZ+"crops2/"+k+".jpg";fs.copyFileSync(src,IMG+k+".jpg");});   /* crops3 = display crops with the gap above each question (handwriting written above the question line) */
   const key="YUZU||"+q.orig;TOP[key]=q.tp;TAG[key]=q.tg;out.push(o);});
 fs.writeFileSync(D+"data_b5.js","/* OB-GYN YUZU (Supplementary Material for 3000426 Theoretical OB-GYN) — OYZ = 02_2_YUZU_Key_1.pdf (ver.1) + 02_3_YUZU_Key_2.pdf (ver.2), both question+key ; "+out.length+" ข้อ */\nQB.push(\n"+out.map(o=>"  "+JSON.stringify(o)).join(",\n")+"\n);\n");
 const add=(f,obj)=>{let s=fs.readFileSync(D+f,"utf8");s=s.split("\n").filter(l=>!l.startsWith("\"YUZU||")).join("\n");
