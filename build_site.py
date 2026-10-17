@@ -42,8 +42,10 @@ js.append('const CONFIG='+json.dumps(cfg,ensure_ascii=False)+';')
 import datetime
 js.append('const BUILD='+json.dumps(datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).strftime('%d/%m/%Y %H:%M'))+';')
 total=0
+wsrc=[]   # --pack: each ward's data goes to its own data_<ward>.js next to the page (an artifact page is capped at 16MB)
 for w in cfg.get('wards',[]):
     wid=json.dumps(w['id']); d=w.get('dir','data')
+    if PACK: j0=len(js)
     js.append(f'WARDS[{wid}]={{QB:[],HY:null}};')
     for f in sorted(glob.glob(os.path.join(d,'data_b*.js')),key=num):
         js.append('(function(QB){\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+'].QB);')
@@ -59,9 +61,12 @@ for w in cfg.get('wards',[]):
         js.append('(function(QB){\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+'].MQ);')
     hy=os.path.join(d,'highyield.js')
     if os.path.exists(hy): js.append('(function(W){\n'+open(hy,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
+    if PACK:
+        fn='data_'+re.sub(r'\W','',w['id'])+'.js'; os.makedirs(OUT,exist_ok=True)
+        open(os.path.join(OUT,fn),'w',encoding='utf-8').write('\n'.join(js[j0:])+'\n'); del js[j0:]; wsrc.append(fn)
 out=(head+'</style>\n<style>\n'+open('site/extra.css',encoding='utf-8').read()+'</style>\n</head>\n<body>\n'
      +body.replace('/*TITLE*/',html.escape(title))
-     +'\n<script>\n'+'\n'.join(js)+'\n</script>\n<script>\n'+open('site/app.js',encoding='utf-8').read().replace('"use strict";\n','"use strict";\n'+open('site/meq.js',encoding='utf-8').read()+'\n'+open('site/io.js',encoding='utf-8').read()+'\n',1)+'\n</script>\n</body>\n</html>\n')
+     +'\n<script>\n'+'\n'.join(js)+'\n</script>\n'+''.join(f'<script src="{fn}?v={len(open(os.path.join(OUT,fn),encoding="utf-8").read())}"></script>\n' for fn in wsrc)+'<script>\n'+open('site/app.js',encoding='utf-8').read().replace('"use strict";\n','"use strict";\n'+open('site/meq.js',encoding='utf-8').read()+'\n'+open('site/io.js',encoding='utf-8').read()+'\n',1)+'\n</script>\n</body>\n</html>\n')
 out=re.sub(r'<title>.*?</title>','<title>'+html.escape(cfg.get('title',title))+'</title>',out,count=1,flags=re.S)
 os.makedirs(os.path.join(OUT,'img'),exist_ok=True)
 open(os.path.join(OUT,'index.html'),'w',encoding='utf-8').write(out)
