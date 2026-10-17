@@ -663,7 +663,27 @@ function rQuiz(){
   bindQuiz(q,locked);bindRefs();
   if(view!=="lrev"&&view!=="admq")markSeen(q,curRK());
   paintNav();
+  popMaybe(q);
 }
+/* one-off announcement popup tied to a question (q.popup={img,btns}) — e.g. YUZU 1.1 resignation form.
+   Shows when arriving at that question if it was never answered, or always when it is picked from the answer sheet.
+   Never in Legendary / Admission / Advisor / Quality (timed) rounds. */
+let POPLAST=null,POPF=null;
+function popMaybe(q){
+  if(!q||!q.popup){POPLAST=q?q.uid:null;POPF=null;return;}
+  const forced=POPF===q.uid,arrived=POPLAST!==q.uid;POPF=null;POPLAST=q.uid;
+  if(["exam","lrev","adm","admq"].includes(view)||isAdv()||(isSess()&&P_().sess&&P_().sess.kind==="quality"))return;
+  if(!forced&&!arrived)return;
+  if(!forced){const P=P_();if(hist(P,q.uid,"all",true).length||(isSess()&&P.sess&&P.sess.ans[q.uid]!==undefined)||doneAns(q)!==undefined)return;}
+  popShow(q.popup);}
+function popShow(o){let el=$("qPop");if(el)el.remove();el=document.createElement("div");el.id="qPop";el.className="qpop";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
+  const btns=(o.btns&&o.btns.length?o.btns:["ปิด"]);
+  el.innerHTML=`<div class="qpop-card"><div class="qpop-img">${imgHTML(o.img,o.alt||"ประกาศ")}</div><div class="qpop-btns">${btns.map((t,i)=>`<button class="btn${i===btns.length-1?" primary":""}" data-pop="${i}">${esc(t)}</button>`).join("")}</div></div>`;
+  document.body.appendChild(el);
+  const close=()=>{el.remove();window.scrollTo(0,0);};
+  el.querySelectorAll("[data-pop]").forEach(b=>b.onclick=close);
+  el.addEventListener("click",e=>{if(e.target===el)close();});
+  const f=el.querySelector("[data-pop]");if(f)f.focus();}
 function paintNav(){
   const P=P_();let a=0,n=0;
   if(view==="exam"||view==="lrev"){const X=legPaper(),i=legIdx(),n=X.list.length;$("pos").textContent=`${i+1} / ${n}`;$("prev").disabled=i===0;$("next").disabled=false;
@@ -774,7 +794,7 @@ function explain(q,done,R,p){
   h+=sec("ระวังกับดัก",q.trap?`<div class="box">${R(q.trap)}</div>`:"","trap");
   h+=sec("สรุปความรู้จากข้อนี้",`<ul>${(q.summary||[]).map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
   h+=sec("สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${rich(q.notes)}</div>`:"","notes");
-  if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg];h+=sec(q.unit?"สไลด์/รูปอ้างอิงจาก lecture":"สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map(k=>imgHTML(k,q.unit?"สไลด์อ้างอิงจาก lecture":"สไลด์อ้างอิงจากไฟล์เฉลย",1)).join("")}</div>`);}
+  if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg];h+=sec(q.unit?"สไลด์/รูปอ้างอิงจาก lecture":"สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map((k,i)=>{const im=imgHTML(k,q.unit?"สไลด์อ้างอิงจาก lecture":"สไลด์อ้างอิงจากไฟล์เฉลย",1);return q.kcap&&q.kcap[i]?`<figure class="kcap"><figcaption>${esc(q.kcap[i])}</figcaption>${im}</figure>`:im;}).join("")}</div>`);}
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
   {const rs=resFor(q);if(rs.length)h+=sec("อ่านเพิ่มจาก resource ที่แนบไว้",rs.map(r=>`<div class="resitem"><b>${esc(resLabel(r))}</b>${r.url?` · <a href="${esc(r.url)}" target="_blank" rel="noopener">เปิด</a>`:""}${resPts(r,6).length?`<ul>${resPts(r,6).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:r.note?`<p>${esc(r.note)}</p>`:""}</div>`).join(""));}
   h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");
@@ -1905,7 +1925,7 @@ function rows(list,empty){
   $("rows").innerHTML=list.map((x,i)=>{const q=x.q,a=x.a;
     if(x.lock)return `<button class="srow lock" data-r="${i}"><span class="n">${x.lock}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b">${L[j]}</span>`).join("")}</span><span class="meta">🔒 ยังไม่ถึงข้อนี้</span></button>`;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(a!==undefined&&j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");
     return `<button class="srow ${x.cur?"cur":""}" data-r="${i}"><span class="n">${q.id}</span><span class="bs">${bs}</span><span class="meta">${x.meta||""}${esc(q.set)} ${esc(q.ro)}${flagged(P_(),q.uid)?" ⚑":""}</span></button>`;}).join("");
-  document.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{const x=list[+b.dataset.r];if(x.lock){toast(navMsg());return;}closeS();x.go();});
+  document.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{const x=list[+b.dataset.r];if(x.lock){toast(navMsg());return;}closeS();POPF=x.q&&x.q.uid;x.go();});
 }
 function openS(){sheet._ok=0;sheet();$("overlay").classList.add("open");const c=document.querySelector(".srow.cur");if(c)c.scrollIntoView({block:"center"});$("closeSheet").focus();}
 function closeS(silent){$("overlay").classList.remove("open");if(!silent&&!$("openSheet").hidden)$("openSheet").focus();}
@@ -1914,6 +1934,7 @@ $("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeS();})
 
 /* ---------------- keyboard ---------------- */
 document.addEventListener("keydown",e=>{
+  {const pp=$("qPop");if(pp){if(e.key==="Escape"){pp.remove();window.scrollTo(0,0);}return;}}
   if($("overlay").classList.contains("open")){if(e.key==="Escape")closeS();return;}
   if(!["svc","sess","adm","exam","lrev","admq"].includes(view))return;
   const tg=e.target;if(tg&&(tg.tagName==="INPUT"||tg.tagName==="TEXTAREA"||tg.isContentEditable))return;
