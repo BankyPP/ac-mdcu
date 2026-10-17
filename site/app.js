@@ -756,6 +756,7 @@ $("legbanGo").onclick=()=>go(ward+"/exam");$("legbanSub").onclick=()=>legAskSubm
 function explain(q,done,R,p){
   const ok=done===q.ans,skip=done!=null&&done<0,P=P_(),W=W_(),s=isSess()?P.sess:null,adv=isAdv();
   let h=`<section class="exp" aria-live="polite">`;
+  if(q.alert)h+=`<div class="qalert">${q.alert}</div>`;   /* red banner at the very top of the answer (e.g. "YUZU & MDCU78 เฉลยไม่ตรง") */
   if(adv&&done==null)h+=`<div class="verdict"><span class="v new">ยังไม่เคยทำ</span><span class="ans">เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
   else if(view==="lrev"&&done===-2)h+=`<div class="verdict"><span class="v new">ไม่ได้ทำ</span><span class="ans">ข้อนี้ไม่ได้ตอบในการสอบ · เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;
   else h+=`<div class="verdict"><span class="v ${ok?"ok":"no"}">${ok?"ถูก":skip?"หมดเวลา":"ผิด"}</span><span class="ans">${adv?"ครั้งล่าสุด · ":""}${ok?"":skip?"ไม่ได้ตอบ · ":`คุณตอบ ${L[done]} · `}เฉลย <b>${L[q.ans]}. ${esc(q.opts[q.ans])}</b></span></div>`;

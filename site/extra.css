@@ -697,3 +697,7 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .notice-img{max-width:620px}
 .kimg figure.kcap{margin:0;max-width:640px}
 .kimg figure.kcap figcaption{font-size:12.5px;color:var(--muted);margin:0 0 4px;font-family:var(--num);font-weight:600}
+.qalert{margin:0 0 12px;padding:10px 12px;border:2px solid #C62828;border-radius:8px;background:#FDECEC;color:#B71C1C;font-weight:700;font-size:15.5px;line-height:1.55}
+.qalert b{color:#8E0000}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .qalert{background:#3B1515;color:#FF8A80;border-color:#FF5252}:root:not([data-theme="light"]) .qalert b{color:#FFB4AB}}
+:root[data-theme="dark"] .qalert{background:#3B1515;color:#FF8A80;border-color:#FF5252}
