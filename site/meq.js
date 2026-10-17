@@ -12,7 +12,7 @@ function mqL(wid){const W=WARDS[wid||ward];if(!W)return [];const L=W.MQ||(W.MQ=[
     const so=[...new Set(L.map(q=>q.set))];L.sort((a,b)=>so.indexOf(a.set)-so.indexOf(b.set)||a.n-b.n);L.forEach((q,i)=>{q.n=i;});}
   return L;}
 function mqInitP(P){const m=P.meq=P.meq||{};m.a1=m.a1||{};m.a2=m.a2||{};m.star=m.star||{};m.v=m.v||{};const v=m.v;
-  v.set=v.set||"all";v.status=v.status||"all";v.style=v.style||"all";v.tags=Array.isArray(v.tags)?v.tags:[];v.gl=Array.isArray(v.gl)?v.gl:[];return m;}
+  v.set=v.set||"all";v.sec=v.sec||"all";v.status=v.status||"all";v.style=v.style||"all";v.tags=Array.isArray(v.tags)?v.tags:[];v.gl=Array.isArray(v.gl)?v.gl:[];return m;}
 function mqS(){return mqInitP(P_());}
 function mqA(){return mqS()["a"+ph()];}
 function mqRec(q){return mqA()[q.uid];}
@@ -149,12 +149,14 @@ function mqAdvL(){return mqL().filter(mqAnyDone).map(q=>{const r=mqRec(q),S=q.su
 function mqPass(q,f){if(f==="todo")return !mqCaseDone(q);if(f==="notfull"){const sc=mqScore(q);return !!sc&&!sc.perfect;}if(f==="star")return mqStar(q);return true;}
 function mqTPass(q,f){const ps=mqTParts(q);if(!ps.length)return false;if(f==="todo")return ps.some(pi=>!mqTDone(q,pi));
   if(f==="notfull"){const r=mqRec(q);return ps.some(pi=>mqTDone(q,pi)&&mqTsubs(q,pi).some(s=>!(r&&r.g&&r.g[s._i]===2)));}if(f==="star")return mqStar(q);return true;}
-function mqList(rk){const v=mqS().v,L=mqL(),setOk=q=>v.set==="all"||v.set.split("|").includes(q.set);rk=rk||v.r;
+const mqSK=q=>q.ro?q.set+" "+q.ro:q.set;   /* chip key of a MEQ set (rotation kept apart) */
+const mqSecOk=q=>{const v=mqS().v;return !v.sec||v.sec==="all"||v.sec.split("|").includes(q.sec||"");};   /* พาร์ทในไฟล์ (q.sec) */
+function mqList(rk){const v=mqS().v,L=mqL(),setOk=q=>v.set==="all"||v.set.split("|").includes(mqSK(q));rk=rk||v.r;
   if(rk==="staff")return mqStaffL().filter(q=>mqStyOk(q));
   if(rk==="advisor")return mqAdvL().filter(q=>mqStyOk(q));
-  if(rk==="unit")return v.tags.length?L.filter(q=>setOk(q)&&mqStyOk(q)&&mqTPass(q,v.status)):[];
+  if(rk==="unit")return v.tags.length?L.filter(q=>setOk(q)&&mqSecOk(q)&&mqStyOk(q)&&mqTPass(q,v.status)):[];
   if(rk==="grand")return v.gl.map(u=>L.find(q=>q.uid===u)).filter(Boolean);
-  return L.filter(q=>setOk(q)&&mqStyOk(q)&&mqPass(q,v.status));}
+  return L.filter(q=>setOk(q)&&mqSecOk(q)&&mqStyOk(q)&&mqPass(q,v.status));}
 /* ---- ward home (MEQ tab) ---- */
 function mqHomeHTML(type){type=type||"MEQ";const P=P_(),p=ph(),L=type==="MEQ"?mqL():[],W=W_(),done=L.filter(q=>mqCaseDone(q)),scs=done.map(mqScore).filter(s=>s&&s.all);
   const avg=scs.length?Math.round(scs.reduce((a,s)=>a+s.got/s.tot,0)/scs.length*100):null,nC=L.filter(q=>!q.sa).length,nS=L.length-nC,sl=mqStaffL().length;
@@ -198,8 +200,11 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
   if(rk==="unit"){const cnt={};L.forEach(q=>q.subs.forEach(s=>(s.tags||[]).forEach(t=>{cnt[t]=(cnt[t]||0)+1;})));
     h+=`<div class="tl-h">เลือกหัวข้อ (เลือกได้หลายหัวข้อ)</div><div class="chips tchips">${T.length?T.map(([k,n])=>`<button class="chip" type="button" data-mtag="${esc(k)}" aria-pressed="${v.tags.includes(k)}">${esc(n)}<span class="cnt">${cnt[k]||0}</span></button>`).join(""):`<span class="hint">ยังไม่ได้ติดหัวข้อให้ข้อ MEQ ในวอร์ดนี้</span>`}</div>`;}
   h+=`<div class="tl-h">แบบข้อสอบ</div><div class="chips">${MQ_STY.map(([k,n])=>`<button class="chip" type="button" data-msty="${k}" aria-pressed="${v.style===k}">${n}</button>`).join("")}</div>`;
-  if(rk==="service"||rk==="unit"){const sets=[...new Set(L.map(q=>q.set))],sel=v.set==="all"?[]:v.set.split("|");
-    h+=`<div class="tl-h">ชุดข้อสอบ</div><div class="chips scroll">${[["all",v.set==="all"?"ทุกชุด":`ทุกชุด (เลือก ${sel.length})`]].concat(sets.map(x=>[x,x])).map(([k,n])=>`<button class="chip" type="button" data-mset="${esc(k)}" aria-pressed="${k==="all"?v.set==="all":sel.includes(k)}">${esc(n)}<span class="cnt">${k==="all"?"":L.filter(q=>q.set===k).length}</span></button>`).join("")}</div>`;
+  if(rk==="service"||rk==="unit"){const sets=[...new Set(L.map(mqSK))],sel=v.set==="all"?[]:v.set.split("|");
+    h+=`<div class="tl-h">ชุดข้อสอบ</div><div class="chips scroll">${[["all",v.set==="all"?"ทุกชุด":`ทุกชุด (เลือก ${sel.length})`]].concat(sets.map(x=>[x,x])).map(([k,n])=>`<button class="chip" type="button" data-mset="${esc(k)}" aria-pressed="${k==="all"?v.set==="all":sel.includes(k)}">${esc(n)}<span class="cnt">${k==="all"?"":L.filter(q=>mqSK(q)===k).length}</span></button>`).join("")}</div>`;
+    /* พาร์ทตามไฟล์ (MEQ / Long case / Recall …) of the selected sets — pick some to see only those; none = every part in file order */
+    {const inS=L.filter(q=>v.set==="all"||sel.includes(mqSK(q))),secs=[...new Set(inS.map(q=>q.sec).filter(Boolean))],ss=v.sec==="all"?[]:v.sec.split("|");
+      if(secs.length)h+=`<div class="tl-h">พาร์ทในไฟล์ <span class="hint">ไม่เลือก = ทุกพาร์ท เรียงตามไฟล์</span></div><div class="chips scroll">${[["all",v.sec==="all"?"ทุกพาร์ท":`ทุกพาร์ท (เลือก ${ss.length})`]].concat(secs.map(x=>[x,x])).map(([k,n])=>`<button class="chip" type="button" data-msec="${esc(k)}" aria-pressed="${k==="all"?v.sec==="all":ss.includes(k)}">${esc(n)}<span class="cnt">${k==="all"?"":inS.filter(q=>q.sec===k).length}</span></button>`).join("")}</div>`;}
     h+=`<div class="chips">${[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["notfull","ยังไม่ได้เต็ม"],["star","★ ติดดาว"]].map(([k,n])=>`<button class="chip" type="button" data-mst="${k}" aria-pressed="${v.status===k}">${n}</button>`).join("")}</div>`;}
   h+=`<div class="ssearch"><input type="search" id="mqQ" placeholder="🔍 ค้นหาคำ / หัวข้อ" autocomplete="off" value="${esc(mqQ)}" aria-label="ค้นหาข้อ MEQ"><span id="mqQn"></span></div>`;
   const Q0=mqList(rk),QT=srchTerms(mqQ),Q=QT.length?Q0.filter(q=>srchHit(mqSearchText(q),QT)):Q0;
@@ -211,7 +216,7 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
       const chips=q.sa?`<button class="pchip" type="button" data-mgo="${esc(q.uid)}" data-p="0"><span class="pl">${mqCaseDone(q)?"✓ ":""}ตอบ</span><span class="bs">${mqBubbles(q,q.subs,r)}</span>${r&&r.time?`<span class="ptm">${mqFmt(r.time)}</span>`:""}</button>`
         :gs.map(pi=>{const S=tm?q.parts[pi].subs.filter(s=>(s.tags||[]).some(t=>v.tags.includes(t))):q.parts[pi].subs,lock=!tm&&pi>ps;
           return `<button class="pchip${lock?" lock":""}" type="button" data-mgo="${esc(q.uid)}" data-p="${pi}" ${lock?'aria-disabled="true"':""}><span class="pl">${lock?"🔒 ":pi<ps?"✓ ":""}${mqGL(q,pi)}</span><span class="bs">${mqBubbles(q,S,r)}</span>${r&&r.pt&&r.pt[pi]?`<span class="ptm">${mqFmt(r.pt[pi])}</span>`:""}</button>`;}).join("");
-      return `<div class="crow"><button class="cn" type="button" data-mgo="${esc(q.uid)}"><span class="cl">ข้อ</span>${esc(mqNum(q))}</button><div style="min-width:0"><div class="cq">${esc(mqTitle(q))}</div><div class="cparts">${chips}</div></div><div class="cmeta">${esc(q.set)}${q.ro?" · "+esc(q.ro):""} · ${q.sa?"short answer":"case"}${sc&&sc.all?` · <b style="color:${mqPct(Math.round(sc.got/sc.tot*100))}">${+sc.got.toFixed(1)}/${sc.tot}</b>`:""}${mqStar(q)?' · <span class="st">★</span>':""}</div></div>`;}).join("")+`</div>`;}
+      return `<div class="crow"><button class="cn" type="button" data-mgo="${esc(q.uid)}"><span class="cl">ข้อ</span>${esc(mqNum(q))}</button><div style="min-width:0"><div class="cq">${esc(mqTitle(q))}</div><div class="cparts">${chips}</div></div><div class="cmeta">${esc(q.set)}${q.ro?" · "+esc(q.ro):""}${q.sec?" · "+esc(q.sec):""} · ${q.sa?"short answer":"case"}${sc&&sc.all?` · <b style="color:${mqPct(Math.round(sc.got/sc.tot*100))}">${+sc.got.toFixed(1)}/${sc.tot}</b>`:""}${mqStar(q)?' · <span class="st">★</span>':""}</div></div>`;}).join("")+`</div>`;}
   h+=`</div>`;$("main").innerHTML=h;
   {const qi=$("mqQ"),qn=$("mqQn");if(qn)qn.textContent=QT.length?`พบ ${Q.length}/${Q0.length} ข้อ`:"";
     if(qi){let tm=0;qi.addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(()=>{mqQ=qi.value;const p0=qi.selectionStart;mqRList();const n=$("mqQ");if(n){n.focus();try{n.setSelectionRange(p0,p0);}catch(e){}}},160);});}}
@@ -219,6 +224,7 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
   document.querySelectorAll("[data-msty]").forEach(b=>b.onclick=()=>{mqVset({style:b.dataset.msty});save();mqRList();});
   document.querySelectorAll("[data-mset]").forEach(b=>b.onclick=()=>{const k=b.dataset.mset;let sel=v.set==="all"?[]:v.set.split("|");if(k==="all")sel=[];else if(sel.includes(k))sel=sel.filter(x=>x!==k);else sel.push(k);mqVset({set:sel.length?sel.join("|"):"all"});save();mqRList();});
   document.querySelectorAll("[data-mst]").forEach(b=>b.onclick=()=>{mqVset({status:b.dataset.mst});save();mqRList();});
+  document.querySelectorAll("[data-msec]").forEach(b=>b.onclick=()=>{const k=b.dataset.msec;let sel=v.sec==="all"?[]:v.sec.split("|");if(k==="all")sel=[];else if(sel.includes(k))sel=sel.filter(x=>x!==k);else sel.push(k);mqVset({sec:sel.length?sel.join("|"):"all"});save();mqRList();});
   document.querySelectorAll("[data-mgo]").forEach(b=>b.onclick=()=>{if(b.getAttribute("aria-disabled")==="true"){toast("ส่งคำตอบ Part ก่อนหน้าก่อน");return;}mqOpen(b.dataset.mgo,b.dataset.p===undefined?undefined:+b.dataset.p,rk);});}
 function mqOpen(u,pi,rk){const v=mqS().v;rk=rk||v.r||"service";const q=mqL().find(x=>x.uid===u);if(!q)return;
   mqVset({u,r:rk,ctx:rk==="unit"?"topic":"set"});if(pi===undefined||!mqViewable(q,pi))pi=mqDefPart(q);v.pi=pi;save();if(view==="mq"){mqTStop();mqView();scrollTo(0,0);}else go(ward+"/mq");}
