@@ -28,13 +28,16 @@ const ROK=r=>{r=String(r||"");let m=/^Ro?([A-Z])(\d*)$/.exec(r);if(m)return [0,m
 const cmpRo=(a,b)=>{const x=ROK(a.ro),y=ROK(b.ro);return x[0]-y[0]||x[1]-y[1]||x[2]-y[2];};
 const setKey=q=>q.set+" "+q.ro;
 WL.forEach(w=>{
-  const W=WARDS[w.id]||(WARDS[w.id]={QB:[]});W.cfg=w;const QB=W.QB;
+  const W=WARDS[w.id]||(WARDS[w.id]={QB:[]});W.cfg=w;
+  /* q.notice = a "ข้อ 0" page of a set (e.g. YUZU resignation form): shown only in the Service round of that set, never counted, never in other rounds */
+  W.NOTE=W.QB.filter(q=>q.notice);W.QB=W.QB.filter(q=>!q.notice);const QB=W.QB;
   QB.forEach((q,i)=>{q.rid=i+1;});
   QB.sort((a,b)=>YEAR(b)-YEAR(a)||cmpRo(a,b)||a.rid-b.rid);
   QB.forEach((q,i)=>{q.id=i+1;});
   W.RID2ID={};W.byRid={};QB.forEach(q=>{W.RID2ID[q.rid]=q.id;W.byRid[q.rid]=q;});
   const seen={};QB.forEach(q=>{let u=[q.set,q.ro,q.file,q.page,q.orig,(q.stem||"").slice(0,48)].join("|");if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;});
   W.byU={};QB.forEach(q=>{W.byU[q.uid]=q;});
+  W.NOTE.forEach(q=>{q.id=0;q.uid="NOTE|"+q.set+"|"+q.ro;q.opts=q.opts||["ปิด"];W.byU[q.uid]=q;});
   /* related questions (data/dups.js: groups of set|ro|orig) → W.REL[uid] = [other uids] */
   {const k2u={};QB.forEach(q=>{k2u[q.set+"|"+q.ro+"|"+q.orig]=q.uid;});W.REL={};(W.DUP||[]).forEach(g=>{const us=g.map(k=>k2u[k]).filter(Boolean);us.forEach(u=>{W.REL[u]=us.filter(x=>x!==u);});});}
   W.sets=[...new Set(QB.map(setKey))];
@@ -519,14 +522,14 @@ function rService(){
   const sel=new Set(P.pick.filter(k=>W.sets.includes(k)));
   const years=[...new Set(QB.map(q=>q.set))];
   let h=`<h1 class="h2">Service round</h1><p class="sub">เลือกปีและ rotation ที่อยากทำ เลือกได้หลายชุด ไม่เลือกเลย = ทุกชุด</p>`;
-  h+=years.map(y=>{const ks=W.sets.filter(k=>k.split(" ")[0]===y);return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=QB.filter(q=>setKey(q)===k),d=qs.filter(q=>lockedAns(P,p,q.uid)!==undefined).length;const full=d===qs.length,pc=Math.round(d/qs.length*100);return `<button class="chip svchip${full?" done":""}" data-k="${esc(k)}" aria-pressed="${sel.has(k)}" style="--pc:${pc}%">${esc(k.split(" ").slice(1).join(" "))}<span class="c">${full?"✓ ครบ ":""}${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");
+  h+=years.map(y=>{const ks=W.sets.filter(k=>k.split(" ")[0]===y);return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=QB.filter(q=>setKey(q)===k),d=qs.filter(q=>lockedAns(P,p,q.uid)!==undefined).length;const full=d===qs.length,pc=Math.round(d/qs.length*100);return `<button class="chip svchip${full?" done":""}" data-k="${esc(k)}" aria-pressed="${sel.has(k)}" style="--pc:${pc}%">${esc(k.split(" ").slice(1).join(" ").trim()||"ทั้งชุด")}<span class="c">${full?"✓ ครบ ":""}${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");
   h+=`<p class="hint">แถบสีในปุ่ม = สัดส่วนที่ทำแล้วใน Phase ${p} · ✓ ครบ = ทำครบทุกข้อในชุดนั้นแล้ว</p>`;
   h+=`<div class="row2"><button class="btn ghost" id="spClear">ล้างที่เลือก</button><span class="spacer"></span><button class="btn primary" id="spGo">เริ่มทำ</button></div>`;
   $("main").innerHTML=h;
   document.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(sel.has(k))sel.delete(k);else sel.add(k);b.setAttribute("aria-pressed",sel.has(k));});
   $("spClear").onclick=()=>{sel.clear();document.querySelectorAll("[data-k]").forEach(b=>b.setAttribute("aria-pressed","false"));};
   $("spGo").onclick=()=>{const order=W.sets;P.pick=[...sel].sort((a,b)=>order.indexOf(a)-order.indexOf(b));const s=P.svc[p];s.set=P.pick.length?P.pick.join("|"):"all";
-    if(!svcList().some(q=>q.uid===s.cur)){const v=svcVisible();s.cur=(v[0]||svcList()[0]).uid;}save();go(ward+"/svc");};
+    {const c=W.byU[s.cur];if(!c||!inSet(c)){const v=svcVisible();s.cur=(svcStart(v)||svcList()[0]).uid;}}save();go(ward+"/svc");};
 }
 
 /* ---------------- grand round setup ---------------- */
@@ -555,8 +558,14 @@ const inSet=q=>svcS().set==="all"||selSets().includes(setKey(q));
 function svcPass(q){const P=P_(),p=ph(),f=svcS().status,a=lockedAns(P,p,q.uid);
   switch(f){case"todo":return a===undefined;case"wrong":return a!==undefined&&a!==q.ans;case"right":return a!==undefined&&a===q.ans;case"flag":return flagged(P,q.uid);case"nop1":return !atts(P,1,q.uid).length;default:return true;}}
 const svcList=()=>W_().QB.filter(inSet);
-const svcVisible=()=>svcList().filter(svcPass);
-function svcQ(){const W=W_(),s=svcS();let q=W.byU[s.cur];if(!q||!inSet(q)){q=svcVisible()[0]||svcList()[0]||W.QB[0];if(q)s.cur=q.uid;}return q;}
+const svcVisible=()=>noteIns(svcList().filter(svcPass));
+/* put each set's notice page ("ข้อ 0") right before that set's first visible question (status filter ทั้งหมด / ยังไม่ทำ only) */
+function noteIns(L){const W=W_();if(!W.NOTE||!W.NOTE.length)return L;const f=svcS().status;if(f&&f!=="all"&&f!=="todo")return L;const out=L.slice();
+  W.NOTE.filter(inSet).forEach(n=>{const i=out.findIndex(q=>!q.notice&&setKey(q)===setKey(n));if(i>=0)out.splice(i,0,n);});return out;}
+const noteSeen=q=>!!(P_().noteSeen&&P_().noteSeen[q.uid]);
+const svcStart=v=>v.find(x=>!(x.notice&&noteSeen(x)))||v[0];   /* entering a set: its ข้อ 0 page until it has been answered once */
+const ordId=x=>{if(!x.notice)return x.id;const f=W_().QB.find(q=>setKey(q)===setKey(x));return (f?f.id:0)-0.5;};
+function svcQ(){const W=W_(),s=svcS();let q=W.byU[s.cur];if(!q||!inSet(q)){q=svcStart(svcVisible())||svcList()[0]||W.QB[0];if(q)s.cur=q.uid;}return q;}
 const isSess=()=>view==="sess";
 const legPaper=()=>view==="exam"?P_().leg:bank[st.legSel];
 const legIdx=()=>view==="exam"?P_().leg.cur:Math.max(0,Math.min((legPaper().list.length-1),st.legIdx||0));
@@ -633,6 +642,7 @@ function seenHistHTML(q,rk){const P=P_(),W=W_(),g={},L_=[];
 function rQuiz(){
   const W=W_(),P=P_(),R=W.R,q=curQ();
   if(!q){$("main").innerHTML=`<div class="empty">ไม่มีข้อในชุดนี้</div>`;return;}
+  if(q.notice){rNotice(q);return;}
   const done=doneAns(q);if(done!==undefined)pick=done!=null&&done>=0?done:null;const locked=done!==undefined;
   if(isAdv()){const s=P.sess;if(s.ans[q.uid]===undefined){s.ans[q.uid]=-9;s.ts=now();save();}}   /* advisor: -9 = answer read */
   let h="";
@@ -663,27 +673,19 @@ function rQuiz(){
   bindQuiz(q,locked);bindRefs();
   if(view!=="lrev"&&view!=="admq")markSeen(q,curRK());
   paintNav();
-  popMaybe(q);
 }
-/* one-off announcement popup tied to a question (q.popup={img,btns}) — e.g. YUZU 1.1 resignation form.
-   Shows when arriving at that question if it was never answered, or always when it is picked from the answer sheet.
-   Never in Legendary / Admission / Advisor / Quality (timed) rounds. */
-let POPLAST=null,POPF=null;
-function popMaybe(q){
-  if(!q||!q.popup){POPLAST=q?q.uid:null;POPF=null;return;}
-  const forced=POPF===q.uid,arrived=POPLAST!==q.uid;POPF=null;POPLAST=q.uid;
-  if(["exam","lrev","adm","admq"].includes(view)||isAdv()||(isSess()&&P_().sess&&P_().sess.kind==="quality"))return;
-  if(!forced&&!arrived)return;
-  if(!forced){const P=P_();if(hist(P,q.uid,"all",true).length||(isSess()&&P.sess&&P.sess.ans[q.uid]!==undefined)||doneAns(q)!==undefined)return;}
-  popShow(q.popup);}
-function popShow(o){let el=$("qPop");if(el)el.remove();el=document.createElement("div");el.id="qPop";el.className="qpop";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");
-  const btns=(o.btns&&o.btns.length?o.btns:["ปิด"]);
-  el.innerHTML=`<div class="qpop-card"><div class="qpop-img">${imgHTML(o.img,o.alt||"ประกาศ")}</div><div class="qpop-btns">${btns.map((t,i)=>`<button class="btn${i===btns.length-1?" primary":""}" data-pop="${i}">${esc(t)}</button>`).join("")}</div></div>`;
-  document.body.appendChild(el);
-  const close=()=>{el.remove();window.scrollTo(0,0);};
-  el.querySelectorAll("[data-pop]").forEach(b=>b.onclick=close);
-  el.addEventListener("click",e=>{if(e.target===el)close();});
-  const f=el.querySelector("[data-pop]");if(f)f.focus();}
+/* "ข้อ 0" page: only the picture as the question and its buttons as choices; any choice → next not-yet-answered question of that set */
+function rNotice(q){const lab=[CFG.setLabel||"ปี",CFG.roLabel||"Rotation"];
+  let h=`<div class="qhead"><div class="qnum">0.</div><div class="fields"><span class="field"><b>${lab[0]}</b>${esc(q.set)}</span><span class="field"><b>${lab[1]}</b>${esc(q.ro)}</span></div></div>`;
+  if(q.stem)h+=`<p class="stem">${q.stem}</p>`;
+  if(q.img)h+=`<div class="stem-img notice-img">${imgHTML(q.img,q.alt||"ภาพ")}</div>`;
+  h+=`<ul class="opts" role="radiogroup" aria-label="ตัวเลือก">${q.opts.map((o,i)=>`<li class="opt" role="radio" tabindex="0" aria-checked="false" data-i="${i}"><span class="bub">${L[i]}</span><span class="txt">${esc(o)}</span></li>`).join("")}</ul>`;
+  $("main").innerHTML=h;
+  document.querySelectorAll(".opt").forEach(el=>{el.addEventListener("click",()=>noteGo(q));el.addEventListener("keydown",e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();noteGo(q);}});});
+  paintNav();}
+function noteGo(q){const P=P_(),p=ph();P.noteSeen=P.noteSeen||{};P.noteSeen[q.uid]=now();
+  const L_=svcList().filter(x=>setKey(x)===setKey(q)),t=L_.find(x=>lockedAns(P,p,x.uid)===undefined)||L_[0];
+  if(t)svcS().cur=t.uid;pick=null;save();rQuiz();window.scrollTo(0,0);}
 function paintNav(){
   const P=P_();let a=0,n=0;
   if(view==="exam"||view==="lrev"){const X=legPaper(),i=legIdx(),n=X.list.length;$("pos").textContent=`${i+1} / ${n}`;$("prev").disabled=i===0;$("next").disabled=false;
@@ -743,7 +745,7 @@ function step(d){
   pick=null;
   if(isSess()){const s=P_().sess;if(d>0&&s.cur===s.list.length-1){go(ward+"/result");return;}s.cur=Math.max(0,Math.min(s.list.length-1,s.cur+d));s.ts=now();save();rQuiz();window.scrollTo(0,0);return;}
   const v=svcVisible();if(!v.length)return;const q=svcQ();
-  const nx=d>0?v.find(x=>x.id>q.id):[...v].reverse().find(x=>x.id<q.id);
+  const nx=d>0?v.find(x=>ordId(x)>ordId(q)):[...v].reverse().find(x=>ordId(x)<ordId(q));
   const t=nx||(d>0?v[0]:v[v.length-1]);if(t.uid!==q.uid){svcS().cur=t.uid;save();rQuiz();window.scrollTo(0,0);}
 }
 $("prev").onclick=()=>step(-1);$("next").onclick=()=>step(1);$("exSub").onclick=()=>legAskSubmit();
@@ -1029,7 +1031,7 @@ function rQuality(){
     h+=`<div class="yh" style="font-family:var(--num);font-weight:700;margin:14px 0 6px">ข้อสอบที่จะทำ</div>${chips("qMode",[["all","สุ่มจากข้อสอบเก่าทั้งหมด"],["sets","เลือกปีที่จะทำ"]],q.mode)}`;
     h+=`<p class="hint" style="margin:6px 0 0">${q.mode==="all"?"สุ่มลำดับจากข้อสอบเก่าทุกปีในคลัง ไม่ว่าเคยทำแล้วหรือยัง":"เหมือน Service round แต่จับเวลา — เรียงข้อตามชุดที่เลือก ไม่เลือกเลย = ทุกชุด · ตัวเลข = ทำแล้ว/ทั้งหมด ใน Phase "+p}</p>`;
     if(q.mode==="sets"){const sel=new Set(q.sets),years=[...new Set(W.QB.map(x=>x.set))];
-      h+=years.map(y=>{const ks=W.sets.filter(k=>k.split(" ")[0]===y);return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=W.QB.filter(x=>setKey(x)===k),d=qs.filter(x=>atts(P,p,x.uid).length).length;return `<button class="chip" data-qk="${esc(k)}" aria-pressed="${sel.has(k)}">${esc(k.split(" ").slice(1).join(" "))}<span class="c">${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");}
+      h+=years.map(y=>{const ks=W.sets.filter(k=>k.split(" ")[0]===y);return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=W.QB.filter(x=>setKey(x)===k),d=qs.filter(x=>atts(P,p,x.uid).length).length;return `<button class="chip" data-qk="${esc(k)}" aria-pressed="${sel.has(k)}">${esc(k.split(" ").slice(1).join(" ").trim()||"ทั้งชุด")}<span class="c">${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");}
     h+=`<label class="chk"><input type="checkbox" id="qFresh" ${q.fresh?"checked":""}><span>เฉพาะข้อที่ยังไม่เคยทำใน Phase ${p}</span></label>`;
     h+=`<p class="statline" style="margin-top:10px">รอบนี้มี <b>${pool.length}</b> ข้อ</p>`;}
   h+=`<label class="chk"><input type="checkbox" id="qMand" ${q.mand?"checked":""}><span><b>Mandatory</b> — หมดเวลาแล้วเปลี่ยนหน้าจอให้อัตโนมัติ: หมดเวลาตอบ = ส่งคำตอบที่เลือกไว้ (ไม่ได้เลือก = ข้าม + เสียง alarm) · จบช่วงพัก = ไปข้อต่อไป · ช่วงอ่านเฉลยเลื่อนดูข้อที่ทำไปแล้วได้</span></label>`;
@@ -1232,7 +1234,7 @@ function rAdvisor(){
   h+=`<button class="resume" id="advRep"><span>📊 <b>รายงานจาก Advisor</b><span class="rd">ผิดเรื่องไหนมากสุด · เรื่องไหนสำคัญ ควรอ่านเพิ่ม · แบ่งตามหัวข้อบทเรียน</span></span><span class="go">→</span></button>`;
   h+=`<div class="lbl">ใช้ประวัติการตอบจาก</div>${chips("aHp",[["all","ทั้ง 2 Phase"],["p",`เฉพาะ Phase ${ph()}`]],a.hp)}`;
   h+=`<div class="lbl">ปีและ rotation <span class="hint">ไม่เลือกเลย = ทุกชุด · ตัวเลข = ทำแล้ว/ทั้งหมด</span></div>`;
-  h+=years.map(y=>{const ks=W.sets.filter(k=>k.split(" ")[0]===y);return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=QB.filter(q=>setKey(q)===k),d=qs.filter(q=>hist(P,q.uid,a.hp).length).length;return `<button class="chip" data-k="${esc(k)}" aria-pressed="${sel.has(k)}">${esc(k.split(" ").slice(1).join(" "))}<span class="c">${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");
+  h+=years.map(y=>{const ks=W.sets.filter(k=>k.split(" ")[0]===y);return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=QB.filter(q=>setKey(q)===k),d=qs.filter(q=>hist(P,q.uid,a.hp).length).length;return `<button class="chip" data-k="${esc(k)}" aria-pressed="${sel.has(k)}">${esc(k.split(" ").slice(1).join(" ").trim()||"ทั้งชุด")}<span class="c">${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");
   h+=`<div class="lbl">เลือกจากจำนวนครั้งที่ผิด</div>${chips("aF",ADVF,a.f)}`;
   h+=`<label class="chk" style="display:flex;gap:8px;align-items:center;margin-top:12px;font-size:15px"><input type="checkbox" id="aUndone" ${a.undone?"checked":""} style="width:20px;height:20px"> รวมข้อที่ยังไม่เคยทำด้วย</label>`;
   h+=`<div class="lbl">ลำดับ</div>${chips("aO",ADVO,a.ord)}`;
@@ -1925,7 +1927,7 @@ function rows(list,empty){
   $("rows").innerHTML=list.map((x,i)=>{const q=x.q,a=x.a;
     if(x.lock)return `<button class="srow lock" data-r="${i}"><span class="n">${x.lock}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b">${L[j]}</span>`).join("")}</span><span class="meta">🔒 ยังไม่ถึงข้อนี้</span></button>`;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(a!==undefined&&j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");
     return `<button class="srow ${x.cur?"cur":""}" data-r="${i}"><span class="n">${q.id}</span><span class="bs">${bs}</span><span class="meta">${x.meta||""}${esc(q.set)} ${esc(q.ro)}${flagged(P_(),q.uid)?" ⚑":""}</span></button>`;}).join("");
-  document.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{const x=list[+b.dataset.r];if(x.lock){toast(navMsg());return;}closeS();POPF=x.q&&x.q.uid;x.go();});
+  document.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{const x=list[+b.dataset.r];if(x.lock){toast(navMsg());return;}closeS();x.go();});
 }
 function openS(){sheet._ok=0;sheet();$("overlay").classList.add("open");const c=document.querySelector(".srow.cur");if(c)c.scrollIntoView({block:"center"});$("closeSheet").focus();}
 function closeS(silent){$("overlay").classList.remove("open");if(!silent&&!$("openSheet").hidden)$("openSheet").focus();}
@@ -1934,13 +1936,14 @@ $("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeS();})
 
 /* ---------------- keyboard ---------------- */
 document.addEventListener("keydown",e=>{
-  {const pp=$("qPop");if(pp){if(e.key==="Escape"){pp.remove();window.scrollTo(0,0);}return;}}
   if($("overlay").classList.contains("open")){if(e.key==="Escape")closeS();return;}
   if(!["svc","sess","adm","exam","lrev","admq"].includes(view))return;
   const tg=e.target;if(tg&&(tg.tagName==="INPUT"||tg.tagName==="TEXTAREA"||tg.isContentEditable))return;
   if(e.metaKey||e.ctrlKey||e.altKey)return;
   if(view==="exam"){const k=e.key.toUpperCase(),i="ABCDE".indexOf(k),n="12345".indexOf(e.key);if(i>=0||n>=0){legPick(i>=0?i:n);return;}if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1);return;}
-  const q=curQ();if(!q)return;const locked=doneAns(q)!==undefined;
+  const q=curQ();if(!q)return;
+  if(q.notice){const i="ABCDE".indexOf(e.key.toUpperCase()),n="12345".indexOf(e.key);if((i>=0&&i<q.opts.length)||(n>=0&&n<q.opts.length))noteGo(q);else if(e.key==="ArrowRight")step(1);return;}
+  const locked=doneAns(q)!==undefined;
   const k=e.key.toUpperCase(),idx="ABCDE".indexOf(k),nidx="12345".indexOf(e.key);
   if(!locked&&(idx>=0||nidx>=0)){pick=idx>=0?idx:nidx;rQuiz();return;}
   if(e.key==="Enter"&&!locked&&pick!==null&&!(tg.classList&&tg.classList.contains("opt"))){confirmAns();return;}

@@ -15,10 +15,11 @@ QL.forEach(L=>{const q=got[L.orig];if(!q)return;
   const w={};let j=0;for(let i=0;i<5;i++){if(i!==q.ans)w[LT[i]]=q.wrong[j++];}o.wrong=w;
   if(o.opinion===undefined)o.opinion="";
   o.kimg=[...L.k1,...L.k2];o.kcap=[...L.k1.map(()=>"ver.1 · 02_2_YUZU_Key_1.pdf หน้า "+L.page+(L.gen?" (ลายมือที่ใช้แต่งโจทย์ — ver.2 หน้านี้ไม่ได้จด)":"")),...L.k2.map(()=>"ver.2 · 02_3_YUZU_Key_2.pdf หน้า "+L.page)];
-  if(q.orig==="1.1")o.popup={img:"yuzu_resign",alt:"ใบลาออก",btns:["ปิด","ลาออก"]};
   o.kimg.forEach(k=>{const src=fs.existsSync(YZ+"crops3/"+k+".jpg")?YZ+"crops3/"+k+".jpg":YZ+"crops2/"+k+".jpg";fs.copyFileSync(src,IMG+k+".jpg");});   /* crops3 = display crops with the gap above each question (handwriting written above the question line) */
   const key="YUZU||"+q.orig;TOP[key]=q.tp;TAG[key]=q.tg;out.push(o);});
-fs.writeFileSync(D+"data_b5.js","/* OB-GYN YUZU (Supplementary Material for 3000426 Theoretical OB-GYN) — OYZ = 02_2_YUZU_Key_1.pdf (ver.1) + 02_3_YUZU_Key_2.pdf (ver.2), both question+key ; "+out.length+" ข้อ */\nQB.push(\n"+out.map(o=>"  "+JSON.stringify(o)).join(",\n")+"\n);\n");
+/* ข้อ 0 = book page 2 "Just in case" resignation form — Service round only, any choice goes to the next unanswered question */
+out.unshift({set:"YUZU",ro:"",file:"OYZ",orig:"0",page:2,notice:true,stem:"",img:"yuzu_resign",alt:"ใบลาออก — Just in case (หนังสือ YUZU หน้า 2)",opts:["ปิด","ลาออก"]});
+fs.writeFileSync(D+"data_b5.js","/* OB-GYN YUZU (Supplementary Material for 3000426 Theoretical OB-GYN) — OYZ = 02_2_YUZU_Key_1.pdf (ver.1) + 02_3_YUZU_Key_2.pdf (ver.2), both question+key ; "+(out.length-1)+" ข้อ + ข้อ 0 (ใบลาออก) */\nQB.push(\n"+out.map(o=>"  "+JSON.stringify(o)).join(",\n")+"\n);\n");
 const add=(f,obj)=>{let s=fs.readFileSync(D+f,"utf8");s=s.split("\n").filter(l=>!l.startsWith("\"YUZU||")).join("\n");
   s=s.replace(/\n\};\s*$/,",\n"+Object.entries(obj).map(([k,v])=>JSON.stringify(k)+":"+JSON.stringify(v)).join(",\n")+"\n};\n").replace(/,,\n/,",\n").replace(/\{,\n/,"{\n");fs.writeFileSync(D+f,s);};
 add("topics.js",TOP);add("tags.js",TAG);

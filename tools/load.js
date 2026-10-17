@@ -10,5 +10,5 @@ module.exports=function(){
   if(fs.existsSync(FX)) src+="\n"+fs.readFileSync(FX,"utf8");
   (0,eval)(src);
   const imgs=new Set(fs.existsSync(path.join(R,"img"))?fs.readdirSync(path.join(R,"img")).map(f=>f.replace(/\.(jpg|png)$/,"")):[]);
-  return {QB:globalThis.QB,imgs,files};
+  return {QB:globalThis.QB.filter(q=>!q.notice),imgs,files};   /* notice pages ("ข้อ 0") are not questions */
 };
