@@ -19,18 +19,6 @@
   },
   "wards": [
     {
-      "id": "med",
-      "name": "Internal Medicine",
-      "short": "Med",
-      "year": "Y4",
-      "sub": "SI",
-      "brand": "Past Med Y4 MCQ",
-      "dir": "data_med",
-      "scope": "Internal medicine",
-      "dates": [],
-      "meqTopics": []
-    },
-    {
       "id": "prevmed",
       "name": "Preventive Medicine",
       "short": "Prevent Med",
@@ -43,6 +31,18 @@
         "MCQ",
         "OSCE"
       ],
+      "dates": [],
+      "meqTopics": []
+    },
+    {
+      "id": "med",
+      "name": "Internal Medicine",
+      "short": "Med",
+      "year": "Y4",
+      "sub": "SI",
+      "brand": "Past Med Y4 MCQ",
+      "dir": "data_med",
+      "scope": "Internal medicine",
       "dates": [],
       "meqTopics": []
     }
@@ -68,17 +68,17 @@
   "artifactUrl": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx",
   "subjects": [
     {
-      "id": "medicine",
-      "name": "Medicine",
-      "wards": [
-        "med"
-      ]
-    },
-    {
       "id": "prevmed",
       "name": "Preventive Medicine",
       "wards": [
         "prevmed"
+      ]
+    },
+    {
+      "id": "medicine",
+      "name": "Medicine",
+      "wards": [
+        "med"
       ]
     }
   ],
