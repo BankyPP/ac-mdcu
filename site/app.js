@@ -470,7 +470,7 @@ function startSess(kind,title,uids,extra){
 function clStartCard(){const cs=clStart();return `<div class="card"><h3>เปิดเว็บนี้ใน Claude แล้วไปที่</h3><span class="rd">claude.ai ไม่ส่งต่อว่ากดมาจากปุ่มไหนในเว็บ จึงเลือกได้ว่าจะให้ถามทุกครั้ง (กดครั้งเดียว ไม่ต้องเลือกวอร์ด) หรือเปิดหน้าเดิมเสมอ</span><div class="chips">${CLSTART.map(([v,t])=>`<button class="chip" data-cs="${v}" aria-pressed="${cs===v}">${t}</button>`).join("")}</div></div>`;}
 function rLaunch(){
   const W=W_(),P=P_(),w=W.cfg,lr=st.lastRoute&&st.lastRoute.split("/")[0]===ward?st.lastRoute.split("/")[1]:"";
-  const VN={home:"หน้าวอร์ด",adm:"Admission round",lcase:"Long case",legend:"Legendary round",exam:"Legendary round (กำลังสอบ)",lres:"ผล Legendary round",advisor:"Advisor round",report:"รายงาน Advisor",unit:"Unit round",quality:"Quality round",service:"Service round",grand:"Grand round",hy:"High-yield",kw:"Keyword",staff:"Ward staff round"};
+  const VN={home:"หน้าวอร์ด",adm:"Admission round",lcase:"Long case",legend:"Legendary round",exam:"Legendary round (กำลังสอบ)",lres:"ผล Legendary round",advisor:"Advisor round",report:"รายงาน Advisor",unit:"Unit round",quality:"Quality round",service:"Service round",grand:"Grand round",hy:"High-yield",kw:"Keyword",staff:"Ward staff round",teach:"Teaching round",tch:"Teaching round (History / PE / CTA)",case:"Case",taker:"History taker / Physical examinator"};
   const it=(v,t,d,b)=>`<button class="resume" data-lv="${v}"><span>${b?`<span class="lbadge">${b}</span>`:""}<b>${t}</b><span class="rd">${d}</span></span><span class="go">→</span></button>`;
   const nAdm=bankItems("adm",ward).length,nLc=bankItems("lc",ward).length;
   let h=`<div class="whead"><h1 class="h2">จะไปหน้าไหน?</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0 0 12px">${esc(w.name)} · หน้าที่ต้องใช้ AI เปิดใน Claude ได้เลย</p><div class="stack" style="margin-top:0">`;
@@ -478,6 +478,7 @@ function rLaunch(){
   h+=it("adm","Admission round",`เคสใหม่ที่ AI สร้างให้ทีละข้อ${nAdm?` · คลังของคุณมี ${nAdm} เคส`:""}`);
   h+=it("lcase","Long case",`AI ให้ chief complaint แล้วดำเนินเคสทีละขั้น${nLc?` · ทำไปแล้ว ${nLc} เคส`:""}`);
   h+=it(P.leg?"exam":"legend","Legendary round",P.leg?`กำลังสอบอยู่ใน Claude · เหลือเวลา ${hms(P.leg.end-now())}`:"จำลองสอบจริง พร้อมโจทย์ใหม่จาก AI",P.leg?"กำลังสอบ":"");
+  {const C=(bank["tch|all|cta"]||{}).procs||[];h+=it("tch/cta","CTA",`ใส่ไฟล์ให้ AI อ่านเติมเนื้อหา (ตัวพิมพ์ + ลายมือ) · ฝึกพิมพ์ keyword${C.length?` · มี ${C.length} หัตถการ`:""}`);}
   if(lr&&!["adm","lcase","legend","exam","home"].includes(lr))h+=it(lr,"หน้าล่าสุดที่ใช้ใน Claude",VN[lr]||lr);
   h+=it("home","หน้าวอร์ด","round อื่น ๆ ทั้งหมด");
   h+=`</div>`+clStartCard();
@@ -2195,7 +2196,7 @@ window.addEventListener("hashchange",remember);
 const RESTORE=["home","adm","lcase","legend","exam","lres","lhist","advisor","report","unit","quality","service","grand","hy","kw","staff"];
 /* claude.ai may not hand the link's page (?go= / #) to the artifact frame, so inside Claude the viewer picks where it opens: Admission (default), Long case, Legendary or the last page used */
 /* claude.ai hands neither ?go= nor # to the artifact frame and cuts the link to the opening tab (COOP), so the page can't know which button was pressed on the website: by default it asks with one tap (launcher), or opens a fixed page */
-const CLSTART=[["ask","ให้เลือกทุกครั้ง"],["adm","Admission round"],["lcase","Long case"],["legend","Legendary round"],["last","หน้าล่าสุดที่ใช้"]];
+const CLSTART=[["ask","ให้เลือกทุกครั้ง"],["adm","Admission round"],["lcase","Long case"],["legend","Legendary round"],["tch/cta","CTA"],["last","หน้าล่าสุดที่ใช้"]];
 const clStart=()=>CLSTART.some(x=>x[0]===st.clStart)?st.clStart:"ask";
 function startPath(){if((location.hash||"").replace(/^#\/?/,""))return "";let g="";try{g=new URLSearchParams(location.search).get("go")||"";}catch(e){}
   if(!g&&IN_FRAME){const cs=clStart();if(cs==="last")g=st.lastRoute||"";else g=(st.lastWard&&WARDS[st.lastWard]?st.lastWard:WL[0].id)+"/"+(cs==="ask"?"launch":cs);}
