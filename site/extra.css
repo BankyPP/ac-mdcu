@@ -704,15 +704,15 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 /* ===== Teaching round: History / PE / CTA tables, practice, cases ===== */
 .tchv .ttabs{margin:6px 0 12px}
 .ttable{border:1px solid var(--rule);border-radius:8px;background:var(--sheet);overflow:hidden}
-.ttable .trow{display:grid;grid-template-columns:28px minmax(84px,22%) 1fr 26px;border-top:1px solid var(--rule);align-items:stretch}
+.ttable .trow{display:grid;grid-template-columns:28px minmax(84px,22%) 1fr 32px;border-top:1px solid var(--rule);align-items:stretch}
 .ttable .trow:first-child{border-top:0}
 .ttable.key .trow{grid-template-columns:minmax(84px,20%) 1fr 1fr}
-.ttable.cta.full .trow{grid-template-columns:1fr 26px}
+.ttable.cta.full .trow{grid-template-columns:1fr 32px}
 .ttable.cta.key .trow,.ttable.cta.mine .trow{grid-template-columns:1fr 1fr}
 .ttable.taker .trow,.ttable.view .trow{grid-template-columns:minmax(96px,26%) 1fr}
 .ttable .th,.ttable .tc,.ttable .tk{padding:8px 10px;font-size:14.5px;line-height:1.5;min-height:38px;outline:none;word-break:break-word}
 .ttable .th{font-family:var(--num);font-weight:600;border-right:1px solid var(--rule);background:color-mix(in srgb,var(--form) 5%,transparent)}
-.ttable .tc+.tk,.ttable .tc+.tdel{border-left:1px solid var(--rule)}
+.ttable .tc+.tk,.ttable .tc+.tdel,.ttable .tc+.tact{border-left:1px solid var(--rule)}
 .ttable .tc.ro{color:var(--muted);font-size:13px}
 .ttable .tk:empty::before{content:attr(data-ph);color:var(--muted)}
 .ttable [contenteditable="true"]:focus{background:color-mix(in srgb,var(--form) 8%,transparent)}
@@ -740,7 +740,7 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .tdoc{font-size:14.5px;line-height:1.6}.tdoc h3{font-size:16px;margin:12px 0 4px}.tdoc h4{font-size:15px;margin:10px 0 4px}.tdoc table{border-collapse:collapse;width:100%;font-size:13.5px}.tdoc td,.tdoc th{border:1px solid var(--rule);padding:4px 6px;vertical-align:top}
 .mqdlg-box .ck{display:flex;align-items:center;gap:6px;font-size:14px;margin-top:6px}
 @media (max-width:600px){.ttable.key .trow{grid-template-columns:1fr}.ttable.key .th{border-right:0;border-bottom:1px solid var(--rule)}.ttable.key .tc.ro{max-height:130px;overflow:auto}.ttable.key .tc+.tk{border-left:0;border-top:1px dashed var(--rule);min-height:56px}
-.ttable.full:not(.cta) .trow{grid-template-columns:26px 1fr 24px}.ttable.full:not(.cta) .th{grid-column:2;border-right:0;border-bottom:1px solid var(--rule)}.ttable.full:not(.cta) .tc{grid-column:2}.ttable.full:not(.cta) .ton{grid-row:span 2}.ttable.full:not(.cta) .tdel{grid-column:3;grid-row:1 / span 2}.ttable.full:not(.cta) .tc+.tdel{border-left:0}}
+.ttable.full:not(.cta) .trow{grid-template-columns:26px 1fr 32px}.ttable.full:not(.cta) .th{grid-column:2;border-right:0;border-bottom:1px solid var(--rule)}.ttable.full:not(.cta) .tc{grid-column:2}.ttable.full:not(.cta) .ton{grid-row:span 2}.ttable.full:not(.cta) .tact{grid-column:3;grid-row:1 / span 2;grid-row-start:1}.ttable.full:not(.cta) .tc+.tdel{border-left:0}}
 /* CTA file import */
 .tcimp .ck{display:flex;gap:6px;align-items:flex-start;margin:6px 0;line-height:1.5}
 .tcimp .ck input[type=text]{flex:1;min-width:0;font:inherit;padding:4px 6px;border:1px solid var(--line);border-radius:4px}
@@ -751,3 +751,11 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .tcpages{display:flex;flex-direction:column;gap:8px;margin:8px 0}.tcpages img{width:100%;border:1px solid var(--line);border-radius:4px}
 .tcnoai{display:flex;flex-direction:column;gap:6px;margin:8px 0;padding:10px;border:1px dashed var(--line);border-radius:6px}
 .tcnoai .btn{text-align:center;text-decoration:none}
+.uidlg{z-index:90}.uidlg .uimsg{white-space:pre-line}
+.uidlg .uiin{width:100%;box-sizing:border-box;font:inherit;font-size:14px;padding:8px;border:1px solid var(--line);border-radius:6px;margin:0 0 10px;background:var(--paper);color:var(--ink)}
+.ttable .tact{display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 0}
+.ttable .tgrip{cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;color:var(--muted);font-size:17px;line-height:1;padding:6px 7px;border-radius:4px}
+.ttable .tgrip:hover{background:color-mix(in srgb,var(--form) 10%,transparent)}
+.ttable .tact .tdel{padding:4px 7px}
+.ttable .trow.drag{position:relative;z-index:2;background:color-mix(in srgb,var(--form) 9%,var(--sheet));box-shadow:0 3px 12px rgba(0,0,0,.18)}
+.ttable .trow.drag .tgrip{cursor:grabbing;color:var(--form)}

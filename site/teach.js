@@ -48,22 +48,35 @@ function rTch(){const a=tSeg(),tool=TK[a[0]]?a[0]:"hx";if(TV.prac&&TV.prac.tool!
   if(tool==="cta")return tCta(O,tab);
   if(tab==="prac")return tPrac(tool,O.rows);
   tTable(tool,O,tab);}
+/* drag ☰ up or down to move a row (mouse, finger or pen); the new order is saved when the row is let go */
+function tDrag(box,onDrop){if(!box)return;
+  box.querySelectorAll("[data-grip]").forEach(g=>{const r=g.closest(".trow");
+    g.onpointerdown=e=>{e.preventDefault();r.classList.add("drag");let lastY=e.clientY;
+      /* listen on the window: moving the row in the page drops pointer capture on the grip */
+      const move=y=>{const rows=[...box.querySelectorAll(".trow")].filter(x=>x!==r);let before=null;for(const x of rows){const b=x.getBoundingClientRect();if(y<b.top+b.height/2){before=x;break;}}
+        if(before){if(before!==r.nextElementSibling)box.insertBefore(r,before);}else if(r!==box.lastElementChild)box.appendChild(r);};
+      const tick=setInterval(()=>{const h=window.innerHeight,sy=lastY<70?-14:lastY>h-70?14:0;if(sy){window.scrollBy(0,sy);move(lastY);}},30);
+      const pm=ev=>{if(ev.pointerId!==e.pointerId)return;ev.preventDefault();lastY=ev.clientY;move(ev.clientY);};
+      const pu=ev=>{if(ev.pointerId!==e.pointerId)return;clearInterval(tick);window.removeEventListener("pointermove",pm);window.removeEventListener("pointerup",pu);window.removeEventListener("pointercancel",pu);r.classList.remove("drag");
+        const ord=[...box.querySelectorAll(".trow")].map(x=>+x.dataset.i);if(ord.some((v,k)=>v!==k))onDrop(ord);};
+      window.addEventListener("pointermove",pm,{passive:false});window.addEventListener("pointerup",pu);window.addEventListener("pointercancel",pu);};});}
 function tSaveLater(tool,O){clearTimeout(tSaveLater._t);tSaveLater._t=setTimeout(()=>tchPut(tool,O),500);}
 /* editable table: tab "full" = on/off · heading · content ; tab "key" = heading · content (read only) · key concept */
 function tTable(tool,O,tab){const R=O.rows,wn=esc(W_().cfg.short||W_().cfg.name);
-  let h=tab==="full"?`<p class="hint">แตะช่องเพื่อแก้ (บันทึกเอง) · ☑ = ใช้ในวอร์ด ${wn} (ปิด = สีเทา ไม่ใช้ตอนฝึก / History taker แต่ยังเก็บไว้ครบ) · หัวข้อเด็ก/สูติ ปิดไว้ก่อนในวอร์ดอื่น</p>`
+  let h=tab==="full"?`<p class="hint">แตะช่องเพื่อแก้ (บันทึกเอง) · ☰ กดค้างแล้วลากขึ้น-ลงเพื่อย้ายช่อง · × ลบช่อง · ☑ = ใช้ในวอร์ด ${wn} (ปิด = สีเทา ไม่ใช้ตอนฝึก / History taker แต่ยังเก็บไว้ครบ) · หัวข้อเด็ก/สูติ ปิดไว้ก่อนในวอร์ดอื่น</p>`
     :`<p class="hint">ใส่ ${TK[tool].kc} ของแต่ละหัวข้อในช่องขวา — ใช้ตรวจตอนฝึก (ถ้าช่องว่าง AI จะตรวจเทียบกับเนื้อหาในช่องกลางแทน)</p>`;
   h+=`<div class="ttable ${tab}">${R.map((r,i)=>{const on=tOn(r);return `<div class="trow${on?"":" off"}" data-i="${i}">${tab==="full"?`<label class="ton" title="ใช้ในวอร์ดนี้"><input type="checkbox" data-on="${i}"${on?" checked":""}></label>`:""}
       <div class="th" ${tab==="full"?`contenteditable="true" data-f="h"`:""}>${esc(r.h)}</div>
       <div class="tc${tab==="key"?" ro":""}" ${tab==="full"?`contenteditable="true" data-f="c"`:""}>${tSan(r.c)}</div>
-      ${tab==="key"?`<div class="tk" contenteditable="true" data-f="k" data-ph="พิมพ์ ${TK[tool].kc}…">${tSan(r.k)}</div>`:`<button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้">×</button>`}</div>`;}).join("")}</div>`;
+      ${tab==="key"?`<div class="tk" contenteditable="true" data-f="k" data-ph="พิมพ์ ${TK[tool].kc}…">${tSan(r.k)}</div>`:`<div class="tact"><span class="tgrip" data-grip title="กดค้างแล้วลากขึ้น-ลงเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰</span><button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้" aria-label="ลบช่องนี้">×</button></div>`}</div>`;}).join("")}</div>`;
   if(tab==="full")h+=`<div class="stack" style="margin-top:10px"><button class="btn" id="tAdd" type="button">+ เพิ่มช่องใหม่</button>${bank["tch|all|"+tool]?`<button class="link" id="tReset" type="button">คืนค่าตั้งต้นของตาราง</button>`:""}</div>`;
   $("tBody").innerHTML=h;
+  if(tab==="full")tDrag(document.querySelector("#tBody .ttable"),ord=>{const c=R.slice();R.splice(0,R.length,...ord.map(i=>c[i]));tchPut(tool,O);rTch();});
   document.querySelectorAll("#tBody [contenteditable][data-f]").forEach(el=>el.addEventListener("input",()=>{const i=+el.closest(".trow").dataset.i,f=el.dataset.f;R[i][f]=f==="h"?el.textContent.trim():tSan(el.innerHTML);tSaveLater(tool,O);}));
   document.querySelectorAll("[data-on]").forEach(c=>c.onchange=()=>{const r=R[+c.dataset.on];r.off=r.off||{};r.off[ward]=!c.checked;tchPut(tool,O);c.closest(".trow").classList.toggle("off",!c.checked);});
-  document.querySelectorAll("[data-del]").forEach(b=>b.onclick=()=>{const i=+b.dataset.del;if(!confirm(`ลบช่อง “${R[i].h||"ไม่มีชื่อ"}” ออกจากตาราง? (ทุกวอร์ด)`))return;R.splice(i,1);tchPut(tool,O);rTch();});
+  document.querySelectorAll("[data-del]").forEach(b=>b.onclick=async()=>{const i=+b.dataset.del;if(!await uiAsk(`ลบช่อง “${R[i].h||"ไม่มีชื่อ"}” ออกจากตาราง? (ทุกวอร์ด)`))return;R.splice(i,1);tchPut(tool,O);rTch();});
   {const b=$("tAdd");if(b)b.onclick=()=>{R.push({id:tId(),h:"หัวข้อใหม่",c:"",k:"",tag:""});tchPut(tool,O);rTch();setTimeout(()=>{const el=document.querySelector(".trow:last-child .th");if(el){el.focus();el.scrollIntoView({block:"center"});}},50);};}
-  {const b=$("tReset");if(b)b.onclick=()=>{if(!confirm("คืนตารางเป็นค่าตั้งต้น? ข้อความที่แก้และ key concept ทั้งหมดจะหาย"))return;tchPut(tool,{rows:tchDef(tool)});rTch();};}
+  {const b=$("tReset");if(b)b.onclick=async()=>{if(!await uiAsk("คืนตารางเป็นค่าตั้งต้น? ข้อความที่แก้และ key concept ทั้งหมดจะหาย"))return;tchPut(tool,{rows:tchDef(tool)});rTch();};}
 }
 /* ---------- practice (History / PE: AI grading against key concepts) ---------- */
 function tPrac(tool,R){const P=TV.prac;
@@ -90,7 +103,7 @@ function tPracRun(tool){const P=TV.prac;
     <div class="row2"><button class="btn ghost" id="tQuit" type="button">ยกเลิก</button><span class="spacer"></span><button class="btn primary" id="tSub" type="button">ส่งตรวจ</button></div></div>`;
   tT().innerHTML=h;
   document.querySelectorAll("[data-pa]").forEach(t=>t.oninput=()=>{P.ans[t.dataset.pa]=t.value;});
-  $("tQuit").onclick=()=>{if(confirm("ยกเลิกการฝึกครั้งนี้?")){TV.prac=null;rTch();}};
+  $("tQuit").onclick=async()=>{if(await uiAsk("ยกเลิกการฝึกครั้งนี้?")){TV.prac=null;rTch();}};
   $("tSub").onclick=()=>tGrade(tool);
   if(P.end){const tick=()=>{const el=$("tTimer");if(!el){clearInterval(show._t);return;}const l=P.end-now();el.textContent=l>0?hms(l).replace(/^00:/,""):"หมดเวลา";el.classList.toggle("late",l<=60000);if(l<=0){clearInterval(show._t);if(!P.res&&!P.busy)tGrade(tool);}};tick();clearInterval(show._t);show._t=setInterval(tick,1000);}
   const f=document.querySelector("[data-pa]");if(f)f.focus();}
@@ -146,19 +159,19 @@ function tCta(O,tab){const PR=O.procs;let cur=PR.find(p=>p.id===TV.ctaP)||PR[0];
     if(TV.prac&&!TV.prac.res)return tPracRun("cta");if(TV.prac&&TV.prac.res)return tPracRes("cta");
     return tPracCta(cur,cur.rows.map((r,i)=>({id:r.id,h:"ช่องที่ "+(i+1),c:r.c,k:r.k})));}
   h+=`<div class="row2" style="margin:8px 0"><b style="font-size:17px">${esc(cur.name)}</b><span class="spacer"></span>${tab==="full"?`<button class="link" id="tcImp" type="button">📄 ใส่ไฟล์</button>`:""}${tab==="full"&&HAS_CLAUDE()&&CFG.siteUrl?`<button class="link" id="tcWeb" type="button">🌐 ส่ง CTA ไปเว็บ</button>`:""}<button class="link" id="cpRen" type="button">เปลี่ยนชื่อ</button><button class="link" id="cpDel" type="button">ลบหัตถการ</button></div>`;
-  h+=tab==="full"?`<p class="hint">${cur.src?`จากไฟล์ ${esc(cur.src)} · `:""}เนื้อหาตามไฟล์ทุกคำ (ลายมือในไฟล์ = <span class="hw">สีน้ำเงิน</span>) · แตะช่องเพื่อแก้ · บันทึกเอง</p>`:tab==="key"?`<p class="hint">Keyword ที่ต้องมี “เป๊ะ ๆ” จึงได้คะแนน — 1 คำต่อบรรทัด (หรือคั่นด้วย , ) · คำในวงเล็บ = ใช้แทนคำข้างหน้าได้ เช่น <b>ล้างมือ (hand hygiene)</b></p>`:`<p class="hint">เขียนสิ่งที่ตัวเองจะพูดจริง — จะโชว์ให้ทวนตอนเฉลยในแท็บฝึก</p>`;
-  h+=`<div class="ttable cta ${tab}">${cur.rows.map((r,i)=>`<div class="trow" data-i="${i}">${tab==="full"?`<div class="tc" contenteditable="true" data-f="c">${tSan(r.c)}</div><button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้">×</button>`
+  h+=tab==="full"?`<p class="hint">${cur.src?`จากไฟล์ ${esc(cur.src)} · `:""}เนื้อหาตามไฟล์ทุกคำ (ลายมือในไฟล์ = <span class="hw">สีน้ำเงิน</span>) · แตะช่องเพื่อแก้ · บันทึกเอง · ☰ ลากขึ้น-ลงเพื่อย้าย · × ลบช่อง</p>`:tab==="key"?`<p class="hint">Keyword ที่ต้องมี “เป๊ะ ๆ” จึงได้คะแนน — 1 คำต่อบรรทัด (หรือคั่นด้วย , ) · คำในวงเล็บ = ใช้แทนคำข้างหน้าได้ เช่น <b>ล้างมือ (hand hygiene)</b></p>`:`<p class="hint">เขียนสิ่งที่ตัวเองจะพูดจริง — จะโชว์ให้ทวนตอนเฉลยในแท็บฝึก</p>`;
+  h+=`<div class="ttable cta ${tab}">${cur.rows.map((r,i)=>`<div class="trow" data-i="${i}">${tab==="full"?`<div class="tc" contenteditable="true" data-f="c">${tSan(r.c)}</div><div class="tact"><span class="tgrip" data-grip title="กดค้างแล้วลากขึ้น-ลงเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰</span><button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้" aria-label="ลบช่องนี้">×</button></div>`
       :`<div class="tc ro">${tSan(r.c)}</div><div class="tk" contenteditable="true" data-f="${tab==="key"?"k":"w"}" data-ph="${tab==="key"?"keyword…":"wording ของฉัน…"}">${tSan(tab==="key"?r.k:r.w)}</div>`}</div>`).join("")}</div>`;
   if(tab==="full")h+=`<div class="stack" style="margin-top:10px"><button class="btn" id="tAdd" type="button">+ เพิ่มช่อง</button></div><div id="tcNote" class="rd" style="margin-top:8px"></div><div id="tcOrig" class="tcorig" hidden></div>`;
-  $("tBody").innerHTML=h;tCtaBind(O,cur);if(tab==="full"){$("tcImp").onclick=()=>tCtaImport(O,cur);tCtaOrig(cur.id);const w=$("tcWeb");if(w)w.onclick=()=>{tchPut("cta",O);sendWeb(["tch|all|cta"],"tcNote");};}
+  $("tBody").innerHTML=h;tCtaBind(O,cur);if(tab==="full"){tDrag(document.querySelector("#tBody .ttable"),ord=>{const c=cur.rows.slice();cur.rows=ord.map(i=>c[i]);tchPut("cta",O);rTch();});$("tcImp").onclick=()=>tCtaImport(O,cur);tCtaOrig(cur.id);const w=$("tcWeb");if(w)w.onclick=()=>{tchPut("cta",O);sendWeb(["tch|all|cta"],"tcNote");};}
   document.querySelectorAll("#tBody [contenteditable][data-f]").forEach(el=>el.addEventListener("input",()=>{const i=+el.closest(".trow").dataset.i;cur.rows[i][el.dataset.f]=tSan(el.innerHTML);tSaveLater("cta",O);}));
-  document.querySelectorAll("[data-del]").forEach(b=>b.onclick=()=>{if(!confirm("ลบช่องนี้?"))return;cur.rows.splice(+b.dataset.del,1);tchPut("cta",O);rTch();});
+  document.querySelectorAll("[data-del]").forEach(b=>b.onclick=async()=>{if(!await uiAsk("ลบช่องนี้?"))return;cur.rows.splice(+b.dataset.del,1);tchPut("cta",O);rTch();});
   {const b=$("tAdd");if(b)b.onclick=()=>{cur.rows.push({id:tId(),c:"",k:"",w:""});tchPut("cta",O);rTch();};}
-  {const b=$("cpRen");if(b)b.onclick=()=>{const n=prompt("ชื่อหัตถการ",cur.name);if(n&&n.trim()){cur.name=n.trim();tchPut("cta",O);rTch();}};}
-  {const b=$("cpDel");if(b)b.onclick=()=>{if(!confirm(`ลบหัตถการ “${cur.name}” ทั้งหมด?`))return;O.procs=PR.filter(p=>p!==cur);tFileDel(cur.id);TV.ctaP="";tchPut("cta",O);rTch();};}}
+  {const b=$("cpRen");if(b)b.onclick=async()=>{const n=await uiInput("ชื่อหัตถการ",cur.name);if(n&&n.trim()){cur.name=n.trim();tchPut("cta",O);rTch();}};}
+  {const b=$("cpDel");if(b)b.onclick=async()=>{if(!await uiAsk(`ลบหัตถการ “${cur.name}” ทั้งหมด?`))return;O.procs=PR.filter(p=>p!==cur);tFileDel(cur.id);TV.ctaP="";tchPut("cta",O);rTch();};}}
 function tCtaLabel(r){const t=String(r.c||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();return t.length>70?t.slice(0,70)+"…":t||"(ช่องว่าง)";}
 function tCtaBind(O,cur){document.querySelectorAll("[data-cp]").forEach(b=>b.onclick=()=>{TV.ctaP=b.dataset.cp;TV.prac=null;rTch();});
-  $("cpAdd").onclick=()=>{const n=prompt("ชื่อหัตถการ (เช่น NG tube insertion)");if(!n||!n.trim())return;const p={id:tId(),name:n.trim(),rows:[{id:tId(),c:"",k:"",w:""}]};O.procs.push(p);TV.ctaP=p.id;tchPut("cta",O);rTch();};}
+  $("cpAdd").onclick=async()=>{const n=await uiInput("ชื่อหัตถการ (เช่น NG tube insertion)");if(!n||!n.trim())return;const p={id:tId(),name:n.trim(),rows:[{id:tId(),c:"",k:"",w:""}]};O.procs.push(p);TV.ctaP=p.id;tchPut("cta",O);rTch();};}
 function tPracCta(cur,R){const box=tT();
   const nk=R.filter(r=>tKws(r.k).length).length;
   box.innerHTML=(`<div class="card"><h3>ฝึก ${esc(cur.name)}</h3><span class="rd">พิมพ์ตอบทุกช่อง (หรือสุ่ม 1 ช่อง) แล้วตรวจว่ามี keyword ครบเป๊ะ ๆ ตาม tab Keyword ไหม — ไม่ใช้ AI · มี keyword แล้ว ${nk}/${R.length} ช่อง</span>
@@ -216,7 +229,7 @@ function tCasePage(cid){const C=bank[cid],sec=(tool,n)=>{const d=C[tool]||{},ks=
   const opt=()=>({hol:$("cHol").checked,res:$("cRes").checked});
   $("cSum").onclick=()=>tCaseAI(cid,"sum",opt());$("cYel").onclick=()=>tCaseAI(cid,"yellow",opt());
   document.querySelectorAll("[data-cp]").forEach(b=>b.onclick=()=>{const el=$(b.dataset.cp==="sum"?"oSum":"oYellow");try{navigator.clipboard.writeText(el.innerText);toast("คัดลอกแล้ว");}catch(e){toast("คัดลอกไม่ได้");}});
-  $("cDel").onclick=()=>{if(!confirm("ลบเคสนี้?"))return;bankPut(cid,Object.assign({},C,{del:true}));go(ward+"/case");};}
+  $("cDel").onclick=async()=>{if(!await uiAsk("ลบเคสนี้?"))return;bankPut(cid,Object.assign({},C,{del:true}));go(ward+"/case");};}
 async function tCaseAI(cid,kind,opt){const C=bank[cid];if(!C)return;if(!tAI()){toast("ต้องเปิดใน Claude หรือใส่ API key ก่อน");return;}
   TV.aiBusy=cid;bankPut(cid,Object.assign({},C,{opt}));if(view==="case")tCasePage(cid);
   try{const o=await aiJSON(tCasePrompt(C,kind,opt),9000),html=o&&(o.html||o.text)||"";if(!html)throw {code:"invalid_json"};
@@ -372,11 +385,11 @@ function tCtaImport(O,cur){const ai=tAI(),dlg=document.createElement("div");dlg.
       <div class="dlg-act" style="margin-top:8px"><button class="btn primary" id="tcOk" type="button">ใส่ลงตาราง</button></div>`;
     $("tcOk").onclick=async()=>{const w=(dlg.querySelector("[name=tcw]:checked")||{}).value,R=res.rows.map(r=>({id:tId(),c:r.c,k:"",w:""}));let p;
       if(w==="new"){const n=($("tcName").value||"").trim()||nm||"หัตถการใหม่";p={id:tId(),name:n,rows:R,src:fs.map(f=>f.name).join(", ")};O.procs.push(p);}
-      else{p=cur;if(w==="rep"){if(!confirm(`แทนที่เนื้อหาทั้งหมดของ “${cur.name}”?`))return;p.rows=R;}else p.rows=p.rows.filter(r=>String(r.c||"").replace(/<[^>]+>/g,"").trim()||r.k||r.w).concat(R);p.src=fs.map(f=>f.name).join(", ");}
+      else{p=cur;if(w==="rep"){if(!await uiAsk(`แทนที่เนื้อหาทั้งหมดของ “${cur.name}”?`))return;p.rows=R;}else p.rows=p.rows.filter(r=>String(r.c||"").replace(/<[^>]+>/g,"").trim()||r.k||r.w).concat(R);p.src=fs.map(f=>f.name).join(", ");}
       if(res.pages.length){const old=w==="app"?((await tFileGet(p.id))||[]):[];await tFileSave(p.id,old.concat(res.pages));}
       TV.ctaP=p.id;TV.tab.cta="full";tchPut("cta",O);close();rTch();toast("ใส่เนื้อหาแล้ว — ตรวจทานกับไฟล์ต้นฉบับได้ที่ “ดูไฟล์ต้นฉบับ”");};};}
 /* original pages (this browser only) under the content table */
 async function tCtaOrig(pid){const box=$("tcOrig");if(!box)return;const P=await tFileGet(pid);if(!P||!P.length){box.hidden=true;return;}
   box.hidden=false;box.innerHTML=`<details><summary>📄 ดูไฟล์ต้นฉบับ (${P.length} หน้า · เก็บในเครื่องนี้)</summary><div class="tcpages">${P.map((b,i)=>`<img alt="หน้า ${i+1}" data-pi="${i}">`).join("")}</div><button class="link" id="tcODel" type="button">ลบไฟล์ต้นฉบับจากเครื่องนี้</button></details>`;
   box.querySelectorAll("img[data-pi]").forEach(im=>{im.src=URL.createObjectURL(P[+im.dataset.pi]);});
-  $("tcODel").onclick=async()=>{if(!confirm("ลบรูปไฟล์ต้นฉบับจากเครื่องนี้? (เนื้อหาในตารางยังอยู่)"))return;await tFileDel(pid);box.hidden=true;};}
+  $("tcODel").onclick=async()=>{if(!await uiAsk("ลบรูปไฟล์ต้นฉบับจากเครื่องนี้? (เนื้อหาในตารางยังอยู่)"))return;await tFileDel(pid);box.hidden=true;};}

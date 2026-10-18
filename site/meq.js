@@ -338,11 +338,11 @@ function mqSubmit(){const c=mqCur();if(!c)return;const {q,pi}=c;if(mqPDone(q,pi)
   mqSave(q);mqView();const e=$("mqs"+subs[0]._i);if(e)setTimeout(()=>e.scrollIntoView({block:"start"}),60);if(HAS_CLAUDE())mqAiRun(q,pi,false);else if(mqClOK()&&mqS().v.ask!==false&&mqTyped(q,x))setTimeout(()=>mqAskAfter(q),450);}
 function mqSubmitReo(q,pi,ids){if(!ids.length)return;mqTStop();const x=mqEns(q);ids.forEach(i=>{if(x.reo)delete x.reo[i];});if(x.pz&&!mqReoIds(q,pi).length)delete x.pz[pi];
   mqKwFill(q,ids.map(i=>q.subs[i]));mqSave(q);mqView();const e=$("mqs"+ids[0]);if(e)setTimeout(()=>e.scrollIntoView({block:"start"}),60);if(HAS_CLAUDE())mqAiRun(q,pi,false);}
-function mqRedoSub(q,pi,i){if(!confirm("ทำข้อนี้ใหม่? คำตอบ ติ๊ก และคะแนนของข้อนี้จะถูกล้าง (ข้ออื่นไม่เปลี่ยน)"))return;mqTStop();const x=mqEns(q);mqClearSub(x,i);x.reo=x.reo||{};x.reo[i]=1;x.sub=0;mqSave(q);mqView();
+async function mqRedoSub(q,pi,i){if(!await uiAsk("ทำข้อนี้ใหม่? คำตอบ ติ๊ก และคะแนนของข้อนี้จะถูกล้าง (ข้ออื่นไม่เปลี่ยน)"))return;mqTStop();const x=mqEns(q);mqClearSub(x,i);x.reo=x.reo||{};x.reo[i]=1;x.sub=0;mqSave(q);mqView();
   const ta=$("mqa"+i);if(ta){ta.scrollIntoView({block:"center"});ta.focus({preventScroll:true});}}
-function mqRedoPart(q,pi){if(!confirm("ทำส่วนนี้ใหม่ทั้งหน้า? คำตอบ ติ๊ก คะแนน และเวลาของส่วนนี้จะถูกล้าง (ส่วนอื่นไม่เปลี่ยน)"))return;mqTStop();const x=mqEns(q);if(x.pz)delete x.pz[pi];x.reo=x.reo||{};
+async function mqRedoPart(q,pi){if(!await uiAsk("ทำส่วนนี้ใหม่ทั้งหน้า? คำตอบ ติ๊ก คะแนน และเวลาของส่วนนี้จะถูกล้าง (ส่วนอื่นไม่เปลี่ยน)"))return;mqTStop();const x=mqEns(q);if(x.pz)delete x.pz[pi];x.reo=x.reo||{};
   (mqTM()?mqTsubs(q,pi):q.parts[pi].subs).forEach(s=>{const was=mqSubDone(q,s,x);mqClearSub(x,s._i);if(was)x.reo[s._i]=1;});x.sub=0;x.pt=x.pt||{};x.time=Math.max(0,(x.time||0)-(x.pt[pi]||0));x.pt[pi]=0;mqSave(q);mqView();scrollTo(0,0);}
-function mqRedoCase(q){if(!confirm(mqTM()?"ล้างคำตอบและคะแนนของ Part ที่ตรงหัวข้อที่เลือกในข้อนี้ เพื่อทำใหม่?":"ล้างคำตอบ คะแนน และเวลาของข้อนี้ทั้งข้อ เพื่อทำใหม่?"))return;mqTStop();const A=mqA();
+async function mqRedoCase(q){if(!await uiAsk(mqTM()?"ล้างคำตอบและคะแนนของ Part ที่ตรงหัวข้อที่เลือกในข้อนี้ เพื่อทำใหม่?":"ล้างคำตอบ คะแนน และเวลาของข้อนี้ทั้งข้อ เพื่อทำใหม่?"))return;mqTStop();const A=mqA();
   if(mqTM()){const x=mqEns(q);x.reo=x.reo||{};q.subs.filter(mqTmatch).forEach(s=>{const was=mqSubDone(q,s,x);mqClearSub(x,s._i);if(x.sd)delete x.sd[s._i];if(was&&s._p<(x.ps||0))x.reo[s._i]=1;});x.sub=0;x.ts=now();}
   else A[q.uid]={t:{},g:{},gm:{},c:{},cs:{},ps:0,sd:{},ts:now()};mqS().v.pi=mqDefPart(q);save();mqView();scrollTo(0,0);}
 function mqBindView(q,pi){const r=()=>mqRec(q)||{};
@@ -428,8 +428,8 @@ async function mqInRun(){if(!MQIN)return;const L=mqL(MQIN.w);for(const u of MQIN
 /* Claude side → website: #meq=<packed records> */
 async function mqToWeb(uids){const A=mqA(),recs={};uids.forEach(u=>{if(A[u])recs[u]=mqPack(A[u],true);});const note=$("mqBackNote");
   try{const url=CFG.siteUrl.replace(/#.*$/,"")+"#meq="+await packStr(JSON.stringify({w:ward,p:ph(),r:recs}));
-    const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
-    if(note){note.innerHTML=`เปิดเว็บในแท็บใหม่แล้ว — ถ้าไม่เปิด <button class="linkbtn" type="button" id="mqBackCopy">คัดลอกลิงก์</button> ไปเปิดในเบราว์เซอร์เอง`;$("mqBackCopy").onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว");}catch(e){prompt("คัดลอกลิงก์นี้:",url);}};}}
+    openOut(url);
+    if(note){note.innerHTML=`เปิดเว็บในแท็บใหม่แล้ว — ถ้าไม่เปิด <button class="linkbtn" type="button" id="mqBackCopy">คัดลอกลิงก์</button> ไปเปิดในเบราว์เซอร์เอง`;$("mqBackCopy").onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว");}catch(e){uiCopy("คัดลอกลิงก์นี้:",url);}};}}
   catch(e){toast("สร้างลิงก์ไม่สำเร็จ");}}
 /* website side: receive #meq= */
 function mqCheckImport(){const m=/[#&]meq=([zj]\.[A-Za-z0-9_-]+)/.exec(location.hash||"");if(!m)return false;

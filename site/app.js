@@ -216,15 +216,17 @@ function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign(
   const read=()=>[...document.querySelectorAll("#dtRows .dtrow")].map(r=>{const g=f=>r.querySelector(`[data-f="${f}"]`),i=+r.dataset.i,old=D[i]||{},part=g("part").value,d=g("d").value,t=g("t").value,e=g("e").value,done=g("done").checked;
     const x={part};if(old.score)x.score=old.score;if(d){x.at=d+(t?"T"+t:"");if(t&&e)x.end=e;}else if(done)x.done=true;else return null;return x;}).filter(Boolean);
   const bindRow=r=>{r.querySelector("[data-del]").onclick=()=>r.remove();
-    const g=r.querySelector("[data-grip]");g.onpointerdown=e=>{e.preventDefault();g.setPointerCapture(e.pointerId);r.classList.add("drag");
-      g.onpointermove=ev=>{const box=$("dtRows"),rows=[...box.querySelectorAll(".dtrow")].filter(x=>x!==r);let before=null;for(const x of rows){const b=x.getBoundingClientRect();if(ev.clientY<b.top+b.height/2){before=x;break;}}if(before){if(before!==r.nextElementSibling)box.insertBefore(r,before);}else if(r!==box.lastElementChild)box.appendChild(r);};
-      g.onpointerup=g.onpointercancel=()=>{r.classList.remove("drag");g.onpointermove=null;};};r.querySelectorAll("[data-mv]").forEach(b=>b.onclick=()=>{const d=+b.dataset.mv,o=d<0?r.previousElementSibling:r.nextElementSibling;if(!o)return;if(d<0)o.before(r);else o.after(r);});};
+    const g=r.querySelector("[data-grip]");g.onpointerdown=e=>{e.preventDefault();r.classList.add("drag");
+      /* window listeners: moving the row drops pointer capture on the grip */
+      const pm=ev=>{if(ev.pointerId!==e.pointerId)return;const box=$("dtRows"),rows=[...box.querySelectorAll(".dtrow")].filter(x=>x!==r);let before=null;for(const x of rows){const b=x.getBoundingClientRect();if(ev.clientY<b.top+b.height/2){before=x;break;}}if(before){if(before!==r.nextElementSibling)box.insertBefore(r,before);}else if(r!==box.lastElementChild)box.appendChild(r);};
+      const pu=ev=>{if(ev.pointerId!==e.pointerId)return;r.classList.remove("drag");window.removeEventListener("pointermove",pm);window.removeEventListener("pointerup",pu);window.removeEventListener("pointercancel",pu);};
+      window.addEventListener("pointermove",pm);window.addEventListener("pointerup",pu);window.addEventListener("pointercancel",pu);};r.querySelectorAll("[data-mv]").forEach(b=>b.onclick=()=>{const d=+b.dataset.mv,o=d<0?r.previousElementSibling:r.nextElementSibling;if(!o)return;if(d<0)o.before(r);else o.after(r);});};
   document.querySelectorAll("#dtRows .dtrow").forEach(bindRow);
   $("dtAdd").onclick=()=>{const box=$("dtRows"),i=D.length;D.push({part:"MCQ"});if(!box.querySelector(".dtrow"))box.innerHTML="";box.insertAdjacentHTML("beforeend",row(D[i],i));bindRow(box.lastElementChild);};
   $("dtSave").onclick=()=>{const dates=read(),s_=$("rtS").value,e_=$("rtE").value;if(s_&&e_&&e_<s_){toast("วัน Discharge ต้องไม่ก่อนวัน Admit");return;}
     const xn=+$("exN").value,xm=+$("exM").value;if((xn||xm)&&!(xn>0&&xm>0)){toast("ใส่ทั้งจำนวนข้อและเวลา (หรือเว้นว่างทั้งคู่)");return;}
     st.wcfg=st.wcfg||{};st.wcfg[w.id]={dates,rotation:s_?{start:s_,end:e_||s_}:null,ts:now()};if(xn>0&&xm>0)st.wcfg[w.id].exam={n:Math.round(xn),min:Math.round(xm)};save();toast("บันทึกวันสอบแล้ว");go(ward);};
-  const rs=$("dtReset");if(rs)rs.onclick=()=>{if(!confirm("กลับไปใช้วันสอบตั้งต้นของเว็บ?"))return;st.wcfg[w.id]={reset:true,ts:now()};save();toast("กลับเป็นค่าตั้งต้นแล้ว");go(ward);};
+  const rs=$("dtReset");if(rs)rs.onclick=async()=>{if(!await uiAsk("กลับไปใช้วันสอบตั้งต้นของเว็บ?"))return;st.wcfg[w.id]={reset:true,ts:now()};save();toast("กลับเป็นค่าตั้งต้นแล้ว");go(ward);};
 }
 /* countdown, always rounded up from the exam time: "N w N d" → last 14 days "N d" → last 24 h "N h" → last 2 h "1 h N min" → last hour "N min" (0 min at the start) → "Exam done 🎉" for good.
    An exam without a time counts whole days to that date and shows "วันนี้" on the day. */
@@ -891,7 +893,7 @@ function inkPad(box,key,onSave){
   box.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{color=b.dataset.c;tool="pen";box.querySelectorAll("[data-c]").forEach(x=>x.setAttribute("aria-pressed",x===b));box.querySelectorAll("[data-t]").forEach(x=>x.setAttribute("aria-pressed",x.dataset.t==="pen"));});
   box.querySelector('[data-a="undo"]').onclick=()=>{if(!hist.length)return;d.s=JSON.parse(hist.pop());draw();commit();};
   box.querySelector('[data-a="more"]').onclick=()=>{d.h+=200;size();commit();};
-  box.querySelector('[data-a="clear"]').onclick=()=>{if(!d.s.length||!confirm("ล้างที่เขียนไว้ทั้งหมดในช่องนี้?"))return;snap();d.s=[];d.h=330;size();commit();};
+  box.querySelector('[data-a="clear"]').onclick=async()=>{if(!d.s.length||!await uiAsk("ล้างที่เขียนไว้ทั้งหมดในช่องนี้?"))return;snap();d.s=[];d.h=330;size();commit();};
   if(window.ResizeObserver){let lw=0;new ResizeObserver(()=>{if(cv.clientWidth&&cv.clientWidth!==lw){lw=cv.clientWidth;size();}}).observe(cv);}
   size();
   return {size};
@@ -995,7 +997,7 @@ function qEnd(g){if(!QR.mand||QR.ward!==ward)return;const s=P_().sess;if(!s||s.k
 function qGoFront(){const s=P_().sess;if(!s||QR.front>=s.list.length)return;if(s.cur!==QR.front){s.cur=QR.front;s.ts=now();save();if(view==="sess"){pick=null;rQuiz();window.scrollTo(0,0);}}}
 function qFinish(msg){if(!QR||QR.done)return;QR.done=true;clearInterval(QR.iv);SND.play(QR.pg.end||"triple");toast(msg);paintQR();if(view==="sess")paintNav();}
 function qPause(){if(!QR||QR.done)return;if(QR.paused){QR.t0=performance.now();QR.paused=false;SND.init();}else{QR.el0=qEl();QR.paused=true;}paintQR();if(view==="sess")paintNav();}
-function qReset(){if(!QR)return;if(!confirm("เริ่มจับเวลาใหม่ตั้งแต่ต้น (รวม warm up)? ข้อที่ตอบไปแล้วยังเก็บไว้"))return;qStart(QR.pg,QR.mand);if(QR.front>=P_().sess.list.length)qFinish("ทำครบทุกข้อในรอบนี้แล้ว");}
+async function qReset(){if(!QR)return;if(!await uiAsk("เริ่มจับเวลาใหม่ตั้งแต่ต้น (รวม warm up)? ข้อที่ตอบไปแล้วยังเก็บไว้"))return;qStart(QR.pg,QR.mand);if(QR.front>=P_().sess.list.length)qFinish("ทำครบทุกข้อในรอบนี้แล้ว");}
 function paintQR(){const b=$("qbar");if(!b)return;
   const on=!!(QR&&ward&&QR.ward===ward&&view==="sess"&&P_().sess&&P_().sess.kind==="quality");
   b.hidden=!on;document.body.classList.toggle("qon",on);if(!on)return;
@@ -1007,7 +1009,7 @@ function paintQR(){const b=$("qbar");if(!b)return;
   $("qbPause").textContent=QR.paused?"▶ ต่อ":"⏸ พัก";$("qbPause").disabled=QR.done;b.dataset.k=QR.done?"done":g?g.kind:"";
   const v=$("qbVol");if(document.activeElement!==v)v.value=qpS().vol;}
 $("qbPause").onclick=qPause;$("qbReset").onclick=qReset;
-$("qbStop").onclick=()=>{if(QR&&!QR.done&&!confirm("หยุดจับเวลาและจบรอบนี้?"))return;qStop();go(ward+"/result");};
+$("qbStop").onclick=async()=>{if(QR&&!QR.done&&!await uiAsk("หยุดจับเวลาและจบรอบนี้?"))return;qStop();go(ward+"/result");};
 $("qbVol").oninput=e=>{qpS().vol=+e.target.value;persist();};
 $("qbVol").onchange=()=>{save();SND.play("ding");};
 
@@ -1071,7 +1073,7 @@ function rQEdit(){
     el.addEventListener("input",h2);el.addEventListener("change",h2);});
   document.querySelectorAll("#main [data-play]").forEach(el=>el.onclick=()=>{const k=el.dataset.play;SND.play(k==="warm"?e.warm.sound:k==="end"?e.end:(()=>{const [bi,pi]=k.split(".").map(Number);return e.blocks[bi].phases[pi].sound;})());});
   const sw=(a,i,j)=>{if(j<0||j>=a.length)return;[a[i],a[j]]=[a[j],a[i]];};
-  document.querySelectorAll("#main [data-a]").forEach(el=>el.onclick=()=>{const a=el.dataset.a,{b,bi,pi}=tgt(el),q=qpS();
+  document.querySelectorAll("#main [data-a]").forEach(el=>el.onclick=async()=>{const a=el.dataset.a,{b,bi,pi}=tgt(el),q=qpS();
     if(a==="bup")sw(e.blocks,bi,bi-1);else if(a==="bdn")sw(e.blocks,bi,bi+1);else if(a==="bdel"){if(e.blocks.length<2){toast("ต้องมีอย่างน้อย 1 เซต");return;}e.blocks.splice(bi,1);}
     else if(a==="pup")sw(b.phases,pi,pi-1);else if(a==="pdn")sw(b.phases,pi,pi+1);else if(a==="pdel"){if(b.phases.length<2){toast("เซตต้องมีอย่างน้อย 1 phase");return;}b.phases.splice(pi,1);}
     else if(a==="padd")b.phases.push({name:"Phase "+(b.phases.length+1),sec:10,sound:"ding",kind:"free"});
@@ -1081,9 +1083,9 @@ function rQEdit(){
       const out=clone(e);delete out.builtin;if(!out.name.trim())out.name="ไม่มีชื่อ";
       if(qSegs(out).S.length>=20000){toast("ชุดนี้ยาวเกินไป ลดจำนวนรอบลง");return;}
       if(a==="save"){if(e.builtin)q.over[e.id]=out;else q.custom=q.custom.map(x=>x.id===e.id?out:x);q.sel=e.id;}
-      else if(a==="saveas"){const nm=prompt("ตั้งชื่อ preset ใหม่",e.id?e.name+" (ของฉัน)":e.name);if(!nm)return;out.name=nm.trim()||out.name;out.id="c"+now().toString(36);q.custom.push(out);q.sel=out.id;}
-      else if(a==="restore"){if(!confirm("คืนค่า preset นี้เป็นแบบเดิม?"))return;delete q.over[e.id];q.sel=e.id;}
-      else if(a==="del"){if(!confirm(`ลบชุด "${e.name}"?`))return;q.custom=q.custom.filter(x=>x.id!==e.id);q.sel="p1";}
+      else if(a==="saveas"){const nm=await uiInput("ตั้งชื่อ preset ใหม่",e.id?e.name+" (ของฉัน)":e.name);if(!nm)return;out.name=nm.trim()||out.name;out.id="c"+now().toString(36);q.custom.push(out);q.sel=out.id;}
+      else if(a==="restore"){if(!await uiAsk("คืนค่า preset นี้เป็นแบบเดิม?"))return;delete q.over[e.id];q.sel=e.id;}
+      else if(a==="del"){if(!await uiAsk(`ลบชุด "${e.name}"?`))return;q.custom=q.custom.filter(x=>x.id!==e.id);q.sel="p1";}
       QED=null;save();toast("บันทึกแล้ว");go(ward+"/quality");return;}
     rQEdit();});
 }
@@ -1499,7 +1501,7 @@ async function legBegin(n){
   const k=legAIn(n),wid=ward;LG={k,done:0,wid,halt:false};rLegend();
   const r=await legGenAI(k),lg=LG;LG=null;
   if(!lg||lg.halt==="abort"||ward!==wid){if(view==="legend")rLegend();return;}
-  if(!r.qs.length&&lg.halt!=="now"){if(!confirm(`สร้างโจทย์ใหม่ด้วย AI ไม่สำเร็จ${r.err?` (${admMsg(r.err)||"ไม่ทราบสาเหตุ"})`:""}\nเริ่มสอบโดยใช้แต่ข้อในคลังเลยไหม?`)){rLegend();return;}}
+  if(!r.qs.length&&lg.halt!=="now"){if(!await uiAsk(`สร้างโจทย์ใหม่ด้วย AI ไม่สำเร็จ${r.err?` (${admMsg(r.err)||"ไม่ทราบสาเหตุ"})`:""}\nเริ่มสอบโดยใช้แต่ข้อในคลังเลยไหม?`)){rLegend();return;}}
   else if(r.qs.length<k&&lg.halt!=="now")toast(`AI สร้างโจทย์ใหม่ได้ ${r.qs.length}/${k} ข้อ ที่เหลือใช้ข้อในคลังแทน`);
   legStart(r.qs);}
 function legPreFields(X,u){const o=(X&&X.pre||{})[u];if(!o)return `<span class="field seen new"><b>ก่อนสอบ</b>ข้อใหม่ ไม่เคยเจอ</span>`;let h="";
@@ -1530,7 +1532,7 @@ function rLegend(){
   $("main").innerHTML=h;
   const ls=$("lgSub");if(ls)ls.onclick=legAskSubmit;
   const r=$("lgResume");if(r){r.onclick=()=>go(ward+"/exam");const el=$("lgLeft");show._t=setInterval(()=>{if(!document.body.contains(el)){clearInterval(show._t);return;}el.textContent=hms(P.leg?P.leg.end-now():0);},1000);}
-  const g=$("lgGo");if(g)g.onclick=()=>{const ai=st.legAI!==false&&legAIOK();if(!confirm(`เริ่มสอบ ${ai?E.n:n} ข้อ เวลา ${E.min} นาที?\n${ai?"รอ AI เขียนโจทย์ใหม่ก่อนสักครู่ แล้ว":""}เวลาจะเดินทันทีและเดินต่อแม้ออกจากหน้านี้`))return;legBegin(ai?E.n:n);};
+  const g=$("lgGo");if(g)g.onclick=async()=>{const ai=st.legAI!==false&&legAIOK();if(!await uiAsk(`เริ่มสอบ ${ai?E.n:n} ข้อ เวลา ${E.min} นาที?\n${ai?"รอ AI เขียนโจทย์ใหม่ก่อนสักครู่ แล้ว":""}เวลาจะเดินทันทีและเดินต่อแม้ออกจากหน้านี้`))return;legBegin(ai?E.n:n);};
   const ga=$("lgAI");if(ga)ga.onchange=e=>{st.legAI=e.target.checked;save();};
   const gx=$("lgAIx");if(gx)gx.onclick=()=>{if(LG){LG.halt="abort";LG.stop&&LG.stop();}};
   const gn=$("lgAInow");if(gn)gn.onclick=()=>{if(LG){LG.halt="now";LG.stop&&LG.stop();}};
@@ -1562,9 +1564,9 @@ async function updateForAll(noteId){const keys=shareItems(ward);const note=$(not
   if(HAS_CLAUDE()){if(!CFG.siteUrl)return;const cut=keys.slice(0,150);
     try{const d=await packStr(JSON.stringify({w:ward,b:legBundle(cut),share:cut})),url=CFG.siteUrl.replace(/#.*$/,"")+"#bank="+d;
       cut.forEach(k=>{const x=bank[k];if(x){x.shared=now()+10000;bankPut(k,x);}});
-      const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
+      openOut(url);
       if(note)note.innerHTML=`เปิดเว็บแล้ว — ในเว็บต้อง<b>เข้าสู่ระบบ</b>จึงจะแชร์ให้ทุกคนได้ (ยังไม่เข้าสู่ระบบ เว็บจะเก็บไว้รอ แล้วแชร์ให้ทันทีที่เข้าสู่ระบบ)${keys.length>cut.length?` · เหลืออีก ${keys.length-cut.length} ข้อ กดอีกครั้ง`:""} · ถ้าแท็บใหม่ไม่เปิด <button class="linkbtn" id="ufaCopy">คัดลอกลิงก์</button>`;
-      const c=$("ufaCopy");if(c)c.onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว");}catch(e){prompt("คัดลอกลิงก์นี้ไปเปิดในเบราว์เซอร์:",url);}};}
+      const c=$("ufaCopy");if(c)c.onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว");}catch(e){uiCopy("คัดลอกลิงก์นี้ไปเปิดในเบราว์เซอร์:",url);}};}
     catch(e){console.warn(e);toast("สร้างลิงก์ไม่สำเร็จ");}return;}
   const n=await shareUpload(ward,keys);
   if(n<0){toast("เข้าสู่ระบบก่อน แล้วระบบจะแชร์ให้ทุกคนทันที");go("signin");}else if(n)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);else toast("แชร์ไม่สำเร็จ — ตรวจการเชื่อมต่อ");
@@ -1619,9 +1621,9 @@ async function sendWeb(keys,noteId){const note=$(noteId||"lhNote");
   try{const d=await packStr(JSON.stringify({w:ward,b:legBundle(keys)})),url=CFG.siteUrl.replace(/#.*$/,"")+"#bank="+d;
     keys.forEach(k=>{const x=bank[k];if(x&&unsent(x)){x.sent=now()+10000;bankPut(k,x);}});
     if(left)toast(`ส่งไป ${cut.length} เคส เหลืออีก ${left} เคส — กดส่งอีกครั้งหลังเว็บเปิดแล้ว`);
-    const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
+    openOut(url);
     if(note)note.innerHTML=`${left?`ส่งไปแล้วบางส่วน เหลืออีก ${left} เคส · `:""}เปิดเว็บในแท็บใหม่แล้ว (ลิงก์ยาว ${Math.round(url.length/1024)} KB) — ถ้าไม่เปิด <button class="linkbtn" id="lhCopy">คัดลอกลิงก์</button> ไปเปิดในเบราว์เซอร์เอง`;
-    const c=$("lhCopy");if(c)c.onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว");}catch(e){prompt("คัดลอกลิงก์นี้ไปเปิดในเบราว์เซอร์:",url);}};
+    const c=$("lhCopy");if(c)c.onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว");}catch(e){uiCopy("คัดลอกลิงก์นี้ไปเปิดในเบราว์เซอร์:",url);}};
   }catch(e){console.warn(e);toast("สร้างลิงก์ไม่สำเร็จ");}}
 /* website side: a #legs= link adds those papers (and their AI questions) to this browser's history */
 function checkLegImport(){const m=/[#&](?:legs|bank)=([zj]\.[A-Za-z0-9_-]+)/.exec(location.hash||"");if(!m)return false;
@@ -1640,7 +1642,7 @@ function checkLegImport(){const m=/[#&](?:legs|bank)=([zj]\.[A-Za-z0-9_-]+)/.exe
       const wait=async()=>{for(let i=0;i<40&&!(fb&&fb.user)&&fbOn();i++)await new Promise(r=>setTimeout(r,250));const n=await shareUpload(w,sk);
         if(n>0)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);else if(n<0){toast("เข้าสู่ระบบเพื่อแชร์โจทย์ให้ทุกคน — เก็บไว้รอแล้ว");}};wait();}
     go(w+"/"+(np?"lhist":"adm"));}
-  catch(e){console.warn(e);alert("ลิงก์ผลสอบไม่ถูกต้อง หรือไม่ครบ (ลองคัดลอกลิงก์ใหม่ทั้งหมด)");}})();
+  catch(e){console.warn(e);uiAlert("ลิงก์ผลสอบไม่ถูกต้อง หรือไม่ครบ (ลองคัดลอกลิงก์ใหม่ทั้งหมด)");}})();
   return true;}
 function legStart(aiQs){
   aiQs=aiQs||[];const P=P_(),W=W_(),E=examCfg(),p=ph(),t=now(),id=t.toString(36),D=legDraw(Math.max(0,E.n-aiQs.length));if(!D.list.length&&!aiQs.length){toast("ยังไม่มีข้อให้สุ่ม");return;}
@@ -1670,8 +1672,8 @@ function rExam(){
   $("starBtn").onclick=()=>{if(X.star[q.uid])delete X.star[q.uid];else X.star[q.uid]=1;save();rExam();};
   paintNav();
 }
-function legAskSubmit(){const X=P_().leg;if(!X)return;const n=X.list.length,a=Object.keys(X.ans).length,s=Object.keys(X.star).filter(u=>X.star[u]).length;
-  if(!confirm(`Submit ส่งข้อสอบ?\nตอบแล้ว ${a}/${n} ข้อ${n-a?` · ยังไม่ได้ทำ ${n-a} ข้อ`:""}${s?` · ติดดาวไว้ ${s} ข้อ`:""}\nเหลือเวลา ${hms(X.end-now())}`))return;closeS(true);legSubmit(ward,false,true);}
+async function legAskSubmit(){const X=P_().leg;if(!X)return;const n=X.list.length,a=Object.keys(X.ans).length,s=Object.keys(X.star).filter(u=>X.star[u]).length;
+  if(!await uiAsk(`Submit ส่งข้อสอบ?\nตอบแล้ว ${a}/${n} ข้อ${n-a?` · ยังไม่ได้ทำ ${n-a} ข้อ`:""}${s?` · ติดดาวไว้ ${s} ข้อ`:""}\nเหลือเวลา ${hms(X.end-now())}`))return;closeS(true);legSubmit(ward,false,true);}
 function legSubmit(wid,auto,nav){
   const P=PWof(st,wid),X=P.leg,W=WARDS[wid];if(!X||!W)return;const t=Math.min(now(),X.end);let score=0;
   X.list.forEach(u=>{const q=legQw(wid,u),a=X.ans[u];if(q&&a!=null){if(a===q.ans)score++;const sr=legSrc(X,u);
@@ -1899,10 +1901,10 @@ function sheet(){
     sv.status==="wrong"?"ยังไม่มีข้อที่ตอบผิดในชุดนี้":sv.status==="flag"?"ยังไม่มีข้อที่ทำเครื่องหมายไม่มั่นใจ":"ไม่มีข้อที่ตรงกับตัวกรองนี้");
   $("sheetFoot").innerHTML=`<span class="hint">เส้นเขียวรอบวง = เฉลย · แตะเลือกได้หลายชุด</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span>
    <button class="link" id="redoWrong">ทำข้อที่ผิดใหม่</button><button class="link" id="backup">ส่งลิงก์ความคืบหน้า</button><button class="link" id="restore">นำเข้า</button><button class="link" id="reset">ล้างกระดาษคำตอบ</button>`;
-  $("redoWrong").onclick=()=>{const w=pool.filter(q=>{const a=lockedAns(P,p,q.uid);return a!==undefined&&a!==q.ans;});if(!w.length){alert("ยังไม่มีข้อที่ตอบผิดในชุดนี้");return;}
-    if(confirm(`เปิดข้อที่ตอบผิด ${w.length} ข้อให้ทำใหม่? (ข้อที่ถูกยังอยู่ ประวัติการตอบยังเก็บไว้)`)){const t=now();w.forEach(q=>{P.open[p][q.uid]=t;});sv.status="todo";save();sheet();rQuiz();}};
+  $("redoWrong").onclick=async()=>{const w=pool.filter(q=>{const a=lockedAns(P,p,q.uid);return a!==undefined&&a!==q.ans;});if(!w.length){uiAlert("ยังไม่มีข้อที่ตอบผิดในชุดนี้");return;}
+    if(await uiAsk(`เปิดข้อที่ตอบผิด ${w.length} ข้อให้ทำใหม่? (ข้อที่ถูกยังอยู่ ประวัติการตอบยังเก็บไว้)`)){const t=now();w.forEach(q=>{P.open[p][q.uid]=t;});sv.status="todo";save();sheet();rQuiz();}};
   $("backup").onclick=exportLink;$("restore").onclick=importPrompt;
-  $("reset").onclick=()=>{if(confirm(`ล้างกระดาษคำตอบ Phase ${p} ของชุดที่เลือก แล้วเริ่มทำใหม่? (ประวัติการตอบยังเก็บไว้ใช้กับ Ward staff round)`)){const t=now();pool.forEach(q=>{P.open[p][q.uid]=t;});sv.status="all";pick=null;save();sheet();rQuiz();}};
+  $("reset").onclick=async()=>{if(await uiAsk(`ล้างกระดาษคำตอบ Phase ${p} ของชุดที่เลือก แล้วเริ่มทำใหม่? (ประวัติการตอบยังเก็บไว้ใช้กับ Ward staff round)`)){const t=now();pool.forEach(q=>{P.open[p][q.uid]=t;});sv.status="all";pick=null;save();sheet();rQuiz();}};
   paintSync();
 }
 /* ---------------- search inside the answer sheet: every word typed must appear (any order, any case) — question, choices, recall text, topic/tags; plus the explanation once the question has been answered ---------------- */
@@ -1973,24 +1975,24 @@ function applyAll(data,replace){let t=now();
       if(o[u].f)P.flag[u]=[1,t++];}}
   save();}
 function shareLink(link,title){(async()=>{if(navigator.share){try{await navigator.share({title,url:link});return;}catch(e){if(e&&e.name==="AbortError")return;}}
-  try{await navigator.clipboard.writeText(link);alert("คัดลอกลิงก์ความคืบหน้าแล้ว — เปิดลิงก์นี้บนเครื่องใหม่เพื่อนำความคืบหน้าไปด้วย");}catch(e){prompt("คัดลอกลิงก์นี้ไปเปิดบนเครื่องใหม่:",link);}})();}
-function exportLink(){const d=encodeAll();if(!d){alert("ยังไม่มีคำตอบให้ส่ง");return;}
-  if(!SITE){const code="AC-PROGRESS:"+d;(async()=>{try{await navigator.clipboard.writeText(code);alert("คัดลอกรหัสความคืบหน้าแล้ว — บนเครื่องใหม่กด \"นำเข้าลิงก์ / รหัส\" แล้ววางรหัสนี้");}catch(e){prompt("คัดลอกรหัสนี้ไปวางบนเครื่องใหม่ (ปุ่มนำเข้าลิงก์ / รหัส):",code);}})();return;}
+  try{await navigator.clipboard.writeText(link);uiAlert("คัดลอกลิงก์ความคืบหน้าแล้ว — เปิดลิงก์นี้บนเครื่องใหม่เพื่อนำความคืบหน้าไปด้วย");}catch(e){uiCopy("คัดลอกลิงก์นี้ไปเปิดบนเครื่องใหม่:",link);}})();}
+function exportLink(){const d=encodeAll();if(!d){uiAlert("ยังไม่มีคำตอบให้ส่ง");return;}
+  if(!SITE){const code="AC-PROGRESS:"+d;(async()=>{try{await navigator.clipboard.writeText(code);uiAlert("คัดลอกรหัสความคืบหน้าแล้ว — บนเครื่องใหม่กด \"นำเข้าลิงก์ / รหัส\" แล้ววางรหัสนี้");}catch(e){uiCopy("คัดลอกรหัสนี้ไปวางบนเครื่องใหม่ (ปุ่มนำเข้าลิงก์ / รหัส):",code);}})();return;}
   shareLink(SITE+"#all="+d,"ความคืบหน้า "+(CFG.siteName||""));}
 /* older single-phase links: #p=[ward.]<hash7+answer>… (also made by the artifact in Claude) */
 function decodeP(w,p){const W=WARDS[w];if(!W)return {};const m={};W.QB.forEach(q=>{m[H7(q.uid)]=q.uid;});const o={};p=String(p).replace(/[^0-9a-z]/g,"");for(let i=0;i+8<=p.length;i+=8){const u=m[p.slice(i,i+7)],v=+p[i+7];if(u&&v>=0&&v<5)o[u]=v;}return o;}
 function applyImport(w,o){const P=PWof(st,w),p=ph(),t=now();let n=0;Object.keys(o).forEach(u=>{const a=lastA(P,p,u);if(!a||a[0]!==o[u]){(P.att[p][u]=P.att[p][u]||[]).push([o[u],t]);n++;}});save();return n;}
-const askMode=n=>confirm(`นำเข้าความคืบหน้า ${n} ข้อ (ทุกวอร์ด ทุก Phase)\n\nกด OK = รวมกับของเครื่องนี้ (ข้อไหนทำในเครื่องนี้มากกว่า จะเก็บของเครื่องนี้ไว้)\nกด Cancel = ไม่นำเข้า`);
+const askMode=n=>uiAsk(`นำเข้าความคืบหน้า ${n} ข้อ (ทุกวอร์ด ทุก Phase)\n\nกด OK = รวมกับของเครื่องนี้ (ข้อไหนทำในเครื่องนี้มากกว่า จะเก็บของเครื่องนี้ไว้)\nกด Cancel = ไม่นำเข้า`);
 function afterImport(){toast("นำเข้าเรียบร้อย");route();}
-function importText(c){
+async function importText(c){
   const a=/(?:[#&]all=|AC-PROGRESS:)([0-9a-z:,~!_-]*)/.exec(c);
-  if(a){const r=decodeAll(a[1]);if(!r.n){alert("ลิงก์ไม่ถูกต้อง หรือไม่ตรงกับข้อในคลังนี้");return;}if(askMode(r.n)){applyAll(r.data,false);afterImport();}return;}
+  if(a){const r=decodeAll(a[1]);if(!r.n){uiAlert("ลิงก์ไม่ถูกต้อง หรือไม่ตรงกับข้อในคลังนี้");return;}if(await askMode(r.n)){applyAll(r.data,false);afterImport();}return;}
   const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]+)/.exec(c);let o={},w=ward||WL[0].id;
   if(m){w=m[1]&&WARDS[m[1]]?m[1]:w;o=decodeP(w,m[2]);}
   else{try{const x=JSON.parse(decodeURIComponent(escape(atob(String(c).trim()))));if(x&&x.a)o=x.a;}catch(e){}}
-  const n=Object.keys(o).length;if(!n){alert("ลิงก์หรือรหัสไม่ถูกต้อง หรือไม่ตรงกับข้อในคลังนี้");return;}
-  if(confirm(`ลิงก์/รหัสแบบเก่า มีความคืบหน้า ${n} ข้อของวอร์ด ${WARDS[w].cfg.name} — นำเข้าเข้า Phase ${ph()} ของเครื่องนี้?`)){applyImport(w,o);afterImport();}}
-function importPrompt(){const c=prompt("วางลิงก์หรือรหัสความคืบหน้าที่สำรองไว้:");if(c)importText(c);}
+  const n=Object.keys(o).length;if(!n){uiAlert("ลิงก์หรือรหัสไม่ถูกต้อง หรือไม่ตรงกับข้อในคลังนี้");return;}
+  if(await uiAsk(`ลิงก์/รหัสแบบเก่า มีความคืบหน้า ${n} ข้อของวอร์ด ${WARDS[w].cfg.name} — นำเข้าเข้า Phase ${ph()} ของเครื่องนี้?`)){applyImport(w,o);afterImport();}}
+async function importPrompt(){const c=await uiInput("วางลิงก์หรือรหัสความคืบหน้าที่สำรองไว้:");if(c)importText(c);}
 function checkHashImport(){const h=location.hash||"";if(!/[#&](all|p)=/.test(h))return false;
   try{history.replaceState(null,"",location.pathname+location.search+"#/");}catch(e){location.hash="#/";}
   setTimeout(()=>importText(h),300);return true;}
@@ -2004,8 +2006,8 @@ async function exportFile(){
 function importFile(){
   const i=document.createElement("input");i.type="file";i.accept=".json,application/json";
   i.onchange=async()=>{const f=i.files&&i.files[0];if(!f)return;let o;try{o=JSON.parse(await f.text());}catch(e){o=null;}
-    if(!o||o.kind!=="ac-mcq-backup"||!o.st){alert("ไฟล์นี้ไม่ใช่ไฟล์สำรองของเว็บนี้");return;}
-    if(!confirm("นำเข้าไฟล์สำรอง? จะรวมกับข้อมูลในเครื่องนี้ (คำตอบรวมกัน โน้ตใช้ฉบับที่แก้ล่าสุด)"))return;
+    if(!o||o.kind!=="ac-mcq-backup"||!o.st){uiAlert("ไฟล์นี้ไม่ใช่ไฟล์สำรองของเว็บนี้");return;}
+    if(!await uiAsk("นำเข้าไฟล์สำรอง? จะรวมกับข้อมูลในเครื่องนี้ (คำตอบรวมกัน โน้ตใช้ฉบับที่แก้ล่าสุด)"))return;
     mergeSt(st,o.st);const ks=[];for(const k in o.ink||{}){if(!ink[k]||(o.ink[k].ts||0)>(ink[k].ts||0)){ink[k]=o.ink[k];ks.push(k);}}
     try{localStorage.setItem(IKEY,JSON.stringify(ink));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}
     const bs=bankMerge(o.bank);
@@ -2017,6 +2019,32 @@ let fb=null,fbFail=false,pushT=null,inkT=null;const inkDirty=new Set();let sync=
 /* When the page runs as an artifact inside claude.ai, progress syncs to the viewer's Claude account (db + user capabilities). */
 let cl=null;
 const HAS_CLAUDE=()=>!!(window.claude&&typeof window.claude.use==="function");
+/* confirm / prompt / alert: the Claude page runs in a sandbox where the browser's own pop-ups are blocked (they return at once with "Cancel"),
+   so inside Claude these show an in-page dialog instead; the website keeps the browser's own. All return a Promise. */
+function uiDlg(msg,o){o=o||{};return new Promise(ok=>{const d=document.createElement("div");d.className="mqdlg uidlg";d.setAttribute("role","dialog");
+  d.innerHTML=`<div class="mqdlg-box"><p class="uimsg"></p>${o.input!==undefined?(o.ro?`<textarea class="uiin" rows="4" readonly></textarea>`:`<input class="uiin" type="text">`):""}<div class="dlg-act">${o.cancel!==null?`<button class="btn ghost" data-u="0" type="button"></button>`:""}<button class="btn primary" data-u="1" type="button"></button></div></div>`;
+  d.querySelector(".uimsg").textContent=msg;const inp=d.querySelector(".uiin");if(inp){inp.value=o.input||"";}
+  const b0=d.querySelector('[data-u="0"]'),b1=d.querySelector('[data-u="1"]');if(b0)b0.textContent=o.cancel||"ยกเลิก";b1.textContent=o.ok||"ตกลง";
+  const done=v=>{d.remove();document.removeEventListener("keydown",kd,true);ok(v);},kd=e=>{if(e.key==="Escape"){e.stopPropagation();done(o.input!==undefined?null:false);}else if(e.key==="Enter"&&inp&&!o.ro){e.preventDefault();done(inp.value);}};
+  if(b0)b0.onclick=()=>done(o.input!==undefined?null:false);b1.onclick=()=>done(o.input!==undefined?(o.ro?true:inp.value):true);
+  d.addEventListener("click",e=>{if(e.target===d&&o.cancel!==null)done(o.input!==undefined?null:false);});document.addEventListener("keydown",kd,true);
+  document.body.appendChild(d);setTimeout(()=>{if(inp){inp.focus();inp.select();}else b1.focus();},30);});}
+const uiAsk=(m,o)=>HAS_CLAUDE()?uiDlg(m,o):Promise.resolve(confirm(m));
+const uiInput=(m,v)=>HAS_CLAUDE()?uiDlg(m,{input:v||""}):Promise.resolve(prompt(m,v||""));
+const uiAlert=m=>HAS_CLAUDE()?uiDlg(m,{cancel:null}):Promise.resolve(alert(m));
+/* open the website in a new tab: inside Claude a click that happens after an await is not allowed to open a tab,
+   so there it shows a dialog with a real link to tap (plus copy); on the website it opens straight away */
+function openOut(url){
+  if(!HAS_CLAUDE()){const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();return;}
+  const d=document.createElement("div");d.className="mqdlg uidlg";d.innerHTML=`<div class="mqdlg-box"><h3>เปิดเว็บ</h3><p>แตะปุ่มด้านล่างเพื่อเปิดเว็บในแท็บใหม่ แล้วข้อมูลจะเข้าเว็บเอง (ลิงก์ยาว ${Math.max(1,Math.round(url.length/1024))} KB)</p>
+    <a class="btn primary" href="${esc(url)}" target="_blank" rel="noopener" style="display:block;text-align:center;text-decoration:none">เปิดเว็บ ↗</a>
+    <button class="btn" type="button" data-oc style="width:100%;margin-top:8px">คัดลอกลิงก์ (ถ้าเปิดไม่ขึ้น)</button><textarea class="uiin" rows="3" readonly hidden></textarea>
+    <div class="dlg-act" style="margin-top:10px"><button class="btn ghost" type="button" data-ox>ปิด</button></div></div>`;
+  document.body.appendChild(d);const ta=d.querySelector("textarea");ta.value=url;
+  d.querySelector("a").addEventListener("click",()=>setTimeout(()=>d.remove(),300));d.querySelector("[data-ox]").onclick=()=>d.remove();
+  d.querySelector("[data-oc]").onclick=async()=>{try{await navigator.clipboard.writeText(url);toast("คัดลอกลิงก์แล้ว — ไปวางในเบราว์เซอร์");}catch(e){ta.hidden=false;ta.focus();ta.select();try{document.execCommand("copy");toast("คัดลอกลิงก์แล้ว");}catch(x){toast("กดค้างที่ลิงก์แล้วเลือกคัดลอก");}}};}
+/* a link the reader copies by hand when the clipboard is not allowed */
+const uiCopy=(m,t)=>HAS_CLAUDE()?uiDlg(m,{input:t,ro:true,cancel:null,ok:"ปิด"}):Promise.resolve(prompt(m,t));
 const fbOn=()=>!!(CFG.firebase&&CFG.firebase.apiKey)&&!HAS_CLAUDE();   /* inside Claude the Claude account is the sync, Firebase sign-in is for the GitHub site only */
 function paintAcct(){const b=$("acctBtn");b.hidden=view==="signin";
   if(cl){b.classList.add("on");b.textContent="☁️";b.title=b.ariaLabel="บันทึกในบัญชี Claude";}
