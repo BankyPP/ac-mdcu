@@ -741,3 +741,11 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .mqdlg-box .ck{display:flex;align-items:center;gap:6px;font-size:14px;margin-top:6px}
 @media (max-width:600px){.ttable.key .trow{grid-template-columns:1fr}.ttable.key .th{border-right:0;border-bottom:1px solid var(--rule)}.ttable.key .tc.ro{max-height:130px;overflow:auto}.ttable.key .tc+.tk{border-left:0;border-top:1px dashed var(--rule);min-height:56px}
 .ttable.full:not(.cta) .trow{grid-template-columns:26px 1fr 24px}.ttable.full:not(.cta) .th{grid-column:2;border-right:0;border-bottom:1px solid var(--rule)}.ttable.full:not(.cta) .tc{grid-column:2}.ttable.full:not(.cta) .ton{grid-row:span 2}.ttable.full:not(.cta) .tdel{grid-column:3;grid-row:1 / span 2}.ttable.full:not(.cta) .tc+.tdel{border-left:0}}
+/* CTA file import */
+.tcimp .ck{display:flex;gap:6px;align-items:flex-start;margin:6px 0;line-height:1.5}
+.tcimp .ck input[type=text]{flex:1;min-width:0;font:inherit;padding:4px 6px;border:1px solid var(--line);border-radius:4px}
+.tcprev{max-height:38vh;overflow:auto;border:1px solid var(--line);border-radius:6px;margin:8px 0;font-size:14px;line-height:1.55}
+.tcpr{display:flex;gap:8px;padding:6px 8px;border-bottom:1px solid var(--line)}.tcpr:last-child{border-bottom:0}
+.tcpn{font-family:Kanit,sans-serif;color:var(--muted,#888);min-width:22px;text-align:right}
+.tcorig{margin-top:14px}.tcorig summary{cursor:pointer;font-family:Kanit,sans-serif}
+.tcpages{display:flex;flex-direction:column;gap:8px;margin:8px 0}.tcpages img{width:100%;border:1px solid var(--line);border-radius:4px}

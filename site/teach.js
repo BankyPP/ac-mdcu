@@ -140,22 +140,22 @@ function tLogBind(){}
 /* ---------- CTA: several procedures, each a one-column table ---------- */
 function tCta(O,tab){const PR=O.procs;let cur=PR.find(p=>p.id===TV.ctaP)||PR[0];
   let h=`<div class="chips scroll">${PR.map(p=>`<button class="chip" type="button" data-cp="${esc(p.id)}" aria-pressed="${cur&&p.id===cur.id}">${esc(p.name)}</button>`).join("")}<button class="chip" type="button" id="cpAdd">+ เพิ่มหัตถการ</button></div>`;
-  if(!cur){h+=`<div class="empty">ยังไม่มีหัตถการ — กด “+ เพิ่มหัตถการ” หรือส่งไฟล์ CTA ให้ Claude ใส่เนื้อหาให้ตรงตามไฟล์ทุกคำ</div>`;$("tBody").innerHTML=h;tCtaBind(O,null);return;}
+  if(!cur){h+=`<div class="empty">ยังไม่มีหัตถการ — กด “📄 ใส่ไฟล์ CTA” ให้เว็บเติมเนื้อหาตามไฟล์ทุกคำ หรือ “+ เพิ่มหัตถการ” แล้วพิมพ์เอง<div class="stack" style="margin-top:10px"><button class="btn primary" id="tcImp" type="button">📄 ใส่ไฟล์ CTA</button></div></div>`;$("tBody").innerHTML=h;tCtaBind(O,null);$("tcImp").onclick=()=>tCtaImport(O,null);return;}
   if(tab==="prac"){TV.ctaP=cur.id;h+=`<div id="tPrac"></div>`;$("tBody").innerHTML=h;tCtaBind(O,cur);
     if(TV.prac&&(TV.prac.tool!=="cta"||TV.prac.proc!==cur.id))TV.prac=null;
     if(TV.prac&&!TV.prac.res)return tPracRun("cta");if(TV.prac&&TV.prac.res)return tPracRes("cta");
     return tPracCta(cur,cur.rows.map((r,i)=>({id:r.id,h:"ช่องที่ "+(i+1),c:r.c,k:r.k})));}
-  h+=`<div class="row2" style="margin:8px 0"><b style="font-size:17px">${esc(cur.name)}</b><span class="spacer"></span><button class="link" id="cpRen" type="button">เปลี่ยนชื่อ</button><button class="link" id="cpDel" type="button">ลบหัตถการ</button></div>`;
-  h+=tab==="full"?`<p class="hint">เนื้อหาตามไฟล์ทุกคำ (ลายมือในไฟล์ = <span class="hw">สีน้ำเงิน</span>) · แตะช่องเพื่อแก้ · บันทึกเอง</p>`:tab==="key"?`<p class="hint">Keyword ที่ต้องมี “เป๊ะ ๆ” จึงได้คะแนน — 1 คำต่อบรรทัด (หรือคั่นด้วย , ) · คำในวงเล็บ = ใช้แทนคำข้างหน้าได้ เช่น <b>ล้างมือ (hand hygiene)</b></p>`:`<p class="hint">เขียนสิ่งที่ตัวเองจะพูดจริง — จะโชว์ให้ทวนตอนเฉลยในแท็บฝึก</p>`;
+  h+=`<div class="row2" style="margin:8px 0"><b style="font-size:17px">${esc(cur.name)}</b><span class="spacer"></span>${tab==="full"?`<button class="link" id="tcImp" type="button">📄 ใส่ไฟล์</button>`:""}<button class="link" id="cpRen" type="button">เปลี่ยนชื่อ</button><button class="link" id="cpDel" type="button">ลบหัตถการ</button></div>`;
+  h+=tab==="full"?`<p class="hint">${cur.src?`จากไฟล์ ${esc(cur.src)} · `:""}เนื้อหาตามไฟล์ทุกคำ (ลายมือในไฟล์ = <span class="hw">สีน้ำเงิน</span>) · แตะช่องเพื่อแก้ · บันทึกเอง</p>`:tab==="key"?`<p class="hint">Keyword ที่ต้องมี “เป๊ะ ๆ” จึงได้คะแนน — 1 คำต่อบรรทัด (หรือคั่นด้วย , ) · คำในวงเล็บ = ใช้แทนคำข้างหน้าได้ เช่น <b>ล้างมือ (hand hygiene)</b></p>`:`<p class="hint">เขียนสิ่งที่ตัวเองจะพูดจริง — จะโชว์ให้ทวนตอนเฉลยในแท็บฝึก</p>`;
   h+=`<div class="ttable cta ${tab}">${cur.rows.map((r,i)=>`<div class="trow" data-i="${i}">${tab==="full"?`<div class="tc" contenteditable="true" data-f="c">${tSan(r.c)}</div><button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้">×</button>`
       :`<div class="tc ro">${tSan(r.c)}</div><div class="tk" contenteditable="true" data-f="${tab==="key"?"k":"w"}" data-ph="${tab==="key"?"keyword…":"wording ของฉัน…"}">${tSan(tab==="key"?r.k:r.w)}</div>`}</div>`).join("")}</div>`;
-  if(tab==="full")h+=`<div class="stack" style="margin-top:10px"><button class="btn" id="tAdd" type="button">+ เพิ่มช่อง</button></div>`;
-  $("tBody").innerHTML=h;tCtaBind(O,cur);
+  if(tab==="full")h+=`<div class="stack" style="margin-top:10px"><button class="btn" id="tAdd" type="button">+ เพิ่มช่อง</button></div><div id="tcOrig" class="tcorig" hidden></div>`;
+  $("tBody").innerHTML=h;tCtaBind(O,cur);if(tab==="full"){$("tcImp").onclick=()=>tCtaImport(O,cur);tCtaOrig(cur.id);}
   document.querySelectorAll("#tBody [contenteditable][data-f]").forEach(el=>el.addEventListener("input",()=>{const i=+el.closest(".trow").dataset.i;cur.rows[i][el.dataset.f]=tSan(el.innerHTML);tSaveLater("cta",O);}));
   document.querySelectorAll("[data-del]").forEach(b=>b.onclick=()=>{if(!confirm("ลบช่องนี้?"))return;cur.rows.splice(+b.dataset.del,1);tchPut("cta",O);rTch();});
   {const b=$("tAdd");if(b)b.onclick=()=>{cur.rows.push({id:tId(),c:"",k:"",w:""});tchPut("cta",O);rTch();};}
   {const b=$("cpRen");if(b)b.onclick=()=>{const n=prompt("ชื่อหัตถการ",cur.name);if(n&&n.trim()){cur.name=n.trim();tchPut("cta",O);rTch();}};}
-  {const b=$("cpDel");if(b)b.onclick=()=>{if(!confirm(`ลบหัตถการ “${cur.name}” ทั้งหมด?`))return;O.procs=PR.filter(p=>p!==cur);TV.ctaP="";tchPut("cta",O);rTch();};}}
+  {const b=$("cpDel");if(b)b.onclick=()=>{if(!confirm(`ลบหัตถการ “${cur.name}” ทั้งหมด?`))return;O.procs=PR.filter(p=>p!==cur);tFileDel(cur.id);TV.ctaP="";tchPut("cta",O);rTch();};}}
 function tCtaLabel(r){const t=String(r.c||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();return t.length>70?t.slice(0,70)+"…":t||"(ช่องว่าง)";}
 function tCtaBind(O,cur){document.querySelectorAll("[data-cp]").forEach(b=>b.onclick=()=>{TV.ctaP=b.dataset.cp;TV.prac=null;rTch();});
   $("cpAdd").onclick=()=>{const n=prompt("ชื่อหัตถการ (เช่น NG tube insertion)");if(!n||!n.trim())return;const p={id:tId(),name:n.trim(),rows:[{id:tId(),c:"",k:"",w:""}]};O.procs.push(p);TV.ctaP=p.id;tchPut("cta",O);rTch();};}
@@ -241,3 +241,137 @@ Reply with only JSON: {"html":"…"}`;
 
 Task: draft a CASE REPORT WITH DISCUSSION (ใบเหลือง) in this order: 1) History (full, organized), 2) Physical examination, 3) Problem list, 4) Discussion in SOAP format for each problem (S, O, A with differential diagnosis and reasoning citing current standard guidelines, P with diagnostic, therapeutic and educational plans), 5) Suggested progress notes for the first days of admission — for each day what to document and what to discuss/explain to the patient and family${ped?", 6) Off-service note and discharge summary (pediatric ward)":""}${opt&&opt.hol?`, then a HOLISTIC DISCUSSION (bio-psycho-social: illness experience — feelings, ideas, function, expectation; family and social context; continuity and prevention)`:""}${opt&&opt.res?`, then a RES DISCUSSION (an evidence-based discussion of one focused clinical question arising from this case: question in PICO form, key evidence or guideline with year, appraisal in brief, and how it applies to this patient)`:""}. Mark clearly any part that needs data the student has not recorded.
 Reply with only JSON: {"html":"…"}`;}
+
+/* ---------- CTA: import a file (PDF / image / Word / text) → fill the content column ----------
+   Each account keeps its own CTA (bank "tch|all|cta" syncs with that account only).
+   With AI (Claude in the artifact, or an API key on the web): pages are read as images → printed text word for word + handwriting in <span class="hw">.
+   Without AI: printed text only (PDF text layer / .docx / .txt) — exact, no handwriting.
+   Page images of the original file stay in this browser (IndexedDB "tcta-files"), keyed by procedure id. */
+const T_PDFJS="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/";
+const tLoadJS=src=>new Promise((ok,no)=>{const s=document.createElement("script");s.src=src;s.onload=ok;s.onerror=()=>no({code:"lib"});document.head.appendChild(s);});
+async function tPdfLib(){if(window.pdfjsLib)return window.pdfjsLib;
+  /* worker first: pdf.js then runs it on the main thread (no cross-origin Worker needed) */
+  if(!window.pdfjsWorker)await tLoadJS(T_PDFJS+"pdf.worker.min.js");await tLoadJS(T_PDFJS+"pdf.min.js");
+  window.pdfjsLib.GlobalWorkerOptions.workerSrc=T_PDFJS+"pdf.worker.min.js";return window.pdfjsLib;}
+/* tiny IndexedDB store for the original pages */
+function tIDB(){return new Promise((ok,no)=>{try{const r=indexedDB.open("tcta-files",1);r.onupgradeneeded=()=>r.result.createObjectStore("f");r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error);}catch(e){no(e);}});}
+async function tFileSave(pid,pages){try{const db=await tIDB();await new Promise((ok,no)=>{const t=db.transaction("f","readwrite");t.objectStore("f").put(pages,pid);t.oncomplete=ok;t.onerror=()=>no(t.error);});}catch(e){console.warn("idb",e);}}
+async function tFileGet(pid){try{const db=await tIDB();return await new Promise(ok=>{const q=db.transaction("f").objectStore("f").get(pid);q.onsuccess=()=>ok(q.result||null);q.onerror=()=>ok(null);});}catch(e){return null;}}
+async function tFileDel(pid){try{const db=await tIDB();db.transaction("f","readwrite").objectStore("f").delete(pid);}catch(e){}}
+const tCanvasBlob=(cv,q)=>new Promise(ok=>cv.toBlob(b=>ok(b),"image/jpeg",q));
+async function tImgBlob(file,maxW){/* re-encode any image as JPEG ≤ maxW px wide */
+  const url=URL.createObjectURL(file);try{const im=await new Promise((ok,no)=>{const i=new Image();i.onload=()=>ok(i);i.onerror=no;i.src=url;});
+    const s=Math.min(1,maxW/im.naturalWidth),cv=document.createElement("canvas");cv.width=Math.round(im.naturalWidth*s);cv.height=Math.round(im.naturalHeight*s);
+    const g=cv.getContext("2d");g.fillStyle="#fff";g.fillRect(0,0,cv.width,cv.height);g.drawImage(im,0,0,cv.width,cv.height);return await tCanvasBlob(cv,.85);}finally{URL.revokeObjectURL(url);}}
+/* printed lines → rows: a new row at a numbered / bulleted line or after a clear gap */
+const T_ROWSTART=/^\s*(\d{1,3}\s*[\.\)]|\(\d{1,3}\)|[-•●○◦▪■□✓*]|[ก-ฮ]\s*[\.\)]|[A-Za-z]\s*[\.\)]\s)/;
+function tLinesToRows(lines){const rows=[];let cur=null;
+  lines.forEach(L=>{const t=L.t.replace(/\s+$/,"");if(!t.trim()){cur=null;return;}
+    const sub=cur&&L.x!=null&&cur.x!=null&&L.x>cur.x+6;/* indented sub-items (a., b., •) stay with their step */
+    if(!cur||L.gap||(!sub&&T_ROWSTART.test(t))||L.head){cur={c:esc(t.trim()),x:L.x};rows.push(cur);}else cur.c+="<br>"+esc(t.trim());});
+  rows.forEach(r=>delete r.x);
+  return rows;}
+async function tPdfPages(file,onP){const lib=await tPdfLib(),doc=await lib.getDocument({data:new Uint8Array(await file.arrayBuffer())}).promise,out=[];
+  for(let n=1;n<=doc.numPages;n++){onP&&onP(`อ่าน ${esc(file.name)} หน้า ${n}/${doc.numPages}`);const pg=await doc.getPage(n);
+    const v1=pg.getViewport({scale:1}),sc=Math.min(2.2,1500/v1.width),vp=pg.getViewport({scale:sc}),cv=document.createElement("canvas");cv.width=Math.round(vp.width);cv.height=Math.round(vp.height);
+    const g=cv.getContext("2d");g.fillStyle="#fff";g.fillRect(0,0,cv.width,cv.height);await pg.render({canvasContext:g,viewport:vp}).promise;
+    const tc=await pg.getTextContent(),items=tc.items.filter(i=>i.str!==undefined),lines=[];
+    /* group text items into lines by y (top-down), keep x order inside a line */
+    const rowsY=[];items.forEach(i=>{const y=i.transform[5],h=Math.abs(i.transform[3])||10;let L=rowsY.find(r=>Math.abs(r.y-y)<h*.5);if(!L){L={y,h,it:[]};rowsY.push(L);}L.it.push(i);});
+    rowsY.sort((a,b)=>b.y-a.y);let py=null,ph=0;
+    rowsY.forEach(L=>{L.it.sort((a,b)=>a.transform[4]-b.transform[4]);let s="";L.it.forEach((i,k)=>{if(k){const p=L.it[k-1],gx=i.transform[4]-(p.transform[4]+(p.width||0));if(gx>L.h*.25&&!/\s$/.test(s)&&!/^\s/.test(i.str))s+=" ";}s+=i.str;});
+      lines.push({t:s,x:L.it[0].transform[4],gap:py!==null&&(py-L.y)>Math.max(ph,L.h)*1.9});py=L.y;ph=L.h;});
+    out.push({img:await tCanvasBlob(cv,.82),text:lines.map(l=>l.t).join("\n"),lines});pg.cleanup&&pg.cleanup();}
+  return out;}
+/* .docx = zip → word/document.xml → paragraphs (bold / underline kept) — no library needed */
+async function tUnzip(buf,name){const u=new Uint8Array(buf),dv=new DataView(buf);let e=-1;for(let i=u.length-22;i>=Math.max(0,u.length-70000);i--)if(dv.getUint32(i,true)===0x06054b50){e=i;break;}
+  if(e<0)throw {code:"docx"};let p=dv.getUint32(e+16,true);const n=dv.getUint16(e+10,true);
+  for(let k=0;k<n;k++){const m=dv.getUint16(p+10,true),cs=dv.getUint32(p+20,true),fl=dv.getUint16(p+28,true),xl=dv.getUint16(p+30,true),cl=dv.getUint16(p+32,true),lo=dv.getUint32(p+42,true),fn=new TextDecoder().decode(u.subarray(p+46,p+46+fl));
+    if(fn===name){const lfl=dv.getUint16(lo+26,true),lxl=dv.getUint16(lo+28,true),d=u.subarray(lo+30+lfl+lxl,lo+30+lfl+lxl+cs);
+      if(m===0)return new TextDecoder().decode(d);const s=new Blob([d]).stream().pipeThrough(new DecompressionStream("deflate-raw"));return await new Response(s).text();}
+    p+=46+fl+xl+cl;}throw {code:"docx"};}
+async function tDocxRows(file){const buf=await file.arrayBuffer(),x=await tUnzip(buf,"word/document.xml"),W="http://schemas.openxmlformats.org/wordprocessingml/2006/main",X=t=>new DOMParser().parseFromString(t,"application/xml"),D=X(x),rows=[];
+  const at=(el,n)=>el?el.getAttributeNS(W,"val")||el.getAttribute("w:val")||"":"",kid=(el,n)=>el?el.getElementsByTagNameNS(W,n)[0]:null;
+  /* numbering formats (numId → ilvl → {fmt,text,start}) and list styles, so auto numbers like "1." are kept */
+  const NUM={},ABS={},SNUM={};let NX=null,SX=null;try{NX=X(await tUnzip(buf,"word/numbering.xml"));}catch(e){}try{SX=X(await tUnzip(buf,"word/styles.xml"));}catch(e){}
+  if(NX){[...NX.getElementsByTagNameNS(W,"abstractNum")].forEach(a=>{const L={};[...a.getElementsByTagNameNS(W,"lvl")].forEach(l=>{L[l.getAttributeNS(W,"ilvl")||l.getAttribute("w:ilvl")||"0"]={fmt:at(kid(l,"numFmt")),text:at(kid(l,"lvlText")),start:+at(kid(l,"start"))||1};});ABS[a.getAttributeNS(W,"abstractNumId")||a.getAttribute("w:abstractNumId")]=L;});
+    [...NX.getElementsByTagNameNS(W,"num")].forEach(n=>{NUM[n.getAttributeNS(W,"numId")||n.getAttribute("w:numId")]=ABS[at(kid(n,"abstractNumId"))]||{};});}
+  if(SX)[...SX.getElementsByTagNameNS(W,"style")].forEach(st=>{const np=kid(st,"numPr");if(np)SNUM[st.getAttributeNS(W,"styleId")||st.getAttribute("w:styleId")]={id:at(kid(np,"numId")),lv:at(kid(np,"ilvl"))||"0"};});
+  const cnt={},roman=n=>{const v=[[1000,"m"],[900,"cm"],[500,"d"],[400,"cd"],[100,"c"],[90,"xc"],[50,"l"],[40,"xl"],[10,"x"],[9,"ix"],[5,"v"],[4,"iv"],[1,"i"]];let s="";v.forEach(([k,r])=>{while(n>=k){s+=r;n-=k;}});return s;};
+  const fmtN=(f,n)=>f==="lowerLetter"?String.fromCharCode(96+((n-1)%26+1)):f==="upperLetter"?String.fromCharCode(64+((n-1)%26+1)):f==="lowerRoman"?roman(n):f==="upperRoman"?roman(n).toUpperCase():f==="thaiNumbers"?String(n).replace(/\d/g,d=>"๐๑๒๓๔๕๖๗๘๙"[d]):f==="thaiLetters"?"กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ"[(n-1)%44]:String(n);
+  [...D.getElementsByTagNameNS(W,"p")].forEach(p=>{let h="";[...p.getElementsByTagNameNS(W,"r")].forEach(r=>{let t="";[...r.childNodes].forEach(c=>{if(c.localName==="t")t+=c.textContent;else if(c.localName==="tab")t+=" ";else if(c.localName==="br")t+="\n";});if(!t)return;
+      const pr=kid(r,"rPr"),bo=pr&&kid(pr,"b")&&at(kid(pr,"b"))!=="0",un=pr&&kid(pr,"u")&&at(kid(pr,"u"))!=="none",hl=pr&&kid(pr,"highlight"),sk=pr&&kid(pr,"strike");let s=esc(t).replace(/\n/g,"<br>");if(bo)s="<b>"+s+"</b>";if(un)s="<u>"+s+"</u>";if(sk)s="<s>"+s+"</s>";if(hl)s="<mark>"+s+"</mark>";h+=s;});
+    if(!h.replace(/<[^>]+>/g,"").trim())return;
+    const pp=kid(p,"pPr"),np=pp&&kid(pp,"numPr"),sty=at(pp&&kid(pp,"pStyle"));let ref=np?{id:at(kid(np,"numId")),lv:at(kid(np,"ilvl"))||"0"}:SNUM[sty]||null,pre="";
+    if(ref&&ref.id&&ref.id!=="0"){const L=(NUM[ref.id]||{})[ref.lv]||{fmt:/Bullet/i.test(sty)?"bullet":"decimal",text:"%1.",start:1},k=ref.id+"|"+ref.lv;
+      Object.keys(cnt).forEach(c=>{const [i,l]=c.split("|");if(i===ref.id&&+l>+ref.lv)delete cnt[c];});cnt[k]=(cnt[k]||L.start-1)+1;
+      pre=L.fmt==="bullet"||L.fmt==="none"?(L.fmt==="none"?"":"• "):(L.text||"%1.").replace(/%(\d)/g,(_,d)=>{const lv=String(+d-1),c=cnt[ref.id+"|"+lv]||1,f=((NUM[ref.id]||{})[lv]||{}).fmt||"decimal";return fmtN(f,c);})+" ";}
+    rows.push({c:esc(pre)+h});});
+  return rows;}
+async function tTxtRows(file){const t=await file.text();return tLinesToRows(t.split(/\r?\n/).map(s=>({t:s})));}
+/* AI reads page images (+ the printed text layer as a spelling guide) */
+async function tAIVis(pr,imgs,maxTok){const mode=await aiMode();if(!mode)throw {code:"no_ai"};
+  if(mode==="claude"){const smp=await window.claude.use("sample"),lim=await smp.limits().catch(()=>null);if(!lim||!lim.images)throw {code:"no_img"};return await smp.json(pr,{images:imgs,modelTier:"default",cache:false});}
+  const c=aiCfg(),b64=await Promise.all(imgs.map(b=>new Promise(ok=>{const f=new FileReader();f.onload=()=>ok(String(f.result).split(",")[1]);f.readAsDataURL(b);})));let r;
+  try{r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":c.key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+    body:JSON.stringify({model:c.model||"claude-sonnet-5-5",max_tokens:maxTok||8000,messages:[{role:"user",content:b64.map(d=>({type:"image",source:{type:"base64",media_type:"image/jpeg",data:d}})).concat([{type:"text",text:pr}])}]})});}
+  catch(e){throw {code:"network"};}
+  const j=await r.json().catch(()=>null);if(!r.ok)throw {code:"api",status:r.status,message:j&&j.error&&j.error.message||""};
+  const t=((j&&j.content)||[]).filter(x=>x.type==="text").map(x=>x.text).join(""),a=t.indexOf("{"),z=t.lastIndexOf("}");if(a<0||z<a)throw {code:"invalid_json"};try{return JSON.parse(t.slice(a,z+1));}catch(e){throw {code:"invalid_json"};}}
+function tVisPrompt(pages,first){const tx=pages.map((p,i)=>p.text&&p.text.trim()?`--- รูปที่ ${i+1}: ข้อความตัวพิมพ์ที่ดึงจาก text layer ของ PDF (ใช้ตัวสะกดนี้สำหรับตัวพิมพ์) ---\n${p.text.slice(0,6000)}`:`--- รูปที่ ${i+1}: ไม่มี text layer (อ่านจากรูปเท่านั้น) ---`).join("\n");
+  return `You are transcribing a Thai medical school CTA (clinical skill / procedure) handout so a student can study it in a one-column table. The ${pages.length} attached image(s) are consecutive pages, in order.
+Rules — transcription, NOT summary:
+- Copy EVERY word exactly as written, in the original language(s) (Thai and English mixed). Do not translate, paraphrase, correct, shorten, reorder or add anything. Keep numbering, bullets, symbols, units and punctuation as on the page.
+- Printed text: use the spelling from the text layer below whenever it is given (it is exact); the images decide the order and the layout.
+- Handwriting (pen notes, ticks with words, arrows with words, circled notes): put it exactly where it belongs in the flow, wrapped in <span class="hw">…</span>. If a handwritten word is truly unreadable write <span class="hw">[อ่านไม่ออก]</span>.
+- Keep emphasis: bold → <b>, underline → <u>, highlighter → <mark>, crossed out → <s>. Line breaks inside a cell → <br>. No other tags, no markdown.
+- Pictures/diagrams: one short placeholder in Thai in the right place, e.g. [รูป: ท่าจับเข็ม]. Tables: one row of the table per cell, columns joined with " | ".
+- Split into cells the way the page is organised: one cell per step / numbered item / heading with its lines. Sub-items of a step (a., b., indented bullets, notes under it) stay in that step's cell, each on a new line with <br>. Page headers, footers and page numbers are skipped.
+- ${first?"title = the procedure name as written on the first page (or \"\").":"title = \"\"."} cont = true only if the first cell of these pages continues a sentence or step cut off at the end of the previous page.
+Return ONLY JSON: {"title":"…","cont":false,"rows":[{"c":"…"}]}
+${tx}`;}
+async function tCtaRead(files,useAI,onP){const pages=[],rows=[];let title="";
+  for(const f of files){const nm=(f.name||"").toLowerCase(),tp=f.type||"";
+    if(tp==="application/pdf"||/\.pdf$/.test(nm)){(await tPdfPages(f,onP)).forEach(p=>pages.push(p));}
+    else if(/^image\//.test(tp)||/\.(jpe?g|png|webp|gif|heic)$/.test(nm)){onP&&onP("เตรียมรูป "+esc(f.name));pages.push({img:await tImgBlob(f,1500),text:"",lines:[]});}
+    else if(/\.docx$/.test(nm)){onP&&onP("อ่าน "+esc(f.name));(await tDocxRows(f)).forEach(r=>rows.push(r));if(!title)title=f.name.replace(/\.[^.]+$/,"");}
+    else if(/\.(txt|md)$/.test(nm)||/^text\//.test(tp)){(await tTxtRows(f)).forEach(r=>rows.push(r));if(!title)title=f.name.replace(/\.[^.]+$/,"");}
+    else throw {code:"type",name:f.name};}
+  if(pages.length&&useAI){const per=await (async()=>{if(await aiMode()==="claude"){try{const l=await (await window.claude.use("sample")).limits();return Math.max(1,Math.min(2,(l.images||{}).maxCount||2));}catch(e){return 2;}}return 2;})();
+    for(let i=0;i<pages.length;i+=per){const ch=pages.slice(i,i+per);onP&&onP(`AI อ่านหน้า ${i+1}${ch.length>1?"–"+(i+ch.length):""} จาก ${pages.length} (ตัวพิมพ์ + ลายมือ)…`);
+      const o=await tAIVis(tVisPrompt(ch,i===0),ch.map(p=>p.img),8000),R=(o&&Array.isArray(o.rows)?o.rows:[]).map(r=>({c:tSan(String(r&&r.c||""))})).filter(r=>r.c.replace(/<[^>]+>/g,"").trim());
+      if(i===0&&o&&o.title)title=String(o.title).trim();
+      if(o&&o.cont&&rows.length&&R.length){rows[rows.length-1].c+=" "+R.shift().c;}R.forEach(r=>rows.push(r));}}
+  else if(pages.length){const L=[];pages.forEach((p,i)=>{if(i)L.push({t:""});p.lines.forEach(x=>L.push(x));});const R=tLinesToRows(L);
+    if(!R.length)throw {code:"no_text"};R.forEach(r=>rows.push(r));
+    if(!title){const t0=R[0].c.replace(/<[^>]+>/g,"").replace(/&amp;/g,"&").trim();if(t0.length<=70&&!T_ROWSTART.test(t0)&&!/<br>/.test(R[0].c))title=t0;}}
+  return {title,rows,pages:pages.map(p=>p.img)};}
+function tCtaImport(O,cur){const ai=tAI(),dlg=document.createElement("div");dlg.className="mqdlg";
+  dlg.innerHTML=`<div class="mqdlg-box tcimp"><h3>📄 ใส่ไฟล์ CTA</h3>
+    <p>เลือกไฟล์ PDF / รูปถ่าย / Word (.docx) / .txt (หลายไฟล์ได้ — เรียงตามชื่อไฟล์) แล้วเว็บจะเติมช่อง “เนื้อหา” ให้ตามไฟล์ทุกคำ · CTA เป็นของบัญชีนี้เท่านั้น</p>
+    <label class="ck"><input type="radio" name="tcm" value="ai"${ai?" checked":" disabled"}> ให้ AI อ่าน — ได้ทั้งตัวพิมพ์และ<span class="hw">ลายมือ (สีน้ำเงิน)</span> ${ai?"":"<span class=\"rd\">(ต้องเปิดใน Claude หรือใส่ API key)</span>"}</label>
+    <label class="ck"><input type="radio" name="tcm" value="txt"${ai?"":" checked"}> ดึงเฉพาะตัวพิมพ์ (ไม่ใช้ AI · ตรงตามไฟล์ 100% · ไม่ได้ลายมือ · รูปถ่ายอ่านไม่ได้)</label>
+    <input type="file" id="tcFile" multiple accept=".pdf,application/pdf,image/*,.docx,.txt,.md" style="margin:10px 0">
+    <div id="tcProg" class="rd" aria-live="polite"></div><div id="tcOut"></div>
+    <div class="dlg-act" style="margin-top:10px"><button class="btn ghost" id="tcX" type="button">ปิด</button></div></div>`;
+  document.body.appendChild(dlg);const close=()=>dlg.remove();$("tcX").onclick=close;
+  $("tcFile").onchange=async e=>{const fs=[...e.target.files].sort((a,b)=>a.name.localeCompare(b.name,undefined,{numeric:true}));if(!fs.length)return;
+    const useAI=(dlg.querySelector("[name=tcm]:checked")||{}).value==="ai",pg=$("tcProg");$("tcOut").innerHTML="";e.target.disabled=true;
+    let res;try{res=await tCtaRead(fs,useAI,t=>{pg.innerHTML=t;});}
+    catch(er){e.target.disabled=false;const c=er&&er.code;pg.innerHTML=`<span style="color:var(--wrong)">${c==="lib"?"โหลดตัวอ่าน PDF ไม่ได้ (ต้องต่อเน็ต)":c==="type"?"ไฟล์ "+esc(er.name)+" ไม่รองรับ — ใช้ PDF / รูป / .docx / .txt":c==="no_text"?"ไฟล์นี้ไม่มีตัวพิมพ์ให้ดึง (อาจเป็นภาพสแกน) — เลือก “ให้ AI อ่าน”":c==="no_img"?"Claude ในหน้านี้ยังส่งรูปไม่ได้ — ลองเปิดหน้าใหม่แล้วอนุญาตให้ส่งรูป":c==="docx"?"อ่านไฟล์ Word ไม่ได้":(admMsg(er)||"อ่านไฟล์ไม่สำเร็จ")}</span>`;return;}
+    e.target.disabled=false;pg.innerHTML=`ได้ ${res.rows.length} ช่อง${res.pages.length?` จาก ${res.pages.length} หน้า`:""} — ตรวจแล้วเลือกที่ใส่`;
+    const nm=res.title||fs[0].name.replace(/\.[^.]+$/,"");
+    $("tcOut").innerHTML=`<div class="tcprev">${res.rows.map((r,i)=>`<div class="tcpr"><span class="tcpn">${i+1}</span><div>${r.c}</div></div>`).join("")}</div>
+      <label class="ck"><input type="radio" name="tcw" value="new" checked> หัตถการใหม่ ชื่อ <input type="text" id="tcName" value="${esc(nm)}"></label>
+      ${cur?`<label class="ck"><input type="radio" name="tcw" value="app"> ต่อท้ายใน “${esc(cur.name)}”</label><label class="ck"><input type="radio" name="tcw" value="rep"> แทนที่เนื้อหาทั้งหมดของ “${esc(cur.name)}” (keyword / wording เดิมหายด้วย)</label>`:""}
+      <div class="dlg-act" style="margin-top:8px"><button class="btn primary" id="tcOk" type="button">ใส่ลงตาราง</button></div>`;
+    $("tcOk").onclick=async()=>{const w=(dlg.querySelector("[name=tcw]:checked")||{}).value,R=res.rows.map(r=>({id:tId(),c:r.c,k:"",w:""}));let p;
+      if(w==="new"){const n=($("tcName").value||"").trim()||nm||"หัตถการใหม่";p={id:tId(),name:n,rows:R,src:fs.map(f=>f.name).join(", ")};O.procs.push(p);}
+      else{p=cur;if(w==="rep"){if(!confirm(`แทนที่เนื้อหาทั้งหมดของ “${cur.name}”?`))return;p.rows=R;}else p.rows=p.rows.filter(r=>String(r.c||"").replace(/<[^>]+>/g,"").trim()||r.k||r.w).concat(R);p.src=fs.map(f=>f.name).join(", ");}
+      if(res.pages.length){const old=w==="app"?((await tFileGet(p.id))||[]):[];await tFileSave(p.id,old.concat(res.pages));}
+      TV.ctaP=p.id;TV.tab.cta="full";tchPut("cta",O);close();rTch();toast("ใส่เนื้อหาแล้ว — ตรวจทานกับไฟล์ต้นฉบับได้ที่ “ดูไฟล์ต้นฉบับ”");};};}
+/* original pages (this browser only) under the content table */
+async function tCtaOrig(pid){const box=$("tcOrig");if(!box)return;const P=await tFileGet(pid);if(!P||!P.length){box.hidden=true;return;}
+  box.hidden=false;box.innerHTML=`<details><summary>📄 ดูไฟล์ต้นฉบับ (${P.length} หน้า · เก็บในเครื่องนี้)</summary><div class="tcpages">${P.map((b,i)=>`<img alt="หน้า ${i+1}" data-pi="${i}">`).join("")}</div><button class="link" id="tcODel" type="button">ลบไฟล์ต้นฉบับจากเครื่องนี้</button></details>`;
+  box.querySelectorAll("img[data-pi]").forEach(im=>{im.src=URL.createObjectURL(P[+im.dataset.pi]);});
+  $("tcODel").onclick=async()=>{if(!confirm("ลบรูปไฟล์ต้นฉบับจากเครื่องนี้? (เนื้อหาในตารางยังอยู่)"))return;await tFileDel(pid);box.hidden=true;};}
