@@ -19,6 +19,18 @@
   },
   "wards": [
     {
+      "id": "med",
+      "name": "Internal Medicine",
+      "short": "Med",
+      "year": "Y4",
+      "sub": "SI",
+      "brand": "Past Med Y4 MCQ",
+      "dir": "data_med",
+      "scope": "Internal medicine",
+      "dates": [],
+      "meqTopics": []
+    },
+    {
       "id": "prevmed",
       "name": "Preventive Medicine",
       "short": "Prevent Med",
@@ -50,10 +62,18 @@
     "inst",
     "si"
   ],
+  "sharedPrefix": "si_",
   "homeBrand": "Past {short} SI134 by BankyPP",
   "quizBrand": "Past {short} {type}",
   "artifactUrl": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx",
   "subjects": [
+    {
+      "id": "medicine",
+      "name": "Medicine",
+      "wards": [
+        "med"
+      ]
+    },
     {
       "id": "prevmed",
       "name": "Preventive Medicine",

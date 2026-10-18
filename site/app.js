@@ -1552,7 +1552,9 @@ const SPKEY=KEY+"-sharepend";
 const unshared=x=>!x.shared;
 function shareItems(wid){const o=[];["adm","lai","lc"].forEach(kd=>bankItems(kd,wid).forEach(x=>{if(!unshared(x))return;if((kd==="lc"&&x.case)||(kd!=="lc"&&x.q&&Array.isArray(x.q.opts)))o.push(x.key);}));return o;}
 const shareCount=wid=>shareItems(wid).length;
-async function loadShared(){if(!fb)return;try{for(const w of WL){const snap=await fb.fs.getDocs(fb.fs.collection(fb.db,"shared",w.id,"items"));const L_=[];
+/* shared pool per ward: shared/<ward> (MDCU) · another institution prefixes its wards (config sharedPrefix, SI = "si_") so SI Med and MDCU Med never mix */
+const SHW=id=>(CFG.sharedPrefix||"")+id;
+async function loadShared(){if(!fb)return;try{for(const w of WL){const snap=await fb.fs.getDocs(fb.fs.collection(fb.db,"shared",SHW(w.id),"items"));const L_=[];
     snap.forEach(x=>{const d=x.data();if(!d||!d.d)return;try{const v=JSON.parse(d.d);if(d.kind==="lc"){if(v&&v.case)L_.push({id:x.id,kind:"lc",case:v.case,orig:v.orig||"",ts:d.ts||0,by:d.by});}
       else if(v&&v.q&&Array.isArray(v.q.opts)&&v.q.uid){L_.push({id:x.id,kind:d.kind,q:v.q,ts:d.ts||0,by:d.by});SHAREDQ[w.id+"|"+v.q.uid]=v.q;}}catch(e){}});
     SHARED[w.id]=L_.sort((a,b)=>a.ts-b.ts);}
@@ -1561,7 +1563,7 @@ async function loadShared(){if(!fb)return;try{for(const w of WL){const snap=awai
 async function shareUpload(wid,keys){keys=keys.filter(k=>bank[k]);if(!keys.length)return 0;
   if(!fb||!fb.user){const pend=ld(SPKEY)||{};pend[wid]=[...new Set((pend[wid]||[]).concat(keys))];try{localStorage.setItem(SPKEY,JSON.stringify(pend));}catch(e){}return -keys.length;}
   let n=0;for(const k of keys){const x=bank[k],kd=k.split("|")[0],v=kd==="lc"?{case:x.case,orig:k}:{q:x.q};
-    try{await fb.fs.setDoc(fb.fs.doc(fb.db,"shared",wid,"items",inkId(k)),{kind:kd,d:JSON.stringify(v),ts:now(),by:fb.user.uid});x.shared=now()+10000;bankPut(k,x);n++;}catch(e){console.warn("share",e);sharedErr=(e&&(e.code||e.message))||"error";}}
+    try{await fb.fs.setDoc(fb.fs.doc(fb.db,"shared",SHW(wid),"items",inkId(k)),{kind:kd,d:JSON.stringify(v),ts:now(),by:fb.user.uid});x.shared=now()+10000;bankPut(k,x);n++;}catch(e){console.warn("share",e);sharedErr=(e&&(e.code||e.message))||"error";}}
   if(!n&&sharedErr)toast("แชร์ไม่สำเร็จ: "+sharedErr+(String(sharedErr).includes("permission")?" — ตรวจ Firestore rules":""));
   if(n)loadShared();return n;}
 async function flushSharePend(){const pend=ld(SPKEY);if(!pend||!fb||!fb.user)return;try{localStorage.removeItem(SPKEY);}catch(e){}let n=0;for(const w in pend)n+=Math.max(0,await shareUpload(w,pend[w]||[]));if(n)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);}

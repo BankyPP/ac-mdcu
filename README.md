@@ -49,4 +49,5 @@ Publish: ไฟล์หน้า = out/index.html ; รูปทุกไฟล
 - ฟีเจอร์ใหม่ใส่ที่ `site/` ครั้งเดียว ได้ทั้งสองเว็บ → build ทั้งสองคำสั่งทุกครั้ง
 - ความคืบหน้าในบัญชี: MDCU = `users/{uid}` · SI = `users/{uid}/inst/si` (config `fbPath`) · localStorage แยกด้วย `storageKey`
 - ปุ่มเปลี่ยนสถาบันอยู่หน้า "บัญชีของฉัน" ของทั้งสองเว็บ ต้องใส่รหัสเข้าเว็บปลายทาง (hash จาก `gate` ของ config ปลายทาง)
-- วอร์ด SI: Preventive Medicine Y4 (`prevmed`) — สอบ MEQ อย่างเดียว ยังไม่มีข้อสอบ (ใช้ใส่เกรด)
+- วอร์ด SI: Internal Medicine Y4 (`med`, MCQ + MEQ + OSCE) · Preventive Medicine Y4 (`prevmed`, MEQ อย่างเดียว) — ยังไม่มีข้อสอบ
+- คลังรวม (shared) ของ SI ใช้ `shared/si_<ward>` (config `sharedPrefix`) แยกจากของ MDCU
