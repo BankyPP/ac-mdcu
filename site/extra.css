@@ -766,3 +766,8 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .instpw .err{flex-basis:100%;margin:0}
 /* MEQ answer sheet in the overlay: case rows with Part chips (same look as the list page) */
 #rows .mqv .trows{margin:0}
+.iobody .add{border-left:3px solid #5a4fb0;background:rgba(90,79,176,.09);border-radius:0 4px 4px 0;padding:1px 5px;margin:2px 0}
+.iobody .chip.e{color:#5a4fb0}
+.iobody .case{border:1px dashed var(--accent);border-radius:4px;padding:2px 5px;background:var(--soft);margin:2px 0}
+.iobody .lt td:first-child{font-weight:700;color:var(--red);width:16px;text-align:center}
+@media (max-width:700px){.iobody .fig{flex-direction:column}.iobody .fig>*{width:100% !important;max-width:100%}}
