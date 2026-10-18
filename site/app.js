@@ -277,6 +277,7 @@ const ROUNDS=[
   {k:"unit",n:"Unit round",d:"โจทย์ใหม่แบบ case-based จาก lecture แต่ละบท สุ่มใหม่ทุกครั้งที่เข้า"},
   {k:"quality",n:"Quality round",d:"Speedrun ข้อสอบเก่า จับเวลาเป็นเซต · เลือกปีที่จะทำ หรือสุ่มจากทั้งคลัง ตั้งค่าเองได้ทั้งหมด"},
   {k:"admission",n:"Admission round",d:"เคสใหม่ที่ AI สร้างให้ทีละข้อ เนื้อหาเหมาะกับชั้นปีในวอร์ดนี้ · เก็บทุกข้อไว้ในคลังของคุณ"},
+  {k:"specialty",n:"Specialty round",d:"",soon:1},
   {k:"io",n:"Round I/O",d:"อ่านสรุปเนื้อหาจาก Lecture (L) · Resource (R) · โน้ตวอร์ด (N) และรวมตามเรื่อง ที่ Claude สรุปให้ · ใช้ร่วมกับ MEQ / OSCE"},
   {k:"longcase",n:"Long case",d:"AI ให้ chief complaint มา แล้วดำเนินเคสเองทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ"}
 ];
