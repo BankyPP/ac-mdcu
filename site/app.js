@@ -158,9 +158,10 @@ function validSess(){const P=P_(),s=P.sess;if(!s)return false;s.list=(s.list||[]
 function show(v){
   mqTStop();view=v;const quiz=["svc","sess","adm","exam","lrev","admq"].includes(v);
   clearInterval(show._t);
-  $("nav").hidden=!quiz;$("exnav").hidden=v!=="exam";paintLegBan();$("openSheet").hidden=!quiz;$("homeBtn").hidden=v==="wards";paintQR();
+  const mqP=v==="mq";   /* MEQ question page: answer sheet button on top + prev/next bar at the bottom, like the MCQ pages */
+  $("nav").hidden=!quiz&&!mqP;$("exnav").hidden=v!=="exam";paintLegBan();$("openSheet").hidden=!quiz&&!mqP;if(!mqP){$("next").classList.remove("primary");$("next").classList.add("ghost");}$("homeBtn").hidden=v==="wards";paintQR();
   const w=ward&&W_();const fill=(t,ty)=>String(t).replace(/\{short\}/g,w.cfg.short||w.cfg.id).replace(/\{type\}/g,ty||"");
-  $("brand").classList.toggle("long",!!w&&!quiz);
+  $("brand").classList.toggle("long",!!w&&!quiz&&!mqP);
   $("brand").textContent=w?(quiz?fill(CFG.quizBrand||"AC {short} {type}","MCQ"):fill(CFG.homeBrand||w.cfg.brand||w.cfg.name)):(CFG.siteName||CFG.title||"คลังข้อสอบเก่า");
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
@@ -554,7 +555,11 @@ function rGrand(){
 /* ---------------- quiz (service = persistent sheet · session = a round) ---------------- */
 const svcS=()=>P_().svc[ph()];
 const selSets=()=>{const s=svcS().set;return s==="all"?[]:String(s).split("|").filter(Boolean);};
-const inSet=q=>svcS().set==="all"||selSets().includes(setKey(q));
+/* chapters (W.CHAP[setKey] = {"<บท>":"title"}) — only for a chaptered set the user picked; sv.ch = "all" | "1|22|…" */
+const chOf=q=>String(q.orig).split(".")[0];
+const chSets=()=>selSets().filter(k=>(W_().CHAP||{})[k]);
+const chOk=q=>{const sv=svcS();if(!sv.ch||sv.ch==="all")return true;const k=setKey(q);if(!(W_().CHAP||{})[k]||!selSets().includes(k))return true;return sv.ch.split("|").includes(chOf(q));};
+const inSet=q=>svcS().set==="all"||selSets().includes(setKey(q))&&chOk(q);
 function svcPass(q){const P=P_(),p=ph(),f=svcS().status,a=lockedAns(P,p,q.uid);
   switch(f){case"todo":return a===undefined;case"wrong":return a!==undefined&&a!==q.ans;case"right":return a!==undefined&&a===q.ans;case"flag":return flagged(P,q.uid);case"nop1":return !atts(P,1,q.uid).length;default:return true;}}
 const svcList=()=>W_().QB.filter(inSet);
@@ -737,6 +742,7 @@ function confirmAns(){
   const e=document.querySelector(".exp");if(e)setTimeout(()=>e.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"}),60);
 }
 function step(d){
+  if(view==="mq")return mqStep(d);
   if(view==="adm"){if(d>0)admNext();return;}
   if(view==="exam"){const X=P_().leg;if(d>0&&X.cur===X.list.length-1){openS();return;}X.cur=Math.max(0,Math.min(X.list.length-1,X.cur+d));save();rExam();window.scrollTo(0,0);return;}
   if(view==="lrev"){const X=legPaper(),i=legIdx()+d;if(i>=X.list.length){go(ward+"/lres");return;}st.legIdx=Math.max(0,i);persist();pick=null;rQuiz();window.scrollTo(0,0);return;}
@@ -1877,8 +1883,10 @@ function rKW(){
 function statLabels(a){document.querySelectorAll("#overlay .stat .k").forEach((e,i)=>{e.textContent=a[i];});}
 function sheet(){
   const W=W_(),P=P_(),p=ph();statLabels(["ทำแล้ว","ถูก","ความแม่น"]);
+  {const cc=$("chChips");if(cc){cc.hidden=true;cc.innerHTML="";}}
   if(view==="exam"||view==="lrev")return legSheet();
   if(view==="adm"||view==="admq")return admSheet();
+  if(view==="mq")return mqSheet();
   if(isSess()){
     const s=P.sess,qs=s.list.map(u=>qAny(u)).filter(Boolean);
     $("sheetTitle").textContent=s.title;$("setChips").innerHTML="";
@@ -1899,6 +1907,12 @@ function sheet(){
   $("setChips").innerHTML=[["all",sv.set==="all"?"ทุกชุด":`ทุกชุด (เลือก ${selSets().length})`],...sets.map(k=>[k,(CFG.chipStrip?k.replace(CFG.chipStrip,""):k)])].map(([v,t])=>`<button class="chip" aria-pressed="${v==="all"?sv.set==="all":selSets().includes(v)}" data-set="${esc(v)}">${esc(t)}</button>`).join("");
   {const sc=$("setChips"),on=sc.querySelector('[aria-pressed="true"]');if(sheet._ok)sc.scrollLeft=sheet._x||0;if(on){const l=on.offsetLeft-sc.offsetLeft,r=l+on.offsetWidth;if(!sheet._ok||l<sc.scrollLeft||r>sc.scrollLeft+sc.clientWidth)sc.scrollLeft=l-sc.clientWidth/2+on.offsetWidth/2;}sheet._ok=1;sheet._x=sc.scrollLeft;sc.onscroll=()=>{sheet._x=sc.scrollLeft;};sc.onwheel=e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){sc.scrollLeft+=e.deltaY;e.preventDefault();}};}
   document.querySelectorAll("[data-set]").forEach(b=>b.onclick=()=>{const v=b.dataset.set;if(v==="all")sv.set="all";else{const c=selSets(),i=c.indexOf(v);if(i<0)c.push(v);else c.splice(i,1);c.sort((x,y)=>sets.indexOf(x)-sets.indexOf(y));sv.set=c.length?c.join("|"):"all";}P.pick=selSets();save();sheet();});
+  /* chapter picker (e.g. YUZU) — shown only while a chaptered set is selected; slides like the set chips */
+  {const cs=chSets(),cc=$("chChips");if(cs.length&&cc){const C=Object.assign({},...cs.map(k=>W.CHAP[k])),qs=W.QB.filter(q=>cs.includes(setKey(q))),chs=[...new Set(qs.map(chOf))].filter(c=>C[c]||qs.some(q=>chOf(q)===c)),sel=!sv.ch||sv.ch==="all"?[]:sv.ch.split("|");
+    cc.innerHTML=[["all",sel.length?`ทุกบท (เลือก ${sel.length})`:"ทุกบท"],...chs.map(c=>[c,(/^\d+$/.test(c)?"บท "+c:c)+(C[c]?" · "+C[c]:"")])].map(([v,t])=>{const n=v==="all"?0:qs.filter(q=>chOf(q)===v).length,d=v==="all"?0:qs.filter(q=>chOf(q)===v&&lockedAns(P,p,q.uid)!==undefined).length;return `<button class="chip" aria-pressed="${v==="all"?!sel.length:sel.includes(v)}" data-ch="${esc(v)}" title="${esc(C[v]||"")}">${esc(t)}${v==="all"?"":` <span class="cnt">${d}/${n}</span>`}</button>`;}).join("");
+    cc.hidden=false;
+    if(sheet._cok)cc.scrollLeft=sheet._cx||0;else{const on=cc.querySelector('[aria-pressed="true"]:not([data-ch="all"])');if(on)cc.scrollLeft=on.offsetLeft-cc.offsetLeft-cc.clientWidth/2+on.offsetWidth/2;}sheet._cok=1;cc.onscroll=()=>{sheet._cx=cc.scrollLeft;};cc.onwheel=e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){cc.scrollLeft+=e.deltaY;e.preventDefault();}};
+    cc.querySelectorAll("[data-ch]").forEach(b=>b.onclick=()=>{const v=b.dataset.ch;let c=!sv.ch||sv.ch==="all"?[]:sv.ch.split("|");if(v==="all")c=[];else if(c.includes(v))c=c.filter(x=>x!==v);else c.push(v);c.sort((x,y)=>chs.indexOf(x)-chs.indexOf(y));sv.ch=c.length?c.join("|"):"all";const cq=svcQ();if(cq&&!svcList().some(q=>q.uid===cq.uid)){const nx=svcVisible().find(q=>lockedAns(P,p,q.uid)===undefined)||svcVisible()[0];sv.cur=nx?nx.uid:null;}save();sheet();rQuiz();});}}
   const FS=[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["wrong","ตอบผิด"]].concat(p===2?[["right","ตอบถูก"],["flag","ไม่มั่นใจ"],["nop1","ไม่เคยทำใน P1"]]:[["flag","ไม่มั่นใจ"]]);
   if(!FS.some(x=>x[0]===sv.status))sv.status="all";
   $("statusChips").innerHTML=FS.map(([v,t])=>`<button class="chip" aria-pressed="${sv.status===v}" data-st="${v}">${t}</button>`).join("");
@@ -1934,10 +1948,10 @@ function rows(list,empty){
   if(!list.length){$("rows").innerHTML=`<div class="empty">${empty}</div>`;return;}
   $("rows").innerHTML=list.map((x,i)=>{const q=x.q,a=x.a;
     if(x.lock)return `<button class="srow lock" data-r="${i}"><span class="n">${x.lock}</span><span class="bs">${[0,1,2,3,4].map(j=>`<span class="b">${L[j]}</span>`).join("")}</span><span class="meta">🔒 ยังไม่ถึงข้อนี้</span></button>`;const bs=[0,1,2,3,4].map(j=>{let c="b";if(a===j)c+=" f "+(j===q.ans?"ok":"no");else if(a!==undefined&&j===q.ans)c+=" k";return `<span class="${c}">${L[j]}</span>`;}).join("");
-    return `<button class="srow ${x.cur?"cur":""}" data-r="${i}"><span class="n">${q.id}</span><span class="bs">${bs}</span><span class="meta">${x.meta||""}${esc(q.set)} ${esc(q.ro)}${flagged(P_(),q.uid)?" ⚑":""}</span></button>`;}).join("");
+    return `<button class="srow ${x.cur?"cur":""}" data-r="${i}"><span class="n">${q.id}</span><span class="bs">${bs}</span><span class="meta">${x.meta||""}${esc(q.set)} ${esc(q.ro)}${((W_()||{}).CHAP||{})[setKey(q)]?" · "+esc(q.orig):""}${flagged(P_(),q.uid)?" ⚑":""}</span></button>`;}).join("");
   document.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{const x=list[+b.dataset.r];if(x.lock){toast(navMsg());return;}closeS();x.go();});
 }
-function openS(){sheet._ok=0;sheet();$("overlay").classList.add("open");const c=document.querySelector(".srow.cur");if(c)c.scrollIntoView({block:"center"});$("closeSheet").focus();}
+function openS(){sheet._ok=0;sheet._cok=0;sheet();$("overlay").classList.add("open");const c=document.querySelector(".srow.cur,.crow.cur");if(c)c.scrollIntoView({block:"center"});$("closeSheet").focus();}
 function closeS(silent){$("overlay").classList.remove("open");if(!silent&&!$("openSheet").hidden)$("openSheet").focus();}
 $("openSheet").onclick=openS;$("closeSheet").onclick=()=>closeS();
 $("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeS();});

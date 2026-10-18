@@ -764,3 +764,5 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .instpw{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
 .instpw .field-in{flex:1 1 180px;margin:0}
 .instpw .err{flex-basis:100%;margin:0}
+/* MEQ answer sheet in the overlay: case rows with Part chips (same look as the list page) */
+#rows .mqv .trows{margin:0}
