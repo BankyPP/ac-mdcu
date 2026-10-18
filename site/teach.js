@@ -145,12 +145,12 @@ function tCta(O,tab){const PR=O.procs;let cur=PR.find(p=>p.id===TV.ctaP)||PR[0];
     if(TV.prac&&(TV.prac.tool!=="cta"||TV.prac.proc!==cur.id))TV.prac=null;
     if(TV.prac&&!TV.prac.res)return tPracRun("cta");if(TV.prac&&TV.prac.res)return tPracRes("cta");
     return tPracCta(cur,cur.rows.map((r,i)=>({id:r.id,h:"ช่องที่ "+(i+1),c:r.c,k:r.k})));}
-  h+=`<div class="row2" style="margin:8px 0"><b style="font-size:17px">${esc(cur.name)}</b><span class="spacer"></span>${tab==="full"?`<button class="link" id="tcImp" type="button">📄 ใส่ไฟล์</button>`:""}<button class="link" id="cpRen" type="button">เปลี่ยนชื่อ</button><button class="link" id="cpDel" type="button">ลบหัตถการ</button></div>`;
+  h+=`<div class="row2" style="margin:8px 0"><b style="font-size:17px">${esc(cur.name)}</b><span class="spacer"></span>${tab==="full"?`<button class="link" id="tcImp" type="button">📄 ใส่ไฟล์</button>`:""}${tab==="full"&&HAS_CLAUDE()&&CFG.siteUrl?`<button class="link" id="tcWeb" type="button">🌐 ส่ง CTA ไปเว็บ</button>`:""}<button class="link" id="cpRen" type="button">เปลี่ยนชื่อ</button><button class="link" id="cpDel" type="button">ลบหัตถการ</button></div>`;
   h+=tab==="full"?`<p class="hint">${cur.src?`จากไฟล์ ${esc(cur.src)} · `:""}เนื้อหาตามไฟล์ทุกคำ (ลายมือในไฟล์ = <span class="hw">สีน้ำเงิน</span>) · แตะช่องเพื่อแก้ · บันทึกเอง</p>`:tab==="key"?`<p class="hint">Keyword ที่ต้องมี “เป๊ะ ๆ” จึงได้คะแนน — 1 คำต่อบรรทัด (หรือคั่นด้วย , ) · คำในวงเล็บ = ใช้แทนคำข้างหน้าได้ เช่น <b>ล้างมือ (hand hygiene)</b></p>`:`<p class="hint">เขียนสิ่งที่ตัวเองจะพูดจริง — จะโชว์ให้ทวนตอนเฉลยในแท็บฝึก</p>`;
   h+=`<div class="ttable cta ${tab}">${cur.rows.map((r,i)=>`<div class="trow" data-i="${i}">${tab==="full"?`<div class="tc" contenteditable="true" data-f="c">${tSan(r.c)}</div><button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้">×</button>`
       :`<div class="tc ro">${tSan(r.c)}</div><div class="tk" contenteditable="true" data-f="${tab==="key"?"k":"w"}" data-ph="${tab==="key"?"keyword…":"wording ของฉัน…"}">${tSan(tab==="key"?r.k:r.w)}</div>`}</div>`).join("")}</div>`;
-  if(tab==="full")h+=`<div class="stack" style="margin-top:10px"><button class="btn" id="tAdd" type="button">+ เพิ่มช่อง</button></div><div id="tcOrig" class="tcorig" hidden></div>`;
-  $("tBody").innerHTML=h;tCtaBind(O,cur);if(tab==="full"){$("tcImp").onclick=()=>tCtaImport(O,cur);tCtaOrig(cur.id);}
+  if(tab==="full")h+=`<div class="stack" style="margin-top:10px"><button class="btn" id="tAdd" type="button">+ เพิ่มช่อง</button></div><div id="tcNote" class="rd" style="margin-top:8px"></div><div id="tcOrig" class="tcorig" hidden></div>`;
+  $("tBody").innerHTML=h;tCtaBind(O,cur);if(tab==="full"){$("tcImp").onclick=()=>tCtaImport(O,cur);tCtaOrig(cur.id);const w=$("tcWeb");if(w)w.onclick=()=>{tchPut("cta",O);sendWeb(["tch|all|cta"],"tcNote");};}
   document.querySelectorAll("#tBody [contenteditable][data-f]").forEach(el=>el.addEventListener("input",()=>{const i=+el.closest(".trow").dataset.i;cur.rows[i][el.dataset.f]=tSan(el.innerHTML);tSaveLater("cta",O);}));
   document.querySelectorAll("[data-del]").forEach(b=>b.onclick=()=>{if(!confirm("ลบช่องนี้?"))return;cur.rows.splice(+b.dataset.del,1);tchPut("cta",O);rTch();});
   {const b=$("tAdd");if(b)b.onclick=()=>{cur.rows.push({id:tId(),c:"",k:"",w:""});tchPut("cta",O);rTch();};}
@@ -349,12 +349,17 @@ async function tCtaRead(files,useAI,onP){const pages=[],rows=[];let title="";
 function tCtaImport(O,cur){const ai=tAI(),dlg=document.createElement("div");dlg.className="mqdlg";
   dlg.innerHTML=`<div class="mqdlg-box tcimp"><h3>📄 ใส่ไฟล์ CTA</h3>
     <p>เลือกไฟล์ PDF / รูปถ่าย / Word (.docx) / .txt (หลายไฟล์ได้ — เรียงตามชื่อไฟล์) แล้วเว็บจะเติมช่อง “เนื้อหา” ให้ตามไฟล์ทุกคำ · CTA เป็นของบัญชีนี้เท่านั้น</p>
-    <label class="ck"><input type="radio" name="tcm" value="ai"${ai?" checked":" disabled"}> ให้ AI อ่าน — ได้ทั้งตัวพิมพ์และ<span class="hw">ลายมือ (สีน้ำเงิน)</span> ${ai?"":"<span class=\"rd\">(ต้องเปิดใน Claude หรือใส่ API key)</span>"}</label>
-    <label class="ck"><input type="radio" name="tcm" value="txt"${ai?"":" checked"}> ดึงเฉพาะตัวพิมพ์ (ไม่ใช้ AI · ตรงตามไฟล์ 100% · ไม่ได้ลายมือ · รูปถ่ายอ่านไม่ได้)</label>
+    <label class="ck"><input type="radio" name="tcm" value="ai"${ai?" checked":""}> <span>ให้ AI อ่าน — ได้ทั้งตัวพิมพ์และ<span class="hw">ลายมือ (สีน้ำเงิน)</span>${ai?"":`<span class="rd">เว็บนี้ยังไม่ได้เชื่อม AI — เปิดใน Claude (ฟรี) หรือใส่ API key</span>`}</span></label>
+    <label class="ck"><input type="radio" name="tcm" value="txt"${ai?"":" checked"}> <span>ดึงเฉพาะตัวพิมพ์ (ไม่ใช้ AI · ตรงตามไฟล์ 100% · ไม่ได้ลายมือ · รูปถ่ายอ่านไม่ได้)</span></label>
+    <div id="tcNoAI" class="tcnoai" hidden><b>เว็บนี้ยังไม่ได้เชื่อม AI</b><span class="rd">เลือกได้ 2 ทาง:</span>
+      ${CFG.artifactUrl?`<a class="btn primary" href="${esc(artLink(ward+"/tch/cta"))}" target="_blank" rel="noopener">เปิด CTA ใน Claude ↗ (ฟรี ใช้บัญชี Claude)</a><span class="rd">ในหน้าที่เปิด กด “📄 ใส่ไฟล์” แล้วเลือกไฟล์อีกครั้ง · ใส่เสร็จกด “🌐 ส่ง CTA ไปเว็บ” เพื่อให้ CTA มาอยู่ในบัญชีเว็บนี้ด้วย (ใน Claude กับเว็บเก็บแยกกัน)</span>`:""}
+      <a class="btn" href="#/${esc(ward)}/adm">ใส่ API key (ที่หน้า Admission round)</a></div>
     <input type="file" id="tcFile" multiple accept=".pdf,application/pdf,image/*,.docx,.txt,.md" style="margin:10px 0">
     <div id="tcProg" class="rd" aria-live="polite"></div><div id="tcOut"></div>
     <div class="dlg-act" style="margin-top:10px"><button class="btn ghost" id="tcX" type="button">ปิด</button></div></div>`;
   document.body.appendChild(dlg);const close=()=>dlg.remove();$("tcX").onclick=close;
+  const mode=()=>{const want=(dlg.querySelector("[name=tcm]:checked")||{}).value==="ai",blk=want&&!ai;$("tcNoAI").hidden=!blk;$("tcFile").hidden=blk;};
+  dlg.querySelectorAll("[name=tcm]").forEach(r=>r.onchange=mode);dlg.querySelectorAll("#tcNoAI a").forEach(a=>a.addEventListener("click",()=>{if(!a.target)close();}));mode();
   $("tcFile").onchange=async e=>{const fs=[...e.target.files].sort((a,b)=>a.name.localeCompare(b.name,undefined,{numeric:true}));if(!fs.length)return;
     const useAI=(dlg.querySelector("[name=tcm]:checked")||{}).value==="ai",pg=$("tcProg");$("tcOut").innerHTML="";e.target.disabled=true;
     let res;try{res=await tCtaRead(fs,useAI,t=>{pg.innerHTML=t;});}

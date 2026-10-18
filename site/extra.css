@@ -749,3 +749,5 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .tcpn{font-family:Kanit,sans-serif;color:var(--muted,#888);min-width:22px;text-align:right}
 .tcorig{margin-top:14px}.tcorig summary{cursor:pointer;font-family:Kanit,sans-serif}
 .tcpages{display:flex;flex-direction:column;gap:8px;margin:8px 0}.tcpages img{width:100%;border:1px solid var(--line);border-radius:4px}
+.tcnoai{display:flex;flex-direction:column;gap:6px;margin:8px 0;padding:10px;border:1px dashed var(--line);border-radius:6px}
+.tcnoai .btn{text-align:center;text-decoration:none}

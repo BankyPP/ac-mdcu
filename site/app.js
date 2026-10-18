@@ -1626,10 +1626,15 @@ async function sendWeb(keys,noteId){const note=$(noteId||"lhNote");
 function checkLegImport(){const m=/[#&](?:legs|bank)=([zj]\.[A-Za-z0-9_-]+)/.exec(location.hash||"");if(!m)return false;
   try{history.replaceState(null,"",location.pathname+location.search+"#/");}catch(e){location.hash="#/";}
   (async()=>{try{const o=JSON.parse(await unpackStr(m[1]));const w=o&&WARDS[o.w]?o.w:null,b=o&&o.b;if(!w||!b||typeof b!=="object")throw 0;
-    const keys=Object.keys(b).filter(k=>/^(leg|lai|adm|lc)\|/.test(k)&&k.split("|")[1]===w);let np=0,na=0;
+    const keys=Object.keys(b).filter(k=>/^(leg|lai|adm|lc)\|/.test(k)&&k.split("|")[1]===w);let np=0,na=0,nc=0;
+    /* CTA from Claude: merge procedures by id (newer copy of the same procedure wins, the website's own procedures stay) */
+    {const v=b["tch|all|cta"];if(v&&Array.isArray(v.procs)){const o=bank["tch|all|cta"]||{rows:[],procs:[]},P=(o.procs||[]).slice();
+      v.procs.forEach(p=>{if(!p||!p.id||!Array.isArray(p.rows))return;const i=P.findIndex(x=>x.id===p.id);if(i<0)P.push(p);else P[i]=p;nc++;});
+      bankPut("tch|all|cta",{rows:o.rows||[],procs:P});}}
     keys.forEach(k=>{const v=b[k];if(!v||typeof v!=="object")return;if(k.startsWith("leg|")){v.imp=v.imp||now();np++;}if(k.startsWith("adm|")){if(!v.q||!Array.isArray(v.q.opts))return;na++;}if(!bank[k]||(v.ts||0)>=(bank[k].ts||0)){bank[k]=v;cloudBank(k);}});
     try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){}
-    toast("นำเข้าจาก Claude แล้ว: "+[np?`ผลสอบ Legendary ${np} ครั้ง`:"",na?`เคส Admission ${na} เคส`:""].filter(Boolean).join(" · "));
+    toast("นำเข้าจาก Claude แล้ว: "+[np?`ผลสอบ Legendary ${np} ครั้ง`:"",na?`เคส Admission ${na} เคส`:"",nc?`CTA ${nc} หัตถการ`:""].filter(Boolean).join(" · "));
+    if(nc&&!np&&!na){go(w+"/tch/cta");return;}
     if(Array.isArray(o.share)&&o.share.length){const sk=o.share.filter(k=>/^(adm|lai|lc)\|/.test(k)&&k.split("|")[1]===w&&b[k]);sk.forEach(k=>{if(!bank[k]&&b[k])bank[k]=b[k];});
       const wait=async()=>{for(let i=0;i<40&&!(fb&&fb.user)&&fbOn();i++)await new Promise(r=>setTimeout(r,250));const n=await shareUpload(w,sk);
         if(n>0)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);else if(n<0){toast("เข้าสู่ระบบเพื่อแชร์โจทย์ให้ทุกคน — เก็บไว้รอแล้ว");}};wait();}
