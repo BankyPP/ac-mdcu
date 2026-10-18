@@ -237,7 +237,7 @@ async function tCaseAI(cid,kind,opt){const C=bank[cid];if(!C)return;if(!tAI()){t
   catch(e){toast("ทำไม่สำเร็จ "+(admMsg(e)||"ลองใหม่อีกครั้ง"));}
   TV.aiBusy=null;if(view==="case"&&(location.hash||"").includes(encodeURIComponent(cid)))tCasePage(cid);}
 function tCasePrompt(C,kind,opt){const w=W_().cfg,y=yrN(),ped=/ped/i.test(ward),sec=t=>Object.values(C[t]||{}).map(x=>`${x.h}: ${x.v}`).join("\n")||"(not recorded)";
-  const base=`Real patient data typed by a ${y?ord(y)+"-year":"clinical-year"} Thai medical student at Chulalongkorn University on the ${w.name} ward (Thai/English shorthand as typed):
+  const base=`Real patient data typed by a ${y?ord(y)+"-year":"clinical-year"} Thai medical student at ${INST.enShort} on the ${w.name} ward (Thai/English shorthand as typed):
 
 HISTORY
 ${sec("hx")}

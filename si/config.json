@@ -1,0 +1,70 @@
+{
+  "title": "คลังข้อสอบเก่า SI",
+  "brand": "Past Prevent Med Y4 MEQ",
+  "sub": "คลังข้อสอบเก่า",
+  "storageKey": "ac-si-v1",
+  "setLabel": "ปี",
+  "roLabel": "Rotation",
+  "chipStrip": "SI",
+  "files": {},
+  "siteUrl": "https://bankypp.github.io/ac-mdcu/si/",
+  "siteName": "คลังข้อสอบเก่า",
+  "inst": {
+    "id": "si",
+    "name": "SI",
+    "th": "ศิริราช",
+    "en": "Faculty of Medicine Siriraj Hospital, Mahidol University (SI)",
+    "enShort": "Siriraj Hospital, Mahidol University",
+    "stu": "นักศึกษาแพทย์"
+  },
+  "wards": [
+    {
+      "id": "prevmed",
+      "name": "Preventive Medicine",
+      "short": "Prevent Med",
+      "year": "Y4",
+      "sub": "SI",
+      "brand": "Past Prevent Med Y4 MEQ",
+      "dir": "data_prevmed",
+      "scope": "Preventive medicine",
+      "noExam": [
+        "MCQ",
+        "OSCE"
+      ],
+      "dates": [],
+      "meqTopics": []
+    }
+  ],
+  "firebase": {
+    "apiKey": "AIzaSyDIzd81Qw7shAOj3uiGU1T8tm90HXtF4yg",
+    "authDomain": "ac-mdcu.firebaseapp.com",
+    "projectId": "ac-mdcu",
+    "storageBucket": "ac-mdcu.firebasestorage.app",
+    "messagingSenderId": "537236830552",
+    "appId": "1:537236830552:web:40d77940f7adf0fecd8d2d",
+    "measurementId": "G-BYB1HZMHK6"
+  },
+  "fbPath": [
+    "users",
+    "{uid}",
+    "inst",
+    "si"
+  ],
+  "homeBrand": "Past {short} SI134 by BankyPP",
+  "quizBrand": "Past {short} {type}",
+  "artifactUrl": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx",
+  "subjects": [
+    {
+      "id": "prevmed",
+      "name": "Preventive Medicine",
+      "wards": [
+        "prevmed"
+      ]
+    }
+  ],
+  "gate": {
+    "on": true,
+    "salt": "06faf800614125fd",
+    "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b"
+  }
+}

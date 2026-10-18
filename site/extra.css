@@ -759,3 +759,8 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .ttable .tact .tdel{padding:4px 7px}
 .ttable .trow.drag{position:relative;z-index:2;background:color-mix(in srgb,var(--form) 9%,var(--sheet));box-shadow:0 3px 12px rgba(0,0,0,.18)}
 .ttable .trow.drag .tgrip{cursor:grabbing;color:var(--form)}
+/* institution switch (account page) */
+#instCard .stack{margin-top:10px}
+.instpw{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+.instpw .field-in{flex:1 1 180px;margin:0}
+.instpw .err{flex-basis:100%;margin:0}

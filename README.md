@@ -41,3 +41,12 @@ Publish: ไฟล์หน้า = out/index.html ; รูปทุกไฟล
 
 ## Kit สำหรับวอร์ด/บัญชีอื่น
 `kit/ac-site-kit.zip` (+ `kit/PROMPT.md`, `kit/FEATURES.md`) — โครงเว็บนี้แบบเปล่า ใช้สร้าง artifact ใน Claude บัญชีอื่น (ซิงก์บัญชี Claude ในตัว) สร้างใหม่ทุกครั้งที่แก้ฟีเจอร์
+
+## เว็บที่สอง: คลังข้อสอบเก่า SI (ศิริราช) — โค้ดชุดเดียวกัน
+- เว็บ: https://bankypp.github.io/ac-mdcu/si/ · artifact: https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx
+- build: `python3 build_site.py --inst si` → `docs/si/` · artifact: `python3 build_site.py --inst si --pack <dir>`
+- ข้อมูล SI อยู่ใน `si/` (`si/config.json` + โฟลเดอร์วอร์ด เช่น `si/data_prevmed/`) — เว็บ MDCU ไม่เห็นข้อมูลนี้
+- ฟีเจอร์ใหม่ใส่ที่ `site/` ครั้งเดียว ได้ทั้งสองเว็บ → build ทั้งสองคำสั่งทุกครั้ง
+- ความคืบหน้าในบัญชี: MDCU = `users/{uid}` · SI = `users/{uid}/inst/si` (config `fbPath`) · localStorage แยกด้วย `storageKey`
+- ปุ่มเปลี่ยนสถาบันอยู่หน้า "บัญชีของฉัน" ของทั้งสองเว็บ ต้องใส่รหัสเข้าเว็บปลายทาง (hash จาก `gate` ของ config ปลายทาง)
+- วอร์ด SI: Preventive Medicine Y4 (`prevmed`) — สอบ MEQ อย่างเดียว ยังไม่มีข้อสอบ (ใช้ใส่เกรด)

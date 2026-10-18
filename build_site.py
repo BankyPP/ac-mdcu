@@ -1,19 +1,35 @@
 #!/usr/bin/env python3
 """Build the website: template.html (look) + site/ (app) + config.json + each ward's data → docs/index.html (+ docs/img/).
 python3 build_site.py [outdir]   (default: docs)
+python3 build_site.py --inst si [outdir]   → a second website from the same code: si/config.json + si/<ward dir>/ → docs/si/ (default)
+Every <dir>/config.json with an "inst" block is an institution; each site's CONFIG.insts lists all of them (link + gate hash) for the institution switch on the account page.
 Each ward in config.json "wards" has "dir": its data folder holding data_b*.js (one file per set) optional unit_*.js (Unit round banks) and optional highyield.js
 (sets W.HY = {topics:[{title, points:[…], refs:[rid…], rep}], keywords:[{k, v, refs:[rid…]}]})."""
 import glob, json, os, shutil, html, sys, re
 ROOT=os.path.dirname(os.path.abspath(__file__)); os.chdir(ROOT)
-ARGS=[a for a in sys.argv[1:] if not a.startswith('--')]
+AV=sys.argv[1:];INST=''
+for i,a in enumerate(AV):
+    if a.startswith('--inst='):INST=a.split('=',1)[1]
+    elif a=='--inst' and i+1<len(AV):INST=AV[i+1];AV[i+1]='--'
+if INST in ('mdcu','.'):INST=''
+ARGS=[a for a in AV if not a.startswith('--')]
+IDIR=INST                                                          # '' = MDCU (repo root) · 'si' = Siriraj (si/)
+J=lambda *p:os.path.join(IDIR,*p) if IDIR else os.path.join(*p)
 PACK='--pack' in sys.argv      # Claude artifact build: an artifact version holds at most ~510 files, so images are stacked into a few sprite sheets per prefix
-OUT=ARGS[0] if ARGS else os.path.join(ROOT,'docs')
+OUT=ARGS[0] if ARGS else os.path.join(ROOT,'docs',*([IDIR] if IDIR else []))
 tpl=open('template.html',encoding='utf-8').read()
-cfg=json.load(open('config.json',encoding='utf-8'))
+cfg=json.load(open(J('config.json'),encoding='utf-8'))
+def _inst(d):
+    c=json.load(open(os.path.join(d,'config.json') if d else 'config.json',encoding='utf-8'));I=c.get('inst')
+    if not I:return None
+    g=c.get('gate') or {}
+    return {'id':I.get('id'),'name':I.get('name'),'th':I.get('th',''),'url':c.get('siteUrl',''),'art':c.get('artifactUrl',''),'sk':c.get('storageKey',''),'gate':({'salt':g.get('salt',''),'h':g['h']} if g.get('h') else None)}
+_ins=[x for x in [_inst('')]+[_inst(os.path.dirname(f)) for f in sorted(glob.glob('*/config.json'))] if x]
+if len(_ins)>1:cfg['insts']=_ins
 head=tpl[:tpl.index('</style>')]                                   # doctype … platform CSS
 body=open('site/body.html',encoding='utf-8').read()
 title=cfg.get('siteName') or cfg.get('title','คลังข้อสอบเก่า')
-imgs={os.path.splitext(os.path.basename(f))[0]:'img/'+os.path.basename(f) for f in sorted(glob.glob('img/*.jpg')+glob.glob('img/*.png'))}
+imgs={os.path.splitext(os.path.basename(f))[0]:'img/'+os.path.basename(f) for f in sorted(glob.glob(J('img','*.jpg'))+glob.glob(J('img','*.png')))}
 def num(f):
     b=os.path.basename(f)[6:-3]
     return int(b) if b.isdigit() else 10**9
@@ -24,7 +40,7 @@ if PACK:
     for k in imgs: groups.setdefault(re.sub(r'_[^_]*$','',k),[]).append(k)
     os.makedirs(os.path.join(OUT,'img'),exist_ok=True)
     for g,ks in sorted(groups.items()):
-        ims=[(k,Image.open(imgs[k]).convert('RGB')) for k in ks]
+        ims=[(k,Image.open(J(imgs[k])).convert('RGB')) for k in ks]
         sheets=[[]];h=0
         for k,im in ims:
             if h+im.height>30000 and sheets[-1]: sheets.append([]);h=0
@@ -44,7 +60,7 @@ js.append('const BUILD='+json.dumps(datetime.datetime.now(datetime.timezone(date
 total=0
 wsrc=[]   # --pack: each ward's data goes to its own data_<ward>.js next to the page (an artifact page is capped at 16MB)
 for w in cfg.get('wards',[]):
-    wid=json.dumps(w['id']); d=w.get('dir','data')
+    wid=json.dumps(w['id']); d=J(w.get('dir','data'))
     if PACK: j0=len(js)
     js.append(f'WARDS[{wid}]={{QB:[],HY:null}};')
     for f in sorted(glob.glob(os.path.join(d,'data_b*.js')),key=num):
@@ -72,5 +88,5 @@ os.makedirs(os.path.join(OUT,'img'),exist_ok=True)
 open(os.path.join(OUT,'index.html'),'w',encoding='utf-8').write(out)
 open(os.path.join(OUT,'.nojekyll'),'w').close()
 if not PACK:
-    for f in imgs.values(): shutil.copy(f,os.path.join(OUT,f))
+    for k,f in imgs.items(): shutil.copy(J(f),os.path.join(OUT,f))
 print('built',os.path.join(OUT,'index.html'),len(out.encode()),'bytes,',len(imgs),'images'+(' in %d sprite sheets'%len(set(v['p'] for v in packs.values())) if PACK else ''))

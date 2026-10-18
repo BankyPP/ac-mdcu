@@ -11,6 +11,8 @@ function imgHTML(k,alt,lazy){const v=IMGS[k];if(!v)return "";if(typeof v==="stri
   const py=v.H>v.h?v.y/(v.H-v.h)*100:0;
   return `<span class="spr" role="img" aria-label="${alt}" style="width:min(100%,${v.w}px);aspect-ratio:${v.w}/${v.h};background-image:url('${v.p}');background-size:${(v.W/v.w*100).toFixed(4)}% auto;background-position:0 ${py.toFixed(5)}%"></span>`;}
 const CFG=(typeof CONFIG!=="undefined"&&CONFIG)||{};
+/* institution of this website (config "inst"): MDCU = repo root, SI = si/config.json — used in AI prompts */
+const INST=Object.assign({id:"mdcu",name:"MDCU",th:"จุฬาฯ",en:"Chulalongkorn University (MDCU)",enShort:"Chulalongkorn University",stu:"นิสิตแพทย์"},CFG.inst||{});
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const plain=s=>{try{return (new DOMParser().parseFromString(String(s==null?"":s),"text/html").body.textContent||"").replace(/\s+/g," ").trim();}catch(e){return String(s||"");}};
@@ -59,13 +61,15 @@ function mornOne(P){const b=P.morn&&P.morn[2];if(!b)return;const a=P.morn[1],n=x
   if(!a||!a.day||(b.day>a.day)||(b.day===a.day&&n(b)>n(a))){keep=b;other=a;}
   if(other&&other.day&&n(other)){const same=other.day===keep.day,pp=same?2:1;P.mornH[other.day+"|"+pp]=Object.assign({},other,{p:pp});}
   P.morn[1]=keep;delete P.morn[2];}
+/* a new ward opens on its first exam type that the ward actually has (MCQ unless config noExam lists it, e.g. SI Prevent Med = MEQ only) */
+const firstType=id=>{const w=WL.find(x=>x.id===id),no=(w&&w.noExam)||[];return ["MCQ","MEQ","OSCE"].find(t=>!no.includes(t))||"MCQ";};
 function PWof(S,id){
   let P=S.w[id];if(!P)P=S.w[id]={};
   P.att=P.att||{};P.att[1]=P.att[1]||{};P.att[2]=P.att[2]||{};
   P.pre=P.pre||{};P.pre[1]=P.pre[1]||{};P.pre[2]=P.pre[2]||{};
   P.open=P.open||{};P.open[1]=P.open[1]||{};P.open[2]=P.open[2]||{};
   P.svc=P.svc||{};P.svc[1]=P.svc[1]||blankSvc();P.svc[2]=P.svc[2]||blankSvc();
-  P.flag=P.flag||{};P.post=P.post||{};P.skeep=P.skeep||{};   /* Ward staff round: questions kept on purpose {uid:[on,ts]} */P.pick=P.pick||[];P.type=P.type||"MCQ";
+  P.flag=P.flag||{};P.post=P.post||{};P.skeep=P.skeep||{};   /* Ward staff round: questions kept on purpose {uid:[on,ts]} */P.pick=P.pick||[];P.type=P.type||firstType(id);
   if(P.sess===undefined)P.sess=null;
   P.unit=P.unit||{};P.unit.att=P.unit.att||{};        /* Unit round answers (both phases share) */
   P.morn=P.morn||{};                                   /* Morning round: {1|2: {day, list, ans, ts}} */
@@ -116,7 +120,9 @@ function toast(m){const t=$("toast");t.textContent=m;t.hidden=false;clearTimeout
 const GKEY=KEY+"-trusted";let gateOk=false;
 const devTrusted=()=>{try{return localStorage.getItem(GKEY)==="1";}catch(e){return false;}};
 const markTrusted=()=>{try{localStorage.setItem(GKEY,"1");}catch(e){}};
-const gateOn=()=>{const g=CFG.gate;return !!(g&&g.on&&g.h)&&!IN_FRAME&&!gateOk&&!devTrusted()&&!(fb&&fb.user);};
+/* the institution switch on the other website already asked for this website's password → passed for this tab (sessionStorage) */
+const gatePassed=()=>{try{return sessionStorage.getItem(KEY+"-pass")===(CFG.gate&&CFG.gate.h);}catch(e){return false;}};
+const gateOn=()=>{const g=CFG.gate;return !!(g&&g.on&&g.h)&&!IN_FRAME&&!gateOk&&!gatePassed()&&!devTrusted()&&!(fb&&fb.user);};
 async function gateHash(t){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode((CFG.gate.salt||"")+t));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");}
 function rGate(){view="gate";document.body.classList.add("gated");$("nav").hidden=true;
   $("main").innerHTML=`<form class="gate" id="gateF" autocomplete="off"><div class="gl" aria-hidden="true">🔒</div><input type="password" id="gateIn" placeholder="รหัสผ่าน" aria-label="รหัสผ่าน" autocomplete="off"><button class="btn primary" type="submit">เข้าเว็บ</button><p class="gerr" id="gateErr" hidden>รหัสไม่ถูกต้อง</p></form>`;
@@ -1103,7 +1109,7 @@ const yrN=()=>{const m=/(\d+)/.exec(wYear());return m?+m[1]:0;};
 const ord=n=>n+(n===1?"st":n===2?"nd":n===3?"rd":"th");
 let admSrc=null;
 function admPrompt(W){const w=W.cfg,A=P_().adm,pos=Math.floor(Math.random()*5),y=yrN(),yr=y?ord(y)+"-year":"clinical-year";admSrc=pickSrc(W);
-  return `Write ONE brand-new multiple-choice question for a past-exam practice website used by ${yr} medical students at Chulalongkorn University (MDCU), Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
+  return `Write ONE brand-new multiple-choice question for a past-exam practice website used by ${yr} medical students at ${INST.en}, Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
 
 Scope (stay inside it): ${w.scope||w.name}.
 Level: what a ${yr} medical student is expected to know and use in real clinical practice. Content may come from any reliable source (standard textbooks, current international or Thai guidelines). The case may be invented or typical of real practice, common or uncommon.
@@ -1288,7 +1294,7 @@ function bindAdv(q){
     advAIbusy=false;const bb=$("advAI");if(bb)bb.disabled=false;};
 }
 function advPrompt(q){const W=W_(),P=P_(),h=hist(P,q.uid,P.sess.hp,true),c=n=>t=>{t=plain(t);return t.length>n?t.slice(0,n)+"…":t;};
-  return [`คุณเป็นอาจารย์ที่ปรึกษา (advisor) ของนิสิตแพทย์${yearTxt()} จุฬาฯ ในวอร์ด ${W.cfg.name} นิสิตกำลังทบทวนข้อสอบเก่าข้อนี้`,
+  return [`คุณเป็นอาจารย์ที่ปรึกษา (advisor) ของ${INST.stu}${yearTxt()} ${INST.th} ในวอร์ด ${W.cfg.name} นิสิตกำลังทบทวนข้อสอบเก่าข้อนี้`,
   `โจทย์: ${plain(q.stem)}`,`ตัวเลือก: ${q.opts.map((o,i)=>L[i]+". "+plain(o)).join(" | ")}`,`เฉลยในคลัง: ${L[q.ans]}`,
   `ประวัติการตอบของนิสิต (เก่าไปใหม่): ${h.length?h.map(a=>a[0]>=0?L[a[0]]:"หมดเวลา").join(", "):"ยังไม่เคยทำ"}`,
   q.guide?`Guideline ที่คลังอ้าง: ${plain(q.guide)}`:"",`คำอธิบายในคลัง: ${c(1500)(q.why)}`,
@@ -1382,7 +1388,7 @@ function rReport(){
 function planPrompt(T){const W=W_(),c=(s,n)=>{s=plain(s);return s.length>n?s.slice(0,n)+"…":s;};
   const rows=T.map(t=>`- ${t.k}: ในคลัง ${t.qs.length} ข้อ (${t.sets.size} ชุด) · ทำแล้ว ${t.done} · ล่าสุดผิด ${t.lw} · ผิดสะสม ${t.wa} ครั้ง`).join("\n");
   const wq=T.filter(t=>t.wrongQ.length).slice(0,6).map(t=>`[${t.k}]\n`+t.wrongQ.slice(0,5).map(q=>`  • ${c(q.stem,160)} → เฉลย: ${c(q.opts[q.ans],60)} · ประเด็น: ${c((q.summary||[])[0]||"",160)}`).join("\n")).join("\n");
-  return `คุณเป็นอาจารย์ที่ปรึกษา (advisor) ของนิสิตแพทย์${yearTxt()} จุฬาฯ วอร์ด ${W.cfg.name} (ขอบเขต: ${W.cfg.scope||W.cfg.name}) นี่คือผลการทำข้อสอบเก่า (AC) ของนิสิต แยกตามหัวข้อ:
+  return `คุณเป็นอาจารย์ที่ปรึกษา (advisor) ของ${INST.stu}${yearTxt()} ${INST.th} วอร์ด ${W.cfg.name} (ขอบเขต: ${W.cfg.scope||W.cfg.name}) นี่คือผลการทำข้อสอบเก่า (AC) ของนิสิต แยกตามหัวข้อ:
 
 ${rows}
 
@@ -1446,7 +1452,7 @@ function legDraw(n){const pools=legPools(),ks=Object.keys(pools).filter(k=>pools
 const legAIOK=()=>HAS_CLAUDE()||!!aiCfg().key;
 function legAIn(n){const E=examCfg();if(E&&E.ai)return Math.max(1,Math.round(n*E.ai));if(n<10)return Math.max(1,Math.round(n*0.1));const lo=Math.ceil(n*0.05),hi=Math.ceil(n*0.15);return lo+Math.floor(Math.random()*(hi-lo+1));}
 function legAIPrompt(W,specs){const w=W.cfg,y=yrN(),yr=y?ord(y)+"-year":"clinical-year";
-  return `Write ${specs.length} brand-new multiple-choice questions for a simulated end-of-rotation exam (the real ward MCQ exam) taken by ${yr} medical students at Chulalongkorn University (MDCU), Thailand, at the end of their ${w.name.replace(/\s*Y\d+$/,"")} rotation. They are mixed into a paper of past-exam questions, so match the style and difficulty of a real final exam.
+  return `Write ${specs.length} brand-new multiple-choice questions for a simulated end-of-rotation exam (the real ward MCQ exam) taken by ${yr} medical students at ${INST.en}, Thailand, at the end of their ${w.name.replace(/\s*Y\d+$/,"")} rotation. They are mixed into a paper of past-exam questions, so match the style and difficulty of a real final exam.
 
 Scope (stay inside it): ${w.scope||w.name}.
 Level: what a ${yr} medical student is expected to know and use in real clinical practice, from standard textbooks and current international or Thai guidelines. Common and uncommon conditions are both fine.
@@ -1736,7 +1742,7 @@ function rLRes(){
 const LCS=[["hx","1. History taking","ซักประวัติ present illness, past history และประวัติอื่น ๆ — จะถามอะไรบ้าง เพราะอะไร"],["pe","2. Physical examination","จะตรวจร่างกายอะไรบ้าง มองหาอะไร"],["ddx","3. Differential diagnoses","DDx มีอะไรบ้าง และ most likely diagnosis คืออะไร เพราะอะไร"],["lab","4. Lab investigation","จะส่งตรวจอะไรบ้าง เพื่ออะไร"],["dx","5. Definite diagnosis","วินิจฉัยสุดท้ายคืออะไร (รวม staging/classification ถ้ามี)"],["init","6. Initial management","จะจัดการเบื้องต้นอย่างไร"],["tx","7. Specific, symptomatic, supportive treatment","รักษาจำเพาะ รักษาตามอาการ และ supportive อย่างไร"],["fu","8. Plan follow up","วางแผนติดตามอย่างไร"]];
 let lcBusy=false,lcErr="",lcFbBusy=false;
 function lcPrompt(W){const w=W.cfg,y=yrN(),yr=y?ord(y)+"-year":"clinical-year",recent=bankItems("lc",ward).slice(-12).map(x=>x.case.topic).join("; ");
-  return `Write ONE realistic long-case examination case for ${yr} medical students at Chulalongkorn University (MDCU), Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
+  return `Write ONE realistic long-case examination case for ${yr} medical students at ${INST.en}, Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
 Scope (stay inside it): ${w.scope||w.name}. Choose a disease commonly seen or important in a Thai teaching hospital. Avoid these recent topics: ${recent||"none"}.
 The student will work through the case step by step like a long-case exam; at each stage they write their answer first, then your text for that stage is revealed (MEQ style). Do not reveal the diagnosis before stage 3.
 
@@ -1822,7 +1828,7 @@ async function lcNew(){if(lcBusy)return;lcBusy=true;lcErr="";const wid=ward;rLCa
   catch(e){console.warn("long case",e);lcErr=e;}
   lcBusy=false;if(view==="lcase"&&ward===wid)rLCase();}
 function lcFbPrompt(x){const C=x.case,my=x.my||{};
-  return `คุณเป็นอาจารย์ศัลยกรรมที่คุมสอบ long case ของนิสิตแพทย์${yearTxt()} จุฬาฯ เคส: ${C.topic}\nChief complaint: ${C.intro}\n\n`+LCS.map(([k,t],i)=>`### ${t}\nคำตอบของนิสิต: ${(my[k]||"(ไม่ได้เขียน)").slice(0,1500)}\nเฉลย: ${C.stages[i].answer.slice(0,1500)}`).join("\n\n")+`\n\nประเมินคำตอบของนิสิตเป็นภาษาไทยปนศัพท์แพทย์อังกฤษ กระชับ: แต่ละขั้น 1–3 bullet (ขึ้นต้น "- ") บอกสิ่งที่ทำได้ดีและสิ่งที่ขาด/ผิด โดยใช้หัวข้อ "## <ชื่อขั้น>" แล้วปิดท้ายด้วย "## ภาพรวม" 2–4 bullet ว่าควรฝึกอะไรเพิ่ม ถ้าขั้นไหนนิสิตไม่ได้เขียน ให้บอกสั้น ๆ ว่าควรตอบอะไร ห้ามแต่งข้อมูลที่ไม่มีจริง`;}
+  return `คุณเป็นอาจารย์ศัลยกรรมที่คุมสอบ long case ของ${INST.stu}${yearTxt()} ${INST.th} เคส: ${C.topic}\nChief complaint: ${C.intro}\n\n`+LCS.map(([k,t],i)=>`### ${t}\nคำตอบของนิสิต: ${(my[k]||"(ไม่ได้เขียน)").slice(0,1500)}\nเฉลย: ${C.stages[i].answer.slice(0,1500)}`).join("\n\n")+`\n\nประเมินคำตอบของนิสิตเป็นภาษาไทยปนศัพท์แพทย์อังกฤษ กระชับ: แต่ละขั้น 1–3 bullet (ขึ้นต้น "- ") บอกสิ่งที่ทำได้ดีและสิ่งที่ขาด/ผิด โดยใช้หัวข้อ "## <ชื่อขั้น>" แล้วปิดท้ายด้วย "## ภาพรวม" 2–4 bullet ว่าควรฝึกอะไรเพิ่ม ถ้าขั้นไหนนิสิตไม่ได้เขียน ให้บอกสั้น ๆ ว่าควรตอบอะไร ห้ามแต่งข้อมูลที่ไม่มีจริง`;}
 
 /* ---------------- session result ---------------- */
 function rResult(){
@@ -2072,10 +2078,12 @@ async function initFB(){
     });
   }catch(e){console.warn("firebase",e);fb=null;fbFail=true;if(view==="signin")rSignin();}
 }
-const uref=()=>fb.fs.doc(fb.db,"users",fb.user.uid);
-const inkCol=()=>fb.fs.collection(fb.db,"users",fb.user.uid,"ink");
+/* account data lives at users/{uid} (MDCU); another institution keeps its own copy under it (config fbPath, e.g. SI = users/{uid}/inst/si) so the two websites never mix progress */
+const FBP=()=>(CFG.fbPath||["users","{uid}"]).map(x=>x==="{uid}"?fb.user.uid:x);
+const uref=()=>fb.fs.doc(fb.db,...FBP());
+const inkCol=()=>fb.fs.collection(fb.db,...FBP(),"ink");
 const inkId=k=>"i"+H7(k)+H7(k+"#");
-const bankCol=()=>fb.fs.collection(fb.db,"users",fb.user.uid,"bank");
+const bankCol=()=>fb.fs.collection(fb.db,...FBP(),"bank");
 function newer(dst,src){for(const k in src||{}){const s=src[k],d=dst[k];const ts=x=>x?((Array.isArray(x)?x[1]:x.ts)||0):-1;if(!d||ts(s)>ts(d))dst[k]=s;}}
 function mergeSt(a,b){
   if(!b||!b.w)return;
@@ -2186,7 +2194,25 @@ const UDOM="@sxmcq.example.com";   /* usernames are stored as <name>@sxmcq.examp
 const who=u=>{const e=(u&&u.email)||"";return e.endsWith(UDOM)?e.slice(0,-UDOM.length):(e||(u&&u.displayName)||"");};
 function toEmail(x){x=String(x||"").trim();if(x.includes("@"))return x;const n=x.toLowerCase();if(!/^[a-z0-9._-]{3,30}$/.test(n))throw {code:"bad-username"};return n+UDOM;}
 function errMsg(e){const c=(e&&e.code)||"";return ({"bad-username":"ชื่อผู้ใช้ใช้ได้เฉพาะ a-z, 0-9, จุด, ขีด ยาว 3–30 ตัว","auth/invalid-email":"ชื่อผู้ใช้หรืออีเมลไม่ถูกต้อง","auth/missing-password":"กรุณาใส่รหัสผ่าน","auth/weak-password":"รหัสผ่านต้องยาวอย่างน้อย 6 ตัว","auth/email-already-in-use":"ชื่อผู้ใช้/อีเมลนี้มีคนใช้แล้ว ถ้าเป็นของคุณให้กดเข้าสู่ระบบ","auth/invalid-credential":"ชื่อผู้ใช้/อีเมล หรือรหัสผ่านไม่ถูกต้อง","auth/wrong-password":"ชื่อผู้ใช้/อีเมล หรือรหัสผ่านไม่ถูกต้อง","auth/user-not-found":"ยังไม่มีบัญชีนี้ ให้กดสมัครใหม่","auth/too-many-requests":"ลองหลายครั้งเกินไป รอสักครู่แล้วลองใหม่","auth/popup-closed-by-user":"ปิดหน้าต่างก่อนเข้าสู่ระบบเสร็จ","auth/unauthorized-domain":"โดเมนนี้ยังไม่ได้รับอนุญาตใน Firebase (Authorized domains)","auth/network-request-failed":"เชื่อมต่อไม่ได้ ตรวจอินเทอร์เน็ตแล้วลองใหม่"})[c]||("เข้าสู่ระบบไม่สำเร็จ"+(c?` (${c})`:""));}
-function rSignin(){
+/* ---------------- institution switch (account page): go to the other website (MDCU ⇄ SI) after typing that website's password ---------------- */
+const OTHER_INSTS=()=>(CFG.insts||[]).filter(x=>x&&x.id!==INST.id&&(x.url||x.art));
+async function shaHex(t){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(t));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");}
+function instCard(){const O=OTHER_INSTS();if(!O.length)return "";
+  return `<div class="card" id="instCard"><h3>🏥 เปลี่ยนสถาบัน</h3><span class="rd">ตอนนี้อยู่เว็บ ${esc(INST.name)}${INST.th?` (${esc(INST.th)})`:""} · ความคืบหน้าของแต่ละเว็บแยกกัน บัญชีเดียวกันใช้ได้ทั้งสองเว็บ</span>
+    <div class="stack">${O.map(x=>`<button class="btn" type="button" data-inst="${esc(x.id)}">ไปเว็บ ${esc(x.name)}${x.th?` (${esc(x.th)})`:""}</button>`).join("")}</div>
+    <form class="instpw" id="instF" autocomplete="off" hidden><input class="field-in" type="password" id="instPw" placeholder="รหัสเข้าเว็บปลายทาง" aria-label="รหัสเข้าเว็บปลายทาง" autocomplete="off"><button class="btn primary" type="submit" id="instGo">ไป</button><p class="err" id="instErr"></p></form></div>`;}
+function bindInstCard(){const f=$("instF");if(!f)return;let dest=null;
+  document.querySelectorAll("[data-inst]").forEach(b=>b.onclick=()=>{dest=OTHER_INSTS().find(x=>x.id===b.dataset.inst);if(!dest)return;
+    document.querySelectorAll("[data-inst]").forEach(o=>o.classList.toggle("primary",o===b));f.hidden=false;$("instGo").textContent="ไปเว็บ "+dest.name;$("instErr").textContent="";const i=$("instPw");i.value="";setTimeout(()=>i.focus(),30);});
+  f.onsubmit=async e=>{e.preventDefault();if(!dest)return;const i=$("instPw"),g=dest.gate;let ok=!g;
+    if(g){try{ok=(await shaHex((g.salt||"")+i.value))===g.h;}catch(x){}}
+    if(!ok){$("instErr").textContent="รหัสไม่ถูกต้อง";i.value="";i.focus();return;}
+    try{if(g&&dest.sk)sessionStorage.setItem(dest.sk+"-site-v3-pass",g.h);}catch(x){}
+    await pushNow();await flushInk();
+    if(IN_FRAME){const u=dest.art||dest.url;try{window.open(u,"_blank","noopener");}catch(x){location.href=u;}}else location.href=dest.url||dest.art;};}
+function rSignin(){rSignin0();const m=$("main");if(!m||$("instCard"))return;const c=instCard();if(!c)return;
+  m.insertAdjacentHTML("beforeend",c);bindInstCard();}
+function rSignin0(){
   let h=`<h1 class="h2">บัญชีของฉัน</h1>`;
   const back=()=>{const b=$("back");if(b)b.onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");};
   if(cl){h+=`<div class="card"><h3>☁️ บันทึกในบัญชี Claude แล้ว</h3><span class="rd" style="margin:0">ความคืบหน้า โน้ต และที่เขียนไว้ บันทึกในบัญชี Claude ของคุณอัตโนมัติ ไม่ต้องสมัครเพิ่ม เปิดจากเครื่องไหนก็ได้ (ต้องล็อกอิน Claude บัญชีเดียวกัน)</span></div><div class="row2"><button class="btn primary" id="back">กลับไปทำข้อสอบ</button></div>`;$("main").innerHTML=h;back();return;}
