@@ -844,3 +844,5 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .osrb{padding:4px 12px 12px;border-top:1px solid var(--rule)}
 .osmine{background:var(--paper);border-radius:6px;padding:8px 10px;white-space:normal;overflow-wrap:anywhere}
 @media (max-width:560px){.osnum{font-size:32px}.osclock{font-size:30px}}
+.osaibtn{margin:8px 0;padding:10px 12px;border:1.5px dashed var(--form);border-radius:8px}
+.osaibtn .row2{display:flex;gap:8px;flex-wrap:wrap}

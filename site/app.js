@@ -483,7 +483,7 @@ function startSess(kind,title,uids,extra){
 function clStartCard(){const cs=clStart();return `<div class="card"><h3>เปิดเว็บนี้ใน Claude แล้วไปที่</h3><span class="rd">claude.ai ไม่ส่งต่อว่ากดมาจากปุ่มไหนในเว็บ จึงเลือกได้ว่าจะให้ถามทุกครั้ง (กดครั้งเดียว ไม่ต้องเลือกวอร์ด) หรือเปิดหน้าเดิมเสมอ</span><div class="chips">${CLSTART.map(([v,t])=>`<button class="chip" data-cs="${v}" aria-pressed="${cs===v}">${t}</button>`).join("")}</div></div>`;}
 function rLaunch(){
   const W=W_(),P=P_(),w=W.cfg,lr=st.lastRoute&&st.lastRoute.split("/")[0]===ward?st.lastRoute.split("/")[1]:"";
-  const VN={home:"หน้าวอร์ด",adm:"Admission round",lcase:"Long case",legend:"Legendary round",exam:"Legendary round (กำลังสอบ)",lres:"ผล Legendary round",advisor:"Advisor round",report:"รายงาน Advisor",unit:"Unit round",quality:"Quality round",service:"Service round",grand:"Grand round",hy:"High-yield",kw:"Keyword",staff:"Ward staff round",teach:"Teaching round",tch:"Teaching round (History / PE / CTA)",case:"Case",taker:"History taker / Physical examinator"};
+  const VN={osl:"Legendary round · OSCE",osx:"Legendary round · OSCE (กำลังสอบ)",osr:"ผล Legendary / Quality round · OSCE",osq:"Quality round · OSCE",osh:"ประวัติ Legendary / Quality round · OSCE",home:"หน้าวอร์ด",adm:"Admission round",lcase:"Long case",legend:"Legendary round",exam:"Legendary round (กำลังสอบ)",lres:"ผล Legendary round",advisor:"Advisor round",report:"รายงาน Advisor",unit:"Unit round",quality:"Quality round",service:"Service round",grand:"Grand round",hy:"High-yield",kw:"Keyword",staff:"Ward staff round",teach:"Teaching round",tch:"Teaching round (History / PE / CTA)",case:"Case",taker:"History taker / Physical examinator"};
   const it=(v,t,d,b)=>`<button class="resume" data-lv="${v}"><span>${b?`<span class="lbadge">${b}</span>`:""}<b>${t}</b><span class="rd">${d}</span></span><span class="go">→</span></button>`;
   const nAdm=bankItems("adm",ward).length,nLc=bankItems("lc",ward).length;
   let h=`<div class="whead"><h1 class="h2">จะไปหน้าไหน?</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0 0 12px">${esc(w.name)} · หน้าที่ต้องใช้ AI เปิดใน Claude ได้เลย</p><div class="stack" style="margin-top:0">`;
@@ -491,8 +491,9 @@ function rLaunch(){
   h+=it("adm","Admission round",`เคสใหม่ที่ AI สร้างให้ทีละข้อ${nAdm?` · คลังของคุณมี ${nAdm} เคส`:""}`);
   h+=it("lcase","Long case",`AI ให้ chief complaint แล้วดำเนินเคสทีละขั้น${nLc?` · ทำไปแล้ว ${nLc} เคส`:""}`);
   h+=it(P.leg?"exam":"legend","Legendary round",P.leg?`กำลังสอบอยู่ใน Claude · เหลือเวลา ${hms(P.leg.end-now())}`:"จำลองสอบจริง พร้อมโจทย์ใหม่จาก AI",P.leg?"กำลังสอบ":"");
+  if(!(w.noExam||[]).includes("OSCE")){const oc=typeof osRunCur==="function"&&osRunCur();h+=it(oc?"osx":"osl","Legendary round · OSCE",oc?"กำลังสอบ OSCE อยู่ใน Claude — กดเพื่อสอบต่อ":"จำลองสอบ OSCE จริง พร้อมโจทย์ใหม่จาก AI",oc?"กำลังสอบ":"OSCE");}
   {const C=(bank["tch|all|cta"]||{}).procs||[];h+=it("tch/cta","CTA",`ใส่ไฟล์ให้ AI อ่านเติมเนื้อหา (ตัวพิมพ์ + ลายมือ) · ฝึกพิมพ์ keyword${C.length?` · มี ${C.length} หัตถการ`:""}`);}
-  if(lr&&!["adm","lcase","legend","exam","home"].includes(lr))h+=it(lr,"หน้าล่าสุดที่ใช้ใน Claude",VN[lr]||lr);
+  if(lr&&!["adm","lcase","legend","exam","home","osl","osx"].includes(lr))h+=it(lr,"หน้าล่าสุดที่ใช้ใน Claude",VN[lr]||lr);
   h+=it("home","หน้าวอร์ด","round อื่น ๆ ทั้งหมด");
   h+=`</div>`+clStartCard();
   $("main").innerHTML=h;
