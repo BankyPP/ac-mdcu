@@ -72,7 +72,50 @@
           "done": true
         }
       ],
-      "meqTopics": []
+      "meqTopics": [],
+      "osceTopics": [
+        {
+          "id": "lab",
+          "name": "Lab interpretation"
+        },
+        {
+          "id": "img",
+          "name": "Imaging"
+        },
+        {
+          "id": "micro",
+          "name": "Microscope"
+        },
+        {
+          "id": "ekg",
+          "name": "EKG"
+        },
+        {
+          "id": "skin",
+          "name": "Skin lesion"
+        },
+        {
+          "id": "hx",
+          "name": "History taking",
+          "ex": 1
+        },
+        {
+          "id": "pe",
+          "name": "Physical examination",
+          "ex": 1
+        },
+        {
+          "id": "proc",
+          "name": "Procedure",
+          "ex": 1,
+          "proc": 1
+        },
+        {
+          "id": "advice",
+          "name": "Advice",
+          "ex": 1
+        }
+      ]
     },
     {
       "id": "ped",

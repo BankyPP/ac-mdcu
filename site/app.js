@@ -77,7 +77,7 @@ function PWof(S,id){
   P.adm=P.adm||{cur:null,ans:null,next:null,n:0,right:0,recent:[],ts:0};   /* Admission round */
   P.seen=P.seen||{};   /* where each question has been shown: {uid: {roundKey: firstTs}} */
   P.reset=P.reset||{};P.reset[1]=P.reset[1]||{};P.reset[2]=P.reset[2]||{};
-  mqInitP(P);P.ioSeen=P.ioSeen||{};   /* Round I/O: pages already opened {pageId|"T:"+topic: rev} */   /* MEQ progress (site/meq.js): {a1,a2,star,v} */   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
+  mqInitP(P,"MEQ");mqInitP(P,"OSCE");P.osHist=Array.isArray(P.osHist)?P.osHist:[];if(P.osRun===undefined)P.osRun=null;P.ioSeen=P.ioSeen||{};   /* Round I/O: pages already opened {pageId|"T:"+topic: rev} */   /* MEQ progress (site/meq.js): {a1,a2,star,v} */   /* Advisor round "reset to undone": {uid:[cutoffTs, changedTs]} — attempts up to cutoff stop counting as done (history is kept) */
   return P;
 }
 /* migrate the earlier single-sheet site/artifact format {a:{uid:ans},t} → Phase 1 attempts */
@@ -147,8 +147,9 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin","io","tch","taker","case"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin","io","tch","taker","case","osl","osx","osr","osh"].includes(v))v="home";
   if((v==="mqr"||v==="mq"||v==="mqhy")&&!mqL().length)v="home";
+  if(v==="osx"&&!osRunCur())v=osLastRes()?"osr":"osl";if(v==="osr"&&!osLastRes())v="osl";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";
   if(v==="admq"&&!(bank[st.admSel]&&st.admSel.split("|")[1]===ward))v="adm";
@@ -166,14 +167,14 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY,mqin:mqIn,io:rIO,tch:rTch,taker:rTaker,case:rCase})[v]();
+  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY,mqin:mqIn,io:rIO,tch:rTch,taker:rTaker,case:rCase,osl:osSetup,osx:osRunView,osr:osResView,osh:osHistView})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
 
 /* ---------------- wards ---------------- */
 /* ward list: old-exam (AC) questions per exam type — MCQ = W.QB, MEQ = W.MQ, OSCE = W.OS (none yet); types the ward has no exam for are skipped */
-function acCounts(w){const W=WARDS[w.id]||{},no=w.noExam||[],c={MCQ:(W.QB||[]).length,MEQ:mqL(w.id).length,OSCE:(W.OS||[]).length};
+function acCounts(w){const W=WARDS[w.id]||{},no=w.noExam||[],c={MCQ:(W.QB||[]).length,MEQ:mqL(w.id,"MEQ").length,OSCE:(W.OS||[]).length};
   const t=["MCQ","MEQ","OSCE"].filter(k=>!no.includes(k));return `<span class="acn"><span class="acl">ข้อสอบเก่า AC</span>${t.map(k=>`<span class="act${c[k]?"":" z"}">${k} <b>${c[k]}</b></span>`).join("")}</span>`;}
 function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
@@ -216,7 +217,8 @@ function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign(
   let h=`<h1 class="h2">Admit · ICU · Discharge — ${esc(w.name)}</h1><p class="sub">แก้แล้วกดบันทึก นับถอยหลัง คำเตือน Phase 2 และหน้าประวัติ Morning round ใช้ค่านี้ทันที · เข้าสู่ระบบไว้จะใช้ค่าเดียวกันทุกเครื่อง${o?` · <b>กำลังใช้ค่าที่แก้เอง</b> (แก้ล่าสุด ${fmtDT(o.ts)})`:" · ตอนนี้ใช้ค่าตั้งต้นของเว็บ"}</p>`;
   h+=`<div class="card"><h3>ICU <span class="hint" style="font-weight:400">(วันสอบ)</span></h3><div id="dtRows">${D.map(row).join("")||`<p class="hint">ยังไม่มี ICU</p>`}</div><button class="btn" id="dtAdd" type="button">+ เพิ่ม ICU</button>
     <p class="hint" style="margin-top:8px">ลำดับในหน้านี้ = ลำดับที่โชว์ในหน้าวอร์ดและหน้าแรก (บนสุด = ซ้ายสุด/ก่อน) — กด ☰ ค้างแล้วลาก หรือกด ↑ ขึ้น / ↓ ลง · ไม่ใส่เวลาเริ่ม = นับถอยหลังเป็นวัน · ใส่เวลาเริ่มและจบ = ระหว่างสอบขึ้น "กำลังสอบ ✍️" · เหลือ ≤14 วันกล่องเป็นสีแดงและเตือนให้เริ่ม Phase 2</p></div>`;
-  {const E0=Object.assign({},(w.exam||{}).MCQ,o&&o.exam);h+=`<div class="card"><h3>MCQ สอบจริง <span class="hint" style="font-weight:400">(จำนวนข้อ · เวลา — ใช้กับ Legendary round)</span></h3><div class="dtrow"><label>จำนวนข้อ<input type="number" id="exN" min="1" max="500" value="${esc(E0.n||"")}" placeholder="เช่น 100"></label><label>เวลา (นาที)<input type="number" id="exM" min="1" max="600" value="${esc(E0.min||"")}" placeholder="เช่น 150"></label></div><span class="rd">เว้นว่าง = ใช้ค่าตั้งต้นของเว็บ${(w.exam||{}).MCQ?` (${w.exam.MCQ.n} ข้อ ${w.exam.MCQ.min} นาที)`:" (ยังไม่มี)"} · MEQ / OSCE ยังไม่มี Legendary round</span></div>`;}
+  {const E0=Object.assign({},(w.exam||{}).MCQ,o&&o.exam);h+=`<div class="card"><h3>MCQ สอบจริง <span class="hint" style="font-weight:400">(จำนวนข้อ · เวลา — ใช้กับ Legendary round)</span></h3><div class="dtrow"><label>จำนวนข้อ<input type="number" id="exN" min="1" max="500" value="${esc(E0.n||"")}" placeholder="เช่น 100"></label><label>เวลา (นาที)<input type="number" id="exM" min="1" max="600" value="${esc(E0.min||"")}" placeholder="เช่น 150"></label></div><span class="rd">เว้นว่าง = ใช้ค่าตั้งต้นของเว็บ${(w.exam||{}).MCQ?` (${w.exam.MCQ.n} ข้อ ${w.exam.MCQ.min} นาที)`:" (ยังไม่มี)"} · MEQ ยังไม่มี Legendary round</span></div>`;}
+  if(!(w.noExam||[]).includes("OSCE")){const E1=Object.assign({},(w.exam||{}).OSCE,o&&o.examOS);h+=`<div class="card"><h3>OSCE สอบจริง <span class="hint" style="font-weight:400">(จำนวนข้อ · เวลาต่อข้อ — ค่าตั้งต้นของ Legendary round OSCE)</span></h3><div class="dtrow"><label>จำนวนข้อ (ไม่นับข้อพัก)<input type="number" id="osN" min="1" max="80" value="${esc(E1.n||"")}" placeholder="เช่น 25"></label><label>เวลาต่อข้อ (นาที)<input type="number" id="osM" min="1" max="60" step="0.5" value="${esc(E1.min||"")}" placeholder="เช่น 5"></label></div><span class="rd">เว้นว่าง = ใช้ค่าตั้งต้นของเว็บ${(w.exam||{}).OSCE?` (${w.exam.OSCE.n} ข้อ ข้อละ ${w.exam.OSCE.min} นาที)`:" (ยังไม่มี)"} · เปลี่ยนได้อีกตอนเริ่มสอบ</span></div>`;}
   h+=`<div class="card"><h3>Admit &amp; Discharge</h3><span class="rd">วันเริ่มและวันจบวอร์ด — ใช้กับหน้าประวัติ Morning round (เรียงครบทุกวันในช่วงนี้)</span><div class="dtrow"><label>Admit<input type="date" id="rtS" value="${esc(rot.start||"")}"></label><label>Discharge<input type="date" id="rtE" value="${esc(rot.end||"")}"></label></div></div>`;
   h+=`<div class="stack"><button class="btn primary" id="dtSave" type="button">บันทึก</button>${o?`<button class="btn" id="dtReset" type="button">คืนค่าตั้งต้นของเว็บ</button>`:""}<a class="btn" href="#/${esc(ward)}">ยกเลิก</a></div>`;
   $("main").innerHTML=h;
@@ -232,7 +234,8 @@ function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign(
   $("dtAdd").onclick=()=>{const box=$("dtRows"),i=D.length;D.push({part:"MCQ"});if(!box.querySelector(".dtrow"))box.innerHTML="";box.insertAdjacentHTML("beforeend",row(D[i],i));bindRow(box.lastElementChild);};
   $("dtSave").onclick=()=>{const dates=read(),s_=$("rtS").value,e_=$("rtE").value;if(s_&&e_&&e_<s_){toast("วัน Discharge ต้องไม่ก่อนวัน Admit");return;}
     const xn=+$("exN").value,xm=+$("exM").value;if((xn||xm)&&!(xn>0&&xm>0)){toast("ใส่ทั้งจำนวนข้อและเวลา (หรือเว้นว่างทั้งคู่)");return;}
-    st.wcfg=st.wcfg||{};st.wcfg[w.id]={dates,rotation:s_?{start:s_,end:e_||s_}:null,ts:now()};if(xn>0&&xm>0)st.wcfg[w.id].exam={n:Math.round(xn),min:Math.round(xm)};save();toast("บันทึกวันสอบแล้ว");go(ward);};
+    const on=$("osN")?+$("osN").value:0,om=$("osM")?+$("osM").value:0;if((on||om)&&!(on>0&&om>0)){toast("OSCE: ใส่ทั้งจำนวนข้อและเวลาต่อข้อ (หรือเว้นว่างทั้งคู่)");return;}
+    st.wcfg=st.wcfg||{};st.wcfg[w.id]={dates,rotation:s_?{start:s_,end:e_||s_}:null,ts:now()};if(xn>0&&xm>0)st.wcfg[w.id].exam={n:Math.round(xn),min:Math.round(xm)};if(on>0&&om>0)st.wcfg[w.id].examOS={n:Math.round(on),min:Math.round(om*2)/2};save();toast("บันทึกวันสอบแล้ว");go(ward);};
   const rs=$("dtReset");if(rs)rs.onclick=async()=>{if(!await uiAsk("กลับไปใช้วันสอบตั้งต้นของเว็บ?"))return;st.wcfg[w.id]={reset:true,ts:now()};save();toast("กลับเป็นค่าตั้งต้นแล้ว");go(ward);};
 }
 /* countdown, always rounded up from the exam time: "N w N d" → last 14 days "N d" → last 24 h "N h" → last 2 h "1 h N min" → last hour "N min" (0 min at the start) → "Exam done 🎉" for good.
@@ -2132,7 +2135,8 @@ function mergeSt(a,b){
     if(r.advPlan&&(!l.advPlan||(r.advPlan.ts||0)>(l.advPlan.ts||0)))l.advPlan=r.advPlan;
     newer(l.flag,r.flag);newer(l.post,r.post);newer(l.skeep,r.skeep||{});
     for(const k in r.ioSeen||{})l.ioSeen[k]=Math.max(l.ioSeen[k]||0,r.ioSeen[k]);
-    {const a=mqInitP(l),c=mqInitP(r);newer(a.a1,c.a1);newer(a.a2,c.a2);newer(a.star,c.star);if((c.v.ts||0)>(a.v.ts||0))l.meq.v=c.v;}
+    ["MEQ","OSCE"].forEach(K=>{const a=mqInitP(l,K),c=mqInitP(r,K);newer(a.a1,c.a1);newer(a.a2,c.a2);newer(a.star,c.star);if((c.v.ts||0)>(a.v.ts||0))l[K==="OSCE"?"osce":"meq"].v=c.v;});
+    osMerge(l,r);
     if((b.t||0)>(a.t||0)){l.svc=r.svc;l.type=r.type;l.pick=r.pick;}
     if(r.sess&&(!l.sess||(r.sess.ts||0)>(l.sess.ts||0)))l.sess=r.sess;
   }

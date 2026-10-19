@@ -791,3 +791,56 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .iov .ioreflist li.iohit{animation:iohit 1.6s ease-out}
 @keyframes iohit{from{background:var(--form-soft)}to{background:transparent}}
 .iov .iobody .nfix .iofix{background:rgba(197,138,0,.2);color:#b07800}
+/* ===== OSCE (site/osce.js + OSCE tab of site/meq.js) ===== */
+.btn.sm{padding:4px 10px;font-size:14px}
+.osv .seg button{text-align:left;padding:10px 12px}
+.osord{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.osopt{text-align:left;border:1.5px solid var(--rule);background:transparent;border-radius:8px;padding:10px 12px;cursor:pointer;color:var(--ink);font:inherit;line-height:1.45}
+.osopt b{display:block;font-family:var(--num);font-size:15.5px}
+.osopt span{font-size:13.5px;color:var(--muted)}
+.osopt[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+.osopt[aria-pressed="true"] span{color:var(--paper);opacity:.85}
+.osv .dtrow{display:flex;flex-wrap:wrap;gap:10px}
+.osv .dtrow label,.osbrief{display:flex;flex-direction:column;font-size:13.5px;color:var(--muted);gap:3px;min-width:0}
+.osv .dtrow input,.osv .dtrow select,.osbrief input,.ostart select{font:inherit;font-size:16px;padding:6px 8px;border:1.5px solid var(--rule);border-radius:6px;background:var(--sheet);color:var(--ink);max-width:100%}
+.osbrief{margin-top:8px}
+.ostart{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:6px 0 10px;font-size:16px}
+.osslots,.osres{display:flex;flex-direction:column;gap:6px}
+.osslot{display:flex;align-items:center;gap:10px;background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:8px 10px;flex-wrap:wrap}
+.osslot.rest{background:transparent;border-style:dashed}
+.osslot.start{border-color:var(--form);box-shadow:0 0 0 1px var(--form)}
+.osslot .on,.osr summary .on{font-family:var(--num);font-weight:700;font-size:18px;min-width:30px;text-align:center;color:var(--form)}
+.osslot .oi,.osr summary .oi{font-size:18px}
+.osslot .ot{flex:1;min-width:140px}
+.osslot .oa{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.sflag{color:var(--form);font-size:13.5px}
+.osbar{position:sticky;top:calc(52px + env(safe-area-inset-top,0px));z-index:12;display:flex;align-items:center;gap:12px;background:var(--paper);padding:8px 0;border-bottom:1.5px solid var(--rule)}
+.osnum{font-family:var(--num);font-weight:700;font-size:40px;line-height:.9;color:var(--form)}
+.osnum small{display:block;font-size:12px;color:var(--muted);font-weight:500}
+.osnum .osof{font-size:16px;color:var(--muted)}
+.osmeta{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.osclock{font-family:var(--num);font-weight:700;font-size:38px;font-variant-numeric:tabular-nums;color:var(--ink)}
+.osclock.low{color:var(--wrong)}
+.osclock.paused{opacity:.45}
+.osctl{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 12px}
+.osrest{text-align:center;padding:40px 10px;font-size:20px}
+.osrest .big{font-size:64px}
+.osproc{margin-top:16px}
+.osproc summary{cursor:pointer}
+.ossp{margin:8px 0;background:var(--warn-soft);border-radius:6px;padding:8px 12px}
+.oschkq{margin-top:10px}
+.oschkq .oq{font-weight:600}
+.oschk{margin-top:6px;font-size:14.5px;color:var(--muted)}
+.osgrade{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:6px 0 4px}
+.osgrade .g{font-family:var(--num);font-weight:700;font-size:52px;color:var(--form);line-height:1}
+.osgrade .p{font-family:var(--num);font-weight:600;font-size:26px}
+.ostab{width:100%;border-collapse:collapse;font-size:15px}
+.ostab td{padding:4px 6px;border-bottom:1px solid var(--rule)}
+.osr{background:var(--sheet);border:1px solid var(--rule);border-radius:8px}
+.osr summary{display:flex;align-items:center;gap:10px;padding:8px 10px;cursor:pointer;list-style:none}
+.osr summary::-webkit-details-marker{display:none}
+.osr summary .ot{flex:1;min-width:0}
+.osr .osp{font-family:var(--num);font-size:17px}
+.osrb{padding:4px 12px 12px;border-top:1px solid var(--rule)}
+.osmine{background:var(--paper);border-radius:6px;padding:8px 10px;white-space:normal;overflow-wrap:anywhere}
+@media (max-width:560px){.osnum{font-size:32px}.osclock{font-size:30px}}

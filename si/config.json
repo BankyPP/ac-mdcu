@@ -44,7 +44,55 @@
       "dir": "data_med",
       "scope": "Internal medicine",
       "dates": [],
-      "meqTopics": []
+      "meqTopics": [],
+      "osceTopics": [
+        {
+          "id": "lab",
+          "name": "Lab interpretation"
+        },
+        {
+          "id": "img",
+          "name": "Imaging"
+        },
+        {
+          "id": "micro",
+          "name": "Microscope"
+        },
+        {
+          "id": "ekg",
+          "name": "EKG"
+        },
+        {
+          "id": "skin",
+          "name": "Skin lesion"
+        },
+        {
+          "id": "pefind",
+          "name": "Describe physical findings"
+        },
+        {
+          "id": "hx",
+          "name": "History taking",
+          "ex": 1
+        },
+        {
+          "id": "pe",
+          "name": "Physical examination",
+          "ex": 1
+        },
+        {
+          "id": "proc",
+          "name": "Procedure",
+          "ex": 1,
+          "proc": 1
+        }
+      ],
+      "exam": {
+        "OSCE": {
+          "n": 25,
+          "min": 5
+        }
+      }
     }
   ],
   "firebase": {
