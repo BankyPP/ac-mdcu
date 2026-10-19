@@ -771,3 +771,23 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .iobody .case{border:1px dashed var(--accent);border-radius:4px;padding:2px 5px;background:var(--soft);margin:2px 0}
 .iobody .lt td:first-child{font-weight:700;color:var(--red);width:16px;text-align:center}
 @media (max-width:700px){.iobody .fig{flex-direction:column}.iobody .fig>*{width:100% !important;max-width:100%}}
+
+/* Round I/O — N notes: fix/find/add markers + Wikipedia-style references (19 Oct 2026) */
+.iov .iofind{display:inline-block;background:rgba(61,115,196,.16);color:#3d73c4;border-radius:4px;padding:0 6px;font-size:12.5px;font-weight:600}
+.iov .ioadd{display:inline-block;background:rgba(90,79,176,.12);color:#5a4fb0;border-radius:4px;padding:0 6px;font-size:12.5px;font-weight:600}
+.iov .iowas{display:inline-block;color:var(--muted);font-size:13px;background:rgba(128,128,128,.08);border:1px dashed var(--rule);border-radius:4px;padding:0 5px;margin:1px 0}
+.iov .iowhy{color:var(--muted);font-size:13.5px}
+.iov .iobody .nfix{border-left:3px solid #c58a00;background:rgba(197,138,0,.11);border-radius:0 4px 4px 0;padding:3px 7px;margin:4px 0}
+.iov .iobody .nfind{border-left:3px solid #3d73c4;background:rgba(61,115,196,.09);border-radius:0 4px 4px 0;padding:3px 7px;margin:4px 0}
+.iov .iobody .nadd{border-left:3px solid #5a4fb0;background:rgba(90,79,176,.07);border-radius:0 4px 4px 0;padding:3px 7px;margin:4px 0}
+.iov .iobody .nres{border-left:3px solid var(--muted);background:rgba(128,128,128,.08);border-radius:0 4px 4px 0;padding:3px 7px;margin:4px 0;color:var(--muted)}
+.iov sup.iocite{font-size:.7em;line-height:0;vertical-align:super;margin-left:1px}
+.iov sup.iocite a{color:var(--form);text-decoration:none;font-family:var(--num)}
+.iov sup.iocite a:hover{text-decoration:underline}
+.iov .iorefs{margin-top:16px;padding-top:10px;border-top:1px solid var(--rule)}
+.iov .iorefbtn{font-size:14px}
+.iov .ioreflist{margin:10px 0 0;padding-left:24px;font-size:13.5px;line-height:1.55;color:var(--ink)}
+.iov .ioreflist li{margin:4px 0;overflow-wrap:anywhere;border-radius:4px;padding:0 4px}
+.iov .ioreflist li.iohit{animation:iohit 1.6s ease-out}
+@keyframes iohit{from{background:var(--form-soft)}to{background:transparent}}
+.iov .iobody .nfix .iofix{background:rgba(197,138,0,.2);color:#b07800}

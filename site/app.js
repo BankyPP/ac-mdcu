@@ -619,7 +619,16 @@ const resLabel=r=>(r.code?r.code+" ":"")+r.title;
 const resPts=(r,n)=>(Array.isArray(r.points)?r.points:[]).slice(0,n||99);
 /* where an AI-written question takes its content from: picked uniformly at random among "anywhere" and every attached resource that has content */
 function pickSrc(W){const rs=resOf(W).filter(r=>resPts(r).length),o=[null].concat(rs);return o[Math.floor(Math.random()*o.length)];}
-const srcPrompt=r=>r?`\nContent source for this question: build it mainly on the attached resource below (you may add standard textbook or guideline knowledge, but the key point tested must come from it).\nResource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}\n`:"";
+/* Admission round may use anything: general knowledge, or any lecture (L) / resource (R) / ward note (N) summary of this ward — one of these 4 groups at random (equal chance), then one page inside it */
+const IOKN={L:"lecture summary",R:"resource summary",N:"ward note (checked and corrected)"};
+function ioSrcs(W){const o=[];((W&&W.IO&&W.IO.docs)||[]).forEach(d=>(d.pages||[]).forEach(p=>{
+  const t=String(p.html||"").replace(/<span class="iowas">[\s\S]*?<\/span>/g,"").replace(/\{\{[^}]*\}\}/g,"").replace(/<[^>]+>/g," ").replace(/&nbsp;/g," ").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
+  if(t)o.push({io:1,kind:d.kind,code:d.code,title:(d.kind==="N"?"โน้ตวอร์ด":d.title)+" — "+p.title,text:t.slice(0,7000)});}));return o;}
+function pickSrcAdm(W){const rs=resOf(W).filter(r=>resPts(r).length),io=ioSrcs(W);
+  const G=[[null],io.filter(x=>x.kind==="L"),rs.concat(io.filter(x=>x.kind==="R")),io.filter(x=>x.kind==="N")].filter(g=>g.length);
+  const g=G[Math.floor(Math.random()*G.length)];return g[Math.floor(Math.random()*g.length)];}
+const srcPrompt=r=>!r?"":r.io?`\nContent source for this question: build it mainly on the ${IOKN[r.kind]||"summary"} below from this ward (you may add standard textbook or guideline knowledge, but the key point tested must come from it; where it marks a correction, use the corrected statement).\nSource ${r.code} ${r.title}:\n${r.text}\n`
+  :`\nContent source for this question: build it mainly on the attached resource below (you may add standard textbook or guideline knowledge, but the key point tested must come from it).\nResource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}\n`;
 function tagRow(q){const W=W_();let t=[];
   if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=Array.isArray(q.tags)&&q.tags.length?q.tags:[].concat(Lc.tags||Lc.topic||[]);}
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];
@@ -781,7 +790,7 @@ function explain(q,done,R,p){
   if(q.unit){const Lc=W.byLec[q.unit]||{},n=uAtts(P,q.uid).length;h+=`<span class="tag">Unit round · ${esc(Lc.title||q.set)}${Lc.src?` · จาก ${esc(Lc.src)}`:""}</span><span class="tag">เจอข้อนี้มาแล้ว ${n} ครั้ง (รวมครั้งนี้)</span>`;}
   else if(q.lai)h+=`<span class="tag">Legendary round · โจทย์ใหม่ที่ AI สร้างสำหรับข้อสอบวันที่ ${fmtD(q.ts)}${q.topic?` · ${esc(q.topic)}`:""}</span>`;
   else if(q.adm)h+=`<span class="tag">Admission round · เคสที่ AI สร้างใหม่${q.topic?` · ${esc(q.topic)}`:""}</span>`;
-  if(q.adm)h+=`<span class="tag">ที่มาของเนื้อหา: ${q.srcRes?`resource ที่แนบไว้ — ${esc(q.srcRes)}`:"ความรู้ทั่วไป / ตำรา / guideline ภายนอก (ไม่ได้มาจากไฟล์ที่แนบ)"}</span>`;
+  if(q.adm)h+=`<span class="tag">ที่มาของเนื้อหา: ${q.srcRes?`ไฟล์ของวอร์ด — ${esc(q.srcRes)}`:"ความรู้ทั่วไป / ตำรา / guideline ภายนอก (ไม่ได้มาจากไฟล์ของวอร์ด)"}</span>`;
   else if(q.unit){if(q.src)h+=`<span class="tag">ที่มา: ${esc(q.src)}</span>`;}
   else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;}
   if(q.guide)h+=`<div class="guide">📘 <b>อ้างอิง${q.adm||q.unit?"":" guideline"}:</b> ${q.adm?esc(q.guide):q.guide}</div>`;
@@ -1114,7 +1123,7 @@ async function aiMode(){if(HAS_CLAUDE()){try{return (await window.claude.use("sa
 const yrN=()=>{const m=/(\d+)/.exec(wYear());return m?+m[1]:0;};
 const ord=n=>n+(n===1?"st":n===2?"nd":n===3?"rd":"th");
 let admSrc=null;
-function admPrompt(W){const w=W.cfg,A=P_().adm,pos=Math.floor(Math.random()*5),y=yrN(),yr=y?ord(y)+"-year":"clinical-year";admSrc=pickSrc(W);
+function admPrompt(W){const w=W.cfg,A=P_().adm,pos=Math.floor(Math.random()*5),y=yrN(),yr=y?ord(y)+"-year":"clinical-year";admSrc=pickSrcAdm(W);
   return `Write ONE brand-new multiple-choice question for a past-exam practice website used by ${yr} medical students at ${INST.en}, Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
 
 Scope (stay inside it): ${w.scope||w.name}.

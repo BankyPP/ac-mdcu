@@ -946,6 +946,31 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .instpw .err{flex-basis:100%;margin:0}
 /* MEQ answer sheet in the overlay: case rows with Part chips (same look as the list page) */
 #rows .mqv .trows{margin:0}
+.iobody .add{border-left:3px solid #5a4fb0;background:rgba(90,79,176,.09);border-radius:0 4px 4px 0;padding:1px 5px;margin:2px 0}
+.iobody .chip.e{color:#5a4fb0}
+.iobody .case{border:1px dashed var(--accent);border-radius:4px;padding:2px 5px;background:var(--soft);margin:2px 0}
+.iobody .lt td:first-child{font-weight:700;color:var(--red);width:16px;text-align:center}
+@media (max-width:700px){.iobody .fig{flex-direction:column}.iobody .fig>*{width:100% !important;max-width:100%}}
+
+/* Round I/O — N notes: fix/find/add markers + Wikipedia-style references (19 Oct 2026) */
+.iov .iofind{display:inline-block;background:rgba(61,115,196,.16);color:#3d73c4;border-radius:4px;padding:0 6px;font-size:12.5px;font-weight:600}
+.iov .ioadd{display:inline-block;background:rgba(90,79,176,.12);color:#5a4fb0;border-radius:4px;padding:0 6px;font-size:12.5px;font-weight:600}
+.iov .iowas{display:inline-block;color:var(--muted);font-size:13px;background:rgba(128,128,128,.08);border:1px dashed var(--rule);border-radius:4px;padding:0 5px;margin:1px 0}
+.iov .iowhy{color:var(--muted);font-size:13.5px}
+.iov .iobody .nfix{border-left:3px solid #c58a00;background:rgba(197,138,0,.11);border-radius:0 4px 4px 0;padding:3px 7px;margin:4px 0}
+.iov .iobody .nfind{border-left:3px solid #3d73c4;background:rgba(61,115,196,.09);border-radius:0 4px 4px 0;padding:3px 7px;margin:4px 0}
+.iov .iobody .nadd{border-left:3px solid #5a4fb0;background:rgba(90,79,176,.07);border-radius:0 4px 4px 0;padding:3px 7px;margin:4px 0}
+.iov .iobody .nres{border-left:3px solid var(--muted);background:rgba(128,128,128,.08);border-radius:0 4px 4px 0;padding:3px 7px;margin:4px 0;color:var(--muted)}
+.iov sup.iocite{font-size:.7em;line-height:0;vertical-align:super;margin-left:1px}
+.iov sup.iocite a{color:var(--form);text-decoration:none;font-family:var(--num)}
+.iov sup.iocite a:hover{text-decoration:underline}
+.iov .iorefs{margin-top:16px;padding-top:10px;border-top:1px solid var(--rule)}
+.iov .iorefbtn{font-size:14px}
+.iov .ioreflist{margin:10px 0 0;padding-left:24px;font-size:13.5px;line-height:1.55;color:var(--ink)}
+.iov .ioreflist li{margin:4px 0;overflow-wrap:anywhere;border-radius:4px;padding:0 4px}
+.iov .ioreflist li.iohit{animation:iohit 1.6s ease-out}
+@keyframes iohit{from{background:var(--form-soft)}to{background:transparent}}
+.iov .iobody .nfix .iofix{background:rgba(197,138,0,.2);color:#b07800}
 </style>
 </head>
 <body>
@@ -1002,7 +1027,7 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 <script>
 const IMGS={};const WARDS={};
 const CONFIG={"title": "คลังข้อสอบเก่า SI", "brand": "Past Prevent Med Y4 MEQ", "sub": "คลังข้อสอบเก่า", "storageKey": "ac-si-v1", "setLabel": "ปี", "roLabel": "Rotation", "chipStrip": "SI", "files": {}, "siteUrl": "https://bankypp.github.io/ac-mdcu/si/", "siteName": "คลังข้อสอบเก่า", "inst": {"id": "si", "name": "SI", "th": "ศิริราช", "en": "Faculty of Medicine Siriraj Hospital, Mahidol University (SI)", "enShort": "Siriraj Hospital, Mahidol University", "stu": "นักศึกษาแพทย์"}, "wards": [{"id": "prevmed", "name": "Preventive Medicine", "short": "Prevent Med", "year": "Y4", "sub": "SI", "brand": "Past Prevent Med Y4 MEQ", "dir": "data_prevmed", "scope": "Preventive medicine", "noExam": ["MCQ", "OSCE"], "dates": [], "meqTopics": []}, {"id": "med", "name": "Internal Medicine", "short": "Med", "year": "Y4", "sub": "SI", "brand": "Past Med Y4 MCQ", "dir": "data_med", "scope": "Internal medicine", "dates": [], "meqTopics": []}], "firebase": {"apiKey": "AIzaSyDIzd81Qw7shAOj3uiGU1T8tm90HXtF4yg", "authDomain": "ac-mdcu.firebaseapp.com", "projectId": "ac-mdcu", "storageBucket": "ac-mdcu.firebasestorage.app", "messagingSenderId": "537236830552", "appId": "1:537236830552:web:40d77940f7adf0fecd8d2d", "measurementId": "G-BYB1HZMHK6"}, "fbPath": ["users", "{uid}", "inst", "si"], "sharedPrefix": "si_", "homeBrand": "Past {short} SI134 by BankyPP", "quizBrand": "Past {short} {type}", "artifactUrl": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "subjects": [{"id": "prevmed", "name": "Preventive Medicine", "wards": ["prevmed"]}, {"id": "medicine", "name": "Medicine", "wards": ["med"]}], "gate": {"on": true, "salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b"}, "insts": [{"id": "mdcu", "name": "MDCU", "th": "จุฬาฯ", "url": "https://bankypp.github.io/ac-mdcu/", "art": "https://claude.ai/artifact/5KGcnr6yKsqvXGNh73mmfE", "sk": "ac-sx-mcq-mdcu-y4-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b"}}, {"id": "si", "name": "SI", "th": "ศิริราช", "url": "https://bankypp.github.io/ac-mdcu/si/", "art": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "sk": "ac-si-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b"}}]};
-const BUILD="18/10/2026 09:13";
+const BUILD="19/10/2026 09:57";
 WARDS["prevmed"]={QB:[],HY:null};
 WARDS["prevmed"].MQ=[];
 WARDS["med"]={QB:[],HY:null};
@@ -1505,9 +1530,19 @@ function ioAnyNew(wid){if(wid&&wid!==ward)return false;return ioAll().some(x=>io
 function ioMark(ids){const S=ioSeenS();let ch=false;ids.forEach(([id,rev])=>{if((S[id]||0)<rev){S[id]=rev;ch=true;}});if(ch)save();}
 const ioDot=on=>on?'<span class="iodot" title="มีเนื้อหาใหม่" aria-label="ใหม่"></span>':"";
 const ioDate=s=>{const m=/^(\d{4})-(\d\d)-(\d\d)/.exec(s||"");return m?`${+m[3]}/${+m[2]}/${String(+m[1]+543).slice(2)}`:"";};
-function ioRich(h){return String(h||"").replace(/\{\{IMG:([\w-]+)\}\}/g,(m,k)=>IMGS[k]?`<span class="ioimg">${imgHTML(k,"ภาพจากไฟล์ต้นฉบับ",1)}</span>`:"");}
+function ioRich(h,p){const id=p?String(p.id).replace(/[^\w.-]/g,"_"):"";
+  return String(h||"").replace(/\{\{IMG:([\w-]+)\}\}/g,(m,k)=>IMGS[k]?`<span class="ioimg">${imgHTML(k,"ภาพจากไฟล์ต้นฉบับ",1)}</span>`:"")
+    .replace(/\{\{R:([\d,\s]+)\}\}/g,(m,ns)=>id?ns.split(",").map(n=>n.trim()).filter(Boolean).map(n=>`<sup class="iocite"><a href="#" data-ioref="${id}" data-n="${n}">[${n}]</a></sup>`).join(""):"");}
+/* references of one page (Wikipedia style): p.refs = [{t:"text (may hold <i>/<b>)", u?:"url or #/ward/io/p/<id>"}] — numbered [1]… in the order given; the list is hidden behind a toggle */
+const ioRefsOpen=()=>{try{return localStorage.getItem(KEY+"-iorefs")==="1";}catch(e){return false;}};
+function ioRefs(p){const R=Array.isArray(p&&p.refs)?p.refs:[];if(!R.length)return "";const id=String(p.id).replace(/[^\w.-]/g,"_"),open=ioRefsOpen();
+  return `<div class="iorefs"><button type="button" class="btn ghost iorefbtn" data-iorefs="${id}" aria-expanded="${open}">📚 Reference (${R.length}) <span class="iorefar">${open?"▲":"▼"}</span></button><ol class="ioreflist" id="iorefs-${id}"${open?"":" hidden"}>${R.map((r,i)=>{const u=r.u||"",inner=u.startsWith("#")?`<a href="${esc(u)}">เปิดใน Round I/O →</a>`:u?`<a href="${esc(u)}" target="_blank" rel="noopener">ลิงก์ ↗</a>`:"";return `<li id="ioref-${id}-${i+1}">${r.t||""}${inner?` · ${inner}`:""}</li>`;}).join("")}</ol></div>`;}
+function ioRefsWire(){
+  const tog=(id,on)=>{const ol=$("iorefs-"+id),b=document.querySelector(`[data-iorefs="${id}"]`);if(!ol)return;ol.hidden=!on;if(b){b.setAttribute("aria-expanded",on);const a=b.querySelector(".iorefar");if(a)a.textContent=on?"▲":"▼";}};
+  document.querySelectorAll("[data-iorefs]").forEach(b=>b.onclick=()=>{const on=$("iorefs-"+b.dataset.iorefs).hidden;document.querySelectorAll("[data-iorefs]").forEach(x=>tog(x.dataset.iorefs,on));try{localStorage.setItem(KEY+"-iorefs",on?"1":"0");}catch(e){}});
+  document.querySelectorAll("[data-ioref]").forEach(a=>a.onclick=e=>{e.preventDefault();const id=a.dataset.ioref;tog(id,true);const li=$(`ioref-${id}-${a.dataset.n}`);if(li){li.scrollIntoView({block:"center"});li.classList.remove("iohit");void li.offsetWidth;li.classList.add("iohit");}});}
 const ioHref=(...a)=>"#/"+ward+"/io"+a.map(x=>"/"+encodeURIComponent(x)).join("");
-const ioLegend=d=>d.kind==="N"?`<div class="iolegend"><span><span class="iofix">✎ แก้</span> = ข้อมูลที่แก้จากโน้ต (ฟังผิด/จดผิด/เรียบเรียงผิด) พร้อมเหตุผล</span><span><span class="iook">✓</span> = ตรวจแล้วถูกต้อง</span></div>`
+const ioLegend=d=>d.kind==="N"?`<div class="iolegend"><span>ไม่มีป้าย = จากโน้ต ตรวจแล้วถูก</span><span><span class="iofix">✎ แก้</span> = แก้จากโน้ต + <span class="iowas">เดิมจดว่า</span> + เหตุผล</span><span><span class="iofind">🔎 หาต่อให้</span> = โน้ตมีแค่หัวข้อ/ชื่อ หรือไม่แน่ใจ → หามาให้</span><span><span class="ioadd">＋ เพิ่ม</span> = เนื้อหาที่ปี 4 ควรรู้เพิ่ม</span><span><sup class="iocite"><a>[1]</a></sup> = แหล่งอ้างอิง (กดดูท้ายหน้า)</span></div>`
   :typeof d.legend==="string"?`<div class="iolegend">${d.legend}</div>`:d.legend?`<div class="iolegend"><span><span class="imp">ตัวแดง</span> = สำคัญ/เน้นมาก</span><span><span class="hw">ตัวเอียงม่วง</span> = ลายมือ/คำพูดในไฟล์</span><span><span class="chip r">🔴</span> ดาวแดงผู้สอน</span><span><span class="chip g">🟢</span> nice to know</span><span><span class="warn">⚠</span> = ไฟล์ไม่ตรงกัน</span><span><span class="ref">A10 · B5</span> = หน้าในไฟล์เต็ม (ไปอ่านต่อได้)</span></div>`:"";
 function ioRow(href,code,title,meta,dot){return `<a class="iorow" href="${href}">${code?`<span class="iocode">${esc(code)}</span>`:""}<span class="iot"><b>${ioDot(dot)}${esc(title)}</b>${meta?`<span class="rd">${meta}</span>`:""}</span><span class="go">→</span></a>`;}
 function rIO(){const a=(location.hash||"").replace(/^#\/?/,"").split("/").slice(2).map(x=>{try{return decodeURIComponent(x);}catch(e){return x;}});
@@ -1518,11 +1553,12 @@ function rIO(){const a=(location.hash||"").replace(/^#\/?/,"").split("/").slice(
   else if(K==="L"||K==="R"||K==="N"){const KN=IO_K.find(x=>x[0]===K),D=ioD().filter(d=>d.kind===K);
     h+=back(ioHref(),"Round I/O")+`<h1 class="h2">${K} · ${esc(KN[1])}</h1><p class="sub" style="margin:0 0 10px">${esc(KN[2])}</p>`;
     if(!D.length)h+=`<div class="empty">ยังไม่มี${K==="L"?" lecture":K==="R"?" resource":"โน้ตวอร์ด"}ในวอร์ดนี้<br><span class="hint">ส่งไฟล์${K==="N"?"โน้ตที่จด (รูป/ไฟล์/พิมพ์มา)":""}ให้ Claude แล้วบอกว่าเป็นรหัส ${K} — จะสรุปขึ้นหน้านี้ให้</span></div>`;
+    else if(K==="N"&&D.length===1)h+=`<p class="sub" style="margin:0 0 10px">${esc(D[0].src||"")}</p><div class="iolist">`+(D[0].pages||[]).map((p,i)=>ioRow(ioHref("p",p.id),String(i+1),p.title,`${p.from?esc(p.from)+" · ":""}${p.upd?`อัปเดต ${ioDate(p.upd)}`:""}`,ioNewP(p))).join("")+`</div>`;
     else h+=`<div class="iolist">`+D.map(d=>{const ps=d.pages||[],one=ps.length===1;return ioRow(one?ioHref("p",ps[0].id):ioHref("d",d.code),d.code,d.title,`${ps.length} เรื่อง${d.upd?` · อัปเดต ${ioDate(d.upd)}`:""}`,ioNewD(d));}).join("")+`</div>`;}
   else if(K==="d"){const d=ioD().find(x=>x.code===a[1]);if(!d){go(ward+"/io");return;}const KN=IO_K.find(x=>x[0]===d.kind)||["","ไฟล์"];
     h+=back(ioHref(d.kind),KN[1])+`<h1 class="h2"><span class="iocode big">${esc(d.code)}</span> ${esc(d.title)}</h1>${d.src?`<p class="sub" style="margin:0 0 10px">${esc(d.src)}</p>`:""}<div class="iolist">`+(d.pages||[]).map((p,i)=>ioRow(ioHref("p",p.id),String(i+1),p.title,p.upd?`อัปเดต ${ioDate(p.upd)}`:"",ioNewP(p))).join("")+`</div>`;}
   else if(K==="p"){const x=ioAll().find(y=>y.p.id===a[1]);if(!x){go(ward+"/io");return;}const {d,p,i}=x,ps=d.pages||[],one=ps.length===1,KN=IO_K.find(y=>y[0]===d.kind)||["","ไฟล์"];
-    h+=back(one?ioHref(d.kind):ioHref("d",d.code),one?KN[1]:`${d.code} ${d.title}`)+`<div class="iohead"><span class="iocode">${esc(d.code)}${one?"":` · ${i+1}/${ps.length}`}</span><h1 class="h2">${esc(p.title)}</h1><p class="sub" style="margin:0">${esc(d.title)}${p.upd?` · อัปเดต ${ioDate(p.upd)}`:""}${(p.topics||[]).length?` · ${p.topics.map(t=>`<a href="${ioHref("t",t)}">${esc(t)}</a>`).join(", ")}`:""}</p></div>${ioLegend(d)}<div class="iobody">${ioRich(p.html)}</div>`;
+    h+=back(one?ioHref(d.kind):ioHref("d",d.code),one?KN[1]:`${d.code} ${d.title}`)+`<div class="iohead"><span class="iocode">${esc(d.code)}${one?"":` · ${i+1}/${ps.length}`}</span><h1 class="h2">${esc(p.title)}</h1><p class="sub" style="margin:0">${esc(d.title)}${p.upd?` · อัปเดต ${ioDate(p.upd)}`:""}${(p.topics||[]).length?` · ${p.topics.map(t=>`<a href="${ioHref("t",t)}">${esc(t)}</a>`).join(", ")}`:""}</p></div>${ioLegend(d)}<div class="iobody">${ioRich(p.html,p)}</div>${ioRefs(p)}`;
     h+=`<div class="ionav">${i>0?`<a class="btn ghost" href="${ioHref("p",ps[i-1].id)}">‹ ${esc(ps[i-1].title)}</a>`:"<span></span>"}${i<ps.length-1?`<a class="btn primary" href="${ioHref("p",ps[i+1].id)}">${esc(ps[i+1].title)} ›</a>`:`<a class="btn" href="${one?ioHref(d.kind):ioHref("d",d.code)}">กลับรายการ</a>`}</div>`;
     ioMark([[p.id,ioRev(p)]]);}
   else if(K==="T"){const TP=[...ioTopics()];h+=back(ioHref(),"Round I/O")+`<h1 class="h2">รวมตามเรื่อง</h1><p class="sub" style="margin:0 0 10px">ทุก L / R / N ของเรื่องเดียวกันอยู่ในหน้าเดียว</p>`;
@@ -1531,10 +1567,10 @@ function rIO(){const a=(location.hash||"").replace(/^#\/?/,"").split("/").slice(
     h+=back(ioHref("T"),"รวมตามเรื่อง")+`<div class="iohead"><span class="iocode">รวม</span><h1 class="h2">${esc(t)}</h1><p class="sub" style="margin:0">จาก ${[...new Set(xs.map(x=>x.d.code))].map(esc).join(" · ")||"สรุปรวม"}</p></div>`;
     if(M)h+=`<div class="iobody">${ioRich(M.html)}</div>`;
     if(xs.length){h+=`<div class="iotoc"><b>ในหน้านี้</b>${xs.map((x,j)=>`<button type="button" class="linkbtn" data-iojump="ios${j}">${esc(x.d.code)} · ${esc(x.p.title)}</button>`).join("")}</div>`;
-      h+=xs.map((x,j)=>`<section class="iosec" id="ios${j}"><h2 class="iosrc"><span class="iocode">${esc(x.d.code)}</span> ${esc(x.p.title)} <a class="iosrcl" href="${ioHref("p",x.p.id)}">เปิดหน้าเดี่ยว →</a></h2>${ioLegend(x.d)}<div class="iobody">${ioRich(x.p.html)}</div></section>`).join("");}
+      h+=xs.map((x,j)=>`<section class="iosec" id="ios${j}"><h2 class="iosrc"><span class="iocode">${esc(x.d.code)}</span> ${esc(x.p.title)} <a class="iosrcl" href="${ioHref("p",x.p.id)}">เปิดหน้าเดี่ยว →</a></h2>${ioLegend(x.d)}<div class="iobody">${ioRich(x.p.html,x.p)}</div>${ioRefs(x.p)}</section>`).join("");}
     ioMark((M?[["T:"+t,+M.rev||1]]:[]).concat(xs.map(x=>[x.p.id,ioRev(x.p)])));}
   else{go(ward+"/io");return;}
-  h+=`</div>`;$("main").innerHTML=h;
+  h+=`</div>`;$("main").innerHTML=h;ioRefsWire();
   document.querySelectorAll("[data-iojump]").forEach(b=>b.onclick=()=>{const el=$(b.dataset.iojump);if(el)el.scrollIntoView({block:"start"});});}
 /* OSCE tab (and any exam type without its own rounds yet): link to the same Round I/O */
 function ioCard(){const n=ioAll().length;return `<a class="iotile" href="#/${esc(ward)}/io" style="margin-top:14px"><span class="iok">I/O</span><span class="iot"><b>${ioDot(ioAnyNew())}Round I/O — อ่านสรุปเนื้อหา</b><span class="rd">สรุปจาก L / R / N ของวอร์ดนี้ ใช้ร่วมกันทั้ง MCQ / MEQ / OSCE</span><span class="rcnt">มี <b>${n}</b> เรื่อง</span></span><span class="go">→</span></a>`;}
@@ -2602,7 +2638,16 @@ const resLabel=r=>(r.code?r.code+" ":"")+r.title;
 const resPts=(r,n)=>(Array.isArray(r.points)?r.points:[]).slice(0,n||99);
 /* where an AI-written question takes its content from: picked uniformly at random among "anywhere" and every attached resource that has content */
 function pickSrc(W){const rs=resOf(W).filter(r=>resPts(r).length),o=[null].concat(rs);return o[Math.floor(Math.random()*o.length)];}
-const srcPrompt=r=>r?`\nContent source for this question: build it mainly on the attached resource below (you may add standard textbook or guideline knowledge, but the key point tested must come from it).\nResource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}\n`:"";
+/* Admission round may use anything: general knowledge, or any lecture (L) / resource (R) / ward note (N) summary of this ward — one of these 4 groups at random (equal chance), then one page inside it */
+const IOKN={L:"lecture summary",R:"resource summary",N:"ward note (checked and corrected)"};
+function ioSrcs(W){const o=[];((W&&W.IO&&W.IO.docs)||[]).forEach(d=>(d.pages||[]).forEach(p=>{
+  const t=String(p.html||"").replace(/<span class="iowas">[\s\S]*?<\/span>/g,"").replace(/\{\{[^}]*\}\}/g,"").replace(/<[^>]+>/g," ").replace(/&nbsp;/g," ").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
+  if(t)o.push({io:1,kind:d.kind,code:d.code,title:(d.kind==="N"?"โน้ตวอร์ด":d.title)+" — "+p.title,text:t.slice(0,7000)});}));return o;}
+function pickSrcAdm(W){const rs=resOf(W).filter(r=>resPts(r).length),io=ioSrcs(W);
+  const G=[[null],io.filter(x=>x.kind==="L"),rs.concat(io.filter(x=>x.kind==="R")),io.filter(x=>x.kind==="N")].filter(g=>g.length);
+  const g=G[Math.floor(Math.random()*G.length)];return g[Math.floor(Math.random()*g.length)];}
+const srcPrompt=r=>!r?"":r.io?`\nContent source for this question: build it mainly on the ${IOKN[r.kind]||"summary"} below from this ward (you may add standard textbook or guideline knowledge, but the key point tested must come from it; where it marks a correction, use the corrected statement).\nSource ${r.code} ${r.title}:\n${r.text}\n`
+  :`\nContent source for this question: build it mainly on the attached resource below (you may add standard textbook or guideline knowledge, but the key point tested must come from it).\nResource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}\n`;
 function tagRow(q){const W=W_();let t=[];
   if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=Array.isArray(q.tags)&&q.tags.length?q.tags:[].concat(Lc.tags||Lc.topic||[]);}
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];
@@ -2764,7 +2809,7 @@ function explain(q,done,R,p){
   if(q.unit){const Lc=W.byLec[q.unit]||{},n=uAtts(P,q.uid).length;h+=`<span class="tag">Unit round · ${esc(Lc.title||q.set)}${Lc.src?` · จาก ${esc(Lc.src)}`:""}</span><span class="tag">เจอข้อนี้มาแล้ว ${n} ครั้ง (รวมครั้งนี้)</span>`;}
   else if(q.lai)h+=`<span class="tag">Legendary round · โจทย์ใหม่ที่ AI สร้างสำหรับข้อสอบวันที่ ${fmtD(q.ts)}${q.topic?` · ${esc(q.topic)}`:""}</span>`;
   else if(q.adm)h+=`<span class="tag">Admission round · เคสที่ AI สร้างใหม่${q.topic?` · ${esc(q.topic)}`:""}</span>`;
-  if(q.adm)h+=`<span class="tag">ที่มาของเนื้อหา: ${q.srcRes?`resource ที่แนบไว้ — ${esc(q.srcRes)}`:"ความรู้ทั่วไป / ตำรา / guideline ภายนอก (ไม่ได้มาจากไฟล์ที่แนบ)"}</span>`;
+  if(q.adm)h+=`<span class="tag">ที่มาของเนื้อหา: ${q.srcRes?`ไฟล์ของวอร์ด — ${esc(q.srcRes)}`:"ความรู้ทั่วไป / ตำรา / guideline ภายนอก (ไม่ได้มาจากไฟล์ของวอร์ด)"}</span>`;
   else if(q.unit){if(q.src)h+=`<span class="tag">ที่มา: ${esc(q.src)}</span>`;}
   else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;}
   if(q.guide)h+=`<div class="guide">📘 <b>อ้างอิง${q.adm||q.unit?"":" guideline"}:</b> ${q.adm?esc(q.guide):q.guide}</div>`;
@@ -3097,7 +3142,7 @@ async function aiMode(){if(HAS_CLAUDE()){try{return (await window.claude.use("sa
 const yrN=()=>{const m=/(\d+)/.exec(wYear());return m?+m[1]:0;};
 const ord=n=>n+(n===1?"st":n===2?"nd":n===3?"rd":"th");
 let admSrc=null;
-function admPrompt(W){const w=W.cfg,A=P_().adm,pos=Math.floor(Math.random()*5),y=yrN(),yr=y?ord(y)+"-year":"clinical-year";admSrc=pickSrc(W);
+function admPrompt(W){const w=W.cfg,A=P_().adm,pos=Math.floor(Math.random()*5),y=yrN(),yr=y?ord(y)+"-year":"clinical-year";admSrc=pickSrcAdm(W);
   return `Write ONE brand-new multiple-choice question for a past-exam practice website used by ${yr} medical students at ${INST.en}, Thailand, during their ${w.name.replace(/\s*Y\d+$/,"")} rotation.
 
 Scope (stay inside it): ${w.scope||w.name}.
