@@ -147,7 +147,7 @@ function route(){
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
-  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin","io","tch","taker","case","osl","osx","osr","osh"].includes(v))v="home";
+  if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin","io","tch","taker","case","osl","osx","osr","osh","osq"].includes(v))v="home";
   if((v==="mqr"||v==="mq"||v==="mqhy")&&!mqL().length)v="home";
   if(v==="osx"&&!osRunCur())v=osLastRes()?"osr":"osl";if(v==="osr"&&!osLastRes())v="osl";
   if(v==="exam"&&!P_().leg)v="legend";
@@ -167,7 +167,7 @@ function show(v){
   document.title=CFG.title||"คลังข้อสอบเก่า";
   if(!quiz){$("prog").style.width="0";}
   paintAcct();
-  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY,mqin:mqIn,io:rIO,tch:rTch,taker:rTaker,case:rCase,osl:osSetup,osx:osRunView,osr:osResView,osh:osHistView})[v]();
+  ({wards:rWards,signin:rSignin,grades:rGrades,home:rHome,service:rService,grand:rGrand,svc:rQuiz,sess:rQuiz,result:rResult,hy:rHY,kw:rKW,unit:rUnit,quality:rQuality,qedit:rQEdit,adm:rAdm,advisor:rAdvisor,report:rReport,legend:rLegend,exam:rExam,lres:rLRes,lrev:rQuiz,admq:rQuiz,lcase:rLCase,staff:rStaff,launch:rLaunch,lhist:rLHist,teach:rTeach,mhist:rMHist,dates:rDates,mqr:mqRList,mq:mqView,mqhy:mqHY,mqin:mqIn,io:rIO,tch:rTch,taker:rTaker,case:rCase,osl:osSetup,osx:osRunView,osr:osResView,osh:osHistView,osq:osQuality})[v]();
   if(!quiz)window.scrollTo(0,0);
 }
 $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
@@ -2289,6 +2289,13 @@ function noteRoute(){if(!ward||!RESTORE.includes(view))return;const r=ward+"/"+v
 window.addEventListener("hashchange",()=>setTimeout(noteRoute,0));
 if(!mqCheckImport()&&!checkLegImport())checkHashImport();
 {const g=startPath();if(g){try{history.replaceState(null,"","#/"+g);}catch(e){location.hash="#/"+g;}}}
+/* plainer round names for one institution (config roundNames {"Grand round":"Random", …} — SI, ผู้ใช้สั่ง 19 ต.ค. 2026): every visible text is rewritten as it is drawn,
+   so all pages, titles, toasts and the answer sheet follow without touching each string (Morning round / Long case keep their names) */
+if(CFG.roundNames&&Object.keys(CFG.roundNames).length){const NM=Object.entries(CFG.roundNames).sort((a,b)=>b[0].length-a[0].length),MAP={};NM.forEach(([k,v])=>{MAP[k.toLowerCase()]=v;});
+  const RX=new RegExp(NM.map(([k])=>k.replace(/[.*+?^${}()|[\]\\\/]/g,"\\$&")).join("|"),"gi"),sub=t=>t.replace(RX,m=>MAP[m.toLowerCase()]||m);
+  const fix=n=>{if(n.nodeType===3){const t=n.nodeValue;RX.lastIndex=0;if(t&&RX.test(t)){RX.lastIndex=0;n.nodeValue=sub(t);}return;}
+    if(n.nodeType===1&&!/^(SCRIPT|STYLE|TEXTAREA)$/.test(n.tagName)){["placeholder","title","aria-label"].forEach(a=>{const v=n.getAttribute&&n.getAttribute(a);RX.lastIndex=0;if(v&&RX.test(v)){RX.lastIndex=0;n.setAttribute(a,sub(v));}});n.childNodes.forEach(fix);}};
+  fix(document.body);new MutationObserver(ms=>ms.forEach(m=>{if(m.type==="characterData")fix(m.target);else m.addedNodes.forEach(fix);})).observe(document.body,{childList:true,subtree:true,characterData:true});}
 route();noteRoute();
 if(HAS_CLAUDE())initClaude();else initFB();
 })();
