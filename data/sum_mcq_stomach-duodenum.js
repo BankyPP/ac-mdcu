@@ -115,3 +115,25 @@ SUMM.push({tag:"Stomach & duodenum", title:"Stomach & duodenum",
        pearls:["plain film ไม่มีลมลำไส้ไม่ใช่ปกติ — คืออุดสูงมาก"],
        members:["MDCU77|RoC|27"]}
     ]},
+    {title:"Bariatric surgery", sections:[
+      {id:"bariatric", title:"Metabolic & bariatric surgery: ข้อบ่งชี้และข้อห้าม",
+       trend:"ถามใครเข้าเกณฑ์ หรือสิ่งที่เป็นข้อห้าม",
+       asked:["ข้อใดไม่ใช่ข้อบ่งชี้ → ไม่ยอมปรับพฤติกรรม","BMI 42 + T2DM + OSA ล้มเหลว diet / exercise → bariatric surgery","BMI 36 ที่ยกเว้นจากผ่าตัดเพราะอะไร → untreated major depression","ผู้ป่วยที่เหมาะที่สุดคือ BMI 36 + OSA (ตัวลวง: ตั้งครรภ์, alcohol use disorder ที่ไม่รักษา)"],
+       pattern:["<b>ASMBS / IFSO 2022</b>: แนะนำที่ BMI ≥35 ไม่ว่ามีโรคร่วมหรือไม่; พิจารณาที่ BMI 30–34.9 + metabolic disease; เอเชีย BMI ≥27.5 พิจารณาได้","เกณฑ์เก่า NIH 1991: BMI ≥40 หรือ ≥35 + comorbidity","<b>ข้อห้าม</b>: ไม่สามารถ / ไม่ยินยอมปรับพฤติกรรมและติดตามตลอดชีวิต, untreated psychiatric illness (MDD, psychosis), active substance / alcohol abuse, untreated bulimia, ตั้งครรภ์, operative risk สูงเกิน","โรคร่วมทางกาย (OSA, DM, NASH, GERD) ไม่ใช่ข้อห้าม แต่เป็นเหตุผลให้ผ่าตัด","ผ่าตัดหลัก: sleeve gastrectomy (ทำมากสุด, GERD แย่ลง, staple-line leak) และ RYGB (ดีใน GERD / T2DM; marginal ulcer, internal hernia, dumping, ขาด Fe / B12 / Ca / vit D)","ประเมิน multidisciplinary; หลังผ่าตัดวิตามินตลอดชีวิต เลี่ยงตั้งครรภ์ 12–18 เดือน; anti-obesity drugs เป็นเสริมไม่ใช่ตัวหลักแทน"],
+       pearls:["อย่ายึดเกณฑ์ NIH 1991 — BMI 36 ไม่มีโรคร่วมก็เข้าเกณฑ์","เมื่อหลายตัวเลือกเข้า BMI ให้ตัดสินด้วยข้อห้าม","MDD ที่รักษาและคุมได้ไม่ใช่ข้อห้าม"],
+       members:["MDCU76|RoA|11","MDCU76|RoD|ไม่มีเลข (ลำดับที่ 60)","MDCU77|RoA|34","MDCU78|RoC|Stomach 1"]}
+    ]},
+    {title:"Anatomy และข้อย่อยอื่น", sections:[
+      {id:"gastric-vessels", title:"หลอดเลือดกระเพาะ: short gastric",
+       trend:"ถามหลอดเลือดที่เชื่อมม้ามกับกระเพาะโดยตรง",
+       asked:["artery ที่เชื่อมกระเพาะกับม้ามโดยตรงที่สุด → short gastric arteries"],
+       pattern:["<b>Short gastric</b> 5–7 เส้นจากปลาย splenic artery ใน gastrosplenic ligament เลี้ยง fundus; ผูกใน splenectomy และ Nissen fundoplication","Celiac → left gastric, common hepatic, splenic; lesser curvature = left + right gastric; greater curvature = left gastroepiploic (splenic) + right gastroepiploic (gastroduodenal)","Splenic vein thrombosis → isolated gastric varices ผ่าน short gastric veins → splenectomy"],
+       pearls:["left gastroepiploic ก็มาจาก splenic แต่ 'most direct' คือ short gastric"],
+       members:["MDCU75|RoD|7","MDCU75|RoD|13"]},
+      {id:"misc-stomach", title:"ข้อย่อยที่แทรกในหมวดนี้ (referred pain, PPE)",
+       asked:["acute cholecystitis ปวดไหล่ขวา → referred pain","ใส่ NG ใน massive UGIB → PPE ที่เหมาะสม"],
+       pattern:["<b>Referred pain</b>: visceral + somatic afferent converge ที่ spinal segment เดียวกัน; diaphragm (phrenic C3–C5) → ปลายไหล่ (ขวา: gallbladder / liver; ซ้าย: Kehr sign)","<b>PPE ตาม standard precautions</b> สำหรับ NG (clean procedure): face shield + surgical mask + plastic apron + disposable (non-sterile) gloves","Sterile gloves ใช้กับ sterile procedure (central line, urinary catheter, chest drain)"],
+       pearls:["'ร้าว' ไม่เท่ากับ radiating pain ในศัพท์ — ระยะไกลตาม dermatome = referred","เลือด / สารคัดหลั่งกระเด็น → ป้องกันตา หน้า ปาก + apron ส่วนถุงมือเลือกตาม sterile หรือไม่"],
+       members:["MDCU77|RoC|36","MDCU78|RoC|Professionalism 5"]}
+    ]}
+  ]});
