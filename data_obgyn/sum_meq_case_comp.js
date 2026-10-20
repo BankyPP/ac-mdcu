@@ -25,7 +25,7 @@ SUMM.push({
       "Part 2: ให้ประวัติ ตกบันได 2 ขั้น ปวดเกร็งรุนแรงตอนเลือดเริ่มออก ไม่มีโรคประจำตัว ลูกดิ้นดี ไม่เจ็บครรภ์ U/S เดิมรกอยู่ anterior upper segment grade 2 · BP 110/70 PR 80 · UC q 4 นาที 60 วินาที แรง สม่ำเสมอ → Dx + risk factors 5 ข้อ",
       "Part 3: PV os ปิด ไม่มีเลือดออก FHR 124 → management (เลือก expectant)",
       "Part 4 (twist): ได้ steroid แล้ว 2 วันต่อมา BP 80/60 (ชุด 77 RoA เพิ่ม FHR 80) → management ตอนนี้",
-      "แบบ 78 RoB: Part 3 คลอดทางช่องคลอดแล้วช็อก cervix 8 cm เลือดออกมาก → immediate management (ไม่มี Part ผลตรวจก่อนหน้า)",
+      "แบบ 78 RoB (หญิง 49 ปี): Part 1–3 ซักประวัติ → Dx → risk 5 ข้อ เหมือนข้างบน แต่ Part 4 เลือก vaginal delivery แล้วกำลังจะคลอดเกิดช็อก เลือดออกมาก cervix 8 cm → immediate management (10)",
       "แบบ 79 RoB: ไม่มี trauma/เพศสัมพันธ์ ปวดท้องก่อนเลือดออก UC q 6 นาที 30 วินาที cervix 3 cm 60% station -2 → Dx → management (ต่อด้วย NST/BPP ที่ 35 wk ดูเรื่อง Decreased fetal movement)"
      ],
      "pattern": [
