@@ -1,0 +1,73 @@
+SUMM.push({tag:"pp", title:"Postpartum",
+  intro:"<ul><li>หมวดเล็ก (12 ข้อย่อย จาก 3 ชุด) แต่แบ่งเป็น 2 แบบ: <b>ข้อสั้นนิยาม / list</b> (lochia, PPH, puerperal morbidity, ท่าให้นม, APGAR, LAM, ข้อห้ามให้นม) และ <b>ส่วน ‘หลังคลอด’ ของ management เคสใหญ่</b> (preeclampsia, abruption, mitral stenosis)</li><li>ข้อสั้นให้คะแนนตามจำนวนที่ตอบถูก: ครบ = เต็ม, ขาด 1–2 = บางส่วน — ท่องตัวเลข cut-off ให้ได้ (PPH 500 / 1,000 mL, ไข้ ≥ 38 °C × 2 วัน ใน 10 วัน, APGAR 7–10 / 4–6 / 0–3, LAM 3 เงื่อนไข)</li><li>ส่วนหลังคลอดของเคส HDP / abruption / cardiac ซ้ำรูปเดียวกันคือ <b>uterotonic ที่ปลอดภัย (oxytocin, ห้าม ergot ในโรคที่ BP สูง), MgSO4 ต่อ 24 ชม., monitor ต่อเนื่อง, คุมกำเนิด, นัด f/u</b></li></ul>",
+  groups:[
+    {title:"Lactation & contraception หลังคลอด", sections:[
+      {id:"bf-contraindication", title:"ข้อห้ามให้นมแม่จากการติดเชื้อของมารดา",
+       trend:"ข้อสั้น 2 คะแนน — ตอบ 2 โรค เลือกจากรายการ",
+       asked:["Which maternal infections contraindicate breastfeeding? Name two."],
+       pattern:["<b>Absolute (ฝั่งมารดา):</b> HIV ที่ไม่ได้รับการรักษาเพียงพอ / ไม่กด viral load (แนวไทยแนะนำงดนมแม่) · <b>HTLV-1 / 2</b> · Ebola · untreated brucellosis · mpox (ขณะต้อง isolation)","ชั่วคราว: active untreated TB หรือ varicella รอบคลอด / airborne (measles, varicella, TB) → งดดูดจากเต้า แต่บีบนมให้ได้ · HSV ที่เต้านม → ให้จากเต้าข้างปกติ · HCV → งดเฉพาะเมื่อหัวนมแตกเลือดออก","<b>ไม่ใช่ข้อห้าม:</b> HBV (ให้ HBIG + วัคซีนทารกหลังเกิด), CMV ในทารกครบกำหนด, hepatitis A, influenza / COVID-19 (ใส่หน้ากาก ล้างมือ), mastitis","ฝั่งทารก = galactosemia · ยาบางชนิด (cytotoxic, radioactive iodine, lithium) ก็ห้าม / ปรับ แต่โจทย์ถามเฉพาะ infection"],
+       pearls:["ตอบ HBV, CMV, mastitis ว่าเป็นข้อห้ามสิ้นเชิง = ไม่ได้ · ถ้าครูถามตามแนวไทย มักคาดหวัง HIV และ HTLV-1"],
+       members:["MDCU77|RoD|Recall 2#1"]},
+      {id:"lam", title:"Lactational amenorrhea method (LAM)",
+       trend:"ข้อสั้น 3 คะแนน — ตอบ 3 เงื่อนไข",
+       asked:["LAM is effective only if which conditions are met? State three."],
+       pattern:["<b>1)</b> Amenorrhea ตั้งแต่คลอด (ยังไม่มีประจำเดือน / เลือดออกหลังพ้น 56 วันแรก)","<b>2)</b> ให้นมแม่เต็มที่ / เกือบเต็มที่ (กลางวัน 6–8 ครั้ง กลางคืน 1–2 ครั้ง; ห่างไม่เกิน ~ 4 ชม. กลางวัน / 6 ชม. กลางคืน; ไม่เสริมอาหารอื่นมาก)","<b>3)</b> ทารกอายุ < 6 เดือน → ครบ 3 ข้อ ประสิทธิภาพ ~ 98%","กลไก: ดูดบ่อย → prolactin สูง → กด GnRH / LH pulse → ไม่ตกไข่","ขาดข้อใดข้อหนึ่ง (ประจำเดือนมา, เสริมนม / อาหารมาก, ลูก ≥ 6 เดือน) → เริ่มคุมกำเนิดวิธีอื่น · progestin-only ใช้ร่วมกับการให้นมได้"],
+       members:["MDCU77|RoD|Recall 4#1"]},
+      {id:"bf-positions", title:"ท่าให้นมบุตร",
+       trend:"ข้อสั้น 4 คะแนน — ตอบ 4 ท่า",
+       asked:["What breastfeeding positions are there?"],
+       pattern:["<b>Cradle hold</b> (อุ้มขวางตัก) · <b>Cross-cradle hold</b> (มือตรงข้ามประคองศีรษะ; คุมศีรษะดี เหมาะทารกแรกเกิด / ตัวเล็ก) · <b>Football (clutch) hold</b> (อุ้มข้างลำตัว; เหมาะหลังผ่าคลอด ไม่กดแผล, เต้านมใหญ่, แฝด) · <b>Side-lying</b> (นอนตะแคง; แม่ได้พัก เหมาะหลังผ่าคลอด / ให้นมกลางคืน)","ทุกท่าต้อง latch ถูก: อ้าปากกว้าง คางชิดเต้า งับลึกถึงลานนม ลำตัวทารกแนบแม่ หู–ไหล่–สะโพกอยู่แนวเดียวกัน"],
+       members:["short ans รวม||51#1"]}
+    ]},
+    {title:"Postpartum care ในเคสโรคร่วม (ส่วนหลังคลอดของ management)", sections:[
+      {id:"pp-after-preeclampsia", title:"หลังคลอดใน preeclampsia with severe features",
+       trend:"ท้ายคำตอบ management ของเคส HDP ทุกเคส — ถ้าขาดส่วนนี้ได้แค่บางส่วน",
+       asked:["Outline management through to the postpartum period (preeclampsia + abruption ใน labor)","Unbooked 37 wk preeclampsia severe → outline management (รวมหลังคลอด)"],
+       pattern:["<b>ป้องกัน PPH:</b> oxytocin 20 U ใน IV 1,000 mL · <b>ห้าม methylergonovine / ergot</b> (BP ขึ้น) — ถ้า atony ใช้ misoprostol / carboprost (carboprost ระวัง asthma) · MgSO4 ทำให้มดลูกคลายตัว เสี่ยง PPH เพิ่ม","<b>MgSO4 ต่อ 24 ชม.หลังคลอด</b> (1–2 g/h) · monitor DTR, RR ≥ 12, UO ≥ 30 mL/h · antidote calcium gluconate","<b>วัด BP ต่อ ≥ 72 ชม.</b> (BP peak วันที่ 3–6 หลังคลอด) · ให้ยาลดความดันต่อถ้า ≥ 150/100 (nifedipine retard, labetalol, enalapril — ให้นมได้) · ระวัง postpartum eclampsia (ถึง 6 สัปดาห์), pulmonary edema, HELLP, AKI · เลี่ยง NSAIDs ถ้า AKI / platelet ต่ำ","Routine postpartum care · คุมกำเนิด (LARC / progestin-only; เลี่ยง combined ถ้า BP ยังสูง) · นัด f/u 1–2 wk ถ้า BP ยังสูง consult อายุรแพทย์ · ให้นมได้","Counsel: เสี่ยงซ้ำ ~ 15–25%, ครรภ์หน้า aspirin 81–150 mg ตั้งแต่ก่อน 16 wk, เสี่ยง CVD / HT / ไตระยะยาว"],
+       pearls:["เฉลยไฟล์เคส unbooked 37 wk มี ‘set emergency C/S due to unfavorable cervix’ — ไม่ถูก (flag ใน tag comp) ส่วนหลังคลอดไม่ได้รับผลกระทบ","ไม่ให้ MgSO4 และไม่ให้คลอด = ไม่ได้"],
+       members:["ไฟล์ดำ||ข้อ 5#2","ไฟล์ดำ||ข้อ 8#5"]},
+      {id:"pp-after-abruption", title:"หลังคลอดใน abruption / DIC (เตรียมรับ PPH)",
+       trend:"ท้ายคำตอบเคส abruption ที่ช็อก — ต้องมี PPH plan",
+       asked:["Abruption ที่ 30 wk, expectant 2 วันแล้ว BP 80/60 → outline management now (รวม PPH / postpartum)"],
+       pattern:["Emergency C/S หลัง / ระหว่าง resuscitate (IV bolus + PRC ± FFP / cryo / platelet, MTP)","<b>เตรียมรับ PPH:</b> oxytocin 20 U ใน 1,000 mL IV, uterotonic อื่น (carboprost, misoprostol), uterine massage, แก้ DIC (รักษา fibrinogen > 200 mg/dL) · Couvelaire uterus ยังหดตัวได้แต่ PPH เสี่ยงสูง → B-Lynch → hysterectomy ถ้าคุมไม่ได้","Postpartum: monitor V/S ใกล้ชิด, routine care, คุมกำเนิด (LARC) · anti-D ถ้า Rh neg","รายละเอียด abruption ที่ unstable ดูในหมวด Obstetric complications"],
+       members:["ไฟล์ดำ||ข้อ 7#5"]},
+      {id:"pp-cardiac", title:"หลังคลอดในโรคหัวใจ (mitral stenosis)",
+       trend:"ส่วน postpartum ของเคส MS ที่ 26 wk — ช่วงเสี่ยงที่สุด",
+       asked:["MS rheumatic, NYHA II → outline management antepartum, intrapartum and postpartum (ส่วนหลังคลอด)"],
+       pattern:["<b>ช่วงเสี่ยง decompensation ที่สุด = หลังคลอดทันที</b> (autotransfusion จากมดลูก + พ้นการกด IVC) · อีก 2 ช่วง: 28–34 wk และระหว่างคลอด","<b>Monitor ใกล้ชิด 24–72 ชม.</b> (HR, SpO2, ฟังปอด, I/O) · admit นานพอ · ระวัง pulmonary edema / HF → นั่ง, O2, furosemide IV, morphine, เรียก cardio","<b>Uterotonic:</b> oxytocin <b>drip ช้า</b> (ไม่ bolus เร็ว → hypotension) ผสมในสารน้ำปริมาณน้อย (เข้มข้น) เพื่อเลี่ยง fluid overload · <b>ห้าม ergot</b> (vasoconstriction ↑ afterload / pulmonary pressure) · คลึงมดลูก","คุมกำเนิด: ทำหมัน / LARC (เลี่ยง estrogen) · f/u อายุรแพทย์โรคหัวใจ","Warfarin ใกล้คลอดเปลี่ยนเป็น heparin ก่อนคลอด (ทารกได้ anticoagulant ด้วย)"],
+       pearls:["ไฟล์ให้ ampicillin 2 g IV bolus ป้องกัน IE ทุกราย — AHA / ACOG ไม่แนะนำ routine ใน vaginal delivery หรือ C/S ยกเว้นกลุ่มเสี่ยงสูงสุด (prosthetic valve, เคยเป็น IE, unrepaired cyanotic CHD, หัวใจปลูกถ่ายที่มี valvulopathy) — rheumatic MS ไม่เข้า (บางสถาบันให้ตามดุลยพินิจ)"],
+       members:["ไฟล์ดำ||ข้อ 9@p15#2"]}
+    ]},
+    {title:"PPH และการหยุดเลือดหลังคลอด", sections:[
+      {id:"pph-definition", title:"นิยาม PPH (primary / secondary)",
+       trend:"ข้อสั้น 3 คะแนน — ต้องมีทั้งเกณฑ์เลือดและช่วงเวลา",
+       asked:["What are the diagnostic criteria for PPH? Include definitions of primary and secondary PPH."],
+       pattern:["<b>เกณฑ์เดิม:</b> blood loss ≥ 500 mL หลัง vaginal delivery หรือ ≥ 1,000 mL หลัง cesarean","<b>ACOG 2017:</b> cumulative blood loss ≥ 1,000 mL <b>หรือ</b> blood loss ร่วมกับ signs / symptoms of hypovolemia ภายใน 24 ชม. ไม่ว่าคลอดวิธีใด","<b>Primary PPH</b> = ภายใน 24 ชม.หลังคลอด · <b>Secondary PPH</b> = 24 ชม. – 12 สัปดาห์ (ตำราเก่าบางเล่ม 6 สัปดาห์ — ไฟล์แก้เป็น 12 สัปดาห์ตาม ACOG)","สาเหตุ <b>4T:</b> Tone (atony พบบ่อยสุด), Trauma, Tissue, Thrombin","Secondary PPH + น้ำคาวปลาเหม็น / แดงมากนาน → นึกถึง endometritis, retained products"],
+       members:["short ans รวม||3#1"]},
+      {id:"hemostasis-mechanisms", title:"กลไกหยุดเลือดที่ placental site",
+       trend:"ข้อสั้น 4 คะแนน (note page หน้า 11)",
+       asked:["List the 4 mechanisms of hemostasis (placental-site bleeding after delivery)"],
+       pattern:["<b>1.</b> Uterine (myometrial) contraction บีบหลอดเลือดที่ placental bed (living ligature) · <b>2.</b> Vasoconstriction · <b>3.</b> Platelet clot / plug · <b>4.</b> Coagulation cascade → fibrin clot","กลไกหลักคือ <b>การหดรัดของกล้ามเนื้อมดลูก</b> (spiral artery ไหล ~ 600–800 mL/min หลังรกลอก) ไม่ใช่การแข็งตัวของเลือด → atony (Tone) เป็นสาเหตุ PPH ที่พบบ่อยสุด · coagulopathy = Thrombin"],
+       members:["short ans รวม||(หน้า 11)#1"]}
+    ]},
+    {title:"Puerperium: lochia & puerperal morbidity", sections:[
+      {id:"lochia", title:"Lochia 3 ระยะ",
+       trend:"ข้อสั้น 3 คะแนน — ต้องบอกชื่อ + ลักษณะ",
+       asked:["How many stages of lochia are there? Name and describe each stage."],
+       pattern:["<b>3 ระยะ:</b> <b>lochia rubra</b> (แดง, หลังคลอดถึงวันที่ 3–4) → <b>lochia serosa</b> (แดงจาง / ชมพู, ต่อมาจนประมาณวันที่ 10) → <b>lochia alba</b> (ขาว–เหลือง, หลังวันที่ ~ 10 จนหมด ~ 3–6 สัปดาห์)","Lochia = decidua หลุดลอก + เม็ดเลือดแดง + เซลล์เยื่อบุ + แบคทีเรีย · alba มี WBC ปน น้ำลดลง · ระยะรวมเฉลี่ย 24–36 วัน","เหม็น หรือกลับแดงมาก / นาน → endometritis, retained products, secondary PPH"],
+       members:["short ans รวม||2#1"]},
+      {id:"puerperal-morbidity", title:"นิยาม puerperal morbidity",
+       trend:"ข้อสั้น 3 คะแนน — 3 องค์ประกอบ",
+       asked:["What is the definition of puerperal morbidity?"],
+       pattern:["<b>อุณหภูมิ ≥ 38.0 °C (100.4 °F) อย่างน้อย 2 วัน (วันใดก็ได้) ภายใน 10 วันแรกหลังคลอด ไม่นับ 24 ชม.แรก</b> วัดทางปาก ≥ 4 ครั้ง/วัน (US Joint Committee on Maternal Welfare)","ไข้ใน 24 ชม.แรกมักไม่ใช่ติดเชื้อ (แต่ ≥ 39 °C อาจเป็น virulent GAS)","สาเหตุ: endometritis (พบบ่อยสุด โดยเฉพาะหลัง C/S), UTI, wound infection, mastitis, septic pelvic thrombophlebitis"],
+       members:["short ans รวม||40#1"]}
+    ]},
+    {title:"Newborn: APGAR", sections:[
+      {id:"apgar", title:"APGAR score + การแปลผล",
+       trend:"ข้อสั้น 4 คะแนน — ตัวย่อทั้ง 5 + คะแนน 0–2 + แปลผล",
+       asked:["What is the APGAR score? State what each letter stands for and interpret the total score."],
+       pattern:["ประเมินที่ <b>1 และ 5 นาที</b> (5 นาที < 7 → ประเมินซ้ำทุก 5 นาทีถึง 20 นาที)","<b>A</b>ppearance (สีผิว: ซีด / เขียว 0, ชมพูตัวปลายมือเท้าเขียว 1, ชมพูทั้งตัว 2) · <b>P</b>ulse (HR: ไม่มี 0, < 100 = 1, ≥ 100 = 2) · <b>G</b>rimace (reflex: ไม่ตอบสนอง 0, หน้าเบ้ / งอแขนขา 1, ร้อง / ไอ / จาม 2) · <b>A</b>ctivity (tone: อ่อนปวกเปียก 0, งอเล็กน้อย 1, ขยับดี 2) · <b>R</b>espiration (ไม่หายใจ 0, ช้า / ไม่สม่ำเสมอ 1, ร้องเสียงดัง 2)","<b>แปลผล:</b> 7–10 ปกติ · 4–6 moderately depressed · 0–3 severely depressed","Apgar 5 นาทีสัมพันธ์ outcome มากกว่า 1 นาที · Apgar ต่ำไม่ได้แปลว่า HIE เสมอ (ดู cord pH, base deficit, neuro signs)"],
+       pearls:["ไฟล์เขียนว่า APGAR ใช้ตัดสินใจเริ่ม resuscitation — ตาม AAP / ACOG ไม่ควรรอ Apgar (NRP ดู breathing / tone / HR ทันที); Apgar ใช้ประเมินสภาพทารกและการตอบสนองต่อการช่วยฟื้นคืนชีพ","ลำดับตัวอักษรในตารางไฟล์ต่างจาก A-P-G-A-R แต่ครบ 5 ตัว"],
+       members:["MDCU77|RoD|Recall 7#1"]}
+    ]}
+  ]});
