@@ -1,0 +1,400 @@
+{
+ "MDCU78|RoB|8": {
+  "why": "เกณฑ์ medical treatment (MTX) ที่ดี: hemodynamically stable, ไม่แตก, ก้อน &lt;3.5–4 cm, ไม่มี FHR, <b>hCG &lt;5,000</b> — ACOG PB 193 (2018) จัด <b>hCG สูง (&gt;5,000) เป็น relative contraindication</b> เพราะอัตราล้มเหลวของ MTX single dose สูงขึ้นมาก (≈14% ที่ hCG 5,000–9,999 เทียบ &lt;4% เมื่อ &lt;5,000) ผู้ป่วย stable ที่ hCG สูงจึงเอนไปทาง <b>ผ่าตัด</b> ตามดุลยพินิจ (บางสถาบันยังให้ MTX multidose ได้หลังให้ข้อมูล) → เลือก <b>laparoscopy</b> (salpingectomy หรือ salpingostomy) ซึ่งเป็นวิธีผ่าตัดมาตรฐานในผู้ป่วย stable",
+  "wrong": {
+   "B": "MTX ใช้ได้ดีเมื่อ hCG &lt;5,000 (ยิ่ง hCG ต่ำยิ่งสำเร็จสูง) — hCG 5,800 เป็น relative contraindication อาจให้ multidose ได้ถ้าผู้ป่วยต้องการหลีกเลี่ยงการผ่าตัดและติดตามได้ แต่ไม่ใช่ทางเลือกที่ดีที่สุด; จะถูกถ้า hCG เช่น 2,000",
+   "C": "Expectant management ใช้เมื่อ hCG ต่ำมากและลดลงเอง (ACOG PB 193 (2018): hCG &lt;200 mIU/mL และลดลงเอง) ไม่มีอาการ — hCG 5,800 สูงเกินไป",
+   "D": "Laparotomy ใช้เมื่อ <b>hemodynamically unstable</b> (shock, hemoperitoneum มาก) หรือทำ laparoscopy ไม่ได้ — รายนี้ stable จึงใช้ laparoscopy",
+   "E": "D&amp;C ใช้กับ intrauterine pregnancy loss — ในรายนี้ US เห็นก้อนที่ adnexa และมดลูกว่าง วินิจฉัย ectopic แล้ว การขูดมดลูกไม่รักษา ectopic (ใช้ได้แค่แยก PUL ที่ hCG plateau ในคนที่ไม่ต้องการตั้งครรภ์)"
+  }
+ },
+ "MDCU78|RoC|Gyn First half bleeding 2": {
+  "why": "ผู้ป่วยเข้าเกณฑ์ methotrexate ทุกข้อ: hemodynamically stable, ไม่แตก, β-hCG &lt;5,000 mIU/mL, ก้อน &lt;3.5–4 cm, ไม่มี fetal cardiac activity, ไม่มีข้อห้าม — สำหรับ β-hCG ระดับต่ำแบบนี้ <b>single-dose regimen (MTX 50 mg/m² IM วันที่ 1, ตรวจ hCG วันที่ 4 และ 7)</b> เป็นวิธีมาตรฐาน ใช้ง่ายและผลข้างเคียงน้อย สำเร็จโดยรวมราว 90% ที่ระดับ hCG นี้ — ส่วน expectant ใช้เมื่อ β-hCG ต่ำมาก (ACOG PB 193 (2018): &lt;200 mIU/mL) และ<b>ลดลงเอง</b> ซึ่งไม่ใช่กรณีนี้",
+  "wrong": {
+   "A": "Two-dose regimen (50 mg/m² วันที่ 0 และ 4) ACOG ระบุว่าอาจพิจารณาเมื่อ <b>β-hCG เริ่มต้นสูง</b> เพราะสำเร็จดีกว่า single-dose ในกลุ่มนั้น — ที่ hCG 2,300 single-dose เพียงพอ จะถูกถ้า β-hCG ราว 3,000–5,000",
+   "B": "Expectant management เหมาะเมื่อไม่มีอาการ β-hCG ต่ำ (ACOG PB 193 (2018): &lt;200 mIU/mL) และ<b>ลดลงต่อเนื่อง</b> — ผู้ป่วยนี้ hCG 2,300 และไม่ทราบแนวโน้ม จะถูกถ้า hCG 900 และลดลงใน 48 ชั่วโมง",
+   "D": "Laparoscopic salpingectomy เป็นทางเลือกที่ยอมรับได้เสมอใน stable ectopic (โดยเฉพาะถ้าผู้ป่วยเลือก ติดตามไม่ได้ หรือท่อนำไข่อีกข้างปกติ) แต่เมื่อเข้าเกณฑ์ MTX ทุกข้อ การรักษาด้วยยาเลี่ยงการผ่าตัดได้ — จะถูกถ้าก้อนแตก, unstable, มี fetal cardiac activity หรือมีข้อห้าม MTX",
+   "E": "Multiple-dose MTX (1 mg/kg วันเว้นวัน สลับ leucovorin 0.1 mg/kg สูงสุด 4 dose) ใช้กับ hCG สูง/ectopic ตำแหน่งพิเศษ ผลข้างเคียงมากกว่า — จะถูกถ้าเป็น cervical/interstitial ectopic หรือ hCG สูงมาก"
+  },
+  "summary": [
+   "เกณฑ์ MTX: stable, ไม่แตก, ติดตามได้, ไม่มีข้อห้าม; ผลดีเมื่อ <b>β-hCG &lt;5,000</b>, ก้อน &lt;3.5–4 cm, ไม่มี fetal cardiac activity",
+   "<b>Single-dose</b>: MTX 50 mg/m² IM วันที่ 1 → hCG วันที่ 4 และ 7 → ลด ≥15% (วัน 4→7) = ตอบสนอง แล้วตรวจสัปดาห์ละครั้งจนไม่พบ",
+   "<b>Two-dose</b>: 50 mg/m² วันที่ 0 และ 4 (พิจารณาเมื่อ hCG เริ่มต้นสูง); <b>multiple-dose</b>: MTX 1 mg/kg วัน 1,3,5,7 สลับ leucovorin 0.1 mg/kg วัน 2,4,6,8",
+   "Expectant: ไม่มีอาการ, hCG ต่ำมาก (ACOG PB 193: &lt;200 mIU/mL) และลดลงเอง",
+   "Surgery: unstable/rupture, ข้อห้าม MTX, MTX ล้มเหลว, มี IUP ร่วม; salpingectomy เมื่อท่ออีกข้างปกติ (salpingostomy ถ้าต้องการเก็บท่อและท่ออีกข้างผิดปกติ)",
+   "ก่อนให้ MTX: CBC, LFT, creatinine, blood group/Rh (ให้ anti-D ถ้า Rh negative)"
+  ]
+ },
+ "MDCU78|RoB|16": {
+  "flag": "⚠ คีย์ไม่แน่ใจ C/E? — ตาม ACOG PB 200 (2018) ซึ่งรับเกณฑ์ SRU 2013: CRL &lt;7 mm ไม่มี heartbeat = <b>suspicious</b> ยังไม่วินิจฉัย pregnancy loss ต้องตรวจซ้ำใน 7–10 วัน (C); การนัด routine 4 สัปดาห์ (E) ไม่ถูกเพราะต้องยืนยัน viability ก่อน",
+  "why": "ตาม ACOG PB 200 (2018) ซึ่งรับเกณฑ์ SRU (Doubilet, NEJM 2013): <b>วินิจฉัย pregnancy failure ได้เมื่อ CRL ≥7 mm แต่ไม่มี heartbeat</b> หรือ MSD ≥25 mm ไม่มี embryo — ส่วน <b>CRL &lt;7 mm ไม่มี heartbeat = suspicious only</b> (ประจำเดือนอาจคลาดเคลื่อน ตกไข่ช้า) จึงต้อง<b>ตรวจ US ซ้ำใน 7–10 วัน</b>; ถ้ายังไม่มี heartbeat (หรือ CRL ≥7 mm ไม่มี heartbeat) จึงวินิจฉัย early pregnancy loss",
+  "summary": [
+   "ACOG PB 200 (2018; อิงเกณฑ์ SRU 2013) <b>diagnostic</b> ของ pregnancy failure: CRL ≥7 mm ไม่มี heartbeat; MSD ≥25 mm ไม่มี embryo; ไม่มี embryo with heartbeat ≥2 สัปดาห์หลังเห็น GS ไม่มี yolk sac; หรือ ≥11 วันหลังเห็น GS มี yolk sac",
+   "<b>Suspicious</b>: CRL &lt;7 mm ไม่มี heartbeat; MSD 16–24 mm ไม่มี embryo; ไม่มี embryo ≥6 สัปดาห์หลัง LMP; empty amnion; yolk sac &gt;7 mm; ไม่มี embryo with heartbeat 7–13 วันหลังเห็น GS ไม่มี YS (7–10 วันถ้ามี YS) → ตรวจซ้ำ 7–14 วัน",
+   "Cardiac activity มักเห็นเมื่อ CRL ≥2–4 mm (ราว 6 สัปดาห์) แต่เกณฑ์ diagnostic ใช้ 7 mm เพื่อไม่ให้วินิจฉัยผิด",
+   "เมื่อวินิจฉัย EPL แล้ว: expectant, medical (mifepristone 200 mg + misoprostol 800 µg PV หรือ misoprostol อย่างเดียว), หรือ uterine aspiration (MVA/EVA) — Rh-negative ให้ anti-D ตามแนวทาง",
+   "First-trimester CRL เป็นวิธี dating ที่แม่นที่สุด (±5–7 วัน)",
+   "ดู 78B 26 (การปรับ EDC ตาม CRL)"
+  ]
+ },
+ "MDCU78|RoC|Gyn First half bleeding 8": {
+  "flag": "⚠ recall ไม่ครบ — ต้นฉบับมีแค่ \"Incomplete abortion mx\" ไม่มีช้อย; เติมเลือดออกมาก/สัญญาณชีพผิดปกติให้เหลือ suction curettage เป็นคำตอบเดียว — ถ้าโจทย์จริงเป็นผู้ป่วย stable เลือดออกน้อย expectant หรือ misoprostol (800 mcg ทางช่องคลอดตาม ACOG PB 200) ก็เป็นทางเลือกที่ถูกต้อง",
+  "wrong": {
+   "A": "Expectant management ได้ผลดีใน incomplete abortion ที่ stable (สำเร็จสูงกว่า missed abortion) — แต่ไม่เหมาะกับเลือดออกมากและสัญญาณชีพผิดปกติ จะถูกถ้าผู้ป่วย stable เลือดออกน้อยและเลือกรอ",
+   "B": "Misoprostol (ACOG PB 200 (2018): 800 mcg ทางช่องคลอด ให้ซ้ำได้อีกครั้ง; ขนาด 600 mcg oral / 400 mcg SL ของ WHO เป็น tier 3) ได้ผลราว 80–99% แต่ออกฤทธิ์ช้า ไม่เหมาะเมื่อเลือดออกมาก — จะถูกถ้าผู้ป่วย stable และต้องการเลี่ยงหัตถการ",
+   "D": "Methotrexate ใช้กับ ectopic pregnancy/GTN ไม่ใช้กับ incomplete abortion — ไม่ถูก",
+   "E": "Hysterectomy เป็นทางสุดท้ายเมื่อเลือดออกไม่หยุดจากสาเหตุอื่น (เช่น uterine perforation รุนแรง, AVM) — ไม่ใช่ขั้นตอนแรก"
+  },
+  "summary": [
+   "Incomplete abortion: os เปิด เนื้อเยื่อค้างบางส่วน เลือดออก ปวดบีบ",
+   "<b>Unstable/เลือดออกมาก/ติดเชื้อ</b> → resuscitation + เอาเนื้อเยื่อที่ os ออก + <b>suction curettage (MVA/EVA)</b> + uterotonic; septic → antibiotics ก่อนและหลัง",
+   "Stable: เลือกได้ — expectant, misoprostol (ACOG PB 200: 800 mcg PV ซ้ำได้; WHO 2022 ใช้ 600 mcg oral / 400 mcg SL เป็น tier 3), หรือ uterine aspiration ตามความต้องการ",
+   "Suction curettage ดีกว่า sharp curettage (เลือดออกน้อยกว่า ปวดน้อยกว่า เสี่ยง Asherman/perforation น้อยกว่า)",
+   "ให้ anti-D immunoglobulin ใน Rh negative (โดยเฉพาะเมื่อทำหัตถการ)",
+   "ส่งเนื้อเยื่อตรวจพยาธิเพื่อยืนยันการตั้งครรภ์ในมดลูกและแยก molar pregnancy"
+  ]
+ },
+ "MDCU79|RoB|First half bleeding 1": {
+  "summary": [
+   "การจำแนก abortion: Threatened (เลือดออก, os ปิด, ทารกมีชีวิต) · Inevitable (เลือดออก, os เปิด, ยังไม่มี POC หลุด) · Incomplete (os เปิด, POC หลุดบางส่วน) · Complete (POC หลุดครบ, os ปิด, มดลูกเล็ก, เลือดลด) · Missed (ทารกเสียชีวิตค้างในมดลูก os ปิด)",
+   "นิยามการแท้ง (Williams / ACOG): การสิ้นสุดการตั้งครรภ์ก่อน 20 สัปดาห์ หรือทารกหนักน้อยกว่า 500 g; สาเหตุหลักคือความผิดปกติของโครโมโซม (~50%)",
+   "การวินิจฉัย: ประวัติ + ตรวจภายใน (ดู os) + transvaginal ultrasound + serum β-hCG; ตัวอ่อนที่ CRL ≥7 mm ไม่มี cardiac activity = early pregnancy failure",
+   "การรักษา early pregnancy loss: expectant, medical (misoprostol 800 µg PV) หรือ surgical (suction curettage/MVA) — ผู้ป่วยไม่คงที่/เลือดออกมาก/ติดเชื้อ ต้อง evacuation ทันที",
+   "ให้ anti-D immunoglobulin ถ้า Rh-negative; ให้คำปรึกษาเรื่องคุมกำเนิดและตรวจหาสาเหตุเมื่อแท้งซ้ำ ≥2–3 ครั้ง",
+   "ดู 78C Gyn First half bleeding 7 (complete abortion) และ 78C Gyn First half bleeding 8 (os เปิดมี POC ที่ os เลือดออกมาก → suction curettage)"
+  ]
+ },
+ "MDCU79|RoB|First half bleeding 2": {
+  "why": "<b>Threatened abortion</b> = มีเลือดออกทางช่องคลอด (± ปวดท้องน้อยเล็กน้อย) ก่อน 20 สัปดาห์ โดย <b>cervical os ปิด</b> และ <b>ทารกยังมีชีวิต (มี cardiac activity)</b> ยังไม่มีการขับ POC. การพยากรณ์: เมื่อเห็น cardiac activity แล้ว ส่วนใหญ่ (&gt;90%) ตั้งครรภ์ต่อได้; การดูแล: ให้คำปรึกษา พักผ่อนตามสบาย เลี่ยงเพศสัมพันธ์ชั่วคราว ติดตามอาการ ไม่ต้องใช้ยากันแท้งทุกราย (ACOG ไม่มีข้อแนะนำ routine ให้ progesterone; มีเพียงหลักฐาน tier 3 จาก PRISM trial 2019 ว่า vaginal micronized progesterone 400 mg วันละ 2 ครั้งอาจช่วยในรายที่เลือดออกและเคยแท้งมาก่อนอย่างน้อย 1 ครั้ง); ตรวจ ultrasound และให้ anti-D immunoglobulin ถ้า Rh-negative",
+  "summary": [
+   "Threatened abortion: เลือดออก + os ปิด + ultrasound เห็น viable embryo/fetus (มี cardiac activity)",
+   "เมื่อพบ cardiac activity แล้ว โอกาสตั้งครรภ์ต่อได้สูง (&gt;90%) — แต่เสี่ยงต่อ preterm birth, FGR, abruption เล็กน้อยในภายหลัง",
+   "การรักษา: ให้คำปรึกษา ติดตาม ไม่มี bed rest ที่พิสูจน์ว่าได้ผล; vaginal progesterone ในรายที่มีประวัติแท้ง ≥1 ครั้ง (PRISM 2019 เป็น tier 3; ACOG ไม่แนะนำ routine); anti-D ถ้า Rh-negative",
+   "สิ่งที่ต้องแยก: ectopic pregnancy, molar pregnancy, cervical/vaginal lesion (polyp, cervicitis), subchorionic hematoma",
+   "ติดตาม: ultrasound ซ้ำถ้ามีเลือดออกมากขึ้นหรือปวดท้องมากขึ้น",
+   "ดู First half bleeding 1 (inevitable abortion) ในชุดนี้"
+  ]
+ },
+ "MDCU78|RoC|Gyn First half bleeding 9": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): นิยาม RPL ขัดกัน — ตำราไทยที่ข้อสอบใช้นับแท้งเองติดกัน ≥3 ครั้ง ส่วน ACOG PB 200 (2018) เริ่มสืบค้นเมื่อแท้งติดกัน ≥2 ครั้ง (ข้อความของ RTCOG และ Williams 26th ตรวจสอบโดยตรงไม่ได้); ผู้ที่แท้งเอง 3 ครั้งติดกัน (E) เข้าเกณฑ์ทั้งสองนิยาม จึงคงคำตอบ E || ⚠ recall ไม่ครบ — ต้นฉบับเขียน 'etiology of stillbirth' แต่ช้อยเป็นเรื่องการแท้งซ้ำ จึงเขียนเป็นคำถามการหาสาเหตุของ pregnancy loss (recurrent pregnancy loss); ไม่ได้ใส่ช้อย '2 consecutive losses' เพราะ ACOG PB 200 / ASRM / ESHRE ใช้ ≥2 ครั้ง ซึ่งจะทำให้มีคำตอบซ้อน",
+  "why": "นิยามที่ตำราไทยและข้อสอบนี้ใช้คือ<b>แท้งเองติดต่อกัน ≥3 ครั้ง</b>ก่อน 20 สัปดาห์; <b>ACOG PB 200 (2018)</b> เริ่มสืบค้นเมื่อแท้งติดกัน <b>≥2 ครั้ง</b> (ASRM / ESHRE / RCOG เป็น tier 3) — ทั้งสองนิยามครอบคลุมหญิงที่แท้ง 3 ครั้งติดกัน จึงควรได้รับการตรวจหาสาเหตุ (antiphospholipid syndrome, uterine anomaly, parental karyotype, thyroid ฯลฯ); การทำแท้งไม่นับเป็น pregnancy loss ตามนิยาม — ผู้ที่แท้งเองเพียงครั้งเดียวไม่เข้าเกณฑ์ (การแท้งครั้งเดียวพบได้ ~15–20% ของการตั้งครรภ์ ส่วนใหญ่จาก chromosomal abnormality ของตัวอ่อน)",
+  "wrong": {
+   "A": "การทำแท้ง (induced/criminal abortion) ไม่นับใน RPL — นับเป็น spontaneous loss เพียง 1 ครั้ง ไม่เข้าเกณฑ์; จะถูกถ้าแท้งเองครบ 2 ครั้งตามนิยาม ACOG PB 200 (≥2 ครั้งติดกัน)",
+   "B": "แท้งเองครั้งเดียวพบบ่อยและส่วนใหญ่เกิดจาก aneuploidy แบบ sporadic ไม่ต้องตรวจหาสาเหตุ — จะถูกถ้าเป็นการแท้งไตรมาสสอง (เช่น cervical insufficiency) หรือ fetal death ที่ต้องหาสาเหตุ",
+   "C": "แท้งเองครั้งเดียวแล้วคลอดครบกำหนดปกติไม่เข้าเกณฑ์ RPL — ไม่ต้องตรวจ",
+   "D": "Molar pregnancy ไม่นับรวมใน RPL (ตามนิยามมาตรฐาน ไม่นับ ectopic และ molar) ต้องติดตาม hCG แต่ไม่ใช่การหาสาเหตุการแท้งซ้ำ — จะถูกถ้าถามการติดตามหลัง mole"
+  },
+  "summary": [
+   "นิยาม RPL: ≥3 ครั้งติดต่อกัน (ตำราไทยที่ข้อสอบใช้) หรือ <b>≥2 ครั้ง</b> (ACOG PB 200, 2018; ASRM / ESHRE ตรงกัน); ไม่นับ induced abortion, ectopic, molar",
+   "สาเหตุ/การตรวจที่มีหลักฐาน: <b>antiphospholipid syndrome</b> (lupus anticoagulant, anticardiolipin, anti-β2GP1 ซ้ำห่าง 12 สัปดาห์), <b>uterine anomaly</b> (septate uterus; 3D US/MRI/hysteroscopy), <b>parental karyotype</b> (balanced translocation — ESHRE ใช้แบบเลือกราย — tier 3), thyroid (TSH, TPO Ab)",
+   "ประมาณครึ่งหนึ่งหาสาเหตุไม่พบ (unexplained) แต่โอกาสคลอดมีชีพครั้งต่อไปยังดี",
+   "APS: low-dose aspirin + prophylactic heparin ช่วยเพิ่ม live birth",
+   "Septate uterus: hysteroscopic septum resection (หลักฐานยังถกเถียง)",
+   "การแท้งครั้งเดียวในไตรมาสแรก: ~50–60% เป็น chromosomal abnormality (trisomy 16 พบบ่อยสุด)"
+  ]
+ },
+ "YUZU||12.4": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): นิยาม RPL ขัดกัน — ตำราไทยที่ข้อสอบใช้นับแท้งเองติดกัน ≥3 ครั้ง ส่วน ACOG PB 200 (2018) เริ่มสืบค้นเมื่อแท้งติดกัน ≥2 ครั้ง (ข้อความของ RTCOG และ Williams 26th ตรวจสอบโดยตรงไม่ได้); ช้อย C (3 ครั้งติดกัน) เข้าเกณฑ์ทั้งสองนิยาม จึงคงคำตอบ C",
+  "why": "ตามเกณฑ์ที่หนังสือและตำราไทยใช้ <b>recurrent (habitual) pregnancy loss = แท้งติดต่อกัน (consecutive) ตั้งแต่ 3 ครั้งขึ้นไปก่อน 20 สัปดาห์</b> จึงควรสืบค้นสาเหตุ (parental karyotype, ตรวจ uterine anomaly ด้วย HSG/3D USG/hysteroscopy, antiphospholipid antibodies/lupus anticoagulant/anticardiolipin/anti-β2GPI, thyroid, HbA1c/glucose, prolactin, พิจารณา thrombophilia ตามประวัติ). หญิง 28 ปีที่แท้งเอง 3 ครั้งติดกันจึงเข้าเกณฑ์ชัดเจน. (ACOG PB 200 (2018) ใช้เกณฑ์ ≥2 ครั้งติดกันและเริ่มตรวจได้เร็วกว่า ซึ่งขัดกับนิยาม ≥3 ของข้อสอบเล่มนี้; ASRM / ESHRE / RCOG เป็น tier 3 — หญิงที่แท้ง 3 ครั้งติดกันเข้าเกณฑ์ทั้งสองนิยาม)",
+  "wrong": {
+   "A": "A: การทำแท้งผิดกฎหมาย (induced abortion) ไม่นับเป็นการแท้งเอง เหลือแท้งเองเพียง 1 ครั้ง ยังไม่เข้าเกณฑ์ — จะถูกถ้ามี spontaneous loss ≥3 ครั้งติดกัน (หรือ ≥2 ตาม ACOG PB 200) ",
+   "B": "B: อายุ 48 ปี spontaneous abortion ร่วมกับ fetal death in utero — เหตุการณ์เดียว/อายุมาก สาเหตุส่วนใหญ่ = ความผิดปกติของโครโมโซมตามวัย ไม่เข้าเกณฑ์ RPL; และ IUFD หลัง 20 สัปดาห์เรียก stillbirth ซึ่งมีแนวทางสืบค้นของตัวเองต่างจากชุดสืบค้นการแท้งซ้ำ",
+   "D": "D: แท้งหลังหกล้ม (trauma) เป็นการแท้งที่ทราบสาเหตุ/ปัจจัยชัดเจน ไม่ต้องหาสาเหตุเพิ่มเมื่อเป็นเหตุการณ์เดียว",
+   "E": "E: การแท้งของครรภ์แฝด (twin) นับเป็นการตั้งครรภ์ครั้งเดียว (1 pregnancy) ไม่ใช่ 2 ครั้ง และสาเหตุอาจเกี่ยวกับภาวะแฝด จึงยังไม่เข้าเกณฑ์"
+  },
+  "trap": "นับ 'จำนวนครั้ง' ผิด — การทำแท้ง (induced) และครรภ์แฝดไม่ทำให้จำนวนครั้งเพิ่ม; คำว่า 'consecutive' สำคัญ (แท้งสลับกับคลอดปกติยังไม่เข้านิยามเดิมของตำราไทย)",
+  "summary": [
+   "Recurrent pregnancy loss (RPL) ตามตำราไทยที่ข้อสอบใช้ = แท้งเอง ≥3 ครั้งติดกันก่อน 20 สัปดาห์ (ACOG PB 200, 2018 = ≥2 ครั้งติดกัน; ASRM / ESHRE ตรงกัน)",
+   "พบ ~1% ของคู่สมรส; โอกาสพบสาเหตุได้ ~50% ที่เหลือ unexplained; โอกาสตั้งครรภ์ต่อไปสำเร็จหลัง unexplained RPL สูง (~60–70%) เมื่อให้ supportive care",
+   "สืบค้น: parental karyotype (2–5%), uterine anomaly (septate uterus, submucous myoma, Asherman), antiphospholipid syndrome (lupus anticoagulant, anticardiolipin, anti-β2GPI ซ้ำห่าง 12 สัปดาห์), thyroid/TSH, glucose/HbA1c, prolactin",
+   "APS: รักษาด้วย low-dose aspirin + heparin (prophylactic dose) ลดการแท้ง; thrombophilia ที่ถ่ายทอดทางพันธุกรรมไม่แนะนำตรวจประจำ",
+   "Incompetent cervix = แท้งไตรมาสที่ 2 แบบไม่เจ็บ → cerclage (ดู YUZU 12.6, 12.7)",
+   "ไม่เข้าเกณฑ์: induced abortion, แท้งเพียงครั้งเดียว, แท้งจากอุบัติเหตุ/ยา/ติดเชื้อชัดเจน, ครรภ์แฝด (นับ 1 ครั้ง)",
+   "ข้อซ้ำชุดอื่น: MDCU78 RoC Gyn First half bleeding 9 (ตอบ three consecutive spontaneous abortions)"
+  ]
+ },
+ "YUZU||12.17": {
+  "summary": [
+   "RPL (ข้อสอบนับ ≥3 ครั้งก่อน 20 สัปดาห์; ACOG PB 200 เริ่มสืบค้นที่ ≥2 ครั้ง): สาเหตุ ~50% ไม่พบ (unexplained)",
+   "สาเหตุที่พบ: parental chromosomal 2–5%, uterine anomaly ~10–15%, APS ~10–15%, endocrine ~10–20% (thyroid, DM, PCOS), infection น้อยมาก (&lt;5%)",
+   "การตรวจที่แนะนำ: parental karyotype, USG pelvis/3D USG/hysteroscopy, lupus anticoagulant + anticardiolipin + anti-β2GPI (ซ้ำที่ 12 สัปดาห์), TSH, glucose/HbA1c; thrombophilia screen ไม่ routine (ยกเว้นประวัติทางครอบครัวหรือแท้งหลัง 10 สัปดาห์ซ้ำ)",
+   "การรักษาตามสาเหตุ: APS = aspirin ขนาดต่ำ + LMWH; septate uterus = hysteroscopic septum resection (ประโยชน์ยังถกเถียง); parental translocation = genetic counselling/PGT; ภาวะ unexplained = supportive care ให้กำลังใจ",
+   "ผู้ป่วยอายุ ≥35 ปี: aneuploidy เป็นสาเหตุส่วนใหญ่ของการแท้งเดี่ยว/ซ้ำ",
+   "ข้อใกล้เคียง: YUZU 12.4 (นิยาม RPL), 12.8 และ 12.16"
+  ]
+ },
+ "YUZU||12.6": {
+  "why": "Cervical insufficiency: ปากมดลูกขยายออกโดยไม่เจ็บครรภ์ (painless cervical dilatation) ในไตรมาสที่ 2 นำไปสู่การแท้ง/คลอดก่อนกำหนดซ้ำ ๆ; ปัจจัย: trauma ปากมดลูก (D&amp;C ขยายมาก, conization, cauterization, amputation, คลอดฉีกขาด), ความผิดปกติแต่กำเนิดของมดลูก/ปากมดลูก, DES exposure, connective tissue disease. สำหรับการตั้งครรภ์ถัดไป: <b>history-indicated (elective/prophylactic) cerclage</b> ที่ ~12–14 สัปดาห์ (ตำราต่าง ๆ 12–16) ในผู้ที่มีประวัติเสียครรภ์ไตรมาส 2 จากการเปิดของปากมดลูกโดยไม่เจ็บครรภ์ (ACOG PB 142 (2014): ≥1 ครั้ง; เกณฑ์ ≥3 ครั้งของ RCOG เป็น tier 3 จึงไม่ใช้) — ช้อย A. ส่วน rescue cerclage ใช้เมื่อ <u>ตั้งครรภ์อยู่แล้ว</u> พบปากมดลูกเปิดและถุงน้ำโผล่ก่อน 23–24 สัปดาห์ (YUZU 12.7)",
+  "summary": [
+   "Cervical insufficiency = ปากมดลูกขยายไม่เจ็บในไตรมาส 2 (มักเริ่ม 16–24 สัปดาห์) → แท้ง/คลอดก่อนกำหนด",
+   "ปัจจัย: previous cervical trauma (D&amp;C, conization, LEEP, ผ่าตัดปากมดลูก, ฉีกขาดจากการคลอด), uterine anomaly, DES, connective tissue disorder (Ehlers-Danlos)",
+   "History-indicated (prophylactic) cerclage: ใส่ที่ ~12–14 สัปดาห์ (ตำราบางแห่ง 12–16) เมื่อมีประวัติเสียครรภ์ไตรมาส 2 โดยไม่มีเจ็บครรภ์/รกลอกตัว (ACOG PB 142: ≥1 ครั้ง)",
+   "Ultrasound-indicated: เคยคลอดก่อนกำหนด &lt;34 สัปดาห์ + TVS cervical length &lt;25 มม. ก่อน 24 สัปดาห์ (ซึ่งผู้จดลายมือ ver.2 จดว่า &lt;2.5 ซม.)",
+   "Physical exam-indicated (rescue): cervix เปิด/ถุงน้ำโผล่ที่ ~14–23+6 สัปดาห์ ไม่มี contraction/เลือดออก/ติดเชื้อ",
+   "ไม่ควรทำ cerclage ในแฝด (ไม่ได้ประโยชน์ในแฝดที่ cervix สั้นทั่วไป), มี contraction, เลือดออก, chorioamnionitis, PPROM",
+   "ปัจจัยร่วม: vaginal progesterone เป็นทางเลือกในผู้ที่ cervical length สั้น (ดู MDCU78 RoB 54) ส่วนข้อนี้เทียบกับ MDCU78 RoB อื่นๆ 13 (cerclage เมื่อใด → 12–14 สัปดาห์)"
+  ]
+ },
+ "MDCU78|RoB|41": {
+  "why": "Regimen มาตรฐานที่ได้ผลดีที่สุดตาม ACOG PB 225 (2020) (ใช้ได้ถึง 70 วัน) และที่ใช้ในไทย (ได้รับอนุมัติใช้ในไทยตั้งแต่ปี 2557 ในรูป combination pack) คือ <b>mifepristone 200 mg PO</b> แล้วตามด้วย <b>misoprostol 800 mcg</b> (buccal/sublingual/vaginal) ใน 24–48 ชม. — complete abortion ~95–98% ในอายุครรภ์ ≤70 วัน (10 wk); mifepristone เป็น progesterone receptor antagonist ทำให้ decidua หลุดและ cervix นุ่ม เพิ่มความไวต่อ prostaglandin",
+  "summary": [
+   "Medical abortion: ACOG PB 225 (2020) ถึง 70 วัน = mifepristone 200 mg PO → 24–48 ชม. misoprostol 800 mcg buccal (แนวทางจุฬาฯ / ไทย ≤12 wk: buccal/vaginal/sublingual)",
+   "&gt;12 wk: mifepristone 200 mg → 1–2 วัน misoprostol 400 mcg q3h จนแท้ง (แนวทาง WHO — tier 3)",
+   "Misoprostol only (ไม่มี mifepristone): 800 mcg ซ้ำได้ (ACOG PB 200 ใช้ PV; ความถี่ q3h ≤12 wk เป็นแนวทาง WHO — tier 3)",
+   "ข้อห้าม: ectopic pregnancy (หรือยังไม่ได้แยก), IUD ในโพรงมดลูก (ถอดก่อน), chronic adrenal failure, inherited porphyria, bleeding disorder/anticoagulant, แพ้ยา",
+   "ติดตามผลด้วยอาการ, urine/serum hCG หรือ US; ล้มเหลว → ให้ misoprostol ซ้ำหรือ MVA",
+   "Rh-negative: ให้ anti-D ตามแนวทาง early pregnancy loss (ACOG PB 200); ข้อความ WHO 2022 ว่าไม่จำเป็น &lt;12 wk เป็น tier 3",
+   "กฎหมายไทย (ประมวลกฎหมายอาญาแก้ไข 2564/2565) ยุติการตั้งครรภ์ได้ตามคำขอ ≤12 wk และ 12–20 wk หลังรับคำปรึกษา"
+  ]
+ },
+ "YUZU||45.5": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ACOG PB 200 (2018) ระบุว่า misoprostol มีผลข้างเคียงทางเดินอาหาร (คลื่นไส้ ท้องเสีย โดยเฉพาะแบบอมใต้ลิ้น) และเลือดออกนานกว่า D&amp;C ดังนั้นข้อความในช้อย B ขัดกับ tier 1; A (DIC ต้องค้างนานหลายสัปดาห์) และ C (ภาวะเจริญพันธุ์ไม่ต่างกัน) ผิด, E ไม่มีหลักฐานรองรับ ส่วน D (misoprostol priming ก่อน D&amp;C ลดภาวะแทรกซ้อนโดยรวม) ตรวจกับ ACOG/Williams โดยตรงไม่ได้ — ไม่มีช้อยใดตรงกับ tier 1 ชัดเจน (ข้อสอบมีปัญหา) จึงคงคีย์ B ตามคีย์ของชุด YUZU || ⚠ คีย์ไม่ชัด: ver.1 วงขาวที่ A (ไฮไลต์) แต่วงฟ้าที่ B และโน้ต ‘local effect’; ver.2 วงที่ A แต่ขีดฆ่าถ้อยคำใน A และจดเหตุผลที่สนับสนุน B (misoprostol เป็น prostaglandin ‘protective’/ local effect; DIC เกิดเมื่อค้างนาน ≥4 สัปดาห์) — สรุปว่าทั้งสองสนับสนุน B เราเลือก B ตามคีย์ แต่ข้อความ B ‘does not increase GI side effects’ ขัดกับข้อมูลทั่วไปว่า misoprostol เพิ่มอาการคลื่นไส้/ท้องเสีย (โดยเฉพาะ oral/sublingual) — ทางเลือกที่ถูกตามหลักฐานทางคลินิกมากที่สุดอาจเป็น D (cervical priming ด้วย misoprostol ก่อน D&C ลดภาวะแทรกซ้อน เช่น cervical injury) ความมั่นใจต่อ B ต่ำ-ปานกลาง (~45%)",
+  "opinion": "⚠ คงคีย์ B ตามคีย์ของชุด YUZU แต่ข้อความ B ขัดกับ ACOG PB 200 (2018) และไม่มีช้อยที่ตรงกับ tier 1 ชัดเจน (ข้อสอบมีปัญหา) — ความมั่นใจต่อ B ต่ำ-ปานกลาง (~45%); A, C, E ผิดชัดเจน; D ขึ้นกับหลักฐานเรื่อง cervical priming ซึ่งยืนยันกับ ACOG ไม่ได้ แนะนำให้เทียบกับเฉลยของอาจารย์",
+  "why": "ทางเลือกในการจัดการ missed abortion ไตรมาสแรก: expectant (สำเร็จ ~50–80%), <b>medical</b> (misoprostol 800 mcg ทางช่องคลอด สำเร็จ ~70–85%; mifepristone + misoprostol สำเร็จ &gt;90%), <b>surgical</b> (suction/ D&amp;C สำเร็จ ~95–99%). ข้อมูล counseling สำคัญ: (1) <b>DIC/ coagulopathy</b> เกิดเมื่อมี retained dead fetus นาน ≥ 4–5 สัปดาห์ (ไม่ใช่ที่ 8 สัปดาห์ ‘ทันที’) จึงไม่ต้องทำ D&amp;C ด่วนเพื่อป้องกัน (ver.2 จด ‘DIC เกิด ≥4 wk’); (2) <b>ภาวะเจริญพันธุ์ในอนาคตไม่ต่างกัน</b> ระหว่างวิธี (ACOG PB 200; Cochrane ตรงกัน); (3) misoprostol ทางช่องคลอด/ ‘เหน็บ’ มี <b>ผลเฉพาะที่ (local effect)</b> และเนื่องจาก prostaglandin analog ‘protective’ ต่อเยื่อบุทางเดินอาหาร — ผู้จดทั้ง 2 คนตีความว่า GI side effects ไม่เพิ่ม (คีย์ของเล็กเชอร์) แต่ ACOG PB 200 (2018) ระบุว่า misoprostol มีผลข้างเคียงทางเดินอาหาร (คลื่นไส้ ท้องเสีย โดยเฉพาะอมใต้ลิ้น) ข้อความนี้จึงขัดกับ tier 1 และเก็บไว้เพียงเพราะเป็นคีย์ของชุด; (4) misoprostol ทำให้ <b>เลือดออกนานและปวดมากกว่า D&amp;C</b> (ver.2 จด ‘misoprostol bleed มาก’) และต้อง D&amp;C เพิ่มบางราย; (5) D&amp;C ไม่ได้เพิ่ม ‘วันนอนโรงพยาบาล’ เมื่อเทียบ misoprostol (มักทำแบบผู้ป่วยนอก/ 1 วัน). ตามคีย์ของ YUZU เลือกข้อ B (ผู้จดทั้งสองเขียนเหตุผล ‘local effect’ ที่ข้อ B)",
+  "wrong": {
+   "A": "A. ‘D&amp;C immediately to prevent coagulopathy’ ผิด: coagulopathy/ DIC เกิดเมื่อค้างนานหลายสัปดาห์ (≥4 สัปดาห์ และพบมากหลัง 20 สัปดาห์) ไม่ใช่ที่ 8 สัปดาห์ — ที่ผู้จดทั้งสองขีดฆ่าคำ ‘immediately’/ ‘coagulopathy’; จะถูกถ้าเป็น missed abortion ที่ค้างหลายสัปดาห์ร่วมกับ fibrinogen ต่ำ",
+   "C": "C. ‘D&amp;C has a better chance of normal pregnancy than misoprostol’ ผิด: อัตราการตั้งครรภ์ครั้งต่อไปไม่ต่างกัน (ACOG PB 200; Cochrane ตรงกัน); D&amp;C มีความเสี่ยงระยะยาวเรื่อง Asherman, cervical incompetence/ preterm birth (ver.2 จด ‘D&amp;C risk เกิด preterm, Asherman (Cx incom)’) — จะถูกถ้าข้อมูลบอกว่า D&amp;C ‘ไม่ทำให้’ ภาวะมีบุตรยากเพิ่ม",
+   "D": "D. ‘Misoprostol for cervical ripening before D&amp;C decreases overall complications’ — misoprostol priming ลด cervical laceration/ แรงขยาย/ เวลาผ่าตัดในรายเสี่ยง แต่หลักฐานว่า ‘ลดภาวะแทรกซ้อนโดยรวม’ ไม่ชัดเจน (ผู้จดทั้งสองขีดฆ่า; ver.2 จด ‘ถ้า miso แล้วก็ใช้ยาทำแท้ง ไม่ต้อง Sx D&amp;C อีก’) — ตามหลักฐาน ข้อนี้อาจถูกในบางบริบท จึงเป็นตัวเลือกที่แข่งกับ B",
+   "E": "E. ‘D&amp;C associates with more days of hospitalization compared to misoprostol’ ผิด: D&amp;C/ suction มักทำเป็นหัตถการวันเดียว; misoprostol อาจเลือดออกนาน/ ต้องกลับมาติดตามมากกว่า (ver.2 จด ‘misu bleed มาก’)"
+  },
+  "summary": [
+   "Early pregnancy failure/ missed abortion: ไม่มี FHB (CRL ≥7 มม. หรือ mean sac diameter ≥25 มม. ไม่มี embryo ตาม ACOG PB 200 / SRU criteria)",
+   "ทางเลือก: expectant (รอได้ถึง ~2–4 สัปดาห์), medical (misoprostol 800 mcg PV ± mifepristone 200 mg PO), surgical (suction/ D&amp;C/ MVA)",
+   "Misoprostol: อัตราสำเร็จ ~70–85% (PV 800 mcg), ถ้าไม่สำเร็จใน 3 วัน ซ้ำได้อีกหรือ D&amp;C; ผลข้างเคียง: ปวดท้อง เลือดออกนานกว่า คลื่นไส้ ท้องเสีย มีไข้/ หนาวสั่น (ขึ้นกับขนาด/ ทาง)",
+   "Surgical: สำเร็จสูง เสร็จเร็ว; เสี่ยง uterine perforation, cervical injury, infection, Asherman, retained POC",
+   "DIC จาก retained fetus เกิดเมื่อค้าง ≥4 สัปดาห์ (และมักไตรมาสสอง); ตรวจ fibrinogen/ platelets/ PT เมื่อค้างนาน",
+   "ภาวะเจริญพันธุ์/ การตั้งครรภ์ครั้งต่อไปไม่ต่างกันระหว่างวิธี (ACOG PB 200, 2018; Cochrane 2012 ตรงกัน)",
+   "Rh-negative: anti-D immunoglobulin (≥12 สัปดาห์ ตามแนวทาง; ก่อน 12 สัปดาห์พิจารณา)",
+   "Chula: regimen medical abortion = mifepristone + misoprostol (ดู MDCU78 RoB 41)",
+   "ดู YUZU 12.x (abortion/ misoprostol)"
+  ]
+ },
+ "YUZU||12.13": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ตำรา Williams ให้รักษา septic abortion ด้วย antibiotic ครอบคลุมเชื้อผสมร่วมกับ uterine evacuation (ช้อย E) และตรวจไม่พบ tier 1 ที่รองรับการ 'ตั้งครรภ์ต่อ' เมื่อสงสัยติดเชื้อหลังทำแท้งนอกระบบ; ข้อนี้อาจเป็นข้อสอบที่มีปัญหา คงคีย์ B ตามที่ผู้จดทั้งสองเวอร์ชันเลือก (ทารก viable ไม่มี sepsis)",
+  "opinion": "ทั้งสองเวอร์ชันวง B ตรงกัน จึงคงคีย์ B แต่ tier 1 (Williams: antibiotic + evacuation สำหรับ septic abortion) ไม่รองรับการตั้งครรภ์ต่อโดยตรง — ความมั่นใจปานกลาง-ต่ำ; ถ้าข้อสอบจริงให้ข้อมูล os เปิด / มีเนื้อเยื่อค้าง / มดลูกกดเจ็บมาก / sepsis ให้เลือก ATB + evacuation (E)"
+ },
+ "MDCU78|RoB|12": {
+  "why": "PPCM ที่ <b>LVEF ฟื้นกลับเป็นปกติ</b> ยังมีความเสี่ยงกลับเป็นซ้ำในครรภ์ถัดไป (ต่ำกว่ากลุ่มที่ LV ไม่ฟื้นมาก) — การจัดกลุ่ม modified WHO (mWHO) ซึ่ง ACOG PB 212 (2019) ใช้ จัด PPCM ที่ LV ฟื้นสมบูรณ์เป็นความเสี่ยงระดับ <b>II–III ขึ้นไป</b> (ESC 2018 ซึ่งเป็น tier 3 จัดเป็น \"previous PPCM without any residual impairment of LV function\" = <b>mWHO class III</b>) = ความเสี่ยงเพิ่มอย่างมีนัยสำคัญ <b>ตั้งครรภ์ได้</b>หลังให้คำปรึกษาโดยทีม pregnancy heart team และต้อง<b>ติดตามใกล้ชิดตลอดการตั้งครรภ์และหลังคลอด</b> (cardiology + MFM, echo ซ้ำเป็นระยะ, BNP); ส่วน PPCM ที่<b>ยังมี LV impairment หลงเหลือ</b> = mWHO IV → แนะนำไม่ให้ตั้งครรภ์",
+  "summary": [
+   "PPCM: HF จาก LV systolic dysfunction (LVEF มักต่ำกว่า 45%) เกิดช่วงท้ายของการตั้งครรภ์หรือในหลายเดือนหลังคลอด โดยไม่มีสาเหตุอื่น",
+   "Risk: อายุมาก, multiparity, African ancestry, preeclampsia/hypertension, multifetal pregnancy, tocolytic นาน",
+   "รักษา: HF therapy (diuretic, beta-blocker; hydralazine + nitrate ขณะตั้งครรภ์; ACEi/ARB/ARNI/MRA หลังคลอด — ACEi บางตัวใช้ได้ขณะให้นม), anticoagulation ถ้า EF ต่ำมาก, พิจารณา <b>bromocriptine</b> (ยับยั้ง prolactin ที่ถูกตัดเป็น 16-kDa fragment ที่เป็นพิษต่อหัวใจ)",
+   "ครรภ์ถัดไป: LV ฟื้นปกติ → mWHO II–III ขึ้นไป (ระดับแน่ชัดตาม ESC 2018 ซึ่งเป็น tier 3) ตั้งครรภ์ได้แต่ติดตามใกล้ชิด; residual LV dysfunction → mWHO IV ไม่แนะนำให้ตั้งครรภ์",
+   "mWHO IV อื่น ๆ: PAH, severe systemic ventricular dysfunction (EF &lt;30% หรือ NYHA III–IV), severe mitral stenosis, symptomatic severe AS, aorta dilatation (Marfan &gt;45 mm), Fontan with complication",
+   "ส่วนใหญ่คลอดทางช่องคลอดได้ ร่วมกับ epidural ช่วยลด sympathetic stress และใช้ assisted second stage ตามความเหมาะสม"
+  ]
+ },
+ "YUZU||24.1": {
+  "summary": [
+   "การเปลี่ยนแปลงทางสรีรวิทยา: plasma volume เพิ่ม 40–50% (สูงสุด 28–32 สัปดาห์), CO เพิ่ม 30–50% (สูงสุดทันทีหลังคลอด), SVR ลด, HR เพิ่ม 10–20 bpm",
+   "ช่วงเสี่ยง decompensation: 28–32 สัปดาห์, ระหว่างคลอด, และทันทีจนถึง 72 ชม. หลังคลอด (autotransfusion + fluid mobilization)",
+   "โรคลิ้นหัวใจ: lesion แบบตีบ (MS, AS) ทนยากกว่าแบบรั่ว (MR, AR); MR ทนได้ดีจนกว่ามี LV dysfunction/AF/pulmonary HTN — ดู mWHO class (ACOG PB 212, 2019)",
+   "อาการสำคัญของ HF: orthopnea, PND, rales, ไอเรื้อรัง/มีเลือดปน, ชีพจร &gt;100, RR &gt;25, JVD, S3, edema ใหม่",
+   "การรักษา HF หลังคลอด: นั่งศีรษะสูง, O2, furosemide 20–40 mg IV, จำกัดน้ำ, ควบคุม rate/rhythm, หลีกเลี่ยง methylergonovine (ทำให้ vasoconstriction/HT); ให้ oxytocin แบบ infusion ช้า ไม่ bolus",
+   "ดูแลผู้ป่วยโรคหัวใจตอนคลอด: ให้คลอดทางช่องคลอดเป็นหลัก ผ่าตัดคลอดตามข้อบ่งชี้สูติกรรม, ลดระยะ 2 ของการคลอด, ให้ยาชาไขสันหลังอย่างระวัง",
+   "Endocarditis prophylaxis ไม่แนะนำเป็นประจำในการคลอด (ACOG 2019) ยกเว้นกลุ่มเสี่ยงสูงสุด",
+   "ดู YUZU 24.2 และ 24.3 (HF ในครรภ์)"
+  ]
+ },
+ "YUZU||24.2": {
+  "why": "อาการที่ปรากฏ (functional class เปลี่ยนเป็น NYHA III–IV, tachycardia, JVD, ความดันต่ำ) คือ <b>acute decompensated heart failure</b> ซึ่งเป็นภาวะฉุกเฉิน — ต้อง <b>stabilize ก่อน</b>: นั่งศีรษะสูง, ให้ O2, monitor ECG/SpO2, <b>ยาขับปัสสาวะ (furosemide 20–80 mg IV)</b>, ควบคุม arrhythmia/ rate, จำกัดน้ำ, รับไว้โรงพยาบาลนาน (ผู้จดทั้ง 2 คนจด 'prolonged hospitalization'). หลังอาการคงที่จึงให้ข้อมูลความเสี่ยง (inform risk) และพิจารณาการยุติการตั้งครรภ์ถ้า class III–IV หรือเสี่ยงสูงมาก (mWHO IV: การตั้งครรภ์ต่อมีอัตราตายของมารดาสูงมาก ACOG PB 212 (2019) และ ESC 2018 (tier 3) แนะนำให้ปรึกษาเรื่องยุติการตั้งครรภ์) — ถ้าผู้ป่วยเลือกเก็บเด็ก ต้องรักษาอาการ + counseling (ตามที่ ver.2 สรุป) ดังนั้น Diuretics = ทำเป็นอย่างแรก, Termination = ทำต่อจากนั้น (ตาม ver.1). การยุติการตั้งครรภ์ในขณะที่ผู้ป่วย unstable เองก็เสี่ยงสูง จึงไม่ใช่ขั้นแรก",
+  "summary": [
+   "NYHA class: I ไม่มีอาการ, II อาการเมื่อออกแรงมาก, III อาการเมื่อออกแรงเล็กน้อย, IV อาการขณะพัก — การเปลี่ยนเป็น III–IV ในครรภ์คือสัญญาณอันตราย",
+   "mWHO classification (ACOG PB 212, 2019): class IV (severe MS, pulmonary HTN, EF &lt;30% หรือ NYHA III–IV, Marfan aorta &gt;45 mm ฯลฯ) = ห้ามตั้งครรภ์/ถ้าตั้งครรภ์ให้ปรึกษาเรื่องยุติ",
+   "การรักษา HF เฉียบพลันในครรภ์: นั่งศีรษะสูง, O2, furosemide IV (ขนาดสไลด์ ver.2: 40–80 mg), ECG/oximetry monitoring, ถ้าจำเป็น digoxin/β-blocker/DC cardioversion (ปลอดภัยในครรภ์)",
+   "ยาที่ห้าม/เลี่ยง: ACEI/ARB/ARNI (teratogen ไตรมาส 2–3), warfarin ไตรมาสแรก (embryopathy), amiodarone (ไทรอยด์ทารก) — ให้ LMWH/UFH เมื่อต้อง anticoagulate",
+   "แนวทางเมื่อ class เปลี่ยนเป็น III–IV (ตามกรอบ ver.1): 1) พิจารณายุติการตั้งครรภ์ 2) ถ้าเก็บเด็ก ต้อง inform risk และให้นอนโรงพยาบาลนาน",
+   "ดูแลโดยทีม cardio-obstetrics: ตรวจ echo, BNP, plan คลอด (ทางช่องคลอดเป็นหลัก), ติดตามหลังคลอด 24–72 ชม.",
+   "ดู MDCU78 RoC Medical disease 1 และ YUZU 24.3 (diuretics เป็นขั้นแรกใน HF จาก MS)"
+  ]
+ },
+ "YUZU||24.3": {
+  "wrong": {
+   "A": "A. Follow up weekly: ไม่เหมาะกับผู้ป่วยที่มี pulmonary edema ทางคลินิก (ver.1 จด 'ปล่อยไว้ไม่ได้ ต้อง hospitalization') — จะถูกเฉพาะ MS ที่ asymptomatic, NYHA I–II ซึ่งติดตามถี่ ๆ และให้ β-blocker ตามข้อบ่งชี้",
+   "C": "C. Emergency valvectomy: ไม่ใช่ขั้นแรก; ทางเลือกคือ PBMV (หรือ closed commissurotomy ในอดีต) เมื่อมี NYHA III–IV ทั้งที่ให้ยาเต็มที่แล้ว/pulmonary HTN — ไม่ใช่ผ่าตัดฉุกเฉินก่อนให้ยา (ver.1: 'ไม่เกี่ยว')",
+   "D": "D. Termination of pregnancy: เป็นเรื่องพิจารณาหลังรักษาเบื้องต้นและตามความต้องการของผู้ป่วยใน class III–IV/mWHO IV ไม่ใช่ initial management (ver.1: 'ทำต่อจากนั้น')",
+   "E": "E. Antibiotic prophylaxis for endocarditis: ACOG PB 212 (2019) / AHA 2007 (tier 3) ไม่แนะนำเป็นประจำในการคลอด และไม่ได้รักษา pulmonary edema ที่ผู้ป่วยกำลังเป็น — จะถูกเฉพาะผู้ที่มีข้อบ่งชี้สูงสุด (ลิ้นเทียม, เคยเป็น IE, บางชนิดของ CHD) ที่คลอด และอาจ ใช้ benzathine penicillin เพื่อป้องกัน rheumatic fever ซ้ำ ซึ่งเป็นเรื่องแยกจากข้อนี้ (ver.1 'ไม่เกี่ยว')"
+  }
+ },
+ "MDCU78|RoB|37": {
+  "wrong": {
+   "A": "ACOG PB 201 (2018) ถือ insulin เป็นยามาตรฐาน oral agents ไม่ใช่ first-line (ใช้ metformin ได้ในบางรายที่ปฏิเสธ insulin) แต่ glipizide ไม่ควรใช้ต่อ — จะพอรับได้ถ้าผู้ป่วยปฏิเสธ insulin",
+   "B": "Insulin วันละครั้ง (basal อย่างเดียว) คุม postprandial glucose ไม่ได้ และความต้องการ insulin เพิ่มมากในครรภ์",
+   "C": "Insulin pump ใช้ได้ในบางราย (มักเป็น T1DM ที่ใช้อยู่แล้ว) ไม่ใช่ขั้นแรกของการเปลี่ยนจากยากิน",
+   "E": "ห้ามหยุดรักษา hyperglycemia ในไตรมาสแรกสัมพันธ์กับ congenital anomalies และ miscarriage ต้องคุมให้ดีตั้งแต่ก่อนตั้งครรภ์"
+  },
+  "summary": [
+   "Pregestational DM เสี่ยง congenital anomalies (caudal regression, cardiac, NTD), miscarriage, preeclampsia, macrosomia, stillbirth — สัมพันธ์กับ HbA1c ช่วงปฏิสนธิ",
+   "เป้าหมาย: fasting &lt;95, 1-h PP &lt;140, 2-h PP &lt;120 mg/dL; HbA1c &lt;6% ถ้าไม่มี hypoglycemia (ตามแนวทาง ADA ซึ่งเป็น tier 3; ACOG PB 201 ใช้เป้าใกล้เคียงกัน)",
+   "Insulin เป็น preferred; NPH + regular/rapid-acting; ความต้องการเพิ่มในไตรมาส 2–3 ลดลงทันทีหลังคลอด",
+   "ตรวจ baseline: HbA1c, TSH (T1DM), creatinine + urine protein, retinal exam, ECG ถ้าเป็นนาน",
+   "Low-dose aspirin 81 mg ตั้งแต่ 12–16 wk เพื่อลด preeclampsia ใช้ต่อจนคลอด (ACOG PB 222, 2020); folic acid ก่อนตั้งครรภ์",
+   "Fetal echo ~18–22 wk, anatomy scan, growth US, antenatal testing ตั้งแต่ 32 wk"
+  ]
+ },
+ "MDCU78|RoD|Medical disease 3": {
+  "summary": [
+   "Preconception: HbA1c &lt;6.5% ถ้าทำได้โดยไม่ hypoglycemia (HbA1c สูงเพิ่ม congenital anomaly เช่น cardiac, neural tube, caudal regression), folic acid, หยุดยาที่ห้าม (ACEI/ARB, statin)",
+   "เปลี่ยนเป็น <b>insulin multiple daily injections</b> หรือ pump; ความต้องการ insulin ลดเล็กน้อยช่วงปลายไตรมาสแรก แล้วเพิ่มมากในไตรมาส 2–3",
+   "ตรวจ baseline: retinal exam, creatinine/urine albumin, TSH (T1DM), ECG ถ้ามีความเสี่ยง",
+   "Low-dose aspirin 81 mg เริ่ม 12–16 สัปดาห์เพื่อป้องกัน preeclampsia ใช้ต่อจนคลอด (ACOG PB 222, 2020)",
+   "Fetal echo ~20–22 สัปดาห์, ติดตามการเจริญเติบโต, antenatal testing ตั้งแต่ ~32 สัปดาห์",
+   "หลังคลอดความต้องการ insulin ลดลงทันที — ลดขนาดหรือกลับไปใช้ยาเดิม (metformin ใช้ได้ขณะให้นม)"
+  ]
+ },
+ "YUZU||23.3": {
+  "why": "หลักการ (ACOG PB 201, ADA 2024): <b>insulin</b> เป็นยาที่ควรใช้ในเบาหวานก่อนตั้งครรภ์ (T1DM/T2DM) เพราะไม่ผ่านรก คุมน้ำตาลได้ตามเป้า (fasting &lt;95, 1-h PP &lt;140, 2-h PP &lt;120 mg/dL; HbA1c &lt;6–6.5% ถ้าไม่เกิด hypoglycemia). ยาเม็ด (metformin, glyburide) ผ่านรกและข้อมูลความปลอดภัยระยะยาวต่อทารกไม่พอ จึงไม่ใช่ first-line; metformin อาจต่อได้เฉพาะช่วงก่อนยืนยันการตั้งครรภ์หรือใช้เสริมเมื่อ insulin สูงมาก (ตามที่ ver.2 จดว่า 'ถ้า uncontrolled ด้วย insulin ค่อย add metformin'). ผู้ที่เป็น DM อยู่แล้ว <b>ไม่ต้อง screen ด้วย 50-g GCT</b> (ใช้เฉพาะคนที่ยังไม่ทราบว่าเป็นเบาหวานที่ 24–28 สัปดาห์). การดูแลต่อเนื่อง: ตรวจ HbA1c, จอประสาทตา (retina), ไต (urine protein/Cr), TSH; หยุด ACEI/ARB/statin; เสริม folic acid; aspirin 81 mg ตั้งแต่ ~12 สัปดาห์ ใช้ต่อจนคลอด (ACOG PB 222, 2020); SMBG ≥4 ครั้ง/วัน; อาหาร 3 มื้อหลัก + 2–4 มื้อว่าง; ตรวจ anatomy/fetal echo 18–22 สัปดาห์; วางแผนคลอด 39+0–39+6 สัปดาห์ (ถ้าคุมดี)",
+  "summary": [
+   "Overt/pregestational DM: insulin เป็นยาหลักในการตั้งครรภ์ (basal-bolus หรือ split-mixed); metformin/glyburide เป็นทางเลือกรอง/เสริม",
+   "เป้า SMBG: fasting &lt;95, 1 h &lt;140, 2 h &lt;120 mg/dL; HbA1c &lt;6–6.5% (ถ้าไม่ hypoglycemia) — ผู้จดทั้ง 2 คนจดตัวเลข 95/100/140/120 และ HbA1c &lt;6%",
+   "ก่อนตั้งครรภ์: HbA1c ≤6.5% ลดแท้ง/anomaly; folic acid; หยุด ACEI/statin; ตรวจจอตา ไต หัวใจ",
+   "ในครรภ์: ตรวจจอตาแต่ละไตรมาส (หรือตามความเสี่ยง), urine protein/Cr, TSH; aspirin 81 mg ตั้งแต่ ~12 สัปดาห์ ใช้ต่อจนคลอด (ACOG PB 222, 2020); anatomy scan + fetal echo; ตรวจการเจริญเติบโตทารกไตรมาส 3",
+   "ภาวะแทรกซ้อน: DKA (ง่ายขึ้นในครรภ์ แม้ glucose ไม่สูงมาก), hypoglycemia ไตรมาสแรก (ความต้องการ insulin ลดลง), retinopathy/nephropathy ลุกลาม, preeclampsia",
+   "คลอด: 39+0–39+6 สัปดาห์ (คุมดี); 36+0–38+6 สัปดาห์ถ้าคุมไม่ดี/มี vasculopathy; พิจารณา C/S เมื่อ EFW ≥4,500 g",
+   "หลังคลอด: ลดขนาด insulin ลงทันที (ความต้องการลดลงมาก กลับใกล้ขนาดก่อนตั้งครรภ์); คุมกำเนิด; ให้นมบุตรได้ (metformin/glyburide ใช้ได้ระหว่างให้นม)",
+   "ดู MDCU78 RoB 37 และ MDCU78 RoD Medical disease 3"
+  ]
+ },
+ "YUZU||1.5b": {
+  "summary": [
+   "GDM ความเสี่ยงสูง (ตรวจตั้งแต่ ANC แรก): BMI ≥30 (บางแนวทาง ≥25 ร่วมกับปัจจัยอื่น), ประวัติ GDM/macrosomia/stillbirth, DM ในญาติสายตรง, PCOS, glycosuria, เคยมี impaired glucose tolerance",
+   "Two-step: 50 g GCT (ไม่ต้องอด) → ถ้า 1-h ≥130–140 mg/dL ตรวจ 100 g OGTT (Carpenter-Coustan: 95/180/155/140; ≥2 ค่า = GDM) หรือ One-step 75 g OGTT (เกณฑ์ IADPSG 92/180/153 — ACOG PB 190 (2018) ยอมรับเป็นทางเลือก แต่นิยม two-step; WHO เป็น tier 3)",
+   "ถ้า GCT ปกติที่ ANC แรก ให้ตรวจซ้ำที่ 24–28 สัปดาห์",
+   "ตรวจพบ DM ตั้งแต่ GA &lt;13 wk (FPG ≥126, HbA1c ≥6.5%) = overt/pregestational DM ไม่ใช่ GDM",
+   "การคัดกรอง aneuploidy: first trimester combined (NT + PAPP-A + hCG) GA 11–13+6 wk, quad/triple test GA 15–20 wk, cell-free DNA ตั้งแต่ ≥10 wk",
+   "Hb typing/DCIP/MCV: คัดกรอง thalassemia ในทุก ANC ตามโปรแกรมประเทศไทย (ดู 78 B/C เกี่ยวกับ thalassemia)",
+   "ดู YUZU 1.17 (GCT ที่ ANC แรกในหญิงเสี่ยง) และ 1.4b"
+  ]
+ },
+ "YUZU||1.17": {
+  "summary": [
+   "แบ่งกลุ่มความเสี่ยง GDM (แนวปฏิบัติไทย/ver.1): Low — อายุ &lt;25 ปี, BMI ปกติ, ไม่มี FHx DM, ไม่เคยมีประวัติผิดปกติ → ไม่จำเป็นต้องคัดกรอง; Moderate — อายุ ≥25 ปี → GCT ที่ 24–28 wk; High — obesity, FHx DM type 2/GDM (ญาติสายตรง), ประวัติ GDM/macrosomia/stillbirth → GCT ตั้งแต่ ANC แรก ถ้าปกติซ้ำที่ 24–28 wk",
+   "50 g GCT: ไม่ต้องอด; ผิดปกติถ้า ≥140 mg/dL (บางที่ใช้ ≥130 หรือ ≥135) → 100 g OGTT",
+   "100 g OGTT (Carpenter-Coustan): FPG 95, 1 h 180, 2 h 155, 3 h 140; ผิด ≥2 ค่า = GDM (NDDG: 105/190/165/145)",
+   "75 g OGTT one-step (เกณฑ์ IADPSG; ACOG PB 190 ยอมรับเป็นทางเลือก แต่นิยม two-step): 92/180/153; ผิดค่าใดค่าหนึ่ง = GDM",
+   "ถ้ามีเบาหวานตั้งแต่ก่อนท้อง/ได้ในไตรมาสแรก (FPG ≥126, HbA1c ≥6.5%, random ≥200 + อาการ) = overt DM",
+   "ผลของ GDM: macrosomia, shoulder dystocia, preeclampsia, neonatal hypoglycemia, RDS, polyhydramnios",
+   "ดู YUZU 1.5b (GCT ที่ ANC แรกในหญิงอ้วน) และ 78B อื่น ๆ เรื่อง GDM"
+  ]
+ },
+ "MDCU78|RoB|อื่นๆ 10": {
+  "why": "<b>Extracorporeal shock wave lithotripsy (ESWL/SWL) เป็นข้อห้ามในหญิงตั้งครรภ์</b> (ตำรา Williams; EAU Urolithiasis guideline ตรงกัน) เพราะคลื่นกระแทกและพลังงานอาจเป็นอันตรายต่อทารก (fetal injury, การแท้ง/คลอดก่อนกำหนด) และต้องใช้ fluoroscopy ในการหาตำแหน่งนิ่ว — นิ่วในคนท้องเริ่มด้วย <b>conservative</b> (สารน้ำ ยาแก้ปวด acetaminophen/opioid) ซึ่งส่วนใหญ่หลุดเอง; ถ้าไม่หายหรือมีข้อบ่งชี้ (ติดเชื้อ, ปวดคุมไม่ได้, ไตข้างเดียวอุดตัน, ไตวาย) ให้ <b>decompress</b> ด้วย <b>ureteral stent (double-J)</b> หรือ <b>percutaneous nephrostomy</b> (ใช้ US นำ) หรือทำ <b>ureteroscopy</b> เพื่อเอานิ่วออก (holmium laser ใช้ได้) ในศูนย์ที่ชำนาญ; stent/nephrostomy ในคนท้องต้องเปลี่ยนบ่อยกว่าปกติ (ทุก 4–6 สัปดาห์) เพราะ encrustation เร็ว"
+ },
+ "MDCU78|RoB|33": {
+  "why": "ในคนท้อง ASB <b>ต้องรักษาทุกราย</b> เพราะถ้าไม่รักษา 20–30% จะเป็น acute pyelonephritis และสัมพันธ์กับ preterm birth/LBW; การรักษาลดความเสี่ยง pyelonephritis ได้ราว 75% — ACOG Clinical Consensus (2023, Obstet Gynecol 142:435): คัดกรอง urine culture ครั้งเดียวตั้งแต่การฝากครรภ์ครั้งแรก และรักษา <b>5–7 วัน</b> ตามผลความไว; ยาที่ ACOG แนะนำเป็นลำดับแรกคือ cephalexin, fosfomycin 3 g ครั้งเดียว และ amoxicillin-clavulanate ส่วน nitrofurantoin / TMP-SMX ใช้เมื่อไม่มีทางเลือกอื่น (เลี่ยงไตรมาส 1 และใกล้คลอดถ้าเลือกได้) — ในช้อยที่ให้ไม่มียากลุ่มลำดับแรก และ <b>nitrofurantoin 100 mg BID 7 วัน</b> เป็นช้อยเดียวที่ขนาด ความถี่ และระยะเวลาถูกต้อง (amoxicillin ในช้อย A/B ขนาดหรือความถี่ไม่เหมาะ) จึงเป็นคำตอบ; ควรเพาะเชื้อซ้ำหลังรักษา (ACOG ว่าหลักฐานยังไม่พอจะยืนยันประโยชน์ แต่เป็นแนวปฏิบัติทั่วไป)",
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435) ยืนยันว่า ASB ในครรภ์ต้องรักษาทุกราย (D ผิด) แต่ยาลำดับแรกคือ cephalexin / fosfomycin / amoxicillin-clavulanate ไม่ใช่ nitrofurantoin (ใช้เมื่อไม่มีทางเลือกอื่น) — ช้อยที่ให้ไม่มียากลุ่มแรก และ amoxicillin ในช้อย A/B ขนาดหรือความถี่ไม่เหมาะ จึงคงคำตอบ C",
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจปานกลาง-สูง — nitrofurantoin ไม่ใช่ยาลำดับแรกตาม ACOG 2023 แต่เป็นช้อยเดียวที่ขนาดและระยะเวลาถูกต้อง",
+  "summary": [
+   "คัดกรอง ASB ด้วย urine culture ครั้งเดียวตั้งแต่ฝากครรภ์ครั้งแรก (ACOG Clinical Consensus 2023, Obstet Gynecol 142:435 ไม่สนับสนุนการคัดกรองซ้ำ); เกณฑ์ ≥10<sup>5</sup> CFU/mL เชื้อชนิดเดียว",
+   "เชื้อที่พบบ่อย: E. coli (~80%), Klebsiella, Proteus, GBS",
+   "ไม่รักษา → pyelonephritis 20–30%; pyelonephritis ในครรภ์อาจทำให้ sepsis, ARDS, preterm labor",
+   "ยา 5–7 วันตามผลความไว (ACOG 2023): cephalexin, amoxicillin-clavulanate, fosfomycin 3 g ครั้งเดียว; nitrofurantoin 100 mg BID / TMP-SMX ใช้เมื่อไม่มีทางเลือกอื่น (เลี่ยงไตรมาส 1 และใกล้คลอดถ้าเลือกได้); ไม่เริ่ม amoxicillin / ampicillin เป็น empiric ก่อนผลเพาะเชื้อเพราะ E. coli ดื้อสูง; ห้าม fluoroquinolone",
+   "Nitrofurantoin: เลี่ยงช่วงใกล้คลอด (≥38 wk) เพราะ hemolysis ใน G6PD deficiency ของทารก; ACOG CO 717 ให้ใช้ไตรมาส 1 ได้เมื่อไม่มียาอื่นที่เหมาะ; ในไทยระวังแม่ที่เป็น G6PD deficiency ด้วย",
+   "Test of cure: เพาะเชื้อซ้ำหลังรักษา (ACOG 2023: หลักฐานยังไม่พอจะยืนยันประโยชน์ แต่เป็นแนวปฏิบัติทั่วไป); เป็นซ้ำ ≥2 ครั้งพิจารณา suppressive therapy (nitrofurantoin 50–100 mg ก่อนนอน) จนคลอด",
+   "Pyelonephritis ในครรภ์ (ACOG 2023): เริ่มแบบผู้ป่วยใน รักษารวม 14 วัน",
+   "GBS bacteriuria ทุกระดับ = ให้ intrapartum prophylaxis โดยไม่ต้องตรวจ GBS swab ที่ 36 wk"
+  ]
+ },
+ "YUZU||22.1": {
+  "summary": [
+   "ครรภ์: estrogen ↑ TBG ราว 2 เท่า (เริ่ม ~6–8 สัปดาห์ คงที่ ~16–20 สัปดาห์) → total T4/T3 ↑ ราว 1.5 เท่า",
+   "Free T4/free T3 โดยประมาณคงที่ (free T4 อาจลดเล็กน้อยในไตรมาส 3 ตามวิธีตรวจ) และ TSH ปกติ ยกเว้นไตรมาสแรกที่ลดลงจาก hCG",
+   "ไตรมาสแรก: TSH ลดลงจากเกณฑ์ไม่ตั้งครรภ์ ราว 0.4 mIU/L ที่ขอบล่าง และขอบบนลดราว 0.5 mIU/L; ถ้าไม่มีเกณฑ์ท้องถิ่น ACOG PB 223 (2020) ให้ใช้ขอบบน ~4.0 mIU/L (ตรงกับ ATA 2017)",
+   "ควรประเมินไทรอยด์ด้วย TSH ร่วมกับ free T4 หรือถ้าใช้ total T4 ให้ใช้เกณฑ์ ~1.5 เท่าของไม่ตั้งครรภ์",
+   "ความต้องการไอโอดีนในครรภ์ ~250 mcg/วัน (WHO, tier 3) หรือเสริม ~150 mcg/วัน (ATA, tier 3) เพราะไตขับไอโอดีนเพิ่มและมีการสร้างฮอร์โมนเพิ่ม ~50%",
+   "ไม่ต้องรักษา total T4 สูงที่ free T4 และ TSH ปกติ"
+  ]
+ },
+ "YUZU||22.2": {
+  "why": "hCG มี alpha-subunit เหมือน TSH และ beta-subunit คล้ายกัน จึงกระตุ้น TSH receptor ได้ ระดับ hCG สูงสุดราว 8–11 สัปดาห์ ทำให้ <b>TSH ลดต่ำลงชั่วคราว</b> (ราว 15–20% ของหญิงตั้งครรภ์ปกติมี TSH ต่ำกว่าเกณฑ์ไม่ตั้งครรภ์ และบางรายต่ำถึง &lt;0.1) โดย free T4 ปกติหรือสูงเล็กน้อย แล้วกลับเป็นปกติเองหลัง ~14–16 สัปดาห์ เมื่อ hCG ลดลง. ผู้ป่วยรายนี้ไม่มีอาการ ไม่มี goiter ไม่มี orbitopathy และ free T4 ปกติ = TSH suppression ทางสรีรวิทยา (subclinical hyperthyroidism ทางห้องปฏิบัติการไม่ต้องรักษาในครรภ์ — ACOG PB 223 (2020) และ ATA 2017 ไม่แนะนำให้ treat เพราะไม่มีประโยชน์และยามีผลเสียต่อทารก) จึง <b>reassure และติดตามซ้ำ</b> (ตรวจ TFT ซ้ำเมื่ออายุครรภ์ ~16–20 สัปดาห์ หรือเมื่อมีอาการ)",
+  "summary": [
+   "TSH ลดลงในไตรมาสแรก (peak hCG ~8–11 สัปดาห์) และกลับปกติหลัง ~14–16 สัปดาห์",
+   "TSH ต่ำ + free T4 ปกติ + ไม่มีอาการ = ไม่ต้องรักษา ติดตาม TFT ซ้ำ ไม่ใช้ ATD",
+   "ไม่ตรวจ radioactive iodine uptake/scan ในครรภ์ (ห้าม RAI)",
+   "ถ้า TSH ต่ำและ free T4 สูงจริง ให้แยก Graves vs gestational transient thyrotoxicosis ด้วยอาการ goiter/orbitopathy, TRAb",
+   "ACOG PB 223 (2020) / ATA 2017: ไม่ treat subclinical hyperthyroidism ในครรภ์",
+   "ถ้า overt Graves ในไตรมาสแรก ใช้ PTU; ไตรมาส 2–3 เปลี่ยนเป็น methimazole"
+  ]
+ },
+ "YUZU||22.3": {
+  "why": "GTT เกิดจาก hCG ที่สูง (โดยเฉพาะ hyperemesis, ครรภ์แฝด, molar pregnancy) กระตุ้น TSH receptor ทำให้ <b>TSH ต่ำ free T4 สูง</b> ในไตรมาสแรก ประมาณ 1–3% ของการตั้งครรภ์; <b>ไม่มี goiter, ไม่มี orbitopathy, ไม่มีประวัติโรคไทรอยด์และ TRAb ลบ</b> และอาการดีขึ้นเองเมื่อ hCG ลดลง ~14–18 สัปดาห์. การรักษาคือ <b>supportive</b>: IV fluid แก้ภาวะขาดน้ำ/electrolyte, thiamine, antiemetic; ให้ beta-blocker ชั่วคราวได้ถ้าอาการใจสั่นมาก. <b>ไม่ให้ antithyroid drug</b> เพราะไม่มี hyperthyroid ที่แท้จริงและยามีผลต่อทารก (ACOG PB 223 (2020); ATA 2017). ถ้าเป็น Graves จริง: PTU ในไตรมาสแรก, methimazole ภายหลัง, ผ่าตัดไตรมาส 2 เมื่อจำเป็น และห้าม RAI ข้อควรระวังเพิ่ม: GTT ที่ไม่ใช่ hyperemesis ก็พบได้ในแฝดและ hCG สูงจาก molar pregnancy จึงควรทำอัลตราซาวนด์ยืนยันครรภ์ปกติ; ถ้า free T4 สูงมากหรืออาการไม่ดีขึ้นเกิน ~18 สัปดาห์ ต้องทบทวนว่าเป็น Graves จริงและตรวจ TRAb ซ้ำ; ภาวะ hyperemesis ที่มี TSH ต่ำมักไม่สัมพันธ์กับผลลัพธ์ครรภ์ที่ไม่ดีถ้าแก้ภาวะขาดน้ำได้ ในทางปฏิบัติ ภาวะนี้ไม่ต้องตรวจซ้ำถี่ ๆ หากอาการดีขึ้นพร้อมอาเจียนที่ลดลง และควรติดตาม TSH/free T4 ซ้ำเมื่ออายุครรภ์ราว 14–18 สัปดาห์เพื่อยืนยันว่ากลับเป็นปกติ"
+ },
+ "YUZU||22.4": {
+  "why": "Methimazole (MMI) ในช่วง organogenesis (สัปดาห์ 6–10) สัมพันธ์กับ <b>methimazole embryopathy</b>: aplasia cutis, choanal atresia, esophageal atresia, tracheoesophageal fistula, omphalocele, dysmorphic face. PTU ก็มี birth defect ได้แต่น้อยกว่า (preauricular sinus/cyst, urinary tract anomalies) จึง <b>ใช้ PTU ในไตรมาสแรก</b> ส่วนหลังจากนั้น (หลัง ~16 สัปดาห์) <b>เปลี่ยนกลับเป็น MMI</b> เพราะ PTU เสี่ยง <b>hepatotoxicity รุนแรง/ตับวาย</b> (boxed warning). อัตราส่วนยาเมื่อเปลี่ยน: MMI 1 : PTU 10–20 (MMI 20 mg ≈ PTU 200–400 mg วันละ 2–3 ครั้ง). ผู้ป่วยตั้งครรภ์ 5 สัปดาห์ ยังไม่ผ่านช่วงเสี่ยงสูงสุด จึงเปลี่ยนเป็น PTU ทันทีที่ทราบว่าตั้งครรภ์ (ตาม ACOG PB 223 (2020) ที่แนะนำ PTU ในไตรมาสแรก ซึ่งตรงกับ ATA 2017) และตรวจ free T4 ทุก 2–4 สัปดาห์ เป้าหมาย free T4 ใกล้ขอบบนของเกณฑ์ปกติ ด้วยยาขนาดต่ำสุดที่คุมได้ ข้อมูลเสริม: มารดาที่คุมโรคได้ด้วย ATD ขนาดต่ำควรตรวจ free T4/TSH ทุก 2–4 สัปดาห์ในช่วงแรก แล้วทุก 4–6 สัปดาห์เมื่อคงที่; การให้ ATD เกินขนาดทำให้ทารกเกิด hypothyroidism/fetal goiter เพราะ ATD ผ่านรก จึงใช้ขนาดต่ำสุดเสมอ และไม่ใช้ block-and-replace ในมารดา"
+ },
+ "YUZU||22.5": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): TSH 6.8 + TPOAb บวก (subclinical hypothyroidism): คีย์ D ตาม ATA 2017 (tier 3) ที่ให้ levothyroxine เมื่อ TSH สูงกว่าขอบบน ส่วน ACOG PB 223 (2020) ว่ายังไม่มีหลักฐานว่าการรักษา subclinical hypothyroidism หรือ TPOAb บวกอย่างเดียวช่วยผลลัพธ์ของการตั้งครรภ์ (ไม่ได้ห้ามรักษา) และข้อความของ Williams 26th / RTCOG ตรวจสอบโดยตรงไม่ได้; ไม่มี tier 1 ที่ขัดกับ D ชัดเจน และ A, C, E ผิดหลักการ จึงคงคำตอบ D",
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจปานกลาง — ตาม ATA 2017 (tier 3); ACOG PB 223 ว่าหลักฐานการรักษา subclinical hypothyroidism ยังไม่พอ (B observation เป็นช้อยที่ใกล้ ACOG แต่ขัดกับ ATA); A, C, E ผิดชัดเจน",
+  "why": "Subclinical hypothyroidism ในครรภ์ (TSH เกินขอบบนเฉพาะไตรมาส/ราว &gt;4.0 mIU/L เมื่อไม่มีเกณฑ์ท้องถิ่น และ free T4 ปกติ) สัมพันธ์กับ preterm birth, pregnancy loss, preeclampsia, placental abruption และอาจมีผลต่อ neurodevelopment ของทารก โดยเฉพาะเมื่อ TPOAb บวก. <b>ACOG PB 223 (2020)</b> ให้รักษา overt hypothyroidism แต่สำหรับ subclinical hypothyroidism ระบุว่ายังไม่มีหลักฐานว่าการรักษาช่วยผลลัพธ์ของการตั้งครรภ์ ส่วน <b>ATA 2017 (tier 3)</b> ให้ levothyroxine เมื่อ TSH &gt;ขอบบนของเกณฑ์ (ราว 4.0) โดยไม่ขึ้นกับ TPOAb และพิจารณาเมื่อ TPOAb บวกและ TSH &gt;2.5 ถึงขอบบน; เป้าหมาย <b>TSH ให้อยู่ในครึ่งล่างของ trimester-specific range หรือ &lt;2.5 mIU/L</b> (เป้านี้มาจาก ATA 2017 ซึ่งเป็น tier 3). เริ่มขนาด ~1.0–1.2 mcg/kg/วัน หรือ 50 mcg/วัน แล้วตรวจ TSH ทุก 4 สัปดาห์จนถึง ~16–20 สัปดาห์ และอย่างน้อยครั้งหนึ่งช่วง ~30 สัปดาห์; หลังคลอดลดขนาดกลับเท่าก่อนตั้งครรภ์ถ้าเป็น hypothyroid ชนิดเดิม/หยุดยาถ้าเริ่มใหม่เพราะ TSH สูงเฉพาะครรภ์ ข้อควรจำเพิ่ม: ถ้า TSH 4–10 และ free T4 ปกติ แต่ TPOAb ลบ แนวทาง ATA 2017 ยังแนะนำให้พิจารณา levothyroxine (ระดับหลักฐานต่ำ) และถ้า TSH &gt;10 ให้ถือเป็น overt hypothyroidism ต้องรักษาทุกรายแม้ free T4 ปกติ; ยา levothyroxine ให้ตอนท้องว่างตอนเช้าและห่างจากแคลเซียม เหล็ก และ prenatal vitamin อย่างน้อย 4 ชั่วโมง",
+  "wrong": {
+   "A": "A. ไอโอดีนอย่างเดียวช่วยเมื่อขาดไอโอดีนจริง แต่ TSH 6.8 + TPOAb บวก = autoimmune thyroiditis (Hashimoto) ที่ต้องใช้ levothyroxine; ไอโอดีนมากเกินอาจทำให้ hypothyroid แย่ลง",
+   "B": "B. สังเกตอย่างเดียวพอเฉพาะ TSH &lt;2.5 และ TPOAb ลบ (ไม่แนะนำ treat) — เป็นจุดยืนที่ใกล้ ACOG PB 223 ซึ่งว่าหลักฐานการรักษายังไม่พอ แต่คีย์ตาม ATA 2017 เพราะผู้ป่วยนี้ TSH สูงกว่าเกณฑ์และมี antibody",
+   "C": "C. PTU เป็นยาของ hyperthyroidism จะทำให้ hypothyroid แย่ลง",
+   "E": "E. RAI ใช้กับ hyperthyroid/มะเร็ง ไม่ใช่ hypothyroid และห้ามในครรภ์/ให้นมในช่วงรับ"
+  },
+  "trap": "คิดว่า 'free T4 ปกติ = ไม่ต้องรักษา' — ใน TSH สูงเกินเกณฑ์ที่มี TPOAb ในครรภ์ ต้องรักษา (ระดับ strong evidence ต่างกันตามแนวทาง แต่ ATA 2017 แนะนำให้รักษา ขณะที่ ACOG PB 223 (2020) ว่าหลักฐานว่ารักษาแล้วช่วยยังไม่พอ)"
+ },
+ "YUZU||22.6": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ACOG PB 223 (2020) ให้พิจารณาเพิ่มขนาด levothyroxine ล่วงหน้าราว 25% เมื่อทราบว่าตั้งครรภ์ และตรวจ TSH ทุก 4–6 สัปดาห์ ส่วน ATA 2017 (tier 3) เพิ่ม 20–30% ตรวจทุก 4 สัปดาห์ — ตัวเลขใกล้เคียงกัน ช้อย B (ราว 30% ตรวจซ้ำ 4 สัปดาห์) อยู่ในช่วงที่ยอมรับและเป็นช้อยเดียวที่เหมาะ จึงคงคำตอบ",
+  "why": "ในไตรมาสแรก ทารกยังไม่มีต่อมไทรอยด์ที่ทำงาน (เริ่มสร้างฮอร์โมนราว 10–12 สัปดาห์) และต้องพึ่ง T4 มารดาเพื่อ neurodevelopment; ความต้องการ levothyroxine เพิ่มตั้งแต่ ~4–6 สัปดาห์ (จาก estrogen → TBG ↑ ดู YUZU 22.1) ถึงพีค ~16–20 สัปดาห์. ACOG PB 223 (2020): พิจารณาเพิ่มขนาดล่วงหน้าราว 25% เมื่อทราบว่าตั้งครรภ์ แล้วตรวจ TSH ทุก 4–6 สัปดาห์; ATA 2017 (tier 3) แนะนำ: <b>เมื่อทราบว่าตั้งครรภ์ ให้เพิ่มขนาดราว 20–30% ทันที</b> โดยกินเพิ่ม 2 โดสต่อสัปดาห์ (รวม 9 โดสต่อสัปดาห์) หรือทางเลือกคือเพิ่ม 25–30% แล้ว <b>ตรวจ TSH ทุก 4 สัปดาห์</b> ถึง ~16–20 สัปดาห์ และอย่างน้อยหนึ่งครั้งใกล้ ~30 สัปดาห์ เป้าหมาย TSH ใต้ ~2.5 mIU/L (ครึ่งล่างของเกณฑ์ไตรมาส); หลังคลอดลดขนาดกลับเดิม ตรวจ TSH 6 สัปดาห์. รายที่ hypothyroid จากการตัดไทรอยด์/RAI ต้องเพิ่มมากกว่ารายที่ยังมีเนื้อต่อมเหลือ ข้อควรจำเพิ่ม: ผู้ป่วยที่ทราบว่าต้องการตั้งครรภ์ ควรปรับ TSH ให้ &lt;2.5 mIU/L ตั้งแต่ก่อนตั้งครรภ์ (preconception) เพราะไตรมาสแรกพึ่งฮอร์โมนมารดา; ผู้ที่ไม่มีเนื้อต่อมไทรอยด์เหลือ (เช่น หลังตัดต่อมหรือ RAI) ต้องการยาเพิ่มมากกว่ารายที่ยังมีต่อมเหลือ จึงควรเพิ่มเร็วและมากกว่า"
+ },
+ "YUZU||22.9": {
+  "why": "Thyroid storm = thyrotoxicosis ร่วมกับ <b>ไข้สูง, tachycardia รุนแรง, อาการ CNS (agitation/ชัก/โคม่า), GI/ตับ (อาเจียน, jaundice) และหัวใจล้มเหลว</b> มักถูกกระตุ้นด้วย labor/C-section/infection/preeclampsia. Burch-Wartofsky score &ge;45 = storm. ลำดับการรักษา (ACOG PB 223 (2020) ลำดับเดียวกับ ATA; ขนาดยาด้านล่างอิง ATA ซึ่งเป็น tier 3): (1) <b>PTU</b> 500–1000 mg load แล้ว 250 mg q4h — ยับยั้ง synthesis และ peripheral T4→T3 conversion; (2) <b>หลัง ≥1 ชั่วโมง</b> ให้ iodine (SSKI/Lugol/potassium iodide) เพื่อยับยั้งการหลั่งฮอร์โมน — ถ้าให้ก่อน ATD จะเป็น substrate ให้สร้างฮอร์โมนเพิ่ม (Jod-Basedow); (3) <b>propranolol</b> 60–80 mg q4–6h (ลด HR และ T4→T3) (4) dexamethasone/hydrocortisone (ลด T4→T3 และรักษา adrenal insufficiency สัมพัทธ์) (5) supportive: cooling (acetaminophen, ไม่ใช่ aspirin), IV fluid, oxygen, ICU, หาและรักษาสิ่งกระตุ้น. ผู้ป่วยต้องรักษาทันทีโดยไม่รอผล TFT ข้อควรจำเพิ่ม: ผู้ป่วยตั้งครรภ์ที่เกิด thyroid storm มีผลต่อทารกสูง (fetal distress, preterm) จึงต้องติดตามทารก/ทำให้ทารกที่คลอดแล้วได้รับการเฝ้าระวัง neonatal thyrotoxicosis; PTU เป็นยาเลือกใน storm แม้จะมี hepatotoxicity เพราะประโยชน์ในการกด T4→T3 สำคัญกว่า และให้ทางสายยางหรือทางปากตามอาการ"
+ },
+ "MDCU78|RoC|Anemia 3": {
+  "why": "ปริมาตรพลาสมาเพิ่มเร็วกว่ามวลเม็ดเลือดแดง (physiologic hemodilution) มากที่สุดช่วงกลางการตั้งครรภ์ Hb จึงต่ำสุดในไตรมาสที่ 2 — เกณฑ์ของ <b>ACOG PB 233 (2021) / Williams (ซึ่งใช้เกณฑ์ CDC) คือ Hb &lt;10.5 g/dL ในไตรมาส 2</b> และ &lt;11 g/dL ในไตรมาส 1 และ 3; WHO 2024 (tier 3) ใช้ค่าไตรมาส 2 เท่ากัน",
+  "summary": [
+   "เกณฑ์ Hb (CDC, ACOG): ไตรมาส 1 &lt;11, ไตรมาส 2 &lt;10.5, ไตรมาส 3 &lt;11 g/dL; Hct &lt;33%, &lt;32%, &lt;33%",
+   "หญิงไม่ตั้งครรภ์: Hb &lt;12 g/dL",
+   "เหตุผล: plasma volume เพิ่มราว 40–50% แต่ red cell mass เพิ่มน้อยกว่า → hemodilution สูงสุดกลางการตั้งครรภ์",
+   "WHO 2024 (tier 3) ปรับเกณฑ์ตามไตรมาสเหมือน CDC; คำแนะนำ WHO เดิมใช้ &lt;11 g/dL ตลอดการตั้งครรภ์ (ANC ในไทยใช้ Hct &lt;33% เป็นเกณฑ์คัดกรองบ่อย)",
+   "ซีดรุนแรงตาม WHO: Hb &lt;7 g/dL",
+   "ดู 78C Anemia 2 สำหรับการรักษา"
+  ]
+ },
+ "YUZU||21.1": {
+  "why": "นิยามภาวะซีดในการตั้งครรภ์ตาม ACOG (PB 233, 2021) / CDC (1989) / RTCOG (WHO ให้ค่าเดียวกัน): <b>Hb &lt;11 g/dL (Hct &lt;33%) ในไตรมาสที่ 1 และ 3</b> และ <b>Hb &lt;10.5 g/dL (Hct &lt;32%) ในไตรมาสที่ 2</b> เพราะในไตรมาสที่ 2 พลาสมาเพิ่มมากกว่ามวลเม็ดเลือดแดง (plasma volume ↑ 40–50% เทียบกับ RBC mass ↑ 20–30%) เกิด hemodilution (physiologic anemia) ต่ำสุดราว 28–36 สัปดาห์ ค่า 11 g/dL ที่ไตรมาสที่ 3 จึงเป็นเกณฑ์ (ver.1 จด: Female 12 (ไม่ตั้งครรภ์); Pregnancy: 1st and 3rd trimester 11; 2nd trimester 10.5 — ถูกต้อง). ระดับความรุนแรงตาม WHO (tier 3): mild 10–10.9, moderate 7–9.9, severe &lt;7 g/dL. ความสำคัญเชิงปฏิบัติ: ในประเทศไทยซีดในหญิงตั้งครรภ์ส่วนใหญ่เกิดจากการขาดธาตุเหล็กและ/หรือโรคธาลัสซีเมีย/Hb E (พาหะรวมกันพบได้บ่อยมากในประชากรไทย) จึงควรตรวจ MCV/ OF/ DCIP ตั้งแต่ ANC ครั้งแรกเพื่อคัดกรองคู่เสี่ยง; ค่า Hb ที่ต่ำกว่าเกณฑ์ในไตรมาสที่ 3 สัมพันธ์กับการคลอดก่อนกำหนด ทารกน้ำหนักน้อย และความเสี่ยงต้องรับเลือดหลังคลอด ดังนั้นควรตรวจ CBC ซ้ำช่วง 28–32 สัปดาห์เพื่อแก้ไขก่อนคลอด",
+  "summary": [
+   "นิยามซีดในการตั้งครรภ์: Hb &lt;11 g/dL ไตรมาส 1 และ 3; &lt;10.5 g/dL ไตรมาส 2 (Hct &lt;33% และ &lt;32%)",
+   "สตรีไม่ตั้งครรภ์: Hb &lt;12 g/dL",
+   "ความรุนแรง (WHO, tier 3): mild 10–10.9, moderate 7–9.9, severe &lt;7 g/dL",
+   "สาเหตุที่พบบ่อยในไทย: iron deficiency และ thalassemia/ Hb E trait; อื่น ๆ: folate/B12 deficiency, ภาวะเรื้อรัง, hemoglobinopathy",
+   "Physiologic hemodilution: plasma ↑ 40–50%, RBC mass ↑ 20–30%; Hb ต่ำสุดที่ ~28–36 สัปดาห์",
+   "ควรตรวจ CBC ในการ ANC ครั้งแรก, ~24–28 สัปดาห์ และพิจารณาซ้ำก่อนคลอด",
+   "ซีดรุนแรงเพิ่มความเสี่ยงคลอดก่อนกำหนด ทารกน้ำหนักน้อย PPH และต้องรับเลือด",
+   "ดู MDCU78 RoC Anemia 3 (cut-off ไตรมาสที่ 2 = 10.5 g/dL) และ MDCU78 RoC Anemia 2"
+  ]
+ },
+ "MDCU78|RoD|Anemia 3": {
+  "summary": [
+   "Anemia in pregnancy (ACOG PB 233, 2021 / CDC): Hb &lt;11 g/dL ไตรมาส 1 และ 3, &lt;10.5 g/dL ไตรมาส 2",
+   "Microcytic (MCV &lt;80 fL): DDx IDA, thalassemia trait/HbE, anemia of chronic disease — ตรวจ ferritin + Hb typing (HPLC/electrophoresis)",
+   "ไทย: พาหะธาลัสซีเมียและ HbE พบรวมราว 30–40% ของประชากร — คัดกรองหญิงตั้งครรภ์ทุกรายตั้งแต่ ANC ครั้งแรกด้วย MCV/OF + DCIP",
+   "คัดกรองบวก → ตรวจสามีโดยเร็ว → ถ้าทั้งคู่บวก → Hb typing/PCR ทั้งคู่ → คู่เสี่ยง (Hb Bart's, β-thal major, HbE/β-thal) → prenatal diagnosis: CVS 10–13, amniocentesis 16–18, cordocentesis 18–20 สัปดาห์",
+   "IDA: ferritin &lt;30 ng/mL → elemental iron 60–120 mg/วัน, ติดตาม Hb ขึ้น ~1 g/dL ใน 2–4 สัปดาห์",
+   "Routine supplement ในไทย: ยาเม็ดรวม iron + folic + iodine ทุกราย"
+  ]
+ },
+ "YUZU||21.3": {
+  "summary": [
+   "Physiologic anemia: พลาสมาเพิ่มมากกว่าเม็ดเลือดแดง → Hb ลดได้ถึง ~10.5 g/dL ในไตรมาส 2 โดย MCV ปกติ",
+   "MCV: &lt;80 microcytic (iron deficiency, thalassemia), 80–100 normocytic (physiologic, ภาวะเรื้อรัง, เสียเลือด), &gt;100 macrocytic (folate/B12)",
+   "IDA: MCV ↓, RDW ↑, ferritin ↓, TIBC ↑, transferrin sat ↓; thal trait: MCV ↓↓, RDW ปกติ, RBC count ↑ (Mentzer index MCV/RBC &lt;13)",
+   "WBC ในการตั้งครรภ์สูงขึ้นได้ถึง ~15,000 (ปกติ); platelet ลดเล็กน้อย (gestational thrombocytopenia)",
+   "ให้ธาตุเหล็กป้องกัน: WHO (tier 3) แนะนำ elemental iron 30–60 มก./วัน + folic acid 400 µg/วัน",
+   "ตรวจ ferritin เมื่อสงสัย iron deficiency (cutoff &lt;30 ng/mL)",
+   "ดู MDCU78 RoC Anemia 2 และ MDCU78 RoD Anemia 3 (แนวทางประเมินซีดในการตั้งครรภ์)"
+  ]
+ },
+ "YUZU||21.5": {
+  "why": "ตาม Williams ความต้องการธาตุเหล็ก (gross) ตลอดการตั้งครรภ์ประมาณ <b>1,000 มก.</b> ประกอบด้วย: ทารกและรก ~300 มก., การขยายมวลเม็ดเลือดแดงของมารดา ~500 มก. (มวล RBC เพิ่ม ~20–30%), การสูญเสียพื้นฐานผ่านลำไส้/ผิวหนัง/ปัสสาวะ ~200 มก., และเสียเลือดขณะคลอดเฉลี่ย ~150–250 มก. (คลอดทางช่องคลอด); ส่วนการที่ไม่มีประจำเดือนช่วยประหยัดได้ ~ 150–200 มก. ทำให้ <b>ความต้องการสุทธิ ~580 มก.</b> (ตัวเลขที่ใช้เมื่อถามสุทธิ). ความต้องการต่อวัน: ไตรมาสแรก ~0.8 มก./วัน แต่ไตรมาส 2–3 สูงขึ้นเป็น ~6–7 มก./วัน (ver.1/ver.2 จด 6 mg/day) ซึ่งอาหารอย่างเดียวให้ไม่พอ จึงต้องเสริมธาตุเหล็ก (WHO แนะนำ elemental iron 30–60 มก./วัน ซึ่งเป็น tier 3; ไทยให้ธาตุเหล็กเสริมแก่หญิงตั้งครรภ์ทุกราย). เหตุที่ต้องเสริม: ร่างกายสตรีทั่วไปมีธาตุเหล็กสะสมเฉลี่ยไม่เกิน ~300 มก. และการดูดซึมเหล็กจากอาหารเพิ่มได้เพียงบางส่วน ในไตรมาส 3 ความต้องการ ~6–7 มก./วัน จึงเกินกว่าที่อาหารให้ได้ ผู้ที่ตั้งครรภ์ถี่ ห่างกันน้อยกว่า 2 ปี ครรภ์แฝด หรือเสียเลือดมากหลังคลอดเสี่ยงขาดธาตุเหล็กมากขึ้น",
+  "summary": [
+   "ความต้องการธาตุเหล็กรวม ~1,000 มก. ตลอดการตั้งครรภ์: ทารก+รก ~300, RBC expansion ~500, losses ~200; หักประจำเดือนที่ประหยัดได้ → สุทธิ ~580 มก.",
+   "ต่อวัน: ไตรมาสแรก ~0.8 มก./วัน; ไตรมาส 2–3 ~6–7 มก./วัน (สูงสุดปลายไตรมาส 3)",
+   "ธาตุเหล็กในร่างกายก่อนตั้งครรภ์ (iron stores) &lt;300 มก. ในสตรีส่วนใหญ่ จึงเสี่ยงขาดธาตุเหล็ก",
+   "เสริมธาตุเหล็ก: WHO (tier 3) 30–60 มก. elemental iron/วัน + folic acid 400 µg; ถ้าซีดแล้ว ให้ 100–200 มก. elemental iron/วัน",
+   "Iron deficiency anemia: Hb ลดลง, MCV ↓, ferritin ↓; รักษาด้วยเหล็กปาก 1–2 สัปดาห์เพิ่ม retic; ถ้าไม่ตอบสนอง/ทนไม่ได้ให้เหล็กเข้าหลอดเลือด (เช่น iron sucrose, ferric carboxymaltose) ตั้งแต่ไตรมาส 2",
+   "ดู 21.6 และ 21.3 ใน YUZU Ch 21"
+  ]
+ }
+}
