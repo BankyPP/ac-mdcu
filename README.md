@@ -42,6 +42,14 @@ Publish: ไฟล์หน้า = out/index.html ; รูปทุกไฟล
 ## Kit สำหรับวอร์ด/บัญชีอื่น
 `kit/ac-site-kit.zip` (+ `kit/PROMPT.md`, `kit/FEATURES.md`) — โครงเว็บนี้แบบเปล่า ใช้สร้าง artifact ใน Claude บัญชีอื่น (ซิงก์บัญชี Claude ในตัว) สร้างใหม่ทุกครั้งที่แก้ฟีเจอร์
 
+## สรุป High-yield (Phase 2) — แบบแท็บ "สรุปแนวข้อสอบ" ของคลัง Prevent Med
+- ทุกวอร์ด ทุกชนิดข้อสอบ (MCQ / MEQ / OSCE เนื้อหาแยกกัน) ทั้งเว็บ MDCU และ SI · หน้า: `site/hysum.js` (ปุ่ม 📘 สรุป High-yield ในการ์ดทบทวนก่อนสอบ)
+- ข้อมูล: `<dir>/sum_<mcq|meq|osce>_<slug>.js` — 1 ไฟล์ต่อ 1 แท็กหัวข้อ (`SUMM.push({tag,title,intro,groups:[{title,sections:[{id,title,trend,asked,pattern,pearls,members}]}]})`)
+- members: MCQ `set|ro|orig` · MEQ/OSCE `set|ro|orig#k` (ข้อย่อยที่ k) — ถ้า set|ro|orig ซ้ำกันจะต่อ `@p<page>`
+- นับเฉพาะข้อใน Service round · ป้าย ≥5 rotation 🔥 ออกบ่อยมาก · 3–4 ออกบ่อย · 2 ออกซ้ำ · 1 ออก 1 rotation · ตัวเลข/rotation คำนวณตอนเปิดหน้า
+- ข้อใหม่ที่ยังไม่อยู่ในเรื่องไหน ขึ้นเองในกลุ่ม "ข้อใหม่ที่ยังไม่ได้สรุป" — **ทุกครั้งที่เพิ่มข้อสอบเก่า ให้อัปเดตไฟล์สรุปของวอร์ด/ชนิดนั้นด้วย** (ผู้ใช้สั่ง 20 ต.ค. 2026: อัปเดต real time)
+- เครื่องมือ: `node tools/sumdump.js <dir> <MCQ|MEQ|OSCE> [tag]` (ดูแท็ก / พิมพ์ข้อของแท็ก) · `node tools/sumcheck.js <dir> <type> [tag]` → ต้องได้ `bad 0` · brief สำหรับ agent: `parts/SUMMARY_HY_BRIEF.md`
+
 ## เว็บที่สอง: คลังข้อสอบเก่า SI (ศิริราช) — โค้ดชุดเดียวกัน
 - เว็บ: https://bankypp.github.io/ac-mdcu/si/ · artifact: https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx
 - build: `python3 build_site.py --inst si` → `docs/si/` · artifact: `python3 build_site.py --inst si --pack <dir>`

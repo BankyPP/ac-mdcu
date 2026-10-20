@@ -1,0 +1,60 @@
+SUMM.push({tag:"Spleen", title:"Spleen",
+  intro:"<ul><li>หัวข้อหลักคือ <b>ภาวะไม่มีม้าม / OPSI</b>: เชื้อก่อโรค, วัคซีนชนิดใด, ให้เมื่อไรเทียบกับวันผ่าตัด, การวินิจฉัย fulminant sepsis หลังตัดม้าม</li><li>กายวิภาค: <b>short gastric arteries</b> (ออกซ้ำสองรอบ), splenic artery / vein, ligaments และความสัมพันธ์กับหางตับอ่อน</li><li>ข้อบ่งชี้ splenectomy: <b>overall = trauma</b> แต่ <b>elective = ITP</b> (ตัวลวงที่ถูกใช้ซ้ำ) และ distal pancreatic cancer ต้อง <b>distal pancreatectomy + splenectomy</b></li><li>พบครั้งเดียวแต่ควรรู้: <b>splenic abscess</b> (ไข้ + LUQ pain + CT rim enhancement)</li></ul>",
+  groups:[
+    {title:"Asplenia และ OPSI", sections:[
+      {id:"opsi-vaccine", title:"วัคซีนหลังตัดม้าม: ชนิดและจังหวะเวลา",
+       trend:"ถามว่าวัคซีนใดไม่เกี่ยวกับ asplenia หรือถามเวลาให้วัคซีนใน elective splenectomy",
+       asked:["ผู้ป่วยหลัง splenectomy จาก trauma → วัคซีนใด NOT specifically indicated (ตอบ tetanus toxoid)","ITP จะทำ elective splenectomy → จัดวัคซีนอย่างไร / ให้เมื่อไร"],
+       pattern:["<b>วัคซีนที่จำเป็น</b>: pneumococcal (PCV20 หรือ PCV15 ตามด้วย PPSV23), meningococcal (MenACWY + MenB), <b>Hib</b>, และ <b>influenza ทุกปี</b>","<b>Elective</b>: ให้ <b>≥ 2 สัปดาห์ก่อนผ่าตัด</b> (ตอนยังมีม้ามช่วยสร้าง antibody ดีที่สุด)","<b>Emergency / trauma</b>: ให้ <b>≥ 14 วันหลังผ่าตัด</b> หรือก่อนกลับบ้านถ้ากลัวผู้ป่วยไม่มาตามนัด","มาตรการเสริม: ให้ความรู้ว่าไข้ = ภาวะฉุกเฉิน, standby antibiotic (amoxicillin-clavulanate), medical alert card, prophylactic penicillin ในเด็กและ 1–2 ปีแรก","Antibiotic prophylaxis อย่างเดียวหรือไม่ฉีดวัคซีนไม่ถูก"],
+       pearls:["<b>Tetanus toxoid</b> ให้ตามแผลและประวัติวัคซีน ไม่ได้ให้เพราะไม่มีม้าม จึงเป็นคำตอบของ NOT indicated","ตัวลวง \"ฉีดทันทีก่อนผ่าตัด\" หรือ \"ฉีดหลังผ่าตัด 6 เดือน\" ผิดทั้งคู่ ให้จำ 2 สัปดาห์ก่อน / 2 สัปดาห์หลัง"],
+       members:["MDCU77|RoA|41","MDCU78|RoA|Spleen 1"]},
+      {id:"opsi-organisms", title:"เชื้อก่อ OPSI",
+       trend:"ถามเชื้อที่เสี่ยงหลังตัดม้ามในรูปแบบเลือกชุดตัวเลข",
+       asked:["เลือกชุดเชื้อที่เสี่ยง overwhelming infection หลัง splenectomy (S. pneumoniae, N. meningitidis, Capnocytophaga canimorsus, H. influenzae type b เทียบกับ CMV / HPV)"],
+       pattern:["<b>Encapsulated bacteria</b>: <b>S. pneumoniae</b> (พบมากที่สุด ~50–90%), <b>N. meningitidis</b>, <b>H. influenzae type b</b>","<b>Capnocytophaga canimorsus</b> จากสุนัขกัด / เลีย ก่อ fulminant sepsis ในคนไม่มีม้าม","เชื้อในเม็ดเลือดแดง: <b>Babesia</b>, <b>Plasmodium</b> (malaria รุนแรงขึ้น)","ไวรัสที่คุมด้วย cell-mediated immunity (CMV, HPV) ไม่เพิ่มความเสี่ยงชัดเจน"],
+       pearls:["Capnocytophaga ไม่ใช่ encapsulated แบบคลาสสิก แต่ต้องอยู่ในชุดคำตอบ อย่าตัดทิ้งเพราะไม่คุ้นชื่อ","สุนัขกัดในคนไม่มีม้าม = ให้ antibiotic ทันที"],
+       members:["MDCU76|RoD|36"]},
+      {id:"opsi-dx", title:"การวินิจฉัยและรักษา OPSI",
+       trend:"ให้เคสไข้ / meningitis / ผื่นหลังตัดม้ามแล้วถามวินิจฉัย",
+       asked:["ผู้ป่วยเคยตัดม้าม มาด้วย signs of meningitis + ผื่นแดงทั่วตัว → most likely diagnosis (OPSI)"],
+       pattern:["<b>OPSI</b> = fulminant sepsis: prodrome คล้ายไข้หวัด → septic shock, DIC, purpura fulminans, meningitis, Waterhouse–Friderichsen ภายในไม่กี่ชั่วโมง; mortality ~50%","เสี่ยงตลอดชีวิตแต่สูงสุดใน <b>2 ปีแรก</b> และ <b>ในเด็ก</b>; สูงกว่าเมื่อตัดม้ามจากโรคเลือด (thalassemia, lymphoma) มากกว่าจาก trauma","รักษาทันที: <b>ceftriaxone ± vancomycin IV</b> โดยไม่รอผลเพาะเชื้อ + sepsis bundle","Peripheral smear พบ Howell–Jolly bodies"],
+       pearls:["อย่าตอบ autoimmune / drug allergy / viral exanthem / TTP: ประวัติตัดม้ามคือกุญแจ","ไข้ในผู้ไม่มีม้ามเป็น medical emergency เสมอ"],
+       members:["MDCU78|RoC|Spleen and Pancreas 2"]}
+    ]},
+    {title:"กายวิภาคและหลอดเลือดของม้าม", sections:[
+      {id:"short-gastric", title:"Short gastric arteries: ทางเชื่อมม้ามกับกระเพาะ",
+       trend:"โจทย์ซ้ำเกือบเหมือนกันสองเคส แยกด้วยคำว่า most direct",
+       asked:["หลอดเลือดใดเชื่อมกระเพาะกับม้ามโดยตรงที่สุด (most direct connection)"],
+       pattern:["<b>Short gastric arteries</b> 5–7 เส้นแยกจากปลาย splenic artery ที่ hilum วิ่งใน <b>gastrosplenic ligament</b> ไปเลี้ยง fundus และ greater curvature ส่วนบน","ต้องผูกตัดใน splenectomy และ Nissen fundoplication","<b>Splenic artery</b> (จาก celiac trunk) ให้ pancreatic branches, short gastric และ left gastroepiploic","Splenic vein thrombosis → isolated gastric varices ผ่าน short gastric veins (sinistral portal hypertension) → splenectomy"],
+       pearls:["ตัวลวง: <b>left gastroepiploic</b> ก็แยกจาก splenic artery ไปกระเพาะ แต่อ้อมกว่า; splenic artery, celiac axis, left gastric ไม่ใช่ direct link"],
+       members:["MDCU75|RoD|7","MDCU75|RoD|13"]},
+      {id:"spleen-anatomy-statements", title:"ข้อความเกี่ยวกับม้ามที่ถูกและผิด",
+       trend:"ถามแบบ which statement is correct โดยใส่ตัวลวงด้านกายวิภาค",
+       asked:["Which statement about the spleen is correct → splenectomy + distal pancreatectomy ทำบ่อยในมะเร็ง; ตัวลวง: splenic artery เป็นแหล่งเลือดเดียว, splenic vein thrombosis ทำให้ม้ามฝ่อ, avascular plane ระหว่างม้ามกับกระเพาะ, ม้ามเป็น retroperitoneal"],
+       pattern:["ม้ามเป็น <b>intraperitoneal</b> organ; หางตับอ่อนอยู่ใน splenorenal ligament ชิด splenic hilum","Blood supply: splenic artery + collateral ผ่าน short gastric และ left gastroepiploic","<b>Splenic vein thrombosis</b> → splenomegaly + isolated gastric varices (liver function ปกติ) ไม่ใช่ splenic atrophy","<b>Gastrosplenic ligament</b> มี short gastric vessels เลือดออกง่าย จึงไม่ใช่ avascular plane","ภาวะแทรกซ้อนของ splenectomy: pancreatic tail injury / fistula, subphrenic abscess, thrombocytosis, OPSI"],
+       pearls:["ถ้าจำได้ว่ามะเร็ง body / tail ตับอ่อนต้องตัดม้ามร่วม ให้เลือก splenectomy with distal pancreatectomy"],
+       members:["MDCU77|RoA|46"]}
+    ]},
+    {title:"ข้อบ่งชี้และการผ่าตัดม้าม", sections:[
+      {id:"distal-pancreatectomy", title:"Distal pancreatectomy + splenectomy ใน PDAC body / tail",
+       trend:"ถามเลือกชนิดการผ่าตัดของมะเร็งตับอ่อนส่วนปลาย",
+       asked:["Resectable adenocarcinoma ของ distal pancreas → operation ที่เหมาะสม","Splenectomy ร่วม distal pancreatectomy ในมะเร็งทำเป็นประจำหรือไม่"],
+       pattern:["PDAC body / tail resectable → <b>distal pancreatectomy + en bloc splenectomy</b> (± <b>RAMPS</b>) เพื่อเก็บ node ที่ splenic hilum (station 10) และตาม splenic artery (station 11) ให้ครบ","<b>Spleen-preserving</b> (Kimura, Warshaw) สงวนไว้สำหรับ benign / low-grade เช่น NET เล็ก, MCN, SPN","PDAC head → pancreaticoduodenectomy (Whipple); diffuse → total pancreatectomy","Adjuvant: mFOLFIRINOX หรือ gemcitabine + capecitabine ประมาณ 6 เดือน","หลังตัดม้าม: วัคซีน pneumococcal, meningococcal, Hib"],
+       pearls:["ตัวลวง spleen-preserving DP หรือ partial splenectomy: ในมะเร็งต้องตัดม้ามเพื่อ lymphadenectomy"],
+       members:["MDCU77|RoC|37","MDCU77|RoA|46"]},
+      {id:"splenectomy-indication", title:"ข้อบ่งชี้ splenectomy ที่พบบ่อยที่สุด",
+       trend:"โจทย์เดียวกันออกซ้ำ ตัวเลือกต่างกันเล็กน้อย กับดักคือ elective เทียบ overall",
+       asked:["What is the most common indication for splenectomy → trauma (ตัวลวง ITP, hypersplenism, hereditary spherocytosis, splenic cyst, lymphoma)"],
+       pattern:["<b>Overall</b> พบบ่อยที่สุด = <b>trauma</b> (blunt, penetrating และ iatrogenic ระหว่างผ่าตัดอวัยวะอื่น) ตาม Schwartz","<b>Elective</b> พบบ่อยที่สุด = <b>ITP</b>","Splenic trauma: unstable / FAST บวก → splenectomy; stable → CT grade AAST → non-operative ± angioembolization","ITP: first-line steroid ± IVIG; second-line TPO-RA, rituximab หรือ splenectomy (ตอบสนองระยะยาวราว 60–70%)","ข้อบ่งชี้อื่น: hereditary spherocytosis, AIHA ที่ดื้อยา, hypersplenism, splenic abscess / cyst / tumor, splenic artery aneurysm"],
+       pearls:["อ่านโจทย์หาคำว่า <b>elective</b>: ถ้าไม่มี คำตอบคือ trauma ไม่ใช่ ITP"],
+       members:["MDCU75|RoC|22","MDCU75|RoC|45"]}
+    ]},
+    {title:"โรคของม้าม", sections:[
+      {id:"splenic-abscess", title:"Splenic abscess",
+       trend:"ให้เคสไข้ + LUQ pain แล้วถาม imaging ที่เข้ากัน",
+       asked:["ไข้ 38.8°C + LUQ pain ร้าวไหล่ซ้าย + US hypoechoic lesion ในม้าม → ลักษณะบน contrast CT (hypodense + rim enhancement)"],
+       pattern:["<b>CT</b>: hypodense lesion + <b>rim enhancement</b> ± gas / fluid level","อาการ: ไข้, LUQ pain, ร้าวไหล่ซ้าย (Kehr sign), splenomegaly, left pleural effusion","สาเหตุ: hematogenous (infective endocarditis บ่อย, IVDU), infarct ติดเชื้อ, trauma, ลามจากอวัยวะข้างเคียง, immunocompromised","ในไทยนึกถึง <b>melioidosis</b> เมื่อพบ abscess หลายจุดในม้ามและตับ: ceftazidime หรือ meropenem แล้ว co-trimoxazole eradication 3–6 เดือน","รักษา: ATB + percutaneous drainage (unilocular); splenectomy ถ้า multilocular, multiple, ล้มเหลว หรือ rupture"],
+       pearls:["ตัวลวง: delayed enhancement, central scar (FNH), centripetal filling (hemangioma), calcified (granuloma เก่า)"],
+       members:["MDCU78|RoD|Spleen and Pancreas 3"]}
+    ]}
+  ]});
