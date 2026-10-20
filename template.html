@@ -356,7 +356,7 @@ function explain(q,done){
   h+=sec("ทำไมข้ออื่นผิด",w);
   h+=sec("ระวังกับดัก",q.trap?`<div class="box">${R(q.trap)}</div>`:"","trap");
   h+=sec("สรุปความรู้จากข้อนี้",`<ul>${q.summary.map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
-  h+=sec("สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${rich(q.notes)}</div>`:"","notes");
+  h+=sec(q.unit?"สไลด์/ลายมือใน lecture เขียนไว้ว่า":"สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${rich(q.notes)}</div>`:"","notes");
   if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg]; h+=sec("สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map(k=>`<img loading="lazy" src="${IMGS[k]}" alt="สไลด์อ้างอิงจากไฟล์เฉลย">`).join("")}</div>`);}
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
   h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");

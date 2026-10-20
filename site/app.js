@@ -815,7 +815,7 @@ function explain(q,done,R,p){
   h+=sec("ทำไมข้ออื่นผิด",w);
   h+=sec("ระวังกับดัก",q.trap?`<div class="box">${R(q.trap)}</div>`:"","trap");
   h+=sec("สรุปความรู้จากข้อนี้",`<ul>${(q.summary||[]).map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
-  h+=sec("สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${rich(q.notes)}</div>`:"","notes");
+  h+=sec(q.unit?"สไลด์/ลายมือใน lecture เขียนไว้ว่า":"สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${rich(q.notes)}</div>`:"","notes");
   if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg];h+=sec(q.unit?"สไลด์/รูปอ้างอิงจาก lecture":"สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map((k,i)=>{const im=imgHTML(k,q.unit?"สไลด์อ้างอิงจาก lecture":"สไลด์อ้างอิงจากไฟล์เฉลย",1);return q.kcap&&q.kcap[i]?`<figure class="kcap"><figcaption>${esc(q.kcap[i])}</figcaption>${im}</figure>`:im;}).join("")}</div>`);}
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
   {const rs=resFor(q);if(rs.length)h+=sec("อ่านเพิ่มจาก resource ที่แนบไว้",rs.map(r=>`<div class="resitem"><b>${esc(resLabel(r))}</b>${r.url?` · <a href="${esc(r.url)}" target="_blank" rel="noopener">เปิด</a>`:""}${resPts(r,6).length?`<ul>${resPts(r,6).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:r.note?`<p>${esc(r.note)}</p>`:""}</div>`).join(""));}
