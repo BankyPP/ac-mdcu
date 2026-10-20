@@ -10,7 +10,7 @@ const SETS={
  d79:{set:"MDCU79",ro:"RoD",file:"79DQ",kfile:"",q:"q79d_",k:"k79d_",KS:"",out:"data/data_b18.js",head:"MDCU79 RoD — 79DQ (79D_Gen_Sx_AC_Sx_MCQ_79_Ro_D_MDCU.pdf หน้า 1–13), ไม่มีไฟล์เฉลย"},
  s79c:{set:"MDCU79",ro:"RoC",file:"79CQ",kfile:"79CK",q:"qs79c_",k:"ks79c_",KS:" (คีย์ในช่องเฉลยของไฟล์โจทย์ 79C)",out:"data_subspe/data_b1.js",head:"Subspe Sx MDCU79 RoC — 79CQ (79C_Gen_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 15–26 ส่วน Subspe) + 79CK (Key 79C หน้า 10–14 ส่วน Subspe ว่าง)"}};
 const code=process.argv[2],S=SETS[code];if(!S){console.log("unknown set");process.exit(1);}
-const KS=S.KS,KI=(...n)=>n.map(i=>S.k+i),QI=n=>S.q+n;
+const KQ=" (เฉลยในช่องเฉลยของไฟล์โจทย์ AC Sx MCQ 79 Ro C)";const KS=S.KS,KI=(...n)=>n.map(i=>S.k+i),QI=n=>S.q+n;
 const base={set:S.set,ro:S.ro,file:S.file};if(S.kfile!==undefined)base.kfile=S.kfile;
 const A=o=>{const q=Object.assign({},base,{opinion:""},o);if(Array.isArray(q.wrong)){const w={};let j=0;for(let i=0;i<5;i++){if(i!==q.ans)w[LT[i]]=q.wrong[j++];}q.wrong=w;}return q;};
 const parts=fs.readdirSync(__dirname).filter(f=>f.startsWith(code+"_part")&&f.endsWith(".js")).sort((a,b)=>parseInt(a.replace(/\D/g,""))-parseInt(b.replace(/\D/g,"")));
