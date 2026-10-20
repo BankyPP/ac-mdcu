@@ -906,51 +906,6 @@ SUMM.push({
       "MDCU78|RoD|4#2",
       "MDCU78|RoD|4#3"
      ]
-    },
-    {
-     "id": "uterine-perforation",
-     "title": "สงสัย uterine perforation ระหว่าง fractional curettage (PMB 52 ปี)",
-     "trend": "ออกครั้งเดียว — twist ท้ายเคส postmenopausal bleeding ที่ถามว่าทำอะไรต่อเมื่อ curette เข้ามิดด้าม",
-     "asked": [
-      "curette เข้าได้ลึกเกินความยาวมดลูก (sound 8 cm) ชิ้นเนื้อน้อย → what would you do next? (management 6 คะแนน)"
-     ],
-     "flow": [
-      "Part ก่อนหน้า (แท็ก gyn/onco): หญิง 52 ปี เลือดออก 2 wk หมดประจำเดือนตั้งแต่ 50 ปี (DM, nulligravida, family history) → ประเมิน / investigation",
-      "Part นี้: Hct 27–28% WBC 7,000 plt 230,000 · TVS endometrium 20 mm → ทำ fractional curettage ระหว่างทำ curette เข้ามิดด้ามทั้งที่ sound 8 cm ได้เนื้อเยื่อน้อย → what would you do next?",
-      "Part ถัดไป: patho = endometrioid adenocarcinoma grade 1 (ไม่ใช่ comp)"
-     ],
-     "pattern": [
-      "<b>สงสัย uterine perforation</b> → <b>หยุดหัตถการทันที</b> ไม่ขูดต่อ ไม่ใช้ suction / cautery",
-      "ประเมิน hemodynamics: V/S, ปวดท้อง / peritonitis, เลือดออก · เปิด IV · CBC / Hct, G / M",
-      "<b>Admit สังเกต:</b> V/S q 15 นาที × 1 ชม. แล้วห่างขึ้น, ตรวจท้อง, serial Hct, ± U/S หา hemoperitoneum / broad ligament hematoma · broad-spectrum ATB · oxytocin ช่วยมดลูกหด",
-      "Stable + รอยเล็ก fundus / กลาง + เครื่องมือปลายทู่ → conservative 24–48 ชม.",
-      "<b>ผ่าตัด (laparoscopy → laparotomy) ถ้า:</b> unstable, เลือดออกต่อเนื่อง / hematoma ขยาย, สงสัยบาดเจ็บลำไส้ / omentum / bladder / หลอดเลือด (peritonitis, ใช้ suction / cautery, perforation ด้านข้าง)",
-      "ติดตามผล patho (ถ้าน้อยไป → hysteroscopy-guided biopsy ซ้ำหลังหาย) · แก้ anemia (iron; เลือดถ้าไม่คงที่) · อธิบายผู้ป่วย / ญาติ + บันทึกเวชระเบียน",
-      "เสี่ยง perforation: สูงอายุ, หลังหมดประจำเดือน (มดลูกฝ่อ), retroverted, เนื้อเปราะจากมะเร็ง, ผู้ทำไม่ชำนาญ"
-     ],
-     "kw": [
-      "สงสัย uterine perforation",
-      "หยุดหัตถการทันที",
-      "ไม่ใช้ suction / cautery",
-      "ประเมิน hemodynamics (V/S, peritonitis)",
-      "เปิด IV, CBC / Hct, G/M",
-      "admit สังเกต V/S q 15 นาที, serial Hct",
-      "broad-spectrum ATB",
-      "oxytocin",
-      "laparoscopy / laparotomy ถ้า unstable หรือสงสัยบาดเจ็บลำไส้ / หลอดเลือด",
-      "ติดตามผล patho, แก้ anemia",
-      "แจ้งผู้ป่วย / ญาติ"
-     ],
-     "ddx": [
-      "Perforation ชนิดเล็ก fundus (conservative)",
-      "Perforation ที่บาดเจ็บลำไส้ / omentum / bladder / หลอดเลือด (ต้องผ่าตัด)"
-     ],
-     "pearls": [
-      "ขูดต่อหรือส่งกลับบ้านทันทีโดยไม่สังเกต = ไม่ได้ · ต้นฉบับไม่ได้เขียนคำว่า perforation แต่ตีความตามข้อมูล curette ลึกเกิน sound"
-     ],
-     "members": [
-      "MDCU79|RoB|ข้อ 4#5"
-     ]
     }
    ]
   },
