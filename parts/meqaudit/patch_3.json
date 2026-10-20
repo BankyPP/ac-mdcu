@@ -1,0 +1,380 @@
+{
+ "short ans รวม||5": {
+  "summary": [
+   "Absolute indication (คลอดทางช่องคลอดไม่ได้หรืออันตรายมาก): complete placenta previa, absolute CPD/severe contracted pelvis, persistent transverse lie, advanced cervical cancer/obstructing mass, active genital herpes (lesion/prodrome) · เพิ่มได้: vasa previa, previous classical C/S, placenta accreta spectrum, HIV VL > 1,000 ใกล้คลอด",
+   "ไฟล์เดิมนับ eclampsia & HELLP และ fetal asphyxia/acidosis ด้วย — ตรวจตาม ACOG PB 222 (2020) / CPG 10 (2025) แล้วไม่ใช่ข้อบ่งชี้ C/S ในตัวเอง (เลือกวิธีคลอดตามข้อบ่งชี้ทางสูติศาสตร์/ความเร่งด่วน) จึงไม่นับเป็นคำตอบหลัก"
+  ]
+ },
+ "short ans รวม||5#1": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ไฟล์เดิมนับ eclampsia/HELLP และ fetal asphyxia/acidosis เป็น absolute indication — ACOG PB 222 (2020) และ Williams: hypertensive disorders รวม eclampsia/HELLP ไม่ใช่ข้อบ่งชี้ C/S ในตัวเอง (เลือกวิธีคลอดตามข้อบ่งชี้ทางสูติศาสตร์); ACOG CPG 10 (2025): Category III → expedited delivery ซึ่งอาจเป็นทางช่องคลอด (รวม operative) หรือ C/S ตามความเหมาะสม จึงไม่ใช่ absolute indication ของ C/S → ตัดสองข้อนี้ออกจากเกณฑ์ให้คะแนน (นักศึกษาที่ตอบตามไฟล์เดิมจะได้บางส่วน) · คำว่า absolute indication ไม่มีรายการมาตรฐานเดียวใน ACOG/Williams ที่ตรวจได้",
+  "ans": "เลือก 5: <b>complete (total) placenta previa</b>, <b>severe contracted pelvis / absolute CPD</b>, <b>persistent transverse lie</b>, <b>advanced cervical cancer / obstructing pelvic mass</b>, <b>active genital herpes</b> (lesion หรือ prodrome) · เพิ่มได้: vasa previa, previous classical C/S / extensive uterine surgery, placenta accreta spectrum, HIV VL &gt; 1,000 หรือไม่ทราบผลใกล้คลอด (ไฟล์เดิมนับ eclampsia/HELLP และ fetal asphyxia/acidosis ด้วย แต่ตรวจตาม ACOG แล้วไม่ถือเป็น absolute — ดู flag)",
+  "exp": "<ul><li>ไฟล์เดิมติ๊กถูก: total placenta previa, advanced CA cervix, eclampsia &amp; HELLP, fetal transverse lie, severe contracted pelvis, fetal asphyxia/acidosis</li><li><b>ตรวจตาม ACOG/Williams:</b> eclampsia/HELLP ไม่ใช่ข้อบ่งชี้ C/S ในตัวเอง (ACOG PB 222, 2020) · Category III FHR → expedited delivery ทางช่องคลอดหรือ C/S ตามความเหมาะสม (ACOG CPG 10, 2025)</li><li>ข้อบ่งชี้ C/S ที่หนักแน่น: active genital herpes (lesion/prodrome; ACOG PB 220, 2020) · HIV VL &gt; 1,000 หรือไม่ทราบ → scheduled C/S 38 wk (ACOG CO 751) · previous classical uterine incision (ACOG PB 205, 2019) · vasa previa · placenta accreta spectrum (C/S + hysterectomy)</li><li>Cord prolapse ไฟล์สงสัยว่าไม่ absolute (ถ้าปากมดลูกเปิดหมดคลอดทางช่องคลอดได้ทันที)</li></ul>",
+  "rubric": "<b>ได้</b>: ถูก 5 อย่างจากรายการที่ยอมรับ (eclampsia/HELLP และ fetal asphyxia ไม่นับ) · <b>บางส่วน</b>: 3–4 · <b>ไม่ได้</b>: ≤ 2",
+  "points": [
+   {
+    "label": "Absolute indications",
+    "any": [
+     "Complete / total placenta previa",
+     "Severe contracted pelvis / absolute CPD",
+     "Persistent transverse lie",
+     "Advanced cervical cancer / obstructing pelvic mass",
+     "Active genital herpes (lesion / prodrome)",
+     "Vasa previa",
+     "Previous classical C/S / extensive uterine surgery",
+     "Placenta accreta spectrum",
+     "HIV VL > 1,000 / ไม่ทราบผล ใกล้คลอด"
+    ],
+    "need": 5
+   }
+  ],
+  "kw": [
+   [
+    [
+     "placenta\\s*(previa|praevia)|previa\\s*totalis|(complete|total|major)\\s*previa|รกเกาะต่ำ"
+    ],
+    [
+     "contract|cpd|disproportion|pelvi"
+    ],
+    [
+     "transverse|shoulder"
+    ],
+    [
+     "cervi[cx].*(ca|cancer)|ca.*cervi|cancer of (the )?cervix|obstruct|pelvic (mass|tumou?r)"
+    ],
+    [
+     "herpes|hsv"
+    ],
+    [
+     "vasa"
+    ],
+    [
+     "classical|previous\\s*(c/?s|cesarean|caesarean|uterine surg|myomectomy)|uterine\\s*rupture"
+    ],
+    [
+     "accreta|increta|percreta"
+    ],
+    [
+     "hiv|viral\\s*load"
+    ]
+   ]
+  ]
+ },
+ "short ans รวม||6": {
+  "summary": [
+   "Bishop score ใช้ทำนายความสำเร็จของ induction of labor",
+   "5 องค์ประกอบ: dilatation, effacement, station, consistency, position",
+   "favorable: ≥ 9 (ไฟล์) = > 8 (ACOG PB 107, 2009); unfavorable: ≤ 6 (ACOG) หรือ ≤ 4 (ไฟล์) → cervical ripening ก่อน induction"
+  ]
+ },
+ "short ans รวม||6#1": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): จุดตัด unfavorable ต่างกัน — ไฟล์ (Table 26-2) ≤ 4; ACOG PB 107 (2009) นิยาม unfavorable cervix = Bishop ≤ 6 และ > 8 (= ≥ 9) โอกาสคลอดทางช่องคลอดหลัง induction ใกล้เคียง spontaneous labor → favorable ตรงกัน แต่ช่วง 5–6 ACOG ยังนับ unfavorable · ตอบ ≤ 4 หรือ ≤ 6 ให้คะแนนเท่ากัน ขอให้ระบุแหล่งที่ใช้ (จุดตัดใน Williams 26th และ ACOG CPG 9 (2025) ตรวจฉบับเต็มไม่ได้)",
+  "ans": "Score ทำนายความสำเร็จของ <b>induction of labor</b> จากการตรวจภายใน 5 อย่าง: <b>dilatation, effacement, station, consistency, position</b> (0–13 คะแนน) · favorable ≥ 9 (= &gt; 8 ตาม ACOG) · unfavorable ≤ 6 ตาม ACOG PB 107 (ไฟล์ใช้ ≤ 4) → ทำ cervical ripening ก่อน",
+  "exp": "<table><tr><th>คะแนน</th><th>Dilatation</th><th>Effacement</th><th>Station</th><th>Consistency</th><th>Position</th></tr><tr><td>0</td><td>closed</td><td>0–30%</td><td>−3</td><td>firm</td><td>posterior</td></tr><tr><td>1</td><td>1–2 cm</td><td>40–50%</td><td>−2</td><td>medium</td><td>midposition</td></tr><tr><td>2</td><td>3–4 cm</td><td>60–70%</td><td>−1, 0</td><td>soft</td><td>anterior</td></tr><tr><td>3</td><td>≥ 5 cm</td><td>≥ 80%</td><td>+1, +2</td><td>—</td><td>—</td></tr></table><p><b>ตาม ACOG PB 107 (2009):</b> Bishop &gt; 8 = โอกาสคลอดทางช่องคลอดหลัง induction ใกล้เคียง spontaneous labor (favorable) · unfavorable cervix = ≤ 6 · ไฟล์ (Table 26-2) ใช้ ≥ 9 / ≤ 4 → favorable ตรงกัน (≥ 9 = &gt; 8) แต่ช่วง 5–6 ACOG นับ unfavorable · ACOG CPG 9 (2025) แทน PB 107 เรื่อง cervical ripening (ตรวจจุดตัดในฉบับใหม่ไม่ได้)</p>",
+  "points": [
+   {
+    "label": "ใช้ predict ความสำเร็จของ induction of labor",
+    "any": [
+     "ใช้ predict ความสำเร็จของ induction of labor"
+    ],
+    "need": 1
+   },
+   {
+    "label": "องค์ประกอบ",
+    "any": [
+     "Dilatation",
+     "Effacement",
+     "Station",
+     "Consistency",
+     "Position"
+    ],
+    "need": 5
+   },
+   {
+    "label": "จุดตัด: favorable ≥ 9 (ACOG > 8) / unfavorable ≤ 6 (ACOG) หรือ ≤ 4 (ไฟล์)",
+    "any": [
+     "จุดตัด favorable / unfavorable"
+    ],
+    "need": 1
+   }
+  ],
+  "kw": [
+   [
+    [
+     "induc|predict"
+    ]
+   ],
+   [
+    [
+     "dilat"
+    ],
+    [
+     "effac"
+    ],
+    [
+     "station"
+    ],
+    [
+     "consisten"
+    ],
+    [
+     "position"
+    ]
+   ],
+   [
+    [
+     "favo"
+    ]
+   ]
+  ]
+ },
+ "short ans รวม||7.1": {
+  "summary": [
+   "Dilatation 1 cm = 1, effacement 50% = 1, station −2 = 1, soft = 2, posterior = 0 → รวม 5",
+   "5 ≤ 6 = unfavorable (ACOG PB 107) และไม่ถึง favorable ≥ 9 (ไฟล์) → cervical ripening ก่อน induction"
+  ]
+ },
+ "short ans รวม||7.1#1": {
+  "exp": "<ul><li>ACOG PB 107 (2009): unfavorable cervix = Bishop ≤ 6; favorable &gt; 8 · ไฟล์ใช้ ≥ 9 favorable / ≤ 4 unfavorable — 5 คะแนนไม่ถึง favorable ทั้งสองเกณฑ์ และเป็น unfavorable ตาม ACOG</li><li>ควรทำ cervical ripening (เช่น misoprostol, Foley catheter) ก่อน induction</li></ul>"
+ },
+ "ไฟล์ดำ||ข้อ 8": {
+  "summary": [
+   "Unbooked pregnancy = high risk: ไม่มีผล lab ANC → ส่ง rapid HIV, syphilis, HBsAg, CBC, blood group ทันที",
+   "Preeclampsia with severe features: BP ≥ 160/110 หรือ end-organ involvement",
+   "≥ 34 wk → stabilize (MgSO4 + ยาลดความดัน) แล้วให้คลอด",
+   "MgSO4 4–6 g load → 1–2 g/h ถึง 24 ชม.หลังคลอด; monitor UO, RR, DTR; antidote Ca gluconate",
+   "ยาลดความดัน: hydralazine 5–10 mg IV, labetalol 20 mg IV, nifedipine 10 mg PO; เป้า 140–150/90–100 (ACOG CO 767 / PB 222)",
+   "หลังคลอด: oxytocin (ห้าม ergot), monitor BP ≥ 72 ชม., f/u 1–2 wk"
+  ]
+ },
+ "short ans รวม||26@p6#1": {
+  "exp": "<ul><li>ACOG PB 171 (2016): ยา first-line = nifedipine (CCB), indomethacin (NSAID; &lt; 32 wk, ≤ 48 ชม.) และ β-agonist (terbutaline; ≤ 48 ชม., ระวัง pulmonary edema) · MgSO4 ไม่ได้ช่วยยืดการตั้งครรภ์ชัดเจน (ใช้เพื่อ neuroprotection &lt; 32 wk) · atosiban ใช้ในหลายประเทศแต่ไม่ได้รับอนุมัติใน US</li><li>Atosiban เป็นยาเดียวที่ต้านที่ oxytocin receptor โดยตรง ที่เหลือลด Ca²⁺ ในเซลล์ หรือลด prostaglandin</li><li>Nifedipine: ลด Ca influx · β2-agonist: ↑cAMP · MgSO4: แข่งกับ Ca (ผล tocolysis ไม่ชัด แต่ใช้ neuroprotection &lt; 32 wk) · Indomethacin: ใช้ &lt; 32 wk ≤ 48 ชม. (เสี่ยง ductus arteriosus ปิดก่อน, oligohydramnios)</li><li>เป้าหมาย tocolysis: ยืดเวลา 48 ชม. เพื่อให้ corticosteroid และส่งต่อ</li></ul>"
+ },
+ "short ans รวม||27#1": {
+  "exp": "<ul><li>ไฟล์ใช้ 4 ข้อ: Hx 2nd-trimester loss, prior cerclage, short CL by TVS, previous spontaneous PTB</li><li>ACOG PB 142 (2014) / PB 234 (2021) (CPG 12 ฉบับใหม่ที่แทน PB 142 ตรวจเนื้อหาไม่ได้): short cervix โดย<b>ไม่มี</b>ประวัติ PTB → ให้ vaginal progesterone (ไม่ใช่ cerclage); แฝดไม่ทำ cerclage จาก short cervix</li><li>ข้อห้าม: active labor, chorioamnionitis, active bleeding, PPROM, lethal fetal anomaly, fetal death</li></ul>"
+ },
+ "short ans รวม||37#1": {
+  "exp": "<ul><li>Neural tube ปิดสมบูรณ์ ~ 26–28 วันหลังปฏิสนธิ → ต้องเสริม folic acid <b>ก่อนตั้งครรภ์</b></li><li>Folic acid 0.4 mg/วัน ทั่วไป; <b>4 mg/วัน</b> ในผู้ที่เคยมีบุตร NTD (เริ่มอย่างน้อย 1 เดือนก่อนตั้งครรภ์ ต่อถึง 12 wk — ACOG PB 187, 2017)</li><li>Screening: MSAFP สูง + ultrasound</li></ul>"
+ },
+ "short ans รวม||50#1": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ค่าในไฟล์ (TAS 6,500 / TVS 1,500) เป็นค่าตำราเดิม — ACOG (Tubal Ectopic Pregnancy, 2018) ไม่กำหนดค่าเดียว: ถ้าใช้ discriminatory level ควรเป็นค่าอนุรักษ์ “สูงได้ถึง 3,500 mIU/mL” เพื่อไม่ให้ยุติ IUP ที่ต้องการ (โดยเฉพาะแฝด) และห้ามใช้ hCG อย่างเดียววินิจฉัย ectopic · ค่า TVS 1,500–2,000 ของไฟล์/ตำราเดิมกับ 3,500 ของ ACOG จึงต่างกัน (Williams 26th ตรวจไม่ได้) → รับทั้ง 1,500–2,000 และ 3,500 ว่าถูก",
+  "ans": "TAS 6,500 mIU/mL · TVS 1,500 mIU/mL (ตามไฟล์; บางแหล่ง 1,500–2,000) · ACOG 2018 แนะนำใช้ค่าอนุรักษ์สูงได้ถึง 3,500 mIU/mL ในการวินิจฉัย"
+ },
+ "short ans รวม||52#1": {
+  "exp": "<ul><li>cffDNA มาจาก placenta (trophoblast) — สัดส่วน fetal fraction ต้องเพียงพอ (~≥ 4%); มารดาอ้วนมาก fetal fraction ต่ำ → no-call</li><li>Sensitivity สำหรับ T21 > 99% แต่ยังเป็น <b>screening</b> (ACOG PB 226, 2020) — ผลบวกต้องยืนยันด้วย invasive test (CVS/amniocentesis)</li><li>False positive ได้จาก confined placental mosaicism, vanishing twin, maternal mosaicism/มะเร็ง</li></ul>"
+ },
+ "MDCU77|RoA|Long case 1": {
+  "opinion": "ไม่มีเฉลยในไฟล์ให้เทียบ — Dx hyperemesis gravidarum with dehydration (twin) มั่นใจสูง (~95%); ส่วนที่ตีความได้: 'สำคัญ 2 อย่าง' ของ PE และชุดยาแก้อาเจียน (เลือกตาม ACOG PB 189, 2018)"
+ },
+ "MDCU77|RoA|Long case 1#5": {
+  "flag": "⚠ ไฟล์โจทย์ไม่มีคำตอบ — เฉลยโดย Claude. ขนาดยาตาม ACOG PB 189 (2018) (ปรับเป็นยาที่มีในไทย)",
+  "exp": "<ul><li><b>เป้าหมาย</b>: แก้ dehydration/ electrolyte, ลด ketosis, ป้องกัน Wernicke encephalopathy, ควบคุมอาการด้วยยาเป็นขั้น, ให้โภชนาการเพียงพอ</li><li><b>Hypochloremic metabolic alkalosis</b> จากอาเจียนเสีย HCl → ให้ <b>NSS</b> (Cl<sup>−</sup> ทดแทน) + <b>K<sup>+</sup></b> (hypokalemia มักร่วมด้วย) — หลีกเลี่ยง D5W อย่างเดียว</li><li><b>Thiamine</b> ต้องให้ก่อน (หรือพร้อม) glucose เพราะ glucose load กระตุ้น Wernicke ในคนขาด thiamine (อาเจียน &gt; 3 wk หรือรุนแรง)</li><li><b>Antiemetic เป็นขั้น (ACOG PB 189, 2018)</b>: first-line pyridoxine ± doxylamine; ต่อด้วย antihistamines (dimenhydrinate, promethazine), dopamine antagonists (metoclopramide, prochlorperazine), 5-HT3 antagonist (ondansetron); steroid สำรอง (หลีกเลี่ยงก่อน 10 wk จาก oral cleft risk) — ผู้ป่วยได้ metoclopramide ที่ ER ไม่ตอบสนอง จึงเปลี่ยน route/เพิ่มยาตามขั้น</li><li><b>Nutrition</b>: ถ้าน้ำหนักลด &gt; 5% หรือรักษาไม่ได้ผลหลายวัน → enteral/parenteral</li><li><b>Twin</b>: hCG สูงกว่า singleton จึงอาการรุนแรง; ตรวจ U/S ยืนยัน chorionicity (DCDA/MCDA/MCMA) ที่ไตรมาสแรก, ติดตามเสี่ยง preterm labor/ preeclampsia/ GDM/ anemia</li><li>ไม่ใช่ข้อบ่งชี้ยุติการตั้งครรภ์ ยกเว้น refractory รุนแรงมากที่เสี่ยงชีวิต (พบน้อยมาก)</li></ul>"
+ },
+ "MDCU77|RoA|Recall 4": {
+  "interp": "ถามหลักการ intrauterine resuscitation (IUR) เมื่อ EFM Category II–III: เปลี่ยนท่า, IV fluid, ลด uterine activity, แก้ maternal hypotension, แก้ cord compression และเตรียมคลอด (O<sub>2</sub> เสริมไม่แนะนำเป็นประจำตาม ACOG CPG 10, 2025)",
+  "opinion": "ไม่มีเฉลยในไฟล์ให้เทียบ — ปรับตาม ACOG CPG 10 (2025): maternal O<sub>2</sub> ไม่แนะนำถ้าไม่มี maternal hypoxia; ข้อสอบไทยเดิมมักให้ตอบ O<sub>2</sub> 10 L/min จึงรับไว้เป็นคำตอบได้แต่ไม่บังคับ",
+  "mnemonic": "<b>PFSHC-D</b> — Position · Fluid bolus · Stop oxytocin (± terbutaline) · Hypotension fix · Cord check (PV / amnioinfusion) · Deliver ถ้าไม่ดีขึ้น",
+  "summary": [
+   "IUR (ACOG CPG 10, 2025): (1) เปลี่ยนท่าแม่ — นอนตะแคง (ลด aortocaval compression) (2) IV fluid bolus (RLS/NSS 500–1,000 mL; ระวัง overload ใน preeclampsia) (3) หยุด/ลด oxytocin–prostaglandin, ถ้า tachysystole คงอยู่ → terbutaline 0.25 mg SC (4) แก้ maternal hypotension (IV vasopressor เช่น ephedrine/phenylephrine, ลด epidural infusion) (5) ตรวจ PV หา cord prolapse/ความก้าวหน้า ± amnioinfusion ถ้า recurrent variable | fetal scalp / vibroacoustic stimulation ถ้า minimal variability | Category III ไม่ดีขึ้นหลัง IUR → expedited delivery (ช่องคลอด/operative หรือ C/S)",
+   "O<sub>2</sub> เสริม: ACOG CPG 10 (2025) ไม่แนะนำเป็นประจำถ้าแม่ไม่ hypoxic (ให้เมื่อมี maternal hypoxia); ตาราง Williams ที่ไฟล์ใช้ (Table 24-3) ยังมี O<sub>2</sub> 10 L/min — ข้อสอบเก่ารับไว้ได้แต่ไม่บังคับ"
+  ]
+ },
+ "MDCU77|RoA|Recall 4#1": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): เฉลยเดิมใช้ O<sub>2</sub> 10 L/min ทาง mask เป็นหนึ่งใน 5 หลักการ — ACOG CPG 10 (2025; Obstet Gynecol 2025;146:583, แทน PB 106/116) ไม่แนะนำ maternal O<sub>2</sub> ใน Category II/III ถ้าไม่มี maternal hypoxia (strong recommendation, high-quality evidence) · ตาราง Williams ที่ไฟล์อื่นยกมา (Table 24-3) ยังมี O<sub>2</sub> → tier 1 ไม่ตรงกัน (Williams 26th ตรวจไม่ได้) จึงรับ O<sub>2</sub> ได้แต่ไม่บังคับ และเพิ่มข้อที่ CPG 10 ระบุ: IV vasopressor เมื่อ hypotension จาก regional anesthesia",
+  "ans": "(1) เปลี่ยนท่ามารดา — นอนตะแคง (ซ้าย/ขวา) หลีกเลี่ยง supine ลด aortocaval compression (2) IV fluid bolus (isotonic crystalloid เช่น RLS/NSS 500–1,000 mL) แก้ hypovolemia/hypotension — ระวัง overload ใน preeclampsia (3) หยุดหรือลด oxytocin/prostaglandin; ถ้า uterine tachysystole คงอยู่ → tocolytic ออกฤทธิ์เร็ว (terbutaline 0.25 mg SC) (4) แก้ maternal hypotension จากสาเหตุ เช่น epidural → IV vasopressor (ephedrine/phenylephrine) ± ลด epidural infusion (5) ตรวจ PV หา cord prolapse/ความก้าวหน้า และแก้ cord compression (เปลี่ยนท่า, amnioinfusion ถ้า recurrent variable decelerations) → ถ้าไม่ดีขึ้น (Category III) เตรียมให้คลอดโดยเร็ว · <b>O<sub>2</sub> เสริม</b>: ACOG CPG 10 (2025) ไม่แนะนำเป็นประจำถ้าแม่ไม่ hypoxic — เฉลยเก่า/Williams (Table 24-3) ให้ O<sub>2</sub> 10 L/min ซึ่งรับได้แต่ไม่บังคับ",
+  "exp": "<ul><li>เป้าหมาย IUR: เพิ่ม uterine blood flow/oxygen delivery, ลด uterine activity, บรรเทา umbilical cord compression, แก้ maternal hypotension (ACOG CPG 10, 2025: เลือกมาตรการตาม pattern และสาเหตุ)</li><li>เปลี่ยนท่า: ลด aortocaval compression → เพิ่ม venous return/cardiac output (ตะแคงซ้ายหรือขวา) · IV fluid bolus crystalloid (ระวัง overload ใน preeclampsia)</li><li><b>O<sub>2</sub>:</b> ACOG CPG 10 (2025) ไม่แนะนำ maternal O<sub>2</sub> ใน Category II/III ถ้าไม่มี maternal hypoxia (meta-analysis ไม่พบว่าทำให้ umbilical artery pH ดีขึ้น) — ตาราง Williams เดิมยังระบุ O<sub>2</sub> (tier 1 ไม่ตรงกัน)</li><li>Tachysystole (&gt; 5 contractions/10 min เฉลี่ย 30 min): หยุด/ลด oxytocin–prostaglandin (เอา Cervidil ออกถ้ามี) → ถ้ายังคงอยู่และ tracing Cat II (high-risk features)/III ให้ terbutaline 0.25 mg SC (ACOG CPG 10: conditional recommendation) · ระวังในมารดาโรคหัวใจ/DM คุมไม่ดี</li><li>Variable decelerations: เปลี่ยนท่า, amnioinfusion (NSS) ใส่ผ่าน intrauterine catheter เมื่อถุงน้ำแตกแล้ว, ตรวจ PV หา cord prolapse</li><li>Maternal hypotension (หลัง epidural): IV fluid bolus, IV vasopressor (ephedrine/phenylephrine), ลด epidural infusion</li><li>Fetal scalp / vibroacoustic stimulation: ทำได้เมื่อ minimal variability (expert opinion; ACOG CPG 10 ไม่ได้ให้ recommendation เป็นทางการ)</li><li>Category III (absent variability + recurrent late/variable decel หรือ bradycardia หรือ sinusoidal) → IUR ควบคู่เตรียมคลอด; ถ้าไม่ดีขึ้นต้อง expedited delivery (ACOG CPG 10: strong recommendation)</li></ul>",
+  "rubric": "<b>ได้</b>: ถูก 5 ข้อ (เปลี่ยนท่า/ตะแคง, IV fluid, หยุด oxytocin ± tocolysis, แก้ hypotension, ตรวจ PV/amnioinfusion/เตรียมคลอด — O<sub>2</sub> รับได้แต่ไม่บังคับ) · <b>บางส่วน</b>: 3–4 ข้อ · <b>ไม่ได้</b>: ≤ 2 ข้อ หรือตอบเฉพาะการผ่าตัดคลอด",
+  "points": [
+   {
+    "label": "IUR (5 ข้อ)",
+    "any": [
+     "นอนตะแคง / เปลี่ยนท่า",
+     "IV fluid bolus",
+     "หยุด/ลด oxytocin / ให้ tocolytic ถ้า tachysystole",
+     "แก้ maternal hypotension (vasopressor / ephedrine)",
+     "ตรวจ PV หา cord prolapse / progress; amnioinfusion",
+     "ให้ O2 (ตามเฉลยเก่า — ACOG ไม่แนะนำเป็นประจำ)",
+     "กระตุ้น fetal scalp / vibroacoustic",
+     "เตรียมคลอดเร็วถ้าไม่ดีขึ้น"
+    ],
+    "need": 5
+   }
+  ],
+  "kw": [
+   [
+    [
+     "left\\s*lateral|ตะแคง|เปลี่ยนท่า|position|lateral"
+    ],
+    [
+     "iv\\s*fluid|bolus|crystalloid|rls|nss|saline|น้ำเกลือ|ให้น้ำ|hydrat"
+    ],
+    [
+     "oxytocin|stop|หยุด|tocoly|terbutaline|tachysyst"
+    ],
+    [
+     "hypotens|ephedrine|phenylephrine|vasopressor|ความดันต่ำ"
+    ],
+    [
+     "pv|vaginal exam|ตรวจภายใน|cord prolapse|amnioinfusion|progress"
+    ],
+    [
+     "oxygen|o2|ออกซิเจน|mask"
+    ],
+    [
+     "scalp|กระตุ้นศีรษะ|vibroacoustic"
+    ],
+    [
+     "deliver|คลอด|c/s|cesarean|caesarean|operative"
+    ]
+   ]
+  ]
+ },
+ "MDCU77|RoD|Recall 8": {
+  "opinion": "เห็นด้วยกับเฉลยไฟล์ในหลักการ (ท่านอนตะแคง, หยุด oxytocin, แก้ hypotension, amnioinfusion, ให้คลอดเร็ว/tocolysis) — ไม่เห็นด้วยที่ใช้ 5%DNSS/2 อัตรา 80–120 mL/hr เป็นการแก้ hypotension (ควรเป็น isotonic crystalloid bolus) และ O<sub>2</sub> 10 L/min ไม่แนะนำเป็นประจำตาม ACOG CPG 10 (2025) (ตาราง Williams เดิมยังมี O<sub>2</sub> — รับไว้ได้ไม่บังคับ) — ความมั่นใจปานกลาง-สูง",
+  "summary": [
+   "Late deceleration (uteroplacental insufficiency): นอนตะแคง (ซ้าย) · IV fluid bolus · หยุด/ลด oxytocin · แก้ maternal hypotension (จัดท่า, IV fluid, ± ephedrine/vasopressor) · ถ้าไม่ดีขึ้น → ให้คลอดเร็ว (C/S หรือ operative vaginal delivery ถ้าปากมดลูกเปิดหมด) · ± tocolysis ก่อนผ่าตัด",
+   "Severe variable deceleration (cord compression): เปลี่ยนท่า/Trendelenburg · หยุด oxytocin + ให้สารน้ำพอ · ตรวจภายในหา cord prolapse (ยก presenting part) · amnioinfusion · ถ้าไม่ดีขึ้น → ให้คลอดเร็ว · ± tocolysis",
+   "O<sub>2</sub> mask 10 L/min (เฉลยไฟล์/Williams Table 24-3): ACOG CPG 10 (2025) ไม่แนะนำเป็นประจำถ้าแม่ไม่ hypoxic — รับไว้ได้แต่ไม่บังคับ",
+   "ตาม Williams Table 24-3 (ที่ไฟล์ยก): recurrent late decel/ minimal variability → lateral position, IV fluid bolus, ลด contraction (+ O<sub>2</sub> ในตารางเดิม); prolonged decel/ bradycardia/ tachysystole → + หยุด oxytocin/prostaglandin, พิจารณา terbutaline; recurrent variable decel/ prolonged decel → + amnioinfusion; cord prolapse → ยก presenting part + เตรียมคลอดด่วน | ประเมินหาสาเหตุไปพร้อมกัน และใช้หลายวิธีพร้อมกันได้"
+  ]
+ },
+ "MDCU77|RoD|Recall 8#1": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): (1) O<sub>2</sub> 10 L/min — ACOG CPG 10 (2025) ไม่แนะนำเป็นประจำถ้าแม่ไม่ hypoxic (strong recommendation); ตาราง Williams ที่ไฟล์ยก (Table 24-3) ยังมี O<sub>2</sub> → tier 1 ไม่ตรงกัน (Williams 26th ตรวจไม่ได้) จึงรับ O<sub>2</sub> ได้แต่ไม่บังคับ (2) ไฟล์เขียนแก้ hypotension ด้วย 5%DNSS/2 drip 80–120 mL/hr ซึ่งเป็น maintenance rate ของสารละลาย hypotonic — ACOG CPG 10/Williams ใช้ IV fluid bolus ± IV vasopressor ในเฉลยของเราใช้ bolus",
+  "ans": "1) จัดท่ามารดานอนตะแคง (ซ้าย) — ลด aortocaval compression · 2) หยุด oxytocin (หรือ prostaglandin) เพื่อลดการหดรัดตัว · 3) IV fluid bolus (isotonic crystalloid NSS/RLS 500–1,000 mL) แก้ hypovolemia/hypotension · 4) แก้ maternal hypotension: จัดท่า, fluid, ± ephedrine/vasopressor ในรายที่ไม่ตอบสนอง/หลัง epidural · 5) ตามชนิด deceleration: severe variable → เปลี่ยนท่า/Trendelenburg, ตรวจภายในหา cord prolapse (ยก presenting part), amnioinfusion; tachysystole/prolonged decel → terbutaline 0.25 mg SC · 6) ถ้าไม่ดีขึ้น → ให้คลอดโดยเร็ว (C/S ถ้าปากมดลูกเปิดไม่มาก; ช่วยคลอดทางช่องคลอดถ้าเปิดหมด) ± tocolysis ก่อนผ่าตัด · (เฉลยไฟล์/Williams เดิมมี O<sub>2</sub> via mask 10 L/min — ACOG CPG 10 (2025) ไม่แนะนำเป็นประจำถ้าแม่ไม่ hypoxic)",
+  "rubric": "<b>ได้</b>: ตอบถูก 6 ข้อจาก: ท่านอนตะแคงซ้าย, IV fluid/แก้ hypotension (ephedrine), หยุด oxytocin, ตรวจภายหา cord prolapse/ยก presenting part, amnioinfusion (variable), tocolysis (terbutaline), เตรียมคลอดเร็ว, (O<sub>2</sub> mask รับได้ไม่บังคับ) · <b>บางส่วน</b>: ถูก 4–5 ข้อ · <b>ไม่ได้</b>: ถูก ≤ 3 ข้อ",
+  "points": [
+   {
+    "label": "IUR (ตอบ 6 ข้อ)",
+    "any": [
+     "ท่านอนตะแคง (ซ้าย)",
+     "IV fluid bolus / แก้ maternal hypotension (± ephedrine)",
+     "หยุด oxytocin / prostaglandin",
+     "ตรวจ PV หา cord prolapse (ยก presenting part)",
+     "Amnioinfusion (variable decel)",
+     "Tocolysis (terbutaline) ถ้า tachysystole / ก่อนผ่าตัด",
+     "เปลี่ยนท่า/Trendelenburg ตาม FHR pattern",
+     "ให้คลอดเร็วถ้าไม่ดีขึ้น (C/S / ช่วยคลอด)",
+     "Oxygen mask (ตามเฉลยเก่า — ACOG ไม่แนะนำเป็นประจำ)"
+    ],
+    "need": 6
+   }
+  ],
+  "kw": [
+   [
+    [
+     "lateral|left|ตะแคง|position|ท่า"
+    ],
+    [
+     "fluid|bolus|hypotens|ephedrine|vasopressor|นำ|ความดันต่ำ|สารน้ำ"
+    ],
+    [
+     "oxytocin|stop|discontinue|หยุด|pitocin"
+    ],
+    [
+     "cord prolapse|prolapse|สายสะดือ|presenting part|ยก|\\bpv\\b|ตรวจภายใน"
+    ],
+    [
+     "amnioinfus"
+    ],
+    [
+     "tocoly|terbutaline"
+    ],
+    [
+     "trendelenburg|เปลี่ยนท่า|knee"
+    ],
+    [
+     "deliver|cesarean|c/s|คลอด|ผ่าตัด|operative"
+    ],
+    [
+     "o2|oxygen|ออกซิเจน|mask"
+    ]
+   ]
+  ]
+ },
+ "MDCU77|RoC|3.7": {
+  "summary": [
+   "Bishop score = ระบบให้คะแนนสภาพปากมดลูกจากการตรวจภายใน เพื่อทำนายความพร้อมของปากมดลูก/โอกาสสำเร็จของการ induction of labor",
+   "5 องค์ประกอบ: dilatation, effacement, station, consistency, position of cervix",
+   "คะแนนรวม 0–13 (Bishop 1964); ตำราไทย/Bishop เดิม ≥ 8 = favorable, ≤ 5 = unfavorable → cervical ripening ก่อน · ACOG PB 107 (2009): > 8 = favorable (โอกาสคลอดทางช่องคลอดหลัง induction ใกล้เคียง spontaneous labor), unfavorable = ≤ 6",
+   "ACOG PB 107 (2009) ใช้ Bishop เดิมจุดตัด > 8 / ≤ 6 (ไม่ใช่ modified Bishop ≥ 6 = favorable ตามที่เคยเขียน); modified Bishop (Calder) เป็นอีกระบบหนึ่ง"
+  ]
+ },
+ "MDCU77|RoC|3.7#1": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): จุดตัด favorable ต่างกันตามแหล่ง — ตำราไทย/Bishop เดิม ≥ 8 (unfavorable ≤ 5); ACOG PB 107 (2009): > 8 = favorable, unfavorable = ≤ 6; ไฟล์อื่นในชุดนี้ใช้ ≥ 9 / ≤ 4 → ระบุแหล่งที่ใช้ ทุกเกณฑ์ให้คะแนนเท่ากัน · ข้อความเดิมว่า ACOG ใช้ modified Bishop ≥ 6 = favorable ไม่พบใน PB 107 (ถอนออก); ACOG CPG 9 (2025) ตรวจจุดตัดฉบับใหม่ไม่ได้ · เฉลยโดย Claude",
+  "ans": "<b>นิยาม</b>: Bishop score คือระบบคะแนนประเมินความพร้อม (favorability) ของ <b>ปากมดลูก</b> จากการตรวจภายใน ใช้ก่อน <b>induction of labor</b> เพื่อทำนายโอกาสสำเร็จของการชักนำการคลอดทางช่องคลอด · <b>5 องค์ประกอบ (แต่ละ 0–3 หรือ 0–2 คะแนน; รวม 0–13)</b>: ① <b>Dilatation</b> (closed / 1–2 / 3–4 / ≥ 5 cm = 0/1/2/3) ② <b>Effacement</b> (0–30 / 40–50 / 60–70 / ≥ 80% = 0/1/2/3) ③ <b>Station</b> (−3 / −2 / −1,0 / +1,+2 = 0/1/2/3) ④ <b>Consistency</b> (firm / medium / soft = 0/1/2) ⑤ <b>Position</b> (posterior / mid / anterior = 0/1/2) · <b>แปลผล</b>: favorable (induction สำเร็จใกล้เคียง spontaneous labor): ≥ 8 ตามตำราไทย/Bishop เดิม · &gt; 8 ตาม ACOG PB 107; unfavorable: ≤ 5 (ตำราไทย) หรือ ≤ 6 (ACOG) → ทำ cervical ripening (PGE<sub>2</sub> / misoprostol / Foley balloon) ก่อน",
+  "exp": "<ul><li><b>Bishop 1964</b> ตั้งขึ้นเพื่อทำนาย elective induction ที่ multiparous women ใกล้ term; ปัจจุบันใช้กับทุกกรณี</li><li><b>ตารางคะแนน</b>: dilatation 0 / 1–2 / 3–4 / ≥ 5 cm → 0–3 · effacement 0–30 / 40–50 / 60–70 / ≥ 80% → 0–3 · station −3 / −2 / −1,0 / +1,+2 → 0–3 · consistency firm/ medium/ soft → 0–2 · position posterior/ mid/ anterior → 0–2 · รวมสูงสุด 13</li><li><b>การแปลผล</b>: ≥ 8 (บางตำรา ≥ 9) favorable → ให้ oxytocin ได้เลย (± amniotomy); 6–7 intermediate; ≤ 5 unfavorable → ripening ก่อน · <b>ACOG PB 107 (2009):</b> &gt; 8 → โอกาสคลอดทางช่องคลอดหลัง induction ใกล้เคียง spontaneous labor, unfavorable cervix = ≤ 6</li><li>ใช้ประเมิน cervix ก่อน induction ใน PROM ครบกำหนด, post-term, preeclampsia, IUGR เป็นต้น; ข้อจำกัด: subjective, ความแปรปรวนระหว่างผู้ตรวจ</li></ul>",
+  "points": [
+   {
+    "label": "นิยาม: คะแนนประเมินความพร้อมของ cervix ด้วยการตรวจภายใน",
+    "any": [
+     "นิยาม Bishop score"
+    ],
+    "need": 1
+   },
+   {
+    "label": "ใช้ก่อน induction ทำนายโอกาสสำเร็จ / ตัดสินว่าต้อง ripening หรือไม่",
+    "any": [
+     "ใช้ก่อน induction"
+    ],
+    "need": 1
+   },
+   {
+    "label": "องค์ประกอบ 5 อย่าง",
+    "any": [
+     "Dilatation",
+     "Effacement",
+     "Station",
+     "Consistency",
+     "Position of cervix"
+    ],
+    "need": 5
+   },
+   {
+    "label": "คะแนนรวม 13 — favorable ≥ 8 (ACOG > 8), unfavorable ≤ 5 (ACOG ≤ 6) → cervical ripening",
+    "any": [
+     "คะแนนรวม / favorable / unfavorable"
+    ],
+    "need": 1
+   }
+  ],
+  "kw": [
+   [
+    [
+     "cervi|ปากมดลูก|ตรวจภายใน|score|favorab"
+    ]
+   ],
+   [
+    [
+     "induc|ชักนำ|เร่งคลอด|ripening|ทำนาย|predict|success"
+    ]
+   ],
+   [
+    [
+     "dilat|เปิด"
+    ],
+    [
+     "effac|บาง"
+    ],
+    [
+     "station|ระดับ|ส่วนนำ|head\\s*level"
+    ],
+    [
+     "consisten|นุ่ม|แข็ง|soft|firm"
+    ],
+    [
+     "position|ตำแหน่ง|anterior|posterior"
+    ]
+   ],
+   [
+    [
+     "13|≥\\s*8|8\\s*(or|หรือ|\\+)|>\\s*8|favorab|unfavorab|ripening|ripen"
+    ]
+   ]
+  ]
+ },
+ "MDCU77|RoD|Recall 9": {
+  "opinion": "เห็นด้วยกับเฉลยไฟล์ — ความมั่นใจสูงสำหรับ 5 ข้อนี้ (ตรงกับสไลด์และ ASRM; ACOG PB 200 (2018) ยืนยันชัดเฉพาะ antiphospholipid syndrome) · ความหมายของ \"5 components of blood\" ตีความว่าเป็นการตรวจทางเลือด"
+ },
+ "MDCU77|RoD|Recall 9#1": {
+  "exp": "<ul><li>เริ่มประเมินสาเหตุหลังสูญเสียการตั้งครรภ์ต่อเนื่องครั้งที่ 2 (ACOG PB 200, 2018; ESHRE/ASRM ก็ ≥ 2, RCOG เดิม ≥ 3) — G4P0 ในโจทย์ผ่านเกณฑ์ · ACOG PB 200 ระบุ antiphospholipid syndrome เป็นภาวะเดียวที่สัมพันธ์ชัดเจน; TSH/HbA1c/prolactin ในเฉลยมาจากสไลด์/ASRM (ไม่พบหัวข้อนี้ใน PB 200 ส่วนที่ตรวจได้)</li><li>สาเหตุหลัก: antiphospholipid syndrome (ตรวจพบรักษาได้ — aspirin + heparin), uterine anomaly (septate uterus ฯลฯ), parental chromosomal rearrangement (balanced translocation), endocrine (thyroid, DM, hyperprolactinemia, PCOS), ไม่ทราบสาเหตุ ~ 50%</li><li>ตรวจเสริมตามบริบท: thrombophilia (ไม่ใช่การตรวจแรกประจำ ยกเว้น ESHRE แนะนำเฉพาะ aPL), karyotype ของ products of conception</li></ul>"
+ }
+}

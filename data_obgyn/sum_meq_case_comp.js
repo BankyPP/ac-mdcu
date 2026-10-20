@@ -2,7 +2,7 @@ SUMM.push({
  "tag": "comp",
  "title": "Obstetric complications",
  "style": "case",
- "intro": "<ul><li>เคสของหมวด Obstetric complications ออกเป็นเรื่อง ๆ ซ้ำทุกปี: <b>placental abruption หลังหกล้ม 30 wk</b> (ออกเกือบทุกชุด) · <b>placenta previa</b> (G6P5 31 wk / 32 wk) · <b>preeclampsia with severe features</b> (unbooked term, 34 wk + preterm labor + breech, + abruption ใน labor, superimposed) · <b>PROM / PPROM</b> (30–35 wk) · <b>ruptured ectopic + shock</b> · <b>molar pregnancy</b> · <b>threatened → incomplete abortion</b> · hyperemesis</li><li>ลำดับคำถามมาตรฐาน: <b>ซักประวัติ + เหตุผลทุกข้อ</b> → PE + lab → <b>Dx เขียนเป็น G_P_ GA __ wk with …</b> (+ DDx / risk factors) → <b>management ทีละขั้น</b> → twist ท้ายเคส (ช็อก, cord prolapse, chorioamnionitis, ลูกดิ้นลด + NST / BPP)</li><li>Management ต้องเรียง: <b>resuscitate / admit → lab → monitor แม่ + ลูก → ยา (ชื่อ + ขนาด + route) → เกณฑ์ให้คลอด + วิธีคลอด → หลังคลอด / counselling</b> — ตัวเลขที่ต้องจำ: MgSO4 4–6 g IV แล้ว 1–2 g/h, labetalol / hydralazine / nifedipine, dexamethasone 6 mg IM q 12 h × 4, ampicillin 2 g IV</li><li>แนวทางที่อ้าง: <b>RTCOG ก่อน</b> (เช่น PROM 2567) แล้ว ACOG — ที่ไฟล์เฉลยกับแนวทางไม่ตรงกัน (ขนาด steroid, azithromycin, tocolysis ใน previa) ให้ตามที่สรุปในหน้านี้ · เฉลยของหลายชุด (77, 78, 79) ต้นฉบับไม่มีคำตอบ เป็นเฉลยที่เขียนตามแนวทาง</li></ul>",
+ "intro": "<ul><li>เคสของหมวด Obstetric complications ออกเป็นเรื่อง ๆ ซ้ำทุกปี: <b>placental abruption หลังหกล้ม 30 wk</b> (ออกเกือบทุกชุด) · <b>placenta previa</b> (G6P5 31 wk / 32 wk) · <b>preeclampsia with severe features</b> (unbooked term, 34 wk + preterm labor + breech, + abruption ใน labor, superimposed) · <b>PROM / PPROM</b> (30–35 wk) · <b>ruptured ectopic + shock</b> · <b>molar pregnancy</b> · <b>threatened → incomplete abortion</b> · hyperemesis</li><li>ลำดับคำถามมาตรฐาน: <b>ซักประวัติ + เหตุผลทุกข้อ</b> → PE + lab → <b>Dx เขียนเป็น G_P_ GA __ wk with …</b> (+ DDx / risk factors) → <b>management ทีละขั้น</b> → twist ท้ายเคส (ช็อก, cord prolapse, chorioamnionitis, ลูกดิ้นลด + NST / BPP)</li><li>Management ต้องเรียง: <b>resuscitate / admit → lab → monitor แม่ + ลูก → ยา (ชื่อ + ขนาด + route) → เกณฑ์ให้คลอด + วิธีคลอด → หลังคลอด / counselling</b> — ตัวเลขที่ต้องจำ: MgSO4 4–6 g IV ใน 20–30 นาที แล้ว 1–2 g/h, labetalol / hydralazine / nifedipine, dexamethasone 6 mg IM q 12 h × 4, ampicillin 2 g IV</li><li>ลำดับอ้างอิง (ตรวจ 20 ต.ค. 2026): <b>RTCOG · ACOG · Williams 26th</b> อยู่เหนือไฟล์เฉลยเก่า เฉลยปัจจุบัน และตำราอื่น — ถ้าสามแหล่งนี้ขัดกันให้เขียนทุกเวอร์ชันพร้อมบอกที่มา · RCOG / FIGO / NICE / UpToDate ใช้เฉพาะเรื่องที่ทั้งสามแหล่งไม่ได้พูดถึง และระบุว่าเป็นแหล่งรอง · ที่ไฟล์เฉลยกับแนวทางไม่ตรงกัน (steroid ใน PPROM 34–36+6 wk, macrolide ใน PPROM, เวลาผ่าตัด previa, aspirin, การติดตาม hCG ใน molar) ให้ตามที่สรุปในหน้านี้ · เฉลยของหลายชุด (77, 78, 79) ต้นฉบับไม่มีคำตอบ เป็นเฉลยที่เขียนตามแนวทาง</li></ul>",
  "groups": [
   {
    "title": "Antepartum hemorrhage",
@@ -42,7 +42,7 @@ SUMM.push({
       "<b>แยก 2nd-half bleeding:</b> previa = painless, เลือดแดงสด, มดลูกนุ่ม · abruption = painful, เลือดคล้ำหรือ concealed, มดลูกแข็ง · uterine rupture = ปวดท้อง + peritoneal irritation + เคยมีแผลเป็น · vasa previa = เลือดออกพร้อมถุงน้ำแตก + FHR brady / sinusoidal · local cause (cervicitis, polyp, CA cervix) · bloody show",
       "<b>V/S ปกติไม่ได้แปลว่าไม่รุนแรง</b> — concealed hemorrhage ซ่อนหลังรกได้ · U/S เห็น retroplacental clot ได้เพียงบางส่วน ไม่เห็นก็ไม่ตัดทิ้ง · วินิจฉัยทางคลินิกเป็นหลัก",
       "<b>Page classification:</b> grade 1 ไม่มีอาการ / เล็กน้อย → grade 2 ปวด มดลูกกดเจ็บ fetal distress → grade 3 shock ± coagulopathy ± fetal death",
-      "Trauma แม้เล็กน้อย (ตกบันได 2 ขั้น) ทำให้รกลอกได้ — ครรภ์ ≥ 20–24 wk หลัง trauma ต้อง EFM อย่างน้อย 4–6 ชม. (ต่อเนื่อง ≥ 24 ชม. ถ้ามี contraction บ่อย เลือดออก กดเจ็บ)",
+      "Trauma แม้เล็กน้อย (ตกบันได 2 ขั้น) ทำให้รกลอกได้ — ครรภ์ ≥ 20–24 wk หลัง trauma ต้อง EFM อย่างน้อย 4 ชม. (Williams 26th; ต่อเนื่อง ≥ 24 ชม. ถ้ามี contraction บ่อย เลือดออก กดเจ็บ)",
       "<b>▶ Risk factors (เลือก 5)</b>",
       "<b>ที่สำคัญที่สุด:</b> previous abruption (recurrence ราว 10–15%, RR สูงมาก) และ <b>hypertensive disorders</b> (chronic HT, preeclampsia)",
       "<b>Trauma</b> (ตกบันได, MVA, ถูกทำร้าย) — ต้องเขียนเสมอถ้าเคสมี trauma",
@@ -54,9 +54,9 @@ SUMM.push({
       "<b>Admit</b> ห้องคลอด, bed rest, NPO, IV 2 เส้น (RLS), Foley ดู UO, V/S ถี่",
       "<b>Lab:</b> CBC, PT / aPTT, <b>fibrinogen</b> (< 200 mg/dL ทำนาย PPH รุนแรง), D-dimer, BUN / Cr, <b>blood group + Rh</b>, G / M LPRC 2–4 u, UA",
       "<b>Monitor แม่:</b> V/S, ปริมาณเลือด, fundal height / uterine tone / กดเจ็บ, UO · <b>ลูก:</b> continuous EFM + tocodynamometer, U/S (ตำแหน่งรก, retroplacental clot, EFW, AFI, ท่า)",
-      "<b>ยา:</b> dexamethasone 6 mg IM q 12 h × 4 doses (หรือ betamethasone 12 mg IM q 24 h × 2) GA < 34 wk · MgSO4 neuroprotection ถ้าคาดว่าคลอด < 32 wk (4–6 g IV ใน 20–30 นาที แล้ว 1–2 g/h) · anti-D 300 µg IM ภายใน 72 ชม. ถ้า Rh neg · GBS prophylaxis ถ้าเข้า preterm labor (ampicillin 2 g IV แล้ว 1 g q 4 h)",
-      "<b>ไม่ให้ oxytocin · ไม่ให้ tocolytic เป็นประจำ</b> (บัง fetal distress / hemodynamic แย่ลง; ยกเว้นระยะสั้นให้ steroid ครบในรายเล็กมากที่แม่ลูก stable)",
-      "<b>Expectant ต่อเมื่อ</b> แม่ stable + ทารก reassuring + ไม่มี DIC · <b>Terminate เมื่อ</b> fetal distress, แม่ unstable / เลือดออกมากขึ้น, DIC, ทารกเสียชีวิต หรือ GA 34–36 wk (ถ้า stable ถึง 37 wk คลอด)",
+      "<b>ยา:</b> steroid single course (ACOG CO 713): betamethasone 12 mg IM q 24 h × 2 หรือ dexamethasone 6 mg IM q 12 h × 4 doses ที่ GA 24+0–33+6 wk (34+0–36+6 wk ให้ได้ถ้าเสี่ยงคลอดใน 7 วันและยังไม่เคยได้ — SMFM #58) · MgSO4 neuroprotection ถ้าคาดว่าคลอด < 32 wk (4–6 g IV ใน 20–30 นาที แล้ว 1–2 g/h) · anti-D 300 µg IM ภายใน 72 ชม. ถ้า Rh neg · GBS prophylaxis ถ้าเข้า preterm labor (ACOG CO 797: penicillin G 5 MU IV แล้ว 2.5–3 MU q 4 h เป็นตัวเลือกแรก; ampicillin 2 g IV แล้ว 1 g q 4 h ใช้ได้)",
+      "<b>ไม่ให้ oxytocin · ไม่ให้ tocolytic เป็นประจำ</b> (ACOG PB 171 (2016): tocolysis ห้ามใช้เมื่อมีเลือดออกร่วมกับ hemodynamic ไม่คงที่ หรือ fetal status ไม่ reassuring; ใน abruption ที่ stable ไม่ใช่ routine เพราะอาจบัง fetal distress / hemodynamic แย่ลง — ระยะสั้นเพื่อให้ steroid ครบพิจารณาเป็นรายกรณีเมื่อแม่ลูก stable)",
+      "<b>Expectant ต่อเมื่อ</b> แม่ stable + ทารก reassuring + ไม่มี DIC · <b>Terminate เมื่อ</b> fetal distress, แม่ unstable / เลือดออกมากขึ้น, DIC, ทารกเสียชีวิต · <b>เวลาคลอดในรายที่ stable:</b> ACOG CO 764 (2019) ระบุว่าข้อมูลยังไม่พอจะกำหนด GA ที่ควรคลอดใน abruption แบบ chronic / stable → ตัดสินเป็นรายบุคคล (ไฟล์เฉลยเดิมเขียน 34–36 wk, ถ้า stable ถึง 37 wk คลอด — ใช้เป็นแนวทางทั่วไปได้ แต่ไม่ใช่ตัวเลขของ ACOG)",
       "Preterm labor + abruption ที่ stable (cephalic, cervix 3 cm, EFM ปกติ) → ลองคลอดทางช่องคลอดด้วย EFM ต่อเนื่อง · emergency C/S ถ้า distress / unstable / DIC / ท่าผิดปกติ",
       "แจ้งกุมารแพทย์ / NICU · ส่งรก patho · เตรียม PPH + DIC",
       "<b>▶ Management เมื่อ unstable / ช็อก / ใกล้คลอด</b>",
@@ -107,7 +107,7 @@ SUMM.push({
       "ไฟล์ดำให้ ‘ไม่ให้ tocolytic’ และ ‘ห้ามรอ expectant’ ใน part นี้ — ถ้าตอบ continue expectant = ไม่ได้คะแนน",
       "Terbutaline / β-agonist หลีกเลี่ยงใน abruption (tachycardia บัง shock)",
       "เคส preeclampsia severe + abruption ใน labor → ARM แล้วคลอดทางช่องคลอด, ไม่ต้องเร่ง oxytocin เพราะ tachysystole อยู่แล้ว",
-      "เฉลยของโจทย์ที่ไม่มีคำตอบเดิม (77, 79) Claude เป็นคนเขียน — tocolysis ใน abruption stable ยังถกเถียง (ACOG: เลือกเป็นรายกรณี, RCOG: ไม่ควรใช้) ให้เขียนว่า ‘ไม่ให้เป็นประจำ’ และบอกเหตุผล",
+      "เฉลยของโจทย์ที่ไม่มีคำตอบเดิม (77, 79) Claude เป็นคนเขียน — tocolysis ใน abruption stable — ACOG PB 171 (2016) ห้ามเมื่อเลือดออกร่วมกับ hemodynamic ไม่คงที่ / fetal status ไม่ดี ส่วนรายที่ stable ไม่ใช่ routine → ให้เขียนว่า ‘ไม่ให้เป็นประจำ’ และบอกเหตุผล (ไม่อ้าง RCOG)",
       "ขนาด steroid: ไฟล์เขียน q 6 h × 48 ชม. — ขนาดมาตรฐานคือ <b>6 mg IM q 12 h × 4 doses</b> (รวม 48 ชม.)",
       "คะแนนจะได้เมื่อมี ‘เหตุผล’ ต่อท้ายทุกข้อ — ซักครบแต่ไม่มีเหตุผล = บางส่วน"
      ],
@@ -168,11 +168,11 @@ SUMM.push({
       "<b>Lab:</b> CBC (Hct), <b>blood group + Rh</b> + antibody screen, G / M LPRC 2–4 u, ± coagulogram (ถ้าสงสัย abruption / เสียเลือดมาก)",
       "<b>U/S:</b> TVS ยืนยันตำแหน่งรก + ประเมิน accreta spectrum (anterior / เคยผ่าคลอด → U/S ± MRI) + EFW, AFI, ท่า",
       "<b>Monitor:</b> V/S, ปริมาณเลือด (นับผ้า), contraction · ลูก NST / EFM แรกรับแล้วอย่างน้อยวันละครั้ง",
-      "<b>ยา:</b> dexamethasone 6 mg IM q 12 h × 4 doses (GA < 34 wk) · anti-D 300 µg IM ถ้า Rh neg · MgSO4 neuroprotection ถ้าต้องคลอด < 32 wk · แก้ซีด (iron) · <b>tocolytic ไม่ใช่ routine</b> — nifedipine 10 mg PO q 15 min × 3 แล้ว q 6 h ระยะสั้นเฉพาะเมื่อ <b>มี contraction</b> + แม่ stable + ไม่สงสัย abruption (ห้าม β-agonist บัง hypovolemia)",
+      "<b>ยา:</b> antenatal steroid single course (ACOG CO 713): dexamethasone 6 mg IM q 12 h × 4 doses หรือ betamethasone 12 mg IM q 24 h × 2 ที่ GA < 34 wk (34+0–36+6 wk ถ้าเสี่ยงคลอดใน 7 วัน — SMFM #58) · anti-D 300 µg IM ถ้า Rh neg · MgSO4 neuroprotection ถ้าต้องคลอด < 32 wk · แก้ซีด (iron) · <b>tocolytic ไม่ใช่ routine</b> (ACOG PB 171: ห้ามเมื่อเลือดออกร่วมกับ hemodynamic ไม่คงที่ / fetal status ไม่ดี) — ระยะสั้นเฉพาะเมื่อ <b>มี contraction</b> + แม่ stable + ไม่สงสัย abruption เช่น nifedipine ตามไฟล์ 10 mg PO q 15 min × 3 แล้ว q 6 h (ขนาดตาม ACOG PB 171 ต่างจากไฟล์ — ยังไม่ได้ตรวจยืนยันตัวเลข) (ห้าม β-agonist บัง hypovolemia)",
       "<b>Discharge ได้เมื่อ</b> เลือดหยุด (มักเฝ้า ≥ 48 ชม.), ไม่มี contraction, แม่ลูกดี, อยู่ใกล้ รพ. + มีผู้ดูแล → pelvic rest, กลับทันทีถ้าเลือดออก / เจ็บครรภ์ / น้ำเดิน / ลูกดิ้นลด",
-      "<b>แผนคลอด:</b> previa ที่รกคลุม / ใกล้ os = <b>C/S เสมอ</b> (ห้าม induction) · elective C/S ที่ <b>36+0–37+6 wk</b> (ACOG; ไฟล์เฉลย 37 wk) · สงสัย accreta 34+0–35+6 wk ที่ศูนย์พร้อม · เลือดออกมาก / FHR ผิดปกติ / เจ็บครรภ์ → emergency C/S",
+      "<b>แผนคลอด:</b> previa ที่รกคลุม / ใกล้ os = <b>C/S เสมอ</b> (ห้าม induction) · elective C/S ที่ <b>36+0–37+6 wk</b> (ACOG CO 764 (2019); ไฟล์เฉลยเดิม 37 wk) · สงสัย accreta 34+0–35+6 wk ที่ศูนย์พร้อม (ACOG CO 764 / OCC 7 (2018)) · เลือดออกมาก / FHR ผิดปกติ / เจ็บครรภ์ → emergency C/S",
       "Counsel accreta / PPH / อาจต้อง hysterectomy · เตรียมเลือด, oxytocin, carboprost, TXA 1 g, balloon / B-Lynch · เสนอทำหมันพร้อมผ่าตัดถ้าครรภ์ที่ 6 ลูก 5 คน (ต้อง consent) · เลือก uterine incision เลี่ยงรก",
-      "ขอบรกห่าง os ≥ 2 cm คลอดทางช่องคลอดได้ (< 1 cm แนะนำ C/S, 1–2 cm พิจารณารายบุคคล)"
+      "ขอบรกห่าง os ≥ 2 cm คลอดทางช่องคลอดได้ (< 1 cm แนะนำ C/S, 1–2 cm พิจารณารายบุคคล) — เกณฑ์ระยะนี้เป็นแนวทางทั่วไป ยังไม่ได้ตรวจยืนยันข้อความของ ACOG / Williams"
      ],
      "kw": [
       "G6P5 GA 31 wk with antepartum hemorrhage",
@@ -248,14 +248,14 @@ SUMM.push({
       "<b>▶ Management ตั้งแต่ admit ถึงหลังคลอด</b>",
       "<b>Admit ห้องคลอด</b> · NPO / clear liquid · IV access · นอนตะแคงซ้าย · Foley + strict I/O (UO ≥ 30 mL/h) · <b>จำกัดน้ำ</b> IV NSS ~ 80 mL/h · ฟังปอด (pulmonary edema) · เฝ้าอาการ impending eclampsia (ปวดศีรษะ ตามัว จุกลิ้นปี่) · V/S + BP q 15–30 นาที",
       "<b>Lab:</b> CBC + platelet (± smear), AST / ALT, LDH, BUN / Cr, uric acid, UPCR หรือ 24-h urine protein, PT / aPTT / fibrinogen (r/o DIC / HELLP), blood group + G / M · ถ้ายังไม่ฝากครรภ์: HIV, VDRL, HBsAg, Hb typing ที่ยังไม่ได้ทำ",
-      "<b>MgSO4 ป้องกันชัก:</b> loading 4–6 g IV ใน 15–20 นาที (ไฟล์ใช้ 5 g) → maintenance 1–2 g/h จนถึง <b>24 ชม.หลังคลอด</b> (Pritchard: 4 g IV + 10 g IM แล้ว 5 g IM q 4 h) · monitor DTR, RR ≥ 12, UO ≥ 30 mL/h, SpO2 · พิษ: DTR หาย (8–10 mEq/L) → RR ลด → cardiac arrest · <b>antidote 10% calcium gluconate 10 mL (1 g) IV ช้า ๆ</b>",
-      "<b>ยาลดความดัน</b> เมื่อ BP ≥ 160/110 ต่อเนื่อง ≥ 15 นาที — ให้ภายใน 30–60 นาที: <b>labetalol</b> 20 mg IV → 40 → 80 mg q 10 min (max 300 mg; ห้าม asthma / HF / bradycardia) หรือ <b>hydralazine</b> 5–10 mg IV q 20 min หรือ <b>nifedipine IR</b> 10–20 mg PO q 20 min · เป้า <b>140–150 / 90–100</b> (ลดเร็วเกิน MAP > 25% เสี่ยง placental hypoperfusion)",
+      "<b>MgSO4 ป้องกันชัก:</b> loading 4–6 g IV ใน 20–30 นาที (ACOG; ไฟล์ใช้ 5 g) → maintenance 1–2 g/h จนถึง <b>24 ชม.หลังคลอด</b> (Pritchard: 4 g IV + 10 g IM แล้ว 5 g IM q 4 h) · monitor DTR, RR ≥ 12, UO ≥ 30 mL/h, SpO2 · พิษ: DTR หาย (8–10 mEq/L) → RR ลด → cardiac arrest · <b>antidote 10% calcium gluconate 10 mL (1 g) IV ช้า ๆ</b>",
+      "<b>ยาลดความดัน</b> เมื่อ BP ≥ 160/110 ต่อเนื่อง ≥ 15 นาที — ให้ภายใน 30–60 นาที: <b>labetalol</b> 20 mg IV → 40 → 80 mg q 10 min (max 300 mg; ห้าม asthma / HF / bradycardia) หรือ <b>hydralazine</b> 5–10 mg IV q 20 min หรือ <b>nifedipine IR</b> 10–20 mg PO q 20 min · เป้า <b>140–150 / 90–100</b> (ACOG CO 767 / PB 222; ลดเร็วเกิน MAP > 25% เสี่ยง placental hypoperfusion)",
       "<b>ลูก:</b> continuous EFM · U/S (EFW, AFI, presentation, placenta) · ปรึกษากุมารแพทย์ · วิสัญญี (epidural / spinal ได้ถ้า platelet ≥ 70,000–80,000 และ coag ปกติ)",
-      "<b>เวลาคลอด:</b> GA ≥ 34 wk → <b>stabilize แล้วคลอด</b> (ไม่ expectant, ไม่รอ steroid) · < 34 wk รอได้เฉพาะแม่ stable + ลูกดี + ศูนย์พร้อม + ให้ steroid · คลอดทันทีถ้า BP คุมไม่ได้, eclampsia, pulmonary edema, abruption, DIC, HELLP, Cr ขึ้น, fetal distress",
+      "<b>เวลาคลอด:</b> GA ≥ 34 wk → <b>stabilize แล้วคลอด</b> (ACOG PB 222 (2020); ไม่ expectant, ไม่รอ steroid) · < 34 wk รอได้เฉพาะแม่ stable + ลูกดี + ศูนย์พร้อม + ให้ steroid · คลอดทันทีถ้า BP คุมไม่ได้, eclampsia, pulmonary edema, abruption, DIC, HELLP, Cr ขึ้น, fetal distress",
       "<b>วิธีคลอด:</b> preeclampsia ไม่ใช่ข้อบ่งชี้ C/S ในตัวเอง → พยายามทางช่องคลอด (ARM, oxytocin augmentation / ripening ได้แม้ cervix unfavorable, ช่วยคลอดระยะที่ 2 ด้วย forceps ลดการเบ่ง) · C/S เมื่อมี obstetric indication / fetal distress / ไม่ก้าวหน้า / แม่ unstable — เคส breech preterm + cervix 2 cm → C/S (ECV ห้าม)",
-      "<b>ไม่ให้ tocolytic</b> (severe preeclampsia เป็นข้อห้าม) ในรายเจ็บครรภ์ preterm · nifedipine ที่ให้คือเพื่อคุม BP",
-      "<b>หลังคลอด:</b> oxytocin 20 U ใน 1,000 mL ป้องกัน PPH (<b>ห้าม methylergonovine</b> — BP ขึ้น; ถ้า atony ใช้ misoprostol / carboprost) · MgSO4 ต่อ 24 ชม. (เสี่ยง atony เพิ่ม) · วัด BP ≥ 72 ชม. (peak วันที่ 3–6) · antihypertensive ต่อถ้า ≥ 150/100 (nifedipine retard, labetalol, enalapril — ให้นมได้) · ระวัง postpartum eclampsia / pulmonary edema / HELLP / AKI · นัด f/u 1–2 wk",
-      "<b>Counsel:</b> เสี่ยงซ้ำ ~ 15–25% · ครรภ์หน้า aspirin 81–150 mg เริ่มก่อน 16 wk ถึง 36 wk · เสี่ยง CVD / HT / ไตระยะยาว · คุมกำเนิด progestin-only / IUD (เลี่ยง combined ถ้า BP ยังสูง) · ให้นมได้"
+      "<b>ไม่ให้ tocolytic</b> (severe preeclampsia เป็นข้อห้าม — ACOG PB 171) ในรายเจ็บครรภ์ preterm · nifedipine ที่ให้คือเพื่อคุม BP",
+      "<b>หลังคลอด:</b> oxytocin 20 U ใน 1,000 mL ป้องกัน PPH (<b>ห้าม methylergonovine</b> — BP ขึ้น; ถ้า atony ใช้ misoprostol / carboprost) · MgSO4 ต่อ 24 ชม. (เสี่ยง atony เพิ่ม) · ติดตาม BP ใน รพ. ≥ 72 ชม. (peak วันที่ 3–6) · นัดวัด BP ภายใน 72 ชม. หลังออก รพ. ถ้า severe hypertension / ภายใน 7–10 วันถ้าไม่ severe (ACOG CO 736) · antihypertensive ต่อถ้า ≥ 150/100 (ACOG PB 222) (nifedipine retard, labetalol, enalapril — ให้นมได้) · ระวัง postpartum eclampsia / pulmonary edema / HELLP / AKI · นัด f/u 1–2 wk",
+      "<b>Counsel:</b> เสี่ยงซ้ำ ~ 15–25% · ครรภ์หน้า aspirin 81 mg เริ่ม 12–28 wk (ดีที่สุดก่อน 16 wk) ต่อจนคลอด (ACOG PB 222 / CO 743; การหยุดที่ 36 wk เป็นของ FIGO = แหล่งรอง) · เสี่ยง CVD / HT / ไตระยะยาว · คุมกำเนิด progestin-only / IUD (เลี่ยง combined ถ้า BP ยังสูง) · ให้นมได้"
      ],
      "kw": [
       "preeclampsia with severe features",
@@ -268,7 +268,7 @@ SUMM.push({
       "Foley + strict I/O (UO ≥ 30 mL/h)",
       "จำกัดน้ำ ~ 80 mL/h",
       "CBC platelet / AST ALT / LDH / Cr / uric acid / UPCR / coag",
-      "MgSO4 4–6 g IV in 15–20 min then 1–2 g/h",
+      "MgSO4 4–6 g IV in 20–30 min then 1–2 g/h",
       "24 ชม.หลังคลอด",
       "monitor DTR / RR / UO",
       "antidote calcium gluconate 1 g IV",
@@ -323,10 +323,10 @@ SUMM.push({
       "<b>▶ Management</b>",
       "Admit ห้องคลอด, NPO / clear liquid, IV access, นอนตะแคงซ้าย, Foley + strict I/O, ฟังปอด, V/S + BP ซ้ำ, <b>continuous EFM</b>",
       "<b>Lab:</b> CBC + platelet, PT / aPTT / <b>fibrinogen</b> (r/o DIC), AST / ALT, LDH, BUN / Cr, uric acid, UPCR · G / M LPRC 2–4 u (± FFP ตามผล coag)",
-      "<b>MgSO4 ป้องกันชัก:</b> loading 4–6 g IV ใน 15–20 นาที (ไฟล์ใช้ 5 g) → maintenance 1–2 g/h จนถึง <b>24 ชม.หลังคลอด</b> (Pritchard: 4 g IV + 10 g IM แล้ว 5 g IM q 4 h) · monitor DTR, RR ≥ 12, UO ≥ 30 mL/h, SpO2 · พิษ: DTR หาย (8–10 mEq/L) → RR ลด → cardiac arrest · <b>antidote 10% calcium gluconate 10 mL (1 g) IV ช้า ๆ</b>",
-      "<b>ยาลดความดัน</b> เมื่อ BP ≥ 160/110 ต่อเนื่อง ≥ 15 นาที — ให้ภายใน 30–60 นาที: <b>labetalol</b> 20 mg IV → 40 → 80 mg q 10 min (max 300 mg; ห้าม asthma / HF / bradycardia) หรือ <b>hydralazine</b> 5–10 mg IV q 20 min หรือ <b>nifedipine IR</b> 10–20 mg PO q 20 min · เป้า <b>140–150 / 90–100</b> (ลดเร็วเกิน MAP > 25% เสี่ยง placental hypoperfusion)",
+      "<b>MgSO4 ป้องกันชัก:</b> loading 4–6 g IV ใน 20–30 นาที (ACOG; ไฟล์ใช้ 5 g) → maintenance 1–2 g/h จนถึง <b>24 ชม.หลังคลอด</b> (Pritchard: 4 g IV + 10 g IM แล้ว 5 g IM q 4 h) · monitor DTR, RR ≥ 12, UO ≥ 30 mL/h, SpO2 · พิษ: DTR หาย (8–10 mEq/L) → RR ลด → cardiac arrest · <b>antidote 10% calcium gluconate 10 mL (1 g) IV ช้า ๆ</b>",
+      "<b>ยาลดความดัน</b> เมื่อ BP ≥ 160/110 ต่อเนื่อง ≥ 15 นาที — ให้ภายใน 30–60 นาที: <b>labetalol</b> 20 mg IV → 40 → 80 mg q 10 min (max 300 mg; ห้าม asthma / HF / bradycardia) หรือ <b>hydralazine</b> 5–10 mg IV q 20 min หรือ <b>nifedipine IR</b> 10–20 mg PO q 20 min · เป้า <b>140–150 / 90–100</b> (ACOG CO 767 / PB 222; ลดเร็วเกิน MAP > 25% เสี่ยง placental hypoperfusion)",
       "<b>คลอด:</b> ให้คลอดหลัง stabilize (GA ≥ 34 wk, อยู่ใน labor แล้ว) → <b>ARM</b> (ลด intrauterine pressure, ลด thromboplastin เข้ากระแสเลือด, เร่งคลอด) แล้วคลอดทางช่องคลอด · <b>ไม่ต้องเร่ง oxytocin</b> เพราะ tachysystole อยู่แล้ว · epidural ถ้า platelet ปกติ · ช่วยคลอดระยะที่ 2 (forceps / vacuum) · C/S เมื่อมี obstetric indication / fetal distress / แม่ unstable · consult กุมารแพทย์",
-      "<b>หลังคลอด:</b> oxytocin 20 U ใน IV 1,000 mL ป้องกัน PPH (<b>ห้าม methylergometrine</b>) · เฝ้าระวัง PPH / DIC (Couvelaire uterus, MgSO4 ทำมดลูกคลาย) · MgSO4 ต่อ 24 ชม. · วัด BP ≥ 72 ชม. · routine postpartum care · นัด f/u 1–2 wk ถ้า BP ยังสูง consult อายุรแพทย์"
+      "<b>หลังคลอด:</b> oxytocin 20 U ใน IV 1,000 mL ป้องกัน PPH (<b>ห้าม methylergometrine</b>) · เฝ้าระวัง PPH / DIC (Couvelaire uterus, MgSO4 ทำมดลูกคลาย) · MgSO4 ต่อ 24 ชม. · วัด BP ≥ 72 ชม. และนัด BP ภายใน 72 ชม. (severe) / 7–10 วัน (ACOG CO 736) · routine postpartum care · นัด f/u 1–2 wk ถ้า BP ยังสูง consult อายุรแพทย์"
      ],
      "kw": [
       "G2P1 GA 37 wk in active phase of labor",
@@ -374,7 +374,7 @@ SUMM.push({
      "pattern": [
       "<b>นิยาม superimposed:</b> chronic HT + proteinuria ใหม่ หรือ BP / protein เดิมเพิ่มกะทันหันหลัง 20 wk หรือมี severe feature / อวัยวะเป้าหมายผิดปกติ",
       "<b>Investigation:</b> ประเมิน severe feature (BP ≥ 160/110, อาการ ปวดศีรษะ / ตาพร่า / จุกลิ้นปี่ / หอบ) + lab: CBC, platelet, Cr, AST / ALT, LDH, uric acid, UPCR ± coag / smear (HELLP) · ทารก: NST, U/S (EFW, AFI, Doppler)",
-      "<b>มี severe feature:</b> admit + stabilize → ยาลดความดัน IV (labetalol / hydralazine / nifedipine) เป้า 140–150/90–100 → MgSO4 (4–6 g IV แล้ว 1–2 g/h ต่อ 24 ชม.หลังคลอด) → <b>GA ≥ 34 wk = คลอดหลัง stabilize ไม่รอ steroid</b> (< 34 wk รอได้เฉพาะ stable + ศูนย์พร้อม + steroid)",
+      "<b>มี severe feature:</b> admit + stabilize → ยาลดความดัน IV (labetalol / hydralazine / nifedipine) เป้า 140–150/90–100 → MgSO4 (4–6 g IV ใน 20–30 นาที แล้ว 1–2 g/h ต่อ 24 ชม.หลังคลอด) → <b>GA ≥ 34 wk = คลอดหลัง stabilize ไม่รอ steroid</b> (< 34 wk รอได้เฉพาะ stable + ศูนย์พร้อม + steroid)",
       "<b>ไม่มี severe feature:</b> f/u OPD (BP, lab รายสัปดาห์), ปรับ anti-HT, NST / AFI, growth scan q 3–4 wk, สอนอาการอันตราย, คลอดที่ 37+0 wk",
       "คลอดทางช่องคลอดได้ถ้าไม่มีข้อห้าม (induction ถ้า cervix ยังไม่พร้อม)"
      ],
@@ -443,15 +443,15 @@ SUMM.push({
       "PROM = ถุงน้ำแตกก่อนเจ็บครรภ์คลอด · preterm PROM = ก่อน 37 wk",
       "ต่อท้ายภาวะแทรกซ้อนถ้ามี (with chorioamnionitis) · ตอบแค่ PROM ไม่ใส่ preterm / GA = บางส่วน",
       "<b>▶ Management (24–33+6 wk, ไม่มีติดเชื้อ ไม่เจ็บครรภ์)</b>",
-      "<b>ลำดับคิด (RTCOG 2567):</b> ① มี infection / chorioamnionitis ไหม → ATB แล้วคลอด ② in labor / abruption / fetal compromise ไหม → คลอด ③ ไม่มี → ดู GA: 24+0–33+6 wk = expectant · 34+0–36+6 = expectant หรือคลอด · ≥ 37 wk = คลอด",
+      "<b>ลำดับคิด (RTCOG 2567; ACOG PB 217 (2020) สอดคล้องกัน):</b> ① มี infection / chorioamnionitis ไหม → ATB แล้วคลอด ② in labor / abruption / fetal compromise ไหม → คลอด ③ ไม่มี → ดู GA: 24+0–33+6 wk = expectant · 34+0–36+6 = expectant หรือคลอด · ≥ 37 wk = คลอด",
       "<b>Admit</b> รพ.ที่มี NICU (ไม่มี → refer) + counsel · bed rest · <b>งด PV</b>",
       "<b>Monitor แม่:</b> V/S q 4–6 h (ไข้ ชีพจร), กดเจ็บมดลูก, ลักษณะน้ำ, contraction, เลือดออก; CBC ± CRP เมื่อสงสัย · <b>ลูก:</b> NST ทุกวัน (ไม่ reactive → BPP), U/S AFI / growth",
-      "<b>ATB ยืด latency:</b> ampicillin 2 g IV q 6 h + azithromycin 1 g PO × 1 (หรือ erythromycin) ใน 48 ชม.แรก → amoxicillin 250 mg PO q 8 h × 5 วัน (รวม 7 วัน) · ห้าม amoxicillin-clavulanate (NEC)",
-      "<b>Steroid 1 course:</b> dexamethasone 6 mg IM q 12 h × 4 doses (หรือ betamethasone 12 mg IM q 24 h × 2)",
-      "<b>MgSO4 neuroprotection</b> เมื่อจะคลอดช่วง 24–32 wk: 4 g IV ใน 20–30 นาที แล้ว 1 g/h จนคลอด (สูงสุด 24 ชม.) — 32 wk อยู่ขอบ ให้ถ้าคลอดทันที",
-      "<b>ไม่ให้ tocolytic เป็นประจำ</b> (ระยะสั้นเพื่อให้ steroid ครบได้ ถ้าไม่มีติดเชื้อ / abruption)",
-      "เมื่อเจ็บครรภ์: <b>หยุด ATB ยืด latency</b> แล้วเริ่ม GBS prophylaxis — ampicillin 2 g IV แล้ว 1 g IV q 4 h จนคลอด (ส่ง GBS swab; แพ้ penicillin รุนแรงใช้ clindamycin / vancomycin)",
-      "<b>ให้คลอดเมื่อ:</b> chorioamnionitis, labor ที่ห้ามไม่ได้, abruption, cord prolapse, non-reassuring fetal status หรือ GA 34 wk · เตรียมกุมารแพทย์ / NICU",
+      "<b>ATB ยืด latency (ก่อน 34 wk):</b> ACOG PB 217 (2020): ampicillin 2 g IV q 6 h + <b>erythromycin</b> 250 mg IV q 6 h ใน 48 ชม.แรก → amoxicillin 250 mg PO q 8 h + erythromycin base 333 mg PO q 8 h × 5 วัน (รวม 7 วัน) · <b>azithromycin 1 g PO × 1</b> ใช้แทน erythromycin ได้ · ห้าม amoxicillin-clavulanate (NEC) · ไม่ให้ ATB ยืด latency ที่ 34+0–36+6 wk",
+      "<b>Steroid 1 course</b> (ACOG CO 713 / PB 217; RTCOG 2567 ตรงกัน) ที่ 24+0–33+6 wk: betamethasone 12 mg IM q 24 h × 2 หรือ dexamethasone 6 mg IM q 12 h × 4 doses",
+      "<b>MgSO4 neuroprotection</b> เมื่อจะคลอดช่วง 24–32 wk: 4 g IV ใน 20–30 นาที แล้ว 1 g/h จนคลอด (สูงสุด 24 ชม.) — 32 wk อยู่ขอบ ให้ถ้าคลอดทันที (ACOG PB 217: ให้เมื่อ PPROM ก่อน 32+0 wk และจะคลอด — 32+0 wk พอดีไม่เข้าเกณฑ์ ACOG; ตามแนวปฏิบัติของสถาบัน)",
+      "<b>ไม่ให้ tocolytic เป็นประจำ</b> (ACOG PB 217: ไม่ช่วยยืด latency อย่างมีนัย; ระยะสั้นเพื่อให้ steroid ครบพิจารณาได้ก่อน 34 wk ถ้าไม่มีติดเชื้อ / abruption; ไม่แนะนำที่ 34+0–36+6 wk)",
+      "เมื่อเจ็บครรภ์: <b>หยุด ATB ยืด latency</b> แล้วเริ่ม GBS prophylaxis — penicillin G 5 MU IV แล้ว 2.5–3 MU q 4 h จนคลอด (ACOG CO 797 เลือกก่อน) หรือ ampicillin 2 g IV แล้ว 1 g IV q 4 h (ส่ง GBS swab; แพ้ penicillin รุนแรงใช้ clindamycin ถ้าเชื้อไวต่อยา ไม่เช่นนั้น vancomycin)",
+      "<b>ให้คลอดเมื่อ:</b> chorioamnionitis, labor ที่ห้ามไม่ได้, abruption, cord prolapse, non-reassuring fetal status หรือเลือกคลอดเมื่อ GA ≥ 34+0 wk (ACOG PB 217: ที่ 34+0–36+6 wk ทั้งคลอดและ expectant เป็นทางเลือกที่สมเหตุผล ตกลงร่วมกับผู้ป่วย; ไม่ expectant เกิน 37+0 wk) · เตรียมกุมารแพทย์ / NICU",
       "<b>▶ Chorioamnionitis</b>",
       "<b>Dx:</b> G_P_ GA 30 wk with PPROM complicated by clinical chorioamnionitis (intra-amniotic infection)",
       "<b>Triple I (ACOG 2017):</b> ไข้แม่ ≥ 39.0 °C หรือ 38.0–38.9 °C คงอยู่ 30 นาที + ≥ 1 ข้อ: fetal tachycardia > 160, WBC > 15,000 (ไม่ได้ steroid), น้ำคร่ำเป็นหนอง / เหม็น · เสริม: maternal tachycardia > 100, uterine tenderness",
@@ -470,13 +470,13 @@ SUMM.push({
       "CBC, UA/UC, rectovaginal GBS swab",
       "U/S (GA, EFW, AFI, presentation)",
       "NST/CTG daily (GA ≥ 28 wk)",
-      "ampicillin 2 g IV q 6 h + azithromycin 1 g PO × 1 ใน 48 h แรก",
+      "ampicillin 2 g IV q 6 h + erythromycin (หรือ azithromycin 1 g PO × 1) ใน 48 h แรก",
       "amoxicillin 250 mg PO q 8 h × 5 days",
       "dexamethasone 6 mg IM q 12 h × 4 doses",
       "MgSO4 neuroprotection (คลอด 24–32 wk)",
       "ไม่ให้ tocolytic routine",
-      "GBS prophylaxis: ampicillin 2 g IV แล้ว 1 g q 4 h",
-      "ให้คลอดที่ 34 wk / chorioamnionitis / labor / abruption / fetal distress",
+      "GBS prophylaxis: penicillin G (หรือ ampicillin 2 g IV แล้ว 1 g q 4 h)",
+      "คลอดเมื่อ chorioamnionitis / labor / abruption / fetal distress; ที่ 34+0–36+6 wk คลอดหรือ expectant ได้ (ACOG PB 217)",
       "Triple I",
       "ampicillin + gentamicin แล้วคลอด"
      ],
@@ -488,7 +488,7 @@ SUMM.push({
       "Cord prolapse"
      ],
      "pearls": [
-      "ไฟล์เขียน azithromycin 250 mg 4 tab OD × 7 วัน — สูตรมาตรฐานคือ <b>1 g PO ครั้งเดียว</b> ร่วมกับ ampicillin",
+      "ไฟล์เขียน azithromycin 250 mg 4 tab OD × 7 วัน — ไม่ใช่สูตรมาตรฐาน: ACOG PB 217 (2020) ใช้ ampicillin คู่กับ <b>erythromycin</b> และใช้ <b>azithromycin 1 g PO ครั้งเดียว</b> แทน erythromycin ได้",
       "ไม่ให้ induction / ผ่าคลอดทันทีโดยไม่มีข้อบ่งชี้; ให้ tocolytic เป็นหลักไม่ให้ steroid / ATB = ไม่ได้",
       "ไฟล์ 77 RoB บอก ‘ไม่ต้องตรวจสุขภาพทารกและ U/S’ — ขัดกับ RTCOG (แผนภูมิแนบในไฟล์) ที่ให้ U/S, GBS / urine / vaginal culture, CBC, CTG ≥ 28 wk · ตอบตาม RTCOG",
       "ตรวจ digital PV เป็นอย่างแรก หรือไม่มีวิธียืนยัน ROM = ไม่ได้",
@@ -535,12 +535,12 @@ SUMM.push({
       "<b>RTCOG 2567 ยืนยัน PROM:</b> เห็นน้ำไหลจาก cervix หรือ pooling และ / หรือ nitrazine หรือ fern บวก",
       "<b>ส่งตรวจเสริม:</b> U/S (GA, EFW, AFI, ส่วนนำ), CBC (± CRP), UA / UC, rectovaginal swab GBS, ± cervical swab GC / CT, NST / CTG (GA ≥ 28 wk)",
       "<b>▶ Management 34–36+6 wk / ≥ 37 wk</b>",
-      "<b>RTCOG 2567 (34+0–36+6 wk):</b> เลือกได้ 2 ทาง — <b>expectant</b> (bed rest, ประเมิน chorioamnionitis / labor / abruption + fetal well-being สม่ำเสมอ, NST ทุกวัน, คลอดเมื่อมีข้อบ่งชี้หรือ 37 wk) หรือ <b>ให้คลอด</b> (induction / ผ่าตัดตามข้อบ่งชี้) · counsel ผู้ป่วย · ACOG PB 217: แนะนำให้คลอดที่ ≥ 34 wk",
+      "<b>RTCOG 2567 (34+0–36+6 wk):</b> เลือกได้ 2 ทาง — <b>expectant</b> (bed rest, ประเมิน chorioamnionitis / labor / abruption + fetal well-being สม่ำเสมอ, NST ทุกวัน, คลอดเมื่อมีข้อบ่งชี้หรือ 37 wk) หรือ <b>ให้คลอด</b> (induction / ผ่าตัดตามข้อบ่งชี้) · counsel ผู้ป่วย · ACOG PB 217 (2020): ที่ 34+0–36+6 wk ทั้งคลอดและ expectant เป็นทางเลือกที่สมเหตุผล (ตัดสินใจร่วมกับผู้ป่วย) — ไม่ expectant เกิน 37+0 wk และไม่ expectant ถ้ามี chorioamnionitis, non-reassuring fetal testing หรือ abruption → ตรงกับ RTCOG 2567 ไม่มีความขัดแย้ง",
       "<b>Admit</b> + งด PV / เพศสัมพันธ์ + consult กุมารแพทย์ · lab: CBC, UA / UC, rectovaginal GBS swab, U/S (GA, EFW, AFI, ยืนยันท่าก้น)",
       "ถ้ามีไข้ / chorioamnionitis → <b>ampicillin 2 g IV q 6 h + gentamicin 240 mg (5 mg/kg) IV OD แล้วคลอด</b> (ไม่เติม metronidazole ถ้าไม่ผ่าคลอด)",
       "<b>ที่ GA นี้ไม่ต้อง:</b> ATB ยืด latency · MgSO4 neuroprotection (เฉพาะคลอด < 32 wk) · tocolytic",
-      "<b>Steroid:</b> RTCOG — single course ถ้าไม่เคยได้ (dexamethasone 6 mg IM q 12 h × 4 หรือ betamethasone 12 mg IM q 24 h × 2) · ACOG ไม่แนะนำ routine ใน PPROM ≥ 34 wk · ให้บอกเหตุผลและแนวทางที่ใช้",
-      "<b>GBS prophylaxis</b> เมื่อเจ็บครรภ์ / ไม่ทราบผล: ampicillin 2 g IV แล้ว 1 g q 4 h (หรือ penicillin G 5 MU แล้ว 2.5 MU q 4 h)",
+      "<b>Steroid:</b> RTCOG 2567 และ ACOG PB 217 / CO 713 ตรงกัน — single course ถ้าไม่เคยได้ (ACOG: ที่ 34+0–36+6 wk ให้ถ้าเสี่ยงคลอดใน 7 วัน, SMFM #58; betamethasone 12 mg IM q 24 h × 2 หรือ dexamethasone 6 mg IM q 12 h × 4) · ให้บอกเหตุผลและแนวทางที่ใช้",
+      "<b>GBS prophylaxis</b> เมื่อเจ็บครรภ์ / ไม่ทราบผล: penicillin G 5 MU IV แล้ว 2.5–3 MU q 4 h (ACOG CO 797 เลือกก่อน) หรือ ampicillin 2 g IV แล้ว 1 g q 4 h",
       "<b>ท่าก้น + น้ำเดิน + cervix เปิด 4 cm:</b> เสี่ยง cord prolapse → วางแผน <b>cesarean</b> (ECV ห้าม)",
       "≥ 37 wk: ประเมิน Bishop → favorable = induction; unfavorable = ripening หรือรอ 24–72 h + GBS prophylaxis",
       "<b>▶ Twist: cord prolapse + แม่ BP ตก</b>",
@@ -577,7 +577,7 @@ SUMM.push({
       "Cord prolapse"
      ],
      "pearls": [
-      "เฉลยไฟล์ 77 RoB ‘ไม่ให้ corticosteroid’ ขัดกับ RTCOG 2567 (ให้ single course) — ผู้จดเองยังเขียนว่าแล้วแต่อาจารย์ → เขียนทั้งสองมุมพร้อมแนวทางที่อ้าง",
+      "เฉลยไฟล์ 77 RoB ‘ไม่ให้ corticosteroid’ ขัดกับ RTCOG 2567 และ ACOG PB 217 (ให้ single course ถ้าไม่เคยได้) — เฉลยปัจจุบันแก้เป็น ‘ให้’ แล้ว (ตรวจ 20 ต.ค. 2026) · ตอบตาม RTCOG / ACOG",
       "ไฟล์ดำ เคส PROM 34 wk เขียน dexamethasone 6 mg q 6 h × 48 ชม. — ที่ถูกคือ q 12 h × 4 doses",
       "ให้ ATB ยืด latency หรือ tocolytic เป็นหลักที่ GA นี้ = บางส่วน / ไม่ได้",
       "ไฟล์ให้ albumin infusion — ไม่ใช่ first-line (ให้ crystalloid 1–2 L และเลือดตามข้อบ่งชี้)",
@@ -620,7 +620,7 @@ SUMM.push({
       "<b>PE:</b> V/S ± orthostatic, ซีด, ท้อง (tenderness, guarding, rebound, distension), ภายในเมื่อ stable: speculum + bimanual (CMT, adnexal mass, uterine size, cul-de-sac) — bimanual เบา ๆ หลังมี IV",
       "<b>3 DDx พร้อมเหตุผล:</b> ① ectopic (triad + PID เดิม + คู่นอนหลายคน) ② abortion (threatened / incomplete) ③ ruptured corpus luteum cyst / torsion (± PID / TOA, appendicitis)",
       "<b>Investigation:</b> urine pregnancy test (บวก + unstable ไม่ต้องรอ serum) · serum quantitative β-hCG · <b>TVS</b> (IUP, adnexal mass, free fluid) · CBC · blood group Rh + antibody screen + crossmatch · coag, BUN / Cr / lytes · cervical NAAT GC / CT, HIV, VDRL, HBsAg · culdocentesis เป็นทางเลือกเก่า",
-      "PUL: serial β-hCG q 48 h (IUP ที่ดีเพิ่ม ≥ 49% / 40% / 33% ตาม hCG < 1,500 / 1,500–3,000 / > 3,000)",
+      "PUL: serial β-hCG q 48 h (ACOG PB 193 (2018); IUP ที่ดีเพิ่ม ≥ 49% / 40% / 33% ตาม hCG < 1,500 / 1,500–3,000 / > 3,000)",
       "<b>▶ Dx + DDx</b>",
       "<b>รูปแบบ Dx:</b> G1P0 GA 6 wk with first-half bleeding with anemia with hypovolemic shock with peritonitis — <b>suspected ruptured (right) tubal ectopic pregnancy</b> with hemoperitoneum",
       "Triad: ขาดประจำเดือน + เลือดออกทางช่องคลอด + ปวดท้อง · ruptured: shock, ซีดมาก, guarding / rebound, cervical motion tenderness, cul-de-sac bulging",
@@ -632,7 +632,7 @@ SUMM.push({
       "<b>Lab:</b> UPT / serum β-hCG, CBC, <b>blood group + Rh</b>, G / M PRC 2–4 u (ให้เลือดถ้า unstable / Hb ต่ำ; MTP ถ้าเสียเลือดมาก), BUN / Cr / electrolytes, coag · bedside U/S / FAST ได้ถ้าไม่ทำให้ช้า",
       "<b>Emergency exploratory laparotomy + salpingectomy</b> (unstable → laparotomy เร็วกว่า; laparoscopy ถ้า stable และทีมพร้อม) · ตรวจ tube ข้างตรงข้าม · ล้างเลือด · ส่ง patho · <b>cefazolin 2 g IV</b> ภายใน 60 นาทีก่อนกรีด",
       "<b>Salpingectomy</b> = มาตรฐานเมื่อแตก / เลือดออกมาก · salpingostomy พิจารณาเมื่อ tube ข้างตรงข้ามเสียหายและต้องการมีบุตร (เสี่ยง persistent trophoblast 5–15% → ตาม β-hCG)",
-      "<b>Methotrexate ห้ามใช้:</b> hemodynamically unstable, ruptured, hemoperitoneum (MTX 50 mg/m² IM ใช้เมื่อ stable, ไม่แตก, β-hCG < 5,000, ไม่มี fetal cardiac activity, mass < 3.5–4 cm, ติดตามได้)",
+      "<b>Methotrexate ห้ามใช้</b> (ACOG PB 193 (2018)): hemodynamically unstable, ruptured, hemoperitoneum (MTX 50 mg/m² IM ใช้เมื่อ stable, ไม่แตก, β-hCG < 5,000, ไม่มี fetal cardiac activity, mass < 3.5–4 cm, ติดตามได้)",
       "ยาแก้ปวด: opioid (เลี่ยง NSAID ก่อนผ่า) · <b>anti-D 300 µg IM ภายใน 72 ชม.</b> ถ้า Rh neg (50 µg ถ้า < 12 wk)",
       "<b>Post-op:</b> monitor V/S, Hb, UO, แผล, pain control · ติดตามผล patho (ถ้าไม่ยืนยัน villi ให้ตาม β-hCG)",
       "<b>Counselling:</b> เสี่ยง ectopic ซ้ำ ~ 10–15% · ครรภ์หน้า early U/S 6–7 wk · งดเพศสัมพันธ์จนแผลหาย · เว้น ≥ 3 เดือน · คุมกำเนิด (LARC) · ตรวจ / รักษา PID / STI ทั้งคู่ · โอกาส IUP ครั้งหน้า ~ 60–70% ถ้า tube อีกข้างปกติ"
@@ -728,9 +728,9 @@ SUMM.push({
       "<b>ห้าม medical induction (PG / oxytocin ก่อนขูด) และไม่ใช้ hysterotomy</b> — เลือดออกมาก เพิ่ม GTN",
       "Hysterectomy เฉพาะอายุมาก (≥ 40) / ไม่ต้องการบุตร / เลือดออกรุนแรง (ลด GTN เหลือ ~ 3–5% แต่ยังต้องตาม hCG)",
       "ส่งชิ้นเนื้อ <b>histopathology</b> (± p57, ploidy) · <b>Rh immunoglobulin</b> ถ้า Rh neg · theca lutein cyst ไม่ผ่าตัด (ยกเว้น torsion / rupture) · ไม่ให้ prophylactic chemo เป็นประจำ (พิจารณาถ้า high-risk และ follow-up ไม่ได้)",
-      "<b>Follow-up β-hCG:</b> ทุกสัปดาห์จน undetectable / normal <b>3 ครั้งติดกัน</b> แล้วรายเดือน — ACOG complete mole 3 เดือน (partial 1 เดือนหลังค่าปกติครั้งแรก), แนวทางไทย / ตำราเดิม 6 เดือน",
-      "<b>คุมกำเนิดตลอดช่วงติดตาม</b> (ถุงยาง / ยาเม็ด / implant; ยาเม็ดไม่เพิ่ม GTN) · <b>เลี่ยง IUD</b> จน hCG ปกติ (perforation / เลือดออกแปลผลยาก) · ห้ามตั้งครรภ์จนติดตามครบ",
-      "<b>Post-molar GTN (FIGO 2000):</b> hCG plateau (4 ค่าใน 3 สัปดาห์ ต่างกัน ≤ ±10%) · rising (> 10% จาก 3 ค่าใน 2 สัปดาห์) · ยัง detectable > 6 เดือน · histology choriocarcinoma / พบ metastasis → staging (CXR / CT chest, pelvic Doppler, ± CT abdomen / MRI brain, WHO / FIGO score) → chemo: low-risk methotrexate หรือ actinomycin D; high-risk EMA-CO",
+      "<b>Follow-up β-hCG:</b> ทุกสัปดาห์จน undetectable / normal <b>3 ครั้งติดกัน</b> แล้วรายเดือน — ACOG PB 53 (2004): รายเดือนต่ออีก <b>6 เดือน</b> หลัง hCG ปกติ · FIGO 2021 (แหล่งรอง): complete mole 3 เดือน, partial 1 เดือนหลังค่าปกติครั้งแรก · ตำราไทยเดิม 6 เดือน · Williams / RTCOG ไม่ได้ตรวจยืนยันตัวเลข — เขียนตาม ACOG PB 53 และบอกที่มา",
+      "<b>คุมกำเนิดตลอดช่วงติดตาม</b> (ACOG PB 53: ถุงยาง / ยาเม็ด / implant ได้ ยาเม็ดไม่เพิ่ม GTN) · <b>เลี่ยง IUD</b> จน hCG ปกติ (perforation / เลือดออกแปลผลยาก) · ห้ามตั้งครรภ์จนติดตามครบ",
+      "<b>Post-molar GTN (ACOG PB 53 / FIGO 2000):</b> hCG plateau (4 ค่าใน 3 สัปดาห์ ต่างกัน ≤ ±10%) · rising (> 10% จาก 3 ค่าใน 2 สัปดาห์) · ยัง detectable > 6 เดือน · histology choriocarcinoma / พบ metastasis → staging (CXR / CT chest, pelvic Doppler, ± CT abdomen / MRI brain, WHO / FIGO score) → chemo: low-risk methotrexate หรือ actinomycin D; high-risk EMA-CO",
       "<b>High-risk mole:</b> hCG > 100,000, uterus ใหญ่กว่า GA (> 20 wk size), theca lutein cyst > 6 cm, อายุ > 40 · ครรภ์ต่อไป: early U/S + ตรวจ hCG 6 wk หลังสิ้นสุดครรภ์ (recurrence ~ 1–2%)"
      ],
      "kw": [
@@ -760,10 +760,10 @@ SUMM.push({
       "Threatened / missed abortion"
      ],
      "pearls": [
-      "ข้อสอบไม่จดเฉลย (77 RoC, 78 RoC) — เฉลยทั้งหมดเป็นของ Claude ตาม ACOG PB 193 / FIGO / RTCOG",
+      "ข้อสอบไม่จดเฉลย (77 RoC, 78 RoC) — เฉลยทั้งหมดเป็นของ Claude ตาม ACOG PB 53 (2004) / FIGO / RTCOG",
       "ตอบ ovarian tumor / multiple pregnancy / ectopic เป็น Dx = ไม่ได้; ตอบ UPT (qualitative) แทน quantitative hCG = บางส่วน",
       "ใช้ prostaglandin / oxytocin induction เป็นวิธีหลัก หรือไม่ follow-up hCG = ไม่ได้",
-      "ตารางติดตาม hCG ต่างกันตามแนวทาง (ไทย weekly จนปกติ ×3 แล้ว monthly ×6 เดือน, ACOG monthly ×3) — ให้เขียนตามแนวทางวอร์ดและบอกที่มา",
+      "ตารางติดตาม hCG ต่างกันตามแหล่ง (weekly จนปกติ ×3 แล้ว monthly: ACOG PB 53 = 6 เดือน, ตำราไทยเดิม = 6 เดือน, FIGO 2021 แหล่งรอง = 3 เดือน) — ให้เขียนตาม ACOG PB 53 และบอกที่มา",
       "ได้เต็มเมื่อ ≥ 7–8 ประเด็นพร้อมเหตุผล — ซักแต่ประวัติทั่วไปไม่เกี่ยวกับ GTD = ไม่ได้",
       "stem ของ 78 ทั้งสองชุดแต่งขึ้นเพราะต้นฉบับจดแค่หัวข้อ"
      ],
@@ -816,7 +816,7 @@ SUMM.push({
       "<b>Investigation 1 อย่าง = Transvaginal ultrasound</b> (TAS ได้ที่ 12 wk): ยืนยัน IUP, viability (cardiac activity / CRL), GA, subchorionic hematoma, แยก mole / ectopic / retained POC · β-hCG ซ้ำไม่ใช่ตัวแรก",
       "<b>Dx:</b> G_P_ with <b>threatened abortion GA 12 wk</b> (single viable intrauterine pregnancy) · definition: เลือดออก < 20 wk, cervix ปิด, ทารกมีชีวิต · FHR 160 → prognosis ดี (ตั้งครรภ์ต่อ > 90%)",
       "<b>Management:</b> expectant แบบ OPD ถ้า stable · อธิบาย / ให้กำลังใจ · พักผ่อนตามสบาย งดเพศสัมพันธ์ (pelvic rest) ไม่ต้อง bed rest เคร่งครัด · <b>ไม่ให้ tocolytic</b> · ตรวจ Rh → <b>anti-D</b> ถ้า neg · เริ่มฝากครรภ์ (CBC, group Rh, VDRL, HIV, HBsAg, thalassemia, UA, folic acid) · <b>red flag:</b> เลือดชุ่ม ≥ 2 pad / ชม., ชิ้นเนื้อ, ปวดมาก, ไข้, หน้ามืด → มาทันที · นัด 1–2 wk (U/S ซ้ำถ้ายังเลือดออก)",
-      "ถ้าเคยแท้ง ≥ 1 ครั้ง พิจารณา micronized vaginal progesterone 400 mg bid ถึง 16 wk (PRISM — ประโยชน์ชัดในกลุ่มเคยแท้ง ≥ 3 ครั้ง; ไม่ใช่ standard ทุกราย)",
+      "ถ้าเคยแท้ง ≥ 1 ครั้ง พิจารณา micronized vaginal progesterone 400 mg bid ถึง 16 wk (PRISM — ประโยชน์ชัดในกลุ่มเคยแท้ง ≥ 3 ครั้ง; ไม่ใช่ standard ทุกราย · เป็นข้อมูลแหล่งรอง ยังไม่ได้ตรวจยืนยันจุดยืนล่าสุดของ ACOG / Williams)",
       "<b>▶ Twist: incomplete abortion + shock</b>",
       "<b>Dx:</b> G_P_ GA 12 wk with <b>incomplete abortion complicated by hypovolemic (hemorrhagic) shock</b> (shock index ~ 1.4) · ไม่มีไข้ → ไม่ใช่ septic · ต่างจาก inevitable (os เปิดยังไม่มี POC หลุด), complete (os ปิด มดลูกว่าง)",
       "<b>Resuscitation:</b> ขอความช่วยเหลือ, ABC, O2 10 L/min, IV 2 เส้น (16–18 G), NSS / RLS 500–1,000 mL bolus แล้วประเมินซ้ำ, CBC / Hct, G / M PRC 2–4 u, coag, Rh, Foley (UO ≥ 0.5 mL/kg/h), V/S q 5–15 นาที · ให้เลือดถ้าไม่ตอบสนอง",
@@ -876,7 +876,7 @@ SUMM.push({
       "Part ต่อไป (ไม่ใช่ comp ทั้งหมด): ผล VDRL บวก → ที่ 36 wk BP 170/110 preeclampsia (ดูเรื่อง Preeclampsia with severe features)"
      ],
      "pattern": [
-      "<b>Dx:</b> G_P_ GA 9 wk with <b>hyperemesis gravidarum</b> (with dehydration and ketosis) — เกณฑ์: อาเจียนรุนแรงต่อเนื่อง + <b>น้ำหนักลด ≥ 5%</b> ของก่อนตั้งครรภ์ (รายนี้ 7.1%) + ketonuria ± ขาดน้ำ ± electrolyte imbalance (hypokalemia, hyponatremia, alkalosis) โดยไม่มีสาเหตุอื่น · เริ่มก่อน 9 wk, peak 9–13 wk · ใช้ PUQE score ประเมิน · ต่างจาก NVP ที่ไม่มีน้ำหนักลด / ketonuria",
+      "<b>Dx:</b> G_P_ GA 9 wk with <b>hyperemesis gravidarum</b> (with dehydration and ketosis) — เกณฑ์ (ACOG PB 189 (2018)): อาเจียนรุนแรงต่อเนื่อง + <b>น้ำหนักลด ≥ 5%</b> ของก่อนตั้งครรภ์ (รายนี้ 7.1%) + ketonuria ± ขาดน้ำ ± electrolyte imbalance (hypokalemia, hyponatremia, alkalosis) โดยไม่มีสาเหตุอื่น · เริ่มก่อน 9 wk, peak 9–13 wk · ใช้ PUQE score ประเมิน · ต่างจาก NVP ที่ไม่มีน้ำหนักลด / ketonuria",
       "<b>ประวัติ:</b> เริ่มเมื่อไร (ก่อน / หลัง 9 wk), ความถี่, ลักษณะ (อาหาร น้ำดี เลือด), กินน้ำอาหารได้เท่าไร, น้ำหนักลด, ขาดน้ำ (ปัสสาวะน้อย เวียนศีรษะ), Wernicke (สับสน ตาเหล่ เดินเซ) · แยกสาเหตุอื่น (ปวดท้อง ไข้ ท้องเสีย ปัสสาวะแสบ ปวดศีรษะ ใจสั่น) · GA / LMP, เลือดออก (molar), ครรภ์แฝด · เคย HG, ครอบครัว, ยา, จิตสังคม",
       "<b>สาเหตุ / ปัจจัย (multifactorial):</b> hCG สูง / เพิ่มเร็ว (ครรภ์แฝด, molar, trisomy 21) · estrogen / progesterone · transient gestational thyrotoxicosis (hCG กระตุ้น TSH receptor) · H. pylori · จิตสังคม (เครียด ซึมเศร้า ไม่ตั้งใจท้อง) · พันธุกรรม / เคย HG (ซ้ำ ~ 15–20%), ครรภ์แรก, เพศทารกหญิง, ไมเกรน · GI dysmotility, GERD",
       "ตรวจเพิ่ม: electrolytes, BUN / Cr, LFT, amylase / lipase (ถ้าปวดท้อง), TSH / FT4, UA / UC, U/S (ยืนยัน IUP / แฝด / molar)"
@@ -930,7 +930,7 @@ SUMM.push({
      "pattern": [
       "<b>▶ NST</b>",
       "<b>อ่าน 5 องค์ประกอบ:</b> baseline (110–160 ปกติ) · variability (6–25 moderate = ปกติ; ≤ 5 minimal; absent) · accelerations · decelerations (early / variable / late) · contractions",
-      "<b>Reactive (GA ≥ 32 wk):</b> ≥ 2 accelerations ใน 20 นาที ขึ้น ≥ 15 bpm นาน ≥ 15 วินาที (< 32 wk: 10 × 10) · ไม่ครบใน 40 นาที (ต่อได้เพราะ sleep cycle 20–40 นาที) = <b>non-reactive</b>",
+      "<b>Reactive (ACOG PB 229 (2021); GA ≥ 32 wk):</b> ≥ 2 accelerations ใน 20 นาที ขึ้น ≥ 15 bpm นาน ≥ 15 วินาที (< 32 wk: 10 × 10) · ไม่ครบใน 40 นาที (ต่อได้เพราะ sleep cycle 20–40 นาที) = <b>non-reactive</b>",
       "ตัวอย่าง: baseline 140, variability 8–10 (moderate), ไม่มี accel / decel / UC ตลอด 40 นาที → <b>non-reactive NST</b> (ไม่มี decel จึงไม่ใช่ category III)",
       "ตัวอย่าง: baseline 150, variability moderate → minimal, ไม่มี accel, variable decel 1 ครั้ง nadir < 110 → <b>non-reactive, abnormal / non-reassuring (NICHD Category II)</b> · variable decel = cord compression มักพบเมื่อน้ำคร่ำน้อย",
       "<b>ขั้นต่อไป:</b> vibroacoustic stimulation / ให้แม่เปลี่ยนท่า · ทำ <b>BPP</b> (หรือ modified BPP = NST + AFI) ในวันเดียวกัน ± CST (previa เป็นข้อห้ามของ CST), Doppler umbilical artery · ซักยา (sedative, β-blocker), บุหรี่ · ไม่ปล่อยกลับบ้านจนประเมินสำเร็จ",
@@ -942,7 +942,7 @@ SUMM.push({
       "ตัวอย่าง 2/10: NST 0, breathing 0, movement 2, tone 0, AFI 3 cm = 0 · ตัวอย่าง 0/10: ทุกองค์ประกอบ 0 → <b>fetal asphyxia / chronic uteroplacental insufficiency</b> (ร่วม oligohydramnios) สัมพันธ์กับ chronic abruption",
       "<b>Management: ให้คลอดทันที</b> (GA 35–38 wk) ด้วย <b>emergency cesarean</b> — ไม่อยู่ใน labor, cervix ไม่พร้อม, น้ำคร่ำน้อย, fetal status ไม่ดี · <b>previa / รกถึง os ห้าม induction (PG / oxytocin)</b>",
       "<b>ระหว่างเตรียม:</b> admit, NPO, consent (PPH / hysterectomy / accreta), continuous EFM, <b>intrauterine resuscitation</b> (ตะแคงซ้าย, O2 10 L/min, IV fluid, หยุด oxytocin), CBC / coag / group Rh / G / M PRC 2–4 u, แจ้งวิสัญญี + กุมารแพทย์ / NICU, cefazolin 2 g IV",
-      "Steroid ใน late preterm (34+0–36+6 wk) ให้ได้ถ้าไม่เคยได้ แต่ <b>ห้ามทำให้ผ่าตัดช้า</b> · ไม่ต้อง MgSO4 neuroprotection (GA ≥ 32 wk)",
+      "Steroid ใน late preterm (34+0–36+6 wk) ให้ได้ถ้าเสี่ยงคลอดใน 7 วันและไม่เคยได้ (ACOG CO 713 / SMFM #58) แต่ <b>ห้ามทำให้ผ่าตัดช้า</b> · ไม่ต้อง MgSO4 neuroprotection (GA ≥ 32 wk)",
       "<b>ผ่าตัด / หลังคลอด:</b> เลือก uterine incision เลี่ยงรก, oxytocin หลังคลอดลูก, เตรียม PPH (carboprost, TXA 1 g IV, balloon / B-Lynch), ตรวจ accreta · ส่งรก patho (abruption / infarct) · anti-D ใน 72 ชม. ถ้าแม่ Rh neg ลูก Rh pos · เช็ค BP / น้ำตาล · ดูแลทารก (oligohydramnios → ปอด / asphyxia)"
      ],
      "kw": [

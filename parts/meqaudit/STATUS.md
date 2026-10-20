@@ -2,7 +2,7 @@
 
 | Group | Scope | Subs | Summary files | Status |
 |---|---|---|---|---|
-| 1 | Obstetric complications — case | 66 | sum_meq_case_comp | running |
+| 1 | Obstetric complications — case | 66 | sum_meq_case_comp | **done** — 11 model answers changed, 27 keys patched |
 | 2 | Gynecology — case | 74 | sum_meq_case_gyn | **done** — 3 model answers changed, 8 keys patched |
 | 3 | Obstetric complications — short answer; Antenatal; Labor | 69 | sum_meq_sa_comp, case/sa_ante, case/sa_labor | running |
 | 4 | Medical disease, Postpartum, Gyn onco, Repro — case + SA; Gynecology — SA | 70 | case/sa_med, case/sa_pp, case/sa_onco, case/sa_repro, sa_gyn | running |
