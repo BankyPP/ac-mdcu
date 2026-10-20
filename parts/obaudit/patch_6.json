@@ -1,0 +1,124 @@
+{
+ "YUZU||37.1": {
+  "ans": 1,
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): เปลี่ยนคำตอบจาก A (Fractional curettage) เป็น B (Observe and Follow-up) — ACOG Committee Opinion No. 734 (2018) ระบุว่าในผู้ที่ไม่มีเลือดออกและบังเอิญพบ endometrium หนา (>4 mm) ไม่จำเป็นต้องประเมิน/เก็บชิ้นเนื้อทุกราย ให้ตัดสินเป็นรายบุคคลตามอายุ ปัจจัยเสี่ยง และโรคร่วม (TVS ไม่ใช่ test คัดกรองมะเร็งเยื่อบุโพรงมดลูก) และเมื่อต้องเก็บชิ้นเนื้อ ACOG ให้ office endometrial sampling เป็นวิธีแรก ไม่ใช่ FC; เกณฑ์ 4 mm ใช้กับ postmenopausal bleeding เท่านั้น. คีย์เดิมจากข้อสอบไทย (>4–5 mm ต้อง FC) จึงใช้ได้เฉพาะกรณีมีเลือดออก. เนื้อหา RTCOG (Fractional Curettage IC 009 / AUB GY 65-025) เปิดอ่านไม่ได้ในการตรวจครั้งนี้ — ถ้า RTCOG ระบุต่างจาก ACOG ต้องเทียบกันอีกครั้ง. ถ้าโจทย์จริงมีปัจจัยเสี่ยงสูงหรือมีเลือดออก คำตอบจะเป็นการเก็บชิ้นเนื้อ.",
+  "opinion": "ตอบ B (Observe and Follow-up) ตาม ACOG CO 734 (2018) — เปลี่ยนจากคีย์เดิม A (ทั้ง 2 เวอร์ชันตอบ FC ตามแนวข้อสอบไทย); ความมั่นใจปานกลาง-สูง (RTCOG ยังตรวจเนื้อหาไม่ได้)",
+  "why": "<b>ACOG CO 734 (2018)</b>: เกณฑ์ <b>ET ≤4 mm</b> (NPV &gt;99% ต่อมะเร็ง) ใช้ประเมิน <b>postmenopausal bleeding</b> ส่วนในผู้ที่ <b>ไม่มีเลือดออก</b> และบังเอิญพบ endometrium หนา (&gt;4 mm) <b>ไม่ต้องประเมิน/เก็บชิ้นเนื้อทุกราย</b> — ตัดสินเป็นรายบุคคลตามอายุ ปัจจัยเสี่ยง (อ้วน เบาหวาน tamoxifen unopposed estrogen Lynch) และโรคร่วม; TVS ไม่ใช่เครื่องมือคัดกรองมะเร็งเยื่อบุโพรงมดลูก. โจทย์นี้หญิง 60 ปีมา checkup <b>ไม่มีเลือดออก</b> ไม่ระบุปัจจัยเสี่ยง ET 6 mm → <b>observe and follow-up</b> พร้อมแนะนำให้กลับมาทันทีถ้ามีเลือดออก (เมื่อมีเลือดออกจึงเข้าแนวทาง PMB: ET &gt;4 mm → sampling). แม้ต้องเก็บชิ้นเนื้อ ACOG ให้ <b>office endometrial sampling</b> เป็นวิธีแรก; fractional curettage เป็น blind procedure สงวนไว้เมื่อ sampling ทำไม่ได้/ได้ไม่พอ/ยังเลือดออกซ้ำ. Hysterectomy / TAH c BSO เป็นการรักษา <b>หลัง</b>ได้ผลพยาธิวิทยาแล้ว (คีย์เดิม FC มาจากเกณฑ์ ET &gt;4–5 mm ของข้อสอบไทย ซึ่งใช้ได้เฉพาะ PMB)",
+  "wrong": {
+   "A": "A. Fractional curettage: เป็น blind procedure ต้องดมยา/block เสี่ยง perforation และพลาด focal lesion — ACOG CO 734 ไม่ให้เก็บชิ้นเนื้อทุกรายใน asymptomatic ET หนา และเมื่อจำเป็นให้ office sampling ก่อน; จะถูกถ้าเป็น PMB ที่ sampling ไม่ได้/ไม่พอ หรือ cervical stenosis (คีย์เดิมของข้อสอบไทย)",
+   "C": "C. TVS after 6 months: ไม่มีหลักฐานรองรับการนัด TVS ซ้ำตามกำหนดในผู้ไม่มีอาการ (TVS ไม่ใช่ screening) — ACOG ให้ตัดสินตามปัจจัยเสี่ยงและรีบประเมินเมื่อมีเลือดออก; ไม่ให้การวินิจฉัยเช่นเดียวกับ B",
+   "D": "D. Hysterectomy: เป็นการรักษาผ่าตัด ต้องมีการวินิจฉัยทางพยาธิวิทยาก่อน — จะถูกเมื่อได้ atypical hyperplasia/มะเร็งและไม่ต้องการมีบุตร",
+   "E": "E. TAH c BSO: เป็นการผ่าตัดมาตรฐานของมะเร็งเยื่อบุโพรงมดลูกระยะต้น แต่ยังไม่มีการวินิจฉัย — จะถูกเมื่อผล biopsy ยืนยันมะเร็งแล้ว"
+  },
+  "trap": "(1) ใช้เกณฑ์ ET &gt;4 mm ของ PMB กับคนที่ไม่มีเลือดออก แล้วตอบ FC; (2) กระโดดไปผ่าตัดทั้งที่ยังไม่มีผลชิ้นเนื้อ; (3) คิดว่า TVS เป็นการคัดกรองมะเร็งเยื่อบุโพรงมดลูกจึงนัดซ้ำทุก 6 เดือน; (4) สับสนระหว่าง cut-off 4 mm (PMB) กับ 11 mm (SRU, ไม่มีอาการ)",
+  "mnemonic": "4 mm = เกณฑ์ของคนมี PMB · ไม่มีเลือดออก + ET หนาโดยบังเอิญ = ประเมินตามปัจจัยเสี่ยง (ACOG CO 734) ไม่ต้อง FC ทุกราย",
+  "summary": [
+   "Postmenopausal bleeding (PMB) เป็นอาการสำคัญของมะเร็งเยื่อบุโพรงมดลูก (~90% ของผู้ป่วยมาด้วย PMB); ผู้หญิงที่มี PMB มีมะเร็งเยื่อบุโพรงมดลูก ~ 5–10%",
+   "ใน PMB: TVS พบ ET ≤ 4 mm → โอกาสมะเร็ง &lt; 1% (ถ้าไม่เลือดออกซ้ำ ติดตามได้); ET &gt; 4 mm หรือเลือดออกซ้ำ/ต่อเนื่อง → ต้อง sampling — ACOG CO 734 (2018): office endometrial biopsy (Pipelle) เป็นวิธีแรก; FC/hysteroscopy+D&amp;C เมื่อ sampling ทำไม่ได้/ได้ไม่พอ/ยังเลือดออกซ้ำ",
+   "Fractional curettage = ขูด endocervix ก่อน แล้วขูดโพรงมดลูก แยกใส่ขวด 2 ใบ เพื่อแยกแหล่งกำเนิดมะเร็ง (endometrial vs endocervical)",
+   "ผู้ไม่มีอาการ + ET หนาโดยบังเอิญ: ACOG CO 734 (2018) ไม่ต้องประเมิน/sampling ทุกราย (TVS ไม่ใช่ screening) ตัดสินรายบุคคลตามอายุ ปัจจัยเสี่ยง โรคร่วม → เคสนี้ตอบ observe and follow-up (เปลี่ยนจากคีย์เดิม FC); เกณฑ์ 4 mm ใช้กับ PMB, SRU เสนอ ~ 11 mm ในผู้ไม่มีอาการ (tier-3)",
+   "การ stage มะเร็งเยื่อบุโพรงมดลูกเป็น <b>surgical staging</b> (ต่างจาก cervix/vagina ที่เป็น clinical staging)",
+   "เมื่อผลเป็นมะเร็ง: TAH c BSO ± lymph node assessment (sentinel LN mapping) แล้วให้ adjuvant ตามความเสี่ยง",
+   "ดู 78C Gyn Endometrium 1 (ข้อบ่งชี้ fractional D&amp;C ในหญิงวัยหมดประจำเดือนที่มี AUB) และ 78C Gyn Endometrium 2"
+  ]
+ },
+ "YUZU||37.6": {
+  "ans": 4,
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): เปลี่ยนคำตอบจาก B (Fractional curettage) เป็น E (Endometrial sampling) — ACOG CO 734 (2018): ใน PMB ที่ ET &gt;4 mm หรือเสี่ยงสูง endometrial sampling ด้วย office disposable device (Pipelle) เป็นการตรวจเก็บชิ้นเนื้อแรกที่แนะนำ (ตรวจครั้งเดียวพอ); D&amp;C / hysteroscopy+D&amp;C สงวนไว้เมื่อ sampling ทำไม่ได้/ได้ไม่พอ หรือผลปกติแต่ยังเลือดออกซ้ำ. คีย์เดิม (ทั้ง 2 เวอร์ชันตอบ FC ตามธรรมเนียมไทยที่ถือ FC เป็น gold standard) ไม่ใช่คำแนะนำของ ACOG. เนื้อหา RTCOG (Fractional Curettage IC 009 / AUB GY 65-025) เปิดอ่านไม่ได้ — ถ้า RTCOG ระบุให้ FC เป็นวิธีมาตรฐานของ PMB จะเป็น tier-1 conflict (ACOG: sampling; RTCOG: ยังไม่ทราบ) ต้องเทียบอีกครั้ง.",
+  "opinion": "ตอบ E (Endometrial sampling) ตาม ACOG CO 734 (2018) — เปลี่ยนจากคีย์เดิม B (FC); ความมั่นใจปานกลาง-สูง (RTCOG ยังตรวจเนื้อหาไม่ได้)",
+  "why": "PMB + ET &gt; 4 mm (ที่นี่ 10 mm) ทำให้ความเสี่ยงมะเร็งเยื่อบุโพรงมดลูกสูง (~5–10% ของ PMB) ต้องมีการวินิจฉัยทางพยาธิวิทยา. ตาม <b>ACOG CO 734 (2018)</b> <b>endometrial sampling (office biopsy ด้วย disposable device เช่น Pipelle) เป็นการตรวจเก็บชิ้นเนื้อแรกที่แนะนำ</b> — ตรวจครั้งเดียวพอในขั้นนี้ (Pipelle sensitivity ~99% ต่อมะเร็งในวัยหมดประจำเดือน); <b>hysteroscopy ± D&amp;C / fractional curettage</b> ใช้เมื่อ sampling ทำไม่ได้ ได้ชิ้นเนื้อไม่พอ หรือผลปกติแต่ยังเลือดออกซ้ำ/สงสัย focal lesion. Pap smear ‘NILM’ ไม่ได้ช่วยตัดมะเร็ง endometrium; ยาฮอร์โมน (progestin, OCP) ไม่ใช่การวินิจฉัยและห้ามให้ก่อนยืนยันว่าไม่มีมะเร็ง. (ธรรมเนียมไทยที่ถือ FC เป็น gold standard ของ PMB เป็นเหตุให้คีย์เดิมตอบ B)",
+  "wrong": {
+   "A": "A. Progestin: ใช้รักษา endometrial hyperplasia ไม่มี atypia หรือ anovulatory bleeding หลังตัดมะเร็งออก — ห้ามใช้ปิดบังอาการก่อนมีผลชิ้นเนื้อใน PMB",
+   "B": "B. Fractional curettage: เป็น blind procedure ต้อง block/ดมยา เสี่ยง perforation และพลาด focal lesion ~10–15% — ACOG CO 734 ให้เป็นขั้นถัดไปเมื่อ office sampling ทำไม่ได้/ไม่พอ/เลือดออกซ้ำ ไม่ใช่ขั้นแรก (เป็นคีย์เดิมตามธรรมเนียมไทย); จะถูกถ้าโจทย์ไม่มีช้อย sampling หรือระบุ cervical stenosis / sampling ล้มเหลว",
+   "C": "C. Hysteroscopy: เห็น focal lesion และทำ directed biopsy ได้ — ACOG ใช้เมื่อ sampling ไม่ได้วินิจฉัย เลือดออกซ้ำ หรือสงสัย polyp/submucous myoma; ไม่ใช่ตัวเลือกแรกเมื่อ ET หนา diffuse",
+   "D": "D. Oral contraceptive pills: ไม่ใช่ข้อบ่งชี้ในวัยหมดประจำเดือน และอาจปิดบังเลือดออกที่เกิดจากมะเร็ง"
+  },
+  "trap": "(1) เชื่อว่า Pap NILM แปลว่าไม่ต้องหาสาเหตุ; (2) ให้ฮอร์โมนก่อนวินิจฉัย; (3) ยึดธรรมเนียมไทยว่า FC = gold standard ทั้งที่ ACOG ให้ office endometrial sampling เป็นขั้นแรก — FC/hysteroscopy เป็นขั้นถัดไปเมื่อ sampling ไม่พอหรือยังเลือดออกซ้ำ",
+  "mnemonic": "PMB + ET &gt; 4 mm = ‘เอาเนื้อมา’ — office biopsy ก่อน (ACOG CO 734); FC/hysteroscopy เมื่อ biopsy ไม่พอหรือยังเลือดออก",
+  "summary": [
+   "Postmenopausal bleeding: ทุกรายต้องประเมินเยื่อบุโพรงมดลูก (TVS ET หรือ sampling โดยตรง)",
+   "ET ≤ 4 mm (ครั้งเดียว) → ความเสี่ยงมะเร็ง &lt; 1% ติดตามได้ถ้าไม่ออกซ้ำ; ET &gt; 4 mm หรือเลือดออกซ้ำ → sampling (ACOG CO 734: office endometrial biopsy เป็นวิธีแรก); FC / hysteroscopy เมื่อ sampling ทำไม่ได้/ได้ไม่พอ/ยังเลือดออกซ้ำ",
+   "Fractional curettage: ได้ตัวอย่างแยก endocervix vs endometrium, ใช้ได้ทั้ง diagnostic และบางครั้งรักษา (menorrhagia/polyp) แต่ไม่ใช่ขั้นแรกของ PMB ตาม ACOG; ข้อเสีย: blind procedure, พลาด focal lesion ได้ ~ 10–15%, เสี่ยง perforation (~ 0.1–1%)",
+   "Pipelle/office biopsy: sensitivity สำหรับมะเร็งในวัยหมดประจำเดือน ~ 99% (Dijkhuizen 2000); specificity ~ 98–100%",
+   "Hysteroscopy ± biopsy เป็นมาตรฐานสำหรับ focal lesion และเมื่อ sampling ไม่เพียงพอ",
+   "สาเหตุของ PMB: atrophy (60–80%), polyp, hyperplasia, มะเร็ง (5–10%), HRT, อื่น ๆ",
+   "ดู 78C Gyn Endometrium 1"
+  ]
+ },
+ "MDCU78|RoC|Gyn Endometrium 1": {
+  "why": "<b>Postmenopausal bleeding (PMB)</b> ต้องแยก endometrial cancer เสมอ (พบมะเร็งราว 5–10% ของ PMB) จึงต้องได้ endometrial sampling. ตาม ACOG CO 734 (2018) การเก็บชิ้นเนื้อแรกใน PMB คือ office endometrial sampling (หรือ TVS ถ้าเสี่ยงต่ำ) ส่วน D&amp;C / hysteroscopy+D&amp;C ใช้เมื่อ sampling ทำไม่ได้/ได้ไม่พอ หรือผลปกติแต่ยังเลือดออกซ้ำ — fractional curettage ให้ทั้ง tissue diagnosis และบอกว่ารอยโรคอยู่ที่ endocervix หรือ endometrium; ในไทยยังใช้บ่อยโดยเฉพาะเมื่อทำ office endometrial biopsy ไม่ได้/ได้ชิ้นเนื้อไม่พอ หรือ cervical stenosis (ช้อยนี้คือข้อบ่งชี้ที่เข้ากับ PMB ที่สุดในบรรดาช้อย)"
+ },
+ "MDCU78|RoC|Gyn POP & UI 2": {
+  "why": "ใน postmenopausal women ที่มี <b>urgency/OAB ร่วมกับ vaginal atrophy</b> (genitourinary syndrome of menopause) การให้ <b>vaginal (local) estrogen</b> ช่วยลด urgency, frequency, urge incontinence และ recurrent UTI และรักษา atrophic vaginitis ไปพร้อมกัน (NICE NG123 แนะนำ intravaginal estrogen สำหรับ OAB ในหญิงหมดประจำเดือนที่มี vaginal atrophy — เป็น tier-3; ACOG PB 155 (2015) ให้ behavioral therapy/PFMT เป็นแนวทางขั้นแรกของ urge UI และยืนยัน vaginal estrogen จาก ACOG/Williams ไม่ได้ในการตรวจครั้งนี้) — ส่วน stress leak ที่ไม่รบกวนชีวิตไม่จำเป็นต้องรักษาเฉพาะ; ใช้ร่วมกับ behavioral therapy (bladder training, ลดคาเฟอีน, ปรับการดื่มน้ำ)",
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): คงคำตอบเดิม (vaginal estrogen) — ACOG PB 155 (2015) ให้ behavioral therapy (bladder training, fluid management) และ PFMT เป็นแนวทางหลักขั้นแรกของ urgency/urge UI ส่วน vaginal estrogen ในหญิงหมดประจำเดือนที่มี atrophy อ้างอิงจาก NICE NG123 / NAMS (tier-3) ยืนยันจาก ACOG/Williams ไม่ได้ และเนื้อหา RTCOG GSM CPG (GY 67-032) เปิดอ่านไม่ได้ จึงยังไม่เปลี่ยนคำตอบ; ถ้า tier-1 ระบุว่า PFMT/behavioral เป็นขั้นแรกโดยไม่แยกกรณี atrophy ช้อย B จะมีน้ำหนักเท่ากัน. | ⚠ ต้นฉบับตอบได้ 2 ช้อย — ทั้ง estrogen และ pelvic floor muscle exercise เป็นการรักษาขั้นแรกของ urinary incontinence; เลือก vaginal estrogen เพราะโจทย์บอกชัดว่าอาการ stress leak ไม่รบกวนชีวิต (จึงไม่ใช่เป้าหมายของ PFMT) และมี atrophic vaginitis ซึ่ง vaginal estrogen ช่วยทั้ง urgency และ atrophy; ถ้าโจทย์ไม่มี atrophic vaginitis หรือ stress leak รบกวนชีวิต (mixed UI) จะตอบ PFMT (+ bladder training)"
+ },
+ "YUZU||9.9": {
+  "why": "<b>Anechoic cyst</b> ขนาด 2 cm ใน premenopausal woman คือ simple cyst/follicle หรือ functional cyst ปกติ ไม่ต้องรักษา — ตาม ACOG PB 174 (2016) simple cyst ขนาด &lt;10 cm ในหญิงก่อนหมดประจำเดือนมีโอกาส benign สูง จัดการแบบ conservative/เฝ้าติดตามได้ ไม่ต้องผ่าตัด; รายละเอียดขนาดตาม SRU consensus (2019, tier-3): simple cyst ≤3 cm ถือเป็น normal ovarian follicle ไม่ต้องรายงาน/ตามต่อ; 3–5 cm ไม่จำเป็นต้องตาม หรือตามเป็นทางเลือก; &gt;5–7 cm ตามด้วย US ปีละครั้ง. ดังนั้น <b>observe</b> (ver.1: 'ถ้า infertile ค่อยว่ากัน, ถ้าปวดมากค่อยว่ากัน'; ver.2: 'รอดูก่อนว่า infertile มั้ย, ก้อนไม่ใหญ่รอได้'). การให้ DMPA/OCP/danazol หรือผ่าตัดเป็นการรักษาเกินความจำเป็น (ใช้ใน endometriosis ที่มีอาการหรือก้อนที่มีข้อบ่งชี้). ควรให้คำปรึกษา: ถ้าแต่งงานแล้ว 1 ปีไม่มีบุตร (primary infertility) จึงประเมินต่อ (ver.1 กรอบ: 'ไม่รู้ว่า infertile → observe / ถ้า infertility → cystectomy'; ver.2: 'ดู 1 ปีไม่มีลูก: 1° infertile → ค่อยจัดการ'). ถ้ามีอาการ dysmenorrhea รุนแรงให้เริ่มด้วย NSAIDs/ COC ตาม primary dysmenorrhea",
+  "summary": [
+   "Functional ovarian cyst: follicular cyst, corpus luteum cyst; ส่วนใหญ่หายเองใน 6–12 สัปดาห์",
+   "ACOG PB 174 (2016): simple cyst &lt;10 cm ใน premenopause = likely benign → เฝ้าติดตามได้ ไม่ต้องผ่าตัด (ยังไม่กำหนดช่วงติดตามที่เหมาะสมชัดเจน); รายละเอียดขนาดตาม SRU 2019 (tier-3): ≤3 cm ไม่ต้องรายงาน/ไม่ตาม; &gt;3–5 cm ตามเป็นทางเลือก; &gt;5–7 cm ตาม US ปีละครั้ง; &gt;7 cm ตรวจเพิ่ม (MRI/ผ่าตัด)",
+   "ลักษณะ US ของ endometrioma: ground-glass/low-level homogeneous echoes ไม่ใช่ anechoic; dermoid: echogenic + shadowing, Rokitansky nodule",
+   "ข้อบ่งชี้ผ่าตัด: ปวดรุนแรงไม่ดีขึ้น, ก้อนใหญ่/โตขึ้น, torsion, สงสัย malignancy, infertility ที่ผ่าตัดช่วย",
+   "COC ไม่เร่งการหายของ functional cyst ที่มีอยู่ แต่ลดการเกิด cyst ใหม่",
+   "ถ้าแต่งงานแล้วไม่ตั้งครรภ์ภายใน 12 เดือน (หญิง &lt;35 ปี) → ประเมิน infertility",
+   "ดู YUZU 9.1 (chronic pelvic pain + anechoic cyst: ดู chief complaint) และ MDCU78 RoC Gyn Dysmenorrhea 1"
+  ]
+ },
+ "YUZU||38.3": {
+  "why": "(1) myoma ที่ไม่มีอาการ → observe ไม่ว่าจะขนาดเท่าไร (ver.1 ‘เราไม่ต้องห่วง myoma เราสนใจ ovarian cyst มากกว่า’); (2) ovarian cyst ขนาด 3 cm ใน <b>premenopausal woman</b> ส่วนใหญ่เป็น <b>functional/physiologic cyst</b> (follicular/corpus luteum) ที่ <b>หายเองได้</b> ภายใน 1–3 รอบเดือน (ver.2 ‘premenopause: มี functional cyst ได้ … ขนาด &lt; 5 cm → f/u ได้’) ตาม ACOG PB 174 (2016) simple cyst ขนาด &lt;10 cm ใน premenopause เฝ้าติดตามด้วย ultrasound ได้โดยไม่ต้องผ่าตัด และ CA-125 ในหญิงก่อนหมดประจำเดือนไม่มี threshold ที่อิงหลักฐาน (SRU consensus ซึ่งเป็น tier-3 ให้รายละเอียดขนาด: ≤ 3 cm ถือเป็นปกติ ไม่เกิน 5 cm ติดตามด้วย ultrasound ได้) จึง <b>ไม่ต้องผ่าตัด</b> (myomectomy, cystectomy, TAH c BSO) และ <b>ไม่จำเป็นต้องตรวจ CA-125</b> เพราะ CA-125 ในหญิงก่อนหมดประจำเดือนมี false positive สูง (myoma, endometriosis, ประจำเดือน, PID) และไม่เปลี่ยนการจัดการเมื่อ cyst มีลักษณะ benign; ถ้ามี malignant features (solid, papillary, septation หนา, ascites, color Doppler flow สูง) หรือ ขนาดใหญ่ (&gt; 7–10 cm) จึงต้องผ่าตัด/ประเมินด้วย RMI",
+  "summary": [
+   "Functional cyst: พบในวัยเจริญพันธุ์ ขนาดมัก &lt; 5 cm หายเองใน 1–3 รอบ ไม่ต้องผ่าตัด",
+   "ACOG PB 174 (2016): simple cyst &lt;10 cm ใน premenopause = likely benign → เฝ้าติดตามได้; รายละเอียดขนาดตาม SRU consensus (Levine 2010, tier-3): ≤ 3 cm = ปกติ (ไม่ต้องรายงาน); &gt; 3–5 cm รายงานแต่ไม่ต้องติดตามต่อ; &gt; 5–7 cm ติดตาม ultrasound ประจำปี; &gt; 7 cm ควร MRI/ผ่าตัด",
+   "ข้อบ่งชี้ผ่าตัด/ตรวจเพิ่ม: ขนาด ≥ 7–10 cm, malignant features, อาการ (ปวด/ torsion), วัยหมดประจำเดือน + cyst ซับซ้อน, CA-125 สูงร่วมกับลักษณะน่าสงสัย",
+   "RMI = U × M × CA-125; U: 0 feature = 0, 1 feature = 1, 2–5 features = 3; M: premenopausal = 1, postmenopausal = 3",
+   "CA-125 ไม่จำเพาะในหญิงก่อนหมดประจำเดือน (สูงใน myoma, endometriosis, PID, ประจำเดือน, ตั้งครรภ์)",
+   "Myoma ที่ไม่มีอาการ → observe; (ดู 38.1)",
+   "ข้อที่คล้ายกัน: YUZU 38.6"
+  ]
+ },
+ "YUZU||38.6": {
+  "summary": [
+   "Simple cyst (anechoic, thin wall, no septation/solid/flow) ในวัยก่อนหมดประจำเดือน ≤ 5 cm: เกือบทั้งหมด benign/functional หายเอง ไม่ต้องรักษา",
+   "ACOG PB 174 (2016): simple cyst &lt;10 cm ใน premenopause = likely benign → เฝ้าติดตามได้ ไม่ต้องผ่าตัด; รายละเอียดขนาดตาม SRU (tier-3): ≤ 3 cm ถือเป็นปกติ (follicle) ไม่ต้องรายงาน; 3–5 cm รายงาน ไม่ต้องติดตามเพิ่ม; &gt; 5–7 cm ติดตามประจำปี",
+   "Asymptomatic leiomyoma (แม้มดลูกโต/ หลายก้อน): observe; ข้อบ่งชี้ผ่าตัด = compressive symptoms, เลือดมากไม่ตอบสนองยา, โตเร็ว/สงสัย sarcoma, infertility จาก submucous",
+   "CA-125: ยกเว้นเมื่อสงสัย malignancy ไม่แนะนำในหญิงก่อนหมดประจำเดือนที่ cyst simple",
+   "Pap smear ไม่เกี่ยวกับการประเมิน cyst/ myoma — ใช้คัดกรองมะเร็งปากมดลูก",
+   "ข้อที่คล้ายกัน: YUZU 38.3"
+  ]
+ },
+ "YUZU||39.2": {
+  "why": "Follicular cyst เกิดจากการที่ follicle ไม่แตก (หรือไม่ฝ่อ) หลัง LH surge จึงคั่งของเหลวต่อ — พบในหญิงวัยเจริญพันธุ์ ขนาดปกติเกิน 3 cm ขึ้นไป (มักได้ถึง 5–8 cm), อาการน้อยหรือปวดท้องน้อยข้างเดียว, หายเองใน 2–3 รอบเดือน (ประมาณ 4–8 สัปดาห์). ภาพ TVS: <b>simple cyst</b> = ถุงผนังบางเรียบ (thin-walled, smooth), <b>anechoic</b> ทั้งก้อน, ไม่มี septation/papillary/solid component, มี <b>posterior acoustic enhancement</b>, ไม่มี flow ภายใน (ตรงกับที่ผู้จด ver.1 จดไว้). ACOG PB 174 (2016): simple cyst &lt;10 cm ใน premenopause เฝ้าติดตามแบบ conservative ได้; รายละเอียดขนาดตามฉันทามติ SRU 2019 (tier-3): simple cyst ก่อนหมดประจำเดือน ≤5 cm ไม่ต้องติดตามเป็นรูทีน; &gt;5–7 cm ติดตามด้วย US ปีละครั้ง; &gt;7 cm ควรส่งประเมินเพิ่มด้วย MRI/ผ่าตัด. ผลลัพธ์ที่ตามมา: ถ้ามีเลือดออกในถุง → hemorrhagic cyst (complex), ถ้าบิด/แตก → ปวดฉับพลัน",
+  "summary": [
+   "Functional cyst = follicular cyst + corpus luteum cyst (+ theca lutein cyst เมื่อมี hCG สูง) เกิดตามรอบเดือน หายเองได้",
+   "Follicular cyst: simple, thin-walled, anechoic, posterior acoustic enhancement, ไม่มี flow ในผนังมาก; มักขนาด 3–8 cm",
+   "Corpus luteum cyst: ผนังหนา เห็น ring of fire ใน Doppler อาจมีเลือดออกภายใน (hemorrhagic cyst = reticular/lace pattern หรือ retracting clot)",
+   "Endometrioma: ground-glass homogeneous low-level echoes ไม่มี flow ใน content; Mature teratoma: echogenic nodule/ Rokitansky nodule, dermoid plug, shadowing",
+   "การดูแล: ก่อนหมดประจำเดือน simple cyst ≤5 cm ไม่ต้องติดตาม; &gt;5–7 cm ติดตามด้วย US ปีละครั้ง (ACOG PB 174 (2016): &lt;10 cm เฝ้าติดตามได้; SRU 2019 ให้รายละเอียดขนาด); มักไม่ต้องให้ OCP เพราะไม่ช่วยให้ยุบเร็วกว่าธรรมชาติ",
+   "ภาวะแทรกซ้อน: torsion (ก้อน &gt;5 cm), rupture, hemorrhage; ผ่าตัดเมื่อปวดเรื้อรัง/คงอยู่นาน/มีลักษณะ complex",
+   "ดู YUZU 39.5 และ 39.11 (functional cyst ในหญิงตั้งครรภ์ระยะแรก)"
+  ]
+ },
+ "YUZU||39.9": {
+  "why": "Simple cyst (unilocular, anechoic, ผนังบางเรียบ, ไม่มี solid/papillary/flow) ในหญิงวัยหมดประจำเดือนมีความเสี่ยงมะเร็งต่ำมาก (&lt;1%) โดยเฉพาะขนาด &lt;5 cm (ACOG PB 174 (2016): simple cyst &lt;10 cm ในหญิงหมดประจำเดือนที่ CA-125 ปกติและ US ไม่น่าสงสัย → เฝ้าติดตามด้วย US ได้ (ช่วงติดตามที่เหมาะสมยังไม่กำหนดชัด); ≥10 cm หรือ CA-125 สูง/ลักษณะน่าสงสัย → พิจารณาผ่าตัด/ส่ง gynecologic oncologist; รายละเอียดขนาดตาม SRU 2019 (tier-3): ≤1 cm ไม่ต้องรายงาน, &gt;1–7 cm US ปีละครั้ง, &gt;7 cm MRI/ผ่าตัด). การจัดการที่เหมาะสมสำหรับก้อนขนาดนี้คือ <b>ติดตาม TVS</b> (ระยะสั้น 3–6 เดือนในข้อสอบ/ Chula) ± CA-125; ถ้าคงที่หรือเล็กลงก็ติดตามต่อ, ถ้าโตหรือเกิด solid/septation หรือมีอาการ → ผ่าตัด (laparoscopic oophorectomy/BSO). ผู้ป่วยกิน estrogen+progestin ซึ่งสามารถทำให้ cyst คงอยู่หรือเกิด functional-like cyst ได้ (ผู้จด ver.1 จด 'กิน HT อยู่ซิสต์ยุบได้มั้ง' [อ่านได้ประมาณนี้]) จึงไม่ถือว่าน่าสงสัยมะเร็งขึ้น",
+  "summary": [
+   "Simple cyst ในวัยหมดประจำเดือน: ความเสี่ยงมะเร็ง &lt;1% ถ้า unilocular, anechoic, ผนังบาง, ไม่มี flow/solid และ CA-125 ปกติ",
+   "ACOG PB 174 (2016): simple cyst &lt;10 cm ในวัยหมดประจำเดือนที่ CA-125 ปกติและ US ไม่น่าสงสัย → ติดตาม US ได้ (ช่วงติดตามที่เหมาะสมยังไม่กำหนด); ≥10 cm / CA-125 สูง / ลักษณะน่าสงสัย → ผ่าตัดหรือส่ง gyn-onc; SRU 2019 (tier-3): ≤1 cm ไม่ต้องติดตาม, &gt;1–7 cm ปีละครั้ง, &gt;7 cm MRI/ผ่าตัด; ข้อสอบไทยใช้ TVS 3–6 เดือนครั้งแรก",
+   "ผ่าตัดเมื่อ: ก้อน complex/มี papillary/solid, CA-125 สูง/ascites, อาการ (ปวด/บิด), โตขึ้น; วิธีเลือก laparoscopic BSO (ไม่ควรเจาะดูดน้ำ เพราะเสี่ยงแพร่ถ้าเป็นมะเร็ง)",
+   "Hormone therapy (estrogen ± progestin) ไม่ใช่ข้อห้ามและไม่ได้เพิ่มความเสี่ยง ovarian cancer อย่างชัดเจนในระยะสั้น (เพิ่มเล็กน้อยในการใช้ estrogen นาน)",
+   "ตรวจ CA-125 ในวัยหมดประจำเดือนช่วยแปลผลได้ดีกว่าในวัยเจริญพันธุ์ (ไม่ถูกรบกวนจาก endometriosis/ menstruation); ใช้ ROMA/RMI คัดแยก",
+   "ดู YUZU 39.2 (simple cyst) และ 39.12 (complex cyst)"
+  ]
+ },
+ "YUZU||39.8": {
+  "why": "Endometrioma ขนาดใหญ่ (&gt;4–5 cm และโดยเฉพาะ &gt;9–10 cm) ไม่ตอบสนองต่อยาฮอร์โมน (DMPA, COC, GnRH agonist) — ยาลดอาการปวดแต่ <b>ไม่ทำให้ cyst หายหรือยุบ</b> (ผู้จด ver.1 จด 'Endometriotic cyst → 1st line พวก DMPA, COC' สำหรับก้อนเล็ก/ปวด). ก้อน 11 cm เสี่ยง <b>torsion, rupture, infection</b> (ผู้จด ver.1 'กลัว complication: twist, rupture, infection') และเสี่ยง malignant transformation (clear cell/endometrioid carcinoma; ผู้จด ver.2 'risk turn CA (endometrioid)') โดยเฉพาะก้อน &gt;9 cm. การรักษามาตรฐานในหญิงยังต้องการบุตร = <b>laparoscopic ovarian cystectomy (stripping technique)</b> เพื่อเก็บเนื้อรังไข่ปกติ และตรวจพยาธิวิทยา; ACOG PB 114 (2010) และ Williams Gynecology 4th ed.: การตัดผนัง cyst (cystectomy) ดีกว่า drainage/ablation เรื่อง recurrence และอาการปวด (ESHRE 2022 สอดคล้อง); ควรระวังการตัดรังไข่ปกติ/ทำลาย ovarian reserve (AMH ลดลง) — บางรายพิจารณา pre-op medical therapy"
+ },
+ "YUZU||39.16": {
+  "why": "ก้อน endometrioma ขนาด 11 cm ใหญ่เกินกว่าที่ยาฮอร์โมน (DMPA, COC, GnRH agonist) จะทำให้ยุบได้ — ยาเพียงควบคุมอาการและลดการกลับเป็นซ้ำหลังผ่าตัด; ก้อนขนาดนี้เสี่ยง <b>torsion, rupture และการเปลี่ยนเป็นมะเร็ง (clear cell/endometrioid carcinoma)</b> จึงมีข้อบ่งชี้ผ่าตัด. ผู้ป่วยอายุ 25 ปีและยังไม่มีบุตร → ควรทำ <b>laparoscopic ovarian cystectomy (stripping)</b> เพื่อคงเนื้อรังไข่ปกติ ส่งตรวจพยาธิ และป้องกัน recurrence ด้วยยาฮอร์โมนหลังผ่าตัดถ้าไม่ต้องการมีบุตรทันที (COC/ dienogest/ LNG-IUS). การทำ oophorectomy หรือ TAH+BSO เกินจำเป็น ทำลาย fertility และทำให้หมดประจำเดือนเร็ว. ACOG PB 114 (2010) / Williams Gynecology 4th ed.: cystectomy ดีกว่า drainage/ablation ในแง่ recurrence และอาการปวด (ESHRE 2022 สอดคล้อง) แต่ต้องคุยเรื่องผลต่อ ovarian reserve (AMH) ก่อน"
+ },
+ "YUZU||30.3": {
+  "why": "การประเมินเบื้องต้นของ urgency/frequency (OAB) ตาม ACOG PB 155 (2015) (AUA/SUFU สอดคล้อง) ได้แก่ ซักประวัติ ตรวจร่างกาย และ <b>ตรวจปัสสาวะ (urinalysis ± urine culture)</b> เพื่อแยก <b>UTI</b>, hematuria (นิ่ว/มะเร็งกระเพาะปัสสาวะ) และ glycosuria ก่อนจะวินิจฉัย OAB หรือเริ่มรักษา โดยเฉพาะผู้ป่วยสูงอายุ เบาหวาน และ atrophic genitourinary syndrome ที่เป็น predisposing factor ของ UTI (ver.1 จดว่า 'ขั้นแรกสุด ตอนนี้มี predisposing factor เช่น DM ต้อง Rule out UTI ก่อน') หลังจากนั้นจึงทำ <b>bladder (voiding) diary</b>, post-void residual, และปรึกษาการรักษาเริ่มต้น (behavioral therapy) ผู้จด ver.2 จดลำดับว่า 'ใน urge incon UA, UC 1st → voiding urine; obstructive; hemodynamics; stress' ซึ่งหมายถึงตรวจปัสสาวะและเพาะเชื้อก่อน แล้วค่อยแยกต่อด้วย voiding/obstructive/hemodynamics/stress ผู้ป่วยรายนี้มีเบาหวานที่คุมได้ดี (well-controlled) จึงไม่จำเป็นต้องทำ HbA1c/OGTT ซ้ำ ส่วน cystoscopy ใช้เมื่อมี hematuria, pain หรือ OAB ที่ดื้อรักษา"
+ },
+ "YUZU||30.10": {
+  "why": "ผู้ป่วยมีกลุ่มอาการ <b>OAB</b> (urgency, frequency, nocturia) โดย bladder diary แสดงปัสสาวะรวม 2 ลิตร/วัน เฉลี่ยครั้งละประมาณ 80–100 mL (2,000/20) — สะท้อนทั้ง <b>ดื่มน้ำมาก</b> (ปกติปัสสาวะ 1–1.5 ลิตร/วัน ตามที่ ver.2 จด) และ bladder capacity ที่ลดลง การรักษา OAB ขั้นแรกตาม ACOG PB 155 (2015) (AUA/SUFU 2019 สอดคล้อง) คือ <b>behavioral therapies</b>: fluid management (ลดปริมาณน้ำดื่มให้อยู่ราว 1.5 ลิตร/วัน, ลดคาเฟอีน/แอลกอฮอล์/น้ำอัดลม, ลดน้ำก่อนนอน 2–3 ชั่วโมง), bladder training (ขยายระยะห่างการปัสสาวะ), PFMT และลดน้ำหนักถ้าอ้วน ผู้จด ver.1 สรุปว่า 'แนะนำให้ทำ: ลดน้ำหนัก, ลดกาแฟ, ลดบุหรี่, กินน้ำน้อย (วันไม่เกิน 1.5 ลิตร)' และ 'Treatment → แนะนำ non-pharmacological ก่อน' ส่วนยา anticholinergic (ขั้นสอง) มีผลข้างเคียง (ปากแห้ง ท้องผูก ง่วง ความจำ) จึงใช้เมื่อ behavioral ไม่พอ ผู้ป่วย 39 ปี ไม่มีสาเหตุที่ต้องผ่าตัด (sling ใช้ SUI; hysterectomy ไม่เกี่ยว) ดังนั้นคำตอบคือ B"
+ }
+}
