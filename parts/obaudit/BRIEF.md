@@ -1,6 +1,6 @@
 # Brief: audit OB-GYN MCQ answers + High-yield summaries against the user's reference order
 
-Repo root `/home/claude/ac-mdcu`. Ward dir `data_obgyn` (MDCU OB-GYN Y4, Thai medical school). The user (20 Oct 2026) set a
+Repo root `/home/claude/ac-mdcu`. Ward dir `data_obgyn` (MDCU OB-GYN Y4, Thai medical school). (This reference order is for the MDCU site only.) The user (20 Oct 2026) set a
 reference order for everything in the OB-GYN ward, and asked to re-check the whole MCQ bank and its summaries against it:
 
 1. **RTCOG · ACOG · Williams** (Williams Obstetrics 26th ed. / Williams Gynecology newest ed.; RTCOG and ACOG = newest

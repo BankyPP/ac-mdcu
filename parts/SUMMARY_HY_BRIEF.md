@@ -49,6 +49,8 @@ SUMM.push({tag:"<tag exactly as printed by sumdump>", title:"<display title, e.g
 - Strings: use double-quoted JS strings; escape any `"` inside as `\"`; no line breaks inside a string.
 
 ## OB-GYN reference order (user, 20 Oct 2026 — overrides every other OB-GYN instruction in task prompts)
+Scope: **MDCU site only** (`data_obgyn` and any future MDCU OB-GYN ward, every year — Y4, Y6 …). It does NOT apply to the
+SI site: if an SI OB-GYN ward is created, the reference order must be asked from the user first.
 1. **RTCOG, ACOG, Williams** (Williams Obstetrics / Williams Gynecology) — newest edition / latest guideline only. They override
    everything else: old-exam keys, lecture L / R / N notes, other rounds. If these three disagree with each other, write every
    version, say which source says what, and mark it as a conflict — never pick one silently.
