@@ -10,10 +10,10 @@ User (20 Oct 2026 12:45): run only groups 1–3 now; groups 4–10 are **paused*
 | 4 | Infection in pregnancy, Vaginitis & STI, PID | **done** 20 Oct — 1 key changed (YUZU 25.1 B → D), 28 patched |
 | 5 | Reproductive endocrinology, Infertility, Menopause, Contraception | **done** 20 Oct — 0 key changes, 11 patched |
 | 6 | Ovary, Uterus & endometrium, Vulva & vagina, Pelvic floor | **done** 20 Oct — 2 keys changed (YUZU 37.1 A → B, 37.6 B → E), 13 patched |
-| 7 | Early pregnancy, Abortion, Medical disease in pregnancy, Anemia & thalassemia | **paused** |
-| 8 | Fetal surveillance, Preterm & PROM, Multifetal | **paused** |
-| 9 | Puerperium, Lactation, PPH, APH, Hypertension in pregnancy | **paused** |
-| 10 | Pelvic pain & endometriosis, Anatomy, Sexual assault, Ethics & epidemiology, Sexual health | **paused** |
+| 7 | Early pregnancy, Abortion, Medical disease in pregnancy, Anemia & thalassemia | running (resumed 20 Oct 13:19) |
+| 8 | Fetal surveillance, Preterm & PROM, Multifetal | running (resumed 20 Oct 13:19) |
+| 9 | Puerperium, Lactation, PPH, APH, Hypertension in pregnancy | running (resumed 20 Oct 13:19) |
+| 10 | Pelvic pain & endometriosis, Anatomy, Sexual assault, Ethics & epidemiology, Sexual health | running (resumed 20 Oct 13:19) |
 
 To resume: launch one agent per paused group with BRIEF.md + own_<N>.txt (same prompt as groups 1–3), then
 `node parts/obaudit/build_fixes.js` (it merges every patch_*.json), sumcheck, build both sites, push, republish MDCU.
