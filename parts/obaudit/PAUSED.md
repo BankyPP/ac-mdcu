@@ -7,9 +7,9 @@ User (20 Oct 2026 12:45): run only groups 1–3 now; groups 4–10 are **paused*
 | 1 | Labor, Induction of labor, Operative delivery | **done** 20 Oct — 1 key changed (YUZU 3.1 → E), 20 patched |
 | 2 | ANC, Prenatal genetics, Amniotic fluid, Neonate | **done** 20 Oct — 0 key changes, 14 patched |
 | 3 | Onco, Cervix, GTD | **done** 20 Oct — 0 key changes, 19 patched |
-| 4 | Infection in pregnancy, Vaginitis & STI, PID | **paused** (nothing written) |
-| 5 | Reproductive endocrinology, Infertility, Menopause, Contraception | **paused** |
-| 6 | Ovary, Uterus & endometrium, Vulva & vagina, Pelvic floor | **paused** |
+| 4 | Infection in pregnancy, Vaginitis & STI, PID | running (resumed 20 Oct 13:07) |
+| 5 | Reproductive endocrinology, Infertility, Menopause, Contraception | running (resumed 20 Oct 13:07) |
+| 6 | Ovary, Uterus & endometrium, Vulva & vagina, Pelvic floor | running (resumed 20 Oct 13:07) |
 | 7 | Early pregnancy, Abortion, Medical disease in pregnancy, Anemia & thalassemia | **paused** |
 | 8 | Fetal surveillance, Preterm & PROM, Multifetal | **paused** |
 | 9 | Puerperium, Lactation, PPH, APH, Hypertension in pregnancy | **paused** |
