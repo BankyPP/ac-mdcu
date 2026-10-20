@@ -183,7 +183,7 @@ A({page:3, page2:"-", orig:"Hemostasis 1",
     "ดูข้อ 7, 8 (hemostasis และ transfusion)"
   ],
   notes:"ไม่มีไฟล์เฉลย และช่องเฉลยในไฟล์โจทย์ว่าง<br>ต้นฉบับ (Hemostasis เลข 1 ในต้นฉบับ) ผู้จดพิมพ์ไว้: <b>\"apTT normal PT abnormal, Defect in which pathway\"</b> มี 3 ช้อย: <b>\"1. Extrinsic pathway 2. Intrinsic pathway 3. Common pathway\"</b><br><b>ช้อย D (platelet function) และ E (fibrinolytic system) แต่งเพิ่ม</b>; stem แปลตามต้นฉบับ เติมเพียง \"normal platelet count\" และเปลี่ยน \"pathway\" ในคำถามเป็น \"part of coagulation\" ให้เข้ากับช้อยที่แต่งเพิ่ม",
-  mnemonic:"PeT = exTrinsic (VII = 7 มีตัว T จาก sevTen... จำง่าย: PT เล่น 7 คนเดียว); PTT = InTrinsic (8, 9, 11, 12 ทีมใหญ่)",
+  mnemonic:"PeT (PT) = ExTrinsic ให้ VII เล่นคนเดียว; PiTT (aPTT) = InTrinsic ทีมใหญ่ 8, 9, 11, 12",
   guide:"Schwartz's Principles of Surgery 11th ed. (2019) Ch.4 Hemostasis, Surgical Bleeding, and Transfusion; Sabiston Textbook of Surgery 21st ed. (2022)",
   opinion:"เฉลยโดย Claude ความมั่นใจสูง (~95%) — PT ยาวเดี่ยว aPTT ปกติ = extrinsic pathway (factor VII) เป็นความรู้พื้นฐานที่ชัดเจน",
   variants:[
