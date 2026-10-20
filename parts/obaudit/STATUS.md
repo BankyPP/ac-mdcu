@@ -1,4 +1,4 @@
-# OB-GYN MCQ audit — status
+# OB-GYN MCQ audit — status (ALL 10 GROUPS DONE 20 Oct 2026)
 
 User (20 Oct 2026 12:45): run only groups 1–3 now; groups 4–10 are **paused** (not cancelled) until the user says to resume.
 
@@ -10,10 +10,10 @@ User (20 Oct 2026 12:45): run only groups 1–3 now; groups 4–10 are **paused*
 | 4 | Infection in pregnancy, Vaginitis & STI, PID | **done** 20 Oct — 1 key changed (YUZU 25.1 B → D), 28 patched |
 | 5 | Reproductive endocrinology, Infertility, Menopause, Contraception | **done** 20 Oct — 0 key changes, 11 patched |
 | 6 | Ovary, Uterus & endometrium, Vulva & vagina, Pelvic floor | **done** 20 Oct — 2 keys changed (YUZU 37.1 A → B, 37.6 B → E), 13 patched |
-| 7 | Early pregnancy, Abortion, Medical disease in pregnancy, Anemia & thalassemia | running (resumed 20 Oct 13:19) |
-| 8 | Fetal surveillance, Preterm & PROM, Multifetal | running (resumed 20 Oct 13:19) |
-| 9 | Puerperium, Lactation, PPH, APH, Hypertension in pregnancy | running (resumed 20 Oct 13:19) |
-| 10 | Pelvic pain & endometriosis, Anatomy, Sexual assault, Ethics & epidemiology, Sexual health | running (resumed 20 Oct 13:19) |
+| 7 | Early pregnancy, Abortion, Medical disease in pregnancy, Anemia & thalassemia | **done** 20 Oct — 0 key changes, 36 patched |
+| 8 | Fetal surveillance, Preterm & PROM, Multifetal | **done** 20 Oct — 0 key changes, 39 patched |
+| 9 | Puerperium, Lactation, PPH, APH, Hypertension in pregnancy | **done** 20 Oct — 0 key changes, 9 patched (+1 dup aligned in patch_1) |
+| 10 | Pelvic pain & endometriosis, Anatomy, Sexual assault, Ethics & epidemiology, Sexual health | **done** 20 Oct — 0 key changes, 14 patched |
 
 To resume: launch one agent per paused group with BRIEF.md + own_<N>.txt (same prompt as groups 1–3), then
 `node parts/obaudit/build_fixes.js` (it merges every patch_*.json), sumcheck, build both sites, push, republish MDCU.
@@ -37,3 +37,13 @@ OB-GYN MEQ audit: not started, user will say when (remind him).
 - **PCOS / POI wording (groups 7–10 dups):** ACOG PB 194 (2018) ultrasound ≥12 follicles 2–9 mm or volume >10 mL (Intl PCOS
   Guideline ≥20 = tier 3); POI per ACOG CO 605 FSH >30–40 IU/L twice ≥1 month apart (ESHRE >25 = tier 3); letrozole first line is the
   Intl PCOS Guideline 2023, not ACOG.
+
+## Leftovers after all groups (not patchable by the brief / low priority)
+- `variants` and `guide` fields were out of scope: some still mention maternal O2 for category II (ACOG CPG 10, 2025 no longer
+  recommends routine O2) — MDCU79|RoB|FS 1, YUZU||14.3, 14.8, 43.3; late-preterm steroid variant YUZU||13.5; RCOG/NICE in the guide
+  of MDCU79|RoB|Multifetal 1.
+- ACOG supersessions met in this audit: CPG 8 (2024) labor; CPG 9 (2025) ripening/induction ← PB 107; CPG 10 (2025) intrapartum FHR
+  ← PB 106/116; CPG 11 (Mar 2026) endometriosis diagnosis ← PB 114/CO 760 (diagnosis part); CPG 12 cerclage ← PB 142.
+- Candidates for a second look (tier 1 not readable, key kept + ⚠): YUZU 12.13 septic abortion with viable fetus (Williams → evacuate,
+  key = continue pregnancy); YUZU 45.5 misoprostol (no option fits ACOG PB 200); MDCU79 RoB Multifetal 1 twin B larger breech;
+  MDCU78 RoC ANC 6 aspirin (no option = continue to delivery); YUZU 37.1 / 37.6 if RTCOG endorses FC for PMB.
