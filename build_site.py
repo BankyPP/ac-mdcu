@@ -75,6 +75,8 @@ for w in cfg.get('wards',[]):
     js.append(f'WARDS[{wid}].MQ=[];')
     for f in sorted(glob.glob(os.path.join(d,'meq_b*.js')),key=lambda f:int(re.sub(r'\D','',os.path.basename(f)) or 0)):   # MEQ banks: QB.push(case) → W.MQ
         js.append('(function(QB){\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+'].MQ);')
+    mfx=os.path.join(d,'meq_fixes.js')   # MEQ field overrides (OB-GYN reference audit) — keys set|ro|orig[#k], see parts/meqaudit
+    if os.path.exists(mfx): js.append('(function(QB){\n'+open(mfx,encoding='utf-8').read()+'\n})(WARDS['+wid+'].MQ);')
     js.append(f'WARDS[{wid}].OS=[];')
     for f in sorted(glob.glob(os.path.join(d,'osce_b*.js')),key=lambda f:int(re.sub(r'\D','',os.path.basename(f)) or 0)):   # OSCE banks: QB.push(station) → W.OS (same shape as a MEQ case, one Part)
         js.append('(function(QB){\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+'].OS);')

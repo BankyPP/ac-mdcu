@@ -10,6 +10,7 @@ function load(dir){
   if(fs.existsSync(path.join(dir,'fixes.js')))run('fixes.js',{QB:W.QB});
   ['topics.js','tags.js','dups.js'].forEach(f=>{if(ls.includes(f))run(f,{W});});
   ls.filter(f=>/^meq_b\d+\.js$/.test(f)).sort((a,b)=>num(a)-num(b)).forEach(f=>run(f,{QB:W.MQ}));
+  if(fs.existsSync(path.join(dir,'meq_fixes.js')))run('meq_fixes.js',{QB:W.MQ});
   ls.filter(f=>/^osce_b\d+\.js$/.test(f)).sort((a,b)=>num(a)-num(b)).forEach(f=>run(f,{QB:W.OS}));
   ls.filter(f=>/^sum_(mcq|meq|osce)_.+\.js$/.test(f)).sort().forEach(f=>{const T=f.split('_')[1].toUpperCase();const before=W.SUMM[T].length;run(f,{SUMM:W.SUMM[T]});W.SUMM[T].slice(before).forEach(s=>{s._file=f;});});
   W.QB=W.QB.filter(q=>!q.notice);
