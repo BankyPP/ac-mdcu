@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "Onco",
  "title": "Gynecologic oncology",
- "intro": "<ul><li>Onco ครอบคลุม 5 อวัยวะ: <b>ovary</b> (ชนิดเนื้องอก–tumor marker, BRCA / RRSO, FIGO staging, การรักษา), <b>endometrium</b> (PMB work-up, risk factor, Lynch, EIN, molecular, adjuvant), <b>GTD</b>, <b>cervix</b> (ASCCP, screening, staging) และ <b>vulva / vagina</b> (คันเรื้อรัง → biopsy, Paget)</li><li>โจทย์ชอบ ‘จับคู่’: ชนิดเนื้องอก ↔ tumor marker / อายุ / ลักษณะ US (เด็ก → germ cell, วัยหมดประจำเดือน → epithelial, estrogen มาก → granulosa, hyperthyroid → struma ovarii)</li><li>หลักตัดสินซ้ำ ๆ: <b>รอยโรคเรื้อรังหรือสงสัยมะเร็ง → biopsy ก่อนรักษา</b>; <b>ผ่าตัด staging ก่อนแล้วค่อยตัดสิน adjuvant</b>; <b>ระยะ (stage) ชนะ grade</b> ในการเลือก adjuvant</li><li>แนวทางอ้างอิง: FIGO 2023 (endometrium), FIGO 2014 (ovary), FIGO 2018 (cervix), FIGO 2021 (vulva), ESGO-ESTRO-ESP, NCCN, ASCCP 2019, ACOG</li></ul>",
+ "intro": "<ul><li>Onco ครอบคลุม 5 อวัยวะ: <b>ovary</b> (ชนิดเนื้องอก–tumor marker, BRCA / RRSO, FIGO staging, การรักษา), <b>endometrium</b> (PMB work-up, risk factor, Lynch, EIN, molecular, adjuvant), <b>GTD</b>, <b>cervix</b> (ASCCP, screening, staging) และ <b>vulva / vagina</b> (คันเรื้อรัง → biopsy, Paget)</li><li>โจทย์ชอบ ‘จับคู่’: ชนิดเนื้องอก ↔ tumor marker / อายุ / ลักษณะ US (เด็ก → germ cell, วัยหมดประจำเดือน → epithelial, estrogen มาก → granulosa, hyperthyroid → struma ovarii)</li><li>หลักตัดสินซ้ำ ๆ: <b>รอยโรคเรื้อรังหรือสงสัยมะเร็ง → biopsy ก่อนรักษา</b>; <b>ผ่าตัด staging ก่อนแล้วค่อยตัดสิน adjuvant</b>; <b>ระยะ (stage) ชนะ grade</b> ในการเลือก adjuvant</li><li>แนวทางอ้างอิง (ลำดับ): ACOG + Williams ก่อนเสมอ (PB 53 GTD; Screening for Cervical Cancer เม.ย. 2026 และ PB 168; CO 734 PMB; PB 182 BRCA; PB 147 Lynch; PB 149 endometrial cancer) และ ASCCP 2019 ที่ ACOG รับรอง; FIGO staging (2023 endometrium, 2014 ovary, 2018 cervix, 2021 vulva), ESGO-ESTRO-ESP, NCCN เป็น tier 3 ใช้เสริมเมื่อ tier 1 ไม่ได้ระบุ</li></ul>",
  "groups": [
   {
    "title": "มะเร็งและเนื้องอกรังไข่",
@@ -122,7 +122,7 @@ SUMM.push({
      "pattern": [
       "<b>HBOC (BRCA1 / BRCA2)</b>: lifetime ovarian ~39–46% (BRCA1), ~10–27% (BRCA2) เทียบประชากรทั่วไป ~1.3%; breast BRCA1 ~55–72% / BRCA2 ~45–69%; ผู้ป่วย epithelial ovarian ca ~15–25% มี germline mutation; BRCA1 breast ca มัก triple-negative, ovarian = high-grade serous",
       "คำถาม ‘mostly associated’ ของ BRCA1 → <b>breast cancer</b> (ความเสี่ยงสัมบูรณ์สูงกว่า) รองลงมา ovarian",
-      "<b>Prevention</b>: ซักประวัติ 3 ชั่วอายุคน → genetic counseling + germline testing → <b>RRSO (salpingo-oophorectomy ทั้งสองข้าง) หลังมีบุตรครบ: BRCA1 อายุ 35–40, BRCA2 อายุ 40–45</b> ลด ovarian / tubal / peritoneal ca ~80% (high-grade serous เริ่มจาก fimbria); ไม่ต้องตัดมดลูกใน BRCA; หลัง RRSO ให้ HT ได้ถึง ~50 ปีถ้าไม่มี breast ca",
+      "<b>Prevention</b>: ซักประวัติ 3 ชั่วอายุคน → genetic counseling + germline testing → <b>RRSO (salpingo-oophorectomy ทั้งสองข้าง) หลังมีบุตรครบ: BRCA1 อายุ 35–40, BRCA2 อายุ 40–45</b> (ACOG PB 182) ลด ovarian / tubal / peritoneal ca ~80% (high-grade serous เริ่มจาก fimbria); ไม่ต้องตัดมดลูกใน BRCA; หลัง RRSO ให้ HT ได้ถึง ~50 ปีถ้าไม่มี breast ca",
       "<b>Lynch syndrome</b> (MLH1, MSH2, MSH6, PMS2, EPCAM): colorectal, <b>endometrial (เสี่ยงสูงสุดในผู้หญิง)</b>, ovarian — risk-reducing เป็น <b>TAH + BSO</b> หลังมีบุตรครบ; ถ้าครอบครัวเป็นมะเร็งลำไส้ + เยื่อบุโพรงมดลูก → นึก Lynch มากกว่า BRCA",
       "OCP ≥5 ปี ลด ovarian ca ~50% (ใช้ในพาหะ BRCA ได้); ไม่มี screening ที่ลด mortality (CA-125 + TVS ไม่ได้ผล)"
      ],
@@ -149,7 +149,7 @@ SUMM.push({
       "Incessant ovulation theory: ยิ่งตกไข่มากยิ่งเสี่ยง; <b>Protective</b>: OCP, ตั้งครรภ์ (ยิ่งหลายครั้งยิ่งลด), lactation, tubal ligation, salpingectomy, hysterectomy; <b>Risk</b>: อายุ, BRCA / Lynch, nulliparity, infertility, early menarche, late menopause, endometriosis (clear cell / endometrioid)",
       "<b>COC ลด</b>: ovarian ca 30–50% (≥5 ปี ~50%, ผลอยู่นานหลายสิบปี), endometrial ca ~50% (คงอยู่ ≥30 ปี), colorectal ca ~15–20%; <b>COC เพิ่มเล็กน้อย</b>: breast ca (RR ~1.2 ลดหลังหยุด ~10 ปี), cervical ca (ใช้ ≥5 ปีใน HPV positive)",
       "ประวัติครอบครัวมะเร็งปากมดลูก (เกี่ยวกับ HPV ไม่ใช่พันธุกรรม) หรือรังไข่ <b>ไม่ใช่ข้อห้ามของ COC</b> (MEC); ข้อห้ามจริง: สูบบุหรี่ ≥15 มวน / วัน อายุ ≥35, VTE / thrombophilia, migraine with aura, breast ca ปัจจุบัน ฯลฯ",
-      "Opportunistic salpingectomy ตอนผ่าตัดอื่น / ทำหมัน ลดความเสี่ยง high-grade serous ca"
+      "Opportunistic salpingectomy ตอนผ่าตัดอื่น / ทำหมัน ลดความเสี่ยง high-grade serous ca (ACOG CO 774)"
      ],
      "pearls": [
       "เห็น family history cancer แล้วเลือก ‘ห้ามใช้ COC’ — ที่ถูกคือ COC ลด endometrial และ ovarian ca",
@@ -280,7 +280,7 @@ SUMM.push({
       "กลุ่มอาการใดสัมพันธ์กับ endometrial cancer มากที่สุด (Lynch II)"
      ],
      "pattern": [
-      "<b>Lynch (HNPCC)</b>: autosomal dominant, MMR genes (MLH1, MSH2, MSH6, PMS2, EPCAM); มะเร็ง colorectal, <b>endometrial (นอกลำไส้ที่พบบ่อยที่สุด; lifetime ~40–60% ใน MLH1 / MSH2)</b>, ovarian ~10–20%, gastric, urothelial ฯลฯ; มักเป็น sentinel cancer นำหน้า colorectal; ‘Lynch II’ = แบบมีมะเร็งนอกลำไส้",
+      "<b>Lynch (HNPCC)</b> (ACOG PB 147): autosomal dominant, MMR genes (MLH1, MSH2, MSH6, PMS2, EPCAM); มะเร็ง colorectal, <b>endometrial (นอกลำไส้ที่พบบ่อยที่สุด; lifetime ~40–60% ใน MLH1 / MSH2)</b>, ovarian ~10–20%, gastric, urothelial ฯลฯ; มักเป็น sentinel cancer นำหน้า colorectal; ‘Lynch II’ = แบบมีมะเร็งนอกลำไส้",
       "<b>Surveillance</b>: endometrial biopsy ทุก 1–2 ปีเริ่มอายุ 30–35 ปี, colonoscopy ทุก 1–2 ปีเริ่ม 20–25 ปี; <b>risk-reducing TAH + BSO</b> เมื่อมีบุตรครบ (มัก ~40–45 ปี)",
       "<b>Universal MMR IHC / MSI testing</b> ในมะเร็งเยื่อบุโพรงมดลูกทุกราย; MMR deficient → ประเมิน Lynch (MLH1 loss: ตรวจ promoter hypermethylation ก่อนส่ง germline); Amsterdam II (3-2-1)",
       "ไม่มีการ screening ด้วย endometrial sampling ในกลุ่มเสี่ยงอื่น (PCOS, estrogen, tamoxifen, obesity) ถ้าไม่มีอาการ — ให้ประเมินเมื่อมี abnormal bleeding",
@@ -331,7 +331,7 @@ SUMM.push({
      ],
      "pattern": [
       "มะเร็งเยื่อบุโพรงมดลูก <b>stage ด้วยการผ่าตัด</b> (FIGO 2023) ไม่ใช่ clinical: TH + BSO + nodal assessment ± peritoneal washing; omentectomy ใน serous / clear cell / carcinosarcoma; minimally invasive surgery เป็นมาตรฐาน (LAP2, LACE)",
-      "<b>Sentinel LN mapping</b> (ฉีด indocyanine green ที่ cervix) แนะนำใน early-stage ดูจำกัดในมดลูก (NCCN, ESGO-ESTRO-ESP): NPV สูง (FIRES), ultrastaging พบ low-volume metastasis, ลด morbidity (lymphedema, lymphocyst); map ไม่ติดข้างไหนในกลุ่มเสี่ยง → side-specific lymphadenectomy; ใน low-risk อาจละ nodal staging",
+      "<b>Sentinel LN mapping</b> (ฉีด indocyanine green ที่ cervix) แนะนำใน early-stage ดูจำกัดในมดลูก (NCCN, ESGO-ESTRO-ESP — tier 3 เพราะ ACOG PB 149 ปี 2015 เก่ากว่าหลักฐาน SLN ปัจจุบัน): NPV สูง (FIRES), ultrastaging พบ low-volume metastasis, ลด morbidity (lymphedema, lymphocyst); map ไม่ติดข้างไหนในกลุ่มเสี่ยง → side-specific lymphadenectomy; ใน low-risk อาจละ nodal staging",
       "<b>Systematic lymphadenectomy ไม่เพิ่ม survival</b> ใน early stage (ASTEC)",
       "Poorly differentiated (grade 3) เป็น high-risk feature: ผ่าตัด staging ก่อนเสมอ แล้วจึง adjuvant (RT ± chemo ตามผลผ่าตัด); grade จาก FC ต่างจาก final ~15–20% (มักต่ำกว่าจริง)"
      ],
@@ -373,7 +373,7 @@ SUMM.push({
       "60 ปี well-differentiated adenocarcinoma staging พบ myometrial invasion + pelvic และ para-aortic nodes → management (concurrent chemoradiotherapy)"
      ],
      "pattern": [
-      "<b>ESGO-ESTRO-ESP</b>: low (IA endometrioid G1–2, LVSI ลบ / focal; IA–II POLEmut) → <b>ไม่ให้ adjuvant</b>; intermediate (IB G1–2, IA G3) → vaginal brachytherapy (ละได้ถ้าอายุ <60); high-intermediate (substantial LVSI, IB G3, stage II) → EBRT หรือ VBT ± chemo; high (III–IVA, p53abn ที่มี invasion, non-endometrioid ที่มี invasion) → chemotherapy ± RT",
+      "ACOG PB 149 (2015) / Williams Gynecology (tier 1, ก่อนยุค molecular class): ตัดสิน adjuvant จาก stage + ปัจจัยเสี่ยง (อายุ, grade, ความลึก myometrium, LVSI); ส่วนตารางต่อไปนี้ใช้ <b>ESGO-ESTRO-ESP</b> (tier 3) เสริม: low (IA endometrioid G1–2, LVSI ลบ / focal; IA–II POLEmut) → <b>ไม่ให้ adjuvant</b>; intermediate (IB G1–2, IA G3) → vaginal brachytherapy (ละได้ถ้าอายุ <60); high-intermediate (substantial LVSI, IB G3, stage II) → EBRT หรือ VBT ± chemo; high (III–IVA, p53abn ที่มี invasion, non-endometrioid ที่มี invasion) → chemotherapy ± RT",
       "<b>Node positive = stage IIIC</b> (IIIC1 pelvic, IIIC2 para-aortic) ไม่ว่า grade 1 → chemotherapy (carboplatin-paclitaxel) ร่วมกับ RT; PORTEC-3: chemoRT ดีกว่า RT เดี่ยวใน high-risk โดยเฉพาะ stage III; GOG-258: chemoRT ไม่ดีกว่า chemo ล้วนใน RFS แต่ลด pelvic / para-aortic recurrence",
       "Vaginal cuff เป็นที่กลับเป็นซ้ำบ่อยที่สุดหลังผ่าตัด early stage → เหตุผลของ VBT",
       "ติดตาม: ซักประวัติ ตรวจภายใน ทุก 3–6 เดือนใน 2–3 ปีแรก; ไม่ต้อง routine vault cytology / imaging ในผู้ไม่มีอาการ"
@@ -402,8 +402,8 @@ SUMM.push({
       "43 ปี para 3 มดลูกโตกว่าอายุครรภ์ US เหมือน complete mole ไม่ต้องการบุตร → management"
      ],
      "pattern": [
-      "Molar pregnancy มาตรฐาน = <b>suction curettage</b> (oxytocin หลังเริ่มดูด, Rh immunoglobulin ถ้า Rh negative); ไม่ใช้ medical induction / hysterotomy",
-      "<b>Hysterectomy (เก็บรังไข่)</b> เมื่อมีบุตรครบ / ไม่ต้องการบุตร โดยเฉพาะ ≥40 ปี — ลด post-molar GTN จาก ~15–20% เหลือ ~3–5%; theca lutein cyst ไม่ต้องตัดรังไข่",
+      "Molar pregnancy มาตรฐาน (ACOG PB 53 / Williams) = <b>suction curettage</b> (oxytocin หลังเริ่มดูด, Rh immunoglobulin ถ้า Rh negative); ไม่ใช้ medical induction / hysterotomy",
+      "<b>Hysterectomy (เก็บรังไข่)</b> เป็นทางเลือกตาม ACOG PB 53 / Williams เมื่อมีบุตรครบ / ไม่ต้องการบุตร โดยเฉพาะ ≥40 ปี — ลด post-molar GTN จาก ~15–20% เหลือ ~3–5%; theca lutein cyst ไม่ต้องตัดรังไข่",
       "ตัดมดลูกแล้วยังต้อง <b>ติดตาม hCG</b> จนเป็นลบ; prophylactic chemotherapy ไม่ทำเป็นรูทีน"
      ],
      "pearls": [
@@ -423,9 +423,9 @@ SUMM.push({
       "มดลูก 20 สัปดาห์ หลัง suction curettage → การดูแลต่อ (ติดตาม hCG + คุมกำเนิด และให้ chemo ถ้า hCG ขึ้น)"
      ],
      "pattern": [
-      "<b>FIGO 2018 post-molar GTN</b>: plateau 4 ค่า (±10%) ใน ≥3 สัปดาห์ (day 1, 7, 14, 21); rise >10% 3 ค่าติดใน ≥2 สัปดาห์ (day 1, 7, 14); histology choriocarcinoma — ไม่ใช้เกณฑ์ ‘hCG ค้าง 6 เดือน’ แล้ว",
+      "<b>เกณฑ์ post-molar GTN (ACOG PB 53; FIGO 2018 ตรงกันใน 2 ข้อแรก)</b>: plateau 4 ค่า (±10%) ใน ≥3 สัปดาห์ (day 1, 7, 14, 21); rise >10% 3 ค่าติดใน ≥2 สัปดาห์ (day 1, 7, 14); histology choriocarcinoma — ACOG PB 53 ยังมีเกณฑ์ ‘hCG ตรวจพบนาน ≥6 เดือนหลังขูด’ ด้วย แต่ FIGO 2018 ตัดออก",
       "เคส hCG ค้างแต่นับได้ plateau แค่ 3 ค่า และเพิ่มแค่ ~6% → <b>ยังไม่เข้าเกณฑ์ ตรวจซ้ำอีก 1 สัปดาห์</b> แล้วค่อยวินิจฉัย GTN → staging + WHO score → chemotherapy",
-      "ติดตาม: hCG ทุกสัปดาห์จนปกติ 3 ครั้ง แล้วรายเดือน (complete mole 3 เดือน; partial mole ตรวจยืนยัน 1 ครั้งหลัง 1 เดือน) + คุมกำเนิดฮอร์โมน (ไม่ใส่ IUD จน hCG ปกติ)",
+      "ติดตาม: hCG ทุกสัปดาห์จนปกติ 3 ครั้ง แล้วรายเดือน (ระยะต่างกันตามแนวทาง: ACOG PB 53 ≈ 6 เดือน; FIGO 2021 complete mole 3 เดือน; partial mole ตรวจยืนยัน 1 ครั้งหลัง 1 เดือนตาม FIGO 2021) + คุมกำเนิดฮอร์โมน (ไม่ใส่ IUD จน hCG ปกติ)",
       "ปัจจัยเสี่ยง GTN: hCG >100,000, มดลูกโตกว่าอายุครรภ์ ≥20 สัปดาห์, theca lutein cyst >6 cm, อายุ >40; low risk (WHO score 0–6) → methotrexate หรือ actinomycin D; high risk (≥7) → EMA-CO"
      ],
      "pearls": [
@@ -501,11 +501,11 @@ SUMM.push({
       "ข้อใดเป็น precancerous lesion ของ CA cervix (CIN 2)"
      ],
      "pattern": [
-      "<b>HSIL cytology = colposcopy + directed biopsy</b> (ห้ามซ้ำ Pap / ตรวจ HPV / ตัดมดลูก); ASCCP 2019 ≥25 ปี ถ้าความเสี่ยง CIN3+ ≥60% (เช่น HSIL + HPV16) → expedited LEEP preferred; ตั้งครรภ์: ไม่ ECC ไม่รักษา CIN",
-      "<b>CIN3 ต้องรักษา</b> (excision LEEP / CKC เป็นหลัก; ablation เมื่อ TZ เห็นครบและไม่สงสัย glandular / invasive); hysterectomy ไม่ใช่การรักษาแรก",
+      "<b>HSIL cytology = colposcopy + directed biopsy</b> (ห้ามซ้ำ Pap / ตรวจ HPV / ตัดมดลูก); ASCCP 2019 (ACOG รับรอง) ≥25 ปี ถ้าความเสี่ยง CIN3+ ≥60% (เช่น HSIL + HPV16) → expedited LEEP preferred; ตั้งครรภ์: ไม่ ECC ไม่รักษา CIN",
+      "<b>CIN3 ต้องรักษา</b> (excision LEEP / CKC หรือ ablation เมื่อ TZ เห็นครบและไม่สงสัย glandular / invasive — ASCCP 2019, ACOG รับรอง); hysterectomy ไม่ใช่การรักษาแรก",
       "<b>ข้อบ่งชี้ diagnostic excision</b>: unsatisfactory colposcopy / TZ type 3, ECC positive, cytology–histology discordance, AIS / AGC-favor neoplasia, สงสัย microinvasion; CKC เหมาะกับ AIS / microinvasion / type 3 ลึก / ต้องการ margin ไม่มี thermal artifact",
       "TZ type 1 = บน ectocervix; type 2 = เข้า canal แต่เห็นครบ; type 3 = เห็นไม่ครบ",
-      "Precancer = CIN (histology) CIN1 ≈ LSIL, CIN2 / CIN3 ≈ HSIL, AIS; ASC-US / ASC-H / AGC เป็นผล cytology ไม่ใช่รอยโรค; หลังรักษา HPV-based test ที่ 6 เดือน ติดตาม ≥25 ปี"
+      "Precancer = CIN (histology) CIN1 ≈ LSIL, CIN2 / CIN3 ≈ HSIL, AIS; ASC-US / ASC-H / AGC เป็นผล cytology ไม่ใช่รอยโรค; หลังรักษา HPV-based test ที่ 6 เดือน ติดตามต่อเนื่อง (ASCCP 2019 ≥25 ปี; ACOG PB 168 ≥20 ปี)"
      ],
      "pearls": [
       "เห็น biopsy ‘cervicitis’ แล้วสบายใจ — HSIL + TZ3 ต้อง excision",
@@ -550,9 +550,9 @@ SUMM.push({
       "17 ปี ยังไม่เคยฉีด HPV vaccine → HPV vaccination"
      ],
      "pattern": [
-      "ACOG / USPSTF: 21–29 ปี cytology ทุก 3 ปี; 30–65 ปี primary HPV / cotest ทุก 5 ปี หรือ cytology ทุก 3 ปี; ไทย: HPV DNA 30–60 ปี ทุก 5 ปี",
-      "<b>หยุดเมื่อ >65 ปี</b> + adequate negative screening + ไม่มี CIN2+ ใน 25 ปี; hysterectomy ด้วยเหตุ benign หยุดได้ ถ้ามี CIN2+ คัดกรองต่อ 25 ปี; HIV / immunosuppression คัดกรองต่อเนื่อง",
-      "<b>HPV vaccine</b>: routine 11–12 ปี (เริ่ม 9), catch-up ถึง 26 ปี; เริ่ม <15 ปี = 2 เข็ม, ≥15 ปี = 3 เข็ม; ยังไม่ต้องคัดกรองก่อน 21 ปี; ห้ามฉีดตั้งครรภ์"
+      "ACOG (Screening for Cervical Cancer เม.ย. 2026): 21–29 ปี cytology ทุก 3 ปี; 30–65 ปี primary hrHPV ทุก 5 ปี (preferred) / cotest ทุก 5 ปี (ถ้าไม่มี primary HPV หรือผู้ป่วยเลือก) / cytology ทุก 3 ปี (ถ้าไม่มี HPV); self-collected hrHPV ทุก 3 ปีได้เมื่อมีระบบติดตาม; USPSTF 2018 ใกล้เคียงกัน; ไทย: HPV DNA 30–60 ปี ทุก 5 ปี",
+      "<b>หยุดเมื่อ >65 ปี</b> + adequate negative screening (cytology ปกติ 3 ครั้ง หรือ cotest ปกติ 2 ครั้ง ภายใน 10 ปี — ACOG 2026) + ไม่มีประวัติ CIN2+; hysterectomy ที่เอา cervix ออกด้วยเหตุ benign หยุดได้ ถ้ามี CIN2+ คัดกรองต่อ (ASCCP 2019 นาน 25 ปี; ACOG PB 168 ≥20 ปี); HIV / immunosuppression คัดกรองต่อเนื่อง",
+      "<b>HPV vaccine</b> (ACOG CO 704 ยึด ACIP): routine 11–12 ปี (เริ่ม 9), catch-up ถึง 26 ปี; เริ่ม <15 ปี = 2 เข็ม, ≥15 ปี = 3 เข็ม (ตารางเข็มอาจถูกปรับ ตรวจฉบับล่าสุด); ยังไม่ต้องคัดกรองก่อน 21 ปี; ห้ามฉีดตั้งครรภ์"
      ],
      "pearls": [
       "‘ไม่มีมดลูกแล้วไม่ต้องตรวจ’ จริงเฉพาะ benign ไม่มี CIN2+",

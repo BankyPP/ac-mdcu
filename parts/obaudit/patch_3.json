@@ -1,0 +1,176 @@
+{
+ "MDCU78|RoB|9": {
+  "why": "เกณฑ์วินิจฉัย postmolar GTN (<b>ACOG PB 53, 2004</b>; FIGO 2018 ใช้ 2 ข้อแรกเหมือนกัน): (1) <b>hCG plateau 4 ค่า (±10%) ตลอด 3 สัปดาห์</b> (day 1, 7, 14, 21) (2) <b>hCG เพิ่ม ≥10% ใน 3 ค่า ตลอด 2 สัปดาห์</b> (day 1, 7, 14) (3) พยาธิเป็น choriocarcinoma (ACOG PB 53 ยังมีเกณฑ์ hCG ตรวจพบนาน ≥6 เดือนหลังขูดด้วย ซึ่ง FIGO 2018 ตัดออก — โจทย์นี้ยังไม่ถึง) — ข้อนี้ค่าที่ plateau คือ 5,000, 5,200, 5,300 = <b>3 ค่าในช่วง 2 สัปดาห์</b> (ค่า day 0 = 100,000 ไม่นับเพราะลดลงมาก) และเพิ่มจาก 5,000 → 5,300 = 6% (&lt;10%) จึงยัง<b>ไม่ครบเกณฑ์</b> ต้องตรวจซ้ำอีก 1 สัปดาห์ — ถ้า day 28 ยังอยู่ในช่วง ±10% (หรือเพิ่ม ≥10%) จึงวินิจฉัย GTN แล้วทำ staging + WHO score และเริ่ม chemotherapy",
+  "flag": "⚠ คีย์ไม่แน่ใจ B/C? — ตามเกณฑ์ ACOG PB 53 (2004) / FIGO 2018 plateau ต้องเป็น hCG <b>4 ค่า</b> (±10%) ในช่วง 3 สัปดาห์ (day 1, 7, 14, 21); ข้อนี้ plateau แค่ 3 ค่า (day 7, 14, 21) และ rise รวมแค่ 6% (ไม่ถึง ≥10%) จึงยังไม่เข้าเกณฑ์ GTN → ติดตามอีก 1 สัปดาห์ (C); ถ้า day 28 ยังคงที่ → เข้าเกณฑ์ → chemotherapy (B)",
+  "opinion": "⚠ คีย์ลังเล B/C? — ตามเกณฑ์ ACOG PB 53 / FIGO แบบเคร่งครัดยังไม่ครบ 4 ค่า จึงตอบ C ความมั่นใจปานกลาง-สูง; อย่างไรก็ตามในทางปฏิบัติบางตำรา (หรืออาจารย์บางท่าน) ถือว่า hCG ไม่ลดลง 3 สัปดาห์ติดกัน = plateau และตอบ B ได้ ควรรู้ทั้งสองแบบ — ถ้าข้อสอบให้ค่าคงที่ครบ 4 ค่า ตอบ chemotherapy",
+  "summary": [
+   "Complete mole: 46,XX (androgenetic) ไม่มีทารก, p57 negative, เสี่ยง GTN 15–20%; partial mole: triploid (69,XXY หรือ 69,XXX) มีส่วนของทารก, p57 positive, เสี่ยง GTN 1–5%",
+   "หลังขูด: ตรวจ hCG ทุกสัปดาห์จนเป็นปกติ 3 ครั้งติดกัน แล้วติดตามรายเดือน (ระยะติดตามหลังปกติต่างกันตามแนวทาง: ACOG PB 53 ≈ 6 เดือน; FIGO 2021 complete mole 3 เดือน; partial mole ตรวจซ้ำ 1 ครั้งหลัง 1 เดือนตาม FIGO 2021) และคุมกำเนิดด้วยยาฮอร์โมนระหว่างติดตาม",
+   "Postmolar GTN (ACOG PB 53; FIGO 2018): plateau 4 ค่า ±10% ใน 3 สัปดาห์ · rise ≥10% 3 ค่าใน 2 สัปดาห์ · histology choriocarcinoma (ACOG PB 53 เพิ่ม hCG ตรวจพบนาน ≥6 เดือน; FIGO 2018 ตัดออก)",
+   "เมื่อเป็น GTN: ตรวจ CXR (ถ้ามี lung met → CT chest, brain MRI, abdomen) → FIGO anatomic stage + WHO prognostic score",
+   "WHO score 0–6 = low risk → single-agent MTX หรือ actinomycin D; ≥7 = high risk → <b>EMA-CO</b>; PSTT/ETT → hysterectomy (ตอบสนองต่อ chemo น้อย, hPL)",
+   "Theca lutein cyst, hyperthyroidism, early-onset preeclampsia พบได้ใน complete mole ที่ hCG สูงมาก"
+  ]
+ },
+ "MDCU78|RoD|GTD 1": {
+  "why": "หลังขูด mole ต้อง <b>ตรวจ quantitative β-hCG ทุกสัปดาห์จนปกติ</b> แล้ว (complete mole) <b>ทุกเดือนต่อ</b> (ระยะต่างกันตามแนวทาง: ACOG PB 53 ≈ 6 เดือน; FIGO 2021 complete mole 3 เดือน; partial mole ตรวจยืนยันซ้ำ 1 ครั้งหลังปกติ 1 เดือนตาม FIGO 2021) ร่วมกับ<b>คุมกำเนิดที่เชื่อถือได้</b> (hormonal contraception แนะนำ; ไม่ใส่ IUD จน hCG ปกติ) เพื่อไม่ให้การตั้งครรภ์ใหม่บดบังการแปลผล hCG → ช้อย A ถูก. ถ้า hCG <b>rise ≥10% ใน 3 ค่าต่อเนื่องภายใน 2 สัปดาห์</b> หรือ <b>plateau 4 ค่าใน 3 สัปดาห์</b> หรือพยาธิเป็น choriocarcinoma = <b>postmolar GTN</b> (เกณฑ์ ACOG PB 53) → workup (pelvic US, CXR ± CT) ให้ FIGO stage/WHO score แล้วให้ <b>chemotherapy</b> (low risk: methotrexate หรือ actinomycin D) → ช้อย B ถูก",
+  "summary": [
+   "Complete mole 46,XX (paternal ทั้งหมด), ไม่มี fetal tissue, hCG สูงมาก, เสี่ยง GTN ~15–20%; partial mole triploid 69,XXY, มี fetal parts, เสี่ยง GTN ~0.5–5%",
+   "อาการ complete mole: vaginal bleeding, มดลูกโตกว่าอายุครรภ์, hyperemesis, early-onset preeclampsia (&lt;20 สัปดาห์), hyperthyroidism, theca lutein cysts",
+   "รักษา: suction curettage (+ oxytocin หลังเริ่มขูด), Rh immunoglobulin ใน Rh negative; CXR baseline",
+   "ปัจจัยเสี่ยง postmolar GTN: hCG &gt;100,000 mIU/mL, มดลูกโตกว่าอายุครรภ์/≥20 สัปดาห์, theca lutein cyst &gt;6 cm, อายุ &gt;40, เคยเป็น mole",
+   "เกณฑ์ postmolar GTN (ACOG PB 53): plateau 4 ค่าใน 3 สัปดาห์, rise ≥10% 3 ค่าใน 2 สัปดาห์, hCG ตรวจพบนาน ≥6 เดือน, histologic choriocarcinoma (FIGO 2018 ตัดเกณฑ์ 6 เดือนออกแล้ว)",
+   "ติดตาม: hCG ทุกสัปดาห์จนปกติ → ทุกเดือนต่อ (ACOG PB 53 ≈ 6 เดือน; FIGO 2021 complete mole 3 เดือน); คุมกำเนิดด้วยฮอร์โมนช่วงติดตาม",
+   "GTN low risk (WHO score ≤6): single-agent methotrexate หรือ actinomycin D; high risk (≥7): EMA-CO"
+  ]
+ },
+ "MDCU78|RoC|Gyn First half bleeding 6": {
+  "why": "Molar pregnancy รักษาโดย<b>เอาเนื้อ mole ออก</b>: <b>ACOG PB 53 (2004) / Williams</b>: suction curettage เป็นวิธีมาตรฐานทุกขนาดมดลูก แต่ในหญิงที่<b>ไม่ต้องการมีบุตรแล้ว</b> <b>hysterectomy (เก็บรังไข่ได้)</b> เป็นทางเลือกที่เหมาะสม โดยเฉพาะอายุ <b>≥40 ปี</b> ซึ่งเสี่ยง postmolar GTN สูง (อายุ &gt;40 เป็น risk factor) — hysterectomy ลดความเสี่ยงการลุกลามเฉพาะที่ (invasive mole) และลดโอกาสเกิด GTN จากราว 15–20% เหลือราว 3–5% แต่<b>ยังต้องติดตาม hCG</b>เพราะมี metastasis ได้; theca lutein cysts ไม่ต้องตัดรังไข่ (ยุบเองหลัง hCG ลด)",
+  "summary": [
+   "Complete mole: 46,XX (ทั้งหมดจากพ่อ), ไม่มีทารก, hCG สูงมาก, US snowstorm/multiple cystic spaces; risk GTN 15–20%",
+   "Partial mole: triploid 69,XXY, มีทารก (มักผิดปกติ), risk GTN 1–5%",
+   "ก่อนรักษา: CBC, blood group, LFT/RFT, TFT, hCG, CXR",
+   "รักษา (ACOG PB 53 / Williams): <b>suction curettage</b> (มาตรฐาน) หรือ <b>hysterectomy</b> ในผู้ไม่ต้องการมีบุตร โดยเฉพาะอายุ ≥40 ปี; เลี่ยง medical induction, hysterotomy; ให้ anti-D ถ้า Rh negative",
+   "ติดตาม hCG ทุก 1–2 สัปดาห์จนเป็นลบ แล้วรายเดือนต่อ (ACOG PB 53 ≈ 6 เดือน; FIGO 2021 complete mole 3 เดือน) พร้อมคุมกำเนิดที่ได้ผล (COC ใช้ได้)",
+   "Postmolar GTN (ACOG PB 53 / FIGO): hCG plateau 4 ค่าใน 3 สัปดาห์, เพิ่ม ≥10% 3 ค่าใน 2 สัปดาห์, หรือ histology choriocarcinoma (ACOG: หรือ hCG ตรวจพบนาน ≥6 เดือน)"
+  ]
+ },
+ "MDCU79|RoB|GTD 1": {
+  "why": "Molar pregnancy ต้องนำเนื้อ mole ออกจากโพรงมดลูก: <b>ACOG PB 53 (2004) / Williams</b> ระบุวิธีมาตรฐานคือ <b>suction curettage</b> (ปากมดลูกขยายเล็กน้อย, เริ่มให้ oxytocin หลังเริ่มดูดออกเพื่อลดเลือดออก) <b>ในหญิงที่ยังต้องการมีบุตร</b>. แต่ในหญิงที่<b>มีบุตรครบแล้ว/ไม่ต้องการบุตรเพิ่ม</b> ทำ <b>hysterectomy (เก็บรังไข่ได้)</b> ได้เลย โดยปล่อย mole ไว้ในมดลูก — <b>อายุ &gt;40 ปี</b>เป็นปัจจัยเสี่ยงของ postmolar GTN (complete mole ราว 15–20%) และการตัดมดลูกลดโอกาสเกิด GTN ลงเหลือราว 3–5% (แต่ <b>ยังต้องติดตาม β-hCG</b> เพราะยังมี metastatic GTN ได้); theca lutein cyst ไม่ต้องตัดรังไข่ (ยุบเองเมื่อ hCG ลด). ในข้อนี้ผู้ป่วยอายุ 43 ปี มีบุตรแล้วและไม่ต้องการบุตรเพิ่ม → hysterectomy",
+  "summary": [
+   "Complete mole: karyotype 46,XX (paternal) ไม่มีเนื้อเยื่อทารก, hCG สูงมาก, มดลูกโตเกินอายุครรภ์, hyperemesis, เลือดออกทางช่องคลอด, theca lutein cyst, preeclampsia ก่อน 20 สัปดาห์, hyperthyroidism; US: heterogeneous mass มี cystic space เล็ก ๆ จำนวนมาก (snowstorm) ไม่มีตัวอ่อน",
+   "ตรวจก่อนรักษา: CBC, blood group/Rh, TFT, renal/liver function, chest X-ray; ผู้ที่เป็น Rh-negative ให้ anti-D immunoglobulin",
+   "รักษา: <b>suction curettage</b> เป็นมาตรฐาน (ไม่ใช้ medical induction ก่อนระบาย; oxytocin เริ่มหลังเริ่มดูดออก) — <b>hysterectomy</b> เป็นทางเลือกเมื่อมีบุตรครบ/ไม่ต้องการบุตรอีก (อายุ ≥40 ปีเป็นข้อบ่งชี้ที่ดี) และลดความเสี่ยง postmolar GTN เหลือราว 3–5%",
+   "<b>Prophylactic chemotherapy</b> ไม่ใช่ routine — พิจารณาในรายเสี่ยงสูงที่ติดตามไม่ได้",
+   "<b>ติดตาม β-hCG ทุกสัปดาห์จนไม่พบ</b> แล้วทุกเดือนต่อ (ACOG PB 53 ≈ 6 เดือน; FIGO 2021 complete mole 3 เดือน) พร้อมคุมกำเนิดที่เชื่อถือได้ (ห้ามตั้งครรภ์ในช่วงติดตาม; ไม่ใส่ IUD จนกว่า hCG จะปกติ)",
+   "<b>Postmolar GTN</b> (วินิจฉัยเมื่อ — ACOG PB 53): hCG plateau 4 ค่าใน 3 สัปดาห์, hCG เพิ่ม &gt;10% ใน 3 ค่าต่อเนื่อง 2 สัปดาห์, hCG ยังตรวจพบหลัง 6 เดือน หรือพยาธิเป็น choriocarcinoma → staging (FIGO/WHO score) แล้วให้ chemotherapy (low risk: methotrexate หรือ actinomycin D)",
+   "ความเสี่ยง postmolar GTN: complete mole ราว 15–20%, partial mole ราว 1–5%",
+   "ดู 78C Gyn First half bleeding 6 และ 78D GTD 1"
+  ]
+ },
+ "MDCU78|RoB|46": {
+  "why": "<b>CIN 3 (histologic HSIL)</b> ทุกรายต้องรักษา (ยกเว้นตั้งครรภ์) และ ASCCP 2019 (ACOG รับรอง) แนะนำรักษา CIN 3 ด้วย <b>excision</b> (หรือ ablation เมื่อ colposcopy adequate, TZ type 1–2 และไม่สงสัย glandular/invasive) โดย excision ได้ชิ้นเนื้อตรวจ margin และตัด occult invasive cancer ออกได้ (พบ occult invasion ได้ในชิ้น excision บางราย) — ในรายนี้ conization จึงเป็น <b>therapeutic excision</b> ของ CIN 3; LEEP ทำได้เท่ากันและมักเป็นตัวเลือกแรก ส่วน CKC เลือกเมื่อต้องการ margin ไม่มี thermal artifact"
+ },
+ "MDCU78|RoD|Cervical screening 3": {
+  "why": "หยุดคัดกรองได้เมื่อ <b>อายุ &gt;65 ปี</b> และมี <b>adequate negative prior screening</b> (ACOG 2026 <b>Screening for Cervical Cancer</b>: cytology ปกติ 3 ครั้งติดกัน หรือ cotest ปกติ 2 ครั้งติดกัน ภายใน 10 ปีก่อนหยุด โดยครั้งล่าสุดภายใน 3 ปี (cytology) / 5 ปี (cotest)) และ<b>ไม่มีประวัติ CIN2+ / มะเร็งปากมดลูก</b> (ถ้ามีต้องคัดกรองต่อ — ASCCP 2019 นาน 25 ปี, ACOG PB 168 ปี 2016 ≥20 ปี) — หญิง 70 ปีที่ตรวจสม่ำเสมอผลปกติตั้งแต่อายุ 60 เข้าเกณฑ์",
+  "wrong": {
+   "A": "ACOG/USPSTF เริ่ม cytology ทุก 3 ปีที่อายุ <b>21 ปี</b> ไม่ว่าเริ่มมีเพศสัมพันธ์เมื่อไร — แต่ถ้าใช้ ACS (เริ่ม primary HPV ที่ 25 ปี; ไม่ใช่แนวทางตามโจทย์) หรือโปรแกรมไทย (30–60 ปี) ผู้หญิงคนนี้ยังไม่ต้องคัดกรอง",
+   "B": "Hysterectomy ที่มีประวัติ <b>CIN2+</b> ต้องคัดกรองต่อ (vaginal cytology/HPV) ต่อเนื่อง (ระยะ: ASCCP 2019 = 25 ปี, ACOG PB 168 = ≥20 ปี); ที่หยุดได้คือ hysterectomy ที่เอา cervix ออกด้วยเหตุ benign และไม่มีประวัติ CIN2+ / มะเร็งปากมดลูก (ACOG 2026)",
+   "C": "หญิงที่มีเพศสัมพันธ์กับหญิงยังติด HPV ได้ (ผิวหนังสัมผัส, อุปกรณ์, ประวัติคู่ชาย) ต้องคัดกรองเหมือนทั่วไป",
+   "E": "ฉีดวัคซีน HPV แล้วยังต้องคัดกรองตามปกติ เพราะวัคซีนไม่ครอบคลุมทุกสายพันธุ์และอาจติดเชื้อก่อนฉีด"
+  },
+  "summary": [
+   "ACOG (Screening for Cervical Cancer, เม.ย. 2026): 21–29 ปี cytology ทุก 3 ปี; 30–65 ปี primary hrHPV ทุก 5 ปี (preferred), cotest ทุก 5 ปี (เมื่อไม่มี primary HPV หรือผู้ป่วยเลือก), cytology ทุก 3 ปี (เมื่อไม่มี HPV); self-collected hrHPV ทุก 3 ปีได้เมื่อมีระบบแจ้งผลและติดตาม · USPSTF 2018: cytology ทุก 3 ปี / hrHPV ทุก 5 ปี / cotest ทุก 5 ปี",
+   "ACS 2020 (ไม่ใช่ tier-1; มีฉบับปรับปรุง ธ.ค. 2025): เริ่ม 25 ปี primary HPV ทุก 5 ปีถึง 65 ปี",
+   "ไทย: สิทธิประโยชน์คัดกรอง HPV DNA ในหญิงอายุ 30–60 ปี ทุก 5 ปี (มี self-sampling)",
+   "หยุด &gt;65 ปี: adequate negative prior screening (ACOG 2026) + ไม่มีประวัติ CIN2+; ถ้ามีประวัติ CIN2+ คัดกรองต่อแม้เกิน 65 (ASCCP 2019 นาน 25 ปี; ACOG PB 168 ≥20 ปี)",
+   "Hysterectomy (มี cervix ออกด้วย) ด้วยเหตุ benign ไม่มี CIN2+ → หยุด (ACOG 2026); มีประวัติ CIN2+ หรือมะเร็ง → คัดกรองต่อ (25 ปีตาม ASCCP 2019; ≥20 ปีตาม ACOG PB 168)",
+   "กลุ่มต้องคัดกรองบ่อยกว่า: HIV, immunosuppression (transplant), DES exposure",
+   "WSW, ผู้ได้วัคซีน HPV → คัดกรองตามปกติ"
+  ]
+ },
+ "MDCU78|RoD|Cervical screening 4": {
+  "why": "ตาม ACOG Committee Opinion 704 (2017) ซึ่งยึด ACIP วัคซีน HPV แนะนำ routine ที่อายุ 11–12 ปี (เริ่มได้ตั้งแต่ 9 ปี) และ <b>catch-up ถึงอายุ 26 ปี</b> สำหรับผู้ที่ยังไม่ได้รับ — ได้ผลดีที่สุดก่อนสัมผัสเชื้อ. เริ่มฉีดที่อายุ ≥15 ปี ให้ <b>3 เข็ม</b> (0, 1–2, 6 เดือน); เริ่มก่อน 15 ปีให้ 2 เข็ม (0, 6–12 เดือน); WHO 2022 (tier 3) ยอมรับ single-dose ในอายุ 9–20 ปี — ตารางจำนวนเข็มของ ACIP/ACOG อาจถูกปรับ ควรตรวจฉบับล่าสุดก่อนใช้จริง. การคัดกรองยังไม่เริ่มในอายุ &lt;21 ปี ไม่ว่ามีเพศสัมพันธ์หรือไม่"
+ },
+ "YUZU||35.2": {
+  "why": "Punch biopsy ที่ ectocervix ทำใน<b>ห้องตรวจผู้ป่วยนอก ไม่ต้องให้ยาชา</b>ในทางปฏิบัติส่วนใหญ่ เพราะปวดเพียงเล็กน้อยครู่เดียว (cramp/ pinch) และการฉีดยาชาเองก็เจ็บ (ฉีดหลายครั้ง) ผู้จด ver.1 สรุปว่า ‘ไม่ฉีดยาก็[ทน]พอดี [คำกลางอ่านไม่ชัด] เจ็บตัว’ (ความหมายโดยรวม: ไม่ฉีดยาก็ทนได้ ฉีดเองก็เจ็บ). ยาชาเฉพาะที่ (topical/ local anesthetic) (lidocaine spray/gel, 1% lidocaine) เป็นทางเลือกสำหรับผู้ที่กังวลหรือหลาย biopsy ได้; <b>paracervical block</b> ใช้ในหัตถการที่ต้องขยาย/ดึงปากมดลูก (LEEP, conization, ขูดมดลูก, ทำแท้ง) ซึ่งตรงกับข้อความที่ผู้จด ver.1 แปะ ส่วน epidural/general เกินความจำเป็น <b>หมายเหตุจาก ACOG:</b> Clinical Consensus <b>Pain Management for In-Office Uterine and Cervical Procedures</b> (พ.ค. 2025) แนะนำให้พูดคุยและเสนอวิธีลดปวดแก่ผู้ป่วยที่ทำหัตถการ in-office ทุกราย และระบุว่า lidocaine spray หรือการฉีด lidocaine อาจลดปวดจาก cervical biopsy ได้ (แต่ใช้เวลาเพิ่ม) — จึงไม่ใช่ ‘ห้ามให้ยาชา’; คีย์ A ตามผู้จดและตำราดั้งเดิมที่ว่า ectocervix มีปลายประสาทรับปวดน้อย",
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): คงคำตอบ A — ACOG Clinical Consensus (พ.ค. 2025) ให้เสนอการระงับปวดแก่ผู้ป่วยและระบุว่า lidocaine spray/ฉีด อาจลดปวด cervical biopsy ได้ ไม่ได้ระบุว่าต้องไม่ใช้ยาชา จึงไม่ขัดกับคีย์โดยตรง แต่ช้อยที่เป็น local anesthesia ก็มีเหตุผลตาม ACOG 2025 (ยังไม่ได้ตรวจ RTCOG/Williams ฉบับล่าสุด). ver.1 มีสัญญาณขัดกันเอง: วงช้อย A แต่ไฮไลต์ B ‘Paracervical block’ พร้อมจด ‘Good’ และแปะข้อความอธิบายการใช้ paracervical block (ใช้ในหัตถการที่ขยาย/ดึงปากมดลูก) — ver.2 ตอบ A ชัดเจน. เราเลือก A (cervical punch biopsy ในทางปฏิบัติ ไม่ต้องให้ยาชา) ตรงกับ ver.2 และ ver.1 (วงช้อย A); ความมั่นใจปานกลาง (~65%) ข้อ 35.13 ถามประเด็นเดียวกัน",
+  "wrong": {
+   "B": "B. Paracervical block: ให้ยาชารอบปากมดลูกที่ตำแหน่ง 3 และ 9 นาฬิกา เหมาะกับ LEEP/conization, hysteroscopy, dilation (ข้อความที่แปะใน ver.1: ‘Typical applications include pregnancy termination, hysteroscopy, cervical ablation or excision’) — เกินความจำเป็นสำหรับ punch biopsy; จะถูกถ้าโจทย์เป็น LEEP หรือ cold knife conization",
+   "C": "C. Epidural block: รุกรานและเกินความจำเป็นอย่างมาก (ผู้จด ver.1: ‘เกินเบอร์ไปเยอะ’) ใช้ในการคลอด/ผ่าตัดใหญ่",
+   "D": "D. Local anesthesia: ฉีดยาชาเข้าปากมดลูกต้องแทงเข็มหลายครั้งซึ่งเจ็บไม่ต่างจากตัวหัตถการ และไม่จำเป็นเป็นกิจวัตร (ver.1: ‘Nope’) — จะเป็นคำตอบถ้าโจทย์ถามหัตถการที่ใหญ่กว่า (เช่น LEEP ที่ใช้ lidocaine with epinephrine) หรือผู้ป่วยกังวลมาก หรือยึด ACOG Clinical Consensus 2025 ที่ว่า lidocaine ลดปวด biopsy ได้",
+   "E": "E. NSAIDs: ออกฤทธิ์ช้า (ต้องกินล่วงหน้า 30–60 นาที) และไม่ใช่วิธีหลัก (ver.1: ‘Nope กว่ายาจะออกฤทธิ์ …’); ให้กินหลังหัตถการหรือก่อนในผู้ที่ปวดประจำเดือนมากได้ แต่ไม่ใช่คำตอบที่ ‘ผู้ออกข้อสอบ’ ต้องการ"
+  }
+ },
+ "YUZU||35.13": {
+  "why": "Cervical punch biopsy ที่ ectocervix ปลายประสาทรับความเจ็บน้อย หัตถการเร็ว (ตัดครั้งเดียวหนีบแว้บเดียว) จึง<b>ไม่ต้องเตรียม/ไม่ต้องให้ยาชา (Nothing)</b> เป็นแนวปฏิบัติทั่วไป — การฉีดยาชา (Xylocaine/ paracervical block) ทำให้เจ็บจากเข็มหลายครั้ง ‘ฉีดยาเจ็บหลายครั้ง’ (ผู้จด ver.2) และไม่จำเป็น. ยาชา (topical/ lidocaine) พิจารณาเป็นรายกรณีเมื่อผู้ป่วยกังวลมากหรือต้องตัดหลายตำแหน่ง; epidural เป็นหัตถการใหญ่เกินจำเป็น. ความแตกต่างจาก LEEP/conization ที่ต้องให้ paracervical block <b>หมายเหตุจาก ACOG:</b> Clinical Consensus <b>Pain Management for In-Office Uterine and Cervical Procedures</b> (พ.ค. 2025) แนะนำให้พูดคุยและเสนอวิธีลดปวดแก่ผู้ป่วยที่ทำหัตถการ in-office ทุกราย และระบุว่า lidocaine spray หรือการฉีด lidocaine อาจลดปวดจาก cervical biopsy ได้ (แต่ใช้เวลาเพิ่ม) — จึงไม่ใช่ ‘ห้ามให้ยาชา’; คีย์ A ตามผู้จดและตำราดั้งเดิมที่ว่า ectocervix มีปลายประสาทรับปวดน้อย",
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): คงคำตอบ A — ACOG Clinical Consensus (พ.ค. 2025) ให้เสนอการระงับปวดแก่ผู้ป่วยและระบุว่า lidocaine spray/ฉีด อาจลดปวด cervical biopsy ได้ ไม่ได้ระบุว่าต้องไม่ใช้ยาชา จึงไม่ขัดกับคีย์โดยตรง แต่ช้อยที่เป็น local anesthesia ก็มีเหตุผลตาม ACOG 2025 (ยังไม่ได้ตรวจ RTCOG/Williams ฉบับล่าสุด). ver.1 มีไฮไลต์มืดที่ช้อย D ‘Paracervical block’ ซ้อนกับวงที่ A (เหมือนข้อ 35.2) — ตีความว่าตอบ A ตามวงฟ้า; ver.2 ตอบ A ชัดเจน; ข้อนี้ซ้ำกับ 35.2 (เราตอบ A ทั้งคู่); ความมั่นใจ ~70%",
+  "wrong": {
+   "B": "B. Xylocaine: ฉีดยาชาเข้าปากมดลูกบางครั้งให้ในกรณีพิเศษ แต่ไม่ถือเป็นการเตรียมมาตรฐานของ punch biopsy (ฉีดเจ็บเท่ากับตัดชิ้นเนื้อ) — แต่ ACOG Clinical Consensus (พ.ค. 2025) ระบุว่า lidocaine spray/ฉีด อาจลดปวด biopsy ได้",
+   "C": "C. Xylocaine with adrenaline: epinephrine ทำให้หลอดเลือดหดตัว ลดเลือดออกใน LEEP/CKC แต่ไม่จำเป็นกับ punch biopsy และอาจทำให้ใจสั่น (ver.2 ขีดฆ่า)",
+   "D": "D. Paracervical block: ใช้ในหัตถการที่ต้องขยาย/ดึง/ตัดปากมดลูกกว้าง เช่น LEEP, conization, ขูดมดลูก (ver.1 ไฮไลต์ข้อนี้ไว้ — เหมือนที่ใช้ในข้อ 35.2)",
+   "E": "E. Epidural block: invasive เกินความจำเป็นมาก"
+  }
+ },
+ "YUZU||35.3": {
+  "flag": "⚠ ตรวจตาม ACOG/Williams (20 ต.ค. 2026): คงคำตอบ A — ตาม ACOG/ASCCP 2019 (ACOG รับรอง) ทั้ง CIN 2 และ CIN 3 (HSIL) เป็นรอยโรคก่อนมะเร็งที่ต้องรักษา โจทย์จึงมี 2 ช้อยที่ถูก (A และ B) คีย์ A ตามผู้จดทั้งสองเวอร์ชัน. ข้อกำกวม: ทั้ง CIN 2 และ CIN III เป็น precancerous lesion (CIN 3 = carcinoma in situ ก่อนลุกลาม) — ผู้จดทั้ง 2 เวอร์ชันเลือก A (CIN 2) ตรงกัน เราตามนั้น (ver.2 จดว่า CIN III ‘✗ มี in situ CA ได้’ คือมองว่า CIN III รวม CIS ซึ่งเป็นมะเร็งระยะ 0); ความมั่นใจปานกลาง (~65%)"
+ },
+ "YUZU||35.5": {
+  "flag": "⚠ ตรวจตาม ASCCP 2019 (ACOG รับรอง) (20 ต.ค. 2026): คงคำตอบ D — โจทย์ไม่ระบุว่าเป็น AGC-NOS หรือ AGC-favor neoplasia; AGC-favor neoplasia/AIS ที่ colposcopy ไม่พบรอยโรคต้องทำ diagnostic excisional procedure (CKC หรือ LEEP ชิ้นเดียว จึงมี LEEP ช้อย A เป็นทางเลือกที่ยอมรับได้เช่นกัน) ส่วน AGC-NOS ที่ work-up ไม่พบ CIN2+ จะติดตาม cotest ที่ 12 และ 24 เดือนได้ (ช้อย E); เลือก D ตามคีย์ผู้จดทั้งสองเวอร์ชัน (ต่อมอยู่ลึก)."
+ },
+ "YUZU||35.6": {
+  "why": "HSIL cytology มีความเสี่ยง CIN2+ ~ 50–70% และ invasive cancer ราว 1–2% จึง<b>ห้ามติดตามด้วยการตรวจซ้ำ</b>. ASCCP 2019 (อายุ ≥25 ปี ไม่ตั้งครรภ์): ‘immediate treatment (LEEP) หรือ colposcopy ที่มี endocervical assessment’ — immediate LEEP เหมาะเมื่อความเสี่ยง CIN3+ ≥ 25% (เช่น HSIL + HPV16) และผู้ป่วยไม่ต้องการมีบุตร. ASCCP 2019 (ACOG รับรอง) ยอมรับทั้ง colposcopy และ expedited treatment; ตำราส่วนใหญ่: <b>colposcopy พร้อม directed biopsy (± ECC)</b> เพื่อยืนยันก่อนรักษา แล้ว excision (LEEP/CKC) เมื่อ CIN2+ (ผู้จด ver.2: ‘HSIL ⇒ colpo! &amp; ECC’, ‘ECC ทำใน HSIL, AGC, TZ3’). ช้อยอื่น: repeat cytology เสี่ยงพลาดมะเร็ง; Schiller test + biopsy คือวิธีเก่า/ไม่จำเพาะ; hysterectomy เป็นการรักษาเกินจำเป็น (ไม่ใช่ initial management)",
+  "wrong": {
+   "A": "A. Repeat cytology: ใช้กับ ASC-US/LSIL ในบางกลุ่มเท่านั้น ไม่ใช่ HSIL (ผู้จด ver.1: ‘ไม่รอเพราะเดี๋ยวกลายเป็นมะเร็ง’) จะถูกถ้าโจทย์เป็น ASC-US ในหญิง 21–24 ปี",
+   "B": "B. LEEP: ASCCP 2019 ยอมให้ immediate treatment ใน HSIL อายุ ≥25 ปี (see-and-treat) — ver.1 ไฮไลต์ว่า ‘น่าจะเหมาะสมที่สุด’; จะถูกถ้าช้อยไม่มี colposcopy หรือผู้ป่วยไม่ต้องการมีบุตรแล้วและมี HSIL + HPV16 (risk CIN3+ ≥ 25%) แต่ตำราและข้อสอบมักให้ confirm ด้วย biopsy ก่อนในหญิงทั่วไป; ในผู้ที่ยังไม่ผ่านการตรวจ colposcopy อาจรักษาเกิน (overtreatment)",
+   "D": "D. Schiller’s test with biopsy: วิธีเก่า ใช้ iodine ย้อมเพื่อเลือกจุดตัดชิ้นเนื้อ ไม่จำเพาะ และถูกแทนที่ด้วยการตัดชิ้นเนื้อภายใต้ colposcopy (ver.1: ‘Nope’)",
+   "E": "E. Hysterectomy: การรักษาเกินจำเป็นสำหรับ HSIL/CIN 2–3 (ver.1: ‘เกินเบอร์’); ใช้ในกรณีพิเศษ เช่น CIN3 ซ้ำ margin บวก/ มีโรคร่วมของมดลูก"
+  },
+  "flag": "⚠ ตรวจตาม ASCCP 2019 (ACOG รับรอง) (20 ต.ค. 2026): คงคำตอบ C — ทั้ง colposcopy (C) และ expedited LEEP (B) ยอมรับได้ในอายุ ≥25 ปีที่ไม่ตั้งครรภ์ (LEEP เป็น preferred เมื่อความเสี่ยง CIN3+ ≥60%). 2 เวอร์ชันไม่ตรงกัน/ไม่ชัดเจน: ver.1 ไฮไลต์ B LEEP ว่า ‘น่าจะเหมาะสมที่สุด’ แต่วงช้อย C (และเขียน Nope ที่ C) — ver.2 วงทั้ง B และ C แล้วขีดทับ LEEP จบที่ C. ASCCP 2019 ยอมรับทั้ง immediate LEEP (see-and-treat, อายุ ≥25 ปี) และ colposcopy; เราเลือก C ตามตำรา/ข้อสอบ (HSIL → colposcopy ± biopsy ก่อนรักษา) และสอดคล้องกับข้อเดิม MDCU79 RoB Gyn Cervical screening 1; ความมั่นใจปานกลาง (~65%)",
+  "opinion": "2 เวอร์ชันไม่ลงตัว: ver.1 วงช้อย C แต่ไฮไลต์ B ว่าเหมาะสมที่สุด; ver.2 วงทั้ง B และ C แล้วขีด LEEP ทิ้ง เหลือ C. เราเลือก C เพราะสอดคล้องกับข้อเดิม MDCU79 RoB Gyn Cervical screening 1 (HSIL → colposcopy and biopsy) และตำรา; ถ้าเฉลยหนังสือเป็น B (LEEP) แสดงว่าผู้แต่งยึดแนวทาง see-and-treat ของ ASCCP — ความมั่นใจ ~65%"
+ },
+ "YUZU||35.12": {
+  "why": "Fractional curettage ใช้เมื่อ<b>ต้องการเนื้อเยื่อวินิจฉัยทั้ง endocervix และ endometrium พร้อมกัน</b> เช่น postmenopausal bleeding ที่ endometrial thickness ผิดปกติ (&gt;4 mm) หรือ <b>cytology เป็น AGC ในหญิง ≥35 ปี</b> (ต้องแยก AIS/adenocarcinoma ปากมดลูกกับมะเร็งเยื่อบุโพรงมดลูก/ต่อมในโพรง; ASCCP: AGC → colposcopy + ECC + endometrial sampling ในอายุ ≥35 หรือมีเลือดออกผิดปกติ). ช้อย B จึงเป็นข้อบ่งชี้ที่ชัดที่สุด (ผู้จด ver.1: ‘Colpo / Endometrial biopsy’; ver.2: ‘ดู ECC &amp; endomet biopsy’). ส่วน endometrial thickness ผิดปกติใน postmenopausal bleeding คือ <b>&gt;4 mm</b> (ผู้จดทั้งสองจด ‘EM &gt; 4 mm’) — ตรงกับ ACOG Committee Opinion 734 (2018): ET ≤4 mm ความเสี่ยงมะเร็งต่ำมาก (&lt;1%), &gt;4 mm หรือเลือดออกซ้ำ → ต้อง sampling"
+ },
+ "YUZU||35.14": {
+  "why": "ASC-US ในหญิง ≥25 ปี (ไม่ตั้งครรภ์): แนวทาง ASCCP 2012/2019 ระบุ <b>HPV reflex/testing เป็นวิธีที่ ‘preferred’</b> (มีความไวสูงกว่าการตรวจซ้ำ cytology และลดจำนวน colposcopy โดยไม่จำเป็น); ผลบวก → colposcopy; ผลลบ → ตรวจ HPV-based ซ้ำที่ 3 ปีตาม ASCCP 2019 (ACOG รับรอง; ASCCP 2012 เดิมให้ 5 ปี) (ผู้จด ver.1: ‘HPV⊕ → Colposcopy; HPV⊖ → Repeat cotesting 3 yr’). ทางเลือกอื่นที่ยอมรับ: repeat cytology ที่ 12 เดือน, colposcopy ทันที. ในหญิงอายุ 66 ปี คัดกรองก่อนหน้าปกติ จึงเหมาะกับ HPV testing (ถ้าผลลบและมีประวัติคัดกรองเพียงพอ อาจหยุดคัดกรองตามแนวทาง)",
+  "summary": [
+   "ASC-US: ผล cytology ที่พบบ่อยที่สุดที่ผิดปกติ; CIN2+ ~ 5–10%",
+   "อายุ ≥25: preferred = reflex HPV testing (หรือ cotest); HPV บวก → colposcopy; HPV ลบ → ตรวจซ้ำที่ 3 ปี (ASCCP 2019, ACOG รับรอง; ASCCP 2012 เดิมให้ 5 ปี)",
+   "ทางเลือกอื่น: repeat cytology ที่ 12 เดือน (ถ้า ≥ ASC-US → colposcopy); colposcopy ทันที",
+   "อายุ 21–24: ตรวจ cytology ซ้ำ 12 เดือน (HPV reflex ไม่แนะนำ/ ไม่ส่ง colposcopy ทันที)",
+   "ตั้งครรภ์: เหมือนหญิงทั่วไป (colposcopy ได้ ห้าม ECC)",
+   "เมื่ออายุ &gt;65 ปีและคัดกรองเพียงพอ (3 cytology ติดต่อกัน หรือ 2 cotest ปกติใน 10 ปี ครั้งล่าสุดภายใน 5 ปี) → หยุดคัดกรองได้ แต่ ASC-US ต้องประเมินก่อน",
+   "ผู้จด ver.1 สรุปว่า ‘ASC-US ต่ำกว่า LSIL ↳ ไม่ได้ตรวจ HPV → routine checkup ได้’ (ผิด ดู notes)",
+   "ดู 35.8 และ 35.6 (YUZU)"
+  ]
+ },
+ "YUZU||40.1": {
+  "summary": [
+   "Complete mole: ไม่มีเนื้อเยื่อทารกและไม่มี maternal DNA, 46XX (paternal origin); hCG สูงมาก; มดลูกโตกว่าอายุครรภ์ ~ 1/3; ภาวะแทรกซ้อน hyperemesis, preeclampsia &lt;20 สัปดาห์, hyperthyroidism, theca lutein cysts",
+   "Workup ก่อนรักษา: quantitative hCG, CBC, blood group/ Rh, LFT, renal function, TFT, CXR (ถ้าสงสัย metastasis ทำ CT chest/ MRI brain), pelvic US",
+   "รักษา: suction curettage (ไม่ใช้ sharp curettage เป็นอันดับแรก); oxytocin หลังเริ่ม; Rh immunoglobulin ถ้า Rh negative; hysterectomy เป็นทางเลือกในหญิงอายุมาก/มีบุตรครบ",
+   "Follow up: hCG ทุกสัปดาห์จนปกติ 3 ครั้ง แล้วเดือนละครั้ง (ACOG PB 53 ≈ 6 เดือน; FIGO 2021 complete mole 3 เดือน; partial mole 1 ครั้งหลังปกติตาม FIGO 2021) และคุมกำเนิดตลอดช่วงติดตาม (OCP ใช้ได้)",
+   "GTN criteria (ACOG PB 53): hCG plateau ≥4 ค่านาน 3 สัปดาห์, rise &gt;10% ≥3 ค่านาน 2 สัปดาห์, ยังตรวจพบ &gt;6 เดือน, histologic choriocarcinoma, หรือมี metastasis",
+   "Prophylactic chemotherapy ไม่แนะนำเป็นรูทีน (พิจารณาในรายเสี่ยงสูงที่ติดตามไม่ได้)",
+   "ดู YUZU 40.3 (ขั้นตอนเริ่มต้น), 78C Gyn First half bleeding 6 และ 79B GTD 1 (ข้อบ่งชี้ hysterectomy ในหญิงอายุมาก)"
+  ]
+ },
+ "YUZU||40.2": {
+  "summary": [
+   "GTD แบ่งเป็น hydatidiform mole (complete/ partial) และ GTN (invasive mole, choriocarcinoma, PSTT, ETT)",
+   "Invasive mole: villi + trophoblast invading myometrium; ~15% หลัง complete mole; hCG plateau/ rise",
+   "Choriocarcinoma: ไม่มี villi, biphasic (cyto + syncytiotrophoblast), hemorrhagic/necrotic, แพร่ทางกระแสเลือด (ปอดพบมากที่สุด ~80%)",
+   "PSTT: intermediate trophoblast, hPL บวก, hCG ต่ำ, ดื้อ chemo → hysterectomy; ETT: epithelioid, nodular, p63+",
+   "GTN low-risk (FIGO score 0–6): single-agent methotrexate หรือ actinomycin D; high-risk (≥7): EMA-CO",
+   "การวินิจฉัย GTN หลัง mole: ใช้เกณฑ์ hCG (ACOG PB 53 / FIGO 2000) ไม่จำเป็นต้องมีเนื้อเยื่อ",
+   "ดู YUZU 40.6–40.8 (choriocarcinoma, PSTT)"
+  ]
+ },
+ "YUZU||40.3": {
+  "why": "ลำดับการจัดการ molar pregnancy (ตามที่ผู้จดทั้งสองจด): <b>① IV fluid resuscitation ก่อน (correct electrolyte imbalance) → Evaluate → Evacuate → Follow up</b>. ผู้ป่วยอาเจียนรุนแรง (hyperemesis จาก hCG สูง) มีโอกาสขาดน้ำ/เสียสมดุลอิเล็กโทรไลต์ ต้องแก้ไขก่อน แล้ว <b>Evaluate</b> (ACOG PB 53 / Williams: ประเมินก่อน evacuate — CBC, blood type/Rh, quantitative hCG, CXR และตามข้อบ่งชี้ ตับ/ไต/ไทรอยด์): ตรวจ baseline hCG, CBC, blood group/ Rh, LFT/renal function, TFT, coagulation และ <b>metastatic survey (chest X-ray ± imaging อื่นตามอาการ)</b> เพื่อหา complication/ metastasis ก่อนดูด (hCG สูงมาก &gt;100,000 เสี่ยง GTN, theca lutein cysts, hyperthyroidism, respiratory complication); จากนั้น <b>Evacuate</b> ด้วย <b>suction curettage</b> (ไม่ใช่ D&amp;C 'เพื่อวินิจฉัย' เพราะวินิจฉัยได้แล้ว) และ <b>Follow up</b> hCG หลังดูด. Chemotherapy/ methotrexate ไม่ใช่การรักษาเริ่มต้นของ mole ที่ยังไม่เป็น GTN. 'Repeat hCG' ใช้ติดตามหลังดูดซึ่งต้อง 'หลัง SC' (ผู้จด ver.2 จด 'x หลัง SC'); hCG ถูกเจาะในโจทย์แล้ว",
+  "summary": [
+   "Molar pregnancy: Evaluate → Evacuate → Follow up (หลังประคับประคองผู้ป่วยที่อาเจียนมาก ด้วย IV fluid และแก้ electrolyte)",
+   "Evaluate: baseline quantitative hCG, CBC, blood group/ Rh, LFT, renal, TFT (hCG ~ TSH), coagulation, CXR (± CT/MRI ถ้าสงสัย metastasis)",
+   "Evacuate: suction curettage ภายใต้ oxytocin และ ultrasound guidance; ให้ Rh immunoglobulin ถ้า Rh-negative",
+   "Follow up: hCG ทุกสัปดาห์จนปกติ 3 ครั้ง แล้วทุกเดือนต่อ (ACOG PB 53 ≈ 6 เดือน; FIGO 2021 complete mole 3 เดือน) — ห้ามตั้งครรภ์ช่วงนี้ ใช้ OCP/ implant/ IUD (หลัง hCG ปกติ)",
+   "Complication ที่ต้องรู้: hyperthyroidism (thyroid storm ขณะดูด), respiratory distress (trophoblastic embolization/ preeclampsia/ fluid overload), theca lutein cysts, anemia/ DIC",
+   "ลักษณะ USG: 'snowstorm' คือภาพจากเครื่องเก่าความละเอียดต่ำ (ผู้จด ver.1 จด 'เครื่อง USG ยุคโบราณ 1968'); ปัจจุบันเห็น 'cluster of grapes', 'vesicular pattern'",
+   "ดู YUZU 40.1 (workup และ hysterectomy), 78D GTD 1"
+  ]
+ },
+ "YUZU||40.4": {
+  "summary": [
+   "Complete mole: 46XX (90%; paternal duplication), 46XY (10%); ไม่มีเนื้อเยื่อทารก; hCG สูงมาก; GTN ~15–20%",
+   "Partial mole: 69XXY (ส่วนใหญ่), 69XXX, 69XYY — dispermy (90%) หรือ diploid sperm; มี embryo/ amnion; hCG ต่ำกว่า; GTN ~1–5%",
+   "ลักษณะพยาธิ partial mole: 2 villous populations, scalloped villi, trophoblastic inclusions, focal hyperplasia; p57 immunostain: complete mole p57 ลบ, partial mole p57 บวก",
+   "ผลการรักษา: suction curettage; partial mole ติดตาม hCG จนปกติ (FIGO 2021: ตรวจยืนยันซ้ำ 1 ครั้งหลังปกติ)",
+   "แยกจาก twin pregnancy with complete mole + normal fetus (dizygotic): ต้องอัลตราซาวด์ + karyotype; พบ GTN สูงกว่าและพยากรณ์ต่อทารกไม่ดี",
+   "ลักษณะ US partial mole: ก้อนรกใหญ่ มี cystic spaces, sac ทารกและ fetal parts; uterus มักเล็กกว่า complete mole",
+   "ดู YUZU 40.5 (complete mole presentation) และ 40.1"
+  ]
+ },
+ "YUZU||40.6": {
+  "why": "GTN (รวม choriocarcinoma) <b>วินิจฉัยด้วย hCG + ภาพถ่ายและเกณฑ์ post-molar (ACOG PB 53 / FIGO 2000)</b> ไม่จำเป็นต้องมีเนื้อเยื่อ (ผู้จด ver.2 จด 'GTN: dx จาก βhCG & criteria post molar; mole: dx definite จาก [ชิ้นเนื้อ]'); การเจาะ/ตัดชิ้นเนื้อจากรอยโรคแพร่กระจายมีหลอดเลือดมาก เสี่ยงเลือดออกรุนแรง (ผู้จด ver.2 'น่าจะ bleed แรง!'). ผู้ป่วยมี lung metastasis (cotton ball) แล้ว จึงต้อง <b>staging/ metastatic workup</b> เพื่อกำหนด FIGO anatomical stage (stage III = ปอด) และ prognostic score ก่อนเลือกสูตรเคมีบำบัด: CT chest/ abdomen/ pelvis, MRI สมอง (หรือ CT), pelvic US Doppler, LFT/renal function, CBC, ตรวจหา genital metastasis (vagina). hCG 10⁶ + มี metastasis ปอด มักได้ score ≥7 (high-risk) → ต้องใช้ multi-agent chemotherapy (EMA-CO) ไม่ใช่ single-agent. หลังประเมินแล้วจึงให้ chemotherapy (ผู้จด ver.1 'พิจารณาให้ Chemo หลังประเมิน metastasis แล้ว')"
+ }
+}
