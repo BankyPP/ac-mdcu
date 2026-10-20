@@ -534,7 +534,7 @@ function rService(){
   document.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(sel.has(k))sel.delete(k);else sel.add(k);b.setAttribute("aria-pressed",sel.has(k));});
   $("spClear").onclick=()=>{sel.clear();document.querySelectorAll("[data-k]").forEach(b=>b.setAttribute("aria-pressed","false"));};
   $("spGo").onclick=()=>{const order=W.sets;P.pick=[...sel].sort((a,b)=>order.indexOf(a)-order.indexOf(b));const s=P.svc[p];s.set=P.pick.length?P.pick.join("|"):"all";
-    {const c=W.byU[s.cur];if(!c||!inSet(c)){const v=svcVisible();s.cur=(svcStart(v)||svcList()[0]).uid;}}save();go(ward+"/svc");};
+    {const nx=svcNextTodo();if(nx)s.cur=nx.uid;else{toast("ทำครบทุกข้อในชุดที่เลือกแล้ว");const c=W.byU[s.cur];if(!c||!inSet(c)){const v=svcVisible();s.cur=(svcStart(v)||svcList()[0]).uid;}}}save();go(ward+"/svc");};
 }
 
 /* ---------------- grand round setup ---------------- */
@@ -573,6 +573,12 @@ function noteIns(L){const W=W_();if(!W.NOTE||!W.NOTE.length)return L;const f=svc
   W.NOTE.filter(inSet).forEach(n=>{const i=out.findIndex(q=>!q.notice&&setKey(q)===setKey(n));if(i>=0)out.splice(i,0,n);});return out;}
 const noteSeen=q=>!!(P_().noteSeen&&P_().noteSeen[q.uid]);
 const svcStart=v=>v.find(x=>!(x.notice&&noteSeen(x)))||v[0];   /* entering a set: its ข้อ 0 page until it has been answered once */
+/* entering the Service round (เริ่มทำ): the next not-yet-answered question of the chosen sets — counting on from where you were if that question is in them, else from the first — wrapping round; a set's unseen ข้อ 0 page comes first when that set still has questions to do */
+function svcNextTodo(){const P=P_(),p=ph(),v=svcVisible();if(!v.length)return null;
+  const todo=x=>lockedAns(P,p,x.uid)===undefined,left=k=>v.some(y=>!y.notice&&setKey(y)===k&&todo(y));
+  const ok=x=>x.notice?!noteSeen(x)&&left(setKey(x)):todo(x);
+  const i0=Math.max(0,v.findIndex(x=>x.uid===svcS().cur));
+  for(let j=0;j<v.length;j++){const x=v[(i0+j)%v.length];if(ok(x))return x;}return null;}
 const ordId=x=>{if(!x.notice)return x.id;const f=W_().QB.find(q=>setKey(q)===setKey(x));return (f?f.id:0)-0.5;};
 function svcQ(){const W=W_(),s=svcS();let q=W.byU[s.cur];if(!q||!inSet(q)){q=svcStart(svcVisible())||svcList()[0]||W.QB[0];if(q)s.cur=q.uid;}return q;}
 const isSess=()=>view==="sess";

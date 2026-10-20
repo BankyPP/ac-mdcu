@@ -1109,7 +1109,7 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 const IMGS={};const WARDS={};
 Object.assign(IMGS,{"os132_1": "img/os132_1.jpg", "os132_11": "img/os132_11.jpg", "os132_12": "img/os132_12.jpg", "os132_2": "img/os132_2.jpg", "os132_4": "img/os132_4.jpg", "os132_6": "img/os132_6.jpg", "os132_9": "img/os132_9.jpg"});
 const CONFIG={"title": "คลังข้อสอบเก่า SI", "brand": "Past Prevent Med Y4 MEQ", "sub": "คลังข้อสอบเก่า", "storageKey": "ac-si-v1", "setLabel": "ปี", "roLabel": "Rotation", "chipStrip": "SI", "files": {}, "siteUrl": "https://bankypp.github.io/ac-mdcu/si/", "siteName": "คลังข้อสอบเก่า", "inst": {"id": "si", "name": "SI", "th": "ศิริราช", "en": "Faculty of Medicine Siriraj Hospital, Mahidol University (SI)", "enShort": "Siriraj Hospital, Mahidol University", "stu": "นักศึกษาแพทย์"}, "wards": [{"id": "prevmed", "name": "Preventive Medicine", "short": "Prevent Med", "year": "Y4", "sub": "SI", "brand": "Past Prevent Med Y4 MEQ", "dir": "data_prevmed", "scope": "Preventive medicine", "noExam": ["MCQ", "OSCE"], "dates": [], "meqTopics": []}, {"id": "med", "name": "Internal Medicine", "short": "Med", "year": "Y4", "sub": "SI", "brand": "Past Med Y4 MCQ", "dir": "data_med", "scope": "Internal medicine", "dates": [], "meqTopics": [], "osceTopics": [{"id": "lab", "name": "Lab interpretation"}, {"id": "img", "name": "Imaging"}, {"id": "micro", "name": "Microscope"}, {"id": "ekg", "name": "EKG"}, {"id": "skin", "name": "Skin lesion"}, {"id": "pefind", "name": "Describe physical findings"}, {"id": "hx", "name": "History taking", "ex": 1}, {"id": "pe", "name": "Physical examination", "ex": 1}, {"id": "proc", "name": "Procedure", "ex": 1, "proc": 1}], "exam": {"OSCE": {"n": 25, "min": 5}}}], "firebase": {"apiKey": "AIzaSyDIzd81Qw7shAOj3uiGU1T8tm90HXtF4yg", "authDomain": "ac-mdcu.firebaseapp.com", "projectId": "ac-mdcu", "storageBucket": "ac-mdcu.firebasestorage.app", "messagingSenderId": "537236830552", "appId": "1:537236830552:web:40d77940f7adf0fecd8d2d", "measurementId": "G-BYB1HZMHK6"}, "fbPath": ["users", "{uid}", "inst", "si"], "sharedPrefix": "si_", "homeBrand": "Past {short} SI134 by BankyPP", "quizBrand": "Past {short} {type}", "artifactUrl": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "subjects": [{"id": "prevmed", "name": "Preventive Medicine", "wards": ["prevmed"]}, {"id": "medicine", "name": "Medicine", "wards": ["med"]}], "gate": {"on": false, "salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b"}, "roundNames": {"Grand round": "Random", "Service round": "Year by year", "Legendary round": "Real Experience", "Ward staff round": "Redo", "Teaching round": "Guidance", "Advisor round": "Revise", "Unit round": "Lecture quiz", "Quality round": "Timed", "Admission round": "Anything", "Specialty round": "System / organ", "Round I/O": "Summary"}, "insts": [{"id": "mdcu", "name": "MDCU", "th": "จุฬาฯ", "url": "https://bankypp.github.io/ac-mdcu/", "art": "https://claude.ai/artifact/5KGcnr6yKsqvXGNh73mmfE", "sk": "ac-sx-mcq-mdcu-y4-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b"}}, {"id": "si", "name": "SI", "th": "ศิริราช", "url": "https://bankypp.github.io/ac-mdcu/si/", "art": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "sk": "ac-si-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b"}}]};
-const BUILD="20/10/2026 18:23";
+const BUILD="21/10/2026 03:57";
 WARDS["prevmed"]={QB:[],HY:null};
 WARDS["prevmed"].MQ=[];
 WARDS["prevmed"].OS=[];
@@ -2186,8 +2186,10 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
   if(rk==="unit"&&!v.tags.length)h+=`<div class="empty">เลือกหัวข้ออย่างน้อย 1 หัวข้อ — Part ที่ติดหัวข้อนั้นจะแสดงที่นี่</div>`;
   else if(!Q.length&&QT.length)h+=`<div class="empty">ไม่พบข้อที่มีคำว่า “${esc(mqQ.trim())}”</div>`;
   else if(!Q.length)h+=`<div class="empty">${rk==="staff"?"ยังไม่มีข้อที่ต้องทวน — ทุก Part ที่ทำแล้วได้เต็ม":rk==="advisor"?`ยังไม่ได้ทำข้อ ${mqKN()} ใน Phase นี้`:"ไม่มีข้อในเงื่อนไขที่เลือก"}</div>`;
-  else h+=`<div class="tsum">${Q.length} ข้อ · แตะเลขข้อหรือ Part เพื่อเริ่มทำ</div><div class="trows">`+Q.map(q=>mqRowHTML(q,rk)).join("")+`</div>`;
+  else{if(rk==="service"){const nx=mqNextTodo(Q0);h+=nx?`<button class="resume" type="button" id="mqNext" style="margin:0 0 10px"><span>▶ ไปข้อถัดไปที่ยังไม่ได้ทำ: <b>${mqKN()} ข้อ ${esc(mqNum(nx))}</b><span class="rd">${esc(nx.set)}${nx.ro?" · "+esc(nx.ro):""} · ${esc(mqTitle(nx))}</span></span><span class="go">→</span></button>`:`<p class="hint" style="margin:0 0 10px">✓ ทำครบทุกข้อในชุดที่เลือกแล้ว (Phase ${ph()})</p>`;}
+    h+=`<div class="tsum">${Q.length} ข้อ · แตะเลขข้อหรือ Part เพื่อเริ่มทำ</div><div class="trows">`+Q.map(q=>mqRowHTML(q,rk)).join("")+`</div>`;}
   h+=`</div>`;$("main").innerHTML=h;
+  {const nb=$("mqNext");if(nb)nb.onclick=()=>{const nx=mqNextTodo(Q0);if(nx)mqOpen(nx.uid,undefined,"service");};}
   {const qi=$("mqQ"),qn=$("mqQn");if(qn)qn.textContent=QT.length?`พบ ${Q.length}/${Q0.length} ข้อ`:"";
     if(qi){let tm=0;qi.addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(()=>{mqQ=qi.value;const p0=qi.selectionStart;mqRList();const n=$("mqQ");if(n){n.focus();try{n.setSelectionRange(p0,p0);}catch(e){}}},160);});}}
   document.querySelectorAll("[data-mtag]").forEach(b=>b.onclick=()=>{const k=b.dataset.mtag,a=v.tags;const i=a.indexOf(k);if(i>=0)a.splice(i,1);else a.push(k);mqVset({});save();mqRList();});
@@ -2216,6 +2218,9 @@ function mqSheet(){const v=mqS().v,rk=v.r||"service",L=mqL(),c=mqCur(),cur=c?{u:
   stc.querySelectorAll("[data-smt]").forEach(b=>b.onclick=()=>{mqVset({status:b.dataset.smt});save();mqSheet();});
   $("rows").querySelectorAll("[data-mgo]").forEach(b=>b.onclick=()=>{if(b.getAttribute("aria-disabled")==="true"){toast("ส่งคำตอบ Part ก่อนหน้าก่อน");return;}closeS(true);mqOpen(b.dataset.mgo,b.dataset.p===undefined?undefined:+b.dataset.p,rk);});
   if(typeof paintSync==="function")paintSync();}
+/* Service round: the next case not yet finished in the chosen sets/parts — counting on from the case you were last on (it counts if still unfinished), else from the first — wrapping round; opens at its first Part not yet sent */
+function mqNextTodo(Q){if(!Q||!Q.length)return null;const u=mqS().v.u,i0=Math.max(0,Q.findIndex(q=>q.uid===u));
+  for(let j=0;j<Q.length;j++){const q=Q[(i0+j)%Q.length];if(!mqCaseDone(q))return q;}return null;}
 function mqOpen(u,pi,rk){const v=mqS().v;rk=rk||v.r||"service";const q=mqL().find(x=>x.uid===u);if(!q)return;
   mqVset({u,r:rk,ctx:rk==="unit"?"topic":"set"});if(pi===undefined||!mqViewable(q,pi))pi=mqDefPart(q);v.pi=pi;save();if(view==="mq"){mqTStop();mqView();scrollTo(0,0);}else go(ward+"/mq");}
 function mqGrandNext(fromHome){const v=mqS().v,L=mqL();if(!L.length){toast("ยังไม่มีข้อ MEQ");return;}const cur=v.r==="grand"?v.u:null;
@@ -3930,7 +3935,7 @@ function rService(){
   document.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(sel.has(k))sel.delete(k);else sel.add(k);b.setAttribute("aria-pressed",sel.has(k));});
   $("spClear").onclick=()=>{sel.clear();document.querySelectorAll("[data-k]").forEach(b=>b.setAttribute("aria-pressed","false"));};
   $("spGo").onclick=()=>{const order=W.sets;P.pick=[...sel].sort((a,b)=>order.indexOf(a)-order.indexOf(b));const s=P.svc[p];s.set=P.pick.length?P.pick.join("|"):"all";
-    {const c=W.byU[s.cur];if(!c||!inSet(c)){const v=svcVisible();s.cur=(svcStart(v)||svcList()[0]).uid;}}save();go(ward+"/svc");};
+    {const nx=svcNextTodo();if(nx)s.cur=nx.uid;else{toast("ทำครบทุกข้อในชุดที่เลือกแล้ว");const c=W.byU[s.cur];if(!c||!inSet(c)){const v=svcVisible();s.cur=(svcStart(v)||svcList()[0]).uid;}}}save();go(ward+"/svc");};
 }
 
 /* ---------------- grand round setup ---------------- */
@@ -3969,6 +3974,12 @@ function noteIns(L){const W=W_();if(!W.NOTE||!W.NOTE.length)return L;const f=svc
   W.NOTE.filter(inSet).forEach(n=>{const i=out.findIndex(q=>!q.notice&&setKey(q)===setKey(n));if(i>=0)out.splice(i,0,n);});return out;}
 const noteSeen=q=>!!(P_().noteSeen&&P_().noteSeen[q.uid]);
 const svcStart=v=>v.find(x=>!(x.notice&&noteSeen(x)))||v[0];   /* entering a set: its ข้อ 0 page until it has been answered once */
+/* entering the Service round (เริ่มทำ): the next not-yet-answered question of the chosen sets — counting on from where you were if that question is in them, else from the first — wrapping round; a set's unseen ข้อ 0 page comes first when that set still has questions to do */
+function svcNextTodo(){const P=P_(),p=ph(),v=svcVisible();if(!v.length)return null;
+  const todo=x=>lockedAns(P,p,x.uid)===undefined,left=k=>v.some(y=>!y.notice&&setKey(y)===k&&todo(y));
+  const ok=x=>x.notice?!noteSeen(x)&&left(setKey(x)):todo(x);
+  const i0=Math.max(0,v.findIndex(x=>x.uid===svcS().cur));
+  for(let j=0;j<v.length;j++){const x=v[(i0+j)%v.length];if(ok(x))return x;}return null;}
 const ordId=x=>{if(!x.notice)return x.id;const f=W_().QB.find(q=>setKey(q)===setKey(x));return (f?f.id:0)-0.5;};
 function svcQ(){const W=W_(),s=svcS();let q=W.byU[s.cur];if(!q||!inSet(q)){q=svcStart(svcVisible())||svcList()[0]||W.QB[0];if(q)s.cur=q.uid;}return q;}
 const isSess=()=>view==="sess";
