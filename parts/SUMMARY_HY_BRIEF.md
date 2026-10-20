@@ -52,8 +52,9 @@ SUMM.push({tag:"<tag exactly as printed by sumdump>", title:"<display title, e.g
 1. **RTCOG, ACOG, Williams** (Williams Obstetrics / Williams Gynecology) — newest edition / latest guideline only. They override
    everything else: old-exam keys, lecture L / R / N notes, other rounds. If these three disagree with each other, write every
    version, say which source says what, and mark it as a conflict — never pick one silently.
-2. Lecture slides (code L) — when tier 1 has nothing or more detail is needed.
-3. Everything else (other codes, other guidelines such as RCOG / NICE / WHO / CDC / ESHRE, websites) — only after tiers 1–2.
+2. Lecture slides (code L) and resources (code R) — equal rank to each other — when tier 1 has nothing or more detail is needed.
+   If L and R disagree, write both and mark the conflict.
+3. Everything else (other codes such as N, other guidelines such as RCOG / NICE / WHO / CDC / ESHRE, websites) — only after tiers 1–2.
 Name the source + edition/year whenever a source decides an answer. If tier-1 content cannot be accessed, say so; never guess it.
 
 ## Check (must pass)
