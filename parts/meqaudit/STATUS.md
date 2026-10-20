@@ -4,7 +4,7 @@
 |---|---|---|---|---|
 | 1 | Obstetric complications — case | 66 | sum_meq_case_comp | **done** — 11 model answers changed, 27 keys patched |
 | 2 | Gynecology — case | 74 | sum_meq_case_gyn | **done** — 3 model answers changed, 8 keys patched |
-| 3 | Obstetric complications — short answer; Antenatal; Labor | 69 | sum_meq_sa_comp, case/sa_ante, case/sa_labor | running |
+| 3 | Obstetric complications — short answer; Antenatal; Labor | 69 | sum_meq_sa_comp, case/sa_ante, case/sa_labor | **done** — 5 model answers changed (+2 accept both cut-offs), 22 keys patched |
 | 4 | Medical disease, Postpartum, Gyn onco, Repro — case + SA; Gynecology — SA | 70 | case/sa_med, case/sa_pp, case/sa_onco, case/sa_repro, sa_gyn | running |
 
 Merge: `node parts/meqaudit/build_fixes.js` → data_obgyn/meq_fixes.js (loaded by build_site.py and tools/sumlib.js after meq_b*.js),
