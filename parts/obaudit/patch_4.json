@@ -1,0 +1,354 @@
+{
+ "MDCU78|RoB|62": {
+  "wrong": {
+   "A": "IV zidovudine ระหว่างคลอด แนะนำเมื่อ VL &gt;1,000 copies/mL (หรือไม่ทราบ) ใกล้คลอด; ถ้า VL ≤1,000 ที่ได้ cART ไม่จำเป็นต้องให้ (ACOG CO 751 (2018, reaffirmed 2020); ช่วง 50–999 ให้ดุลยพินิจ)",
+   "B": "Elective C-section ที่ 38 0/7 wk แนะนำให้เสนอเมื่อ VL &gt;1,000 copies/mL หรือไม่ทราบ (ACOG CO 751 (2018, reaffirmed 2020)) — ถ้า VL ≤1,000 คลอดทางช่องคลอดได้ตามข้อบ่งชี้ทางสูติกรรม เพราะ C/S ไม่ลดการถ่ายทอดเพิ่ม",
+   "D": "Single-dose nevirapine เป็น regimen เก่าในยุคก่อน ART เต็มรูปแบบ เสี่ยง NNRTI resistance ไม่ใช้แล้วในแม่ที่ได้ ART",
+   "E": "HBIG ใช้ป้องกัน hepatitis B ในทารกที่แม่ HBsAg positive ไม่ได้ป้องกัน HIV"
+  },
+  "summary": [
+   "ความเสี่ยงติดเชื้อโดยไม่มีการป้องกัน ~25–30% (รวมนมแม่ ~30–45%); ได้ ART + VL กดได้ &lt;0.5–1%",
+   "ART ให้ทุกรายตลอดชีวิต เริ่มทันทีที่วินิจฉัย (ไทย: TDF/3TC/DTG หรือ TDF/FTC/EFV ตามแนวทาง)",
+   "ตรวจ VL ที่ 32–36 wk เพื่อวางแผนคลอด",
+   "VL &gt;1,000 (หรือไม่ทราบ) ใกล้คลอด → IV zidovudine + เสนอ elective C-section ที่ 38 0/7 wk (ACOG CO 751 (2018, reaffirmed 2020))",
+   "VL ≤1,000 (ต่ำ/undetectable) → คลอดทางช่องคลอดได้ C/S ไม่ลดการถ่ายทอดเพิ่ม และไม่ต้อง IV AZT (ACOG CO 751 (2018, reaffirmed 2020)); ACOG แนะนำเลี่ยง fetal scalp electrode และ operative vaginal delivery ถ้าไม่มีข้อบ่งชี้สูติกรรมชัดเจน (ARM/episiotomy ACOG ไม่ได้ระบุ แต่ปฏิบัติเลี่ยงที่ไม่จำเป็น)",
+   "ทารก: low risk → zidovudine (ไทย 4 wk); high risk → combination ARV (AZT + 3TC + NVP หรือตามแนวทาง) 6 wk",
+   "ไทย: แนะนำนมผสม (โครงการให้นมผสมฟรี) ห้ามเลี้ยงด้วยนมแม่; ตรวจ HIV DNA PCR ทารกที่ 1 และ 2–4 เดือน"
+  ]
+ },
+ "MDCU78|RoD|Infection 2": {
+  "why": "เมื่อ <b>VL ถูกกดดี (&lt;50 copies/mL)</b> ใกล้คลอด อัตราการถ่ายทอดเชื้อต่ำมาก (&lt;1%) และ <b>C/S ไม่ลดการถ่ายทอดเพิ่ม</b> แต่เพิ่มภาวะแทรกซ้อนมารดา → <b>คลอดทางช่องคลอด</b> โดยทำ C/S เฉพาะข้อบ่งชี้ทางสูติกรรม; scheduled C/S ที่ 38 0/7 สัปดาห์ใช้เมื่อ VL สูง (&gt;1,000 copies/mL) หรือไม่ทราบ VL ใกล้คลอด (ACOG CO 751 (2018, reaffirmed 2020); VL ≤1,000 คลอดทางช่องคลอดได้ และไม่ต้อง IV zidovudine)",
+  "wrong": {
+   "A": "C/S ไม่จำเป็นเมื่อ VL ถูกกด — ทำเมื่อ VL &gt;1,000 copies/mL หรือไม่ทราบ หรือมีข้อบ่งชี้ทางสูติกรรม",
+   "C": "Forceps ไม่ทำเป็น routine — ทำเฉพาะข้อบ่งชี้ทางสูติกรรม และควรหลีกเลี่ยงหัตถการที่ทำให้ทารกมีแผล",
+   "D": "Vacuum เพิ่มโอกาสแผลที่หนังศีรษะทารกและการสัมผัสเลือดมารดา — หลีกเลี่ยงถ้าไม่จำเป็น",
+   "E": "IV zidovudine ระหว่างคลอดให้เมื่อ VL &gt;1,000 หรือไม่ทราบ (ACOG CO 751 (2018, reaffirmed 2020); ช่วง 50–999 แล้วแต่ดุลยพินิจ) ร่วมกับ scheduled C/S ที่ 38 สัปดาห์ — ไม่จำเป็นในรายนี้"
+  },
+  "summary": [
+   "VL &lt;50 (ถูกกด) ใกล้คลอด → vaginal delivery, ไม่ต้อง IV AZT (ACOG CO 751 (2018, reaffirmed 2020): VL ≤1,000 ไม่จำเป็น); ทำ C/S ตามข้อบ่งชี้ทางสูติกรรมเท่านั้น",
+   "VL &gt;1,000 copies/mL หรือไม่ทราบ → scheduled C/S ที่ 38 0/7 สัปดาห์ (ก่อนเจ็บครรภ์/ถุงน้ำแตก) + IV AZT 3 ชม.ก่อนผ่าตัด",
+   "VL 50–999 (ยังอยู่ในกลุ่ม ≤1,000): ACOG CO 751 (2018, reaffirmed 2020) ว่าคลอดทางช่องคลอดได้ C/S ไม่ลดการถ่ายทอดเพิ่ม; IV AZT ไม่บังคับ แล้วแต่ดุลยพินิจ (ผู้เชี่ยวชาญบางท่านนิยมให้)",
+   "ระหว่างคลอด: หลีกเลี่ยง fetal scalp electrode, fetal scalp blood sampling, vacuum/forceps และ episiotomy โดยไม่จำเป็น; ถ้า VL ถูกกด การทำ AROM ตามข้อบ่งชี้ทำได้",
+   "ทารก: ยาป้องกันตามระดับความเสี่ยง + HIV DNA PCR; ประเทศไทยแนะนำนมผสม",
+   "ดู 78D Infection 1 (เริ่ม ART ทันที)"
+  ]
+ },
+ "MDCU79|RoB|Infection 6": {
+  "summary": [
+   "หญิงตั้งครรภ์ติดเชื้อ HIV: เริ่ม ART ทันทีไม่ขึ้นกับ CD4/อายุครรภ์; ไทย: TDF + 3TC (FTC) + DTG; ติดตาม viral load (เป้า &lt;50 copies/mL) และวัดอีกครั้งที่ 34–36 สัปดาห์",
+   "ถ้าได้ ART และ VL &lt;1,000 (โดยเฉพาะ &lt;50) ใกล้คลอด → คลอดทางช่องคลอดได้ ไม่ต้องให้ IV zidovudine (ACOG CO 751 (2018, reaffirmed 2020): VL ≤1,000 ไม่จำเป็น) ; VL &gt;1,000 หรือไม่ทราบ → planned cesarean ที่ 38 สัปดาห์ + IV zidovudine",
+   "ทารก: ยาต้านไวรัสป้องกันหลังคลอด (zidovudine 4–6 สัปดาห์ในความเสี่ยงต่ำ; ความเสี่ยงสูงให้สูตร 3 ยา), ไม่ให้นมแม่ (นมผสมทดแทน) ตามแนวทางไทย, ตรวจ HIV DNA PCR ตามกำหนด",
+   "การยืนยันวินิจฉัย: แนวทางไทยปัจจุบันใช้ชุดตรวจ anti-HIV 3 ชุดตามอัลกอริทึม (Western blot ไม่จำเป็นแล้ว)",
+   "ตรวจ screening ร่วม: CBC, VDRL, HBsAg, anti-HCV, TB screening, CD4 และ viral load",
+   "ดู 78C Infection 1 (HIV 12 สัปดาห์ CD4 650 → เริ่ม ART ทันทีไม่ขึ้นกับ CD4), 78D Infection 1 (เริ่มวันเดียวกับที่วินิจฉัย), 78D Infection 2 (VL &lt;50 → คลอดทางช่องคลอด)"
+  ]
+ },
+ "YUZU||11.3": {
+  "why": "เมื่อ ART คุม viral load ได้ <b>undetectable (&lt;50 copies/mL หรือ &lt;1000 ตามแนวทางเลือกใช้)</b> ใกล้คลอด อัตราถ่ายทอดเชื้อต่ำมาก (&lt;1%) จึง (1) <b>คลอดทางช่องคลอดได้ ไม่ต้องผ่าตัดคลอดล่วงหน้า</b> (C/S ที่ 38 สัปดาห์ใช้เมื่อ VL &gt;1000 หรือไม่ทราบ — ACOG CO 751 (2018, reaffirmed 2020); ver.1: VL &lt;1000 → try vaginal delivery); (2) <b>ไม่ต้องให้ AZT ระยะคลอด</b> (ACOG CO 751 (2018, reaffirmed 2020): VL ≤1,000 ที่ได้ cART ไม่จำเป็นต้อง IV zidovudine; ver.1: VL &lt;50 → ไม่ต้องให้ zidovudine intrapartum; ver.2: AZT add เมื่อ VL &gt;50) และ (3) <b>ต้องให้ HAART ต่อเนื่อง</b> หลังคลอด (ver.1: ห้ามหยุด HAART, ต้อง HAART ต่อ) — ปัจจุบันแนะนำ ART ตลอดชีวิตในผู้ติดเชื้อทุกราย (treat-all) และ CD4 เริ่มต้น 180 &lt;200 ต้องให้ cotrimoxazole ป้องกัน PCP ร่วมด้วย. ดังนั้นคำตอบคือ 'Vaginal birth without intrapartum AZT, HAART thereafter' ซึ่งสอดคล้องกับข้อเดิม MDCU78 RoB 62 และ MDCU78 RoD Infection 2",
+  "summary": [
+   "การเลือกวิธีคลอดตาม VL ใกล้คลอด (≥34–36 สัปดาห์): VL ≤1000 copies/mL → คลอดทางช่องคลอดได้ (ผ่าตัดตามข้อบ่งชี้สูติศาสตร์); VL &gt;1000 หรือไม่ทราบ → เสนอผ่าตัดคลอดที่ 38 0/7 สัปดาห์ + IV zidovudine (ACOG CO 751 (2018, reaffirmed 2020))",
+   "IV zidovudine ระยะคลอด (ACOG CO 751 (2018, reaffirmed 2020)): ต้องให้เมื่อ VL &gt;1,000 (หรือไม่ทราบ); ไม่จำเป็นเมื่อ VL ≤1,000 ที่ได้ cART (ช่วง 50–999 แล้วแต่ดุลยพินิจ ผู้เชี่ยวชาญบางท่านนิยมให้); แนวทางไทยที่ผู้จดสรุป: เติม AZT เมื่อ VL &gt;50",
+   "ART ต้องต่อเนื่องในระยะคลอดและหลังคลอดตลอดชีวิต — ไม่หยุดหลังคลอด",
+   "CD4 &lt;200: ให้ cotrimoxazole ป้องกัน Pneumocystis jirovecii pneumonia (และ toxoplasmosis ถ้า IgG บวกและ CD4 &lt;100); ติดตาม VL ทุก 1–3 เดือนหลังเริ่ม ART และที่ 34–36 สัปดาห์",
+   "ทารก: ARV prophylaxis 4–6 สัปดาห์ (AZT ± ตามความเสี่ยง), นมผง, PCR HIV ตามกำหนด (14–21 วัน, 1–2 เดือน, 4–6 เดือน)",
+   "VL undetectable ในแม่ → ความเสี่ยงถ่ายทอด &lt;1% (หลักการ U=U ในแง่การถ่ายทอด)",
+   "ข้อเดิมที่คล้ายกัน: MDCU78 RoB 62 (continue ART), MDCU78 RoD Infection 2 (VL &lt;50 → vaginal delivery); ดู YUZU 11.5 ด้วย"
+  ]
+ },
+ "YUZU||11.5": {
+  "summary": [
+   "วิธีคลอดตาม VL ใกล้คลอด: VL ≤1000 copies/mL → คลอดทางช่องคลอดได้ตามข้อบ่งชี้สูติศาสตร์; VL &gt;1000 หรือไม่ทราบ → เสนอผ่าตัดคลอดที่ 38 0/7 สัปดาห์ (ACOG CO 751 (2018, reaffirmed 2020)) (ก่อนเจ็บครรภ์/น้ำเดิน) + IV zidovudine",
+   "การดูแลระหว่างคลอดช่องคลอด (หลีกเลี่ยงถ้าไม่จำเป็น): เจาะถุงน้ำคร่ำ, scalp electrode/scalp blood sampling, episiotomy, vacuum/forceps",
+   "ACOG (CO 751) แนะนำเลี่ยง operative vaginal delivery และ fetal scalp electrode แม้ VL ต่ำ เว้นแต่มีข้อบ่งชี้สูติกรรมชัดเจน — ถ้าจำเป็นให้ทำตามข้อบ่งชี้; ถ้าน้ำเดินนาน &gt;4 ชม. เสี่ยงถ่ายทอดเพิ่มในรายไม่ได้ ART",
+   "ART ต้องกินต่อเนื่องไม่ขาดในระยะคลอด; ผู้ที่ VL ต่ำไม่ต้อง IV AZT",
+   "หลังคลอด: เช็ดตัวทารกเอาเลือด/น้ำคร่ำออกทันที, ARV prophylaxis ให้เร็วที่สุด, นมผง",
+   "ฉีกขาดฝีเย็บเล็กน้อยที่เกิดเองยอมรับได้ดีกว่าการตัดโดยไม่จำเป็น (ver.2: ยอม tear แต่ไม่ให้ลูกติด) แล้วเย็บซ่อมตามระดับ",
+   "ข้อใกล้เคียง: ดู YUZU 11.3 (VL undetectable → ไม่ต้อง C/S, ไม่ต้อง IV AZT)"
+  ]
+ },
+ "YUZU||11.1": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ACOG CO 751 (2018, reaffirmed 2020) ให้ IV zidovudine (2 mg/kg ใน 1 ชม. แล้ว 1 mg/kg/ชม.) เมื่อ VL &gt;1,000 หรือไม่ทราบ ร่วมกับ ART เดิม และไม่ได้กล่าวถึง AZT 600 mg กินหรือ single-dose nevirapine; สำหรับผู้ที่มาเจ็บครรภ์แล้ว ACOG ระบุว่ายังไม่ชัดว่า C/S ด่วนลดการถ่ายทอดได้ ให้ตัดสินรายบุคคล — ไม่มีช้อยใดตรงกับ tier 1 (โจทย์อิงสูตรไทยรุ่นเก่า) จึงคงคำตอบ D ตามคีย์; ช้อย A และ E ขัดกับ tier 1 มากกว่า || ⚠ โจทย์ไม่ระบุประวัติ ANC/ART/viral load — ทั้ง 2 เวอร์ชันตีความว่าเป็นหญิงที่ไม่เคยได้ ART (no ANC) ที่มาเจ็บครรภ์และยังมีเวลา &gt;2 ชม. จึงตอบ D (AZT 600 mg + NVP 200 mg ครั้งเดียว) ซึ่งเป็น regimen ตามแนวทางไทยรุ่นเก่า; แนวทางปัจจุบัน (DHHS/WHO) เน้นเริ่ม combination ART ทันที ± IV zidovudine ไม่ใช้ single-dose NVP เป็นหลัก",
+  "summary": [
+   "การถ่ายทอด HIV แม่สู่ลูก: ไม่มีการป้องกัน ~15–25% (ไม่ให้นม) และสูงถึง ~40% เมื่อให้นมแม่; ด้วย ART + VL ต่ำมาก + ป้องกันทารก &lt;1–2%; ส่วนใหญ่ (~65%) เกิดช่วงคลอด",
+   "ANC: ตรวจ anti-HIV ทุกรายตั้งแต่ฝากครรภ์ครั้งแรก ซ้ำที่ 28–32 สัปดาห์ (และตอนคลอดถ้าไม่เคยตรวจ); เริ่ม ART ทันทีไม่ว่า CD4 (ดู 11.4)",
+   "แนวทางไทยรุ่นเก่า (ตามที่ผู้จดสรุป) สำหรับ no ANC: เจ็บครรภ์ มีเวลา &gt;2 ชม. → AZT 600 mg + NVP 200 mg ครั้งเดียว; จะคลอด ≤2 ชม. (fully dilated) → AZT 600 mg ทันที ไม่ให้ NVP; AZT 300 mg ทุก 3 ชม. จนคลอดเป็นทางเลือก (ver.2)",
+   "แนวทางปัจจุบัน (ACOG CO 751 (2018, reaffirmed 2020) + DHHS 2023/WHO): หญิงที่ไม่เคยได้ ART มาเจ็บครรภ์ → เริ่ม combination ART ทันที (เช่น TDF + 3TC/FTC + DTG ตาม ver.1 'Antepartum 2020') + IV zidovudine (2 mg/kg ใน 1 ชม. ตามด้วย 1 mg/kg/ชม.) เมื่อ VL &gt;1000 หรือไม่ทราบ; ทารกได้ ARV prophylaxis",
+   "ผ่าตัดคลอด (C/S) ที่ 38 สัปดาห์: VL &gt;1000 copies/mL (หรือไม่ทราบ) ใกล้คลอด; VL ≤1000 → คลอดทางช่องคลอดได้ตามข้อบ่งชี้สูติศาสตร์",
+   "หลีกเลี่ยงหัตถการที่เพิ่มการสัมผัสเลือด/สารคัดหลั่งมารดา: เจาะถุงน้ำคร่ำ, ตัดฝีเย็บ, scalp electrode, scalp blood sampling, vacuum/forceps",
+   "หลังคลอด: ทารกได้ AZT (± 3TC, NVP ตามความเสี่ยง) นาน 4–6 สัปดาห์; ในไทยแนะนำให้นมผง; แม่ ART ต่อตลอดชีวิต",
+   "ข้อที่ถามเรื่องเดียวกัน: ดู YUZU 11.2 (fully dilated) และ YUZU 11.3 (VL undetectable)"
+  ]
+ },
+ "YUZU||11.2": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ACOG CO 751 (2018, reaffirmed 2020) ให้ IV zidovudine เมื่อ VL &gt;1,000 หรือไม่ทราบ (เริ่มตั้งแต่เข้าห้องคลอด) และไม่มีสูตร AZT 600 mg กิน; ประโยชน์ของ C/S ด่วนหลังเจ็บครรภ์ยังไม่ชัด — ไม่มีช้อย IV ZDV จึงคงคำตอบ C (zidovudine แล้วคลอดทางช่องคลอด) ซึ่งใกล้ tier 1 ที่สุด; ช้อย E (emergency C/S) ขัดกับ tier 1",
+  "summary": [
+   "ถ้าจะคลอด ≤2 ชม. (fully dilated): AZT 600 mg ทันที (single dose) ไม่ให้ NVP; ถ้ามีเวลา &gt;2 ชม.: AZT 600 mg + NVP 200 mg ครั้งเดียว (แนวทางไทยรุ่นเก่าในผู้ไม่เคย ART)",
+   "ถ้าได้ ART อยู่แล้ว: ให้ ART ต่อในระยะคลอด; VL &gt;50 ใกล้คลอด → เพิ่ม AZT 600 mg + 300 mg ทุก 3 ชม. (ver.1) หรือ IV AZT (ACOG CO 751 (2018, reaffirmed 2020)) เมื่อ VL &gt;1000",
+   "การถ่ายทอดเชื้อเกิดมากที่สุดช่วงคลอดผ่านเลือด/สารคัดหลั่ง; ระยะเวลาน้ำเดินนานเพิ่มความเสี่ยง (&gt;4 ชม.)",
+   "หลีกเลี่ยงเจาะถุงน้ำ, scalp electrode, ตัดฝีเย็บ, หัตถการช่วยคลอดถ้าไม่จำเป็น",
+   "ทารก: ล้างตัวเอาเลือดมารดาออกทันที; ให้ ARV prophylaxis ภายใน 6–12 ชม. แรกเกิด (AZT ± 3TC/NVP); ไม่ให้นมแม่",
+   "Emergency C/S ไม่ช่วยลดการถ่ายทอดเมื่อ labor ดำเนินมากแล้ว",
+   "ข้ออ้างอิง: ดู YUZU 11.1 และ YUZU 11.3"
+  ]
+ },
+ "MDCU78|RoC|Medical disease 2": {
+  "why": "ASB ในหญิงตั้งครรภ์<b>ต้องรักษาทุกราย</b> เพราะถ้าไม่รักษา ราว 25–30% จะเป็น <b>acute pyelonephritis</b> และสัมพันธ์กับ preterm birth และ low birth weight; การรักษาลดความเสี่ยง pyelonephritis ลงชัดเจน — ให้ยาปฏิชีวนะตามผลความไว <b>5–7 วัน</b> (ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435): cephalexin, fosfomycin 3 g ครั้งเดียว, amoxicillin-clavulanate; nitrofurantoin/TMP-SMX เมื่อไม่มีทางเลือกอื่น) แล้ว<b>เพาะเชื้อซ้ำ (test of cure)</b> หลังรักษา เพราะกลับเป็นซ้ำได้ราว 30% (ACOG ระบุว่าหลักฐานเรื่องเพาะซ้ำหลังรักษายังไม่พอจะยืนยันหรือคัดค้าน แต่เป็นแนวปฏิบัติที่ใช้ทั่วไปและเป็นคีย์ข้อสอบ); โปรตีน 1+ น่าจะสัมพันธ์กับการติดเชื้อในปัสสาวะ ความดันปกติ ไม่ต้องสืบค้น preeclampsia (ยังไม่ถึง 20 สัปดาห์ด้วย)",
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435) ยืนยันว่า ASB ในครรภ์ต้องรักษาทุกราย (คัดกรอง urine culture ครั้งเดียวตั้งแต่ต้นฝากครรภ์ รักษา 5–7 วัน) จึงคงคำตอบ A; ส่วนการเพาะซ้ำหลังรักษา ACOG ว่าหลักฐานยังไม่พอ — ช้อยอื่น (B–E) ขัดกับ tier 1 ชัดเจนกว่า",
+  "summary": [
+   "ASB: เพาะเชื้อปัสสาวะ clean-catch พบเชื้อชนิดเดียว ≥10⁵ CFU/mL โดยไม่มีอาการ; พบราว 2–7% ของหญิงตั้งครรภ์",
+   "คัดกรองด้วย urine culture ทุกคนในการฝากครรภ์ครั้งแรก (ACOG 2023: ครั้งเดียวตั้งแต่ต้นการฝากครรภ์ ไม่สนับสนุนการคัดกรองซ้ำ; USPSTF, IDSA สอดคล้อง)",
+   "ต้องรักษาเสมอในครรภ์: ไม่รักษา → pyelonephritis ราว 25–30%; สัมพันธ์กับ preterm birth และ LBW",
+   "ยา 5–7 วันตามผลความไว (ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435)): cephalexin, amoxicillin-clavulanate, fosfomycin 3 g ครั้งเดียว (ไม่เริ่ม amoxicillin/ampicillin เป็น empiric ก่อนผลเพาะเชื้อเพราะ E. coli ดื้อสูง); nitrofurantoin/TMP-SMX ใช้เมื่อไม่มีทางเลือกอื่น (เลี่ยงไตรมาส 1 และใกล้คลอดถ้าเลือกได้); ห้าม fluoroquinolone",
+   "Test of cure: เพาะเชื้อซ้ำหลังรักษา (ACOG 2023: หลักฐานยังไม่พอจะยืนยันประโยชน์ แต่เป็นแนวปฏิบัติทั่วไป); ถ้าไม่หายหรือกลับซ้ำ → รักษาตามผลความไวอีกครั้ง แล้วพิจารณา suppression (nitrofurantoin หรือ cephalexin ก่อนนอน) จนคลอด",
+   "GBS ในปัสสาวะ (ปริมาณใดก็ตาม) → รักษาถ้า ≥10⁵ และให้ intrapartum prophylaxis ทุกราย",
+   "ดู 78C Medical disease 5 (ASB ที่รักษาแล้วไม่หาย)"
+  ]
+ },
+ "MDCU78|RoC|Medical disease 3": {
+  "summary": [
+   "Acute pyelonephritis พบราว 1–2% ของการตั้งครรภ์ ส่วนใหญ่ไตรมาส 2–3 และเป็น<b>ด้านขวา</b>บ่อยกว่า (มดลูกหมุนขวาและกด ureter, progesterone ทำให้ ureter ขยาย)",
+   "อาการ: ไข้ หนาวสั่น ปวดสีข้าง CVA tenderness คลื่นไส้อาเจียน ± อาการ cystitis",
+   "การตรวจ: urine culture (ก่อนให้ยา), UA, CBC, creatinine, electrolytes; blood culture ในรายรุนแรงหรือสงสัย sepsis",
+   "ภาวะแทรกซ้อน: sepsis และ septic shock, ARDS (endotoxin), renal dysfunction ชั่วคราว, anemia (hemolysis), preterm labor",
+   "รักษา: admit (ACOG: เริ่มรักษาแบบผู้ป่วยใน), IV fluid, IV antibiotic (ceftriaxone 1 g q24h, ampicillin + gentamicin, cefepime, aztreonam ถ้าแพ้ beta-lactam ตาม ACOG; cefazolin ตามตำรา) → ไข้ลง/อาการดีขึ้น เปลี่ยนเป็นยากินจนครบรวม 14 วัน (ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435))",
+   "ไข้ไม่ลง 48–72 ชม. → อัลตราซาวนด์ไตหาการอุดกั้นหรือฝี และทบทวนผลความไว",
+   "หลังหาย: พิจารณา suppression (nitrofurantoin 100 mg ก่อนนอน) จนคลอด หรือเพาะเชื้อซ้ำเป็นระยะ",
+   "ดู 78C Medical disease 4 (การรักษา acute pyelonephritis)"
+  ]
+ },
+ "MDCU78|RoC|Medical disease 4": {
+  "why": "Acute pyelonephritis ในหญิงตั้งครรภ์เสี่ยงสูงต่อ <b>sepsis, ARDS, renal dysfunction และ preterm labor</b> มาตรฐาน (Williams, ACOG) คือ <b>admit ให้ IV fluid และ IV antibiotic</b> แบบ empirical ทันทีหลังเก็บ urine culture: ceftriaxone 1 g ทุก 24 ชม., cefazolin 1–2 g ทุก 8 ชม. หรือ ampicillin + gentamicin; เมื่อไข้ลงและอาการดีขึ้น 24–48 ชม. จึงเปลี่ยนเป็นยารับประทานตามผลความไวจนครบรวม 14 วัน (ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435))",
+  "summary": [
+   "Acute pyelonephritis ในครรภ์: admit + IV fluid + IV antibiotic เป็นมาตรฐาน",
+   "ยา empirical: ceftriaxone 1 g IV q24h, cefazolin 1–2 g IV q8h, ampicillin + gentamicin; ระวัง aminoglycoside ในไตทำงานลด",
+   "เก็บ urine culture ก่อนให้ยา แล้วปรับยาตามผลความไว",
+   "ไข้ลงภายใน 48 ชม. ในผู้ป่วยส่วนใหญ่ → เปลี่ยนเป็นยากินจนครบรวม 14 วัน (ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435))",
+   "ไข้ไม่ลง 48–72 ชม. → อัลตราซาวนด์ไต หานิ่ว การอุดกั้น ฝี; ทบทวนเชื้อดื้อยา",
+   "เฝ้าระวัง: sepsis, ARDS (หอบ SpO₂ ต่ำ), creatinine เพิ่ม, anemia, preterm contractions",
+   "หลังหาย: suppression จนคลอด (nitrofurantoin 100 mg ก่อนนอน) หรือเพาะเชื้อซ้ำเป็นระยะ เพราะกลับเป็นซ้ำได้",
+   "ดู 78C Medical disease 3 (การตรวจที่มีประโยชน์ที่สุด)"
+  ]
+ },
+ "MDCU78|RoC|Medical disease 5": {
+  "why": "เมื่อ ASB ในครรภ์รักษาแล้วไม่หาย สาเหตุที่พบบ่อยคือ<b>เชื้อดื้อยา</b> (เช่น E. coli ที่สร้าง ESBL ซึ่งดื้อ ceftriaxone) จึงต้อง<b>ส่งเพาะเชื้อพร้อมทดสอบความไวต่อยา</b> แล้วรักษาด้วยยาที่เชื้อไวอีกครั้ง (ปรับยาตามผลเพาะเชื้อและความไว — ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435)) ตามด้วยเพาะเชื้อซ้ำ (test of cure); ถ้ายังกลับเป็นซ้ำ พิจารณา suppressive therapy จนคลอด — ยังต้องรักษาเพราะ ASB ที่ไม่หายเสี่ยง pyelonephritis"
+ },
+ "MDCU78|RoD|Infection 4": {
+  "summary": [
+   "UTI = การติดเชื้อแบคทีเรียที่พบบ่อยที่สุดในครรภ์; เชื้อหลัก E. coli (~70–80%) ตามด้วย Klebsiella, Proteus, GBS, Enterobacter",
+   "ASB: urine culture ≥10⁵ CFU/mL ไม่มีอาการ — คัดกรองทุกรายที่ฝากครรภ์ครั้งแรก และ<b>รักษาทุกราย</b> 5–7 วัน (ลด pyelonephritis และอาจลด preterm/LBW; ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435) คัดกรองครั้งเดียวตั้งแต่ต้นการฝากครรภ์)",
+   "ยา (ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435)): cephalexin, amoxicillin-clavulanate, fosfomycin 3 g ครั้งเดียว; nitrofurantoin/TMP-SMX ใช้เมื่อไม่มีทางเลือกอื่น (เลี่ยงไตรมาสแรกและใกล้คลอดถ้ามีทางเลือก); fluoroquinolones ห้าม",
+   "Pyelonephritis ~1–2% มักไตรมาส 2–3 ด้านขวา → admit + IV antibiotics; เสี่ยง sepsis, ARDS, anemia, preterm labor",
+   "Culture ซ้ำหลังรักษาเพื่อยืนยัน; ถ้าเป็นซ้ำ → suppressive therapy (nitrofurantoin ก่อนนอน) จนคลอด",
+   "ดู 78D Infection 5 และ 6 (pyelonephritis)"
+  ]
+ },
+ "MDCU78|RoD|Infection 5": {
+  "why": "Pyelonephritis ในครรภ์มีความเสี่ยงสูงต่อ <b>sepsis, ARDS/pulmonary injury, anemia (hemolysis), renal dysfunction และ preterm labor</b> จึงให้ <b>admit + IV antibiotics</b> (ceftriaxone 1 g IV วันละครั้ง, ampicillin + gentamicin, cefepime หรือ aztreonam ถ้าแพ้ beta-lactam ตาม ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435); cefazolin ตามตำรา) + IV fluid + antipyretic + เก็บ urine culture ก่อนให้ยา; เมื่อไข้ลง/อาการดีขึ้น เปลี่ยนเป็นยากินให้ครบรวม 14 วัน (ACOG) แล้วให้ suppressive therapy (nitrofurantoin 100 mg ก่อนนอน) จนคลอด",
+  "summary": [
+   "อาการ: ไข้ หนาวสั่น ปวดเอว CVA tenderness (ขวามากกว่าซ้าย) คลื่นไส้อาเจียน ± อาการ cystitis; มักไตรมาส 2–3",
+   "ตรวจ: UA, urine culture, CBC, creatinine, electrolytes; hemoculture ถ้า sepsis",
+   "รักษา: admit (ACOG: เริ่มแบบผู้ป่วยใน), IV antibiotics (ceftriaxone 1 g q24h, ampicillin + gentamicin, cefepime; cefazolin ตามตำรา), IV fluid ระวัง fluid overload (เสี่ยง pulmonary edema/ARDS), เฝ้าระวัง preterm labor",
+   "ไข้ลงภายใน 48 ชม. ในผู้ป่วยส่วนใหญ่ → เปลี่ยนยากินตาม culture ครบรวม 14 วัน (ACOG 2023)",
+   "ไม่ดีขึ้นใน 48–72 ชม. → renal ultrasound หา obstruction/นิ่ว/abscess + ทบทวน culture และความไวต่อยา",
+   "หลังรักษา: suppression ด้วย nitrofurantoin 100 mg ก่อนนอนจนคลอด และ culture เป็นระยะ (เป็นซ้ำได้ 6–8%)",
+   "ดู 78D Infection 6 (ไม่ตอบสนองหลัง 48 ชม.)"
+  ]
+ },
+ "YUZU||25.2": {
+  "why": "<b>ASB</b> = การพบเชื้อ ≥10<sup>5</sup> CFU/mL (single organism) ในปัสสาวะ clean-catch โดยไม่มีอาการ พบ 2–7% ของหญิงตั้งครรภ์ (เท่าหญิงไม่ตั้งครรภ์) แต่ในครรภ์ <b>20–40% ของรายที่ไม่รักษา</b> จะลุกลามเป็น acute pyelonephritis (ส่วนใหญ่ไตรมาส 2–3) เพราะ progesterone/มดลูกกดท่อไตทำให้ ureter ขยาย, urinary stasis, vesicoureteral reflux → ต้อง <b>คัดกรองด้วย urine culture ครั้งเดียวตั้งแต่ต้นของการฝากครรภ์ (ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435) ไม่สนับสนุนการคัดกรองซ้ำ) และรักษาทุกราย</b> (ลดการเกิด pyelonephritis ~70–80%, ลด preterm birth/LBW). เชื้อ: <b>E. coli ~70–80%</b>, Klebsiella, Proteus, GBS, Enterococcus. ยาตาม ACOG: cephalexin, fosfomycin 3 g ครั้งเดียว, amoxicillin-clavulanate (ไม่เริ่ม amoxicillin/ampicillin เป็น empiric ก่อนผลเพาะเชื้อเพราะ E. coli ดื้อสูง), nitrofurantoin/TMP-SMX เมื่อไม่มีทางเลือกอื่น; รักษา <b>5–7 วัน</b> (สูตรที่ผู้จดแปะคือ 3 วัน/ครั้งเดียว/nitrofurantoin 10 วัน ซึ่งต่างจากที่ ACOG แนะนำ) ส่วน test of cure ACOG ว่าหลักฐานยังไม่พอ แต่ในทางปฏิบัติมักเพาะซ้ำ 1–2 สัปดาห์หลังรักษา. ดังนั้น A เป็นข้อความเท็จที่ชัดที่สุด",
+  "wrong": {
+   "B": "B. Penicillin and Cephalosporin is drug of choice: ถูก — ampicillin/amoxicillin และ cephalosporin (cephalexin, cefazolin) เป็นยาหลัก (ver.1 จด 'พวกแก้ว/พวก Ampicillin เป็น Drug of Choice'); ปรับตามผล susceptibility เพราะ E. coli ดื้อ ampicillin สูง — ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435) แนะนำ cephalexin/fosfomycin/amoxicillin-clavulanate และไม่ใช้ amoxicillin/ampicillin เป็น empiric ก่อนผลเพาะเชื้อ ข้อ B จึงถูกเพียงบางส่วนตาม tier 1 แต่ไม่ใช่ข้อที่ผิดชัดที่สุด",
+   "C": "C. Most common pathogen is E. coli: ถูก (~70–80% ของ ASB/UTI/pyelonephritis ในครรภ์)",
+   "D": "D. If untreated, risk of pyelonephritis in 2nd and 3rd trimester: ถูก — ผลจากการขยายของ ureter และ hydronephrosis ของครรภ์ (ขวามากกว่าซ้าย) เสี่ยง pyelonephritis และ preterm labor",
+   "E": "E. Incidence of pyelonephritis is not different from normal women: ผิดเช่นกันถ้ามอง 'การเกิด pyelonephritis' (ความเสี่ยงสูงขึ้นในครรภ์) แต่ถ้ามองเฉพาะอุบัติการณ์ของ ASB เองซึ่งเท่ากับไม่ตั้งครรภ์ ก็ถือว่าถูก — เป็นข้อที่กำกวม ผู้จด ver.1 จด 'หญิงมีครรภ์ [มีความเสี่ยง] มากกว่าอยู่แล้วสิ'"
+  },
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ACOG Clinical Consensus 2023 (Obstet Gynecol 142:435) ยืนยันว่า ASB ในครรภ์ต้องรักษาทุกราย (ช้อย A ผิด) จึงคงคำตอบ A; ช้อย B ถูกเพียงบางส่วน (ACOG ไม่ใช้ aminopenicillin เป็น empiric) และช้อย E ยังผิด/กำกวมตามเดิม || ⚠ ข้อนี้มีข้อความที่ผิด 2 ข้อ: ทั้ง 2 เวอร์ชันวง/ขีดทับทั้ง A และ E เป็น 'FALSE' — เราเลือก A เป็นคำตอบเดียว เพราะ 'ไม่ต้องรักษา ASB ในครรภ์' ผิดชัดเจนตามทุก guideline (ACOG/IDSA/USPSTF: ต้องรักษา) ส่วน E ('อุบัติการณ์ pyelonephritis ไม่ต่างจากหญิงปกติ') ผิดเช่นกันในแง่ที่ว่าการตั้งครรภ์เพิ่มความเสี่ยง pyelonephritis จาก ASB ที่ไม่ได้รักษา (20–40% vs ~1–2% ถ้ารักษา; และ ver.1 จด 'หญิงมีครรภ์มีความเสี่ยงมากกว่าอยู่แล้ว') แต่ถ้าตีความว่าอุบัติการณ์ ASB ไม่ต่างกัน (2–7%) ผู้ออกข้อสอบอาจตั้งใจให้ E ถูก — ความมั่นใจว่าข้อสอบจริงเฉลย A ≈ 80%",
+  "summary": [
+   "คัดกรอง ASB: urine culture ครั้งเดียวตั้งแต่ต้นของการฝากครรภ์ทุกราย (ACOG 2023); UA/dipstick ไม่ไวพอ (Gram stain/culture คือ gold standard)",
+   "เกณฑ์: ≥10<sup>5</sup> CFU/mL เชื้อเดียว (ACOG); ACOG 2023: รักษา 5–7 วันตามความไว; หลักฐานเรื่องเพาะซ้ำหลังรักษา/คัดกรองซ้ำยังไม่พอ (ในทางปฏิบัติมักเพาะซ้ำ 1–2 สัปดาห์หลังรักษา)",
+   "สูตรยา (ตามผู้จด): Ampicillin 500 mg q 6 h หรือ Amoxicillin 500 mg q 8 h หรือ Cephalosporin 250 mg q 6 h × 3 วัน; ครั้งเดียว Ampicillin 2 g/Amoxicillin 3 g; Nitrofurantoin 100 mg q 6 h × 10 วัน; ป้องกันกลับเป็นซ้ำ: Nitrofurantoin 100 mg hs ตลอดการตั้งครรภ์",
+   "ถ้ามีอาการ cystitis: รักษา 7–10 วัน; ถ้า pyelonephritis (ACOG: เริ่มแบบผู้ป่วยใน ครบรวม 14 วัน): admit, IV Ampicillin 1–2 g q 6 h ± Gentamicin 3–5 mg/kg, Cefazolin 1 g q 8 h, Cephalothin 1 g q 6 h → ป้องกันกลับเป็นซ้ำ nitrofurantoin 100 mg hs / sulfisoxazole 500 mg / ampicillin 250 mg เช้า–เย็น ตลอดการตั้งครรภ์",
+   "ยาที่หลีกเลี่ยง: tetracycline, fluoroquinolone, sulfonamide ใกล้คลอด (kernicterus), nitrofurantoin ไตรมาสแรกถ้ามีทางเลือกอื่น/ G6PD deficiency",
+   "ผลถ้าไม่รักษา: pyelonephritis, preterm birth, low birth weight, perinatal mortality",
+   "ดู MDCU78 RoC Medical disease 2 (ASB ที่ 16 สัปดาห์ → รักษาแล้วทำ culture ซ้ำ) และ YUZU 25.1"
+  ]
+ },
+ "YUZU||25.1": {
+  "ans": 3,
+  "opinion": "เห็นด้วยกับ D หลังตรวจตาม ACOG Clinical Practice Guideline No. 10 (ต.ค. 2025) ความมั่นใจปานกลาง-สูง (~75%) — คีย์เดิมของผู้จดทั้ง 2 เวอร์ชันคือ B (Emergency C/S) ซึ่งไม่ตรงกับ tier 1",
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): เปลี่ยนคำตอบจากคีย์ผู้จด B (Emergency C/S) เป็น D (ลดไข้แล้วประเมินซ้ำ) — ACOG Clinical Practice Guideline No. 10 'Intrapartum Fetal Heart Rate Monitoring: Interpretation and Management' (Obstet Gynecol 2025;146) แนะนำอย่างแข็งว่า category II ให้ทำ intrauterine resuscitation ก่อนผ่าตัดคลอด และ fetal tachycardia ให้ประเมินและรักษาสาเหตุเบื้องหลัง (เช่น การติดเชื้อ/ไข้มารดา) แล้วติดตามต่อ; ผ่าตัด/คลอดด่วนสำหรับ category III ที่ไม่ตอบสนอง โจทย์ให้เพียง FHR 180 ไม่มี acceleration (ไม่ระบุ variability/deceleration) กับไข้มารดา 39 °C + pyelonephritis ซึ่งอธิบาย tachycardia ได้ ผู้จดทั้ง 2 เวอร์ชันตอบ B (ความมั่นใจเดิม ~55%); ถ้า tracing เป็น category III (absent variability + recurrent decel) หรือไม่ดีขึ้นหลังแก้สาเหตุ → คลอดด่วนได้ (อ่านไฟล์ RTCOG OB 63-025 ไม่ได้ จึงยังไม่ยืนยัน)",
+  "why": "FHR baseline &gt;160 bpm นานเกิน 10 นาที = tachycardia ซึ่งจัดเป็น <b>category II</b> (ยกเว้นมี absent variability ร่วมกับ recurrent decelerations/bradycardia หรือ sinusoidal = category III). <b>ACOG Clinical Practice Guideline No. 10 (2025)</b> แนะนำอย่างแข็งว่า category II ให้ทำ <b>intrauterine resuscitation และหาสาเหตุก่อนผ่าตัดคลอด</b> และสำหรับ fetal tachycardia ให้ <b>ประเมินและรักษาภาวะเบื้องหลัง</b> (เช่น การติดเชื้อ) แล้วประเมินซ้ำ; ผ่าตัด/คลอดด่วนสำหรับ category III ที่ไม่ตอบสนองต่อ resuscitation. รายนี้มีไข้ 39 °C จาก pyelonephritis ซึ่งอธิบาย tachycardia ได้ (ไข้มารดาทำให้ FHR เพิ่มราว 10 bpm ต่อ °C ตามตำรา) โจทย์ไม่ระบุว่า variability หายหรือมี deceleration จึงยังไม่ใช่ category III และมดลูกหดตัวห่าง 8 นาที (ยังไม่ใช่ active labor) → ทำพร้อมกัน: <b>antipyretic (paracetamol)</b>, IV fluid, IV antibiotics รักษา pyelonephritis (และคลุม intra-amniotic infection ถ้าสงสัย), เปลี่ยนท่ามารดา แล้ว <b>ประเมิน FHR ซ้ำ</b>; ถ้าเป็น category III หรือไม่ดีขึ้นหลังแก้สาเหตุ → คลอดด่วน (ACOG CO 712: intra-amniotic infection เองแทบไม่เป็นข้อบ่งชี้ C/S ด่วน)",
+  "wrong": {
+   "A": "A. Artificial rupture of membrane: ใช้เร่งคลอด/ประเมิน liquor เมื่อ cervix เปิดดีและอยู่ใน active labor — โจทย์ยังไม่ใช่ active labor, ARM ไม่ได้แก้สาเหตุของ tachycardia และไม่ใช่ intrauterine resuscitation (ver.1 จด 'ทำตอน cervix dilate แล้ว')",
+   "B": "B. Emergency Cesarean section: เป็นคีย์เดิมของผู้จดทั้ง 2 เวอร์ชัน แต่ ACOG CPG No. 10 (2025) ให้ทำ intrauterine resuscitation และรักษาสาเหตุของ tachycardia ก่อนผ่าตัดใน category II — C/S ด่วนเหมาะเมื่อเป็น category III ที่ไม่ตอบสนอง (absent variability + recurrent late/variable decel, bradycardia หรือ sinusoidal) หรือมีข้อบ่งชี้สูติกรรมอื่น; จะถูกถ้าโจทย์ให้ tracing เป็น category III หรือไม่ดีขึ้นหลังลดไข้/ให้ยา",
+   "C": "C. Prostaglandin E insertion: เป็นการเตรียมปากมดลูก/เหนี่ยวนำการคลอด กระตุ้นมดลูกหดตัวมากขึ้น เสี่ยง tachysystole และ fetal hypoxia ใน tracing ที่ไม่ปกติ — ไม่ถูก (ver.1 จด 'Termination?')",
+   "E": "E. Fetal ultrasonography: ไม่แก้สาเหตุของ tachycardia และไม่ใช่ขั้นตอนแรกของการจัดการ; BPP/US ใช้ประเมินต่อในรายที่ stable (ver.1 จด 'ไม่ต้อง')"
+  },
+  "trap": "เห็น FHR 180 + ไม่มี acceleration แล้วรีบผ่าตัดคลอดด่วน — ข้อมูลนี้เป็น category II ที่อธิบายได้ด้วยไข้มารดา/การติดเชื้อ ต้องรักษาสาเหตุ (ลดไข้ + ยาปฏิชีวนะ) และประเมินซ้ำก่อน; ผ่าตัดเมื่อเป็น category III ที่ไม่ตอบสนอง",
+  "mnemonic": "FHR สูงจากไข้แม่ = ลดไข้ + รักษาติดเชื้อ แล้วประเมินซ้ำ; Category III ที่ไม่ตอบสนอง = คลอดด่วน",
+  "summary": [
+   "Pyelonephritis ในครรภ์: ไข้ ปวดสีข้าง CVA tenderness, ไอ/หนาวสั่น, เสี่ยง sepsis, ARDS (2–8%), preterm labor, anemia; ต้อง admit, IV antibiotics (ceftriaxone 1–2 g/วัน หรือ ampicillin ± gentamicin), IV fluid, urine culture/ blood culture",
+   "ติดตาม: urine output, vital signs, ถ้าไข้ไม่ลดใน 48–72 ชม. → US kidney (obstruction/stone/abscess)",
+   "FHR baseline ปกติ 110–160; tachycardia &gt;160 เกิน 10 นาที (สาเหตุ: ไข้มารดา, chorioamnionitis, ยาเช่น terbutaline/atropine, hypoxia, maternal hyperthyroid, fetal arrhythmia)",
+   "ACOG CPG No. 10 (2025): category II ให้ทำ intrauterine resuscitation ก่อนผ่าตัดคลอด; fetal tachycardia → ประเมินและรักษาสาเหตุ (ไข้/ติดเชื้อ); Category I: baseline 110–160, moderate variability, ไม่มี late/variable decel (accelerations ไม่จำเป็น); Category II: ทุกอย่างที่ไม่ใช่ I/III; Category III: absent variability + recurrent late/variable decel/bradycardia หรือ sinusoidal → ต้องคลอด",
+   "Intrauterine resuscitation (ACOG CPG No. 10, 2025): เปลี่ยนท่ามารดา, IV fluid bolus (ระวัง volume overload), ลด/หยุด oxytocin, amnioinfusion ถ้าสงสัย cord compression, แก้ภาวะของมารดา (ลดไข้ รักษาติดเชื้อ); ไม่แนะนำให้ O2 ถ้ามารดาไม่ hypoxic; ประเมินซ้ำ",
+   "Intraamniotic infection (triple I): ไข้ ≥39 °C เดี่ยว หรือ 38–38.9 °C + ปัจจัยร่วม; รักษาด้วย ampicillin + gentamicin และ คลอด (C/S ตามข้อบ่งชี้สูติกรรม)",
+   "Delivery for term pregnancy with sepsis: ไม่ควรรอเจ็บครรภ์เองนาน ถ้า fetal status ไม่ดี",
+   "ดูข้อที่เกี่ยวข้อง: MDCU78 RoD Infection 3 (fever + FHR 170 → IV antibiotics) และ YUZU 25.2"
+  ]
+ },
+ "MDCU78|RoD|Infection 3": {
+  "why": "เกณฑ์ <b>suspected intra-amniotic infection</b> (ACOG 2017): ไข้ ≥39.0 °C ครั้งเดียว หรือ 38.0–38.9 °C ร่วมกับอย่างน้อย 1 ข้อ: <b>fetal tachycardia &gt;160 bpm</b>, WBC มารดา &gt;15,000, หนองจากปากมดลูก — รายนี้เข้าเกณฑ์ จึงต้องให้ <b>IV broad-spectrum antibiotics ทันที</b> (ampicillin 2 g IV ทุก 6 ชม. + gentamicin) ร่วมกับ<b>วางแผนคลอด</b> (induction ได้ ACOG CO 712: intra-amniotic infection เองแทบไม่เป็นข้อบ่งชี้ C/S ด่วน วิธีคลอดตามข้อบ่งชี้สูติกรรม) ไม่ว่าอายุครรภ์เท่าใด — การติดเชื้อเป็นข้อห้ามของ expectant management และ tocolysis",
+  "summary": [
+   "Triple I (suspected): ไข้ ≥39.0 °C หรือ 38.0–38.9 °C + fetal tachycardia &gt;160, WBC &gt;15,000 หรือหนองจากปากมดลูก; confirmed ด้วยผลน้ำคร่ำ (Gram stain, glucose ต่ำ, culture) หรือ placental pathology",
+   "รักษา: ampicillin 2 g IV ทุก 6 ชม. + gentamicin (2 mg/kg แล้ว 1.5 mg/kg ทุก 8 ชม. หรือ 5 mg/kg วันละครั้ง) + antipyretic + <b>คลอด</b> (ACOG CO 712: ไม่ใช่ข้อบ่งชี้ C/S ด่วนด้วยตัวเอง; หลังคลอดช่องคลอดไม่ต้องให้ยาเพิ่ม); C/S เพิ่ม clindamycin/metronidazole 1 dose",
+   "PPROM ไม่มีการติดเชื้อ &lt;34 สัปดาห์: expectant + corticosteroids (24–34 สัปดาห์) + latency antibiotics รวม 7 วัน (ampicillin + erythromycin IV 48 ชม. แล้ว amoxicillin + erythromycin PO 5 วัน; azithromycin แทน erythromycin ได้ — ACOG PB 217, 2020) + MgSO4 neuroprotection &lt;32 สัปดาห์ + GBS prophylaxis ตามข้อบ่งชี้",
+   "ข้อห้าม expectant: intra-amniotic infection, abruption, nonreassuring fetal status, cord prolapse",
+   "ACOG PB 217 (2020): PPROM 34 0/7–36 6/7 สัปดาห์ expectant หรือคลอดทันทีก็เหมาะสม (shared decision) แต่ไม่รอเกิน 37 0/7 สัปดาห์; ≥37 0/7 → induction; ไม่ให้ latency antibiotics และไม่ tocolysis ที่ 34–36 6/7",
+   "ห้าม digital cervical exam ใน PPROM ที่ไม่ได้อยู่ในระยะคลอด (เพิ่มการติดเชื้อ)"
+  ]
+ },
+ "MDCU78|RoC|Infection 2": {
+  "why": "Neonatal herpes ส่วนใหญ่ (~85%) ติดขณะคลอดจากการสัมผัสเชื้อในช่องคลอด และมีอัตราตาย/พิการสูง; ACOG (ACOG PB 220 (2020)) แนะนำ <b>ผ่าตัดคลอดในหญิงที่มี active genital lesion หรือมีอาการนำ (prodrome: ปวดแสบ คัน) เมื่อเข้าสู่ระยะคลอด</b> ไม่ว่าเป็น primary หรือ recurrent (primary infection ใกล้คลอดเสี่ยงถ่ายทอดสูงถึงราว 30–50% เพราะยังไม่มีภูมิส่งผ่านรก; recurrent เสี่ยงต่ำแต่ยังต้องผ่าตัดเมื่อมีแผล) — ยังแนะนำผ่าตัดแม้ถุงน้ำแตกมานานแล้ว",
+  "summary": [
+   "Neonatal HSV: ~85% ติดขณะคลอด; อาการ 3 แบบ SEM (skin–eye–mouth), CNS, disseminated (ตายสูง)",
+   "ความเสี่ยงถ่ายทอด: primary infection ใกล้คลอด ~30–50%; recurrent ต่ำมาก (ราว 1–3% เมื่อมีแผล)",
+   "<b>Active genital lesion หรือ prodrome ขณะเข้าสู่ระยะคลอด → ผ่าตัดคลอด</b> (ACOG PB 220 (2020)) (แม้ ROM นาน); แผลนอกอวัยวะเพศ → ปิดแผล คลอดทางช่องคลอดได้",
+   "Suppressive therapy ตั้งแต่ ≥36 wk ในคนที่มีประวัติ genital herpes (ACOG PB 220 (2020)): acyclovir 400 mg PO tid หรือ valacyclovir 500 mg PO bid จนคลอด",
+   "Primary infection ระหว่างตั้งครรภ์: acyclovir 400 mg tid 7–10 วัน (รุนแรง/disseminated → IV acyclovir)",
+   "หลีกเลี่ยง fetal scalp electrode, vacuum, forceps ในแม่ที่มีประวัติ HSV",
+   "ไม่ต้องตรวจ HSV culture แบบ serial ในคนไม่มีแผล"
+  ]
+ },
+ "YUZU||26.1": {
+  "flag": "⚠ ตรวจตาม RTCOG/ACOG/Williams (20 ต.ค. 2026): ACOG PB 220 (2020): active lesion/prodrome ขณะเจ็บครรภ์ → ผ่าตัดคลอด (Grade B); first-episode genital HSV ไตรมาส 3 \"อาจเสนอ\" C/S และ \"อาจพิจารณา\" ให้ antiviral ต่อจนคลอด แต่ไม่ได้กำหนด IV acyclovir ระหว่างคลอดเป็นมาตรฐาน — จึงคงคำตอบ D || ⚠ ช้อย E (Acyclovir IV stat + Cesarean section) ก็เหมาะสมในเชิงคลินิกเพราะรอยโรคอาจเป็น primary/first-episode ที่ควรให้ antiviral ด้วย — ทั้ง 2 เวอร์ชันตอบ D ผู้จด ver.1 ใส่ '?' ที่ช้อย E และจด 'เรื่อง Acyclovir ค่อยว่ากันทีหลัง' (การให้ยาเป็นเรื่องรอง ข้อบ่งชี้สำคัญคือ C/S) เราเลือก D ตามคีย์ ความมั่นใจ ~75%",
+  "summary": [
+   "Genital HSV (HSV-2 > HSV-1): primary (มีไข้ ปวด ตุ่มน้ำเป็นแผลหลายตำแหน่ง lymphadenopathy 2–3 สัปดาห์) vs recurrent (สั้นกว่า 5–10 วัน, prodrome เจ็บ/แสบ)",
+   "ความเสี่ยงติดเชื้อทารก: primary ใกล้คลอด 30–50% (ยังไม่มี antibody), recurrent &lt;1–3%; ผ่านทาง contact กับ secretion ในช่องทางคลอด",
+   "การวินิจฉัย: HSV PCR (ไวสุด)/ culture จากรอยโรค; Tzanck smear (multinucleated giant cells) ไวเพียง ~50% ไม่จำเพาะต่อ HSV กับ VZV",
+   "รักษา primary/first episode: acyclovir 400 mg PO TID × 7–10 วัน (หรือ 200 mg 5 ครั้ง/วัน; valacyclovir 1 g BID); รุนแรง/แพร่กระจาย: acyclovir IV 5–10 mg/kg q 8 h",
+   "ป้องกัน: suppression ตั้งแต่ 36 สัปดาห์ (acyclovir 400 mg TID หรือ valacyclovir 500 mg BID) ในผู้มีประวัติ HSV ทุกราย ลด lesion ตอนคลอดและ C/S",
+   "การคลอด (ACOG PB 220 (2020)): active lesion หรือ prodrome → C/S (ไม่ขึ้นกับ ระยะเวลาถุงน้ำแตก; ถ้าแตกนานเกิน 4–6 ชม. ประโยชน์ลดลงแต่ยังแนะนำ); ไม่มีรอยโรค → คลอดทางช่องคลอดได้",
+   "ห้ามใช้ fetal scalp electrode/ vacuum/forceps โดยไม่จำเป็นในผู้ที่มีประวัติ HSV",
+   "ทารก: ถ้ามารดา primary ใกล้คลอด ประเมิน/ให้ acyclovir IV ตามระดับความเสี่ยง; ดู MDCU78 RoC Infection 2 (active HSV ขณะ labor → emergency cesarean)"
+  ]
+ },
+ "YUZU||45.7": {
+  "flag": "⚠ 2 เวอร์ชันไม่ตรงกัน: ver.1 วงตัวอักษร C (ขีดเส้นใต้ทั้งช้อย) แต่ไฮไลต์ B; ver.2 วง B ชัดเจนพร้อมเหตุผล — เราเลือก B ความมั่นใจค่อนข้างสูง (~80%) เพราะโจทย์ถามว่า ‘ควรแนะนำอะไร’ (action) และ ACOG PB 220 (2020) แนะนำให้เสนอ suppressive therapy ในผู้มีประวัติ genital herpes ตั้งแต่ 36 สัปดาห์; C เป็นข้อเท็จจริงที่ ‘ค่อนข้างจริง’ (ความเสี่ยงต่ำแต่ไม่เป็นศูนย์) ไม่ใช่คำแนะนำ",
+  "summary": [
+   "Neonatal HSV ~85% ติดช่วงคลอด; ~10% หลังคลอด; ~5% intrauterine",
+   "ความเสี่ยงติดทารก: primary ใกล้คลอด 30–50%; recurrent &lt;1–3%; first-episode non-primary ~25%",
+   "Suppressive therapy: acyclovir 400 mg tid หรือ valacyclovir 500 mg bid จาก 36 สัปดาห์จนคลอด (ACOG PB 220 (2020))",
+   "Primary episode: acyclovir 400 mg tid 7–10 วัน; recurrent: 400 mg tid 5 วัน (หรือ 800 mg bid 5 วัน)",
+   "ถ้ามี active lesion หรือ prodromal ตอนเจ็บครรภ์/ น้ำเดิน → ผ่าตัดคลอด (ควรเร็วที่สุด; ไม่ช่วยป้องกันเมื่อ ROM &gt;4–6 ชม. แต่ยังแนะนำ)",
+   "ห้ามใช้อุปกรณ์ invasive (fetal scalp electrode, vacuum) ถ้าเป็นไปได้ในมารดา HSV",
+   "ผ่าตัดคลอดไม่จำเป็นถ้าไม่มี lesion/ prodromal",
+   "ดู YUZU 45.6 (ข้อบ่งชี้ CS)"
+  ]
+ },
+ "YUZU||5.6": {
+  "summary": [
+   "Early-onset GBS (&lt;7 วัน): sepsis, pneumonia, meningitis; ปัจจัยเสี่ยง: preterm, ROM ≥18 ชม., ไข้ intrapartum ≥38 °C, GBS bacteriuria, เคยมีบุตรติด GBS, chorioamnionitis",
+   "คัดกรอง: swab ช่องคลอด-ทวารหนัก 36 0/7–37 6/7 สัปดาห์ (ACOG CO 797, 2020: 36 0/7–37 6/7)",
+   "Intrapartum antibiotic prophylaxis (IAP) ให้เมื่อ: GBS positive, GBS bacteriuria, เคยมีบุตรติดเชื้อ GBS, คลอดก่อนกำหนด/ถุงน้ำคร่ำแตกนาน (≥18 ชม.) / ไข้ ในกรณีไม่ทราบผล",
+   "สูตร IAP: penicillin G 5 ล้านหน่วย IV แล้ว 2.5–3 ล้านหน่วย q4h หรือ ampicillin 2 g แล้ว 1 g q4h; แพ้ low-risk: cefazolin; แพ้ high-risk: clindamycin (ถ้าไวต่อยา) หรือ vancomycin",
+   "ทารกที่มี risk และอาการ: ตรวจ CBC/ blood culture ± LP และให้ ampicillin + gentamicin",
+   "GBS late-onset (7 วัน–3 เดือน): meningitis/ bacteremia ไม่ป้องกันด้วย IAP",
+   "เชื้อทางเลือกที่ต้องแยก: Listeria (ampicillin), E. coli (preterm), HSV (acyclovir), GAS"
+  ]
+ },
+ "MDCU78|RoB|13": {
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — ถ้ามี metronidazole ในช้อยจะตอบ metronidazole (ยาที่ใช้บ่อยสุด); ตาม ACOG PB 215 (2020) clindamycin ทางช่องคลอดเป็น first-line และ clindamycin กินเป็น alternative (CDC 2021 สอดคล้อง)",
+  "why": "BV วินิจฉัยด้วย <b>Amsel criteria ≥3 ใน 4</b>: (1) ตกขาวบาง homogeneous สีเทาขาว (2) vaginal pH &gt;4.5 (3) whiff test บวก (amine odor เมื่อหยด 10% KOH) (4) clue cells ≥20% ของ epithelial cells — ข้อนี้ครบ 3 ข้อ. ยารักษาตาม <b>ACOG PB 215 (2020)</b>: first-line = metronidazole กินหรือทางช่องคลอด หรือ <b>clindamycin ทางช่องคลอด</b>; alternative = secnidazole กิน, tinidazole กิน, clindamycin กิน (ขนาดยาตาม CDC 2021: metronidazole 500 mg PO bid × 7 วัน, metronidazole gel 0.75% × 5 วัน, <b>clindamycin cream 2% × 7 วัน</b>; clindamycin 300 mg PO bid × 7 วัน, ovules, tinidazole, secnidazole) — ในช้อยที่มี <b>clindamycin</b> จึงเป็นคำตอบ (เฉลยรุ่นพี่เขียนว่าเป็น 2nd line เพราะยาหลักที่ใช้บ่อยคือ metronidazole)",
+  "summary": [
+   "BV: Gardnerella vaginalis + anaerobes แทนที่ Lactobacillus → pH สูงขึ้น; Amsel ≥3/4 หรือ Nugent score ≥7 (gold standard ในงานวิจัย)",
+   "รักษา (ACOG PB 215 (2020); ขนาดยาตาม CDC 2021): metronidazole 500 mg bid × 7 วัน หรือ metronidazole gel หรือ clindamycin cream 2% × 7 วัน; alternative: clindamycin oral/ovules, tinidazole, secnidazole 2 g single dose",
+   "Metronidazole: ฉลากยาและบทความทบทวนไทย (Thai J Obstet Gynaecol 2023) แนะนำงดแอลกอฮอล์ (metronidazole ≥24 ชม., tinidazole 72 ชม. หลังยาเม็ดสุดท้าย) ส่วน CDC 2021 ระบุว่าไม่จำเป็นอย่างเคร่งครัด — แจ้งผู้ป่วยให้งดไว้ก่อน; clindamycin cream ทำให้ถุงยาง latex เปราะ",
+   "ไม่รักษาคู่นอนชาย; ตั้งครรภ์ที่มีอาการให้รักษา (metronidazole ปลอดภัยทุกไตรมาส); BV สัมพันธ์กับ preterm birth, PID, post-abortion/post-hysterectomy infection",
+   "แยกโรค: trichomoniasis (ตกขาวเขียวเหลืองเป็นฟอง, strawberry cervix, pH &gt;4.5, motile trichomonads → metronidazole 500 mg bid × 7 วันในหญิง รักษาคู่ด้วย), candidiasis (ข้นเป็นก้อน คัน pH ปกติ)",
+   "ตกขาว + cervicitis (mucopurulent) → ตรวจ/รักษา gonorrhea + chlamydia (ceftriaxone + doxycycline)"
+  ]
+ },
+ "MDCU78|RoB|อื่นๆ 6": {
+  "why": "<b>ACOG PB 215 (2020)</b>: first-line = metronidazole (กิน/ทางช่องคลอด) หรือ clindamycin ทางช่องคลอด; alternative = secnidazole, tinidazole, clindamycin กิน; ขนาดยาตาม <b>CDC STI Treatment Guidelines 2021</b> — recommended regimens สำหรับ BV มี 3 แบบ: metronidazole 500 mg รับประทานวันละ 2 ครั้ง 7 วัน, metronidazole gel 0.75% ทางช่องคลอด 5 วัน, หรือ <b>clindamycin cream 2% 5 g ทางช่องคลอดก่อนนอน 7 วัน</b>; CDC ระบุว่า <b>clindamycin cream เป็นตัวเลือกที่แนะนำเมื่อแพ้หรือทนยา metronidazole/tinidazole ไม่ได้</b>. Alternative regimens: clindamycin 300 mg รับประทานวันละ 2 ครั้ง 7 วัน, clindamycin ovules 100 mg 3 วัน, secnidazole 2 g ครั้งเดียว, tinidazole — แต่ <b>tinidazole และ secnidazole เป็น nitroimidazole เหมือน metronidazole</b> จึงไม่ควรใช้ในคนที่แพ้รุนแรง (เสี่ยง cross-hypersensitivity); หมายเหตุ: clindamycin cream เป็น oil-based ทำให้ถุงยางอนามัยยางลาเท็กซ์เสื่อมได้หลายวันหลังใช้",
+  "flag": "⚠ recall ไม่ครบ — \"ไม่มี metronidazole\" อาจหมายถึงแพ้ยา (ที่เลือกเขียน) หรือแค่ไม่มียาให้ใช้; ถ้าแค่ไม่มียา tinidazole หรือ secnidazole ก็เป็น alternative ที่ถูกตาม ACOG PB 215 (2020) และ CDC 2021 — แต่คำตอบที่ตั้งใจในข้อสอบน่าจะเป็น clindamycin",
+  "summary": [
+   "<b>Amsel criteria (≥3 ใน 4)</b>: ตกขาวบางสีเทาขาวเป็นเนื้อเดียว, <b>pH &gt;4.5</b>, <b>whiff test บวก</b> (กลิ่นคาวเมื่อหยด KOH 10%), <b>clue cells ≥20%</b>; gold standard ในงานวิจัย = Nugent score 7–10",
+   "BV ไม่ใช่ STI โดยตรง แต่สัมพันธ์กับเพศสัมพันธ์ — <b>ไม่ต้องรักษาคู่นอนชาย</b>",
+   "ตาม ACOG PB 215 (2020) / CDC 2021 — Recommended: <b>metronidazole 500 mg bid 7 วัน</b>, metronidazole gel 0.75% 5 วัน, <b>clindamycin cream 2% 7 วัน</b>",
+   "Alternative: clindamycin 300 mg PO bid 7 วัน, clindamycin ovules 3 วัน, secnidazole 2 g ครั้งเดียว, tinidazole",
+   "แพ้ metronidazole → <b>clindamycin cream</b> (ไม่ใช้ nitroimidazole ตัวอื่น)",
+   "<b>ตั้งครรภ์</b>: รักษาเมื่อมีอาการ ด้วย metronidazole (ปลอดภัยทุกไตรมาส) หรือ clindamycin; BV สัมพันธ์กับ preterm birth, PPROM, postpartum endometritis",
+   "เป็นซ้ำบ่อย (≥3 ครั้ง/ปี) → metronidazole gel สัปดาห์ละ 2 ครั้ง 4–6 เดือนเป็น suppressive therapy"
+  ]
+ },
+ "MDCU78|RoC|Gyn Leukorrhea & STD 1": {
+  "why": "Bacterial vaginosis (anaerobes เช่น Gardnerella, Prevotella, Mobiluncus แทนที่ Lactobacillus) — ACOG PB 215 (2020) (first-line metronidazole กิน/ทางช่องคลอด หรือ clindamycin ทางช่องคลอด) และ CDC 2021 recommended regimens: <b>metronidazole 500 mg PO bid × 7 วัน</b> หรือ metronidazole gel 0.75% 5 g ทางช่องคลอดวันละครั้ง × 5 วัน หรือ clindamycin cream 2% 5 g ทางช่องคลอดก่อนนอน × 7 วัน; รักษาเมื่อมีอาการ (และในหญิงตั้งครรภ์ที่มีอาการ)",
+  "summary": [
+   "BV = ตกขาวที่พบบ่อยที่สุดในวัยเจริญพันธุ์; Lactobacillus ลด anaerobes เพิ่ม → pH สูง amine (คาวปลา) ชัดขึ้นหลังมีเพศสัมพันธ์/ประจำเดือน",
+   "วินิจฉัย: Amsel ≥3/4 (thin homogeneous discharge, pH &gt;4.5, whiff test บวก, clue cells ≥20%) หรือ Nugent score 7–10 จาก Gram stain (gold standard ทางแลป)",
+   "รักษา (ACOG PB 215 (2020); ขนาดยาตาม CDC 2021): metronidazole 500 mg bid × 7 d หรือ metronidazole gel 5 d หรือ clindamycin cream 7 d; ทางเลือก: tinidazole, secnidazole 2 g single dose, clindamycin oral/ovules",
+   "ไม่ต้องรักษาคู่นอนชาย; ไม่ต้อง test of cure ถ้าอาการหาย",
+   "ภาวะแทรกซ้อน: เพิ่มความเสี่ยง preterm birth, PPROM, post-abortion/post-hysterectomy infection, PID, HIV/STI acquisition",
+   "กลับเป็นซ้ำบ่อย (ราวครึ่งหนึ่งใน 1 ปี) → suppressive metronidazole gel สัปดาห์ละ 2 ครั้งได้"
+  ]
+ },
+ "YUZU||10.2": {
+  "summary": [
+   "BV: ตกขาวบางเนียนสีขาวเทา กลิ่นคาวปลา แย่ลงหลังร่วมเพศ/ประจำเดือน (เลือด/semen pH สูง) มักไม่คัน ไม่มีอาการอักเสบ (ไม่มี WBC เด่น)",
+   "Amsel criteria ≥3/4: homogeneous thin discharge; vaginal pH &gt;4.5; whiff test (10% KOH) positive; clue cells ≥20% ของ epithelial cells",
+   "Nugent score (Gram stain, gold standard ทางห้องปฏิบัติการ): 0–3 ปกติ, 4–6 intermediate, 7–10 = BV (ดู Lactobacillus ลดลง Gardnerella/Bacteroides เพิ่ม)",
+   "Candida: คัน ตกขาวขาวข้นเหมือนนมบูด pH ≤4.5 → KOH เห็น pseudohyphae/budding yeast; Trichomonas: ตกขาวเขียวเหลืองเป็นฟอง pH &gt;4.5 → wet mount เห็นตัวเคลื่อนไหว (NAAT ไวที่สุด)",
+   "รักษา BV (ACOG PB 215 (2020); ขนาดยาตาม CDC 2021): metronidazole 500 mg bid 7 วัน (first-line) หรือ metronidazole gel 0.75% 5 วัน หรือ clindamycin cream 2% 7 วัน; ไม่ต้องรักษาคู่นอนชาย",
+   "BV สัมพันธ์กับ preterm birth, PPROM, chorioamnionitis, postpartum endometritis, PID และเสี่ยงติด HIV/STI มากขึ้น",
+   "ข้อที่ถามเรื่อง BV ซ้ำ: ดู YUZU 10.13 (Gram stain polygonal cells with adherent coccobacilli) และ MDCU78 RoB 13, RoC Gyn Leukorrhea &amp; STD 1"
+  ]
+ },
+ "MDCU78|RoC|Gyn Leukorrhea & STD 4": {
+  "opinion": "ไม่มีคีย์; ตอบ NAAT ตาม ACOG PB 215 (2020) (Grade A) และ CDC 2021 ความมั่นใจสูง (ดู flag เรื่องช้อย UC)",
+  "why": "ACOG PB 215 (2020) (Grade A) และ CDC 2021: <b>NAAT</b> (เช่น Aptima TV) มี sensitivity และ specificity สูงมาก (~95–100%) ตรวจได้จาก vaginal swab, endocervical swab, urine — แนะนำเป็นวิธีหลัก; culture <b>เคย</b>เป็น gold standard ก่อนมี NAAT แต่ sensitivity ต่ำกว่า NAAT และใช้เวลาหลายวัน",
+  "summary": [
+   "Trichomoniasis: protozoa มี flagella, STI ที่ไม่ใช่ไวรัสพบบ่อยที่สุดในโลก; ส่วนใหญ่ไม่มีอาการ",
+   "อาการ: ตกขาวเหลืองเขียว มีฟอง กลิ่นเหม็น คัน dysuria, <b>strawberry cervix</b> (colpitis macularis) พบไม่บ่อยแต่จำเพาะ; pH &gt;4.5",
+   "วินิจฉัย: NAAT ดีที่สุด (ACOG PB 215 (2020)); wet mount sensitivity ต่ำ; culture เคยเป็น gold standard",
+   "รักษา (ACOG PB 215 (2020): nitroimidazole กิน, รักษาคู่นอน, retest ภายใน 3 เดือน; ขนาดยาตาม CDC 2021): <b>ผู้หญิง metronidazole 500 mg bid × 7 วัน</b>; ผู้ชาย metronidazole 2 g single dose; ทางเลือก tinidazole 2 g single dose",
+   "ต้องรักษาคู่นอนเสมอ งดเพศสัมพันธ์จนรักษาครบและหายอาการ; retest ใน 3 เดือน (ผู้หญิง)",
+   "ในหญิงตั้งครรภ์สัมพันธ์กับ PROM, preterm birth, LBW — รักษาด้วย metronidazole ได้"
+  ]
+ },
+ "MDCU78|RoC|Gyn Leukorrhea & STD 7b": {
+  "summary": [
+   "VVC: คัน แสบ ตกขาวขาวข้นเป็นก้อน (curd/cottage cheese) ไม่มีกลิ่น; vulva แดงบวม; pH ≤4.5",
+   "วินิจฉัย: saline/10% KOH wet mount เห็น budding yeast, pseudohyphae; culture ถ้า wet mount ลบแต่อาการชัด หรือเป็นซ้ำ",
+   "ปัจจัยเสี่ยง: ยาปฏิชีวนะ, DM คุมไม่ดี, ตั้งครรภ์, ภูมิคุ้มกันต่ำ, estrogen สูง",
+   "รักษา uncomplicated (ACOG PB 215 (2020): intravaginal azole หรือ fluconazole กิน; ขนาดยาตาม CDC 2021): fluconazole 150 mg PO single dose หรือ topical azole (clotrimazole, miconazole) 1–7 วัน",
+   "ตั้งครรภ์: topical azole 7 วัน (เลี่ยง oral fluconazole)",
+   "Recurrent VVC (≥3 ครั้งใน 1 ปี): induction แล้วตามด้วย fluconazole 150 mg สัปดาห์ละครั้ง × 6 เดือน; ไม่ต้องรักษาคู่นอน",
+   "ดู 78C Gyn Leukorrhea & STD 1–2 (BV) เพื่อเปรียบเทียบ"
+  ]
+ },
+ "YUZU||10.5": {
+  "summary": [
+   "Vulvovaginal candidiasis: คัน/แสบ/dyspareunia/external dysuria, ตกขาวขาวข้นเป็นก้อน (cottage cheese), vulvar erythema/edema/excoriation, pH ≤4.5, whiff ลบ",
+   "เชื้อ C. albicans (80–90%); non-albicans (C. glabrata, C. krusei) พบมากขึ้นใน recurrent/ผู้ได้ azole",
+   "ปัจจัยเสี่ยง: การตั้งครรภ์, เบาหวานคุมไม่ดี, antibiotics ใช้ยาวหรือบ่อย, steroid/immunosuppression, HIV, ยาคุมที่ estrogen สูง",
+   "วินิจฉัย: 10% KOH (budding yeast + pseudohyphae/hyphae) หรือ saline wet mount หรือ Gram stain; culture (Sabouraud) ใช้ในรายกลับเป็นซ้ำ/รักษาไม่ตอบสนอง/ต้องการ speciation",
+   "รักษา uncomplicated (ACOG PB 215 (2020): intravaginal azole หรือ fluconazole กิน; ขนาดยาตาม CDC 2021): topical azole (clotrimazole 1% cream 7–14 วัน, clotrimazole 500 mg vaginal tab ครั้งเดียว) หรือ fluconazole 150 mg กินครั้งเดียว",
+   "Complicated (รุนแรง, ≥4 ครั้ง/ปี, non-albicans, DM คุมไม่ดี, immunosuppression): ขยายระยะรักษา 7–14 วัน หรือ fluconazole 150 mg วันที่ 1, 4, 7; recurrent: induction 10–14 วัน แล้ว maintenance fluconazole 150 mg สัปดาห์ละครั้ง 6 เดือน",
+   "หญิงตั้งครรภ์: ใช้ topical azole 7 วัน (ไม่ใช้ fluconazole กิน); ไม่ต้องรักษาคู่นอนถ้าไม่มีอาการ",
+   "เปรียบเทียบ: BV = clue cells (saline), Trichomonas = motile protozoa (saline), Candida = pseudohyphae (KOH); ดู YUZU 10.16 และ MDCU78 RoC Gyn Leukorrhea &amp; STD 7b"
+  ]
+ },
+ "YUZU||10.7": {
+  "why": "อาการเด่นคือ <b>คันมาก</b> ซึ่งเป็นอาการนำของ <b>vulvovaginal candidiasis</b> (ตกขาวขาวข้น/คัน/แสบ/ปัสสาวะแสบแบบ external dysuria — ปัสสาวะผ่านผิวหนัง vulva ที่อักเสบแล้วแสบ ไม่ใช่ urethritis). ผู้ที่เป็น chlamydia/gonorrhea มักมีตกขาวเป็นหนอง/มูกหนองและ dysuria โดยไม่คันมาก; trichomoniasis คันได้แต่ตกขาวเหลืองเขียวฟอง กลิ่นเหม็น; HSV ต้องมีตุ่ม/แผลเจ็บ. ดังนั้นการรักษาที่เหมาะสมคือ <b>topical azole เช่น clotrimazole</b> (ACOG PB 215 (2020): intravaginal azole หรือ fluconazole กินสำหรับ uncomplicated VVC; ขนาดยาตาม CDC 2021: clotrimazole 1% cream 5 g intravaginal 7–14 วัน หรือ clotrimazole 2% 3 วัน หรือ fluconazole 150 mg กินครั้งเดียว) ผู้จดทั้ง 2 เวอร์ชันสรุปว่า curd-like + pruritus + dysuria → candidiasis",
+  "summary": [
+   "คันอวัยวะเพศภายนอกมาก + ตกขาวขาวข้นเหมือนนมบูด ± ปัสสาวะแสบภายนอก (external dysuria) + dyspareunia = Candida vulvovaginitis",
+   "external dysuria (แสบเมื่อปัสสาวะผ่าน vulva) ต่างจาก internal dysuria ของ urethritis/cystitis (แสบในท่อปัสสาวะ ปัสสาวะบ่อย)",
+   "Chlamydia/GC: ตกขาวมูกหนอง, urethral syndrome (dysuria + pyuria ปัสสาวะไม่พบแบคทีเรีย), อาจไม่มีอาการ; Trichomonas: เหลืองเขียวฟอง/เหม็น/คัน/dysuria/strawberry cervix",
+   "รักษา Candida (ACOG PB 215 (2020); ขนาดยาตาม CDC 2021): intravaginal clotrimazole/miconazole/nystatin หรือ fluconazole 150 mg ครั้งเดียว; complicated: 7–14 วัน",
+   "ตั้งครรภ์: ใช้ topical azole 7 วัน หลีกเลี่ยง fluconazole กิน",
+   "ถ้าไม่แน่ใจ ให้ตรวจ wet mount/10% KOH/pH ก่อนรักษา ไม่ควรรักษาตามอาการอย่างเดียวถ้าผลไม่ชัด",
+   "โจทย์ข้อเดียวกันที่ถามการตรวจ: ดู YUZU 10.11"
+  ]
+ }
+}
