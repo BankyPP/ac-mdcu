@@ -846,3 +846,9 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 @media (max-width:560px){.osnum{font-size:32px}.osclock{font-size:30px}}
 .osaibtn{margin:8px 0;padding:10px 12px;border:1.5px dashed var(--form);border-radius:8px}
 .osaibtn .row2{display:flex;gap:8px;flex-wrap:wrap}
+/* L99.03 summary classes */
+.iov .iobody .star{color:var(--red);font-weight:700}
+.iov .iobody .dx{background:var(--redbg);border:1px solid var(--red);border-radius:4px;padding:2px 6px;color:var(--red);font-weight:700}
+.iov .iobody .why{background:var(--soft);border-left:3px solid var(--g-cca);padding:2px 6px;border-radius:0 4px 4px 0}
+.iov .iobody .tree b.lbl{display:block;font-weight:600;color:var(--head)}
+.iov .iobody .iocase{margin:18px 0 6px;font-size:17px;color:var(--g-cca);border-bottom:2px solid var(--g-cca);padding-bottom:2px}
