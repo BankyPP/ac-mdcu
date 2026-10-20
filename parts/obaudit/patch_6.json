@@ -19,7 +19,8 @@
    "ผู้ไม่มีอาการ + ET หนาโดยบังเอิญ: ACOG CO 734 (2018) ไม่ต้องประเมิน/sampling ทุกราย (TVS ไม่ใช่ screening) ตัดสินรายบุคคลตามอายุ ปัจจัยเสี่ยง โรคร่วม → เคสนี้ตอบ observe and follow-up (เปลี่ยนจากคีย์เดิม FC); เกณฑ์ 4 mm ใช้กับ PMB, SRU เสนอ ~ 11 mm ในผู้ไม่มีอาการ (tier-3)",
    "การ stage มะเร็งเยื่อบุโพรงมดลูกเป็น <b>surgical staging</b> (ต่างจาก cervix/vagina ที่เป็น clinical staging)",
    "เมื่อผลเป็นมะเร็ง: TAH c BSO ± lymph node assessment (sentinel LN mapping) แล้วให้ adjuvant ตามความเสี่ยง",
-   "ดู 78C Gyn Endometrium 1 (ข้อบ่งชี้ fractional D&amp;C ในหญิงวัยหมดประจำเดือนที่มี AUB) และ 78C Gyn Endometrium 2"
+   "ดู 78C Gyn Endometrium 1 (ข้อบ่งชี้ fractional D&amp;C ในหญิงวัยหมดประจำเดือนที่มี AUB) และ 78C Gyn Endometrium 2",
+   "ACOG Clinical Practice Update เรื่อง postmenopausal bleeding (เม.ย. 2026; ปรับจาก CO 734): PMB ส่วนใหญ่ให้ทำ <b>TVS ร่วมกับ endometrial sampling</b> ตั้งแต่การประเมินแรก — งด sampling ได้เฉพาะเลือดออกครั้งเดียว + เห็นเยื่อบุชัด ET ≤4 mm + ไม่มีปัจจัยเสี่ยงสูง + บอกให้กลับมาถ้าออกซ้ำและติดตามได้ (ข้อนี้ไม่มีเลือดออก จึงไม่เปลี่ยนคำตอบ)"
   ]
  },
  "YUZU||37.6": {
@@ -42,11 +43,22 @@
    "Pipelle/office biopsy: sensitivity สำหรับมะเร็งในวัยหมดประจำเดือน ~ 99% (Dijkhuizen 2000); specificity ~ 98–100%",
    "Hysteroscopy ± biopsy เป็นมาตรฐานสำหรับ focal lesion และเมื่อ sampling ไม่เพียงพอ",
    "สาเหตุของ PMB: atrophy (60–80%), polyp, hyperplasia, มะเร็ง (5–10%), HRT, อื่น ๆ",
-   "ดู 78C Gyn Endometrium 1"
+   "ดู 78C Gyn Endometrium 1",
+   "ACOG Clinical Practice Update เรื่อง postmenopausal bleeding (เม.ย. 2026; ปรับจาก CO 734): PMB ส่วนใหญ่ให้ทำ <b>TVS ร่วมกับ endometrial sampling</b> ตั้งแต่การประเมินแรก — งด sampling ได้เฉพาะเลือดออกครั้งเดียว + เห็นเยื่อบุชัด ET ≤4 mm + ไม่มีปัจจัยเสี่ยงสูง + บอกให้กลับมาถ้าออกซ้ำและติดตามได้"
   ]
  },
  "MDCU78|RoC|Gyn Endometrium 1": {
-  "why": "<b>Postmenopausal bleeding (PMB)</b> ต้องแยก endometrial cancer เสมอ (พบมะเร็งราว 5–10% ของ PMB) จึงต้องได้ endometrial sampling. ตาม ACOG CO 734 (2018) การเก็บชิ้นเนื้อแรกใน PMB คือ office endometrial sampling (หรือ TVS ถ้าเสี่ยงต่ำ) ส่วน D&amp;C / hysteroscopy+D&amp;C ใช้เมื่อ sampling ทำไม่ได้/ได้ไม่พอ หรือผลปกติแต่ยังเลือดออกซ้ำ — fractional curettage ให้ทั้ง tissue diagnosis และบอกว่ารอยโรคอยู่ที่ endocervix หรือ endometrium; ในไทยยังใช้บ่อยโดยเฉพาะเมื่อทำ office endometrial biopsy ไม่ได้/ได้ชิ้นเนื้อไม่พอ หรือ cervical stenosis (ช้อยนี้คือข้อบ่งชี้ที่เข้ากับ PMB ที่สุดในบรรดาช้อย)"
+  "why": "<b>Postmenopausal bleeding (PMB)</b> ต้องแยก endometrial cancer เสมอ (พบมะเร็งราว 5–10% ของ PMB) จึงต้องได้ endometrial sampling. ตาม ACOG CO 734 (2018) การเก็บชิ้นเนื้อแรกใน PMB คือ office endometrial sampling (หรือ TVS ถ้าเสี่ยงต่ำ) ส่วน D&amp;C / hysteroscopy+D&amp;C ใช้เมื่อ sampling ทำไม่ได้/ได้ไม่พอ หรือผลปกติแต่ยังเลือดออกซ้ำ — fractional curettage ให้ทั้ง tissue diagnosis และบอกว่ารอยโรคอยู่ที่ endocervix หรือ endometrium; ในไทยยังใช้บ่อยโดยเฉพาะเมื่อทำ office endometrial biopsy ไม่ได้/ได้ชิ้นเนื้อไม่พอ หรือ cervical stenosis (ช้อยนี้คือข้อบ่งชี้ที่เข้ากับ PMB ที่สุดในบรรดาช้อย)",
+  "summary": [
+   "Fractional D&amp;C = ECC ก่อน → sound → dilate → endometrial curettage; ชิ้นเนื้อแยกขวด endocervix กับ endometrium",
+   "ข้อบ่งชี้: PMB, AUB อายุ ≥45 ปี หรืออายุน้อยที่มี unopposed estrogen (PCOS อ้วน)/ล้มเหลวจากการรักษา, office biopsy ทำไม่ได้หรือได้ไม่พอ, cervical stenosis, biopsy ปกติแต่ยังเลือดออก",
+   "PMB: เริ่มด้วย TVS endometrial thickness หรือ endometrial biopsy ได้ทั้งคู่; TVS ≤4 mm ความเสี่ยงมะเร็งต่ำมาก (ACOG CO 734); &gt;4 mm หรือเลือดออกต่อเนื่อง → tissue sampling",
+   "Office endometrial biopsy (Pipelle) แม่นยำสูงสำหรับมะเร็งที่กระจายทั่ว แต่พลาดรอยโรค focal ได้ → hysteroscopy + directed biopsy ถ้ายังสงสัย",
+   "Endometrial cancer ที่วินิจฉัยแล้ว → surgical staging (TH + BSO ± SLN) ตาม FIGO 2023 ไม่ต้องขูดซ้ำ",
+   "ภาวะแทรกซ้อน D&amp;C: uterine perforation (มักเกิดตอน sound/dilate), bleeding, infection, Asherman syndrome",
+   "ดู 78C Gyn Endometrium 2 (ลำดับขั้นตอน fractional curettage)",
+   "ACOG Clinical Practice Update เรื่อง postmenopausal bleeding (เม.ย. 2026; ปรับจาก CO 734): PMB ส่วนใหญ่ให้ทำ <b>TVS ร่วมกับ endometrial sampling</b> ตั้งแต่การประเมินแรก — งด sampling ได้เฉพาะเลือดออกครั้งเดียว + เห็นเยื่อบุชัด ET ≤4 mm + ไม่มีปัจจัยเสี่ยงสูง + บอกให้กลับมาถ้าออกซ้ำและติดตามได้"
+  ]
  },
  "MDCU78|RoC|Gyn POP & UI 2": {
   "why": "ใน postmenopausal women ที่มี <b>urgency/OAB ร่วมกับ vaginal atrophy</b> (genitourinary syndrome of menopause) การให้ <b>vaginal (local) estrogen</b> ช่วยลด urgency, frequency, urge incontinence และ recurrent UTI และรักษา atrophic vaginitis ไปพร้อมกัน (NICE NG123 แนะนำ intravaginal estrogen สำหรับ OAB ในหญิงหมดประจำเดือนที่มี vaginal atrophy — เป็น tier-3; ACOG PB 155 (2015) ให้ behavioral therapy/PFMT เป็นแนวทางขั้นแรกของ urge UI และยืนยัน vaginal estrogen จาก ACOG/Williams ไม่ได้ในการตรวจครั้งนี้) — ส่วน stress leak ที่ไม่รบกวนชีวิตไม่จำเป็นต้องรักษาเฉพาะ; ใช้ร่วมกับ behavioral therapy (bladder training, ลดคาเฟอีน, ปรับการดื่มน้ำ)",
