@@ -19,7 +19,7 @@ SUMM.push({
       "Cervix เปิดหมดมา 2 ชม. ROT station +2 → vacuum"
      ],
      "pattern": [
-      "<b>ACOG / SMFM 2014</b>: ก่อนวินิจฉัย arrest of second stage ให้เบ่งอย่างน้อย <b>3 ชม. ในครรภ์แรก</b> และ <b>2 ชม. ในครรภ์หลัง</b>; ถ้ามี epidural หรือท่าผิดปกติ ให้นานกว่านั้นได้ตราบที่ยังมี descent / rotation และ FHR ปกติ (ตำราเดิมและเฉลยบางข้อใช้ epidural +1 ชม. คือ 4 และ 3 ชม.)",
+      "<b>ACOG CPG No. 8 (2024; แทน OCC No. 1 ปี 2014)</b>: วินิจฉัย arrest of second stage เมื่อเบ่งเกิน <b>3 ชม. ในครรภ์แรก</b> และ <b>2 ชม. ในครรภ์หลัง</b> (ไม่แยกเกณฑ์ตาม epidural); ให้นานกว่านั้นได้เป็นรายบุคคลตราบที่ยังมี descent / rotation และ FHR ปกติ (ตำราเดิมและเฉลยบางข้อใช้ epidural +1 ชม. คือ 4 และ 3 ชม.)",
       "ตำราเดิม (Friedman): prolonged second stage ครรภ์แรก >2 ชม., ครรภ์หลัง >1 ชม. — โจทย์ที่ยังไม่ถึงเกณฑ์ ตอบ <b>observe / เบ่งต่อ</b>",
       "<b>ต้อง station ≥+2 จึงทำ vacuum / forceps</b>; station 0 ถึง +1 = midpelvic → ผู้เชี่ยวชาญหรือ <b>ผ่าตัดคลอด</b> (แพทย์ทั่วไป: C/S)",
       "Arrest of descent ทั้งที่ contraction พอและ station ยังต่ำกว่า +2 → นึกถึง CPD / malposition → <b>cesarean</b> (ไม่ augment เพิ่ม, ไม่ดึง)",
@@ -30,7 +30,7 @@ SUMM.push({
      "pearls": [
       "ห้าม fundal pressure เพื่อช่วยเบ่งทุกกรณี",
       "\"เข้า second stage แล้วต้องรีบดึงด้วยเครื่องมือ\" เป็นกับดัก — ดูเวลา descent contraction FHR ก่อน",
-      "เคส epidural เบ่ง 2 ชม. + station +1: ต้นฉบับไม่มีคีย์ ตีความได้ 2 แบบ (ตำราเดิม → C/S; ACOG 2014 → observe) bank ตอบ observe ตามเกณฑ์ปัจจุบัน"
+      "เคส epidural เบ่ง 2 ชม. + station +1: ต้นฉบับไม่มีคีย์ ตีความได้ 2 แบบ (ตำราเดิม → C/S; ACOG CPG No. 8, 2024 → observe) bank ตอบ observe ตามเกณฑ์ปัจจุบัน"
      ],
      "members": [
       "MDCU78|RoD|Labor & dystocia 4",
@@ -117,7 +117,7 @@ SUMM.push({
      "pattern": [
       "<b>Shoulder dystocia</b> = ศีรษะคลอดแล้วไหล่หน้าติดใต้ symphysis, ไหล่ไม่ตามด้วยแรงดึงปกติ; สัญญาณ <b>turtle sign</b>; พบ ~0.2–3%",
       "<b>HELPERR</b>: <b>H</b>elp (เรียกทีม + จดเวลา, บอกให้หยุดเบ่ง) → <b>E</b>valuate for episiotomy → <b>L</b>egs (McRoberts) → <b>P</b>ressure (suprapubic) → <b>E</b>nter (Rubin II, Woods screw, reverse Woods) → <b>R</b>emove posterior arm → <b>R</b>oll (Gaskin, all-fours)",
-      "<b>McRoberts</b> (งอสะโพกแม่แนบท้อง) ± suprapubic pressure แก้ได้ราว 40–60% ขึ้นไป; ทำง่ายไม่ invasive ทำได้ทันทีก่อน OB มาถึง",
+      "<b>McRoberts</b> (งอสะโพกแม่แนบท้อง) ± suprapubic pressure แก้ได้ราว 40–60% (McRoberts เดี่ยว ๆ ถึง ~42% — ACOG PB 178, 2017); ทำง่ายไม่ invasive ทำได้ทันทีก่อน OB มาถึง",
       "วิธีสุดท้าย: Zavanelli (ดันศีรษะกลับ + C/S), deliberate clavicular fracture, symphysiotomy",
       "<b>ห้าม</b>: fundal pressure, ดึงหรือหมุนศีรษะแรง ๆ (เสี่ยง brachial plexus injury, uterine rupture); suprapubic pressure ทำได้ ต่างจาก fundal pressure",
       "<b>Dührssen incision</b> ใช้กับ aftercoming head ใน breech ไม่ใช่ shoulder dystocia",
@@ -126,7 +126,7 @@ SUMM.push({
      ],
      "pearls": [
       "ถ้าช้อยมี \"call for help\" → เลือกก่อน; ถ้าไม่มี \"call for help\" ในช้อย → McRoberts เป็นท่าแรก",
-      "YUZU 42.7 ต้นฉบับ 2 เวอร์ชันตอบ suprapubic pressure ตาม flowchart แต่ bank ตอบ McRoberts ตามแนวสากล (RCOG GTG 42 / ACOG)",
+      "YUZU 42.7 ต้นฉบับ 2 เวอร์ชันตอบ suprapubic pressure ตาม flowchart แต่ bank ตอบ McRoberts ตาม ACOG PB 178 (2017) / Williams 26th",
       "Dershowitz (Dührssen) incision, fundal pressure, ดึงศีรษะแรง ๆ เป็นช้อยลวงประจำ"
      ],
      "members": [
@@ -208,7 +208,7 @@ SUMM.push({
      ],
      "pattern": [
       "<b>ชนิดท่าก้น</b>: frank (สะโพกงอ เข่าเหยียด ~65%), complete (สะโพกและเข่างอ), incomplete / footling; <b>cord prolapse</b>: frank ~0.5%, complete ~5%, <b>footling ~15%</b>",
-      "<b>ข้อบ่งชี้ C/S ในท่าก้น</b>: <b>footling</b>, <b>hyperextended neck (stargazing)</b>, EFW >4,000 g (RCOG >3.8 kg) หรือ FGR / <2,500 g, เชิงกรานแคบ, เคยผ่าตัดมดลูก, ไม่มีผู้ชำนาญ",
+      "<b>ข้อบ่งชี้ C/S ในท่าก้น</b>: <b>footling</b>, <b>hyperextended neck (stargazing)</b>, EFW >4,000 g (RCOG ใช้ >3.8 kg เป็นข้อมูลเสริมระดับ 3) หรือ FGR / <2,500 g, เชิงกรานแคบ, เคยผ่าตัดมดลูก, ไม่มีผู้ชำนาญ",
       "<b>ลองคลอดทางช่องคลอดได้ (ACOG CO 745)</b>: frank / complete, ครบกำหนด, EFW 2,500–4,000 g, ศีรษะก้ม, เชิงกรานพอ, ผู้ชำนาญ + protocol ชัด + ผ่าตัดพร้อม",
       "<b>3 แบบการคลอดก้น</b>: spontaneous (คลอดเองทั้งตัว), <b>partial breech extraction</b> (คลอดเองถึงสะดือ แล้วแพทย์ช่วย: Løvset ทำคลอดแขน, Mauriceau-Smellie-Veit หรือ Piper forceps ทำคลอดศีรษะ), <b>total breech extraction</b> (ดึงทั้งตัว)",
       "Total breech extraction ใช้เฉพาะ <b>twin B</b> หรือเหตุฉุกเฉิน ไม่ใช้ในครรภ์เดี่ยว (cervix อาจเปิดไม่พอ)",
@@ -265,7 +265,7 @@ SUMM.push({
      ],
      "pattern": [
       "<b>CPD</b>: arrest of dilatation / descent ทั้งที่ contraction พอ + caput / molding มาก + ศีรษะไม่ลง → <b>cesarean</b>; ไม่ให้ oxytocin เพิ่ม ไม่ใช้ vacuum / forceps",
-      "<b>Arrest of first stage (ACOG / SMFM 2014)</b>: ≥6 cm + ถุงน้ำแตก + ไม่เปลี่ยนแปลง ≥4 ชม. (contraction พอ) หรือ ≥6 ชม. (contraction ไม่พอ) → C/S",
+      "<b>Arrest of first stage (ACOG CPG No. 8, 2024)</b>: ≥6 cm + ถุงน้ำแตก + ไม่เปลี่ยนแปลง ≥4 ชม. (contraction พอ) หรือ ≥6 ชม. (contraction ไม่พอ) → C/S",
       "<b>Contracted pelvis</b>: obstetric conjugate <10 cm หรือ transverse <12 cm (diagonal conjugate <11.5 cm), interspinous <10 cm (แน่นอน <8), intertuberous ≤8 cm; ตัวเตี้ย (<145 cm) เป็นปัจจัยเสี่ยง",
       "Absolute CPD (เชิงกรานแคบชัด) → <b>planned cesarean ที่ ≥39 สัปดาห์</b> (ไม่ใช่ 37 สัปดาห์) หรือเมื่อเจ็บครรภ์ก่อนนัด; borderline pelvis → trial of labor (pelvimetry ทำนายไม่ดี)",
       "สัญญาณ obstructed labor: Bandl ring, caput / molding มาก, hematuria → เสี่ยง uterine rupture, vesicovaginal fistula",
@@ -339,7 +339,7 @@ SUMM.push({
      "pattern": [
       "<b>Cord prolapse</b> 0.1–0.6%; overt (สายอยู่หน้า / ออกมานอกส่วนนำ), occult, funic presentation",
       "ปัจจัยเสี่ยง: malpresentation (breech, transverse), ส่วนนำสูง / ไม่ engage, preterm, polyhydramnios, แฝด, <b>ARM ที่ station สูง</b>, สายยาว",
-      "<b>RCOG GTG 50</b>: <b>call for help</b> + <b>ลดแรงกดสายสะดือ</b> (มือยกส่วนนำขึ้น ไม่จับสายมาก; ท่า knee-chest หรือ left lateral head-down; เติม bladder 500–750 mL) + O2 + เฝ้า FHR + tocolysis (terbutaline) ถ้ามี contraction",
+      "<b>Williams 26th</b> (สอดคล้อง RCOG GTG 50 ซึ่งเป็นข้อมูลเสริม): <b>call for help</b> + <b>ลดแรงกดสายสะดือ</b> (มือยกส่วนนำขึ้น ไม่จับสายมาก; ท่า knee-chest หรือ left lateral head-down; เติม bladder 500–750 mL) + O2 + เฝ้า FHR + tocolysis (terbutaline) ถ้ามี contraction",
       "<b>การคลอด</b>: cervix ยังเปิดไม่หมด → <b>emergency cesarean</b> (decision-to-delivery ให้สั้นที่สุด, <30 นาที); เปิดหมดและคลอดเร็วได้ → operative vaginal delivery",
       "<b>ห้าม</b>: ดันสายกลับเข้าโพรงมดลูก, fundal pressure, เพิ่ม oxytocin"
      ],
@@ -416,10 +416,10 @@ SUMM.push({
       "Landmark ของ pudendal nerve → posterior to sacrospinous ligament, medial to ischial spine"
      ],
      "pattern": [
-      "<b>Episiotomy</b>: ตัดช่วง <b>crowning</b> ระหว่าง contraction (ฝีเย็บบางสุด) — ตัดเร็วไปเสียเลือดมาก (ยังไม่มี tamponade จากศีรษะ), ตัดช้าไปฉีกไปแล้ว; ปัจจุบัน <b>restrictive use</b> ไม่ทำประจำ (ACOG PB 198, WHO 2018)",
+      "<b>Episiotomy</b>: ตัดช่วง <b>crowning</b> ระหว่าง contraction (ฝีเย็บบางสุด) — ตัดเร็วไปเสียเลือดมาก (ยังไม่มี tamponade จากศีรษะ), ตัดช้าไปฉีกไปแล้ว; ปัจจุบัน <b>restrictive use</b> ไม่ทำประจำ (ACOG PB 198, 2018)",
       "ข้อบ่งชี้ที่อาจพิจารณา: ช่วยคลอดด้วย forceps / vacuum, shoulder dystocia บางราย, FHR ผิดปกติที่ต้องรีบคลอด, breech, ฝีเย็บแข็ง",
       "<b>Midline</b>: ซ่อมง่าย เสียเลือดน้อย ปวดน้อย แต่ extend เป็น 3rd-4th degree ได้บ่อย; <b>mediolateral</b>: extension น้อย แต่เสียเลือด / ปวด / dyspareunia มากกว่า",
-      "<b>RCOG (Sultan) classification</b>: 1st = ผิวหนัง / vaginal epithelium; 2nd = perineal muscles ไม่ถึง sphincter; <b>3a</b> = EAS ขาด <50%; <b>3b</b> = EAS >50%; <b>3c</b> = EAS + IAS; <b>4th</b> = ถึง anal / rectal epithelium",
+      "<b>ACOG PB 198 (2018) / Williams 26th</b> (ตรงกับ Sultan / RCOG): 1st = ผิวหนัง / vaginal epithelium; 2nd = perineal muscles ไม่ถึง sphincter; <b>3a</b> = EAS ขาด <50%; <b>3b</b> = EAS >50%; <b>3c</b> = EAS + IAS; <b>4th</b> = ถึง anal / rectal epithelium",
       "ปัจจัยเสี่ยง OASIS: ครรภ์แรก, operative vaginal delivery (<b>forceps > vacuum</b>), macrosomia, midline episiotomy, persistent OP, shoulder dystocia, second stage นาน",
       "การซ่อม OASIS: ในห้องผ่าตัด แสงและ analgesia พอ, IAS ซ่อมแยก, EAS end-to-end หรือ overlapping, broad-spectrum antibiotic + stool softener; ตรวจ rectal ทุกรายหลังคลอด; ติดตาม 6–12 สัปดาห์",
       "<b>Pudendal nerve</b> (S2-S4): ออกทาง greater sciatic foramen อ้อมหลัง ischial spine / sacrospinous ligament (<b>nerve อยู่ medial ต่อ spine</b>) → lesser sciatic foramen → Alcock canal; block ฉีดผ่าน vagina ที่ ~1 ซม. medial และ posterior ต่อ ischial spine ด้วย 1% lidocaine ~10 mL ต่อข้าง (ดูดย้อนก่อนฉีด)",
@@ -455,7 +455,7 @@ SUMM.push({
      ],
      "pearls": [
       "Pfannenstiel ข้อดีคือ dehiscence / hernia น้อยและ cosmetic ส่วน hematoma มากกว่าและ exposure จำกัดคือข้อเสีย — อย่าสลับ",
-      "ข้อ \"not a risk of elective CS\": เฉลยของ YUZU คือ B (ปัญหาทางเดินหายใจของทารก) แต่ตามตำรา B เป็นความเสี่ยงจริงของ CS (โจทย์กำกวม, ความมั่นใจต่ำ) — ดูเฉลยอาจารย์"
+      "ข้อ \"not a risk of elective CS\" (โจทย์มีข้อบกพร่อง): เฉลยของ YUZU คือ B (ปัญหาทางเดินหายใจของทารก) แต่ ACOG CO 761 (2019) ระบุ TTN / RDS เป็นความเสี่ยงของ CS (มากขึ้นถ้าผ่าก่อน 39 สัปดาห์) จึงไม่มีช้อยที่ถูกสนิทตาม tier 1; bank คง B เพราะเป็นช้อยเดียวที่ ACOG ผูกกับอายุครรภ์ (ความมั่นใจต่ำ) — ดูเฉลยอาจารย์"
      ],
      "members": [
       "YUZU||16.4",
