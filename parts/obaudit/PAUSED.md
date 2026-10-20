@@ -7,9 +7,9 @@ User (20 Oct 2026 12:45): run only groups 1–3 now; groups 4–10 are **paused*
 | 1 | Labor, Induction of labor, Operative delivery | **done** 20 Oct — 1 key changed (YUZU 3.1 → E), 20 patched |
 | 2 | ANC, Prenatal genetics, Amniotic fluid, Neonate | **done** 20 Oct — 0 key changes, 14 patched |
 | 3 | Onco, Cervix, GTD | **done** 20 Oct — 0 key changes, 19 patched |
-| 4 | Infection in pregnancy, Vaginitis & STI, PID | running (resumed 20 Oct 13:07) |
-| 5 | Reproductive endocrinology, Infertility, Menopause, Contraception | running (resumed 20 Oct 13:07) |
-| 6 | Ovary, Uterus & endometrium, Vulva & vagina, Pelvic floor | running (resumed 20 Oct 13:07) |
+| 4 | Infection in pregnancy, Vaginitis & STI, PID | **done** 20 Oct — 1 key changed (YUZU 25.1 B → D), 28 patched |
+| 5 | Reproductive endocrinology, Infertility, Menopause, Contraception | **done** 20 Oct — 0 key changes, 11 patched |
+| 6 | Ovary, Uterus & endometrium, Vulva & vagina, Pelvic floor | **done** 20 Oct — 2 keys changed (YUZU 37.1 A → B, 37.6 B → E), 13 patched |
 | 7 | Early pregnancy, Abortion, Medical disease in pregnancy, Anemia & thalassemia | **paused** |
 | 8 | Fetal surveillance, Preterm & PROM, Multifetal | **paused** |
 | 9 | Puerperium, Lactation, PPH, APH, Hypertension in pregnancy | **paused** |
@@ -31,3 +31,9 @@ OB-GYN MEQ audit: not started, user will say when (remind him).
 - **Group 8 — footling breech dup** YUZU||14.1 (dup of YUZU||3.11): do not cite RCOG as the authority; Williams / ACOG CO 745; answer unchanged.
 - **Labor-curve questions anywhere:** group 1 switched to ACOG CPG 8 (2024): active phase from 6 cm; arrest = ≥6 cm + ROM + no change
   ≥4 h adequate contractions (≥6 h if inadequate on oxytocin); second stage >3 h nullip / >2 h multip. YUZU||3.1 key changed D → E.
+- **Group 7 — UTI in pregnancy dup** MDCU78|RoB|33 (dup of MDCU78|RoC|Medical disease 2/5, YUZU||25.2): use ACOG Clinical Consensus
+  (2023, Obstet Gynecol 142:435) wording — screen ASB once at first visit, treat 5–7 d, pyelonephritis 14 d total, first line
+  cephalexin / fosfomycin / amoxicillin-clavulanate (nitrofurantoin, TMP-SMX only if no alternative); answer unchanged.
+- **PCOS / POI wording (groups 7–10 dups):** ACOG PB 194 (2018) ultrasound ≥12 follicles 2–9 mm or volume >10 mL (Intl PCOS
+  Guideline ≥20 = tier 3); POI per ACOG CO 605 FSH >30–40 IU/L twice ≥1 month apart (ESHRE >25 = tier 3); letrozole first line is the
+  Intl PCOS Guideline 2023, not ACOG.
