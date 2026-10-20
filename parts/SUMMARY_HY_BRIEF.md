@@ -48,6 +48,14 @@ SUMM.push({tag:"<tag exactly as printed by sumdump>", title:"<display title, e.g
   (say "เคส", "ข้อย่อย", or name the rotation). Put spaces around "/" between long words.
 - Strings: use double-quoted JS strings; escape any `"` inside as `\"`; no line breaks inside a string.
 
+## OB-GYN reference order (user, 20 Oct 2026 — overrides every other OB-GYN instruction in task prompts)
+1. **RTCOG, ACOG, Williams** (Williams Obstetrics / Williams Gynecology) — newest edition / latest guideline only. They override
+   everything else: old-exam keys, lecture L / R / N notes, other rounds. If these three disagree with each other, write every
+   version, say which source says what, and mark it as a conflict — never pick one silently.
+2. Lecture slides (code L) — when tier 1 has nothing or more detail is needed.
+3. Everything else (other codes, other guidelines such as RCOG / NICE / WHO / CDC / ESHRE, websites) — only after tiers 1–2.
+Name the source + edition/year whenever a source decides an answer. If tier-1 content cannot be accessed, say so; never guess it.
+
 ## Check (must pass)
 `node tools/sumcheck.js <ward dir> <MCQ|MEQ|OSCE> "<tag>"` → must end with `bad 0` (structure, member keys, coverage,
 text rules). Fix and re-run until it does. Do NOT run build scripts, git, or edit any other file.
