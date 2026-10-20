@@ -55,3 +55,32 @@ text rules). Fix and re-run until it does. Do NOT run build scripts, git, or edi
 ## Final report (short)
 Per tag: the check line; groups → sections with member counts; anything odd in the data (an item that seems mis-tagged —
 key + suggested tag; an answer you believe is wrong — key + why + source).
+
+## Extra fields (all types, optional unless stated)
+- `flow:["…"]` — how the case / station unfolds, in order: what information is given → what is asked next
+  (e.g. "Part 1: หญิง 32 wk น้ำเดิน → ซักประวัติเพิ่ม", "Part 2: ให้ผล SSE + NST → Dx + DDx", "Part 3: → management").
+- `kw:["…"]` — the exact words / phrases a marker looks for (each short, e.g. "G2P1 GA 32 wk with PPROM", "MgSO4 4 g IV loading").
+- `ddx:["…"]` — differentials that must be named / ruled out.
+The page shows: 📈 rotations + trend → แนวคำถาม (asked) → flow → ต้องตอบอะไร (pattern) → คำสำคัญ (kw) → DDx → กับดัก (pearls) → buttons.
+It also lists every section title under each topic as "เรื่อง / โรคที่เคยออก", so section titles should name the disease / problem.
+
+## MEQ: Case and Short answer are separate summaries (user, 20 Oct 2026)
+Each MEQ tag gets TWO files (one may be omitted if the tag has no items of that style):
+- `sum_meq_case_<slug>.js` with `style:"case"` — only case-style items (`node tools/sumdump.js <dir> MEQ "<tag>" --style case`).
+  One section = one disease / clinical problem that was examined as a case. For each, cover:
+  `asked` = every kind of question the case asked (ซักประวัติเพิ่ม, PE, Dx format, DDx, investigation, management step by step,
+  counselling, complication, follow-up…), `flow` (REQUIRED) = how the case unfolded part by part, `pattern` = what to write for each
+  part to get full marks (lists, Dx wording, drug + dose + route, timing), `kw` (REQUIRED) = marker keywords, `ddx`, `pearls` =
+  rubric traps / where the old key was wrong. The topic `intro` = which diseases appear as cases and the usual question sequence.
+- `sum_meq_sa_<slug>.js` with `style:"sa"` — only short-answer items (`--style sa`), written like the normal brief (asked + pattern,
+  kw/ddx when useful). Group by concept; sections = what was asked.
+Members must match the file's style (sumcheck rejects a case item in an sa file and vice versa) and every item of that style
+tagged with the tag must be covered.
+
+## OSCE
+One file per station-type tag as before, but `flow` and `kw` are REQUIRED for every section:
+`asked` = what the station asked (find / describe / diagnose / next step / treat / history / examine / procedure / advise),
+`flow` = the station's tasks in order (for examiner stations: the checklist in order from greeting/identification/consent to
+closing), `pattern` = exactly what to say or write for each task, `kw` = the words the examiner ticks, `ddx` when the station asks
+for differentials, `pearls` = common reasons to lose marks. Section titles = the disease / finding / task examined, so the topic
+overview lists "what topics this station type has examined".

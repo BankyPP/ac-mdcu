@@ -4,14 +4,14 @@
    node tools/sumdump.js <ward dir> <MCQ|MEQ|OSCE> <tag> [--brief|--full] → (default skips the per-option 'wrong' notes; --full adds them, --brief trims long text) every item tagged <tag>: member key, rotation, stem, options/answer, explanation, flags */
 const {load,items,topicNames,plain}=require('./sumlib');
 const [dir,typeA,tag,...rest]=process.argv.slice(2);const type=String(typeA||'').toUpperCase();
-if(!dir||!['MCQ','MEQ','OSCE'].includes(type)){console.log('usage: node tools/sumdump.js <ward dir> <MCQ|MEQ|OSCE> [tag] [--brief|--full]');process.exit(1);}
-const brief=rest.includes('--brief'),full=rest.includes('--full');
-const W=load(dir),its=items(W,type),names=Object.fromEntries(topicNames(dir,type));
+if(!dir||!['MCQ','MEQ','OSCE'].includes(type)){console.log('usage: node tools/sumdump.js <ward dir> <MCQ|MEQ|OSCE> [tag] [--brief|--full] [--style case|sa]');process.exit(1);}
+const brief=rest.includes('--brief'),full=rest.includes('--full'),si=rest.indexOf('--style'),style=si>=0?rest[si+1]:'';
+const W=load(dir),its=items(W,type).filter(o=>!style||o.sty===style),names=Object.fromEntries(topicNames(dir,type));
 const cut=(s,n)=>{s=plain(s);return n&&s.length>n?s.slice(0,n)+' …':s;};
 if(!tag){const c={},r={};its.forEach(o=>(o.tags.length?o.tags:['(no tag)']).forEach(t=>{c[t]=(c[t]||0)+1;(r[t]=r[t]||new Set()).add(o.rot);}));
   const have=new Set(W.SUMM[type].map(s=>s.tag));
   console.log(`${dir} ${type}: ${its.length} items · ${new Set(its.map(o=>o.q)).size} questions · ${new Set(its.map(o=>o.rot)).size} rotations`);
-  Object.keys(c).sort((a,b)=>c[b]-c[a]).forEach(t=>console.log(`  ${t}${names[t]?' ('+names[t]+')':''}: ${c[t]} items · ${r[t].size} rotations${have.has(t)?' · has summary':''}`));process.exit(0);}
+  Object.keys(c).sort((a,b)=>c[b]-c[a]).forEach(t=>{const cs=type==='MEQ'?` (case ${its.filter(o=>o.tags.includes(t)&&o.sty==='case').length} · short answer ${its.filter(o=>o.tags.includes(t)&&o.sty==='sa').length})`:'';console.log(`  ${t}${names[t]?' ('+names[t]+')':''}: ${c[t]} items${cs} · ${r[t].size} rotations${have.has(t)?' · has summary':''}`);});process.exit(0);}
 const mine=its.filter(o=>tag==='(no tag)'?!o.tags.length:o.tags.includes(tag));
 console.log(`# ${dir} ${type} tag "${tag}"${names[tag]?' = '+names[tag]:''} — ${mine.length} items from ${new Set(mine.map(o=>o.rot)).size} rotations: ${[...new Set(mine.map(o=>o.rot))].join(', ')}\n`);
 const L='ABCDE';let lastQ=null;

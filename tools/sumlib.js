@@ -25,7 +25,7 @@ function items(W,type){
     return {key:K.get(q),q,s:null,tags:t,rot:(q.set+' '+(q.ro||'')).trim()};});}
   const L=type==='OSCE'?W.OS:W.MQ,out=[],K=qKeys(L);
   L.forEach(q=>{const parts=Array.isArray(q.parts)&&q.parts.length?q.parts:[{subs:q.subs||[]}];let k=0;
-    parts.forEach((p,pi)=>(p.subs||[]).forEach(s=>{k++;let t=(s.tags||[]).slice();if(!t.length&&q.topic)t=[q.topic];out.push({key:K.get(q)+'#'+k,q,s,pi,k,tags:t,rot:(q.set+' '+(q.ro||'')).trim()});}));});
+    parts.forEach((p,pi)=>(p.subs||[]).forEach(s=>{k++;let t=(s.tags||[]).slice();if(!t.length&&q.topic)t=[q.topic];out.push({key:K.get(q)+'#'+k,q,s,pi,k,tags:t,rot:(q.set+' '+(q.ro||'')).trim(),sty:q.sa?'sa':'case'});}));});
   return out;}
 const plain=s=>String(s==null?'':s).replace(/<br\s*\/?>/gi,'\n').replace(/<\/(li|p|div|tr)>/gi,'\n').replace(/<li>/gi,'• ').replace(/<[^>]+>/g,'').replace(/&nbsp;/g,' ').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&').replace(/[ \t]+/g,' ').replace(/\n\s*\n+/g,'\n').trim();
 module.exports={load,items,topicNames,wardCfg,plain};

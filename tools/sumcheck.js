@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* Check the Phase 2 high-yield summary files of one ward + exam type.
-   node tools/sumcheck.js <ward dir> <MCQ|MEQ|OSCE> [tag]
+   node tools/sumcheck.js <ward dir> <MCQ|MEQ|OSCE> [tag]   (MEQ files with style:"case"|"sa" are checked against that style's items only)
    - structure of every SUMM entry (tag, title, groups → sections with id/title/members)
    - every member key exists in the Service round · section ids unique within a topic
    - coverage: every item tagged <tag> appears in at least one section of that tag's summary (missing items are listed)
@@ -15,18 +15,21 @@ Object.keys(dupK).forEach(k=>err(`duplicate item key in the bank: ${k} (two ques
 const S=W.SUMM[type].filter(s=>!only||s.tag===only),seenTag={};
 S.forEach(s=>{console.log(`${s._file}: tag "${s.tag}"`);
   if(!s.tag||!s.title||!Array.isArray(s.groups))return err('needs tag, title and groups[]');
-  if(seenTag[s.tag])err(`tag "${s.tag}" also in ${seenTag[s.tag]}`);seenTag[s.tag]=s._file;
+  const tk=s.tag+'|'+(s.style||'');if(s.style&&!['case','sa'].includes(s.style))err('style must be "case" or "sa"');
+  if(seenTag[tk])err(`tag "${s.tag}"${s.style?' style '+s.style:''} also in ${seenTag[tk]}`);seenTag[tk]=s._file;
   const ids=new Set(),cov=new Set();let nsec=0;
   s.groups.forEach((g,gi)=>{if(!g.title||!Array.isArray(g.sections)||!g.sections.length)err(`group ${gi+1} needs title and sections[]`);
     (g.sections||[]).forEach(x=>{nsec++;const where=`section "${x.title||x.id}"`;
       if(!x.id||!x.title)err(`${where} needs id and title`);if(ids.has(x.id))err(`${where}: id "${x.id}" repeated`);ids.add(x.id);
       if(!Array.isArray(x.members)||!x.members.length)err(`${where} has no members`);
-      (x.members||[]).forEach(m=>{if(!byKey[m])err(`${where}: member "${m}" is not in the Service round`);else cov.add(m);});
+      (x.members||[]).forEach(m=>{if(!byKey[m])err(`${where}: member "${m}" is not in the Service round`);else if(s.style&&byKey[m].sty!==s.style)err(`${where}: member "${m}" is ${byKey[m].sty==='sa'?'short answer':'case'} but this file is style ${s.style}`);else cov.add(m);});
       ['asked','pattern'].forEach(f=>{if(!Array.isArray(x[f])||!x[f].length)err(`${where} needs ${f}[]`);});
-      const txt=[x.trend,...(x.asked||[]),...(x.pattern||[]),...(x.pearls||[])].join(' ');
+      ['flow','kw','ddx','pearls'].forEach(f=>{if(x[f]!==undefined&&!Array.isArray(x[f]))err(`${where}: ${f} must be an array`);});
+      if(type==='OSCE'||s.style==='case')['flow','kw'].forEach(f=>{if(!Array.isArray(x[f])||!x[f].length)err(`${where} needs ${f}[] (${type==='OSCE'?'OSCE':'MEQ case'})`);});
+      const txt=[x.trend,...(x.asked||[]),...(x.flow||[]),...(x.pattern||[]),...(x.kw||[]),...(x.ddx||[]),...(x.pearls||[])].join(' ');
       if(/ข้อ\s*\d/.test(txt))err(`${where}: has "ข้อ"+number — say เคส / ข้อย่อย / the rotation instead`);
       if(/<table/i.test(txt))err(`${where}: tables not allowed — use bullets`);});});
-  const mine=its.filter(o=>o.tags.includes(s.tag)),miss=mine.filter(o=>!cov.has(o.key));
+  const mine=its.filter(o=>o.tags.includes(s.tag)&&(!s.style||o.sty===s.style)),miss=mine.filter(o=>!cov.has(o.key));
   console.log(`  ${s.groups.length} groups · ${nsec} sections · covers ${mine.length-miss.length}/${mine.length} tagged items`);
   if(miss.length)err(`${miss.length} tagged items not in any section: ${miss.map(o=>o.key).join(' , ')}`);});
 if(!only){const have=new Set(S.map(s=>s.tag)),c={};its.forEach(o=>o.tags.forEach(t=>c[t]=(c[t]||0)+1));

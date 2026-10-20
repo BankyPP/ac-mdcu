@@ -197,7 +197,7 @@ function mqHomeHTML(type){type=type||"MEQ";const P=P_(),p=ph(),L=mqL(ward,type),
   const v=mqS().v,cq=v.u&&L.find(q=>q.uid===v.u);
   if(cq&&!mqCaseDone(cq)&&mqAnyDone(cq))h+=`<button class="resume" id="mqResume"><span>ทำต่อ: <b>${type} ข้อ ${esc(mqNum(cq))}</b><span class="rd">${esc(cq.set)} · ${esc(mqTitle(cq))}</span></span><span class="go">→</span></button>`;
   if(p===2&&L.length){h+=`<div class="card"><h3>ทบทวน ${type} ก่อนสอบ</h3><span class="rd">สรุปจากข้อสอบ ${type} เก่าเท่านั้น และทวนเฉพาะข้อที่ยังไม่ได้เต็ม</span><div class="tools">
-    <button class="tool" data-go="mqhy">📘 สรุป High-yield ${type}</button>
+    <button class="tool" data-go="mqhy">📘 สรุป High-yield ${type}${(n=>n?`<span class="n" title="ข้อใหม่ที่ Claude ยังไม่ได้สรุป">🆕 ${n}</span>`:"")(hsPendingN(type))}</button>
     <button class="tool" data-mqp2="notfull">◐ ข้อที่ยังไม่ได้เต็ม<span class="n">${L.filter(q=>mqPass(q,"notfull")).length}</span></button>
     <button class="tool" data-mqp2="star">★ ข้อที่ติดดาว<span class="n">${L.filter(mqStar).length}</span></button>
     <button class="tool" data-mqp2="todo">○ ยังไม่ได้ทำใน Phase 2<span class="n">${L.filter(q=>!mqCaseDone(q)).length}</span></button></div></div>`;}
