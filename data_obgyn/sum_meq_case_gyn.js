@@ -29,7 +29,7 @@ SUMM.push({
       "<b>History</b>: ลักษณะเลือด (ปริมาณ สี ลิ่ม postcoital) · ยืนยันหมดประจำเดือน (อายุหมด / นานเท่าไร) · ยา: HRT estrogen เดี่ยว, tamoxifen, anticoagulant · ซีด / เสียเลือด · ปวดท้อง น้ำหนักลด ตกขาว · Pap / HPV / STI / เพศสัมพันธ์ · risk: อ้วน DM HTN nulliparity PCOS หมดประจำเดือนช้า · family hx มะเร็ง endometrium / ลำไส้ / รังไข่ / เต้านม (Lynch, BRCA)",
       "<b>Problem list</b> เรียง: PMB (เลือดมาก ลิ่ม) → symptomatic anemia → risk factors (tamoxifen, nulliparity, DM, HT, obesity) → โรคร่วม (DM on metformin, hx breast cancer) → family cancer hx (สงสัย Lynch / BRCA) → ไม่เคย screening cervix",
       "<b>PE 3 อย่าง</b>: vital signs + pallor + BMI · abdominal exam · pelvic exam (speculum + bimanual ± Pap) พร้อมเหตุผล",
-      "<b>Ix</b>: TVS วัด endometrial thickness (≤ 4 mm ในไม่ใช้ tamoxifen → risk ต่ำ; > 4 mm หรือเลือดซ้ำ → ต้อง sampling) · <b>endometrial sampling</b> (Pipelle / fractional curettage / hysteroscopy-guided biopsy) = ยืนยันพยาธิ · Pap smear / HPV · CBC (anemia) · FBS / HbA1c ถ้า DM",
+      "<b>Ix</b>: <b>TVS ร่วมกับ endometrial sampling</b> เป็นการประเมินเริ่มต้นใน PMB ส่วนใหญ่ (ACOG Clinical Practice Update 2026 ปรับปรุง CO 734: ET จาก TVS อย่างเดียวพลาดมะเร็งราว 5–12%) — <b>ข้าม biopsy ได้เฉพาะเมื่อครบทุกข้อ</b>: เลือดออกครั้งเดียว + endometrium เห็นชัดทั้งหมดและ ≤ 4 mm + ไม่มีปัจจัยเสี่ยงมะเร็ง + ผู้ป่วยรู้ว่าเลือดออกซ้ำต้องกลับมาทันที + เข้าถึงการดูแลต่อได้ (รายนี้เลือดมาก DM nulligravida FHx → ต้อง sampling) · sampling = Pipelle / fractional curettage / hysteroscopy-guided biopsy · Pap smear / HPV · CBC (anemia) · FBS / HbA1c ถ้า DM · <i>สรุปจากแหล่งรอง (ข้อความเต็มของ acog.org เข้าไม่ถึง)</i>",
       "<b>Pre-op</b>: CXR, CBC (แก้ anemia: iron ± PRC), BUN / Cr / LFT / electrolyte, FBS / HbA1c, ECG; MRI pelvis (myometrial invasion, cervix, node)",
       "<b>Surgery</b> = total hysterectomy + BSO (extrafascial) แบบ minimally invasive ถ้าทำได้ (อ้วน BMI ≥ 35) ± peritoneal washing · nodal assessment: sentinel LN biopsy หรือ pelvic ± para-aortic lymphadenectomy ตามความเสี่ยง (grade 1, ตื้น < 50%, ก้อนเล็ก → low risk อาจไม่ต้อง)",
       "<b>Adjuvant</b> ตามพยาธิสุดท้าย + molecular class (ESGO / ESTRO / ESP 2021): IA G1–2 ไม่มี LVSI → observe · intermediate → vaginal brachytherapy · high-intermediate / high → EBRT ± chemo",
@@ -441,7 +441,7 @@ SUMM.push({
       "<b>Rh negative → anti-D</b> (50 µg ถ้า < 12 wk หรือ 300 µg IM ภายใน 72 ชม.)",
       "<b>ห้าม methotrexate / expectant</b> ใน ruptured / unstable (MTX ใช้เมื่อ stable, unruptured, hCG < 5,000, ไม่มี fetal cardiac activity, mass < 3.5–4 cm, ติดตามได้; 50 mg/m2 IM)",
       "Post-op: monitor V/S, Hb, UO, pain control, ตามผลพยาธิ",
-      "<b>Counselling</b>: เสี่ยง ectopic ซ้ำ ~10–15%; ครั้งหน้ามาเร็วทำ early TVS (6–7 wk) ยืนยัน IUP; เว้น ≥ 3 เดือน; คุมกำเนิด (LARC); งดเพศสัมพันธ์จนแผลหาย; ตรวจรักษา STI คู่นอน; ถ้า tube เสีย → IVF"
+      "<b>Counselling</b>: เสี่ยง ectopic ซ้ำ ~10–15%; ครั้งหน้ามาเร็วทำ early TVS (6–7 wk) ยืนยัน IUP; (ถ้าเคยได้ methotrexate ควรเว้นอย่างน้อย 3 เดือนก่อนตั้งครรภ์ — คำแนะนำตามฉลากยา; หลังผ่าตัดไม่พบข้อกำหนดระยะเว้นใน ACOG PB 193 ที่เข้าถึงได้ = unverified); คุมกำเนิด (LARC); งดเพศสัมพันธ์จนแผลหาย; ตรวจรักษา STI คู่นอน; ถ้า tube เสีย → IVF"
      ],
      "kw": [
       "G1P0 GA 6 wk",
@@ -548,7 +548,7 @@ SUMM.push({
       "<b>Ix</b>: UPT → <b>pelvic US</b> (first-line ในวัยรุ่น, ไม่ใช้ TVS ถ้ายังไม่เคยมีเพศสัมพันธ์ → transabdominal) → tumor markers เมื่อ solid / complex: AFP, β-hCG, LDH, CA-125 (± inhibin) → MRI pelvis ถ้า US ไม่ชัด (หลีกเลี่ยง CT ในเด็ก) · pre-op: CBC, BUN / Cr, electrolyte, coagulogram, blood group",
       "<b>Dx</b>: torsion of ovarian cyst — ปวดเฉียบพลันข้างเดียว ± คลื่นไส้อาเจียน หลังออกแรง, tender adnexal mass, V/S ปกติ; ก้อน 5–10 cm เสี่ยงสุด; ใน mole: theca lutein cyst โต + hCG ลดลง (ไม่ใช่ GTN)",
       "DDx: ruptured / hemorrhagic cyst (hemoperitoneum, ซีด), ectopic (UPT), appendicitis, PID / TOA, ureteric stone",
-      "<b>Doppler ปกติไม่ตัด torsion</b> (dual blood supply) — dx ทางคลินิก ไม่รอ imaging; whirlpool sign ช่วยยืนยัน",
+      "<b>Doppler ปกติไม่ตัด torsion</b> (dual blood supply; flow ปกติพบได้ถึง ~60% ของ torsion ที่ยืนยันแล้ว) — ACOG CO 783: ไม่ควรใช้ Doppler อย่างเดียวตัดสินใจ, transabdominal US ไว ~92% จำเพาะ ~96%, สงสัยทางคลินิก → emergent diagnostic laparoscopy (ราว 50% ไม่พบ torsion แต่มักพบพยาธิสภาพอื่น); whirlpool sign ช่วยยืนยัน",
       "<b>Supportive</b>: admit, NPO, IV fluid, analgesia (opioid ได้) + antiemetic, UPT, CBC, G/M, consent ผู้ปกครอง (ถ้าเด็ก)",
       "<b>Emergency laparoscopy (หรือ laparotomy) → detorsion + เก็บรังไข่ แม้ดูคล้ำ / ดำ</b> (ACOG CO 783, 2019) — oophorectomy เฉพาะ necrotic ชัดเจน / สงสัย malignancy",
       "ทำ cystectomy ทันทีถ้าทำได้ (ซีสต์ตึง → aspiration ช่วย) ถ้ารังไข่บวมมาก → detorsion อย่างเดียว แล้ว interval cystectomy 6–8 wk · oophoropexy ไม่ทำเป็นประจำ",
@@ -609,7 +609,7 @@ SUMM.push({
       "<b>Ix</b>: UPT → <b>pelvic US</b> (first-line ในวัยรุ่น, ไม่ใช้ TVS ถ้ายังไม่เคยมีเพศสัมพันธ์ → transabdominal) → tumor markers เมื่อ solid / complex: AFP, β-hCG, LDH, CA-125 (± inhibin) → MRI pelvis ถ้า US ไม่ชัด (หลีกเลี่ยง CT ในเด็ก) · pre-op: CBC, BUN / Cr, electrolyte, coagulogram, blood group",
       "ประจำเดือนมาห่างในวัยรุ่น = LMP ไม่น่าเชื่อถือ → UPT ทุกราย",
       "<b>Dx</b>: torsion of ovarian cyst — ปวดเฉียบพลันข้างเดียว ± คลื่นไส้อาเจียน หลังออกแรง, tender adnexal mass, V/S ปกติ; ก้อน 5–10 cm เสี่ยงสุด; ใน mole: theca lutein cyst โต + hCG ลดลง (ไม่ใช่ GTN)",
-      "<b>Doppler ปกติไม่ตัด torsion</b> (dual blood supply) — dx ทางคลินิก ไม่รอ imaging; whirlpool sign ช่วยยืนยัน",
+      "<b>Doppler ปกติไม่ตัด torsion</b> (dual blood supply; flow ปกติพบได้ถึง ~60% ของ torsion ที่ยืนยันแล้ว) — ACOG CO 783: ไม่ควรใช้ Doppler อย่างเดียวตัดสินใจ, transabdominal US ไว ~92% จำเพาะ ~96%, สงสัยทางคลินิก → emergent diagnostic laparoscopy (ราว 50% ไม่พบ torsion แต่มักพบพยาธิสภาพอื่น); whirlpool sign ช่วยยืนยัน",
       "<b>Supportive</b>: admit, NPO, IV fluid, analgesia (opioid ได้) + antiemetic, UPT, CBC, G/M, consent ผู้ปกครอง (ถ้าเด็ก)",
       "<b>Emergency laparoscopy (หรือ laparotomy) → detorsion + เก็บรังไข่ แม้ดูคล้ำ / ดำ</b> (ACOG CO 783, 2019) — oophorectomy เฉพาะ necrotic ชัดเจน / สงสัย malignancy",
       "ทำ cystectomy ทันทีถ้าทำได้ (ซีสต์ตึง → aspiration ช่วย) ถ้ารังไข่บวมมาก → detorsion อย่างเดียว แล้ว interval cystectomy 6–8 wk · oophoropexy ไม่ทำเป็นประจำ",
@@ -772,9 +772,9 @@ SUMM.push({
       "F/C แยก ECC vs endometrium (แยก cervical vs endometrial origin)",
       "<b>Dx</b>: endometrial hyperplasia without atypia (AUB-M) with mild anemia and obesity (WHO: without atypia ความเสี่ยงเป็น ca ~1–3% vs atypical / EIN 25–40%)",
       "<b>สาเหตุ</b>: unopposed estrogen — obesity (aromatase), anovulation / PCOS / perimenopause, menarche เร็ว / menopause ช้า, nulliparity, tamoxifen / estrogen-only HRT, estrogen-secreting tumor, Lynch, DM, HTN → ลดน้ำหนัก",
-      "<b>Rx</b>: progestin (ไม่ใช่ hysterectomy first line) — <b>LNG-IUS 52 mg</b> first line (5 ปี) หรือ <b>MPA 10 mg PO OD วัน 1–14 ของเดือน</b> (หรือ 10–20 mg/day ต่อเนื่อง) ≥ 6 เดือน; megestrol 40–320 mg/day; norethindrone 5–15 mg/day",
-      "<b>F/U endometrial biopsy ทุก 3–6 เดือน</b> จน normal 2 ครั้งติด",
-      "<b>Hysterectomy</b> เมื่อ progression / atypia / ไม่ตอบสนอง 12 เดือน / เลือดไม่หยุด / ผู้ป่วยเลือก; atypical hyperplasia → total hysterectomy ± BSO",
+      "<b>Rx</b>: progestin (ไม่ใช่ hysterectomy first line) — <b>LNG-IUS 52 mg</b> first line (5 ปี) หรือ <b>MPA 10 mg PO OD วัน 1–14 ของเดือน</b> (หรือ 10–20 mg/day ต่อเนื่อง — ACOG Consensus 2023 (EIN/AEH) ว่า continuous ดีกว่า cyclic, แนะนำ MPA/megestrol) ≥ 6 เดือน; megestrol 40–320 mg/day; norethindrone 5–15 mg/day (ขนาดตาม SOGC = tier 3) · หมายเหตุ: ACOG Consensus 2023 เขียนสำหรับ EIN/atypical hyperplasia ไม่มีคำแนะนำเฉพาะ hyperplasia without atypia — หลักข้างต้นเป็นการอนุมาน (unverified ที่ tier 1)",
+      "<b>F/U endometrial biopsy ภายใน 3–6 เดือนหลังเริ่มยา</b> (ACOG Consensus 2023) — ตอบสนองแล้วตามต่อทุก 3–6 เดือนได้ถึง ~2 ปี; ไม่ตอบสนองรวม 9–12 เดือน → ผ่าตัด",
+      "<b>Hysterectomy</b> เมื่อ progression / atypia / ไม่ตอบสนอง 9–12 เดือน / เลือดไม่หยุด / ผู้ป่วยเลือก; atypical hyperplasia / EIN → total hysterectomy ± BSO (ACOG 2023: ห้าม supracervical, ห้าม ablation, ควรตัดมะเร็งร่วมก่อนรักษาแบบอนุรักษ์)",
       "แก้ anemia: ferrous sulfate 200 mg 1 tab PO OD pc; ลดน้ำหนัก"
      ],
      "kw": [
@@ -931,8 +931,8 @@ SUMM.push({
       "<b>MHT ข้อบ่งชี้</b>: vasomotor ปานกลาง–รุนแรง, GSM, ป้องกัน bone loss ในผู้เสี่ยง, POI",
       "<b>ก่อนให้ / ข้อห้าม</b>: unexplained vaginal bleeding, breast / endometrial ca, VTE active / hx, stroke / MI / CAD, active liver disease, ตั้งครรภ์; ประเมิน BP, breast exam + mammogram, Pap, lipid / glucose, TSH / FT4, LFT",
       "<b>มีมดลูก = estrogen + progestogen</b> (ป้องกัน hyperplasia / ca): perimenopause ยังมีประจำเดือน → cyclic (E ทุกวัน + P 10–14 วัน/เดือน); postmenopause → continuous combined; ห้าม estrogen เดี่ยว",
-      "<b>ขนาด / เส้นทาง / ระยะ</b>: ขนาดต่ำสุดที่คุมอาการ ระยะสั้นที่สุด; เริ่ม < 60 ปี หรือ < 10 ปีหลัง menopause; transdermal ลด VTE / stroke; GSM อย่างเดียว → low-dose vaginal estrogen; ติดตามปีละครั้ง; ความเสี่ยง VTE / stroke / breast ca (combined หลัง 3–5 ปี) / gallbladder",
-      "ตัวอย่างยา: estradiol valerate 1–2 mg, CEE 0.3–0.625 mg, patch 25–50 µg/วัน; MPA 2.5–10 mg, micronized progesterone 100–200 mg, dydrogesterone 10 mg; ทางเลือกไม่ใช้ hormone: SSRI / SNRI, gabapentin, fezolinetant",
+      "<b>ขนาด / เส้นทาง / ระยะ</b> (ACOG CPG 13, ต.ค. 2026 แทน PB 141): systemic MHT แนะนำอย่างแรงสำหรับ VMS; เริ่มก่อนอายุ 60 ปี หรือ < 10 ปีหลัง natural menopause (strong); ขนาดต่ำสุดที่คุมอาการ + individualize ระยะเวลา/การหยุด (CPG 13 ไม่กำหนดระยะสูงสุด; &quot;ระยะสั้นที่สุด&quot; เป็นภาษา PB 141/NAMS เดิม); transdermal ลด VTE / stroke; GSM อย่างเดียว → low-dose vaginal estrogen (CPG 13 ไม่ครอบคลุม GSM — ACOG จะออกปี 2027 จึงอิง NAMS 2022 = tier 3); ติดตามที่ 3 เดือน แล้วทุก 12 เดือน (เลือดออกผิดปกติ/ต่อเนื่องเกิน 6 เดือน → ประเมิน EIN / cancer); ความเสี่ยง VTE / stroke / breast ca (combined หลัง 3–5 ปี) / gallbladder",
+      "ตัวอย่างยา: estradiol valerate 1–2 mg, CEE 0.3–0.625 mg, patch 25–50 µg/วัน; MPA 2.5–10 mg, micronized progesterone 100–200 mg, dydrogesterone 10 mg; ทางเลือกไม่ใช้ hormone (CPG 13): SSRI / SNRI (strong), neurokinin antagonist fezolinetant / elinzanetant (strong; ตรวจ LFT), gabapentin (conditional), CBT / hypnosis ฯลฯ (conditional); clonidine ไม่แนะนำเป็นยาหลัก; phytoestrogen / สมุนไพร / progestogen เดี่ยว / DHEA / testosterone ไม่มีหลักฐานรองรับสำหรับ VMS; ทางเลือกแทน progestogen: CE + bazedoxifene",
       "<b>หลัง hysterectomy</b> = estrogen เดี่ยว (ไม่ต้อง progestogen); ยกเว้น: hx endometriosis, subtotal hysterectomy (residual endometrium), เคย hyperplasia / ca → เพิ่ม progestogen; ที่เหลือเหมือนเดิม; breast ca risk ต่ำกว่า combined (WHI)"
      ],
      "kw": [
