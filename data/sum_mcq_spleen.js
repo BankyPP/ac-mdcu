@@ -1,13 +1,13 @@
 SUMM.push({tag:"Spleen", title:"Spleen",
-  intro:"<ul><li>หัวข้อหลักคือ <b>ภาวะไม่มีม้าม / OPSI</b>: เชื้อก่อโรค, วัคซีนชนิดใด, ให้เมื่อไรเทียบกับวันผ่าตัด, การวินิจฉัย fulminant sepsis หลังตัดม้าม</li><li>กายวิภาค: <b>short gastric arteries</b> (ออกซ้ำสองรอบ), splenic artery / vein, ligaments และความสัมพันธ์กับหางตับอ่อน</li><li>ข้อบ่งชี้ splenectomy: <b>overall = trauma</b> แต่ <b>elective = ITP</b> (ตัวลวงที่ถูกใช้ซ้ำ) และ distal pancreatic cancer ต้อง <b>distal pancreatectomy + splenectomy</b></li><li>พบครั้งเดียวแต่ควรรู้: <b>splenic abscess</b> (ไข้ + LUQ pain + CT rim enhancement)</li></ul>",
+  intro:"<ul><li>หัวข้อหลักคือ <b>ภาวะไม่มีม้าม / OPSI</b> ออกเกือบทุกรุ่น (MDCU74–79): เชื้อก่อโรค, วัคซีนชนิดใด (และตัวใดไม่ต้องให้), ให้เมื่อไรเทียบกับวันผ่าตัด, การวินิจฉัย fulminant sepsis หลังตัดม้าม</li><li>กายวิภาค: <b>short gastric arteries</b> (ออกซ้ำสองรอบ), splenic artery / vein, ligaments และความสัมพันธ์กับหางตับอ่อน</li><li>ข้อบ่งชี้ splenectomy: <b>overall = trauma</b> แต่ <b>elective = ITP</b> (ตัวลวงที่ถูกใช้ซ้ำ) และ distal pancreatic cancer ต้อง <b>distal pancreatectomy + splenectomy</b></li><li>พบครั้งเดียวแต่ควรรู้: <b>splenic abscess</b> (ไข้ + LUQ pain + CT rim enhancement)</li></ul>",
   groups:[
     {title:"Asplenia และ OPSI", sections:[
       {id:"opsi-vaccine", title:"วัคซีนหลังตัดม้าม: ชนิดและจังหวะเวลา",
        trend:"ถามว่าวัคซีนใดไม่เกี่ยวกับ asplenia หรือถามเวลาให้วัคซีนใน elective splenectomy",
-       asked:["ผู้ป่วยหลัง splenectomy จาก trauma → วัคซีนใด NOT specifically indicated (ตอบ tetanus toxoid)","ITP จะทำ elective splenectomy → จัดวัคซีนอย่างไร / ให้เมื่อไร"],
-       pattern:["<b>วัคซีนที่จำเป็น</b>: pneumococcal (PCV20 หรือ PCV15 ตามด้วย PPSV23), meningococcal (MenACWY + MenB), <b>Hib</b>, และ <b>influenza ทุกปี</b>","<b>Elective</b>: ให้ <b>≥ 2 สัปดาห์ก่อนผ่าตัด</b> (ตอนยังมีม้ามช่วยสร้าง antibody ดีที่สุด)","<b>Emergency / trauma</b>: ให้ <b>≥ 14 วันหลังผ่าตัด</b> หรือก่อนกลับบ้านถ้ากลัวผู้ป่วยไม่มาตามนัด","มาตรการเสริม: ให้ความรู้ว่าไข้ = ภาวะฉุกเฉิน, standby antibiotic (amoxicillin-clavulanate), medical alert card, prophylactic penicillin ในเด็กและ 1–2 ปีแรก","Antibiotic prophylaxis อย่างเดียวหรือไม่ฉีดวัคซีนไม่ถูก"],
-       pearls:["<b>Tetanus toxoid</b> ให้ตามแผลและประวัติวัคซีน ไม่ได้ให้เพราะไม่มีม้าม จึงเป็นคำตอบของ NOT indicated","ตัวลวง \"ฉีดทันทีก่อนผ่าตัด\" หรือ \"ฉีดหลังผ่าตัด 6 เดือน\" ผิดทั้งคู่ ให้จำ 2 สัปดาห์ก่อน / 2 สัปดาห์หลัง"],
-       members:["MDCU77|RoA|41","MDCU78|RoA|Spleen 1"]},
+       asked:["ผู้ป่วยหลัง splenectomy จาก trauma → วัคซีนใด NOT specifically indicated (ตอบ tetanus toxoid)","ITP จะทำ elective splenectomy → จัดวัคซีนอย่างไร / ให้เมื่อไร","Elective splenectomy → วัคซีนใดไม่แนะนำ EXCEPT (ตอบ <b>Staphylococcus aureus</b>: ไม่มีวัคซีน; influenza ยังต้องให้)"],
+       pattern:["<b>วัคซีนที่จำเป็น</b>: pneumococcal (PCV20 หรือ PCV15 ตามด้วย PPSV23), meningococcal (MenACWY + MenB), <b>Hib</b>, และ <b>influenza ทุกปี</b>","<b>Elective</b>: ให้ <b>≥ 2 สัปดาห์ก่อนผ่าตัด</b> (ตอนยังมีม้ามช่วยสร้าง antibody ดีที่สุด)","<b>Emergency / trauma</b>: ให้ <b>≥ 14 วันหลังผ่าตัด</b> หรือก่อนกลับบ้านถ้ากลัวผู้ป่วยไม่มาตามนัด","มาตรการเสริม: ให้ความรู้ว่าไข้ = ภาวะฉุกเฉิน, standby antibiotic (amoxicillin-clavulanate), medical alert card, prophylactic penicillin ในเด็กและ 1–2 ปีแรก","Antibiotic prophylaxis อย่างเดียวหรือไม่ฉีดวัคซีนไม่ถูก","ตัวเลือกที่ <b>ไม่มีวัคซีน</b> หรือไม่เกี่ยวกับ asplenia: <b>S. aureus</b> (ไม่มีวัคซีนที่อนุมัติ และไม่ใช่เชื้อเด่นของ OPSI), tetanus toxoid (ให้ตามแผล)"],
+       pearls:["<b>Tetanus toxoid</b> ให้ตามแผลและประวัติวัคซีน ไม่ได้ให้เพราะไม่มีม้าม จึงเป็นคำตอบของ NOT indicated","ตัวลวง \"ฉีดทันทีก่อนผ่าตัด\" หรือ \"ฉีดหลังผ่าตัด 6 เดือน\" ผิดทั้งคู่ ให้จำ 2 สัปดาห์ก่อน / 2 สัปดาห์หลัง","กับดัก MDCU74: เลือก <b>influenza virus</b> เพราะไม่ใช่ encapsulated bacteria แต่ influenza vaccine แนะนำทุกปีในผู้ไม่มีม้าม (ลด secondary bacterial infection) คำตอบ EXCEPT คือ <b>S. aureus</b>"],
+       members:["MDCU77|RoA|41","MDCU78|RoA|Spleen 1","MDCU74|RoA|ไม่มีเลข 18"]},
       {id:"opsi-organisms", title:"เชื้อก่อ OPSI",
        trend:"ถามเชื้อที่เสี่ยงหลังตัดม้ามในรูปแบบเลือกชุดตัวเลข",
        asked:["เลือกชุดเชื้อที่เสี่ยง overwhelming infection หลัง splenectomy (S. pneumoniae, N. meningitidis, Capnocytophaga canimorsus, H. influenzae type b เทียบกับ CMV / HPV)"],
@@ -16,10 +16,10 @@ SUMM.push({tag:"Spleen", title:"Spleen",
        members:["MDCU76|RoD|36"]},
       {id:"opsi-dx", title:"การวินิจฉัยและรักษา OPSI",
        trend:"ให้เคสไข้ / meningitis / ผื่นหลังตัดม้ามแล้วถามวินิจฉัย",
-       asked:["ผู้ป่วยเคยตัดม้าม มาด้วย signs of meningitis + ผื่นแดงทั่วตัว → most likely diagnosis (OPSI)"],
+       asked:["ผู้ป่วยเคยตัดม้าม มาด้วย signs of meningitis + ผื่นแดงทั่วตัว → most likely diagnosis (OPSI)","2 ปีหลังตัดม้ามจาก trauma ไม่ได้รับวัคซีน → ไข้แล้วทรุดใน 12 ชม. เป็น hypotension, ซึม, purpura, DIC, blood culture S. pneumoniae → most likely diagnosis (OPSI เทียบกับ sepsis / septic shock / toxic shock)"],
        pattern:["<b>OPSI</b> = fulminant sepsis: prodrome คล้ายไข้หวัด → septic shock, DIC, purpura fulminans, meningitis, Waterhouse–Friderichsen ภายในไม่กี่ชั่วโมง; mortality ~50%","เสี่ยงตลอดชีวิตแต่สูงสุดใน <b>2 ปีแรก</b> และ <b>ในเด็ก</b>; สูงกว่าเมื่อตัดม้ามจากโรคเลือด (thalassemia, lymphoma) มากกว่าจาก trauma","รักษาทันที: <b>ceftriaxone ± vancomycin IV</b> โดยไม่รอผลเพาะเชื้อ + sepsis bundle","Peripheral smear พบ Howell–Jolly bodies"],
-       pearls:["อย่าตอบ autoimmune / drug allergy / viral exanthem / TTP: ประวัติตัดม้ามคือกุญแจ","ไข้ในผู้ไม่มีม้ามเป็น medical emergency เสมอ"],
-       members:["MDCU78|RoC|Spleen and Pancreas 2"]}
+       pearls:["อย่าตอบ autoimmune / drug allergy / viral exanthem / TTP: ประวัติตัดม้ามคือกุญแจ","ไข้ในผู้ไม่มีม้ามเป็น medical emergency เสมอ","ตัวลวง <b>sepsis / septic shock</b> ถูกตามนิยามแต่ไม่เจาะจง: เลือก OPSI ซึ่งบอกทั้งสาเหตุและบริบท (MDCU79 ไม่มีคีย์ คำตอบนี้มาจากธนาคารข้อสอบ)","ความเสี่ยงไม่หมดไปหลังผ่าตัดไม่กี่เดือน: เสี่ยงตลอดชีวิต"],
+       members:["MDCU78|RoC|Spleen and Pancreas 2","MDCU79|RoC|Spleen and pancreas 2"]}
     ]},
     {title:"กายวิภาคและหลอดเลือดของม้าม", sections:[
       {id:"short-gastric", title:"Short gastric arteries: ทางเชื่อมม้ามกับกระเพาะ",
