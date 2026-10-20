@@ -1872,16 +1872,7 @@ function rResult(){
 function openQ(u){const s=P_().svc[ph()];s.set="all";s.status="all";s.cur=u;save();go(ward+"/svc");}
 function refBtns(refs){const W=W_();return (refs||[]).map(r=>W.byRid[r]).filter(Boolean).map(q=>`<button class="qref" data-u="${esc(q.uid)}">ข้อ ${q.id}</button>`).join(" ");}
 function bindRefs(){document.querySelectorAll("[data-u].qref").forEach(b=>b.onclick=()=>openQ(b.dataset.u));}
-function rHY(){
-  const W=W_(),HY=W.HY||{},R=W.R;
-  let h=`<h1 class="h2">สรุป High-yield</h1><p class="sub">เนื้อหาที่เคยออกสอบ รวบรวมจากข้อสอบเก่าทุกปีในคลัง กดเลขข้อเพื่อเปิดข้อนั้น</p>`;
-  if(HY.topics&&HY.topics.length){h+=`<div class="card">${HY.topics.map(t=>`<div class="hy-topic"><h3>${t.title}${t.rep?` <span class="tag rep">ออก ${t.rep} ครั้ง</span>`:""}</h3>${t.points?`<ul>${t.points.map(x=>`<li>${R(x)}</li>`).join("")}</ul>`:""}${t.body?`<p>${R(t.body)}</p>`:""}<div>${refBtns(t.refs)}</div></div>`).join("")}</div>`;}
-  else h+=`<div class="card"><span class="rd">Claude จะเขียนหน้าสรุป high-yield ให้เมื่อมีข้อสอบในคลัง ระหว่างนี้ด้านล่างคือ “สรุปความรู้” ของทุกข้อ เรียงตามชุด</span></div>`;
-  const byS={};W.QB.forEach(q=>{(byS[setKey(q)]=byS[setKey(q)]||[]).push(q);});
-  const ks=Object.keys(byS);
-  if(ks.length)h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">สรุปความรู้รายข้อ</h2>`+ks.map((k,i)=>`<details class="grp" ${i===0&&!(HY.topics&&HY.topics.length)?"open":""}><summary>${esc(k)} · ${byS[k].length} ข้อ</summary><ul>${byS[k].map(q=>`<li><button class="qref" data-u="${esc(q.uid)}">ข้อ ${q.id}</button> ${(q.summary||[]).filter(s=>!/^ดูข้อ/.test(plain(s))).map(s=>R(s)).join(" · ")}</li>`).join("")}</ul></details>`).join("");
-  $("main").innerHTML=h;bindRefs();
-}
+function rHY(){rHySum("MCQ");}   /* หน้าเต็มอยู่ที่ site/hysum.js — W.HY (highyield.js) แบบเดิมเลิกใช้ */
 function rKW(){
   const W=W_(),HY=W.HY||{},R=W.R;
   let h=`<h1 class="h2">Keyword ตอบข้อสอบ</h1><p class="sub">คำสำคัญที่เจอแล้วใช้ตอบได้ รวบรวมจากข้อสอบเก่าทุกปี</p>`;

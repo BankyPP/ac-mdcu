@@ -427,16 +427,7 @@ function mqBindView(q,pi){const r=()=>mqRec(q)||{};
     if(x.g[i]===v&&x.gm[i]){delete x.g[i];delete x.gm[i];const k=x.kg&&x.kg[i];if(k&&!(x.ai&&x.ai[i]))x.g[i]=k.grade;else if(x.ai&&x.ai[i]&&x.ai[i].grade!=null)x.g[i]=x.ai[i].grade;}else{x.g[i]=v;x.gm[i]=1;}mqSave(q);mqRe();});}
 document.addEventListener("keydown",e=>{try{if(view!=="mq")return;if(e.key==="Enter"&&(e.ctrlKey||e.metaKey)){const b=$("mqSubmit")||$("mqSubReo")||document.querySelector("[data-mssub]");if(b){e.preventDefault();b.click();}}}catch(x){}});
 /* ---- Phase 2: high-yield toggles from MEQ old exams only ---- */
-function mqHY(){const L=mqL(),T=mqTopics(),v=mqS().v;let h=`<div class="mqv"><div class="whead"><h1 class="h2">สรุป High-yield · ${mqKN()}</h1><a href="#/${esc(ward)}">กลับหน้าวอร์ด</a></div>
-  <p class="sub" style="margin:0 0 10px">สรุปจากข้อสอบ ${mqKN()} เก่าในคลังเท่านั้น จัดตามหัวข้อ · แตะหัวข้อเพื่อเปิด/ปิด แตะข้อย่อยเพื่อดูประเด็น แล้วกด "ไปทำข้อนี้" เพื่อฝึก</p><div class="sum-tools"><button class="btn ghost" id="mqHyAll" type="button">เปิดทั้งหมด</button><button class="btn ghost" id="mqHyNone" type="button">ปิดทั้งหมด</button></div>`;
-  const groups=T.map(([k,n])=>[k,n,L.filter(q=>q.subs.some(s=>(s.tags||[]).includes(k)))]).filter(g=>g[2].length);
-  const un=L.filter(q=>!q.subs.some(s=>(s.tags||[]).length));if(un.length)groups.push(["_","อื่น ๆ",un]);
-  if(!groups.length)h+=`<div class="empty">ยังไม่มีข้อ ${mqKN()} ในวอร์ดนี้</div>`;
-  h+=groups.map(([k,n,qs])=>{const rep=qs.filter(q=>q.rep||q.seen).length;return `<details class="sumt"><summary><span class="st-name">${esc(n)}</span><span class="st-meta">${qs.length} ข้อ${rep?` · เคยออกซ้ำ ${rep}`:""}</span></summary><div class="sumg">${qs.map(q=>{const sc=mqScore(q);
-    return `<details class="sums"><summary><span class="ss-name">ข้อ ${esc(mqNum(q))} · ${esc(mqTitle(q))}</span>${q.rep?`<span class="lv hot">ซ้ำ x${q.rep}</span>`:q.seen?`<span class="lv rep">เคยออก ${esc(q.seen)}</span>`:""}<span class="lv">${mqIsOS()?(q.ex?"มีอาจารย์":"ไม่มีอาจารย์"):q.sa?"short ans":"case"}</span>${sc&&sc.all?`<span class="nums">ได้ ${+sc.got.toFixed(1)}/${sc.tot}</span>`:""}</summary><div class="sums-b">${q.interp?`<p class="trend">${q.interp}</p>`:""}${(q.summary||[]).length?`<div class="sb-h">สรุป</div><ul>${q.summary.map(s=>`<li>${s}</li>`).join("")}</ul>`:""}${q.mnemonic?`<div class="sb-h">ช่วยจำ</div><div>${q.mnemonic}</div>`:""}${q.trap?`<div class="sb-h warn">ระวังกับดัก</div><div>${q.trap}</div>`:""}<div class="refs"><button class="ref" type="button" data-hyu="${esc(q.uid)}">ไปทำข้อนี้ <small>${esc(q.set)}</small></button></div></div></details>`;}).join("")}</div></details>`;}).join("");
-  h+=`</div>`;$("main").innerHTML=h;
-  $("mqHyAll").onclick=()=>document.querySelectorAll("details.sumt,details.sums").forEach(d=>d.open=true);$("mqHyNone").onclick=()=>document.querySelectorAll("details.sumt,details.sums").forEach(d=>d.open=false);
-  document.querySelectorAll("[data-hyu]").forEach(b=>b.onclick=()=>{mqVset({r:"service",set:"all",style:"all",status:"all"});mqOpen(b.dataset.hyu,undefined,"service");});}
+function mqHY(){rHySum(mqKN());}   /* site/hysum.js */
 /* ---- ส่งคำตอบ MEQ จากเว็บไปให้ Claude ตรวจ แล้วส่งผลกลับเว็บ ----
    claude.ai ไม่ส่งข้อมูลจากลิงก์เข้า artifact และเก็บความคืบหน้าแยกจากเว็บ จึงใช้ "รหัส" (คัดลอก → วางใน Claude) ขาไป และลิงก์ #meq= ขากลับ
    v.ask (ต่อวอร์ด): true = หลังกดส่งคำตอบบนเว็บ ถามทุกครั้งว่าจะส่งให้ Claude ตรวจไหม · false = ตรวจด้วยคำสำคัญอย่างเดียว (ยังกดส่งเองได้ทุกข้อ) */
