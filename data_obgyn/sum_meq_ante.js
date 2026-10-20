@@ -201,6 +201,14 @@ SUMM.push({tag:"ante", title:"Antenatal care",
        pattern:["<b>Malformation</b>: ความผิดปกติ intrinsic ของ morphogenesis ตั้งแต่ต้น (cleft lip, NTD, CHD)","<b>Deformation</b>: แรงกลภายนอกทำให้อวัยวะที่เจริญปกติผิดรูป / ผิดตำแหน่ง (clubfoot, Potter facies จาก oligohydramnios) — พยากรณ์มักดี","<b>Disruption</b>: ปัจจัยภายนอกทำลายเนื้อเยื่อที่เดิมปกติ (amniotic band, vascular disruption)","<b>Dysplasia</b>: ความผิดปกติของการจัดเรียงเซลล์เป็นเนื้อเยื่อ / histogenesis (achondroplasia, ectodermal dysplasia)","Malformation และ dysplasia มีโอกาสเกิดซ้ำสูงกว่า (สาเหตุพันธุกรรม); ถูก 4 คำ = ได้, 2–3 = บางส่วน"],
        members:["short ans รวม||53#1"]}
     ]},
+    {title:"น้ำเดินก่อนกำหนด (PPROM)", sections:[
+      {id:"pprom-history", title:"ซักประวัติเพิ่มเติมในหญิง 35 wk ที่มีน้ำใสไหลออกทางช่องคลอด",
+       trend:"โจทย์ PPROM เริ่มด้วยซักประวัติเพิ่มเติมตามรูปแบบ MEQ",
+       asked:["35 wk มีน้ำใสไหลจากช่องคลอด 5 ชม. ไม่ท้องแข็ง ลูกดิ้นดี ฝากครรภ์สม่ำเสมอ → What additional history would you obtain?"],
+       pattern:["<b>ยืนยันว่าเป็นน้ำคร่ำ</b>: เริ่มไหลอย่างไร (ขณะทำอะไร), สี กลิ่น ปริมาณ เลือดปน, กลั้นได้ไหม, ไหลต่อเนื่องหรือหยุดแล้ว (น้ำคร่ำ = ใส ไหลต่อเนื่อง กลั้นไม่ได้ ไม่มีกลิ่นปัสสาวะ)","<b>หา triple I (intrauterine infection)</b>: ไข้, น้ำเหม็น / ตกขาวผิดปกติ, เจ็บ / กดเจ็บมดลูก, ปวดท้อง","เจ็บครรภ์ / ท้องแข็ง, เลือดออก / มูกเลือด, ลูกดิ้น (fetal compromise)","ประวัติครรภ์นี้: G_P_ GA (LMP / U/S), ฝากครรภ์ที่ไหน กี่ครั้ง เริ่ม GA เท่าไร, น้ำหนักที่เพิ่ม, ความผิดปกติ (GDM, HT, UTI, เลือดออก), เพศสัมพันธ์ก่อนน้ำไหล","Past hx (โรคประจำตัว ยา ผ่าตัด แพ้ยา) · Social (บุหรี่ สุรา STI) · Family · Gyn (marital, menstrual, contraceptive)"],
+       pearls:["เกณฑ์ไม่ได้: ซักแต่ข้อมูลทั่วไปโดยไม่ถามลักษณะน้ำ; ไม่มีอาการติดเชื้อ = บางส่วน","ไฟล์เฉลยเขียนตามใบเหลืองครบทุกหัวข้อ (ข้อมูลทั่วไป → CC → PI → past / social / family → OB → Gyn)"],
+       members:["MDCU77|RoB|MEQ 2#1"]}
+    ]},
     {title:"เลือดออกในครรภ์ระยะต้น", sections:[
       {id:"threatened-abortion", title:"Management threatened abortion",
        trend:"ถาม management ของ threatened abortion ในผู้ป่วยนอก",
