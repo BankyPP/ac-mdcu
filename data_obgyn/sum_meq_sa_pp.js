@@ -2,7 +2,7 @@ SUMM.push({
  "tag": "pp",
  "title": "Postpartum",
  "style": "sa",
- "intro": "<ul><li>ข้อสั้นของ Postpartum เป็นนิยาม / list สั้น ๆ 2–4 คะแนน: <b>lochia 3 ระยะ, นิยาม PPH (primary / secondary), puerperal morbidity, ท่าให้นมบุตร, กลไกหยุดเลือด, APGAR, LAM 3 เงื่อนไข, โรคติดเชื้อที่ห้ามให้นมแม่</b></li><li>ให้คะแนนตามจำนวนที่ตอบถูก: ครบ = เต็ม, ขาด 1–2 = บางส่วน — ท่องตัวเลข cut-off ให้ได้ (PPH 500 / 1,000 mL, ไข้ ≥ 38 °C × 2 วันใน 10 วัน, APGAR 7–10 / 4–6 / 0–3, LAM ทารก < 6 เดือน)</li><li>กับดัก: ตอบ HBV / CMV / mastitis ว่าห้ามให้นม · secondary PPH ต้องบอก 24 ชม. – 12 wk · APGAR ไม่ใช่เกณฑ์ตัดสินใจเริ่ม resuscitation</li></ul>",
+ "intro": "<ul><li>ข้อสั้นของ Postpartum เป็นนิยาม / list สั้น ๆ 2–4 คะแนน: <b>lochia 3 ระยะ, นิยาม PPH (primary / secondary), puerperal morbidity, ท่าให้นมบุตร, กลไกหยุดเลือด, APGAR, LAM 3 เงื่อนไข, โรคติดเชื้อที่ห้ามให้นมแม่</b></li><li>ให้คะแนนตามจำนวนที่ตอบถูก: ครบ = เต็ม, ขาด 1–2 = บางส่วน — ท่องตัวเลข cut-off ให้ได้ (PPH เกณฑ์เดิม 500 / 1,000 mL — ACOG PB 183 (2017) ใช้ ≥ 1,000 mL หรือ hypovolemia ภายใน 24 ชม., ไข้ ≥ 38 °C × 2 วันใน 10 วัน, APGAR 7–10 / 4–6 / 0–3, LAM ทารก < 6 เดือน)</li><li>กับดัก: ตอบ HBV / CMV / mastitis ว่าห้ามให้นม · secondary PPH ต้องบอก 24 ชม. – 12 wk · APGAR ไม่ใช่เกณฑ์ตัดสินใจเริ่ม resuscitation</li></ul>",
  "groups": [
   {
    "title": "Lactation & contraception หลังคลอด",
@@ -92,8 +92,8 @@ SUMM.push({
       "What are the diagnostic criteria for PPH? Include definitions of primary and secondary PPH."
      ],
      "pattern": [
-      "<b>เกณฑ์เดิม:</b> blood loss ≥ 500 mL หลัง vaginal delivery หรือ ≥ 1,000 mL หลัง cesarean",
-      "<b>ACOG 2017:</b> cumulative blood loss ≥ 1,000 mL <b>หรือ</b> blood loss ร่วมกับ signs / symptoms of hypovolemia ภายใน 24 ชม. ไม่ว่าคลอดวิธีใด",
+      "<b>เกณฑ์เดิม (ตำราเก่า / แหล่งอื่น):</b> blood loss ≥ 500 mL หลัง vaginal delivery หรือ ≥ 1,000 mL หลัง cesarean",
+      "<b>ACOG PB 183 (2017) — ใช้เป็นหลัก:</b> cumulative blood loss ≥ 1,000 mL <b>หรือ</b> blood loss ร่วมกับ signs / symptoms of hypovolemia ภายใน 24 ชม. ไม่ว่าคลอดวิธีใด",
       "<b>Primary PPH</b> = ภายใน 24 ชม.หลังคลอด · <b>Secondary PPH</b> = 24 ชม. – 12 สัปดาห์ (ตำราเก่าบางเล่ม 6 สัปดาห์ — ไฟล์แก้เป็น 12 สัปดาห์ตาม ACOG)",
       "สาเหตุ <b>4T:</b> Tone (atony พบบ่อยสุด), Trauma, Tissue, Thrombin",
       "Secondary PPH + น้ำคาวปลาเหม็น / แดงมากนาน → นึกถึง endometritis, retained products"
@@ -103,7 +103,7 @@ SUMM.push({
      ],
      "kw": [
       "≥ 500 mL (vaginal) / ≥ 1,000 mL (C/S)",
-      "ACOG 2017: ≥ 1,000 mL หรือ hypovolemia ภายใน 24 ชม.",
+      "ACOG PB 183 (2017): ≥ 1,000 mL หรือ hypovolemia ภายใน 24 ชม.",
       "primary < 24 ชม.",
       "secondary 24 ชม. – 12 wk",
       "4T"
@@ -196,7 +196,7 @@ SUMM.push({
       "Apgar 5 นาทีสัมพันธ์ outcome มากกว่า 1 นาที · Apgar ต่ำไม่ได้แปลว่า HIE เสมอ (ดู cord pH, base deficit, neuro signs)"
      ],
      "pearls": [
-      "ไฟล์เขียนว่า APGAR ใช้ตัดสินใจเริ่ม resuscitation — ตาม AAP / ACOG ไม่ควรรอ Apgar (NRP ดู breathing / tone / HR ทันที); Apgar ใช้ประเมินสภาพทารกและการตอบสนองต่อการช่วยฟื้นคืนชีพ",
+      "ไฟล์เขียนว่า APGAR ใช้ตัดสินใจเริ่ม resuscitation — ตาม ACOG CO 644 (2015) / AAP ไม่ควรรอ Apgar (NRP ดู breathing / tone / HR ทันที); Apgar ใช้ประเมินสภาพทารกและการตอบสนองต่อการช่วยฟื้นคืนชีพ",
       "ลำดับตัวอักษรในตารางไฟล์ต่างจาก A-P-G-A-R แต่ครบ 5 ตัว"
      ],
      "members": [

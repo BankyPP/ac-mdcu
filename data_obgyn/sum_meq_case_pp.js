@@ -22,9 +22,9 @@ SUMM.push({
      "pattern": [
       "<b>ป้องกัน PPH:</b> oxytocin 20 U ใน IV 1,000 mL · <b>ห้าม methylergonovine / ergot</b> (BP ขึ้น) — ถ้า atony ใช้ misoprostol / carboprost (carboprost ระวัง asthma) · MgSO4 ทำให้มดลูกคลายตัว เสี่ยง PPH เพิ่ม",
       "<b>MgSO4 ต่อ 24 ชม.หลังคลอด</b> (1–2 g/h) · monitor DTR, RR ≥ 12, UO ≥ 30 mL/h · antidote calcium gluconate",
-      "<b>วัด BP ต่อ ≥ 72 ชม.</b> (BP peak วันที่ 3–6 หลังคลอด) · ให้ยาลดความดันต่อถ้า ≥ 150/100 (nifedipine retard, labetalol, enalapril — ให้นมได้) · ระวัง postpartum eclampsia (ถึง 6 สัปดาห์), pulmonary edema, HELLP, AKI · เลี่ยง NSAIDs ถ้า AKI / platelet ต่ำ",
+      "<b>วัด BP ต่อ ≥ 72 ชม.</b> (BP peak วันที่ 3–6 หลังคลอด) · ให้ยาลดความดันต่อถ้า ≥ 150/100 (ACOG PB 222; nifedipine retard, labetalol, enalapril — ให้นมได้) · ระวัง postpartum eclampsia (ถึง 6 สัปดาห์), pulmonary edema, HELLP, AKI · เลี่ยง NSAIDs ถ้า AKI / platelet ต่ำ",
       "Routine postpartum care · คุมกำเนิด (LARC / progestin-only; เลี่ยง combined ถ้า BP ยังสูง) · นัด f/u 1–2 wk ถ้า BP ยังสูง consult อายุรแพทย์ · ให้นมได้",
-      "Counsel: เสี่ยงซ้ำ ~ 15–25%, ครรภ์หน้า aspirin 81–150 mg ตั้งแต่ก่อน 16 wk, เสี่ยง CVD / HT / ไตระยะยาว",
+      "Counsel: เสี่ยงซ้ำ ~ 15–25%, ครรภ์หน้า aspirin 81 mg ตั้งแต่ 12–28 wk (ดีสุดก่อน 16 wk) ต่อจนคลอด (ACOG PB 222), เสี่ยง CVD / HT / ไตระยะยาว",
       "<b>ถ้ามี abruption ร่วม:</b> เฝ้าระวัง PPH / DIC (Couvelaire uterus; MgSO4 ทำมดลูกคลาย) · เจาะ fibrinogen / coag ซ้ำ · เตรียมเลือด · ARM + คลอดทางช่องคลอดไม่ต้องเร่ง oxytocin เพราะ tachysystole อยู่แล้ว (ก่อนคลอด)"
      ],
      "kw": [
@@ -39,7 +39,7 @@ SUMM.push({
       "postpartum eclampsia / pulmonary edema / HELLP",
       "คุมกำเนิด progestin-only / LARC",
       "นัด f/u 1–2 wk",
-      "aspirin 81–150 mg ครรภ์หน้า"
+      "aspirin 81 mg ครรภ์หน้า 12–28 wk ต่อจนคลอด"
      ],
      "ddx": [
       "Postpartum eclampsia",
@@ -131,7 +131,7 @@ SUMM.push({
       "Peripartum cardiomyopathy"
      ],
      "pearls": [
-      "ไฟล์ให้ ampicillin 2 g IV bolus ป้องกัน IE ทุกราย — AHA / ACOG ไม่แนะนำ routine ใน vaginal delivery หรือ C/S ยกเว้นกลุ่มเสี่ยงสูงสุด (prosthetic valve, เคยเป็น IE, unrepaired cyanotic CHD, หัวใจปลูกถ่ายที่มี valvulopathy) — rheumatic MS ไม่เข้า (บางสถาบันให้ตามดุลยพินิจ)"
+      "ไฟล์ให้ ampicillin 2 g IV bolus ป้องกัน IE ทุกราย — ACOG PB 212 (2019) / AHA ไม่แนะนำ routine ใน vaginal delivery หรือ C/S ยกเว้นกลุ่มเสี่ยงสูงสุด (prosthetic valve, เคยเป็น IE, unrepaired cyanotic CHD, หัวใจปลูกถ่ายที่มี valvulopathy) — rheumatic MS ไม่เข้า (บางสถาบันให้ตามดุลยพินิจ)"
      ],
      "members": [
       "ไฟล์ดำ||ข้อ 9@p15#2"

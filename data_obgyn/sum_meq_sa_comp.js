@@ -336,7 +336,7 @@ SUMM.push({
       "What is the β-hCG discriminatory zone for TAS and TVS?"
      ],
      "pattern": [
-      "<b>TAS 6,500 mIU/mL · TVS 1,500 mIU/mL</b> (บางแหล่ง 1,500–2,000)",
+      "<b>TAS 6,500 mIU/mL · TVS 1,500 mIU/mL</b> (บางแหล่ง 1,500–2,000) · ACOG (Tubal Ectopic Pregnancy, 2018) ไม่กำหนดค่าเดียว — ถ้าใช้ต้องเป็นค่าอนุรักษ์ สูงได้ถึง 3,500 และห้ามวินิจฉัย ectopic จาก hCG อย่างเดียว (Williams 26th ตรวจไม่ได้)",
       "เหนือ discriminatory zone แต่ไม่เห็น IUP → สงสัย ectopic (หรือ failed IUP) มาก · ACOG 2018 ใช้ค่า TVS สูงถึง 3,500 เพื่อไม่ treat เกินในครรภ์ปกติ / แฝด",
       "ต่ำกว่า zone และ stable → ติดตาม β-hCG ซ้ำใน 48 ชม."
      ],
@@ -345,7 +345,7 @@ SUMM.push({
      ],
      "kw": [
       "TAS 6,500 mIU/mL",
-      "TVS 1,500 mIU/mL"
+      "TVS 1,500 mIU/mL (ACOG: ถึง 3,500 ก็รับ)"
      ]
     },
     {
@@ -412,7 +412,7 @@ SUMM.push({
       "<b>4)</b> Parental karyotype (เลือดทั้งคู่)",
       "<b>5)</b> Serum prolactin",
       "นอกเลือด: ประเมินโพรงมดลูก (3-D U/S / SIS / HSG / hysteroscopy) · counseling + emotional support",
-      "RPL = สูญเสีย ≥ 2 ครั้ง (ESHRE / ASRM) หรือ ≥ 3 ครั้ง (RCOG / ตำราเดิม) · สาเหตุ: APS (รักษา: aspirin + heparin), uterine anomaly, parental translocation, endocrine, ไม่ทราบ ~ 50%"
+      "RPL: เริ่มประเมินสาเหตุหลังสูญเสียต่อเนื่องครั้งที่ 2 (ACOG PB 200, 2018; ESHRE / ASRM ≥ 2, RCOG เดิม ≥ 3) · สาเหตุ: APS (รักษา: aspirin + heparin; ACOG PB 200 ระบุ APS เป็นภาวะเดียวที่สัมพันธ์ชัดเจน — รายการ lab อื่นมาจากสไลด์ / ASRM), uterine anomaly, parental translocation, endocrine, ไม่ทราบ ~ 50%"
      ],
      "pearls": [
       "โจทย์จด ‘5 components of blood’ ไม่ชัด — Claude ตีความเป็น 5 blood tests ตามเฉลย"

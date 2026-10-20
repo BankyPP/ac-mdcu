@@ -17,7 +17,7 @@ SUMM.push({
       "เคสผู้ป่วยกิน tamoxifen มาด้วยเลือดออก → ถาม 3 สาเหตุ"
      ],
      "pattern": [
-      "<b>PMB</b> = เลือดออกทางช่องคลอดหลังหมดประจำเดือนครบ ≥ 12 เดือน → ต้อง exclude endometrial cancer ทุกราย (พบ ~5–10%)",
+      "<b>PMB</b> = เลือดออกทางช่องคลอดหลังหมดประจำเดือนครบ ≥ 12 เดือน → ต้อง exclude endometrial cancer ทุกราย (พบ ~5–10%) · ประเมินเริ่มต้นด้วย TVS ร่วมกับ endometrial sampling (ACOG Clinical Practice Update เม.ย. 2026 (Obstet Gynecol 2026;148(1)) ปรับปรุง CO 734 (2018); สรุปจากแหล่งรอง) — ข้าม sampling ได้เฉพาะเมื่อเลือดออกครั้งเดียว + ET ≤ 4 mm เห็นชัดทั้งหมด + ไม่มีปัจจัยเสี่ยงเด่น + มีนัดติดตาม",
       "<b>5 ข้อที่ตอบ</b>: (1) endometrial / vaginal atrophy (พบบ่อยสุด ~60–80%) (2) endometrial polyp (3) endometrial hyperplasia (4) endometrial carcinoma (5) exogenous estrogen / HRT / tamoxifen",
       "สำรอง: cervical polyp / cervical cancer, submucous myoma, estrogen-secreting ovarian tumor (granulosa), coagulopathy / anticoagulant, trauma, uterine sarcoma, endometritis / pyometra",
       "ถ้าโจทย์ระบุ 'จากโพรงมดลูก' → ตอบเฉพาะ atrophy ของ endometrium, polyp, hyperplasia, cancer, exogenous estrogen / tamoxifen, submucous myoma, sarcoma",
