@@ -152,7 +152,7 @@ const MQ_ROUNDS=[
   {k:"unit",n:"Unit round",d:"ทำ MEQ ตามหัวข้อ เลือกได้หลายหัวข้อ — เปิดเฉพาะ Part ที่ตรงหัวข้อ"},
   {k:"quality",n:"Quality round",d:"",soon:1,note:"จับเวลาแบบใหม่สำหรับ MEQ — รอรายละเอียด"},
   {k:"admission",n:"Admission round",d:"",soon:1,note:"AI ออกโจทย์ให้ตอบแบบ short answer / short essay — กำลังทำ"},
-  {k:"specialty",n:"Specialty round",d:"",soon:1,note:"รายละเอียดจะเพิ่มภายหลัง"},
+  {k:"specialty",n:"Specialty round",d:"เปิด Specialty round ของ MCQ — โจทย์ใหม่ที่ AI สร้างทีละข้อจากไฟล์ของวอร์ดนี้เท่านั้น เลือกเรื่อง / R / N ได้ (ใช้ร่วมกับ MCQ)"},
   {k:"io",n:"Round I/O",d:"อ่านสรุปเนื้อหาจาก Lecture (L) · Resource (R) · โน้ตวอร์ด (N) และรวมตามเรื่อง ที่ Claude สรุปให้ · ใช้ร่วมกับ MCQ / OSCE"},
   {k:"longcase",n:"Long case",d:"AI ให้ chief complaint มา แล้วดำเนินเคสเองทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ (ใช้ร่วมกับ MCQ / OSCE)"}
 ];
@@ -211,7 +211,7 @@ function mqHomeHTML(type){type=type||"MEQ";const P=P_(),p=ph(),L=mqL(ward,type),
   return h;}
 function mqBindHome(type){type=type||"MEQ";
   document.querySelectorAll("[data-mqround]").forEach(b=>b.onclick=()=>{const k=b.dataset.mqround,R=mqRounds(type).find(r=>r.k===k);if(R.soon){toast(R.note||"โหมดนี้จะเพิ่มภายหลัง");return;}
-    if(k==="io")return go(ward+"/io");if(k==="teach")return go(ward+"/teach");if(k==="longcase")return go(ward+"/lcase");if(k==="legend"&&type==="OSCE")return go(ward+"/osl");if(k==="quality"&&type==="OSCE")return go(ward+"/osq");if(!mqL().length){toast(`ยังไม่มีข้อสอบ ${type} ในคลัง`);return;}if(k==="grand")return mqGrandNext(true);
+    if(k==="io")return go(ward+"/io");if(k==="teach")return go(ward+"/teach");if(k==="longcase")return go(ward+"/lcase");if(k==="specialty")return go(ward+"/spc");if(k==="legend"&&type==="OSCE")return go(ward+"/osl");if(k==="quality"&&type==="OSCE")return go(ward+"/osq");if(!mqL().length){toast(`ยังไม่มีข้อสอบ ${type} ในคลัง`);return;}if(k==="grand")return mqGrandNext(true);
     mqVset({r:k,status:k==="service"||k==="unit"?mqS().v.status:"all"});save();go(ward+"/mqr");});
   document.querySelectorAll("[data-mqp2]").forEach(b=>b.onclick=()=>{mqVset({r:"service",set:"all",style:"all",status:b.dataset.mqp2});save();go(ward+"/mqr");});
   const rs=$("mqResume");if(rs)rs.onclick=()=>go(ward+"/mq");

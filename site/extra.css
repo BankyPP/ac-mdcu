@@ -883,3 +883,15 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 .ctalist .ctarow.drag{position:relative;z-index:2;box-shadow:0 3px 12px rgba(0,0,0,.18)}
 .ctalist .ctarow.drag .tgrip{cursor:grabbing;color:var(--form);border-color:var(--form)}
 .ctalist .ctarow.drag .iorow{background:color-mix(in srgb,var(--form) 9%,var(--sheet))}
+/* Specialty round */
+.spcquick{margin:4px 0 10px}
+.spcquick .tool[aria-pressed="true"]{border-color:var(--form);background:var(--form-soft)}
+.spcsw{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:2px 0 10px;font-size:14.5px}
+.spctabs{margin-top:6px}
+.spcpages{margin:-2px 0 8px 12px}
+.spcpages .chip{font-size:13px}
+.spcrun{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.spcsrc{border:1px solid var(--rule);border-left:4px solid var(--form);background:var(--sheet);border-radius:10px;padding:10px 12px;margin:10px 0}
+.spcsrc .spch{font-size:14px;margin-bottom:6px}
+.spcsrc .spcq{background:var(--paper);border-radius:8px;padding:8px 10px;font-size:14.5px;line-height:1.6;white-space:pre-wrap;margin-bottom:6px}
+.spcsrc .spcwarn{background:var(--warn-soft);color:var(--warn);border-radius:8px;padding:6px 10px;font-size:14px;margin-bottom:6px}
