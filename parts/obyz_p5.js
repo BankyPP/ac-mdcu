@@ -274,7 +274,7 @@ Y({orig:"11.3", tp:"Infections in pregnancy", tg:["Infection in pregnancy","Labo
   variants:["หญิง HIV ได้ ART 30 สัปดาห์ VL 5,000 copies/mL ที่ 36 สัปดาห์ — การคลอด? (ผ่าตัดคลอดที่ 38 สัปดาห์ + IV zidovudine)","หญิง HIV VL 200 copies/mL ที่ 36 สัปดาห์ ไม่มีข้อบ่งชี้ผ่าตัด — การจัดการ? (คลอดช่องคลอดได้ พิจารณา IV/oral AZT ตามแนวทาง)","หญิง HIV CD4 150 ต้องให้ยาป้องกันโรคฉวยโอกาสอะไร? (cotrimoxazole ป้องกัน PCP)"]}),
 Y({orig:"11.4", tp:"Infections in pregnancy", tg:["Infection in pregnancy"],
   stem:"When to start antiretroviral regimen in patients with anti-HIV positive?",
-  opts:["When CD4+ &lt; 300/mL","When CD4+ &lt; 200/mL","When CD4+ &lt; 100/mL","When CD4+ &lt; 50/mL","Immediately regardless to CD4+ count"], ans:4,
+  opts:["When CD4+ < 300/mL","When CD4+ < 200/mL","When CD4+ < 100/mL","When CD4+ < 50/mL","Immediately regardless to CD4+ count"], ans:4,
   key:"ver.1: E Immediately regardless to CD4+ count (ไฮไลต์เขียว + วงฟ้า) · ver.2: E Immediately regardless to CD4+ count (วงเหลือง + ขีดทับ; จด ทันที ไม่รอ CD4)",
   interp:"ถามเกณฑ์เวลาเริ่มยาต้านไวรัส (ART) ในผู้ที่ตรวจ anti-HIV บวก (ในบริบทบทนี้ = หญิงตั้งครรภ์) — ช้อยเป็นเกณฑ์ CD4 หลายระดับเทียบกับ 'เริ่มทันทีไม่ว่า CD4'",
   why:"ปัจจุบันแนวทางไทย (2017/2020), WHO 2015–2021 และ DHHS แนะนำ <b>Treat All: เริ่ม ART ทันทีในผู้ติดเชื้อ HIV ทุกราย ไม่ขึ้นกับระดับ CD4 หรือระยะโรค</b> โดยเฉพาะ <b>หญิงตั้งครรภ์ ให้เริ่มทันทีที่วินิจฉัย</b> (แม้ในไตรมาสแรก) เพราะ (1) ลดการถ่ายทอดสู่ทารกให้ &lt;1–2% — ต้องคุม VL ให้ต่ำก่อนคลอดให้นานที่สุด (2) ลดการเสียชีวิต/โรคฉวยโอกาสจาก START/TEMPRANO trials (3) ลดการแพร่เชื้อทางเพศสัมพันธ์ (ver.2: 'ทันที ไม่รอ CD4'). เกณฑ์ CD4 ในช้อย A–D เป็นแนวทางยุคเก่า: &lt;200 (WHO 2002–2009), ≤350 (2010), ≤500 (2013) แล้วจึงเป็น treat-all (2015)",

@@ -71,7 +71,7 @@ Y({orig:"15.5", tp:"Postterm & induction of labor", tg:["Induction of labor","La
   variants:["หลัง ARM ไป 2 ชั่วโมง น้ำคร่ำใส ปากมดลูกเปิดคงที่ 4 ซม. contraction ทุก 4 นาที นาน 30 วินาที — ขั้นต่อไป? (เริ่ม oxytocin augmentation)","ARM แล้วพบ thick meconium-stained fluid, FHR 140 ปกติ — จัดการอย่างไร? (EFM ต่อเนื่อง เตรียมทีมช่วยทารกแรกเกิด ไม่ใช่ C/S ทันที)","G1P0 GA 41 สัปดาห์ ยังไม่เจ็บครรภ์ Bishop score 3 — ขั้นแรก? (cervical ripening ด้วย prostaglandin หรือ Foley balloon)"]}),
 Y({orig:"15.6", tp:"Postterm & induction of labor", tg:["Induction of labor","Fetal surveillance"],
   stem:"What is the risk of thick meconium staining in post-term pregnancy of 30-year-old woman?",
-  opts:["&lt;1%","5-10%","25-30%","50%","60%"], ans:2,
+  opts:["<1%","5-10%","25-30%","50%","60%"], ans:2,
   key:"ver.1: C 25-30% (ไฮไลต์ + วงกลมฟ้า + ขีดเส้นใต้) · ver.2: C 25-30% (วงกลมเหลือง)",
   flag:"⚠ ตัวเลข 25–30% ในตำราคืออุบัติการณ์ meconium-stained amniotic fluid ทุกความข้นในครรภ์เกินกำหนด ไม่ใช่เฉพาะ ‘thick’ — โจทย์ใช้คำว่า thick แต่ช้อยที่ใกล้ที่สุดและทั้งสองเวอร์ชันเลือกคือ C",
   interp:"ถามความเสี่ยง (อุบัติการณ์) ของ meconium ในน้ำคร่ำในครรภ์เกินกำหนด (postterm) — ข้อสอบจำตัวเลข ไม่มีรายละเอียดทางคลินิกอื่น",
