@@ -19,6 +19,30 @@
   },
   "wards": [
     {
+      "id": "sx",
+      "name": "Surgery",
+      "short": "Sx",
+      "year": "Y4",
+      "sub": "SI",
+      "brand": "Past Sx Y4 MCQ",
+      "dir": "data_sx",
+      "scope": "Surgery",
+      "dates": [],
+      "meqTopics": []
+    },
+    {
+      "id": "ped",
+      "name": "Pediatrics",
+      "short": "Ped",
+      "year": "Y4",
+      "sub": "SI",
+      "brand": "Past Ped Y4 MCQ",
+      "dir": "data_ped",
+      "scope": "Pediatrics",
+      "dates": [],
+      "meqTopics": []
+    },
+    {
       "id": "prevmed",
       "name": "Preventive Medicine",
       "short": "Prevent Med",
@@ -93,30 +117,6 @@
           "min": 5
         }
       }
-    },
-    {
-      "id": "sx",
-      "name": "Surgery",
-      "short": "Sx",
-      "year": "Y4",
-      "sub": "SI",
-      "brand": "Past Sx Y4 MCQ",
-      "dir": "data_sx",
-      "scope": "Surgery",
-      "dates": [],
-      "meqTopics": []
-    },
-    {
-      "id": "ped",
-      "name": "Pediatrics",
-      "short": "Ped",
-      "year": "Y4",
-      "sub": "SI",
-      "brand": "Past Ped Y4 MCQ",
-      "dir": "data_ped",
-      "scope": "Pediatrics",
-      "dates": [],
-      "meqTopics": []
     }
   ],
   "firebase": {
@@ -140,20 +140,6 @@
   "artifactUrl": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx",
   "subjects": [
     {
-      "id": "prevmed",
-      "name": "Preventive Medicine",
-      "wards": [
-        "prevmed"
-      ]
-    },
-    {
-      "id": "medicine",
-      "name": "Medicine",
-      "wards": [
-        "med"
-      ]
-    },
-    {
       "id": "surgery",
       "name": "Surgery",
       "wards": [
@@ -165,6 +151,20 @@
       "name": "Pediatrics",
       "wards": [
         "ped"
+      ]
+    },
+    {
+      "id": "prevmed",
+      "name": "Preventive Medicine",
+      "wards": [
+        "prevmed"
+      ]
+    },
+    {
+      "id": "medicine",
+      "name": "Medicine",
+      "wards": [
+        "med"
       ]
     }
   ],
