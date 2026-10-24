@@ -38,14 +38,17 @@ function rTeach(){
 /* ---------- History taking / PE / CTA pages ---------- */
 function tSeg(){return (location.hash||"").replace(/^#\/?/,"").split("/").slice(2).map(x=>{try{return decodeURIComponent(x);}catch(e){return x;}});}
 function rTch(){const a=tSeg(),tool=TK[a[0]]?a[0]:"hx";if(TV.prac&&TV.prac.tool!==tool)TV.prac=null;
+  let cp=null;
+  if(tool==="cta"){const O0=tchGet("cta");if(!a[1])return tCtaList(O0);cp=O0.procs.find(p=>p.id===a[1]);if(!cp){go(ward+"/tch/cta");return;}TV.ctaP=cp.id;}
   const tabs=tool==="cta"?[["full","เนื้อหา"],["key","Keyword"],["mine","Wording ของฉัน"],["prac","ฝึก"]]:[["full","ฉบับเต็ม"],["key","Key concept"],["prac","ฝึก"]];
   const tab=TV.tab[tool]&&tabs.some(t=>t[0]===TV.tab[tool])?TV.tab[tool]:"full";
-  let h=`<div class="tchv"><div class="whead"><h1 class="h2">${TK[tool].ico} ${TK[tool].n}</h1><a href="#/${esc(ward)}/teach">Teaching round</a></div>`;
+  let h=cp?`<div class="tchv"><a class="ioback" href="#/${esc(ward)}/tch/cta">← CTA</a><div class="whead"><h1 class="h2">${TK.cta.ico} ${esc(cp.name)}</h1></div>`
+    :`<div class="tchv"><div class="whead"><h1 class="h2">${TK[tool].ico} ${TK[tool].n}</h1><a href="#/${esc(ward)}/teach">Teaching round</a></div>`;
   h+=`<div class="tabs ttabs" role="tablist">${tabs.map(([k,n])=>`<button class="tab" role="tab" aria-selected="${k===tab}" data-ttab="${k}">${n}</button>`).join("")}</div><div id="tBody"></div></div>`;
   $("main").innerHTML=h;
   document.querySelectorAll("[data-ttab]").forEach(b=>b.onclick=()=>{TV.tab[tool]=b.dataset.ttab;rTch();});
   const O=tchGet(tool);
-  if(tool==="cta")return tCta(O,tab);
+  if(tool==="cta")return tCta(O,tab,O.procs.find(p=>p.id===cp.id));
   if(tab==="prac")return tPrac(tool,O.rows);
   tTable(tool,O,tab);}
 /* drag ☰ up or down to move a row (mouse, finger or pen); the new order is saved when the row is let go */
@@ -150,28 +153,37 @@ function tLogHTML(tool){const L_=bankItems("tlog",ward).filter(x=>x.tool===tool)
   return `<h2 class="h2" style="font-size:17px;margin-top:18px">ผลฝึกล่าสุด</h2><div class="card" style="padding:6px">${L_.map(x=>`<div class="srow" style="cursor:default"><span class="meta" style="flex:1">${fmtDT(x.t||x.c)} · ${x.mode==="full"?"ทั้งหมด":esc((x.rows[0]||{}).h||"")}${x.proc?" · "+esc(x.proc):""}</span><b>${x.pct==null?"–":x.pct+"%"}</b></div>`).join("")}</div>`;}
 function tLogBind(){}
 
-/* ---------- CTA: several procedures, each a one-column table ---------- */
-function tCta(O,tab){const PR=O.procs;let cur=PR.find(p=>p.id===TV.ctaP)||PR[0];
-  let h=`<div class="chips scroll">${PR.map(p=>`<button class="chip" type="button" data-cp="${esc(p.id)}" aria-pressed="${cur&&p.id===cur.id}">${esc(p.name)}</button>`).join("")}<button class="chip" type="button" id="cpAdd">+ เพิ่มหัตถการ</button></div>`;
-  if(!cur){h+=`<div class="empty">ยังไม่มีหัตถการ — กด “📄 ใส่ไฟล์ CTA” ให้เว็บเติมเนื้อหาตามไฟล์ทุกคำ หรือ “+ เพิ่มหัตถการ” แล้วพิมพ์เอง<div class="stack" style="margin-top:10px"><button class="btn primary" id="tcImp" type="button">📄 ใส่ไฟล์ CTA</button></div></div>`;$("tBody").innerHTML=h;tCtaBind(O,null);$("tcImp").onclick=()=>tCtaImport(O,null);return;}
-  if(tab==="prac"){TV.ctaP=cur.id;h+=`<div id="tPrac"></div>`;$("tBody").innerHTML=h;tCtaBind(O,cur);
+/* ---------- CTA: list page (drag ☰ to reorder · tap to open) + one page per procedure ---------- */
+const tCtaHref=id=>"#/"+ward+"/tch/cta"+(id?"/"+encodeURIComponent(id):"");
+const tTxt=h=>String(h||"").replace(/<[^>]+>/g,"").replace(/&nbsp;/g," ").trim();
+function tCtaList(O){const PR=O.procs;TV.prac=null;
+  let h=`<div class="tchv"><div class="whead"><h1 class="h2">${TK.cta.ico} CTA</h1><a href="#/${esc(ward)}/teach">Teaching round</a></div>
+    <p class="sub" style="margin:0 0 12px">ทุกหัตถการของบัญชีนี้ ใช้ร่วมกันทุกวอร์ด · แตะเพื่อเปิด · ☰ กดค้างแล้วลากขึ้น-ลงเพื่อจัดลำดับ (บันทึกเอง)</p>`;
+  h+=PR.length?`<div class="ctalist">${PR.map((p,i)=>{const R=p.rows||[],n=R.filter(r=>tTxt(r.c)).length,nk=R.filter(r=>tKws(r.k).length).length;
+      return `<div class="trow ctarow" data-i="${i}"><span class="tgrip" data-grip title="กดค้างแล้วลากขึ้น-ลงเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰</span><a class="iorow" href="${tCtaHref(p.id)}"><span class="iocode">${i+1}</span><span class="iot"><b>${esc(p.name)}</b><span class="rd">${n} ช่อง · keyword ${nk}/${R.length}${p.src?` · ${esc(p.src)}`:""}</span></span><span class="go">→</span></a></div>`;}).join("")}</div>`
+    :`<div class="empty">ยังไม่มีหัตถการ — กด “📄 ใส่ไฟล์ CTA” ให้เว็บเติมเนื้อหาตามไฟล์ทุกคำ หรือ “+ เพิ่มหัตถการ” แล้วพิมพ์เอง</div>`;
+  h+=`<div class="stack" style="margin-top:12px"><button class="btn primary" id="tcImp" type="button">📄 ใส่ไฟล์ CTA</button><button class="btn" id="cpAdd" type="button">+ เพิ่มหัตถการ</button></div></div>`;
+  $("main").innerHTML=h;tCtaBind(O,null);$("tcImp").onclick=()=>tCtaImport(O,null);
+  tDrag(document.querySelector(".ctalist"),ord=>{const c=O.procs.slice();O.procs=ord.map(i=>c[i]);tchPut("cta",O);tCtaList(O);});}
+function tCta(O,tab,cur){let h="";
+  if(tab==="prac"){TV.ctaP=cur.id;h+=`<div id="tPrac"></div>`;$("tBody").innerHTML=h;
     if(TV.prac&&(TV.prac.tool!=="cta"||TV.prac.proc!==cur.id))TV.prac=null;
     if(TV.prac&&!TV.prac.res)return tPracRun("cta");if(TV.prac&&TV.prac.res)return tPracRes("cta");
     return tPracCta(cur,cur.rows.map((r,i)=>({id:r.id,h:"ช่องที่ "+(i+1),c:r.c,k:r.k})));}
-  h+=`<div class="row2" style="margin:8px 0"><b style="font-size:17px">${esc(cur.name)}</b><span class="spacer"></span>${tab==="full"?`<button class="link" id="tcImp" type="button">📄 ใส่ไฟล์</button>`:""}${tab==="full"&&HAS_CLAUDE()&&CFG.siteUrl?`<button class="link" id="tcWeb" type="button">🌐 ส่ง CTA ไปเว็บ</button>`:""}<button class="link" id="cpRen" type="button">เปลี่ยนชื่อ</button><button class="link" id="cpDel" type="button">ลบหัตถการ</button></div>`;
+  h+=`<div class="row2" style="margin:8px 0"><span class="spacer"></span>${tab==="full"?`<button class="link" id="tcImp" type="button">📄 ใส่ไฟล์</button>`:""}${tab==="full"&&HAS_CLAUDE()&&CFG.siteUrl?`<button class="link" id="tcWeb" type="button">🌐 ส่ง CTA ไปเว็บ</button>`:""}<button class="link" id="cpRen" type="button">เปลี่ยนชื่อ</button><button class="link" id="cpDel" type="button">ลบหัตถการ</button></div>`;
   h+=tab==="full"?`<p class="hint">${cur.src?`จากไฟล์ ${esc(cur.src)} · `:""}เนื้อหาตามไฟล์ทุกคำ (ลายมือในไฟล์ = <span class="hw">สีน้ำเงิน</span>) · แตะช่องเพื่อแก้ · บันทึกเอง · ☰ ลากขึ้น-ลงเพื่อย้าย · × ลบช่อง</p>`:tab==="key"?`<p class="hint">Keyword ที่ต้องมี “เป๊ะ ๆ” จึงได้คะแนน — 1 คำต่อบรรทัด (หรือคั่นด้วย , ) · คำในวงเล็บ = ใช้แทนคำข้างหน้าได้ เช่น <b>ล้างมือ (hand hygiene)</b></p>`:`<p class="hint">เขียนสิ่งที่ตัวเองจะพูดจริง — จะโชว์ให้ทวนตอนเฉลยในแท็บฝึก</p>`;
   h+=`<div class="ttable cta ${tab}">${cur.rows.map((r,i)=>`<div class="trow" data-i="${i}">${tab==="full"?`<div class="tc" contenteditable="true" data-f="c">${tSan(r.c)}</div><div class="tact"><span class="tgrip" data-grip title="กดค้างแล้วลากขึ้น-ลงเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰</span><button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้" aria-label="ลบช่องนี้">×</button></div>`
       :`<div class="tc ro">${tSan(r.c)}</div><div class="tk" contenteditable="true" data-f="${tab==="key"?"k":"w"}" data-ph="${tab==="key"?"keyword…":"wording ของฉัน…"}">${tSan(tab==="key"?r.k:r.w)}</div>`}</div>`).join("")}</div>`;
   if(tab==="full")h+=`<div class="stack" style="margin-top:10px"><button class="btn" id="tAdd" type="button">+ เพิ่มช่อง</button></div><div id="tcNote" class="rd" style="margin-top:8px"></div><div id="tcOrig" class="tcorig" hidden></div>`;
-  $("tBody").innerHTML=h;tCtaBind(O,cur);if(tab==="full"){tDrag(document.querySelector("#tBody .ttable"),ord=>{const c=cur.rows.slice();cur.rows=ord.map(i=>c[i]);tchPut("cta",O);rTch();});$("tcImp").onclick=()=>tCtaImport(O,cur);tCtaOrig(cur.id);const w=$("tcWeb");if(w)w.onclick=()=>{tchPut("cta",O);sendWeb(["tch|all|cta"],"tcNote");};}
+  $("tBody").innerHTML=h;if(tab==="full"){tDrag(document.querySelector("#tBody .ttable"),ord=>{const c=cur.rows.slice();cur.rows=ord.map(i=>c[i]);tchPut("cta",O);rTch();});$("tcImp").onclick=()=>tCtaImport(O,cur);tCtaOrig(cur.id);const w=$("tcWeb");if(w)w.onclick=()=>{tchPut("cta",O);sendWeb(["tch|all|cta"],"tcNote");};}
   document.querySelectorAll("#tBody [contenteditable][data-f]").forEach(el=>el.addEventListener("input",()=>{const i=+el.closest(".trow").dataset.i;cur.rows[i][el.dataset.f]=tSan(el.innerHTML);tSaveLater("cta",O);}));
   document.querySelectorAll("[data-del]").forEach(b=>b.onclick=async()=>{if(!await uiAsk("ลบช่องนี้?"))return;cur.rows.splice(+b.dataset.del,1);tchPut("cta",O);rTch();});
   {const b=$("tAdd");if(b)b.onclick=()=>{cur.rows.push({id:tId(),c:"",k:"",w:""});tchPut("cta",O);rTch();};}
   {const b=$("cpRen");if(b)b.onclick=async()=>{const n=await uiInput("ชื่อหัตถการ",cur.name);if(n&&n.trim()){cur.name=n.trim();tchPut("cta",O);rTch();}};}
-  {const b=$("cpDel");if(b)b.onclick=async()=>{if(!await uiAsk(`ลบหัตถการ “${cur.name}” ทั้งหมด?`))return;O.procs=PR.filter(p=>p!==cur);tFileDel(cur.id);TV.ctaP="";tchPut("cta",O);rTch();};}}
+  {const b=$("cpDel");if(b)b.onclick=async()=>{if(!await uiAsk(`ลบหัตถการ “${cur.name}” ทั้งหมด?`))return;O.procs=O.procs.filter(p=>p!==cur);tFileDel(cur.id);TV.ctaP="";TV.prac=null;tchPut("cta",O);go(ward+"/tch/cta");};}}
 function tCtaLabel(r){const t=String(r.c||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();return t.length>70?t.slice(0,70)+"…":t||"(ช่องว่าง)";}
-function tCtaBind(O,cur){document.querySelectorAll("[data-cp]").forEach(b=>b.onclick=()=>{TV.ctaP=b.dataset.cp;TV.prac=null;rTch();});
-  $("cpAdd").onclick=async()=>{const n=await uiInput("ชื่อหัตถการ (เช่น NG tube insertion)");if(!n||!n.trim())return;const p={id:tId(),name:n.trim(),rows:[{id:tId(),c:"",k:"",w:""}]};O.procs.push(p);TV.ctaP=p.id;tchPut("cta",O);rTch();};}
+function tCtaBind(O){const b=$("cpAdd");if(!b)return;
+  b.onclick=async()=>{const n=await uiInput("ชื่อหัตถการ (เช่น NG tube insertion)");if(!n||!n.trim())return;const p={id:tId(),name:n.trim(),rows:[{id:tId(),c:"",k:"",w:""}]};O.procs.push(p);TV.ctaP=p.id;TV.tab.cta="full";tchPut("cta",O);go(ward+"/tch/cta/"+encodeURIComponent(p.id));};}
 function tPracCta(cur,R){const box=tT();
   const nk=R.filter(r=>tKws(r.k).length).length;
   box.innerHTML=(`<div class="card"><h3>ฝึก ${esc(cur.name)}</h3><span class="rd">พิมพ์ตอบทุกช่อง (หรือสุ่ม 1 ช่อง) แล้วตรวจว่ามี keyword ครบเป๊ะ ๆ ตาม tab Keyword ไหม — ไม่ใช้ AI · มี keyword แล้ว ${nk}/${R.length} ช่อง</span>
@@ -387,7 +399,7 @@ function tCtaImport(O,cur){const ai=tAI(),dlg=document.createElement("div");dlg.
       if(w==="new"){const n=($("tcName").value||"").trim()||nm||"หัตถการใหม่";p={id:tId(),name:n,rows:R,src:fs.map(f=>f.name).join(", ")};O.procs.push(p);}
       else{p=cur;if(w==="rep"){if(!await uiAsk(`แทนที่เนื้อหาทั้งหมดของ “${cur.name}”?`))return;p.rows=R;}else p.rows=p.rows.filter(r=>String(r.c||"").replace(/<[^>]+>/g,"").trim()||r.k||r.w).concat(R);p.src=fs.map(f=>f.name).join(", ");}
       if(res.pages.length){const old=w==="app"?((await tFileGet(p.id))||[]):[];await tFileSave(p.id,old.concat(res.pages));}
-      TV.ctaP=p.id;TV.tab.cta="full";tchPut("cta",O);close();rTch();toast("ใส่เนื้อหาแล้ว — ตรวจทานกับไฟล์ต้นฉบับได้ที่ “ดูไฟล์ต้นฉบับ”");};};}
+      TV.ctaP=p.id;TV.tab.cta="full";TV.prac=null;tchPut("cta",O);close();go(ward+"/tch/cta/"+encodeURIComponent(p.id));toast("ใส่เนื้อหาแล้ว — ตรวจทานกับไฟล์ต้นฉบับได้ที่ “ดูไฟล์ต้นฉบับ”");};};}
 /* original pages (this browser only) under the content table */
 async function tCtaOrig(pid){const box=$("tcOrig");if(!box)return;const P=await tFileGet(pid);if(!P||!P.length){box.hidden=true;return;}
   box.hidden=false;box.innerHTML=`<details><summary>📄 ดูไฟล์ต้นฉบับ (${P.length} หน้า · เก็บในเครื่องนี้)</summary><div class="tcpages">${P.map((b,i)=>`<img alt="หน้า ${i+1}" data-pi="${i}">`).join("")}</div><button class="link" id="tcODel" type="button">ลบไฟล์ต้นฉบับจากเครื่องนี้</button></details>`;
