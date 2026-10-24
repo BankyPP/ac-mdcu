@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "Breast",
  "title": "Breast",
- "intro": "<ul><li>ข้อสอบ Breast ออกทุก rotation: แกนหลักคือ <b>มะเร็งเต้านมระยะผ่าตัดได้</b> (เลือก BCS หรือ mastectomy, SLNB หรือ ALND, ข้อห้าม BCT, ฉายแสงหลังผ่าตัด) ซึ่งออกซ้ำเกือบทุกปี</li><li>ลำดับถัดมา: <b>lymphedema หลังผ่าตัดรักแร้</b> (มักให้รูปแขนบวม), ก้อนเต้านมชนิด benign + imaging ตามอายุ, <b>nipple discharge</b> (pathologic vs galactorrhea), mastitis กับ abscess</li><li>มะเร็งระยะลุกลามเฉพาะที่ (T4, N2, ก้อนกินทั้งเต้า, HER2+) ถามว่า <b>ให้ neoadjuvant systemic therapy ก่อนผ่าตัด</b> และ biopsy ต่อมน้ำเหลืองก่อนรักษา</li><li>กลุ่มเล็กแต่ออกซ้ำ: drain หลัง mastectomy (closed suction), ประสาท thoracodorsal ใน ALND, BRCA / Li-Fraumeni และระดับของ prevention, PMRT, reconstruction</li></ul>",
+ "intro": "<ul><li>ข้อสอบ Breast ออกทุก rotation: แกนหลักคือ <b>มะเร็งเต้านมระยะผ่าตัดได้</b> (เลือก BCS หรือ mastectomy, SLNB หรือ ALND, ข้อห้าม BCT, ฉายแสงหลังผ่าตัด) ซึ่งออกซ้ำเกือบทุกปี</li><li>ลำดับถัดมา: <b>lymphedema หลังผ่าตัดรักแร้</b> (มักให้รูปแขนบวม), ก้อนเต้านมชนิด benign + imaging ตามอายุ, <b>nipple discharge</b> (pathologic vs galactorrhea), mastitis กับ abscess</li><li>มะเร็งระยะลุกลามเฉพาะที่ (T4, N2, ก้อนกินทั้งเต้า, HER2+) ถามว่า <b>ให้ neoadjuvant systemic therapy ก่อนผ่าตัด</b> และ biopsy ต่อมน้ำเหลืองก่อนรักษา</li><li>กลุ่มเล็กแต่ออกซ้ำ: drain หลัง mastectomy (closed suction), ประสาท thoracodorsal ใน ALND, BRCA / Li-Fraumeni และระดับของ prevention, PMRT, reconstruction</li><li>รอบ MDCU73–79 เพิ่มมุมใหม่: <b>เลือกวิธี biopsy</b> (BI-RADS 5 / microcalcification → core needle ไม่ใช่ FNA), <b>ยา adjuvant ตาม subtype</b> (premenopausal ER+ → tamoxifen), <b>ปัจจัยเสี่ยง</b> (ชาย / relative risk), <b>ติดเชื้อหลังผ่าตัด</b> (lymphangitis, SSI), ก้อนในหญิงตั้งครรภ์ (US ก่อน), phyllodes และ spinal cord compression ในมะเร็งที่แพร่กระจาย</li></ul>",
  "groups": [
   {
    "title": "มะเร็งเต้านมระยะผ่าตัดได้: เลือกผ่าตัดเต้านม รักแร้ และรังสี",
@@ -14,7 +14,10 @@ SUMM.push({
       "ถามข้อใดเป็น contraindication ของ BCT (ตอบ active SLE, inflammatory breast cancer)",
       "ถามข้อใด NOT a contraindication (ก้อนใกล้ nipple หรือเกี่ยว nipple คือตอบ)",
       "diffuse suspicious microcalcifications หลาย quadrant + IDC + ต่อมรักแร้คลำไม่ได้ → ถามการผ่าตัด (mastectomy + SLNB)",
-      "ตัวลวง: ตั้งครรภ์ 37 สัปดาห์, ก้อน 5 cm, satellite lesion quadrant เดียว, UOQ, implant, อายุ >70, family history"
+      "ตัวลวง: ตั้งครรภ์ 37 สัปดาห์, ก้อน 5 cm, satellite lesion quadrant เดียว, UOQ, implant, อายุ >70, family history",
+      "Absolute contraindication ของ BCT: multicentric disease คนละ quadrant (ตัวลวง tumor involving nipple, pregnancy 35 wk, previous core needle biopsy, tumor 2 cm ใน UOQ)",
+      "ข้อใดไม่ใช่ contraindication: tumor involving the nipple (ตัวลวง inflammatory BC, multicentric, active SLE, diffuse suspicious microcalcifications)",
+      "ข้อใดไม่ใช่ contraindication: locally advanced breast cancer (ตัวลวง diffuse multicentric, ฉายรังสีไม่ได้, persistently positive margins, inflammatory BC)"
      ],
      "pattern": [
       "<b>BCT = lumpectomy (margin ลบ) + whole-breast RT</b> survival เท่า mastectomy ใน early breast cancer (NSABP B-06, Milan) — ข้อห้ามมาจาก 'ฉาย RT ไม่ได้' หรือ 'ตัดให้ margin ลบพร้อม cosmesis ดีไม่ได้'",
@@ -22,12 +25,15 @@ SUMM.push({
       "<b>Relative</b>: เคยฉายรังสีเต้านมหรือผนังอก, active connective tissue disease ที่ผิวหนัง (<b>scleroderma, SLE</b>), ก้อน >5 cm เทียบกับเต้านม, TP53 (Li-Fraumeni), BRCA, focally positive margin",
       "<b>ไม่ใช่ข้อห้าม</b>: ก้อนใกล้หรือติด nipple (central lumpectomy ตัด NAC ออกด้วย), Paget disease, multifocal ใน quadrant เดียวที่ตัดแผลเดียวได้, implant เดิม, อายุมาก, family history, lobular histology, node positive",
       "ตั้งครรภ์: ไตรมาส 3 ผ่าตัดแล้วฉายหลังคลอดได้ จึงไม่ห้ามเด็ดขาด; ไตรมาส 1 มักเลือก mastectomy",
-      "ก้อนใหญ่เทียบเต้านม → neoadjuvant systemic therapy หรือ oncoplastic surgery เพื่อให้ทำ BCS ได้"
+      "ก้อนใหญ่เทียบเต้านม → neoadjuvant systemic therapy หรือ oncoplastic surgery เพื่อให้ทำ BCS ได้",
+      "<b>BCT ต้องทำได้ 2 อย่าง:</b> ตัดก้อนให้ margin ลบด้วยแผลเดียวโดยรูปเต้ายอมรับได้ + ฉายรังสีทั้งเต้าได้ → ภาวะที่ฉาย RT ไม่ได้ (เคยฉายเต้า / ผนังอก, ตั้งครรภ์ช่วงที่ต้องฉาย, active SLE / scleroderma) หรือตัดแผลเดียวไม่ได้ (multicentric, diffuse microcalcification, positive margin ซ้ำ) = ข้อห้าม · locally advanced ที่ไม่ใช่ inflammatory และตอบสนองดีต่อ neoadjuvant ทำ BCS ได้"
      ],
      "pearls": [
       "เห็น 'microcalcification' อย่ารีบตอบ BCS — ดูว่ากระจาย (diffuse หรือหลาย quadrant) หรือกลุ่มเดียว",
       "ตำแหน่งก้อน (ใกล้ nipple, UOQ) ไม่เคยเป็นข้อห้าม; ตัวตัดสินคือ margin และ RT",
-      "ต่อมน้ำเหลืองเป็นตัวตัดสินการผ่าตัดรักแร้ ไม่ใช่ตัวเลือกชนิดผ่าตัดเต้านม"
+      "ต่อมน้ำเหลืองเป็นตัวตัดสินการผ่าตัดรักแร้ ไม่ใช่ตัวเลือกชนิดผ่าตัดเต้านม",
+      "multicentric: NCCN ปัจจุบันและ ACOSOG Z11102 (2023) มองกว้างขึ้น (2–3 ipsilateral foci ทำ BCT ได้ในบางราย) แต่ข้อสอบ MDCU ยังตอบ multicentric คนละ quadrant = ห้าม; ต้นฉบับ 74 RoD จดสั้น ๆ (multicentric / no RT / no adequate margin) — bank ปรับเป็น diffuse multicentric / inability to receive RT / persistently positive margins",
+      "73 RoB ช้อย E ว่างในต้นฉบับ — bank แต่ง 'tumor 2 cm ใน upper outer quadrant' เป็นตัวลวงที่ผิดชัด; เห็น pregnancy อย่าตอบห้ามทันที (ห้ามที่การฉาย RT ขณะตั้งครรภ์ ไตรมาส 3 ผ่าตัดแล้วฉายหลังคลอดได้)"
      ],
      "members": [
       "MDCU77|RoC|21",
@@ -35,7 +41,10 @@ SUMM.push({
       "MDCU75|RoC|52",
       "MDCU75|RoD|2",
       "MDCU76|RoA|18",
-      "MDCU76|RoA|25"
+      "MDCU76|RoA|25",
+      "MDCU73|RoB|35",
+      "MDCU74|RoC|11",
+      "MDCU74|RoD|ไม่มีเลข 12"
      ]
     },
     {
@@ -46,7 +55,8 @@ SUMM.push({
       "ก้อน 2 cm, 3 cm, 1.5 cm HR+ HER2−, cN0, อยากเก็บเต้านม → ถามการรักษาที่เหมาะสม",
       "ก้อน 4 cm mucinous carcinoma ER+ PR+ อายุ 35 ปี เต้านมพอ cosmesis ดี → ยังทำ BCS + SLNB",
       "diffuse microcalcification ในหลาย quadrant + IDC + cN0 → mastectomy + SLNB",
-      "ตัวลวง: mastectomy + ALND, neoadjuvant ทุกราย, intraoperative RT, mastectomy + immediate reconstruction"
+      "ตัวลวง: mastectomy + ALND, neoadjuvant ทุกราย, intraoperative RT, mastectomy + immediate reconstruction",
+      "cT1c (1.6 cm) IDC ER+ PR+ HER2−, cN0, ไม่มีข้อห้ามของ BCS → BCT + SLNB (ตัวลวง mastectomy + ALND, neoadjuvant chemotherapy, neoadjuvant endocrine therapy, RT อย่างเดียว)"
      ],
      "pattern": [
       "<b>cT1–T2 N0 + ไม่มีข้อห้าม + ผู้ป่วยต้องการเก็บเต้านม → wide excision (margin 'no ink on tumor') + SLNB → whole-breast RT</b>; 2 cm = T1c (T1 ≤20 mm), 4 cm และ 5 cm = T2 (>20–50 mm)",
@@ -60,7 +70,8 @@ SUMM.push({
      "pearls": [
       "IORT หรือ APBI ใช้แทน WBRT ได้เฉพาะ low-risk (อายุ ≥50, ≤2 cm, node ลบ, margin ลบ, HR+) ไม่ใช่คำตอบทั่วไป",
       "ก้อน 4 cm ไม่ได้แปลว่าต้อง mastectomy — ดูสัดส่วนก้อนต่อเต้านม",
-      "โจทย์ cN0 ให้ตัด ALND ออกจากตัวเลือกก่อน"
+      "โจทย์ cN0 ให้ตัด ALND ออกจากตัวเลือกก่อน",
+      "cT1 HR+ HER2− cN0 ผ่าตัดก่อนได้เลย — neoadjuvant chemo ไม่ใช่ทุกราย (ขึ้นกับ subtype และขนาด); survival ของ BCT เท่า mastectomy จึงไม่ต้องเลือก mastectomy 'เพื่อความปลอดภัย'"
      ],
      "members": [
       "MDCU76|RoC|41",
@@ -68,7 +79,8 @@ SUMM.push({
       "MDCU75|RoC|41",
       "MDCU78|RoD|Breast 3",
       "MDCU76|RoA|18",
-      "MDCU76|RoA|25"
+      "MDCU76|RoA|25",
+      "MDCU79|RoD|Breast 3"
      ]
     },
     {
@@ -79,7 +91,8 @@ SUMM.push({
       "BCS + SLNB พบ SLN บวก 2 จาก 3 ต่อม ไม่ได้ neoadjuvant → ขั้นต่อไป (whole-breast RT ไม่ต้อง ALND)",
       "DCIS low grade ทำ BCS, cN0, US รักแร้ปกติ → จัดการรักแร้อย่างไร (ไม่ต้องทำอะไร ติดตาม)",
       "cT2 cN1 (FNA ต่อมบวก) HR+ HER2−, เต้านมใหญ่ อยากเก็บเต้านม → wide excision + axillary dissection + RT",
-      "ตัวลวง: ALND ทันทีเมื่อ SLN บวก, completion mastectomy, observation หลังต่อมบวก"
+      "ตัวลวง: ALND ทันทีเมื่อ SLN บวก, completion mastectomy, observation หลังต่อมบวก",
+      "IDC 4 cm + biopsy-proven axillary node metastasis, ไม่มี distant mets, ผู้ป่วยเลือกผ่าตัดก่อนและชอบ mastectomy → modified radical mastectomy with ALND (ตัวลวง chemotherapy อย่างเดียว, mastectomy + SLNB อย่างเดียว, BCS ไม่ทำ axilla, lumpectomy + RT อย่างเดียว)"
      ],
      "pattern": [
       "<b>เกณฑ์ ACOSOG Z0011 (ต้องครบ)</b>: T1–T2, cN0, SLN บวก 1–2 ต่อม, ทำ BCS + whole-breast RT, ไม่ได้ neoadjuvant → <b>ไม่ต้อง ALND</b> (10-year OS ไม่ต่างจาก ALND, lymphedema น้อยกว่ามาก)",
@@ -93,7 +106,8 @@ SUMM.push({
      "pearls": [
       "นับต่อมให้ถูก: '2 of 3 SLN positive' = บวก 2 ต่อม เข้า Z0011",
       "DCIS + BCS ไม่ SLNB แต่ DCIS + mastectomy ต้อง SLNB — คู่นี้ออกบ่อย",
-      "คีย์ของเคส cT2N1 คือ upfront BCS + ALND + RT (คำตอบ neoadjuvant ก็ยอมรับได้ถ้าเป็น HER2+ หรือ TNBC)"
+      "คีย์ของเคส cT2N1 คือ upfront BCS + ALND + RT (คำตอบ neoadjuvant ก็ยอมรับได้ถ้าเป็น HER2+ หรือ TNBC)",
+      "73 RoC: ต้นฉบับถามสั้น ๆ ว่า 'CA breast with axillary LN positive ถาม Tx' — bank เติมว่าเลือก upfront surgery + mastectomy; ในทางปฏิบัติ cN+ มักพิจารณา neoadjuvant ก่อน (โดยเฉพาะ HER2+ / TNBC) และ BCS + ALND + RT ก็เป็นทางเลือก — SLNB เดี่ยวเป็นของ cN0"
      ],
      "members": [
       "MDCU75|RoD|31",
@@ -101,7 +115,27 @@ SUMM.push({
       "MDCU78|RoC|Breast 3",
       "MDCU76|RoC|41",
       "MDCU77|RoC|20",
-      "MDCU75|RoC|41"
+      "MDCU75|RoC|41",
+      "MDCU73|RoC|59"
+     ]
+    },
+    {
+     "id": "adjuvant-endocrine",
+     "title": "Adjuvant systemic therapy ตาม subtype: endocrine, anti-HER2, chemo",
+     "trend": "ออกครั้งเดียว — premenopausal ER+ HER2− ตอบ tamoxifen",
+     "asked": [
+      "หญิง 30 ปี premenopausal, ER-positive, HER2-negative → ยาที่เหมาะสมที่สุด: tamoxifen (ตัวลวง exemestane, raloxifene, trastuzumab, megestrol acetate)"
+     ],
+     "pattern": [
+      "<b>ตาม subtype:</b> ER / PR+ → endocrine therapy ทุกราย · HER2+ → trastuzumab ± pertuzumab (+ chemo) · triple-negative → chemotherapy (± immunotherapy)",
+      "<b>Premenopausal ER+: tamoxifen 20 mg / วัน 5–10 ปี</b> (SERM, antagonist ที่เต้านม); กลุ่มเสี่ยงสูง (อายุน้อยมาก, node+, ได้ chemo) พิจารณา ovarian function suppression + tamoxifen หรือ AI (SOFT / TEXT) · <b>Postmenopausal:</b> aromatase inhibitor (anastrozole, letrozole, exemestane) 5–10 ปี หรือ tamoxifen",
+      "AI เดี่ยวใช้ไม่ได้ใน premenopausal (รังไข่ยังสร้าง estrogen) · raloxifene เป็น SERM สำหรับ chemoprevention / osteoporosis ไม่ใช่การรักษา breast ca · megestrol ไม่ใช่ standard"
+     ],
+     "pearls": [
+      "74 RoA: ต้นฉบับมีสามช้อย — bank เติม 'premenopausal' และ 'HER2 negative' ใน stem และแต่งช้อย D, E เพื่อตัด AI เดี่ยวกับ trastuzumab; เลือก AI เพราะ 'ดีกว่า tamoxifen' ในหญิงหมดประจำเดือนแล้วลืมดูอายุเป็นกับดัก"
+     ],
+     "members": [
+      "MDCU74|RoA|ไม่มีเลข 5"
      ]
     },
     {
@@ -212,25 +246,50 @@ SUMM.push({
      ]
     },
     {
+     "id": "post-mastectomy-infection",
+     "title": "ติดเชื้อหลังผ่าตัดเต้านม: lymphangitis และ surgical site infection",
+     "trend": "ออกรอบเดียวกัน (73 RoC) — ดู pattern ของการลามและเชื้อ skin flora",
+     "asked": [
+      "หญิงสูงอายุเคย MRM + ALND ข้างซ้าย โดนหนามกุหลาบที่ forearm แล้วมี linear red streaks ร้อน เจ็บ บวม ไล่ขึ้นแขนถึงรักแร้ → lymphangitis (ตัวลวง lymphedema ที่ไม่ติดเชื้อ, cellulitis เฉพาะ forearm, erysipelas, filariasis)",
+      "MRM ถอด vacuum drain วันที่ 3 กลับมาด้วยแดง บวม เจ็บรอบแผล → เชื้อกลุ่ม aerobic gram-positive cocci (ตัวลวง gram-negative cocci / bacilli, anaerobes, mixed flora)"
+     ],
+     "pattern": [
+      "<b>Acute lymphangitis:</b> เชื้อ (group A Streptococcus > S. aureus) เข้าทางแผลเล็ก ๆ → เส้นแดงร้อนเจ็บ (red streaks) ไล่ตามท่อน้ำเหลืองไป regional node ± ไข้ ต่อมน้ำเหลืองโต · แขนข้างที่ ALND มี lymph stasis จึงติดเชื้อง่าย · ตัวชี้ขาดคือลามเป็นเส้นตามแนวน้ำเหลือง; cellulitis แดงร้อนบวมเป็นผืน, erysipelas ขอบยกนูนชัด · แผลจากหนามพืช / ดินที่มีก้อนเรียงตามแนวน้ำเหลืองเรื้อรังให้นึก sporotrichosis",
+      "<b>SSI ของแผล clean (class I) เช่น เต้านม ไส้เลื่อน ไทรอยด์:</b> เชื้อจาก skin flora และ drain tube — S. aureus (รวม MRSA), coagulase-negative staphylococci, Streptococcus = aerobic gram-positive cocci · gram-negative bacilli + anaerobes เป็นของผ่าตัดลำไส้ใหญ่ / ทวารหนัก"
+     ],
+     "pearls": [
+      "lymphangitis: bank เติม 'linear streaks' ใน stem — ต้นฉบับบอกแค่ redness ที่ forearm ลามถึงรักแร้ซึ่ง cellulitis ก็เป็นได้ และแต่งช้อย B, C เพื่อไม่ให้แข่งกัน",
+      "SSI: อย่าตอบ mixed flora เพราะคิดว่า SSI ต้องหลายเชื้อ — แผลเต้านมไม่เปิดทางเดินอาหาร"
+     ],
+     "members": [
+      "MDCU73|RoC|48",
+      "MDCU73|RoC|63"
+     ]
+    },
+    {
      "id": "drain-after-mastectomy",
      "title": "Closed-suction drain หลัง mastectomy และ seroma",
      "trend": "ให้เลือก drain ที่เหมาะหลัง mastectomy หรือ axillary surgery",
      "asked": [
       "total mastectomy ต้องการป้องกัน seroma → Redivac (closed-suction)",
-      "mastectomy + axillary surgery → Radivac closed-suction; ตัวลวง corrugated, Penrose, gauze wick, sump"
+      "mastectomy + axillary surgery → Radivac closed-suction; ตัวลวง corrugated, Penrose, gauze wick, sump",
+      "Mastectomy + axillary dissection วันที่ 3 มี fluid collection ใต้ skin flap (seroma) → ควรทำอะไรตอนผ่าตัดเพื่อลด: closed suction drain (ตัวลวง ขยับไหล่เต็ม ROM, prophylactic oral antibiotics, diuretics, เปิด dressing เร็ว)"
      ],
      "pattern": [
       "<b>Closed active-suction drain</b> (Redivac / Redon, Jackson-Pratt, Hemovac, Blake) วางใต้ skin flap และรักแร้ → ลด dead space, ให้ flap แนบ chest wall, ลด seroma / hematoma, ระบบปิดติดเชื้อน้อย",
       "<b>Open passive drain</b> (Penrose, corrugated, gauze wick) ระบายตามแรงโน้มถ่วงหรือ capillary เสี่ยงติดเชื้อ ไม่เหมาะ; <b>Sump</b> สองช่องใช้กับของเหลวปริมาณมาก / irrigation (fistula, abscess ในช่องท้อง)",
       "Seroma เป็น complication ที่พบบ่อยที่สุดหลัง mastectomy; ลดด้วย drain, flap fixation (quilting) และเจาะดูดซ้ำได้",
-      "ถอด drain เมื่อ output <30–50 mL ต่อ 24 ชม. (ส่วนใหญ่ 1–2 สัปดาห์)"
+      "ถอด drain เมื่อ output <30–50 mL ต่อ 24 ชม. (ส่วนใหญ่ 1–2 สัปดาห์)",
+      "<b>Seroma</b> จาก lymphatic disruption + dead space + inflammatory exudate (พบ ~ 15–80%) · ปัจจัยเสี่ยง: BMI สูง, อายุมาก, mastectomy + ALND (> SLNB), จำนวน node ที่ตัดมาก, electrocautery มาก, ขยับไหล่เร็วเกินช่วงมี drain · seroma เล็กไม่มีอาการสังเกตได้ ไม่ต้องเจาะทุกครั้ง"
      ],
      "pearls": [
-      "Jackson-Pratt ก็เป็น closed suction ถูกเท่ากัน — ธนาคารแก้ choice ที่ซ้ำออก; จำหลักการ closed suction ไม่ใช่ยี่ห้อ"
+      "Jackson-Pratt ก็เป็น closed suction ถูกเท่ากัน — ธนาคารแก้ choice ที่ซ้ำออก; จำหลักการ closed suction ไม่ใช่ยี่ห้อ",
+      "ขยับไหล่เต็ม range เร็วขณะยังมี drain เพิ่ม seroma (แม้ช่วยป้องกันไหล่ติด) — เคส 74 RoA ใช้เป็นตัวลวง"
      ],
      "members": [
       "MDCU77|RoC|62",
-      "MDCU77|RoD|69"
+      "MDCU77|RoD|69",
+      "MDCU74|RoA|ไม่มีเลข 35"
      ]
     },
     {
@@ -268,7 +327,9 @@ SUMM.push({
       "หญิง 28 ปี ก้อน cystic → ultrasound",
       "หญิง 45 ปี first visit → mammography",
       "หญิง 40 ปี ก้อนแข็ง ติดแน่น → mammography + ultrasound ไม่ใช่ biopsy ทันที",
-      "หญิง 28 ปี US hypoechoic มี cystic component BI-RADS 3 → follow-up US 6 เดือน"
+      "หญิง 28 ปี US hypoechoic มี cystic component BI-RADS 3 → follow-up US 6 เดือน",
+      "หญิง 28 ปี คลำก้อนเต้านม ไม่มีประวัติใช้ฮอร์โมน ไม่มีบุตร → breast ultrasound (ตัวลวง mammogram, MRI, CT chest, PET-CT)",
+      "ตั้งครรภ์ 18 สัปดาห์ คลำก้อนแข็ง 2 cm ไม่เจ็บ → breast ultrasound (ตัวลวง mammography, MRI, รอทบทวนหลังคลอด, excisional biopsy ใต้ GA)"
      ],
      "pattern": [
       "<b>Triple assessment</b> = clinical exam + imaging + tissue (core needle biopsy) ต้องสอดคล้องกัน; imaging ก่อน biopsy เสมอ (biopsy ทำให้ hematoma บังภาพ, imaging ประเมินขอบเขตและนำทาง)",
@@ -276,18 +337,44 @@ SUMM.push({
       "<b>BI-RADS</b>: 0 ตรวจเพิ่ม, 1 ปกติ, 2 benign, 3 probably benign (≤2%) → follow-up 6 เดือน แล้ว 6 และ 12 เดือน ด้วย modality เดิม, 4 suspicious (4A 2–10%, 4B 10–50%, 4C 50–95%) → core biopsy, 5 ≥95%, 6 พิสูจน์แล้วเป็นมะเร็ง",
       "US benign: oval, circumscribed, parallel (wider than tall); suspicious: irregular, spiculated, taller than wide, posterior shadowing",
       "Simple cyst (anechoic, posterior enhancement) = BI-RADS 2; complicated cyst (internal echo) = BI-RADS 3; complex cystic-solid = BI-RADS 4 → biopsy",
-      "Biopsy มาตรฐาน = image-guided core needle biopsy (ได้ histology + ER / PR / HER2) ดีกว่า FNA; microcalcification → stereotactic biopsy; MRI สำหรับ high-risk screening, extent of disease, occult primary, implant"
+      "Biopsy มาตรฐาน = image-guided core needle biopsy (ได้ histology + ER / PR / HER2) ดีกว่า FNA; microcalcification → stereotactic biopsy; MRI สำหรับ high-risk screening, extent of disease, occult primary, implant",
+      "<b>ตั้งครรภ์ / ให้นม:</b> ก้อนที่คลำได้ → US ก่อน (ไม่มีรังสี, sensitivity สูงแม้เนื้อเต้า dense จากฮอร์โมน, แยก cyst / galactocele / fibroadenoma / lactating adenoma ออกจาก solid น่าสงสัย) → suspicious → core needle biopsy · ห้ามรอคลอด · mammogram with shielding ทำได้เมื่อต้องดู extent ในรายที่เป็นมะเร็ง · MRI with gadolinium เลี่ยงในครรภ์"
      ],
      "pearls": [
       "'ก้อนเต้านม = mammogram' ผิดในคนอายุ <30 ปี",
       "'ก้อนน่าสงสัย = biopsy ทันที' ผิด — ต้อง imaging ก่อน",
-      "ถ้าโจทย์ให้ BI-RADS มาแล้ว ตอบตาม management ของ category"
+      "ถ้าโจทย์ให้ BI-RADS มาแล้ว ตอบตาม management ของ category",
+      "หญิง <30 ปี เนื้อเต้านม dense mammography ไวต่ำและให้รังสีโดยไม่จำเป็น (ACR Palpable Breast Masses 2022) · ก้อนในครรภ์ไม่ใช่แค่การเปลี่ยนแปลงของฮอร์โมนที่รอได้"
      ],
      "members": [
       "MDCU76|RoA|66",
       "MDCU76|RoC|58",
       "MDCU78|RoA|Breast 1",
-      "MDCU77|RoA|23"
+      "MDCU77|RoA|23",
+      "MDCU73|RoC|58",
+      "MDCU79|RoC|Breast 1"
+     ]
+    },
+    {
+     "id": "breast-biopsy-selection",
+     "title": "เลือกวิธี biopsy: BI-RADS 4–5 และ microcalcification",
+     "trend": "ได้ histology + receptor ก่อนรักษาเสมอ — core needle ไม่ใช่ FNA",
+     "asked": [
+      "หญิง 70 ปี ก้อนโตขึ้น 1 ปี 4 cm มีแผลและ satellite nodule แดงอุ่น + matted axillary node, BI-RADS 5 → core needle biopsy ของก้อน (ตัวลวง FNA ก้อน, FNA node, incisional / excisional biopsy)",
+      "คัดกรอง mammogram พบ suspicious clustered microcalcification ไม่คลำก้อน → stereotactic core needle biopsy (ตัวลวง FNA, US-guided FNA, repeat mammogram 6 เดือน, wide excision)"
+     ],
+     "pattern": [
+      "<b>ก้อนที่สงสัยมะเร็ง (BI-RADS 4–5) → image-guided core needle biopsy</b> ก่อนวางแผน เพราะได้ histology (invasive vs in situ, type, grade) + ER / PR / HER2 / Ki-67 · FNA ได้แค่ cytology แยก invasive จาก in situ ไม่ได้ · ไม่ผ่าตัดทันทีแม้รู้ว่าเป็นมะเร็งแน่",
+      "<b>Microcalcification ที่ไม่คลำก้อน</b> เห็นเฉพาะบน mammogram (US มักไม่เห็น) → <b>stereotactic (vacuum-assisted) core biopsy</b> + วาง clip + specimen radiograph ยืนยันว่าได้ calcification · ผล benign = follow-up, malignant = รักษา · cystic → US-guided FNA",
+      "<b>Locally advanced</b> (ulceration / satellite nodule = T4b, matted node = cN2a → stage IIIB): core biopsy → systemic staging → neoadjuvant systemic therapy ก่อนผ่าตัด · FNA เหมาะกับ cyst และ axillary node (US-guided)"
+     ],
+     "pearls": [
+      "73 RoC (microcalcification): bank เติม 'suspicious clustered' และ 'without a palpable mass' เพื่อให้ repeat mammogram ผิด และแต่งช้อย D",
+      "73 RoB (BI-RADS 5): ผู้ป่วยรู้ว่าเป็นมะเร็งแน่ก็ยังต้องมี histology + receptor ก่อนเสมอ — อย่าเลือกผ่าตัดทันทีหรือ FNA เพราะคิดว่าเร็วและง่าย"
+     ],
+     "members": [
+      "MDCU73|RoB|33",
+      "MDCU73|RoC|60"
      ]
     },
     {
@@ -298,26 +385,47 @@ SUMM.push({
       "หญิง 20 ปี ก้อน benign เจ็บช่วงมีประจำเดือน → fibroadenoma",
       "หญิง 30 ปี ก้อน 1 cm ดู US oval circumscribed parallel → fibroadenoma",
       "ก้อนโตเร็ว 8 เดือน ใหญ่ ผิวตึงมัน เห็นเส้นเลือดดำ → phyllodes tumor",
-      "ก้อนขนาดคงที่ 7 ปี mammogram มีไขมันปนเนื้อเต้านมในแคปซูล → hamartoma"
+      "ก้อนขนาดคงที่ 7 ปี mammogram มีไขมันปนเนื้อเต้านมในแคปซูล → hamartoma",
+      "ก้อนโตเร็วมาก ต่อมรักแร้ปกติ core needle biopsy เห็น leaf-like architecture → phyllodes tumor (ตัวลวง IDC, DCIS, giant fibroadenoma, mucinous carcinoma)"
      ],
      "pattern": [
       "<b>Fibroadenoma</b>: พบบ่อยสุดในหญิง <30–35 ปี, rubbery เรียบ เคลื่อนได้ ≤3 cm, ไวต่อ estrogen (โตและเจ็บก่อนมีประจำเดือน / ตั้งครรภ์ ยุบหลังหมดประจำเดือน); US oval circumscribed wider-than-tall homogeneous hypoechoic → BI-RADS 3; ผลสอดคล้อง benign → สังเกต, excision ถ้า >2–3 cm, โตเร็ว, มีอาการ หรือผู้ป่วยต้องการ",
       "<b>Phyllodes tumor</b>: fibroepithelial ที่ stroma เด่น อายุ 40–50 ปี (มากกว่า fibroadenoma ~10–15 ปี) ก้อนใหญ่ >5 cm โตเร็ว ผิวตึงมัน เส้นเลือดดำขยาย; แบ่ง benign / borderline / malignant; Dx ด้วย core biopsy (FNA แยกจาก fibroadenoma ไม่ได้); Rx <b>wide local excision margin ≥1 cm</b> หรือ mastectomy ถ้าก้อนใหญ่เทียบเต้านม; <b>ไม่ทำ axillary staging</b> เพราะแพร่ทางเลือด (ปอด กระดูก)",
       "<b>Hamartoma</b> (fibroadenolipoma): ไขมัน + fibrous + glandular ล้อม pseudocapsule; mammogram ก้อนรีขอบชัด ความทึบผสมไขมันกับ soft tissue = 'breast within a breast' → BI-RADS 2 ไม่ต้อง biopsy, ตัดเมื่อโต มีอาการ หรือวินิจฉัยไม่ชัด",
       "Fat-containing lesion แทบทั้งหมด benign: lipoma (โปร่งล้วน), hamartoma (ผสม), oil cyst จาก fat necrosis, intramammary node (fatty hilum), galactocele",
-      "Fibrocystic change: 20–50 ปี เจ็บตะปุ่มตะป่ำ 2 ข้างตามรอบเดือน; juvenile / giant fibroadenoma >5 cm ในวัยรุ่น"
+      "Fibrocystic change: 20–50 ปี เจ็บตะปุ่มตะป่ำ 2 ข้างตามรอบเดือน; juvenile / giant fibroadenoma >5 cm ในวัยรุ่น",
+      "<b>Phyllodes (WHO 2019):</b> benign / borderline / malignant ตาม stromal atypia, mitoses, stromal overgrowth, margin · leaf-like = stroma ดันเยื่อบุเข้า cleft · ก้อนโตเร็วอายุ 40–50 ปี (fibroadenoma เด่นในวัยรุ่น–หนุ่มสาว) · ไม่ต้อง axillary staging (ไม่แพร่ทาง lymphatic เป็นหลัก)"
      ],
      "pearls": [
       "เจ็บตามรอบเดือนชวนนึกถึง fibrocystic change แต่ถ้าไม่มีในช้อยให้เลือก fibroadenoma",
       "ก้อนใหญ่ขอบชัดอย่ารีบตอบ fibroadenoma — ดูเนื้อในก้อนและอายุ/อัตราโต",
-      "ขนาดในโจทย์กับที่วัดบนภาพอาจไม่ตรงกัน ไม่ต้องกังวล"
+      "ขนาดในโจทย์กับที่วัดบนภาพอาจไม่ตรงกัน ไม่ต้องกังวล",
+      "phyllodes vs giant / juvenile fibroadenoma โตเร็วเหมือนกัน — แยกด้วยอายุและ leaf-like stromal overgrowth จาก core biopsy"
      ],
      "members": [
       "MDCU76|RoC|57",
       "MDCU78|RoD|Breast 1",
       "MDCU77|RoD|67",
       "MDCU78|RoC|Breast 2",
-      "MDCU77|RoA|23"
+      "MDCU77|RoA|23",
+      "MDCU79|RoD|Breast 1"
+     ]
+    },
+    {
+     "id": "breast-developmental",
+     "title": "ความผิดปกติแต่กำเนิดของเต้านม: polythelia vs polymastia",
+     "trend": "ออกครั้งเดียว — accessory nipple พบบ่อยสุด",
+     "asked": [
+      "ความผิดปกติด้านพัฒนาการของเต้านมที่พบบ่อยที่สุด → polythelia (ตัวลวง amastia, polymastia, macromastia, juvenile breast hypertrophy)"
+     ],
+     "pattern": [
+      "<b>Milk line (mammary ridge)</b> ลากจาก axilla ถึง inguinal / ต้นขาด้านใน — ส่วนที่ไม่ฝ่อกลายเป็น <b>polythelia</b> (accessory nipple, ~ 1–5% ของประชากร มักเป็นตุ่มเล็กสีคล้ำคล้ายไฝ พบบ่อยใต้เต้านมข้างซ้าย) หรือ <b>polymastia</b> (accessory breast tissue) · ส่วนใหญ่ไม่ต้องรักษา"
+     ],
+     "pearls": [
+      "74 RoC: คีย์ลายมือตอบ C polymastia (สไลด์เขียน 'polythelia or polymastia' คู่กัน) แต่ bank ตอบ B polythelia ตามตำรา (Sabiston; Bland & Copeland) — accessory nipple พบบ่อยกว่า accessory breast tissue"
+     ],
+     "members": [
+      "MDCU74|RoC|18"
      ]
     },
     {
@@ -327,7 +435,9 @@ SUMM.push({
      "asked": [
       "กดที่ตำแหน่ง 2 หรือ 1 นาฬิกาแล้ว bloody หรือ red-yellowish discharge ออกจากรูเดียว → intraductal papilloma",
       "หญิง 45 ปี spontaneous unilateral single-duct serous discharge ไม่มีก้อน → mammogram + US",
-      "หญิง 28 ปี serous discharge ข้างเดียว 3 สัปดาห์ → breast ultrasound"
+      "หญิง 28 ปี serous discharge ข้างเดียว 3 สัปดาห์ → breast ultrasound",
+      "Spontaneous blood-stained yellowish discharge ไม่สัมพันธ์การปั๊มนมหรือรอบเดือน ไม่เจ็บ ไม่มีก้อน กดที่ขอบ areola ด้านข้างแล้วออก → intraductal papilloma (ตัวลวง fibrocystic change, duct ectasia, IDC, acute suppurative mastitis)",
+      "หญิง 45 ปี spontaneous clear yellow discharge จากหัวนมซ้าย ตรวจร่างกายปกติ → mammography + breast ultrasound (ตัวลวง MR ductography, reassure, nipple discharge cytology, serum prolactin)"
      ],
      "pattern": [
       "<b>Pathologic</b>: spontaneous, unilateral, single duct, serous หรือ bloody (± ก้อน); <b>physiologic</b>: ต้องบีบจึงออก, 2 ข้าง, หลายท่อ, สีขาว / เหลือง / เขียว",
@@ -340,13 +450,17 @@ SUMM.push({
      "pearls": [
       "bloody discharge ≠ มะเร็งเสมอ — papilloma พบบ่อยที่สุด แต่ต้อง work-up",
       "กับดักส่ง prolactin หรือ cytology ในเคส single duct",
-      "ใช้ 'อายุ' เลือก US หรือ mammogram เหมือนก้อนที่คลำได้"
+      "ใช้ 'อายุ' เลือก US หรือ mammogram เหมือนก้อนที่คลำได้",
+      "74 RoD: ตรวจร่างกายปกติไม่ได้แปลว่า reassure — ตัวตัดสินคือลักษณะ discharge (spontaneous + unilateral + single duct) ลายมือในไฟล์ 'R/O breast mass ก่อนเสมอ'; ≥ 40 ปี → diagnostic mammography + US ก่อน MRI / ductography",
+      "73 RoC: ต้นฉบับขีดเส้นเดียวทับ B พร้อม ✓ จึงตีความว่าเลือก papilloma; อย่าตอบ carcinoma เพียงเพราะ bloody — ไม่มีก้อน ออกจากท่อเดียวเอง = papilloma พบบ่อยที่สุด แต่ต้อง work-up เพื่อแยกมะเร็งเสมอ"
      ],
      "members": [
       "MDCU76|RoD|ไม่มีเลข (ลำดับที่ 59)",
       "MDCU77|RoA|53",
       "MDCU77|RoC|30",
-      "MDCU75|RoD|32"
+      "MDCU75|RoD|32",
+      "MDCU73|RoC|56",
+      "MDCU74|RoD|ไม่มีเลข 1"
      ]
     },
     {
@@ -381,7 +495,8 @@ SUMM.push({
      "asked": [
       "3 สัปดาห์หลังคลอด ไข้ 38.8 ไม่ดีขึ้นหลัง NSAIDs 48 ชม. ไม่มี fluctuation → oral antibiotics",
       "เต้านมแดง fluctuant US collection 5 cm ใต้ผิวหนังบาง (ดูรูป) → incision and drainage",
-      "8 สัปดาห์หลังคลอด ได้ antibiotic แล้วยังปวดเป็นพัก ๆ + ต่อมรักแร้โต → puerperal abscess"
+      "8 สัปดาห์หลังคลอด ได้ antibiotic แล้วยังปวดเป็นพัก ๆ + ต่อมรักแร้โต → puerperal abscess",
+      "ให้นมมา 2 เดือน เจ็บหัวนม บวมแดง 2 cm ใกล้หัวนม ไม่มี fluctuation + axillary node โต → lactational mastitis (ตัวลวง puerperal breast abscess, inflammatory breast cancer, galactocele, fat necrosis)"
      ],
      "pattern": [
       "Mastitis เป็น spectrum (ABM Protocol #36, 2022): engorgement → inflammatory mastitis → bacterial mastitis → phlegmon → abscess (ราว 3–11% ของ mastitis กลายเป็น abscess)",
@@ -393,12 +508,14 @@ SUMM.push({
      "pearls": [
       "เห็นเต้านมบวมแดงแล้วตอบ antibiotic ทันทีอาจผิด — ดู fluctuation / US ว่ามี collection หรือไม่",
       "คีย์เดิมของเคสรูป abscess เป็น IV antibiotics แต่ธนาคารตอบ I&D",
-      "ห้ามตอบหยุดให้นม"
+      "ห้ามตอบหยุดให้นม",
+      "73 RoC: ต้นฉบับมีแค่ช้อย A–C — bank แต่ง galactocele / fat necrosis และเติม 'without fluctuation' แยกจาก abscess; พื้นที่แดงเล็ก + ระยะให้นม + ไม่มี collection = mastitis ไม่ใช่ abscess หรือ IBC"
      ],
      "members": [
       "MDCU76|RoD|27",
       "MDCU77|RoB|27",
-      "MDCU77|RoB|42"
+      "MDCU77|RoB|42",
+      "MDCU73|RoC|57"
      ]
     }
    ]
@@ -414,7 +531,8 @@ SUMM.push({
       "ก้อน 5 cm ติด chest wall + peau d'orange + matted fixed nodes → neoadjuvant systemic therapy",
       "ก้อนกินทั้งเต้า + ต่อมผิดปกติ biopsy เป็น IDC (ยังไม่ได้ยา) → neoadjuvant chemotherapy แล้วผ่าตัด",
       "IDC ER− PR+ HER2+ ต่อมหลายต่อม → neoadjuvant chemotherapy + anti-HER2",
-      "3 ก้อน + matted nodes ได้ neoadjuvant แล้วต่อมยังคลำได้ → mastectomy + ALND"
+      "3 ก้อน + matted nodes ได้ neoadjuvant แล้วต่อมยังคลำได้ → mastectomy + ALND",
+      "ทุกรายเป็น locally advanced ได้ neoadjuvant และตอบสนองดี → รายใดยังต้อง mastectomy: cT4d (ตัวลวง cT2N2, cT3N1, cT4N0, cT4N1)"
      ],
      "pattern": [
       "<b>Locally advanced</b>: cT3 + N1, T4 (a ติด chest wall, b ผิวหนัง ulcer / satellite / edema, c = a + b, d = inflammatory) หรือ N2–N3 (N2a fixed หรือ matted level I–II, N2b internal mammary, N3 infraclavicular / supraclavicular) = stage III → <b>neoadjuvant systemic therapy → ผ่าตัด → RT</b>",
@@ -423,19 +541,45 @@ SUMM.push({
       "สูตร: anthracycline / taxane-based; HER2+ เพิ่ม trastuzumab ± pertuzumab; TNBC ระยะสูงเพิ่ม pembrolizumab",
       "Residual disease หลัง neoadjuvant: HER2+ → T-DM1 (KATHERINE); TNBC → capecitabine (olaparib ถ้า BRCA mutation); pCR ใช้ปรับ adjuvant และบอก prognosis",
       "<b>ผ่าตัดหลังยา</b>: เต้านมเลือก mastectomy ถ้า multicentric หรือยังโรคมาก (BCS ถ้ายุบพอ); รักแร้ cN1 → ycN0 → SLNB (≥3 ต่อม, dual tracer, clip node) หรือ targeted axillary dissection; <b>cN2 หรือยังคลำต่อมได้หลังยา → ALND</b>; ตามด้วย PMRT รวม regional nodes",
-      "<b>Inflammatory breast cancer</b> (T4d): neoadjuvant → modified radical mastectomy (ห้าม BCS, SLNB, immediate reconstruction) → PMRT"
+      "<b>Inflammatory breast cancer</b> (T4d): neoadjuvant → modified radical mastectomy (ห้าม BCS, SLNB, immediate reconstruction) → PMRT",
+      "<b>cT4d (inflammatory)</b> หลัง neoadjuvant ที่ตอบสนองดีก็ยัง BCS ไม่ได้ ต้อง modified radical mastectomy; ในข้อสอบ cT2N2 / cT3N1 / cT4N0 / cT4N1 ที่ตอบสนองดียังเลือก BCS ได้ · IBC ต้องได้ neoadjuvant ทุกราย (ห้ามผ่าตัดก่อน) — ที่ห้ามคือ BCS, SLNB และ immediate reconstruction"
      ],
      "pearls": [
       "เห็น node บวกแล้วตอบ mastectomy + ALND ทันที — ลำดับผิด: T4 / N2 / HER2+ ให้ยาก่อน",
       "ตัวลวง chemoradiotherapy ก่อนผ่าตัด (จำมาจาก rectum / esophagus)",
       "Radical mastectomy ≠ modified radical mastectomy (MRM = total mastectomy + ALND)",
-      "คีย์ของเคสกินทั้งเต้าเป็น mastectomy + ALND แต่ธนาคารตอบ neoadjuvant chemotherapy"
+      "คีย์ของเคสกินทั้งเต้าเป็น mastectomy + ALND แต่ธนาคารตอบ neoadjuvant chemotherapy",
+      "74 RoC (cT4d): ต้นฉบับกำกวม ('neoadjuvant except') — ถ้าอ่านตรงตัวจะไม่มีช้อยถูก bank ตีความตามลายมือ 'mastectomy only' เป็น 'หลัง neoadjuvant รายใดทำ BCS ไม่ได้'; อย่าตอบ IBC ว่า 'ไม่ต้องให้ neoadjuvant'"
      ],
      "members": [
       "MDCU77|RoA|64",
       "MDCU77|RoD|70",
       "MDCU78|RoA|Breast 2",
-      "MDCU76|RoD|9"
+      "MDCU76|RoD|9",
+      "MDCU74|RoC|12"
+     ]
+    },
+    {
+     "id": "labc-signs-t4",
+     "title": "Locally advanced: T4, peau d'orange และ skin finding",
+     "trend": "ถาม 'finding ใดไม่บ่งว่าเป็น LABC' — ตอบ skin retraction (ออกสองเวอร์ชันใน 74 RoD)",
+     "asked": [
+      "Finding ใดไม่ได้บ่งว่าเป็น locally advanced: skin retraction (ตัวลวง erythema > ⅓ ของเต้า, skin ulceration, peau d'orange, matted axillary node) — ออกทั้งภาษาอังกฤษและไทยในรอบเดียวกัน",
+      "ก้อนโตเร็ว 2 เดือน fixed + peau d'orange + node รักแร้บวก → invasive ductal carcinoma (ตัวลวง DCIS, phyllodes, giant fibroadenoma, breast abscess)"
+     ],
+     "pattern": [
+      "<b>AJCC 8th T4:</b> T4a = chest wall (ribs, intercostal muscles, serratus anterior; pectoralis อย่างเดียวไม่นับ) · T4b = ulceration, ipsilateral macroscopic satellite skin nodules หรือ skin edema รวม <b>peau d'orange</b> · T4c = T4a + T4b · T4d = inflammatory (erythema / edema ≥ ⅓ ของเต้า)",
+      "<b>ไม่ใช่ T4:</b> skin retraction / dimpling / nipple retraction (ก้อนดึงรั้ง Cooper ligament พบได้ใน T1–T3) และ dermal invasion อย่างเดียว",
+      "<b>LABC = stage III:</b> T3N1, T4 ทุก N, N2–N3 ทุก T (matted / fixed node = cN2a) · ชนิดที่พบบ่อยสุดคือ invasive ductal carcinoma (NST) ~ 70–80%; peau d'orange = เซลล์มะเร็งอุด dermal lymphatics ไม่ใช่การติดเชื้อ"
+     ],
+     "pearls": [
+      "เห็นคำว่า skin อย่าตอบ T4 ทุกอย่าง — ulceration กับ peau d'orange เป็น T4b แต่ retraction ไม่ใช่",
+      "ระวังสับสน inflammatory BC กับ mastitis / abscess ในผู้หญิงที่ไม่ได้ให้นมบุตร"
+     ],
+     "members": [
+      "MDCU74|RoD|ไม่มีเลข 4",
+      "MDCU74|RoD|ไม่มีเลข 14",
+      "MDCU79|RoD|Breast 2"
      ]
     },
     {
@@ -461,6 +605,23 @@ SUMM.push({
       "MDCU77|RoC|19",
       "MDCU77|RoD|68"
      ]
+    },
+    {
+     "id": "breast-mscc",
+     "title": "Metastatic breast cancer: spinal cord compression",
+     "trend": "ออกครั้งเดียว — dexamethasone + urgent radiotherapy",
+     "asked": [
+      "Metastatic breast ca ปวดหลัง เดินลำบาก 3 วัน, อ่อนแรงขาสองข้าง hyperreflexia sensory level T7, MRI cord compression ที่ T7, ยังไม่มี bowel / bladder dysfunction → dexamethasone + urgent radiotherapy (ตัวลวง observe + repeat MRI 48 ชม., analgesic อย่างเดียว, systemic chemo, decompressive laminectomy ภายใน 1 สัปดาห์)"
+     ],
+     "pattern": [
+      "<b>MSCC</b> = oncologic emergency: ปวดหลังนำมาก่อน (> 90%) → อ่อนแรง → sensory level → sphincter dysfunction (late); thoracic ~ 70% · สงสัยแล้วให้ <b>dexamethasone ทันที</b> (เช่น 10 mg IV แล้ว 16 mg / วัน แบ่งให้) + MRI whole spine ภายใน 24 ชม. → definitive <b>radiotherapy</b> ภายใน 24 ชม. (เต้านมไวต่อรังสี) · ผลการเดินหลังรักษาขึ้นกับความสามารถเดินตอนเริ่ม · ผ่าตัด decompression เลือกเฉพาะ single level, ยังเดินได้, อายุขัย > 3 เดือน, spinal instability หรือไม่ทราบ tissue diagnosis"
+     ],
+     "pearls": [
+      "ตัวหลอก laminectomy 'ภายใน 1 สัปดาห์' ช้าเกินไปและ steroid ต้องให้ทันทีก่อนการรักษาหลัก"
+     ],
+     "members": [
+      "MDCU79|RoC|Breast 2"
+     ]
     }
    ]
   },
@@ -474,7 +635,8 @@ SUMM.push({
      "asked": [
       "แม่และพี่น้อง 2 คนเป็นมะเร็งเต้านม <50 ปี ผู้ป่วย 38 ปียังไม่ตรวจ → genetic counseling และตรวจยีนในครอบครัว",
       "BRCA1 carrier อายุ 25 ปี → ข้อใดเป็น primary prevention (bilateral risk-reducing mastectomy)",
-      "ลูกสาว BRCA2 carrier ตรวจ screening พบ DCIS แล้ว mastectomy → secondary prevention"
+      "ลูกสาว BRCA2 carrier ตรวจ screening พบ DCIS แล้ว mastectomy → secondary prevention",
+      "ข้อใดเป็น primary prevention ของมะเร็ง → risk-reducing mastectomy ใน BRCA carrier (ตัวลวง annual mammogram, colonoscopic polypectomy, PSA screening, surveillance colonoscopy หลัง polypectomy = secondary)"
      ],
      "pattern": [
       "<b>ส่ง genetic counseling (NCCN)</b>: มะเร็งเต้านม ≤50 ปี, triple-negative ≤60 ปี, มะเร็งเต้านมชาย, ญาติหลายคนเป็นเต้านม / รังไข่ / ตับอ่อน / prostate; ตรวจในญาติที่เป็นมะเร็งก่อน (ผลลบในคนที่ยังไม่เป็น แปลผลไม่ได้) แล้ว cascade testing",
@@ -486,12 +648,14 @@ SUMM.push({
      "pearls": [
       "MRI อายุ 25 ปีเป็น screening (secondary) ไม่ใช่ primary prevention",
       "ตอบ 'screening' ไม่ได้เมื่อถามระดับของ prevention เพราะเป็นวิธีการ",
-      "ธนาคารเฉลยว่า chemoprevention เป็น primary prevention ตามนิยามทั่วไป (ลายมือเฉลยบอก secondary)"
+      "ธนาคารเฉลยว่า chemoprevention เป็น primary prevention ตามนิยามทั่วไป (ลายมือเฉลยบอก secondary)",
+      "73 RoC: ต้นฉบับช้อย B 'total mastectomy in BRCA gene positive' — bank เกลาเป็น risk-reducing mastectomy และแต่งช้อย E (surveillance colonoscopy) เป็น secondary; primary ครอบคลุมการเอา target organ ออกก่อนมี lesion + ลด risk factor/วัคซีน ส่วน polypectomy (เอา premalignant lesion ออก) เป็น secondary"
      ],
      "members": [
       "MDCU75|RoC|21",
       "MDCU78|RoD|Surgical Oncology 1",
-      "MDCU77|RoD|20"
+      "MDCU77|RoD|20",
+      "MDCU73|RoC|88"
      ]
     },
     {
@@ -513,6 +677,27 @@ SUMM.push({
      ],
      "members": [
       "MDCU77|RoD|18"
+     ]
+    },
+    {
+     "id": "breast-risk-factors",
+     "title": "ปัจจัยเสี่ยงมะเร็งเต้านม: ผู้ชาย และ relative risk",
+     "trend": "ถามข้อที่ 'ไม่ใช่' risk factor ในชาย และปัจจัยที่ RR สูงสุด",
+     "asked": [
+      "ข้อใดไม่ใช่ risk factor ของมะเร็งเต้านมในเพศชาย: gynecomastia (ตัวลวง aging, obesity, family history, Klinefelter)",
+      "ปัจจัยใดมี relative risk สูงสุด: dense breast tissue (ตัวลวง menarche < 12 ปี, menopause > 55 ปี, ลูกคนแรก > 30 ปี, hormonal contraception)"
+     ],
+     "pattern": [
+      "<b>RR สูง:</b> LCIS 8–10 · dense breast 4–6 · atypical hyperplasia 4–5 · DCIS · BRCA · chest radiation · <b>RR ต่ำ (1.2–2.0):</b> menarche < 12 (~ 1.3), menopause > 55 (~ 2.0), ลูกคนแรก > 30 หรือ nulliparity (~ 1.9), hormonal contraception (~ 1.2), HRT, alcohol, obesity หลัง menopause",
+      "<b>Male breast ca:</b> ~ 1% ของมะเร็งเต้านม, stage สูงกว่าหญิงเพราะมาช้า · risk: BRCA2 (สำคัญสุด), BRCA1, PALB2, CHEK2, family history, Klinefelter, cirrhosis / hyperestrogenism, exogenous estrogen, obesity, aging · gynecomastia เป็น benign proliferation ไม่ใช่ premalignant และไม่ใช่ independent risk factor (สัมพันธ์ผ่านสาเหตุร่วมคือ estrogen สูง / androgen ต่ำ)"
+     ],
+     "pearls": [
+      "74 RoA (ชาย): คีย์ลายมือตอบ aging แต่ bank ตอบ gynecomastia (ความมั่นใจปานกลาง) เพราะอายุเป็นปัจจัยเสี่ยงพื้นฐานชัดเจน — ถ้าโจทย์เดียวกันออกให้ตอบ gynecomastia",
+      "74 RoC (RR): อย่าเลือก hormonal / reproductive factor ที่ท่องมาโดยไม่เทียบตัวเลข (ตารางของผู้เฉลยอ้าง Chen 1999 / Schwartz)"
+     ],
+     "members": [
+      "MDCU74|RoA|ไม่มีเลข 16",
+      "MDCU74|RoC|26"
      ]
     }
    ]
