@@ -93,6 +93,30 @@
           "min": 5
         }
       }
+    },
+    {
+      "id": "sx",
+      "name": "Surgery",
+      "short": "Sx",
+      "year": "Y4",
+      "sub": "SI",
+      "brand": "Past Sx Y4 MCQ",
+      "dir": "data_sx",
+      "scope": "Surgery",
+      "dates": [],
+      "meqTopics": []
+    },
+    {
+      "id": "ped",
+      "name": "Pediatrics",
+      "short": "Ped",
+      "year": "Y4",
+      "sub": "SI",
+      "brand": "Past Ped Y4 MCQ",
+      "dir": "data_ped",
+      "scope": "Pediatrics",
+      "dates": [],
+      "meqTopics": []
     }
   ],
   "firebase": {
@@ -127,6 +151,20 @@
       "name": "Medicine",
       "wards": [
         "med"
+      ]
+    },
+    {
+      "id": "surgery",
+      "name": "Surgery",
+      "wards": [
+        "sx"
+      ]
+    },
+    {
+      "id": "pediatrics",
+      "name": "Pediatrics",
+      "wards": [
+        "ped"
       ]
     }
   ],
