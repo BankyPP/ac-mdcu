@@ -114,21 +114,26 @@ let toastT=null;
 function toast(m){const t=$("toast");t.textContent=m;t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>{t.hidden=true;},2600);}
 
 /* ---------------- password gate (config gate {on, salt, h = sha256(salt+password)}) ----------------
-   A device that has never signed in on this website is a guest: it must type the password on every visit (kept only in memory) before the ward list.
-   Signing in once marks the device as trusted (localStorage) and the gate never shows there again. Not shown inside Claude (the artifact is private).
+   A device not trusted on this website must type the password (remembered until the tab is closed) before the ward list.
+   Signing in on this website, or pressing the confirm button on the account page, marks the device as trusted (localStorage) for the current reset round. Not shown inside Claude (the artifact is private).
    This is a soft lock for a static site — the check runs in the browser. */
 const GKEY=KEY+"-trusted";let gateOk=false;
-const devTrusted=()=>{try{return localStorage.getItem(GKEY)==="1";}catch(e){return false;}};
-const markTrusted=()=>{try{localStorage.setItem(GKEY,"1");}catch(e){}};
-/* the institution switch on the other website already asked for this website's password → passed for this tab (sessionStorage) */
-const gatePassed=()=>{try{return sessionStorage.getItem(KEY+"-pass")===(CFG.gate&&CFG.gate.h);}catch(e){return false;}};
-const gateOn=()=>{const g=CFG.gate;return !!(g&&g.on&&g.h)&&!IN_FRAME&&!gateOk&&!gatePassed()&&!devTrusted()&&!(fb&&fb.user);};
+/* reset round (config gate.r): //toggle pw reset bumps it, so every device trusted under an older round must type the password again (accounts stay signed in) */
+const GR=()=>(CFG.gate&&+CFG.gate.r)||0;
+const devTrusted=()=>{try{const v=localStorage.getItem(GKEY);return v==="r"+GR()||(GR()===0&&v==="1");}catch(e){return false;}};
+const markTrusted=()=>{try{localStorage.setItem(GKEY,"r"+GR());}catch(e){}};
+/* password typed in this tab (gate, or the institution switch on the other website) → passed until the tab is closed (sessionStorage) */
+const passTok=g=>g&&g.h?g.h+":"+((+g.r)||0):"";
+const gatePassed=()=>{try{return !!CFG.gate&&sessionStorage.getItem(KEY+"-pass")===passTok(CFG.gate);}catch(e){return false;}};
+const markPassed=()=>{try{sessionStorage.setItem(KEY+"-pass",passTok(CFG.gate));}catch(e){}};
+/* being signed in is not enough: the device must have signed in on this website after the latest reset, or been confirmed on the account page */
+const gateOn=()=>{const g=CFG.gate;return !!(g&&g.on&&g.h)&&!IN_FRAME&&!gateOk&&!gatePassed()&&!devTrusted();};
 async function gateHash(t){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode((CFG.gate.salt||"")+t));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");}
 function rGate(){view="gate";document.body.classList.add("gated");$("nav").hidden=true;
   $("main").innerHTML=`<form class="gate" id="gateF" autocomplete="off"><div class="gl" aria-hidden="true">🔒</div><input type="password" id="gateIn" placeholder="รหัสผ่าน" aria-label="รหัสผ่าน" autocomplete="off"><button class="btn primary" type="submit">เข้าเว็บ</button><p class="gerr" id="gateErr" hidden>รหัสไม่ถูกต้อง</p></form>`;
   const i=$("gateIn");setTimeout(()=>i.focus(),50);
   $("gateF").onsubmit=async e=>{e.preventDefault();let ok=false;try{ok=(await gateHash(i.value))===CFG.gate.h;}catch(x){}
-    if(ok){gateOk=true;document.body.classList.remove("gated");route();}else{$("gateErr").hidden=false;i.value="";i.focus();}};}
+    if(ok){gateOk=true;markPassed();document.body.classList.remove("gated");route();}else{$("gateErr").hidden=false;i.value="";i.focus();}};}
 
 /* ---------------- router ---------------- */
 let view="wards", pick=null;
@@ -2096,10 +2101,10 @@ async function initFB(){
     const app=ap.initializeApp(CFG.firebase);
     fb={au,fs,auth:au.getAuth(app),db:fs.getFirestore(app),user:null};loadShared();
     try{await au.setPersistence(fb.auth,au.browserLocalPersistence);}catch(e){}
-    au.getRedirectResult(fb.auth).catch(e=>{authErr=errMsg(e);});
+    au.getRedirectResult(fb.auth).then(r=>{if(r&&r.user)markTrusted();}).catch(e=>{authErr=errMsg(e);});
     au.onAuthStateChanged(fb.auth,async u=>{
       fb.user=u;
-      if(u){markTrusted();if(view==="gate"){gateOk=true;route();}sync="saving";paintAcct();try{await pull();sync="cloud";}catch(e){console.warn(e);sync="error";}flushSharePend();}else sync="local";
+      if(u){sync="saving";paintAcct();try{await pull();sync="cloud";}catch(e){console.warn(e);sync="error";}flushSharePend();}else sync="local";
       paintAcct();if(view==="signin"||view==="wards"||view==="home")route();else if(view==="svc"||view==="sess")rQuiz();
     });
   }catch(e){console.warn("firebase",e);fb=null;fbFail=true;if(view==="signin")rSignin();}
@@ -2234,7 +2239,7 @@ function bindInstCard(){const f=$("instF");if(!f)return;let dest=null;
   f.onsubmit=async e=>{e.preventDefault();if(!dest)return;const i=$("instPw"),g=dest.gate;let ok=!g;
     if(g){try{ok=(await shaHex((g.salt||"")+i.value))===g.h;}catch(x){}}
     if(!ok){$("instErr").textContent="รหัสไม่ถูกต้อง";i.value="";i.focus();return;}
-    try{if(g&&dest.sk)sessionStorage.setItem(dest.sk+"-site-v3-pass",g.h);}catch(x){}
+    try{if(g&&dest.sk)sessionStorage.setItem(dest.sk+"-site-v3-pass",passTok(g));}catch(x){}
     await pushNow();await flushInk();
     if(IN_FRAME){const u=dest.art||dest.url;try{window.open(u,"_blank","noopener");}catch(x){location.href=u;}}else location.href=dest.url||dest.art;};}
 function rSignin(){rSignin0();const m=$("main");if(!m||$("instCard"))return;const c=instCard();if(!c)return;
@@ -2248,8 +2253,10 @@ function rSignin0(){
   if(!fb){h+=fbFail?`<p class="sub">เชื่อมต่อระบบบัญชีไม่ได้ ตรวจอินเทอร์เน็ตแล้วรีเฟรชหน้า ระหว่างนี้ใช้งานได้ตามปกติ (บันทึกในเครื่อง)</p><button class="btn" id="back">กลับ</button>`:`<p class="sub">กำลังเชื่อมต่อระบบบัญชี…</p>`;$("main").innerHTML=h;const bk=$("back");if(bk)bk.onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");return;}
   if(fb.user){
     h+=`<div class="card"><h3>☁️ เข้าสู่ระบบแล้ว</h3><span class="rd">${esc(who(fb.user))}</span><span class="rd">ความคืบหน้า โน้ต และที่เขียนไว้ บันทึกในบัญชีนี้อัตโนมัติ เปิดจากเครื่องไหนก็ได้</span></div>
+    ${devTrusted()?"":`<div class="card" id="trustCard"><h3>🔐 ยืนยันเครื่องนี้</h3><span class="rd">เครื่องนี้ล็อกอินอยู่ แต่ยังไม่ได้ยืนยันในเว็บ ${esc(INST.name)} จึงต้องใส่รหัสเข้าเว็บทุกครั้งที่เปิดแท็บใหม่ — กดยืนยันครั้งเดียว แล้วเครื่องนี้ไม่ต้องใส่รหัสเว็บ ${esc(INST.name)} อีก</span><div class="stack"><button class="btn primary" type="button" id="trustBtn">ยืนยันเครื่องนี้ในเว็บ ${esc(INST.name)}</button></div></div>`}
     <div class="stack"><button class="btn primary" id="back">กลับไปทำข้อสอบ</button><button class="btn ghost" id="out">ออกจากระบบ</button></div>`;
     $("main").innerHTML=h;$("back").onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");
+    const tb=$("trustBtn");if(tb)tb.onclick=()=>{markTrusted();toast("ยืนยันเครื่องนี้แล้ว ไม่ต้องใส่รหัสเว็บ "+INST.name+" อีก");rSignin();};
     $("out").onclick=async()=>{const wipe=confirm("ออกจากระบบ\n\nกด OK = ลบความคืบหน้าออกจากเครื่องนี้ด้วย (แนะนำถ้าเป็นเครื่องคนอื่น — ข้อมูลยังอยู่ในบัญชี)\nกด Cancel = เก็บไว้ในเครื่องนี้");await pushNow();await flushInk();await fb.au.signOut(fb.auth);if(wipe){st={w:{},phase:1,t:0,migrated:1};ink={};persist();try{localStorage.setItem(IKEY,"{}");}catch(e){}}go("");};
     return;}
   h+=`<p class="sub">ไม่บังคับ — เข้าสู่ระบบเพื่อบันทึกความคืบหน้าในบัญชี แล้วใช้ได้หลายเครื่อง ความคืบหน้าที่ทำไว้ในเครื่องนี้จะรวมเข้าบัญชีให้</p>
@@ -2264,9 +2271,9 @@ function rSignin0(){
   $("main").innerHTML=h;
   const A=fb.au,err=m=>{authErr=m;$("err").textContent=m;};
   const em=()=>toEmail($("em").value),pw=()=>$("pw").value;
-  $("gIn").onclick=async()=>{err("");const p=new A.GoogleAuthProvider();try{await A.signInWithPopup(fb.auth,p);}catch(e){if(["auth/popup-blocked","auth/operation-not-supported-in-this-environment","auth/cancelled-popup-request"].includes(e.code)){try{await A.signInWithRedirect(fb.auth,p);}catch(e2){err(errMsg(e2));}}else err(errMsg(e));}};
-  $("eIn").onclick=async()=>{err("");try{await A.signInWithEmailAndPassword(fb.auth,em(),pw());}catch(e){err(errMsg(e));}};
-  $("eUp").onclick=async()=>{err("");try{await A.createUserWithEmailAndPassword(fb.auth,em(),pw());}catch(e){err(errMsg(e));}};
+  $("gIn").onclick=async()=>{err("");const p=new A.GoogleAuthProvider();try{await A.signInWithPopup(fb.auth,p);markTrusted();}catch(e){if(["auth/popup-blocked","auth/operation-not-supported-in-this-environment","auth/cancelled-popup-request"].includes(e.code)){try{await A.signInWithRedirect(fb.auth,p);}catch(e2){err(errMsg(e2));}}else err(errMsg(e));}};
+  $("eIn").onclick=async()=>{err("");try{await A.signInWithEmailAndPassword(fb.auth,em(),pw());markTrusted();}catch(e){err(errMsg(e));}};
+  $("eUp").onclick=async()=>{err("");try{await A.createUserWithEmailAndPassword(fb.auth,em(),pw());markTrusted();}catch(e){err(errMsg(e));}};
   $("eReset").onclick=async()=>{const v=$("em").value.trim();if(!v.includes("@")){err("รีเซ็ตรหัสได้เฉพาะบัญชีที่สมัครด้วยอีเมล — ใส่อีเมลแล้วกดอีกครั้ง");return;}try{await A.sendPasswordResetEmail(fb.auth,em());err("ส่งลิงก์ตั้งรหัสผ่านใหม่ไปที่อีเมลแล้ว");}catch(e){err(errMsg(e));}};
   $("skip").onclick=()=>go(st.lastWard&&WARDS[st.lastWard]?st.lastWard:"");
 }

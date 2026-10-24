@@ -23,7 +23,7 @@ def _inst(d):
     c=json.load(open(os.path.join(d,'config.json') if d else 'config.json',encoding='utf-8'));I=c.get('inst')
     if not I:return None
     g=c.get('gate') or {}
-    return {'id':I.get('id'),'name':I.get('name'),'th':I.get('th',''),'url':c.get('siteUrl',''),'art':c.get('artifactUrl',''),'sk':c.get('storageKey',''),'gate':({'salt':g.get('salt',''),'h':g['h']} if g.get('h') else None)}
+    return {'id':I.get('id'),'name':I.get('name'),'th':I.get('th',''),'url':c.get('siteUrl',''),'art':c.get('artifactUrl',''),'sk':c.get('storageKey',''),'gate':({'salt':g.get('salt',''),'h':g['h'],'r':int(g.get('r',0) or 0)} if g.get('h') else None)}
 _ins=[x for x in [_inst('')]+[_inst(os.path.dirname(f)) for f in sorted(glob.glob('*/config.json'))] if x]
 if len(_ins)>1:cfg['insts']=_ins
 head=tpl[:tpl.index('</style>')]                                   # doctype … platform CSS
