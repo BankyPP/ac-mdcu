@@ -61,7 +61,7 @@ function spcTopicStat(){const o={};bankItems("spc",ward).forEach(x=>{if(!x.q||x.
 function spcEndRun(){const A=AS();A.on=0;A.ts=now();save();pick=null;$("nav").hidden=true;rSpc();window.scrollTo(0,0);}
 function rSpc(){
   const W=W_(),A=spcA(),S=A.sel,all=spcUnits(),hasL=all.some(u=>u.kind==="L"),av=spcAvail(),pool=spcPool(),stat=spcTopicStat(),tab=["T","R","N","L"].includes(st.spcTab)&&(st.spcTab!=="L"||S.L)?st.spcTab:"T";
-  $("nav").hidden=true;
+  $("nav").hidden=true;aiCount();
   let h=`<h1 class="h2">Specialty round</h1><p class="sub">โจทย์ใหม่ที่ AI สร้างทีละข้อแบบ Admission round แต่<b>เนื้อหามาจากไฟล์ของวอร์ดนี้เท่านั้น</b> — เลือกได้ทั้งตามเรื่อง (หัวข้อเดียวกับ “รวมตามเรื่อง” ใน Round I/O) ตามไฟล์ R และตามหน้าโน้ต N เลือกหลายอย่างปนกันได้ หรือสุ่มจากทั้งหมด · สร้างไปเรื่อย ๆ จนกด “จบรอบ” · ทุกข้อเก็บในคลังของคุณ</p>`;
   if(A.run&&A.run.n&&!A.on){const R_=A.run,ts=Object.keys(R_.byT);h+=`<div class="card"><h3>รอบล่าสุด · ${R_.n} ข้อ · ถูก ${R_.r} (${Math.round(R_.r/R_.n*100)}%)</h3>${R_.sel?`<span class="rd">${esc(R_.sel)}</span>`:""}${ts.length?`<div class="spcrun">${ts.map(t=>{const [n,r]=R_.byT[t];return `<span class="tag">${esc(t)} ${r}/${n}</span>`;}).join("")}</div>`:""}</div>`;}
   if(!av.length&&!hasL){h+=`<div class="card"><h3>ยังไม่มี R / N ในวอร์ดนี้</h3><span class="rd" style="margin:0">ส่งไฟล์ resource (R) หรือโน้ตวอร์ด (N) ให้ Claude สรุปเข้า Round I/O ก่อน แล้ว Specialty round จะใช้ได้</span></div>`;}

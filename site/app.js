@@ -1210,6 +1210,8 @@ async function admRun(target){
   try{const q=await admGen(WARDS[wid],m);const A=PWof(st,wid)[m];if(target==="cur"||!A.cur){A.cur=q;A.ans=null;admBank(wid,q,null);}else A.next=q;A.ts=now();save();}
   catch(e){console.warn(m,e);admErr=admMsg(e);if(e&&e.code==="no_ai")admSetup=true;}
   admBusy=false;if(here()){const A=AS();if(A.cur&&A.ans!=null){if(admWant&&A.next){admWant=false;admNext();return;}admWant=false;paintNav();const e=$("admWait");if(e)e.hidden=true;if(admErr)toast(admErr+" — กด ข้อต่อไป เพื่อลองใหม่");}else rAdm();}else admWant=false;}
+/* header "กระดาษคำตอบ a/n" on the Admission / Specialty pages that are not a question (setup, waiting): answered / all in this round's bank */
+function aiCount(){const B=bankItems(AM,ward),c=$("count");if(c)c.textContent=`${B.filter(x=>x.a!=null).length}/${B.length}`;$("prog").style.width="0";}
 function admBank(wid,q,a){const k=(q.spc?"spc|":"adm|")+wid+"|"+q.uid,o=bank[k],v={q,a,c:o&&o.c};if(o&&o.h)v.h=o.h;if(o&&o.sent)v.sent=o.sent;bankPut(k,v);}
 function admAnswer(i){const A=AS();if(!A.cur||A.ans!=null)return;A.ans=i;A.n=(A.n||0)+1;if(i===A.cur.ans)A.right=(A.right||0)+1;admBank(ward,A.cur,i);if(A.cur.spc)spcScore(A,A.cur,i);
   A.recent=(A.recent||[]).concat(A.cur.topic||[]).slice(-25);A.ts=now();save();rQuiz();
@@ -1225,7 +1227,7 @@ function rAdm(){
   if(!admSetup&&A.cur&&A.ans!=null&&A.next){A.cur=A.next;A.next=null;A.ans=null;A.ts=now();admBank(ward,A.cur,null);save();}   /* came back after answering → the next case */
   if(A.cur&&!bank[AM+"|"+ward+"|"+A.cur.uid])admBank(ward,A.cur,A.ans);   /* cases made before the bank existed */
   if(!admSetup&&A.cur){$("nav").hidden=false;pick=null;rQuiz();if(!HAS_CLAUDE()){const sb=document.querySelector(".sessbar");if(sb)sb.insertAdjacentHTML("beforeend",` · <button class="linkbtn" id="admSet" style="font-size:13px;padding:0">ตั้งค่า AI</button>`);const b=$("admSet");if(b)b.onclick=()=>{admSetup=true;rAdm();};}return;}
-  $("nav").hidden=true;
+  $("nav").hidden=true;aiCount();
   let h=SP?`<h1 class="h2">Specialty round</h1><p class="sub">โจทย์ใหม่ที่ AI สร้างทีละข้อ จากไฟล์ของวอร์ดที่เลือกไว้เท่านั้น (${esc(spcSelTxt())}) · <button class="linkbtn" id="spcBack" style="padding:0">เปลี่ยนเรื่อง</button></p>`:`<h1 class="h2">Admission round</h1><p class="sub">เคสใหม่ที่ AI สร้างขึ้นทีละข้อ เนื้อหา ${esc(W.cfg.name)} เหมาะกับนิสิตแพทย์${yearTxt()} — ข้อเดิมจะอยู่จนกว่าจะตอบ ตอบแล้วสร้างข้อใหม่ให้ทันที · ทุกเคสเก็บไว้ในคลังของคุณ ดูย้อนหลังได้จากกระดาษคำตอบ</p>`;
   if(admBusy){h+=`<div class="card"><h3>กำลังสร้างเคสใหม่…</h3><span class="rd" style="margin:0">ใช้เวลาประมาณ 10–60 วินาที</span><div class="spin" aria-hidden="true"></div></div>`;$("main").innerHTML=h;return;}
   {const B=bankItems(AM,ward);if(B.length){const d=B.filter(x=>x.a!=null),r=d.filter(x=>x.a===x.q.ans);h+=`<div class="card"><h3>คลัง ${SP?"Specialty":"Admission"} ของฉัน</h3><span class="rd">เคสที่ AI เคยสร้างให้ ${B.length} ข้อ · ตอบแล้ว ${d.length} · ถูก ${r.length} — เปิดดูโจทย์และเฉลยเก่าได้ตลอด แม้ตอนสร้างข้อใหม่ไม่ได้</span><button class="btn" id="admBankBtn">📋 เปิดกระดาษคำตอบ</button></div>`;}}
