@@ -1230,8 +1230,8 @@ function rAdm(){
   if(admBusy){h+=`<div class="card"><h3>กำลังสร้างเคสใหม่…</h3><span class="rd" style="margin:0">ใช้เวลาประมาณ 10–60 วินาที</span><div class="spin" aria-hidden="true"></div></div>`;$("main").innerHTML=h;return;}
   {const B=bankItems(AM,ward);if(B.length){const d=B.filter(x=>x.a!=null),r=d.filter(x=>x.a===x.q.ans);h+=`<div class="card"><h3>คลัง ${SP?"Specialty":"Admission"} ของฉัน</h3><span class="rd">เคสที่ AI เคยสร้างให้ ${B.length} ข้อ · ตอบแล้ว ${d.length} · ถูก ${r.length} — เปิดดูโจทย์และเฉลยเก่าได้ตลอด แม้ตอนสร้างข้อใหม่ไม่ได้</span><button class="btn" id="admBankBtn">📋 เปิดกระดาษคำตอบ</button></div>`;}}
   if(!HAS_CLAUDE()&&fb&&fb.user&&sync==="error")h+=`<p class="hint" style="color:var(--wrong)">⚠ บันทึกขึ้นบัญชีไม่สำเร็จ — ตรวจ Firestore rules หรืออินเทอร์เน็ต</p>`;
-  if(!SP)h+=sharedAdmCard();h+=ufaBtn("ufaAdm");
-  h+=`<div id="admBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;$("main").innerHTML=h;{const bb=$("admBankBtn");if(bb)bb.onclick=openS;}{const sb=$("spcBack");if(sb)sb.onclick=spcEndRun;}if(!SP)bindSharedAdm();bindUfa();
+  h+=sharedAdmCard(AM)+ufaBtn("ufaAdm");
+  h+=`<div id="admBox"><p class="hint">กำลังตรวจการเชื่อมต่อ AI…</p></div>`;$("main").innerHTML=h;{const bb=$("admBankBtn");if(bb)bb.onclick=openS;}{const sb=$("spcBack");if(sb)sb.onclick=spcEndRun;}bindSharedAdm(AM);bindUfa();
   aiMode().then(mode=>{const box=$("admBox");if(!box||!isAIV())return;
     if(mode&&!admSetup&&!admErr){admRun("cur");return;}
     let x="";
@@ -1596,7 +1596,7 @@ function rLegend(){
 const SHARED={},SHAREDQ={};let sharedT=0,sharedErr="";
 const SPKEY=KEY+"-sharepend";
 const unshared=x=>!x.shared;
-function shareItems(wid){const o=[];["adm","lai","lc"].forEach(kd=>bankItems(kd,wid).forEach(x=>{if(!unshared(x))return;if((kd==="lc"&&x.case)||(kd!=="lc"&&x.q&&Array.isArray(x.q.opts)))o.push(x.key);}));return o;}
+function shareItems(wid){const o=[];["adm","spc","lai","lc"].forEach(kd=>bankItems(kd,wid).forEach(x=>{if(!unshared(x))return;if((kd==="lc"&&x.case)||(kd!=="lc"&&x.q&&Array.isArray(x.q.opts)))o.push(x.key);}));return o;}
 const shareCount=wid=>shareItems(wid).length;
 /* shared pool per ward: shared/<ward> (MDCU) · another institution prefixes its wards (config sharedPrefix, SI = "si_") so SI Med and MDCU Med never mix */
 const SHW=id=>(CFG.sharedPrefix||"")+id;
@@ -1604,7 +1604,7 @@ async function loadShared(){if(!fb)return;try{for(const w of WL){const snap=awai
     snap.forEach(x=>{const d=x.data();if(!d||!d.d)return;try{const v=JSON.parse(d.d);if(d.kind==="lc"){if(v&&v.case)L_.push({id:x.id,kind:"lc",case:v.case,orig:v.orig||"",ts:d.ts||0,by:d.by});}
       else if(v&&v.q&&Array.isArray(v.q.opts)&&v.q.uid){L_.push({id:x.id,kind:d.kind,q:v.q,ts:d.ts||0,by:d.by});SHAREDQ[w.id+"|"+v.q.uid]=v.q;}}catch(e){}});
     SHARED[w.id]=L_.sort((a,b)=>a.ts-b.ts);}
-  sharedT=now();sharedErr="";if(["adm","lcase","home","sess"].includes(view))route();}catch(e){console.warn("shared",e);sharedErr=(e&&(e.code||e.message))||"error";sharedT=now();if(view==="adm")route();}}
+  sharedT=now();sharedErr="";if(["adm","spc","lcase","home","sess"].includes(view))route();}catch(e){console.warn("shared",e);sharedErr=(e&&(e.code||e.message))||"error";sharedT=now();if(view==="adm"||view==="spc")route();}}
 /* upload to the shared bank (website, signed in); without sign-in the keys wait in this browser until the next sign-in */
 async function shareUpload(wid,keys){keys=keys.filter(k=>bank[k]);if(!keys.length)return 0;
   if(!fb||!fb.user){const pend=ld(SPKEY)||{};pend[wid]=[...new Set((pend[wid]||[]).concat(keys))];try{localStorage.setItem(SPKEY,JSON.stringify(pend));}catch(e){}return -keys.length;}
@@ -1625,17 +1625,20 @@ async function updateForAll(noteId){const keys=shareItems(ward);const note=$(not
     catch(e){console.warn(e);toast("สร้างลิงก์ไม่สำเร็จ");}return;}
   const n=await shareUpload(ward,keys);
   if(n<0){toast("เข้าสู่ระบบก่อน แล้วระบบจะแชร์ให้ทุกคนทันที");go("signin");}else if(n)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);else toast("แชร์ไม่สำเร็จ — ตรวจการเชื่อมต่อ");
-  if(view==="adm"||view==="lcase"||view==="lhist")route();}
-const ufaBtn=(id)=>{const n=shareCount(ward);return n&&(HAS_CLAUDE()?CFG.siteUrl:fbOn())?`<div class="ufa"><button class="btn ufab" data-ufa="${id}" type="button">🌐 Update for all (${n})</button><span class="hint">แชร์โจทย์ใหม่ที่ AI สร้าง (Admission · Legendary · Long case) ขึ้นเว็บให้ทุกคน ทุกเครื่อง ทุกบัญชี — ไม่รวมคำตอบของคุณ</span><span class="hint" id="${id}"></span></div>`:"";};
+  if(view==="adm"||view==="spc"||view==="lcase"||view==="lhist")route();}
+const ufaBtn=(id)=>{const n=shareCount(ward);return n&&(HAS_CLAUDE()?CFG.siteUrl:fbOn())?`<div class="ufa"><button class="btn ufab" data-ufa="${id}" type="button">🌐 Update for all (${n})</button><span class="hint">แชร์โจทย์ใหม่ที่ AI สร้าง (Admission · Specialty · Legendary · Long case) ขึ้นเว็บให้ทุกคน ทุกเครื่อง ทุกบัญชี — ไม่รวมคำตอบของคุณ</span><span class="hint" id="${id}"></span></div>`:"";};
 const bindUfa=()=>document.querySelectorAll("[data-ufa]").forEach(b=>b.onclick=()=>updateForAll(b.dataset.ufa));
 /* shared bank on the Admission page and the Long case page (website) */
-function sharedAdmCard(){const L_=(SHARED[ward]||[]).filter(x=>x.kind!=="lc");
+const SHK=m=>m==="spc"?["spc"]:["adm","lai"];
+const shMine=(x,m)=>SHK(m).concat(m==="spc"?[]:["spc"]).some(kd=>bank[kd+"|"+ward+"|"+x.q.uid]);
+function sharedAdmCard(m){const K=SHK(m),L_=(SHARED[ward]||[]).filter(x=>K.includes(x.kind));
   if(!L_.length){if(HAS_CLAUDE()||!fbOn())return "";return `<div class="card"><h3>🌐 คลังรวมจากทุกคน</h3><span class="rd" style="margin:0">${sharedErr?`โหลดคลังรวมไม่ได้ (${esc(sharedErr)})${String(sharedErr).includes("permission")?" — ตรวจ Firestore rules":""}`:sharedT?"ยังไม่มีโจทย์ในคลังรวม — กด 🌐 Update for all ใน Claude เพื่อแชร์โจทย์ที่ AI สร้างขึ้นมาที่นี่":"กำลังโหลดคลังรวม…"}</span></div>`;}
-  const mine=x=>!!(bank["adm|"+ward+"|"+x.q.uid]||bank["lai|"+ward+"|"+x.q.uid]),todo=L_.filter(x=>!mine(x));
-  return `<div class="card"><h3>🌐 คลังรวมจากทุกคน</h3><span class="rd">โจทย์ที่ AI สร้างและผู้ใช้แชร์ไว้ ${L_.length} ข้อ · ยังไม่เคยทำ ${todo.length} ข้อ — ตอบแล้วจะเก็บเข้าคลังของคุณ</span><div class="row2"><button class="btn" id="shAll" type="button">ทำทั้งหมด</button><span class="spacer"></span><button class="btn primary" id="shNew" type="button" ${todo.length?"":"disabled"}>ทำข้อที่ยังไม่เคยทำ (${todo.length})</button></div></div>`;}
-function bindSharedAdm(){const L_=(SHARED[ward]||[]).filter(x=>x.kind!=="lc"),mine=x=>!!(bank["adm|"+ward+"|"+x.q.uid]||bank["lai|"+ward+"|"+x.q.uid]);
-  const a=$("shAll");if(a)a.onclick=()=>startSess("adm","Admission · คลังรวม",shuffle(L_).map(x=>x.q.uid));
-  const b=$("shNew");if(b)b.onclick=()=>startSess("adm","Admission · คลังรวม (ข้อใหม่)",shuffle(L_.filter(x=>!mine(x))).map(x=>x.q.uid));}
+  const todo=L_.filter(x=>!shMine(x,m)),sel=m==="spc"?spcSharedSel(L_):null;
+  return `<div class="card"><h3>🌐 คลังรวมจากทุกคน</h3><span class="rd">โจทย์${m==="spc"?" Specialty":""}ที่ AI สร้างและผู้ใช้แชร์ไว้ ${L_.length} ข้อ · ยังไม่เคยทำ ${todo.length} ข้อ — ตอบแล้วจะเก็บเข้าคลังของคุณ${m==="spc"?" (มาจากไฟล์ของวอร์ดนี้ที่แต่ละคนมี)":""}</span><div class="row2"><button class="btn" id="shAll" type="button">ทำทั้งหมด</button><span class="spacer"></span><button class="btn primary" id="shNew" type="button" ${todo.length?"":"disabled"}>ทำข้อที่ยังไม่เคยทำ (${todo.length})</button></div>${sel?`<button class="btn" id="shSel" type="button" style="margin-top:8px;width:100%" ${sel.length?"":"disabled"}>เฉพาะเรื่อง / ไฟล์ที่เลือกไว้ (${sel.length})</button>`:""}</div>`;}
+function bindSharedAdm(m){const K=SHK(m),L_=(SHARED[ward]||[]).filter(x=>K.includes(x.kind)),k=m==="spc"?"spc":"adm",t=m==="spc"?"Specialty":"Admission";
+  const a=$("shAll");if(a)a.onclick=()=>startSess(k,t+" · คลังรวม",shuffle(L_).map(x=>x.q.uid));
+  const b=$("shNew");if(b)b.onclick=()=>startSess(k,t+" · คลังรวม (ข้อใหม่)",shuffle(L_.filter(x=>!shMine(x,m))).map(x=>x.q.uid));
+  const c=$("shSel");if(c)c.onclick=()=>startSess(k,t+" · คลังรวม (เรื่องที่เลือก)",shuffle(spcSharedSel(L_)).map(x=>x.q.uid));}
 function sharedLcHTML(){const L_=(SHARED[ward]||[]).filter(x=>x.kind==="lc"&&!bank[x.orig]&&!bank["lc|"+ward+"|S"+x.id]);if(!L_.length)return "";
   return `<h2 class="h2" style="font-size:18px;margin-top:22px">🌐 เคสรวมจากทุกคน</h2><div class="card" style="padding:6px">${L_.map(x=>`<button class="srow" data-shlc="${esc(x.id)}"><span class="meta" style="flex:1">${esc(x.case.intro.slice(0,90))}${x.case.intro.length>90?"…":""}</span><span class="go">→</span></button>`).join("")}</div>`;}
 function bindSharedLc(){document.querySelectorAll("[data-shlc]").forEach(b=>b.onclick=()=>{const x=(SHARED[ward]||[]).find(y=>y.id===b.dataset.shlc);if(!x)return;const k="lc|"+ward+"|S"+x.id;bankPut(k,{case:x.case,step:0,my:{},shared:now()+10000});P_().lcCur=k;st.lcView="";save();rLCase();window.scrollTo(0,0);});}
@@ -1693,10 +1696,10 @@ function checkLegImport(){const m=/[#&](?:legs|bank)=([zj]\.[A-Za-z0-9_-]+)/.exe
     try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){}
     toast("นำเข้าจาก Claude แล้ว: "+[np?`ผลสอบ Legendary ${np} ครั้ง`:"",na?`โจทย์ Admission / Specialty ${na} ข้อ`:"",nc?`CTA ${nc} หัตถการ`:""].filter(Boolean).join(" · "));
     if(nc&&!np&&!na){go(w+"/tch/cta");return;}
-    if(Array.isArray(o.share)&&o.share.length){const sk=o.share.filter(k=>/^(adm|lai|lc)\|/.test(k)&&k.split("|")[1]===w&&b[k]);sk.forEach(k=>{if(!bank[k]&&b[k])bank[k]=b[k];});
+    if(Array.isArray(o.share)&&o.share.length){const sk=o.share.filter(k=>/^(adm|spc|lai|lc)\|/.test(k)&&k.split("|")[1]===w&&b[k]);sk.forEach(k=>{if(!bank[k]&&b[k])bank[k]=b[k];});
       const wait=async()=>{for(let i=0;i<40&&!(fb&&fb.user)&&fbOn();i++)await new Promise(r=>setTimeout(r,250));const n=await shareUpload(w,sk);
         if(n>0)toast(`แชร์โจทย์ให้ทุกคนแล้ว ${n} ข้อ`);else if(n<0){toast("เข้าสู่ระบบเพื่อแชร์โจทย์ให้ทุกคน — เก็บไว้รอแล้ว");}};wait();}
-    go(w+"/"+(np?"lhist":"adm"));}
+    go(w+"/"+(np?"lhist":keys.some(k=>k.startsWith("spc|"))&&!keys.some(k=>k.startsWith("adm|"))?"spc":"adm"));}
   catch(e){console.warn(e);uiAlert("ลิงก์ผลสอบไม่ถูกต้อง หรือไม่ครบ (ลองคัดลอกลิงก์ใหม่ทั้งหมด)");}})();
   return true;}
 function legStart(aiQs){

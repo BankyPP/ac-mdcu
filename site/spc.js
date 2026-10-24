@@ -48,6 +48,9 @@ function spcStamp(q,o,src,wid){const A=spcA(wid);
   A.pts[src.key]=(A.pts[src.key]||[]).concat(q.point||q.topic||[]).slice(-12);A.done[src.key]=src.rev;save();}
 function spcScore(A,q,i){const R_=A.run||(A.run={n:0,r:0,byT:{},t0:now()}),ok=i===q.ans?1:0;R_.n++;R_.r+=ok;
   (q.spcT||[]).forEach(t=>{const x=R_.byT[t]||(R_.byT[t]=[0,0]);x[0]++;x[1]+=ok;});}
+/* shared Specialty questions that match the current choice (by the page they came from, else by topic) */
+function spcSharedSel(L_){const A=spcA(),S=A.sel;if(S.all)return L_;const keys=new Set(spcPool().map(u=>u.key));if(!keys.size)return [];
+  return L_.filter(x=>keys.has(x.q.srcKey)||(x.q.spcT||[]).some(t=>S.T.includes(t)));}
 /* explanation: the file and the lines that answer this question + a link to that Round I/O page */
 function spcSrcBox(q){return `<div class="spcsrc"><div class="spch">📄 ที่มาในไฟล์ของวอร์ด: <b>${esc(q.srcRes||"ไฟล์ของวอร์ด")}</b></div>${q.quote?`<div class="spcq">${q.quote}</div>`:""}${q.conflict?`<div class="spcwarn">⚠ ${q.conflict}</div>`:""}${q.srcPage&&ioAll().some(x=>x.p.id===q.srcPage)?`<a class="linkbtn" href="${ioHref("p",q.srcPage)}">เปิดหน้านี้ใน Round I/O →</a>`:""}</div>`;}
 function spcSelTxt(wid){const A=spcA(wid),S=A.sel;if(S.all)return "สุ่มจากทุกเรื่อง"+(S.L?" (รวม L)":"");
@@ -86,10 +89,11 @@ function rSpc(){
     const cont=A.cur&&A.ans==null&&A.runSig===spcSig(pool);
     h+=`<div class="row2"><span class="spacer"></span><button class="btn primary" id="spcGo" ${pool.length?"":"disabled"}>${cont?"ทำข้อค้างต่อ":"เริ่มสร้างโจทย์"}</button></div>`;}
   {const B=bankItems("spc",ward);if(B.length){const d=B.filter(x=>x.a!=null),r=d.filter(x=>x.a===x.q.ans);h+=`<div class="card"><h3>คลัง Specialty ของฉัน</h3><span class="rd">โจทย์ที่ AI เคยสร้างให้ ${B.length} ข้อ · ตอบแล้ว ${d.length} · ถูก ${r.length} — เปิดดูโจทย์และเฉลยเก่าได้ตลอด แม้ตอนสร้างข้อใหม่ไม่ได้</span><button class="btn" id="admBankBtn">📋 เปิดกระดาษคำตอบ</button></div>`;}}
+  h+=sharedAdmCard("spc")+ufaBtn("ufaSpc");
   h+=`<p class="hint">ใช้ร่วมกันทั้ง MCQ / MEQ / OSCE ของวอร์ดนี้ · ต้องมี AI (เปิดใน Claude หรือใส่ API key — ถามตอนกดเริ่ม)</p>`;
   $("main").innerHTML=h;
   const re=()=>{save();rSpc();};
-  {const b=$("admBankBtn");if(b)b.onclick=openS;}
+  {const b=$("admBankBtn");if(b)b.onclick=openS;}bindSharedAdm("spc");bindUfa();
   document.querySelectorAll("[data-sptab]").forEach(b=>b.onclick=()=>{st.spcTab=b.dataset.sptab;persist();rSpc();});
   const tg=(arr,v)=>{const i=arr.indexOf(v);if(i<0)arr.push(v);else arr.splice(i,1);};
   document.querySelectorAll("[data-sptopic]").forEach(b=>b.onclick=()=>{S.all=0;tg(S.T,b.dataset.sptopic);re();});
