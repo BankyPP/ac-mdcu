@@ -1,8 +1,8 @@
 // node parts/merge_meta7479.js <code> <set> <ro> [dir=data] → adds parts/meta7479/<code>_tt.json (topic+tags) and <code>_dups.json into <dir>/topics.js, tags.js, dups.js
 const fs=require("fs"),path=require("path");const R=path.join(__dirname,"..");
 const [code,set,ro,dirArg]=process.argv.slice(2);const dir=path.join(R,dirArg||"data");
-const tt=JSON.parse(fs.readFileSync(path.join(__dirname,"meta7479",code+"_tt.json"),"utf8"));
-const dpath=path.join(__dirname,"meta7479",code+"_dups.json");const dups=fs.existsSync(dpath)?JSON.parse(fs.readFileSync(dpath,"utf8")):{};
+const tt=JSON.parse(fs.readFileSync(path.join(__dirname,process.env.META||"meta7479",code+"_tt.json"),"utf8"));
+const dpath=path.join(__dirname,process.env.META||"meta7479",code+"_dups.json");const dups=fs.existsSync(dpath)?JSON.parse(fs.readFileSync(dpath,"utf8")):{};
 // all keys in the ward bank
 const keys=new Set();fs.readdirSync(dir).filter(f=>/^data_b\d+\.js$/.test(f)).forEach(f=>{const B=[];new Function("QB",fs.readFileSync(path.join(dir,f),"utf8"))(B);B.forEach(q=>keys.add(q.set+"|"+q.ro+"|"+q.orig));});
 const mine=Object.keys(tt).map(o=>set+"|"+ro+"|"+o);let bad=0;
