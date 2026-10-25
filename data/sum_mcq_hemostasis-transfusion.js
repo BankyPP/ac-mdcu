@@ -95,6 +95,18 @@ SUMM.push({tag:"Hemostasis & transfusion", title:"Hemostasis & transfusion",
        pearls:["หยุด 3 วัน / หยุดวันผ่าตัดแล้วให้ FFP / เปลี่ยนเป็น aspirin = ตัวลวง","จำ 5 วันแล้วลืมถามว่าต้อง bridge หรือไม่","MDCU73 RoC: ต้นฉบับเขียนแค่ 'history of valvular heart surgery' ไม่ระบุชนิดลิ้น — คลังเติม mechanical mitral valve + elective major abdominal surgery เพื่อให้ bridge เป็นคำตอบเดียว (ถ้า bioprosthetic หรือ AF ความเสี่ยงต่ำ ตอบหยุด 5 วันได้)"],
        members:["MDCU77|RoB|35","MDCU73|RoC|29"]}
     ]},
+    {title:"Thrombosis: ปัจจัยเสี่ยงและการรักษา DVT", sections:[
+      {id:"hit-thrombosis-risk", title:"ปัจจัยเสี่ยง thrombosis ที่แรงที่สุด: heparin-induced thrombocytopenia (HIT)",
+       asked:["ข้อใดเป็น risk factor ของ thrombosis ที่แรงที่สุด → heparin-induced thrombocytopenia (ไม่ใช่ smoking, long-haul flight, oral contraceptive, varicose veins)"],
+       pattern:["<b>HIT type II:</b> IgG ต่อ PF4–heparin complex กระตุ้น platelet ผ่าน FcγRIIa → platelet ลด >50% ใน 5–10 วันหลังเริ่ม heparin + thrombin มหาศาล → ไม่รักษาเกิด thrombosis ~30–50% ทั้ง venous และ arterial (DVT / PE, limb ischemia, stroke, MI, skin necrosis)","วินิจฉัย: 4T score → anti-PF4 ELISA → functional assay (SRA); รักษา: หยุด heparin ทุกชนิด (รวม flush, LMWH) → non-heparin anticoagulant (argatroban, bivalirudin, fondaparinux, DOAC); ห้ามให้ platelet; warfarin เริ่มเมื่อ platelet ฟื้น (กัน venous limb gangrene)","เทียบน้ำหนัก: Caprini HIT = 3 คะแนน, OCP / HRT และ varicose veins = 1; combined OCP เพิ่ม VTE ราว 3–4 เท่า แต่อัตรา thrombosis ใน HIT สูงกว่ามาก"],
+       pearls:["HIT คือเกล็ดเลือดต่ำที่ทำให้ <b>ลิ่มเลือด</b> ไม่ใช่เลือดออก","MDCU71 RoB: คีย์ในไฟล์ = oral contraceptive pills (ไฮไลต์เขียว) แต่คลังตอบ HIT — เป็น hypercoagulable state ที่รุนแรงที่สุดในช้อย; ช้อย varicose veins แต่งเพิ่ม"],
+       members:["MDCU71|RoB|57"]},
+      {id:"dvt-treatment", title:"การรักษา proximal DVT: เริ่ม anticoagulant ที่ออกฤทธิ์ทันที",
+       asked:["ชายน่องบวมหลังบิน 10 ชม. duplex ยืนยัน proximal DVT ไม่มีข้อห้าม anticoagulation → เริ่มยาใด = IV unfractionated heparin (ไม่ใช่ aspirin, clopidogrel, warfarin อย่างเดียว, urokinase thrombolysis)"],
+       pattern:["ต้องใช้ anticoagulant ที่ออกฤทธิ์ทันทีเพื่อหยุด clot ขยายและกัน PE: <b>UFH</b> IV bolus 80 U/kg แล้ว 18 U/kg/hr ปรับ aPTT 1.5–2.5 เท่า หรือ LMWH (enoxaparin 1 mg/kg ทุก 12 ชม.)","<b>Warfarin ต้อง overlap</b> กับ heparin ≥5 วันจน INR ≥2 ติดกัน 24 ชม. (เป้า INR 2–3) — warfarin ลด protein C, S ก่อน factor II, X → hypercoagulable ช่วงแรก","<b>CHEST 2021 / ASH 2020:</b> DVT ทั่วไปแนะนำ DOAC (rivaroxaban, apixaban — ไม่ต้อง lead-in heparin; dabigatran / edoxaban ต้องให้ parenteral 5 วันก่อน) หรือ LMWH มากกว่า UFH; UFH ใช้เมื่อ CrCl <30, อาจต้องทำหัตถการ หรือพิจารณา thrombolysis","ระยะเวลา: provoked (transient risk เช่น ผ่าตัด, เดินทางนาน) 3 เดือน; unprovoked / มะเร็ง → พิจารณา extended; thrombolysis สงวนไว้สำหรับ phlegmasia / limb-threatening; antiplatelet ไม่ใช่การรักษา VTE"],
+       pearls:["เลือก warfarin เพราะจำว่า DVT กิน warfarin 3–6 เดือน แต่ลืมว่าต้องเริ่มด้วย heparin / LMWH และ overlap; aspirin / clopidogrel ใช้กับ arterial thrombosis","MDCU72 RoB: IV heparin ถูกที่สุดในช้อยนี้ — ถ้ามีช้อย DOAC หรือ LMWH ให้เลือกตาม guideline ปัจจุบัน"],
+       members:["MDCU72|RoB|31"]}
+    ]},
     {title:"Trauma resuscitation, blood product และ massive transfusion", sections:[
       {id:"damage-control-blood", title:"ให้เลือด / สารน้ำใน hemorrhagic shock (ATLS) และ damage control",
        trend:"unstable หลัง crystalloid → เลือดเป็นสัดส่วน ไม่ใช่ crystalloid เพิ่ม",
