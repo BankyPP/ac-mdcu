@@ -1132,7 +1132,7 @@ body.gated header.bar,body.gated #legban,body.gated .nav,body.gated .qbar{displa
 const IMGS={};const WARDS={};
 Object.assign(IMGS,{"os132_1": "img/os132_1.jpg", "os132_11": "img/os132_11.jpg", "os132_12": "img/os132_12.jpg", "os132_2": "img/os132_2.jpg", "os132_4": "img/os132_4.jpg", "os132_6": "img/os132_6.jpg", "os132_9": "img/os132_9.jpg"});
 const CONFIG={"title": "คลังข้อสอบเก่า SI", "brand": "Past Prevent Med Y4 MEQ", "sub": "คลังข้อสอบเก่า", "storageKey": "ac-si-v1", "setLabel": "ปี", "roLabel": "Rotation", "chipStrip": "SI", "files": {}, "siteUrl": "https://bankypp.github.io/ac-mdcu/si/", "siteName": "คลังข้อสอบเก่า", "inst": {"id": "si", "name": "SI", "th": "ศิริราช", "en": "Faculty of Medicine Siriraj Hospital, Mahidol University (SI)", "enShort": "Siriraj Hospital, Mahidol University", "stu": "นักศึกษาแพทย์"}, "wards": [{"id": "sx", "name": "Surgery", "short": "Sx", "year": "Y4", "sub": "SI", "brand": "Past Sx Y4 MCQ", "dir": "data_sx", "scope": "Surgery", "dates": [], "meqTopics": []}, {"id": "ped", "name": "Pediatrics", "short": "Ped", "year": "Y4", "sub": "SI", "brand": "Past Ped Y4 MCQ", "dir": "data_ped", "scope": "Pediatrics", "dates": [], "meqTopics": []}, {"id": "prevmed", "name": "Preventive Medicine", "short": "Prevent Med", "year": "Y4", "sub": "SI", "brand": "Past Prevent Med Y4 MEQ", "dir": "data_prevmed", "scope": "Preventive medicine", "noExam": ["MCQ", "OSCE"], "dates": [], "meqTopics": []}, {"id": "med", "name": "Internal Medicine", "short": "Med", "year": "Y4", "sub": "SI", "brand": "Past Med Y4 MCQ", "dir": "data_med", "scope": "Internal medicine", "dates": [], "meqTopics": [], "osceTopics": [{"id": "lab", "name": "Lab interpretation"}, {"id": "img", "name": "Imaging"}, {"id": "micro", "name": "Microscope"}, {"id": "ekg", "name": "EKG"}, {"id": "skin", "name": "Skin lesion"}, {"id": "pefind", "name": "Describe physical findings"}, {"id": "hx", "name": "History taking", "ex": 1}, {"id": "pe", "name": "Physical examination", "ex": 1}, {"id": "proc", "name": "Procedure", "ex": 1, "proc": 1}], "exam": {"OSCE": {"n": 25, "min": 5}}}], "firebase": {"apiKey": "AIzaSyDIzd81Qw7shAOj3uiGU1T8tm90HXtF4yg", "authDomain": "ac-mdcu.firebaseapp.com", "projectId": "ac-mdcu", "storageBucket": "ac-mdcu.firebasestorage.app", "messagingSenderId": "537236830552", "appId": "1:537236830552:web:40d77940f7adf0fecd8d2d", "measurementId": "G-BYB1HZMHK6"}, "fbPath": ["users", "{uid}", "inst", "si"], "sharedPrefix": "si_", "homeBrand": "Past {short} SI134 by BankyPP", "quizBrand": "Past {short} {type}", "artifactUrl": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "subjects": [{"id": "surgery", "name": "Surgery", "wards": ["sx"]}, {"id": "pediatrics", "name": "Pediatrics", "wards": ["ped"]}, {"id": "prevmed", "name": "Preventive Medicine", "wards": ["prevmed"]}, {"id": "medicine", "name": "Medicine", "wards": ["med"]}], "gate": {"on": false, "salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b", "r": 0}, "roundNames": {"Grand round": "Random", "Service round": "Year by year", "Legendary round": "Real Experience", "Ward staff round": "Redo", "Teaching round": "Guidance", "Advisor round": "Revise", "Unit round": "Lecture quiz", "Quality round": "Timed", "Admission round": "Anything", "Specialty round": "Quiz by topics", "Round I/O": "Summary"}, "insts": [{"id": "mdcu", "name": "MDCU", "th": "จุฬาฯ", "url": "https://bankypp.github.io/ac-mdcu/", "art": "https://claude.ai/artifact/5KGcnr6yKsqvXGNh73mmfE", "sk": "ac-sx-mcq-mdcu-y4-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b", "r": 0}}, {"id": "si", "name": "SI", "th": "ศิริราช", "url": "https://bankypp.github.io/ac-mdcu/si/", "art": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "sk": "ac-si-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b", "r": 0}}]};
-const BUILD="25/10/2026 10:21";
+const BUILD="25/10/2026 11:06";
 WARDS["sx"]={QB:[],HY:null};
 WARDS["sx"].MQ=[];
 WARDS["sx"].OS=[];
@@ -4532,23 +4532,30 @@ const SND={ctx:null,
   init(){try{if(!this.ctx){const C=window.AudioContext||window.webkitAudioContext;if(!C)return null;this.ctx=new C();}if(this.ctx.state==="suspended")this.ctx.resume();}catch(e){return null;}return this.ctx;},
   play(k,vol){if(!k||k==="none")return;const c=this.init();if(!c)return;const g=c.createGain();g.gain.value=vol==null?qpS().vol:vol;g.connect(c.destination);sndRender(k,c,g,c.currentTime+0.03);}};
 function sndTone(c,d,f,t,dur,type,peak,atk){const o=c.createOscillator(),g=c.createGain();o.type=type||"sine";o.frequency.value=f;g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(peak,t+(atk||0.006));g.gain.exponentialRampToValueAtTime(0.0001,t+dur);o.connect(g);g.connect(d);o.start(t);o.stop(t+dur+0.05);}
-function sndDing(c,d,t){[[1318.5,.42,1.4],[2637,.14,.7],[3955,.05,.35]].forEach(([f,a,u])=>sndTone(c,d,f,t,u,"sine",a));}
-function sndRing(c,d,t,len){   /* electric bell: bright metal tone struck ~24 times a second */
+/* the four sounds below are re-synthesized from measurements of reference recordings (partial frequencies, levels, decay times, rhythm) — no audio files are copied */
+function sndPart(c,d,f,t,a,tau,L){   /* one sine partial: 3 ms attack, exponential decay (time constant tau), faded out at t+L */
+  const o=c.createOscillator(),g=c.createGain();o.frequency.value=f;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(a,t+.003);g.gain.setTargetAtTime(0,t+.003,tau);
+  g.gain.setValueAtTime(a*Math.exp(-(L-.003)/tau),t+L);g.gain.linearRampToValueAtTime(0,t+L+.03);o.connect(g);g.connect(d);o.start(t);o.stop(t+L+.05);}
+function sndDing(c,d,t){   /* bright metallic ding, ~0.8 s: high partials die fast, 3.4 k / 1.26 k linger */
+  [[1257,.017,1.3],[3397,.035,.5],[6287,.3,.145],[9834,.2,.067],[13977,.13,.012]].forEach(([f,a,u])=>sndPart(c,d,f,t,a,u,.78));}
+function sndRing(c,d,t,len){   /* electric bell: high bright partials, clapper ~12 strikes a second */
   const m=c.createGain();m.gain.setValueAtTime(0,t);m.connect(d);
-  [[910,.30],[1838,.13],[2731,.07],[3603,.04]].forEach(([f,a])=>{const o=c.createOscillator(),g=c.createGain();o.type="triangle";o.frequency.value=f;g.gain.value=a;o.connect(g);g.connect(m);o.start(t);o.stop(t+len+0.9);});
-  for(let x=0;x<len;x+=1/24){m.gain.setValueAtTime(1,t+x);m.gain.setTargetAtTime(0.35,t+x+0.004,0.012);}
-  m.gain.setValueAtTime(0.85,t+len);m.gain.setTargetAtTime(0.0001,t+len,0.16);}
-function sndBell(c,d,t){       /* large temple bell: low strike, inharmonic partials, long ringing decay */
-  const f=98;[[0.5,.24,13],[1,.27,11],[1.004,.18,11],[1.19,.15,7],[1.56,.12,5.5],[2,.10,4.5],[2.51,.07,3.4],[2.66,.05,2.8],[3.01,.04,2.3],[4.1,.03,1.5],[5.43,.016,1]].forEach(([k,a,u])=>sndTone(c,d,f*k,t,u,"sine",a,0.004));
-  const n=Math.floor(c.sampleRate*0.06),b=c.createBuffer(1,n,c.sampleRate),x=b.getChannelData(0);for(let i=0;i<n;i++)x[i]=(Math.random()*2-1)*(1-i/n);
-  const s=c.createBufferSource();s.buffer=b;const lp=c.createBiquadFilter();lp.type="lowpass";lp.frequency.value=700;const ng=c.createGain();ng.gain.value=.22;s.connect(lp);lp.connect(ng);ng.connect(d);s.start(t);}
-function sndBuzz(c,d,t,len){   /* low, harsh "แอด" buzzer: detuned saws + square an octave down, flat and hard on/off */
-  const m=c.createGain();m.gain.setValueAtTime(0.0001,t);m.gain.linearRampToValueAtTime(1,t+0.006);m.gain.setValueAtTime(1,t+len-0.02);m.gain.linearRampToValueAtTime(0.0001,t+len);m.connect(d);
-  [[196,"sawtooth",.2],[198.5,"sawtooth",.14],[98,"square",.12],[392,"square",.05]].forEach(([f,ty,a])=>{const o=c.createOscillator(),g=c.createGain();o.type=ty;o.frequency.value=f;g.gain.value=a;o.connect(g);g.connect(m);o.start(t);o.stop(t+len+0.03);});}
+  [[1097,.008],[1900,.024],[2899,.012],[4922,.014],[5200,.072],[7974,.06],[8780,.11],[11219,.056],[14888,.045]].forEach(([f,a])=>{const o=c.createOscillator(),g=c.createGain();o.frequency.value=f;g.gain.value=a;o.connect(g);g.connect(m);o.start(t);o.stop(t+len+.4);});
+  for(let x=0;x<len;x+=1/12){m.gain.setValueAtTime(1,t+x);m.gain.setTargetAtTime(.72,t+x+.004,.02);}
+  m.gain.setValueAtTime(.85,t+len);m.gain.setTargetAtTime(.0001,t+len,.03);}
+function sndBell(c,d,t){       /* "bell" = meditation ding: singing-bowl tone ~2 s, shimmer from close partial pairs */
+  [[567,.06,3],[578,.06,3],[1587,.08,.7],[1605,.07,.7],[3047,.2,.32],[4867,.04,.087]].forEach(([f,a,u])=>sndPart(c,d,f,t,a,u,2));}
+const ALM={f0:51.1,loud:{6:.7,12:.32,13:.65,18:.1,19:.43,24:.28,25:.54,28:.16,30:.06,31:.2,34:.53,36:.08,40:.33,42:.07,45:.17,46:.33,51:.07,52:.24,58:.21},
+  soft:{6:1,12:.06,13:.06,19:.27,28:.13,34:.12}};
+function almWave(c,k){c.__alm=c.__alm||{};if(!c.__alm[k]){const n=64,re=new Float32Array(n),im=new Float32Array(n);for(const h in ALM[k])im[h]=ALM[k][h];c.__alm[k]=c.createPeriodicWave(re,im);}return c.__alm[k];}
+function sndAlarm(c,d,t,n){    /* clock alarm: low buzzy "แอด" 0.33 s (307 Hz family on a 51 Hz grid) + quieter echo 0.32 s, every 0.65 s */
+  [["loud",.33,0,.33],["soft",.05,.33,.65]].forEach(([k,a,s0,s1])=>{const o=c.createOscillator(),g=c.createGain();o.setPeriodicWave(almWave(c,k));o.frequency.value=ALM.f0;g.gain.setValueAtTime(0,t);
+    for(let p=0;p<n;p++){const s=t+p*.65;g.gain.setValueAtTime(0,s+s0);g.gain.linearRampToValueAtTime(a,s+s0+.004);g.gain.setValueAtTime(a,s+s1-.006);g.gain.linearRampToValueAtTime(0,s+s1);}
+    o.connect(g);g.connect(d);o.start(t);o.stop(t+n*.65+.05);});}
 function sndRender(k,c,d,t){switch(k){
   case"ding":sndDing(c,d,t);break;case"ding2":sndDing(c,d,t);sndDing(c,d,t+.3);break;
-  case"ring":sndRing(c,d,t,1.6);break;case"triple":sndRing(c,d,t,.3);sndRing(c,d,t+.55,.3);sndRing(c,d,t+1.1,1.9);break;
-  case"alarm":for(let p=0;p<3;p++)sndBuzz(c,d,t+p*.5,.32);break;   /* low "แอด" ×3 — wake-from-a-dream buzzer */
+  case"ring":sndRing(c,d,t,1);break;case"triple":sndRing(c,d,t,.3);sndRing(c,d,t+.55,.3);sndRing(c,d,t+1.1,1.9);break;
+  case"alarm":sndAlarm(c,d,t,3);break;
   case"bell":sndBell(c,d,t);break;}}
 window.__snd={render:sndRender};   /* used by tools/smoke_site.py to check loudness offline */
 
