@@ -156,5 +156,13 @@ SUMM.push({tag:"Small bowel", title:"Small bowel",
        pattern:["<b>Richter</b> = ผนังลำไส้ด้าน antimesenteric บางส่วนติดใน defect แคบ → partial หรือไม่มี obstruction แต่ strangulate / perforate ได้ วินิจฉัยช้า; พบใน femoral hernia (ปากถุงแข็ง) > inguinal และที่ trocar site ≥ 10 mm → ผ่าตัดฉุกเฉิน ตัดต่อลำไส้ถ้าเน่า","<b>Littre</b> = Meckel diverticulum ในถุง; <b>Amyand</b> = appendix ในถุง inguinal hernia (<b>de Garengeot</b> = ในถุง femoral); <b>Grynfeltt</b> = lumbar hernia ที่ superior lumbar triangle (Petit = inferior); <b>obturator</b> = หญิงสูงอายุผอม มี Howship-Romberg sign มักวินิจฉัยตอนเป็น SBO — รายละเอียดเต็มดูหน้า Hernia"],
        pearls:["เห็น partial obstruction แล้วคิดว่าไม่ร้ายแรง — Richter ขาดเลือดและทะลุได้โดยไม่มี complete obstruction","สับสน eponym: Littre = Meckel, Amyand = appendix, Richter = antimesenteric wall"],
        members:["MDCU73|RoB|100"]}
+    ]},
+    {title:"ความผิดปกติแต่กำเนิดของ duodenum", sections:[
+      {id:"duodenal-atresia", title:"Duodenal atresia และ annular pancreas",
+       trend:"ทารก duodenal atresia แล้วถามความผิดปกติที่พบร่วม — ตัวลวงหลักคือ pancreas divisum",
+       asked:["ทารกแรกเกิด duodenal atresia → pancreatic anomaly ที่พบร่วมบ่อยที่สุด / anomaly ที่สัมพันธ์ = annular pancreas (ตัวลวง pancreas divisum, duodenal agenesis, congenital pancreatic cyst, Budd-Chiari) — ออก 2 recall ใน MDCU71 RoB"],
+       pattern:["<b>Duodenal atresia</b>: recanalization ล้มเหลว; polyhydramnios, อาเจียน (มักมีน้ำดีเพราะอุดใต้ ampulla) ตั้งแต่วันแรก, X-ray <b>double bubble ไม่มีลมส่วนปลาย</b>","พบร่วม: <b>Down syndrome ~30%</b>, annular pancreas, malrotation, congenital heart disease (echocardiogram ก่อนผ่าตัด), esophageal atresia, imperforate anus","<b>Annular pancreas</b> = ventral pancreatic bud หมุนผิดปกติ เนื้อตับอ่อนรัดรอบ D2; ผู้ใหญ่อาจมาด้วย duodenal obstruction, pancreatitis, peptic ulcer","ผ่าตัด: resuscitate + NG decompression → <b>diamond-shaped duodenoduodenostomy (Kimura)</b> bypass ส่วนที่อุด; <b>ห้ามตัด / แบ่ง annular pancreas</b> (เสี่ยง pancreatic fistula / pancreatitis และไม่แก้ atresia ข้างใต้)","double bubble + มีลมส่วนปลาย + อาเจียนน้ำดี → ต้องแยก <b>malrotation with midgut volvulus</b> ด่วน (UGI study)"],
+       pearls:["Pancreas divisum = anomaly ของตับอ่อนที่พบบ่อยที่สุดในประชากรทั่วไป แต่ไม่ทำให้ duodenum อุดและไม่ใช่ตัวที่พบร่วมกับ atresia","ต้นฉบับทั้งสองฉบับมีแค่หัวข้อ ‘Duodenal atresia’ — คลังแต่ง stem ให้ถาม anomaly ที่พบร่วม (สอง recall ตอบตรงกัน)"],
+       members:["MDCU71|RoB|35","MDCU71|RoB|ไม่มีเลข 12"]}
     ]}
   ]});
