@@ -87,8 +87,16 @@ for w in cfg.get('wards',[]):
     hy=os.path.join(d,'highyield.js')
     if os.path.exists(hy): js.append('(function(W){\n'+open(hy,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
     if PACK:
-        fn='data_'+re.sub(r'\W','',w['id'])+'.js'; os.makedirs(OUT,exist_ok=True)
-        open(os.path.join(OUT,fn),'w',encoding='utf-8').write('\n'.join(js[j0:])+'\n'); del js[j0:]; wsrc.append(fn)
+        # an artifact text file is capped at 16MB → split a big ward into data_<ward>.js, data_<ward>_2.js … (≤12MB each, loaded in order)
+        os.makedirs(OUT,exist_ok=True); base='data_'+re.sub(r'\W','',w['id']); chunks=[[]]; sz=0
+        for part in js[j0:]:
+            n=len(part.encode())
+            if chunks[-1] and sz+n>12*1024*1024: chunks.append([]); sz=0
+            chunks[-1].append(part); sz+=n
+        for i,ch in enumerate(chunks):
+            fn=base+('' if i==0 else '_%d'%(i+1))+'.js'
+            open(os.path.join(OUT,fn),'w',encoding='utf-8').write('\n'.join(ch)+'\n'); wsrc.append(fn)
+        del js[j0:]
 out=(head+'</style>\n<style>\n'+open('site/extra.css',encoding='utf-8').read()+'</style>\n</head>\n<body>\n'
      +body.replace('/*TITLE*/',html.escape(title))
      +'\n<script>\n'+'\n'.join(js)+'\n</script>\n'+''.join(f'<script src="{fn}?v={len(open(os.path.join(OUT,fn),encoding="utf-8").read())}"></script>\n' for fn in wsrc)+'<script>\n'+open('site/app.js',encoding='utf-8').read().replace('"use strict";\n','"use strict";\n'+open('site/meq.js',encoding='utf-8').read()+'\n'+open('site/osce.js',encoding='utf-8').read()+'\n'+open('site/io.js',encoding='utf-8').read()+'\n'+open('site/spc.js',encoding='utf-8').read()+'\n'+open('site/hysum.js',encoding='utf-8').read()+'\n'+(open('site/teach_data.js',encoding='utf-8').read() if os.path.exists('site/teach_data.js') else '')+'\n'+open('site/teach.js',encoding='utf-8').read()+'\n',1)+'\n</script>\n</body>\n</html>\n')
