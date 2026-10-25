@@ -983,13 +983,13 @@ function sndBell(c,d,t){       /* large temple bell: low strike, inharmonic part
   const f=98;[[0.5,.24,13],[1,.27,11],[1.004,.18,11],[1.19,.15,7],[1.56,.12,5.5],[2,.10,4.5],[2.51,.07,3.4],[2.66,.05,2.8],[3.01,.04,2.3],[4.1,.03,1.5],[5.43,.016,1]].forEach(([k,a,u])=>sndTone(c,d,f*k,t,u,"sine",a,0.004));
   const n=Math.floor(c.sampleRate*0.06),b=c.createBuffer(1,n,c.sampleRate),x=b.getChannelData(0);for(let i=0;i<n;i++)x[i]=(Math.random()*2-1)*(1-i/n);
   const s=c.createBufferSource();s.buffer=b;const lp=c.createBiquadFilter();lp.type="lowpass";lp.frequency.value=700;const ng=c.createGain();ng.gain.value=.22;s.connect(lp);lp.connect(ng);ng.connect(d);s.start(t);}
-function sndBuzz(c,d,t,len){   /* digital alarm-clock beep: flat, buzzy, hard on/off (one "แอด") */
-  const m=c.createGain();m.gain.setValueAtTime(0.0001,t);m.gain.linearRampToValueAtTime(1,t+0.004);m.gain.setValueAtTime(1,t+len-0.012);m.gain.linearRampToValueAtTime(0.0001,t+len);m.connect(d);
-  [[1046.5,"square",.19],[2093,"square",.06],[523.25,"sawtooth",.1],[3139.5,"sine",.035]].forEach(([f,ty,a])=>{const o=c.createOscillator(),g=c.createGain();o.type=ty;o.frequency.value=f;g.gain.value=a;o.connect(g);g.connect(m);o.start(t);o.stop(t+len+0.03);});}
+function sndBuzz(c,d,t,len){   /* low, harsh "แอด" buzzer: detuned saws + square an octave down, flat and hard on/off */
+  const m=c.createGain();m.gain.setValueAtTime(0.0001,t);m.gain.linearRampToValueAtTime(1,t+0.006);m.gain.setValueAtTime(1,t+len-0.02);m.gain.linearRampToValueAtTime(0.0001,t+len);m.connect(d);
+  [[196,"sawtooth",.2],[198.5,"sawtooth",.14],[98,"square",.12],[392,"square",.05]].forEach(([f,ty,a])=>{const o=c.createOscillator(),g=c.createGain();o.type=ty;o.frequency.value=f;g.gain.value=a;o.connect(g);g.connect(m);o.start(t);o.stop(t+len+0.03);});}
 function sndRender(k,c,d,t){switch(k){
   case"ding":sndDing(c,d,t);break;case"ding2":sndDing(c,d,t);sndDing(c,d,t+.3);break;
   case"ring":sndRing(c,d,t,1.6);break;case"triple":sndRing(c,d,t,.3);sndRing(c,d,t+.55,.3);sndRing(c,d,t+1.1,1.9);break;
-  case"alarm":for(let p=0;p<3;p++){sndBuzz(c,d,t+p*.6,.13);sndBuzz(c,d,t+p*.6+.2,.13);}break;   /* "แอด แอด" ×3 — iPhone Clock-style alarm */
+  case"alarm":for(let p=0;p<3;p++)sndBuzz(c,d,t+p*.5,.32);break;   /* low "แอด" ×3 — wake-from-a-dream buzzer */
   case"bell":sndBell(c,d,t);break;}}
 window.__snd={render:sndRender};   /* used by tools/smoke_site.py to check loudness offline */
 
