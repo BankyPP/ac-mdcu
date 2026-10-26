@@ -156,15 +156,17 @@ function tLogBind(){}
 /* ---------- CTA: list page (drag ☰ to reorder · tap to open) + one page per procedure ---------- */
 const tCtaHref=id=>"#/"+ward+"/tch/cta"+(id?"/"+encodeURIComponent(id):"");
 const tTxt=h=>String(h||"").replace(/<[^>]+>/g,"").replace(/&nbsp;/g," ").trim();
-function tCtaList(O){const PR=O.procs;TV.prac=null;
+/* a procedure tagged with a ward (p.ward) shows only in that ward; untagged ones (older) show in every ward */
+const tCtaVis=(p,w)=>!p.ward||p.ward===(w||ward);
+function tCtaList(O){const IX=O.procs.map((p,i)=>tCtaVis(p)?i:-1).filter(i=>i>=0),PR=IX.map(i=>O.procs[i]);TV.prac=null;
   let h=`<div class="tchv"><div class="whead"><h1 class="h2">${TK.cta.ico} CTA</h1><a href="#/${esc(ward)}/teach">Teaching round</a></div>
-    <p class="sub" style="margin:0 0 12px">ทุกหัตถการของบัญชีนี้ ใช้ร่วมกันทุกวอร์ด · แตะเพื่อเปิด · ☰ กดค้างแล้วลากขึ้น-ลงเพื่อจัดลำดับ (บันทึกเอง)</p>`;
+    <p class="sub" style="margin:0 0 12px">หัตถการของบัญชีนี้ในวอร์ดนี้ (หัตถการที่เพิ่มในวอร์ดไหนขึ้นเฉพาะวอร์ดนั้น) · แตะเพื่อเปิด · ☰ กดค้างแล้วลากขึ้น-ลงเพื่อจัดลำดับ (บันทึกเอง)</p>`;
   h+=PR.length?`<div class="ctalist">${PR.map((p,i)=>{const R=p.rows||[],n=R.filter(r=>tTxt(r.c)).length,nk=R.filter(r=>tKws(r.k).length).length;
       return `<div class="trow ctarow" data-i="${i}"><span class="tgrip" data-grip title="กดค้างแล้วลากขึ้น-ลงเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰</span><a class="iorow" href="${tCtaHref(p.id)}"><span class="iocode">${i+1}</span><span class="iot"><b>${esc(p.name)}</b><span class="rd">${n} ช่อง · keyword ${nk}/${R.length}${p.src?` · ${esc(p.src)}`:""}</span></span><span class="go">→</span></a></div>`;}).join("")}</div>`
     :`<div class="empty">ยังไม่มีหัตถการ — กด “📄 ใส่ไฟล์ CTA” ให้เว็บเติมเนื้อหาตามไฟล์ทุกคำ หรือ “+ เพิ่มหัตถการ” แล้วพิมพ์เอง</div>`;
   h+=`<div class="stack" style="margin-top:12px"><button class="btn primary" id="tcImp" type="button">📄 ใส่ไฟล์ CTA</button><button class="btn" id="cpAdd" type="button">+ เพิ่มหัตถการ</button></div></div>`;
   $("main").innerHTML=h;tCtaBind(O,null);$("tcImp").onclick=()=>tCtaImport(O,null);
-  tDrag(document.querySelector(".ctalist"),ord=>{const c=O.procs.slice();O.procs=ord.map(i=>c[i]);tchPut("cta",O);tCtaList(O);});}
+  tDrag(document.querySelector(".ctalist"),ord=>{const c=O.procs.slice(),nv=ord.map(i=>c[IX[i]]);IX.forEach((j,k)=>{c[j]=nv[k];});O.procs=c;tchPut("cta",O);tCtaList(O);});}
 function tCta(O,tab,cur){let h="";
   if(tab==="prac"){TV.ctaP=cur.id;h+=`<div id="tPrac"></div>`;$("tBody").innerHTML=h;
     if(TV.prac&&(TV.prac.tool!=="cta"||TV.prac.proc!==cur.id))TV.prac=null;
@@ -183,7 +185,7 @@ function tCta(O,tab,cur){let h="";
   {const b=$("cpDel");if(b)b.onclick=async()=>{if(!await uiAsk(`ลบหัตถการ “${cur.name}” ทั้งหมด?`))return;O.procs=O.procs.filter(p=>p!==cur);tFileDel(cur.id);TV.ctaP="";TV.prac=null;tchPut("cta",O);go(ward+"/tch/cta");};}}
 function tCtaLabel(r){const t=String(r.c||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();return t.length>70?t.slice(0,70)+"…":t||"(ช่องว่าง)";}
 function tCtaBind(O){const b=$("cpAdd");if(!b)return;
-  b.onclick=async()=>{const n=await uiInput("ชื่อหัตถการ (เช่น NG tube insertion)");if(!n||!n.trim())return;const p={id:tId(),name:n.trim(),rows:[{id:tId(),c:"",k:"",w:""}]};O.procs.push(p);TV.ctaP=p.id;TV.tab.cta="full";tchPut("cta",O);go(ward+"/tch/cta/"+encodeURIComponent(p.id));};}
+  b.onclick=async()=>{const n=await uiInput("ชื่อหัตถการ (เช่น NG tube insertion)");if(!n||!n.trim())return;const p={id:tId(),name:n.trim(),ward,rows:[{id:tId(),c:"",k:"",w:""}]};O.procs.push(p);TV.ctaP=p.id;TV.tab.cta="full";tchPut("cta",O);go(ward+"/tch/cta/"+encodeURIComponent(p.id));};}
 function tPracCta(cur,R){const box=tT();
   const nk=R.filter(r=>tKws(r.k).length).length;
   box.innerHTML=(`<div class="card"><h3>ฝึก ${esc(cur.name)}</h3><span class="rd">พิมพ์ตอบทุกช่อง (หรือสุ่ม 1 ช่อง) แล้วตรวจว่ามี keyword ครบเป๊ะ ๆ ตาม tab Keyword ไหม — ไม่ใช้ AI · มี keyword แล้ว ${nk}/${R.length} ช่อง</span>
@@ -349,7 +351,7 @@ Rules — transcription, NOT summary:
 - Copy EVERY word exactly as written, in the original language(s) (Thai and English mixed). Do not translate, paraphrase, correct, shorten, reorder or add anything. Keep numbering, bullets, symbols, units and punctuation as on the page.
 - Printed text: use the spelling from the text layer below whenever it is given (it is exact); the images decide the order and the layout.
 - Handwriting (pen notes, ticks with words, arrows with words, circled notes): put it exactly where it belongs in the flow, wrapped in <span class="hw">…</span>. If a handwritten word is truly unreadable write <span class="hw">[อ่านไม่ออก]</span>.
-- Keep emphasis: bold → <b>, underline → <u>, highlighter → <mark>, crossed out → <s>. Line breaks inside a cell → <br>. No other tags, no markdown.
+- Keep emphasis: bold → <b>, printed bold blue → <b class="must">, printed red → <span class="red">, underline → <u>, pen underline → <u class="pen">, yellow highlighter → <mark>, pink highlighter → <mark class="pk">, blue highlighter → <mark class="bl">, crossed out → <s>. Red-pen handwriting → <span class="hw r">, pink-pen → <span class="hw p">. Line breaks inside a cell → <br>. No other tags, no markdown.
 - Pictures/diagrams: one short placeholder in Thai in the right place, e.g. [รูป: ท่าจับเข็ม]. Tables: one row of the table per cell, columns joined with " | ".
 - Split into cells the way the page is organised: one cell per step / numbered item / heading with its lines. Sub-items of a step (a., b., indented bullets, notes under it) stay in that step's cell, each on a new line with <br>. Page headers, footers and page numbers are skipped.
 - ${first?"title = the procedure name as written on the first page (or \"\").":"title = \"\"."} cont = true only if the first cell of these pages continues a sentence or step cut off at the end of the previous page.
@@ -396,7 +398,7 @@ function tCtaImport(O,cur){const ai=tAI(),dlg=document.createElement("div");dlg.
       ${cur?`<label class="ck"><input type="radio" name="tcw" value="app"> ต่อท้ายใน “${esc(cur.name)}”</label><label class="ck"><input type="radio" name="tcw" value="rep"> แทนที่เนื้อหาทั้งหมดของ “${esc(cur.name)}” (keyword / wording เดิมหายด้วย)</label>`:""}
       <div class="dlg-act" style="margin-top:8px"><button class="btn primary" id="tcOk" type="button">ใส่ลงตาราง</button></div>`;
     $("tcOk").onclick=async()=>{const w=(dlg.querySelector("[name=tcw]:checked")||{}).value,R=res.rows.map(r=>({id:tId(),c:r.c,k:"",w:""}));let p;
-      if(w==="new"){const n=($("tcName").value||"").trim()||nm||"หัตถการใหม่";p={id:tId(),name:n,rows:R,src:fs.map(f=>f.name).join(", ")};O.procs.push(p);}
+      if(w==="new"){const n=($("tcName").value||"").trim()||nm||"หัตถการใหม่";p={id:tId(),name:n,ward,rows:R,src:fs.map(f=>f.name).join(", ")};O.procs.push(p);}
       else{p=cur;if(w==="rep"){if(!await uiAsk(`แทนที่เนื้อหาทั้งหมดของ “${cur.name}”?`))return;p.rows=R;}else p.rows=p.rows.filter(r=>String(r.c||"").replace(/<[^>]+>/g,"").trim()||r.k||r.w).concat(R);p.src=fs.map(f=>f.name).join(", ");}
       if(res.pages.length){const old=w==="app"?((await tFileGet(p.id))||[]):[];await tFileSave(p.id,old.concat(res.pages));}
       TV.ctaP=p.id;TV.tab.cta="full";TV.prac=null;tchPut("cta",O);close();go(ward+"/tch/cta/"+encodeURIComponent(p.id));toast("ใส่เนื้อหาแล้ว — ตรวจทานกับไฟล์ต้นฉบับได้ที่ “ดูไฟล์ต้นฉบับ”");};};}
