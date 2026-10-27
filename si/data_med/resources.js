@@ -87,5 +87,33 @@ W.RES=[
 "Scrub typhus (O. tsutsugamushi, chigger, eschar 48–82%) vs murine typhus (R. typhi, rat flea, no eschar); Rx doxycycline 100 mg BID 3–7 d หรือ azithromycin",
 "Mycoplasma pneumoniae: bullous myringitis, rash/EM/MIRM, AIHA (cold agglutinin); PCR best test; macrolide resistance สูงในเอเชีย (China 91%) → FQ หรือ doxycycline เป็นทางเลือก"
 ]
+},
+{
+"code": "R02",
+"title": "Adrenal insufficiency: old and new treatment",
+"topic": "Endocrinology",
+"tags": [
+"Endocrinology"
+],
+"type": "Handout (slides)",
+"url": "",
+"note": "Taweesak Wannachalee, M.D. · Division of Endocrinology and Metabolism, Siriraj · 22 ก.ค. 2564 · 47 หน้า — classification, causes, clinical, diagnosis (revised cut-off Elecsys II), adrenal crisis, GC/MC replacement, MR-HC/CSHI",
+"points": [
+"Primary AI (Addison): ACTH ↑ >2-fold, ขาด GC + MC + androgen → hyperpigmentation (ACTH→MSH), salt craving, hyperkalemia; อาการเกิดเมื่อ adrenal ถูกทำลาย ≥90%",
+"Secondary AI: สาเหตุบ่อยสุด = chronic exogenous steroid (IV/oral มากสุด, inhaled fluticasone, topical BSA กว้าง); ACTH ต่ำ/ปกติ, aldosterone ปกติ → ไม่มี hyperkalemia; pituitary causes: tumor, apoplexy, Sheehan, post-op, radiation",
+"สาเหตุ primary AI: autoimmune (APS1 เด็ก, APS2 ผู้ใหญ่), TB/histoplasmosis/HIV/CMV, bilateral metastasis (lung, breast), adrenal hemorrhage (APS, anticoagulant, DIC), ยา ketoconazole, etomidate, mitotane, checkpoint inhibitors",
+"เฉพาะ primary: hyperpigmentation, vitiligo, salt craving, hyperkalemia, auricular calcification; เฉพาะ secondary: pale skin, pituitary hormone deficiency อื่น; hypoglycemia พบใน secondary มากกว่า",
+"Lab chronic AI: hyponatremia, hyperkalemia (primary), mild hypercalcemia, hypoglycemia, eosinophilia/lymphocytosis, normocytic anemia, Cr ↑; สงสัยเมื่อ unexplained hyponatremia ± hyperK, hypotension, hypoglycemia",
+"Adrenal crisis: hypotension/acute circulatory failure, severe weakness, acute abdominal pain + guarding, N/V, fever, altered sensorium",
+"Revised cut-off (Elecsys II, ค่าต่ำกว่า assay เก่า 20–30%): 8 AM cortisol <3 µg/dL = AI, >12 = HPA ปกติ, 3–12 → ACTH stimulation; random (stress), ITT, ACTH stim peak >15 µg/dL = exclude AI (เดิม 18)",
+"Total cortisol จับ CBG 80%: CBG ↑ (estrogen, pregnancy, mitotane) ค่าสูงเกินจริง; CBG ↓ (inflammation, cirrhosis, nephrotic, hyperthyroid) และ albumin <2.5 g/dL ค่าต่ำ; หยุด HC 18–24 hr, pred 3 วัน, dex 5 วันก่อนตรวจ",
+"ITT = gold standard (ทั้งแกน): end test PG <40 mg/dL + อาการ hypoglycemia; C/I epilepsy, cardiac ischemia, arrhythmia",
+"ACTH 250 mcg: ทำได้ทุกเวลา, วัด 0/30/60 min; 1 mcg (physiologic) ดีกว่าใน mild/recent SAI และหลังผ่าตัด pituitary",
+"Adrenal crisis Rx: เจาะ glucose, electrolyte, cortisol (ACTH) แล้วให้ IV fluid + glucose + HC 100 mg IV stat; ถ้า cortisol <15 → HC 200 mg/24 hr drip หรือ 50 mg IV q6–8 hr, NSS ต่อ 24–48 hr, หา precipitating cause, taper ใน 1–3 วัน; >15 → หยุด HC",
+"Chronic replacement: HC first line 15–25 mg/d แบ่ง 2–3 ครั้ง (10–20 เช้า, 5–10 กลางวัน) หรือ prednisolone 2.5–5 mg OD; PAI เพิ่ม fludrocortisone 0.05–0.2 mg เช้า; secondary ให้ GC อย่างเดียว",
+"Fludrocortisone เริ่ม 0.05 mg/d ประเมิน 2–4 wk: ไม่พอ = postural hypotension, salt craving, renin สูง, K สูง (เพิ่ม 0.025–0.05); เกิน = HT, edema, renin ต่ำ, hypokalemia; ตั้งเป้า PRA upper normal, ตรวจหลังปรับ ≥1–2 wk; HC 40 mg ≈ FC 100 mcg",
+"HC vs prednisolone: HC first line, half-life 90 min (หลายมื้อ); pred once daily แต่ metabolic/growth effect มากกว่า, mortality ใน PAI สูงกว่า (HR 2.45 vs 1.82)",
+"MR-HC: Plenadren วันละครั้งเช้า (dual release, AUC ต่ำกว่า 20%, BMI/BP/metabolic/QOL ดีขึ้น แต่ไม่มี prewaking rise); Chronocort (Efmody) วันละ 2 ครั้ง มี overnight rise คุม androgen ใน CAH; CSHI ผ่าน insulin pump สำหรับปัญหา GI/CAH คุมยาก"
+]
 }
 ];
