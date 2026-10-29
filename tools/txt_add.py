@@ -53,5 +53,5 @@ doc['pages'].sort(key=lambda p: key(p['id'])); B['txt'].sort(key=lambda x: int(x
 done = sorted({int(x['ch']) for x in B['txt']})
 doc['src'] = meta['src'] + f' · ใส่แล้ว {len(done)} บท (บท {", ".join(map(str, done))})'
 doc['upd'] = max(p['upd'] for p in doc['pages'])
-open(fn, 'w', encoding='utf-8').write(HEAD.format(t=meta['title']) + json.dumps(B, ensure_ascii=False, indent=0) + '\n);\n')
+open(fn, 'w', encoding='utf-8').write(HEAD.replace('{t}', meta['title']) + json.dumps(B, ensure_ascii=False, indent=0) + '\n);\n')
 print('wrote', fn, len(B['txt']), 'chapters,', len(doc['pages']), 'pages')
