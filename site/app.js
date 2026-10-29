@@ -41,7 +41,9 @@ WL.forEach(w=>{
   W.byU={};QB.forEach(q=>{W.byU[q.uid]=q;});
   W.NOTE.forEach(q=>{q.id=0;q.uid="NOTE|"+q.set+"|"+q.ro;q.opts=q.opts||["ปิด"];W.byU[q.uid]=q;});
   /* related questions (data/dups.js: groups of set|ro|orig) → W.REL[uid] = [other uids] */
-  {const k2u={};QB.forEach(q=>{k2u[q.set+"|"+q.ro+"|"+q.orig]=q.uid;});W.REL={};(W.DUP||[]).forEach(g=>{const us=g.map(k=>k2u[k]).filter(Boolean);us.forEach(u=>{W.REL[u]=us.filter(x=>x!==u);});});}
+  {const k2u={};QB.forEach(q=>{k2u[q.set+"|"+q.ro+"|"+q.orig]=q.uid;});W.REL={};(W.DUP||[]).forEach(g=>{const us=g.map(k=>k2u[k]).filter(Boolean);us.forEach(u=>{W.REL[u]=us.filter(x=>x!==u);});});
+    /* list related questions in the same order as the Service round year picker (newest year first, then RoA→RoD…) — QB is already sorted that way, so q.id order = picker order */
+    Object.values(W.REL).forEach(a=>a.sort((x,y)=>(W.byU[x]?W.byU[x].id:1e9)-(W.byU[y]?W.byU[y].id:1e9)));}
   W.sets=[...new Set(QB.map(setKey))];
   W.R=s=>String(s==null?"":s).replace(/(ข้อ(?:ถัดไป)?\s*)(\d[\d,\s]*(?:\([^()]*\)[\d,\s]*)*)/g,(m,p,nums)=>p+nums.replace(/\([^()]*\)|\d+/g,t=>t[0]==="("?W.R(t):((+t>=10&&W.RID2ID[+t])?W.RID2ID[+t]:t)));
   /* Unit round banks (<dir>/unit_*.js → W.UNIT.push({id,title,short,src,QB:[…]})): new case-based questions per lecture, shared by both phases */
