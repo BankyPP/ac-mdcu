@@ -920,3 +920,9 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 .mynote-top .mn-t+.mn-ink{margin-top:8px}
 .rs2{display:block;margin:-4px 0 10px;text-align:left;font-size:13.5px;text-decoration:none}
 .rs2 b{text-decoration:underline}
+.rswrap{position:relative}
+.rswrap .resume{padding-right:58px}
+.rsx{position:absolute;top:20px;right:6px;width:26px;height:26px;border-radius:50%;border:0;background:transparent;color:var(--muted);font-size:18px;line-height:1;cursor:pointer}
+.rsx:hover{background:var(--rule);color:var(--ink)}
+.rsx.sm{top:2px;right:0;width:22px;height:22px;font-size:15px}
+.rswrap .rs2{padding-right:26px}

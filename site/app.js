@@ -149,7 +149,7 @@ function route(){
   if(h.w==="grades"){ward=null;return show("grades");}
   if(!h.w||!WARDS[h.w]||!WL.some(x=>x.id===h.w)){if(QR)qStop();ward=null;return show("wards");}
   if(QR&&QR.ward!==h.w)qStop();
-  ward=h.w;
+  ward=h.w;qRestore();
   let v=h.v||"home";
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
@@ -439,8 +439,8 @@ function rHome(){
     const done=QB.filter(q=>atts(P,p,q.uid).length),right=done.filter(q=>lastA(P,p,q.uid)[0]===q.ans);
     h+=`<p class="statline">คลังมี <b>${totalN(ward)}</b> ข้อ · ข้อสอบเก่า <b>${QB.length}</b> ข้อ · Phase ${p} ทำแล้ว <b>${done.length}</b> ข้อ · ล่าสุดถูก <b>${done.length?Math.round(right.length/done.length*100)+"%":"–"}</b> · <span style="white-space:nowrap">มี lecture <b>${(w.lectures||[]).length}</b> บท</span></p>`;
     {const R=homeResume(P,p);if(R.length){const [a,b]=R;
-      h+=`<button class="resume" id="resume" data-rs="${a.k}"><span>ทำต่อ: <b>${esc(a.title)}</b><span class="rd">${a.d}</span></span><span class="go">→</span></button>`;
-      if(b)h+=`<button class="linkbtn rs2" data-rs="${b.k}">หรือทำต่อ: <b>${esc(b.title)}</b> · ${b.d} →</button>`;}}
+      h+=`<div class="rswrap"><button class="resume" id="resume" data-rs="${a.k}"><span>ทำต่อ: <b>${esc(a.title)}</b><span class="rd">${a.d}</span></span><span class="go">→</span></button><button class="rsx" data-rsx="${a.k}" aria-label="ซ่อนกล่องนี้" title="ซ่อน (ขึ้นใหม่เมื่อกลับไปทำรอบนี้อีก)">×</button></div>`;
+      if(b)h+=`<div class="rswrap"><button class="linkbtn rs2" data-rs="${b.k}">หรือทำต่อ: <b>${esc(b.title)}</b> · ${b.d} →</button><button class="rsx sm" data-rsx="${b.k}" aria-label="ซ่อน">×</button></div>`;}}
     if(p===2){const l=p2lists();
       h+=`<div class="card"><h3>ทบทวนก่อนสอบ</h3><span class="rd">สรุปจากข้อสอบเก่าทุกปี และเลือกทวนเฉพาะกลุ่มข้อ</span><div class="tools">
       <button class="tool" data-go="hy">📘 สรุป High-yield${(n=>n?`<span class="n" title="ข้อใหม่ที่ Claude ยังไม่ได้สรุป">🆕 ${n}</span>`:"")(hsPendingN("MCQ"))}</button><button class="tool" data-go="kw">🔑 Keyword ตอบข้อสอบ</button>
@@ -474,6 +474,7 @@ function rHome(){
   bindGrades();
   document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(ward+"/"+b.dataset.go));
   document.querySelectorAll("[data-p2]").forEach(b=>b.onclick=()=>{const k=b.dataset.p2,l=p2lists()[k];const t={wrong:"ข้อที่ยังผิดอยู่",right:"ข้อที่ทำถูกแล้ว",flag:"ข้อที่ยังไม่มั่นใจ",nop1:"ข้อที่ไม่เคยทำใน Phase 1"}[k];startSess("p2"+k,t,l.map(q=>q.uid));});
+  document.querySelectorAll("[data-rsx]").forEach(b=>b.onclick=()=>{const P=P_();P.rsHide=P.rsHide||{};P.rsHide[b.dataset.rsx+"|"+ph()]=now();save();toast("ซ่อนแล้ว · จะขึ้นอีกเมื่อกลับไปทำรอบนั้น");rHome();});
   document.querySelectorAll("[data-rs]").forEach(b=>b.onclick=()=>{if(b.dataset.rs==="svc"){svcQ();go(ward+"/svc");}else go(ward+"/sess");});
   const mc=$("mClock");if(mc){let lastDay=mDay();show._t=setInterval(()=>{if(!document.body.contains(mc)){clearInterval(show._t);return;}mc.textContent=hms(mNext()-now());if(mDay()!==lastDay){lastDay=mDay();rHome();}},1000);}
   document.querySelectorAll("[data-round]").forEach(b=>b.onclick=e=>{if(e&&e.target&&e.target.closest&&e.target.closest("[data-mhist]"))return go(ward+"/mhist");const k=b.dataset.round;const R=ROUNDS.find(r=>r.k===k);if(R.soon){toast("โหมดนี้จะเพิ่มภายหลัง");return;}
@@ -485,13 +486,13 @@ function rHome(){
     else toast("โหมดนี้จะเพิ่มภายหลัง");});
 }
 /* home "ทำต่อ" box: the unfinished round (a session, or the Service round sheet) used most recently first, the other one as a small link under it */
-function homeResume(P,p){const W=W_(),out=[],s=P.sess;
+function homeResume(P,p){qRestore();const W=W_(),out=[],s=P.sess;
   if(s&&s.list&&s.list.length&&s.ph===p){const a=Object.keys(s.ans).length;if(a<s.list.length)out.push({k:"sess",t:Math.max(s.vt||0,s.ts||0),title:s.title,d:`ทำไป ${a}/${s.list.length} ข้อ · ล่าสุดอยู่ข้อ ${s.cur+1}${QR&&!QR.done&&QR.ward===ward&&s.kind==="quality"?" · กำลังจับเวลา":""}`});}
   const sv=P.svc[p];
   if(sv&&(sv.vt||sv.cur)&&W.QB.length){const L=svcList().filter(q=>!q.notice),d=L.filter(q=>lockedAns(P,p,q.uid)!==undefined).length,c=W.byU[sv.cur];
     if(L.length&&d<L.length){const ss=selSets(),nm=sv.set==="all"?"ทุกชุด":ss.length>2?`${ss.slice(0,2).join(", ")} +${ss.length-2} ชุด`:ss.join(", ");
       out.push({k:"svc",t:sv.vt||0,title:"Service round · "+nm,d:`ทำไป ${d}/${L.length} ข้อ${c&&!c.notice?` · ล่าสุดอยู่${ss.length===1?"":" "+esc(setKey(c))} ข้อ ${c.id}`:""}`});}}
-  return out.sort((a,b)=>b.t-a.t);}
+  const H=P.rsHide||{};return out.filter(x=>!(H[x.k+"|"+p]>=x.t)).sort((a,b)=>b.t-a.t);}
 function startSess(kind,title,uids,extra){
   if(!uids.length){toast("ไม่มีข้อที่เข้าเงื่อนไข");return;}
   if(kind!=="quality")qStop();
@@ -691,7 +692,7 @@ function seenHistHTML(q,rk){const P=P_(),W=W_(),g={},L_=[];
   return h+`</div>`;}
 function rQuiz(){
   const W=W_(),P=P_(),R=W.R,q=curQ();
-  {const o=view==="svc"?svcS():isSess()?P.sess:null;if(o&&now()-(o.vt||0)>30000){o.vt=now();persist();}}   /* last visit — the home "ทำต่อ" box shows whichever was used last */
+  {const o=view==="svc"?svcS():isSess()?P.sess:null;if(o&&(now()-(o.vt||0)>30000||(o.vt||0)<=((P.rsHide||{})[(view==="svc"?"svc|":"sess|")+ph()]||0))){o.vt=now();persist();}}   /* last visit — the home "ทำต่อ" box shows whichever was used last */
   if(!q){$("main").innerHTML=`<div class="empty">ไม่มีข้อในชุดนี้</div>`;return;}
   if(q.notice){rNotice(q);return;}
   const done=doneAns(q);if(done!==undefined)pick=done!=null&&done>=0?done:null;const locked=done!==undefined;
@@ -1071,9 +1072,16 @@ function qNavOK(i){if(mLocked(i))return false;if(!qOn()||!QR.mand)return true;co
 function qStart(pg,mand){qStop();SND.init();const {S,total}=qSegs(pg);
   QR={pg,mand,S,total,el0:0,t0:performance.now(),paused:false,i:-1,front:0,done:false,alarm:false,ward};
   const s=P_().sess;if(s){const i=s.list.findIndex(u=>s.ans[u]===undefined);QR.front=i<0?s.list.length:i;}
-  QR.iv=setInterval(qTick,200);qTick();}
-function qStop(){if(QR){clearInterval(QR.iv);QR=null;}paintQR();}
-function qTick(){if(!QR)return;if(QR.paused||QR.done){paintQR();return;}
+  QR.iv=setInterval(qTick,200);qTick();qSnap(1);}
+function qStop(){if(QR){qSnap();clearInterval(QR.iv);QR=null;}paintQR();}
+/* the timer is kept in the round itself (sess.qr) so it survives a reload / closing the page / switching ward — it comes back paused where it was */
+function qSnap(force){if(!QR)return;const s=PWof(st,QR.ward).sess;if(!s||s.kind!=="quality")return;
+  s.qr={pg:QR.pg,mand:QR.mand,el:qEl(),i:QR.i,front:QR.front,done:QR.done};if(force||now()-(qSnap._t||0)>10000){qSnap._t=now();persist();}}
+function qRestore(){if(!ward||(QR&&QR.ward===ward))return;const s=P_().sess;if(!s||s.kind!=="quality"||!s.qr||s.qr.done||!s.qr.pg)return;
+  if(QR)qStop();const r=s.qr,{S,total}=qSegs(r.pg);if(r.el>=total)return;
+  QR={pg:r.pg,mand:!!r.mand,S,total,el0:r.el,t0:performance.now(),paused:true,i:Math.min(r.i,S.length-1),front:r.front,done:false,alarm:false,ward,restored:true};
+  QR.iv=setInterval(qTick,200);}
+function qTick(){if(!QR)return;if(QR.paused||QR.done){paintQR();return;}qSnap();
   const el=qEl();
   if(el>=QR.total){if(QR.i>=0)qEnd(QR.S[QR.i]);qFinish("หมดเวลา "+QR.pg.name);return;}
   let i=QR.i;
@@ -1088,8 +1096,8 @@ function qEnd(g){if(!QR.mand||QR.ward!==ward)return;const s=P_().sess;if(!s||s.k
       else{s.ans[u]=-1;s.ts=now();save();QR.alarm=true;if(view==="sess"&&s.cur===QR.front)rQuiz();}}}
   else if(g.kind==="rest"){QR.front++;if(QR.front>=s.list.length)qFinish("ทำครบทุกข้อในรอบนี้แล้ว");}}
 function qGoFront(){const s=P_().sess;if(!s||QR.front>=s.list.length)return;if(s.cur!==QR.front){s.cur=QR.front;s.ts=now();save();if(view==="sess"){pick=null;rQuiz();window.scrollTo(0,0);}}}
-function qFinish(msg){if(!QR||QR.done)return;QR.done=true;clearInterval(QR.iv);SND.play(QR.pg.end||"triple");toast(msg);paintQR();if(view==="sess")paintNav();}
-function qPause(){if(!QR||QR.done)return;if(QR.paused){QR.t0=performance.now();QR.paused=false;SND.init();}else{QR.el0=qEl();QR.paused=true;}paintQR();if(view==="sess")paintNav();}
+function qFinish(msg){if(!QR||QR.done)return;QR.done=true;qSnap(1);clearInterval(QR.iv);SND.play(QR.pg.end||"triple");toast(msg);paintQR();if(view==="sess")paintNav();}
+function qPause(){if(!QR||QR.done)return;QR.restored=false;if(QR.paused){QR.t0=performance.now();QR.paused=false;SND.init();}else{QR.el0=qEl();QR.paused=true;}qSnap(1);paintQR();if(view==="sess")paintNav();}
 async function qReset(){if(!QR)return;if(!await uiAsk("เริ่มจับเวลาใหม่ตั้งแต่ต้น (รวม warm up)? ข้อที่ตอบไปแล้วยังเก็บไว้"))return;qStart(QR.pg,QR.mand);if(QR.front>=P_().sess.list.length)qFinish("ทำครบทุกข้อในรอบนี้แล้ว");}
 function paintQR(){const b=$("qbar");if(!b)return;
   const on=!!(QR&&ward&&QR.ward===ward&&view==="sess"&&P_().sess&&P_().sess.kind==="quality");
@@ -1098,13 +1106,13 @@ function paintQR(){const b=$("qbar");if(!b)return;
   if(QR.done){ph="จบแล้ว";t="0:00";meta=QR.pg.name;}
   else if(g){ph=g.name;t=mmss(g.t1-el);const w0=QR.S[0].kind==="warm"?QR.S[0].t1:0;
     meta=g.kind==="warm"?`${QR.pg.name} · warm up`:`${g.bname} ${g.rep}/${g.reps} · รอบ ${g.loop}/${nz(QR.pg.loops,1)} · เหลือ ${mmss(QR.total-Math.max(el,w0))}`;}
-  $("qbPh").textContent=ph+(QR.paused?" · หยุดอยู่":"");$("qbT").textContent=t;$("qbMeta").textContent=meta+(QR.mand?" · mandatory":"");
+  $("qbPh").textContent=ph+(QR.paused?(QR.restored?" · หยุดไว้ตอนออกจากหน้า กด ▶ ต่อ":" · หยุดอยู่"):"");$("qbT").textContent=t;$("qbMeta").textContent=meta+(QR.mand?" · mandatory":"");
   $("qbPause").textContent=QR.paused?"▶ ต่อ":"⏸ พัก";$("qbPause").disabled=QR.done;b.dataset.k=QR.done?"done":g?g.kind:"";
   const v=$("qbVol");if(document.activeElement!==v)v.value=qpS().vol;}
 $("qbPause").onclick=qPause;$("qbReset").onclick=qReset;
 /* ⚙ ตั้งค่า: pause the timer and open the Quality setup page — from there: back to the same round, or switch the timer set while keeping the questions */
 $("qbSet").onclick=()=>{if(QR&&!QR.done&&!QR.paused){qPause();QR.autoP=true;}go(ward+"/quality");};
-$("qbStop").onclick=async()=>{if(QR&&!QR.done&&!await uiAsk("หยุดจับเวลาและจบรอบนี้?"))return;qStop();go(ward+"/result");};
+$("qbStop").onclick=async()=>{if(QR&&!QR.done&&!await uiAsk("หยุดจับเวลาและจบรอบนี้?"))return;qStop();const s=P_().sess;if(s&&s.qr){delete s.qr;save();}go(ward+"/result");};
 $("qbVol").oninput=e=>{qpS().vol=+e.target.value;persist();};
 $("qbVol").onchange=()=>{save();SND.play("ding");};
 
@@ -2246,7 +2254,8 @@ async function flushBank(){if(!fb||!fb.user)return;clearTimeout(bankT);const ks=
   for(const k of ks){try{if(bank[k])await fb.fs.setDoc(fb.fs.doc(bankCol(),inkId(k)),{k,d:JSON.stringify(bank[k]),ts:bank[k].ts||now()});}catch(e){console.warn(e);bankDirty.add(k);sync="error";}}paintSync();}
 function cloudBank(k){bankDirty.add(k);clearTimeout(bankT);if(cl){bankT=setTimeout(clBank,1500);return;}if(!fb||!fb.user)return;bankT=setTimeout(flushBank,1500);}
 function cloudInk(k){if(cl){inkDirty.add(k);clearTimeout(inkT);inkT=setTimeout(clInk,2000);return;}if(!fb||!fb.user)return;inkDirty.add(k);clearTimeout(inkT);inkT=setTimeout(flushInk,2000);}
-document.addEventListener("visibilitychange",()=>{if(document.visibilityState!=="hidden")return;if(cl){clPush();clInk();clBank();}else if(fb&&fb.user){pushNow();flushInk();flushBank();}});
+window.addEventListener("pagehide",()=>qSnap(1));
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState!=="hidden")return;qSnap(1);if(cl){clPush();clInk();clBank();}else if(fb&&fb.user){pushNow();flushInk();flushBank();}});
 
 /* ---- Claude account backend: docs in data/users/<id>/ — "meta", "w_<ward>" (one per ward, < 256 KiB each), "ink_<hash>" ---- */
 async function initClaude(){
