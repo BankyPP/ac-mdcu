@@ -15,8 +15,33 @@ function tchGet(tool){const o=bank["tch|all|"+tool];if(o&&(Array.isArray(o.rows)
   return {rows:tchDef(tool),procs:[],gone:[]};}
 function tchPut(tool,o){bankPut("tch|all|"+tool,{rows:o.rows,procs:o.procs||[],gone:o.gone||[]});}
 /* the user's own checklist from a Google file (TCH_MINE, e.g. "[AI] HISTORY"), shown under each matching heading */
-function tMine(tool,id){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];return M&&M.rows&&M.rows[id]?M.rows[id]:"";}
-function tMineHTML(tool,id,open){const x=tMine(tool,id);if(!x)return "";const M=TCH_MINE[tool];return `<details class="tmine"${open?" open":""}><summary>📄 เช็กลิสต์ของฉัน · ${esc(M.src)}</summary><div class="tmine-b">${tSan(x)}</div></details>`;}
+/* editable on the web (the file is an [AI] file): the user's edit is kept per account in bank "tmine|<tool>|<rowId>" {h};
+   once Claude has written it into the Google Doc and the site's copy matches, the edit clears itself */
+const tPlain=s=>String(s||"").replace(/<br\s*\/?>/gi,"\n").replace(/<\/(li|p|div|h\d)>/gi,"\n").replace(/<li[^>]*>/gi,"• ").replace(/<[^>]+>/g,"").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/[ \t]+/g," ").replace(/\n\s*\n+/g,"\n").trim();
+function tMineOrig(tool,id){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];return M&&M.rows&&M.rows[id]?M.rows[id]:"";}
+function tMineEd(tool,id){const o=bank["tmine|"+tool+"|"+id];if(!o||o.del||o.h==null)return null;return tPlain(o.h)===tPlain(tMineOrig(tool,id))?null:o;}
+function tMine(tool,id){const e=tMineEd(tool,id);return e?e.h:tMineOrig(tool,id);}
+function tMineEdits(tool){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];if(!M)return [];return Object.keys(M.rows).filter(id=>tMineEd(tool,id)).map(id=>({id,h:(tchGet(tool).rows.find(r=>r.id===id)||{}).h||id,orig:M.rows[id],ed:tMineEd(tool,id).h}));}
+function tMineBar(tool,id){const e=tMineEd(tool,id),M=TCH_MINE[tool];return `<button class="chip" type="button" data-mact="edit">✏️ แก้</button>${e?`<span class="tmine-f" title="แก้ในเว็บแล้ว — กด 📤 ส่งเข้า ${esc(M.src)} ด้านบนเพื่อให้ Claude ใส่ลงไฟล์">แก้แล้ว · ยังไม่เข้า ${esc(M.src)}</span><button class="link" type="button" data-mact="orig">คืนต้นฉบับ</button>`:""}`;}
+function tMineHTML(tool,id,open){const x=tMine(tool,id);if(!x)return "";const M=TCH_MINE[tool];return `<details class="tmine" data-mid="${esc(id)}" data-mtool="${tool}"${open?" open":""}><summary>📄 เช็กลิสต์ของฉัน · ${esc(M.src)}${tMineEd(tool,id)?" · ✏️":""}</summary><div class="tmine-bar">${tMineBar(tool,id)}</div><div class="tmine-b">${tSan(x)}</div></details>`;}
+function tMineSendHTML(tool){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool],n=tMineEdits(tool).length;return M&&n?`<div class="tmine-send"><button class="btn" type="button" data-msend="${tool}">📤 ส่งที่แก้เข้า ${esc(M.src)} (${n} หัวข้อ)</button><span class="rd">คัดลอกแล้วไปวางในแชท Claude — Claude จะย่อแล้วใส่ลง Google Doc ให้</span></div>`:"";}
+function tMineBind(root,onChange){if(!root)return;
+  root.querySelectorAll("details.tmine").forEach(d=>{const tool=d.dataset.mtool,id=d.dataset.mid,b=d.querySelector(".tmine-b"),bar=d.querySelector(".tmine-bar");
+    const paint=()=>{bar.innerHTML=tMineBar(tool,id);d.querySelector("summary").innerHTML=`📄 เช็กลิสต์ของฉัน · ${esc(TCH_MINE[tool].src)}${tMineEd(tool,id)?" · ✏️":""}`;b.innerHTML=tSan(tMine(tool,id));wire();if(onChange)onChange();};
+    const wire=()=>{bar.querySelectorAll("[data-mact]").forEach(x=>x.onclick=async e=>{e.preventDefault();const a=x.dataset.mact;
+      if(a==="orig"){if(!await uiAsk("คืนต้นฉบับจากไฟล์? ที่แก้ในเว็บของหัวข้อนี้จะหาย"))return;bankPut("tmine|"+tool+"|"+id,{del:1});paint();return;}
+      if(a==="edit"){b.contentEditable="true";b.classList.add("ed");b.focus();
+        bar.innerHTML=`<button class="chip" type="button" data-mact="save">บันทึก</button><button class="link" type="button" data-mact="cancel">ยกเลิก</button>`;wire();return;}
+      if(a==="cancel"){b.contentEditable="false";b.classList.remove("ed");paint();return;}
+      if(a==="save"){b.contentEditable="false";b.classList.remove("ed");bankPut("tmine|"+tool+"|"+id,{h:tSan(b.innerHTML)});paint();toast(tMineEd(tool,id)?"บันทึกแล้ว — กด 📤 เพื่อส่งเข้าไฟล์":"เหมือนต้นฉบับ — ไม่มีอะไรเปลี่ยน");}});};
+    wire();});
+  tMineSendBind(root);}
+/* show / refresh the 📤 button at the top of a container */
+function tMineSendRefresh(box,tool){if(!box)return;const o=box.querySelector(":scope > .tmine-send"),n=tMineSendHTML(tool);if(o)o.remove();if(n){box.insertAdjacentHTML("afterbegin",n);tMineSendBind(box);}}
+function tMineSendBind(root){
+  root.querySelectorAll("[data-msend]").forEach(x=>x.onclick=async()=>{const tool=x.dataset.msend,M=TCH_MINE[tool],L_=tMineEdits(tool);if(!L_.length)return;
+    const txt=`อัปเดต Google Doc "${M.src}" (id ${M.doc}) จากที่แก้ในเว็บคลังข้อสอบเก่า — ${L_.length} หัวข้อ\n\n`+L_.map(x=>`## ${x.h}\n[ต้นฉบับในไฟล์]\n${tPlain(x.orig)}\n\n[ฉบับที่แก้ในเว็บ]\n${tPlain(x.ed)}`).join("\n\n");
+    try{await navigator.clipboard.writeText(txt);toast("คัดลอกแล้ว — ไปวางในแชท Claude");}catch(e){uiCopy("คัดลอกข้อความนี้ไปวางในแชท Claude",txt);}});}
 const tKeyOf=(tool,r)=>{const k=String(r.k||"").replace(/<[^>]+>/g,"").trim()?r.k:"",m=tMine(tool,r.id);return [k,m].filter(Boolean).join("<br>");};
 /* a row is on in this ward unless switched off here; pediatric rows start off outside Pediatrics, OB rows outside OB-GYN */
 function tOn(r,wid){wid=wid||ward;if(r.off&&Object.prototype.hasOwnProperty.call(r.off,wid))return !r.off[wid];if(r.tag==="ped")return /ped/i.test(wid);if(r.tag==="ob")return /ob/i.test(wid);return true;}
@@ -81,7 +106,9 @@ function tTable(tool,O,tab){const R=O.rows,wn=esc(W_().cfg.short||W_().cfg.name)
       <div class="tc${tab==="key"?" ro":""}" ${tab==="full"?`contenteditable="true" data-f="c"`:""}>${tSan(r.c)}</div>
       ${tab==="key"?`<div class="tk" contenteditable="true" data-f="k" data-ph="พิมพ์ ${TK[tool].kc}…">${tSan(r.k)}</div>`:`<div class="tact"><span class="tgrip" data-grip title="กดค้างแล้วลากขึ้น-ลงเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰</span><button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้" aria-label="ลบช่องนี้">×</button></div>`}${tMineHTML(tool,r.id)}</div>`;}).join("")}</div>`;
   if(tab==="full")h+=`<div class="stack" style="margin-top:10px"><button class="btn" id="tAdd" type="button">+ เพิ่มช่องใหม่</button>${bank["tch|all|"+tool]?`<button class="link" id="tReset" type="button">คืนค่าตั้งต้นของตาราง</button>`:""}</div>`;
+  h=tMineSendHTML(tool)+h;
   $("tBody").innerHTML=h;
+  tMineBind($("tBody"),()=>tMineSendRefresh($("tBody"),tool));
   if(tab==="full")tDrag(document.querySelector("#tBody .ttable"),ord=>{const c=R.slice();R.splice(0,R.length,...ord.map(i=>c[i]));tchPut(tool,O);rTch();});
   document.querySelectorAll("#tBody [contenteditable][data-f]").forEach(el=>el.addEventListener("input",()=>{const i=+el.closest(".trow").dataset.i,f=el.dataset.f;R[i][f]=f==="h"?el.textContent.trim():tSan(el.innerHTML);tSaveLater(tool,O);}));
   document.querySelectorAll("[data-on]").forEach(c=>c.onchange=()=>{const r=R[+c.dataset.on];r.off=r.off||{};r.off[ward]=!c.checked;tchPut(tool,O);c.closest(".trow").classList.toggle("off",!c.checked);});
@@ -217,6 +244,7 @@ function rTaker(){const a=tSeg(),tool=a[0]==="pe"?"pe":"hx",cid=a[1]||"",C=cid&&
     <div class="ttable taker">${R.map(r=>`<div class="trow"><div class="th">${esc(r.h)}${String(r.k||"").replace(/<[^>]+>/g,"").trim()?`<details class="tkk"><summary>key concept</summary>${tSan(r.k)}</details>`:""}</div><textarea data-tk="${esc(r.id)}" rows="3" placeholder="…">${esc((D[r.id]||{}).v||"")}</textarea>${tMineHTML(tool,r.id)}</div>`).join("")}</div>
     <div class="stack" style="margin-top:12px"><button class="btn primary" id="tkSave" type="button">บันทึก</button></div></div>`;
   $("main").innerHTML=h;
+  $("main").querySelector(".tkcard,.card").insertAdjacentHTML("afterend",'<div class="tmine-slot"></div>');tMineBind($("main"),()=>tMineSendRefresh($("main").querySelector(".tmine-slot"),tool));tMineSendRefresh($("main").querySelector(".tmine-slot"),tool);
   $("tkCase").onchange=e=>go(ward+"/taker/"+tool+(e.target.value?"/"+encodeURIComponent(e.target.value):""));
   $("tkSave").onclick=()=>{const key=C?cid:"case|"+ward+"|"+tId(),o=Object.assign({},C||{});o.title=$("tkTitle").value.trim()||o.title||(tool==="pe"?"เคสตรวจร่างกาย":"เคสใหม่")+" "+fmtDT(now());
     const d={};document.querySelectorAll("[data-tk]").forEach(t=>{const r=R.find(x=>x.id===t.dataset.tk);if(t.value.trim())d[t.dataset.tk]={h:r?r.h:"",v:t.value};});o[tool]=Object.assign({},o[tool]||{},d);
