@@ -1077,7 +1077,9 @@ function qStop(){if(QR){qSnap();clearInterval(QR.iv);QR=null;}paintQR();}
 /* the timer is kept in the round itself (sess.qr) so it survives a reload / closing the page / switching ward — it comes back paused where it was */
 function qSnap(force){if(!QR)return;const s=PWof(st,QR.ward).sess;if(!s||s.kind!=="quality")return;
   s.qr={pg:QR.pg,mand:QR.mand,el:qEl(),i:QR.i,front:QR.front,done:QR.done};if(force||now()-(qSnap._t||0)>10000){qSnap._t=now();persist();}}
-function qRestore(){if(!ward||(QR&&QR.ward===ward))return;const s=P_().sess;if(!s||s.kind!=="quality"||!s.qr||s.qr.done||!s.qr.pg)return;
+function qRestore(){if(!ward||(QR&&QR.ward===ward))return;const s=P_().sess;if(!s||s.kind!=="quality"||!s.list||(s.qr&&s.qr.done))return;
+  /* a round started before the timer was saved (no sess.qr): give it back a timer from the selected set, paused at the start */
+  if(!s.qr||!s.qr.pg){const a=s.list.findIndex(u=>s.ans[u]===undefined);if(a<0)return;s.qr={pg:qProg(qpS().sel),mand:qpS().mand,el:0,i:-1,front:a,done:false};}
   if(QR)qStop();const r=s.qr,{S,total}=qSegs(r.pg);if(r.el>=total)return;
   QR={pg:r.pg,mand:!!r.mand,S,total,el0:r.el,t0:performance.now(),paused:true,i:Math.min(r.i,S.length-1),front:r.front,done:false,alarm:false,ward,restored:true};
   QR.iv=setInterval(qTick,200);}
@@ -1106,7 +1108,7 @@ function paintQR(){const b=$("qbar");if(!b)return;
   if(QR.done){ph="จบแล้ว";t="0:00";meta=QR.pg.name;}
   else if(g){ph=g.name;t=mmss(g.t1-el);const w0=QR.S[0].kind==="warm"?QR.S[0].t1:0;
     meta=g.kind==="warm"?`${QR.pg.name} · warm up`:`${g.bname} ${g.rep}/${g.reps} · รอบ ${g.loop}/${nz(QR.pg.loops,1)} · เหลือ ${mmss(QR.total-Math.max(el,w0))}`;}
-  $("qbPh").textContent=ph+(QR.paused?(QR.restored?" · หยุดไว้ตอนออกจากหน้า กด ▶ ต่อ":" · หยุดอยู่"):"");$("qbT").textContent=t;$("qbMeta").textContent=meta+(QR.mand?" · mandatory":"");
+  $("qbPh").textContent=ph+(QR.paused?(QR.restored?" · หยุดไว้ กด ▶ ต่อ":" · หยุดอยู่"):"");$("qbT").textContent=t;$("qbMeta").textContent=meta+(QR.mand?" · mandatory":"");
   $("qbPause").textContent=QR.paused?"▶ ต่อ":"⏸ พัก";$("qbPause").disabled=QR.done;b.dataset.k=QR.done?"done":g?g.kind:"";
   const v=$("qbVol");if(document.activeElement!==v)v.value=qpS().vol;}
 $("qbPause").onclick=qPause;$("qbReset").onclick=qReset;
