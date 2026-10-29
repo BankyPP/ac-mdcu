@@ -72,6 +72,8 @@ for w in cfg.get('wards',[]):
     for extra in ('topics.js','resources.js','dups.js','tags.js','io.js','chapters.js'):     # W.TOPIC={"set|ro|orig":"topic"} · W.RES=[{topic,title,type,url,note}] (Advisor round)
         fp=os.path.join(d,extra)
         if os.path.exists(fp): js.append('(function(W){\n'+open(fp,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
+    for f in sorted(glob.glob(os.path.join(d,'txt_T*.js'))):     # textbooks (code T), one file per book, after io.js: W.TXT.push({code,title,topic,tags,type,url,note,points}) per chapter + its Round I/O doc kind "T" into W.IO.docs
+        js.append('(function(W){W.TXT=W.TXT||[];W.IO=W.IO||{docs:[],merged:{}};W.IO.docs=W.IO.docs||[];\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
     js.append(f'WARDS[{wid}].MQ=[];')
     for f in sorted(glob.glob(os.path.join(d,'meq_b*.js')),key=lambda f:int(re.sub(r'\D','',os.path.basename(f)) or 0)):   # MEQ banks: QB.push(case) → W.MQ
         js.append('(function(QB){\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+'].MQ);')

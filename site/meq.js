@@ -152,7 +152,7 @@ const MQ_ROUNDS=[
   {k:"unit",n:"Unit round",d:"ทำ MEQ ตามหัวข้อ เลือกได้หลายหัวข้อ — เปิดเฉพาะ Part ที่ตรงหัวข้อ"},
   {k:"quality",n:"Quality round",d:"",soon:1,note:"จับเวลาแบบใหม่สำหรับ MEQ — รอรายละเอียด"},
   {k:"admission",n:"Admission round",d:"",soon:1,note:"AI ออกโจทย์ให้ตอบแบบ short answer / short essay — กำลังทำ"},
-  {k:"specialty",n:"Specialty round",d:"เปิด Specialty round ของ MCQ — โจทย์ใหม่ที่ AI สร้างทีละข้อจากไฟล์ของวอร์ดนี้เท่านั้น เลือกเรื่อง / R / N ได้ (ใช้ร่วมกับ MCQ)"},
+  {k:"specialty",n:"Specialty round",d:"เปิด Specialty round ของ MCQ — โจทย์ใหม่ที่ AI สร้างทีละข้อจากไฟล์ของวอร์ดนี้เท่านั้น เลือกเรื่อง / R / T / N ได้ (ใช้ร่วมกับ MCQ)"},
   {k:"io",n:"Round I/O",d:"อ่านสรุปเนื้อหาจาก Lecture (L) · Resource (R) · โน้ตวอร์ด (N) และรวมตามเรื่อง ที่ Claude สรุปให้ · ใช้ร่วมกับ MCQ / OSCE"},
   {k:"longcase",n:"Long case",d:"AI ให้ chief complaint มา แล้วดำเนินเคสเองทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ (ใช้ร่วมกับ MCQ / OSCE)"}
 ];

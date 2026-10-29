@@ -299,7 +299,7 @@ const ROUNDS=[
   {k:"unit",n:"Unit round",d:"โจทย์ใหม่แบบ case-based จาก lecture แต่ละบท สุ่มใหม่ทุกครั้งที่เข้า"},
   {k:"quality",n:"Quality round",d:"Speedrun ข้อสอบเก่า จับเวลาเป็นเซต · เลือกปีที่จะทำ หรือสุ่มจากทั้งคลัง ตั้งค่าเองได้ทั้งหมด"},
   {k:"admission",n:"Admission round",d:"เคสใหม่ที่ AI สร้างให้ทีละข้อ เนื้อหาเหมาะกับชั้นปีในวอร์ดนี้ · เก็บทุกข้อไว้ในคลังของคุณ"},
-  {k:"specialty",n:"Specialty round",d:"โจทย์ใหม่ที่ AI สร้างทีละข้อแบบ Admission round แต่เนื้อหาเฉพาะไฟล์ของวอร์ดนี้ · เลือกเรื่อง / R / N เอง หรือสุ่มทั้งหมด · ใช้ร่วมกับ MEQ / OSCE"},
+  {k:"specialty",n:"Specialty round",d:"โจทย์ใหม่ที่ AI สร้างทีละข้อแบบ Admission round แต่เนื้อหาเฉพาะไฟล์ของวอร์ดนี้ · เลือกเรื่อง / R / T / N เอง หรือสุ่มทั้งหมด · ใช้ร่วมกับ MEQ / OSCE"},
   {k:"io",n:"Round I/O",d:"อ่านสรุปเนื้อหาจาก Lecture (L) · Resource (R) · โน้ตวอร์ด (N) และรวมตามเรื่อง ที่ Claude สรุปให้ · ใช้ร่วมกับ MEQ / OSCE"},
   {k:"longcase",n:"Long case",d:"AI ให้ chief complaint มา แล้วดำเนินเคสเองทีละขั้นแบบสอบ long case เฉลยทีละขั้นสไตล์ MEQ"}
 ];
@@ -501,7 +501,7 @@ function rLaunch(){
   let h=`<div class="whead"><h1 class="h2">จะไปหน้าไหน?</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0 0 12px">${esc(w.name)} · หน้าที่ต้องใช้ AI เปิดใน Claude ได้เลย</p><div class="stack" style="margin-top:0">`;
   if(WL.some(x=>mqL(x.id).length))h+=it("mqin","ตรวจคำตอบ MEQ จากเว็บ","วางรหัสที่คัดลอกจากเว็บ แล้วให้ Claude ประเมินทุก Part","MEQ");
   h+=it("adm","Admission round",`เคสใหม่ที่ AI สร้างให้ทีละข้อ${nAdm?` · คลังของคุณมี ${nAdm} เคส`:""}`);
-  h+=it("spc","Specialty round",`โจทย์ใหม่จากไฟล์ของวอร์ด เลือกเรื่อง / R / N ได้${bankItems("spc",ward).length?` · คลังของคุณมี ${bankItems("spc",ward).length} ข้อ`:""}`);
+  h+=it("spc","Specialty round",`โจทย์ใหม่จากไฟล์ของวอร์ด เลือกเรื่อง / R / T / N ได้${bankItems("spc",ward).length?` · คลังของคุณมี ${bankItems("spc",ward).length} ข้อ`:""}`);
   h+=it("lcase","Long case",`AI ให้ chief complaint แล้วดำเนินเคสทีละขั้น${nLc?` · ทำไปแล้ว ${nLc} เคส`:""}`);
   h+=it(P.leg?"exam":"legend","Legendary round",P.leg?`กำลังสอบอยู่ใน Claude · เหลือเวลา ${hms(P.leg.end-now())}`:"จำลองสอบจริง พร้อมโจทย์ใหม่จาก AI",P.leg?"กำลังสอบ":"");
   if(!(w.noExam||[]).includes("OSCE")){const oc=typeof osRunCur==="function"&&osRunCur();h+=it(oc?"osx":"osl","Legendary round · OSCE",oc?"กำลังสอบ OSCE อยู่ใน Claude — กดเพื่อสอบต่อ":"จำลองสอบ OSCE จริง พร้อมโจทย์ใหม่จาก AI",oc?"กำลังสอบ":"OSCE");}
@@ -637,21 +637,25 @@ function qTags(q){const W=W_();let t=[];
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];return t;}
 /* attached resources outside the lectures (<dir>/resources.js → W.RES=[{code,title,topic,tags,type,url,note,points:[…]}]) */
 const resOf=W=>(W&&W.RES||[]).filter(r=>r&&r.title);
-function resFor(q){const W=W_(),tg=qTags(q),tp=q.adm||q.unit?"":topicOf(W,q);return resOf(W).filter(r=>(r.tags||[]).some(t=>tg.includes(t))||(tp&&r.topic===tp));}
+/* textbooks (code T, <dir>/textbooks.js → W.TXT, same shape as W.RES, one entry per chapter) — everything R gets, always in its own box apart from R */
+const txtOf=W=>(W&&W.TXT||[]).filter(r=>r&&r.title);
+const isTxt=r=>!!r&&/^T\d/.test(r.code||"");
+function resFor(q,T){const W=W_(),tg=qTags(q),tp=q.adm||q.unit?"":topicOf(W,q);return (T?txtOf(W):resOf(W)).filter(r=>(r.tags||[]).some(t=>tg.includes(t))||(tp&&r.topic===tp));}
+const txtFor=q=>resFor(q,1);
 const resLabel=r=>(r.code?r.code+" ":"")+r.title;
 const resPts=(r,n)=>(Array.isArray(r.points)?r.points:[]).slice(0,n||99);
 /* where an AI-written question takes its content from: picked uniformly at random among "anywhere" and every attached resource that has content */
-function pickSrc(W){const rs=resOf(W).filter(r=>resPts(r).length),o=[null].concat(rs);return o[Math.floor(Math.random()*o.length)];}
-/* Admission round may use anything: general knowledge, or any lecture (L) / resource (R) / ward note (N) summary of this ward — one of these 4 groups at random (equal chance), then one page inside it */
-const IOKN={L:"lecture summary",R:"resource summary",N:"ward note (checked and corrected)"};
+function pickSrc(W){const rs=resOf(W).concat(txtOf(W)).filter(r=>resPts(r).length),o=[null].concat(rs);return o[Math.floor(Math.random()*o.length)];}
+/* Admission round may use anything: general knowledge, or any lecture (L) / resource (R) / textbook (T) / ward note (N) summary of this ward — one of these groups at random (equal chance), then one page inside it */
+const IOKN={L:"lecture summary",R:"resource summary",T:"textbook chapter summary",N:"ward note (checked and corrected)"};
 function ioSrcs(W){const o=[];((W&&W.IO&&W.IO.docs)||[]).forEach(d=>(d.pages||[]).forEach(p=>{
   const t=String(p.html||"").replace(/<span class="iowas">[\s\S]*?<\/span>/g,"").replace(/\{\{[^}]*\}\}/g,"").replace(/<[^>]+>/g," ").replace(/&nbsp;/g," ").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
   if(t)o.push({io:1,kind:d.kind,code:d.code,title:(d.kind==="N"?"โน้ตวอร์ด":d.title)+" — "+p.title,text:t.slice(0,7000)});}));return o;}
-function pickSrcAdm(W){const rs=resOf(W).filter(r=>resPts(r).length),io=ioSrcs(W);
-  const G=[[null],io.filter(x=>x.kind==="L"),rs.concat(io.filter(x=>x.kind==="R")),io.filter(x=>x.kind==="N")].filter(g=>g.length);
+function pickSrcAdm(W){const rs=resOf(W).filter(r=>resPts(r).length),ts=txtOf(W).filter(r=>resPts(r).length),io=ioSrcs(W);
+  const G=[[null],io.filter(x=>x.kind==="L"),rs.concat(io.filter(x=>x.kind==="R")),ts.concat(io.filter(x=>x.kind==="T")),io.filter(x=>x.kind==="N")].filter(g=>g.length);
   const g=G[Math.floor(Math.random()*G.length)];return g[Math.floor(Math.random()*g.length)];}
 const srcPrompt=r=>!r?"":r.io?`\nContent source for this question: build it mainly on the ${IOKN[r.kind]||"summary"} below from this ward (you may add standard textbook or guideline knowledge, but the key point tested must come from it; where it marks a correction, use the corrected statement).\nSource ${r.code} ${r.title}:\n${r.text}\n`
-  :`\nContent source for this question: build it mainly on the attached resource below (you may add standard textbook or guideline knowledge, but the key point tested must come from it).\nResource ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}\n`;
+  :`\nContent source for this question: build it mainly on the attached ${isTxt(r)?"textbook chapter":"resource"} below (you may add standard textbook or guideline knowledge, but the key point tested must come from it).\n${isTxt(r)?"Textbook":"Resource"} ${resLabel(r)}:\n- ${resPts(r).join("\n- ")}\n`;
 function tagRow(q){const W=W_();let t=[];
   if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=Array.isArray(q.tags)&&q.tags.length?q.tags:[].concat(Lc.tags||Lc.topic||[]);}
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];
@@ -841,7 +845,9 @@ function explain(q,done,R,p){
   h+=sec(q.unit?"สไลด์/ลายมือใน lecture เขียนไว้ว่า":"สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${rich(q.notes)}</div>`:"","notes");
   if(q.kimg){const KL=Array.isArray(q.kimg)?q.kimg:[q.kimg];h+=sec(q.unit?"สไลด์/รูปอ้างอิงจาก lecture":"สไลด์/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map((k,i)=>{const im=imgHTML(k,q.unit?"สไลด์อ้างอิงจาก lecture":"สไลด์อ้างอิงจากไฟล์เฉลย",1);return q.kcap&&q.kcap[i]?`<figure class="kcap"><figcaption>${esc(q.kcap[i])}</figcaption>${im}</figure>`:im;}).join("")}</div>`);}
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
-  {const rs=resFor(q);if(rs.length)h+=sec("อ่านเพิ่มจาก resource ที่แนบไว้",rs.map(r=>`<div class="resitem"><b>${esc(resLabel(r))}</b>${r.url?` · <a href="${esc(r.url)}" target="_blank" rel="noopener">เปิด</a>`:""}${resPts(r,6).length?`<ul>${resPts(r,6).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:r.note?`<p>${esc(r.note)}</p>`:""}</div>`).join(""));}
+  {const it=r=>`<div class="resitem"><b>${esc(resLabel(r))}</b>${r.url?` · <a href="${esc(r.url)}" target="_blank" rel="noopener">เปิด</a>`:""}${resPts(r,6).length?`<ul>${resPts(r,6).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:r.note?`<p>${esc(r.note)}</p>`:""}</div>`;
+   const rs=resFor(q);if(rs.length)h+=sec("อ่านเพิ่มจาก resource ที่แนบไว้",rs.map(it).join(""));
+   const ts=txtFor(q);if(ts.length)h+=sec("อ่านเพิ่มจากตำรา (T)",ts.map(it).join(""));}
   h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");
   /* "โจทย์แบบใหม่ที่อาจออก" = old exams only (user 27 Oct 2026); AI-written questions (Unit / Admission / Specialty / Legendary AI) never show it */
   if(!q.adm&&!q.unit&&(q.variants||[]).length)h+=sec("โจทย์แบบใหม่ที่อาจออก",`<ul>${q.variants.map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
@@ -870,6 +876,7 @@ function askPrompt(q,done,ask,cut){
     `คำอธิบายในคลัง: ${why}`,
     wr?`ทำไมข้ออื่นผิด: ${wr}`:"",
     (()=>{const rs=resFor(q);if(!rs.length)return "";return "ข้อมูลจาก resource ที่ฉันแนบไว้ (ใช้ประกอบคำตอบได้ ถ้าขัดกับ guideline ให้บอก):\n"+rs.slice(0,3).map(r=>`- ${resLabel(r)}: ${c(Math.round(cut/2))(resPts(r).join(" · ")||r.note||"")}`).join("\n");})(),
+    (()=>{const ts=txtFor(q);if(!ts.length)return "";return "ข้อมูลจากตำรา (T) ที่ฉันแนบไว้ (ใช้ประกอบคำตอบได้ ถ้าตำราเก่ากว่า guideline ล่าสุดให้บอก):\n"+ts.slice(0,3).map(r=>`- ${resLabel(r)}: ${c(Math.round(cut/2))(resPts(r).join(" · ")||r.note||"")}`).join("\n");})(),
     "",`คำถามของฉัน: ${ask||"ช่วยอธิบายเพิ่มให้เข้าใจลึกขึ้น"}`,
     "",`กติกา: ตอบภาษาไทยปนศัพท์แพทย์ภาษาอังกฤษ อธิบายให้เข้าใจง่าย อิงหลักฐานหรือ guideline ล่าสุดที่ระบุชื่อได้ (ถ้าค้นเว็บได้ให้ตรวจ guideline ล่าสุดก่อนตอบ) ถ้าไม่แน่ใจหรือหลักฐานยังไม่ชัดให้บอกตรง ๆ ห้ามแต่งตัวเลข แหล่งอ้างอิง หรือข้อมูลที่ไม่มีจริง ถ้าคิดว่าเฉลยในคลังอาจผิด ให้บอกพร้อมเหตุผล`
   ].filter(x=>x!=="").join("\n").replace(/\n\n+/g,"\n\n");
@@ -1438,9 +1445,9 @@ function rReport(){
   const plan=P.advPlan;
   h+=`<div class="card"><h3>✦ ให้ AI วางแผนการอ่านจากผลของฉัน</h3><span class="rd">ส่งสถิติรายหัวข้อและข้อที่ยังผิดให้ AI ช่วยจัดลำดับว่าควรอ่านอะไรก่อน เน้นตรงไหน</span><button class="btn" id="planGo" ${advPlanBusy?"disabled":""}>${plan?"วางแผนใหม่":"วางแผนการอ่าน"}</button><div id="planOut" class="aiout">${advPlanBusy?`<p class="hint">กำลังคิด… (ประมาณ 20–90 วินาที)</p>`:plan?mdLite(plan.t)+`<p class="hint">วางแผนเมื่อ ${fmtD(plan.ts)} · AI อาจผิดพลาดได้ ควรเทียบกับ lecture/guideline</p>`:""}</div></div>`;
   h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">คำแนะนำรายหัวข้อ</h2>`;
-  const res=W.RES||[],lecs=(W.cfg.lectures||[]);
+  const res=W.RES||[],txt=W.TXT||[],lecs=(W.cfg.lectures||[]);
   h+=T.map((t,i)=>{const ad=topicAdvice(t),tg=TIER[t.tier];
-    const rs=res.filter(r=>r.topic===t.k).concat(lecs.filter(l=>l&&l.topic===t.k)),units=W.UNIT.filter(Lc=>Lc.topic===t.k);
+    const rs=res.filter(r=>r.topic===t.k).concat(lecs.filter(l=>l&&l.topic===t.k)),tts=txt.filter(r=>r&&r.title&&r.topic===t.k),units=W.UNIT.filter(Lc=>Lc.topic===t.k);
     const pts=t.wrongQ.concat(t.fixedQ).slice(0,8).map(q=>{const s=(q.summary||[]).filter(x=>!/^ดูข้อ/.test(plain(x)))[0];return s?`<li><button class="qref" data-u="${esc(q.uid)}">ข้อ ${q.id}</button> ${R(s)}</li>`:"";}).join("");
     return `<details class="grp tcard" ${i<3&&t.tier!=="green"?"open":""}><summary><span>${tg[0]}</span> <b>${esc(t.k)}</b> <span class="tag">${tg[1]}</span></summary>
     <p class="tline">${ad.imp}</p><p class="tline">${ad.st}</p><p class="tline"><b>แนะนำ:</b> ${ad.act}</p>
@@ -1448,6 +1455,7 @@ function rReport(){
     ${pts?`<div class="tsub">จุดที่เคยพลาดในหัวข้อนี้</div><ul>${pts}</ul>`:""}
     ${t.noteQ.length?`<div class="tsub">โน้ตที่คุณจดไว้ในหัวข้อนี้</div><ul>${t.noteQ.slice(0,6).map(q=>{const n=P.post[q.uid].t.trim();return `<li><button class="qref" data-u="${esc(q.uid)}">ข้อ ${q.id}</button> ${esc(n.length>220?n.slice(0,220)+"…":n)}</li>`;}).join("")}</ul>`:""}
     <div class="tsub">Lecture / resources</div>${rs.length||units.length?`<ul>${rs.map(r=>`<li>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`:esc(r.title)}${r.type?` <span class="hint">· ${esc(r.type)}</span>`:""}${r.note?` — ${esc(r.note)}`:""}</li>`).join("")}${units.map(Lc=>`<li>Unit round: <a href="#/${esc(ward)}/unit">${esc(Lc.title)}</a></li>`).join("")}</ul>`:`<p class="hint" style="margin:2px 0 0">ยังไม่มี lecture หรือ resource ของหัวข้อนี้ในวอร์ดนี้ — เมื่ออัปโหลดเพิ่ม จะขึ้นที่นี่อัตโนมัติ</p>`}
+    ${tts.length?`<div class="tsub">ตำรา (T)</div><ul>${tts.map(r=>`<li><b>${esc(r.code||"")}</b> ${esc(r.title)}${r.note?` — ${esc(r.note)}`:""}</li>`).join("")}</ul>`:""}
     </details>`;}).join("");
   $("main").innerHTML=h;bindRefs();
   document.querySelectorAll("#rHp [data-v]").forEach(b=>b.onclick=()=>{a.hp=b.dataset.v;persist();rReport();});
