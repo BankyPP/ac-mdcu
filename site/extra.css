@@ -125,24 +125,6 @@ details.grp li{margin:6px 0}
 .qe h3{margin-bottom:2px}
 .fl{display:block;font-family:var(--num);font-weight:600;font-size:14.5px}
 .fl .field-in{margin-top:4px;font-family:var(--body);font-weight:400}
-/* Quality round timer: vertical rail on the right edge, so the question keeps the full height of the screen */
-.qbar{position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:16;width:70px;max-height:calc(100vh - 170px);overflow-y:auto;overscroll-behavior:contain;
-  display:flex;flex-direction:column;align-items:stretch;gap:8px;padding:10px 6px;padding-right:calc(6px + env(safe-area-inset-right,0px));
-  background:var(--paper);border:1px solid var(--rule);border-right:0;border-radius:12px 0 0 12px;box-shadow:-2px 2px 10px rgba(0,0,0,.08);text-align:center}
-.qbar[hidden]{display:none}
-.qb-main{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:0}
-.qb-t{font-family:var(--num);font-weight:700;font-size:22px;line-height:1;font-variant-numeric:tabular-nums;color:var(--ink)}
-.qb-ph{font-family:var(--num);font-weight:700;font-size:12.5px;line-height:1.2;color:var(--form);overflow-wrap:anywhere}
-.qb-meta{font-size:10.5px;line-height:1.3;color:var(--muted);overflow-wrap:anywhere;border-top:1px dashed var(--rule);padding-top:6px}
-.qb-btns{display:flex;flex-direction:column;gap:6px;align-items:stretch}
-.qb-btns .chip{min-height:32px;padding:3px 4px;border-radius:8px;font-size:12px;line-height:1.15;justify-content:center;text-align:center;white-space:normal}
-.qb-vol{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:14px;padding-top:2px}
-.qb-vs{display:block;width:28px;height:96px;position:relative}
-.qb-vs input{accent-color:var(--form);position:absolute;left:50%;top:50%;width:96px;margin:0;transform:translate(-50%,-50%) rotate(-90deg)}
-.qbar[data-k="q"] .qb-t,.qbar[data-k="warm"] .qb-t{color:var(--form)}
-.qbar[data-k="sol"] .qb-ph{color:var(--right)}
-.qbar[data-k="done"] .qb-ph{color:var(--muted)}
-@media (max-width:920px){.qon main{padding-right:calc(84px + env(safe-area-inset-right,0px))}}
 .spin{width:28px;height:28px;border:3px solid var(--rule);border-top-color:var(--form);border-radius:50%;margin:12px 0 2px;animation:spin .9s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){.spin{animation-duration:3s}}
@@ -926,16 +908,38 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 .rsx:hover{background:var(--rule);color:var(--ink)}
 .rsx.sm{top:2px;right:0;width:22px;height:22px;font-size:15px}
 .rswrap .rs2{padding-right:26px}
-/* wide screens (iPad landscape, desktop): the timer fills ~75% of the empty space right of the question — 75% of its width, centred, and ~75% of the height */
+/* ---- Quality round timer: modern watch face on the right — dark bezel, progress ring for the current phase, big digits ---- */
+.qbar{--qw:96px;--qc:#ff375f;--qp:0;position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:16;width:var(--qw);max-height:calc(100vh - 150px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;
+  display:flex;flex-direction:column;align-items:stretch;gap:10px;padding:12px 8px;padding-right:calc(8px + env(safe-area-inset-right,0px));
+  background:linear-gradient(165deg,#22232a 0%,#0c0d10 60%);color:#f5f5f7;border-radius:22px 0 0 22px;
+  box-shadow:inset 0 0 0 1px #3a3b44,inset 0 0 0 4px #050506,-4px 6px 22px rgba(0,0,0,.28);text-align:center}
+.qbar::-webkit-scrollbar{display:none}
+.qbar[hidden]{display:none}
+.qbar[data-k="q"]{--qc:#ff375f}.qbar[data-k="rest"]{--qc:#30d158}.qbar[data-k="sol"]{--qc:#0a84ff}.qbar[data-k="ready"]{--qc:#ffd60a}.qbar[data-k="warm"]{--qc:#ff9f0a}.qbar[data-k="free"]{--qc:#bf5af2}.qbar[data-k="done"]{--qc:#8e8e93}
+.qb-main{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:0}
+.qb-ring{position:relative;width:100%;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;
+  background:conic-gradient(var(--qc) calc(var(--qp) * 1turn),#2a2b31 0);transition:background .2s linear}
+.qb-ring::before{content:"";position:absolute;inset:calc(var(--qw) * .055);border-radius:50%;background:radial-gradient(circle at 50% 35%,#1b1c21,#08090b 75%);box-shadow:inset 0 2px 6px rgba(0,0,0,.6)}
+.qb-t{position:relative;font-family:var(--num);font-weight:600;font-size:calc(var(--qw) * .27);line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums;color:#fff;text-shadow:0 0 12px rgba(255,255,255,.08)}
+.qbar.paused .qb-t{opacity:.55}
+.qb-ph{font-family:var(--num);font-weight:700;font-size:max(13px,calc(var(--qw) * .1));line-height:1.15;color:var(--qc);letter-spacing:.02em;overflow-wrap:anywhere}
+.qb-st{font-family:var(--num);font-weight:600;font-size:max(11px,calc(var(--qw) * .075));color:#ffd60a;line-height:1.2}
+.qb-st:empty{display:none}
+.qb-meta{font-size:max(10.5px,calc(var(--qw) * .07));line-height:1.35;color:#8e8e93;border-top:1px solid #2c2d33;padding-top:8px}
+.qb-meta b{color:#d1d1d6;font-weight:600;font-variant-numeric:tabular-nums}
+.qb-btns{display:flex;flex-direction:column;gap:7px;align-items:stretch}
+.qbar .qb-btns .chip{min-height:max(34px,calc(var(--qw) * .25));padding:2px 6px;border:0;border-radius:999px;background:#2c2c31;color:#f5f5f7;
+  font-family:var(--num);font-weight:600;font-size:max(12px,calc(var(--qw) * .095));line-height:1;justify-content:center;text-align:center;white-space:nowrap;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}
+.qbar .qb-btns .chip:hover{background:#3a3a40}
+.qbar .qb-btns #qbPause{background:var(--qc);color:#0b0b0d}
+.qbar .qb-btns #qbStop{color:#ff6961}
+.qbar .qb-btns .chip:disabled{opacity:.4}
+.qb-vol{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:max(14px,calc(var(--qw) * .11));color:#8e8e93;padding-top:2px}
+.qb-vs{display:block;width:28px;height:max(90px,calc(var(--qw) * .75));position:relative}
+.qb-vs input{accent-color:var(--qc);position:absolute;left:50%;top:50%;width:max(90px,calc(var(--qw) * .75));margin:0;transform:translate(-50%,-50%) rotate(-90deg)}
+@media (max-width:999px){.qon main{padding-right:calc(var(--qbw,96px) + 12px + env(safe-area-inset-right,0px))}}
+/* wide screens (iPad landscape, desktop): a free-standing watch filling ~75% of the empty space right of the question */
 @media (min-width:1000px){
-  .qbar{--qw:clamp(70px,calc((100vw - 760px)*.375),340px);width:var(--qw);right:calc((100vw - 760px)*.0625);min-height:min(75vh,calc(100vh - 140px));max-height:calc(100vh - 140px);
-    justify-content:center;gap:max(8px,calc(var(--qw)*.08));padding:max(10px,calc(var(--qw)*.09)) max(6px,calc(var(--qw)*.08));border-right:1px solid var(--rule);border-radius:16px}
-  .qb-t{font-size:max(22px,calc(var(--qw)*.32))}
-  .qb-ph{font-size:max(12.5px,calc(var(--qw)*.1))}
-  .qb-meta{font-size:max(10.5px,calc(var(--qw)*.07));padding-top:max(6px,calc(var(--qw)*.05))}
-  .qb-btns{gap:max(6px,calc(var(--qw)*.05))}
-  .qb-btns .chip{min-height:max(32px,calc(var(--qw)*.24));font-size:max(12px,calc(var(--qw)*.095));border-radius:10px}
-  .qb-vol{font-size:max(14px,calc(var(--qw)*.11))}
-  .qb-vs{width:max(28px,calc(var(--qw)*.2));height:max(96px,calc(var(--qw)*.8))}
-  .qb-vs input{width:max(96px,calc(var(--qw)*.8))}
+  .qbar{--qw:clamp(110px,calc((100vw - 760px) * .43),360px);right:calc((100vw - 760px) * .035);min-height:min(75vh,calc(100vh - 140px));max-height:calc(100vh - 140px);
+    justify-content:center;gap:max(10px,calc(var(--qw) * .07));padding:max(12px,calc(var(--qw) * .08));border-radius:max(24px,calc(var(--qw) * .2))}
 }

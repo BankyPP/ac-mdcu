@@ -305,24 +305,6 @@ details.grp li{margin:6px 0}
 .qe h3{margin-bottom:2px}
 .fl{display:block;font-family:var(--num);font-weight:600;font-size:14.5px}
 .fl .field-in{margin-top:4px;font-family:var(--body);font-weight:400}
-/* Quality round timer: vertical rail on the right edge, so the question keeps the full height of the screen */
-.qbar{position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:16;width:70px;max-height:calc(100vh - 170px);overflow-y:auto;overscroll-behavior:contain;
-  display:flex;flex-direction:column;align-items:stretch;gap:8px;padding:10px 6px;padding-right:calc(6px + env(safe-area-inset-right,0px));
-  background:var(--paper);border:1px solid var(--rule);border-right:0;border-radius:12px 0 0 12px;box-shadow:-2px 2px 10px rgba(0,0,0,.08);text-align:center}
-.qbar[hidden]{display:none}
-.qb-main{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:0}
-.qb-t{font-family:var(--num);font-weight:700;font-size:22px;line-height:1;font-variant-numeric:tabular-nums;color:var(--ink)}
-.qb-ph{font-family:var(--num);font-weight:700;font-size:12.5px;line-height:1.2;color:var(--form);overflow-wrap:anywhere}
-.qb-meta{font-size:10.5px;line-height:1.3;color:var(--muted);overflow-wrap:anywhere;border-top:1px dashed var(--rule);padding-top:6px}
-.qb-btns{display:flex;flex-direction:column;gap:6px;align-items:stretch}
-.qb-btns .chip{min-height:32px;padding:3px 4px;border-radius:8px;font-size:12px;line-height:1.15;justify-content:center;text-align:center;white-space:normal}
-.qb-vol{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:14px;padding-top:2px}
-.qb-vs{display:block;width:28px;height:96px;position:relative}
-.qb-vs input{accent-color:var(--form);position:absolute;left:50%;top:50%;width:96px;margin:0;transform:translate(-50%,-50%) rotate(-90deg)}
-.qbar[data-k="q"] .qb-t,.qbar[data-k="warm"] .qb-t{color:var(--form)}
-.qbar[data-k="sol"] .qb-ph{color:var(--right)}
-.qbar[data-k="done"] .qb-ph{color:var(--muted)}
-@media (max-width:920px){.qon main{padding-right:calc(84px + env(safe-area-inset-right,0px))}}
 .spin{width:28px;height:28px;border:3px solid var(--rule);border-top-color:var(--form);border-radius:50%;margin:12px 0 2px;animation:spin .9s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){.spin{animation-duration:3s}}
@@ -1106,18 +1088,40 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 .rsx:hover{background:var(--rule);color:var(--ink)}
 .rsx.sm{top:2px;right:0;width:22px;height:22px;font-size:15px}
 .rswrap .rs2{padding-right:26px}
-/* wide screens (iPad landscape, desktop): the timer fills ~75% of the empty space right of the question — 75% of its width, centred, and ~75% of the height */
+/* ---- Quality round timer: modern watch face on the right — dark bezel, progress ring for the current phase, big digits ---- */
+.qbar{--qw:96px;--qc:#ff375f;--qp:0;position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:16;width:var(--qw);max-height:calc(100vh - 150px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;
+  display:flex;flex-direction:column;align-items:stretch;gap:10px;padding:12px 8px;padding-right:calc(8px + env(safe-area-inset-right,0px));
+  background:linear-gradient(165deg,#22232a 0%,#0c0d10 60%);color:#f5f5f7;border-radius:22px 0 0 22px;
+  box-shadow:inset 0 0 0 1px #3a3b44,inset 0 0 0 4px #050506,-4px 6px 22px rgba(0,0,0,.28);text-align:center}
+.qbar::-webkit-scrollbar{display:none}
+.qbar[hidden]{display:none}
+.qbar[data-k="q"]{--qc:#ff375f}.qbar[data-k="rest"]{--qc:#30d158}.qbar[data-k="sol"]{--qc:#0a84ff}.qbar[data-k="ready"]{--qc:#ffd60a}.qbar[data-k="warm"]{--qc:#ff9f0a}.qbar[data-k="free"]{--qc:#bf5af2}.qbar[data-k="done"]{--qc:#8e8e93}
+.qb-main{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:0}
+.qb-ring{position:relative;width:100%;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;
+  background:conic-gradient(var(--qc) calc(var(--qp) * 1turn),#2a2b31 0);transition:background .2s linear}
+.qb-ring::before{content:"";position:absolute;inset:calc(var(--qw) * .055);border-radius:50%;background:radial-gradient(circle at 50% 35%,#1b1c21,#08090b 75%);box-shadow:inset 0 2px 6px rgba(0,0,0,.6)}
+.qb-t{position:relative;font-family:var(--num);font-weight:600;font-size:calc(var(--qw) * .27);line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums;color:#fff;text-shadow:0 0 12px rgba(255,255,255,.08)}
+.qbar.paused .qb-t{opacity:.55}
+.qb-ph{font-family:var(--num);font-weight:700;font-size:max(13px,calc(var(--qw) * .1));line-height:1.15;color:var(--qc);letter-spacing:.02em;overflow-wrap:anywhere}
+.qb-st{font-family:var(--num);font-weight:600;font-size:max(11px,calc(var(--qw) * .075));color:#ffd60a;line-height:1.2}
+.qb-st:empty{display:none}
+.qb-meta{font-size:max(10.5px,calc(var(--qw) * .07));line-height:1.35;color:#8e8e93;border-top:1px solid #2c2d33;padding-top:8px}
+.qb-meta b{color:#d1d1d6;font-weight:600;font-variant-numeric:tabular-nums}
+.qb-btns{display:flex;flex-direction:column;gap:7px;align-items:stretch}
+.qbar .qb-btns .chip{min-height:max(34px,calc(var(--qw) * .25));padding:2px 6px;border:0;border-radius:999px;background:#2c2c31;color:#f5f5f7;
+  font-family:var(--num);font-weight:600;font-size:max(12px,calc(var(--qw) * .095));line-height:1;justify-content:center;text-align:center;white-space:nowrap;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}
+.qbar .qb-btns .chip:hover{background:#3a3a40}
+.qbar .qb-btns #qbPause{background:var(--qc);color:#0b0b0d}
+.qbar .qb-btns #qbStop{color:#ff6961}
+.qbar .qb-btns .chip:disabled{opacity:.4}
+.qb-vol{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:max(14px,calc(var(--qw) * .11));color:#8e8e93;padding-top:2px}
+.qb-vs{display:block;width:28px;height:max(90px,calc(var(--qw) * .75));position:relative}
+.qb-vs input{accent-color:var(--qc);position:absolute;left:50%;top:50%;width:max(90px,calc(var(--qw) * .75));margin:0;transform:translate(-50%,-50%) rotate(-90deg)}
+@media (max-width:999px){.qon main{padding-right:calc(var(--qbw,96px) + 12px + env(safe-area-inset-right,0px))}}
+/* wide screens (iPad landscape, desktop): a free-standing watch filling ~75% of the empty space right of the question */
 @media (min-width:1000px){
-  .qbar{--qw:clamp(70px,calc((100vw - 760px)*.375),340px);width:var(--qw);right:calc((100vw - 760px)*.0625);min-height:min(75vh,calc(100vh - 140px));max-height:calc(100vh - 140px);
-    justify-content:center;gap:max(8px,calc(var(--qw)*.08));padding:max(10px,calc(var(--qw)*.09)) max(6px,calc(var(--qw)*.08));border-right:1px solid var(--rule);border-radius:16px}
-  .qb-t{font-size:max(22px,calc(var(--qw)*.32))}
-  .qb-ph{font-size:max(12.5px,calc(var(--qw)*.1))}
-  .qb-meta{font-size:max(10.5px,calc(var(--qw)*.07));padding-top:max(6px,calc(var(--qw)*.05))}
-  .qb-btns{gap:max(6px,calc(var(--qw)*.05))}
-  .qb-btns .chip{min-height:max(32px,calc(var(--qw)*.24));font-size:max(12px,calc(var(--qw)*.095));border-radius:10px}
-  .qb-vol{font-size:max(14px,calc(var(--qw)*.11))}
-  .qb-vs{width:max(28px,calc(var(--qw)*.2));height:max(96px,calc(var(--qw)*.8))}
-  .qb-vs input{width:max(96px,calc(var(--qw)*.8))}
+  .qbar{--qw:clamp(110px,calc((100vw - 760px) * .43),360px);right:calc((100vw - 760px) * .035);min-height:min(75vh,calc(100vh - 140px));max-height:calc(100vh - 140px);
+    justify-content:center;gap:max(10px,calc(var(--qw) * .07));padding:max(12px,calc(var(--qw) * .08));border-radius:max(24px,calc(var(--qw) * .2))}
 }
 </style>
 </head>
@@ -1138,7 +1142,7 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 <div class="legban" id="legban" hidden><span>⏱ กำลังสอบ Legendary round · เหลือ <b id="legbanT"></b></span><button class="btn" id="legbanGo" type="button">ทำต่อ</button><button class="btn primary" id="legbanSub" type="button">Submit</button></div>
 <main id="main"></main>
 <aside class="qbar" id="qbar" aria-label="จับเวลา Quality round" hidden>
-  <div class="qb-main"><span class="qb-t" id="qbT"></span><span class="qb-ph" id="qbPh"></span></div>
+  <div class="qb-main"><div class="qb-ring"><span class="qb-t" id="qbT"></span></div><span class="qb-ph" id="qbPh"></span><span class="qb-st" id="qbSt"></span></div>
   <div class="qb-meta" id="qbMeta"></div>
   <div class="qb-btns"><button class="chip" id="qbPause" type="button">⏸ พัก</button><button class="chip" id="qbReset" type="button">⟲ เริ่มใหม่</button><button class="chip" id="qbSet" type="button">⚙ ตั้งค่า</button><button class="chip" id="qbStop" type="button">■ จบ</button><label class="qb-vol" aria-label="ระดับเสียง"><span>🔊</span><span class="qb-vs"><input type="range" id="qbVol" min="0" max="1" step="0.05"></span></label></div>
 </aside>
@@ -1176,7 +1180,7 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 const IMGS={};const WARDS={};
 Object.assign(IMGS,{"os132_1": "img/os132_1.jpg", "os132_11": "img/os132_11.jpg", "os132_12": "img/os132_12.jpg", "os132_2": "img/os132_2.jpg", "os132_4": "img/os132_4.jpg", "os132_6": "img/os132_6.jpg", "os132_9": "img/os132_9.jpg", "sl17_p11": "img/sl17_p11.jpg", "sl17_p22": "img/sl17_p22.jpg", "sl17_p24": "img/sl17_p24.jpg", "sl17_p25": "img/sl17_p25.jpg", "sl17_p6": "img/sl17_p6.jpg", "sr01_p100safetypin": "img/sr01_p100safetypin.jpg", "sr01_p106chancroidgram": "img/sr01_p106chancroidgram.jpg", "sr01_p111pedropons": "img/sr01_p111pedropons.jpg", "sr01_p119bcye": "img/sr01_p119bcye.jpg", "sr01_p121lemierrect": "img/sr01_p121lemierrect.jpg", "sr01_p124palmrash": "img/sr01_p124palmrash.jpg", "sr01_p128argyllrobertson": "img/sr01_p128argyllrobertson.jpg", "sr01_p12gasskin": "img/sr01_p12gasskin.jpg", "sr01_p140mycoplasma": "img/sr01_p140mycoplasma.jpg", "sr01_p15arfsigns": "img/sr01_p15arfsigns.jpg", "sr01_p28anthraxeschar": "img/sr01_p28anthraxeschar.jpg", "sr01_p33tetanussigns": "img/sr01_p33tetanussigns.jpg", "sr01_p36tetanusbotulism": "img/sr01_p36tetanusbotulism.jpg", "sr01_p3gpcgram": "img/sr01_p3gpcgram.jpg", "sr01_p40diphtheria": "img/sr01_p40diphtheria.jpg", "sr01_p43cluecell": "img/sr01_p43cluecell.jpg", "sr01_p44vaginitis": "img/sr01_p44vaginitis.jpg", "sr01_p45rhodococcus": "img/sr01_p45rhodococcus.jpg", "sr01_p46nocardia": "img/sr01_p46nocardia.jpg", "sr01_p47actinomyces": "img/sr01_p47actinomyces.jpg", "sr01_p48tbcxr": "img/sr01_p48tbcxr.jpg", "sr01_p58interrupt": "img/sr01_p58interrupt.jpg", "sr01_p66marinum": "img/sr01_p66marinum.jpg", "sr01_p68antiifng": "img/sr01_p68antiifng.jpg", "sr01_p69leprosy": "img/sr01_p69leprosy.jpg", "sr01_p70pbmb": "img/sr01_p70pbmb.jpg", "sr01_p73gnd": "img/sr01_p73gnd.jpg", "sr01_p76purpura": "img/sr01_p76purpura.jpg", "sr01_p84struvite": "img/sr01_p84struvite.jpg", "sr01_p87rosespot": "img/sr01_p87rosespot.jpg", "sr01_p93vibrioaero": "img/sr01_p93vibrioaero.jpg", "sr01_p97ecthyma": "img/sr01_p97ecthyma.jpg", "sr01_p98pseudoskin": "img/sr01_p98pseudoskin.jpg", "sr02_p28circadian": "img/sr02_p28circadian.jpg", "sr02_p2zones": "img/sr02_p2zones.jpg", "sr02_p41plenadren": "img/sr02_p41plenadren.jpg", "sr02_p43chronocort": "img/sr02_p43chronocort.jpg", "sr02_p4hpa": "img/sr02_p4hpa.jpg", "sr02_p5types": "img/sr02_p5types.jpg"});
 const CONFIG={"title": "คลังข้อสอบเก่า SI", "brand": "Past Prevent Med Y4 MEQ", "sub": "คลังข้อสอบเก่า", "storageKey": "ac-si-v1", "setLabel": "ปี", "roLabel": "Rotation", "chipStrip": "SI", "files": {}, "siteUrl": "https://bankypp.github.io/ac-mdcu/si/", "siteName": "คลังข้อสอบเก่า", "inst": {"id": "si", "name": "SI", "th": "ศิริราช", "en": "Faculty of Medicine Siriraj Hospital, Mahidol University (SI)", "enShort": "Siriraj Hospital, Mahidol University", "stu": "นักศึกษาแพทย์"}, "wards": [{"id": "sx", "name": "Surgery", "short": "Sx", "year": "Y4", "sub": "SI", "brand": "Past Sx Y4 MCQ", "dir": "data_sx", "scope": "Surgery", "dates": [], "meqTopics": []}, {"id": "ped", "name": "Pediatrics", "short": "Ped", "year": "Y4", "sub": "SI", "brand": "Past Ped Y4 MCQ", "dir": "data_ped", "scope": "Pediatrics", "dates": [], "meqTopics": []}, {"id": "prevmed", "name": "Preventive Medicine", "short": "Prevent Med", "year": "Y4", "sub": "SI", "brand": "Past Prevent Med Y4 MEQ", "dir": "data_prevmed", "scope": "Preventive medicine", "noExam": ["MCQ", "OSCE"], "dates": [], "meqTopics": []}, {"id": "med", "name": "Internal Medicine", "short": "Med", "year": "Y4", "sub": "SI", "brand": "Past Med Y4 MCQ", "dir": "data_med", "scope": "Internal medicine", "dates": [], "meqTopics": [], "lectures": [{"title": "L17 Multiple myeloma & related disorders", "topic": "Hematology"}], "osceTopics": [{"id": "lab", "name": "Lab interpretation"}, {"id": "img", "name": "Imaging"}, {"id": "micro", "name": "Microscope"}, {"id": "ekg", "name": "EKG"}, {"id": "skin", "name": "Skin lesion"}, {"id": "pefind", "name": "Describe physical findings"}, {"id": "hx", "name": "History taking", "ex": 1}, {"id": "pe", "name": "Physical examination", "ex": 1}, {"id": "proc", "name": "Procedure", "ex": 1, "proc": 1}], "exam": {"OSCE": {"n": 25, "min": 5}}}], "firebase": {"apiKey": "AIzaSyDIzd81Qw7shAOj3uiGU1T8tm90HXtF4yg", "authDomain": "ac-mdcu.firebaseapp.com", "projectId": "ac-mdcu", "storageBucket": "ac-mdcu.firebasestorage.app", "messagingSenderId": "537236830552", "appId": "1:537236830552:web:40d77940f7adf0fecd8d2d", "measurementId": "G-BYB1HZMHK6"}, "fbPath": ["users", "{uid}", "inst", "si"], "sharedPrefix": "si_", "homeBrand": "Past {short} SI134 by BankyPP", "quizBrand": "Past {short} {type}", "artifactUrl": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "subjects": [{"id": "surgery", "name": "Surgery", "wards": ["sx"]}, {"id": "pediatrics", "name": "Pediatrics", "wards": ["ped"]}, {"id": "prevmed", "name": "Preventive Medicine", "wards": ["prevmed"]}, {"id": "medicine", "name": "Medicine", "wards": ["med"]}], "gate": {"on": false, "salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b", "r": 0}, "roundNames": {"Grand round": "Random", "Service round": "Year by year", "Legendary round": "Real Experience", "Ward staff round": "Redo", "Teaching round": "Guidance", "Advisor round": "Revise", "Unit round": "Lecture quiz", "Quality round": "Timed", "Admission round": "Anything", "Specialty round": "Quiz by topics", "Round I/O": "Summary"}, "insts": [{"id": "mdcu", "name": "MDCU", "th": "จุฬาฯ", "url": "https://bankypp.github.io/ac-mdcu/", "art": "https://claude.ai/artifact/5KGcnr6yKsqvXGNh73mmfE", "sk": "ac-sx-mcq-mdcu-y4-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b", "r": 0}}, {"id": "si", "name": "SI", "th": "ศิริราช", "url": "https://bankypp.github.io/ac-mdcu/si/", "art": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "sk": "ac-si-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b", "r": 0}}]};
-const BUILD="29/10/2026 09:55";
+const BUILD="29/10/2026 09:57";
 WARDS["sx"]={QB:[],HY:null};
 WARDS["sx"].MQ=[];
 WARDS["sx"].OS=[];
@@ -5396,11 +5400,14 @@ async function qReset(){if(!QR)return;if(!await uiAsk("เริ่มจับ�
 function paintQR(){const b=$("qbar");if(!b)return;
   const on=!!(QR&&ward&&QR.ward===ward&&view==="sess"&&P_().sess&&P_().sess.kind==="quality");
   b.hidden=!on;document.body.classList.toggle("qon",on);if(!on)return;
-  const g=qSeg(),el=qEl();let ph="",t="",meta="";
-  if(QR.done){ph="จบแล้ว";t="0:00";meta=QR.pg.name;}
-  else if(g){ph=g.name;t=mmss(g.t1-el);const w0=QR.S[0].kind==="warm"?QR.S[0].t1:0;
-    meta=g.kind==="warm"?`${QR.pg.name} · warm up`:`${g.bname} ${g.rep}/${g.reps} · รอบ ${g.loop}/${nz(QR.pg.loops,1)} · เหลือ ${mmss(QR.total-Math.max(el,w0))}`;}
-  $("qbPh").textContent=ph+(QR.paused?(QR.restored?" · หยุดไว้ กด ▶ ต่อ":" · หยุดอยู่"):"");$("qbT").textContent=t;$("qbMeta").textContent=meta+(QR.mand?" · mandatory":"");
+  const g=qSeg(),el=qEl();let ph="",t="",meta="",fr=0;
+  if(QR.done){ph="จบแล้ว";t="0:00";meta=esc(QR.pg.name);fr=1;}
+  else if(g){ph=g.name;t=mmss(g.t1-el);fr=Math.min(1,Math.max(0,(el-g.t0)/Math.max(1,g.t1-g.t0)));const w0=QR.S[0].kind==="warm"?QR.S[0].t1:0;
+    meta=g.kind==="warm"?`${esc(QR.pg.name)}<br>warm up`:`${esc(g.bname)} <b>${g.rep}/${g.reps}</b><br>รอบ <b>${g.loop}/${nz(QR.pg.loops,1)}</b><br>เหลือ <b>${mmss(QR.total-Math.max(el,w0))}</b>`;}
+  /* ring = time left in this phase (full at the start, empties as it runs) */
+  b.style.setProperty("--qp",(1-fr).toFixed(4));b.classList.toggle("paused",!!QR.paused&&!QR.done);
+  $("qbPh").textContent=ph;$("qbSt").textContent=QR.paused&&!QR.done?(QR.restored?"หยุดไว้ · กด ▶ ต่อ":"⏸ หยุดอยู่"):"";
+  $("qbT").textContent=t;$("qbMeta").innerHTML=meta+(QR.mand?"<br>mandatory":"");
   $("qbPause").textContent=QR.paused?"▶ ต่อ":"⏸ พัก";$("qbPause").disabled=QR.done;b.dataset.k=QR.done?"done":g?g.kind:"";
   const v=$("qbVol");if(document.activeElement!==v)v.value=qpS().vol;}
 $("qbPause").onclick=qPause;$("qbReset").onclick=qReset;

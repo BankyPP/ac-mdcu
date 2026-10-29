@@ -1104,11 +1104,14 @@ async function qReset(){if(!QR)return;if(!await uiAsk("เริ่มจับ�
 function paintQR(){const b=$("qbar");if(!b)return;
   const on=!!(QR&&ward&&QR.ward===ward&&view==="sess"&&P_().sess&&P_().sess.kind==="quality");
   b.hidden=!on;document.body.classList.toggle("qon",on);if(!on)return;
-  const g=qSeg(),el=qEl();let ph="",t="",meta="";
-  if(QR.done){ph="จบแล้ว";t="0:00";meta=QR.pg.name;}
-  else if(g){ph=g.name;t=mmss(g.t1-el);const w0=QR.S[0].kind==="warm"?QR.S[0].t1:0;
-    meta=g.kind==="warm"?`${QR.pg.name} · warm up`:`${g.bname} ${g.rep}/${g.reps} · รอบ ${g.loop}/${nz(QR.pg.loops,1)} · เหลือ ${mmss(QR.total-Math.max(el,w0))}`;}
-  $("qbPh").textContent=ph+(QR.paused?(QR.restored?" · หยุดไว้ กด ▶ ต่อ":" · หยุดอยู่"):"");$("qbT").textContent=t;$("qbMeta").textContent=meta+(QR.mand?" · mandatory":"");
+  const g=qSeg(),el=qEl();let ph="",t="",meta="",fr=0;
+  if(QR.done){ph="จบแล้ว";t="0:00";meta=esc(QR.pg.name);fr=1;}
+  else if(g){ph=g.name;t=mmss(g.t1-el);fr=Math.min(1,Math.max(0,(el-g.t0)/Math.max(1,g.t1-g.t0)));const w0=QR.S[0].kind==="warm"?QR.S[0].t1:0;
+    meta=g.kind==="warm"?`${esc(QR.pg.name)}<br>warm up`:`${esc(g.bname)} <b>${g.rep}/${g.reps}</b><br>รอบ <b>${g.loop}/${nz(QR.pg.loops,1)}</b><br>เหลือ <b>${mmss(QR.total-Math.max(el,w0))}</b>`;}
+  /* ring = time left in this phase (full at the start, empties as it runs) */
+  b.style.setProperty("--qp",(1-fr).toFixed(4));b.classList.toggle("paused",!!QR.paused&&!QR.done);
+  $("qbPh").textContent=ph;$("qbSt").textContent=QR.paused&&!QR.done?(QR.restored?"หยุดไว้ · กด ▶ ต่อ":"⏸ หยุดอยู่"):"";
+  $("qbT").textContent=t;$("qbMeta").innerHTML=meta+(QR.mand?"<br>mandatory":"");
   $("qbPause").textContent=QR.paused?"▶ ต่อ":"⏸ พัก";$("qbPause").disabled=QR.done;b.dataset.k=QR.done?"done":g?g.kind:"";
   const v=$("qbVol");if(document.activeElement!==v)v.value=qpS().vol;}
 $("qbPause").onclick=qPause;$("qbReset").onclick=qReset;
