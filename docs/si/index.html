@@ -1142,6 +1142,8 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 .ttable .tmine-b.ed{outline:1.5px dashed var(--form);outline-offset:3px;border-radius:4px;background:var(--sheet)}
 .tmine-send{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:0 0 10px}
 .tmine-send .rd{font-size:12.5px;color:var(--muted)}
+
+.tmine-f.ok{background:color-mix(in srgb,#2e7d32 14%,transparent);color:#1b5e20}
 </style>
 </head>
 <body>
@@ -1201,7 +1203,7 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 const IMGS={};const WARDS={};
 Object.assign(IMGS,{"os132_1": "img/os132_1.jpg", "os132_11": "img/os132_11.jpg", "os132_12": "img/os132_12.jpg", "os132_2": "img/os132_2.jpg", "os132_4": "img/os132_4.jpg", "os132_6": "img/os132_6.jpg", "os132_9": "img/os132_9.jpg", "sl17_p11": "img/sl17_p11.jpg", "sl17_p22": "img/sl17_p22.jpg", "sl17_p24": "img/sl17_p24.jpg", "sl17_p25": "img/sl17_p25.jpg", "sl17_p6": "img/sl17_p6.jpg", "sr01_p100safetypin": "img/sr01_p100safetypin.jpg", "sr01_p106chancroidgram": "img/sr01_p106chancroidgram.jpg", "sr01_p111pedropons": "img/sr01_p111pedropons.jpg", "sr01_p119bcye": "img/sr01_p119bcye.jpg", "sr01_p121lemierrect": "img/sr01_p121lemierrect.jpg", "sr01_p124palmrash": "img/sr01_p124palmrash.jpg", "sr01_p128argyllrobertson": "img/sr01_p128argyllrobertson.jpg", "sr01_p12gasskin": "img/sr01_p12gasskin.jpg", "sr01_p140mycoplasma": "img/sr01_p140mycoplasma.jpg", "sr01_p15arfsigns": "img/sr01_p15arfsigns.jpg", "sr01_p28anthraxeschar": "img/sr01_p28anthraxeschar.jpg", "sr01_p33tetanussigns": "img/sr01_p33tetanussigns.jpg", "sr01_p36tetanusbotulism": "img/sr01_p36tetanusbotulism.jpg", "sr01_p3gpcgram": "img/sr01_p3gpcgram.jpg", "sr01_p40diphtheria": "img/sr01_p40diphtheria.jpg", "sr01_p43cluecell": "img/sr01_p43cluecell.jpg", "sr01_p44vaginitis": "img/sr01_p44vaginitis.jpg", "sr01_p45rhodococcus": "img/sr01_p45rhodococcus.jpg", "sr01_p46nocardia": "img/sr01_p46nocardia.jpg", "sr01_p47actinomyces": "img/sr01_p47actinomyces.jpg", "sr01_p48tbcxr": "img/sr01_p48tbcxr.jpg", "sr01_p58interrupt": "img/sr01_p58interrupt.jpg", "sr01_p66marinum": "img/sr01_p66marinum.jpg", "sr01_p68antiifng": "img/sr01_p68antiifng.jpg", "sr01_p69leprosy": "img/sr01_p69leprosy.jpg", "sr01_p70pbmb": "img/sr01_p70pbmb.jpg", "sr01_p73gnd": "img/sr01_p73gnd.jpg", "sr01_p76purpura": "img/sr01_p76purpura.jpg", "sr01_p84struvite": "img/sr01_p84struvite.jpg", "sr01_p87rosespot": "img/sr01_p87rosespot.jpg", "sr01_p93vibrioaero": "img/sr01_p93vibrioaero.jpg", "sr01_p97ecthyma": "img/sr01_p97ecthyma.jpg", "sr01_p98pseudoskin": "img/sr01_p98pseudoskin.jpg", "sr02_p28circadian": "img/sr02_p28circadian.jpg", "sr02_p2zones": "img/sr02_p2zones.jpg", "sr02_p41plenadren": "img/sr02_p41plenadren.jpg", "sr02_p43chronocort": "img/sr02_p43chronocort.jpg", "sr02_p4hpa": "img/sr02_p4hpa.jpg", "sr02_p5types": "img/sr02_p5types.jpg"});
 const CONFIG={"title": "คลังข้อสอบเก่า SI", "brand": "Past Prevent Med Y4 MEQ", "sub": "คลังข้อสอบเก่า", "storageKey": "ac-si-v1", "setLabel": "ปี", "roLabel": "Rotation", "chipStrip": "SI", "files": {}, "siteUrl": "https://bankypp.github.io/ac-mdcu/si/", "siteName": "คลังข้อสอบเก่า", "inst": {"id": "si", "name": "SI", "th": "ศิริราช", "en": "Faculty of Medicine Siriraj Hospital, Mahidol University (SI)", "enShort": "Siriraj Hospital, Mahidol University", "stu": "นักศึกษาแพทย์"}, "wards": [{"id": "sx", "name": "Surgery", "short": "Sx", "year": "Y4", "sub": "SI", "brand": "Past Sx Y4 MCQ", "dir": "data_sx", "scope": "Surgery", "dates": [], "meqTopics": []}, {"id": "ped", "name": "Pediatrics", "short": "Ped", "year": "Y4", "sub": "SI", "brand": "Past Ped Y4 MCQ", "dir": "data_ped", "scope": "Pediatrics", "dates": [], "meqTopics": []}, {"id": "prevmed", "name": "Preventive Medicine", "short": "Prevent Med", "year": "Y4", "sub": "SI", "brand": "Past Prevent Med Y4 MEQ", "dir": "data_prevmed", "scope": "Preventive medicine", "noExam": ["MCQ", "OSCE"], "dates": [], "meqTopics": []}, {"id": "med", "name": "Internal Medicine", "short": "Med", "year": "Y4", "sub": "SI", "brand": "Past Med Y4 MCQ", "dir": "data_med", "scope": "Internal medicine", "dates": [], "meqTopics": [], "lectures": [{"title": "L17 Multiple myeloma & related disorders", "topic": "Hematology"}], "osceTopics": [{"id": "lab", "name": "Lab interpretation"}, {"id": "img", "name": "Imaging"}, {"id": "micro", "name": "Microscope"}, {"id": "ekg", "name": "EKG"}, {"id": "skin", "name": "Skin lesion"}, {"id": "pefind", "name": "Describe physical findings"}, {"id": "hx", "name": "History taking", "ex": 1}, {"id": "pe", "name": "Physical examination", "ex": 1}, {"id": "proc", "name": "Procedure", "ex": 1, "proc": 1}], "exam": {"OSCE": {"n": 25, "min": 5}}}], "firebase": {"apiKey": "AIzaSyDIzd81Qw7shAOj3uiGU1T8tm90HXtF4yg", "authDomain": "ac-mdcu.firebaseapp.com", "projectId": "ac-mdcu", "storageBucket": "ac-mdcu.firebasestorage.app", "messagingSenderId": "537236830552", "appId": "1:537236830552:web:40d77940f7adf0fecd8d2d", "measurementId": "G-BYB1HZMHK6"}, "fbPath": ["users", "{uid}", "inst", "si"], "sharedPrefix": "si_", "homeBrand": "Past {short} SI134 by BankyPP", "quizBrand": "Past {short} {type}", "artifactUrl": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "subjects": [{"id": "surgery", "name": "Surgery", "wards": ["sx"]}, {"id": "pediatrics", "name": "Pediatrics", "wards": ["ped"]}, {"id": "prevmed", "name": "Preventive Medicine", "wards": ["prevmed"]}, {"id": "medicine", "name": "Medicine", "wards": ["med"]}], "gate": {"on": false, "salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b", "r": 0}, "roundNames": {"Grand round": "Random", "Service round": "Year by year", "Legendary round": "Real Experience", "Ward staff round": "Redo", "Teaching round": "Guidance", "Advisor round": "Revise", "Unit round": "Lecture quiz", "Quality round": "Timed", "Admission round": "Anything", "Specialty round": "Quiz by topics", "Round I/O": "Summary"}, "insts": [{"id": "mdcu", "name": "MDCU", "th": "จุฬาฯ", "url": "https://bankypp.github.io/ac-mdcu/", "art": "https://claude.ai/artifact/5KGcnr6yKsqvXGNh73mmfE", "sk": "ac-sx-mcq-mdcu-y4-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b", "r": 0}}, {"id": "si", "name": "SI", "th": "ศิริราช", "url": "https://bankypp.github.io/ac-mdcu/si/", "art": "https://claude.ai/artifact/V6A3RJvEnKQL1qhidGAbMx", "sk": "ac-si-v1", "gate": {"salt": "06faf800614125fd", "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b", "r": 0}}]};
-const BUILD="29/10/2026 22:45";
+const BUILD="29/10/2026 23:45";
 WARDS["sx"]={QB:[],HY:null};
 WARDS["sx"].MQ=[];
 WARDS["sx"].OS=[];
@@ -3948,23 +3950,72 @@ function tchPut(tool,o){bankPut("tch|all|"+tool,{rows:o.rows,procs:o.procs||[],g
 /* editable on the web (the file is an [AI] file): the user's edit is kept per account in bank "tmine|<tool>|<rowId>" {h};
    once Claude has written it into the Google Doc and the site's copy matches, the edit clears itself */
 const tPlain=s=>String(s||"").replace(/<br\s*\/?>/gi,"\n").replace(/<\/(li|p|div|h\d)>/gi,"\n").replace(/<li[^>]*>/gi,"• ").replace(/<[^>]+>/g,"").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/[ \t]+/g," ").replace(/\n\s*\n+/g,"\n").trim();
+/* อัปขึ้นไฟล์ [AI] เองทันทีที่บันทึก — ผ่าน Apps Script (repo doc-script: tools/ai-sync/Code.gs) · ไม่ใช้ AI
+   เฉพาะบัญชีใน AI_SYNC.owners (ที่คนอื่นแก้ = ของเขาเอง ไม่เข้าไฟล์) · ส่งไม่ได้ → เก็บรอ ส่งใหม่ตอนเปิดหน้า / ปุ่ม 📤 ยังใช้ได้
+   bank "tmine|<tool>|<id>" = {h, bh (สิ่งที่ไฟล์มีตอนนี้), sy:{st:wait|ok|err|notai, msg}} */
+const AI_SYNC={url:"https://script.google.com/macros/s/AKfycbxO-_hmNAoFR8QOlM4IgRt03km6MYr72boi0x6eHtMTKoAq5QTFCVjqI-0ck9D49Udz/exec",owners:["pongsaran.phol@gmail.com","swagbank17@gmail.com","pongsaran.phol@docchula.com"]};
+const aiMine=()=>!!(fb&&fb.user&&fb.user.email&&AI_SYNC.owners.includes(String(fb.user.email).toLowerCase()));
+const tAiNorm=t=>String(t||"").replace(/[ ​ ]/g," ").replace(/\s+/g," ").trim();
+const T_AIBLK="p,li,h1,h2,h3,h4,h5,h6,div,td,th";
+function tAiBlocks(h){const d=document.createElement("div");d.innerHTML=tSan(h);const out=[];
+  d.querySelectorAll(T_AIBLK).forEach(b=>{let el=b;if(b.querySelector(T_AIBLK)){if(b.tagName!=="LI")return;el=b.cloneNode(true);el.querySelectorAll("ul,ol").forEach(x=>x.remove());}
+    const raw=el.textContent.replace(/[  ]/g," ").replace(/​/g,"").replace(/\n+/g," ").trim();if(b.tagName==="DIV"&&!raw)return;out.push({k:b.tagName.toLowerCase(),t:tAiNorm(raw),raw});});
+  return out;}
+function tAiDiff(A,B){let s=0,ea=A.length,eb=B.length;const out=[];while(s<ea&&s<eb&&A[s]===B[s])s++;while(ea>s&&eb>s&&A[ea-1]===B[eb-1]){ea--;eb--;}
+  for(let i=0;i<s;i++)out.push(["=",i,i]);const n=ea-s,m=eb-s,L=[];for(let i=0;i<=n;i++)L.push(new Uint16Array(m+1));
+  for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)L[i][j]=A[s+i]===B[s+j]?L[i+1][j+1]+1:Math.max(L[i+1][j],L[i][j+1]);
+  let i=0,j=0;while(i<n&&j<m){if(A[s+i]===B[s+j]){out.push(["=",s+i,s+j]);i++;j++;}else if(L[i+1][j]>=L[i][j+1]){out.push(["-",s+i]);i++;}else{out.push(["+",s+j]);j++;}}
+  for(;i<n;i++)out.push(["-",s+i]);for(;j<m;j++)out.push(["+",s+j]);for(let k=0;ea+k<A.length;k++)out.push(["=",ea+k,eb+k]);return out;}
+/* ops ระดับย่อหน้า — อ้างตำแหน่งด้วยข้อความ + ลำดับที่ซ้ำ + ย่อหน้าก่อน/หลัง (นับทั้งไฟล์ = ทุกหัวข้อเรียงต่อกัน) */
+function tOps(tool,id,oldH,newH){const M=TCH_MINE[tool],ids=Object.keys(M.rows),G=[];let off=0;
+  ids.forEach(r=>{if(r===id)off=G.length;const e=bank["tmine|"+tool+"|"+r];(r===id?tAiBlocks(oldH):tAiBlocks(e&&!e.del&&e.bh!=null?e.bh:M.rows[r])).forEach(b=>G.push(b.t));});
+  const A=tAiBlocks(oldH),B=tAiBlocks(newH),At=A.map(x=>x.t),Bt=B.map(x=>x.t),ops=[];
+  const ref=i=>{const g=off+i;let c=0;for(let x=0;x<g;x++)if(G[x]===At[i])c++;return {old:At[i],n:c,prev:g>0?G[g-1]:null,next:g<G.length-1?G[g+1]:null};};
+  const sc=tAiDiff(At,Bt);let last=-1,k=0;
+  while(k<sc.length){if(sc[k][0]==="="){last=sc[k][1];k++;continue;}const del=[],add=[];while(k<sc.length&&sc[k][0]!=="="){(sc[k][0]==="-"?del:add).push(sc[k][1]);k++;}
+    const p=Math.min(del.length,add.length);for(let q=0;q<p;q++)ops.push({t:"mod",at:ref(del[q]),text:B[add[q]].raw});
+    for(let q=p;q<del.length;q++)ops.push({t:"del",at:ref(del[q])});
+    if(add.length>p){const anc=p?del[p-1]:last,nx=k<sc.length?sc[k][1]:-1;
+      ops.push({t:"ins",after:anc>=0?ref(anc):(off>0?{old:G[off-1],n:G.slice(0,off-1).filter(x=>x===G[off-1]).length}:null),before:anc<0&&off===0&&nx>=0?ref(nx):null,items:add.slice(p).map(j=>({text:B[j].raw,k:B[j].k}))});}
+    if(del.length)last=del[del.length-1];}
+  return ops;}
+const tAiTried={};
+async function tAiSend(tool,id,cb){const key="tmine|"+tool+"|"+id,e=bank[key],M=TCH_MINE[tool];if(!e||!e.sy||!e.sy.ops||!aiMine())return;
+  if(e.sy.st==="send")return;e.sy.st="send";
+  try{const tok=await fb.user.getIdToken();const r=await fetch(AI_SYNC.url,{method:"POST",body:JSON.stringify({token:tok,target:{kind:"doc",id:M.doc,path:[]},ops:e.sy.ops})});
+    const j=await r.json(),x=bank[key];if(!x)return;
+    if(j.notai)x.sy={st:"notai",msg:"ชื่อไฟล์ไม่ขึ้นต้น [AI]"};
+    else if(j.ok&&!(j.miss||[]).length){x.bh=x.h;x.sy={st:"ok"};if(x.rev){bankPut(key,{del:1});if(cb)cb();return;}}
+    else x.sy={st:"err",msg:j.error||("หาตำแหน่งในไฟล์ไม่เจอ: "+(j.miss||[]).slice(0,3).join(" · ")),ops:e.sy.ops};
+    bankPut(key,x);}
+  catch(err){const x=bank[key];if(x){x.sy={st:"err",msg:String(err&&err.message||err),ops:e.sy.ops};bankPut(key,x);}}
+  if(cb)cb();}
+/* บันทึกฉบับใหม่ของหัวข้อ (rev = กลับไปเป็นต้นฉบับ) แล้วส่งเข้าไฟล์ถ้าเป็นบัญชีเจ้าของ */
+function tMineSave(tool,id,h,rev,cb){const key="tmine|"+tool+"|"+id,prev=bank[key]&&!bank[key].del?bank[key]:null,orig=tMineOrig(tool,id);
+  const bh=prev&&prev.bh!=null?prev.bh:orig;
+  if(!aiMine()){bankPut(key,rev?{del:1}:{h});if(cb)cb();return;}
+  if(tPlain(h)===tPlain(bh)){bankPut(key,rev||tPlain(h)===tPlain(orig)?{del:1}:{h,bh,sy:{st:"ok"}});if(cb)cb();return;}
+  const ops=tOps(tool,id,bh,h);bankPut(key,{h,bh,rev:rev?1:0,sy:{st:"wait",ops}});if(cb)cb();tAiSend(tool,id,cb);}
+function tAiRetry(tool,cb){if(!aiMine()||typeof TCH_MINE==="undefined"||!TCH_MINE[tool])return;Object.keys(TCH_MINE[tool].rows).forEach(id=>{const e=bank["tmine|"+tool+"|"+id];
+  if(e&&!e.del&&e.sy&&(e.sy.st==="wait"||e.sy.st==="err"||e.sy.st==="send")&&!tAiTried[tool+id]){tAiTried[tool+id]=1;e.sy.st="wait";tAiSend(tool,id,cb);}});}
 function tMineOrig(tool,id){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];return M&&M.rows&&M.rows[id]?M.rows[id]:"";}
 function tMineEd(tool,id){const o=bank["tmine|"+tool+"|"+id];if(!o||o.del||o.h==null)return null;return tPlain(o.h)===tPlain(tMineOrig(tool,id))?null:o;}
 function tMine(tool,id){const e=tMineEd(tool,id);return e?e.h:tMineOrig(tool,id);}
-function tMineEdits(tool){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];if(!M)return [];return Object.keys(M.rows).filter(id=>tMineEd(tool,id)).map(id=>({id,h:(tchGet(tool).rows.find(r=>r.id===id)||{}).h||id,orig:M.rows[id],ed:tMineEd(tool,id).h}));}
-function tMineBar(tool,id){const e=tMineEd(tool,id),M=TCH_MINE[tool];return `<button class="chip" type="button" data-mact="edit">✏️ แก้</button>${e?`<span class="tmine-f" title="แก้ในเว็บแล้ว — กด 📤 ส่งเข้า ${esc(M.src)} ด้านบนเพื่อให้ Claude ใส่ลงไฟล์">แก้แล้ว · ยังไม่เข้า ${esc(M.src)}</span><button class="link" type="button" data-mact="orig">คืนต้นฉบับ</button>`:""}`;}
+function tMineEdits(tool){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];if(!M)return [];return Object.keys(M.rows).filter(id=>tMineEd(tool,id)&&!((bank["tmine|"+tool+"|"+id].sy||{}).st==="ok")).map(id=>({id,h:(tchGet(tool).rows.find(r=>r.id===id)||{}).h||id,orig:M.rows[id],ed:tMineEd(tool,id).h}));}
+function tMineBar(tool,id){const e=tMineEd(tool,id),M=TCH_MINE[tool],sy=e&&e.sy||{},T={ok:"เข้า "+M.src+" แล้ว",wait:"กำลังส่งเข้า "+M.src+"…",send:"กำลังส่งเข้า "+M.src+"…",err:"ส่งเข้า "+M.src+" ไม่สำเร็จ",notai:"ไฟล์ไม่ใช่ [AI]"};
+  return `<button class="chip" type="button" data-mact="edit">✏️ แก้</button>${e?`<span class="tmine-f${sy.st==="ok"?" ok":""}" title="${esc(sy.msg||(sy.st?"":"แก้ในเว็บแล้ว — กด 📤 ส่งเข้า "+M.src+" ด้านบนเพื่อให้ Claude ใส่ลงไฟล์"))}">แก้แล้ว · ${sy.st?T[sy.st]:"ยังไม่เข้า "+esc(M.src)}</span><button class="link" type="button" data-mact="orig">คืนต้นฉบับ</button>`:""}`;}
 function tMineHTML(tool,id,open){const x=tMine(tool,id);if(!x)return "";const M=TCH_MINE[tool];return `<details class="tmine" data-mid="${esc(id)}" data-mtool="${tool}"${open?" open":""}><summary>📄 เช็กลิสต์ของฉัน · ${esc(M.src)}${tMineEd(tool,id)?" · ✏️":""}</summary><div class="tmine-bar">${tMineBar(tool,id)}</div><div class="tmine-b">${tSan(x)}</div></details>`;}
 function tMineSendHTML(tool){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool],n=tMineEdits(tool).length;return M&&n?`<div class="tmine-send"><button class="btn" type="button" data-msend="${tool}">📤 ส่งที่แก้เข้า ${esc(M.src)} (${n} หัวข้อ)</button><span class="rd">คัดลอกแล้วไปวางในแชท Claude — Claude จะย่อแล้วใส่ลง Google Doc ให้</span></div>`:"";}
 function tMineBind(root,onChange){if(!root)return;
   root.querySelectorAll("details.tmine").forEach(d=>{const tool=d.dataset.mtool,id=d.dataset.mid,b=d.querySelector(".tmine-b"),bar=d.querySelector(".tmine-bar");
     const paint=()=>{bar.innerHTML=tMineBar(tool,id);d.querySelector("summary").innerHTML=`📄 เช็กลิสต์ของฉัน · ${esc(TCH_MINE[tool].src)}${tMineEd(tool,id)?" · ✏️":""}`;b.innerHTML=tSan(tMine(tool,id));wire();if(onChange)onChange();};
     const wire=()=>{bar.querySelectorAll("[data-mact]").forEach(x=>x.onclick=async e=>{e.preventDefault();const a=x.dataset.mact;
-      if(a==="orig"){if(!await uiAsk("คืนต้นฉบับจากไฟล์? ที่แก้ในเว็บของหัวข้อนี้จะหาย"))return;bankPut("tmine|"+tool+"|"+id,{del:1});paint();return;}
+      if(a==="orig"){if(!await uiAsk("คืนต้นฉบับจากไฟล์? ที่แก้ในเว็บของหัวข้อนี้จะหาย"+(aiMine()?" (และแก้ในไฟล์กลับเป็นต้นฉบับด้วย)":"")))return;tMineSave(tool,id,tMineOrig(tool,id),1,paint);return;}
       if(a==="edit"){b.contentEditable="true";b.classList.add("ed");b.focus();
         bar.innerHTML=`<button class="chip" type="button" data-mact="save">บันทึก</button><button class="link" type="button" data-mact="cancel">ยกเลิก</button>`;wire();return;}
       if(a==="cancel"){b.contentEditable="false";b.classList.remove("ed");paint();return;}
-      if(a==="save"){b.contentEditable="false";b.classList.remove("ed");bankPut("tmine|"+tool+"|"+id,{h:tSan(b.innerHTML)});paint();toast(tMineEd(tool,id)?"บันทึกแล้ว — กด 📤 เพื่อส่งเข้าไฟล์":"เหมือนต้นฉบับ — ไม่มีอะไรเปลี่ยน");}});};
-    wire();});
+      if(a==="save"){b.contentEditable="false";b.classList.remove("ed");tMineSave(tool,id,tSan(b.innerHTML),0,paint);toast(!tMineEd(tool,id)?"เหมือนต้นฉบับ — ไม่มีอะไรเปลี่ยน":aiMine()?"บันทึกแล้ว — กำลังส่งเข้า "+TCH_MINE[tool].src:"บันทึกแล้ว — กด 📤 เพื่อส่งเข้าไฟล์");}});};
+    wire();tAiRetry(tool,paint);});
   tMineSendBind(root);}
 /* show / refresh the 📤 button at the top of a container */
 function tMineSendRefresh(box,tool){if(!box)return;const o=box.querySelector(":scope > .tmine-send"),n=tMineSendHTML(tool);if(o)o.remove();if(n){box.insertAdjacentHTML("afterbegin",n);tMineSendBind(box);}}

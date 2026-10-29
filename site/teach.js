@@ -18,23 +18,72 @@ function tchPut(tool,o){bankPut("tch|all|"+tool,{rows:o.rows,procs:o.procs||[],g
 /* editable on the web (the file is an [AI] file): the user's edit is kept per account in bank "tmine|<tool>|<rowId>" {h};
    once Claude has written it into the Google Doc and the site's copy matches, the edit clears itself */
 const tPlain=s=>String(s||"").replace(/<br\s*\/?>/gi,"\n").replace(/<\/(li|p|div|h\d)>/gi,"\n").replace(/<li[^>]*>/gi,"• ").replace(/<[^>]+>/g,"").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/[ \t]+/g," ").replace(/\n\s*\n+/g,"\n").trim();
+/* อัปขึ้นไฟล์ [AI] เองทันทีที่บันทึก — ผ่าน Apps Script (repo doc-script: tools/ai-sync/Code.gs) · ไม่ใช้ AI
+   เฉพาะบัญชีใน AI_SYNC.owners (ที่คนอื่นแก้ = ของเขาเอง ไม่เข้าไฟล์) · ส่งไม่ได้ → เก็บรอ ส่งใหม่ตอนเปิดหน้า / ปุ่ม 📤 ยังใช้ได้
+   bank "tmine|<tool>|<id>" = {h, bh (สิ่งที่ไฟล์มีตอนนี้), sy:{st:wait|ok|err|notai, msg}} */
+const AI_SYNC={url:"https://script.google.com/macros/s/AKfycbxO-_hmNAoFR8QOlM4IgRt03km6MYr72boi0x6eHtMTKoAq5QTFCVjqI-0ck9D49Udz/exec",owners:["pongsaran.phol@gmail.com","swagbank17@gmail.com","pongsaran.phol@docchula.com"]};
+const aiMine=()=>!!(fb&&fb.user&&fb.user.email&&AI_SYNC.owners.includes(String(fb.user.email).toLowerCase()));
+const tAiNorm=t=>String(t||"").replace(/[ ​ ]/g," ").replace(/\s+/g," ").trim();
+const T_AIBLK="p,li,h1,h2,h3,h4,h5,h6,div,td,th";
+function tAiBlocks(h){const d=document.createElement("div");d.innerHTML=tSan(h);const out=[];
+  d.querySelectorAll(T_AIBLK).forEach(b=>{let el=b;if(b.querySelector(T_AIBLK)){if(b.tagName!=="LI")return;el=b.cloneNode(true);el.querySelectorAll("ul,ol").forEach(x=>x.remove());}
+    const raw=el.textContent.replace(/[  ]/g," ").replace(/​/g,"").replace(/\n+/g," ").trim();if(b.tagName==="DIV"&&!raw)return;out.push({k:b.tagName.toLowerCase(),t:tAiNorm(raw),raw});});
+  return out;}
+function tAiDiff(A,B){let s=0,ea=A.length,eb=B.length;const out=[];while(s<ea&&s<eb&&A[s]===B[s])s++;while(ea>s&&eb>s&&A[ea-1]===B[eb-1]){ea--;eb--;}
+  for(let i=0;i<s;i++)out.push(["=",i,i]);const n=ea-s,m=eb-s,L=[];for(let i=0;i<=n;i++)L.push(new Uint16Array(m+1));
+  for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)L[i][j]=A[s+i]===B[s+j]?L[i+1][j+1]+1:Math.max(L[i+1][j],L[i][j+1]);
+  let i=0,j=0;while(i<n&&j<m){if(A[s+i]===B[s+j]){out.push(["=",s+i,s+j]);i++;j++;}else if(L[i+1][j]>=L[i][j+1]){out.push(["-",s+i]);i++;}else{out.push(["+",s+j]);j++;}}
+  for(;i<n;i++)out.push(["-",s+i]);for(;j<m;j++)out.push(["+",s+j]);for(let k=0;ea+k<A.length;k++)out.push(["=",ea+k,eb+k]);return out;}
+/* ops ระดับย่อหน้า — อ้างตำแหน่งด้วยข้อความ + ลำดับที่ซ้ำ + ย่อหน้าก่อน/หลัง (นับทั้งไฟล์ = ทุกหัวข้อเรียงต่อกัน) */
+function tOps(tool,id,oldH,newH){const M=TCH_MINE[tool],ids=Object.keys(M.rows),G=[];let off=0;
+  ids.forEach(r=>{if(r===id)off=G.length;const e=bank["tmine|"+tool+"|"+r];(r===id?tAiBlocks(oldH):tAiBlocks(e&&!e.del&&e.bh!=null?e.bh:M.rows[r])).forEach(b=>G.push(b.t));});
+  const A=tAiBlocks(oldH),B=tAiBlocks(newH),At=A.map(x=>x.t),Bt=B.map(x=>x.t),ops=[];
+  const ref=i=>{const g=off+i;let c=0;for(let x=0;x<g;x++)if(G[x]===At[i])c++;return {old:At[i],n:c,prev:g>0?G[g-1]:null,next:g<G.length-1?G[g+1]:null};};
+  const sc=tAiDiff(At,Bt);let last=-1,k=0;
+  while(k<sc.length){if(sc[k][0]==="="){last=sc[k][1];k++;continue;}const del=[],add=[];while(k<sc.length&&sc[k][0]!=="="){(sc[k][0]==="-"?del:add).push(sc[k][1]);k++;}
+    const p=Math.min(del.length,add.length);for(let q=0;q<p;q++)ops.push({t:"mod",at:ref(del[q]),text:B[add[q]].raw});
+    for(let q=p;q<del.length;q++)ops.push({t:"del",at:ref(del[q])});
+    if(add.length>p){const anc=p?del[p-1]:last,nx=k<sc.length?sc[k][1]:-1;
+      ops.push({t:"ins",after:anc>=0?ref(anc):(off>0?{old:G[off-1],n:G.slice(0,off-1).filter(x=>x===G[off-1]).length}:null),before:anc<0&&off===0&&nx>=0?ref(nx):null,items:add.slice(p).map(j=>({text:B[j].raw,k:B[j].k}))});}
+    if(del.length)last=del[del.length-1];}
+  return ops;}
+const tAiTried={};
+async function tAiSend(tool,id,cb){const key="tmine|"+tool+"|"+id,e=bank[key],M=TCH_MINE[tool];if(!e||!e.sy||!e.sy.ops||!aiMine())return;
+  if(e.sy.st==="send")return;e.sy.st="send";
+  try{const tok=await fb.user.getIdToken();const r=await fetch(AI_SYNC.url,{method:"POST",body:JSON.stringify({token:tok,target:{kind:"doc",id:M.doc,path:[]},ops:e.sy.ops})});
+    const j=await r.json(),x=bank[key];if(!x)return;
+    if(j.notai)x.sy={st:"notai",msg:"ชื่อไฟล์ไม่ขึ้นต้น [AI]"};
+    else if(j.ok&&!(j.miss||[]).length){x.bh=x.h;x.sy={st:"ok"};if(x.rev){bankPut(key,{del:1});if(cb)cb();return;}}
+    else x.sy={st:"err",msg:j.error||("หาตำแหน่งในไฟล์ไม่เจอ: "+(j.miss||[]).slice(0,3).join(" · ")),ops:e.sy.ops};
+    bankPut(key,x);}
+  catch(err){const x=bank[key];if(x){x.sy={st:"err",msg:String(err&&err.message||err),ops:e.sy.ops};bankPut(key,x);}}
+  if(cb)cb();}
+/* บันทึกฉบับใหม่ของหัวข้อ (rev = กลับไปเป็นต้นฉบับ) แล้วส่งเข้าไฟล์ถ้าเป็นบัญชีเจ้าของ */
+function tMineSave(tool,id,h,rev,cb){const key="tmine|"+tool+"|"+id,prev=bank[key]&&!bank[key].del?bank[key]:null,orig=tMineOrig(tool,id);
+  const bh=prev&&prev.bh!=null?prev.bh:orig;
+  if(!aiMine()){bankPut(key,rev?{del:1}:{h});if(cb)cb();return;}
+  if(tPlain(h)===tPlain(bh)){bankPut(key,rev||tPlain(h)===tPlain(orig)?{del:1}:{h,bh,sy:{st:"ok"}});if(cb)cb();return;}
+  const ops=tOps(tool,id,bh,h);bankPut(key,{h,bh,rev:rev?1:0,sy:{st:"wait",ops}});if(cb)cb();tAiSend(tool,id,cb);}
+function tAiRetry(tool,cb){if(!aiMine()||typeof TCH_MINE==="undefined"||!TCH_MINE[tool])return;Object.keys(TCH_MINE[tool].rows).forEach(id=>{const e=bank["tmine|"+tool+"|"+id];
+  if(e&&!e.del&&e.sy&&(e.sy.st==="wait"||e.sy.st==="err"||e.sy.st==="send")&&!tAiTried[tool+id]){tAiTried[tool+id]=1;e.sy.st="wait";tAiSend(tool,id,cb);}});}
 function tMineOrig(tool,id){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];return M&&M.rows&&M.rows[id]?M.rows[id]:"";}
 function tMineEd(tool,id){const o=bank["tmine|"+tool+"|"+id];if(!o||o.del||o.h==null)return null;return tPlain(o.h)===tPlain(tMineOrig(tool,id))?null:o;}
 function tMine(tool,id){const e=tMineEd(tool,id);return e?e.h:tMineOrig(tool,id);}
-function tMineEdits(tool){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];if(!M)return [];return Object.keys(M.rows).filter(id=>tMineEd(tool,id)).map(id=>({id,h:(tchGet(tool).rows.find(r=>r.id===id)||{}).h||id,orig:M.rows[id],ed:tMineEd(tool,id).h}));}
-function tMineBar(tool,id){const e=tMineEd(tool,id),M=TCH_MINE[tool];return `<button class="chip" type="button" data-mact="edit">✏️ แก้</button>${e?`<span class="tmine-f" title="แก้ในเว็บแล้ว — กด 📤 ส่งเข้า ${esc(M.src)} ด้านบนเพื่อให้ Claude ใส่ลงไฟล์">แก้แล้ว · ยังไม่เข้า ${esc(M.src)}</span><button class="link" type="button" data-mact="orig">คืนต้นฉบับ</button>`:""}`;}
+function tMineEdits(tool){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];if(!M)return [];return Object.keys(M.rows).filter(id=>tMineEd(tool,id)&&!((bank["tmine|"+tool+"|"+id].sy||{}).st==="ok")).map(id=>({id,h:(tchGet(tool).rows.find(r=>r.id===id)||{}).h||id,orig:M.rows[id],ed:tMineEd(tool,id).h}));}
+function tMineBar(tool,id){const e=tMineEd(tool,id),M=TCH_MINE[tool],sy=e&&e.sy||{},T={ok:"เข้า "+M.src+" แล้ว",wait:"กำลังส่งเข้า "+M.src+"…",send:"กำลังส่งเข้า "+M.src+"…",err:"ส่งเข้า "+M.src+" ไม่สำเร็จ",notai:"ไฟล์ไม่ใช่ [AI]"};
+  return `<button class="chip" type="button" data-mact="edit">✏️ แก้</button>${e?`<span class="tmine-f${sy.st==="ok"?" ok":""}" title="${esc(sy.msg||(sy.st?"":"แก้ในเว็บแล้ว — กด 📤 ส่งเข้า "+M.src+" ด้านบนเพื่อให้ Claude ใส่ลงไฟล์"))}">แก้แล้ว · ${sy.st?T[sy.st]:"ยังไม่เข้า "+esc(M.src)}</span><button class="link" type="button" data-mact="orig">คืนต้นฉบับ</button>`:""}`;}
 function tMineHTML(tool,id,open){const x=tMine(tool,id);if(!x)return "";const M=TCH_MINE[tool];return `<details class="tmine" data-mid="${esc(id)}" data-mtool="${tool}"${open?" open":""}><summary>📄 เช็กลิสต์ของฉัน · ${esc(M.src)}${tMineEd(tool,id)?" · ✏️":""}</summary><div class="tmine-bar">${tMineBar(tool,id)}</div><div class="tmine-b">${tSan(x)}</div></details>`;}
 function tMineSendHTML(tool){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool],n=tMineEdits(tool).length;return M&&n?`<div class="tmine-send"><button class="btn" type="button" data-msend="${tool}">📤 ส่งที่แก้เข้า ${esc(M.src)} (${n} หัวข้อ)</button><span class="rd">คัดลอกแล้วไปวางในแชท Claude — Claude จะย่อแล้วใส่ลง Google Doc ให้</span></div>`:"";}
 function tMineBind(root,onChange){if(!root)return;
   root.querySelectorAll("details.tmine").forEach(d=>{const tool=d.dataset.mtool,id=d.dataset.mid,b=d.querySelector(".tmine-b"),bar=d.querySelector(".tmine-bar");
     const paint=()=>{bar.innerHTML=tMineBar(tool,id);d.querySelector("summary").innerHTML=`📄 เช็กลิสต์ของฉัน · ${esc(TCH_MINE[tool].src)}${tMineEd(tool,id)?" · ✏️":""}`;b.innerHTML=tSan(tMine(tool,id));wire();if(onChange)onChange();};
     const wire=()=>{bar.querySelectorAll("[data-mact]").forEach(x=>x.onclick=async e=>{e.preventDefault();const a=x.dataset.mact;
-      if(a==="orig"){if(!await uiAsk("คืนต้นฉบับจากไฟล์? ที่แก้ในเว็บของหัวข้อนี้จะหาย"))return;bankPut("tmine|"+tool+"|"+id,{del:1});paint();return;}
+      if(a==="orig"){if(!await uiAsk("คืนต้นฉบับจากไฟล์? ที่แก้ในเว็บของหัวข้อนี้จะหาย"+(aiMine()?" (และแก้ในไฟล์กลับเป็นต้นฉบับด้วย)":"")))return;tMineSave(tool,id,tMineOrig(tool,id),1,paint);return;}
       if(a==="edit"){b.contentEditable="true";b.classList.add("ed");b.focus();
         bar.innerHTML=`<button class="chip" type="button" data-mact="save">บันทึก</button><button class="link" type="button" data-mact="cancel">ยกเลิก</button>`;wire();return;}
       if(a==="cancel"){b.contentEditable="false";b.classList.remove("ed");paint();return;}
-      if(a==="save"){b.contentEditable="false";b.classList.remove("ed");bankPut("tmine|"+tool+"|"+id,{h:tSan(b.innerHTML)});paint();toast(tMineEd(tool,id)?"บันทึกแล้ว — กด 📤 เพื่อส่งเข้าไฟล์":"เหมือนต้นฉบับ — ไม่มีอะไรเปลี่ยน");}});};
-    wire();});
+      if(a==="save"){b.contentEditable="false";b.classList.remove("ed");tMineSave(tool,id,tSan(b.innerHTML),0,paint);toast(!tMineEd(tool,id)?"เหมือนต้นฉบับ — ไม่มีอะไรเปลี่ยน":aiMine()?"บันทึกแล้ว — กำลังส่งเข้า "+TCH_MINE[tool].src:"บันทึกแล้ว — กด 📤 เพื่อส่งเข้าไฟล์");}});};
+    wire();tAiRetry(tool,paint);});
   tMineSendBind(root);}
 /* show / refresh the 📤 button at the top of a container */
 function tMineSendRefresh(box,tool){if(!box)return;const o=box.querySelector(":scope > .tmine-send"),n=tMineSendHTML(tool);if(o)o.remove();if(n){box.insertAdjacentHTML("afterbegin",n);tMineSendBind(box);}}
