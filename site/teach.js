@@ -8,8 +8,16 @@ const tId=()=>now().toString(36)+Math.random().toString(36).slice(2,6);
 const tAI=()=>HAS_CLAUDE()||!!aiCfg().key;
 function tSan(h){return String(h||"").replace(/<\s*(script|style|iframe|object|embed|link|meta)[\s\S]*?(<\/\s*\1\s*>|$)/gi,"").replace(/\son\w+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi,"").replace(/javascript:/gi,"");}
 function tchDef(tool){if(tool==="cta")return [];const D=(typeof TCH_DEF!=="undefined"&&TCH_DEF[tool])||[];return D.map(r=>({id:r.id,h:r.h,c:r.c,k:"",tag:r.tag||""}));}
-function tchGet(tool){const o=bank["tch|all|"+tool];if(o&&(Array.isArray(o.rows)||Array.isArray(o.procs)))return {rows:(o.rows||[]).map(r=>Object.assign({},r)),procs:JSON.parse(JSON.stringify(o.procs||[]))};return {rows:tchDef(tool),procs:[]};}
-function tchPut(tool,o){bankPut("tch|all|"+tool,{rows:o.rows,procs:o.procs||[]});}
+function tchGet(tool){const o=bank["tch|all|"+tool];if(o&&(Array.isArray(o.rows)||Array.isArray(o.procs))){const rows=(o.rows||[]).map(r=>Object.assign({},r)),gone=(o.gone||[]).slice();
+    /* rows added to the default table later (nu) also reach tables saved before, unless deleted here */
+    if(tool!=="cta")tchDef(tool).forEach((d,i,D)=>{const src=((typeof TCH_DEF!=="undefined"&&TCH_DEF[tool])||[]).find(x=>x.id===d.id)||{};if(!src.nu||gone.includes(d.id)||rows.some(r=>r.id===d.id))return;const prev=D[i-1],j=prev?rows.findIndex(r=>r.id===prev.id):-1;rows.splice(j>=0?j+1:rows.length,0,d);});
+    return {rows,procs:JSON.parse(JSON.stringify(o.procs||[])),gone};}
+  return {rows:tchDef(tool),procs:[],gone:[]};}
+function tchPut(tool,o){bankPut("tch|all|"+tool,{rows:o.rows,procs:o.procs||[],gone:o.gone||[]});}
+/* the user's own checklist from a Google file (TCH_MINE, e.g. "[AI] HISTORY"), shown under each matching heading */
+function tMine(tool,id){const M=typeof TCH_MINE!=="undefined"&&TCH_MINE[tool];return M&&M.rows&&M.rows[id]?M.rows[id]:"";}
+function tMineHTML(tool,id,open){const x=tMine(tool,id);if(!x)return "";const M=TCH_MINE[tool];return `<details class="tmine"${open?" open":""}><summary>📄 เช็กลิสต์ของฉัน · ${esc(M.src)}</summary><div class="tmine-b">${tSan(x)}</div></details>`;}
+const tKeyOf=(tool,r)=>{const k=String(r.k||"").replace(/<[^>]+>/g,"").trim()?r.k:"",m=tMine(tool,r.id);return [k,m].filter(Boolean).join("<br>");};
 /* a row is on in this ward unless switched off here; pediatric rows start off outside Pediatrics, OB rows outside OB-GYN */
 function tOn(r,wid){wid=wid||ward;if(r.off&&Object.prototype.hasOwnProperty.call(r.off,wid))return !r.off[wid];if(r.tag==="ped")return /ped/i.test(wid);if(r.tag==="ob")return /ob/i.test(wid);return true;}
 let TV={tab:{},ctaP:"",prac:null};
@@ -67,17 +75,17 @@ function tSaveLater(tool,O){clearTimeout(tSaveLater._t);tSaveLater._t=setTimeout
 /* editable table: tab "full" = on/off · heading · content ; tab "key" = heading · content (read only) · key concept */
 function tTable(tool,O,tab){const R=O.rows,wn=esc(W_().cfg.short||W_().cfg.name);
   let h=tab==="full"?`<p class="hint">แตะช่องเพื่อแก้ (บันทึกเอง) · ☰ กดค้างแล้วลากขึ้น-ลงเพื่อย้ายช่อง · × ลบช่อง · ☑ = ใช้ในวอร์ด ${wn} (ปิด = สีเทา ไม่ใช้ตอนฝึก / History taker แต่ยังเก็บไว้ครบ) · หัวข้อเด็ก/สูติ ปิดไว้ก่อนในวอร์ดอื่น</p>`
-    :`<p class="hint">ใส่ ${TK[tool].kc} ของแต่ละหัวข้อในช่องขวา — ใช้ตรวจตอนฝึก (ถ้าช่องว่าง AI จะตรวจเทียบกับเนื้อหาในช่องกลางแทน)</p>`;
+    :`<p class="hint">ใส่ ${TK[tool].kc} ของแต่ละหัวข้อในช่องขวา — ใช้ตรวจตอนฝึก รวมกับ 📄 เช็กลิสต์ของฉันใต้หัวข้อ (ถ้าไม่มีทั้งสองอย่าง AI จะตรวจเทียบกับเนื้อหาในช่องกลางแทน)</p>`;
   h+=`<div class="ttable ${tab}">${R.map((r,i)=>{const on=tOn(r);return `<div class="trow${on?"":" off"}" data-i="${i}">${tab==="full"?`<label class="ton" title="ใช้ในวอร์ดนี้"><input type="checkbox" data-on="${i}"${on?" checked":""}></label>`:""}
       <div class="th" ${tab==="full"?`contenteditable="true" data-f="h"`:""}>${esc(r.h)}</div>
       <div class="tc${tab==="key"?" ro":""}" ${tab==="full"?`contenteditable="true" data-f="c"`:""}>${tSan(r.c)}</div>
-      ${tab==="key"?`<div class="tk" contenteditable="true" data-f="k" data-ph="พิมพ์ ${TK[tool].kc}…">${tSan(r.k)}</div>`:`<div class="tact"><span class="tgrip" data-grip title="กดค้างแล้วลากขึ้น-ลงเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰</span><button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้" aria-label="ลบช่องนี้">×</button></div>`}</div>`;}).join("")}</div>`;
+      ${tab==="key"?`<div class="tk" contenteditable="true" data-f="k" data-ph="พิมพ์ ${TK[tool].kc}…">${tSan(r.k)}</div>`:`<div class="tact"><span class="tgrip" data-grip title="กดค้างแล้วลากขึ้น-ลงเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰</span><button class="tdel" type="button" data-del="${i}" title="ลบช่องนี้" aria-label="ลบช่องนี้">×</button></div>`}${tMineHTML(tool,r.id)}</div>`;}).join("")}</div>`;
   if(tab==="full")h+=`<div class="stack" style="margin-top:10px"><button class="btn" id="tAdd" type="button">+ เพิ่มช่องใหม่</button>${bank["tch|all|"+tool]?`<button class="link" id="tReset" type="button">คืนค่าตั้งต้นของตาราง</button>`:""}</div>`;
   $("tBody").innerHTML=h;
   if(tab==="full")tDrag(document.querySelector("#tBody .ttable"),ord=>{const c=R.slice();R.splice(0,R.length,...ord.map(i=>c[i]));tchPut(tool,O);rTch();});
   document.querySelectorAll("#tBody [contenteditable][data-f]").forEach(el=>el.addEventListener("input",()=>{const i=+el.closest(".trow").dataset.i,f=el.dataset.f;R[i][f]=f==="h"?el.textContent.trim():tSan(el.innerHTML);tSaveLater(tool,O);}));
   document.querySelectorAll("[data-on]").forEach(c=>c.onchange=()=>{const r=R[+c.dataset.on];r.off=r.off||{};r.off[ward]=!c.checked;tchPut(tool,O);c.closest(".trow").classList.toggle("off",!c.checked);});
-  document.querySelectorAll("[data-del]").forEach(b=>b.onclick=async()=>{const i=+b.dataset.del;if(!await uiAsk(`ลบช่อง “${R[i].h||"ไม่มีชื่อ"}” ออกจากตาราง? (ทุกวอร์ด)`))return;R.splice(i,1);tchPut(tool,O);rTch();});
+  document.querySelectorAll("[data-del]").forEach(b=>b.onclick=async()=>{const i=+b.dataset.del;if(!await uiAsk(`ลบช่อง “${R[i].h||"ไม่มีชื่อ"}” ออกจากตาราง? (ทุกวอร์ด)`))return;O.gone=O.gone||[];if(!O.gone.includes(R[i].id))O.gone.push(R[i].id);R.splice(i,1);tchPut(tool,O);rTch();});
   {const b=$("tAdd");if(b)b.onclick=()=>{R.push({id:tId(),h:"หัวข้อใหม่",c:"",k:"",tag:""});tchPut(tool,O);rTch();setTimeout(()=>{const el=document.querySelector(".trow:last-child .th");if(el){el.focus();el.scrollIntoView({block:"center"});}},50);};}
   {const b=$("tReset");if(b)b.onclick=async()=>{if(!await uiAsk("คืนตารางเป็นค่าตั้งต้น? ข้อความที่แก้และ key concept ทั้งหมดจะหาย"))return;tchPut(tool,{rows:tchDef(tool)});rTch();};}
 }
@@ -85,7 +93,7 @@ function tTable(tool,O,tab){const R=O.rows,wn=esc(W_().cfg.short||W_().cfg.name)
 function tPrac(tool,R){const P=TV.prac;
   if(P&&P.tool===tool&&!P.res)return tPracRun(tool);
   if(P&&P.tool===tool&&P.res)return tPracRes(tool);
-  const on=R.filter(r=>tOn(r)),nk=on.filter(r=>String(r.k||"").replace(/<[^>]+>/g,"").trim()).length,opt=st.tprac||{};
+  const on=R.filter(r=>tOn(r)),nk=on.filter(r=>tKeyOf(tool,r)).length,opt=st.tprac||{};
   let h=`<div class="card"><h3>ฝึก${tool==="pe"?"ตรวจร่างกาย":"ซักประวัติ"}แบบพิมพ์</h3><span class="rd">ไม่สนเวลา ไม่สนคำพูด — ตรวจว่าที่พิมพ์ครบและสอดคล้องกับ ${TK[tool].kc} ใน tab ที่ 2 แค่ไหน แล้วให้ % รวม และ % ของแต่ละหัวข้อ · ใช้หัวข้อที่เปิดในวอร์ดนี้ ${on.length} หัวข้อ (มี ${TK[tool].kc} แล้ว ${nk})</span>
     <div class="tl-h">แบบฝึก</div><div class="chips"><button class="chip" type="button" data-pm="one" aria-pressed="${opt.mode!=="full"}">สุ่มหัวข้อใหญ่ 1 หัวข้อ (OSCE style)</button><button class="chip" type="button" data-pm="full" aria-pressed="${opt.mode==="full"}">ตารางเปล่า ทำทั้งหมด (full course)</button></div>
     <div class="tl-h">เวลา</div><div class="chips"><button class="chip" type="button" data-pt="0" aria-pressed="${!opt.min}">ไม่จับเวลา</button><button class="chip" type="button" data-pt="1" aria-pressed="${!!opt.min}">จับเวลา</button>${opt.min?`<label class="tmin"><input type="number" id="tMin" min="1" max="180" value="${opt.min}"> นาที</label>`:""}</div>
@@ -98,7 +106,7 @@ function tPrac(tool,R){const P=TV.prac;
   document.querySelectorAll("[data-pt]").forEach(b=>b.onclick=()=>sv({min:b.dataset.pt==="1"?((st.tprac||{}).min||(opt.mode==="full"?20:7)):0}));
   {const m=$("tMin");if(m)m.onchange=()=>{st.tprac=Object.assign({},st.tprac||{},{min:Math.max(1,+m.value||1)});save();};}
   $("tGo").onclick=()=>{const o=st.tprac||{},rows=o.mode==="full"?on:[on[Math.floor(Math.random()*on.length)]];
-    TV.prac={tool,mode:o.mode==="full"?"full":"one",rows:rows.map(r=>({id:r.id,h:r.h,c:r.c,k:r.k})),ans:{},t0:now(),end:o.min?now()+o.min*60000:0};tPracRun(tool);};
+    TV.prac={tool,mode:o.mode==="full"?"full":"one",rows:rows.map(r=>({id:r.id,h:r.h,c:r.c,k:tool==="cta"?r.k:tKeyOf(tool,r)})),ans:{},t0:now(),end:o.min?now()+o.min*60000:0};tPracRun(tool);};
   tLogBind(tool);}
 function tPracRun(tool){const P=TV.prac;
   let h=`<div class="card tprun"><div class="row2"><b>${P.mode==="full"?"ทำทั้งหมด":"สุ่มได้หัวข้อ"}</b><span class="spacer"></span>${P.end?`<span class="ttimer" id="tTimer"></span>`:""}</div>
@@ -206,7 +214,7 @@ function rTaker(){const a=tSeg(),tool=a[0]==="pe"?"pe":"hx",cid=a[1]||"",C=cid&&
     <p class="sub">${tool==="pe"?"ใส่สิ่งที่ตรวจพบจากคนไข้จริง":"ใส่ข้อมูลที่ซักจากคนไข้จริง"} ตามหัวข้อในตาราง ${TK[tool].n} (หัวข้อที่เปิดในวอร์ดนี้) · ไม่ต้องใส่ชื่อ-นามสกุลหรือ HN จริงของคนไข้</p>
     <div class="card"><div class="dtrow"><label style="flex:1">เคส<select id="tkCase"><option value="">+ เคสใหม่</option>${cs.map(x=>`<option value="${esc(x.key)}"${x.key===cid?" selected":""}>${esc(x.title||"เคสไม่มีชื่อ")} · ${fmtDT(x.c)}</option>`).join("")}</select></label></div>
     <label class="tkt">ชื่อเคส (สั้น ๆ)<input type="text" id="tkTitle" value="${esc(C?C.title:"")}" placeholder="เช่น ชาย 60 ปี ปวดท้องขวาบน 2 วัน"></label></div>
-    <div class="ttable taker">${R.map(r=>`<div class="trow"><div class="th">${esc(r.h)}${String(r.k||"").replace(/<[^>]+>/g,"").trim()?`<details class="tkk"><summary>key concept</summary>${tSan(r.k)}</details>`:""}</div><textarea data-tk="${esc(r.id)}" rows="3" placeholder="…">${esc((D[r.id]||{}).v||"")}</textarea></div>`).join("")}</div>
+    <div class="ttable taker">${R.map(r=>`<div class="trow"><div class="th">${esc(r.h)}${String(r.k||"").replace(/<[^>]+>/g,"").trim()?`<details class="tkk"><summary>key concept</summary>${tSan(r.k)}</details>`:""}</div><textarea data-tk="${esc(r.id)}" rows="3" placeholder="…">${esc((D[r.id]||{}).v||"")}</textarea>${tMineHTML(tool,r.id)}</div>`).join("")}</div>
     <div class="stack" style="margin-top:12px"><button class="btn primary" id="tkSave" type="button">บันทึก</button></div></div>`;
   $("main").innerHTML=h;
   $("tkCase").onchange=e=>go(ward+"/taker/"+tool+(e.target.value?"/"+encodeURIComponent(e.target.value):""));

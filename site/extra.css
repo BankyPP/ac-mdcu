@@ -950,3 +950,9 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 .qbar.drag{outline:2px dashed var(--qc);outline-offset:2px}
 }
 .qbar.row .qb-meta{border-top:0;padding-top:0}
+
+/* user's own checklist from a Google [AI] file, under each History-taking heading */
+.ttable .trow>.tmine{grid-column:1/-1;border-top:1px dashed var(--rule);padding:4px 10px 6px;font-size:13.5px;line-height:1.5;background:color-mix(in srgb,var(--form) 4%,transparent)}
+.ttable .tmine>summary{cursor:pointer;color:var(--form);font-family:var(--num);font-weight:600;font-size:13px;padding:2px 0}
+.ttable .tmine-b ul,.ttable .tmine-b ol{margin:2px 0;padding-left:18px}
+.ttable .tmine-b p{margin:4px 0 2px}
