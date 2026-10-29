@@ -908,38 +908,45 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 .rsx:hover{background:var(--rule);color:var(--ink)}
 .rsx.sm{top:2px;right:0;width:22px;height:22px;font-size:15px}
 .rswrap .rs2{padding-right:26px}
-/* ---- Quality round timer: modern watch face on the right — dark bezel, progress ring for the current phase, big digits ---- */
-.qbar{--qw:96px;--qc:#ff375f;--qp:0;position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:16;width:var(--qw);max-height:calc(100vh - 150px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;
-  display:flex;flex-direction:column;align-items:stretch;gap:10px;padding:12px 8px;padding-right:calc(8px + env(safe-area-inset-right,0px));
+/* ---- Quality round timer: modern watch face on the right — dark bezel, progress ring, big digits ----
+   box size = the user's (drag the grip) or a default; app.js qFit() picks --qw (the scale unit) so everything fits inside without scrolling,
+   and switches to a side-by-side layout (.row) when the box is wider than it is tall */
+.qbar{--qw:80px;--qc:#ff375f;--qp:0;--g:calc(var(--qw) * .06);position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:16;box-sizing:border-box;overflow:hidden;
+  display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:calc(var(--g) * 1.3);padding:max(8px,var(--g) * 1.4);padding-right:calc(max(8px,var(--g) * 1.4) + env(safe-area-inset-right,0px));
   background:linear-gradient(165deg,#22232a 0%,#0c0d10 60%);color:#f5f5f7;border-radius:22px 0 0 22px;
-  box-shadow:inset 0 0 0 1px #3a3b44,inset 0 0 0 4px #050506,-4px 6px 22px rgba(0,0,0,.28);text-align:center}
-.qbar::-webkit-scrollbar{display:none}
+  box-shadow:inset 0 0 0 1px #3a3b44,inset 0 0 0 4px #050506,-4px 6px 22px rgba(0,0,0,.28);text-align:center;touch-action:manipulation}
+.qbar.float{right:12px;border-radius:max(20px,calc(var(--qw) * .18))}
 .qbar[hidden]{display:none}
 .qbar[data-k="q"]{--qc:#ff375f}.qbar[data-k="rest"]{--qc:#30d158}.qbar[data-k="sol"]{--qc:#0a84ff}.qbar[data-k="ready"]{--qc:#ffd60a}.qbar[data-k="warm"]{--qc:#ff9f0a}.qbar[data-k="free"]{--qc:#bf5af2}.qbar[data-k="done"]{--qc:#8e8e93}
-.qb-main{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:0}
-.qb-ring{position:relative;width:100%;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;
-  background:conic-gradient(var(--qc) calc(var(--qp) * 1turn),#2a2b31 0);transition:background .2s linear}
-.qb-ring::before{content:"";position:absolute;inset:calc(var(--qw) * .055);border-radius:50%;background:radial-gradient(circle at 50% 35%,#1b1c21,#08090b 75%);box-shadow:inset 0 2px 6px rgba(0,0,0,.6)}
-.qb-t{position:relative;font-family:var(--num);font-weight:600;font-size:calc(var(--qw) * .27);line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums;color:#fff;text-shadow:0 0 12px rgba(255,255,255,.08)}
+.qb-main{display:flex;flex-direction:column;align-items:center;gap:calc(var(--g) * .8);min-width:0;flex:none}
+.qb-side{display:flex;flex-direction:column;align-items:stretch;gap:calc(var(--g) * 1.3);min-width:0}
+.qb-ring{position:relative;width:var(--qw);height:var(--qw);flex:none;border-radius:50%;display:grid;place-items:center;
+  background:conic-gradient(var(--qc) calc(var(--qp) * 1turn),#2a2b31 0)}
+.qb-ring::before{content:"";position:absolute;inset:calc(var(--qw) * .06);border-radius:50%;background:radial-gradient(circle at 50% 35%,#1b1c21,#08090b 75%);box-shadow:inset 0 2px 6px rgba(0,0,0,.6)}
+.qb-t{position:relative;font-family:var(--num);font-weight:600;font-size:calc(var(--qw) * .28);line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums;color:#fff;white-space:nowrap}
 .qbar.paused .qb-t{opacity:.55}
-.qb-ph{font-family:var(--num);font-weight:700;font-size:max(13px,calc(var(--qw) * .1));line-height:1.15;color:var(--qc);letter-spacing:.02em;overflow-wrap:anywhere}
-.qb-st{font-family:var(--num);font-weight:600;font-size:max(11px,calc(var(--qw) * .075));color:#ffd60a;line-height:1.2}
+.qb-ph{font-family:var(--num);font-weight:700;font-size:calc(var(--qw) * .13);line-height:1.15;color:var(--qc);overflow-wrap:anywhere}
+.qb-st{font-family:var(--num);font-weight:600;font-size:calc(var(--qw) * .095);color:#ffd60a;line-height:1.2}
 .qb-st:empty{display:none}
-.qb-meta{font-size:max(10.5px,calc(var(--qw) * .07));line-height:1.35;color:#8e8e93;border-top:1px solid #2c2d33;padding-top:8px}
+.qb-meta{font-size:calc(var(--qw) * .095);line-height:1.35;color:#8e8e93;border-top:1px solid #2c2d33;padding-top:calc(var(--g) * 1.2)}
 .qb-meta b{color:#d1d1d6;font-weight:600;font-variant-numeric:tabular-nums}
-.qb-btns{display:flex;flex-direction:column;gap:7px;align-items:stretch}
-.qbar .qb-btns .chip{min-height:max(34px,calc(var(--qw) * .25));padding:2px 6px;border:0;border-radius:999px;background:#2c2c31;color:#f5f5f7;
-  font-family:var(--num);font-weight:600;font-size:max(12px,calc(var(--qw) * .095));line-height:1;justify-content:center;text-align:center;white-space:nowrap;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}
+.qb-btns{display:flex;flex-direction:column;gap:calc(var(--g) * .9);align-items:stretch}
+.qbar .qb-btns .chip{min-height:calc(var(--qw) * .3);padding:0 calc(var(--g) * .8);border:0;border-radius:999px;background:#2c2c31;color:#f5f5f7;margin:0;
+  font-family:var(--num);font-weight:600;font-size:calc(var(--qw) * .125);line-height:1;justify-content:center;text-align:center;white-space:nowrap;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}
 .qbar .qb-btns .chip:hover{background:#3a3a40}
 .qbar .qb-btns #qbPause{background:var(--qc);color:#0b0b0d}
 .qbar .qb-btns #qbStop{color:#ff6961}
 .qbar .qb-btns .chip:disabled{opacity:.4}
-.qb-vol{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:max(14px,calc(var(--qw) * .11));color:#8e8e93;padding-top:2px}
-.qb-vs{display:block;width:28px;height:max(90px,calc(var(--qw) * .75));position:relative}
-.qb-vs input{accent-color:var(--qc);position:absolute;left:50%;top:50%;width:max(90px,calc(var(--qw) * .75));margin:0;transform:translate(-50%,-50%) rotate(-90deg)}
-@media (max-width:999px){.qon main{padding-right:calc(var(--qbw,96px) + 12px + env(safe-area-inset-right,0px))}}
-/* wide screens (iPad landscape, desktop): a free-standing watch filling ~75% of the empty space right of the question */
-@media (min-width:1000px){
-  .qbar{--qw:clamp(110px,calc((100vw - 760px) * .43),360px);right:calc((100vw - 760px) * .035);min-height:min(75vh,calc(100vh - 140px));max-height:calc(100vh - 140px);
-    justify-content:center;gap:max(10px,calc(var(--qw) * .07));padding:max(12px,calc(var(--qw) * .08));border-radius:max(24px,calc(var(--qw) * .2))}
+.qb-vol{display:flex;flex-direction:row;align-items:center;gap:calc(var(--g) * .8);font-size:calc(var(--qw) * .14);color:#8e8e93}
+.qb-vs{display:block;flex:1;min-width:0}
+.qb-vs input{accent-color:var(--qc);width:100%;margin:0;display:block}
+/* side by side: ring + phase on the left, the rest on the right */
+.qbar.row{flex-direction:row;align-items:center}
+.qbar.row .qb-side{flex:1}
+.qbar.row .qb-btns{display:grid;grid-template-columns:1fr 1fr}
+/* resize grip: bottom-left corner (the box is pinned to the right edge) */
+.qb-grip{position:absolute;left:0;bottom:0;width:30px;height:30px;cursor:nesw-resize;touch-action:none;border-radius:0 0 0 inherit}
+.qb-grip::before{content:"";position:absolute;left:7px;bottom:7px;width:11px;height:11px;border-left:2.5px solid #9a9aa0;border-bottom:2.5px solid #9a9aa0;border-radius:0 0 0 3px}
+.qbar.drag{outline:2px dashed var(--qc);outline-offset:2px}
 }
+.qbar.row .qb-meta{border-top:0;padding-top:0}

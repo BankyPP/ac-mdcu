@@ -1104,8 +1104,8 @@ function qFinish(msg){if(!QR||QR.done)return;QR.done=true;qSnap(1);clearInterval
 function qPause(){if(!QR||QR.done)return;QR.restored=false;if(QR.paused){QR.t0=performance.now();QR.paused=false;SND.init();}else{QR.el0=qEl();QR.paused=true;}qSnap(1);paintQR();if(view==="sess")paintNav();}
 async function qReset(){if(!QR)return;if(!await uiAsk("เริ่มจับเวลาใหม่ตั้งแต่ต้น (รวม warm up)? ข้อที่ตอบไปแล้วยังเก็บไว้"))return;qStart(QR.pg,QR.mand);if(QR.front>=P_().sess.list.length)qFinish("ทำครบทุกข้อในรอบนี้แล้ว");}
 function paintQR(){const b=$("qbar");if(!b)return;
-  const on=!!(QR&&ward&&QR.ward===ward&&view==="sess"&&P_().sess&&P_().sess.kind==="quality");
-  b.hidden=!on;document.body.classList.toggle("qon",on);if(!on)return;
+  const on=!!(QR&&ward&&QR.ward===ward&&view==="sess"&&P_().sess&&P_().sess.kind==="quality"),was=!b.hidden;
+  b.hidden=!on;document.body.classList.toggle("qon",on);if(!on){qPad(false);return;}
   const g=qSeg(),el=qEl();let ph="",t="",meta="",fr=0;
   if(QR.done){ph="จบแล้ว";t="0:00";meta=esc(QR.pg.name);fr=1;}
   else if(g){ph=g.name;t=mmss(g.t1-el);fr=Math.min(1,Math.max(0,(el-g.t0)/Math.max(1,g.t1-g.t0)));const w0=QR.S[0].kind==="warm"?QR.S[0].t1:0;
@@ -1115,7 +1115,35 @@ function paintQR(){const b=$("qbar");if(!b)return;
   $("qbPh").textContent=ph;$("qbSt").textContent=QR.paused&&!QR.done?(QR.restored?"หยุดไว้ · กด ▶ ต่อ":"⏸ หยุดอยู่"):"";
   $("qbT").textContent=t;$("qbMeta").innerHTML=meta+(QR.mand?"<br>mandatory":"");
   $("qbPause").textContent=QR.paused?"▶ ต่อ":"⏸ พัก";$("qbPause").disabled=QR.done;b.dataset.k=QR.done?"done":g?g.kind:"";
-  const v=$("qbVol");if(document.activeElement!==v)v.value=qpS().vol;}
+  const v=$("qbVol");if(document.activeElement!==v)v.value=qpS().vol;
+  const fk=[ph,$("qbSt").textContent,meta,$("qbPause").textContent].join("|");if(!was||fk!==paintQR._k){paintQR._k=fk;qFit();}}
+/* timer box size: the user's (drag the bottom-left grip; double-tap it = back to default), kept per screen kind (narrow / wide).
+   qFit picks --qw, the unit every size inside is made from, as large as fits the box with no scrolling; a box wider than tall goes side by side */
+const qMode=()=>innerWidth>=1000?"w":"n";
+function qBoxDef(){return qMode()==="w"?{w:Math.round(Math.max(120,Math.min(300,(innerWidth-760)/2*.8))),h:null}:{w:96,h:null};}
+let QDRAG=null;
+function qFit(){const b=$("qbar");if(!b||b.hidden)return;
+  const maxW=Math.max(90,innerWidth-24),maxH=Math.max(160,innerHeight-150),u=QDRAG||(qpS().box||{})[qMode()]||qBoxDef();
+  const W=Math.round(Math.max(72,Math.min(maxW,u.w))),H=u.h?Math.round(Math.max(140,Math.min(maxH,u.h))):null,row=!!H&&W>H*.9;
+  b.style.width=W+"px";b.style.height=H?H+"px":"auto";b.style.maxHeight=maxH+"px";
+  b.classList.toggle("row",row);b.classList.toggle("float",qMode()==="w"||W>130);
+  const fits=()=>b.scrollHeight<=b.clientHeight+1&&b.scrollWidth<=b.clientWidth+1&&[...b.querySelectorAll(".qb-side,.qb-main,.qb-btns .chip,.qb-meta")].every(e=>e.scrollWidth<=e.clientWidth+1);
+  let lo=28,hi=row?Math.min(H,W*.5):W;
+  for(let k=0;k<12;k++){const m=(lo+hi)/2;b.style.setProperty("--qw",m+"px");if(fits())lo=m;else hi=m;}
+  b.style.setProperty("--qw",Math.floor(lo)+"px");qPad(true);}
+/* keep the question clear of the timer box */
+function qPad(on){const m=$("main"),b=$("qbar");if(!m)return;m.style.paddingRight="";if(!on||!b||b.hidden)return;
+  const r=b.getBoundingClientRect(),mr=m.getBoundingClientRect(),pr=parseFloat(getComputedStyle(m).paddingRight)||16,over=(mr.right-pr)-(r.left-12);
+  if(over>0)m.style.paddingRight=(pr+over)+"px";}
+addEventListener("resize",()=>{clearTimeout(qFit._t);qFit._t=setTimeout(qFit,120);});
+{const g=$("qbGrip"),b=$("qbar");let st0=null,lastTap=0,moved=false,raf=0;
+  g.addEventListener("pointerdown",e=>{e.preventDefault();g.setPointerCapture(e.pointerId);moved=false;st0={x:e.clientX,y:e.clientY,w:b.offsetWidth,h:b.offsetHeight};});
+  g.addEventListener("pointermove",e=>{if(!st0)return;const dx=st0.x-e.clientX,dy=e.clientY-st0.y;if(!moved&&Math.hypot(dx,dy)<4)return;moved=true;b.classList.add("drag");
+    QDRAG={w:st0.w+dx,h:st0.h+2*dy};if(!raf)raf=requestAnimationFrame(()=>{raf=0;qFit();});});
+  const end=async e=>{if(!st0)return;st0=null;b.classList.remove("drag");const q=qpS();q.box=q.box||{};
+    if(moved&&QDRAG){const W=parseFloat(b.style.width),H=parseFloat(b.style.height)||null;q.box[qMode()]={w:W,h:H};QDRAG=null;save();qFit();return;}
+    QDRAG=null;const t=now();if(t-lastTap<400){delete q.box[qMode()];save();qFit();toast("คืนขนาดเดิมแล้ว");lastTap=0;}else lastTap=t;};
+  g.addEventListener("pointerup",end);g.addEventListener("pointercancel",end);}
 $("qbPause").onclick=qPause;$("qbReset").onclick=qReset;
 /* ⚙ ตั้งค่า: pause the timer and open the Quality setup page — from there: back to the same round, or switch the timer set while keeping the questions */
 $("qbSet").onclick=()=>{if(QR&&!QR.done&&!QR.paused){qPause();QR.autoP=true;}go(ward+"/quality");};
