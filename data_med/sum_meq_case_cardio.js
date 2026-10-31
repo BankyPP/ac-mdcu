@@ -1,0 +1,14 @@
+SUMM.push({tag:"cardio", title:"Cardiology", style:"case",
+  intro:"<ul><li>หมวด Cardiology ใน MEQ ของ MDCU78 มีเพียง <b>ข้อซักประวัติเหนื่อยมากขึ้น 1 สัปดาห์</b> (เคส RoB ที่จบด้วย left malignant pleural effusion จาก CA breast) — ข้อนี้ติดแท็กเพราะต้องไล่ <b>สาเหตุทางหัวใจของ dyspnea</b> ด้วย</li><li>รูปแบบ: ‘List 10 additional history items with the reason for each’ — คะแนนมาจากการ <b>เขียนคู่ ถามอะไร → แยกโรคอะไร</b> ให้ครอบคลุมทั้งหัวใจ ปอด เยื่อหุ้มปอด และสาเหตุนอกหัวใจ-ปอด</li><li>ส่วนที่เหลือของเคส (Dx, CXR, investigation, management ของ pleural effusion) อยู่ในสรุปหมวด Pulmonology และ Oncology</li></ul>",
+  groups:[
+    {title:"Dyspnea: หา cardiac cause จากประวัติ", sections:[
+      {id:"dyspnea-cardiac-hx", title:"เหนื่อยมากขึ้น 1 สัปดาห์: ซักประวัติเพิ่ม 10 ข้อ แยก heart failure / ACS / arrhythmia / PE ออกจาก pleural-lung disease",
+       trend:"ข้อซักประวัติเป็นข้อเปิดของเคส และ dyspnea เป็นอาการนำที่พบบ่อยของทั้งโรคหัวใจและปอด",
+       asked:["A Thai woman with progressively worsening dyspnea for 1 week → List 10 additional history items you would ask, with the reason for each"],
+       flow:["Part 1: ให้โจทย์สั้น ๆ (เหนื่อยมากขึ้น 1 สัปดาห์ ยังไม่มี PE / lab) → เขียน 10 ประเด็นซักประวัติพร้อมเหตุผล"],
+       pattern:["<b>ส่วนที่ชี้ cardiac:</b> orthopnea, PND, ขาบวม 2 ข้าง, น้ำหนักเพิ่ม → <b>heart failure</b> · เจ็บแน่นหน้าอก ร้าวแขน-กราม เหงื่อแตก เกี่ยวกับการออกแรง → <b>ACS / angina</b> · ใจสั่น หน้ามืด วูบ → <b>arrhythmia</b> (AF, VT) · เจ็บหน้าอกจุกแน่นพิงหน้า + เหนื่อย → pericarditis / <b>pericardial effusion / tamponade</b>","<b>แยก pulmonary embolism:</b> ขาบวมข้างเดียว นอนนาน / ผ่าตัด / เดินทางไกล ยาคุม มะเร็ง → เหตุผล: มะเร็งเป็น hypercoagulable state","<b>ลักษณะเหนื่อย:</b> onset เฉียบพลัน / ค่อยเป็น, ออกแรงแค่ไหน (functional class) → ความรุนแรงและ acuity","<b>แยกสาเหตุอื่น:</b> ไอ เสมหะ ไอเป็นเลือด ไข้ เหงื่อออกกลางคืน น้ำหนักลด → pneumonia, TB, มะเร็ง; ซีด → anemia; ใจสั่น เหงื่อออก น้ำหนักลด → thyrotoxicosis","<b>โรคเดิม / ยา:</b> มะเร็งเต้านมและการรักษา (anthracycline, trastuzumab, radiation ทรวงอกซ้าย → cardiotoxicity, pericardial disease) · β-blocker, NSAID, amiodarone, methotrexate · บุหรี่ อาชีพ สัมผัส TB · ประวัติครอบครัว","ผู้หญิงที่เคยเป็นมะเร็งเต้านม ต้องถามก้อนที่เต้านม / การติดตามเสมอ (สาเหตุ malignant pleural effusion อันดับ 2 รองจากปอด)"],
+       kw:["orthopnea, PND, leg edema","chest pain (angina vs pleuritic)","palpitation, syncope","unilateral leg swelling, immobilization, OCP, cancer","prior cancer treatment (anthracycline, radiation)","functional class","drug history","smoking, TB contact"],
+       pearls:["เขียนทุกข้อเป็นคู่ ‘ถามอะไร → เพื่อแยกโรคอะไร’ ไม่มีเหตุผลกำกับ = ได้แค่บางส่วน","ไม่ควรมีแต่คำถามโรคหัวใจ — ต้องครอบคลุมปอด เยื่อหุ้มปอด ติดเชื้อ และมะเร็งด้วยตาม rubric"],
+       members:["MDCU78|RoB|1#1"]}
+    ]}
+  ]});

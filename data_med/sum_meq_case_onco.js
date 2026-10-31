@@ -1,0 +1,31 @@
+SUMM.push({tag:"onco", title:"Oncology", style:"case",
+  intro:"<ul><li>เคส MEQ ของ Oncology มี <b>เคสเดียว: หญิงเคยผ่าตัดมะเร็งเต้านมแล้วขาดการติดตาม มาด้วยเหนื่อย น้ำหนักลด → left malignant pleural effusion จาก recurrent CA breast (stage IV)</b> (MDCU78 RoB)</li><li>ลำดับคำถาม: <b>abnormality + provisional Dx + DDx → บรรยาย CXR → Dx สมบูรณ์ (ระบุ stage) → investigation 5 อย่าง → management</b></li><li>มุม oncology ที่ต้องตอบ: <b>พิสูจน์ชิ้นเนื้อ + ER / PR / HER2</b>, staging (CT / bone scan / PET-CT), การรักษาแบบ systemic ตาม subtype และ palliative care — ส่วนการระบายน้ำ / pleurodesis อยู่ในสรุปหมวด Pulmonology</li></ul>",
+  groups:[
+    {title:"Metastatic breast cancer กับ malignant pleural effusion", sections:[
+      {id:"breast-mpe-dx", title:"Recurrent CA breast กับ left malignant pleural effusion: abnormality, DDx, CXR, Dx และ stage",
+       trend:"มะเร็งเดิมที่ขาดติดตามแล้วมี effusion ข้างเดียวเป็นเคสที่ถามซ้ำได้ทั้งการอ่านภาพและการตั้ง Dx",
+       asked:["PE ปอดซ้ายล่าง dullness + breath sound ลดลง ในผู้ป่วยที่เคยผ่าตัดมะเร็งเต้านม → abnormality, provisional Dx, DDx 3 ข้อ","บรรยาย CXR อย่างเป็นระบบ (ไม่มีรูปในธนาคาร)","What is your diagnosis?"],
+       flow:["Part 1: หญิงเหนื่อย 1 สัปดาห์ → ซักประวัติ 10 ข้อ","Part 2: ไม่ไข้ ไม่บวม ไอแห้ง เบื่ออาหาร น้ำหนักลด 5 kg / เดือน เคยผ่าตัดมะเร็งเต้านมแล้วขาดการติดตาม; dullness + breath sound ลดลงปอดซ้ายล่าง → abnormality + Dx + DDx","Part 3: CXR → บรรยายเป็นระบบ + impression","Part 4: Dx สมบูรณ์ → investigation 5 อย่าง → management"],
+       pattern:["<b>Abnormality:</b> left pleural effusion → สาเหตุแรก <b>malignant pleural effusion จาก recurrent / metastatic CA breast</b>","<b>DDx:</b> TB pleuritis (lymphocytic exudate, ADA สูง), primary lung cancer / lymphoma, parapneumonic effusion / empyema (ไม่มีไข้ → น้อย)","<b>CXR:</b> meniscus sign + CP angle ซ้ายทึบ, ก้อน / soft tissue ที่เต้านมซ้าย (หรือเงาไม่สมมาตร), ดู mediastinal shift, มองหา lung nodule (mets) และ lytic / blastic lesion ซี่โครง-สันหลัง (bone mets)","<b>Dx:</b> left malignant pleural effusion secondary to recurrent CA left breast with pleural metastasis = <b>stage IV</b> — พบ malignant cell ในน้ำ / เยื่อหุ้มปอดถือเป็น distant metastasis","มะเร็งที่ทำ MPE: ปอด > เต้านม > lymphoma > ovary / GI · median survival MPE จากมะเร็งเต้านม ~ 5–13 เดือน (ดีกว่ามะเร็งปอด) ขึ้นกับ receptor status และการตอบสนองต่อ systemic therapy"],
+       kw:["recurrent CA breast","left malignant pleural effusion","pleural metastasis","stage IV","TB pleuritis","lung cancer / lymphoma","breast soft tissue mass","bone / lung metastasis"],
+       ddx:["TB pleuritis","primary lung cancer / lymphoma","parapneumonic effusion / empyema"],
+       pearls:["Dx ต้องบอกสาเหตุ (จากมะเร็งเต้านม) และ stage IV — ตอบแค่ ‘pleural effusion’ ได้คะแนนบางส่วน","rubricให้คะแนน CXR ที่มีก้อนเต้านม ประเมิน mediastinal shift และมองหา bone / lung mets — อย่าลืมเขียนเมื่อบรรยาย"],
+       members:["MDCU78|RoB|1#2","MDCU78|RoB|1#3","MDCU78|RoB|1#4"]},
+      {id:"breast-mpe-ix", title:"Investigation สำหรับ metastatic breast cancer: biopsy + ER / PR / HER2, pleural fluid cytology, staging",
+       trend:"ข้อ ‘5 investigations’ ต้องมีทั้งพิสูจน์เซลล์มะเร็งและ staging",
+       asked:["List 5 investigations you would send"],
+       flow:["Part: Dx = MPE จาก CA breast → เลือก 5 investigation ที่ (1) ยืนยัน malignant (2) หา receptor (3) ประเมินการแพร่กระจาย"],
+       pattern:["<b>Pleural fluid (US-guided thoracentesis):</b> protein, LDH (Light criteria), glucose, pH, cell count + diff, Gram / culture, AFB + ADA, <b>cytology</b> (≥ 50 mL; ส่งซ้ำเพิ่ม yield)","<b>Core needle biopsy ก้อนเต้านม</b> + <b>ER / PR / HER2, Ki-67</b> — กำหนด subtype และแผน systemic therapy (ส่ง receptor ซ้ำจากรอยโรคแพร่กระจายถ้าทำได้)","<b>Pleural biopsy (thoracoscopy)</b> ถ้า cytology ลบ — cytology ไวราว 60%","<b>Staging:</b> CT chest / abdomen (± PET-CT), <b>bone scan</b>; ± mammogram / US เต้านมทั้งสองข้าง","<b>Lab:</b> CBC, LFT, Cr, Ca, albumin · tumor marker CA 15-3 ใช้ติดตามผลมากกว่าวินิจฉัย"],
+       kw:["pleural fluid cytology","core needle biopsy breast","ER / PR / HER2","pleural biopsy","CT chest abdomen","bone scan / PET-CT","CBC, LFT, Cr, Ca","CA 15-3"],
+       pearls:["ต้องมีการพิสูจน์ชิ้นเนื้อ + receptor ไม่ใช่แค่ CT และ tumor marker","เลือกให้ครบสามกลุ่ม: น้ำเยื่อหุ้มปอด / ชิ้นเนื้อ / staging"],
+       members:["MDCU78|RoB|1#5"]},
+      {id:"breast-mpe-mgmt", title:"Management metastatic breast cancer: systemic therapy ตาม receptor และ palliative care",
+       trend:"ข้อ management ถามทั้งอาการ การกันกลับเป็นซ้ำ การรักษามะเร็ง และ palliative",
+       asked:["Describe the management of this patient"],
+       flow:["Part: stage IV CA breast + MPE → management 4 ชั้น: บรรเทาอาการ → ป้องกัน effusion กลับมา → treat cancer → supportive / palliative"],
+       pattern:["<b>บรรเทาอาการ / กัน effusion กลับ:</b> therapeutic thoracentesis ≤ 1–1.5 L → talc pleurodesis หรือ IPC (ปอดไม่ขยาย → IPC) — BTS 2023, ERS–EACTS 2021","<b>Systemic therapy ตาม subtype</b> (ส่งต่อ oncology): <b>HR+ / HER2−</b> → endocrine therapy (aromatase inhibitor / tamoxifen) + CDK4/6 inhibitor · <b>HER2+</b> → trastuzumab ± pertuzumab + chemotherapy · <b>triple-negative</b> → chemotherapy ± immunotherapy · effusion มักลดลงเมื่อมะเร็งตอบสนอง","<b>Supportive / palliative:</b> breaking bad news, ควบคุมอาการ (opioid ขนาดต่ำลดเหนื่อย), โภชนาการ, advance care planning, ครอบครัว; ถ้ามี bone mets เพิ่ม bisphosphonate / denosumab และ radiotherapy ตามอาการ","ผู้ป่วยเคย lost to follow-up → หาสาเหตุ (ค่าใช้จ่าย การเดินทาง ความกลัว) และจัดระบบติดตามให้ต่อเนื่อง"],
+       kw:["therapeutic thoracentesis","talc pleurodesis / IPC","endocrine therapy ± CDK4/6 inhibitor","anti-HER2 (trastuzumab, pertuzumab)","chemotherapy ± immunotherapy","palliative care","advance care planning","follow-up barriers"],
+       pearls:["เจาะน้ำอย่างเดียวหรือให้ chemo อย่างเดียวได้คะแนนบางส่วน — ต้องมีทั้งการระบาย / กันกลับ, systemic therapy ตาม receptor และ palliative","การเลือก regimen ผูกกับผล ER / PR / HER2 ที่ส่งในข้อ investigation — ให้เขียนเชื่อมกัน"],
+       members:["MDCU78|RoB|1#6"]}
+    ]}
+  ]});

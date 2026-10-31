@@ -1,0 +1,34 @@
+SUMM.push({tag:"id", title:"Infectious disease", style:"case",
+  intro:"<ul><li>เคส MEQ ที่ติดแท็ก ID มี <b>2 เคส</b>: (1) <b>ผู้สูงอายุเบาหวานซึม มีไข้ กินน้อย → UTI (UA nitrite 3+) ที่กระตุ้น severe hypoglycemia จาก sulfonylurea</b> (MDCU78 RoB) และ (2) <b>ชาย 40 ปี alcoholic cirrhosis ท้องโต → spontaneous bacterial peritonitis (SBP)</b> (MDCU78 RoD)</li><li>มุม ID ที่ถูกถาม: <b>หา source ติดเชื้อจากประวัติ / PE, ส่ง UA + urine / blood culture, อ่านผล UA, เลือก antibiotic empirical + duration, วินิจฉัย SBP (ascitic PMN ≥ 250), antibiotic + albumin, secondary prophylaxis</b></li><li>ลำดับคำถามเหมือนเคสอื่น: ซักประวัติ → investigation → Dx → management; ข้อ management ของทั้งสองเคสให้คะแนนสูง (10 และ 14) และต้องมี <b>culture ก่อนยา + ยา + ขนาด/ระยะเวลา + ป้องกันกลับเป็นซ้ำ</b></li></ul>",
+  groups:[
+    {title:"Spontaneous bacterial peritonitis ใน cirrhosis", sections:[
+      {id:"sbp-dx", title:"SBP: เกณฑ์วินิจฉัยจาก ascitic fluid และการเขียน complete diagnosis",
+       trend:"SBP เป็นภาวะติดเชื้อมาตรฐานของ cirrhosis ที่ถามทั้ง Dx และ management",
+       asked:["ให้ ascitic fluid: protein 0.x g/dL, albumin 0.x, no organism seen, neutrophils &gt; 250 / mm³, culture pending + US nodular liver, ascites → Give a complete diagnosis"],
+       flow:["Part 1: ท้องโต 1 เดือน ดื่มเหล้า → ซักประวัติ / PE / investigation","Part 2: ให้ผล ascitic fluid + US + serology → complete diagnosis (cirrhosis + portal HT + SBP + anemia)","Part 3: management ใน รพ. และหลังกลับบ้าน"],
+       pattern:["<b>SBP</b> = ascitic <b>PMN ≥ 250 / mm³</b> โดยไม่มีแหล่งติดเชื้อในช่องท้องที่ต้องผ่าตัด — culture บวกหรือลบก็ได้ (culture-negative neutrocytic ascites รักษาเหมือนกัน)","<b>Complete Dx:</b> decompensated alcohol-associated cirrhosis (Child-Pugh ประมาณ B) with portal hypertension (SAAG ≥ 1.1) complicated by ascites and SBP + anemia","<b>ความเสี่ยง SBP:</b> ascitic total protein &lt; 1.5 g / dL, GI bleeding, ประวัติ SBP เดิม","<b>ต้องแยก secondary peritonitis</b> (ลำไส้ทะลุ / ฝีในท้อง): PMN สูงมาก, เชื้อหลายชนิด, protein &gt; 1 g / dL, glucose &lt; 50 mg / dL, LDH สูงกว่า serum → ส่ง CT และให้ antibiotic คลุมกว้างพร้อมศัลยแพทย์","ส่ง ascitic culture ใส่ขวด hemoculture ข้างเตียง + hemoculture ก่อนให้ยา"],
+       kw:["ascitic PMN ≥ 250 / mm³","SBP","culture-negative neutrocytic ascites","ascitic protein &lt; 1.5","secondary peritonitis","hemoculture bottle"],
+       ddx:["secondary bacterial peritonitis","TB peritonitis","malignant ascites","cardiac ascites"],
+       pearls:["ขาดคำว่า SBP ใน Dx = ได้บางส่วน","PMN ≥ 250 พอแล้วที่จะรักษา ไม่ต้องรอ culture"],
+       members:["MDCU78|RoD|2#4"]},
+      {id:"sbp-mgmt", title:"Treatment SBP: 3rd-gen cephalosporin 5–7 วัน + IV albumin และ secondary prophylaxis",
+       trend:"ข้อ management ของเคสมีคะแนนสูงสุด และกำหนดสูตรยา + albumin + prophylaxis ที่ตายตัว",
+       asked:["Describe the management both in the hospital and after discharge (ส่วนที่เป็น antibiotic / SBP)"],
+       flow:["Part: Dx = SBP ใน alcoholic cirrhosis → ใน รพ. (antibiotic, albumin, หลีกเลี่ยง nephrotoxin) → หลังกลับบ้าน (prophylaxis ตลอดไป, ป้องกัน complication อื่น)"],
+       pattern:["<b>Empirical antibiotic:</b> IV <b>cefotaxime 2 g q 8 h</b> หรือ <b>ceftriaxone 1–2 g / วัน</b> นาน <b>5–7 วัน</b>; ติดเชื้อในโรงพยาบาล / เคยได้ quinolone prophylaxis → คลุมเชื้อดื้อ (piperacillin-tazobactam หรือ carbapenem) · ปรับตาม culture · เจาะซ้ำที่ 48 ชม. ถ้าไม่ดีขึ้น (PMN ควรลด ≥ 25%)","<b>IV albumin 1.5 g / kg วันที่ 1 และ 1 g / kg วันที่ 3</b> ลด HRS-AKI และการตาย (เด่นเมื่อ Cr &gt; 1, BUN &gt; 30, bilirubin &gt; 4) — Sort, NEJM 1999; AASLD 2021 / EASL 2018","หยุด NSAID, aminoglycoside, contrast; งด diuretic ช่วง SBP / AKI; ติดตาม Cr, Na, urine output","<b>Secondary prophylaxis ตลอดไป:</b> norfloxacin 400 mg / วัน (หรือ ciprofloxacin 500 mg / วัน, TMP-SMX DS 1 เม็ด / วัน) — SBP กลับเป็นซ้ำ ~70% ใน 1 ปี","<b>Primary prophylaxis:</b> ascitic protein &lt; 1.5 g / dL ร่วมกับไต / ตับเสื่อมมาก, หรือมี GI bleeding (ceftriaxone 7 วัน)"],
+       kw:["cefotaxime / ceftriaxone","5–7 วัน","albumin 1.5 g / kg + 1 g / kg วัน 3","ลด hepatorenal syndrome","หยุด NSAID / nephrotoxin","secondary prophylaxis norfloxacin / ciprofloxacin / TMP-SMX","repeat paracentesis 48 ชม."],
+       pearls:["ขาด albumin หรือขาด secondary prophylaxis = ได้บางส่วนของข้อใหญ่ 14 คะแนน","ห้ามลืมหยุด nephrotoxin / diuretic ชั่วคราว — เป็นข้อที่rubricตรวจ"],
+       members:["MDCU78|RoD|2#5"]}
+    ]},
+    {title:"UTI / urosepsis ในผู้สูงอายุเบาหวาน (precipitant ของ hypoglycemia)", sections:[
+      {id:"uti-dm-elderly", title:"UTI ในผู้สูงอายุเบาหวานที่ซึม มีไข้: หา source, UA, culture และ antibiotic",
+       trend:"ผู้สูงอายุเบาหวานติดเชื้อมักเป็นโจทย์ precipitant ของ metabolic emergency",
+       asked:["ซักประวัติ / PE เพื่อหา source ติดเชื้อ","List 5 laboratory investigations (ต้องมี UA ± urine culture, CBC, hemoculture)","อธิบายบทบาทของ infection ใน pathophysiology","Management ส่วนรักษา UTI"],
+       flow:["Part 1: ซึม ไข้ กินน้อย → ประวัติหา source (ปัสสาวะแสบขัด ปวดสีข้าง ไอ ปวดหัวคอแข็ง แผลเท้า ท้องเสีย) + PE (CVA / suprapubic tenderness)","Part 2: ให้ผล DTX 27, ABG / Ca / electrolytes ปกติ, UA WBC เพิ่ม nitrite 3+ bacteria 3+","Part 3: pathophysiology (UTI → กินน้อย / AKI / ใช้ glucose) → management (รักษา UTI คู่กับ hypoglycemia)"],
+       pattern:["<b>หา source:</b> urinary (dysuria, frequency, flank pain, CVA tenderness), ปอด, CNS (ปวดหัว คอแข็ง), ผิวหนัง-แผลเท้าเบาหวาน, ช่องท้อง, ท้องเสีย","<b>แปลผล UA:</b> WBC เพิ่ม + <b>nitrite 3+</b> + bacteria 3+ → UTI (nitrite บวก = Enterobacterales เช่น E. coli) → ส่ง <b>urine culture</b> + <b>hemoculture × 2 ก่อนให้ antibiotic</b>","<b>จัดชนิด:</b> ไข้ + ซึม ในเบาหวานสูงอายุ = <b>complicated UTI / urosepsis</b> (ไม่ใช่ cystitis ธรรมดา) → IV ceftriaxone แล้วปรับตาม culture; เสี่ยง ESBL หรือ septic shock → carbapenem · duration ราว 7 วันถ้าตอบสนองดี (นานถึง 14 วันถ้าช้า / bacteremia ที่ซับซ้อน) · สารน้ำ, ติดตาม Cr","<b>บทบาท infection:</b> ไข้ + เบื่ออาหาร → กินน้อยแต่ยังกินยา; ใช้ glucose มากขึ้น; prerenal AKI → sulfonylurea สะสม","เลี่ยง TMP-SMX และ fluoroquinolone ในผู้ป่วย sulfonylurea (เสริมฤทธิ์ → hypoglycemia) ถ้ามีทางเลือก; ปรับขนาดยาตามไต","ในผู้สูงอายุ ‘ซึม + bacteriuria’ ไม่ใช่ UTI เสมอไป — เคสนี้มีไข้ PR / RR เร็ว จึงรักษาเป็น symptomatic UTI / sepsis และยังต้องหาสาเหตุอื่นของซึม (hypoglycemia เป็นตัวหลัก)"],
+       kw:["urinalysis WBC, nitrite, bacteria","urine culture","hemoculture ก่อน antibiotic","complicated UTI / urosepsis","IV ceftriaxone","7–14 วัน","CVA / suprapubic tenderness","AKI → sulfonylurea สะสม"],
+       ddx:["cystitis vs pyelonephritis / urosepsis","pneumonia","meningitis / encephalitis","diabetic foot infection"],
+       pearls:["รักษา UTI แต่ลืม hypoglycemia (หรือกลับกัน) = ได้บางส่วน — ต้องทำคู่กัน","ส่ง culture ก่อนให้ antibiotic เสมอ"],
+       members:["MDCU78|RoB|2#1","MDCU78|RoB|2#3","MDCU78|RoB|2#4","MDCU78|RoB|2#5"]}
+    ]}
+  ]});
