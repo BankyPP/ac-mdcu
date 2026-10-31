@@ -73,7 +73,7 @@ function osBuild(cfg){const P=P_(),nAI=Math.max(0,Math.min(cfg.n,cfg.nAI||0));le
   const run=osNewRun({mode:cfg.mode,per:cfg.per,rest:cfg.rest,order:cfg.order,topics:cfg.topics,n:cfg.n,nAI,short:cfg.nAI>0?0:Math.max(0,short)});
   sts.forEach(sl=>{sl.ty=osSlotType(run,sl);});
   if(cfg.order!=="custom"){if(cfg.order==="block"){const a=shuffle(sts.filter(s=>s.ty==="noex")),b=shuffle(sts.filter(s=>s.ty!=="noex"));sts=a.concat(b);}else sts=shuffle(sts);
-    run.seq=osRests(sts);run.start=osStartPick(run.seq);}
+    run.seq=osOpt("autoRest")===false?sts:osRests(sts);run.start=osStartPick(run.seq);}
   P.osRun=run;save();return run;}
 /* real exam count/time — set here when the ward has none yet (same place as the Admit · ICU · Discharge page) */
 function osSetReal(n,min){const id=W_().cfg.id,o=wOv(id);st.wcfg=st.wcfg||{};st.wcfg[id]=Object.assign({},o||{},{examOS:{n:Math.round(n),min:Math.round(min*2)/2},ts:now()});delete st.wcfg[id].reset;save();}
@@ -262,10 +262,10 @@ function osRunView(){const run=osRunCur();if(!run)return go(ward+"/osl");if(!run
   clearInterval(OST);OST=setInterval(osTick,250);}
 /* checklist block (IRL proctor during the exam, and the result page) */
 function osChkHTML(rs,ix,q,s){const c=osTicks(rs,ix,s);if(!(s.points||[]).length)return `<div class="oschkq"><div class="oq">${osQ(s,ix)}</div><div class="hint">ข้อนี้ไม่มี checklist — ให้คะแนนเอง</div></div>`;
-  return `<div class="oschkq"><div class="oq">${osQ(s,ix)} <span class="mk">${mqMk(s)} คะแนน</span></div>${s.key?`<div class="hint">เฉลยในไฟล์: ${s.key}</div>`:""}<ul class="pts">${s.points.map((p,j)=>{
-    if(typeof p==="string")return `<li><label><input type="checkbox" data-osc="${ix}" data-ss="${s._i}" data-sp="${j}" ${c[j]===true?"checked":""}><span>${p}</span></label></li>`;
+  return `<div class="oschkq"><div class="oq">${osQ(s,ix)} <span class="mk">${mqMk(s)} คะแนน</span></div>${s.key?`<div class="hint">เฉลยในไฟล์: ${s.key}</div>`:""}<ul class="pts">${s.points.map((p,j)=>{const hd=mqSecHead(s,j,c),ct=mqCritTag(s,j);
+    if(typeof p==="string")return hd+`<li><label><input type="checkbox" data-osc="${ix}" data-ss="${s._i}" data-sp="${j}" ${c[j]===true?"checked":""}><span>${p}${ct}</span></label></li>`;
     const vv=Array.isArray(c[j])?c[j]:[],need=p.need||1;
-    return `<li class="pgrp"><div class="pgl">${p.label?p.label+" ":""}<span class="alt">${need===1?"อย่างใดอย่างหนึ่ง":`ได้ ${need} อย่างจากนี้ = เต็ม`}</span></div><ul>${p.any.map((a,m)=>`<li><label><input type="checkbox" data-osc="${ix}" data-ss="${s._i}" data-sp="${j}" data-sk="${m}" ${vv[m]?"checked":""}><span>${a}</span></label></li>`).join("")}</ul></li>`;}).join("")}</ul></div>`;}
+    return hd+`<li class="pgrp"><div class="pgl">${p.label?p.label+" ":""}<span class="alt">${need===1?"อย่างใดอย่างหนึ่ง":`ได้ ${need} อย่างจากนี้ = เต็ม`}</span>${ct}</div><ul>${p.any.map((a,m)=>`<li><label><input type="checkbox" data-osc="${ix}" data-ss="${s._i}" data-sp="${j}" data-sk="${m}" ${vv[m]?"checked":""}><span>${a}</span></label></li>`).join("")}</ul></li>`;}).join("")}</ul>${c.length?mqCritWarn(s,c):""}</div>`;}
 function osTicks(rs,ix,s){const T=(rs.tick||{})[ix]||{};return T[s._i]||[];}
 function osBindChk(rs,after){document.querySelectorAll("[data-osc]").forEach(el=>el.onchange=()=>{const x=+el.dataset.osc,i=+el.dataset.ss,j=+el.dataset.sp;rs.tick=rs.tick||{};rs.ut=rs.ut||{};
   const T=rs.tick[x]=rs.tick[x]||{},c=T[i]=T[i]||[];if(el.dataset.sk!==undefined){const m=+el.dataset.sk;if(!Array.isArray(c[j]))c[j]=[];c[j][m]=el.checked;}else c[j]=el.checked;(rs.ut[x]=rs.ut[x]||{})[i]=1;save();after();});}
@@ -282,18 +282,19 @@ function osToProg(rs){const A=osA(),O=osOrder(rs);rs.seq.forEach((sl,ix)=>{if(sl
   A[q.uid]=x;});}
 function osSubFrac(rs,ix,s){const i=s._i,gm=((rs.gm||{})[ix]||{})[i];if(gm!==undefined&&gm!==null)return gm/2;
   const ut=((rs.ut||{})[ix]||{})[i],ai=((rs.ai||{})[ix]||{})[i];if(!ut&&ai&&ai.grade!=null)return ai.grade/2;
-  const c=osTicks(rs,ix,s);if(!(s.points||[]).length)return null;const sc=mqPtsScore(s,c);return sc.tot?sc.got/sc.tot:0;}
+  const c=osTicks(rs,ix,s);if(!(s.points||[]).length)return null;if(mqCritMiss(s,c).length)return 0;const sc=mqPtsScore(s,c);return sc.tot?mqPtsFrac(s,c):0;}
 function osStScore(rs,ix){const q=osSt(rs,rs.seq[ix].u);if(!q)return null;let tot=0,got=0;q.subs.forEach(s=>{const m=mqMk(s),f=osSubFrac(rs,ix,s);tot+=m;got+=m*(f||0);});return {tot,got,pct:tot?got/tot*100:0};}
 function osTotal(rs){const S=rs.seq.map((sl,ix)=>sl.k==="st"?{ix,sc:osStScore(rs,ix),q:osSt(rs,sl.u)}:null).filter(x=>x&&x.sc);
   const pct=S.length?S.reduce((a,x)=>a+x.sc.pct,0)/S.length:0,pass=S.filter(x=>x.sc.pct>=60).length,byT={};
   S.forEach(x=>{const k=(x.q&&x.q.topic)||"";(byT[k]=byT[k]||[]).push(x.sc.pct);});return {S,pct,pass,byT};}
 const osGrade=p=>(GRADES.find(([m])=>p>=m)||[0,"F"])[1];
+const osOpt=k=>{const w=W_().cfg;return ((w.exam||{}).OSCE||{})[k];};   /* Med MDCU (ผู้ใช้สั่ง 1 พ.ย. 2026): grade:false = บอกแค่ % คร่าว ๆ ไม่ตัดเกรด · autoRest:false = ไม่ใส่ข้อพักอัตโนมัติ ผู้ใช้ใส่เอง */
 /* ---- result page (#/<ward>/osr) ---- */
 function osResView(){const P=P_(),rs=osLastRes();if(!rs)return go(ward+"/osl");const TT=osTotal(rs),g=osGrade(TT.pct),O=osOrder(rs),Q=rs.kind==="quality";
   osImgLoad(rs,()=>{if(view==="osr")osResView();});
   let h=`<div class="mqv osv"><div class="whead"><h1 class="h2">ผล ${osKindN(rs.kind)} · OSCE</h1><a href="#/${esc(ward)}">กลับหน้าวอร์ด</a></div>
     <p class="sub" style="margin:0 0 10px">${fmtDT(rs.ts)} · <b>${rs.mode==="irl"?"IRL":"SIM"}</b> · ${TT.S.length} ข้อ · ข้อละ ${osFmt(rs.per)} นาที · ${Q?esc(rs.label||""):rs.order==="custom"?"ออกแบบเอง":rs.order==="block"?"แยกกลุ่ม":"สุ่มปนกัน"}${Q?"":` · เริ่มที่ข้อ ${rs.start+1}`}${rs.nAI?` · โจทย์ AI ${rs.nAI} ข้อ`:""}</p>
-    <div class="osgrade"><span class="g">${g}</span><span class="p">${TT.pct.toFixed(1)}%</span><span class="hint">ผ่าน (≥ 60%) <b>${TT.pass}/${TT.S.length}</b> ข้อ</span></div>`;
+    <div class="osgrade">${osOpt("grade")===false?`<span class="p">${TT.pct.toFixed(0)}%</span><span class="hint">คะแนนคร่าว ๆ (ไม่ตัดเกรด — เกณฑ์จริงไม่ทราบ)</span>`:`<span class="g">${g}</span><span class="p">${TT.pct.toFixed(1)}%</span><span class="hint">ผ่าน (≥ 60%) <b>${TT.pass}/${TT.S.length}</b> ข้อ</span>`}</div>`;
   if(rs.mode==="irl"){const un=TT.S.filter(x=>{const q=x.q;return q&&!q.subs.some(s=>((rs.ut||{})[x.ix]||{})[s._i]||((rs.gm||{})[x.ix]||{})[s._i]!=null);}).length;if(un)h+=`<p class="hint">IRL: ยังไม่ได้ติ๊ก checklist ${un} ข้อ — ข้อที่ไม่ติ๊กนับ 0 คะแนน ติ๊กย้อนหลังด้านล่างได้</p>`;}
   else h+=`<p class="hint">SIM: เว็บติ๊ก checklist ให้จากคำสำคัญในคำตอบ (คร่าว ๆ) — ตรวจและแก้ติ๊กเอง หรือกดให้คะแนนเองได้ทุกข้อย่อย${mqAiAvail()?" · ให้ AI ตรวจได้ทีละข้อ":""}</p>`;
   h+=`<div class="card"><h3>คะแนนตามหัวข้อ</h3><table class="ostab"><tbody>${Object.entries(TT.byT).map(([k,a])=>{const p=a.reduce((x,y)=>x+y,0)/a.length;return `<tr><td>${esc(osTN(k))}</td><td>${a.length} ข้อ</td><td style="color:${mqPct(Math.round(p))}"><b>${p.toFixed(0)}%</b></td></tr>`;}).join("")}</tbody></table></div>`;
@@ -307,7 +308,7 @@ function osResView(){const P=P_(),rs=osLastRes();if(!rs)return go(ward+"/osl");c
       h+=`<div class="subq"><div class="sh"><div class="sq">${osQ(s,ix)}</div><span class="mk">${f===null?"–":+(mqMk(s)*f).toFixed(1)}/${mqMk(s)}</span></div>`;
       if(rs.mode==="sim")h+=`<div class="mmine-lab">คำตอบของฉัน</div><div class="osmine">${t?mqNl(t):'<span class="muted">— ไม่ได้พิมพ์ —</span>'}</div>`;
       if(ai)h+=`<div class="aibox sblk"><b>🤖 AI:</b> ${mqNl(ai.assess||"")}${ai.missing?`<div class="aimiss"><b>ขาด:</b> ${mqNl(ai.missing)}</div>`:""}</div>`;
-      h+=`<div class="model"><span class="lab">เฉลย</span><div class="a">${s.ans||""}</div>${s.exp?`<div class="mexp">${mqRich(s.exp)}</div>`:""}</div>`;
+      h+=`<div class="model"><span class="lab">เฉลย</span><div class="a">${s.ans||""}</div>${s.exp?`<div class="mexp">${mqRich(s.exp)}</div>`:""}</div>`+mqKeyWarn(s);
       h+=osChkHTML(rs,ix,q,s);
       if(s.rubric)h+=`<div class="rubric"><b>เกณฑ์:</b> ${s.rubric}</div>`;if(s.flag)h+=`<div class="sub-meta"><span class="tag warn">${esc(s.flag)}</span></div>`;
       h+=`<div class="grade"><span class="gl">ให้คะแนนเอง (ทับ checklist):</span>${[[2,"✓ ได้"],[1,"◐ บางส่วน"],[0,"✗ ไม่ได้"]].map(([x,tx])=>`<button class="mgbtn g${x}" data-osg="${ix}" data-ss="${i}" data-g="${x}" aria-pressed="${gm===x}">${tx}</button>`).join("")}</div></div>`;});
@@ -339,7 +340,7 @@ function osHistView(){const P=P_(),H=(P.osHist||[]).slice().reverse();
   let h=`<div class="mqv osv"><div class="whead"><h1 class="h2">ประวัติ Legendary round / Quality round · OSCE</h1><a href="#/${esc(ward)}">กลับหน้าวอร์ด</a></div>`;
   if(!H.length)h+=`<div class="empty">ยังไม่เคยทำ Legendary round หรือ Quality round OSCE ในวอร์ดนี้</div>`;
   else{const L=H.filter(r=>(r.kind||"legend")==="legend"),ps=L.map(r=>osTotal(r).pct);if(ps.length)h+=`<p class="statline">Legendary round <b>${ps.length}</b> ครั้ง · เฉลี่ย <b>${(ps.reduce((a,b)=>a+b,0)/ps.length).toFixed(1)}%</b> · ดีสุด <b>${Math.max(...ps).toFixed(1)}%</b> · ล่าสุด <b>${ps[0].toFixed(1)}%</b></p>`;
-    h+=`<div class="trows">`+H.map((r,k)=>{const T=osTotal(r);return `<div class="crow"><button class="cn" type="button" data-osh="${esc(r.id)}"><span class="cl">ครั้ง</span>${H.length-k}</button><div style="min-width:0"><div class="cq">${osKindN(r.kind)} · ${fmtDT(r.ts)} · ${r.mode==="irl"?"IRL":"SIM"} · ${T.S.length} ข้อ</div><div class="hint">เกรด <b>${osGrade(T.pct)}</b> · ${T.pct.toFixed(1)}% · ผ่าน ${T.pass}/${T.S.length} ข้อ${r.label?" · "+esc(r.label):""}</div></div><div class="cmeta"><button class="link" type="button" data-oshdel="${esc(r.id)}">ลบ</button></div></div>`;}).join("")+`</div>`;}
+    h+=`<div class="trows">`+H.map((r,k)=>{const T=osTotal(r);return `<div class="crow"><button class="cn" type="button" data-osh="${esc(r.id)}"><span class="cl">ครั้ง</span>${H.length-k}</button><div style="min-width:0"><div class="cq">${osKindN(r.kind)} · ${fmtDT(r.ts)} · ${r.mode==="irl"?"IRL":"SIM"} · ${T.S.length} ข้อ</div><div class="hint">${osOpt("grade")===false?`${T.pct.toFixed(0)}%`:`เกรด <b>${osGrade(T.pct)}</b> · ${T.pct.toFixed(1)}% · ผ่าน ${T.pass}/${T.S.length} ข้อ`}${r.label?" · "+esc(r.label):""}</div></div><div class="cmeta"><button class="link" type="button" data-oshdel="${esc(r.id)}">ลบ</button></div></div>`;}).join("")+`</div>`;}
   h+=`</div>`;$("main").innerHTML=h;
   document.querySelectorAll("[data-osh]").forEach(b=>b.onclick=()=>{P.osSel=b.dataset.osh;save();go(ward+"/osr");});
   document.querySelectorAll("[data-oshdel]").forEach(b=>b.onclick=async()=>{if(!await uiAsk("ลบผลครั้งนี้?"))return;P.osHist=P.osHist.filter(x=>x.id!==b.dataset.oshdel);P.osDel=Object.assign(P.osDel||{},{[b.dataset.oshdel]:now()});save();osHistView();});}

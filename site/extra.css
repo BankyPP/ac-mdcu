@@ -193,6 +193,11 @@ details.tcard .tools{margin-top:10px}
 .field.seen.new b{color:var(--muted)}
 .seenbox{border-left:4px solid var(--warn);background:var(--warn-soft);border-radius:4px;padding:8px 10px;margin:8px 0;font-size:14px;overflow-wrap:anywhere}
 .seenbox>div{margin:3px 0}
+.kwarn{border-left:4px solid var(--warn);background:var(--warn-soft);border-radius:0 6px 6px 0;padding:7px 10px;margin:8px 0;font-size:13.5px;line-height:1.5;color:var(--ink,inherit)}
+.pts li.psec{display:flex;justify-content:space-between;gap:8px;margin:10px 0 2px;padding:4px 8px;border-radius:4px;background:var(--sheet);font-weight:600;list-style:none}
+.pts li.psec .pn{font-weight:400;color:var(--muted);white-space:nowrap}
+.crit{display:inline-block;margin-left:4px;padding:0 6px;border:1px solid var(--wrong);border-radius:999px;color:var(--wrong);font-size:12px;font-weight:600;white-space:nowrap}
+.critmiss{margin:6px 0;padding:6px 10px;border-left:4px solid var(--wrong);border-radius:0 6px 6px 0;font-size:13.5px;color:var(--wrong);background:var(--sheet)}
 .seenbox .hgrp{display:inline-flex;align-items:center;gap:4px;margin-right:10px;flex-wrap:wrap}
 .legban{position:sticky;top:52px;z-index:14;display:flex;align-items:center;gap:8px;flex-wrap:wrap;max-width:760px;margin:0 auto;padding:8px 16px;background:var(--warn-soft);border-bottom:1px solid var(--warn);font-size:14px}
 .legban span{flex:1;min-width:0}

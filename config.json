@@ -58,7 +58,29 @@
     "74ACDK": "Key_74ACD_Gen_Sx_AC_MCQ_GEN_Sx_MDCU74.pdf (74A หน้า 1–7 · 74C หน้า 8–12 · 74D หน้า 13–17)",
     "79CQ": "79C_Gen_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf (Gen หน้า 1–14 · Subspe หน้า 15–26)",
     "79CK": "Key_79C_Gen_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf (Gen หน้า 1–9 · Subspe หน้า 10–14 ว่าง)",
-    "79DQ": "79D_Gen_Sx_AC_Sx_MCQ_79_Ro_D_MDCU.pdf (ไม่มีไฟล์เฉลย)"
+    "79DQ": "79D_Gen_Sx_AC_Sx_MCQ_79_Ro_D_MDCU.pdf (ไม่มีไฟล์เฉลย)",
+    "IM78AQ": "78A_MCQ_Med_AC_Med_Rotate_A_MCQ.pdf",
+    "IM78AK": "Key_78A_MCQ_Med_AC_Med_Rotate_A_MCQ.pdf (กรอกแถวเดียว ไม่ใช่คีย์)",
+    "IM78BQ": "78B_MCQ_Med_AC_MCQ_78_rotate_B.pdf",
+    "IM78BK": "Key_78B_MCQ_Med_AC_MCQ_78_rotate_B.pdf (ว่าง — เฉลยโดย Claude)",
+    "IM78CQ": "78C_MCQ_Med_AC_Med_Rotate_C_MCQ.pdf",
+    "IM78CK": "Key_78C_MCQ_Med_Med_Rotate_C_MCQ.pdf (ว่าง)",
+    "IM78DQ": "78D_MCQ_Med_AC_Med_Rotate_D_MCQ.pdf",
+    "IM78DK": "Key_78D_MCQ_Med_AC_Med_Rotate_D_MCQ.pdf (ว่าง — เฉลยโดย Claude)",
+    "IME78AQ": "78A_MEQ_Med_AC_Med_Rotate_A_MEQ.pdf (ซ้ำ AC 77A ข้อ 2, 77B ข้อ 1)",
+    "IME78BQ": "78B_MEQ_Med_AC_MEQ_78_rotate_B.pdf",
+    "IME78BK": "Key_78B_MEQ_Med_AC_MEQ_78_rotate_B.pdf (ช่องเฉลยว่าง — เฉลยโดย Claude)",
+    "IME78CQ": "78C_MEQ_Med_AC_Med_Rotate_C_MEQ.pdf (ซ้ำ AC 76B ข้อ 2, 77A ข้อ 1)",
+    "IME78DQ": "78D_MEQ_Med_AC_Med_Rotate_D_MEQ.pdf",
+    "IME78DK": "Key_78D_MEQ_Med_AC_Med_Rotate_D_MEQ.pdf (ช่องเฉลยว่าง — เฉลยโดย Claude)",
+    "IMO78AQ": "78A_OSCE_Med_AC_Med_Rotate_A_OSCE.pdf",
+    "IMO78AK": "Key_78A_OSCE_Med_AC_Med_Rotate_A_OSCE.pdf (สำเนาโจทย์ ไม่มีเฉลย)",
+    "IMO78BQ": "78B_OSCE_Med_AC_OSCE_78_rotate_B.pdf",
+    "IMO78BK": "Key_78B_OSCE_Med_AC_OSCE_78_rotate_B.pdf (ช่องเฉลยว่าง)",
+    "IMO78CQ": "78C_OSCE_Med_AC_Med_Rotate_C_OSCE.pdf",
+    "IMO78CK": "Key_78C_OSCE_Med_AC_Med_Rotate_C_OSCE.pdf (ช่องเฉลยว่าง)",
+    "IMO78DQ": "78D_OSCE_Med_AC_Med_Rotate_D_OSCE.pdf",
+    "IMO78DK": "Key_78D_OSCE_Med_Rotate_D_OSCE.pdf (ช่องเฉลยว่าง)"
   },
   "siteUrl": "https://bankypp.github.io/ac-mdcu/",
   "siteName": "คลังข้อสอบเก่า",
@@ -78,7 +100,52 @@
           "done": true
         }
       ],
-      "meqTopics": [],
+      "meqTopics": [
+        [
+          "cardio",
+          "Cardiology"
+        ],
+        [
+          "pulmo",
+          "Pulmonology"
+        ],
+        [
+          "gi",
+          "GI & Hepatology"
+        ],
+        [
+          "nephro",
+          "Nephrology & Electrolytes"
+        ],
+        [
+          "endo",
+          "Endocrinology & Metabolism"
+        ],
+        [
+          "hemato",
+          "Hematology"
+        ],
+        [
+          "onco",
+          "Oncology"
+        ],
+        [
+          "id",
+          "Infectious disease"
+        ],
+        [
+          "neuro",
+          "Neurology"
+        ],
+        [
+          "rheum",
+          "Rheumatology"
+        ],
+        [
+          "general",
+          "General medicine"
+        ]
+      ],
       "osceTopics": [
         {
           "id": "lab",
@@ -121,7 +188,15 @@
           "name": "Advice",
           "ex": 1
         }
-      ]
+      ],
+      "exam": {
+        "OSCE": {
+          "n": 9,
+          "min": 5,
+          "grade": false,
+          "autoRest": false
+        }
+      }
     },
     {
       "id": "ped",
