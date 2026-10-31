@@ -37,7 +37,7 @@ A({page:1,orig:"1",topic:"proc",ex:1,proc:1,title:"Procedure — blood culture (
  interp:"สถานีหัตถการ: เก็บ hemoculture อย่างปลอดเชื้อ ได้ปริมาณพอ 2 ชุด + สื่อสาร/ขออนุญาต",
  summary:["2 ชุด (aerobic + anaerobic) คนละตำแหน่ง ชุดละ 20 mL","Chlorhexidine–alcohol 30 วินาที รอแห้ง ห้ามคลำซ้ำ","เจาะก่อนยาปฏิชีวนะ แต่ไม่ให้การเก็บทำให้ยาช้า (sepsis: ภายใน 1 ชม.)","Syringe → anaerobic ก่อน; butterfly → aerobic ก่อน"]}),
 
-A({page:1,orig:"2",topic:"hx",ex:1,title:"History + auscultation — dyspnea 1 day in a known asthmatic",
+A({page:1,orig:"2",seen:"MDCU77 RoC ข้อ 9 (สถานีเดียวกัน: ซักประวัติไอ-เหนื่อย + ฟังปอด Harvey → asthma attack)",topic:"hx",ex:1,title:"History + auscultation — dyspnea 1 day in a known asthmatic",
  stem:`A middle-aged woman presents with increasing dyspnea for 1 day.<br>1. Take a history.<br>2. Auscultate the chest on the manikin and report the findings to the examiner.<br>3. Give one diagnosis.`,
  gray:"2 ซักประวัติ+ตรวจร่างกาย คนไข้หญิงวัยกลางคน มาด้วยเหนื่อยมากขึ้น 1 วัน 1. ซักประวัติ 2. ตรวจร่างกายให้ฟัง (auscultation) หุ่น แล้วบอกผลกับอาจารย์ 3. ตอบ 1 Dx",
  sp:"ข้อมูลที่ผู้ป่วยตอบ (จากไฟล์): มี URI มา 2–3 วันก่อนเหนื่อย · โรคประจำตัว asthma (\"หลอดลมตีบ\") 10 ปี ใช้ salbutamol อยู่ · ไม่สูบบุหรี่ ไม่เลี้ยงสัตว์ · บ้านอยู่ใกล้ถนนใหญ่มีฝุ่น · ปกติ asthma เป็นมากตอนกลางคืน แต่ครั้งนี้เหนื่อยตลอดทั้งวัน · Claude เติม (ถ้าผู้สอบถาม): ไม่มีไข้สูง ไอมีเสมหะใส พ่น salbutamol บ่อยขึ้นแต่ไม่ดีขึ้น ไม่ได้ใช้ยาพ่น steroid สม่ำเสมอ ไม่เคยใส่ท่อช่วยหายใจ ไม่มีเจ็บหน้าอก ไม่มีขาบวม · ผลฟัง (หุ่น): expiratory wheeze ทั้งสองข้าง, prolonged expiration",
@@ -62,7 +62,7 @@ A({page:1,orig:"2",topic:"hx",ex:1,title:"History + auscultation — dyspnea 1 d
  interp:"เหนื่อย 1 วันในผู้ป่วย asthma ที่มี URI นำ → acute asthma exacerbation · จุดตัดคะแนน: ต้องพูดว่า exacerbation",
  summary:["Exacerbation management: SABA ซ้ำ (4–10 puffs MDI+spacer q20 นาที ×1 ชม.) + O₂ เป้า SpO₂ 93–95% + systemic steroid (prednisolone 40–50 mg 5–7 วัน)","รุนแรง: ipratropium, IV MgSO₄ 2 g","กลับบ้าน: เริ่ม/เพิ่ม ICS-containing controller, ตรวจเทคนิคพ่น, action plan, นัด 2–7 วัน","GINA: ไม่ใช้ SABA เดี่ยว ๆ ในผู้ใหญ่ (ใช้ ICS-formoterol as needed)"]}),
 
-A({page:2,orig:"3",topic:"hx",ex:1,title:"History — fatigue with microcytic anemia and thrombocytosis at age 60s",
+A({page:2,orig:"3",seen:"คล้าย MDCU77 RoA ข้อ 8 (ซักประวัติ anemia)",topic:"hx",ex:1,title:"History — fatigue with microcytic anemia and thrombocytosis at age 60s",
  stem:`A patient in their 60s comes for an annual health check-up and reports feeling tired. CBC: Hb 8.x g/dL, low MCV, platelets 450,000/µL, normal WBC.<br>1. What additional history would you take?<br>2. Give your provisional diagnosis and plan of further management.`,
  gray:"3 ซักประวัติ ให้ว่าคนไข้วัย 6x ปีตรวจร่างกายประจำปีมีอาการเหนื่อย ให้ lab CBC มาเป็นเลข คือ anemia Hb 8.x MCV เล็ก with thrombocytosis plt 450000 WBC normal 1. จะถามประวัติไรเพิ่ม 2. บอก provisional Dx + การรักษาต่อไปในอนาคต",
  sp:"ข้อมูลที่ผู้ป่วยตอบ (จากไฟล์): อาการเพลีย (fatigue) ไม่ใช่เหนื่อยหอบ · ไม่มีประวัติโรคเลือด/ธาลัสซีเมียในครอบครัว · อุจจาระยังไม่มีเลือดปน · <b>มีประวัติมะเร็งลำไส้ใหญ่ในครอบครัว</b> · ไม่ดื่มเหล้า ไม่สูบบุหรี่ ไม่มีโรคประจำตัวอื่น · Claude เติม (ถ้าถาม): ไม่ได้กิน NSAID/aspirin, กินอาหารได้ปกติ ทานเนื้อสัตว์, น้ำหนักลดเล็กน้อย 2 kg ใน 3 เดือน, ไม่มีปวดท้อง/อุจจาระเปลี่ยนแปลงชัดเจน, ไม่เคยส่องกล้อง",
@@ -100,7 +100,7 @@ A({page:3,orig:"4",topic:"img",title:"CXR — elderly smoker with chronic dyspne
  interp:"ชายสูงอายุสูบบุหรี่ เหนื่อยเรื้อรัง barrel chest + CXR hyperinflation = COPD (emphysema)",
  summary:["CXR COPD: hyperinflation, flat diaphragm, hyperlucent, tubular heart, retrosternal space กว้าง, bullae","วินิจฉัยด้วย spirometry post-BD FEV₁/FVC <0.7","เลิกบุหรี่ = ชะลอการเสื่อมของ FEV₁ ได้ดีที่สุด"]}),
 
-A({page:3,orig:"5",topic:"ekg",title:"EKG — STEMI + complete heart block + RBBB (three findings in one tracing)",imgNote:NOIMG,
+A({page:3,orig:"5",seen:"MDCU77 RoB ข้อ 7 (ข้อเดียวกัน: STEMI + 3rd degree AV block + RBBB)",topic:"ekg",title:"EKG — STEMI + complete heart block + RBBB (three findings in one tracing)",imgNote:NOIMG,
  stem:`A patient presents with acute chest pain. A 12-lead EKG is obtained (as in previous AC exams, the tracing shows three abnormalities at once).<br>1. Please read the EKG in a systematic method.<br>2. Diagnosis.<br>3. Standard treatment.`,
  gray:"5 อ่าน EKG แบบใน AC เก่าที่มี 3 โรคในอันเดียว 1. Please read EKG in systematic method 2. Diagnosis (STEMI + 3rd degree AV block + RBBB : หารูปที่ครบไม่เจออ) 3. Standard treatments",
  flag:"⚠ ไม่มีรูป EKG ในไฟล์ — ฝึกบรรยาย EKG ที่คาดว่าจะเห็น · อาการ chest pain Claude เติม",
@@ -122,7 +122,7 @@ A({page:3,orig:"5",topic:"ekg",title:"EKG — STEMI + complete heart block + RBB
  interp:"สถานี EKG แบบ 3 โรคในใบเดียว — อ่านให้ครบทุกความผิดปกติ (rhythm + conduction + ischemia) แล้วรักษาแบบ STEMI + bradyarrhythmia",
  summary:["CHB: AV dissociation, atrial rate > ventricular rate","RBBB: rsR' V1, wide S I/V6 — STEMI criteria ยังใช้ได้","STEMI: aspirin + P2Y12 + anticoagulant + PCI ≤120 นาที / lysis ≤30 นาที","Symptomatic CHB: atropine → TCP → TVP"]}),
 
-A({page:4,orig:"6",topic:"micro",title:"Gram stain — pus from liver abscess in a diabetic patient",img:"mo78a_6",seen:"MDCU78 RoC ข้อ 6 (ข้อเดียวกัน) · ไฟล์บอกว่าซ้ำ AC เก่า",
+A({page:4,orig:"6",topic:"micro",title:"Gram stain — pus from liver abscess in a diabetic patient",img:"mo78a_6",seen:"MDCU78 RoC ข้อ 6 (ข้อเดียวกัน) · ไฟล์บอกว่าซ้ำ AC เก่า · MDCU77 RoB ข้อ 1 (ซ้ำ AC ที่ไฟล์อ้าง: Gram stain liver abscess ในเบาหวาน)",
  stem:`A patient with diabetes mellitus presents with high fever and right upper quadrant pain. Ultrasound shows a liver abscess, which is aspirated. The Gram stain of the pus is shown.<br>1. Interpret the Gram stain.<br>2. Name 2 likely organisms.<br>3. Treatment (no dose needed).`,
  gray:"6 Gram staining อ่านผล ซ้ำ AC ผู้ป่วยเบาหวาน ให้อาการประวัติและการตรวจร่างกายและรูป gram stain ของ pus ของ Liver abscess มา 1. อ่านผล 2. เชื้ออะไร ระบุมา 2 ตัว 3. Treatment ไม่ต้องบอก dose — ของจริงเชื้อกระจาย ๆ กัน ไม่ได้เกาะแบบในรูป (Cr. x.com/1IDCNMI)",
  flag:"⚠ ภาพเป็นภาพใกล้เคียงที่ผู้จดหามา (ของจริงเชื้อกระจายกัน ไม่เกาะกลุ่มแบบนี้) · ประวัติ/ตรวจร่างกาย Claude เติมสั้น ๆ · รูปในไฟล์ PDF ถูกตัดขวา — ภาพในเว็บเต็มภาพ",
@@ -156,7 +156,7 @@ A({page:5,orig:"7",topic:"micro",title:"Urine sediment — patient with a rash",
  interp:"Urine sediment มี RBC cast → GN · ผื่น → หา systemic cause (SLE, vasculitis, IE, PSGN)",
  summary:["RBC cast = GN · WBC cast = pyelonephritis/AIN · muddy brown granular = ATN · fatty cast/oval fat body = nephrotic · waxy/broad = CKD","Nephritic: hematuria + RBC cast + HT + edema + AKI ± proteinuria <3.5 g","Low C3: PSGN, lupus, MPGN/C3G, cryoglobulin, endocarditis"]}),
 
-A({page:5,orig:"8",topic:"lab",title:"Lab — LFT, amylase and lipase in severe abdominal pain",
+A({page:5,orig:"8",seen:"คล้าย MDCU77 RoA ข้อ 4 (lab pancreatitis)",topic:"lab",title:"Lab — LFT, amylase and lipase in severe abdominal pain",
  stem:`A patient presents with very severe abdominal pain (pain score 10/10) for 2 hours. Laboratory results: AST 85 U/L, ALT 72 U/L, ALP 112 U/L, total bilirubin 1.5 mg/dL, direct bilirubin 0.8 mg/dL, amylase 450 U/L, lipase 680 U/L.<br>1. Interpret the laboratory results.<br>2. What is the diagnosis?<br>3. Which one further investigation would you send?`,
  gray:"8 แปลผล LFT ให้ประวัติปวดท้องมาก ๆ PS 10/10 2 hr PTA AST 85 ALT 72 ALP 112 TB 1.5 DB 0.8 Amylase 450 Lipase 680 1. แปลผลแลป 2. Dx เป็นไร 3. จะส่ง investigation อะไรเพิ่ม 1 อัน",
  parts:S(
@@ -195,7 +195,7 @@ Bo({page:1,orig:"1",topic:"hx",ex:1,title:"History — 40-year-old woman with ab
  interp:"ปวด RUQ/ลิ้นปี่หลังอาหารมัน ไม่มีไข้ ไม่เหลือง = biliary colic → US + elective cholecystectomy",
  summary:["Biliary colic: ปวด <6 ชม. ไม่มีไข้ · cholecystitis: >6 ชม. + ไข้ + Murphy +","Charcot triad: ไข้ + ปวด RUQ + ตาเหลือง = cholangitis","Symptomatic gallstone → laparoscopic cholecystectomy","Asymptomatic gallstone ส่วนใหญ่ไม่ต้องผ่าตัด"]}),
 
-Bo({page:1,orig:"2",topic:"proc",ex:1,proc:1,title:"Procedure — nasogastric tube insertion with advice and consent",
+Bo({page:1,orig:"2",seen:"คล้าย MDCU77 RoB ข้อ 3 (ใส่ NG tube)",topic:"proc",ex:1,proc:1,title:"Procedure — nasogastric tube insertion with advice and consent",
  stem:`Insert a nasogastric (NG) tube.<br>1. Give advice and obtain consent for NG tube insertion.<br>2. Demonstrate NG tube insertion.`,
  gray:"2 ใส่ NG tube 1. ให้คำแนะนำ และขอ consent เพื่อใส่ NG tube 2. แสดงการใส่ NG tube",
  sp:"หุ่นใส่ NG + ผู้ป่วยจำลอง · อุปกรณ์: NG tube (เบอร์ 14–16 Fr ผู้ใหญ่), K-Y jelly/xylocaine jelly, syringe 50 mL, stethoscope, แก้วน้ำ + หลอด, plaster, ถุงมือ, กระดาษ pH, ผ้าเช็ด",
@@ -213,7 +213,7 @@ Bo({page:1,orig:"2",topic:"proc",ex:1,proc:1,title:"Procedure — nasogastric tu
  interp:"สถานีหัตถการ: consent + ใส่ NG ถูกต้อง · จุดที่ห้ามพลาด: วัดความยาวและยืนยันตำแหน่งก่อนใช้งาน",
  summary:["NEX measurement","ยืนยันด้วย pH ≤5.5 หรือ CXR — auscultation อย่างเดียวไม่พอ","ข้อห้าม: basal skull fracture/facial fracture (ใส่ทางปากแทน)"]}),
 
-Bo({page:1,orig:"3",topic:"pe",ex:1,title:"Physical examination — cerebellar signs in a patient with vertigo",
+Bo({page:1,orig:"3",seen:"MDCU77 RoA ข้อ 9 (สถานีเดียวกัน: cerebellar sign + vertigo)",topic:"pe",ex:1,title:"Physical examination — cerebellar signs in a patient with vertigo",
  stem:`A patient presents with episodes of vertigo. Brief examination: no nystagmus at rest, full extraocular movements, motor power grade V in all limbs, and intact sensation.<br>1. Demonstrate the important cerebellar signs.<br>2. Give your provisional diagnosis.`,
  gray:"3 ให้อาการ vertiginous symptoms มา + ผลตรวจร่างกายคร่าว ๆ (no nystagmus, full EOM, motor grade V all, intact sensation) 1. จงแสดงการตรวจ cerebellar signs ที่สำคัญ 2. จงให้ provisional diagnosis",
  flag:"⚠ ไฟล์ไม่บอกลักษณะ vertigo และผลตรวจ cerebellar — Claude สมมติว่าผู้ป่วยจำลองตรวจ cerebellar ปกติ และเวียนสั้น ๆ เวลาเปลี่ยนท่า (ให้ dx BPPV) · ถ้าข้อสอบจริงตรวจพบ cerebellar sign ให้ตอบ cerebellar stroke/lesion",
@@ -247,7 +247,7 @@ Bo({page:1,orig:"4",topic:"lab",title:"Red-brown urine approach — urine and se
  interp:"Red urine ไม่มี RBC + serum ชมพู = hemoglobinuria จาก intravascular hemolysis",
  summary:["Hematuria: ตะกอน RBC · Hemoglobinuria: supernatant แดง + serum ชมพู · Myoglobinuria: supernatant แดง + serum ใส + CK สูง","Intravascular hemolysis: LDH ↑, haptoglobin ↓, hemoglobinuria, hemosiderinuria"]}),
 
-Bo({page:2,orig:"5",topic:"skin",title:"Skin lesion — burning red rash around the ear",img:"mo78b_5",
+Bo({page:2,orig:"5",seen:"คล้าย MDCU77 RoA ข้อ 5 (herpes zoster V3)",topic:"skin",title:"Skin lesion — burning red rash around the ear",img:"mo78b_5",
  stem:`A man presents with burning pain and redness around his ear. The lesion is shown.<br>1. Describe the lesion.<br>2. Diagnosis.<br>3. What else would you examine apart from the skin?`,
  gray:"5 ผู้ป่วยชายมาด้วยอาการแสบร้อน แดงบริเวณหู (V3 dermatome) 1. อธิบาย lesion 2. Diagnosis 3. ตรวจอะไรเพิ่มเติมนอกจากตรวจ skin — รูปในข้อสอบมาจาก admission round (ผู้จดเขียนใต้รูปว่า lesion ตาม V5 dermatome หารูปไม่เจอ — น่าจะหมายถึง V3)",
  flag:"⚠ ภาพเป็นภาพใกล้เคียงที่ผู้จดหามา (Herpes zoster oticus, day 6) — ภาพจริงมาจาก admission round",
@@ -265,7 +265,7 @@ Bo({page:2,orig:"5",topic:"skin",title:"Skin lesion — burning red rash around 
  interp:"ผื่นตุ่มน้ำตาม dermatome ที่หู = herpes zoster oticus → ต้องตรวจ CN VII, VIII หา Ramsay Hunt",
  summary:["Zoster: antiviral ภายใน 72 ชม. (acyclovir 800 mg 5×/วัน หรือ valacyclovir 1 g tid 7 วัน)","Ramsay Hunt = zoster oticus + facial palsy ± hearing loss/vertigo","Hutchinson sign (ปลายจมูก) → HZO ต้องตรวจตา","Recombinant zoster vaccine ≥50 ปี"]}),
 
-Bo({page:2,orig:"6",topic:"micro",title:"CSF stains — HIV patient with fever, headache and drowsiness",img:"mo78b_6",
+Bo({page:2,orig:"6",seen:"MDCU77 RoA ข้อ 1 (ข้อเดียวกัน รูปเดียวกัน: CSF India ink + Gram → Cryptococcus)",topic:"micro",title:"CSF stains — HIV patient with fever, headache and drowsiness",img:"mo78b_6",
  stem:`(Written answer) A 20-year-old man with underlying HIV infection presents with fever and generalized headache that is worst after waking up, followed by drowsiness. Lumbar puncture is performed; the CSF findings are shown (picture 1 left, picture 2 right).<br>1. Name the stains used in pictures 1 and 2, respectively.<br>2. Name the most likely organism (1 species).<br>3. Name the antimicrobial treatment for this patient.`,
  gray:"6 (เขียนตอบ) ผู้ป่วยชาย 20 ปี มาด้วยไข้ ปวดศีรษะทั่ว ๆ ปวดมากที่สุดหลังตื่นนอน ต่อมาซึม มี U/D HIV ทำ LP ได้ผลดังภาพ 1. บอกสีย้อมที่ใช้ในภาพที่ 1 และ 2 ตามลำดับ 2. บอกเชื้อที่เป็นไปได้มากที่สุด 1 species 3. บอก antibiotics ที่ใช้รักษาผู้ป่วยรายนี้",
  parts:S(
@@ -285,7 +285,7 @@ Bo({page:2,orig:"6",topic:"micro",title:"CSF stains — HIV patient with fever, 
  interp:"HIV + subacute meningitis + ปวดหัวเช้า (ICP สูง) → India ink พบ encapsulated yeast = cryptococcal meningitis",
  summary:["Crypto meningitis: OP สูงมาก, CrAg ไวสุด, India ink ~70–80%","Induction AmB + 5FC 2 สัปดาห์ → fluconazole","Serial LP ลด ICP — ห้าม steroid","ART หลัง 4–6 สัปดาห์ · screening CrAg เมื่อ CD4 <100 → pre-emptive fluconazole"]}),
 
-Bo({page:3,orig:"7",topic:"img",title:"CT brain — describe the abnormal findings",img:"mo78b_7",
+Bo({page:3,orig:"7",seen:"CT brain SDH เช่นกัน: MDCU77 RoC ข้อ 3",topic:"img",title:"CT brain — describe the abnormal findings",img:"mo78b_7",
  stem:`A non-contrast CT scan of the brain is shown.<br>1. Describe the abnormal findings on this CT.<br>2. Diagnosis.`,
  gray:"7 (มีแต่รูป CT) 1. บรรยาย abnormal finding ที่พบใน CT นี้ 2. Diagnosis",
  flag:"⚠ ไฟล์ไม่มีประวัติ — เฉลยจากการอ่านภาพ (Claude อ่านว่าเป็น isodense subdural hematoma ซีกขวา) ความมั่นใจปานกลาง",

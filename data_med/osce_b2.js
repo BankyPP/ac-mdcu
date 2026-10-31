@@ -21,7 +21,7 @@ const Do=o=>Object.assign({set:"MDCU78",ro:"RoD",file:"IMO78DQ",kfile:"IMO78DK",
 QB.push(
 
 /* ============================ RoC ============================ */
-Co({page:1,orig:"1",topic:"lab",title:"Thalassemia — parents' CBC and Hb typing, risk for the child",
+Co({page:1,orig:"1",seen:"MDCU77 RoD ข้อ 5 (สถานีเดียวกัน — 77D จำค่าได้: พ่อ HbH แม่ HbE trait + α-thal 1) · คล้าย MDCU77 RoB ข้อ 10",topic:"lab",title:"Thalassemia — parents' CBC and Hb typing, risk for the child",
  stem:`A couple comes for preconception counseling.<br><b>Father</b>: Hb 9 g/dL, Hct 27%, MCV 62 fL, RDW 28%; Hb typing A2A, HbA2 5.6%.<br><b>Mother</b>: Hb 11 g/dL, MCV 65 fL, RDW 14%; Hb typing EE (HbE 90%).<br>1. What is the chance that their child will have thalassemia disease?<br>2. Explain the cause of anemia in the father and in the mother.`,
  gray:"1 Thalassemia พ่อ Hb 9, Hct 27, MCV <70, RDW 28%, ให้ % Hb typing ให้ข้อมูลทั้งพ่อและแม่มา จำค่าไม่ค่อยได้ 1. ลูกเป็น thalassemia disease กี่ % 2. อธิบายสาเหตุที่ทำให้ซีดในพ่อและแม่",
  flag:"⚠ ผู้จดจำค่าได้แค่ของพ่อ (Hb 9, Hct 27, MCV <70, RDW 28%) — Hb typing ของพ่อ และข้อมูลแม่ทั้งหมด Claude แต่ง (เลือกให้ RDW สูงของพ่อมีความหมาย)",
@@ -74,7 +74,7 @@ Co({page:2,orig:"3",topic:"hx",ex:1,title:"History — syncope, possible causes 
  interp:"Syncope → แยก cardiac (อันตราย) จาก reflex/orthostatic ด้วยประวัติ + EKG",
  summary:["High risk syncope → admit + monitoring","EKG ทุกราย: block, VT, WPW, Brugada, QT, LVH","Reflex: prodrome, ยืนนาน, สิ่งกระตุ้น · Cardiac: ไม่มีเตือน, ออกแรง, นอน, ใจสั่นนำ","Seizure: post-ictal confusion, กัดลิ้นด้านข้าง"]}),
 
-Co({page:2,orig:"4",topic:"proc",ex:1,proc:1,title:"Procedure — Foley catheterization in a woman with urinary retention",
+Co({page:2,orig:"4",seen:"หัตถการเดียวกัน: MDCU77 RoC ข้อ 8 (ใส่ Foley + UA)",topic:"proc",ex:1,proc:1,title:"Procedure — Foley catheterization in a woman with urinary retention",
  stem:`A woman presents with urinary retention.<br>1. Give advice to the patient about Foley catheter insertion.<br>2. Demonstrate the insertion (do not forget to call an assistant, wear gloves, and attach the urine bag).`,
  gray:"4 ใส่ foley โจทย์ผู้ป่วยหญิงมาด้วย urinary retention 1. แนะนำเรื่องการใส่ foley ผู้ป่วย 2. แสดงการใส่ (อย่าลืมเรียกผู้ช่วย ถุงมือ ใส่ urine bag)",
  sp:"หุ่นอวัยวะเพศหญิง + ชุดสวนปัสสาวะปลอดเชื้อ (Foley 14–16 Fr, syringe + sterile water 10 mL, lubricant, antiseptic/NSS, cotton/gauze, ผ้าเจาะกลาง, ถุงมือ sterile, urine bag)",
@@ -92,7 +92,7 @@ Co({page:2,orig:"4",topic:"proc",ex:1,proc:1,title:"Procedure — Foley catheter
  interp:"สถานีหัตถการ: สวนปัสสาวะหญิงแบบ aseptic — ไฟล์เน้นเรียกผู้ช่วย ถุงมือ ต่อ urine bag",
  summary:["Female urethral meatus อยู่ระหว่าง clitoris กับ vaginal opening","เป่า balloon หลังเห็นปัสสาวะเท่านั้น","ถุงต่ำกว่ากระเพาะปัสสาวะ ระบบปิด","ถอดเร็วที่สุด (CAUTI)"]}),
 
-Co({page:3,orig:"5",topic:"lab",title:"Lab — viral hepatitis serology (isolated anti-HBc + anti-HCV positive)",
+Co({page:3,orig:"5",seen:"MDCU77 RoD ข้อ 9 (สถานีเดียวกัน: isolated anti-HBc + anti-HCV)",topic:"lab",title:"Lab — viral hepatitis serology (isolated anti-HBc + anti-HCV positive)",
  stem:`A patient's viral hepatitis serology: HBsAg negative, anti-HBc positive, anti-HBs negative, anti-HCV positive.<br>1. Interpret the results.<br>2. Management of this patient, including further laboratory tests.`,
  gray:"5 ผล Lab Hep virus HBsAg neg, Anti-HBc pos, Anti-HBs neg, Anti-HCV pos 1. แปลผล 2. Management กับผู้ป่วย ส่ง lab ไรเพิ่ม",
  parts:S(
@@ -106,7 +106,7 @@ Co({page:3,orig:"5",topic:"lab",title:"Lab — viral hepatitis serology (isolate
  interp:"แปล hepatitis serology ทีละไวรัส: HBV isolated anti-HBc + HCV antibody บวก → ยืนยันด้วย nucleic acid test",
  summary:["Anti-HCV + → HCV RNA ยืนยัน · RNA − = หายแล้ว/false +","Isolated anti-HBc → HBV DNA, ให้วัคซีนดู anamnestic response","HBV reactivation: DAA สำหรับ HCV, rituximab, chemo, steroid ขนาดสูง","Sofosbuvir/velpatasvir 12 สัปดาห์ ทุก genotype"]}),
 
-Co({page:3,orig:"6",topic:"micro",title:"Gram stain — pus from liver abscess in a diabetic patient (repeat of RoA)",img:"mo78a_6",seen:"MDCU78 RoA ข้อ 6 (ข้อเดียวกัน) · ไฟล์บอกว่าซ้ำ AC เก่า",
+Co({page:3,orig:"6",topic:"micro",title:"Gram stain — pus from liver abscess in a diabetic patient (repeat of RoA)",img:"mo78a_6",seen:"MDCU78 RoA ข้อ 6 (ข้อเดียวกัน) · ไฟล์บอกว่าซ้ำ AC เก่า · MDCU77 RoB ข้อ 1 (ซ้ำ AC ที่ไฟล์อ้าง)",
  stem:`A patient with diabetes mellitus presents with fever and right upper quadrant pain. Ultrasound shows a liver abscess, which is aspirated. The Gram stain of the pus is shown.<br>1. Interpret the Gram stain.<br>2. Name 2 likely organisms.<br>3. Treatment (no dose needed).`,
  gray:"6 Gram staining หนอง อ่านผล ซ้ำ AC ผู้ป่วยเบาหวาน ให้อาการประวัติและการตรวจร่างกายและรูป gram stain ของ pus ของ Liver abscess มา 1. อ่านผล 2. เชื้ออะไร ระบุมา 2 ตัว 3. Treatment ไม่ต้องบอก dose — ของจริงเชื้อกระจาย ๆ กัน ไม่ได้เกาะแบบในรูป",
  flag:"⚠ ภาพเป็นภาพใกล้เคียงที่ผู้จดหามา (ภาพเดียวกับ RoA ข้อ 6)",
@@ -123,7 +123,7 @@ Co({page:3,orig:"6",topic:"micro",title:"Gram stain — pus from liver abscess i
  interp:"ข้อซ้ำกับ RoA — liver abscess ในเบาหวาน + GNB → Klebsiella vs B. pseudomallei",
  summary:["Ceftriaxone ไม่ครอบคลุม B. pseudomallei","Melioidosis: intensive IV → eradication oral cotrimoxazole"]}),
 
-Co({page:4,orig:"7",topic:"img",title:"CT brain — read and diagnose",img:["mo78c_7a","mo78c_7b"],
+Co({page:4,orig:"7",seen:"CT brain SDH เช่นกัน: MDCU77 RoC ข้อ 3",topic:"img",title:"CT brain — read and diagnose",img:["mo78c_7a","mo78c_7b"],
  stem:`A non-contrast CT scan of the brain is shown (2 slices).<br>1. Read the CT.<br>2. Diagnosis.`,
  gray:"7 อ่าน CT 1. อ่าน 2. Dx (Cr. surl.lu/jlcdwz)",
  flag:"⚠ ภาพเป็นภาพใกล้เคียงที่ผู้จดหามา · ไฟล์ไม่มีประวัติและไม่บอกคำตอบ — เฉลยจากการอ่านภาพ",
@@ -154,7 +154,7 @@ Co({page:4,orig:"8",topic:"pe",title:"Physical sign — carpopedal spasm with a 
  interp:"รูปแขนพัน BP cuff + มือเกร็ง = Trousseau sign of hypocalcemia",
  summary:["Trousseau: cuff >SBP 3 นาที → carpal spasm (ไวกว่า Chvostek)","Hypocalcemia: perioral numbness, tetany, seizure, QT ยาว","แก้ Mg ก่อน hypocalcemia ถึงจะดีขึ้น","Symptomatic hypocalcemia → IV calcium gluconate 10% 10–20 mL ช้า ๆ"]}),
 
-Co({page:5,orig:"9",topic:"skin",title:"Fever, sore throat and a rash spreading head to trunk over 3 days (2 pictures)",img:["mo78c_9a","mo78c_9b"],
+Co({page:5,orig:"9",seen:"MDCU77 RoC ข้อ 5 (measles + Koplik spot — 77C ยืนยันว่าเป็นหัด)",topic:"skin",title:"Fever, sore throat and a rash spreading head to trunk over 3 days (2 pictures)",img:["mo78c_9a","mo78c_9b"],
  stem:`A patient has fever, sore throat, and a rash that spread from the head down to the trunk over 3 days.<br>1. Describe picture 1.<br>2. Describe picture 2.<br>3. State the most common complication.`,
  gray:"9 ไข้ เจ็บคอ ผื่น หัวลงตัว 3 วัน 1. บรรยายรูป 1 2. บรรยายรูป 2 3. บอก most common complication",
  flag:"⚠ ภาพเป็นภาพใกล้เคียงที่ผู้จดหามา · Claude อ่านว่าเป็นหัด (measles) จาก 'ผื่นลามจากหัวลงตัวใน 3 วัน' + จุดขาวบน buccal mucosa — ถ้าภาพจริงเป็น scarlet fever (ผื่นสาก sandpaper + strawberry tongue) คำตอบจะต่างไป",
@@ -174,7 +174,7 @@ Co({page:5,orig:"9",topic:"skin",title:"Fever, sore throat and a rash spreading 
  summary:["Measles: 3C (cough, coryza, conjunctivitis) + Koplik + ผื่นลามหัวลงเท้า","ติดต่อ 4 วันก่อนถึง 4 วันหลังผื่นขึ้น — airborne","Vitamin A ลดตาย","Scarlet fever: ผื่นสาก sandpaper, Pastia lines, strawberry tongue, circumoral pallor"]}),
 
 /* ============================ RoD ============================ */
-Do({page:1,orig:"1",topic:"pe",ex:1,title:"Physical examination — abdomen in chronic hepatitis B with abdominal distension, and advice on investigations",
+Do({page:1,orig:"1",seen:"MDCU77 RoC ข้อ 10 (สถานีเดียวกัน: ตรวจท้องผู้ป่วย HBV มี ascites + แนะนำการส่งตรวจ)",topic:"pe",ex:1,title:"Physical examination — abdomen in chronic hepatitis B with abdominal distension, and advice on investigations",
  stem:`A man presents with abdominal distension for 1 month. He was previously diagnosed with chronic hepatitis B but was lost to follow-up. Vital signs: BT 36 °C, PR 80/min, BP 120/80 mmHg. Examination shows icteric sclerae.<br>1. Demonstrate the physical examination of the abdomen.<br>2. Advise the patient on further investigations.`,
  gray:"1 Ajarn ตรวจร่างกาย ผู้ชายมาด้วยท้องโต 1 เดือน เคยตรวจเจอเป็น chronic hepatitis B แล้ว loss follow up ไป V/S BT 36, PR 80 BP 120/80 ตรวจร่างกายได้ icteric sclerae 1. จงแสดงการตรวจร่างกายระบบ abdomen (ปล. ผู้ป่วยจำลองตรวจได้ normal หมด อาจารย์เน้นแค่ท่า ไม่ได้ซีตอนแปรผล) 2. จง advice การส่งตรวจเพิ่มเติมแก่ผู้ป่วยรายนี้",
  sp:"ผู้ป่วยจำลองตรวจได้ปกติทุกอย่าง — อาจารย์เน้นท่าทางการตรวจ ไม่เน้นการแปลผล (จากไฟล์)",
@@ -258,7 +258,7 @@ Do({page:3,orig:"5",topic:"img",title:"CXR — 30-year-old man with dyspnea, no 
  interp:"ชายหนุ่ม + ก้อน mediastinum + อัณฑะปกติ → extragonadal germ cell tumor (DDx: lymphoma, thymoma)",
  summary:["Anterior: thymoma, teratoma/GCT, lymphoma, thyroid · Middle: LN, bronchogenic cyst · Posterior: neurogenic tumor","GCT markers: AFP (nonseminoma), β-hCG, LDH · AFP สูง = ไม่ใช่ pure seminoma","Anterior mediastinal mass → ระวัง airway compression ตอนดมยา"]}),
 
-Do({page:3,orig:"6",topic:"img",title:"CT brain — 70-year-old man with severe headache then drowsiness",imgNote:NOIMG,
+Do({page:3,orig:"6",seen:"CT brain cerebellar hemorrhage เช่นกัน: MDCU77 RoD ข้อ 7",topic:"img",title:"CT brain — 70-year-old man with severe headache then drowsiness",imgNote:NOIMG,
  stem:`A 70-year-old man presents with a severe headache that began 2.5 hours before arrival and is now becoming drowsy.<br>1. Read the CT brain systematically. (Describe the expected findings.)<br>2. Diagnosis.`,
  gray:"6 CT brain ผู้ป่วยชาย 70 ปี ปวดหัวมาก 2.5 ชม. ก่อนมา รพ. ตอนนี้ซึมลง 1. จงอ่าน CT brain อย่างเป็นระบบ 2. Diagnosis (CT brain non contrast Hemorrhage at right cerebellar, subarachnoid hemorrhage at falx cerebri)",
  key:"CT brain non contrast · Hemorrhage at right cerebellar, subarachnoid hemorrhage at falx cerebri (จากไฟล์)",
@@ -273,7 +273,7 @@ Do({page:3,orig:"6",topic:"img",title:"CT brain — 70-year-old man with severe 
  interp:"ปวดหัวรุนแรงเฉียบพลันแล้วซึม — cerebellar hemorrhage อันตรายเพราะกด brainstem/อุด 4th ventricle",
  summary:["Cerebellar hemorrhage: ปวดหัว อาเจียน เวียน เดินเซ → ซึมเร็ว","ผ่าตัดเมื่อ >3 cm, ซึมลง, brainstem compression, hydrocephalus","ICH: SBP เป้า ~140, reverse anticoagulant, ICU"]}),
 
-Do({page:3,orig:"7",topic:"lab",title:"Lab — liver panel in a man with jaundice and hepatomegaly",
+Do({page:3,orig:"7",seen:"MDCU77 RoC ข้อ 6 (สถานีเดียวกัน: LFT TB7 DB5 AST230 ALT90 ALP130)",topic:"lab",title:"Lab — liver panel in a man with jaundice and hepatomegaly",
  stem:`A 50-year-old man presents with dyspnea, abdominal discomfort and fullness, and jaundice. Examination shows icteric sclerae and hepatomegaly. Laboratory results: globulin 3.5 g/dL, albumin 3 g/dL, total bilirubin 6 mg/dL, direct bilirubin 4 mg/dL, AST 234 U/L, ALT 90 U/L, ALP 130 U/L.<br>1. Interpret the laboratory results.<br>2. Diagnosis.`,
  gray:"7 Lab liver ผู้ป่วยชาย 50 ปี มาด้วยเหนื่อยอึดอัดแน่นท้อง เหลือง ตรวจร่างกายเจอ icteric sclerae, hepatomegaly Globulin 3.5, Albumin 3, TB 6, DB 4, AST 234, ALT 90, ALP 130 1. แปลผลแลป 2. Diagnosis",
  parts:S(
@@ -302,7 +302,7 @@ Do({page:3,orig:"8",topic:"micro",title:"Peripheral blood smear — Myanmar man 
  interp:"ไข้หนาวสั่นในแรงงานจากชายแดน → PBS: RBC โต + Schüffner dots + ทุกระยะ = P. vivax",
  summary:["P. vivax/ovale: RBC โต Schüffner dots, hypnozoite → primaquine","P. falciparum: RBC ขนาดปกติ, multiple rings, banana gametocyte, ไม่เห็น schizont, Maurer clefts","P. malariae: band form, rosette schizont","P. knowlesi: คล้าย malariae แต่ parasitemia สูง (ภาคใต้ไทย ลิงแสม)"]}),
 
-Do({page:4,orig:"9",topic:"img",title:"Thyroid scan — Graves disease with a cold nodule",imgNote:NOIMG,
+Do({page:4,orig:"9",seen:"MDCU77 RoD ข้อ 10 (สถานีเดียวกัน: thyroid scan Graves + cold nodule)",topic:"img",title:"Thyroid scan — Graves disease with a cold nodule",imgNote:NOIMG,
  stem:`A thyroid scan shows a diffusely enlarged thyroid with homogeneously increased uptake, with a focal area of absent uptake (cold nodule).<br>1. Diagnosis.<br>2. Treatment.`,
  gray:"9 Thyroid scan ตรวจเจอ grave with cold nodule 1. Diagnosis 2. Treatment",
  flag:"⚠ ไม่มีรูป thyroid scan ในไฟล์ — Claude บรรยายภาพใน stem ตามที่ไฟล์บอก (Graves + cold nodule)",

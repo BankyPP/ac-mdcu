@@ -1,10 +1,10 @@
 (function(){
 /* Internal Medicine MEQ ข้อสอบเก่า AC — MDCU78 (ทุกข้อ sec "MEQ" = case แบบ OB-GYN)
-   78A (IME78AQ): "1. ซ้ำ AC 77A ข้อ 2 เหมือนเดิมหมด · 2. ซ้ำ AC 77B ข้อ 1 เหมือนเดิมหมด (ข้อนี้มี อมชร วันที่ 4/7/68 ไปดูได้)" → ยังไม่มีชุด 77A/77B ของ Med ในเว็บ — รอดึงตามกติกา "ซ้ำ AC" (data_med/README.md)
-   78C (IME78CQ): "1. ซ้ำ AC 76B ข้อ 2 · 2. ซ้ำ AC 77A ข้อ 1" → รอดึงเช่นกัน
+   78A (IME78AQ): "1. ซ้ำ AC 77A ข้อ 2 เหมือนเดิมหมด · 2. ซ้ำ AC 77B ข้อ 1 เหมือนเดิมหมด (ข้อนี้มี อมชร วันที่ 4/7/68 ไปดูได้)" → ดึงแล้ว 1 พ.ย. 2026: สำเนาจาก 77 อยู่ใน meq_b2.js (set MDCU78, seen ↔ 77)
+   78C (IME78CQ): "1. ซ้ำ AC 76B ข้อ 2 · 2. ซ้ำ AC 77A ข้อ 1" → ข้อ 2 ดึงแล้ว (meq_b2.js) · ข้อ 1 รอชุด 76
    78B (IME78BQ + IME78BK): ข้อ 1 (เหนื่อย → malignant pleural effusion, 5 หน้า) · ข้อ 2 (ซึม → hypoglycemia จาก sulfonylurea + UTI, 4 หน้า) · ข้อ 3 ว่างทั้งข้อ → ข้าม
      ไฟล์เฉลย 78B = สำเนาโจทย์ที่เพิ่มหัว "เฉลย:" ไว้ใต้ทุกคำถามแต่ไม่ได้กรอก → เฉลยโดย Claude
-   78D (IME78DQ + IME78DK): ข้อ 1 "ซ้ำ AC 76B ข้อ 2" → รอดึง · ข้อ 2 (ท้องโต → alcoholic cirrhosis + SBP, 4 ตอน) · ไฟล์เฉลยมีหัว "เฉลย:" ว่างทุกช่อง → เฉลยโดย Claude
+   78D (IME78DQ + IME78DK): ข้อ 1 "ซ้ำ AC 76B ข้อ 2" → รอดึง (ยังไม่มีชุด 76) · ข้อ 2 (ท้องโต → alcoholic cirrhosis + SBP, 4 ตอน) · ไฟล์เฉลยมีหัว "เฉลย:" ว่างทุกช่อง → เฉลยโดย Claude
    คะแนนข้อย่อย: ไฟล์ไม่ได้บอก Claude ตั้งให้เหมาะกับปี 4 · checklist: หัวข้อใหญ่ (H, น้ำหนัก %) + ข้อห้ามขาด (CR) ตามที่ผู้ใช้สั่ง 1 พ.ย. 2026 */
 const NK="ไม่มีเฉลยในไฟล์ (เฉลยโดย Claude)";
 const P=(t,...re)=>({t,re});
@@ -19,7 +19,7 @@ const C=o=>Object.assign({set:"MDCU78",sec:"MEQ",opinion:""},o);
 QB.push(
 
 /* ======================= 78B ข้อ 1 ======================= */
-C({ro:"RoB",file:"IME78BQ",kfile:"IME78BK",page:1,page2:1,orig:"1",title:"Progressive dyspnea → left malignant pleural effusion (recurrent CA breast)",
+C({ro:"RoB",file:"IME78BQ",kfile:"IME78BK",page:1,page2:1,orig:"1",seen:"หัวข้อเดียวกัน: MDCU77 RoC MEQ ข้อ 1 (malignant pleural effusion จาก CA breast)",title:"Progressive dyspnea → left malignant pleural effusion (recurrent CA breast)",
  stem:`A Thai woman presents with progressively worsening dyspnea for 1 week.`,
  gray:"ข้อ 1 ผู้ป่วยหญิงไทย มาด้วยอาการเหนื่อยมากขึ้นมาเป็นเวลา 1 สัปดาห์ จงซักประวัติเพิ่มเติม 10 อย่าง",
  parts:[
@@ -82,7 +82,7 @@ C({ro:"RoB",file:"IME78BQ",kfile:"IME78BK",page:1,page2:1,orig:"1",title:"Progre
  opinion:"โครงคำตอบตาม BTS guideline for pleural disease (2023) และแนวทางมะเร็งเต้านมระยะแพร่กระจาย — คำถามหน้า 2 Claude แต่งเพราะผู้จดจำไม่ได้"}),
 
 /* ======================= 78B ข้อ 2 ======================= */
-C({ro:"RoB",file:"IME78BQ",kfile:"IME78BK",page:"1–3",page2:"1–3",orig:"2",title:"Drowsiness, poor intake and fever → severe hypoglycemia from sulfonylurea + UTI",
+C({ro:"RoB",file:"IME78BQ",kfile:"IME78BK",page:"1–3",page2:"1–3",orig:"2",seen:"คล้าย MDCU77 RoB MEQ ข้อ 2 (hypoglycemia จาก sulfonylurea)",title:"Drowsiness, poor intake and fever → severe hypoglycemia from sulfonylurea + UTI",
  stem:`An elderly patient with type 2 diabetes is brought to the hospital because of drowsiness. Over the past few days the patient has had fever and has been eating very little. (The exam provides a long history at this point.)`,
  gray:"ข้อ 2 หน้า 1: ให้ประวัติมายาว ๆ คนไข้ซึม กินได้น้อย มีไข้ ให้ประวัติมาเยอะแล้ว แต่ถามว่าจะซักประวัติอะไรเพิ่มอีก + จะตรวจร่างกายอะไรบ้าง ไม่จำกัด",
  parts:[
@@ -136,7 +136,7 @@ C({ro:"RoB",file:"IME78BQ",kfile:"IME78BK",page:"1–3",page2:"1–3",orig:"2",t
  opinion:"ตอบตาม ADA Standards of Care 2025 (hypoglycemia, older adults) และแนวทาง UTI · ส่วนประวัติเริ่มต้นของโจทย์ผู้จดจำไม่ได้"}),
 
 /* ======================= 78D ข้อ 2 ======================= */
-C({ro:"RoD",file:"IME78DQ",kfile:"IME78DK",page:"1–2",page2:"1–2",orig:"2",title:"Abdominal distension 1 month → alcoholic cirrhosis with ascites and SBP",
+C({ro:"RoD",file:"IME78DQ",kfile:"IME78DK",page:"1–2",page2:"1–2",orig:"2",seen:"หัวข้อเดียวกัน: MDCU77 RoD MEQ ข้อ 1 (ท้องโต → cirrhosis + SBP)",title:"Abdominal distension 1 month → alcoholic cirrhosis with ascites and SBP",
  stem:`A 40-year-old married Thai man presents with abdominal distension for 1 month before coming to the hospital.`,
  gray:"ข้อ 2 ตอนที่ 1: ผู้ป่วยชายไทยคู่ อายุ 40 ปี CC: ท้องโต มา 1 เดือนก่อนมาโรงพยาบาล โจทย์จงซักประวัติเพิ่มเติม",
  parts:[
