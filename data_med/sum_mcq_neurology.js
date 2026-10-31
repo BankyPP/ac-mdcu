@@ -1,0 +1,60 @@
+SUMM.push({tag:"Neurology", title:"Neurology",
+  intro:"<ul><li>Neurology ใน Med Y4 MCQ (MDCU78 RoA / RoB) เป็นเคสสั้นให้ระบุ <b>diagnosis จาก pattern ของอาการ</b> มากกว่าถามยาลึก ๆ</li><li>ธีมที่ซ้ำข้ามชุด: <b>primary headache</b> (cluster vs migraine — ดู duration + autonomic symptom + ข้างที่ปวด), neuropathy / myelopathy ที่มีสาเหตุ systemic (B12, arsenic), การติดเชื้อ CNS (TB meningitis, brain abscess), toxidrome</li><li>กับดัก: ปวด throbbing ≠ migraine เสมอ, ปวดสลับข้าง ≠ มีพยาธิสภาพ, ตามัวสองข้าง ≠ amaurosis fugax, lymphocytic CSF ≠ viral</li></ul>",
+  groups:[
+    {title:"Primary headache", sections:[
+      {id:"cluster-headache", title:"Cluster headache",
+       trend:"ถามแยก cluster จาก migraine ด้วย duration และ ipsilateral autonomic symptom",
+       asked:["ปวดรุนแรงรอบตาข้างขวาเกือบทุกวันตลอด 1 เดือน ครั้งละ ~1 ชม. + น้ำตาไหลข้างเดียวกัน → ถาม diagnosis"],
+       pattern:["<b>Cluster headache</b> (trigeminal autonomic cephalalgia): ปวดมากข้างเดียวรอบตา / ขมับ 15-180 นาที, 1 ครั้งวันเว้นวัน ถึง 8 ครั้ง / วัน (มักเวลาเดิม โดยเฉพาะกลางคืน) เป็นช่วง ๆ หลายสัปดาห์","ร่วมกับ ipsilateral lacrimation, conjunctival injection, rhinorrhea, ptosis / miosis; ผู้ป่วย <b>กระสับกระส่าย เดินไปมา</b> (migraine จะนอนนิ่ง); พบบ่อยในชายสูบบุหรี่","Acute: <b>100% O₂ 12-15 L / min ผ่าน non-rebreather mask ~15 นาที</b> หรือ sumatriptan 6 mg SC","Preventive: <b>verapamil</b> (ติดตาม EKG / PR interval); bridging ด้วย prednisolone หรือ occipital nerve block","มี red flag (เช่น เริ่มปวดหลังอายุ 50, thunderclap, neuro deficit, ไข้) → neuroimaging"],
+       pearls:["เห็นคำว่า throbbing แล้วตอบ migraine — ต้องดูระยะเวลาต่อครั้งและอาการ autonomic ข้างเดียวกัน","Trigeminal neuralgia = ปวดแปลบเหมือนไฟช็อตวินาที กระตุ้นด้วยการสัมผัสหน้า ไม่ใช่ 1 ชั่วโมง"],
+       members:["MDCU78|RoA|4"]},
+      {id:"migraine", title:"Migraine (ปวดข้างเดียวแต่สลับข้าง)",
+       trend:"ถามวินิจฉัยจากลักษณะปวดข้างเดียวที่สลับข้างระหว่าง attack",
+       asked:["ปวดหัวข้างเดียวเป็นครั้งคราว ข้างที่ปวดสลับซ้าย-ขวาในแต่ละ attack → ถาม diagnosis"],
+       pattern:["<b>Migraine without aura (ICHD-3)</b>: ≥5 attacks, ระยะเวลา 4-72 ชม., มี 2 ใน 4 (unilateral, pulsating, moderate-severe, แย่ลงเมื่อทำกิจกรรม) + 1 ใน 2 (คลื่นไส้ / อาเจียน, photophobia + phonophobia)","ปวดข้างเดียว ~60% และ <b>สลับข้างได้</b>","Acute: NSAID / paracetamol ± antiemetic → triptan; Preventive (ถ้า attack บ่อยหรือรบกวนชีวิต): propranolol, amitriptyline, topiramate, flunarizine","ปวดข้างเดิมตลอด (side-locked) → ต้องคิด secondary cause (tumor, AVM, dissection) และ cluster / hemicrania → imaging"],
+       pearls:["คิดว่าปวดย้ายข้างแล้วมีพยาธิสภาพ — จริง ๆ side-locked ต่างหากที่น่ากังวล","SAH = thunderclap onset; meningitis = ไข้ + คอแข็ง; tension-type = กดรัด สองข้าง ไม่มีคลื่นไส้"],
+       members:["MDCU78|RoB|3"]}
+    ]},
+    {title:"Neuropathy / myelopathy จากสาเหตุ systemic", sections:[
+      {id:"b12-scd", title:"Vitamin B12 deficiency — sensory ataxia / subacute combined degeneration",
+       trend:"ถามวินิจฉัยจาก dorsal column sign + areflexia ที่กล้ามเนื้อแข็งแรงปกติ",
+       asked:["ชาและเดินเซโดยเฉพาะในที่มืด สูญเสีย proprioception + vibration, DTR หาย, Romberg + แต่ motor ปกติ → ถาม diagnosis"],
+       pattern:["<b>Subacute combined degeneration</b> = dorsal column + lateral corticospinal tract ร่วมกับ peripheral neuropathy → proprioception / vibration หาย, Romberg +, ข้อเท้า areflexia ได้ แต่อาจมี Babinski (UMN + LMN ปนกัน)","สาเหตุ: pernicious anemia, metformin, PPI, vegan, gastrectomy / ileal resection, nitrous oxide","ตรวจ: serum B12, methylmalonic acid, homocysteine; macrocytic anemia, glossitis, dementia ร่วมได้","รักษา: B12 IM (เช่น 1,000 µg) ตามตาราง loading แล้ว maintenance; <b>ให้ B12 ก่อน folate เสมอ</b> เพราะ folate อย่างเดียวแก้ anemia แต่ neuro แย่ลง","Dorsal column อื่น: copper deficiency, tabes dorsalis (syphilis), MS"],
+       pearls:["ลังเลเพราะ B12 'ควรมี hyperreflexia' — ในความจริงมี neuropathy ร่วมจน reflex หายได้","Cauda equina = sphincter + saddle anesthesia; syringomyelia = สูญเสีย pain / temperature แบบ cape; ALS = UMN + LMN ไม่มี sensory"],
+       members:["MDCU78|RoB|13"]},
+      {id:"arsenic-neuropathy", title:"Arsenic poisoning — polyneuropathy + ผิวหนัง",
+       trend:"ถามรวมอาการประสาทกับ hyperkeratosis ฝ่ามือฝ่าเท้า",
+       asked:["ชายไทย อ่อนแรงปลายมือเท้า 2 สัปดาห์ pinprick ลดลง DTR หาย + hyperpigmentation / hyperkeratosis ที่ฝ่ามือฝ่าเท้า → ถาม diagnosis"],
+       pattern:["<b>Arsenic</b> (น้ำบาดาลปนเปื้อนเช่นร่อนพิบูลย์ จ. นครศรีธรรมราช, ยาสมุนไพร / ยาลูกกลอน, เหมือง): sensorimotor axonal polyneuropathy (acute อาจคล้าย GBS)","ผิว: raindrop hyperpigmentation, palmoplantar hyperkeratosis, Bowen disease, SCC / BCC; เล็บ: Mees lines","ตรวจ 24-hr urine arsenic (หรือผม / เล็บ); รักษา: หยุด exposure, chelation (dimercaprol, DMSA / DMPS)","พิษโลหะหนักอื่น: lead = wrist / foot drop, basophilic stippling, colic, Burton line; thallium = alopecia + painful neuropathy; mercury = tremor, erethism, gingivitis"],
+       pearls:["ตอบ GBS เพราะอ่อนแรง + areflexia — ลืมดูผิวหนัง; GBS ไม่มี skin change","Diabetic polyneuropathy เป็น sensory-dominant ช้าเป็นปี ๆ"],
+       members:["MDCU78|RoB|8"]}
+    ]},
+    {title:"CNS infection และ TIA", sections:[
+      {id:"tbm-neuro", title:"TB meningitis (subacute lymphocytic meningitis, glucose ต่ำ)",
+       trend:"ถามแปลผล CSF + imaging basal enhancement",
+       asked:["ปวดหัว 2 สัปดาห์ + คอแข็ง, CT basal leptomeningeal enhancement, CSF lymphocyte 100% glucose 25 protein 100 → ถาม diagnosis"],
+       pattern:["<b>CSF</b>: lymphocyte เด่น, glucose ต่ำ (ratio <0.5), protein สูง; imaging: basal exudate, hydrocephalus, infarct, tuberculoma","ภาวะแทรกซ้อน: CN VI palsy, hydrocephalus, vasculitic infarct, SIADH","ตรวจ AFB, Xpert MTB / RIF Ultra, culture, ADA; รักษา 2HRZE / 10HR + dexamethasone","Low glucose + lymphocytic อื่น: cryptococcal (OP สูง), partially treated bacterial, carcinomatous"],
+       pearls:["ตอบ viral (aseptic) เพราะ lymphocytic + Gram stain ลบ — viral glucose ปกติ"],
+       members:["MDCU78|RoB|20"]},
+      {id:"brain-abscess-neuro", title:"Brain abscess จาก chronic otitis media — empirical antibiotic",
+       trend:"ถามสูตรยาที่ต้องคลุม anaerobe",
+       asked:["ไข้ สับสน อ่อนแรงครึ่งซีก + chronic otitis media + CT ring-enhancing lesion ที่ temporal lobe → ถามสูตรยา"],
+       pattern:["<b>Ceftriaxone (หรือ cefotaxime) + metronidazole</b>; หูเรื้อรัง / สงสัย Pseudomonas → ceftazidime หรือ cefepime + metronidazole","เพิ่ม vancomycin ถ้าหลังผ่าตัด / บาดเจ็บศีรษะ / สงสัย S. aureus","Aspirate ถ้าก้อน >2.5 cm หรือ mass effect; IV 6-8 สัปดาห์; หา source (ENT)","ห้าม LP เมื่อมี mass effect; ให้ dexamethasone เฉพาะ edema / mass effect มาก"],
+       pearls:["ลืม anaerobe — cloxacillin หรือ ceftriaxone เดี่ยว ๆ ไม่พอ"],
+       members:["MDCU78|RoB|19"]},
+      {id:"occipital-tia", title:"Transient bilateral vision loss — posterior circulation TIA",
+       trend:"ถามแยก monocular (retina) จาก binocular (occipital) ของตามัวชั่วคราว",
+       asked:["หญิง 41 ปี ตามองไม่เห็นทั้งสองข้างพร้อมกัน 3 นาที หายสนิท ไม่ปวดตา ไม่ปวดหัว → ถาม diagnosis"],
+       pattern:["<b>Binocular</b> transient vision loss → รอยโรคหลัง chiasm ทั้งสองข้าง = occipital cortex (PCA จาก basilar) → <b>posterior circulation TIA</b>","<b>Monocular</b> transient loss → retina / optic nerve → amaurosis fugax (ipsilateral carotid stenosis, retinal emboli)","Work-up TIA ด่วน: CT / MRI + vessel imaging (CTA / MRA), EKG / Holter หา AF, lipid, glucose; ให้ antiplatelet (high-risk TIA พิจารณา DAPT ระยะสั้นตามแนวทาง)","ประเมินความเสี่ยงด้วย ABCD² (age, BP, clinical, duration, DM)","ในอายุ >50 + ปวดขมับ / jaw claudication ต้องคิด giant cell arteritis"],
+       pearls:["เลือก amaurosis fugax โดยไม่ดูว่าเป็นตาข้างเดียวหรือสองข้าง","Optic neuritis = ปวดเวลากลอกตา ตามัวนานเป็นวัน; glaucoma มุมเปิด = ค่อยเป็นค่อยไป"],
+       members:["MDCU78|RoB|14"]}
+    ]},
+    {title:"Coma และ toxidrome", sections:[
+      {id:"opioid-coma", title:"Opioid toxidrome — coma + pinpoint pupils + RR ต่ำ",
+       trend:"ถามยาแก้พิษทันทีของ opioid และแยกจาก organophosphate",
+       asked:["ถูกนำส่งห้องฉุกเฉิน coma รูม่านตาเล็กเป็นจุด RR 4 / นาที → ถามยาที่ควรให้"],
+       pattern:["<b>Naloxone</b> 0.04-0.4 mg IV titrate ทีละน้อยในผู้ติดยา (ไม่ให้เกิด withdrawal) หรือ 2 mg IN / IM ถ้าไม่มีเส้น; ซ้ำได้ทุก 2-3 นาที","ช่วยหายใจ (bag-mask) ไปพร้อมกัน; ครึ่งชีวิตสั้นกว่า opioid หลายตัว → เฝ้าระวัง re-sedation อาจต้อง infusion","Organophosphate: miosis + cholinergic signs (น้ำลาย น้ำตา ท้องเสีย) + bronchorrhea + fasciculation → atropine (จนสารคัดหลั่งแห้ง) + pralidoxime","Pinpoint pupil + coma ก็พบใน pontine hemorrhage; benzodiazepine overdose → supportive (flumazenil ระวังชัก)"],
+       pearls:["Thiamine ใช้ในผู้ป่วยสุรา / Wernicke ไม่ใช่ยาแก้พิษ opioid","Zolpidem คือยานอนหลับ ทำให้ซึมได้ ไม่ใช่ antidote"],
+       members:["MDCU78|RoB|6"]}
+    ]}
+  ]});

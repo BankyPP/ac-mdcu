@@ -1,0 +1,60 @@
+SUMM.push({tag:"Dermatology", title:"Dermatology",
+  intro:"<ul><li>Dermatology ใน Med Y4 MCQ (MDCU78 RoA / RoB / RoD) เป็น <b>ผิวหนังที่เป็นหน้าต่างของโรคระบบอื่น</b>: ติดเชื้อ (รา ปรสิต ไวรัส STI), ผื่นจากยา, และ skin sign ของโรค systemic / พิษโลหะหนัก</li><li>ธีมที่โผล่ข้ามชุด: <b>ผื่นหลังได้ยาหรือหลังติดเชื้อ</b> (nevirapine, amoxicillin ใน EBV), <b>การติดเชื้อราและปรสิตผิวหนัง</b> (Malassezia, mycetoma, larva currens), <b>skin sign ที่ชี้โรคตา/ไทรอยด์/พิษ</b></li><li>รูปแบบข้อสอบ: บรรยายลักษณะ lesion + ตำแหน่ง/ความเร็ว → ถามเชื้อ / diagnosis / ยา; กับดักคือเลือกยาผิดกลุ่ม (griseofulvin กับ Malassezia) หรือเลือกชื่อโรคที่ \"คุ้น\" แต่ตำแหน่งไม่ตรง</li></ul>",
+  groups:[
+    {title:"ติดเชื้อราและปรสิตที่ผิวหนัง", sections:[
+      {id:"pityriasis-versicolor", title:"Pityriasis (tinea) versicolor — Malassezia",
+       trend:"ถามเลือกยาที่ถูกกลุ่มเชื้อ (ยีสต์ ไม่ใช่ dermatophyte)",
+       asked:["ชายหนุ่ม ผื่น hypopigmented ขุยละเอียดที่อกและหลัง ชัดขึ้นหลังไปทะเล + KOH spaghetti and meatballs → ถามยารักษา"],
+       pattern:["<b>Malassezia</b> (ยีสต์) ชอบบริเวณต่อมไขมันมาก (อก หลัง ไหล่); KOH: short hyphae + yeast; Wood lamp เหลือง-เขียว","<b>ยาทา</b>: selenium sulfide 2.5% lotion / shampoo, ketoconazole 2% shampoo หรือ cream, azole cream, ciclopirox","กว้าง / ดื้อ / เป็นซ้ำ → oral itraconazole หรือ fluconazole","สีผิวกลับเป็นปกติช้าหลายเดือน ไม่ใช่การรักษาล้มเหลว"],
+       pearls:["Griseofulvin และ terbinafine กินใช้กับ dermatophyte ไม่ได้ผลกับ Malassezia; oral ketoconazole เลี่ยงเพราะพิษต่อตับ","Topical corticosteroid ไม่ใช่การรักษา","DDx hypopigmented: vitiligo (depigmented ไม่มีขุย), pityriasis alba, leprosy (ชา), post-inflammatory"],
+       members:["MDCU78|RoA|7"]},
+      {id:"mycetoma", title:"Mycetoma (Madura foot) — painless swelling + sinuses + grains",
+       trend:"ถาม triad ของ mycetoma แยกจาก actinomycosis / sporotrichosis",
+       asked:["ก้อนใต้ผิวหนังที่เท้าไม่เจ็บ มีหลายรูระบายหนอง ในหนองมี grains → ถาม diagnosis"],
+       pattern:["<b>Mycetoma triad</b>: painless subcutaneous swelling + multiple draining sinuses + grains; ที่เท้าบ่อยที่สุด ลุกลามถึงกระดูก (ติดจากการเหยียบหนาม / ดิน)","Actinomycetoma (Nocardia, Actinomadura — แบคทีเรีย): ตอบสนองต่อยา → cotrimoxazole + amikacin","Eumycetoma (เชื้อรา เช่น Madurella — grain ดำ): itraconazole นาน ± ผ่าตัด","Actinomycosis: Actinomyces anaerobic gram-positive branching, sulfur granules, cervicofacial / abdominal → penicillin นาน; Sporotrichosis: lymphocutaneous → itraconazole"],
+       pearls:["เลือก actinomycosis เพราะเห็น granule — ต้องดูตำแหน่ง (เท้า) และบริบท"],
+       members:["MDCU78|RoB|24"]},
+      {id:"larva-currens", title:"Larva currens (Strongyloides) vs cutaneous larva migrans",
+       trend:"ถามแยกพยาธิจากตำแหน่งและความเร็วของ serpiginous rash",
+       asked:["ผื่น serpiginous urticarial คันมาก เคลื่อนเร็ว เริ่มรอบทวารหนักแล้วลามไปก้นและต้นขา → ถามพยาธิ"],
+       pattern:["<b>Strongyloides stercoralis</b> autoinfection → larva currens: perianal / buttock / ต้นขา เคลื่อนเร็ว 5-10 cm / ชม. หายใน 1-2 วัน","Hyperinfection / disseminated ในผู้ที่ได้ steroid, HTLV-1, ภูมิต่ำ → gram-negative sepsis / meningitis","รักษา <b>ivermectin</b> (200 µg / kg / วัน); ในคนจากพื้นที่ระบาด ตรวจหรือรักษาก่อนเริ่ม steroid","Cutaneous larva migrans (A. braziliense — ตัวอ่อนสุนัข / แมว) ที่เท้า เคลื่อนช้า (ไม่กี่ mm-cm / วัน); Gnathostoma = migratory swelling + eosinophilic meningitis ในไทย"],
+       pearls:["เลือก A. braziliense เพราะคุ้นกับ creeping eruption — ตำแหน่ง perianal และความเร็วชี้ Strongyloides","Toxocara = visceral larva migrans ไม่ใช่ผื่นเคลื่อนที่"],
+       members:["MDCU78|RoD|13"]}
+    ]},
+    {title:"ผื่นหลังได้ยาหรือหลังติดเชื้อ", sections:[
+      {id:"nvp-rash-derm", title:"ผื่น maculopapular หลังเริ่ม ART ที่มี nevirapine",
+       trend:"ถามยาที่เป็นสาเหตุผื่นหลังเริ่ม ART และแยกจาก IRIS",
+       asked:["HIV เริ่ม AZT + 3TC + nevirapine 1 สัปดาห์ → maculopapular rash ทั่วตัว ไม่มี mucosal involvement → ถามสาเหตุ"],
+       pattern:["<b>Nevirapine</b> ทำผื่นบ่อยที่สุด (~15-20%) ใน 6 สัปดาห์แรก; lead-in 200 mg วันละครั้ง 14 วันเพื่อลดผื่น","ผื่นเล็กน้อย ไม่มี mucosa / ไข้ / hepatitis → ให้ยาต่อ + antihistamine","ผื่นรุนแรง / mucosal / SJS-TEN / DRESS / hepatitis → หยุดถาวร","ยาอื่นใน HIV ที่ทำผื่น: abacavir (HLA-B*57:01), cotrimoxazole, efavirenz (น้อยกว่า)"],
+       pearls:["เลือก IRIS เพียงเพราะเกิดหลังเริ่ม ART"],
+       members:["MDCU78|RoB|10"]},
+      {id:"ebv-rash-derm", title:"ผื่นหลังได้ amoxicillin ใน EBV mononucleosis",
+       trend:"ถามว่าผื่นหลังได้ยาเป็นแพ้ยาจริงหรือเป็นโรคไวรัสที่เป็นอยู่",
+       asked:["ไข้ + เจ็บคอ 7 วัน กิน amoxicillin 4 วัน → lymphadenopathy ทั่วตัว + maculopapular rash เว้นฝ่ามือฝ่าเท้า → ถาม diagnosis"],
+       pattern:["<b>EBV infectious mononucleosis</b>: ไข้ + exudative pharyngitis + LN โต (± splenomegaly, atypical lymphocytes)","ได้ amoxicillin / ampicillin → maculopapular rash ~70-90% ไม่ใช่แพ้ยาจริง","ตรวจ Monospot / EBV VCA IgM; supportive; งดกีฬาปะทะ 3-4 สัปดาห์","Secondary syphilis มักมีผื่นฝ่ามือฝ่าเท้า (โจทย์บอกว่าเว้น)"],
+       pearls:["ตอบ drug allergy เพราะผื่นเกิดหลังยา"],
+       members:["MDCU78|RoD|8"]}
+    ]},
+    {title:"Skin sign ของโรค systemic และพิษ", sections:[
+      {id:"arsenic-skin", title:"Chronic arsenic poisoning — raindrop pigmentation + palmoplantar keratosis",
+       trend:"ถามรวมอาการผิวหนัง (hyperkeratosis ฝ่ามือฝ่าเท้า) กับ neuropathy",
+       asked:["ชายไทย อ่อนแรงปลายมือเท้า DTR หาย + hyperpigmentation / hyperkeratosis ที่ฝ่ามือฝ่าเท้า → ถาม diagnosis"],
+       pattern:["<b>Arsenic</b>: ผิว — raindrop hyperpigmentation, palmoplantar hyperkeratosis, Bowen disease, SCC / BCC; เล็บ — Mees lines; ประสาท — sensorimotor axonal polyneuropathy","แหล่ง: น้ำบาดาล (ร่อนพิบูลย์ จ. นครศรีธรรมราช), ยาสมุนไพร / ยาลูกกลอน, เหมือง; ความเสี่ยงมะเร็งปอด / กระเพาะปัสสาวะ","ตรวจ 24-hr urine arsenic; รักษา หยุด exposure + chelation (dimercaprol, DMSA)"],
+       pearls:["ตอบ GBS — ลืมดูผิวหนัง"],
+       members:["MDCU78|RoB|8"]},
+      {id:"hertoghe-sign", title:"Hertoghe sign (outer third eyebrow thinning)",
+       trend:"ถามโรคที่สัมพันธ์กับคิ้วด้านนอกบางหรือหาย",
+       asked:["\"Thinning or loss of the outer third of the eyebrows\" → ถามว่าสัมพันธ์กับโรคใด (ตัวเลือก hyperthyroidism, androgenic alopecia, atopic dermatitis, HIV, psoriasis)"],
+       pattern:["<b>Hertoghe sign</b> (Queen Anne sign): ขนคิ้ว 1/3 ด้านนอกบางหรือหาย — พบใน hypothyroidism (คลาสสิก) และ <b>atopic dermatitis</b> (เป็นเกณฑ์รองของ Hanifin–Rajka จากการเกาถู)","สาเหตุอื่น: leprosy (madarosis), secondary syphilis (moth-eaten alopecia), trichotillomania, chemotherapy, alopecia areata","Atopic dermatitis sign อื่น: Dennie–Morgan fold, palmar hyperlinearity, white dermographism, keratosis pilaris","Hypothyroid skin: แห้ง หยาบ เย็น เหลือง (carotenemia) myxedema"],
+       pearls:["Hyperthyroidism ทำผมบางกระจายและผิวอุ่นชื้น ไม่ใช่ outer third eyebrow — ตัวเลือกที่ให้มาคือ hyper ไม่ใช่ hypo","โจทย์นี้ recall ไม่แน่ใจว่าเขียน hyper หรือ hypo; ถ้ามี hypothyroidism เป็นตัวเลือกก็ถูกเช่นกัน"],
+       members:["MDCU78|RoD|10"]}
+    ]},
+    {title:"STI ทางผิวหนัง", sections:[
+      {id:"condyloma", title:"Condyloma acuminata (HPV 6 / 11)",
+       trend:"ถามเชื้อก่อโรคของก้อนดอกกะหล่ำที่อวัยวะเพศ",
+       asked:["ก้อนดอกกะหล่ำไม่เจ็บที่องคชาต → ถามเชื้อก่อโรค"],
+       pattern:["<b>HPV 6, 11</b> (low risk); HPV 16, 18 high risk","รักษา: podophyllotoxin, imiquimod (ทาเอง); cryotherapy, trichloroacetic acid, จี้ / ตัด","Genital ulcer ไม่เจ็บ: syphilis, LGV, donovanosis; เจ็บ: HSV, chancroid; ตรวจ VDRL / TPHA และ HIV ทุกราย"],
+       pearls:["Condyloma lata = secondary syphilis ≠ condyloma acuminata = HPV"],
+       members:["MDCU78|RoB|5"]}
+    ]}
+  ]});
