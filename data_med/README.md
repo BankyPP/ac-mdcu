@@ -20,6 +20,16 @@
 
 หมายเหตุ 77: แถวใน 77C (MCQ, OSCE) ไม่มีเลขข้อ → ใส่เลขตามลำดับแถว · 77C MCQ แถว "IgA nephropathy, PIGN, RPGN" แยกเป็น 7a/7b/7c · แถว "Hemato จำโจทย์ไม่ได้" แต่งเป็น 1 ข้อ (ข้อ 34) · ข้อที่ไม่ตามคีย์ไฟล์: 77A ข้อ 1 (C4), 7 (stroke), 21 (statin — ไฟล์ขัดกันเอง), 77C ข้อ 13 (B1) · รูปที่ไม่มีในไฟล์ (NOIMG): 77C MCQ ข้อ 6, 18, 27, 29 และ OSCE 77C/77D หลายสถานี
 
+ลงชุดที่สาม 1 พ.ย. 2026: **MDCU79 RoA–RoB** (ไฟล์รวม 3 ไฟล์ — MCQ / MEQ / OSCE ไม่มีเฉลย, RoC/RoD ในไฟล์ว่าง) + **pre-test MEQ (RoX)** พร้อมเฉลย tutor · เฉลยโดย Claude ยกเว้นข้อที่ผู้จดเขียนคำตอบไว้
+
+| ชนิด | ไฟล์ | จำนวน |
+|---|---|---|
+| MCQ | `data_b10.js` (79A 48 ข้อ), `data_b11.js` (79B 55 ข้อ) · เลข orig เรียงต่อกันทั้ง rotation (ไฟล์นับใหม่ทุกหมวด — หมวด + เลขเดิมอยู่ต้น gray) | 103 |
+| MEQ | `meq_b5.js` (79A ข้อ 1 MPE, 2 acute pancreatitis · 79B ข้อ 1 pulmonary TB, 2 cardiac tamponade — ไฟล์จดแค่หัวข้อ Claude แต่งเคส · RoX pre-test bacterial meningitis เฉลยตาม tutor + ส่วนที่ Claude เพิ่ม) | 4 เคส + pre-test |
+| OSCE | `osce_b10.js` (79A ข้อ 1–8, 10 · 79B ข้อ 11–19) | 18 สถานี |
+
+หมายเหตุ 79: ข้าม — MCQ 79A "เรื่องอะไรก็ไม่รู้" ข้อ 5 (คำแนะนำ ไม่ใช่โจทย์) และแถวว่าง (79A: เรื่องอะไรก็ไม่รู้ 6–12, Critical Care 1–3, Neuro 2–3, Onco 3, Nutrition 3, Others 2–3 · 79B: เรื่องอะไรก็ไม่รู้ 17–24, Critical Care 6, Derm/Endo แถวสุดท้าย, ID 6, Allergy 6, Nutrition 6), OSCE 79A ข้อ 9 (มีแค่ "คุยกับคนไข้"), 79B ข้อ 20 · รวมข้อซ้ำในรอบเดียวกัน (79B): delirium + Foley (Neuro/Others) และ Gilbert (Hemato/Onco) · "ซ้ำ AC" ที่ดึงแล้ว: 79A MCQ 1st seizure (= 77B MCQ ข้อ 25), HUS Shigella (= 77A MCQ ข้อ 41), 79B MCQ คลำถุงน้ำดีได้ (= 78B MCQ ข้อ 15), OSCE 79A ข้อ 4 zoster V3 (= 77A ข้อ 5 ใช้รูป mo77a_5), ข้อ 8 thyroid (= 78C ข้อ 2), 79B ข้อ 18 LFT (= 78D ข้อ 7 / 77C ข้อ 6) · ค้าง: MEQ 79B "ตรงแอค" (TB, tamponade) ยังไม่พบใน 77/78 → เทียบเมื่อได้ชุด 76 · รูปที่ไม่มีในไฟล์ (NOIMG): MCQ 79A urine crystal, 79B EKG ×2 + CXR, MEQ CXR/EKG ทุกเคส, OSCE 79 ส่วนใหญ่
+
 ## ค้าง: ข้อ "ซ้ำ AC" ที่ยังไม่มีปีต้นทาง (กติกา 1 พ.ย. 2026)
 - ดึงแล้ว: 78A MEQ ข้อ 1 (= 77A ข้อ 2), 78A MEQ ข้อ 2 (= 77B ข้อ 1), 78C MEQ ข้อ 2 (= 77A ข้อ 1) → `meq_b2.js` · OSCE 78A/78C ข้อ 6 = 77B ข้อ 1 (seen)
 - รอชุด 76: 78C MEQ ข้อ 1 และ 78D MEQ ข้อ 1 = ซ้ำ AC **76B ข้อ 2**
@@ -27,4 +37,4 @@
 - 78A MCQ ข้อ 3 (leptospirosis) ไฟล์เขียน "AC" ท้ายโจทย์ = เคยออก AC เก่า
 
 ## รูป
-`img/mm77*` (MCQ 77), `img/me77*` (MEQ 77), `img/mo77*` (OSCE 77) · `img/mm78d_9` (EKG 78D MCQ ข้อ 9) · `img/mo78*_*` (OSCE) — ดึงจากไฟล์ต้นฉบับเต็มภาพ (ใน PDF หลายรูปถูกตัดขวา)
+`img/me79x_4` (CSF gram stain pre-test 79) · `img/mm77*` (MCQ 77), `img/me77*` (MEQ 77), `img/mo77*` (OSCE 77) · `img/mm78d_9` (EKG 78D MCQ ข้อ 9) · `img/mo78*_*` (OSCE) — ดึงจากไฟล์ต้นฉบับเต็มภาพ (ใน PDF หลายรูปถูกตัดขวา)
