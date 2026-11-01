@@ -174,6 +174,7 @@ C({ro:"RoD",file:"IME77DQ",page:2,page2:"-",orig:"1",title:"Abdominal distension
 
 /* ======================= 77D ข้อ 2 ======================= */
 C({ro:"RoD",file:"IME77DQ",page:2,page2:"-",orig:"2",title:"Fever 1 day → acute decompensated heart failure in hypertensive heart disease with atrial fibrillation",
+ seen:"น่าจะเป็นเคสเดียวกับ MDCU76 RoB MEQ ข้อ 2 (ไข้ 1 วัน → problem list/investigation → EKG AF + CXR หัวใจโต/pulmonary hypertension → รักษา = infective endocarditis บน rheumatic MS/MR) — ไฟล์ 77D ไม่ได้ระบุว่าซ้ำ",
  stem:`A patient presents with fever for 1 day.`,
  gray:"MEQ: ไข้มา 1 วัน · ให้ประวัติตรวจร่างกาย จะถามประวัติไรเพิ่ม + จะตรวจร่างกายหาอะไร",
  parts:[

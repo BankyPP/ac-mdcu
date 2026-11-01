@@ -1,10 +1,10 @@
 (function(){
 /* Internal Medicine MEQ ข้อสอบเก่า AC — MDCU78 (ทุกข้อ sec "MEQ" = case แบบ OB-GYN)
    78A (IME78AQ): "1. ซ้ำ AC 77A ข้อ 2 เหมือนเดิมหมด · 2. ซ้ำ AC 77B ข้อ 1 เหมือนเดิมหมด (ข้อนี้มี อมชร วันที่ 4/7/68 ไปดูได้)" → ดึงแล้ว 1 พ.ย. 2026: สำเนาจาก 77 อยู่ใน meq_b2.js (set MDCU78, seen ↔ 77)
-   78C (IME78CQ): "1. ซ้ำ AC 76B ข้อ 2 · 2. ซ้ำ AC 77A ข้อ 1" → ข้อ 2 ดึงแล้ว (meq_b2.js) · ข้อ 1 รอชุด 76
+   78C (IME78CQ): "1. ซ้ำ AC 76B ข้อ 2 · 2. ซ้ำ AC 77A ข้อ 1" → ข้อ 2 ดึงแล้ว (meq_b2.js) · ข้อ 1 ดึงแล้ว 1 พ.ย. 2026 (สำเนา 76B ข้อ 2 ใน meq_b6.js)
    78B (IME78BQ + IME78BK): ข้อ 1 (เหนื่อย → malignant pleural effusion, 5 หน้า) · ข้อ 2 (ซึม → hypoglycemia จาก sulfonylurea + UTI, 4 หน้า) · ข้อ 3 ว่างทั้งข้อ → ข้าม
      ไฟล์เฉลย 78B = สำเนาโจทย์ที่เพิ่มหัว "เฉลย:" ไว้ใต้ทุกคำถามแต่ไม่ได้กรอก → เฉลยโดย Claude
-   78D (IME78DQ + IME78DK): ข้อ 1 "ซ้ำ AC 76B ข้อ 2" → รอดึง (ยังไม่มีชุด 76) · ข้อ 2 (ท้องโต → alcoholic cirrhosis + SBP, 4 ตอน) · ไฟล์เฉลยมีหัว "เฉลย:" ว่างทุกช่อง → เฉลยโดย Claude
+   78D (IME78DQ + IME78DK): ข้อ 1 "ซ้ำ AC 76B ข้อ 2" → ดึงแล้ว 1 พ.ย. 2026 (สำเนาใน meq_b6.js) · ข้อ 2 (ท้องโต → alcoholic cirrhosis + SBP, 4 ตอน) · ไฟล์เฉลยมีหัว "เฉลย:" ว่างทุกช่อง → เฉลยโดย Claude
    คะแนนข้อย่อย: ไฟล์ไม่ได้บอก Claude ตั้งให้เหมาะกับปี 4 · checklist: หัวข้อใหญ่ (H, น้ำหนัก %) + ข้อห้ามขาด (CR) ตามที่ผู้ใช้สั่ง 1 พ.ย. 2026 */
 const NK="ไม่มีเฉลยในไฟล์ (เฉลยโดย Claude)";
 const P=(t,...re)=>({t,re});
@@ -187,7 +187,7 @@ C({ro:"RoD",file:"IME78DQ",kfile:"IME78DK",page:"1–2",page2:"1–2",orig:"2",s
  approach:"<ol><li>ท้องโต → 5F + หาสาเหตุโรคตับ (สุรา, HBV/HCV, MASLD) + complication</li><li>PE: ascites, stigmata of CLD, portal HT, HE, แยก cardiac</li><li>Ix: diagnostic paracentesis (SAAG, PMN, culture) + LFT/INR + viral serology + US + EGD</li><li>Dx: cause + decompensation + complication (SBP) + Child-Pugh/MELD</li><li>Mx: antibiotic + albumin → secondary prophylaxis, diuretic + Na restriction, งดเหล้า, varices, HCC surveillance, วัคซีน, transplant</li></ol>",
  summary:["SAAG ≥1.1 = portal HT · ascitic protein <2.5 = cirrhosis, ≥2.5 = cardiac/Budd-Chiari","SBP: PMN ≥250 → cefotaxime/ceftriaxone + albumin 1.5 g/kg D1, 1 g/kg D3","Secondary prophylaxis SBP: norfloxacin/cipro/TMP-SMX ตลอดชีวิต","Diuretic: spironolactone 100 : furosemide 40 · Na 2 g/day","Cirrhosis care: งดสุรา, EGD/NSBB, US ± AFP q6mo, วัคซีน HAV/HBV","Child-Pugh: bilirubin, albumin, INR, ascites, encephalopathy"],
  trap:"ไม่เจาะ paracentesis ในผู้ป่วย ascites ที่ admit (พลาด SBP) · ลืม albumin ในการรักษา SBP · ให้ diuretic ขนาดสูงขณะ SBP/AKI · ลืม secondary prophylaxis",
- notes:"ไฟล์โจทย์ 78D: ข้อ 1 = \"ซ้ำ AC 76B ข้อ 2 เหมือนเดิมหมด\" (รอดึง) · ข้อ 2 แบ่งเป็นตอนที่ 1–4 · ค่า albumin/ascitic protein ผู้จดจำแค่ \"3.x\", \"0.x\" · liver enzyme \"??\" · ไฟล์เฉลยมีหัว \"เฉลย:\" ว่างทุกช่อง",
+ notes:"ไฟล์โจทย์ 78D: ข้อ 1 = \"ซ้ำ AC 76B ข้อ 2 เหมือนเดิมหมด\" (ดึงแล้ว → meq_b6.js) · ข้อ 2 แบ่งเป็นตอนที่ 1–4 · ค่า albumin/ascitic protein ผู้จดจำแค่ \"3.x\", \"0.x\" · liver enzyme \"??\" · ไฟล์เฉลยมีหัว \"เฉลย:\" ว่างทุกช่อง",
  opinion:"ตอบตาม AASLD guidance on ascites, SBP and HRS (2021) และ EASL decompensated cirrhosis (2018)"})
 );
 })();
