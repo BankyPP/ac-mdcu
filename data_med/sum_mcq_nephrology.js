@@ -1,26 +1,66 @@
 SUMM.push({tag:"Nephrology", title:"Nephrology",
-  intro:"<ul><li>Nephrology ใน Med Y4 MCQ (MDCU78 RoA / RoB) ออก 3 เรื่อง: <b>AKI (prerenal vs ATN เมื่อได้ diuretic)</b>, <b>เลือกยาความดันในผู้ป่วยเบาหวานที่มี albuminuria</b> และ <b>work-up microhematuria ที่ยืนยันแล้ว</b></li><li>แกนของหมวด: แปลผลการตรวจปัสสาวะ / urine electrolyte (FENa, FEurea, casts, RBC morphology) และเลือก next step / ยาที่ปกป้องไต</li><li>กับดัก: FENa >1% = ATN ทั้งที่ได้ diuretic, ลืมยาตามโรคร่วม (ACEI / ARB), เจาะไตเร็วเกินไปหรือตรวจปัสสาวะซ้ำไม่จบ</li></ul>",
+  intro:"<ul><li>Nephrology ใน Med Y4 MCQ ออกทั้ง MDCU77 (RoA / RoB / RoC) และ MDCU78 (RoA / RoB) — 77 เน้น <b>glomerulonephritis</b> (IgA vs PSGN, complement, RPGN) และ AKI ใน sepsis / HUS; 78 เน้น AKI ที่ได้ diuretic, ยาความดันใน DM + albuminuria และ work-up microhematuria</li><li>แกนของหมวด: แปลผลปัสสาวะ / urine indices ให้ถูกบริบท (FENa, FEurea, Uosm, casts, dysmorphic RBC), ระยะเวลาหลังติดเชื้อ + complement เพื่อแยก GN, และเลือก ACEI / ARB เมื่อไหร่ควรใช้ เมื่อไหร่ต้องเลี่ยง</li><li>กับดัก: ตัดสิน prerenal / ATN จาก FENa ตัวเดียว (diuretic ทำให้สูงเทียม, sepsis ทำให้ต่ำเทียม), เห็น 'หลังเจ็บคอ' แล้วตอบ PSGN ทันที, มอง RPGN เป็น CKD แล้วนัดติดตาม</li></ul>",
   groups:[
     {title:"Acute kidney injury", sections:[
-      {id:"prerenal-aki-fe-urea", title:"Prerenal AKI ในผู้ป่วยที่ได้ loop diuretic — ใช้ FEurea",
-       trend:"ถามแยก prerenal vs ATN เมื่อ FENa ใช้ไม่ได้เพราะได้ diuretic",
-       asked:["ชาย 68 ปี อาเจียน กินน้ำน้อย 4 วันและยังกิน furosemide, BP 100 / 60, BUN 60 Cr 2.5 (baseline 1.0), FENa 2.1% FEurea 25%, UA ไม่มี cast → ถามสาเหตุ AKI"],
-       pattern:["Loop diuretic ทำให้ FENa สูงขึ้นเทียม → ใช้ <b>FEurea</b> แทน: <b><35% = prerenal</b>, >50% = ATN (35-50% ไม่ชัด)","BUN : Cr >20 (ในเคสนี้ 24), UA ไม่มี muddy brown cast → <b>prerenal AKI จาก volume depletion</b> → หยุด diuretic + ให้สารน้ำ (balanced crystalloid)","FENa = (UNa × PCr) / (PNa × UCr) × 100: <1% prerenal, >2% ATN; FEurea = (Uurea × PCr) / (Purea × UCr) × 100","Cast: ATN = muddy brown granular cast; AGN = RBC cast; AIN = WBC cast","FENa ต่ำได้แม้ไม่ใช่ prerenal: contrast, rhabdomyolysis, early obstruction, AGN, hepatorenal","KDIGO: AKI = Cr เพิ่ม ≥0.3 mg/dL ใน 48 ชม. หรือ ≥1.5 เท่าของ baseline ใน 7 วัน หรือ urine output <0.5 mL / kg / ชม. ≥6 ชม. (Cr 2.5 เทียบ 1.0 = stage 2)"],
-       pearls:["เห็น FENa >1-2% แล้วตอบ ATN ทันที โดยลืมว่าได้ diuretic","โจทย์นี้ recall ไม่มีตัวเลข ผู้แต่งใส่เอง; ถ้าในข้อสอบจริง FENa >2% และ FEurea >50% คำตอบจะเป็น ATN","BUN : Cr >20 ก็เกิดได้จาก GI bleed, steroid, catabolism"],
-       members:["MDCU78|RoA|8"]}
+      {id:"prerenal-aki-fe-urea", title:"Prerenal vs ATN — แปล FENa / FEurea ให้ถูกบริบท (diuretic, sepsis)",
+       trend:"ออกทั้ง 77 และ 78: ให้ urine indices ที่ 'หลอก' แล้วถามสาเหตุ AKI — 78 ได้ diuretic (FENa สูงเทียม), 77 เป็น sepsis (FENa ต่ำเทียม)",
+       asked:["MDCU78: ชาย 68 ปี อาเจียน กินน้ำน้อย 4 วันและยังกิน furosemide, BP 100 / 60, BUN 60 Cr 2.5 (baseline 1.0), FENa 2.1% FEurea 25%, UA ไม่มี cast → ถามสาเหตุ AKI (ตอบ prerenal)","MDCU77: หญิง DM ไข้ ปวดหลัง septic shock (BP 90 / 40) CT เป็น emphysematous pyelonephritis ได้ ceftriaxone + resuscitation จน BP 120 / 70 แต่ Cr 1.0 → 2.2, FENa 0.5% FEurea 15% แต่ Uosm 300 → ถามสาเหตุ (ตอบ ATN)"],
+       pattern:["Loop diuretic ทำให้ FENa สูงขึ้นเทียม → ใช้ <b>FEurea</b> แทน: <b><35% = prerenal</b>, >50% = ATN (35-50% ไม่ชัด)","FENa ต่ำเทียมได้แม้เป็น ATN: <b>sepsis</b>, contrast, rhabdomyolysis / hemolysis, early obstruction, AGN, hepatorenal","ดูตัวช่วยอื่น: <b>Uosm ≈300 / SG ≈1.010 = ไตเข้มข้นไม่ได้ = ATN</b> (prerenal Uosm >500), muddy brown granular cast; และ <b>prerenal ต้องดีขึ้นเมื่อ perfusion กลับ</b> — BP ปกติแล้ว Cr ยังขึ้น = ATN","Prerenal: BUN : Cr >20, ไม่มี cast → หยุด diuretic + ให้สารน้ำ (balanced crystalloid)","FENa = (UNa × PCr) / (PNa × UCr) × 100: <1% prerenal, >2% ATN; FEurea = (Uurea × PCr) / (Purea × UCr) × 100","Cast: ATN = muddy brown granular; AGN = RBC cast; AIN = WBC cast","KDIGO: AKI = Cr เพิ่ม ≥0.3 mg/dL ใน 48 ชม. หรือ ≥1.5 เท่าของ baseline ใน 7 วัน หรือ urine output <0.5 mL / kg / ชม. ≥6 ชม.","Emphysematous pyelonephritis: เกือบทั้งหมดในเบาหวาน (E. coli, Klebsiella) → antibiotic + คุมน้ำตาล + percutaneous drainage / nephrectomy"],
+       pearls:["เห็น FENa >1-2% แล้วตอบ ATN ทั้งที่ได้ diuretic; เห็น FENa <1% แล้วตอบ prerenal ทั้งที่เป็น sepsis","โจทย์ 78 recall ไม่มีตัวเลข ผู้แต่งใส่เอง; ถ้าในข้อสอบจริง FENa >2% และ FEurea >50% คำตอบจะเป็น ATN","BUN : Cr >20 ก็เกิดได้จาก GI bleed, steroid, catabolism"],
+       members:["MDCU78|RoA|8","MDCU77|RoB|31"]},
+      {id:"hus-shiga", title:"HUS หลังท้องเสียเป็นเลือด — Shiga toxin (STEC, Shigella dysenteriae)",
+       trend:"MDCU77: ให้ triad ของ HUS แล้วถามเชื้อก่อโรค",
+       asked:["ชาย 17 ปี ท้องเสียเป็นเลือด 1 สัปดาห์ต่อมา ตัวเหลือง ปวดท้อง จ้ำเลือด เกล็ดเลือดต่ำ ซีด Cr สูง schistocytes → ถามเชื้อ (ช้อยมี ETEC, Campylobacter, Giardia, Vibrio, Shigella — ตอบ Shigella)"],
+       pattern:["<b>HUS triad</b>: microangiopathic hemolytic anemia (schistocyte, LDH ↑, indirect bilirubin ↑) + thrombocytopenia + AKI","Typical HUS = Shiga toxin: <b>STEC / EHEC O157:H7</b> (บ่อยสุด) และ <b>Shigella dysenteriae type 1</b> — ถ้าไม่มี E. coli O157 ในช้อย ตอบ Shigella","รักษา supportive (สารน้ำ, dialysis ถ้าจำเป็น); STEC ห้าม antibiotic / antimotility (เพิ่ม toxin)","TTP: + ไข้ + อาการทางประสาท, ADAMTS13 <10% → plasma exchange"],
+       pearls:["จับคู่ภาวะแทรกซ้อนกับเชื้อ: HUS = Shiga toxin; GBS / reactive arthritis = Campylobacter; pseudoappendicitis = Yersinia","ETEC = traveler's diarrhea น้ำ ๆ ไม่มีเลือด ไม่ทำ HUS"],
+       members:["MDCU77|RoA|41"]}
     ]},
-    {title:"Diabetic kidney disease และ hematuria", sections:[
+    {title:"ACEI / ARB กับไต — ควรใช้ vs ต้องเลี่ยง", sections:[
       {id:"dm-albuminuria-htn", title:"DM + albuminuria + BP สูง — เลือก ACEI / ARB",
-       trend:"ถามยาตัวแรกที่เลือกตามโรคร่วม (compelling indication)",
+       trend:"MDCU78: ถามยาตัวแรกที่เลือกตามโรคร่วม (compelling indication)",
        asked:["ชาย 50 ปี T2DM BP 160 / 100 หลัง lifestyle 3 เดือน BP 145 / 90 (office และ home) UACR 150 mg / g → ถามการจัดการที่เหมาะสม"],
        pattern:["Lifestyle ไม่พอ → เริ่มยา; DM + albuminuria (UACR ≥30 mg / g) → <b>ACEI หรือ ARB</b> เป็นตัวแรก (ลด proteinuria ชะลอไตเสื่อม) titrate ถึงขนาดสูงสุดที่ทนได้","เป้า BP <130 / 80 (ADA / KDIGO); ติดตาม Cr และ K ภายใน 1-2 สัปดาห์ (Cr ขึ้นได้ ≤30% ยังยอมรับ)","ถ้า BP ไม่ถึงเป้า → เพิ่ม CCB หรือ thiazide(-like); ห้ามใช้ ACEI + ARB ร่วมกัน; ห้ามใช้ในตั้งครรภ์","DM + CKD + albuminuria อื่น ๆ: พิจารณา SGLT2 inhibitor และ finerenone เพิ่มตามแนวทาง KDIGO / ADA","ดูรายละเอียด BP target และ regimen ในไฟล์ Hypertension & Lipids"],
        pearls:["เลือก CCB เดี่ยว หรือ combination โดยไม่เห็น albuminuria — ต้องหา compelling indication ก่อน","โจทย์นี้ recall ไม่บอกโรคร่วม ผู้แต่งเติม DM + albuminuria; ถ้าไม่มีโรคร่วม first-line ทั้ง 3 กลุ่มใช้ได้"],
        members:["MDCU78|RoB|9"]},
+      {id:"renal-artery-stenosis", title:"Renal bruit + HT — renal artery stenosis ต้องเลี่ยง ACEI / ARB",
+       trend:"MDCU77: ถามยาที่ต้องเลี่ยงเมื่อได้ยิน renal bruit",
+       asked:["ชาย 40 ปี HT ตรวจพบ renal bruit → ถามยาที่ควรเลี่ยง (losartan, amlodipine, atenolol, methyldopa, hydralazine — ตอบ losartan)"],
+       pattern:["ไตที่ขาดเลือดคง GFR ด้วย angiotensin II บีบ efferent arteriole → ให้ <b>ACEI / ARB</b> → efferent คลาย → GFR ตก / AKI (ห้ามใน <b>bilateral RAS หรือ RAS ของไตข้างเดียวที่เหลือ</b>)","สงสัย RAS: renal bruit, HT อายุน้อย (FMD — หญิง, string-of-beads) หรือสูงอายุ (atherosclerosis), HT ดื้อยา, Cr ขึ้น >30% หลังเริ่ม ACEI / ARB, flash pulmonary edema","ตรวจ: renal artery duplex US / CTA / MRA; รักษา atherosclerotic → medical (BP, statin, antiplatelet); FMD → angioplasty","ข้อห้าม ACEI / ARB อื่น: ตั้งครรภ์, hyperkalemia, ประวัติ angioedema (ACEI)"],
+       pearls:["เลือก atenolol / methyldopa เพราะจำ ADR ได้ — โจทย์ให้ clue renal bruit = ต้องตอบ ACEI / ARB"],
+       members:["MDCU77|RoA|40"]}
+    ]},
+    {title:"Hematuria และ glomerulonephritis", sections:[
       {id:"microhematuria", title:"Microhematuria ที่ยืนยันแล้วในชายอายุน้อย — next step",
-       trend:"ถามขั้นต่อไปหลังตรวจซ้ำแล้วยังพบ RBC 3-5 / HPF",
+       trend:"MDCU78: ถามขั้นต่อไปหลังตรวจซ้ำแล้วยังพบ RBC 3-5 / HPF",
        asked:["ชาย 25 ปี ไม่มีอาการ UA protein ลบ RBC 3-5 / HPF WBC 0-1 ตรวจซ้ำแล้วได้ผลเดิม → ถาม next step"],
        pattern:["<b>Microhematuria = ≥3 RBC / HPF</b> จาก microscopy (dipstick บวกต้องยืนยัน); ตัดสาเหตุชั่วคราว (ออกกำลังหนัก ประจำเดือน UTI) แล้ว","ประเมิน glomerular vs non-glomerular: dysmorphic RBC, acanthocyte, RBC cast, proteinuria, Cr, BP → ส่ง nephrology","AUA / SUFU 2020: low-risk (ชาย <40, ไม่สูบ, 3-10 RBC / HPF) → ตรวจซ้ำที่ 6 เดือน หรือ cystoscopy + renal ultrasound; ถ้าตรวจซ้ำยัง 3-10 RBC / HPF → จัดเป็น intermediate → <b>cystoscopy + renal ultrasound</b>","Intermediate: cystoscopy + renal US; High (อายุ ≥60, >25 RBC / HPF, สูบ >30 pack-years, gross hematuria): cystoscopy + CT urography","ปัจจัยเสี่ยง urothelial cancer: อายุ, ชาย, สูบบุหรี่, aniline dye, cyclophosphamide"],
        pearls:["รีบเจาะไต หรือตรวจ complement (C3 / C4 / CH50) โดยไม่มี proteinuria / Cr สูง / dysmorphic RBC","ตรวจปัสสาวะซ้ำไปเรื่อย ๆ ในผู้ที่ยืนยันแล้ว"],
-       members:["MDCU78|RoB|16"]}
+       members:["MDCU78|RoB|16"]},
+      {id:"iga-vs-psgn", title:"Hematuria หลังเจ็บคอ — IgA nephropathy (1-3 วัน) vs PSGN (1-3 สัปดาห์)",
+       trend:"MDCU77 ออก 2 rotation (RoA, RoC): ปัสสาวะเป็นเลือดไม่กี่วันหลังเจ็บคอ แล้วถามวินิจฉัย",
+       asked:["ชาย 20 ปี gross hematuria 2 วันหลังเจ็บคอ ยังมีไข้ คอแดง tonsil โต BP ปกติ → ถามสาเหตุ (ตอบ IgA nephropathy)","ชาย 22 ปี ปัสสาวะสีโค้ก 1 วันหลังเจ็บคอ เคยเป็นแบบนี้ตอนเป็นหวัด, dysmorphic RBC, protein 1+, Cr ปกติ, C3 / C4 ปกติ → ถามวินิจฉัย (ตอบ IgA nephropathy)"],
+       pattern:["<b>IgA nephropathy</b> (GN ที่พบบ่อยสุดในโลก): episodic gross hematuria <b>พร้อม / ภายใน 1-3 วัน</b>หลัง mucosal infection (synpharyngitic), เป็นซ้ำได้, BP / Cr มักปกติ, <b>C3 ปกติ</b>","วินิจฉัย: biopsy เห็น mesangial IgA; รักษา ACEI / ARB (proteinuria), SGLT2i, ± steroid ถ้า proteinuria ≥1 g / d ทั้งที่ supportive เต็มที่","<b>PSGN</b>: latent 1-3 สัปดาห์ (คอ) / 3-6 สัปดาห์ (ผิวหนัง) + nephritic (บวม HT) + C3 ต่ำ","IgA vasculitis (HSP) = IgA nephropathy + palpable purpura + ปวดท้อง + ปวดข้อ; Alport = hematuria + หูหนวก + anterior lenticonus"],
+       pearls:["เห็น 'หลังเจ็บคอ' แล้วตอบ PSGN — ดูระยะเวลาและ C3 ก่อนเสมอ","Thin basement membrane = persistent microhematuria ครอบครัว ไม่ใช่ gross hematuria ตามการติดเชื้อ"],
+       members:["MDCU77|RoA|42","MDCU77|RoC|7a"]},
+      {id:"psgn-complement", title:"PSGN หลัง impetigo — C3 ต่ำ C4 ปกติ",
+       trend:"MDCU77: ให้ nephritic หลังติดเชื้อผิวหนังแล้วถามผล lab ที่คาดว่าเจอ",
+       asked:["ชาย 19 ปี หน้าบวม ปัสสาวะสีเข้ม 3 วัน 3 สัปดาห์ก่อนเป็น impetigo ที่ขา BP 160 / 100 RBC cast protein 2+ Cr 1.4 → ถาม lab ที่คาดว่าพบ (ตอบ low C3 normal C4)"],
+       pattern:["PSGN → immune complex กระตุ้น <b>alternative pathway: C3 ต่ำ C4 ปกติ</b>, C3 กลับปกติใน 6-8 สัปดาห์ (ยังต่ำ → คิด C3 glomerulopathy / MPGN, lupus)","ยืนยันการติดเชื้อ: ASO (หลัง pharyngitis), <b>anti-DNase B</b> (หลังผิวหนัง ดีกว่า ASO); biopsy: subepithelial humps","รักษา supportive: จำกัดเกลือ / น้ำ, loop diuretic, คุม BP; antibiotic กำจัดเชื้อแต่ไม่ป้องกัน GN","Low complement GN: PSGN / PIGN, lupus (C3 + C4 ต่ำ), MPGN, cryoglobulinemia, endocarditis; Normal complement: IgA, anti-GBM, ANCA"],
+       pearls:["เลือก elevated IgA — เป็นของ IgA nephropathy; anti-GBM / c-ANCA = RPGN","ผู้ใหญ่ปัจจุบัน PIGN มักจาก Staphylococcus (DM, ติดสุรา)"],
+       members:["MDCU77|RoC|7b"]},
+      {id:"rpgn", title:"RPGN — Cr ขึ้นเร็ว + RBC cast + ไตขนาดปกติ → biopsy + ANCA / anti-GBM ด่วน",
+       trend:"MDCU77: ถาม next step ของ GN ที่ไตเสื่อมเร็วภายในสัปดาห์",
+       asked:["ชาย 55 ปี อ่อนเพลีย ปัสสาวะสีเข้ม ออกน้อย 3 สัปดาห์ Cr 1.0 → 4.8 ใน 2 เดือน dysmorphic RBC + RBC cast protein 2+ ไตขนาดปกติ → ถาม next step (ตอบ urgent kidney biopsy + ANCA, anti-GBM)"],
+       pattern:["<b>RPGN</b>: Cr เพิ่มเร็วในสัปดาห์-3 เดือน + nephritic sediment, crescents บน biopsy","3 กลุ่มตาม IF: Type I anti-GBM (linear IgG; + ไอเป็นเลือด = Goodpasture), Type II immune complex (granular: lupus, IgA, PIGN, cryo), Type III pauci-immune (ANCA: GPA, MPA — บ่อยสุดในผู้ใหญ่)","Work-up ด่วน: ANCA, anti-GBM, C3 / C4, ANA + kidney biopsy; รักษา pulse methylprednisolone → cyclophosphamide / rituximab ± plasma exchange","ไตขนาดปกติ + Cr เพิ่มเร็ว = acute ไม่ใช่ CKD"],
+       pearls:["นัดตรวจ Cr ซ้ำ 3 เดือน หรือเริ่ม ACEI แล้วดู = ไตเสียถาวร","Renal artery Doppler / เริ่ม HD โดยไม่หาสาเหตุ = ผิด"],
+       members:["MDCU77|RoC|7c"]}
+    ]},
+    {title:"ผู้ป่วยฟอกไต", sections:[
+      {id:"hd-crbsi", title:"ไข้ระหว่าง HD ผ่าน permanent catheter — paired blood culture (catheter + peripheral พร้อมกัน)",
+       trend:"MDCU77: ถามวิธีเก็บ hemoculture เมื่อสงสัย catheter-related bloodstream infection",
+       asked:["ชาย 60 ปี ESRD มีไข้ระหว่างฟอกผ่าน permanent catheter ที่ right IJV สงสัย CRBSI → ถาม blood culture protocol (ตอบ peripheral + catheter เก็บพร้อมกัน)"],
+       pattern:["<b>Paired cultures</b>: ขวดจาก catheter hub + ขวดจาก peripheral vein <b>เวลาเดียวกัน ปริมาตรเท่ากัน</b> ก่อนให้ antibiotic","CRBSI เมื่อเชื้อเดียวกันและขวด catheter ขึ้นก่อน ≥2 ชม. (differential time to positivity) หรือ quantitative ≥3 : 1; ถอดสายแล้วส่ง tip ≥15 CFU + peripheral","ผู้ป่วย HD (สงวนเส้นไว้ทำ fistula) อนุโลมเก็บจาก bloodline ของวงจร HD แทน peripheral","เชื้อ: CoNS, S. aureus, gram-negative, Candida → empirical vancomycin ± gram-negative coverage; ถอดสายเมื่อ S. aureus, Pseudomonas, Candida, tunnel infection, septic shock, ไข้ไม่ลงใน 48-72 ชม."],
+       pearls:["เลือก 'peripheral 2 sites' เพราะคุ้นกับ hemoculture ปกติ — CRBSI ต้องจับคู่ catheter กับ peripheral","เก็บแยกเวลาไม่ได้ เพราะ DTP ต้องเริ่มนับพร้อมกัน"],
+       members:["MDCU77|RoA|36"]}
     ]}
   ]});
