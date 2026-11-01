@@ -1,0 +1,15 @@
+SUMM.push({tag:"nephro", title:"Nephrology & Electrolytes", style:"case",
+  intro:"<ul><li>Nephrology & Electrolytes ใน MEQ มีเพียง <b>มุม acid–base / fluid–electrolyte ของเคส DKA</b>: ชายหนุ่ม 20 ปีหอบ ปอด-หัวใจปกติ มี hyperpnea + ขาดน้ำ → <b>diabetic ketoacidosis จาก new-onset DM</b> (MDCU77 RoC) — ติดแท็ก nephro สองข้อย่อย (ประวัติ + provisional Dx และ initial management)</li><li>สิ่งที่ต้องตอบ: ตีความ <b>hyperpnea = Kussmaul จาก high anion gap metabolic acidosis</b>, ประเมิน volume depletion, ลำดับ <b>fluid → K → insulin</b> และเมื่อไรจึงให้ bicarbonate — ส่วน DKA เต็มอยู่ในสรุป Endocrinology</li></ul>",
+  groups:[
+    {title:"Metabolic acidosis และ fluid–electrolyte ใน DKA", sections:[
+      {id:"dka-acidbase", title:"Hyperpnea ในคนหนุ่ม: high anion gap metabolic acidosis, volume depletion และการแก้ fluid / K ใน DKA",
+       trend:"MDCU77 RoC — โจทย์ ‘dyspnea’ ที่ต้องคิดเป็น metabolic acidosis ไม่ใช่โรคปอด",
+       asked:["A previously healthy 20-year-old man, dyspnea 1 day; CVS + RS ปกติยกเว้น hyperpnea, dry oral mucosa, flat neck veins → What additional history? What is your provisional diagnosis?","DTX HIGH, plasma glucose ~400 → Describe the initial management of this patient with diabetic ketoacidosis"],
+       flow:["Part 1: หอบ ปอดหัวใจปกติ → ประวัติ + provisional Dx","Part 2: polyuria / polydipsia → ส่งตรวจได้ 1 อย่าง (DTX)","Part 3: DTX HIGH → initial management","Part 4: discharge advice"],
+       pattern:["<b>Hyperpnea + ปอดหัวใจปกติ</b> = Kussmaul (respiratory compensation) → คิด <b>metabolic acidosis</b> · dry mucosa + flat neck veins = volume depletion จาก osmotic diuresis","<b>Anion gap</b> = Na − (Cl + HCO₃), ปกติ ~ 8–12 · <b>high AG</b>: ketoacidosis (DKA, alcoholic, starvation), lactic, uremia, toxic alcohol (methanol, ethylene glycol — ดู osmolar gap), salicylate · ท้องเสียให้ normal AG","ตรวจว่าชดเชยพอไหมด้วย <b>Winter formula</b>: expected pCO₂ = 1.5 × HCO₃ + 8 ± 2","<b>K:</b> total body K พร่องเสมอแม้ serum K ปกติ / สูง (insulin ขาด + acidosis ดัน K ออกนอกเซลล์) → <b>K < 3.5 งด insulin ให้ K ก่อน</b> · 3.5–5.0 เติม K 20–30 mEq/L ในสารน้ำ · > 5 ตรวจซ้ำ q 2 ชม.","<b>Na:</b> hyperglycemia ทำ Na ต่ำเทียม → corrected Na = Na + 1.6 × (glucose − 100) / 100 ใช้เลือกชนิดสารน้ำหลังชั่วโมงแรก","<b>Fluid:</b> 0.9% NSS / balanced crystalloid 15–20 mL/kg ชั่วโมงแรก · NSS ปริมาณมากทำ hyperchloremic normal-AG acidosis ช่วงหาย · <b>bicarbonate เฉพาะ pH < 7.0</b> · ติดตาม BUN / Cr (prerenal AKI) และ phosphate"],
+       kw:["Kussmaul breathing","high anion gap metabolic acidosis","anion gap","Winter formula","osmolar gap (toxic alcohol)","volume depletion","total body K deficit","K < 3.5 งด insulin","corrected Na","NSS 15–20 mL/kg","bicarbonate เฉพาะ pH < 7.0"],
+       ddx:["DKA","alcoholic / starvation ketoacidosis","lactic acidosis","toxic alcohol","salicylate","uremia"],
+       pearls:["ให้ insulin ก่อนรู้ K → hypokalemia จน arrhythmia ได้","serum K ปกติตอนแรกไม่ได้แปลว่าร่างกายไม่ขาด K","ให้ bicarbonate ทุกรายไม่ถูก — เฉพาะ pH < 7.0"],
+       members:["MDCU77|RoC|2#1","MDCU77|RoC|2#3"]}
+    ]}
+  ]});
