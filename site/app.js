@@ -47,7 +47,11 @@ WL.forEach(w=>{
   W.sets=[...new Set(QB.map(setKey))];
   W.R=s=>String(s==null?"":s).replace(/(ข้อ(?:ถัดไป)?\s*)(\d[\d,\s]*(?:\([^()]*\)[\d,\s]*)*)/g,(m,p,nums)=>p+nums.replace(/\([^()]*\)|\d+/g,t=>t[0]==="("?W.R(t):((+t>=10&&W.RID2ID[+t])?W.RID2ID[+t]:t)));
   /* Unit round banks (<dir>/unit_*.js → W.UNIT.push({id,title,short,src,QB:[…]})): new case-based questions per lecture, shared by both phases */
-  W.UNIT=(W.UNIT||[]).filter(x=>x&&x.id&&Array.isArray(x.QB));W.byLec={};
+  W.UNIT=(W.UNIT||[]).filter(x=>x&&x.id&&Array.isArray(x.QB));
+  /* Unit round: always list lectures by L number ascending (every ward, every site) — L02 < L07.1 < L07.2 < L10 < L99.03 */
+  const uKey=Lc=>{const m=/^L(\d+(?:\.\d+)*)/i.exec(String(Lc.id||Lc.title||""));return m?m[1].split(".").map(Number):null;};
+  W.UNIT.sort((a,b)=>{const x=uKey(a),y=uKey(b);if(!x||!y)return (x?0:1)-(y?0:1);for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]??-1)-(y[i]??-1);if(d)return d;}return 0;});
+  W.byLec={};
   W.UNIT.forEach(Lc=>{W.byLec[Lc.id]=Lc;Lc.QB.forEach((q,i)=>{q.unit=Lc.id;q.n=q.n||i+1;q.id="U"+q.n;q.set=Lc.short||Lc.title;q.ro="Unit";q.uid="U|"+Lc.id+"|"+q.n;W.byU[q.uid]=q;});});
 });
 
