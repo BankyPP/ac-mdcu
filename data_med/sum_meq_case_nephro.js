@@ -1,5 +1,5 @@
 SUMM.push({tag:"nephro", title:"Nephrology & Electrolytes", style:"case",
-  intro:"<ul><li>Nephrology & Electrolytes ใน MEQ มีเพียง <b>มุม acid–base / fluid–electrolyte ของเคส DKA</b>: ชายหนุ่ม 20 ปีหอบ ปอด-หัวใจปกติ มี hyperpnea + ขาดน้ำ → <b>diabetic ketoacidosis จาก new-onset DM</b> (MDCU77 RoC) — ติดแท็ก nephro สองข้อย่อย (ประวัติ + provisional Dx และ initial management)</li><li>สิ่งที่ต้องตอบ: ตีความ <b>hyperpnea = Kussmaul จาก high anion gap metabolic acidosis</b>, ประเมิน volume depletion, ลำดับ <b>fluid → K → insulin</b> และเมื่อไรจึงให้ bicarbonate — ส่วน DKA เต็มอยู่ในสรุป Endocrinology</li></ul>",
+  intro:"<ul><li>Nephrology & Electrolytes ใน MEQ เป็น<b>มุมไต / fluid–electrolyte ของเคสหลักอื่น</b>: (1) <b>DKA จาก new-onset DM</b> (MDCU77 RoC) — hyperpnea = Kussmaul จาก high anion gap metabolic acidosis, ลำดับ <b>fluid → K → insulin</b>, bicarbonate เฉพาะ pH &lt; 7.0 (2) <b>sepsis จาก pyelonephritis + starvation → hypoglycemia ในผู้สูงอายุ</b> (MDCU76 RoC) — electrolyte / AG / lactate, starvation ketosis ไม่ใช่ DKA, fluid resuscitation, AKI, US KUB หา obstruction, refeeding (3) <b>approach to edema</b> (MDCU76 RoA ท้องโต 3 เดือน → HBV cirrhosis) — ต้องถามอาการ nephrotic / GN เพื่อแยกบวมจากไต</li><li>เคสเต็มอยู่ในสรุป Endocrinology / ID / GI — หน้านี้รวมเฉพาะสิ่งที่ต้องตอบในมุมไต</li></ul>",
   groups:[
     {title:"Metabolic acidosis และ fluid–electrolyte ใน DKA", sections:[
       {id:"dka-acidbase", title:"Hyperpnea ในคนหนุ่ม: high anion gap metabolic acidosis, volume depletion และการแก้ fluid / K ใน DKA",
@@ -11,5 +11,27 @@ SUMM.push({tag:"nephro", title:"Nephrology & Electrolytes", style:"case",
        ddx:["DKA","alcoholic / starvation ketoacidosis","lactic acidosis","toxic alcohol","salicylate","uremia"],
        pearls:["ให้ insulin ก่อนรู้ K → hypokalemia จน arrhythmia ได้","serum K ปกติตอนแรกไม่ได้แปลว่าร่างกายไม่ขาด K","ให้ bicarbonate ทุกรายไม่ถูก — เฉพาะ pH < 7.0"],
        members:["MDCU77|RoC|2#1","MDCU77|RoC|2#3"]}
+    ]},
+    {title:"Sepsis + hypoglycemia ในผู้สูงอายุ: electrolyte, acid–base และ AKI (76C)", sections:[
+      {id:"sepsis-lytes-aki", title:"ไข้ + ซึม + pyelonephritis + กินน้อย: ส่ง electrolyte / AG / lactate / Cr, แยก starvation ketosis จาก DKA, fluid resuscitation, AKI และ refeeding",
+       trend:"MDCU76 RoC (ข้อ investigation + management ที่ติดแท็ก nephro) — มุมไตคือ volume, AG, lactate และ AKI ในผู้ป่วย sepsis (เคสเต็มในสรุป Endocrinology / ID)",
+       asked:["MDCU76: หญิง 72 ปี ไข้ ซึม 5 วัน, BP 96/58 PR 112 RR 24, dry mucosa, right CVA tenderness → What investigations would you send?","MDCU76: DTX ต่ำ + UA ketone 2+ WBC 100 → Describe the management of this patient"],
+       flow:["Part (c): investigation (electrolytes + AG, lactate / blood gas, BUN / Cr, US KUB)","Part (f): management (fluid, vasopressor, electrolyte, ติดตามไต)"],
+       pattern:["<b>Lab:</b> BUN / Cr, Na, K, Cl, <b>HCO₃ → anion gap</b> · <b>lactate</b> + VBG / ABG · serum ketone (BHB) · PO₄, Mg · <b>US KUB</b> (obstruction / abscess → ระบาย; obstructive pyelonephritis ทำ AKI + sepsis)","<b>แปล:</b> ketone 2+ + glucose ต่ำ = <b>starvation ketosis</b> (ไม่ใช่ DKA) — AG อาจสูงจาก ketone + lactate · prerenal AKI จาก dehydration + sepsis (BUN : Cr สูง)","<b>Fluid:</b> crystalloid 30 mL/kg ถ้า hypotension / lactate ≥ 4 แล้วประเมินซ้ำ (ระวัง overload ในผู้สูงอายุ) · dextrose ใน NSS (ต้องการทั้ง glucose และ volume) · MAP ≥ 65 ไม่ถึง → norepinephrine","<b>ติดตาม:</b> Cr, urine output, electrolytes · ปรับขนาด antibiotic ตามไต · <b>refeeding</b>: K, PO₄, Mg ลดเมื่อได้ glucose + อาหารหลังอดนาน → แก้ก่อน / ระหว่างให้"],
+       kw:["anion gap","lactate","starvation ketosis ไม่ใช่ DKA","prerenal AKI","US KUB (obstruction)","30 mL/kg crystalloid","norepinephrine MAP ≥ 65","refeeding: K, PO₄, Mg","urine output"],
+       ddx:["DKA (ตัดเพราะน้ำตาลต่ำ)","lactic acidosis จาก sepsis","obstructive uropathy"],
+       pearls:["ขาด cultures หรือ glucose = บางส่วน / ไม่ได้ (ตาม rubric ของข้อ investigation)","pyelonephritis + sepsis ต้องหา obstruction — AKI ที่ไม่ดีขึ้นหลังให้ fluid นึกถึงท่อตัน"],
+       members:["MDCU76|RoC|2#2","MDCU76|RoC|2#5"]}
+    ]},
+    {title:"Edema: แยกสาเหตุจากไต (76A)", sections:[
+      {id:"edema-renal-hx", title:"ท้องโต + ขาบวม: ซักประวัติแยก nephrotic syndrome / GN / renal failure ออกจาก cirrhosis และหัวใจ (approach to edema)",
+       trend:"MDCU76 RoA (ไฟล์จด ‘ท้องโต มา 3 เดือน’ — key = ตาราง Approach to Edema) — สุดท้ายเป็น HBV cirrhosis แต่ rubric บังคับถามอาการไต (เคสเต็มในสรุป GI)",
+       asked:["MDCU76: A 52-year-old Thai man, progressive abdominal distension for 3 months → What additional history would you take to find the cause of the abdominal distension and edema?"],
+       flow:["Part 1: ประวัติแยกสาเหตุบวม → ตอนถัดไปได้ประวัติ: ไม่มีปัสสาวะเป็นฟอง ไม่มีหน้าบวม ปัสสาวะสีและปริมาณปกติ → UA protein ลบ (ไม่ใช่ nephrotic)"],
+       pattern:["<b>Starling forces:</b> ↑ hydrostatic (HF, <b>renal Na retention</b>) · ↓ oncotic (cirrhosis, <b>nephrotic</b>, malnutrition) · ↑ permeability","<b>อาการไต:</b> <b>ปัสสาวะเป็นฟอง + หน้า / หนังตาบวมตอนตื่นนอน</b> → nephrotic (proteinuria &gt; 3.5 g/วัน) · <b>ปัสสาวะสีน้ำล้างเนื้อ, ออกน้อย, ความดันสูง</b> → GN (RBC cast) · ปัสสาวะออกน้อย อ่อนเพลีย คัน → renal failure","<b>ลำดับการบวม:</b> ไต / หัวใจ = ขาบวมก่อน ascites · ตับแข็ง = ท้องมานก่อน","<b>ยาที่ทำบวม / ไตเสียหาย:</b> NSAID, steroid, dihydropyridine CCB, minoxidil, estrogen, สมุนไพร · ยืนยันด้วย UA (proteinuria) ในข้อ investigation"],
+       kw:["ปัสสาวะเป็นฟอง","หนังตาบวมตอนเช้า","ปัสสาวะสีน้ำล้างเนื้อ / ออกน้อย","ความดันสูง","renal Na retention / ↓ oncotic pressure","UA proteinuria"],
+       ddx:["nephrotic syndrome","acute / chronic GN","renal failure","cirrhosis","heart failure"],
+       pearls:["rubric: ขาด 1–2 ระบบ (เช่น ไม่ถามอาการไต) = บางส่วน"],
+       members:["MDCU76|RoA|1#1"]}
     ]}
   ]});
