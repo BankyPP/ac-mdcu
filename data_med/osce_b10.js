@@ -3,10 +3,11 @@
    ไฟล์ IMO79ABQ (79AB_OSCE_Med รวมข้อสอบ AC79 Medicine Y4 OSCE, 6 หน้า) · ไม่มีไฟล์เฉลย
      หน้า 1 = RoA ข้อ 1–10 · หน้า 2–3 = RoB ข้อ 11–20 (หัวไฟล์: "เก่งมากกจดค่อนข้างสมบูรณ์") · หน้า 4–5 = RoC/RoD (ข้อ 21–40) แม่แบบว่าง → ไม่มีข้อ
      orig = เลขข้อตามไฟล์ (RoA 1–10, RoB 11–19) · RoA ข้อ 9 มีแค่ type "คุยกับคนไข้" ไม่มีหัวข้อ → ข้าม · RoB ข้อ 20 ว่าง → ข้าม
-   "เหมือน ac" / "ตรง AC" ดึงจากคลัง MDCU78: ข้อ 4 ← 78B ข้อ 5 (herpes zoster oticus, ใช้ภาพเดิม mo78b_5) · ข้อ 8 ← 78C ข้อ 2 (ตรวจ thyroid) · ข้อ 18 ← 78D ข้อ 7 (LFT, ใช้ค่าแลปของ 79)
+   "เหมือน ac" / "ตรง AC" ดึงจากคลัง: ข้อ 4 ← MDCU77 RoA ข้อ 5 (herpes zoster V3, ใช้ภาพ mo77a_5 — ตรงคำว่า V3 กว่า 78B ข้อ 5) · ข้อ 8 ← MDCU78 RoC ข้อ 2 (ตรวจ thyroid; 77B ข้อ 4 คล้าย) · ข้อ 18 ← MDCU78 RoD ข้อ 7 (LFT, ใช้ค่าแลปของ 79; = 77C ข้อ 6)
+   ข้อ 14 (home BP) ใช้ topic advice เหมือน MDCU77 RoD ข้อ 2
    ข้อ 5 ไฟล์จดคำตอบ (AFB, Mycobacterium tuberculosis, 2HRZE/4HR) → ใช้เป็น key · ข้อ 13 ไฟล์จดประวัติผู้ป่วยจำลองครบ → ใช้เป็น sp
    ข้อ 15, 16, 18 ผู้จดเดาคำตอบไว้ (มี ?) → Claude ตัดสินตามหลักฐาน + บอกความไม่แน่นอนใน opinion · ข้อ 2 (cxr), 3 (thalassemia), 10 (ปวดท้อง) ไฟล์มีแค่หัวข้อ → Claude แต่งโจทย์
-   ไม่มีรูปในไฟล์ทุกข้อ (EKG, CXR, AFB, CT, Gram stain) → imgNote NOIMG ฝึกบรรยายสิ่งที่คาดว่าจะเห็น (ยกเว้นข้อ 4 ใช้ภาพเดียวกับ AC78)
+   ไม่มีรูปในไฟล์ทุกข้อ (EKG, CXR, AFB, CT, Gram stain) → imgNote NOIMG ฝึกบรรยายสิ่งที่คาดว่าจะเห็น (ยกเว้นข้อ 4 ใช้ภาพเดียวกับ AC77 RoA ข้อ 5)
    ทุกข้อเฉลยโดย Claude (ยกเว้นที่ไฟล์จดไว้) · คะแนนข้อย่อย Claude ตั้งให้เหมาะกับปี 4 · checklist: H = หัวข้อใหญ่ (น้ำหนัก %), CR = ห้ามขาด */
 const NK="ไม่มีเฉลยในไฟล์ (เฉลยโดย Claude)";
 const P=(t,...re)=>({t,re});
@@ -65,7 +66,7 @@ Ao({page:1,orig:"2",topic:"img",title:"CXR — elderly man with progressive dysp
  interp:"เหนื่อย นอนราบไม่ได้ ขาบวม + CXR หัวใจโต + pulmonary venous congestion + effusion = congestive heart failure",
  summary:["CXR HF (ABCDE): Alveolar edema (bat-wing), kerley B lines, Cardiomegaly, Dilated upper lobe vessels, Effusion","CTR >0.5 ใช้กับ PA film เท่านั้น","Acute HF: IV furosemide (≥ขนาดที่กินอยู่), vasodilator ถ้า BP สูง, NIV ถ้าหายใจลำบาก","HFrEF GDMT 4 เสา: ARNI/ACEI, β-blocker, MRA, SGLT2i"]}),
 
-Ao({page:1,orig:"3",topic:"lab",title:"Thalassemia — chronic anemia with splenomegaly, CBC and Hb typing",
+Ao({page:1,orig:"3",topic:"lab",title:"Thalassemia — chronic anemia with splenomegaly, CBC and Hb typing",seen:"หัวข้อเดียวกับ MDCU78 RoC ข้อ 1, MDCU77 RoB ข้อ 10, RoD ข้อ 5 (คนละสถานการณ์)",
  stem:`A 22-year-old man has had anemia since childhood. Examination shows pallor, mild jaundice, and a spleen palpable 4 cm below the left costal margin.<br>CBC: Hb 7.2 g/dL, Hct 23%, MCV 58 fL, MCH 18 pg, RDW 32%, WBC 7,800/µL, platelets 260,000/µL, reticulocytes 4%. Peripheral blood smear: marked hypochromic microcytic RBCs, target cells, nucleated red cells.<br>Hb typing: EF — HbE 58%, HbF 42%, HbA 0%.<br>1. Interpret the laboratory results.<br>2. Diagnosis.<br>3. Long-term management.`,
  gray:"3. แปลแล็บ thalassemia",
  flag:"⚠ ไฟล์จดแค่คำว่า 'thalassemia' — Claude แต่งค่าแลปทั้งหมด (เลือก HbE/β-thalassemia ซึ่งพบบ่อยสุดในไทย และไม่ซ้ำกับ AC78 RoC ข้อ 1 ที่เป็นการให้คำปรึกษาคู่สมรส)",
@@ -86,24 +87,25 @@ Ao({page:1,orig:"3",topic:"lab",title:"Thalassemia — chronic anemia with splen
  interp:"Microcytic anemia + hemolysis + ม้ามโต + Hb typing EF (ไม่มี HbA) = HbE/β⁰-thalassemia disease",
  summary:["Hb typing: EF = HbE/β⁰-thal · A2F = homozygous β⁰ · A2A Bart's H = HbH · EE = HbE homozygous","Thal disease: folic acid, ไม่ให้เหล็ก, transfusion ตามความต้องการ, chelation","Chelation เมื่อ ferritin ≥800 (NTDT) / ≥1,000 (TDT)","คู่เสี่ยงหลักในไทย: β-thal trait × HbE trait → ลูก HbE/β-thal 25%"]}),
 
-Ao({page:1,orig:"4",topic:"skin",title:"Skin lesion — burning red rash around the ear (V3 dermatome)",img:"mo78b_5",seen:"MDCU78 RoB ข้อ 5 (ไฟล์บอกเหมือน AC)",
- stem:`A man presents with burning pain and redness around his ear. The lesion is shown.<br>1. Describe the lesion.<br>2. Diagnosis.<br>3. What else would you examine apart from the skin?`,
+Ao({page:1,orig:"4",topic:"skin",title:"Skin lesion — burning facial rash in the V3 dermatome with ear fullness",img:"mo77a_5",seen:"MDCU77 RoA ข้อ 5 (ไฟล์บอกเหมือน AC — ผื่น V3 dermatome) · คล้าย MDCU78 RoB ข้อ 5 (zoster รอบหู)",
+ stem:`A 45-year-old man presents with a burning sensation of the face and a feeling of ear fullness. His rash is shown.<br>1. Describe the rash.<br>2. Diagnosis.<br>3. Which additional system(s) must be examined?`,
  gray:"4. แปลแล็บ เหมือน ac ผื่น v3 dermatome",
- notes:"ซ้ำ AC 78B OSCE ข้อ 5 — ดึงโจทย์และภาพจาก MDCU78 RoB ข้อ 5",
- flag:"⚠ ไฟล์จดแค่ 'เหมือน ac ผื่น v3 dermatome' — ดึงโจทย์และภาพจาก AC MDCU78 RoB ข้อ 5 (ภาพเป็นภาพใกล้เคียงที่ผู้จดรุ่น 78 หามา: herpes zoster oticus day 6 — ไม่ใช่ภาพข้อสอบจริง)",
+ notes:"ซ้ำ AC 77A OSCE ข้อ 5 — ดึงโจทย์และภาพจาก MDCU77 RoA ข้อ 5 (herpes zoster V3; เฉลยไฟล์ 77 ระบุ 'right unilateral dermatome V3') · AC78 RoB ข้อ 5 เป็น zoster รอบหูที่ใช้ภาพแทน จึงเลือก 77 ที่ตรงคำว่า V3 และเป็นภาพจากไฟล์ข้อสอบ",
+ flag:"⚠ ไฟล์จดแค่ 'เหมือน ac ผื่น v3 dermatome' — ดึงโจทย์และภาพจาก AC MDCU77 RoA ข้อ 5 · ภาพข้อสอบ 79 จริงอาจต่างจากนี้",
  parts:S(
-  B("4.1 Describe the lesion.",3,{tags:["skin"],
-   ans:"<b>Multiple grouped vesicles/erosions with hemorrhagic crusts on an erythematous base</b> กระจายเป็นกลุ่มที่<b>ใบหู (concha/external ear) และผิวหน้าหน้าหู–แก้ม</b> ข้างเดียว <b>ไม่ข้ามเส้นกลาง</b> ตามแนว dermatome",
-   pts:[CR(P("Grouped vesicles / erosions with crusts","vesicle","ตุ่มน้ำ","grouped","cluster","crust","สะเก็ด","erosion")),P("Erythematous base","erythemat","แดง"),CR(P("ข้างเดียวตาม dermatome (ใบหู/หน้าหู)","dermatom","unilateral","ข้างเดียว"))]}),
+  B("4.1 Describe the rash.",3,{tags:["skin"],
+   ans:"<b>Grouped (clustered) vesicles and papules on an erythematous base</b>, บางส่วนแตกเป็น erosion/crust (<b>หลายระยะ</b>) · กระจายตาม<b>แนว dermatome ข้างเดียว</b> (ขวา) ที่แก้ม–คาง–ริมฝีปากล่าง = <b>V3 (mandibular division of the trigeminal nerve)</b> · <b>ไม่ข้าม midline</b>",
+   pts:[CR(P("Grouped vesicles on erythematous base","vesic","ตุ่มน้ำ","grouped","cluster","erythematous")),CR(P("Unilateral dermatomal distribution (V3) ไม่ข้าม midline","dermatom","unilateral","ข้างเดียว","v3","mandibular","midline")),P("หลายระยะ (papule/vesicle/crust)","crust","multistage","erosion","สะเก็ด")]}),
   B("4.2 Diagnosis.",2,{tags:["skin"],
-   ans:"<b>Herpes zoster oticus</b> (VZV reactivation ที่ geniculate ganglion/ใบหู) — ถ้ามี facial palsy ร่วม = <b>Ramsay Hunt syndrome</b>",
-   pts:[CR(P("Herpes zoster (oticus) / Ramsay Hunt","zoster","shingles","งูสวัด","ramsay"))]}),
-  B("4.3 What else would you examine apart from the skin?",3,{tags:["skin"],
-   ans:"<b>CN VII (facial nerve)</b> — ยักคิ้ว หลับตาแน่น ยิงฟัน (LMN facial palsy = Ramsay Hunt) · <b>CN VIII</b> — การได้ยิน (Rinne, Weber), vertigo/<b>nystagmus</b> · <b>Otoscopy</b> — ตุ่มน้ำใน external auditory canal/tympanic membrane · รับรส 2/3 หน้าของลิ้น, น้ำตา · ตรวจตา/V1 ถ้ามีผื่นที่หน้าผากหรือปลายจมูก (Hutchinson sign → herpes zoster ophthalmicus) · CN อื่น (V, IX, X) · ต่อมน้ำเหลือง",
-   exp:"Ramsay Hunt: ผื่นที่หู + LMN facial palsy ± hearing loss/vertigo → acyclovir/valacyclovir + prednisolone ภายใน 72 ชม. · พยากรณ์การฟื้นของ facial nerve แย่กว่า Bell's palsy",
-   pts:[CR(P("Facial nerve (CN VII) function","facial","cn ?7","cn ?vii","หน้าเบี้ยว","เส้นประสาทเจ็ด")),P("Hearing / vestibular (CN VIII, nystagmus)","hearing","ได้ยิน","rinne","weber","cn ?8","vestibul","nystagmus","vertigo"),P("Otoscopy (ear canal, TM)","otoscop","ear canal","tympanic","ช่องหู"),P("ตา (V1/Hutchinson) / รับรส / CN อื่น","ตา","eye","hutchinson","รับรส","taste","cranial")]})),
- interp:"ผื่นตุ่มน้ำตาม dermatome ที่หู = herpes zoster oticus → ต้องตรวจ CN VII, VIII หา Ramsay Hunt (ข้อเดียวกับ AC78 RoB ข้อ 5)",
- summary:["Zoster: antiviral ภายใน 72 ชม. (acyclovir 800 mg 5×/วัน หรือ valacyclovir 1 g tid 7 วัน)","Ramsay Hunt = zoster oticus + facial palsy ± hearing loss/vertigo","Hutchinson sign (ปลายจมูก) → HZO ต้องตรวจตา","Recombinant zoster vaccine ≥50 ปี"]}),
+   ans:"<b>Herpes zoster</b> of the <b>mandibular (V3) division of the trigeminal nerve</b> (right) · หูอื้อ → ต้องคิดถึง <b>herpes zoster oticus (Ramsay Hunt syndrome)</b> ร่วมด้วย",
+   pts:[CR(P("Herpes zoster (shingles)","zoster","shingles","งูสวัด","vzv","varicella")),P("V3 / สงสัย Ramsay Hunt","v3","mandibular","ramsay","oticus")]}),
+  B("4.3 Which additional system(s) must be examined?",3,{tags:["skin"],
+   ans:"<b>หู (ENT) และเส้นประสาทสมอง</b>: <b>otoscopy</b> หา vesicles ใน external auditory canal/concha/TM · <b>CN VII</b> — facial palsy (ยักคิ้ว หลับตาแน่น ยิงฟัน; LMN palsy = Ramsay Hunt) · <b>CN VIII</b> — การได้ยิน (Rinne, Weber, audiogram), vertigo/nystagmus · ตรวจ <b>oral mucosa</b> (ลิ้น กระพุ้งแก้ม — V3) และ sensation ของ V1–V3, motor V3 (กัดฟัน คลำ masseter) · ถ้ามีผื่น V1 (หน้าผาก/ปลายจมูก — Hutchinson sign) ต้องตรวจตา · ถ้าไม่แน่ใจ: PCR VZV จาก vesicle fluid · zoster อายุ &lt;50 ปีหรือรุนแรง/เป็นซ้ำ → พิจารณา anti-HIV",
+   exp:"ไฟล์เฉลย AC77 ตอบเป็นการส่ง PCR — แต่ zoster วินิจฉัยทางคลินิก และคำถาม 'ตรวจระบบใดเพิ่ม' + หูอื้อ ต้องการ<b>ตรวจหู/CN VII/CN VIII</b> · รักษา: <b>acyclovir 800 mg 5 ครั้ง/วัน หรือ valacyclovir 1 g tid × 7 วัน</b> เริ่มใน 72 ชม. · Ramsay Hunt: antiviral + prednisolone · ปวด neuropathic → gabapentin/pregabalin/amitriptyline · วัคซีน recombinant zoster อายุ ≥50 ปี",
+   rubric:"ได้ = ตรวจหู (otoscope) + CN VII + การได้ยิน/CN VIII · บางส่วน = บอก PCR อย่างเดียว",
+   pts:[CR(P("ตรวจหู: otoscopy หา vesicles ใน ear canal / ENT","otoscop","ear","หู","ent","canal")),CR(P("CN VII — facial palsy (Ramsay Hunt)","facial","cn ?vii","cn ?7","ramsay","อัมพาตใบหน้า","หน้าเบี้ยว")),P("CN VIII — hearing / vestibular","hearing","การได้ยิน","cn ?viii","cn ?8","rinne","weber","audiogram","vertigo"),P("Oral mucosa / CN V sensation-motor / ตา (V1) / PCR / anti-HIV","oral","ช่องปาก","trigemin","cn ?v\\b","masseter","ตา","hutchinson","pcr","hiv")]})),
+ interp:"Grouped vesicles ตาม V3 ข้างเดียว + หูอื้อ → herpes zoster (V3) → ตรวจหา Ramsay Hunt (หู, CN VII, CN VIII) · ข้อเดียวกับ AC77 RoA ข้อ 5",
+ summary:["Zoster: grouped vesicles on erythematous base, dermatomal, ไม่ข้าม midline","V1 → ตรวจตา (Hutchinson sign) · หู/หน้าเบี้ยว → Ramsay Hunt","Acyclovir 800 ×5/วัน หรือ valacyclovir 1 g tid ×7 วัน ภายใน 72 ชม.","Zoster อายุน้อย/รุนแรง → คัดกรอง HIV · recombinant zoster vaccine ≥50 ปี"]}),
 
 Ao({page:1,orig:"5",topic:"micro",title:"Sputum smear — acid-fast stain: stain, organism and regimen",imgNote:NOIMG,
  stem:`A 45-year-old man has had a productive cough for 1 month with low-grade fever, night sweats, and weight loss. A sputum smear is shown.<br>1. What stain is this?<br>2. What is the organism?<br>3. What is the treatment regimen, and for how many months?`,
@@ -126,7 +128,7 @@ Ao({page:1,orig:"5",topic:"micro",title:"Sputum smear — acid-fast stain: stain
  interp:"ไอเรื้อรัง ไข้ เหงื่อออกกลางคืน น้ำหนักลด + AFB smear positive = pulmonary TB → 2HRZE/4HR 6 เดือน",
  summary:["AFB (Ziehl–Neelsen): แท่งแดงบนพื้นฟ้า","Xpert MTB/RIF Ultra: ยืนยัน MTB + rifampicin resistance","DS-TB: 2HRZE/4HR (6 เดือน) + pyridoxine","ผลข้างเคียง: H — hepatitis, neuropathy · R — hepatitis, ปัสสาวะส้ม, interaction · Z — hepatitis, hyperuricemia · E — optic neuritis"]}),
 
-Ao({page:1,orig:"6",topic:"proc",ex:1,proc:1,title:"Procedure — nasogastric tube insertion for feeding",
+Ao({page:1,orig:"6",topic:"proc",ex:1,proc:1,title:"Procedure — nasogastric tube insertion for feeding",seen:"คล้าย MDCU78 RoB ข้อ 2, MDCU77 RoB ข้อ 3",
  stem:`A patient with an acute stroke cannot swallow safely and needs a nasogastric (NG) tube for feeding. Explain the procedure to the patient and demonstrate NG tube insertion, including confirmation of tube position before use.`,
  gray:"6. หัตถการ ng",
  flag:"⚠ ไฟล์จดแค่ 'ng' — สถานการณ์ผู้ป่วย Claude เติม (RoB ข้อ 11 เป็น NG แบบเน้นให้คำแนะนำ)",
@@ -142,7 +144,7 @@ Ao({page:1,orig:"6",topic:"proc",ex:1,proc:1,title:"Procedure — nasogastric tu
  interp:"สถานีหัตถการ NG สำหรับให้อาหารในผู้ป่วยกลืนลำบาก — จุดตัด: วัด NEX และยืนยันตำแหน่งก่อนให้อาหาร",
  summary:["NEX measurement","ยืนยันด้วย pH ≤5.5 หรือ CXR ก่อนให้อาหาร/ยาครั้งแรก","ข้อห้าม: basal skull/midface fracture → ใส่ทางปาก","Stroke + dysphagia: silent aspiration — ไม่ไอไม่ได้แปลว่าปลอดภัย"]}),
 
-Ao({page:1,orig:"7",topic:"proc",ex:1,proc:1,title:"Procedure — Foley catheterization in a man with acute urinary retention",
+Ao({page:1,orig:"7",topic:"proc",ex:1,proc:1,title:"Procedure — Foley catheterization in a man with acute urinary retention",seen:"คล้าย MDCU78 RoD ข้อ 3, MDCU77 RoA ข้อ 10",
  stem:`An elderly man presents with inability to pass urine for 10 hours and a distended, tender suprapubic area. Explain the procedure and demonstrate Foley catheter insertion.`,
  gray:"7. หัตถการ foley",
  flag:"⚠ ไฟล์จดแค่ 'foley' — สถานการณ์ผู้ป่วย Claude เติม (เลือกชาย acute urinary retention · RoB ข้อ 12 เป็น Foley + UTI/BPH + คำแนะนำการคาสาย)",
@@ -158,7 +160,7 @@ Ao({page:1,orig:"7",topic:"proc",ex:1,proc:1,title:"Procedure — Foley catheter
  interp:"สวนปัสสาวะชายใน acute urinary retention — aseptic, 90°, เห็นปัสสาวะก่อนเป่า balloon, รูดหนังหุ้มปลายกลับ",
  summary:["ชาย: องคชาต 90° → สอดถึง Y-junction → เห็นปัสสาวะ → balloon 10 mL","รูดหนังหุ้มปลายกลับทุกครั้ง","ถุงต่ำกว่ากระเพาะ ระบบปิด ถอดเร็วที่สุด (CAUTI)","AUR จาก BPH: α-blocker แล้ว trial without catheter"]}),
 
-Ao({page:1,orig:"8",topic:"pe",ex:1,title:"Physical examination — woman with hyperthyroidism (thyroid exam)",seen:"MDCU78 RoC ข้อ 2 (ไฟล์บอกเหมือน AC)",
+Ao({page:1,orig:"8",topic:"pe",ex:1,title:"Physical examination — woman with hyperthyroidism (thyroid exam)",seen:"MDCU78 RoC ข้อ 2 (ไฟล์บอกเหมือน AC) · คล้าย MDCU77 RoB ข้อ 4",
  stem:`A woman with hyperthyroidism. (Equipment on the table is unrelated except for a stethoscope. Do not forget hand hygiene.)<br>1. Demonstrate the examination of: a. the eyes, b. the thyroid gland, c. the skin and joints, d. the pulse.<br>2. State the possible conditions/diseases.`,
  gray:"8. คุยกับคนไข้ เหมือน ac ตรวจ thyroid",
  notes:"ซ้ำ AC 78C OSCE ข้อ 2 — ดึงโจทย์จาก MDCU78 RoC ข้อ 2",
@@ -202,7 +204,7 @@ Ao({page:1,orig:"10",topic:"hx",ex:1,title:"History — epigastric pain: 2 diffe
  summary:["Dyspepsia + alarm features หรืออายุมาก → EGD","PUD: หยุด NSAID, PPI 4–8 สัปดาห์ (GU ส่องซ้ำเพื่อยืนยันหาย/ตัดมะเร็ง)","H. pylori eradication: ไทยนิยม bismuth quadruple 14 วัน · ยืนยันหายด้วย UBT/stool Ag หลังหยุดยา ≥4 สัปดาห์ (PPI ≥2 สัปดาห์)","ปวดลิ้นปี่ในคนอายุมาก/มีปัจจัยเสี่ยง → EKG แยก inferior MI"]}),
 
 /* ============================ RoB ============================ */
-Bo({page:2,orig:"11",topic:"proc",ex:1,proc:1,title:"Procedure — NG tube: advice (indications, contraindications, complications), consent and insertion",
+Bo({page:2,orig:"11",topic:"proc",ex:1,proc:1,title:"Procedure — NG tube: advice (indications, contraindications, complications), consent and insertion",seen:"คล้าย MDCU78 RoB ข้อ 2, MDCU77 RoB ข้อ 3",
  stem:`A patient with paralytic ileus has repeated vomiting and abdominal distension, and gastric decompression with a nasogastric (NG) tube is planned.<br>1. Give advice to the patient before the procedure — indications, contraindications, complications — and obtain consent.<br>2. Demonstrate NG tube insertion.`,
  gray:"11. หัตถการ ng ให้คำแนะนำผู้ป่วยก่อนทำ (ฟีล ๆ บอก indication contraindications complications ขอ consent)",
  flag:"⚠ สาเหตุที่ต้องใส่ NG (paralytic ileus) Claude เติม — ไฟล์เน้นการให้คำแนะนำ (indication, contraindication, complication, consent)",
@@ -221,7 +223,7 @@ Bo({page:2,orig:"11",topic:"proc",ex:1,proc:1,title:"Procedure — NG tube: advi
  interp:"สถานี NG แบบเน้นคำแนะนำ: indication, contraindication (basal skull fracture), complication (สายเข้าหลอดลม) และ consent ก่อนใส่",
  summary:["Indication: decompression, feeding, ยา, lavage","Contraindication: basal skull/midface fracture (absolute) · varices, coagulopathy, esophageal stricture/surgery (relative)","Complication: epistaxis, malposition เข้าหลอดลม, aspiration, sinusitis, perforation, pressure ulcer","ยืนยันตำแหน่งด้วย pH ≤5.5 หรือ CXR"]}),
 
-Bo({page:2,orig:"12",topic:"proc",ex:1,proc:1,title:"Procedure — retained Foley catheter in an elderly man with UTI and BPH, with advice",
+Bo({page:2,orig:"12",topic:"proc",ex:1,proc:1,title:"Procedure — retained Foley catheter in an elderly man with UTI and BPH, with advice",seen:"คล้าย MDCU78 RoD ข้อ 3 (ชาย BPH + UTI), MDCU77 RoA ข้อ 10",
  stem:`A 72-year-old man with benign prostatic hyperplasia presents with fever and dysuria and now cannot pass urine. An indwelling (retained) Foley catheter is planned.<br>1. Give advice to the patient and obtain consent.<br>2. Demonstrate the insertion.<br>3. Advise the patient on care of the indwelling catheter.`,
  gray:"12. หัตถการ foley ให้คำแนะนำด้วยเหมือนกัน UTI BPH (ทำแบบ retain foley cath)",
  flag:"⚠ อายุและอาการ Claude เติมตามคำว่า UTI BPH ในไฟล์ · ข้อ 12.3 (การดูแลสายสวนคา) Claude เพิ่มเพราะไฟล์ระบุ retained Foley",
@@ -242,7 +244,7 @@ Bo({page:2,orig:"12",topic:"proc",ex:1,proc:1,title:"Procedure — retained Fole
  interp:"Foley คาในชายสูงอายุ BPH + UTI — ให้คำแนะนำก่อนทำ, aseptic insertion, เก็บ culture, และสอนการดูแลสายคา",
  summary:["เก็บ urine culture ก่อน antibiotic","CAUTI: closed system, ถุงต่ำกว่ากระเพาะ, ถอดเร็วที่สุด","AUR จาก BPH: α-blocker 2–3 วันก่อน TWOC","UTI ในชาย = complicated UTI · คิดถึง prostatitis"]}),
 
-Bo({page:2,orig:"13",topic:"hx",ex:1,title:"History — painless fresh blood per rectum (lower GI bleeding)",
+Bo({page:2,orig:"13",topic:"hx",ex:1,title:"History — painless fresh blood per rectum (lower GI bleeding)",seen:"คล้าย MDCU77 RoD ข้อ 1 (ถ่ายเป็นเลือดสด)",
  stem:`A patient presents with passing blood per rectum.<br>1. Take a history.<br>2. Give a provisional diagnosis.<br>3. State the investigations you would send next and advise the patient about them.`,
  gray:"13. คุยกับคนไข้ Hx. 1. จงซักประวัติ คนไข้มาด้วยถ่ายเป็นเลือด (lower GI bleeding) 2. provisional diagnosis 3. บอกว่าจะส่งตรวจอะไรต่อไป แนะนำผู้ป่วยเรื่อง investigation — History: ถ่ายเป็นเลือด 2 ครั้ง 4 ชั่วโมงก่อนมาโรงพยาบาล อีกครั้ง 2 ชั่วโมง ครั้งละ 1 แก้ว ไม่สัมพันธ์กับการรับประทานอาหาร ไม่มีเนื้อเลย เลือดสดอย่างเดียว No N/V, ไม่ถ่ายเจ็บ, ไม่ปวดท้อง, ไม่อาเจียนเลือด ไม่เลือดออกที่อื่น ไม่เคยเป็นมาก่อน, ไม่วิงเวียน, ไม่ซีด No U/D มีกินยาแก้ปวด วันละเม็ด 1 เดือน Soc history 5 มวน 40 ปี Fam Hx of CA colon พ่อ อายุ 60 No history of hemorrhoid",
  sp:"ข้อมูลที่ผู้ป่วยตอบ (จากไฟล์): ถ่ายเป็นเลือด 2 ครั้ง — ครั้งแรก 4 ชั่วโมงก่อนมาโรงพยาบาล อีกครั้ง 2 ชั่วโมงก่อนมา ครั้งละประมาณ 1 แก้ว · ไม่สัมพันธ์กับการรับประทานอาหาร · ไม่มีเนื้ออุจจาระปน เป็นเลือดสดอย่างเดียว · ไม่คลื่นไส้อาเจียน ไม่ถ่ายเจ็บ ไม่ปวดท้อง ไม่อาเจียนเป็นเลือด ไม่มีเลือดออกที่อื่น ไม่เคยเป็นมาก่อน ไม่วิงเวียน ไม่ซีด · ไม่มีโรคประจำตัว · กินยาแก้ปวดวันละ 1 เม็ดมา 1 เดือน · สูบบุหรี่วันละ 5 มวนมา 40 ปี · พ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 60 ปี · ไม่เคยเป็นริดสีดวงทวาร · Claude เติม (ถ้าถาม): ชาย อายุ 65 ปี · ยาแก้ปวดคือ ibuprofen (NSAID) กินเพราะปวดเข่า · ไม่ได้กิน aspirin/ยาละลายลิ่มเลือด · การขับถ่ายปกติ ไม่ท้องผูกท้องเสีย น้ำหนักไม่ลด · ไม่เคยส่องกล้องลำไส้ใหญ่ · ไม่ดื่มเหล้า · V/S (ถ้าขอ): BP 128/76, PR 88, ไม่มี postural change",
@@ -269,7 +271,7 @@ Bo({page:2,orig:"13",topic:"hx",ex:1,title:"History — painless fresh blood per
  interp:"ถ่ายเลือดสดไม่ปวดในผู้สูงอายุที่กิน NSAID = LGIB (diverticular bleeding) แต่ต้องแยก colorectal cancer (พ่อเป็น + สูบบุหรี่) → colonoscopy",
  summary:["LGIB: diverticular > angiodysplasia, colitis, neoplasia, anorectal","Stable → colonoscopy หลังเตรียมลำไส้ · unstable → resuscitate + CTA","Oakland score ≤8 → OPD colonoscopy ได้","FDR เป็น CRC ≥60 ปี → คัดกรองเริ่ม 40 ปี (หรือแบบคนทั่วไป) · FDR <60 ปี → colonoscopy เริ่ม 40 ปี ทุก 5 ปี"]}),
 
-Bo({page:2,orig:"14",topic:"pe",ex:1,title:"Home blood pressure measurement — advise and demonstrate the correct technique",
+Bo({page:2,orig:"14",topic:"advice",ex:1,title:"Home blood pressure measurement — advise and demonstrate the correct technique",seen:"คล้าย MDCU77 RoD ข้อ 2 (home BP)",
  stem:`A patient with hypertension has an automated blood pressure monitor at home and wants the doctor to advise him how to measure blood pressure correctly.<br>1. Advise the patient on correct home blood pressure measurement and demonstrate the measurement.<br>2. Explain each step in detail, including the reason for it.`,
  gray:"14. คุยกับคนไข้ PE 1. advise การ วัด BP ที่ถูกต้อง (ผู้ป่วยมีเครื่องวัดที่บ้าน ต้องการให้หมอแนะนำ และวัด) 2. บอกขั้นตอนการทำอย่างละเอียดพร้อมทั้งพูดว่าใช้ไร",
  sp:"ผู้ป่วยจำลอง + เครื่องวัดความดันอัตโนมัติแบบพันต้นแขน + cuff หลายขนาด + เก้าอี้มีพนักพิง + โต๊ะ · (Claude เติม) ผู้ป่วย HT กินยาอยู่ อยากวัดเองที่บ้าน ปกติวัดหลังดื่มกาแฟตอนเช้า นั่งไขว่ห้าง พันทับเสื้อแขนยาว",
@@ -349,7 +351,7 @@ Bo({page:3,orig:"17",topic:"micro",title:"Gram stain — pericardial fluid: Gram
  interp:"Pericardial fluid: PMN + GPC in pairs → purulent pericarditis จาก S. pneumoniae (± S. aureus) → drainage + vancomycin + ceftriaxone",
  summary:["GPC in pairs (lancet) = S. pneumoniae · GPC in clusters = Staphylococcus · GPC in chains = Streptococcus","Purulent pericarditis: drainage + IV antibiotic · tamponade/constriction เร็ว","Empirical: vancomycin + ceftriaxone → ปรับตาม culture","TB pericarditis: lymphocytic exudate, ADA สูง"]}),
 
-Bo({page:3,orig:"18",topic:"lab",title:"Lab — liver panel in a man with jaundice and hepatomegaly (repeat of AC78)",seen:"MDCU78 RoD ข้อ 7 (ไฟล์บอกตรง AC)",
+Bo({page:3,orig:"18",topic:"lab",title:"Lab — liver panel in a man with jaundice and hepatomegaly (repeat of AC78)",seen:"MDCU78 RoD ข้อ 7 (ไฟล์บอกตรง AC) · MDCU77 RoC ข้อ 6",
  stem:`A 50-year-old man presents with dyspnea, abdominal discomfort and fullness, and jaundice. Examination shows icteric sclerae and hepatomegaly. Laboratory results: total bilirubin 4.1 mg/dL, direct bilirubin 3.4 mg/dL, albumin 3.0 g/dL, globulin 4.3 g/dL, AST 243 U/L, ALT 96 U/L, ALP 130 U/L.<br>1. Interpret the laboratory results.<br>2. What is the most likely diagnosis?`,
  gray:"18. แปลแล็บ LFT ตรง AC TB 4.1 DB 3.4 Albumin 3 Globulin 4.กว่าๆ sgot 243 sgpt 96 alp 130 1. จงแปลผล - . 2. Diagnosis ที่เป็นไปได้มากที่สุด - diag: alcoholic hepatitis?",
  notes:"ตรง AC 78D OSCE ข้อ 7 — ประวัติผู้ป่วยดึงจาก MDCU78 RoD ข้อ 7 (ค่าแลปของรุ่น 79)",
