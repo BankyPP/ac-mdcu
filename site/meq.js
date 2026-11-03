@@ -119,6 +119,7 @@ function mqAiPrompt(q,pi,subs,r){const P=q.parts,part=P[pi],W=W_();
 4) โจทย์ให้ตอบ N อย่าง ตอบถูก N อย่าง = ได้ ไม่ต้องครบทุกอย่างในเฉลย; ตอบเกินไม่หัก เว้นแต่มีอันที่ผิดชัดเจน
 5) "บางส่วน" เมื่อถูกไม่ครบตามที่ถาม หรือขาดรายละเอียดที่โจทย์สั่งตรง ๆ (เช่น สั่งให้บอกขนาดยา)
 6) คำต่างแต่ความหมายถูกถือว่าถูก สะกดผิดเล็กน้อย/ไทยปนอังกฤษไม่หัก · ข้อมูลผิดที่อันตรายให้หัก · ประเมินเฉพาะที่เขียนจริง
+7) เฉลยในไฟล์ของรุ่นพี่เป็นแค่แนวทาง ไม่ได้ถูกเสมอ — ถ้าไม่เห็นด้วย ให้ตรวจตามความรู้ที่ถูกต้องที่สุด แล้วบอกใน assess ว่าไม่เห็นด้วยตรงไหนเพราะอะไร
 ตอบเป็น JSON object เท่านั้น ภาษาไทยปนศัพท์แพทย์อังกฤษ:
 {"results":[{"id": <id>, "level": "ได้", "grade": 2, "assess": "ประเมิน 2–4 ประโยค ว่าถูก/ผิด/ครบตรงไหน", "missing": "สิ่งที่ขาดตามเกณฑ์ (ว่างได้)", "why": "อ้างเกณฑ์ที่ตรงกับคำตอบ 1 ประโยค"}]}
 
@@ -136,7 +137,7 @@ ${s.key?"เฉลยในไฟล์: "+plain(s.key).slice(0,1100)+"\n":""}�
 """
 ${String(r.t[s._i]).slice(0,3000)}
 """
-`;});return t;}
+`;});if(mqIsOS()&&q.topic&&typeof osRefFor==="function"){const R=osRefFor(q.topic,osSubOf(q));if(R.length)t+="\n=== แหล่งอ้างอิงของคณะ (ใช้เทียบได้ แต่ถ้าขัดกับ guideline/ตำรา ให้ยึดแหล่งที่เชื่อถือกว่า) ===\n"+R.map(x=>x.title+"\n"+x.text).join("\n\n")+"\n";}return t;}
 function mqPtsText(s){return (s.points||[]).map(p=>typeof p==="string"?plain(p):`${plain(p.label||"")} — ตอบ ${p.need||1} อย่างจาก: ${p.any.map(plain).join(" | ")}`).join(" ; ");}
 async function mqAiRun(q,pi,force){const k=q.uid+"#"+pi;if(MQAI.busy[k])return;const r=mqRec(q);if(!r)return;
   const subs=(mqTM()?mqTsubs(q,pi):q.parts[pi].subs).filter(s=>!mqReo(r,s._i)&&mqSubDone(q,s,r)&&((r.t&&r.t[s._i])||"").trim()&&(force||!(r.ai&&r.ai[s._i])));
