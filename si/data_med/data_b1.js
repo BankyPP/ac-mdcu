@@ -110,7 +110,7 @@ R_({page:1,orig:"11",kimg:KI(7),
  interp:"วัยรุ่น palpable purpura + ปวดท้อง + ข้ออักเสบ + nephritic urine + เกล็ดเลือดปกติ",
  why:"<b>IgA vasculitis</b> เป็น small vessel vasculitis จาก IgA1 immune complex · <b>Tetrad: palpable purpura ที่ขาโดยเกล็ดเลือดและ coagulation ปกติ, ปวดท้อง, arthralgia หรือ arthritis, kidney involvement</b> · ไตเป็น nephritic picture คล้าย IgA nephropathy · C3 ปกติ · ยืนยันด้วย skin biopsy เห็น leukocytoclastic vasculitis + IgA deposit · รักษาแบบประคับประคองเป็นหลัก ผู้ใหญ่และโรคไตรุนแรงต้องติดตามใกล้ชิดและพิจารณา steroid ตามไต",
  wrong:{"B":"SLE พบในหญิงเป็นหลัก มี cytopenia, serositis, ANA และ C3 ต่ำ เกล็ดเลือดไม่สูง","C":"MPGN เป็นโรคไตอย่างเดียว ไม่อธิบาย purpura ปวดท้องและข้อ C3 มักต่ำ","D":"Post-infectious GN มีประวัติติดเชื้อนำ C3 ต่ำ ไม่มี palpable purpura","E":"ANCA vasculitis พบอายุมาก มี RPGN หรือ pulmonary-renal syndrome"},
- trap:"แถวนี้ข้ามหน้า ผล lab ไตอยู่หน้าถัดไป ถ้าไม่อ่านต่อจะพลาดส่วน nephritic",
+ trap:"เห็น palpable purpura กับปวดท้องแล้วหยุดแค่ผิวหนัง ต้องดู BUN, Cr และ U/A เพราะมีผลไตแบบ nephritic ร่วมด้วย",
  summary:["Palpable purpura + ปวดท้อง + ข้อ + ไต = IgA vasculitis","เกล็ดเลือดและ C3 ปกติ","ชิ้นเนื้อ: leukocytoclastic vasculitis + IgA"],
  variants:["ถ้าถามผลชิ้นเนื้อไต → mesangial IgA deposit","ถ้าเกล็ดเลือดต่ำร่วมกับจ้ำเลือด → คิดถึง ITP หรือ TTP"]}),
 
@@ -473,7 +473,7 @@ R_({page:4,orig:"76",kimg:KI(33),flag:"⚠ ไฟล์พิมพ์ Accelerat
  interp:"BP 200/110 + น้ำท่วมปอดเฉียบพลัน + JVP ไม่สูง = LV failure จากความดัน",
  why:"<b>Hypertensive emergency</b> = BP สูงมาก ร่วมกับ <b>acute target organ damage</b> ไม่ใช่ตัดสินที่ตัวเลขอย่างเดียว ได้แก่ acute LV failure with pulmonary edema, ACS, aortic dissection, encephalopathy, stroke, eclampsia, AKI · รายนี้เกิด acute LV failure · รักษาใน ICU ด้วย <b>IV vasodilator</b> nitroglycerin หรือ nitroprusside + loop diuretic ลด SBP ให้ &lt;140 mmHg ทันที ในกรณี acute pulmonary edema · ห้ามใช้ beta-blocker ใน pulmonary edema เฉียบพลัน",
  wrong:{"A":"Accelerated hypertension เน้น fundus: retinopathy grade 3 และ DBP สูงมาก โจทย์ไม่ให้ fundus และมีน้ำท่วมปอดเด่น","C":"Urgency ไม่มี acute organ damage แต่รายนี้มี LV failure","D":"ACS ต้องมีเจ็บหน้าอกหรือ EKG และ troponin เปลี่ยน โจทย์ไม่ให้","E":"PE มี clear lung มักไม่มี crepitation ทั้งสองข้างและ BP ไม่สูง"},
- trap:"แถวนี้ข้ามหน้า ถ้าไม่อ่านต่อจะไม่เห็น fine crepitation ซึ่งทำให้ตัดสินเรื่อง organ damage",
+ trap:"อย่าตัดสินจากอาการหลักอย่างเดียว fine crepitation ในการตรวจร่างกายคือจุดที่ทำให้ตัดสินได้",
  summary:["BP สูง + acute organ damage = hypertensive emergency","Acute pulmonary edema: nitroglycerin หรือ nitroprusside + loop diuretic","ไม่มี organ damage = urgency ลด BP เป็นชั่วโมง"],
  variants:["ถ้า BP 200/110 ไม่มีอาการ → severe asymptomatic HT ให้ยากินและนัดติดตาม","ถ้า dissection → esmolol ก่อน vasodilator"]}),
 

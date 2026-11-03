@@ -1,1 +1,315 @@
-{"1":["Oncology"],"2":["Cardiology"],"3":["Cardiology"],"4":["Geriatrics","Neurology"],"5":["GI & Hepatology","Infectious disease"],"6":["Infectious disease"],"7":["Dermatology"],"8":["Infectious disease","GI & Hepatology"],"9":["Nephrology"],"10":["Fluid, Electrolyte & Acid–base"],"11":["Cardiology","Infectious disease"],"12":["Neurology"],"13":["Neurology"],"14":["Cardiology","Rheumatology"],"15":["Hematology"],"16":["Cardiology"],"17":["Cardiology","Hypertension & Lipids"],"18":["Endocrinology"],"19":["Endocrinology"],"20":["GI & Hepatology"],"21":["Infectious disease","Pulmonology"],"22":["GI & Hepatology","Infectious disease"],"23":["Pulmonology"],"24":["Pulmonology"],"25":["Infectious disease"],"26":["Hematology"],"27":["GI & Hepatology"],"28":["GI & Hepatology"],"29":["Geriatrics","Nephrology"],"30":["Nephrology"],"31":["Pulmonology"],"32":["Nephrology","Hypertension & Lipids"],"33":["Cardiology"],"34":["Infectious disease","Neurology"],"35":["Infectious disease","Tropical medicine"],"36":["GI & Hepatology"],"37":["Cardiology"],"38":["Neurology","Tropical medicine"],"39":["Infectious disease"],"40":["Tropical medicine","Infectious disease"],"41":["Nephrology","Rheumatology"],"42":["Infectious disease"],"43":["Tropical medicine"],"44":["Endocrinology","Geriatrics"],"45":["GI & Hepatology"],"46":["GI & Hepatology"],"47":["Hematology"],"48":["Rheumatology"],"49":["Pulmonology"],"50":["GI & Hepatology"],"51":["Dermatology","Nutrition & Toxicology"],"52":["Infectious disease"],"53":["Cardiology"],"54":["Rheumatology"],"55":["Endocrinology","Fluid, Electrolyte & Acid–base"],"56":["Endocrinology","Fluid, Electrolyte & Acid–base"],"57":["Nutrition & Toxicology"],"58":["Nephrology"],"59":["Rheumatology"],"60":["Hematology"],"61":["GI & Hepatology","Tropical medicine"],"62":["Neurology"],"63":["Oncology"],"64":["Infectious disease"],"65":["Neurology"],"66":["Hematology","Nephrology"],"67":["Neurology"],"68":["Hematology"],"69":["Neurology","Endocrinology"],"70":["GI & Hepatology"],"71":["Nephrology","Infectious disease"],"72":["Pulmonology"],"73":["Geriatrics","Neurology"],"74":["Pulmonology"],"75":["Fluid, Electrolyte & Acid–base","Oncology"],"76":["Infectious disease"],"77":["Hematology"],"78":["Pulmonology"],"79":["GI & Hepatology","Oncology"],"80":["Neurology"],"81":["Rheumatology"],"82":["Pulmonology","Rheumatology"],"83":["Hematology"],"84":["GI & Hepatology","Oncology"],"85":["Pulmonology"],"86":["Cardiology","Pulmonology"],"87":["Neurology","Geriatrics"],"88":["Hematology","Nutrition & Toxicology","Neurology"],"89":["Neurology"],"90":["Infectious disease","Nephrology"],"91":["Geriatrics","Neurology"],"92":["Nephrology"],"93":["Hematology"]}
+{
+"1": [
+"Oncology"
+],
+"2": [
+"Cardiology"
+],
+"3": [
+"Cardiology"
+],
+"4": [
+"Geriatrics",
+"Neurology"
+],
+"5": [
+"GI & Hepatology",
+"Infectious disease"
+],
+"6": [
+"Infectious disease"
+],
+"7": [
+"Dermatology"
+],
+"8": [
+"Infectious disease",
+"GI & Hepatology"
+],
+"9": [
+"Nephrology"
+],
+"10": [
+"Fluid, Electrolyte & Acid–base"
+],
+"11": [
+"Cardiology",
+"Infectious disease"
+],
+"12": [
+"Neurology"
+],
+"13": [
+"Neurology"
+],
+"14": [
+"Cardiology",
+"Rheumatology"
+],
+"15": [
+"Hematology"
+],
+"16": [
+"Cardiology"
+],
+"17": [
+"Cardiology",
+"Hypertension & Lipids"
+],
+"18": [
+"Endocrinology"
+],
+"19": [
+"Endocrinology"
+],
+"20": [
+"GI & Hepatology"
+],
+"21": [
+"Infectious disease",
+"Pulmonology"
+],
+"22": [
+"GI & Hepatology",
+"Infectious disease"
+],
+"23": [
+"Pulmonology"
+],
+"24": [
+"Pulmonology"
+],
+"25": [
+"Infectious disease"
+],
+"26": [
+"Hematology"
+],
+"27": [
+"GI & Hepatology"
+],
+"28": [
+"GI & Hepatology"
+],
+"29": [
+"Geriatrics",
+"Nephrology"
+],
+"30": [
+"Nephrology"
+],
+"31": [
+"Pulmonology"
+],
+"32": [
+"Nephrology",
+"Hypertension & Lipids"
+],
+"33": [
+"Cardiology"
+],
+"34": [
+"Infectious disease",
+"Neurology"
+],
+"35": [
+"Infectious disease",
+"Tropical medicine"
+],
+"36": [
+"GI & Hepatology"
+],
+"37": [
+"Cardiology"
+],
+"38": [
+"Neurology",
+"Tropical medicine"
+],
+"39": [
+"Infectious disease"
+],
+"40": [
+"Tropical medicine",
+"Infectious disease"
+],
+"41": [
+"Nephrology",
+"Rheumatology"
+],
+"42": [
+"Infectious disease"
+],
+"43": [
+"Tropical medicine"
+],
+"44": [
+"Endocrinology"
+],
+"45": [
+"GI & Hepatology"
+],
+"46": [
+"GI & Hepatology"
+],
+"47": [
+"Hematology"
+],
+"48": [
+"Rheumatology"
+],
+"49": [
+"Pulmonology"
+],
+"50": [
+"GI & Hepatology",
+"Oncology"
+],
+"51": [
+"Dermatology",
+"Nutrition & Toxicology"
+],
+"52": [
+"Infectious disease"
+],
+"53": [
+"Cardiology"
+],
+"54": [
+"Rheumatology"
+],
+"55": [
+"Endocrinology",
+"Fluid, Electrolyte & Acid–base"
+],
+"56": [
+"Endocrinology",
+"Fluid, Electrolyte & Acid–base"
+],
+"57": [
+"Nutrition & Toxicology"
+],
+"58": [
+"Nephrology"
+],
+"59": [
+"Rheumatology"
+],
+"60": [
+"Hematology"
+],
+"61": [
+"GI & Hepatology",
+"Tropical medicine"
+],
+"62": [
+"Neurology"
+],
+"63": [
+"Oncology"
+],
+"64": [
+"Infectious disease"
+],
+"65": [
+"Neurology"
+],
+"66": [
+"Hematology",
+"Nephrology"
+],
+"67": [
+"Neurology"
+],
+"68": [
+"Hematology"
+],
+"69": [
+"Neurology",
+"Endocrinology"
+],
+"70": [
+"GI & Hepatology"
+],
+"71": [
+"Nephrology",
+"Infectious disease"
+],
+"72": [
+"Pulmonology"
+],
+"73": [
+"Geriatrics",
+"Neurology"
+],
+"74": [
+"Pulmonology"
+],
+"75": [
+"Fluid, Electrolyte & Acid–base",
+"Oncology"
+],
+"76": [
+"Infectious disease"
+],
+"77": [
+"Hematology"
+],
+"78": [
+"Pulmonology"
+],
+"79": [
+"GI & Hepatology",
+"Oncology"
+],
+"80": [
+"Neurology"
+],
+"81": [
+"Rheumatology"
+],
+"82": [
+"Pulmonology",
+"Rheumatology"
+],
+"83": [
+"Hematology"
+],
+"84": [
+"GI & Hepatology",
+"Oncology"
+],
+"85": [
+"Pulmonology"
+],
+"86": [
+"Cardiology",
+"Pulmonology"
+],
+"87": [
+"Neurology",
+"Geriatrics"
+],
+"88": [
+"Hematology",
+"Nutrition & Toxicology",
+"Neurology"
+],
+"89": [
+"Neurology"
+],
+"90": [
+"Infectious disease",
+"Nephrology"
+],
+"91": [
+"Geriatrics",
+"Neurology"
+],
+"92": [
+"Nephrology"
+],
+"93": [
+"Hematology"
+]
+}

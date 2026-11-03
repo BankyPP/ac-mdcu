@@ -16,11 +16,11 @@ SUMM.push({tag:"Geriatrics", title:"Geriatrics",
     ]},
     {title:"Osteoporosis", sections:[
       {id:"fracture-bmd", title:"Fracture + film บาง — ส่ง BMD (DXA)",
-       trend:"โจทย์เดิมสองสนาม ต่างกันแค่อายุผู้ป่วยใน recall",
-       asked:["หญิง 40 ปี femur fracture film กระดูกบางทั้ง femur และ hip → ถาม investigation (ตอบ BMD)","ผู้สูงอายุล้ม femoral fracture film osteopenia → ถาม investigation (ตอบ BMD ช้อยมี bone scan, biopsy, turnover marker, MRI)"],
+       trend:"ผู้สูงอายุล้มกระดูกหัก ถาม investigation ของกระดูกบาง",
+       asked:["ผู้สูงอายุล้ม femoral fracture film osteopenia → ถาม investigation (ตอบ BMD ช้อยมี bone scan, biopsy, turnover marker, MRI)"],
        pattern:["Plain film ไม่แม่น ต้องลดลงมากกว่า 30% จึงเห็น → <b>DXA ที่ hip + lumbar spine</b>","<b>Postmenopausal / ชาย ≥50: T-score ≤−2.5 = osteoporosis</b>, −1 ถึง −2.5 = osteopenia","<b>ก่อนหมดประจำเดือน / ชาย <50: Z-score ≤−2.0</b> = below expected range","Hip หรือ vertebral fragility fracture วินิจฉัย osteoporosis ทางคลินิกได้แม้ BMD ไม่ถึงเกณฑ์ แต่ยังต้องมี baseline ไว้ติดตาม","หา secondary cause: Ca, PO4, ALP, PTH, 25-OH-D, TSH, Cr, CBC, SPEP ถ้าสงสัย โดยเฉพาะคนอายุน้อย","รักษา: Ca + vitamin D, bisphosphonate, ป้องกันการล้ม"],
-       pearls:["Bone marker ใช้ติดตาม ไม่ได้วินิจฉัย; bone scan ใช้หา metastasis และ stress fracture","Recall ต่างกันเรื่องอายุ (40 ปี กับ elderly) เกณฑ์ที่ใช้อ่านจึงต่างกัน แต่คำตอบเดียวกัน","ถ้าโจทย์มี lytic lesion หรือประวัติมะเร็งจึงคิดทางอื่น"],
-       members:["SI133|Ro401–402|44","SI133|Ro407–408|3"]}
+       pearls:["Bone marker ใช้ติดตาม ไม่ได้วินิจฉัย; bone scan ใช้หา metastasis และ stress fracture","ถ้าโจทย์มี lytic lesion หรือประวัติมะเร็งจึงคิดทางอื่น"],
+       members:["SI133|Ro407–408|3"]}
     ]},
     {title:"Cognitive decline", sections:[
       {id:"mci", title:"Mild cognitive impairment — TMSE 26/30",
