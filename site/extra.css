@@ -981,3 +981,7 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 :root[data-theme="dark"] .iov{--line:#34404a;--head:#d5def0;--accent:#8fb4ea;--red:#ff8a80;--redbg:#3b1d1f;--soft:#222b33;--warn:#f2c46d;--warnbg:#3a3016;--star:#7fd08f;--g-crc:#f0a560;--g-crc-bg:#3a2a1a;--g-br:#f08cb7;--g-br-bg:#3a2030;--g-gen:#7fcfa3;--g-gen-bg:#1e3329;--g-tx:#b3a9f2;--g-tx-bg:#2a2640;--g-pal:#a8bdd6;--g-pal-bg:#243040;--g-dx:#7fc8d4;--g-dx-bg:#1d3236;--g-ca:#d9ad80;--g-ca-bg:#352a1e;--g-ana:#a8bdd6;--g-ana-bg:#243040;--g-fx:#7fc8d4;--g-fx-bg:#1d3236;--g-abs:#f0a560;--g-abs-bg:#3a2a1a;--g-cys:#93b8ec;--g-cys-bg:#1f2c40;--g-ben:#7fcfa3;--g-ben-bg:#1e3329;--g-hcc:#f19a9a;--g-hcc-bg:#3b2020;--g-cca:#b3a9f2;--g-cca-bg:#2a2640;--g-met:#d9ad80;--g-met-bg:#352a1e;--g-pre:#b0bac6;--g-pre-bg:#262c33}:root[data-theme="dark"] .iov .imp{color:#ff8a80}
 /* inline SVG diagrams in Round I/O pages keep a readable size on phones — the .box scrolls sideways instead of shrinking the text (3 Nov 2026) */
 .iov .iobody svg[role="img"]{min-width:560px}
+.osqgrid{display:grid;gap:6px 14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.osqrow{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:14px;padding:4px 0;border-bottom:1px dashed var(--rule)}
+.osqrow input{width:64px;flex:none;font:inherit;font-size:16px;padding:5px 6px;border:1.5px solid var(--rule);border-radius:6px;background:var(--sheet);color:var(--ink)}
+.osqbad{color:var(--wrong)}
