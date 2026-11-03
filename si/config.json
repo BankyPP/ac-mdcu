@@ -6,7 +6,15 @@
   "setLabel": "ปี",
   "roLabel": "Rotation",
   "chipStrip": "SI",
-  "files": {},
+  "files": {
+    "SIM132A": "Key 132_401-402 MCQ Med SI เฉลยข้อสอบ Med Rotate 401-402 By 4041.pdf",
+    "SIM132B": "Key 132_403-404 MCQ Med SI ข้อสอบลงกองอายุรศาสตร์ SI132_Rotate 403 404.pdf",
+    "SIM132C": "Key 132_405-406 MCQ Med SI SIMD441 Summative รุ่นพี่ key.pdf",
+    "SIM133A": "Key 133_401-402 MCQ Med SI Keys for Summative 401402.pdf",
+    "SIM133B": "Key 133_403-404 MCQ Med SI LONG KONG MED.pdf",
+    "SIM133C": "Key 133_405-406 MCQ MED SI.pdf",
+    "SIM133D": "Key 133_407-408 MCQ Med SI MD441_K01_Summative_133Key.pdf"
+  },
   "siteUrl": "https://bankypp.github.io/ac-mdcu/si/",
   "siteName": "คลังข้อสอบเก่า",
   "inst": {
@@ -113,6 +121,10 @@
         }
       ],
       "exam": {
+        "MCQ": {
+          "n": 100,
+          "min": 75
+        },
         "OSCE": {
           "n": 25,
           "min": 5
