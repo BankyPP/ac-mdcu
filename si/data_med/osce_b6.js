@@ -414,7 +414,7 @@ Co({page:4,sec:"LAB",orig:"LAB 1",topic:"micro",sub:"Malaria",title:"Blood film 
  interp:"อ่าน blood film มาลาเรีย — P. vivax (RBC โต + Schüffner) และรักษาด้วย chloroquine 3 วัน + primaquine 14 วัน",
  summary:["P. vivax: RBC ติดเชื้อโต + Schüffner's stippling + ameboid trophozoite","รักษา: chloroquine 3 วัน + primaquine 14 วัน (กำจัด hypnozoite) · ตรวจ G6PD ก่อน","ห้าม primaquine ในหญิงตั้งครรภ์/ทารกเล็ก"]}),
 
-Co({page:4,sec:"LAB",orig:"LAB 2",topic:"ekg",sub:"STEMI/ischemia",title:"EKG interpretation — ST segment changes",
+Co({page:4,sec:"LAB",orig:"LAB 2",topic:"ekg",sub:"STEMI/ischemia",title:"EKG interpretation",
  stem:`A 12-lead EKG of a patient with chest discomfort shows ST-segment elevation in leads II, III, aVF, V5 and V6 with reciprocal ST-segment depression in the remaining leads. Describe the EKG in detail (rate, rhythm, axis, intervals, ST-T changes) and give your diagnosis.`,
  gray:"Lab 2. EKG มี ST elevation ที่ lead 2, 3, aVF, V5, V6 กับ reciprocal change ใน lead ที่เหลือ (จำไม่ได้ว่ามีอันไหนบ้าง)",
  flag:NOIMG+" · ไฟล์ไม่มีรูป EKG (บอกแค่ ST elevation ที่ II, III, aVF, V5, V6 + reciprocal change) · rate/rhythm/axis/อาการนำ (chest discomfort) ในโจทย์ Claude แต่ง: ใช้ \"sinus rhythm ~75/min, normal axis\" เป็นแบบฝึก · ผู้จดจำไม่ได้ว่า reciprocal change อยู่ที่ lead ใด — ที่พบทั่วไปในกรณีนี้คือ aVL (± I, V1–V3)",
@@ -556,7 +556,7 @@ Co({page:5,sec:"LAB",orig:"LAB 7",topic:"ekg",sub:"Tachyarrhythmia",title:"EKG �
  interp:"อ่าน EKG regular narrow-complex tachycardia ~150 → SVT รักษาด้วย vagal maneuver/adenosine",
  summary:["Regular narrow-complex tachycardia 130–150/min = SVT (แยก flutter 2:1, sinus tachycardia)","Stable: vagal maneuver (modified Valsalva/carotid sinus massage) → adenosine 6 → 12 mg","Unstable: synchronized cardioversion"]}),
 
-Co({page:6,sec:"LAB",orig:"LAB 8",topic:"micro",sub:"Gram stain",title:"Blood culture — Gram-negative coccobacilli",
+Co({page:6,sec:"LAB",orig:"LAB 8",topic:"micro",sub:"Gram stain",title:"Blood culture — Gram stain result (second patient)",
  stem:`A 50-year-old woman has an infiltration in the right lower lobe on chest radiograph. Her blood culture grows gram-negative coccobacilli. Identify the organism and give the treatment.`,
  gray:"Lab 8. ญ 50 ปี มี infiltration RLL h/c ขึ้น gram negative coccobacilli จงบอก organism และการรักษา",
  flag:NOIMG+" · ไฟล์ไม่มีรูป Gram stain · โจทย์ไม่บอกว่าเป็นปอดอักเสบในชุมชนหรือใน รพ. (เฉลยอาจารย์ชี้ Acinetobacter baumannii จึงถือเป็นสายเชื้อดื้อยา) · ยาทางเลือกนอกเหนือจาก colistin ที่ Claude เติมใน opinion",
