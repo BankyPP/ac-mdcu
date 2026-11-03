@@ -1,5 +1,5 @@
 SUMM.push({tag:"pefind", title:"Describe physical findings",
-  intro:"<ul><li>สถานี Describe physical findings (ไม่มี examiner) ใน rotation นี้คือ <b>รูป oropharynx</b> ในผู้ป่วยไข้เจ็บคอ — ถามเรียง <b>diagnosis → treatment</b></li><li>หัวข้อที่ออก: <b>acute exudative tonsillopharyngitis (GAS)</b> — รูป tonsil โตแดงมี white exudate 2 ข้าง ไม่มี cervical LN</li><li>ต้องตอบ <b>bacterial / GAS</b> (ไม่ใช่แค่ tonsillitis) และยา <b>penicillin / amoxicillin 10 วัน</b>; แพ้ penicillin → macrolide หรือ clindamycin</li></ul>",
+  intro:"<ul><li>สถานี Describe physical findings (ไม่มี examiner) ออกจาก 2 rotation: <b>รูป oropharynx</b> ในผู้ป่วยไข้เจ็บคอ (diagnosis → treatment) และ <b>รูปผู้หญิงตาโปน</b> (describe findings → lab → diagnosis)</li><li>สถานีตาโปน: ต้องบรรยาย <b>upper eyelid retraction / proptosis</b> ตอบ <b>TSH, FT4, T3</b> และ dx <b>Graves' disease</b></li><li>หัวข้อที่ออก: <b>acute exudative tonsillopharyngitis (GAS)</b> — รูป tonsil โตแดงมี white exudate 2 ข้าง ไม่มี cervical LN</li><li>ต้องตอบ <b>bacterial / GAS</b> (ไม่ใช่แค่ tonsillitis) และยา <b>penicillin / amoxicillin 10 วัน</b>; แพ้ penicillin → macrolide หรือ clindamycin</li></ul>",
   groups:[
     {title:"Pharyngitis / tonsillitis", sections:[
       {id:"pharyngitis-gas", title:"Exudative tonsillopharyngitis จาก group A Streptococcus: diagnosis, ddx และ treatment 10 วัน",
@@ -12,4 +12,16 @@ SUMM.push({tag:"pefind", title:"Describe physical findings",
        pearls:["ถ้าสงสัย EBV ห้ามให้ amoxicillin (เกิด maculopapular rash)","ไฟล์ต้นฉบับเขียน amoxicillin ± clavulanate — ตอบ amoxicillin / penicillin ก็ได้คะแนน ไม่ต้องใส่ clavulanate","ตอบระยะเวลา 10 วันเสมอ แม้โจทย์ไม่ถาม"],
        members:["SI132|Ro403–404|1#1","SI132|Ro403–404|1#2"]}
     ]}
+    ,{title:"Thyroid eye disease", sections:[
+      {id:"graves-eye", title:"Graves' disease: ตาโปน (eyelid retraction, proptosis), lab และ diagnosis",
+       trend:"รูปหน้าผู้ป่วยตาโปน → บรรยาย sign, lab, dx",
+       asked:["หญิงตาโปน ดูรูป → describe findings ที่คาดว่าจะเห็น","ถาม laboratory investigation ที่จะส่ง","ถาม most likely diagnosis"],
+       flow:["11.1 Describe the findings (3 คะแนน): ดูรูป → บรรยาย eyelid / eye sign","11.2 Laboratory (2 คะแนน): thyroid function test","11.3 Diagnosis (2 คะแนน): hyperthyroidism จากสาเหตุใด → Graves' disease"],
+       pattern:["<b>Findings:</b> <b>upper eyelid retraction</b> (เห็น sclera เหนือ iris; ในรูปเป็นข้างซ้าย) ± <b>exophthalmos / proptosis</b>; อื่นที่ควรมองหา: lid lag (von Graefe), stare, periorbital edema, conjunctival injection","eyelid retraction (Dalrymple) เกิดได้จาก hyperthyroidism ทุกชนิด · proptosis / ophthalmopathy จำเพาะ Graves'","<b>Lab:</b> <b>TSH, free T4, total T3</b> (± TRAb) · Graves': TSH ต่ำ (suppressed), FT4 และ T3 สูง · T3 toxicosis: FT4 ปกติแต่ T3 สูง","<b>Dx:</b> <b>Graves' disease</b> (hyperthyroidism with thyroid eye disease)","Tx (ถ้าถาม): antithyroid drug (methimazole), beta-blocker, RAI, surgery"],
+       kw:["upper eyelid retraction","exophthalmos / proptosis","lid lag","stare","TSH ต่ำ","free T4 สูง","total T3 สูง","TRAb","Graves' disease"],
+       ddx:["Toxic multinodular goiter","Toxic adenoma","Thyroiditis (subacute / painless)","Exogenous thyroid hormone"],
+       pearls:["ตอบแค่ exophthalmos ได้คะแนนบางส่วน — ต้องมี eyelid retraction (ข้างซ้าย)","ไฟล์ต้นฉบับไม่มีรูป — คำตอบอิงรูปจากการสอบจริง","อย่าลืมส่ง T3 ด้วย เพื่อจับ T3 toxicosis"],
+       members:["SI130|Ro409–412|11#1","SI130|Ro409–412|11#2","SI130|Ro409–412|11#3"]}
+    ]}
+
   ]});

@@ -402,9 +402,9 @@ Co({page:22,orig:"15",topic:"micro",sub:"PBS",title:"High fever for 7 days with 
  summary:["Downey cell = monocytoid atypical lymphocyte: deep blue edge, ถูก RBC กดเป็นรอยเว้า","IM: ไข้ เจ็บคอ/whitish patch ที่ tonsil, LN โต, ตับ-ม้ามโต · ห้ามให้ amoxicillin","Dx: anti-VCA IgM, heterophile antibody, EBV PCR (เสริม)"]}),
 
 Co({page:23,orig:"16",topic:"ekg",sub:"Bradyarrhythmia/AV block",title:"EKG — interpret the tracing",img:["os133c_16"],
- stem:`A 12-lead EKG is shown (ventricular rate about 25–40 beats/min, atrial rate about 50–60 beats/min). Interpret the EKG and give the diagnosis.`,
+ stem:`A 12-lead EKG is shown. Interpret the EKG and give the diagnosis.`,
  gray:"16. EKG Rate : 25-40 bpm V rate, 50-60 bpm A rate · A-V dissociation · Dx : 3rd degree AV block (Complete block) · ตัวอย่างการอ่านจากรูปนี้: A-rate = 60 bpm sinus rhythm, V-rate = 30 bpm regular, complete AV dissociation, no axis deviation, PR interval variable, Wide qrs complex (> 3 ช่องเล็ก) · Imp: 3rd degree heart block with ventricular escape rhythm",
- flag:"⚠ ไฟล์อ่านว่า wide QRS + ventricular escape แต่ท้ายข้อเดาว่า junctional escape — เราอ่านจากภาพต่างจากไฟล์ (ดู opinion) · อัตราที่ใส่ในสเตมมาจากคีย์ในไฟล์",
+ flag:"⚠ ไฟล์อ่านว่า wide QRS + ventricular escape แต่ท้ายข้อเดาว่า junctional escape — เราอ่านจากภาพต่างจากไฟล์ (ดู opinion)",
  notes:"ตัวแดง (คีย์): ตัวอย่างการอ่านจากรูปนี้ — A-rate = 60 bpm sinus rhythm, V-rate = 30 bpm regular, complete AV dissociation, no axis deviation, PR interval variable, Wide qrs complex (> 3 ช่องเล็ก) · Imp: 3rd degree heart block with ventricular escape rhythm · ตัวน้ำเงิน: สังเกต 3rd degree heart block ได้จากการไล่ดู P wave ไปเรื่อย ๆ เทียบกับ QRS complex จะสังเกตได้ว่าทุก ๆ P wave กับ QRS complex แยกกันชัดเจน สามารถเจอ P wave ไปจมอยู่ใน QRS complex หรือ T wave ได้ · V-rate ใน 3rd degree heart block มาจาก 2 อย่าง: Junctional escape rhythm (มักจะ rate 40–60 bpm, narrow QRS complex) และ Ventricular escape rhythm (มักจะ rate 20–40 bpm, wide QRS complex) · ถ้าดู rate จากที่จดมาโจทย์ของจริงเดา ๆ เอาน่าจะเป็น Junctional escape rhythm",
  parts:S(
   B("16.1 Describe the EKG (rate, rhythm, P–QRS relationship, axis, QRS)",4,{tags:["ekg"],key:"A-rate = 60 bpm sinus rhythm, V-rate = 30 bpm regular, complete AV dissociation, no axis deviation, PR interval variable, wide QRS complex (> 3 ช่องเล็ก)",
