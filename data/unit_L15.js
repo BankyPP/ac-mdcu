@@ -1,0 +1,2 @@
+/* Unit round — L15 Transplant immunology & clinical transplantation · ใส่แค่หัวข้อบทไว้ก่อน (ยังไม่มีโจทย์ ตาม override 26 ต.ค. 2026) */
+W.UNIT.push({"id": "L15", "title": "L15 Transplant immunology & clinical transplantation", "short": "L15", "src": "L15_Transplantation_lecture_for_med_students_78.pdf + L15_Immunology_and_Transplantation_jod.pdf (Bunthoon Nonthasoot, MD)", "topic": "Transplantation", "tags": ["Transplant"],"QB":[]});

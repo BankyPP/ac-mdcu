@@ -1,0 +1,2 @@
+/* Unit round — L12 Preoperative & postoperative care · ใส่แค่หัวข้อบทไว้ก่อน (ยังไม่มีโจทย์ ตาม override 26 ต.ค. 2026) */
+W.UNIT.push({"id": "L12", "title": "L12 Preoperative & postoperative care", "short": "L12", "src": "L12_Preop_-_Postop_care_78.pdf + L12_Pre_and_Post-Operative_Care_jod.pdf (Punthita Aimsupanimitr, MD)", "topic": "Perioperative care & Surgical infection", "tags": ["Pre-op & post-op"],"QB":[]});

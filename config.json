@@ -284,12 +284,20 @@
       ],
       "lectures": [
         {
+          "title": "L01 Chronic venous disease & management",
+          "topic": "Vascular & Venous"
+        },
+        {
           "title": "L02 Surgical Oncology",
           "topic": "Oncology principles"
         },
         {
           "title": "L03 Liver",
           "topic": "Liver"
+        },
+        {
+          "title": "L05 Basic plastic surgery",
+          "topic": "Skin & Soft tissue"
         },
         {
           "title": "L07.1 Approach to abdominal pain",
@@ -300,16 +308,32 @@
           "topic": "Fluid, Electrolyte & Nutrition"
         },
         {
-          "title": "L99.03 Small intestine & small bowel obstruction",
+          "title": "L09 Acute abdomen",
           "topic": "Small bowel & Obstruction"
-        },
-        {
-          "title": "L01 Chronic venous disease & management",
-          "topic": "Vascular & Venous"
         },
         {
           "title": "L10 Pancreas and spleen",
           "topic": "Pancreas & Spleen"
+        },
+        {
+          "title": "L11 Breast",
+          "topic": "Breast"
+        },
+        {
+          "title": "L12 Preoperative & postoperative care",
+          "topic": "Perioperative care & Surgical infection"
+        },
+        {
+          "title": "L14 Esophagus",
+          "topic": "Esophagus"
+        },
+        {
+          "title": "L15 Transplant immunology & clinical transplantation",
+          "topic": "Transplantation"
+        },
+        {
+          "title": "L99.03 Small intestine & small bowel obstruction",
+          "topic": "Small bowel & Obstruction"
         },
         {
           "title": "L99.04 Metabolic response to injury",
@@ -318,10 +342,6 @@
         {
           "title": "L99.12 Arterial diseases",
           "topic": "Vascular & Venous"
-        },
-        {
-          "title": "L11 Breast",
-          "topic": "Breast"
         }
       ],
       "scope": "General surgery limited to: hepatobiliary and pancreatic surgery; breast surgery; vascular surgery (excluding cardiovascular-thoracic surgery); colorectal cancer; the main gastrointestinal tract and other abdominal organs (other colorectal surgery belongs to Subspecialty surgery)",
@@ -355,7 +375,12 @@
       "noExam": [
         "MEQ"
       ],
-      "lectures": [],
+      "lectures": [
+        {
+          "title": "L05 Basic plastic surgery",
+          "topic": "Plastic & Reconstructive surgery"
+        }
+      ],
       "scope": "Subspecialty surgery: colorectal surgery other than colorectal cancer (colorectal cancer is taught in General surgery); cardiovascular-thoracic surgery; neurosurgery; pediatric surgery; urology; plastic surgery",
       "dates": [
         {
