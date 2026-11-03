@@ -16,19 +16,19 @@ U({
   "l12b_p14"
  ],
  "interp": "อายุ 70 ปี + ผ่าตัดใหญ่ (colectomy) โดยไม่มีปัจจัยอื่น จึงต้องหาข้อบ่งชี้ที่มาจากอายุ + ชนิดผ่าตัดอย่างเดียว",
- "why": "สองไฟล์ตรงกันว่า CBC ส่งใน <b>อายุ >65 ปี + major surgery</b> ผู้ป่วยอายุ 70 ผ่าตัด hemicolectomy จึงเข้าเกณฑ์โดยไม่ต้องมี anemia risk",
+ "why": "สไลด์ 78 หน้า 13 พิมพ์ว่า <b>\"Patient > 65 years old + major surgery\"</b> (ไฮไลต์ม่วง) และ jod หน้า 14 พิมพ์ <b>\"all patients 65 years of age or older who are undergoing major surgery\"</b> ซึ่งตรงกันทั้งสองไฟล์ ผู้ป่วยอายุ 70 ปีที่จะทำ open right hemicolectomy จึงเข้าเกณฑ์ด้วยอายุและชนิดผ่าตัดเพียงอย่างเดียว โดยไม่ต้องมี anemia risk หรือประวัติเลือดออกเพิ่ม",
  "wrong": [
-  "PT/aPTT ส่งเมื่อมีประวัติเลือดออกผิดปกติ โรคตับ/ไต หรือยา antiplatelet/anticoagulant ซึ่งผู้ป่วยรายนี้ไม่มี — จะถูกถ้ามี hx bleeding หรือกิน warfarin",
-  "LFT ส่งตามประวัติ เช่น ดื่มสุรา ดีซ่าน ตับแข็ง — จะถูกถ้าผู้ป่วยมี jaundice/ดื่มหนัก",
-  "UA ส่งเมื่อสงสัย UTI หรือก่อน TURP — จะถูกถ้ามีอาการปัสสาวะผิดปกติ",
-  "HbA1c แนะนำในผู้เสี่ยง DM (BMI สูง FHx DM อาการ DM ยา steroid) — จะถูกถ้ามีปัจจัยเหล่านี้"
+  "PT/aPTT/platelet ส่งเมื่อมีประวัติเลือดออกผิดปกติ โรคตับหรือไต หรือกินยา antiplatelet/anticoagulant ซึ่งผู้ป่วยรายนี้ไม่มี — จะถูกถ้าเขากิน warfarin หรือมีประวัติเลือดออกง่ายในครอบครัว",
+  "LFT ส่งตามประวัติ เช่น ดื่มสุราหนัก ดีซ่าน หรือสัญญาณตับแข็ง ซึ่งโจทย์ระบุว่าไม่มี — จะถูกถ้ามี jaundice และ hepatomegaly ร่วมกับดื่มสุราเรื้อรัง",
+  "UA ส่งเมื่อสงสัย UTI หรือก่อน endoscopic urologic procedure เช่น TURP ไม่ใช่เพราะอายุ — จะถูกถ้ามีฉี่แสบขัดหรือกำลังจะทำ TURP",
+  "HbA1c แนะนำในผู้เสี่ยงเบาหวาน เช่น BMI สูง ประวัติครอบครัว อาการ DM หรือกินยา steroid — จะถูกถ้าผู้ป่วยมี polyuria และน้ำหนักเกิน"
  ],
  "trap": "ตัวเลือกอื่นต้องมี Hx เฉพาะ (bleeding, ตับ, ปัสสาวะ, DM) จึงไม่ถูกกระตุ้นด้วยอายุอย่างเดียว",
  "summary": [
-  "CBC ส่งเมื่อ high-risk surgery เสียเลือดมาก",
-  "CBC ส่งเมื่ออายุ >65 ปี + major surgery",
-  "CBC ส่งเมื่อมี risk/symptom ของ anemia: extreme age, liver disease, hematologic disease, hx bleeding, malnutrition",
-  "ผ่าตัด minor ใน jod ไม่ต้องส่ง CBC"
+  "CBC ส่งใน 3 กลุ่ม: high-risk surgery ที่คาดว่าเสียเลือดมาก (78 ขีดเส้นใต้ High risk) · อายุ >65 ปี + major surgery · มี risk/symptom ของ anemia",
+  "ผู้ป่วยอายุ >65 ปีที่ผ่าตัดใหญ่ส่ง CBC ได้แม้สุขภาพดีและไม่มีอาการซีด",
+  "Cr/eGFR ใช้เกณฑ์อายุที่ต่างกันคือ >50 ปี + major surgery ส่วน CBC ใช้ >65 ปี",
+  "Test อื่น (coag, LFT, UA, HbA1c) ต้องมี Hx หรือ risk เฉพาะของแต่ละตัว ไม่ได้ส่งเพียงเพราะอายุ"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -53,19 +53,19 @@ U({
   "l12_p20"
  ],
  "interp": "ผู้ป่วยสุขภาพดี ไม่มียา ผ่าตัด minor ใต้ local — ไม่มีข้อบ่งชี้ใดๆ",
- "why": "jod เขียนมือว่า CBC ไม่ส่งใน minor operation และทั้งสองไฟล์ย้ำว่า lab ไม่ใช่ routine ต้องมีข้อบ่งชี้ (ผู้ป่วยอายุน้อย ไม่มีโรค ไม่มียา) จึงไม่ต้องส่ง",
+ "why": "ลายมือ jod หน้า 14 ข้าง CBC เขียนว่า <b>\"→ ไม่ส่งใน minor operation\"</b> และ jod หน้า 13 มีลูกศรลายมือจาก Electrolytes, LFT, Coagulation และ UA ไปที่ <b>\"not recommend for routine test\"</b> สอดคล้องกับ 78 หน้า 20 ที่พิมพ์ <b>\"Not routine test\"</b> หญิงอายุ 28 สุขภาพดี ไม่กินยา ผ่าตัดเล็กใต้ local ไม่มีข้อบ่งชี้ใดเลย การส่ง lab เผื่อไว้เพิ่มผล false positive และไม่เปลี่ยนการดูแล",
  "wrong": [
-  "การส่ง CBC เพียงอย่างเดียวไม่มีข้อบ่งชี้ในผู้ป่วยสุขภาพดีผ่าตัด minor — จะถูกถ้ามี anemia risk หรือเสียเลือดมาก",
-  "electrolyte ส่งเฉพาะกลุ่มเสี่ยง (ไต ยา diuretic/ACEI/ARB) — จะถูกถ้ากินยาเหล่านี้",
-  "coag ส่งเมื่อมี Hx เลือดออกหรือยา anticoagulant — จะถูกถ้ามีประวัติดังกล่าว",
-  "ชุดตรวจหลายอย่างโดยไม่มีข้อบ่งชี้ขัดกับหลัก selective testing — จะถูกถ้าเป็น major surgery ในผู้สูงอายุที่มีโรคตับ/ไต"
+  "CBC อย่างเดียวไม่มีข้อบ่งชี้ เพราะไม่ใช่ high-risk surgery อายุไม่ถึง 65 และไม่มี anemia risk — จะถูกถ้าเธอมีประจำเดือนมากหรือซีดอยู่เดิม",
+  "CBC + electrolyte เกินความจำเป็น electrolyte ส่งเฉพาะผู้มีโรคไตหรือกิน diuretic/ACEI/ARB — จะถูกถ้าเธอกิน furosemide เรื้อรัง",
+  "CBC + coag ไม่มีข้อบ่งชี้เพราะไม่มี Hx เลือดออกและไม่กินยากันเลือดแข็ง — จะถูกถ้ามีประวัติฟกช้ำง่ายหรือกิน warfarin",
+  "ชุดตรวจ CBC, Cr, LFT เกินจากหลัก selective testing ของ jod — จะถูกถ้าเป็นผู้สูงอายุที่ผ่าตัดใหญ่และมีโรคตับร่วม"
  ],
  "trap": "อย่าส่ง lab 'เผื่อไว้' ในผู้ป่วยสุขภาพดี",
  "summary": [
-  "Preop lab ไม่ใช่ routine ส่งเมื่อผลเปลี่ยนการดูแล",
-  "CBC ไม่ส่งใน minor operation (ลายมือ jod)",
-  "ข้อบ่งชี้ของ CBC: high-risk/เสียเลือดมาก, >65 ปี + major surgery, เสี่ยง anemia",
-  "Electrolyte, LFT, coag, UA ส่งตาม Hx/ความเสี่ยงเท่านั้น"
+  "Preop lab ไม่ใช่ routine ต้องส่งตามข้อบ่งชี้ที่เปลี่ยนการดูแลได้",
+  "ผู้ป่วยสุขภาพดี ไม่กินยา ผ่าตัดเล็ก ไม่ต้องส่ง lab ใดๆ",
+  "jod ระบุ CBC ไม่ส่งใน minor operation ส่วน electrolyte, LFT, coag, UA ก็ไม่ routine",
+  "การส่ง test ที่ไม่มีข้อบ่งชี้เพิ่ม false positive และค่าใช้จ่าย"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -88,18 +88,19 @@ U({
   "l12_p13"
  ],
  "interp": "อายุไม่ถึง 65 ผ่าตัดเสียเลือดน้อย แต่มี cirrhosis + น้ำหนักลด 10 กก. = liver disease + malnutrition",
- "why": "ข้อบ่งชี้ CBC ข้อที่ 3 ของ 78 คือ risk/symptom ของ anemia ซึ่งระบุ liver disease และ malnutrition โดยตรง (ข้อนี้มีเฉพาะ 78)",
+ "why": "78 หน้า 13 พิมพ์ว่า <b>\"Risk / symptoms of anemia: extreme age, liver disease, hematologic disease, history of bleeding, malnutrition\"</b> (ไฮไลต์ม่วง) ผู้ป่วยรายนี้อายุ 45 ปี ผ่าตัด lap chole เสียเลือดน้อย จึงไม่เข้าข้ออายุหรือ high blood loss แต่มี cirrhosis (liver disease) และน้ำหนักลด 10 กก. (malnutrition) ซึ่งตรงกับรายการ risk of anemia โดยตรง ข้อนี้มีเฉพาะใน 78 (jod ไม่มีข้อนี้)",
  "wrong": [
-  "อายุ 45 ปีไม่เข้าเกณฑ์ >65 ปี — จะถูกถ้าอายุ >65 และผ่าตัดใหญ่",
-  "ผ่าตัด lap chole เสียเลือดน้อย ไม่เข้าเกณฑ์ high-risk blood loss — จะถูกถ้าเป็นผ่าตัดที่คาดว่าเสียเลือดมาก",
-  "neuraxial anesthesia เป็นข้อบ่งชี้ของ coagulation test ไม่ใช่ CBC — จะถูกถ้าถามเรื่อง PT/aPTT/platelet",
-  "ไม่มี routine CBC ในทุกผู้ป่วย — จะถูกถ้าสไลด์ระบุให้ส่งทุกราย ซึ่งไม่ใช่"
+  "เกณฑ์ >65 ปี + major surgery ไม่ตรงกับผู้ป่วยอายุ 45 ปีที่ผ่าตัดผ่านกล้อง — จะถูกถ้าเขาอายุ 70 และกำลังทำ colectomy",
+  "lap chole เสียเลือดน้อยมาก จึงไม่ใช่ high-risk surgery ที่เสียเลือดมาก — จะถูกถ้ากำลังทำ hepatectomy หรือ aortic surgery",
+  "neuraxial anesthesia เป็นข้อบ่งชี้ของการตรวจ coagulation ไม่ใช่ CBC และผู้ป่วยจะได้ general anesthesia — จะถูกถ้าถามเหตุผลของ PT/aPTT ก่อน epidural",
+  "สไลด์ไม่ได้ให้ส่ง CBC ในทุกราย และ jod เขียนว่าไม่ส่งใน minor operation — จะถูกถ้ามีนโยบายโรงพยาบาลกำหนดไว้ ซึ่งไม่ใช่เกณฑ์ในสไลด์"
  ],
  "trap": "อย่าตัดสินจากอายุหรือขนาดผ่าตัดอย่างเดียว",
  "summary": [
-  "CBC ส่งใน 3 กลุ่ม: high-risk surgery เสียเลือดมาก · >65 ปี + major surgery · เสี่ยง anemia",
-  "เสี่ยง anemia = extreme age, liver disease, hematologic disease, hx bleeding, malnutrition",
-  "ผู้ป่วยตับแข็งมักมี anemia/thrombocytopenia ร่วมด้วย"
+  "CBC มี 3 กลุ่มข้อบ่งชี้: high-risk/เสียเลือดมาก, >65 ปี + major surgery, risk หรืออาการของ anemia",
+  "Risk of anemia: extreme age, liver disease, hematologic disease, hx bleeding, malnutrition",
+  "ผู้ป่วย cirrhosis มักมี anemia และ thrombocytopenia ร่วมด้วย",
+  "เกณฑ์เรื่อง anemia risk พบเฉพาะในสไลด์ 78 (jod ไม่ส่ง CBC ใน minor operation)"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -122,19 +123,19 @@ U({
   "l12b_p14"
  ],
  "interp": "ผู้ป่วยเสถียร ไม่มีอาการ Hb 8.2 — สูงกว่าช่วง 7–8 ที่ jod ให้ และไม่มี symptom",
- "why": "jod ให้เลือดเมื่อ Hb <7–8 หรือมีอาการ ผู้ป่วยนี้ Hb 8.2 ไม่มีอาการจึงไม่ต้องให้ · ⚠ ลายมือ Hct >30 ไม่ชัดและเป็นกฎเก่า — แนวทาง AABB 2023 ใช้ restrictive Hb <7 ในผู้ป่วยเสถียร ทั้งสองแนวทางให้คำตอบเดียวกันที่ Hb 8.2",
+ "why": "jod หน้า 14 พิมพ์ว่า <b>\"Transfusion when: Hb < 7–8 g/dL\"</b> และ <b>\"in patient with symptoms\"</b> ผู้ป่วยรายนี้ Hb 8.2 สูงกว่าช่วง 7–8 และไม่มีอาการ เสถียร ไม่มีเลือดออก จึงไม่มีข้อบ่งชี้ ⚠ ลายมือ \"Hct >30\" อ่านไม่ชัดและเป็นกฎเก่า แนวทาง AABB 2023 ใช้ restrictive Hb <7 ในผู้ป่วยเสถียร ทั้งสองแนวทางจึงให้คำตอบเดียวกันที่ Hb 8.2",
  "wrong": [
-  "ไม่มีข้อบ่งชี้ให้เลือดเมื่อ Hb เกินเกณฑ์และไม่มีอาการ — จะถูกถ้า Hb <7 g/dL หรือมีอาการ",
-  "การให้ 2 unit ยิ่งเกินความจำเป็น — จะถูกถ้ามี bleeding ต่อเนื่อง/Hb ต่ำมาก",
-  "FFP ใช้แก้ coagulopathy ไม่ใช่แก้ anemia — จะถูกถ้า INR สูงและมี bleeding",
-  "กฎ Hct >30 เป็นกฎเก่า (ลายมือ jod ไม่ชัด) ไม่ใช้ automatic ตาม AABB 2023 — จะถูกถ้าเป็นเกณฑ์ที่สถาบันนั้นกำหนด"
+  "การให้ 1 unit ไม่มีข้อบ่งชี้เมื่อ Hb เกิน 8 และผู้ป่วยไม่มีอาการ — จะถูกถ้า Hb ต่ำกว่า 7 หรือมีเหนื่อย แน่นหน้าอก",
+  "การให้ 2 unit เกินจำเป็นยิ่งกว่า เพราะแนวทาง restrictive ให้ทีละหน่วยแล้วประเมินซ้ำ — จะถูกถ้ามี active bleeding จน Hb ตกเร็ว",
+  "FFP ใช้แก้ coagulopathy ที่ INR สูงและมีเลือดออก ไม่ใช่ anemia — จะถูกถ้ามีเลือดออกร่วมกับ INR ยาว",
+  "เกณฑ์ Hct >30 เป็นกฎเก่าที่ AABB 2023 เลิกใช้ automatic — จะถูกถ้าเป็นผู้ป่วยโรคหัวใจที่แพทย์ตั้งเป้าสูงเป็นรายบุคคล"
  ],
  "trap": "ผู้เรียนมักให้เลือดตามตัวเลข Hb 10 หรือ Hct 30 เดิม",
  "summary": [
-  "ให้เลือดเมื่อ Hb <7–8 g/dL (jod) หรือมีอาการ",
-  "AABB 2023: restrictive, ผู้ป่วยเสถียรให้เมื่อ Hb <7",
-  "ไม่ใช้กฎเก่า Hb 10/Hct 30 โดยอัตโนมัติ",
-  "ให้ทีละ unit แล้วประเมินซ้ำ"
+  "เกณฑ์ให้เลือดใน jod: Hb <7–8 g/dL หรือมีอาการ",
+  "AABB 2023: restrictive ผู้ป่วยเสถียรให้เมื่อ Hb <7 g/dL",
+  "ผู้ป่วยเสถียรไม่มีอาการและ Hb >8 ให้ observe ไม่ต้องให้เลือด",
+  "ไม่ใช้กฎเก่า Hb 10 หรือ Hct 30 อัตโนมัติ และให้เลือดทีละ unit"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -157,19 +158,19 @@ U({
   "l12b_p14"
  ],
  "interp": "Hb 8.4 อยู่เหนือเกณฑ์ตัวเลข แต่มีอาการหายใจเหนื่อย ใจสั่น เวียนศีรษะ (symptomatic anemia)",
- "why": "jod ระบุข้อบ่งชี้การให้เลือดไว้สองแบบ: Hb ต่ำกว่า 7–8 หรือผู้ป่วยมี symptoms ผู้ป่วยรายนี้เข้าข้อหลัง จึงให้ packed red cells",
+ "why": "jod หน้า 14 ให้ข้อบ่งชี้การให้เลือดสองแบบคือ <b>\"Hb < 7–8 g/dL\"</b> หรือ <b>\"in patient with symptoms\"</b> Hb 8.4 อยู่เหนือเกณฑ์ตัวเลข แต่ผู้ป่วยมีเหนื่อยขณะเดิน หัวใจเต้น 118 และหน้ามืดเมื่อลุกยืน ซึ่งเป็นอาการจาก anemia เข้าข้อหลัง จึงให้ packed red cells แม้ไม่มีเลือดออกให้เห็น",
  "wrong": [
-  "ผู้ป่วยมีอาการ จึงไม่ควรแค่รอ — จะถูกถ้าไม่มีอาการและ Hb เกินเกณฑ์",
-  "iron รับประทานออกฤทธิ์ช้า ไม่แก้ symptomatic anemia เฉียบพลัน — จะถูกถ้า Hb คงที่ไม่มีอาการ",
-  "FFP รักษาการขาด clotting factor ไม่ใช่ anemia — จะถูกถ้ามี coagulopathy",
-  "platelet ใช้เมื่อ thrombocytopenia/เลือดออก — จะถูกถ้า platelet ต่ำ"
+  "การรอ 1 สัปดาห์ไม่เหมาะเมื่อมี tachycardia และเหนื่อย เพราะ oxygen delivery ไม่พอ — จะถูกถ้าไม่มีอาการและ Hb 8.4 คงที่",
+  "iron กินใช้เวลาหลายสัปดาห์ ไม่แก้ symptomatic anemia เฉียบพลัน — จะถูกถ้า Hb คงที่และไม่มีอาการ",
+  "FFP แก้การขาด clotting factor ไม่เพิ่ม Hb — จะถูกถ้า INR สูงและมีเลือดออก",
+  "platelet concentrate ใช้เมื่อ platelet ต่ำหรือเลือดออก ไม่ใช่ anemia — จะถูกถ้า platelet 30,000 และมี bleeding"
  ],
  "trap": "อย่าใช้ตัวเลข Hb อย่างเดียว ต้องดูอาการร่วมด้วย",
  "summary": [
-  "ข้อบ่งชี้ transfusion: Hb ต่ำกว่าเกณฑ์ หรือมีอาการจาก anemia",
-  "อาการ: เหนื่อย tachycardia เวียนศีรษะ แน่นหน้าอก",
-  "ผ่าตัดที่ bleed เยอะ (CVT, vascular) ใช้เกณฑ์ตามความเสียเลือด (ลายมือ jod)",
-  "FFP/platelet ไม่ใช่การรักษา anemia"
+  "ให้เลือดเมื่อ Hb ต่ำกว่าเกณฑ์ หรือผู้ป่วยมีอาการจาก anemia",
+  "อาการที่ควรให้เลือด: เหนื่อย tachycardia หน้ามืด แน่นหน้าอก",
+  "ผ่าตัดที่เสียเลือดมาก เช่น CVT และ vascular surgery มีเกณฑ์ตามปริมาณเลือดเสีย (ลายมือ jod)",
+  "FFP และ platelet ไม่ใช่การรักษา anemia"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -192,19 +193,19 @@ U({
   "l12b_p14"
  ],
  "interp": "ผู้ป่วยเสถียร Hb 7.6 หลังผ่าตัด orthopedic — ต้องรู้ว่าเกณฑ์ผ่าตัดกระดูกต่างจาก 7",
- "why": "ช่วง 7–8 ของ jod ตรงกับ AABB 2023 ที่แยกเกณฑ์: ทั่วไป <7 แต่ orthopedic/cardiac surgery หรือมี CVD ใช้ <8 ผู้ป่วยนี้ 7.6 จึงต้องให้เลือด",
+ "why": "jod หน้า 14 พิมพ์ <b>\"Transfusion when: Hb < 7–8 g/dL\"</b> ซึ่งเป็นช่วงที่ต้องแยกตามผู้ป่วย Round I/O เสริม AABB 2023: ผู้ป่วยเสถียรทั่วไปให้เมื่อ Hb <7 แต่ใน orthopedic หรือ cardiac surgery และผู้มี CVD เดิมใช้ 8 g/dL ผู้ป่วย hip fracture อายุ 78 ปี Hb 7.6 ต่ำกว่า 8 จึงให้เลือด การใช้เกณฑ์ 7 กับทุกรายจะตอบผิดข้อนี้",
  "wrong": [
-  "ใน orthopedic ใช้เกณฑ์ 8 g/dL จึงไม่ควรรอ — จะถูกถ้า Hb ≥8 หรือใช้เกณฑ์ทั่วไป <7 ในผ่าตัดทั่วไป",
-  "iron ไม่ทันแก้ Hb 7.6 — จะถูกถ้าผู้ป่วยไม่เข้าเกณฑ์ให้เลือด",
-  "erythropoietin ไม่ใช่การรักษา acute postoperative anemia — จะถูกถ้ามี CKD anemia",
-  "FFP ไม่ใช่การรักษา anemia — จะถูกถ้ามี coagulopathy"
+  "การรอ 24 ชม. ไม่เหมาะเพราะ Hb 7.6 ต่ำกว่า 8 ซึ่งเป็นเกณฑ์ orthopedic — จะถูกถ้าเป็นผ่าตัดช่องท้องทั่วไปที่ใช้เกณฑ์ 7",
+  "iron กินไม่ทันแก้ Hb ต่ำหลังผ่าตัดกระดูกหัก — จะถูกถ้า Hb สูงกว่าเกณฑ์และต้องการเสริมระยะยาว",
+  "EPO ไม่ใช่การรักษา acute postoperative anemia และออกฤทธิ์ช้า — จะถูกถ้าเป็น anemia of CKD",
+  "FFP ไม่เพิ่มเม็ดเลือดแดง — จะถูกถ้ามี coagulopathy ที่ทำให้เลือดออก"
  ],
  "trap": "ใช้เกณฑ์ 7 สำหรับทุกผู้ป่วยจะพลาดข้อนี้",
  "summary": [
   "AABB 2023: ผู้ป่วยเสถียรทั่วไปให้เลือดเมื่อ Hb <7 g/dL",
-  "Orthopedic/cardiac surgery หรือมี CVD เดิม ใช้ 8 g/dL",
-  "jod: Hb <7–8 หรือมีอาการ",
-  "ให้เลือดเป็นรายหน่วยแล้วประเมินซ้ำ"
+  "Orthopedic/cardiac surgery หรือมี CVD เดิมใช้เกณฑ์ 8 g/dL",
+  "jod: Hb <7–8 g/dL หรือมีอาการ",
+  "ให้ทีละ unit แล้วประเมินซ้ำ"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -229,18 +230,19 @@ U({
   "l12b_p15"
  ],
  "interp": "อายุ >50 ปีโดยไม่มีโรคร่วม ผ่าตัดใหญ่ — ข้อบ่งชี้มาจากอายุ + ชนิดผ่าตัด",
- "why": "ทั้ง 78 (>50 ปี + major surgery) และ jod (>50 ปี + intermediate/high-risk surgery) ให้ส่ง serum Cr/eGFR · ⚠ ถ้อยคำต่างเล็กน้อยแต่ความหมายใกล้กัน total gastrectomy เข้าทั้งสองแบบ",
+ "why": "78 หน้า 15 พิมพ์ <b>\"Serum creatinine concentration\"</b> และ <b>\"Patient over 50 years old + major surgery\"</b> (ไฮไลต์ม่วง) ส่วน jod หน้า 15 พิมพ์ <b>\"patients over the age of 50 undergo intermediate- or high-risk surgery\"</b> ชายอายุ 55 ที่ทำ total gastrectomy เข้าเกณฑ์ทั้งสองแบบโดยไม่ต้องมีโรคไตหรือยา ⚠ ถ้อยคำสองไฟล์ต่างเล็กน้อยแต่ความหมายใกล้กัน",
  "wrong": [
-  "UA ไม่ใช่ routine ส่งเมื่อสงสัย UTI หรือก่อน TURP — จะถูกถ้ามีอาการทางปัสสาวะ",
-  "ไม่มีข้อบ่งชี้ภาพวินิจฉัยไต — จะถูกถ้ามี hydronephrosis/โรคไตที่สงสัย",
-  "ไม่ใช่การตรวจคัดกรองก่อนผ่าตัด — จะถูกถ้ามีโรค glomerular",
-  "timed creatinine clearance ไม่ใช่การตรวจที่สไลด์ระบุ สไลด์ใช้ serum creatinine/eGFR — จะถูกถ้าต้องวัด GFR ละเอียดในโรคไตที่ทราบแล้ว"
+  "UA ไม่ใช่ routine และไม่ใช่การประเมินไตตามอายุ — จะถูกถ้าสงสัย UTI หรือจะทำ TURP",
+  "ultrasound ไตไม่ใช่ preop test ตามสไลด์ — จะถูกถ้าสงสัย hydronephrosis หรือก้อนที่ไต",
+  "24-hour urine protein ไม่ใช่ screening ก่อนผ่าตัด — จะถูกถ้าสงสัย nephrotic syndrome",
+  "timed creatinine clearance ไม่ใช่สิ่งที่สไลด์ระบุ ใช้ serum Cr/eGFR — จะถูกถ้าต้องวัด GFR แม่นยำในโรคไตที่ทราบแล้ว"
  ],
  "trap": "",
  "summary": [
-  "Cr/eGFR ส่งเมื่ออายุ >50 + ผ่าตัดใหญ่ หรือเสี่ยง CKD/AKI",
-  "เสี่ยง CKD/AKI: DM, CHF, HT, vascular disease, SLE",
-  "ยา: ACEI, ARB, diuretic, NSAIDs, nephrotoxic drug, contrast"
+  "Cr/eGFR ส่งเมื่ออายุ >50 ปี + major surgery (78) หรือ intermediate/high-risk surgery (jod)",
+  "หรือเมื่อเสี่ยง CKD/AKI: DM, CHF, HT, vascular disease, SLE",
+  "ยาเสี่ยง: ACEI, ARB, diuretic, NSAIDs, nephrotoxic drug, contrast",
+  "CBC ใช้เกณฑ์อายุ >65 ปี ส่วน Cr ใช้ >50 ปี"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -264,18 +266,19 @@ U({
   "l12b_p15"
  ],
  "interp": "DM + HT + ยา ACEI + NSAIDs = เสี่ยง CKD/AKI ครบ",
- "why": "78 หน้า 15 ระบุกลุ่มเสี่ยง CKD/AKI (DM, HT) และยาเสี่ยง (ACEI, NSAIDs) แม้ผ่าตัดไม่ใหญ่ก็ควรตรวจ serum Cr/eGFR",
+ "why": "78 หน้า 15 พิมพ์ <b>\"Risk of CKD / AKI: DM, CHF, HT, vascular disease, SLE\"</b> และ <b>\"Drug: ACEI, ARB, diuretics, NSAIDs\"</b> (ไฮไลต์ม่วง) ผู้ป่วยมี DM คุมไม่ดี HT และกิน enalapril (ACEI) ร่วมกับ ibuprofen (NSAID) ซึ่งเสี่ยง AKI ครบ แม้ lap chole เป็น intermediate-risk ก็ควรตรวจ serum creatinine ก่อนผ่าตัดเพื่อตั้ง baseline และแก้ปัจจัยเสี่ยง",
  "wrong": [
-  "PFT ไม่ใช่ routine และไม่เกี่ยวกับ risk ไต — จะถูกถ้ามี COPD/ปอดรุนแรง",
-  "lipid ไม่ใช่ preop test ในสไลด์ — จะถูกถ้าถามเรื่อง CV risk long-term",
-  "TFT ไม่ใช่ข้อบ่งชี้เมื่อไม่มีอาการต่อมไทรอยด์ — จะถูกถ้ามี thyroid disease",
-  "HBsAg ไม่เกี่ยวกับ risk CKD/AKI — จะถูกถ้ามี risk factor ตับอักเสบ"
+  "PFT ไม่ใช่ routine และไม่เกี่ยวกับการทำงานของไต — จะถูกถ้าเธอมี COPD รุนแรงหรือจะตัดปอด",
+  "lipid profile ไม่ใช่ preop test ที่สไลด์ระบุ — จะถูกถ้าถามเรื่องลดความเสี่ยงหลอดเลือดระยะยาวในคลินิก",
+  "TFT ส่งเมื่อมีอาการหรือก้อนที่ต่อมไทรอยด์ — จะถูกถ้าใจสั่น น้ำหนักลดและตาโปน",
+  "HBsAg ไม่เกี่ยวกับ risk CKD/AKI — จะถูกถ้ามีความเสี่ยงติดเชื้อไวรัสตับอักเสบหรือใช้ยาเสพติดฉีด"
  ],
  "trap": "แม้ผ่าตัด intermediate-risk ก็ส่ง Cr ได้เพราะมีปัจจัยเสี่ยงไต",
  "summary": [
-  "ส่ง Cr เมื่อมีปัจจัยเสี่ยง CKD/AKI",
-  "ยา ACEI/ARB/diuretic/NSAIDs/nephrotoxic เพิ่มความเสี่ยง",
-  "ดูแล: แก้ electrolyte, เลี่ยง nephrotoxic drug, รักษา intravascular volume"
+  "ส่ง Cr/eGFR เมื่อมีปัจจัยเสี่ยง CKD/AKI: DM, CHF, HT, vascular disease, SLE",
+  "ยาเสี่ยง: ACEI, ARB, diuretic, NSAIDs, nephrotoxic drug, contrast",
+  "ผ่าตัด intermediate-risk ที่มีปัจจัยเสี่ยงไตก็ควรส่ง Cr",
+  "การดูแล: แก้ electrolyte, เลี่ยง nephrotoxic drug, รักษา intravascular volume"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -298,18 +301,19 @@ U({
   "l12b_p15"
  ],
  "interp": "ESRD ที่ฟอกเลือดประจำ ถามเวลาฟอกครั้งสุดท้ายก่อนผ่าตัด elective",
- "why": "ลายมือ jod ระบุให้ฟอก 1 วันก่อนผ่าตัด การฟอกในวันผ่าตัดเอง = electrolyte imbalance",
+ "why": "ลายมือ jod หน้า 15 เขียนว่า <b>\"(ก่อน Sx 1 day) └ ทำวัน Sx = e'lyte imbalance\"</b> ข้างข้อความ <b>\"Patient with ESRD: dialysis before surgery\"</b> ดังนั้น ESRD ที่ฟอกประจำควรฟอกครั้งสุดท้ายราว 1 วันก่อนผ่าตัด เพื่อให้ uremia และ volume/K ดีขึ้นแต่ไม่ฟอกในวันผ่าตัดเองเพราะเสี่ยง electrolyte imbalance",
  "wrong": [
-  "ฟอกเช้าวันผ่าตัดทำให้เกิด electrolyte imbalance (ลายมือ jod) — จะถูกถ้าเป็นผ่าตัดฉุกเฉินที่รอไม่ได้",
-  "ฟอกหลังผ่าตัดไม่ป้องกันปัญหาก่อน/ระหว่างผ่า — จะถูกถ้าเป็นการดูแล postoperative",
-  "ห่าง 3 วันทำให้ uremia กลับมา — จะถูกถ้าไม่มีปัญหาเรื่อง volume/K",
-  "สไลด์ระบุว่าต้อง dialysis before surgery — จะถูกถ้า GFR ปกติ"
+  "ฟอกเช้าวันผ่าตัดเสี่ยง electrolyte imbalance ตามลายมือ jod — จะถูกถ้าเป็นผ่าตัดฉุกเฉินที่มี hyperkalemia คุกคามชีวิตและรอไม่ได้",
+  "ฟอกหลังผ่าตัดไม่ช่วยป้องกัน uremic bleeding ระหว่างผ่า — จะถูกถ้าเป็นการดูแลหลังผ่าตัดตามรอบปกติ",
+  "ห่าง 3 วันทำให้ uremia และ K สะสมกลับมา — จะถูกถ้าไม่มีปัญหา volume/K และฟอกตามรอบ",
+  "สไลด์ระบุชัดว่า ESRD ต้อง dialysis before surgery — จะถูกถ้าไตยังทำงานดีและ eGFR สูง"
  ],
  "trap": "คิดว่าฟอกให้ใกล้เวลาผ่าที่สุดดีที่สุด",
  "summary": [
-  "ESRD: dialysis ก่อนผ่าตัดราว 1 วัน",
-  "ไม่ทำวันผ่าตัดเพราะ electrolyte imbalance",
-  "GFR <10 เสี่ยง uremic bleeding จึงต้องฟอกก่อน"
+  "ESRD: dialysis ก่อนผ่าตัดราว 1 วัน (ลายมือ jod)",
+  "ไม่ฟอกวันผ่าตัดเพราะเสี่ยง electrolyte imbalance (และ heparin ค้างจากการฟอก)",
+  "GFR <10 เสี่ยง uremic bleeding จึงต้องฟอกก่อนผ่า",
+  "ผ่าตัดฉุกเฉินใน ESRD ที่ฟอกไม่ทันต้องแก้ hyperkalemia ตามสถานการณ์"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -333,18 +337,19 @@ U({
   "l12b_p15"
  ],
  "interp": "ESRD eGFR 8 ขาดฟอกเลือด — ถามเหตุผลที่สไลด์ให้ฟอกก่อนผ่า",
- "why": "สไลด์ 78 ระบุเหตุผลคือ prevent uremic bleeding และลายมือเสริมว่า eGFR <10–15 ทำให้ vWF ผิดปกติถ้าไม่ได้ฟอก ส่วน jod เขียน (GFR <10) เสี่ยง uremic bleeding เช่นกัน",
+ "why": "78 หน้า 14 พิมพ์ <b>\"Preoperative dialysis in ESRD patient: prevent uremic bleeding\"</b> (ไฮไลต์ม่วง) และลายมือเสริมว่า <b>\"eGFR<10-15 → vWF อาจผิดปกติ ถ้าไม่ได้ฟอกเลือด\"</b> jod หน้า 15 ก็เขียน <b>\"(GFR <10) └ เสี่ยง uremic bleeding\"</b> ผู้ป่วย eGFR 8 ที่ขาดฟอกจึงเสี่ยงเลือดออกจาก platelet/vWF dysfunction ซึ่งเป็นเหตุผลของการฟอกก่อนผ่าตัดที่สไลด์ระบุ",
  "wrong": [
-  "SSI ไม่ใช่เหตุผลที่สไลด์ให้สำหรับ dialysis — จะถูกถ้าถามเรื่อง glycemic control",
-  "anastomotic leak ไม่เกี่ยวกับการฟอกก่อนผ่า — จะถูกถ้าถามถึงการดูแลลำไส้/สารอาหาร",
-  "DVT ป้องกันด้วย prophylaxis ตาม Caprini — จะถูกถ้าถามเรื่อง VTE",
-  "ileus ไม่ใช่เหตุผลหลัก — จะถูกถ้าถามเรื่องความผิดปกติ electrolyte ทางเดินอาหาร"
+  "SSI ป้องกันด้วย antibiotic prophylaxis และคุมน้ำตาล ไม่ใช่เหตุผลที่สไลด์ให้ฟอก — จะถูกถ้าถามเรื่อง glycemic control ใน DM",
+  "anastomotic leak เกี่ยวกับ nutrition perfusion และเทคนิคผ่าตัด — จะถูกถ้าถามเรื่อง albumin ต่ำหรือ bowel prep",
+  "DVT ป้องกันตาม Caprini ด้วย GCS/IPC หรือยา — จะถูกถ้าถามเรื่อง VTE prophylaxis",
+  "ileus ไม่ใช่เหตุผลหลักของการฟอกก่อนผ่า — จะถูกถ้ามี hypokalemia หรือ opioid หลังผ่า"
  ],
  "trap": "",
  "summary": [
-  "Uremia ทำให้ platelet/vWF ทำงานผิดปกติ → uremic bleeding",
-  "ESRD (eGFR <10–15) ควรฟอกเลือดก่อนผ่าตัด",
-  "ฟอกราว 1 วันก่อนผ่า ไม่ใช่วันผ่า"
+  "Uremia ทำให้ platelet function และ vWF ผิดปกติ → uremic bleeding",
+  "ESRD หรือ eGFR <10–15 ควรฟอกเลือดก่อนผ่า",
+  "ฟอกราว 1 วันก่อนผ่าตัดไม่ใช่วันผ่า",
+  "ผู้ป่วยที่ขาดฟอกและเลือดออกง่ายอาจต้องได้รับการแก้ไขก่อนผ่าตัด elective"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -367,19 +372,19 @@ U({
   "l12b_p15"
  ],
  "interp": "CKD ก่อนผ่าตัด ถามมาตรการดูแลไตตามสไลด์",
- "why": "jod ให้ 3 มาตรการ: แก้ electrolyte, หลีกเลี่ยง nephrotoxic drug และรักษา intravascular volume",
+ "why": "jod หน้า 15 พิมพ์การดูแลผู้ป่วยโรคไตว่า <b>\"Correct electrolyte, avoid nephrotoxic drug, maintainance intravascular volume\"</b> ผู้ป่วย CKD stage 3 ที่ Cr 1.9 ทำ sigmoid colectomy จึงต้องรักษา intravascular volume ไม่ให้เกิด hypovolemia และ AKI ร่วมกับเลี่ยงยาที่พิษต่อไต",
  "wrong": [
-  "การจำกัดน้ำเสี่ยง hypovolemia และไตบาดเจ็บ — จะถูกถ้าผู้ป่วยมี pulmonary edema/overload",
-  "NSAIDs เป็นยาเสี่ยง AKI — จะถูกถ้าไม่มีโรคไต",
-  "contrast เป็น nephrotoxic — จะถูกถ้าจำเป็นต้องวินิจฉัยและป้องกันไตแล้ว",
-  "diuretic ทำให้ electrolyte imbalance/volume depletion — จะถูกถ้ามีภาวะน้ำเกิน"
+  "การจำกัดสารน้ำทั้งหมดทำให้ hypovolemia และไตบาดเจ็บ — จะถูกถ้ามี pulmonary edema หรือ fluid overload ชัดเจน",
+  "NSAIDs เป็นยาเสี่ยง AKI ในสไลด์ — จะถูกถ้าไตปกติและไม่มีข้อห้ามใช้",
+  "contrast เป็น nephrotoxic ที่สไลด์ให้เลี่ยง — จะถูกถ้าจำเป็นต้องวินิจฉัยด่วนและเตรียมป้องกันไตแล้ว",
+  "loop diuretic ขนาดสูงทำให้ volume depletion และ electrolyte ผิดปกติ — จะถูกถ้ามีน้ำเกินและ CHF"
  ],
  "trap": "NSAIDs/ACEI/diuretic เป็นยาที่ควรระวังในผู้ป่วยไต",
  "summary": [
-  "แก้ electrolyte",
-  "หลีกเลี่ยง nephrotoxic drug, NSAIDs, contrast",
-  "รักษา intravascular volume",
-  "เสี่ยง CKD/AKI: DM, CHF, HT, vascular disease, SLE"
+  "การดูแลไตก่อนผ่าตัด: แก้ electrolyte, เลี่ยง nephrotoxic drug, รักษา intravascular volume",
+  "nephrotoxic: NSAIDs, aminoglycoside, contrast, ACEI/ARB ในบางสภาวะ",
+  "กลุ่มเสี่ยง CKD/AKI: DM, CHF, HT, vascular disease, SLE",
+  "ESRD ต้อง dialysis ก่อนผ่าตัดราว 1 วัน"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -402,18 +407,19 @@ U({
   "l12_p16"
  ],
  "interp": "gastric bypass + ท้องเสียเรื้อรัง + กินน้อย = malabsorption/malnutrition",
- "why": "78 หน้า 16 ระบุ s/p gastric bypass และ malnutrition/malabsorption เป็นกลุ่มเสี่ยง electrolyte imbalance ซึ่งเสี่ยงทำให้เกิด arrhythmia",
+ "why": "78 หน้า 16 รายการกลุ่มเสี่ยง electrolyte imbalance รวม <b>\"s/p gastric bypass\"</b> และ <b>\"malnutrition / malabsorption\"</b> (ไฮไลต์ม่วงที่ arrhythmia ซึ่งเป็นผลเสียของ electrolyte ผิดปกติ) ผู้ป่วย Roux-en-Y ท้องเสียเรื้อรังและกินน้อยจึงเสี่ยง K, Mg และ Ca ผิดปกติ ควรส่ง serum electrolytes ก่อน lap chole ส่วน jod หน้า 16 เขียนว่า electrolyte ไม่ใช่ routine ซึ่งสอดคล้องกับการส่งเฉพาะผู้เสี่ยง",
  "wrong": [
-  "amylase ไม่ใช่ preop test ที่สไลด์ให้ — จะถูกถ้าสงสัย pancreatitis",
-  "coag ส่งเมื่อมี Hx bleeding/ยา — จะถูกถ้ามี",
-  "CXR ส่งเมื่อสงสัยโรคหัวใจ/ปอด — จะถูกถ้ามีอาการ",
-  "UA ส่งเมื่อสงสัย UTI/TURP — จะถูกถ้ามีอาการปัสสาวะ"
+  "amylase ไม่ใช่ preop test ในสไลด์ — จะถูกถ้าปวดท้องส่วนบนและสงสัย pancreatitis",
+  "coag ส่งเมื่อมีประวัติเลือดออกหรือยา anticoagulant ซึ่งโจทย์ไม่มี — จะถูกถ้ามี vitamin K malabsorption ร่วมกับ bleeding",
+  "CXR ส่งเมื่อสงสัยโรคหัวใจ/ปอด ซึ่งไม่มีอาการ — จะถูกถ้าไอเรื้อรังหรือหอบ",
+  "UA ส่งเมื่อสงสัย UTI หรือก่อน TURP — จะถูกถ้ามีฉี่แสบขัด"
  ],
  "trap": "jod เขียนว่า electrolyte ไม่ใช่ routine — ตรงกับการส่งเฉพาะกลุ่มเสี่ยง",
  "summary": [
-  "Electrolyte ส่งในกลุ่มเสี่ยง ไม่ใช่ routine",
+  "Electrolyte ส่งในกลุ่มเสี่ยง ไม่ใช่ routine (jod)",
   "เสี่ยง: renal disease, diuretic/ACEI/ARB, digoxin, steroid, s/p gastric bypass, malnutrition/malabsorption",
-  "ผลเสีย: arrhythmia"
+  "ผลเสียของ electrolyte ผิดปกติ: arrhythmia",
+  "78 เพิ่ม digoxin, steroid และ gastric bypass ที่ jod ไม่มี"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -436,18 +442,19 @@ U({
   "l12b_p15"
  ],
  "interp": "ฟอกด้วย heparin 2 ชม.ก่อนผ่า aPTT ยาว platelet ปกติ มี oozing",
- "why": "เหตุผลหนึ่งที่ไม่ฟอกวันผ่าตัดคือ heparin ที่ใช้ในวงจรฟอกยังมีฤทธิ์ aPTT ยาว platelet ปกติสอดคล้องกัน (สไลด์เน้น e'lyte imbalance)",
+ "why": "ลายมือ jod หน้า 15 เขียนว่าไม่ควรฟอกวันผ่าตัด (<b>\"ทำวัน Sx = e'lyte imbalance\"</b>) และฟอกก่อนผ่า 1 วัน ส่วนเหตุผลเรื่อง heparin ในวงจรฟอกเป็นความรู้เสริมนอกสไลด์ ผู้ป่วยฟอกด้วย heparin เมื่อ 2 ชม.ก่อนผ่า มี oozing กระจายโดย aPTT ยาวและ platelet ปกติ ชี้ residual heparin ซึ่งเป็นเหตุผลหนึ่งที่ควรเว้นระยะหลังฟอก",
  "wrong": [
-  "ผู้ป่วยเพิ่งฟอก จึงไม่ใช่ uremia ค้าง และ aPTT ยาวชี้ heparin — จะถูกถ้ามี platelet dysfunction จาก BUN สูง",
-  "platelet ปกติจึงไม่ใช่ dilutional thrombocytopenia — จะถูกถ้า platelet ต่ำหลังให้สารน้ำ/เลือดมาก",
-  "vitamin K ทำให้ PT ยาวเด่นกว่า — จะถูกถ้ามี malabsorption/ยา warfarin",
-  "hemophilia A ไม่มีประวัติ — จะถูกถ้ามี Hx เลือดออกในครอบครัว"
+  "ผู้ป่วยเพิ่งฟอก uremic platelet dysfunction จึงไม่น่าเป็นสาเหตุหลัก และมันไม่ทำให้ aPTT ยาว — จะถูกถ้าขาดฟอกหลายครั้งและ BUN สูง",
+  "platelet ปกติจึงไม่ใช่ dilutional thrombocytopenia — จะถูกถ้า platelet ต่ำหลังให้สารน้ำหรือเลือดปริมาณมาก",
+  "vitamin K deficiency ทำให้ PT ยาวเด่น — จะถูกถ้ามี obstructive jaundice หรือกิน warfarin",
+  "factor VIII deficiency ต้องมีประวัติเลือดออกตั้งแต่เด็ก — จะถูกถ้ามี Hx ในครอบครัวและ aPTT ยาวโดยไม่ได้รับ heparin"
  ],
  "trap": "นักเรียนมักเลือก uremic bleeding เพราะเป็นผู้ป่วย ESRD",
  "summary": [
-  "ฟอกเลือด 1 วันก่อนผ่าตัด",
-  "ฟอกวันผ่า → electrolyte imbalance และ heparin ค้าง",
-  "aPTT ยาว + platelet ปกติ ชี้ heparin"
+  "ฟอกเลือดก่อนผ่าตัดราว 1 วัน ไม่ใช่วันผ่า",
+  "ฟอกวันผ่า: electrolyte imbalance (jod) และ heparin ค้างจากวงจร",
+  "aPTT ยาว + platelet ปกติ ชี้ heparin effect",
+  "Uremic bleeding มาจาก platelet/vWF dysfunction ใน ESRD ที่ไม่ได้ฟอก"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -472,18 +479,19 @@ U({
   "l12_p12"
  ],
  "interp": "ถามจัดกลุ่ม risk ตาม ESC 2022 Table 5 จากรูป ผู้ป่วยผ่าตัด hiatal hernia repair",
- "why": "จากตารางในรูป hiatal hernia repair อยู่ในคอลัมน์ intermediate (1–5%) พร้อม splenectomy และ cholecystectomy",
+ "why": "รูปแสดงตาราง ESC 2022 Table 5 ซึ่ง 78 หน้า 12 พิมพ์ว่า <b>\"Intermediate surgical risk (1–5%)\"</b> มี <b>\"Intraperitoneal: splenectomy, hiatal hernia repair, cholecystectomy\"</b> ตารางเป็นค่าประมาณ risk 30 วันของ CV death, MI และ stroke จากชนิดผ่าตัดเท่านั้น hiatal hernia repair อยู่คอลัมน์กลาง จึงเป็น intermediate",
  "wrong": [
-  "ตารางไม่จัด hiatal hernia repair ในกลุ่ม low (<1%) — จะถูกถ้าเป็น breast, dental, thyroid, eye, superficial",
-  "ไม่อยู่ในกลุ่ม high (>5%) เช่น oesophagectomy, Whipple — จะถูกถ้าเป็นผ่าตัดที่ระบุในคอลัมน์ high",
-  "ESC 2022 Table 5 ไม่มีกลุ่ม very low — จะถูกถ้าตารางมี 4 กลุ่ม",
-  "ESC 2022 Table 5 ไม่มีกลุ่ม very high — จะถูกถ้าตารางมี 4 กลุ่ม"
+  "low (<1%) เป็นกลุ่ม breast, dental, thyroid, eye, minor gynae, superficial — จะถูกถ้าเป็นผ่าตัดเล็กเหล่านี้",
+  "high (>5%) เป็น oesophagectomy, Whipple, liver resection, perforated bowel — จะถูกถ้าผ่าตัดหลอดอาหารหรือตับ",
+  "ตารางไม่มีกลุ่ม very low — จะถูกถ้าตารางมีหลายระดับกว่านี้",
+  "ตารางไม่มีกลุ่ม very high — จะถูกถ้าตารางมีหลายระดับกว่านี้"
  ],
  "trap": "Intraperitoneal ไม่ได้แปลว่าเสี่ยงสูงเสมอ ต้องดูรายการในตาราง",
  "summary": [
   "ESC 2022 Table 5: low <1%, intermediate 1–5%, high >5%",
-  "เป็นค่าประมาณ risk 30 วัน ของ CV death, MI, stroke",
-  "Intermediate: lap chole, splenectomy, hiatal hernia, head and neck, hip/spine"
+  "ค่า risk คือ 30-day CV death, MI, stroke ตามชนิดผ่าตัดอย่างเดียว",
+  "Intermediate: lap chole, splenectomy, hiatal hernia, head/neck, EVAR, hip/spine, renal transplant",
+  "Intraperitoneal ไม่ได้เสี่ยงสูงทั้งหมด"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -506,18 +514,19 @@ U({
   "l12_p17"
  ],
  "interp": "BMI สูง ประวัติครอบครัว DM และอาการ polyuria/polydipsia = กลุ่มเสี่ยง hyperglycemia",
- "why": "78 หน้า 17 แนะนำ HbA1c ในผู้มี risk (DM, BMI สูง, FHx, อาการ DM, ยา steroid) (ข้อนี้มีเฉพาะ 78)",
+ "why": "78 หน้า 17 พิมพ์ <b>\"Recommend HbA1C\"</b> และ <b>\"Risk of hyperglycemia: DM, high BMI, family history of DM\"</b> พร้อม <b>\"sign and symptoms of DM\"</b> ผู้ป่วย BMI 34 มีบิดาเป็น DM และมี polyuria กับกระหายน้ำ 2 เดือน ครบทั้งปัจจัยเสี่ยงและอาการ จึงแนะนำ HbA1c ก่อนผ่าตัด (ข้อมูลส่วนนี้มีเฉพาะในไฟล์ 78)",
  "wrong": [
-  "amylase ไม่เกี่ยวกับการประเมิน DM — จะถูกถ้าสงสัย pancreatitis",
-  "urine culture ใช้เมื่อสงสัย UTI — จะถูกถ้ามี dysuria/ไข้",
-  "lipid ไม่ใช่ test ที่สไลด์แนะนำก่อนผ่าตัด — จะถูกถ้าประเมิน CV risk ระยะยาว",
-  "TFT ส่งเมื่อมีอาการไทรอยด์ — จะถูกถ้ามี goiter/อาการไทรอยด์"
+  "amylase ไม่ใช่การประเมิน DM — จะถูกถ้าปวดท้องและสงสัย pancreatitis",
+  "urine culture ใช้เมื่อสงสัย UTI — จะถูกถ้ามีไข้ ฉี่แสบขัด",
+  "lipid profile ไม่ใช่ preop test ที่สไลด์แนะนำ — จะถูกถ้าคลินิกประเมินความเสี่ยงหลอดเลือดระยะยาว",
+  "TFT ส่งเมื่อสงสัยโรคไทรอยด์ — จะถูกถ้ามีใจสั่น น้ำหนักลด หรือ goiter"
  ],
  "trap": "",
  "summary": [
-  "แนะนำ HbA1c ในผู้เสี่ยง hyperglycemia",
-  "เสี่ยง: DM, high BMI, FHx DM, อาการ DM, ยา steroid",
-  "hyperglycemia เพิ่ม CV events และ infection หลังผ่า"
+  "HbA1c แนะนำในผู้เสี่ยง hyperglycemia",
+  "เสี่ยง: DM, BMI สูง, FHx DM, อาการ DM, ยา steroid",
+  "Hyperglycemia เพิ่ม CV events และ postoperative infection",
+  "jod หน้า 6 ลายมือ: Diabetes → delayed wound healing"
  ],
  "tags": [
   "Pre-op & post-op",
@@ -542,18 +551,19 @@ U({
   "l12b_p6"
  ],
  "interp": "เบาหวานคุมไม่ดีก่อนผ่าตัด ถามผลแทรกซ้อนที่สไลด์ระบุ",
- "why": "78 หน้า 17 ระบุ complication ของ hyperglycemia คือ CV events และ postoperative infection ส่วนลายมือ jod หน้า 6 เติม delayed wound healing",
+ "why": "78 หน้า 17 พิมพ์ <b>\"Complication: increased risk of CV events, postoperative infection\"</b> (ไฮไลต์ม่วง) และ jod หน้า 6 เขียนมือ <b>\"Diabetes → delayed wound healing\"</b> ผู้ป่วยที่ HbA1c 11.2% จึงเสี่ยงติดเชื้อหลังผ่าตัดและแผลหายช้า ส่วน MH, hypothermia, awareness และ difficult intubation ไม่ใช่ผลของ hyperglycemia",
  "wrong": [
-  "MH เป็นปฏิกิริยาต่อยาสลบ ไม่เกี่ยวกับ glucose — จะถูกถ้าเป็นไข้สูง/CO2 สูงหลังได้ succinylcholine/volatile",
-  "hypothermia เกี่ยวกับสภาวะผ่าตัด ไม่ใช่ glucose — จะถูกถ้าถามเรื่องห้องผ่าตัดเย็น",
-  "awareness เกี่ยวกับความลึกของยาสลบ — จะถูกถ้าถามเรื่อง anesthesia",
-  "difficult airway ประเมินด้วย Mallampati — จะถูกถ้าถามเรื่อง airway"
+  "MH เป็นปฏิกิริยาต่อยาสลบ volatile หรือ succinylcholine — จะถูกถ้ามีไข้สูงและ CO2 สูงในห้องผ่าตัด",
+  "hypothermia เกี่ยวกับอุณหภูมิห้องผ่าตัดและสารน้ำเย็น ไม่ใช่ glucose — จะถูกถ้าถามเรื่องการอุ่นผู้ป่วย",
+  "awareness เกี่ยวกับความลึกของยาสลบ — จะถูกถ้ากล้ามเนื้อคลายตัวโดยได้ยาสลบไม่พอ",
+  "difficult intubation ประเมินด้วย Mallampati ไม่ใช่ HbA1c — จะถูกถ้าคอแข็งหรืออ้าปากได้น้อย"
  ],
  "trap": "",
  "summary": [
-  "HbA1c แนะนำในผู้เสี่ยง DM",
-  "hyperglycemia เพิ่ม CV events",
-  "เพิ่ม postoperative infection และแผลหายช้า"
+  "Hyperglycemia เพิ่มความเสี่ยง CV events และ postoperative infection (78)",
+  "DM ทำให้ wound healing ช้า (ลายมือ jod)",
+  "แนะนำ HbA1c ในผู้เสี่ยง DM",
+  "ผู้ที่ HbA1c สูงมากควรพิจารณาเลื่อนผ่าตัด elective ถ้าเลื่อนได้"
  ],
  "tags": [
   "Pre-op & post-op",
@@ -577,18 +587,19 @@ U({
   "l12_p17"
  ],
  "interp": "ถามเป้า glucose ตอนผ่าตัดซึ่งสไลด์ไม่ให้ตัวเลข",
- "why": "ADA Standards of Care 2025 ตั้งเป้า glucose perioperative 100–180 mg/dL วัดภายใน ~4 ชม.ก่อนผ่า เพื่อลด infection จาก hyperglycemia ตามที่สไลด์ 78 กล่าว",
+ "why": "สไลด์ 78 หน้า 17 บอกว่า hyperglycemia เพิ่ม <b>\"CV events, postoperative infection\"</b> แต่ไม่ให้ตัวเลขเป้า ความรู้เสริมจาก ADA Standards of Care 2025 ให้ glucose ช่วงผ่าตัด 100–180 mg/dL วัดภายใน ~4 ชม.ก่อนผ่า ผู้ป่วยที่มี glucose 240 จึงสูงเกินเป้า และไม่ควรคุมเข้มจนต่ำกว่า 100",
  "wrong": [
-  "ช่วงนี้ต่ำเกินไป เสี่ยง hypoglycemia — จะถูกถ้าเป็น fasting glucose คนปกติ",
-  "ช่วงสูงเกิน ยอมให้ hyperglycemia ต่อ — จะถูกถ้าเป็นช่วง critical illness ใน guideline เก่า",
-  "ช่วงต่ำเกินไป — จะถูกถ้าเป็น tight control ซึ่งไม่แนะนำ",
-  "ช่วงสูงมาก เสี่ยง infection — จะถูกถ้าไม่ต้องควบคุม"
+  "70–100 mg/dL เป็นช่วงต่ำจนเสี่ยง hypoglycemia — จะถูกถ้าถามระดับน้ำตาลอดอาหารในคนปกติ",
+  "180–250 mg/dL ยอมให้ hyperglycemia ต่อไป เพิ่ม infection — จะถูกถ้ามีผู้ป่วยวิกฤตและนโยบายเก่า",
+  "60–140 mg/dL เป็น tight control ซึ่งเพิ่ม hypoglycemia — จะถูกถ้าเป็นเป้าตามมาตรฐานที่ไม่ใช้แล้ว",
+  "200–300 mg/dL สูงมากและเสี่ยง infection และ DKA/HHS — จะถูกถ้าถามช่วงที่ต้องเลื่อนผ่าตัดทันที"
  ],
  "trap": "ไม่ควร tight control ต่ำกว่า 100",
  "summary": [
-  "เป้า glucose ช่วงผ่าตัด 100–180 mg/dL",
-  "วัดภายใน ~4 ชม.ก่อนผ่า",
-  "hyperglycemia เพิ่ม infection และ CV events"
+  "ADA 2025: เป้า glucose ช่วงผ่าตัด 100–180 mg/dL",
+  "วัด glucose ภายใน ~4 ชม.ก่อนผ่า",
+  "หลีกเลี่ยง tight control เพราะเสี่ยง hypoglycemia",
+  "เลื่อนผ่า elective ถ้า HbA1c สูงมากและเลื่อนได้"
  ],
  "tags": [
   "Pre-op & post-op",
@@ -614,18 +625,19 @@ U({
   "l12b_p17"
  ],
  "interp": "ดื่มสุราหนัก + jaundice + ปัสสาวะสีเข้ม = ข้อบ่งชี้ LFT",
- "why": "78 หน้า 18 ให้ส่ง LFT เมื่อสงสัย hepatitis (viral, alcoholic, drug) หรือมี alcoholic drinking/jaundice และ jod เขียนมือให้ส่งตาม Hx เช่นกินเหล้า, jaundice",
+ "why": "78 หน้า 18 พิมพ์ <b>\"Suspected acute heatitis (viral, alcoholic, drug)\"</b> (สะกดตามต้นฉบับ = hepatitis) และตัวชี้ <b>\"alcoholic drinking\"</b>, <b>\"jaundice\"</b> ส่วนลายมือ jod หน้า 17 เขียนว่า LFT, coagulogram, UA ไม่ routine <b>\"→ ดูตาม Hx e.g. กินเหล้า, jaundice\"</b> ผู้ป่วยดื่มหนักและตัวเหลือง 2 สัปดาห์จึงเป็นข้อบ่งชี้ของ LFT ชัดเจน",
  "wrong": [
-  "PFT ไม่เกี่ยวกับตับ — จะถูกถ้ามีโรคปอด",
-  "cytology ไม่เกี่ยวกับ jaundice — จะถูกถ้าสงสัย urothelial tumor",
-  "lipid profile ไม่ใช่ preop test ที่สไลด์ระบุ — จะถูกถ้าถามเรื่องประเมิน CV risk ระยะยาว",
-  "troponin ใช้ประเมินหัวใจ — จะถูกถ้ามี chest pain/สงสัย MI"
+  "PFT ไม่เกี่ยวกับตับ — จะถูกถ้ามี COPD รุนแรงหรือจะตัดปอด",
+  "urine cytology ใช้เมื่อสงสัย urothelial cancer ไม่อธิบาย jaundice — จะถูกถ้ามี painless hematuria",
+  "lipid profile ไม่ใช่ preop test ที่สไลด์ระบุ — จะถูกถ้าประเมินความเสี่ยงหัวใจและหลอดเลือดระยะยาว",
+  "troponin T ใช้เมื่อสงสัย MI หรือประเมิน perioperative MI — จะถูกถ้ามีแน่นหน้าอก"
  ],
  "trap": "LFT ไม่ใช่ routine แต่ส่งตามประวัติ",
  "summary": [
-  "LFT ส่งเมื่อสงสัย acute hepatitis หรือ cirrhosis",
+  "LFT ส่งเมื่อสงสัย acute hepatitis (viral, alcoholic, drug) หรือสัญญาณ cirrhosis",
   "ตัวชี้: IV drug use, alcoholic drinking, blood transfusion, hepatosplenomegaly, jaundice, portal HT",
-  "LFT/coagulogram/UA ไม่ใช่ routine (jod)"
+  "LFT, coagulogram, UA ไม่ routine ส่งตาม Hx (jod)",
+  "สงสัยตับแข็งใช้ Child-Pugh ประเมิน"
  ],
  "tags": [
   "Pre-op & post-op",
@@ -649,18 +661,19 @@ U({
   "l12_p18"
  ],
  "interp": "ascites, spider angiomata, splenomegaly = signs of cirrhosis/portal hypertension",
- "why": "78 หน้า 18 ระบุ Child Pugh score เมื่อมี risk หรือ signs ของ cirrhosis",
+ "why": "78 หน้า 18 พิมพ์ <b>\"Risk / signs of cirrhosis: Child Pugh score\"</b> ผู้ป่วยมี ascites, spider angiomata และ splenomegaly ซึ่งเป็น signs ของ cirrhosis/portal hypertension จึงใช้ Child-Pugh ประเมินความรุนแรงของโรคตับและความเสี่ยงผ่าตัด ส่วน RCRI, Caprini, Mallampati และ GCS ประเมินระบบอื่น",
  "wrong": [
-  "RCRI ประเมินความเสี่ยงหัวใจ — จะถูกถ้าถามเรื่อง MACE",
-  "Caprini ประเมิน VTE — จะถูกถ้าถามความเสี่ยง DVT",
-  "Mallampati ประเมิน airway — จะถูกถ้าถามเรื่อง difficult intubation",
-  "GCS ประเมินระดับความรู้สึกตัว — จะถูกถ้าถามผู้ป่วยบาดเจ็บศีรษะ"
+  "RCRI ประเมินความเสี่ยงหัวใจ (MACE) ใน non-cardiac surgery — จะถูกถ้าผู้ป่วยมี CAD หรือ HF",
+  "Caprini ประเมิน VTE และกำหนด prophylaxis — จะถูกถ้าถามความเสี่ยง DVT หลังผ่าตัด",
+  "Mallampati ประเมิน airway และโอกาส difficult intubation — จะถูกถ้าถามก่อนดมยาสลบ",
+  "GCS ประเมินระดับความรู้สึกตัว — จะถูกถ้าเป็นผู้ป่วยบาดเจ็บศีรษะ"
  ],
  "trap": "",
  "summary": [
-  "สงสัย cirrhosis ใช้ Child-Pugh ประเมิน",
-  "ตัวชี้: hepatosplenomegaly, jaundice, portal HT",
-  "LFT ส่งตาม Hx ไม่ใช่ routine"
+  "สงสัย cirrhosis หรือมี signs of portal HT ใช้ Child-Pugh ประเมิน",
+  "Signs: ascites, spider angiomata, splenomegaly, jaundice",
+  "ตัวแปร Child-Pugh: bilirubin, albumin, INR, ascites, encephalopathy",
+  "Child C มี mortality ผ่าตัด elective สูงมาก"
  ],
  "tags": [
   "Pre-op & post-op",
@@ -684,18 +697,19 @@ U({
   "l12_p18"
  ],
  "interp": "ต้องใช้ตาราง Child-Pugh: bilirubin 2–3 = 2, albumin 2.8–3.5 = 2, INR 1.7–2.3 = 2, ascites เล็กน้อย = 2, ไม่มี encephalopathy = 1",
- "why": "รวม 2+2+2+2+1 = 9 คะแนน = Child B (5–6 A, 7–9 B, 10–15 C)",
+ "why": "สไลด์ 78 หน้า 18 ระบุเพียงชื่อ <b>\"Child Pugh score\"</b> ไม่มีตารางคะแนน ความรู้เสริม: bilirubin 2–3 = 2 คะแนน, albumin 2.8–3.5 = 2, INR 1.7–2.3 = 2, ascites เล็กน้อยคุมได้ = 2, ไม่มี encephalopathy = 1 รวม 9 คะแนน ซึ่งอยู่ในช่วง 7–9 คือ Child B (5–6 = A, 10–15 = C)",
  "wrong": [
-  "คะแนนรวม 9 ไม่ใช่ 5–6 — จะถูกถ้าไม่มี ascites และ lab ปกติ",
-  "class C ต้อง 10–15 — จะถูกถ้า bilirubin >3, albumin <2.8, INR >2.3",
-  "ไม่มี class ย่อยแบบนี้ — จะถูกถ้ามี",
-  "Child-Pugh มีเพียง A B C — จะถูกถ้าเป็นระบบ 4 กลุ่ม"
+  "Class A ต้องรวม 5–6 คะแนน เช่น bilirubin <2, albumin >3.5, INR <1.7 และไม่มี ascites — จะถูกถ้าผล lab ปกติเกือบทั้งหมด",
+  "Class C ต้อง 10–15 คะแนน เช่น bilirubin >3, albumin <2.8, INR >2.3 และ encephalopathy — จะถูกถ้าตับวายรุนแรง",
+  "ไม่มีระดับ A ที่มี ascites เป็น class ย่อย — จะถูกถ้าเป็นเกณฑ์อื่นที่ไม่ใช่ Child-Pugh",
+  "Child-Pugh มีเพียง A, B, C ไม่มี D — จะถูกถ้าเป็นระบบจัดระดับอื่น"
  ],
  "trap": "",
  "summary": [
-  "Child-Pugh: bilirubin, albumin, INR, ascites, encephalopathy",
+  "Child-Pugh 5 ตัวแปร: bilirubin, albumin, INR, ascites, encephalopathy",
   "5–6 = A, 7–9 = B, 10–15 = C",
-  "Child C เสี่ยงสูงมากจากการผ่าตัด elective"
+  "Child B ความเสี่ยงผ่าตัดปานกลาง Child C สูงมาก ควรเลี่ยง elective",
+  "ตัวอย่างนี้ 2+2+2+2+1 = 9 = Child B"
  ],
  "tags": [
   "Pre-op & post-op",
@@ -720,18 +734,19 @@ U({
   "l12_p19"
  ],
  "interp": "ปัสสาวะไม่สุด + แสบขัด = อาการที่ทำให้สงสัย UTI",
- "why": "78 หน้า 19 ให้ส่ง UA เมื่อสงสัย UTI ซึ่งลายมือยกตัวอย่างอาการฉี่ไม่สุด",
+ "why": "78 หน้า 19 พิมพ์ <b>\"Suspected UTI\"</b> (ไฮไลต์ม่วง) และลายมือเสริมว่า <b>\"มีอาการ e.g. ฉี่ไม่สุด\"</b> ผู้ป่วยมีฉี่ไม่สุดและแสบขัด 3 วัน จึงสงสัย UTI ต้องส่ง UA ก่อนผ่าตัด ส่วน jod หน้า 17 ระบุว่า UA ไม่ routine ซึ่งไม่ขัดกันเพราะข้อนี้มีอาการเฉพาะ",
  "wrong": [
-  "cytology ไม่ใช่การประเมิน UTI — จะถูกถ้าสงสัย urothelial cancer",
-  "cystoscopy เป็นหัตถการ ไม่ใช่ preop test พื้นฐาน — จะถูกถ้าสงสัยเนื้องอก/นิ่ว",
-  "IVP ไม่ใช่การตรวจที่สไลด์ระบุ — จะถูกถ้าสงสัยนิ่ว",
-  "ultrasound ไม่ใช่ลำดับแรกในการสงสัย UTI — จะถูกถ้าสงสัย hydronephrosis"
+  "urine cytology ใช้หา malignant cells ไม่ใช่ประเมิน UTI — จะถูกถ้ามี painless hematuria",
+  "cystoscopy เป็นหัตถการ ไม่ใช่ test พื้นฐานก่อนผ่าตัด — จะถูกถ้าสงสัยเนื้องอกหรือนิ่วในกระเพาะปัสสาวะ",
+  "IVP ไม่ใช่ test ที่สไลด์ระบุ — จะถูกถ้าสงสัยนิ่วหรือความผิดปกติทางเดินปัสสาวะส่วนบน",
+  "ultrasound ไม่ใช่ลำดับแรกของ UTI — จะถูกถ้าสงสัย hydronephrosis หรือมี retention"
  ],
  "trap": "UA ไม่ใช่ routine (jod)",
  "summary": [
-  "UA ส่งเมื่อสงสัย UTI (มีอาการ)",
+  "UA ส่งเมื่อสงสัย UTI (มีอาการ เช่น ฉี่ไม่สุด แสบขัด)",
   "UA ส่งก่อน endoscopic urologic procedure เช่น TURP",
-  "UA ไม่ใช่ routine test (jod)"
+  "UA ไม่ routine ในผู้ป่วยไม่มีอาการ (jod)",
+  "ถ้าสงสัย UTI ก่อนผ่าตัด elective ควรรักษาก่อนผ่า"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -754,18 +769,19 @@ U({
   "l12_p19"
  ],
  "interp": "TURP คือ endoscopic urologic procedure และผู้ป่วยไม่มีอาการ UTI",
- "why": "78 หน้า 19 ให้ส่ง UA ก่อนทำ endoscopic urologic procedure เช่น TURP แม้ไม่มีอาการ",
+ "why": "78 หน้า 19 พิมพ์ <b>\"Undergo endoscopic urologic procedure: TURP\"</b> (ไฮไลต์ม่วง) ผู้ป่วย BPH ที่จะทำ TURP ไม่มีอาการ UTI แต่ TURP เป็น endoscopic urologic procedure จึงส่ง UA ก่อนผ่าเพื่อไม่ให้ทำหัตถการผ่านทางเดินปัสสาวะที่ติดเชื้อ เหตุผลอื่นเป็นเกณฑ์ของ test อื่น",
  "wrong": [
-  "เกณฑ์อายุ + major surgery เป็นของ CBC/Cr — จะถูกถ้าถามเหตุผลส่ง CBC",
-  "เสียเลือดมากเป็นเกณฑ์ของ CBC — จะถูกถ้าถามเหตุผลส่ง CBC",
-  "เป็นเกณฑ์ของ electrolyte — จะถูกถ้ากิน diuretic/ACEI",
-  "เป็นเหตุผลส่ง EKG — จะถูกถ้าถามเรื่อง baseline EKG"
+  "อายุ >65 + major surgery เป็นเกณฑ์ของ CBC และ Cr ไม่ใช่ UA — จะถูกถ้าถามเหตุผลส่ง CBC",
+  "เสียเลือดมากเป็นเกณฑ์ของ CBC — จะถูกถ้าถามเหตุผลส่ง CBC ก่อนผ่าตัด hepatectomy",
+  "เสี่ยง electrolyte abnormality เป็นเกณฑ์ของ electrolyte — จะถูกถ้ากิน diuretic",
+  "previous MI เป็นเหตุผลของ EKG baseline — จะถูกถ้าถามเรื่องหัวใจ"
  ],
  "trap": "อย่าเลือกเหตุผลของ test อื่นมาปน",
  "summary": [
-  "UA ส่งเมื่อสงสัย UTI",
-  "UA ส่งก่อน endoscopic urologic procedure (TURP)",
-  "UA ไม่ใช่ routine ในผู้ป่วยทั่วไป"
+  "UA ส่งเมื่อสงสัย UTI หรือก่อน endoscopic urologic procedure (TURP)",
+  "UA ไม่ routine ในผู้ป่วยทั่วไป",
+  "แต่ละ test มีข้อบ่งชี้เฉพาะ อย่าปนเกณฑ์ข้ามกัน",
+  "TURP เป็น low surgical risk ใน ESC Table 5"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -789,18 +805,19 @@ U({
   "l12_p12"
  ],
  "interp": "ผู้ป่วยอายุ >65 + HT + DM แต่ผ่าตัด superficial lipoma = low surgical risk",
- "why": "ESC 2022 (78) ไม่ใช้ EKG routine ใน low-risk surgery แม้มี CV risk factor จึงไม่ต้องทำ",
+ "why": "78 หน้า 21 พิมพ์ ESC 2022: <b>\"Not routinely use in low risk surgery\"</b> และ 78 หน้า 12 Table 5 จัด <b>\"Superficial surgery\"</b> เป็น low risk (<1%) ผู้ป่วยอายุ 72 ปีมี HT และ DM แต่ผ่าตัด lipoma ผิวหนังจึงไม่ต้องทำ EKG ⚠ jod หน้า 19 ใช้เกณฑ์เก่า (ชาย >45, หญิง >55) ซึ่งขัดกับ ESC 2022 จึงใช้ ESC 2022 เป็นหลัก",
  "wrong": [
-  "ESC 2022 ไม่ routine EKG ใน low-risk surgery แม้มี risk factor — จะถูกถ้าเป็น intermediate/high-risk surgery",
-  "ไม่มีข้อบ่งชี้ echo ในการผ่าตัดเล็ก — จะถูกถ้าสงสัย HF/valve disease",
-  "ไม่ต้องทำ stress test ใน low-risk — จะถูกถ้าผ่าตัด high-risk ที่มี METs ต่ำ",
-  "angiography ไม่ใช่การประเมินก่อนผ่าตัด minor — จะถูกถ้ามีข้อบ่งชี้ ACS"
+  "ECG ใน low-risk surgery ไม่ routine แม้มี risk factor — จะถูกถ้าเป็น intermediate หรือ high-risk surgery",
+  "echo ไม่มีข้อบ่งชี้เมื่อไม่มีอาการหรือ murmur — จะถูกถ้ามีหอบ บวม หรือ murmur ใหม่",
+  "stress test ไม่ทำใน low-risk surgery — จะถูกถ้าผ่าตัด high-risk ที่ METs ต่ำ",
+  "angiography ไม่ใช่ preop test ในผ่าตัดเล็กไม่มีอาการ — จะถูกถ้ามี ACS หรือ unstable angina"
  ],
  "trap": "⚠ jod ใช้เกณฑ์เก่า (ชาย >45, หญิง >55) ซึ่งขัดกับ ESC 2022 — ใช้ ESC 2022 เป็นหลัก",
  "summary": [
-  "EKG ไม่ routine ใน low-risk surgery",
-  "Superficial surgery เป็น low risk (<1%)",
-  "ESC 2022: ≥65 หรือมี risk factor ทำ EKG เมื่อ intermediate/high-risk"
+  "ESC 2022: ไม่ routine EKG ใน low-risk surgery",
+  "Superficial, breast, dental, eye, thyroid, TURP เป็น low risk (<1%)",
+  "EKG ทำเมื่อ ≥65 หรือมี risk factor + intermediate–high risk surgery",
+  "⚠ jod ใช้เกณฑ์อายุเก่า ชาย >45 หญิง >55"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -824,19 +841,19 @@ U({
   "l12_p12"
  ],
  "interp": "อายุ 70 + HT + DM; chole = intermediate surgical risk",
- "why": "ESC 2022 ในสไลด์ให้ EKG ถ้า >65 หรือมี risk factor + intermediate–high risk surgery ผู้ป่วยตรงทั้งสองข้อ",
+ "why": "78 หน้า 21 พิมพ์ว่า <b>\"patient over 65 / risk factor + intermediate – high risk surgery\"</b> และ Table 5 หน้า 12 จัด <b>\"cholecystectomy\"</b> เป็น intermediate risk ผู้ป่วยอายุ 70 ปีมี HT และ DM จึงเข้าเกณฑ์ ESC 2022 ครบทั้งอายุ/risk factor และชนิดผ่าตัด ต้องทำ 12-lead ECG ก่อนผ่าตัด",
  "wrong": [
-  "อายุ >65/risk factor + intermediate risk surgery ต้องทำ EKG — จะถูกถ้าเป็น low-risk surgery",
-  "CXR ไม่แทน EKG — จะถูกถ้าสงสัยโรคปอด",
+  "ข้ามไปโดยไม่ทำ ECG ผิดเพราะเข้าเกณฑ์ ≥65 + intermediate risk — จะถูกถ้าเป็น low-risk surgery",
+  "CXR ไม่ใช่การตรวจหัวใจแทน EKG — จะถูกถ้าสงสัยโรคปอดหรือหัวใจวาย",
   "PFT ไม่ใช่ cardiac test — จะถูกถ้ามี COPD รุนแรง",
-  "troponin baseline ไม่ใช่ข้อที่สไลด์ระบุในข้อนี้ — จะถูกถ้าเป็น high-risk surgery ตาม ESC 2022 algorithm"
+  "troponin อย่างเดียวไม่ใช่ข้อที่สไลด์ให้ในข้อนี้ — จะถูกถ้าเป็น high-risk surgery ตาม ESC 2022 algorithm"
  ],
  "trap": "",
  "summary": [
-  "EKG: known coronary/significant heart disease",
-  "<65 ไม่มี risk factor + high-risk surgery",
-  "≥65 หรือ risk factor + intermediate–high risk surgery",
-  "ไม่ routine ใน low-risk surgery"
+  "ESC 2022 EKG: known coronary/significant heart disease",
+  "<65 ปีไม่มี risk factor + high-risk surgery",
+  "≥65 ปีหรือมี risk factor + intermediate–high risk surgery",
+  "Lap chole = intermediate risk (1–5%)"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -860,18 +877,19 @@ U({
   "l12_p12"
  ],
  "interp": "ผู้ป่วยไม่มี risk factor แต่ผ่าตัด duodenal-pancreatic = high surgical risk (>5%)",
- "why": "หัวข้อ EKG ใน ESC 2022 ครอบคลุม <65 ปีที่ไม่มี risk factor เมื่อผ่าตัด high-risk",
+ "why": "78 หน้า 21 พิมพ์ว่า <b>\"patient <65 w/o risk factor + high-risk surgery\"</b> และ Table 5 หน้า 12 จัด <b>\"Duodenal-pancreatic surgery\"</b> เป็น high risk (>5%) ผู้ป่วยอายุ 55 ปีสุขภาพดีแต่ผ่าตัด Whipple จึงเข้าเกณฑ์ ECG แม้ไม่มี risk factor เพราะตัวผ่าตัดเองมีความเสี่ยงสูง",
  "wrong": [
-  "ESC 2022 ให้ EKG ในผู้ป่วย <65 ที่ไม่มี risk factor ถ้าผ่าตัด high-risk — จะถูกถ้าเป็น low-risk surgery",
-  "echo ไม่ใช่การตรวจพื้นฐานในผู้ที่ไม่มีอาการ — จะถูกถ้าสงสัย HF",
-  "angiography ไม่ใช่ test คัดกรอง — จะถูกถ้าสงสัย ACS",
-  "Holter ไม่ใช่ test คัดกรอง — จะถูกถ้าสงสัย arrhythmia"
+  "ไม่ต้องตรวจเลยผิดเพราะ high-risk surgery ทำให้ต้องทำ ECG แม้อายุน้อย — จะถูกถ้าเป็น low-risk surgery เช่น lipoma",
+  "echo อย่างเดียวไม่ใช่การตรวจพื้นฐานในผู้ไม่มีอาการ — จะถูกถ้ามี murmur หรือ HF",
+  "angiography ไม่ใช่ screening — จะถูกถ้ามี ACS",
+  "Holter ไม่ใช่ screening — จะถูกถ้าสงสัย arrhythmia"
  ],
  "trap": "อย่าคิดว่าคนอายุน้อยสุขภาพดีไม่ต้องทำ EKG ในผ่าตัดใหญ่",
  "summary": [
-  "EKG: high-risk surgery แม้อายุ <65 ไม่มี risk factor",
-  "Duodenal-pancreatic surgery เป็น high risk (>5%)",
-  "low-risk surgery ไม่ routine"
+  "ECG ทำใน high-risk surgery แม้อายุ <65 และไม่มี risk factor",
+  "High risk >5%: Whipple, liver resection, oesophagectomy, adrenal, major vascular",
+  "ไม่ routine ใน low-risk surgery",
+  "Intermediate/high ใน ≥65 หรือมี risk factor ทำ ECG"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -894,18 +912,19 @@ U({
   "l12_p21"
  ],
  "interp": "เคยเป็น MI แล้วขอ EKG ในผู้ไม่มีอาการ ถามวัตถุประสงค์",
- "why": "78 หน้า 21 ไฮไลต์ previous MI, preoperative baseline คือเก็บ EKG พื้นฐานไว้เทียบเมื่อเกิดเหตุการณ์หลังผ่าตัด",
+ "why": "78 หน้า 21 ไฮไลต์ม่วงที่ <b>\"previous myocardial infarction, preoperative baseline\"</b> หมายถึงผู้ป่วยที่เคยเป็น MI ควรมี ECG พื้นฐานก่อนผ่าตัดไว้เทียบ ผู้ป่วยรายนี้เคย MI เมื่อ 3 ปีก่อนและไม่มีอาการ ECG จึงมีหน้าที่เป็น baseline ถ้าหลังผ่าตัดมีแน่นหน้าอกหรือสงสัย perioperative MI จะได้เทียบการเปลี่ยนแปลงได้ ส่วนลายมือ 78 ใต้คำว่า EKG อ่านไม่ชัด (ไม่ใช้)",
  "wrong": [
-  "EKG ไม่ใช้วินิจฉัย PE เป็นหลัก — จะถูกถ้ามีอาการ PE",
-  "EF วัดด้วย echocardiography — จะถูกถ้าสงสัย HF",
-  "EKG ไม่เกี่ยวกับ airway — จะถูกถ้าใช้ Mallampati",
-  "EKG ตรวจ anemia ไม่ได้ — จะถูกถ้าใช้ CBC"
+  "ECG ไม่ใช่การวินิจฉัย PE หลัก — จะถูกถ้าหอบเฉียบพลันและสงสัย PE ซึ่ง ECG อาจช่วยดู S1Q3T3 หรือ tachycardia",
+  "การวัด EF ต้องใช้ echocardiography ไม่ใช่ ECG — จะถูกถ้าสงสัย HF หรือ valve disease",
+  "ECG ไม่เกี่ยวกับ airway ซึ่งประเมินด้วย Mallampati — จะถูกถ้าถามเรื่อง difficult intubation",
+  "ECG ตรวจ anemia ไม่ได้ ต้องใช้ CBC — จะถูกถ้ามีซีดจนหัวใจเต้นเร็ว"
  ],
  "trap": "",
  "summary": [
-  "EKG ประโยชน์เป็น preoperative baseline ใน previous MI",
-  "ใช้เทียบเมื่อมีอาการ perioperative MI",
-  "ไม่ใช้วัด EF หรือวินิจฉัย PE"
+  "ECG ใน previous MI มีประโยชน์เป็น preoperative baseline",
+  "ใช้เทียบเมื่อสงสัย perioperative MI หลังผ่าตัด",
+  "ESC 2022: known coronary disease เป็นข้อบ่งชี้ ECG",
+  "ECG ไม่วัด EF ต้องใช้ echo"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -928,19 +947,19 @@ U({
   "l12b_p18"
  ],
  "interp": "EKG ปกติในผู้ป่วย DM+HT; ถามว่าต้องทำอะไรต่อ",
- "why": "ลายมือ jod: EKG abnormal = แก้ไข, normal = ประเมิน risk MI เพิ่ม และสไลด์ย้ำว่า unrecognized infarction พบได้บ่อย",
+ "why": "ลายมือ jod หน้า 18 เขียนว่า <b>\"{abnormal = แก้ไข ; normal = ประเมิน risk MI เพิ่ม}\"</b> และสไลด์พิมพ์ <b>\"Unrecognized infarctions may be relatively common\"</b> ผู้ป่วยอายุ 63 ปีเป็น DM+HT ที่ ECG ปกติจึงยังต้องประเมิน risk MI/หัวใจต่อ เพราะ ECG ปกติไม่ได้ยกเว้นโรคหลอดเลือดหัวใจและ MI ที่ไม่มีอาการพบได้บ่อย",
  "wrong": [
-  "EKG ปกติไม่ได้ยกเว้น MI — จะถูกถ้ามี negative predictive value สูง ซึ่งสไลด์ไม่ได้ให้",
-  "การทดสอบ stress ไม่ได้บังคับเมื่อ EKG ปกติ — จะถูกถ้ามี METs ต่ำและ risk สูง",
-  "angiography ไม่ใช่ข้อบ่งชี้ — จะถูกถ้ามี ACS",
-  "jod ระบุว่าต้องประเมิน risk MI เพิ่ม ไม่ใช่ข้ามการประเมิน — จะถูกถ้าไม่มี risk factor และเป็น low risk surgery"
+  "ECG ปกติไม่ได้ยกเว้น perioperative MI โดยเฉพาะ silent infarction ใน DM — จะถูกถ้ามี negative predictive value สูงที่สไลด์ไม่ได้ให้",
+  "ECG ปกติไม่ได้บังคับ stress test ให้ทำ — จะถูกถ้า METs ต่ำและเป็น high-risk surgery",
+  "ECG ปกติไม่ใช่ข้อบ่งชี้ angiography — จะถูกถ้ามี ACS หรือ unstable angina",
+  "การข้ามการประเมินหัวใจทั้งหมดขัดกับลายมือ jod — จะถูกถ้าผ่าตัด low-risk และไม่มี risk factor"
  ],
  "trap": "EKG ปกติไม่ได้แปลว่าปลอดภัย",
  "summary": [
-  "EKG abnormal → แก้ไข",
-  "EKG normal → ประเมิน risk MI เพิ่ม",
-  "unrecognized infarction พบได้บ่อย",
-  "abnormal ECG เพิ่มตามอายุ"
+  "jod: ECG abnormal → แก้ไข, normal → ประเมิน risk MI เพิ่ม",
+  "Unrecognized infarction พบได้บ่อยโดยเฉพาะ DM",
+  "ความชุกของ abnormal ECG เพิ่มตามอายุอย่าง exponential",
+  "ECG ปกติไม่ได้แปลว่าความเสี่ยงหัวใจต่ำ"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -965,19 +984,19 @@ U({
   "l12b_p22"
  ],
  "interp": "DM คุมไม่ดี + COPD ที่มี functional limitation",
- "why": "ตัวอย่างใน ASA III ระบุ poorly controlled DM, COPD โดยตรง",
+ "why": "รูปตาราง ASA (78 หน้า 24) ระบุ class III ว่า <b>\"A patient with severe systemic disease\"</b> ตัวอย่างรวม <b>\"poorly controlled DM or HTN, COPD, morbid obesity (BMI ≥ 40) ...\"</b> ผู้ป่วยมี DM คุมไม่ดีและ COPD ที่หอบเมื่อออกแรง (substantive functional limitation) แต่ยังทำกิจวัตรเองได้และไม่ถึง constant threat to life จึงเป็น ASA III",
  "wrong": [
-  "ASA I คือคนปกติ — จะถูกถ้าไม่มีโรค",
-  "ASA II คือโรคเล็กน้อย/คุมดี เช่น well-controlled DM/HTN — จะถูกถ้าเบาหวานคุมดีและปอดเล็กน้อย",
-  "ASA IV คือ constant threat to life เช่น MI <3 เดือน — จะถูกถ้ามี ongoing ischemia/sepsis",
-  "ASA V คือ moribund — จะถูกถ้าไม่ผ่าตัดจะไม่รอด"
+  "ASA I คือสุขภาพดี ไม่สูบ ไม่ดื่ม — จะถูกถ้าไม่มีโรคประจำตัว",
+  "ASA II คือโรคเล็กน้อยไม่มี functional limitation เช่น well-controlled DM/HTN — จะถูกถ้า DM คุมดีและปอดเล็กน้อย",
+  "ASA IV คือ constant threat to life เช่น MI <3 เดือน sepsis — จะถูกถ้ามี decompensation หรือ ischemia ต่อเนื่อง",
+  "ASA V คือ moribund ไม่รอดถ้าไม่ผ่าตัด — จะถูกถ้ามี ruptured aneurysm"
  ],
  "trap": "อย่าสับสนกับ ASA II (well-controlled DM/HTN)",
  "summary": [
   "ASA I = normal healthy",
-  "ASA II = mild systemic disease, well-controlled DM/HTN, smoker, obesity BMI 30–40",
-  "ASA III = poorly controlled DM/HTN, COPD, BMI ≥40, ESRD on regular dialysis",
-  "ASA IV = constant threat to life"
+  "ASA II = mild systemic disease: smoker, social alcohol, pregnancy, BMI 30–40, well-controlled DM/HTN",
+  "ASA III = poorly controlled DM/HTN, COPD, BMI ≥40, active hepatitis, alcohol dependence, pacemaker, ESRD on regular dialysis, MI/CVA/stent >3 เดือน",
+  "ASA IV = constant threat to life: MI/CVA <3 เดือน, sepsis, DIC, ARDS, ESRD ไม่ฟอกประจำ"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1001,18 +1020,19 @@ U({
   "l12_p21"
  ],
  "interp": "หญิงอายุ 52 ใช้ furosemide ไม่เข้าเกณฑ์อายุของ jod (หญิง >55) จึงต้องมองข้ออื่น",
- "why": "jod หน้า 19 มีเกณฑ์ risk electrolyte abnormality จาก diuretic ⚠ ไฟล์ 78 ใช้ ESC 2022 (≥65/risk factor + intermediate–high risk surgery) ซึ่งข้อนี้ได้ EKG ตรงกัน (HT เป็น risk factor + cholecystectomy intermediate)",
+ "why": "jod หน้า 19 พิมพ์เกณฑ์ ECG เก่าว่า <b>\"Men > 45 years, Women > 55 years\"</b> รวมกับ <b>\"risk for electrolyte abnormalities such as diuretic use\"</b> และ <b>\"systemic disease ... such as DM or HT\"</b> หญิงอายุ 52 ปีไม่เข้าเกณฑ์อายุ แต่ใช้ furosemide จึงเข้าข้อ diuretic ⚠ ไฟล์ 78 ใช้ ESC 2022 ซึ่งผู้ป่วยก็เข้าเกณฑ์ (HT เป็น risk factor + cholecystectomy intermediate) คำตอบจึงตรงกันทั้งสองไฟล์",
  "wrong": [
-  "เกณฑ์ jod ใช้หญิงอายุ >55 ปี ไม่ใช่เพศหญิงเฉยๆ — จะถูกถ้าอายุ >55",
-  "BMI ปกติไม่ใช่เกณฑ์ — จะถูกถ้ามีโรคอ้วนที่สไลด์ระบุ",
-  "ไม่มีอาการไม่ใช่ข้อบ่งชี้ — จะถูกถ้ามี known cardiac disease",
-  "การดมยาที่ผ่านมาไม่ใช่เกณฑ์ — จะถูกถ้ามีประวัติแพ้ยาสลบ"
+  "เพศหญิงอายุ <55 ปีไม่ถึงเกณฑ์หญิง >55 ของ jod — จะถูกถ้าเธออายุ 60",
+  "BMI ปกติไม่ใช่เกณฑ์ ECG — จะถูกถ้าเป็นโรคอ้วนร่วมกับ DM",
+  "การไม่มีอาการไม่ใช่ข้อบ่งชี้ ECG เป็นข้อยกเว้นด้วยซ้ำ — จะถูกถ้ามี known cardiac disease",
+  "ประวัติดมยาที่ผ่านมาไม่เกี่ยวกับเกณฑ์ ECG — จะถูกถ้าถามเรื่อง malignant hyperthermia"
  ],
  "trap": "เกณฑ์อายุของ jod เก่า (ชาย >45/หญิง >55) ไม่ตรงกับ ESC 2022",
  "summary": [
-  "jod: ชาย >45, หญิง >55, known cardiac disease",
-  "jod: risk electrolyte abnormality เช่น diuretic, DM/HT, major surgery",
-  "78 (ESC 2022): known heart disease; <65 ไม่มี risk factor + high-risk; ≥65/risk factor + intermediate–high"
+  "jod: ชาย >45, หญิง >55, known cardiac disease, clinical suspicion",
+  "jod: เสี่ยง electrolyte abnormality เช่น diuretic, ระบบที่อาจมีโรคหัวใจซ่อน เช่น DM/HT, major surgery",
+  "78 (ESC 2022): known heart disease, <65 ไม่มี risk factor + high-risk surgery, ≥65/risk factor + intermediate–high risk",
+  "⚠ เกณฑ์อายุของ jod เก่ากว่า ESC 2022"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1036,18 +1056,19 @@ U({
   "l12b_p20"
  ],
  "interp": "สุขภาพดี ไม่มีอาการ ตรวจร่างกายปกติ",
- "why": "ทั้งสองไฟล์ย้ำว่า CXR ไม่ routine ทำเมื่อสงสัยโรคหัวใจ/ปอด",
+ "why": "78 หน้า 22 พิมพ์ว่า <b>\"Not be routinely performed\"</b> และ <b>\"Patients with suspected cardiac or pulmonary disease\"</b> ส่วน jod หน้า 20 ก็พิมพ์ <b>\"Not routinely performed\"</b> ชายอายุ 35 ปีสุขภาพดีไม่สูบบุหรี่ ไม่มีอาการ ตรวจปอดปกติ จึงไม่ต้อง CXR แม้จะดมยาสลบ",
  "wrong": [
-  "CXR ไม่ routine ในทุกราย — จะถูกถ้ามีข้อบ่งชี้ cardiopulmonary",
-  "CXR+spirometry ไม่มีข้อบ่งชี้ — จะถูกถ้าสงสัยโรคปอด",
-  "สไลด์ 78 ไม่ใช้เกณฑ์อายุ 40 ปี และ jod ใช้ >50 ปีใน major surgery — จะถูกถ้าเป็นผู้สูงอายุผ่าตัดใหญ่ตาม jod",
-  "CT เป็นการตรวจเกินความจำเป็น — จะถูกถ้ามีก้อน/อาการ"
+  "การทำ CXR ในทุกรายที่ดมยาสลบขัดกับคำว่า not routine — จะถูกถ้ามีอาการหรือสงสัยโรคหัวใจ/ปอด",
+  "CXR + spirometry ไม่มีข้อบ่งชี้ในผู้ไม่มีอาการ — จะถูกถ้าสงสัย COPD หรือจะตัดปอด",
+  "เกณฑ์อายุ >40 ปีไม่มีในสไลด์ (jod ใช้ >50 ปี + major surgery) และผ่าตัดนี้เป็น minor — จะถูกถ้าเป็นผู้สูงอายุผ่าตัดใหญ่ตาม jod",
+  "CT chest เป็นการตรวจเกินจำเป็น — จะถูกถ้ามีก้อนในปอดหรือสงสัยมะเร็ง"
  ],
  "trap": "ไม่ต้อง CXR ทุกคน",
  "summary": [
-  "CXR ไม่ routine",
-  "ทำเมื่อสงสัยโรคหัวใจ/ปอด",
-  "เสี่ยง: smoking, recent URI, advanced age (78)"
+  "CXR ไม่ routine ทำเมื่อสงสัยโรคหัวใจหรือปอด",
+  "Risk factor ตาม 78: smoking, recent URI, advanced age",
+  "jod เพิ่ม: >50 ปี + major surgery",
+  "ผู้ป่วยสุขภาพดีไม่มีอาการไม่ต้อง CXR"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1071,18 +1092,19 @@ U({
   "l12b_p20"
  ],
  "interp": "หอบเหนื่อย orthopnea crackles = สงสัยโรคหัวใจ/ปอด",
- "why": "78 หน้า 22 และ jod หน้า 20 ให้ CXR เมื่อสงสัยโรคหัวใจหรือปอด",
+ "why": "78 หน้า 22 พิมพ์ <b>\"Patients with suspected cardiac or pulmonary disease\"</b> และ jod หน้า 20 พิมพ์ข้อเดียวกัน ผู้ป่วยมีหอบเหนื่อยเพิ่มขึ้น orthopnea 1 เดือน และ crackles ที่ฐานปอดสองข้าง ซึ่งชี้ cardiac/pulmonary disease (เช่น heart failure หรือ pulmonary edema) จึงต้องทำ CXR ก่อนผ่าตัด",
  "wrong": [
-  "UA ส่งเมื่อสงสัย UTI/TURP — จะถูกถ้ามีอาการปัสสาวะ",
-  "amylase ไม่ใช่ preop test — จะถูกถ้าสงสัย pancreatitis",
-  "HBsAg ไม่เกี่ยวกับอาการปอด/หัวใจ — จะถูกถ้ามี risk ตับอักเสบ",
-  "coag ส่งเมื่อมี Hx เลือดออก/ยา — จะถูกถ้ามี"
+  "UA ไม่เกี่ยวกับอาการทางปอดและหัวใจ — จะถูกถ้ามีฉี่แสบขัดหรือจะทำ TURP",
+  "amylase ไม่ใช่ preop test ในสไลด์ — จะถูกถ้าปวดท้องบนและสงสัย pancreatitis",
+  "HBsAg ไม่ใช่ข้อบ่งชี้จากอาการเหล่านี้ — จะถูกถ้ามี risk ไวรัสตับอักเสบ",
+  "coag ส่งเมื่อมีประวัติเลือดออกหรือกินยา anticoagulant — จะถูกถ้ากิน warfarin"
  ],
  "trap": "",
  "summary": [
-  "CXR ไม่ routine",
-  "ส่งเมื่อสงสัย cardiac/pulmonary disease",
-  "ปัจจัย: smoking, recent URI, advanced age"
+  "CXR ส่งเมื่อสงสัย cardiac หรือ pulmonary disease",
+  "อาการที่ชี้: dyspnea, orthopnea, crackles, ไอเรื้อรัง",
+  "เสี่ยง: smoking, recent URI, advanced age (78)",
+  "ไม่ใช้เป็น routine screening"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1108,18 +1130,19 @@ U({
   "l12b_p23"
  ],
  "interp": "MI 6 สัปดาห์ (<3 เดือน) = ตัวอย่างใน ASA IV",
- "why": "78 หน้า 24 จัด recent MI (<3 เดือน) เป็น ASA IV และ 78 หน้า 25 ให้ mortality ของ class 4 = 8%",
+ "why": "78 หน้า 24 พิมพ์ว่า ASA IV คือ <b>\"A patient with severe systemic disease that is a constant threat to life\"</b> ตัวอย่างรวม <b>\"recent (< 3 months) MI, CVA, TIA, or CAD/stents\"</b> และ 78 หน้า 25 (ตารางในรูป) ให้ mortality ของ class 4 = 8% ผู้ป่วย MI เมื่อ 6 สัปดาห์ก่อน (<3 เดือน) จึงเป็น ASA IV และ mortality ประมาณ 8%",
  "wrong": [
-  "MI >3 เดือนจึงเป็น ASA III — จะถูกถ้า MI เกิดเกิน 3 เดือน",
-  "ASA II คือโรคเล็กน้อย — จะถูกถ้าเป็น well-controlled disease",
-  "ASA V คือ moribund — จะถูกถ้าไม่ผ่าตัดจะเสียชีวิต",
-  "ASA I คือสุขภาพดี — จะถูกถ้าไม่มีโรค"
+  "ASA III ใช้ MI เกิน 3 เดือน mortality 1.2% — จะถูกถ้า MI เมื่อ 5 เดือนก่อนและคงที่",
+  "ASA II คือโรคเล็กน้อย mortality 0.2% — จะถูกถ้ามีเพียง well-controlled HTN",
+  "ASA V คือ moribund mortality 34% — จะถูกถ้าไม่ผ่าตัดจะเสียชีวิต เช่น ruptured aneurysm",
+  "ASA I คือสุขภาพดี mortality <0.03% — จะถูกถ้าไม่มีโรค"
  ],
  "trap": "MI >3 เดือนเป็น ASA III",
  "summary": [
-  "ASA I <0.03%, II 0.2%, III 1.2%, IV 8%, V 34%",
-  "IV = recent <3 เดือน MI/CVA/TIA/stents",
-  "III = history >3 เดือน"
+  "ASA mortality: I <0.03%, II 0.2%, III 1.2%, IV 8%, V 34%",
+  "MI/CVA/TIA/stent <3 เดือน = IV, >3 เดือน = III",
+  "ASA VI = brain-dead organ donor ไม่มีค่า mortality",
+  "ตัวเลข mortality เป็นข้อมูลเก่าใช้เปรียบเทียบเชิงแนวโน้ม"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1142,18 +1165,19 @@ U({
   "l12_p22"
  ],
  "interp": "URI ล่าสุด ไอ มีเสมหะ ไข้ต่ำ",
- "why": "78 หน้า 22 รวม recent URI เป็น risk factor ของ CXR",
+ "why": "78 หน้า 22 พิมพ์ในหัวข้อ CXR ว่า <b>\"Risk factor: smoking, recent URI, advanced age\"</b> ผู้ป่วยมี URI ล่าสุด ไอมีเสมหะ 5 วันและไข้ต่ำ จึงเข้าข้อ recent URI ซึ่งต้องดูว่ามีโรคปอด เช่น pneumonia หรือไม่ก่อนผ่าตัด elective การตรวจที่ตรงกับสไลด์คือ CXR",
  "wrong": [
-  "UA ไม่เกี่ยวกับ URI — จะถูกถ้ามีอาการปัสสาวะ",
-  "LFT ส่งตาม Hx ตับ — จะถูกถ้ามี jaundice",
-  "HbA1c สำหรับผู้เสี่ยง DM — จะถูกถ้ามี DM risk",
-  "Cr สำหรับ >50 ปี major surgery หรือเสี่ยงไต — จะถูกถ้ามี risk"
+  "UA ไม่เกี่ยวกับ URI — จะถูกถ้ามีฉี่แสบขัด",
+  "LFT ส่งตามประวัติตับ — จะถูกถ้ามีดีซ่านหรือดื่มสุราหนัก",
+  "HbA1c ส่งในผู้เสี่ยง DM — จะถูกถ้ามีอาการ polyuria หรือ BMI สูง",
+  "Cr ส่งเมื่อ >50 ปี major surgery หรือเสี่ยงไต — จะถูกถ้ากิน ACEI/NSAIDs"
  ],
  "trap": "",
  "summary": [
   "CXR ไม่ routine",
-  "risk factor: smoking, recent URI, advanced age",
-  "jod เพิ่ม >50 ปี major surgery"
+  "Risk factor ของ CXR: smoking, recent URI, advanced age",
+  "สงสัย cardiac/pulmonary disease เป็นข้อบ่งชี้หลัก",
+  "URI ล่าสุดควรประเมินก่อนผ่าตัด elective ว่ามี pneumonia หรือไม่"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1177,18 +1201,19 @@ U({
   "l12b_p21"
  ],
  "interp": "ถามภาพรวม risk evaluation ของผู้ป่วยก่อนผ่าตัด",
- "why": "78 ให้ CV, pulmonary, VTE; jod เพิ่ม bleeding (⚠ ต่างกันเล็กน้อย) รวมทั้งสองไฟล์ = CV, pulmonary, bleeding, VTE",
+ "why": "78 หน้า 23 พิมพ์ risk evaluation 3 ด้านคือ <b>\"Risk of cardiovascular complication · pulmonary complication · VTE\"</b> ส่วน jod หน้า 21 เพิ่ม <b>\"Risk of bleeding\"</b> และลายมือ <b>\"└ ดู risk ทุก organ !\"</b> ⚠ ต่างกันเล็กน้อย เมื่อรวมทั้งสองไฟล์จึงเป็น CV, pulmonary, bleeding และ VTE ซึ่งเป็นหัวข้อที่ตามมาในบทเรียน",
  "wrong": [
-  "ตัวเลือกใช้ระบบที่ไม่ใช่หัวข้อ risk evaluation — จะถูกถ้าสไลด์ระบุ hepatic/renal/endocrine",
-  "neurologic, dermatologic, ocular ไม่อยู่ในรายการ — จะถูกถ้าเป็นการตรวจระบบอื่น",
-  "dental ไม่ใช่หัวข้อ — จะถูกถ้าถามเรื่อง airway",
-  "hepatic/endocrine ไม่ใช่หัวข้อหลัก — จะถูกถ้าเป็น lab selective"
+  "ชุด hepatic/renal/endocrine เป็นระบบที่ประเมินด้วย lab ตามข้อบ่งชี้ ไม่ใช่หัวข้อ risk evaluation หลัก — จะถูกถ้าถามเรื่อง selective lab",
+  "neurologic/dermatologic/ocular ไม่อยู่ในหัวข้อ risk evaluation — จะถูกถ้าเป็นการตรวจร่างกายตามระบบ",
+  "dental และ renal ไม่ใช่หัวข้อหลักของ risk evaluation — จะถูกถ้าถามเรื่องการตรวจร่างกายหรือ lab เฉพาะราย",
+  "hepatic และ endocrine ไม่ใช่หัวข้อหลัก — จะถูกถ้าผู้ป่วยมีโรคตับหรือ DM ที่ต้องประเมินเพิ่ม"
  ],
  "trap": "",
  "summary": [
   "Risk evaluation: CV, pulmonary, bleeding, VTE",
-  "78 มี 3 หัวข้อ jod เพิ่ม bleeding",
-  "แต่ละหัวข้อมีอธิบายต่อ"
+  "78 มี 3 หัวข้อ (CV, pulmonary, VTE) jod เพิ่ม bleeding",
+  "ลายมือ jod: ดู risk ทุก organ",
+  "แต่ละหัวข้อตามด้วยเครื่องมือประเมิน เช่น RCRI, pulmonary risk, bleeding risk, Caprini"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1212,18 +1237,19 @@ U({
   "l12_p24"
  ],
  "interp": "เปรียบเทียบ ESC (ตามผ่าตัด) กับ ASA (ตามคนไข้)",
- "why": "ESC Table 5 ประเมินจากชนิดผ่าตัดเท่านั้น ไม่รวม comorbidities ส่วน ASA ดูผู้ป่วยอย่างเดียว",
+ "why": "78 หน้า 12 พิมพ์ว่า <b>\"Surgical risk estimate is a broad approximation of 30 day risk of CV death, MI, and stroke that takes into account only the specific surgical intervention, without considering the patient's comorbidities\"</b> ส่วนลายมือ 78 หน้า 24 บอกว่า ASA <b>\"ดูที่คนไข้อย่างเดียว ไม่ได้ดู type of Sx.\"</b> ESC Table 5 จึงดูเฉพาะชนิดผ่าตัด ขณะที่ ASA ดูเฉพาะผู้ป่วย",
  "wrong": [
-  "comorbidities คือสิ่งที่ ASA ประเมิน — จะถูกถ้าถามว่า ASA ดูอะไร",
-  "ESC ไม่นำ comorbidities มาคิด — จะถูกถ้าเป็น RCRI/NSQIP",
-  "ไม่ใช่ปัจจัยในนิยาม — จะถูกถ้าเป็น anesthesia risk",
-  "ไม่ใช่ปัจจัยในนิยาม — จะถูกถ้าเป็น quality indicator"
+  "comorbidities เป็นสิ่งที่ ASA ประเมิน ไม่ใช่ ESC Table 5 — จะถูกถ้าถามว่า ASA ดูอะไร",
+  "ESC Table 5 ไม่รวม comorbidities ตามคำอธิบายท้ายตาราง — จะถูกถ้าเป็น RCRI หรือ NSQIP ที่รวมปัจจัยผู้ป่วย",
+  "เทคนิคการให้ยาสลบไม่ใช่ปัจจัยในนิยาม — จะถูกถ้าเป็นการประเมินความเสี่ยงของ anesthesia",
+  "ประสบการณ์ศัลยแพทย์ไม่ใช่ปัจจัยในนิยาม — จะถูกถ้าเป็น quality indicator ของสถาบัน"
  ],
  "trap": "สลับ ESC กับ ASA",
  "summary": [
-  "ESC Table 5: จัดตามชนิดผ่าตัด",
-  "ASA: จัดตามสภาพผู้ป่วย",
-  "ค่า risk = 30-day CV death, MI, stroke"
+  "ESC Table 5: จัดตามชนิดผ่าตัดอย่างเดียว ไม่ดู comorbidities",
+  "ASA: จัดตามสภาพผู้ป่วยอย่างเดียว ไม่ดูชนิดผ่าตัด",
+  "ค่าที่ประมาณ: 30-day CV death, MI, stroke",
+  "ผู้ป่วยสุขภาพดีสองคน ผ่าตัดต่างกัน ASA เท่ากันแต่ ESC risk ต่างกัน"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1246,18 +1272,19 @@ U({
   "l12_p12"
  ],
  "interp": "breast surgery ในตาราง ESC 2022 Table 5",
- "why": "Breast อยู่ใน low risk (<1%) พร้อม dental, thyroid, eye, minor gynaecological ฯลฯ",
+ "why": "78 หน้า 12 Table 5 พิมพ์ <b>\"Low surgical risk (<1%)\"</b> และมี <b>\"Breast\"</b> (ไฮไลต์ม่วง) ร่วมกับ dental, thyroid, eye, minor gynaecological ผู้ป่วย lumpectomy ผ่าตัดเต้านมเล็กจึงเป็น low risk <1% ตารางอ้างอิงจากชนิดผ่าตัดอย่างเดียว",
  "wrong": [
-  "intermediate = 1–5% ซึ่ง breast ไม่อยู่ในกลุ่ม — จะถูกถ้าเป็น cholecystectomy",
-  "high >5% สำหรับ oesophagectomy ฯลฯ — จะถูกถ้าเป็นผ่าตัดใหญ่",
-  "ช่วงนี้ไม่มีในตาราง — จะถูกถ้าตารางมีกลุ่มดังกล่าว",
-  "ช่วงนี้ไม่มีในตาราง — จะถูกถ้าตารางมีกลุ่มดังกล่าว"
+  "intermediate 1–5% เป็นกลุ่ม lap chole, splenectomy, hiatal hernia — จะถูกถ้าเป็นผ่าตัดช่องท้องเหล่านี้",
+  "high >5% เป็นกลุ่ม oesophagectomy, Whipple, liver resection — จะถูกถ้าเป็นผ่าตัดใหญ่เหล่านี้",
+  "ช่วง 5–10% ไม่มีในตาราง ESC 2022 — จะถูกถ้าตารางแบ่งละเอียดกว่านี้",
+  "ช่วง >10% ไม่มีในตาราง — จะถูกถ้าตารางมีหลายระดับกว่านี้"
  ],
  "trap": "",
  "summary": [
-  "Low <1%: breast, dental, thyroid, eye, minor gynae, superficial, TURP, minor VATS",
-  "Intermediate 1–5%",
-  "High >5%"
+  "Low <1%: breast, dental, thyroid, eye, minor gynae, minor ortho, reconstructive, superficial, TURP, minor VATS",
+  "Intermediate 1–5%: lap chole, splenectomy, hiatal hernia, head/neck, EVAR",
+  "High >5%: adrenal, Whipple, liver resection, oesophagectomy, perforated bowel",
+  "ไม่ต้องทำ ECG routine ใน low risk"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1280,18 +1307,19 @@ U({
   "l12_p12"
  ],
  "interp": "head or neck surgery ใน ESC Table 5",
- "why": "Head or neck surgery อยู่ในคอลัมน์ intermediate (1–5%) ส่วน thyroid อยู่ใน low",
+ "why": "78 หน้า 12 Table 5 พิมพ์ <b>\"Intermediate surgical risk (1–5%)\"</b> และมี <b>\"Head or neck surgery\"</b> ซึ่งต่างจาก <b>\"Endocrine: thyroid\"</b> ที่เป็น low ผู้ป่วย neck dissection จึงเป็น intermediate risk",
  "wrong": [
-  "head or neck surgery ไม่ได้อยู่ใน low — จะถูกถ้าเป็น thyroid/eye/dental",
-  "ไม่อยู่ในกลุ่ม high — จะถูกถ้าเป็น oesophagectomy",
-  "ไม่มีช่วง below 0.5 percent ในตาราง ESC Table 5 มีแค่ <1, 1–5, >5 — จะถูกถ้าตารางมีกลุ่มดังกล่าว",
-  "ไม่มีช่วง above 10 percent ในตาราง — จะถูกถ้าตารางมี 4 กลุ่ม"
+  "low (<1%) เป็น thyroid, breast, dental, eye — จะถูกถ้าเป็นผ่าตัดเหล่านั้น",
+  "high (>5%) เป็น oesophagectomy, Whipple — จะถูกถ้าเป็นผ่าตัดเหล่านั้น",
+  "ช่วง <0.5% ไม่มีในตาราง — จะถูกถ้าตารางแบ่งละเอียดกว่านี้",
+  "ช่วง >10% ไม่มีในตาราง — จะถูกถ้าตารางมีหลายระดับกว่านี้"
  ],
  "trap": "Thyroid (low) ต่างจาก head & neck (intermediate)",
  "summary": [
-  "Intermediate: carotid, EVAR, head/neck, lap chole, splenectomy, hiatal hernia, major hip/spine",
-  "Thyroid = low",
-  "High: oesophagectomy, pancreas, liver"
+  "Head or neck surgery = intermediate risk",
+  "Thyroid = low risk",
+  "Intermediate: carotid asymptomatic/symptomatic CEA, EVAR, lap chole, intrathoracic non-major, hip/spine, renal transplant",
+  "ต้องดูชนิดผ่าตัดทีละรายการ"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1314,18 +1342,18 @@ U({
   "l12_p12"
  ],
  "interp": "perforated bowel repair ใน ESC Table 5",
- "why": "Repair of perforated bowel อยู่ใน high surgical risk (>5%)",
+ "why": "78 หน้า 12 Table 5 พิมพ์ <b>\"High surgical risk (>5%)\"</b> และมี <b>\"Repair of perforated bowel\"</b> ผู้ป่วย perforated diverticulitis ที่ผ่าตัดซ่อม/ตัดลำไส้ฉุกเฉินจึงเป็น high risk (>5%) โดยตารางไม่ได้พิจารณา comorbidities",
  "wrong": [
-  "ไม่ใช่ low — จะถูกถ้าเป็น superficial surgery",
-  "ไม่ใช่ intermediate — จะถูกถ้าเป็น lap chole",
-  "ไม่มีช่วง 3–10 percent ในตาราง ESC Table 5 — จะถูกถ้าตารางมีช่วงนี้",
-  "ไม่มีช่วง below 3 percent ในตาราง — จะถูกถ้าตารางมีช่วงนี้"
+  "low (<1%) เป็น superficial, breast, thyroid — จะถูกถ้าผ่าตัดเล็ก",
+  "intermediate 1–5% เป็น lap chole, hiatal hernia — จะถูกถ้าผ่าตัดช่องท้องไม่ฉุกเฉิน",
+  "ช่วง 3–10% ไม่มีในตาราง — จะถูกถ้าตารางแบ่งละเอียดกว่านี้",
+  "ช่วง <3% ไม่มีในตาราง — จะถูกถ้าตารางมีหลายระดับกว่านี้"
  ],
  "trap": "",
  "summary": [
-  "High >5%: adrenal, aortic/major vascular, Whipple, liver resection, oesophagectomy, pneumonectomy, perforated bowel, total cystectomy",
-  "ประเมินเฉพาะชนิดผ่าตัด",
-  "ASA ประเมินผู้ป่วย แต่ ESC Table 5 ประเมินชนิดผ่าตัด"
+  "High >5%: adrenal, aortic/major vascular, Whipple, liver resection/bile duct, oesophagectomy, open limb revascularization/amputation, pneumonectomy, lung/liver transplant, perforated bowel, total cystectomy",
+  "ผ่าตัดฉุกเฉินช่องท้องที่ลำไส้ทะลุมี risk สูง",
+  "ASA ต้องประเมินแยกจากชนิดผ่าตัด"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1348,18 +1376,19 @@ U({
   "l12_p12"
  ],
  "interp": "adrenalectomy ต่างจาก thyroid",
- "why": "Adrenal resection อยู่ใน high risk (>5%) ส่วนเฉพาะ thyroid ที่เป็น low",
+ "why": "78 หน้า 12 Table 5 พิมพ์ <b>\"Endocrine: thyroid\"</b> ใน low risk แต่ <b>\"Adrenal resection\"</b> อยู่ใน <b>\"High surgical risk (>5%)\"</b> ผู้ป่วย adrenalectomy จึงเป็น high risk แม้ไทรอยด์จะเป็น low การสรุปว่า endocrine surgery ทั้งหมดเป็น low จึงผิด",
  "wrong": [
-  "thyroid เท่านั้นที่เป็น low — จะถูกถ้าเป็นไทรอยด์",
-  "adrenal ไม่อยู่ใน intermediate — จะถูกถ้าเป็น renal transplant",
-  "ไม่มีช่วง below 3 percent ในตาราง — จะถูกถ้าตารางมีช่วงนี้",
-  "ไม่มีช่วง 3–10 percent ในตาราง — จะถูกถ้าตารางมีช่วงนี้"
+  "low (<1%) ใช้กับ thyroid เท่านั้นในกลุ่ม endocrine — จะถูกถ้าเป็น thyroidectomy",
+  "intermediate ไม่มี adrenal ในรายการ — จะถูกถ้าเป็น carotid, EVAR, head/neck",
+  "ช่วง <3% ไม่มีในตาราง — จะถูกถ้าตารางมีหลายระดับกว่านี้",
+  "ช่วง 3–10% ไม่มีในตาราง — จะถูกถ้าตารางแบ่งละเอียดกว่านี้"
  ],
  "trap": "อย่าสรุปทั้งกลุ่ม endocrine เป็น low",
  "summary": [
-  "Endocrine: thyroid = low",
-  "Adrenal resection = high",
-  "ต้องดูชนิดผ่าตัดทีละรายการ"
+  "Endocrine: thyroid = low risk",
+  "Adrenal resection = high risk (>5%)",
+  "ต้องดูชนิดผ่าตัดทีละรายการ ไม่ใช่ทั้งกลุ่มอวัยวะ",
+  "ตารางไม่รวม comorbidities ของผู้ป่วย"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1382,18 +1411,19 @@ U({
   "l12_p12"
  ],
  "interp": "ชนิดผ่าตัด: acute limb ischaemia → amputation",
- "why": "ตารางจัด open lower limb revascularization/amputation เป็น high risk",
+ "why": "78 หน้า 12 Table 5 พิมพ์ใน High surgical risk (>5%) ว่า <b>\"Open lower limb revascularization for acute limb ischaemia or amputation\"</b> และลายมือ 78 ขีดไฮไลต์ vascular ที่ high ผู้ป่วยรายนี้ผ่าตัด amputation ฉุกเฉินจึงเป็น high risk ส่วน peripheral arterial angioplasty อยู่ intermediate",
  "wrong": [
-  "low risk (<1%) เป็นกลุ่ม breast/dental/thyroid ไม่ใช่ผ่าตัดหลอดเลือด — จะถูกถ้าเป็น superficial surgery",
-  "peripheral angioplasty อยู่ใน intermediate แต่ open revascularization/amputation อยู่ใน high — จะถูกถ้าเป็น angioplasty",
-  "ไม่มีช่วง below 3 percent ในตาราง — จะถูกถ้าตารางมีช่วงนี้",
-  "ไม่มีช่วง 3–10 percent ในตาราง — จะถูกถ้าตารางมีช่วงนี้"
+  "low (<1%) เป็นผ่าตัดเล็กอย่าง breast, dental, superficial — จะถูกถ้าเป็นผ่าตัดเหล่านั้น",
+  "intermediate เป็น peripheral arterial angioplasty และ EVAR — จะถูกถ้าทำ endovascular แทน open",
+  "ช่วง <3% ไม่มีในตาราง — จะถูกถ้าตารางมีหลายระดับกว่านี้",
+  "ช่วง 3–10% ไม่มีในตาราง — จะถูกถ้าตารางแบ่งละเอียดกว่านี้"
  ],
  "trap": "Angioplasty (intermediate) ≠ open revascularization (high)",
  "summary": [
-  "High: aortic/major vascular, open limb revascularization/amputation",
-  "Intermediate: peripheral arterial angioplasty, EVAR",
-  "Vascular surgery มักเป็นกลุ่มเสี่ยงสูง"
+  "High >5%: aortic/major vascular, open limb revascularization/amputation, carotid symptomatic CAS",
+  "Intermediate: peripheral arterial angioplasty, EVAR, carotid CEA",
+  "Vascular surgery มักเป็น high risk",
+  "ESC Table 5 ไม่รวม comorbidities"
  ],
  "tags": [
   "Pre-op & post-op",
@@ -1418,18 +1448,19 @@ U({
   "l12_p24"
  ],
  "interp": "ถามเครื่องมือที่ใช้ปัจจัยผู้ป่วยร่วมกับชนิดผ่าตัด",
- "why": "ACS NSQIP กรอกปัจจัยผู้ป่วย (age, ASA, DM, HTN, CHF, ...) แล้วคำนวณ risk รายบุคคล โดยใช้รหัส CPT ของหัตถการด้วย ต่างจาก ASA ที่ดูเฉพาะผู้ป่วย",
+ "why": "78 หน้า 28 ภาพหน้าจอ <b>\"The American College of Surgeons NSQIP risk calculator\"</b> กรอกปัจจัยผู้ป่วย (age, ASA, DM, HTN, CHF, dyspnea ฯลฯ) ร่วมกับหัตถการ (CPT code) เพื่อให้ % risk รายบุคคล ส่วนลายมือ 78 หน้า 24 บอกว่า ASA <b>\"ดูที่คนไข้อย่างเดียว ไม่ได้ดู type of Sx.\"</b> เครื่องมือที่ใช้ทั้งผู้ป่วยและชนิดผ่าตัดจึงเป็น NSQIP",
  "wrong": [
-  "ASA ไม่ดูชนิดผ่าตัด — จะถูกถ้าถามระบบจัดกลุ่มตามคนไข้",
-  "Mallampati ประเมิน airway — จะถูกถ้าถาม difficult intubation",
-  "Child-Pugh ประเมินตับ — จะถูกถ้าถามโรคตับ",
-  "Caprini ประเมิน VTE — จะถูกถ้าถามความเสี่ยง DVT"
+  "ASA ดูผู้ป่วยอย่างเดียวไม่ใช้ชนิดผ่าตัด และไม่ให้ % risk — จะถูกถ้าถามระบบจัดกลุ่มสภาพผู้ป่วย",
+  "Mallampati ประเมิน airway — จะถูกถ้าถามก่อนใส่ท่อช่วยหายใจ",
+  "Child-Pugh ประเมินตับ — จะถูกถ้าผู้ป่วยตับแข็ง",
+  "Caprini ประเมิน VTE — จะถูกถ้าถามเรื่อง DVT prophylaxis"
  ],
  "trap": "",
  "summary": [
-  "ACS NSQIP = web calculator ประเมิน risk รายบุคคล",
-  "ใช้ปัจจัยผู้ป่วย + หัตถการ (CPT)",
-  "ASA ดูเฉพาะผู้ป่วย ไม่ดู type of surgery"
+  "ACS NSQIP: web calculator ให้ % risk complication/mortality รายบุคคล",
+  "ใช้ตัวแปรผู้ป่วยและรหัสหัตถการ (CPT)",
+  "ASA ไม่ดูชนิดผ่าตัด",
+  "ESC Table 5 ดูเฉพาะชนิดผ่าตัด"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1454,18 +1485,19 @@ U({
   "l12b_p22"
  ],
  "interp": "สูบบุหรี่ BMI 32 HTN คุมดี = ตัวอย่าง ASA II",
- "why": "ทุกข้อเป็นตัวอย่างของ ASA II โดยไม่มี substantive functional limitation",
+ "why": "78 หน้า 24 พิมพ์ ASA II ว่า <b>\"Mild diseases only without substantive functional limitations ... current smoker, social alcohol drinker, pregnancy, obesity (30 < BMI < 40), well-controlled DM/HTN\"</b> ผู้ป่วยสูบบุหรี่ BMI 32 และ HT ที่คุมดี ตรงตัวอย่าง ASA II ทุกข้อ",
  "wrong": [
-  "ASA I คือคนปกติ ไม่สูบ ไม่มีโรค — จะถูกถ้าไม่มี risk",
-  "ASA III ต้องมี functional limitation เช่น poorly controlled DM/HTN — จะถูกถ้าคุมไม่ดี",
-  "ASA IV คือ constant threat to life เช่น MI <3 เดือน sepsis — จะถูกถ้ามีโรครุนแรงดังกล่าว",
-  "ASA V คือ moribund ไม่รอดถ้าไม่ผ่าตัด — จะถูกถ้าเป็นผู้ป่วยวิกฤต"
+  "ASA I ต้องไม่สูบบุหรี่และไม่มีโรค — จะถูกถ้าสุขภาพดีสมบูรณ์",
+  "ASA III ต้องมี functional limitation เช่น poorly controlled DM/HTN — จะถูกถ้า HT คุมไม่ได้",
+  "ASA IV คือ constant threat to life — จะถูกถ้า MI <3 เดือน หรือ sepsis",
+  "ASA V คือ moribund — จะถูกถ้าไม่ผ่าตัดจะเสียชีวิต"
  ],
  "trap": "HTN คุมดีเป็น II ถ้าคุมไม่ดีเป็น III",
  "summary": [
-  "ASA II = mild systemic disease",
-  "ตัวอย่าง: smoker, social alcohol, pregnancy, obesity 30–40, well-controlled DM/HTN, mild lung disease",
-  "คุมไม่ดี → III"
+  "ASA II: smoker, social alcohol, pregnancy, BMI 30–40, well-controlled DM/HTN, mild lung disease",
+  "คุมไม่ดี (poorly controlled) → ASA III",
+  "BMI ≥40 → ASA III",
+  "ASA ไม่ดูชนิดผ่าตัด"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1488,19 +1520,19 @@ U({
   "l12_p24"
  ],
  "interp": "alcohol dependence + BMI ≥40",
- "why": "ตัวอย่างของ ASA III ระบุ morbid obesity (BMI ≥40) และ alcohol dependence",
+ "why": "78 หน้า 24 พิมพ์ ASA III ว่า <b>\"Substantive functional limitations; one or more moderate to severe diseases ... morbid obesity (BMI ≥ 40), active hepatitis, alcohol dependence or abuse\"</b> ผู้ป่วยมี BMI 43 และ alcohol dependence เข้าตัวอย่าง ASA III ทั้งสองข้อ แม้ยังทำกิจวัตรเองได้",
  "wrong": [
-  "ASA I คือคนปกติ ไม่มีโรค — จะถูกถ้าไม่ดื่มสุราและ BMI ปกติ",
-  "ASA II ใช้ BMI 30–40 และดื่มสังคม — จะถูกถ้า BMI <40",
-  "ASA IV คือ constant threat to life — จะถูกถ้ามี decompensation/MI ใหม่",
+  "ASA I ต้องไม่มีโรคและไม่ดื่ม — จะถูกถ้าสุขภาพดีสมบูรณ์",
+  "ASA II ใช้ BMI 30–40 และดื่มสังคม — จะถูกถ้า BMI 35 และไม่ติดสุรา",
+  "ASA IV คือ constant threat to life — จะถูกถ้ามี decompensated cirrhosis ที่คุกคามชีวิต",
   "ASA V คือ moribund — จะถูกถ้าไม่ผ่าตัดจะเสียชีวิต"
  ],
  "trap": "BMI 30–40 = II ส่วน ≥40 = III",
  "summary": [
-  "ASA III: BMI ≥40, active hepatitis, alcohol dependence, pacemaker, moderate reduced EF",
-  "ASA II: BMI 30–40",
-  "ASA II: BMI 30–40, social alcohol",
-  "ASA III: BMI ≥40, alcohol dependence"
+  "ASA III: poorly controlled DM/HTN, COPD, BMI ≥40, active hepatitis, alcohol dependence, pacemaker, moderate reduced EF, ESRD on regular dialysis",
+  "BMI 30–40 = ASA II",
+  "MI/CVA/stent >3 เดือน = ASA III",
+  "ASA IV: <3 เดือน และ sepsis/DIC/ARDS"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1524,18 +1556,19 @@ U({
   "l12b_p22"
  ],
  "interp": "sepsis + DIC + ARDS แต่ไม่ถึงขั้น moribund",
- "why": "sepsis, DIC, ARDS เป็นตัวอย่าง ASA IV",
+ "why": "78 หน้า 24 พิมพ์ ASA IV ว่า <b>\"Severe systemic disease that is a constant threat to life ... sepsis, DIC, ARDS\"</b> ผู้ป่วยมี sepsis จาก infected necrosis ร่วมกับ DIC และ ARDS แต่ยังไม่ถึงขั้น moribund (ไม่คาดว่าจะเสียชีวิตภายในไม่กี่ชั่วโมงถ้าไม่ผ่า) จึงเป็น ASA IV ไม่ใช่ V",
  "wrong": [
-  "ASA II คือโรคเล็กน้อยที่ไม่มี functional limitation — จะถูกถ้าเป็น well-controlled DM/HTN",
-  "ASA III คือโรครุนแรงแต่ไม่ถึง threat to life — จะถูกถ้าเป็น COPD/DM คุมไม่ดี",
-  "ASA V คือ moribund ไม่รอดถ้าไม่ผ่า — จะถูกถ้าผู้ป่วยกำลังจะตาย",
+  "ASA II คือโรคเล็กน้อยไม่มี functional limitation — จะถูกถ้ามีเพียง HT ที่คุมดี",
+  "ASA III คือโรครุนแรงแต่ไม่คุกคามชีวิตทันที — จะถูกถ้าเป็น COPD หรือ DM คุมไม่ดี",
+  "ASA V คือ moribund ไม่รอดถ้าไม่ผ่า — จะถูกถ้ามี ruptured aneurysm หรือ multiple organ failure ร่วมกับ bowel ischemia",
   "ASA VI คือ brain-dead donor — จะถูกถ้าเป็นผู้บริจาคอวัยวะ"
  ],
  "trap": "แยกจาก V ที่ไม่คาดว่าจะรอดถ้าไม่ผ่าตัด",
  "summary": [
-  "ASA IV: recent MI, ischemia, sepsis, DIC, ARDS, ESRD not on dialysis",
-  "ASA V: ruptured aneurysm, massive trauma",
-  "ESC high risk รวม pancreatic surgery แต่ ASA ไม่ดูชนิดผ่าตัด"
+  "ASA IV: MI/CVA/TIA/stent <3 เดือน, ongoing ischemia, severe valve disease, severe low EF, sepsis, DIC, ARDS, ESRD ไม่ฟอกประจำ",
+  "ASA V: ruptured aneurysm, massive trauma, intracranial bleed with mass effect, ischemic bowel + organ dysfunction",
+  "ASA VI: brain-dead donor",
+  "ใช้ mortality ประมาณ IV 8%, V 34%"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1559,18 +1592,19 @@ U({
   "l12b_p22"
  ],
  "interp": "MI เมื่อ 5 เดือนก่อน (>3 เดือน)",
- "why": "MI >3 เดือนเป็น ASA III ส่วน <3 เดือนเป็น IV",
+ "why": "78 หน้า 24 พิมพ์ ASA III ว่า <b>\"history (> 3 months) of MI, CVA, TIA, or CAD/stents\"</b> ส่วน ASA IV ใช้ <b>\"recent (< 3 months)\"</b> ผู้ป่วย MI เมื่อ 5 เดือนก่อนและคงที่จึงเป็น ASA III เส้นแบ่งอยู่ที่ 3 เดือน",
  "wrong": [
-  "ASA I คือคนปกติ — จะถูกถ้าไม่มีประวัติ MI",
-  "ASA II คือโรคเล็กน้อย ไม่มีประวัติ MI/stent — จะถูกถ้าเป็นโรคเล็กน้อยเท่านั้น",
-  "ASA IV ใช้ MI <3 เดือน — จะถูกถ้า MI ใหม่",
+  "ASA I ต้องไม่มีโรคเลย — จะถูกถ้าไม่เคยมี MI",
+  "ASA II ไม่มี MI หรือ stent เป็นตัวอย่าง — จะถูกถ้าเป็นโรคเล็กน้อย เช่น HTN คุมดี",
+  "ASA IV ใช้ MI <3 เดือน — จะถูกถ้า MI เมื่อ 6 สัปดาห์ก่อน",
   "ASA V คือ moribund — จะถูกถ้าไม่ผ่าตัดจะเสียชีวิต"
  ],
  "trap": "ตัดสินที่ช่วงเวลา 3 เดือน",
  "summary": [
-  "MI/CVA/TIA/stents >3 เดือน = III",
-  "<3 เดือน = IV",
-  "ตัดสินที่ 3 เดือนหลัง MI/CVA/stent"
+  "MI/CVA/TIA/CAD stents >3 เดือน = ASA III",
+  "<3 เดือน = ASA IV",
+  "ESRD ฟอกประจำ = III ไม่ฟอกประจำ = IV",
+  "ASA ไม่ดูชนิดผ่าตัด"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1594,18 +1628,19 @@ U({
   "l12b_p22"
  ],
  "interp": "healthy + emergency",
- "why": "เพิ่ม E ท้ายเลขเมื่อผ่าตัดฉุกเฉิน ผู้ป่วยสุขภาพดีจึงเป็น ASA IE",
+ "why": "78 หน้า 24 พิมพ์ท้ายตารางว่า <b>\"The addition of 'E' denoted emergency surgery: an emergency is defined as existing when delay in treatment ... would lead to a significant increase in the threat to life or body part\"</b> ชายอายุ 20 ปีสุขภาพดีเป็น ASA I และผ่าตัดไส้ติ่งอักเสบฉุกเฉินจึงเป็น ASA IE ASA ไม่ดูชนิดผ่าตัดแต่ E ดูความเร่งด่วน",
  "wrong": [
-  "ไม่มี E modifier ทั้งที่ผ่าตัดฉุกเฉิน — จะถูกถ้าเป็น elective",
-  "ASA IIE ต้องมีโรคเล็กน้อย เช่น smoker/obesity — จะถูกถ้ามีโรคดังกล่าว",
-  "ASA IIIE ต้องมีโรครุนแรง — จะถูกถ้ามี DM/COPD คุมไม่ดี",
-  "ASA VE คือ moribund — จะถูกถ้าไม่รอดโดยไม่ผ่าตัด"
+  "ASA I โดยไม่มี E ไม่ครบเพราะเป็นผ่าตัดฉุกเฉิน — จะถูกถ้าเป็น elective",
+  "ASA IIE ต้องมีโรคเล็กน้อย เช่น smoker หรือ BMI 30–40 — จะถูกถ้าเขาสูบบุหรี่",
+  "ASA IIIE ต้องมีโรครุนแรง เช่น poorly controlled DM — จะถูกถ้ามี DM คุมไม่ดี",
+  "ASA VE คือ moribund — จะถูกถ้าช็อกรุนแรงและไม่รอดโดยไม่ผ่า"
  ],
  "trap": "ASA ไม่ดู type of surgery แต่ E ดูความเร่งด่วน",
  "summary": [
-  "E = emergency surgery",
+  "E = emergency surgery ต่อท้ายเลข ASA เช่น ASA IE",
+  "เกณฑ์ E: delay in treatment เพิ่ม threat to life or body part อย่างมีนัยสำคัญ",
   "ASA I = normal healthy",
-  "ASA ไม่ดูชนิดผ่าตัดแต่ E ดูความเร่งด่วน"
+  "ASA ดูผู้ป่วย E ดูความเร่งด่วน"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1629,18 +1664,19 @@ U({
   "l12b_p22"
  ],
  "interp": "ruptured AAA + moribund + emergency",
- "why": "ASA V (ruptured aneurysm) + E",
+ "why": "78 หน้า 24 พิมพ์ ASA V ว่า <b>\"A moribund patient who is not expected to survive without the operation\"</b> ตัวอย่าง <b>\"ruptured abdominal/thoracic aneurysm\"</b> และต่อท้าย E สำหรับผ่าตัดฉุกเฉิน ผู้ป่วย ruptured AAA ที่ความดันตกและไม่รู้สึกตัวจึงเป็น ASA VE",
  "wrong": [
-  "ASA IV ไม่รวม E และไม่ใช่ moribund — จะถูกถ้าเป็น MI/sepsis ที่ยังมี reserve ผ่าตัด elective",
-  "ASA VI คือ brain-dead donor — จะถูกถ้าเป็นผู้บริจาคอวัยวะ",
-  "ASA IVE ยังไม่ใช่ moribund — จะถูกถ้าผู้ป่วยเสถียรกว่าและรอได้",
-  "ASA V โดยไม่มี E ไม่ครบเพราะผ่าตัดฉุกเฉิน — จะถูกถ้าเป็น elective ซึ่งไม่ใช่ในโรค ruptured AAA"
+  "ASA IV ไม่ใช่ moribund และไม่มี E — จะถูกถ้าเป็น MI/sepsis ที่ยังมี reserve",
+  "ASA VI คือ brain-dead organ donor — จะถูกถ้าเป็นผู้บริจาคอวัยวะ",
+  "ASA IVE ยังไม่ถึงขั้น moribund — จะถูกถ้าผู้ป่วยเสถียรกว่าและพอรอได้",
+  "ASA V ขาด E ทั้งที่ผ่าตัดฉุกเฉิน — จะถูกถ้าเป็นการผ่าตัดตามแผน"
  ],
  "trap": "",
  "summary": [
-  "ASA V ตัวอย่าง: ruptured aneurysm, massive trauma, intracranial bleed, ischemic bowel",
-  "E = emergency",
-  "ASA VI = brain-dead organ donor"
+  "ASA V ตัวอย่าง: ruptured abdominal/thoracic aneurysm, massive trauma, intracranial bleed with mass effect, ischemic bowel + multi-organ dysfunction",
+  "E ต่อท้ายเมื่อผ่าตัดฉุกเฉิน",
+  "ASA VI = brain-dead donor",
+  "Mortality ASA V ประมาณ 34%"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1664,18 +1700,19 @@ U({
   "l12_p28"
  ],
  "interp": "ภาพฟอร์ม NSQIP calculator",
- "why": "ฟอร์มมีตัวแปร Dyspnea, Diabetes, HTN, CHF 30 วัน, smoker 1 ปี, COPD, dialysis ฯลฯ ไม่มี troponin/Mallampati",
+ "why": "รูปจาก 78 หน้า 28 แสดงฟอร์ม <b>\"The American College of Surgeons NSQIP risk calculator\"</b> ตัวแปรในภาพมี Age group, Sex, Functional status, Emergency case, ASA class, steroid, ascites, sepsis, ventilator, disseminated cancer, DM, HTN, CHF, <b>Dyspnea</b>, smoker, severe COPD, dialysis, acute renal failure และ BMI จึงไม่มี Mallampati, troponin, Child-Pugh หรือ Caprini",
  "wrong": [
-  "Mallampati ไม่มีในฟอร์ม NSQIP — จะถูกถ้าถามเรื่อง airway",
-  "troponin ไม่มีในฟอร์ม — จะถูกถ้าเป็นการประเมิน MI",
-  "Child-Pugh ไม่มีในฟอร์ม — จะถูกถ้ามี ascites เท่านั้น",
-  "Caprini ประเมิน VTE ไม่มีในฟอร์ม — จะถูกถ้าถามเรื่อง DVT"
+  "Mallampati ใช้ประเมิน airway ไม่มีในฟอร์ม — จะถูกถ้าถามเครื่องมือก่อนดมยาสลบ",
+  "troponin เป็น biomarker ของ MI ไม่มีในฟอร์ม — จะถูกถ้าเป็น ESC 2022 algorithm",
+  "Child-Pugh ประเมินตับ ไม่มีในฟอร์ม (มีเพียง ascites) — จะถูกถ้าผู้ป่วยตับแข็ง",
+  "Caprini ประเมิน VTE ไม่มีในฟอร์ม — จะถูกถ้าถามความเสี่ยง DVT"
  ],
  "trap": "",
  "summary": [
-  "NSQIP กรอก age, sex, functional status, emergency, ASA, steroid, ascites, sepsis, ventilator, cancer, DM, HTN, CHF, dyspnea, smoker, COPD, dialysis, ARF, BMI",
-  "NSQIP ต่างจาก ASA ตรงที่ใช้ชนิดหัตถการร่วมกับตัวแปรผู้ป่วย",
-  "ตัวแปรผู้ป่วยในภาพมี 19 รายการ"
+  "NSQIP ตัวแปร: age group, sex, functional status, emergency, ASA, steroid, ascites, sepsis, ventilator, cancer, DM, HTN, CHF, dyspnea, smoker, severe COPD, dialysis, ARF, BMI",
+  "ใช้ร่วมกับ CPT ของหัตถการ",
+  "ASA class เป็นตัวแปรหนึ่งของ NSQIP",
+  "ให้ % risk รายบุคคล"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1699,18 +1736,19 @@ U({
   "l12b_p23"
  ],
  "interp": "ASA ดูผู้ป่วยอย่างเดียว",
- "why": "ลายมือ 78 ระบุว่า ASA ดูคนไข้อย่างเดียว ไม่ดู type of surgery ทั้งคู่จึง ASA I",
+ "why": "ลายมือ 78 หน้า 24 เขียนว่า <b>\"บอกว่าคนไข้มีความเสี่ยงในการเสียชีวิตคร่าวๆ : ดูที่คนไข้อย่างเดียว ไม่ได้ดู type of Sx.\"</b> และ jod หน้า 23 เขียน <b>\"= ประเมิน mortality จาก u/d + CC\"</b> ผู้ป่วยสองรายสุขภาพดีทั้งคู่ จึงเป็น ASA I เท่ากัน แม้ liver resection ใหญ่กว่า (ความต่างอยู่ที่ ESC Table 5 ซึ่ง liver resection เป็น high risk)",
  "wrong": [
-  "ASA ไม่ดู type of surgery — จะถูกถ้าถาม ESC risk",
-  "ผิดทิศ ASA ไม่ดูชนิดผ่าตัดจึงไม่มีคนใดสูงกว่า — จะถูกถ้าผู้ป่วย A มีโรครุนแรง",
-  "ไม่มีกฎ ASA III อัตโนมัติจากขนาดผ่าตัด — จะถูกถ้าผู้ป่วยมี poorly controlled DM/COPD",
-  "E ใช้กับผ่าตัดฉุกเฉินเท่านั้น ไม่ใช่ lap appendectomy ตามนัดของสุขภาพดี — จะถูกถ้าผ่าตัดฉุกเฉิน"
+  "ASA ไม่ดูขนาดผ่าตัด จึงไม่ทำให้ B สูงกว่า — จะถูกถ้าถาม ESC surgical risk",
+  "ผู้ป่วย A ไม่มีเหตุให้ ASA สูงกว่า B — จะถูกถ้า A มีโรครุนแรง",
+  "ไม่มีกฎ ASA III อัตโนมัติจากขนาดผ่าตัด — จะถูกถ้า B มี poorly controlled DM หรือ COPD",
+  "E ใช้กับผ่าตัดฉุกเฉินเท่านั้น lap appendectomy ตามนัดไม่ใช่ — จะถูกถ้าผ่าตัดฉุกเฉิน"
  ],
  "trap": "",
  "summary": [
-  "ASA ประเมินผู้ป่วย ไม่ดู type of surgery",
-  "ESC Table 5 ประเมินชนิดผ่าตัด",
-  "ASA mortality: I <0.03%, II 0.2%, III 1.2%, IV 8%, V 34%"
+  "ASA ประเมินผู้ป่วยอย่างเดียว ไม่ดูชนิดผ่าตัด",
+  "ESC Table 5 ประเมินชนิดผ่าตัด (liver resection = high)",
+  "ผู้ป่วยสุขภาพดี = ASA I",
+  "ASA เป็นการประเมิน mortality ความเสี่ยงคร่าวๆ จาก underlying disease"
  ],
  "tags": [
   "Pre-op & post-op"
@@ -1734,19 +1772,19 @@ U({
   "l12b_p22"
  ],
  "interp": "ESRD ที่ขาดการฟอกเลือด ต้องแยกจาก ESRD ที่ฟอกประจำ ตามตัวอย่างใน ASA III และ IV",
- "why": "ESRD regular dialysis = III; not regular = IV",
+ "why": "78 หน้า 24 พิมพ์ ASA III ว่า <b>\"ESRD undergoing regularly scheduled dialysis\"</b> และ ASA IV ว่า <b>\"ESRD not undergoing regularly scheduled dialysis\"</b> ผู้ป่วยขาดฟอก 2 ครั้ง K 6.2 จึงเป็น ASA IV ส่วนผู้ป่วยที่ฟอกประจำเป็น ASA III ความต่างนี้เป็นตัวอย่างชัดของการแยก III กับ IV",
  "wrong": [
-  "ASA III vs II ผิดเพราะ ESRD regular dialysis คือ III — จะถูกถ้า GFR ไม่ถึง ESRD",
-  "ESRD not regular = IV แต่ regular ก็ไม่ใช่ IV — จะถูกถ้าทั้งสองไม่ได้ฟอก",
-  "ASA V คือ moribund — จะถูกถ้าผู้ป่วยกำลังจะเสียชีวิต",
-  "ทั้งสองไม่เท่ากัน เพราะสไลด์แยกตามการฟอกประจำ — จะถูกถ้าทั้งสองฟอกประจำ"
+  "ASA III vs II ผิด เพราะ ESRD ที่ฟอกประจำคือ III ไม่ใช่ II — จะถูกถ้าเป็นโรคไตเรื้อรังระยะต้นที่ไม่ใช่ ESRD",
+  "ASA IV vs IV ผิด เพราะผู้ที่ฟอกประจำคือ III — จะถูกถ้าทั้งคู่ขาดฟอก",
+  "ASA V vs III ผิด เพราะไม่ถึง moribund — จะถูกถ้าไม่ผ่าตัดจะเสียชีวิต",
+  "ASA III vs III ผิด เพราะผู้ขาดฟอกถูกจัดเป็น IV — จะถูกถ้าทั้งคู่ฟอกประจำ"
  ],
  "trap": "",
  "summary": [
-  "ESRD regular dialysis = ASA III",
-  "ESRD not regular = ASA IV",
-  "ASA III ตัวอย่าง: ESRD regular dialysis",
-  "ASA IV ตัวอย่าง: ESRD not regular dialysis, recent MI, sepsis, DIC, ARDS"
+  "ESRD ฟอกประจำ = ASA III",
+  "ESRD ไม่ฟอกประจำ = ASA IV",
+  "ASA IV อื่นๆ: MI/CVA <3 เดือน, sepsis, DIC, ARDS",
+  "ผู้ป่วยขาดฟอกควรฟอกก่อนผ่าตัด elective ราว 1 วัน"
  ],
  "tags": [
   "Pre-op & post-op"
