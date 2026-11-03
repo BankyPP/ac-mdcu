@@ -51,7 +51,7 @@ WL.forEach(w=>{
   /* Unit round: always list lectures by L number ascending (every ward, every site) — L02 < L07.1 < L07.2 < L10 < L99.03 */
   const numKey=c=>{const m=/^[A-Z]*(\d+(?:\.\d+)*)/i.exec(String(c||""));return m?m[1].split(".").map(Number):null;};
   const numCmp=(x,y)=>{if(!x||!y)return (x?0:1)-(y?0:1);for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]??-1)-(y[i]??-1);if(d)return d;}return 0;};
-  W.UNIT.sort((a,b)=>numCmp(numKey(a.id||a.title),numKey(b.id||b.title)));
+  W.UNIT.sort((a,b)=>codeCmp(a.id||a.title,b.id||b.title));
   /* Round I/O: every code (L / R / T / N) always listed by number ascending within its kind — L02 < L07.1 < L10 < L99.03 · R01 < R22 · T01 < T03 (also orders "รวมตามเรื่อง" and Specialty-round lists) */
   if(W.IO&&Array.isArray(W.IO.docs)){const KO={L:0,R:1,T:2,N:3};W.IO.docs.sort((a,b)=>((KO[a.kind]??9)-(KO[b.kind]??9))||numCmp(numKey(a.code),numKey(b.code)));}
   W.byLec={};
@@ -654,6 +654,9 @@ function cleanTags(W,a,txt){const v=broadOf(W),lc=v.map(x=>x.toLowerCase()),o=[]
 function qTags(q){const W=W_();let t=[];
   if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=Array.isArray(q.tags)&&q.tags.length?q.tags:[].concat(Lc.tags||Lc.topic||[]);}
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];return t;}
+/* ordering of file codes everywhere (user, 3 Nov 2026): code L, then R, then T, then N — each group by number (L02 < L07.1 < L07.2 < L10 < L99.03 · R01 < R22 · T01 < T03) */
+function codeKey(c){c=String(c||"").trim();const K={L:0,R:1,T:2,N:3},k=/^([A-Za-z])/.exec(c),m=/^[A-Za-z]*(\d+(?:\.\d+)*)/.exec(c);return [k&&K[k[1].toUpperCase()]!==undefined?K[k[1].toUpperCase()]:9,m?m[1].split(".").map(Number):null];}
+function codeCmp(a,b){const x=codeKey(a),y=codeKey(b);if(x[0]!==y[0])return x[0]-y[0];const p=x[1],q=y[1];if(!p||!q)return (p?0:1)-(q?0:1);for(let i=0;i<Math.max(p.length,q.length);i++){const d=(p[i]??-1)-(q[i]??-1);if(d)return d;}return 0;}
 /* attached resources outside the lectures (<dir>/resources.js → W.RES=[{code,title,topic,tags,type,url,note,points:[…]}]) */
 const resOf=W=>(W&&W.RES||[]).filter(r=>r&&r.title);
 /* textbooks (code T, <dir>/textbooks.js → W.TXT, same shape as W.RES, one entry per chapter) — everything R gets, always in its own box apart from R */
@@ -1512,7 +1515,7 @@ function rReport(){
   h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">คำแนะนำรายหัวข้อ</h2>`;
   const res=W.RES||[],txt=W.TXT||[],lecs=(W.cfg.lectures||[]);
   h+=T.map((t,i)=>{const ad=topicAdvice(t),tg=TIER[t.tier];
-    const rs=res.filter(r=>r.topic===t.k).concat(lecs.filter(l=>l&&l.topic===t.k)),tts=txt.filter(r=>r&&r.title&&r.topic===t.k),units=W.UNIT.filter(Lc=>Lc.topic===t.k);
+    const rs=lecs.filter(l=>l&&l.topic===t.k).concat(res.filter(r=>r.topic===t.k)).sort((a,b)=>codeCmp(a.code||a.title,b.code||b.title)),tts=txt.filter(r=>r&&r.title&&r.topic===t.k),units=W.UNIT.filter(Lc=>Lc.topic===t.k);
     const pts=t.wrongQ.concat(t.fixedQ).slice(0,8).map(q=>{const s=(q.summary||[]).filter(x=>!/^ดูข้อ/.test(plain(x)))[0];return s?`<li><button class="qref" data-u="${esc(q.uid)}">ข้อ ${q.id}</button> ${R(s)}</li>`:"";}).join("");
     return `<details class="grp tcard" ${i<3&&t.tier!=="green"?"open":""}><summary><span>${tg[0]}</span> <b>${esc(t.k)}</b> <span class="tag">${tg[1]}</span></summary>
     <p class="tline">${ad.imp}</p><p class="tline">${ad.st}</p><p class="tline"><b>แนะนำ:</b> ${ad.act}</p>

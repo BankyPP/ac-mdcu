@@ -19,7 +19,7 @@ function spcUnits(wid){wid=wid||ward;const W=WARDS[wid],o=[],ioR=new Set();
   [["R",resOf(W)],["T",txtOf(W)]].forEach(([K,L_])=>L_.forEach(r=>{if(!resPts(r).length||(r.code&&ioR.has(r.code)))return;
     const tp=[].concat(r.tags||[]);if(r.topic&&!tp.includes(r.topic))tp.push(r.topic);
     o.push({key:(K==="T"?"t:":"r:")+(r.code||"")+"|"+r.title,kind:K,code:r.code||K,doc:r.title,title:r.title,topics:tp.length?tp:["อื่น ๆ"],rev:1,text:"- "+resPts(r).join("\n- ")});}));
-  return o;}
+  return o.sort((a,b)=>codeCmp(a.kind==="N"?"N":a.kind+((codeKey(a.code)[1]||[]).join(".")),b.kind==="N"?"N":b.kind+((codeKey(b.code)[1]||[]).join("."))));}
 const spcLabel=u=>u.kind==="N"?`N · โน้ตวอร์ด — ${u.title}`:u.doc===u.title?`${u.code} ${u.title}`:`${u.code} ${u.doc} — ${u.title}`;
 function spcAvail(wid){const A=spcA(wid);return spcUnits(wid).filter(u=>u.kind!=="L"||A.sel.L);}
 function spcPool(wid){const A=spcA(wid),S=A.sel,us=spcAvail(wid);if(S.all)return us;
@@ -79,13 +79,13 @@ function rSpc(){
     if(hasL)h+=`<label class="spcsw"><input type="checkbox" id="spcL" ${S.L?"checked":""}> รวม Lecture (L) ด้วย <span class="hint">— ปกติปิดไว้ เพราะ L มีโจทย์ Unit round อยู่แล้ว</span></label>`;
     const T=new Map();av.forEach(u=>u.topics.forEach(t=>{if(!T.has(t))T.set(t,[]);T.get(t).push(u);}));
     const cnt=k=>k==="TP"?T.size:av.filter(u=>u.kind===k).length;
-    h+=`<div class="chips spctabs">${[["TP","ตามเรื่อง"],["R","R"],["T","T"],["N","N"]].concat(S.L?[["L","L"]]:[]).map(([k,t])=>`<button class="chip" data-sptab="${k}" aria-pressed="${tab===k}">${t} <span class="hint">${cnt(k)}</span></button>`).join("")}</div>`;
+    h+=`<div class="chips spctabs">${[["TP","ตามเรื่อง"]].concat(S.L?[["L","L"]]:[],[["R","R"],["T","T"],["N","N"]]).map(([k,t])=>`<button class="chip" data-sptab="${k}" aria-pressed="${tab===k}">${t} <span class="hint">${cnt(k)}</span></button>`).join("")}</div>`;
     const dim=S.all?` style="opacity:.55"`:"";
     const row=(attr,on,title,meta)=>`<button class="resume qprog" ${attr} aria-pressed="${on}"${dim}><span><b>${esc(title)}</b>${meta?`<span class="rd">${meta}</span>`:""}</span><span class="go">${on?"✓":""}</span></button>`;
     const acc=t=>{const x=stat[t];return x?` · ถูก ${Math.round(x[1]/x[0]*100)}% (${x[0]} ข้อ)`:"";};
     h+=`<div class="stack" style="margin-top:8px">`;
     if(tab==="TP"){if(!T.size)h+=`<p class="hint">ยังไม่มีเรื่อง</p>`;
-      for(const [t,us] of T){const k=["R","T","N","L"].map(x=>[x,us.filter(u=>u.kind===x).length]).filter(x=>x[1]).map(x=>`${x[0]} ${x[1]}`).join(" · ");h+=row(`data-sptopic="${esc(t)}"`,S.T.includes(t),t,`${k} หน้า${acc(t)}`);}}
+      for(const [t,us] of T){const k=["L","R","T","N"].map(x=>[x,us.filter(u=>u.kind===x).length]).filter(x=>x[1]).map(x=>`${x[0]} ${x[1]}`).join(" · ");h+=row(`data-sptopic="${esc(t)}"`,S.T.includes(t),t,`${k} หน้า${acc(t)}`);}}
     else{const D=new Map();av.filter(u=>u.kind===tab).forEach(u=>{const c=tab==="N"?u.key:u.code;if(!D.has(c))D.set(c,[]);D.get(c).push(u);});
       if(!D.size)h+=`<p class="hint">${tab==="R"?"ยังไม่มีไฟล์ R ในวอร์ดนี้":tab==="T"?"ยังไม่มีตำรา T ในวอร์ดนี้":tab==="N"?"ยังไม่มีโน้ตวอร์ด N":"ยังไม่มี lecture ใน Round I/O"}</p>`;
       for(const [c,us] of D){const on=us.every(u=>S.U.includes(u.key)),u0=us[0],nw=us.some(u=>(A.done[u.key]||0)<u.rev);
