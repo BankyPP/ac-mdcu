@@ -1,5 +1,5 @@
 SUMM.push({tag:"Fluid, Electrolyte & Acid–base", title:"Fluid, Electrolyte & Acid–base",
-  intro:"<ul><li>หมวดนี้ใน Med Y4 MCQ ออกทั้ง MDCU77 (RoA / RoB / RoC) และ MDCU78 (RoA / RoD): <b>metabolic acidosis แยกชนิด</b> (normal AG ด้วย urine anion gap, wide AG / osmolar gap ด้วย toxic alcohol — ethylene glycol ออกทั้ง 77 และ 78), <b>hypokalemia แยกตาม urine K + acid–base + BP</b> (ปี 77), <b>hyponatremia จาก hyperglycemia</b> (ปี 77) และ <b>prerenal AKI</b> (ปี 78)</li><li>MDCU79 (RoA / RoB หมวด Nephrology) เพิ่ม 3 ข้อ: <b>hypokalemia จาก intracellular shift</b> (periodic paralysis หลังมื้อแป้ง + เบียร์), <b>thiazide → hypoNa + hypoK + metabolic alkalosis</b> และ <b>polyuria จาก saline diuresis</b> (แยก water vs solute diuresis ด้วย Uosm และ 2[UNa + UK]) — hypokalemia จึงออก 2 ปี (77 / 79) แต่คนละกลไก</li><li><b>MDCU76 (RoB) 4 ข้อ</b>: <b>normal AG metabolic acidosis + K ต่ำ ไม่มีท้องเสีย → RTA</b> และ <b>distal RTA</b> (Sjögren + urine pH 6 + nephrocalcinosis), <b>thiazide → hypoNa + hypoK + alkalosis</b> (ซ้ำ 79 แทบทุกตัวเลข — ออก 2 ปี) และ <b>Kussmaul breathing ใน CKD → ABG</b> — NAGMA จึงออก 76 / 78</li><li>โจทย์เป็นเชิงคำนวณ/แปลผล: anion gap, osmolar gap, urine anion gap, corrected Na, FEurea — ต้องคำนวณให้ได้ในห้องสอบ</li><li>กับดัก: จำ sign ของ UAG กลับข้าง (ลบ = gut), เลือก RTA / DKA เพราะเห็น acidosis โดยไม่ดู AG และ osmolar gap, ตอบ vomiting ใน hypokalemia ที่เป็น acidosis, ไม่คำนวณ corrected Na, ใช้ FENa ทั้งที่ได้ diuretic</li></ul>",
+  intro:"<ul><li>หมวดนี้ใน Med Y4 MCQ ออกทั้ง MDCU77 (RoA / RoB / RoC) และ MDCU78 (RoA / RoD): <b>metabolic acidosis แยกชนิด</b> (normal AG ด้วย urine anion gap, wide AG / osmolar gap ด้วย toxic alcohol — ethylene glycol ออกทั้ง 77 และ 78), <b>hypokalemia แยกตาม urine K + acid–base + BP</b> (ปี 77), <b>hyponatremia จาก hyperglycemia</b> (ปี 77) และ <b>prerenal AKI</b> (ปี 78)</li><li>MDCU79 (RoA / RoB หมวด Nephrology) เพิ่ม 3 ข้อ: <b>hypokalemia จาก intracellular shift</b> (periodic paralysis หลังมื้อแป้ง + เบียร์), <b>thiazide → hypoNa + hypoK + metabolic alkalosis</b> และ <b>polyuria จาก saline diuresis</b> (แยก water vs solute diuresis ด้วย Uosm และ 2[UNa + UK]) — hypokalemia จึงออก 2 ปี (77 / 79) แต่คนละกลไก</li><li><b>MDCU76 (RoB) 4 ข้อ</b>: <b>normal AG metabolic acidosis + K ต่ำ ไม่มีท้องเสีย → RTA</b> และ <b>distal RTA</b> (Sjögren + urine pH 6 + nephrocalcinosis), <b>thiazide → hypoNa + hypoK + alkalosis</b> (ซ้ำ 79 แทบทุกตัวเลข — ออก 2 ปี) และ <b>Kussmaul breathing ใน CKD → ABG</b> — NAGMA จึงออก 76 / 78</li><li>โจทย์เป็นเชิงคำนวณ/แปลผล: anion gap, osmolar gap, urine anion gap, corrected Na, FEurea — ต้องคำนวณให้ได้ในห้องสอบ</li><li>กับดัก: จำ sign ของ UAG กลับข้าง (ลบ = gut), เลือก RTA / DKA เพราะเห็น acidosis โดยไม่ดู AG และ osmolar gap, ตอบ vomiting ใน hypokalemia ที่เป็น acidosis, ไม่คำนวณ corrected Na, ใช้ FENa ทั้งที่ได้ diuretic</li><li><b>MDCU75</b> (8 ข้อ) เพิ่ม: <b>hyponatremia ชัก → 3% NaCl</b>, <b>hyperK 8.6 → calcium gluconate ก่อน</b>, <b>hypercalcemia ใน SCC หัวคอ / NPC → saline + bisphosphonate + calcitonin</b>; ซ้ำ ethylene glycol, TTKG, ATN vs prerenal, DKA + hyponatremia</li></ul>",
   groups:[
     {title:"Metabolic acidosis", sections:[
       {id:"nagma-urine-anion-gap", title:"Normal AG metabolic acidosis — urine anion gap แยก diarrhea vs RTA",
@@ -25,7 +25,7 @@ SUMM.push({tag:"Fluid, Electrolyte & Acid–base", title:"Fluid, Electrolyte & A
        asked:["MDCU78: ซึม หายใจเร็วลึก ABG wide anion gap metabolic acidosis → ถามสาเหตุ (RTA, ethylene glycol, diarrhea, อาเจียนต่อเนื่อง, primary hyperaldosteronism)","MDCU77: ชาย 50 ปีหมดสติ tachypnea + hyperpnea glucose 180 Na 140 K 4 Cl 110 HCO₃ 15 serum osm 340 + รูป urinalysis (ผลึก) → ถามวินิจฉัย (salicylate, DKA, ethylene glycol, toluene, tumor lysis)"],
        pattern:["<b>AG = Na − (Cl + HCO₃)</b> ปกติ ~8-12 (แก้ตาม albumin: +2.5 ต่อ albumin ที่ลดลง 1 g / dL)","<b>Ethylene glycol</b> → glycolate (acidosis) + oxalate (calcium oxalate crystal → AKI, hypocalcemia); <b>osmolar gap >10</b> ในระยะแรก","Methanol → formic acid → ตาบอด; รักษา toxic alcohol: <b>fomepizole</b> (หรือ ethanol), hemodialysis, bicarbonate, thiamine + pyridoxine","สาเหตุ HAGMA: ketoacidosis, lactic acidosis (L และ D), uremia, salicylate, methanol, ethylene glycol, 5-oxoproline","Delta-delta ดูว่ามี NAGMA หรือ metabolic alkalosis ซ้อน","<b>Osmolar gap = measured − (2Na + glucose / 18 + BUN / 2.8)</b>; เคสปี 77: calc ≈ 295 → gap ≈ 45 (>10) = toxic alcohol; AG = 140 − 125 = 15 (ระยะแรก AG อาจยังสูงไม่มาก)","<b>Calcium oxalate crystal</b>: dihydrate = ซองจดหมาย (กากบาท), monohydrate = เข็ม / dumbbell → ชี้ ethylene glycol","Isopropanol: osmolar gap สูงแต่ไม่มี acidosis (ketosis without acidosis)"],
        pearls:["เลือก RTA / diarrhea เพราะเห็น metabolic acidosis — ทั้งคู่เป็น normal AG","อาเจียนต่อเนื่องและ hyperaldosteronism เป็น metabolic alkalosis","ปี 77: เห็น glucose 180 + acidosis แล้วตอบ DKA — glucose แค่นี้ไม่ใช่ DKA ตัวชี้ขาดคือ osmolar gap สูงมาก + ผลึก oxalate","Toluene ทำ NAGMA (hippurate) / distal RTA, salicylate มี respiratory alkalosis ซ้อน"],
-       members:["MDCU78|RoD|4","MDCU77|RoA|29"]}
+       members:["MDCU78|RoD|4","MDCU77|RoA|29","MDCU75|RoA|9"]}
     ]},
     {title:"Volume depletion และ AKI", sections:[
       {id:"prerenal-fe-urea", title:"Prerenal AKI จาก volume depletion + loop diuretic — FEurea",
@@ -33,7 +33,7 @@ SUMM.push({tag:"Fluid, Electrolyte & Acid–base", title:"Fluid, Electrolyte & A
        asked:["อาเจียน กินน้อย 4 วันแต่ยังกิน furosemide BP 100 / 60 BUN 60 Cr 2.5 (baseline 1.0) FENa 2.1% FEurea 25% ไม่มี cast → ถามสาเหตุ AKI"],
        pattern:["Diuretic ทำให้ FENa สูงเทียม → ใช้ <b>FEurea: <35% prerenal, >50% ATN</b>","BUN : Cr >20 + UA ไม่มี muddy brown cast → <b>prerenal</b> → หยุด diuretic ให้สารน้ำ","ATN = muddy brown cast; AGN = RBC cast; AIN = WBC cast","FENa ต่ำได้แม้ไม่ใช่ prerenal: contrast, rhabdomyolysis, early obstruction, AGN, hepatorenal"],
        pearls:["เห็น FENa >2% แล้วตอบ ATN โดยลืมว่าได้ diuretic","ถ้าข้อสอบจริงให้ FENa >2% และ FEurea >50% จะเป็น ATN (ตัวเลขในโจทย์นี้ผู้แต่งใส่เอง)"],
-       members:["MDCU78|RoA|8"]}
+       members:["MDCU78|RoA|8","MDCU75|RoB|1"]}
     ]},
     {title:"Potassium: hypokalemia และ metabolic alkalosis", sections:[
       {id:"hypok-urine-k-acid-base", title:"Hypokalemia + metabolic acidosis + urine K ต่ำ → laxative abuse",
@@ -41,7 +41,7 @@ SUMM.push({tag:"Fluid, Electrolyte & Acid–base", title:"Fluid, Electrolyte & A
        asked:["หญิง 30 ปีอ่อนแรง BP 90 / 60 HCO₃ 12 K 1.5 urine K 19 → ถามประวัติที่สอดคล้อง (recurrent vomiting, laxative abuse, thiazide, primary hyperaldosteronism, Gitelman)"],
        pattern:["Approach hypokalemia: ตัด pseudo และ transcellular shift → <b>urine K</b> (<15 mmol / day หรือ <15 mmol / g Cr = extrarenal; >15 = renal loss)","<b>Extrarenal + metabolic acidosis = lower GI loss</b> (diarrhea, <b>laxative abuse</b>, villous adenoma); extrarenal + alkalosis = remote vomiting / remote diuretic","Renal loss + acidosis = RTA, DKA, amphotericin, acetazolamide; renal loss + alkalosis + BP ปกติ / ต่ำ → urine Cl: ต่ำ = vomiting, สูง = diuretic / Bartter / Gitelman; renal loss + BP สูง → renin / aldosterone","ในเคส urine K 19 ในคน volume depletion ที่ปัสสาวะเข้มข้นถือว่าไม่สูง + acidosis + BP ต่ำ → laxative"],
        pearls:["เลือก vomiting เพราะคุ้น — vomiting เสีย K ทางไต (bicarbonaturia + secondary hyperaldosteronism) และเป็น metabolic alkalosis ไม่ใช่ HCO₃ 12","Thiazide, Gitelman, primary hyperaldosteronism ล้วนเป็น metabolic alkalosis — ดู acid–base ก่อนเสมอ"],
-       members:["MDCU77|RoB|13"]},
+       members:["MDCU77|RoB|13","MDCU75|RoA|15"]},
       {id:"ht-hypok-alkalosis", title:"Hypertension + hypokalemic metabolic alkalosis → plasma renin + aldosterone",
        trend:"ออกใน MDCU77 (RoA) — ให้ BP สูง + electrolyte + ABG แล้วถาม investigation แรก (ข้อเดียวกันอยู่ในสรุป Hypertension และ Endocrinology)",
        asked:["หญิง 40 ปีปวดหัว BP 180 / 100 K 3.0 pH 7.48 HCO₃ 33 PaCO₂ 43 ไม่ได้กินยา → ถามตรวจหาสาเหตุ (ตอบ plasma renin + aldosterone)"],
@@ -60,15 +60,23 @@ SUMM.push({tag:"Fluid, Electrolyte & Acid–base", title:"Fluid, Electrolyte & A
        pattern:["Thiazide (HCTZ, chlorthalidone, indapamide) ยับยั้ง <b>NCC ที่ DCT</b>","<b>Hyponatremia</b>: ยับยั้ง diluting segment → ขับ free water ไม่ได้ (loop ไม่ค่อยทำ hyponatremia เพราะ medullary gradient หาย) — พบในหญิงสูงอายุ ตัวเล็ก ช่วงสัปดาห์แรก ๆ","<b>Hypokalemia + metabolic alkalosis</b>: Na มาถึง collecting duct มากขึ้น + RAAS กระตุ้นจาก volume contraction → ขับ K⁺ และ H⁺ (contraction alkalosis)","Metabolic อื่น: <b>hyper</b>calcemia, hyperuricemia (gout), hyperglycemia, hyperlipidemia, hypomagnesemia","เทียบยาอื่น: ACEI / ARB / spironolactone → hyperkalemia (± hyponatremia จาก spironolactone แต่ K สูง); amlodipine / atenolol ไม่เปลี่ยน electrolyte"],
        pearls:["เลือก enalapril เพราะ ACEI ทำ hyponatremia ได้ — ACEI ทำ K สูงไม่ใช่ต่ำ","เลือก spironolactone เพราะเป็น diuretic — K-sparing ทำ K สูง + metabolic acidosis"],
        members:["MDCU79|RoB|37","MDCU76|RoB|33"]}
-    ]},
+    ,
+      {id:"hyperk-calcium-first", title:"Hyperkalemia รุนแรง (K 8.6) + ECG changes — calcium gluconate ก่อน",
+       asked:["K 8.6 มี ECG change → รักษาอะไรก่อน (calcium gluconate)"],
+       pattern:["ลำดับ: (1) <b>10% calcium gluconate 10–30 mL IV</b> ใน 2–3 นาที (stabilize membrane, ซ้ำได้ถ้า ECG ไม่ดีขึ้น 5 นาที) → (2) shift K: regular insulin 10 U + 50% glucose 50 mL, salbutamol neb 10–20 mg, NaHCO₃ ถ้า acidosis → (3) กำจัด K: furosemide, K binder, hemodialysis","ECG: peaked T → PR ยาว / P หาย → QRS กว้าง → sine wave"],
+       members:["MDCU75|RoB|22"]}]},
     {title:"Sodium: hyponatremia", sections:[
       {id:"hyperglycemia-hyponatremia", title:"Hyponatremia ใน DKA — translocational จาก hyperglycemia (corrected Na)",
        trend:"ออกใน MDCU77 (RoC) — ให้ glucose สูงมาก + Na ต่ำ ตัด TG / protein ไว้ แล้วถามสาเหตุหลัก",
        asked:["T1DM DKA glucose 700 Na 126 K 5.2 Cl 90 HCO₃ 8 ketone บวก TG และ protein ปกติ → ถามสาเหตุ hyponatremia (ตอบ hyperglycemia)"],
        pattern:["Glucose ดึงน้ำออกจากเซลล์ → <b>hypertonic (translocational) hyponatremia</b>","<b>Corrected Na = Na + 1.6 × (glucose − 100) / 100</b> (ใช้ 2.4 เมื่อ glucose >400) → 126 + 9.6 ถึง 14.4 ≈ 136-140 = ปกติ","Approach: วัด plasma osm → hypertonic (glucose, mannitol) / isotonic = pseudohyponatremia (TG, protein สูง) / hypotonic → volume status + urine osm, urine Na","ใช้ corrected Na เลือกสารน้ำ (ปกติ / สูง → 0.45% NaCl หลัง resuscitate); ระหว่างรักษา Na ควรขึ้นตาม glucose ที่ลด"],
        pearls:["ไม่คำนวณ corrected Na แล้วให้ 3% NaCl หรือจำกัดน้ำ","โจทย์บอก TG / protein ปกติเพื่อตัด pseudohyponatremia; SIADH / adrenal insufficiency / polydipsia เป็น hypotonic"],
-       members:["MDCU77|RoC|20"]}
-    ]},
+       members:["MDCU77|RoC|20","MDCU75|RoD|44"]}
+    ,
+      {id:"severe-hyponatremia-3nacl", title:"Hyponatremia รุนแรง (Na 110) + ชัก — 3% NaCl",
+       asked:["Na 110 ง่วง ชักทั่วตัว (hypovolemic) → ให้อะไร (3% NaCl)"],
+       pattern:["Severe symptomatic (ชัก, ซึม, Na <120): <b>3% NaCl 100–150 mL IV bolus</b> ซ้ำได้ 2–3 ครั้ง (ทุก 10–20 นาที) เป้าเพิ่ม Na 4–6 mEq/L ใน 1–6 ชม.","จำกัด correction ≤8 (ไม่เกิน 10–12) mEq/L ใน 24 ชม. กัน osmotic demyelination · ตรวจ Na ทุก 2–4 ชม. · หลังพ้นวิกฤตค่อยรักษา cause (hypovolemic → isotonic saline)"],
+       members:["MDCU75|RoB|5"]}]},
     {title:"Water: polyuria", sections:[
       {id:"polyuria-solute-vs-water", title:"Polyuria หลัง admit ICH — Uosm 450 + 2(UNa + UK) ≈ 80% ของ Uosm = saline (electrolyte) diuresis จาก IV NaCl",
        trend:"MDCU79 (RoB หมวด Nephrology): ให้ urine output + urine Na / K / osm ต้องคำนวณแยกชนิด diuresis (ข้อเดียวกันอยู่ในสรุป Nephrology)",
@@ -77,4 +85,10 @@ SUMM.push({tag:"Fluid, Electrolyte & Acid–base", title:"Fluid, Electrolyte & A
        pearls:["เลือก DI เพราะผู้ป่วยสมองปัสสาวะมาก — DI ต้องมี Uosm ต่ำ (ปัสสาวะเจือจาง) และ Na ในเลือดมักสูง","เลือก mannitol เพราะใช้ลด ICP — mannitol เป็น non-electrolyte osmole ไม่ทำให้ UNa + UK สูงขนาดนี้","SIADH ปัสสาวะน้อยเข้มข้น ไม่ใช่ polyuria"],
        members:["MDCU79|RoB|38"]}
     ]}
-  ]});
+  ,
+    {title:"Calcium: hypercalcemia", sections:[
+      {id:"hypercalcemia-malignancy", title:"Hypercalcemia of malignancy (หัวคอ / NPC) — saline + bisphosphonate + calcitonin",
+       asked:["ก้อนที่ลิ้น / NPC + ซึม + polyuria + BUN / Cr สูง → lab ที่พบ (hypercalcemia) / การรักษา (bisphosphonate + calcitonin)"],
+       pattern:["Squamous cell ca หัวคอ → PTHrP → hypercalcemia: stones, bones, groans, moans, polyuria (nephrogenic DI), dehydration, AKI, ซึม","รักษา: <b>IV 0.9% saline</b> (UOP 100–150 mL/h) → <b>zoledronic acid 4 mg IV</b> (หรือ pamidronate) + <b>calcitonin 4 IU/kg SC / IM q12h</b> (เร็ว 4–6 ชม. แต่ tachyphylaxis ~48 ชม.) · denosumab ถ้า CrCl ต่ำ / ดื้อ · loop diuretic เฉพาะ volume overload"],
+       members:["MDCU75|RoD|30","MDCU75|RoD|35"]}
+    ]}]});

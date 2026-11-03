@@ -1,5 +1,5 @@
 SUMM.push({tag:"Geriatrics", title:"Geriatrics",
-  intro:"<ul><li>Geriatrics ใน Med Y4 MCQ ของชุด MDCU78 (RoB) มี 1 เรื่อง: <b>delirium ในผู้สูงอายุที่มีสายสวน</b> — ถาม 'next best step' หลังแก้ source หลักแล้วอาการยังไม่หาย</li><li><b>MDCU79 (RoB) ซ้ำเรื่องเดิม</b>: ผู้ป่วย ICU ถอด central line แล้วยัง delirium + ดึง Foley → ถอด Foley vs haloperidol (ผู้จด 79 จดไว้ 2 ครั้งทั้งหมวด Neurology และ Others) — ออก 2 ปีติด 78 / 79 คำตอบเดียวกัน</li><li><b>MDCU76 (RoB) 2 ข้อ</b>: delirium ในผู้สูงอายุ admit pneumonia ที่ <b>agitate รุนแรงจนเป็นอันตราย</b> แม้แก้ non-pharmacologic แล้ว → ครั้งนี้คำตอบคือ <b>low-dose haloperidol</b> (ตรงข้ามกับ 79 ที่ไม่อันตราย) และ <b>falls จาก foot drop</b> → ตรวจ muscle power</li><li>หลักที่ข้อสอบเน้น: delirium = หา precipitant และลด tether ก่อนใช้ยา; ไม่รีบสั่ง CT หรือ antipsychotic</li><li>เรื่องเพื่อนบ้านที่ควรอ่านควบคู่: CAUTI, ยาที่ทำให้ delirium (Beers criteria), polypharmacy ในผู้สูงอายุ</li></ul>",
+  intro:"<ul><li>Geriatrics ใน Med Y4 MCQ ของชุด MDCU78 (RoB) มี 1 เรื่อง: <b>delirium ในผู้สูงอายุที่มีสายสวน</b> — ถาม 'next best step' หลังแก้ source หลักแล้วอาการยังไม่หาย</li><li><b>MDCU79 (RoB) ซ้ำเรื่องเดิม</b>: ผู้ป่วย ICU ถอด central line แล้วยัง delirium + ดึง Foley → ถอด Foley vs haloperidol (ผู้จด 79 จดไว้ 2 ครั้งทั้งหมวด Neurology และ Others) — ออก 2 ปีติด 78 / 79 คำตอบเดียวกัน</li><li><b>MDCU76 (RoB) 2 ข้อ</b>: delirium ในผู้สูงอายุ admit pneumonia ที่ <b>agitate รุนแรงจนเป็นอันตราย</b> แม้แก้ non-pharmacologic แล้ว → ครั้งนี้คำตอบคือ <b>low-dose haloperidol</b> (ตรงข้ามกับ 79 ที่ไม่อันตราย) และ <b>falls จาก foot drop</b> → ตรวจ muscle power</li><li>หลักที่ข้อสอบเน้น: delirium = หา precipitant และลด tether ก่อนใช้ยา; ไม่รีบสั่ง CT หรือ antipsychotic</li><li>เรื่องเพื่อนบ้านที่ควรอ่านควบคู่: CAUTI, ยาที่ทำให้ delirium (Beers criteria), polypharmacy ในผู้สูงอายุ</li><li><b>MDCU75</b> (2 ข้อ, 75X + RoD): <b>NPH triad</b> (gait → ปัสสาวะราด → dementia) ออกทั้งสองเคส</li></ul>",
   groups:[
     {title:"Delirium", sections:[
       {id:"delirium-remove-foley", title:"Delirium ในผู้สูงอายุที่มีสายสวน (HD / ICU) — ถอด Foley catheter ก่อน haloperidol",
@@ -23,4 +23,10 @@ SUMM.push({tag:"Geriatrics", title:"Geriatrics",
        pearls:["Romberg ใช้แยก sensory ataxia (proprioception) — clue 'ปลายเท้าเกี่ยวพื้น / ยกเข่าสูง' ชี้ motor weakness ไม่ใช่การทรงตัว"],
        members:["MDCU76|RoB|28"]}
     ]}
-  ]});
+  ,
+    {title:"Cognition และ gait: NPH", sections:[
+      {id:"nph-triad", title:"Normal pressure hydrocephalus — gait, urinary incontinence, dementia",
+       asked:["72 ปี เดินลำบาก ปัสสาวะราด ความจำเสื่อม 8 เดือน + ventricle โตไม่สมสัดส่วนกับ atrophy → Dx (NPH)"],
+       pattern:["Triad: <b>gait disturbance (เด่นและมาก่อน, magnetic gait)</b> → urinary incontinence → cognitive decline · CT / MRI: ventriculomegaly (Evans index >0.3) เกิน sulcal atrophy","ยืนยัน / พยากรณ์: large-volume LP (tap test 30–50 mL) แล้วเดินดีขึ้น → VP shunt · เป็น dementia ที่รักษาได้"],
+       members:["MDCU75|RoX|5","MDCU75|RoD|12"]}
+    ]}]});

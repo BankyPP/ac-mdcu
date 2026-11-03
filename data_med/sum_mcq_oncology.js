@@ -1,5 +1,5 @@
 SUMM.push({tag:"Oncology", title:"Oncology",
-  intro:"<ul><li>Oncology ใน Med Y4 MCQ: MDCU78 (RoB) มีเพียง 1 เรื่องที่ติดแท็กนี้ — <b>มะเร็งของ periampullary region ที่แสดงด้วย painless jaundice + Courvoisier sign</b>; MDCU79 (RoA / RoB 8 ข้อ) เพิ่มขึ้นมาก (ข้อสอบมะเร็งหลายข้อติดแท็ก GI, Hematology หรือ Pulmonology ร่วมด้วย)</li><li><b>Courvoisier sign ออก 3 ปีติด 76 / 78 / 79</b> — ปี 79 ผู้จดบอก 'ตรงแอค' เป็นข้อจริงเดียวกับ AC78 RoB; <b>ECOG performance status ซ้ำ 76 / 79</b> (76 = ECOG 3, 79 = ECOG 1)</li><li>MDCU76 (RoA / RoB / RoC 4 ข้อ) เพิ่ม <b>malignant ascites</b> (SAAG ต่ำ + cytology บวก → CT หา primary) และ <b>parasagittal meningioma</b> (ปวดหัวเรื้อรัง + focal seizure เริ่มที่ขา)</li><li>ปี 79 ครอบคลุม: <b>มะเร็งทางเดินอาหาร / ตับ / ท่อน้ำดี</b> (esophageal ca, HCC บน HCV cirrhosis + AFP, hilar cholangiocarcinoma ในคนอีสาน), <b>SVC syndrome</b> (ออกทั้ง RoA = lung cancer ผู้สูงอายุสูบบุหรี่ และ RoB = lymphoma ชายหนุ่ม), <b>DIC จาก pancreatic adenocarcinoma</b> และ <b>ECOG performance status</b></li><li>รูปแบบ: เคสสั้นให้วินิจฉัยมะเร็งจาก clinical sign คลาสสิก ('law' / sign) หรือจากตำแหน่งการอุดตัน (ถุงน้ำดีโต vs แฟบ) และบริบท (อายุ บุหรี่ ภูมิลำเนา cirrhosis)</li><li>กับดัก: ตอบ metastasis เพราะเป็นมะเร็งในตับที่พบบ่อยสุด, ตอบ lung cancer ทุกครั้งที่เห็น SVC syndrome, ตอบ TTP เมื่อเห็น schistocyte ทั้งที่ coag ยาวทั้งหมด, สับสน ECOG 1 กับ 2 และ 2 กับ 3, ให้ diuretic ใน ascites ที่ SAAG ต่ำ, เห็นชัก + ปวดหัวแล้วคิดแต่ CNS infection</li></ul>",
+  intro:"<ul><li>Oncology ใน Med Y4 MCQ: MDCU78 (RoB) มีเพียง 1 เรื่องที่ติดแท็กนี้ — <b>มะเร็งของ periampullary region ที่แสดงด้วย painless jaundice + Courvoisier sign</b>; MDCU79 (RoA / RoB 8 ข้อ) เพิ่มขึ้นมาก (ข้อสอบมะเร็งหลายข้อติดแท็ก GI, Hematology หรือ Pulmonology ร่วมด้วย)</li><li><b>Courvoisier sign ออก 3 ปีติด 76 / 78 / 79</b> — ปี 79 ผู้จดบอก 'ตรงแอค' เป็นข้อจริงเดียวกับ AC78 RoB; <b>ECOG performance status ซ้ำ 76 / 79</b> (76 = ECOG 3, 79 = ECOG 1)</li><li>MDCU76 (RoA / RoB / RoC 4 ข้อ) เพิ่ม <b>malignant ascites</b> (SAAG ต่ำ + cytology บวก → CT หา primary) และ <b>parasagittal meningioma</b> (ปวดหัวเรื้อรัง + focal seizure เริ่มที่ขา)</li><li>ปี 79 ครอบคลุม: <b>มะเร็งทางเดินอาหาร / ตับ / ท่อน้ำดี</b> (esophageal ca, HCC บน HCV cirrhosis + AFP, hilar cholangiocarcinoma ในคนอีสาน), <b>SVC syndrome</b> (ออกทั้ง RoA = lung cancer ผู้สูงอายุสูบบุหรี่ และ RoB = lymphoma ชายหนุ่ม), <b>DIC จาก pancreatic adenocarcinoma</b> และ <b>ECOG performance status</b></li><li>รูปแบบ: เคสสั้นให้วินิจฉัยมะเร็งจาก clinical sign คลาสสิก ('law' / sign) หรือจากตำแหน่งการอุดตัน (ถุงน้ำดีโต vs แฟบ) และบริบท (อายุ บุหรี่ ภูมิลำเนา cirrhosis)</li><li>กับดัก: ตอบ metastasis เพราะเป็นมะเร็งในตับที่พบบ่อยสุด, ตอบ lung cancer ทุกครั้งที่เห็น SVC syndrome, ตอบ TTP เมื่อเห็น schistocyte ทั้งที่ coag ยาวทั้งหมด, สับสน ECOG 1 กับ 2 และ 2 กับ 3, ให้ diuretic ใน ascites ที่ SAAG ต่ำ, เห็นชัก + ปวดหัวแล้วคิดแต่ CNS infection</li><li><b>MDCU75</b> (9 ข้อ) เพิ่ม: <b>febrile neutropenia + CVC</b>, <b>hypercalcemia ใน SCC / NPC</b> (2 เคส), <b>pheochromocytoma</b>, colonoscopy ใน bowel habit change, phase II trial; ซ้ำ Courvoisier (2 เคส), esophageal ca</li></ul>",
   groups:[
     {title:"Periampullary / pancreatic cancer", sections:[
       {id:"courvoisier-pancreatic-ca", title:"Carcinoma of the head of the pancreas — Courvoisier sign",
@@ -7,7 +7,7 @@ SUMM.push({tag:"Oncology", title:"Oncology",
        asked:["MDCU76: ชาย 65 ปี ดีซ่านไม่เจ็บค่อย ๆ มากขึ้น + น้ำหนักลด 1 เดือน Murphy ลบ คลำถุงน้ำดีได้ไม่เจ็บ → ถาม diagnosis (ช้อยชุดเดียวกับ 78 / 79 — ตอบ pancreatic carcinoma)","MDCU78 และ MDCU79 โจทย์เดียวกัน: ชาย 65 ปี ดีซ่านแบบไม่เจ็บ 3 สัปดาห์ Murphy ลบ คลำถุงน้ำดีได้ไม่เจ็บ (Courvoisier +) → ถาม diagnosis (ตัวเลือก pancreatic head ca, HCC, CBD stone, acute cholecystitis, Klatskin)"],
        pattern:["<b>Courvoisier law</b>: ดีซ่าน + ถุงน้ำดีโตไม่เจ็บ → มะเร็งที่อุดตันใต้ cystic duct: <b>head of pancreas</b> (พบบ่อยที่สุด), distal cholangiocarcinoma, ampullary ca (นิ่วมักทำให้ถุงน้ำดี fibrosis หดเล็ก)","Work-up: US → CT pancreatic protocol / MRCP → EUS ± FNA; tumor marker CA 19-9 (ใช้ติดตาม ไม่ใช้ screening)","Resectable → Whipple (pancreaticoduodenectomy) ± adjuvant chemotherapy (NCCN); unresectable → palliative stent + chemotherapy","Trousseau sign (migratory thrombophlebitis) พบใน pancreatic ca; ตัวชี้วัดความเสี่ยง: สูบบุหรี่, chronic pancreatitis, DM ใหม่ในสูงอายุ"],
        pearls:["เลือก Klatskin (hilar) — อุดตันเหนือ cystic duct ถุงน้ำดีจึงไม่โต (ปี 79 มีข้อ hilar cholangiocarcinoma ถุงน้ำดีแฟบใน RoB เดียวกัน — ดูกลุ่มมะเร็งตับและท่อน้ำดี)","Murphy sign ลบและไม่เจ็บ แยกจาก acute cholecystitis; CBD stone ไม่ทำให้ถุงน้ำดีโตแบบ Courvoisier"],
-       members:["MDCU78|RoB|15","MDCU79|RoB|24","MDCU76|RoB|29"]},
+       members:["MDCU78|RoB|15","MDCU79|RoB|24","MDCU76|RoB|29","MDCU75|RoC|7","MDCU75|RoD|40"]},
       {id:"cancer-dic-trousseau", title:"Metastatic pancreatic adenocarcinoma + ขาบวม + ช้ำง่าย + coag ยาวทั้งหมด + fibrinogen ต่ำ → DIC (cancer-associated)",
        trend:"ออกใน MDCU79 (RoA) — recall มีแค่ขาบวมข้างเดียว ปวดหัว coagulation ยาวทั้งหมด; ข้อเดียวกันอยู่ในสรุป Hematology",
        asked:["ชาย 62 ปี metastatic pancreatic adenocarcinoma ขาซ้ายบวมกดบุ๋มเจ็บ ปวดหัว ช้ำง่าย plt 55,000 PT / aPTT / TT ยาว fibrinogen 90 D-dimer สูงมาก schistocyte → ถาม diagnosis (DIC, vit K def, liver disease, HIT, TTP)"],
@@ -22,7 +22,15 @@ SUMM.push({tag:"Oncology", title:"Oncology",
        pattern:["SVC อุดกั้น → venous return จากศีรษะ คอ แขนคั่ง: หน้าบวมแดงคล้ำ, periorbital edema, คอ / แขนบวม, <b>collateral vein ที่อก</b>, JVP สูงแต่ไม่เต้น, ไอ หอบ เสียงแหบ, แย่ลงเมื่อก้ม / นอน, Pemberton sign","สาเหตุมะเร็ง ~60-85%: <b>lung cancer</b> (โดยเฉพาะ SCLC — ผู้สูงอายุสูบบุหรี่), <b>NHL</b> (คนอายุน้อย, B symptoms, LN ทั่ว, ตับโต); ที่เหลือ thrombosis จาก catheter / pacemaker","Work-up: CT chest contrast → <b>tissue diagnosis ก่อนรักษา</b> (steroid / RT ก่อน biopsy ทำให้วินิจฉัย lymphoma ไม่ได้)","ฉุกเฉิน (stridor, laryngeal edema, สมองบวม / ซึม) → <b>endovascular stent</b> ทันที; อื่น ๆ: ยกหัวสูง, รักษาตามชนิด (chemo ใน SCLC / lymphoma, RT ใน NSCLC)"],
        pearls:["Facial plethora ทำให้นึกถึง Cushing — เส้นเลือดอกโป่ง + JVP ไม่เต้น = SVC obstruction (Cushing มี striae, moon face, proximal weakness)","เห็น SVC syndrome แล้วตอบ lung cancer ทุกครั้ง — ชายหนุ่มไม่สูบบุหรี่ + B symptoms + LN / ตับโต = lymphoma"],
        members:["MDCU79|RoA|45","MDCU79|RoB|47"]}
-    ]},
+    ,
+      {id:"hypercalcemia-malignancy", title:"Hypercalcemia of malignancy (หัวคอ / NPC) — saline + bisphosphonate + calcitonin",
+       asked:["ก้อนที่ลิ้น / NPC + ซึม + polyuria + BUN / Cr สูง → lab ที่พบ (hypercalcemia) / การรักษา (bisphosphonate + calcitonin)"],
+       pattern:["Squamous cell ca หัวคอ → PTHrP → hypercalcemia: stones, bones, groans, moans, polyuria (nephrogenic DI), dehydration, AKI, ซึม","รักษา: <b>IV 0.9% saline</b> (UOP 100–150 mL/h) → <b>zoledronic acid 4 mg IV</b> (หรือ pamidronate) + <b>calcitonin 4 IU/kg SC / IM q12h</b> (เร็ว 4–6 ชม. แต่ tachyphylaxis ~48 ชม.) · denosumab ถ้า CrCl ต่ำ / ดื้อ · loop diuretic เฉพาะ volume overload"],
+       members:["MDCU75|RoD|30","MDCU75|RoD|35"]},
+      {id:"febrile-neutropenia-cvc", title:"Febrile neutropenia + central line — empiric vancomycin + antipseudomonal β-lactam",
+       asked:["ไข้ ANC 200 + สาย CVC แดงรอบสาย → empiric (vancomycin + ceftazidime)"],
+       pattern:["ไข้ ≥38.3 °C (หรือ ≥38.0 นาน 1 ชม.) + ANC <500 → antibiotic ภายใน 1 ชม. หลังเจาะ culture (สายและ peripheral)","Antipseudomonal β-lactam (cefepime / ceftazidime / piperacillin-tazobactam / carbapenem) · <b>เพิ่ม vancomycin</b> เมื่อสงสัย catheter-related, skin / soft tissue, MRSA, pneumonia, ไม่คงที่"],
+       members:["MDCU75|RoA|5"]}]},
     {title:"หลักทั่วไป: performance status", sections:[
       {id:"ecog-ps", title:"ECOG performance status — ยังทำงานออฟฟิศได้ = ECOG 1; ต้องช่วยอาบน้ำแต่งตัว + อยู่บนเตียง / เก้าอี้ >50% = ECOG 3",
        trend:"ซ้ำ 76 / 79 (RoA ทั้งสองปี) — ให้คำบรรยายกิจวัตรของผู้ป่วยมะเร็งปอดแล้วถามเกรด ECOG ก่อนตัดสิน systemic therapy; คำตอบต่างกันทุกปี จึงต้องจำทุกเกรด",
@@ -30,7 +38,11 @@ SUMM.push({tag:"Oncology", title:"Oncology",
        pattern:["<b>ECOG 0</b> = ทำกิจกรรมได้ปกติเหมือนก่อนป่วย","<b>ECOG 1</b> = จำกัดกิจกรรมหนัก แต่เดินได้และ<b>ทำงานเบา / งานนั่งได้</b> (งานบ้านเบา งานออฟฟิศ)","<b>ECOG 2</b> = เดินได้ ดูแลตัวเองได้ แต่<b>ทำงานไม่ได้</b> ลุกจากเตียง >50% ของเวลาตื่น; <b>3</b> = ดูแลตัวเองได้บางส่วน อยู่บนเตียง / เก้าอี้ >50%; <b>4</b> = ช่วยตัวเองไม่ได้ อยู่บนเตียงตลอด; <b>5</b> = เสียชีวิต","ใช้ตัดสิน systemic therapy: ECOG 0-1 (บางกรณี 2) มักได้ประโยชน์จากเคมีบำบัด, 3-4 เน้น best supportive care (ยกเว้นยาเป้าหมายที่ทนได้ดี เช่น EGFR-TKI); ECOG 1 ≈ KPS 80-90","เทียบ Karnofsky คร่าว ๆ: ECOG 0 ≈ KPS 90-100, 1 ≈ 70-80, 2 ≈ 50-60, 3 ≈ 30-40, 4 ≈ 10-20","ตัดเกรด 2 vs 3 ด้วย 2 คำถาม: <b>ดูแลตัวเองได้ทั้งหมดหรือบางส่วน</b> และ<b>อยู่บนเตียง / เก้าอี้น้อยกว่าหรือมากกว่า 50% ของเวลาตื่น</b>"],
        pearls:["76: สับสน 2 กับ 3 — ต้องช่วยอาบน้ำแต่งตัว (ดูแลตัวเองได้บางส่วน) + อยู่เตียง 2 ใน 3 ของเวลาตื่น = ECOG 3 ไม่ใช่ 2; ECOG 4 ต้องช่วยทุกอย่างและอยู่บนเตียงตลอด","สับสน 1 กับ 2 — จุดตัดคือ 'ยังทำงานได้หรือไม่' (1 ทำงานเบาได้, 2 ทำงานไม่ได้)","เลือก 0 เพราะยังทำงานได้ — แต่เล่นกีฬาหนักไม่ได้เหมือนเดิมแล้ว = จำกัดกิจกรรมหนัก"],
        members:["MDCU79|RoA|44","MDCU76|RoA|4a"]}
-    ]},
+    ,
+      {id:"trial-phase-ii-onc", title:"Phase II trial ของยา anticancer — ได้ MTD แล้ว ประเมิน efficacy เบื้องต้น",
+       asked:["ยา anticancer ใหม่ที่หา maximum tolerated dose แล้ว → phase ถัดไป (Phase II)"],
+       pattern:["Phase I: safety / MTD · <b>Phase II</b>: efficacy เบื้องต้น (response rate) + safety ที่ dose ที่เลือก · Phase III: เทียบ standard (RCT) · Phase IV: post-marketing"],
+       members:["MDCU75|RoC|27"]}]},
     {title:"มะเร็งตับ ท่อน้ำดี และหลอดอาหาร", sections:[
       {id:"hcc-onco", title:"HCV cirrhosis + ก้อนในตับใหม่ + AFP 1,200 → hepatocellular carcinoma",
        trend:"ออกใน MDCU79 (RoB) — ข้อเดียวกันอยู่ในสรุป GI",
@@ -49,8 +61,12 @@ SUMM.push({tag:"Oncology", title:"Oncology",
        asked:["หญิง 63 ปีสูบบุหรี่จัด กลืนของแข็งลำบากมากขึ้น 3 เดือน ยังกลืนน้ำได้ น้ำหนักลด 8 kg → ถาม diagnosis (peptic stricture, esophageal ca, achalasia, EoE, esophageal web)"],
        pattern:["<b>SCC</b>: บุหรี่ + เหล้า, เครื่องดื่มร้อน, achalasia, caustic, Plummer–Vinson — กลาง / บน; <b>adenocarcinoma</b>: GERD → Barrett, อ้วน — ส่วนล่าง","Solid only + progressive + น้ำหนักลด = alarm → <b>EGD + biopsy</b> → staging CT / EUS / PET","Rx ตาม stage: resectable → neoadjuvant chemoradiation + esophagectomy; advanced → chemo ± immunotherapy, stent เพื่อกลืน"],
        pearls:["เลือก peptic stricture โดยไม่สนใจน้ำหนักลดและบุหรี่"],
-       members:["MDCU79|RoB|22"]}
-    ]},
+       members:["MDCU79|RoB|22","MDCU75|RoD|31"]}
+    ,
+      {id:"crc-colonoscopy", title:"Bowel habit เปลี่ยน ≥3 เดือน อายุ >50 — colonoscopy",
+       asked:["ชาย 68 ปี ถ่ายผิดปกติ 3 เดือน → ตรวจอะไร (colonoscopy)"],
+       pattern:["Alarm features (อายุ >50, bowel habit เปลี่ยน, เลือดในอุจจาระ, น้ำหนักลด, IDA) → <b>colonoscopy</b> (เห็นทั้งลำไส้ + biopsy)","CEA ใช้ติดตามหลังรักษา ไม่ใช่ตรวจวินิจฉัย · CT staging หลังยืนยัน histology"],
+       members:["MDCU75|RoC|21"]}]},
     {title:"Malignant ascites / peritoneal carcinomatosis", sections:[
       {id:"malignant-ascites", title:"Ascites + น้ำหนักลด + SAAG <1.1 + protein สูง + cytology พบ malignant cells → peritoneal carcinomatosis → CT หา primary",
        trend:"ออกใน MDCU76 (RoC) — ให้ผล paracentesis ครบชุดแล้วถาม next step; ข้อเดียวกันอยู่ในสรุป GI",
@@ -67,4 +83,10 @@ SUMM.push({tag:"Oncology", title:"Oncology",
        pearls:["เห็น seizure + headache แล้วตอบ CNS infection — เป็นหลายเดือน ไม่มีไข้ HIV ลบ + focal sign = ก้อน","Headache red flags: ใหม่หลังอายุ 50, ค่อย ๆ แย่ลง, focal deficit, seizure, papilledema, ไข้ / ภูมิต่ำ","GBM = ผู้สูงอายุ ก้อน intra-axial โตเร็ว ring enhancement / butterfly"],
        members:["MDCU76|RoC|18"]}
     ]}
-  ]});
+  ,
+    {title:"Endocrine tumor", sections:[
+      {id:"pheo-metanephrines", title:"Pheochromocytoma / paraganglioma — plasma หรือ 24-h urine metanephrines",
+       asked:["ปัสสาวะเป็นเลือดไม่เจ็บ + หมดสติทันทีหลังถ่ายปัสสาวะ → ตรวจอะไร (metanephrines)"],
+       pattern:["หมดสติ / ใจสั่น / ปวดหัวหลังถ่ายปัสสาวะ + hematuria = <b>paraganglioma ของกระเพาะปัสสาวะ</b> (catecholamine surge ตอนบีบตัว)","Screen: <b>plasma free metanephrines</b> หรือ 24-h urine fractionated metanephrines · ก่อนผ่าตัด α-blocker 10–14 วัน แล้วค่อย β-blocker (ห้าม β-blocker เดี่ยว) · ตรวจ genetic (SDHx, RET, VHL)"],
+       members:["MDCU75|RoD|32"]}
+    ]}]});
