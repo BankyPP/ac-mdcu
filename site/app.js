@@ -499,7 +499,7 @@ function homeResume(P,p){qRestore();const W=W_(),out=[],s=P.sess;
   if(s&&s.list&&s.list.length&&s.ph===p){const a=Object.keys(s.ans).length;if(a<s.list.length)out.push({k:"sess",t:Math.max(s.vt||0,s.ts||0),title:s.title,d:`ทำไป ${a}/${s.list.length} ข้อ · ล่าสุดอยู่ข้อ ${s.cur+1}${QR&&!QR.done&&QR.ward===ward&&s.kind==="quality"?" · กำลังจับเวลา":""}`});}
   const sv=P.svc[p];
   if(sv&&(sv.vt||sv.cur)&&W.QB.length){const L=svcList().filter(q=>!q.notice),d=L.filter(q=>lockedAns(P,p,q.uid)!==undefined).length,c=W.byU[sv.cur];
-    if(L.length&&d<L.length){const ss=selSets(),nm=sv.set==="all"?"ทุกชุด":ss.length>2?`${ss.slice(0,2).join(", ")} +${ss.length-2} ชุด`:ss.join(", ");
+    if(L.length&&d<L.length){const ss=selSets(),nm=(sv.set==="all"?"ทุกชุด":ss.length>2?`${ss.slice(0,2).join(", ")} +${ss.length-2} ชุด`:ss.join(", "))+(tgActive(sv.tg)?` · ${sv.tg.tags.length} Tag`:"");
       out.push({k:"svc",t:sv.vt||0,title:"Service round · "+nm,d:`ทำไป ${d}/${L.length} ข้อ${c&&!c.notice?` · ล่าสุดอยู่${ss.length===1?"":" "+esc(setKey(c))} ข้อ ${c.id}`:""}`});}}
   const H=P.rsHide||{};return out.filter(x=>!(H[x.k+"|"+p]>=x.t)).sort((a,b)=>b.t-a.t);}
 function startSess(kind,title,uids,extra){
@@ -552,6 +552,36 @@ function rStaff(){
   $("saGo").onclick=()=>{const l=staffList();if(!l.length){toast("ไม่มีข้อที่เข้าเงื่อนไข");return;}startSess("staff",all?"Ward staff round · รวมทุกแหล่ง":"Ward staff round",l);};
 }
 
+/* ---------------- Service round: pick by Tag (every exam type, ward and site) ----------------
+   g={on,tags:[id…],mode:"min"|"max"} · Minimum = the question has at least one chosen Tag · Maximum = the question has no Tag outside the chosen ones · ticked with nothing chosen = no filter */
+const TG_COL=["#C62828","#00796B","#6A1B9A","#B45309","#1565C0","#AD1457","#2E7D32","#3949AB","#C2410C","#00838F","#7B1FA2","#6B7A00","#BE185D","#0277BD","#1B6E4B","#8E24AA","#A1401F","#4F5BD5"];
+function tgSort(a){return a.slice().sort((x,y)=>String(x[1]).localeCompare(String(y[1]),"en",{sensitivity:"base"}));}
+function tgNorm(g,all){g=g&&typeof g==="object"?g:{};const T=Array.isArray(g.tags)?g.tags:[];return {on:!!g.on,tags:all?T.filter(t=>all.some(a=>a[0]===t)):T,mode:g.mode==="max"?"max":"min"};}
+function tgActive(g){return !!(g&&g.on&&g.tags&&g.tags.length);}
+function tgPass(t,g){if(!tgActive(g))return true;return g.mode==="max"?t.length>0&&t.every(x=>g.tags.includes(x)):t.some(x=>g.tags.includes(x));}
+function tgColor(all,id){const i=all.findIndex(a=>a[0]===id);return TG_COL[(i<0?0:i)%TG_COL.length];}
+function tgPanel(all,g,cnt,n){
+  let h=`<div class="tgbox"><label class="tgon"><input type="checkbox" id="tgOn"${g.on?" checked":""}><span class="tgt"><b>เลือกหัวข้อด้วย</b><span class="hint">ติ้กเพื่อทำเฉพาะบางหัวข้อตาม Tag · ไม่ติ้ก = ทุกหัวข้อ</span></span></label>`;
+  if(g.on){
+    h+=`<div class="tgs">${all.map(([k,t])=>{const c=cnt[k]||0;return `<button class="tg${c?"":" zero"}" type="button" data-tg="${esc(k)}" aria-pressed="${g.tags.includes(k)}" style="--tg:${tgColor(all,k)}">${esc(t)}<span class="n">${c}</span></button>`;}).join("")}</div>`;
+    h+=`<div class="tgmh">Mode</div><div class="tgms">
+      <button class="tgm" type="button" data-tgm="min" aria-pressed="${g.mode!=="max"}"><b>Minimum</b><span>มี Tag ที่เลือกอย่างน้อย 1 อัน มี Tag อื่นปนได้</span></button>
+      <button class="tgm" type="button" data-tgm="max" aria-pressed="${g.mode==="max"}"><b>Maximum</b><span>มีได้แค่ Tag ที่เลือก ห้ามมี Tag อื่นปน</span></button></div>`;
+    h+=`<div class="tgfoot"><span>${g.tags.length?`เลือก ${g.tags.length} Tag · ตรงเงื่อนไข <b>${n}</b> ข้อ`:`ยังไม่ได้เลือก Tag = ทุกข้อ (<b>${n}</b> ข้อ)`}</span>${g.tags.length?`<span class="spacer"></span><button class="link" type="button" id="tgClr">ล้าง Tag</button>`:""}</div>`;}
+  return h+`</div>`;}
+function tgWire(root,g,after){
+  const ref=sel=>{after();const e=document.querySelector(sel);if(e)e.focus({preventScroll:true});};
+  const on=root.querySelector("#tgOn");if(on)on.onchange=()=>{g.on=on.checked;ref("#tgOn");};
+  root.querySelectorAll("[data-tg]").forEach(b=>b.onclick=()=>{const k=b.dataset.tg,i=g.tags.indexOf(k);if(i>=0)g.tags.splice(i,1);else g.tags.push(k);ref(`[data-tg="${CSS.escape(k)}"]`);});
+  root.querySelectorAll("[data-tgm]").forEach(b=>b.onclick=()=>{g.mode=b.dataset.tgm;ref(`[data-tgm="${g.mode}"]`);});
+  const c=root.querySelector("#tgClr");if(c)c.onclick=()=>{g.tags.length=0;ref("#tgOn");};}
+/* the line in the answer sheet: which Tag filter is on, with edit / remove */
+function tgLine(all,g,onOff,onEdit){const el=$("tgLine");if(!el)return;if(!tgActive(g)){el.hidden=true;el.innerHTML="";return;}
+  const nm=k=>(all.find(a=>a[0]===k)||[k,k])[1];
+  el.innerHTML=`<span class="tgl-h">${g.mode==="max"?"Maximum":"Minimum"}</span>${tgSort(g.tags.map(k=>[k,nm(k)])).map(([k,t])=>`<span class="tg sm" style="--tg:${tgColor(all,k)}">${esc(t)}</span>`).join("")}<button class="link" type="button" id="tgLEdit">แก้</button><button class="link" type="button" id="tgLOff">เอาออก</button>`;
+  el.hidden=false;$("tgLEdit").onclick=onEdit;$("tgLOff").onclick=onOff;}
+function tgAllQ(W){if(!W._tgAll){const s=new Set();W.QB.forEach(q=>qTags(q).forEach(t=>s.add(t)));W._tgAll=tgSort([...s].map(t=>[t,t]));}return W._tgAll;}
+
 /* ---------------- service round: choose sets ---------------- */
 function rService(){
   const W=W_(),P=P_(),p=ph(),QB=W.QB;
@@ -561,11 +591,16 @@ function rService(){
   let h=`<h1 class="h2">Service round</h1><p class="sub">เลือกปีและ rotation ที่อยากทำ เลือกได้หลายชุด ไม่เลือกเลย = ทุกชุด</p>`;
   h+=years.map(y=>{const ks=W.sets.filter(k=>W.QB.some(q=>q.set===y&&setKey(q)===k));return `<div class="yr"><div class="yh">${esc(y)}</div><div class="chips">${ks.map(k=>{const qs=QB.filter(q=>setKey(q)===k),d=qs.filter(q=>lockedAns(P,p,q.uid)!==undefined).length;const full=d===qs.length,pc=Math.round(d/qs.length*100);return `<button class="chip svchip${full?" done":""}" data-k="${esc(k)}" aria-pressed="${sel.has(k)}" style="--pc:${pc}%">${esc(k.slice(y.length).trim()||"ทั้งชุด")}<span class="c">${full?"✓ ครบ ":""}${d}/${qs.length}</span></button>`;}).join("")}</div></div>`;}).join("");
   h+=`<p class="hint">แถบสีในปุ่ม = สัดส่วนที่ทำแล้วใน Phase ${p} · ✓ ครบ = ทำครบทุกข้อในชุดนั้นแล้ว</p>`;
+  h+=`<div id="tgWrap"></div>`;
   h+=`<div class="row2"><button class="btn ghost" id="spClear">ล้างที่เลือก</button><span class="spacer"></span><button class="btn primary" id="spGo">เริ่มทำ</button></div>`;
   $("main").innerHTML=h;
-  document.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(sel.has(k))sel.delete(k);else sel.add(k);b.setAttribute("aria-pressed",sel.has(k));});
-  $("spClear").onclick=()=>{sel.clear();document.querySelectorAll("[data-k]").forEach(b=>b.setAttribute("aria-pressed","false"));};
-  $("spGo").onclick=()=>{const order=W.sets;P.pick=[...sel].sort((a,b)=>order.indexOf(a)-order.indexOf(b));const s=P.svc[p];s.set=P.pick.length?P.pick.join("|"):"all";
+  const allT=tgAllQ(W),tg=tgNorm(P.svc[p].tg,allT),tgPool=()=>QB.filter(q=>!sel.size||sel.has(setKey(q))),
+    paintTg=()=>{const el=$("tgWrap");if(!el||!allT.length)return;const pool=tgPool(),cnt={};pool.forEach(q=>qTags(q).forEach(t=>{cnt[t]=(cnt[t]||0)+1;}));el.innerHTML=tgPanel(allT,tg,cnt,pool.filter(q=>tgPass(qTags(q),tg)).length);tgWire(el,tg,paintTg);};
+  paintTg();
+  document.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(sel.has(k))sel.delete(k);else sel.add(k);b.setAttribute("aria-pressed",sel.has(k));paintTg();});
+  $("spClear").onclick=()=>{sel.clear();tg.tags.length=0;document.querySelectorAll("[data-k]").forEach(b=>b.setAttribute("aria-pressed","false"));paintTg();};
+  $("spGo").onclick=()=>{if(!tgPool().some(q=>tgPass(qTags(q),tg))){toast("ไม่มีข้อที่ตรงกับชุดและ Tag ที่เลือก");return;}
+    const order=W.sets;P.pick=[...sel].sort((a,b)=>order.indexOf(a)-order.indexOf(b));const s=P.svc[p];s.set=P.pick.length?P.pick.join("|"):"all";s.tg=tg;
     {const nx=svcNextTodo();if(nx)s.cur=nx.uid;else{toast("ทำครบทุกข้อในชุดที่เลือกแล้ว");const c=W.byU[s.cur];if(!c||!inSet(c)){const v=svcVisible();s.cur=(svcStart(v)||svcList()[0]).uid;}}}save();go(ward+"/svc");};
 }
 
@@ -595,7 +630,8 @@ const selSets=()=>{const s=svcS().set;return s==="all"?[]:String(s).split("|").f
 const chOf=q=>String(q.orig).split(".")[0];
 const chSets=()=>selSets().filter(k=>(W_().CHAP||{})[k]);
 const chOk=q=>{const sv=svcS();if(!sv.ch||sv.ch==="all")return true;const k=setKey(q);if(!(W_().CHAP||{})[k]||!selSets().includes(k))return true;return sv.ch.split("|").includes(chOf(q));};
-const inSet=q=>svcS().set==="all"||selSets().includes(setKey(q))&&chOk(q);
+const tgOk=q=>!!q.notice||tgPass(qTags(q),svcS().tg);
+const inSet=q=>tgOk(q)&&(svcS().set==="all"||selSets().includes(setKey(q))&&chOk(q));
 function svcPass(q){const P=P_(),p=ph(),f=svcS().status,a=lockedAns(P,p,q.uid);
   switch(f){case"todo":return a===undefined;case"wrong":return a!==undefined&&a!==q.ans;case"right":return a!==undefined&&a===q.ans;case"flag":return flagged(P,q.uid);case"nop1":return !atts(P,1,q.uid).length;default:return true;}}
 const svcList=()=>W_().QB.filter(inSet);
@@ -2003,7 +2039,7 @@ function rResult(){
 }
 
 /* ---------------- Phase 2: high-yield & keywords ---------------- */
-function openQ(u){const s=P_().svc[ph()];s.set="all";s.status="all";s.cur=u;save();go(ward+"/svc");}
+function openQ(u){const s=P_().svc[ph()];s.set="all";s.status="all";if(s.tg)s.tg.on=false;s.cur=u;save();go(ward+"/svc");}
 function refBtns(refs){const W=W_();return (refs||[]).map(r=>W.byRid[r]).filter(Boolean).map(q=>`<button class="qref" data-u="${esc(q.uid)}">ข้อ ${q.id}</button>`).join(" ");}
 function bindRefs(){document.querySelectorAll("[data-u].qref").forEach(b=>b.onclick=()=>openQ(b.dataset.u));}
 function rHY(){rHySum("MCQ");}   /* หน้าเต็มอยู่ที่ site/hysum.js — W.HY (highyield.js) แบบเดิมเลิกใช้ */
@@ -2022,6 +2058,7 @@ function statLabels(a){document.querySelectorAll("#overlay .stat .k").forEach((e
 function sheet(){
   const W=W_(),P=P_(),p=ph();statLabels(["ทำแล้ว","ถูก","ความแม่น"]);
   {const cc=$("chChips");if(cc){cc.hidden=true;cc.innerHTML="";}}
+  {const tl=$("tgLine");if(tl){tl.hidden=true;tl.innerHTML="";}}
   if(view==="exam"||view==="lrev")return legSheet();
   if(isAIV()||view==="admq")return admSheet();
   if(view==="mq")return mqSheet();
@@ -2051,6 +2088,7 @@ function sheet(){
     cc.hidden=false;
     if(sheet._cok)cc.scrollLeft=sheet._cx||0;else{const on=cc.querySelector('[aria-pressed="true"]:not([data-ch="all"])');if(on)cc.scrollLeft=on.offsetLeft-cc.offsetLeft-cc.clientWidth/2+on.offsetWidth/2;}sheet._cok=1;cc.onscroll=()=>{sheet._cx=cc.scrollLeft;};cc.onwheel=e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){cc.scrollLeft+=e.deltaY;e.preventDefault();}};
     cc.querySelectorAll("[data-ch]").forEach(b=>b.onclick=()=>{const v=b.dataset.ch;let c=!sv.ch||sv.ch==="all"?[]:sv.ch.split("|");if(v==="all")c=[];else if(c.includes(v))c=c.filter(x=>x!==v);else c.push(v);c.sort((x,y)=>chs.indexOf(x)-chs.indexOf(y));sv.ch=c.length?c.join("|"):"all";const cq=svcQ();if(cq&&!svcList().some(q=>q.uid===cq.uid)){const nx=svcVisible().find(q=>lockedAns(P,p,q.uid)===undefined)||svcVisible()[0];sv.cur=nx?nx.uid:null;}save();sheet();rQuiz();});}}
+  tgLine(tgAllQ(W),sv.tg,()=>{sv.tg.on=false;save();sheet();},()=>{closeS(true);go(ward+"/service");});
   const FS=[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["wrong","ตอบผิด"]].concat(p===2?[["right","ตอบถูก"],["flag","ไม่มั่นใจ"],["nop1","ไม่เคยทำใน P1"]]:[["flag","ไม่มั่นใจ"]]);
   if(!FS.some(x=>x[0]===sv.status))sv.status="all";
   $("statusChips").innerHTML=FS.map(([v,t])=>`<button class="chip" aria-pressed="${sv.status===v}" data-st="${v}">${t}</button>`).join("");

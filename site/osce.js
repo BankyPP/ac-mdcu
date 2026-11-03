@@ -382,7 +382,7 @@ function osResView(){const P=P_(),rs=osLastRes();if(!rs)return go(ward+"/osl");c
   mountNotes(document);document.querySelectorAll("details.osr").forEach(d=>d.addEventListener("toggle",()=>{if(d.open)mountNotes(d);}));
   osBindChk(rs,re);
   document.querySelectorAll("[data-osg]").forEach(b=>b.onclick=()=>{const ix=+b.dataset.osg,i=+b.dataset.ss,x=+b.dataset.g;rs.gm=rs.gm||{};const G=rs.gm[ix]=rs.gm[ix]||{};if(G[i]===x)delete G[i];else G[i]=x;P.osOpen=ix;save();re();});
-  document.querySelectorAll("[data-osgo]").forEach(b=>b.onclick=()=>{P_().type="OSCE";mqVset({r:"service",set:"all",style:"all",status:"all"});save();mqOpen(b.dataset.osgo,undefined,"service");});
+  document.querySelectorAll("[data-osgo]").forEach(b=>b.onclick=()=>{P_().type="OSCE";mqVset({r:"service",set:"all",style:"all",status:"all",tg:Object.assign({},mqS().v.tg,{on:false})});save();mqOpen(b.dataset.osgo,undefined,"service");});
   document.querySelectorAll("[data-osai]").forEach(b=>b.onclick=()=>osAiGrade(rs,+b.dataset.osai));}
 async function osAiGrade(rs,ix){const q=osSt(rs,rs.seq[ix].u);if(!q||OSAI.busy)return;const A=(rs.ans||{})[ix]||{},subs=q.subs.filter(s=>(A[s._i]||"").trim());if(!subs.length)return;
   OSAI.busy=ix+1;P_().osOpen=ix;osResView();

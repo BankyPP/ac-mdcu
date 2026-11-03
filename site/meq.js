@@ -17,7 +17,7 @@ function mqL(wid,kind){wid=wid||ward;const W=WARDS[wid];if(!W)return [];kind=kin
     const so=[...new Set(L.map(q=>q.set))];L.sort((a,b)=>so.indexOf(a.set)-so.indexOf(b.set)||a.n-b.n);L.forEach((q,i)=>{q.n=i;});}
   return L;}
 function mqInitP(P,kind){const K=(kind||(P&&P.type==="OSCE"?"OSCE":"MEQ"))==="OSCE"?"osce":"meq";const m=P[K]=P[K]||{};m.a1=m.a1||{};m.a2=m.a2||{};m.star=m.star||{};m.v=m.v||{};const v=m.v;
-  v.set=v.set||"all";v.sec=v.sec||"all";v.status=v.status||"all";v.style=v.style||"all";v.tags=Array.isArray(v.tags)?v.tags:[];v.gl=Array.isArray(v.gl)?v.gl:[];return m;}
+  v.set=v.set||"all";v.sec=v.sec||"all";v.status=v.status||"all";v.style=v.style||"all";v.tags=Array.isArray(v.tags)?v.tags:[];v.gl=Array.isArray(v.gl)?v.gl:[];v.tg=v.tg&&Array.isArray(v.tg.tags)?v.tg:tgNorm(v.tg);return m;}
 function mqS(){return mqInitP(P_());}
 function mqA(){return mqS()["a"+ph()];}
 function mqRec(q){return mqA()[q.uid];}
@@ -54,6 +54,8 @@ function mqImgs(x,note){if(!x)return note?`<div class="img-missing">🖼 ${note}
 function mqTopics(){const W=W_(),T=((mqIsOS()?W.cfg.osceTopics:W.cfg.meqTopics)||[]).map(t=>Array.isArray(t)?t:[t.id,t.name]),have=new Set();mqL().forEach(q=>q.subs.forEach(s=>(s.tags||[]).forEach(t=>have.add(t))));
   const o=T.filter(([k])=>have.has(k));have.forEach(k=>{if(!o.some(x=>x[0]===k))o.push([k,k]);});return o;}
 const mqTN=k=>(mqTopics().find(x=>x[0]===k)||[k,k])[1];
+/* Service round Tag filter: a case counts by the Tags of all its Parts, because the Service round opens the whole case */
+const mqQTags=q=>[...new Set(q.subs.flatMap(s=>s.tags||[]))];
 /* ---- topic context (Unit round): only Parts tagged with a chosen topic ---- */
 const mqTM=()=>mqS().v.ctx==="topic";
 const mqTmatch=s=>(s.tags||[]).some(t=>mqS().v.tags.includes(t));
@@ -202,7 +204,7 @@ function mqList(rk){const v=mqS().v,L=mqL(),setOk=q=>v.set==="all"||v.set.split(
   if(rk==="advisor")return mqAdvL().filter(q=>mqStyOk(q));
   if(rk==="unit")return v.tags.length?L.filter(q=>setOk(q)&&mqSecOk(q)&&mqStyOk(q)&&mqTPass(q,v.status)):[];
   if(rk==="grand")return v.gl.map(u=>L.find(q=>q.uid===u)).filter(Boolean);
-  return L.filter(q=>setOk(q)&&mqSecOk(q)&&mqStyOk(q)&&mqPass(q,v.status));}
+  return L.filter(q=>setOk(q)&&mqSecOk(q)&&mqStyOk(q)&&mqPass(q,v.status)&&(rk!=="service"||tgPass(mqQTags(q),v.tg)));}
 /* ---- ward home (MEQ tab) ---- */
 function mqHomeHTML(type){type=type||"MEQ";const P=P_(),p=ph(),L=mqL(ward,type),W=W_(),done=L.filter(q=>mqCaseDone(q)),scs=done.map(mqScore).filter(s=>s&&s.all);
   const avg=scs.length?Math.round(scs.reduce((a,s)=>a+s.got/s.tot,0)/scs.length*100):null,nC=L.filter(q=>!q.sa).length,nS=L.length-nC,sl=mqStaffL().length;
@@ -228,7 +230,7 @@ function mqBindHome(type){type=type||"MEQ";
   document.querySelectorAll("[data-mqround]").forEach(b=>b.onclick=()=>{const k=b.dataset.mqround,R=mqRounds(type).find(r=>r.k===k);if(R.soon){toast(R.note||"โหมดนี้จะเพิ่มภายหลัง");return;}
     if(k==="io")return go(ward+"/io");if(k==="teach")return go(ward+"/teach");if(k==="longcase")return go(ward+"/lcase");if(k==="specialty")return go(ward+"/spc");if(k==="legend"&&type==="OSCE")return go(ward+"/osl");if(k==="quality"&&type==="OSCE")return go(ward+"/osq");if(!mqL().length){toast(`ยังไม่มีข้อสอบ ${type} ในคลัง`);return;}if(k==="grand")return mqGrandNext(true);
     mqVset({r:k,status:k==="service"||k==="unit"?mqS().v.status:"all"});save();go(ward+"/mqr");});
-  document.querySelectorAll("[data-mqp2]").forEach(b=>b.onclick=()=>{mqVset({r:"service",set:"all",style:"all",status:b.dataset.mqp2});save();go(ward+"/mqr");});
+  document.querySelectorAll("[data-mqp2]").forEach(b=>b.onclick=()=>{mqVset({r:"service",set:"all",style:"all",status:b.dataset.mqp2,tg:Object.assign({},mqS().v.tg,{on:false})});save();go(ward+"/mqr");});
   const rs=$("mqResume");if(rs)rs.onclick=()=>go(ward+"/mq");
   {const b=$("osHomeRes");if(b)b.onclick=()=>go(ward+"/osx");}
   document.querySelectorAll("[data-mqask]").forEach(b=>b.onclick=()=>{mqVset({ask:b.dataset.mqask==="1"});save();rHome();});
@@ -260,6 +262,7 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
     /* พาร์ทตามไฟล์ (MEQ / Long case / Recall …) of the selected sets — pick some to see only those; none = every part in file order */
     {const inS=L.filter(q=>v.set==="all"||sel.includes(mqSK(q))),secs=mqSecs(inS),ss=v.sec==="all"?[]:v.sec.split("|").filter(x=>secs.includes(x));
       if(secs.length)h+=`<div class="tl-h">พาร์ทในไฟล์ <span class="hint">ไม่เลือก = ทุกพาร์ท เรียงตามไฟล์</span></div><div class="chips scroll">${[["all",v.sec==="all"?"ทุกพาร์ท":`ทุกพาร์ท (เลือก ${ss.length})`]].concat(secs.map(x=>[x,x])).map(([k,n])=>`<button class="chip" type="button" data-msec="${esc(k)}" aria-pressed="${k==="all"?v.sec==="all":ss.includes(k)}">${esc(n)}<span class="cnt">${k==="all"?"":inS.filter(q=>mqSecG(q)===k).length}</span></button>`).join("")}</div>`;}
+    if(rk==="service"&&T.length){const secOk=q=>(v.set==="all"||sel.includes(mqSK(q)))&&mqSecOk(q)&&mqStyOk(q),cnt={};L.filter(secOk).forEach(q=>mqQTags(q).forEach(t=>{cnt[t]=(cnt[t]||0)+1;}));v.tg.tags=v.tg.tags.filter(t=>T.some(a=>a[0]===t));h+=`<div id="tgWrap">${tgPanel(tgSort(T),v.tg,cnt,mqList("service").length)}</div>`;}
     h+=`<div class="chips">${[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["notfull","ยังไม่ได้เต็ม"],["star","★ ติดดาว"]].map(([k,n])=>`<button class="chip" type="button" data-mst="${k}" aria-pressed="${v.status===k}">${n}</button>`).join("")}</div>`;}
   h+=`<div class="ssearch"><input type="search" id="mqQ" placeholder="🔍 ค้นหาคำ / หัวข้อ" autocomplete="off" value="${esc(mqQ)}" aria-label="ค้นหาข้อ"><span id="mqQn"></span></div>`;
   const Q0=mqList(rk),QT=srchTerms(mqQ),Q=QT.length?Q0.filter(q=>srchHit(mqSearchText(q),QT)):Q0;
@@ -272,6 +275,7 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
   {const nb=$("mqNext");if(nb)nb.onclick=()=>{const nx=mqNextTodo(Q0);if(nx)mqOpen(nx.uid,undefined,"service");};}
   {const qi=$("mqQ"),qn=$("mqQn");if(qn)qn.textContent=QT.length?`พบ ${Q.length}/${Q0.length} ข้อ`:"";
     if(qi){let tm=0;qi.addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(()=>{mqQ=qi.value;const p0=qi.selectionStart;mqRList();const n=$("mqQ");if(n){n.focus();try{n.setSelectionRange(p0,p0);}catch(e){}}},160);});}}
+  {const tw=$("tgWrap");if(tw)tgWire(tw,v.tg,()=>{mqVset({});save();mqRList();});}
   document.querySelectorAll("[data-mtag]").forEach(b=>b.onclick=()=>{const k=b.dataset.mtag,a=v.tags;const i=a.indexOf(k);if(i>=0)a.splice(i,1);else a.push(k);mqVset({});save();mqRList();});
   document.querySelectorAll("[data-msty]").forEach(b=>b.onclick=()=>{mqVset({style:b.dataset.msty});save();mqRList();});
   document.querySelectorAll("[data-mset]").forEach(b=>b.onclick=()=>{const k=b.dataset.mset;let sel=v.set==="all"?[]:v.set.split("|");if(k==="all")sel=[];else if(sel.includes(k))sel=sel.filter(x=>x!==k);else sel.push(k);mqVset({set:sel.length?sel.join("|"):"all"});save();mqRList();});
@@ -282,6 +286,7 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
 function mqSheet(){const v=mqS().v,rk=v.r||"service",L=mqL(),c=mqCur(),cur=c?{u:c.q.uid,pi:c.pi}:null,SV=rk==="service"||rk==="unit";
   statLabels(["ทำแล้ว","ได้เต็ม","คะแนนเฉลี่ย"]);$("sheetTitle").textContent=`กระดาษคำตอบ · ${MQ_RN(rk)} · ${mqKN()}`;
   const sc=$("setChips"),cc=$("chChips"),stc=$("statusChips");sc.innerHTML="";stc.innerHTML="";if(cc){cc.innerHTML="";cc.hidden=true;}
+  tgLine(tgSort(mqTopics()),rk==="service"?v.tg:null,()=>{v.tg.on=false;mqVset({});save();mqSheet();},()=>{closeS(true);go(ward+"/mqr");});
   if(SV){const sets=[...new Set(L.map(mqSK))],sel=v.set==="all"?[]:v.set.split("|");
     sc.innerHTML=[["all",v.set==="all"?"ทุกชุด":`ทุกชุด (เลือก ${sel.length})`]].concat(sets.map(x=>[x,x])).map(([k,n])=>`<button class="chip" type="button" data-sms="${esc(k)}" aria-pressed="${k==="all"?v.set==="all":sel.includes(k)}">${esc(n)}</button>`).join("");
     const inS=L.filter(q=>v.set==="all"||sel.includes(mqSK(q))),secs=mqSecs(inS),ss=v.sec==="all"?[]:v.sec.split("|").filter(x=>secs.includes(x));
