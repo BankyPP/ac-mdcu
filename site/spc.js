@@ -10,6 +10,8 @@ function spcInitP(A){A.sel=A.sel||{all:0,T:[],U:[],L:0};["T","U"].forEach(k=>{if
   A.on=A.on||0;A.bag=A.bag||{sig:"",list:[]};A.pts=A.pts||{};A.done=A.done||{};if(A.run===undefined)A.run=null;}
 const spcA=wid=>PWof(st,wid||ward).spc;
 const ioPlain=h=>String(h||"").replace(/<span class="iowas">[\s\S]*?<\/span>/g,"").replace(/\{\{[^}]*\}\}/g,"").replace(/<[^>]+>/g," ").replace(/&nbsp;/g," ").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
+/* files whose page list is unfolded — closed by default so a ward with many R / T files stays short (user, 3 Nov 2026) */
+const spcOpen=new Set();
 const SPC_KN={R:"Resource (R)",T:"Textbook (T)",N:"โน้ตวอร์ด (N)",L:"Lecture (L)"};
 /* every page of the ward that can be a source — {key,kind,code,doc,title,id?,topics,rev,text} */
 function spcUnits(wid){wid=wid||ward;const W=WARDS[wid],o=[],ioR=new Set();
@@ -87,11 +89,14 @@ function rSpc(){
     if(tab==="TP"){if(!T.size)h+=`<p class="hint">ยังไม่มีเรื่อง</p>`;
       for(const [t,us] of T){const k=["L","R","T","N"].map(x=>[x,us.filter(u=>u.kind===x).length]).filter(x=>x[1]).map(x=>`${x[0]} ${x[1]}`).join(" · ");h+=row(`data-sptopic="${esc(t)}"`,S.T.includes(t),t,`${k} หน้า${acc(t)}`);}}
     else{const D=new Map();av.filter(u=>u.kind===tab).forEach(u=>{const c=tab==="N"?u.key:u.code;if(!D.has(c))D.set(c,[]);D.get(c).push(u);});
+      {const fks=tab==="N"?[]:[...D].filter(x=>x[1].length>1).map(x=>tab+"|"+x[0]);if(fks.length>1){const allOp=fks.every(k=>spcOpen.has(k));
+        h+=`<div class="spcfoldall"><button type="button" class="linkbtn" id="spcFoldAll" data-open="${allOp?1:0}">${allOp?"▴ พับทั้งหมด":"▾ กางทั้งหมด"}</button></div>`;}}
       if(!D.size)h+=`<p class="hint">${tab==="R"?"ยังไม่มีไฟล์ R ในวอร์ดนี้":tab==="T"?"ยังไม่มีตำรา T ในวอร์ดนี้":tab==="N"?"ยังไม่มีโน้ตวอร์ด N":"ยังไม่มี lecture ใน Round I/O"}</p>`;
       for(const [c,us] of D){const on=us.every(u=>S.U.includes(u.key)),u0=us[0],nw=us.some(u=>(A.done[u.key]||0)<u.rev);
         if(tab==="N"||us.length===1)h+=row(`data-spunit="${esc(u0.key)}"`,on,tab==="N"?u0.title:`${u0.code} ${u0.doc===u0.title?u0.title:u0.doc+" — "+u0.title}`,`${u0.topics.join(", ")}${nw?" · 🆕 ยังไม่เคยออกโจทย์ / มีอัปเดต":""}`);
-        else{h+=row(`data-spdoc="${esc(c)}" data-spkind="${tab}"`,on,`${c} ${u0.doc}`,`${us.length} หน้า · ทั้งไฟล์`);
-          h+=`<div class="chips spcpages">${us.map(u=>`<button class="chip" data-spunit="${esc(u.key)}" aria-pressed="${S.U.includes(u.key)}"${dim}>${esc(u.title)}</button>`).join("")}</div>`;}}}
+        else{const fk=tab+"|"+c,op=spcOpen.has(fk),pk=us.filter(u=>S.U.includes(u.key)).length;
+          h+=`<div class="spcdoc">${row(`data-spdoc="${esc(c)}" data-spkind="${tab}"`,on,`${c} ${u0.doc}`,`${us.length} หน้า · ${on?"ทั้งไฟล์":pk?`<span class="spcpk">เลือก ${pk}/${us.length} หน้า</span>`:"แตะเพื่อเลือกทั้งไฟล์"}`)}<button type="button" class="spcfold" data-spfold="${esc(fk)}" aria-expanded="${op}" aria-label="${op?"พับ":"กาง"}รายการหน้าของ ${esc(c)}">${op?"▴":"▾"}</button></div>`;
+          if(op)h+=`<div class="chips spcpages">${us.map(u=>`<button class="chip" data-spunit="${esc(u.key)}" aria-pressed="${S.U.includes(u.key)}"${dim}>${esc(u.title)}</button>`).join("")}</div>`;}}}
     h+=`</div>`;
     const nT=new Set(pool.flatMap(u=>u.topics)).size;
     h+=`<p class="statline" style="margin-top:12px">${S.all?`สุ่มจากทุกหน้า <b>${pool.length}</b> หน้า`:pool.length?`เลือกแล้ว <b>${pool.length}</b> หน้า จาก <b>${nT}</b> เรื่อง`:"ยังไม่ได้เลือก — แตะเรื่อง / ไฟล์ ด้านบน หรือกด 🎲 สุ่มทั้งหมด"}</p>`;
@@ -103,6 +108,8 @@ function rSpc(){
   $("main").innerHTML=h;
   const re=()=>{save();rSpc();};
   {const b=$("admBankBtn");if(b)b.onclick=openS;}bindSharedAdm("spc");bindUfa();
+  document.querySelectorAll("[data-spfold]").forEach(b=>b.onclick=()=>{const k=b.dataset.spfold;if(spcOpen.has(k))spcOpen.delete(k);else spcOpen.add(k);rSpc();});
+  {const b=$("spcFoldAll");if(b)b.onclick=()=>{const ks=[...document.querySelectorAll("[data-spfold]")].map(x=>x.dataset.spfold);ks.forEach(k=>{if(b.dataset.open==="1")spcOpen.delete(k);else spcOpen.add(k);});rSpc();};}
   document.querySelectorAll("[data-sptab]").forEach(b=>b.onclick=()=>{st.spcTb=b.dataset.sptab;persist();rSpc();});
   const tg=(arr,v)=>{const i=arr.indexOf(v);if(i<0)arr.push(v);else arr.splice(i,1);};
   document.querySelectorAll("[data-sptopic]").forEach(b=>b.onclick=()=>{S.all=0;tg(S.T,b.dataset.sptopic);re();});
