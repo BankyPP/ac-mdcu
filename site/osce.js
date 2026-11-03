@@ -79,7 +79,7 @@ function osQuotaAuto(n,topics,aiOn){const L=mqL(ward,"OSCE"),T1=topics.length?to
   const lim=Math.max(1,Math.ceil(even*1.8));let left=n;
   if(n>=T.length)T.forEach(t=>{Q[t]=1;left--;});
   const pick=ok=>{let b=null,bv=-1;T.forEach(t=>{if(!ok(t))return;const v=w[t]/(Q[t]+1);if(v>bv){bv=v;b=t;}});return b;};
-  while(left>0){const t=pick(x=>Q[x]<Math.min(lim,cap0[x]))||pick(x=>Q[x]<cap0[x]);if(!t)break;Q[t]++;left--;}
+  while(left>0){let t=pick(x=>Q[x]<Math.min(lim,cap0[x]));if(t===null)t=pick(x=>Q[x]<cap0[x]);if(t===null)break;Q[t]++;left--;}
   return Q;}
 /* เลือกข้อเก่าตามโควตา · หัวข้อเล็กไม่เกิน OS_SUBLIM ข้อต่อชุด · cnt = ตัวนับหัวข้อเล็กของชุดนี้ */
 function osPickOld(Q,cnt,pref){const by={},out=[],short={};mqL(ward,"OSCE").forEach(q=>{(by[q.topic||""]=by[q.topic||""]||[]).push(q);});
