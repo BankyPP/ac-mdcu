@@ -366,7 +366,7 @@ Co({page:20,orig:"14",topic:"micro",sub:"PBS",title:"Fatigue for 2 months — bl
    exp:"Myeloblast: เซลล์ใหญ่ (15–20 µm) N:C ratio สูง nucleus กลมรี chromatin ละเอียด (finely reticulated) <b>nucleoli ชัด</b> basophilic cytoplasm อาจมี few granules / Auer rod · ไฟล์แนะนำให้ report <b>% blast คร่าว ๆ</b> เพราะบอกความรุนแรง · Auer rod เฉพาะเมื่อเห็นจริง ถ้ามองไม่เห็นไม่ต้องเขียน · RBC ปกติ ไม่เห็น poikilocytosis ต่างจากภาวะที่ตัวอ่อนออกมาในเลือดจาก myelophthisis (teardrop, NRC) · Platelet ต่ำแต่ไม่ clump/ไม่ giant (ต่างจาก ET/ITP)",
    rubric:"ได้เต็ม = RBC ปกติ + WBC เพิ่มมากโดย myeloblast เด่น (ควรบอก % คร่าว ๆ) + platelet ต่ำ · ไม่บอก % blast ได้น้อยลง · เขียน Auer rod เมื่อไม่เห็นไม่ได้คะแนนเพิ่ม",
    pts:[H("RBC",25),P("Normochromic normocytic RBC; no anisocytosis / poikilocytosis / polychromasia","normochrom","normocyt","\\bncnc","no (anisocyt|poikilocyt|polychrom)"),
-        H("WBC",50),CR(P("Markedly increased WBC with myeloblasts predominating","myeloblast","blast","บลาสต์","เม็ดเลือดขาวอ่อน")),P("Estimate the percentage of blasts (e.g. > 80–90%)","\\d{2} ?%","> ?[0-9]{2}","เปอร์เซ็นต์","percent","ร้อยละ","%","majority","เกือบทั้งหมด"),P("Markedly increased number of WBC","increase","เพิ่ม","สูง","marked","leukocytosis","จำนวนมาก"),
+        H("WBC",50),CR(P("Markedly increased WBC with myeloblasts predominating","myeloblast","blast","บลาสต์","เม็ดเลือดขาวอ่อน")),P("Estimate the percentage of blasts (e.g. > 80–90%)","\\d{2} ?%","> ?[0-9]{2}","เปอร์เซ็นต์","percent","ร้อยละ","\\d ?%","majority","เกือบทั้งหมด"),P("Markedly increased number of WBC","increase","เพิ่ม","สูง","marked","leukocytosis","จำนวนมาก"),
         H("Platelet",25),P("Platelets decreased (3–4/HPF); no clumping, no giant platelet","platelet.{0,30}(decreas|low|reduc|ลด|ต่ำ)","(decreas|low|reduc|ลด|ต่ำ).{0,25}platelet","เกล็ดเลือด.{0,15}(ลด|ต่ำ)","thrombocytopen")]}),
   B("14.2 Diagnosis",2,{tags:["micro"],key:"Dx : AML",
    ans:"<b>Acute myeloid leukemia (AML)</b>",
@@ -375,7 +375,7 @@ Co({page:20,orig:"14",topic:"micro",sub:"PBS",title:"Fatigue for 2 months — bl
   B("14.3 Next investigation",2,{tags:["micro"],key:"Ix : BM study",
    ans:"<b>Bone marrow aspiration and biopsy</b> (morphology, cytochemistry MPO, <b>flow cytometry</b>, <b>cytogenetics / FISH, molecular</b>) · (เติม) coagulation (PT/aPTT/fibrinogen/D-dimer) หา DIC และแยก APL",
    exp:"ไฟล์ตอบ BM study — จำแนกชนิด AML และ risk (cytogenetics, FLT3, NPM1) · ผู้ป่วยต้องได้ CBC, coagulation, electrolytes/uric acid/LDH (tumor lysis) ด้วย",
-   pts:[CR(P("Bone marrow study (aspiration and biopsy, flow cytometry, cytogenetics)","bone marrow","\\bbm\\b","ไขกระดูก","marrow")),G("Additional (optional) — ≥ 0",0,P("Flow cytometry / cytogenetics / molecular","flow","cytogenet","\\bfish\\b","molecular"),P("Coagulation tests (DIC / APL)","coagul","\\bpt\\b","aptt","fibrinogen","d-?dimer"))]})),
+   pts:[CR(P("Bone marrow study (aspiration and biopsy, flow cytometry, cytogenetics)","bone marrow","\\bbm\\b","ไขกระดูก","marrow"))]})),
  interp:"PBS station: blast cell เด่น + RBC/platelet ปกติ-ต่ำ → acute leukemia (AML) · รายงาน % blast คร่าว ๆ แล้วส่ง bone marrow",
  summary:["Myeloblast: ใหญ่ N:C สูง chromatin ละเอียด nucleoli ชัด ± Auer rod","รายงาน % blast คร่าว ๆ (บอกความรุนแรง) · Auer rod ใส่เมื่อเห็นจริงเท่านั้น","ส่ง bone marrow (flow cytometry, cytogenetics, molecular) + ตรวจ coagulation หา DIC/APL"]}),
 
