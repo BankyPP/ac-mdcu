@@ -106,9 +106,23 @@ for w in cfg.get('wards',[]):
             open(os.path.join(OUT,fn),'w',encoding='utf-8').write('\n'.join(ch)+'\n'); wsrc.append(fn)
         del js[j0:]
 LOADERR="document.body.insertAdjacentHTML('afterbegin','<p style=&quot;margin:0;padding:12px 16px;background:#b3261e;color:#fff;text-align:center&quot;>โหลดข้อสอบไม่ครบ กรุณารีเฟรชหน้านี้</p>')"
-out=(head+'</style>\n<style>\n'+open('site/extra.css',encoding='utf-8').read()+'</style>\n</head>\n<body>\n'
-     +body.replace('/*TITLE*/',html.escape(title))
-     +'\n<script>\n'+'\n'.join(js)+'\n</script>\n'+''.join(f'<script src="{fn}?v={hashlib.md5(open(os.path.join(OUT,fn),"rb").read()).hexdigest()[:10]}" onerror="{LOADERR}"></script>\n' for fn in wsrc)+'<script>\n'+open('site/app.js',encoding='utf-8').read().replace('"use strict";\n','"use strict";\n'+open('site/meq.js',encoding='utf-8').read()+'\n'+open('site/osce.js',encoding='utf-8').read()+'\n'+open('site/io.js',encoding='utf-8').read()+'\n'+open('site/spc.js',encoding='utf-8').read()+'\n'+open('site/hysum.js',encoding='utf-8').read()+'\n'+(open('site/teach_data.js',encoding='utf-8').read() if os.path.exists('site/teach_data.js') else '')+'\n'+open('site/teach.js',encoding='utf-8').read()+'\n',1)+'\n</script>\n</body>\n</html>\n')
+appjs=open('site/app.js',encoding='utf-8').read().replace('"use strict";\n','"use strict";\n'+open('site/meq.js',encoding='utf-8').read()+'\n'+open('site/osce.js',encoding='utf-8').read()+'\n'+open('site/io.js',encoding='utf-8').read()+'\n'+open('site/spc.js',encoding='utf-8').read()+'\n'+open('site/hysum.js',encoding='utf-8').read()+'\n'+(open('site/teach_data.js',encoding='utf-8').read() if os.path.exists('site/teach_data.js') else '')+'\n'+open('site/teach.js',encoding='utf-8').read()+'\n',1)
+extra=open('site/extra.css',encoding='utf-8').read()
+SRC=lambda fn,text=None:f'{fn}?v={hashlib.md5((text.encode() if text is not None else open(os.path.join(OUT,fn),"rb").read())).hexdigest()[:10]}'
+TAG=lambda src:f'<script src="{src}" onerror="{LOADERR}"></script>\n'
+wtags=''.join(TAG(SRC(fn)) for fn in wsrc)
+if SPLIT and not PACK:   # website: the page holds only its shell, so an extension that scans page text on every DOM change has almost nothing to read (the app code left inline still cost ~2 s per page switch, 4 Nov 2026)
+    os.makedirs(OUT,exist_ok=True); k=head.index('<style>')+len('<style>'); css=head[k:]+'\n'+extra
+    core='\n'.join(x for x in js if not x.startswith('const BUILD='))+'\n'   # BUILD stays in the page so core_site.js only changes when its content does
+    for fn,txt in (('site.css',css),('core_site.js',core),('app_site.js',appjs+'\n')): open(os.path.join(OUT,fn),'w',encoding='utf-8').write(txt)
+    build=[x for x in js if x.startswith('const BUILD=')][0]
+    out=(head[:head.index('<style>')]+f'<link rel="stylesheet" href="{SRC("site.css",css)}">\n</head>\n<body>\n'
+         +body.replace('/*TITLE*/',html.escape(title))
+         +'\n<script>'+build+'</script>\n'+TAG(SRC('core_site.js',core))+wtags+TAG(SRC('app_site.js',appjs+'\n'))+'</body>\n</html>\n')
+else:
+    out=(head+'</style>\n<style>\n'+extra+'</style>\n</head>\n<body>\n'
+         +body.replace('/*TITLE*/',html.escape(title))
+         +'\n<script>\n'+'\n'.join(js)+'\n</script>\n'+wtags+'<script>\n'+appjs+'\n</script>\n</body>\n</html>\n')
 out=re.sub(r'<title>.*?</title>','<title>'+html.escape(cfg.get('title',title))+'</title>',out,count=1,flags=re.S)
 os.makedirs(os.path.join(OUT,'img'),exist_ok=True)
 open(os.path.join(OUT,'index.html'),'w',encoding='utf-8').write(out)

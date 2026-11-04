@@ -21,8 +21,8 @@ Publish: ไฟล์หน้า = out/index.html ; รูปทุกไฟล
 
 ## เว็บไซต์ (GitHub Pages)
 - เว็บ: https://bankypp.github.io/ac-mdcu/  (GitHub Pages → branch `main`, โฟลเดอร์ `/docs`)
-- build: `python3 build_site.py` → `docs/index.html` + `docs/data_<ward>*.js` (+ `docs/img/`) — ข้อสอบแยกไฟล์ ไม่ฝังในหน้า เพราะข้อความ 44 MB ในหน้าทำให้ส่วนขยาย Chrome ที่สแกนหน้าค้าง 10–20 วินาทีทุกครั้งที่เปลี่ยนหน้า (4 พ.ย. 2026) · ถ้าระบุ outdir เองโดยไม่มี `--pack` ยังได้ไฟล์เดียวเหมือนเดิม
-- **commit ไฟล์จาก build ให้ครบเสมอ**: `git add docs/index.html docs/data_*.js docs/si/index.html docs/si/data_*.js` — หน้าอ้างไฟล์ข้อมูลด้วย hash ถ้าส่ง index.html ไปอย่างเดียว เว็บจะขึ้นแถบแดง "โหลดข้อสอบไม่ครบ" · ถ้า rebase ชนที่ `docs/index.html` หรือ `docs/data_*.js` ให้เอาของ origin แล้ว build ใหม่ทั้งคู่ (ไม่ต้องแก้มือ)
+- build: `python3 build_site.py` → `docs/index.html` (โครงหน้าอย่างเดียว) + `docs/site.css` + `docs/core_site.js` + `docs/data_<ward>*.js` + `docs/app_site.js` (+ `docs/img/`) — โค้ดและข้อสอบแยกไฟล์ ไม่ฝังในหน้า เพราะข้อความ 44 MB ในหน้าทำให้ส่วนขยาย Chrome ที่สแกนหน้าค้าง 10–20 วินาทีทุกครั้งที่เปลี่ยนหน้า (4 พ.ย. 2026) · ถ้าระบุ outdir เองโดยไม่มี `--pack` ยังได้ไฟล์เดียวเหมือนเดิม
+- **commit ไฟล์จาก build ให้ครบเสมอ**: `git add docs/index.html docs/*.js docs/*.css docs/si/index.html docs/si/*.js docs/si/*.css` — หน้าอ้างไฟล์ข้อมูลด้วย hash ถ้าส่ง index.html ไปอย่างเดียว เว็บจะขึ้นแถบแดง "โหลดข้อสอบไม่ครบ" · ถ้า rebase ชนที่ไฟล์ใน `docs/` เหล่านี้ ให้เอาของ origin แล้ว build ใหม่ทั้งคู่ (ไม่ต้องแก้มือ)
 - หน้าตาหน้าโจทย์มาจาก CSS ของ `template.html` (เหมือน platform เดิม) + `site/extra.css`; ตัวแอปอยู่ที่ `site/app.js`, โครงหน้าอยู่ที่ `site/body.html`
 - `config.json` → `wards`: วอร์ดแต่ละอัน (`dir` = โฟลเดอร์ข้อสอบ data_bN.js และ `highyield.js` ถ้ามี)
 - `config.json` → `firebase`: ใส่ firebaseConfig เพื่อเปิดระบบบัญชี (ไม่ใส่ = บันทึกในเบราว์เซอร์อย่างเดียว)
