@@ -1404,7 +1404,8 @@ const hPh=hp=>hp==="p"?[ph()]:[1,2];
 /* answer history of one question [[ans, ts, phase]…] oldest first · raw = include attempts made before a reset */
 function hist(P,u,hp,raw){const f=raw?rawAtts:atts;let o=[];hPh(hp).forEach(p=>{o=o.concat(f(P,p,u).map(x=>[x[0],x[1],p]));});return o.sort((x,y)=>x[1]-y[1]);}
 const nWrong=(h,q)=>h.filter(x=>x[0]!==q.ans).length;
-const topicOf=(W,q)=>(W.TOPIC&&W.TOPIC[q.set+"|"+q.ro+"|"+q.orig])||q.topic||"Others";
+/* ward topic of a question: <dir>/topics.js → q.topic → first Tag (wards without topics.js, e.g. Med, get the same topic grouping as Gen Sx) */
+const topicOf=(W,q)=>(W.TOPIC&&W.TOPIC[q.set+"|"+q.ro+"|"+q.orig])||q.topic||(!q.unit&&!q.adm&&W.TAGS&&(W.TAGS[q.set+"|"+q.ro+"|"+q.orig]||[])[0])||"Others";
 const ADVF=[["all","ทุกข้อที่ทำแล้ว"],["w1","ผิด ≥ 1 ครั้ง"],["w2","ผิด ≥ 2 ครั้ง"],["w3","ผิด ≥ 3 ครั้ง"],["last","ล่าสุดยังผิด"],["fixed","เคยผิด แต่ล่าสุดถูก"],["clean","ถูกทุกครั้ง"]];
 const ADVO=[["bank","ตามลำดับในคลัง"],["wrong","ผิดบ่อยสุดก่อน"],["topic","จัดตามหัวข้อ"],["rand","สุ่ม"]];
 function advPass(f,q,h){const w=nWrong(h,q),l=h[h.length-1];
