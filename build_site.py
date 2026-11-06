@@ -88,6 +88,8 @@ for w in cfg.get('wards',[]):
     orf=os.path.join(d,'osce_ref.js')   # แหล่งอ้างอิงให้ AI แต่ง/ตรวจ OSCE ของวอร์ด: OSREF.push({id,topic,sub,title,text})
     js.append(f'WARDS[{wid}].OSREF=[];')
     if os.path.exists(orf): js.append('(function(OSREF){\n'+open(orf,encoding='utf-8').read()+'\n})(WARDS['+wid+'].OSREF);')
+    kx=os.path.join(d,'kimg.js')   # รูปจากไฟล์เฉลยที่ครอปเพิ่มทีหลัง: W.QB/MQ/OS ตาม set|ro|orig (ใส่หน้ารูปเดิม)
+    if os.path.exists(kx): js.append('(function(W){\n'+open(kx,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
     js.append(f'WARDS[{wid}].SUMM={{MCQ:[],MEQ:[],OSCE:[]}};')
     for f in sorted(glob.glob(os.path.join(d,'sum_*.js'))):     # สรุป High-yield Phase 2: sum_<mcq|meq|osce>_<slug>.js → SUMM.push({tag,title,intro,groups})
         T=os.path.basename(f).split('_')[1].upper()

@@ -58,4 +58,5 @@
 - 78A MCQ ข้อ 3 (leptospirosis) ไฟล์เขียน "AC" ท้ายโจทย์ = เคยออก AC เก่า
 
 ## รูป
+**รูปจากไฟล์เฉลยแบบ Gen Sx (6 พ.ย. 2026)**: `data_med/kimg.js` (build_site ใส่หน้ารูปเดิมตาม set|ro|orig) · รูป `img/mk<ชุด>_<ข้อ>` (MCQ), `img/ok…` (OSCE), `img/ek…` (MEQ) ครอปเฉพาะแถว/ส่วนของข้อนั้นจาก Key 75A/B/C/X, 76A/B/C, 77A/B/C, 77A OSCE · ชุด 78 (ไฟล์เฉลยว่าง), 79 และ 75D (ไม่มีไฟล์เฉลย) ไม่มีรูปให้ครอป · สคริปต์ที่ใช้อยู่ใน `tools/medkeys/` (ไฟล์ PDF ไม่อยู่ใน repo)
 `img/mm75*` (MCQ 75/75X), `img/mo75*` (OSCE 75) · `img/me79x_4` (CSF gram stain pre-test 79) · `img/mm77*` (MCQ 77), `img/me77*` (MEQ 77), `img/mo77*` (OSCE 77) · `img/mm78d_9` (EKG 78D MCQ ข้อ 9) · `img/mo78*_*` (OSCE) — ดึงจากไฟล์ต้นฉบับเต็มภาพ (ใน PDF หลายรูปถูกตัดขวา)
