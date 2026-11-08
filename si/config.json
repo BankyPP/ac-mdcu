@@ -77,7 +77,12 @@
       "scope": "Internal medicine",
       "dates": [],
       "meqTopics": [],
-      "lectures": [{"title": "L17 Multiple myeloma & related disorders", "topic": "Hematology"}],
+      "lectures": [
+        {
+          "title": "L17 Multiple myeloma & related disorders",
+          "topic": "Hematology"
+        }
+      ],
       "osceTopics": [
         {
           "id": "lab",
@@ -188,7 +193,7 @@
     "h": "ed660d4b3559b47d9f0a826217ba1f983dcece43cd22b7e6a5f4413fdfc5d26b",
     "r": 0
   },
-  "roundNames": {
+  "roundNamesSaved": {
     "Grand round": "Random",
     "Service round": "Year by year",
     "Legendary round": "Real Experience",
@@ -200,5 +205,6 @@
     "Admission round": "Anything",
     "Specialty round": "Quiz by topics",
     "Round I/O": "Summary"
-  }
+  },
+  "_roundNamesSaved": "ชื่อ round แบบ SI (ตั้ง 19 ต.ค. 2026, ปิดใช้ 8 พ.ย. 2026 — ตอนนี้ใช้ชื่อเดิมเหมือน MDCU) · จะกลับมาใช้: เปลี่ยนชื่อคีย์ roundNamesSaved → roundNames แล้ว build ใหม่"
 }
