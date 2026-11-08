@@ -181,11 +181,17 @@
     },
     {
       "id": "medicine",
-      "name": "Medicine",
+      "name": "Internal Medicine",
       "wards": [
         "med"
       ]
     }
+  ],
+  "gradeParts": [
+    [
+      "grade",
+      "Grade"
+    ]
   ],
   "gate": {
     "on": false,
