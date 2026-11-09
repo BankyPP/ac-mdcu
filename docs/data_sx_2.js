@@ -10977,6 +10977,11 @@ W.UNIT.push({"id": "L17", "title": "L17 Surgical nutrition", "short": "L17", "sr
 
 })(WARDS["sx"]);
 (function(W){W.UNIT=W.UNIT||[];
+/* Unit round — L20 Thyroid and parathyroid · ใส่แค่หัวข้อบทไว้ก่อน (ยังไม่มีโจทย์ ตาม override 26 ต.ค. 2026) */
+W.UNIT.push({"id": "L20", "title": "L20 Thyroid and parathyroid", "short": "L20", "src": "L20_Thyroid-Parathyroid.pdf + L20_Thyroid_and_Parathyroid.pdf (Pasurachate Samorn, MD)", "topic": "Thyroid & Endocrine", "tags": ["Thyroid & parathyroid"],"QB":[]});
+
+})(WARDS["sx"]);
+(function(W){W.UNIT=W.UNIT||[];
 /* Unit round — L99.03 Small intestine & small bowel obstruction (Lecture for 4th year medical student; ผู้สอนไม่ระบุชื่อในไฟล์)
    ต้นฉบับ: _L99_03_Small_Intestine_and_Small_Bowel_Obstruction.pdf (93 หน้า: สไลด์ p1–64 + ลายมือ, เคส 4 เคส p65–93; อ้าง "หน้า N" = หน้า PDF)
    200 ข้อ case-based · รูป img/l9903_*.jpg · เฉลยบอกที่มาทุกข้อ · ข้อที่เกินไฟล์มี outside:"นอกสไลด์: …"
@@ -22769,6 +22774,237 @@ W.IO={
 "upd": "2026-11-03"
 }
 ]
+},
+{
+"code": "L20",
+"kind": "L",
+"title": "Thyroid and Parathyroid",
+"src": "L20 Thyroid and Parathyroid (Pasurachate Samorn, MD — Department of Surgery, Chulalongkorn University) — ไฟล์ A L20_Thyroid-Parathyroid.pdf (50 หน้า สไลด์ละหน้า + ไฮไลต์ม่วง + ลายมือน้ำเงิน) + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf (50 หน้า สไลด์ชุดเดียวกัน + ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม ละเอียดกว่า) — ไม่มี suffix ทั้ง 2 ไฟล์ (สไลด์ปีนี้ + โน้ตผู้จด) · thyroid p2–39 · parathyroid p40–50",
+"upd": "2026-11-09",
+"legend": "<span><span class=\"imp\">ตัวแดง</span> = ไฮไลต์ในไฟล์ (A ม่วง · B เหลือง) หรือตัวแดงในสไลด์</span><span><span class=\"hw\">ตัวเอียงม่วง</span> = ลายมือ ([A] / [B] = ไฟล์ที่เขียน)</span><span><span class=\"chip s\">ซ้ำ</span> = สไลด์ชุดเดียวกันทั้ง 2 ไฟล์ · <span class=\"chip d\">! ต่าง</span> = ลายมือ 2 ไฟล์ต่างกัน หรือสไลด์ต่างจาก guideline ล่าสุด (เขียนทั้งสองแบบ)</span><span><span class=\"chip x\">✏ แก้</span> = แก้ข้อมูลที่ผิดจากลายมือ (บอกฉบับที่ถูก) · <span class=\"chip x\">⚠ ตรวจ</span> = ไม่แน่ใจ/ต่างจาก guideline ล่าสุด</span><span><span class=\"chip e\">เสริม</span> = เพิ่มจากแหล่งล่าสุด (ATA 2015 nodule · ATA 2025 DTC · Bethesda 2023 · ACR TI-RADS · Fifth International Workshop PHPT 2022 · AAES 2016)</span><span><span class=\"star\">✱</span> = ดาวแดงลายมือ (A p43 Hyperparathyroidism) · ★ ดาวแดง/▲ ของคณะ, ❌/🟢 ข้ามสไลด์: ไม่พบในชุดนี้ (กากบาทแดงเล็กมุมรูป A p13–16 ไม่มีลูกศร — ไม่ใช่สัญลักษณ์ข้าม)</span><span>B เขียน \"(ไม่จำ)\" ที่ตาราง p11 และ p19 · รูปผู้ป่วย (p4, p21, p23, p30) และจอ US ที่มีชื่อผู้ป่วย (p22, p24, p35) ไม่ได้ใช้</span><span><span class=\"cr\">p12</span> = หน้า PDF (ตรงกันทั้ง A และ B)</span>",
+"pages": [
+{
+"id": "L20-1",
+"title": "Thyroid gland: anatomy · Thyroid nodule · ชนิดของ thyroid cancer",
+"topics": [
+"Thyroid & Endocrine"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">บทนี้มี 2 ส่วน: <b>Thyroid nodule</b> (p2–39) กับ <b>Parathyroid / hyperparathyroidism</b> (p40–50) · หัวใจของส่วน thyroid คือ <span class=\"imp\">ก้อนไทรอยด์ส่วนใหญ่ benign (95%) แต่ต้อง R/O malignancy (5%) ทุกราย</span> ด้วย <b>History/PE → TSH → US → FNA</b> <span class=\"hw\">[B] เน้น approach to neck mass</span> (B p1)</div>\n\n<div class=\"box\"><h3>หัวข้อบท<span class=\"ref\">p1</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>L20 <b>Thyroid and Parathyroid</b> — Pasurachate Samorn, MD · Department of Surgery, Chulalongkorn University</li>\n<li>A p1 มี QR code บนสไลด์ชื่อเรื่อง · B p1 ลายมือ <span class=\"hw\">[B] เน้น approach to neck mass</span></li></ul></div>\n\n<div class=\"box\"><h3>Thyroid gland<span class=\"ref\">p2–3</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>Each lobe <b>5×3×2 cm, <span class=\"imp\">10 g</span></b> · Total gland <b>~20 g in adult</b> <span class=\"hw\">[B] ~20 cm³</span></li>\n<li><b>Pyramidal lobe 50%</b></li>\n<li><span class=\"imp\">Normally not palpable</span> <span class=\"hw\">[B] ปกติคลำ/มองไม่เห็น</span> · <span class=\"imp\">Palpable = enlarged &gt; 2 × normal</span> (ไฮไลต์ทั้ง A และ B)</li>\n<li><span class=\"hw\">[A] อยู่หน้า thyroid cartilage</span> <span class=\"chip x\">✏ แก้</span> ต่อมไทรอยด์อยู่<b>ใต้</b> thyroid cartilage — isthmus พาดหน้า tracheal ring ที่ 2–4 และ lobe อยู่ข้าง larynx/trachea (ดูรูป p3) · thyroid cartilage อยู่เหนือต่อม (ลูกศรลายมือชี้ที่ป้ายคำว่า Thyroid ในรูป)</li>\n<li><b>Arterial supply</b> = <b>Superior thyroid a.</b> (จาก external carotid) + <b>Inferior thyroid a.</b> (จาก thyrocervical trunk) · <b>Thyroidea ima a.</b> = variable <span class=\"hw\">[B] Arterial supply = Sup + Inf thyroid a · 20% พบ thyroid ima a ได้</span> <span class=\"chip x\">✏ แก้</span> meta-analysis 2022 พบ thyroid ima a. <b>~3.8%</b> (ผู้ใหญ่ 3.3%) ไม่ใช่ 20% · ส่วนใหญ่แยกจาก brachiocephalic trunk {{R:2}}</li>\n<li><b>Venous drainage</b> = Superior + Middle + Inferior thyroid v. <span class=\"hw\">[B] Venous drainage = Sup + Middle + Inf thyroid v</span></li>\n<li>รูป B (cross-section): thyroid gland หุ้มหน้า-ข้าง <b>trachea</b>, ด้านหน้ามี <b>strap muscles</b>, ด้านข้างมี SCM + carotid sheath (IJV · vagus · CCA) · <span class=\"imp\">Recurrent laryngeal n.</span> วิ่งใน tracheoesophageal groove ด้านหลังต่อม · inferior thyroid a. วิ่งเข้าหลังต่อม</li></ul>\n{{IMG:l20_anat}}</div>\n\n<div class=\"box\"><h3>Thyroid nodule<span class=\"ref\">p4</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><b>4% of population in USA</b> <span class=\"hw\">[B] = จากการตรวจร่างกาย → ถ้าดูจาก USG = 50% of population มี thyroid nodule</span> <span class=\"chip e\">เสริม</span> ATA 2015: คลำได้ 4–7% แต่ตรวจด้วย US พบ <b>19–68%</b> {{R:3}}</li>\n<li><b>Causes</b>: <span class=\"imp\">Benign 95%</span> (Adenoma · Simple goiter) · <span class=\"imp\">Malignancy 5%</span></li>\n<li>รูปผู้ป่วยหญิงมีก้อนที่คอ (ไม่ได้ใส่รูป)</li></ul></div>\n\n<div class=\"box\"><h3>Thyroid cancers<span class=\"ref\">p5</span> <span class=\"chip s\">ซ้ำ</span></h3>\n<table class=\"fx\"><tr><th>ชนิด</th><th>สัดส่วน</th><th>ลายมือ / หมายเหตุ</th></tr>\n<tr><td><span class=\"imp\">Papillary thyroid carcinoma (PTC)</span></td><td><b>&gt; 80%</b></td><td>สีเขียวในสไลด์ = well-differentiated · ไฮไลต์ทั้ง A, B</td></tr>\n<tr><td><span class=\"imp\">Follicular thyroid carcinoma (FTC)</span></td><td><b>15%</b></td><td><span class=\"hw\">[B] including Hurthle cell carcinoma</span></td></tr>\n<tr><td>Medullary thyroid carcinoma (MTC)</td><td>&lt; 5%</td><td>สีน้ำเงิน (C cell, ไม่ใช่ follicular cell)</td></tr>\n<tr><td>Anaplastic carcinoma</td><td>&lt; 2%</td><td rowspan=\"3\">สีแดง = กลุ่มร้ายแรง/พบน้อย · <span class=\"hw\">[B] Other e.g. thyroid lymphoma</span></td></tr>\n<tr><td>Poorly differentiated thyroid cancer</td><td>&lt; 1%</td></tr>\n<tr><td>Other</td><td>&lt; 1%</td></tr></table>\n<ul><li><span class=\"chip e\">เสริม</span> ตามการแบ่งปัจจุบัน (WHO 2022 / ATA 2025) <b>Hürthle cell carcinoma</b> เปลี่ยนชื่อเป็น <b>oncocytic carcinoma</b> และนับแยกจาก FTC แต่ยังอยู่ในกลุ่ม <b>differentiated thyroid cancer (DTC)</b> = papillary + follicular + oncocytic {{R:4}}</li></ul></div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+},
+{
+"t": "Yurasakpong L, et al. The decreasing prevalence of the thyroid ima artery: a systematic review and machine learning assisted meta-analysis. Ann Anat 2022;239:151803 — pooled prevalence 3.8% (ผู้ใหญ่ 3.3%, ทารกในครรภ์ 14.8%); มักแยกจาก brachiocephalic trunk 74%",
+"u": "https://pubmed.ncbi.nlm.nih.gov/34265384"
+},
+{
+"t": "Haugen BR, Alexander EK, Bible KC, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid 2016;26(1):1–133. (ยังเป็นฉบับล่าสุดของส่วน thyroid nodule — ATA 2025 ครอบคลุมเฉพาะ DTC)",
+"u": "https://doi.org/10.1089/thy.2015.0020"
+},
+{
+"t": "Ringel MD, et al. 2025 American Thyroid Association Management Guidelines for Adult Patients with Differentiated Thyroid Cancer. Thyroid 2025;35(8):841–985 · Executive summary: Thyroid 2025;35(11):1214–1220 — lobectomy preferred สำหรับ low-risk DTC < 2 cm, 2–4 cm เลือก lobectomy หรือ total ได้; completion thyroidectomy เปลี่ยนจาก \"should be offered\" เป็น \"may be considered\"",
+"u": "https://pubmed.ncbi.nlm.nih.gov/41173539/"
+}
+]
+},
+{
+"id": "L20-2",
+"title": "Approach to thyroid nodule: History (symptoms · risk factors) · Physical examination",
+"topics": [
+"Thyroid & Endocrine"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\"><b>Approach to thyroid nodule</b> = History · Physical examination · Investigation → เป้าหมายเดียวคือ <span class=\"imp\">R/O Malignancy!!!</span> (ตัวแดงใหญ่ในสไลด์ p6) · ก้อนที่โตเร็วเป็นเดือน แข็ง ติดแน่น เสียงแหบ ต่อมน้ำเหลืองโต ในผู้ชาย อายุ &lt;20 หรือ &gt;60 มีประวัติฉายรังสี/ครอบครัว → สงสัย CA</div>\n\n<div class=\"box\"><h3>Approach to thyroid nodule<span class=\"ref\">p6</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>History · Physical examination · Investigation → <span class=\"imp\">R/O Malignancy!!!</span></li>\n<li><span class=\"hw\">[A] ก้อนไทรอยด์: อยู่บริเวณกลางคอ · เคลื่อนที่ตามการกลืน (ก้อนติด larynx)</span> → ลักษณะที่บอกว่าก้อนมาจาก thyroid <span class=\"chip e\">เสริม</span> เพราะต่อมยึดกับ larynx/trachea ด้วย pretracheal fascia จึงเลื่อนขึ้นตามการกลืน</li></ul></div>\n\n<div class=\"box\"><h3>History: cancer<span class=\"ref\">p7</span> <span class=\"chip s\">ซ้ำ</span></h3>\n<table class=\"fx\"><tr><th>Symptoms (สีเขียว)</th><th>Risk factors (สีแดง)</th></tr>\n<tr><td><ul>\n<li><span class=\"imp\">Rapid growth (months)</span> <span class=\"hw\">[A] thyroid CA เป็น CA ที่โตช้า</span> <span class=\"hw\">[B] เร็วเกิน = infx</span> → โตเป็น<b>เดือน</b>ชวนคิด CA · โตเป็น<b>วัน</b> (เร็วเกิน) คิดถึง infection/เลือดออกในก้อน</li>\n<li><span class=\"imp\">Painless</span> (MTC → dull aching) <span class=\"hw\">[B] เจ็บ = thyroiditis / cyst โตเร็ว</span></li>\n<li><span class=\"imp\">Hoarseness</span> <span class=\"hw\">[A] ∵ เป็นจาก recurrent laryngeal n. ถ้าเป็นก้อนใหญ่มาก หรือก้อนเล็กแล้ว invade n.</span> <span class=\"hw\">[B] เกิดจาก invasion not compression ∵ recurrent laryngeal n อยู่ใน tracheoesophageal groove · ก้อนที่กด n ได้ → ต้องกด trachea จนแบนก่อน</span> <span class=\"chip d\">! ต่าง</span> A เขียนว่าก้อนใหญ่มากก็กดได้ · B เน้นว่าเสียงแหบส่วนใหญ่มาจาก <b>invasion</b> → เสียงแหบ = red flag ของ CA</li>\n<li><span class=\"imp\">Dysphagia</span> <span class=\"hw\">[B] cancer ที่โตด้าน posterior</span></li>\n<li><span class=\"imp\">Compressive symptoms (↑size)</span></li></ul></td>\n<td><ul>\n<li><span class=\"imp\">Male</span></li>\n<li><span class=\"imp\">Age &lt; 20, &gt; 60 years</span> <span class=\"hw\">[B] <20 = genetic cause</span></li>\n<li><span class=\"imp\">Family history</span> of thyroid cancer, <b>MEN II</b> <span class=\"hw\">[B] MEN II → medullary thyroid carcinoma</span></li>\n<li><span class=\"imp\">Radiation exposure</span> <span class=\"hw\">[B] high dose e.g. RT</span> <span class=\"chip e\">เสริม</span> โดยเฉพาะรังสีบริเวณศีรษะ-คอ<b>ในวัยเด็ก</b> หรือ total body irradiation (ATA 2015) {{R:2}}</li></ul></td></tr></table></div>\n\n<div class=\"box\"><h3>Physical examination<span class=\"ref\">p8</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"imp\">Hard</span> <span class=\"hw\">[A] ยิ่งแข็งยิ่งสงสัย CA</span></li>\n<li><span class=\"imp\">Fixed</span></li>\n<li>Large (<span class=\"imp\">&gt;4 cm → CA 15%</span>)</li>\n<li><span class=\"imp\">Vocal cord paralysis</span></li>\n<li><span class=\"imp\">Enlarged lymph nodes</span></li></ul>\n<div class=\"mn\"><b class=\"k\">จำ PE ของ CA = \"แข็ง-ติด-ใหญ่-เสียง-ต่อม\"</b> → Hard · Fixed · Large &gt;4 cm · Vocal cord paralysis · LN โต</div></div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+},
+{
+"t": "Haugen BR, Alexander EK, Bible KC, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid 2016;26(1):1–133. (ยังเป็นฉบับล่าสุดของส่วน thyroid nodule — ATA 2025 ครอบคลุมเฉพาะ DTC)",
+"u": "https://doi.org/10.1089/thy.2015.0020"
+}
+]
+},
+{
+"id": "L20-3",
+"title": "Investigation I: Serum TSH · Thyroid scan · Ultrasonography",
+"topics": [
+"Thyroid & Endocrine"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">ตรวจแรกคือ <span class=\"imp\">serum TSH</span> เพื่อแยก hypo/hyperthyroidism · <b>TSH ต่ำ</b> → <b>¹²³I thyroid scan</b> หา hot nodule (toxic adenoma) · <span class=\"imp\">Cancer = Euthyroid!!</span> · จากนั้น <span class=\"imp\">US + cervical LN survey</span> ทุกราย</div>\n\n<div class=\"box\"><h3>Serum Thyroid-Stimulating Hormone (TSH)<span class=\"ref\">p9</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"hw\">[A] การเจาะเลือดอย่างเดียวที่ทำ แม้ไม่มี indication</span> → ทุกก้อนต้องส่ง TSH</li>\n<li><b>Should be used to exclude hypo/hyperthyroidism</b> <span class=\"hw\">[A] ดูว่ามี subclinical?</span> <span class=\"hw\">[B] ใช้ดู subclinical hyperthyroid</span></li>\n<li><span class=\"imp\">TSH ↑ → Treat hypothyroidism</span> (goiter, thyroiditis)</li>\n<li><span class=\"imp\">TSH ↓ → ¹²³I thyroid scan</span> (toxic adenoma) <span class=\"hw\">[B] hyperthyroid = ส่ง thyroid scan · ถ้าเจอ hot/warm nodule → ตัดเลย (ไม่ต้อง Bx) ∵ risk CA &lt;1%, ก้อนมักมี hypervascular → เจาะ = เสี่ยง bleed</span> <span class=\"chip x\">⚠ ตรวจ</span> ATA 2015: hot (hyperfunctioning) nodule <b>ไม่ต้อง FNA</b> ✓ แต่การรักษาคือรักษา hyperthyroidism — เลือกได้ทั้ง <b>RAI · lobectomy · antithyroid drug</b> ไม่จำเป็นต้องผ่าตัดทุกราย {{R:2}}</li>\n<li><span class=\"imp\">Cancer = Euthyroid!!</span> <span class=\"hw\">[A] thyroid CA เป็น nonfunctioning CA</span> <span class=\"hw\">[B] or hypothyroidism · CA ร่วมกับ hyperthyroid = Graves' disease ที่มี cancer nodule</span></li>\n<li>รูป thyroid scan: <b>'Hot' nodule</b> ที่ left lobe จับสารมาก ส่วน right lobe/isthmus จางลง (ถูกกด) <span class=\"hw\">[A] [เขียน 'thyroid CA' ที่บริเวณ uptake ต่ำของรูป]</span> → ก้อนที่จับสารน้อย = <b>cold</b> ชวนคิด CA มากกว่า</li></ul>\n{{IMG:l20_scan}}</div>\n\n<div class=\"box\"><h3>Ultrasonography<span class=\"ref\">p10</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"imp\">Thyroid sonography with cervical lymph node survey</span> (ไฮไลต์ A)</li>\n<li><span class=\"hw\">[A] imaging of choice เมื่อผู้ป่วยมาด้วย neck mass แต่ใช้ในการบอกโอกาสเป็น CA ไม่ใช่เป็น dx. → ต้องทำ cytology</span> <span class=\"hw\">[B] = มีประโยชน์สุดในการดู thyroid nodule</span></li></ul>\n<div class=\"mn\"><b class=\"k\">ลำดับ</b>: History/PE → <b>TSH</b> → (TSH ต่ำ → scan) → <b>US</b> → <b>FNA</b> ตามขนาด + US pattern</div></div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+},
+{
+"t": "Haugen BR, Alexander EK, Bible KC, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid 2016;26(1):1–133. (ยังเป็นฉบับล่าสุดของส่วน thyroid nodule — ATA 2025 ครอบคลุมเฉพาะ DTC)",
+"u": "https://doi.org/10.1089/thy.2015.0020"
+}
+]
+},
+{
+"id": "L20-4",
+"title": "Thyroid sonography: ATA US pattern · Worrying nodules · FNA cut-off ตามขนาด",
+"topics": [
+"Thyroid & Endocrine"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">ATA 2015 แบ่งก้อนตามลักษณะ US เป็น 5 กลุ่ม แต่ละกลุ่มมี <b>risk of malignancy</b> และ <b>ขนาดที่ต้อง FNA</b> ต่างกัน → <span class=\"imp\">High/Intermediate ≥1 cm · Low ≥1.5 cm · Very low ≥2 cm or observe · Benign (pure cyst) no FNA</span></div>\n\n<div class=\"box\"><h3>Thyroid sonography (ATA 2015)<span class=\"ref\">p11, p13–17</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3>\n<table class=\"fx\"><tr><th>Sonographic pattern</th><th>Estimated risk of malignancy</th><th>FNA</th><th>ลักษณะ (ตัวอย่างในสไลด์)</th></tr>\n<tr><td><span class=\"imp\">High suspicion</span></td><td><b>&gt;70–90%</b></td><td><b>≥ 1 cm</b></td><td>solid hypoechoic + ≥1 อย่าง: <b>microcalcifications</b>, <b>irregular margins</b>, <b>taller than wide</b>, extrathyroidal extension, interrupted rim calcification with soft tissue extrusion, suspicious lateral LN (p13)</td></tr>\n<tr><td>Intermediate suspicion</td><td>10–20%</td><td><b>≥ 1 cm</b></td><td><b>hypoechoic solid, regular margin</b> <span class=\"hw\">[B] no calcification</span> (p14)</td></tr>\n<tr><td>Low suspicion</td><td>5–10%</td><td><b>≥ 1.5 cm</b></td><td><b>hyperechoic / isoechoic solid</b> regular margin · <b>partially cystic with eccentric solid area</b> <span class=\"hw\">[A] ประกอบด้วย cystic เยอะ</span> <span class=\"hw\">[B] mixed solid-cystic</span> (p15)</td></tr>\n<tr><td>Very low suspicion</td><td>&lt;3%</td><td><b>≥ 2 cm or observe</b></td><td><b>spongiform</b> <span class=\"hw\">[B] คล้ายฟองน้ำ</span> · partially cystic no suspicious features (p16)</td></tr>\n<tr><td><span class=\"imp\">Benign</span></td><td>&lt;1%</td><td><b>No FNA</b> (may aspirate)</td><td><b>pure cyst</b> <span class=\"hw\">[B] Pure cyst</span> (p17)</td></tr></table>\n<ul><li>B เขียน <span class=\"hw\">[B] (ไม่จำ)</span> ที่ตาราง p11 — แต่ตัวเลข risk แต่ละกลุ่มเป็นตารางที่ผู้สอนอ้าง ATA 2015 และ FNA cut-off ของแต่ละกลุ่มอยู่ทุกสไลด์ p13–17 → ควรรู้อย่างน้อย <b>ลำดับกลุ่ม + ขนาดที่ต้อง FNA</b></li>\n<li><span class=\"chip x\">⚠ ตรวจ</span> มุมรูป US ใน A p13–16 มีกากบาทแดงเล็ก ๆ แต่ไม่มีลูกศรลงหรือวงกลมเขียว → ไม่ใช่สัญลักษณ์ข้ามสไลด์ของคณะ (น่าจะเป็นเครื่องหมายของผู้จด) จึงเก็บเนื้อหาไว้ครบ</li>\n<li><span class=\"chip e\">เสริม</span> ATA 2015 ยังเป็นฉบับล่าสุดของส่วน nodule (ATA 2025 ครอบคลุมเฉพาะ DTC) · อีกระบบที่ใช้บ่อยคือ <b>ACR TI-RADS 2017</b> (TR1–TR5 ให้คะแนน composition · echogenicity · shape · margin · echogenic foci; TR5 FNA ≥1 cm, TR4 ≥1.5 cm, TR3 ≥2.5 cm) {{R:3}}</li></ul></div>\n\n<div class=\"box\"><h3>Worrying nodules<span class=\"ref\">p12</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>6 ลักษณะที่น่ากังวล: <span class=\"imp\">1) solid with micro Ca⁺⁺ &amp;/or coarse Ca⁺⁺ · 2) cystic &amp; solid component with Ca⁺⁺ · 3) irregular margins · 4) solid hypoechoic · 5) taller than wide · 6) intranodular vascularity</span> (ไฮไลต์ครบทั้ง A, B)</li>\n<li><span class=\"hw\">[A] solid hypoechoic → ดำกว่าบริเวณข้างเคียง</span> <span class=\"hw\">[B] เหมือน CA breast เลย</span></li>\n<li><span class=\"chip x\">⚠ ตรวจ</span> ภาพสไลด์ใส่ <b>intranodular vascularity</b> เป็น worrying feature ตามแนวคิดเดิม แต่ ATA 2015 และ ACR TI-RADS <b>ไม่นับ vascularity</b> เป็นเกณฑ์ high suspicion · ข้อที่ US บอก CA ชัดสุดคือ <b>microcalcification</b>, irregular margin, taller-than-wide, extrathyroidal extension {{R:2}}</li></ul>\n{{IMG:l20_worry}}</div>\n\n<div class=\"box\"><h3>ตัวอย่างภาพ US แต่ละกลุ่ม<span class=\"ref\">p13–17</span></h3>\n<p class=\"mut\">High suspicion (FNA ≥1 cm)</p>{{IMG:l20_us_high}}\n<p class=\"mut\">Intermediate suspicion (FNA ≥1 cm)</p>{{IMG:l20_us_int}}\n<p class=\"mut\">Low suspicion (FNA ≥1.5 cm)</p>{{IMG:l20_us_low}}\n<p class=\"mut\">Very low suspicion (FNA ≥2 cm or observe)</p>{{IMG:l20_us_vlow}}\n<p class=\"mut\">Benign — cyst (No FNA, may aspirate)</p>{{IMG:l20_us_benign}}</div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+},
+{
+"t": "Haugen BR, Alexander EK, Bible KC, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid 2016;26(1):1–133. (ยังเป็นฉบับล่าสุดของส่วน thyroid nodule — ATA 2025 ครอบคลุมเฉพาะ DTC)",
+"u": "https://doi.org/10.1089/thy.2015.0020"
+},
+{
+"t": "Tessler FN, Middleton WD, Grant EG, et al. ACR Thyroid Imaging, Reporting and Data System (TI-RADS): White Paper of the ACR TI-RADS Committee. J Am Coll Radiol 2017;14(5):587–595."
+}
+]
+},
+{
+"id": "L20-5",
+"title": "FNA · The Bethesda System (I–VI) · Management overview",
+"topics": [
+"Thyroid & Endocrine"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\"><span class=\"imp\">FNA</span> <span class=\"hw\">[B] = ตรวจ cytology</span> แม่นมาก (sens &amp; spec &gt;95%) ทำในก้อน &gt;1 cm แล้วรายงานด้วย <span class=\"imp\">Bethesda system 6 หมวด</span> · Benign → observe · Malignancy → total thyroidectomy · Indeterminate → clinical judgment · <span class=\"imp\">ห้าม FNA ใน hyperthyroidism!</span></div>\n\n<div class=\"box\"><h3>Fine needle aspiration (FNA)<span class=\"ref\">p18</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><b>Very accurate</b> (Sensitivity &amp; specificity &gt; 95%)</li>\n<li><span class=\"imp\">In nodule &gt; 1 cm</span> <span class=\"hw\">[B] < 1 cm = โอกาสเจาะโดนก้อนน้อย</span></li>\n<li>Multiple nodules → in nodule &gt; 1–1.5 cm / worrisome features from US</li>\n<li><span class=\"imp\">Bethesda system</span> · Molecular testing</li>\n<li><span class=\"imp\">C/I in hyperthyroidism!</span> (ตัวแดงในสไลด์) <span class=\"hw\">[A] esp. จาก toxic adenoma → เสี่ยง bleeding</span></li></ul></div>\n\n<div class=\"box\"><h3>The Bethesda System for Reporting Thyroid Cytopathology<span class=\"ref\">p19</span> <span class=\"chip s\">ซ้ำ</span></h3>\n<table class=\"fx\"><tr><th></th><th>Diagnostic category</th><th>ROM (สไลด์)</th><th>Management (สไลด์)</th><th>ROM Bethesda 2023 <span class=\"chip e\">เสริม</span></th></tr>\n<tr><td>I</td><td>Nondiagnostic</td><td>20%</td><td>Repeat FNA</td><td>~13% (5–20)</td></tr>\n<tr><td>II</td><td><span class=\"imp\">Benign</span></td><td>2.5%</td><td>Observe/Sx</td><td>~4% (2–7)</td></tr>\n<tr><td>III</td><td>AUS/FLUS</td><td>14%</td><td>Repeat FNA/Sx</td><td>~22% (13–30)</td></tr>\n<tr><td>IV</td><td>FN/SFN</td><td>25%</td><td>Sx</td><td>~30% (23–34)</td></tr>\n<tr><td>V</td><td>Suspicious for malignancy</td><td>70%</td><td>Sx</td><td>~74% (67–83)</td></tr>\n<tr><td>VI</td><td><span class=\"imp\">Malignant</span></td><td>99%</td><td>Sx</td><td>~97% (97–100)</td></tr></table>\n<ul><li>เลขโรมัน I–VI <span class=\"hw\">[B] ลายมือ B เขียนหน้าแต่ละแถว</span> · B เขียน <span class=\"hw\">[B] (ไม่จำ)</span> ที่หัวตาราง — แต่ <b>ชื่อหมวด + เลขโรมัน + management</b> ใช้ต่อในทุกสไลด์และ algorithm (p20, p29–37) จึงควรรู้</li>\n<li>แถว Malignant ถูกข้อความอ้างอิงทับในสไลด์ อ่านได้ว่า <b>99% · Sx</b> (ตารางในสไลด์อ้าง ATA 2015 {{R:2}})</li>\n<li><span class=\"chip e\">เสริม</span> <b>Bethesda 3rd edition (2023)</b>: ใช้ชื่อเดียวต่อหมวด — III = <b>AUS</b> (เลิกใช้ FLUS; แยก AUS-nuclear atypia กับ AUS-other) · IV = <b>Follicular neoplasm</b> (เลิกใช้ \"suspicious for FN\"; ระบุ oncocytic type แทน Hürthle) · management III เพิ่ม molecular testing, diagnostic lobectomy หรือ surveillance {{R:3}}</li></ul></div>\n\n<div class=\"box\"><h3>Management<span class=\"ref\">p20</span> <span class=\"chip s\">ซ้ำ</span></h3>\n<table class=\"fx\"><tr><th>FNA</th><th>สไลด์</th><th>ลายมือ</th></tr>\n<tr><td><span class=\"chip g\">Benign</span> (Bethesda II)</td><td>→ <span class=\"imp\">Observe</span></td><td><span class=\"hw\">[A] ยกเว้นมีอาการ</span> <span class=\"hw\">[B] Sx when symptomatic</span></td></tr>\n<tr><td><span class=\"chip r\">Malignancy</span> (Bethesda VI)</td><td>→ <span class=\"imp\">Total thyroidectomy</span></td><td><span class=\"hw\">[B] = ตัด thyroid 2 ข้าง</span></td></tr>\n<tr><td><span class=\"chip b\">Indeterminate</span> (Bethesda I, III, IV, V)</td><td>→ Clinical judgment</td><td><span class=\"hw\">[B] Bethesda I, III, IV, V</span></td></tr></table>\n<ul><li><b>Assess all the information</b> <span class=\"hw\">[A] all ข้อมูล</span> = ใช้ Hx + PE + TSH + US + FNA ร่วมกันทุกครั้ง</li>\n<li><span class=\"chip d\">! ต่าง</span> <b>สไลด์ vs ATA 2025</b>: สไลด์ = malignancy → total thyroidectomy (แนวเดิม) · <b>ATA 2025</b> สำหรับ low-risk DTC (intrathyroidal, ไม่มี LN/metastasis): <b>&lt; 2 cm → lobectomy preferred</b> · 2–4 cm → lobectomy หรือ total ก็ได้ · CA ใหญ่/ลุกลาม/LN หรือ distant metastasis → total thyroidectomy · ตอบข้อสอบในบทนี้ยึดสไลด์ แต่ควรรู้ว่าแนวทางล่าสุดลดขนาดการผ่าตัดลง {{R:4}}</li></ul></div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+},
+{
+"t": "Haugen BR, Alexander EK, Bible KC, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid 2016;26(1):1–133. (ยังเป็นฉบับล่าสุดของส่วน thyroid nodule — ATA 2025 ครอบคลุมเฉพาะ DTC)",
+"u": "https://doi.org/10.1089/thy.2015.0020"
+},
+{
+"t": "Ali SZ, Baloch ZW, Cochand-Priollet B, Schmitt FC, Vielh P, VanderLaan PA. The 2023 Bethesda System for Reporting Thyroid Cytopathology (3rd edition). Thyroid 2023;33(9):1039–1044 — ใช้ชื่อเดียวต่อหมวด (ตัด FLUS, SFN), ROM ใหม่ I ~13% · II ~4% · III ~22% · IV ~30% · V ~74% · VI ~97%",
+"u": "https://radiopaedia.org/articles/bethesda-system-for-reporting-thyroid-cytopathology"
+},
+{
+"t": "Ringel MD, et al. 2025 American Thyroid Association Management Guidelines for Adult Patients with Differentiated Thyroid Cancer. Thyroid 2025;35(8):841–985 · Executive summary: Thyroid 2025;35(11):1214–1220 — lobectomy preferred สำหรับ low-risk DTC < 2 cm, 2–4 cm เลือก lobectomy หรือ total ได้; completion thyroidectomy เปลี่ยนจาก \"should be offered\" เป็น \"may be considered\"",
+"u": "https://pubmed.ncbi.nlm.nih.gov/41173539/"
+}
+]
+},
+{
+"id": "L20-6",
+"title": "Indeterminate cytology: AUS/FLUS (III) · FN/SFN (IV) · Suspicious for PTC (V) · Frozen section",
+"topics": [
+"Thyroid & Endocrine"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">หมวด III–V คือหมวดที่ต้องใช้ clinical judgment · <b>III</b> → repeat FNA หรือ lobectomy · <b>IV</b> → lobectomy (หรือ TT ถ้าน่าสงสัยมาก) · <b>V</b> → total thyroidectomy หรือ lobectomy + frozen · <span class=\"imp\">Frozen section แยก follicular adenoma กับ carcinoma ไม่ได้!</span></div>\n\n<div class=\"box\"><h3>Bethesda III — AUS / FLUS<span class=\"ref\">p31</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>Atypia of undetermined significance (AUS) · Follicular lesion of undetermined significance (FLUS) <span class=\"hw\">[B] Bethesda III → เกิดจากความไม่แน่ใจของ pathologist (ถ้าเก่ง = อ่าน Bethesda III น้อย)</span></li>\n<li>Risk of cancer <b>6–48%</b> <span class=\"chip d\">! ต่าง</span> สไลด์ p19 ใช้ 14% (ค่ากลาง) ส่วน p31 ใช้ช่วงจากข้อมูลในแต่ละสถาบันตาม ATA 2015 · Bethesda 2023 ~22% {{R:2}}{{R:3}}</li>\n<li>Options: <span class=\"imp\">Repeat FNA</span> <span class=\"hw\">[A] ดูแค่ cell ไม่ได้ tissue · *follicular CA, oncocytic CA need tissue for dx. CA</span> <span class=\"hw\">[B] for รพ.ที่ไม่ค่อยชำนาญ (อ่าน Bethesda III เยอะ)</span></li>\n<li><span class=\"imp\">Lobectomy</span> <span class=\"hw\">[B] KCMH มักตัดเลย (เจาะซ้ำมักได้ Bethesda III เหมือนเดิม)</span> → • <span class=\"imp\">Suspicious clinical/US features</span> <span class=\"hw\">[B] Hx/PE/USG ดูเป็น cancer</span></li></ul></div>\n\n<div class=\"box\"><h3>Bethesda IV — Follicular neoplasm (FN) / Suspicious for a follicular neoplasm (SFN)<span class=\"ref\">p32</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>Risk of cancer <b>14–34%</b> (p19: 25%; Bethesda 2023 ~30%)\n<ul><li><span class=\"imp\">Follicular adenoma</span> <span class=\"hw\">[B] benign</span> and Hürthle cell neoplasm <b>80%</b></li>\n<li><span class=\"imp\">Follicular</span>/Hürthle cell <span class=\"imp\">CA</span> <b>20%</b> <span class=\"hw\">[B] malignant → มี vascular/capsular invasion (แยกจาก benign by pathology not cytology) · cell หน้าตาเหมือนกัน · ต้องดูจากหลาย slides (frozen ตัดแค่ 3–4 slides → ดูไม่ได้)</span></li></ul></li>\n<li>Option: <span class=\"imp\">Lobectomy</span> <span class=\"hw\">[A] เบื้องต้น → ตัดแค่ข้างที่มีก้อน ไปส่ง patho ∵ ตัด 2 ข้างมี complication &gt; 1 ข้างเยอะ</span> <span class=\"hw\">[B] เอา tissue ไปส่ง standard pathology (permanent section) → ถ้า patho อ่านเป็น CA = completion thyroidectomy (ตัดอีกข้าง) · ถ้าอ่าน benign = ไม่ต้องทำอะไรเพิ่ม</span></li>\n<li><span class=\"imp\">Total thyroidectomy</span> ถ้า • Suspicious clinical/US features • Suspicious intraoperative features</li>\n<li><span class=\"imp\">Frozen section cannot differentiate follicular adenoma from CA!</span> <span class=\"hw\">[B] sens &amp; spec ~50% → เท่ากับโยนเหรียญ -0-</span> <span class=\"chip x\">⚠ ตรวจ</span> ตัวเลข 50% มาจากลายมือ ไม่ได้อยู่ในสไลด์ — ใจความที่ถูกคือ frozen section ช่วยใน follicular lesion ได้น้อยมาก เพราะต้องหา capsular/vascular invasion จาก permanent section</li></ul>\n<div class=\"mn\"><b class=\"k\">Follicular: adenoma vs carcinoma</b> แยกด้วย <b>capsular / vascular invasion</b> บน <b>permanent section</b> เท่านั้น — FNA (cytology) และ frozen section แยกไม่ได้ → จึงต้อง <b>diagnostic lobectomy</b></div></div>\n\n<div class=\"box\"><h3>Bethesda V — Suspicious for papillary carcinoma (SUSP)<span class=\"ref\">p34</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"hw\">[B] = เจาะได้ papillary cell แต่ไม่ครบ criteria ในการอ่าน CA</span></li>\n<li>Risk cancer <b>53–97%</b> (p19: 70%; Bethesda 2023 ~74%)</li>\n<li>Options: <span class=\"imp\">Total thyroidectomy</span> ถ้า • Suspicious clinical/US features <span class=\"hw\">[B] e.g. microcal, spiculation, irregular margin</span> • Suspicious intraoperative features</li>\n<li><span class=\"imp\">Lobectomy with frozen section</span> <span class=\"hw\">[B] ถ้าไม่แน่ใจ = ส่ง permanent section</span> → <b>96% accuracy for PTC</b> <span class=\"hw\">[B] มี papillary cell = carcinoma (no papillary adenoma) แต่ follicular มีทั้ง adenoma และ carcinoma → แยกด้วย permanent section</span></li></ul>\n<div class=\"mn\"><b class=\"k\">ทำไม frozen ใช้ได้กับ PTC แต่ไม่ได้กับ follicular</b>: PTC วินิจฉัยจาก <b>nuclear features</b> (ดูได้ใน cell) → frozen แม่น 96% · follicular CA วินิจฉัยจาก <b>invasion</b> → ต้องดูทั้งแคปซูล</div></div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+},
+{
+"t": "Haugen BR, Alexander EK, Bible KC, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid 2016;26(1):1–133. (ยังเป็นฉบับล่าสุดของส่วน thyroid nodule — ATA 2025 ครอบคลุมเฉพาะ DTC)",
+"u": "https://doi.org/10.1089/thy.2015.0020"
+},
+{
+"t": "Ali SZ, Baloch ZW, Cochand-Priollet B, Schmitt FC, Vielh P, VanderLaan PA. The 2023 Bethesda System for Reporting Thyroid Cytopathology (3rd edition). Thyroid 2023;33(9):1039–1044 — ใช้ชื่อเดียวต่อหมวด (ตัด FLUS, SFN), ROM ใหม่ I ~13% · II ~4% · III ~22% · IV ~30% · V ~74% · VI ~97%",
+"u": "https://radiopaedia.org/articles/bethesda-system-for-reporting-thyroid-cytopathology"
+}
+]
+},
+{
+"id": "L20-7",
+"title": "Cases จากสไลด์: benign cyst · benign ในผู้สูงอายุ · substernal goiter · Hürthle cell · Bethesda V แต่เป็น goiter",
+"topics": [
+"Thyroid & Endocrine"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">ผู้สอนยกเคสจริงจาก KCMH 5 ราย เพื่อฝึก \"assess all the information\" — ข้อมูลผู้ป่วยในภาพ (ใบหน้า ชื่อบนจอ US) ไม่ได้นำมาใส่ · บทเรียนหลัก: <b>FNA benign + ไม่มีอาการ → observe</b>, <b>benign แต่มีอาการกด → ผ่าตัด</b>, <b>Bethesda IV/V ต้องรอ permanent section</b></div>\n\n<div class=\"box\"><h3>Case 1 · 22 y/o female, cystic nodule Rt thyroid 2 cm<span class=\"ref\">p21–22</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>TSH normal · <span class=\"imp\">FNA → benign</span> · <span class=\"imp\">Observe → ↓ in size</span></li>\n<li>US → <b>low suspicion</b> <span class=\"hw\">[B] mixed solid-cystic</span>: right thyroid lobe โตเล็กน้อย 2.1×2.9×6.2 cm · well-defined cystic lesion 1.9×2.6×3.7 cm (upper–mid pole) มี internal solid portion 0.9×1.2×1.3 cm และ thick septation · left lobe ปกติ · ไม่มี cervical LN โต · impression แนะนำ tissue biopsy ของ solid component</li>\n<li>บทเรียน: partially cystic with eccentric solid area = low suspicion (FNA ≥1.5 cm) → FNA benign → observe ได้</li></ul></div>\n\n<div class=\"box\"><h3>Case 2 · 60 y/o female, Lt thyroid nodule 2 yr<span class=\"ref\">p23–24</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>TSH normal · <span class=\"imp\">FNA – benign</span> · <span class=\"imp\">US – low suspicion</span> · Advice Sx (age) → <span class=\"imp\">observe</span> <span class=\"hw\">[A] มี risk</span> <span class=\"hw\">[B] benign มักเกิดก่อน 60 yo ∴ แก่ → advice Sx (ป้าไม่ยอมผ่า)</span></li>\n<li>US: thyroid ขนาดปกติ · Lt lobe <b>1.6×1.8×2.0 cm well-defined mixed echoic nodule with cystic component + mild internal vascularity</b> · 0.4 cm hypoechoic nodule ที่ isthmus · cervical LN หลายต่อม &lt;1 cm มี fatty hilum (reactive)</li>\n<li>บทเรียน: อายุ &gt;60 เป็น risk factor ของ CA → แม้ FNA benign ผู้สอนแนะนำผ่าตัด แต่ผู้ป่วยเลือก observe</li></ul></div>\n\n<div class=\"box\"><h3>Case 3 · 71 y/o male, compressive symptoms, hoarseness, stridor<span class=\"ref\">p25–30</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"imp\">compressive symptoms, hoarseness, stridor</span> <span class=\"hw\">[B] FNA = benign · hoarseness แบบไม่มีแรงพูด (ไม่เกิดจาก nerve)</span></li>\n<li>CXR: <span class=\"hw\">[B] mediastinal mass</span> (เงาที่ mediastinum บน + trachea แคบ)</li>\n<li><b>CT</b> <span class=\"hw\">[B] CT → ส่งตอนคลำขอบล่างของก้อนไม่ได้ / USG ไม่เห็นขอบล่าง → ขอบล่างยื่นลง thoracic cavity</span> → <span class=\"hw\">[B] Substernal goiter = ก้อนยื่นลงช่องอก</span></li>\n<li>ผ่าตัดด้วย <b>median sternotomy</b> <span class=\"hw\">[B] ∵ ควักก้อนออกทางคอไม่ได้</span> · ภาพผ่าตัดเห็น Rt. CCA และ <b>trachea</b> <span class=\"hw\">[B] = ถูกเบียดจนแบน · ก้อนที่คอ → มีที่ให้โต = ไม่ค่อยกด trachea · ก้อนในช่องอก → thoracic cage ล้อม = โตไปที่อื่นไม่ได้ = กด trachea = airway obstruction</span></li>\n<li>ชิ้นเนื้อ ~15 cm · <span class=\"imp\">Patho = Goiter</span> <span class=\"hw\">[B] Bethesda II · Symptomatic benign → Sx</span> <span class=\"hw\">[A] ต่อให้เป็น benign แต่มี symptom → Sx.</span></li>\n<li>p30 ภาพผู้ป่วยหลังผ่าตัดใส่ oxygen mask (ไม่ได้ใส่รูป)</li></ul>\n<table class=\"fx\"><tr><td>{{IMG:l20_cxr}}</td><td>{{IMG:l20_ct}}</td></tr></table></div>\n\n<div class=\"box\"><h3>Case 4 · 41 y/o female, Rt thyroid nodule 2 mo<span class=\"ref\">p33</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>TSH normal · <span class=\"imp\">FNA → Hürthle cell</span> <span class=\"hw\">[A] oncocytic cell</span> <span class=\"hw\">[B] = variant หนึ่งของ follicular neoplasm (ติดสีแดง)</span> → Bethesda IV</li>\n<li><span class=\"imp\">Lobectomy</span> → Patho → <span class=\"imp\">Invasive Hürthle cell carcinoma</span> → Plan <span class=\"imp\">completion thyroidectomy</span></li>\n<li>บทเรียน: FN → diagnostic lobectomy ก่อน แล้วตัดสินใจตาม permanent section (ดู L20-6)</li></ul></div>\n\n<div class=\"box\"><h3>Case 5 · 36 y/o female, Lt thyroid nodule 1 yr<span class=\"ref\">p35–36</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li>US – <b>low suspicion</b> <span class=\"hw\">[B] mixed solid-cystic lesion</span> · <span class=\"imp\">FNA → Suspicious for PTC (Bethesda V)</span></li>\n<li><b>Left lobectomy with frozen section</b> <span class=\"hw\">[B] ∵ USG: low suspicion</span> — Intraoperative findings → benign</li>\n<li><span class=\"chip r\">Frozen section</span> → Goiter · <span class=\"chip g\">Permanent section</span> → Goiter</li>\n<li>บทเรียน: Bethesda V ไม่ได้เป็น CA ทุกราย (ROM 53–97%) → US low suspicion จึงเลือก lobectomy + frozen แทน total thyroidectomy</li></ul></div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+}
+]
+},
+{
+"id": "L20-8",
+"title": "Algorithm ของ thyroid nodule · Risks of thyroidectomy · Conclusions",
+"topics": [
+"Thyroid & Endocrine"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">สรุปทั้งบทใน flowchart เดียว (p37) · ภาวะแทรกซ้อนหลัก: <span class=\"imp\">recurrent laryngeal n. &lt;1%</span>, <span class=\"imp\">superior laryngeal n. 20%</span>, <span class=\"imp\">hypoparathyroidism (transient 50%, permanent &lt;2%)</span> · Conclusion: <b>Malignancy 5% → must be ruled out</b></div>\n\n<div class=\"box\"><h3>Thyroid nodule algorithm<span class=\"ref\">p37</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3>\n<div class=\"flow\"><span class=\"n\">Thyroid nodule</span><span class=\"ar\">→</span><span class=\"n\">History / PE · Serum TSH · Thyroid sonography</span><span class=\"ar\">→</span><span class=\"n r\">FNA <span class=\"hw\">[B] when ≥ 1 cm</span></span></div>\n<table class=\"fx\"><tr><th>Bethesda</th><th>Management ในแผนภาพ</th><th>ลายมือ</th></tr>\n<tr><td>I Non-diagnostic</td><td>Repeat FNA</td><td></td></tr>\n<tr><td>II Benign</td><td>Cyst / Colloid → <span class=\"imp\">Follow up</span> → ถ้า <b>cyst re-accumulate ×3 · continued growth · compressive symptoms</b> → ± repeat FNA → <span class=\"imp\">Lobectomy</span></td><td></td></tr>\n<tr><td>III AUS/FLUS</td><td>Repeat FNA · Lobectomy*</td><td></td></tr>\n<tr><td>IV FN/SFN</td><td>Lobectomy · TT*</td><td><span class=\"hw\">[B] TT* in case patho อ่านเป็น CA</span></td></tr>\n<tr><td>V Suspicious for malignancy</td><td>Lobectomy &amp; frozen section · TT*</td><td><span class=\"hw\">[B] ขึ้นกับ Hx/PE/USG</span></td></tr>\n<tr><td>VI Malignancy</td><td><span class=\"imp\">TT</span></td><td><span class=\"hw\">[A] total thyroidectomy</span></td></tr></table>\n<ul><li>* = ทำเมื่อมี suspicious clinical/US/intraoperative features (ดู L20-6) · <span class=\"chip d\">! ต่าง</span> VI → TT เป็นแนวเดิม; ATA 2025 ให้ lobectomy ใน low-risk DTC &lt;2 cm (ดู L20-5) {{R:3}}</li></ul>\n{{IMG:l20_algo}}</div>\n\n<div class=\"box\"><h3>Risks of thyroidectomy<span class=\"ref\">p38</span> <span class=\"chip s\">ซ้ำ</span></h3>\n<table class=\"fx\"><tr><th>Complication</th><th>อัตรา</th><th>ลายมือ</th></tr>\n<tr><td><span class=\"imp\">Recurrent (laryngeal) nerve injury</span></td><td><b>&lt; 1%</b></td><td><span class=\"hw\">[B] อยู่ชิดต่อมมาก → ต้องระวังตอนผ่า · unilat = hoarseness · bilat = airway obstruction, aspiration</span></td></tr>\n<tr><td><span class=\"imp\">Superior laryngeal nerve injury</span></td><td><b>20%</b></td><td><span class=\"hw\">[A] n.เล็ก → ร้องเสียงสูงไม่ได้, พูดนาน ๆ แล้วเสียงหาย</span> <span class=\"hw\">[B] = ทำให้ vocal cord ตึง → ออกเสียงสูง/ตะโกน · asymptomatic / weakness of voice — ระวังในคนที่ใช้เสียงหากิน · ∵ n. เล็กมาก ~0.2 mm</span> <span class=\"chip x\">⚠ ตรวจ</span> ขนาด \"0.2 mm\" มาจากลายมือ ไม่ได้ตรวจ — ใจความคือ <b>external branch ของ SLN</b> เส้นเล็ก วิ่งคู่กับ superior thyroid a. จึงบาดเจ็บง่ายตอนผูกเส้นเลือดขั้วบน</td></tr>\n<tr><td><span class=\"imp\">Hypoparathyroidism</span> (total thyroidectomy)</td><td>Transient <b>50%</b><br/>Permanent <b>&lt; 2%</b></td><td><span class=\"hw\">[A] รับ blood supply เดียวกับ thyroid → hypocalcemia → hyperreflexia</span> <span class=\"hw\">[B] ∵ inf thyroid a เลี้ยงทั้ง thyroid + parathyroid · ตัด thyroid → parathyroid ขาดเลือดชั่วคราว = hypoparathyroidism · 2–3 mo จะกลับมาปกติได้ · permanent → oral Ca + Vit D lifelong</span></td></tr></table>\n<ul><li>อาการ hypocalcemia: <b>Chvostek sign</b> (เคาะ facial n. หน้าหู → มุมปากกระตุก) · <b>Trousseau sign</b> <span class=\"hw\">[A] carpopedal spasm</span> (พันผ้าวัดความดันเกิน systolic 3 นาที → carpal spasm)</li>\n<li><span class=\"chip x\">✏ แก้</span> \"Vit D\" ใน hypoparathyroidism ถาวร ต้องเป็น <b>active vitamin D (calcitriol / alfacalcidol)</b> เพราะไม่มี PTH มากระตุ้นการเปลี่ยน 25-OH D → 1,25-(OH)₂D ที่ไต · นิยาม permanent = นานเกิน <b>12 เดือน</b> {{R:2}}</li>\n<li><span class=\"chip x\">⚠ ตรวจ</span> ตัวเลข transient 50% เป็นของสไลด์ — แหล่งอื่นมักอ้าง transient hypocalcemia หลัง total thyroidectomy ราว 20–30% (ขึ้นกับนิยาม) และ permanent ~1–3%</li></ul>\n{{IMG:l20_hypocal}}</div>\n\n<div class=\"box\"><h3>Conclusions: Thyroid nodule<span class=\"ref\">p39</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"imp\">Malignancy 5% → Must be ruled out!</span> — History &amp; PE · TSH · US · FNA</li>\n<li><span class=\"imp\">F/U in benign cases</span></li>\n<li><span class=\"imp\">Surgery in suspicious cases</span></li></ul></div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+},
+{
+"t": "Khan AA, Bilezikian JP, Brandi ML, et al. Evaluation and Management of Hypoparathyroidism Summary Statement and Guidelines from the Second International Workshop. J Bone Miner Res 2022;37(12):2568–2585 — post-surgical hypoparathyroidism ถาวร = นานเกิน 12 เดือน; รักษาด้วย calcium + active vitamin D (calcitriol/alfacalcidol)"
+},
+{
+"t": "Ringel MD, et al. 2025 American Thyroid Association Management Guidelines for Adult Patients with Differentiated Thyroid Cancer. Thyroid 2025;35(8):841–985 · Executive summary: Thyroid 2025;35(11):1214–1220 — lobectomy preferred สำหรับ low-risk DTC < 2 cm, 2–4 cm เลือก lobectomy หรือ total ได้; completion thyroidectomy เปลี่ยนจาก \"should be offered\" เป็น \"may be considered\"",
+"u": "https://pubmed.ncbi.nlm.nih.gov/41173539/"
+}
+]
+},
+{
+"id": "L20-9",
+"title": "Parathyroid: anatomy · PTH physiology · Hypercalcemia · Hyperparathyroidism (1°/2°/3°)",
+"topics": [
+"Thyroid & Endocrine",
+"Fluid, Electrolyte & Nutrition"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">ส่วนที่ 2 ของบท (p40–50) · <span class=\"imp\">Hyperparathyroidism = common cause of hypercalcemia</span> — <b>malignancy = most common ใน IPD</b>, <b>hyperparathyroidism = most common ใน OPD</b> · Secondary/tertiary: <span class=\"imp\">most common cause = CKD</span> · ดู calcium physiology เพิ่มที่ <a href=\"#/sx/io/p/L07.2-5\">L07.2-5</a></div>\n\n<div class=\"box\"><h3>Parathyroid glands<span class=\"ref\">p40–41</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"imp\">Typically 4 glands (3 to 7)</span> <span class=\"hw\">[B] ส่วนใหญ่อยู่หลัง thyroid gl · บางส่วนอาจอยู่ใน superior mediastinum, ใกล้ angle of mandible, หลัง pharynx</span></li>\n<li><b>About 5 mm size</b> <span class=\"hw\">[A] ~เม็ดถั่วเขียว</span> · <b>About 30 to 50 mg weight</b> <span class=\"hw\">[B] เล็ก → โอกาส injury/infarct เยอะ</span></li>\n<li>รูป: parathyroid 2 คู่อยู่ด้านหลังของ thyroid lobe แต่ละข้าง</li></ul>\n{{IMG:l20_para}}</div>\n\n<div class=\"box\"><h3>Parathyroid hormone<span class=\"ref\">p42</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"hw\">[B] Parathyroid hormone → เพิ่ม serum Ca</span> · ECF Ca ↑ → <b>negative feedback</b> กด PTH <span class=\"hw\">[A] ECF Ca ↑</span></li>\n<li><span class=\"hw\">[B] kidney = Ca reabsorption + เปลี่ยน 25-Vit D เป็น 1,25-Vit D (active form) → เพิ่ม Ca absorption in GI tract</span></li>\n<li><span class=\"hw\">[B] bone = resorption</span> → ปล่อย Ca เข้าสู่ ECF</li></ul>\n{{IMG:l20_pth}}</div>\n\n<div class=\"box\"><h3>Hypercalcemia<span class=\"ref\">p43</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><b>Malignancy</b> <span class=\"hw\">[A] M/C IPD · เจอบ่อย</span> <span class=\"hw\">[B] = m/c in IPD</span></li>\n<li><span class=\"imp\">Hyperparathyroidism</span> (ไฮไลต์เหลืองในสไลด์) <span class=\"star\">✱</span> <span class=\"hw\">[A] ดาวแดงลายมือ · M/C OPD</span> <span class=\"hw\">[B] = m/c in OPD</span></li>\n<li>Vitamin D intoxication · Familial hypocalciuric hypercalcemia · Medications</li></ul>\n<div class=\"mn\"><b class=\"k\">Hypercalcemia: ผู้ป่วยนอก → นึกถึง PHPT · ผู้ป่วยใน → นึกถึงมะเร็ง</b> · PHPT กับ malignancy รวมกันเป็นสาเหตุ ~90% ของ hypercalcemia</div></div>\n\n<div class=\"box\"><h3>Hyperparathyroidism<span class=\"ref\">p44</span> <span class=\"chip s\">ซ้ำ</span></h3>\n<table class=\"fx\"><tr><th>ชนิด</th><th>สไลด์ / ลายมือ</th><th>Lab <span class=\"chip e\">เสริม</span></th></tr>\n<tr><td><span class=\"imp\">Primary</span></td><td><span class=\"hw\">[A] โรคของ parathyroid gland เอง e.g. hyperplasia, adenoma</span> <span class=\"hw\">[B] = อยู่ดี ๆ ก็หลั่ง PTH เอง e.g. adenoma, MEN I</span></td><td>Ca ↑ · PTH ↑ (หรือปกติแต่ไม่กดลงตาม Ca) · PO₄ ปกติ/↓</td></tr>\n<tr><td><span class=\"imp\">Secondary</span></td><td><span class=\"hw\">[B] = มี cause ให้ PTH สูง</span> · <span class=\"imp\">Most common cause is CKD</span> <span class=\"hw\">[A] active vit D ↓ · PO₄³⁻ ↑</span> <span class=\"hw\">[B] CKD → PO₄³⁻ ↑ → กระตุ้น parathyroid gl → PTH ↑ : Secondary (หยุดกระตุ้น = หยุดหลั่ง)</span></td><td>Ca ↓/ปกติ · PTH ↑ · PO₄ ↑ (CKD)</td></tr>\n<tr><td><span class=\"imp\">Tertiary</span></td><td><span class=\"hw\">[B] กระตุ้นนาน ๆ = ต่อมคุมตัวเองไม่ได้ → autonomous = หลั่ง PTH โดยไม่สนใจ Ca/PO₄ = Tertiary</span></td><td>Ca ↑ · PTH ↑ มาก (มักหลัง secondary นาน ๆ หรือหลัง kidney transplant)</td></tr></table>\n<ul><li><span class=\"hw\">[B] แยก 2°–3° ดีสุด = ดูหลัง kidney transplant (ตัดตัวกระตุ้นทิ้ง) → PTH ลง = 2° · PTH ยังสูง = 3° (definite) · อาจใช้วิธีอื่นแยก 2°–3° ได้ด้วย</span> <span class=\"chip e\">เสริม</span> อีกวิธีคือดู <b>calcium</b>: secondary มัก Ca ต่ำ/ปกติ ส่วน tertiary Ca สูง</li>\n<li><span class=\"chip e\">เสริม</span> PHPT พบในผู้หญิงมากกว่าผู้ชาย 2–3 เท่า · สาเหตุส่วนใหญ่คือ <b>single adenoma</b> (~80–85%) รองลงมา multigland hyperplasia · ผู้ป่วยอายุน้อย/multigland/ประวัติครอบครัว → คิดถึง MEN1, MEN2A ฯลฯ {{R:2}}</li></ul></div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+},
+{
+"t": "Bilezikian JP, Khan AA, Silverberg SJ, et al. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res 2022;37(11):2293–2314.",
+"u": "https://doi.org/10.1002/jbmr.4677"
+}
+]
+},
+{
+"id": "L20-10",
+"title": "Hyperparathyroidism: Investigations (lab · imaging localization) · Treatment · Conclusion",
+"topics": [
+"Thyroid & Endocrine"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">วินิจฉัยด้วย <span class=\"imp\">lab</span> (iPTH + Ca + PO₄ + vitamin D + ALP) · <span class=\"imp\">imaging ไม่ใช่การวินิจฉัย</span> ใช้ <b>localize ต่อมก่อนผ่าตัด</b> เท่านั้น · รักษา: medical vs <span class=\"imp\">parathyroidectomy</span> · Conclusion: <b>ส่ง serum PTH ในผู้ป่วย hypercalcemia ทุกราย แล้ว refer</b></div>\n\n<div class=\"box\"><h3>Investigations: Lab<span class=\"ref\">p45</span> {{R:1}} <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"imp\">iPTH</span> <span class=\"hw\">[A] intact (1–84)</span> <span class=\"hw\">[B] = definite สุด</span></li>\n<li>Serum <b>Calcium</b> · Serum <b>Phosphate</b> <span class=\"hw\">[B] 1° = Ca ↑, PO₄ normal/↓ · CKD = PO₄ ↑</span></li>\n<li><b>Vitamin D level</b> <span class=\"hw\">[B] Vit D ↓ → ดูด Ca ใน GI tract ↓ → feedback → PTH ↑ เพื่อเพิ่ม active Vit D ∴ low Vit D can cause hyperparathyroidism · คนไทยมี low Vit D ~60–70% esp in female · Vit D ส่วนใหญ่มาจาก food not sun exposure</span> <span class=\"chip x\">✏ แก้</span> vitamin D ส่วนใหญ่ (~90%) มาจาก<b>การสังเคราะห์ที่ผิวหนังด้วยแสงแดด (UVB)</b> ไม่ใช่จากอาหาร — อาหารที่มี vitamin D สูงมีน้อยชนิด (ปลาทะเลมัน น้ำมันตับปลา ไข่แดง อาหารเสริม) {{R:4}} · <span class=\"chip x\">⚠ ตรวจ</span> ตัวเลข \"คนไทย low vit D 60–70%\" มาจากลายมือ ยังไม่ได้ตรวจกับแหล่งอ้างอิง</li>\n<li><b>Alkaline phosphatase</b> <span class=\"hw\">[B] ALP ↑ = bone resorption ↑ (บอก disease severity)</span></li>\n<li><span class=\"chip e\">เสริม</span> Fifth International Workshop 2022: วินิจฉัย PHPT = Ca (adjusted for albumin) สูง + PTH สูงหรือปกติที่ไม่เหมาะสม · ควรวัด 25-OH vitamin D และแก้ให้ ≥ 20–30 ng/mL ก่อนแปลผล (vit D ต่ำทำให้ PTH สูงแบบ secondary) · ประเมิน end-organ ด้วย BMD, imaging หานิ่ว, 24-h urine Ca {{R:2}}</li></ul></div>\n\n<div class=\"box\"><h3>Investigation: Imaging<span class=\"ref\">p46–48</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><b>Imaging</b> <span class=\"hw\">[A] ไม่ได้ใช้วินิจฉัย, ใช้ในกรณีที่จะผ่าตัดเท่านั้น (วางแผนผ่าตัด)</span> <span class=\"hw\">[B] = ใช้ localize ต่อมก่อน Sx ∵ ต่อมอยู่ได้หลายที่</span></li>\n<li><span class=\"imp\">Parathyroid scan</span> · <span class=\"imp\">Ultrasonography</span> (ไฮไลต์ A) <span class=\"hw\">[B] [วงเล็บคลุม scan + US] ดูยาก → ไม่ควรส่ง</span> <span class=\"chip x\">⚠ ตรวจ</span> ลายมือ B ขัดกับ guideline — AAES 2016 และ International Workshop 2022 ใช้ <b>neck US + sestamibi (± SPECT/CT) หรือ 4D-CT</b> เป็นการตรวจหาตำแหน่งก่อนผ่าตัดลำดับแรก (เลือกตามความชำนาญของสถาบัน) {{R:3}}</li>\n<li><span class=\"imp\">SPECT/CT</span> · <span class=\"imp\">4DCT</span> (ไฮไลต์ B)</li></ul>\n<table class=\"fx\"><tr><th>Parathyroid scan (p47)</th><th>SPECT/CT (p48)</th></tr>\n<tr><td><span class=\"hw\">[B] = nuclear scan → ใช้หลัก digital subtraction · ใช้สารรังสีไปจับต่อม: MIBI → ติด thyroid + parathyroid → 2 hr → wash out MIBI in parathyroid → เอารูปไป subtract กับตอนแรก · KCMH ใช้ MIBI + Tc-pertechnetate → MIBI เห็น 2 ต่อม + Tc เห็นแค่ thyroid → เอา 2 รูปมา subtract กัน → เห็นแค่ parathyroid gl · ⚠ anatomy ไม่ชัด → ต้องเดาว่าต่อมอยู่ประมาณ area ไหน</span> <span class=\"chip x\">✏ แก้</span> ใน dual-phase sestamibi MIBI จะ <b>wash out ออกจาก thyroid เร็วกว่า</b> แต่<b>ค้างอยู่ใน parathyroid adenoma</b> (เซลล์มี mitochondria มาก) → ภาพ delayed (~2 ชม.) จึงเห็น adenoma ชัด (ไม่ใช่ wash out จาก parathyroid)</td>\n<td><span class=\"hw\">[A] เอาภาพ parathyroid scan มาซ้อนกับ CT</span> <span class=\"hw\">[B] = เอารูปจาก nuclear scan ซ้อนกับรูปจาก CT → ดู anatomy ชัดมาก</span> · <b>4DCT</b> = CT หลาย phase (non-contrast, arterial, delayed) ดู enhancement/washout ของ adenoma</td></tr>\n<tr><td>{{IMG:l20_mibi}}</td><td>{{IMG:l20_spect}}</td></tr></table></div>\n\n<div class=\"box\"><h3>Treatment of hyperparathyroidism<span class=\"ref\">p49</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><b>Medical</b> <span class=\"hw\">[B] e.g. Bisphosphonate, Calcimimetic drugs</span></li>\n<li><b>Surgical</b> <span class=\"hw\">[A] ดีกว่า medical Rx. ทุกแบบ</span> <span class=\"hw\">[B] = best tx for all types of hyperparathyroidism (1°, 2°, 3°) → คนไข้ผ่าไหวก็ควรผ่า</span> — <span class=\"imp\">Parathyroidectomy</span></li>\n<li><span class=\"chip x\">⚠ ตรวจ</span> ผ่าตัดคือการรักษาที่หายขาดของ <b>primary</b> และเป็นมาตรฐานของ <b>tertiary</b> · แต่ <b>secondary (CKD)</b> เริ่มด้วยยาก่อน (คุม phosphate, active vit D, calcimimetic) และผ่าตัดเมื่อดื้อต่อยา</li>\n<li><span class=\"chip e\">เสริม</span> ข้อบ่งชี้ผ่าตัด PHPT (Fifth International Workshop 2022): <b>มีอาการทุกราย</b> · ไม่มีอาการแต่มีข้อใดข้อหนึ่ง — Ca สูงกว่า upper limit &gt; 1 mg/dL · BMD T-score ≤ −2.5 หรือ vertebral fracture · eGFR &lt; 60 · นิ่ว/nephrocalcinosis หรือ hypercalciuria (&gt;250 mg/วัน หญิง, &gt;300 mg/วัน ชาย) · อายุ &lt; 50 ปี · ผ่าตัดเป็น option ได้ในทุกรายถ้าไม่มีข้อห้าม {{R:2}}</li></ul></div>\n\n<div class=\"box\"><h3>Conclusion<span class=\"ref\">p50</span> <span class=\"chip s\">ซ้ำ</span></h3><ul>\n<li><span class=\"imp\">Hyperparathyroidism is a common cause of hypercalcemia</span> <span class=\"hw\">[B] esp in OPD case</span></li>\n<li><span class=\"imp\">Request serum PTH in patients with hypercalcemia</span> <span class=\"hw\">[B] if PTH ↑</span> →</li>\n<li><span class=\"imp\">Refer the patients to specialists</span> <span class=\"hw\">[B] endocrinologist / surgeon</span></li></ul></div>",
+"refs": [
+{
+"t": "L20 Thyroid and Parathyroid — Pasurachate Samorn, MD (Department of Surgery, Chulalongkorn University). ไฟล์ A L20_Thyroid-Parathyroid.pdf + ไฟล์ B L20_Thyroid_and_Parathyroid.pdf — สไลด์ชุดเดียวกัน 50 หน้า (สไลด์ละหน้า เลขหน้าตรงกันทั้ง 2 ไฟล์) ต่างกันที่ไฮไลต์/ลายมือ: A ไฮไลต์ม่วง + ลายมือน้ำเงิน, B ไฮไลต์เหลือง + ลายมือน้ำเงินตัวผอม. ตาราง US pattern และ Bethesda ในสไลด์อ้าง Haugen BR, et al. 2015 ATA guidelines"
+},
+{
+"t": "Bilezikian JP, Khan AA, Silverberg SJ, et al. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res 2022;37(11):2293–2314.",
+"u": "https://doi.org/10.1002/jbmr.4677"
+},
+{
+"t": "Wilhelm SM, Wang TS, Ruan DT, et al. The American Association of Endocrine Surgeons Guidelines for Definitive Management of Primary Hyperparathyroidism. JAMA Surg 2016;151(10):959–968.",
+"u": "http://jamanetwork.com/journals/jamasurgery/fullarticle/2542667"
+},
+{
+"t": "Skin synthesis and vitamin D — ~90% ของ vitamin D ในร่างกายมาจาก UVB บนผิวหนัง (7-dehydrocholesterol → D3); อาหารที่มี vitamin D มาก มีน้อยชนิด (GPnotebook อ้าง Drug Ther Bull 2006;44:25–29 และ NICE PH56 2014)",
+"u": "https://gpnotebook.com/pages/dermatology/skin-synthesis-and-vitamin-d"
+}
+]
+}
+]
 }
 ],
 "merged": {}
@@ -30443,754 +30679,6 @@ SUMM.push({
       "MDCU73|RoB|44b",
       "MDCU73|RoC|51",
       "MDCU74|RoC|14"
-     ]
-    }
-   ]
-  }
- ]
-});
-
-})(WARDS["sx"].SUMM.MCQ);
-(function(SUMM){
-SUMM.push({
- "tag": "Transplant",
- "title": "Transplant",
- "intro": "<ul><li>หัวข้อนี้กว้างมาก: <b>immunology ของการปลูกถ่าย</b> (rejection, crossmatch / HLA / PRA, ABO, ยากดภูมิ) เป็นก้อนใหญ่สุด รองลงมาคือ <b>liver transplant</b> (HCC ใน Milan, ข้อบ่งชี้ / ข้อห้าม, ศัพท์ orthotopic) และ <b>donor</b> (สมองตาย, donor management, ข้อห้ามผู้บริจาค, กฎหมายผู้บริจาคที่มีชีวิตของไทย)</li><li>ข้อสอบชอบถามแบบ <b>NOT / FALSE / LEAST</b> (ยากดภูมิที่ไม่ใช่, เซลล์ที่เกี่ยวน้อยสุดใน TCMR, ข้อใดไม่ใช่ข้อบ่งชี้ปลูกตับ / ตับอ่อน, อวัยวะที่บริจาคจากคนเป็นไม่ได้ — cornea ออกแล้ว 3 รอบ) ต้องอ่านโจทย์ให้ครบ</li><li>เคสไตหลังปลูก 2 สัปดาห์ถูกถามซ้ำหลายรอบ: <b>ดู timing ก่อนกรุ๊ปเลือด</b> แล้วตอบ acute T cell-mediated rejection</li><li>โรคเบาหวานกับการปลูกถ่าย: <b>T1DM + ESRD = SPK</b>, ไตปกติแต่ hypoglycemia unawareness = <b>PTA</b>, T2DM ทั่วไป = ปลูกไตอย่างเดียว (living donor ดีที่สุด)</li><li>มี 3 เคสที่ติด tag นี้แต่เนื้อหาเป็นเรื่อง <b>กรุ๊ปเลือดในการให้เลือด</b> (universal donor RBC / plasma, alloantibody ต่อ minor antigen) จึงแยกเป็นกลุ่มท้ายสุด</li><li>MDCU74 / MDCU79 ถามซ้ำแนวเดิมเกือบทั้งหมด: <b>กลไก CNI (cyclosporine, tacrolimus)</b>, ข้อห้ามผู้บริจาค (melanoma, สาเหตุตายไม่ทราบ), ข้อห้ามผู้รับตับ (ยังดื่มสุรา); แนวใหม่คือ <b>SLK</b> เมื่อไตวายเรื้อรังร่วมกับตับวาย และ <b>แฝดไม่แท้ = HLA mismatch</b></li><li>MDCU73 เพิ่มมุม <b>allorecognition</b> (CD4+ T cell เป็นผู้รู้จัก alloantigen และสั่ง rejection ออกซ้ำทั้ง RoB และ RoC), ข้อ <b>INCORRECT</b> เรื่อง rejection (hyperacute ไม่ใช่ T cell-mediated) และศัพท์ graft (skin graft จากตัวเอง = autograft ไม่ใช่ isograft)</li><li>MDCU70–72 เน้น <b>hyperacute rejection</b> (graft ดำ / คล้ำภายในนาที–ชั่วโมงหลัง reperfusion → preformed antibody → ป้องกันด้วย <b>pretransplant crossmatch</b> ออกซ้ำหลายชุด), <b>ข้อห้ามปลูกตับ = ยังดื่มสุรา</b> (viral load สูง / อายุ 70 ไม่ใช่ข้อห้าม), <b>PSC และ biliary atresia ที่มาช้า → LT</b>, ข้อห้ามผู้บริจาค (HT / DM / low-grade astrocytoma / Na สูงที่แก้ได้ ไม่ใช่ข้อห้าม; CJD, melanoma, metastatic cancer, sepsis รุนแรงห้าม) และศัพท์ graft (พี่น้องทั่วไป = allograft)</li></ul>",
- "groups": [
-  {
-   "title": "Immunology ของการปลูกถ่าย: rejection, การจับคู่ และยากดภูมิ",
-   "sections": [
-    {
-     "id": "immunosuppressant-drugs",
-     "title": "ยากดภูมิ: ชนิด กลไก และ regimen มาตรฐาน",
-     "trend": "ถามกลไกของ CNI (cyclosporine / tacrolimus) ซ้ำมากที่สุด — ตัวลวงคือกลไกของยากดภูมิตัวอื่น; รองลงมาคือยาใดไม่ใช่ยากดภูมิ / ไม่ใช่ first-line",
-     "asked": [
-      "ยาใด NOT ใช้เป็น immunosuppression ใน transplant → levamisole",
-      "Cyclosporine ออกฤทธิ์อย่างไร → ยับยั้ง T-cell activation (calcineurin inhibitor)",
-      "ยาใด NOT เป็นส่วนหนึ่งของ standard first-line maintenance หลังปลูกไต → sirolimus",
-      "ปลูกไตเริ่ม cyclosporine กลไกคืออะไร → inhibits T cells (MDCU74 RoC)",
-      "ปลูกไตเริ่ม tacrolimus กลไกคืออะไร → calcineurin inhibition ลด IL-2 transcription (ตัวลวง: mTOR inhibition, IMPDH inhibition, IL-2Rα blockade, purine analogue) — MDCU79 RoC",
-      "Tacrolimus กลไกคืออะไร → calcineurin inhibitor (ตัวลวง: mTOR inhibitor, FKBP12 inhibitor, IMPDH inhibitor, IL-2 receptor antagonist) — MDCU79 RoD",
-      "เริ่ม maintenance immunosuppression หลังปลูกไต ยาใดเป็น calcineurin inhibitor → tacrolimus (ตัวลวง sirolimus, MMF, basiliximab, azathioprine) — MDCU72 RoB"
-     ],
-     "pattern": [
-      "<b>Maintenance triple therapy</b>: CNI (<b>tacrolimus</b> first-line, หรือ cyclosporine) + antimetabolite (<b>MMF</b> first-line, หรือ azathioprine) + corticosteroid; KDIGO: tacrolimus + MMF ± steroid",
-      "<b>CNI</b>: cyclosporine จับ <b>cyclophilin</b>, tacrolimus จับ <b>FKBP12</b> → ยับยั้ง calcineurin → NFAT ไม่เข้า nucleus → IL-2 ลด → T cell ไม่ activate",
-      "<b>mTOR inhibitor</b> (sirolimus, everolimus): จับ FKBP12 แต่ยับยั้ง mTOR ไม่ใช่ calcineurin; ไม่ใช่ first-line หลังผ่าตัดทันที (แผลหายช้า, lymphocele, proteinuria, hyperlipidemia); ใช้ทางเลือกเมื่อ CNI nephrotoxicity, มะเร็งผิวหนัง หรือ Kaposi sarcoma",
-      "<b>MMF</b> ยับยั้ง IMPDH (de novo purine synthesis); <b>azathioprine</b> เป็น purine analogue",
-      "<b>Induction</b>: basiliximab (anti-CD25, non-depleting) ในความเสี่ยงต่ำ; rabbit ATG / alemtuzumab (depleting) ในความเสี่ยงสูง",
-      "<b>Belatacept</b> = CTLA4-Ig (บล็อก CD80 / 86–CD28) ห้ามใช้ใน EBV-seronegative (เสี่ยง PTLD)",
-      "CNI และ sirolimus ผ่าน <b>CYP3A4</b>: azole, macrolide, diltiazem, verapamil เพิ่มระดับยา; rifampicin, phenytoin, carbamazepine ลดระดับยา → วัด trough level",
-      "<b>จับคู่ยา–กลไก (ตัวลวงที่ออกจริง):</b> tacrolimus / cyclosporine = calcineurin inhibitor (signal 1, ลด IL-2 transcription); sirolimus / everolimus = mTOR inhibitor (signal 3, หลัง IL-2 receptor); MMF / mycophenolic acid = IMPDH inhibitor (ยับยั้ง de novo purine synthesis ใน lymphocyte); azathioprine = purine analogue; basiliximab = anti-IL-2 receptor α (CD25) ใช้ induction; ATG = T-cell depletion; belatacept = CD80/86 costimulation blocker (signal 2)"
-     ],
-     "pearls": [
-      "<b>Levamisole</b> = anthelmintic / immunomodulator (immunostimulant) เคยใช้คู่ 5-FU ใน colon cancer stage III ไม่ใช่ยากดภูมิ",
-      "<b>Sirolimus เป็นยากดภูมิจริง</b> แต่ไม่ใช่ first-line — ถ้าโจทย์ถาม 'ไม่ใช่ immunosuppressant' ต้องหายาอื่น (levamisole)",
-      "จำ binding protein: cyclosporine–cyclophilin, tacrolimus–FKBP12, sirolimus–FKBP12 (แต่ไปยับยั้ง mTOR)",
-      "เคส 77D คีย์เดิมเลือก 4 ช้อย คลังเปลี่ยนเป็นแบบ NOT first-line เหลือ sirolimus",
-      "Tacrolimus <b>จับ</b> FKBP12 แต่ <b>ยับยั้ง</b> calcineurin — FKBP12 เป็นตัวรับไม่ใช่เป้าหมาย ช้อย 'FKBP12 inhibitor' จึงผิด (MDCU79 RoD)",
-      "กลไก CNI ถูกถามแล้ว 4 rotation (cyclosporine MDCU77 / MDCU74, tacrolimus MDCU79 สองรอบ) — เป็นหัวข้อที่ออกซ้ำที่สุดในกลุ่มยา",
-      "สับสน sirolimus กับ tacrolimus เพราะจับ FKBP12 เหมือนกัน — tacrolimus ยับยั้ง calcineurin (signal 1), sirolimus ยับยั้ง mTOR (signal 3); MDCU72 RoB ช้อยชื่อยา '-ximab' จำไม่ได้ คลังแต่งเป็น basiliximab และ azathioprine"
-     ],
-     "members": [
-      "MDCU76|RoA|4",
-      "MDCU75|RoC|3",
-      "MDCU77|RoD|21",
-      "MDCU74|RoC|33",
-      "MDCU79|RoC|Transplantation and immunology 1",
-      "MDCU79|RoD|Transplantation and immunology 1",
-      "MDCU72|RoB|10"
-     ]
-    },
-    {
-     "id": "rejection-types",
-     "title": "ชนิดของ rejection และ timing (hyperacute / acute / chronic)",
-     "trend": "เคสไตหลังปลูก 2 สัปดาห์ Cr ขึ้น ถามเซลล์หรือกลไก (หรือเซลล์ที่เกี่ยวน้อยที่สุด) โดยใส่กรุ๊ปเลือดหรือค่ายามาเป็นตัวลวง",
-     "asked": [
-      "ปลูกไต 2 สัปดาห์ BUN / Cr ขึ้น ปัสสาวะน้อย แม้ได้ tacrolimus, renal vein และ ureter ปกติ → เซลล์ใดเกี่ยวข้องที่สุด (T cell)",
-      "ไตสีเข้ม anuric 2 สัปดาห์ tacrolimus level ปกติ Doppler ปกติ → กลไกที่เป็นไปได้ที่สุด (T cell-mediated rejection ไม่ใช่ hyperacute)",
-      "Rejection ที่ 2 สัปดาห์แม้ tacrolimus อยู่ในระดับรักษา → เซลล์หลัก (T cell)",
-      "tacrolimus + มือสั่น + Cr 4 mg/dL → แยก CNI toxicity ออกจาก rejection",
-      "ปลูกไต 2 สัปดาห์เกิด acute cellular rejection เซลล์ใดมีบทบาทน้อยที่สุด → B lymphocyte (CD4+, CD8+, dendritic cell, macrophage เกี่ยวข้องทั้งหมด)",
-      "Transplant rejection ข้อใด INCORRECT → <b>hyperacute rejection เป็น T cell-mediated</b> (ที่ถูก: identical twin ไม่ reject, acute cellular = T cell, chronic rejection เป็นสาเหตุหลักของ late graft loss, ABO-incompatible โดยไม่ desensitize เสี่ยง hyperacute)"
-     ],
-     "pattern": [
-      "<b>Hyperacute</b>: นาที–ชั่วโมง จาก preformed antibody (ABO, anti-HLA) → complement, thrombosis, ไตคล้ำ → ต้องเอา graft ออก; ป้องกันด้วย ABO matching + crossmatch",
-      "<b>Acute T cell-mediated (TCMR)</b>: พบบ่อยที่สุด ราว 5 วัน – 3 เดือน (บ่อยใน 3–6 เดือนแรก) แม้ได้ CNI; recipient T cell จำ donor HLA (direct / indirect allorecognition); Banff: tubulitis + interstitial inflammation ± intimal arteritis",
-      "<b>รักษา TCMR</b>: pulse methylprednisolone (250–500 mg / วัน × 3 วัน); ดื้อ steroid หรือ Banff ≥ IIA → rabbit ATG; ปรับ maintenance",
-      "<b>Acute antibody-mediated (AMR)</b>: DSA + microvascular inflammation + C4d → plasmapheresis + IVIG ± rituximab",
-      "<b>Chronic</b>: เดือน–ปี; ไต = interstitial fibrosis / tubular atrophy, transplant glomerulopathy (chronic active AMR สำคัญ); หัวใจ = cardiac allograft vasculopathy; ปอด = bronchiolitis obliterans; ตับ = vanishing bile duct syndrome",
-      "Cr สูงหลังปลูกไตต้องแยก: obstruction / urine leak / vascular thrombosis (Doppler US), CNI toxicity (trough level), BK virus, CMV, delayed graft function → ยืนยัน rejection ด้วย <b>allograft biopsy</b>",
-      "<b>เซลล์ใน TCMR:</b> dendritic cell (APC; donor = direct, recipient = indirect allorecognition) → CD4+ helper (IL-2, IFN-γ) → CD8+ cytotoxic ทำลาย tubule / endothelium (tubulitis, endarteritis) + macrophage (delayed-type hypersensitivity); <b>B cell / plasma cell → DSA</b> = กลไกของ antibody-mediated rejection (hyperacute, acute AMR, chronic) ไม่ใช่ TCMR",
-      "<b>Hyperacute = humoral ไม่ใช่ T cell</b>: preformed antibody (anti-ABO หรือ anti-HLA จากตั้งครรภ์ / ถ่ายเลือด / ปลูกครั้งก่อน) → complement → endothelial injury, thrombosis, necrosis ภายในนาที–ชั่วโมง; acute cellular = T cell (วัน–เดือน ส่วนใหญ่ใน 6 เดือนแรก); chronic rejection (เดือน–ปี, T + B) เป็นสาเหตุสำคัญของ late graft loss; ปลูกจากแฝดเหมือนไม่ reject"
-     ],
-     "pearls": [
-      "<b>Timing ชนะกรุ๊ปเลือด</b>: 2 สัปดาห์ไม่ใช่ hyperacute แม้โจทย์ใส่ ABO ไม่เข้ากัน หรือไตดูคล้ำ",
-      "Tacrolimus ในเกณฑ์ไม่ได้ป้องกัน rejection ทุกราย",
-      "เคส recipient O ← donor A ของ 76D เป็น ABO-incompatible จริง (AMR ก็เป็นไปได้) แต่คีย์ของคลังตอบ T cell-mediated ตามช่วงเวลา",
-      "MDCU74 RoA ถามกลับด้าน (LEAST important cell) — คำตอบ B cell; อย่าคิดว่า B cell สำคัญในทุก rejection",
-      "เห็นคำว่า T cell แล้วคิดว่า rejection ทุกชนิดมาจาก T cell — hyperacute เป็น humoral (preformed antibody + complement)",
-      "MDCU73 RoC (INCORRECT): ต้นฉบับมีแค่ช้อย A, B ธนาคารแต่งช้อย C–E ที่ถูกทั้งหมดเป็นตัวลวง"
-     ],
-     "members": [
-      "MDCU76|RoC|9",
-      "MDCU76|RoD|52",
-      "MDCU77|RoA|54",
-      "MDCU78|RoD|Transplantation + Immunology 6",
-      "MDCU74|RoA|100",
-      "MDCU73|RoC|99"
-     ]
-    },
-    {
-     "id": "crossmatch-hla-pra",
-     "title": "HLA, crossmatch, PRA และ mixed lymphocyte reaction",
-     "trend": "ถามว่าการตรวจก่อนปลูกแต่ละอย่างวัดอะไร และผลบวกแปลว่าอะไร",
-     "asked": [
-      "ระหว่างคนที่ไม่ใช่แฝดแท้ อุปสรรค immunologic หลักคือ → HLA mismatch (ไม่ใช่ ABO)",
-      "Crossmatch ก่อนปลูกไตตรวจหาอะไร → preformed antibody ของผู้รับต่อ donor",
-      "PRA สูงในผู้รอไตหมายถึง → sensitized ต่อ HLA หลายชนิด",
-      "MLR บวกก่อนปลูก → T cell ผู้รับตอบสนองต่อ HLA class II ของผู้ให้",
-      "ข้อความเกี่ยวกับ kidney transplant ข้อใด FALSE → ตัวลวงจริง: positive crossmatch เป็นข้อห้าม, ปลูกใน iliac fossa, ทน cold storage 24 ชม. (คำตอบคือ ABO-incompatible เป็นมาตรฐาน)",
-      "การตรวจใดไม่จำเป็นในผู้รับ ESRD on dialysis ก่อนปลูกไต → 24-hour urine creatinine clearance (ABO, crossmatch, HLA typing, PRA จำเป็นทั้งหมด)"
-     ],
-     "pattern": [
-      "<b>HLA</b> อยู่ chromosome 6: class I (A, B, C) ทุกเซลล์มีนิวเคลียส, class II (DR, DQ, DP) บน APC; ไตจับคู่ A, B, DR (DR สำคัญที่สุด)",
-      "<b>Crossmatch</b> = serum ผู้รับ + lymphocyte ผู้ให้ → หา <b>preformed anti-donor antibody</b>; CDC (บวกถ้าเซลล์ตาย), flow cytometry (ไวกว่า), virtual crossmatch (DSA จาก single antigen bead)",
-      "<b>T-cell CDC crossmatch บวก = ห้ามปลูกไต</b> (เสี่ยง hyperacute); flow บวกอย่างเดียวพิจารณาตามระดับ DSA",
-      "<b>PRA / cPRA</b> = % ของ panel ที่ serum ผู้รับทำปฏิกิริยา ≈ โอกาส crossmatch บวกกับ donor ทั่วไป; PRA สูง = sensitized (จากรับเลือด ตั้งครรภ์ ปลูกซ้ำ) → รอนาน, ทำ desensitization หรือ paired exchange",
-      "<b>MLR</b> = lymphocyte ผู้รับ + lymphocyte ผู้ให้ที่ถูก irradiate → วัด T cell proliferation → บวก = HLA class II disparity → เสี่ยง <b>cellular rejection</b> (ใน HSCT เสี่ยง GVHD); ใช้เวลา 5–7 วัน ปัจจุบันใช้ molecular typing แทน",
-      "สรุปแยก: antibody ที่มีอยู่ก่อน → crossmatch → hyperacute; T cell ตอบสนอง → MLR → cellular rejection",
-      "<b>Immunologic workup ผู้รับไต</b>: ABO, HLA typing (A, B, DR ± C, DQ, DP), PRA / cPRA + single antigen bead DSA, crossmatch — ไตเดิมของผู้รับ ESRD วัด CrCl ไม่มีประโยชน์; ที่ต้องวัด GFR / CrCl คือ <b>living donor</b>"
-     ],
-     "pearls": [
-      "MLR ไม่ทำนาย hyperacute rejection; 78A ข้อ MLR คีย์เดิมตอบ hyperacute แต่คลังแก้เป็น T-cell reactivity ต่อ HLA class II",
-      "ABO ต้องตรวจเสมอแต่เลือกให้เข้ากันได้ง่าย จึงไม่ใช่อุปสรรคหลัก; อุปสรรคหลักที่ทำให้ต้องกดภูมิตลอดชีวิตคือ HLA",
-      "\"T-cell crossmatch\" เป็นชื่อวิธี (ใช้ T cell ของผู้ให้) ไม่ใช่การวัด T cell ผู้รับ",
-      "เลือก HLA typing หรือ PRA เพราะคิดว่าเป็นตรวจเสริมในยุคยากดภูมิดี — immunologic workup ทุกตัวยังจำเป็น; MDCU70 RoC คลังเติมว่าเป็น recipient ที่ฟอกไต (ถ้าเป็น donor ต้องวัด CrCl)"
-     ],
-     "members": [
-      "MDCU77|RoC|14",
-      "MDCU77|RoD|23",
-      "MDCU78|RoD|Transplantation + Immunology 5",
-      "MDCU78|RoA|Transplant 2",
-      "MDCU77|RoB|48",
-      "MDCU70|RoC|25"
-     ]
-    },
-    {
-     "id": "abo-compat",
-     "title": "ABO compatibility และ ABO-incompatible kidney transplant",
-     "trend": "ถามว่ามาตรฐานคืออะไร และถ้า ABO ไม่เข้ากันจะทำได้หรือไม่",
-     "asked": [
-      "ข้อความใดเกี่ยวกับ kidney transplant FALSE → \"ABO-incompatible donor เป็นมาตรฐาน\" ผิด",
-      "Living donor HLA เข้ากันดีแต่ ABO ไม่เข้ากัน ไม่มี donor อื่น → plasmapheresis + immunosuppression ก่อนปลูก"
-     ],
-     "pattern": [
-      "มาตรฐาน: <b>ABO compatible</b> (กฎเดียวกับการให้เลือด: O ให้ได้ทุกกรุ๊ป, AB รับได้ทุกกรุ๊ป) + crossmatch ลบ เพราะ ABO antigen อยู่บน endothelium ของ graft",
-      "ABOi ที่ไม่เตรียม → <b>hyperacute rejection</b> (นาที–ชั่วโมง)",
-      "<b>ABOi living donor kidney ทำได้ด้วย desensitization</b>: rituximab + plasmapheresis / immunoadsorption จน anti-A / anti-B titer ต่ำ (มักเป้า ≤ 1:8–1:16) ± IVIG + tacrolimus, MMF, steroid ตั้งแต่ก่อนผ่าตัด; ติดตาม titer หลังปลูก; ผลระยะยาวใกล้ ABO-compatible",
-      "ทางเลือกอื่น: <b>paired kidney exchange</b>; รอ deceased donor ที่ ABO compatible",
-      "Kidney เป็น heterotopic ที่ iliac fossa; ทน cold storage ได้ 24–36 ชม."
-     ],
-     "pearls": [
-      "HLA match ดีไม่ช่วยป้องกัน ABO antibody",
-      "คำว่า \"ทำไม่ได้\" ผิด — ABOi ทำได้ในศูนย์ที่มี desensitization แต่ไม่ใช่มาตรฐาน",
-      "กรุ๊ป O ที่รับไตจากผู้ให้กรุ๊ป A คือ incompatible; กรุ๊ป A รับจาก O ได้"
-     ],
-     "members": [
-      "MDCU77|RoB|48",
-      "MDCU78|RoD|Transplantation + Immunology 3",
-      "MDCU76|RoC|9",
-      "MDCU76|RoD|52"
-     ]
-    },
-    {
-     "id": "hyperacute-crossmatch",
-     "title": "Hyperacute rejection: กลไก (preformed antibody) และการป้องกันด้วย pretransplant crossmatch",
-     "trend": "เคสไตดำ / คล้ำ มี thrombosis ภายในนาที–ชั่วโมงหลัง reperfusion ถามว่าป้องกันได้อย่างไร — คำตอบ crossmatch; หรือถามกลไกตรง ๆ",
-     "asked": [
-      "ปลูกไตจาก donor ABO-compatible ไม่กี่นาทีหลัง reperfusion graft ดำบวม มี renal artery thrombosis → ป้องกันได้ด้วย crossmatching (ไม่ใช่ HLA matching / ABO grouping / preoperative immunosuppression / postoperative anticoagulation)",
-      "2 ชม. หลังปลูกไต graft คล้ำเป็นจ้ำ มี thrombosis ของ graft vessels → pretransplant crossmatching (ไม่ใช่ ป้องกันไม่ได้ / HLA matching / high-dose corticosteroid induction / postoperative heparin)",
-      "2 ชม. หลังปลูกไตและต่อหลอดเลือด graft คล้ำและหยุดทำงาน → pretransplant crossmatching (ไม่ใช่ ป้องกันไม่ได้ / HLA matching / preoperative immunosuppression / postoperative high-dose steroid)",
-      "Hyperacute rejection เกิดจากอะไร → preformed antibody (ไม่ใช่ antidonor antibody ที่ B cell สร้างใหม่ / T cell-mediated / mast cell cytokine / non-immune mechanism)"
-     ],
-     "pattern": [
-      "<b>Hyperacute</b> = preformed antibody ของผู้รับ (anti-ABO หรือ anti-HLA จากตั้งครรภ์ / รับเลือด / ปลูกครั้งก่อน) จับ endothelium ของ graft ทันทีที่ reperfusion → complement → thrombosis, hemorrhagic necrosis; graft ดำ / คล้ำ บวม ไม่มีปัสสาวะ ภายในนาที–ชั่วโมง",
-      "<b>รักษาไม่ได้ → ต้องเอา graft ออก</b>; ยากดภูมิ / steroid / heparin ไม่ช่วยเพราะ antibody มีอยู่แล้ว",
-      "<b>ป้องกัน</b>: ABO compatible + <b>pretransplant crossmatch ลบ</b> (CDC / flow cytometry ร่วมกับ PRA / DSA, virtual crossmatch) — ปัจจุบันจึงพบน้อยมาก; HLA matching ลด rejection ระยะยาวแต่ไม่ได้ตรวจ antibody โดยตรง",
-      "แยกเวลา: preformed antibody → hyperacute; <b>de novo DSA</b> ที่ B cell สร้างหลังปลูก → acute / chronic antibody-mediated rejection; T cell → acute cellular rejection (วัน–เดือน)",
-      "Graft thrombosis ช่วงแรกจากสาเหตุทาง surgical (kink, anastomosis) ตรวจด้วย Doppler US — แต่ graft ดำทันทีหลังเปิดเลือดใน ABO-compatible = hyperacute"
-     ],
-     "pearls": [
-      "เห็นคำว่า thrombosis แล้วตอบ heparin — เป็นเรื่อง immunology ไม่ใช่ coagulation",
-      "ตอบ HLA matching เพราะคิดว่า HLA ตรง = ไม่ reject — crossmatch คือการตรวจ preformed antibody โดยตรง; ตอบป้องกันไม่ได้เพราะจำว่ารักษาไม่ได้",
-      "สับสน preformed (hyperacute) กับ de novo antibody (AMR) — humoral ทั้งคู่แต่ต่างเวลาเกิด",
-      "MDCU72 RoB คลังเติม ABO-compatible เพราะต้นฉบับไม่บอก (ABO incompatible ก็ทำ hyperacute ได้ ช้อย ABO จะแข่ง); MDCU72 RoC ต้นฉบับใช้คำ thrombophlebitis คลังแต่ง stem ใหม่และช้อย D, E"
-     ],
-     "members": [
-      "MDCU72|RoB|7",
-      "MDCU72|RoC|84",
-      "MDCU71|RoA|ไม่มีเลข 6",
-      "MDCU70|RoA|80b"
-     ]
-    },
-    {
-     "id": "twin-privileged",
-     "title": "แฝดแท้ vs แฝดไม่แท้ (isograft vs HLA mismatch) และ immune-privileged tissue",
-     "trend": "ถามข้อดีของแฝดแท้เป็นผู้ให้, ปัญหาของแฝดไม่แท้, หรืออวัยวะ / เนื้อเยื่อที่ reject น้อยที่สุด",
-     "asked": [
-      "ไตจากแฝดเหมือน ข้อใดไม่ใช่ข้อดี → เพิ่มความเสี่ยง chronic GVHD",
-      "Deceased donor ชนิดใดมี rejection rate ต่ำสุด → cornea",
-      "ปลูกไตจากแฝดไม่แท้ (non-identical) ที่หมู่เลือด ABO เดียวกัน → ความกังวลหลักคือ HLA mismatch (ไม่ใช่ 'แฝดเข้ากันได้หมด', GVHD, ABO, ขนาดไม่เข้ากัน)"
-     ],
-     "pattern": [
-      "ชนิด graft: <b>autograft</b> (ตัวเอง), <b>isograft / syngeneic</b> (แฝดเหมือน), <b>allograft</b> (คนละคน สปีชีส์เดียวกัน), <b>xenograft</b> (ต่างสปีชีส์)",
-      "Isograft: HLA เหมือนทุก locus → แทบไม่มี rejection, ใช้ immunosuppression น้อยหรือไม่ต้อง, infection / มะเร็งจากยาน้อย, graft survival ดีที่สุด; <b>GVHD ต้องมี HLA disparity</b> จึงลดลงไม่ใช่เพิ่ม",
-      "ข้อเสียจริงของแฝดเหมือน: HSCT ไม่มี graft-versus-leukemia effect; โรคพันธุกรรม / autoimmune เดียวกันอาจกลับเป็นซ้ำ",
-      "<b>Immune-privileged</b>: cornea, anterior chamber, brain, testis, placenta; กลไก = ไม่มีหลอดเลือด / lymphatic, ACAID, Fas ligand, TGF-β",
-      "Cornea: keratoplasty ไม่ต้อง HLA match ในรายความเสี่ยงต่ำ ใช้ topical steroid; high-risk = host cornea มี neovascularization หรือเคย graft ล้มเหลว",
-      "ในกลุ่ม solid organ ตับ tolerogenic ที่สุด",
-      "<b>แฝดไม่แท้ (dizygotic)</b> = พี่น้องทั่วไปทางพันธุกรรม: HLA ตรงทั้งหมด 25%, haploidentical 50%, ไม่ตรงเลย 25% → ต้อง HLA typing, crossmatch, DSA และ immunosuppression มาตรฐาน; ABO อาจต่างกันได้; เฉพาะ <b>แฝดแท้ (monozygotic)</b> เท่านั้นที่เป็น syngeneic"
-     ],
-     "pearls": [
-      "เลือก liver เพราะรู้ว่าเป็น solid organ ที่ reject น้อย — แต่ cornea ต่ำกว่าและไม่ต้องกดภูมิทั้งร่างกาย",
-      "คิดว่าแฝดทุกชนิดเข้ากันได้ — ต้องอ่านว่า identical หรือ non-identical (เคส MDCU79 RoD ไม่มีเฉลย คลังเติม ABO เดียวกันเพื่อให้เหลือ HLA mismatch)"
-     ],
-     "members": [
-      "MDCU78|RoA|Transplant 1",
-      "MDCU77|RoA|9",
-      "MDCU79|RoD|Transplantation and immunology 3"
-     ]
-    },
-    {
-     "id": "allorecognition",
-     "title": "Allorecognition: CD4+ T cell เป็นผู้รู้จัก alloantigen และสั่ง rejection",
-     "trend": "ถามว่าเซลล์ใดรู้จัก donor alloantigen (direct / indirect pathway) และเริ่ม rejection — คำตอบ CD4+ T cell",
-     "asked": [
-      "หลังปลูกไต recipient APC นำเสนอ donor peptide บน recipient MHC class II → เซลล์ที่รู้จัก alloantigen และ orchestrate rejection = <b>CD4+ T cell</b> (ตัวลวง neutrophil, NK cell, CD8+ T cell, regulatory T cell)",
-      "เซลล์ใดมีบทบาทกลางในการรู้จัก donor alloantigen ที่ APC นำเสนอและเริ่ม graft rejection → <b>CD4+ T cell</b> (ตัวลวง CD8+, regulatory T cell, NK cell, neutrophil)",
-      "หลังปลูกไต เซลล์ใดเป็นศูนย์กลางของการรู้จัก donor alloantigen ทั้ง direct และ indirect pathway → <b>CD4+ T cell</b> (ตัวลวง CD8+ T cell, B cell, NK cell, neutrophil)"
-     ],
-     "pattern": [
-      "<b>Allorecognition</b> 3 ทาง: <b>direct</b> (recipient T cell จำ intact donor MHC บน donor APC / passenger leukocyte; CD4 ผ่าน MHC II, CD8 ผ่าน MHC I; เด่นใน acute rejection ช่วงแรก), <b>indirect</b> (recipient APC เก็บ donor antigen แล้วนำเสนอ peptide บน self MHC II ให้ CD4+; กระตุ้น B cell สร้าง donor-specific antibody และเกี่ยวกับ chronic rejection), <b>semi-direct</b> (recipient APC ได้ intact donor MHC แล้วนำเสนอ)",
-      "<b>CD4+ helper T cell เป็นศูนย์กลาง</b>: หลั่ง IL-2 และ cytokine กระตุ้น CD8+ cytotoxic T cell, B cell (สร้าง alloantibody) และ macrophage; calcineurin inhibitor (tacrolimus, cyclosporine) ยับยั้งการสร้าง IL-2 และ basiliximab ต้าน IL-2 receptor (CD25) จึงออกฤทธิ์ที่แกนนี้",
-      "Recognition ผ่าน MHC class II = CD4; ถ้าถามเซลล์ที่ทำลาย graft โดยตรงใน acute cellular rejection → CD8+"
-     ],
-     "pearls": [
-      "เห็นคำว่า rejection แล้วตอบ CD8+ ตามภาพจำของ cytotoxic T cell — โจทย์ถาม recognition / orchestrate / initiate = CD4+; NK และ neutrophil เป็น innate ไม่ใช่เซลล์รู้จักแบบจำเพาะ",
-      "MDCU73 RoB และ RoC: ต้นฉบับมีแค่คำว่า 'allorecognition' ธนาคารแต่ง stem ให้เหลือ CD4+ ช้อยเดียว (RoB บรรยาย indirect pathway) — ถ้าโจทย์ถาม direct pathway ที่จำ MHC class I บน donor cell โดยตรง CD8+ ก็เป็น effector สำคัญ",
-      "MDCU72 RoA recall มีแค่คำว่า allorecognition + คำตอบ CD4 T cell คลังแต่ง stem เป็นเคสหลังปลูกไตและแต่งช้อย"
-     ],
-     "members": [
-      "MDCU73|RoB|79",
-      "MDCU73|RoC|97",
-      "MDCU72|RoA|84"
-     ]
-    },
-    {
-     "id": "immunosuppressant-adverse",
-     "title": "ผลข้างเคียงของยากดภูมิ (MMF, tacrolimus, cyclosporine)",
-     "trend": "จับคู่ผลข้างเคียงเด่นกับยา โดยมี CNI เป็นช้อยหลอก",
-     "asked": [
-      "เริ่ม mycophenolate mofetil → ผลข้างเคียงที่เป็นลักษณะเฉพาะ (bone marrow suppression)",
-      "ปลูกไต on tacrolimus มือสั่นสองข้าง Cr 4 → วินิจฉัย (tacrolimus toxicity)"
-     ],
-     "pattern": [
-      "<b>MMF</b>: GI (ท้องเสีย พบบ่อยสุด) และ <b>myelosuppression</b> (leukopenia, anemia, thrombocytopenia), teratogenic, CMV; ไม่ nephrotoxic ไม่ neurotoxic",
-      "<b>Tacrolimus</b>: nephrotoxicity (afferent arteriole หดตัว → Cr ขึ้นเฉียบพลัน), <b>neurotoxicity (tremor พบบ่อยสุด</b>, ปวดหัว, ชัก, PRES), hyperkalemia, hypomagnesemia, HT, <b>new-onset diabetes</b>",
-      "<b>Cyclosporine</b>: nephrotoxicity + <b>hirsutism, gingival hyperplasia</b>, hyperlipidemia",
-      "<b>Azathioprine</b>: myelosuppression, hepatotoxicity; ห้ามใช้คู่ allopurinol; ตรวจ TPMT",
-      "<b>mTOR inhibitor</b>: แผลหายช้า, lymphocele, hyperlipidemia, proteinuria, pneumonitis, mouth ulcer",
-      "<b>Steroid</b>: hyperglycemia, osteoporosis, AVN, ติดเชื้อ",
-      "Cr สูง + tremor → ตรวจ tacrolimus trough → ลดขนาด; ถ้า Cr ไม่ลงหลังระดับยาเหมาะสม ทำ graft biopsy แยก rejection"
-     ],
-     "pearls": [
-      "เห็นยากดภูมิแล้วตอบ nephrotoxic ทุกข้อไม่ได้ — MMF เด่นที่ GI และไขกระดูก",
-      "Tremor เป็นตัวชี้ให้คิดถึง CNI toxicity ก่อน rejection"
-     ],
-     "members": [
-      "MDCU78|RoB|3",
-      "MDCU78|RoD|Transplantation + Immunology 6"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Liver transplantation",
-   "sections": [
-    {
-     "id": "lt-indication-contra",
-     "title": "ข้อบ่งชี้ / ข้อห้ามของการปลูกตับ และเลือกผู้ป่วย",
-     "trend": "ให้ตัวเลือกผู้ป่วย 5 แบบ ถามคนที่ควรปลูก / ไม่ควรปลูก / ข้อใดไม่ใช่ข้อบ่งชี้ — ตัวตัดสินที่ซ้ำที่สุดคือ 'ยังดื่ม / ใช้สารเสพติดอยู่'",
-     "asked": [
-      "ผู้ป่วยรายใดเป็น first-line candidate → Child B + hepatorenal syndrome (ไม่ใช่ Child B ที่ยังดื่ม, HCC 8 cm, biliary atresia อายุ 2 เดือน, hepatoblastoma resectable)",
-      "ผู้ป่วยรายใดไม่ควรได้รับปลูกตับ → ยังใช้สารเสพติดอยู่",
-      "ผู้ป่วยรายใดได้ประโยชน์น้อยที่สุด → large hemangioma + Kasabach-Merritt (มีวิธีรักษาอื่น)",
-      "ส่งต่อปลูกตับ → HBV cirrhosis + HCC 3 cm (ไม่ใช่ Child C ที่ยังดื่มหนัก)",
-      "ข้อใดไม่ใช่ข้อบ่งชี้ปลูกตับ → cirrhosis ที่ยังดื่มสุราอยู่ (decompensated NASH, biliary atresia หลัง Kasai ล้มเหลว, decompensated HCV cirrhosis, acetaminophen ALF เป็นข้อบ่งชี้)",
-      "ผู้ป่วยรายใดเหมาะปลูกตับที่สุด → decompensated cirrhosis + variceal bleeding (ไม่ใช่ compensated MELD 8, ยังดื่มหนัก, HCC + lung mets, hilar CCA + peritoneal spread)",
-      "ผู้ป่วยรายใดมีข้อห้ามปลูกตับ → alcoholic cirrhosis ที่ยังดื่มอยู่ (ไม่ใช่ HCV / HBV cirrhosis viral load > 10^6, HBV cirrhosis อายุ 60–70 ปี, biliary atresia 6 เดือนหลัง Kasai ล้มเหลว) — ออกทั้ง MDCU71 RoA สองฉบับและ MDCU70 RoC"
-     ],
-     "pattern": [
-      "<b>ข้อบ่งชี้ผู้ใหญ่</b>: decompensated cirrhosis (ascites, variceal bleeding, HE, <b>HRS</b>, jaundice) ส่งประเมินเมื่อ MELD-Na ≥ 15; HCC ใน Milan; acute liver failure (<b>King's College criteria</b>); metabolic บางชนิด",
-      "<b>เด็ก</b>: <b>biliary atresia หลัง Kasai ล้มเหลว</b> พบบ่อยที่สุด (Kasai ก่อน 60 วัน); hepatoblastoma resectable ไม่ต้องปลูก, unresectable (POST-TEXT IV) ปลูกได้",
-      "<b>HRS</b>: AKI ใน cirrhosis ที่ไม่ตอบสนอง diuretic withdrawal + albumin; terlipressin + albumin เป็น bridge, <b>LT เป็นการรักษาหายขาด</b>",
-      "<b>ข้อห้าม</b>: active alcohol / substance use, extrahepatic malignancy, uncontrolled sepsis, severe cardiopulmonary disease (severe portopulmonary HTN), ขาด social support / non-adherence (AASLD / AST 2013)",
-      "ผู้ที่เคยดื่มแต่หยุดแล้ว (เช่น abstinent 1 ปี), HCV, NASH decompensated = ยังเป็นข้อบ่งชี้",
-      "<b>King's College (acetaminophen)</b>: pH < 7.3 หลัง resuscitation หรือ INR > 6.5 + Cr > 3.4 + HE grade III–IV",
-      "Kasabach-Merritt (kaposiform hemangioendothelioma / tufted angioma): รักษาด้วย sirolimus ± steroid, vincristine; giant hepatic hemangioma ผู้ใหญ่ผ่าตัดเมื่อมีอาการ; LT เป็นทางสุดท้าย",
-      "<b>Alcohol:</b> alcohol-associated liver disease เป็นข้อบ่งชี้ที่พบบ่อย — ข้อห้ามคือ <b>ยังดื่มอยู่ (current)</b>; ตำราเดิมใช้ abstinence >6 เดือน, AASLD 2019 ไม่ยึดกฎ 6 เดือนเคร่งครัด (severe alcoholic hepatitis ที่ไม่ตอบสนอง steroid ในศูนย์คัดเลือก) แต่การดื่มปัจจุบันห้ามเสมอ",
-      "<b>Decompensation</b> (ascites, variceal bleeding, HE, jaundice) → median survival ~2 ปี เทียบ >10 ปีใน compensated → ส่งประเมินเมื่อ decompensated หรือ MELD ≥15; compensated MELD ต่ำยังไม่ใช่ candidate; มะเร็งแพร่นอกตับ / CCA ลุกลาม = ข้อห้าม",
-      "<b>Viral load สูงไม่ใช่ข้อห้าม</b>: HBV → nucleos(t)ide analogue (tenofovir / entecavir) ก่อนปลูก + HBIG / NA หลังปลูกกัน recurrence; HCV → DAA ก่อนหรือหลังปลูก (SVR > 95%); <b>อายุ</b> ไม่มี cutoff ตายตัว (ประเมิน physiologic fitness และโรคร่วม)"
-     ],
-     "pearls": [
-      "Child C ที่ยังดื่มอยู่ = ข้อห้าม ไม่ใช่ candidate ที่ดีที่สุดแม้ตับแย่สุด",
-      "Drug-induced liver failure (เช่น acetaminophen ALF) เป็นข้อบ่งชี้ปลูกด่วน — สิ่งที่ห้ามคือยังใช้สารเสพติดอยู่",
-      "เห็นเด็กแล้วคิดว่าต้องได้ก่อน — biliary atresia ต้อง Kasai ก่อน",
-      "คำสำคัญคือ 'current / ongoing' drinking — อย่าตัด alcoholic cirrhosis ทั้งกลุ่ม และอย่าคิดว่า NASH ไม่ใช่ข้อบ่งชี้",
-      "เคส MDCU74 RoD recall ไม่ครบ (จดช้อยเดียว) คลังแต่งช้อยที่เหลือ",
-      "เลือก viral load สูงเพราะจำยุคก่อน DAA / NA ว่าไวรัสกลับมาทำลาย graft หรือเลือกอายุ 70 เพราะจำว่ามี age cutoff — แต่ละฉบับเปลี่ยนเพศ / อายุ / หน่วย viral load แต่ประเด็นเดิมคือยังดื่มอยู่"
-     ],
-     "members": [
-      "MDCU77|RoB|18",
-      "MDCU75|RoD|21",
-      "MDCU77|RoD|24",
-      "MDCU75|RoC|25",
-      "MDCU74|RoA|ไม่มีเลข 29",
-      "MDCU74|RoD|ไม่มีเลข 34",
-      "MDCU71|RoA|84",
-      "MDCU71|RoA|84b",
-      "MDCU70|RoC|24",
-      "MDCU72|RoC|81"
-     ]
-    },
-    {
-     "id": "orthotopic-graft-types",
-     "title": "ศัพท์ graft (orthotopic / heterotopic, auto- / iso- / allo- / xenograft) และชนิด graft ตับ (whole / split / living)",
-     "trend": "ถามชื่อเรียกตามตำแหน่ง graft (ถูกถามซ้ำหลายรอบ) หรือข้อความที่ถูกเกี่ยวกับ liver transplantation",
-     "asked": [
-      "ตัดตับเดิมแล้ววาง donor liver ตำแหน่งเดิม เรียกว่าอะไรตามตำแหน่ง graft → orthotopic",
-      "ข้อความใดถูกเกี่ยวกับ liver transplantation → ตับ deceased donor ผู้ใหญ่ 1 อันแบ่งเป็น 2 graft ได้ (ให้เด็กหนึ่งราย)",
-      "เด็กที่มีความผิดปกติแต่กำเนิดต้องปลูกตับ ข้อใดถูก → ตับผู้ใหญ่ 1 อัน split ให้ผู้รับ 2 คนได้ (ไม่ใช่ living donor เป็นส่วนใหญ่ทั่วโลก, deceased = cardiac death อย่างเดียว, ไม่ต้อง ABO, biliary atresia เป็นข้อบ่งชี้ที่พบน้อย)",
-      "ข้อใดเกี่ยวกับศัพท์ transplantation INCORRECT → <b>skin graft จากอีกส่วนของร่างกายเดียวกันเรียกว่า isograft</b> (ผิด; ต้องเป็น autograft) (ที่ถูก: liver ตำแหน่งเดิม = orthotopic, kidney ใน iliac fossa = heterotopic, ต่างสปีชีส์ = xenograft, ต่างพันธุกรรมในมนุษย์ = allograft)",
-      "นิยาม graft ข้อใด INCORRECT → orthograft = graft จากพี่น้องพ่อแม่เดียวกัน (ผิด; พี่น้องทั่วไป = allograft และ ortho- / orthotopic เป็นคำบอกตำแหน่ง) (ที่ถูก: autograft, isograft = พันธุกรรมเหมือนกัน, allograft = คนละพันธุกรรมสปีชีส์เดียวกัน, xenograft = ต่างสปีชีส์)"
-     ],
-     "pattern": [
-      "<b>Orthotopic</b> = ตัดอวัยวะเดิมแล้ววางตำแหน่งเดิม: liver, heart, lung; <b>heterotopic</b> = วางตำแหน่งอื่นโดยมักไม่ตัดของเดิม: kidney (iliac fossa), pancreas",
-      "แกนที่สอง (ตามผู้ให้): autograft / isograft / allograft / xenograft — ตับจากคนอื่นเป็น allograft ด้วย ต้องอ่านว่าโจทย์ถามแกนไหน",
-      "Liver (OLT) มักใช้ piggyback technique เก็บ IVC ผู้รับ; APOLT = ใส่ตับบางส่วนโดยคงตับเดิมไว้ (ALF ที่ตับเดิมอาจฟื้น)",
-      "<b>Split liver</b>: ตับ deceased donor 1 อัน → left lateral segment (II–III) ให้เด็ก + extended right lobe ให้ผู้ใหญ่ (หรือ full right / left split ให้ผู้ใหญ่ 2 คน); reduced-size = ตัดให้เล็กลงสำหรับผู้รับคนเดียว",
-      "Living donor: right lobe (ผู้ใหญ่), left lateral segment (เด็ก)",
-      "DBD = สมองตาย หัวใจยังเต้น; <b>DCD</b> = เก็บหลังหัวใจหยุด เสี่ยง ischemic cholangiopathy มากกว่า; <b>warm ischemia อันตรายกว่า cold ischemia</b> (ตับทน warm ได้ราว 30 นาที, cold ราว 8–12 ชม.)",
-      "ชนิดตามผู้ให้: <b>autograft</b> = ตัวเองไปตำแหน่งอื่นของตัวเอง (skin graft ปิดแผลไหม้, saphenous vein ใน CABG), <b>isograft / syngeneic</b> = แฝดเหมือน, <b>allograft</b> = คนละคนในสปีชีส์เดียวกัน, <b>xenograft (heterograft)</b> = ต่างสปีชีส์ (เช่น porcine valve); ตามตำแหน่ง: <b>orthotopic</b> = ที่เดิม (liver, heart, lung), <b>heterotopic</b> = ตำแหน่งอื่น (kidney ที่ iliac fossa, pancreas)"
-     ],
-     "pearls": [
-      "สะกด orthotopic (ถูก) ไม่ใช่ orthotropic",
-      "Allograft / allogeneic ก็ถูกในแง่ผู้ให้ — แต่โจทย์เติมคำว่า 'ตามตำแหน่ง' เพื่อให้เหลือ orthotopic",
-      "เลือก 'every deceased donor must be brain dead' ผิด เพราะมี DCD",
-      "Split liver ถูกถามซ้ำ (MDCU77 / MDCU74) — ตัวลวง: 'living donor เป็นส่วนใหญ่' (จริงในเอเชีย / ไทยโดยเฉพาะเด็ก แต่ไม่ใช่ทั่วโลก; คลังเติม 'worldwide'), 'ไม่ต้อง ABO' (ตับยังต้อง ABO compatible), 'biliary atresia พบน้อย' (เป็นข้อบ่งชี้ที่พบบ่อยที่สุดในเด็ก)",
-      "สับสน autograft กับ isograft และสับสน heterotopic (ตำแหน่ง) กับ heterograft (= xenograft, ต่างสปีชีส์); MDCU73 RoC: ต้นฉบับ C เขียน 'Kidney > heterograft' ซึ่งตามตำราผิดด้วย ธนาคารแก้เป็น heterotopic ให้เหลือช้อยผิดช้อยเดียว",
-      "เห็น siblings from the same parents แล้วคิดว่าพันธุกรรมเหมือน — เฉพาะแฝดแท้เท่านั้นเป็น isograft"
-     ],
-     "members": [
-      "MDCU76|RoA|23",
-      "MDCU75|RoD|22",
-      "MDCU75|RoD|27",
-      "MDCU78|RoC|Transplant 2",
-      "MDCU74|RoA|ไม่มีเลข 11",
-      "MDCU73|RoC|98",
-      "MDCU70|RoA|82"
-     ]
-    },
-    {
-     "id": "hcc-milan-lt",
-     "title": "HCC กับการปลูกตับ (Milan criteria, Child-Pugh)",
-     "trend": "HCC ก้อนเดียว 3–5 cm ใน cirrhosis ที่ Child B / C ถามการรักษาหรือผู้ที่ควรส่งปลูก",
-     "asked": [
-      "Child B, HCC เดี่ยว 4 cm segment VIII → liver transplantation",
-      "Child B HBV cirrhosis, HCC เดี่ยว 4 cm ไม่มี vascular invasion → liver transplantation (ไม่ใช่ resection)",
-      "Child C, HCC เดี่ยว 5 cm ไม่มี vascular invasion / extrahepatic spread → liver transplantation",
-      "เลือกผู้ป่วยที่ควรส่งปลูกตับ → HBV cirrhosis + HCC 3 cm",
-      "ผู้ป่วย 60 ปีรายใดควรส่งประเมินปลูกตับ → HBV cirrhosis + HCC เดี่ยว 3 cm (ไม่ใช่ Child A จาก HBV / HCV / cryptogenic ที่ไม่มี HCC หรือ Child C ที่ยังดื่มหนัก) — MDCU72 RoC"
-     ],
-     "pattern": [
-      "<b>Milan criteria</b>: ก้อนเดียว ≤ 5 cm หรือ ≤ 3 ก้อนแต่ละก้อน ≤ 3 cm, ไม่มี macrovascular invasion, ไม่มี extrahepatic spread → 5-year survival หลัง LT ราว 70%, recurrence ต่ำ",
-      "<b>UCSF</b>: ก้อนเดียว ≤ 6.5 cm หรือ ≤ 3 ก้อน (ใหญ่สุด ≤ 4.5 cm รวม ≤ 8 cm)",
-      "<b>Resection</b> เหมาะเฉพาะ Child-Pugh A + bilirubin ปกติ + ไม่มี clinically significant portal hypertension (HVPG ≥ 10, varices, plt < 100,000 + ม้ามโต) + FLR ≥ 40% ใน cirrhosis",
-      "<b>ใน Milan แต่ Child B–C หรือมี portal HT → LT</b> เพราะรักษาทั้งมะเร็งและ cirrhosis; Child C + เกิน Milan → best supportive care (BCLC D)",
-      "BCLC 2022: 0 (≤ 2 cm) → ablation / resection; A → resection / LT / ablation; B → TACE (หรือ LT ถ้า downstage); C → systemic (atezolizumab + bevacizumab, durvalumab + tremelimumab); D → BSC",
-      "รอ LT นาน / ก้อนเกิน Milan → bridging หรือ downstaging ด้วย TACE / ablation; HCC ใน Milan ได้ MELD exception points",
-      "HBV-related HCC ให้ tenofovir / entecavir ทุกราย; surveillance ด้วย US ± AFP ทุก 6 เดือน",
-      "<b>Child A ที่ไม่มี HCC และไม่มี decompensation ยังไม่ต้องส่งปลูก</b> — ติดตาม + HCC surveillance; สองกลุ่มหลักที่ส่ง: decompensated cirrhosis / MELD ≥ 15 และ HCC ใน Milan"
-     ],
-     "pearls": [
-      "เห็น single small HCC แล้วตอบ resection อัตโนมัติไม่ได้ — ต้องดู Child-Pugh และ portal hypertension ก่อน",
-      "เคส 77C ข้อ HCC 4 cm: key V.1 ตอบ resection แต่ V.2 / คลังตอบ LT; ถ้าเป็น Child A ไม่มี portal HT คำตอบคือ resection",
-      "เห็น Child C แล้วตอบเพราะตับแย่สุด — ยังดื่มอยู่ = ข้อห้าม (ลายมือ X ทับคำ heavy ในเฉลย MDCU72 RoC)"
-     ],
-     "members": [
-      "MDCU77|RoA|14",
-      "MDCU77|RoC|16.2",
-      "MDCU77|RoD|22",
-      "MDCU75|RoC|25",
-      "MDCU72|RoC|81"
-     ]
-    },
-    {
-     "id": "liver-matching",
-     "title": "การจับคู่และจัดสรรตับ: ABO + ขนาด + MELD ไม่ต้อง HLA / crossmatch",
-     "trend": "ถามว่าตับต้องการอะไรเมื่อจับคู่ หรือสิ่งใด NOT required ต่างจากไต",
-     "asked": [
-      "จับคู่ donor liver ต้องดูอะไร → ABO compatibility",
-      "ก่อนปลูกตับสิ่งใดไม่จำเป็น → HLA typing และ crossmatch",
-      "ประเมินผู้ป่วย end-stage liver disease เพื่อปลูกตับ สิ่งใดไม่ต้องพิจารณา → HLA typing (ABO, infectious serology, cardiopulmonary, psychosocial ต้องประเมิน)",
-      "เรื่อง access to medical services ข้อใดถูก → liver allocation ขึ้นกับ waiting list และ MELD score (ไม่ใช่ OPD ตามที่แพทย์ขอ / ICU มาก่อนได้ก่อน / เรียกร้อง refer โดยไม่สนความเห็นแพทย์ / สิทธิได้การรักษาที่แพงที่สุด)"
-     ],
-     "pattern": [
-      "ตับเป็น <b>immune-privileged / immunologically privileged organ</b>: ทน hyperacute และ AMR ได้ดี (ขนาดใหญ่, dual blood supply, Kupffer cell กรอง immune complex, soluble HLA class I) → <b>ไม่ต้อง HLA matching ไม่ต้อง prospective crossmatch</b>",
-      "จัดสรรด้วย <b>ABO compatibility + ขนาดตับ + ความรุนแรง (MELD / PELD, sickest first)</b>; cold ischemia จำกัดจึงรอผล HLA ไม่ได้",
-      "ไต: ABO + HLA typing + crossmatch (CDC / flow) + PRA / DSA",
-      "Pretransplant workup ตับ: ABO, MELD, imaging (CT / MRI), infectious serology + TB + วัคซีน, cardiopulmonary (echo, HPS, portopulmonary HTN, CAD), psychosocial, nutrition, dental, cancer screening",
-      "ABO-incompatible LT ทำได้ในภาวะฉุกเฉินหรือ LDLT ร่วมกับ desensitization แต่เสี่ยง AMR, hepatic artery thrombosis, ischemic cholangiopathy",
-      "LDLT: graft-to-recipient weight ratio ≥ 0.8% เพื่อเลี่ยง small-for-size syndrome",
-      "<b>Distributive justice</b>: จัดสรรทรัพยากรจำกัดตามความจำเป็นทางการแพทย์ ความเร่งด่วน และประโยชน์ที่คาดหวัง ด้วยเกณฑ์โปร่งใส — ตับใช้ <b>MELD (MELD-Na / MELD 3.0) = sickest first</b> ร่วมกับ ABO ขนาด และเวลารอ; ICU triage ตามความรุนแรงและโอกาสได้ประโยชน์ ไม่ใช่มาก่อนได้ก่อน",
-      "MELD = bilirubin + INR + creatinine (± Na, albumin, เพศใน MELD 3.0) ทำนาย 90-day mortality; PELD ในเด็ก < 12 ปี"
-     ],
-     "pearls": [
-      "เอาหลักไต (ABO + HLA + crossmatch) มาใช้กับตับ = กับดักหลัก",
-      "เคส 76D แทนช้อย Rh เดิมด้วย infectious serology เพื่อให้เหลือคำตอบเดียวคือ HLA typing / crossmatch",
-      "Rh ก็ไม่ใช่ตัวจับคู่อวัยวะ — MDCU70 RoB คลังแทนช้อย Rh ด้วย infectious serology ให้เหลือคำตอบเดียว (เหมือนเคส 76D)",
-      "สิทธิขอ second opinion / เปลี่ยนสถานพยาบาลมีจริง แต่ไม่ใช่การเรียกร้องให้ส่งต่อหรือรักษาตามใจโดยไม่มีข้อบ่งชี้; เคส access to services ติด tag Professionalism & ethics ด้วย"
-     ],
-     "members": [
-      "MDCU76|RoA|22",
-      "MDCU76|RoD|53",
-      "MDCU70|RoB|ไม่มีเลข 1",
-      "MDCU70|RoB|87"
-     ]
-    },
-    {
-     "id": "lt-psc-biliary-atresia",
-     "title": "โรคทางเดินน้ำดีที่รักษาหายขาดด้วยปลูกตับ: PSC และ biliary atresia ที่มาช้า",
-     "trend": "ถาม definitive / most appropriate treatment — ตัวลวงคือการรักษาประคับประคอง ยา หรือ Kasai",
-     "asked": [
-      "ชาย 35 ปี PSC มี diffuse biliary strictures → definitive treatment = liver transplantation (ไม่ใช่ endoscopic balloon dilation / liver resection / immunosuppressive medication / best supportive care)",
-      "Cirrhosis จาก PSC → most appropriate treatment = liver transplantation (ไม่ใช่ UDCA / systemic corticosteroid / duct resection + bypass / total proctocolectomy)",
-      "ทารก 6 เดือน biliary atresia ตัวเหลืองมาก US เห็น cirrhosis + splenomegaly + ascites → liver transplantation (ไม่ใช่ Kasai portoenterostomy / UDCA / PTBD / cholecystectomy)"
-     ],
-     "pattern": [
-      "<b>PSC</b>: fibrosing inflammation ของ intra- และ extrahepatic bile duct (beading บน MRCP), ชายวัยกลางคน, สัมพันธ์ <b>ulcerative colitis</b> (ราว 70%), p-ANCA; เสี่ยง cholangiocarcinoma, gallbladder cancer, colorectal cancer",
-      "ไม่มียาที่เปลี่ยนการดำเนินโรค: <b>UDCA ไม่เพิ่ม survival</b> (ขนาดสูงเป็นอันตราย), steroid / immunosuppressant ไม่ได้ผล (ยกเว้น IgG4-related sclerosing cholangitis ที่ต้องแยก); dominant stricture → ERCP balloon dilation + brushing cytology (ประคับประคอง)",
-      "<b>Liver transplantation = definitive</b> เมื่อ decompensated cirrhosis / MELD สูง, recurrent bacterial cholangitis, intractable pruritus; 5-year survival > 80%, PSC กลับเป็นซ้ำใน graft ราว 20%; colectomy รักษา UC ไม่ใช่ PSC",
-      "<b>Biliary atresia</b>: Kasai portoenterostomy ได้ผลดีที่สุดเมื่อทำ <b>ก่อน 60 วัน</b>; มาช้าและมี cirrhosis + portal hypertension (ม้ามโต ascites) แล้ว → <b>primary LT</b>; Kasai ล้มเหลว (ยังเหลือง, cholangitis ซ้ำ, ตับวาย) → LT — biliary atresia = ข้อบ่งชี้ LT ที่พบบ่อยที่สุดในเด็ก"
-     ],
-     "pearls": [
-      "เห็นคำว่า stricture แล้วตอบ endoscopic dilation — โจทย์ถาม definitive และ stricture เป็น diffuse",
-      "เลือก UDCA เพราะใช้ใน PBC ได้ผล — ใน PSC ไม่ช่วย survival; เลือก steroid เพราะสับสนกับ IgG4 / autoimmune hepatitis",
-      "เห็น biliary atresia แล้วตอบ Kasai อัตโนมัติ — ดูอายุและสภาพตับ; MDCU72 RoC คลังเติม cirrhosis / splenomegaly / ascites ใน stem และแต่งช้อย C–E (บางศูนย์ยังทำ Kasai ใน late presenter ที่ตับยังไม่แข็ง)",
-      "ติด tag Jaundice / Liver ด้วย"
-     ],
-     "members": [
-      "MDCU71|RoA|7",
-      "MDCU70|RoA|73",
-      "MDCU72|RoC|85"
-     ]
-    },
-    {
-     "id": "slk-hrs-vs-ckd",
-     "title": "ตับวาย + ไตวาย: liver transplant อย่างเดียว (HRS) หรือ combined liver–kidney (CKD)",
-     "asked": [
-      "ชาย 52 ปี decompensated alcohol-related cirrhosis (ascites ซ้ำ, HE, varices, bilirubin สูงมาก) Cr 6.1 eGFR 20 ต่ำกว่า 30 นาน >3 เดือน ไตเล็ก echogenic หยุดสุรา 1 ปี → combined liver and kidney transplant (ไม่ใช่ LT + peritoneal dialysis, ยารักษาตับ + KT, ยา + PD)"
-     ],
-     "pattern": [
-      "<b>HRS</b> (AKI เชิงหน้าที่ใน cirrhosis) ไตฟื้นได้หลังเปลี่ยนตับ → <b>liver transplant อย่างเดียว</b> (terlipressin + albumin เป็น bridge)",
-      "<b>CKD ที่ไม่ฟื้น</b> → <b>simultaneous liver–kidney (SLK)</b> ตามเกณฑ์ OPTN / UNOS 2017: (1) CKD — eGFR ≤60 นาน ≥90 วัน และ eGFR ≤30 ขณะลงทะเบียน; (2) sustained AKI — ฟอกไต ≥6 สัปดาห์ หรือ eGFR ≤25 นาน ≥6 สัปดาห์; (3) metabolic disease บางโรค (primary hyperoxaluria, atypical HUS, familial amyloidosis, methylmalonic acidemia)",
-      "เบาะแสไตเรื้อรัง: ระยะเวลา ≥3 เดือน, ไตเล็ก echogenic บน US; abstinence ที่ยืนยันได้แสดงความพร้อมของผู้รับ"
-     ],
-     "pearls": [
-      "เห็นตับวาย + ไตวายแล้วตอบ HRS → LT อย่างเดียว — ต้องดูระยะเวลาและขนาดไต",
-      "เคส MDCU79 RoC คลังเติมระยะเวลาไตเสื่อมและผล US เพราะต้นฉบับให้แค่ Cr 6.1 / eGFR 20 ซึ่งถ้าเป็น HRS เฉียบพลันคำตอบจะเป็น LT อย่างเดียว"
-     ],
-     "members": [
-      "MDCU79|RoC|คิดไม่ออกว่าอยู่บทไหน ไม่มีเลข 5"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Donor: สมองตาย, การจัดการ, ข้อห้าม และกฎหมาย / จริยธรรม",
-   "sections": [
-    {
-     "id": "donor-contraindication",
-     "title": "ข้อห้าม / ความเหมาะสมของผู้บริจาค (HIV, malignancy, HCV, HTN)",
-     "trend": "ถามผู้ให้ที่เป็น / ไม่เป็นข้อห้าม — melanoma, HIV, CJD, สาเหตุตายไม่ทราบ = ห้าม; HT, อายุมาก, infection ที่รักษาแล้ว, HCV (มี DAA) = บริจาคได้",
-     "asked": [
-      "ใครไม่ใช่ข้อห้ามการบริจาค solid organ → persistent hypertension (ไม่ใช่ HIV, melanoma, CJD, active disseminated TB)",
-      "brain-dead donor HCV RNA บวก → ให้ผู้รับที่เหมาะสมแล้วรักษาด้วย antiviral (DAA)",
-      "ผู้บริจาคที่เสียชีวิตไม่ทราบสาเหตุ + Acinetobacter baumannii infection ที่ได้ยาเหมาะสมแล้ว → ปัจจัยที่ห้ามบริจาค: unknown cause of death (ไม่ใช่ active infection ที่รักษาแล้ว, อายุ >60, HT, หมู่เลือด AB)",
-      "ผู้ป่วยสมองตายประเมินบริจาค สิ่งใดเป็นข้อห้าม → melanoma ที่น่อง (ไม่ใช่ skin infection, vasopressor ขนาดต่ำ, บาดเจ็บหลายระบบ, เพิ่งฉีดวัคซีนไข้หวัดใหญ่)",
-      "Potential deceased donor ข้อใดไม่ใช่ข้อห้าม → prolonged hypertension (HIV, malignant melanoma, metastatic breast cancer, CJD เป็นข้อห้าม) — MDCU70 RoA",
-      "ข้อใดไม่ใช่ absolute contraindication ของ organ donation → diabetes mellitus (history of melanoma, severe septicemia, CJD, metastatic breast cancer เป็น absolute)",
-      "หญิง 50 ปี low-grade astrocytoma บาดเจ็บจนสมองตาย ตรวจปกติยกเว้น Na 165 → บริจาคได้ เพราะ Na สูงแก้ไขได้ (ไม่ใช่ Na ไม่มีผล / hypernatremia เป็นข้อห้าม / brain tumor เป็นข้อห้าม / ไม่ควรติดต่อญาติตอนนี้)"
-     ],
-     "pattern": [
-      "<b>ข้อห้ามสัมบูรณ์ ('CHUMP')</b>: CJD (prion), active HIV (บริบททั่วไป), uncontrolled infection / sepsis ไม่ทราบเชื้อ, metastatic หรือ non-curable malignancy, past malignancy ที่ถ่ายทอดสูง (<b>melanoma</b>, choriocarcinoma), active disseminated TB",
-      "<b>ไม่ใช่ข้อห้าม (ต้อง risk assess)</b>: HT, DM, อายุมาก, AKI, localised tumour, treated infection, primary CNS tumor ส่วนใหญ่ (ยกเว้น high grade / เคยผ่าตัดหรือ shunt), non-melanoma skin cancer",
-      "HT / DM / อายุมาก / Cr สูงจาก AKI ลดคุณภาพไต (expanded criteria donor, KDPI สูง) แต่ยังใช้ได้",
-      "<b>HCV-viremic donor</b> (RNA บวก) ยุค DAA: ให้ผู้รับ HCV-negative ได้ (ไต หัวใจ ปอด ตับ) เมื่อมี informed consent แล้วให้ DAA 8–12 สัปดาห์หลังปลูก → SVR เกือบ 100% (KDIGO HCV 2022); HCV Ab บวกแต่ RNA ลบ = เคยติดแล้วหาย ความเสี่ยงต่ำมาก",
-      "HBV+ donor: ผู้รับที่มีภูมิหรือให้ prophylaxis; HIV+ donor → HIV+ recipient ได้ใน HOPE Act (สหรัฐฯ)",
-      "<b>สาเหตุการตายที่ไม่ทราบ = ข้อห้าม</b> เพราะอาจซ่อนโรคถ่ายทอดสู่ผู้รับ: encephalitis จากไวรัส (rabies, West Nile, LCMV), prion, มะเร็งที่ยังไม่วินิจฉัย, พิษ; ส่วน <b>bacterial infection ที่ทราบเชื้อและได้ยาเหมาะสม</b> (≥24–48 ชม. + ผู้รับได้ยาต่อ) ส่วนใหญ่บริจาคได้ — MDR (carbapenem-resistant Acinetobacter) เป็น relative contraindication พิจารณารายกรณี",
-      "<b>Melanoma</b> (ปัจจุบันหรือเคยเป็น) ถ่ายทอดผ่านอวัยวะได้สูงมากแม้รักษาหลายปีแล้ว; ยกเว้นมะเร็งที่ไม่ห้าม: BCC, SCC ผิวหนังที่ไม่แพร่, carcinoma in situ, primary CNS tumor บางชนิด; vasopressor / multiple trauma ไม่ใช่ข้อห้าม",
-      "<b>Primary CNS tumor</b> แทบไม่แพร่นอกสมอง → low-grade บริจาคได้; ความเสี่ยงสูงขึ้นใน high grade (glioblastoma, medulloblastoma) หรือเคยผ่าตัด / ฉายแสง / VP shunt",
-      "<b>Donor hypernatremia</b> (Na > 155–160 จาก central DI) สัมพันธ์กับ graft ตับทำงานไม่ดี → <b>แก้ก่อนเก็บอวัยวะ</b> (DDAVP / vasopressin + free water) ไม่ใช่ข้อห้าม",
-      "DM / HT เรื้อรัง = relative (ประเมินรายอวัยวะ เช่น ไตดู biopsy / KDPI, ตับอ่อนจากผู้ป่วย DM ใช้ไม่ได้); severe septicemia ที่ยังไม่ควบคุม = ห้าม"
-     ],
-     "pearls": [
-      "จำตำราเก่า 'HCV-positive donor ให้ได้แค่ HCV-positive recipient' ไม่ได้แล้ว — คีย์ต้นฉบับ (A) ผิดตามหลักฐานปัจจุบัน คลังตอบ B",
-      "ใช้เกณฑ์ผู้บริจาคเลือดหรือ 'สุขภาพดี' มาตัดสินผู้บริจาคอวัยวะ — ผู้บริจาคหลังเสียชีวิตเป็นผู้สูงอายุ เป็น HT, DM ได้",
-      "Cornea เป็น immune-privileged ไม่ต้อง HLA แต่ donor ที่ติด HIV, HBV, HCV ถูกคัดออก",
-      "เห็น 'active infection' แล้วตอบทันที — infection ที่ทราบเชื้อและรักษาแล้วบริจาคได้; ที่อันตรายจริงคือสิ่งที่ไม่รู้ (MDCU79 RoC)",
-      "Melanoma ที่น่องไม่ใช่ 'แค่โรคผิวหนัง' — ข้อห้ามที่ออกซ้ำตั้งแต่ MDCU76 จนถึง MDCU79",
-      "MDCU70 RoA: คีย์ในไฟล์วง CJD แต่คลังตอบ prolonged hypertension — CJD (prion) เป็นข้อห้ามเด็ดขาด; คลังเติม stem เป็นบริบทผู้บริจาคเพราะต้นฉบับกำกวมว่าผู้ให้หรือผู้รับ",
-      "เห็น astrocytoma แล้วตอบมะเร็งเป็นข้อห้าม หรือคิดว่า electrolyte ไม่เกี่ยว — โจทย์ถาม 'และทำไม' ต้องเลือกเหตุผลที่ถูก",
-      "คิดว่าเบาหวานทำให้อวัยวะเสียหมดจึงห้าม — เป็น relative; คิดว่ามะเร็งที่รักษาหายแล้วทุกชนิดบริจาคได้ — melanoma ไม่ได้"
-     ],
-     "members": [
-      "MDCU76|RoA|30",
-      "MDCU78|RoD|Transplantation + Immunology 1",
-      "MDCU79|RoC|Transplantation and immunology 2",
-      "MDCU79|RoD|Transplantation and immunology 4",
-      "MDCU70|RoA|85",
-      "MDCU70|RoB|68",
-      "MDCU70|RoC|23"
-     ]
-    },
-    {
-     "id": "organ-sources",
-     "title": "อวัยวะไหนบริจาคจากคนเป็น / คนตายได้ และอวัยวะที่ปลูกบ่อยสุด",
-     "trend": "ถามอวัยวะที่ living donor ให้ไม่ได้ (cornea) หรืออวัยวะที่ปลูกบ่อยที่สุด (kidney)",
-     "asked": [
-      "อวัยวะใดปลูกจาก living donor ไม่ได้ → cornea (MDCU77 / MDCU78)",
-      "อวัยวะใดถูกเก็บจาก deceased donor บ่อยที่สุด → kidney",
-      "อวัยวะหรือเนื้อเยื่อใดรับจาก living donor ไม่ได้ → cornea (kidney, liver, lung lobe, small bowel segment ได้) — MDCU79 RoD ถามซ้ำเป็นรอบที่สาม"
-     ],
-     "pattern": [
-      "<b>Living donor ได้</b>: ไต (บ่อยสุด), ตับบางส่วน (right lobe ผู้ใหญ่ / left lateral segment เด็ก), ปอด lobe (ใช้ผู้ให้ 2 คน), ลำไส้เล็กบางส่วน, distal pancreas, มดลูก",
-      "<b>Deceased donor เท่านั้น</b>: cornea (เอาออกแล้วผู้ให้ตาบอด), หัวใจ, ปอดทั้งข้าง, ตับอ่อนทั้งอวัยวะ",
-      "Cornea รับบริจาคจากผู้ที่หัวใจหยุดเต้นแล้วได้ (ไม่ต้องสมองตาย); ในไทยผ่านศูนย์ดวงตา สภากาชาดไทย",
-      "<b>ไต</b> = อวัยวะที่ปลูกมากที่สุดทั่วโลกและในไทย (deceased donor 1 ราย ให้ไต 2 ข้าง, waiting list ยาวสุด); ตับอันดับสอง",
-      "Cold ischemia โดยประมาณ: หัวใจ 4–6 ชม. < ปอด 6–8 < ตับ 8–12 < ตับอ่อน 12–18 < ไต 24–36 ชม.",
-      "Deceased donor หนึ่งรายให้: ไต 2, ตับ 1 (split ได้ 2), หัวใจ 1, ปอด 2, ตับอ่อน 1, ลำไส้ 1 + tissue (cornea, กระดูก, ผิวหนัง, ลิ้นหัวใจ)"
-     ],
-     "pearls": [
-      "ลังเลกับปอด / ลำไส้ / ตับอ่อนเพราะไม่คุ้นว่าบริจาคจากคนเป็นได้ — ทั้งหมดบริจาคบางส่วนได้",
-      "เคส 16.1 ของ 77C: V.1 ตอบ kidney, V.2 ระบายตับ — คลังตอบ kidney",
-      "หัวใจ และ cornea คือกลุ่มที่เอาจากคนเป็นไม่ได้"
-     ],
-     "members": [
-      "MDCU77|RoC|15",
-      "MDCU78|RoC|Transplant 1",
-      "MDCU77|RoC|16.1",
-      "MDCU78|RoC|Transplant 2",
-      "MDCU79|RoD|Transplantation and immunology 2"
-     ]
-    },
-    {
-     "id": "thai-living-donor-ethics",
-     "title": "ผู้บริจาคที่มีชีวิตตามข้อบังคับแพทยสภา และ organ shortage",
-     "trend": "ถามว่าความสัมพันธ์แบบใดบริจาคไม่ได้ หรือปัญหาหลักของวงการปลูกถ่าย",
-     "asked": [
-      "ทุกคนสมัครใจไม่มีค่าตอบแทน สามีภรรยาอยู่กินกันโดยไม่จดทะเบียน 1 ปี ไม่มีบุตร → การบริจาคใดไม่ได้ตามแพทยสภา (ภรรยาบริจาคไตให้สามี)",
-      "ปัญหาสำคัญที่สุดของ transplantation ทั่วโลกคือ → organ shortage (ไม่ใช่ organ trafficking)",
-      "ปัญหาที่ใหญ่ที่สุดของ organ transplantation ทั่วโลก → organ shortage (ไม่ใช่ regional beliefs / ค่ายากดภูมิ / early rejection / infectious complications) — MDCU70 RoB"
-     ],
-     "pattern": [
-      "<b>ข้อบังคับแพทยสภา (ฉบับที่ 4) พ.ศ. 2553</b> ผู้บริจาคที่มีชีวิตต้องเป็น (1) เครือญาติที่มีความสัมพันธ์ทางพันธุกรรม (2) <b>คู่สมรสโดยชอบด้วยกฎหมาย</b> หรืออยู่กินฉันสามีภรรยาโดยเปิดเผยมาแล้ว <b>อย่างน้อย 3 ปี</b> (มีบุตรร่วมสายโลหิตไม่ต้องรอ 3 ปี, พิสูจน์ด้วย DNA ได้) (3) ผู้ที่ได้รับปลูกถ่ายแล้วบริจาคอวัยวะเดิมที่ตัดออก",
-      "ข้อพิพาทเรื่องความสัมพันธ์ให้ศูนย์รับบริจาคอวัยวะ สภากาชาดไทยวินิจฉัย; ต้องไม่มีการซื้อขาย / ผลประโยชน์ตอบแทน; ผู้ให้ให้ informed consent เป็นลายลักษณ์อักษรด้วยความสมัครใจ",
-      "ลูก → แม่, พ่อ → ลูก, ลุงหรือน้า → หลาน, ญาติสายเลือดอื่น = เครือญาติทางพันธุกรรมบริจาคได้",
-      "<b>Declaration of Istanbul</b> (2008, ปรับปรุง 2018): ประณาม organ trafficking และ transplant tourism, ส่งเสริมการพึ่งตนเองด้านอวัยวะ, คุ้มครองผู้ให้",
-      "<b>Organ shortage</b> = ปัญหารากที่ผลักดันให้เกิด trafficking; แนวทางแก้: เพิ่ม deceased donation (DBD / DCD, transplant coordinator, opt-in / opt-out), expanded criteria donor, living donation ที่ปลอดภัย, paired kidney exchange, machine perfusion"
-     ],
-     "pearls": [
-      "คิดว่า 'สามีภรรยา' บริจาคให้กันได้เสมอ — ต้องจดทะเบียนหรืออยู่กินเปิดเผย ≥ 3 ปี (หรือมีบุตรร่วมกัน) เพื่อกันการแต่งงานบังหน้าซื้อขายอวัยวะ",
-      "เลือก organ trafficking เพราะเป็นข่าวดัง — trafficking เป็นผลของ shortage",
-      "ต้นฉบับทุกช้อยบริจาคได้หมด คลังเติมเงื่อนไขใน stem ให้เหลือคำตอบเดียว",
-      "คิดในมุมผู้ป่วยรายคน (rejection, infection) แทนระดับระบบ"
-     ],
-     "members": [
-      "MDCU77|RoB|16 (เลขซ้ำ ชุดหลัง)",
-      "MDCU77|RoC|17.1",
-      "MDCU70|RoB|66"
-     ]
-    },
-    {
-     "id": "brain-death-diagnosis",
-     "title": "การวินิจฉัยสมองตายและขั้นตอนเริ่มต้นของ deceased donation",
-     "trend": "เคส brainstem reflex หาย แต่มีตัวรบกวน (hypothermia) หรือถามขั้นแรกใน potential donor",
-     "asked": [
-      "เด็ก 8 ปีจมน้ำ อุณหภูมิ 30 °C ไม่มี brainstem reflex → warm and re-evaluate (ไม่ใช่ declare brain death)",
-      "head injury รุนแรงใน ICU เป็น potential donor → ขั้นแรกคือยืนยันสมองตายตามเกณฑ์มาตรฐาน (ไม่ใช่ HLA matching / crossmatch)"
-     ],
-     "pattern": [
-      "<b>Prerequisites ก่อนตรวจ</b>: ทราบสาเหตุที่ทำให้สมองเสียหายถาวร; ตัดตัวรบกวน — <b>hypothermia</b> (core temp ≥ 36 °C ตาม AAN / AAP / CNS / SCCM 2023), ยากดประสาท / neuromuscular blocker, metabolic / endocrine ผิดปกติรุนแรง, shock (SBP ≥ 100 หรือ MAP ≥ 75 ในผู้ใหญ่)",
-      "หลัง hypoxic-ischemic injury (cardiac arrest, จมน้ำ) รออย่างน้อย 24 ชม. ก่อนตรวจ",
-      "<b>การตรวจ</b>: coma ไม่ตอบสนองต่อความเจ็บปวด + ไม่มี brainstem reflexes (pupil, corneal, oculocephalic, oculovestibular, gag, cough) + <b>apnea test</b> (PaCO₂ ≥ 60 mmHg และเพิ่ม ≥ 20 จาก baseline, pH ≤ 7.30 โดยไม่มีการหายใจเอง)",
-      "Ancillary test (cerebral blood flow study, EEG) ใช้เมื่อตรวจทางคลินิกหรือ apnea test ไม่ครบ / มีปัจจัยรบกวน",
-      "เด็ก: ตรวจ 2 ครั้งโดยแพทย์ต่างคน ห่างกันอย่างน้อย 12 ชม. (ตามเกณฑ์ที่คลังอ้าง)",
-      "<b>ผู้วินิจฉัยต้องไม่ใช่ทีมปลูกถ่าย</b> (conflict of interest); ในไทยปฏิบัติตามประกาศแพทยสภาเรื่องเกณฑ์วินิจฉัยสมองตาย",
-      "<b>ลำดับ DBD</b>: ระบุ potential donor → วินิจฉัยสมองตาย → แจ้งญาติและขอความยินยอม (ทีมแยกจากทีมรักษา) → donor management → ตรวจ ABO, HLA, serology → allocation + crossmatch → organ retrieval; จัดสรรผ่านศูนย์รับบริจาคอวัยวะ สภากาชาดไทย"
-     ],
-     "pearls": [
-      "เห็น absent brainstem reflexes แล้วประกาศสมองตายเลยไม่ได้ — ตรวจ prerequisites (อุณหภูมิ ยา metabolic ความดัน) ก่อนเสมอ",
-      "เกณฑ์เก่าบางแห่งใช้ อุณหภูมิ > 32 °C ตามที่คีย์เขียน แต่เกณฑ์ปัจจุบันให้ ≥ 36 °C",
-      "HLA matching / crossmatch มาหลังยืนยันการเสียชีวิตและขอความยินยอม"
-     ],
-     "members": [
-      "MDCU77|RoB|62",
-      "MDCU78|RoC|Transplant 3"
-     ]
-    },
-    {
-     "id": "donor-management",
-     "title": "Donor management ในผู้บริจาคสมองตาย",
-     "trend": "hypotension + polyuria + Na สูง ถามชุดยาที่เหมาะสม",
-     "asked": [
-      "brain-dead donor hypotensive, polyuria มาก, serum Na สูง → 0.9% NaCl + desmopressin + norepinephrine",
-      "Brain-dead donor ที่ผิดปกติอย่างเดียวคือ Na 165 → ยังบริจาคได้ แก้ Na ก่อนเก็บอวัยวะ (MDCU70 RoC)"
-     ],
-     "pattern": [
-      "Pathophysiology: ช่วงแรก <b>catecholamine storm</b> → ต่อด้วย loss of sympathetic tone (vasodilation, hypotension), <b>central DI</b>, hypothermia, coagulopathy, hyperglycemia, neurogenic pulmonary edema",
-      "เป้าหมาย: MAP ≥ 60–65 mmHg, urine 0.5–3 mL / kg / h, Na ไม่เกินราว 155 mmol / L, normothermia, lung-protective ventilation (rule of 100 แบบเดิม: SBP > 100, urine > 100 mL / h, PaO₂ > 100)",
-      "<b>Hypotension</b>: crystalloid ก่อน → vasopressor (norepinephrine, dopamine, vasopressin)",
-      "<b>Central DI</b> (polyuria + urine เจือจาง + hypernatremia): <b>desmopressin (DDAVP)</b> หรือ vasopressin infusion (ช่วยทั้ง DI และความดัน) + ทดแทน free water",
-      "Hormonal resuscitation: levothyroxine (instability / LVEF ต่ำ), methylprednisolone, insulin คุมน้ำตาล"
-     ],
-     "pearls": [
-      "จำได้ว่า steroid + thyroid hormone ใช้ใน donor แล้วเลือกช้อยนั้น — ต้องดูปัญหาเด่น: ปัสสาวะมาก + Na สูง = DI → DDAVP",
-      "คีย์เดิมกำกวม ('AADVP' น่าจะ DDAVP) คลังเติม stem ให้เหลือคำตอบเดียว"
-     ],
-     "members": [
-      "MDCU76|RoC|8",
-      "MDCU70|RoC|23"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Kidney และ pancreas transplant: ใครควรได้ และเมื่อไร",
-   "sections": [
-    {
-     "id": "dm-spk-pak-pta",
-     "title": "เบาหวานกับการปลูกถ่าย: SPK / PAK / PTA / ไตอย่างเดียว",
-     "trend": "ถามชนิดการปลูกถ่ายที่เหมาะกับ T1DM / T2DM ตามสถานะไต หรือสิ่งที่ไม่ใช่ประโยชน์ของ pancreas transplant",
-     "asked": [
-      "T1DM 35 ปี + ESRD → simultaneous pancreas-kidney (SPK)",
-      "T1DM, labile glucose, hypoglycemia unawareness รุนแรง, ไตปกติ → pancreas transplant alone (PTA)",
-      "T2DM รุนแรง + renal failure ถามชนิดที่ดีที่สุดระยะยาว → living donor kidney transplantation",
-      "ข้อใดไม่ใช่ประโยชน์ของ pancreas transplant → ช่วยการดูดซึม carbohydrate / fat (exocrine ไม่ใช่เป้าหมาย)",
-      "ผู้ป่วย ESRD ข้อใดไม่ใช่ข้อบ่งชี้ pancreas transplant → type 2 DM (T1DM, Cr >3, diabetic nephropathy on dialysis เป็นข้อบ่งชี้)"
-     ],
-     "pattern": [
-      "<b>SPK</b> (พบบ่อยสุด ~75–80%): T1DM + ESRD / CKD 4–5, อายุมักไม่เกิน ~55, BMI ไม่สูง, CV risk รับได้ → หยุด dialysis + insulin, ป้องกัน diabetic nephropathy ในไตใหม่, ชะลอ microvascular complication",
-      "<b>PAK</b>: ปลูกตับอ่อนหลังได้ไตมาแล้ว (มักจาก living donor); <b>PTA</b>: ไตปกติ แต่ labile DM, severe hypoglycemia / unawareness, DKA ซ้ำ ทั้งที่รักษาเต็มที่",
-      "<b>T2DM</b> (insulin resistance เป็นหลัก) → kidney transplant อย่างเดียว เลือก living donor; SPK เฉพาะรายคัดเลือก (BMI ไม่สูง ใช้ insulin ไม่มาก ไม่มีโรคหัวใจรุนแรง)",
-      "<b>Pancreas transplant ทดแทน endocrine (insulin)</b> ไม่ใช่ exocrine; exocrine ถูกระบายทิ้งเข้า bowel (enteric, นิยมปัจจุบัน) หรือ bladder (ตรวจ urinary amylase ได้ แต่ metabolic acidosis, dehydration, cystitis)",
-      "เทคนิค: pancreas + duodenal segment วางที่ iliac vessels; ภาวะแทรกซ้อน: <b>graft thrombosis</b> (สาเหตุ early technical loss บ่อยสุด), pancreatitis, leak, rejection",
-      "Islet transplant: ฉีดเข้า portal vein, หัตถการเล็ก แต่ insulin independence ระยะยาวต่ำกว่า และต้องการ donor หลายราย",
-      "ก่อนปลูกต้องประเมิน CV (silent CAD พบบ่อยในเบาหวาน)"
-     ],
-     "pearls": [
-      "ท่อง 'DM + ESRD → SPK' โดยไม่ดูชนิดเบาหวาน — SPK คือคำตอบของ type 1",
-      "ดูไตก่อนเสมอ: ไตปกติ = PTA, ESRD = SPK, เคยปลูกไตแล้ว = PAK",
-      "เคส T2DM ของ 76C: คีย์เดิมตอบ SPK (E) แต่คลังตอบ living donor kidney (B) เพราะโจทย์เป็น type 2; ทีมเฉลยเองก็ว่าถ้า type 1 จึงตอบ SPK",
-      "MDCU74 RoD ถามแบบ NOT: T2DM — ตามตำรา insulin resistance ไม่แก้ด้วย beta cell ใหม่; ปัจจุบันบางศูนย์ทำ SPK ใน T2DM ที่คัดเลือก (ใช้ insulin, BMI ไม่สูง) แต่ข้อสอบยึดหลัก T1DM = SPK"
-     ],
-     "members": [
-      "MDCU76|RoA|72",
-      "MDCU77|RoA|43",
-      "MDCU78|RoD|Transplantation + Immunology 4",
-      "MDCU76|RoC|10",
-      "MDCU77|RoB|45",
-      "MDCU78|RoC|Transplant 6",
-      "MDCU74|RoD|ไม่มีเลข 20"
-     ]
-    },
-    {
-     "id": "kidney-referral-timing",
-     "title": "เมื่อไรควรส่งประเมิน kidney transplant (pre-emptive)",
-     "trend": "CKD ที่ eGFR ลดลงเรื่อย ๆ แต่ยังไม่มีข้อบ่งชี้ dialysis ถามขั้นต่อไป",
-     "asked": [
-      "T1DM 30 ปี eGFR 18 ไม่มีอาการ uremia / น้ำเกิน / K สูง → ประเมิน kidney transplant",
-      "T1DM + diabetic nephropathy ปลูกไตเมื่อไร → เมื่อถึง ESRD (ไม่ใช่ตอนวินิจฉัยเบาหวาน หรือ microalbuminuria)"
-     ],
-     "pattern": [
-      "<b>KDIGO 2020</b>: ส่งประเมิน transplant เมื่อ <b>eGFR < 30</b> (CKD G4) อย่างน้อย 6–12 เดือนก่อนคาดว่าจะต้อง dialysis; preemptive living donor transplant ทำได้เมื่อ eGFR < 20 และแย่ลงต่อเนื่อง",
-      "Kidney transplant = RRT ที่ดีที่สุดของ ESRD (survival + QoL ดีกว่า dialysis); pre-emptive และ living donor ผลดีที่สุด",
-      "T1DM + ESKD → SPK; ถ้ามี living kidney donor อาจปลูกไตก่อนแล้ว PAK",
-      "ข้อห้าม: active malignancy, uncontrolled infection, severe cardiopulmonary disease, life expectancy สั้น, non-adherence, substance abuse ที่ยังใช้อยู่",
-      "<b>ข้อบ่งชี้เริ่ม dialysis</b>: อาการ uremia (serositis, encephalopathy, bleeding), volume overload / BP คุมไม่ได้, hyperkalemia / acidosis ดื้อรักษา — มักที่ eGFR 5–10; eGFR ต่ำอย่างเดียวไม่พอ (IDEAL trial)",
-      "เตรียม vascular access ล่วงหน้า (AV fistula mature 6–8 สัปดาห์ขึ้นไป)"
-     ],
-     "pearls": [
-      "คิดว่าต้องฟอกไตก่อนจึงจะส่งประเมิน transplant — ส่งได้ตั้งแต่ eGFR < 30",
-      "ถ้ามีข้อบ่งชี้เร่งด่วนของ dialysis คำตอบจะเป็นเริ่ม dialysis (คลังเติม stem ว่าไม่มีอาการ)"
-     ],
-     "members": [
-      "MDCU77|RoB|45",
-      "MDCU78|RoC|Transplant 6",
-      "MDCU76|RoC|10"
-     ]
-    },
-    {
-     "id": "post-kidney-polyuria",
-     "title": "Polyuria หลังปลูกไต (การให้สารน้ำ)",
-     "trend": "ปัสสาวะออกมากหลังปลูกไต ถามการให้สารน้ำที่เหมาะสม",
-     "asked": [
-      "ปลูกไต 2 สัปดาห์ ปัสสาวะ 400 mL / h Doppler graft vessels ปกติ → 0.45% saline ทดแทนตามปริมาณปัสสาวะ"
-     ],
-     "pattern": [
-      "พบบ่อยใน <b>living donor kidney ที่ทำงานทันที</b>; กลไก: osmotic diuresis (urea คั่ง), tubular concentrating defect (ischemia–reperfusion, ATN ที่กำลังฟื้น), volume ที่ได้ระหว่างผ่าตัด, hyperglycemia จาก steroid / tacrolimus",
-      "ปัสสาวะ hypotonic (Na ราว 60–80 mEq / L) → ทดแทนด้วย <b>0.45% saline ตามปัสสาวะรายชั่วโมง</b> + insensible loss; ติดตาม Na, K, Mg, PO₄, glucose",
-      "<b>ห้ามหยุดน้ำ</b> (เสี่ยง graft hypoperfusion / thrombosis); ไม่ใช่ DI จึงไม่ให้ DDAVP",
-      "Oliguria หลังปลูก: เช็ก Foley อุดตัน → volume status → Doppler US (thrombosis, leak, lymphocele, hydronephrosis) → delayed graft function (ฟอกไตภายใน 1 สัปดาห์แรก) หรือ rejection → biopsy"
-     ],
-     "pearls": [
-      "เห็นปัสสาวะมากแล้วคิดว่าน้ำเกิน หรือ DI — ผิด; rejection ทำให้ปัสสาวะลดลง ไม่ใช่เพิ่ม",
-      "กรุ๊ปเลือดในโจทย์ (O ← A) ไม่เกี่ยวกับการจัดการ polyuria (น่าจะจดสลับกับเคส 76C)"
-     ],
-     "members": [
-      "MDCU77|RoA|55"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "กรุ๊ปเลือดและการให้เลือด (ติด tag Transplant)",
-   "sections": [
-    {
-     "id": "blood-group-transfusion",
-     "title": "Universal donor ของ RBC และ plasma, alloantibody ต่อ minor antigen",
-     "trend": "คำถามการให้เลือดที่ปนเข้ามาในชุดนี้ — กลับด้าน RBC กับ plasma",
-     "asked": [
-      "เลือดแดงฉุกเฉินที่ยังไม่รู้หมู่เลือด → group O RhD-negative",
-      "Universal donor ของ plasma → group AB",
-      "หญิงตั้งครรภ์หลายครั้ง crossmatch ไม่เข้ากับหลายถุง ทั้งที่ ABO / RhD ตรงกัน และไม่ใช่ HLA → alloimmunization ต่อ minor red cell antigen"
-     ],
-     "pattern": [
-      "<b>RBC</b>: universal donor = O (ไม่มี A, B antigen), RhD-negative โดยเฉพาะหญิงวัยเจริญพันธุ์ (กัน anti-D / HDFN); ชายและหญิงหมดประจำเดือนใช้ O RhD-positive ได้เมื่อ O negative ขาด; AB = universal recipient",
-      "<b>Plasma (FFP, cryo)</b>: universal donor = <b>AB</b> (ไม่มี anti-A / anti-B), Rh ไม่มีผล; O = universal recipient ของ plasma",
-      "ฉุกเฉิน: O RBC → type-specific → fully crossmatched; เก็บตัวอย่างส่ง group + crossmatch ก่อนให้เสมอ",
-      "<b>Alloantibody ต่อ minor antigen</b> (ตั้งครรภ์ รับเลือดบ่อย ปลูกถ่าย): Rh อื่น (E, c), Kell, Kidd, Duffy → antibody screen (IAT) บวก, crossmatch ไม่เข้ากันหลายถุง, autocontrol ลบ → antibody identification แล้วหาเลือด antigen-negative; Kidd ทำ delayed hemolytic reaction",
-      "Anti-HLA เกี่ยวกับ platelet refractoriness, FNHTR, TRALI และ lymphocyte crossmatch ของการปลูกถ่าย ไม่ใช่ RBC crossmatch; warm AIHA = DAT บวก panel บวกทุกเซลล์"
-     ],
-     "pearls": [
-      "AB เป็น universal recipient ของ RBC แต่ universal donor ของ plasma; O กลับกัน",
-      "เห็นตั้งครรภ์หลายครั้งแล้วเลือก anti-HLA — ถูกในบริบทปลูกถ่าย / platelet แต่ RBC crossmatch ขึ้นกับ RBC antigen"
-     ],
-     "members": [
-      "MDCU78|RoC|Transplant 5",
-      "MDCU78|RoD|Transplantation + Immunology 2",
-      "MDCU78|RoC|Transplant 4"
      ]
     }
    ]
