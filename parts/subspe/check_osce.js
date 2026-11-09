@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* ตรวจไฟล์ OSCE: node parts/subspe/check_osce.js data_subspe/osce_b<N>.js */
 const fs=require('fs'),path=require('path');const f=process.argv[2],QB=[];new Function('QB',fs.readFileSync(f,'utf8'))(QB);
-const TOP={img:0,inst:0,suture:0,path:0,pic:0,hx:1,pe:1,proc:2},bad=[],seen={};const imgDir=path.join(path.dirname(f),'..','img');
+const TOP={img:0,inst:0,suture:0,path:0,spot:0,hx:1,pe:1,proc:2},bad=[],seen={};const imgDir=path.join(path.dirname(f),'..','img');
 const E=(q,m)=>bad.push(`[${q.orig}] ${m}`);
 QB.forEach(q=>{['set','ro','file','orig','topic','sub','title','stem','gray'].forEach(k=>{if(!q[k])E(q,'missing '+k);});if(typeof q.orig!=='string')E(q,'orig must be string');if(!q.page)E(q,'missing page');
  if(seen[q.orig])E(q,'duplicate orig');seen[q.orig]=1;

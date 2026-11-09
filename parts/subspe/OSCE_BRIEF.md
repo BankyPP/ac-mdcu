@@ -32,8 +32,8 @@ repo: `/home/claude/ac-mdcu` · ทำ**เฉพาะ OSCE + พาร์ท P
 | `inst` | Instruments & devices | – | Surgical instrument · Drain · Tube/Catheter · Ostomy appliance · Other device |
 | `suture` | Suture materials | – | Suture material |
 | `path` | Pathology & staging | – | Breast cancer staging · Colorectal cancer staging · Other staging |
-| `pic` | Clinical picture (รูปผู้ป่วย/รอยโรค ส่วนใหญ่จากพาร์ท PowerPoint) | – | Anorectal · Pediatric surgery · Plastic/Skin/Burn · Uro/Genital · Breast · Vascular/Ulcer · Head & neck · Hernia/Abdominal wall · Other picture |
-- **พาร์ท PowerPoint** = ข้อสอบสไลด์เปิดไปเรื่อย ๆ → ลงเป็นสถานีไม่มีอาจารย์ `sec:"PowerPoint"` `orig:"PPT <n>"` แล้วเลือก topic ตามเนื้อหา (film → `img`, เครื่องมือ/drain/catheter → `inst`, ผลพยาธิ/staging → `path`, รูปผู้ป่วย/รอยโรค → `pic`) · พาร์ท OSCE ใช้ `sec:"OSCE"` `orig:"<n>"`
+| `spot` | **Spot Diagnosis** (ผู้ใช้สั่ง 9 พ.ย. 09:34) = ทุกข้อในพาร์ท PowerPoint (ให้รูปแล้วตอบ) | – | Anorectal · Pediatric surgery · Plastic/Skin/Burn · Uro/Genital · Breast · Vascular/Ulcer · Head & neck · Hernia/Abdominal wall · Imaging film · Instrument/Device · Pathology/Staging · Other spot |
+- **พาร์ท PowerPoint** = ข้อสอบสไลด์เปิดไปเรื่อย ๆ → สถานีไม่มีอาจารย์ `sec:"PowerPoint"` `orig:"PPT <n>"` **topic `spot` ทุกข้อ** (film/เครื่องมือ/ผลพยาธิในพาร์ทนี้ก็เป็น `spot` แล้วใช้ sub Imaging film / Instrument/Device / Pathology/Staging) · พาร์ท OSCE ใช้ `sec:"OSCE"` `orig:"<n>"` และใช้ topic อื่นตามเดิม (ห้ามใช้ `spot`)
 - **สถานีมีอาจารย์** (`hx`, `pe`, `proc`) ใส่ `ex:1` (+ `proc:1` หัตถการ) + `sp` = บทผู้ป่วยจำลอง/ผลตรวจ/สิ่งที่ผู้คุมดู ภาษาไทย · checklist แบ่งหัวข้อใหญ่ตามลำดับที่ทำจริง (หัตถการ: เตรียม → ทำ → หลังทำ; ซักประวัติ: แนะนำตัว → CC/PI → ... → สรุป dx)
 
 ## เอาต์พุต — `data_subspe/osce_b<N>.js`
