@@ -1,7 +1,7 @@
 /* Service worker (9 Nov 2026) — copied next to each site's page by build_site.py (docs/sw.js, docs/si/sw.js).
    · files with ?v=<hash> (core, app, css, each ward's data) never change under the same hash → served from this device's cache after the first load;
      when a new hash of the same file arrives, the older copies are deleted
-   · the page (index.html) → network first so updates show at once; the cached copy is used offline or when the network is very slow
+   · the page (index.html) → always from the network so every open gets the newest version; the cached copy is used only when there is no internet at all
    · img/ → cached copy at once, refreshed in the background
    · anything else (other sites, Firebase, Claude, fonts) is not touched */
 const CN="ac-"+self.registration.scope;
@@ -27,8 +27,6 @@ self.addEventListener("fetch",e=>{
     const key=new URL("index.html",self.registration.scope).href;
     e.respondWith(caches.open(CN).then(async c=>{
       const net=fetch(r).then(res=>{if(res.ok)e.waitUntil(c.put(key,res.clone()));return res;});
-      const hit=await c.match(key);if(!hit)return net;
-      const slow=new Promise(ok=>setTimeout(()=>ok(null),4000));
-      try{return (await Promise.race([net,slow]))||hit;}catch(err){return hit;}}));
+      try{return await net;}catch(err){const hit=await c.match(key);if(hit)return hit;throw err;}}));
   }
 });
