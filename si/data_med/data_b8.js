@@ -1,0 +1,131 @@
+(function(){
+/* SI130 Ro401–404 — SIM130A (s130a.pdf "SIMD415 Medicine SUMMATIVE 401-404", SIRIRAJ 130, 3 หน้า: หน้า 1 = ปก, หน้า 2–3 = ตาราง MCQ)
+   ไฟล์ recall พิมพ์เป็นตาราง (เลข / Question / Choices) ไม่มีคีย์ ไม่มีลายมือ ไม่มีวง/กากบาท ไม่มีรูป → ทุกข้อ key:NK เฉลยโดย Claude
+   ไฟล์ไม่ได้บอกรูปแบบการสอบ (หัวตารางมีแค่ "MCQ") · ไม่มีส่วน OSCE/LAB/MEQ
+   เลขข้อ 1–8 ครบ ไม่มีแถวว่าง ไม่มีแถวข้ามหน้า (เลข 1–4 หน้า 2, เลข 5–8 หน้า 3)
+   เลข 1 กับ 2 เป็นเรื่องเดียวกัน (หมดสติชั่วคราวในชายอายุ 20 ปี) แต่ข้อความและช้อยต่างกัน → แยกเป็น 2 ข้อ ตอบสอดคล้องกัน (ECG)
+   เลข 8 ผู้จดเขียน "โจทย์ asthma เหมือนเดิม" แต่ไม่มีโจทย์เดิมในไฟล์ → Claude แต่งเคส acute asthma exacerbation จากข้อมูลที่จดไว้
+   ท้ายไฟล์ (หน้า 3) ผู้จดเขียนว่า "ได้ข้อสอบมาแค่นี้ครับ ตอนสอบช่วยกันจำข้อสอบกันหน่อยนะครับ จะได้มีส่งต่อให้เพื่อนๆกับรุ่นน้องเยอะๆน้า" = ได้ recall มาเพียง 8 ข้อ */
+const KS=" (คีย์ในไฟล์ SI130 401–404)";
+const NK="ไม่มีเฉลยในไฟล์ (เฉลยโดย Claude)";
+const RC=x=>NK+" — ผู้จดใส่คำตอบไว้: "+x;
+const KI=(...n)=>n.map(i=>"ks130a_"+i);
+const QI=n=>"qs130a_"+n;
+const R_=o=>Object.assign({set:"SI130",ro:"Ro401–404",file:"SIM130A",key:NK,mnemonic:"",guide:"",notes:"",opinion:""},o);
+QB.push(
+R_({page:2,orig:"1",
+ stem:"A 20-year-old man had an episode of alteration of consciousness, or fainting, lasting a few minutes. Physical examination after the event is normal. What is the most appropriate diagnostic investigation?",
+ gray:"(ข้อสอบเก่า) ชาย 20 ปี alteration of conscious หรือสลบสักอย่าง few minutes ถาม most proper diagnostician investigation — 1. ECG 2. CT 3. Echocardiography 4. Electroencephalography",
+ opts:["ECG","CT brain","Echocardiography","Electroencephalography","Tilt table test"],ans:0,
+ opinion:"เฉลยโดย Claude มั่นใจสูง: หมดสติชั่วคราวไม่กี่นาทีแล้วฟื้นเอง = transient loss of consciousness ต้องประเมินแบบ syncope · ACC/AHA/HRS 2017 และ ESC 2018 ให้ทำ 12-lead ECG ในการประเมินแรกทุกราย · สอดคล้องกับเลข 2 ในต้นฉบับ (เคสเดียวกันที่จดอีกแบบ) และชุด SI132 รอบ 403–404 เรื่อง concert ที่ตอบ EKG",
+ notes:"ต้นฉบับมี 4 ช้อย · ช้อย Tilt table test Claude เติม · ต้นฉบับเขียน CT เฉย ๆ Claude ใส่เป็น CT brain · 'ตรวจร่างกายหลังเหตุการณ์ปกติ' Claude เติม · ต้นฉบับระบุว่าเป็นข้อสอบเก่า ไม่บอกปี",
+ guide:"ACC/AHA/HRS Guideline for the Evaluation and Management of Syncope 2017; ESC Guidelines for the Diagnosis and Management of Syncope 2018",
+ interp:"ชายอายุน้อย หมดสติ<b>ไม่กี่นาทีแล้วฟื้นเอง</b> ตรวจปกติ = transient loss of consciousness → เข้าแนวทาง <b>syncope</b>",
+ why:"ประเมิน syncope ทุกราย = <b>ประวัติ + ตรวจร่างกาย + orthostatic BP + 12-lead ECG</b> · ECG ราคาถูก ทำได้ทันที และคัดกรอง cardiac syncope ที่อันตรายแม้ในคนหนุ่ม: <b>long QT, Brugada, WPW, HCM, heart block</b> · ถ้า ECG ปกติ ประวัติเข้ากับ vasovagal และไม่มี high-risk feature → ไม่ต้องตรวจเพิ่ม · high-risk ที่ต้องตรวจต่อ: หมดสติขณะออกแรงหรือนอนราบ ใจสั่นนำ ประวัติครอบครัวเสียชีวิตเฉียบพลัน มีโรคหัวใจ",
+ wrong:{"B":"CT brain ไม่ใช่การตรวจประจำใน syncope ทำเมื่อมี head injury หรือ focal neurological deficit","C":"Echocardiography ทำเมื่อสงสัยโรคโครงสร้างหัวใจ (มี murmur, หมดสติขณะออกแรง, ECG ผิดปกติ) ไม่ใช่การตรวจแรก","D":"EEG ไม่แนะนำเป็นการตรวจประจำใน syncope ใช้เมื่อสงสัย seizure จริง (ชัก กัดลิ้นด้านข้าง post-ictal confusion)","E":"Tilt table test ใช้เมื่อสงสัย reflex syncope แต่ประวัติไม่ชัด หรือแยก psychogenic pseudosyncope เป็นการตรวจขั้นถัดไป"},
+ trap:"เห็นคำ alteration of consciousness แล้วคิดเรื่องสมองไปส่ง CT หรือ EEG — หมดสติสั้น ๆ แล้วฟื้นเองให้คิด syncope และเริ่มที่ ECG",
+ summary:["Transient LOC ฟื้นเองเร็ว = ประเมินแบบ syncope","การตรวจแรกทุกราย = 12-lead ECG + orthostatic BP","ECG หา long QT, Brugada, WPW, HCM, AV block","Echo ทำเมื่อมี murmur, ออกแรงแล้วหมดสติ หรือ ECG ผิดปกติ","EEG และ CT brain ไม่ใช่การตรวจประจำ"],
+ variants:["ถ้าหมดสติขณะวิ่งออกกำลังกาย + systolic murmur → echocardiography (HCM, AS)","ถ้าชักเกร็งนาน กัดลิ้นด้านข้าง สับสนหลังฟื้น → EEG"]}),
+
+R_({page:2,orig:"2",
+ stem:"A 20-year-old man lost consciousness while attending a concert. There were no convulsions. What should be done?",
+ gray:"20 years old male loss of consciousness in concert, no convulsions ควรทำอะไร — 1. EKG 2. EEC 3. Echo 4. CXR",
+ opts:["EKG","EEG","Echocardiography","Chest radiograph","CT brain"],ans:0,
+ opinion:"เฉลยโดย Claude มั่นใจสูง: หมดสติในที่แออัด ไม่มีชัก = นึกถึง vasovagal syncope · การตรวจแรกทุกรายคือ 12-lead ECG (ACC/AHA/HRS 2017, ESC 2018) · สอดคล้องกับเลข 1 ในต้นฉบับ และชุด SI132 รอบ 403–404 ที่ถามเรื่อง concert เหมือนกัน",
+ notes:"ต้นฉบับมี 4 ช้อย · ช้อย 2 พิมพ์ว่า EEC = EEG · ช้อย CT brain Claude เติม · Echo และ CXR เขียนเต็มเป็น Echocardiography และ Chest radiograph",
+ guide:"ACC/AHA/HRS Guideline for the Evaluation and Management of Syncope 2017; ESC Guidelines for the Diagnosis and Management of Syncope 2018",
+ interp:"หมดสติ<b>ในคอนเสิร์ต</b> (ยืนนาน แออัด ร้อน) <b>ไม่ชัก</b> = reflex (vasovagal) syncope มากที่สุด",
+ why:"ปัจจัยกระตุ้น vasovagal: ยืนนาน ที่แออัด ร้อน เจ็บ กลัว · มักมี prodrome (มึน คลื่นไส้ เหงื่อออก ตาลาย) และฟื้นเร็ว · แม้ประวัติเข้ากับ vasovagal ยังต้องทำ <b>12-lead ECG</b> เพื่อตัดสาเหตุหัวใจ (long QT, Brugada, WPW, AV block) · ECG ปกติ + ไม่มี high-risk feature → ให้ความรู้ ดื่มน้ำ เกลือพอ สอน physical counterpressure maneuver",
+ wrong:{"B":"EEG ไม่ช่วยเมื่อไม่มีชัก ไม่มี post-ictal ไม่ใช่การตรวจประจำของ syncope","C":"Echocardiography ทำเมื่อสงสัยโรคหัวใจโครงสร้าง ไม่ใช่การตรวจแรก","D":"Chest radiograph ไม่ได้ช่วยหาสาเหตุ syncope ในคนหนุ่มที่ไม่มีอาการทางปอด","E":"CT brain ไม่จำเป็นถ้าไม่มี head injury หรือ focal deficit"},
+ trap:"คอนเสิร์ตมีแสงไฟกระพริบ อาจชวนคิด photosensitive seizure → EEG แต่โจทย์บอกไม่มีชัก",
+ summary:["ยืนนาน แออัด ร้อน แล้วหมดสติ = vasovagal","ทุกรายต้องมี ECG แม้ดูเป็น vasovagal","Seizure: ชักเกร็งนาน กัดลิ้นด้านข้าง post-ictal confusion","Vasovagal รักษาด้วยความรู้ น้ำ เกลือ counterpressure maneuver"],
+ variants:["ถ้าถามการวินิจฉัย → vasovagal syncope","ถ้า ECG พบ QTc ยาว → congenital long QT syndrome ให้ beta-blocker"]}),
+
+R_({page:2,orig:"3",
+ stem:"A 45-year-old man presents with cough with whitish sputum every morning. The cough has been present for about 4 months each year over the past 3 years. He is a current smoker of 30 pack-years. Physical examination is normal. Spirometry is normal. What is the most likely diagnosis?",
+ gray:"Presented with morning cough + whitish sputum. Current smoker 30 pack year — 1. COPD 2. Chronic bronchitis 3. Chronic bronchiectasis 4. Upper airway cough syndrome 5. Asthma",
+ opts:["COPD","Chronic bronchitis","Chronic bronchiectasis","Upper airway cough syndrome","Asthma"],ans:1,
+ flag:"⚠ recall ไม่บอกผล spirometry และระยะเวลา ถ้าไม่มีข้อมูลนี้ตอบได้ทั้ง COPD และ Chronic bronchitis · Claude เติม spirometry ปกติและระยะเวลาให้ได้คำตอบเดียว (ตรงกับชุด SI132 รอบ 403–404 ที่จดว่า spirometry ปกติ)",
+ opinion:"เฉลยโดย Claude มั่นใจปานกลางถึงสูง: ไอเสมหะขาวตอนเช้าในคนสูบบุหรี่หนักคือ chronic bronchitis ตามนิยามคลินิก · COPD ต้องมี post-bronchodilator FEV1/FVC &lt; 0.7 (GOLD 2025) ซึ่ง recall ไม่ได้บอก · ชุด SI132 รอบ 403–404 โจทย์คล้ายกันมี spirometry ปกติ และเฉลย Chronic bronchitis",
+ notes:"อายุ 45 ปี ระยะเวลาไอ (4 เดือนต่อปี 3 ปี) ตรวจร่างกายปกติ spirometry ปกติ และคำถาม most likely diagnosis Claude เติม",
+ guide:"GOLD Global Strategy for COPD 2025; ACCP Chronic Cough Guideline 2018",
+ interp:"ไอ<b>มีเสมหะขาวตอนเช้า</b> เป็นเรื้อรังหลายปี + <b>สูบบุหรี่ 30 pack-year</b> + <b>spirometry ปกติ</b>",
+ why:"<b>Chronic bronchitis</b> = นิยามทางคลินิก: <b>ไอมีเสมหะ ≥ 3 เดือนต่อปี ติดกัน ≥ 2 ปี</b> โดยตัดสาเหตุอื่น · เกิดจาก mucous gland hypertrophy จากควันบุหรี่ · ไม่จำเป็นต้องมี airflow obstruction จึงพบได้แม้ spirometry ปกติ · <b>COPD</b> วินิจฉัยด้วย <b>post-bronchodilator FEV1/FVC &lt; 0.7</b> · การจัดการที่สำคัญที่สุด = <b>เลิกบุหรี่</b> และติดตาม spirometry เพราะส่วนหนึ่งจะกลายเป็น COPD",
+ wrong:{"A":"COPD ต้องมี persistent airflow limitation ใน spirometry (FEV1/FVC &lt; 0.7 หลังพ่นยา) โจทย์นี้ spirometry ปกติ","C":"Bronchiectasis: เสมหะมาก เป็นหนอง ทุกวัน ไอเป็นเลือด ฟังได้ coarse crackles ยืนยันด้วย HRCT","D":"Upper airway cough syndrome: postnasal drip ต้องกระแอม มีน้ำมูกไหลลงคอ ไม่สัมพันธ์กับบุหรี่โดยตรง","E":"Asthma: อาการเป็นพัก ๆ มีหอบ wheeze กลางคืน มี variable airflow limitation หรือ bronchodilator reversibility"},
+ trap:"เห็นสูบบุหรี่ 30 pack-year แล้วตอบ COPD ทันที — ต้องดู spirometry ก่อน ถ้าปกติยังไม่ใช่ COPD",
+ summary:["Chronic bronchitis = ไอมีเสมหะ ≥ 3 เดือนต่อปี ≥ 2 ปีติดกัน","COPD = post-bronchodilator FEV1/FVC &lt; 0.7","Chronic bronchitis มี spirometry ปกติได้","เลิกบุหรี่ = การรักษาที่สำคัญที่สุด","เสมหะเป็นหนองจำนวนมาก + ไอเลือด → คิด bronchiectasis ทำ HRCT"],
+ variants:["ถ้า FEV1/FVC 0.62 หลังพ่นยา → COPD","ถ้าถามการรักษาที่ได้ประโยชน์สุด → smoking cessation"]}),
+
+R_({page:2,orig:"4",
+ stem:"A 40-year-old man presents with pleuritic chest pain for 2 days. His vital signs are normal. Physical examination is normal except for a scratching heart sound heard during both systole and diastole. What is the most likely diagnosis?",
+ gray:"ผู้ป่วยชาย อายุ 40 ปี pleuritic chest pain 2 วัน V/S ปกติ PE ปกติหมดยกเว้นตอนฟัง heart sound ได้เสียง scratching heart sound systole และ diastole — 1. Acute aortic dissection 2. Acute pericarditis 3. Acute pulmonary embolism 4. Acute myocardial infarction 5. Pneumothorax",
+ opts:["Acute aortic dissection","Acute pericarditis","Acute pulmonary embolism","Acute myocardial infarction","Pneumothorax"],ans:1,
+ opinion:"เฉลยโดย Claude มั่นใจสูง: เจ็บหน้าอกแบบ pleuritic + เสียงขูดที่ได้ยินทั้ง systole และ diastole = pericardial friction rub ซึ่งเป็น pathognomonic ของ acute pericarditis (ESC 2025)",
+ notes:"คำถาม most likely diagnosis Claude เติม · ต้นฉบับครบ 5 ช้อย",
+ guide:"ESC Guidelines for the Management of Myocarditis and Pericarditis 2025",
+ interp:"Pleuritic chest pain + <b>เสียงขูดทั้ง systole และ diastole</b> = <b>pericardial friction rub</b>",
+ why:"วินิจฉัย <b>acute pericarditis</b> เมื่อมี ≥ 2 ใน 4: (1) เจ็บหน้าอกแหลม pleuritic ดีขึ้นเมื่อนั่งโน้มตัวไปข้างหน้า (2) <b>pericardial friction rub</b> (3) ECG <b>diffuse concave ST elevation + PR depression</b> (4) pericardial effusion ใหม่หรือมากขึ้น · rub ฟังได้ชัดที่ left sternal border ขณะโน้มตัวไปหน้า มีได้ถึง 3 ส่วน (atrial systole, ventricular systole, early diastole) · รักษา: <b>NSAID หรือ aspirin ขนาดสูง + colchicine</b> 3 เดือน, จำกัดกิจกรรมหนัก",
+ wrong:{"A":"Aortic dissection: ปวดฉีกทะลุหลังรุนแรงเฉียบพลัน BP แขนสองข้างต่างกัน อาจมี murmur ของ AR (diastolic) ไม่ใช่เสียงขูด","C":"Pulmonary embolism: หอบ หัวใจเต้นเร็ว SpO2 ต่ำ อาจได้ pleural rub ซึ่งสัมพันธ์กับการหายใจ ไม่ใช่จังหวะหัวใจ แต่โจทย์ V/S ปกติ","D":"MI: เจ็บแน่นแบบ pressure ไม่ใช่ pleuritic อาจเกิด pericarditis หลัง MI ได้แต่ไม่ใช่ภาพนี้","E":"Pneumothorax: เจ็บหน้าอกและหอบเฉียบพลัน breath sound ลดลง hyperresonance ข้างเดียว ไม่มีเสียงขูดจากหัวใจ"},
+ trap:"สับสน pericardial rub กับ pleural rub — pericardial rub ยังได้ยินขณะกลั้นหายใจและตามจังหวะหัวใจ",
+ summary:["Pericarditis: เจ็บ pleuritic ดีขึ้นเมื่อโน้มตัวไปหน้า","Friction rub = pathognomonic ฟังได้ทั้ง systole และ diastole","ECG: diffuse ST elevation + PR depression","รักษา NSAID หรือ aspirin + colchicine","Pleural rub หายเมื่อกลั้นหายใจ pericardial rub ไม่หาย"],
+ variants:["ถ้าถาม ECG ที่พบ → diffuse concave ST elevation + PR depression","ถ้าถามการรักษา → NSAID + colchicine"]}),
+
+R_({page:3,orig:"5",
+ stem:"A 50-year-old man presents with upper gastrointestinal bleeding of about 500 mL. He has drunk alcohol heavily every day for 20 years. There was no retching or vomiting before the bleeding. Nasogastric lavage with 1 L of saline still returns bright red blood. PE: PR 110 bpm, BP 80/50 mmHg. What is the most likely diagnosis?",
+ gray:"50 years old man presented with UGIB (500mL) NG lavage 1 L ยังเห็นเป็น bright-red color PE : PR 110 bpm, BP 80/50 mmHg Diagnosis? — 1. Small bowel angiodysplasia 2. Bleeding esophageal varices 3. Erosive esophagitis 4. Gastric cancer 5. Mallory-Weiss syndrome",
+ opts:["Small bowel angiodysplasia","Bleeding esophageal varices","Erosive esophagitis","Gastric cancer","Mallory-Weiss syndrome"],ans:1,
+ flag:"⚠ recall ไม่มีประวัติโรคตับหรือดื่มสุรา Claude เติมดื่มสุราหนัก 20 ปีและไม่มีขย้อนอาเจียนนำมาก่อน เพื่อให้ได้คำตอบเดียว",
+ opinion:"เฉลยโดย Claude มั่นใจปานกลาง: เลือดออกทางเดินอาหารส่วนบนปริมาณมากและยังออกต่อเนื่อง (NG lavage 1 L ยังแดงสด) จนช็อก ในช้อยที่มี ภาพเข้ากับ variceal bleeding มากที่สุด · Mallory-Weiss มักหยุดเอง และ angiodysplasia ของลำไส้เล็กอยู่ใต้ ligament of Treitz จะไม่ได้เลือดจาก NG",
+ notes:"ประวัติดื่มสุราหนัก 20 ปี และไม่มีขย้อนอาเจียนก่อนเลือดออก Claude เติม · ต้นฉบับครบ 5 ช้อย",
+ guide:"Baveno VII Consensus 2022; AASLD Practice Guidance on Portal Hypertension and Varices in Cirrhosis 2024",
+ interp:"UGIB <b>ปริมาณมาก ยังออกต่อเนื่อง</b> (lavage ยังแดงสด) + <b>ช็อก</b> ในคนดื่มสุราเรื้อรัง = <b>bleeding esophageal varices</b>",
+ why:"Variceal bleeding = UGIB ที่รุนแรงและเสียชีวิตสูงสุด เกิดจาก portal hypertension (HVPG &gt; 12 mmHg) · จัดการ: <b>resuscitation แบบ restrictive</b> (ให้เลือดเมื่อ Hb &lt; 7 g/dL เป้า 7–8), <b>vasoactive drug ทันที</b> (terlipressin, somatostatin หรือ octreotide) 2–5 วัน, <b>antibiotic prophylaxis</b> (ceftriaxone 1 g/วัน สูงสุด 7 วัน), <b>endoscopy ภายใน 12 ชั่วโมง</b> + <b>endoscopic variceal ligation</b> · Child C 10–13 หรือ B &gt; 7 ที่มี active bleeding → พิจารณา preemptive TIPS ภายใน 72 ชั่วโมง · หลังหยุดเลือด: non-selective beta-blocker + EVL ซ้ำ",
+ wrong:{"A":"Small bowel angiodysplasia อยู่ใต้ ligament of Treitz → NG aspirate ไม่ควรมีเลือด มักเป็น occult หรือ obscure bleeding","C":"Erosive esophagitis มักเลือดออกน้อย ซึม ๆ ไม่ทำให้ช็อกและออกต่อเนื่องแบบนี้","D":"Gastric cancer มักเลือดออกเรื้อรัง ซีด น้ำหนักลด ไม่ค่อยออกมากเฉียบพลัน","E":"Mallory-Weiss: มีขย้อนอาเจียนรุนแรงนำมาก่อน ส่วนใหญ่ (80–90%) หยุดเอง โจทย์ไม่มีอาการนำนี้"},
+ trap:"เห็นคนดื่มสุราอาเจียนเป็นเลือดแล้วตอบ Mallory-Weiss — ต้องมีขย้อนนำก่อน และมักไม่ออกต่อเนื่องจนช็อก",
+ summary:["UGIB ปริมาณมาก + ช็อก + ดื่มสุรา/cirrhosis → variceal bleeding","Vasoactive drug + ceftriaxone ทันที ก่อน endoscopy","Endoscopy ภายใน 12 ชั่วโมง + band ligation","ให้เลือดเมื่อ Hb &lt; 7 g/dL ไม่ให้เกิน","Mallory-Weiss = ขย้อนก่อน ส่วนใหญ่หยุดเอง"],
+ variants:["ถ้าถามยาให้ทันที → octreotide หรือ terlipressin + ceftriaxone","ถ้าถามป้องกันเลือดออกซ้ำ → non-selective beta-blocker + EVL"]}),
+
+R_({page:3,orig:"6",
+ stem:"A 60-year-old woman presents with bilateral leg edema for 3 months. She has signs of chronic liver failure and ascites. PE: pitting edema. CBC: Hb 11 g/dL, WBC 4,000/µL, platelet 180,000/µL. LFT: TB 1.5 mg/dL, DB 0.8 mg/dL, AST and ALT mildly elevated but below 100 U/L, albumin 1.5 g/dL. UA: RBC 3–5/HPF, WBC 3–5/HPF, sp.gr 1.013, albumin 4+, oval fat body 1–2. What is the most appropriate investigation?",
+ gray:"60 years old women leg edema both sides for 3 months, sign of chronic of liver failure, ascites PE : pitting edema CBC : Hb 11 WBC 4000 platelet 180000 LFT : TB 1.5 DB 0.8 , AST/ALTแบบ chronic liver failure ขึ้นไม่เกิน100 albumin 1.5 UA : RBC/WBC 3-5/HPF sp.gr 1.013 albumin 4+ oval fat 1-2 Investigation? — 1. Kidney biopsy 2. ANA 3. ASO 4. Serology for viral hepatitis 5. FBS and HbA1c",
+ opts:["Kidney biopsy","Antinuclear antibody","Antistreptolysin O titer","Serology for viral hepatitis","Fasting plasma glucose and HbA1c"],ans:3,
+ opinion:"เฉลยโดย Claude มั่นใจปานกลางถึงสูง: nephrotic syndrome (albumin 4+, oval fat body, albumin 1.5) ร่วมกับโรคตับเรื้อรัง → คิดถึงสาเหตุร่วมคือ HBV (membranous nephropathy) หรือ HCV (MPGN, cryoglobulinemia) จึงส่ง HBsAg, anti-HCV ก่อน (KDIGO 2021 ให้หาสาเหตุทุติยภูมิของ nephrotic syndrome) · kidney biopsy เป็นขั้นต่อไปแต่ต้องดูความเสี่ยงเลือดออกในผู้ป่วยตับแข็ง",
+ notes:"ต้นฉบับเขียน AST/ALT 'แบบ chronic liver failure ขึ้นไม่เกิน100' · หน่วยของค่าแลป Claude ใส่ · ANA, ASO, FBS เขียนเต็ม · ต้นฉบับครบ 5 ช้อย",
+ guide:"KDIGO Clinical Practice Guideline for the Management of Glomerular Diseases 2021",
+ interp:"<b>Nephrotic syndrome</b> (proteinuria 4+, oval fat body, albumin 1.5) + <b>chronic liver disease</b> → หา<b>สาเหตุเดียวที่อธิบายทั้งสองอย่าง</b>",
+ why:"Nephrotic syndrome ในผู้ใหญ่ต้องหา<b>สาเหตุทุติยภูมิ</b>ทุกราย: DM, SLE, <b>HBV, HCV</b>, HIV, ยา, มะเร็ง, amyloidosis · โรคตับเรื้อรัง + glomerular disease → <b>HBV</b> สัมพันธ์กับ <b>membranous nephropathy</b> (และ MPGN) · <b>HCV</b> สัมพันธ์กับ <b>MPGN และ cryoglobulinemia</b> · การรักษาไวรัส (tenofovir, entecavir สำหรับ HBV; DAA สำหรับ HCV) ช่วยให้ไตดีขึ้น และ<b>ห้ามให้ immunosuppression ก่อนรู้สถานะ HBV</b> เพราะทำให้ไวรัส reactivate · ในประเทศไทย HBV พบบ่อย ส่ง serology ก่อนเป็นขั้นแรกที่เหมาะสม",
+ wrong:{"A":"Kidney biopsy ให้ชนิด glomerular disease แต่ควรหาสาเหตุทุติยภูมิที่ตรวจเลือดได้ก่อน และผู้ป่วยตับแข็งมีความเสี่ยงเลือดออก","B":"ANA หา SLE ในหญิงอายุน้อย ไม่อธิบายตับแข็ง","C":"ASO สำหรับ post-streptococcal GN ซึ่งเป็น nephritic (hematuria, HT) หลังติดเชื้อ ไม่ใช่ nephrotic เรื้อรัง 3 เดือน","E":"DM เป็นสาเหตุ nephrotic ที่พบบ่อยแต่ไม่อธิบายโรคตับ และไม่มีข้อมูลเบาหวาน"},
+ trap:"ตอบ kidney biopsy เพราะเป็นมาตรฐานในผู้ใหญ่ — ในโจทย์ที่มีโรคตับให้หาไวรัสตับอักเสบก่อน",
+ summary:["Nephrotic: proteinuria &gt; 3.5 g/วัน, albumin &lt; 3, edema, hyperlipidemia, oval fat body","ผู้ใหญ่ทุกรายหาสาเหตุทุติยภูมิ","HBV → membranous; HCV → MPGN, cryoglobulinemia","ตรวจ HBV ก่อนให้ steroid หรือ immunosuppressant เสมอ","ASO ใช้กับ nephritic หลังติดเชื้อ ไม่ใช่ nephrotic"],
+ variants:["ถ้าถามพยาธิสภาพไตที่พบใน HBV → membranous nephropathy","ถ้า anti-HCV บวก + C4 ต่ำ + purpura → cryoglobulinemic MPGN"]}),
+
+R_({page:3,orig:"7",
+ stem:"A 50-year-old man with alcoholic cirrhosis presents with alteration of consciousness. He has been taking furosemide and spironolactone for almost 2 months. Physical examination shows mild anemia, mild jaundice, positive flapping tremor, and flat JVP. Temperature is 37.0 °C. Rectal examination shows brown stool. What is the most likely cause of his alteration of consciousness?",
+ gray:"ผู้ป่วยชาย อายุ 50 ปี มาด้วย alteration of consciousness เป็น alcoholic cirrhosis กิน furosemide กับ spironolactone มาเกือบ 2 เดือน ตรวจร่างกายเจอ mild anemia, mild jaundice, flapping tremor positive, flat JVP ถามว่า alteration of consciousness จากอะไร — 1. Drug-induced 2. Sepsis 3. Volume depletion 4. Constipation 5. Upper GI bleeding",
+ opts:["Drug-induced","Sepsis","Volume depletion","Constipation","Upper GI bleeding"],ans:2,
+ opinion:"เฉลยโดย Claude มั่นใจปานกลางถึงสูง: hepatic encephalopathy (flapping tremor) ที่มีตัวกระตุ้นคือ volume depletion จากยาขับปัสสาวะ ดูจาก flat JVP · ช้อย Drug-induced อาจทำให้ลังเลเพราะยาขับปัสสาวะเป็นต้นเหตุ แต่ภาวะที่กระตุ้นจริงคือขาดน้ำ (และ hypokalemia, prerenal azotemia) ส่วน drug-induced ในบริบท HE หมายถึงยากดประสาท",
+ notes:"ไข้ 37.0 °C และ PR brown stool Claude เติม เพื่อลด sepsis และ UGIB · ต้นฉบับครบ 5 ช้อย",
+ guide:"AASLD/EASL Practice Guideline on Hepatic Encephalopathy in Chronic Liver Disease 2014; EASL Clinical Practice Guidelines on Hepatic Encephalopathy 2022",
+ interp:"Cirrhosis + <b>flapping tremor</b> = <b>hepatic encephalopathy</b> · ใช้ diuretic 2 เดือน + <b>flat JVP</b> = ขาดน้ำเป็นตัวกระตุ้น",
+ why:"HE overt เกือบทุกรายมี<b>ตัวกระตุ้น</b> ต้องหาเสมอ: <b>ติดเชื้อ (SBP), GI bleeding, ใช้ diuretic เกิน → volume depletion, hypokalemia, AKI</b>, ท้องผูก, ยากดประสาท (benzodiazepine), hyponatremia · diuretic ทำให้ขาดน้ำ → prerenal azotemia ↑ ammonia · hypokalemia + metabolic alkalosis ทำให้ NH4+ เปลี่ยนเป็น NH3 ซึ่งผ่าน blood-brain barrier ได้ และเพิ่มการสร้าง ammonia ที่ไต · รักษา: <b>หยุด diuretic, ให้สารน้ำ, แก้ K</b> + <b>lactulose</b> ให้ถ่าย 2–3 ครั้งต่อวัน ± rifaximin",
+ wrong:{"A":"Drug-induced ใน HE หมายถึงยากดประสาท เช่น benzodiazepine, opioid ผู้ป่วยไม่ได้ใช้ ยาขับปัสสาวะทำผ่าน volume depletion ซึ่งมีช้อยเฉพาะ","B":"Sepsis หรือ SBP เป็นตัวกระตุ้นที่พบบ่อย แต่โจทย์ไม่มีไข้ ปวดท้อง และ flat JVP ชี้ไปที่ขาดน้ำมากกว่า","D":"Constipation กระตุ้น HE ได้ แต่ไม่มีประวัติท้องผูก และไม่อธิบาย flat JVP","E":"UGIB เป็นตัวกระตุ้นสำคัญ แต่ anemia เพียงเล็กน้อยและ PR ไม่มี melena"},
+ trap:"ซีดเล็กน้อยใน cirrhosis ทำให้คิด UGIB — ต้องดู PR และให้น้ำหนักกับ flat JVP ร่วมกับประวัติ diuretic",
+ summary:["Flapping tremor ใน cirrhosis = hepatic encephalopathy","หาตัวกระตุ้นทุกครั้ง: ติดเชื้อ, GI bleed, diuretic เกิน, K ต่ำ, ท้องผูก, ยานอนหลับ","Diuretic → volume depletion + hypokalemia → ↑ ammonia","หยุด diuretic + ให้น้ำ + แก้ K + lactulose","ทำ diagnostic paracentesis หา SBP ในทุกราย HE ที่มี ascites"],
+ variants:["ถ้าไข้ + ปวดท้อง + ascitic PMN ≥ 250 → SBP","ถ้าถามยาหลัก → lactulose ปรับให้ถ่าย 2–3 ครั้งต่อวัน"]}),
+
+R_({page:3,orig:"8",
+ stem:"A 25-year-old woman with a history of asthma presents with acute dyspnea for 1 day after a common cold. PE: T 37.2 °C, P 118/min, RR 28/min, BP 120/80 mmHg, SpO2 94% on room air. She is alert and speaks in phrases. Lungs: bilateral expiratory wheeze. She has received oxygen and nebulized salbutamol 3 doses, but she is still dyspneic. What is the most appropriate next management?",
+ gray:"โจทย์ asthma เหมือนเดิม แต่ vital sign (BP 120/80, tachycardia, tachypnea) มัน stable ไม่ต้องรีบintubation — 1. Systemic corticosteroid 2. Endotracheal intubation",
+ opts:["Systemic corticosteroid","Endotracheal intubation","Intravenous aminophylline","Oral montelukast","Intravenous ceftriaxone"],ans:0,
+ flag:"⚠ recall ไม่มีโจทย์เดิม (ผู้จดเขียนว่าเหมือนเดิม) และมีแค่ 2 ช้อย · Claude แต่งเคส acute asthma exacerbation ให้สมบูรณ์จาก vital sign ที่จดไว้ และเติมช้อย 3 ตัว",
+ opinion:"เฉลยโดย Claude มั่นใจสูง: asthma exacerbation ที่ยังรู้สึกตัวดี vital sign stable ไม่มี life-threatening feature ไม่ต้องใส่ท่อ ควรให้ systemic corticosteroid ภายใน 1 ชั่วโมง (GINA 2025) · ผู้จดเองก็เขียนว่าไม่ต้องรีบ intubation · ไฟล์ MCQ ลอง SIMD415 (Question 27) เคสคล้ายกัน (P 110, R 26, BP 130/80 พ่น salbutamol แล้วไม่ดีขึ้น) เฉลย Intravenous dexamethasone",
+ notes:"เคสทั้งหมดยกเว้น BP 120/80, tachycardia, tachypnea Claude แต่ง (อายุ เพศ ประวัติหวัด ตัวเลข P RR SpO2 การพูดเป็นวลี wheeze การพ่นยา 3 ครั้ง) · ช้อย Intravenous aminophylline, Oral montelukast, Intravenous ceftriaxone Claude เติม · ผู้จดเขียนว่า vital sign stable ไม่ต้องรีบ intubation",
+ guide:"GINA Global Strategy for Asthma Management and Prevention 2025",
+ interp:"Asthma exacerbation <b>moderate–severe</b> (พูดเป็นวลี RR 28 P 118) แต่<b>รู้สึกตัวดี BP ปกติ ไม่มี silent chest</b> = ยังไม่ต้องใส่ท่อ",
+ why:"การรักษา acute asthma ใน ED (GINA 2025): <b>O2 เป้า SpO2 93–95%</b> + <b>SABA ซ้ำ</b> (ทุก 20 นาทีในชั่วโมงแรก) + <b>ipratropium</b> ในรายรุนแรง + <b>systemic corticosteroid ภายใน 1 ชั่วโมง</b> (prednisolone 40–50 mg/วัน 5–7 วัน หรือ IV hydrocortisone, dexamethasone ถ้ากินไม่ได้) · steroid ลดการอักเสบ ลดการ admit และการกลับเป็นซ้ำ · ไม่ดีขึ้นต่อ → พิจารณา <b>IV magnesium sulfate</b> · ใส่ท่อเมื่อ<b>ซึม สับสน silent chest หายใจอ่อนแรง PaCO2 สูงขึ้น หรือ hypoxemia ที่แก้ไม่ได้</b>",
+ wrong:{"B":"Endotracheal intubation ใช้เมื่อมี life-threatening feature (ซึม silent chest, exhaustion, PaCO2 ปกติหรือสูง) ผู้ป่วยรายนี้รู้สึกตัวดี vital sign stable","C":"Aminophylline ไม่แนะนำใน acute asthma เพราะได้ผลน้อยและมีผลข้างเคียงมาก (arrhythmia, ชัก)","D":"Montelukast ไม่มีบทบาทในการรักษา exacerbation เฉียบพลัน","E":"Antibiotic ไม่แนะนำเป็นประจำ เหตุกระตุ้นส่วนใหญ่เป็นไวรัส ให้เมื่อมีหลักฐานติดเชื้อแบคทีเรีย เช่น pneumonia"},
+ trap:"เห็นหอบมาก หัวใจเต้นเร็ว หายใจเร็วแล้วรีบใส่ท่อ — ตัดสินใส่ท่อจากระดับความรู้สึกตัว silent chest และ exhaustion ไม่ใช่แค่ RR หรือ P",
+ summary:["Acute asthma: O2 + SABA ซ้ำ + ipratropium + systemic steroid ภายใน 1 ชั่วโมง","Prednisolone 40–50 mg/วัน 5–7 วัน","ไม่ดีขึ้น → IV MgSO4","ใส่ท่อเมื่อซึม silent chest exhaustion PaCO2 สูง","ไม่ใช้ aminophylline, LTRA, antibiotic ประจำ"],
+ variants:["ถ้าซึม silent chest SpO2 85% → endotracheal intubation","ถ้าให้ SABA + steroid แล้วยังไม่ดีขึ้น → IV magnesium sulfate"]})
+);
+})();

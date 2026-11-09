@@ -1,5 +1,5 @@
 SUMM.push({tag:"Dermatology", title:"Dermatology",
-  intro:"<ul><li>Dermatology ของ SI ออกเกือบทุก rotation เป็นเคสสั้นหรือรูปถ่าย ถาม <b>diagnosis</b> หรือ <b>เชื้อ / สารที่ขาด</b> เกือบทั้งหมด ไม่ค่อยถามรักษา และซ้อนกับ ID, Rheumatology, Endocrinology</li><li>ธีมหลัก: <b>severe drug reaction</b> (DRESS vs SJS / TEN, allopurinol และยากันชัก) กับ <b>HIV + umbilicated papules</b> ที่ออก 3 สนาม คำตอบ 3 เชื้อ ตัดสินด้วยลักษณะ yeast</li><li>ซ้ำอีก: measles (ผื่น confluent, Koplik spots), Candida intertrigo (satellite + DM), เล็บ → zinc</li><li>หลายเคสอ้างรูปที่ไม่มีในไฟล์ หรือ recall ขาด จึงมีคำในโจทย์ที่ธนาคารเติมเอง ดูกับดักของแต่ละธีม</li></ul>",
+  intro:"<ul><li>Dermatology ของ SI ออกเกือบทุก rotation (SI132, SI133 และ SI130) เป็นเคสสั้นหรือรูปถ่าย ถาม <b>diagnosis</b> หรือ <b>เชื้อ / สารที่ขาด</b> เกือบทั้งหมด ไม่ค่อยถามรักษา และซ้อนกับ ID, Rheumatology, Endocrinology</li><li>ธีมหลัก: <b>severe drug reaction</b> (DRESS vs SJS / TEN, allopurinol และยากันชัก) กับ <b>HIV + umbilicated papules</b> ที่ออก 3 สนาม คำตอบ 3 เชื้อ ตัดสินด้วยลักษณะ yeast</li><li>ซ้ำอีก: measles (ผื่น confluent, Koplik spots), Candida intertrigo (satellite + DM), เล็บ → zinc</li><li>SI130 เพิ่ม serum sickness-like reaction หลัง amoxicillin และแผลอวัยวะเพศแบบ herpes (ถาม investigation)</li><li>หลายเคสอ้างรูปที่ไม่มีในไฟล์ หรือ recall ขาด จึงมีคำในโจทย์ที่ธนาคารเติมเอง ดูกับดักของแต่ละธีม</li></ul>",
   groups:[
     {title:"Severe drug reaction & allergy", sections:[
       {id:"dress", title:"DRESS — allopurinol + ผื่น + eosinophilia + ตับ",
@@ -18,7 +18,12 @@ SUMM.push({tag:"Dermatology", title:"Dermatology",
        asked:["ผึ้งต่อยแล้วแพ้ทันที → ถามกลไก (ตอบ IgE-mediated)"],
        pattern:["Venom จับ <b>IgE บน mast cell + basophil</b> → degranulation: histamine, tryptase, leukotrienes","<b>Type I ทันที · II ต้านเซลล์ · III immune complex · IV T cell 48–72 ชม.</b>","Anaphylaxis: <b>epinephrine 1 mg / mL 0.3–0.5 mg IM ที่ anterolateral thigh</b> ซ้ำได้ทุก 5–15 นาที + สารน้ำ + oxygen; antihistamine และ steroid เป็นยาเสริม","ระยะยาว: venom immunotherapy, epinephrine autoinjector"],
        pearls:["Anaphylactoid ไม่ผ่าน IgE เช่น contrast, vancomycin infusion reaction"],
-       members:["SI133|Ro407–408|12"]}
+       members:["SI133|Ro407–408|12"]},
+      {id:"sslr", title:"Serum sickness-like reaction หลัง amoxicillin — idiosyncratic",
+       asked:["หญิง 30 ปี ได้ amoxicillin-clavulanate 8 วัน → ไข้ต่ำ ๆ + ผื่น serpiginous MP ที่ขา + ปวดข้อมือสองข้าง → ถามกลไก (ตอบ idiosyncratic reaction ช้อยมี delayed-type hypersensitivity, drug-induced lupus, IgE-mediated, pseudoallergic)"],
+       pattern:["<b>SSLR</b>: เริ่ม <b>1–3 สัปดาห์</b>หลังยา (cefaclor, amoxicillin, TMP-SMX, minocycline) → ไข้ + ผื่น urticarial / morbilliform เป็นวง annular หรือ serpiginous + arthralgia ± ต่อมน้ำเหลืองโต","ต่างจาก <b>serum sickness แท้ (type III)</b>: ไม่มี circulating immune complex, <b>complement ปกติ</b>, ไม่มี vasculitis หรือไตอักเสบ → กลไกไม่ชัด จัดเป็น <b>idiosyncratic</b>","รักษา: หยุดยา + antihistamine, NSAID ± steroid ระยะสั้น หายใน 1–2 สัปดาห์; ห้ามใช้ยาตัวเดิมซ้ำ"],
+       pearls:["ไข้ + ผื่น + ปวดข้อหลังยาแล้วตอบ drug-induced lupus — DIL ต้องใช้ยาเป็นเดือน (procainamide, hydralazine, isoniazid) และ anti-histone บวก","Type I เกิดในนาที, type IV (DRESS, SJS) วันถึงสัปดาห์ แต่ SSLR ไม่จัดเข้า Gell-Coombs ชัดเจน"],
+       members:["SI130|Ro409–412|17"]}
     ]},
     {title:"Skin sign in HIV", sections:[
       {id:"umbilicated-papules", title:"HIV + umbilicated papules — Talaromyces vs Histoplasma vs Cryptococcus",
@@ -40,7 +45,13 @@ SUMM.push({tag:"Dermatology", title:"Dermatology",
        asked:["ตุ่มน้ำที่ใบหูจากรูป → ถามสาเหตุ (ตอบ herpes infection ช้อยมี cellulitis, malignant otitis externa, contact dermatitis, erysipelas)"],
        pattern:["<b>VZV reactivate ที่ geniculate ganglion</b>: ตุ่มน้ำที่หู + LMN facial palsy + ปวดหู ± hearing loss, vertigo","รักษา: acyclovir หรือ valacyclovir + prednisolone ภายใน 72 ชม.; ดูแลตาที่ปิดไม่สนิท","พยากรณ์แย่กว่า Bell palsy"],
        pearls:["เห็นรอยที่หูแล้วตอบ otitis — มองให้เป็นตุ่มน้ำเป็นกลุ่ม","Malignant otitis externa: เบาหวาน ปวดมาก Pseudomonas"],
-       members:["SI132|Ro405–406|45"]}
+       members:["SI132|Ro405–406|45"]},
+      {id:"genital-herpes", title:"แผลอวัยวะเพศ เล็ก หลายแผล เจ็บ ก้นสะอาด — Herpes genitalis",
+       asked:["หญิง 30 ปี แผลที่อวัยวะเพศหลายแผล 2–3 mm เจ็บ ก้นสะอาด ไม่มีต่อมน้ำเหลืองโต ไม่มีไข้ → ถาม investigation (ตอบ Tzanck smear ช้อยมี Gram stain, AFB, modified AFB, non-treponemal test)"],
+       pattern:["<b>HSV</b>: vesicles เป็นกลุ่มบนฐานแดง → แผลตื้นเล็กหลายแผล เจ็บมาก ก้นสะอาด; episode แรกอาจมีไข้ + ต่อมน้ำเหลืองโตสองข้าง, recurrent มักไม่มี","<b>Tzanck smear</b> ขูดฐานแผล → multinucleated giant cells (ไวต่ำ ไม่แยก HSV จาก VZV); ดีที่สุดปัจจุบัน = <b>HSV NAAT / PCR</b> จากแผล","รักษา episode แรก: acyclovir / valacyclovir / famciclovir 7–10 วัน","แผลเจ็บ: herpes (เล็ก หลายแผล ก้นสะอาด) vs <b>chancroid</b> (ใหญ่ ขอบ undermined ก้นหนองสกปรก + bubo, Gram stain school of fish) · แผลไม่เจ็บ: syphilis (dark field, VDRL / RPR + TPHA), LGV, donovanosis"],
+       pearls:["คีย์ต้นฉบับ SI130 ตอบ Gram stain (chancroid) แต่ธนาคารแก้เป็น Tzanck smear เพราะแผลเล็กหลายแผล ก้นสะอาด ไม่มี bubo เข้ากับ herpes","จำแค่ว่าเจ็บ = chancroid — herpes ก็เจ็บ แยกที่ขนาด จำนวน และก้นแผล"],
+       ddx:["Chancroid","Primary syphilis","LGV","Donovanosis"],
+       members:["SI130|Ro409–412|4"]}
     ]},
     {title:"Fungal skin infection", sections:[
       {id:"candida-intertrigo", title:"Candida intertrigo vs tinea cruris",
