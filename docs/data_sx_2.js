@@ -4048,6 +4048,11 @@ U({n:200, notes:"เอกสารประกอบการสอน (ไฟ�
 
 })(WARDS["sx"]);
 (function(W){W.UNIT=W.UNIT||[];
+/* Unit round — L04 Gallstone diseases, Biliary anatomy & physiology, MIS · ใส่แค่หัวข้อบทไว้ก่อน (ยังไม่มีโจทย์ ตาม override 26 ต.ค. 2026) */
+W.UNIT.push({"id": "L04", "title": "L04 Gallstone diseases, Biliary anatomy & physiology, MIS", "short": "L04", "src": "L04 bile metabolism handout + surgical anatomy biliary system handout + MIS Chula book chapter + MIS and Gallstones med student lecture (อ.วรณัฐา วัชราทิตย์)", "topic": "Gallbladder & Biliary", "tags": ["Gallstone", "Jaundice", "MIS"],"QB":[]});
+
+})(WARDS["sx"]);
+(function(W){W.UNIT=W.UNIT||[];
 /* Unit round — L05 Basic plastic surgery · ใส่แค่หัวข้อบทไว้ก่อน (ยังไม่มีโจทย์ ตาม override 26 ต.ค. 2026) */
 W.UNIT.push({"id": "L05", "title": "L05 Basic plastic surgery", "short": "L05", "src": "L05 Basic plastic surgery.pdf (Seree Iamphongsai, MD)", "topic": "Skin & Soft tissue", "tags": ["Plastic"],"QB":[]});
 
@@ -17206,6 +17211,347 @@ W.IO={
 ]
 },
 {
+"code": "L04",
+"kind": "L",
+"title": "Gallstone diseases, Biliary anatomy & physiology, MIS",
+"src": "ผู้สอน อ.(พิเศษ)/ผศ.พญ.วรณัฐา วัชราทิตย์ (Voranaddha Vacharathit) · 4 ไฟล์รวมกัน ไม่มีไฟล์หลัก: (A) เอกสารประกอบการสอน \"Bile Metabolism: Clinical Correlations\" (8 หน้า ตัวพิมพ์) · (B) เอกสารประกอบการสอน \"Surgical Anatomy of the Biliary System\" (16 หน้า ตัวพิมพ์; หน้า 2–5 เป็นแบบฟอร์มรายวิชา) · (C) Chula book chapter \"MIS and Robotic Surgery 101\" ผศ.พญ.วรณัฐา + รศ.ดร.นพ.โสภาคย์ มนัสนยกรณ์ (13 หน้า) · (D) สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (30 หน้า: s1–s27 สไลด์ + ลายมือน้ำเงิน/ชมพู · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ)",
+"upd": "2026-11-09",
+"legend": "<span><span class=\"imp\">ตัวแดง</span> = สำคัญ/เน้น</span><span><span class=\"hw\">ตัวเอียงม่วง</span> = ลายมือในไฟล์ D (น้ำเงิน/ชมพู)</span><span><span class=\"star\">★</span> = ดาวแดงของผู้สอน must know (D s12 มุมบน = ทั้งหน้า) · <span class=\"star\">✱</span> = ดาวลายมือชมพู (D s8)</span><span>ไม่พบ 🟡 สามเหลี่ยมเหลือง / 🟢 วงกลมเขียว / ❌ ในบทนี้</span><span><span class=\"ref\">A p5</span> = ไฟล์ A หน้า PDF 5 · <span class=\"ref\">B p13</span> = ไฟล์ B · <span class=\"ref\">C p8</span> = ไฟล์ C · <span class=\"ref\">D s12</span> = ไฟล์ D หน้า 12</span><span><span class=\"chip d\">! ต่าง</span> = ไฟล์เขียนไม่ตรงกัน (เขียนทั้งสองค่า)</span><span><span class=\"chip x\">✏ แก้</span> = ต้นฉบับผิด/เก่า แสดงทั้งค่าเดิมและค่าที่ถูก · <span class=\"chip x\">⚠ ตรวจ</span> = ไม่แน่ใจ</span><span><span class=\"chip e\">เสริม</span> = เพิ่มจาก guideline/ตำรา (นอกไฟล์)</span><span>\"ควิซในห้อง\" = ภาพ Kahoot D s28–s30 พร้อมลายมือ</span>",
+"pages": [
+{
+"id": "L04-1",
+"title": "Bile: องค์ประกอบ, bile acids/salts, enterohepatic circulation และ CCK",
+"topics": [
+"Gallbladder & Biliary"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">บทนี้รวม 4 ไฟล์ของ อ.วรณัฐา (A bile metabolism · B surgical anatomy · C MIS chapter · D สไลด์ Gallstone &amp; MIS) · หน้าแรก = พื้นฐาน bile: <span class=\"imp\">Bile = bile salts + phospholipid (lecithin) + cholesterol + bilirubin + น้ำ + electrolytes</span> · bile acid สร้างจาก cholesterol โดย <span class=\"imp\">rate-limiting enzyme = cholesterol 7α-hydroxylase</span> · <span class=\"imp\">ดูดกลับที่ terminal ileum (&gt;95%) → enterohepatic circulation</span> · <span class=\"imp\">CCK จาก I-cell</span> → GB หดตัว + sphincter of Oddi คลาย</div>\n<div class=\"box\"><h3>Bile คืออะไร — สูตรที่ต้องจำ<span class=\"ref\">A p4 · A p5 · D s5</span></h3>\n<ul>\n<li>สร้างโดย <b>hepatocyte ในอัตราคงที่ (constant rate)</b> · หน้าที่ (1) ขับ toxin/metabolite ออกจากตับ (2) ช่วยย่อย/ดูดซึมไขมัน (emulsify + solubilize)</li>\n<li>เก็บและ <b>ทำให้เข้มข้นใน gallbladder</b> โดย <b>isosmotic absorption ของน้ำและ solute</b> จนกว่าจะมีอาหาร → หลั่งเข้าลำไส้ → ดูดกลับมาใช้ใหม่ = <b>enterohepatic circulation</b></li>\n<li>สีเหลืองทอง–เขียว (golden yellow-green) <span class=\"ref\">B p8</span></li></ul>\n<div class=\"mn\"><b class=\"k\">**Remember (A p5 = D s5):</b> Bile = <b>bile salts</b> (primary bile salts = <b>cholic / chenodeoxycholic acid</b> conjugated กับ <b>glycine / taurine</b>) + <b>phospholipids (lecithin)</b> + <b>cholesterol</b> + <b>bilirubin (bile pigments)</b> + <b>water</b> + <b>electrolytes</b></div>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">ตับสร้าง bile ราว 500–1,000 mL/วัน · bile salt pool ทั้งร่างกายราว 2–4 g วนผ่าน enterohepatic circulation หลายรอบต่อวัน (~6–10 รอบ) จึงสร้างใหม่แค่ส่วนที่เสียไปทางอุจจาระ {{R:5}}</span></div></div>\n<div class=\"box\"><h3>Bile acids → bile salts<span class=\"ref\">A p4 · A p5 (Figure 1)</span></h3>\n<ul>\n<li><b>Bile acids = องค์ประกอบหลัก ~50% ของส่วนที่เป็นของแข็ง (solid component) ของ bile</b></li>\n<li><b>Primary bile acids</b> = <span class=\"imp\">cholic acid + chenodeoxycholic acid</span> — ตับสร้างจาก <b>cholesterol</b> · rate-limiting step ใช้ <span class=\"imp\">cholesterol 7-α hydroxylase</span></li>\n<li>เข้าลำไส้ → <b>แบคทีเรีย dehydroxylate</b> → <b>secondary bile acids</b> = <span class=\"imp\">deoxycholic acid</span> (จาก cholic) + <span class=\"imp\">lithocholic acid</span> (จาก chenodeoxycholic)</li>\n<li>ตับ <b>conjugate กับ glycine หรือ taurine</b> → ละลายน้ำได้ อยู่กับ cation (มักเป็น Na⁺) → เรียกว่า <b>bile salts</b> (ทั้ง 4 bile acids conjugate ได้ทั้งคู่)</li>\n<li>ดูดกลับที่ <b>terminal ileum</b> แล้วกลับตับโดย <b>จับกับ albumin</b> · <span class=\"imp\">ขับทิ้งทางอุจจาระ &lt;5%/วัน</span> → ตับจึงสร้างใหม่แค่ปริมาณน้อยต่อวัน</li></ul>\n{{IMG:l04_bileacids}}\n<div class=\"flow\"><span class=\"n\">Cholesterol</span><span class=\"ar\">→ 7α-hydroxylase →</span><span class=\"n\">Cholic / Chenodeoxycholic (primary)</span><span class=\"ar\">→ conjugate glycine/taurine →</span><span class=\"n\">Bile salts</span><span class=\"ar\">→ ลำไส้ (bacteria) →</span><span class=\"n\">Deoxycholic / Lithocholic (secondary)</span><span class=\"ar\">→ terminal ileum ดูดกลับ &gt;95% →</span><span class=\"n\">Portal vein (albumin) → ตับ</span></div></div>\n<div class=\"box\"><h3>Lipids ใน bile<span class=\"ref\">A p5</span></h3>\n<ul>\n<li>ไขมันหลัก = <b>phospholipid (ส่วนใหญ่เป็น lecithin)</b> และ <b>cholesterol</b> — <b>ปกป้อง hepatocyte จากความเป็นพิษของ bile</b></li>\n<li>การขับทิ้งทาง bile (ในรูป bile salts หรือ cholesterol) = <b>ทางหลักที่ร่างกายกำจัด cholesterol</b></li>\n<li>ในลำไส้: bile salts + phospholipid + cholesterol รวมกับไขมันจากอาหารเป็น <b>mixed micelles</b> → enterocyte ดูดซึมได้ดี</li>\n<li><b>↓ bile เข้าลำไส้ = ↓ micellar solubility = ↓ fat absorption</b> <span class=\"ref\">A p6</span> (ดู Case 2 ใน L04-2)</li></ul></div>\n<div class=\"box\"><h3>CCK และการบีบตัวของถุงน้ำดี<span class=\"ref\">A p7 · B p8</span></h3>\n<ul>\n<li>อาหาร (small peptides, amino acids, fatty acids) กระตุ้น <span class=\"imp\">I-cells ของ duodenum + jejunum</span> หลั่ง <b>cholecystokinin (CCK)</b></li>\n<li>CCK → <b>gallbladder contraction</b> + <b>relaxation ของ sphincter of Oddi</b> → bile เข้า duodenum</li>\n<li>CCK ยัง <b>ยับยั้ง gastric emptying</b> → อาหารผ่านช้าลง มีเวลาย่อย/ดูดซึมมากขึ้น</li>\n<li>Vagus (parasympathetic) ก็ทำให้ GB หดตัวได้ แต่ <b>อ่อนกว่า CCK</b> · sympathetic (celiac plexus) → GB คลาย <span class=\"ref\">B p10</span> (รายละเอียดใน L04-4)</li></ul>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">นี่คือเหตุผลที่ biliary colic สัมพันธ์กับ <b>มื้อไขมัน</b> (D s13) — ไขมันกระตุ้น CCK → GB บีบไล่นิ่วไปอุด cystic duct ชั่วคราว</span></div></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ A — เอกสารประกอบการสอน \"Bile Metabolism: Clinical Correlations\" เรียบเรียงโดย อ.(พิเศษ) พญ.วรณัฐา วัชราทิตย์ ภาควิชาศัลยศาสตร์ รพ.จุฬาลงกรณ์ (8 หน้า)"
+},
+{
+"t": "L04 ไฟล์ B — เอกสารประกอบการสอน \"Surgical Anatomy of the Biliary System\" เรียบเรียงโดย อ.(พิเศษ) พญ.วรณัฐา วัชราทิตย์ (16 หน้า; รูปจาก Mahadevan 2020 และ Schwartz 11th ed.)"
+},
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+},
+{
+"t": "Brunicardi FC, et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill; 2019 — บท Gallbladder and the Extrahepatic Biliary System"
+},
+{
+"t": "Townsend CM, et al. Sabiston Textbook of Surgery, 21st ed. Elsevier; 2022 — บท Biliary System"
+}
+]
+},
+{
+"id": "L04-2",
+"title": "Bilirubin metabolism, jaundice และ case-based discussion (ไฟล์ A)",
+"topics": [
+"Jaundice",
+"Gallbladder & Biliary"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\"><span class=\"imp\">Heme → unconjugated bilirubin (จับ albumin) → ตับ conjugate กับ glucuronic acid → ละลายน้ำ → bile → ลำไส้ (แบคทีเรีย) → urobilinogen → ส่วนใหญ่เป็น stercobilin ในอุจจาระ</span> · ท่อน้ำดีอุดตัน = <span class=\"imp\">direct bilirubin สูง + ปัสสาวะสีชา + อุจจาระซีด</span></div>\n<div class=\"box\"><h3>Bilirubin pathway<span class=\"ref\">A p6 (Figure 3) · D s4</span></h3>\n<ol>\n<li><b>Heme</b> จากการแตกของเม็ดเลือดแดง (สไลด์: spleen ~80%, bone marrow ~20%) → macrophage → <b>unconjugated bilirubin</b> (waste product)</li>\n<li>ขนส่งไปตับเป็น <b>unconjugated bilirubin–albumin complex</b></li>\n<li>ตับ: uptake → <b>conjugation กับ glucuronic acid</b> → secretion → drainage · conjugated = <b>ละลายน้ำ</b> → ออกมากับ bile</li>\n<li>ลำไส้: แบคทีเรียเปลี่ยน conjugated bilirubin → <b>urobilinogen</b></li>\n<li>urobilinogen ~20% ดูดกลับ (enterohepatic recirculation; บางส่วนขับทางไต → oxidize เป็น <b>urobilin</b> ให้สีปัสสาวะ) · ~80% → <b>stercobilinogen → stercobilin</b> (สีน้ำตาลของอุจจาระ)</li></ol>\n{{IMG:l04_bilirubin}}\n<div class=\"mut\">รูป A p6 (ดัดแปลงจาก AMBOSS) มีป้ายเพิ่ม: \"+glucuronic acid\", \"enterohepatic recirculation (90%)\", \"+bacteria\", \"oxidation\", \"Kidney excretion\" — สไลด์ D s4 เป็นรูปเดียวกันแบบไม่มีป้ายเหล่านี้</div></div>\n<div class=\"box\"><h3>ในภาวะ jaundice (obstructive)<span class=\"ref\">A p6</span></h3>\n<ul>\n<li><b>conjugated bilirubin สูง</b> → ละลายน้ำ จึง <b>ขับทางไตมากขึ้น</b> → ปัสสาวะ <span class=\"imp\">สีน้ำตาลเข้ม / \"tea colored\"</span></li>\n<li>ถ้า bile (conjugated bilirubin ที่จะกลายเป็น stercobilin) <b>ไปไม่ถึง colon</b> → <span class=\"imp\">อุจจาระไม่เป็นสีน้ำตาล (ซีด)</span></li>\n<li><b>↓ bile transit เข้า GI = ↓ micellar solubility = ↓ fat absorption</b> (steatorrhea, ขาดวิตามินละลายในไขมัน)</li></ul>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">unconjugated bilirubin จับ albumin แน่น ไม่ผ่าน glomerulus → hemolysis ทำให้ตัวเหลืองแต่ <b>ปัสสาวะไม่มี bilirubin</b> (acholuric jaundice) ; ท่อน้ำดีอุดตันสมบูรณ์ → urine urobilinogen <b>ลดลง/หายไป</b> เพราะ bilirubin ไม่ถึงลำไส้ {{R:4}}</span></div></div>\n<div class=\"box\"><h3>Case 1 (ไฟล์ A) — หญิง 70 ปี dementia ตัวเหลือง ปัสสาวะสีชา ไม่ปวดท้อง<span class=\"ref\">A p7</span></h3>\n<table class=\"fx\"><tr><th>Lab</th><th>ค่า</th><th>ปกติ</th></tr>\n<tr><td>WBC</td><td>10,000</td><td>4,000–11,000</td></tr><tr><td>ALP</td><td>170</td><td>40–130</td></tr><tr><td>AST / ALT</td><td>60 / 55</td><td>5–40</td></tr><tr><td>Total bilirubin</td><td>7</td><td>0.2–1</td></tr><tr><td>Direct bilirubin</td><td>5</td><td>0–0.2</td></tr></table>\n<p class=\"mut\">คำถามในเอกสาร: (1) DDx ของ jaundice (2) TB + DB สูงบอกอะไร อธิบายด้วยกลไก (3) cholelithiasis vs choledocholithiasis + pathogenesis — <b>เฉลยในเอกสาร \"Provided AFTER session\" ไม่ได้แนบมา</b> ด้านล่างเป็นเฉลยที่เรียบเรียงจากเนื้อหาไฟล์ A–D + ตำรา</p>\n<ul>\n<li><b>(2)</b> DB/TB ≈ 5/7 (&gt;50%) = <b>conjugated hyperbilirubinemia</b> → ตับยัง conjugate ได้ แต่ <b>ขับ/ระบาย bile ไม่ออก</b> → ย้อนเข้าเลือด → ไตขับ → ปัสสาวะสีชา · ALP สูงเด่นกว่า AST/ALT = <b>cholestatic pattern</b> → คิดถึง <b>obstructive jaundice</b></li>\n<li><b>Painless jaundice ในผู้สูงอายุ</b> → ต้องคิด <b>malignant obstruction</b> (periampullary CA, CA head of pancreas, cholangiocarcinoma, GB CA) ก่อน รวมถึง CBD stone ที่ไม่ปวด <span class=\"chip e\">เสริม</span> → US ดู duct dilatation ต่อด้วย CT/MRCP {{R:6}}</li>\n<li><b>(3) Cholelithiasis</b> = นิ่วใน <b>gallbladder</b> (cholesterol / black pigment เกิดใน GB) · <b>Choledocholithiasis</b> = นิ่วใน <b>CBD</b> — <b>secondary</b> (หลุดจาก GB ลงมา; พบบ่อยกว่า) หรือ <b>primary</b> (เกิดใน duct เอง = brown pigment จาก stasis + infection) <span class=\"ref\">D s8 · D s11</span> (ดู L04-3)</li></ul></div>\n<div class=\"box\"><h3>Case 2 (ไฟล์ A) — หญิง 30 ปี Crohn's มี terminal ileum stricture → ileocecectomy → steatorrhea<span class=\"ref\">A p7</span></h3>\n<ul>\n<li><b>(1) ทำไม steatorrhea:</b> terminal ileum = ที่ <b>ดูดกลับ bile salts</b> → ตัดออก → bile salts <b>หลุดไปทางอุจจาระ</b> → ตับสร้างชดเชยไม่ทัน → <b>bile salt pool ลด</b> → micelle ไม่พอ → <b>ดูดซึมไขมันไม่ได้</b> <span class=\"ref\">A p4 · A p6</span></li>\n<li><b>(2) ผลระยะยาว</b> <span class=\"chip e\">เสริม</span>: ขาด <b>fat-soluble vitamins A D E K</b> (กระดูกบาง, coagulopathy) · ขาด <b>vitamin B12</b> (ดูดซึมที่ terminal ileum → megaloblastic anemia) · <b>cholesterol gallstones</b> (bile salt pool ลด → bile supersaturated) · <b>calcium oxalate kidney stones</b> (Ca จับไขมันในลำไส้ → oxalate อิสระดูดซึมมาก) · bile acid diarrhea (resection สั้น) {{R:4}}</li></ul>\n<div class=\"mn\"><b class=\"k\">ตัด terminal ileum → \"ไขมัน–วิตามิน–B12–นิ่ว 2 ที่\"</b> = steatorrhea, ADEK, B12, นิ่วถุงน้ำดี + นิ่วไต (oxalate)</div></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ A — เอกสารประกอบการสอน \"Bile Metabolism: Clinical Correlations\" เรียบเรียงโดย อ.(พิเศษ) พญ.วรณัฐา วัชราทิตย์ ภาควิชาศัลยศาสตร์ รพ.จุฬาลงกรณ์ (8 หน้า)"
+},
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+},
+{
+"t": "Kiriyama S, Kozaka K, Takada T, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci 2018;25:17–30. doi:10.1002/jhbp.512",
+"u": "https://doi.org/10.1002/jhbp.512"
+},
+{
+"t": "Brunicardi FC, et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill; 2019 — บท Gallbladder and the Extrahepatic Biliary System"
+},
+{
+"t": "Townsend CM, et al. Sabiston Textbook of Surgery, 21st ed. Elsevier; 2022 — บท Biliary System"
+},
+{
+"t": "Buxbaum JL, Abbas Fehmi SM, Sultan S, et al. ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc 2019;89:1075–1105.e15. doi:10.1016/j.gie.2018.10.001",
+"u": "https://doi.org/10.1016/j.gie.2018.10.001"
+}
+]
+},
+{
+"id": "L04-3",
+"title": "Gallstone pathogenesis: cholesterol vs black vs brown pigment stones, ตำแหน่งที่เกิด, ไทย vs USA",
+"topics": [
+"Gallbladder & Biliary"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">นิ่วเกิดเมื่อ <span class=\"imp\">องค์ประกอบ bile เสียสมดุล</span> หรือ <span class=\"imp\">biliary stasis</span> · 3 ชนิด: <span class=\"imp\">Cholesterol (abnormal cholesterol metabolism)</span> · <span class=\"imp\">Black pigment (hemolysis, cirrhosis)</span> · <span class=\"imp\">Brown pigment (biliary infection/infestation — เกิดใน bile duct = primary CBD stone, พบในเอเชีย)</span> · ลายมือ: ไทยเมื่อก่อน pigment มากกว่า ปัจจุบัน ~USA</div>\n<div class=\"box\"><h3>ทำไมนิ่วเกิด — สมดุล 3 องค์ประกอบ + stasis<span class=\"ref\">A p5 (Figure 2) · D s6</span></h3>\n<ul>\n<li>Stones form เมื่อ <b>องค์ประกอบ bile เสียสมดุล</b> (Figure 2) หรือ <b>biliary stasis</b> → องค์ประกอบตกตะกอนออกจากสารละลาย</li>\n<li>ตัวอย่าง stasis ในไฟล์: <b>critically ill · NPO นาน · TPN · ตั้งครรภ์</b></li>\n<li>Triangular phase diagram (Admirand–Small): แกน % cholesterol / % lecithin / % bile salt — <b>ช่องเล็ก ๆ ด้านล่าง = 1 phase liquid (micellar)</b> = ละลายครบ ; นอกช่องนี้ = 2–3 phases (crystals + liquid) → ตกผลึกเป็นนิ่ว</li></ul>\n{{IMG:l04_ternary}}\n<div class=\"mut\">A p5 และ D s6 ใช้รูปเดียวกัน (Sabiston)</div></div>\n<div class=\"box\"><h3>3 ชนิดของนิ่ว<span class=\"ref\">D s8 · D s9 · D s10 · D s11</span></h3>\n<table class=\"fx\"><tr><th></th><th>Cholesterol stones</th><th>Black pigment stones</th><th>Brown pigment (mixed) stones</th></tr>\n<tr><td>สัดส่วน (D s8)</td><td>~80%</td><td>~10%</td><td>~10%</td></tr>\n<tr><td>เกิดที่</td><td><b>gallbladder</b></td><td>ส่วนใหญ่ <b>gallbladder</b></td><td>ส่วนใหญ่ <b>biliary ducts</b></td></tr>\n<tr><td>สาเหตุหลัก (วง + ดาวลายมือชมพู <span class=\"star\">✱</span>)</td><td><span class=\"imp\">Abnormal cholesterol metabolism</span> → hypersaturated bile (↑cholesterol, ↓bile salts, ↓lecithin) + Ca²⁺</td><td><span class=\"imp\">Hemolysis</span> → ↑unconjugated bilirubin + Ca²⁺ → <b>calcium bilirubinate</b></td><td><span class=\"imp\">Biliary infection or infestation</span> → แบคทีเรีย <b>↑β-glucuronidase</b> → deconjugate bilirubin → calcium bilirubinate + fatty acid (จาก lecithin) + cholesterol</td></tr>\n<tr><td>สไลด์ขยาย</td><td>—</td><td>D s9: พบใน GB เป็นหลัก · <b>ไม่สัมพันธ์กับ infection</b> · พบใน <b>hemolytic disorders</b> และ <b>cirrhosis</b></td><td>D s10: <b>พบมากในเอเชีย</b> · องค์ประกอบ <b>เหมือน primary CBD stones</b> · <b>เกิดจาก infection</b></td></tr></table>\n{{IMG:l04_stones}}\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">black pigment ยังพบใน thalassemia/sickle cell, ileal resection/Crohn's (bilirubin ดูดกลับมากขึ้น), TPN · brown pigment สัมพันธ์กับ stasis + bacterial infection (E. coli สร้าง β-glucuronidase) และพยาธิใบไม้ตับ (Opisthorchis/Clonorchis) ในเอเชีย · Risk ของ cholesterol stone: female, fertile (pregnancy/estrogen), forty, fat (obesity), rapid weight loss/bariatric, ethnicity {{R:4}} {{R:5}}</span></div></div>\n<div class=\"box\"><h3>นิ่วเกิดที่ไหน — ลายมือบนรูป D s11<span class=\"ref\">D s11</span></h3>\n<ul>\n<li>ที่ gallbladder (จุดแดงใหญ่ที่ neck): ลายมือน้ำเงิน <span class=\"hw\">สร้าง chol. stone, black stone, 2° CBD stone</span> · ชมพูเขียน <span class=\"hw\">m/c</span> เหนือ chol.</li>\n<li>ที่ CBD ส่วนปลาย: <span class=\"hw\">1° CBD stone</span></li>\n<li>สรุป: <b>Secondary CBD stone</b> = นิ่วจาก GB หลุดลงมา (cholesterol/black) · <b>Primary CBD stone</b> = เกิดใน duct เอง (brown pigment)</li>\n<li>รูปขวา (AMBOSS): CBD + pancreatic duct รวมเป็น <b>hepatopancreatic ampulla</b> ล้อมด้วย <b>hepatopancreatic sphincter (sphincter of Oddi)</b> เปิดที่ <b>major duodenal papilla</b> · accessory pancreatic duct เปิดที่ <b>minor duodenal papilla</b></li></ul>\n{{IMG:l04_sites}}\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">นิยามที่นิยมใช้: นิ่ว CBD ที่พบ <b>&gt;2 ปีหลัง cholecystectomy</b> ถือว่าน่าจะเป็น primary ; &lt;2 ปี = retained/secondary {{R:4}}</span></div></div>\n<div class=\"box\"><h3>ชนิดนิ่ว: USA vs ไทย<span class=\"ref\">D s7</span></h3>\n<table class=\"fx\"><tr><th>USA</th><th>Thailand</th></tr>\n<tr><td>• <b>70% cholesterol stones</b></td><td>• <b>28–40% cholesterol stones</b><br>• <b>52–55% pigment stones</b> — ลายมือใต้ตัวเลข: <span class=\"hw\">เมื่อก่อน</span><br>ลายมือข้างหัวข้อ: <span class=\"hw\">ปจบ. → ~USA</span> (ปัจจุบันใกล้เคียง USA คือ cholesterol มากกว่า)</td></tr></table>\n<div class=\"mut\">อ้างอิงบนสไลด์: J Med Assoc Thai 1993;76(2):98-100 · J Int Coll Surg Thai 1986;29(2):53-56 · Songkla Med J 2006;24(5):419-23</div>\n<div><span class=\"chip d\">! ต่าง</span> <span class=\"mut\">สัดส่วน cholesterol stone: <b>D s7 = 70% (USA)</b> vs <b>D s8 = ~80%</b> (รูป AMBOSS, ประชากรตะวันตก) — ต่างกันตามแหล่ง ข้อสอบมักถาม \"ชนิดที่พบบ่อยสุด = cholesterol\"</span></div></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ A — เอกสารประกอบการสอน \"Bile Metabolism: Clinical Correlations\" เรียบเรียงโดย อ.(พิเศษ) พญ.วรณัฐา วัชราทิตย์ ภาควิชาศัลยศาสตร์ รพ.จุฬาลงกรณ์ (8 หน้า)"
+},
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+},
+{
+"t": "Brunicardi FC, et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill; 2019 — บท Gallbladder and the Extrahepatic Biliary System"
+},
+{
+"t": "Townsend CM, et al. Sabiston Textbook of Surgery, 21st ed. Elsevier; 2022 — บท Biliary System"
+},
+{
+"t": "European Association for the Study of the Liver (EASL). EASL Clinical Practice Guidelines on the prevention, diagnosis and treatment of gallstones. J Hepatol 2016;65:146–181. doi:10.1016/j.jhep.2016.03.005",
+"u": "https://doi.org/10.1016/j.jhep.2016.03.005"
+}
+]
+},
+{
+"id": "L04-4",
+"title": "Surgical anatomy: biliary tree และ gallbladder (ขนาด, ส่วนต่าง ๆ, histology, blood supply, innervation)",
+"topics": [
+"Gallbladder & Biliary"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">ท่อน้ำดีเริ่มจาก <span class=\"imp\">canaliculi → ductules → ducts → R/L hepatic duct → CHD + cystic duct = CBD → D2</span> · GB <span class=\"imp\">7–10 × 4 cm</span>, fundus–body–infundibulum (<span class=\"imp\">Hartmann's pouch = ที่นิ่วติดบ่อยสุด</span>) · ผนัง GB <span class=\"imp\">ไม่มี muscularis mucosae และ submucosa</span> · <span class=\"imp\">cystic artery จาก right hepatic artery ~90%</span></div>\n<div class=\"box\"><h3>Biliary tree — intrahepatic → extrahepatic<span class=\"ref\">B p8 (Figure 1)</span></h3>\n<div class=\"flow\"><span class=\"n\">Canaliculi (ช่องระหว่าง hepatocyte)</span><span class=\"ar\">→</span><span class=\"n\">Ductules</span><span class=\"ar\">→</span><span class=\"n\">Ducts</span><span class=\"ar\">→</span><span class=\"n\">Right &amp; Left hepatic ducts (extrahepatic)</span><span class=\"ar\">→</span><span class=\"n\">Common hepatic duct</span><span class=\"ar\">+ cystic duct →</span><span class=\"n\">Common bile duct → 2nd part duodenum</span></div>\n{{IMG:l04_tree}}\n<div class=\"mut\">Figure 1 (Mahadevan 2020): ระดับ porta hepatis = เส้นประ · CBD แบ่งเป็น supraduodenal / retroduodenal / retropancreatic</div></div>\n<div class=\"box\"><h3>Gallbladder — gross anatomy<span class=\"ref\">B p9 (Figure 2, 3)</span></h3>\n<ul>\n<li><b>Endoderm-derived</b> · อยู่ใน fossa ใต้ผิวล่างของตับ</li>\n<li>ขนาด <b>ยาว 7–10 cm · เส้นผ่านศูนย์กลาง 4 cm</b> เมื่อโป่ง</li>\n<li>แบ่ง <b>fundus, body, infundibulum</b> (+ neck ต่อ cystic duct)</li>\n<li><span class=\"imp\">Hartmann's pouch</span> = ส่วนโป่งของ mucosa ตรงรอยต่อ neck กับ cystic duct = <span class=\"imp\">ที่ที่นิ่วไปติด (impaction) บ่อยที่สุด</span> <span class=\"chip x\">✏ แก้</span> <span class=\"mut\">ไฟล์สะกด \"Hartman's\" — ชื่อที่ถูกคือ Hartmann</span></li>\n<li>Figure 3: cystic duct มี <b>spiral valve (of Heister)</b></li></ul>\n{{IMG:l04_gbliver}}\n{{IMG:l04_gbint}}</div>\n<div class=\"box\"><h3>ผนัง gallbladder (histology) — สำคัญต่อ GB cancer<span class=\"ref\">B p9 · B p10</span></h3>\n<table class=\"fx\"><tr><th>ชั้น (ใน → นอก)</th><th>ลักษณะ</th></tr>\n<tr><td>1. Mucosa</td><td><b>simple columnar epithelium + microvilli</b> · ดูด Na⁺ และน้ำ → ทำ bile ให้เข้มข้น</td></tr>\n<tr><td>2. Lamina propria</td><td>loose connective tissue บาง ๆ มี blood vessels + lymphatics</td></tr>\n<tr><td>3. Muscularis propria</td><td>บาง ไม่แบ่งชั้นชัด (circular, longitudinal, oblique) อยู่ติด lamina propria <b>โดยไม่มี submucosa คั่น</b></td></tr>\n<tr><td>4. Adventitia (perimuscular CT) / Serosa</td><td>มีเส้นประสาท หลอดเลือด lymphatics มาก · <b>serosa สิ้นสุดตรงที่ GB ฝังในตับ</b> (ด้านตับไม่มี serosa)</td></tr></table>\n<div class=\"imp\">ต่างจากทางเดินอาหารส่วนอื่น: GB ไม่มี muscularis mucosae และไม่มี submucosa</div>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">ไม่มี submucosa + ด้านตับไม่มี serosa → มะเร็งที่เลย muscularis (T2) ลามเข้าตับ/lymphatics ได้ง่าย · <b>Rokitansky–Aschoff sinuses</b> = mucosa ยื่นลงใน muscle (chronic cholecystitis/adenomyomatosis) (ดู L04-6 Case 1) {{R:3}}</span></div></div>\n<div class=\"box\"><h3>Blood supply และ innervation ของ GB<span class=\"ref\">B p10 · B p11 (Figure 4)</span></h3>\n<ul>\n<li><b>Cystic artery</b>: <span class=\"imp\">แตกจาก right hepatic artery ~90%</span> แต่ทั้งจุดกำเนิดและทางเดิน <b>แปรผันมาก</b></li>\n<li><b>Sympathetic</b> จาก <b>celiac plexus</b> → <b>GB relaxation</b> · <b>Parasympathetic</b> จาก <b>hepatic branch ของ vagus</b> → GB contraction (แรงน้อยกว่า CCK)</li>\n<li><b>Sensory</b> จาก <span class=\"imp\">phrenic nerve (C3–5)</span> <span class=\"chip e\">เสริม</span> <span class=\"mut\">→ อธิบายอาการปวดร้าวไป <b>ไหล่ขวา</b> (D s13)</span></li></ul>\n<table class=\"fx\"><tr><th>Figure 4 — variation ของ cystic artery</th><th>ความถี่</th></tr>\n<tr><td>A. จาก right hepatic artery</td><td><b>80–90%</b></td></tr>\n<tr><td>B. จาก right hepatic artery ที่แตกจาก <b>SMA</b> (accessory/replaced)</td><td>~10%</td></tr>\n<tr><td>C. 2 cystic arteries: จาก RHA + จาก common hepatic</td><td>rare</td></tr>\n<tr><td>D. 2 cystic arteries: จาก RHA + จาก left hepatic</td><td>rare</td></tr>\n<tr><td>E. จาก RHA แต่วิ่ง <b>หน้าต่อ common hepatic duct</b></td><td>rare</td></tr>\n<tr><td>F. 2 cystic arteries จาก RHA</td><td>rare</td></tr></table>\n<div><span class=\"chip d\">! ต่าง</span> <span class=\"mut\">ข้อความ B p10 = \"90%\" ; คำบรรยายรูป B p11 = \"about 80% to 90%\"</span></div>\n{{IMG:l04_cysa}}</div>",
+"refs": [
+{
+"t": "L04 ไฟล์ B — เอกสารประกอบการสอน \"Surgical Anatomy of the Biliary System\" เรียบเรียงโดย อ.(พิเศษ) พญ.วรณัฐา วัชราทิตย์ (16 หน้า; รูปจาก Mahadevan 2020 และ Schwartz 11th ed.)"
+},
+{
+"t": "Brunicardi FC, et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill; 2019 — บท Gallbladder and the Extrahepatic Biliary System"
+},
+{
+"t": "Townsend CM, et al. Sabiston Textbook of Surgery, 21st ed. Elsevier; 2022 — บท Biliary System"
+}
+]
+},
+{
+"id": "L04-5",
+"title": "Extrahepatic bile ducts: ducts of Luschka, cystic duct variations, CBD course & blood supply, ampulla / sphincter of Oddi",
+"topics": [
+"Gallbladder & Biliary",
+"Jaundice"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">Extrahepatic duct บุด้วย <span class=\"imp\">columnar mucosa มี mucous glands (หนาแน่นที่ CBD) ไม่มีชั้นกล้ามเนื้อชัด</span> · บริเวณนี้ <span class=\"imp\">variation เยอะ → bile duct injury ใน LC</span> (Luschka → bile leak · cystic duct variation → ตัด CBD ผิดตัว) · <span class=\"imp\">CBD 5–10 mm, เลี้ยงด้วยเส้นเลือดที่ 3 และ 9 นาฬิกา</span></div>\n<div class=\"box\"><h3>ผนังท่อ + variation ที่ทำให้ผ่าตัดยาก<span class=\"ref\">B p12 (Figure 5)</span></h3>\n<ul>\n<li>บุด้วย <b>columnar mucosa</b> มี <b>mucous glands มาก (หนาแน่นที่ CBD)</b> · มี smooth muscle บ้างใน areolar tissue แต่ <b>ไม่มีชั้นกล้ามเนื้อชัดเจน</b></li>\n<li><span class=\"imp\">Ducts of Luschka</span> = ท่อน้ำดีเล็กจาก liver fossa <b>เข้า GB body โดยตรง</b> → <b>bile leak หลังผ่าตัด</b></li>\n<li><span class=\"imp\">Cystic duct variation</span> = variation ที่ \"notorious\" ที่สุด → <b>ระบุโครงสร้างผิด → ตัด CBD เพราะคิดว่าเป็น cystic duct</b></li></ul>\n<table class=\"fx\"><tr><th>Figure 5 — cystic duct variations</th></tr>\n<tr><td>A. Low junction กับ CHD · B. Cystic duct แนบติด CHD · C. High junction · D. ระบายเข้า <b>right hepatic duct</b></td></tr>\n<tr><td>E. Long cystic duct ไปรวมกับ CHD <b>หลัง duodenum</b> · F. <b>ไม่มี cystic duct</b> · G. ผ่าน <b>หลัง</b> CHD แล้วไปรวมด้านหน้า · H. ผ่าน <b>หน้า</b> CHD แล้วไปรวมด้านหลัง</td></tr></table>\n{{IMG:l04_cysd}}</div>\n<div class=\"box\"><h3>Common bile duct (CBD)<span class=\"ref\">B p13 (Figure 6)</span></h3>\n<ul>\n<li>เส้นผ่านศูนย์กลาง <span class=\"imp\">5–10 mm</span> · <b>ใหญ่ขึ้นเล็กน้อยในผู้สูงอายุ หรือหลัง cholecystectomy</b></li>\n<li><b>Supraduodenal CBD (upper 1/3)</b>: วิ่งลงล่าง <span class=\"imp\">อยู่ lateral ต่อ hepatic artery และ anterior ต่อ portal vein</span> → โค้งไป <b>หลัง D1</b> → วิ่งหลัง/ผ่าน <b>pancreatic head</b> → เฉียงในผนัง duodenum → รวมกับ pancreatic duct → เปิดที่ <b>D2 ที่ ampulla of Vater</b></li>\n<li><b>Sphincter of Oddi</b> = กล้ามเนื้อเรียบหนาวงกลมที่ ampulla → ควบคุมการหลั่ง bile + pancreatic juice</li>\n<li><b>Blood supply ของ CBD</b>: แขนงจาก <b>gastroduodenal</b> และ <b>right hepatic arteries</b> วิ่งด้าน medial + lateral <span class=\"imp\">(ตำแหน่ง 3 และ 9 นาฬิกา)</span></li></ul>\n<div><span class=\"chip x\">✏ แก้</span> <span class=\"mut\">B p13 เขียนว่า \"ราว 10% CBD กับ pancreatic duct เปิดเข้า duodenum แยกกันไม่รวมกัน <b>เรียกว่า pancreas divisum</b>\" — <b>ไม่ถูก</b>: CBD กับ main pancreatic duct เปิดแยกรูกันบน papilla (ไม่มี common channel) เป็น <b>anatomic variant ของ ampulla</b> เท่านั้น · <b>Pancreas divisum</b> = <b>dorsal กับ ventral pancreatic ducts ไม่เชื่อมกัน (failure of fusion)</b> → น้ำย่อยส่วนใหญ่ออกทาง <b>dorsal duct (Santorini) ที่ minor papilla</b> พบ ~5–10% ของประชากร {{R:3}} {{R:4}}</span></div>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">เลือดเลี้ยง CBD ~60% มาจากด้านล่าง (GDA/posterior superior pancreaticoduodenal) ~38% จากด้านบน (RHA) → ถ้าลอก CBD รอบวงมากเกินจะขาดเลือด → stricture · US: CBD &gt;6 mm (มีถุงน้ำดี) ถือว่า dilated ในเกณฑ์ ASGE {{R:3}} {{R:5}}</span></div>\n{{IMG:l04_ampulla}}</div>\n<div class=\"box\"><h3>Ampulla — โยงคลินิก<span class=\"ref\">B p13 · D s11 · D s16</span></h3>\n<ul>\n<li>CBD + pancreatic duct มาบรรจบที่ ampulla → <b>นิ่วที่หลุดมาอุด ampulla</b> ทำให้เกิดได้ทั้ง <b>cholangitis</b> และ <b>gallstone pancreatitis</b> (D s16: \"can have concomitant pancreatitis with cholangitis and cholecystitis\")</li>\n<li>ERCP ทำผ่าน major papilla (D s15: รูป ERCP ดึงนิ่ว CBD)</li></ul></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ B — เอกสารประกอบการสอน \"Surgical Anatomy of the Biliary System\" เรียบเรียงโดย อ.(พิเศษ) พญ.วรณัฐา วัชราทิตย์ (16 หน้า; รูปจาก Mahadevan 2020 และ Schwartz 11th ed.)"
+},
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+},
+{
+"t": "Brunicardi FC, et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill; 2019 — บท Gallbladder and the Extrahepatic Biliary System"
+},
+{
+"t": "Townsend CM, et al. Sabiston Textbook of Surgery, 21st ed. Elsevier; 2022 — บท Biliary System"
+},
+{
+"t": "Buxbaum JL, Abbas Fehmi SM, Sultan S, et al. ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc 2019;89:1075–1105.e15. doi:10.1016/j.gie.2018.10.001",
+"u": "https://doi.org/10.1016/j.gie.2018.10.001"
+}
+]
+},
+{
+"id": "L04-6",
+"title": "Triangle of Calot, Critical View of Safety และ case discussion ไฟล์ B (GB cancer, ตำแหน่งนิ่ว)",
+"topics": [
+"Gallbladder & Biliary",
+"Oncology principles",
+"Jaundice"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\"><span class=\"imp\">Calot's (hepatocystic) triangle = cystic duct (ล่าง) · CHD (ใน) · ผิวล่างของตับ (บน) · มี cystic artery อยู่ข้างใน</span> · <span class=\"imp\">CVS = เห็น 2 และเพียง 2 โครงสร้างเข้า GB (cystic duct + cystic artery)</span> ก่อนตัดเสมอ</div>\n<div class=\"box\"><h3>Triangle of Calot<span class=\"ref\">B p14</span></h3>\n<ul>\n<li>landmark สำคัญเพื่อ dissect อย่างปลอดภัยใน (laparoscopic) cholecystectomy</li>\n<li>ขอบ: <span class=\"imp\">cystic duct = inferior</span> · <span class=\"imp\">common hepatic duct = medial</span> · <span class=\"imp\">inferior surface ของตับ = superior</span></li>\n<li><b>Cystic artery อยู่ในสามเหลี่ยมนี้</b></li></ul>\n<div><span class=\"chip d\">! ต่าง</span> <span class=\"mut\">นิยามใน B = <b>hepatocystic triangle</b> (ขอบบนเป็นตับ) ซึ่งเป็นแบบที่ใช้ในทางผ่าตัดปัจจุบัน · <b>Calot's triangle ดั้งเดิม (1891)</b> ขอบบน = <b>cystic artery</b> — ข้อสอบบางที่แยก 2 ชื่อนี้ {{R:3}} {{R:4}}</span></div></div>\n<div class=\"box\"><h3>Critical View of Safety (CVS)<span class=\"ref\">B p14</span></h3>\n<ol>\n<li><b>hepatocystic triangle ถูกเลาะ fat และ fibrous tissue ออกหมด</b></li>\n<li><b>GB ส่วนล่าง 1/3 แยกออกจากตับ</b> จนเห็น <b>cystic plate</b></li>\n<li>เห็น <span class=\"imp\">2 และเพียง 2 โครงสร้าง</span> เข้า GB = <b>cystic duct + cystic artery</b></li></ol>\n<ul><li>ได้ CVS แล้วจึงตัด 2 โครงสร้างได้อย่างปลอดภัย · <b>ผ่าตัดต่อโดยไม่ได้ CVS = เสี่ยงตัดผิดโครงสร้าง</b> ในบริเวณที่ variation สูง</li></ul>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">SAGES/multi-society 2020: ใช้ CVS ระบุโครงสร้าง (ถ่ายภาพ/บันทึก 2 มุม) · ถ้าไม่ได้ CVS เพราะอักเสบมาก → <b>bail-out</b>: subtotal cholecystectomy (fenestrating/reconstituting), fundus-first หรือ convert เปิด/ทำ cholecystostomy · intraoperative cholangiography/US เมื่อกายวิภาคไม่ชัด {{R:2}}</span></div></div>\n<div class=\"box\"><h3>Case 1 (ไฟล์ B) — incidental GB adenocarcinoma หลัง LC<span class=\"ref\">B p14</span></h3>\n<p>หญิง 60 ปี ทำ LC (biliary colic) ไม่มีปัญหา · pathology: <b>adenocarcinoma invading muscularis propria</b> · <b>cystic duct margin negative</b></p>\n<ul>\n<li>เอกสาร: GB cancer เชื่อว่าเกิดจาก polyp ใน mucosa · รักษาตาม <b>ความลึก</b> · Stage I = <b>T1a (lamina propria)</b> และ <b>T1b (muscularis)</b> · <span class=\"imp\">T1a + margin ลบ → cholecystectomy พอ</span> · <span class=\"imp\">T1b → extended hepatic resection segment 4b + 5 + lymphadenectomy ± bile duct excision</span></li>\n<li><b>Q1 ทำไมรักษาต่างกัน</b>: GB <b>ไม่มี submucosa</b> และ muscularis บาง → พ้น muscle แล้วเจอ <b>perimuscular CT ที่มี lymphatics + ต่อเนื่องกับตับ (ด้านตับไม่มี serosa)</b> → T1b เสี่ยง LN + ลามเข้า liver bed (seg IVb/V) จึงต้องตัดเพิ่ม <span class=\"ref\">B p9 · B p10</span></li>\n<li><b>Q2 มะเร็งที่ neck vs fundus</b>: <b>neck/infundibulum</b> อยู่ใกล้ cystic duct/CHD → อุดตันเร็ว (biliary colic, cholecystitis, <b>jaundice</b>/Mirizzi-like) ตรวจพบเร็วกว่า · <b>fundus</b> ไม่อุดทางเดินน้ำดี → มักไม่มีอาการจนลุกลาม/เป็นก้อน</li>\n<li><b>Q3 ส่ง frozen section ของ cystic duct margin</b>: ถ้า <b>margin positive</b> = มะเร็งลามตาม cystic duct → ต้อง <b>ผ่าตัดใหญ่ขึ้น (bile duct excision + hepaticojejunostomy)</b> · ถ้า negative ทำแค่ hepatic resection + LND</li></ul>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">AJCC 8: T1a lamina propria · T1b muscular layer · <b>T2a</b> perimuscular CT ด้าน peritoneum · <b>T2b</b> ด้านตับ (พยากรณ์แย่กว่า) · NCCN: re-resection สำหรับ T1b ขึ้นไป · risk GB CA: นิ่วใหญ่ &gt;3 cm, porcelain GB, polyp ≥10 mm, anomalous pancreatobiliary junction {{R:5}} {{R:6}}</span></div>\n<div><span class=\"chip x\">⚠ ตรวจ</span> <span class=\"mut\">\"GB cancer is thought to arise from polyps\" — ส่วนใหญ่เกิดตามลำดับ <b>chronic inflammation (นิ่ว) → metaplasia → dysplasia → carcinoma</b> ; adenoma–carcinoma จาก polyp เป็นส่วนน้อย {{R:4}}</span></div></div>\n<div class=\"box\"><h3>Case 2 (ไฟล์ B) — 2 ผู้ป่วยนิ่วที่อาการต่างกัน: นิ่วอยู่ไหน<span class=\"ref\">B p15</span></h3>\n<table class=\"fx\"><tr><th></th><th>Patient #1</th><th>Patient #2</th></tr>\n<tr><td>ผู้ป่วย</td><td>หญิง 75 ปี jaundice + ปัสสาวะสีชา <b>ไม่ปวดท้อง</b> · HR 80 BP 120/70 T 37</td><td>หญิง 40 ปี <b>ปวด RUQ 8 ชม.</b> · HR 110 BP 120/60 <b>T 38.5</b></td></tr>\n<tr><td>Lab</td><td>WBC 11,000 · ALP 170 · AST/ALT 50/50 · <b>TB 6 / DB 5</b></td><td><b>WBC 19,000</b> · ALP 110 · AST/ALT 40/40 · <b>TB 1 / DB 0.2 (ปกติ)</b></td></tr>\n<tr><td>แปลผล</td><td>obstructive (cholestatic) jaundice โดยไม่มีการอักเสบชัด</td><td>inflammation ของ GB โดยท่อไม่อุด</td></tr>\n<tr><td><b>ตำแหน่งนิ่ว (เฉลยเรียบเรียง)</b></td><td><span class=\"imp\">CBD (choledocholithiasis)</span> — อุดทางออกน้ำดีทั้งหมด → conjugated bilirubin สูง ; ไม่ปวดอาจเพราะอุดช้า ๆ (ต้อง R/O malignancy ในผู้สูงอายุ)</td><td><span class=\"imp\">Cystic duct / Hartmann's pouch</span> → acute calculous cholecystitis ; CBD ไม่อุด จึงไม่เหลือง</td></tr></table>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">TG18: patient #2 ถ้า WBC &gt;18,000 = เข้าเกณฑ์ <b>Grade II (moderate)</b> acute cholecystitis {{R:7}} · ถ้า patient #1 มีไข้ร่วม = Charcot's triad → acute cholangitis</span></div></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ B — เอกสารประกอบการสอน \"Surgical Anatomy of the Biliary System\" เรียบเรียงโดย อ.(พิเศษ) พญ.วรณัฐา วัชราทิตย์ (16 หน้า; รูปจาก Mahadevan 2020 และ Schwartz 11th ed.)"
+},
+{
+"t": "Brunt LM, Deziel DJ, Telem DA, et al. Safe Cholecystectomy Multi-society Practice Guideline and State of the Art Consensus Conference on Prevention of Bile Duct Injury During Cholecystectomy. Ann Surg 2020;272(1):3–23. doi:10.1097/SLA.0000000000003791",
+"u": "https://doi.org/10.1097/SLA.0000000000003791"
+},
+{
+"t": "Brunicardi FC, et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill; 2019 — บท Gallbladder and the Extrahepatic Biliary System"
+},
+{
+"t": "Townsend CM, et al. Sabiston Textbook of Surgery, 21st ed. Elsevier; 2022 — บท Biliary System"
+},
+{
+"t": "AJCC Cancer Staging Manual, 8th ed. (2017) — Gallbladder (T1a lamina propria · T1b muscular layer · T2a perimuscular CT peritoneal side · T2b hepatic side)"
+},
+{
+"t": "NCCN Clinical Practice Guidelines in Oncology: Biliary Tract Cancers (เวอร์ชันล่าสุด 2025) — incidental gallbladder cancer: T1a + margin ลบ = cholecystectomy พอ ; T1b ขึ้นไป = hepatic resection (IVb/V) + lymphadenectomy ± bile duct excision",
+"u": "https://www.nccn.org/guidelines/category_1"
+},
+{
+"t": "Yokoe M, Hata J, Takada T, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci 2018;25:41–54. doi:10.1002/jhbp.515",
+"u": "https://doi.org/10.1002/jhbp.515"
+}
+]
+},
+{
+"id": "L04-7",
+"title": "Gallstone diseases: indications for cholecystectomy (★), biliary colic, acute cholecystitis, acute cholangitis",
+"topics": [
+"Gallbladder & Biliary",
+"Jaundice"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\"><span class=\"imp\">★ Indications for cholecystectomy</span> = symptomatic (biliary colic) · complications (cholecystitis, cholangitis, pancreatitis, gallstone ileus) · asymptomatic ในกลุ่มเสี่ยง · asymptomatic นิ่วใหญ่ 2–3 cm · <span class=\"imp\">Biliary colic ≤6 ชม. vs Acute cholecystitis ≥6 ชม. + ไข้ + Murphy</span> · <span class=\"imp\">Charcot triad (RUQ pain, fever, jaundice) + AMS + hypotension = Reynolds pentad</span> — รายละเอียด TG18 ดูต่อที่ R22-2, R24-18</div>\n<div class=\"box\"><h3>Indications for cholecystectomy <span class=\"star\">★</span> must know<span class=\"ref\">D s12 🔴</span></h3>\n<ul>\n<li><b>Symptomatic gallstones (biliary colic)</b></li>\n<li><b>Complications from gallstones</b>: cholecystitis · cholangitis · pancreatitis · gallstone ileus</li>\n<li><b>Asymptomatic gallstones in specific at-risk populations</b></li>\n<li><b>Asymptomatic large gallstones (2–3 cm)</b></li></ul>\n<div>ลายมือน้ำเงิน วงเล็บครอบทั้งหน้า: <span class=\"hw\">อ่านต่อเอง etiology</span></div>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">Asymptomatic ที่ควรผ่า (EASL 2016/ตำรา): นิ่ว <b>&gt;3 cm</b>, <b>porcelain GB</b>, <b>GB polyp ≥10 mm</b>, hemolytic disease (sickle cell/thalassemia ที่ผ่า splenectomy อยู่แล้ว), ร่วมกับ bariatric surgery บางราย, ผู้รอปลูกถ่ายอวัยวะ/ภูมิคุ้มกันต่ำ, กลุ่มเสี่ยง GB CA (เช่น anomalous pancreatobiliary junction) · asymptomatic ทั่วไป → <b>observe</b> (เกิดอาการราว 1–4%/ปี) {{R:6}} {{R:5}}</span></div>\n<div class=\"mut\">ควิซในห้อง (D s30): หญิง 45 ปี ตรวจสุขภาพ US เจอนิ่วเล็กหลายก้อนใน GB ไม่มีอาการ LFT ปกติ → <b>\"LC is not indicated in this patient\" = True</b> (ลายมือ: <span class=\"hw\">asymptomatic gallstone</span>)</div></div>\n<div class=\"box\"><h3>Biliary colic<span class=\"ref\">D s13</span></h3>\n<ul>\n<li>= <b>ปวดรุนแรงเป็นพัก ๆ เมื่อนิ่ว block ท่อน้ำดีชั่วคราว</b></li>\n<li>Epigastric / RUQ แบบ cramping / squeezing / sharp</li>\n<li><span class=\"imp\">INTERMITTENT</span> · <span class=\"imp\">CORRELATED WITH FATTY FOOD INTAKE</span></li>\n<li>ร้าวไป <b>right flank / shoulder</b> · อาจมี bloating, nausea/vomiting</li>\n<li><span class=\"imp\">timing = 20–40 นาทีหลังมื้อไขมัน</span> · <span class=\"imp\">duration: ไม่กี่นาที–ไม่กี่ชั่วโมง ไม่เกิน 6 ชม.</span></li>\n<li><b>อย่าสับสนกับ dyspepsia หรือ heartburn</b></li></ul>\n<div class=\"mut\">ควิซในห้อง (D s30): หญิง 38 ปี ปวด RUQ เป็นพัก ๆ ร้าวไหล่ขวา หลังกินอาหารมัน หายเองในไม่กี่ชั่วโมง ไม่มีไข้ Murphy's sign negative LFT/CBC ปกติ US นิ่วหลายก้อน ไม่มี wall thickening/duct dilatation (ลายมือ: <span class=\"hw\">biliary colic, chronic cholecystitis</span>) → <b>Laparoscopic cholecystectomy ✓</b> (ไม่ใช่ IV antibiotics / PTGBD / open)</div></div>\n<div class=\"box\"><h3>Acute cholecystitis<span class=\"ref\">D s14</span></h3>\n<ul>\n<li>= <span class=\"imp\">ปวด RUQ รุนแรง นาน ≥6 ชม.</span> · อาจมีประวัติ biliary colic นำมาก่อน · <b>fever</b> · <b>Murphy's sign</b></li>\n<li>Murphy's sign (กล่องบนสไลด์): ระหว่าง <b>หายใจเข้าลึก</b> ผู้ตรวจกด RUQ → กะบังลมเลื่อนลง GB ที่อักเสบชนมือ → <b>หยุดหายใจเข้ากะทันหันเพราะเจ็บ</b></li>\n<li>เป็นได้ทั้ง <b>calculous</b> หรือ <b>acalculous</b></li>\n<li>ความรุนแรงตาม <b>Tokyo guidelines</b></li>\n<li><span class=\"imp\">acute cholecystitis is NOT a radiographic diagnosis</span> แต่ imaging ช่วยวินิจฉัย</li>\n<li>Rx: <b>early vs interval cholecystectomy</b> · <b>PCD (percutaneous cholecystostomy drainage) ในรายที่ unstable</b></li></ul>\n<div><span class=\"chip d\">! ต่าง</span> <span class=\"mut\">สไลด์ว่า \"ไม่ใช่ radiographic diagnosis\" (เน้น clinical) — ส่วน <b>TG18</b>: suspected = A (local: Murphy/RUQ mass/pain/tenderness) + B (systemic: fever, CRP, WBC) ; <b>definite = A + B + C (imaging)</b> → imaging ช่วยยืนยัน ไม่ได้แทน clinical {{R:2}}</span></div>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">TG18 severity: <b>Grade III</b> = organ dysfunction (CVS ต้องใช้ vasopressor, neuro, respiratory, renal, hepatic INR&gt;1.5, hematologic plt&lt;100k) · <b>Grade II</b> = WBC &gt;18,000, คลำก้อน RUQ, อาการ &gt;72 ชม., marked local inflammation (gangrenous, emphysematous, pericholecystic/hepatic abscess, biliary peritonitis) · <b>Grade I</b> = ไม่เข้า II/III · Grade I → early LC ; Grade II → early LC ในศูนย์ที่พร้อมถ้า CCI/ASA ดี มิฉะนั้น antibiotics ± GB drainage ; Grade III → ประเมิน FOSF/CCI แล้ว early LC ในศูนย์ที่พร้อม หรือ GB drainage {{R:2}} {{R:3}}</span></div>\n<div class=\"mut\">ควิซในห้อง (D s30): ชาย 55 ปี ปวด RUQ ตลอด 2 วันหลังมื้อใหญ่ ไข้ 38.2 HR 100 Murphy's positive WBC สูง US นิ่ว + wall thickening + pericholecystic fluid ไม่มี duct dilatation (ลายมือ: <span class=\"hw\">acute cholecystitis</span>) → next step = <b>IV fluids and antibiotics ✓</b> · Immediate cholecystectomy ✗ (ลายมือ: <span class=\"hw\">definite treatment</span> — คือการรักษาสุดท้าย แต่ไม่ใช่ \"next step\") · ERCP ✗ · observation ✗</div></div>\n<div class=\"box\"><h3>Acute cholangitis<span class=\"ref\">D s15</span></h3>\n<ul>\n<li><span class=\"imp\">RUQ pain + fever + jaundice = Charcot's triad</span></li>\n<li><span class=\"imp\">+ altered mental status + hypotension = Reynolds' pentad</span></li>\n<li>Rx: <b>resuscitation → IV antibiotics → ERCP → same-admission cholecystectomy</b></li></ul>\n<div><span class=\"chip x\">✏ แก้</span> <span class=\"mut\">สไลด์สะกด \"Reynold's pentad\" — ชื่อที่ถูกคือ <b>Reynolds' pentad</b> (B.M. Reynolds)</span></div>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">TG18 cholangitis: A systemic inflammation (ไข้/หนาวสั่น, lab อักเสบ) + B cholestasis (jaundice TB ≥2, LFT ผิดปกติ) + C imaging (duct dilatation หรือเห็นสาเหตุ) → definite = A+B+C · Charcot's triad specificity สูงแต่ sensitivity ต่ำ (~26%) · Grade III (organ dysfunction) → biliary drainage ทันทีหลัง resuscitate ; Grade II → early drainage ; Grade I → antibiotics, drainage ถ้าไม่ตอบสนอง {{R:4}}</span></div></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+},
+{
+"t": "Yokoe M, Hata J, Takada T, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis. J Hepatobiliary Pancreat Sci 2018;25:41–54. doi:10.1002/jhbp.515",
+"u": "https://doi.org/10.1002/jhbp.515"
+},
+{
+"t": "Okamoto K, Suzuki K, Takada T, et al. Tokyo Guidelines 2018: flowchart for the management of acute cholecystitis. J Hepatobiliary Pancreat Sci 2018;25:55–72. doi:10.1002/jhbp.516",
+"u": "https://doi.org/10.1002/jhbp.516"
+},
+{
+"t": "Kiriyama S, Kozaka K, Takada T, et al. Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci 2018;25:17–30. doi:10.1002/jhbp.512",
+"u": "https://doi.org/10.1002/jhbp.512"
+},
+{
+"t": "Brunicardi FC, et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill; 2019 — บท Gallbladder and the Extrahepatic Biliary System"
+},
+{
+"t": "European Association for the Study of the Liver (EASL). EASL Clinical Practice Guidelines on the prevention, diagnosis and treatment of gallstones. J Hepatol 2016;65:146–181. doi:10.1016/j.jhep.2016.03.005",
+"u": "https://doi.org/10.1016/j.jhep.2016.03.005"
+}
+]
+},
+{
+"id": "L04-8",
+"title": "Beware of pancreatitis (gallstone pancreatitis) และ Key imaging protocols",
+"topics": [
+"Gallbladder & Biliary",
+"Pancreas & Spleen"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\"><span class=\"imp\">Pancreatitis = the great pretender ของ surgical acute abdomen</span> · <span class=\"imp\">Ex-lap ในรายที่เป็น pancreatitis แต่วินิจฉัยผิดเป็น peritonitis → morbidity/mortality สูงขึ้น</span> · LC early (same admission) vs delayed ขึ้นกับความรุนแรง · Imaging: <span class=\"imp\">US = gold standard primary test</span> · CT = complications · <span class=\"imp\">HIDA = most sensitive functional test</span> · MRCP</div>\n<div class=\"box\"><h3>Beware of pancreatitis<span class=\"ref\">D s16</span></h3>\n<ul>\n<li><b>The great pretender</b> for surgical acute abdomen</li>\n<li><span class=\"imp\">Exlap for pancreatitis misdiagnosed as peritonitis → higher morbidity and mortality</span></li>\n<li>อาจเกิด pancreatitis <b>ร่วมกับ</b> cholangitis และ cholecystitis ได้ (นิ่วอุดที่ ampulla — L04-5)</li>\n<li><b>Early (same admission) vs delayed LC</b> ในรายที่มี acute pancreatitis ร่วม <span class=\"imp\">ขึ้นกับ severity ของ pancreatitis</span></li></ul>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">ACG 2024: gallstone pancreatitis <b>mild</b> → cholecystectomy <b>ใน admission เดียวกัน</b> (ลดการกลับเป็นซ้ำ) · <b>severe/necrotizing</b> → เลื่อนผ่าตัดจนการอักเสบ/collection ยุบ (มัก &gt;6 สัปดาห์) · <b>ERCP ภายใน 24 ชม. เฉพาะเมื่อมี cholangitis ร่วม</b> ; ไม่มี cholangitis/ไม่มี persistent obstruction → ไม่ต้อง urgent ERCP · ให้ <b>goal-directed moderate IV fluid (LR)</b>, early oral feeding, ไม่ให้ prophylactic antibiotics {{R:2}}</span></div>\n<div class=\"mut\">ควิซในห้อง (D s30): หญิง 50 ปี ปวด epigastrium รุนแรงเฉียบพลันร้าวหลัง N/V เคยปวดคล้ายกันเบากว่า มีประวัตินิ่ว · HR 110 BP 140/85 T 37.8 · amylase/lipase สูง · bilirubin สูงเล็กน้อย · US นิ่วหลายก้อน ไม่มี intrahepatic dilatation · CBD dilated เล็กน้อย (ลายมือ: <span class=\"hw\">acute pancreatitis — m/c cause: alcohol, gallstone</span>) → <b>IV fluids and pain management ✓</b> (ลายมือ: <span class=\"hw\">แล้ว conservative นัดมา f/u</span>) · ERCP ✗ (ไม่มี cholangitis) · Immediate cholecystectomy ✗ · Broad-spectrum antibiotics ✗ — ในห้องตอบ ERCP กับ IV fluids เท่ากัน (18 : 18)</div></div>\n<div class=\"box\"><h3>Key imaging protocols<span class=\"ref\">D s17</span></h3>\n<table class=\"fx\"><tr><th>Modality</th><th>สไลด์เขียนว่า</th></tr>\n<tr><td><b>Ultrasonography</b></td><td><span class=\"imp\">The gold standard primary test</span> · ปลอดภัยและ non-invasive ที่สุด · เห็น <b>gallstones, sludge, GB edema</b></td></tr>\n<tr><td><b>CT abdomen</b></td><td>sensitive สำหรับ <b>complications เฉพาะที่</b>: gangrene, abscess, gas, perforation ในรายรุนแรง</td></tr>\n<tr><td><b>HIDA scan</b> (cholescintigraphy)</td><td><span class=\"imp\">The most sensitive functional diagnostic test</span> · <b>GB ไม่ปรากฏ (non-visualization) = cystic duct obstruction</b></td></tr>\n<tr><td><b>MRI (MRCP)</b></td><td>Magnetic resonance cholangiopancreatography</td></tr></table>\n{{IMG:l04_imaging}}\n<div class=\"mut\">ควิซในห้อง (D s29): imaging ที่เหมาะที่สุดในการวินิจฉัยนิ่ว = <b>Ultrasound ✓</b> — ลายมือ: <span class=\"hw\">เจอ gas → มองไม่เห็น ∴ ไม่ทำใน ผู้ป่วยท้องอืด, ileus</span> · plain film ✗ (นิ่วส่วนใหญ่ไม่ทึบรังสี) · CT ✗ · MRI ✗</div>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">US ไวต่อนิ่วใน GB ~95% แต่หา CBD stone ได้ไม่ดี (~50–80%) → ใช้ MRCP/EUS ตาม ASGE risk · CT เห็นนิ่วได้ราว 75% (นิ่ว cholesterol อาจ isodense กับ bile) · HIDA sensitivity ~95% สำหรับ acute cholecystitis {{R:3}} {{R:4}}</span></div></div>\n<div class=\"box\"><h3>ความรู้จากควิซ Kahoot ในห้อง (gallstone)<span class=\"ref\">D s28 · D s29</span></h3>\n<table class=\"fx\"><tr><th>คำถาม</th><th>คำตอบ</th></tr>\n<tr><td>How are gallstones formed?</td><td><b>Cholesterol</b> (ลายมือ: <span class=\"hw\">cholesterol / pigmented</span>)</td></tr>\n<tr><td>T/F: Gallstones can be asymptomatic</td><td>True</td></tr>\n<tr><td>T/F: Gallstones are always painful</td><td>False</td></tr>\n<tr><td>T/F: Gallstones can cause jaundice</td><td>True (ลายมือ: <span class=\"hw\">ถ้าไปอุดที่ CBD</span>)</td></tr>\n<tr><td>Which diet reduces gallstone risk?</td><td>Low-fat</td></tr>\n<tr><td>T/F: Gallstones are rare</td><td>False ✓</td></tr>\n<tr><td>What is ERCP used for?</td><td><b>Bile duct stones ✓</b></td></tr>\n<tr><td>T/F: Gallstones can recur</td><td>True</td></tr>\n<tr><td>Which is a risk factor for gallstones?</td><td><b>Obesity</b></td></tr>\n<tr><td>T/F: Surgery is the only treatment</td><td>False</td></tr>\n<tr><td>How to prevent gallstones?</td><td>Healthy diet</td></tr></table>\n<div class=\"mut\">ภาพควิซส่วนใหญ่ถ่ายก่อนเฉลย — คำตอบที่ไม่มี ✓ ในภาพมาจากตัวเลือกที่ไฮไลต์/สามัญสำนึกของคำถาม</div></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+},
+{
+"t": "Tenner S, Vege SS, Sheth SG, et al. American College of Gastroenterology Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419–437. doi:10.14309/ajg.0000000000002645",
+"u": "https://doi.org/10.14309/ajg.0000000000002645"
+},
+{
+"t": "Brunicardi FC, et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill; 2019 — บท Gallbladder and the Extrahepatic Biliary System"
+},
+{
+"t": "Buxbaum JL, Abbas Fehmi SM, Sultan S, et al. ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc 2019;89:1075–1105.e15. doi:10.1016/j.gie.2018.10.001",
+"u": "https://doi.org/10.1016/j.gie.2018.10.001"
+}
+]
+},
+{
+"id": "L04-9",
+"title": "MIS: นิยาม, ประวัติ, surgical approaches, ข้อดี, indications/contraindications, pregnancy & SBO",
+"topics": [
+"MIS & Robotic surgery"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">Laparoscopy (lapára = ช่วงระหว่างซี่โครงกับสะโพก + skopéō = มอง) = MIS / keyhole / minimal access surgery · ผ่าตัดใหญ่ผ่านแผลเล็กโดย <span class=\"imp\">insufflate CO₂</span> + laparoscope · <span class=\"imp\">ข้อห้ามแบ่ง absolute vs relative และ anatomic vs physiologic</span> · <span class=\"imp\">pregnancy ไม่ใช่ข้อห้ามแล้ว</span> · SBO ทำ lap ได้ในรายคัดเลือก</div>\n<div class=\"box\"><h3>Surgical approaches<span class=\"ref\">D s19 · D s21 · D s23</span></h3>\n<ul>\n<li>Open surgery · <b>Minimally invasive</b>: laparoscopic surgery · robotic surgery · endoscopic surgery · <b>third space endoscopy</b></li>\n<li><b>Laparoscopic</b>: แผลเล็ก + กล้อง ใส่เครื่องมือผ่าน ports → tissue trauma น้อย ฟื้นเร็ว แผลเป็นน้อย</li>\n<li><b>Robotic-assisted</b>: precision + <b>3D visualization</b> · ศัลยแพทย์คุมแขนกลจาก console → dexterity ดีขึ้น</li>\n<li><b>Endoscopic</b>: กล้อง flexible/rigid ผ่าน <b>ช่องเปิดธรรมชาติ</b> → ไม่มีแผลภายนอก</li>\n<li><b>Third space endoscopy</b> (D s23 รูป Mayo Clinic): ฉีดสี → กรีด mucosa → <b>ทำอุโมงค์ใต้ mucosa แล้วตัดกล้ามเนื้อ</b> → ปิด mucosa ด้วย clips = <b>POEM</b> (per-oral endoscopic myotomy) <span class=\"chip e\">เสริม</span> <span class=\"mut\">ใช้รักษา achalasia (ดู L14-7)</span></li></ul>\n{{IMG:l04_poem}}</div>\n<div class=\"box\"><h3>ประวัติ<span class=\"ref\">C p2 · C p10</span></h3>\n<table class=\"fx\"><tr><th>ปี</th><th>ไฟล์ C เขียนว่า</th><th>หมายเหตุ</th></tr>\n<tr><td>ต้นศตวรรษที่ 19</td><td>Bozzini \"แพทย์ชาวอิตาลี\" ส่องดูช่องท้องด้วยแสงเทียนสะท้อน</td><td><span class=\"chip x\">✏ แก้</span> Philipp Bozzini เป็น<b>แพทย์ชาวเยอรมัน</b> · ประดิษฐ์ <b>Lichtleiter (1806)</b> ส่องช่องเปิดธรรมชาติ (ท่อปัสสาวะ ไส้ตรง คอ) ไม่ใช่ช่องท้อง {{R:3}}</td></tr>\n<tr><td>1901</td><td>George Kelling ใส่ cystoscope ผ่าน trocar และบรรยาย pneumoperitoneum</td><td>ทำในสุนัข (celioscopy)</td></tr>\n<tr><td>1991 (ตามไฟล์)</td><td>Muhe ทำ <b>laparoscopic cholecystectomy ครั้งแรก</b> ในเยอรมนี → laparoscopy แพร่หลาย</td><td><span class=\"chip x\">✏ แก้</span> Erich <b>Mühe ทำ LC ครั้งแรก 12 ก.ย. 1985</b> · Philippe <b>Mouret (ฝรั่งเศส) 1987</b> = video-LC ครั้งแรก · ช่วงต้นทศวรรษ 1990 คือช่วงที่ LC แพร่หลาย {{R:3}}</td></tr>\n<tr><td>1995</td><td>Frederick Moll ซื้อโครงการ Green Telepresence Surgery (NASA × Stanford Research Institute) → ตั้ง <b>Intuitive Surgical</b></td><td></td></tr>\n<tr><td>1997</td><td><b>Robotic cholecystectomy ครั้งแรก</b> ที่เบลเยียม</td><td></td></tr>\n<tr><td>2001</td><td><b>Jacques Marescaux</b> ทำ tele-cholecystectomy ผู้ป่วยที่ Strasbourg ขณะตัวอยู่ New York</td><td>\"Lindbergh operation\"</td></tr></table></div>\n<div class=\"box\"><h3>ข้อดีของ MIS เทียบ open<span class=\"ref\">C p3 · D s20 · D s28</span></h3>\n<ul>\n<li>↓ post-op pain · ฟื้นตัวเร็ว · ↓ wound morbidity (<b>wound infection, incisional hernia</b>) · ↓ length of stay · แผลสวย</li>\n<li>เข้า <b>ERAS pathway</b> ได้ง่าย เช่น <b>ODS-MIS</b> (สิทธิ์หลักประกันสุขภาพไทย)</li>\n<li>D s20 (Key benefits): micro-incisions มัก <b>&lt;1 cm</b> · LOS สั้น กลับไปทำกิจวัตรเป็นวันแทนสัปดาห์ · เสียเลือด/ติดเชื้อน้อย</li></ul>\n<div class=\"mut\">ควิซ (D s28): \"MOST useful advantage\" = <b>more rapid recovery ✓</b> · better cosmetic (ลายมือ: <span class=\"hw\">เห็นแผลน้อยลงได้</span>) · shorter operative time ✗ (ลายมือ: <span class=\"hw\">ผ่าตัดด้วยกล้องใช้เวลาเยอะกว่า</span>) · total cost less ✗</div>\n<div class=\"mut\">ควิซ (D s28): procedure ที่ได้ประโยชน์จาก MIS มากที่สุดเมื่อเทียบ open = <b>laparoscopic fundoplication</b> — ลายมือ: <span class=\"hw\">การผ่าตัดที่ access trauma เยอะเมื่อเทียบกับ total trauma</span> · pancreaticoduodenectomy ✗ (<span class=\"hw\">trauma ส่วนใหญ่เกิดจาก procedure ไม่ใช่ access trauma</span>) · ตัวเลือก unilateral groin hernia มีลายมือ <span class=\"hw\">bilateral</span></div></div>\n<div class=\"box\"><h3>Contraindications ของ MIS<span class=\"ref\">C p3 · C p4</span></h3>\n<div class=\"mut\">Figure 2: แบ่ง <b>Absolute vs Relative</b> และ <b>Anatomic vs Physiologic</b></div>\n<table class=\"fx\"><tr><th>Absolute</th><th>Relative (case-by-case, ขึ้นกับประสบการณ์ศัลยแพทย์และ setting)</th></tr>\n<tr><td>(มักเป็นข้อห้ามผ่าตัดทุกแบบ)<br>• ทน general anesthesia ไม่ได้<br>• physiologic instability<br>• <b>ทน pneumoperitoneum ไม่ได้</b></td><td>• prior complex intra-abdominal surgery / extensive adhesions<br>• coagulopathy<br>• <b>↑ intracranial pressure</b><br>• disseminated intra-abdominal cancer<br>• cirrhosis / portal hypertension<br>• pulmonary compliance issues · pulmonary embolism<br>• cardiovascular (เช่น severe pulmonary HT, <b>severe CHF</b>)<br>• *extensive bowel dilation / bowel obstruction<br>• *active COVID-19<br>• *pregnancy<br><span class=\"mut\">(* = เคยถือเป็นข้อห้าม ปัจจุบันเปลี่ยนไป)</span></td></tr></table>\n<ul>\n<li>ทำได้ทางเทคนิค <b>ไม่ได้แปลว่าควรทำ</b> — ต้องมีทรัพยากรดูแลภาวะแทรกซ้อนหลังผ่าตัด ผู้ช่วยที่ชำนาญ วิสัญญี ICU</li>\n<li><b>COVID-19</b>: SAGES 2022 ทำ lap หรือ open ได้ แต่ลดการสัมผัส viral plume ของบุคลากร · elective หลังติดเชื้อบางการศึกษาแนะนำเลื่อน <b>4 สัปดาห์</b> แต่ไม่นานกว่านั้น</li></ul>\n<div class=\"mut\">ควิซ (D s28): ข้อบ่งชี้ที่เหมาะของ <b>laparoscopic groin hernia repair</b> = <b>bilateral groin hernia ✓</b> — ลายมือ: <span class=\"hw\">ในรายที่เคยผ่า open แล้ว recurrent</span> · femoral ✗ · pregnant woman ✗ · huge hernia ✗</div></div>\n<div class=\"box\"><h3>สถานการณ์พิเศษ: pregnancy และ SBO<span class=\"ref\">C p4 · C p5</span></h3>\n<ul>\n<li><b>Pregnancy</b>: <span class=\"imp\">ไม่ใช่ข้อห้าม</span> · guideline แนะนำ <b>laparoscopic intervention แทน non-operative</b> ใน <b>acute appendicitis ทุกไตรมาส</b> และ <b>acute cholecystitis</b> · วางแผนกับสูติแพทย์ ± ฟัง FHS ระหว่างผ่าตัด · <b>pneumoperitoneum ต่ำ</b> + วาง trocar อย่างระวัง เข้าช่องท้องและขยับเครื่องมือภายใต้การมองเห็นเพื่อไม่ให้มดลูกบาดเจ็บ</li>\n<li><b>Adhesive SBO</b>: laparoscopic adhesiolysis ใน <b>รายคัดเลือก — first episode + imaging บ่งชี้ single band adhesion</b> (Bologna) · <b>low threshold to convert</b> (ischemia, perforation, intraop findings) · อาจารย์ประเมินจาก <b>CT</b> (ไม่ใช่แค่ plain film): ลำไส้โป่งแค่ไหน, สาเหตุ, abdominal girth/พื้นที่ pneumoperitoneum, มีก้อนหรือไม่ · <b>ischemia ชัดตั้งแต่ต้น → เริ่ม open</b> · equivocal → diagnostic laparoscopy ± <b>ICG</b> ดู viability · ผู้ป่วยเสี่ยงแผลแทรกซ้อน (เช่นได้ chemo) อาจารย์ชอบเริ่ม lap</li></ul>\n<div><span class=\"chip e\">เสริม</span> <span class=\"mut\">SAGES 2024 (pregnancy): ใช้ความดัน <b>10–15 mmHg</b> ได้อย่างปลอดภัย ปรับตามสรีรวิทยาผู้ป่วย · จัดท่า left lateral tilt ลดการกด IVC · VTE prophylaxis {{R:4}}</span></div></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ C — \"Minimally Invasive Surgery (MIS) and Robotic Surgery 101: An Introduction for Medical Students and Interns\" ผศ.พญ.วรณัฐา วัชราทิตย์, รศ.ดร.นพ.โสภาคย์ มนัสนยกรณ์ (Chula book chapter, 13 หน้า)"
+},
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+},
+{
+"t": "Reynolds W Jr. The first laparoscopic cholecystectomy. JSLS 2001;5(1):89–94 (ประวัติ Bozzini 1806, Kelling 1901, Mühe 1985, Mouret 1987)",
+"u": "https://pubmed.ncbi.nlm.nih.gov/11304004/"
+},
+{
+"t": "Kumar SS, Collings AT, Wunker C, et al. SAGES guidelines for the use of laparoscopy during pregnancy. Surg Endosc 2024;38(6):2947–2963. doi:10.1007/s00464-024-10810-1 (อ้างใน C)",
+"u": "https://doi.org/10.1007/s00464-024-10810-1"
+}
+]
+},
+{
+"id": "L04-10",
+"title": "MIS equipment (laparoscopic tower, laparoscope) และ physiologic changes ของ pneumoperitoneum",
+"topics": [
+"MIS & Robotic surgery",
+"Perioperative care & Surgical infection"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">Tower = <span class=\"imp\">monitor · video capture · light source · insufflator</span> · pneumoperitoneum ปกติ <span class=\"imp\">12–15 mmHg</span> · <span class=\"imp\">ใช้ CO₂ เพราะไม่ติดไฟ ละลายในเลือดง่าย ขับออกทางหายใจได้เร็ว</span> → hypercarbia + acidosis · ↑IAP → <span class=\"imp\">↓venous return/preload, ↑afterload/SVR/MAP, ↓CO (เด่นเมื่อ IAP &gt;15), ↓GFR + ↑RAAS/ADH, ↓FRC/compliance, bradycardia จาก vagal, ↑DVT</span></div>\n<div class=\"box\"><h3>Laparoscopic tower และ laparoscope<span class=\"ref\">C p5–C p8 · D s22</span></h3>\n<ul>\n<li>ชุดพื้นฐาน = laparoscopic tower + slave monitors + laparoscope unit · Tower: <b>monitor · video capture unit · light source · insufflator</b></li>\n<li><b>Light source + video capture</b> ทำงานคู่กันให้มองเห็นภายใน · <b>Insufflator</b> คุม pressure และ flow ของแก๊ส</li>\n<li>Pneumoperitoneum = แก๊ส (มักเป็น CO₂) ในช่องท้อง · ตั้ง <span class=\"imp\">12–15 mmHg</span> ตามปัจจัยผู้ป่วยและหัตถการ · เหตุผลที่ใช้ความดันสูงขึ้นบ่อยสุด = <b>obesity</b></li>\n<li>Laparoscope: <b>rod-lens system</b> (rigid scope + video camera 1-chip หรือ 3-chip; ใช้บ่อยกว่า) หรือ <b>digital laparoscope</b> (กล้องอยู่ที่ปลาย) · ตรวจ <b>fiber optic cable, camera, lens</b> ก่อนเริ่มเคส</li>\n<li>ขนาดที่ใช้บ่อย <b>5 mm และ 10 mm</b> (ขนาด trocar กำหนดขนาด scope) · มุม <b>0°, 30°, 45°</b> → มองเป้าจากหลายมุม</li>\n<li><span class=\"imp\">หมุน fiber optic cable เพื่อปรับมุมกล้องทำงานกลับด้าน</span>: อยาก \"มองขวา\" ต้องหมุน cable ไปทาง <b>ซ้าย</b></li>\n<li>ภาพดีไม่ได้ขึ้นกับมุมกล้องอย่างเดียว: insufflation pressure, จัดท่า, การดึงรั้งอวัยวะ, anatomy, เลือดใน field, ฝ้าที่เลนส์ · กล้องบางชนิดทำ <b>fluorescence imaging (NIR/ICG)</b></li></ul>\n<div class=\"mut\">D s22: ป้ายลายมือบนรูป tower ชี้ส่วนต่าง ๆ (insufflator / video capture / light source) · รูป scope: Lens – Fiber optic cable – Camera – Focus ring</div>\n{{IMG:l04_tower}}\n{{IMG:l04_scope}}\n{{IMG:l04_lapsetup}}</div>\n<div class=\"box\"><h3>CO₂ และ hypercarbia<span class=\"ref\">C p8</span></h3>\n<ul>\n<li>ใช้ CO₂ เพราะ <b>non-flammable · ละลายในเลือดง่าย · ขับออกทางการหายใจได้ค่อนข้างเร็ว</b></li>\n<li>CO₂ + H₂O → carbonic acid → HCO₃⁻ + H⁺ → <span class=\"imp\">arterial pH ลดลง</span> + <span class=\"imp\">arterial pCO₂ เพิ่ม</span> (เพิ่มเร็วใน <b>15 นาทีแรก</b> แล้วค่อย plateau)</li>\n<li>Hypercarbia ปานกลาง–รุนแรง → myocardial depression + vasodilation (ระวังผู้ป่วยโรคหัวใจ) · <b>mild hypercarbia (pCO₂ 45–50 mmHg) ไม่อันตรายและทนได้ดี</b></li></ul>\n<div class=\"mut\">ควิซ (D s28): ข้อใด <b>ไม่ใช่</b> deleterious effect ของ laparoscopy → <b>Hypocarbia ✓</b> (ที่เกิดคือ hypercarbia) · decreased venous return — ลายมือ: <span class=\"hw\">∵ intraabdominal P ↑</span> · decreased ventilation / decreased CO = เกิดจริง</div></div>\n<div class=\"box\"><h3>ผลของ ↑IAP ต่ออวัยวะ<span class=\"ref\">C p8 · C p9</span></h3>\n<ul>\n<li><b>หัวใจ</b>: ↓venous return → ↓preload, ↑afterload, ↓CO — <span class=\"imp\">CO ลดชัดเมื่อ IAP &gt;15 mmHg</span> เพราะ IVC ถูกกด เลือดค้างที่ขา → <b>severe CHF จึงเป็น relative contraindication</b> · กลุ่มไวต่อผล: ischemic heart disease, pulmonary HT, valve disease, congenital heart disease</li>\n<li><b>Vagal</b>: peritoneum ถูกยืดเร็ว → ↑vagal → arrhythmia <span class=\"imp\">ที่พบบ่อยสุด = bradycardia</span> ส่วนใหญ่ benign แต่ (น้อยมาก) ถึง cardiac arrest ได้ → ศัลยแพทย์–วิสัญญีต้องสื่อสารตลอด</li>\n<li><b>Splanchnic</b>: หลอดเลือดถูกกดโดยตรง → ↓organ perfusion</li>\n<li><b>ไต</b>: ↓renal blood flow → ↓GFR → กระตุ้น <b>RAAS</b> (↑renin, angiotensin II, aldosterone) + <b>↑ADH</b> → <b>↓urine output</b> และ ↑MAP</li>\n<li><b>ปอด</b>: กะบังลมถูกดันขึ้น → ↑intrathoracic pressure, ↓compliance → <b>↓FRC, TLC, FEV1, VC</b> → atelectasis, V/Q mismatch, hypoxemia</li>\n<li><b>VTE</b>: ↓venous return/preload → <b>↑risk DVT</b></li></ul></div>\n<div class=\"box\"><h3>Table 1 — Physiologic effects of pneumoperitoneum<span class=\"ref\">C p9 · D s25</span></h3>\n<table class=\"fx\"><tr><th>เพิ่ม ↑</th><th>ลด ↓</th><th>ไม่เปลี่ยน ↔</th></tr>\n<tr><td>IAP · arterial pCO₂ · afterload · SVR · MAP · renin-angiotensin system · <b>PCWP</b></td><td>venous return · preload · cardiac index · <b>cardiac output*</b> · GFR · FRC · TLC · FEV1 · VC · pulmonary compliance</td><td><b>heart rate</b></td></tr></table>\n<div class=\"mut\">* CO ลดชัดเมื่อ IAP &gt;15 mmHg · ผลรุนแรงขึ้นในหญิงตั้งครรภ์ pulmonary HT และโรคหัวใจ–ปอด</div>\n<div><span class=\"chip d\">! ต่าง</span> <span class=\"mut\">ตาราง: heart rate <b>↔</b> แต่เนื้อหา C p8 บอกว่า peritoneal stretch ทำให้ <b>bradycardia</b> ได้ (เป็นการตอบสนองเฉียบพลันจาก vagal ขณะ insufflate ไม่ใช่ผลคงที่) · PCWP ↑ ทั้งที่ venous return ↓ เพราะความดันในทรวงอกเพิ่มทำให้วัดความดันในหัวใจได้สูงเท็จ {{R:3}}</span></div>\n<div class=\"mn\"><b class=\"k\">\"ยกเว้น HR (↔) — ความดัน/ความต้านทาน/ฮอร์โมนขึ้น, ไหล/ปริมาตร/ปอดลง\"</b> = ↑ IAP, pCO₂, afterload, SVR, MAP, RAAS, PCWP ; ↓ venous return, preload, CI, CO, GFR, FRC, TLC, FEV1, VC, compliance</div></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ C — \"Minimally Invasive Surgery (MIS) and Robotic Surgery 101: An Introduction for Medical Students and Interns\" ผศ.พญ.วรณัฐา วัชราทิตย์, รศ.ดร.นพ.โสภาคย์ มนัสนยกรณ์ (Chula book chapter, 13 หน้า)"
+},
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+},
+{
+"t": "Atkinson TM, Giraud GD, Togioka BM, Jones DB, Cigarroa JE. Cardiovascular and Ventilatory Consequences of Laparoscopic Surgery. Circulation 2017;135(7):700–710. doi:10.1161/circulationaha.116.023262 (อ้างใน C)",
+"u": "https://doi.org/10.1161/circulationaha.116.023262"
+}
+]
+},
+{
+"id": "L04-11",
+"title": "Robotic surgery: ประวัติ, da Vinci Xi, ข้อดี/ข้อจำกัด และ future technologies",
+"topics": [
+"MIS & Robotic surgery"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">Robotic = <span class=\"imp\">remote computer-enhanced tele-manipulating system</span> (ศัลยแพทย์ไม่ได้สัมผัสผู้ป่วยขณะอยู่ที่ console) · ข้อบ่งชี้/ข้อห้ามเหมือน laparoscopy · <span class=\"imp\">ข้อดี = visualization, ergonomics, wrist articulation/↑degrees of freedom/↓tremor/เย็บง่าย</span> · <span class=\"imp\">ข้อจำกัด = ราคา/การเข้าถึง, ไม่เหนือกว่า lap ในหลายผ่าตัด, (เคย) ไม่มี tactile feedback, ตั้งเครื่องในเคสฉุกเฉินยาก</span></div>\n<div class=\"box\"><h3>Robotic platform<span class=\"ref\">C p10 · C p11 · D s24</span></h3>\n<ul>\n<li>เริ่มจาก NASA × Stanford Research Institute (Green Telepresence Surgery Project) → Frederick Moll ซื้อ 1995 → <b>Intuitive Surgical</b> · <b>1997</b> robotic cholecystectomy ครั้งแรก (เบลเยียม) · <b>2001</b> Marescaux tele-cholecystectomy (New York → Strasbourg)</li>\n<li>สาขาที่ใช้: urology, gynecology, thoracic, cardiac, general surgery · กำลังแพร่หลายในไทย</li>\n<li><b>Indications/contraindications ก่อนผ่าตัด (absolute + relative) คล้าย laparoscopy</b></li>\n<li><b>รพ.จุฬาลงกรณ์ใช้ da Vinci® Xi</b>: surgeon console · robotic arms ถือเครื่องมือผ่าน trocars (เหมือน laparoscopy) · robotic camera · external slave monitor</li></ul>\n{{IMG:l04_robot}}</div>\n<div class=\"box\"><h3>Robot vs laparoscopy<span class=\"ref\">C p11 · C p12</span></h3>\n<table class=\"fx\"><tr><th>ข้อดีของ robot</th><th>ข้อจำกัด</th></tr>\n<tr><td>• visualization ของ surgical plane ดีขึ้น (3D)<br>• <b>surgeon ergonomics</b> ดีขึ้น<br>• hand control ดีขึ้น: <b>wrist articulation / ↑degrees of freedom</b>, <b>↓hand tremor</b>, <b>intracorporeal suturing ง่ายขึ้น</b></td><td>• <b>ราคาและการเข้าถึง</b> — ในไทย reimbursement ยังเป็นปัญหา แพงกว่า lap<br>• ในหลาย (ไม่ทุก) ผ่าตัด <b>ยังไม่พิสูจน์ว่าดีกว่า</b> (บางครั้งแย่กว่า) lap ด้าน outcome, operative time, complication<br>• เดิม <b>ไม่มี tactile feedback</b> (รุ่นใหม่บางรุ่นมีแล้ว)<br>• ตั้งเครื่องในเคส <b>ฉุกเฉินยาก (แต่ไม่ใช่ทำไม่ได้)</b> ต้องมีทีมที่ฝึกเฉพาะ</td></tr></table>\n<div class=\"mut\">ควิซ (D s28): เหตุที่ endoscopic surgery ยากกว่า open <b>ยกเว้น</b> → <b>\"A magnified vision obtained from the endoscope\" ✓</b> (เป็นข้อดี) · ข้อจำกัดจริง = limited movement, limited tactile sense, loss of 3D vision (ใน lap 2D)</div></div>\n<div class=\"box\"><h3>Future technologies<span class=\"ref\">D s26</span></h3>\n<ul>\n<li><b>AI-guided precision</b>: machine learning วิเคราะห์ภาพ real-time → visualization + predictive guidance ↑ความแม่นยำ ↓เวลา</li>\n<li><b>Advanced robotics visualization</b>: 3D mapping + augmented reality overlays</li></ul>\n<div class=\"mut\">C p12 Conclusion: laparoscopic และ robotic (ส่วนหนึ่งของ MIS) เป็นเครื่องมือหนึ่งของศัลยแพทย์ — ต้องเข้าใจ indications, contraindications, physiologic changes และ limitations</div></div>\n<div class=\"box\"><h3>ควิซ Kahoot MIS ในห้อง — สรุปคำตอบ<span class=\"ref\">D s28</span></h3>\n<table class=\"fx\"><tr><th>คำถาม</th><th>คำตอบ</th></tr>\n<tr><td>What is MIS / minimal access surgery?</td><td><b>Small incisions ✓</b> (ไม่ใช่ one-day surgery / large cuts / no anesthesia)</td></tr>\n<tr><td>T/F: Laparoscopy uses a camera</td><td><b>True ✓</b></td></tr>\n<tr><td>MOST useful advantage of MIS</td><td><b>More rapid recovery ✓</b></td></tr>\n<tr><td>Procedure ที่ได้ประโยชน์จาก MIS มากที่สุด</td><td><b>Laparoscopic fundoplication</b> (access trauma สัดส่วนสูงเมื่อเทียบ total trauma)</td></tr>\n<tr><td>NOT a deleterious effect</td><td><b>Hypocarbia ✓</b></td></tr>\n<tr><td>Endoscopic surgery ยากกว่า open EXCEPT</td><td><b>Magnified vision ✓</b></td></tr>\n<tr><td>Indication ของ lap groin hernia repair</td><td><b>Bilateral groin hernia ✓</b> (+ recurrent หลัง open)</td></tr></table></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ C — \"Minimally Invasive Surgery (MIS) and Robotic Surgery 101: An Introduction for Medical Students and Interns\" ผศ.พญ.วรณัฐา วัชราทิตย์, รศ.ดร.นพ.โสภาคย์ มนัสนยกรณ์ (Chula book chapter, 13 หน้า)"
+},
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+}
+]
+},
+{
+"id": "L04-12",
+"title": "สรุปรวมบท L04 + จุดที่ไฟล์ต่างกัน / แก้ไข",
+"topics": [
+"Gallbladder & Biliary",
+"MIS & Robotic surgery",
+"Jaundice"
+],
+"rev": 1,
+"upd": "2026-11-09",
+"html": "<div class=\"iointro\">หน้าสรุปรวมบท (เรียบเรียงจากทั้ง 4 ไฟล์) · แก่น: <span class=\"imp\">bile physiology → นิ่ว 3 ชนิด → anatomy ที่ทำให้ LC อันตราย (variation, CVS) → โรคจากนิ่วแต่ละแบบและการรักษา → MIS/robot และผลของ pneumoperitoneum</span></div>\n<div class=\"box\"><h3>เปรียบเทียบโรคจากนิ่ว<span class=\"ref\">D s12–D s16 · B p15</span></h3>\n<table class=\"fx\"><tr><th></th><th>Biliary colic</th><th>Acute cholecystitis</th><th>Choledocholithiasis / Cholangitis</th><th>Gallstone pancreatitis</th></tr>\n<tr><td>นิ่วอยู่</td><td>อุด cystic duct ชั่วคราว</td><td>impact cystic duct/Hartmann's pouch</td><td>CBD (± ติดเชื้อ)</td><td>ampulla (common channel)</td></tr>\n<tr><td>อาการ</td><td>ปวด RUQ/epigastric หลังมื้อมัน 20–40 นาที &lt;6 ชม.</td><td>ปวด ≥6 ชม. + ไข้ + Murphy</td><td>jaundice ± Charcot / Reynolds</td><td>ปวด epigastrium ร้าวหลัง + amylase/lipase</td></tr>\n<tr><td>Lab เด่น</td><td>ปกติ</td><td>WBC สูง, bilirubin ปกติ</td><td>DB + ALP สูง</td><td>lipase/amylase ≥3× ± LFT สูง</td></tr>\n<tr><td>Rx (ตามไฟล์)</td><td>elective LC</td><td>IV fluid + ATB → early/interval LC ; PCD ถ้า unstable</td><td>resuscitation, ATB, <b>ERCP</b>, LC same admission</td><td>supportive (IV fluid, pain) ; LC early ถ้า mild / delayed ถ้า severe ; <b>ห้าม ex-lap ผิดวินิจฉัย</b></td></tr></table></div>\n<div class=\"box\"><h3>ตัวเลข high-yield<span class=\"ref\">A · B · C · D</span></h3>\n<table class=\"fx\"><tr><th>เรื่อง</th><th>ค่า</th></tr>\n<tr><td>Bile acids ในส่วนของแข็งของ bile</td><td>~50%</td></tr>\n<tr><td>Bile salts ที่เสียทางอุจจาระ/วัน</td><td>&lt;5%</td></tr>\n<tr><td>Cholesterol stone (USA / D s8)</td><td>70% / ~80% · ไทย 28–40% (เดิม pigment 52–55%)</td></tr>\n<tr><td>GB size</td><td>7–10 × 4 cm</td></tr>\n<tr><td>Cystic artery จาก RHA</td><td>~90% (80–90%) · จาก RHA ที่มาจาก SMA ~10%</td></tr>\n<tr><td>CBD diameter</td><td>5–10 mm · blood supply 3 &amp; 9 นาฬิกา</td></tr>\n<tr><td>Asymptomatic large stone ที่ควรผ่า</td><td>2–3 cm (สไลด์) · ตำรา &gt;3 cm</td></tr>\n<tr><td>Biliary colic</td><td>20–40 นาทีหลังอาหาร · ไม่เกิน 6 ชม.</td></tr>\n<tr><td>Pneumoperitoneum</td><td>12–15 mmHg · CO ↓ ชัดเมื่อ &gt;15 · mild hypercarbia pCO₂ 45–50 · pCO₂ ขึ้นเร็วใน 15 นาทีแรก</td></tr>\n<tr><td>Laparoscope</td><td>5 / 10 mm · 0°, 30°, 45°</td></tr>\n<tr><td>ประวัติ</td><td>Kelling 1901 · LC แรก Mühe 1985 (ไฟล์: 1991) · robotic chole 1997 · tele-chole 2001</td></tr></table></div>\n<div class=\"box\"><h3>รวมจุดต่าง / จุดแก้ของบทนี้</h3>\n<ul>\n<li><span class=\"chip x\">✏ แก้</span> B p13: \"CBD กับ pancreatic duct เปิดแยกกัน = pancreas divisum\" → ผิด ; pancreas divisum = dorsal/ventral pancreatic duct ไม่ fuse (L04-5)</li>\n<li><span class=\"chip x\">✏ แก้</span> C p2: LC ครั้งแรกโดย Mühe ปี <b>1985</b> (ไม่ใช่ 1991) · Bozzini เป็นชาวเยอรมัน ส่องช่องเปิดธรรมชาติ (L04-9)</li>\n<li><span class=\"chip x\">✏ แก้</span> สะกด: Hartmann's pouch (B p9) · Reynolds' pentad (D s15)</li>\n<li><span class=\"chip d\">! ต่าง</span> % cholesterol stone 70% (D s7) vs ~80% (D s8) (L04-3)</li>\n<li><span class=\"chip d\">! ต่าง</span> cystic artery จาก RHA \"90%\" (B p10) vs \"80–90%\" (B p11) (L04-4)</li>\n<li><span class=\"chip d\">! ต่าง</span> Calot's triangle ใน B = hepatocystic triangle (ขอบบนตับ) vs Calot ดั้งเดิม (ขอบบน cystic artery) (L04-6)</li>\n<li><span class=\"chip d\">! ต่าง</span> \"acute cholecystitis is NOT a radiographic diagnosis\" (D s14) vs TG18 definite ต้องมี imaging (L04-7)</li>\n<li><span class=\"chip d\">! ต่าง</span> HR ↔ ในตาราง (C p9/D s25) vs bradycardia จาก vagal (C p8) (L04-10)</li>\n<li><span class=\"chip x\">⚠ ตรวจ</span> \"GB cancer arises from polyps\" (B p14) — ส่วนใหญ่ผ่าน dysplasia จาก chronic inflammation (L04-6)</li></ul>\n<div class=\"mut\">หมายเหตุไฟล์: เฉลย case ใน A (\"Provided AFTER session\") ไม่ได้แนบมา — เฉลยในหน้านี้เรียบเรียงเอง · ไฟล์ B และ D มี <b>ข้อความลายมือในชั้นข้อความที่มองไม่เห็นบนหน้า</b> (เหมือนลายมือที่ลบไปแล้ว) — ไม่ได้นำมาใส่ · ไม่พบ 🟡/🟢/❌ ของคณะ · พบ ★ แดงหน้าเดียว (D s12)</div></div>",
+"refs": [
+{
+"t": "L04 ไฟล์ A — เอกสารประกอบการสอน \"Bile Metabolism: Clinical Correlations\" เรียบเรียงโดย อ.(พิเศษ) พญ.วรณัฐา วัชราทิตย์ ภาควิชาศัลยศาสตร์ รพ.จุฬาลงกรณ์ (8 หน้า)"
+},
+{
+"t": "L04 ไฟล์ B — เอกสารประกอบการสอน \"Surgical Anatomy of the Biliary System\" เรียบเรียงโดย อ.(พิเศษ) พญ.วรณัฐา วัชราทิตย์ (16 หน้า; รูปจาก Mahadevan 2020 และ Schwartz 11th ed.)"
+},
+{
+"t": "L04 ไฟล์ C — \"Minimally Invasive Surgery (MIS) and Robotic Surgery 101: An Introduction for Medical Students and Interns\" ผศ.พญ.วรณัฐา วัชราทิตย์, รศ.ดร.นพ.โสภาคย์ มนัสนยกรณ์ (Chula book chapter, 13 หน้า)"
+},
+{
+"t": "L04 ไฟล์ D — สไลด์ \"Gallstone Diseases & Minimally Invasive Surgery\" (Voranaddha Vacharathit, Assistant Professor of Surgery) 30 หน้า: s1–s27 สไลด์ · s28–s30 ภาพควิซ Kahoot ในห้อง + ลายมือ"
+}
+]
+}
+]
+},
+{
 "code": "L05",
 "kind": "L",
 "title": "Basic plastic surgery",
@@ -29988,702 +30334,5 @@ SUMM.push({tag:"Surgical safety", title:"Surgical safety",
        members:["MDCU74|RoA|ไม่มีเลข 8"]}
     ]}
   ]});
-
-})(WARDS["sx"].SUMM.MCQ);
-(function(SUMM){
-SUMM.push({
- "tag": "Thyroid & parathyroid",
- "title": "Thyroid & parathyroid",
- "intro": "<ul><li>ออกทุก rotation และเป็นหมวดที่ <b>ซ้ำมากที่สุด</b>: ก้อนไทรอยด์ (TSH ก่อน → scan หรือ US → FNA ตามเกณฑ์ ATA 2015 → แปลผล Bethesda → ผ่าตัด) ถูกถามหลายมุมเกือบทุกปี</li><li>มะเร็งไทรอยด์ถามเรื่อง <b>ขอบเขตผ่าตัด</b> (PTC >4 cm → total), ปัจจัยเสี่ยงรังสี, MTC + pheochromocytoma / RET, และ anaplastic (ผ่าตัดไม่ได้ → RT, stridor → airway)</li><li>Graves ถามได้ทั้ง diagnosis (TSH ต่ำ, RAIU, lid lag) และ <b>เลือกการรักษา</b> ตามเงื่อนไข (มีลูกเล็ก + ตาโปน → ATD; วางแผนตั้งครรภ์ + ตาโปน → near-total thyroidectomy)</li><li>หลัง thyroidectomy: hypocalcemia (Chvostek / Trousseau, devascularization, IV calcium gluconate), neck hematoma, EBSLN / RLN</li><li>Parathyroid ออกซ้ำ: Ca สูง + PTH สูง = primary hyperparathyroidism (adenoma), imaging ใช้ localize ไม่ใช่วินิจฉัย (sestamibi); <b>secondary vs tertiary HPT</b> ใน CKD แยกด้วยระดับ Ca (tertiary → total parathyroidectomy)</li><li>รอบ MDCU73–79 เพิ่ม: <b>thyroglossal duct cyst → Sistrunk</b> (ออกซ้ำ 4 เวอร์ชัน), purely cystic nodule, ก้อนที่ midline เคลื่อนตามการแลบลิ้น, Graves + orbitopathy relapse → total thyroidectomy (เลี่ยง RAI), pattern TFT ของ hypothyroidism และ anaplastic carcinoma จาก presentation</li><li>รอบ MDCU70–72 เพิ่ม: <b>TSH เป็น initial test / euthyroid → US</b> (ออกหลายรอบ), Graves + cold nodule → FNA, Bethesda II → ติดตาม, <b>MEN2 / MEN2B</b> (MTC + pheo, mucosal neuroma, parafollicular cell), ระบาดวิทยา (PTC พบบ่อยสุด, Chernobyl), level VI + Tg follow-up, ข้อบ่งชี้ thyroidectomy ใน hyperthyroidism, thyroid storm หลังผ่าตัด, ATC resectable → ผ่าตัด และ hypercalcemia (thiazide ห้าม, massive transfusion → Ca ต่ำ)</li></ul>",
- "groups": [
-  {
-   "title": "มะเร็งไทรอยด์",
-   "sections": [
-    {
-     "id": "ptc-extent-surgery",
-     "title": "Papillary thyroid carcinoma: ปัจจัยเสี่ยงรังสี และขอบเขตการผ่าตัด",
-     "trend": "โจทย์ PTC 4.5 cm ออกซ้ำหลายปี ตอบ total thyroidectomy",
-     "asked": [
-      "PTC ก้อน 4.5 cm (ก้อนในกลีบซ้าย / cN0) → total thyroidectomy",
-      "PTC 4.5 cm cN0 ช้อย 'with or without RAI ablation' → total thyroidectomy ± RAI (ไม่ neck dissection)",
-      "เคยได้รังสี mediastinum จาก thymoma แล้วเกิด nodule → papillary carcinoma",
-      "Bethesda V ก้อน 2 cm → lobectomy; ในช้อยที่ไม่มี lobectomy → total",
-      "Histopathology ของ thyroid nodule พบ psammoma bodies → papillary thyroid carcinoma (ตัวลวง follicular, medullary, anaplastic, Hürthle cell)",
-      "หลังอุบัติเหตุ Chernobyl มะเร็งไทรอยด์ชนิดใดเพิ่มมากที่สุด → papillary (ตัวลวง anaplastic, follicular, medullary, lymphoma)",
-      "First-echelon lymph node ของต่อมไทรอยด์ → central compartment level VI (ตัวลวง level I, II, V, axillary)",
-      "PTC 3 cm + lateral neck node FNA ยืนยัน metastasis → ข้อใดถูก: serum thyroglobulin ใช้ติดตาม (ตัวลวง lobectomy alone พอ, CT / MRI ทั้งตัวทุกราย, total เพื่อเลี่ยง RAI, ให้ RAI ก่อนผ่าตัด)"
-     ],
-     "pattern": [
-      "<b>ATA 2015 ขอบเขตผ่าตัด DTC</b>: >4 cm, gross ETE (cT4), cN1, M1 → <b>total (หรือ near-total) thyroidectomy</b>; 1–4 cm, cN0, ไม่มี ETE → lobectomy หรือ total; <1 cm ไม่มี ETE cN0 → lobectomy หรือ active surveillance; ข้างของก้อนไม่ใช่ตัวตัดสิน",
-      "<b>Neck dissection</b>: therapeutic central (level VI) เมื่อ cN1a; therapeutic lateral เมื่อ cN1b (FNA ยืนยัน); prophylactic central พิจารณาใน T3–T4 หรือ cN1b; cN0 ไม่ต้องทำ",
-      "<b>หลัง total</b>: ประเมิน ATA risk (low / intermediate / high) → RAI ตาม risk (ก้อน >4 cm พิจารณา); TSH suppression ตาม risk (high <0.1, intermediate 0.1–0.5, low 0.5–2 mU/L); ติดตามด้วย thyroglobulin + anti-Tg + neck US",
-      "<b>ปัจจัยเสี่ยงรังสี</b>: ionizing radiation ตอนเด็ก (Chernobyl, mantle field ใน Hodgkin) → ส่วนใหญ่ (~85–90%) เป็น <b>PTC</b> (RET / PTC rearrangement), latency ≥10 ปี",
-      "Pathology PTC: Orphan Annie eye nuclei, nuclear groove, pseudoinclusion, psammoma body; แพร่ทาง lymphatic; BRAF V600E",
-      "Follicular ~10%: iodine deficiency, hematogenous; Medullary ~5%; Anaplastic <2%; primary thyroid lymphoma ใน Hashimoto → biopsy แล้วให้ chemo ± RT",
-      "<b>Histology PTC:</b> psammoma bodies (laminated concentric dystrophic calcification จาก papillae ที่ตาย พบราว 40–50% ของ PTC) + nuclear features (Orphan Annie eye nuclei, grooves, pseudoinclusions) เป็นเกณฑ์วินิจฉัยหลัก · BRAF V600E / RET-PTC พบบ่อย · แพร่ทาง lymphatic · psammoma ยังพบใน serous ovarian ca, meningioma, mesothelioma",
-      "<b>Chernobyl (1986)</b>: I-131 สะสมในไทรอยด์เด็ก → 4–5 ปีหลังพบมะเร็งไทรอยด์ในเด็กเพิ่มมาก เกือบทั้งหมดเป็น PTC (solid / follicular variant, RET / PTC3 rearrangement — somatic ไม่ใช่ germline RET แบบ MTC) · เสี่ยงสูงสุดเมื่อสัมผัสอายุ <5 ปี และขึ้นกับขนาดรังสี",
-      "<b>Lymphatic drainage</b>: ด่านแรก = <b>central compartment (level VI)</b> prelaryngeal (Delphian), pretracheal, paratracheal (ตามแนว RLN) → lateral neck (II–IV, บางครั้ง V) และ superior mediastinum (VII) · ขอบเขต level VI: hyoid ถึง suprasternal notch / innominate artery, ข้างถึง common carotid · skip metastasis ไป lateral พบส่วนน้อย (ก้อนขั้วบน)",
-      "<b>cN1b (lateral node พิสูจน์แล้ว)</b> → total thyroidectomy + therapeutic lateral neck dissection (IIa, III, IV, Vb) ± central neck dissection → RAI ตาม ATA risk + TSH suppression · lobectomy ไม่พอแม้ก้อน 1–4 cm",
-      "<b>ติดตาม DTC ด้วย serum Tg + anti-Tg ทุกครั้ง</b> (anti-Tg ทำให้ Tg ต่ำเท็จ); excellent response = suppressed Tg <0.2 ng/mL หรือ stimulated Tg <1 ng/mL + imaging ลบ · total thyroidectomy ทำให้ใช้ RAI และ Tg ได้ ไม่ใช่เพื่อเลี่ยง RAI · RAI ให้หลังผ่าตัดเท่านั้น"
-     ],
-     "pearls": [
-      "จำผิดว่า ATA 2015 ลดการผ่าตัดทุกราย — ลดได้เฉพาะ ≤4 cm cN0 ไม่มี ETE",
-      "ถ้าโจทย์ไม่บอกขนาด 1–4 cm cN0 จะตอบได้ทั้ง lobectomy และ total (ธนาคารจึงเติม 4.5 cm)",
-      "คำใบ้ 'thymoma' ไม่ได้ชี้ lymphoma — ใจความคือ radiation → papillary",
-      "74 RoC (psammoma): ต้นฉบับจดช้อยเดียว (PTC) ที่เหลือ bank แต่ง; 'follicular variant of PTC' ยังเป็น PTC — Orphan Annie nuclei ไม่ใช่ของ follicular carcinoma",
-      "Chernobyl: สับสน RET / PTC (somatic, PTC จากรังสี) กับ germline RET (MTC / MEN2) แล้วตอบ medullary",
-      "71 RoB (level VI): recall มีช้อยเดียวและไม่มีเฉลยในไฟล์ — bank แต่งช้อยและเฉลยเอง; ต่อมที่คลำได้ด้านข้างคอใน PTC ไม่ใช่ด่านแรก",
-      "70 RoC (cN1b): ต้นฉบับไม่บอก node จึงตอบได้ทั้ง lobectomy และ Tg follow-up — bank เติม lateral node metastasis ให้เหลือคำตอบเดียว"
-     ],
-     "members": [
-      "MDCU76|RoA|8",
-      "MDCU76|RoD|31",
-      "MDCU77|RoA|62",
-      "MDCU76|RoC|4",
-      "MDCU78|RoB|7",
-      "MDCU78|RoC|Thyroid 1",
-      "MDCU74|RoC|1",
-      "MDCU71|RoA|ไม่มีเลข 17",
-      "MDCU71|RoB|ไม่มีเลข 11",
-      "MDCU70|RoC|49"
-     ]
-    },
-    {
-     "id": "mtc-men2",
-     "title": "Medullary thyroid carcinoma, RET และ MEN2",
-     "trend": "ถามเซลล์ต้นกำเนิด / tumor marker, สิ่งที่ต้องคัดกรองก่อนผ่าตัด และการคัดกรองญาติ",
-     "asked": [
-      "ชาย 18 ปี FNA = MTC → ก่อนผ่าตัดต้องคัดกรอง pheochromocytoma",
-      "pathology มี amyloid ใน eosinophilic stroma → parafollicular C cell",
-      "ญาติสายตรงของ MTC → screening test ที่ใช้ได้ดีสุดในช้อย = serum calcitonin",
-      "โรคใดไม่ทำให้ hyperthyroidism → MTC (ผลิต calcitonin ไม่ใช่ T3 / T4)",
-      "MTC → tumor marker สำหรับวินิจฉัยและติดตาม: calcitonin (ตัวลวง anti-thyroglobulin antibody, thyroglobulin, AFP, CA 19-9)",
-      "หญิง 30 ปี biopsy = MTC พี่สาวเป็น pheochromocytoma → multiple endocrine neoplasia (ตัวลวง FAP, Lynch, Peutz-Jeghers, Cowden)",
-      "หญิง 25 ปี ก้อนไทรอยด์ซ้าย + cervical node + mucosal neuroma ที่ริมฝีปาก → medullary thyroid carcinoma (ตัวลวง adenoma, papillary, follicular, anaplastic)",
-      "ชาย 40 ปี multiple neuromas + MTC + ความดันพุ่งก่อนผ่าตัดจาก functioning adrenal tumor ไม่มีประวัติครอบครัว → MEN (ตัวลวง FAP, Lynch, primary hyperaldosteronism, renal artery stenosis)",
-      "MTC เกิดจากเซลล์ใด → parafollicular cell (ตัวลวง follicular, acinar, Hürthle, squamous epithelial)"
-     ],
-     "pattern": [
-      "<b>MTC</b> มาจาก <b>parafollicular C cell</b> (neural crest) → calcitonin + CEA; พยาธิ: sheets ของ polygonal / spindle cell + <b>amyloid</b> (Congo red), IHC calcitonin / CEA / chromogranin บวก, thyroglobulin ลบ; ~75% sporadic, ~25% hereditary (germline RET)",
-      "<b>MEN2A</b> = MTC + pheochromocytoma + primary hyperparathyroidism; <b>MEN2B</b> = MTC + pheochromocytoma + mucosal neuroma + marfanoid habitus; familial MTC = MTC อย่างเดียว",
-      "<b>ก่อนผ่าตัด MTC ทุกราย (ATA)</b>: calcitonin + CEA, neck US, germline RET, serum Ca ± PTH และ <b>plasma free / urine fractionated metanephrines เพื่อแยก pheochromocytoma ก่อนเสมอ</b> — ถ้ามี: alpha-blockade (phenoxybenzamine หรือ doxazosin) → adrenalectomy → ค่อย thyroidectomy",
-      "<b>Treatment</b>: total thyroidectomy + central neck dissection (lateral ถ้า node บวกหรือ calcitonin สูงมาก); <b>ไม่จับ iodine → RAI และ TSH suppression ไม่มีประโยชน์</b> ให้ levothyroxine ทดแทนอย่างเดียว; ติดตามด้วย calcitonin / CEA; ลุกลาม → RET inhibitor (selpercatinib, pralsetinib), vandetanib, cabozantinib",
-      "<b>ญาติสายตรง</b>: ปัจจุบันตรวจ germline RET ก่อน แล้ว carrier ใช้ calcitonin + US ติดตามและวางเวลา prophylactic thyroidectomy (M918T / MEN2B ภายในขวบปีแรก; codon 634 ภายในอายุ 5 ปี); ถ้าไม่มี RET ในช้อย → calcitonin (ไวกว่า US หรือการตรวจร่างกาย)",
-      "MTC ไม่ทำให้ hyperthyroidism (euthyroid); Hashimoto อาจเกิด Hashitoxicosis ระยะแรกจึงเป็นตัวลวง",
-      "<b>Marker:</b> calcitonin + CEA (parafollicular C cell จาก neural crest) ใช้วินิจฉัย ประเมินก่อนผ่า และติดตามหลังผ่า (doubling time < 6 เดือน = พยากรณ์แย่) · ATA 2015: calcitonin > 500 pg/mL → หา distant metastasis (CT chest, liver imaging, bone scan) · thyroglobulin / anti-Tg เป็นของ differentiated thyroid ca (follicular cell) · MTC ไม่จับ iodine จึงไม่ใช้ RAI และไม่ต้อง TSH suppression · ก่อนผ่าตัดทุกราย: neck US, calcitonin, CEA, germline RET, plasma free metanephrines",
-      "<b>MEN2A</b>: MTC ~100%, pheochromocytoma ~50%, PHPT ~20–30% · <b>MEN2B</b> (RET M918T >95%): MTC เร็วและรุนแรงที่สุด (มัก node บวกตั้งแต่วินิจฉัย; prophylactic thyroidectomy ภายในขวบปีแรก), pheochromocytoma ~50%, <b>mucosal neuroma ริมฝีปาก / ลิ้น</b>, marfanoid habitus, intestinal ganglioneuromatosis, <b>ไม่มี hyperparathyroidism</b> · MEN2B ~75% เป็น de novo → ไม่มีประวัติครอบครัวได้",
-      "จับคู่ไทรอยด์กับ syndrome: MTC = MEN2 (RET), follicular = Cowden (PTEN), cribriform-morular PTC = FAP (APC)",
-      "Parafollicular C cell มาจาก neural crest ผ่าน ultimobranchial body อยู่มากที่ 2 ใน 3 ส่วนบนของกลีบ · MTC ~1–2% ของมะเร็งไทรอยด์"
-     ],
-     "pearls": [
-      "เห็น calcitonin / CEA แล้วเลือกเพราะคุ้น — ข้อที่ห้ามพลาดก่อนผ่าตัดคือ pheochromocytoma",
-      "อ่าน eosinophilic แล้วตอบ Hürthle ผิด — amyloid คือ signature ของ MTC",
-      "คีย์เดิมของโจทย์ hyperthyroidism จดว่า 'hyperparathyroid' — ธนาคารตีความเป็น hyperthyroidism",
-      "เห็น 'no family history' แล้วตัดโรคพันธุกรรม — MEN2B ส่วนใหญ่ de novo; เห็น adrenal tumor + HT แล้วตอบ hyperaldosteronism เป็นกับดัก",
-      "หญิงอายุน้อย + ก้อน + node ชวนตอบ papillary — mucosal neuroma คือเบาะแส MEN2B",
-      "70 RoC: ต้นฉบับช้อย 'Z-cell' ไม่มีจริง — bank เปลี่ยนเป็น Hürthle cell"
-     ],
-     "members": [
-      "MDCU76|RoC|1",
-      "MDCU76|RoD|29",
-      "MDCU77|RoB|10",
-      "MDCU76|RoA|39",
-      "MDCU74|RoC|3",
-      "MDCU72|RoB|25",
-      "MDCU72|RoB|52",
-      "MDCU71|RoB|ไม่มีเลข 5",
-      "MDCU70|RoC|50"
-     ]
-    },
-    {
-     "id": "anaplastic-airway",
-     "title": "Anaplastic thyroid carcinoma: การวินิจฉัยและทางเดินหายใจ",
-     "trend": "ถามว่าเมื่อไรเจาะคอ เมื่อไรฉายแสงเพื่อ palliate",
-     "asked": [
-      "ATC ผ่าตัดไม่ได้ เหนื่อยจากหลอดลมถูกกดแต่ยังไม่มี stridor → palliative radiotherapy",
-      "ATC แพร่กระจาย stridor ขณะพัก → secure airway (tracheostomy)",
-      "หญิง 70 ปี ก้อนคอโตขึ้นใน 2 สัปดาห์ + เสียงแหบ + ก้อนแข็งติดแน่นซ้าย + cervical node สองข้าง → anaplastic thyroid carcinoma (ตัวลวง papillary, medullary, follicular, thyroid lymphoma)",
-      "หญิง 60 ปี ATC + cervical node มี stridor ซึม ใส่ ET tube แล้ว imaging ไม่มี distant mets และก้อน resectable → urgent thyroidectomy + lymph node dissection (ตัวลวง respiratory support อย่างเดียว, systemic chemo / targeted, RAI, RT)"
-     ],
-     "pattern": [
-      "<b>ATC</b> <2% ของมะเร็งไทรอยด์ อายุ 60–70 ปี ก้อนโตเร็วมาก; ทุกรายเป็น stage IV; ส่ง <b>BRAF V600E</b> ด่วน (dabrafenib + trametinib); ไม่จับ iodine → RAI และ TSH suppression ไม่ช่วย; prognosis แย่มาก (ส่วนใหญ่รอด <6 เดือน) → คุย goals of care ตั้งแต่ต้น",
-      "<b>Unresectable + ยังไม่มี stridor / airway ไม่วิกฤต</b> → <b>palliative external beam RT</b> ± chemotherapy หรือ BRAF / MEK inhibitor เพื่อคุม local disease ที่กดหลอดลม; <b>เลี่ยง tracheostomy</b> ตราบที่ยังไม่ impending airway loss (เจาะผ่านก้อนยาก เลือดออก แผลไม่หาย ก้อนงอกออกทางแผล)",
-      "<b>Stridor ขณะพัก = impending airway loss</b> → secure airway ก่อน (awake tracheostomy หรือ awake fiberoptic intubation; บางรายใช้ rigid bronchoscopy + stent) แล้วค่อยวางแผน RT / systemic therapy",
-      "Resectable → total / near-total thyroidectomy + neck dissection; ตรวจ laryngoscopy ก่อนผ่าตัดทุกราย",
-      "<b>วินิจฉัย:</b> ผู้สูงอายุ (ทศวรรษที่ 7) หญิงมากกว่าชาย ก้อนแข็ง fixed โตเร็วเป็นสัปดาห์ถึงเดือน + เสียงแหบ (รุกราน RLN) / กลืนหายใจลำบาก / node · มักเกิดต่อจาก well-differentiated ca เดิม, iodine deficiency หรือ radiation · median survival ~ 5–6 เดือน (BRAF-targeted therapy ช่วยบางราย) · thyroid lymphoma โตเร็วเช่นกัน แยกด้วย biopsy",
-      "<b>ATC resectable ไม่มี distant mets (IVA / IVB)</b> → total / near-total thyroidectomy + therapeutic neck dissection (en bloc ถ้ามี ETE ที่ตัด gross disease ได้หมด) → adjuvant RT ± chemo ในผู้ที่ performance status ดี (ATA 2021) — เป็นทางเดียวที่สัมพันธ์กับ survival ยาวขึ้น · unresectable → BRAF V600E: dabrafenib + trametinib / palliative RT · distant mets → palliative care"
-     ],
-     "pearls": [
-      "จำว่า ATC ห้ามเจาะคอแล้วไม่ทำเมื่อมี stridor — กฎคือเลี่ยงจนกว่าจะ impending airway loss",
-      "ทั้งสองเคสไม่มีคีย์ในต้นฉบับ ธนาคารเติม stem ให้แยกได้ด้วยคำว่า stridor",
-      "73 RoC: ตัวชี้ขาดคือก้อนแข็งติดแน่น + เสียงแหบ + อายุมาก + โตเร็วในสัปดาห์ — ไม่ใช่ lymphoma; สไลด์ 'death within 6 months' เป็น median survival ปัจจุบัน targeted therapy ทำให้บางรายอยู่ได้นานกว่า",
-      "70 RoB: bank เติม 'no distant metastasis, resectable' ให้ได้คำตอบผ่าตัด; เห็น anaplastic แล้วตอบ palliative ทันทีโดยไม่ดู resectability เป็นกับดัก — ใส่ท่อแล้ว airway ปลอดภัย ยังเลี่ยง tracheostomy"
-     ],
-     "members": [
-      "MDCU78|RoD|Thyroid and Parathyroid 1",
-      "MDCU78|RoD|Thyroid and Parathyroid 5",
-      "MDCU73|RoC|52",
-      "MDCU70|RoB|84"
-     ]
-    },
-    {
-     "id": "thyroid-tumor-markers",
-     "title": "Tumor marker ของมะเร็งไทรอยด์: thyroglobulin, calcitonin / CEA และ anti-Tg",
-     "trend": "ถามว่า marker ไหนใช้กับมะเร็งชนิดใด และตัวไหนไม่ใช่ marker",
-     "asked": [
-      "Tumor marker ใดไม่ได้ใช้ตรวจหามะเร็งไทรอยด์: anti-thyroglobulin (ตัวลวง thyroglobulin, CEA, CA 19-9, calcitonin)",
-      "PTC cN1b → ข้อความที่ถูก: serum thyroglobulin ใช้ติดตาม"
-     ],
-     "pattern": [
-      "<b>Thyroglobulin</b> = marker ติดตาม DTC (papillary / follicular) หลัง total thyroidectomy ± RAI — ไม่ใช้วินิจฉัยก้อน · <b>Calcitonin + CEA</b> = marker ของ MTC (วินิจฉัย ประเมินขอบเขต ติดตาม; doubling time บอกพยากรณ์)",
-      "<b>Anti-Tg antibody</b> = autoantibody ของ Hashimoto / Graves (พบ ~10% ของประชากรทั่วไป, ~25% ของผู้ป่วย DTC) ไม่ได้สร้างจากเซลล์มะเร็ง — บทบาทคือรบกวนการวัด Tg จึงตรวจคู่กันเสมอ และแนวโน้มที่สูงขึ้นเป็น surrogate ของ recurrence (ATA 2015)",
-      "CA 19-9 เป็น marker ของตับอ่อน / ทางเดินน้ำดี; มีรายงานว่าสูงได้ใน anaplastic / papillary บางราย และ MTC ระยะลุกลาม"
-     ],
-     "pearls": [
-      "70 RoB: ความมั่นใจปานกลาง — bank ตามคีย์ตอบ anti-Tg; ถ้าโจทย์ต้องการ marker ที่ไม่ใช่ของไทรอยด์ตามมาตรฐาน CA 19-9 ก็ตอบได้ (ดูหมายเหตุในรายงาน)",
-      "สับสน Tg (DTC, follicular cell) กับ calcitonin (MTC, C cell)"
-     ],
-     "members": [
-      "MDCU70|RoB|47",
-      "MDCU70|RoC|49",
-      "MDCU74|RoC|3"
-     ]
-    },
-    {
-     "id": "thyroid-ca-epidemiology",
-     "title": "มะเร็งไทรอยด์: ระบาดวิทยาและชนิดที่พบบ่อยที่สุด",
-     "trend": "ออก 72 สองรอบ — PTC พบบ่อยสุด, หญิงมากกว่าชาย",
-     "asked": [
-      "มะเร็งไทรอยด์ชนิดที่พบบ่อยที่สุด → papillary (ตัวลวง follicular, Hürthle cell, medullary, anaplastic)",
-      "ข้อความใดผิดเกี่ยวกับ differentiated thyroid cancer: ทั้งสองเพศเป็นเท่ากัน (ข้อความถูก: papillary พบบ่อยสุด, พบมากช่วง 40–50 ปี, รังสีตอนเด็กเพิ่มความเสี่ยง, ส่วนใหญ่มาด้วยก้อนไม่มีอาการ)"
-     ],
-     "pattern": [
-      "<b>สัดส่วน</b>: papillary ~80–85% (เพิ่มขึ้นจาก microcarcinoma ที่พบจาก US, 10-year survival >90%) > follicular ~10% > medullary ~1–5% > anaplastic <2%",
-      "<b>เพศ</b>: มะเร็งไทรอยด์พบในหญิงมากกว่าชาย ~3 เท่า — แต่ก้อนไทรอยด์ในผู้ชายมีโอกาสเป็นมะเร็งสูงกว่า (เพศชาย = risk factor ของ 'ก้อนที่เป็นมะเร็ง'); อายุ <20 หรือ >60 ปีเป็น risk factor ของก้อน ไม่ใช่ช่วงอายุที่พบมากที่สุด (median ~50 ปี)",
-      "ก้อนไทรอยด์ ~5–10% เป็นมะเร็ง; ส่วนใหญ่มาด้วยก้อนไม่มีอาการ (คลำเองหรือพบโดยบังเอิญ)"
-     ],
-     "pearls": [
-      "สับสน 'พบบ่อยที่สุด' (papillary) กับ 'ร้ายแรงที่สุด' (anaplastic); follicular neoplasm พบบ่อยใน FNA แต่ follicular carcinoma ไม่ใช่ชนิดที่พบบ่อยสุด",
-      "72 RoA: recall มีสามช้อย — bank แต่งช้อยรังสีและก้อนไม่มีอาการเพิ่ม"
-     ],
-     "members": [
-      "MDCU72|RoA|68",
-      "MDCU72|RoC|39"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "ก้อนไทรอยด์: work-up, FNA และ Bethesda",
-   "sections": [
-    {
-     "id": "nodule-tsh-first",
-     "title": "Thyroid nodule: ตรวจ TSH ก่อนเสมอ แล้ว scan เมื่อ TSH ต่ำ",
-     "trend": "ถาม 'ขั้นแรก' หรือ 'next step' แล้วใช้ค่า TSH เป็นตัวแยกว่า scan หรือ US/FNA",
-     "asked": [
-      "ก้อนไทรอยด์ 2 ปี ไม่มีอาการ → first step = thyroid function test",
-      "ก้อน 2 cm hypoechoic ยังไม่ได้ตรวจอะไร → initial investigation = TSH (ไม่ใช่ FNA ทันที)",
-      "ก้อนไทรอยด์ + TSH suppressed → radionuclide scan",
-      "ก้อนที่คอ 6 ปี TSH สูงเล็กน้อย → thyroid ultrasonography (ไม่ใช่ scan)",
-      "TSH ต่ำ + scan พบ cold nodule → Graves disease (คำอธิบายเดียวที่ครอบคลุมทั้งสอง)",
-      "หญิง 25 ปี ก้อน 2 cm firm mobile 1 ปี + ใจสั่น น้ำหนักลด → initial investigation: thyroid function test (ตัวลวง US, scan, SPECT/CT, FNA)",
-      "ก้อนไทรอยด์ 10 ปี โตช้า ไม่มีอาการ hyper / กดเบียด → initial laboratory test: TSH ตัวเดียว (ตัวลวง free T3, free T4, thyroglobulin, ตรวจครบ FT3 + FT4 + TSH)",
-      "Single nodule ที่ euthyroid แล้วทั้ง clinical และ biochemical → thyroid ultrasonography (ตัวลวง TFT, thyroglobulin, FNA, scan)",
-      "ต่อมไทรอยด์โตช้า 10 ปี ไม่เจ็บ ไม่มีอาการ hyper → next step: thyroid ultrasound (ตัวลวง MRI, plain film คอ, total thyroidectomy, RAI)",
-      "หญิง 50 ปี ใจสั่น มือสั่น TSH ต่ำ scan = diffuse ↑ uptake + cold nodule → next: FNA ของ nodule (ตัวลวง core biopsy, excisional biopsy, RAI, lobectomy)"
-     ],
-     "pattern": [
-      "<b>ก้อนไทรอยด์ทุกราย: history + exam + serum TSH + neck US</b> (ATA 2015)",
-      "<b>TSH ต่ำ → radionuclide scan</b> (I-123 หรือ Tc-99m pertechnetate): <b>hot nodule</b> มะเร็ง <1% → <b>ไม่ต้อง FNA</b> รักษา hyperthyroidism (RAI, lobectomy, ATD); cold หรือ indeterminate → ประเมินด้วย US ± FNA เหมือนคน euthyroid",
-      "<b>TSH ปกติหรือสูง → US แล้วตัดสิน FNA</b> ตาม pattern + ขนาด; TSH สูงสัมพันธ์กับความเสี่ยงมะเร็งเพิ่มเล็กน้อยและอาจเป็น Hashimoto; มะเร็งส่วนใหญ่เป็น euthyroid",
-      "ไม่มีอาการ hyper ก็ยังต้องตรวจ TSH เพราะ subclinical hyperthyroidism ไม่มีอาการได้",
-      "Scan เมื่อ TSH ต่ำ: Graves = diffuse ↑ uptake; toxic adenoma = hot nodule กดส่วนที่เหลือ; toxic MNG = patchy; thyroiditis / exogenous hormone = uptake ต่ำ",
-      "Cold nodule มะเร็งราว 10%; Graves ที่มี cold nodule → US ± FNA ก่อนให้ RAI (Marine-Lenhart = Graves + functioning nodule)",
-      "ไม่แนะนำ levothyroxine suppression ใน benign nodule; thyroglobulin ไม่ใช้วินิจฉัย nodule (ใช้ติดตามหลังรักษามะเร็ง); calcitonin เมื่อสงสัย MTC",
-      "<b>Initial lab = TSH ตัวเดียว</b> (ไวที่สุด เปลี่ยนแบบ log-linear ต่อ FT4 จึงจับ subclinical ได้ก่อน) — FT3 / FT4 ตรวจเมื่อ TSH ผิดปกติ; ถ้าโจทย์บอกว่า euthyroid แล้ว ขั้นต่อไปคือ <b>neck US</b> (ไม่ใช่ FNA ตรง ๆ)",
-      "<b>Graves + cold nodule</b> (ATA 2016): ประเมิน nodule ตาม nodule guideline ก่อนเลือกการรักษา Graves → US + FNA ตาม pattern / ขนาด · benign → รักษา Graves ตามปกติ · suspicious / malignant → near-total / total thyroidectomy (รักษาได้ทั้งสองโรค; RAI จะทิ้งมะเร็งไว้, lobectomy ไม่รักษา Graves)"
-     ],
-     "pearls": [
-      "เห็น hypoechoic 2 cm แล้วรีบตอบ FNA — ลืมว่าต้อง TSH ก่อน (ธนาคารตอบ TSH เมื่อถาม 'initial')",
-      "เมื่อโจทย์บอก TSH ปกติ + US high suspicion ถึงตอบ FNA",
-      "TSH ต่ำเท่านั้นที่ส่ง scan; TSH สูงหรือปกติไม่ส่ง scan",
-      "ห้ามฉีด iodinated contrast ก่อน RAI / scan",
-      "70 RoC (Graves + cold nodule): คีย์ในไฟล์ตอบ thyroid lobectomy — bank แก้เป็น FNA ตาม ATA 2016 (ลายมือผู้เฉลยเองเขียน 'เอา cold nodule ไปตรวจด้วย')",
-      "เลือก 'ตรวจครบทุกตัว' เพราะคิดว่าละเอียดกว่า — initial test ตาม guideline คือ TSH",
-      "71 RoA (goiter 10 ปี): ไม่มี TSH ในช้อย จึงตอบ US — ก้อนโตช้าไม่ได้แปลว่าไม่ต้องประเมิน"
-     ],
-     "members": [
-      "MDCU77|RoC|71",
-      "MDCU77|RoD|75",
-      "MDCU78|RoA|Thyroid 1",
-      "MDCU78|RoD|Thyroid and Parathyroid 2",
-      "MDCU76|RoA|17",
-      "MDCU76|RoA|38",
-      "MDCU72|RoC|40",
-      "MDCU71|RoA|16",
-      "MDCU70|RoB|46",
-      "MDCU70|RoC|46",
-      "MDCU70|RoC|47"
-     ]
-    },
-    {
-     "id": "us-pattern-fna",
-     "title": "US pattern ที่น่าสงสัยและเกณฑ์ FNA (FNA เป็นวิธีแรก ไม่ใช่ core biopsy)",
-     "trend": "ให้ลักษณะ US + ขนาดแล้วถามว่า FNA หรือไม่ และถามลักษณะที่สงสัยที่สุด",
-     "asked": [
-      "ก้อน 2 cm เคลื่อนตามการกลืน TSH ปกติ solid hypoechoic → FNA",
-      "ก้อน 1.8 cm solid hypoechoic ขอบไม่เรียบ vascularity เพิ่ม → FNA",
-      "ก้อน 1.5 cm hypoechoic spiculated hypervascular TSH ปกติ → FNA (ไม่ใช่ core biopsy)",
-      "วิธีเก็บชิ้นเนื้อใดไม่เหมาะ → core needle biopsy เป็นการตรวจแรกของ thyroid nodule",
-      "ลักษณะ US ใดสงสัยมะเร็งที่สุด → microcalcifications (ไม่ใช่ spongiform, cystic, comet-tail)"
-     ],
-     "pattern": [
-      "<b>ATA 2015 pattern → FNA</b>: high suspicion (มะเร็ง 70–90%: solid hypoechoic + irregular / infiltrative / spiculated margin, microcalcification, taller-than-wide, rim calcification มี soft tissue ยื่น, extrathyroidal extension) → <b>≥1 cm</b>; intermediate (solid hypoechoic ขอบเรียบ) → ≥1 cm; low (iso / hyperechoic, partially cystic มี solid เยื้อง) → ≥1.5 cm; very low (spongiform) → ≥2 cm หรือติดตาม; <b>pure cyst ไม่ต้อง FNA</b>",
-      "<b>Microcalcification</b> (punctate echogenic foci ↔ psammoma bodies ของ PTC) จำเพาะสูงสุด — ACR TI-RADS ให้ 3 คะแนน; lobulated / irregular margin 2 คะแนน; taller-than-wide 3; solid 2; hypoechoic 2",
-      "Benign: pure cyst, spongiform, comet-tail artifact (colloid) — comet-tail มีหางสะท้อน ไม่ใช่ microcalcification",
-      "<b>US-guided FNA = การตรวจแรกมาตรฐาน</b> (sensitivity และ specificity >95%, ปลอดภัย OPD) แปลผลด้วย Bethesda I–VI",
-      "Core needle biopsy เป็นตัวเสริม: FNA nondiagnostic ซ้ำ หรือสงสัย lymphoma / anaplastic carcinoma",
-      "Vascularity ไม่ใช่เกณฑ์หลักของ ATA; ไม่ FNA hot nodule",
-      "ตัวเลือกอื่นในกลุ่ม biopsy: gastric mass → endoscopic biopsy, breast mass → core biopsy, retroperitoneal mass → image-guided core biopsy (ไม่ incisional biopsy ก่อน), cervical node → excisional biopsy ถ้าสงสัย lymphoma"
-     ],
-     "pearls": [
-      "core needle biopsy 'ได้เนื้อมากกว่า' ไม่ใช่เหตุผลสำหรับ thyroid",
-      "เขียนคำว่า 'suspicious' ใน US ≠ Bethesda V (cytology)",
-      "TI-RADS: TR5 FNA ≥1 cm, TR4 ≥1.5 cm, TR3 ≥2.5 cm"
-     ],
-     "members": [
-      "MDCU76|RoD|30",
-      "MDCU78|RoA|Thyroid 2",
-      "MDCU78|RoD|Thyroid and Parathyroid 3",
-      "MDCU76|RoC|12",
-      "MDCU78|RoC|Thyroid 2",
-      "MDCU77|RoD|75"
-     ]
-    },
-    {
-     "id": "bethesda-management",
-     "title": "Bethesda และการจัดการ: follicular neoplasm, AUS, suspicious for malignancy",
-     "trend": "ให้ผล Bethesda แล้วถามผ่าตัดหรือไม่ และ lobectomy หรือ total",
-     "asked": [
-      "FNA = follicular neoplasm (Bethesda IV) ก้อนข้างซ้าย → left lobectomy",
-      "MNG ก้อน suspicious 1 cm AUS สองครั้ง ไม่มี molecular testing → total thyroidectomy (เคสนี้ออกซ้ำสามรูปแบบ)",
-      "ก้อนเดี่ยว 2 cm TSH ปกติ ไม่มี node FNA Bethesda V → right lobectomy",
-      "Bethesda V ในช้อยที่ไม่มี lobectomy → total thyroidectomy",
-      "Solitary nodule 4.5 cm, FNA = Bethesda V → total thyroidectomy (ตัวลวง subtotal thyroidectomy, reassure, repeat FNA, RAI ablation)",
-      "หญิง 30 ปี ก้อน 1.5 cm ไม่โต ไม่มีอาการกดเบียด US spongiform FNA = Bethesda II → clinical + US follow-up (ตัวลวง repeat FNA 3 เดือน, lobectomy, total thyroidectomy, RAI)"
-     ],
-     "pattern": [
-      "<b>Bethesda (3rd ed. 2023) ROM โดยประมาณ</b>: I nondiagnostic ~13% → repeat US-guided FNA; II benign ~4% → ติดตาม; III AUS ~22% → repeat FNA หรือ molecular หรือ diagnostic lobectomy; IV follicular neoplasm ~30% → molecular หรือ diagnostic lobectomy; V suspicious ~74% และ VI malignant ~97% → ผ่าตัด",
-      "<b>Follicular neoplasm</b> แยก adenoma กับ carcinoma ไม่ได้ด้วย FNA หรือ core biopsy (ต้องดู capsular / vascular invasion ในชิ้นเนื้อทั้งก้อน) → <b>diagnostic lobectomy</b> ไม่ใช่ total ตั้งแต่ต้น; follicular carcinoma กระจายทางเลือด (ปอด กระดูก)",
-      "<b>AUS</b>: ครั้งแรก → repeat FNA หรือ molecular testing; ถ้ายังไม่สรุป → surveillance หรือ diagnostic surgery ตาม US pattern, risk factor และความต้องการผู้ป่วย (ATA 2015); AUS ซ้ำ + US suspicious + ไม่มี molecular → ผ่าตัด",
-      "<b>เลือกขอบเขต</b>: ก้อนเดียวกลีบเดียว → lobectomy; bilateral nodular disease / MNG, ก้อน >4 cm, US หรือ cytology suspicious, เคยฉายรังสีคอ, ประวัติครอบครัว → total thyroidectomy (เลี่ยง completion และรักษา goiter ไปด้วย)",
-      "Bethesda V–VI ก้อนข้างเดียว 1–4 cm ไม่มี ETE ไม่มี cN1 → lobectomy เพียงพอ; >4 cm, gross ETE, cN1, M1, ก้อนสองข้าง, ประวัติรังสี → total",
-      "ไม่ใช้ TSH suppression หรือ RAI กับก้อนที่ยังไม่รู้ผล",
-      "<b>Bethesda II (benign)</b> → ติดตาม: very low suspicion (spongiform) US ซ้ำมีประโยชน์น้อย ถ้าทำให้ห่าง ≥24 เดือน; low–intermediate US ซ้ำ 12–24 เดือน; high suspicion → US + repeat FNA ภายใน 12 เดือน (ATA 2015) · ผ่าตัด (lobectomy) เมื่อโตต่อเนื่อง, กดเบียด, cyst กลับเป็นซ้ำ, cosmetic หรือผู้ป่วยต้องการ"
-     ],
-     "pearls": [
-      "ใน Bethesda V คำตอบขึ้นกับช้อย: มี lobectomy + ก้อน 2 cm ข้างเดียว → lobectomy; ไม่มี lobectomy → total thyroidectomy (ดูหมายเหตุในรายงาน)",
-      "'Suspicious' ใน cytology (V) ไม่ใช่ repeat FNA เหมือน III",
-      "เคส AUS ซ้ำ: คีย์เดิมจดไม่ครบ ธนาคารเติมว่า AUS สองครั้ง + MNG ทั้งสองข้าง",
-      "79 RoC (Bethesda V 4.5 cm): bank เติมขนาด 4.5 cm เพื่อให้ total ชัดกว่า lobectomy — Bethesda 2023 ROM: V ~ 74%, VI ~ 97% จัดการเหมือนกันคือผ่าตัด; ขนาด > 4 cm, gross ETE, cN1 หรือ M1 ล็อกให้ total thyroidectomy (ATA 2015); Bethesda V ไม่ใช่ 'เจาะซ้ำ' (นั่นของ III)",
-      "72 RoC: recall ไม่มีช้อย — bank แต่งทั้งหมดจากลายมือ '→ observe'; repeat FNA เป็นของ Bethesda I / III"
-     ],
-     "members": [
-      "MDCU76|RoC|69",
-      "MDCU77|RoB|4",
-      "MDCU77|RoB|11",
-      "MDCU77|RoB|19 (เลขซ้ำ ชุดหลัง)",
-      "MDCU78|RoB|7",
-      "MDCU78|RoC|Thyroid 1",
-      "MDCU79|RoC|Thyroid and Parathyroid ไม่มีเลข 1",
-      "MDCU72|RoC|36"
-     ]
-    },
-    {
-     "id": "cystic-nodule",
-     "title": "Purely cystic nodule: simple cyst และการ aspirate",
-     "trend": "ออกสามเวอร์ชันใน 79 — anechoic ไม่ใช่มะเร็ง; มีอาการกดเบียด → aspiration",
-     "asked": [
-      "Thyroid nodule TFT ปกติ US purely cystic anechoic ผนังบางเรียบไม่มี solid component → simple cyst (ตัวลวง papillary, medullary, anaplastic, follicular ca)",
-      "ก้อน lobe ขวาเคลื่อนตามการกลืน US purely anechoic ขอบเรียบ TFT ปกติ → simple thyroid cyst (ตัวลวง thyroglossal duct cyst, PTC, MTC, branchial cleft cyst)",
-      "Purely anechoic 2 cm ทำให้อึดอัดคอ TSH ปกติ → aspiration with cytology (ตัวลวง total thyroidectomy, lobectomy, RAI, levothyroxine suppression)"
-     ],
-     "pattern": [
-      "<b>Purely cystic (anechoic ผนังบางเรียบ ไม่มี solid part) = benign pattern</b> ความเสี่ยงมะเร็ง < 1–3% (ATA 2015; ACR TI-RADS cystic anechoic = 0 แต้ม → TR1) ไม่ต้อง FNA เพื่อวินิจฉัย — ส่วนใหญ่เป็น colloid cyst หรือ degenerated nodule · ไม่มีอาการ → สังเกต",
-      "<b>มีอาการกดเบียด / กังวลเรื่องความสวยงาม</b> → US-guided aspiration (ลดขนาดทันที) + ส่ง cytology · กลับเป็นซ้ำได้บ่อย (~ ครึ่งหนึ่ง) → aspirate ซ้ำ / percutaneous ethanol injection / lobectomy · complex (มี solid component) ต้อง FNA ที่ส่วน solid",
-      "<b>แยกตำแหน่ง:</b> เคลื่อนตามการกลืน = อยู่ใน (หรือติด) ต่อมไทรอยด์; เคลื่อนตามการแลบลิ้น = thyroglossal duct cyst (midline ใกล้ hyoid)"
-     ],
-     "pearls": [
-      "ข้อ simple cyst สองเวอร์ชัน (79 RoC, RoD): เห็นช้อยมะเร็งหลายตัวอย่าคิดว่าก้อนไทรอยด์ทุกก้อนเป็นมะเร็ง — cystic PTC มี solid component ไม่ใช่ purely anechoic",
-      "ข้อ aspiration (79 RoD): ต้นฉบับไม่มีเฉลย — bank เติมว่ามีอาการอึดอัดคอเพื่อให้ aspiration (therapeutic + cytology) เป็นคำตอบ; ถ้าไม่มีอาการ purely cystic ไม่ต้อง FNA"
-     ],
-     "members": [
-      "MDCU79|RoC|Thyroid and Parathyroid 1",
-      "MDCU79|RoD|Thyroid and Parathyroid 2",
-      "MDCU79|RoD|Thyroid and Parathyroid 3"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Hyperthyroidism, Graves disease และ goiter",
-   "sections": [
-    {
-     "id": "graves-diagnosis",
-     "title": "Graves disease: clinical diagnosis, thyroid function test และ radioiodine uptake",
-     "trend": "ถามผล TFT, อาการทางตา และ imaging ที่เหมาะเมื่อวางแผน RAI",
-     "asked": [
-      "หญิง 28 ปี tremor ใจสั่น diffuse goiter → ผล TFT = T3↑ T4↑ TSH↓",
-      "หญิง 30 ปี ใจสั่น ทนร้อนไม่ได้ น้ำหนักลด diffuse goiter + lid lag → Graves disease",
-      "Graves + proptosis วางแผน RAI → imaging ที่เหมาะ = radioiodine uptake and scan",
-      "TSH ต่ำ + cold nodule บน scan → Graves",
-      "หญิง 46 ปี คอบวม น้ำหนักลด 3 kg ใน 3 เดือนทั้งที่กินจุ ทนร้อน ตาโปน lid retraction → Graves disease (ตัวลวง simple goiter, MNG, Hashimoto, toxic adenoma)",
-      "Diffuse goiter + heat intolerance + ตาโปน lid retraction → TFT ที่คาด: T3↑ T4↑ TSH↓"
-     ],
-     "pattern": [
-      "<b>Primary hyperthyroidism: T3 / T4 สูง, TSH ต่ำ</b> (ใน Graves T3 มักเด่น); หญิงอายุน้อย + diffuse goiter = Graves จนกว่าจะพิสูจน์เป็นอื่น",
-      "<b>Graves จำเพาะ</b>: TRAb (TSI) บวก, diffuse goiter มี bruit, orbitopathy (proptosis, chemosis, ophthalmoplegia), pretibial myxedema, thyroid acropachy",
-      "<b>Lid lag (von Graefe) และ lid retraction</b> เกิดจาก sympathetic overactivity ต่อ Müller muscle → พบใน thyrotoxicosis ทุกสาเหตุ ไม่จำเพาะ Graves; ไม่ใช่ ptosis (Horner, myasthenia)",
-      "<b>RAIU / scan</b>: Graves = diffuse ↑; toxic adenoma = focal hot กดส่วนอื่น; toxic MNG (Plummer) = patchy; thyroiditis (subacute, painless, postpartum, Hashitoxicosis), exogenous hormone, iodine-induced = uptake ต่ำ; ใช้คำนวณขนาด I-131; ห้ามในตั้งครรภ์และให้นม (ใช้ TRAb หรือ US Doppler แทน)",
-      "ควรประเมิน nodule ใน Graves ด้วย US ± FNA ก่อน RAI (cold nodule ~10% มะเร็ง); ถ้า cytology สงสัยหรือเป็นมะเร็ง → total thyroidectomy",
-      "Hashimoto: anti-TPO, anti-Tg, หญิงวัยกลางคน เพิ่มความเสี่ยง thyroid lymphoma"
-     ],
-     "pearls": [
-      "ตอบ US เพราะชินกับ nodule — ในโรค hyper ต้องดู function (uptake) ไม่ใช่ anatomy",
-      "ผล T3↑ T4↑ แต่ TSH ปกติ ไม่ใช่ primary hyperthyroidism",
-      "คีย์ของเคส cold nodule + TSH ต่ำเดิมถูกขีดฆ่าว่าซ้ำกัน ธนาคารตอบ Graves",
-      "73 RoC: ตาโปน + lid retraction (ophthalmopathy) เป็นตัวชี้ขาดของ Graves ไม่พบใน toxic adenoma / toxic MNG; ข้อ TFT ต้นฉบับเขียนแค่ 'TFT ของข้อที่แล้ว' — bank เขียน stem ใหม่ให้อิสระ; สลับทิศ TSH คือกับดัก (primary hyperthyroid → TSH ต่ำ)"
-     ],
-     "members": [
-      "MDCU77|RoA|33",
-      "MDCU78|RoC|Thyroid 4",
-      "MDCU76|RoD|57",
-      "MDCU76|RoA|17",
-      "MDCU76|RoA|38",
-      "MDCU76|RoA|39",
-      "MDCU73|RoC|53",
-      "MDCU73|RoC|54"
-     ]
-    },
-    {
-     "id": "graves-treatment",
-     "title": "Hyperthyroidism (Graves / toxic MNG): เลือกการรักษาและข้อบ่งชี้ thyroidectomy",
-     "trend": "โจทย์ใส่เงื่อนไข (ตาโปน, ลูกเล็ก, วางแผนตั้งครรภ์) เพื่อตัด RAI",
-     "asked": [
-      "หญิง 35 ปี ลูกเล็ก 2 คน Graves + proptosis ชัดทั้งสองข้าง → antithyroid drugs",
-      "Graves + moderate exophthalmos วางแผนตั้งครรภ์ภายในไม่กี่เดือน → near-total thyroidectomy (definitive)",
-      "Graves + active marked ophthalmopathy relapse หลัง methimazole 18 เดือน ต้องการ definitive → total thyroidectomy (ตัวลวง antithyroid drugs ต่อ, lobectomy, RAI without steroid cover, beta-blocker alone)",
-      "Graves + lid lag + exophthalmos relapse หลัง methimazole 18 เดือน ต้องการ definitive → total thyroidectomy (ตัวลวง lifelong methimazole, RAI, beta-blocker alone, lobectomy)",
-      "Surgery เป็น preferred definitive treatment ของ thyrotoxicosis ยกเว้น: ผู้สูงอายุ toxic MNG ขนาดเล็ก (ตัวลวง severe Graves ophthalmopathy, ตั้งครรภ์คุมด้วย ATD ไม่ได้, airway compression, nodule สงสัยมะเร็ง)",
-      "Hyperthyroidism ยืนยันแล้ว → ข้อใดไม่ใช่ข้อบ่งชี้ thyroidectomy: recent onset of symptoms (ตัวลวง แพ้ ATD, RAI ล้มเหลว, ตั้งครรภ์ดื้อ PTU, stridor)"
-     ],
-     "pattern": [
-      "<b>3 ทางเลือก</b>: antithyroid drug (methimazole first-line 12–18 เดือน, remission ~50%; PTU ใน first trimester และ thyroid storm), RAI, near-total / total thyroidectomy — ให้ beta-blocker คุมอาการทุกทาง",
-      "<b>ข้อห้าม RAI</b>: ตั้งครรภ์ ให้นม วางแผนตั้งครรภ์ภายใน 6 เดือน (เว้นการตั้งครรภ์ 6 เดือนหลัง RAI), moderate–severe active หรือ sight-threatening orbitopathy (RAI ทำให้แย่ลง ~15–20%; mild → ให้ steroid ป้องกัน), สงสัยมะเร็ง; หลังกลืนแร่ต้องเลี่ยงใกล้ชิดเด็กเล็ก",
-      "<b>ผู้ป่วยมีลูกเล็ก + ตาโปน ไม่ต้องการ definitive</b> → ATD (methimazole) + beta-blocker, เลิกบุหรี่, ส่งจักษุ (selenium ใน mild; IV methylprednisolone ใน active moderate–severe; orbital decompression ใน sight-threatening)",
-      "<b>ข้อบ่งชี้ thyroidectomy</b>: มีข้อห้าม RAI หรือไม่ยอมรับ, goiter ใหญ่กดเบียด, orbitopathy ปานกลาง–รุนแรง, สงสัยมะเร็ง, <b>วางแผนตั้งครรภ์เร็ว</b>, แพ้ ATD → <b>near-total / total</b> (ไม่ใช่ subtotal หรือ lobectomy เพราะ recurrence สูง); ให้ levothyroxine ตลอดชีวิต",
-      "<b>เตรียมผ่าตัด</b>: ATD + beta-blocker จน euthyroid และ SSKI / Lugol 7–10 วัน ลด vascularity ป้องกัน thyroid storm; ภาวะแทรกซ้อน hypocalcemia, RLN injury",
-      "<b>ตั้งครรภ์</b>: PTU ใน first trimester (methimazole/carbimazole ทำให้ทารกพิการช่วง 6–10 สัปดาห์) แล้วพิจารณาเปลี่ยน; ถ้าต้องผ่าตัดทำใน trimester 2; TRAb ผ่านรกได้ → ติดตาม fetal / neonatal thyrotoxicosis",
-      "ผลข้างเคียง ATD: agranulocytosis (เจ็บคอ ไข้ → หยุดยา ตรวจ CBC), hepatotoxicity (PTU รุนแรงกว่า), rash",
-      "<b>Relapse หลัง ATD ครบคอร์ส (12–18 เดือน, remission ~ 50%)</b> → definitive = RAI หรือ thyroidectomy · <b>Graves orbitopathy active ปานกลาง–รุนแรง → เลี่ยง RAI</b> (ทำให้ GO ใหม่ / แย่ลง ~ 15–20% — ATA 2016) → total (near-total) thyroidectomy ควบคุมโรคทันที ไม่ relapse และไม่ทำให้ตาแย่ลง · เตรียมก่อนผ่าตัดด้วย ATD ให้ euthyroid + beta-blocker + potassium iodide (SSKI / Lugol) · Graves ต้อง total ไม่ใช่ lobectomy · lid lag / lid retraction มาจาก sympathetic overactivity ส่วน exophthalmos มาจาก autoimmune ต่อ orbital fibroblast; GO สัมพันธ์กับการสูบบุหรี่",
-      "<b>Surgery preferred (ATA 2016)</b>: compressive symptoms / goiter ใหญ่ (≥80 g) / substernal, nodule suspicious หรือ malignant / >4 cm, moderate–severe active GO, ตั้งครรภ์ที่คุมด้วยยาไม่ได้ / ต้องใช้ยาขนาดสูง / แพ้ยา (ผ่าใน trimester 2), PHPT ร่วม, uptake ต่ำ, วางแผนตั้งครรภ์ภายใน 4–6 เดือน, แพ้หรือล้มเหลวจาก ATD / RAI",
-      "<b>ไม่ใช่ข้อบ่งชี้</b>: recent onset → เริ่ม methimazole 12–18 เดือน (มีโอกาส remission) · ผู้สูงอายุ toxic MNG เล็กไม่กดเบียด มี comorbidity → <b>RAI</b> (หรือ low-dose methimazole ระยะยาว) เลี่ยงความเสี่ยงผ่าตัด / ดมยา"
-     ],
-     "pearls": [
-      "เลือก RAI เพราะเป็น definitive ที่ใช้บ่อย — โจทย์ใส่ตาโปน / ลูกเล็ก / วางแผนตั้งครรภ์เพื่อห้าม RAI",
-      "'Definitive' และ 'within a few months' คือคำที่ธนาคารเติมเพื่อชี้ thyroidectomy",
-      "Carbimazole + propranolol ไม่ใช่ definitive",
-      "79 RoD สองเวอร์ชัน: ไม่มีเฉลย — ต้นฉบับจดแค่ marked ophthalmopathy / lid lag + exophthalmos ซึ่งทั้ง ATD และ total thyroidectomy ยอมรับได้ใน GO รุนแรง; bank เติมว่า relapse หลัง ATD และต้องการ definitive จึงเหลือ thyroidectomy (ถ้าให้ RAI ต้องคลุมด้วย steroid และเลือกเฉพาะ GO ไม่ active)",
-      "72 RoA: ต้นฉบับเขียนแค่ 'pt w/ multinodular goiter' — bank เติม 'elderly… small' เพราะ toxic MNG ที่ใหญ่หรือกดเบียดผ่าตัดเป็นตัวเลือกหลักได้",
-      "ตั้งครรภ์ห้าม RAI แต่ผ่าตัดได้ใน trimester 2 — อย่าคิดว่า pregnancy ห้ามผ่า"
-     ],
-     "members": [
-      "MDCU77|RoC|70",
-      "MDCU77|RoD|73",
-      "MDCU79|RoD|Thyroid and Parathyroid 1",
-      "MDCU79|RoD|Thyroid and Parathyroid 4",
-      "MDCU72|RoA|70",
-      "MDCU72|RoC|38"
-     ]
-    },
-    {
-     "id": "mng-goiter-surgery",
-     "title": "Multinodular goiter: ข้อบ่งชี้ผ่าตัดและขอบเขต",
-     "trend": "MNG ที่มี compressive symptoms ตอบ total / near-total thyroidectomy",
-     "asked": [
-      "MNG ทั้งสองกลีบ + compressive symptoms → total thyroidectomy",
-      "คอโตหลายปี หายใจลำบากตอนนอนราบ US isoechoic nodules ไม่มีลักษณะน่าสงสัย TFT ปกติ → near-total thyroidectomy"
-     ],
-     "pattern": [
-      "<b>ข้อบ่งชี้ผ่าตัด goiter</b>: compressive symptoms (dysphagia, dyspnea, stridor, หายใจลำบากตอนนอนราบ), retrosternal extension, สงสัยหรือเป็นมะเร็ง, toxic MNG ที่เลือกผ่า, ก้อนโตต่อเนื่อง, cosmetic; goiter ที่ไม่มีอาการ euthyroid และ FNA benign ไม่ต้องผ่า",
-      "<b>MNG ทั้งสองกลีบ → total หรือ near-total thyroidectomy</b> (ไม่เหลือเนื้อให้โตซ้ำ); subtotal มี recurrence สูงและ reoperation เสี่ยง RLN injury / hypoparathyroidism มากกว่า (Cochrane 2015: total ลด recurrence โดย permanent RLN palsy และ hypoparathyroidism ไม่ต่าง)",
-      "อาการกดเบียดเป็นข้อบ่งชี้ผ่าตัดแม้ cytology benign — FNA ไม่เปลี่ยนการตัดสินใจ; ก่อนผ่าตัดทำ CT คอถึง thoracic inlet ดู retrosternal extension และการตีบหลอดลม",
-      "โรคข้างเดียว (toxic adenoma, solitary nodule) → lobectomy; toxic MNG → RAI หรือ near-total / total (ผ่าถ้ากดเบียด สงสัยมะเร็ง หรือต้องการผลเร็ว)",
-      "ไม่แนะนำ levothyroxine suppression routine; RAI สำหรับ nontoxic goiter ใช้ใน high-risk surgery (ลดขนาดได้ ~30–50%); RFA สำหรับ benign nodule เดี่ยว",
-      "หลังผ่าตัดให้ levothyroxine ตลอดชีวิต"
-     ],
-     "pearls": [
-      "subtotal 'ปลอดภัยกว่า' เป็นความเชื่อผิด — ในมือชำนาญ total ปลอดภัยพอกันและไม่ต้องผ่าซ้ำ",
-      "เห็น 'no suspicious features' แล้วเลือก FNA / observe — ลืมว่าอาการกดเบียดเป็นข้อบ่งชี้ผ่าตัด"
-     ],
-     "members": [
-      "MDCU76|RoA|19",
-      "MDCU77|RoD|74"
-     ]
-    },
-    {
-     "id": "hypothyroid-tft",
-     "title": "Hypothyroidism: อาการและ pattern ของ TFT",
-     "trend": "ออกครั้งเดียว — primary hypothyroidism = T4 ต่ำ TSH สูง",
-     "asked": [
-      "หญิงอ่อนเพลีย น้ำหนักขึ้น ขี้หนาว → lab pattern ที่พบบ่อยที่สุด: decreased T4, increased TSH (ตัวลวง T4↑ TSH↑, T4↑ TSH↓, T4↓ TSH↓, T4↓ TSH ปกติ)"
-     ],
-     "pattern": [
-      "<b>Primary hypothyroidism (> 95%):</b> free T4 ต่ำ → ไม่ถูก negative feedback → TSH สูง · สาเหตุ: Hashimoto (anti-TPO), ขาดไอโอดีน, หลัง total thyroidectomy หรือ RAI, ยา amiodarone / lithium · อาการ: อ่อนเพลีย น้ำหนักขึ้น ขี้หนาว ท้องผูก ผิวแห้ง ผมร่วง ประจำเดือนมามาก หัวใจเต้นช้า delayed relaxation ของ reflex, non-pitting edema",
-      "Subclinical: TSH สูง free T4 ปกติ · Central: T4 ต่ำ TSH ต่ำ / ปกติ (พบน้อย) · primary hyperthyroid: T4 / T3 สูง TSH ต่ำ"
-     ],
-     "pearls": [
-      "T4 ต่ำ + TSH ต่ำ ฟังเหมือน 'ไทรอยด์ต่ำทั้งระบบ' แต่บ่งชี้ปัญหาที่ pituitary — primary hypothyroidism TSH ต้องสูงเสมอ"
-     ],
-     "members": [
-      "MDCU74|RoA|ไม่มีเลข 25"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Parathyroid: primary, secondary และ tertiary hyperparathyroidism",
-   "sections": [
-    {
-     "id": "phpt-diagnosis",
-     "title": "Primary hyperparathyroidism: วินิจฉัย สาเหตุ และข้อบ่งชี้ผ่าตัด",
-     "trend": "ให้ Ca สูง + PTH สูงแล้วถามชนิด / สาเหตุที่พบบ่อยที่สุด",
-     "asked": [
-      "คลื่นไส้อาเจียน hypercalcemia 3 เดือน ไตปกติ PTH 90 → primary hyperparathyroidism",
-      "หญิง 60 ปี Ca 11.8 PTH สูง คลำก้อนไม่ได้ sestamibi เห็น single focus → parathyroid adenoma",
-      "ไม่มี CKD, Ca สูง PO₄ ต่ำ PTH สูง กระดูกพรุน → parathyroid adenoma",
-      "หญิง 25 ปี wrist fracture + severe osteoporosis + Ca สูงเล็กน้อย → primary hyperparathyroidism (ตัวลวง vitamin D intoxication, FHH, Graves, premenopausal osteoporosis)"
-     ],
-     "pattern": [
-      "<b>Ca สูง + PTH สูง (หรือปกติแบบไม่เหมาะสม) + ไตปกติ = primary</b>; PTH สูง + Ca ต่ำหรือปกติ = secondary (CKD, vitamin D deficiency); Ca สูง + PTH สูงมากหลัง CKD นาน / ปลูกไต = tertiary; Ca สูง + PTH ต่ำ = non-PTH (PTHrP มะเร็ง, vitamin D, granuloma, myeloma); FHH: PTH ปกติ–สูงเล็กน้อย, urine Ca / Cr clearance ratio <0.01 ไม่ต้องผ่าตัด",
-      "Biochem: Ca ↑, PO₄ ↓, PTH ↑, urine Ca ปกติหรือสูง",
-      "<b>สาเหตุ</b>: single adenoma 80–85%, multigland hyperplasia 10–15% (MEN1, MEN2A, lithium), double adenoma 2–5%, carcinoma <1% (Ca >14 mg/dL, PTH สูงมาก, คลำก้อนได้ที่คอ, ติดเนื้อเยื่อรอบข้าง → en bloc resection); ถ้า Ca ไม่สูงมากและคลำไม่ได้ → adenoma",
-      "อาการ: stones (นิ่ว), bones (osteoporosis, osteitis fibrosa cystica), abdominal groans (คลื่นไส้ ปวดท้อง peptic ulcer pancreatitis), psychic moans; ส่วนใหญ่ asymptomatic",
-      "<b>ข้อบ่งชี้ผ่าตัด (Fifth International Workshop 2022)</b>: ทุกรายที่มีอาการ; asymptomatic เมื่อ Ca >1 mg/dL เหนือ ULN, T-score ≤−2.5 หรือ vertebral fracture, eGFR <60, นิ่ว / nephrocalcinosis / hypercalciuria, อายุ <50 ปี",
-      "Parathyroid adenoma ไม่ทำให้ hyperthyroidism — อย่าสับสนกับ thyroid",
-      "Hyperplasia (MEN, CKD) → subtotal หรือ total parathyroidectomy + autotransplant; หลังผ่าตัดระวัง hungry bone syndrome",
-      "Osteoporosis รุนแรงในหญิงก่อนหมดประจำเดือน → หาสาเหตุทุติยภูมิ; + Ca สูงในผู้ป่วยนอกที่ดูแข็งแรง = <b>PHPT</b> จนกว่าพิสูจน์อื่น · PTH สลาย cortical bone มากที่สุด (distal ⅓ radius) → ข้อมือหัก · ยืนยันด้วย PTH สูง / ไม่ถูกกด + 24-h urine Ca (แยก FHH ซึ่งไม่ทำให้กระดูกพรุน) · อายุ <30 ปี → พิจารณา genetic testing (MEN1, MEN2A, HPT-JT); อายุ <50 และ osteoporosis = ข้อบ่งชี้ผ่าตัด"
-     ],
-     "pearls": [
-      "PTH สูงแล้วเลือก secondary / tertiary โดยไม่ดู Ca และไต",
-      "เคสที่คีย์ให้หลายช้อย (adenoma, carcinoma, hyperplasia) → ตอบ adenoma เพราะพบบ่อยสุด เว้นแต่โจทย์ให้ Ca >14 + ก้อนแข็ง (carcinoma) หรือ MEN / lithium (hyperplasia)"
-     ],
-     "members": [
-      "MDCU77|RoD|72",
-      "MDCU77|RoC|11",
-      "MDCU78|RoC|Thyroid 3",
-      "MDCU72|RoC|37"
-     ]
-    },
-    {
-     "id": "phpt-localization",
-     "title": "Preoperative localization: Tc-99m sestamibi และ focused parathyroidectomy",
-     "trend": "imaging ใน PHPT ใช้ทำอะไร และ scan ชนิดไหน",
-     "asked": [
-      "parathyroid scan ก่อนผ่าตัด → Tc-99m sestamibi scan",
-      "PHPT ยืนยันทาง biochemistry แล้วจะผ่าตัด → เป้าหมายของ imaging = localize abnormal gland",
-      "sestamibi เห็น single focus → adenoma"
-     ],
-     "pattern": [
-      "<b>วินิจฉัย PHPT ด้วย Ca + PTH เท่านั้น</b>; <b>imaging ใช้ localize</b> เพื่อวางแผน minimally invasive (focused) parathyroidectomy แทน bilateral neck exploration — ไม่ใช้วินิจฉัย ไม่ใช้ดู osteoporosis หรือ metastasis",
-      "<b>Tc-99m sestamibi</b> ค้างใน mitochondria ของ oxyphil cell ใน adenoma; dual-phase (thyroid ล้างออกเร็ว, adenoma ค้างใน delayed ~2 ชม.); ทำร่วม SPECT/CT; ใช้คู่กับ neck US เป็น first line",
-      "ไม่ชัดหรือไม่ตรงกัน → 4D-CT หรือ 18F-fluorocholine PET/CT; ข้อจำกัดของ sestamibi: multigland disease (เห็นแค่ต่อมเด่นสุด), thyroid nodule ร่วม (false positive)",
-      "Parathyroid อยู่ได้หลายที่ (ectopic: thymus, retroesophageal, intrathyroidal, carotid sheath) จึงต้อง localize",
-      "<b>Intraoperative PTH</b>: ลดลง >50% จากค่าสูงสุดภายใน 10 นาทีหลังตัด (Miami criterion) = ตัดครบ; imaging negative / ขัดกัน → bilateral neck exploration โดยศัลยแพทย์ชำนาญ"
-     ],
-     "pearls": [
-      "ตอบว่าต้อง sestamibi positive ถึงวินิจฉัยหรือผ่าตัดได้ — ผิด",
-      "ไม่ใช้ FDG PET, I-131, gallium หรือ CT contrast เป็น parathyroid scan มาตรฐาน"
-     ],
-     "members": [
-      "MDCU76|RoA|7",
-      "MDCU78|RoD|Thyroid and Parathyroid 4",
-      "MDCU77|RoC|11"
-     ]
-    },
-    {
-     "id": "secondary-tertiary-hpt",
-     "title": "Secondary และ tertiary hyperparathyroidism (CKD-MBD)",
-     "trend": "ใช้ระดับ Ca แยก secondary กับ tertiary — ออกสี่เวอร์ชันใน 79 และหนึ่งใน 73",
-     "asked": [
-      "ESRD ฟอกไต 5 ปี หลังฟอก Ca 8.2 phosphate 5.3 PTH 150 → secondary hyperparathyroidism",
-      "CKD stage 5 Ca 8 phosphate สูง PTH 950 → สาเหตุ PTH สูง: secondary hyperparathyroidism (ตัวลวง primary, tertiary, hypoparathyroidism, humoral hypercalcemia of malignancy) — ออกซ้ำอีกเวอร์ชัน (Ca ต่ำ P สูง PTH สูง)",
-      "ฟอกไต 8 ปี bone pain PTH สูงมาก Ca 13 phosphate 5.5 แม้รักษาทางยาเต็มที่ → total parathyroidectomy (ตัวลวง เปลี่ยนเป็น peritoneal dialysis, bisphosphonate, calcium carbonate + calcitriol, RAI)"
-     ],
-     "pattern": [
-      "<b>แยกตาม Ca:</b> primary = Ca ↑ P ↓ PTH ↑ (ไตปกติ; adenoma ~ 85%) · <b>secondary = Ca ↓ / ปกติ, P ↑, PTH ↑</b> (CKD) · <b>tertiary = Ca ↑, PTH ↑↑ autonomous</b> หลัง secondary นานหรือหลังปลูกไต · hypoparathyroidism = Ca ↓ P ↑ PTH ↓",
-      "<b>กลไก CKD-MBD:</b> ไตขับ phosphate ไม่ได้ → hyperphosphatemia, FGF23 ↑; 1α-hydroxylase ↓ → calcitriol ↓ → ดูดซึม Ca ลด → Ca ต่ำ → กระตุ้น parathyroid hyperplasia ทั้ง 4 ต่อม (diffuse → nodular) + vascular calcification · เป้า PTH ในผู้ป่วยฟอกไตตาม KDIGO 2017 คือสูงกว่าปกติได้ (~ 2–9 เท่า) จึง PTH สูงอย่างเดียวไม่ได้แปลว่าต้องผ่า",
-      "<b>รักษา:</b> secondary → คุม phosphate (diet, binder), vitamin D analog, calcimimetic (cinacalcet / etelcalcetide) · <b>tertiary หรือ refractory secondary (Ca สูง, PTH สูงมาก, bone pain, calciphylaxis) → parathyroidectomy</b> — total parathyroidectomy ± autotransplantation หรือ subtotal 3½ ต่อม · ปลูกไตไม่แก้ tertiary HPT"
-     ],
-     "pearls": [
-      "เห็น PTH สูงมาก (950) หรือฟอกไตนานแล้วตอบ tertiary — ต้องดู Ca ก่อน: Ca ต่ำ/ปกติ = secondary, Ca สูง = tertiary",
-      "ข้อ tertiary (73 RoB): ต้นฉบับมีช้อย PTX + hemodialysis กับ PTX + renal transplant ซ้อนกับ total PTX เพราะผู้ป่วยฟอกไตอยู่แล้ว — bank เติมประวัติฟอกไต 8 ปี + 'despite optimal medical therapy' และแทน D, E ด้วย calcium carbonate + calcitriol กับ RAI เพื่อเหลือ total parathyroidectomy ช้อยเดียว"
-     ],
-     "members": [
-      "MDCU73|RoB|76",
-      "MDCU79|RoC|Thyroid and Parathyroid 2",
-      "MDCU79|RoD|Fluid and electrolyte 5",
-      "MDCU79|RoD|Thyroid and Parathyroid 5"
-     ]
-    },
-    {
-     "id": "hypercalcemia-causes-rx",
-     "title": "Hypercalcemia: สาเหตุ และการรักษาเฉียบพลัน",
-     "trend": "ถามแบบ 'ข้อใดไม่ใช่' — thiazide ห้ามใช้, massive transfusion ทำให้ Ca ต่ำ",
-     "asked": [
-      "PHPT + symptomatic hypercalcemia → การรักษาใดไม่เหมาะ: thiazide diuretic (ตัวลวง IV fluid, bisphosphonate, calcitonin ใน severe, รักษาสาเหตุ)",
-      "ภาวะใดไม่สัมพันธ์กับ hypercalcemia: massive blood transfusion (ตัวลวง thyrotoxicosis, CKD, PHPT, FHH)"
-     ],
-     "pattern": [
-      "<b>Rx severe / symptomatic</b>: (1) <b>IV normal saline</b> แก้ volume depletion และเพิ่มการขับ Ca (2) <b>calcitonin</b> 4 IU/kg SC / IM ทุก 12 ชม. ออกฤทธิ์ 4–6 ชม. ลด ~1–2 mg/dL แต่ tachyphylaxis ใน 48 ชม. → bridge (3) <b>bisphosphonate</b> (zoledronic acid 4 mg IV) ออกฤทธิ์ 2–4 วัน หรือ denosumab (4) รักษาสาเหตุ (parathyroidectomy) · loop diuretic เฉพาะหลังแก้ volume / มี overload · <b>thiazide เพิ่มการดูดกลับ Ca ที่ distal tubule → ห้ามใช้</b>",
-      "<b>สาเหตุ hypercalcemia</b>: PTH-dependent (PHPT, tertiary HPT ใน CKD, FHH, lithium) · PTH-independent (มะเร็ง PTHrP / bone mets, vitamin D, granuloma, thyrotoxicosis, immobilization, thiazide) · <b>Massive transfusion → hypocalcemia</b> (citrate จับ ionized Ca; ≥10 units ใน 24 ชม. หรือ ≥4 units ใน 1 ชม. + shock / hypothermia / ตับเสีย) → ให้ calcium chloride / gluconate เมื่อ iCa <1.1 mmol/L ('lethal diamond')"
-     ],
-     "pearls": [
-      "71 RoB: คีย์ในไฟล์ตอบ calcitonin — bank ตอบ thiazide (ช้อยที่แต่งเพิ่ม, ความมั่นใจปานกลาง) เพราะ calcitonin เป็นการรักษาจริง ฤทธิ์สั้นไม่ได้แปลว่าไม่ใช่การรักษา",
-      "CKD ทำ Ca ต่ำใน secondary HPT แต่ tertiary ทำ Ca สูง; FHH ชื่อมี hypocalciuric ไม่ใช่ hypocalcemia"
-     ],
-     "members": [
-      "MDCU71|RoB|ไม่มีเลข 9",
-      "MDCU70|RoC|48"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "ภาวะแทรกซ้อนหลัง thyroidectomy",
-   "sections": [
-    {
-     "id": "post-thyroidectomy-hypocalcemia",
-     "title": "Hypocalcemia หลัง thyroidectomy (hypoparathyroidism)",
-     "trend": "POD1 ชารอบปาก / carpopedal spasm ตอนวัดความดัน แล้วถาม lab, กลไก, หรือการรักษา",
-     "asked": [
-      "POD1 ชารอบปาก carpopedal spasm ตอนวัด BP → lab = hypocalcemia",
-      "Chvostek และ Trousseau บวกหลัง thyroidectomy → สาเหตุ = devascularization ของ parathyroid",
-      "Carpopedal spasm POD1 → immediate management = IV calcium gluconate",
-      "near-total thyroidectomy เก็บโครงสร้างใดไว้รักษา calcium homeostasis → parathyroid gland",
-      "2 วันหลัง total thyroidectomy ชารอบปาก + พองความดันเกิน systolic 3 นาทีแล้วข้อมือและนิ้วงอ (Trousseau sign) → hypocalcemia จาก hypoparathyroidism (ตัวลวง hypokalemia, hyponatremia, hyperkalemia, RLN injury)"
-     ],
-     "pattern": [
-      "<b>กลไก</b>: parathyroid ขาดเลือด (inferior thyroid artery เลี้ยงทั้ง thyroid และ parathyroid), บาดเจ็บ หรือถูกตัดออก → hypoparathyroidism; ความเสี่ยงสูงใน total thyroidectomy, central neck dissection, Graves, reoperation; ไม่เกิดหลัง lobectomy",
-      "เกิดใน 24–72 ชม.; transient พบบ่อย (~20–30% หรือสูงกว่าตามนิยาม), <b>permanent <2–3%</b> (เกิน 6–12 เดือน)",
-      "<b>อาการ</b>: ชารอบปากและปลายมือ-เท้า, ตะคริว, <b>Chvostek</b> (เคาะ facial nerve หน้าหู → มุมปากกระตุก), <b>Trousseau</b> (พันผ้าวัดความดันเกิน systolic 3 นาที → carpopedal spasm จำเพาะกว่า), tetany, laryngospasm, ชัก, QT ยาว",
-      "<b>Rx มีอาการ</b>: <b>10% calcium gluconate 10–20 mL IV ช้า ๆ ใน ~10 นาที</b> แล้วต่อ infusion; ตรวจ Ca (corrected / ionized), Mg, PTH, ECG; <b>แก้ Mg ต่ำ</b> ด้วย; อาการเล็กน้อยหรือระยะยาว → oral calcium carbonate / citrate + <b>calcitriol</b> (ไม่มี PTH จึงสร้าง active vitamin D ไม่ได้)",
-      "<b>Near-total thyroidectomy</b> เหลือเนื้อต่อม <1 g ที่ ligament of Berry เพื่อปกป้อง RLN และ parathyroid พร้อมเส้นเลือดเลี้ยง",
-      "<b>ป้องกัน</b>: ผูกแขนงของ inferior thyroid artery ชิด capsule, ระบุและเก็บ parathyroid พร้อมขั้วเลือด, ต่อมที่ขาดเลือดหรือหลุด → หั่นเล็กแล้ว autotransplant เข้า sternocleidomastoid, วัด PTH หลังผ่า (ต่ำ → ให้ calcium ± calcitriol prophylaxis)",
-      "Parathyroid: superior จาก 4th pouch ตำแหน่งคงที่, inferior จาก 3rd pouch (ร่วม thymus) ตำแหน่งแปรผัน",
-      "<b>Trousseau sign</b> = carpal spasm เมื่อ cuff เกิน SBP นาน 3 นาที (ไวและจำเพาะกว่า Chvostek = เคาะ facial nerve หน้าหูแล้วมุมปากกระตุก) · หลัง total thyroidectomy ตรวจ PTH (มัก 4–24 ชม.) ± Ca — PTH ต่ำทำนาย hypocalcemia; หลายสถาบันให้ oral calcium ± calcitriol ตามระดับ PTH"
-     ],
-     "pearls": [
-      "ชา ฟังเหมือน nerve injury แต่ชารอบปาก + carpopedal spasm = hypocalcemia",
-      "carpopedal spasm ไม่ใช่ hyperventilation (paper-bag) และไม่รอ lab",
-      "hungry bone syndrome หลังผ่าตัด Graves / PHPT: Ca, PO₄, Mg ต่ำ แต่ PTH ไม่ต่ำ",
-      "เลือก hypothyroidism เพราะผ่าตัด thyroid — ผิด"
-     ],
-     "members": [
-      "MDCU76|RoC|6",
-      "MDCU77|RoD|71",
-      "MDCU78|RoB|6",
-      "MDCU77|RoB|64",
-      "MDCU79|RoD|Fluid and electrolyte 4"
-     ]
-    },
-    {
-     "id": "post-thyroidectomy-nerve-hematoma",
-     "title": "Neck hematoma และการบาดเจ็บของเส้นประสาทกล่องเสียง",
-     "trend": "ถามสิ่งที่ห้ามทำเมื่อ stridor หลังผ่าตัด และเส้นประสาทที่ทำให้เสียงเปลี่ยน",
-     "asked": [
-      "Stridor หลัง total thyroidectomy คอตึงบวมเร็ว SpO2 92% → ข้อใดไม่ควรทำ (emergency CT)",
-      "เสียงผิดปกติหลัง thyroidectomy ช้อยมีเฉพาะ EBSLN → external branch of superior laryngeal nerve",
-      "เสียงแหบหลัง total thyroidectomy อาจจาก nerve ใด → recurrent laryngeal nerve (ตัวลวง internal / external branch ของ SLN, superficial cervical plexus, hypoglossal)",
-      "นักร้องโอเปร่าร้องเสียงสูงไม่ได้หลัง thyroidectomy → external branch of superior laryngeal nerve (ตัวลวง RLN, inferior laryngeal, internal branch, vagus)",
-      "POD2 หลัง total thyroidectomy สำลักเวลากลืน + เสียงแหบ → recurrent laryngeal nerve injury (ตัวลวง viral infection, reaction จาก ET tube, SLN injury, parathyroid injury)"
-     ],
-     "pattern": [
-      "<b>Neck hematoma</b> ~1–2% ส่วนใหญ่ภายใน 6 ชม. (ถึง 24 ชม.): คอบวมตึงโตเร็ว แผลโป่ง กลืนลำบาก stridor; <b>วินิจฉัยทางคลินิก ห้ามส่ง CT</b> — ให้ O2 ความเข้มข้นสูง นั่งตัวตรง เรียกความช่วยเหลือ (senior / anesthesia) และ <b>เปิดแผลระบาย clot ข้างเตียงทันที (SCOOP: skin exposure, cut sutures, open skin, open muscles, pack wound)</b> แล้ว secure airway และกลับ OR",
-      "อุดกั้นจาก venous / lymphatic congestion ของ larynx ไม่ใช่แค่กดหลอดลม จึงทรุดเร็ว; เพิ่ม O2 ให้ได้ ไม่ใช่ข้อห้าม",
-      "สาเหตุอื่นของ stridor: bilateral RLN injury (คอไม่บวม → reintubate / tracheostomy), laryngeal edema (epinephrine nebulization, steroid), hypocalcemia → laryngospasm (IV calcium gluconate), tracheomalacia",
-      "<b>RLN</b>: intrinsic laryngeal muscles ทั้งหมดยกเว้น cricothyroid; unilateral → เสียงแหบ / สำลัก, bilateral → stridor; ระบุ nerve ให้เห็นทุกครั้ง ± nerve monitoring (IONM); RLN ขวาวน subclavian (non-recurrent ถ้ามี aberrant right subclavian), ซ้ายวน aortic arch",
-      "<b>EBSLN</b>: motor ไป cricothyroid → ขึ้นเสียงสูงไม่ได้ เสียงล้า; ใกล้ superior thyroid artery จึงบาดเจ็บตอนผูก superior pole — ผูกแขนงชิด capsule ไม่ ligate en masse; <b>Internal branch SLN</b> = sensory supraglottic → สำลัก",
-      "<b>แยกเสียงเปลี่ยนตามเส้นประสาท:</b> <b>RLN</b> เลี้ยง intrinsic laryngeal muscles ทั้งหมดยกเว้น cricothyroid — ข้างเดียวบาดเจ็บ = เสียงแหบ / breathy (vocal cord paralysis), สองข้าง = stridor / airway obstruction (อาจต้อง tracheostomy); อยู่ใน tracheoesophageal groove ใกล้ ligament of Berry และ inferior thyroid artery · <b>EBSLN</b> เลี้ยง cricothyroid → ตึงเส้นเสียง ควบคุมเสียงสูง; บาดเจ็บ = เสียงอ่อน เหนื่อยง่าย ร้องเสียงสูงไม่ได้; วิ่งใกล้ superior thyroid vessels จึงเสี่ยงตอนผูกขั้วบน (ผูกชิด capsule) · <b>Internal branch SLN</b> = sensory ของ supraglottic larynx → สำลัก / aspiration",
-      "<b>RLN ข้างเดียว</b> → cord อยู่ paramedian / lateral ปิดไม่สนิท → เสียงแหบ (breathy) + <b>สำลักโดยเฉพาะน้ำ</b> (RLN ให้ sensation ใต้ cord ด้วย) · ส่วนใหญ่ neurapraxia ชั่วคราว · ยืนยันด้วย laryngoscopy · แยก: เสียงแหบ = RLN, เสียงล้า / เสียงสูงไม่ได้ = EBSLN, สำลักโดยเสียงปกติ = internal SLN"
-     ],
-     "pearls": [
-      "คิดว่าต้องยืนยัน hematoma ด้วย imaging ก่อน — ผิด",
-      "ถ้าไม่มี hematoma การ evacuate clot ข้างเตียงไม่เหมาะ (ธนาคารจึงเติมว่าคอตึงบวมโตเร็ว)",
-      "เสียงแหบชัดเจนคลาสสิกคือ RLN แต่ไม่มีในช้อย ธนาคารเลือก EBSLN",
-      "เสียงแหบ = RLN, เสียงสูงเสีย (นักร้อง) = EBSLN — ข้อ RLN (73 RoB) ต้นฉบับไม่มีช้อยถูกกากบาท ผู้จดเขียน 'Ans Recurrent laryngeal nerve' เองและช้อย C กับ D ซ้ำกัน bank จึงแทน D ด้วย RLN; เมื่อมี RLN ในช้อยและโจทย์บอกแค่เสียงแหบ อย่าตอบ EBSLN",
-      "อย่าโทษ intubation ก่อนส่อง laryngoscopy"
-     ],
-     "members": [
-      "MDCU77|RoA|4",
-      "MDCU77|RoA|3",
-      "MDCU73|RoB|45",
-      "MDCU73|RoC|55",
-      "MDCU70|RoA|55"
-     ]
-    },
-    {
-     "id": "thyroid-storm-postop",
-     "title": "Thyroid storm หลัง thyroidectomy",
-     "trend": "ออกครั้งเดียว (71 RoA) — ไข้สูง + HR เร็วมาก + agitation ไม่กี่ชั่วโมงหลังผ่า Graves ที่เตรียมไม่ดี",
-     "asked": [
-      "Graves คุมไม่ดี ทำ subtotal thyroidectomy ไม่กี่ชั่วโมงต่อมา agitation ไข้ 39.8 °C HR 150 คอบวมเล็กน้อยไม่มี stridor → thyroid storm (ตัวลวง neck hematoma, bilateral RLN injury, hypocalcemia, SLN injury)"
-     ],
-     "pattern": [
-      "<b>กลไก</b>: ผ่าตัดขณะยังไม่ euthyroid → manipulation ของต่อมปล่อย hormone + stress · อาการ: ไข้สูง (>39–40 °C), tachycardia / AF, agitation / delirium / ชัก, heart failure, คลื่นไส้อาเจียน ตัวเหลือง · Burch–Wartofsky ≥45 = สงสัยมาก",
-      "<b>Rx (ICU)</b>: β-blocker (propranolol) + thionamide (PTU หรือ methimazole) → iodine (SSKI / Lugol) <b>หลัง thionamide ≥1 ชม.</b> + hydrocortisone (ลด T4 → T3) + acetaminophen + cooling (<b>เลี่ยง aspirin</b> แทนที่ T4 บน TBG) + แก้ precipitating factor",
-      "<b>ป้องกัน</b>: ATD ± β-blocker จน euthyroid + potassium iodide ~10 วันก่อนผ่าใน Graves"
-     ],
-     "pearls": [
-      "เห็น neck swelling แล้วตอบ hematoma — คอบวมเล็กน้อยไม่มี stridor + ไข้สูง + HR 150 = thyrotoxicosis",
-      "71 RoA: recall ช้อย 1–4 ว่าง — bank แต่งช้อยและเติม Graves คุมไม่ดี, ไข้, HR, ไม่มี hematoma ตึง"
-     ],
-     "members": [
-      "MDCU71|RoA|20"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Thyroglossal duct cyst และก้อนกลางคอ",
-   "sections": [
-    {
-     "id": "thyroglossal-cyst",
-     "title": "Thyroglossal duct cyst: วินิจฉัยและ Sistrunk operation",
-     "trend": "ออกซ้ำสี่เวอร์ชันใน 73–74 — เคลื่อนขึ้นเมื่อแลบลิ้น = thyroglossal; ตอบ Sistrunk",
-     "asked": [
-      "ชาย 20 ปี ก้อนคอหน้าชิด midline (ด้านขวา) เคลื่อนขึ้นเมื่อแลบลิ้น → thyroglossal duct cyst (ตัวลวง thyroid cancer, branchial cleft cyst, lipoma, cystic hygroma, PTC) — ออกสามเวอร์ชัน",
-      "ก้อน midline 2 cm เหนือต่อมไทรอยด์ 8 ปี นุ่มเรียบ เคลื่อนขึ้นเมื่อกลืน → definitive treatment: Sistrunk operation (ตัวลวง total thyroidectomy, simple excision, radical neck dissection, antibiotics + observation)"
-     ],
-     "pattern": [
-      "<b>Thyroglossal duct cyst</b> = ก้อนแต่กำเนิดแนวกลางคอที่พบบ่อยที่สุด (~ 70% ของ midline neck mass ในเด็ก) จาก thyroglossal duct (foramen cecum → ผ่าน / ใกล้ hyoid → ไทรอยด์) ไม่ฝ่อ · นุ่ม กลม ไม่เจ็บ (เจ็บเมื่อติดเชื้อ) ระดับ hyoid ถึง thyroid cartilage · <b>เคลื่อนขึ้นเมื่อแลบลิ้นและเมื่อกลืน</b> เพราะ tract ผูกกับ hyoid / โคนลิ้น (ก้อนไทรอยด์เคลื่อนเมื่อกลืนอย่างเดียว ไม่เคลื่อนตามลิ้น)",
-      "<b>ก่อนผ่าตัด:</b> US neck ยืนยันว่ามีต่อมไทรอยด์ปกติ (ectopic thyroid อาจมีเฉพาะก้อนนี้) ± TFT · FNA ถ้ามี solid component (carcinoma ~ 1% ส่วนใหญ่ papillary)",
-      "<b>รักษา = Sistrunk operation:</b> ตัด cyst + tract ทั้งหมด + ส่วนกลางของ hyoid bone ± core tissue ถึง foramen cecum → recurrence เหลือ ~ 3–5% · simple excision กลับเป็นซ้ำสูง · branchial cleft cyst อยู่ด้านข้างคอ (anterior border ของ sternocleidomastoid)"
-     ],
-     "pearls": [
-      "ข้อ midline ที่เคลื่อนเมื่อกลืน (74 RoC): อย่าเห็นคำว่า 'move with swallowing' แล้วเลือก thyroidectomy — ตำแหน่งแนวกลางเหนือไทรอยด์ใกล้ hyoid และเคลื่อนเมื่อแลบลิ้นชี้ cyst; อย่าเลือก simple excision เพราะคิดว่าเป็นแค่ cyst",
-      "ข้อ papillary thyroid carcinoma เป็นช้อยที่ bank แต่งเพิ่ม (73 RoB เวอร์ชันสอง) — พบ PTC ใน cyst ได้แต่ลักษณะเคลื่อนตามลิ้นชี้ cyst; สะกด Brachial / Branchial ในต้นฉบับ"
-     ],
-     "members": [
-      "MDCU73|RoB|44",
-      "MDCU73|RoB|44b",
-      "MDCU73|RoC|51",
-      "MDCU74|RoC|14"
-     ]
-    }
-   ]
-  }
- ]
-});
 
 })(WARDS["sx"].SUMM.MCQ);

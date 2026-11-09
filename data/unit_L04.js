@@ -1,0 +1,2 @@
+/* Unit round — L04 Gallstone diseases, Biliary anatomy & physiology, MIS · ใส่แค่หัวข้อบทไว้ก่อน (ยังไม่มีโจทย์ ตาม override 26 ต.ค. 2026) */
+W.UNIT.push({"id": "L04", "title": "L04 Gallstone diseases, Biliary anatomy & physiology, MIS", "short": "L04", "src": "L04 bile metabolism handout + surgical anatomy biliary system handout + MIS Chula book chapter + MIS and Gallstones med student lecture (อ.วรณัฐา วัชราทิตย์)", "topic": "Gallbladder & Biliary", "tags": ["Gallstone", "Jaundice", "MIS"],"QB":[]});
