@@ -1,5 +1,5 @@
 SUMM.push({tag:"pefind", title:"Describe physical findings",
-  intro:"<ul><li>สถานี Describe physical findings (ไม่มี examiner) ออกจาก 2 rotation: <b>รูป oropharynx</b> ในผู้ป่วยไข้เจ็บคอ (diagnosis → treatment) และ <b>รูปผู้หญิงตาโปน</b> (describe findings → lab → diagnosis)</li><li>สถานีตาโปน: ต้องบรรยาย <b>upper eyelid retraction / proptosis</b> ตอบ <b>TSH, FT4, T3</b> และ dx <b>Graves' disease</b></li><li>หัวข้อที่ออก: <b>acute exudative tonsillopharyngitis (GAS)</b> — รูป tonsil โตแดงมี white exudate 2 ข้าง ไม่มี cervical LN</li><li>ต้องตอบ <b>bacterial / GAS</b> (ไม่ใช่แค่ tonsillitis) และยา <b>penicillin / amoxicillin 10 วัน</b>; แพ้ penicillin → macrolide หรือ clindamycin</li></ul>",
+  intro:"<ul><li>สถานี Describe physical findings (ไม่มี examiner) ออกจาก 3 rotation: <b>รูป oropharynx</b> ในผู้ป่วยไข้เจ็บคอ (diagnosis → treatment), <b>รูปผู้หญิงตาโปน</b> (describe findings → lab → diagnosis) และ (SI127 ปีเก่าสุดในคลัง) <b>รูปขาบวมกดบุ๋มในผู้ป่วยความดันสูงที่กิน amlodipine</b> (diagnosis → management)</li><li>SI127: ต้องตอบ <b>amlodipine (DHP-CCB)-induced peripheral edema</b> ไม่ใช่แค่ pitting edema · จัดการด้วย <b>ลดขนาด / เปลี่ยนยา หรือเพิ่ม ACEI / ARB</b> และบอกว่า <b>diuretic ได้ผลน้อย</b></li><li>สถานีตาโปน: ต้องบรรยาย <b>upper eyelid retraction / proptosis</b> ตอบ <b>TSH, FT4, T3</b> และ dx <b>Graves' disease</b></li><li>หัวข้อที่ออก: <b>acute exudative tonsillopharyngitis (GAS)</b> — รูป tonsil โตแดงมี white exudate 2 ข้าง ไม่มี cervical LN</li><li>ต้องตอบ <b>bacterial / GAS</b> (ไม่ใช่แค่ tonsillitis) และยา <b>penicillin / amoxicillin 10 วัน</b>; แพ้ penicillin → macrolide หรือ clindamycin</li></ul>",
   groups:[
     {title:"Pharyngitis / tonsillitis", sections:[
       {id:"pharyngitis-gas", title:"Exudative tonsillopharyngitis จาก group A Streptococcus: diagnosis, ddx และ treatment 10 วัน",
@@ -23,5 +23,15 @@ SUMM.push({tag:"pefind", title:"Describe physical findings",
        pearls:["ตอบแค่ exophthalmos ได้คะแนนบางส่วน — ต้องมี eyelid retraction (ข้างซ้าย)","ไฟล์ต้นฉบับไม่มีรูป — คำตอบอิงรูปจากการสอบจริง","อย่าลืมส่ง T3 ด้วย เพื่อจับ T3 toxicosis"],
        members:["SI130|Ro409–412|11#1","SI130|Ro409–412|11#2","SI130|Ro409–412|11#3"]}
     ]}
-
+    ,{title:"Drug side effect: ขาบวม", sections:[
+      {id:"ccb-edema", title:"Amlodipine (dihydropyridine CCB)-induced peripheral edema: diagnosis และ management",
+       trend:"ใหม่ใน SI127 — รูปขาบวมกดบุ๋ม + stem บอกยาที่กิน → ผลข้างเคียงของยา",
+       asked:["SI127 Ro401–404: ผู้ป่วยความดันสูงกิน amlodipine ขาบวมกดบุ๋ม (ดูรูป) → diagnosis (2)","How would you manage this patient? (3)"],
+       flow:["Part 1: ดูรูปขาบวมกดบุ๋มสองข้าง + stem (HT, amlodipine) → dx = CCB-induced edema","Part 2: management: ลดขนาด / เปลี่ยนยา หรือเพิ่ม ACEI / ARB → ยกขา → ไม่พึ่ง diuretic → ตรวจแยกสาเหตุอื่นของบวม"],
+       pattern:["<b>Dx:</b> <b>amlodipine (dihydropyridine CCB)-induced peripheral edema</b> — ตอบ 'pitting edema' อย่างเดียวได้บางส่วน","<b>กลไก:</b> DHP-CCB ขยาย <b>arteriole (precapillary)</b> มากกว่า venule → capillary hydrostatic pressure สูง → น้ำรั่วออกนอกหลอดเลือด (<b>ไม่ใช่ fluid overload</b>) · ขึ้นกับขนาดยา พบบ่อยในผู้หญิง ผู้สูงอายุ คนยืนนาน · มักบวมข้อเท้าสองข้าง","<b>Management:</b> <b>ลดขนาด amlodipine</b> หรือ <b>เปลี่ยนไปยากลุ่มอื่น</b> (ACEI / ARB, thiazide-like diuretic) · หรือ <b>เพิ่ม ACEI / ARB</b> ร่วม (ขยาย venule ลดบวมจาก CCB ได้ราวครึ่งหนึ่ง) · non-DHP (diltiazem, verapamil) บวมน้อยกว่า · ยกขาสูง","<b>Diuretic ได้ผลน้อย</b> เพราะไม่ใช่ volume overload","<b>แยกสาเหตุอื่นของบวมกดบุ๋ม:</b> heart failure (JVP, ฟังปอด), nephrotic syndrome / CKD (UA proteinuria, Cr, albumin), cirrhosis (LFT, albumin), hypothyroidism (TSH), venous insufficiency"],
+       kw:["bilateral pitting edema","amlodipine / dihydropyridine CCB-induced edema","precapillary arteriolar dilatation","ไม่ใช่ fluid overload","ลดขนาด / เปลี่ยนยา","เพิ่ม ACEI / ARB","diuretic ได้ผลน้อย","ยกขาสูง","UA, Cr, albumin, LFT, TSH"],
+       ddx:["Heart failure","Nephrotic syndrome / CKD","Cirrhosis","Hypothyroidism","Chronic venous insufficiency"],
+       pearls:["ได้เต็มเมื่อระบุว่าเป็นผลจาก amlodipine / CCB — ตอบแค่ pitting edema ได้บางส่วน","management ได้เต็ม = ลดขนาด / เปลี่ยนยา หรือเพิ่ม ACEI / ARB + บอกว่า diuretic ไม่ค่อยได้ผล","ข้อย่อยทั้งสองของสถานีนี้ Claude เป็นผู้เขียนคำตอบ (ไฟล์ไม่มีเฉลย)"],
+       members:["SI127|Ro401–404|19#1","SI127|Ro401–404|19#2"]}
+    ]}
   ]});
