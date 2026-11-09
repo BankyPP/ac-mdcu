@@ -30,8 +30,8 @@ run('MCQ','8f0dd522','MDCU76','RoC','mk76c_',[2,4],85,95,(4,2000),labels=[str(i)
 run('MCQ','8f0dd522','MDCU76','RoC','mk76c_',[6,7],85,95,(7,300),labels=[str(i) for i in range(16,21)])
 # 75B MCQ p1–3
 run('MCQ','d0598cbd','MDCU75','RoB','mk75b_',[1,2,3],40,95,(3,2000))
-# 75X (file order, orig numbers)
-run('MCQ','28e8df14','MDCU75','RoX','mk75x_',[1,2],70,90,(2,2000))
+# 74C (เดิม 75X) (file order, orig numbers)
+run('MCQ','28e8df14','MDCU74','RoC','mk75x_',[1,2],70,90,(2,2000))
 # 77A OSCE p1–3
 run('OSCE','a2c8d0a9','MDCU77','RoA','ok77a_',[1,2,3],0,20,(3,2000))
 # 77B OSCE p44–64

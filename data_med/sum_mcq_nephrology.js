@@ -136,7 +136,7 @@ SUMM.push({tag:"Nephrology", title:"Nephrology",
       {id:"ckd-anemia-uremic-bleeding", title:"Anemia ของ CKD และ uremic bleeding — erythropoietin",
        asked:["ESRD มีเลือดออกตามเหงือก → การรักษา (erythropoietin)"],
        pattern:["ESRD + เลือดออก + platelet count ปกติ = <b>uremic platelet dysfunction</b> → dialysis, DDAVP 0.3 µg/kg, แก้ anemia (Hct >30%) ด้วย <b>ESA</b>","Anemia of CKD: normocytic, EPO ต่ำ · ให้ ESA เมื่อ Hb <10 หลังแก้ iron deficiency (ferritin >100, TSAT >20%) เป้า Hb 10–11.5, ไม่เกิน 13 (KDIGO)"],
-       members:["MDCU75|RoX|31"]}
+       members:["MDCU74|RoC|31"]}
     ,
       {id:"ckd-nutrition-edema", title:"ประเมิน nutritional status ใน CKD ที่บวม — triceps skinfold / SGA",
        asked:["CKD stage 4 บวมกดบุ๋ม 3+ → ประเมิน nutrition ด้วยอะไร (triceps skinfold thickness)"],

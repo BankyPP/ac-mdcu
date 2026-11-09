@@ -280,7 +280,7 @@ K_({orig:"55",page:56,page2:12,
 
 K_({orig:"56",page:57,kfile:"IMPUGF",page2:57,
  gray:"P’Pugun Final call — Recent item (สไลด์หน้า 57)",
- seen:"ข้อเดียวกับ MDCU77 RoA ข้อ 3 · คล้าย MDCU75 RoA ข้อ 8, MDCU75 RoX ข้อ 9 และ MDCU78 RoC ข้อ 1",
+ seen:"ข้อเดียวกับ MDCU77 RoA ข้อ 3 · คล้าย MDCU75 RoA ข้อ 8, MDCU74 RoC ข้อ 9 และ MDCU78 RoC ข้อ 1",
  stem:"A 25-year-old pregnant Thai woman at 20 weeks gestation presents with fever for 3 days. Physical examination reveals an eschar (black necrotic lesion with surrounding erythema) on her lower leg. She reports recent outdoor activities in rural areas. Vital signs show fever of 39°C with otherwise stable parameters. Which antibiotic should be used to treat this patient?",
  opts:["Doxycycline","Azithromycin","Ceftriaxone","Ceftazidime","Ciprofloxacin"],
  ans:1,

@@ -11,7 +11,7 @@ const out=fs.existsSync(path.join(dir,'dups.js'))?(eval(fs.readFileSync(path.joi
 out.forEach(g=>g.slice(1).forEach(k=>uni(g[0],k)));
 let miss=[];
 /* refs checked by hand where the number is the rid although an item with that original number also exists */
-const FIX={"MDCU75|RoX|9>MDCU77|RoA|50":"MDCU77|RoA|3"};
+const FIX={"MDCU74|RoC|9>MDCU77|RoA|50":"MDCU77|RoA|3"};
 QB.forEach(q=>{if(!q.seen)return;/* sets named by year (MDCU77) or by word (P’Pugun, Prac — tutor/practice sets of Med MDCU) */const re=/(MDCU\d+|P’Pugun|Prac)\s*Ro([A-Z])\s*ข้อ\s*([0-9]+[a-z]?)/g;let m;
   while((m=re.exec(q.seen))){let k=m[1]+"|Ro"+m[2]+"|"+m[3];if(FIX[K(q)+">"+k])k=FIX[K(q)+">"+k];else if(!have.has(k))k=byRid(k)||k;if(have.has(k)&&k!==K(q))uni(K(q),k);else if(!have.has(k))miss.push(K(q)+" → "+k);}});
 const G={};Object.keys(par).forEach(k=>{const r=find(k);(G[r]=G[r]||[]).push(k);});

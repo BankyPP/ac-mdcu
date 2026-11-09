@@ -49,7 +49,7 @@ SUMM.push({tag:"Infectious disease", title:"Infectious disease",
        asked:["ชาย 22 ปี ไข้ ปวดหัว อาเจียน 2 วัน รู้ตัวดี คอแข็ง CSF OP 18 WBC 150 (lymphocyte 90%) protein 70 glucose 60 (blood 100) Gram ลบ → ถาม management (ตอบ supportive)","MDCU76: ชาย 25 ปี ไข้ ปวดหัว photophobia อาเจียน 2 วัน รู้ตัวดี คอแข็ง ไม่มี focal deficit / ผื่น CSF OP 17 WBC 120 (lymphocyte 85%) protein 60 glucose 62 (blood 100) Gram ลบ → ถาม management"],
        pattern:["Bacterial: PMN, glucose ↓↓, protein ↑↑ → ceftriaxone + vancomycin","<b>Viral</b>: lymphocyte, <b>glucose ปกติ (ratio ≥0.6)</b>, protein ปกติ-↑เล็กน้อย → <b>supportive</b>","TB: lymphocyte, glucose ↓, protein ↑↑, subacute; cryptococcal: OP ↑↑, CrAg; eosinophilic: Angiostrongylus / Gnathostoma","<b>Encephalitis</b> (สับสน ชัก focal deficit) → acyclovir ทันที","เชื้อที่พบบ่อยสุด = <b>enterovirus</b> (+ HSV-2, VZV, acute HIV, arbovirus); หายเองใน 7-10 วัน → analgesic, antipyretic, สารน้ำ","CSF ก้ำกึ่ง / เคยได้ยามาก่อน → ให้ empirical ATB จนผลเพาะเชื้อลบ 48-72 ชม.; acyclovir เฉพาะ encephalitis หรือภูมิคุ้มกันต่ำ"],
        pearls:["ให้ acyclovir 'กันไว้' — ไม่จำเป็นถ้ารู้ตัวดีไม่มีลักษณะ encephalitis"],
-       members:["MDCU77|RoC|3","MDCU76|RoA|8","MDCU75|RoX|25"]},
+       members:["MDCU77|RoC|3","MDCU76|RoA|8","MDCU74|RoC|25"]},
       {id:"cerebral-toxoplasmosis", title:"HIV + multiple ring-enhancing lesions — cerebral toxoplasmosis: pyrimethamine + sulfadiazine; ให้ TMP-SMX แล้วไม่ดีขึ้น → คิด tuberculoma",
        trend:"MDCU77: ถาม preferred regimen; MDCU79 (RoA): ให้ TMP-SMX ขนาดสูง 2 สัปดาห์ไม่ดีขึ้น → ถามเชื้อ (ตอบ M. tuberculosis) — ธีม HIV + ring-enhancing ออก 2 ปี 77 / 79",
        asked:["MDCU79: ชาย 35 ปี HIV CD4 60 ไม่ได้ ART ปวดหัว แขนขาขวาอ่อนแรง 2 สัปดาห์ MRI multiple ring-enhancing ให้ TMP-SMX ขนาดสูง 2 สัปดาห์ไม่ดีขึ้นทั้งอาการและภาพ → ถามเชื้อ (Toxoplasma, Nocardia, Listeria, M. tuberculosis, B. pseudomallei)","MDCU77: ชาย 20 ปี HIV ไข้ ปวดหัว 2 สัปดาห์ ขาขวาอ่อนแรง CT multiple ring-enhancing + vasogenic edema → ถาม preferred regimen (ตอบ pyrimethamine + sulfadiazine)"],
@@ -349,7 +349,7 @@ SUMM.push({tag:"Infectious disease", title:"Infectious disease",
        asked:["หญิง GA 20 สัปดาห์ ถามว่าการรักษามาตรฐานข้อใดใช้ได้โดยไม่ต้องปรับ (scrub typhus → doxycycline, vivax → chloroquine + primaquine 14 วัน, falciparum → DHA-PPQ + primaquine, early syphilis → benzathine penicillin G IM ครั้งเดียว, mild leptospirosis → doxycycline)"],
        pattern:["<b>Syphilis ทุกระยะในครรภ์ → penicillin เท่านั้น</b>: early syphilis = benzathine penicillin G 2.4 MU IM ครั้งเดียว (CDC 2021) เหมือนคนไม่ท้อง; แพ้ penicillin → desensitize","Scrub typhus / rickettsia ในครรภ์ → <b>azithromycin</b>; leptospirosis ในครรภ์ → amoxicillin / penicillin G / ceftriaxone","Vivax ในครรภ์ → chloroquine 3 วัน <b>ห้าม primaquine</b> (ทารกอาจ G6PD deficiency) ให้หลังคลอด / หยุดให้นม ระหว่างนั้นอาจให้ chloroquine prophylaxis รายสัปดาห์","Falciparum ในครรภ์ (แนวทางมาลาเรียไทย): ไตรมาสแรก quinine + clindamycin 7 วัน, ไตรมาสสอง-สาม ACT (DHA-PPQ) ไม่ให้ primaquine","ห้าม / เลี่ยงในครรภ์: tetracycline / doxycycline, primaquine, fluoroquinolone, aminoglycoside, co-trimoxazole (ไตรมาสแรก / ใกล้คลอด)"],
        pearls:["เลือก vivax เพราะจำว่า chloroquine ปลอดภัยในครรภ์ — แต่สูตรมาตรฐานมี primaquine 14 วันซึ่งห้าม"],
-       members:["MDCU76|RoC|17","MDCU75|RoX|9"]}
+       members:["MDCU76|RoC|17","MDCU74|RoC|9"]}
     ]}
   ,
     {title:"Infective endocarditis และ pericarditis", sections:[
@@ -361,4 +361,4 @@ SUMM.push({tag:"Infectious disease", title:"Infectious disease",
       {id:"viral-pericarditis", title:"Acute pericarditis หลัง viral infection — เจ็บอกดีขึ้นเมื่อโน้มตัวไปหน้า",
        asked:["เจ็บอกแหลม pleuritic ดีขึ้นเมื่อโน้มตัว 1 สัปดาห์หลังไข้หวัดใหญ่ → สาเหตุ (viral)"],
        pattern:["สาเหตุที่พบบ่อยสุดคือ <b>viral / idiopathic</b> · เกณฑ์ 2 ใน 4: chest pain แบบ pericarditic, friction rub, ST↑ ทั่วไป + PR depression, effusion ใหม่","รักษา: NSAID (aspirin / ibuprofen) + <b>colchicine 3 เดือน</b> (ESC 2015); จำกัดการออกกำลังจนอาการหาย"],
-       members:["MDCU75|RoX|28"]}]}]});
+       members:["MDCU74|RoC|28"]}]}]});

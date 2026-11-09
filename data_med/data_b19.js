@@ -1,14 +1,15 @@
 (function(){
-/* Internal Medicine MDCU75 RoX — IM75XQ (Key_75C_MCQ_MEQ_Med_AC_MCQMEQ_Medicine_Rotate_C_2.pdf: "AC MCQ+MEQ Medicine กราบขอโทษ แต่นี้ก็ทำกันไม่ค่อยทัน เลยจำออกมาได้แค่นี้ MCQ" — 2 หน้า; โจทย์และเฉลยอยู่ในไฟล์เดียวกัน
-   ไฟล์ไม่ระบุรุ่น/rotation (class 75 หรือ 74; ชื่อไฟล์ลงท้าย Rotate_C_2 แต่เนื้อหาไม่ตรงกับ 75C ที่มีไฟล์แยก) → ลงเป็น MDCU75 RoX ไว้ก่อน
+/* Internal Medicine MDCU74 RoC (เดิมลงเป็น MDCU75 RoX "75X") — IM75XQ (Key_75C_MCQ_MEQ_Med_AC_MCQMEQ_Medicine_Rotate_C_2.pdf: "AC MCQ+MEQ Medicine กราบขอโทษ แต่นี้ก็ทำกันไม่ค่อยทัน เลยจำออกมาได้แค่นี้ MCQ" — 2 หน้า; โจทย์และเฉลยอยู่ในไฟล์เดียวกัน
+   ไฟล์ไม่ระบุรุ่น/rotation ในหัวเอกสาร → เดิมลงเป็น MDCU75 RoX · 9 พ.ย. 2026 ระบุได้: สมุด GoodNotes "MCQ Med For All" (เจ้าของรุ่น 75 สอบ 5/08/2565) เก็บไฟล์เดียวกันนี้ (เลขข้อตรงทั้ง 12 ข้อ) ไว้ในหมวด MDCU74 → ปี 74 · rotation C ตามชื่อไฟล์เดิม "AC MCQ+MEQ Medicine Rotate C" → MDCU74 RoC (ผู้ใช้สั่งให้ย้าย ไม่ใส่ซ้ำ)
+   ukey = uid เดิม (MDCU74|RoC|…) เพื่อให้ความคืบหน้าที่ทำไว้ยังอยู่
    MCQ 12 ข้อ (orig = เลขข้อในไฟล์: 5, 9, 25, 28, 31, 34, 54, 62, 69, 81, 84, 87) เรียงตามลำดับในไฟล์ (หน้า 1: 5,9,25,31,34,54,62,69 · หน้า 2: 84,28,81,87) · MEQ 4 หัวข้อท้ายไฟล์ไม่อยู่ในไฟล์นี้
    ปากกาในไฟล์: กากบาท/วงสีเทา-ดำ = คำตอบแรก, วง/ตัวหนังสือแดง = แก้ทีหลังหรือโน้ตสอน, "?" ที่ขอบ = ไม่แน่ใจ
    ไม่ข้ามข้อใด (12/12) · ข้อ 28 และ 81 ไม่มีเฉลย (ข้อ 81 ไม่มีช้อย → แต่งเอง) · ข้อ 5, 34, 54, 62 ไม่มีช้อยหรือมีช้อยเดียว → แต่งโจทย์ให้ใกล้ recall เติมเฉพาะที่จำเป็น
    Claude ไม่ตามคีย์ในข้อ 9 (Azithromycin), 25 (Observe), 69 (Exogenous Cushing: แก้ช้อยให้เหลือคำตอบเดียว), 84 (Thyroid autoantibodies)
    รูปจากไฟล์เฉลย: mm75x_k25 (ตาราง CSF profile), mm75x_k62 (screening coagulogram) */
 const NK="ไม่มีเฉลยในไฟล์ (เฉลยโดย Claude)";
-const NT="ไฟล์ไม่ระบุรุ่น/rotation (75 หรือ 74) — ลงเป็น 75X ไว้ก่อน";
-const C_=o=>Object.assign({set:"MDCU75",ro:"RoX",file:"IM75XQ",kfile:"IM75XQ",key:NK,mnemonic:"",guide:""},o,{notes:(o.notes?o.notes+" · ":"")+NT});
+const NT="ไฟล์ไม่ระบุรุ่น/rotation ในหัวเอกสาร — ระบุเป็น MDCU74 RoC จากสมุด MCQ Med For All (หมวด 74) + ชื่อไฟล์เดิม Rotate C (เดิมลงเป็น 75X)";
+const C_=o=>{const q=Object.assign({set:"MDCU74",ro:"RoC",file:"IM75XQ",kfile:"IM75XQ",key:NK,mnemonic:"",guide:""},o,{notes:(o.notes?o.notes+" · ":"")+NT});q.ukey=["MDCU75","RoX",q.file,q.page,q.orig,(q.stem||"").slice(0,48)].join("|");return q;};
 QB.push(
 C_({page:1,page2:1,orig:"5",key:"Normal pressure hydrocephalus (recall พิมพ์ 'ตอบ normal pressure hydrocephalus'; โน้ตแดงเหนือข้อ: gait disturbance, urinary incontinence, frontal lobe sign/dementia)",
  seen:"ออกซ้ำใน MDCU75 RoD (NPH)",

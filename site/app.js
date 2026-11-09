@@ -46,7 +46,7 @@ function initWard(w){
   QB.sort((a,b)=>YEAR(b)-YEAR(a)||cmpRo(a,b)||a.rid-b.rid);
   QB.forEach((q,i)=>{q.id=i+1;});
   W.RID2ID={};W.byRid={};QB.forEach(q=>{W.RID2ID[q.rid]=q.id;W.byRid[q.rid]=q;});
-  const seen={};QB.forEach(q=>{let u=[q.set,q.ro,q.file,q.page,q.orig,(q.stem||"").slice(0,48)].join("|");if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;});
+  const seen={};QB.forEach(q=>{let u=q.ukey||[q.set,q.ro,q.file,q.page,q.orig,(q.stem||"").slice(0,48)].join("|");if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;});
   W.byU={};QB.forEach(q=>{W.byU[q.uid]=q;});
   W.NOTE.forEach(q=>{q.id=0;q.uid="NOTE|"+q.set+"|"+q.ro;q.opts=q.opts||["ปิด"];W.byU[q.uid]=q;});
   /* related questions (data/dups.js: groups of set|ro|orig) → W.REL[uid] = [other uids] */
