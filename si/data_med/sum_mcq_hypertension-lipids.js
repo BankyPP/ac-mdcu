@@ -1,5 +1,5 @@
 SUMM.push({tag:"Hypertension & Lipids", title:"Hypertension & Lipids",
-  intro:"<ul><li>แท็กนี้มีน้อยในคลัง SI132 / SI133 และแทบทุกเคสเชื่อมกับแท็กอื่น (Cardiology, Nephrology, Endocrinology) — ถามวินิจฉัยและขั้นถัดไป ไม่ได้ถามตัวเลขเป้า BP ตรง ๆ</li><li>ธีมที่เจอ: <b>BP สูงร่วมกับ acute target organ damage</b> (hypertensive emergency, aortic dissection), <b>HT + CKD + proteinuria → เปลี่ยนเป็น ARB</b>, <b>metabolic syndrome → ส่ง FBS + lipid</b></li><li>SI130 เพิ่มโจทย์ <b>ผลข้างเคียงยาลดความดัน</b> (ไอแห้งจาก enalapril — ออกทั้ง recall Ro405–408 และ Pre-MCQ, ขาบวมจาก amlodipine) และ <b>เลือกยาตามโรคร่วม</b> (HT + BPH → CCB + doxazosin); Pre-MCQ ใช้เคส BP 200 / 105 + pulmonary edema ซ้ำกับ SI132 แต่ช้อยต่างทำให้คำตอบเป็น accelerated hypertension</li><li>ยังไม่มีโจทย์ยาลดไขมันโดยตรง — lipid โผล่เฉพาะในเคส metabolic syndrome (SI132 ส่ง FBS + lipid, SI130 ถามคำแนะนำ lifestyle)</li></ul>",
+  intro:"<ul><li>แท็กนี้มีน้อยในคลัง SI132 / SI133 และแทบทุกเคสเชื่อมกับแท็กอื่น (Cardiology, Nephrology, Endocrinology) — ถามวินิจฉัยและขั้นถัดไป ไม่ได้ถามตัวเลขเป้า BP ตรง ๆ</li><li>ธีมที่เจอ: <b>BP สูงร่วมกับ acute target organ damage</b> (hypertensive emergency, aortic dissection), <b>HT + CKD + proteinuria → เปลี่ยนเป็น ARB</b>, <b>metabolic syndrome → ส่ง FBS + lipid</b></li><li>SI130 เพิ่มโจทย์ <b>ผลข้างเคียงยาลดความดัน</b> (ไอแห้งจาก enalapril — ออกทั้ง recall Ro405–408 และ Pre-MCQ, ขาบวมจาก amlodipine) และ <b>เลือกยาตามโรคร่วม</b> (HT + BPH → CCB + doxazosin); Pre-MCQ ใช้เคส BP 200 / 105 + pulmonary edema ซ้ำกับ SI132 แต่ช้อยต่างทำให้คำตอบเป็น accelerated hypertension</li><li>ยังไม่มีโจทย์ยาลดไขมันโดยตรง — lipid โผล่เฉพาะในเคส metabolic syndrome (SI132 ส่ง FBS + lipid, SI130 ถามคำแนะนำ lifestyle, SI131 ให้แล็บมาแล้วถามวินิจฉัย — <b>metabolic syndrome ออกครบ SI130–132</b>) และ SI131 ถามค่าตับสูงก่อนเริ่ม statin ในคนอ้วน (MASLD → ลดน้ำหนัก)</li><li>SI131 เพิ่มธีมใหม่: <b>BP ใน acute ischemic stroke ที่ไม่ได้ thrombolysis → ไม่ต้องลด (permissive จนถึง 220 / 120)</b> ออกซ้ำสองครั้งใน Ro405–408, <b>ACEI → hyperkalemia</b>, และ <b>secondary HT: HT + hypokalemia → primary aldosteronism</b> / HT รายใหม่ส่ง electrolyte ก่อน</li></ul>",
   groups:[
     {title:"BP สูงร่วมกับ acute target organ damage", sections:[
       {id:"ht-emergency", title:"Hypertensive emergency — BP 200 / 110 + acute pulmonary edema",
@@ -12,7 +12,13 @@ SUMM.push({tag:"Hypertension & Lipids", title:"Hypertension & Lipids",
        asked:["HT คุมไม่ดี เจ็บอก 10 / 10 1 ชม. BP ซ้าย 190 / 110 ขวา 180 / 100 EKG ไม่มี ST-T change → วินิจฉัย (dissection, ACS, pericarditis, PE, pneumothorax)"],
        pattern:["เสี่ยง: <b>HT</b>, Marfan, bicuspid AV; เจ็บทันที ฉีก ร้าวหลัง; pulse deficit หรือ <b>BP สองแขนต่าง ≥20 mmHg</b>, AR murmur, CXR mediastinum กว้าง","ยืนยัน CTA; unstable → TEE; ADD-RS + D-dimer ช่วยประเมิน","<b>IV β-blocker ก่อน vasodilator</b> (esmolol, labetalol) HR <60, SBP 100–120; Stanford A ผ่าตัด, B ให้ยา ยกเว้นมีภาวะแทรกซ้อน"],
        pearls:["เคสนี้ BP ต่างแค่ 10 mmHg ไม่ถึง cut-off — แต่ BP ไม่ต่างก็ไม่ตัด dissection","EKG ไม่มี ST-T change เป็นส่วนที่ผู้แต่งเติม เพราะต้นฉบับจำช้อยไม่ครบ"],
-       members:["SI133|Ro401–402|17"]}
+       members:["SI133|Ro401–402|17"]},
+      {id:"stroke-permissive-ht", title:"Acute ischemic stroke + BP 180 / 100 ไม่ได้ thrombolysis → ไม่ต้องให้ยาลดความดัน (permissive hypertension)",
+       trend:"SI131 ออกซ้ำสองครั้งในชุดเดียว — ช้อยล่อเป็นยา IV ที่ใช้ใน hypertensive emergency",
+       asked:["SI131: ชาย 65 ปี left hemiparesis 10 ชม. CT infarct ไม่มีเลือดออก ไม่เข้าเกณฑ์ thrombolysis / thrombectomy BP 180 / 100 → จัดการ BP อย่างไร (amiodarone + enalapril, amiodarone + losartan, IV nicardipine, IV nitroglycerin, ไม่ให้ยาลดความดัน)","SI131: ปวดศีรษะ อ่อนแรงซีกซ้าย Babinski ซ้าย BP 180 / 100 CT infarct right basal ganglia → จัดการ BP (amlodipine + enalapril, amlodipine + losartan, IV nicardipine, IV nitroprusside, ไม่ให้ยา)"],
+       pattern:["<b>ไม่ได้ thrombolysis</b>: ลด BP เฉพาะเมื่อ <b>≥220 / 120</b> โดยลดราว 15% ใน 24 ชม.แรก — ต่ำกว่านั้นไม่ต้องลดใน 48–72 ชม.แรก (penumbra พึ่ง perfusion pressure เพราะ autoregulation เสีย)","<b>จะให้ rt-PA</b>: ลดให้ <b>&lt;185 / 110</b> ก่อนให้ และคง <b>&lt;180 / 105</b> ตลอด 24 ชม.หลังให้ (AHA / ASA 2019)","ยาเมื่อต้องลด: IV labetalol, nicardipine, clevidipine; ห้าม nifedipine อมใต้ลิ้น","เริ่มยารับประทานเพื่อ secondary prevention เมื่อ neuro stable หลัง 24–72 ชม.","ต่างจาก ICH: เป้า SBP ราว 140"],
+       pearls:["เห็น 180 / 100 + stroke แล้วคิดว่าเป็น hypertensive emergency — ischemic stroke ที่ไม่ได้ lysis ปล่อยถึง 220 / 120","ช้อย amiodarone + ACEI / ARB เป็นตัวหลอก (amiodarone ไม่ใช่ยาลดความดัน)","recall ชุดแรกไม่มีค่า BP และสถานะ thrombolysis — ผู้แต่งเติมให้ตอบได้ช้อยเดียว; ชุดหลัง (orig 70–133) มี BP ครบ"],
+       members:["SI131|Ro405–408|25","SI131|Ro405–408|104"]}
     ]},
     {title:"ผลข้างเคียงยาลดความดัน", sections:[
       {id:"acei-cough", title:"ไอแห้งเรื้อรังในคนกิน enalapril → ACEI-induced cough",
@@ -21,6 +27,11 @@ SUMM.push({tag:"Hypertension & Lipids", title:"Hypertension & Lipids",
        pattern:["ACEI ยับยั้งการสลาย <b>bradykinin และ substance P</b> → สะสมในทางเดินหายใจ → ไอแห้ง คันคอ พบ 5–35% (หญิงและคนเอเชียมากกว่า) ไม่ขึ้นกับขนาดยา เริ่มได้ตั้งแต่ชั่วโมงถึงหลายเดือนหลังเริ่มยา","รักษา: <b>หยุด ACEI → หายใน 1–4 สัปดาห์</b> (บางรายถึง 3 เดือน) → <b>เปลี่ยนเป็น ARB</b>","ACEI angioedema → ห้ามให้ ACEI ซ้ำ","ไอเรื้อรังทั่วไป: UACS, asthma, GERD, ACEI"],
        pearls:["ไล่ DDx ไอเรื้อรังทั่วไปโดยไม่ดูรายการยา"],
        members:["SI130|Ro405–408|2","SI130|Pre-MCQ|47"]},
+      {id:"acei-hyperk", title:"K สูงหลังเริ่มยาลดความดันตัวใหม่ → enalapril (ACEI)",
+       asked:["SI131: เริ่มยาลดความดันตัวใหม่แล้ว K สูง → ยาตัวไหน (enalapril, hydralazine, amlodipine, HCTZ, prazosin)"],
+       pattern:["ACEI / ARB ลด angiotensin II → <b>aldosterone ลด → ไตขับ K ลด</b>; ยาอื่นที่เพิ่ม K: spironolactone / eplerenone, amiloride, triamterene, β-blocker (shift เล็กน้อย)","เสี่ยงสูง: CKD, DM, ผู้สูงอายุ, ใช้ร่วม MRA หรือ NSAID","<b>ตรวจ K และ Cr ภายใน 1–2 สัปดาห์</b> หลังเริ่มหรือเพิ่มขนาด; K &gt;5.5 → ลดขนาดหรือหยุด","Thiazide และ loop diuretic → K ต่ำ; NSAID + ACEI + diuretic = triple whammy (AKI)"],
+       pearls:["ตัวเลือกอื่นในเคส (hydralazine, amlodipine, prazosin) ไม่กระทบ K; HCTZ ทำให้ K ต่ำ"],
+       members:["SI131|Ro405–408|20"]},
       {id:"ccb-edema", title:"ขาบวมในคนกิน amlodipine + albumin ปกติ + proteinuria ไม่ถึง nephrotic → CCB edema",
        asked:["SI130 Pre-MCQ: หญิง 60 ปี HT DLP กิน amlodipine, losartan, simvastatin ขาบวม 2 สัปดาห์ nocturia ไม่เหนื่อย UPCR 1.1 albumin 3.8 eGFR 50 → สาเหตุบวม (proteinuria, HF, renal insufficiency, losartan, amlodipine)"],
        pattern:["<b>DHP CCB</b> ขยาย precapillary arteriole มากกว่า venule → capillary hydrostatic pressure เพิ่ม → ankle edema (ไม่ใช่เกลือน้ำคั่ง) พบ 10–30% ตามขนาดยา","<b>ไม่ตอบสนอง diuretic</b> · แก้: ลดขนาด เปลี่ยนยา หรือให้ร่วม ACEi / ARB","ผลข้างเคียงอื่นของ DHP CCB: flushing, ปวดศีรษะ, gingival hyperplasia"],
@@ -41,9 +52,22 @@ SUMM.push({tag:"Hypertension & Lipids", title:"Hypertension & Lipids",
     ]},
     {title:"Metabolic syndrome", sections:[
       {id:"metabolic-syndrome", title:"Metabolic syndrome — อ้วนลงพุง + BP ถึงเกณฑ์ → ส่ง FBS + lipid profile",
-       asked:["หญิง 30 ปี ตรวจสุขภาพ ไม่มีประวัติครอบครัว BP 130 / 85 BMI 40 waist 102 cm → ส่งอะไรต่อ (FBS + lipid, TFT, BUN + Cr, cortisol, CXR)","SI130 Pre-MCQ: ชาย 40 ปี ตรวจสุขภาพ BMI 30 BP 135 / 80 FBS 105 cholesterol 250 TG 250 HDL 30 → คำแนะนำ (สุขภาพดี, ลด 20 kg, ออกกำลัง ≥150 นาที / สัปดาห์, ไวน์วันละ 2 แก้ว, ตรวจซ้ำ 1 ปี) — ตอบออกกำลัง"],
+       asked:["หญิง 30 ปี ตรวจสุขภาพ ไม่มีประวัติครอบครัว BP 130 / 85 BMI 40 waist 102 cm → ส่งอะไรต่อ (FBS + lipid, TFT, BUN + Cr, cortisol, CXR)","SI130 Pre-MCQ: ชาย 40 ปี ตรวจสุขภาพ BMI 30 BP 135 / 80 FBS 105 cholesterol 250 TG 250 HDL 30 → คำแนะนำ (สุขภาพดี, ลด 20 kg, ออกกำลัง ≥150 นาที / สัปดาห์, ไวน์วันละ 2 แก้ว, ตรวจซ้ำ 1 ปี) — ตอบออกกำลัง","SI131: ตรวจสุขภาพ FBG 117 BMI 23.7 BP 135 / 85 TG 200 cholesterol 250 HDL 50 BUN / Cr ปกติ → วินิจฉัย (dyslipidemia, HT, DM, CKD, metabolic syndrome) — ตอบ metabolic syndrome (FBG + BP + TG = 3 เกณฑ์)"],
        pattern:["<b>ครบ 3 ใน 5</b>: waist (เอเชีย ชาย ≥90, หญิง ≥80 cm), TG ≥150, HDL ต่ำ (ชาย <40, หญิง <50), BP ≥130 / 85, FBS ≥100","เคสนี้มีแล้ว 2 เกณฑ์ (waist, BP) อีก 3 เกณฑ์ต้องดูจากเลือด จึงส่ง <b>FBS + lipid</b>; <b>BMI ไม่อยู่ในเกณฑ์</b>","สำคัญเพราะเสี่ยง CVD และ DM; รักษาหลัก lifestyle + weight loss","Lifestyle: aerobic ระดับปานกลาง <b>≥150 นาที / สัปดาห์</b> + ลดน้ำหนัก <b>5–10% ใน 6–12 เดือน</b> + อาหาร DASH / Mediterranean แล้วประเมิน ASCVD risk ตัดสิน statin / ยาความดัน"],
-       pearls:["BMI 40 แล้วตอบ cortisol หรือ TFT หาสาเหตุอ้วน — ไม่มี sign ของ endocrine ไม่ต้องส่ง","ลด 20 kg เกินเป้าแนวทาง (5–10%); ไวน์เพิ่ม HDL ไม่ใช่คำแนะนำ; ตรวจซ้ำ 1 ปีโดยไม่ทำอะไร = ปล่อยความเสี่ยง"],
-       members:["SI132|Ro405–406|24","SI130|Pre-MCQ|32"]}
+       pearls:["SI131: BMI ปกติ (23.7) แล้วตัด metabolic syndrome — ไม่ต้องอ้วนก็เข้าเกณฑ์ได้; FBG 117 ยังไม่ถึง DM (≥126 สองครั้ง), BP 135 / 85 ยังไม่ถึงเกณฑ์วินิจฉัย HT (≥140 / 90)","BMI 40 แล้วตอบ cortisol หรือ TFT หาสาเหตุอ้วน — ไม่มี sign ของ endocrine ไม่ต้องส่ง","ลด 20 kg เกินเป้าแนวทาง (5–10%); ไวน์เพิ่ม HDL ไม่ใช่คำแนะนำ; ตรวจซ้ำ 1 ปีโดยไม่ทำอะไร = ปล่อยความเสี่ยง"],
+       members:["SI132|Ro405–406|24","SI130|Pre-MCQ|32","SI131|Ro405–408|30"]},
+      {id:"masld-statin", title:"Transaminase สูงเล็กน้อยก่อนเริ่ม statin ในคนอ้วน → MASLD → ลดน้ำหนัก",
+       asked:["SI131: หญิง 30 ปี BW 87 kg สูง 156 cm (BMI ราว 36) AST / ALT ราว 60 ตั้งแต่ก่อนเริ่ม statin ไม่มีอาการ → ทำอะไร (US ตับทุกปี, vitamin B, vitamin E, ลดน้ำหนัก, เปลี่ยน simvastatin เป็น atorvastatin)"],
+       pattern:["ค่าตับสูงตั้งแต่ก่อนเริ่มยาในคนอ้วน = <b>MASLD</b> (เดิม NAFLD) ไม่ใช่ statin hepatotoxicity","<b>Statin ปลอดภัยใน MASLD</b> และลด CVD ซึ่งเป็นสาเหตุตายหลัก — ไม่ต้องหยุดหรือเปลี่ยน","LFT ก่อนเริ่ม statin เป็น baseline แล้วตรวจซ้ำเมื่อมีอาการ ไม่ต้องตรวจเป็นระยะ; หยุดเมื่อ ALT &gt;3 เท่า ULN พร้อมอาการ หรือ jaundice","รักษา MASLD: <b>ลดน้ำหนัก 7–10%</b> ช่วย steatohepatitis และ fibrosis; ประเมิน fibrosis ด้วย FIB-4"],
+       pearls:["เปลี่ยน statin หรือหยุดยาเพราะค่าตับสูง — ค่าสูงตั้งแต่ก่อนเริ่มยา","vitamin E ใช้เฉพาะ MASH ที่พิสูจน์ด้วย biopsy ในคนไม่เป็น DM — ไม่ใช่ขั้นแรก"],
+       members:["SI131|Ro405–408|79"]}
+    ]},
+    {title:"Secondary hypertension", sections:[
+      {id:"primary-aldosteronism", title:"HT + hypokalemia → primary aldosteronism; HT รายใหม่ส่ง electrolyte ก่อน",
+       trend:"SI131 ถามสองมุม: ให้ K ต่ำมาแล้วถามโรค และให้ HT รายใหม่ถามการตรวจแรก",
+       asked:["SI131: หญิง 40 ปี HT Na 145 K 2.1 Cl 119 → โรค (renal artery stenosis, primary hyperaldosteronism, pheochromocytoma, coarctation, essential HT)","SI131: ชาย 50 ปี BP 160 / 90 ซ้ำหลายครั้ง ไม่มีอาการอื่น → ส่งตรวจอะไรต่อ (serum electrolyte, CT adrenal, renal artery Doppler, plasma metanephrines, overnight dexamethasone suppression) — ตอบ electrolyte"],
+       pattern:["HT รายใหม่ส่ง basic lab: <b>electrolyte</b>, Cr / eGFR, FPG หรือ HbA1c, lipid, UA, EKG","<b>Primary aldosteronism</b> = สาเหตุ secondary HT ที่พบบ่อยที่สุด: HT + spontaneous hypokalemia (ราวครึ่งหนึ่ง K ปกติ) + metabolic alkalosis, Na high-normal (aldosterone escape)","คัดกรอง <b>aldosterone-renin ratio</b> (aldosterone สูง renin ต่ำ) → ยืนยัน saline infusion / captopril test → CT adrenal → adrenal vein sampling ก่อนผ่าตัด","Renal artery stenosis = secondary hyperaldosteronism (renin สูงด้วย)","รักษา: adenoma → adrenalectomy; bilateral hyperplasia → spironolactone"],
+       pearls:["ส่ง CT adrenal ก่อนยืนยันทางชีวเคมี — incidentaloma พบบ่อย","คิดว่า hypoK มาจาก diuretic โดยไม่ถามประวัติยา","recall การตรวจแรกต้นฉบับมีแค่ 2 ช้อย ผู้แต่งเติมอีก 3 ช้อย"],
+       members:["SI131|Ro405–408|102","SI131|Ro413–416|41"]}
     ]}
   ]});

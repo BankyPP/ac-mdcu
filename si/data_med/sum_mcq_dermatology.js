@@ -1,6 +1,14 @@
 SUMM.push({tag:"Dermatology", title:"Dermatology",
-  intro:"<ul><li>Dermatology ของ SI ออกเกือบทุก rotation (SI132, SI133 และ SI130) เป็นเคสสั้นหรือรูปถ่าย ถาม <b>diagnosis</b> หรือ <b>เชื้อ / สารที่ขาด</b> เกือบทั้งหมด ไม่ค่อยถามรักษา และซ้อนกับ ID, Rheumatology, Endocrinology</li><li>ธีมหลัก: <b>severe drug reaction</b> (DRESS vs SJS / TEN, allopurinol และยากันชัก) กับ <b>HIV + umbilicated papules</b> ที่ออก 3 สนาม คำตอบ 3 เชื้อ ตัดสินด้วยลักษณะ yeast</li><li>ซ้ำอีก: measles (ผื่น confluent, Koplik spots), Candida intertrigo (satellite + DM), เล็บ → zinc</li><li>SI130 เพิ่ม serum sickness-like reaction หลัง amoxicillin และแผลอวัยวะเพศแบบ herpes (ถาม investigation)</li><li>หลายเคสอ้างรูปที่ไม่มีในไฟล์ หรือ recall ขาด จึงมีคำในโจทย์ที่ธนาคารเติมเอง ดูกับดักของแต่ละธีม</li></ul>",
+  intro:"<ul><li>Dermatology ของ SI ออกทุกรุ่น (SI130–133) เป็นเคสสั้นหรือรูปถ่าย ถาม <b>diagnosis</b> หรือ <b>เชื้อ / สารที่ขาด</b> เกือบทั้งหมด ไม่ค่อยถามรักษา และซ้อนกับ ID, Rheumatology, Endocrinology</li><li>ธีมหลัก: <b>severe drug reaction</b> (DRESS vs SJS / TEN, allopurinol และยากันชัก) กับ <b>HIV + umbilicated papules</b> ที่ออกซ้ำมากที่สุด (SI131 ออกถึง 3 สนาม) คำตอบ 3 เชื้อ ตัดสินด้วยลักษณะ yeast (septum = Talaromyces, capsule = Cryptococcus) และ SI131 ถามวิธีตรวจ (Wright stain)</li><li>ซ้ำอีก: measles (ผื่น confluent, Koplik spots), Candida intertrigo (satellite + DM), เล็บ → zinc, discoid lupus ที่ใบหู + arthritis = SLE (SI132 และ SI131 โจทย์แทบเดียวกัน)</li><li>SI130 เพิ่ม serum sickness-like reaction หลัง amoxicillin และแผลอวัยวะเพศแบบ herpes (ถาม investigation); SI131 เพิ่ม secondary syphilis (แผลไม่เจ็บ + ผื่นทั่วตัว → anti-treponemal test) และ pellagra จากรูป</li><li>หลายเคสอ้างรูปที่ไม่มีในไฟล์ หรือ recall ขาด จึงมีคำในโจทย์ที่ธนาคารเติมเอง ดูกับดักของแต่ละธีม</li></ul>",
   groups:[
+    {title:"Skin sign in HIV", sections:[
+      {id:"umbilicated-papules", title:"HIV + umbilicated papules — Talaromyces vs Histoplasma vs Cryptococcus",
+       trend:"โจทย์หน้าตาเดียวกันแต่เฉลยคนละเชื้อ อ่านลักษณะ yeast ก่อนตอบ",
+       asked:["HIV + ผื่นคล้าย molluscum → ถามเชื้อ (ตอบ Talaromycosis ช้อยอื่นคือ MAC, CMV, Candida, Pneumocystis)","ชาย 34 ปี oral thrush umbilicated papules oral ulcer ตับม้ามโต CD4 150 Wright stain yeast เล็ก narrow-based budding ไม่มี capsule หรือ septum → ถามเชื้อ (ตอบ histoplasmosis)","ชาย 30 ปี ไข้ น้ำหนักลด oral thrush ต่อมน้ำเหลืองโต umbilicated papules gram stain yeast with clear capsule → ถาม diagnosis (ตอบ cryptococcosis)","SI131: advanced HIV + umbilicated papules ที่หน้า skin scraping เห็น yeast มี <b>central clear septum</b> → ถาม diagnosis (ตอบ disseminated talaromycosis)","SI131: ไข้ น้ำหนักลด 1 เดือน + oral thrush + ตุ่มคล้าย molluscum ที่หน้า → ถาม <b>investigation</b> (ตอบ Wright stain of scraping ช้อยมี KOH, Gram stain, Tzanck smear, darkfield)","SI131: immunocompromised + pneumonia + umbilicated papules สีเนื้อ biopsy เห็น yeast <b>thick capsule</b> → ถามเชื้อ (ตอบ Cryptococcus neoformans ช้อยมี Talaromyces, Histoplasma, Blastomyces)"],
+       pattern:["<b>Molluscum-like ใน CD4 ต่ำ: Talaromyces, Histoplasma, Cryptococcus</b>","<b>Talaromyces marneffei</b>: พบมากสุดในไทย CD4 <100, binary fission มี <b>central septum</b>, ซีด ตับม้ามโต → amphotericin B 2 สัปดาห์ ตามด้วย itraconazole 10 สัปดาห์ แล้ว secondary prophylaxis; ART ใน 1–2 สัปดาห์","ตรวจเร็วข้างเตียง: <b>skin scraping / touch smear ย้อม Wright</b> (เห็น septum ของ Talaromyces หรือ yeast ในเซลล์ของ Histoplasma) ยืนยันด้วย culture จากผิวหนัง เลือด ไขกระดูก (Talaromyces ที่ 25 °C ให้ red diffusible pigment)","<b>Histoplasma</b>: yeast เล็กในเซลล์ narrow-based budding ไม่มี septum, oral ulcer, ตับม้ามโต → liposomal amphotericin B ตามด้วย itraconazole + ART","<b>Cryptococcus</b>: <b>capsule ใส</b> narrow-based budding, India ink, mucicarmine, serum CrAg; <b>LP ทุกราย</b> แม้ไม่มีอาการ → WHO 2022 single high-dose liposomal AmB + flucytosine + fluconazole; เลื่อน ART 4–6 สัปดาห์ถ้ามี CNS"],
+       pearls:["เคส histoplasmosis ต้นฉบับระบาย 2 ช้อยและรอโจทย์เต็ม ลักษณะ yeast ธนาคารเติมเอง — ถ้าโจทย์จริงให้ capsule ใหญ่ = cryptococcosis, septum + binary fission = talaromycosis","ถ้าโจทย์ไม่ให้ลักษณะเชื้อเลย และในไทย ให้เอนไป Talaromyces ตามระบาดวิทยา","อ่านคำว่า molluscum แล้วตอบ molluscum — โจทย์ถามเชื้อใน AIDS","ถาม investigation แล้วตอบ KOH หรือ Tzanck — ตุ่มสะดือบุ๋มในคนภูมิต่ำมีไข้ให้ตอบ Wright stain ของ scraping; เคส SI131 Ro413–416 ต้นฉบับมีแค่ 2 ช้อยที่ไม่ตรงคำตอบ ช้อย Wright stain และไข้ น้ำหนักลด ธนาคารเติมจากโน้ตผู้จด","เคสที่มี <b>pneumonia</b> + capsule หนา = Cryptococcus แม้อยู่ในไทย — อย่าตอบ Talaromyces อัตโนมัติ"],
+       members:["SI132|Ro401–402|119","SI132|Ro405–406|25","SI133|Ro407–408|10","SI131|Ro405–408|78","SI131|Ro413–416|21","SI131|Ro417–420|17"]}
+    ]},
     {title:"Severe drug reaction & allergy", sections:[
       {id:"dress", title:"DRESS — allopurinol + ผื่น + eosinophilia + ตับ",
        trend:"ใช้ allopurinol เป็นยาหลักของเคสทั้งสองครั้ง",
@@ -25,14 +33,6 @@ SUMM.push({tag:"Dermatology", title:"Dermatology",
        pearls:["ไข้ + ผื่น + ปวดข้อหลังยาแล้วตอบ drug-induced lupus — DIL ต้องใช้ยาเป็นเดือน (procainamide, hydralazine, isoniazid) และ anti-histone บวก","Type I เกิดในนาที, type IV (DRESS, SJS) วันถึงสัปดาห์ แต่ SSLR ไม่จัดเข้า Gell-Coombs ชัดเจน"],
        members:["SI130|Ro409–412|17"]}
     ]},
-    {title:"Skin sign in HIV", sections:[
-      {id:"umbilicated-papules", title:"HIV + umbilicated papules — Talaromyces vs Histoplasma vs Cryptococcus",
-       trend:"โจทย์หน้าตาเดียวกันแต่เฉลยคนละเชื้อ อ่านลักษณะ yeast ก่อนตอบ",
-       asked:["HIV + ผื่นคล้าย molluscum → ถามเชื้อ (ตอบ Talaromycosis ช้อยอื่นคือ MAC, CMV, Candida, Pneumocystis)","ชาย 34 ปี oral thrush umbilicated papules oral ulcer ตับม้ามโต CD4 150 Wright stain yeast เล็ก narrow-based budding ไม่มี capsule หรือ septum → ถามเชื้อ (ตอบ histoplasmosis)","ชาย 30 ปี ไข้ น้ำหนักลด oral thrush ต่อมน้ำเหลืองโต umbilicated papules gram stain yeast with clear capsule → ถาม diagnosis (ตอบ cryptococcosis)"],
-       pattern:["<b>Molluscum-like ใน CD4 ต่ำ: Talaromyces, Histoplasma, Cryptococcus</b>","<b>Talaromyces marneffei</b>: พบมากสุดในไทย CD4 <100, binary fission มี <b>central septum</b>, ซีด ตับม้ามโต → amphotericin B 2 สัปดาห์ ตามด้วย itraconazole 10 สัปดาห์ แล้ว secondary prophylaxis; ART ใน 1–2 สัปดาห์","<b>Histoplasma</b>: yeast เล็กในเซลล์ narrow-based budding ไม่มี septum, oral ulcer, ตับม้ามโต → liposomal amphotericin B ตามด้วย itraconazole + ART","<b>Cryptococcus</b>: <b>capsule ใส</b> narrow-based budding, India ink, mucicarmine, serum CrAg; <b>LP ทุกราย</b> แม้ไม่มีอาการ → WHO 2022 single high-dose liposomal AmB + flucytosine + fluconazole; เลื่อน ART 4–6 สัปดาห์ถ้ามี CNS"],
-       pearls:["เคส histoplasmosis ต้นฉบับระบาย 2 ช้อยและรอโจทย์เต็ม ลักษณะ yeast ธนาคารเติมเอง — ถ้าโจทย์จริงให้ capsule ใหญ่ = cryptococcosis, septum + binary fission = talaromycosis","ถ้าโจทย์ไม่ให้ลักษณะเชื้อเลย และในไทย ให้เอนไป Talaromyces ตามระบาดวิทยา","อ่านคำว่า molluscum แล้วตอบ molluscum — โจทย์ถามเชื้อใน AIDS"],
-       members:["SI132|Ro401–402|119","SI132|Ro405–406|25","SI133|Ro407–408|10"]}
-    ]},
     {title:"Viral rash", sections:[
       {id:"measles", title:"Measles — ผื่น confluent / Koplik spots",
        trend:"ให้ได้ทั้งแบบเล่าผื่น และแบบรูปกระพุ้งแก้ม",
@@ -52,6 +52,14 @@ SUMM.push({tag:"Dermatology", title:"Dermatology",
        pearls:["คีย์ต้นฉบับ SI130 ตอบ Gram stain (chancroid) แต่ธนาคารแก้เป็น Tzanck smear เพราะแผลเล็กหลายแผล ก้นสะอาด ไม่มี bubo เข้ากับ herpes","จำแค่ว่าเจ็บ = chancroid — herpes ก็เจ็บ แยกที่ขนาด จำนวน และก้นแผล"],
        ddx:["Chancroid","Primary syphilis","LGV","Donovanosis"],
        members:["SI130|Ro409–412|4"]}
+    ]},
+    {title:"Syphilis", sections:[
+      {id:"secondary-syphilis", title:"Secondary syphilis — แผลไม่เจ็บที่อวัยวะเพศ + ผื่นทั่วตัว",
+       asked:["SI131: ชาย 25 ปี ไข้ต่ำ ๆ + ผื่น MP ทั่วตัว 5 วัน เคยมีแผลไม่เจ็บที่ glans 2 สัปดาห์ก่อน → ถาม next step (ตอบ anti-treponemal test ช้อยมี ANA, skin biopsy, urethral swab culture, hemoculture)"],
+       pattern:["<b>Secondary syphilis</b> เกิด 2–8 สัปดาห์หลัง chancre (chancre อาจยังไม่หาย): ไข้ต่ำ ๆ ต่อมน้ำเหลืองโตทั่วตัว ผื่น MP ทั่วตัว <b>รวมฝ่ามือฝ่าเท้า</b>, condyloma lata, mucous patch, patchy alopecia","ตรวจ: serology 2 ชนิด — <b>treponemal</b> (TPHA / TPPA / FTA-ABS / EIA) + <b>non-treponemal</b> (VDRL / RPR ใช้ติดตาม titer); ระยะนี้ serology บวกเกือบ 100%","รักษา: <b>benzathine penicillin G 2.4 MU IM ครั้งเดียว</b> (primary / secondary / early latent); แพ้ penicillin → doxycycline 100 mg bid 14 วัน; ระวัง Jarisch-Herxheimer","ตรวจ anti-HIV และ STI อื่น + ติดตามคู่นอน"],
+       pearls:["ไข้ + ผื่นทั่วตัวในชายหนุ่มแล้วคิดแค่ viral exanthem หรือ drug rash — ถามประวัติแผลที่อวัยวะเพศเสมอ","ผื่นฝ่ามือฝ่าเท้าใน DDx: secondary syphilis, HFMD, Rocky Mountain spotted fever, erythema multiforme"],
+       ddx:["Viral exanthem","Drug eruption","Pityriasis rosea","Acute HIV"],
+       members:["SI131|Ro413–416|48"]}
     ]},
     {title:"Fungal skin infection", sections:[
       {id:"candida-intertrigo", title:"Candida intertrigo vs tinea cruris",
@@ -74,10 +82,10 @@ SUMM.push({tag:"Dermatology", title:"Dermatology",
        pearls:["ไม่มีรูปจริง: สองสนามตีความรูปต่างกัน (SI132 Beau's line, SI133 leukonychia) และโจทย์ SI132 เขียนว่าเล็บซีดและใหญ่ ซึ่งไม่ตรงกับร่องขวาง ถ้ารูปจริงเป็นเล็บช้อนต้องตอบ iron","Leukonychia จุดขาวส่วนใหญ่มาจาก trauma ไม่ใช่การขาดสาร"],
        members:["SI132|Ro403–404|25","SI133|Ro401–402|51"]},
       {id:"discoid-sle", title:"Discoid lupus ที่ใบหู + ข้ออักเสบ — SLE",
-       asked:["ชาย 20 ปี ปวดข้อมือ + PIP + ผิวสีเข้มกลางบางที่ใบหู → ถาม diagnosis (ตอบ SLE ช้อยมี RA, AOSD, psoriatic arthritis, dermatomyositis)"],
-       pattern:["<b>Discoid</b>: ปื้นแดงม่วงเข้ม follicular plugging ขอบเข้ม กลางจางบุ๋มเป็นแผลเป็น ที่หน้า หนังศีรษะ <b>conchal bowl</b>","Arthritis ของ SLE: non-erosive (Jaccoud ได้) ตำแหน่ง MCP, PIP, wrist เหมือน RA","ตรวจ ANA, anti-dsDNA, C3, C4, UA, CBC; รักษา <b>hydroxychloroquine ทุกราย</b> + กันแดด + steroid ตามอวัยวะ"],
+       asked:["ชาย 20 ปี ปวดข้อมือ + PIP + ผิวสีเข้มกลางบางที่ใบหู → ถาม diagnosis (ตอบ SLE ช้อยมี RA, AOSD, psoriatic arthritis, dermatomyositis)","SI131: ชาย 20 ปี myalgia + PIP arthritis 2 เดือน ซีดเล็กน้อย hyperpigmentation กลางฝ่อที่ใบหูสองข้าง → ถาม diagnosis (ตอบ SLE ช้อยมี RA, AOSD, Kawasaki, dermatomyositis)"],
+       pattern:["<b>Discoid</b>: ปื้นแดงม่วงเข้ม follicular plugging ขอบเข้ม กลางจางบุ๋มเป็นแผลเป็น ที่หน้า หนังศีรษะ <b>conchal bowl</b>","Arthritis ของ SLE: non-erosive (Jaccoud ได้) ตำแหน่ง MCP, PIP, wrist เหมือน RA","DLE อย่างเดียวอาจเป็นแค่โรคผิวหนัง แต่ <b>DLE + arthritis / cytopenia = SLE</b>; EULAR / ACR 2019: entry ANA ≥1:80 แล้วรวมคะแนน ≥10 (DLE 4, joint involvement 6)","ตรวจ ANA, anti-dsDNA, C3, C4, UA, CBC; รักษา <b>hydroxychloroquine ทุกราย</b> + กันแดด + steroid ตามอวัยวะ"],
        pearls:["ผู้ชายอายุ 20 แล้วตัด SLE — ผิวหนังสำคัญกว่าเพศ","AOSD: ไข้ quotidian, salmon rash, ferritin สูง"],
-       members:["SI132|Ro405–406|22"]},
+       members:["SI132|Ro405–406|22","SI131|Ro401–404|8"]},
       {id:"iga-vasculitis", title:"IgA vasculitis (Henoch-Schönlein purpura)",
        asked:["ผื่น purpura ที่แขนซ้ายและขาหลายเดือน รอบนี้มี purpura + ปวดท้องเฉียบพลัน → ถาม diagnosis (ช้อยมี ITP, SLE, PAN, AOSD)"],
        pattern:["<b>Palpable purpura ส่วนล่าง + ปวดท้อง + ปวดข้อ + ไต</b>; platelet ปกติจึงแยกจาก ITP","GI: colicky, GI bleed, intussusception ในเด็ก","ตรวจ UA, Cr ติดตาม UA และ BP อย่างน้อย 6 เดือน; biopsy ถ้าไม่ชัด","รักษา supportive; steroid เมื่อปวดท้องรุนแรง"],
@@ -87,6 +95,11 @@ SUMM.push({tag:"Dermatology", title:"Dermatology",
        asked:["BMI 30 ผิวหนาดำเหมือนกำมะหยี่ที่คอ → ถามโรคที่สัมพันธ์ (ตอบ T2DM ช้อยมี T1DM, Addison, hemochromatosis, pellagra)"],
        pattern:["Hyperinsulinemia กระตุ้น IGF-1 receptor ทำผิวหนาดำบริเวณพับ <b>= เครื่องหมาย insulin resistance</b>","ตรวจ FPG / HbA1c, ไขมัน, BP; รักษาที่ต้นเหตุ: ลดน้ำหนัก, metformin เมื่อมีข้อบ่งชี้","เกิดเร็วในคนไม่อ้วน + น้ำหนักลด → นึก <b>gastric adenocarcinoma</b> (malignant AN)"],
        pearls:["เห็นผิวคอดำแล้วคิดว่าไม่สะอาดหรือ Addison","โจทย์อ้างรูปแต่ไฟล์ไม่มีรูป คำบรรยายรอยโรคธนาคารเขียนแทน"],
-       members:["SI133|Ro405–406|14"]}
+       members:["SI133|Ro405–406|14"]},
+      {id:"pellagra", title:"Pellagra — ผื่นบริเวณถูกแดด (niacin deficiency)",
+       asked:["SI131: ชายมีรอยโรคผิวหนังจากรูป → ถาม diagnosis (ตอบ pellagra ช้อยมี scurvy, beriberi, riboflavin deficiency, zinc deficiency)"],
+       pattern:["<b>Niacin (B3) deficiency</b>: 3D = <b>dermatitis, diarrhea, dementia</b> (± death)","ผื่น photosensitive สมมาตรบริเวณถูกแดด: หลังมือ แขน หน้า; <b>Casal necklace</b> รอบคอ; ผิวหนาดำแห้งลอก ขอบชัด","กลุ่มเสี่ยง: <b>alcoholism</b>, ทุพโภชนาการ, กินข้าวโพดเป็นหลัก, <b>isoniazid</b> (ขาด B6 ที่ใช้สร้าง niacin จาก tryptophan), carcinoid syndrome (tryptophan ถูกใช้สร้าง serotonin), Hartnup disease","รักษา: nicotinamide 100 mg PO ทุก 6–8 ชม. จนอาการหาย + แก้สาเหตุ"],
+       pearls:["ผื่นที่มือแล้วตอบ zinc — zinc ผื่นรอบปาก ทวาร ปลายมือเท้า (acral + periorificial) ไม่ตามแดด","Scurvy = perifollicular hemorrhage, corkscrew hair, เหงือกบวมเลือดออก · Riboflavin = angular cheilitis, glossitis","ไม่มีรูปในไฟล์ ตัดสินจากเฉลย"],
+       members:["SI131|Ro417–420|4"]}
     ]}
   ]});
