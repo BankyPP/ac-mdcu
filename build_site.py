@@ -19,7 +19,7 @@ PACK='--pack' in sys.argv      # Claude artifact build: an artifact version hold
 OUT=ARGS[0] if ARGS else os.path.join(ROOT,'docs',*([IDIR] if IDIR else []))
 SPLIT=PACK or not ARGS   # the website build (default outdir) keeps exam data in data_<ward>*.js next to the page, not inline: 44MB of inline script text made browser extensions that scan the page on every DOM change freeze each page switch 10-20 s (found 4 Nov 2026) · an explicit outdir without --pack stays one self-contained file
 if SPLIT and not PACK:
-    for f in glob.glob(os.path.join(OUT,'data_*.js')): os.remove(f)   # a ward can shrink to fewer chunks, or be removed
+    for f in glob.glob(os.path.join(OUT,'data_*.js'))+glob.glob(os.path.join(OUT,'data_*.json')): os.remove(f)   # a ward can shrink to fewer chunks, or be removed
 tpl=open('template.html',encoding='utf-8').read()
 cfg=json.load(open(J('config.json'),encoding='utf-8'))
 def _inst(d):
@@ -61,6 +61,10 @@ js.append('const CONFIG='+json.dumps(cfg,ensure_ascii=False)+';')
 import datetime
 js.append('const BUILD='+json.dumps(datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).strftime('%d/%m/%Y %H:%M'))+';')
 total=0
+import subprocess,shutil as _sh
+NODE=bool(_sh.which('node'))   # website build needs node to split each ward into JSON (without node: one data_<ward>*.js per ward, loaded whole)
+if SPLIT and not PACK and not NODE: print('WARNING: node not found — wards are built as data_<ward>*.js (no explanation/round split)')
+wcount={}
 wmap={}   # SPLIT website: ward id → its data files, loaded only when the ward is opened (site/app.js loadWard)
 wsrc=[]   # SPLIT: each ward's data goes to its own data_<ward>.js next to the page (an artifact page is capped at 16MB)
 for w in cfg.get('wards',[]):
@@ -97,7 +101,18 @@ for w in cfg.get('wards',[]):
         if T in ('MCQ','MEQ','OSCE'): js.append('(function(SUMM){\n'+open(f,encoding='utf-8').read()+'\n})(WARDS['+wid+'].SUMM.'+T+');')
     hy=os.path.join(d,'highyield.js')
     if os.path.exists(hy): js.append('(function(W){\n'+open(hy,encoding='utf-8').read()+'\n})(WARDS['+wid+']);')
-    if SPLIT:
+    if SPLIT and not PACK and NODE:
+        # website: run the ward's data once in node → data_<ward>.json (ward home) + data_<ward>_x.json (explanations, Round I/O, summaries…) — tools/ward_split.js
+        os.makedirs(OUT,exist_ok=True); base='data_'+re.sub(r'\W','',w['id']); tmp=os.path.join(OUT,base+'.tmp.js')
+        open(tmp,'w',encoding='utf-8').write('\n'.join(js[j0:])+'\n')
+        try:
+            o=subprocess.run(['node','tools/ward_split.js',OUT,base,tmp],capture_output=True,text=True,timeout=600)
+            if o.returncode!=0: raise SystemExit('ward_split failed for '+w['id']+':\n'+o.stderr[-2000:])
+            wcount.update(json.loads(o.stdout.strip().splitlines()[-1]))
+        finally: os.remove(tmp)
+        wmap[w['id']]={'a':[base+'.json'],'x':[base+'_x.json']}
+        del js[j0:]
+    elif SPLIT:
         # an artifact text file is capped at 16MB → split a big ward into data_<ward>.js, data_<ward>_2.js … (≤12MB each, loaded in order)
         os.makedirs(OUT,exist_ok=True); base='data_'+re.sub(r'\W','',w['id']); chunks=[[]]; sz=0
         for part in js[j0:]:
@@ -106,7 +121,7 @@ for w in cfg.get('wards',[]):
             chunks[-1].append(part); sz+=n
         for i,ch in enumerate(chunks):
             fn=base+('' if i==0 else '_%d'%(i+1))+'.js'
-            open(os.path.join(OUT,fn),'w',encoding='utf-8').write('\n'.join(ch)+'\n'); wsrc.append(fn); wmap.setdefault(w['id'],[]).append(fn)
+            open(os.path.join(OUT,fn),'w',encoding='utf-8').write('\n'.join(ch)+'\n'); wsrc.append(fn); wmap.setdefault(w['id'],{'a':[],'x':[]})['a'].append(fn)
         del js[j0:]
 LOADERR="document.body.insertAdjacentHTML('afterbegin','<p style=&quot;margin:0;padding:12px 16px;background:#b3261e;color:#fff;text-align:center&quot;>โหลดข้อสอบไม่ครบ กรุณารีเฟรชหน้านี้</p>')"
 appjs=open('site/app.js',encoding='utf-8').read().replace('"use strict";\n','"use strict";\n'+open('site/meq.js',encoding='utf-8').read()+'\n'+open('site/osce.js',encoding='utf-8').read()+'\n'+open('site/io.js',encoding='utf-8').read()+'\n'+open('site/spc.js',encoding='utf-8').read()+'\n'+open('site/hysum.js',encoding='utf-8').read()+'\n'+(open('site/teach_data.js',encoding='utf-8').read() if os.path.exists('site/teach_data.js') else '')+'\n'+open('site/teach.js',encoding='utf-8').read()+'\n',1)
@@ -121,19 +136,7 @@ if SPLIT and not PACK:   # website: the page holds only its shell, so an extensi
     build=[x for x in js if x.startswith('const BUILD=')][0]
     # lazy wards (9 Nov 2026): the page loads only core + app; each ward's data_<ward>*.js is fetched when that ward is opened, so the ward list shows at once on phones
     # (all wards together were ~44 MB of script = ~11 MB download + parsing everything before the first screen). WCOUNT = question counts for the ward list, from node if available.
-    wsrcj={wid:[{'u':SRC(fn),'s':os.path.getsize(os.path.join(OUT,fn))} for fn in fns] for wid,fns in wmap.items()}
-    wcount={}
-    try:
-        import subprocess
-        CNT=r'''const vm=require("vm"),fs=require("fs"),[out,...fs_]=process.argv.slice(1),c={WARDS:{},IMGS:{},console};vm.createContext(c);
-for(const f of fs_)vm.runInContext(fs.readFileSync(f,"utf8"),c,{filename:f});const r={};
-for(const id in c.WARDS){const W=c.WARDS[id];r[id]={MCQ:(W.QB||[]).filter(q=>!q.notice).length,MEQ:(W.MQ||[]).length,OSCE:(W.OS||[]).length,
-unit:(W.UNIT||[]).filter(x=>x&&x.id&&Array.isArray(x.QB)).reduce((a,L)=>a+L.QB.length,0)};}console.log(JSON.stringify(r));'''
-        for wid,fns in wmap.items():
-            o=subprocess.run(['node','-e',CNT,'x']+[os.path.join(OUT,fn) for fn in fns],capture_output=True,text=True,timeout=300)
-            if o.returncode==0: wcount.update(json.loads(o.stdout))
-            else: print('WCOUNT: node failed for',wid,o.stderr[:300])
-    except Exception as e: print('WCOUNT skipped (no node?)',e)
+    wsrcj={wid:{k:[{'u':SRC(fn),'s':os.path.getsize(os.path.join(OUT,fn))} for fn in fs_] for k,fs_ in parts.items()} for wid,parts in wmap.items()}
     lazy='const WSRC='+json.dumps(wsrcj)+';const WCOUNT='+json.dumps(wcount)+';'
     # service worker (sw.js next to the page): versioned files (?v=) come from this phone's cache after the first visit; the page itself always asks the network first
     open(os.path.join(OUT,'sw.js'),'w',encoding='utf-8').write(open('site/sw.js',encoding='utf-8').read())

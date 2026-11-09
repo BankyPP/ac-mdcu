@@ -1903,9 +1903,15 @@ const YEAR=q=>parseInt(String(q.set).replace(/\D/g,""))||0;
 const ROK=r=>{r=String(r||"");let m=/^Ro?([A-Z])(\d*)$/.exec(r);if(m)return [0,m[1].charCodeAt(0),+m[2]||0];m=/^Ro?(\d+)$/.exec(r);if(m)return [1,+m[1],0];return [2,0,0];};
 const cmpRo=(a,b)=>{const x=ROK(a.ro),y=ROK(b.ro);return x[0]-y[0]||x[1]-y[1]||x[2]-y[2];};
 const setKey=q=>q.set+" "+q.ro;
-/* a ward's exam data (data_<ward>*.js) loads only when that ward is opened (website build: WSRC lists its files) — the ward list needs only the shell (~300 KB instead of 40 MB+) · artifact/inline builds have every ward already loaded */
-const WLOAD=typeof WSRC!=="undefined"&&WSRC?WSRC:null,WLOADED={},WPEND={};
-const wLoaded=id=>!WLOAD||!WLOAD[id]||!!WLOADED[id];
+/* a ward's exam data loads only when that ward is opened (website build: WSRC = {ward:{a:[files],x:[files]}}) — the ward list needs only the shell (~300 KB instead of 40 MB+)
+   a = data_<ward>.json: what the ward home needs (questions without explanations, Unit/MEQ/OSCE banks, tags…) → the ward home shows
+   x = data_<ward>_x.json: explanations (aligned to the questions by position), Round I/O, textbooks, High-yield summaries, OSCE refs — starts loading right after a;
+       every page of the ward other than its home waits for it (tools/ward_split.js) · artifact/inline builds have everything already loaded */
+const WLOAD=typeof WSRC!=="undefined"&&WSRC?WSRC:null,WGOT={},WPEND={};
+const wFiles=(id,k)=>(WLOAD&&WLOAD[id]&&WLOAD[id][k])||[];
+const wLoaded=id=>!wFiles(id,"a").length||!!WGOT["a:"+id];
+const wxLoaded=id=>!wFiles(id,"x").length||!!WGOT["x:"+id];
+const wSize=(id,k)=>wFiles(id,k).reduce((a,f)=>a+(f.s||0),0);
 function initWard(w){
   const W=WARDS[w.id]||(WARDS[w.id]={QB:[]});W.cfg=w;
   /* q.notice = a "ข้อ 0" page of a set (e.g. YUZU resignation form): shown only in the Service round of that set, never counted, never in other rounds */
@@ -1930,28 +1936,49 @@ function initWard(w){
   const numCmp=(x,y)=>{if(!x||!y)return (x?0:1)-(y?0:1);for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]??-1)-(y[i]??-1);if(d)return d;}return 0;};
   W.UNIT.sort((a,b)=>codeCmp(a.id||a.title,b.id||b.title));
   /* Round I/O: every code (L / R / T / N) always listed by number ascending within its kind — L02 < L07.1 < L10 < L99.03 · R01 < R22 · T01 < T03 (also orders "รวมตามเรื่อง" and Specialty-round lists) */
-  if(W.IO&&Array.isArray(W.IO.docs)){const KO={L:0,R:1,T:2,N:3};W.IO.docs.sort((a,b)=>((KO[a.kind]??9)-(KO[b.kind]??9))||numCmp(numKey(a.code),numKey(b.code)));}
+  ioSortW(W);
   W.byLec={};
   W.UNIT.forEach(Lc=>{W.byLec[Lc.id]=Lc;Lc.QB.forEach((q,i)=>{q.unit=Lc.id;q.n=q.n||i+1;q.id="U"+q.n;q.set=Lc.short||Lc.title;q.ro="Unit";q.uid="U|"+Lc.id+"|"+q.n;W.byU[q.uid]=q;});});
 }
 WL.forEach(w=>{if(wLoaded(w.id))initWard(w);else WARDS[w.id]={QB:[],cfg:w};});
-/* fetch a ward's files (progress via onProg(0..1)), run them in order, then index the ward like at startup */
-function loadWard(id,onProg){
-  if(wLoaded(id))return Promise.resolve();if(WPEND[id])return WPEND[id].p;
-  const files=WLOAD[id]||[],tot=files.reduce((a,f)=>a+(f.s||0),0)||1;let got=0;const ctl={cb:onProg};
-  const tick=()=>{if(ctl.cb)ctl.cb(Math.min(1,got/tot));};
+/* fetch files (progress via ctl.cb(0..1), replaceable while loading) */
+function wFetch(key,files,cb){
+  if(WGOT[key])return Promise.resolve();if(WPEND[key]){if(cb)WPEND[key].cb=cb;return WPEND[key].p;}
+  const tot=files.reduce((a,f)=>a+(f.s||0),0)||1,ctl={cb,got:0};const tick=()=>{if(ctl.cb)ctl.cb(Math.min(1,ctl.got/tot));};
   const one=async f=>{const r=await fetch(f.u);if(!r.ok)throw new Error("HTTP "+r.status);
-    if(!r.body||!r.body.getReader){const t=await r.text();got+=f.s||0;tick();return t;}
-    const rd=r.body.getReader(),ch=[];let n=0;for(;;){const x=await rd.read();if(x.done)break;ch.push(x.value);n+=x.value.length;got+=x.value.length;tick();}
+    if(!r.body||!r.body.getReader){const t=await r.text();ctl.got+=f.s||0;tick();return t;}
+    const rd=r.body.getReader(),ch=[];let n=0;for(;;){const x=await rd.read();if(x.done)break;ch.push(x.value);n+=x.value.length;ctl.got+=x.value.length;tick();}
     const u=new Uint8Array(n);let o=0;ch.forEach(c=>{u.set(c,o);o+=c.length;});return new TextDecoder().decode(u);};
-  const run=t=>new Promise((ok,no)=>{const sc=document.createElement("script"),url=URL.createObjectURL(new Blob([t],{type:"text/javascript"}));
-    sc.src=url;sc.onload=()=>{URL.revokeObjectURL(url);sc.remove();ok();};sc.onerror=()=>{URL.revokeObjectURL(url);no(new Error("script"));};document.head.appendChild(sc);});
-  ctl.p=(async()=>{try{const txt=await Promise.all(files.map(one));for(const t of txt)await run(t);
-      const w=WL.find(x=>x.id===id);initWard(w);WLOADED[id]=1;
-      try{const W=WARDS[id];localStorage.setItem("acwc-"+id,JSON.stringify({MCQ:W.QB.length,MEQ:(W.MQ||[]).length,OSCE:(W.OS||[]).length,unit:(W.UNIT||[]).reduce((a,L)=>a+L.QB.length,0)}));}catch(e){}}
-    finally{delete WPEND[id];}})();
-  WPEND[id]=ctl;return ctl.p;}
-const loadAll=()=>Promise.all(WL.map(w=>loadWard(w.id)));
+  ctl.p=Promise.all(files.map(one)).finally(()=>{delete WPEND[key];});WPEND[key]=ctl;return ctl.p;}
+const runJS=t=>new Promise((ok,no)=>{const sc=document.createElement("script"),url=URL.createObjectURL(new Blob([t],{type:"text/javascript"}));
+  sc.src=url;sc.onload=()=>{URL.revokeObjectURL(url);sc.remove();ok();};sc.onerror=()=>{URL.revokeObjectURL(url);no(new Error("script"));};document.head.appendChild(sc);});
+const WDONE={};
+function loadWard(id,cb){
+  if(wLoaded(id))return Promise.resolve();if(WDONE["a:"+id]){if(cb&&WPEND["a:"+id])WPEND["a:"+id].cb=cb;return WDONE["a:"+id];}
+  const files=wFiles(id,"a");
+  return WDONE["a:"+id]=wFetch("a:"+id,files,cb).then(async txt=>{
+    for(let i=0;i<files.length;i++){if(/\.js(\?|$)/.test(files[i].u))await runJS(txt[i]);else WARDS[id]=JSON.parse(txt[i]);}
+    const W=WARDS[id];W._rawQB=(W.QB||[]).slice();W._rawU=(W.UNIT||[]).map(L=>[L,((L&&L.QB)||[]).slice()]);
+    initWard(WL.find(x=>x.id===id));WGOT["a:"+id]=1;
+    try{const c=wCnt(id);localStorage.setItem("acwc-"+id,JSON.stringify(c));}catch(e){}
+    loadWardX(id).catch(()=>{});
+  },e=>{delete WDONE["a:"+id];throw e;});}
+/* the ward's second file: explanations go back onto the same question objects, the rest onto the ward */
+function loadWardX(id,cb){
+  if(wxLoaded(id))return Promise.resolve();if(WDONE["x:"+id]){if(cb&&WPEND["x:"+id])WPEND["x:"+id].cb=cb;return WDONE["x:"+id];}
+  return WDONE["x:"+id]=loadWard(id).then(()=>wFetch("x:"+id,wFiles(id,"x"),cb)).then(txt=>{
+    const W=WARDS[id];txt.forEach(t=>{const X=JSON.parse(t);
+      (W._rawQB||[]).forEach((q,i)=>{const h=X.QB&&X.QB[i];if(h)Object.assign(q,h);});
+      (W._rawU||[]).forEach(([L,qs],i)=>{const a=X.UNIT&&X.UNIT[i];if(a)qs.forEach((q,j)=>{if(a[j])Object.assign(q,a[j]);});});
+      ["IO","TXT","SUMM","HY","OSREF"].forEach(k=>{if(k in X)W[k]=X[k];});});
+    ioSortW(W);WGOT["x:"+id]=1;
+    if(ward===id&&view==="home"&&(window.scrollY||0)<80)show("home");   /* Round I/O / summary badges on the ward home */
+  },e=>{delete WDONE["x:"+id];throw e;});}
+/* Round I/O: every code (L / R / T / N) listed by number ascending within its kind (also at the end of loadWardX) */
+function ioSortW(W){if(!(W&&W.IO&&Array.isArray(W.IO.docs)))return;const numKey=c=>{const m=/^[A-Z]*(\d+(?:\.\d+)*)/i.exec(String(c||""));return m?m[1].split(".").map(Number):null;};
+  const numCmp=(x,y)=>{if(!x||!y)return (x?0:1)-(y?0:1);for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]??-1)-(y[i]??-1);if(d)return d;}return 0;};
+  const KO={L:0,R:1,T:2,N:3};W.IO.docs.sort((a,b)=>((KO[a.kind]??9)-(KO[b.kind]??9))||numCmp(numKey(a.code),numKey(b.code)));}
+const loadAll=()=>Promise.all(WL.map(w=>loadWard(w.id)));   /* export/import of progress: questions (uids) are enough */
 /* question counts for the ward list without loading the ward: built-in counts (WCOUNT, from the build) or the last count seen on this device */
 const wCnt=id=>{const W=WARDS[id];if(wLoaded(id))return {MCQ:W.QB.length,MEQ:(W.MQ||[]).length,OSCE:(W.OS||[]).length,unit:(W.UNIT||[]).reduce((a,L)=>a+((L&&L.QB)||[]).length,0)};
   return (typeof WCOUNT!=="undefined"&&WCOUNT&&WCOUNT[id])||(()=>{try{return JSON.parse(localStorage.getItem("acwc-"+id)||"null");}catch(e){return null;}})()||{MCQ:0,MEQ:0,OSCE:0,unit:0};};
@@ -2055,7 +2082,7 @@ function route(){
   if(h.w==="signin"){ward=null;return show("signin");}
   if(h.w==="grades"){ward=null;return show("grades");}
   if(!h.w||!WARDS[h.w]||!WL.some(x=>x.id===h.w)){if(QR)qStop();ward=null;return show("wards");}
-  if(!wLoaded(h.w))return rWardLoad(h.w);
+  if(!wLoaded(h.w)||((h.v||"home")!=="home"&&!wxLoaded(h.w)))return rWardLoad(h.w,(h.v||"home")!=="home");
   if(QR&&QR.ward!==h.w)qStop();
   ward=h.w;qRestore();
   let v=h.v||"home";
@@ -2097,11 +2124,13 @@ $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
 function acCounts(w){const no=w.noExam||[],c=wLoaded(w.id)?{MCQ:(WARDS[w.id].QB||[]).length,MEQ:mqL(w.id,"MEQ").length,OSCE:(WARDS[w.id].OS||[]).length}:wCnt(w.id);
   const t=["MCQ","MEQ","OSCE"].filter(k=>!no.includes(k));return `<span class="acn"><span class="acl">ข้อสอบเก่า AC</span>${t.map(k=>`<span class="act${c[k]?"":" z"}">${k} <b>${c[k]}</b></span>`).join("")}</span>`;}
 /* opening a ward whose exam data isn't loaded yet: progress bar, then the page asked for */
-function rWardLoad(id){const w=WL.find(x=>x.id===id);ward=null;view="load";
+function rWardLoad(id,needX){const w=WL.find(x=>x.id===id);ward=null;view="load";
   ["nav","openSheet"].forEach(k=>{$(k).hidden=true;});$("homeBtn").hidden=false;$("brand").textContent=CFG.siteName||CFG.title||"คลังข้อสอบเก่า";
   $("main").innerHTML=`<div class="card wload"><h3>กำลังโหลดข้อสอบ ${esc(w.name)}</h3><div class="wlbar"><span id="wlBar"></span></div><span class="rd" id="wlTxt">ครั้งแรกอาจใช้เวลาสักครู่ ครั้งต่อไปจะเปิดเร็วขึ้น</span></div>`;
-  loadWard(id,f=>{const b=$("wlBar");if(b)b.style.width=Math.round(f*100)+"%";}).then(()=>{if(parseHash().w===id)route();},()=>{
-    if(parseHash().w!==id)return;$("main").innerHTML=`<div class="card"><h3>โหลดข้อสอบ ${esc(w.name)} ไม่สำเร็จ</h3><span class="rd">ตรวจอินเทอร์เน็ตแล้วลองใหม่</span><button class="btn primary" id="wlRetry" type="button">ลองใหม่</button></div>`;$("wlRetry").onclick=()=>route();});}
+  const nA=wLoaded(id)?0:wSize(id,"a"),nX=needX?wSize(id,"x"):0,tot=(nA+nX)||1,bar=f=>{const b=$("wlBar");if(b)b.style.width=Math.round(f*100)+"%";};
+  const go_=()=>{if(parseHash().w===id)route();};
+  const fail=()=>{if(parseHash().w!==id)return;$("main").innerHTML=`<div class="card"><h3>โหลดข้อสอบ ${esc(w.name)} ไม่สำเร็จ</h3><span class="rd">ตรวจอินเทอร์เน็ตแล้วลองใหม่</span><button class="btn primary" id="wlRetry" type="button">ลองใหม่</button></div>`;$("wlRetry").onclick=()=>route();};
+  loadWard(id,f=>bar(f*nA/tot)).then(()=>needX?loadWardX(id,f=>bar((nA+f*nX)/tot)):0).then(go_,fail);}
 function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
   if(SUBJ.length)h+=`<button class="grline" id="toGrades" type="button">📊 <b>สรุปเกรด</b>${(()=>{const L_=SUBJ.map(S=>{const G=(st.grades||{})[S.id]||{},g=GPARTS.map(([k])=>G[k]||"–");return g.some(x=>x!=="–")?`${esc(S.name)} ${g.map(esc).join("/")}`:"";}).filter(Boolean);return L_.length?`<span>${L_.join(" · ")}</span>`:`<span>ยังไม่ได้ใส่เกรด</span>`;})()}<span class="go">→</span></button>${SUBJ.some(S=>GPARTS.some(([k])=>((st.grades||{})[S.id]||{})[k]))&&!G1?`<p class="hint" style="margin:-8px 0 12px">เรียง Theory / Competency / Performance</p>`:""}`;
