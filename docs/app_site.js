@@ -14,7 +14,7 @@ const mqIsOS=()=>mqKind()==="OSCE";
 function mqL(wid,kind){wid=wid||ward;const W=WARDS[wid];if(!W)return [];kind=kind||mqKind(wid);const OS=kind==="OSCE",L=OS?(W.OS||(W.OS=[])):(W.MQ||(W.MQ=[]));
   if(!L._ok){L._ok=1;const seen={};L.forEach((q,n)=>{if(!Array.isArray(q.parts)||!q.parts.length)q.parts=[{subs:q.subs||[]}];q.subs=[];
     q.parts.forEach((p,pi)=>{p.i=pi;p.subs=p.subs||[];p.subs.forEach((s,k)=>{s._p=pi;s._k=k;s._i=q.subs.length;if(OS&&!(s.tags||[]).length&&q.topic)s.tags=[q.topic];q.subs.push(s);});});
-    let u=(OS?"OS|":"MQ|")+q.set+"|"+q.file+"|"+q.page+"|"+q.orig;if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;q.n=n;})
+    let u=q.ukey||((OS?"OS|":"MQ|")+q.set+"|"+q.file+"|"+q.page+"|"+q.orig);if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;q.n=n;})
     /* files are loaded meq_b1, b2, b3 … — keep each set together in the order its first file appears (ไฟล์ดำ p1–5, p6–15 …, then short ans …) */
     const so=[...new Set(L.map(q=>q.set))];L.sort((a,b)=>so.indexOf(a.set)-so.indexOf(b.set)||a.n-b.n);L.forEach((q,i)=>{q.n=i;});}
   return L;}
@@ -1920,7 +1920,7 @@ function initWard(w){
   QB.sort((a,b)=>YEAR(b)-YEAR(a)||cmpRo(a,b)||a.rid-b.rid);
   QB.forEach((q,i)=>{q.id=i+1;});
   W.RID2ID={};W.byRid={};QB.forEach(q=>{W.RID2ID[q.rid]=q.id;W.byRid[q.rid]=q;});
-  const seen={};QB.forEach(q=>{let u=[q.set,q.ro,q.file,q.page,q.orig,(q.stem||"").slice(0,48)].join("|");if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;});
+  const seen={};QB.forEach(q=>{let u=q.ukey||[q.set,q.ro,q.file,q.page,q.orig,(q.stem||"").slice(0,48)].join("|");if(seen[u])u+="#"+(++seen[u]);else seen[u]=1;q.uid=u;});
   W.byU={};QB.forEach(q=>{W.byU[q.uid]=q;});
   W.NOTE.forEach(q=>{q.id=0;q.uid="NOTE|"+q.set+"|"+q.ro;q.opts=q.opts||["ปิด"];W.byU[q.uid]=q;});
   /* related questions (data/dups.js: groups of set|ro|orig) → W.REL[uid] = [other uids] */

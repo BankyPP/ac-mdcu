@@ -64,6 +64,27 @@
 - รูปโจทย์ `img/mmpug_<orig>` · รูปเฉลย (kimg.js, กติกาผู้ใช้ 9 พ.ย. 2026): ข้อที่โจทย์+เฉลยตรงกัน 2 ไฟล์ → `mkpugf_<ข้อ Formative>` (ครอปจาก Formative) อย่างเดียว · โจทย์หรือเฉลยไม่ตรง (orig 11, 12, 71, 77, 83, 84, 89, 101) → ทั้ง `mkpugf` + `mkpug_<orig>` (สไลด์ Final call ทั้งหน้า) และ opinion บอกว่าไม่ตรงตรงไหน · มีไฟล์เดียว (Recent item / Formative ข้อ 12) → รูปจากไฟล์นั้น · `mkprac_<ข้อ>` = ครอปเฉลย · ไม่มีรูปในไฟล์: P’Pugun orig 5 (urticaria "photograph"), 67 (OSA "equipment" — น่าจะ CPAP)
 - `tools/seen2dups.js` รับ set ชื่อ P’Pugun / Prac แล้ว (`P’Pugun RoX ข้อ N`)
 
+ลงชุดที่เจ็ด 9 พ.ย. 2026: **สมุด GoodNotes "MCQ Med For All"** (Part 1 = `MCQ_Med_For_All_Part_1.pdf` 29 หน้า, Part 2 = `MCQ_Med_For_All_4.pdf` 84 หน้า) — เจ้าของสมุดรุ่น MDCU75 (สอบ Med 5/08/2565) รวม recall AC รุ่น 74 → 65 พร้อมเฉลย/โน้ตลายมือของตัวเองในหน้าเดียวกัน (ไม่ใช่เฉลยทางการ) · ผู้ใช้สั่งทำถึงรุ่น 70 แล้วหยุด (MDCU69–65 = Part 2 หน้า 18–84 ยังไม่ทำ)
+
+| ชุด | ไฟล์ | จำนวน |
+|---|---|---|
+| MDCU74 RoA (`IM74AQ`, `IME74AQ` P1 หน้า 2–5) | `data_b30.js` · MEQ `meq_b8.js` | MCQ 5 · MEQ 4 |
+| MDCU74 RoX (`IM74XQ`, `IME74XQ`, `IMO74XQ` P1 หน้า 6–9 — ไม่มีป้าย อยู่หมวด 74 ไม่ตรง 74A/74C) | `data_b31.js` · MEQ `meq_b8.js` · OSCE `osce_b15.js` | MCQ 8 · MEQ 4 · OSCE 13 (ข้อ 1 ว่าง) |
+| MDCU74 RoC (เดิม 75X — P1 หน้า 10–11 ไฟล์เดียวกัน) | `data_b19.js`, `meq_b7.js` เดิม — เติมโน้ตสมุด + kimg `mk74c_nb_*` | ไม่เพิ่มข้อ |
+| MDCU73 RoA (`IM73AQ` P1 หน้า 13–14) | `data_b32.js` | 23 |
+| MDCU73 RoD (`IM73DQ` P1 หน้า 16–19; 18–19 สำเนาขีดฆ่า) | `data_b33.js` | 8 |
+| MDCU72 RoA (`IM72AQ` P1 หน้า 20–24 "ปี 4 รุ่น 72" ไม่ระบุ rotation → ผู้ใช้กำหนด RoA) | `data_b34.js` | 30 |
+| MDCU72 RoB (`IM72BQ` P1 หน้า 25–28 ไม่ระบุรุ่น/rotation → ผู้ใช้กำหนด 72B) | `data_b36.js` | 25 |
+| MDCU72 RoC (`IM72CQ` P1 หน้า 29) | `data_b37.js` | 5 |
+| MDCU72 RoD (`IM72DQ`, `IME72DQ` P2 หน้า 2–8, ไม่มีเลขข้อ → orig ตามลำดับ ซ้าย→ขวา ทีละหน้า) | `data_b38.js` (1–29), `data_b39.js` (30–56), `data_b40.js` (57–69) · MEQ `meq_b9.js` | MCQ 69 · MEQ 3 |
+| MDCU70 RoA (R1, `IM70AQ` P2 หน้า 9–13) | `data_b41.js` | 14 |
+| MDCU70 RoD (R4, `IM70DQ` P2 หน้า 14–17; "xx)" → orig x1–x7) | `data_b42.js` | 14 |
+
+- รูปเฉลย kimg = ครอปจากหน้าสมุด (โจทย์ + ลายมือ) ใส่ใน field `kimg` ของแต่ละข้อ (ไม่ได้อยู่ใน kimg.js) · prefix `mm/mk/me/ek/mo/ok` + `74a 74x 73a 73d 72a 72b 72c 72d 70a 70d`
+- `data_med/fixes.js` (ใหม่): สลับตำแหน่งคำตอบ 59 ข้อของ MDCU70–73 เพราะ recall เขียนช้อยที่ถูกเป็น A (ผู้ใช้ให้สลับ ไม่ต้องเท่ากันเป๊ะ) — key/gray ยังเป็นตัวอักษรตามสมุด, notes บอกการสลับ
+- `seen` ที่อ้างรุ่น 65–69 เขียนเป็น R1–R4 (ยังไม่มีในคลัง) → ตอนลงรุ่นนั้นให้แปลงเป็น RoA–RoD เพื่อให้ seen2dups จับ
+- หน้าโน้ตไม่มีโจทย์ (P2 หน้า 11, 12, 16 ฯลฯ) และ screenshot ข้อชุดอื่นใต้ 72D ข้อ 5 กระจายเข้าข้อที่เกี่ยวข้องแล้ว
+
 ## ค้าง: ข้อ "ซ้ำ AC" ที่ยังไม่มีปีต้นทาง (กติกา 1 พ.ย. 2026)
 - ดึงแล้ว: 78A MEQ ข้อ 1 (= 77A ข้อ 2), 78A MEQ ข้อ 2 (= 77B ข้อ 1), 78C MEQ ข้อ 2 (= 77A ข้อ 1) → `meq_b2.js` · OSCE 78A/78C ข้อ 6 = 77B ข้อ 1 (seen)
 - ดึงแล้ว (ชุด 76): 78C MEQ ข้อ 1 และ 78D MEQ ข้อ 1 = ซ้ำ AC **76B ข้อ 2** → สำเนาใน `meq_b6.js` · 79B MEQ ข้อ 1, 2 "ตรงแอค" = 77A ข้อ 2 (PTB + CXR) + 77B ข้อ 1 (tamponade + EKG) คู่เดียวกับ 78A → ดึงแล้วใน `meq_b5.js` · 77D MEQ ข้อ 2 น่าจะ = 76B ข้อ 2 (ใส่ seen)
