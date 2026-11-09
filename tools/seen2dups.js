@@ -12,8 +12,8 @@ out.forEach(g=>g.slice(1).forEach(k=>uni(g[0],k)));
 let miss=[];
 /* refs checked by hand where the number is the rid although an item with that original number also exists */
 const FIX={"MDCU75|RoX|9>MDCU77|RoA|50":"MDCU77|RoA|3"};
-QB.forEach(q=>{if(!q.seen)return;const re=/MDCU(\d+)\s*Ro([A-Z])\s*ข้อ\s*([0-9]+[a-z]?)/g;let m;
-  while((m=re.exec(q.seen))){let k="MDCU"+m[1]+"|Ro"+m[2]+"|"+m[3];if(FIX[K(q)+">"+k])k=FIX[K(q)+">"+k];else if(!have.has(k))k=byRid(k)||k;if(have.has(k)&&k!==K(q))uni(K(q),k);else if(!have.has(k))miss.push(K(q)+" → "+k);}});
+QB.forEach(q=>{if(!q.seen)return;/* sets named by year (MDCU77) or by word (Pugun, Prac — tutor/practice sets of Med MDCU) */const re=/(MDCU\d+|Pugun|Prac)\s*Ro([A-Z])\s*ข้อ\s*([0-9]+[a-z]?)/g;let m;
+  while((m=re.exec(q.seen))){let k=m[1]+"|Ro"+m[2]+"|"+m[3];if(FIX[K(q)+">"+k])k=FIX[K(q)+">"+k];else if(!have.has(k))k=byRid(k)||k;if(have.has(k)&&k!==K(q))uni(K(q),k);else if(!have.has(k))miss.push(K(q)+" → "+k);}});
 const G={};Object.keys(par).forEach(k=>{const r=find(k);(G[r]=G[r]||[]).push(k);});
 const groups=Object.values(G).filter(g=>g.length>1);
 fs.writeFileSync(path.join(dir,'dups.js'),'/* related questions across sets: the same question, or the same point asked again in another year — one array per group (keys set|ro|orig). Used for "seen elsewhere" tags. Built from the "seen" notes by tools/seen2dups.js */\nW.DUP=['+groups.map(g=>JSON.stringify(g)).join(',\n')+'];\n');

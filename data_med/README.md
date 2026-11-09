@@ -51,6 +51,19 @@
 **75X = RoX ของ set MDCU75** (ไฟล์ `Key 75C MCQ MEQ` ชื่อเดิม "AC MCQ+MEQ Medicine Rotate C"): ผู้ใช้ไม่รู้ว่ารุ่น 75 หรือ 74 และ rotation ไหน — ไม่ทับกับ 75C เลย · **ถ้าไฟล์ในอนาคตมีโจทย์ตรงกับ 75X หลายข้อ ให้ย้าย 75X เป็น rotation นั้นแล้วรวมตาม `kit/กติกาการรวมคีย์หลายปี.md`** (ตรงกันแค่ 1–2 ข้ออาจเป็นข้อซ้ำข้ามปี ให้ถามผู้ใช้ก่อน)
 หมายเหตุ 75: ไม่มีแถวที่ข้าม · OSCE 75A แถวซักประวัติหญิง 20 ปี กับ "ข้อ 13" รวมเป็นสถานีเดียว · ปากกาดำ/แดงขัดกันหลายข้อ: บันทึกทั้งคู่ใน key แล้วตัดสินตามหลักฐาน · ข้อที่ไม่ตามไฟล์: 75A MCQ 5, 11, 17 · 75B MCQ 6 · 75C MCQ 9 (5 ชม. → thrombectomy), 27 · 75X MCQ 9, 25, 69, 84 · 75D MCQ 33 (PRL 80 + ก้อน 3 ซม. → stalk effect → surgery), 44 · OSCE 75D ข้อ 8 (hint RBBB แต่รูปเป็น anterior STEMI), ข้อ 10 (ค่าพ่อ HbA/HbA2 สลับ แก้ตาม 75B ข้อ 7)
 
+ลงชุดที่หก 9 พ.ย. 2026: **Pugun RoX + Prac RoX** (3 ไฟล์ — ผู้ใช้ให้ถือเป็น "ปีแรกสุด" อยู่ท้ายสุดของรายการปี: set ไม่มีตัวเลข → YEAR = 0 · เรียง Pugun ก่อน Prac ตามลำดับไฟล์ข้อมูล)
+
+| ชุด | ไฟล์ | จำนวน |
+|---|---|---|
+| Pugun RoX (P'Pugun: Final call `IMPUGF` สไลด์ 115 หน้า วงคำตอบ+ลายมือ · Formative SOLUTION `IMPUGS` 26 หน้า ไฮไลต์คำตอบ+ลายมือ) | `data_b22.js`–`data_b27.js` | 114 |
+| Prac RoX (IM Practice Set — New Items `IMPRAC`, 50 ข้อ เฉลยพิมพ์หน้า 14–18) | `data_b28.js` (1–25), `data_b29.js` (26–50) | 50 |
+
+- Pugun: Final call Item 1–86 = Formative ข้อ 1–86 (ลำดับต่างกัน, ข้อความตรงกันยกเว้นคำพิมพ์ผิด) → ลงข้อเดียว เฉลยดูจากทั้งสองไฟล์ · "Recent item" 27 สไลด์ (มีใน Final call อย่างเดียว) ลงแยกทุกข้อ · Final call Item 13 (VF บรรยายใน stem) ≠ Formative ข้อ 12 (VF ให้ดูรูป) → 2 ข้อ (orig 19, 20) · orig = ลำดับในไฟล์ Final call (ข้ามหน้า 5 "Dermatology High-Yield Keywords" = สไลด์สอน ไม่ใช่โจทย์) · gray บอก Item/ข้อ ของทั้งสองไฟล์
+- ไฟล์ Pugun 2 ไฟล์ให้คำตอบต่างกัน: orig 12 (Final call B patch test / Formative E Tzanck → E), 77 (C / A → A reactive arthritis), 84 (A / E → A bisphosphonate + calcitonin), 89 (A CKD G2 / "No CKD" → No CKD) · ไม่ตามคีย์: orig 71 (Formative diclofenac → colchicine, ischemic cardiomyopathy) · รายละเอียดใน opinion (⚠)
+- ⚠ ขัดกับคลังเดิม: Pugun orig 83 (prolactinoma 2.3 ซม. PRL 80 → bromocriptine ตามคีย์) vs MDCU75 RoD ข้อ 33 (→ surgery, stalk effect) — รอผู้ใช้ตัดสิน
+- รูปโจทย์ `img/mmpug_<orig>` · รูปเฉลย (kimg.js): `mkpug_<orig>` = สไลด์ Final call ทั้งหน้า, `mkpugf_<ข้อ Formative>` = ครอปข้อนั้น, `mkprac_<ข้อ>` = ครอปเฉลย · ไม่มีรูปในไฟล์: Pugun orig 5 (urticaria "photograph"), 67 (OSA "equipment" — น่าจะ CPAP)
+- `tools/seen2dups.js` รับ set ชื่อ Pugun / Prac แล้ว (`Pugun RoX ข้อ N`)
+
 ## ค้าง: ข้อ "ซ้ำ AC" ที่ยังไม่มีปีต้นทาง (กติกา 1 พ.ย. 2026)
 - ดึงแล้ว: 78A MEQ ข้อ 1 (= 77A ข้อ 2), 78A MEQ ข้อ 2 (= 77B ข้อ 1), 78C MEQ ข้อ 2 (= 77A ข้อ 1) → `meq_b2.js` · OSCE 78A/78C ข้อ 6 = 77B ข้อ 1 (seen)
 - ดึงแล้ว (ชุด 76): 78C MEQ ข้อ 1 และ 78D MEQ ข้อ 1 = ซ้ำ AC **76B ข้อ 2** → สำเนาใน `meq_b6.js` · 79B MEQ ข้อ 1, 2 "ตรงแอค" = 77A ข้อ 2 (PTB + CXR) + 77B ข้อ 1 (tamponade + EKG) คู่เดียวกับ 78A → ดึงแล้วใน `meq_b5.js` · 77D MEQ ข้อ 2 น่าจะ = 76B ข้อ 2 (ใส่ seen)
