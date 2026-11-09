@@ -494,7 +494,7 @@ function mqIn(){const v=W_()?mqS().v:null;let h=`<div class="mqv"><div class="wh
   {const b=$("mqBack");if(b)b.onclick=()=>mqToWeb(MQIN.u);}
   if(MQPEND&&MQPEND.w===ward){const o=MQPEND;MQPEND=null;mqApply(o);}}
 async function mqImport(t){const m=/MQ\.([zj]\.[A-Za-z0-9_-]+)/.exec(String(t||""));if(!m)throw 0;const o=JSON.parse(await unpackStr(m[1]));
-  if(!o||!WARDS[o.w]||!o.r||typeof o.r!=="object")throw 0;PWof(st,o.w).type=o.k==="OSCE"?"OSCE":"MEQ";if(o.w!==ward){MQPEND=o;go(o.w+"/mqin");return;}mqApply(o);}
+  if(!o||!WARDS[o.w]||!o.r||typeof o.r!=="object")throw 0;await loadWard(o.w);PWof(st,o.w).type=o.k==="OSCE"?"OSCE":"MEQ";if(o.w!==ward){MQPEND=o;go(o.w+"/mqin");return;}mqApply(o);}
 function mqApply(o){st.phase=o.p===2?2:1;const L=mqL(o.w),A=mqA(),got=[];mqVset({ctx:"set",r:"service"});
   Object.keys(o.r).forEach(u=>{const q=L.find(x=>x.uid===u),inc=o.r[u];if(!q||!inc)return;const x=A[u]||(A[u]={t:{},g:{},gm:{},c:{},cs:{},ps:0,sd:{},ts:0});
     q.subs.forEach(s=>{const i=s._i,nt=(inc.t||{})[i];if(nt!==undefined&&nt!==(x.t||{})[i]){x.t=x.t||{};x.t[i]=nt;if(x.ai)delete x.ai[i];if(x.gm)delete x.gm[i];}});
@@ -513,7 +513,7 @@ async function mqToWeb(uids){const A=mqA(),recs={};uids.forEach(u=>{if(A[u])recs
 /* website side: receive #meq= */
 function mqCheckImport(){const m=/[#&]meq=([zj]\.[A-Za-z0-9_-]+)/.exec(location.hash||"");if(!m)return false;
   try{history.replaceState(null,"",location.pathname+location.search+"#/");}catch(e){location.hash="#/";}
-  (async()=>{try{const o=JSON.parse(await unpackStr(m[1]));if(!o||!WARDS[o.w]||!o.r)throw 0;const p=o.p===2?2:1,K=o.k==="OSCE"?"OSCE":"MEQ",PW=PWof(st,o.w);PW.type=K;const A=mqInitP(PW,K)["a"+p],L=mqL(o.w,K);let n=0,last=null;
+  (async()=>{try{const o=JSON.parse(await unpackStr(m[1]));if(!o||!WARDS[o.w]||!o.r)throw 0;await loadWard(o.w);const p=o.p===2?2:1,K=o.k==="OSCE"?"OSCE":"MEQ",PW=PWof(st,o.w);PW.type=K;const A=mqInitP(PW,K)["a"+p],L=mqL(o.w,K);let n=0,last=null;
     for(const u in o.r){const q=L.find(x=>x.uid===u),inc=o.r[u];if(!q||!inc)continue;const x=A[u];
       if(!x||(inc.ts||0)>=(x.ts||0))A[u]=Object.assign({},inc,{ts:now()});else{x.ai=Object.assign({},x.ai||{},inc.ai||{});x.ts=now();}n++;last=u;}
     st.phase=p;save();toast(`รับผลตรวจจาก Claude แล้ว ${n} ข้อ`);

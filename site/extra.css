@@ -1040,3 +1040,6 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 .mqv .sttab td.sth3{background:color-mix(in srgb,var(--form) 38%,var(--sheet))}
 .mqv .sttab td.sth4{background:color-mix(in srgb,var(--form) 52%,var(--sheet));font-weight:700}
 .mqv .sttab tfoot th,.mqv .sttab tfoot td{font-weight:700;border-top:2px solid var(--rule);border-bottom:0}
+/* ---------- opening a ward: its exam data loads on demand ---------- */
+.wload .wlbar{height:8px;border-radius:99px;background:var(--rule);overflow:hidden;margin:10px 0 8px}
+.wload .wlbar span{display:block;height:100%;width:0;background:var(--form);transition:width .2s}

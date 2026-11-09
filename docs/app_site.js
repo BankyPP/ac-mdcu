@@ -496,7 +496,7 @@ function mqIn(){const v=W_()?mqS().v:null;let h=`<div class="mqv"><div class="wh
   {const b=$("mqBack");if(b)b.onclick=()=>mqToWeb(MQIN.u);}
   if(MQPEND&&MQPEND.w===ward){const o=MQPEND;MQPEND=null;mqApply(o);}}
 async function mqImport(t){const m=/MQ\.([zj]\.[A-Za-z0-9_-]+)/.exec(String(t||""));if(!m)throw 0;const o=JSON.parse(await unpackStr(m[1]));
-  if(!o||!WARDS[o.w]||!o.r||typeof o.r!=="object")throw 0;PWof(st,o.w).type=o.k==="OSCE"?"OSCE":"MEQ";if(o.w!==ward){MQPEND=o;go(o.w+"/mqin");return;}mqApply(o);}
+  if(!o||!WARDS[o.w]||!o.r||typeof o.r!=="object")throw 0;await loadWard(o.w);PWof(st,o.w).type=o.k==="OSCE"?"OSCE":"MEQ";if(o.w!==ward){MQPEND=o;go(o.w+"/mqin");return;}mqApply(o);}
 function mqApply(o){st.phase=o.p===2?2:1;const L=mqL(o.w),A=mqA(),got=[];mqVset({ctx:"set",r:"service"});
   Object.keys(o.r).forEach(u=>{const q=L.find(x=>x.uid===u),inc=o.r[u];if(!q||!inc)return;const x=A[u]||(A[u]={t:{},g:{},gm:{},c:{},cs:{},ps:0,sd:{},ts:0});
     q.subs.forEach(s=>{const i=s._i,nt=(inc.t||{})[i];if(nt!==undefined&&nt!==(x.t||{})[i]){x.t=x.t||{};x.t[i]=nt;if(x.ai)delete x.ai[i];if(x.gm)delete x.gm[i];}});
@@ -515,7 +515,7 @@ async function mqToWeb(uids){const A=mqA(),recs={};uids.forEach(u=>{if(A[u])recs
 /* website side: receive #meq= */
 function mqCheckImport(){const m=/[#&]meq=([zj]\.[A-Za-z0-9_-]+)/.exec(location.hash||"");if(!m)return false;
   try{history.replaceState(null,"",location.pathname+location.search+"#/");}catch(e){location.hash="#/";}
-  (async()=>{try{const o=JSON.parse(await unpackStr(m[1]));if(!o||!WARDS[o.w]||!o.r)throw 0;const p=o.p===2?2:1,K=o.k==="OSCE"?"OSCE":"MEQ",PW=PWof(st,o.w);PW.type=K;const A=mqInitP(PW,K)["a"+p],L=mqL(o.w,K);let n=0,last=null;
+  (async()=>{try{const o=JSON.parse(await unpackStr(m[1]));if(!o||!WARDS[o.w]||!o.r)throw 0;await loadWard(o.w);const p=o.p===2?2:1,K=o.k==="OSCE"?"OSCE":"MEQ",PW=PWof(st,o.w);PW.type=K;const A=mqInitP(PW,K)["a"+p],L=mqL(o.w,K);let n=0,last=null;
     for(const u in o.r){const q=L.find(x=>x.uid===u),inc=o.r[u];if(!q||!inc)continue;const x=A[u];
       if(!x||(inc.ts||0)>=(x.ts||0))A[u]=Object.assign({},inc,{ts:now()});else{x.ai=Object.assign({},x.ai||{},inc.ai||{});x.ts=now();}n++;last=u;}
     st.phase=p;save();toast(`รับผลตรวจจาก Claude แล้ว ${n} ข้อ`);
@@ -1903,7 +1903,10 @@ const YEAR=q=>parseInt(String(q.set).replace(/\D/g,""))||0;
 const ROK=r=>{r=String(r||"");let m=/^Ro?([A-Z])(\d*)$/.exec(r);if(m)return [0,m[1].charCodeAt(0),+m[2]||0];m=/^Ro?(\d+)$/.exec(r);if(m)return [1,+m[1],0];return [2,0,0];};
 const cmpRo=(a,b)=>{const x=ROK(a.ro),y=ROK(b.ro);return x[0]-y[0]||x[1]-y[1]||x[2]-y[2];};
 const setKey=q=>q.set+" "+q.ro;
-WL.forEach(w=>{
+/* a ward's exam data (data_<ward>*.js) loads only when that ward is opened (website build: WSRC lists its files) — the ward list needs only the shell (~300 KB instead of 40 MB+) · artifact/inline builds have every ward already loaded */
+const WLOAD=typeof WSRC!=="undefined"&&WSRC?WSRC:null,WLOADED={},WPEND={};
+const wLoaded=id=>!WLOAD||!WLOAD[id]||!!WLOADED[id];
+function initWard(w){
   const W=WARDS[w.id]||(WARDS[w.id]={QB:[]});W.cfg=w;
   /* q.notice = a "ข้อ 0" page of a set (e.g. YUZU resignation form): shown only in the Service round of that set, never counted, never in other rounds */
   W.NOTE=W.QB.filter(q=>q.notice);W.QB=W.QB.filter(q=>!q.notice);const QB=W.QB;
@@ -1930,7 +1933,28 @@ WL.forEach(w=>{
   if(W.IO&&Array.isArray(W.IO.docs)){const KO={L:0,R:1,T:2,N:3};W.IO.docs.sort((a,b)=>((KO[a.kind]??9)-(KO[b.kind]??9))||numCmp(numKey(a.code),numKey(b.code)));}
   W.byLec={};
   W.UNIT.forEach(Lc=>{W.byLec[Lc.id]=Lc;Lc.QB.forEach((q,i)=>{q.unit=Lc.id;q.n=q.n||i+1;q.id="U"+q.n;q.set=Lc.short||Lc.title;q.ro="Unit";q.uid="U|"+Lc.id+"|"+q.n;W.byU[q.uid]=q;});});
-});
+}
+WL.forEach(w=>{if(wLoaded(w.id))initWard(w);else WARDS[w.id]={QB:[],cfg:w};});
+/* fetch a ward's files (progress via onProg(0..1)), run them in order, then index the ward like at startup */
+function loadWard(id,onProg){
+  if(wLoaded(id))return Promise.resolve();if(WPEND[id])return WPEND[id].p;
+  const files=WLOAD[id]||[],tot=files.reduce((a,f)=>a+(f.s||0),0)||1;let got=0;const ctl={cb:onProg};
+  const tick=()=>{if(ctl.cb)ctl.cb(Math.min(1,got/tot));};
+  const one=async f=>{const r=await fetch(f.u);if(!r.ok)throw new Error("HTTP "+r.status);
+    if(!r.body||!r.body.getReader){const t=await r.text();got+=f.s||0;tick();return t;}
+    const rd=r.body.getReader(),ch=[];let n=0;for(;;){const x=await rd.read();if(x.done)break;ch.push(x.value);n+=x.value.length;got+=x.value.length;tick();}
+    const u=new Uint8Array(n);let o=0;ch.forEach(c=>{u.set(c,o);o+=c.length;});return new TextDecoder().decode(u);};
+  const run=t=>new Promise((ok,no)=>{const sc=document.createElement("script"),url=URL.createObjectURL(new Blob([t],{type:"text/javascript"}));
+    sc.src=url;sc.onload=()=>{URL.revokeObjectURL(url);sc.remove();ok();};sc.onerror=()=>{URL.revokeObjectURL(url);no(new Error("script"));};document.head.appendChild(sc);});
+  ctl.p=(async()=>{try{const txt=await Promise.all(files.map(one));for(const t of txt)await run(t);
+      const w=WL.find(x=>x.id===id);initWard(w);WLOADED[id]=1;
+      try{const W=WARDS[id];localStorage.setItem("acwc-"+id,JSON.stringify({MCQ:W.QB.length,MEQ:(W.MQ||[]).length,OSCE:(W.OS||[]).length,unit:(W.UNIT||[]).reduce((a,L)=>a+L.QB.length,0)}));}catch(e){}}
+    finally{delete WPEND[id];}})();
+  WPEND[id]=ctl;return ctl.p;}
+const loadAll=()=>Promise.all(WL.map(w=>loadWard(w.id)));
+/* question counts for the ward list without loading the ward: built-in counts (WCOUNT, from the build) or the last count seen on this device */
+const wCnt=id=>{const W=WARDS[id];if(wLoaded(id))return {MCQ:W.QB.length,MEQ:(W.MQ||[]).length,OSCE:(W.OS||[]).length,unit:(W.UNIT||[]).reduce((a,L)=>a+((L&&L.QB)||[]).length,0)};
+  return (typeof WCOUNT!=="undefined"&&WCOUNT&&WCOUNT[id])||(()=>{try{return JSON.parse(localStorage.getItem("acwc-"+id)||"null");}catch(e){return null;}})()||{MCQ:0,MEQ:0,OSCE:0,unit:0};};
 
 /* ---------------- state ---------------- */
 const KEY=(CFG.storageKey||"mcq-bank")+"-site-v3", IKEY=KEY+"-ink";
@@ -1973,9 +1997,9 @@ const BKEY=KEY+"-bank";let bank=ld(BKEY)||{};const bankDirty=new Set();let bankT
 function bankPut(k,v){v.ts=now();if(!v.c)v.c=v.ts;bank[k]=v;try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}cloudBank(k);}
 const bankItems=(kind,w)=>{const pre=kind+"|"+w+"|";return Object.keys(bank).filter(k=>k.startsWith(pre)).map(k=>Object.assign({key:k},bank[k])).sort((a,b)=>(a.c||0)-(b.c||0));};
 /* question counts per ward: old exams, Unit round, AI banks (own + shared, by uid) — shown on the ward list, ward home and each round box */
-const unitN=wid=>((WARDS[wid]||{}).UNIT||[]).reduce((a,L)=>a+((L&&L.QB)||[]).length,0);
+const unitN=wid=>wLoaded(wid)?((WARDS[wid]||{}).UNIT||[]).reduce((a,L)=>a+((L&&L.QB)||[]).length,0):wCnt(wid).unit;
 const aiN=(kind,wid)=>{const s=new Set();bankItems(kind,wid).forEach(x=>{if(x.q&&x.q.uid&&Array.isArray(x.q.opts))s.add(x.q.uid);});(typeof SHARED!=="undefined"&&SHARED[wid]||[]).forEach(x=>{if(x.kind===kind&&x.q&&x.q.uid)s.add(x.q.uid);});return s.size;};
-const totalN=wid=>((WARDS[wid]||{}).QB||[]).length+unitN(wid)+aiN("adm",wid)+aiN("spc",wid)+aiN("lai",wid);
+const totalN=wid=>(wLoaded(wid)?((WARDS[wid]||{}).QB||[]).length:wCnt(wid).MCQ)+unitN(wid)+aiN("adm",wid)+aiN("spc",wid)+aiN("lai",wid);
 function bankMerge(o){const ks=[];for(const k in o||{}){if(!bank[k]||(o[k].ts||0)>(bank[k].ts||0)){bank[k]=o[k];ks.push(k);}}try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){}return ks;}
 function saveInk(k){if(ink[k])ink[k].ts=now();try{localStorage.setItem(IKEY,JSON.stringify(ink));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม — ลบรูปที่เขียนบางข้อออก");}cloudInk(k);}
 
@@ -2031,6 +2055,7 @@ function route(){
   if(h.w==="signin"){ward=null;return show("signin");}
   if(h.w==="grades"){ward=null;return show("grades");}
   if(!h.w||!WARDS[h.w]||!WL.some(x=>x.id===h.w)){if(QR)qStop();ward=null;return show("wards");}
+  if(!wLoaded(h.w))return rWardLoad(h.w);
   if(QR&&QR.ward!==h.w)qStop();
   ward=h.w;qRestore();
   let v=h.v||"home";
@@ -2069,8 +2094,14 @@ $("homeBtn").onclick=()=>{if(view==="home"||!ward)go("");else go(ward);};
 
 /* ---------------- wards ---------------- */
 /* ward list: old-exam (AC) questions per exam type — MCQ = W.QB, MEQ = W.MQ, OSCE = W.OS (none yet); types the ward has no exam for are skipped */
-function acCounts(w){const W=WARDS[w.id]||{},no=w.noExam||[],c={MCQ:(W.QB||[]).length,MEQ:mqL(w.id,"MEQ").length,OSCE:(W.OS||[]).length};
+function acCounts(w){const no=w.noExam||[],c=wLoaded(w.id)?{MCQ:(WARDS[w.id].QB||[]).length,MEQ:mqL(w.id,"MEQ").length,OSCE:(WARDS[w.id].OS||[]).length}:wCnt(w.id);
   const t=["MCQ","MEQ","OSCE"].filter(k=>!no.includes(k));return `<span class="acn"><span class="acl">ข้อสอบเก่า AC</span>${t.map(k=>`<span class="act${c[k]?"":" z"}">${k} <b>${c[k]}</b></span>`).join("")}</span>`;}
+/* opening a ward whose exam data isn't loaded yet: progress bar, then the page asked for */
+function rWardLoad(id){const w=WL.find(x=>x.id===id);ward=null;view="load";
+  ["nav","openSheet"].forEach(k=>{$(k).hidden=true;});$("homeBtn").hidden=false;$("brand").textContent=CFG.siteName||CFG.title||"คลังข้อสอบเก่า";
+  $("main").innerHTML=`<div class="card wload"><h3>กำลังโหลดข้อสอบ ${esc(w.name)}</h3><div class="wlbar"><span id="wlBar"></span></div><span class="rd" id="wlTxt">ครั้งแรกอาจใช้เวลาสักครู่ ครั้งต่อไปจะเปิดเร็วขึ้น</span></div>`;
+  loadWard(id,f=>{const b=$("wlBar");if(b)b.style.width=Math.round(f*100)+"%";}).then(()=>{if(parseHash().w===id)route();},()=>{
+    if(parseHash().w!==id)return;$("main").innerHTML=`<div class="card"><h3>โหลดข้อสอบ ${esc(w.name)} ไม่สำเร็จ</h3><span class="rd">ตรวจอินเทอร์เน็ตแล้วลองใหม่</span><button class="btn primary" id="wlRetry" type="button">ลองใหม่</button></div>`;$("wlRetry").onclick=()=>route();});}
 function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
   if(SUBJ.length)h+=`<button class="grline" id="toGrades" type="button">📊 <b>สรุปเกรด</b>${(()=>{const L_=SUBJ.map(S=>{const G=(st.grades||{})[S.id]||{},g=GPARTS.map(([k])=>G[k]||"–");return g.some(x=>x!=="–")?`${esc(S.name)} ${g.map(esc).join("/")}`:"";}).filter(Boolean);return L_.length?`<span>${L_.join(" · ")}</span>`:`<span>ยังไม่ได้ใส่เกรด</span>`;})()}<span class="go">→</span></button>${SUBJ.some(S=>GPARTS.some(([k])=>((st.grades||{})[S.id]||{})[k]))&&!G1?`<p class="hint" style="margin:-8px 0 12px">เรียง Theory / Competency / Performance</p>`:""}`;
@@ -2397,7 +2428,7 @@ function rLaunch(){
   const it=(v,t,d,b)=>`<button class="resume" data-lv="${v}"><span>${b?`<span class="lbadge">${b}</span>`:""}<b>${t}</b><span class="rd">${d}</span></span><span class="go">→</span></button>`;
   const nAdm=bankItems("adm",ward).length,nLc=bankItems("lc",ward).length;
   let h=`<div class="whead"><h1 class="h2">จะไปหน้าไหน?</h1><a href="#/">เปลี่ยนวอร์ด</a></div><p class="sub" style="margin:0 0 12px">${esc(w.name)} · หน้าที่ต้องใช้ AI เปิดใน Claude ได้เลย</p><div class="stack" style="margin-top:0">`;
-  if(WL.some(x=>mqL(x.id).length))h+=it("mqin","ตรวจคำตอบ MEQ จากเว็บ","วางรหัสที่คัดลอกจากเว็บ แล้วให้ Claude ประเมินทุก Part","MEQ");
+  if(WL.some(x=>wLoaded(x.id)?mqL(x.id).length:(wCnt(x.id).MEQ||wCnt(x.id).OSCE)))h+=it("mqin","ตรวจคำตอบ MEQ จากเว็บ","วางรหัสที่คัดลอกจากเว็บ แล้วให้ Claude ประเมินทุก Part","MEQ");
   h+=it("adm","Admission round",`เคสใหม่ที่ AI สร้างให้ทีละข้อ${nAdm?` · คลังของคุณมี ${nAdm} เคส`:""}`);
   h+=it("spc","Specialty round",`โจทย์ใหม่จากไฟล์ของวอร์ด เลือกเรื่อง / R / T / N ได้${bankItems("spc",ward).length?` · คลังของคุณมี ${bankItems("spc",ward).length} ข้อ`:""}`);
   h+=it("lcase","Long case",`AI ให้ chief complaint แล้วดำเนินเคสทีละขั้น${nLc?` · ทำไปแล้ว ${nLc} เคส`:""}`);
@@ -3764,7 +3795,7 @@ function legSubmit(wid,auto,nav){
   if(ward===wid&&(nav||["exam","legend","lres"].includes(view)))go(wid+"/lres");
   else{toast("หมดเวลา Legendary round — ระบบส่งข้อสอบให้แล้ว ดูผลได้ที่ Legendary round");if(view==="home"&&ward===wid)rHome();}
 }
-setInterval(()=>{WL.forEach(w=>{const P=st.w[w.id];if(P&&P.leg&&now()>=P.leg.end)legSubmit(w.id,true);});paintLegBan();const el=$("exT");if(el&&view==="exam"&&P_().leg){const left=P_().leg.end-now();el.textContent=hms(left);el.classList.toggle("low",left<5*60e3);}},1000);
+setInterval(()=>{WL.forEach(w=>{const P=st.w[w.id];if(P&&P.leg&&now()>=P.leg.end){if(!wLoaded(w.id)){loadWard(w.id).catch(()=>{});return;}legSubmit(w.id,true);}});paintLegBan();const el=$("exT");if(el&&view==="exam"&&P_().leg){const left=P_().leg.end-now();el.textContent=hms(left);el.classList.toggle("low",left<5*60e3);}},1000);
 function legSheet(){
   const W=W_(),X=legPaper(),ex=view==="exam",f=st.legF||"all";
   $("sheetTitle").textContent=ex?"กระดาษคำตอบ · Legendary round":`กระดาษคำตอบ · เกรด ${gradeOf(X.pct)}`;$("setChips").innerHTML="";
@@ -4055,7 +4086,7 @@ function applyAll(data,replace){let t=now();
   save();}
 function shareLink(link,title){(async()=>{if(navigator.share){try{await navigator.share({title,url:link});return;}catch(e){if(e&&e.name==="AbortError")return;}}
   try{await navigator.clipboard.writeText(link);uiAlert("คัดลอกลิงก์ความคืบหน้าแล้ว — เปิดลิงก์นี้บนเครื่องใหม่เพื่อนำความคืบหน้าไปด้วย");}catch(e){uiCopy("คัดลอกลิงก์นี้ไปเปิดบนเครื่องใหม่:",link);}})();}
-function exportLink(){const d=encodeAll();if(!d){uiAlert("ยังไม่มีคำตอบให้ส่ง");return;}
+async function exportLink(){try{await loadAll();}catch(e){uiAlert("โหลดข้อสอบไม่ครบ ตรวจอินเทอร์เน็ตแล้วลองใหม่");return;}const d=encodeAll();if(!d){uiAlert("ยังไม่มีคำตอบให้ส่ง");return;}
   if(!SITE){const code="AC-PROGRESS:"+d;(async()=>{try{await navigator.clipboard.writeText(code);uiAlert("คัดลอกรหัสความคืบหน้าแล้ว — บนเครื่องใหม่กด \"นำเข้าลิงก์ / รหัส\" แล้ววางรหัสนี้");}catch(e){uiCopy("คัดลอกรหัสนี้ไปวางบนเครื่องใหม่ (ปุ่มนำเข้าลิงก์ / รหัส):",code);}})();return;}
   shareLink(SITE+"#all="+d,"ความคืบหน้า "+(CFG.siteName||""));}
 /* older single-phase links: #p=[ward.]<hash7+answer>… (also made by the artifact in Claude) */
@@ -4064,6 +4095,7 @@ function applyImport(w,o){const P=PWof(st,w),p=ph(),t=now();let n=0;Object.keys(
 const askMode=n=>uiAsk(`นำเข้าความคืบหน้า ${n} ข้อ (ทุกวอร์ด ทุก Phase)\n\nกด OK = รวมกับของเครื่องนี้ (ข้อไหนทำในเครื่องนี้มากกว่า จะเก็บของเครื่องนี้ไว้)\nกด Cancel = ไม่นำเข้า`);
 function afterImport(){toast("นำเข้าเรียบร้อย");route();}
 async function importText(c){
+  try{await loadAll();}catch(e){uiAlert("โหลดข้อสอบไม่ครบ ตรวจอินเทอร์เน็ตแล้วลองใหม่");return;}
   const a=/(?:[#&]all=|AC-PROGRESS:)([0-9a-z:,~!_-]*)/.exec(c);
   if(a){const r=decodeAll(a[1]);if(!r.n){uiAlert("ลิงก์ไม่ถูกต้อง หรือไม่ตรงกับข้อในคลังนี้");return;}if(await askMode(r.n)){applyAll(r.data,false);afterImport();}return;}
   const m=/[#&]p=(?:([a-z0-9_-]+)\.)?([0-9a-z]+)/.exec(c);let o={},w=ward||WL[0].id;

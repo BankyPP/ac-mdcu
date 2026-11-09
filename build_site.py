@@ -61,6 +61,7 @@ js.append('const CONFIG='+json.dumps(cfg,ensure_ascii=False)+';')
 import datetime
 js.append('const BUILD='+json.dumps(datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=7))).strftime('%d/%m/%Y %H:%M'))+';')
 total=0
+wmap={}   # SPLIT website: ward id → its data files, loaded only when the ward is opened (site/app.js loadWard)
 wsrc=[]   # SPLIT: each ward's data goes to its own data_<ward>.js next to the page (an artifact page is capped at 16MB)
 for w in cfg.get('wards',[]):
     wid=json.dumps(w['id']); d=J(w.get('dir','data'))
@@ -105,7 +106,7 @@ for w in cfg.get('wards',[]):
             chunks[-1].append(part); sz+=n
         for i,ch in enumerate(chunks):
             fn=base+('' if i==0 else '_%d'%(i+1))+'.js'
-            open(os.path.join(OUT,fn),'w',encoding='utf-8').write('\n'.join(ch)+'\n'); wsrc.append(fn)
+            open(os.path.join(OUT,fn),'w',encoding='utf-8').write('\n'.join(ch)+'\n'); wsrc.append(fn); wmap.setdefault(w['id'],[]).append(fn)
         del js[j0:]
 LOADERR="document.body.insertAdjacentHTML('afterbegin','<p style=&quot;margin:0;padding:12px 16px;background:#b3261e;color:#fff;text-align:center&quot;>โหลดข้อสอบไม่ครบ กรุณารีเฟรชหน้านี้</p>')"
 appjs=open('site/app.js',encoding='utf-8').read().replace('"use strict";\n','"use strict";\n'+open('site/meq.js',encoding='utf-8').read()+'\n'+open('site/osce.js',encoding='utf-8').read()+'\n'+open('site/io.js',encoding='utf-8').read()+'\n'+open('site/spc.js',encoding='utf-8').read()+'\n'+open('site/hysum.js',encoding='utf-8').read()+'\n'+(open('site/teach_data.js',encoding='utf-8').read() if os.path.exists('site/teach_data.js') else '')+'\n'+open('site/teach.js',encoding='utf-8').read()+'\n',1)
@@ -118,9 +119,29 @@ if SPLIT and not PACK:   # website: the page holds only its shell, so an extensi
     core='\n'.join(x for x in js if not x.startswith('const BUILD='))+'\n'   # BUILD stays in the page so core_site.js only changes when its content does
     for fn,txt in (('site.css',css),('core_site.js',core),('app_site.js',appjs+'\n')): open(os.path.join(OUT,fn),'w',encoding='utf-8').write(txt)
     build=[x for x in js if x.startswith('const BUILD=')][0]
+    # lazy wards (9 Nov 2026): the page loads only core + app; each ward's data_<ward>*.js is fetched when that ward is opened, so the ward list shows at once on phones
+    # (all wards together were ~44 MB of script = ~11 MB download + parsing everything before the first screen). WCOUNT = question counts for the ward list, from node if available.
+    wsrcj={wid:[{'u':SRC(fn),'s':os.path.getsize(os.path.join(OUT,fn))} for fn in fns] for wid,fns in wmap.items()}
+    wcount={}
+    try:
+        import subprocess
+        CNT=r'''const vm=require("vm"),fs=require("fs"),[out,...fs_]=process.argv.slice(1),c={WARDS:{},IMGS:{},console};vm.createContext(c);
+for(const f of fs_)vm.runInContext(fs.readFileSync(f,"utf8"),c,{filename:f});const r={};
+for(const id in c.WARDS){const W=c.WARDS[id];r[id]={MCQ:(W.QB||[]).filter(q=>!q.notice).length,MEQ:(W.MQ||[]).length,OSCE:(W.OS||[]).length,
+unit:(W.UNIT||[]).filter(x=>x&&x.id&&Array.isArray(x.QB)).reduce((a,L)=>a+L.QB.length,0)};}console.log(JSON.stringify(r));'''
+        for wid,fns in wmap.items():
+            o=subprocess.run(['node','-e',CNT,'x']+[os.path.join(OUT,fn) for fn in fns],capture_output=True,text=True,timeout=300)
+            if o.returncode==0: wcount.update(json.loads(o.stdout))
+            else: print('WCOUNT: node failed for',wid,o.stderr[:300])
+    except Exception as e: print('WCOUNT skipped (no node?)',e)
+    lazy='const WSRC='+json.dumps(wsrcj)+';const WCOUNT='+json.dumps(wcount)+';'
+    # service worker (sw.js next to the page): versioned files (?v=) come from this phone's cache after the first visit; the page itself always asks the network first
+    open(os.path.join(OUT,'sw.js'),'w',encoding='utf-8').write(open('site/sw.js',encoding='utf-8').read())
     out=(head[:head.index('<style>')]+f'<link rel="stylesheet" href="{SRC("site.css",css)}">\n</head>\n<body>\n'
          +body.replace('/*TITLE*/',html.escape(title))
-         +'\n<script>'+build+'</script>\n'+TAG(SRC('core_site.js',core))+wtags+TAG(SRC('app_site.js',appjs+'\n'))+'</body>\n</html>\n')
+         +'\n<script>'+build+lazy+'</script>\n'+TAG(SRC('core_site.js',core))+TAG(SRC('app_site.js',appjs+'\n'))
+         +'<script>if("serviceWorker" in navigator&&(location.protocol==="https:"||location.hostname==="localhost"))addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));</script>\n'
+         +'</body>\n</html>\n')
 else:
     out=(head+'</style>\n<style>\n'+extra+'</style>\n</head>\n<body>\n'
          +body.replace('/*TITLE*/',html.escape(title))
