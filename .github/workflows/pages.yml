@@ -1,11 +1,13 @@
-# Deploy docs/ to GitHub Pages with a longer deploy timeout.
-# The built-in "pages build and deployment" stops after 10 min of syncing_files; the site (~6.2k files, ~380 MB)
-# started hitting that limit on 10 Nov 2026. To use this workflow: Settings → Pages → Build and deployment → Source = "GitHub Actions".
-name: Deploy Pages (docs, 30-min timeout)
+# Deploy docs/ to GitHub Pages (Settings → Pages → Source = "GitHub Actions", switched 10 Nov 2026).
+# 10 Nov 2026: GitHub's Pages backend kept timing out (deployment_queued → syncing_files > 10 min, the hard maximum).
+# So this also runs every 30 min: it checks the live site's deployed-tree.txt and deploys only if the live site is not the newest docs/.
+name: Deploy Pages (docs)
 on:
   push:
     branches: [main]
     paths: ['docs/**']
+  schedule:
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 permissions:
   contents: read
@@ -13,7 +15,7 @@ permissions:
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   deploy:
     environment:
@@ -25,11 +27,18 @@ jobs:
         with:
           sparse-checkout: docs
           sparse-checkout-cone-mode: true
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - id: check
+        run: |
+          TREE=$(git rev-parse HEAD:docs)
+          LIVE=$(curl -fsS "https://bankypp.github.io/ac-mdcu/deployed-tree.txt?t=$(date +%s)" || true)
+          echo "docs tree $TREE · live $LIVE"
+          if [ "$TREE" = "$LIVE" ] && [ "${{ github.event_name }}" = "schedule" ]; then echo "skip=1" >> "$GITHUB_OUTPUT"; else echo "$TREE" > docs/deployed-tree.txt; fi
+      - if: steps.check.outputs.skip != '1'
+        uses: actions/configure-pages@v5
+      - if: steps.check.outputs.skip != '1'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - id: deployment
+      - if: steps.check.outputs.skip != '1'
+        id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          timeout: 1800000
