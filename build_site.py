@@ -37,16 +37,19 @@ def num(f):
     b=os.path.basename(f)[6:-3]
     return int(b) if b.isdigit() else 10**9
 packs={}
-if PACK:
+WEBSPR=SPLIT and not PACK and '--no-sprites' not in sys.argv   # website: images stacked into sprite sheets too (10 Nov 2026: ~6.2k files made the GitHub Pages deploy hit its 10-min syncing_files timeout) · sheets ≤ 8000 px tall for phones · ?v=<hash> so the service worker never shows a stale sheet
+if PACK or WEBSPR:
     from PIL import Image
     groups={}
     for k in imgs: groups.setdefault(re.sub(r'_[^_]*$','',k),[]).append(k)
     os.makedirs(os.path.join(OUT,'img'),exist_ok=True)
+    if WEBSPR:
+        for f in glob.glob(os.path.join(OUT,'img','*')): os.remove(f)   # drop single images / old sheets
     for g,ks in sorted(groups.items()):
         ims=[(k,Image.open(J(imgs[k])).convert('RGB')) for k in ks]
         sheets=[[]];h=0
         for k,im in ims:
-            if h+im.height>30000 and sheets[-1]: sheets.append([]);h=0
+            if h+im.height>(30000 if PACK else 8000) and sheets[-1]: sheets.append([]);h=0
             sheets[-1].append((k,im));h+=im.height
         for si,sh in enumerate(sheets):
             W=max(im.width for _,im in sh);H=sum(im.height for _,im in sh)
@@ -54,6 +57,9 @@ if PACK:
             for k,im in sh:
                 c.paste(im,(0,y));packs[k]={'p':fn,'w':im.width,'h':im.height,'W':W,'H':H,'y':y};y+=im.height
             c.save(os.path.join(OUT,fn),quality=82,optimize=True,progressive=True)
+            if WEBSPR:
+                v=hashlib.md5(open(os.path.join(OUT,fn),'rb').read()).hexdigest()[:8]
+                for k,_ in sh: packs[k]['p']=fn+'?v='+v
     imgs={k:packs[k] for k in imgs}
 js=['const IMGS={};const WARDS={};']
 if imgs: js.append('Object.assign(IMGS,'+json.dumps(imgs)+');')
@@ -153,6 +159,6 @@ out=re.sub(r'<title>.*?</title>','<title>'+html.escape(cfg.get('title',title))+'
 os.makedirs(os.path.join(OUT,'img'),exist_ok=True)
 open(os.path.join(OUT,'index.html'),'w',encoding='utf-8').write(out)
 open(os.path.join(OUT,'.nojekyll'),'w').close()
-if not PACK:
+if not PACK and not WEBSPR:
     for k,f in imgs.items(): shutil.copy(J(f),os.path.join(OUT,f))
-print('built',os.path.join(OUT,'index.html'),len(out.encode()),'bytes,',len(imgs),'images'+(' in %d sprite sheets'%len(set(v['p'] for v in packs.values())) if PACK else ''))
+print('built',os.path.join(OUT,'index.html'),len(out.encode()),'bytes,',len(imgs),'images'+(' in %d sprite sheets'%len(set(v['p'] for v in packs.values())) if packs else ''))

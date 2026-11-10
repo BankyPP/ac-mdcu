@@ -1179,7 +1179,7 @@ const HS_STY=[["case","Case"],["sa","Short answer"]];
 /* 📊 ตารางสถิติ (ผู้ใช้สั่ง 9 พ.ย. 2026 — ทุกวอร์ด ทุกเว็บ): หัวข้อใหญ่ → หัวข้อเล็ก/หัตถการย่อย (OSCE) → เรื่องย่อย
    นับจำนวนข้อ/สถานี (ไม่ซ้ำ) + % ของข้อสอบเก่าทั้งหมด + คอลัมน์ปี (ปีใหม่สุดซ้ายสุด) กดหัวปีเพื่อแตกเป็นราย Ro · แถวเปิดปิดได้ */
 function hsYr(q){return String(q.set||"—");}
-function hsYrNum(y){const m=String(y).match(/(\d+)/);return m?+m[1]:-1;}
+function hsYrNum(y){const i=typeof TOPSET!=="undefined"?TOPSET.indexOf(String(y)):-1;if(i>=0)return 1e5-i;const m=String(y).match(/(\d+)/);return m?+m[1]:-1;}
 function hsStatsHtml(type,its,TOP,OPEN){
   const caseW=type==="OSCE"?"สถานี":"ข้อ",uq=new Map();its.forEach(o=>{if(!uq.has(o.q.uid))uq.set(o.q.uid,o.q);});
   const TOT=uq.size;if(!TOT)return "";
@@ -1899,7 +1899,10 @@ const WL=(CFG.wards&&CFG.wards.length)?CFG.wards:[{id:"main",name:CFG.brand||"�
 /* each ward carries the study year it is taken in (config wards[].year, e.g. "Y4"; a Y5 subject is a new ward with "Y5") — appended to its names */
 WL.forEach(w=>{w.year=w.year||CFG.year||"";if(!w.year)return;const y=" "+w.year;if(!String(w.name).endsWith(y))w.name+=y;w.short=(w.short||w.id)+(String(w.short||"").endsWith(y)?"":y);});
 const wYear=()=>(ward&&WARDS[ward]&&WARDS[ward].cfg.year)||CFG.year||"";
-const YEAR=q=>parseInt(String(q.set).replace(/\D/g,""))||0;
+/* sets without a year that count as the NEWEST (above MDCU79) everywhere — in this order (user 10 Nov 2026: P’Pugun, then Prac) */
+const TOPSET=["P’Pugun","Prac"];
+const yrNum=s=>{const i=TOPSET.indexOf(String(s));return i>=0?1e5-i:(parseInt(String(s).replace(/\D/g,""))||0);};
+const YEAR=q=>yrNum(q.set);
 const ROK=r=>{r=String(r||"");let m=/^Ro?([A-Z])(\d*)$/.exec(r);if(m)return [0,m[1].charCodeAt(0),+m[2]||0];m=/^Ro?(\d+)$/.exec(r);if(m)return [1,+m[1],0];return [2,0,0];};
 const cmpRo=(a,b)=>{const x=ROK(a.ro),y=ROK(b.ro);return x[0]-y[0]||x[1]-y[1]||x[2]-y[2];};
 const setKey=q=>q.set+" "+q.ro;
