@@ -1876,7 +1876,7 @@ async function tCtaOrig(pid){const box=$("tcOrig");if(!box)return;const P=await 
 
 /* Flashcard decks (Teaching round › Flashcard) — theme copied from the Bug → Drug Drill artifact.
    card: k = image key in IMGS (img/<k>.jpg, picture only — no label), n = answer (name only), g = group index */
-const FLASH=[{"id": "sxinst", "inst": "mdcu", "wards": ["sx", "subspe"], "h1": ["Instrument", "Name Drill"], "sub": "เครื่องมือผ่าตัด 38 ชิ้น · จากไฟล์ Surgical instruments", "ask": "เครื่องมือนี้ชื่ออะไร?", "qask": "เครื่องมือนี้คือข้อไหน?", "front": "เครื่องมือ", "back": "ชื่อ", "mlabel": "จับคู่รูปกับชื่อเครื่องมือ", "groups": [{"name": "Clamps", "short": "Clamps"}, {"name": "Scissors · Scalpels", "short": "Scissors · Scalpels"}, {"name": "Forceps · Retractors", "short": "Forceps · Retractors"}, {"name": "Needles · Staplers & clips", "short": "Needles · Staplers"}, {"name": "Suctions · Energy system", "short": "Suctions · Energy"}, {"name": "Laparoscopic instruments", "short": "Laparoscopic"}], "cards": [{"k": "fsi_mosquito", "n": "Mosquito clamp", "g": 0}, {"k": "fsi_crile", "n": "Crile hemostat", "g": 0}, {"k": "fsi_kelly", "n": "Kelly hemostat", "g": 0}, {"k": "fsi_rochester", "n": "Rochester hemostat", "g": 0}, {"k": "fsi_tonsil", "n": "Tonsil clamp (Schnidt)", "g": 0}, {"k": "fsi_mixter", "n": "Mixter (right angle clamp)", "g": 0}, {"k": "fsi_allis", "n": "Allis clamp", "g": 0}, {"k": "fsi_babcock", "n": "Babcock clamp", "g": 0}, {"k": "fsi_kocher", "n": "Kocher (Ochsner) clamp", "g": 0}, {"k": "fsi_sponge", "n": "Sponge forceps", "g": 0}, {"k": "fsi_towel", "n": "Towel clamp", "g": 0}, {"k": "fsi_mayo", "n": "Mayo scissors", "g": 1}, {"k": "fsi_metzenbaum", "n": "Metzenbaum scissors", "g": 1}, {"k": "fsi_blade10", "n": "#10 blade", "g": 1}, {"k": "fsi_blade11", "n": "#11 blade", "g": 1}, {"k": "fsi_blade15", "n": "#15 blade", "g": 1}, {"k": "fsi_adson", "n": "Adson tissue forceps", "g": 2}, {"k": "fsi_tissue", "n": "Tissue forceps", "g": 2}, {"k": "fsi_armynavy", "n": "Army-Navy retractor", "g": 2}, {"k": "fsi_deaver", "n": "Deaver retractor", "g": 2}, {"k": "fsi_richardson", "n": "Richardson retractor", "g": 2}, {"k": "fsi_balfour", "n": "Balfour self-retaining retractor", "g": 2}, {"k": "fsi_thompson", "n": "Thompson self-retaining retractor", "g": 2}, {"k": "fsi_malleable", "n": "Malleable retractor", "g": 2}, {"k": "fsi_taper", "n": "Tapered needle", "g": 3}, {"k": "fsi_cutting", "n": "Conventional cutting needle", "g": 3}, {"k": "fsi_linstapler", "n": "Linear stapler", "g": 3}, {"k": "fsi_lincutter", "n": "Linear cutter", "g": 3}, {"k": "fsi_clips", "n": "Clips", "g": 3}, {"k": "fsi_poole", "n": "Poole suction tube", "g": 4}, {"k": "fsi_yankauer", "n": "Yankauer suction tube", "g": 4}, {"k": "fsi_bovie", "n": "Electrosurgical unit (Electrocautery)", "g": 4}, {"k": "fsi_harmonic", "n": "Ultrasonic (Harmonic) scalpel", "g": 4}, {"k": "fsi_insufflator", "n": "Insufflator", "g": 5}, {"k": "fsi_lightsource", "n": "Light source", "g": 5}, {"k": "fsi_trocar", "n": "Trocars", "g": 5}, {"k": "fsi_lapinst", "n": "Laparoscopic instruments", "g": 5}, {"k": "fsi_endostapler", "n": "Endostapler", "g": 5}]}];
+const FLASH=[{"id": "sxinst", "title": "Surgical Instruments", "inst": "mdcu", "wards": ["sx", "subspe"], "h1": ["Instrument", "Name Drill"], "sub": "เครื่องมือผ่าตัด 38 ชิ้น · จากไฟล์ Surgical instruments", "ask": "เครื่องมือนี้ชื่ออะไร?", "qask": "เครื่องมือนี้คือข้อไหน?", "front": "เครื่องมือ", "back": "ชื่อ", "mlabel": "จับคู่รูปกับชื่อเครื่องมือ", "groups": [{"name": "Clamps", "short": "Clamps"}, {"name": "Scissors · Scalpels", "short": "Scissors · Scalpels"}, {"name": "Forceps · Retractors", "short": "Forceps · Retractors"}, {"name": "Needles · Staplers & clips", "short": "Needles · Staplers"}, {"name": "Suctions · Energy system", "short": "Suctions · Energy"}, {"name": "Laparoscopic instruments", "short": "Laparoscopic"}], "cards": [{"k": "fsi_mosquito", "n": "Mosquito clamp", "g": 0}, {"k": "fsi_crile", "n": "Crile hemostat", "g": 0}, {"k": "fsi_kelly", "n": "Kelly hemostat", "g": 0}, {"k": "fsi_rochester", "n": "Rochester hemostat", "g": 0}, {"k": "fsi_tonsil", "n": "Tonsil clamp (Schnidt)", "g": 0}, {"k": "fsi_mixter", "n": "Mixter (right angle clamp)", "g": 0}, {"k": "fsi_allis", "n": "Allis clamp", "g": 0}, {"k": "fsi_babcock", "n": "Babcock clamp", "g": 0}, {"k": "fsi_kocher", "n": "Kocher (Ochsner) clamp", "g": 0}, {"k": "fsi_sponge", "n": "Sponge forceps", "g": 0}, {"k": "fsi_towel", "n": "Towel clamp", "g": 0}, {"k": "fsi_mayo", "n": "Mayo scissors", "g": 1}, {"k": "fsi_metzenbaum", "n": "Metzenbaum scissors", "g": 1}, {"k": "fsi_blade10", "n": "#10 blade", "g": 1}, {"k": "fsi_blade11", "n": "#11 blade", "g": 1}, {"k": "fsi_blade15", "n": "#15 blade", "g": 1}, {"k": "fsi_adson", "n": "Adson tissue forceps", "g": 2}, {"k": "fsi_tissue", "n": "Tissue forceps", "g": 2}, {"k": "fsi_armynavy", "n": "Army-Navy retractor", "g": 2}, {"k": "fsi_deaver", "n": "Deaver retractor", "g": 2}, {"k": "fsi_richardson", "n": "Richardson retractor", "g": 2}, {"k": "fsi_balfour", "n": "Balfour self-retaining retractor", "g": 2}, {"k": "fsi_thompson", "n": "Thompson self-retaining retractor", "g": 2}, {"k": "fsi_malleable", "n": "Malleable retractor", "g": 2}, {"k": "fsi_taper", "n": "Tapered needle", "g": 3}, {"k": "fsi_cutting", "n": "Conventional cutting needle", "g": 3}, {"k": "fsi_linstapler", "n": "Linear stapler", "g": 3}, {"k": "fsi_lincutter", "n": "Linear cutter", "g": 3}, {"k": "fsi_clips", "n": "Clips", "g": 3}, {"k": "fsi_poole", "n": "Poole suction tube", "g": 4}, {"k": "fsi_yankauer", "n": "Yankauer suction tube", "g": 4}, {"k": "fsi_bovie", "n": "Electrosurgical unit (Electrocautery)", "g": 4}, {"k": "fsi_harmonic", "n": "Ultrasonic (Harmonic) scalpel", "g": 4}, {"k": "fsi_insufflator", "n": "Insufflator", "g": 5}, {"k": "fsi_lightsource", "n": "Light source", "g": 5}, {"k": "fsi_trocar", "n": "Trocars", "g": 5}, {"k": "fsi_lapinst", "n": "Laparoscopic instruments", "g": 5}, {"k": "fsi_endostapler", "n": "Endostapler", "g": 5}]}];
 
 /* ---------- Teaching round › Flashcard ----------
    Look = the "Bug → Drug Drill" artifact 1:1 (Flashcards · Quiz 4 ตัวเลือก · Match, group chips, จำได้ meter).
@@ -1930,6 +1930,12 @@ const FD_CSS=`
 .fdr .fd-opts{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);align-items:center}
 .fdr .fd-opts label{display:inline-flex;gap:6px;align-items:center;cursor:pointer}
 .fdr .fd-link{border:0;background:none;color:var(--muted);text-decoration:underline;text-underline-offset:3px;padding:0;font-size:13px}
+.fdr .fd-decks{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.fdr .fd-deck{display:flex;flex-direction:column;gap:6px;border-radius:18px;background:var(--surface);box-shadow:var(--shadow);border:1px solid var(--line);border-top:4px solid var(--c);padding:16px 18px;color:var(--ink);text-decoration:none;transition:transform .15s}
+.fdr .fd-deck:hover{transform:translateY(-2px);border-color:var(--violet)}
+.fdr .fd-deck>b{font-family:var(--f-display);font-weight:800;font-size:22px;line-height:1.15;letter-spacing:-.01em}
+.fdr .fd-deck .d{font-size:13px;color:var(--muted)}
+.fdr .fd-deck .fd-tally{margin-top:6px}
 .fdr .fd-stage{display:flex;flex-direction:column;gap:14px}
 .fdr .fd-progress{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:12.5px;color:var(--muted)}
 .fdr .fd-card{position:relative;perspective:1400px;min-height:380px;cursor:pointer;-webkit-tap-highlight-color:transparent}
@@ -1939,9 +1945,9 @@ const FD_CSS=`
 .fdr .fd-card .back{transform:rotateY(180deg);background:var(--violet-soft)}
 .fdr .fd-card.flipped .front{transform:rotateY(-180deg)}
 .fdr .fd-card.flipped .back{transform:rotateY(0)}
-.fdr .face .fd-tag,.fdr .fd-qcard .fd-tag{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--c);font-weight:700;display:flex;gap:6px;align-items:center}
+.fdr .face .fd-tag,.fdr .fd-qcard .fd-tag,.fdr .fd-deck .fd-tag{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--c);font-weight:700;display:flex;gap:6px;align-items:center}
 .fdr .face .fd-tag{position:absolute;top:14px;left:16px}
-.fdr .face .fd-tag::before,.fdr .fd-qcard .fd-tag::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c)}
+.fdr .face .fd-tag::before,.fdr .fd-qcard .fd-tag::before,.fdr .fd-deck .fd-tag::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c)}
 .fdr .face .side{position:absolute;top:14px;right:16px;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
 .fdr .face .known-badge{position:absolute;bottom:14px;left:16px;font-size:12px;color:var(--good);font-weight:600}
 .fdr .fd-pic{display:flex;align-items:center;justify-content:center;max-width:100%;background:#fff;border-radius:12px;padding:8px}
@@ -2006,10 +2012,24 @@ function fdPic(k,mh){const v=IMGS[k];if(!v)return "";
   if(typeof v==="string")return `<span class="fd-pic" style="--ph:${mh}px"><img src="${v}" alt=""></span>`;
   return `<span class="fd-pic">${imgHTML(k,"").replace(`width:min(100%,${v.w}px)`,`width:${Math.round(Math.min(v.w,mh*v.w/v.h))}px;max-width:100%`)}</span>`;}
 let FD=null;
+/* topic picker: always shown first, even with only one deck (standing rule, every site) */
+function fdKnown(D){try{const o=JSON.parse(localStorage.getItem("fdrill-"+D.id+"-v1")||"{}");return Array.isArray(o.known)?o.known.filter(i=>i<D.cards.length).length:0;}catch(e){return 0;}}
+function fdPick(decks){
+  $("main").innerHTML=`<div class="fdr"><div class="fd-wrap">
+    <a class="fd-back" href="#/${esc(ward)}/teach">← Teaching round</a>
+    <div class="fd-head"><div class="fd-brand"><h1>Flashcard</h1><p>${esc(W_().cfg.name)} · เลือกเรื่องที่จะฝึก</p></div></div>
+    <div class="fd-decks">${decks.map((D,i)=>{const k=fdKnown(D),n=D.cards.length;
+      return `<a class="fd-deck" href="#/${esc(ward)}/tch/flash/${encodeURIComponent(D.id)}" style="--c:var(--g${i%6})">
+        <span class="fd-tag">${String(i+1).padStart(2,"0")} · ${n} การ์ด</span>
+        <b>${esc(D.title)}</b><span class="d">${esc(D.sub)}</span>
+        <span class="fd-tally"><span>จำได้ <b>${k}</b>/<b>${n}</b></span><span class="fd-meter"><i style="width:${(k/n*100).toFixed(1)}%"></i></span></span></a>`;}).join("")}</div>
+  </div></div>`;}
 function rFlash(){
   const decks=flashDecks();if(!decks.length){toast("ยังไม่มี flashcard ในวอร์ดนี้");go(ward+"/teach");return;}
   fdSetup();
-  const D=decks[0],C=D.cards,KEY="fdrill-"+D.id+"-v1",store={load(){try{return JSON.parse(localStorage.getItem(KEY)||"{}");}catch(e){return {};}},save(o){try{localStorage.setItem(KEY,JSON.stringify(o));}catch(e){}}};
+  const a=tSeg();if(!a[1])return fdPick(decks);
+  const D=decks.find(d=>d.id===a[1]);if(!D){go(ward+"/tch/flash");return;}
+  const C=D.cards,KEY="fdrill-"+D.id+"-v1",store={load(){try{return JSON.parse(localStorage.getItem(KEY)||"{}");}catch(e){return {};}},save(o){try{localStorage.setItem(KEY,JSON.stringify(o));}catch(e){}}};
   const saved=store.load(),allG=D.groups.map((g,i)=>i);
   const S={mode:FD&&FD.deck===D.id?FD.mode:"flash",groups:new Set(Array.isArray(saved.groups)?saved.groups:allG),known:new Set(Array.isArray(saved.known)?saved.known:[]),
     shuffle:saved.shuffle!==false,onlyUnknown:!!saved.onlyUnknown,best:saved.best||null,flash:null,quiz:null,match:null};
@@ -2021,7 +2041,7 @@ function rFlash(){
   const gcol=g=>`var(--g${g})`;
   const pool=()=>{let ids=C.map((c,i)=>i).filter(i=>S.groups.has(C[i].g));if(S.onlyUnknown)ids=ids.filter(i=>!S.known.has(i));return S.shuffle?sh(ids):ids;};
   $("main").innerHTML=`<div class="fdr"><div class="fd-wrap">
-    <a class="fd-back" href="#/${esc(ward)}/teach">← Teaching round</a>
+    <a class="fd-back" href="#/${esc(ward)}/tch/flash">← Flashcard</a>
     <div class="fd-head"><div class="fd-brand"><h1>${esc(D.h1[0])} <span class="arrow">→</span> ${esc(D.h1[1])}</h1><p>${esc(D.sub)}</p></div>
       <div class="fd-tally"><span>จำได้ <b id="fdKnown">0</b>/<b id="fdTotal">0</b></span><span class="fd-meter"><i id="fdMeter"></i></span></div></div>
     <div class="fd-tabs" role="tablist"><button type="button" role="tab" data-fmode="flash">Flashcards</button><button type="button" role="tab" data-fmode="quiz">Quiz 4 ตัวเลือก</button><button type="button" role="tab" data-fmode="match">Match</button></div>
