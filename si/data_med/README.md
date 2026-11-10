@@ -32,3 +32,22 @@
 | SIXX RoX | `osce_b7.js` | SIOSXX | 4 | กระดาษคำตอบจริง มีคะแนนอาจารย์ · ไม่มีรูป |
 
 แหล่งอ้างอิงให้ AI แต่ง/ตรวจ: `osce_ref.js` (ย่อจาก `parts/simed/OSCE_REF.md`: Key PBS 25 โรค, Key Blood transfusion + reaction)
+
+## ลง 10 พ.ย. 2026 — SI128 + SI129 และเติมคีย์ SI127 (brief `parts/simed/TASK128_129.md`, `MERGE127.md`, `SUMUPD128.md`)
+| ชุด | ไฟล์ข้อมูล | โค้ดไฟล์ | จำนวน | หมายเหตุ |
+|---|---|---|---|---|
+| SI128 Ro401–404 MCQ | `data_b27.js` | SIM128K (= SIM128A + คีย์) | 6 | คีย์ไฮไลต์เหลือง Key 128 |
+| SI128 Ro405–408 MCQ | `data_b28.js` (1–55) + `data_b29.js` (56–113) | SIM128B | 112 | **ไม่มีคีย์** · ไม่มีเลข 111 (ไม่มีเนื้อหา) |
+| SI128 Ro409–412 MCQ | `data_b30.js` | SIM128K (= SIM128C + คีย์) | 24 | ตอบต่างคีย์ 1, 4, 12, 22 |
+| SI128 Ro413–416 MCQ | `data_b31.js` | SIM128K (= SIM128D + คีย์) | 28 | |
+| SI129 Ro405–408 MCQ | `data_b32.js` | SIM129 | 29 | สองชุดเลขในกระดาษเดียว → "n (ชุดที่ 2)" |
+| SI129 Ro409–412 MCQ | `data_b33.js` | SIM129 | 47 | ไม่มีเลข 14 ในไฟล์ · ตอบต่างคีย์ 18, 44 |
+| SI129 Ro417–420 MCQ | — | — | 0 | PART2 MCQ ในไฟล์ว่าง |
+| SI128 Ro401–404 OSCE+CRQ | `osce_b17.js` | SIOS128A | 25 | CRQ 1–8 `sec:"CRQ"` |
+| SI128 Ro405–408 OSCE | `osce_b18.js` | SIOS128B | 30 | ฐานพัก 9 ไม่สร้าง · ไม่มีรูป |
+| SI128 Ro409–412 OSCE | `osce_b19.js` | SIOS128C | 31 | orig "4+" = แถวไม่มีเลข |
+| SI128 Ro413–416 OSCE | `osce_b20.js` | SIOS128D | 30 | ไม่มีรูป |
+| SI129 Ro405–408 SEQ | `osce_b21.js` | SIOS129B | 14 | SEQ = OSCE `sec:"SEQ"` (เหมือน CRQ) |
+| SI129 Ro417–420 OSCE | `osce_b22.js` | SIOS129E | 25 | |
+
+SI127 (data_b21–26, osce_b13): เติมคีย์จากไฟล์ Key_127 (SIM127K) — ทุกข้อตรงกับข้อเดิม ไม่มีข้อใหม่ · รูปคีย์ `kk127<r>_*` · ข้อที่เปลี่ยนคำตอบตามคีย์และข้อที่ยังตอบต่างคีย์ ดู flag/opinion ของแต่ละข้อ

@@ -5,7 +5,8 @@
    ไฟล์พิมพ์ล้วน: ไม่มีลายมือ ไฮไลต์ กรอบปิด หรือส่วน key · รูปในโจทย์ 3 รูป (CRQ 1 CXR, CRQ 3 EKG, CRQ 6 สเมียร์) ครอปครบ ไม่มีคำตอบติด (EKG มีลูกศรเมาส์ติดมาจากต้นฉบับใน aVF)
    orig = "CRQ 1"–"CRQ 6" + sec:"CRQ" · marks = คะแนนในวงเล็บของไฟล์ ÷ 10 (60 → 6, 40 → 4, 20 → 2, 50 → 5)
    CRQ 2 เป็นข้อเขียนให้ "ถามประวัติเพิ่มเติม" → จัด topic hx ตามบรีฟ (ex:1) บทผู้ป่วย sp Claude แต่งไว้ใช้ฝึกแบบมีผู้คุม
-   CRQ 5 ผลสามีพิมพ์ Hb A 80% + Hb E 30% (รวมเกิน 100%) — คงค่าตามไฟล์ ระบุใน flag · ไม่มีสถานีที่ข้าม ไม่มีฐานพัก */
+   CRQ 5 ผลสามีพิมพ์ Hb A 80% + Hb E 30% (รวมเกิน 100%) — คงค่าตามไฟล์ ระบุใน flag · ไม่มีสถานีที่ข้าม ไม่มีฐานพัก
+   10 พ.ย. 2026 เติมคีย์จาก Key_127 Summative127 Key (SIM127K) หน้า 39–40: CRQ ชุดเดียวกับไฟล์นี้ทั้ง 6 สถานี (ตรงกับสถานีเดิม 6, สถานีใหม่ 0) · วิธีอ่านเครื่องหมายคีย์: ลายมือ/เส้นวาดบนหน้า CRQ (ไม่มีไฮไลต์) — มีเฉพาะ CRQ 1 (วาดเส้น Meniscus), CRQ 3 (อ่าน EKG ว่า generalized concave upward ST-elevation — เราไม่เห็นด้วย คงเป็น STEMI + flag), CRQ 5 (genotype สามี ภรรยา ลูก ตรงกับเรา) → ใส่ key ในข้อย่อยที่มีลายมือ + kimg kk127b_crq1/3/5 · CRQ 2, 4, 6 ไม่มีเครื่องหมายใน Key 127 → ไม่แตะ (คง NK) */
 const NK="ไม่มีเฉลยในไฟล์ (เฉลยโดย Claude)";
 const P=(t,...re)=>({t,re});
 const G=(label,need,...opts)=>({label,need,opts});
@@ -21,13 +22,15 @@ const Co=o=>Object.assign({set:"SI127",ro:"Ro405–408",file:"SIOS127B",sec:"CRQ
 QB.push(
 
 /* ===== CRQ 1 ===== */
-Co({page:21,orig:"CRQ 1",topic:"img",sub:"CXR",title:"Prior breast cancer with chest tightness and dyspnea — chest radiograph",img:["os127b_1"],imgNote:"Chest radiograph, frontal view",
+Co({page:21,orig:"CRQ 1",topic:"img",sub:"CXR",title:"Prior breast cancer with chest tightness and dyspnea — chest radiograph",img:["os127b_1"],imgNote:"Chest radiograph, frontal view",kimg:["kk127b_crq1"],
+ opinion:"เห็นด้วยกับไฟล์ Key 127: ผู้เฉลยวาดเส้นสีส้มตามขอบบนของเงาทึบที่ปอดซ้ายส่วนล่างและเขียนว่า Meniscus ตรงกับคำบรรยายของเรา (pleural effusion ซ้าย) · ไฟล์ไม่ได้เขียนคำตอบการวินิจฉัย 1.2 จึงคง NK",
  seen:"SI130 Ro409–412 ข้อ 16 · SI131 Ro417–420 ข้อ 16 (CXR ผู้ป่วยเคยเป็นมะเร็งเต้านม — คนละโจทย์ เรื่องเดียวกัน)",
  stem:`A 45-year-old woman presented with chest tightness and dyspnea for 3 weeks. Last year, she was diagnosed with left breast cancer and was treated with surgery and chemotherapy.<br>PE: decreased breath sounds over the left lower hemithorax.<br>Her chest radiograph is shown.<br>1.1 Describe her chest radiograph.<br>1.2 Give the most likely diagnosis.`,
  gray:"1. A 45-year-old woman presented with chest tightness and dyspnea for 3 weeks. Last year, she was diagnosed to have left breast cancer and treated with surgery and chemotherapy. PE: decreased breath sound at left lower hemithorax (รูป CXR) · 1) Describe her chest radiograph (60 points) · 2) Give the most likely diagnosis (40 points)",
- flag:"ไม่มีเฉลยในไฟล์ — คำบรรยายฟิล์มและการวินิจฉัย Claude เฉลยจากภาพ",
+ flag:"ไฟล์ Key 127 มีแค่ลายมือ Meniscus บนฟิล์ม (ไม่มีคำตอบการวินิจฉัย) — คำบรรยายส่วนที่เหลือและการวินิจฉัย Claude เฉลยจากภาพ",
+ notes:NOTE1+" · Key 127 (Summative127 Key หน้า 39): ลายมือสีส้มวาดเส้นโค้งตามขอบบนของเงาทึบ hemithorax ซ้าย และเขียนว่า Meniscus · ไม่มีโน้ตอื่นของสถานีนี้",
  parts:S(
-  B("1.1 Describe her chest radiograph.",6,{tags:["img"],
+  B("1.1 Describe her chest radiograph.",6,{tags:["img"],key:"Meniscus (ลายมือในไฟล์ Key 127 วาดเส้นตามขอบบนของเงาทึบที่ปอดซ้าย)",
    ans:"Frontal (PA upright) chest radiograph:<ul><li><b>Homogeneous opacity at the lower half of the left hemithorax</b> ขอบบนโค้งเว้าขึ้นไปตามผนังทรวงอกด้านข้าง (<b>meniscus sign</b>)</li><li><b>Left costophrenic angle และ left hemidiaphragm หายไป</b> (obliterated)</li><li><b>Left heart border ถูกบดบัง</b> (silhouette sign) · ไม่เห็น air bronchogram ในบริเวณทึบ</li><li>Trachea/mediastinum ไม่ถูกดันไปขวาชัดเจน</li><li>ปอดขวาปกติ · ไม่เห็นก้อนชัดเจนในส่วนที่ยังเห็นเนื้อปอด</li></ul>",
    exp:"ลักษณะของ <b>pleural effusion</b>: ทึบ homogeneous ไล่จากล่างขึ้นบน ขอบบนเป็น meniscus กลบ CP angle/diaphragm · ต้องมีน้ำ ~200 mL ขึ้นไปจึงเห็น CP angle ทื่อใน PA (lateral ~50 mL)<br>Mediastinal shift: <b>effusion ใหญ่</b> → ดันไป<b>ฝั่งตรงข้าม</b> · <b>collapse</b> → ดึง<b>เข้าหา</b> · effusion ขนาดนี้แต่ไม่ shift ให้นึกถึง collapse ร่วม (endobronchial tumor) หรือ mediastinum ถูกตรึง (fixed mediastinum จากมะเร็ง)<br>ผู้ป่วยผ่าตัดเต้านมซ้าย อาจเห็นเงาเต้านมซ้ายหายไป (ปอดซ้ายส่วนบนดูดำกว่าขวา) — อย่าแปลว่าเป็น pneumothorax",
    rubric:"ได้เต็ม = ทึบ homogeneous ข้างซ้ายครึ่งล่าง + meniscus/CP angle ทื่อ + silhouette left heart border + ประเมิน mediastinal shift · ตอบแค่ \"ปอดซ้ายขาว\" = ได้น้อย · แปลเป็น consolidation (มี air bronchogram) = ผิด",
@@ -70,15 +73,17 @@ Co({page:21,orig:"CRQ 2",topic:"hx",sub:"Chronic cough",ex:1,title:"Dry cough fo
  summary:["ไอ &lt; 3 สัปดาห์ = acute · 3–8 สัปดาห์ = subacute (post-infectious พบบ่อยสุด) · > 8 สัปดาห์ = chronic","Chronic cough + ไม่สูบบุหรี่ + ไม่ใช้ ACEI + CXR ปกติ → UACS, asthma (CVA), NAEB, GERD","CVA: ไอแห้งกลางคืน/เช้า กระตุ้นด้วยอากาศเย็น ฝุ่น ออกกำลังกาย → spirometry/methacholine challenge, FeNO, ลอง ICS"]}),
 
 /* ===== CRQ 3 ===== */
-Co({page:21,orig:"CRQ 3",topic:"ekg",sub:"STEMI/ischemia",title:"Chest tightness radiating to the jaw — 12-lead EKG",img:["os127b_3"],imgNote:"12-lead EKG (the arrow in aVF is a mouse cursor in the original file)",
+Co({page:21,orig:"CRQ 3",topic:"ekg",sub:"STEMI/ischemia",title:"Chest tightness radiating to the jaw — 12-lead EKG",img:["os127b_3"],imgNote:"12-lead EKG (the arrow in aVF is a mouse cursor in the original file)",kimg:["kk127b_crq3"],
+ opinion:"ไม่เห็นด้วยกับลายมือในไฟล์ Key 127 ความมั่นใจสูง: ผู้เฉลยเขียนการอ่าน EKG ว่า generalized concave upward ST-elevation (ลักษณะของ acute pericarditis) และไม่ได้เขียนการวินิจฉัย · แต่ ST elevation ใน EKG นี้จำกัดอยู่ที่ V2–V6, I, aVL (II ยกเล็กน้อย) ขนาดสูงมากใน V2–V4 รูป convex/tombstone ร่วมกับ T สูง มี QS/R wave หายใน V1–V2 และมี ST depression ใน III และ aVR (reciprocal) ไม่ใช่ diffuse concave ที่ไม่มี reciprocal change · บริบทชาย 65 ปี DM HT DLP แน่นหน้าอกร้าวไปกรามสองข้าง 6 ชั่วโมง = anterior (anterolateral) STEMI ตาม Fourth Universal Definition of MI 2018 และ 2023 ESC ACS guideline · การตอบ pericarditis ในสถานีนี้เสี่ยงทำให้พลาด reperfusion",
  stem:`A 65-year-old man with diabetes mellitus, hypertension and dyslipidemia presents with chest tightness radiating to both sides of the jaw, which began 6 hours before arrival.<br>PE: BP 120/80 mmHg, P 75/min, RR 20/min. GA: good consciousness, restless, not pale, no jaundice, no edema.<br>His 12-lead EKG is shown.<br>3.1 Interpret the EKG.<br>3.2 Give the most likely diagnosis.<br>3.3 Outline the initial management (investigation and treatment).`,
  gray:"3. (รูป EKG) ชาย 65 ปี มีโรคประจำตัวเป็น DM, HT, DLP มาพบท่านด้วยอาการแน่นหน้าอกร้าวไปกราม 2 ข้าง 6 ชั่วโมงก่อนมา รพ. PE: BP 120/80 mmHg, P 75/min, RR 20/min GA: Good consciousness, restlessness, not pale, no jaundice, no edema · 1) จงอ่าน EKG (40 คะแนน) · 2) จงบอกการวินิจฉัยที่เป็นไปได้มากที่สุด (40 คะแนน) · 3) ท่านจะให้ management (investigation and treatment) เบื้องต้นอย่างไร (20 คะแนน)",
- flag:"ไม่มีเฉลยในไฟล์ — การอ่าน EKG Claude อ่านจากภาพ (ภาพไม่มี rhythm strip ยาว)",
+ flag:"⚠ ไฟล์ Key 127 มีลายมืออ่าน EKG ว่า generalized concave upward ST-elevation (แบบ pericarditis) — เราคงการอ่านเป็น anterolateral STEMI (ST elevation V2–V6, I, aVL + reciprocal ST depression III, aVR) · การวินิจฉัยและ management ไฟล์ไม่ได้เขียน Claude เฉลยเอง (ภาพไม่มี rhythm strip ยาว)",
+ notes:NOTE1+" · Key 127 (Summative127 Key หน้า 39): ลายมือหมึกดำข้างคำถาม 1) จงอ่าน EKG เขียนว่า generalized concave upward ST-elevation · คำถาม 2) และ 3) ไม่มีโน้ต",
  parts:S(
-  B("3.1 Interpret the EKG.",4,{tags:["ekg"],
+  B("3.1 Interpret the EKG.",4,{tags:["ekg"],key:"generalized concave upward ST-elevation (ลายมือในไฟล์ Key 127)",
    ans:"<ul><li><b>Sinus rhythm</b>, rate ~75/min</li><li><b>ST elevation</b> แบบ convex ร่วมกับ T สูง (hyperacute) ใน <b>V2–V6</b> (เด่นมากใน V2–V4) และ <b>I, aVL</b></li><li><b>Q waves / QS complex</b> และ R wave หายใน V1–V3 (poor R wave progression)</li><li><b>Reciprocal ST depression</b> ใน III และ aVR</li></ul>",
    exp:"เกณฑ์ STEMI (4th Universal Definition): ST elevation ใหม่ที่ J point ≥ 2 contiguous leads — V2–V3 ≥ 2 mm (ชาย ≥ 40 ปี), ≥ 2.5 mm (ชาย &lt; 40 ปี), ≥ 1.5 mm (หญิง) · lead อื่น ≥ 1 mm<br>ตำแหน่ง: V1–V2 septal · V3–V4 anterior · V5–V6, I, aVL lateral → ST elevation V2–V6 + I, aVL = <b>extensive anterior (anterolateral)</b> → ตัน <b>proximal LAD</b> (ก่อน diagonal branch) · reciprocal change ใน inferior leads ช่วยยืนยันว่าเป็น STEMI ไม่ใช่ pericarditis (pericarditis: ST elevation เว้า diffuse + PR depression ไม่มี reciprocal ยกเว้น aVR)",
-   rubric:"ได้เต็ม = sinus rhythm + ST elevation V2–V6, I, aVL + reciprocal ST depression · บอก ST elevation แต่ไม่บอก lead = ได้น้อย",
+   rubric:"ได้เต็ม = sinus rhythm + ST elevation V2–V6, I, aVL + reciprocal ST depression · บอก ST elevation แต่ไม่บอก lead = ได้น้อย · อ่านเป็น generalized concave ST elevation แบบ pericarditis (ตามลายมือในไฟล์ Key 127) = ได้เฉพาะส่วน ST elevation",
    pts:[H("Rhythm",15),P("Sinus rhythm, rate ~75/min","sinus","\\b7[05]\\b"),
     H("ST-T changes",65),CR(P("ST elevation in V2–V6 (precordial leads)","st.?elevat","st.?ยก","ste\\b","\\bv2","\\bv3","v1.?v6","v2.?v6","precordial")),P("ST elevation in I and aVL","avl","high lateral","lateral lead"),P("Reciprocal ST depression in III / aVR","reciproc","st.?depress","\\biii\\b","inferior"),
     H("QRS",20),P("Q waves / QS complexes, poor R progression in V1–V3","q wave","\\bqs\\b","pathologic q","poor r","r wave")]}),
@@ -119,22 +124,24 @@ Co({page:22,orig:"CRQ 4",topic:"lab",sub:"LFT",title:"Acute right upper abdomina
 
 /* ===== CRQ 5 ===== */
 Co({page:22,orig:"CRQ 5",topic:"lab",sub:"Hb typing",title:"Thalassemia counseling for a couple — CBC and Hb typing",
- seen:"SI131 Ro413–416 ข้อ 2 (Hb typing คู่สมรส Hb E trait + β-thal trait — ชุดนั้นไม่มี CBC)",
+ seen:"SI131 Ro413–416 ข้อ 2 (Hb typing คู่สมรส Hb E trait + β-thal trait — ชุดนั้นไม่มี CBC)",kimg:["kk127b_crq5"],
+ opinion:"เห็นด้วยกับลายมือในไฟล์ Key 127: สามี β/β<sup>E</sup> Hb E trait · ภรรยา β/β<sup>0</sup> β-thal trait (β<sup>0</sup>/β หรือ β<sup>+</sup>/β) · genotype ลูก β/β, β/β<sup>0</sup>, β/β<sup>E</sup>, β<sup>E</sup>/β<sup>0</sup> ตรงกับเฉลยของเรา (ไฟล์ไม่ได้เขียนร้อยละ ซึ่งเป็นอย่างละ 25%)",
+ notes:NOTE1+" · Key 127 (Summative127 Key หน้า 40): ลายมือข้างผลสามีเขียน β/β^E และ Hb E trait (ขีดเส้นใต้ Hb E 30%) · ข้างผลภรรยาเขียน AA2, ลูกศรลงที่ MCV 70, β/β^0 และ β thal trait β^0/β, β^+/β · ใต้คำถามร้อยละความเสี่ยงเขียน genotype ลูก β/β, β/β^0 (ติ๊ก), β/β^E (ติ๊ก), β^E/β^0 ไม่มีร้อยละ",
  stem:`A couple comes for counseling about thalassemia.<br><b>Husband</b> — CBC: Hb 13 g/dL, MCV 80 fL, WBC 5,600/mm<sup>3</sup>, platelets 235,000/mm<sup>3</sup> · Hb typing: Hb A 80%, Hb E 30%<br><b>Wife</b> — CBC: Hb 12 g/dL, MCV 70 fL, WBC 6,500/mm<sup>3</sup>, platelets 350,000/mm<sup>3</sup> · Hb typing: Hb A 97%, Hb A<sub>2</sub> 4%<br>5.1 What is the husband's genotype?<br>5.2 What is the wife's genotype?<br>5.3 What is the risk (%) that their child will be a carrier or will have each type of thalassemia disease?`,
  gray:"5. สามี ภรรยา คู่หนึ่งต้องการมารับคำปรึกษาเกี่ยวกับโลหิตจางธาลัสซีเมีย · สามี CBC Hb 13 g/dl, MCV 80 fl, WBC 5600/mm3, platelet 235,000/mm3 · Hb typing Hb A 80%, Hb E 30% · ภรรยา CBC Hb 12 g/dl, MCV 70 fl, WBC 6500/mm3, platelet 350,000/mm3 · Hb typing Hb A 97%, Hb A2 4% · 1) จงให้การวินิจฉัย genotype ของ สามี (20 คะแนน) · 2) จงให้การวินิจฉัย genotype ของ ภรรยา (20 คะแนน) · 3) จงบอกร้อยละของความเสี่ยงที่จะมีบุตรเป็นพาหะหรือเป็นโรคธาลัสซีเมียแต่ละชนิด (60 คะแนน)",
  flag:"⚠ ผล Hb typing ของสามีในไฟล์ Hb A 80% + Hb E 30% รวมเกิน 100% (น่าจะพิมพ์ผิด เช่น A 70%) — คงค่าตามไฟล์ ไม่กระทบการแปลผล",
  parts:S(
-  B("5.1 What is the husband's genotype?",2,{tags:["lab"],
+  B("5.1 What is the husband's genotype?",2,{tags:["lab"],key:"β/β^E · Hb E trait (ลายมือในไฟล์ Key 127)",
    ans:"<b>Hb E trait</b> (heterozygous Hb E): <b>β<sup>A</sup>/β<sup>E</sup></b> (αα/αα ถ้าไม่มี α-thalassemia ร่วม)",
    exp:"Hb typing มี A + E โดย Hb E ~25–30% · Hb ปกติ MCV ปกติถึงต่ำเล็กน้อย · Hb E ไม่เกิน ~30–35% ใน trait — ถ้า Hb E &gt; 80–90% = homozygous Hb E (EE) หรือ β<sup>0</sup>-thal/Hb E (มี Hb F ร่วม) · ถ้า Hb E ต่ำกว่า ~25% ให้นึกถึง α-thalassemia ร่วม",
    rubric:"ได้เต็ม = Hb E trait / β/β<sup>E</sup> · ตอบ homozygous Hb E หรือ β-thal/Hb E = ผิด",
    pts:[CR(P("Hb E trait (β^A/β^E)","e trait","hb ?e","heterozygous","β.?/.?β.?e","βe","b/be","ฮีโมโกลบินอี"))]}),
-  B("5.2 What is the wife's genotype?",2,{tags:["lab"],
+  B("5.2 What is the wife's genotype?",2,{tags:["lab"],key:"β/β^0 · β thal trait β^0/β, β^+/β (ลายมือในไฟล์ Key 127)",
    ans:"<b>β-thalassemia trait</b> (heterozygous β-thal): <b>β<sup>A</sup>/β<sup>thal</sup></b> (β<sup>0</sup> หรือ β<sup>+</sup> — แยกด้วย Hb typing ไม่ได้ ต้องตรวจ DNA)",
    exp:"MCV ต่ำ (70 fL) + Hb A<sub>2</sub> 4% (&gt; 3.5%) = β-thalassemia trait · Hb ปกติ/ซีดเล็กน้อย · แยกจาก iron deficiency: ใน IDA Hb A<sub>2</sub> ปกติหรือต่ำ (ถ้าขาดเหล็กร่วมอาจกด A<sub>2</sub> ลง)",
    rubric:"ได้เต็ม = β-thal trait (β/β<sup>0</sup> หรือ β/β<sup>+</sup>) · ตอบ α-thal trait / IDA / ปกติ = ผิด",
    pts:[CR(P("β-thalassemia trait (β^A/β^thal)","beta.?thal","β.?thal","b.?thal","β0","β\\+","เบต้า","เบตา"))]}),
-  B("5.3 What is the risk (%) that their child will be a carrier or will have each type of thalassemia disease?",6,{tags:["lab"],
+  B("5.3 What is the risk (%) that their child will be a carrier or will have each type of thalassemia disease?",6,{tags:["lab"],key:"β/β, β/β^0 ✓, β/β^E ✓, β^E/β^0 (ลายมือในไฟล์ Key 127 เขียนแค่ genotype ลูก ไม่มีร้อยละ)",
    ans:"แต่ละการตั้งครรภ์ (autosomal recessive, ไม่ขึ้นกับเพศ):<ul><li>ปกติ (β<sup>A</sup>/β<sup>A</sup>) <b>25%</b></li><li>Hb E trait (β<sup>A</sup>/β<sup>E</sup>) <b>25%</b></li><li>β-thal trait (β<sup>A</sup>/β<sup>thal</sup>) <b>25%</b></li><li><b>β-thalassemia/Hb E disease</b> (β<sup>thal</sup>/β<sup>E</sup>) <b>25%</b></li></ul>รวม: พาหะ 50% · เป็นโรค 25% → <b>คู่เสี่ยง</b> → genetic counseling + <b>prenatal diagnosis</b> (CVS / amniocentesis / cordocentesis)",
    exp:"β<sup>0</sup>-thal/Hb E เป็นหนึ่งใน 3 โรครุนแรงเป้าหมายของโครงการควบคุมธาลัสซีเมียในไทย (Hb Bart's hydrops fetalis, homozygous β-thal, β<sup>0</sup>-thal/Hb E) · อาการปานกลางถึงรุนแรง หลายรายต้องให้เลือดประจำ · β<sup>+</sup>-thal/Hb E อาการน้อยกว่า → ตรวจ DNA ของภรรยาเพื่อแยก β<sup>0</sup>/β<sup>+</sup><br>Hb typing ไม่ได้ตัด <b>α-thalassemia 1 trait</b> (SEA deletion) ที่อาจมีร่วม — ถ้าทั้งคู่มี α-thal 1 ลูกเสี่ยง Hb Bart's hydrops 25% · ถ้าค่าเม็ดเลือดไม่เข้ากับผล Hb typing (เช่น MCV/MCH ต่ำเกินสัดส่วน, Hb E &lt; 25%) ให้ส่ง PCR หา α-thal 1",
    rubric:"ได้เต็ม = ครบ 4 แบบ ร้อยละ 25 + ชี้ว่าเป็นคู่เสี่ยงต่อ β-thal/Hb E ต้อง prenatal diagnosis · ไม่บอก β-thal/Hb E disease 25% = 0 · ลืมลูกปกติ 25% = หักเล็กน้อย",
