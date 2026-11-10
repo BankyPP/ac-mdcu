@@ -1,0 +1,35 @@
+# Deploy docs/ to GitHub Pages with a longer deploy timeout.
+# The built-in "pages build and deployment" stops after 10 min of syncing_files; the site (~6.2k files, ~380 MB)
+# started hitting that limit on 10 Nov 2026. To use this workflow: Settings → Pages → Build and deployment → Source = "GitHub Actions".
+name: Deploy Pages (docs, 30-min timeout)
+on:
+  push:
+    branches: [main]
+    paths: ['docs/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: docs
+          sparse-checkout-cone-mode: true
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000
