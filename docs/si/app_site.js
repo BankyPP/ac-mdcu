@@ -3294,7 +3294,7 @@ function rUnit(){
   const all=[].concat(...Ls.map(Lc=>Lc.QB)),seen=a=>a.filter(q=>uAtts(P,q.uid).length).length;
   const sel=new Set((st.unitSel||[]).filter(id=>W.byLec[id]));
   h+=`<div class="yh" style="font-family:var(--num);font-weight:700;margin:14px 0 6px">บท <span class="hint" style="font-weight:400">เลือกได้หลายบท · ไม่เลือกเลย = สุ่มรวมทุกบท · ตัวเลข = เคยเจอแล้ว/ทั้งหมด</span></div>`;
-  h+=`<div class="stack" style="margin-top:0">`+Ls.map(Lc=>`<button class="resume qprog" data-lec="${esc(Lc.id)}" aria-pressed="${sel.has(Lc.id)}"><span><b>${esc(Lc.title)}</b><span class="rd">${Lc.QB.length?`เคยเจอแล้ว ${seen(Lc.QB)}/${Lc.QB.length} ข้อ`:"ยังไม่มีโจทย์ — มีแค่หัวข้อบทไว้ก่อน"}</span></span><span class="go">${sel.has(Lc.id)?"✓":""}</span></button>`).join("")+`</div>`;
+  h+=`<div class="stack" style="margin-top:0">`+Ls.map(Lc=>`<button class="resume qprog${Lc.nolec?" nolec":""}" data-lec="${esc(Lc.id)}" aria-pressed="${sel.has(Lc.id)}"><span><b>${esc(Lc.title)}</b><span class="rd">${Lc.QB.length?`เคยเจอแล้ว ${seen(Lc.QB)}/${Lc.QB.length} ข้อ`:Lc.nolec?"ยังไม่มีไฟล์ lecture — มีแค่หัวข้อบทไว้ก่อน":"ยังไม่มีโจทย์ — มีแค่หัวข้อบทไว้ก่อน"}</span></span><span class="go">${sel.has(Lc.id)?"✓":""}</span></button>`).join("")+`</div>`;
   const pool=sel.size?[].concat(...Ls.filter(Lc=>sel.has(Lc.id)).map(Lc=>Lc.QB)):all;
   h+=`<p class="statline" style="margin-top:10px">${sel.size?`จาก ${sel.size} บทที่เลือก`:"สุ่มรวมทุกบท"} · มีโจทย์ ${pool.length} ข้อ (เคยเจอแล้ว ${seen(pool)})</p><div class="row2"><button class="btn ghost" id="uClr" type="button" ${sel.size?"":"disabled"}>ล้างที่เลือก</button><span class="spacer"></span><button class="btn primary" id="uGo" type="button" ${pool.length?"":"disabled"}>เริ่มทำ ${Math.min(n,pool.length)} ข้อ</button></div>`;
   $("main").innerHTML=h;
@@ -3805,7 +3805,7 @@ function rReport(){
   h+=`<h2 class="h2" style="font-size:18px;margin-top:22px">คำแนะนำรายหัวข้อ</h2>`;
   const res=W.RES||[],txt=W.TXT||[],lecs=(W.cfg.lectures||[]);
   h+=T.map((t,i)=>{const ad=topicAdvice(t),tg=TIER[t.tier];
-    const rs=lecs.filter(l=>l&&l.topic===t.k).concat(res.filter(r=>r.topic===t.k)).sort((a,b)=>codeCmp(a.code||a.title,b.code||b.title)),tts=txt.filter(r=>r&&r.title&&r.topic===t.k),units=W.UNIT.filter(Lc=>Lc.topic===t.k);
+    const rs=lecs.filter(l=>l&&l.topic===t.k).concat(res.filter(r=>r.topic===t.k)).sort((a,b)=>codeCmp(a.code||a.title,b.code||b.title)),tts=txt.filter(r=>r&&r.title&&r.topic===t.k),units=W.UNIT.filter(Lc=>Lc.topic===t.k&&!Lc.nolec);
     const pts=t.wrongQ.concat(t.fixedQ).slice(0,8).map(q=>{const s=(q.summary||[]).filter(x=>!/^ดูข้อ/.test(plain(x)))[0];return s?`<li><button class="qref" data-u="${esc(q.uid)}">ข้อ ${q.id}</button> ${R(s)}</li>`:"";}).join("");
     return `<details class="grp tcard" ${i<3&&t.tier!=="green"?"open":""}><summary><span>${tg[0]}</span> <b>${esc(t.k)}</b> <span class="tag">${tg[1]}</span></summary>
     <p class="tline">${ad.imp}</p><p class="tline">${ad.st}</p><p class="tline"><b>แนะนำ:</b> ${ad.act}</p>

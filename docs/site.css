@@ -300,6 +300,11 @@ details.grp li{margin:6px 0}
 @media (prefers-reduced-motion:reduce){.spin{animation-duration:3s}}
 .resume.qprog{background:var(--sheet);border-color:var(--rule)}
 .resume.qprog[aria-pressed="true"]{border-color:var(--form);background:var(--form-soft)}
+/* heading with no lecture file yet (nolec:true) = always grey, every ward on every site (11 Nov 2026) */
+.resume.qprog.nolec,.resume.qprog.nolec[aria-pressed="true"]{background:#E6E8EA;border-color:#C3C8CD;color:#6B7378}
+.resume.qprog.nolec .go{color:#6B7378}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .resume.qprog.nolec{background:#2A2E31;border-color:#454B50;color:#A3AAAF}:root:not([data-theme="light"]) .resume.qprog.nolec .go{color:#A3AAAF}}
+:root[data-theme="dark"] .resume.qprog.nolec{background:#2A2E31;border-color:#454B50;color:#A3AAAF}:root[data-theme="dark"] .resume.qprog.nolec .go{color:#A3AAAF}
 .tag{overflow-wrap:anywhere;word-break:break-word}
 /* ---------- Advisor round ---------- */
 .lbl{font-family:var(--num);font-weight:700;font-size:15px;margin:16px 0 6px}
