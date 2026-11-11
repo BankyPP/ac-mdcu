@@ -2165,9 +2165,36 @@ document.addEventListener("keydown",e=>{if(FD&&FD.key)FD.key(e);});
    ============================================================ */
 const L="ABCDE";
 /* an image is either a file path, or (Claude artifact build) a slot in a sprite sheet {p,w,h,W,H,y} drawn with CSS so it scales like an <img> */
-function imgHTML(k,alt,lazy){const v=IMGS[k];if(!v)return "";if(typeof v==="string")return `<img ${lazy?'loading="lazy" ':""}src="${v}" alt="${alt}">`;
+function imgHTML(k,alt,lazy){const v=IMGS[k];if(!v)return "";if(typeof v==="string")return `<img ${lazy?'loading="lazy" ':""}src="${v}" alt="${alt}" onerror="acImgErr(this)">`;
   const py=v.H>v.h?v.y/(v.H-v.h)*100:0;
-  return `<span class="spr" role="img" aria-label="${alt}" style="width:min(100%,${v.w}px);aspect-ratio:${v.w}/${v.h};background-image:url('${v.p}');background-size:${(v.W/v.w*100).toFixed(4)}% auto;background-position:0 ${py.toFixed(5)}%"></span>`;}
+  /* the hidden <img> loads the same sheet (from the browser/SW cache) only so a failed sheet can be noticed — a CSS background fails silently */
+  return `<span class="spr" role="img" aria-label="${alt}" style="width:min(100%,${v.w}px);aspect-ratio:${v.w}/${v.h};background-image:url('${v.p}');background-size:${(v.W/v.w*100).toFixed(4)}% auto;background-position:0 ${py.toFixed(5)}%"><img src="${v.p}" alt="" hidden onerror="acImgErr(this.parentNode)"></span>`;}
+/* ---- stale page guard (11 Nov 2026) ----
+   A phone keeps an open tab (or a home-screen web app) alive for days without reloading, so after a new deploy it still runs the old code,
+   which asks for image files / sprite sheets / data hashes that the new deploy removed or replaced → answer-key pictures show "?" and text only.
+   Fix: when the page comes back to the screen (and every 15 min, and whenever a picture fails) ask the server for index.html and compare its
+   core_site/app_site hashes with the running ones; if they differ the page is stale → reload by itself when no question is open
+   (progress is saved when the page is hidden), otherwise show a bar "มีเวอร์ชันใหม่ — แตะเพื่อโหลดใหม่". */
+const ST_HASH=s=>{const m={};String(s).replace(/(core_site|app_site)\.js\?v=([0-9a-f]+)/g,(x,f,h)=>{m[f]=h;});return m;};
+const ST_RUN=(()=>{try{return ST_HASH([...document.scripts].map(s=>s.getAttribute("src")||"").join(" "));}catch(e){return {};}})();
+let stLast=0,stBusy=null,stIsOld=false;
+function stCheck(force){
+  if(IN_FRAME||!ST_RUN.core_site||!/^https?:$/.test(location.protocol))return Promise.resolve(false);
+  if(stIsOld)return Promise.resolve(true);
+  if(stBusy)return stBusy;if(!force&&now()-stLast<60000)return Promise.resolve(false);stLast=now();
+  return stBusy=fetch("index.html?st="+now(),{cache:"no-store"}).then(r=>r.ok?r.text():"").then(t=>{const L=ST_HASH(t);
+    stIsOld=!!(L.core_site&&(L.core_site!==ST_RUN.core_site||(L.app_site&&L.app_site!==ST_RUN.app_site)));return stIsOld;})
+    .catch(()=>false).finally(()=>{stBusy=null;});}
+const stSafe=()=>["wards","home","load","gate","signin"].includes(view);   /* no question/answer sheet open */
+function stBar(){if($("stbar"))return;const b=document.createElement("div");b.id="stbar";b.setAttribute("role","alert");
+  b.innerHTML=`เว็บมีเวอร์ชันใหม่ (บางรูปอาจไม่ขึ้น) — <button type="button">แตะเพื่อโหลดใหม่</button>`;
+  b.querySelector("button").onclick=()=>{try{qSnap(1);}catch(e){}location.reload();};document.body.appendChild(b);}
+function stAct(old,fromBg){if(!old)return;if(fromBg&&stSafe()){location.reload();return;}stBar();}
+window.acImgErr=acImgErr;   /* the app runs inside a function wrapper — inline onerror="" needs it on window */
+function acImgErr(el){try{if(el&&el.classList){el.classList.add("imgerr");if(el.tagName==="IMG")el.removeAttribute("onerror");}}catch(e){}stCheck(1).then(o=>stAct(o,false));}
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")stCheck(0).then(o=>stAct(o,true));});
+addEventListener("pageshow",e=>{if(e.persisted)stCheck(1).then(o=>stAct(o,true));});
+setInterval(()=>{if(document.visibilityState==="visible")stCheck(1).then(o=>stAct(o,false));},15*60000);
 const CFG=(typeof CONFIG!=="undefined"&&CONFIG)||{};
 /* institution of this website (config "inst"): MDCU = repo root, SI = si/config.json — used in AI prompts */
 const INST=Object.assign({id:"mdcu",name:"MDCU",th:"จุฬาฯ",en:"Chulalongkorn University (MDCU)",enShort:"Chulalongkorn University",stu:"นิสิตแพทย์"},CFG.inst||{});
