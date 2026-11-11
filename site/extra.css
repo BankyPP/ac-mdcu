@@ -1053,3 +1053,9 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 /* ---------- opening a ward: its exam data loads on demand ---------- */
 .wload .wlbar{height:8px;border-radius:99px;background:var(--rule);overflow:hidden;margin:10px 0 8px}
 .wload .wlbar span{display:block;height:100%;width:0;background:var(--form);transition:width .2s}
+/* 📘 Guideline boxes in Round I/O — content from the latest reliable guideline of each topic (11 Nov 2026, ทวทว) */
+.iov .box.gl{border:1.5px solid #1565C0;border-left-width:5px}
+.iov .box.gl h3{color:#0D47A1}
+.iov .chip.gl,.iov .iobody .chip.gl{color:#fff;background:#1565C0;border-color:#1565C0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .iov .box.gl h3{color:#90CAF9}}
+:root[data-theme="dark"] .iov .box.gl h3{color:#90CAF9}
