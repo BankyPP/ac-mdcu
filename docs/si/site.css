@@ -1229,3 +1229,10 @@ mark{background:#FFF176;color:#1a1a1a;border-radius:2px}mark.pk{background:#F8BB
 .iov .chip.gl,.iov .iobody .chip.gl{color:#fff;background:#1565C0;border-color:#1565C0}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .iov .box.gl h3{color:#90CAF9}}
 :root[data-theme="dark"] .iov .box.gl h3{color:#90CAF9}
+/* 📘 Guideline ท้ายกล่องหัวข้อ (11 Nov 2026) */
+.iov .glsec{margin-top:10px;padding:8px 10px;border-left:4px solid #1565C0;background:rgba(21,101,192,.07);border-radius:8px}
+.iov .glsec .glh{font-family:Kanit,sans-serif;font-weight:600;color:#0D47A1;margin-bottom:4px}
+.iov .glsec .glsrc{font-family:Sarabun,sans-serif;font-weight:400;font-size:.85em;opacity:.8}
+.iov .glsec ul,.iov .glsec ol{margin:4px 0 0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .iov .glsec .glh{color:#90CAF9}}
+:root[data-theme="dark"] .iov .glsec .glh{color:#90CAF9}

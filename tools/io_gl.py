@@ -59,3 +59,20 @@ R={
 }
 def R_(p,k):
     m,t,u=R[k]; return '{{R:%d}}'%ref(p,m,t,u)
+
+# ---- 11 Nov 2026 (ผู้ใช้สั่ง): guideline อยู่ "ท้ายกล่องของหัวข้อนั้น" ไม่ใช่กล่องแยกท้ายหน้า ----
+import re as _re
+def gsec(src,body):
+    """fragment วางท้ายกล่อง: src = ชื่อ guideline+ปี (หัวเล็ก), body = <ul>/<table>/ข้อความ"""
+    return f'<div class="glsec"><div class="glh">📘 Guideline <span class="glsrc">{src}</span></div>{body}</div>'
+def box_end(html,title):
+    """index ของ </div> ปิดกล่อง (class box) ที่ h3 มีคำว่า title"""
+    for m in _re.finditer(r'<div class="box[^"]*">\s*<h3>(.*?)</h3>',html,_re.S):
+        if title in _re.sub('<[^>]+>','',m.group(1)):
+            i=m.start(); depth=0
+            for t in _re.finditer(r'<div\b|</div>',html[i:]):
+                depth+=1 if t.group(0)=='<div' else -1
+                if depth==0: return i+t.start()
+    raise KeyError(title)
+def into_box(p,title,frag):
+    h=p['html']; k=box_end(h,title); p['html']=h[:k]+frag+h[k:]
