@@ -41,6 +41,40 @@ W.RES=[
 ]
 },
 {
+"code": "R23",
+"title": "Surgery in Breast Cancer (Schwartz Ch.17 — corrected notes)",
+"topic": "Breast",
+"tags": [
+"Breast",
+"Onco",
+"Plastic"
+],
+"type": "Handout (corrected presentation notes)",
+"url": "",
+"note": "Corrected reference notes for clinical presentation อ้างอิง Schwartz's Ch.17 The Breast · 8 หน้า (เนื้อหา 7) พิมพ์ + ไฮไลต์ + ลายมือ p1 (CMT) + รูปถ่ายตาราง postoperative RT p4 · ผู้ใช้: หัวข้อ 1–4 เน้นสุด ๆ 🔴 · หัวข้อ 5 reconstruction 🟡 · Round I/O R23-1…R23-7",
+"points": [
+"CNB = preferred diagnosis · excisional biopsy เฉพาะ clinically–radiologically discordant · non-palpable → wire หรือ seed localization (mammographic หรือ US guidance)",
+"Intraop: specimen X-ray ยืนยัน margin/รอยโรค (ก่อนออกห้องผ่าตัดเมื่อ localize) · orientation ด้วย suture/clip/dye · close margin → additional margin · ปิด 3-0 absorbable + 4-0/5-0 subcuticular · lumpectomy ไม่ต้อง drain",
+"SLNB indication: stage I–II cN0 (clinical + imaging negative) · DCIS ที่ทำ mastectomy (ทำลายท่อน้ำเหลือง ทำ SLNB ภายหลังไม่ได้)",
+"SLNB ไม่ทำ: inflammatory · cN+/biopsy-proven · DCIS + BCS · previous major axillary surgery (ASCO 2025: may offer ถ้าไม่ใช่ ALND)",
+"Dual agent (radioisotope + blue dye) · 10% rule: เก็บ blue ทุกตัว + node count >10% ของ SLN ที่ร้อนสุด จน residual <10% · ไม่ต้องเกิน 4 SLN (98% ของ positive node) · Sn 93% NPV 94% accuracy 95% · ครรภ์: radioisotope อย่างเดียว ห้าม blue dye",
+"FNR สูง: lateral tumor (ฉีดใกล้รักแร้ แยก hot spot ยาก — ต้นฉบับผิดว่า false-positive) · excisional biopsy นำมาก่อน (core ดีกว่า) · เก็บน้อย: 17.7% (1) → 10% (2) → 6.9% (3) NSABP B-32",
+"BCT = BCS + WBRT, standard stage 0–II, OS = total mastectomy · DCIS + BCS + RT ไม่ต้อง SLN · RT ลด recurrence ครึ่งหนึ่ง, ลด breast cancer death 15 ปี ~1/6 (EBCTCG)",
+"Post-op RT: BCS → whole breast ± regional LN (LN+) · MRM → chest wall ถ้า margin close/+, >5 cm, T4 · + regional LN ถ้า axillary LN+",
+"Incision: upper/central = curvilinear (circumareolar) · lower = radial (กัน nipple deviation) · ห้าม radial ส่วนบน (scar contracture) · ตัด skin เฉพาะ direct involvement",
+"Margin: + → re-excision → ไม่ได้ → mastectomy · invasive = no ink on tumor (SSO–ASTRO 2014) · DCIS ≥2 mm (SSO–ASTRO–ASCO 2016) · oncoplastic เมื่อตัด skin/volume มาก, ก้อนระหว่าง nipple–IMF, เสี่ยง nipple malposition · ส่ง ER/PR/HER2 ทุกราย",
+"Absolute indication total mastectomy: cosmesis รับไม่ได้ (ก้อนใหญ่เทียบเต้า), extensive microcalcifications, retroareolar/central, multicentric (guideline ปัจจุบัน: 2–3 foci BCT ได้; central lumpectomy ได้)",
+"Types: NSM (เก็บ NAC+skin) → SSM (ตัด NAC เก็บ skin) → total (ตัด NAC+skin) → extended simple (+level I) → MRM Patey (ตัด/แบ่งเอ็น pec minor, I–III) → Halsted (ตัด pec major+minor)",
+"NSM 8 ข้อ: BMI <40 · ไม่สูบบุหรี่ · ไม่เคย RT · ไม่มี collagen vascular disease · TND ≥2–3 cm + frozen subnipple negative · เต้าเล็ก · ptosis น้อย · ไม่เคยแผล periareolar",
+"SSM: ตัด NAC + biopsy scar · recurrence <6–8% เท่า simple · Tis–T3",
+"MRM: เก็บ medial pectoral n., thoracodorsal bundle, long thoracic n. (winged scapula) · ขอบเขต anterior LD / sternal midline / subclavius / 2–3 cm ใต้ IMF · flap 7–8 mm · Halsted แทบไม่ใช้แล้ว",
+"Complications: seroma บ่อยสุด ~30% → closed suction drain ถอดเมื่อ <30 mL/วัน · wound infection (จาก flap necrosis) · hemorrhage → early exploration · lymphedema ~20% MRM, 50–60% + RT (risk: extensive ALND, RT, pathologic nodes, obesity)",
+"🟡 Reconstruction: immediate = early-stage/prophylactic + SSM (cosmesis ดีสุด) · delayed = LABC/คาดว่าต้อง PMRT (fibrosis) · tissue expander ชั่วคราว · หารือ radiation oncologist/MDT · ปิดแผล simple approximation / LD flap · ไม่ใช้ skin graft (delay RT)",
+"🟡 LD flap = thoracodorsal a. + posterior intercostal (ทนรังสี) · TRAM: free = deep inferior epigastric (microvascular) · pedicled = superior epigastric · chest wall: ตัด 1–2 ribs ไม่ต้อง prosthesis, >2 ribs → prosthetic stabilization (กัน paradoxical respiration) + LD/TRAM คลุม",
+"ลายมือ CMT: LAC → neoadjuvant AC + T (3 + 3 = 6 เดือน) · metastatic → ให้ยาต่อเนื่อง ดื้อแล้วเปลี่ยนยา แต่แพง"
+]
+},
+{
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Acute abdomen",
 "topic": "",
