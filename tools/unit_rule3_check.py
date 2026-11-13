@@ -19,7 +19,7 @@ def load(f):
 
 SRC = re.compile(r"\b(lectures?|lecturers?|slides?|handouts?|notes?|handwritten|handwriting|taught|in class|"
                  r"teaching (file|material)s?|course material|reference notes?|corrected notes?|the (file|resource|document|reference)\b|"
-                 r"according to the|as (stated|written|listed|described|shown) in|SIMBR|syllabus|tutor|"
+                 r"according to the|in-class|class quiz|kahoot|cartoon|as (stated|written|listed|described|shown) in|SIMBR|syllabus|tutor|"
                  r"bedside (pre-?op )?(notes?|orders?)|pre-?op (order )?notes?|the pre-?op order|older (deck|handout|criteria)|jod|deck|"
                  r"(the|this) ([\w-]+ ){0,3}(table|list|page|mnemonic)(?! shown)|listed (in|under|for|among)|(is|are) listed|lists? (for|under))\b", re.I)
 # คำที่เป็นคนไข้/เคส ในประโยคแรก
@@ -68,6 +68,7 @@ if __name__ == '__main__':
     total = 0
     for f in files:
         _, d = load(f)
+        if not d['QB']: continue
         bad = []
         for q in d['QB']:
             fl = check(q)
