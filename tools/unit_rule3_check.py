@@ -9,11 +9,19 @@ def load(f):
     s = open(f, encoding='utf8').read()
     i = s.index('W.UNIT.push(')
     j = s[i+len('W.UNIT.push('):].rstrip().rstrip(';').rstrip()[:-1]
-    return s[:i], json.loads(j)
+    try:
+        return s[:i], json.loads(j)
+    except ValueError:   # ไฟล์แบบ JS literal (U({n:…}) เช่น L12) → ประเมินด้วย node
+        import subprocess, os
+        out = subprocess.run(['node', os.path.join(os.path.dirname(__file__), 'unit_dump.js'), f],
+                             capture_output=True, text=True, check=True).stdout
+        return s[:i], json.loads(out)
 
 SRC = re.compile(r"\b(lectures?|lecturers?|slides?|handouts?|notes?|handwritten|handwriting|taught|in class|"
                  r"teaching (file|material)s?|course material|reference notes?|corrected notes?|the (file|resource|document|reference)\b|"
-                 r"according to the|as (stated|written|listed|described|shown) in|SIMBR|syllabus|tutor)\b", re.I)
+                 r"according to the|as (stated|written|listed|described|shown) in|SIMBR|syllabus|tutor|"
+                 r"bedside (pre-?op )?(notes?|orders?)|pre-?op (order )?notes?|the pre-?op order|older (deck|handout|criteria)|jod|deck|"
+                 r"(the|this) ([\w-]+ ){0,3}(table|list|page|mnemonic)(?! shown)|listed (in|under|for|among)|(is|are) listed|lists? (for|under))\b", re.I)
 # คำที่เป็นคนไข้/เคส ในประโยคแรก
 PT = re.compile(r"\b\d+[- ](year|month|week|day)s?[- ]old\b|\b(patient|woman|man|girl|boy|infant|neonate|newborn|"
                 r"mother|lady|gentleman|primigravida|multipara|gravida|elderly|teenager|adolescent|child|toddler|baby|"
@@ -21,10 +29,12 @@ PT = re.compile(r"\b\d+[- ](year|month|week|day)s?[- ]old\b|\b(patient|woman|man
 FAKE = re.compile(r"\b(students?|medical student|resident|intern|extern|tutor|lecturer|teacher|examiner|OSCE|audit|"
                   r"research(er)?|committee|quiz|journal club|attending|consultant|fellow|registrar|surgeon|team|"
                   r"nurse|pharmacist|panel|conference|guideline|policy|protocol|hospital|department|textbook)\b", re.I)
-OK_SRC = re.compile(r"\b(operative|nursing|nurse'?s?|progress|discharge|referral|clinic|admission|pathology|op) notes?\b|"
-                    r"\b(glass )?slides? (of|from) the (biopsy|specimen)|\bslide (review|of the)\b", re.I)
+OK_SRC = re.compile(r"(?<!pre-)\b(operative|nursing|nurse'?s?|progress|discharge|referral|clinic|admission|pathology|op) notes?\b|"
+                    r"\b(glass )?slides? (of|from) the (biopsy|specimen)|\bslide (review|of the)\b|writes? in the notes?\b|\b(is|are) listed for (?!(this|these|that|the management|management)\b)|listed for (an? |the )?(elective|emergency|urgent|surgery|operation|\w+ectomy|\w+otomy|repair)", re.I)
+# "according to the …" ผ่านถ้าตามด้วยชื่อ guideline หรือไม่ได้ตามด้วยคำบ่งแหล่ง/ตาราง
+SRCNEXT = re.compile(r"lecture|note|handout|slide|table|list|definition|criteria|handwrit|text|file|older|jod|deck|bedside|pre-?op order|resource|framework", re.I)
 
-GL = re.compile(r"\s*(current |latest |full |revised |updated |20\d\d )*(Tokyo|Revised Atlanta|Atlanta|ASGE|ASCO|NCCN|ESMO|AJCC|WHO|ACOG|RTCOG|IAP|APA|SSO|ASTRO|Japanese|joint|European|American|international|\d{4})", re.I)
+GL = re.compile(r"\s*(current |latest |full |revised |updated |restrictive |20\d\d )*(Tokyo|Revised Atlanta|Atlanta|ASGE|ASCO|NCCN|ESMO|AJCC|WHO|ACOG|RTCOG|IAP|APA|SSO|ASTRO|ESC|ACC|AHA|ASA|ERAS|CHEST|AABB|NICE|IDSA|CDC|Japanese|joint|European|American|international|\d{4})", re.I)
 
 def first_sentence(s):
     m = re.search(r'[.?!](\s|$)', s)
@@ -45,7 +55,9 @@ def check(q):
         ctx = txt[max(0, m.start()-25):m.end()+25]
         if OK_SRC.search(ctx):
             continue
-        if m.group(0).lower() == 'according to the' and GL.match(txt[m.end():m.end()+40]):
+        if q.get('img') and re.search(r'table|list|figure', m.group(0), re.I):   # มีรูปในโจทย์ → "the table shown" อ้างได้
+            continue
+        if m.group(0).lower() == 'according to the' and (GL.match(txt[m.end():m.end()+40]) or not SRCNEXT.search(txt[m.end():m.end()+45])):
             continue
         flags.append('SRC:' + m.group(0))
     return flags
