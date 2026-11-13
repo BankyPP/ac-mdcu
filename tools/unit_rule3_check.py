@@ -30,7 +30,7 @@ FAKE = re.compile(r"\b(students?|medical student|resident|intern|extern|tutor|le
                   r"research(er)?|committee|quiz|journal club|attending|consultant|fellow|registrar|surgeon|team|"
                   r"nurse|pharmacist|panel|conference|guideline|policy|protocol|hospital|department|textbook)\b", re.I)
 OK_SRC = re.compile(r"(?<!pre-)\b(operative|nursing|nurse'?s?|progress|discharge|referral|clinic|admission|pathology|op) notes?\b|"
-                    r"\b(glass )?slides? (of|from) the (biopsy|specimen)|\bslide (review|of the)\b|writes? in the notes?\b|\b(is|are) listed for (?!(this|these|that|the management|management)\b)|listed for (an? |the )?(elective|emergency|urgent|surgery|operation|\w+ectomy|\w+otomy|repair)", re.I)
+                    r"\b(glass )?slides? (of|from) the (biopsy|specimen)|\bslide (review|of the)\b|writes? in the notes?\b|\b(resonant|tympanic|dull|percussion|high-pitched) notes?\b|\b(is|are) listed for (?!(this|these|that|the management|management)\b)|listed for (an? |the )?(elective|emergency|urgent|surgery|operation|\w+ectomy|\w+otomy|repair)", re.I)
 # "according to the …" ผ่านถ้าตามด้วยชื่อ guideline หรือไม่ได้ตามด้วยคำบ่งแหล่ง/ตาราง
 SRCNEXT = re.compile(r"lecture|note|handout|slide|table|list|definition|criteria|handwrit|text|file|older|jod|deck|bedside|pre-?op order|resource|framework", re.I)
 
@@ -52,8 +52,9 @@ def check(q):
             flags.append('SCENE?')
     txt = st + ' || ' + ' | '.join(q['opts'])
     for m in SRC.finditer(txt):
-        ctx = txt[max(0, m.start()-25):m.end()+25]
-        if OK_SRC.search(ctx):
+        c0 = max(0, m.start()-25); ctx = txt[c0:m.end()+25]
+        # ข้ามเฉพาะเมื่อวลีที่อนุญาต (operative note, slide of the biopsy …) ครอบคำที่ถูกจับเอง — ไม่ใช่แค่อยู่ใกล้ ๆ
+        if any(c0+k.start() <= m.start() and m.end() <= c0+k.end() for k in OK_SRC.finditer(ctx)):
             continue
         if q.get('img') and re.search(r'table|list|figure', m.group(0), re.I):   # มีรูปในโจทย์ → "the table shown" อ้างได้
             continue
