@@ -23,3 +23,5 @@
 
 ## ความคืบหน้า
 - ✅ ชุด 1 (p1–27) 14 พ.ย. 2026: Round I/O R01-0, R01-H1…H12, R01-P1…P2, R01-A1…A9 + Service round XX RoX (`data_med/osce_b17.js`) · ช่วงหน้าตรงบท ไม่ต้องขยับ
+- ✅ ชุด 2 (p28–65) 14 พ.ย. 2026: Lab/Microscope/PE/Procedure/Skin R01-L1…L7, R01-M1, R01-P3…P6, R01-PR1…PR5, R01-S1…S6 + XX RoX 2 สถานี · ช่วงหน้าตรงบท
+- ✅ ชุด 3 (p66–103) 15 พ.ย. 2026: Imaging R01-I1…I16 (CXR I1–I10, CT brain I11–I12, CT abdomen/thyroid/parathyroid/bone/USG I13–I16) + XX RoX 1 สถานี (XX-ThyScan p94) · ช่วงหน้าตรงบท (p66 = ปก CXR, p103 หน้าว่าง, p104 = ปก EKG)

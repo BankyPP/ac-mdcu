@@ -6,6 +6,7 @@
    · กล่อง "XX." ที่แปะในหน้าซักประวัติ 4 สถานี: p10 ไข้ 3 วัน · p14 ถ่ายเป็นเลือดดำสลับแดง · p15 ขาบวม · p16 ไอเป็นเลือด
      (สถานีที่สมุดเขียนเป็นเลข 1–12 ในหน้าซักประวัติ = ข้อสอบปีอื่นที่มีในคลังแล้ว → ไม่ใส่ซ้ำ)
    · ชุด 2 (p28–65, 14 พ.ย. 2026): กล่อง "XX." 2 สถานี — p40 thyrotoxicosis DDx 3 โรค · p64 skin lesion ที่ penis (สถานีเลขอื่นในช่วงนี้ = ปีอื่นที่มีในคลังแล้ว → ติด 📝 recall ใน Round I/O)
+   · ชุด 3 (p66–103 Imaging, 15 พ.ย. 2026): กล่อง "XX." 1 สถานี — p94 thyroid scan (test name / describe / Dx / Tx) · สถานีเลขอื่นในช่วงนี้ (CXR 7, 9, 11, 15 · CT brain 4, 12, 14 · CT abdomen 10 · thyroid scan 5, 10 · parathyroid scan 13 · hypercalcemia X-ray 14 · USG GB 9) = ปีอื่น → ติด 📝 recall ใน Round I/O R01-I10…I16
    เฉลย: ใช้ key ในสมุดถ้ามี (ลายมือในหน้าเนื้อหา R01) · ไม่มี = เฉลยโดย Claude · CXR ใช้เกณฑ์ ABCDEFGHI · Skin ใช้เวอร์ชันหลักของผู้ใช้ (med-osce)
    รูป: p5 CT → img/moxx_ct.jpg · สถานีอื่นไม่มีรูปในสมุด (NOIMG) */
 const NK="ไม่มีเฉลยในสมุด (เฉลยโดย Claude)";
@@ -369,6 +370,28 @@ X({page:64,orig:"XX-Penis",topic:"skin",seen:"คล้าย MDCU71 RoX Skin1 (
    pts:[G("2 factors",2,P("High-risk HPV (16, 18)","hpv","16","18","papilloma"),P("Smegma / phimosis / uncircumcised","smegma","phimosis","circumcis","ขลิบ","hygiene"),P("Smoking","smok","บุหรี่"),P("Immunosuppression / HIV","immuno","hiv","ภูมิ"),P("Lichen sclerosus / chronic inflammation","lichen","balanitis","inflamm"))]})),
  interp:"ตุ่ม verrucous ที่ penis → anogenital wart (HPV 6/11) · ตุ่ม hyperpigmented แบน → bowenoid papulosis (HPV 16) · ความเสี่ยงมะเร็ง: HPV 16/18, smegma/phimosis, smoking",
  summary:["Condyloma = HPV 6, 11 · Bowenoid papulosis = HPV 16","มะเร็งองคชาต: HPV 16/18, smegma/phimosis/ไม่ขลิบ, บุหรี่","ตรวจคัด STI อื่น (HIV, syphilis) ด้วย"]})
+
+/* ============================ ชุด 3 (p66–103) · กล่อง "XX." 1 สถานี — เพิ่ม 15 พ.ย. 2026 ============================ */
+,X({page:94,orig:"XX-ThyScan",topic:"img",seen:"คล้าย MDCU78 RoD ข้อ 9, MDCU77 RoD ข้อ 10 (thyroid scan — Graves disease with a cold nodule)",title:"Thyroid scan — name the test, describe, diagnose and treat",imgNote:NOIMG+" · ลายมือข้างโจทย์ในสมุด: diffuse homogeneous increased uptake at both lobes with focal decreased uptake at the right lobe (Graves w/ cold) — ข้อนี้ฝึกบรรยายภาพแบบนั้น",
+ stem:`A thyroid scan image is shown.<br>1. What is the name of this test?<br>2. Describe the findings.<br>3. What is the diagnosis?<br>4. How would you treat this patient?`,
+ gray:"XX. ให้รูป thyroid scan มาถามว่า\n1. Test ชื่ออะไร\n2. บรรยายสิ่งที่พบ\n3. Diagnosis\n4. Treatment",
+ flag:"สมุดไม่มีรูปแยกของข้อนี้ — เฉลยจากลายมือเล็กสีน้ำเงินข้างโจทย์ (p94) ซึ่งตรงกับสถานี 10 ในหน้าเดียวกัน (Graves with cold nodule) · ข้อ 4 Claude เติม FNA ของ cold nodule + แก้ \"PTU with methimazole\" เป็นยาตัวเดียว",
+ parts:S(
+  B("1. What is the name of this test?",2,{tags:["img"],key:KN(94)+" — Tc-99m pertechnetate scan",
+   ans:"<b>Tc-99m pertechnetate thyroid scan (thyroid scintigraphy)</b> — pertechnetate ถูก trap โดย sodium–iodide symporter แต่ไม่ถูก organify · (ถ้าใช้ I-123 = radioiodine scan/RAIU) · จำ: sestamibi → thyroid + parathyroid · pertechnetate → thyroid · subtraction → parathyroid",
+   pts:[CR(P("Tc-99m pertechnetate thyroid scan","pertechnetate","tc.?99","technetium","scintigra","thyroid scan","i.?123"))]}),
+  B("2. Describe the findings.",4,{tags:["img"],key:KN(94)+" — diffuse homogenous increased uptake of iodine at both lobes of thyroid gland with focal decreased uptake at right (lobe)",
+   ans:"Thyroid scintigraphy, anterior view: <b>enlarged gland with diffuse homogeneous increased tracer uptake in both lobes</b> (± pyramidal lobe, background ต่ำ) with a <b>focal area of decreased uptake (cold area) in the right lobe</b>",
+   exp:"ใช้คำว่า tracer uptake (pertechnetate ไม่ใช่ iodine) · บอกทั้งลักษณะทั่วไป (diffuse/heterogeneous/focal, homogeneous) และจุดผิดปกติ (ตำแหน่ง, hot/cold)",
+   pts:[CR(P("Diffuse homogeneous increased uptake, both lobes","diffuse","homogen","both lobe","bilateral","increas")),CR(P("Focal decreased uptake (cold) in the right lobe","cold","decreas","photopenic","right","rt")),P("Pyramidal lobe / low background","pyramidal","background")]}),
+  B("3. What is the diagnosis?",2,{tags:["img"],key:KN(94)+" — G(raves) w/ cold (nodule)",
+   ans:"<b>Graves' disease with a cold (hypofunctioning) nodule</b> in the right lobe · DDx: toxic multinodular goiter (uptake heterogeneous มีทั้ง hot/cold) · Marine–Lenhart syndrome (Graves + autonomous nodule — nodule จะ hot)",
+   pts:[CR(P("Graves' disease","grave","basedow")),CR(P("with a cold nodule","cold","hypofunction","nodule"))]}),
+  B("4. How would you treat this patient?",4,{tags:["img"],key:KN(94)+" — 1. propylthiouracil with methimazole 2. thyroidectomy 3. radioactive I",flag:"Claude เติม FNA + β-blocker และแก้การใช้ยาร่วมกัน",
+   ans:"ควบคุมอาการด้วย <b>β-blocker</b> · ยาต้านไทรอยด์<b>ตัวเดียว</b>: <b>methimazole</b> (PTU เฉพาะไตรมาสแรก/thyroid storm/แพ้ MMI) — สมุดเขียน \"PTU with methimazole\" ไม่ถูก (ไม่ใช้ร่วมกัน) · <b>ประเมิน cold nodule ด้วย US ± FNA</b> ก่อนเลือกการรักษาถาวร (ATA 2016) · definitive: <b>radioactive iodine (I-131)</b> หรือ <b>total thyroidectomy</b> — ถ้า nodule สงสัย/เป็นมะเร็ง หรือก้อนใหญ่กดเบียด เลือก <b>surgery</b>",
+   pts:[CR(P("Antithyroid drug — methimazole (one drug)","methimazole","\\bmmi\\b","antithyroid","carbimazole","ptu","propylthio")),P("β-blocker","beta","β","propranolol","blocker"),CR(P("FNA / ultrasound of the cold nodule","fna","fine.?needle","biopsy","ultrasound","\\bus\\b")),G("Definitive therapy",1,P("Radioactive iodine","radioactive","\\brai\\b","i.?131","radioiodine"),P("Thyroidectomy","thyroidectomy","surgery","ผ่าตัด"))]})),
+ interp:"Diffuse homogeneous ↑ uptake ทั้ง 2 lobe + จุด cold ที่ right lobe → Graves with cold nodule → MMI + β-blocker, FNA cold nodule, definitive RAI/surgery",
+ summary:["Pertechnetate = trap only · sestamibi = thyroid + parathyroid · subtraction = parathyroid","Graves: diffuse homogeneous ↑ uptake ± pyramidal lobe · TMNG: heterogeneous · toxic adenoma: hot nodule + suppressed rest · thyroiditis: no uptake","Cold nodule ใน Graves ต้อง FNA ก่อน RAI · ยาต้านไทรอยด์ใช้ตัวเดียว (MMI)"]})
 
 );
 })();
