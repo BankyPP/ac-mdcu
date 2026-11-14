@@ -341,6 +341,7 @@ function mqSheet(){const v=mqS().v,rk=v.r||"service",L=mqL(),c=mqCur(),cur=c?{u:
   $("rows").innerHTML=Q.length?`<div class="mqv"><div class="trows mqrows">`+Q.map(q=>mqRowHTML(q,rk,cur)).join("")+`</div></div>`:`<div class="empty">${T.length?`ไม่พบข้อที่มีคำว่า “${esc(sheetQ.trim())}”`:rk==="grand"?"ยังไม่ได้สุ่มข้อในรอบนี้":"ไม่มีข้อในเงื่อนไขที่เลือก"}</div>`;
   $("sheetFoot").innerHTML=`<span class="hint">แตะเลขข้อเพื่อไปที่ข้อ · แตะ Part เพื่อเปิด Part นั้น (🔒 = ต้องส่ง Part ก่อนหน้าก่อน) · วงกลม = ข้อย่อย: เขียว ได้เต็ม · เหลือง บางส่วน · แดง ไม่ได้ · ทึบ ส่งแล้วยังไม่ให้คะแนน · ★ ติดดาว · 📝 มีโน้ต${SV?" · แตะชุด/พาร์ทเลือกได้หลายอัน":""}</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span>`;
   const tog=(cur,k)=>{let a=cur==="all"?[]:cur.split("|");if(k==="all")a=[];else if(a.includes(k))a=a.filter(x=>x!==k);else a.push(k);return a.length?a.join("|"):"all";};
+  if(typeof chipRowKeep==="function"){chipRowKeep(sc,"set");if(cc&&!cc.hidden)chipRowKeep(cc,"ch");}
   sc.querySelectorAll("[data-sms]").forEach(b=>b.onclick=()=>{mqVset({set:tog(v.set,b.dataset.sms)});save();mqSheet();});
   if(cc)cc.querySelectorAll("[data-smp]").forEach(b=>b.onclick=()=>{mqVset({sec:tog(v.sec,b.dataset.smp)});save();mqSheet();});
   stc.querySelectorAll("[data-smt]").forEach(b=>b.onclick=()=>{mqVset({status:b.dataset.smt});save();mqSheet();});
@@ -4579,13 +4580,13 @@ function sheet(){
   $("sheetTitle").textContent=`กระดาษคำตอบ · Phase ${p}`;
   const sets=W.sets,sv=svcS();
   $("setChips").innerHTML=[["all",sv.set==="all"?"ทุกชุด":`ทุกชุด (เลือก ${selSets().length})`],...sets.map(k=>[k,(CFG.chipStrip?k.replace(CFG.chipStrip,""):k)])].map(([v,t])=>`<button class="chip" aria-pressed="${v==="all"?sv.set==="all":selSets().includes(v)}" data-set="${esc(v)}">${esc(t)}</button>`).join("");
-  {const sc=$("setChips"),on=sc.querySelector('[aria-pressed="true"]');if(sheet._ok)sc.scrollLeft=sheet._x||0;if(on){const l=on.offsetLeft-sc.offsetLeft,r=l+on.offsetWidth;if(!sheet._ok||l<sc.scrollLeft||r>sc.scrollLeft+sc.clientWidth)sc.scrollLeft=l-sc.clientWidth/2+on.offsetWidth/2;}sheet._ok=1;sheet._x=sc.scrollLeft;sc.onscroll=()=>{sheet._x=sc.scrollLeft;};sc.onwheel=e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){sc.scrollLeft+=e.deltaY;e.preventDefault();}};}
+  chipRowKeep($("setChips"),"set");
   document.querySelectorAll("[data-set]").forEach(b=>b.onclick=()=>{const v=b.dataset.set;if(v==="all")sv.set="all";else{const c=selSets(),i=c.indexOf(v);if(i<0)c.push(v);else c.splice(i,1);c.sort((x,y)=>sets.indexOf(x)-sets.indexOf(y));sv.set=c.length?c.join("|"):"all";}P.pick=selSets();save();sheet();});
   /* chapter picker (e.g. YUZU) — shown only while a chaptered set is selected; slides like the set chips */
   {const cs=chSets(),cc=$("chChips");if(cs.length&&cc){const C=Object.assign({},...cs.map(k=>W.CHAP[k])),qs=W.QB.filter(q=>cs.includes(setKey(q))),chs=[...new Set(qs.map(chOf))].filter(c=>C[c]||qs.some(q=>chOf(q)===c)),sel=!sv.ch||sv.ch==="all"?[]:sv.ch.split("|");
     cc.innerHTML=[["all",sel.length?`ทุกบท (เลือก ${sel.length})`:"ทุกบท"],...chs.map(c=>[c,(/^\d+$/.test(c)?"บท "+c:c)+(C[c]?" · "+C[c]:"")])].map(([v,t])=>{const n=v==="all"?0:qs.filter(q=>chOf(q)===v).length,d=v==="all"?0:qs.filter(q=>chOf(q)===v&&lockedAns(P,p,q.uid)!==undefined).length;return `<button class="chip" aria-pressed="${v==="all"?!sel.length:sel.includes(v)}" data-ch="${esc(v)}" title="${esc(C[v]||"")}">${esc(t)}${v==="all"?"":` <span class="cnt">${d}/${n}</span>`}</button>`;}).join("");
     cc.hidden=false;
-    if(sheet._cok)cc.scrollLeft=sheet._cx||0;else{const on=cc.querySelector('[aria-pressed="true"]:not([data-ch="all"])');if(on)cc.scrollLeft=on.offsetLeft-cc.offsetLeft-cc.clientWidth/2+on.offsetWidth/2;}sheet._cok=1;cc.onscroll=()=>{sheet._cx=cc.scrollLeft;};cc.onwheel=e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){cc.scrollLeft+=e.deltaY;e.preventDefault();}};
+    chipRowKeep(cc,"ch");
     cc.querySelectorAll("[data-ch]").forEach(b=>b.onclick=()=>{const v=b.dataset.ch;let c=!sv.ch||sv.ch==="all"?[]:sv.ch.split("|");if(v==="all")c=[];else if(c.includes(v))c=c.filter(x=>x!==v);else c.push(v);c.sort((x,y)=>chs.indexOf(x)-chs.indexOf(y));sv.ch=c.length?c.join("|"):"all";const cq=svcQ();if(cq&&!svcList().some(q=>q.uid===cq.uid)){const nx=svcVisible().find(q=>lockedAns(P,p,q.uid)===undefined)||svcVisible()[0];sv.cur=nx?nx.uid:null;}save();sheet();rQuiz();});}}
   tgLine(tgAllQ(W),sv.tg,()=>{sv.tg.on=false;save();sheet();},()=>{closeS(true);go(ward+"/service");});
   const FS=[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["wrong","ตอบผิด"]].concat(p===2?[["right","ตอบถูก"],["flag","⚑ ไม่มั่นใจ"],["note","📝 มีโน้ต"],["nop1","ไม่เคยทำใน P1"]]:[["flag","⚑ ไม่มั่นใจ"],["note","📝 มีโน้ต"]]);
@@ -4626,7 +4627,12 @@ function rows(list,empty){
     return `<button class="srow ${x.cur?"cur":""}" data-r="${i}"><span class="n">${q.id}</span><span class="bs">${bs}</span><span class="meta">${x.meta||""}${esc(q.set)} ${esc(q.ro)}${((W_()||{}).CHAP||{})[setKey(q)]?" · "+esc(q.orig):""}${flagged(P_(),q.uid)?" ⚑":""}${noted(q.uid)?" 📝":""}</span></button>`;}).join("");
   document.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{const x=list[+b.dataset.r];if(x.lock){toast(navMsg());return;}closeS();x.go();});
 }
-function openS(){sheet._ok=0;sheet._cok=0;sheet();$("overlay").classList.add("open");const c=document.querySelector(".srow.cur,.crow.cur");if(c)c.scrollIntoView({block:"center"});$("closeSheet").focus();}
+/* sliding chip rows in the answer sheet (sets / Ro, chapters, MEQ parts): re-rendering after a tap keeps the row exactly where it was —
+   never jumps back to the left or to the first selected chip (user 14 Nov 2026, every ward, every site); only a fresh open centres the first selected chip */
+function chipCenter(el){if(!el||el.hidden)return;const on=[...el.querySelectorAll('[aria-pressed="true"]')].find(b=>!["set","ch","sms","smp"].some(k=>b.dataset[k]==="all"));el.scrollLeft=on?on.offsetLeft-el.offsetLeft-el.clientWidth/2+on.offsetWidth/2:0;}
+function chipRowKeep(el,k){if(!el)return;const S=sheet._sx||(sheet._sx={});if(k in S)el.scrollLeft=S[k];else if($("overlay").classList.contains("open")){chipCenter(el);S[k]=el.scrollLeft;}
+  el.onscroll=()=>{S[k]=el.scrollLeft;};el.onwheel=e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){el.scrollLeft+=e.deltaY;e.preventDefault();}};}
+function openS(){sheet._sx={};sheet();$("overlay").classList.add("open");[["setChips","set"],["chChips","ch"]].forEach(([id,k])=>{const el=$(id);if(el&&!el.hidden&&el.children.length){chipCenter(el);sheet._sx[k]=el.scrollLeft;}});const c=document.querySelector(".srow.cur,.crow.cur");if(c)c.scrollIntoView({block:"center"});$("closeSheet").focus();}
 function closeS(silent){$("overlay").classList.remove("open");if(!silent&&!$("openSheet").hidden)$("openSheet").focus();}
 $("openSheet").onclick=openS;$("closeSheet").onclick=()=>closeS();
 $("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeS();});
