@@ -8,6 +8,7 @@
 "code": "T01",
 "ch": "01",
 "title": "Chula Surgery 1 · บท 1 Systemic response to injury",
+"kw": "stress response|metabolic response|response to (injury|trauma|surgery)|catabol|hypermetabol|SIRS|cytokine|ebb phase|flow phase",
 "topic": "Fluid, Electrolyte & Nutrition",
 "tags": [
 "Metabolic response",
@@ -53,6 +54,7 @@
 "code": "T01",
 "ch": "02",
 "title": "Chula Surgery 1 · บท 2 Wound healing and wound care",
+"kw": "wound (heal|care|dehisc)|healing|scar|keloid|hypertrophic scar|dressing|debride|pressure (ulcer|injury)|แผล",
 "topic": "Skin & Soft tissue",
 "tags": [
 "Plastic"
@@ -97,6 +99,7 @@
 "code": "T01",
 "ch": "03",
 "title": "Chula Surgery 1 · บท 3 Hemostasis, Surgical Bleeding, and Transfusion",
+"kw": "transfus|blood (product|component)|\\bFFP\\b|cryoprecip|platelet (transfus|count)|coagulopath|hemostas|massive (transfusion|hemorrhage)|reversal|vitamin K|\\bINR\\b|warfarin|bleeding disorder|ให้เลือด",
 "topic": "Trauma & Critical care",
 "tags": [
 "Hemostasis & transfusion"
@@ -141,6 +144,7 @@
 "code": "T01",
 "ch": "04",
 "title": "Chula Surgery 1 · บท 4 Fluid and electrolyte management",
+"kw": "fluid (therapy|resuscit|manag|replace|balance|deficit)|maintenance fluid|IV fluid|crystalloid|electrolyte|hypo-?natr|hyper-?natr|hypo-?kal|hyper-?kal|hypo-?calc|hypo-?magnes|acid.?base|metabolic (acid|alkal)|dehydrat|สารน้ำ|เกลือแร่",
 "topic": "Fluid, Electrolyte & Nutrition",
 "tags": [
 "Fluid & electrolyte"
@@ -185,6 +189,7 @@
 "code": "T01",
 "ch": "05",
 "title": "Chula Surgery 1 · บท 5 Surgical infection",
+"kw": "surgical site infect|\\bSSI\\b|wound infect|necrotizing (soft|fasci)|abscess|infected (pancreatic )?necros|infected|intra-?abdominal infect|cellulitis|antibiotic prophyla|prophylactic antibio|tetanus|ติดเชื้อ",
 "topic": "Perioperative care & Surgical infection",
 "tags": [
 "Surgical infection"
@@ -229,6 +234,7 @@
 "code": "T01",
 "ch": "06",
 "title": "Chula Surgery 1 · บท 6 Thyroid and Parathyroid",
+"kw": "thyroid|parathyroid|goit|\\bPTH\\b|hyperparathyroid|hypercalc|thyroidect|ไทรอยด์|คอพอก",
 "topic": "Thyroid & Endocrine",
 "tags": [
 "Thyroid & parathyroid",
@@ -272,6 +278,7 @@
 "code": "T01",
 "ch": "07",
 "title": "Chula Surgery 1 · บท 7 The Breast",
+"kw": "breast|mammo|nipple|BI-?RADS|fibroadenom|mastitis|phyllodes|เต้านม",
 "topic": "Breast",
 "tags": [
 "Breast",
@@ -329,6 +336,7 @@
 "code": "T01",
 "ch": "08",
 "title": "Chula Surgery 1 · บท 8 Small intestine",
+"kw": "small (bowel|intestin)|\\bSBO\\b|bowel obstruct|ileus|adhesi|crohn|meckel|intussuscep|mesenteric ischemi|ลำไส้เล็ก|ลำไส้อุดตัน",
 "topic": "Small bowel & Obstruction",
 "tags": [
 "Small bowel",
@@ -374,6 +382,7 @@
 "code": "T01",
 "ch": "09",
 "title": "Chula Surgery 1 · บท 9 The Vermiform Appendix",
+"kw": "append|mcburney|alvarado|ไส้ติ่ง",
 "topic": "Appendix",
 "tags": [
 "Appendix",
@@ -416,6 +425,7 @@
 "code": "T01",
 "ch": "10",
 "title": "Chula Surgery 1 · บท 10 Lower gastrointestinal hemorrhage",
+"kw": "lower GI|hematochez|rectal bleed|\\bLGIB\\b|diverticul|angiodysplas|ถ่ายเป็นเลือด",
 "topic": "Colorectal & Anorectal",
 "tags": [
 "Colorectal"
@@ -455,6 +465,7 @@
 "code": "T01",
 "ch": "11",
 "title": "Chula Surgery 1 · บท 11 Liver",
+"kw": "liver|cirrho|portal hypert|hepatic (abscess|resect|failure|trauma)|varice|ตับ",
 "topic": "Liver",
 "tags": [
 "Liver",
@@ -498,6 +509,7 @@
 "code": "T01",
 "ch": "12",
 "title": "Chula Surgery 1 · บท 12 Colorectal cancer",
+"kw": "colorectal|colon (cancer|carcinoma|polyp)|rect(al|um) (cancer|carcinoma)|\\bCEA\\b|\\bFAP\\b|lynch|polyp|มะเร็งลำไส้",
 "topic": "Colorectal & Anorectal",
 "tags": [
 "Colorectal",
@@ -540,6 +552,7 @@
 "code": "T01",
 "ch": "13",
 "title": "Chula Surgery 1 · บท 13 Spleen",
+"kw": "spleen|splen|ม้าม",
 "topic": "Pancreas & Spleen",
 "tags": [
 "Spleen"
@@ -582,6 +595,7 @@
 "code": "T01",
 "ch": "14",
 "title": "Chula Surgery 1 · บท 14 Abdominal Wall Hernia",
+"kw": "hernia|inguinal|femoral canal|umbilical|incisional|ไส้เลื่อน",
 "topic": "Hernia & Abdominal wall",
 "tags": [
 "Hernia"
@@ -624,6 +638,7 @@
 "code": "T01",
 "ch": "15",
 "title": "Chula Surgery 1 · บท 15 Liver mass approach",
+"kw": "liver mass|hepatic mass|\\bHCC\\b|hepatocellular|hemangioma|\\bFNH\\b|hepatic adenoma|cholangiocarcinoma|\\bAFP\\b|ก้อนที่ตับ",
 "topic": "Liver",
 "tags": [
 "Liver",
@@ -667,6 +682,7 @@
 "code": "T01",
 "ch": "16",
 "title": "Chula Surgery 1 · บท 16 Disease of the arterial system",
+"kw": "arter|aneurysm|\\bAAA\\b|claudication|limb ischemi|\\bABI\\b|ankle.?brachial|\\bPAD\\b|carotid|embolectomy|gangrene",
 "topic": "Vascular & Venous",
 "tags": [
 "Vascular"
@@ -709,6 +725,7 @@
 "code": "T01",
 "ch": "17",
 "title": "Chula Surgery 1 · บท 17 Venous Thromboembolism (VTE)",
+"kw": "\\bDVT\\b|\\bVTE\\b|venous thromboemb|deep vein|pulmonary embol|wells|d-?dimer|IVC filter|thromboprophyla",
 "topic": "Vascular & Venous",
 "tags": [
 "Vascular"
@@ -743,6 +760,7 @@
 "code": "T01",
 "ch": "18",
 "title": "Chula Surgery 1 · บท 18 Chronic venous disease (CVD)",
+"kw": "varicose|venous insufficien|venous ulcer|\\bCEAP\\b|venous reflux|telangiect|เส้นเลือดขอด",
 "topic": "Vascular & Venous",
 "tags": [
 "Vascular"
@@ -781,6 +799,7 @@
 "code": "T01",
 "ch": "19",
 "title": "Chula Surgery 1 · บท 19 Surgical Management of malignant neoplasm of breast",
+"kw": "breast cancer|mastectom|breast.?conserv|\\bBCS\\b|sentinel|axillary|lumpectom|มะเร็งเต้านม",
 "topic": "Breast",
 "tags": [
 "Breast",
@@ -824,6 +843,7 @@
 "code": "T01",
 "ch": "20",
 "title": "Chula Surgery 1 · บท 20 Bite and stings",
+"kw": "\\bbite|sting|snake|rabies|scorpion|\\bbee\\b|wasp|jellyfish|งู|สุนัข|หมากัด|แมวกัด|ผึ้ง|ต่อ ?ต่อย",
 "topic": "Trauma & Critical care",
 "tags": [
 "Trauma",

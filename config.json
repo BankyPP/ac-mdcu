@@ -267,7 +267,8 @@
           "grade": false,
           "autoRest": false
         }
-      }
+      },
+      "mornMEQ": true
     },
     {
       "id": "ped",
@@ -400,7 +401,10 @@
       "rotation": {
         "start": "2026-10-12",
         "end": "2026-11-22"
-      }
+      },
+      "ioTypes": [
+        "MCQ"
+      ]
     },
     {
       "id": "subspe",
@@ -522,7 +526,8 @@
           "ai": 0.3,
           "aiFromAC": true
         }
-      }
+      },
+      "mornMEQ": true
     }
   ],
   "firebase": {
