@@ -12,7 +12,7 @@
    • รูปแบบข้อเล็ก (สุ่ม): ไม่มีข้อบังคับ / จำกัดจำนวน (lim:N นับเฉพาะ N อย่างแรก) ไม่เกิน 1 ข้อต่อเคส ห้ามใช้กับ Mx /
      ถามเหตุผลเพิ่ม ไม่เกิน 1 ข้อต่อเคส ห้ามใช้กับ Hx และ Mx · DDx ไม่นับเป็นข้อจำกัดจำนวน (แต่ตรวจเฉพาะ X อย่างแรกด้วย lim)
    • Claude เรียง Part ที่สุ่มได้ตาม flow: PE → provisional Dx / DDx → Investigation → Lab → most likely Dx / DDx → Severity → Mx
-   • เคสทดลอง 14 พ.ย. เป็นแบบเดิม (ให้ประวัติ+ตรวจร่างกายครบใน stem) — ไม่แก้เพราะผู้ใช้เริ่มทำไปแล้ว
+   • เคสทดลอง 14 พ.ย. = สำเนาเคสที่ 1 (DKA วันจันทร์) ทุกตัวอักษร — ผู้ใช้สั่ง 14 พ.ย. 15:19 ให้ลองของวันจันทร์ก่อน
    ลำดับ (ผู้ใช้สั่ง 14 พ.ย. 2026): เคส 14 พ.ย. (เสาร์) = เคสทดลองให้ผู้ใช้ลองก่อน แบบเดิม · 15 พ.ย. ไม่มีเคส · เริ่มนับจริงวันจันทร์ 16 พ.ย. = เคสที่ 1 (no:1)
    ชุด 7 วันแรก (ระบบไม่ซ้ำ Claude เลือกเอง): 16 Endocrine (DKA — โรคเดียวกับเคสทดลอง เขียนใหม่ตามรูปแบบ flowchart) · 17 ID/Tropical (leptospirosis) · 18 Cardio (inferior STEMI + RV)
    · 19 Hemato (IDA) · 20 Nephro (AKI) · 21 Pulmo (AECOPD) · 22 Neuro (acute ischemic stroke)
@@ -25,32 +25,52 @@ function B(q,marks,o){const pts=[],kw=[];(o.pts||[]).forEach(p=>{if(p.opts){pts.
   const s=Object.assign({q,marks,key:MK},o);delete s.pts;s.points=pts;s.kw=kw;return s;}
 QB.push(
 
-/* ======================= 14 พ.ย. 2026 · Endocrine · DKA (ปานกลาง) ======================= */
+/* ======================= 14 พ.ย. 2026 (วันเสาร์ · เคสทดลอง = สำเนาเคสที่ 1 วันจันทร์ ให้ผู้ใช้ลองก่อน) · Endocrine · DKA (ปานกลาง) · 4 Part: Hx → PE + DDx → Lab + Dx → Severity + Mx ======================= */
 {day:"2026-11-14",sec:"MEQ",
- stem:`A 19-year-old woman with type 1 diabetes mellitus (on basal–bolus insulin) comes to the emergency department with vomiting and diffuse abdominal pain for 2 days. She stopped all her insulin because she could not eat.<br>Vital signs: BT 37.8 °C, PR 124/min, BP 96/58 mmHg, RR 32/min with deep breathing. Her mucous membranes are dry and her breath has a fruity odor. She is drowsy but obeys commands.`,
+ stem:`A 19-year-old woman comes to the emergency department because of vomiting and abdominal pain for 2 days.`,
  parts:[
-  {subs:[B("1. What is the most likely diagnosis? List the 3 most important investigations you would send immediately.",4,{
-   ans:`<b>Diabetic ketoacidosis (DKA)</b> precipitated by insulin omission<br>Immediate: capillary/plasma <b>glucose</b> · <b>blood (or urine) ketones</b> (β-hydroxybutyrate) · <b>venous/arterial blood gas</b> · plus electrolytes (Na, K, Cl, HCO₃), BUN/Cr`,
-   exp:"Kussmaul breathing + กลิ่นผลไม้ + ขาดอินซูลินใน T1DM = DKA จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ต้องยืนยัน 3 อย่าง: น้ำตาลสูง (หรือมีเบาหวาน), ketone สูง (β-OHB ≥ 3 mmol/L), metabolic acidosis (pH < 7.3 หรือ HCO₃ < 18) · ส่ง K ก่อนให้ insulin เสมอ",
-   pts:[P("Diabetic ketoacidosis (DKA)","DKA","ketoacidosis"),P("Plasma / capillary glucose","glucose","DTX","น้ำตาล","sugar"),P("Blood or urine ketone (β-hydroxybutyrate)","ketone","hydroxybutyrate","β-?OHB","คีโตน"),P("Blood gas (VBG / ABG)","[VA]BG","blood gas","pH"),P("Electrolytes incl. potassium","electrolyte","potassium","\\bK\\b","โพแทสเซียม")]})]},
-  {info:`Results: plasma glucose 486 mg/dL · venous pH 7.08, pCO₂ 20 mmHg, HCO₃⁻ 7 mEq/L · Na 131, K 5.6, Cl 96 mEq/L · BUN 32, Cr 1.4 mg/dL · β-hydroxybutyrate 6.2 mmol/L`,
-   subs:[B("2. Interpret the acid–base status (show the anion gap and whether respiratory compensation is appropriate). How severe is this episode?",5,{
-   ans:`Anion gap = 131 − (96 + 7) = <b>28</b> → <b>high anion gap metabolic acidosis</b> (ketoacidosis)<br>Winter's formula: expected pCO₂ = 1.5 × 7 + 8 = 18.5 ± 2 (16.5–20.5) → pCO₂ 20 = <b>appropriate respiratory compensation</b><br>Corrected Na ≈ 131 + 1.6 × (486 − 100)/100 ≈ 137 mEq/L<br>Severity: HCO₃⁻ < 10 / pH near 7.0 + drowsy → <b>severe DKA</b>`,
-   exp:"AG ปกติ ~8–12 · Winter: pCO₂ = 1.5×HCO₃ + 8 ± 2 · ADA: severe เมื่อ pH < 7.00 หรือ HCO₃ < 10 หรือซึม/stupor — เคสนี้ HCO₃ 7 + ซึม = severe · K 5.6 สูงจาก shift ออกนอกเซลล์ แต่ total body K ต่ำ",
-   pts:[P("High anion gap metabolic acidosis","high anion gap","HAGMA","anion gap","AG"),P("AG = 28","28"),P("Appropriate respiratory compensation (Winter's)","appropriate","Winter","compensat"),P("Severe DKA","severe")]})]},
-  {subs:[B("3. Write the orders for the first 2 hours (fluid, insulin, potassium, bicarbonate).",6,{
-   ans:`• <b>IV 0.9% NaCl 1–1.5 L (15–20 mL/kg) in the first hour</b>, then 250–500 mL/h guided by volume status<br>• K⁺ 5.6 (≥ 3.5) → <b>start regular insulin IV infusion 0.1 U/kg/h</b> (± bolus 0.1 U/kg)<br>• Potassium: K > 5.0–5.2 → no K yet, recheck every 2 h; add KCl 20–30 mEq per litre once K ≤ 5.0–5.2 (if K < 3.5 hold insulin and replace first)<br>• <b>No bicarbonate</b> (only if pH < 6.9)<br>• Monitor glucose hourly, electrolytes/VBG every 2–4 h, urine output; add dextrose (D5–D10) when glucose < 250 mg/dL`,
-   exp:"ลำดับ: น้ำก่อน → ดู K ก่อนให้ insulin → insulin → เติม K ตามระดับ · ห้ามให้ insulin ถ้า K < 3.5 (หัวใจเต้นผิดจังหวะ) · bicarbonate ไม่ช่วยและอาจทำให้ hypokalemia/cerebral edema",
-   pts:[P("IV isotonic saline bolus (≈1 L / 15–20 mL/kg first hour)","NSS","0\\.9","saline","isotonic","balanced"),P("Insulin IV infusion 0.1 U/kg/h","insulin","0\\.1 ?U","RI"),P("Check K before insulin / K replacement plan by level","K","potassium","KCl","โพแทสเซียม"),P("No bicarbonate (unless pH < 6.9)","bicarb","NaHCO","ไม่ให้"),P("Add dextrose when glucose < 250 / hourly glucose monitoring","dextrose","D5","D10","250","monitor")]})]},
-  {info:`After 10 hours: glucose 190 mg/dL, venous pH 7.34, HCO₃⁻ 19, anion gap 11, β-hydroxybutyrate 0.4 mmol/L. She is alert and asks for food.`,
-   subs:[B("4. Has the DKA resolved? How will you switch her back to subcutaneous insulin, and what advice prevents another episode?",5,{
-   ans:`<b>Resolved</b>: ketones < 0.6 mmol/L and venous pH ≥ 7.3 (or HCO₃⁻ ≥ 18); (older ADA: glucose < 200 + 2 of HCO₃ ≥ 15, pH > 7.3, AG ≤ 12)<br>• Give <b>basal SC insulin 1–2 h before stopping the IV infusion</b> (overlap), restart basal–bolus with meals<br>• Sick-day rules: <b>never stop basal insulin</b>, check glucose/ketones more often, drink fluids, seek care early with vomiting<br>• Diabetes education / follow-up`,
-   exp:"หยุด insulin drip ทันทีโดยไม่มี SC basal ซ้อน = rebound ketoacidosis · สาเหตุชักนำที่พบบ่อย: ขาดยา, ติดเชื้อ, MI, ตั้งครรภ์ — ถามและแก้ทุกครั้ง",
-   pts:[P("DKA resolved (criteria)","resolve","หาย","ketone","pH"),P("Overlap SC basal insulin 1–2 h before stopping IV insulin","overlap","basal","1-2","2 ?h","ซ้อน"),P("Sick-day rules: never stop basal insulin, check ketones","sick ?day","never stop","ห้ามหยุด","ketone"),P("Education / find precipitating cause","educat","สอน","precipitat","ติดเชื้อ")]})]}
+  {subs:[
+   B("1.1 List 5 additional history items you would ask.",3,{lim:5,
+   ans:`Any 5: <b>site, onset, character, radiation of the pain</b> · <b>content of vomitus</b> (bile, blood) · <b>bowel habit</b> (diarrhea, constipation) · <b>fever</b> · <b>polyuria, polydipsia, weight loss</b> · <b>rapid breathing / drowsiness</b> · <b>last menstrual period</b> · <b>urinary symptoms</b> · <b>relation to food / alcohol</b> · <b>ability to keep fluids down</b>`,
+   exp:"โจทย์ให้ 5 อย่าง — นับเฉพาะ 5 อย่างแรกที่ตอบ",
+   pts:[G("History items (5)",5,P("Pain: site / onset / character / radiation","site","onset","character","radiat","ตำแหน่ง","ร้าว"),P("Content of vomitus","vomitus","bile","blood","coffee","content"),P("Bowel habit","bowel","diarrh","constipat","ถ่าย"),P("Fever","fever","ไข้"),P("Polyuria / polydipsia / weight loss","polyuri","polydips","weight","ปัสสาวะบ่อย","กระหายน้ำ"),P("Rapid breathing / drowsiness","breath","dyspn","drows","confus","หอบ","ซึม"),P("LMP / pregnancy","LMP","menstru","pregnan","ประจำเดือน"),P("Urinary symptoms","dysuria","urinary","ปัสสาวะแสบ"),P("Food / alcohol","food","meal","alcohol","อาหาร","เหล้า"),P("Keeping fluids down","fluid","keep","intake","กินได้"))]}),
+   B("1.2 What past medical and drug history would you ask?",2,{
+   ans:`<b>Diabetes</b> (type, duration, previous DKA) · <b>current medications and adherence</b> (insulin, SGLT2 inhibitor, steroid) · other underlying diseases · alcohol / substance use · previous abdominal surgery · drug allergy`,
+   exp:"SGLT2 inhibitor → euglycemic DKA · หยุด insulin = สาเหตุชักนำที่พบบ่อย",
+   pts:[P("Diabetes / previous DKA","diabet","DM","DKA","เบาหวาน"),P("Current drugs & adherence","insulin","SGLT","steroid","adheren","drug","medicat","ยา"),P("Alcohol / surgery / allergy","alcohol","surgery","allerg","เหล้า","ผ่าตัด","แพ้")]})]},
+  {info:`She has type 1 diabetes mellitus on basal–bolus insulin and stopped all her insulin 2 days ago because she could not eat. She has had polyuria and thirst for 3 days. The pain is diffuse and crampy. No diarrhea, no fever, no urinary symptoms. LMP 2 weeks ago. No other medication.`,
+   subs:[
+   B("2.1 What physical examination would you perform?",3,{
+   ans:`<b>Vital signs</b> incl. RR and SpO₂ · <b>level of consciousness (GCS)</b> · <b>breathing pattern</b> (Kussmaul) and <b>fruity breath</b> · <b>hydration status</b> (mucous membranes, skin turgor, capillary refill, JVP) · <b>abdominal examination</b> (tenderness, guarding, rebound, bowel sounds) · look for a <b>source of infection</b> (throat, chest, skin, injection sites)`,
+   exp:"ตรวจหา acidosis (Kussmaul), ภาวะขาดน้ำ, ระดับความรู้สึกตัว และแยก surgical abdomen",
+   pts:[P("Vital signs","vital","BP","pulse","RR","สัญญาณชีพ"),P("Consciousness / GCS","conscious","GCS","ซึม"),P("Kussmaul breathing / fruity breath","kussmaul","fruity","acetone","breath"),P("Hydration status","dehydrat","hydrat","mucous","turgor","capillary"),P("Abdominal examination","abdom","guarding","rebound","tender","ท้อง"),P("Source of infection","infect","source","ติดเชื้อ")]}),
+   B("2.2 Give 3 differential diagnoses, with a reason for each.",3,{lim:3,
+   ans:`Any 3, each with a reason:<br>• <b>Diabetic ketoacidosis</b> — T1DM, stopped insulin, polyuria/thirst, vomiting, abdominal pain<br>• <b>Hyperosmolar hyperglycemic state</b> — hyperglycemia with dehydration (less likely: young T1DM)<br>• <b>Acute pancreatitis</b> — abdominal pain + vomiting (and can also trigger DKA)<br>• <b>Acute gastroenteritis / food poisoning</b> — vomiting and crampy pain<br>• <b>Acute appendicitis / other surgical abdomen</b> — abdominal pain + vomiting<br>• Pregnancy-related (ectopic) — young woman (LMP 2 weeks ago makes it less likely)`,
+   exp:"DDx ให้ 3 โรค (นับ 3 อย่างแรก) และแต่ละโรคต้องมีเหตุผล",
+   pts:[G("Differential diagnoses (3)",3,P("DKA","DKA","ketoacidosis"),P("HHS","HHS","hyperosmolar"),P("Acute pancreatitis","pancreatit"),P("Gastroenteritis","gastroenterit","food poison","AGE"),P("Appendicitis / surgical abdomen","appendicit","surgical","peritonit"),P("Ectopic / pregnancy","ectopic","pregnan")),P("Reason given for each","because","เพราะ","since","→","->","from","history","stopped")]})]},
+  {info:`BT 37.8 °C, PR 124/min, BP 96/58 mmHg, RR 32/min (deep), SpO₂ 98% on room air. Drowsy but obeys commands (GCS E3V5M6). Fruity breath odour, dry tongue, capillary refill 3 s. Mild diffuse abdominal tenderness, no guarding or rebound.<br>Plasma glucose 486 mg/dL · venous pH 7.08, pCO₂ 20 mmHg, HCO₃⁻ 7 mEq/L · Na 131, K 5.6, Cl 96 mEq/L · BUN 32, Cr 1.4 mg/dL · β-hydroxybutyrate 6.2 mmol/L · Urine ketone 3+, glucose 4+ · WBC 15,800/µL (N 85%) · Serum lipase normal`,
+   subs:[
+   B("3.1 Interpret the laboratory results.",4,{
+   ans:`• <b>Hyperglycemia</b> (486 mg/dL)<br>• <b>High anion gap metabolic acidosis</b>: AG = 131 − (96 + 7) = <b>28</b>; Winter's expected pCO₂ = 1.5 × 7 + 8 ± 2 = 16.5–20.5 → pCO₂ 20 = <b>appropriate respiratory compensation</b><br>• <b>Ketonemia</b> (β-OHB 6.2 ≥ 3.0) and ketonuria<br>• <b>Corrected Na</b> ≈ 131 + 1.6 × 3.86 ≈ 137 (pseudohyponatremia from hyperglycemia)<br>• <b>K 5.6</b> high from shift (total body K is low)<br>• <b>Pre-renal azotemia</b> (BUN:Cr ≈ 23) from dehydration<br>• <b>Leukocytosis</b> — stress/ketosis or infection<br>• Normal lipase — no pancreatitis`,
+   exp:"แปลให้ครบ: glucose, acid–base (AG + compensation), ketone, Na แก้ค่า, K, ไต, CBC",
+   pts:[P("Hyperglycemia","hyperglyc","glucose"),P("HAGMA, AG 28","anion gap","HAGMA","28","high AG"),P("Appropriate respiratory compensation","compensat","winter"),P("Ketonemia","ketone","hydroxybutyrate","ketonemia"),P("Corrected Na / pseudohyponatremia","corrected","pseudo","137"),P("K high from shift / total body K low","K","potassium","shift"),P("Prerenal azotemia / dehydration","prerenal","azotemia","BUN","dehydrat"),P("Leukocytosis","leukocyt","WBC")]}),
+   B("3.2 What is the most likely diagnosis?",2,{
+   ans:`<b>Diabetic ketoacidosis</b> precipitated by <b>insulin omission</b>`,
+   exp:"D (glucose ≥ 200 หรือเป็นเบาหวาน) + K (β-OHB ≥ 3.0) + A (pH < 7.3 และ/หรือ HCO₃ < 18) — 2024 international consensus",
+   pts:[P("DKA","DKA","ketoacidosis"),P("Precipitated by insulin omission","insulin omission","stop","omit","หยุด")]})]},
+  {subs:[
+   B("4.1 Classify the severity of this condition. Name the classification and interpret it.",3,{
+   ans:`<b>ADA severity classification of DKA</b> → <b>severe DKA</b><br>pH 7.08 (moderate 7.00–7.24), <b>HCO₃⁻ 7 (< 10 = severe)</b>, drowsy (moderate–severe), AG 28 → grade by the worst criterion = severe`,
+   exp:"ADA: mild pH 7.25–7.30, HCO₃ 15–18, alert · moderate pH 7.00–7.24, HCO₃ 10–< 15, alert/drowsy · severe pH < 7.00, HCO₃ < 10, stupor/coma",
+   pts:[P("ADA classification","ADA","american diabetes"),P("Severe DKA","severe"),P("Interpretation from pH / HCO₃ / mental status","pH","HCO","bicarb","mental","drows")]}),
+   B("4.2 What management would you give?",6,{
+   ans:`• <b>ABCDE</b>: airway (drowsy — protect, aspiration risk), O₂ if needed, 2 large-bore IV lines, cardiac monitor, capillary glucose<br>• <b>Admit to ICU / high-dependency unit</b> (severe DKA)<br>• <b>IV 0.9% NaCl 15–20 mL/kg (1–1.5 L) in the first hour</b>, then 250–500 mL/h by volume status<br>• <b>K 5.6 (≥ 3.5)</b> → start <b>regular insulin IV infusion 0.1 U/kg/h</b>; add KCl 20–30 mEq/L once K ≤ 5.0–5.2 (if K < 3.5, give K first and hold insulin)<br>• <b>No bicarbonate</b> (only if pH < 6.9)<br>• Add <b>dextrose 5–10%</b> when glucose < 250 mg/dL, continue insulin until ketones clear<br>• Monitor glucose hourly, electrolytes/VBG every 2–4 h, urine output, GCS (cerebral edema)<br>• Find and treat the precipitant (septic work-up if febrile)<br>• When resolved (β-OHB < 0.6, pH ≥ 7.3): <b>SC basal insulin 1–2 h before stopping the drip</b>, sick-day rules education`,
+   exp:"ลำดับ: ABCDE → admit → น้ำ → ดู K → insulin → K → dextrose → เกณฑ์หาย → overlap basal · ไม่ต้องบอก dose ยาก็ได้คะแนนเต็ม (ปี 4 ไม่เน้น dose) — dose ในเฉลยให้ไว้อ่านประกอบ",
+   pts:[P("ABCDE / IV access / monitor","ABCDE","airway","IV access","monitor"),P("Admit ICU / HDU","admit","ICU","HDU","intensive"),P("IV isotonic saline","NSS","0\\.9","saline","isotonic","balanced","fluid"),P("Check K, then IV insulin infusion","insulin","0\\.1"),P("K replacement plan","KCl","potassium","replace"),P("No bicarbonate","bicarb","NaHCO"),P("Dextrose when glucose < 250","dextrose","D5","D10","250"),P("Monitoring / precipitant / SC overlap & education","monitor","precipit","overlap","basal","sick.?day","educat")]})]}
  ],
- interp:"ระบบ: Endocrinology · โรค: Diabetic ketoacidosis · ความยาก: ปานกลาง — ถามครบตั้งแต่วินิจฉัย แปล acid–base สั่งการรักษาตามลำดับ จนถึงเกณฑ์หายและเปลี่ยนเป็น SC insulin",
- approach:"ซักประวัติ/ตรวจ → นึกถึง DKA → ยืนยัน 3 อย่าง (glucose, ketone, acidosis) → แปล AG + Winter → severity → น้ำ → ดู K → insulin → K replacement → dextrose → เกณฑ์หาย → overlap basal",
- summary:["DKA = hyperglycemia + ketonemia (β-OHB ≥ 3) + metabolic acidosis","ดู K ก่อนให้ insulin: K < 3.5 ให้ K ก่อน · 3.5–5.0 ให้ insulin + K · > 5.0–5.2 insulin ได้ ยังไม่ให้ K","Bicarbonate เฉพาะ pH < 6.9","เติม dextrose เมื่อ glucose < 250 แต่ insulin ต่อจน ketone หาย","ให้ SC basal ซ้อน 1–2 ชม. ก่อนหยุด IV insulin"]},
+ interp:"ระบบ: Endocrinology · โรค: Severe DKA จากหยุด insulin · ความยาก: ปานกลาง",
+ approach:"CC ปวดท้อง + อาเจียน → ซักประวัติ (T1DM หยุด insulin) → ตรวจ Kussmaul, ขาดน้ำ, GCS, ท้อง → DDx (DKA, HHS, pancreatitis, AGE, surgical abdomen) → แลป: HAGMA + ketone → DKA → ADA severe → ABCDE, admit ICU, น้ำ → K → insulin",
+ summary:["DKA = hyperglycemia + ketonemia (β-OHB ≥ 3) + metabolic acidosis","AG = Na − (Cl + HCO₃) · Winter: pCO₂ = 1.5×HCO₃ + 8 ± 2","ADA severe: pH < 7.00 หรือ HCO₃ < 10 หรือ stupor/coma","ดู K ก่อน insulin: K < 3.5 ให้ K ก่อน · bicarbonate เฉพาะ pH < 6.9","Dextrose เมื่อ glucose < 250 · SC basal ซ้อน 1–2 ชม. ก่อนหยุด drip"]},
 
 /* ======================= 16 พ.ย. 2026 (วันจันทร์ · เคสที่ 1) · Endocrine · DKA (ปานกลาง) · 4 Part: Hx → PE + DDx → Lab + Dx → Severity + Mx ======================= */
 {day:"2026-11-16",no:1,sec:"MEQ",
