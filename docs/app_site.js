@@ -197,7 +197,7 @@ function mqRounds(type){if(type!=="OSCE")return MQ_ROUNDS.map(r=>r.k==="legend"?
     else if(r.k==="staff")o.d="ทวนข้อ OSCE ที่ทำแล้วแต่ยังมีข้อย่อยที่ไม่ได้เต็ม";
     else if(r.k==="advisor")o.d="อ่านเฉลยข้อ OSCE ที่ทำแล้ว รวมสถานีที่ AI สร้างใน Legendary round · เรียงข้อที่ทำล่าสุดอยู่บน หรือคะแนนน้อยสุดก่อน · กรองชุด / ได้เต็ม / ★ ได้";
     else if(r.k==="unit")o.d="สถานีใหม่ที่ Claude แต่งจากไฟล์ของวอร์ด แยกตามหัวข้อใหญ่ OSCE (Lab, Imaging, EKG, History taking …) · ทำทีละสถานี ไม่จับเวลา";
-    else if(r.k==="morning"){o.soon=0;o.off=0;o.d="วันละ 3 สถานี: ข้อสอบเก่าที่เคยทำแล้ว 1 + สถานี Unit round 2 (ขาดฝั่งไหนเติมจากอีกฝั่ง) · ไม่ซ้ำตลอดทั้งวอร์ด · ชุดใหม่ทุกวัน 07:30";}
+    else if(r.k==="morning"){o.soon=0;o.off=0;o.d="วันละ 3 สถานี: ข้อสอบเก่า 1 + สถานี Unit round 2 (ขาดฝั่งไหนเติมจากอีกฝั่ง) · ไม่ซ้ำตลอดทั้งวอร์ด · ชุดใหม่ทุกวัน 07:30";}
     else if(r.k==="specialty"){o.soon=0;o.off=0;o.d="สถานีใหม่ที่ AI สร้างทีละสถานี เนื้อหาจาก Round I/O ของแท็บ OSCE เท่านั้น · เลือกเรื่อง / ไฟล์ (L · R · T · N) เอง หรือสุ่มทั้งหมด";}
     else if(r.k==="admission")o.note="AI ออกสถานี OSCE ใหม่ — รอรายละเอียด";
     else if(["teach","longcase"].includes(r.k))o.d=r.d.replace(/MCQ \/ OSCE/,"MCQ / MEQ");
@@ -981,8 +981,8 @@ window.__os={cur:()=>osRunCur(),ff:s=>{const r=osRunCur();if(r){r.left=s;r.at=no
      (new day at 07:30 by the device clock) · uid "MORN|<day>" · during the case nothing tells the system / source (like Legendary)
    - Unit round OSCE stations: <ward dir>/osu_<topic>.js → W.OSU (station shape of osce_b*.js + topic) · uid "OSU|<topic>|<id>"
    - Specialty round OSCE: AI stations built only from the Round I/O docs the OSCE tab sees · kept in P.osce.spc.B · uid "OSAI|…" (from osGen)
-   Morning OSCE (every ward, every site): 3 stations a day per person = old stations done before 1 : Unit stations not met yet 2 (short side filled
-   from the other) · never a station that was in any earlier Morning set · state P.osce.morn {day,list,ts} + P.osce.mornH {day:{…}} */
+   Morning OSCE (every ward, every site): 3 stations a day per person, same rules as Morning MCQ = AC 1 (done before first, then not done) : Unit 2 (not met first)
+   (short side filled from the other) · never a station that was in any earlier Morning set · state P.osce.morn {day,list,ts} + P.osce.mornH {day:{…}} */
 const XQ={};   /* uid → normalized copy */
 function mqNormX(q,OS){if(q._nx)return q;q._nx=1;if(!Array.isArray(q.parts)||!q.parts.length)q.parts=[{subs:q.subs||[]}];q.subs=[];
   q.parts.forEach((p,pi)=>{p.i=pi;p.subs=p.subs||[];p.subs.forEach((s,k)=>{s._p=pi;s._k=k;s._i=q.subs.length;if(OS&&!(s.tags||[]).length&&q.topic)s.tags=[q.topic];q.subs.push(s);});});
@@ -1010,21 +1010,25 @@ function osMorn(make){const m=mqInitP(P_(),"OSCE"),d=mDay();m.mornH=m.mornH||{};
   if(x&&x.day&&x.day!==d){m.mornH[x.day]=x;x=m.morn=null;save();}
   if(x||!make)return x;
   const used=new Set();Object.values(m.mornH).forEach(h=>(h.list||[]).forEach(u=>used.add(u)));
-  const ac=shuffle(mqL(ward,"OSCE").filter(q=>!used.has(q.uid)&&xTouched(q,"OSCE"))),un=shuffle(osUnitAll().filter(q=>!used.has(q.uid)&&!xRecs(q,"OSCE").length));
-  let nA=Math.min(OS_MORN_AC,ac.length),nU=Math.min(OS_MORN_N-nA,un.length);nA=Math.min(ac.length,OS_MORN_N-nU);
-  const list=shuffle(ac.slice(0,nA).concat(un.slice(0,nU))).map(q=>q.uid);
+  /* exactly like Morning MCQ (user 14 Nov 2026): old stations already done first, then old stations not done yet · Unit stations not met yet first, then ones met before ·
+     1 AC + 2 Unit, a short side topped up from the other — always 3 a day while the ward still has stations never used in Morning */
+  const fresh=q=>!used.has(q.uid),A=mqL(ward,"OSCE").filter(fresh),U=osUnitAll().filter(fresh),
+    ac=shuffle(A.filter(q=>xTouched(q,"OSCE"))).concat(shuffle(A.filter(q=>!xTouched(q,"OSCE")))),un=shuffle(U.filter(q=>!xRecs(q,"OSCE").length)).concat(shuffle(U.filter(q=>xRecs(q,"OSCE").length)));
+  let a=ac.slice(0,OS_MORN_AC),u=un.slice(0,OS_MORN_N-OS_MORN_AC);
+  if(u.length<OS_MORN_N-OS_MORN_AC)a=ac.slice(0,OS_MORN_N-u.length);else if(a.length<OS_MORN_AC)u=un.slice(0,OS_MORN_N-a.length);
+  const list=shuffle(a.concat(u)).map(q=>q.uid);
   osMornOut=!list.length&&used.size>0;if(!list.length)return null;
   x=m.morn={day:d,list,ts:now()};save();return x;}
 function mornXList(){if(mqIsOS()){const x=osMorn(false);return x?x.list.map(u=>mqFindU(u)).filter(Boolean):[];}const q=mqXFind("MORN|"+mDay());return q?[q]:[];}
 function mornXBox(type){const clock=`<span class="mclock">${type==="OSCE"?"ชุดใหม่":"เคสใหม่"}ใน <b id="mClock">${hms(mNext()-now())}</b></span>`;let t;
   if(type==="OSCE"){const x=osMorn(false);
-    if(!x){const can=mqL(ward,"OSCE").some(q=>xTouched(q,"OSCE"))||osUnitAll().length;t=can?"🎁 ยังไม่ได้เปิดกล่องวันนี้":"🎁 ยังไม่มีสถานีให้เปิดกล่อง — ทำข้อสอบเก่า OSCE ก่อน หรือรอสถานี Unit round";}
+    if(!x){const can=mqL(ward,"OSCE").length||osUnitAll().length;t=can?"🎁 ยังไม่ได้เปิดกล่องวันนี้":"🎁 ยังไม่มีสถานีให้เปิดกล่อง — รอข้อสอบเก่า OSCE / สถานี Unit round";}
     else{const L=mornXList(),dn=L.filter(q=>xDone(q,"OSCE")).length;t=!dn&&!L.some(q=>xTouched(q,"OSCE"))?"เปิดกล่องแล้ว ยังไม่ได้ทำ — ทำด้วยนะ":dn<L.length?`วันนี้ทำไป ${dn}/${L.length} สถานี`:`✓ ครบ ${dn}/${L.length} สถานีแล้ว`;}}
   else{const P=P_(),m=mqInitP(P,"MEQ"),d=mDay(),q=mqXFind("MORN|"+d),op=m.mopen&&m.mopen[d];
     t=!q?"ยังไม่มีเคสใหม่ — รอเติมเคส":!op?"🎁 ยังไม่ได้เปิดกล่องวันนี้":xDone(q,"MEQ")?"✓ ทำเคสวันนี้ครบแล้ว":xTouched(q,"MEQ")?"ทำไปบางส่วน — ทำต่อให้ครบนะ":"เปิดกล่องแล้ว ยังไม่ได้ทำ — ทำด้วยนะ";}
   return `<span class="mtodo${/^✓/.test(t)?" ok":""}">${t}</span>${clock}`;}
 function mornXStart(type){
-  if(type==="OSCE"){const x=osMorn(true);if(!x){toast(osMornOut?"Morning round ออกครบทุกสถานีในวอร์ดนี้แล้ว — ไม่มีสถานีใหม่ที่ยังไม่เคยออก":"ยังไม่มีสถานีให้ทำ — ทำข้อสอบเก่า OSCE ก่อน หรือรอสถานี Unit round");return;}
+  if(type==="OSCE"){const x=osMorn(true);if(!x){toast(osMornOut?"Morning round ออกครบทุกสถานีในวอร์ดนี้แล้ว — ไม่มีสถานีใหม่ที่ยังไม่เคยออก":"ยังไม่มีสถานีให้ทำ — รอข้อสอบเก่า OSCE / สถานี Unit round");return;}
     const L=mornXList(),q=L.find(z=>!xDone(z,"OSCE"))||L[0];if(!q){toast("ไม่พบสถานีของวันนี้");return;}return mqOpen(q.uid,undefined,"morning");}
   const m=mqInitP(P_(),"MEQ"),d=mDay(),q=mqXFind("MORN|"+d);if(!q){toast("ยังไม่มีเคสใหม่วันนี้ — รอเติมเคส");return;}
   m.mopen=m.mopen||{};m.mopen[d]=1;Object.keys(m.mopen).sort().slice(0,-60).forEach(k=>delete m.mopen[k]);save();mqOpen(q.uid,undefined,"morning");}
@@ -3121,7 +3125,8 @@ const isTxt=r=>!!r&&/^T\d/.test(r.code||"");
    (broad tags such as Onco / Trauma / Surgical infection used to pull in unrelated chapters, e.g. thyroid, spleen, bites & stings) · chapters without kw: tags / topic as before · R unchanged */
 const qCoreTxt=q=>flatTxt([q.stem,q.q,Array.isArray(q.opts)&&q.ans!=null?q.opts[q.ans]:"",q.title].filter(Boolean).join(" "));
 function resFor(q,T){const W=W_(),tg=qTags(q),tp=q.adm||q.unit?"":topicOf(W,q);let tx=null;
-  return (T?txtOf(W):resOf(W)).filter(r=>{if(T&&r.kw){if(tx===null)tx=qCoreTxt(q);try{return new RegExp(r.kw,"i").test(tx);}catch(e){return false;}}return (r.tags||[]).some(t=>tg.includes(t))||(tp&&r.topic===tp);});}
+  return (T?txtOf(W):resOf(W)).filter(r=>{if(T&&r.kw){if(tx===null)tx=qCoreTxt(q);try{return new RegExp(r.kw,"i").test(tx);}catch(e){return false;}}if(T)return (r.tags||[]).slice(0,1).some(t=>tg.includes(t));   /* a T chapter without kw: its own main tag only — no broad tags, no topic */
+  return (r.tags||[]).some(t=>tg.includes(t))||(tp&&r.topic===tp);});}
 const txtFor=q=>resFor(q,1);
 const resLabel=r=>(r.code?r.code+" ":"")+r.title;
 const resPts=(r,n)=>(Array.isArray(r.points)?r.points:[]).slice(0,n||99);
