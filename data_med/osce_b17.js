@@ -5,6 +5,7 @@
    · p5  = recall ต่อ 2 สถานี ติดป้าย "XX." (บรรยาย CT + etiology · เตรียมตัว/วัดความดัน คนไข้นั่งไขว่ห้าง)
    · กล่อง "XX." ที่แปะในหน้าซักประวัติ 4 สถานี: p10 ไข้ 3 วัน · p14 ถ่ายเป็นเลือดดำสลับแดง · p15 ขาบวม · p16 ไอเป็นเลือด
      (สถานีที่สมุดเขียนเป็นเลข 1–12 ในหน้าซักประวัติ = ข้อสอบปีอื่นที่มีในคลังแล้ว → ไม่ใส่ซ้ำ)
+   · ชุด 2 (p28–65, 14 พ.ย. 2026): กล่อง "XX." 2 สถานี — p40 thyrotoxicosis DDx 3 โรค · p64 skin lesion ที่ penis (สถานีเลขอื่นในช่วงนี้ = ปีอื่นที่มีในคลังแล้ว → ติด 📝 recall ใน Round I/O)
    เฉลย: ใช้ key ในสมุดถ้ามี (ลายมือในหน้าเนื้อหา R01) · ไม่มี = เฉลยโดย Claude · CXR ใช้เกณฑ์ ABCDEFGHI · Skin ใช้เวอร์ชันหลักของผู้ใช้ (med-osce)
    รูป: p5 CT → img/moxx_ct.jpg · สถานีอื่นไม่มีรูปในสมุด (NOIMG) */
 const NK="ไม่มีเฉลยในสมุด (เฉลยโดย Claude)";
@@ -335,6 +336,39 @@ X({page:16,orig:"XX-Hemoptysis",topic:"hx",ex:1,title:"History — 55-year-old s
    ans:"(สมุด) <b>Lung cancer (bronchogenic carcinoma)</b> — สูบ 30 pack-years อายุ 55 · <b>Bronchiectasis</b> (chronic productive cough with purulent sputum) · อื่นที่สมุดเขียน: <b>pulmonary TB</b>, PE",
    pts:[CR(P("Lung cancer","lung ca","cancer","carcinoma","มะเร็งปอด","bronchogenic")),G("DDx ข้อที่ 2",1,P("Bronchiectasis","bronchiect","หลอดลมพอง"),P("Pulmonary TB","tb","tubercul","วัณโรค"),P("PE","\\bpe\\b","embol"))]})),
  interp:"ไอเป็นเลือดเรื้อรัง + 30 pack-years อายุ 55 → lung cancer (DDx bronchiectasis, TB)",
- summary:["R/O pseudohemoptysis ก่อนเสมอ","Massive: >200 mL/ครั้ง หรือ >600 mL/24 ชม.","สูบบุหรี่ + อายุ >40 + ไอเลือด → CT chest + bronchoscopy"]})
+ summary:["R/O pseudohemoptysis ก่อนเสมอ","Massive: >200 mL/ครั้ง หรือ >600 mL/24 ชม.","สูบบุหรี่ + อายุ >40 + ไอเลือด → CT chest + bronchoscopy"]}),
+
+/* ============================ ชุด 2 (p28–65) · กล่อง "XX." 2 สถานี — เพิ่ม 14 พ.ย. 2026 ============================ */
+X({page:40,orig:"XX-Thyro",topic:"lab",seen:"คล้าย MDCU74 RoX ข้อ 5, MDCU76 RoC ข้อ 10 (thyrotoxicosis + diffuse goiter)",title:"Thyrotoxicosis for 2 months with a diffusely enlarged thyroid: 3 differential diagnoses",
+ stem:`History, physical examination and laboratory results are summarized: <b>thyrotoxicosis for 2 months</b>, <b>diffusely enlarged thyroid gland</b>, <b>TSH low</b>, <b>FT3 high</b>.<br>1. Give 3 differential diagnoses.<br>2. Name the investigation(s) that best distinguish them.`,
+ gray:"XX. ให้ประวัติตรวจร่างกายกับแลปมา สรุปว่าเป็น thyrotoxicosis (2 mo), diffusely enlarged thyroid gland, TSH ต่ำ, FT3 สูง\nให้ Differential diagnosis มา 3 โรค",
+ flag:"ข้อ 2 Claude เติม (สมุดหน้า thyroid p42 เขียน further investigation = RAIU)",
+ parts:S(
+  B("1. Give 3 differential diagnoses.",6,{tags:["lab"],key:KN(40)+" — Grave's, Toxic adenoma, Toxic multinodular goiter (ลายมือ: ถ้าเป็น thyroiditis จะเป็นแค่ few weeks)",
+   ans:"(สมุด) <b>Graves' disease</b> (เหมาะสุด — diffuse goiter) · <b>Toxic adenoma</b> · <b>Toxic multinodular goiter</b> — สมุดตัด thyroiditis เพราะอาการ 2 เดือน (thyroiditis มัก few weeks) · Claude เติม: painless (silent) thyroiditis ระยะ thyrotoxic อาจนานถึง 2–3 เดือน จึงยังเป็น DDx ได้ · subacute (de Quervain) thyroiditis (คอเจ็บ ESR สูง) · exogenous thyroid hormone · TSH-secreting adenoma (TSH จะไม่ต่ำ)",
+   pts:[CR(P("Graves' disease","grave","basedow","เกรฟส์")),G("DDx อีก 2 โรค",2,P("Toxic adenoma","toxic adenoma","plummer","adenoma"),P("Toxic multinodular goiter","multinodular","\\btmng\\b","mng"),P("Thyroiditis (painless/subacute)","thyroiditis","de quervain","silent","painless"),P("Exogenous thyroid hormone","exogenous","factitia","levothyrox"))]}),
+  B("2. Name the investigation(s) that best distinguish them.",4,{tags:["lab"],flag:"Claude เติม",
+   ans:"<b>Radioactive iodine uptake (RAIU) ± thyroid scan</b> — Graves = uptake สูง กระจายทั่ว · toxic adenoma = hot nodule เดียว กดส่วนที่เหลือ · TMNG = หลายจุด patchy · thyroiditis/exogenous = uptake ต่ำ · <b>TRAb (TSH receptor antibody)</b> ยืนยัน Graves (ATA 2016 ให้เลือก TRAb/RAIU/thyroid US with Doppler) · thyroglobulin ต่ำใน exogenous",
+   pts:[CR(P("RAIU / thyroid scan","raiu","uptake","scan","scint","ไอโอดีนรังสี")),P("TRAb / TSI","trab","tsi","receptor antibod","tsh receptor"),P("Thyroid ultrasound with Doppler","ultrasound","doppler","\\bus\\b")]})),
+ interp:"Thyrotoxicosis + diffuse goiter 2 เดือน → Graves มากที่สุด · แยกด้วย RAIU/scan + TRAb",
+ summary:["DDx thyrotoxicosis + goiter: Graves, toxic adenoma, TMNG (+ thyroiditis)","RAIU สูง = Graves/TA/TMNG · ต่ำ = thyroiditis/exogenous","TRAb ยืนยัน Graves (ATA 2016)"]}),
+
+X({page:64,orig:"XX-Penis",topic:"skin",seen:"คล้าย MDCU71 RoX Skin1 (condyloma ที่ penis — คำถามย่อยต่างกัน)",title:"Skin lesion on the penis — describe, diagnose and name 2 risk factors for malignancy",imgNote:NOIMG+" · ลายมือในสมุด: multiple discrete well-circumscribed hyperpigmented papules ที่ penis (ผู้จดไม่แน่ใจว่าเป็น penile wart หรือ bowenoid papulosis)",
+ stem:`A picture of a skin lesion on the penis is shown.<br>1. Describe the lesion.<br>2. What is the most likely diagnosis?<br>3. What are 2 factors that increase the risk of malignancy?`,
+ gray:"XX. มีรูป skin lesion บริเวณ penis มาให้\n1. Describe the lesion (ไม่ชัวร์ว่า penile wart หรือ bowenoid papulosis)\n2. What is the most likely diagnosis?\n3. What are 2 factors that increase the risk of malignancy?",
+ flag:"ผู้จดไม่แน่ใจคำตอบ (penile wart vs bowenoid papulosis) — เฉลยตามลายมือ + กล่องคำตอบในสมุด p64 · Condyloma ไม่อยู่ในเวอร์ชันหลักของผู้ใช้ → ไฟล์/สมุดเป็นหลัก Claude ร่างเป็นรอง",
+ parts:S(
+  B("1. Describe the lesion.",3,{tags:["skin"],key:KN(64)+" — ลายมือ: multiple discrete well-circumscribed hyperpigmented papules @ penis · กล่องคำตอบ: well-circumscribed hyperkeratotic verrucous lesion on genital area",
+   ans:"<b>หลัก (สมุด)</b>: <b>Multiple discrete well-circumscribed hyperkeratotic verrucous (hyperpigmented) papules</b> at the penis<br><b>รอง (Claude ร่าง ท่องง่าย)</b>: Multiple skin-colored to hyperpigmented verrucous papules on the penile shaft · ถ้าเป็นตุ่มแบนสีน้ำตาลเข้มขนาด 2–3 mm ผิวเรียบ (ไม่ verrucous) → นึกถึง bowenoid papulosis",
+   pts:[P("Multiple discrete well-circumscribed","multiple","discrete","well.?circumscrib"),CR(P("Verrucous / hyperkeratotic papules","verruc","hyperkeratot","papule","wart","cauliflower")),P("Hyperpigmented / location penis","hyperpigment","pigment","penis","penile","genital")]}),
+  B("2. What is the most likely diagnosis?",2,{tags:["skin"],key:KN(64)+" — Anogenital wart (HPV 6, 11; สมุดขีดฆ่า 16,18) · DDx bowenoid papulosis (HPV 16)",
+   ans:"<b>Anogenital wart (condyloma acuminatum)</b> — HPV 6, 11 (สมุดแก้จาก 16,18 เป็น 6,11 ✓) · DDx: <b>bowenoid papulosis</b> (HPV 16, ตุ่ม hyperpigmented 2–3 mm, histo ~ Bowen's/SCC in situ), pearly penile papules, condyloma lata (syphilis)",
+   pts:[CR(G("Diagnosis",1,P("Anogenital wart / condyloma acuminatum","condyloma","genital wart","anogenital","penile wart","หูดหงอนไก่"),P("Bowenoid papulosis","bowenoid")))]}),
+  B("3. What are 2 factors that increase the risk of malignancy?",3,{tags:["skin"],key:KN(64)+" — HPV, smegma",
+   ans:"(สมุด) <b>HPV (high-risk type 16, 18)</b> · <b>Smegma</b> (phimosis / ไม่ได้ขลิบ / สุขอนามัยไม่ดี — สะสมทำให้อักเสบเรื้อรัง) · Claude เติม: <b>smoking</b>, immunosuppression (HIV), lichen sclerosus, chronic balanitis, PUVA",
+   pts:[G("2 factors",2,P("High-risk HPV (16, 18)","hpv","16","18","papilloma"),P("Smegma / phimosis / uncircumcised","smegma","phimosis","circumcis","ขลิบ","hygiene"),P("Smoking","smok","บุหรี่"),P("Immunosuppression / HIV","immuno","hiv","ภูมิ"),P("Lichen sclerosus / chronic inflammation","lichen","balanitis","inflamm"))]})),
+ interp:"ตุ่ม verrucous ที่ penis → anogenital wart (HPV 6/11) · ตุ่ม hyperpigmented แบน → bowenoid papulosis (HPV 16) · ความเสี่ยงมะเร็ง: HPV 16/18, smegma/phimosis, smoking",
+ summary:["Condyloma = HPV 6, 11 · Bowenoid papulosis = HPV 16","มะเร็งองคชาต: HPV 16/18, smegma/phimosis/ไม่ขลิบ, บุหรี่","ตรวจคัด STI อื่น (HIV, syphilis) ด้วย"]})
+
 );
 })();
