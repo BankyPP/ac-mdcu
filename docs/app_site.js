@@ -254,7 +254,8 @@ function mqHomeHTML(type){type=type||"MEQ";const P=P_(),p=ph(),L=mqL(ward,type),
   if(HAS_CLAUDE()&&L.length)h+=`<button class="resume" id="mqInGo"><span><b>📋 ตรวจคำตอบ MEQ / OSCE จากเว็บ</b><span class="rd">วางรหัสที่คัดลอกจากเว็บ แล้วให้ Claude ประเมิน</span></span><span class="go">→</span></button>`;
   const cnt=k=>{const t=k==="service"?`มี <b>${L.length}</b> ข้อ · ${L.reduce((a,q)=>a+q.subs.length,0)} ${type==="OSCE"?"ข้อย่อย":"Part"}`:k==="staff"?`มีข้อให้ทวน <b>${sl}</b> ข้อ`:k==="advisor"?`อ่านเฉลยได้ <b>${L.filter(mqAnyDone).length+(type==="OSCE"?Object.keys(osAIMap()).filter(u=>!L.some(q=>q.uid===u)).length:0)}</b> ข้อ`:k==="unit"?`มี <b>${mqTopics().length}</b> หัวข้อ`:"";return t?`<span class="rcnt">${t}</span>`:"";};
   const RS=mqRounds(type),osRun=type==="OSCE"&&typeof osRunCur==="function"&&osRunCur();
-  h+=`<div class="rounds">${RS.map((r,i)=>`<button class="round" data-mqround="${r.k}" aria-disabled="${!!r.soon}">${r.soon?`<span class="soon">${r.off?"ปิดไว้":"เร็ว ๆ นี้"}</span>`:r.k==="staff"&&sl?`<span class="badge">${sl}</span>`:r.k==="legend"&&osRun?`<span class="badge">กำลังสอบ</span>`:""}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}</b><span class="rd">${r.soon?(r.note||"รายละเอียดจะเพิ่มภายหลัง"):r.d}</span>${(r.k==="legend"||r.k==="quality")&&type==="OSCE"?osLegCnt(r.k):r.k==="unit"&&type==="OSCE"?osUnitCnt():r.k==="morning"&&!r.soon?mornXBox(type):L.length?cnt(r.k):""}</button>`).join("")}</div>`;
+  const mfx=RS.some(r=>r.k==="morning"&&!r.soon)?mornXFx(type):[],MG=mfx.length||RS.some(r=>r.k==="morning"&&!r.soon)?mornGame():null;
+  h+=`<div class="rounds">${RS.map((r,i)=>`<button class="round${r.k==="morning"&&!r.soon?mfx.map(c=>" "+c).join(""):""}" data-mqround="${r.k}" aria-disabled="${!!r.soon}"${r.k==="morning"&&mfx.includes("maura")?` style="${auraVars(mDay())}"`:""}>${r.soon?`<span class="soon">${r.off?"ปิดไว้":"เร็ว ๆ นี้"}</span>`:r.k==="staff"&&sl?`<span class="badge">${sl}</span>`:r.k==="legend"&&osRun?`<span class="badge">กำลังสอบ</span>`:""}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}${r.k==="morning"&&!r.soon&&MG?mGameHTML(MG):""}</b><span class="rd">${r.soon?(r.note||"รายละเอียดจะเพิ่มภายหลัง"):r.d}</span>${(r.k==="legend"||r.k==="quality")&&type==="OSCE"?osLegCnt(r.k):r.k==="unit"&&type==="OSCE"?osUnitCnt():r.k==="morning"&&!r.soon?mornXBox(type):L.length?cnt(r.k):""}</button>`).join("")}</div>`;
   return h;}
 function mqBindHome(type){type=type||"MEQ";
   document.querySelectorAll("[data-mqround]").forEach(b=>b.onclick=()=>{const k=b.dataset.mqround,R=mqRounds(type).find(r=>r.k===k);if(R.soon){toast(R.note||"โหมดนี้จะเพิ่มภายหลัง");return;}
@@ -1030,6 +1031,18 @@ function osMorn(make){const m=mqInitP(P_(),"OSCE"),d=mDay();m.mornH=m.mornH||{};
   const list=shuffle(a.concat(u)).map(q=>q.uid);
   osMornOut=!list.length&&used.size>0;if(!list.length)return null;
   x=m.morn={day:d,list,ts:now()};save();return x;}
+/* state of the Morning MEQ case / OSCE set of day d for the current ward, whatever tab is open (P.type switched for the lookup only) */
+function mqKindDo(k,fn){const P=P_(),o=P.type;P.type=k;try{return fn();}finally{P.type=o;}}
+function mornXState(d){const out={},P=P_(),W=W_();if(!W)return out;
+  const pc=(q,r)=>{const s=mqScoreOf(q.subs,r);return s.all&&s.tot?s.got/s.tot:null;},best=a=>{const v=a.filter(x=>x!=null);return v.length?Math.max(...v):null;};
+  if((W.MORN||[]).some(c=>c.day===d)){const q=mornMQAll().find(x=>x.mday===d);if(q){const R=xRecs(q,"MEQ").filter(r=>mqCaseDone(q,r));out.meq={done:R.length>0,pct:best(R.map(r=>pc(q,r)))};}}
+  const m=P.osce,x=m&&(m.morn&&m.morn.day===d?m.morn:(m.mornH||{})[d]);
+  if(x&&(x.list||[]).length){const qs=mqKindDo("OSCE",()=>x.list.map(u=>mqFindU(u)).filter(Boolean)),dn=qs.filter(q=>xDone(q,"OSCE"));
+    const ps=dn.map(q=>best(xRecs(q,"OSCE").filter(r=>mqCaseDone(q,r)).map(r=>pc(q,r))));
+    out.os={done:qs.length>0&&dn.length>=qs.length,n:dn.length,tot:qs.length,pct:dn.length>=qs.length&&ps.every(v=>v!=null)?ps.reduce((a,b)=>a+b,0)/ps.length:null};}
+  return out;}
+/* Morning box colours for MEQ / OSCE (per exam type): green = today's case / set done, red = not yet · gold edge = done on time · aura = ≥80% */
+function mornXFx(type){const s=mornXState(mDay())[type==="OSCE"?"os":"meq"];if(!s)return [];const c=[s.done?"mgood":"mwarn"];if(s.done)c.push("mgold");if(s.done&&s.pct!=null&&s.pct>=MX_GOOD)c.push("maura");return c;}
 function mornXList(){if(mqIsOS()){const x=osMorn(false);return x?x.list.map(u=>mqFindU(u)).filter(Boolean):[];}const q=mqXFind("MORN|"+mDay());return q?[q]:[];}
 function mornXBox(type){const clock=`<span class="mclock">${type==="OSCE"?"ชุดใหม่":"เคสใหม่"}ใน <b id="mClock">${hms(mNext()-now())}</b></span>`;let t;
   if(type==="OSCE"){const x=osMorn(false);
@@ -2489,7 +2502,7 @@ function PWof(S,id){
 /* migrate the earlier single-sheet site/artifact format {a:{uid:ans},t} → Phase 1 attempts */
 (function(){if(st.migrated)return;const o=ld(CFG.storageKey||"");if(o&&o.a&&typeof o.a==="object"){const P=PWof(st,WL[0].id),t=o.t||now();Object.keys(o.a).forEach(u=>{if(typeof o.a[u]==="number"&&!P.att[1][u])P.att[1][u]=[[o.a[u],t]];});}st.migrated=1;})();
 function persist(){try{localStorage.setItem(KEY,JSON.stringify(st));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}}
-function save(){st.t=now();persist();cloudPush();}
+function save(){try{mornXMark();}catch(e){}st.t=now();persist();cloudPush();}
 /* bank: larger per-user items kept one record each (Admission cases, Legendary papers, Long cases) — key "<kind>|<ward>|<id>" → {…, c:createdTs, ts} · own localStorage key, own cloud docs (a ward doc must stay < 256 KiB) */
 const BKEY=KEY+"-bank";let bank=ld(BKEY)||{};const bankDirty=new Set();let bankT=null;
 function bankPut(k,v){v.ts=now();if(!v.c)v.c=v.ts;bank[k]=v;try{localStorage.setItem(BKEY,JSON.stringify(bank));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}cloudBank(k);}
@@ -2758,16 +2771,26 @@ function mornStat(x){const W=W_(),list=(x.list||[]).filter(u=>W.byU[u]),done=lis
    🔥 day counts when ≥10 of that day's questions were answered on time · one missed day keeps the count (dim, number red, last chance), two missed days in a row → 0
    🏅 = number of days with ≥12 right on time (any days) · gold edge = all 15 on time · aura = ≥12 right on time (random pastel per day) */
 const MF_LIT=10,MF_MEDAL=12;
-function mornGame(){const rec=mornRecs(),today=mDay(),days={};
+/* 🔥 / 🏅 are shared by Morning MCQ, MEQ and OSCE of the ward (user 14 Nov 2026, every ward every site): a day lights if ANY of them is done on time —
+   MCQ ≥10 of the day's set · MEQ the day's case submitted to the last Part · OSCE every station of the day's set · medal day = MCQ ≥12 right or MEQ / OSCE ≥80% (one per day)
+   on-time MEQ / OSCE results are written to P.mornX[day] by mornXMark() on every save while that day is still running; today is read live. Box colours stay per exam type. */
+const MX_GOOD=0.8;
+function mornXMark(){if(!ward||!WARDS[ward]||typeof mornXState!=="function")return;const P=P_(),d=mDay(),s=mornXState(d);if(!s.meq&&!s.os)return;
+  const o=P.mornX=P.mornX||{},c=Object.assign({},o[d]||{});["meq","os"].forEach(k=>{const v=s[k];if(!v||!v.done)return;c[k]=1;if(v.pct!=null&&v.pct>(c[k+"P"]||0))c[k+"P"]=+v.pct.toFixed(3);});
+  if(JSON.stringify(c)!==JSON.stringify(o[d]||{}))o[d]=c;}
+function mornGame(){const rec=mornRecs(),today=mDay(),days={},X=Object.assign({},P_().mornX||{});
+  try{const t=typeof mornXState==="function"?mornXState(today):{},c=Object.assign({},X[today]||{});["meq","os"].forEach(k=>{const v=t[k];if(v&&v.done){c[k]=1;if(v.pct!=null&&v.pct>(c[k+"P"]||0))c[k+"P"]=v.pct;}});X[today]=c;}catch(e){}
   for(const d in rec){let n=0,r=0;rec[d].forEach(x=>{const o=x.ot||{};for(const u in o){n++;if(o[u]===1)r++;}});days[d]={n,r,tot:(rec[d].find(x=>x.p===1)||rec[d][0]).list.length};}
-  const lit=d=>!!days[d]&&days[d].n>=MF_LIT,ks=Object.keys(days).filter(lit).sort();let fire=0;
+  const xLit=d=>!!X[d]&&!!(X[d].meq||X[d].os),xMed=d=>!!X[d]&&((X[d].meqP||0)>=MX_GOOD||(X[d].osP||0)>=MX_GOOD);
+  const lit=d=>(!!days[d]&&days[d].n>=MF_LIT)||xLit(d),ks=[...new Set(Object.keys(days).concat(Object.keys(X)))].filter(lit).sort();let fire=0;
   let risk=false;const end={};   /* risk: yesterday was missed (1-day grace) — if today is missed too, the fire drops to 0 tomorrow · end[day] = the fire at the last second of that day (07:29:59 next morning): {f, s:"on"|"frz"|"out"} */
   if(ks.length){let miss=0;for(let d=ks[0];d<today;d=addDay(d,1)){if(lit(d)){fire++;miss=0;}else if(++miss>=2)fire=0;end[d]={f:fire,s:lit(d)?"on":fire>0?"frz":"out"};}risk=miss===1&&fire>0&&!lit(today);if(lit(today))fire++;}
-  return {fire,on:lit(today),risk,end,medals:Object.values(days).filter(x=>x.r>=MF_MEDAL).length,days};}
+  const md=[...new Set(Object.keys(days).concat(Object.keys(X)))].filter(d=>(days[d]&&days[d].r>=MF_MEDAL)||xMed(d));
+  return {fire,on:lit(today),risk,end,medals:md.length,days,X};}
 const mornHue=d=>parseInt(H7((ward||"")+"|"+d),36)%360;
 const auraVars=d=>{const h=mornHue(d);return `--aura:hsla(${h},90%,84%,.95);--aura2:hsla(${(h+30)%360},90%,87%,.7);--aura3:hsla(${(h+60)%360},90%,91%,.5)`;};
 function mornFx(d,G,all,isPast){const x=G.days[d]||{n:0,r:0,tot:15},c=[];c.push(all>=MF_LIT?"mgood":"mred");if(x.n>0&&x.n>=x.tot)c.push("mgold");if(x.r>=MF_MEDAL)c.push("maura");return c;}
-const mGameHTML=G=>`<span class="mgame"><span class="mfire${G.on?" on":""}${G.risk?" frz":""}" title="Morning round ติดกัน ${G.fire} วัน${G.risk?" — ไฟกำลังจะดับ (ไฟแข็ง): เมื่อวานทำไม่ถึง 10 ข้อ ถ้าวันนี้ยังไม่ทำให้ได้ ≥10 ข้อ พรุ่งนี้ไฟเหลือ 0":G.on?"":" — วันนี้ยังไม่ติดไฟ (ทำให้ได้ ≥10 ข้อ)"}"><span class="ff">🔥</span><i>${G.fire}</i></span><span class="mmedal" title="วันที่ถูก ≥12 ข้อ (ในวันนั้น)">🏅<i>${G.medals}</i></span></span>`;
+const mGameHTML=G=>`<span class="mgame"><span class="mfire${G.on?" on":""}${G.risk?" frz":""}" title="Morning round ติดกัน ${G.fire} วัน (ใช้ร่วมกัน MCQ · MEQ · OSCE — ทำอย่างใดอย่างหนึ่งก็ไฟติด)${G.risk?" — ไฟกำลังจะดับ (ไฟแข็ง): เมื่อวานไฟไม่ติด ถ้าวันนี้ยังไม่ทำ พรุ่งนี้ไฟเหลือ 0":G.on?"":" — วันนี้ยังไม่ติดไฟ (MCQ ≥10 ข้อ หรือ MEQ ครบเคส หรือ OSCE ครบชุด)"}"><span class="ff">🔥</span><i>${G.fire}</i></span><span class="mmedal" title="วันที่ได้เหรียญ: MCQ ถูก ≥12 ข้อ หรือ MEQ / OSCE ได้ ≥80% (ในวันนั้น · วันละ 1 เหรียญ)">🏅<i>${G.medals}</i></span></span>`;
 /* fire beside each date in the Morning history: past days = the fire at the last second of that day; today = the fire right now (same look as the ward-home box) */
 function mhFire(d,today,G){if(d>today)return "";
   if(d===today){const c=G.on?"on":G.risk?"frz":"wait";return `<span class="mhf ${c}" title="${G.on?"วันนี้ไฟติดแล้ว":G.risk?"ไฟแข็ง — เมื่อวานทำไม่ถึง 10 ข้อ ถ้าวันนี้ไม่ทำ พรุ่งนี้ไฟเหลือ 0":"วันนี้ยังไม่ติดไฟ (ทำให้ได้ ≥10 ข้อ)"}"><span class="ff">🔥</span><i>${G.fire}</i><small>ตอนนี้</small></span>`;}
@@ -2871,7 +2894,7 @@ function rHome(){
     const rCount=k=>{const t=k==="service"?`มี <b>${QB.length}</b> ข้อ`:k==="unit"?`มี <b>${unitN(ward)}</b> ข้อ · ${W.UNIT.length} บท`:k==="admission"?`มี <b>${aiN("adm",ward)}</b> เคส`:k==="specialty"?`มี <b>${aiN("spc",ward)}</b> ข้อ · ไฟล์ ${spcUnits().filter(u=>u.kind!=="L").length} เรื่อง`:k==="staff"?`มีข้อให้ทวน <b>${sc}</b> ข้อ`:k==="advisor"?`อ่านเฉลยได้ <b>${advDoneN()}</b> ข้อ`:"";return t?`<span class="rcnt">${t}</span>`:"";};
     const mm=morning(false),ma=mm?mm.list.filter(u=>mm.ans[u]!==undefined).length:0,mr=mm?mm.list.filter(u=>W.byU[u]&&mm.ans[u]===W.byU[u].ans).length:0,MG=mornGame(),mOn=QB.length+unitN(ward)>0,mfx=mornFx(mDay(),MG,ma);   /* same Morning box look in every ward, old or new (user 31 Oct 2026) — a ward with no questions yet still shows 🔥/🏅 and the red/green state */
     const badge=r=>r.soon?'<span class="soon">เร็ว ๆ นี้</span>':r.k==="legend"&&P.leg?'<span class="badge">กำลังสอบ</span>':r.k==="staff"&&sc?`<span class="badge">${sc}</span>`:r.k==="morning"&&mm?`<span class="badge">${ma}/${mm.list.length}</span>`:"";
-    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round${r.k==="morning"?mfx.map(c=>" "+(c==="mred"?"mwarn":c)).join(""):""}" data-round="${r.k}" aria-disabled="${!!r.soon}"${r.k==="morning"&&mfx.includes("maura")?` style="${auraVars(mDay())}"`:""}>${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}${r.k==="morning"?mGameHTML(MG):""}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${rCount(r.k)}${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"?`<span class="mtodo${ma>=MF_LIT?" ok":""}">${!mOn?"🎁 ยังไม่มีข้อให้เปิดกล่อง — รอเพิ่มข้อสอบเก่า / Unit round":!mm?"🎁 ยังไม่ได้เปิดกล่องวันนี้":!ma?"เปิดกล่องแล้ว ยังไม่ได้ทำ — ทำด้วยนะ":ma<MF_LIT?`วันนี้ทำไป ${ma}/${mm.list.length} (ถูก ${mr} ข้อ) — อีก ${MF_LIT-ma} ข้อไฟติด 🔥`:ma<mm.list.length?`🔥 ไฟติดแล้ว · ทำไป ${ma}/${mm.list.length} (ถูก ${mr} ข้อ)`:`✓ ครบ ${ma}/${mm.list.length} ข้อแล้ว (ถูก ${mr} ข้อ)`}</span>`:""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span><span class="mhist" data-mhist="1">📅 ประวัติรายวัน →</span>`:""}</button>`).join("")}</div>`;
+    h+=`<div class="rounds">${ROUNDS.map((r,i)=>`<button class="round${r.k==="morning"?mfx.map(c=>" "+(c==="mred"?"mwarn":c)).join(""):""}" data-round="${r.k}" aria-disabled="${!!r.soon}"${r.k==="morning"&&mfx.includes("maura")?` style="${auraVars(mDay())}"`:""}>${badge(r)}<span class="rn">${String(i+1).padStart(2,"0")}</span><b>${r.k==="io"?ioDot(ioAnyNew()):""}${r.n}${r.k==="morning"?mGameHTML(MG):""}</b><span class="rd">${r.soon?"รายละเอียดจะเพิ่มภายหลัง":r.d}</span>${rCount(r.k)}${r.k==="legend"?(()=>{const E=examCfg();return `<span class="lgspec">${E?`<b>${E.n}</b> ข้อ · <b>${E.min}</b> นาที`:"ยังไม่ได้ตั้งจำนวนข้อ/เวลา"}</span>`;})():""}${r.k==="morning"?`<span class="mtodo${ma>=MF_LIT?" ok":""}">${!mOn?"🎁 ยังไม่มีข้อให้เปิดกล่อง — รอเพิ่มข้อสอบเก่า / Unit round":!mm?"🎁 ยังไม่ได้เปิดกล่องวันนี้":!ma?"เปิดกล่องแล้ว ยังไม่ได้ทำ — ทำด้วยนะ":ma<MF_LIT?`วันนี้ทำไป ${ma}/${mm.list.length} (ถูก ${mr} ข้อ) ${MG.on?"— 🔥 ไฟวันนี้ติดแล้ว (จาก MEQ / OSCE)":`— อีก ${MF_LIT-ma} ข้อไฟติด 🔥`}`:ma<mm.list.length?`🔥 ไฟติดแล้ว · ทำไป ${ma}/${mm.list.length} (ถูก ${mr} ข้อ)`:`✓ ครบ ${ma}/${mm.list.length} ข้อแล้ว (ถูก ${mr} ข้อ)`}</span>`:""}${r.k==="morning"?`<span class="mclock">ชุดใหม่ใน <b id="mClock">${hms(mNext()-now())}</b></span><span class="mhist" data-mhist="1">📅 ประวัติรายวัน →</span>`:""}</button>`).join("")}</div>`;
   }
   h+=gradeCard(ward);
   if(IN_FRAME&&HAS_CLAUDE())h+=clStartCard();
@@ -4766,6 +4789,7 @@ function mergeSt(a,b){
       if(a&&a.day===c.day&&(a.list||[]).join()===(c.list||[]).join()){a.ans=Object.assign({},c.ans,a.ans);if(a.ot||c.ot)a.ot=Object.assign({},c.ot,a.ot);}
       else if(!a||c.day>a.day||(c.day===a.day&&(c.ts||0)>(a.ts||0)))l.morn[p]=c;});
     mornOne(l);
+    if(r.mornX){l.mornX=l.mornX||{};for(const d in r.mornX){const a=l.mornX[d]||{},c=r.mornX[d]||{};l.mornX[d]={meq:a.meq||c.meq||0,os:a.os||c.os||0,meqP:Math.max(a.meqP||0,c.meqP||0),osP:Math.max(a.osP||0,c.osP||0)};}}
     for(const k in r.mornH){const a=l.mornH[k],c=r.mornH[k];if(!a)l.mornH[k]=c;else if((a.list||[]).join()===(c.list||[]).join()){a.ans=Object.assign({},c.ans,a.ans);if(a.ot||c.ot)a.ot=Object.assign({},c.ot,a.ot);}else if((c.ts||0)>(a.ts||0))l.mornH[k]=c;}
     if((r.adm.ts||0)>(l.adm.ts||0))l.adm=r.adm;
     for(const u in r.seen){const a=l.seen[u]||(l.seen[u]={}),b=r.seen[u];for(const k in b)a[k]=a[k]?Math.min(a[k],b[k]):b[k];}
