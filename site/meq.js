@@ -111,8 +111,14 @@ function mqPtsFrac(s,c){const S=s.secs||[];if(!S.some(x=>x[2]>0)){const sc=mqPts
     if(tot&&w){W+=w;G+=w*got/tot;}});return W?G/W:0;}
 function mqPtsScore(s,c){let tot=0,got=0;(s.points||[]).forEach((p,j)=>{if(typeof p==="string"){tot++;if(c[j]===true)got++;}else{const n=p.need||1,v=Array.isArray(c[j])?c[j].filter(Boolean).length:0;tot+=n;got+=Math.min(n,v);}});return {tot,got};}
 function mqRx(p,t){try{return new RegExp(p,"i").test(t);}catch(e){return false;}}
-function mqKwTicks(s,t){const K=s.kw||[];return (s.points||[]).map((p,j)=>{const k=K[j];if(typeof p==="string")return !!(k&&k.some(x=>mqRx(x,t)));return p.any.map((a,m)=>!!(k&&k[m]&&k[m].some(x=>mqRx(x,t))));});}
-function mqAutoFull(s,t){if(!s.auto||!t)return false;if((s.auto.all||[]).some(r=>!mqRx(r,t)))return false;const A=s.auto.any||[];return A.filter(r=>mqRx(r,t)).length>=(A.length?(s.auto.need||1):0);}
+/* count-limited sub (s.lim = N, user 14 Nov 2026): "list 3 …" — only the first N items typed count, the rest are ignored even if right */
+function mqItems(t){t=String(t||"").trim();if(!t)return [];const cl=x=>x.replace(/^\s*(?:[-•*·–]|\(?\d+[.)]|\(?[a-e][.)])\s*/i,"").trim();
+  let L=t.split(/\n+/).map(cl).filter(Boolean);if(L.length>1)return L;
+  L=t.split(/\s+(?=\(?\d+[.)]\s)/).map(cl).filter(Boolean);if(L.length>1)return L;
+  return t.split(/\s*[,;]\s*|\s+(?:และ|and)\s+/i).map(cl).filter(Boolean);}
+function mqLimT(s,t){return s&&s.lim&&t?mqItems(t).slice(0,s.lim).join("\n"):t;}
+function mqKwTicks(s,t){t=mqLimT(s,t);const K=s.kw||[];return (s.points||[]).map((p,j)=>{const k=K[j];if(typeof p==="string")return !!(k&&k.some(x=>mqRx(x,t)));return p.any.map((a,m)=>!!(k&&k[m]&&k[m].some(x=>mqRx(x,t))));});}
+function mqAutoFull(s,t){if(!s.auto||!t)return false;t=mqLimT(s,t);if((s.auto.all||[]).some(r=>!mqRx(r,t)))return false;const A=s.auto.any||[];return A.filter(r=>mqRx(r,t)).length>=(A.length?(s.auto.need||1):0);}
 function mqKwGrade(s,t){if(!t)return null;if(mqAutoFull(s,t))return {grade:2,auto:1};if(!s.kw||!(s.points||[]).length)return null;const c=mqKwTicks(s,t),sc=mqPtsScore(s,c),cm=mqCritMiss(s,c).length;return {grade:cm?0:sc.got>=sc.tot?2:sc.got>0?1:0,got:sc.got,tot:sc.tot,c};}
 function mqKwFill(q,subs){const x=mqEns(q);x.kg=x.kg||{};x.c=x.c||{};x.cs=x.cs||{};x.g=x.g||{};x.gm=x.gm||{};
   subs.forEach(s=>{const i=s._i,t=((x.t&&x.t[i])||"").trim();delete x.kg[i];if(!t)return;const k=mqKwGrade(s,t);if(!k)return;
@@ -152,7 +158,7 @@ ${s.key?"เฉลยในไฟล์: "+plain(s.key).slice(0,1100)+"\n":""}�
 ${String(r.t[s._i]).slice(0,3000)}
 """
 `;});if(mqIsOS()&&q.topic&&typeof osRefFor==="function"){const R=osRefFor(q.topic,osSubOf(q));if(R.length)t+="\n=== แหล่งอ้างอิงของคณะ (ใช้เทียบได้ แต่ถ้าขัดกับ guideline/ตำรา ให้ยึดแหล่งที่เชื่อถือกว่า) ===\n"+R.map(x=>x.title+"\n"+x.text).join("\n\n")+"\n";}return t;}
-function mqPtsText(s){return (s.points||[]).map(p=>typeof p==="string"?plain(p):`${plain(p.label||"")} — ตอบ ${p.need||1} อย่างจาก: ${p.any.map(plain).join(" | ")}`).join(" ; ");}
+function mqPtsText(s){return (s.lim?`[ข้อนี้กำหนดให้ตอบ ${s.lim} อย่าง — นับเฉพาะ ${s.lim} อย่างแรกที่ผู้สอบตอบ เกินมาไม่นับ] ; `:"")+(s.points||[]).map(p=>typeof p==="string"?plain(p):`${plain(p.label||"")} — ตอบ ${p.need||1} อย่างจาก: ${p.any.map(plain).join(" | ")}`).join(" ; ");}
 async function mqAiRun(q,pi,force){const k=q.uid+"#"+pi;if(MQAI.busy[k])return;const r=mqRec(q);if(!r)return;
   const subs=(mqTM()?mqTsubs(q,pi):q.parts[pi].subs).filter(s=>!mqReo(r,s._i)&&mqSubDone(q,s,r)&&((r.t&&r.t[s._i])||"").trim()&&(force||!(r.ai&&r.ai[s._i])));
   if(!subs.length)return;let mode="";try{mode=await aiMode();}catch(e){}if(!mode){MQAI.off=1;return;}
@@ -173,7 +179,7 @@ const mqAiAvail=()=>!MQAI.off&&(HAS_CLAUDE()||!!aiCfg().key);
 const MQ_ROUNDS=[
   {k:"grand",n:"Grand round",d:"สุ่ม MEQ จากทั้งคลังทีละข้อ ยำรวมทุกแบบ (case + short answer) ไม่สนชุดหรือหัวข้อ"},
   {k:"service",n:"Service round",d:"ทำ MEQ ตามชุดข้อสอบ เลือกชุดและแบบ (case / short answer) ได้ · เคสเปิด Part ทีละช่วงเหมือนสอบจริง พิมพ์ตอบแล้วดูเฉลย + คะแนนแนะนำ"},
-  {k:"morning",n:"Morning round",d:"วันละ 1 เคส (1 โรค) 3–5 ข้อย่อย แนวเดียวกับข้อสอบเก่า · ทุกคนได้เคสเดียวกันในวันนั้น · ระหว่างทำไม่บอกอะไรเลยเหมือน Legendary · เคสใหม่ทุกวัน 07:30"},
+  {k:"morning",n:"Morning round",d:"วันละ 1 เคส (1 โรค) 4–5 Part แนวเดียวกับข้อสอบเก่า · เริ่มจาก CC แล้วซักประวัติเสมอ · ทุกคนได้เคสเดียวกันในวันนั้น · ระหว่างทำไม่บอกอะไรเลยเหมือน Legendary · เคสใหม่ทุกวัน 07:30"},
   {k:"legend",n:"Legendary round",d:"",soon:1,off:1,note:"ปิดไว้ก่อน — ยังไม่เปิดใน MEQ / OSCE"},
   {k:"staff",n:"Ward staff round",d:"ทวนข้อ MEQ ที่ทำแล้วแต่ยังมี Part ที่ไม่ได้เต็ม"},
   {k:"teach",n:"Teaching round",d:"ใบเหลือง · CTA · Flashcard · Oral (ใช้ร่วมกับ MCQ / OSCE)"},
@@ -403,6 +409,7 @@ function mqDoneSub(q,pi,s,r,t){const i=s._i,typed=!!t.trim(),ai=(r.ai&&r.ai[i])|
   if(!typed)h+=`<div class="muted">ไม่ได้พิมพ์คำตอบ — เทียบกับเฉลยและเกณฑ์ด้านล่าง แล้วให้คะแนนตัวเอง</div>`;
   else{if(ai)h+=`<div><b>🤖 AI:</b> ${mqNl(sg&&sg.grade===2&&ai.grade!==2?MQ_GOOD:ai.assess)}</div>${ai.missing&&!(sg&&sg.grade===2)?`<div class="aimiss"><b>ขาด / ควรเพิ่ม:</b> ${mqNl(ai.missing)}</div>`:""}`;
     else if(MQAI.busy[kk])h+=`<div class="muted">⏳ AI กำลังอ่านคำตอบ… (ครั้งแรกใน Claude จะมีหน้าต่างขออนุญาต)</div>`;
+    if(s.lim){const nI=mqItems(t).length;if(nI>s.lim)h+=`<div class="aimiss"><b>ตอบมา ${nI} อย่าง เกินที่โจทย์กำหนด (${s.lim})</b> — นับเฉพาะ ${s.lim} อย่างแรก</div>`;}
     const kg=r.kg&&r.kg[i];
     if(kg&&!ai){const miss=(s.points||[]).map((p,j)=>{const c=mqTicks(s,r)[j];return typeof p==="string"?(c===true?null:p):(Array.isArray(c)&&c.filter(Boolean).length>=(p.need||1)?null:(p.label||p.any.join(" / ")));}).filter(Boolean);
       h+=`<div>🔎 <b>เทียบคำสำคัญ</b>${kg.auto?" — มีคำตอบหลักตรงเกณฑ์ \"ได้\"":kg.tot?` — เจอ <b>${kg.got}/${kg.tot}</b> ประเด็น (ติ๊กให้ในข้อ ④ แล้ว)`:""}</div>${miss.length&&!kg.auto?`<div class="aimiss"><b>ยังไม่เจอในคำตอบ:</b> ${miss.map(x=>plain(x)).map(esc).join(" · ")}</div>`:""}<div class="muted">ระบบจับคำสำคัญแบบคร่าว ๆ (ไม่ใช้ AI ใช้ได้ไม่จำกัด) — ถ้าเขียนด้วยคำอื่นอาจจับไม่ได้ ตรวจและแก้ติ๊กเองได้</div>`;}
@@ -414,7 +421,7 @@ function mqDoneSub(q,pi,s,r,t){const i=s._i,typed=!!t.trim(),ai=(r.ai&&r.ai[i])|
   if((s.points||[]).length){const c=mqTicks(s,r);h+=`<ul class="pts"><li class="ph">ประเด็นที่ควรมีในคำตอบ (ติ๊กข้อที่ตอบได้)</li>${s.points.map((p,j)=>{const hd=mqSecHead(s,j,c),ct=mqCritTag(s,j);
     if(typeof p==="string")return hd+`<li><label><input type="checkbox" data-ms="${i}" data-mp="${j}" ${c[j]===true?"checked":""}><span>${p}${ct}</span></label></li>`;
     const vv=Array.isArray(c[j])?c[j]:[],need=p.need||1;
-    return hd+`<li class="pgrp"><div class="pgl">${p.label?p.label+" ":""}<span class="alt">${need===1?"เลือกอย่างใดอย่างหนึ่งก็ถูก":`ตอบ ${need} อย่างจากนี้ก็ได้เต็ม`}</span>${ct}</div><ul>${p.any.map((a,m)=>`<li><label><input type="checkbox" data-ms="${i}" data-mp="${j}" data-mk="${m}" ${vv[m]?"checked":""}><span>${a}</span></label></li>`).join("")}</ul></li>`;}).join("")}</ul>`;
+    return hd+`<li class="pgrp"><div class="pgl">${p.label?p.label+" ":""}<span class="alt">${s.lim?`โจทย์ให้ตอบ ${s.lim} อย่าง — นับเฉพาะ ${s.lim} อย่างแรกที่ตอบ ถูก ${need} อย่างจากนี้ได้เต็ม`:need===1?"เลือกอย่างใดอย่างหนึ่งก็ถูก":`ตอบ ${need} อย่างจากนี้ก็ได้เต็ม`}</span>${ct}</div><ul>${p.any.map((a,m)=>`<li><label><input type="checkbox" data-ms="${i}" data-mp="${j}" data-mk="${m}" ${vv[m]?"checked":""}><span>${a}</span></label></li>`).join("")}</ul></li>`;}).join("")}</ul>`;
     if(c.length)h+=mqCritWarn(s,c);
     if(mqIsOS()){const f=mqFrac(s,r),sc=mqPtsScore(s,c.length?c:[]);h+=`<div class="oschk">Checklist ได้ <b>${sc.got}/${sc.tot}</b> ประเด็น${f!==null?` · ข้อย่อยนี้ได้ <b>${+(mqMk(s)*f).toFixed(1)}/${mqMk(s)}</b> คะแนน${r.gm&&r.gm[i]?" (เลือกคะแนนเอง)":""}`:""}</div>`;}}
   h+=`</div>`+mqKeyWarn(s);
