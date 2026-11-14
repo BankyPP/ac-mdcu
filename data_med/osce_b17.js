@@ -7,6 +7,7 @@
      (สถานีที่สมุดเขียนเป็นเลข 1–12 ในหน้าซักประวัติ = ข้อสอบปีอื่นที่มีในคลังแล้ว → ไม่ใส่ซ้ำ)
    · ชุด 2 (p28–65, 14 พ.ย. 2026): กล่อง "XX." 2 สถานี — p40 thyrotoxicosis DDx 3 โรค · p64 skin lesion ที่ penis (สถานีเลขอื่นในช่วงนี้ = ปีอื่นที่มีในคลังแล้ว → ติด 📝 recall ใน Round I/O)
    · ชุด 3 (p66–103 Imaging, 15 พ.ย. 2026): กล่อง "XX." 1 สถานี — p94 thyroid scan (test name / describe / Dx / Tx) · สถานีเลขอื่นในช่วงนี้ (CXR 7, 9, 11, 15 · CT brain 4, 12, 14 · CT abdomen 10 · thyroid scan 5, 10 · parathyroid scan 13 · hypercalcemia X-ray 14 · USG GB 9) = ปีอื่น → ติด 📝 recall ใน Round I/O R01-I10…I16
+   · ชุด 4 (p104–131 EKG): ไม่มีกล่อง XX · ชุด 5 (p132–195 Lab + Microscope, 15 พ.ย. 2026): กล่อง "XX." 4 สถานี — p184 XX-Thyro2 (หญิง 30 ปี thyrotoxicosis goiter 30 g: สาเหตุ 3 โรค) · p134/p184 XX-Sputum (HAP ใส่ท่อ: บรรยาย specimen + Dx) · p189–190 XX-Malaria (P. falciparum gametocyte, รูป img/moxx_malaria.jpg) · p191 XX-IDA (รูปฝึกจาก handout p139 → img/moxx_ida.jpg) · กล่อง XX thyrotoxicosis 2 mo บน p184 = ซ้ำ XX-Thyro (p40) ไม่ลงซ้ำ
    เฉลย: ใช้ key ในสมุดถ้ามี (ลายมือในหน้าเนื้อหา R01) · ไม่มี = เฉลยโดย Claude · CXR ใช้เกณฑ์ ABCDEFGHI · Skin ใช้เวอร์ชันหลักของผู้ใช้ (med-osce)
    รูป: p5 CT → img/moxx_ct.jpg · สถานีอื่นไม่มีรูปในสมุด (NOIMG) */
 const NK="ไม่มีเฉลยในสมุด (เฉลยโดย Claude)";
@@ -391,7 +392,65 @@ X({page:64,orig:"XX-Penis",topic:"skin",seen:"คล้าย MDCU71 RoX Skin1 (
    ans:"ควบคุมอาการด้วย <b>β-blocker</b> · ยาต้านไทรอยด์<b>ตัวเดียว</b>: <b>methimazole</b> (PTU เฉพาะไตรมาสแรก/thyroid storm/แพ้ MMI) — สมุดเขียน \"PTU with methimazole\" ไม่ถูก (ไม่ใช้ร่วมกัน) · <b>ประเมิน cold nodule ด้วย US ± FNA</b> ก่อนเลือกการรักษาถาวร (ATA 2016) · definitive: <b>radioactive iodine (I-131)</b> หรือ <b>total thyroidectomy</b> — ถ้า nodule สงสัย/เป็นมะเร็ง หรือก้อนใหญ่กดเบียด เลือก <b>surgery</b>",
    pts:[CR(P("Antithyroid drug — methimazole (one drug)","methimazole","\\bmmi\\b","antithyroid","carbimazole","ptu","propylthio")),P("β-blocker","beta","β","propranolol","blocker"),CR(P("FNA / ultrasound of the cold nodule","fna","fine.?needle","biopsy","ultrasound","\\bus\\b")),G("Definitive therapy",1,P("Radioactive iodine","radioactive","\\brai\\b","i.?131","radioiodine"),P("Thyroidectomy","thyroidectomy","surgery","ผ่าตัด"))]})),
  interp:"Diffuse homogeneous ↑ uptake ทั้ง 2 lobe + จุด cold ที่ right lobe → Graves with cold nodule → MMI + β-blocker, FNA cold nodule, definitive RAI/surgery",
- summary:["Pertechnetate = trap only · sestamibi = thyroid + parathyroid · subtraction = parathyroid","Graves: diffuse homogeneous ↑ uptake ± pyramidal lobe · TMNG: heterogeneous · toxic adenoma: hot nodule + suppressed rest · thyroiditis: no uptake","Cold nodule ใน Graves ต้อง FNA ก่อน RAI · ยาต้านไทรอยด์ใช้ตัวเดียว (MMI)"]})
+ summary:["Pertechnetate = trap only · sestamibi = thyroid + parathyroid · subtraction = parathyroid","Graves: diffuse homogeneous ↑ uptake ± pyramidal lobe · TMNG: heterogeneous · toxic adenoma: hot nodule + suppressed rest · thyroiditis: no uptake","Cold nodule ใน Graves ต้อง FNA ก่อน RAI · ยาต้านไทรอยด์ใช้ตัวเดียว (MMI)"]}),
+/* ============================ ชุด 5 (p132–195 Lab + Microscope, 15 พ.ย. 2026) — กล่อง "XX." 4 สถานี ============================ */
+X({page:184,orig:"XX-Thyro2",topic:"lab",seen:"คล้าย XX-Thyro (สมุด p40, thyrotoxicosis + diffuse goiter) — คนละเวอร์ชันการจด (หญิง 30 ปี, goiter 30 g, ถามสาเหตุ)",title:"Palpitations and sweating with a diffusely enlarged thyroid, high FT3 and low TSH: 3 causes",
+ stem:`A 30-year-old woman presents with palpitations and excessive sweating. The thyroid gland is diffusely enlarged (about 30 g). Laboratory results: <b>FT3 high, TSH low</b>.<br>Give 3 diseases that can cause this condition.`,
+ gray:"XX. ผู้ป่วยหญิงอายุ 30 ปี มีอาการใจสั่น เหงื่อออกมาก\nคลำที่คอพบต่อม thyroid โตทั่วๆ ขนาดประมาณ 30 กรัม\nตรวจผลทางห้องปฏิบัติการพบ FT3 สูง TSH ต่ำ\nจงบอกสาเหตุของการเกิดภาวะดังกล่าวมา 3 โรค",
+ opinion:"ลายมือเฉลยในสมุดใส่ TSH-producing tumor ด้วย — ตัดออกเพราะโจทย์บอก TSH ต่ำ (TSHoma = TSH ปกติ/สูง)",
+ parts:S(
+  B("Give 3 diseases that can cause this condition.",6,{tags:["lab"],key:KN(184)+" — ✓ Grave's disease · ✓ thyroiditis (★★) · hydatidiform mole (βhCG ~ TSH) · ✓ TSH-producing tumor (ลายมือ: → 1° hyperthyroid)",
+   ans:"<b>Primary thyrotoxicosis + diffuse goiter</b> (TSH ถูกกด): <b>1. Graves' disease</b> (พบบ่อยสุด, TRAb) · <b>2. Thyroiditis</b> — painless (silent/postpartum) หรือ subacute (de Quervain: คอเจ็บ ESR สูง) · <b>3. hCG-mediated hyperthyroidism</b> — hydatidiform mole/choriocarcinoma (β-hCG โครงสร้างคล้าย TSH กระตุ้น TSH receptor) · อื่นที่รับได้: toxic multinodular goiter (มักเป็นก้อน), exogenous thyroid hormone (ต่อมไม่โต)",
+   exp:"ข้อนี้ถาม \"สาเหตุ\" ของ thyrotoxicosis ที่ TSH ต่ำ + ต่อมโตทั่ว ๆ ในหญิงวัยเจริญพันธุ์ · <b>TSH-secreting pituitary adenoma ไม่ใช่คำตอบ</b> เพราะ TSH จะปกติหรือสูง (สมุดใส่ไว้ — ผิด) · แยกต่อด้วย TRAb, RAIU (Graves สูง/thyroiditis ต่ำ), β-hCG (ATA 2016)",
+   rubric:"ได้เต็ม = Graves + thyroiditis + hCG-mediated (หรือ TMNG/exogenous เป็นข้อที่ 3) · TSHoma ไม่ได้คะแนน",
+   pts:[CR(P("Graves' disease","grave","basedow","เกรฟส์")),G("อีก 2 สาเหตุ",2,P("Thyroiditis (painless/subacute/postpartum)","thyroiditis","de quervain","silent","painless","postpartum","ต่อมไทรอยด์อักเสบ"),P("hCG-mediated (hydatidiform mole, choriocarcinoma)","mole","hydatidiform","choriocarcinoma","hcg","trophoblast","ครรภ์ไข่ปลาอุก"),P("Toxic multinodular goiter / toxic adenoma","multinodular","\\btmng\\b","toxic adenoma","plummer"),P("Exogenous thyroid hormone","exogenous","factitia","levothyrox","ยาลดความอ้วน"))]})),
+ interp:"Thyrotoxicosis + diffuse goiter + TSH ต่ำ → Graves > thyroiditis > hCG-mediated · TSHoma ตัดได้เพราะ TSH ต่ำ",
+ summary:["TSH ต่ำ + FT3/FT4 สูง = primary thyrotoxicosis · TSH ปกติ/สูง = TSHoma หรือ thyroid hormone resistance","RAIU สูง: Graves, TMNG, toxic adenoma, hCG · ต่ำ: thyroiditis, exogenous, struma ovarii","hCG โครงสร้างคล้าย TSH → mole/choriocarcinoma/hyperemesis ทำ thyrotoxicosis ได้"]}),
+
+X({page:134,orig:"XX-Sputum",topic:"micro",seen:"คล้ายสถานี Sputum (ข้อ 12 ปีอื่น: Murray–Washington + gram stain)",title:"Sputum from an intubated patient who developed pneumonia in hospital: describe the specimen and diagnose",imgNote:NOIMG+" · คาดว่าเป็น Gram stain ของเสมหะคุณภาพดี: PMN > 25/LPF, squamous epithelial cells < 10/LPF ± แบคทีเรีย",
+ stem:`A woman in her 50s was admitted for cellulitis. During the admission she became increasingly dyspneic, her sputum changed colour, and she required endotracheal intubation. A Gram-stained sputum specimen is shown.<br>1. Describe the specimen.<br>2. Give the diagnosis.`,
+ gray:"XX. ผู้ป่วยหญิงอายุ 50+ ปี มาด้วย cellulitis รักษาตัว\nต่อมาพบเหนื่อยมากขึ้น เสมหะเปลี่ยนสี ต้องใส่ท่อช่วยหายใจ\n1. บรรยาย specimen ที่เห็น\n2. Diagnosis",
+ flag:"⚠ ไม่มีรูปในสมุด · ข้อ 2 สมุดไม่ได้เขียนเฉลย → Claude เติม",
+ parts:S(
+  B("1. Describe the specimen.",5,{tags:["micro"],key:KN(184)+" — sputum → adequate: epithelium cell < 10/LPF, leukocyte > 25/LPF",
+   ans:"<b>Gram stain of sputum</b> (ดู low power 10× หลาย field): <b>squamous epithelial cells &lt; 10/LPF</b>, <b>PMN &gt; 25/LPF</b> → <b>adequate sputum</b> (Murray–Washington group 5) · บรรยายเชื้อที่เห็นต่อ (เช่น gram-positive cocci in clusters หรือ gram-negative bacilli ทั้งในและนอกเซลล์)",
+   exp:"Murray–Washington: group 1–3 (epithelial &gt; 25/LPF) = inadequate ต้องเก็บใหม่ · group 4 (epi 10–25, PMN &gt; 25) พอใช้ · group 5 (epi &lt; 10, PMN &gt; 25) adequate · IDSA/ASM 2024: reject ถ้า SEC &gt; 10/LPF",
+   pts:[CR(P("Adequate sputum","adequate","murray","group 5","คุณภาพดี")),P("Squamous epithelial cells < 10/LPF","epitheli","squamous","\\bsec\\b","< ?10"),P("PMN > 25/LPF","pmn","neutrophil","leukocyte","wbc","> ?25"),P("ระบุเชื้อที่เห็น (gram/รูปร่าง)","gram","cocci","bacilli","rod")]}),
+  B("2. Give the diagnosis.",4,{tags:["micro"],flag:"Claude เติม",
+   ans:"<b>Hospital-acquired pneumonia</b> (เกิดหลังนอน รพ. &gt; 48 ชม.) ที่ต้องใส่ท่อ = <b>ventilated HAP</b> (ถ้าเกิดหลังใส่ท่อ &gt; 48 ชม. = VAP) · เชื้อที่ต้องนึก: <b>S. aureus</b> (รวม MRSA — มาจาก cellulitis/bacteremia), <b>P. aeruginosa</b>, Klebsiella/Enterobacterales, Acinetobacter · empirical (IDSA/ATS 2016): antipseudomonal β-lactam (piperacillin-tazobactam/cefepime/meropenem) ± vancomycin/linezolid",
+   exp:"ประวัติ cellulitis → อาจเป็น S. aureus bacteremia → septic emboli/pneumonia · ส่ง sputum/ETA culture + hemoculture ก่อนให้ยา",
+   pts:[CR(P("Hospital-acquired pneumonia / VAP","hospital.?acquired","\\bhap\\b","\\bvap\\b","nosocomial","ventilator","ปอดอักเสบในโรงพยาบาล")),P("S. aureus / MRSA","aureus","mrsa","staph"),P("P. aeruginosa / GNB","pseudomonas","aeruginosa","klebsiella","gram.?negative","acinetobacter")]})),
+ interp:"Adequate sputum (epi < 10, PMN > 25/LPF) + ปอดอักเสบหลังนอน รพ. → HAP/VAP (S. aureus, P. aeruginosa)",
+ summary:["Murray–Washington group 5 = adequate (epi < 10, PMN > 25/LPF)","HAP > 48 ชม. หลัง admit · VAP > 48 ชม. หลังใส่ท่อ","HAP empirical ต้องครอบคลุม Pseudomonas ± MRSA (ceftriaxone ไม่พอ)"]}),
+
+X({page:189,orig:"XX-Malaria",topic:"micro",img:"moxx_malaria",imgNote:"รูปจากกล่อง XX ในสมุด (p189)",seen:"คล้ายสถานี malaria PBS ปีอื่น",title:"Thin blood smear in a febrile patient: explain all findings and give the diagnosis",
+ stem:`Blood smear — explain all findings and give the diagnosis.`,
+ gray:"• Blood smear : Malaria (Explain all findings)\nXX. ให้slide malaria P. falciparum จงบรรยายและ\nDx",
+ parts:S(
+  B("1. Explain all findings (RBC, WBC, platelets).",6,{tags:["micro"],key:KN(189)+" — RBC: macro and microgametocyte of the Plasmodium falciparum parasite, normal size of infected RBC · WBC: – · Plt: decreased platelet smear · infected rate ~0.5–1% · ลายมือ: multiple ring forms in single RBC, banana-shaped gametocyte (crescent), NCNC RBC c̄ Maurer's dot",
+   ans:"<b>RBC</b>: normochromic normocytic RBC · <b>infected RBC ขนาดปกติ (ไม่โต)</b> · พบ <b>crescent/banana-shaped gametocytes</b> (macrogametocyte สีเข้ม chromatin แน่น · microgametocyte ซีดกว่า) ± ring forms (double chromatin, หลาย ring ใน RBC เดียว, marginal form), Maurer's dots · parasitemia ~0.5–1% · <b>WBC</b>: ไม่เพิ่ม (normal/decreased), no abnormal cell · <b>Plt</b>: decreased",
+   exp:"เทคนิค: เขียน 3 series เสมอ · ประมาณ parasitemia — ไม่ซีด 1 field ที่ 100× มี RBC ~200 ตัว · P. vivax/ovale ต่างกันตรง RBC โต ซีด + Schüffner's dots",
+   pts:[CR(P("Crescent/banana-shaped gametocytes","gametocyte","banana","crescent","กล้วย","เสี้ยว")),P("Infected RBC normal size","normal size","ไม่โต","ขนาดปกติ"),P("Ring forms / double chromatin / multiple infection","ring","double chromatin","multiple","appliqu","marginal"),P("Platelet decreased","thrombocytopenia","plt","platelet","เกล็ดเลือด"),P("WBC comment","wbc","leukocyte","white")]}),
+  B("2. Give the diagnosis.",3,{tags:["micro"],key:KN(189)+" — P. falciparum",
+   ans:"<b>Plasmodium falciparum malaria</b> (มี gametocyte) · ถ้าถามต่อ: ประเมิน severe malaria · รักษา uncomplicated = <b>ACT 3 วัน + single low-dose primaquine</b> · severe = <b>IV artesunate</b> (WHO guidelines for malaria)",
+   pts:[CR(P("P. falciparum malaria","falciparum","\\bp\\.? ?f\\b","มาลาเรีย"))]})),
+ interp:"Banana-shaped gametocytes + RBC ขนาดปกติ + plt ต่ำ → P. falciparum",
+ summary:["Pf: RBC ไม่โต, ring หลายอัน/RBC, double chromatin, banana gametocyte, Maurer's dot","Pv/Po: RBC โต ซีด, Schüffner's dot, hypnozoite → primaquine/tafenoquine (ตรวจ G6PD)","Uncomplicated Pf: ACT 3 วัน + single low-dose primaquine · severe: IV artesunate"]}),
+
+X({page:191,orig:"XX-IDA",topic:"micro",img:"moxx_ida",imgNote:"ไม่มีรูปในกล่อง XX — ใช้รูป IDA จาก handout ในสมุด (p139) เป็นรูปฝึก ไม่ใช่รูปข้อสอบจริง",seen:"คล้ายสถานี PBS IDA ปีอื่น (เช่นข้อ 2/3 Blood smear ในสมุด p192–193)",title:"Peripheral blood smear: describe the findings and give the diagnosis",
+ stem:`Describe this peripheral blood smear and give the diagnosis.`,
+ gray:"XX. Blood smear IDA ให้อธิบายสิ่งที่พบ + Dx",
+ opinion:"สมุดเขียน \"tear drop cell/pencil cell\" — เซลล์เด่นของ IDA คือ pencil cell (elliptocyte); tear drop (dacrocyte) เด่นใน myelofibrosis/thalassemia",
+ parts:S(
+  B("1. Describe the findings.",6,{tags:["micro"],key:KN(191)+" — 1. RBC: hypochromic microcytic anemia, anisocytosis 3+, poikilocytosis 2+, tear drop cell/pencil cell moderate, few target cell · 2. WBC: normal · 3. Plt: thrombocytosis",
+   ans:"<b>RBC</b>: <b>hypochromic microcytic anemia</b>, anisocytosis 3+ &gt; poikilocytosis 2+, moderate <b>pencil cells (elliptocytes)</b>, few target cells, few polychromasia (ไม่มี basophilic stippling/nRBC) · <b>WBC</b>: normal number and proportion, no abnormal cell · <b>Plt</b>: <b>thrombocytosis</b>, normal morphology",
+   exp:"แยก thalassemia: thal มี target/nRBC/basophilic stippling เยอะ poikilocytosis มากกว่า และ plt มักไม่สูง · IDA: aniso &gt; poikilo, pencil cell, reactive thrombocytosis",
+   pts:[CR(P("Hypochromic microcytic anemia","hypochrom","microcyt","ซีด")),P("Anisopoikilocytosis","aniso","poikilo"),CR(P("Pencil cells (elliptocytes)","pencil","ellipto")),P("WBC normal","wbc","white"),CR(P("Thrombocytosis","thrombocytosis","plt","platelet","เกล็ดเลือดสูง"))]}),
+  B("2. Give the diagnosis.",3,{tags:["micro"],key:KN(191)+" — IDA + reactive thrombocytosis",
+   ans:"<b>Iron deficiency anemia with reactive thrombocytosis</b> · ตรวจต่อ: serum ferritin (&lt; 30 ng/mL), หาสาเหตุเสียเลือด (GI ในผู้ชาย/หญิงหมดประจำเดือน → EGD + colonoscopy; ประจำเดือนมากในหญิง)",
+   pts:[CR(P("Iron deficiency anemia","iron deficiency","\\bida\\b","ขาดธาตุเหล็ก")),P("Reactive thrombocytosis","reactive","thrombocytosis")]})),
+ interp:"Hypochromic microcytic + pencil cells + thrombocytosis → IDA with reactive thrombocytosis",
+ summary:["IDA: aniso > poikilo, pencil cell (elliptocyte), plt สูง, ไม่มี basophilic stippling","Thal: target, nRBC, basophilic stippling, poikilo มาก, RBC count สูง (Mentzer < 13)","ยืนยัน IDA ด้วย ferritin < 30 ng/mL แล้วหาจุดเสียเลือด"]})
 
 );
 })();
