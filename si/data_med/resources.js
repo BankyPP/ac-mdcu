@@ -3,6 +3,7 @@ W.RES=[
 {
 "code": "R01",
 "title": "Medically important bacteria",
+"kw": "bacteri|gram|cocci|bacill|staph|strep|pneumococ|meningococ|gonococ|E\\.? ?coli|klebsiella|pseudomonas|salmonella|shigella|vibrio|clostridi|listeria|tubercul|mycobacter|syphilis|lepto|rickett|melioid|burkholder|chlamyd|mycoplasma|legionella|antibiot|sepsis|culture",
 "topic": "Infectious disease",
 "tags": [
 "Infectious disease"
@@ -91,6 +92,7 @@ W.RES=[
 {
 "code": "R02",
 "title": "Adrenal insufficiency: old and new treatment",
+"kw": "adrenal|addison|cortisol|hydrocortisone|\\bACTH\\b|cosyntropin|hypocortis|glucocorticoid|steroid (withdraw|replace)|crisis",
 "topic": "Endocrinology",
 "tags": [
 "Endocrinology"

@@ -3,6 +3,7 @@ W.RES=[
 {
 "code": "R22",
 "title": "Gallstone-related disease (Tokyo Guidelines 2018)",
+"kw": "gallstone|cholelith|cholecyst|choledoch|cholangitis|\\bCBD\\b|biliary colic|\\bERCP\\b|pancreatit|\\bIPN\\b|necros|mirizzi|tokyo|นิ่วในถุงน้ำดี|ถุงน้ำดี",
 "topic": "Gallbladder & Biliary",
 "tags": [
 "Gallstone",
@@ -43,6 +44,7 @@ W.RES=[
 {
 "code": "R23",
 "title": "Surgery in Breast Cancer (Schwartz Ch.17 — corrected notes)",
+"kw": "breast|mastectom|lumpectom|sentinel|axillary|nipple|BI-?RADS|mammo|เต้านม",
 "topic": "Breast",
 "tags": [
 "Breast",
@@ -77,6 +79,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Acute abdomen",
+"kw": "acute abdomen|peritonit|perforat|free air|abdominal pain|ปวดท้อง",
 "topic": "",
 "tags": [
 "Acute abdomen"
@@ -99,6 +102,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Esophagus",
+"kw": "esophag|achalasia|\\bGERD\\b|barrett|dysphag|zenker|hiatal|boerhaave|หลอดอาหาร",
 "topic": "Esophagus",
 "tags": [
 "Esophagus",
@@ -143,6 +147,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Stomach & Duodenum",
+"kw": "stomach|gastr|duoden|peptic|ulcer|pylori|\\bUGIB\\b|upper GI|pyloric|กระเพาะ",
 "topic": "Stomach & Duodenum",
 "tags": [
 "Stomach & duodenum",
@@ -198,6 +203,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Small bowel & Obstruction",
+"kw": "small (bowel|intestin)|\\bSBO\\b|bowel obstruct|ileus|adhesi|meckel|crohn|intussuscep|ลำไส้เล็ก|ลำไส้อุดตัน",
 "topic": "Small bowel & Obstruction",
 "tags": [
 "Small bowel"
@@ -218,6 +224,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Hernia & Abdominal wall",
+"kw": "hernia|inguinal|femoral|umbilical|incisional|abdominal wall|ไส้เลื่อน",
 "topic": "Hernia & Abdominal wall",
 "tags": [
 "Hernia"
@@ -248,6 +255,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Appendix",
+"kw": "append|mcburney|alvarado|ไส้ติ่ง",
 "topic": "Appendix",
 "tags": [
 "Appendix",
@@ -271,6 +279,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Colorectal & Anorectal",
+"kw": "colorectal|colon|rect(al|um)|sigmoid|anal|anorectal|hemorrhoid|fistula|fissure|diverticul|polyp|\\bCEA\\b|ลำไส้ใหญ่|ริดสีดวง",
 "topic": "Colorectal & Anorectal",
 "tags": [
 "Colorectal"
@@ -292,6 +301,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Gallbladder & Biliary",
+"kw": "gallbladder|gallstone|cholecyst|choledoch|cholangi|biliary|bile duct|\\bCBD\\b|jaundice|klatskin|periampull|ถุงน้ำดี|ท่อน้ำดี|ดีซ่าน",
 "topic": "Gallbladder & Biliary",
 "tags": [
 "Gallstone",
@@ -337,6 +347,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Liver",
+"kw": "liver|hepat|cirrho|portal hypert|varice|\\bHCC\\b|\\bAFP\\b|ตับ",
 "topic": "Liver",
 "tags": [
 "Liver",
@@ -382,6 +393,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Pancreas & Spleen",
+"kw": "pancrea|spleen|splen|whipple|amylase|lipase|ตับอ่อน|ม้าม",
 "topic": "Pancreas & Spleen",
 "tags": [
 "Pancreas",
@@ -420,6 +432,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Breast",
+"kw": "breast|mastectom|lumpectom|sentinel|axillary|nipple|BI-?RADS|mammo|fibroadenom|เต้านม",
 "topic": "Breast",
 "tags": [
 "Breast"
@@ -479,6 +492,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Vascular & Venous",
+"kw": "arter|aneurysm|\\bAAA\\b|claudication|limb ischemi|mesenteric ischemi|\\bABI\\b|carotid|\\bDVT\\b|\\bVTE\\b|deep vein|varicose|venous (insufficien|ulcer|thromb)|embolectomy|pulmonary embol",
 "topic": "Vascular & Venous",
 "tags": [
 "Vascular",
@@ -557,6 +571,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Thyroid & Endocrine",
+"kw": "thyroid|parathyroid|goit|\\bPTH\\b|adrenal|pheochromo|cushing|conn|insulinoma|\\bMEN\\b|ไทรอยด์",
 "topic": "Thyroid & Endocrine",
 "tags": [
 "Thyroid & parathyroid"
@@ -603,6 +618,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Perioperative care & Surgical infection",
+"kw": "pre-?op|post-?op|perioperat|surgical site infect|\\bSSI\\b|wound infect|antibiotic prophyla|\\bASA\\b class|risk assess|ผ่าตัด",
 "topic": "Perioperative care & Surgical infection",
 "tags": [
 "Pre-op & post-op",
@@ -631,6 +647,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Fluid, Electrolyte & Nutrition",
+"kw": "fluid|electrolyte|hypo-?natr|hyper-?natr|hypo-?kal|hyper-?kal|nutrition|\\bTPN\\b|parenteral|enteral|refeeding|malnutrit|สารน้ำ|เกลือแร่",
 "topic": "Fluid, Electrolyte & Nutrition",
 "tags": [
 "Nutrition",
@@ -651,6 +668,7 @@ W.RES=[
 {
 "code": "R24",
 "title": "Surgery Notebook รุ่นพี่ — Wound & Plastic",
+"kw": "wound|burn|skin graft|flap|scar|keloid|pressure (ulcer|injury)|healing|แผล|ไฟไหม้",
 "topic": "Wound & Plastic",
 "tags": [
 "Plastic",
