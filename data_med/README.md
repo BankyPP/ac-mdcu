@@ -80,6 +80,30 @@
 | MDCU70 RoA (R1, `IM70AQ` P2 หน้า 9–13) | `data_b41.js` | 14 |
 | MDCU70 RoD (R4, `IM70DQ` P2 หน้า 14–17; "xx)" → orig x1–x7) | `data_b42.js` | 14 |
 
+**รอบ 2 (15 พ.ย. 2026) — รุ่น 69–65 (Part 2 หน้า 18–84)**
+
+| ชุด | ไฟล์ | จำนวน |
+|---|---|---|
+| MDCU69 RoB (R2, `IM69BQ` หน้า 18–21) | `data_b43.js` | MCQ 10 |
+| MDCU69 RoD (R4, `IM69DQ` `IME69DQ` `IMO69DQ` หน้า 22–26) | `data_b44.js` · `meq_b10.js` · `osce_b18.js` | MCQ 15 · MEQ 4 · OSCE 2 |
+| MDCU68 RoA (R1, `IM68AQ` `IMO68AQ` หน้า 27–28) | `data_b45.js` · `osce_b19.js` | MCQ 7 · OSCE 2 |
+| MDCU68 RoB (R2, `IM68BQ` หน้า 29–31) | `data_b46.js` | MCQ 16 |
+| MDCU68 RoC (R3, `IM68CQ` `IME68CQ` `IMO68CQ` หน้า 32–34) | `data_b47.js` · `meq_b11.js` · `osce_b20.js` | MCQ 10 · MEQ 4 · OSCE 1 |
+| MDCU68 RoD (หน้าคั่น R4 / หัวไฟล์ Rotate 1 → ยึดหน้าคั่น, `IM68DQ` `IME68DQ` หน้า 35–36) | `data_b48.js` · `meq_b11.js` | MCQ 8 · MEQ 1 |
+| MDCU67 RoA (R1, `IM67AQ` `IME67AQ` หน้า 38–42) | `data_b49.js` · `meq_b12.js` | MCQ 42 · MEQ 4 |
+| MDCU67 RoB (R2, `IM67BQ` `IME67BQ` หน้า 43–51) | `data_b50.js` (1–31) · `data_b51.js` (32–55) · `meq_b13.js` | MCQ 55 · MEQ 4 |
+| MDCU67 RoC (R3, `IM67CQ` หน้า 52–66; เลขข้อเริ่มใหม่ทุกระบบ → orig ต่อเนื่อง 1–67, gray บอกระบบ+เลขเดิม) | `data_b52.js` (1–28) · `data_b53.js` (29–47) · `data_b54.js` (48–67) | MCQ 67 |
+| MDCU67 RoD (R4, `IM67DQ` หน้า 67–74; ไม่มีข้อ 39) | `data_b55.js` · `data_b56.js` | MCQ 42 |
+| MDCU66 RoA (R1, `IM66AQ` `IME66AQ` หน้า 75–78) | `data_b57.js` · `meq_b14.js` | MCQ 32 · MEQ 2 |
+| MDCU66 RoB (R2, `IM66BQ` `IME66BQ` `IMO66BQ` หน้า 79–80) | `data_b58.js` · `meq_b14.js` · `osce_b21.js` | MCQ 1 · MEQ 4 · OSCE 11 |
+| MDCU66 RoC (R3, `IM66CQ` หน้า 81–82) | `data_b59.js` | MCQ 9 |
+| MDCU65 R1 (หน้า 83–84) | — | มีแค่หัวกระดาษ ไม่มีโจทย์ |
+
+- **ข้อความซ่อน:** หลายหน้า (26, 28, 34, 36, 42, 74, 78, 80) เจ้าของสมุดเอากล่องขาว/กรอบ clip/ภาพแปะปิดโจทย์ MEQ/OSCE ไว้ — อ่านจาก text layer และ render ใหม่โดยตัด clip/fill (สคริปต์ `unclip.py` ใน workspace แชท) · หน้า 74–70 (Part 1, Part 2 หน้า 2–17) สแกนแล้วไม่มีส่วนซ่อน
+- 15 พ.ย. 2026: P’Pugun RoX ข้อ 83 → transsphenoidal surgery (ให้ตรง 75D 33) · MDCU79 RoB ข้อ 19 → MRI pituitary (ให้ตรง 68B x3; Pituitary Society 2021)
+- fixes.js: สลับตำแหน่งคำตอบเพิ่ม 63 ข้อของ MDCU66–69
+- `tools/seen2dups.js` รับ orig แบบ x1 แล้ว
+
 - รูปเฉลย kimg = ครอปจากหน้าสมุด (โจทย์ + ลายมือ) ใส่ใน field `kimg` ของแต่ละข้อ (ไม่ได้อยู่ใน kimg.js) · prefix `mm/mk/me/ek/mo/ok` + `74a 74x 73a 73d 72a 72b 72c 72d 70a 70d`
 - `data_med/fixes.js` (ใหม่): สลับตำแหน่งคำตอบ 59 ข้อของ MDCU70–73 เพราะ recall เขียนช้อยที่ถูกเป็น A (ผู้ใช้ให้สลับ ไม่ต้องเท่ากันเป๊ะ) — key/gray ยังเป็นตัวอักษรตามสมุด, notes บอกการสลับ
 - **ตัดสินไว้แล้ว (10 พ.ย. 2026, ผู้ใช้เลือก) สำหรับตอนลงรุ่น 68:** Part 2 หน้า 35–36 หน้าคั่นเขียน "MDCU68 R4" แต่หัวไฟล์ recall หน้า 36 เขียน "AC Medicine Rotate 1/2558" (เนื้อหาไม่ซ้ำกับหมวด 68 R1 หน้า 28) → ยึดหน้าคั่น ลงเป็น **MDCU68 RoD** (เหมือนกรณี Gen Sx 70 R3) · หน้า 37 = สำเนาของหน้า 39 (67 R1) ไม่ลงซ้ำ
