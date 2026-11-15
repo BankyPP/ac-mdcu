@@ -2348,15 +2348,16 @@ function imgHTML(k,alt,lazy){const v=IMGS[k];if(!v)return "";if(typeof v==="stri
    Fix: when the page comes back to the screen (and every 15 min, and whenever a picture fails) ask the server for index.html and compare its
    core_site/app_site hashes with the running ones; if they differ the page is stale → reload by itself when no question is open
    (progress is saved when the page is hidden), otherwise show a bar "มีเวอร์ชันใหม่ — แตะเพื่อโหลดใหม่". */
-const ST_HASH=s=>{const m={};String(s).replace(/(core_site|app_site)\.js\?v=([0-9a-f]+)/g,(x,f,h)=>{m[f]=h;});return m;};
-const ST_RUN=(()=>{try{return ST_HASH([...document.scripts].map(s=>s.getAttribute("src")||"").join(" "));}catch(e){return {};}})();
+/* 15 Nov 2026: also compare every data/css file hash (?v=) in the page (WSRC) — a data-only deploy (e.g. a content fix) left the bar silent */
+const ST_HASH=s=>{const m={};String(s).replace(/([\w-]+\.(?:js|json|css))\?v=([0-9a-f]+)/g,(x,f,h)=>{m[f.replace(/\.js$/,"")]=h;});return m;};
+const ST_RUN=(()=>{try{return ST_HASH([...document.scripts].map(s=>s.getAttribute("src")||"").join(" ")+" "+[...document.querySelectorAll("link[href]")].map(l=>l.getAttribute("href")).join(" ")+" "+(typeof WSRC!=="undefined"?JSON.stringify(WSRC):""));}catch(e){return {};}})();
 let stLast=0,stBusy=null,stIsOld=false;
 function stCheck(force){
   if(IN_FRAME||!ST_RUN.core_site||!/^https?:$/.test(location.protocol))return Promise.resolve(false);
   if(stIsOld)return Promise.resolve(true);
   if(stBusy)return stBusy;if(!force&&now()-stLast<60000)return Promise.resolve(false);stLast=now();
   return stBusy=fetch("index.html?st="+now(),{cache:"no-store"}).then(r=>r.ok?r.text():"").then(t=>{const L=ST_HASH(t);
-    stIsOld=!!(L.core_site&&(L.core_site!==ST_RUN.core_site||(L.app_site&&L.app_site!==ST_RUN.app_site)));return stIsOld;})
+    stIsOld=!!(L.core_site&&Object.keys(L).some(k=>L[k]!==ST_RUN[k]));return stIsOld;})
     .catch(()=>false).finally(()=>{stBusy=null;});}
 const stSafe=()=>["wards","home","load","gate","signin"].includes(view);   /* no question/answer sheet open */
 function stBar(){if($("stbar"))return;const b=document.createElement("div");b.id="stbar";b.setAttribute("role","alert");
