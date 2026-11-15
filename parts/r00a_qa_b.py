@@ -29,13 +29,14 @@ def b3(p):
         '<b>Adequate pain control</b>',
         f'{imp("Early enteral nutrition")} — protect gut mucosa · ลด bacterial translocation · ลด infectious complication')
         + ul('<b>Mild</b>: principle 3 ข้อ + observe', '<b>Severe</b>: <b>ICU close monitoring</b> (organ failure: heart, lung, kidney) · support organ, intubate · รักษาตาม cause')
-        + f'<p>{UPD_} "aggressive" → ปัจจุบัน <b>moderate, goal-directed</b>: WATERFALL 2022 aggressive (LR bolus 20 mL/kg + 3 mL/kg/h) → <b>fluid overload มากขึ้น</b> โดยไม่ดีขึ้น {p.R("WATER")} · ACG 2024: LR ~1.5 mL/kg/h + bolus 10 mL/kg ถ้า hypovolemic, ประเมินซ้ำบ่อย {p.R("ACGAP")}</p>'
+        + f'<p>{UPD_} "aggressive" → ปัจจุบัน <b>moderate, goal-directed</b>: WATERFALL 2022 aggressive (LR bolus 20 mL/kg + 3 mL/kg/h) → <b>fluid overload 20.5% vs 6.3%</b> (moderate) โดย outcome ไม่ดีขึ้น — trial หยุดก่อนกำหนด {p.R("WATER")} · ACG 2024: LR ~1.5 mL/kg/h + bolus 10 mL/kg ถ้า hypovolemic, ประเมินซ้ำบ่อย {p.R("ACGAP")}</p>'
         + gl('ACG 2024 · IAP 2025',
              f'<b>Lactated Ringer</b> ดีกว่า NSS · ไม่ให้ <b>prophylactic antibiotics</b> แม้ severe/sterile necrosis · mild: ให้กินทางปากเร็ว (ภายใน 24–48 ชม.) ไม่ต้องรอ lipase ลง · severe: enteral (NG ได้เท่า NJ) ดีกว่า TPN {p.R("ACGAP")} {p.R("IAP25")}'))
     h += box('Gallstone pancreatitis — เมื่อไหร่ทำ LC / ERCP ' + MK, '', tb(['', 'Mild', 'Severe'],
         ['LC', f'{imp("same admission")} เมื่อ subside: หายปวด, hemodynamic ดี, urine ออก, กินได้', f'supportive จนดีขึ้น → D/C → นัด <b>elective LC ~8 wk (2 เดือน)</b>'],
         ['เหตุผล', 'ถ้า wait and see → recurrent biliary event (pancreatitis ซ้ำ, cholecystitis, cholangitis) <b>~30% ใน 3 เดือน</b>', '—'])
-        + f'<p class="mut">{E} PONCHO: interval LC → readmission จาก gallstone complication 17% vs same-admission 5% {p.R("PONCHO")} · severe/necrotizing: ACG/IAP ให้รอจน collection ยุบหรือ <b>≥6 สัปดาห์</b> (อาจารย์ 8 สัปดาห์ = อยู่ในช่วงนี้) {p.R("ACGAP")}</p>'
+        + f'<p>{FIX("⚠ ตัวเลข")} "~30% ใน 3 เดือน" ที่อาจารย์พูด ไม่ใช่ตัวเลขจาก RCT — <b>PONCHO</b> (interval LC 25–30 วัน): readmission/ตายจาก gallstone complication <b>16.9% vs 4.7%</b> (same-admission) · pancreatitis ซ้ำ 9% vs 2% {p.R("PONCHO")} → หลักการเหมือนเดิม: mild = LC ใน admission เดียวกัน</p>'
+        + f'<p class="mut">{E} PONCHO {p.R("PONCHO")} · severe/necrotizing: ACG/IAP ให้รอจน collection ยุบหรือ <b>≥6 สัปดาห์</b> (อาจารย์ 8 สัปดาห์ = อยู่ในช่วงนี้) {p.R("ACGAP")}</p>'
         + f'<h4>{imp("ERCP")} — ส่วนใหญ่ passing stone จึง <b>ไม่ต้อง</b> ERCP · มี indication เมื่อ</h4>' + ol(
         '<b>Cholangitis</b> ร่วมด้วย (fever, chills, jaundice)',
         '<b>Retained CBD stone</b> เห็นใน CT/MRCP (stone ไม่หลุด)')
@@ -92,7 +93,8 @@ def b4(p):
         'ไม่หาย → <b>neostigmine</b> (anticholinesterase) — ใช้น้อยเพราะ side effect เยอะ: ห้ามใน heart disease, ไตวาย, (COPD/asthma)',
         'ให้ยาไม่ได้/ไม่ได้ผล → <b>colonoscopic decompression</b> (ดูดลม ดูดอุจจาระ)',
         f'<b>Toxic megacolon</b> = megacolon ที่ bowel ตาย/toxic')
-        + f'<p class="mut">{E} neostigmine <b>2 mg IV ช้า ๆ 3–5 นาที</b> + cardiac monitor, เตรียม atropine (bradycardia) · ได้ผล ~90% ใน RCT {p.R("PONEC")} · CI: mechanical obstruction, perforation/ischemia, bradycardia, recent MI, active bronchospasm, renal failure (relative) · ผ่าตัดเมื่อ ischemia/perforation หรือดื้อทุกวิธี {p.R("ASCRSV")} · Toxic megacolon มักจาก <b>UC / <i>C. difficile</i></b>: transverse colon &gt;6 cm + systemic toxicity → medical 24–72 ชม. ไม่ดีขึ้น/ทะลุ → <b>subtotal colectomy + end ileostomy</b></p>')
+        + f'<p>{FIX()} {hw("✎ โน้ต: “ให้ยา anticholinergic neostigmine”")} → neostigmine เป็น <b>anticholinesterase (acetylcholinesterase inhibitor)</b> = เพิ่ม acetylcholine กระตุ้นการบีบตัวของ colon — <b>ตรงข้าม</b>กับ anticholinergic (อาจารย์พูด "anticholinesterase" ถูกแล้ว) {p.R("PONEC")}</p>'
+        + f'<p class="mut">{E} neostigmine <b>2 mg IV ช้า ๆ 3–5 นาที</b> + cardiac monitor, เตรียม atropine · RCT (Ponec 1999): <b>10/11</b> decompress ทันที (มัธยฐาน 4 นาที) vs placebo 0/10 · bradycardia ต้องใช้ atropine 2/11 {p.R("PONEC")} · CI: mechanical obstruction, perforation/ischemia, bradycardia, recent MI, active bronchospasm, renal failure (relative) · ผ่าตัดเมื่อ ischemia/perforation หรือดื้อทุกวิธี {p.R("ASCRSV")} · Toxic megacolon มักจาก <b>UC / <i>C. difficile</i></b>: transverse colon &gt;6 cm + systemic toxicity → medical 24–72 ชม. ไม่ดีขึ้น/ทะลุ → <b>subtotal colectomy + end ileostomy</b></p>')
     h += box('Small bowel obstruction (SBO)', '', ul(
         '<b>4 cardinal signs</b>: colicky pain (บิดเป็นลูก ๆ), nausea/vomiting เด่น, distension, obstipation (ไม่ถ่ายไม่ผายลม)',
         'Film: <b>small bowel &gt;3 cm</b> · <b>different height in same loop</b> / air-fluid level (step-ladder) · <b>disproportion</b> = air ใน small bowel เยอะแต่ไม่เห็น air ใน colon/rectum',
@@ -155,9 +157,9 @@ def b5(p):
         + tb(['ไหม (ชนิด)', 'ใช้ (อาจารย์ + ' + E + ')', E + ' ระยะ (Ethicon)'],
              'Absorbable',
              ['<b>Catgut</b> (plain/chromic)<br><span class="mut">natural</span>', 'ส่วนใหญ่ใช้ทาง <b>สูติฯ</b> · ศัลย์แทบไม่ใช้แล้ว', 'แรงดึงหมด ~7–10 วัน (plain) · ดูดซึม ~70 วัน (plain) / ~90 วัน (chromic)'],
-             ['<b>Vicryl</b> (polyglactin 910)<br><span class="mut">synthetic, <b>braided</b></span>', 'bowel anastomosis/repair, subcut, ปิด sheath, เย็บซ่อมทั่วไป, ผูก', 'แรงดึง ~50% ที่ 3 wk · ดูดซึม 56–70 วัน'],
-             ['<b>PDS II</b> (polydioxanone)<br><span class="mut">synthetic, <b>monofilament</b></span>', 'เหมือน Vicryl แต่<b>ลื่นกว่า</b> — bowel, <b>sheath/fascia closure</b> · อาจารย์ใช้ PDS มากกว่า', 'แรงดึงนาน ~6 wk · ดูดซึม 182–238 วัน (~6 เดือน)'],
-             ['<b>Monocryl</b> (poliglecaprone 25)<br><span class="mut">synthetic, monofilament</span>', '<b>subcuticular</b> skin', 'แรงดึง 50–60% ที่ 1 wk · ดูดซึม 91–119 วัน'],
+             ['<b>Vicryl</b> (polyglactin 910)<br><span class="mut">synthetic, <b>braided</b></span>', 'bowel anastomosis/repair, subcut, ปิด sheath, เย็บซ่อมทั่วไป, ผูก', 'แรงดึง 75% ที่ 2 wk · 50% ที่ 3 wk · 25% ที่ 4 wk · ดูดซึม 56–70 วัน'],
+             ['<b>PDS II</b> (polydioxanone)<br><span class="mut">synthetic, <b>monofilament</b></span>', 'เหมือน Vicryl แต่<b>ลื่นกว่า</b> — bowel, <b>sheath/fascia closure</b> · อาจารย์ใช้ PDS มากกว่า', 'แรงดึง ~60% ที่ 6 wk (ขนาด ≥3-0) · ดูดซึม 182–238 วัน (~6 เดือน)'],
+             ['<b>Monocryl</b> (poliglecaprone 25)<br><span class="mut">synthetic, monofilament</span>', '<b>subcuticular</b> skin', 'แรงดึง 50–60% ที่ 1 wk (undyed) · ดูดซึม 91–119 วัน'],
              'Non-absorbable',
              ['<b>Silk</b><br><span class="mut">natural, braided</span>', 'skin, <b>ผูก/เย็บ drain</b>, ligature', 'สลายช้ามาก (ปี)'],
              ['<b>Nylon</b> (Ethilon)<br><span class="mut">synthetic, mono</span>', '<b>skin</b> (เย็บแผล), drain', '—'],

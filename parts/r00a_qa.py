@@ -85,7 +85,7 @@ class Pg:
 PAGES = []
 def add(pid, title, topics, keys, build):
     p = Pg(keys); html = build(p)
-    PAGES.append({'id': pid, 'title': title, 'topics': topics, 'rev': 1, 'upd': UPD, 'html': html, 'refs': p.refs})
+    PAGES.append({'id': pid, 'title': title, 'topics': topics, 'rev': 2, 'upd': UPD, 'html': html, 'refs': p.refs})
 
 # =====================================================================================  1 Cellulitis vs NF
 def b1(p):
@@ -117,7 +117,7 @@ def b1(p):
         + tb([E + ' LRINEC score (Wong 2004)', 'ค่า', 'คะแนน'],
              ['CRP', '≥150 mg/L', '4'], ['WBC', '15–25 / >25 ×10³', '1 / 2'], ['Hb', '11–13.5 / <11 g/dL', '1 / 2'],
              ['Na', '<135 mmol/L', '2'], ['Creatinine', '>1.6 mg/dL', '2'], ['Glucose', '>180 mg/dL', '1'])
-        + f'<p class="mut">{E} LRINEC ≥6 = สงสัย, ≥8 = เสี่ยงสูง · meta-analysis: LRINEC ≥6 Sn ~68% Sp ~85% → <b>ใช้ rule out ไม่ได้</b> ตรงกับที่อาจารย์บอกว่า score ไม่ใช่ standard {p.R("LRINEC")} · finger test positive ร่วมกับ: ไม่มีเลือดออก, "dishwater pus", fascia ซีดเทาบวม</p>')
+        + f'<p class="mut">{E} LRINEC ≥6 = สงสัย, ≥8 = เสี่ยงสูง · meta-analysis: LRINEC ≥6 Sn 68.2% Sp 84.8% · ≥8 Sn 40.8% Sp 94.9% → <b>ใช้ rule out ไม่ได้</b> ตรงกับที่อาจารย์บอกว่า score ไม่ใช่ standard {p.R("LRINEC")} · finger test positive ร่วมกับ: ไม่มีเลือดออก, "dishwater pus", fascia ซีดเทาบวม</p>')
     h += box('Management ' + MK, '', '<h4>NF = รักษาเหมือน sepsis + ผ่าตัด</h4>' + ol(
         '<b>Aggressive volume resuscitation</b> · retain Foley · H/C',
         '<b>ATB</b>: คลุม gram-positive + anaerobe (± gram-negative)',
@@ -150,6 +150,7 @@ def b2(p):
         ['4A', 'low suspicion <b>&gt;2–10%</b>', 'biopsy'], ['4B', 'moderate <b>&gt;10–50%</b>', 'biopsy'], ['4C', 'high <b>&gt;50–&lt;95%</b>', 'biopsy'],
         ['5', 'highly suggestive <b>≥95%</b>', 'biopsy'],
         ['6', 'biopsy-proven malignancy', 'รักษา'])
+        + f'<p>{FIX()} {hw("✎ โน้ต: “BI-RADS 1 benign”")} → <b>BI-RADS 1 = negative</b> (ไม่เจออะไรเลย) · <b>BI-RADS 2 = benign</b> (เจอ แต่เป็นของ benign แน่นอน) — ทั้งคู่ routine screening {p.R("BIRADS")}</p>'
         + f'<p class="mut">{E} BI-RADS v2025 คงหมวดและช่วงเปอร์เซ็นต์เดิม; เพิ่มการใช้ 4A/4B/4C ใน MRI · หมวด 6 ใช้กับมะเร็งที่ biopsy แล้วก่อนรักษา local (รวมคนที่ได้ neoadjuvant แม้ภาพยุบหมด) {p.R("BIRADS")}</p>')
     h += box('CNB vs FNA — ทำไม standard = CNB', '', tb(['', 'CNB (histology)', 'FNA (cytology)'],
         ['บอกชนิดมะเร็ง', '✓', '✗ บอกได้แค่ malignant/atypical cell'],
@@ -197,7 +198,7 @@ def b2(p):
     h += box('Axilla staging: SLNB vs ALND ' + MK, '', ul(
         'อาจารย์: ~98% ของ lymph ไป axilla ผ่าน <b>sentinel node (ด่านหน้า)</b> ก่อน',
         f'ALND ทุกเคส → <b>lymphedema 30–40%</b> → ทำ SLNB เพื่อลด ALND')
-        + f'<p>{FIX()} lymphedema หลัง ALND จาก meta-analysis ≈ <b>20%</b> (SLNB ≈ 6%) · ตัวเลข 98% ใกล้กับ <b>อัตราหา SLN เจอ (~97%)</b> — false-negative ของ SLNB ~5–10% {p.R("LYMPH")}</p>'
+        + f'<p>{FIX()} lymphedema หลัง ALND จาก meta-analysis (DiSipio 2013) = <b>19.9%</b> vs SLNB <b>5.6%</b> (ต่างกัน ~4 เท่า) · ตัวเลข 98% ใกล้กับ <b>อัตราหา SLN เจอ</b> (NSABP B-32: <b>97.2%</b>, false-negative <b>9.8%</b>) {p.R("LYMPH")}</p>'
         + flow('clinical N (PE + U/S)', 'cN0', imp('SLNB'))
         + flow('cN1 (คลำได้ / U/S เห็น pathologic node)', 'FNA node', 'positive → <b>ALND</b>', last_red=True)
         + flow('cN1 แต่ FNA negative', imp('SLNB'), 'frozen intra-op → บวกค่อยว่ากัน')

@@ -23,6 +23,7 @@ REFS.update({
  'PBD': ('van der Gaag NA, et al. Preoperative biliary drainage for cancer of the head of the pancreas. N Engl J Med 2010;362:129–137 (serious complication 74% vs 39%)', 'https://doi.org/10.1056/NEJMoa0903230'),
  'USPSTF': ('US Preventive Services Task Force. Screening for Colorectal Cancer: Recommendation Statement. JAMA 2021;325:1965–1977 (อายุ 45–75)', 'https://doi.org/10.1001/jama.2021.6238'),
  'NCCNCRC': ('NCCN Clinical Practice Guidelines in Oncology: Colon Cancer และ Rectal Cancer — ฉบับปัจจุบัน (2026): adjuvant stage III/high-risk II, rectal TNT, watch-and-wait, dMMR', 'https://www.nccn.org/professionals/physician_gls/pdf/rectal.pdf'),
+ 'DCRCR': ('Habu T, et al. Efficacy and safety of definitive chemoradiotherapy in unresectable locally advanced ESCC (ASCO 2023, NCC East — cCR ในการทดลองก่อนหน้า 11–25%, ในกลุ่มนี้ 24%) · Jeong H, et al. Definitive chemoradiotherapy for oesophageal SCC — CR 40.4% (Cancer Med 2021;10:2216, doi 10.1002/cam4.3783)', 'https://doi.org/10.1002/cam4.3783'),
  'HSURGE': ('HerniaSurge Group. International guidelines for groin hernia management. Hernia 2018;22:1–165 · Stabilini C, et al. Update of the international HerniaSurge guidelines. BJS Open 2023;7:zrad080', 'https://doi.org/10.1093/bjsopen/zrad080'),
  'WSESH': ('Birindelli A, et al. 2017 update of the WSES guidelines for emergency repair of complicated abdominal wall hernias. World J Emerg Surg 2017;12:37', 'https://doi.org/10.1186/s13017-017-0149-y'),
 })
@@ -92,13 +93,14 @@ def b8(p):
         ['<b>Early</b>: T1–T2 <b>N0</b>', f'{imp("upfront esophagectomy")} (transthoracic) · T1a → endoscopic'],
         ['<b>Locally advanced</b>: T3–T4a หรือ <b>N+</b>', f'curative 2 ทาง: ① {imp("pre-op (neoadjuvant) chemoradiation → esophagectomy")} — RT ~<b>41.4 Gy</b> · ② {imp("definitive chemoradiation")} — RT <b>&gt;50 Gy</b> "ฉายให้ตายหมด" · clinical complete response ~30–40%'],
         ['<b>ข้อบ่งชี้ definitive CRT</b>', '① <b>unfit for surgery</b> (severe COPD, heart ไม่ดี — เข้า chest ไม่ไหว) ② <b>lesion สูง (cervical esophagus)</b> — ผ่าได้แต่ morbidity สูงมาก ③ <b>ปฏิเสธผ่าตัด</b>'])
+        + f'<p>{FIX("⚠ ตัวเลข")} "cCR ~30–40%" ของ definitive CRT แตกต่างมากตามกลุ่มคนไข้: unresectable (T4b) ในการทดลองญี่ปุ่น <b>11–25%</b> · cohort ESCC ทั่วไปรายงาน CR ~<b>40%</b> → จำว่า "ประมาณ 1/4 ถึง 2/5" และ cCR สัมพันธ์กับ survival ที่ดีกว่า {p.R("DCRCR")}</p>'
         + f'<p>{FIX("⚠ คำจำกัดความทับกัน")} ในเทปพูดทั้ง "early = T1–T2" และ "locally advanced = T2–T4 + N+" → ใช้แบบนี้: <b>T1–T2 N0 = early</b> · <b>T3–T4a หรือ N+ = locally advanced</b> · T4b = unresectable</p>'
         + f'<p class="mut">{E} CROSS = carboplatin + paclitaxel + 41.4 Gy/23 fx → esophagectomy (ได้ผลดีมากใน <b>SCC</b> — ไทยส่วนใหญ่ SCC กลางหลอดอาหาร) · <b>adenocarcinoma</b>: ESOPEC 2025 → <b>perioperative FLOT ดีกว่า CROSS</b> (5-yr OS ~51% vs 39%) · เหลือ residual disease หลัง neoadjuvant CRT + R0 → adjuvant <b>nivolumab 1 ปี</b> (CheckMate 577) · definitive CRT 50–50.4 Gy เป็นมาตรฐานของ cervical SCC {p.R("ESOPEC")}</p>'
         + gl('NCCN Esophageal v4.2026 · ESMO 2026',
              f'SCC ที่ resectable: neoadjuvant CRT → esophagectomy หรือ definitive CRT (โดยเฉพาะ cervical / ตอบสนองดีและติดตามได้) · adenocarcinoma: <b>perioperative FLOT (category 1 preferred)</b> ± durvalumab {p.R("NCCNES")} {p.R("ESMOGO")}'))
     return h
 add('R00.A-8', 'Esophagus — dysphagia: EGD first (pseudoachalasia), HRM Chicago 4.0, achalasia vs CA · Esophageal CA: AJCC T staging, early vs LA, CROSS/dCRT/FLOT (ESOPEC)', ['Esophagus', 'Oncology principles'],
-    ['ACGACH', 'CHICAGO', 'AJCCES', 'NCCNES', 'ESOPEC', 'ESMOGO'], b8)
+    ['ACGACH', 'CHICAGO', 'AJCCES', 'NCCNES', 'ESOPEC', 'ESMOGO', 'DCRCR'], b8)
 
 # =====================================================================================  9 Stomach: dyspepsia/PUD, gastric CA, GOO, GIST
 def b9(p):
@@ -228,6 +230,7 @@ def b12(p):
         [imp('Incarcerated'), '<b>irreducible</b> — ดันกลับไม่ได้ · content อาจเป็น bowel หรือ omentum (บอกไม่ได้ถ้าไม่มี obstruction)', f'{imp("อันเดียวที่ดันได้ (taxis)")} ถ้ามา <b>&lt;6 ชม.</b> → admit observe → ดีไม่ปวดไม่ recurrent → นัด elective หรือผ่าใน same admission ก็ได้'],
         [imp('Obstructed'), 'incarcerated + <b>bowel obstruction</b> (4 cardinal signs, film SBO: dilate, step-ladder)', f'{imp("ห้ามดันเด็ดขาด")} → <b>emergency surgery ผ่าน groin</b>'],
         [imp('Strangulated'), 'bowel โดนรัดจน <b>ischemia/gangrene</b>/แตก — local: ปวด บวม แดง ร้อน · peritonitis, ไข้สูง, look sick, HR เร็ว, SIRS/sepsis', '<b>Emergency surgery</b>: <b>groin incision ก่อน</b> → ดู bowel → ตัดต่อผ่าน groin → ปิด groin ด้วย <b>tissue repair</b> · <b>ห้ามใส่ mesh</b>'])
+        + f'<p>{FIX("⚠ ที่มาตัวเลข")} "ดันได้ถ้า &lt;6 ชม." เป็นตัวเลขที่สอนกันในตำรา/วอร์ด — <b>HerniaSurge และ WSES ไม่ได้กำหนดชั่วโมง</b> ใช้เกณฑ์ว่า <b>ไม่มีอาการแสดงของ strangulation/obstruction</b> จึงลองดันได้ (± sedation) แล้วผ่าตัดเร็ว {p.R("HSURGE")} {p.R("WSESH")} → ข้อสอบไทยยังใช้ "&lt;6 ชม. + ไม่มี sign" ได้</p>'
         + f'<p><b>Reduction en masse</b>: ดัน obstructed hernia → sac ที่มี adhesion เข้าไปทั้งก้อน → bowel ยังติดคอ sac (obstruction/strangulation ต่อในท้อง) → จึงห้ามดัน</p>'
         + f'<p>{FIX("⚠ เทียบ guideline")} WSES 2017: strangulated <b>ไม่มี gross contamination</b> (clean-contaminated แม้ตัดลำไส้) → <b>synthetic mesh ใช้ได้</b> (recurrence ต่ำกว่า, SSI ไม่เพิ่มชัด) · <b>contaminated/dirty</b> (เนื้อตาย, หนอง, ลำไส้แตก) → tissue repair หรือ biologic mesh → ข้อสอบ: เห็นลำไส้เน่า/แตก/หนอง = <b>ไม่ใส่ synthetic mesh</b> {p.R("WSESH")}</p>'
         + gl('HerniaSurge 2018/2023 · WSES 2017',
@@ -269,7 +272,12 @@ def b13(p):
         ['Rectal: neoadjuvant CRT', 'TNT ± watch-and-wait · dMMR → immunotherapy'],
         ['Elective groin hernia ห้าม conservative', 'ชายไม่มีอาการ watchful waiting ได้ (HerniaSurge)'],
         ['Strangulated ห้ามใส่ mesh', 'ไม่มี gross contamination ใส่ synthetic mesh ได้ (WSES)'],
-        ['Esophageal CA adenocarcinoma → CROSS', 'ESOPEC 2025: periop FLOT ดีกว่า (SCC ยัง CROSS/dCRT)']))
+        ['Esophageal CA adenocarcinoma → CROSS', 'ESOPEC 2025: periop FLOT ดีกว่า (SCC ยัง CROSS/dCRT)'],
+        ['✎ โน้ต: neostigmine = anticholinergic', '<b>anticholinesterase</b> (เพิ่ม ACh) — ตรงข้ามกัน'],
+        ['✎ โน้ต: BI-RADS 1 benign', 'BI-RADS 1 = negative · 2 = benign'],
+        ['recurrent biliary event ~30% ใน 3 เดือน', 'PONCHO: 16.9% (interval) vs 4.7% (same admission)'],
+        ['dCRT cCR ~30–40%', 'แตกต่างมาก: unresectable 11–25%, cohort ทั่วไป ~40%'],
+        ['ดัน incarcerated ได้ถ้า &lt;6 ชม.', 'guideline ไม่กำหนดชั่วโมง — ดูว่าไม่มี sign strangulation/obstruction']))
     h += box('Number bank', '', tb(['ตัวเลข', 'เรื่อง'],
         ['IRP &gt;15 mmHg', 'achalasia (HRM)'], ['41.4 Gy vs &gt;50 Gy', 'pre-op CRT (CROSS) vs definitive CRT'],
         ['BI-RADS 3 ≤2% → F/U 6 เดือน', 'BI-RADS 4A 2–10 · 4B 10–50 · 4C 50–95 · 5 ≥95'],
@@ -309,7 +317,7 @@ if __name__ == '__main__' or True:
            '<span><span class="warn">⚠ แก้</span> / <span class="warn">⚠ อัปเดต</span> = เทป/โน้ตไม่ตรงกับ guideline ล่าสุด (มีทั้งของเดิมและที่ถูก)</span>'
            '<span><span class="chip gl">📘 Guideline</span> = guideline ฉบับล่าสุด (ท้ายกล่อง)</span>')
     newdoc = {'code': CODE, 'kind': 'R', 'title': 'Q&A อาจารย์ศัลย์ 3 ชม. ก่อนสอบ — NF, breast, pancreatitis, bowel, peri-op, liver, thyroid, esophagus, stomach, periampullary, CRC, hernia',
-              'src': 'R00.A — ถอดเทป voice memo Q&A กับอาจารย์ศัลย์ ~3 ชม. (3 วันก่อนสอบ Gen Sx Y4) 3 ไฟล์ + โน้ตที่พิมพ์ระหว่างฟัง 1 ไฟล์ · จัดเป็น 12 เรื่อง + หน้าสรุป High-yield · เติมเนื้อหาส่วนที่อาจารย์พูดสั้น/ให้ไปอ่านเอง จาก guideline ฉบับล่าสุด (ระบุแหล่งทุกจุด)',
+              'src': '✓ ตรวจทุก DOI (48) + ตัวเลขที่เติมกับแหล่งจริงแล้ว 16 พ.ย. 2026 · R00.A — ถอดเทป voice memo Q&A กับอาจารย์ศัลย์ ~3 ชม. (3 วันก่อนสอบ Gen Sx Y4) 3 ไฟล์ + โน้ตที่พิมพ์ระหว่างฟัง 1 ไฟล์ · จัดเป็น 12 เรื่อง + หน้าสรุป High-yield · เติมเนื้อหาส่วนที่อาจารย์พูดสั้น/ให้ไปอ่านเอง จาก guideline ฉบับล่าสุด (ระบุแหล่งทุกจุด)',
               'upd': UPD, 'legend': LEG, 'pages': PAGES}
     d['docs'].append(newdoc)
     save('data/io.js', head, d)
