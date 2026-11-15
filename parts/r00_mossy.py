@@ -1,4 +1,4 @@
-# R00 Mossy notes — สรุปลายมือ Gen Sx 16 หน้า → Round I/O R00 (Gen Sx MDCU) · 15 พ.ย. 2026
+# R00.C (เดิม R00 — เปลี่ยนชื่อ 16 พ.ย. 2026) Mossy notes — สรุปลายมือ Gen Sx 16 หน้า → Round I/O R00 (Gen Sx MDCU) · 15 พ.ย. 2026
 # รัน: python3 parts/r00_mossy.py  (เพิ่ม/แทน doc R00 ใน data/io.js + entry R00 ใน data/resources.js)
 import sys, json, re
 sys.path.insert(0, 'tools')
@@ -13,12 +13,12 @@ def FIX(t='⚠ แก้'): return f'<span class="warn">{t}</span>'
 UPD_ = '<span class="warn">⚠ อัปเดต</span>'
 def fig(k, cap=''): return f'<div class="fig">{{{{IMG:{k}}}}}' + (f'<div class="cap">{cap}</div>' if cap else '') + '</div>'
 def box(title, rf, body):
-    return f'<div class="box"><h3>{title}<span class="ref">{rf}</span></h3>\n<p class="mut">จากไฟล์ R00 {{{{R:1}}}}</p>\n{body}\n</div>'
+    return f'<div class="box"><h3>{title}<span class="ref">{rf}</span></h3>\n<p class="mut">จากไฟล์ R00.C {{{{R:1}}}}</p>\n{body}\n</div>'
 def ul(*xs): return '<ul>' + ''.join(f'<li>{x}</li>' for x in xs) + '</ul>'
 def gl(src, *items): return gsec(src, '<ul>' + ''.join(f'<li>{GL} {x}</li>' for x in items) + '</ul>')
 def src(p): return fig(f'r00_p{p:02d}', f'ต้นฉบับ p{p} (ภาพจากไฟล์ — ไว้เทียบลายมือ)')
 
-SRC = 'R00 Mossy notes — สรุปลายมือ Gen Sx (ไฟล์ Mossy PDF 16 หน้า, ภาพหน้าจอโน้ตจาก iPad 15 พ.ย. 2026) · ไม่ใช่สไลด์อาจารย์'
+SRC = 'R00.C Mossy notes — สรุปลายมือ Gen Sx (ไฟล์ Mossy PDF 16 หน้า, ภาพหน้าจอโน้ตจาก iPad 15 พ.ย. 2026) · ไม่ใช่สไลด์อาจารย์'
 REFS = {
  'NCCNBR': ('NCCN Clinical Practice Guidelines in Oncology: Breast Cancer — ฉบับปัจจุบัน (2026): surgical axillary staging, BCT, preoperative systemic therapy', 'https://www.nccn.org/professionals/physician_gls/pdf/breast.pdf'),
  'Z11102': ('Boughey JC, et al. Local recurrence after breast-conserving therapy in patients with multiple ipsilateral breast cancer: results from ACOSOG Z11102 (Alliance). J Clin Oncol 2023;41(17):3184–3193', 'https://doi.org/10.1200/JCO.22.02553'),
@@ -121,7 +121,7 @@ def b1(p):
         + f'<p class="mut">Ki-67 cut-off 20% ตาม St Gallen 2013 {p.R("STG")} · Endocrine therapy มาตรฐาน 5 ปี และ<b>ขยายเป็น 7–10 ปี</b>ในกลุ่มเสี่ยงสูง {p.R("NCCNBR")}</p>')
     h += src(1)
     return h
-add('R00-1', 'Breast cancer — early vs locally advanced, mastectomy vs BCT (ข้อห้าม BCT อัปเดต), axilla: SLNB vs ALND, neoadjuvant, subtype & Ki-67', ['Breast', 'Oncology principles'],
+add('R00.C-1', 'Breast cancer — early vs locally advanced, mastectomy vs BCT (ข้อห้าม BCT อัปเดต), axilla: SLNB vs ALND, neoadjuvant, subtype & Ki-67', ['Breast', 'Oncology principles'],
     ['NCCNBR', 'Z11102', 'STG', 'PRIME', 'AJCCBR'], b1)
 
 # ---------------------------------------------------------------- R00-2 Stomach
@@ -166,7 +166,7 @@ def b2(p):
         + f'<p class="mut">{E} ปัจจุบันสาเหตุ GOO ในผู้ใหญ่ส่วนใหญ่เป็น <b>malignancy</b> (CA antrum, CA head of pancreas, periampullary) มากกว่า PUD · Mx: NPO, NG decompression, NSS + KCl (หลังมี urine output), PPI, EGD หาสาเหตุ → benign: endoscopic balloon dilatation ± H. pylori; malignant: gastrojejunostomy / enteral stent / EUS-GE</p>')
     h += src(4) + src(5)
     return h
-add('R00-2', 'Stomach — PUP (simple closure + omental patch, PPI ไม่ใช่ตลอดชีวิต) · Gastric CA (early/ESD, upfront Sx vs periop FLOT + durvalumab, alarm, metastasis signs) · linitis plastica vs GOO · GOO metabolic & NSS', ['Stomach & Duodenum', 'Oncology principles', 'Fluid, Electrolyte & Nutrition'],
+add('R00.C-2', 'Stomach — PUP (simple closure + omental patch, PPI ไม่ใช่ตลอดชีวิต) · Gastric CA (early/ESD, upfront Sx vs periop FLOT + durvalumab, alarm, metastasis signs) · linitis plastica vs GOO · GOO metabolic & NSS', ['Stomach & Duodenum', 'Oncology principles', 'Fluid, Electrolyte & Nutrition'],
     ['WSESPU', 'JGCA', 'MATT', 'DYSP'], b2)
 
 # ---------------------------------------------------------------- R00-3 Liver mass
@@ -191,7 +191,7 @@ def b3(p):
         + gl('AASLD 2023 HCC · LI-RADS v2018', f'HCC surveillance: <b>US ± AFP ทุก 6 เดือน</b> ในตับแข็งทุกสาเหตุ และ chronic HBV กลุ่มเสี่ยง (แม้ไม่มีตับแข็ง) {p.R("AASLD")}', f'ก้อน ≥1 cm ในกลุ่มเสี่ยง → multiphasic CT/MRI · APHE + washout = LR-5 → รักษาเป็น HCC ได้เลย {p.R("AASLD")}'))
     h += src(7) + src(8)
     return h
-add('R00-3', 'Liver mass by triple-phase imaging — hemangioma (centripetal fill-in), FNH vs hepatic adenoma (hepatobiliary-phase MRI), HCC (APHE + washout), iCCA (delayed enhancement), liver metastasis', ['Liver'],
+add('R00.C-3', 'Liver mass by triple-phase imaging — hemangioma (centripetal fill-in), FNH vs hepatic adenoma (hepatobiliary-phase MRI), HCC (APHE + washout), iCCA (delayed enhancement), liver metastasis', ['Liver'],
     ['ACGFLL', 'EASLB', 'AASLD'], b3)
 
 # ---------------------------------------------------------------- R00-4 Acute pancreatitis
@@ -228,7 +228,7 @@ def b4(p):
         + gl('ACG 2024 Acute Pancreatitis', f'Moderately aggressive fluid resuscitation (เติม bolus ถ้ามี hypovolemia) + ประเมินซ้ำบ่อยใน 6 ชั่วโมงแรกและ 24–48 ชั่วโมง โดยมีเป้าลด BUN · LR แนะนำมากกว่า NSS {p.R("ACGAP")}', f'Acute biliary pancreatitis ไม่มี cholangitis → medical therapy ดีกว่า early ERCP (ภายใน 72 h) · mild biliary pancreatitis → cholecystectomy ก่อนกลับบ้าน {p.R("ACGAP")}'))
     h += src(9) + src(6)
     return h
-add('R00-4', 'Acute pancreatitis — Dx 2/3 (enzyme ≥3×ULN), BISAP vs Revised Atlanta, local complications (APFC/ANC/pseudocyst/WON), gallstone pancreatitis & timing of LC, fluid (WATERFALL/ACG 2024), nutrition', ['Pancreas & Spleen', 'Gallbladder & Biliary'],
+add('R00.C-4', 'Acute pancreatitis — Dx 2/3 (enzyme ≥3×ULN), BISAP vs Revised Atlanta, local complications (APFC/ANC/pseudocyst/WON), gallstone pancreatitis & timing of LC, fluid (WATERFALL/ACG 2024), nutrition', ['Pancreas & Spleen', 'Gallbladder & Biliary'],
     ['ATL', 'ACGAP', 'WATER', 'PONCHO', 'AGANP'], b4)
 
 exec(open('parts/r00_mossy_b.py', encoding='utf8').read())

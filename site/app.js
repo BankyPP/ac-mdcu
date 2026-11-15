@@ -89,10 +89,10 @@ function initWard(w){
   /* Unit round banks (<dir>/unit_*.js → W.UNIT.push({id,title,short,src,QB:[…]})): new case-based questions per lecture, shared by both phases */
   W.UNIT=(W.UNIT||[]).filter(x=>x&&x.id&&Array.isArray(x.QB));
   /* Unit round: always list lectures by L number ascending (every ward, every site) — L02 < L07.1 < L07.2 < L10 < L99.03 */
-  const numKey=c=>{const m=/^[A-Z]*(\d+(?:\.\d+)*)/i.exec(String(c||""));return m?m[1].split(".").map(Number):null;};
+  const numKey=c=>{const m=/^[A-Z]*(\d+(?:\.(?:\d+|[A-Za-z]))*)/i.exec(String(c||""));return m?m[1].split(".").map(x=>/^\d+$/.test(x)?+x:x.toUpperCase().charCodeAt(0)-64):null;};
   const numCmp=(x,y)=>{if(!x||!y)return (x?0:1)-(y?0:1);for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]??-1)-(y[i]??-1);if(d)return d;}return 0;};
   W.UNIT.sort((a,b)=>codeCmp(a.id||a.title,b.id||b.title));
-  /* Round I/O: every code (L / R / T / N) always listed by number ascending within its kind — L02 < L07.1 < L10 < L99.03 · R01 < R22 · T01 < T03 (also orders "รวมตามเรื่อง" and Specialty-round lists) */
+  /* Round I/O: every code (L / R / T / N) always listed by number ascending within its kind — L02 < L07.1 < L10 < L99.03 · R00 < R00.A < R00.C < R01 (letter sub-codes, 16 Nov 2026) · R01 < R22 · T01 < T03 (also orders "รวมตามเรื่อง" and Specialty-round lists) */
   ioSortW(W);
   W.byLec={};
   W.UNIT.forEach(Lc=>{W.byLec[Lc.id]=Lc;Lc.QB.forEach((q,i)=>{q.unit=Lc.id;q.n=q.n||i+1;q.id="U"+q.n;q.set=Lc.short||Lc.title;q.ro="Unit";q.uid="U|"+Lc.id+"|"+q.n;W.byU[q.uid]=q;});});
@@ -132,7 +132,7 @@ function loadWardX(id,cb){
     if(ward===id&&view==="home"&&(window.scrollY||0)<80)show("home");   /* Round I/O / summary badges on the ward home */
   },e=>{delete WDONE["x:"+id];throw e;});}
 /* Round I/O: every code (L / R / T / N) listed by number ascending within its kind (also at the end of loadWardX) */
-function ioSortW(W){if(!(W&&W.IO&&Array.isArray(W.IO.docs)))return;const numKey=c=>{const m=/^[A-Z]*(\d+(?:\.\d+)*)/i.exec(String(c||""));return m?m[1].split(".").map(Number):null;};
+function ioSortW(W){if(!(W&&W.IO&&Array.isArray(W.IO.docs)))return;const numKey=c=>{const m=/^[A-Z]*(\d+(?:\.(?:\d+|[A-Za-z]))*)/i.exec(String(c||""));return m?m[1].split(".").map(x=>/^\d+$/.test(x)?+x:x.toUpperCase().charCodeAt(0)-64):null;};
   const numCmp=(x,y)=>{if(!x||!y)return (x?0:1)-(y?0:1);for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]??-1)-(y[i]??-1);if(d)return d;}return 0;};
   const KO={L:0,R:1,T:2,N:3};W.IO.docs.sort((a,b)=>((KO[a.kind]??9)-(KO[b.kind]??9))||numCmp(numKey(a.code),numKey(b.code)));}
 const loadAll=()=>Promise.all(WL.map(w=>loadWard(w.id)));   /* export/import of progress: questions (uids) are enough */
@@ -835,7 +835,7 @@ function qTags(q){const W=W_();let t=[];
   if(q.adm)t=Array.isArray(q.tags)&&q.tags.length?q.tags:guessTags(W,q.topic||"")||[];else if(q.unit){const Lc=W.byLec[q.unit]||{};t=Array.isArray(q.tags)&&q.tags.length?q.tags:[].concat(Lc.tags||Lc.topic||[]);}
   else t=(W.TAGS&&W.TAGS[q.set+"|"+q.ro+"|"+q.orig])||[];return t;}
 /* ordering of file codes everywhere (user, 3 Nov 2026): code L, then R, then T, then N — each group by number (L02 < L07.1 < L07.2 < L10 < L99.03 · R01 < R22 · T01 < T03) */
-function codeKey(c){c=String(c||"").trim();const K={L:0,R:1,T:2,N:3},k=/^([A-Za-z])/.exec(c),m=/^[A-Za-z]*(\d+(?:\.\d+)*)/.exec(c);return [k&&K[k[1].toUpperCase()]!==undefined?K[k[1].toUpperCase()]:9,m?m[1].split(".").map(Number):null];}
+function codeKey(c){c=String(c||"").trim();const K={L:0,R:1,T:2,N:3},k=/^([A-Za-z])/.exec(c),m=/^[A-Za-z]*(\d+(?:\.(?:\d+|[A-Za-z]))*)/.exec(c);return [k&&K[k[1].toUpperCase()]!==undefined?K[k[1].toUpperCase()]:9,m?m[1].split(".").map(x=>/^\d+$/.test(x)?+x:x.toUpperCase().charCodeAt(0)-64):null];}
 function codeCmp(a,b){const x=codeKey(a),y=codeKey(b);if(x[0]!==y[0])return x[0]-y[0];const p=x[1],q=y[1];if(!p||!q)return (p?0:1)-(q?0:1);for(let i=0;i<Math.max(p.length,q.length);i++){const d=(p[i]??-1)-(q[i]??-1);if(d)return d;}return 0;}
 /* attached resources outside the lectures (<dir>/resources.js → W.RES=[{code,title,topic,tags,type,url,note,points:[…]}]) */
 const resOf=W=>(W&&W.RES||[]).filter(r=>r&&r.title);

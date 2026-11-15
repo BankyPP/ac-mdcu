@@ -33,7 +33,7 @@ def b5(p):
         + gl('van der Gaag NEJM 2010 · NCCN Pancreatic Adenocarcinoma', f'Routine preoperative biliary drainage <b>เพิ่มภาวะแทรกซ้อน</b> (74% vs 39%) เมื่อเทียบกับผ่าตัดเร็วภายใน ~1 สัปดาห์ {p.R("PBD")}', f'ข้อบ่งชี้ drain: <b>cholangitis</b>, ต้องรอผ่า/ได้ <b>neoadjuvant</b> ก่อน, คันรุนแรง, bilirubin สูงมาก/ไตวาย — ใช้ endoscopic short metal stent {p.R("NCCNPA")}'))
     h += src(10)
     return h
-add('R00-5', 'Chronic pancreatitis (Puestow vs Partington, Ix for Sx, ESCAPE) · Pancreatic CA — PDAC head vs body/tail, double duct sign, Whipple, pre-op biliary drainage (ERCP vs PTBD)', ['Pancreas & Spleen', 'Jaundice'],
+add('R00.C-5', 'Chronic pancreatitis (Puestow vs Partington, Ix for Sx, ESCAPE) · Pancreatic CA — PDAC head vs body/tail, double duct sign, Whipple, pre-op biliary drainage (ERCP vs PTBD)', ['Pancreas & Spleen', 'Jaundice'],
     ['HAPAN', 'ESCAPE', 'PBD', 'NCCNPA'], b5)
 
 # ---------------------------------------------------------------- R00-6 Cystic neoplasm
@@ -52,7 +52,7 @@ def b6(p):
         + gl('Kyoto 2024 IPMN · European 2018 PCN', f'<b>High-risk stigmata</b> (→ ผ่า): obstructive jaundice · enhancing mural nodule ≥5 mm / solid component · MPD ≥10 mm · cytology suspicious/positive {p.R("KYOTO")}', f'<b>Worrisome features</b> (→ EUS, พิจารณาผ่า): cyst ≥3 cm · enhancing mural nodule &lt;5 mm · thickened/enhancing wall · MPD 5–9 mm · abrupt MPD change + distal atrophy · LN · CA 19-9 สูง · cyst โต ≥2.5 mm/ปี · acute pancreatitis จาก cyst · new-onset DM {p.R("KYOTO")}', f'European 2018: relative indication = MPD 5–9.9 mm หรือ cyst ≥40 mm · absolute = jaundice, enhancing nodule &gt;5 mm, MPD ≥10 mm, cytology บวก {p.R("EUPCN")}'))
     h += src(11)
     return h
-add('R00-6', 'Cystic neoplasm of pancreas — rule out pseudocyst, SCN (honeycomb) vs MCN (body/tail, eggshell calcification) vs IPMN (main/branch/mixed; Kyoto 2024 HRS/WF) vs SPN', ['Pancreas & Spleen'],
+add('R00.C-6', 'Cystic neoplasm of pancreas — rule out pseudocyst, SCN (honeycomb) vs MCN (body/tail, eggshell calcification) vs IPMN (main/branch/mixed; Kyoto 2024 HRS/WF) vs SPN', ['Pancreas & Spleen'],
     ['EUPCN', 'KYOTO'], b6)
 
 # ---------------------------------------------------------------- R00-7 Groin hernia
@@ -73,7 +73,7 @@ def b7(p):
         + gl('WSES 2017 complicated hernia · HerniaSurge 2018', f'Strangulated hernia → ผ่าตัดฉุกเฉิน; ถ้าสงสัยลำไส้ตายหลัง reduce เอง → diagnostic laparoscopy/laparotomy ตรวจลำไส้ {p.R("WSESH")}', f'Prosthetic mesh repair แนะนำได้ใน clean/clean-contaminated field (low-weight large-pore polypropylene) {p.R("HSURGE")}'))
     h += src(12)
     return h
-add('R00-7', 'Groin hernia — elective mesh repair + แก้สาเหตุ (watchful waiting ในชายไม่มีอาการ), incarcerated (<6 hr reduce), obstructed (ห้าม reduce, reduction en masse), strangulated, mesh vs tissue repair', ['Hernia & Abdominal wall'],
+add('R00.C-7', 'Groin hernia — elective mesh repair + แก้สาเหตุ (watchful waiting ในชายไม่มีอาการ), incarcerated (<6 hr reduce), obstructed (ห้าม reduce, reduction en masse), strangulated, mesh vs tissue repair', ['Hernia & Abdominal wall'],
     ['HSURGE', 'WSESH'], b7)
 
 # ---------------------------------------------------------------- R00-8 Thyroid
@@ -100,7 +100,7 @@ def b8(p):
         + '<tr><td>Anaplastic</td><td>ผู้สูงอายุ ก้อนโตเร็ว กด airway · ตรวจ BRAF V600E (dabrafenib + trametinib)</td></tr></table>')
     h += src(13)
     return h
-add('R00-8', 'Thyroid mass — TFT → hyper (scan hot/cold) vs euthyroid (US risk → FNA cut-off) → Bethesda 2023 management (แก้ Bet II, เพิ่ม VI) · thyroid CA types (medullary = C cell)', ['Thyroid & Endocrine'],
+add('R00.C-8', 'Thyroid mass — TFT → hyper (scan hot/cold) vs euthyroid (US risk → FNA cut-off) → Bethesda 2023 management (แก้ Bet II, เพิ่ม VI) · thyroid CA types (medullary = C cell)', ['Thyroid & Endocrine'],
     ['ATA15', 'BETH', 'ATA25', 'TIRADS'], b8)
 
 # ---------------------------------------------------------------- R00-9 Antithrombotic
@@ -115,7 +115,7 @@ def b9(p):
         + f'<p>{FIX("⚠ อัปเดต")} "ASA หยุด 5–7 วัน" — CHEST 2022 แนะนำ <b>ให้ aspirin ต่อ</b>ในผู้ป่วยส่วนใหญ่ (โดยเฉพาะมี coronary stent/secondary prevention) ยกเว้นผ่าตัดเสี่ยงเลือดออกสูงมาก (intracranial, spinal, TURP บางกรณี) {p.R("CHEST")}</p>'
         + gl('CHEST 2022 Perioperative antithrombotic', f'Resume DOAC ~24 ชม. หลัง low/moderate-bleed-risk surgery และ 48–72 ชม. หลัง high-bleed-risk · ไม่ใช้ coagulation test นำการหยุด DOAC {p.R("CHEST")}', f'หัตถการ bleeding risk ต่ำมาก (ถอนฟัน, ผิวหนังเล็ก ๆ, cataract) → ให้ warfarin/DOAC/antiplatelet ต่อได้ {p.R("CHEST")}'))
     return h
-add('R00-9', 'หยุดยาก่อนผ่าตัด — aspirin/clopidogrel, DOAC (1–2 วัน), warfarin (5 วัน, bridging เฉพาะ high risk), heparin/LMWH — เทียบ CHEST 2022', ['Perioperative care & Surgical infection'],
+add('R00.C-9', 'หยุดยาก่อนผ่าตัด — aspirin/clopidogrel, DOAC (1–2 วัน), warfarin (5 วัน, bridging เฉพาะ high risk), heparin/LMWH — เทียบ CHEST 2022', ['Perioperative care & Surgical infection'],
     ['CHEST'], b9)
 
 # ---------------------------------------------------------------- R00-10 Cholecystitis
@@ -145,7 +145,7 @@ def b10(p):
         + gl('TG18 antimicrobial therapy', f'Community-acquired grade I–II: เช่น ceftriaxone/cefotaxime ± metronidazole (ถ้ามี biliary-enteric anastomosis ต้องคลุม anaerobe) · grade III และ healthcare-associated: <b>piperacillin-tazobactam</b>, cefepime ± metronidazole, <b>carbapenem</b> ± vancomycin {p.R("TGAB")}', f'Cholecystitis หลังเอา source ออก (cholecystectomy): grade I–II ให้ ATB ไม่เกิน 24 ชม. · ถ้ามี perforation/ gangrene/ emphysematous ให้ 4–7 วัน {p.R("TGAB")}'))
     h += src(14)
     return h
-add('R00-10', 'Acute cholecystitis — US findings, complicated forms, TG18 grade I–III → early LC vs drainage (FOSF vs negative predictive factors), organ-failure criteria แก้, Abx', ['Gallbladder & Biliary'],
+add('R00.C-10', 'Acute cholecystitis — US findings, complicated forms, TG18 grade I–III → early LC vs drainage (FOSF vs negative predictive factors), organ-failure criteria แก้, Abx', ['Gallbladder & Biliary'],
     ['TGCC', 'TGAB'], b10)
 
 # ---------------------------------------------------------------- R00-11 Cholangitis
@@ -164,7 +164,7 @@ def b11(p):
         + gl('TG18 acute cholangitis', f'<b>Grade II</b> = ≥2 ใน 5: WBC &gt;12,000 หรือ &lt;4,000 · fever ≥39 °C · age ≥75 · TB ≥5 mg/dL · albumin &lt;0.7×LLN → <b>early drainage</b> · <b>Grade III</b> = organ dysfunction → <b>urgent drainage</b> {p.R("TGAC")}', f'วิธี drainage: <b>endoscopic (ERCP: EBS/ENBD) เป็นอันดับแรก</b> → EUS-guided/PTBD เมื่อทำ ERCP ไม่ได้ → open drainage (CBD exploration + T-tube) เป็นทางสุดท้าย {p.R("TGAC")}', f'ATB: community grade I–II เช่น ceftriaxone ± metronidazole · grade III/healthcare-associated → piperacillin-tazobactam/carbapenem · หลังเคลียร์ source ให้ 4–7 วัน {p.R("TGAB")}'))
     h += src(15)
     return h
-add('R00-11', 'Acute cholangitis — fever with chills, CBD stone, Gram-negative ATB, biliary drainage ladder (ERCP → PTBD → CBD exploration), TG18 grade II ต้อง drain (แก้จากโน้ต)', ['Gallbladder & Biliary', 'Jaundice'],
+add('R00.C-11', 'Acute cholangitis — fever with chills, CBD stone, Gram-negative ATB, biliary drainage ladder (ERCP → PTBD → CBD exploration), TG18 grade II ต้อง drain (แก้จากโน้ต)', ['Gallbladder & Biliary', 'Jaundice'],
     ['TGAC', 'TGAB'], b11)
 
 # ---------------------------------------------------------------- R00-12 LGIB + Dysphagia
@@ -182,12 +182,12 @@ def b12(p):
         + f'<p class="mut">{E} ASGE 2014: esophageal dysphagia → <b>EGD เป็นการตรวจแรก</b> (ดู mucosa + biopsy + dilate ได้) · <b>barium swallow</b> มีประโยชน์ก่อน EGD ถ้าสงสัย proximal lesion (<b>Zenker diverticulum</b>), stricture ซับซ้อน หรือ achalasia (bird-beak) · oropharyngeal dysphagia → videofluoroscopic swallow study {p.R("ASGED")}</p>')
     h += src(16)
     return h
-add('R00-12', 'Lower GI bleed — common causes by age, rule out upper (NG lavage/EGD), perianal, colonoscopy vs CTA (ACG 2023), small-bowel source · Dysphagia → EGD first', ['Colorectal & Anorectal', 'Esophagus'],
+add('R00.C-12', 'Lower GI bleed — common causes by age, rule out upper (NG lavage/EGD), perianal, colonoscopy vs CTA (ACG 2023), small-bowel source · Dysphagia → EGD first', ['Colorectal & Anorectal', 'Esophagus'],
     ['LGIB', 'ASGED'], b12)
 
 # ================================================================ assemble
 DOC = {
- 'code': 'R00', 'kind': 'R',
+ 'code': 'R00.C', 'kind': 'R',
  'title': 'Mossy Notes — สรุปลายมือ Gen Sx (breast, stomach, liver, pancreas, hernia, thyroid, biliary, LGIB)',
  'src': 'R00 Mossy — ไฟล์ PDF 16 หน้า (ภาพหน้าจอโน้ตลายมือจาก iPad, 15 พ.ย. 2026) · p1–3 Breast (p2–3 = p1 ซ้ำบนพื้นดำ) · p4–5 Stomach/GOO · p6 Local complication of pancreatitis · p7–8 Liver mass · p9 Acute pancreatitis · p10–11 Chronic pancreatitis, PDAC, cystic neoplasm · p12 Groin hernia · p13 Thyroid + หยุดยาก่อนผ่า · p14 Acute cholecystitis · p15 Cholangitis · p16 LGIB, Dysphagia · ถอดลายมือครบทุกบรรทัด + ตรวจกับ guideline ล่าสุด',
  'upd': UPD,
@@ -195,72 +195,72 @@ DOC = {
  'pages': PAGES,
 }
 head, d = load('data/io.js')
-d['docs'] = [x for x in d['docs'] if x['code'] != 'R00']
+d['docs'] = [x for x in d['docs'] if x['code'] != 'R00.C']
 i = next((k for k, x in enumerate(d['docs']) if x['code'] == 'R22'), len(d['docs']))
 d['docs'].insert(i, DOC)
 save('data/io.js', head, d)
 
 # ---------------------------------------------------------------- resources.js entries (code R, per topic)
 RES = [
- ('Breast', ['Breast', 'Onco'], 'breast|mastectom|lumpectom|\\bBCT\\b|\\bBCS\\b|sentinel|axillary|\\bALND\\b|\\bSLNB\\b|Ki-?67|luminal|triple.negative|HER2', 'R00-1', [
+ ('Breast', ['Breast', 'Onco'], 'breast|mastectom|lumpectom|\\bBCT\\b|\\bBCS\\b|sentinel|axillary|\\bALND\\b|\\bSLNB\\b|Ki-?67|luminal|triple.negative|HER2', 'R00.C-1', [
   'Early (T1–2 N0) → surgery first; LABC = stage III (T3N1+, T4, N2–3) → neoadjuvant ตาม subtype · T3N0 = IIB ยังไม่ใช่ LABC',
   'Mastectomy เมื่อห้าม BCT: เคยฉาย RT, diffuse malignant calcification, margin บวกซ้ำ, inflammatory BC · pregnancy: ไตรมาส 2–3 ทำ BCS แล้ว RT หลังคลอด · BRCA ไม่ใช่ข้อห้าม · multicentric 2–3 ก้อน BCT ได้ (Z11102)',
   'cN0 → SLNB · cN+ → FNA/core LN: ลบ → SLNB, บวก → ALND (หรือ neoadjuvant แล้ว SLNB/TAD ถ้า ycN0) · Z0011: BCS + RT + SLN บวก 1–2 → ไม่ต้อง ALND',
   'ALND → lymphedema → cellulitis · inflammatory BC → MRM + ALND เสมอ',
   'Luminal B = ER+ HER2− Ki-67 ≥20% · TNBC prognosis แย่สุด · endocrine 5–10 ปี · BCT + RT (ละ RT ได้ในสูงอายุ ER+ T1N0 ที่กิน endocrine)']),
- ('Stomach & Duodenum', ['Stomach & duodenum', 'Onco'], 'peptic|perforat|\\bPUP\\b|omental|graham|gastric (ca|cancer|adeno)|stomach|krukenberg|virchow|sister mary|blumer|linitis|outlet obstruction|\\bGOO\\b|paradoxical aciduria', 'R00-2', [
+ ('Stomach & Duodenum', ['Stomach & duodenum', 'Onco'], 'peptic|perforat|\\bPUP\\b|omental|graham|gastric (ca|cancer|adeno)|stomach|krukenberg|virchow|sister mary|blumer|linitis|outlet obstruction|\\bGOO\\b|paradoxical aciduria', 'R00.C-2', [
   'PUP: NSAIDs + sudden pain + free air → simple closure + omental patch + PPI ~8 wk + ตรวจ/กำจัด H. pylori (ไม่ใช่ PPI ตลอดชีวิต)',
   'Gastric CA early (T1N0) → ESD/EMR ถ้าเข้าเกณฑ์ ไม่งั้น gastrectomy · ≥cT2/N+ → periop FLOT + durvalumab (MATTERHORN, FDA 2025) หรือ upfront D2 + adjuvant (เอเชีย)',
   'Distant node (para-aortic, Virchow) / hematogenous / peritoneal → palliative · signs: malignant ascites, Sister Mary Joseph, Krukenberg, Blumer\'s shelf',
   'อาเจียนทันทีหลังกิน = linitis plastica (non-distensible) · อาเจียนหลังกินหลายชม. + succussion splash = GOO',
   'GOO: hypochloremic hypokalemic metabolic alkalosis + paradoxical aciduria (severe) → NSS ก่อน แล้ว KCl เมื่อมี urine']),
- ('Liver', ['Liver'], 'liver mass|hepatic mass|hemangioma|\\bFNH\\b|focal nodular|hepatic adenoma|hepatocellular|\\bHCC\\b|cholangiocarcinoma|liver metast|washout|centripetal|primovist|eovist|gadoxet', 'R00-3', [
+ ('Liver', ['Liver'], 'liver mass|hepatic mass|hemangioma|\\bFNH\\b|focal nodular|hepatic adenoma|hepatocellular|\\bHCC\\b|cholangiocarcinoma|liver metast|washout|centripetal|primovist|eovist|gadoxet', 'R00.C-3', [
   'Triple-phase CT/MRI แยก liver mass · hemangioma = peripheral nodular → centripetal fill-in',
   'FNH vs adenoma: hepatobiliary-phase MRI (gadoxetate ~20 นาที) FNH จับ / adenoma ไม่จับ · FNH ไม่ผ่า',
   'Adenoma (OCP): หยุด OCP → ผ่าเมื่อ ≥5 cm, ผู้ชาย, β-catenin, เลือดออก',
   'HCC: APHE + washout ในกลุ่มเสี่ยง (cirrhosis/HBV) = Dx ไม่ต้อง biopsy · iCCA: delayed enhancement + capsular retraction + focal duct dilatation',
   'Liver mets: M/C colorectal (hypovascular, portal phase) · hypervascular: NET, RCC, melanoma, thyroid, GIST · work-up colonoscopy + EGD ± biopsy']),
- ('Pancreas & Spleen', ['Pancreas', 'Gallstone', 'Jaundice'], 'pancreatit|BISAP|ranson|atlanta|pseudocyst|walled.off|necros|\\bWON\\b|\\bAPFC\\b|puestow|partington|frey|pancreatic (ca|cancer|duct|cyst)|\\bPDAC\\b|whipple|double duct|\\bIPMN\\b|mucinous cystic|serous cyst|\\bSPN\\b|pseudopapillary', 'R00-4', [
+ ('Pancreas & Spleen', ['Pancreas', 'Gallstone', 'Jaundice'], 'pancreatit|BISAP|ranson|atlanta|pseudocyst|walled.off|necros|\\bWON\\b|\\bAPFC\\b|puestow|partington|frey|pancreatic (ca|cancer|duct|cyst)|\\bPDAC\\b|whipple|double duct|\\bIPMN\\b|mucinous cystic|serous cyst|\\bSPN\\b|pseudopapillary', 'R00.C-4', [
   'Acute pancreatitis Dx 2/3: typical pain, lipase/amylase ≥3×ULN, imaging · BISAP ≥3 (BUN >25, impaired mental, SIRS, age >60, pleural effusion) · severity ตาม Revised Atlanta (persistent OF >48 h = severe)',
   '<4 wk: APFC / ANC · >4 wk: pseudocyst / WON · infected necrosis (gas) → carbapenem + step-up delayed',
   'Fluid: moderately aggressive goal-directed LR (WATERFALL, ACG 2024) · early oral/enteral feeding · gallstone mild → same-admission LC; severe → รอ ≥6 wk',
   'Chronic pancreatitis: alcohol, calcification, steatorrhea, DM 3c · duct >7 mm → lateral PJ (Partington–Rochelle/Puestow) · head mass → Whipple/Frey · early surgery ดีกว่า endoscopy-first (ESCAPE)',
   'PDAC head: painless progressive jaundice + double duct sign → Whipple (pancreaticoduodenectomy) · pre-op biliary drainage ไม่ routine (cholangitis/รอ neoadjuvant/คันมาก) → ERCP + metal stent ก่อน PTBD',
   'Cystic: rule out pseudocyst · SCN honeycomb ผ่าเมื่อมีอาการ · MCN body/tail eggshell calcification ผ่าเมื่อ ≥4 cm/risk · MD/mixed IPMN ผ่า · BD-IPMN ตาม HRS/WF (Kyoto 2024) · SPN ผ่า']),
- ('Hernia & Abdominal wall', ['Hernia'], 'hernia|incarcerat|strangulat|reduction en masse|lichtenstein|\\bTEP\\b|\\bTAPP\\b|mesh', 'R00-7', [
+ ('Hernia & Abdominal wall', ['Hernia'], 'hernia|incarcerat|strangulat|reduction en masse|lichtenstein|\\bTEP\\b|\\bTAPP\\b|mesh', 'R00.C-7', [
   'Elective tension-free mesh repair + แก้ constipation/BPH · ชายไม่มีอาการ watchful waiting ได้ · หญิง/femoral ผ่าเร็ว',
   'Incarcerated (M/C indirect, omentum) <6 hr ไม่มี sign → reduce · ≥6 hr/สงสัย → Sx',
   'Obstructed → ห้าม reduce, ต้องผ่าดู viability (ระวัง reduction en masse) · Strangulated → emergency ± laparotomy ตัดลำไส้',
   'Mesh ใช้ได้ใน clean-contaminated · contaminated มาก → tissue repair/biologic']),
- ('Thyroid & Endocrine', ['Thyroid & parathyroid'], 'thyroid nodule|thyroid mass|bethesda|\\bFNA\\b|TI-?RADS|cold nodule|hot nodule|toxic adenoma|papillary thyroid|follicular (neoplasm|carcinoma)|medullary|anaplastic', 'R00-8', [
+ ('Thyroid & Endocrine', ['Thyroid & parathyroid'], 'thyroid nodule|thyroid mass|bethesda|\\bFNA\\b|TI-?RADS|cold nodule|hot nodule|toxic adenoma|papillary thyroid|follicular (neoplasm|carcinoma)|medullary|anaplastic', 'R00.C-8', [
   'Thyroid mass: TSH ก่อน → ต่ำ = scan (hot ไม่ต้อง FNA, cold → US/FNA) · ปกติ/สูง → US pattern → FNA (high/intermediate ≥1 cm, low ≥1.5 cm, very low ≥2 cm)',
   'Bethesda 2023: I repeat FNA · II follow-up (ไม่ต้องเจาะซ้ำ) · III repeat/molecular/lobectomy · IV molecular/lobectomy · V–VI lobectomy หรือ total',
   'ATA 2025: PTC ≤2 cm intrathyroidal → lobectomy preferred, 2–4 cm เลือกได้',
   'DTC = papillary + follicular (+oncocytic) · medullary = C cell (calcitonin, RET/MEN2) · anaplastic = undifferentiated']),
- ('Perioperative care & Surgical infection', ['Pre-op & post-op'], 'warfarin|bridging|\\bDOAC|\\bNOAC|apixaban|rivaroxaban|dabigatran|clopidogrel|aspirin|antiplatelet|anticoagul|enoxaparin|heparin', 'R00-9', [
+ ('Perioperative care & Surgical infection', ['Pre-op & post-op'], 'warfarin|bridging|\\bDOAC|\\bNOAC|apixaban|rivaroxaban|dabigatran|clopidogrel|aspirin|antiplatelet|anticoagul|enoxaparin|heparin', 'R00.C-9', [
   'CHEST 2022: aspirin ส่วนใหญ่ให้ต่อ · clopidogrel หยุด 5 วัน · DOAC หยุด 1–2 วัน (dabigatran + CrCl <50 นานขึ้น) ไม่ bridging',
   'Warfarin หยุด 5 วัน · bridging LMWH เฉพาะ thrombotic risk สูงมาก (VTE/stroke <3 เดือน, mechanical mitral valve) · AF ไม่ bridging (strong) · mechanical valve ทั่วไป CHEST 2022 suggest ไม่ bridging',
   'UFH IV หยุด 4–6 ชม. · LMWH therapeutic dose สุดท้าย ~24 ชม. ก่อนผ่า']),
- ('Gallbladder & Biliary', ['Gallstone', 'Jaundice'], 'cholecystitis|cholangitis|murphy|cholecystostomy|PTGBD|\\bFOSF\\b|tokyo|\\bTG18\\b|charcot|reynolds|\\bPTBD\\b|\\bERCP\\b|emphysematous|empyema', 'R00-10', [
+ ('Gallbladder & Biliary', ['Gallstone', 'Jaundice'], 'cholecystitis|cholangitis|murphy|cholecystostomy|PTGBD|\\bFOSF\\b|tokyo|\\bTG18\\b|charcot|reynolds|\\bPTBD\\b|\\bERCP\\b|emphysematous|empyema', 'R00.C-10', [
   'Acute cholecystitis: US = imaging of choice · grade II = WBC >18,000, tender mass, >72 hr, marked local inflammation · grade III = organ dysfunction',
   'TG18 grade III: FOSF (cardiovascular/renal) + ไม่มี negative predictors (jaundice TB ≥2, neuro, resp) + fit → early LC; ไม่งั้น GB drainage แล้ว delayed LC',
   'Organ dysfunction: hepatic = PT-INR >1.5 · hematologic = platelet <100,000',
   'Cholangitis: M/C CBD stone, Gram-negative · grade I ATB · grade II early drainage · grade III urgent drainage · ERCP > PTBD > CBD exploration · เคลียร์ CBD แล้ว LC',
   'ATB: community ceftriaxone ± metronidazole · healthcare/grade III pip-tazo/carbapenem']),
- ('Colorectal & Anorectal', ['Colorectal'], 'lower GI bleed|hematochezia|\\bLGIB\\b|diverticul.*bleed|angiodysplasia|\\bCTA\\b|NG lavage', 'R00-12', [
+ ('Colorectal & Anorectal', ['Colorectal'], 'lower GI bleed|hematochezia|\\bLGIB\\b|diverticul.*bleed|angiodysplasia|\\bCTA\\b|NG lavage', 'R00.C-12', [
   'LGIB ผู้สูงอายุ: diverticulosis, angiodysplasia, cancer · rule out upper (EGD ถ้าสงสัย, NG lavage มี bile ช่วย R/O)',
   'ACG 2023: unstable/active → CTA ก่อน → embolization/colonoscopy · stable → colonoscopy non-urgent · CTA ไม่ช่วยถ้าเลือดหยุดแล้ว',
   'IC valve มีเลือด → small bowel source → capsule endoscopy/CT enterography']),
- ('Esophagus', ['Esophagus'], 'dysphagia|barium swallow|esophagram', 'R00-12', [
+ ('Esophagus', ['Esophagus'], 'dysphagia|barium swallow|esophagram', 'R00.C-12', [
   'Esophageal dysphagia → EGD first (biopsy/dilate ได้) · barium ก่อนถ้าสงสัย Zenker/stricture ซับซ้อน/achalasia']),
 ]
 rs = open('data/resources.js', encoding='utf8').read()
 i0 = rs.index('\nW.RES=') + 7
 lst = json.loads(rs[i0:].rstrip().rstrip(';'))
-lst = [r for r in lst if r.get('code') != 'R00']
+lst = [r for r in lst if r.get('code') != 'R00.C']
 new = []
 for topic, tags, kw, pid, pts in RES:
-    new.append({'code': 'R00', 'title': 'Mossy Notes — ' + topic, 'kw': kw, 'topic': topic, 'tags': tags,
+    new.append({'code': 'R00.C', 'title': 'Mossy Notes — ' + topic, 'kw': kw, 'topic': topic, 'tags': tags,
                 'type': 'Handout (สรุปลายมือ)', 'url': '',
                 'note': f'สรุปลายมือ Mossy (16 หน้า) · {topic} · Round I/O {pid}', 'points': pts})
 lst = new + lst
