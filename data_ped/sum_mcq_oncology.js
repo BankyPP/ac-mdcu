@@ -1,0 +1,45 @@
+const k=s=>s.trim().split(/\s+/).map(x=>x.replace(/^(\d\d)([A-D])(.+)$/,"MDCU$1|Ro$2|$3"));
+SUMM.push({tag:"Oncology", title:"Oncology",
+  intro:"<ul><li>ออกทุกรุ่น: <b>neuroblastoma</b> (ก้อนท้อง + raccoon eyes + small round blue cells ในไขกระดูก → BM / urine VMA — 76A, 76B, 77A, 77B, 78A, 78D), <b>anterior mediastinal mass = lymphoma</b> และห้าม sedate/ GA/ นอนหงาย (75D, 76B, 78B, 78D), <b>hepatoblastoma → AFP</b> (77B ×2, 78A)</li><li>อื่นๆ: leukemia → BM (bone pain + cytopenia), TLS, AML (Auer rods), retinoblastoma (leukocoria), sarcoma botryoides; และจิตสังคม (separation anxiety, medical play, coping)</li></ul>",
+  groups:[
+    {title:"Solid tumors", sections:[
+      {id:"on-nb", title:"Neuroblastoma",
+       trend:"ถามบ่อยที่สุด — dx/ investigation ที่ช่วยยืนยัน",
+       asked:["Raccoon eyes + ปวดท้อง → bone marrow examination (ไม่มี urine VMA ในช้อย)","ก้อนท้อง + BM small round blue cells → neuroblastoma / ส่ง urine VMA","BM small round blue cells + Homer Wright rosettes → urine VMA"],
+       pattern:["NB: &lt; 5 ปี, adrenal/ paraspinal, <b>ข้ามเส้นกลาง</b>, calcification, mets ไป <b>BM, กระดูก, orbit (raccoon eyes), skin (blueberry muffin)</b>","Dx: <b>urine VMA/HVA</b>, BM aspiration/ biopsy, biopsy ก้อน, MIBG, CT/MRI","Paraneoplastic: opsoclonus-myoclonus, VIP diarrhea, HT"],
+       pearls:["Wilms: ไม่ข้ามเส้นกลาง เด็กดูดี ไม่ไป BM"],
+       members:k("78A41 78A43 78D37 77A9 77B12 76A34 76B69")},
+      {id:"on-hb", title:"Hepatoblastoma",
+       trend:"ออก 77B ×2, 78A — ก้อนในตับเด็กเล็ก ถาม tumor marker",
+       asked:["เด็ก 2 ปีก้อนในตับ → serum AFP","Hemihypertrophy (BWS) + ก้อน RUQ → AFP"],
+       pattern:["Hepatoblastoma &lt; 3 ปี, <b>AFP สูง</b>, thrombocytosis; ปัจจัยเสี่ยง: BWS, FAP, prematurity/ VLBW","BWS → screen AFP + US ท้องทุก 3 เดือน (Wilms, hepatoblastoma)"],
+       members:k("78A42 77B7 77B42")},
+      {id:"on-other-solid", title:"Rhabdomyosarcoma, retinoblastoma",
+       trend:"ออกครั้งเดียวต่อเรื่อง",
+       asked:["ก้อนพวงองุ่นยื่นจากช่องคลอดเด็กเล็ก → embryonal (botryoid) rhabdomyosarcoma","Red reflex หาย (leukocoria) → retinoblastoma"],
+       pattern:["Leukocoria = retinoblastoma จนกว่าจะพิสูจน์ว่าไม่ใช่ (RB1; bilateral = germline)","Sarcoma botryoides: vagina/ bladder ในเด็กเล็ก"],
+       members:k("78D39 74B2")}]},
+    {title:"Lymphoma และ mediastinal mass", sections:[
+      {id:"on-mediastinal", title:"Anterior mediastinal mass",
+       trend:"ออก 75D, 76B, 78B ×2, 78D — ถาม dx (lymphoma) และสิ่งที่ห้ามทำ",
+       asked:["Anterior mediastinal mass + SVC syndrome → avoid stress/ agitation (ไม่ GA/ sedate/ supine)","Anterior mediastinal mass ในวัยรุ่น → lymphoma"],
+       pattern:["Anterior: lymphoma (Hodgkin, T-LBL) &gt; germ cell, thymus; posterior = neurogenic","เสี่ยง airway/ cardiovascular collapse เมื่อ <b>GA, sedation, นอนหงาย, ร้องไห้</b> → biopsy ใต้ local (LN ส่วนปลาย, effusion, BM) ท่านั่ง","Thymoma หายากในเด็ก"],
+       members:k("75D1 76B12 78B15 78B16 78D35")},
+      {id:"on-lymphoma-ln", title:"Lymphadenopathy: lymphoma vs TB",
+       trend:"ออก 77A, 78A, 78D — supraclavicular mass + B symptoms + TST 8 mm",
+       asked:["วัยรุ่น LN supraclavicular ใหญ่แข็งไม่เจ็บ + B symptoms → lymphoma"],
+       pattern:["Red flags LN: supraclavicular, &gt; 2 cm แข็ง ไม่เจ็บ, โตต่อเนื่อง, B symptoms (ไข้ เหงื่อออกกลางคืน น้ำหนักลด &gt; 10%) → excisional biopsy","TST 8 mm ไม่ถึงเกณฑ์บวก (≥ 10–15) — ไม่ช่วยยืนยัน TB"],
+       members:k("78A48 78D32 77A13")}]},
+    {title:"Leukemia", sections:[
+      {id:"on-leukemia", title:"Acute leukemia: dx, TLS, AML",
+       trend:"ออก 74B, 76B, 77A, 77B, 78A",
+       asked:["Limping + ไข้ 3 สัปดาห์ + anemia + thrombocytopenia → bone marrow study","ก้อนท้อง + pancytopenia → BM aspiration","Leukemia WBC สูงเริ่มเคมีบำบัด → เสี่ยง tumor lysis syndrome","Blast + Auer rods + gum hypertrophy → AML"],
+       pattern:["Bone pain + cytopenia ≥ 2 lineage → <b>BM aspiration/ biopsy</b> + flow cytometry","<b>TLS</b>: hyperK, hyperphosphatemia, hypocalcemia, hyperuricemia → hydration + allopurinol/ rasburicase","AML: Auer rods, gum infiltration (M4/M5), APL (M3) → DIC/ ATRA"],
+       members:k("76B68 78A43 77A66 77B33 74B75")}]},
+    {title:"จิตสังคมในเด็กมะเร็ง/ เจ็บป่วย", sections:[
+      {id:"on-psychosocial", title:"สื่อสารและดูแลจิตใจ",
+       trend:"ออก 76B, 77A ×2, 77B, 78B, 78D",
+       asked:["พ่อแม่ช็อก/ สิ้นหวังหลังรับข่าว → explore feelings","อยากใช้สมุนไพร → discuss benefits and risks","เด็กเล็กใน รพ. กลัวมากที่สุด → separation (ให้แม่อยู่ด้วย)","Child life สำหรับเด็กก่อนวัยเรียน → medical play","ปัจจัยที่ช่วยปรับตัว → good coping skills"],
+       pattern:["Toddler/ preschool: กลัวการแยกจากพ่อแม่ → rooming-in; เตรียมด้วย medical play","Breaking bad news: SPIKES — Emotion ก่อน information"],
+       members:k("77A65 78D40 76B24 77A76 77B52 78B54")}]}
+  ]});

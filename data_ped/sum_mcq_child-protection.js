@@ -1,0 +1,38 @@
+const k=s=>s.trim().split(/\s+/).map(x=>x.replace(/^(\d\d)([A-D])(.+)$/,"MDCU$1|Ro$2|$3"));
+SUMM.push({tag:"Child protection & Social pediatrics", title:"Child protection & Social pediatrics",
+  intro:"<ul><li>ออกทุกรุ่น 74–78: <b>red flags ของ physical abuse</b> — ประวัติไม่สอดคล้องพัฒนาการ (ทารก 2–5 เดือน \"ตกเตียงเอง\"), <b>torn frenulum ในทารกที่ยังไม่เดิน</b>, รอยช้ำที่ก้น/ หลัง/ หู/ คอ, posterior rib fracture, <b>shaken baby → subdural hemorrhage</b></li><li>อีกกลุ่มคือ <b>การสื่อสาร</b>: ผู้ปกครองช็อก/ สิ้นหวัง/ อยากใช้สมุนไพร → explore feelings + discuss pros-cons ก่อนเสมอ; บวก neglect (educational) และวินัยเชิงบวก</li></ul>",
+  groups:[
+    {title:"Physical abuse", sections:[
+      {id:"cp-inconsistent", title:"ประวัติไม่สอดคล้องพัฒนาการ / sentinel injury",
+       trend:"ถามบ่อยที่สุด — ทารกที่ยังไม่คลาน/ เดิน แต่มีแผล (77A, 77D, 78B, 75D, 76B)",
+       asked:["ข้อใดน่าสงสัย abuse มากที่สุด → ทารก 3 เดือน frenulum ฉีก / พ่อพาทารก 2 เดือนกะโหลกแตก บอกตกเตียง","ทารก 5 เดือน \"คลานตกเตียง\" → ประวัติไม่สอดคล้องพัฒนาการ"],
+       pattern:["<b>\"Those who don't cruise rarely bruise\"</b>: ทารกที่ยังไม่เดิน (&lt; 6–9 เดือน) มีรอยช้ำ/ แผล = red flag","Sentinel injuries: <b>torn labial frenulum</b>, bruise ในทารก &lt; 4 เดือน, intraoral injury","พัฒนาการอ้างอิง: พลิกคว่ำ 4–6 เดือน, นั่ง 6–7, คลาน 8–9, เดิน 12 เดือน","การตกเตียงสูง &lt; 1 m แทบไม่ทำให้บาดเจ็บรุนแรง"],
+       pearls:["ช้อยลวง: เด็กหัดเดิน/ ขี่จักรยาน มีแผลหน้าแข้ง หน้าผาก เข่า = อุบัติเหตุปกติ"],
+       members:k("78B37 77A34 77D3.1 76B28 75D16")},
+      {id:"cp-bruise", title:"ตำแหน่งรอยช้ำและแผลไหม้",
+       trend:"ถามตำแหน่ง bruise ที่ชี้ abuse (74A, 77A, 77D) และแผลไหม้บุหรี่ (77A, 78A)",
+       asked:["Bruise ตำแหน่งใดไม่น่าเป็นอุบัติเหตุ → ก้น/ sacrum/ หู/ คอ หลายแผลหลายระยะ","แผลไหม้กลมขนาดเท่ากันหลายแผล ไม่มีคำอธิบาย → abuse ชนิดอื่นที่พบร่วมบ่อย = emotional abuse"],
+       pattern:["<b>TEN-4-FACESp</b>: Torso, Ears, Neck, Frenulum, Angle of jaw, Cheek, Eyelid, Subconjunctiva, patterned — ในเด็ก ≤ 4 ปี; ทุกตำแหน่งใน &lt; 4 เดือน","อุบัติเหตุ: bony prominence ด้านหน้า (หน้าแข้ง เข่า ศอก หน้าผาก)","Physical abuse มี emotional abuse ร่วมเสมอ"],
+       members:k("77A72 77D15.2 74A30 78A37 77A71")},
+      {id:"cp-aht", title:"Abusive head trauma และ skeletal injury",
+       trend:"ออก 77B, 77D, 78B",
+       asked:["ทารกซึม อาเจียน ไม่มีแผลภายนอก (shaken baby) → subdural hemorrhage","posteromedial rib fractures หลายระยะ → non-accidental injury","ผมร่วงเป็นหย่อมจากถูกดึง → traumatic alopecia"],
+       pattern:["AHT triad: <b>subdural hemorrhage + retinal hemorrhage + encephalopathy</b>","Skeletal survey ใน &lt; 2 ปี; fracture เฉพาะ: <b>posterior rib</b>, classic metaphyseal lesion, scapula, sternum, spinous process","ต้องแยก scurvy/ OI/ rickets เมื่อมี fracture หลายแห่ง"],
+       members:k("78B61 77D15.1 77B62 77B50")},
+      {id:"cp-sexual", title:"Sexual abuse",
+       trend:"ออกครั้งเดียว (77D)",
+       asked:["เด็กก่อนวัยรุ่นเลือดออกทางช่องคลอดไม่มีคำอธิบาย → แยกเด็กออกจากผู้ดูแลแล้วสัมภาษณ์"],
+       pattern:["สัมภาษณ์เด็กแยกจากผู้ดูแล, ตรวจ STI, เก็บหลักฐาน, รายงานตามกฎหมาย","Anogenital wart/ gonorrhea ในเด็กเล็ก — พิจารณา sexual abuse"],
+       members:k("77D21.1")}]},
+    {title:"Neglect และการสื่อสาร", sections:[
+      {id:"cp-neglect", title:"Neglect และ discipline",
+       trend:"ออก 76A, 76B",
+       asked:["เด็กมาเรียน 2 วัน/สัปดาห์ เพราะพ่อแม่ติดเหล้าไม่พาไป วาด diamond ได้ → educational neglect","แม่ตีลูกเพราะซน → แนะนำ positive discipline + ประเมิน ADHD"],
+       pattern:["Neglect: physical, medical, educational, supervisory","AAP: <b>ไม่แนะนำการตี</b> — positive reinforcement, time-out, consequence"],
+       members:k("76A11 76B46")},
+      {id:"cp-communication", title:"สื่อสารกับผู้ปกครอง: ข่าวร้าย, สิ้นหวัง, สมุนไพร",
+       trend:"ออก 77A, 78D, 76B — ตอบ explore feelings / discuss pros–cons",
+       asked:["พ่อแม่ช็อกหลังทราบว่าลูกเป็น ALL → explore the parents' feelings","พ่อแม่อยากใช้สมุนไพรแทนเคมีบำบัด → discuss benefits and risks"],
+       pattern:["ขั้นแรกเสมอ: <b>empathy — ถามความรู้สึก/ ความกังวล</b> ก่อนให้ข้อมูล","Complementary medicine: ไม่ปฏิเสธทันที ไม่ยอมตาม — คุยข้อดีข้อเสีย หาทางร่วม; ถ้าปฏิเสธการรักษาที่ช่วยชีวิต → ethics/ กฎหมาย (medical neglect)"],
+       members:k("77A65 78D40 76B24")}]}
+  ]});
