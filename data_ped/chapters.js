@@ -1,0 +1,2 @@
+/* บทของชุดที่แบ่งบทได้ (บท = orig ก่อนจุด) · key = setKey (set+" "+ro) — Ped 77D จัดตามระบบ */
+W.CHAP={"MDCU77 RoD":{"1":"Rheumatology","2":"Respiratory","3":"Psychiatry","4":"Nutrition","5":"Neurology","6":"Nephrology","7":"Neonatology","8":"Infectious disease","9":"Holistic","10":"Hematology & Oncology","11":"GI","12":"Endocrine","13":"Dermatology","14":"Congenital malformation","15":"Child health supervision","16":"Cardiology","17":"Ambulatory","18":"Allergy","19":"Adolescent","20":"Miscellaneous","21":"ข้อสอบรอบที่ 2"}};
