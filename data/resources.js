@@ -1,6 +1,192 @@
 /* resource นอก lecture (code R) — General Surgery Y4 (Gen Sx, MDCU) · W.RES=[{code,title,topic,tags,type,url,note,points}] */
 W.RES=[
 {
+"code": "R00",
+"title": "Mossy Notes — Breast",
+"kw": "breast|mastectom|lumpectom|\\bBCT\\b|\\bBCS\\b|sentinel|axillary|\\bALND\\b|\\bSLNB\\b|Ki-?67|luminal|triple.negative|HER2",
+"topic": "Breast",
+"tags": [
+"Breast",
+"Onco"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Breast · Round I/O R00-1",
+"points": [
+"Early (T1–2 N0) → surgery first; LABC = stage III (T3N1+, T4, N2–3) → neoadjuvant ตาม subtype · T3N0 = IIB ยังไม่ใช่ LABC",
+"Mastectomy เมื่อห้าม BCT: เคยฉาย RT, diffuse malignant calcification, margin บวกซ้ำ, inflammatory BC · pregnancy: ไตรมาส 2–3 ทำ BCS แล้ว RT หลังคลอด · BRCA ไม่ใช่ข้อห้าม · multicentric 2–3 ก้อน BCT ได้ (Z11102)",
+"cN0 → SLNB · cN+ → FNA/core LN: ลบ → SLNB, บวก → ALND (หรือ neoadjuvant แล้ว SLNB/TAD ถ้า ycN0) · Z0011: BCS + RT + SLN บวก 1–2 → ไม่ต้อง ALND",
+"ALND → lymphedema → cellulitis · inflammatory BC → MRM + ALND เสมอ",
+"Luminal B = ER+ HER2− Ki-67 ≥20% · TNBC prognosis แย่สุด · endocrine 5–10 ปี · BCT + RT (ละ RT ได้ในสูงอายุ ER+ T1N0 ที่กิน endocrine)"
+]
+},
+{
+"code": "R00",
+"title": "Mossy Notes — Stomach & Duodenum",
+"kw": "peptic|perforat|\\bPUP\\b|omental|graham|gastric (ca|cancer|adeno)|stomach|krukenberg|virchow|sister mary|blumer|linitis|outlet obstruction|\\bGOO\\b|paradoxical aciduria",
+"topic": "Stomach & Duodenum",
+"tags": [
+"Stomach & duodenum",
+"Onco"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Stomach & Duodenum · Round I/O R00-2",
+"points": [
+"PUP: NSAIDs + sudden pain + free air → simple closure + omental patch + PPI ~8 wk + ตรวจ/กำจัด H. pylori (ไม่ใช่ PPI ตลอดชีวิต)",
+"Gastric CA early (T1N0) → ESD/EMR ถ้าเข้าเกณฑ์ ไม่งั้น gastrectomy · ≥cT2/N+ → periop FLOT + durvalumab (MATTERHORN, FDA 2025) หรือ upfront D2 + adjuvant (เอเชีย)",
+"Distant node (para-aortic, Virchow) / hematogenous / peritoneal → palliative · signs: malignant ascites, Sister Mary Joseph, Krukenberg, Blumer's shelf",
+"อาเจียนทันทีหลังกิน = linitis plastica (non-distensible) · อาเจียนหลังกินหลายชม. + succussion splash = GOO",
+"GOO: hypochloremic hypokalemic metabolic alkalosis + paradoxical aciduria (severe) → NSS ก่อน แล้ว KCl เมื่อมี urine"
+]
+},
+{
+"code": "R00",
+"title": "Mossy Notes — Liver",
+"kw": "liver mass|hepatic mass|hemangioma|\\bFNH\\b|focal nodular|hepatic adenoma|hepatocellular|\\bHCC\\b|cholangiocarcinoma|liver metast|washout|centripetal|primovist|eovist|gadoxet",
+"topic": "Liver",
+"tags": [
+"Liver"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Liver · Round I/O R00-3",
+"points": [
+"Triple-phase CT/MRI แยก liver mass · hemangioma = peripheral nodular → centripetal fill-in",
+"FNH vs adenoma: hepatobiliary-phase MRI (gadoxetate ~20 นาที) FNH จับ / adenoma ไม่จับ · FNH ไม่ผ่า",
+"Adenoma (OCP): หยุด OCP → ผ่าเมื่อ ≥5 cm, ผู้ชาย, β-catenin, เลือดออก",
+"HCC: APHE + washout ในกลุ่มเสี่ยง (cirrhosis/HBV) = Dx ไม่ต้อง biopsy · iCCA: delayed enhancement + capsular retraction + focal duct dilatation",
+"Liver mets: M/C colorectal (hypovascular, portal phase) · hypervascular: NET, RCC, melanoma, thyroid, GIST · work-up colonoscopy + EGD ± biopsy"
+]
+},
+{
+"code": "R00",
+"title": "Mossy Notes — Pancreas & Spleen",
+"kw": "pancreatit|BISAP|ranson|atlanta|pseudocyst|walled.off|necros|\\bWON\\b|\\bAPFC\\b|puestow|partington|frey|pancreatic (ca|cancer|duct|cyst)|\\bPDAC\\b|whipple|double duct|\\bIPMN\\b|mucinous cystic|serous cyst|\\bSPN\\b|pseudopapillary",
+"topic": "Pancreas & Spleen",
+"tags": [
+"Pancreas",
+"Gallstone",
+"Jaundice"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Pancreas & Spleen · Round I/O R00-4",
+"points": [
+"Acute pancreatitis Dx 2/3: typical pain, lipase/amylase ≥3×ULN, imaging · BISAP ≥3 (BUN >25, impaired mental, SIRS, age >60, pleural effusion) · severity ตาม Revised Atlanta (persistent OF >48 h = severe)",
+"<4 wk: APFC / ANC · >4 wk: pseudocyst / WON · infected necrosis (gas) → carbapenem + step-up delayed",
+"Fluid: moderately aggressive goal-directed LR (WATERFALL, ACG 2024) · early oral/enteral feeding · gallstone mild → same-admission LC; severe → รอ ≥6 wk",
+"Chronic pancreatitis: alcohol, calcification, steatorrhea, DM 3c · duct >7 mm → lateral PJ (Partington–Rochelle/Puestow) · head mass → Whipple/Frey · early surgery ดีกว่า endoscopy-first (ESCAPE)",
+"PDAC head: painless progressive jaundice + double duct sign → Whipple (pancreaticoduodenectomy) · pre-op biliary drainage ไม่ routine (cholangitis/รอ neoadjuvant/คันมาก) → ERCP + metal stent ก่อน PTBD",
+"Cystic: rule out pseudocyst · SCN honeycomb ผ่าเมื่อมีอาการ · MCN body/tail eggshell calcification ผ่าเมื่อ ≥4 cm/risk · MD/mixed IPMN ผ่า · BD-IPMN ตาม HRS/WF (Kyoto 2024) · SPN ผ่า"
+]
+},
+{
+"code": "R00",
+"title": "Mossy Notes — Hernia & Abdominal wall",
+"kw": "hernia|incarcerat|strangulat|reduction en masse|lichtenstein|\\bTEP\\b|\\bTAPP\\b|mesh",
+"topic": "Hernia & Abdominal wall",
+"tags": [
+"Hernia"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Hernia & Abdominal wall · Round I/O R00-7",
+"points": [
+"Elective tension-free mesh repair + แก้ constipation/BPH · ชายไม่มีอาการ watchful waiting ได้ · หญิง/femoral ผ่าเร็ว",
+"Incarcerated (M/C indirect, omentum) <6 hr ไม่มี sign → reduce · ≥6 hr/สงสัย → Sx",
+"Obstructed → ห้าม reduce, ต้องผ่าดู viability (ระวัง reduction en masse) · Strangulated → emergency ± laparotomy ตัดลำไส้",
+"Mesh ใช้ได้ใน clean-contaminated · contaminated มาก → tissue repair/biologic"
+]
+},
+{
+"code": "R00",
+"title": "Mossy Notes — Thyroid & Endocrine",
+"kw": "thyroid nodule|thyroid mass|bethesda|\\bFNA\\b|TI-?RADS|cold nodule|hot nodule|toxic adenoma|papillary thyroid|follicular (neoplasm|carcinoma)|medullary|anaplastic",
+"topic": "Thyroid & Endocrine",
+"tags": [
+"Thyroid & parathyroid"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Thyroid & Endocrine · Round I/O R00-8",
+"points": [
+"Thyroid mass: TSH ก่อน → ต่ำ = scan (hot ไม่ต้อง FNA, cold → US/FNA) · ปกติ/สูง → US pattern → FNA (high/intermediate ≥1 cm, low ≥1.5 cm, very low ≥2 cm)",
+"Bethesda 2023: I repeat FNA · II follow-up (ไม่ต้องเจาะซ้ำ) · III repeat/molecular/lobectomy · IV molecular/lobectomy · V–VI lobectomy หรือ total",
+"ATA 2025: PTC ≤2 cm intrathyroidal → lobectomy preferred, 2–4 cm เลือกได้",
+"DTC = papillary + follicular (+oncocytic) · medullary = C cell (calcitonin, RET/MEN2) · anaplastic = undifferentiated"
+]
+},
+{
+"code": "R00",
+"title": "Mossy Notes — Perioperative care & Surgical infection",
+"kw": "warfarin|bridging|\\bDOAC|\\bNOAC|apixaban|rivaroxaban|dabigatran|clopidogrel|aspirin|antiplatelet|anticoagul|enoxaparin|heparin",
+"topic": "Perioperative care & Surgical infection",
+"tags": [
+"Pre-op & post-op"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Perioperative care & Surgical infection · Round I/O R00-9",
+"points": [
+"CHEST 2022: aspirin ส่วนใหญ่ให้ต่อ · clopidogrel หยุด 5 วัน · DOAC หยุด 1–2 วัน (dabigatran + CrCl <50 นานขึ้น) ไม่ bridging",
+"Warfarin หยุด 5 วัน · bridging LMWH เฉพาะ thrombotic risk สูงมาก (VTE/stroke <3 เดือน, mechanical mitral valve) · AF ไม่ bridging (strong) · mechanical valve ทั่วไป CHEST 2022 suggest ไม่ bridging",
+"UFH IV หยุด 4–6 ชม. · LMWH therapeutic dose สุดท้าย ~24 ชม. ก่อนผ่า"
+]
+},
+{
+"code": "R00",
+"title": "Mossy Notes — Gallbladder & Biliary",
+"kw": "cholecystitis|cholangitis|murphy|cholecystostomy|PTGBD|\\bFOSF\\b|tokyo|\\bTG18\\b|charcot|reynolds|\\bPTBD\\b|\\bERCP\\b|emphysematous|empyema",
+"topic": "Gallbladder & Biliary",
+"tags": [
+"Gallstone",
+"Jaundice"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Gallbladder & Biliary · Round I/O R00-10",
+"points": [
+"Acute cholecystitis: US = imaging of choice · grade II = WBC >18,000, tender mass, >72 hr, marked local inflammation · grade III = organ dysfunction",
+"TG18 grade III: FOSF (cardiovascular/renal) + ไม่มี negative predictors (jaundice TB ≥2, neuro, resp) + fit → early LC; ไม่งั้น GB drainage แล้ว delayed LC",
+"Organ dysfunction: hepatic = PT-INR >1.5 · hematologic = platelet <100,000",
+"Cholangitis: M/C CBD stone, Gram-negative · grade I ATB · grade II early drainage · grade III urgent drainage · ERCP > PTBD > CBD exploration · เคลียร์ CBD แล้ว LC",
+"ATB: community ceftriaxone ± metronidazole · healthcare/grade III pip-tazo/carbapenem"
+]
+},
+{
+"code": "R00",
+"title": "Mossy Notes — Colorectal & Anorectal",
+"kw": "lower GI bleed|hematochezia|\\bLGIB\\b|diverticul.*bleed|angiodysplasia|\\bCTA\\b|NG lavage",
+"topic": "Colorectal & Anorectal",
+"tags": [
+"Colorectal"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Colorectal & Anorectal · Round I/O R00-12",
+"points": [
+"LGIB ผู้สูงอายุ: diverticulosis, angiodysplasia, cancer · rule out upper (EGD ถ้าสงสัย, NG lavage มี bile ช่วย R/O)",
+"ACG 2023: unstable/active → CTA ก่อน → embolization/colonoscopy · stable → colonoscopy non-urgent · CTA ไม่ช่วยถ้าเลือดหยุดแล้ว",
+"IC valve มีเลือด → small bowel source → capsule endoscopy/CT enterography"
+]
+},
+{
+"code": "R00",
+"title": "Mossy Notes — Esophagus",
+"kw": "dysphagia|barium swallow|esophagram",
+"topic": "Esophagus",
+"tags": [
+"Esophagus"
+],
+"type": "Handout (สรุปลายมือ)",
+"url": "",
+"note": "สรุปลายมือ Mossy (16 หน้า) · Esophagus · Round I/O R00-12",
+"points": [
+"Esophageal dysphagia → EGD first (biopsy/dilate ได้) · barium ก่อนถ้าสงสัย Zenker/stricture ซับซ้อน/achalasia"
+]
+},
+{
 "code": "R22",
 "title": "Gallstone-related disease (Tokyo Guidelines 2018)",
 "kw": "gallstone|cholelith|cholecyst|choledoch|cholangitis|\\bCBD\\b|biliary colic|\\bERCP\\b|pancreatit|\\bIPN\\b|necros|mirizzi|tokyo|นิ่วในถุงน้ำดี|ถุงน้ำดี",
