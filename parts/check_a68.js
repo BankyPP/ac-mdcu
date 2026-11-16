@@ -18,7 +18,7 @@ QB.forEach(q=>{const e=[];["page","page2","orig","stem","gray","opts","key","int
  if(q.key!==NK&&!String(q.key).startsWith(NK)&&!String(q.key).endsWith(KSB))e.push("key must end with KSB (key is only in file B) or be NK");
  if(Array.isArray(q.summary)&&q.summary.length<3)e.push("summary too short");
  if(Array.isArray(q.summary)&&/^\s*(ดู|ไปดู)ข้อ/.test(strip(q.summary[0])))e.push("summary starts with ดูข้อ");
- (JSON.stringify([q.summary,q.why,q.wrong,q.opinion,q.interp,q.trap]).match(/ข้อ\s*\d+/g)||[]).forEach(m=>{if(+m.replace(/\D/g,"")>56)e.push("ข้อ number >42 (เลขข้อสงวนไว้สำหรับชุดนี้ 1–56): "+m);});
+ (JSON.stringify([q.summary,q.why,q.wrong,q.opinion,q.interp,q.trap]).match(/ข้อ\s*\d+/g)||[]).forEach(m=>{if(+m.replace(/\D/g,"")>56)e.push("ข้อ number >56 (เลขข้อสงวนไว้สำหรับชุดนี้ 1–56): "+m);});
  const o=q.opts.map(strip),c=o[q.ans],ot=o.filter((_,j)=>j!==q.ans),mx=Math.max(...ot.map(x=>x.length));
  if(c.length>mx*1.35&&c.length-mx>8)e.push("correct option LONG: "+c);if(o.some(extra))e.push("option has ()/ — / e.g.: "+o.filter(extra).join(" | "));
  if(e.length){bad++;console.log("orig",q.orig,"→",e.join("; "));}});
