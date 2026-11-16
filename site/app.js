@@ -8,9 +8,11 @@
 const L="ABCDE";
 /* an image is either a file path, or (Claude artifact build) a slot in a sprite sheet {p,w,h,W,H,y} drawn with CSS so it scales like an <img> */
 function imgHTML(k,alt,lazy){const v=IMGS[k];if(!v)return "";if(typeof v==="string")return `<img ${lazy?'loading="lazy" ':""}src="${v}" alt="${alt}" onerror="acImgErr(this)">`;
-  const py=v.H>v.h?v.y/(v.H-v.h)*100:0;
-  /* the hidden <img> loads the same sheet (from the browser/SW cache) only so a failed sheet can be noticed — a CSS background fails silently */
-  return `<span class="spr" role="img" aria-label="${alt}" style="width:min(100%,${v.w}px);aspect-ratio:${v.w}/${v.h};background-image:url('${v.p}');background-size:${(v.W/v.w*100).toFixed(4)}% auto;background-position:0 ${py.toFixed(5)}%"><img src="${v.p}" alt="" hidden onerror="acImgErr(this.parentNode)"></span>`;}
+  /* 16 Nov 2026 (iPad ค้าง): the slot is a real <img> of the whole sheet, shifted inside a clipped box — was a CSS background.
+     Sheets are up to 1600×8000 px; Safari decodes a CSS background on the main thread when it paints and can't lazy-load it, so every
+     answer / next question / scroll with key pictures could freeze the page. An <img> decodes off the main thread (decoding=async)
+     and the answer-key ones load only when scrolled near (loading=lazy). Same box size and crop as before; a failed sheet still → acImgErr. */
+  return `<span class="spr" role="img" aria-label="${alt}" style="width:min(100%,${v.w}px);aspect-ratio:${v.w}/${v.h}"><img class="sp" src="${v.p}" alt="" decoding="async" ${lazy?'loading="lazy" ':""}style="width:${(v.W/v.w*100).toFixed(4)}%;top:${(-v.y/v.h*100).toFixed(5)}%" onerror="acImgErr(this.parentNode)"></span>`;}
 /* ---- stale page guard (11 Nov 2026) ----
    A phone keeps an open tab (or a home-screen web app) alive for days without reloading, so after a new deploy it still runs the old code,
    which asks for image files / sprite sheets / data hashes that the new deploy removed or replaced → answer-key pictures show "?" and text only.
