@@ -1085,7 +1085,7 @@ function explain(q,done,R,p){
   else if(q.adm)h+=`<span class="tag">Admission round · เคสที่ AI สร้างใหม่${q.topic?` · ${esc(q.topic)}`:""}</span>`;
   if(q.adm){if(!q.spc)h+=`<span class="tag">ที่มาของเนื้อหา: ${q.srcRes?`ไฟล์ของวอร์ด — ${esc(q.srcRes)}`:"ความรู้ทั่วไป / ตำรา / guideline ภายนอก (ไม่ได้มาจากไฟล์ของวอร์ด)"}</span>`;}
   else if(q.unit){if(q.src)h+=`<span class="tag">ที่มา: ${esc(q.src)}</span>`;}
-  else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;}
+  else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;if(q.file2)h+=`<span class="tag">และไฟล์ ${esc((FN[q.file2]||q.file2)+(q.page3?" หน้า "+q.page3:""))}${q.orig2?" · ข้อ "+esc(q.orig2):""}</span>`;}
   if(q.guide)h+=`<div class="guide">📘 <b>อ้างอิง${q.adm||q.unit?"":" guideline"}:</b> ${q.adm?esc(q.guide):q.guide}</div>`;
   if(q.flag)h+=`<span class="tag warn">⚠ คีย์ไม่ชัวร์ / โจทย์ต้นฉบับไม่ครบ</span>`;
   h+=`</div>`;
