@@ -8,6 +8,7 @@ module.exports=function(){
   for(const f of files) src+="\n"+fs.readFileSync(path.join(R,D,f),"utf8");
   const FX=D==="data"?path.join(R,"fixes.js"):path.join(R,D,"fixes.js");
   if(fs.existsSync(FX)) src+="\n"+fs.readFileSync(FX,"utf8");
+  const OP=path.join(R,D,"opinions.js");if(fs.existsSync(OP)) src+="\n"+fs.readFileSync(OP,"utf8");   /* ความเห็นของผม เขียนเพิ่มทีหลัง (17 พ.ย. 2026) */
   (0,eval)(src);
   const imgs=new Set(fs.existsSync(path.join(R,"img"))?fs.readdirSync(path.join(R,"img")).map(f=>f.replace(/\.(jpg|png)$/,"")):[]);
   return {QB:globalThis.QB.filter(q=>!q.notice),imgs,files};   /* notice pages ("ข้อ 0") are not questions */

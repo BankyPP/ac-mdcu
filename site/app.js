@@ -1120,7 +1120,7 @@ function explain(q,done,R,p){
   {const it=r=>`<div class="resitem"><b>${esc(resLabel(r))}</b>${r.url?` · <a href="${esc(r.url)}" target="_blank" rel="noopener">เปิด</a>`:""}${resPts(r,6).length?`<ul>${resPts(r,6).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:r.note?`<p>${esc(r.note)}</p>`:""}</div>`;
    const rs=resFor(q);if(rs.length)h+=sec("อ่านเพิ่มจาก resource ที่แนบไว้",rs.map(it).join(""));
    const ts=txtFor(q);if(ts.length)h+=sec("อ่านเพิ่มจากตำรา (T)",ts.map(it).join(""));}
-  h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");
+  {const op=opinionOf(q);h+=sec("ความเห็นของผม",op?`<div class="box">${R(op)}</div>`:"","opinion");}
   /* "โจทย์แบบใหม่ที่อาจออก" = old exams only (user 27 Oct 2026); AI-written questions (Unit / Admission / Specialty / Legendary AI) never show it */
   if(!q.adm&&!q.unit&&(q.variants||[]).length)h+=sec("โจทย์แบบใหม่ที่อาจออก",`<ul>${q.variants.map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
   h+=myNoteSec(q);
@@ -2728,4 +2728,12 @@ if(CFG.roundNames&&Object.keys(CFG.roundNames).length){const NM=Object.entries(C
   fix(document.body);new MutationObserver(ms=>ms.forEach(m=>{if(m.type==="characterData")fix(m.target);else m.addedNodes.forEach(fix);})).observe(document.body,{childList:true,subtree:true,characterData:true});}
 route();noteRoute();
 if(HAS_CLAUDE())initClaude();else initFB();
+/* "ความเห็นของผม" on every question (user 17 Nov 2026, ทวทว): old exams carry their own q.opinion (data + <dir>/opinions*.js);
+   AI-written questions (Unit, Morning MEQ, Unit OSCE, Admission / Specialty / Legendary AI) have no file key to compare → a short standard note */
+function opinionOf(q){if(!q)return "";if(String(q.opinion||"").trim())return q.opinion;
+  const u=String(q.uid||"");
+  if(q.unit){const W=W_(),Lc=(W&&W.byLec||{})[q.unit]||{};return `ข้อนี้ผมแต่งขึ้นเองจาก ${esc(Lc.title||q.set||"lecture")} จึงไม่มีคีย์จากไฟล์ให้เทียบ — คำตอบยึดตามเนื้อหาของ lecture / resource และ guideline ล่าสุดที่อ้างไว้ ถ้าเจอจุดที่ไม่ตรงกับตำราหรือ guideline บอกผมได้เลย`;}
+  if(q.mday||u.startsWith("MORN|")||u.startsWith("OSU|"))return `ข้อนี้ผมแต่งขึ้นเอง จึงไม่มีคีย์จากไฟล์ให้เทียบ — เฉลยยึดตามตำราและ guideline ล่าสุดที่ Y4 ควรรู้ ถ้าเจอจุดที่ไม่ตรงกับที่เรียนมา บอกผมได้เลย`;
+  if(q.adm||q.spc||q.lai||q.ai)return `ข้อนี้ AI สร้างขึ้นใหม่ จึงไม่มีคีย์จากไฟล์ให้เทียบ — ควรเทียบกับตำรา / guideline ล่าสุดก่อนจำไปใช้`;
+  return "";}
 })();

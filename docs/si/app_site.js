@@ -471,7 +471,7 @@ function mqExplain(q,r){const tm=mqTM(),S=tm?q.subs.filter(s=>mqTmatch(s)&&mqSub
   h+=sec("สิ่งที่เขียนไว้ในไฟล์",q.notes?`<div class="box">${mqRich(q.notes)}</div>`:"","notes");
   {const KL=[].concat(q.kimg||[]).filter(x=>IMGS[x]);if(KL.length)h+=sec("หน้า/รูปอ้างอิงจากไฟล์เฉลย",`<div class="kimg">${KL.map(x=>imgHTML(x,"หน้าเฉลยจากไฟล์",1)).join("")}</div>`);}
   h+=sec("ช่วยจำ",q.mnemonic?`<p>${q.mnemonic}</p>`:"");
-  h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${q.opinion}</div>`:"","opinion");
+  {const op=opinionOf(q);h+=sec("ความเห็นของผม",op?`<div class="box">${op}</div>`:"","opinion");}
   h+=sec("คำถามต่อยอดที่อาจออก",(q.variants||[]).length?`<ul>${q.variants.map(s=>`<li>${s}</li>`).join("")}</ul>`:"");
   h+=myNoteSec(q);   /* same note store as MCQ (P.post, shared by both Phases) */
   return h+`</section>`;}
@@ -959,7 +959,7 @@ function osResView(){const P=P_(),rs=osLastRes();if(!rs)return go(ward+"/osl");c
     if(q.sp)h+=`<div class="sec notes"><h3>บทผู้ป่วยจำลอง / ผลตรวจ</h3><div class="box">${q.sp}</div></div>`;
     if(q.interp)h+=`<div class="sec"><h3>ประเด็นของข้อนี้</h3><p>${q.interp}</p></div>`;
     if((q.summary||[]).length)h+=`<div class="sec"><h3>สรุป</h3><ul>${q.summary.map(x=>`<li>${x}</li>`).join("")}</ul></div>`;
-    if(q.opinion)h+=`<div class="sec opinion"><h3>ความเห็นของผม</h3><div class="box">${q.opinion}</div></div>`;
+    {const op=opinionOf(q);if(op)h+=`<div class="sec opinion"><h3>ความเห็นของผม</h3><div class="box">${op}</div></div>`;}
     if(q.flag)h+=`<div class="sub-meta"><span class="tag warn">${esc(q.flag)}</span></div>`;
     h+=myNoteSec(q);
     h+=`<div class="row2">${!q.ai?`<button class="link" type="button" data-osgo="${esc(q.uid)}">เปิดข้อนี้ใน Service round ↗</button>`:""}${rs.mode==="sim"&&mqAiAvail()&&q.subs.some(s=>(((rs.ans||{})[ix]||{})[s._i]||"").trim())?(OSAI.busy===ix+1?`<span class="hint">⏳ AI กำลังตรวจ…</span>`:`<button class="link ailink" type="button" data-osai="${ix}">🤖 ให้ AI ตรวจข้อนี้</button>`):""}</div></div></details>`;});
@@ -3467,7 +3467,7 @@ function explain(q,done,R,p){
   {const it=r=>`<div class="resitem"><b>${esc(resLabel(r))}</b>${r.url?` · <a href="${esc(r.url)}" target="_blank" rel="noopener">เปิด</a>`:""}${resPts(r,6).length?`<ul>${resPts(r,6).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:r.note?`<p>${esc(r.note)}</p>`:""}</div>`;
    const rs=resFor(q);if(rs.length)h+=sec("อ่านเพิ่มจาก resource ที่แนบไว้",rs.map(it).join(""));
    const ts=txtFor(q);if(ts.length)h+=sec("อ่านเพิ่มจากตำรา (T)",ts.map(it).join(""));}
-  h+=sec("ความเห็นของผม",q.opinion?`<div class="box">${R(q.opinion)}</div>`:"","opinion");
+  {const op=opinionOf(q);h+=sec("ความเห็นของผม",op?`<div class="box">${R(op)}</div>`:"","opinion");}
   /* "โจทย์แบบใหม่ที่อาจออก" = old exams only (user 27 Oct 2026); AI-written questions (Unit / Admission / Specialty / Legendary AI) never show it */
   if(!q.adm&&!q.unit&&(q.variants||[]).length)h+=sec("โจทย์แบบใหม่ที่อาจออก",`<ul>${q.variants.map(s=>`<li>${R(s)}</li>`).join("")}</ul>`);
   h+=myNoteSec(q);
@@ -5075,5 +5075,13 @@ if(CFG.roundNames&&Object.keys(CFG.roundNames).length){const NM=Object.entries(C
   fix(document.body);new MutationObserver(ms=>ms.forEach(m=>{if(m.type==="characterData")fix(m.target);else m.addedNodes.forEach(fix);})).observe(document.body,{childList:true,subtree:true,characterData:true});}
 route();noteRoute();
 if(HAS_CLAUDE())initClaude();else initFB();
+/* "ความเห็นของผม" on every question (user 17 Nov 2026, ทวทว): old exams carry their own q.opinion (data + <dir>/opinions*.js);
+   AI-written questions (Unit, Morning MEQ, Unit OSCE, Admission / Specialty / Legendary AI) have no file key to compare → a short standard note */
+function opinionOf(q){if(!q)return "";if(String(q.opinion||"").trim())return q.opinion;
+  const u=String(q.uid||"");
+  if(q.unit){const W=W_(),Lc=(W&&W.byLec||{})[q.unit]||{};return `ข้อนี้ผมแต่งขึ้นเองจาก ${esc(Lc.title||q.set||"lecture")} จึงไม่มีคีย์จากไฟล์ให้เทียบ — คำตอบยึดตามเนื้อหาของ lecture / resource และ guideline ล่าสุดที่อ้างไว้ ถ้าเจอจุดที่ไม่ตรงกับตำราหรือ guideline บอกผมได้เลย`;}
+  if(q.mday||u.startsWith("MORN|")||u.startsWith("OSU|"))return `ข้อนี้ผมแต่งขึ้นเอง จึงไม่มีคีย์จากไฟล์ให้เทียบ — เฉลยยึดตามตำราและ guideline ล่าสุดที่ Y4 ควรรู้ ถ้าเจอจุดที่ไม่ตรงกับที่เรียนมา บอกผมได้เลย`;
+  if(q.adm||q.spc||q.lai||q.ai)return `ข้อนี้ AI สร้างขึ้นใหม่ จึงไม่มีคีย์จากไฟล์ให้เทียบ — ควรเทียบกับตำรา / guideline ล่าสุดก่อนจำไปใช้`;
+  return "";}
 })();
 
