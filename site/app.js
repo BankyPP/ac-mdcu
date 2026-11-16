@@ -22,13 +22,17 @@ function imgHTML(k,alt,lazy){const v=IMGS[k];if(!v)return "";if(typeof v==="stri
 /* 15 Nov 2026: also compare every data/css file hash (?v=) in the page (WSRC) — a data-only deploy (e.g. a content fix) left the bar silent */
 const ST_HASH=s=>{const m={};String(s).replace(/([\w-]+\.(?:js|json|css))\?v=([0-9a-f]+)/g,(x,f,h)=>{m[f.replace(/\.js$/,"")]=h;});return m;};
 const ST_RUN=(()=>{try{return ST_HASH([...document.scripts].map(s=>s.getAttribute("src")||"").join(" ")+" "+[...document.querySelectorAll("link[href]")].map(l=>l.getAttribute("href")).join(" ")+" "+(typeof WSRC!=="undefined"?JSON.stringify(WSRC):""));}catch(e){return {};}})();
-let stLast=0,stBusy=null,stIsOld=false;
+/* 16 Nov 2026: ANY part of the site updated (pictures, data, anything) → bar too: every GitHub Pages deploy gives every file a new Last-Modified,
+   so a server copy of index.html newer than the one this tab loaded (document.lastModified) means a deploy happened since */
+const ST_LM=(()=>{try{return Date.parse(document.lastModified)||0;}catch(e){return 0;}})();
+let stLast=0,stBusy=null,stIsOld=false,stLmNew=false;
 function stCheck(force){
   if(IN_FRAME||!ST_RUN.core_site||!/^https?:$/.test(location.protocol))return Promise.resolve(false);
   if(stIsOld)return Promise.resolve(true);
   if(stBusy)return stBusy;if(!force&&now()-stLast<60000)return Promise.resolve(false);stLast=now();
-  return stBusy=fetch("index.html?st="+now(),{cache:"no-store"}).then(r=>r.ok?r.text():"").then(t=>{const L=ST_HASH(t);
-    stIsOld=!!(L.core_site&&Object.keys(L).some(k=>L[k]!==ST_RUN[k]));return stIsOld;})
+  return stBusy=fetch("index.html?st="+now(),{cache:"no-store"}).then(r=>{if(!r.ok)return "";const lm=Date.parse(r.headers.get("last-modified")||"")||0;
+      if(lm&&ST_LM&&lm-ST_LM>60000)stLmNew=true;return r.text();}).then(t=>{const L=ST_HASH(t);
+    stIsOld=stLmNew||!!(L.core_site&&Object.keys(L).some(k=>L[k]!==ST_RUN[k]));return stIsOld;})
     .catch(()=>false).finally(()=>{stBusy=null;});}
 const stSafe=()=>["wards","home","load","gate","signin"].includes(view);   /* no question/answer sheet open */
 function stBar(){if($("stbar"))return;const b=document.createElement("div");b.id="stbar";b.setAttribute("role","alert");
