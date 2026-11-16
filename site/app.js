@@ -176,7 +176,24 @@ function PWof(S,id){
 }
 /* migrate the earlier single-sheet site/artifact format {a:{uid:ans},t} → Phase 1 attempts */
 (function(){if(st.migrated)return;const o=ld(CFG.storageKey||"");if(o&&o.a&&typeof o.a==="object"){const P=PWof(st,WL[0].id),t=o.t||now();Object.keys(o.a).forEach(u=>{if(typeof o.a[u]==="number"&&!P.att[1][u])P.att[1][u]=[[o.a[u],t]];});}st.migrated=1;})();
-function persist(){try{localStorage.setItem(KEY,JSON.stringify(st));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}}
+/* ---- ?perf=1 diagnostics (16 Nov 2026, iPad ค้าง ~20 วิหลังกดตอบ Gen Sx): on-screen log of slow steps, freezes and slow downloads on this device; ?perf=0 turns it off ---- */
+const PF=(()=>{let on=false;try{const m=/[?&]perf=([01])/.exec(location.search);if(m)localStorage.setItem("acperf",m[1]);on=localStorage.getItem("acperf")==="1";}catch(e){}
+  if(!on)return null;
+  const L=[],t0=performance.now();let last="เปิดหน้า",lastT=0,box=null,hb=performance.now(),vis=0;
+  const paint=()=>{if(!document.body)return;if(!box){box=document.createElement("div");box.id="pfBox";box.style.cssText="position:fixed;left:4px;bottom:4px;z-index:99999;max-width:96vw;max-height:42vh;overflow:auto;background:rgba(0,0,0,.85);color:#9f9;font:11px/1.35 ui-monospace,Menlo,monospace;padding:6px 8px;border-radius:6px;white-space:pre-wrap";document.body.appendChild(box);}
+    box.textContent="⏱ perf · ปิด: ใส่ ?perf=0 ท้ายลิงก์\n"+L.slice(-22).join("\n");};
+  const log=s=>{L.push(((performance.now()-t0)/1000).toFixed(1)+"s "+s);paint();};
+  const mark=s=>{last=s;lastT=performance.now();};
+  document.addEventListener("visibilitychange",()=>{vis=performance.now();});
+  setInterval(()=>{const n=performance.now(),g=n-hb;hb=n;if(g>900&&document.visibilityState==="visible"&&n-vis>g+500)log(`🧊 ค้าง ${(g/1000).toFixed(1)} วิ · ก่อนค้าง: ${last} (+${Math.max(0,(n-g-lastT)/1000).toFixed(1)}s)`);},250);
+  try{new PerformanceObserver(l=>l.getEntries().forEach(e=>{if(e.duration>1500)log(`🐢 โหลด ${(e.duration/1000).toFixed(1)}s ${decodeURIComponent(e.name.split("/").pop()).slice(0,42)}${e.transferSize?" "+Math.round(e.transferSize/1024)+"KB":""}`);})).observe({type:"resource",buffered:true});}catch(e){}
+  setTimeout(()=>{try{let ls=0;for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);ls+=k.length+(localStorage.getItem(k)||"").length;}
+    log(`ขนาด: ความคืบหน้า ${Math.round(JSON.stringify(st).length/1024)}K · ลายมือ ${Math.round(JSON.stringify(ink).length/1024)}K · localStorage ทั้งเว็บ ${Math.round(ls/1024)}K ตัวอักษร · ${navigator.userAgent.match(/(iPad|iPhone|Mac|Android|Windows)[^;)]*/)?.[0]||""}`);}catch(e){log("ขนาด: "+e);}},3000);
+  log("เปิดโหมดวัดความเร็ว");
+  return {log,mark,time:(s,f)=>{mark(s+" (กำลังทำ)");const a=performance.now();try{return f();}finally{const d=performance.now()-a;mark(s+" เสร็จ");if(d>150)log(`${s} ${Math.round(d)} ms`);}}};
+})();
+const pfT=(s,f)=>PF?PF.time(s,f):f();
+function persist(){pfT("บันทึกลงเครื่อง",()=>{try{localStorage.setItem(KEY,JSON.stringify(st));}catch(e){toast("พื้นที่เก็บข้อมูลในเบราว์เซอร์เต็ม");}});}
 function save(){try{mornXMark();}catch(e){}st.t=now();persist();cloudPush();}
 /* bank: larger per-user items kept one record each (Admission cases, Legendary papers, Long cases) — key "<kind>|<ward>|<id>" → {…, c:createdTs, ts} · own localStorage key, own cloud docs (a ward doc must stay < 256 KiB) */
 const BKEY=KEY+"-bank";let bank=ld(BKEY)||{};const bankDirty=new Set();let bankT=null;
@@ -888,7 +905,8 @@ function seenHistHTML(q,rk){const P=P_(),W=W_(),g={},L_=[];
   if(onlySeen.length)h+=`<div><span class="hint">เคยเจอ (ยังไม่ได้ตอบ) ใน:</span> ${esc(rkNames(onlySeen))}</div>`;
   if(rel.length)h+=`<div><span class="hint">ข้อคล้ายกันในคลัง:</span> ${rel.map(x=>`<button class="qref" data-u="${esc(x.uid)}">ข้อ ${x.id}</button> <span class="hint">${esc(x.set)} ${esc(x.ro)}${seenIn(P,x.uid).length?" · เคยเจอใน "+esc(rkNames(seenIn(P,x.uid))):""}</span>`).join(" · ")}</div>`;
   return h+`</div>`;}
-function rQuiz(){
+function rQuiz(){const r=pfT("วาดหน้าข้อ",rQuiz0);if(PF)pfImgs();return r;}
+function rQuiz0(){
   const W=W_(),P=P_(),R=W.R,q=curQ();
   {const o=view==="svc"?svcS():isSess()?P.sess:null;if(o&&(now()-(o.vt||0)>30000||(o.vt||0)<=((P.rsHide||{})[(view==="svc"?"svc|":"sess|")+ph()]||0))){o.vt=now();persist();}}   /* last visit — the home "ทำต่อ" box shows whichever was used last */
   if(!q){$("main").innerHTML=`<div class="empty">ไม่มีข้อในชุดนี้</div>`;return;}
@@ -963,7 +981,8 @@ function bindQuiz(q,locked){
   mountNotes(document);
   bindAsk(q);
 }
-function confirmAns(){
+function confirmAns(){return pfT("กดยืนยันคำตอบ",confirmAns0);}
+function confirmAns0(){
   if(pick===null)return;const P=P_(),q=curQ(),p=isSess()?P.sess.ph:ph();
   const rdk=redoKey(q),again=rdk&&REDO[rdk]===null;
   if(again&&(isAIV()||view==="admq"||view==="lrev")){const t=now();
@@ -2524,8 +2543,10 @@ async function pull(){
   Object.keys(bank).forEach(k=>{if((bank[k].ts||0)>(bTs[k]||0))bankDirty.add(k);});
   await flushBank();
 }
-async function pushNow(){if(!fb||!fb.user)return;clearTimeout(pushT);sync="saving";paintSync();
-  try{await fb.fs.setDoc(uref(),{d:JSON.stringify(st),t:st.t||now(),v:3});sync="cloud";}catch(e){console.warn(e);sync="error";}paintSync();}
+async function pushNow(){if(!fb||!fb.user)return;clearTimeout(pushT);sync="saving";paintSync();const a=performance.now();
+  try{const d=pfT("ส่งขึ้นบัญชี (เตรียม)",()=>JSON.stringify(st));const p=fb.fs.setDoc(uref(),{d,t:st.t||now(),v:3});if(PF)PF.mark("ส่งขึ้นบัญชี (รอ Firebase)");await p;sync="cloud";if(PF){PF.mark("ส่งขึ้นบัญชีเสร็จ");const ms=performance.now()-a;if(ms>2000)PF.log(`ส่งขึ้นบัญชี ${(ms/1000).toFixed(1)}s ${Math.round(d.length/1024)}K`);}}catch(e){console.warn(e);sync="error";if(PF)PF.log("ส่งขึ้นบัญชีไม่สำเร็จ: "+(e&&e.message||e));}paintSync();}
+/* perf mode: note when each picture of the page finishes downloading (a freeze right after it = decoding the picture) */
+function pfImgs(){document.querySelectorAll("#main img:not([data-pf])").forEach(im=>{im.dataset.pf=1;const t=performance.now(),n=(im.getAttribute("src")||"").split("/").pop().split("?")[0];const f=()=>{PF.mark("รูปโหลดเสร็จ "+n);const d=performance.now()-t;if(d>2000)PF.log(`รูป ${n} ${(d/1000).toFixed(1)}s`);};if(im.complete)return;im.addEventListener("load",f,{once:true});});}
 function cloudPush(){if(cl){clearTimeout(pushT);pushT=setTimeout(clPush,1500);return;}if(!fb||!fb.user)return;clearTimeout(pushT);pushT=setTimeout(pushNow,1500);}
 async function flushInk(){if(!fb||!fb.user)return;clearTimeout(inkT);const ks=[...inkDirty];inkDirty.clear();
   for(const k of ks){try{if(ink[k])await fb.fs.setDoc(fb.fs.doc(inkCol(),inkId(k)),{k,d:JSON.stringify(ink[k]),ts:ink[k].ts||now()});}catch(e){console.warn(e);inkDirty.add(k);sync="error";}}paintSync();}
