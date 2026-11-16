@@ -2537,10 +2537,19 @@ const PF=(()=>{let on=false;try{const m=/[?&]perf=([01])/.exec(location.search);
   const log=s=>{L.push(((performance.now()-t0)/1000).toFixed(1)+"s "+s);paint();};
   const mark=s=>{last=s;lastT=performance.now();};
   document.addEventListener("visibilitychange",()=>{vis=performance.now();});
-  setInterval(()=>{const n=performance.now(),g=n-hb;hb=n;if(g>900&&document.visibilityState==="visible"&&n-vis>g+500)log(`🧊 ค้าง ${(g/1000).toFixed(1)} วิ · ก่อนค้าง: ${last} (+${Math.max(0,(n-g-lastT)/1000).toFixed(1)}s)`);},250);
+  setInterval(()=>{const n=performance.now(),g=n-hb;hb=n;if(g>900&&document.visibilityState==="visible"&&n-vis>g+500)log(`🧊 ค้าง ${(g/1000).toFixed(1)} วิ · ก่อนค้าง: ${last} (+${Math.max(0,(n-g-lastT)/1000).toFixed(1)}s) · ${typeof view!=="undefined"?view:""} ${innerWidth}×${innerHeight} · ${document.getElementsByTagName("*").length} ชิ้น`);},250);
   try{new PerformanceObserver(l=>l.getEntries().forEach(e=>{if(e.duration>1500)log(`🐢 โหลด ${(e.duration/1000).toFixed(1)}s ${decodeURIComponent(e.name.split("/").pop()).slice(0,42)}${e.transferSize?" "+Math.round(e.transferSize/1024)+"KB":""}`);})).observe({type:"resource",buffered:true});}catch(e){}
   setTimeout(()=>{try{let ls=0;for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);ls+=k.length+(localStorage.getItem(k)||"").length;}
     log(`ขนาด: ความคืบหน้า ${Math.round(JSON.stringify(st).length/1024)}K · ลายมือ ${Math.round(JSON.stringify(ink).length/1024)}K · localStorage ทั้งเว็บ ${Math.round(ls/1024)}K ตัวอักษร · ${navigator.userAgent.match(/(iPad|iPhone|Mac|Android|Windows)[^;)]*/)?.[0]||""}`);}catch(e){log("ขนาด: "+e);}},3000);
+  /* 16 Nov 2026 night: freezes came with no step of ours running → also time every timer, frame, observer and event-listener callback
+     (ours, Firebase's, anything's) and name any that takes > 250 ms; a freeze with no ⚙ line before it = the browser itself (layout/paint/memory) */
+  const slow=(tag,fn,self,args)=>{const t=performance.now();try{return fn.apply(self,args);}finally{const d=performance.now()-t;if(d>250){log(`⚙ ${tag} ${Math.round(d)} ms`);}}};
+  const nm=f=>(f.name||String(f).replace(/\s+/g," ").slice(0,48));
+  ["setTimeout","setInterval","requestAnimationFrame"].forEach(k=>{const o=window[k];window[k]=function(fn,...a){if(typeof fn!=="function")return o.call(window,fn,...a);const tag=k.replace("requestAnimationFrame","rAF")+" "+nm(fn);return o.call(window,function(...x){return slow(tag,fn,this,x);},...a);};});
+  try{const MO=window.MutationObserver;window.MutationObserver=class extends MO{constructor(cb){super(function(...x){return slow("observer "+nm(cb),cb,this,x);});}};}catch(e){}
+  try{const P=EventTarget.prototype,oA=P.addEventListener,oR=P.removeEventListener,WM=new WeakMap();
+    P.addEventListener=function(type,fn,o){if(typeof fn!=="function")return oA.call(this,type,fn,o);let w=WM.get(fn);if(!w){const tag="event "+type+" "+((this&&(this.id||this.tagName||(this.constructor&&this.constructor.name)))||"")+" "+nm(fn);w=function(...x){return slow(tag,fn,this,x);};WM.set(fn,w);}return oA.call(this,type,w,o);};
+    P.removeEventListener=function(type,fn,o){return oR.call(this,type,(typeof fn==="function"&&WM.get(fn))||fn,o);};}catch(e){}
   log("เปิดโหมดวัดความเร็ว");
   return {log,mark,time:(s,f)=>{mark(s+" (กำลังทำ)");const a=performance.now();try{return f();}finally{const d=performance.now()-a;mark(s+" เสร็จ");if(d>150)log(`${s} ${Math.round(d)} ms`);}}};
 })();
@@ -3432,7 +3441,7 @@ function explain(q,done,R,p){
   else if(q.adm)h+=`<span class="tag">Admission round · เคสที่ AI สร้างใหม่${q.topic?` · ${esc(q.topic)}`:""}</span>`;
   if(q.adm){if(!q.spc)h+=`<span class="tag">ที่มาของเนื้อหา: ${q.srcRes?`ไฟล์ของวอร์ด — ${esc(q.srcRes)}`:"ความรู้ทั่วไป / ตำรา / guideline ภายนอก (ไม่ได้มาจากไฟล์ของวอร์ด)"}</span>`;}
   else if(q.unit){if(q.src)h+=`<span class="tag">ที่มา: ${esc(q.src)}</span>`;}
-  else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;}
+  else{const FN=CFG.files||{};const src=`${FN[q.file]||q.file} หน้า ${q.page}`+(q.kfile?` (โจทย์) + ${FN[q.kfile]||q.kfile}`+(q.page2?` หน้า ${q.page2}`:"")+" (เฉลย)":(q.page2?` + หน้า ${q.page2} (เฉลย)`:""));h+=`<span class="tag">ไฟล์ ${esc(src)} · ข้อ ${esc(q.orig)} ในต้นฉบับ</span>`;if(q.file2)h+=`<span class="tag">และไฟล์ ${esc((FN[q.file2]||q.file2)+(q.page3?" หน้า "+q.page3:""))}${q.orig2?" · ข้อ "+esc(q.orig2):""}</span>`;}
   if(q.guide)h+=`<div class="guide">📘 <b>อ้างอิง${q.adm||q.unit?"":" guideline"}:</b> ${q.adm?esc(q.guide):q.guide}</div>`;
   if(q.flag)h+=`<span class="tag warn">⚠ คีย์ไม่ชัวร์ / โจทย์ต้นฉบับไม่ครบ</span>`;
   h+=`</div>`;
