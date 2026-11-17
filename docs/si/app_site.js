@@ -359,7 +359,19 @@ function mqSheet(){const v=mqS().v,rk=v.r||"service",L=mqL(),c=mqCur(),cur=c?{u:
     const inS=L.filter(q=>v.set==="all"||sel.includes(mqSK(q))),secs=mqSecs(inS),ss=v.sec==="all"?[]:v.sec.split("|").filter(x=>secs.includes(x));
     if(cc&&secs.length){cc.innerHTML=[["all",ss.length?`ทุกพาร์ท (เลือก ${ss.length})`:"ทุกพาร์ท"]].concat(secs.map(x=>[x,x])).map(([k,n])=>`<button class="chip" type="button" data-smp="${esc(k)}" aria-pressed="${k==="all"?!ss.length:ss.includes(k)}">${esc(n)}<span class="cnt">${k==="all"?"":inS.filter(q=>mqSecG(q)===k).length}</span></button>`).join("");cc.hidden=false;}
     stc.innerHTML=[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["notfull","ยังไม่ได้เต็ม"],["star","★ ติดดาว"],["note","📝 มีโน้ต"]].map(([k,n])=>`<button class="chip" type="button" data-smt="${k}" aria-pressed="${v.status===k}">${n}</button>`).join("");}
-  const Q0=rk==="grand"?v.gl.map(u=>L.find(x=>x.uid===u)).filter(Boolean):mqList(rk),T=srchTerms(sheetQ),Q=T.length?Q0.filter(q=>srchHit(mqSearchText(q),T)):Q0;sheetQPaint(Q.length,Q0.length);
+  let Q0=rk==="grand"?v.gl.map(u=>L.find(x=>x.uid===u)).filter(Boolean):mqList(rk);
+  /* every other round's answer sheet gets the Service sheet's pickers too — sets, parts, status (user 18 Nov 2026, ทวทว); filters the sheet only, kept per round */
+  if(!SV&&Q0.length){const F=(v.shf||(v.shf={}))[rk]||(v.shf[rk]={set:"all",sec:"all",status:"all"}),SK=q=>mqSK(q)||"อื่นๆ (โจทย์ AI)",sets=[...new Set(Q0.map(SK))];
+    const sel=F.set==="all"?[]:F.set.split("|").filter(k=>sets.includes(k)),inS=Q0.filter(q=>!sel.length||sel.includes(SK(q))),secs=mqSecs(inS),ss=F.sec==="all"?[]:F.sec.split("|").filter(x=>secs.includes(x));
+    if(sets.length>1)sc.innerHTML=[["all",sel.length?`ทุกชุด (เลือก ${sel.length})`:"ทุกชุด"]].concat(sets.map(x=>[x,x])).map(([k,n])=>{const c=k==="all"?null:Q0.filter(q=>SK(q)===k);return `<button class="chip" type="button" data-sms2="${esc(k)}" aria-pressed="${k==="all"?!sel.length:sel.includes(k)}">${esc(n)}${c?`<span class="cnt">${c.filter(mqCaseDone).length}/${c.length}</span>`:""}</button>`;}).join("");
+    if(cc&&secs.length>1){cc.innerHTML=[["all",ss.length?`ทุกพาร์ท (เลือก ${ss.length})`:"ทุกพาร์ท"]].concat(secs.map(x=>[x,x])).map(([k,n])=>`<button class="chip" type="button" data-smp2="${esc(k)}" aria-pressed="${k==="all"?!ss.length:ss.includes(k)}">${esc(n)}<span class="cnt">${k==="all"?"":inS.filter(q=>mqSecG(q)===k).length}</span></button>`).join("");cc.hidden=false;}
+    stc.innerHTML=[["all","ทั้งหมด"],["todo","ยังไม่ทำ"],["notfull","ยังไม่ได้เต็ม"],["star","★ ติดดาว"],["note","📝 มีโน้ต"]].map(([k,n])=>`<button class="chip" type="button" data-smt2="${k}" aria-pressed="${(F.status||"all")===k}">${n}</button>`).join("");
+    const tg=(cur,k)=>{let a=cur==="all"?[]:cur.split("|");if(k==="all")a=[];else if(a.includes(k))a=a.filter(x=>x!==k);else a.push(k);return a.length?a.join("|"):"all";};
+    sc.querySelectorAll("[data-sms2]").forEach(b=>b.onclick=()=>{F.set=tg(sel.length?sel.join("|"):"all",b.dataset.sms2);F.sec="all";save();mqSheet();});
+    if(cc)cc.querySelectorAll("[data-smp2]").forEach(b=>b.onclick=()=>{F.sec=tg(ss.length?ss.join("|"):"all",b.dataset.smp2);save();mqSheet();});
+    stc.querySelectorAll("[data-smt2]").forEach(b=>b.onclick=()=>{F.status=b.dataset.smt2;save();mqSheet();});
+    Q0=inS.filter(q=>(!ss.length||ss.includes(mqSecG(q)))&&mqPass(q,F.status||"all"));}
+  const T=srchTerms(sheetQ),Q=T.length?Q0.filter(q=>srchHit(mqSearchText(q),T)):Q0;sheetQPaint(Q.length,Q0.length);
   {const D=Q0.filter(q=>mqCaseDone(q)),S=D.map(mqScore).filter(x=>x&&x.tot),full=S.filter(x=>x.perfect).length,avg=S.length?Math.round(S.reduce((a,x)=>a+x.got/x.tot,0)/S.length*100):null;
     $("sDone").textContent=`${D.length}/${Q0.length}`;$("sRight").textContent=full;$("sPct").textContent=avg===null?"–":avg+"%";}
   $("rows").innerHTML=Q.length?`<div class="mqv"><div class="trows mqrows">`+Q.map(q=>mqRowHTML(q,rk,cur)).join("")+`</div></div>`:`<div class="empty">${T.length?`ไม่พบข้อที่มีคำว่า “${esc(sheetQ.trim())}”`:rk==="grand"?"ยังไม่ได้สุ่มข้อในรอบนี้":"ไม่มีข้อในเงื่อนไขที่เลือก"}</div>`;
@@ -4726,14 +4738,27 @@ function sheet(){
     const s=P.sess,qs=s.list.map(u=>qAny(u)).filter(Boolean);
     $("sheetTitle").textContent=s.title;$("setChips").innerHTML="";
     if(s.kind==="staff"||s.kind==="advisor")sessTgLine(s);
-    const f=st.sessF||"all";
-    $("statusChips").innerHTML=[["all","ทั้งหมด"],["todo",s.kind==="advisor"?"ยังไม่อ่าน":"ยังไม่ทำ"],["wrong",s.kind==="advisor"?"ล่าสุดผิด":"ตอบผิด"],["flag","⚑ ไม่มั่นใจ"],["note","📝 มีโน้ต"]].map(([v,t])=>`<button class="chip" aria-pressed="${f===v}" data-sf="${v}">${t}</button>`).join("");
-    document.querySelectorAll("[data-sf]").forEach(b=>b.onclick=()=>{st.sessF=b.dataset.sf;persist();sheet();});
     const adv=s.kind==="advisor",A=q=>{if(!adv)return s.ans[q.uid];const h=hist(P,q.uid,s.hp,true);return h.length?h[h.length-1][0]:undefined;};
-    const done=qs.filter(q=>s.ans[q.uid]!==undefined),right=adv?qs.filter(q=>A(q)===q.ans):done.filter(q=>cAns(s,q.uid)===q.ans);
-    stats(done.length,qs.length,right.length);
-    const v=qs.map((q,i)=>[q,i]).filter(([q])=>{const a=s.ans[q.uid],b=A(q);return f==="todo"?a===undefined:f==="wrong"?b!==undefined&&b!==q.ans:f==="flag"?flagged(P,q.uid):f==="note"?noted(q.uid):true;});
-    rows(v.map(([q,i])=>({q,a:A(q),lock:mLocked(i)?i+1:0,meta:adv&&s.ans[q.uid]!==undefined?"อ่านแล้ว · ":"",cur:i===s.cur,go:()=>{if(!qNavOK(i)){toast(navMsg());return;}pick=null;s.cur=i;save();rQuiz();window.scrollTo(0,0);}})),f==="wrong"?"ยังไม่มีข้อที่ตอบผิดในรอบนี้":f==="flag"?"ยังไม่มีข้อที่ทำเครื่องหมายไม่มั่นใจในรอบนี้":f==="note"?"ยังไม่มีข้อที่จดโน้ตไว้ในรอบนี้":"ทำครบทุกข้อในรอบนี้แล้ว");
+    /* pick sets (year·Ro), chapters and status in every round's answer sheet, the same as Service round (user 18 Nov 2026, ทวทว) —
+       it only filters what the sheet lists; the round's own order and questions stay as they are. Kept on the session, so a new round starts from "all" */
+    const SK=q=>q.set==null?"อื่นๆ (โจทย์ AI)":q.ro?setKey(q):String(q.set),CH=W.CHAP||{},tog=(cur,k)=>{let a=cur==="all"?[]:cur.split("|");if(k==="all")a=[];else if(a.includes(k))a=a.filter(x=>x!==k);else a.push(k);return a.length?a.join("|"):"all";};
+    const sf=s.shf||(s.shf={set:"all",ch:"all"}),SS=[...new Set(qs.map(SK))].sort((a,b)=>{const i=W.sets.indexOf(a),j=W.sets.indexOf(b);return (i<0?1e9:i)-(j<0?1e9:j)||a.localeCompare(b);});
+    const ssel=sf.set==="all"?[]:sf.set.split("|").filter(k=>SS.includes(k)),inSet=q=>!ssel.length||ssel.includes(SK(q));
+    if(SS.length>1){$("setChips").innerHTML=[["all",ssel.length?`ทุกชุด (เลือก ${ssel.length})`:"ทุกชุด"],...SS.map(k=>[k,CFG.chipStrip?k.replace(CFG.chipStrip,""):k])].map(([k,t])=>{const n=k==="all"?0:qs.filter(q=>SK(q)===k),d=n?n.filter(q=>s.ans[q.uid]!==undefined).length:0;return `<button class="chip" aria-pressed="${k==="all"?!ssel.length:ssel.includes(k)}" data-sss="${esc(k)}">${esc(t)}${k==="all"?"":` <span class="cnt">${d}/${n.length}</span>`}</button>`;}).join("");
+      chipRowKeep($("setChips"),"set");document.querySelectorAll("[data-sss]").forEach(b=>b.onclick=()=>{sf.set=tog(ssel.length?ssel.join("|"):"all",b.dataset.sss);sf.ch="all";save();sheet();});}
+    const CS=(ssel.length?ssel:SS).filter(k=>CH[k]),cq0=qs.filter(q=>inSet(q)&&CH[SK(q)]),chs=CS.length?[...new Set(cq0.map(chOf))]:[],csel=sf.ch==="all"?[]:sf.ch.split("|").filter(c=>chs.includes(c));
+    {const cc=$("chChips");if(cc&&chs.length){const C=Object.assign({},...CS.map(k=>CH[k]));cc.innerHTML=[["all",csel.length?`ทุกบท (เลือก ${csel.length})`:"ทุกบท"],...chs.map(c=>[c,(/^\d+$/.test(c)?"บท "+c:c)+(C[c]?" · "+C[c]:"")])].map(([v,t])=>{const n=v==="all"?[]:cq0.filter(q=>chOf(q)===v);return `<button class="chip" aria-pressed="${v==="all"?!csel.length:csel.includes(v)}" data-sch="${esc(v)}" title="${esc(C[v]||"")}">${esc(t)}${v==="all"?"":` <span class="cnt">${n.filter(q=>s.ans[q.uid]!==undefined).length}/${n.length}</span>`}</button>`;}).join("");
+      cc.hidden=false;chipRowKeep(cc,"ch");cc.querySelectorAll("[data-sch]").forEach(b=>b.onclick=()=>{sf.ch=tog(csel.length?csel.join("|"):"all",b.dataset.sch);save();sheet();});}}
+    const inCh=q=>!csel.length||(CH[SK(q)]&&csel.includes(chOf(q)));
+    const SF=[["all","ทั้งหมด"],["todo",adv?"ยังไม่อ่าน":"ยังไม่ทำ"],["wrong",adv?"ล่าสุดผิด":"ตอบผิด"],["right",adv?"ล่าสุดถูก":"ตอบถูก"],["flag","⚑ ไม่มั่นใจ"],["note","📝 มีโน้ต"]].concat(p===2?[["nop1","ไม่เคยทำใน P1"]]:[]);
+    if(!SF.some(x=>x[0]===st.sessF))st.sessF="all";
+    const f=st.sessF||"all";
+    $("statusChips").innerHTML=SF.map(([v,t])=>`<button class="chip" aria-pressed="${f===v}" data-sf="${v}">${t}</button>`).join("");
+    document.querySelectorAll("[data-sf]").forEach(b=>b.onclick=()=>{st.sessF=b.dataset.sf;persist();sheet();});
+    const pool=qs.filter(q=>inSet(q)&&inCh(q)),done=pool.filter(q=>s.ans[q.uid]!==undefined),right=adv?pool.filter(q=>A(q)===q.ans):done.filter(q=>cAns(s,q.uid)===q.ans);
+    stats(done.length,pool.length,right.length);
+    const v=qs.map((q,i)=>[q,i]).filter(([q])=>{if(!inSet(q)||!inCh(q))return false;const a=s.ans[q.uid],b=A(q);return f==="todo"?a===undefined:f==="wrong"?b!==undefined&&b!==q.ans:f==="right"?(adv?b===q.ans:a!==undefined&&cAns(s,q.uid)===q.ans):f==="flag"?flagged(P,q.uid):f==="note"?noted(q.uid):f==="nop1"?!atts(P,1,q.uid).length:true;});
+    rows(v.map(([q,i])=>({q,a:A(q),lock:mLocked(i)?i+1:0,meta:(adv&&s.ans[q.uid]!==undefined?"อ่านแล้ว · ":"")+(p===2&&!adv&&q.set!=null?(x=>x?`P1${x[0]===q.ans?"✓":"✗"} `:"")(lastA(P,1,q.uid)):""),cur:i===s.cur,go:()=>{if(!qNavOK(i)){toast(navMsg());return;}pick=null;s.cur=i;save();rQuiz();window.scrollTo(0,0);}})),f==="wrong"?"ยังไม่มีข้อที่ตอบผิดในรอบนี้":f==="right"?"ยังไม่มีข้อที่ตอบถูกในรอบนี้":f==="nop1"?"ไม่มีข้อที่ยังไม่เคยทำใน Phase 1":f==="flag"?"ยังไม่มีข้อที่ทำเครื่องหมายไม่มั่นใจในรอบนี้":f==="note"?"ยังไม่มีข้อที่จดโน้ตไว้ในรอบนี้":"ทำครบทุกข้อในรอบนี้แล้ว");
     $("sheetFoot").innerHTML=`<span class="hint">เส้นเขียวรอบวง = เฉลย · ⚑ = ไม่มั่นใจ · 📝 = มีโน้ต</span><span class="spacer"></span><span class="hint" id="syncNote" style="flex-basis:100%"></span><button class="link" id="toResult">จบรอบ ดูสรุป</button>`;
     $("toResult").onclick=()=>{closeS(true);go(ward+"/result");};
     paintSync();return;
