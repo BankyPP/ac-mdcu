@@ -207,6 +207,10 @@ const PF=(()=>{let on=false;try{const m=/[?&]perf=([01])/.exec(location.search);
   try{const P=EventTarget.prototype,oA=P.addEventListener,oR=P.removeEventListener,WM=new WeakMap();
     P.addEventListener=function(type,fn,o){if(typeof fn!=="function")return oA.call(this,type,fn,o);let w=WM.get(fn);if(!w){const tag="event "+type+" "+((this&&(this.id||this.tagName||(this.constructor&&this.constructor.name)))||"")+" "+nm(fn);w=function(...x){return slow(tag,fn,this,x);};WM.set(fn,w);}return oA.call(this,type,w,o);};
     P.removeEventListener=function(type,fn,o){return oR.call(this,type,(typeof fn==="function"&&WM.get(fn))||fn,o);};}catch(e){}
+  /* 17 Nov 2026: also note this page's own downloads (fetch) and any slow read/write of the browser's storage (localStorage) */
+  try{const oF=window.fetch;window.fetch=function(i,...a){const n=decodeURIComponent(String(i&&i.url||i).split("/").pop()).slice(0,40),t=performance.now();mark("กำลังโหลด "+n);
+    const p=oF.call(this,i,...a);p.then(()=>{const d=performance.now()-t;mark("โหลดเสร็จ "+n);if(d>1500)log(`📥 ${n} ${(d/1000).toFixed(1)}s`);},()=>{});return p;};}catch(e){}
+  try{const SP=Storage.prototype;["setItem","getItem","removeItem"].forEach(k=>{const o=SP[k];SP[k]=function(...a){const t=performance.now();try{return o.apply(this,a);}finally{const d=performance.now()-t;if(d>100)log(`💾 localStorage.${k} ${String(a[0]).slice(0,24)} ${Math.round(d)} ms`);}};});}catch(e){}
   log("เปิดโหมดวัดความเร็ว");
   return {log,mark,time:(s,f)=>{mark(s+" (กำลังทำ)");const a=performance.now();try{return f();}finally{const d=performance.now()-a;mark(s+" เสร็จ");if(d>150)log(`${s} ${Math.round(d)} ms`);}}};
 })();
