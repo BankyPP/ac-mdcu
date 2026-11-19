@@ -46,7 +46,7 @@ const MQ_STY=[["all","ทุกแบบ"],["case","Case (สไตล์ 1)"],[
 function mqStyOk(q,sty){sty=sty||mqS().v.style;if(mqIsOS())return sty==="all"||!["ex","noex"].includes(sty)||(sty==="ex"?!!q.ex:!q.ex);return sty==="all"||(sty==="sa"?!!q.sa:!q.sa);}
 const OS_STY=[["all","ทุกข้อ"],["noex","ไม่มีอาจารย์"],["ex","มีอาจารย์"]];
 const mqSTY=()=>mqIsOS()?OS_STY:MQ_STY;
-function mqNum(q){return String(q.orig||q.n+1).replace(/^ข้อ\s*/,"");}
+function mqNum(q){return String(q.num||q.orig||q.n+1).replace(/^ข้อ\s*/,"");}   /* q.num = display-only number (e.g. Subspe OSCE "SA 5"); orig stays the key */
 function mqTitle(q){return q.title||plain(q.gray||"").replace(/^\d+(\.\d+)?\.?\s*/,"")||plain(q.stem).slice(0,70);}
 function mqGL(q,pi){if(mqIsOS())return "ทุกข้อย่อย";const S=q.parts[pi].subs;if(!S.length)return "Part";const a=S[0]._i+1,b=S[S.length-1]._i+1;return a===b?"Part "+a:"Part "+a+"–"+b;}
 function mqReo(r,i){return !!(r&&r.reo&&r.reo[i]);}
@@ -244,7 +244,8 @@ function mqTPass(q,f){const ps=mqTParts(q);if(!ps.length)return false;if(f==="to
   if(f==="notfull"){const r=mqCnt(mqRec(q));return ps.some(pi=>mqTDone(q,pi)&&mqTsubs(q,pi).some(s=>!(r&&r.g&&r.g[s._i]===2)));}if(f==="star")return mqStar(q);if(f==="note")return noted(q.uid);return true;}
 const mqSK=q=>q.ro?q.set+" "+q.ro:q.set;   /* chip key of a MEQ set (rotation kept apart) */
 /* พาร์ทในไฟล์ รวมชื่อเดียวกันทุกปี: "Part 1: MEQ" / "Part I: MEQ" / "MEQ OB" → MEQ · Recall / Short answer → Recall · Long case */
-const mqSecG=q=>{const s=String(q.sec||"").replace(/^Part\s+[\dIVX]+\s*[:.\-–]\s*/i,"").trim();if(!s)return "";if(/long\s*case/i.test(s))return "Long case";if(/recall|short\s*answer/i.test(s))return "Recall / Short answer";if(/^MEQ\b/i.test(s))return "MEQ";return s;};
+const mqSecG=q=>{const s=String(q.sec||"").replace(/^Part\s+[\dIVX]+\s*[:.\-–]\s*/i,"").trim();if(!s)return "";if(/^OS\|/.test(q.uid||""))return s;   /* OSCE: keep the file section name as is (e.g. Subspe "Short Answers", 20 Nov 2026) */
+  if(/long\s*case/i.test(s))return "Long case";if(/recall|short\s*answer/i.test(s))return "Recall / Short answer";if(/^MEQ\b/i.test(s))return "MEQ";return s;};
 const MQ_SECO=["MEQ","Recall / Short answer","Long case"];
 const mqSecs=L=>{const a=[...new Set(L.map(mqSecG).filter(Boolean))];return a.sort((x,y)=>{const i=MQ_SECO.indexOf(x),j=MQ_SECO.indexOf(y);return (i<0?99:i)-(j<0?99:j);});};
 const mqSecOk=q=>{const v=mqS().v;return !v.sec||v.sec==="all"||v.sec.split("|").includes(mqSecG(q));};

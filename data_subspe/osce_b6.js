@@ -269,7 +269,7 @@ Co({page:237,sec:"OSCE",orig:"13",topic:"pe",sub:"DRE/Prostate",ex:1,title:"Phys
  interp:"DRE ที่ถูกเทคนิค + แยก hard nodule (มะเร็ง) จาก BPH",summary:["DRE: left lateral งอเข่า → รอบทวาร → sphincter → rectum รอบทิศ → prostate → ดูถุงมือ","hard stony nodule = สงสัย CA prostate → PSA, mpMRI, biopsy","BPH = โตเรียบ rubbery ไม่มี nodule"]}),
 
 /* ===== PowerPoint 1 ===== */
-Co({page:237,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Anorectal",title:"Spot — perianal lesion",imgNote:NOIMG,imgAlt:"ภาพบริเวณทวารหนักขณะแหวก anal verge",seen:"คล้าย MDCU66 RoA PPT 6 (ปวดขณะถ่าย + เลือดออก มีรูป)",
+Co({page:237,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Anorectal",title:"Spot — perianal lesion",imgNote:NOIMG,imgAlt:"ภาพบริเวณทวารหนักขณะแหวก anal verge",seen:"คล้าย MDCU66 RoA SA 6 (ปวดขณะถ่าย + เลือดออก มีรูป)",
  stem:`A photograph of the anal region is shown.<br>1.1 What is the diagnosis?<br>1.2 How would you treat this condition?`,
  gray:"[Ppt] ให้รูป Chronic anal fissure · 1. Dx · 2. Tx.",
  notes:"ส่วน PowerPoint ของเธรด (ผู้จดโพสต์ว่า Ppt) — ไม่มีเลขข้อ ไล่ตามลำดับ",flag:"NOIMG · ไม่มีเลขในไฟล์ → PPT 1 ตามลำดับ",
@@ -286,7 +286,7 @@ Co({page:237,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Anorectal",title:"S
  interp:"spot chronic anal fissure และขั้นการรักษา",summary:["chronic anal fissure: posterior midline + sentinel tag + hypertrophied papilla + เห็น internal sphincter","รักษา: fiber/sitz bath → diltiazem/GTN/botox → LIS"]}),
 
 /* ===== PowerPoint 2 ===== */
-Co({page:237,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn perineum",imgNote:NOIMG,imgAlt:"ภาพบริเวณฝีเย็บและก้นของทารกแรกเกิด",
+Co({page:237,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn perineum",imgNote:NOIMG,imgAlt:"ภาพบริเวณฝีเย็บและก้นของทารกแรกเกิด",
  stem:`A photograph of a newborn's perineum is shown.<br>2.1 What is the diagnosis?<br>2.2 Outline the management.<br>2.3 What other things must be considered in this patient?`,
  gray:"Imperforate anus · 1. Dx · 2. Mx. · 3. Things to considered · [ลายมือชมพู: VACTERAL, associate anomalies]",
  notes:"ลายมือสีชมพูในไฟล์ข้าง 'Things to considered': <b>VACTERAL</b> (สะกดตามไฟล์ = VACTERL) และ <b>associate anomalies</b>",
@@ -308,7 +308,7 @@ Co({page:237,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Pediatric surgery",
  interp:"spot imperforate anus: แยก low/high เพื่อเลือกผ่าตัด และหา VACTERL",summary:["imperforate anus: รอ 16–24 ชม. ดู fistula + cross-table lateral","low (perineal fistula) → anoplasty · high/no fistula → colostomy แล้ว PSARP","หา VACTERL: echo, US ไต, spine, ใส่ OG tube, แขนขา"]}),
 
 /* ===== PowerPoint 3 ===== */
-Co({page:237,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Instrument/Device",title:"Spot — surgical drain with a bulb",imgNote:NOIMG,imgAlt:"ภาพสายระบายซิลิโคนต่อกับกระเปาะรูปไข่",
+Co({page:237,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Instrument/Device",title:"Spot — surgical drain with a bulb",imgNote:NOIMG,imgAlt:"ภาพสายระบายซิลิโคนต่อกับกระเปาะรูปไข่",
  stem:`A photograph of a surgical drain is shown.<br>3.1 Explain its mechanism of action.<br>3.2 In which operations is it used?`,
  gray:"ให้ภาพ jackson-pratt drainage · 1. Mechanism · 2. What s/p to use",
  notes:"ในไฟล์มีขีดเส้นใต้สีม่วงและไฮไลต์สีฟ้าที่ '1. Mechanism' (เน้น ไม่ใช่ขีดฆ่า)",flag:"NOIMG · ไม่มีเลขในไฟล์ → PPT 3 ตามลำดับ",
@@ -325,7 +325,7 @@ Co({page:237,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Instrument/Device",
  interp:"รู้กลไก closed suction drain และการใช้",summary:["JP drain = closed active suction: บีบกระเปาะ → ความดันลบดูดของเหลว","ใช้: mastectomy/axillary dissection, thyroid/neck, ผ่าตัดช่องท้อง (HPB), flap"]}),
 
 /* ===== PowerPoint 4 ===== */
-Co({page:237,sec:"PowerPoint",orig:"PPT 4",topic:"spot",sub:"Anorectal",title:"Spot — anal lesions: management",imgNote:NOIMG,imgAlt:"ภาพบริเวณทวารหนักขณะแหวก มีรอยโรคมากกว่าหนึ่งชนิด",
+Co({page:237,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Anorectal",title:"Spot — anal lesions: management",imgNote:NOIMG,imgAlt:"ภาพบริเวณทวารหนักขณะแหวก มีรอยโรคมากกว่าหนึ่งชนิด",
  stem:`A photograph of the anal region showing more than one lesion is shown. Outline the management.`,
  gray:"acute anal fissure at posterior midline กับ internal hemorrhoid รักษา / management",
  notes:"recall จากผู้จดอีกคนในเธรด · อาจเป็นสไลด์เดียวกับ PPT 1 ที่จดต่างกัน แต่เนื้อหาต่าง (acute + hemorrhoid vs chronic) จึงแยกสถานี",

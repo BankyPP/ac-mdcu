@@ -334,7 +334,7 @@ Co({page:51,orig:"13",topic:"proc",sub:"Local anesthesia",ex:1,proc:1,title:"Pro
    รูป: os67a_m<n> (ลบลายมือ/วงที่เขียนทับรูปแล้ว) · kimg os67a_km<n> = สไลด์ทั้งหน้าพร้อมเฉลย */
 
 /* ===== MEQ 1 ===== */
-Co({page:22,sec:"MEQ",orig:"MEQ 1",topic:"spot",sub:"Imaging film",title:"Spot — 41-year-old man with abdominal pain for 2 hours: chest film",img:["os67a_m1"],kimg:["os67a_km1"],
+Co({page:22,sec:"Short Answers",orig:"MEQ 1",num:"SA 1",topic:"spot",sub:"Imaging film",title:"Spot — 41-year-old man with abdominal pain for 2 hours: chest film",img:["os67a_m1"],kimg:["os67a_km1"],
  stem:`A 41-year-old man presents with abdominal pain for 2 hours.<br>1. What is this radiograph called? (1 point)<br>2. Describe the abnormality. (2 points)<br>3. Give two possible causes. (2 points)<br>4. Briefly outline the management. (5 points)`,
  gray:"ข้อ1 ชาย 41 ปี ปวดท้อง 2 ชั่วโมงก่อนมาโรงพยาบาล · 1.1 ภาพรังสีที่เห็นเรียกว่า (1 คะแนน) · 1.2 อธิบายความผิดปกติ (2 คะแนน) · 1.3 บอกสาเหตุที่เป็นไปได้ 2 ข้อ (2 คะแนน) · 1.4 เขียนแผนการรักษาโดยสังเขป (5 คะแนน)",
  notes:"ลายมือ: Chest X-ray · free air under diaphragm (both side) + ลูกศรชี้ใต้กะบังลมสองข้าง · 'rupture hollow viscus organ' · PU perforation · intestinal obs. (ขีดฆ่า) · bowel perforate · NG decompress, Foley's cath, NPO, IV fluid · ให้ ATB ∵ bowel perforate · Explore lap. (E) → ซ่อม perforate",
@@ -361,7 +361,7 @@ Co({page:22,sec:"MEQ",orig:"MEQ 1",topic:"spot",sub:"Imaging film",title:"Spot �
  summary:["Upright CXR: free air ใต้กะบังลม = pneumoperitoneum","สาเหตุบ่อยสุด: perforated peptic ulcer","แยก gastric bubble และ Chilaiditi sign","NPO, IV fluid, NG, Foley, IV ATB, IV PPI","Emergency laparotomy + Graham omental patch"]}),
 
 /* ===== MEQ 2 ===== */
-Co({page:23,sec:"MEQ",orig:"MEQ 2",topic:"spot",sub:"Imaging film",title:"Spot — 42-year-old man with dysphagia to solids and liquids: contrast study",img:["os67a_m2"],kimg:["os67a_km2"],
+Co({page:23,sec:"Short Answers",orig:"MEQ 2",num:"SA 2",topic:"spot",sub:"Imaging film",title:"Spot — 42-year-old man with dysphagia to solids and liquids: contrast study",img:["os67a_m2"],kimg:["os67a_km2"],
  stem:`A 42-year-old man presents with non-progressive dysphagia for both solids and liquids.<br>1. What is this investigation called? (2 points)<br>2. Describe the abnormality. (3 points)<br>3. Give the diagnosis. (3 points)<br>4. What is the principal pathology? (2 points)`,
  gray:"ข้อ 2 A 42-year-old man presented with non-progressive dysphagia for both solids and liquids. · 2.1 การตรวจนี้เรียกว่า (2 คะแนน) · 2.2 อธิบายความผิดปกติ (3 คะแนน) · 2.3 ให้การวินิจฉัย (3 คะแนน) · 2.4 พยาธิสภาพหลักคือ (2 คะแนน)",
  notes:"เฉลยพิมพ์สีแดง: Barium swallowing · Esophagus narrowing, Bird-beak appearance · Achalasia · Loss of ganglion cell in myenteric plexus at LES · ลายมือ: Barium swallowing · dilatation w/ distal tapering · achalasia · + esophageal body · invest เพิ่ม: esophageal manometry, EGD r/o pseudoachalasia · Rx: esophagomyotomy · ลายมือบนรูป 'Esophageal narrowing, Bird-beak appearance' ลบออกจากรูปโจทย์แล้ว",
@@ -386,7 +386,7 @@ Co({page:23,sec:"MEQ",orig:"MEQ 2",topic:"spot",sub:"Imaging film",title:"Spot �
  summary:["Bird-beak + dilated esophagus = achalasia","Dysphagia solid + liquid ตั้งแต่แรก = motility disorder","Pathology: loss of inhibitory ganglion cells ใน myenteric (Auerbach) plexus","Dx: HR manometry (incomplete LES relaxation + aperistalsis) + EGD r/o cancer","Rx: Heller myotomy + partial fundoplication / POEM / pneumatic dilatation"]}),
 
 /* ===== MEQ 3 ===== */
-Co({page:24,sec:"MEQ",orig:"MEQ 3",topic:"spot",sub:"Imaging film",title:"Spot — 48-year-old woman with recurrent epigastric fullness: imaging",img:["os67a_m3"],kimg:["os67a_km3"],seen:"MDCU67 RoB OSCE 8 (คล้ายกัน: ultrasound นิ่วถุงน้ำดี)",
+Co({page:24,sec:"Short Answers",orig:"MEQ 3",num:"SA 3",topic:"spot",sub:"Imaging film",title:"Spot — 48-year-old woman with recurrent epigastric fullness: imaging",img:["os67a_m3"],kimg:["os67a_km3"],seen:"MDCU67 RoB OSCE 8 (คล้ายกัน: ultrasound นิ่วถุงน้ำดี)",
  stem:`A 48-year-old married Thai woman has had recurrent epigastric fullness for 6 months. The following study was requested.<br>1. What is this investigation? (2 points)<br>2. Describe the findings. (2 points)<br>3. Give the diagnosis. (2 points)<br>4. Name two complications that may arise from this condition. (4 points)`,
  gray:"ข้อ 3 หญิงไทยคู่ 48 ปี มีอาการจุกแน่นลิ้นปี่เป็นๆหายๆ มา 6 เดือน แพทย์ส่งตรวจดังภาพ · 3.1 การตรวจนี้คืออะไร (2 คะแนน) · 3.2 บรรยายสิ่งที่เห็น (2 คะแนน) · 3.3 ให้การวินิจฉัย (2 คะแนน) · 3.4 บอกภาวะแทรกซ้อนที่อาจเกิดขึ้นจากภาวะนี้มา 2 ข้อ (4 คะแนน)",
  notes:"เฉลยพิมพ์สีแดง: Ultrasound · Hyperechoic with posterior shadowing · Gallbladder stone · Cholecystitis, Cholangitis · ลายมือ: ultrasound · hyperechoic mass c̄ posterior narrowing (น่าจะหมายถึง shadowing) · gallstone stone · acute cholecystitis, acute cholangitis, obstructive jaundice · Rx: if มีอาการ → รักษา infect ก่อน cholecystectomy",
@@ -411,7 +411,7 @@ Co({page:24,sec:"MEQ",orig:"MEQ 3",topic:"spot",sub:"Imaging film",title:"Spot �
  summary:["Gallstone ใน US: hyperechoic + posterior acoustic shadow + เคลื่อนตามท่า","Polyp: ไม่มี shadow ไม่เคลื่อน","Symptomatic gallstone → elective LC","Complications: cholecystitis, choledocholithiasis/cholangitis, pancreatitis, Mirizzi, gallstone ileus, GB cancer"]}),
 
 /* ===== MEQ 4 ===== */
-Co({page:25,sec:"MEQ",orig:"MEQ 4",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — 49-year-old woman with a swollen, red, painful left arm",img:["os67a_m4"],kimg:["os67a_km4"],
+Co({page:25,sec:"Short Answers",orig:"MEQ 4",num:"SA 4",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — 49-year-old woman with a swollen, red, painful left arm",img:["os67a_m4"],kimg:["os67a_km4"],
  stem:`A 49-year-old woman presents with swelling, redness and pain of the left arm for 3 days.<br>1. Give the diagnosis. (4 points)<br>2. Name two causes/factors that lead to this arm swelling. (6 points)`,
  gray:"ข้อ 4 หญิง 49 ปี มีแขนซ้ายบวม แดง ปวด 3 วันก่อนมาโรงพยาบาล · 4.1 จงให้การวินิจฉัย (4 คะแนน) · 4.2 จงบอกสาเหตุ/ปัจจัยที่ทำให้แขนบวม มา 2 ข้อ (6 คะแนน)",
  notes:"เฉลยพิมพ์สีแดง: Lymphedema · ลายมือ: filariasis, tumor invasion, radiation injury, LN resection (ไฮไลต์) · ลายมือมุมบน: if venous congest → บวมน้ำ ไม่ค่อยแดง/ปวด · เหนือคำว่า แดง: inflam/infect · รูปเบลอป้ายข้อมือผู้ป่วยแล้ว",
@@ -430,7 +430,7 @@ Co({page:25,sec:"MEQ",orig:"MEQ 4",topic:"spot",sub:"Vascular/Ulcer",title:"Spot
  summary:["Secondary lymphedema แขน: ALND, RT, มะเร็งกลับเป็นซ้ำที่รักแร้, filariasis","ALND ~20% · SLNB ~5%","แดงร้อนปวดเฉียบพลัน = cellulitis ซ้อน → ATB ครอบคลุม Streptococcus","DDx: upper-extremity DVT","Long-term: complete decongestive therapy + skin care"]}),
 
 /* ===== MEQ 5 ===== */
-Co({page:26,sec:"MEQ",orig:"MEQ 5",topic:"spot",sub:"Other spot",title:"Short answer — antibiotic penetration into the cerebrospinal fluid",kimg:["os67a_km5"],
+Co({page:26,sec:"Short Answers",orig:"MEQ 5",num:"SA 5",topic:"spot",sub:"Other spot",title:"Short answer — antibiotic penetration into the cerebrospinal fluid",kimg:["os67a_km5"],
  stem:`Give at least three examples of antibiotics in each of the following groups:<br>1. Good CSF levels even without meningeal inflammation.<br>2. Therapeutic CSF levels only with meningeal inflammation.<br>3. Poor or no penetration even with meningeal inflammation.`,
  gray:"ข้อ 5 จงยกตัวอย่าง antibiotics ที่มีคุณสมบัติดังต่อไปนี้มาอย่างน้อยข้อละ 3 ชนิด · 5.1 Good levels without meningeal inflammation · 5.2 Therapeutic levels with meningeal inflammation · 5.3 Poor or no penetration even with meningeal inflammation",
  flag:"สไลด์นี้ไม่มีรูปประกอบโจทย์ (ไม่ต้องใช้รูป) · ภาพเล็กด้านขวาเป็นสไลด์ตำราที่ผู้จดแปะไว้ (CNS Infection &amp; Antibiotics) — เป็นเฉลย อยู่ใน kimg",
@@ -452,7 +452,7 @@ Co({page:26,sec:"MEQ",orig:"MEQ 5",topic:"spot",sub:"Other spot",title:"Short an
  summary:["ผ่านดีแม้ไม่อักเสบ: metronidazole, chloramphenicol, rifampicin, TMP-SMX, INH/PZA","ผ่านเมื่ออักเสบ: penicillin/ampicillin, ceftriaxone/cefotaxime, vancomycin, meropenem","ผ่านน้อย: aminoglycoside, erythromycin, tetracycline, clindamycin, cefazolin","ตัวช่วยจำ: MCR · PVC · EAT"]}),
 
 /* ===== MEQ 6 ===== */
-Co({page:27,sec:"MEQ",orig:"MEQ 6",topic:"spot",sub:"Hernia/Abdominal wall",title:"Spot — 45-year-old man with a reducible left groin lump for 2 years",img:["os67a_m6"],kimg:["os67a_km6"],
+Co({page:27,sec:"Short Answers",orig:"MEQ 6",num:"SA 6",topic:"spot",sub:"Hernia/Abdominal wall",title:"Spot — 45-year-old man with a reducible left groin lump for 2 years",img:["os67a_m6"],kimg:["os67a_km6"],
  stem:`A 45-year-old married Thai man has had a lump in the left groin that comes and goes for 2 years.<br>1. Give the diagnosis. (4 points)<br>2. Name two predisposing factors. (4 points)<br>3. State the treatment. (2 points)`,
  gray:"ข้อ 6 ชายไทยคู่ อายุ 45 ปี มีก้อนเลื่อนเข้าออกที่ขาหนีบซ้าย 2 ปี ก่อนมาโรงพยาบาล · 6.1 ให้การวินิจฉัย (4 คะแนน) · 6.2 บอกปัจจัยที่เป็นสาเหตุมา 2 ข้อ (4 คะแนน) · 6.3 บอกวิธีการรักษา (2 คะแนน)",
  notes:"เฉลยพิมพ์สีแดง: Indirect hernia, reducible · Age, Sex, hereditary, obesity · Chronic cough/constipation · Surgery · ลายมือ: indirect inguinal hernia, reducible · obesity, chronic cough/consti., BPH, pregnancy · herniorrhaphy · รูปต้นฉบับมีกรอบปิดอวัยวะเพศอยู่แล้ว",
@@ -474,7 +474,7 @@ Co({page:27,sec:"MEQ",orig:"MEQ 6",topic:"spot",sub:"Hernia/Abdominal wall",titl
  summary:["ไส้เลื่อนลงถุงอัณฑะ = indirect (ผ่าน deep ring, lateral ต่อ inferior epigastric vessels)","Direct = Hesselbach's triangle, medial ต่อ inferior epigastric","ปัจจัย: patent processus vaginalis, ไอเรื้อรัง, ท้องผูก, BPH, อ้วน, ยกของหนัก","Rx: Lichtenstein mesh / laparoscopic TEP-TAPP"]}),
 
 /* ===== MEQ 7 ===== */
-Co({page:28,sec:"MEQ",orig:"MEQ 7",topic:"spot",sub:"Imaging film",title:"Spot — endoscopic contrast study of the biliary tree",img:["os67a_m7"],kimg:["os67a_km7"],
+Co({page:28,sec:"Short Answers",orig:"MEQ 7",num:"SA 7",topic:"spot",sub:"Imaging film",title:"Spot — endoscopic contrast study of the biliary tree",img:["os67a_m7"],kimg:["os67a_km7"],
  stem:`The image of an investigation is shown.<br>1. What is the full name of this investigation? (4 points)<br>2. Name two conditions that benefit from this investigation. (6 points)`,
  gray:"ข้อ 7 · 7.1 การตรวจดังกล่าวมีชื่อเต็มว่า (4 คะแนน) · 7.2 บอกโรค/ภาวะที่จะได้ประโยชน์จากการตรวจนี้มา 2 ข้อ (6 คะแนน)",
  notes:"เฉลยพิมพ์สีแดง: ERCP · Acute pancreatitis, acute cholangitis, CBD stone · ลายมือ: Endoscopic Retrograde cholangio/pancreatography · CBD stone, acute pancreatitis · ใน obs. jaundice · ลายมือบนรูประบุ R/L hepatic, gb, cystic, CBD และวงที่ intrahepatic duct ซ้าย — ลบออกจากรูปโจทย์แล้ว",
@@ -492,7 +492,7 @@ Co({page:28,sec:"MEQ",orig:"MEQ 7",topic:"spot",sub:"Imaging film",title:"Spot �
  summary:["ERCP = endoscopic retrograde cholangiopancreatography (เห็น duodenoscope ในภาพ)","Therapeutic: CBD stone, cholangitis, malignant obstruction (stent), bile leak","Gallstone pancreatitis → ERCP เมื่อมี cholangitis/อุดตันต่อเนื่อง","Complication: post-ERCP pancreatitis, bleeding, perforation"]}),
 
 /* ===== MEQ 8 ===== */
-Co({page:29,sec:"MEQ",orig:"MEQ 8",topic:"spot",sub:"Anorectal",title:"Spot — 24-year-old woman with intermittent fresh bleeding per rectum for 6 months",img:["os67a_m8"],kimg:["os67a_km8"],
+Co({page:29,sec:"Short Answers",orig:"MEQ 8",num:"SA 8",topic:"spot",sub:"Anorectal",title:"Spot — 24-year-old woman with intermittent fresh bleeding per rectum for 6 months",img:["os67a_m8"],kimg:["os67a_km8"],
  stem:`A 24-year-old woman presents with intermittent passage of fresh blood per rectum for 6 months. A photograph of the anal region is shown.<br>1. Give the diagnosis. (3 points)<br>2. Outline the treatment. (7 points)`,
  gray:"ข้อ 8 หญิง 24 ปี มาด้วยถ่ายเป็นเลือดสด เป็นๆหายๆ 6 เดือน · 8.1 จงให้การวินิจฉัย (3 คะแนน) · 8.2 จงบอกการรักษา (7 คะแนน)",
  flag:"⚠ ไฟล์ตอบ acute anal fissure แต่ประวัติ 6 เดือน = chronic — ดู opinion · ลบวงสีส้มที่ผู้จดวงรอยโรคออกจากรูปโจทย์แล้ว (มีร่องรอยการแก้ภาพเล็กน้อยบริเวณรอบรอยโรค)",
@@ -516,7 +516,7 @@ Co({page:29,sec:"MEQ",orig:"MEQ 8",topic:"spot",sub:"Anorectal",title:"Spot — 
  summary:["Anal fissure: ส่วนใหญ่ posterior midline · lateral/หลายแผล → คิด Crohn's, TB, HIV, CA","Chronic (>6–8 wk): sentinel pile, hypertrophied papilla, เห็นใย internal sphincter","Conservative: fiber, stool softener, sitz bath","Topical NTG 0.2–0.4% หรือ diltiazem 2% 6–8 สัปดาห์","ล้มเหลว → botulinum toxin หรือ lateral internal sphincterotomy"]}),
 
 /* ===== MEQ 9 ===== */
-Co({page:30,sec:"MEQ",orig:"MEQ 9",topic:"spot",sub:"Plastic/Skin/Burn",title:"Short answer — superficial versus deep partial-thickness burns",kimg:["os67a_km9"],
+Co({page:30,sec:"Short Answers",orig:"MEQ 9",num:"SA 9",topic:"spot",sub:"Plastic/Skin/Burn",title:"Short answer — superficial versus deep partial-thickness burns",kimg:["os67a_km9"],
  stem:`Compare superficial second-degree (superficial partial-thickness) burns with deep second-degree (deep partial-thickness) burns in every aspect, including management.`,
  gray:"ข้อ 9 · จงบอกความแตกต่างระหว่าง superficial second-degree burn กับ deep second-degree burn ในทุกๆด้าน รวมทั้งการดูแลรักษา",
  flag:"⚠ ไฟล์ตอบว่าทั้งสองแบบรักษา conservative + ATB — เราไม่เห็นด้วยบางส่วน ดู opinion · สไลด์ไม่มีรูป",
@@ -536,7 +536,7 @@ Co({page:30,sec:"MEQ",orig:"MEQ 9",topic:"spot",sub:"Plastic/Skin/Burn",title:"S
  summary:["Superficial 2nd: papillary dermis · ชมพู ชื้น ตุ่มน้ำ ปวดมาก · หาย ≤2–3 สัปดาห์ ไม่มีแผลเป็น","Deep 2nd: reticular dermis · ซีด/mottled ปวดน้อย cap refill ลด · หาย >3 สัปดาห์ แผลเป็นมาก","Deep ที่ไม่หายใน 3 สัปดาห์ → tangential excision + STSG","Topical antimicrobial dressing; ไม่ให้ systemic ATB ป้องกัน","ประเมินความลึกซ้ำใน 48–72 ชม. (burn wound conversion)"]}),
 
 /* ===== MEQ 10 ===== */
-Co({page:31,sec:"MEQ",orig:"MEQ 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — infant with an upper-lip anomaly: timing of repair",img:["os67a_m10"],kimg:["os67a_km10"],
+Co({page:31,sec:"Short Answers",orig:"MEQ 10",num:"SA 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — infant with an upper-lip anomaly: timing of repair",img:["os67a_m10"],kimg:["os67a_km10"],
  stem:`A photograph of an infant is shown.<br>1. What is the recommended age to repair the problem seen in the picture? (5 points)<br>2. Reason? (5 points)`,
  gray:"ข้อ 10 · 10.1 What is the recommended age to repair the problem as seen in the picture? (5 คะแนน) · 10.2 Reason? (5 คะแนน)",
  notes:"ลายมือ: complete cleft lip + cleft palate · ภายใน 1 ขวบ · ไม่กระทบต่อ speech development · safety for anesthesia · cleft lip: Rule of 10 (10 wk, 10 pound, Hb = 10 g/dL) · cleft palate: ~1 yr · ∵ safety for anesthesia, bleeding",
@@ -553,7 +553,7 @@ Co({page:31,sec:"MEQ",orig:"MEQ 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"
  summary:["Rule of 10s (lip): 10 wk, 10 lb, Hb 10 g/dL, WBC <10,000","Cleft palate repair 9–18 เดือน (ก่อนพูด)","เหตุผล: ปลอดภัยยาสลบ + พัฒนาการการพูด + การเจริญ maxilla","Alveolar bone graft ~8–11 ปี","ดูแลแบบทีมสหสาขา (speech, ENT, ทันตกรรม)"]}),
 
 /* ===== MEQ 11 ===== */
-Co({page:32,sec:"MEQ",orig:"MEQ 11",topic:"spot",sub:"Head & neck",title:"Spot — periorbital bruising, diplopia and enophthalmos after a motorcycle accident",img:["os67a_m11"],kimg:["os67a_km11"],
+Co({page:32,sec:"Short Answers",orig:"MEQ 11",num:"SA 11",topic:"spot",sub:"Head & neck",title:"Spot — periorbital bruising, diplopia and enophthalmos after a motorcycle accident",img:["os67a_m11"],kimg:["os67a_km11"],
  stem:`After a motorcycle accident, a patient has swelling and bruising around the left eye, double vision and enophthalmos. CT does not show a fracture of the zygoma. A coronal CT image is shown.<br>1. Give the diagnosis.<br>2. Outline the treatment.`,
  gray:"ข้อ 11 ผู้ป่วยได้รับอุบัติเหตุรถจักรยานยนต์ มีบวมช้ำที่ตาซ้าย มองเห็นภาพซ้อน มี enophthalmos เอกซเรย์คอมพิวเตอร์ไม่พบรอยแตกที่กระดูก zygoma · 11.1 จงบอกการวินิจฉัย · 11.2 จงบอกการรักษา",
  flag:"⚠ ไฟล์ตอบ zygoma fracture → ORIF แต่โจทย์ระบุว่า CT ไม่พบรอยแตกที่ zygoma (ผู้จดขีดเส้นแดงทับคำว่า 'ไม่พบ') — เราตอบ orbital floor (blowout) fracture ดู opinion · ลบเส้นแดงที่ผู้จดลากบนภาพ CT แล้ว",
@@ -575,7 +575,7 @@ Co({page:32,sec:"MEQ",orig:"MEQ 11",topic:"spot",sub:"Head & neck",title:"Spot �
  summary:["Orbital blowout: floor/medial wall แตก จากแรงดันในเบ้าตา","อาการ: diplopia (มองขึ้นไม่ได้), enophthalmos, ชาแก้ม (infraorbital n.)","ผ่าตัดเมื่อ enophthalmos >2 มม., entrapment, defect ใหญ่ — ภายใน 2 สัปดาห์","เด็ก trapdoor + oculocardiac reflex = ผ่าตัดด่วน","ZMC (tripod) fracture → ORIF ที่ buttress"]}),
 
 /* ===== MEQ 12 ===== */
-Co({page:33,sec:"MEQ",orig:"MEQ 12",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn with bilious vomiting after the first feed: abdominal film",img:["os67a_m12"],kimg:["os67a_km12"],
+Co({page:33,sec:"Short Answers",orig:"MEQ 12",num:"SA 12",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn with bilious vomiting after the first feed: abdominal film",img:["os67a_m12"],kimg:["os67a_km12"],
  stem:`A newborn baby with a history of maternal polyhydramnios develops bilious vomiting after the first feeding. A plain abdominal X-ray is shown.<br>1. What is the diagnosis?<br>2. What is the most acceptable theory of the pathogenesis of this condition?`,
  gray:"ข้อ 12 A newborn baby with history of polyhydramnios develops bilious vomiting after first feeding. Plain abdominal X-ray is shown below. · 12.1 What is the diagnosis? · 12.2 What is the most acceptable theory in the pathogenesis of this condition?",
  notes:"เฉลยพิมพ์สีแดง: Duodenal atresia · ใต้ 12.2: Down syndrome · ลายมือ: Duodenal Atresia · failure of recanalization (สีส้มเหนือคำว่า pathogenesis) · Trisomy 21, Down syndrome · ผู้จดวงฟองลม 2 ฟองบนภาพ — ลบออกจากรูปโจทย์แล้ว",
@@ -594,7 +594,7 @@ Co({page:33,sec:"MEQ",orig:"MEQ 12",topic:"spot",sub:"Pediatric surgery",title:"
  summary:["Double bubble + ไม่มีลมส่วนปลาย = duodenal atresia","มีลมส่วนปลาย → แยก malrotation with volvulus ด่วน","Pathogenesis: failure of recanalization (สัปดาห์ 8–10)","Jejunoileal atresia: intrauterine vascular accident","ร่วม: Down syndrome ~30%, cardiac, annular pancreas · Rx: duodenoduodenostomy"]}),
 
 /* ===== MEQ 13 ===== */
-Co({page:34,sec:"MEQ",orig:"MEQ 13",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn with an abdominal wall defect covered by a membrane",img:["os67a_m13"],kimg:["os67a_km13"],
+Co({page:34,sec:"Short Answers",orig:"MEQ 13",num:"SA 13",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn with an abdominal wall defect covered by a membrane",img:["os67a_m13"],kimg:["os67a_km13"],
  stem:`A photograph of a newborn's abdomen is shown.<br>1. What is the diagnosis?<br>2. What associated anomalies do you have to look for?<br>3. What is your initial management?`,
  gray:"ข้อ 13 · 1. What is the diagnosis? · 2. What anomalies do you have to look for? · 3. What is your initial management?",
  notes:"เฉลยพิมพ์สีแดง: Omphalocele · ลายมือ: omphalocele · chromosome anomaly, other organ involve. · ATB → prevent infection · plastic คลุม/incubator → prevent heat loss · → SX ปิด · ผู้จดวงคำว่า 'initial' · ลายมือเหนือรูปลบออกจากรูปโจทย์แล้ว",
@@ -616,7 +616,7 @@ Co({page:34,sec:"MEQ",orig:"MEQ 13",topic:"spot",sub:"Pediatric surgery",title:"
  summary:["Omphalocele: ที่สะดือ มีถุงหุ้ม สายสะดือติดถุง · Gastroschisis: ขวาสะดือ ไม่มีถุง","ภาวะร่วม: cardiac, trisomy 13/18/21, Beckwith–Wiedemann, Cantrell","Initial: warmer, คลุมถุง sterile/plastic, OG tube, IV fluid + glucose, ATB","Closure: primary (เล็ก) · staged/paint-and-wait (giant)"]}),
 
 /* ===== MEQ 14 ===== */
-Co({page:35,sec:"MEQ",orig:"MEQ 14",topic:"spot",sub:"Uro/Genital",title:"Spot — swollen glans with a constricting band of foreskin",img:["os67a_m14a","os67a_m14b"],kimg:["os67a_km14"],
+Co({page:35,sec:"Short Answers",orig:"MEQ 14",num:"SA 14",topic:"spot",sub:"Uro/Genital",title:"Spot — swollen glans with a constricting band of foreskin",img:["os67a_m14a","os67a_m14b"],kimg:["os67a_km14"],
  stem:`Two photographs of the penis are shown.<br>1. What is the diagnosis?<br>2. What is your management?`,
  gray:"ข้อ 14 · 14.1 What is the diagnosis? · 14.2 What is your management?",
  notes:"เฉลยพิมพ์สีแดง: Paraphimosis · Manual reduction, dorsal slit · ลายมือ: paraphymosis (สะกดผิด) · manual reduction, dorsal split แล้ว · ลายมือสีส้ม: ใช้ถุงรัด/บีบให้คลาย → แล้วรูดกลับ ให้หายบวม · เส้นสีส้มที่ผู้จดวาดบนรูปซ้ายลบออกแล้ว",

@@ -3,7 +3,7 @@
    ไฟล์ GSUP4K (01_5_MCQs_Key_4.pdf) หน้า 166 (ปก "OSCE R3/2557") – 179 · สไลด์ PowerPoint หน้าละ 1 สถานี (OSCE1–OSCE13) ไม่มีฐานพัก ไม่บอกเวลาต่อสถานี
    เฉลยในไฟล์ = ตัวพิมพ์สีแดง/ไฮไลต์เหลือง + ลายมือชมพูบนสไลด์ (หน้า 170, 172–178) และคำบรรยายใต้ภาพ (หน้า 171) · สถานี 1, 2, 3, 13 ไม่มีเฉลย (NK)
    รูปโจทย์ดึงจากภาพต้นฉบับที่ฝังใน PDF (ไม่มีลายมือ/ตัวแดงทับ) แล้วติดป้าย A/B/C ตามสไลด์: os67c_4–12 · รูปเฉลย = ทั้งสไลด์พร้อมโน้ต os67c_k4–k12
-   + พาร์ท MEQ (ผู้ใช้สั่งเพิ่ม 9 พ.ย.): หน้า 151 ปก "แนวข้อสอบ MEQ/OSCE R3-2557" + MEQ1–MEQ14 หน้า 152–165 → spot ไม่มีอาจารย์ sec:"MEQ" orig:"MEQ n" · รูปโจทย์ os67c_meq<n> จากภาพฝังใน PDF (MEQ3, MEQ13 ไม่มีรูปโจทย์) · รูปเฉลย = ทั้งสไลด์ os67c_kmeq1–14
+   + พาร์ท MEQ (ผู้ใช้สั่งเพิ่ม 9 พ.ย.): หน้า 151 ปก "แนวข้อสอบ MEQ/OSCE R3-2557" + MEQ1–MEQ14 หน้า 152–165 → spot ไม่มีอาจารย์ sec:"Short Answers" orig:"MEQ n" · รูปโจทย์ os67c_meq<n> จากภาพฝังใน PDF (MEQ3, MEQ13 ไม่มีรูปโจทย์) · รูปเฉลย = ทั้งสไลด์ os67c_kmeq1–14
    ผิดปกติ: สถานี 5 ถามว่า "บรรยายสิ่งที่เห็นจาก IVP" แต่ภาพเป็น plain film (คำบรรยายใต้ภาพเดิมเขียน Plain X-ray — ตัดคำบรรยายออกจากรูปโจทย์เพราะบอกคำตอบ) */
 const NK="ไม่มีเฉลยในไฟล์ (เฉลยโดย Claude)";
 const P=(t,...re)=>({t,re});
@@ -355,7 +355,7 @@ Co({page:179,orig:"13",topic:"proc",sub:"Wound dressing",ex:1,proc:1,title:"Proc
 
 /* ===== MEQ part (สไลด์ "แนวข้อสอบ MEQ/OSCE R3-2557" หน้า 151–165) → Spot Diagnosis ไม่มีอาจารย์ ===== */
 /* ===== MEQ 1 ===== */
-Co({page:152,sec:"MEQ",orig:"MEQ 1",topic:"spot",sub:"Head & neck",title:"Neck lump for several years, enlarging over the last year",img:["os67c_meq1"],kimg:["os67c_kmeq1"],
+Co({page:152,sec:"Short Answers",orig:"MEQ 1",num:"SA 1",topic:"spot",sub:"Head & neck",title:"Neck lump for several years, enlarging over the last year",img:["os67c_meq1"],kimg:["os67c_kmeq1"],
  stem:`A patient has had a lump in the neck for several years; it has enlarged over the past year.<br>1.1 What is the provisional diagnosis?<br>1.2 Name one investigation.`,
  gray:"MEQ1. มีก้อนที่คอมานานหลายปี ช่วง 1 ปีนี้โตมากขึ้น · 1.1 Provisional diagnosis · 1.2 Investigation 1 ข้อ",
  notes:"ลายมือเขียว: 1.1 'Thyroglossal duct cyst' · 1.2 'thyroid scan'",
@@ -377,7 +377,7 @@ Co({page:152,sec:"MEQ",orig:"MEQ 1",topic:"spot",sub:"Head & neck",title:"Neck l
  summary:["Midline neck cyst ขยับเมื่อแลบลิ้น/กลืน → thyroglossal duct cyst","Investigation แรก: ultrasound (ดูต่อมไทรอยด์ปกติด้วย)","Thyroid scan เมื่อไม่เห็นต่อมไทรอยด์ปกติ (ectopic thyroid)","รักษา: Sistrunk operation"]}),
 
 /* ===== MEQ 2 ===== */
-Co({page:153,sec:"MEQ",orig:"MEQ 2",topic:"spot",sub:"Anorectal",title:"Rectal bleeding with an anal mass that must be pushed back",img:["os67c_meq2"],kimg:["os67c_kmeq2"],
+Co({page:153,sec:"Short Answers",orig:"MEQ 2",num:"SA 2",topic:"spot",sub:"Anorectal",title:"Rectal bleeding with an anal mass that must be pushed back",img:["os67c_meq2"],kimg:["os67c_kmeq2"],
  stem:`A patient has bleeding per rectum. Examination shows a mass at the anus that the patient has to <b>push back manually</b>.<br>2.1 Describe the lesion.<br>2.2 Explain the cause of the rectal bleeding.<br>2.3 Outline the treatment.`,
  gray:"MEQ2 มีเลือดออกทางทวารหนัก ตรวจพบมีก้อนที่ทวารหนัก ต้องดันกลับเอง · 2.1 บรรยายลักษณะของก้อน · 2.2 สาเหตุของการมีเลือดออกทางทวารหนัก · 2.3 Treatment",
  notes:"ลายมือเขียว: ข้าง 'ต้องดันกลับเอง' (ไฮไลต์) เขียน 'grade 3' · 2.1 'protruding multiple red-purplish masses at anus 3, 7, 11 นาฬิกา, well defined margin, highly vascularized' · 2.2 'อุจจาระเบียด → มีแผล → เลือดออก' · 2.3 'hemorrhoidectomy'",
@@ -402,7 +402,7 @@ Co({page:153,sec:"MEQ",orig:"MEQ 2",topic:"spot",sub:"Anorectal",title:"Rectal b
  summary:["ตำแหน่งริดสีดวงหลัก 3, 7, 11 นาฬิกา (lithotomy)","Grade III = ยื่นต้องดันกลับ","เลือดแดงสดไม่ปวด จาก mucosa บน vascular cushion ถูกครูด","Grade III: RBL หรือ hemorrhoidectomy · ทุกรายให้ fiber/น้ำ/ไม่เบ่ง"]}),
 
 /* ===== MEQ 3 ===== */
-Co({page:154,sec:"MEQ",orig:"MEQ 3",topic:"spot",sub:"Plastic/Skin/Burn",title:"Burn depth — compare two types of partial-thickness burn",kimg:["os67c_kmeq3"],
+Co({page:154,sec:"Short Answers",orig:"MEQ 3",num:"SA 3",topic:"spot",sub:"Plastic/Skin/Burn",title:"Burn depth — compare two types of partial-thickness burn",kimg:["os67c_kmeq3"],
  stem:`Compare <b>superficial second-degree</b> and <b>deep second-degree</b> burns in every aspect, including management.`,
  gray:"MEQ3 จงบอกความแตกต่างระหว่าง superficial second-degree burn กับ deep second-degree burn ในทุกๆด้าน รวมทั้งการดูแลรักษา",
  notes:"ไม่มีรูปในสไลด์ (โจทย์คำถามล้วน) · ลายมือเขียว: superficial → 'ไม่มี scar' → '- wound care ปกติ - ป้องกัน infection' · deep → 'มี severe scarring' → 'need pressure garment, ป้องกัน deformity from contracture'",
@@ -418,7 +418,7 @@ Co({page:154,sec:"MEQ",orig:"MEQ 3",topic:"spot",sub:"Plastic/Skin/Burn",title:"
  summary:["Superficial 2°: papillary dermis, blister, ชุ่ม, กดซีด, เจ็บมาก, หาย <3 สัปดาห์ ไม่มีแผลเป็น","Deep 2°: reticular dermis, ซีด/mottled, เจ็บน้อย, หาย >3 สัปดาห์ → hypertrophic scar/contracture","Deep → early excision + STSG","หลังหาย: pressure garment, splint, physiotherapy"]}),
 
 /* ===== MEQ 4 ===== */
-Co({page:155,sec:"MEQ",orig:"MEQ 4",topic:"spot",sub:"Plastic/Skin/Burn",title:"Infant with a facial congenital anomaly — parental advice and timing of repair",img:["os67c_meq4"],kimg:["os67c_kmeq4"],
+Co({page:155,sec:"Short Answers",orig:"MEQ 4",num:"SA 4",topic:"spot",sub:"Plastic/Skin/Burn",title:"Infant with a facial congenital anomaly — parental advice and timing of repair",img:["os67c_meq4"],kimg:["os67c_kmeq4"],
  stem:`A photograph of an infant is shown.<br>4.1 Give advice to the mother on caring for this baby.<br>4.2 What is the recommended age to repair the problem seen in the picture? Give the reason.`,
  gray:"MEQ4 · [รูปทารก] 4.1 จงให้คำแนะนำในการดูแลผู้ป่วยต่อมารดา · 4.2 What is the recommended age to repair the problem as seen in the picture? Reason?",
  notes:"ลายมือเขียว: บนรูป 'cleft lip & palate' · 4.1 'ระวังการสำลักนม/อาหาร · ดูแลความสะอาดช่องปากเป็นพิเศษ · F/U กับแพทย์สม่ำเสมอ · ให้ความอบอุ่น + เอาใจใส่มาก ๆ ไม่ให้เด็กรู้สึกเป็นปมด้อย' · 4.2 ลายมือส้ม 'แยก' (ตอบแยกปาก/เพดาน) + เขียว 'within 1 year of age · prevent speech developmental defect'",
@@ -444,7 +444,7 @@ Co({page:155,sec:"MEQ",orig:"MEQ 4",topic:"spot",sub:"Plastic/Skin/Burn",title:"
  summary:["ให้นมท่าศีรษะสูง ป้อนช้า ไล่ลม ระวังสำลัก ใช้จุกนม/ขวดพิเศษ","ทีมสหสาขา: ศัลย์ตกแต่ง ทันตกรรม ENT นักฝึกพูด","Lip repair ~3 เดือน (rule of 10s)","Palate repair 9–18 เดือน ก่อนเริ่มพูด"]}),
 
 /* ===== MEQ 5 ===== */
-Co({page:156,sec:"MEQ",orig:"MEQ 5",topic:"spot",sub:"Head & neck",title:"Facial laceration — which nerves may be injured and how to test",img:["os67c_meq5"],kimg:["os67c_kmeq5"],
+Co({page:156,sec:"Short Answers",orig:"MEQ 5",num:"SA 5",topic:"spot",sub:"Head & neck",title:"Facial laceration — which nerves may be injured and how to test",img:["os67c_meq5"],kimg:["os67c_kmeq5"],
  stem:`A patient sustained a knife wound to the face as shown. Which nerves may be injured, and how would you examine for each?`,
  gray:"MEQ5 · [รูปแผลที่แก้ม] 5. ผู้ป่วยถูกฟันด้วยมีดที่บริเวณใบหน้า เกิดบาดแผลดังรูป จะเกิน injury ต่อ nerve ใดบ้าง และจะตรวจได้อย่างไร",
  notes:"ลายมือเขียว: 'maxillary n. → pinprick sensation' (ขีดฆ่าทิ้ง) · 'zygomatic branch of facial n. → ดูหน้าเบี้ยว, facial weak asymmetry' · ลายมือส้ม: 'zygomatic หลับตาปี๋ — ไม่สนิทเสมอ · buccal ยิงฟัน/ปากจู๋'",
@@ -460,7 +460,7 @@ Co({page:156,sec:"MEQ",orig:"MEQ 5",topic:"spot",sub:"Head & neck",title:"Facial
  summary:["แผลแก้มจากหน้าหูถึงมุมปาก → buccal และ zygomatic branch ของ CN VII","Zygomatic: หลับตาแน่น · buccal: ยิงฟัน/ปากจู๋/ป่องแก้ม · marginal mandibular: ปากเบะ","ตรวจก่อนฉีดยาชา เทียบสองข้าง","ตรวจ parotid duct (tragus → กลางริมฝีปากบน) ด้วย"]}),
 
 /* ===== MEQ 6 ===== */
-Co({page:157,sec:"MEQ",orig:"MEQ 6",topic:"spot",sub:"Imaging film",title:"Newborn with sudden bilious vomiting — film, diagnosis and treatment",img:["os67c_meq6"],kimg:["os67c_kmeq6"],
+Co({page:157,sec:"Short Answers",orig:"MEQ 6",num:"SA 6",topic:"spot",sub:"Imaging film",title:"Newborn with sudden bilious vomiting — film, diagnosis and treatment",img:["os67c_meq6"],kimg:["os67c_kmeq6"],
  stem:`A previously healthy newborn presents with <b>sudden bilious vomiting</b>. The abdominal radiograph is shown.<br>6.1 What is the provisional diagnosis?<br>6.2 Outline the treatment.`,
  gray:"MEQ6 A newborn baby with sudden bilious vomiting, previously healthy · [ฟิล์มท้อง] 6.1 Provisional diagnosis 6.2 Treatment",
  notes:"ลายมือชมพู: วงกระเพาะ/duodenum ที่ขยายบนฟิล์ม · 6.1 '~intus currant jelly' และ 'midgut volvulus' · 6.2 'Ladd's procedure + appendectomy' · ไฮไลต์ newborn, sudden, bilious vomiting, previously healthy · มีรูปดาวสีม่วง (ข้อสำคัญ)",
@@ -480,7 +480,7 @@ Co({page:157,sec:"MEQ",orig:"MEQ 6",topic:"spot",sub:"Imaging film",title:"Newbo
  summary:["Bilious vomiting ในทารก = surgical emergency","Malrotation + midgut volvulus: UGI เห็น DJ flexure ผิดที่/corkscrew","Ladd's: detorsion ทวนเข็ม → ตัด Ladd's bands → ขยาย mesentery → appendectomy","ถ้าช็อก/peritonitis ไปผ่าตัดทันที"]}),
 
 /* ===== MEQ 7 ===== */
-Co({page:158,sec:"MEQ",orig:"MEQ 7",topic:"spot",sub:"Pediatric surgery",title:"Newborn abdominal wall defect — diagnosis, associated anomalies, initial care",img:["os67c_meq7"],kimg:["os67c_kmeq7"],
+Co({page:158,sec:"Short Answers",orig:"MEQ 7",num:"SA 7",topic:"spot",sub:"Pediatric surgery",title:"Newborn abdominal wall defect — diagnosis, associated anomalies, initial care",img:["os67c_meq7"],kimg:["os67c_kmeq7"],
  stem:`A photograph of a newborn's abdomen is shown.<br>7.1 What is the diagnosis?<br>7.2 What anomalies do you have to look for?<br>7.3 What is your initial management?`,
  gray:"MEQ7 · [รูปผนังหน้าท้องทารก] 7.1 What is the diagnosis? 7.2 What anomalies do you have to look for? 7.3 What is your initial management?",
  notes:"ลายมือ: 7.1 'omphalocele' · 7.2 'Pentalogy of Cantrell → sternal cleft, ant. diaphragmatic hernia, ectopia cordis, intracardiac defect, omphalocele · Beckwith-Wiedemann syndrome (เขียนซ้ำ 2 ครั้งสีชมพู) · Exstrophy of cloaca' · เทียบ gastroschisis (บนสไลด์): 'SGA, duodenal atresia, undescended testis } 10%' + ข้อความชมพูอ่านไม่ออก · 7.3 'NPO, IV fluid, keep warm, IV ATB ป้องกัน infection' + ชมพู 'ผ้า gauze ชุบ povidone iodine · ป้องกัน infect + heat loss'",
@@ -507,7 +507,7 @@ Co({page:158,sec:"MEQ",orig:"MEQ 7",topic:"spot",sub:"Pediatric surgery",title:"
  summary:["Omphalocele: มีถุง สายสะดือติดถุง ความผิดปกติร่วมสูง","ร่วม: หัวใจ, trisomy 13/18/21, Beckwith-Wiedemann (hypoglycemia), Cantrell, cloacal exstrophy","Initial: keep warm, ก๊อซ NSS + plastic wrap, NPO/NG, IV fluid, glucose","เล็ก → primary closure · giant → silo/paint and wait"]}),
 
 /* ===== MEQ 8 ===== */
-Co({page:159,sec:"MEQ",orig:"MEQ 8",topic:"spot",sub:"Hernia/Abdominal wall",title:"Postoperative orders after hernia surgery",img:["os67c_meq8"],kimg:["os67c_kmeq8"],
+Co({page:159,sec:"Short Answers",orig:"MEQ 8",num:"SA 8",topic:"spot",sub:"Hernia/Abdominal wall",title:"Postoperative orders after hernia surgery",img:["os67c_meq8"],kimg:["os67c_kmeq8"],
  stem:`An intra-operative photograph of a hernia operation is shown. Write the <b>postoperative orders</b> for this operation.`,
  gray:"MEQ8 · [รูปขณะผ่าตัด] 8. จงเขียน Postoperative order ของการผ่าตัดเพื่อรักษาไส้เลื่อน",
  notes:"ลายมือ (one day): '5% D/N/2 1000 ml ×2 IV drip 80 ml/hr · morphine 3 mg IV q 4 h prn for pain' · (continue): 'NPO if bowel sound ดี try จิบน้ำ → step diet · wound dressing · early ambulation · retain Foley keep urine output ≥1 ml/kg/hr · record V/S, I/O q 4 h · metoclopramide 10 mg IV q 6 h prn for N/V · Morphine 3 mg IV prn q 4 h' · ลายมือส้ม/ชมพูมุมล่าง: 'gangrenous appendicitis → delay 1° closure · off ATB เมื่อครบ 24 hr · ceftriaxone, metronidazole' (น่าจะเป็นโน้ตเทียบโจทย์อื่น) · ดาวสีม่วง",
@@ -527,7 +527,7 @@ Co({page:159,sec:"MEQ",orig:"MEQ 8",topic:"spot",sub:"Hernia/Abdominal wall",tit
  summary:["Order แยก one day / continue","Elective hernia repair: กินได้เมื่อตื่นดี, multimodal analgesia, ปัสสาวะเองก่อนกลับ","สังเกต urinary retention และ hematoma","Strangulated + bowel resection: NPO/NG, IV fluid, Foley, ATB"]}),
 
 /* ===== MEQ 9 ===== */
-Co({page:160,sec:"MEQ",orig:"MEQ 9",topic:"spot",sub:"Vascular/Ulcer",title:"Toe lesion — describe, list causes and examination",img:["os67c_meq9"],kimg:["os67c_kmeq9"],
+Co({page:160,sec:"Short Answers",orig:"MEQ 9",num:"SA 9",topic:"spot",sub:"Vascular/Ulcer",title:"Toe lesion — describe, list causes and examination",img:["os67c_meq9"],kimg:["os67c_kmeq9"],
  stem:`A photograph of a foot is shown.<br>9.1 Describe the lesion.<br>9.2 Give three causes.<br>9.3 Give three physical examinations you would perform.`,
  gray:"MEQ9 · [รูปเท้า] 9.1 Describe the lesion 9.2 Cause (3 ข้อ) 9.3 Physical examination (3 ข้อ)",
  notes:"ลายมือ: 9.1 'gangrene of rt. 2nd toe' · 9.2 'trauma, emboli, thrombosis (arterial site), vasospasm' · 9.3 'compare 6P: pulselessness, pallor, paresthesia, paralysis, pain, polar = cold sensation · peripheral pulse · ABI · trophic change of skin'",
@@ -552,7 +552,7 @@ Co({page:160,sec:"MEQ",orig:"MEQ 9",topic:"spot",sub:"Vascular/Ulcer",title:"Toe
  summary:["Dry gangrene: ดำแห้ง demarcate · wet: ติดเชื้อ บวม หนอง","สาเหตุ: PAD/atherosclerosis, DM, embolism, Buerger's, trauma/frostbite","ตรวจ: peripheral pulses, ABI, trophic change, capillary refill, Buerger's test","DM: ABI อาจสูงลวง → toe pressure; ตรวจ monofilament"]}),
 
 /* ===== MEQ 10 ===== */
-Co({page:161,sec:"MEQ",orig:"MEQ 10",topic:"spot",sub:"Breast",title:"Breast lesion in a breastfeeding woman — describe and differentials",img:["os67c_meq10"],kimg:["os67c_kmeq10"],
+Co({page:161,sec:"Short Answers",orig:"MEQ 10",num:"SA 10",topic:"spot",sub:"Breast",title:"Breast lesion in a breastfeeding woman — describe and differentials",img:["os67c_meq10"],kimg:["os67c_kmeq10"],
  stem:`A woman with a history of <b>breastfeeding</b> presents with the breast shown.<br>10.1 Describe the lesion.<br>10.2 Give two differential diagnoses.`,
  gray:"MEQ10 Female with history of breast feeding · [รูปเต้านม] 10.1 Describe the lesion 10.2 Give 2 differential diagnosis",
  notes:"ลายมือ: 10.1 'R. upper outer · erythematous well-defined lesion at right breast superio-lateral adjacent to right areola · no skin break, no discharge' · 10.2 '(puerperal) mastitis · inflammatory breast cancer · breast abscess'",
@@ -572,7 +572,7 @@ Co({page:161,sec:"MEQ",orig:"MEQ 10",topic:"spot",sub:"Breast",title:"Breast les
  summary:["Lactational mastitis: แดงรูปลิ่ม เจ็บ ไข้ — S. aureus","ให้นมต่อ/ปั๊มนม + dicloxacillin/cephalexin","คลำได้ fluctuation → abscess → US-guided aspiration/I&D","ไม่ดีขึ้นด้วยยา → คิด inflammatory breast cancer → biopsy"]}),
 
 /* ===== MEQ 11 ===== */
-Co({page:162,sec:"MEQ",orig:"MEQ 11",topic:"spot",sub:"Pediatric surgery",title:"Newborn boy with no anal opening — diagnosis, associations, treatment",img:["os67c_meq11"],kimg:["os67c_kmeq11"],
+Co({page:162,sec:"Short Answers",orig:"MEQ 11",num:"SA 11",topic:"spot",sub:"Pediatric surgery",title:"Newborn boy with no anal opening — diagnosis, associations, treatment",img:["os67c_meq11"],kimg:["os67c_kmeq11"],
  stem:`A male newborn with <b>imperforate anus</b> is shown.<br>11.1 What is the diagnosis?<br>11.2 What associated anomalies should be sought?<br>11.3 Outline the treatment.`,
  gray:"MEQ11 A newborn with imperforate anus · [รูป perineum ทารกชาย] 11.1 Diagnosis 11.2 Associated anomalies 11.3 Treatment",
  notes:"ลายมือเขียว: 11.1 'Anorectal Malformation c̄ rectourethral fistula' · 11.2 'VACTERL association' · 11.3 '3-step surgery: 1 (loop) colostomy 2 PSARP + fistulectomy 3 closure colostomy' · ตัวแดง: 'Rectourethral fistula' และ 'Close fistula, colostomy'",
@@ -599,7 +599,7 @@ Co({page:162,sec:"MEQ",orig:"MEQ 11",topic:"spot",sub:"Pediatric surgery",title:
  summary:["ขี้เทาออกทางท่อปัสสาวะ = rectourethral fistula → colostomy ก่อน","ขี้เทาที่ perineum = low type → anoplasty แรกเกิด","VACTERL: vertebral, anorectal, cardiac, TEF, renal, limb","Staged: divided colostomy → PSARP → dilatation → ปิด colostomy"]}),
 
 /* ===== MEQ 12 ===== */
-Co({page:163,sec:"MEQ",orig:"MEQ 12",topic:"spot",sub:"Other spot",title:"Painful toe for two days — diagnosis, cause and management",img:["os67c_meq12"],kimg:["os67c_kmeq12"],
+Co({page:163,sec:"Short Answers",orig:"MEQ 12",num:"SA 12",topic:"spot",sub:"Other spot",title:"Painful toe for two days — diagnosis, cause and management",img:["os67c_meq12"],kimg:["os67c_kmeq12"],
  stem:`A patient has had a painful toe for 2 days.<br>12.1 What is the diagnosis?<br>12.2 What is the cause?<br>12.3 Outline the management.`,
  gray:"MEQ12 เจ็บเท้ามา 2 วัน · [รูปนิ้วเท้า] 12.1 Diagnosis 12.2 Cause 12.3 Management",
  notes:"ลายมือ: 12.1 '(acute) paronychia' · 12.2 '- minor trauma to nail bed - hangnail' + ชมพู 'ตัดเล็บผิด รองเท้าผิด' · 12.3 '- warm water soak 3–4 times a day - topical ATB - F/U if forms abscess → drainage'",
@@ -624,7 +624,7 @@ Co({page:163,sec:"MEQ",orig:"MEQ 12",topic:"spot",sub:"Other spot",title:"Painfu
  summary:["Acute paronychia = ติดเชื้อ nail fold — S. aureus","สาเหตุ: ตัดเล็บผิด/เล็บขบ, รองเท้าคับ, hangnail","ไม่มีหนอง: แช่น้ำอุ่น 3–4 ครั้ง/วัน ± ATB","มีหนอง → I&D · เล็บขบ → partial nail avulsion"]}),
 
 /* ===== MEQ 13 ===== */
-Co({page:164,sec:"MEQ",orig:"MEQ 13",topic:"spot",sub:"Uro/Genital",title:"Lower urinary tract symptoms — history to assess severity",kimg:["os67c_kmeq13"],
+Co({page:164,sec:"Short Answers",orig:"MEQ 13",num:"SA 13",topic:"spot",sub:"Uro/Genital",title:"Lower urinary tract symptoms — history to assess severity",kimg:["os67c_kmeq13"],
  stem:`A man presents with <b>lower urinary tract symptoms (LUTS)</b>. List the symptoms you would ask about to assess the severity of his disease.`,
  gray:"MEQ13 ผู้ป่วยมาด้วย LUTS จงซักประวัติอาการเพื่อประเมินความรุนแรงของโรคในผู้ป่วยรายนี้",
  notes:"ไม่มีรูปโจทย์ — บนสไลด์มีภาพหน้าจอโน้ตของผู้จด: 'LUTS (lower urinary tract symptoms) · Obstructive symp: difficult in urination, hesitancy, poor stream, straining, intermittency, terminal dribbling, sense of incomplete emptying · Storage symp: frequency, urgency, nocturia' (ไฮไลต์บางคำ) + มีหัวข้อ IPSS ถัดไป · ลายมือเขียว 'FUN PSIIT'",
@@ -642,7 +642,7 @@ Co({page:164,sec:"MEQ",orig:"MEQ 13",topic:"spot",sub:"Uro/Genital",title:"Lower
  summary:["IPSS 7 ข้อ: incomplete emptying, frequency, intermittency, urgency, weak stream, straining, nocturia","คะแนน 0–5 ต่อข้อ รวม 35: mild 0–7, moderate 8–19, severe 20–35","+ QoL score","FUN (storage) + PSIIT (voiding)"]}),
 
 /* ===== MEQ 14 ===== */
-Co({page:165,sec:"MEQ",orig:"MEQ 14",topic:"spot",sub:"Other spot",title:"Woman with abdominal pain, vomiting and distension — diagnosis, causes, initial care",img:["os67c_meq14"],kimg:["os67c_kmeq14"],
+Co({page:165,sec:"Short Answers",orig:"MEQ 14",num:"SA 14",topic:"spot",sub:"Other spot",title:"Woman with abdominal pain, vomiting and distension — diagnosis, causes, initial care",img:["os67c_meq14"],kimg:["os67c_kmeq14"],
  stem:`A woman has had abdominal pain and <b>vomiting of faeculent-looking material</b> for 2 days. Her abdomen is distended as shown.<br>14.1 What is the diagnosis?<br>14.2 Give two causes.<br>14.3 What is your initial management?`,
  gray:"MEQ14 ผู้หญิงปวดท้อง อ้วกเป็นเหมือนขี้เด็กมา2วัน ท้องโตดังรูป · 14.1 dx 14.2 บอก2 causes 14.3 initial mx",
  notes:"ลายมือเขียว: 14.1 'large bowel obstruction' · 14.2 'adhesion band, tumor' · 14.3 'NPO, NG decompress, IV fluid, Foley, Acute abdomen series' · ไฮไลต์ 'เป็นเหมือนขี้เด็ก' (วงคำว่าขี้เด็ก) · ขีดเส้นใต้ 'ท้องโตดังรูป'",

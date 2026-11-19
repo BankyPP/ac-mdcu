@@ -1,7 +1,7 @@
 (function(){
 /* Surgery OSCE ข้อสอบเก่า AC — MDCU65 RoB (Sx 2/55) · ไฟล์ GSUP4K (01_5_MCQs_Key_4.pdf) หน้า 281–282
    หน้า 280–281 ส่วนบน = MCQ (ไม่ทำ) · OSCE 15 สถานีเริ่มกลางหน้า 281 (ข้อ 15 ต่อบรรทัดแรกหน้า 282) · "Part : Power point 14 ข้อ (ให้เวลาข้อละแปปเดียว)" หน้า 282
-   รูปแบบที่ไฟล์บอก: แต่ละสถานี OSCE ผู้จดระบุ "เขียน" (สถานีเขียนตอบ ไม่มีอาจารย์) หรือ "อาจารย์คุม" (มีอาจารย์) · PowerPoint = สไลด์เปิดไปเรื่อย ๆ → sec:"PowerPoint" topic spot
+   รูปแบบที่ไฟล์บอก: แต่ละสถานี OSCE ผู้จดระบุ "เขียน" (สถานีเขียนตอบ ไม่มีอาจารย์) หรือ "อาจารย์คุม" (มีอาจารย์) · PowerPoint = สไลด์เปิดไปเรื่อย ๆ → sec:"Short Answers" topic spot
    OSCE 5 (คลำต่อมลูกหมากหุ่นแล้วเขียนตอบ) ผู้จดระบุว่า "เขียน" แต่เนื้อหาเป็นการตรวจร่างกาย → topic pe (ex:1 ตามกติกา topic; sp บอกว่าไม่มีอาจารย์ถาม)
    PPT 2–4 เป็นเคสเดียวกัน (ปวดท้อง → pancreatitis) แยกสไลด์ตามเลขในไฟล์ · PPT 11–12 ก็เช่นกัน (venous ulcer) · PPT 10 มีคำถามย่อย ก/ข
    OSCE 6: ผู้จดใส่ชื่อดาราเป็นชื่อผู้ป่วยในโจทย์ → ไม่คัดลอกชื่อ (gray ใช้ [ชื่อผู้ป่วยในโจทย์])
@@ -313,12 +313,12 @@ Co({page:281,sec:"OSCE",orig:"15",topic:"path",sub:"Breast cancer staging",title
  summary:["T2 (>2–5 cm) · N1a (1–3 LN) · M0 → IIB","LVI/grade ไม่เปลี่ยน TNM แต่เป็นปัจจัยพยากรณ์","ต้องมี ER/PR/HER2/Ki-67 → prognostic stage + systemic therapy","N+ หลัง mastectomy → พิจารณา PMRT"]}),
 
 /* ===== PowerPoint 1 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Imaging film",title:"Spot — abdominal radiograph: list the signs",
+Co({page:282,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Imaging film",title:"Spot — abdominal radiograph: list the signs",
  stem:`An abdominal radiograph of a patient with colicky abdominal pain, vomiting and distension is shown.<br>1. What is the diagnosis?<br>2. List the radiographic signs present.`,
  gray:"Part : Power point 14 ข้อ (ให้เวลาข้อละแปปเดียวนะครับ) 1.ภาพ x ray มี small bowel obstruction ให้เขียน sign ที่พบ",
  flag:NOIMG,imgAlt:"ฟิล์มเอกซเรย์ช่องท้อง",
  parts:S(
-  B("PPT 1.1 Diagnosis and radiographic signs.",4,{tags:["spot"],key:"ไฟล์ระบุ: small bowel obstruction (ไม่มีเฉลย sign)",
+  B("SA 1.1 Diagnosis and radiographic signs.",4,{tags:["spot"],key:"ไฟล์ระบุ: small bowel obstruction (ไม่มีเฉลย sign)",
    ans:"<b>Small bowel obstruction</b> · <b>Signs</b>: (1) <b>dilated small bowel loops &gt;3 cm</b> อยู่ส่วนกลางท้อง จำนวนมาก (2) <b>valvulae conniventes</b> พาดเต็มความกว้างลำไส้ — <b>stack of coins</b> (3) <b>multiple air-fluid levels แบบขั้นบันได (step-ladder)</b> ในท่ายืน/decubitus (4) <b>string of beads sign</b> (ฟองลมเล็กเรียงใต้ valvulae ในลูปที่เต็มน้ำ) (5) <b>ลมใน colon/rectum น้อยหรือไม่มี</b> (gasless distal) (6) (complicated: pneumatosis, portal venous gas, free air)",
    exp:"Closed-loop/strangulation ฟิล์มธรรมดาบอกได้ไม่ดี → CT with contrast (whirl sign, ผนังลำไส้ไม่ enhance, mesenteric edema)",
    rubric:"ได้ = SBO + signs ≥3 (dilated SB, valvulae, air-fluid levels, colon ไม่มีลม)",
@@ -328,13 +328,13 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Imaging film",title
  summary:["SBO: SB >3 cm กลางท้อง + valvulae conniventes (stack of coins)","Step-ladder air-fluid levels · string of beads","Colon/rectum ไม่มีลม","สงสัย strangulation → CT"]}),
 
 /* ===== PowerPoint 2 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Other spot",title:"Spot — acute epigastric pain: diagnosis",
+Co({page:282,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Other spot",title:"Spot — acute epigastric pain: diagnosis",
  stem:`A 45-year-old man who drinks alcohol heavily presents with sudden severe epigastric pain radiating to the back for 12 hours, with repeated vomiting. He leans forward to ease the pain. Epigastric tenderness and guarding are present.<br>What is the most likely diagnosis? Give the diagnostic criteria.`,
  gray:"2.ให้อาการปวดท้องมา ถามว่าเปนไร อาการค่อนข้างชัดคิดว่าเปน pancreatitis",
  flag:"ประวัติผู้ป่วย Claude แต่ง (ไฟล์จดแค่ 'อาการค่อนข้างชัด') · สไลด์เป็นโจทย์ข้อความ → sub Other spot · คำถามเกณฑ์วินิจฉัย Claude เติม",
  notes:"สไลด์ 2–4 เป็นเคสต่อเนื่อง (ตามเลขในไฟล์ แยกเป็นคนละสถานี)",
  parts:S(
-  B("PPT 2.1 Diagnosis and diagnostic criteria.",3,{tags:["spot"],key:"ไฟล์: 'คิดว่าเป็น pancreatitis'",
+  B("SA 2.1 Diagnosis and diagnostic criteria.",3,{tags:["spot"],key:"ไฟล์: 'คิดว่าเป็น pancreatitis'",
    ans:"<b>Acute pancreatitis</b> (alcohol-induced) · <b>Revised Atlanta 2012</b>: วินิจฉัยเมื่อมี <b>≥2 ใน 3</b>: (1) ปวดท้องเข้าได้ (epigastric เฉียบพลัน รุนแรง ร้าวไปหลัง) (2) <b>serum lipase (หรือ amylase) ≥3 เท่าของค่าปกติสูงสุด</b> (3) ภาพ (CT/MRI/US) เข้าได้กับ pancreatitis · สาเหตุบ่อย: <b>นิ่วถุงน้ำดี</b> และ <b>สุรา</b> (อื่น ๆ: hypertriglyceridemia, hypercalcemia, หลัง ERCP, ยา, trauma)",
    exp:"Lipase จำเพาะกว่าและสูงนานกว่า amylase · ไม่ต้องทำ CT ถ้าครบ 2 เกณฑ์แรก",
    rubric:"ได้ = acute pancreatitis + เกณฑ์ 2 ใน 3",
@@ -344,12 +344,12 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Other spot",title:"
  summary:["Acute pancreatitis: ≥2 ใน 3 — pain, lipase/amylase ≥3× ULN, imaging","สาเหตุบ่อย: gallstone, alcohol","อื่น: TG สูง, Ca สูง, post-ERCP, ยา"]}),
 
 /* ===== PowerPoint 3 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Other spot",title:"Spot — acute epigastric pain: differential diagnoses and investigations",
+Co({page:282,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Other spot",title:"Spot — acute epigastric pain: differential diagnoses and investigations",
  stem:`(Continued from the previous slide: a 45-year-old man who drinks heavily with sudden severe epigastric pain radiating to the back.)<br>1. Give the differential diagnoses.<br>2. What investigations would you send?`,
  gray:"3.ถามต่อว่าให้ diff dx กับอะไร!!! จะส่งอะไรเพิ่มเติม",
  flag:"เคสต่อจาก PPT 2 (ประวัติ Claude แต่ง)",
  parts:S(
-  B("PPT 3.1 Differential diagnoses and investigations.",4,{tags:["spot"],
+  B("SA 3.1 Differential diagnoses and investigations.",4,{tags:["spot"],
    ans:"<b>DDx</b>: <b>perforated peptic ulcer</b>, <b>acute cholecystitis/cholangitis</b>/biliary colic, <b>acute inferior MI</b>, <b>ruptured/dissecting AAA</b>, <b>acute mesenteric ischemia</b>, bowel obstruction/volvulus, (DKA, lower lobe pneumonia) · <b>Investigations</b>: <b>serum lipase</b> (± amylase) · CBC, BUN/Cr, electrolytes, <b>calcium</b>, <b>glucose</b>, <b>LFT</b> (ALT &gt;150 → นึกถึงนิ่ว), <b>triglyceride</b>, LDH, CRP, ABG/lactate, coagulation · <b>ECG</b> (แยก MI) · <b>upright CXR/acute abdomen series</b> (แยก free air, ดู pleural effusion) · <b>US abdomen</b> (หานิ่วถุงน้ำดี — ทำทุกราย) · <b>CECT abdomen</b> เมื่อวินิจฉัยไม่ชัด หรือหลัง 72–96 ชม. ถ้าไม่ดีขึ้น (หา necrosis/ภาวะแทรกซ้อน) — ไม่จำเป็นต้องทำทันทีทุกราย",
    exp:"ประเมินความรุนแรง: SIRS, BUN, Hct, BISAP, Ranson (48 ชม.), APACHE II, organ failure (modified Marshall) · Revised Atlanta: mild / moderately severe (transient organ failure &lt;48 ชม. หรือ local complication) / severe (persistent organ failure &gt;48 ชม.)",
    rubric:"ได้ = DDx ≥3 รวม PPU และ MI + lipase + US + ECG/CXR + lab ประเมินสาเหตุ/ความรุนแรง",
@@ -360,12 +360,12 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Other spot",title:"
  summary:["DDx: PPU, cholecystitis/cholangitis, inferior MI, AAA, mesenteric ischemia","Lipase + LFT, Ca, TG, BUN, glucose","ECG + upright CXR + US ทุกราย","CT เมื่อวินิจฉัยไม่ชัดหรือ 72–96 ชม. ไม่ดีขึ้น"]}),
 
 /* ===== PowerPoint 4 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 4",topic:"spot",sub:"Other spot",title:"Spot — acute pancreatitis: treatment",
+Co({page:282,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Other spot",title:"Spot — acute pancreatitis: treatment",
  stem:`(Continued: the patient is diagnosed with acute pancreatitis from alcohol.)<br>Outline the treatment.`,
  gray:"4.ถามต่อว่าจะให้รักษายังไง",
  flag:"เคสต่อจาก PPT 2–3 (ข้อมูลผู้ป่วย Claude แต่ง)",
  parts:S(
-  B("PPT 4.1 Outline the treatment.",4,{tags:["spot"],
+  B("SA 4.1 Outline the treatment.",4,{tags:["spot"],
    ans:"<b>Supportive care</b> ใน ward (ICU ถ้า severe/organ failure) · <b>IV fluid</b>: crystalloid (<b>Ringer's lactate</b> ดีกว่า NSS) แบบ <b>goal-directed ปริมาณปานกลาง</b> (เช่น bolus 10 mL/kg ถ้า hypovolemic แล้ว ~1.5 mL/kg/ชม.) ปรับตาม urine output ≥0.5 mL/kg/ชม., HR, BUN, Hct — หลีกเลี่ยงให้มากเกิน (WATERFALL 2022) · <b>ยาแก้ปวด</b> (opioid ใช้ได้) · antiemetic · O2 · <b>เริ่มอาหารทางปากเร็ว</b> (ภายใน 24–72 ชม. เมื่อทนได้) ไม่ต้อง NPO นาน — ถ้ากินไม่ได้ใช้ <b>enteral (NG/NJ) ก่อน TPN</b> · <b>ไม่ให้ antibiotic ป้องกัน</b> (ให้เมื่อมี infected necrosis/การติดเชื้ออื่น) · ติดตาม organ failure, glucose, Ca · <b>รักษาสาเหตุ</b>: หยุดสุรา (+ ป้องกัน alcohol withdrawal: thiamine, benzodiazepine) · ถ้าจากนิ่ว → cholecystectomy ใน admission เดียวกัน (mild), ERCP เฉพาะมี cholangitis/ท่อน้ำดีอุดตันต่อเนื่อง · <b>ภาวะแทรกซ้อน</b>: acute peripancreatic fluid collection/pseudocyst/walled-off necrosis → step-up approach (percutaneous/endoscopic drainage → necrosectomy) เมื่อมีข้อบ่งชี้ ช้ากว่า 4 สัปดาห์ถ้าทำได้",
    exp:"AGA 2018/ACG 2024: aggressive fluid ไม่ดีกว่าและเพิ่ม fluid overload · ไม่ให้ prophylactic antibiotics · early oral feeding ปลอดภัย",
    rubric:"ได้ = IV fluid (LR, goal-directed) + analgesia + early feeding + ไม่ให้ ATB ป้องกัน + รักษาสาเหตุ (หยุดสุรา) · บางส่วน = ให้ NPO นาน/ATB ทุกราย",
@@ -375,13 +375,13 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 4",topic:"spot",sub:"Other spot",title:"
  summary:["Ringer's lactate goal-directed ปานกลาง ไม่มากเกิน","Opioid ใช้ได้ · กินเร็วเมื่อทนได้ · enteral ก่อน TPN","ไม่ให้ prophylactic antibiotics","หยุดสุรา · นิ่ว → cholecystectomy admission เดียวกัน","Necrosis ติดเชื้อ → step-up (drain → necrosectomy)"]}),
 
 /* ===== PowerPoint 5 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 5",topic:"spot",sub:"Imaging film",title:"Spot — infant radiograph: diagnosis",seen:"คล้าย MDCU65 RoA PPT 8 และ MDCU66 RoD PPT 9 (ฟิล์ม midgut volvulus)",
+Co({page:282,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Imaging film",title:"Spot — infant radiograph: diagnosis",seen:"คล้าย MDCU65 RoA SA 8 และ MDCU66 RoD SA 9 (ฟิล์ม midgut volvulus)",
  stem:`A radiograph of a 2-week-old infant with bilious vomiting is shown.<br>1. What is the most likely diagnosis?<br>2. What is the underlying anatomical abnormality, and what is the treatment?`,
  gray:"5.ภาพ xray น่าจะ midgut volvulus บางคนบอกว่าเปน ladd's band",
  flag:NOIMG+" · ผู้จดไม่แน่ใจ (midgut volvulus หรือ Ladd's band) · อายุ/อาการ และคำถามย่อยที่สอง Claude เติม",imgAlt:"ฟิล์มเอกซเรย์ช่องท้องของทารก",
  opinion:"คำตอบทั้งสองที่ผู้จดได้ยินมาเกี่ยวกันจริง: malrotation ทำให้เกิดทั้ง Ladd's bands (กด duodenum → อุดตัน) และ midgut volvulus (บิดรอบ SMA) — ในเด็กที่อาเจียนน้ำดี diagnosis ที่ต้องตอบคือ malrotation with midgut volvulus (ภาวะฉุกเฉิน) โดยกล่าวถึง Ladd's bands เป็นส่วนของพยาธิสภาพ",
  parts:S(
-  B("PPT 5.1 Diagnosis, underlying abnormality and treatment.",4,{tags:["spot"],key:"ไฟล์: 'น่าจะ midgut volvulus บางคนบอกว่าเป็น Ladd's band'",
+  B("SA 5.1 Diagnosis, underlying abnormality and treatment.",4,{tags:["spot"],key:"ไฟล์: 'น่าจะ midgut volvulus บางคนบอกว่าเป็น Ladd's band'",
    ans:"<b>Malrotation with midgut volvulus</b> (± duodenal obstruction จาก <b>Ladd's bands</b>) · ฟิล์มธรรมดา: อาจเห็น <b>double bubble</b> ที่มีลมปลายน้อย/ไม่มี หรือลำไส้กระจายผิดตำแหน่ง/gasless abdomen · UGI: DJ junction ขวาต่อแนวกลาง, corkscrew, beak · <b>พยาธิสภาพ</b>: ลำไส้หมุนไม่ครบ 270° → cecum อยู่ผิดตำแหน่ง (RUQ) มี <b>Ladd's bands</b> พาดจาก cecum ผ่าน duodenum ไปผนังด้านขวา + <b>ฐาน mesentery แคบ</b> → บิดรอบ SMA ง่าย · <b>รักษา</b>: resuscitation (NG, IV fluid, antibiotics) → <b>emergency Ladd's procedure</b> (detorsion ทวนเข็มนาฬิกา, ตัด Ladd's bands, ขยาย mesentery, appendectomy, วาง SB ขวา colon ซ้าย)",
    exp:"Double bubble + ไม่มีลมปลายเลย = duodenal atresia (มักไม่ฉุกเฉินเท่า) · double bubble + มีลมปลาย = ต้องคิด malrotation/volvulus (ฉุกเฉิน) หรือ duodenal stenosis/web",
    rubric:"ได้ = malrotation with midgut volvulus + อธิบาย Ladd's bands/mesentery แคบ + Ladd's procedure ฉุกเฉิน",
@@ -391,12 +391,12 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 5",topic:"spot",sub:"Imaging film",title
  summary:["Malrotation → Ladd's bands (กด duodenum) + mesentery แคบ (volvulus)","Bilious vomiting ในทารก = ฉุกเฉิน","Double bubble + ลมปลาย → คิด volvulus","Ladd's procedure"]}),
 
 /* ===== PowerPoint 6 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 6",topic:"spot",sub:"Imaging film",title:"Spot — intravenous pyelogram: describe the abnormality",seen:"คล้าย MDCU65 RoA PPT 3 (IVP อ่านความผิดปกติ)",
+Co({page:282,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Imaging film",title:"Spot — intravenous pyelogram: describe the abnormality",seen:"คล้าย MDCU65 RoA SA 3 (IVP อ่านความผิดปกติ)",
  stem:`An intravenous pyelogram of a 20-year-old man with intermittent right flank pain, worse after drinking large volumes of fluid, is shown.<br>1. Describe the abnormality.<br>2. What is the diagnosis?`,
  gray:"6.ภาพ IVP ถามความผิดปกติให้บรรยาย",
  flag:"⚠ "+NOIMG+" · ไฟล์ไม่ได้บอกความผิดปกติ — Claude เลือก UPJ obstruction (ไม่ซ้ำกับนิ่วในท่อไตของ MDCU65 RoA) และแต่งประวัติ",imgAlt:"ฟิล์ม IVP ของผู้ป่วยชายวัยหนุ่ม",
  parts:S(
-  B("PPT 6.1 Describe the abnormality and give the diagnosis.",4,{tags:["spot"],
+  B("SA 6.1 Describe the abnormality and give the diagnosis.",4,{tags:["spot"],
    ans:"<b>บรรยาย</b>: KUB ไม่มีก้อน radiopaque · IVP: ไตขวา nephrogram ช้า, <b>renal pelvis โป่งขยายมาก (ballooned pelvis) และ calyces ป้าน (hydronephrosis)</b> · <b>ureter ขวาขนาดปกติหรือมองไม่เห็นใต้ระดับ UPJ</b> (ไม่มี hydroureter) · ไตซ้ายปกติ · <b>Dx: Right ureteropelvic junction (UPJ) obstruction</b> · สาเหตุ: intrinsic stenosis (aperistaltic segment), crossing lower-pole vessel · ยืนยัน/ประเมิน: <b>diuretic renogram (MAG3 + furosemide)</b> ดู obstruction และ split function · รักษา: <b>pyeloplasty (Anderson-Hynes dismembered)</b> แบบ open/laparoscopic/robotic เมื่อมีอาการ, split function ลด, ติดเชื้อ/นิ่ว",
    exp:"Dietl's crisis = ปวดเอวเป็นพัก ๆ หลังดื่มน้ำมาก/เบียร์ ใน UPJ obstruction · hydronephrosis + hydroureter = อุดตันที่ ureter ส่วนล่าง/VUJ/VUR",
    rubric:"ได้ = hydronephrosis + ureter ปกติ (ไม่มี hydroureter) + UPJ obstruction · บางส่วน = บอกแค่ hydronephrosis",
@@ -406,13 +406,13 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 6",topic:"spot",sub:"Imaging film",title
  summary:["UPJ obstruction: pelvis โป่ง + calyces ป้าน + ureter ปกติ","Dietl's crisis: ปวดหลังดื่มน้ำมาก","ยืนยัน: diuretic renogram (MAG3)","รักษา: dismembered pyeloplasty"]}),
 
 /* ===== PowerPoint 7 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 7",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — lesion beside the nasal ala: diagnosis and management",
+Co({page:282,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — lesion beside the nasal ala: diagnosis and management",
  stem:`A photograph shows a well-defined, raised skin lesion beside the ala of the nose of a 68-year-old farmer.<br>1. What is the most likely diagnosis? Give the main differential diagnosis.<br>2. Outline the management.`,
  gray:"7.ภาพ basal cell หรือ squamous cell ca ก็ไม่รู้ เถียงๆกัน แต่ขึ้นข้างปีกจมูก ไม่เห็นวาวๆ แต่ก็ขอบเขตก็ชัดเจนดี",
  flag:"⚠ "+NOIMG+" · ผู้จดไม่แน่ใจระหว่าง BCC กับ SCC · อายุ/อาชีพ Claude เติม",imgAlt:"รูปใบหน้าด้านข้างจมูก มีรอยโรคที่ผิวหนังข้างปีกจมูก",
  opinion:"ไฟล์ไม่มีคำตอบ (ผู้จดเถียงกันระหว่าง BCC/SCC) · Claude ตอบ BCC เป็นอันดับแรก เพราะตำแหน่งใบหน้าส่วนกลาง (H-zone/ข้างปีกจมูก) และขอบเขตชัดเป็นลักษณะของ BCC ซึ่งพบบ่อยที่สุด แม้ไม่เห็น pearly appearance · ต้องยืนยันด้วย biopsy",
  parts:S(
-  B("PPT 7.1 Diagnosis, differential and management.",4,{tags:["spot"],key:"ผู้จด: BCC หรือ SCC ไม่แน่ใจ — ขึ้นข้างปีกจมูก ไม่เห็นวาว ๆ แต่ขอบเขตชัด",
+  B("SA 7.1 Diagnosis, differential and management.",4,{tags:["spot"],key:"ผู้จด: BCC หรือ SCC ไม่แน่ใจ — ขึ้นข้างปีกจมูก ไม่เห็นวาว ๆ แต่ขอบเขตชัด",
    ans:"<b>Most likely: Basal cell carcinoma (nodular type)</b> — มะเร็งผิวหนังที่พบบ่อยที่สุด ชอบใบหน้าส่วนกลาง (ข้างจมูก, nasolabial fold, เปลือกตา), <b>ขอบเขตชัด ขอบนูนม้วน (rolled border)</b>, ผิวมันวาว (pearly) มี telangiectasia, อาจมีแผลตรงกลาง (rodent ulcer) — ไม่จำเป็นต้องเห็นมันวาวทุกราย · <b>DDx: Squamous cell carcinoma</b> — ขอบเขตไม่ชัดเท่า แข็ง มีสะเก็ด keratin/แผล โตเร็วกว่า เกิดบน actinic keratosis, ริมฝีปากล่าง, หลังมือ · อื่น ๆ: keratoacanthoma, amelanotic melanoma, sebaceous hyperplasia · <b>Management</b>: <b>biopsy</b> (punch/shave/incisional) ยืนยัน · BCC: <b>surgical excision margin ~4 mm</b> (low-risk) · ใบหน้าส่วนกลาง (H-zone) = <b>high-risk</b> → <b>Mohs micrographic surgery</b> หรือ excision with margin control/frozen section · ปิดแผลด้วย local flap/graft · ทางเลือกในผู้ที่ผ่าตัดไม่ได้: radiotherapy · BCC แพร่กระจายน้อยมาก ไม่ต้องตรวจ LN routine (SCC ต้องตรวจ) · ป้องกันแดด ติดตามผิวหนัง",
    exp:"NCCN: H-zone (central face, eyelids, nose, lips, chin, ear, periauricular) จัดเป็นตำแหน่ง high-risk ทั้ง BCC และ SCC",
    rubric:"ได้ = BCC (ให้เหตุผลตำแหน่ง/ขอบเขต) + DDx SCC + biopsy + excision margin/Mohs · บางส่วน = ตอบ SCC โดยให้เหตุผลและการรักษาถูกต้อง",
@@ -422,12 +422,12 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 7",topic:"spot",sub:"Plastic/Skin/Burn",
  summary:["BCC: H-zone, rolled pearly border, telangiectasia, rodent ulcer","SCC: ขอบไม่ชัด keratin แผล บน actinic keratosis","Biopsy → excision 4 mm (low risk) / Mohs (H-zone)","BCC แพร่กระจายน้อยมาก"]}),
 
 /* ===== PowerPoint 8 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 8",topic:"spot",sub:"Breast",title:"Spot — breast lump: further history",
+Co({page:282,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Breast",title:"Spot — breast lump: further history",
  stem:`A photograph of a woman's breast with a visible lump is shown. She presents with a breast lump.<br>What further history would you take?`,
  gray:"8.รูปนมมาด้วยก้อน ให้ซักประวัติเพิ่มเติม",
  flag:NOIMG,imgAlt:"รูปเต้านมของหญิงวัยผู้ใหญ่ที่มีก้อนนูน",
  parts:S(
-  B("PPT 8.1 What further history would you take?",4,{tags:["spot"],
+  B("SA 8.1 What further history would you take?",4,{tags:["spot"],
    ans:"<b>เกี่ยวกับก้อน</b>: พบเมื่อไร อย่างไร, <b>โตเร็ว/ช้า</b>, เจ็บไหม, <b>เปลี่ยนตามรอบเดือน</b>ไหม, ก้อนอื่น/อีกข้าง · <b>อาการร่วมเฉพาะที่</b>: <b>nipple discharge</b> (เลือด), หัวนมบุ๋ม/เปลี่ยน, ผิวหนังบุ๋ม/เปลือกส้ม/แดง/แผล, ก้อนที่รักแร้ · <b>อาการแพร่กระจาย</b>: น้ำหนักลด เบื่ออาหาร, <b>ปวดกระดูก</b>, ไอ/หอบ, ปวดท้องขวาบน/ตัวเหลือง, ปวดศีรษะ/อ่อนแรง · <b>ปัจจัยเสี่ยง</b>: อายุ, <b>ประวัติครอบครัว</b> มะเร็งเต้านม/รังไข่ (อายุที่เป็น, ญาติสายตรง, BRCA), <b>ประวัติประจำเดือน</b> (มีประจำเดือนเร็ว &lt;12 ปี, หมดช้า &gt;55 ปี), <b>ไม่มีบุตร/มีบุตรคนแรกอายุ &gt;30 ปี</b>, ไม่ได้ให้นมบุตร, <b>ฮอร์โมน</b> (HRT, ยาคุม), เคยฉายรังสีทรวงอก (เช่น Hodgkin), เคยตัดชิ้นเนื้อเต้านม (atypical hyperplasia/LCIS), มะเร็งเต้านมข้างตรงข้าม, สุรา อ้วน · <b>อื่น ๆ</b>: ตั้งครรภ์/ให้นม (แยก galactocele/abscess), ประวัติอุบัติเหตุ (fat necrosis), ผล mammogram เดิม, โรคประจำตัว ยา",
    exp:"Gail model ใช้อายุ, อายุมีประจำเดือนครั้งแรก, อายุมีบุตรคนแรก, ญาติสายตรงเป็นมะเร็ง, จำนวนครั้งที่ biopsy, atypical hyperplasia, เชื้อชาติ",
    rubric:"ได้ = ลักษณะก้อน + อาการเฉพาะที่ (discharge/ผิว/หัวนม) + อาการแพร่กระจาย + ปัจจัยเสี่ยง ≥4 (ครอบครัว, ประจำเดือน, บุตร, ฮอร์โมน)",
@@ -438,13 +438,13 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 8",topic:"spot",sub:"Breast",title:"Spot
  summary:["ก้อน: เวลา โตเร็ว เจ็บ สัมพันธ์รอบเดือน","เฉพาะที่: discharge หัวนม ผิวหนัง รักแร้","แพร่กระจาย: กระดูก ปอด ตับ สมอง น้ำหนักลด","เสี่ยง: ครอบครัว/BRCA, menarche/menopause, parity, HRT, รังสี, atypia"]}),
 
 /* ===== PowerPoint 9 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 9",topic:"spot",sub:"Pathology/Staging",title:"Spot — breast cancer clinical data: give the clinical stage",
+Co({page:282,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Pathology/Staging",title:"Spot — breast cancer clinical data: give the clinical stage",
  stem:`A woman has a breast mass 4.5 cm in diameter that is fixed (to the underlying pectoralis fascia), with no skin changes. There are fixed, matted ipsilateral axillary lymph nodes. Chest X-ray and blood tests show no evidence of metastasis.<br>Give the clinical TNM classification and stage.`,
  gray:"9. มีข้อมูลให้มาหมด ก้อน 4.5 cm fixed no skin lesion. Lymph node fixed matted node at axilla ตรวจ CXR และผลเลือด ไม่พบ metastasis ให้ตอบ clinical staging",
  flag:"⚠ ไฟล์เขียนแค่ 'fixed' ไม่ได้บอกว่าติดกับอะไร — Claude ระบุในโจทย์ว่าติด pectoralis fascia (ไม่ใช่ผนังทรวงอก) และอธิบายทั้งสองกรณีในเฉลย",
  opinion:"คำว่า 'fixed' ในโจทย์กำกวม: ถ้าติดเฉพาะกล้ามเนื้อ pectoralis = ยังเป็น T2 · ถ้าติดผนังทรวงอก (ซี่โครง/intercostal/serratus anterior) = T4a → stage IIIB · ข้อสอบส่วนใหญ่ต้องการคำตอบ T2N2aM0 = IIIA",
  parts:S(
-  B("PPT 9.1 Clinical TNM and stage.",4,{tags:["spot"],
+  B("SA 9.1 Clinical TNM and stage.",4,{tags:["spot"],
    ans:"<b>cT2</b> (4.5 cm: &gt;2–5 cm; การติด <b>pectoralis muscle/fascia ไม่นับเป็น T4</b>) · <b>cN2a</b> (ipsilateral axillary LN ที่ <b>fixed/matted</b> ติดกันหรือติดโครงสร้างอื่น) · <b>cM0</b> → <b>Clinical stage IIIA</b> (T2N2M0; locally advanced breast cancer) · ถ้า 'fixed' หมายถึง<b>ติดผนังทรวงอก</b> (ซี่โครง, intercostal, serratus anterior) = <b>T4a</b> → stage <b>IIIB</b> · แนวรักษา: core biopsy + receptor status → <b>neoadjuvant systemic therapy</b> → surgery (mastectomy + axillary dissection) → radiotherapy",
    exp:"cN1 = axillary LN เคลื่อนได้ · cN2a = axillary LN fixed/matted · cN2b = internal mammary LN อย่างเดียว · cN3 = infraclavicular / internal mammary + axillary / supraclavicular · T4b = ผิวหนังบวมเปลือกส้ม แผล satellite nodules · T4d = inflammatory",
    rubric:"ได้ = T2 + N2a (fixed/matted) + M0 + IIIA (หรือ T4a/IIIB พร้อมเหตุผลว่าติดผนังอก) · บางส่วน = ตอบ N1",
@@ -454,17 +454,17 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 9",topic:"spot",sub:"Pathology/Staging",
  summary:["cN1 เคลื่อนได้ · cN2a fixed/matted · cN3 infra/supraclavicular","ติด pectoralis ≠ T4 · ติดผนังอก (ซี่โครง/serratus) = T4a","T2N2M0 = IIIA (locally advanced)","LABC → neoadjuvant systemic therapy ก่อนผ่าตัด"]}),
 
 /* ===== PowerPoint 10 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — enlarging scar after a small abrasion",
+Co({page:282,sec:"Short Answers",orig:"PPT 10",num:"SA 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — enlarging scar after a small abrasion",
  stem:`A patient had a small abrasion about 2 months ago. It has now become a large, raised, firm scar extending beyond the original wound.<br>A. What is this lesion called?<br>B. How can it be distinguished from a hypertrophic scar?`,
  gray:"10. เคยมีแผล abrasion ขนาดเล็กๆ เมื่อไม่นานมานี้ ( 2 เดือนปะ?) ปัจจุบันมีแผลขนาดใหญ่น่าจะเป็น keloid ก. จง dx ว่า lesion เรียกว่า? ข. Lesion ดังกล่าวจะแยกกับ hypertrophic scar ได้อย่างไร?",
  flag:NOIMG+" · ผู้จดไม่แน่ใจระยะเวลา ('2 เดือนปะ?')",imgAlt:"รูปแผลเป็นนูนบนผิวหนัง",
  parts:S(
-  B("PPT 10.1 (A) What is this lesion called?",2,{tags:["spot"],key:"ไฟล์: 'น่าจะเป็น keloid'",
+  B("SA 10.1 (A) What is this lesion called?",2,{tags:["spot"],key:"ไฟล์: 'น่าจะเป็น keloid'",
    ans:"<b>Keloid</b> — แผลเป็นนูนจากการสร้าง collagen มากผิดปกติ <b>ลุกลามเกินขอบเขตแผลเดิม</b> แม้แผลเริ่มต้นเล็กมาก (abrasion, สิว, เจาะหู)",
    exp:"ตำแหน่งที่พบบ่อย: ติ่งหู, กลางอก (presternal), ไหล่, หลังส่วนบน · พบมากในผิวสีเข้ม และมีประวัติครอบครัว",
    rubric:"ได้ = keloid",
    pts:[CR(P("Keloid","keloid","คีลอยด์"))]}),
-  B("PPT 10.2 (B) How do you distinguish it from a hypertrophic scar?",4,{tags:["spot"],
+  B("SA 10.2 (B) How do you distinguish it from a hypertrophic scar?",4,{tags:["spot"],
    ans:"<b>Keloid</b>: <b>ลามเกินขอบแผลเดิม</b> · เกิดช้า (หลายเดือนหลังแผลหาย) · <b>ไม่ยุบเอง</b> โตต่อเนื่อง · ตำแหน่งจำเพาะ (ติ่งหู กลางอก ไหล่ หลังส่วนบน) · ผิวสีเข้ม/ครอบครัว · <b>เป็นซ้ำสูงมากหลังผ่าตัดตัดออกอย่างเดียว</b> (45–100%) · พยาธิ: <b>collagen มัดหนาแบบ hyalinized (keloidal collagen) เรียงไม่เป็นระเบียบ</b>, ไม่มี nodule, myofibroblast น้อย · <b>Hypertrophic scar</b>: <b>อยู่ภายในขอบแผลเดิม</b> · เกิดเร็ว (ภายในสัปดาห์–1 เดือน) · <b>ยุบลงเองได้</b>ใน 12–18 เดือน · เกิดบริเวณที่มีแรงตึง/ข้อพับ/แผลไฟไหม้ · ตอบสนองต่อการแก้แรงตึง (Z-plasty) ดี เป็นซ้ำน้อยกว่า · พยาธิ: collagen เส้นเล็กเรียงขนานผิว, มี <b>nodule ของ myofibroblast (α-SMA บวก)</b> · <b>การรักษา keloid</b>: intralesional triamcinolone, silicone gel sheet, pressure garment; ผ่าตัด + adjuvant (steroid injection/radiotherapy)",
    exp:"ทั้งสองเป็น fibroproliferative disorder ของการหายของแผล · ป้องกันใน keloid-prone: หลีกเลี่ยงการผ่าตัด/เจาะที่ไม่จำเป็น, ลดแรงตึงแผล",
    rubric:"ได้ = ขอบเขตเกินแผลเดิม vs อยู่ในขอบ + การยุบเอง + เวลาเกิด + เป็นซ้ำ ± พยาธิวิทยา · บางส่วน = บอกได้ข้อเดียว",
@@ -474,13 +474,13 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 10",topic:"spot",sub:"Plastic/Skin/Burn"
  summary:["Keloid: เกินขอบแผลเดิม ไม่ยุบ เกิดช้า เป็นซ้ำสูง ติ่งหู/อก/ไหล่","Hypertrophic: อยู่ในขอบ ยุบเอง 12–18 เดือน เกิดเร็ว บริเวณตึง/ข้อ","พยาธิ: keloidal collagen vs myofibroblast nodules","Keloid: triamcinolone ฉีด, silicone, pressure; ผ่าตัดต้องมี adjuvant"]}),
 
 /* ===== PowerPoint 11 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 11",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — chronic leg ulcer: describe the lesion",
+Co({page:282,sec:"Short Answers",orig:"PPT 11",num:"SA 11",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — chronic leg ulcer: describe the lesion",
  stem:`A photograph of a chronic ulcer on the lower leg of a 60-year-old woman is shown.<br>Describe the lesion.`,
  gray:"11. มี chronic venous ulcer ให้บรรยาย lesion",
  flag:NOIMG+" · อายุ/เพศ Claude เติม",imgAlt:"รูปแผลเรื้อรังบริเวณขาส่วนล่าง",
  notes:"สไลด์ 11–12 เป็นเคสเดียวกัน (แยกเป็นคนละสถานีตามเลขในไฟล์)",
  parts:S(
-  B("PPT 11.1 Describe the lesion.",4,{tags:["spot"],key:"ไฟล์ระบุ: chronic venous ulcer (ไม่มีเฉลยการบรรยาย)",
+  B("SA 11.1 Describe the lesion.",4,{tags:["spot"],key:"ไฟล์ระบุ: chronic venous ulcer (ไม่มีเฉลยการบรรยาย)",
    ans:"แผลเดี่ยวขนาดใหญ่ ~6×4 cm ที่ <b>gaiter area เหนือ medial malleolus</b> · รูปร่างไม่สม่ำเสมอ · <b>ขอบลาดเอียง (sloping edge)</b> ไม่นูน · <b>ตื้น</b> · <b>ฐานเป็น granulation tissue สีแดงปนคราบ fibrin สีเหลือง</b> · <b>มีสารคัดหลั่ง (exudate) มาก</b> · ไม่ค่อยเจ็บ · <b>ผิวรอบแผล</b>: <b>สีน้ำตาลคล้ำ (hemosiderin pigmentation)</b>, <b>lipodermatosclerosis</b> (ผิวแข็งตึง ขาเป็นรูปขวดแชมเปญคว่ำ), venous eczema, atrophie blanche, <b>เส้นเลือดขอด</b>, ขาบวม · ชีพจรเท้าคลำได้ (ต้องตรวจ ABI ก่อนใช้ compression) · <b>Dx: Chronic venous ulcer (CEAP C6)</b>",
    exp:"เทียบ arterial ulcer: ปลายนิ้ว/จุดกดทับ ขอบเรียบ punched-out ฐานซีด เจ็บมาก ชีพจรเบา · neuropathic ulcer: ฝ่าเท้าจุดรับน้ำหนัก มี callus ไม่เจ็บ",
    rubric:"ได้ = ตำแหน่ง gaiter/medial malleolus + ขอบลาด + ตื้น + ฐาน granulation/fibrin + exudate + ผิวรอบ (pigmentation, lipodermatosclerosis, varicose) · บางส่วน = บรรยายแผลไม่ครบองค์ประกอบ",
@@ -490,12 +490,12 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 11",topic:"spot",sub:"Vascular/Ulcer",ti
  summary:["Venous ulcer: gaiter area เหนือ medial malleolus","ขอบลาด ตื้น ฐาน granulation/fibrin exudate มาก ไม่ค่อยเจ็บ","ผิวรอบ: hemosiderin, lipodermatosclerosis, eczema, varicose veins","Arterial: ปลายนิ้ว punched-out ซีด เจ็บมาก"]}),
 
 /* ===== PowerPoint 12 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 12",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — chronic venous ulcer: cause and risk factors",
+Co({page:282,sec:"Short Answers",orig:"PPT 12",num:"SA 12",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — chronic venous ulcer: cause and risk factors",
  stem:`(Continued from the previous slide: chronic venous ulcer of the lower leg.)<br>1. What causes this ulcer?<br>2. What are the risk factors?`,
  gray:"12.ข้อต่อมาให้ถามว่าเกิดจากอะไร และถามว่าอะไรเป็น risk",
  flag:"เคสต่อจาก PPT 11",
  parts:S(
-  B("PPT 12.1 Cause and risk factors.",4,{tags:["spot"],
+  B("SA 12.1 Cause and risk factors.",4,{tags:["spot"],
    ans:"<b>สาเหตุ (pathophysiology)</b>: <b>chronic venous insufficiency → ambulatory venous hypertension</b> ที่ขาส่วนล่าง จาก (1) <b>valvular reflux</b> ของ superficial (GSV/SSV), perforator หรือ deep veins (2) <b>venous obstruction</b> — ส่วนใหญ่ <b>post-thrombotic syndrome</b> หลัง DVT (3) <b>calf muscle pump ล้มเหลว</b> (ข้อเท้ายึด, อัมพาต, อ้วน) → ความดันสูงในหลอดเลือดฝอย → เม็ดเลือดขาวติดค้าง/fibrin cuff/hemosiderin → การอักเสบเรื้อรัง ผิวขาดออกซิเจน → แผล · <b>Risk factors</b>: <b>ประวัติ DVT</b>/กระดูกหักที่ขา, <b>varicose veins</b>, อายุมาก, เพศหญิง, <b>ตั้งครรภ์หลายครั้ง</b>, <b>อ้วน</b>, <b>ยืนนาน</b>/ไม่ค่อยเคลื่อนไหว, ประวัติครอบครัว, thrombophilia, การเคลื่อนไหวข้อเท้าน้อย · รักษาหลัก: <b>compression therapy</b> (หลังตรวจ ABI ≥0.8) + ยกขา + ดูแลแผล ± แก้ superficial reflux (EVLA/RFA/ผ่าตัด) ลดการกลับเป็นซ้ำ",
    exp:"ESCHAR/EVRA trial: แก้ superficial venous reflux ร่วมกับ compression ช่วยให้แผลหายเร็วขึ้นและลดการกลับเป็นซ้ำ",
    rubric:"ได้ = venous hypertension จาก reflux/obstruction (post-thrombotic)/calf pump failure + risk factors ≥4 รวม DVT",
@@ -506,13 +506,13 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 12",topic:"spot",sub:"Vascular/Ulcer",ti
  summary:["Venous hypertension: reflux + obstruction (post-thrombotic) + calf pump failure","Risk: DVT, varicose veins, อายุ, หญิง, ครรภ์หลายครั้ง, อ้วน, ยืนนาน","รักษา: compression (ABI ≥0.8) + ยกขา + แก้ superficial reflux"]}),
 
 /* ===== PowerPoint 13 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 13",topic:"spot",sub:"Imaging film",title:"Spot — newborn radiograph with a history of polyhydramnios",
+Co({page:282,sec:"Short Answers",orig:"PPT 13",num:"SA 13",topic:"spot",sub:"Imaging film",title:"Spot — newborn radiograph with a history of polyhydramnios",
  stem:`A newborn whose mother had polyhydramnios develops bilious vomiting within the first day of life. An abdominal radiograph is shown.<br>1. What is the diagnosis?<br>2. Explain the pathogenesis.`,
  gray:"13. เด็กมี polyhydraminos ให้รูป double bubble signมา ให้ Dx และบอกพยาธิกำเนิดของโรค",
  flag:NOIMG+" · อาการอาเจียนน้ำดี Claude เติม",imgAlt:"ฟิล์มเอกซเรย์ช่องท้องของทารกแรกเกิด",
  notes:"ไฟล์ระบุว่าในรูปมี double bubble sign (ไม่ใส่ในโจทย์เพื่อไม่ใบ้)",
  parts:S(
-  B("PPT 13.1 Diagnosis and pathogenesis.",4,{tags:["spot"],key:"ไฟล์: ให้รูป double bubble sign + polyhydramnios (ไม่มีเฉลย)",
+  B("SA 13.1 Diagnosis and pathogenesis.",4,{tags:["spot"],key:"ไฟล์: ให้รูป double bubble sign + polyhydramnios (ไม่มีเฉลย)",
    ans:"<b>ฟิล์ม</b>: <b>double bubble sign</b> (ลมในกระเพาะ + duodenal bulb) <b>ไม่มีลมในลำไส้ส่วนปลาย</b> · <b>Dx: Duodenal atresia</b> (อุดตันมักอยู่ <b>distal ต่อ ampulla of Vater</b> → อาเจียนมีน้ำดี) · <b>พยาธิกำเนิด</b>: <b>failure of recanalization</b> ของลำไส้เล็กส่วน duodenum — ช่วงสัปดาห์ที่ 5–6 เยื่อบุเจริญจนอุดลำไส้ (solid cord stage) แล้วต้องเกิด vacuolization กลับเป็นท่อในสัปดาห์ที่ 8–10 ถ้าไม่เกิด → atresia/stenosis/web (ต่างจาก jejunoileal atresia ที่เกิดจาก vascular accident ในครรภ์) · <b>Polyhydramnios</b>: ทารกกลืนน้ำคร่ำแล้วผ่านลำไส้ไม่ได้ · <b>ความผิดปกติร่วม</b>: <b>Down syndrome (~30%)</b>, annular pancreas, malrotation, congenital heart disease, VACTERL · <b>รักษา</b>: NG decompression, IV fluid/electrolyte, echo → <b>duodenoduodenostomy (diamond-shaped)</b>",
    exp:"Double bubble + มีลมปลาย = incomplete obstruction (stenosis/web) หรือ malrotation with volvulus — ต้องรีบ UGI study",
    rubric:"ได้ = duodenal atresia + failure of recanalization + สัมพันธ์ Down syndrome ± polyhydramnios mechanism",
@@ -522,12 +522,12 @@ Co({page:282,sec:"PowerPoint",orig:"PPT 13",topic:"spot",sub:"Imaging film",titl
  summary:["Double bubble ไม่มีลมปลาย = duodenal atresia","Failure of recanalization (สัปดาห์ 8–10)","ร่วม: Down ~30%, annular pancreas, malrotation, CHD","รักษา: NG + fluid → duodenoduodenostomy"]}),
 
 /* ===== PowerPoint 14 ===== */
-Co({page:282,sec:"PowerPoint",orig:"PPT 14",topic:"spot",sub:"Uro/Genital",title:"Spot — scrotal swelling: diagnosis and management",
+Co({page:282,sec:"Short Answers",orig:"PPT 14",num:"SA 14",topic:"spot",sub:"Uro/Genital",title:"Spot — scrotal swelling: diagnosis and management",
  stem:`A photograph of a scrotal swelling in a child is shown. The swelling is cystic, transilluminates brightly, and the examiner can get above it.<br>1. What is this?<br>2. Outline the management.`,
  gray:"14.ภาพ hydrocele ถามว่าคืออะไร และก็ management ยังไง",
  flag:NOIMG+" · ผลตรวจ (ส่องไฟผ่าน, คลำขอบบนได้) และอายุเด็ก Claude เติม — เฉลยใส่หลักการในผู้ใหญ่ด้วย",imgAlt:"รูปถุงอัณฑะข้างหนึ่งบวมโต",
  parts:S(
-  B("PPT 14.1 Diagnosis and management.",4,{tags:["spot"],key:"ไฟล์ระบุ: hydrocele (ไม่มีเฉลย management)",
+  B("SA 14.1 Diagnosis and management.",4,{tags:["spot"],key:"ไฟล์ระบุ: hydrocele (ไม่มีเฉลย management)",
    ans:"<b>Hydrocele</b> — สารน้ำสะสมใน tunica vaginalis รอบอัณฑะ (ส่องไฟผ่าน, คลำขอบบนได้, คลำอัณฑะแยกไม่ได้ชัด) · <b>เด็ก</b>: ส่วนใหญ่เป็น <b>communicating hydrocele</b> จาก <b>patent processus vaginalis</b> (ขนาดเปลี่ยนตามวัน — เล็กตอนเช้า โตตอนเย็น) · <b>ทารก</b>: <b>สังเกตอาการ</b> — ส่วนใหญ่หายเองภายใน <b>1–2 ปี</b> · <b>ผ่าตัด</b> เมื่อไม่หายหลังอายุ ~1–2 ปี, ขนาดเปลี่ยนชัด (communicating) หรือมีไส้เลื่อนร่วม → <b>ผ่าตัดผ่านทางขาหนีบ (inguinal approach) — high ligation of patent processus vaginalis</b> (เหมือน herniotomy) ระบายน้ำ ไม่ต้องตัดถุง · <b>ผู้ใหญ่</b> (non-communicating): <b>US</b> แยกสาเหตุ secondary (testicular tumor, epididymo-orchitis, torsion, trauma) · ไม่มีอาการ → สังเกต · มีอาการ/ใหญ่ → <b>ผ่าตัดทาง scrotum</b> (Jaboulay — พลิก tunica กลับ, Lord's plication) · ไม่แนะนำเจาะดูด (เป็นซ้ำ/ติดเชื้อ) ยกเว้นผู้ที่ผ่าตัดไม่ได้ (± sclerotherapy)",
    exp:"แยกจาก inguinal hernia: hernia คลำขอบบนไม่ได้ (ต่อเนื่องเข้า inguinal canal), ไอแล้วมีแรงกระแทก, ส่องไฟไม่ผ่าน (ยกเว้นทารกที่ลำไส้บาง) · ในเด็ก ห้ามเจาะดูด",
    rubric:"ได้ = hydrocele + กลไก patent processus vaginalis ในเด็ก + สังเกตถึง 1–2 ปี + ผ่าตัดทางขาหนีบ (high ligation) · บางส่วน = ตอบผ่าตัดทาง scrotum ในเด็ก",

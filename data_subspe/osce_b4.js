@@ -292,7 +292,7 @@ Co({page:219,sec:"OSCE",orig:"12",topic:"pe",sub:"Other PE",ex:1,title:"Case —
  summary:["ก้อนใต้ผิวหนังขอบชัด rubbery ไม่ยึดผิวและกระดูก ไม่เจ็บ = lipoma","Epidermoid cyst ยึดติดผิวหนังและมี punctum","ก้อน benign ขนาดเล็ก: excisional biopsy ส่งพยาธิ","ก้อนที่แขนขา: longitudinal incision เสมอ"]}),
 
 /* ===== PowerPoint 1 ===== */
-Co({page:192,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Imaging film",title:"Spot — chest radiograph: name the view and give differential diagnoses",img:["os67d_p1"],kimg:["os67d_kp1"],
+Co({page:192,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Imaging film",title:"Spot — chest radiograph: name the view and give differential diagnoses",img:["os67d_p1"],kimg:["os67d_kp1"],
  stem:`A radiograph is shown.<br>1.1 Name this imaging study and the position used.<br>1.2 Give two differential diagnoses.`,
  gray:"Part 3 PowerPoint 14 ข้อ เปิดไปเรื่อยๆ ข้อละ 3 นาที · 1 · 1.1 จงบอกชื่อของ imaging อันนี้และท่าที่ใช้ · 1.2 จงบอก 2 differential diagnosis · [ตัวแดง] CXR PA upright · Peptic perforation, appendiceal rupture · [มุมขวาล่าง] free air",
  notes:"ตัวแดง (ไฮไลต์): CXR PA upright · Peptic perforation, appendiceal rupture · ตัวพิมพ์มุมขวาล่าง: free air",
@@ -312,7 +312,7 @@ Co({page:192,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Imaging film",title
  summary:["Upright CXR = ดู free air ได้ไวที่สุด","Free air under diaphragm = pneumoperitoneum → hollow viscus perforation","สาเหตุที่พบบ่อยที่สุด: perforated peptic ulcer"]}),
 
 /* ===== PowerPoint 2 ===== */
-Co({page:193,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Imaging film",title:"Spot — right upper quadrant pain with an ultrasound image",img:["os67d_p2"],kimg:["os67d_kp2"],
+Co({page:193,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Imaging film",title:"Spot — right upper quadrant pain with an ultrasound image",img:["os67d_p2"],kimg:["os67d_kp2"],
  stem:`A 50-year-old woman presents with abdominal pain below the xiphoid for 5 hours. The physician presses below the right costal margin and asks her to take a deep breath; she experiences sudden pain and stops inhaling abruptly. An imaging study is shown.<br>2.1 Name this imaging study.<br>2.2 Name the physical examination performed by the physician.<br>2.3 Describe the management of this condition.`,
  gray:"2 · ผู้ป่วยหญิงอายุ 50 ปี ปวดท้องใต้ลิ้นปี่ 5 ชั่วโมงก่อนมาโรงพยาบาล แพทย์ได้ใช้มือดันใต้ชายโครงขวา และให้ผู้ป่วยหายใจเข้า ผู้ป่วยมีอาการเจ็บสะดุ้งและหยุดหายใจกระทันหัน · 2.1 จงบอกชื่อของ imaging · 2.2 จงบอกชื่อของการตรวจร่างกายที่แพทย์ทำ · 2.3 จงอธิบายแนวทางการรักษาโรคดังกล่าว · [ตัวแดง] Ultrasound abdomen · Murphy test · Laparoscopic Cholecystectomy · [มุมขวาล่าง] acute cholecystitis",
  notes:"ตัวแดง: Ultrasound abdomen · Murphy test · Laparoscopic Cholecystectomy · ตัวพิมพ์มุมขวาล่าง: acute cholecystitis",
@@ -337,7 +337,7 @@ Co({page:193,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Imaging film",title
  summary:["Murphy's sign = inspiratory arrest เมื่อกดใต้ชายโครงขวา","US: gallstone + shadow, GB wall หนา, pericholecystic fluid","รักษา: NPO, IV fluid, IV antibiotics, early lap chole · เสี่ยงสูงทำ percutaneous cholecystostomy"]}),
 
 /* ===== PowerPoint 3 ===== */
-Co({page:194,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Instrument/Device",title:"Spot — an endoscopic investigation with a test kit result",img:["os67d_p3"],kimg:["os67d_kp3"],
+Co({page:194,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Instrument/Device",title:"Spot — an endoscopic investigation with a test kit result",img:["os67d_p3"],kimg:["os67d_kp3"],
  stem:`An investigation and the result of a test kit are shown.<br>3.1 Name the investigation.<br>3.2 Interpret the test result and outline the further management of the patient.`,
  gray:"3 · 3.1 จงบอกชื่อของ investigation · 2.2 จงแปลผลการทดสอบ และแนวทางการดูแลผู้ป่วยต่อไป · [ตัวแดง] Esophagogastroduodenoscope · Urease test · Urease test: + ve ---> สาเหตุการเกิด GERD มาจาก H.pyroli · Triple therapy : PPI, amoxycillin, clarithromycin · [มุมขวาล่าง] EGD + rapid urease test",
  flag:"⚠ ไฟล์เขียนว่า H. pylori เป็นสาเหตุ GERD — ไม่ถูกต้อง · ไฟล์ใช้เลขคำถามย่อย 2.2 (พิมพ์ผิด) ลงเป็น 3.2",
@@ -359,7 +359,7 @@ Co({page:194,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Instrument/Device",
  summary:["CLO test สีเหลือง → ชมพู/แดง = H. pylori positive","H. pylori → gastritis, PUD, MALT lymphoma, gastric cancer (ไม่ใช่ GERD)","Eradication 14 วัน: triple therapy หรือ bismuth quadruple","ยืนยันด้วย UBT/stool Ag ≥4 สัปดาห์หลังยาฆ่าเชื้อ หยุด PPI 2 สัปดาห์"]}),
 
 /* ===== PowerPoint 4 ===== */
-Co({page:195,sec:"PowerPoint",orig:"PPT 4",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — a pigmented skin lesion",img:["os67d_p4"],kimg:["os67d_kp4"],
+Co({page:195,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — a pigmented skin lesion",img:["os67d_p4"],kimg:["os67d_kp4"],
  stem:`A skin lesion is shown.<br>4.1 Give one diagnosis.<br>4.2 State the treatment.`,
  gray:"4 · 4.1 จงให้ diagnosis เพียง 1 อย่าง · 4.2 จงบอกแนวทางการรักษา · [ตัวแดง] Melanoma · Wide excision · [มุมขวาล่าง] melanoma",
  notes:"ตัวแดง: Melanoma (ไฮไลต์) · Wide excision · ตัวพิมพ์มุมขวาล่าง: melanoma",
@@ -379,7 +379,7 @@ Co({page:195,sec:"PowerPoint",orig:"PPT 4",topic:"spot",sub:"Plastic/Skin/Burn",
  summary:["ABCDE ของ melanoma","Excisional biopsy ก่อน วัด Breslow thickness","WLE margin: in situ 0.5–1 cm, ≤1 mm 1 cm, 1–2 mm 1–2 cm, >2 mm 2 cm","SLNB เมื่อหนา ≥0.8 mm หรือ T1b ขึ้นไป"]}),
 
 /* ===== PowerPoint 5 ===== */
-Co({page:196,sec:"PowerPoint",orig:"PPT 5",topic:"spot",sub:"Other spot",title:"Spot — an endoscopic view of the colon",img:["os67d_p5"],kimg:["os67d_kp5"],
+Co({page:196,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Other spot",title:"Spot — an endoscopic view of the colon",img:["os67d_p5"],kimg:["os67d_kp5"],
  stem:`A colonoscopic image is shown.<br>5.1 Give the diagnosis.<br>5.2 How would you counsel this patient?`,
  gray:"5 · 5.1 จงบอก diagnosis · 5.2 จงบอกแนวทางการ counseling ผู้ป่วย · [ตัวแดง] Diverticulum · ถ้ามีเลือดออกให้มาหา · [มุมขวาล่าง] diverticulosis",
  notes:"ตัวแดง: Diverticulum · ถ้ามีเลือดออกให้มาหา · ตัวพิมพ์มุมขวาล่าง: diverticulosis",
@@ -399,7 +399,7 @@ Co({page:196,sec:"PowerPoint",orig:"PPT 5",topic:"spot",sub:"Other spot",title:"
  summary:["Colonoscopy เห็นรูเปิดหลายรูบนผนัง colon = diverticulosis","แนะนำอาหารกากใยสูง ดื่มน้ำ ออกกำลังกาย","กลับมาเมื่อถ่ายเป็นเลือด หรือปวดท้อง + ไข้"]}),
 
 /* ===== PowerPoint 6 ===== */
-Co({page:197,sec:"PowerPoint",orig:"PPT 6",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — an infant with a congenital facial anomaly: timing of repair",img:["os67d_p6"],kimg:["os67d_kp6"],
+Co({page:197,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — an infant with a congenital facial anomaly: timing of repair",img:["os67d_p6"],kimg:["os67d_kp6"],
  stem:`A photograph of an infant is shown.<br>6.1 State the appropriate age for surgical correction in this patient.<br>6.2 Give the reasons for your answer in 6.1.`,
  gray:"6 · 6.1 จงบอกอายุที่เหมาะสมจะผ่าตัดแก้ไข ในผู้ป่วยรายนี้ · 6.2 จงบอกเหตุผลของข้อ 6.1 · [ตัวแดง] Rear of cleft lip 3 months · อายุเหมาะสมต่อการผ่าตัด · [มุมขวาล่าง] cleft lip",
  notes:"ตัวแดง: \"Rear of cleft lip 3 months\" (น่าจะหมายถึง repair of cleft lip อายุ 3 เดือน) · 6.2: อายุเหมาะสมต่อการผ่าตัด · ตัวพิมพ์มุมขวาล่าง: cleft lip",
@@ -419,7 +419,7 @@ Co({page:197,sec:"PowerPoint",orig:"PPT 6",topic:"spot",sub:"Plastic/Skin/Burn",
  summary:["Cleft lip repair ~3 เดือน (rule of 10s: 10 สัปดาห์, 10 ปอนด์, Hb 10)","Cleft palate repair ~9–18 เดือน ก่อนเริ่มพูด"]}),
 
 /* ===== PowerPoint 7 ===== */
-Co({page:198,sec:"PowerPoint",orig:"PPT 7",topic:"spot",sub:"Other spot",title:"Spot — eye movements in the nine positions of gaze",img:["os67d_p7"],kimg:["os67d_kp7"],
+Co({page:198,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Other spot",title:"Spot — eye movements in the nine positions of gaze",img:["os67d_p7"],kimg:["os67d_kp7"],
  stem:`A video of eye movements was shown in the examination; photographs of the eyes in the nine positions of gaze are provided here.<br>7.1 Describe the abnormal physical findings.<br>7.2 Give the diagnosis.`,
  gray:"7 · 7.1 จงบรรยายสิ่งผิดปกติจากการตรวจร่างกาย ในวีดีโอ · 7.2 จงให้ diagnosis · [ตัวแดง] Abducens nerve palsy · [มุมขวาล่าง] parinaud syndrome",
  flag:"⚠ ไฟล์ให้คำตอบ 2 แบบขัดกัน (ตัวแดง Abducens nerve palsy / ตัวพิมพ์ parinaud syndrome) · ในข้อสอบจริงเป็นวีดีโอ ภาพที่ใช้เป็นรูป 9 ทิศทางการมองที่ผู้ทำ recall หามา",
@@ -441,7 +441,7 @@ Co({page:198,sec:"PowerPoint",orig:"PPT 7",topic:"spot",sub:"Other spot",title:"
  summary:["Parinaud: upgaze palsy, convergence-retraction nystagmus, light-near dissociation, lid retraction","สาเหตุ: pineal tumor, hydrocephalus, midbrain stroke","Abducens palsy = ตาข้างนั้นกลอกออกด้านข้างไม่ได้ (คนละภาพ)"]}),
 
 /* ===== PowerPoint 8 ===== */
-Co({page:199,sec:"PowerPoint",orig:"PPT 8",topic:"spot",sub:"Anorectal",title:"Spot — painful buttock swelling with fever in an uncontrolled diabetic",img:["os67d_p8"],kimg:["os67d_kp8"],
+Co({page:199,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Anorectal",title:"Spot — painful buttock swelling with fever in an uncontrolled diabetic",img:["os67d_p8"],kimg:["os67d_kp8"],
  stem:`A 40-year-old man with untreated diabetes mellitus presents with buttock pain and fever. The physical examination finding is shown.<br>8.1 Give the diagnosis.<br>8.2 State the treatment.`,
  gray:"8 · ผู้ป่วยชายอายุ 40 ปี เป็นเบาหวานไม่ได้รักษา มาโรงพยาบาลด้วยปวดแก้มก้นและมีไข้ ตรวจร่างกายพบดังภาพ · 8.1 จงให้ diagnosis · 8.2 จงบอกแนวทางการรักษา · [มุมขวาล่าง] perianal abscess",
  notes:"ตัวพิมพ์มุมขวาล่าง: perianal abscess · ไม่มีแนวคำตอบการรักษา",
@@ -461,7 +461,7 @@ Co({page:199,sec:"PowerPoint",orig:"PPT 8",topic:"spot",sub:"Anorectal",title:"S
  summary:["Anorectal abscess รักษาหลักคือ I&D ทันที ไม่รอ fluctuation","ให้ antibiotics ร่วมในเบาหวาน/ภูมิต่ำ/cellulitis/sepsis","ระวัง Fournier gangrene ในเบาหวาน · ~1/3 เกิด fistula-in-ano ตามมา"]}),
 
 /* ===== PowerPoint 9 ===== */
-Co({page:200,sec:"PowerPoint",orig:"PPT 9",topic:"spot",sub:"Uro/Genital",title:"Spot — an ulcerated lesion of the penis",img:["os67d_p9"],kimg:["os67d_kp9"],
+Co({page:200,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Uro/Genital",title:"Spot — an ulcerated lesion of the penis",img:["os67d_p9"],kimg:["os67d_kp9"],
  stem:`A lesion of the penis is shown (arrow).<br>9.1 Give the diagnosis.<br>9.2 State the treatment.`,
  gray:"9 · 9.1 จงให้ diagnosis · 9.2 จงบอกแนวทางการรักษา · [ตัวแดง] Penile CA · Excision ---> Circumcision penectomy · [มุมขวาล่าง] SCC penis",
  notes:"ตัวแดง: Penile CA (ไฮไลต์) · Excision → Circumcision penectomy · ตัวพิมพ์มุมขวาล่าง: SCC penis",
@@ -481,7 +481,7 @@ Co({page:200,sec:"PowerPoint",orig:"PPT 9",topic:"spot",sub:"Uro/Genital",title:
  summary:["Penile SCC: ปัจจัยเสี่ยง ไม่ขลิบ/phimosis, HPV, บุหรี่","รักษา: biopsy → circumcision/WLE/partial หรือ total penectomy ตามขอบเขต","ต่อมน้ำเหลืองขาหนีบคือปัจจัยพยากรณ์สำคัญที่สุด"]}),
 
 /* ===== PowerPoint 10 ===== */
-Co({page:201,sec:"PowerPoint",orig:"PPT 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — a small papule on the ear",img:["os67d_p10"],kimg:["os67d_kp10"],
+Co({page:201,sec:"Short Answers",orig:"PPT 10",num:"SA 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — a small papule on the ear",img:["os67d_p10"],kimg:["os67d_kp10"],
  stem:`A lesion on the ear of an elderly patient is shown.<br>10.1 Give the diagnosis.<br>10.2 State the treatment.`,
  gray:"10 · 10.1 จงให้ diagnosis · 10.2 จงบอกแนวทางการรักษา · [มุมขวาล่าง] จุดบนหูแดงๆ ไม่รู้เหมือนกันคืออะไร 555+ (แต่ภาพที่หยิบๆมาคือ incusion cyst นะ)",
  flag:"ผู้ทำ recall จำรอยโรคจริงไม่ได้ (\"จุดบนหูแดงๆ\") — ภาพเป็นภาพที่หามาแทน ระบุว่าเป็น inclusion cyst · เฉลยตามภาพที่ให้",
@@ -502,7 +502,7 @@ Co({page:201,sec:"PowerPoint",orig:"PPT 10",topic:"spot",sub:"Plastic/Skin/Burn"
  summary:["Epidermoid cyst: ตุ่มกลม ผิวเรียบ ยึดผิวหนัง อาจมี punctum → excision รวมผนังซีสต์","ตุ่มที่ใบหูผู้สูงอายุ ต้องแยก BCC, SCC, chondrodermatitis nodularis helicis","ส่งพยาธิทุกครั้ง"]}),
 
 /* ===== PowerPoint 11 ===== */
-Co({page:202,sec:"PowerPoint",orig:"PPT 11",topic:"spot",sub:"Anorectal",title:"Spot — a perianal lesion",img:["os67d_p11"],kimg:["os67d_kp11"],
+Co({page:202,sec:"Short Answers",orig:"PPT 11",num:"SA 11",topic:"spot",sub:"Anorectal",title:"Spot — a perianal lesion",img:["os67d_p11"],kimg:["os67d_kp11"],
  stem:`A perianal lesion is shown.<br>11.1 Give the diagnosis.<br>11.2 State the treatment.`,
  gray:"11 · 11.1 จงให้ diagnosis · 11.2 จงบอกแนวทางการรักษา · [ตัวแดง] Complex · Open hemorrhoidectomy · [มุมขวาล่าง] prolapsed internal hemorrhoid",
  notes:"ตัวแดง: Complex (น่าจะหมายถึง complex/mixed hemorrhoid) · Open hemorrhoidectomy · ตัวพิมพ์มุมขวาล่าง: prolapsed internal hemorrhoid",
@@ -522,7 +522,7 @@ Co({page:202,sec:"PowerPoint",orig:"PPT 11",topic:"spot",sub:"Anorectal",title:"
  summary:["Internal hemorrhoid grade I–IV ตามการยื่นและการกลับเข้า","Grade III–IV หรือ mixed → excisional hemorrhoidectomy (open Milligan–Morgan / closed Ferguson)","Grade I–II (บาง III) → conservative, RBL"]}),
 
 /* ===== PowerPoint 12 ===== */
-Co({page:203,sec:"PowerPoint",orig:"PPT 12",topic:"spot",sub:"Pediatric surgery",title:"Spot — scrotal swelling in an infant",img:["os67d_p12"],kimg:["os67d_kp12"],
+Co({page:203,sec:"Short Answers",orig:"PPT 12",num:"SA 12",topic:"spot",sub:"Pediatric surgery",title:"Spot — scrotal swelling in an infant",img:["os67d_p12"],kimg:["os67d_kp12"],
  stem:`A photograph of an infant with scrotal swelling is shown.<br>12.1 State the key physical examination to differentiate the diagnosis.<br>12.2 State the age at which surgical correction should be performed.`,
  gray:"12 · 12.1 จงการตรวจร่างกายที่สำคัญในการแยกโรค · 12.2 จงบอกอายุที่จะทำการผ่าตัดแก้ไข · [ตัวแดง] Translumination test · [มุมขวาล่าง] hydrocele",
  notes:"ตัวแดง: Translumination test · ตัวพิมพ์มุมขวาล่าง: hydrocele · ไม่มีคำตอบอายุที่ผ่าตัด",
@@ -542,7 +542,7 @@ Co({page:203,sec:"PowerPoint",orig:"PPT 12",topic:"spot",sub:"Pediatric surgery"
  summary:["Hydrocele: transillumination +, คลำเหนือก้อนได้, ดันกลับไม่ได้","Congenital hydrocele หายเองได้ภายใน 1–2 ปี","ผ่าตัดเมื่อไม่หายหลัง 1–2 ปี หรือ communicating/มี hernia: inguinal high ligation"]}),
 
 /* ===== PowerPoint 13 ===== */
-Co({page:204,sec:"PowerPoint",orig:"PPT 13",topic:"spot",sub:"Imaging film",title:"Spot — contrast study of the large bowel: differential diagnosis and investigation",img:["os67d_p13"],kimg:["os67d_kp13"],
+Co({page:204,sec:"Short Answers",orig:"PPT 13",num:"SA 13",topic:"spot",sub:"Imaging film",title:"Spot — contrast study of the large bowel: differential diagnosis and investigation",img:["os67d_p13"],kimg:["os67d_kp13"],
  stem:`A radiological study is shown.<br>13.1 Give the differential diagnoses.<br>13.2 State the key investigation to differentiate between them.`,
  gray:"13 · 13.1 จงบอก differential diagnosis · 13.2 จงบอก investigation ที่สำคัญในการแยกโรค · [ตัวแดง] Hirschsprung disease · Large bowel obstruction · Volvulus · Barium enema · [มุมขวาล่าง] hirsprung disease",
  flag:"⚠ ไฟล์ตอบ barium enema แต่ภาพที่ให้เป็น contrast enema อยู่แล้ว · investigation ที่ใช้ยืนยัน/แยกโรค = rectal biopsy · PPT 13 และ 14 ใช้ภาพเดียวกันในไฟล์",
@@ -564,7 +564,7 @@ Co({page:204,sec:"PowerPoint",orig:"PPT 13",topic:"spot",sub:"Imaging film",titl
  summary:["Contrast enema: rectum เล็ก → transition zone → colon โป่ง, rectosigmoid index <1","ยืนยัน Hirschsprung = rectal suction biopsy (ไม่มี ganglion cells)","Manometry: ไม่มี rectoanal inhibitory reflex"]}),
 
 /* ===== PowerPoint 14 ===== */
-Co({page:205,sec:"PowerPoint",orig:"PPT 14",topic:"spot",sub:"Imaging film",title:"Spot — contrast study of the large bowel: diagnosis and treatment",img:["os67d_p13"],kimg:["os67d_kp14"],
+Co({page:205,sec:"Short Answers",orig:"PPT 14",num:"SA 14",topic:"spot",sub:"Imaging film",title:"Spot — contrast study of the large bowel: diagnosis and treatment",img:["os67d_p13"],kimg:["os67d_kp14"],
  stem:`A radiological study is shown.<br>14.1 Give the diagnosis.<br>14.2 Outline the treatment.`,
  gray:"14 · 14.1 จงบอก diagnosis · 14.2 จงบอกแนวทางในการรักษา · [มุมขวาล่าง] hirsprung disease",
  flag:"ไฟล์ใช้ภาพเดียวกับ PPT 13 (โจทย์ต่างกัน จึงแยกสถานี)",

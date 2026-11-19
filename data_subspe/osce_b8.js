@@ -2,7 +2,7 @@
 /* Surgery OSCE ข้อสอบเก่า AC — MDCU66 RoD · ไฟล์ GSUP4K (01_5_MCQs_Key_4.pdf) หน้า 258 "OSCE & MEQ Surgery rotate 4/2557"
    ปี/rotation: หัวหน้าเขียน 4/2557 แต่หน้านี้อยู่ในบล็อกหน้า 250–258 ที่เปิดด้วย "AC General Surgery Rotate 4/2556" และรายการสถานีไม่ตรงกับ OSCE 4/2557
      อีกฉบับในไฟล์ (หน้า 207–219) → Claude หลักตัดสินให้เป็น MDCU66 (พ.ศ. 2556) RoD — ถ้าภายหลังพบหลักฐานว่าเป็น 4/2557 จริงให้ย้ายชุด
-   รูปแบบที่ไฟล์บอก: OSCE 12 สถานี ข้อละ 3 นาที (มีทั้งสถานีเขียนและสถานีมีอาจารย์) + พาร์ท Powerpoint 11 ข้อ (สไลด์เปิดไปเรื่อย ๆ → sec:"PowerPoint" orig:"PPT n")
+   รูปแบบที่ไฟล์บอก: OSCE 12 สถานี ข้อละ 3 นาที (มีทั้งสถานีเขียนและสถานีมีอาจารย์) + พาร์ท Powerpoint 11 ข้อ (สไลด์เปิดไปเรื่อย ๆ → sec:"Short Answers" orig:"PPT n")
    หน้าเป็นข้อความพิมพ์ (recall) ไม่มีรูปประกอบเลย → ทุกสถานี NOIMG + imgAlt · ไม่มีลายมือเฉลย มีแต่ไฮไลต์เหลือง (ชื่อเครื่องมือ OSCE 1, "มีฟิล์ม IVP"/"(Staghorn)" OSCE 9, ทั้งบรรทัด OSCE 12) → ไม่มี kimg
    คำตอบที่ผู้จดเขียนไว้ในโจทย์ (เช่น Staghorn, mastitis) ถือเป็น key · ผลตรวจ/ขนาด/ผลพยาธิที่ไม่ได้จด Claude แต่งเพื่อให้สถานีสมบูรณ์ (บอกใน flag) · ไม่มีสถานีที่ข้าม */
 const NK="ไม่มีเฉลยในไฟล์ (เฉลยโดย Claude)";
@@ -285,12 +285,12 @@ Co({page:258,sec:"OSCE",orig:"12",topic:"inst",sub:"Tube/Catheter",title:"Device
  summary:["NG tube: Levin (1 lumen) / Salem sump (2 lumen)","ใช้: decompression, feeding, lavage, ดูเลือด UGIB","ห้าม: basal skull/midface fracture → OG tube · ระวัง varices, หลังผ่าตัดหลอดอาหาร, caustic","ยืนยันตำแหน่ง: pH ≤5.5 หรือ CXR"]}),
 
 /* ===== PowerPoint 1 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Breast",title:"Spot — breast photograph: diagnosis and treatment",seen:"คล้าย MDCU65 RoA PPT 7 (รูป mastitis)",
+Co({page:258,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Breast",title:"Spot — breast photograph: diagnosis and treatment",seen:"คล้าย MDCU65 RoA SA 7 (รูป mastitis)",
  stem:`A photograph of the breast of a 27-year-old woman who is breastfeeding her 4-week-old baby is shown. She has had fever and breast pain for 2 days.<br>1. What is the diagnosis?<br>2. How would you treat her?`,
  gray:"1. รูป mastitis ถามว่าเป็นอะไร รักษายังไง",
  flag:NOIMG+" · อายุ/ประวัติให้นมบุตร Claude เติม",imgAlt:"รูปเต้านมข้างหนึ่งของหญิงวัยเจริญพันธุ์",
  parts:S(
-  B("PPT 1.1 Diagnosis and treatment.",4,{tags:["spot"],key:"ไฟล์ระบุ: mastitis (ไม่มีเฉลยการรักษา)",
+  B("SA 1.1 Diagnosis and treatment.",4,{tags:["spot"],key:"ไฟล์ระบุ: mastitis (ไม่มีเฉลยการรักษา)",
    ans:"<b>Lactational (puerperal) mastitis</b> — บริเวณเต้านมแดง บวม ร้อน กดเจ็บเป็นรูปลิ่ม (wedge) ร่วมกับไข้ · เชื้อหลัก <b>Staphylococcus aureus</b> · <b>รักษา</b>: <b>ให้นมต่อ/ปั๊มนมออกสม่ำเสมอ</b> (ไม่ต้องหยุดให้นม) · ประคบเย็น/อุ่น พักผ่อน ดื่มน้ำ · ยาแก้ปวดลดไข้ (paracetamol, ibuprofen) · <b>ยาปฏิชีวนะ</b> ครอบคลุม S. aureus 10–14 วัน: <b>dicloxacillin/cloxacillin</b> หรือ <b>cephalexin</b> (แพ้ penicillin/MRSA: clindamycin) · ถ้าไม่ดีขึ้นใน 48–72 ชม. หรือคลำได้ก้อน fluctuant → <b>ultrasound</b> หา <b>breast abscess</b> → needle aspiration ซ้ำ หรือ incision & drainage · ไม่ให้นมหรืออาการไม่ตอบสนอง → คิด inflammatory breast cancer (biopsy)",
    exp:"Academy of Breastfeeding Medicine 2022: เน้นลดการอักเสบ (ประคบเย็น NSAIDs) ไม่ปั๊มเกินความต้องการของลูก · น้ำนมจากข้างที่อักเสบปลอดภัยสำหรับทารกครบกำหนด",
    rubric:"ได้ = lactational mastitis + ให้นมต่อ + antibiotic anti-staph + ระวัง abscess · บางส่วน = ให้หยุดให้นม (ผิด)",
@@ -300,12 +300,12 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Breast",title:"Spot
  summary:["Lactational mastitis: S. aureus · แดงร้อนกดเจ็บ + ไข้","ให้นมต่อ + NSAIDs + dicloxacillin/cephalexin 10–14 วัน","ไม่ดีขึ้น 48–72 ชม. → US หา abscess → aspirate/I&D","ไม่ให้นม/ไม่ตอบสนอง → คิด inflammatory breast cancer"]}),
 
 /* ===== PowerPoint 2 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Hernia/Abdominal wall",title:"Spot — groin swellings in an infant: diagnosis, treatment and timing",
+Co({page:258,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Hernia/Abdominal wall",title:"Spot — groin swellings in an infant: diagnosis, treatment and timing",
  stem:`A photograph of the groin of a 3-month-old boy (born at term) shows swellings on both sides that appear when he cries and disappear when he is calm.<br>1. What is the diagnosis?<br>2. How should it be treated, and when?`,
  gray:"2. รูป bilateral inguinal hernia ถามว่าเป็นอะไร รักษายังไง เมื่อไหร่",
  flag:NOIMG+" · ไฟล์ไม่ได้บอกอายุผู้ป่วย — Claude เลือกเป็นทารก (เข้ากับคำถาม 'เมื่อไหร่') และใส่หลักการในผู้ใหญ่ไว้ในเฉลยด้วย",imgAlt:"รูปบริเวณขาหนีบทั้งสองข้างของทารกเพศชาย",
  parts:S(
-  B("PPT 2.1 Diagnosis, treatment and timing.",4,{tags:["spot"],key:"ไฟล์ระบุ: bilateral inguinal hernia (ไม่มีเฉลยการรักษา)",
+  B("SA 2.1 Diagnosis, treatment and timing.",4,{tags:["spot"],key:"ไฟล์ระบุ: bilateral inguinal hernia (ไม่มีเฉลยการรักษา)",
    ans:"<b>Bilateral (indirect) inguinal hernia</b> — ในเด็กเกิดจาก <b>patent processus vaginalis</b> · <b>รักษา</b>: ผ่าตัด <b>herniotomy (high ligation of the hernia sac)</b> ทั้งสองข้าง (open หรือ laparoscopic) — ในเด็กไม่ต้องซ่อมผนังหน้าท้อง/ไม่ใช้ mesh · <b>เมื่อไร</b>: <b>นัดผ่าตัดโดยเร็วหลังวินิจฉัย (elective แต่ไม่รอ)</b> เพราะทารกเสี่ยง <b>incarceration</b> สูง (โดยเฉพาะ &lt;1 ปี/คลอดก่อนกำหนด) · ไส้เลื่อนไม่หายเอง (ต่างจาก umbilical hernia) · ถ้า <b>incarcerated</b> แต่ไม่มี strangulation → manual reduction (sedation) แล้วผ่าตัดภายใน 24–48 ชม. (รอบวมยุบ) · strangulated/ดันไม่เข้า → ผ่าตัดฉุกเฉิน · (ผู้ใหญ่ bilateral: laparoscopic TEP/TAPP + mesh เป็นทางเลือกแรก)",
    exp:"แยกจาก hydrocele: hydrocele ส่องไฟผ่าน คลำขอบบนได้ ไม่ยุบตามการร้อง (ยกเว้น communicating) · ทารกคลอดก่อนกำหนดมักผ่าตัดก่อนกลับบ้านจาก NICU",
    rubric:"ได้ = bilateral indirect inguinal hernia + herniotomy + ผ่าตัดเร็วเพราะเสี่ยง incarceration · บางส่วน = ตอบรอดูจนโต (ผิด)",
@@ -315,12 +315,12 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Hernia/Abdominal wa
  summary:["เด็ก: indirect inguinal hernia จาก patent processus vaginalis","Herniotomy (high ligation) ไม่ต้องใช้ mesh","ผ่าตัดเร็วหลังวินิจฉัย · incarcerated → reduce → ผ่าตัด 24–48 ชม.","ผู้ใหญ่ bilateral → laparoscopic TEP/TAPP"]}),
 
 /* ===== PowerPoint 3 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — facial anomaly in a newborn: timing of repair and rationale",
+Co({page:258,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — facial anomaly in a newborn: timing of repair and rationale",
  stem:`A photograph of a newborn's face showing a congenital anomaly of the upper lip on both sides is shown.<br>1. What is the diagnosis?<br>2. When should it be repaired, and why?`,
  gray:"3. รูป bilateral complete cleft lip ถามว่ารักษาเมื่อไหร่ เพราะอะไร",
  flag:NOIMG,imgAlt:"รูปใบหน้าทารกแรกเกิด เห็นริมฝีปากบนชัดเจน",
  parts:S(
-  B("PPT 3.1 Diagnosis, timing of repair and rationale.",4,{tags:["spot"],key:"ไฟล์ระบุ: bilateral complete cleft lip (ไม่มีเฉลยเวลาผ่าตัด)",
+  B("SA 3.1 Diagnosis, timing of repair and rationale.",4,{tags:["spot"],key:"ไฟล์ระบุ: bilateral complete cleft lip (ไม่มีเฉลยเวลาผ่าตัด)",
    ans:"<b>Bilateral complete cleft lip</b> (มักร่วมกับ cleft palate/alveolus; premaxilla ยื่น) · <b>เวลาผ่าตัด cleft lip</b>: อายุ <b>~3 เดือน</b> ตาม <b>rule of 10s</b> (อายุ ≥10 สัปดาห์, น้ำหนัก ≥10 ปอนด์ (~4.5 kg), Hb ≥10 g/dL) · <b>เหตุผล</b>: <b>ความปลอดภัยในการดมยา</b>, เนื้อเยื่อโตพอให้ซ่อมได้แม่นยำ, ตรวจหา anomaly อื่นก่อน · bilateral มักทำ <b>presurgical nasoalveolar molding (NAM)</b>/lip adhesion ก่อน · <b>Cleft palate</b>: <b>9–18 เดือน (~12 เดือน)</b> — <b>ก่อนพัฒนาการพูด</b> เพื่อให้พูดได้ปกติ แต่ไม่เร็วเกินจนรบกวนการเจริญของ maxilla · <b>Alveolar bone graft</b>: 9–11 ปี (ก่อน canine ขึ้น) · ดูแลแบบ <b>multidisciplinary team</b>: การให้นม (ขวด/จุกพิเศษ), หู (otitis media with effusion → ใส่ท่อ), ฝึกพูด, ทันตกรรมจัดฟัน, พันธุกรรม",
    exp:"Cleft lip ± palate เกิดจาก maxillary prominence ไม่เชื่อมกับ medial nasal prominence (สัปดาห์ที่ 4–7) · cleft palate แยกเดี่ยวสัมพันธ์กับ syndrome มากกว่า (Pierre Robin, 22q11)",
    rubric:"ได้ = ซ่อม lip ~3 เดือน (rule of 10s) + เหตุผล (ดมยาปลอดภัย/เนื้อเยื่อพอ) + palate ~9–18 เดือนก่อนพูด · บางส่วน = บอกเวลาแต่ไม่มีเหตุผล",
@@ -330,14 +330,14 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Plastic/Skin/Burn",
  summary:["Cleft lip: ~3 เดือน — rule of 10s (10 wk, 10 lb, Hb 10)","Cleft palate: 9–18 เดือน ก่อนเริ่มพูด","Alveolar bone graft 9–11 ปี","ทีมสหวิชาชีพ: feeding, หู, พูด, ฟัน"]}),
 
 /* ===== PowerPoint 4 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 4",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — red lesions over the nasal dorsum: diagnosis and treatment",
+Co({page:258,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — red lesions over the nasal dorsum: diagnosis and treatment",
  stem:`A photograph shows red, raised lesions over the dorsum of the nose.<br>1. What is the most likely diagnosis?<br>2. How would you treat it?`,
  gray:"4. รูปเป็นตุ่มๆแดงแถวสันจมูกอะครับ ผมไม่รู้เหมือนกันว่าคืออะไร ถามว่าเป็นอะไร รักษายังไง",
  flag:"⚠ "+NOIMG+" · ผู้จดเองไม่รู้ว่ารอยโรคคืออะไร — เฉลยเป็นแนวคิดวินิจฉัยแยกโรคของ Claude ไม่ใช่คำตอบที่ยืนยันได้",imgAlt:"รูปใบหน้าเห็นจมูกส่วนสันจมูกที่มีรอยโรคสีแดงนูน",
  notes:"ไฟล์ไม่มีข้อมูลอายุ/ลักษณะรอยโรคเพิ่ม ผู้จดเขียนว่าไม่รู้ว่าคืออะไร",
  opinion:"ไม่มีข้อมูลพอจะสรุปโรคเดียว · ในข้อสอบศัลย์ที่ให้รูปรอยโรคแดงบนจมูก โรคที่น่าจะออกมากที่สุดคือ infantile hemangioma (ถ้าเป็นเด็ก) หรือ rhinophyma/BCC (ถ้าเป็นผู้ใหญ่) — Claude จึงให้เฉลยเป็นการแยกโรคตามอายุ",
  parts:S(
-  B("PPT 4.1 Diagnosis and treatment.",4,{tags:["spot"],
+  B("SA 4.1 Diagnosis and treatment.",4,{tags:["spot"],
    ans:"ต้องดูอายุและลักษณะรอยโรค · <b>ทารก/เด็กเล็ก</b> — ก้อน/ตุ่มสีแดงสดนุ่ม โตเร็วช่วงขวบปีแรก = <b>infantile hemangioma</b> (ที่ปลาย/สันจมูก 'Cyrano nose') → รักษาด้วย <b>oral propranolol</b> (เริ่มเร็วเพราะตำแหน่งจมูกเสี่ยงผิดรูป) · ระยะเหลือรอยหลังยุบ → ผ่าตัดแก้ไข · <b>ผู้ใหญ่</b>: ตุ่มแดง/ผิวหนาขรุขระที่จมูก รูขุมขนกว้าง = <b>rhinophyma</b> (rosacea ระยะท้าย) → doxycycline/isotretinoin ระยะต้น, รอยหนาใช้ <b>surgical shave/dermabrasion/CO2 laser</b> · ตุ่มมันวาวขอบนูน มี telangiectasia = <b>basal cell carcinoma</b> → biopsy + excision (margin 4 mm) หรือ Mohs (H-zone) · ตุ่มแดงเป็นกลุ่มตามแนวเส้นประสาท = herpes zoster (V1; Hutchinson sign) → acyclovir + ตรวจตา",
    exp:"รอยโรคใบหน้าบริเวณกลาง (H-zone) ต้องให้ความสำคัญเรื่องผลทางความงามและอัตราเป็นซ้ำของมะเร็งผิวหนัง",
    rubric:"ให้คะแนนตามความสมเหตุสมผลของการวินิจฉัยแยกโรค (≥2 โรค) และการรักษาที่ตรงกับโรคที่เลือก",
@@ -347,12 +347,12 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 4",topic:"spot",sub:"Plastic/Skin/Burn",
  summary:["เด็ก: infantile hemangioma → propranolol","ผู้ใหญ่: rhinophyma → shave/laser · BCC → excision/Mohs","ตุ่มน้ำแดงตามเส้นประสาท V1 → herpes zoster ophthalmicus"]}),
 
 /* ===== PowerPoint 5 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 5",topic:"spot",sub:"Uro/Genital",title:"Spot — swollen glans with a tight ring of foreskin: diagnosis and treatment",
+Co({page:258,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Uro/Genital",title:"Spot — swollen glans with a tight ring of foreskin: diagnosis and treatment",
  stem:`A photograph of the penis of a 6-year-old boy shows a markedly swollen glans with a tight band of edematous foreskin behind it. His foreskin was retracted by a parent while bathing a few hours ago.<br>1. What is the diagnosis?<br>2. How would you treat it?`,
  gray:"5. รูป paraphimosis ถามว่าคืออะไร รักษายังไง",
  flag:NOIMG+" · อายุ/ประวัติ Claude เติม",imgAlt:"รูปอวัยวะเพศชายของเด็ก บริเวณหัวองคชาตบวม",
  parts:S(
-  B("PPT 5.1 Diagnosis and treatment.",4,{tags:["spot"],key:"ไฟล์ระบุ: paraphimosis (ไม่มีเฉลยการรักษา)",
+  B("SA 5.1 Diagnosis and treatment.",4,{tags:["spot"],key:"ไฟล์ระบุ: paraphimosis (ไม่มีเฉลยการรักษา)",
    ans:"<b>Paraphimosis</b> — หนังหุ้มปลายที่ถูกรูดลงไปค้างหลัง glans แล้วไม่สามารถดึงกลับ ทำให้เกิด<b>วงรัด (constriction ring)</b> → venous/lymphatic congestion → glans บวม → ถ้านานเกิด arterial compromise/necrosis = <b>urological emergency</b> · <b>รักษา</b>: ยาแก้ปวด/<b>dorsal penile block</b> (ยาชาไม่มี adrenaline) หรือ sedation ในเด็ก → <b>ลดบวม</b> (บีบ glans ต่อเนื่อง 5–10 นาที, ประคบเย็น, granulated sugar, puncture technique ด้วยเข็มเล็ก) → <b>manual reduction</b>: ใช้นิ้วโป้งดัน glans เข้าขณะที่นิ้วชี้-กลางดึงหนังหุ้มปลายมาด้านหน้า · ไม่สำเร็จ → <b>dorsal slit</b> (ฉุกเฉิน) · หลังหาย → <b>circumcision</b> แบบ elective เพื่อป้องกันซ้ำ · สอนผู้ปกครอง: <b>ทุกครั้งที่รูดหนังหุ้มปลายต้องรูดกลับเสมอ</b> (รวมหลังใส่สายสวนปัสสาวะ)",
    exp:"Paraphimosis ≠ phimosis: phimosis = รูดเปิดไม่ได้ (ไม่ฉุกเฉิน) · paraphimosis = รูดกลับไม่ได้ (ฉุกเฉิน) · สาเหตุ iatrogenic ที่พบบ่อย: ใส่ Foley แล้วลืมรูดหนังกลับ",
    rubric:"ได้ = paraphimosis + เป็นภาวะฉุกเฉิน + ลดบวม/manual reduction + dorsal slit ถ้าไม่สำเร็จ + circumcision ภายหลัง · บางส่วน = ไม่มีขั้นตอนเมื่อ reduction ล้มเหลว",
@@ -362,12 +362,12 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 5",topic:"spot",sub:"Uro/Genital",title:
  summary:["Paraphimosis = หนังหุ้มค้างหลัง glans รูดกลับไม่ได้ → ฉุกเฉิน","Penile block → ลดบวม (บีบ/เย็น/น้ำตาล/puncture) → manual reduction","ล้มเหลว → dorsal slit · ต่อมา circumcision","ใส่ Foley เสร็จต้องรูดหนังหุ้มกลับทุกครั้ง"]}),
 
 /* ===== PowerPoint 6 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 6",topic:"spot",sub:"Head & neck",title:"Spot — penetrating cheek wound: expected deficit and examination",seen:"คล้าย MDCU65 RoA PPT 10 (แผลแทงที่ใบหน้าแนว facial nerve)",
+Co({page:258,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Head & neck",title:"Spot — penetrating cheek wound: expected deficit and examination",seen:"คล้าย MDCU65 RoA SA 10 (แผลแทงที่ใบหน้าแนว facial nerve)",
  stem:`A photograph shows a stab wound on the mid-cheek, anterior to the ear, along a line from the tragus to the corner of the mouth. The buccal branch of the facial nerve is suspected to be injured.<br>1. What symptoms and signs would you expect?<br>2. How would you examine this patient?`,
  gray:"6. คนโดนแทงที่หน้า โดน buccal branch ถามว่าจะมีอาการยังไง ตรวจยังไง",
  flag:NOIMG,imgAlt:"รูปใบหน้าด้านข้างมีแผลถูกแทงบริเวณแก้ม",
  parts:S(
-  B("PPT 6.1 Expected deficit and examination.",4,{tags:["spot"],key:"ไฟล์ระบุ: buccal branch (ไม่มีเฉลยอาการ/การตรวจ)",
+  B("SA 6.1 Expected deficit and examination.",4,{tags:["spot"],key:"ไฟล์ระบุ: buccal branch (ไม่มีเฉลยอาการ/การตรวจ)",
    ans:"<b>Buccal branch</b> เลี้ยง buccinator, orbicularis oris (ส่วนบน), zygomaticus/levator labii superioris, nasalis · <b>อาการ</b>: <b>ยิ้มไม่ได้/มุมปากด้านนั้นไม่ยก</b>, <b>nasolabial fold แบน</b>, <b>เป่าแก้มลมรั่ว</b>, ผิวปากไม่ได้, <b>อาหารค้างในกระพุ้งแก้ม</b>, น้ำลายไหลมุมปาก · <b>ตรวจ</b>: ให้ยิ้มยิงฟัน, ย่นจมูก, เป่าแก้ม (กดแก้มดูลมรั่ว), ผิวปาก/ทำปากจู๋ — เทียบสองข้าง · ตรวจแขนงอื่นด้วย (เลิกคิ้ว = temporal, หลับตาแน่น = zygomatic, ยื่นริมฝีปากล่าง = marginal mandibular) · <b>ต้องตรวจ parotid (Stensen's) duct</b> ซึ่งวิ่งแนวเดียวกัน (กลางเส้น tragus → กึ่งกลางริมฝีปากบน): น้ำลายรั่วจากแผล, ใส่ probe/สายผ่านรูเปิดตรงฟันกรามบนซี่ที่ 2 ดูว่าโผล่ที่แผลไหม · <b>ควรตรวจก่อนฉีดยาชา</b> · การรักษา: แผลที่ <b>อยู่ด้านหลังเส้นดิ่งผ่าน lateral canthus</b> ควร explore + microsurgical repair ภายใน 72 ชม. (ยังกระตุ้นปลายประสาทหาได้) · ด้านหน้าเส้นนี้มักฟื้นเองจากแขนงที่ต่อกัน",
    exp:"Buccal branch มีแขนงเชื่อมกับ zygomatic branch มาก จึงฟื้นตัวได้ดีกว่า marginal mandibular/temporal branch ที่มักเป็นแขนงเดี่ยว",
    rubric:"ได้ = อาการ (ยิ้ม/เป่าแก้ม/อาหารค้าง/nasolabial fold แบน) + วิธีตรวจกล้ามเนื้อ + ตรวจ parotid duct · บางส่วน = ไม่พูดถึง parotid duct",
@@ -377,13 +377,13 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 6",topic:"spot",sub:"Head & neck",title:
  summary:["Buccal branch: ยิ้ม เป่าแก้ม (buccinator) — อาหารค้างกระพุ้งแก้ม","ตรวจทุกแขนง CN VII เทียบสองข้าง ก่อนฉีดยาชา","Parotid duct วิ่งกลางเส้น tragus → กลางริมฝีปากบน","หลังเส้น lateral canthus → explore/repair ภายใน 72 ชม."]}),
 
 /* ===== PowerPoint 7 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 7",topic:"spot",sub:"Instrument/Device",title:"Spot — instrument with an obturator in place: name and uses",
+Co({page:258,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Instrument/Device",title:"Spot — instrument with an obturator in place: name and uses",
  stem:`A photograph of a short tubular metal instrument with a removable obturator inserted is shown.<br>1. What is this instrument?<br>2. What is it used for?`,
  gray:"7. รูป proctoscope ใส ถามว่าคืออะไร ใช้ทำอะไร",
  flag:NOIMG,imgAlt:"รูปเครื่องมือโลหะรูปท่อสั้นมีด้ามจับ และแกนปลายมนสอดอยู่ภายใน",
  notes:"ไฟล์เขียน 'รูป proctoscope ใส' (ผู้จดน่าจะหมายถึงมีแกน obturator ใส่อยู่ หรือเป็นชนิดพลาสติกใส) — คงตามต้นฉบับใน gray",
  parts:S(
-  B("PPT 7.1 Name and uses.",4,{tags:["spot"],key:"ไฟล์ระบุ: proctoscope (ไม่มีเฉลยการใช้)",
+  B("SA 7.1 Name and uses.",4,{tags:["spot"],key:"ไฟล์ระบุ: proctoscope (ไม่มีเฉลยการใช้)",
    ans:"<b>Proctoscope</b> (เครื่องส่องตรวจ anal canal/ส่วนปลาย rectum, ยาว ~7–10 cm) ประกอบด้วยท่อ + <b>obturator</b> (แกนปลายมนช่วยให้สอดได้ไม่บาดเจ็บ ดึงออกหลังสอดแล้วเพื่อมองผ่านท่อ) ใช้กับแหล่งแสง · <b>ใช้ทำ</b>: <b>วินิจฉัย</b> hemorrhoids (บอก grade), anal fissure, fistula opening ภายใน, polyp/มะเร็งส่วนปลาย, proctitis · หาสาเหตุเลือดออกทางทวารสีแดงสด · <b>หัตถการ</b>: <b>rubber band ligation</b>, <b>injection sclerotherapy</b> ของ hemorrhoids, biopsy · ทำต่อจาก DRE เสมอ",
    exp:"Proctoscope (anoscope) ดูได้เฉพาะ anal canal และ rectum ส่วนล่าง · rigid sigmoidoscope ยาว ~25 cm ดู rectum ทั้งหมด · flexible sigmoidoscope ~60 cm",
    rubric:"ได้ = ชื่อ + วินิจฉัยโรคทวารหนัก + หัตถการ (banding/sclerotherapy) · บางส่วน = ตอบชื่อ 'speculum'",
@@ -393,12 +393,12 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 7",topic:"spot",sub:"Instrument/Device",
  summary:["Proctoscope ~7–10 cm + obturator → ดู anal canal/rectum ส่วนปลาย","ใช้: grade hemorrhoid, fissure, internal opening ของ fistula, biopsy","หัตถการ: rubber band ligation, sclerotherapy","Rigid sigmoidoscope ~25 cm"]}),
 
 /* ===== PowerPoint 8 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 8",topic:"spot",sub:"Head & neck",title:"Spot — anterior neck swelling: diagnosis and treatment",
+Co({page:258,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Head & neck",title:"Spot — anterior neck swelling: diagnosis and treatment",
  stem:`A photograph of a 30-year-old woman shows a diffuse anterior neck swelling and prominent eyes. She complains of palpitations, heat intolerance and weight loss.<br>1. What is the diagnosis?<br>2. Outline the treatment options.`,
  gray:"8. รูปก้อนที่คอโต เป็น grave disease มั้งครับ ถามว่าเป็นอะไร รักษายังไง",
  flag:NOIMG+" · ผู้จดไม่แน่ใจ ('มั้งครับ') · อาการ/ตาโปน Claude เติมให้เข้ากับ Graves",imgAlt:"รูปหญิงวัยผู้ใหญ่ ถ่ายบริเวณใบหน้าและลำคอด้านหน้า",
  parts:S(
-  B("PPT 8.1 Diagnosis and treatment options.",4,{tags:["spot"],key:"ไฟล์: 'เป็น grave disease มั้งครับ'",
+  B("SA 8.1 Diagnosis and treatment options.",4,{tags:["spot"],key:"ไฟล์: 'เป็น grave disease มั้งครับ'",
    ans:"<b>Graves' disease</b> (diffuse toxic goiter + ophthalmopathy) · ยืนยัน: TSH ต่ำ, free T4/T3 สูง, <b>TRAb (TSI)</b> · <b>รักษา</b>: <b>β-blocker</b> (propranolol) คุมอาการ · ทางเลือกหลัก 3 อย่าง: (1) <b>Antithyroid drugs</b> — <b>methimazole</b> 12–18 เดือน (PTU ในไตรมาสแรกของการตั้งครรภ์/thyroid storm) ระวัง agranulocytosis, hepatotoxicity (2) <b>Radioactive iodine (I-131)</b> — ห้ามในตั้งครรภ์/ให้นม, ระวังทำให้ ophthalmopathy แย่ลง (ให้ steroid ป้องกัน) (3) <b>Surgery: total thyroidectomy</b> — ข้อบ่งชี้: goiter ใหญ่มีอาการกด, สงสัยมะเร็งร่วม, ophthalmopathy รุนแรง, ตั้งครรภ์ที่ใช้ยาไม่ได้ (ทำไตรมาสสอง), ผู้ป่วยต้องการ, ยาไม่ได้ผล · ก่อนผ่าตัดต้อง <b>euthyroid</b> (ATD + β-blocker) + <b>Lugol's iodine 7–10 วัน</b> ลด vascularity · หลังผ่าตัดให้ levothyroxine ตลอดชีวิต · ภาวะแทรกซ้อน: recurrent laryngeal nerve injury, hypoparathyroidism (hypocalcemia), เลือดออกกดทางเดินหายใจ",
    exp:"ATA 2016: ผ่าตัดเลือก total thyroidectomy (ไม่ใช่ subtotal) เพราะอัตราเป็นซ้ำต่ำ · ผ่าตัดในภาวะ thyrotoxicosis เสี่ยง thyroid storm",
    rubric:"ได้ = Graves + 3 ทางเลือก (ATD, RAI, surgery) + เตรียม euthyroid/Lugol ก่อนผ่าตัด · บางส่วน = บอกแค่ยา",
@@ -408,18 +408,18 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 8",topic:"spot",sub:"Head & neck",title:
  summary:["Graves: diffuse goiter + ophthalmopathy + TRAb","ATD (methimazole; PTU ไตรมาสแรก) · RAI (ห้ามตั้งครรภ์) · total thyroidectomy","ก่อนผ่าตัด: euthyroid + Lugol 7–10 วัน","ภาวะแทรกซ้อน: RLN injury, hypocalcemia, hematoma"]}),
 
 /* ===== PowerPoint 9 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 9",topic:"spot",sub:"Imaging film",title:"Spot — contrast study in an infant with vomiting: diagnosis",seen:"คล้าย MDCU65 RoA PPT 8 และ MDCU65 RoB PPT 5 (ฟิล์ม midgut volvulus)",
+Co({page:258,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Imaging film",title:"Spot — contrast study in an infant with vomiting: diagnosis",seen:"คล้าย MDCU65 RoA SA 8 และ MDCU65 RoB SA 5 (ฟิล์ม midgut volvulus)",
  stem:`A 3-week-old infant presents with sudden onset of bile-stained vomiting. An upper gastrointestinal contrast study is shown.<br>1. What is the diagnosis?<br>2. How do you distinguish this from the main differential diagnosis of vomiting at this age?`,
  gray:"9. รูปฟิล์มเหมือนเป็น pyrolic stenosis แต่อาการเหมือน midgut volvulus ถามว่าเป็นอะไร",
  flag:"⚠ "+NOIMG+" · ผู้จดลังเลระหว่าง pyloric stenosis (ตามฟิล์ม) และ midgut volvulus (ตามอาการ) · อายุ/อาการ Claude เติมโดยเลือกตามอาการ (bilious vomiting) · คำถามย่อยการแยกโรค Claude เติม",imgAlt:"ฟิล์ม upper GI study ของทารก เห็นกระเพาะอาหารและลำไส้เล็กส่วนต้นที่มีสารทึบรังสี",
  opinion:"ไฟล์ไม่มีคำตอบสุดท้าย · Claude ยึดอาการ (อาเจียนน้ำดี) เป็นหลัก เพราะ bilious vomiting ในทารก = malrotation with midgut volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ และฟิล์ม UGI ของ volvulus (duodenum อุดตันเป็นรูปจะงอยปาก) อาจดูคล้าย gastric outlet obstruction ได้",
  parts:S(
-  B("PPT 9.1 Diagnosis.",3,{tags:["spot"],
+  B("SA 9.1 Diagnosis.",3,{tags:["spot"],
    ans:"<b>Malrotation with midgut volvulus</b> · UGI study: <b>duodenojejunal (DJ) junction อยู่ขวาต่อแนวกลาง/ต่ำกว่า pylorus</b>, duodenum ไม่ข้ามแนวกลาง, <b>corkscrew sign</b> (jejunum บิดเป็นเกลียว) หรือ <b>beak sign</b>/อุดตันสมบูรณ์ที่ duodenum ส่วนสอง-สาม · เป็น <b>surgical emergency</b> → resuscitate, NG decompression, antibiotics → <b>emergency Ladd's procedure</b> (คลายบิดทวนเข็มนาฬิกา, ตัด Ladd's bands, ขยายฐาน mesentery, appendectomy, วางลำไส้เล็กด้านขวา ลำไส้ใหญ่ด้านซ้าย)",
    exp:"Ladd's bands = พังผืดจาก cecum ที่อยู่ผิดตำแหน่งพาดผ่าน duodenum ทำให้อุดตัน · ฐาน mesentery แคบ → บิดรอบ SMA → ลำไส้ขาดเลือดทั้งแถบใน 'ไม่กี่ชั่วโมง'",
    rubric:"ได้ = malrotation with midgut volvulus + ลักษณะ UGI + emergency Ladd's · บางส่วน = ตอบ pyloric stenosis",
    pts:[CR(P("Malrotation with midgut volvulus","volvulus","malrotation")),P("UGI: DJ junction ผิดตำแหน่ง, corkscrew / beak","dj","duodenojejunal","corkscrew","beak","midline","แนวกลาง"),P("Emergency Ladd's procedure","ladd","emergen","ฉุกเฉิน")]}),
-  B("PPT 9.2 How do you distinguish this from hypertrophic pyloric stenosis?",3,{tags:["spot"],flag:"ข้อย่อยนี้ Claude เติม",
+  B("SA 9.2 How do you distinguish this from hypertrophic pyloric stenosis?",3,{tags:["spot"],flag:"ข้อย่อยนี้ Claude เติม",
    ans:"<b>Hypertrophic pyloric stenosis</b>: อายุ 2–8 สัปดาห์ · <b>อาเจียนพุ่ง ไม่มีน้ำดี</b> หลังกินนม หิวตลอด · คลำได้ <b>olive mass</b> ใต้ชายโครงขวา, เห็น gastric peristalsis · lab: <b>hypochloremic hypokalemic metabolic alkalosis</b> · <b>US</b>: pyloric muscle thickness ≥3–4 mm, length ≥15–17 mm · UGI: <b>string sign</b>, shoulder sign · รักษา: แก้น้ำ/เกลือแร่ก่อน แล้วทำ <b>Ramstedt pyloromyotomy</b> (ไม่ฉุกเฉิน) · ส่วน <b>midgut volvulus</b>: <b>อาเจียนมีน้ำดี</b>, เกิดได้ทุกอายุ (ส่วนใหญ่ขวบปีแรก), อาจถ่ายเป็นเลือด/ท้องอืด/shock เมื่อลำไส้ขาดเลือด → ผ่าตัดฉุกเฉิน",
    exp:"หลักสำคัญ: น้ำดีในอาเจียนบอกว่าอุดตันต่ำกว่า ampulla of Vater → ไม่ใช่ pyloric stenosis",
    rubric:"ได้ = แยกด้วยอาเจียนมี/ไม่มีน้ำดี + olive/US criteria + metabolic alkalosis ของ HPS",
@@ -429,12 +429,12 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 9",topic:"spot",sub:"Imaging film",title
  summary:["Bilious vomiting ในทารก = volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่","UGI: DJ junction ผิดตำแหน่ง, corkscrew, beak","Ladd's procedure: detorsion ทวนเข็ม, ตัด bands, ขยาย mesentery, appendectomy","HPS: non-bilious projectile, olive, alkalosis, US ≥3–4 mm, pyloromyotomy"]}),
 
 /* ===== PowerPoint 10 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — painful swelling beside a fingernail: diagnosis and treatment",
+Co({page:258,sec:"Short Answers",orig:"PPT 10",num:"SA 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — painful swelling beside a fingernail: diagnosis and treatment",
  stem:`A photograph shows a red, swollen and tender nail fold of the index finger with a small collection of pus. Symptoms began 3 days after the patient trimmed a hangnail.<br>1. What is the diagnosis?<br>2. How would you treat it?`,
  gray:"10. รูป paronychia ถามว่าเป็นอะไร รักษายังไง",
  flag:NOIMG+" · ประวัติ/ลักษณะหนอง Claude เติม",imgAlt:"รูปนิ้วมือ เห็นบริเวณรอบเล็บ",
  parts:S(
-  B("PPT 10.1 Diagnosis and treatment.",4,{tags:["spot"],key:"ไฟล์ระบุ: paronychia (ไม่มีเฉลยการรักษา)",
+  B("SA 10.1 Diagnosis and treatment.",4,{tags:["spot"],key:"ไฟล์ระบุ: paronychia (ไม่มีเฉลยการรักษา)",
    ans:"<b>Acute paronychia</b> — การติดเชื้อของ nail fold (lateral/proximal) เชื้อ <b>S. aureus</b>, Streptococcus (และ anaerobe ในคนที่ดูดนิ้ว/กัดเล็บ) · <b>รักษา</b>: <b>ระยะยังไม่มีหนอง</b>: แช่น้ำอุ่น 3–4 ครั้ง/วัน ± ยาปฏิชีวนะ (cloxacillin/dicloxacillin, cephalexin; กัดเล็บ → amoxicillin-clavulanate) · <b>มีหนอง (abscess)</b>: <b>incision & drainage</b> ภายใต้ <b>digital block</b> — ยก/กรีด nail fold ตามแนวขนานเล็บ (ไม่ตัดเข้า nail matrix) · ถ้าหนองลามใต้เล็บ (subungual) → <b>ถอดเล็บบางส่วน (partial nail removal)</b> · ทำแผล แช่น้ำอุ่นต่อ · <b>Chronic paronychia</b> (&gt;6 สัปดาห์, มือเปียกบ่อย, Candida): หลีกเลี่ยงความชื้น, topical steroid ± antifungal",
    exp:"แยก felon (ติดเชื้อ pulp ปลายนิ้ว — ปวดตุบ ๆ ตึง ต้องกรีดระบายด้านข้างนิ้ว) และ herpetic whitlow (ตุ่มน้ำใส — ห้ามกรีด ให้ acyclovir)",
    rubric:"ได้ = acute paronychia + แช่น้ำอุ่น/ยาระยะแรก + I&D ใต้ digital block เมื่อมีหนอง + partial nail removal ถ้าหนองใต้เล็บ",
@@ -444,18 +444,18 @@ Co({page:258,sec:"PowerPoint",orig:"PPT 10",topic:"spot",sub:"Plastic/Skin/Burn"
  summary:["Acute paronychia: S. aureus/Strep","ไม่มีหนอง: แช่น้ำอุ่น ± anti-staph","มีหนอง: I&D ใต้ digital block · ใต้เล็บ → partial nail removal","Herpetic whitlow ห้ามกรีด · chronic → Candida/ความชื้น"]}),
 
 /* ===== PowerPoint 11 ===== */
-Co({page:258,sec:"PowerPoint",orig:"PPT 11",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — discolored foot: describe the findings and key physical examination",seen:"คล้าย MDCU65 RoA PPT 9 (ให้อาการ → chronic arterial occlusion, PE?)",
+Co({page:258,sec:"Short Answers",orig:"PPT 11",num:"SA 11",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — discolored foot: describe the findings and key physical examination",seen:"คล้าย MDCU65 RoA SA 9 (ให้อาการ → chronic arterial occlusion, PE?)",
  stem:`A photograph of the right foot of a 72-year-old man with atrial fibrillation is shown. The foot became painful and cold 6 hours ago.<br>1. Describe the findings.<br>2. What are the important physical examination findings to look for?`,
  gray:"11. รูปเหมือนเป็น arterial occulsion ให้บรรยายสิ่งที่พบแล้วก็การตรวจร่างกายที่สำคัญ",
  flag:NOIMG+" · ไฟล์ไม่ได้บอกว่าเป็น acute หรือ chronic — Claude เลือก acute arterial occlusion (ประวัติ AF, 6 ชม.) และใส่ลักษณะ chronic ไว้ในคำอธิบาย",imgAlt:"รูปเท้าขวาของชายสูงอายุ เทียบกับเท้าซ้าย",
  notes:"ผู้จดใช้คำว่า 'เหมือนเป็น' (ไม่แน่ใจ)",
  parts:S(
-  B("PPT 11.1 Describe the findings.",3,{tags:["spot"],
+  B("SA 11.1 Describe the findings.",3,{tags:["spot"],
    ans:"เท้าขวา<b>ซีด (pallor) หรือเป็นจ้ำเขียวม่วง (mottling/marbling)</b> เมื่อเทียบกับข้างซ้าย · ปลายนิ้วเขียวคล้ำ (cyanosis) · ไม่มีแผล/gangrene ชัด (ถ้าเป็นนาน: dry gangrene ปลายนิ้วสีดำขอบชัด) · ภาวะที่เข้าได้: <b>acute limb ischemia</b> จาก <b>arterial embolism</b> (AF) · (ลักษณะ <b>chronic</b> arterial insufficiency: ผิวมันบาง ขนร่วง เล็บหนา กล้ามเนื้อลีบ แผลที่ปลายนิ้ว/จุดกดทับ ขอบเรียบ (punched-out) ฐานซีด เจ็บมาก)",
    exp:"Mottling ที่กดแล้วจางลง (blanching) ยังกู้ได้ · fixed mottling (กดไม่จาง) = irreversible ischemia",
    rubric:"ได้ = บรรยายสี (pallor/mottling/cyanosis) เทียบข้างปกติ + สรุป arterial ischemia · บางส่วน = บรรยายไม่เทียบข้าง",
    pts:[CR(P("Pallor / mottling / cyanosis เทียบข้างปกติ","pallor","ซีด","mottl","marbl","จ้ำ","cyanos","เขียว","คล้ำ")),P("สรุป acute limb ischemia (embolism)","acute limb","ischemi","ขาดเลือด","embol"),P("ลักษณะ chronic: ขนร่วง ผิวมัน แผลขอบเรียบ gangrene","hair","ขนร่วง","shiny","ผิวมัน","punched","gangrene","เนื้อตาย")]}),
-  B("PPT 11.2 Important physical examination.",4,{tags:["spot"],
+  B("SA 11.2 Important physical examination.",4,{tags:["spot"],
    ans:"<b>6 P</b>: Pain, Pallor, Pulselessness, Poikilothermia (เย็น), Paresthesia, Paralysis · <b>คลำชีพจรทุกระดับเทียบสองข้าง</b>: femoral, popliteal, dorsalis pedis, posterior tibial (± handheld <b>Doppler</b> ฟังเสียง arterial/venous) · <b>อุณหภูมิ</b> และ <b>capillary refill</b> · <b>Sensory</b> (เสียความรู้สึกเริ่มที่ใต้ฝ่าเท้า/ระหว่างนิ้ว) และ <b>motor</b> (กระดกนิ้วเท้า) → จัด <b>Rutherford class</b> (I viable, IIa marginally threatened, IIb immediately threatened, III irreversible) · กล้ามเนื้อน่องกดเจ็บ/แข็ง (compartment) · <b>หัวใจ</b>: ชีพจรไม่สม่ำเสมอ (AF), murmur · ฟัง bruit, คลำ AAA · <b>ABI</b> · (chronic: Buerger's test — ยกขาซีด ห้อยขาแดงคล้ำ)",
    exp:"Rutherford IIb (sensory loss เกินปลายนิ้ว + motor อ่อนแรงเล็กน้อย) ต้อง revascularize ทันที · III (อัมพาต ชาสนิท ไม่มี Doppler signal ทั้ง arterial/venous) → amputation · ให้ heparin ทันทีเมื่อวินิจฉัย",
    rubric:"ได้ = 6P + ชีพจรทุกระดับเทียบสองข้าง + sensory/motor (Rutherford) + Doppler + หาต้นเหตุ (AF) · บางส่วน = คลำชีพจรอย่างเดียว",

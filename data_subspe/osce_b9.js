@@ -1,7 +1,7 @@
 (function(){
 /* Surgery OSCE ข้อสอบเก่า AC — MDCU65 RoA (Sx 1/55) · ไฟล์ GSUP4K (01_5_MCQs_Key_4.pdf) หน้า 267–268
    หน้า 266–267 ส่วนบน = MCQ/หัวข้อ MCQ ที่จำโจทย์ไม่ได้ (รายการ 1–17 "หน้านี้แบบเป็นหัวข้อที่ออกนะ") → ไม่ทำ (นอกขอบเขต OSCE)
-   รูปแบบที่ไฟล์บอก (หน้า 267): OSCE แบ่งเป็น 2 ตอน แบ่งครึ่งสอบ · ตอนที่ 1 = ตอบคำถามใน powerpoint ข้อละ 4–5 (?) นาที → sec:"PowerPoint" orig "PPT n"
+   รูปแบบที่ไฟล์บอก (หน้า 267): OSCE แบ่งเป็น 2 ตอน แบ่งครึ่งสอบ · ตอนที่ 1 = ตอบคำถามใน powerpoint ข้อละ 4–5 (?) นาที → sec:"Short Answers" orig "PPT n"
      · ตอนที่ 2 = ปฏิบัติ ข้อละ 3 นาที → sec:"OSCE" orig "n"
    แต่ละตอนแบ่ง "ข้อสอบเก่า" / "ข้อสอบใหม่" (ผู้จดหมายถึงสถานีที่เคยออกในปีก่อน vs สถานีใหม่) — ใส่ทุกสถานีเป็นของชุดนี้ (ต่างปี = ต่างข้อ)
    ไฟล์ใช้ bullet ไม่มีเลขข้อ → Claude ให้เลขตามลำดับในหน้า: PPT 1–9 = ข้อสอบเก่า, PPT 10 = ข้อสอบใหม่ (แผลแทงใบหน้า; บรรทัด "ทดสอบยังไง" ต้นหน้า 268 คือคำถามต่อของข้อนี้)
@@ -24,13 +24,13 @@ const OLD="ไฟล์จัดเป็น 'ข้อสอบเก่า' (�
 QB.push(
 
 /* ===== PowerPoint 1 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Other spot",title:"Spot — progressive jaundice with liver tests: name the pattern and differential diagnoses",
+Co({page:267,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Other spot",title:"Spot — progressive jaundice with liver tests: name the pattern and differential diagnoses",
  stem:`A 65-year-old man presents with progressive painless jaundice for 6 weeks.<br>Laboratory results: total bilirubin 14.2 mg/dL, direct bilirubin 11.8 mg/dL, ALP 620 U/L, GGT 540 U/L, AST 85 U/L, ALT 92 U/L, albumin 3.6 g/dL.<br>1. What term describes this laboratory pattern?<br>2. Give the differential diagnoses.`,
  gray:"ตอนที่ 1 ข้อสอบเก่า - Progressive painless jaundice ถาม Ddx กับ เรียกภาวะอะไรจากผลแลบที่ให้ >> direct hyperbilirubinemia",
  flag:"ค่าแลปและอายุทั้งหมด Claude แต่ง (ไฟล์ไม่ได้จดตัวเลข) · สไลด์นี้เป็นโจทย์ + ผลแลป ไม่มีรูป → sub Other spot",
  notes:OLD,
  parts:S(
-  B("PPT 1.1 Name the laboratory pattern and give the differential diagnoses.",4,{tags:["spot"],key:"ไฟล์: direct hyperbilirubinemia (ไม่มีเฉลย Ddx)",
+  B("SA 1.1 Name the laboratory pattern and give the differential diagnoses.",4,{tags:["spot"],key:"ไฟล์: direct hyperbilirubinemia (ไม่มีเฉลย Ddx)",
    ans:"<b>Direct (conjugated) hyperbilirubinemia</b> แบบ <b>cholestatic pattern</b> (ALP/GGT สูงเด่นกว่า AST/ALT) = <b>obstructive jaundice</b> · <b>DDx ของ painless progressive obstructive jaundice</b>: <b>periampullary tumors</b> — <b>carcinoma of head of pancreas</b>, <b>distal cholangiocarcinoma</b>, ampullary carcinoma, duodenal carcinoma · <b>hilar cholangiocarcinoma (Klatskin)</b> · metastatic LN ที่ porta hepatis · (benign: CBD stone ที่ไม่ปวด, benign stricture, chronic pancreatitis, PSC) · (intrahepatic cholestasis: drug-induced, PBC) · ขั้นต่อไป: <b>US</b> ดูท่อน้ำดีขยาย/ระดับอุดตัน → <b>CT (pancreas protocol)/MRCP</b>, CA 19-9",
    exp:"Direct bilirubin &gt;50% ของ total = conjugated hyperbilirubinemia · ตัวเหลืองไม่ปวด + น้ำหนักลด ในผู้สูงอายุ = มะเร็งจนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
    rubric:"ได้ = direct/conjugated hyperbilirubinemia (cholestatic) + DDx มะเร็งอย่างน้อย 2 + รู้ว่าต้องทำ US/CT · บางส่วน = ตอบ hyperbilirubinemia ไม่ระบุชนิด",
@@ -40,18 +40,18 @@ Co({page:267,sec:"PowerPoint",orig:"PPT 1",topic:"spot",sub:"Other spot",title:"
  summary:["Direct bilirubin >50% + ALP/GGT สูง = cholestatic / obstructive","Painless progressive = periampullary CA / cholangiocarcinoma","Courvoisier: ถุงน้ำดีโตคลำได้ → อุดตันต่ำกว่า cystic duct","US → CT pancreas protocol / MRCP"]}),
 
 /* ===== PowerPoint 2 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Imaging film",title:"Spot — abdominal ultrasound image: diagnosis and other uses",
+Co({page:267,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Imaging film",title:"Spot — abdominal ultrasound image: diagnosis and other uses",
  stem:`A transabdominal ultrasound image of the right upper quadrant of a 45-year-old woman with fever and right upper abdominal pain for 2 days is shown.<br>1. What is the diagnosis?<br>2. What other surgical conditions can this investigation help diagnose?`,
  gray:"- ให้ภาพ TAS ถามว่า Dx ? ใช้ Dx โรคอะไรได้อีก >> Acute cholecystitis",
  flag:NOIMG+" · อายุ/อาการ Claude เติม",imgAlt:"ภาพอัลตราซาวด์ช่องท้องด้านขวาบน เห็นถุงน้ำดี",
  notes:OLD+" · TAS = transabdominal sonography",
  parts:S(
-  B("PPT 2.1 Diagnosis (with the ultrasound findings).",3,{tags:["spot"],key:"ไฟล์: Acute cholecystitis",
+  B("SA 2.1 Diagnosis (with the ultrasound findings).",3,{tags:["spot"],key:"ไฟล์: Acute cholecystitis",
    ans:"<b>Acute calculous cholecystitis</b> · ลักษณะ US: <b>gallstones</b> (echogenic + posterior acoustic shadow, เคลื่อนตามท่า) หรือนิ่วติดที่คอถุงน้ำดี, <b>ผนังถุงน้ำดีหนา &gt;4 mm</b>, <b>pericholecystic fluid</b>, ถุงน้ำดีโตตึง, <b>sonographic Murphy's sign</b> บวก · (Tokyo Guidelines 2018: local sign + systemic inflammation + imaging = definite)",
    exp:"รักษา: NPO, IV fluid, antibiotics, analgesia → <b>early laparoscopic cholecystectomy</b> (ภายใน 72 ชม.–1 สัปดาห์) ในผู้ที่ทนผ่าตัดได้ · เสี่ยงสูง/รุนแรง → percutaneous cholecystostomy",
    rubric:"ได้ = acute cholecystitis + ลักษณะ US ≥2",
    pts:[CR(P("Acute (calculous) cholecystitis","cholecystitis","ถุงน้ำดีอักเสบ")),G("ลักษณะ US (≥2)",2,P("Gallstone + acoustic shadow","stone","นิ่ว","shadow"),P("GB wall thickening","wall","ผนัง","thicken","หนา"),P("Pericholecystic fluid","pericholecyst","fluid","น้ำรอบ"),P("Sonographic Murphy's sign","murphy"),P("GB distension","distend","distens","ถุงน้ำดีโต"))]}),
-  B("PPT 2.2 Other surgical conditions this investigation can diagnose.",2,{tags:["spot"],key:"ไฟล์ถาม 'ใช้ Dx โรคอะไรได้อีก' (ไม่มีเฉลย)",
+  B("SA 2.2 Other surgical conditions this investigation can diagnose.",2,{tags:["spot"],key:"ไฟล์ถาม 'ใช้ Dx โรคอะไรได้อีก' (ไม่มีเฉลย)",
    ans:"<b>Hepatobiliary</b>: gallstone/choledocholithiasis (ท่อน้ำดีขยาย), obstructive jaundice (ระดับการอุดตัน), liver abscess, liver mass/HCC, hydatid · <b>Pancreas</b>: pancreatitis (หานิ่ว), pseudocyst · <b>อื่น ๆ</b>: <b>appendicitis</b> (โดยเฉพาะเด็ก/หญิงตั้งครรภ์), <b>FAST</b> ใน blunt trauma (free fluid, hemopericardium), <b>AAA</b>, <b>hydronephrosis</b>/นิ่วไต, intussusception (target sign), pyloric stenosis, ovarian torsion/ectopic pregnancy, abscess/collection, ascites",
    exp:"US เป็น first-line imaging ของ RUQ pain (ACR appropriateness) เพราะไม่มีรังสี ทำข้างเตียงได้ ไวต่อนิ่วถุงน้ำดี (~95%) แต่ไวต่ำต่อนิ่วใน distal CBD",
    rubric:"ได้ = ≥4 ภาวะครอบคลุมหลายระบบ (รวม FAST/appendicitis/AAA)",
@@ -61,13 +61,13 @@ Co({page:267,sec:"PowerPoint",orig:"PPT 2",topic:"spot",sub:"Imaging film",title
  summary:["Acute cholecystitis US: นิ่ว + ผนังหนา >4 mm + pericholecystic fluid + sonographic Murphy","รักษา: early lap chole · เสี่ยงสูง → cholecystostomy","US ใช้: ท่อน้ำดีขยาย, liver abscess, appendicitis, FAST, AAA, hydronephrosis, intussusception"]}),
 
 /* ===== PowerPoint 3 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Imaging film",title:"Spot — intravenous pyelogram: describe the abnormality",seen:"คล้าย MDCU65 RoB PPT 6 (ภาพ IVP ถามความผิดปกติ)",
+Co({page:267,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Imaging film",title:"Spot — intravenous pyelogram: describe the abnormality",seen:"คล้าย MDCU65 RoB SA 6 (ภาพ IVP ถามความผิดปกติ)",
  stem:`An intravenous pyelogram (IVP) of a 40-year-old man with left colicky flank pain radiating to the groin is shown.<br>1. Describe the abnormality.<br>2. What is the diagnosis?`,
  gray:"- IVP อ่านถามความผิดปกติ",
  flag:"⚠ "+NOIMG+" · ไฟล์ไม่ได้บอกว่าความผิดปกติคืออะไร — Claude เลือกภาพนิ่วในท่อไตอุดตัน (พบบ่อยที่สุดใน IVP ของข้อสอบ) และแต่งอายุ/อาการ",imgAlt:"ฟิล์ม KUB และฟิล์ม IVP หลายช่วงเวลาของผู้ป่วยชาย",
  notes:OLD,
  parts:S(
-  B("PPT 3.1 Describe the abnormality and give the diagnosis.",4,{tags:["spot"],
+  B("SA 3.1 Describe the abnormality and give the diagnosis.",4,{tags:["spot"],
    ans:"<b>วิธีอ่าน IVP</b>: plain KUB (ก้อน radiopaque, กระดูก, เงา psoas/ไต) → nephrogram phase → pyelogram phase (calyces, pelvis, ureter) → bladder → post-void · <b>ภาพที่แต่ง</b>: KUB เห็นก้อน radiopaque เล็กตามแนวท่อไตซ้ายระดับ L3–4/ ใกล้ sacroiliac joint · IVP: <b>delayed nephrogram ฝั่งซ้าย</b> (dense/persistent nephrogram), <b>hydronephrosis + hydroureter ซ้ายเหนือตำแหน่งนิ่ว</b>, calyces ป้าน (blunting/clubbing), contrast หยุดที่ระดับนิ่ว · ฝั่งขวาปกติ · <b>Dx: Left obstructing ureteric calculus</b> with hydroureteronephrosis",
    exp:"ปัจจุบัน non-contrast CT KUB เป็นมาตรฐานวินิจฉัยนิ่วทางเดินปัสสาวะ (IVP ใช้น้อยลง) · นิ่ว &lt;5 mm มักหลุดเอง (medical expulsive therapy: tamsulosin) · ข้อบ่งชี้ด่วน: ติดเชื้อร่วม (obstructed infected kidney → PCN/DJ stent), ไตข้างเดียว, AKI, ปวดคุมไม่ได้",
    rubric:"ได้ = อ่านตามลำดับ + delayed nephrogram + hydroureteronephrosis เหนือระดับอุดตัน + ureteric stone · บางส่วน = บอก 'ไตบวมน้ำ' อย่างเดียว",
@@ -77,13 +77,13 @@ Co({page:267,sec:"PowerPoint",orig:"PPT 3",topic:"spot",sub:"Imaging film",title
  summary:["อ่าน IVP: KUB → nephrogram → pyelogram → ureter → bladder → post-void","Acute obstruction: delayed dense nephrogram + hydroureteronephrosis เหนือจุดอุดตัน","มาตรฐานปัจจุบัน: NCCT KUB","Obstruction + infection → decompress ด่วน (PCN/DJ stent)"]}),
 
 /* ===== PowerPoint 4 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 4",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn abdominal wall defect: management",
+Co({page:267,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn abdominal wall defect: management",
  stem:`A photograph of a newborn shows loops of bowel protruding through a small defect to the right of an intact umbilical cord, with no covering membrane.<br>1. What is the diagnosis?<br>2. Outline the management.`,
  gray:"- Gastroschisis management?",
  flag:NOIMG+" · คำถาม 'diagnosis' Claude เติมเพื่อให้สไลด์สมบูรณ์",imgAlt:"รูปทารกแรกเกิดนอนหงาย เห็นบริเวณผนังหน้าท้อง",
  notes:OLD,
  parts:S(
-  B("PPT 4.1 Diagnosis and management.",5,{tags:["spot"],key:"ไฟล์ระบุ: Gastroschisis (ไม่มีเฉลยการรักษา)",
+  B("SA 4.1 Diagnosis and management.",5,{tags:["spot"],key:"ไฟล์ระบุ: Gastroschisis (ไม่มีเฉลยการรักษา)",
    ans:"<b>Gastroschisis</b> (defect ด้านขวาของสายสะดือ ไม่มีถุงหุ้ม ลำไส้บวมหนามี peel) · <b>ทันทีหลังคลอด</b>: <b>คลุมลำไส้ด้วยถุงพลาสติก sterile (bowel bag)</b>/ห่อพลาสติกใส ไม่ใช้ผ้าชุบน้ำเกลือที่ทำให้ตัวเย็น · จัดท่า <b>นอนตะแคงขวา</b> ประคองลำไส้ไม่ให้หักพับ (กันขาดเลือด) · <b>ให้ความอบอุ่น</b> (เสียความร้อน/น้ำมาก) · <b>OG/NG decompression</b> · <b>IV fluid</b> ปริมาณมากกว่าปกติ + ติดตาม urine output · <b>IV antibiotics</b> · ดู perfusion ของลำไส้ · <b>ผ่าตัด</b>: <b>primary reduction + closure</b> ถ้าความดันในช่องท้องไม่สูงเกิน หรือ <b>staged reduction ด้วย preformed silo</b> แล้วปิดภายหลัง (sutureless/sutured closure) · ระวัง <b>abdominal compartment syndrome</b> · หลังผ่าตัด: <b>TPN</b> นาน (ลำไส้ทำงานช้า), ตรวจหา intestinal atresia (~10%)",
    exp:"Gastroschisis vs omphalocele: omphalocele อยู่ที่สะดือ มีถุงหุ้ม (amnion + peritoneum) สัมพันธ์กับความผิดปกติร่วม/โครโมโซม (trisomy 13/18, Beckwith-Wiedemann, หัวใจ) · gastroschisis ความผิดปกติร่วมน้อย ยกเว้น atresia; สัมพันธ์มารดาอายุน้อย",
    rubric:"ได้ = คลุมลำไส้ (bowel bag) + ท่าตะแคงขวา + อบอุ่น + NG + IV fluid + antibiotics + primary closure หรือ silo + TPN · บางส่วน = ไม่มีการดูแลก่อนผ่าตัด",
@@ -94,13 +94,13 @@ Co({page:267,sec:"PowerPoint",orig:"PPT 4",topic:"spot",sub:"Pediatric surgery",
  summary:["Gastroschisis: ขวาของสายสะดือ ไม่มีถุง · atresia ~10%","Bowel bag + ตะแคงขวา + อบอุ่น + NG + IV fluid มาก + ATB","Primary closure หรือ preformed silo → ปิดภายหลัง","Omphalocele: มีถุง ความผิดปกติร่วมมาก"]}),
 
 /* ===== PowerPoint 5 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 5",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — skin lesion: describe the lesion",
+Co({page:267,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — skin lesion: describe the lesion",
  stem:`A photograph of a chronic non-healing lesion on the lower leg of a 60-year-old farmer is shown. It developed on an old burn scar.<br>1. Describe the lesion.<br>2. What is the most likely diagnosis and how would you confirm it?`,
  gray:"- Squamous cell CA บรรยาย lesion",
  flag:NOIMG+" · ตำแหน่ง/ประวัติแผลเป็นจากไฟไหม้ Claude เติม · คำถามย่อยการวินิจฉัย/ยืนยันผล Claude เติม",imgAlt:"รูปรอยโรคเรื้อรังที่ผิวหนังบริเวณขาส่วนล่าง",
  notes:OLD,
  parts:S(
-  B("PPT 5.1 Describe the lesion, then give the diagnosis and how to confirm it.",4,{tags:["spot"],key:"ไฟล์ระบุ: Squamous cell CA (ไม่มีเฉลยการบรรยาย)",
+  B("SA 5.1 Describe the lesion, then give the diagnosis and how to confirm it.",4,{tags:["spot"],key:"ไฟล์ระบุ: Squamous cell CA (ไม่มีเฉลยการบรรยาย)",
    ans:"<b>บรรยาย</b>: แผล (ulcer) เดี่ยว ขนาด ~4×3 cm ที่หน้าแข้ง บนผิวที่เป็นแผลเป็นเก่า · <b>ขอบนูนและม้วนออก (raised, everted edge)</b> แข็ง (indurated) ขอบไม่สม่ำเสมอ · <b>ฐานมีเนื้อยุ่ย (friable) เลือดออกง่าย</b> มี necrotic tissue/สะเก็ด keratin · ผิวรอบ ๆ ไม่มีสะเก็ดเงิน · (คลำต่อมน้ำเหลืองขาหนีบ) · <b>Dx: Squamous cell carcinoma ที่เกิดบนแผลเป็นเรื้อรัง (Marjolin's ulcer)</b> · <b>ยืนยัน</b>: <b>incisional/punch biopsy จากขอบแผล</b> (หลายตำแหน่ง) · ตรวจ inguinal LN (FNA ถ้าโต)",
    exp:"การบรรยาย ulcer: ตำแหน่ง ขนาด รูปร่าง ขอบ (sloping = venous/healing, punched-out = arterial/ischemic, undermined = TB, rolled/pearly = BCC, everted = SCC) ฐาน สิ่งที่หลั่ง ผิวรอบ LN · รักษา SCC: wide local excision margin 4–6 mm (high risk ≥6 mm/Mohs) ± LN dissection ถ้า node positive",
    rubric:"ได้ = บรรยายขอบ everted/indurated + ฐาน friable/เลือดออก + SCC (Marjolin) + biopsy จากขอบ · บางส่วน = บรรยายไม่ครบองค์ประกอบ",
@@ -110,18 +110,18 @@ Co({page:267,sec:"PowerPoint",orig:"PPT 5",topic:"spot",sub:"Plastic/Skin/Burn",
  summary:["บรรยาย ulcer: site, size, shape, edge, base, discharge, surrounding, LN","Edge: sloping (venous), punched-out (arterial), undermined (TB), rolled (BCC), everted (SCC)","Marjolin's ulcer = SCC บนแผลเป็นเรื้อรัง/แผลไฟไหม้","Biopsy จากขอบแผล · WLE margin 4–6 mm"]}),
 
 /* ===== PowerPoint 6 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 6",topic:"spot",sub:"Pediatric surgery",title:"Spot — infant with prolonged jaundice: differential diagnosis and management",
+Co({page:267,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Pediatric surgery",title:"Spot — infant with prolonged jaundice: differential diagnosis and management",
  stem:`A photograph of a 7-week-old infant shows jaundice, a distended abdomen and a nappy with pale (acholic) stool. Direct bilirubin is 6.5 mg/dL.<br>1. Give the differential diagnoses.<br>2. Outline the investigations and management of the most likely diagnosis.`,
  gray:"- Biliary atresia DDx ? management?",
  flag:NOIMG+" · อายุ/ค่า direct bilirubin Claude แต่ง",imgAlt:"รูปทารกตัวเหลือง ท้องป่อง และผ้าอ้อมที่มีอุจจาระ",
  notes:OLD,
  parts:S(
-  B("PPT 6.1 Differential diagnoses.",2,{tags:["spot"],key:"ไฟล์ระบุ: Biliary atresia (ไม่มีเฉลย DDx/management)",
+  B("SA 6.1 Differential diagnoses.",2,{tags:["spot"],key:"ไฟล์ระบุ: Biliary atresia (ไม่มีเฉลย DDx/management)",
    ans:"<b>Neonatal cholestasis</b> (direct bilirubin &gt;1 mg/dL หรือ &gt;20% ของ total) ร่วมกับอุจจาระซีด → <b>Biliary atresia</b> (ต้องคิดก่อนเสมอ) · <b>DDx</b>: <b>choledochal cyst</b>, <b>neonatal (idiopathic) hepatitis</b>, infection (TORCH, CMV, UTI/sepsis), <b>Alagille syndrome</b>, PFIC, <b>α1-antitrypsin deficiency</b>, galactosemia/metabolic, hypothyroidism, TPN-associated cholestasis, inspissated bile syndrome",
    exp:"ทารกที่ตัวเหลือง &gt;2 สัปดาห์ (ครบกำหนด) ต้องตรวจ direct bilirubin เสมอ · ใช้บัตรเทียบสีอุจจาระ (stool color card) คัดกรอง",
    rubric:"ได้ = biliary atresia + DDx ≥3 ที่เหมาะสม",
    pts:[CR(P("Biliary atresia","biliary atresia","ท่อน้ำดีตีบตัน","atresia")),G("DDx (≥3)",3,P("Choledochal cyst","choledochal","cyst"),P("Neonatal hepatitis","neonatal hepatitis","hepatitis","ตับอักเสบ"),P("Infection: TORCH / CMV / sepsis","torch","cmv","infect","sepsis"),P("Alagille syndrome","alagille"),P("α1-antitrypsin deficiency","antitrypsin","a1at","α1"),P("Metabolic: galactosemia / hypothyroid / PFIC","galactos","metabol","thyroid","pfic"))]}),
-  B("PPT 6.2 Investigations and management.",4,{tags:["spot"],
+  B("SA 6.2 Investigations and management.",4,{tags:["spot"],
    ans:"<b>Investigations</b>: LFT (direct bilirubin, GGT สูง) · <b>US</b> (fasting): ถุงน้ำดีเล็ก/ไม่เห็น/ไม่หดตัว, <b>triangular cord sign</b>, แยก choledochal cyst · <b>Hepatobiliary scintigraphy (HIDA)</b>: ตับจับสารดีแต่<b>ไม่ขับลงลำไส้</b> · <b>Liver biopsy</b>: bile duct proliferation, bile plug · <b>Intraoperative cholangiogram</b> = gold standard · <b>Management</b>: <b>Kasai portoenterostomy</b> ให้เร็วที่สุด — ผลดีที่สุดเมื่อทำ<b>ก่อนอายุ 60 วัน</b> · หลังผ่าตัด: ursodeoxycholic acid, vitamin A D E K, MCT formula, antibiotic prophylaxis ป้องกัน <b>cholangitis</b> (± steroid) · ติดตาม portal hypertension · Kasai ไม่สำเร็จ/ตับแข็ง → <b>liver transplantation</b> (biliary atresia = ข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก)",
    exp:"Kasai: ตัด fibrous remnant ที่ porta hepatis แล้วต่อ Roux-en-Y jejunal limb กับ porta · ประมาณ 1/3 ไม่ต้องปลูกถ่ายตับในระยะยาว",
    rubric:"ได้ = US + HIDA/biopsy + cholangiogram + Kasai ก่อน 60 วัน + transplant ถ้าล้มเหลว · บางส่วน = ไม่บอกเวลา",
@@ -131,13 +131,13 @@ Co({page:267,sec:"PowerPoint",orig:"PPT 6",topic:"spot",sub:"Pediatric surgery",
  summary:["ตัวเหลือง >2 สัปดาห์ → ตรวจ direct bilirubin · อุจจาระซีด = red flag","DDx: choledochal cyst, neonatal hepatitis, TORCH, Alagille, α1AT","US (triangular cord) → HIDA → biopsy → IOC","Kasai <60 วัน · ล้มเหลว → liver transplant"]}),
 
 /* ===== PowerPoint 7 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 7",topic:"spot",sub:"Breast",title:"Spot — red, tender breast: diagnosis and management",seen:"คล้าย MDCU66 RoD PPT 1 (รูป mastitis)",
+Co({page:267,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Breast",title:"Spot — red, tender breast: diagnosis and management",seen:"คล้าย MDCU66 RoD SA 1 (รูป mastitis)",
  stem:`A photograph of the breast of a 30-year-old woman, 6 weeks postpartum, shows a red, swollen area in the upper outer quadrant. She has been treated with oral antibiotics for 5 days without improvement and now has a fluctuant, tender area.<br>1. What is the diagnosis?<br>2. Outline the management.`,
  gray:"- Mastitis",
  flag:NOIMG+" · ไฟล์จดแค่คำว่า 'Mastitis' — ประวัติ/อาการ (ไม่ตอบสนองยา มีจุด fluctuant) และคำถาม Claude เติม เพื่อไม่ให้ซ้ำกับสไลด์ mastitis ของชุดอื่น",imgAlt:"รูปเต้านมข้างหนึ่งของหญิงหลังคลอด",
  notes:OLD,
  parts:S(
-  B("PPT 7.1 Diagnosis and management.",4,{tags:["spot"],key:"ไฟล์ระบุหัวข้อ: Mastitis (ไม่มีเฉลย)",
+  B("SA 7.1 Diagnosis and management.",4,{tags:["spot"],key:"ไฟล์ระบุหัวข้อ: Mastitis (ไม่มีเฉลย)",
    ans:"<b>Lactational mastitis ที่ลุกลามเป็น breast abscess</b> (ไม่ดีขึ้นหลังยาปฏิชีวนะ 48–72 ชม. + คลำได้ fluctuant) · <b>ยืนยัน</b>: <b>ultrasound</b> ดู collection · <b>รักษา</b>: <b>US-guided needle aspiration</b> (ซ้ำได้ทุก 2–3 วัน) เป็นทางเลือกแรก · abscess ใหญ่/หลายช่อง/ผิวหนังบางใกล้แตก/aspiration ไม่สำเร็จ → <b>incision & drainage</b> (กรีดตามแนวรัศมีหรือรอบ areola ห่างหัวนม) · ส่งหนองเพาะเชื้อ (MRSA) · ยาปฏิชีวนะต่อ (cloxacillin/cephalexin; MRSA → clindamycin/TMP-SMX) · <b>ให้นมต่อ</b>ได้ (ข้างที่เป็นถ้าแผลไม่อยู่ใกล้หัวนม; หรือปั๊มทิ้ง) · ยาแก้ปวด · ถ้าไม่ได้ให้นม/เป็นซ้ำ → แยก inflammatory breast cancer, periductal mastitis (สูบบุหรี่), granulomatous mastitis ด้วย biopsy",
    exp:"Lactational abscess มักอยู่ peripheral (S. aureus) · Non-lactational subareolar abscess สัมพันธ์กับการสูบบุหรี่ เป็นซ้ำ/เกิด mammary duct fistula ได้",
    rubric:"ได้ = mastitis → abscess + US + aspiration/I&D + antibiotic + ให้นมต่อ · บางส่วน = ให้ยาต่ออย่างเดียว",
@@ -147,18 +147,18 @@ Co({page:267,sec:"PowerPoint",orig:"PPT 7",topic:"spot",sub:"Breast",title:"Spot
  summary:["Mastitis ไม่ดีขึ้น 48–72 ชม. / fluctuant → breast abscess","US → needle aspiration (ซ้ำได้) · ใหญ่/หลายช่อง → I&D","ยา anti-staph + เพาะเชื้อ · ให้นมต่อได้","ไม่ให้นม/ไม่หาย → biopsy แยกมะเร็ง"]}),
 
 /* ===== PowerPoint 8 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 8",topic:"spot",sub:"Imaging film",title:"Spot — contrast study in an infant with bilious vomiting: diagnosis and management",seen:"คล้าย MDCU66 RoD PPT 9 และ MDCU65 RoB PPT 5 (ฟิล์ม midgut volvulus)",
+Co({page:267,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Imaging film",title:"Spot — contrast study in an infant with bilious vomiting: diagnosis and management",seen:"คล้าย MDCU66 RoD SA 9 และ MDCU65 RoB SA 5 (ฟิล์ม midgut volvulus)",
  stem:`A 10-day-old neonate presents with sudden bile-stained vomiting. An upper gastrointestinal contrast study is shown.<br>1. What is the diagnosis?<br>2. Outline the management.`,
  gray:"- Film midgut volvulus Dx? Management?",
  flag:NOIMG+" · อายุ/อาการ Claude เติม",imgAlt:"ฟิล์ม upper GI contrast study ของทารกแรกเกิด",
  notes:OLD,
  parts:S(
-  B("PPT 8.1 Diagnosis (with the radiographic signs).",3,{tags:["spot"],key:"ไฟล์ระบุ: midgut volvulus (ไม่มีเฉลยการรักษา)",
+  B("SA 8.1 Diagnosis (with the radiographic signs).",3,{tags:["spot"],key:"ไฟล์ระบุ: midgut volvulus (ไม่มีเฉลยการรักษา)",
    ans:"<b>Malrotation with midgut volvulus</b> · ลักษณะ UGI: <b>DJ junction อยู่ขวาต่อแนวกลาง/ต่ำกว่า duodenal bulb</b>, duodenum ไม่ข้ามแนวกลาง, <b>corkscrew appearance</b> ของ duodenum-jejunum ส่วนต้น หรือ <b>beak sign</b> (อุดตันสมบูรณ์) · plain film อาจเห็น double bubble + ลมปลายน้อย หรือปกติ · US: <b>whirlpool sign</b>, SMV อยู่ซ้ายของ SMA",
    exp:"UGI contrast study เป็น investigation of choice ในทารกอาเจียนน้ำดีที่อาการคงที่ · ถ้า peritonitis/shock → ผ่าตัดทันทีไม่ต้องรอภาพ",
    rubric:"ได้ = midgut volvulus (malrotation) + ลักษณะ DJ junction/corkscrew",
    pts:[CR(P("Malrotation with midgut volvulus","volvulus","malrotation")),P("DJ junction ผิดตำแหน่ง / corkscrew / beak / whirlpool","dj","duodenojejunal","corkscrew","beak","whirlpool","midline")]}),
-  B("PPT 8.2 Outline the management.",4,{tags:["spot"],
+  B("SA 8.2 Outline the management.",4,{tags:["spot"],
    ans:"<b>Surgical emergency</b> · <b>Resuscitation</b>: NPO, <b>NG/OG decompression</b>, IV fluid bolus + แก้ electrolyte, <b>IV broad-spectrum antibiotics</b>, เตรียมเลือด · <b>Emergency laparotomy — Ladd's procedure</b>: (1) <b>detorsion ทวนเข็มนาฬิกา</b> (2) <b>ตัด Ladd's bands</b> ที่พาดผ่าน duodenum (3) <b>ขยายฐาน mesentery</b> (4) <b>appendectomy</b> (เพราะ appendix จะไปอยู่ซ้ายบน) (5) วาง <b>ลำไส้เล็กด้านขวา ลำไส้ใหญ่ด้านซ้าย</b> · ลำไส้ที่ขาดเลือดไม่ชัด → second-look ใน 24–48 ชม. แทนการตัดทิ้งมาก · ลำไส้ตายมาก → short bowel syndrome (TPN)",
    exp:"เวลาคือเนื้อลำไส้: volvulus ทำให้ SMA ถูกบิด ลำไส้เล็กทั้งหมดขาดเลือดได้ภายในไม่กี่ชั่วโมง",
    rubric:"ได้ = resuscitation + emergency Ladd's procedure ครบองค์ประกอบหลัก (detorsion ทวนเข็ม, ตัด bands, ขยาย mesentery, appendectomy)",
@@ -168,18 +168,18 @@ Co({page:267,sec:"PowerPoint",orig:"PPT 8",topic:"spot",sub:"Imaging film",title
  summary:["อาเจียนน้ำดีในทารก → UGI ด่วน","UGI: DJ junction ขวาต่อแนวกลาง, corkscrew, beak · US: whirlpool","Ladd's: detorsion ทวนเข็ม, ตัด bands, ขยาย mesentery, appendectomy, SB ขวา colon ซ้าย","ลำไส้ก้ำกึ่ง → second look"]}),
 
 /* ===== PowerPoint 9 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 9",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — leg pain on walking: diagnosis and physical examination",seen:"คล้าย MDCU66 RoD PPT 11 (รูป arterial occlusion: บรรยาย + PE ที่สำคัญ)",
+Co({page:267,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — leg pain on walking: diagnosis and physical examination",seen:"คล้าย MDCU66 RoD SA 11 (รูป arterial occlusion: บรรยาย + PE ที่สำคัญ)",
  stem:`A 68-year-old man who smokes 40 pack-years complains of cramping pain in the right calf after walking about 100 metres, relieved by rest within a few minutes, for 6 months.<br>1. What is the diagnosis?<br>2. What physical examination would you perform?`,
  gray:"- ให้อาการ Dx >> Chronic artery occlusion PE?",
  flag:NOIMG+" · อาการในโจทย์ Claude แต่ง (ไฟล์จดแค่ 'ให้อาการ')",imgAlt:"สไลด์ข้อความประวัติผู้ป่วย",
  notes:OLD+" · 'PE?' = ถามการตรวจร่างกาย",
  parts:S(
-  B("PPT 9.1 Diagnosis.",2,{tags:["spot"],key:"ไฟล์: Chronic artery occlusion",
+  B("SA 9.1 Diagnosis.",2,{tags:["spot"],key:"ไฟล์: Chronic artery occlusion",
    ans:"<b>Chronic lower limb arterial occlusive disease (peripheral arterial disease) — intermittent claudication</b> ของขาขวา จาก <b>atherosclerosis</b> · ปวดน่อง → รอยโรคระดับ <b>superficial femoral/popliteal artery</b> (ปวดก้น/ต้นขา → aortoiliac; Leriche syndrome = ปวดก้น + ชีพจร femoral หาย + impotence) · Fontaine IIa/IIb (Rutherford 1–3)",
    exp:"แยก neurogenic claudication (spinal stenosis): ปวดเมื่อยืนนาน ดีขึ้นเมื่อก้ม/นั่ง ไม่ใช่แค่หยุดเดิน · Critical limb-threatening ischemia = rest pain, แผล, gangrene",
    rubric:"ได้ = PAD/chronic arterial occlusion ที่ขาขวา + intermittent claudication + ระดับ femoropopliteal",
    pts:[CR(P("Chronic arterial occlusive disease / PAD (claudication)","peripheral arter","\\bpad\\b","claudica","arterial occlu","chronic limb","atheroscl")),P("ระดับรอยโรค femoropopliteal","femoral","poplit","\\bsfa\\b","femoropop")]}),
-  B("PPT 9.2 Physical examination.",4,{tags:["spot"],key:"ไฟล์ถาม 'PE?' (ไม่มีเฉลย)",
+  B("SA 9.2 Physical examination.",4,{tags:["spot"],key:"ไฟล์ถาม 'PE?' (ไม่มีเฉลย)",
    ans:"<b>Inspection</b> (เทียบสองข้าง): สีผิว, <b>ขนร่วง ผิวบางมัน เล็บหนา</b>, กล้ามเนื้อลีบ, <b>แผล</b> ที่ปลายนิ้ว/ส้นเท้า/ระหว่างนิ้ว, gangrene · <b>Palpation</b>: อุณหภูมิ (เย็นกว่า), <b>capillary refill</b>, <b>คลำชีพจร femoral, popliteal, dorsalis pedis, posterior tibial เทียบสองข้าง</b> · <b>Auscultation</b>: <b>bruit</b> ที่ femoral/abdominal aorta · <b>Buerger's test</b>: ยกขา 45° → ซีด (Buerger's angle &lt;20° = ischemia รุนแรง) → ห้อยขา → แดงคล้ำ (reactive hyperemia) · <b>Ankle-brachial index (ABI)</b>: &lt;0.9 = PAD, &lt;0.4 = critical · ตรวจระบบอื่น: BP แขนสองข้าง, หัวใจ (AF), AAA, carotid bruit",
    exp:"ABI &gt;1.3 = หลอดเลือดแข็งกดไม่ลง (เบาหวาน/CKD) → ใช้ toe-brachial index · การรักษาเบื้องต้น: หยุดบุหรี่, antiplatelet, statin, supervised exercise, cilostazol",
    rubric:"ได้ = ชีพจรทุกระดับเทียบสองข้าง + trophic changes + Buerger's test + ABI · บางส่วน = คลำชีพจรอย่างเดียว",
@@ -189,18 +189,18 @@ Co({page:267,sec:"PowerPoint",orig:"PPT 9",topic:"spot",sub:"Vascular/Ulcer",tit
  summary:["Claudication น่อง → femoropopliteal · ก้น/ต้นขา → aortoiliac","PE: trophic changes, ชีพจร 4 ระดับ, bruit, Buerger's test","ABI <0.9 = PAD · <0.4 = critical · >1.3 = non-compressible","รักษา: หยุดบุหรี่, antiplatelet, statin, exercise"]}),
 
 /* ===== PowerPoint 10 ===== */
-Co({page:267,sec:"PowerPoint",orig:"PPT 10",topic:"spot",sub:"Head & neck",title:"Spot — facial stab wound: expected deficits and how to test",seen:"คล้าย MDCU66 RoD PPT 6 (แผลแทงที่หน้าโดน buccal branch)",
+Co({page:267,sec:"Short Answers",orig:"PPT 10",num:"SA 10",topic:"spot",sub:"Head & neck",title:"Spot — facial stab wound: expected deficits and how to test",seen:"คล้าย MDCU66 RoD SA 6 (แผลแทงที่หน้าโดน buccal branch)",
  stem:`A photograph shows a stab wound on the side of the face, over the parotid region in front of the ear.<br>1. Which important structure may be injured, and what symptoms would the patient have?<br>2. How would you test for this injury?`,
  gray:"ข้อสอบใหม่ - Trauma stab wound ที่ใบหน้า ตรงแถวๆ facial nerve มีอาการอย่างไร / (หน้า 268) ทดสอบยังไง",
  flag:NOIMG,imgAlt:"รูปใบหน้าด้านข้างมีแผลถูกแทงบริเวณหน้าหู",
  notes:"ไฟล์จัดเป็น 'ข้อสอบใหม่' · บรรทัด 'ทดสอบยังไง' อยู่ต้นหน้า 268 ต่อจากข้อนี้",
  parts:S(
-  B("PPT 10.1 Structure at risk and expected symptoms.",3,{tags:["spot"],key:"ไฟล์ระบุ: facial nerve (ไม่มีเฉลยอาการ)",
+  B("SA 10.1 Structure at risk and expected symptoms.",3,{tags:["spot"],key:"ไฟล์ระบุ: facial nerve (ไม่มีเฉลยอาการ)",
    ans:"<b>Facial nerve (CN VII)</b> ที่ผ่าน parotid gland แตก 5 แขนง (<b>temporal, zygomatic, buccal, marginal mandibular, cervical</b>) + <b>parotid (Stensen's) duct</b> · อาการตามแขนง: <b>temporal</b> — เลิกคิ้ว/ย่นหน้าผากไม่ได้ · <b>zygomatic</b> — หลับตาไม่สนิท (lagophthalmos, เสี่ยง exposure keratitis) · <b>buccal</b> — ยิ้ม/ยกริมฝีปากบนไม่ได้, nasolabial fold แบน, อาหารค้างกระพุ้งแก้ม · <b>marginal mandibular</b> — มุมปากล่างไม่ลง ยิ้มเบี้ยว ริมฝีปากล่างยื่นไม่ได้ · <b>cervical</b> — platysma อ่อนแรง (อาการน้อย) · บาดเจ็บที่ main trunk = อ่อนแรงทั้งซีกหน้า (lower motor neuron: รวมหน้าผาก) · parotid duct ขาด → น้ำลายรั่วจากแผล/sialocele",
    exp:"LMN facial palsy (บาดเจ็บส่วนปลาย) อ่อนแรงทั้งซีกรวมหน้าผาก ต่างจาก UMN (stroke) ที่หน้าผากยังย่นได้",
    rubric:"ได้ = facial nerve + อาการตามแขนง ≥3 + parotid duct · บางส่วน = บอกแค่ 'หน้าเบี้ยว'",
    pts:[CR(P("Facial nerve (CN VII)","facial nerve","cn ?vii","cn ?7","เส้นประสาทใบหน้า","เส้นประสาทสมองคู่ที่ 7")),G("อาการตามแขนง (≥3)",3,P("Temporal: เลิกคิ้วไม่ได้","temporal","คิ้ว","หน้าผาก","forehead"),P("Zygomatic: หลับตาไม่สนิท","zygomatic","หลับตา","eye clos","lagophthalm"),P("Buccal: ยิ้ม/เป่าแก้มไม่ได้","buccal","ยิ้ม","แก้ม","smile"),P("Marginal mandibular: มุมปากล่าง","marginal","mandibular","มุมปาก","ริมฝีปากล่าง"),P("Cervical: platysma","cervical","platysma")),P("Parotid duct injury","parotid","stensen","น้ำลาย","saliva")]}),
-  B("PPT 10.2 How would you test for it?",3,{tags:["spot"],key:"ไฟล์ถาม 'ทดสอบยังไง' (ไม่มีเฉลย)",
+  B("SA 10.2 How would you test for it?",3,{tags:["spot"],key:"ไฟล์ถาม 'ทดสอบยังไง' (ไม่มีเฉลย)",
    ans:"<b>ตรวจก่อนฉีดยาชา</b> และเทียบสองข้าง: <b>เลิกคิ้ว/ย่นหน้าผาก</b> (temporal) · <b>หลับตาแน่นสู้แรงผู้ตรวจ</b> (zygomatic) · <b>ยิ้มยิงฟัน, ย่นจมูก, เป่าแก้ม</b> (buccal) · <b>ยิ้มกว้าง/ทำปากเบะ/ยื่นริมฝีปากล่าง</b> (marginal mandibular) · <b>เกร็งคอแสยะปากลง</b> (platysma — cervical) · ถ้าผู้ป่วยไม่ร่วมมือ: ดูความสมมาตรของสีหน้าขณะร้อง/ยิ้ม · <b>Parotid duct</b>: ดูน้ำลายรั่วที่แผล, สอด probe/สาย (lacrimal probe/IV catheter) ผ่านรูเปิดตรงฟันกรามบนซี่ที่ 2 ดูว่าโผล่ที่แผลหรือไม่ หรือฉีด methylene blue/น้ำเกลือย้อนเข้าทางรูเปิด · <b>การรักษา</b>: แขนงที่ขาดด้านหลังแนวดิ่งผ่าน lateral canthus → explore + microsurgical repair ภายใน 72 ชม. (ยังใช้ nerve stimulator หาปลายส่วนปลายได้) · ปกป้องกระจกตาถ้าหลับตาไม่สนิท",
    exp:"หลัง 72 ชม. ปลายประสาทส่วนปลายจะกระตุ้นไม่ตอบสนอง (Wallerian degeneration) ทำให้หาปลายยาก",
    rubric:"ได้ = ทดสอบกล้ามเนื้อทุกแขนงเทียบสองข้าง + ตรวจก่อนฉีดยาชา + ตรวจ parotid duct · บางส่วน = ตรวจไม่ครบแขนง",

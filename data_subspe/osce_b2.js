@@ -191,7 +191,7 @@ Co({page:93,orig:"7",topic:"inst",sub:"Surgical instrument",title:"Instruments �
  summary:["Senn: double-ended retractor สำหรับแผลตื้น","Babcock: ปลายห่วงไม่มีฟัน จับลำไส้/ไส้ติ่ง/ท่อนำไข่","Allis: มีฟัน จับแน่น — ใช้กับเนื้อเยื่อที่ตัดทิ้ง","Sponge-holding (ring) forceps: จับก๊อซ prep ผิว/ซับเลือด"]}),
 
 /* ===== OSCE 8 ===== */
-Co({page:94,orig:"8",topic:"img",sub:"Ultrasound",title:"Imaging — 40-year-old woman with recurrent postprandial epigastric pain",img:["os67b_8"],kimg:["os67b_k8","os67b_k8g"],seen:"MDCU67 RoA MEQ 3 (คล้ายกัน: ultrasound นิ่วถุงน้ำดี)",
+Co({page:94,orig:"8",topic:"img",sub:"Ultrasound",title:"Imaging — 40-year-old woman with recurrent postprandial epigastric pain",img:["os67b_8"],kimg:["os67b_k8","os67b_k8g"],seen:"MDCU67 RoA SA 3 (คล้ายกัน: ultrasound นิ่วถุงน้ำดี)",
  stem:`A 40-year-old Thai woman has had intermittent epigastric pain, worse after meals, for 1 month.<br>1. What is this investigation called?<br>2. Describe the findings.<br>3. Give the provisional diagnosis.<br>4. Treatment?`,
  gray:"OSCE 8 · ผู้ป่วยหญิงไทยอายุ 40 ปี มีอาการปวดท้องบริเวณลิ้นปี่เป็นๆหายๆ เป็นมากหลังทานอาหาร เป็นมา1 เดือนก่อนมารพ. · 1) investigation ชนิดนี้เรียกว่าอะไร · 2) จงบรรยายลักษณะที่พบ · 3) Provisional diagnosis · 4) Treatment",
  flag:"ภาพต้นฉบับมีป้ายพิมพ์ 'Gallbladder' และ 'Stone' พร้อมลูกศร — ปิดป้ายออกจากรูปโจทย์แล้ว (เก็บลูกศรสีขาวใหญ่ไว้)",
@@ -334,7 +334,7 @@ Co({page:100,orig:"13",topic:"suture",sub:"Suture material",title:"Suture materi
    หน้า 117 มีบรรทัดเครดิตชื่อเล่นผู้รวบรวม — ไม่คัดลอก · สไลด์ MEQ5, MEQ7 มีแค่รูปดาว (ไม่มีเฉลย) · รูป os67b_m<n> · kimg os67b_km<n> (สไลด์) / os67b_km<n>g (แนวคำตอบ) */
 
 /* ===== MEQ 1 ===== */
-Co({page:101,sec:"MEQ",orig:"MEQ 1",topic:"spot",sub:"Imaging film",title:"Spot — contrast study of the oesophagus",img:["os67b_m1"],kimg:["os67b_km1","os67b_km1g"],seen:"MDCU67 RoA MEQ 2 (คล้ายกัน: barium swallow achalasia)",
+Co({page:101,sec:"Short Answers",orig:"MEQ 1",num:"SA 1",topic:"spot",sub:"Imaging film",title:"Spot — contrast study of the oesophagus",img:["os67b_m1"],kimg:["os67b_km1","os67b_km1g"],seen:"MDCU67 RoA SA 2 (คล้ายกัน: barium swallow achalasia)",
  stem:`A contrast study is shown.<br>1. What is the investigation in the image called?<br>2. Give the diagnosis.<br>3. State the management.`,
  gray:"MEQ1 · 1) Investigation ในภาพเรียกว่าอะไร · 2) จงให้การวินิจฉัย · 3) จงบอก management",
  flag:"⚠ เฉลยไฟล์ใส่ 'stent' เป็นการรักษา — ไม่ใช่การรักษา achalasia ดู opinion · แนวคำตอบหน้า 116 บอกว่ารูปอาจตรงกับ esophageal stricture",
@@ -359,7 +359,7 @@ Co({page:101,sec:"MEQ",orig:"MEQ 1",topic:"spot",sub:"Imaging film",title:"Spot 
  summary:["Bird-beak + dilated esophagus = achalasia","แยก pseudoachalasia (มะเร็ง) ด้วย EGD · ยืนยันด้วย manometry","Rx: Heller myotomy + partial fundoplication / POEM / pneumatic dilatation","Botox สำหรับผู้เสี่ยงผ่าตัดสูง","Stent = malignant obstruction ไม่ใช่ achalasia"]}),
 
 /* ===== MEQ 2 ===== */
-Co({page:102,sec:"MEQ",orig:"MEQ 2",topic:"spot",sub:"Other spot",title:"Short answer — postoperative orders after appendicectomy for gangrenous appendicitis",kimg:["os67b_km2","os67b_km2g"],
+Co({page:102,sec:"Short Answers",orig:"MEQ 2",num:"SA 2",topic:"spot",sub:"Other spot",title:"Short answer — postoperative orders after appendicectomy for gangrenous appendicitis",kimg:["os67b_km2","os67b_km2g"],
  stem:`Write the postoperative orders for a patient after appendicectomy for acute gangrenous appendicitis, divided into one-day orders and continuing orders.`,
  gray:"MEQ2 · จงเขียน postoperative order ของ acute gangrenous appendicitis แบ่งเป็น one day, continue",
  flag:"⚠ เฉลยในไฟล์สั่ง tramadol รับประทานวันละครั้ง prn ซึ่งไม่เหมาะ ดู opinion · ไม่มีน้ำหนักผู้ป่วยในโจทย์ — ขนาดยา/อัตราสารน้ำที่ให้เป็นขนาดผู้ใหญ่ทั่วไป · สไลด์ไม่มีรูป",
@@ -377,7 +377,7 @@ Co({page:102,sec:"MEQ",orig:"MEQ 2",topic:"spot",sub:"Other spot",title:"Short a
  summary:["One day: V/S, I/O, NPO, IV fluid, morphine IV prn, plasil prn","Continue: diet ตามลำดับ, ambulation, ATB, analgesic po, wound care","Gangrenous = complicated/contaminated → ATB gram-neg + anaerobe ~3–5 วัน","Uncomplicated appendicitis: ไม่ต้องให้ ATB หลังผ่าตัด","ระบุชื่อยา ขนาด ทาง ความถี่ทุกครั้ง"]}),
 
 /* ===== MEQ 3 ===== */
-Co({page:103,sec:"MEQ",orig:"MEQ 3",topic:"spot",sub:"Other spot",title:"Spot — illustration of an endoscopic procedure",img:["os67b_m3"],kimg:["os67b_km3"],
+Co({page:103,sec:"Short Answers",orig:"MEQ 3",num:"SA 3",topic:"spot",sub:"Other spot",title:"Spot — illustration of an endoscopic procedure",img:["os67b_m3"],kimg:["os67b_km3"],
  stem:`An illustration of a procedure is shown.<br>1. What is this procedure called?<br>2. Give at least two indications for performing it.`,
  gray:"MEQ3 · 1) หัตถการนี้เรียกว่าอะไร · 2) จงบอกข้อบ่งชี้ในการทำ มาอย่างน้อย 2 ข้อ · [ภาพวาดหัตถการ + ภาพหน้าจอ indications for EGD]",
  flag:"รูปโจทย์ครอปเฉพาะภาพวาด ไม่รวมภาพหน้าจอเว็บที่ผู้จดแปะ (เป็นเฉลย) และปิดป้ายชื่อเครื่องมือในภาพ · แนวคำตอบหน้า 116 ที่ติดหัว 'MEQ3' มีเนื้อหาของสไลด์ MEQ4 (ไม่ใช่ของสไลด์นี้)",
@@ -394,7 +394,7 @@ Co({page:103,sec:"MEQ",orig:"MEQ 3",topic:"spot",sub:"Other spot",title:"Spot �
  summary:["EGD = esophagogastroduodenoscopy","Diagnostic: UGIB, dyspepsia + alarm features, dysphagia, biopsy","Surveillance: Barrett's, varices","Therapeutic: hemostasis, variceal band ligation, foreign body, dilatation/stent, PEG"]}),
 
 /* ===== MEQ 4 ===== */
-Co({page:104,sec:"MEQ",orig:"MEQ 4",topic:"spot",sub:"Pediatric surgery",title:"Spot — 3-day-old with bilious vomiting and no meconium: plain film",img:["os67b_m4"],kimg:["os67b_km4","os67b_km4g"],
+Co({page:104,sec:"Short Answers",orig:"MEQ 4",num:"SA 4",topic:"spot",sub:"Pediatric surgery",title:"Spot — 3-day-old with bilious vomiting and no meconium: plain film",img:["os67b_m4"],kimg:["os67b_km4","os67b_km4g"],
  stem:`A 3-day-old baby has bilious vomiting and has not passed meconium. A plain X-ray is shown.<br>1. Give the differential diagnosis.<br>2. What investigation would you request to make the diagnosis?`,
  gray:"MEQ4 · เด็กอายุ 3 วันมี bilious vomiting, ไม่ถ่าย meconium จึงทำการ x-ray พบเป็นดังภาพ · 1) differential diagnosis · 2) จงบอก investigation เพื่อการวินิจฉัย",
  notes:"ลายมือ: Meconium plug syndrome · Hirschsprung's disease · Barium enema · ตัวแดง: Hirschsprung · แนวคำตอบหน้า 116 (หัว 'MEQ3'): Hirschsprung disease, meconium plug syndrome",
@@ -412,7 +412,7 @@ Co({page:104,sec:"MEQ",orig:"MEQ 4",topic:"spot",sub:"Pediatric surgery",title:"
  summary:["Low intestinal obstruction ในทารก: Hirschsprung, meconium plug, meconium ileus, ileal atresia","ไม่ถ่าย meconium >48 ชม. → คิด Hirschsprung","Contrast enema: transition zone · meconium plug = filling defect (enema รักษาได้)","Gold standard: rectal suction biopsy (aganglionosis)"]}),
 
 /* ===== MEQ 5 ===== */
-Co({page:105,sec:"MEQ",orig:"MEQ 5",topic:"spot",sub:"Pediatric surgery",title:"Spot — 3-day-old with bilious vomiting and no meconium: contrast enema",img:["os67b_m5"],kimg:["os67b_km4g"],
+Co({page:105,sec:"Short Answers",orig:"MEQ 5",num:"SA 5",topic:"spot",sub:"Pediatric surgery",title:"Spot — 3-day-old with bilious vomiting and no meconium: contrast enema",img:["os67b_m5"],kimg:["os67b_km4g"],
  stem:`A 3-day-old baby has bilious vomiting and has not passed meconium. A barium enema is shown.<br>1. What is the diagnosis?<br>2. State the initial and definitive treatment for this patient.`,
  gray:"MEQ5 · เด็กอายุ 3 วันมี bilious vomiting, ไม่ถ่าย meconium ทำ Ba enema พบเป็นดังภาพ · 1) จงบอก diagnosis · 2) จงบอก initial และ definite treatment สำหรับผู้ป่วยรายนี้",
  flag:"สไลด์นี้ไม่มีเฉลย (ผู้จดวาดรูปดาวไว้) — เฉลยโดย Claude · kimg ใช้แนวคำตอบของสไลด์ก่อนหน้า (Hirschsprung/meconium plug) ประกอบ",
@@ -433,7 +433,7 @@ Co({page:105,sec:"MEQ",orig:"MEQ 5",topic:"spot",sub:"Pediatric surgery",title:"
  summary:["Hirschsprung: ไม่มี ganglion cells ส่วนปลาย, 75–80% rectosigmoid","Enema: transition zone, rectosigmoid index <1","Gold standard: rectal suction biopsy","Initial: OG, IV fluid, rectal irrigation, ATB ถ้า enterocolitis ± leveling colostomy","Definitive: pull-through (Soave/Swenson/Duhamel)"]}),
 
 /* ===== MEQ 6 ===== */
-Co({page:106,sec:"MEQ",orig:"MEQ 6",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn chest and abdominal radiograph",img:["os67b_m6"],kimg:["os67b_km6"],
+Co({page:106,sec:"Short Answers",orig:"MEQ 6",num:"SA 6",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn chest and abdominal radiograph",img:["os67b_m6"],kimg:["os67b_km6"],
  stem:`A newborn's X-ray is shown.<br>1. What is the diagnosis?<br>2. State the initial and definitive treatment for this patient.`,
  gray:"MEQ6 · ผู้ป่วยเด็กแรกเกิดx-ray พบดังภาพ · 1) จงบอก diagnosis · 2) จงบอก initial และ definite treatment สำหรับผู้ป่วยรายนี้",
  flag:"ลบวงสีเขียวที่ผู้จดวาดบนภาพ X-ray ออกแล้ว",
@@ -454,7 +454,7 @@ Co({page:106,sec:"MEQ",orig:"MEQ 6",topic:"spot",sub:"Pediatric surgery",title:"
  summary:["CDH ส่วนใหญ่ Bochdalek ซ้าย: ลำไส้ในทรวงอก, mediastinum shift ไปขวา","ห้าม bag-mask → intubate ทันที","OG tube + suction, gentle ventilation, รักษา pulmonary hypertension (iNO/ECMO)","Surgical repair หลัง stabilize (ไม่ใช่ emergency)"]}),
 
 /* ===== MEQ 7 ===== */
-Co({page:107,sec:"MEQ",orig:"MEQ 7",topic:"spot",sub:"Plastic/Skin/Burn",title:"Short answer — wounds unsuitable for flap coverage",
+Co({page:107,sec:"Short Answers",orig:"MEQ 7",num:"SA 7",topic:"spot",sub:"Plastic/Skin/Burn",title:"Short answer — wounds unsuitable for flap coverage",
  stem:`Which types of wounds cannot be covered with a flap?`,
  gray:"MEQ7 · แผลชนิดใดคลุมด้วย flap ไม่ได้",
  flag:"ไฟล์ไม่มีเฉลย (มีเพียงรูปดาวของผู้จด) — Claude ตีความโจทย์เป็นข้อห้าม/ภาวะที่ยังไม่ควรปิดแผลด้วย flap · สไลด์ไม่มีรูป",
@@ -470,7 +470,7 @@ Co({page:107,sec:"MEQ",orig:"MEQ 7",topic:"spot",sub:"Plastic/Skin/Burn",title:"
  summary:["ห้ามปิดด้วย flap: แผลติดเชื้อที่ยังคุมไม่ได้, เนื้อตาย/ปนเปื้อน, residual tumor, ผู้ป่วย/หลอดเลือดไม่พร้อม","Skin graft ไม่ติดบน: bone ไม่มี periosteum, tendon ไม่มี paratenon, cartilage ไม่มี perichondrium, implant, irradiated bed → ต้องใช้ flap","Reconstructive ladder: secondary intention → primary → graft → local → regional → free flap"]}),
 
 /* ===== MEQ 8 ===== */
-Co({page:108,sec:"MEQ",orig:"MEQ 8",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — skin lesion beside the nose near the medial canthus",img:["os67b_m8"],kimg:["os67b_km8","os67b_km8g"],
+Co({page:108,sec:"Short Answers",orig:"MEQ 8",num:"SA 8",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — skin lesion beside the nose near the medial canthus",img:["os67b_m8"],kimg:["os67b_km8","os67b_km8g"],
  stem:`A photograph of a facial skin lesion is shown.<br>1. Give the diagnosis with your reasons.<br>2. State the management.`,
  gray:"MEQ8 · 1) จงให้การวินิจฉัย พร้อมเหตุผล · 2) จงให้ management",
  notes:"ลายมือสีเขียว: Basal cell carcinoma → Moh's surgery · แนวคำตอบหน้า 117: Basal cell carcinoma · Moh's surgery รูปจริงใกล้ตากว่านี้มาก (ภาพในข้อสอบจริงรอยโรคอยู่ใกล้ตามากกว่าภาพนี้)",
@@ -487,7 +487,7 @@ Co({page:108,sec:"MEQ",orig:"MEQ 8",topic:"spot",sub:"Plastic/Skin/Burn",title:"
  summary:["BCC: pearly papule, rolled border, telangiectasia, ulcer กลาง (rodent ulcer)","พบบริเวณโดนแดด ผู้สูงอายุ ผิวขาว · โตช้า แพร่กระจายน้อย","High-risk (H-zone, ขอบไม่ชัด, เป็นซ้ำ, morpheaform) → Mohs","Low-risk: excision margin 4 mm","Advanced: hedgehog inhibitor (vismodegib)"]}),
 
 /* ===== MEQ 9 ===== */
-Co({page:109,sec:"MEQ",orig:"MEQ 9",topic:"spot",sub:"Uro/Genital",title:"Spot — swollen glans with retracted foreskin",img:["os67b_m9"],kimg:["os67b_km9"],seen:"MDCU67 RoA MEQ 14 (คล้ายกัน: paraphimosis)",
+Co({page:109,sec:"Short Answers",orig:"MEQ 9",num:"SA 9",topic:"spot",sub:"Uro/Genital",title:"Spot — swollen glans with retracted foreskin",img:["os67b_m9"],kimg:["os67b_km9"],seen:"MDCU67 RoA SA 14 (คล้ายกัน: paraphimosis)",
  stem:`A photograph of the penis is shown.<br>1. Give the diagnosis with your reasons.<br>2. State the management.`,
  gray:"MEQ9 · 1) จงให้การวินิจฉัย พร้อมเหตุผล · 2) จงให้ management",
  notes:"ลายมือสีเขียว: paraphimosis < swelling of glans penis &amp; prepuce · prepuce is retracted, constricted รอบ penis · manual reduction · dorsal split",
@@ -504,7 +504,7 @@ Co({page:109,sec:"MEQ",orig:"MEQ 9",topic:"spot",sub:"Uro/Genital",title:"Spot �
  summary:["Paraphimosis: prepuce ค้างหลัง corona เป็นวงรัด → glans บวม","ลดบวม → manual reduction","ล้มเหลว → dorsal slit · ภายหลัง circumcision","ป้องกัน: รูดหนังกลับเสมอหลังใส่สายสวน"]}),
 
 /* ===== MEQ 10 ===== */
-Co({page:110,sec:"MEQ",orig:"MEQ 10",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — necrotic toe with a plantar wound",img:["os67b_m10"],kimg:["os67b_km10"],
+Co({page:110,sec:"Short Answers",orig:"MEQ 10",num:"SA 10",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — necrotic toe with a plantar wound",img:["os67b_m10"],kimg:["os67b_km10"],
  stem:`A photograph of a foot is shown.<br>1. Describe the lesion.<br>2. What are the possible causes of this lesion?<br>3. What are the important physical examinations?<br>4. State the management.`,
  gray:"MEQ10 · 1) จงอธิบาย lesion ที่เห็นดังภาพ · 2) สาเหตุที่เป็นไปได้ที่ทำให้เกิด lesion แบบนี้ · 3) จงบอกการตรวจร่างกายที่สำคัญ · 4) จงให้การ management",
  notes:"ลายมือสีเขียว: necrosis of right second toe · DM foot, Necrotizing fasciitis · local crepitation, pain out of proportion · surgical debridement of necrotic tissue, broad spectrum ATB",
@@ -530,7 +530,7 @@ Co({page:110,sec:"MEQ",orig:"MEQ 10",topic:"spot",sub:"Vascular/Ulcer",title:"Sp
  summary:["Wet gangrene + plantar ulcer = diabetic foot infection → ผ่าตัดด่วน","สาเหตุ: DM foot, necrotizing fasciitis, PAD/CLI","ตรวจ: pulses/ABI, monofilament, crepitus, pain out of proportion, probe-to-bone","Rx: IV broad-spectrum ATB + debridement/ray amputation + คุมน้ำตาล + revascularization","Necrotizing fasciitis: radical debridement ด่วน"]}),
 
 /* ===== MEQ 11 ===== */
-Co({page:111,sec:"MEQ",orig:"MEQ 11",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — leg lump for 3 months, now red, hot and painful for 3 days",img:["os67b_m11"],kimg:["os67b_km11","os67b_km11g"],
+Co({page:111,sec:"Short Answers",orig:"MEQ 11",num:"SA 11",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — leg lump for 3 months, now red, hot and painful for 3 days",img:["os67b_m11"],kimg:["os67b_km11","os67b_km11g"],
  stem:`A Thai man has had a lump on the leg, as shown, for 3 months. For the last 3 days it has become painful, swollen, red and warm.<br>1. Give the diagnosis.<br>2. State the management.<br>3. Name the common causative organisms.`,
  gray:"MEQ11 · ผู้ป่วยชายไทย มีก้อนลักษณะดังภาพที่ขา เป็นมานาน 3 เดือน ขณะนี้เป็นปวด บวม แดง ร้อน มากขึ้น มา 3 วัน · 1) จงให้การวินิจฉัย · 2) จงให้การ management · 3) จงบอกเชื้อก่อโรคที่พบบ่อย",
  notes:"ผู้จดวง 'ก้อน', '3 เดือน', 'ปวด บวม แดง ร้อน', '3 วัน' · ลายมือสีเขียว: furuncle, abscess, infected sebaceous cyst · I&amp;D, ATB · Streptococcus, Staphylococcus · แนวคำตอบหน้า 117: furuncle /infected sebaceous cyst/ abscess ลองดูประวัติคนไข้อีกทีว่าเข้าได้กับอะไรมากที่สุด",
@@ -553,7 +553,7 @@ Co({page:111,sec:"MEQ",orig:"MEQ 11",topic:"spot",sub:"Plastic/Skin/Burn",title:
  summary:["ก้อนเดิมนาน + อักเสบเฉียบพลัน = infected epidermoid (sebaceous) cyst","Rx: I&D ± ATB (anti-staph) → excision ผนังถุงหลังหายอักเสบ","เชื้อ: S. aureus (บ่อยสุด) > Streptococcus","ไม่ตัดถุงขณะอักเสบ"]}),
 
 /* ===== MEQ 12 ===== */
-Co({page:112,sec:"MEQ",orig:"MEQ 12",topic:"spot",sub:"Other spot",title:"Spot — impaired upward gaze and abnormal pupillary light reflex",img:["os67b_m12"],kimg:["os67b_km12"],
+Co({page:112,sec:"Short Answers",orig:"MEQ 12",num:"SA 12",topic:"spot",sub:"Other spot",title:"Spot — impaired upward gaze and abnormal pupillary light reflex",img:["os67b_m12"],kimg:["os67b_km12"],
  stem:`A video (played four times) shows a patient who cannot look upward but can move the eyes in other directions, and whose pupillary light reflex is lost. Still images are shown.<br>1. Give the diagnosis.<br>2. What is the most likely cause?`,
  gray:"MEQ12 · จงดูวิดีโอต่อไปนี้ 4 รอบ (เป็นวิดีโอที่ผู้ป่วย มองขึ้นบนไม่ได้ แต่มองไปทางอื่นได้ และผู้ป่วยเสีย light reflex) · 1) จงให้การวินิจฉัย · 2) สาเหตุที่คิดถึงมากที่สุด",
  flag:"ข้อสอบจริงเป็นวิดีโอ — ไฟล์มีภาพนิ่ง A, B, C (มีหัวลูกศรสีแดงในภาพต้นฉบับ) ใช้เป็นรูปโจทย์",
@@ -571,7 +571,7 @@ Co({page:112,sec:"MEQ",orig:"MEQ 12",topic:"spot",sub:"Other spot",title:"Spot �
  summary:["Parinaud: upward gaze palsy, light-near dissociation, convergence-retraction nystagmus, lid retraction","Lesion: dorsal midbrain (pretectum, posterior commissure)","สาเหตุบ่อยสุด (เด็ก/วัยรุ่น): pineal germinoma · ผู้สูงอายุ: midbrain stroke","ตรวจ MRI + β-hCG/AFP · ระวัง obstructive hydrocephalus"]}),
 
 /* ===== MEQ 13 ===== */
-Co({page:113,sec:"MEQ",orig:"MEQ 13",topic:"spot",sub:"Anorectal",title:"Spot — fresh rectal bleeding with a lump that prolapses and reduces spontaneously",img:["os67b_m13"],kimg:["os67b_km13"],
+Co({page:113,sec:"Short Answers",orig:"MEQ 13",num:"SA 13",topic:"spot",sub:"Anorectal",title:"Spot — fresh rectal bleeding with a lump that prolapses and reduces spontaneously",img:["os67b_m13"],kimg:["os67b_km13"],
  stem:`A Thai man passes fresh blood with stools and feels a lump protruding from the anus during defecation that returns by itself without manual reduction. The examination finding is shown.<br>1. Give the diagnosis of this condition.<br>2. State the appropriate management for this patient.`,
  gray:"MEQ13 · ผู้ป่วยชายไทย อุจจาระเป็นเลือดสด รู้สึกว่าเวลาอุจจาระมีก้อนยื่นมาจากทวารหนัก แล้วหุบเข้าไปเองโดยไม่ใช้มือดัน ตรวจร่างกายเจอดังภาพ · 1) จงให้การวินิจฉัยภาวะดังกล่าว · 2) จงบอก management ที่เหมาะสมกับคนไข้คนนี้",
  flag:"⚠ ไฟล์ตอบ hemorrhoidectomy — เรามองว่า grade II ควรเริ่มด้วย conservative + office procedure ดู opinion · ลบเส้นสีเขียว/แดงและคำว่า internal/external ที่ผู้จดเขียนบนรูป (ลูกศรสีดำเป็นของภาพต้นฉบับ)",
@@ -594,7 +594,7 @@ Co({page:113,sec:"MEQ",orig:"MEQ 13",topic:"spot",sub:"Anorectal",title:"Spot �
  summary:["Goligher: I เลือดออก · II โผล่-หุบเอง · III ต้องดัน · IV ดันไม่เข้า","Internal = เหนือ dentate line ไม่เจ็บ · External = ใต้ dentate line","Grade I–II: fiber/น้ำ + rubber band ligation","Hemorrhoidectomy: grade III–IV, mixed มีอาการมาก, ล้มเหลว","อายุมาก/อาการเตือน → colonoscopy แยกมะเร็ง"]}),
 
 /* ===== MEQ 14 ===== */
-Co({page:114,sec:"MEQ",orig:"MEQ 14",topic:"spot",sub:"Plastic/Skin/Burn",title:"Short answer — body surface area by the rule of nines",kimg:["os67b_km14"],
+Co({page:114,sec:"Short Answers",orig:"MEQ 14",num:"SA 14",topic:"spot",sub:"Plastic/Skin/Burn",title:"Short answer — body surface area by the rule of nines",kimg:["os67b_km14"],
  imgAlt:"แผนภาพร่างกายด้านหน้าและด้านหลังของผู้ใหญ่ ชี้ส่วนต่าง ๆ เป็น a–h (รูปในไฟล์มีตัวเลขเปอร์เซ็นต์กำกับ = คำตอบ จึงเก็บเป็น kimg)",
  stem:`On an adult body diagram (anterior and posterior views), regions are labelled a to h. State the percentage of total body surface area for each region according to the rule of nines.`,
  gray:"MEQ14 · โจทย์จะชี้ เป็น a,b,c,...,h มาแล้วให้เขียนว่าแต่ละส่วนคิดเป็นกี่เปอร์เซ็นต์ของร่างกายตาม rule of 9 · [แผนภาพ rule of nines ด้านหน้า-หลัง]",
