@@ -6,7 +6,7 @@
 Colorectal & Anorectal · Cardiothoracic surgery · Neurosurgery · Pediatric surgery · Urology · Plastic & Reconstructive surgery · Others
 
 ## แท็ก
-- **Colorectal** — colon/rectum ที่ไม่ใช่มะเร็ง (มะเร็งลำไส้ใหญ่อยู่ Gen Sx): volvulus, Ogilvie, diverticular, IBD, LGIB, megacolon
+- **Colorectal** — colon/rectum ทั้งหมด: volvulus, Ogilvie, diverticular, IBD, LGIB, megacolon, polyp/CRC (ข้อ CRC ที่ clone มาจาก Gen Sx ติด `Onco` คู่)
 - **Anorectal** — hemorrhoid, fissure, abscess/fistula, pilonidal, incontinence, anal cancer
 - **CVT** — cardiac, thoracic, lung, mediastinum, chest trauma
 - **Neuro** — head injury, intracranial hemorrhage, brain tumor/abscess, CNS infection, spine, hydrocephalus
@@ -19,3 +19,7 @@ Colorectal & Anorectal · Cardiothoracic surgery · Neurosurgery · Pediatric su
 - **Surgical infection** — infection, antibiotics, abscess
 - **Onco** — มะเร็งทุกอวัยวะในวอร์ดนี้
 - **Misc** — นอกหมวดอื่น
+
+## ข้อที่ clone มาจาก Gen Sx (19 พ.ย. 2026)
+- `data_subspe/data_b2.js` = ข้อแท็ก Colorectal/Anorectal ทั้งหมดจาก Gen Sx (78 ข้อ) — ยังอยู่ใน Gen Sx ด้วย · ใช้ set|ro|orig เดิม · แท็ก Gen ที่ไม่มีใน vocab นี้ (Liver, Acute abdomen, Small bowel …) ตัดออก · topic = Colorectal & Anorectal
+- ถ้าภายหลังแก้ข้อพวกนี้ใน Gen Sx จะไม่ตามมาอัตโนมัติ (เป็นสำเนา)
