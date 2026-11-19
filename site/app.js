@@ -351,6 +351,7 @@ function rWards(){
   let h=`<h1 class="h1">${esc(CFG.siteName||"คลังข้อสอบเก่า")}</h1><p class="sub">เลือกวอร์ดที่กำลังวนอยู่</p>`;
   if(SUBJ.length)h+=`<button class="grline" id="toGrades" type="button">📊 <b>สรุปเกรด</b>${(()=>{const L_=SUBJ.map(S=>{const G=(st.grades||{})[S.id]||{},g=GPARTS.map(([k])=>G[k]||"–");return g.some(x=>x!=="–")?`${esc(S.name)} ${g.map(esc).join("/")}`:"";}).filter(Boolean);return L_.length?`<span>${L_.join(" · ")}</span>`:`<span>ยังไม่ได้ใส่เกรด</span>`;})()}<span class="go">→</span></button>${SUBJ.some(S=>GPARTS.some(([k])=>((st.grades||{})[S.id]||{})[k]))&&!G1?`<p class="hint" style="margin:-8px 0 12px">เรียง Theory / Competency / Performance</p>`:""}`;
   h+=WL.map(w=>{const n=(WARDS[w.id]||{QB:[]}).QB.length;const nu=totalN(w.id);return `<a class="wcard" href="#/${esc(w.id)}"><span class="wb" style="font-size:${(()=>{const n=Math.max(...String(w.short||w.id).split(" ").map(x=>x.length));return n>5?11:n>4?12.5:14;})()}px">${esc(w.short||w.id)}</span><span><b>${esc(w.name)}</b><span class="rd">${esc(w.sub||"")}</span>${acCounts(w)}${examDates(w).map(x=>{const c=cdOf(x),sc=x.score&&scoreOf(x.score);return `<span class="wcd${c.hot?" hot":""}${c.done?" done":""}">สอบ${x.part?" "+esc(x.part):""}${x.label?" "+esc(x.label):""} · ${cdHTML(x)}${c.hot?` — ควรเริ่ม Phase 2 ของ ${esc(x.part||"ข้อสอบ")}`:""}${sc?` · คะแนน ${esc(sc)}`:""}</span>`;}).join("")}</span>${(()=>{const S=subjOf(w.id),G=S&&(st.grades||{})[S.id]||{},g=GPARTS.map(([k])=>G[k]);return g.some(Boolean)?`<span class="wgr" title="Theory / Competency / Performance">${g.map(x=>x?`<span class="${gCls(x)}">${esc(x)}</span>`:`<span class="hint">–</span>`).join("")}</span>`:"";})()}</a>`;}).join("");
+  if((CFG.extArt||[]).length)h+=CFG.extArt.map(w=>`<a class="wcard" href="${esc(w.art)}" target="_blank" rel="noopener"><span class="wb" style="font-size:12px">${esc(w.short||w.id)}</span><span><b>${esc(w.name)} ↗</b><span class="rd">${esc(w.sub||"")} · เปิด artifact ของวอร์ดนี้ (มีรูปและเฉลยครบ)</span></span></a>`).join("");   /* main Claude artifact: wards that have their own artifact */
   {const pend=ld(SPKEY),n=pend?Object.values(pend).reduce((x,a)=>x+a.length,0):0;if(n&&fbOn()&&!(fb&&fb.user))h+=`<div class="card"><h3>🌐 มีโจทย์รอแชร์ให้ทุกคน ${n} ข้อ</h3><span class="rd">เข้าสู่ระบบแล้วระบบจะแชร์ขึ้นคลังรวมให้ทันที</span><button class="btn" data-act="acct" type="button">เข้าสู่ระบบ</button></div>`;}
   h+=acctCard();
   $("main").innerHTML=h;bindAcctCard();{const b=$("toGrades");if(b)b.onclick=()=>go("grades");}
@@ -1539,7 +1540,8 @@ function qeSum(){const el=$("qeSum");if(!el||!QED)return;el.innerHTML=qDesc(QED)
 
 /* ---------------- Admission round: a new AI-written case each time ---------------- */
 /* link into the Claude version of this site at a given page — the page is in both the query (?go=) and the hash, since the host may pass only one of them into the frame */
-const artLink=path=>CFG.artifactUrl?CFG.artifactUrl+"?go="+encodeURIComponent(path)+"#/"+path:"";
+/* a ward with its own Claude artifact (config wards[].art, 19 Nov 2026: Subspe) opens that one; the rest open the main artifact */
+const artLink=path=>{const w=WL.find(x=>x.id===String(path).split("/")[0]),u=(w&&w.art)||CFG.artifactUrl;return u?u+"?go="+encodeURIComponent(path)+"#/"+path:"";};
 const AIKEY=KEY+"-ai";                 /* {key, model}: kept only in this browser, never synced */
 const aiCfg=()=>ld(AIKEY)||{};
 let admBusy=false,admErr="",admSetup=false,admWant=false;

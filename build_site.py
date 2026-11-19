@@ -12,17 +12,26 @@ for i,a in enumerate(AV):
     if a.startswith('--inst='):INST=a.split('=',1)[1]
     elif a=='--inst' and i+1<len(AV):INST=AV[i+1];AV[i+1]='--'
 if INST in ('mdcu','.'):INST=''
+WARD1=''
+for i,a in enumerate(AV):
+    if a=='--ward' and i+1<len(AV):WARD1=AV[i+1];AV[i+1]='--'
 ARGS=[a for a in AV if not a.startswith('--')]
 IDIR=INST                                                          # '' = MDCU (repo root) · 'si' = Siriraj (si/)
 J=lambda *p:os.path.join(IDIR,*p) if IDIR else os.path.join(*p)
 AIP='--ai' in sys.argv         # Claude artifact for AI question writing only (19 Nov 2026): no images, no High-yield summaries — tools/ai_pack.js · old-exam practice is on the website
-PACK='--pack' in sys.argv or AIP      # Claude artifact build: an artifact version holds at most ~510 files, so images are stacked into a few sprite sheets per prefix
+PACK='--pack' in sys.argv or AIP or bool(WARD1)   # --ward <id>: Claude artifact of one ward only, full with images (config wards[].art = its URL; 19 Nov 2026: Subspe)      # Claude artifact build: an artifact version holds at most ~510 files, so images are stacked into a few sprite sheets per prefix
 OUT=ARGS[0] if ARGS else os.path.join(ROOT,'docs',*([IDIR] if IDIR else []))
 SPLIT=PACK or not ARGS   # the website build (default outdir) keeps exam data in data_<ward>*.js next to the page, not inline: 44MB of inline script text made browser extensions that scan the page on every DOM change freeze each page switch 10-20 s (found 4 Nov 2026) · an explicit outdir without --pack stays one self-contained file
 if SPLIT and not PACK:
     for f in glob.glob(os.path.join(OUT,'data_*.js'))+glob.glob(os.path.join(OUT,'data_*.json')): os.remove(f)   # a ward can shrink to fewer chunks, or be removed
 tpl=open('template.html',encoding='utf-8').read()
 cfg=json.load(open(J('config.json'),encoding='utf-8'))
+if WARD1:
+    cfg['wards']=[dict(w,art='') for w in cfg['wards'] if w['id']==WARD1]
+    if not cfg['wards']: raise SystemExit('no ward '+WARD1)
+elif AIP:
+    cfg['extArt']=[{k:w.get(k,'') for k in ('id','name','short','sub','art')} for w in cfg['wards'] if w.get('art')]
+    cfg['wards']=[w for w in cfg['wards'] if not w.get('art')]
 def _inst(d):
     c=json.load(open(os.path.join(d,'config.json') if d else 'config.json',encoding='utf-8'));I=c.get('inst')
     if not I:return None
@@ -34,6 +43,9 @@ head=tpl[:tpl.index('</style>')]                                   # doctype …
 body=open('site/body.html',encoding='utf-8').read()
 title=cfg.get('siteName') or cfg.get('title','คลังข้อสอบเก่า')
 imgs={} if AIP else {os.path.splitext(os.path.basename(f))[0]:'img/'+os.path.basename(f) for f in sorted(glob.glob(J('img','*.jpg'))+glob.glob(J('img','*.png')))}
+if WARD1:   # only the images this ward's data names
+    _d=J(cfg['wards'][0].get('dir','data'));_t=set(re.findall(r'[A-Za-z0-9_-]+',''.join(open(f,encoding='utf-8').read() for f in glob.glob(os.path.join(_d,'*.js')))))
+    imgs={k:v for k,v in imgs.items() if k in _t}
 def num(f):
     b=os.path.basename(f)[6:-3]
     return int(b) if b.isdigit() else 10**9

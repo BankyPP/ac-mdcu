@@ -459,6 +459,7 @@
     },
     {
       "id": "subspe",
+      "art": "https://claude.ai/artifact/BDo8dUN6xXjE5VcZTUmg1x",
       "name": "Subspecialty Surgery",
       "short": "Subspe Sx",
       "year": "Y4",
@@ -573,9 +574,7 @@
       "exam": {
         "MCQ": {
           "n": 150,
-          "min": 180,
-          "ai": 0.3,
-          "aiFromAC": true
+          "min": 180
         }
       },
       "mornMEQ": true
