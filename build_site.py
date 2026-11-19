@@ -15,7 +15,7 @@ if INST in ('mdcu','.'):INST=''
 ARGS=[a for a in AV if not a.startswith('--')]
 IDIR=INST                                                          # '' = MDCU (repo root) · 'si' = Siriraj (si/)
 J=lambda *p:os.path.join(IDIR,*p) if IDIR else os.path.join(*p)
-AIP='--ai' in sys.argv         # Claude artifact for AI question writing only (19 Nov 2026): no images, light MCQ, no Unit banks / summaries — tools/ai_pack.js · old-exam practice is on the website
+AIP='--ai' in sys.argv         # Claude artifact for AI question writing only (19 Nov 2026): no images, no Unit banks / summaries — tools/ai_pack.js · old-exam practice is on the website
 PACK='--pack' in sys.argv or AIP      # Claude artifact build: an artifact version holds at most ~510 files, so images are stacked into a few sprite sheets per prefix
 OUT=ARGS[0] if ARGS else os.path.join(ROOT,'docs',*([IDIR] if IDIR else []))
 SPLIT=PACK or not ARGS   # the website build (default outdir) keeps exam data in data_<ward>*.js next to the page, not inline: 44MB of inline script text made browser extensions that scan the page on every DOM change freeze each page switch 10-20 s (found 4 Nov 2026) · an explicit outdir without --pack stays one self-contained file
@@ -143,7 +143,7 @@ for w in cfg.get('wards',[]):
             finally:
                 for f_ in (tmp,tmo):
                     if os.path.exists(f_): os.remove(f_)
-            js[j0:]=[light]
+            js[j0:]=light.rstrip('\n').split('\n')
         # an artifact text file is capped at 16MB → split a big ward into data_<ward>.js, data_<ward>_2.js … (≤12MB each, loaded in order)
         os.makedirs(OUT,exist_ok=True); base='data_'+re.sub(r'\W','',w['id']); chunks=[[]]; sz=0
         for part in js[j0:]:
