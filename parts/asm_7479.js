@@ -8,9 +8,10 @@ const SETS={
  d74:{set:"MDCU74",ro:"RoD",file:"74ACDK",q:"q74d_",k:"k74d_",KS:K74,out:"data/data_b16.js",head:"MDCU74 RoD — 74ACDK (Key_74ACD หน้า 13–17: recall + เฉลยลายมือ)"},
  c79:{set:"MDCU79",ro:"RoC",file:"79CQ",kfile:"79CK",q:"q79c_",k:"k79c_",KS:" (คีย์ในไฟล์ Key 79C)",out:"data/data_b17.js",head:"MDCU79 RoC — 79CQ (79C_Gen_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 1–14) + 79CK (Key_79C_Gen_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 1–9)"},
  d79:{set:"MDCU79",ro:"RoD",file:"79DQ",kfile:"",q:"q79d_",k:"k79d_",KS:"",out:"data/data_b18.js",head:"MDCU79 RoD — 79DQ (79D_Gen_Sx_AC_Sx_MCQ_79_Ro_D_MDCU.pdf หน้า 1–13), ไม่มีไฟล์เฉลย"},
+ s79d:{set:"MDCU79",ro:"RoD",file:"S79DQ",kfile:"S79DQ",q:"qs79d_",k:"ks79d_",KS:" (เฉลยอย่างย่อท้ายไฟล์โจทย์ 79D หน้า 36)",out:"data_subspe/data_b3.js",head:"Subspe Sx MDCU79 RoD — S79DQ (AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 1–36 ส่วน Subspe; เฉลยอย่างย่อหน้า 36) · ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf (S79DK) เป็นเทมเพลตเปล่า"},
  s79c:{set:"MDCU79",ro:"RoC",file:"79CQ",kfile:"79CK",q:"qs79c_",k:"ks79c_",KS:" (คีย์ในช่องเฉลยของไฟล์โจทย์ 79C)",out:"data_subspe/data_b1.js",head:"Subspe Sx MDCU79 RoC — 79CQ (79C_Gen_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 15–26 ส่วน Subspe) + 79CK (Key 79C หน้า 10–14 ส่วน Subspe ว่าง)"}};
 const code=process.argv[2],S=SETS[code];if(!S){console.log("unknown set");process.exit(1);}
-const KQ=" (เฉลยในช่องเฉลยของไฟล์โจทย์ AC Sx MCQ 79 Ro C)";const KS=S.KS,KI=(...n)=>n.map(i=>S.k+i),QI=n=>S.q+n;
+const KQ=" (เฉลยในช่องเฉลยของไฟล์โจทย์ AC Sx MCQ 79 Ro C)";const KD=x=>S.k+x,KS=S.KS,KI=(...n)=>n.map(i=>S.k+i),QI=n=>S.q+n;
 const base={set:S.set,ro:S.ro,file:S.file};if(S.kfile!==undefined)base.kfile=S.kfile;
 const A=o=>{const q=Object.assign({},base,{opinion:""},o);if(Array.isArray(q.wrong)){const w={};let j=0;for(let i=0;i<5;i++){if(i!==q.ans)w[LT[i]]=q.wrong[j++];}q.wrong=w;}return q;};
 const parts=fs.readdirSync(__dirname).filter(f=>f.startsWith(code+"_part")&&f.endsWith(".js")).sort((a,b)=>parseInt(a.replace(/\D/g,""))-parseInt(b.replace(/\D/g,"")));

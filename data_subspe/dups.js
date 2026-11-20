@@ -22,3 +22,21 @@ W.DUP.push(
   ["MDCU70|RoA|7","MDCU78|RoC|Acute abdomen 4"],
   ["MDCU70|RoA|31","MDCU78|RoD|Colorectal tumor 2"]
 );
+
+/* MDCU79 RoD Subspe (20 พ.ย. 2026) — ข้อเรื่องเดียวกับ 79C */
+W.DUP.push(
+  ["MDCU79|RoC|URO 2","MDCU79|RoC|URO 12","MDCU79|RoD|Uro 4"],
+  ["MDCU79|RoC|URO 3","MDCU79|RoD|Uro 7"],
+  ["MDCU79|RoC|URO 4","MDCU79|RoD|Uro 13"],
+  ["MDCU79|RoC|URO 5","MDCU79|RoC|URO 8","MDCU79|RoD|Uro 5"],
+  ["MDCU79|RoC|URO 10","MDCU79|RoD|Uro 15"],
+  ["MDCU79|RoC|URO 11","MDCU79|RoD|Uro 9"],
+  ["MDCU79|RoC|Plastic 4","MDCU79|RoD|Plastic 4"],
+  ["MDCU79|RoC|Plastic 6","MDCU79|RoD|Ped 8"],
+  ["MDCU79|RoC|Plastic 8","MDCU79|RoD|Plastic 11"],
+  ["MDCU79|RoC|Ped 4","MDCU79|RoD|Ped 13"],
+  ["MDCU79|RoC|Ped ไม่มีเลข 1","MDCU79|RoD|Ped 9"],
+  ["MDCU79|RoC|neuro 6","MDCU79|RoD|Neuro 4"],
+  ["MDCU79|RoC|Colo 2","MDCU79|RoD|Ped 2"],
+  ["MDCU79|RoC|CVT 3","MDCU79|RoD|CVT 1","MDCU79|RoD|CVT 9"]
+);
