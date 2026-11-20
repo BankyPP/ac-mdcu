@@ -36,7 +36,8 @@ SUMM.push({
      "title": "Brain abscess 4 cm → stereotactic aspiration + IV ATB",
      "asked": [
       "ไข้ ปวดหัว อ่อนแรงครึ่งซีก CT ring-enhancing ผนังบาง 4 cm → management",
-      "Post-op skull fracture สงสัย abscess → CT with contrast · เชื้อ = S. aureus + Strep (79D)"
+      "Post-op skull fracture สงสัย abscess → CT with contrast · เชื้อ = S. aureus + Strep (79D)",
+      "Brain abscess investigation → MRI DWI (78B)"
      ],
      "pattern": [
       "<b>ขนาด >2.5 cm</b> / mass effect / เข้าถึงได้ → aspiration หรือ excision + IV ATB (ESCMID 2024)",
@@ -49,7 +50,8 @@ SUMM.push({
      "members": [
       "MDCU79|RoC|neuro 1",
       "MDCU79|RoD|Neuro 8",
-      "MDCU79|RoD|Neuro 14"
+      "MDCU79|RoD|Neuro 14",
+      "MDCU78|RoB|48"
      ]
     },
     {
@@ -88,13 +90,15 @@ SUMM.push({
      "id": "empyema-si",
      "title": "Empyema → ICD + IV antibiotics",
      "asked": [
-      "Empyema pH 6.9 → management"
+      "Empyema pH 6.9 → management",
+      "pH ต่ำ glucose ต่ำ LDH สูง → chest tube (78B)"
      ],
      "pattern": [
       "Drain + ATB ครอบคลุม anaerobe · loculated → tPA/DNase/VATS · peel → decortication"
      ],
      "members": [
-      "MDCU79|RoD|CVT 10"
+      "MDCU79|RoD|CVT 10",
+      "MDCU78|RoB|10"
      ]
     },
     {
@@ -109,6 +113,21 @@ SUMM.push({
      "members": [
       "MDCU79|RoD|Plastic 5"
      ]
+    },
+    {
+     "id": "renal-abscess",
+     "title": "Renal abscess: &lt;3 cm ATB · 3–5 cm ATB ± drain · &gt;5 cm percutaneous drainage",
+     "asked": [
+      "Renal abscess 3.5 cm stable → IV ATB (78B)",
+      "Renal abscess &gt;5 cm ไม่ตอบ ATB → percutaneous drainage (78D)"
+     ],
+     "pattern": [
+      "Open drainage/nephrectomy เมื่อ percutaneous ล้มเหลว"
+     ],
+     "members": [
+      "MDCU78|RoB|21",
+      "MDCU78|RoD|82"
+     ]
     }
    ]
   },
@@ -121,7 +140,8 @@ SUMM.push({
      "trend": "ออกซ้ำ 2 เคสเนื้อหาเดียวกัน",
      "asked": [
       "ครรภ์ 18–20 สัปดาห์ cystitis E. coli รักษา nitrofurantoin ครบ อาการหาย → next step",
-      "Persistent ASB ในครรภ์ → US KUB (79D)"
+      "Persistent ASB ในครรภ์ → US KUB (79D)",
+      "ASB ในคนท้องหลังรักษายังบวก → ให้ยาอีกคอร์ส (78B)"
      ],
      "pattern": [
       "<b>Test of cure</b>: urine culture ซ้ำ ~1–2 สัปดาห์หลังจบยา แล้ว screen เป็นระยะจนคลอด",
@@ -135,7 +155,8 @@ SUMM.push({
      "members": [
       "MDCU79|RoC|URO 2",
       "MDCU79|RoC|URO 12",
-      "MDCU79|RoD|Uro 4"
+      "MDCU79|RoD|Uro 4",
+      "MDCU78|RoB|52"
      ]
     },
     {
@@ -161,13 +182,15 @@ SUMM.push({
      "id": "epn",
      "title": "Emphysematous pyelonephritis",
      "asked": [
-      "เบาหวาน + gas ใน renal parenchyma → Dx"
+      "เบาหวาน + gas ใน renal parenchyma → Dx",
+      "CT แก๊สใน collecting system → emphysematous pyelitis (78D)"
      ],
      "pattern": [
       "IV ATB + percutaneous drainage ± nephrectomy"
      ],
      "members": [
-      "MDCU79|RoD|Uro 10"
+      "MDCU79|RoD|Uro 10",
+      "MDCU78|RoD|83"
      ]
     },
     {
@@ -251,6 +274,34 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoD|CVT 7"
+     ]
+    },
+    {
+     "id": "pve",
+     "title": "Prosthetic valve endocarditis → redo valve replacement",
+     "asked": [
+      "Mechanical MVR ติดเชื้อ (78A)"
+     ],
+     "pattern": [
+      "Explant + debridement + replacement"
+     ],
+     "members": [
+      "MDCU78|RoA|11"
+     ]
+    },
+    {
+     "id": "crypto-ncc",
+     "title": "CNS infection: cryptococcal meningitis (HIV) และ neurocysticercosis",
+     "asked": [
+      "HIV CD4 ต่ำ ไข้ ปวดหัว (78D)",
+      "CT brain multiple lesion อายุ 14 (78C)"
+     ],
+     "pattern": [
+      "Crypto: CrAg, ampho + flucytosine · NCC: cyst with scolex"
+     ],
+     "members": [
+      "MDCU78|RoD|23",
+      "MDCU78|RoC|5"
      ]
     }
    ]

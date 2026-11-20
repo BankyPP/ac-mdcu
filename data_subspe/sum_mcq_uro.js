@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "Uro",
  "title": "Urology",
- "intro": "<ul><li>แท็กที่ใหญ่ที่สุดของวอร์ด (MDCU79 RoC 15 ข้อย่อย) แบ่งเป็น 4 ก้อน: <b>uro-oncology</b> (testicular germ cell tumor ออกซ้ำ 2 เคส, bladder CIS, UTUC, angiomyolipoma), <b>นิ่ว / การอุดตัน</b> (obstructed infected kidney ออกซ้ำ 2 เคส, staghorn, bladder stone จาก BPH, AUR), <b>UTI / STI</b> (UTI ในหญิงตั้งครรภ์ออกซ้ำ 2 เคส, gonococcal urethritis) และ <b>อวัยวะเพศเด็ก</b> (paraphimosis, epispadias)</li><li>รูปแบบหลักคือ vignette สั้น → ถาม Dx หรือ next step / most appropriate management — ตัวตัดสินมักเป็นคำเดียวในโจทย์: AFP ปกติ, ไข้ + การอุดตัน, macroscopic fat, CIS, high-grade upper tract</li><li>หลายเคสเป็น recall ที่ไม่ครบและ Claude เติม stem / ช้อยให้ (⚠) — จำหลักการตัดสินใจไว้ เพราะถ้าโจทย์จริงเปลี่ยนรายละเอียด คำตอบเปลี่ยนตาม</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: ครอบคลุมเกือบทุกเรื่องของ uro — PSA สูง, testicular tumor (inguinal orchiectomy + lymphatic drainage), NMIBC/UTUC, RCC, นิ่ว + ไข้ (อุด vs ไม่อุด), emphysematous pyelonephritis, AUR, UDT ในเด็ก</li></ul>",
+ "intro": "<ul><li>แท็กที่ใหญ่ที่สุดของวอร์ด (MDCU79 RoC 15 ข้อย่อย) แบ่งเป็น 4 ก้อน: <b>uro-oncology</b> (testicular germ cell tumor ออกซ้ำ 2 เคส, bladder CIS, UTUC, angiomyolipoma), <b>นิ่ว / การอุดตัน</b> (obstructed infected kidney ออกซ้ำ 2 เคส, staghorn, bladder stone จาก BPH, AUR), <b>UTI / STI</b> (UTI ในหญิงตั้งครรภ์ออกซ้ำ 2 เคส, gonococcal urethritis) และ <b>อวัยวะเพศเด็ก</b> (paraphimosis, epispadias)</li><li>รูปแบบหลักคือ vignette สั้น → ถาม Dx หรือ next step / most appropriate management — ตัวตัดสินมักเป็นคำเดียวในโจทย์: AFP ปกติ, ไข้ + การอุดตัน, macroscopic fat, CIS, high-grade upper tract</li><li>หลายเคสเป็น recall ที่ไม่ครบและ Claude เติม stem / ช้อยให้ (⚠) — จำหลักการตัดสินใจไว้ เพราะถ้าโจทย์จริงเปลี่ยนรายละเอียด คำตอบเปลี่ยนตาม</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: ครอบคลุมเกือบทุกเรื่องของ uro — PSA สูง, testicular tumor (inguinal orchiectomy + lymphatic drainage), NMIBC/UTUC, RCC, นิ่ว + ไข้ (อุด vs ไม่อุด), emphysematous pyelonephritis, AUR, UDT ในเด็ก</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: renal colic analgesia (แพ้ NSAID), cystine, BPH medical, NMIBC BCG, Bosniak, renal abscess, bladder SCC, UDT, VUR, testicular mass DDx, ASB ในคนท้อง, PSA screening, emphysematous pyelitis, TCC site</li></ul>",
  "groups": [
   {
    "title": "Uro-oncology",
@@ -14,7 +14,8 @@ SUMM.push({
       "ชายหนุ่มก้อนอัณฑะแข็งไม่เจ็บ β-hCG สูง AFP ปกติ → most likely diagnosis (ตัวลวง Leydig, Sertoli, yolk sac, epididymitis)",
       "รุ่นที่ให้ US heterogeneous + calcification ร่วม → ยังตอบ seminoma เพราะเป็น germ cell tumor ตัวเดียวในช้อย",
       "ก้อนแข็งในอัณฑะ + US hypoechoic → next step (79D)",
-      "ต่อมน้ำเหลืองที่ <b>ไม่ใช่</b> ทางแพร่ของ non-seminoma (79D)"
+      "ต่อมน้ำเหลืองที่ <b>ไม่ใช่</b> ทางแพร่ของ non-seminoma (79D)",
+      "ก้อนอัณฑะแข็งไม่เจ็บ: NOT DDx = epididymo-orchitis (78B)"
      ],
      "pattern": [
       "Solid <b>intratesticular</b> mass ชาย 15–40 ปี = germ cell tumor จนกว่าจะพิสูจน์ว่าไม่ใช่",
@@ -35,7 +36,8 @@ SUMM.push({
       "MDCU79|RoC|URO 1",
       "MDCU79|RoC|URO 9",
       "MDCU79|RoD|Uro 2",
-      "MDCU79|RoD|Uro 3"
+      "MDCU79|RoD|Uro 3",
+      "MDCU78|RoB|28"
      ]
     },
     {
@@ -43,7 +45,8 @@ SUMM.push({
      "title": "Bladder carcinoma in situ หลัง TURBT → intravesical BCG",
      "asked": [
       "Bladder CIS ที่ TURBT เอารอยโรคที่เห็นออกหมดแล้ว → next management (ตัวลวง intravesical chemo, cystectomy, surveillance)",
-      "High-grade NMIBC หลัง TURBT → manage ต่อ (79D)"
+      "High-grade NMIBC หลัง TURBT → manage ต่อ (79D)",
+      "High-grade NMIBC → BCG (78B)"
      ],
      "pattern": [
       "CIS = flat high-grade → จัดเป็น <b>high-risk NMIBC</b> (เช่นเดียวกับ T1, high-grade, หลายก้อนใหญ่เป็นซ้ำ)",
@@ -61,7 +64,8 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoC|URO 3",
-      "MDCU79|RoD|Uro 7"
+      "MDCU79|RoD|Uro 7",
+      "MDCU78|RoB|19"
      ]
     },
     {
@@ -114,7 +118,8 @@ SUMM.push({
      "title": "PSA สูงโดยไม่มี UTI → MRI prostate + biopsy",
      "trend": "ถามขั้นต่อไปเมื่อ PSA สูง แยกจากการรักษา BPH",
      "asked": [
-      "ชาย 65 LUTS ต่อมโตเล็กน้อย PSA 12 ไม่มี UTI → management"
+      "ชาย 65 LUTS ต่อมโตเล็กน้อย PSA 12 ไม่มี UTI → management",
+      "ชาย 52 ขอคัดกรอง → shared decision-making (78D)"
      ],
      "pattern": [
       "PSA สูง (&gt;4 หรือ age-specific) ไม่มีสาเหตุอื่น → <b>pre-biopsy mpMRI → targeted ± systematic biopsy</b> (EAU 2024)",
@@ -124,7 +129,8 @@ SUMM.push({
       "ตัวลวง: alpha-blocker/5-ARI แล้วติดตาม (รักษา BPH ก่อนแยกมะเร็ง)"
      ],
      "members": [
-      "MDCU79|RoD|Uro 1"
+      "MDCU79|RoD|Uro 1",
+      "MDCU78|RoD|81"
      ]
     },
     {
@@ -154,6 +160,45 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoD|Ped 12"
+     ]
+    },
+    {
+     "id": "bosniak",
+     "title": "Renal cyst ที่ enhance (Bosniak III–IV) → surgical excision",
+     "asked": [
+      "(78B คีย์: complicated renal cyst)"
+     ],
+     "pattern": [
+      "Bosniak I–II benign · IIF follow · III–IV ผ่าตัด"
+     ],
+     "members": [
+      "MDCU78|RoB|20"
+     ]
+    },
+    {
+     "id": "bladder-scc-uro",
+     "title": "Bladder SCC ↔ chronic infection/irritation",
+     "asked": [
+      "(78B)"
+     ],
+     "pattern": [
+      "Schistosoma, catheter, stone"
+     ],
+     "members": [
+      "MDCU78|RoB|22"
+     ]
+    },
+    {
+     "id": "tcc-site-uro",
+     "title": "TCC least likely ที่ urethra",
+     "asked": [
+      "(78D)"
+     ],
+     "pattern": [
+      "Bladder 90–95% · upper tract 5–10%"
+     ],
+     "members": [
+      "MDCU78|RoD|85"
      ]
     }
    ]
@@ -288,6 +333,45 @@ SUMM.push({
      "members": [
       "MDCU79|RoD|Uro 11"
      ]
+    },
+    {
+     "id": "renal-colic-analgesia",
+     "title": "Renal colic: NSAIDs first-line · แพ้ NSAID → opioid",
+     "asked": [
+      "Renal colic แพ้ NSAIDs → morphine (78B)"
+     ],
+     "pattern": [
+      "NSAID &gt; opioid ใน renal colic; MET tamsulosin สำหรับ distal 5–10 mm"
+     ],
+     "members": [
+      "MDCU78|RoB|16"
+     ]
+    },
+    {
+     "id": "cystine",
+     "title": "Hexagonal crystals = cystine",
+     "asked": [
+      "UA hexagonal crystals (78B)"
+     ],
+     "pattern": [
+      "Coffin lid = struvite · envelope = Ca oxalate · rhomboid = uric acid"
+     ],
+     "members": [
+      "MDCU78|RoB|17"
+     ]
+    },
+    {
+     "id": "bph-medical",
+     "title": "BPH IPSS 22 ต่อมเล็ก PSA 1 → alpha-blocker",
+     "asked": [
+      "(78B)"
+     ],
+     "pattern": [
+      "5-ARI ต่อม &gt;30–40 mL · surgery เมื่อมี indication"
+     ],
+     "members": [
+      "MDCU78|RoB|18"
+     ]
     }
    ]
   },
@@ -300,7 +384,8 @@ SUMM.push({
      "trend": "ออกซ้ำ 2 เคสเกือบเหมือนกัน — ตัวลวงคือ observe และ prophylaxis จนคลอด",
      "asked": [
       "ครรภ์ 18–20 สัปดาห์ cystitis E. coli ได้ nitrofurantoin ครบ อาการหาย → next step",
-      "ASB ในครรภ์ รักษาแล้ว culture ซ้ำยังเจอเชื้อเดิม → investigate (79D)"
+      "ASB ในครรภ์ รักษาแล้ว culture ซ้ำยังเจอเชื้อเดิม → investigate (79D)",
+      "ASB คนท้องหลังรักษายังบวก → ให้ยาอีกคอร์ส (78B)"
      ],
      "pattern": [
       "ในครรภ์ bacteriuria ทุกแบบต้องรักษา และ <b>ส่ง urine culture ซ้ำ ~1–2 สัปดาห์หลังจบยา</b> แล้ว screen เป็นระยะจนคลอด",
@@ -319,7 +404,8 @@ SUMM.push({
      "members": [
       "MDCU79|RoC|URO 2",
       "MDCU79|RoC|URO 12",
-      "MDCU79|RoD|Uro 4"
+      "MDCU79|RoD|Uro 4",
+      "MDCU78|RoB|52"
      ]
     },
     {
@@ -349,14 +435,31 @@ SUMM.push({
      "id": "emphysematous-pyelo",
      "title": "Emphysematous pyelonephritis (เบาหวาน + gas ในเนื้อไต)",
      "asked": [
-      "หญิงเบาหวาน ไข้สูง ปวดสีข้าง CT gas ใน renal parenchyma → Dx"
+      "หญิงเบาหวาน ไข้สูง ปวดสีข้าง CT gas ใน renal parenchyma → Dx",
+      "CT แก๊สใน collecting system: pyelitis vs pyelonephritis (78D)"
      ],
      "pattern": [
       "แก๊สในเนื้อไต = EPN · ใน collecting system = emphysematous pyelitis · ใน bladder = emphysematous cystitis",
       "รักษา: IV ATB + คุมน้ำตาล + percutaneous drainage; ไม่ตอบ/รุนแรง → nephrectomy (Huang–Tseng)"
      ],
      "members": [
-      "MDCU79|RoD|Uro 10"
+      "MDCU79|RoD|Uro 10",
+      "MDCU78|RoD|83"
+     ]
+    },
+    {
+     "id": "renal-abscess-uro",
+     "title": "Renal abscess ตามขนาด (3 / 5 cm)",
+     "asked": [
+      "3.5 cm → IV ATB (78B)",
+      "&gt;5 cm ไม่ตอบยา → percutaneous drainage (78D)"
+     ],
+     "pattern": [
+      "&lt;3 ATB · 3–5 ATB ± drain · &gt;5 drain"
+     ],
+     "members": [
+      "MDCU78|RoB|21",
+      "MDCU78|RoD|82"
      ]
     }
    ]
@@ -415,7 +518,8 @@ SUMM.push({
      "trend": "ถามทั้งเวลาผ่าตัดและการตรวจเมื่อคลำไม่ได้",
      "asked": [
       "เด็ก 4 ปี UDT คลำได้ใน inguinal canal → orchidopexy ทันที",
-      "เด็ก 18 เดือน non-palpable + US ไม่พบ → diagnostic laparoscopy"
+      "เด็ก 18 เดือน non-palpable + US ไม่พบ → diagnostic laparoscopy",
+      "Bilateral palpable UDT 15 เดือน → orchiopexy (78B)"
      ],
      "pattern": [
       "ส่งต่อถ้าไม่ลงภายใน 6 เดือน · orchidopexy ภายใน 18 เดือน (AUA/EAU) · hormone ไม่แนะนำ",
@@ -424,7 +528,8 @@ SUMM.push({
      "members": [
       "MDCU79|RoD|Uro 16",
       "MDCU79|RoD|Uro 17",
-      "MDCU79|RoD|Ped 16"
+      "MDCU79|RoD|Ped 16",
+      "MDCU78|RoB|23"
      ]
     },
     {
@@ -452,6 +557,21 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoD|Ped 17"
+     ]
+    },
+    {
+     "id": "vur-uro",
+     "title": "VUR: CAP ก่อน, reimplant เมื่อ breakthrough · VCUG ปกติ → หยุดยา",
+     "asked": [
+      "VUR IV + recurrent UTI (78B)",
+      "VCUG ปกติหลังกินยา 3 ปี (78D)"
+     ],
+     "pattern": [
+      "RIVUR: CAP ลด febrile UTI"
+     ],
+     "members": [
+      "MDCU78|RoB|24",
+      "MDCU78|RoD|84"
      ]
     }
    ]

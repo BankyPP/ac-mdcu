@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "suture",
  "title": "Suture materials",
- "intro": "<ul><li>สถานีไหมเย็บแผลออก <b>ทุก rotation</b> (MDCU65–67) — วางไหม 2–3 ชนิด (ในซองที่ปิดชื่อ generic หรือแกะออกมาแล้ว) ไม่มี examiner</li><li>ลำดับคำถามแทบเหมือนเดิมทุกครั้ง: <b>generic name → จำแนก 3 มิติ (natural / synthetic · monofilament / multifilament · absorbable / non-absorbable) → ใช้ทำอะไร</b> แล้วบางครั้งปิดด้วยคำถามเลือกไหม: <b>เย็บผิวหนังได้เส้นไหน</b>, เย็บลำไส้ได้เส้นไหน, เย็บกล้ามเนื้อใช้เส้นไหน</li><li><b>ไหมที่วนออก:</b> silk และ polypropylene (Prolene) แทบทุก rotation · polyglactin 910 (Vicryl) · catgut (plain / chromic) · nylon · polydioxanone (PDS)</li><li>คะแนนให้ต่อไหม: ต้องเป็น <b>generic name</b> (ชื่อการค้า Prolene / Vicryl / PDS ได้ครึ่งเดียวหรือ 0 ในบาง rotation) และต้องถูก <b>ครบทั้ง 3 มิติ</b> จึงได้คะแนนไหมนั้น</li><li>MDCU79 RoC: ไหมผูกท่อน้ำดีและไหมปิดแผล — ซองปิดชื่อด้วยเทปดำ ถามชื่อการค้า generic multi/mono absorb</li></ul>",
+ "intro": "<ul><li>สถานีไหมเย็บแผลออก <b>ทุก rotation</b> (MDCU65–67) — วางไหม 2–3 ชนิด (ในซองที่ปิดชื่อ generic หรือแกะออกมาแล้ว) ไม่มี examiner</li><li>ลำดับคำถามแทบเหมือนเดิมทุกครั้ง: <b>generic name → จำแนก 3 มิติ (natural / synthetic · monofilament / multifilament · absorbable / non-absorbable) → ใช้ทำอะไร</b> แล้วบางครั้งปิดด้วยคำถามเลือกไหม: <b>เย็บผิวหนังได้เส้นไหน</b>, เย็บลำไส้ได้เส้นไหน, เย็บกล้ามเนื้อใช้เส้นไหน</li><li><b>ไหมที่วนออก:</b> silk และ polypropylene (Prolene) แทบทุก rotation · polyglactin 910 (Vicryl) · catgut (plain / chromic) · nylon · polydioxanone (PDS)</li><li>คะแนนให้ต่อไหม: ต้องเป็น <b>generic name</b> (ชื่อการค้า Prolene / Vicryl / PDS ได้ครึ่งเดียวหรือ 0 ในบาง rotation) และต้องถูก <b>ครบทั้ง 3 มิติ</b> จึงได้คะแนนไหมนั้น</li><li>MDCU79 RoC: ไหมผูกท่อน้ำดีและไหมปิดแผล — ซองปิดชื่อด้วยเทปดำ ถามชื่อการค้า generic multi/mono absorb</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: เลือกไหม 4 งานจาก 5 ชนิด (78A), ไหมใน laparotomy + bowel anastomosis (78B, 78C)</li></ul>",
  "groups": [
   {
    "title": "Generic name + classification (3 มิติ)",
@@ -314,7 +314,8 @@ SUMM.push({
      "asked": [
       "Give one example of the use of each suture",
       "State its uses (คู่กับ generic name + คุณสมบัติ)",
-      "เลือกไหมผูก bile duct (absorbable) และปิดแผล (79C)"
+      "เลือกไหมผูก bile duct (absorbable) และปิดแผล (79C)",
+      "ไหม 5 อัน → เย็บเชื่อมหลอดเลือดแดง / ผูกหลอดเลือดดำ / ซ่อมกล้ามเนื้อ / skin (78A)"
      ],
      "flow": [
       "นึกคุณสมบัติก่อน (absorbable? mono?)",
@@ -351,7 +352,8 @@ SUMM.push({
       "MDCU65|RoA|5#1",
       "MDCU65|RoB|1#1",
       "MDCU79|RoC|10#2",
-      "MDCU79|RoC|10#3"
+      "MDCU79|RoC|10#3",
+      "MDCU78|RoA|24#1"
      ]
     },
     {
@@ -392,7 +394,9 @@ SUMM.push({
      "trend": "ข้อย่อยเลือกไหมตามอวัยวะ — ตอบพร้อมเหตุผล",
      "asked": [
       "Which of these sutures (Prolene, PDS, Vicryl) can be used to suture the bowel? (more than one answer)",
-      "Which suture (silk, Prolene, Vicryl) is suitable for suturing muscle?"
+      "Which suture (silk, Prolene, Vicryl) is suitable for suturing muscle?",
+      "รูปตัดต่อลำไส้: operation + ไหมต่อลำไส้, ผูก vessel, sheath, skin (78B)",
+      "ลำไส้ทะลุจากวัตถุแหลม: operation + เลือกไหมต่อลำไส้ (78C เฉลย: exploratory laparotomy with bowel anastomosis, PDS)"
      ],
      "flow": [
       "บอกไหมที่ใช้ได้",
@@ -413,7 +417,11 @@ SUMM.push({
      ],
      "members": [
       "MDCU67|RoA|12#4",
-      "MDCU66|RoD|2#2"
+      "MDCU66|RoD|2#2",
+      "MDCU78|RoB|22#1",
+      "MDCU78|RoB|22#2",
+      "MDCU78|RoC|6#1",
+      "MDCU78|RoC|6#2"
      ]
     },
     {

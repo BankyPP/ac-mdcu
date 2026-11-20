@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "proc",
  "title": "Procedure",
- "intro": "<ul><li>สถานี Procedure (มี examiner) ออก <b>ทุก rotation ของ MDCU65–67</b> และหัวข้อวนซ้ำแทบทั้งหมด: <b>เย็บ vertical mattress บน suture pad + ผูกปม</b> (ออกครบ 11 rotation) ตามด้วย <b>ผูกปมบนบอร์ดท่อยาง</b> (one-handed / two-handed / 3-throw square knot)</li><li>กลุ่มที่สอง = <b>sterile technique</b>: open sterile gloving (7 rotation), surgical hand scrub + เช็ดมือ, ใส่ gown + closed gloving — มักจับคู่กับหัตถการอื่นในสถานีเดียว (gloving + ทำแผล, gloving + เย็บ, gloving + ฉีดยาชา)</li><li>กลุ่มที่สาม = <b>แผลและยาชา</b>: ทำแผลเย็บแล้ว (เปิด dressing set เอง), wet dressing แผลสุนัขกัด, ฉีดยาชา field block รอบก้อน / ขอบแผล, advice ดูแลแผล + นัดตัดไหม</li><li>หัตถการข้างเตียงออกน้อย: <b>NG tube</b> (MDCU67 RoD) และ <b>Foley ในชาย AUR</b> (MDCU65 RoA)</li><li>เหตุตกที่ซ้ำทุกปี: เย็บผิดแบบ (simple / horizontal แทน vertical mattress) = 0, ปม granny / slip / air knot, ปนเปื้อนถุงมือแล้วไม่เปลี่ยน, ไม่ aspirate ก่อนฉีดยาชา, เป่า balloon ก่อนเห็นปัสสาวะ, ไม่ทิ้งเข็มลง sharps box</li><li>MDCU79 RoC: simple stitch 2 อัน + ปิดแผล, ใส่ถุงมือ + ฉีดยาชา (เลือกเข็มชมพู/ม่วง), หัตถการ ICD, NG intubation</li></ul>",
+ "intro": "<ul><li>สถานี Procedure (มี examiner) ออก <b>ทุก rotation ของ MDCU65–67</b> และหัวข้อวนซ้ำแทบทั้งหมด: <b>เย็บ vertical mattress บน suture pad + ผูกปม</b> (ออกครบ 11 rotation) ตามด้วย <b>ผูกปมบนบอร์ดท่อยาง</b> (one-handed / two-handed / 3-throw square knot)</li><li>กลุ่มที่สอง = <b>sterile technique</b>: open sterile gloving (7 rotation), surgical hand scrub + เช็ดมือ, ใส่ gown + closed gloving — มักจับคู่กับหัตถการอื่นในสถานีเดียว (gloving + ทำแผล, gloving + เย็บ, gloving + ฉีดยาชา)</li><li>กลุ่มที่สาม = <b>แผลและยาชา</b>: ทำแผลเย็บแล้ว (เปิด dressing set เอง), wet dressing แผลสุนัขกัด, ฉีดยาชา field block รอบก้อน / ขอบแผล, advice ดูแลแผล + นัดตัดไหม</li><li>หัตถการข้างเตียงออกน้อย: <b>NG tube</b> (MDCU67 RoD) และ <b>Foley ในชาย AUR</b> (MDCU65 RoA)</li><li>เหตุตกที่ซ้ำทุกปี: เย็บผิดแบบ (simple / horizontal แทน vertical mattress) = 0, ปม granny / slip / air knot, ปนเปื้อนถุงมือแล้วไม่เปลี่ยน, ไม่ aspirate ก่อนฉีดยาชา, เป่า balloon ก่อนเห็นปัสสาวะ, ไม่ทิ้งเข็มลง sharps box</li><li>MDCU79 RoC: simple stitch 2 อัน + ปิดแผล, ใส่ถุงมือ + ฉีดยาชา (เลือกเข็มชมพู/ม่วง), หัตถการ ICD, NG intubation</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: sterile gloving + suture, WHO handwash + dressing, simple + vertical mattress, ตัดไหม, LA infiltration</li></ul>",
  "groups": [
   {
    "title": "Suturing & knot tying",
@@ -14,7 +14,8 @@ SUMM.push({
       "ให้ suture pad + needle holder + forceps + กรรไกร + ไหม non-absorbable เข็ม cutting → place one (หรือ two) vertical mattress suture แล้ว tie ด้วย instrument tie",
       "บางปีให้ stitch แรกผูก surgeon's knot ด้วยเครื่องมือ stitch ที่สองผูก one-handed square knot (MDCU66 RoC)",
       "MDCU67 RoD ให้เย็บ simple interrupted 1 + mattress 1 (vertical หรือ horizontal ได้ทั้งคู่)",
-      "MDCU66 RoB / RoD ต่อจาก sterile gloving หรือฉีดยาชาก่อนเย็บ"
+      "MDCU66 RoB / RoD ต่อจาก sterile gloving หรือฉีดยาชาก่อนเย็บ",
+      "เย็บ simple + vertical (78B, 78C)"
      ],
      "flow": [
       "(บอกอาจารย์) ล้างมือ สวมถุงมือ ทำความสะอาด / ปูผ้า (ถ้าเป็นแผลจำลองบนผู้ป่วย)",
@@ -64,7 +65,9 @@ SUMM.push({
       "MDCU66|RoD|5#1",
       "MDCU65|RoA|12#2",
       "MDCU65|RoB|10#1",
-      "MDCU65|RoC|1#1"
+      "MDCU65|RoC|1#1",
+      "MDCU78|RoB|25#1",
+      "MDCU78|RoC|11#1"
      ]
     },
     {
@@ -163,7 +166,9 @@ SUMM.push({
       "Place one simple interrupted and one mattress suture, each tied with an instrument tie",
       "Demonstrate the correct technique for cutting the suture",
       "Place one simple interrupted suture and tie it using the one-hand technique",
-      "เย็บ simple stitch 2 อัน (79C)"
+      "เย็บ simple stitch 2 อัน (79C)",
+      "เย็บ simple 2 อัน (78A)",
+      "ตัดไหม simple + vertical (78B)"
      ],
      "flow": [
       "Simple interrupted: แทงเข็มตั้งฉาก ห่างขอบ ~3–5 mm (≈ ความลึก) ลึกเท่ากันสองฝั่ง ออกฝั่งตรงข้ามระยะเท่ากัน",
@@ -192,7 +197,9 @@ SUMM.push({
       "MDCU67|RoD|1#1",
       "MDCU67|RoD|1#2",
       "MDCU66|RoA|13#2",
-      "MDCU79|RoC|1#1"
+      "MDCU79|RoC|1#1",
+      "MDCU78|RoA|21#2",
+      "MDCU78|RoB|26#2"
      ]
     }
    ]
@@ -208,7 +215,9 @@ SUMM.push({
       "Put on sterile gloves (correctly / using the open technique)",
       "หลัง scrub แล้ว → เช็ดมือ + ใส่ถุงมือ open technique",
       "ใส่ถุงมือ sterile แล้วทำแผล / wet dressing / เย็บแผล / ฉีดยาชา",
-      "ใส่ถุงมือก่อนฉีดยาชา (79C)"
+      "ใส่ถุงมือก่อนฉีดยาชา (79C)",
+      "ใส่ถุงมือ sterile + เย็บ 2 simple (78A)",
+      "ใส่ถุงมือ + ทายา ปูผ้า + ฉีดยาชา (78C)"
      ],
      "flow": [
       "ล้างมือ (หรือสมมติ scrub แล้ว มือสูงกว่าศอก) · เลือกขนาด ตรวจซองและวันหมดอายุ",
@@ -244,7 +253,9 @@ SUMM.push({
       "MDCU66|RoB|1#1",
       "MDCU66|RoC|13#1",
       "MDCU65|RoC|3#1",
-      "MDCU79|RoC|2#1"
+      "MDCU79|RoC|2#1",
+      "MDCU78|RoA|21#1",
+      "MDCU78|RoC|10#1"
      ]
     },
     {
@@ -330,6 +341,29 @@ SUMM.push({
       "MDCU65|RoA|11#1",
       "MDCU65|RoB|13#1"
      ]
+    },
+    {
+     "id": "who-handwash",
+     "title": "ล้างมือ WHO 7 ขั้นตอน",
+     "asked": [
+      "ล้างมือตาม WHO + ทำแผล (78A)",
+      "ล้างมือ + ตัดไหม (78B)"
+     ],
+     "pattern": [
+      "7 ขั้นตอน 40–60 วินาที · ปิดก๊อกด้วยกระดาษ · 5 moments"
+     ],
+     "flow": [
+      "ถอดเครื่องประดับ → เปียก ลงสบู่ → 7 ขั้นตอน → ล้าง → เช็ด → ปิดก๊อกด้วยกระดาษ"
+     ],
+     "kw": [
+      "WHO 7 steps",
+      "40-60 seconds",
+      "5 moments"
+     ],
+     "members": [
+      "MDCU78|RoA|22#1",
+      "MDCU78|RoB|26#1"
+     ]
     }
    ]
   },
@@ -343,7 +377,8 @@ SUMM.push({
      "asked": [
       "Demonstrate how to dress a wound, including putting on sterile gloves, using aseptic technique",
       "Arm model ที่เย็บไว้เมื่อวาน → clean the wound and apply a new dressing (ต้องเปิด dressing set เอง; ไม่มีถุงมือ = no-touch technique)",
-      "ปิดแผลที่เย็บ (79C)"
+      "ปิดแผลที่เย็บ (79C)",
+      "ทำแผล dry dressing ด้วยถุงมือ non-sterile (78A)"
      ],
      "flow": [
       "แนะนำตัว ยืนยันผู้ป่วย อธิบาย ขออนุญาต · ล้างมือ (alcohol hand rub) · จัดท่า เปิดแผล วางถุงขยะใกล้มือ",
@@ -382,7 +417,8 @@ SUMM.push({
      "members": [
       "MDCU67|RoC|13#1",
       "MDCU65|RoB|12#1",
-      "MDCU79|RoC|1#2"
+      "MDCU79|RoC|1#2",
+      "MDCU78|RoA|22#2"
      ]
     },
     {
@@ -392,7 +428,8 @@ SUMM.push({
      "asked": [
       "Infiltrate local anaesthetic around the lumps (upper arm + forearm), describing each step aloud (ผู้คุมสอบเป็นผู้ช่วย)",
       "Infiltrate local anesthesia then close the wound with vertical mattress sutures",
-      "ฉีดยาชา: เข็มชมพู (18G) ดูดยา เข็มม่วง (เล็ก) ฉีด (79C)"
+      "ฉีดยาชา: เข็มชมพู (18G) ดูดยา เข็มม่วง (เล็ก) ฉีด (79C)",
+      "ทาน้ำยา ปูผ้า ดูดยาไล่อากาศ ฉีดแขนปลอม (78C)"
      ],
      "flow": [
       "แนะนำตัว ยืนยันผู้ป่วยและตำแหน่ง อธิบาย ขอ consent · ถามแพ้ยาชา / ยาต้านเกล็ดเลือด / anticoagulant",
@@ -433,7 +470,9 @@ SUMM.push({
      "members": [
       "MDCU67|RoA|13#2",
       "MDCU66|RoD|5#1",
-      "MDCU79|RoC|2#2"
+      "MDCU79|RoC|2#2",
+      "MDCU78|RoC|10#2",
+      "MDCU78|RoC|10#3"
      ]
     },
     {

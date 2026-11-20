@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "inst",
  "title": "Instruments & devices",
- "intro": "<ul><li>สถานีเครื่องมือ / อุปกรณ์ออก <b>ทุก rotation</b> (MDCU65–67) และมักมี <b>2 สถานีต่อ rotation</b>: สถานีเครื่องมือผ่าตัด 2–4 ชิ้น + สถานีท่อ / drain / อุปกรณ์ — เป็นสถานีภาพหรือของวางบนโต๊ะ ไม่มี examiner</li><li>รูปแบบคำถามคงที่: <b>Name (ชื่อเฉพาะ ไม่ใช่ ‘กรรไกร / retractor’ เฉย ๆ) → use / function อย่างละ 1</b> · ท่อ / อุปกรณ์เพิ่ม <b>indication · contraindication · complication · ผ่าตัดอะไรที่ต้องใช้</b></li><li><b>เครื่องมือที่วนซ้ำ:</b> Babcock และ Allis (มักออกคู่ให้แยก atraumatic vs traumatic), hand-held retractor (Senn · Army-Navy · Richardson), Metzenbaum scissors, Kelly / artery forceps vs Kocher, towel clip</li><li><b>อุปกรณ์ที่วนซ้ำ:</b> closed suction drain (Redivac, Jackson-Pratt) vs Penrose, <b>three-way Foley → continuous bladder irrigation</b>, <b>NG tube</b> (indication + basal skull fracture เป็นข้อห้าม), ostomy appliance (wafer + pouch → APR / Hartmann's), chest tube, surgical mesh</li><li>คะแนนมักแบ่ง 1 ต่อชื่อ + 1 ต่อการใช้ — ตอบชื่อกว้าง ๆ (Foley เฉย ๆ, closed drain เฉย ๆ) ได้ครึ่งเดียว และตอบสลับ Allis ↔ Babcock ได้ 0</li><li>MDCU79 RoC: three-way Foley (คะแนน 20/40/40), ชุดเครื่องมือ cholecystectomy + ไหม, NG + ถุงรองรับ, Hartmann (NG + ostomy bag), PICC, chest tube</li></ul>",
+ "intro": "<ul><li>สถานีเครื่องมือ / อุปกรณ์ออก <b>ทุก rotation</b> (MDCU65–67) และมักมี <b>2 สถานีต่อ rotation</b>: สถานีเครื่องมือผ่าตัด 2–4 ชิ้น + สถานีท่อ / drain / อุปกรณ์ — เป็นสถานีภาพหรือของวางบนโต๊ะ ไม่มี examiner</li><li>รูปแบบคำถามคงที่: <b>Name (ชื่อเฉพาะ ไม่ใช่ ‘กรรไกร / retractor’ เฉย ๆ) → use / function อย่างละ 1</b> · ท่อ / อุปกรณ์เพิ่ม <b>indication · contraindication · complication · ผ่าตัดอะไรที่ต้องใช้</b></li><li><b>เครื่องมือที่วนซ้ำ:</b> Babcock และ Allis (มักออกคู่ให้แยก atraumatic vs traumatic), hand-held retractor (Senn · Army-Navy · Richardson), Metzenbaum scissors, Kelly / artery forceps vs Kocher, towel clip</li><li><b>อุปกรณ์ที่วนซ้ำ:</b> closed suction drain (Redivac, Jackson-Pratt) vs Penrose, <b>three-way Foley → continuous bladder irrigation</b>, <b>NG tube</b> (indication + basal skull fracture เป็นข้อห้าม), ostomy appliance (wafer + pouch → APR / Hartmann's), chest tube, surgical mesh</li><li>คะแนนมักแบ่ง 1 ต่อชื่อ + 1 ต่อการใช้ — ตอบชื่อกว้าง ๆ (Foley เฉย ๆ, closed drain เฉย ๆ) ได้ครึ่งเดียว และตอบสลับ Allis ↔ Babcock ได้ 0</li><li>MDCU79 RoC: three-way Foley (คะแนน 20/40/40), ชุดเครื่องมือ cholecystectomy + ไหม, NG + ถุงรองรับ, Hartmann (NG + ostomy bag), PICC, chest tube</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: ชุดเครื่องมือรวม, Foley 2-way, DJ stent, ostomy, laparoscopic cholecystectomy, เลือกอุปกรณ์ตามวัตถุประสงค์</li></ul>",
  "groups": [
   {
    "title": "Grasping forceps & clamps",
@@ -211,6 +211,63 @@ SUMM.push({
       "MDCU66|RoA|6#2",
       "MDCU66|RoD|1#1",
       "MDCU79|RoC|10#1"
+     ]
+    },
+    {
+     "id": "inst-set-78",
+     "title": "ชุดเครื่องมือ 4–5 ชิ้น: ชื่อ + ใช้ทำอะไร (chest tube, Babcock, Allis, Army–Navy, Richardson, Mayo/Metzenbaum, towel clip, mesh)",
+     "trend": "ออกทุก rotation ของปี 78",
+     "asked": [
+      "5 อย่าง: chest tube, Babcock, Army–Navy, Mayo, Prolene mesh (78A)",
+      "4 อย่าง: curved Mayo, colostomy bag, Richardson, Prolene mesh (78B)",
+      "Towel clip, curved Metzenbaum, Army–Navy, Allis, hernia mesh (78C — มีเฉลยในไฟล์)"
+     ],
+     "pattern": [
+      "Allis = จับ fascia (มีฟัน) · Babcock = จับลำไส้ (atraumatic) · Metzenbaum = เนื้อบาง · Mayo = เนื้อหนา · Army–Navy = แผลตื้น · Richardson = laparotomy · towel clip = ยึดผ้า · mesh = hernioplasty"
+     ],
+     "flow": [
+      "ดูของ → ชื่อ → หน้าที่ (1 บรรทัด)"
+     ],
+     "kw": [
+      "Allis",
+      "Babcock",
+      "Metzenbaum",
+      "Mayo",
+      "Army-Navy",
+      "Richardson",
+      "towel clip",
+      "mesh"
+     ],
+     "members": [
+      "MDCU78|RoA|17#1",
+      "MDCU78|RoB|27#1",
+      "MDCU78|RoC|7#1",
+      "MDCU78|RoC|7#2"
+     ]
+    },
+    {
+     "id": "lap-chole-inst",
+     "title": "Acute cholecystitis + เครื่องมือ laparoscopic cholecystectomy",
+     "asked": [
+      "เจ็บชายโครงขวา: Dx + เลือกตัวอักษร/ชื่ออุปกรณ์/ชื่อหัตถการ (78B)"
+     ],
+     "pattern": [
+      "Trocar, laparoscope, grasper, clip applier, hook · critical view of safety"
+     ],
+     "flow": [
+      "Dx → ชื่อผ่าตัด → ชื่อ+หน้าที่เครื่องมือ"
+     ],
+     "kw": [
+      "laparoscopic cholecystectomy",
+      "trocar",
+      "clip applier",
+      "grasper",
+      "critical view of safety"
+     ],
+     "members": [
+      "MDCU78|RoB|21#1",
+      "MDCU78|RoB|21#2",
+      "MDCU78|RoB|21#3"
      ]
     }
    ]
@@ -457,6 +514,56 @@ SUMM.push({
       "TPN / chemotherapy",
       "long-term access"
      ]
+    },
+    {
+     "id": "foley-dj",
+     "title": "Two-way Foley (วิธีใส่ + indication) และ DJ stent",
+     "asked": [
+      "2-way Foley 16 Fr: วิธีใช้ + 1 indication (78A)",
+      "DJ stent + 2-way Foley: ชื่อ + indication (78B)"
+     ],
+     "pattern": [
+      "Foley: sterile, เติม sterile water 10 mL หลังปัสสาวะไหล, ดึง prepuce กลับ · indication retention/UO · DJ: ระบาย obstructed kidney, หลัง URS"
+     ],
+     "flow": [
+      "ชื่อ → ส่วนประกอบ → วิธีใช้ → indication/contraindication"
+     ],
+     "kw": [
+      "two-way Foley",
+      "balloon",
+      "sterile water",
+      "double-J stent",
+      "obstructed infected kidney"
+     ],
+     "members": [
+      "MDCU78|RoA|18#1",
+      "MDCU78|RoA|18#2",
+      "MDCU78|RoB|23#1",
+      "MDCU78|RoB|23#2"
+     ]
+    },
+    {
+     "id": "device-purpose",
+     "title": "เลือกอุปกรณ์ตามวัตถุประสงค์: NG / Foley 2-way / ostomy bag",
+     "asked": [
+      "อุปกรณ์ A–G เลือกสำหรับระบาย GI, ดู urine output, เก็บอุจจาระหลังผ่าตัด (78C เฉลยในไฟล์)"
+     ],
+     "pattern": [
+      "NG = GI decompression · 2-way Foley = urine output · ostomy bag = stool · JP/Redivac = closed suction drains"
+     ],
+     "flow": [
+      "อ่านวัตถุประสงค์ → เลือกตัวอักษร → ชื่ออุปกรณ์"
+     ],
+     "kw": [
+      "nasogastric tube",
+      "two-way Foley",
+      "ostomy bag",
+      "Jackson-Pratt",
+      "Redivac"
+     ],
+     "members": [
+      "MDCU78|RoC|12#1"
+     ]
     }
    ]
   },
@@ -471,7 +578,8 @@ SUMM.push({
       "ภาพ A (wafer / baseplate) + B (drainable pouch) → name + conditions + operation ของแต่ละภาวะ",
       "ostomy bag คู่ chest tube → name + use",
       "อุปกรณ์มี adhesive flange + pouch → name, ใช้ทำอะไร, ใช้หลังผ่าตัดอะไร",
-      "Hartmann: laparotomy · NG decompress · ostomy bag เก็บอุจจาระ (ICD เป็นตัวลวง) (79C)"
+      "Hartmann: laparotomy · NG decompress · ostomy bag เก็บอุจจาระ (ICD เป็นตัวลวง) (79C)",
+      "Hartmann's procedure: ชื่อผ่าตัด, stoma (colostomy), pouch (78A)"
      ],
      "flow": [
       "Name: ostomy (colostomy) appliance — skin barrier / wafer / flange + pouch (one-piece vs two-piece; drainable vs closed-end)",
@@ -504,7 +612,10 @@ SUMM.push({
       "MDCU67|RoD|8#1",
       "MDCU67|RoD|8#2",
       "MDCU66|RoD|3#1",
-      "MDCU79|RoC|12#1"
+      "MDCU79|RoC|12#1",
+      "MDCU78|RoA|26#1",
+      "MDCU78|RoA|26#2",
+      "MDCU78|RoA|26#3"
      ]
     },
     {

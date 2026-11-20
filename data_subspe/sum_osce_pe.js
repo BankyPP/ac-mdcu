@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "pe",
  "title": "Physical examination",
- "intro": "<ul><li>สถานี Physical examination (มี examiner) ออก <b>ทุก rotation ของ MDCU65–67</b> และมี 2 สถานีที่แทบไม่เคยหายไป: <b>DRE บนหุ่นต่อมลูกหมาก</b> (9 rotation) และ <b>breast examination บนหุ่น</b> (7 rotation)</li><li><b>DRE</b>: ทำตามลำดับ (consent + chaperone → left lateral → ดู perianal → tone → 360° → prostate → ดูถุงมือ) แล้วบรรยายต่อม 6 ลักษณะ → แยก <b>BPH (โตเรียบ rubbery)</b> vs <b>CA prostate (hard nodule)</b> → ส่งตรวจต่อ (PSA, mpMRI, biopsy / UA, IPSS, PVR) · ปีหนึ่งต่อด้วย painless gross hematuria work-up</li><li><b>Breast</b>: inspection 3–4 ท่า → palpation ทั้งเต้า + axillary tail + หัวนม → LN axilla 5 กลุ่ม + supraclavicular → บรรยายก้อน → triple assessment · ต่อยอดเป็น TNM จากผลพยาธิ (AJCC 8th) หรือ bloody nipple discharge</li><li>ที่เหลือ: <b>motor exam ระบุ muscle + root</b> (2 ปี) และ DTR, ตรวจท้อง (cholecystitis — Murphy, appendicitis — peritoneal signs), thyroid, Trendelenburg test, ก้อนใต้ผิวหนังที่แขน (lipoma + longitudinal incision)</li><li>เหตุตกที่เจอทุกสถานี: ไม่ขออนุญาต / ไม่มี chaperone (DRE, breast), ไม่คลำ LN supraclavicular, คลำก่อนฟังในการตรวจท้อง, บรรยายแค่ 'มีก้อน' โดยไม่ระบุตำแหน่ง / consistency</li><li>MDCU79 RoC: ตรวจท้องคนปวด RUQ + US gallstone, DRE ไม่มีอาจารย์ (บรรยายต่อม + Dx), คำนวณ GCS 2 แบบ, Babinski</li></ul>",
+ "intro": "<ul><li>สถานี Physical examination (มี examiner) ออก <b>ทุก rotation ของ MDCU65–67</b> และมี 2 สถานีที่แทบไม่เคยหายไป: <b>DRE บนหุ่นต่อมลูกหมาก</b> (9 rotation) และ <b>breast examination บนหุ่น</b> (7 rotation)</li><li><b>DRE</b>: ทำตามลำดับ (consent + chaperone → left lateral → ดู perianal → tone → 360° → prostate → ดูถุงมือ) แล้วบรรยายต่อม 6 ลักษณะ → แยก <b>BPH (โตเรียบ rubbery)</b> vs <b>CA prostate (hard nodule)</b> → ส่งตรวจต่อ (PSA, mpMRI, biopsy / UA, IPSS, PVR) · ปีหนึ่งต่อด้วย painless gross hematuria work-up</li><li><b>Breast</b>: inspection 3–4 ท่า → palpation ทั้งเต้า + axillary tail + หัวนม → LN axilla 5 กลุ่ม + supraclavicular → บรรยายก้อน → triple assessment · ต่อยอดเป็น TNM จากผลพยาธิ (AJCC 8th) หรือ bloody nipple discharge</li><li>ที่เหลือ: <b>motor exam ระบุ muscle + root</b> (2 ปี) และ DTR, ตรวจท้อง (cholecystitis — Murphy, appendicitis — peritoneal signs), thyroid, Trendelenburg test, ก้อนใต้ผิวหนังที่แขน (lipoma + longitudinal incision)</li><li>เหตุตกที่เจอทุกสถานี: ไม่ขออนุญาต / ไม่มี chaperone (DRE, breast), ไม่คลำ LN supraclavicular, คลำก่อนฟังในการตรวจท้อง, บรรยายแค่ 'มีก้อน' โดยไม่ระบุตำแหน่ง / consistency</li><li>MDCU79 RoC: ตรวจท้องคนปวด RUQ + US gallstone, DRE ไม่มีอาจารย์ (บรรยายต่อม + Dx), คำนวณ GCS 2 แบบ, Babinski</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: ตรวจท้อง (ureteric colic, appendicitis), ตรวจเต้านม + advice, DRE บนหุ่น (ต่อมแข็ง)</li></ul>",
  "groups": [
   {
    "title": "Prostate — digital rectal examination",
@@ -81,7 +81,9 @@ SUMM.push({
      "asked": [
       "Prostate model → describe the characteristics you palpate → most likely Dx",
       "72-year-old man LUTS → demonstrate DRE → describe → Dx",
-      "Manikin ชาย 70 ปี → describe → Dx → investigations next"
+      "Manikin ชาย 70 ปี → describe → Dx → investigations next",
+      "DRE หุ่น (ไม่มีอาจารย์) 70 ปีตรวจสุขภาพ: finding, Dx, Mx (78A)",
+      "หุ่น PR ต่อมแข็งทั่วและโต: describe + Dx (78C)"
      ],
      "flow": [
       "(ในคนจริง) consent + chaperone, left lateral, ถุงมือ + หล่อลื่น",
@@ -129,7 +131,12 @@ SUMM.push({
       "MDCU66|RoB|13#2",
       "MDCU66|RoB|13#3",
       "MDCU65|RoB|5#1",
-      "MDCU65|RoB|5#2"
+      "MDCU65|RoB|5#2",
+      "MDCU78|RoA|23#1",
+      "MDCU78|RoA|23#2",
+      "MDCU78|RoA|23#3",
+      "MDCU78|RoC|1#1",
+      "MDCU78|RoC|1#2"
      ]
     },
     {
@@ -227,7 +234,8 @@ SUMM.push({
       "Woman with breast pain → demonstrate breast exam exactly as on a real patient",
       "40-year-old woman left breast lump → demonstrate breast exam",
       "Examine the breast model → describe the mass (→ next steps)",
-      "Perform a complete breast examination → describe abnormality (→ ต่อด้วย TNM / triple assessment)"
+      "Perform a complete breast examination → describe abnormality (→ ต่อด้วย TNM / triple assessment)",
+      "ตรวจเต้านม + advice หญิง 45 ปี (78A)"
      ],
      "flow": [
       "แนะนำตัว ยืนยันผู้ป่วย อธิบาย ขออนุญาต · chaperone (ผู้ช่วยหญิง) · ล้างมือ · เปิดเผยถึงเอวทั้งสองข้าง ถามว่าเจ็บข้างไหน",
@@ -270,7 +278,9 @@ SUMM.push({
       "MDCU66|RoB|12#1",
       "MDCU66|RoD|7#1",
       "MDCU65|RoA|9#1",
-      "MDCU65|RoC|5#1"
+      "MDCU65|RoC|5#1",
+      "MDCU78|RoA|20#1",
+      "MDCU78|RoA|20#2"
      ]
     },
     {
@@ -586,7 +596,9 @@ SUMM.push({
      "id": "abd-appendicitis",
      "title": "Acute appendicitis — abdominal exam + peritoneal / special signs + PR",
      "asked": [
-      "Acute abdominal pain 1 วัน → abdominal examination relevant to complaint (ไม่ต้องซักประวัติ) → findings + provisional Dx"
+      "Acute abdominal pain 1 วัน → abdominal examination relevant to complaint (ไม่ต้องซักประวัติ) → findings + provisional Dx",
+      "ตรวจร่างกาย acute appendicitis (78B)",
+      "ตรวจท้องชายปวดท้องมีไข้ 6 ชม. พร้อมอธิบายเหตุผล (78C)"
      ],
      "flow": [
       "แนะนำตัว ขออนุญาต ล้างมือ ยืนทางขวาผู้ป่วย · นอนหงายหมอนใบเดียว แขนข้างลำตัว เปิดใต้ราวนมถึงขาหนีบ คลุมส่วนอื่น · ถามจุดเจ็บ",
@@ -631,7 +643,32 @@ SUMM.push({
      ],
      "members": [
       "MDCU65|RoA|2#1",
-      "MDCU65|RoA|2#2"
+      "MDCU65|RoA|2#2",
+      "MDCU78|RoB|20#1",
+      "MDCU78|RoC|3#1"
+     ]
+    },
+    {
+     "id": "abd-ureteric-colic",
+     "title": "ตรวจท้องผู้ป่วย distal ureteric colic",
+     "asked": [
+      "(มีอาจารย์) distal ureteric colic ตรวจท้อง (78A)"
+     ],
+     "pattern": [
+      "ดูท่าทาง (colic บิดตัว) · CVA tenderness · ตรวจขาหนีบ/อัณฑะ · แยก appendicitis/AAA"
+     ],
+     "flow": [
+      "เตรียม → ดู ฟัง เคาะ คลำ → CVA → ขาหนีบ/อัณฑะ → สรุป + UA/NCCT"
+     ],
+     "kw": [
+      "CVA tenderness",
+      "restless",
+      "groin and testes",
+      "AAA",
+      "NCCT KUB"
+     ],
+     "members": [
+      "MDCU78|RoA|19#1"
      ]
     }
    ]

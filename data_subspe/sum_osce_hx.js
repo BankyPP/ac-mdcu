@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "hx",
  "title": "History taking",
- "intro": "<ul><li>สถานี History taking (มี SP + examiner) ออก <b>ทุก rotation ของ MDCU65–67</b> — โจทย์สั้นมาก (อาการนำ 1 บรรทัด) แล้วให้ซักต่อ ตามด้วยข้อย่อยที่อาจารย์ถาม <b>provisional Dx ± DDx ± initial management</b></li><li>เรื่องที่วนซ้ำมากที่สุดคือ <b>ทางเดินน้ำดี</b>: acute cholangitis (ไข้ + ปวดท้องบน + เหลือง — 3 rotation), acute cholecystitis, painless obstructive jaundice (cholangiocarcinoma / periampullary) — ต้องถามสีปัสสาวะ / อุจจาระ / คัน, อาการ Reynolds, ปลาดิบ, ประวัตินิ่ว / ERCP ทุกครั้ง</li><li>รองลงมา: <b>hematemesis / UGIB</b> (3 rotation — คะแนนหลักอยู่ที่ยา NSAID / ยาผง / ยาชุด และโรคตับ), ปวดท้องเรื้อรังที่มี alarm features (CA stomach), ปวดท้องเฉียบพลันในหญิงวัยเจริญพันธุ์ (ต้องถาม LMP / ตั้งครรภ์)</li><li>นอกช่องท้อง: <b>vascular</b> (varicose veins, intermittent claudication — MDCU65), <b>breast cancer screening + advice</b>, <b>counselling แม่เรื่อง physiologic phimosis</b></li><li>โครงที่ได้คะแนนเสมอ: แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต → CC → PI (SOCRATES / OPQRST) → อาการร่วม + red flags → แยกโรคระบบอื่น → PMH / ยา / สุรา / บุหรี่ / FH → สรุปให้ผู้ป่วยฟัง ถามว่ามีอะไรเพิ่ม ขอบคุณ</li><li>MDCU79 RoC (OSCE 7): ซักประวัติก้อนเต้านมหญิง 20 ปี + แนะนำการตรวจต่อ</li></ul>",
+ "intro": "<ul><li>สถานี History taking (มี SP + examiner) ออก <b>ทุก rotation ของ MDCU65–67</b> — โจทย์สั้นมาก (อาการนำ 1 บรรทัด) แล้วให้ซักต่อ ตามด้วยข้อย่อยที่อาจารย์ถาม <b>provisional Dx ± DDx ± initial management</b></li><li>เรื่องที่วนซ้ำมากที่สุดคือ <b>ทางเดินน้ำดี</b>: acute cholangitis (ไข้ + ปวดท้องบน + เหลือง — 3 rotation), acute cholecystitis, painless obstructive jaundice (cholangiocarcinoma / periampullary) — ต้องถามสีปัสสาวะ / อุจจาระ / คัน, อาการ Reynolds, ปลาดิบ, ประวัตินิ่ว / ERCP ทุกครั้ง</li><li>รองลงมา: <b>hematemesis / UGIB</b> (3 rotation — คะแนนหลักอยู่ที่ยา NSAID / ยาผง / ยาชุด และโรคตับ), ปวดท้องเรื้อรังที่มี alarm features (CA stomach), ปวดท้องเฉียบพลันในหญิงวัยเจริญพันธุ์ (ต้องถาม LMP / ตั้งครรภ์)</li><li>นอกช่องท้อง: <b>vascular</b> (varicose veins, intermittent claudication — MDCU65), <b>breast cancer screening + advice</b>, <b>counselling แม่เรื่อง physiologic phimosis</b></li><li>โครงที่ได้คะแนนเสมอ: แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต → CC → PI (SOCRATES / OPQRST) → อาการร่วม + red flags → แยกโรคระบบอื่น → PMH / ยา / สุรา / บุหรี่ / FH → สรุปให้ผู้ป่วยฟัง ถามว่ามีอะไรเพิ่ม ขอบคุณ</li><li>MDCU79 RoC (OSCE 7): ซักประวัติก้อนเต้านมหญิง 20 ปี + แนะนำการตรวจต่อ</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: ซักประวัติก้อนเต้านม (78B, 78C)</li></ul>",
  "groups": [
   {
    "title": "Hepatobiliary — fever, RUQ pain, jaundice",
@@ -490,6 +490,35 @@ SUMM.push({
      "flow": [
       "ผู้ป่วยจำลองหญิง 20 ปีคลำพบก้อนเต้านม → ซักประวัติ (มีอาจารย์ดู)",
       "จบด้วยให้แนะนำว่าต้องทำอะไรต่อ"
+     ]
+    },
+    {
+     "id": "hx-breast-mass-older",
+     "title": "Breast mass หญิงวัยกลางคน — ซักประวัติ focused + DDx มะเร็ง",
+     "trend": "ออกทั้ง 78B และ 78C",
+     "asked": [
+      "ซักประวัติหญิงคลำได้ก้อนเต้านม (78B)",
+      "ซักประวัติก้อนเต้านม 3 เดือน (78C)"
+     ],
+     "pattern": [
+      "ก้อน (ระยะเวลา ขนาด เจ็บ รอบเดือน) · nipple/skin/axilla · metastasis symptoms · risk factors (ครอบครัว/BRCA, menarche, parity, ฮอร์โมน, alcohol, radiation) · สรุป + triple assessment"
+     ],
+     "flow": [
+      "แนะนำตัว → CC/ลักษณะก้อน → อาการเฉพาะที่ → อาการแพร่กระจาย → risk factors → PMH/ยา → สรุป + DDx"
+     ],
+     "kw": [
+      "duration",
+      "nipple discharge",
+      "axillary lump",
+      "family history",
+      "BRCA",
+      "weight loss",
+      "bone pain",
+      "triple assessment"
+     ],
+     "members": [
+      "MDCU78|RoB|18#1",
+      "MDCU78|RoC|5#1"
      ]
     }
    ]

@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "CVT",
  "title": "Cardiothoracic surgery",
- "intro": "<ul><li>MDCU79 RoC 7 ข้อย่อย: <b>adult cardiac</b> (CABG conduit LIMA → LAD, aortic stenosis, left atrial myxoma), <b>congenital</b> (TOF ที่ PGE1 ล้มเหลว → BT shunt), <b>thoracic</b> (thymoma + MG, cavitary TB) และ <b>critical care</b> (VV vs VA ECMO)</li><li>ส่วนใหญ่ถาม <b>Dx จากอาการและการตรวจร่างกาย</b> (murmur, ptosis ตอนเย็น, murmur เปลี่ยนตามท่า) และ <b>เลือก procedure / support ให้ตรงพยาธิสรีรวิทยา</b></li><li>หลายเคสเป็น recall สั้นช้อยเดียว Claude แต่ง stem (⚠) — ตัวลวงเป็นโรคข้างเคียงที่ต้องแยกด้วยคำสำคัญคำเดียว</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: AR signs (ถามแบบ NOT), TAVR อายุ 95, CABG conduit, CHD (VSD, BT shunt), IE prophylaxis, esophageal perforation, lung nodule, empyema, tension pneumothorax</li></ul>",
+ "intro": "<ul><li>MDCU79 RoC 7 ข้อย่อย: <b>adult cardiac</b> (CABG conduit LIMA → LAD, aortic stenosis, left atrial myxoma), <b>congenital</b> (TOF ที่ PGE1 ล้มเหลว → BT shunt), <b>thoracic</b> (thymoma + MG, cavitary TB) และ <b>critical care</b> (VV vs VA ECMO)</li><li>ส่วนใหญ่ถาม <b>Dx จากอาการและการตรวจร่างกาย</b> (murmur, ptosis ตอนเย็น, murmur เปลี่ยนตามท่า) และ <b>เลือก procedure / support ให้ตรงพยาธิสรีรวิทยา</b></li><li>หลายเคสเป็น recall สั้นช้อยเดียว Claude แต่ง stem (⚠) — ตัวลวงเป็นโรคข้างเคียงที่ต้องแยกด้วยคำสำคัญคำเดียว</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: AR signs (ถามแบบ NOT), TAVR อายุ 95, CABG conduit, CHD (VSD, BT shunt), IE prophylaxis, esophageal perforation, lung nodule, empyema, tension pneumothorax</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: massive hemoptysis, coronary territory/branches, TGA, valve choice (PVE, ผู้หญิงอยากมีลูก, INR mechanical MVR), dissection type B, mediastinal mass, cardioplegia</li></ul>",
  "groups": [
   {
    "title": "Adult cardiac surgery",
@@ -12,7 +12,8 @@ SUMM.push({
      "asked": [
       "ชาย 72 ปี เจ็บอก เหนื่อย syncope ขณะขึ้นบันได harsh crescendo-decrescendo murmur RUSB ร้าว carotid, S2 เบา → Dx (ตัวลวง HOCM, MR, VSD, AR)",
       "Sign ที่ไม่ใช่ของ AR → pulsus parvus et tardus (= AS) (79D)",
-      "อายุ 95 symptomatic severe AS → TAVR (79D)"
+      "อายุ 95 symptomatic severe AS → TAVR (79D)",
+      "Chest pain + dyspnea + syncope → aortic stenosis (78B)"
      ],
      "pattern": [
       "Triad: angina, exertional syncope, dyspnea / HF — มีอาการแล้วพยากรณ์แย่ลงชัด",
@@ -31,7 +32,8 @@ SUMM.push({
      "members": [
       "MDCU79|RoC|CVT 3",
       "MDCU79|RoD|CVT 1",
-      "MDCU79|RoD|CVT 9"
+      "MDCU79|RoD|CVT 9",
+      "MDCU78|RoB|56"
      ]
     },
     {
@@ -78,6 +80,82 @@ SUMM.push({
      "members": [
       "MDCU79|RoC|CVT 7"
      ]
+    },
+    {
+     "id": "coronary-territory",
+     "title": "Coronary territory และแขนง: LAD → anterior septum + apex · LAD–diagonal, LCx–OM, RCA–PDA/PL",
+     "asked": [
+      "Angiogram LAD ตีบ → echo hypokinesia ตรงไหน (78A คีย์ C anterior septum + apex)",
+      "จับคู่ coronary artery กับ branch (78D)"
+     ],
+     "pattern": [
+      "LAD: anterior wall, anterior 2/3 septum, apex · LCx: lateral · RCA: inferior, posterior septum, RV",
+      "Acute marginal = RCA · obtuse marginal = LCx · diagonal = LAD"
+     ],
+     "members": [
+      "MDCU78|RoA|5",
+      "MDCU78|RoD|41"
+     ]
+    },
+    {
+     "id": "valve-choice",
+     "title": "เลือกลิ้นหัวใจ: PVE ต้อง redo replacement · หญิงอยากตั้งครรภ์ → bioprosthesis · mechanical MVR INR 2.5–3.5",
+     "asked": [
+      "Mechanical MVR 30 ปี เกิด prosthetic valve endocarditis → ลิ้นชนิดใด (78A คีย์ bileaflet)",
+      "หญิง 38 severe MS อยากมีลูก → bioprosthetic เพราะเลี่ยง anticoagulant (78D)",
+      "Warfarin + MVR INR 2.3 → เพิ่ม warfarin ให้ถึงเป้า (78B)"
+     ],
+     "pattern": [
+      "Mechanical: ทนนาน ต้อง warfarin ตลอด (MVR INR 3.0, AVR 2.5) · Bioprosthetic: &gt;65 ปี หรือหญิงที่จะตั้งครรภ์ · DOAC ห้ามใน mechanical valve",
+      "Caged-ball valve เลิกใช้แล้ว"
+     ],
+     "members": [
+      "MDCU78|RoA|11",
+      "MDCU78|RoD|44",
+      "MDCU78|RoB|57"
+     ]
+    },
+    {
+     "id": "antiplatelet-cabg",
+     "title": "Aspirin ก่อน CABG: irreversible COX inhibition (→ ลด TXA2)",
+     "asked": [
+      "ยา antiplatelet ก่อน CABG กลไก (78B คีย์ B&gt;A: COX &gt; TXA2)"
+     ],
+     "pattern": [
+      "Aspirin คงไว้ก่อน CABG · หยุด clopidogrel/ticagrelor 5 วัน, prasugrel 7 วัน"
+     ],
+     "members": [
+      "MDCU78|RoB|13"
+     ]
+    },
+    {
+     "id": "aortic-dissection",
+     "title": "Aortic dissection: uncomplicated type B → IV beta-blocker · type A → ผ่าตัด · PE ไม่ใช่สาเหตุตาย",
+     "asked": [
+      "Tearing chest pain ร้าวหลัง stable ไม่มี malperfusion → initial management (78B คีย์ B beta-blocker; รูปในไฟล์เป็น type A)",
+      "สาเหตุตายที่ไม่ใช่ของ dissection (78B: PE)"
+     ],
+     "pattern": [
+      "Anti-impulse: HR &lt;60, SBP 100–120 (beta-blocker ก่อน vasodilator) · complicated B → TEVAR · type A → emergency surgery",
+      "Complication: rupture/tamponade, AR, MI (RCA), stroke, mesenteric/renal/limb ischemia"
+     ],
+     "members": [
+      "MDCU78|RoB|14",
+      "MDCU78|RoB|15"
+     ]
+    },
+    {
+     "id": "cardioplegia",
+     "title": "Cardioplegia: high K⁺ → depolarized diastolic arrest + hypothermia",
+     "asked": [
+      "cardioplegia action (78B จดสั้น)"
+     ],
+     "pattern": [
+      "K⁺ สูงทำให้ membrane depolarized → Na channel inactivated → หยุดใน diastole · ให้ antegrade/retrograde"
+     ],
+     "members": [
+      "MDCU78|RoB|61"
+     ]
     }
    ]
   },
@@ -110,13 +188,15 @@ SUMM.push({
      "id": "vsd-cvt",
      "title": "VSD: holosystolic murmur LLSB",
      "asked": [
-      "ไม่เขียวแต่เหนื่อย holosystolic LLSB → Dx"
+      "ไม่เขียวแต่เหนื่อย holosystolic LLSB → Dx",
+      "ทารก 2 เดือน heart failure + holosystolic LLSB (78B แต่งจากช้อย VSD/ASD)"
      ],
      "pattern": [
       "VSD LLSB pansystolic · ASD fixed split S2 · PDA machinery · Eisenmenger ห้ามปิด"
      ],
      "members": [
-      "MDCU79|RoD|CVT 5"
+      "MDCU79|RoD|CVT 5",
+      "MDCU78|RoB|45"
      ]
     },
     {
@@ -134,6 +214,35 @@ SUMM.push({
      "members": [
       "MDCU79|RoD|CVT 7"
      ]
+    },
+    {
+     "id": "tga",
+     "title": "TGA: เขียวมากแรกเกิด ไม่หอบ, single loud S2, egg on a string",
+     "asked": [
+      "ทารก 2 ชม. เขียวไม่หอบ + CXR → Dx (78A คีย์: egg on string)",
+      "กินแล้วเขียว + single S2 + CXR (78B)"
+     ],
+     "pattern": [
+      "PGE1 → balloon atrial septostomy → arterial switch ภายใน 2–3 สัปดาห์",
+      "ร้องไห้แล้วหายเขียว = choanal atresia (ไม่ใช่ TGA)"
+     ],
+     "members": [
+      "MDCU78|RoA|10",
+      "MDCU78|RoB|44"
+     ]
+    },
+    {
+     "id": "asd-murmur",
+     "title": "ASD: ejection murmur upper sternal border + fixed split S2",
+     "asked": [
+      "เด็ก 2 เดือน crescendo–decrescendo murmur เบา ๆ upper sternal border → ASD (78D)"
+     ],
+     "pattern": [
+      "Murmur ของ ASD = pulmonary flow murmur ไม่ใช่เลือดผ่านรู · VSD = holosystolic LLSB · PDA = continuous"
+     ],
+     "members": [
+      "MDCU78|RoD|43"
+     ]
     }
    ]
   },
@@ -144,7 +253,8 @@ SUMM.push({
      "id": "thymoma-mg",
      "title": "Thymoma + myasthenia gravis",
      "asked": [
-      "หญิง 45 ปี ptosis + diplopia แย่ลงตอนเย็น + anterior mediastinal mass → tumor"
+      "หญิง 45 ปี ptosis + diplopia แย่ลงตอนเย็น + anterior mediastinal mass → tumor",
+      "Ptosis + diplopia ดีขึ้นเมื่อพัก + CXR anterior mass → thymoma (78B)"
      ],
      "pattern": [
       "MG + anterior mediastinal mass = <b>thymoma</b> จนกว่าจะพิสูจน์ว่าไม่ใช่",
@@ -156,7 +266,8 @@ SUMM.push({
       "ห้าม percutaneous biopsy ถ้า CT เข้ากับ thymoma ที่ผ่าออกได้"
      ],
      "members": [
-      "MDCU79|RoC|CVT 4"
+      "MDCU79|RoC|CVT 4",
+      "MDCU78|RoB|12"
      ]
     },
     {
@@ -195,27 +306,59 @@ SUMM.push({
      "title": "Lung nodule: CT ก่อน · ก้อนไม่ตอบยา TB ขอบแย่ลง → ผ่าตัด",
      "asked": [
       "CXR เจอ nodule → investigation ต่อ (CT chest + upper abdomen)",
-      "ก้อน 2–3 cm IGRA บวก ให้ยา TB 3 เดือน ขอบ irregular ขึ้น → surgical removal"
+      "ก้อน 2–3 cm IGRA บวก ให้ยา TB 3 เดือน ขอบ irregular ขึ้น → surgical removal",
+      "CXR เจอก้อนที่ apex → CT chest with contrast (78B)",
+      "สูบบุหรี่ spiculated 3.5 cm staging ปกติ → lobectomy (78D)"
      ],
      "pattern": [
       "Nodule บน CXR → CT · high-risk (ใหญ่, spiculated, upper lobe) → tissue/resection · IGRA บวก = เคยติดเชื้อ ไม่ยืนยันว่าก้อนเป็น TB"
      ],
      "members": [
       "MDCU79|RoD|CVT 4",
-      "MDCU79|RoD|CVT 11"
+      "MDCU79|RoD|CVT 11",
+      "MDCU78|RoB|53",
+      "MDCU78|RoD|42"
      ]
     },
     {
      "id": "empyema",
      "title": "Empyema pH 6.9 → ICD + IV antibiotics",
      "asked": [
-      "Fluid empyema pH 6.9 → definitive management"
+      "Fluid empyema pH 6.9 → definitive management",
+      "Pleural fluid glucose 30, LDH 1200, pH ต่ำ → chest tube (78B)"
      ],
      "pattern": [
       "หนอง/pH &lt;7.2/glucose &lt;60 → chest tube + ATB · loculated → tPA + DNase/VATS · organized peel → decortication"
      ],
      "members": [
-      "MDCU79|RoD|CVT 10"
+      "MDCU79|RoD|CVT 10",
+      "MDCU78|RoB|10"
+     ]
+    },
+    {
+     "id": "massive-hemoptysis",
+     "title": "Massive hemoptysis หลัง TB → protect airway + O2 ก่อน",
+     "asked": [
+      "ไอเป็นเลือดมากหลังรักษา TB, V/S stable → appropriate management (78A)"
+     ],
+     "pattern": [
+      "ผู้ป่วยตายจาก asphyxia → airway (bleeding side down, large ET tube) → localize (CTA, bronchoscopy) → bronchial artery embolization → surgery ถ้าล้มเหลว"
+     ],
+     "members": [
+      "MDCU78|RoA|4"
+     ]
+    },
+    {
+     "id": "mediastinal-mass",
+     "title": "Mediastinal mass ตามตำแหน่ง: posterior = neurogenic tumor",
+     "asked": [
+      "Lateral CXR ก้อนติดกระดูกสันหลัง → neurogenic tumor (78B)"
+     ],
+     "pattern": [
+      "Anterior: thymoma, teratoma, thyroid, lymphoma · Middle: bronchogenic/pericardial cyst, nodes · Posterior: neurogenic (MRI ดู dumbbell)"
+     ],
+     "members": [
+      "MDCU78|RoB|11"
      ]
     }
    ]
@@ -227,7 +370,8 @@ SUMM.push({
      "id": "vv-ecmo",
      "title": "Severe ARDS refractory หัวใจดี → VV ECMO",
      "asked": [
-      "ARDS P/F 60 แม้ lung-protective ventilation + high PEEP + NMB + prone, echo ปกติ ไม่มี shock → support เพิ่ม (ตัวลวง VA ECMO, IABP)"
+      "ARDS P/F 60 แม้ lung-protective ventilation + high PEEP + NMB + prone, echo ปกติ ไม่มี shock → support เพิ่ม (ตัวลวง VA ECMO, IABP)",
+      "Severe ARDS จาก influenza refractory → VV-ECMO (78A คีย์: VA support ทั้งปอดและหัวใจ vs VV แค่ปอด)"
      ],
      "pattern": [
       "<b>VV ECMO</b> = แทนปอดอย่างเดียว ต้องหัวใจดี; <b>VA ECMO</b> = หัวใจ ± ปอด (cardiogenic shock, ECPR)",
@@ -240,7 +384,8 @@ SUMM.push({
       "เลือกชนิด ECMO ผิด — หัวใจดีใช้ VV"
      ],
      "members": [
-      "MDCU79|RoC|CVT 5"
+      "MDCU79|RoC|CVT 5",
+      "MDCU78|RoA|12"
      ]
     }
    ]
@@ -252,13 +397,15 @@ SUMM.push({
      "id": "tension-ptx-cvt",
      "title": "Tension pneumothorax → needle decompression",
      "asked": [
-      "Trauma BP 80/70 trachea shift hyperresonance → next"
+      "Trauma BP 80/70 trachea shift hyperresonance → next",
+      "อุบัติเหตุรถยนต์ + CXR + tachycardia → thoracostomy (78B)"
      ],
      "pattern": [
       "ไม่รอ CXR · needle/finger decompression → ICD · PPV ก่อน decompress ทำให้แย่ลง"
      ],
      "members": [
-      "MDCU79|RoD|CVT 8"
+      "MDCU79|RoD|CVT 8",
+      "MDCU78|RoB|51"
      ]
     }
    ]

@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "Neuro",
  "title": "Neurosurgery",
- "intro": "<ul><li>MDCU79 RoC 10 ข้อย่อย: <b>ICH</b> (lobar ICH ในคนหนุ่ม = AVM, คำนวณ ABC/2), <b>brain tumor</b> (vasogenic edema → steroid, เทคนิครังสีที่แม่นที่สุด, hemostasis ระหว่างผ่าตัด), <b>CNS infection</b> (brain abscess, meningococcal meningitis, neurosyphilis) และ <b>congenital</b> (frontoethmoidal encephalocele, hydrocephalus)</li><li>รูปแบบ: ภาพ CT / รูปถ่าย → Dx หรือ management, คำนวณตัวเลข, จับคู่ยา + เหตุผล</li><li>หลายเคสเป็น recall ที่ไม่ครบ (⚠) โดยเฉพาะ ABC/2 ที่ตัวเลขในช้อยไม่ตรงต้นฉบับ — จำสูตรและหลักการไว้</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: ภาพ CT/MRI เกือบทุกข้อ — toxoplasmosis, medulloblastoma, acromegaly, brain mets, chronic SDH, CVT, SAH → CTA, brain abscess imaging/เชื้อ, ICH ใหญ่, pineal, GCS</li></ul>",
+ "intro": "<ul><li>MDCU79 RoC 10 ข้อย่อย: <b>ICH</b> (lobar ICH ในคนหนุ่ม = AVM, คำนวณ ABC/2), <b>brain tumor</b> (vasogenic edema → steroid, เทคนิครังสีที่แม่นที่สุด, hemostasis ระหว่างผ่าตัด), <b>CNS infection</b> (brain abscess, meningococcal meningitis, neurosyphilis) และ <b>congenital</b> (frontoethmoidal encephalocele, hydrocephalus)</li><li>รูปแบบ: ภาพ CT / รูปถ่าย → Dx หรือ management, คำนวณตัวเลข, จับคู่ยา + เหตุผล</li><li>หลายเคสเป็น recall ที่ไม่ครบ (⚠) โดยเฉพาะ ABC/2 ที่ตัวเลขในช้อยไม่ตรงต้นฉบับ — จำสูตรและหลักการไว้</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: ภาพ CT/MRI เกือบทุกข้อ — toxoplasmosis, medulloblastoma, acromegaly, brain mets, chronic SDH, CVT, SAH → CTA, brain abscess imaging/เชื้อ, ICH ใหญ่, pineal, GCS</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: NPH, prolactinoma, low-grade glioma, ICH (BP vs ICP), CPA tumor, EDH, Kernohan, SDH, meningioma, cryptococcal meningitis, SAH (LP/xanthochromia), neurocysticercosis</li></ul>",
  "groups": [
   {
    "title": "Intracerebral hemorrhage",
@@ -89,6 +89,36 @@ SUMM.push({
      "members": [
       "MDCU79|RoD|Neuro 11"
      ]
+    },
+    {
+     "id": "ich-bp-icp",
+     "title": "Hypertensive ICH: เล็กไม่มี shift → ลด BP (SBP ~140) · ใหญ่ + shift → ลด ICP (mannitol) + consult",
+     "asked": [
+      "BP 220/150 basal ganglia ICH ไม่มี shift → BP reduction (78C)",
+      "BP 220/150 ICH ใหญ่ + midline shift → IV mannitol (78C คีย์ B)"
+     ],
+     "pattern": [
+      "AHA 2022: SBP เป้า 140 (หลีกเลี่ยง &lt;130) · herniation signs → mannitol/hypertonic saline + neurosurgery"
+     ],
+     "members": [
+      "MDCU78|RoC|2",
+      "MDCU78|RoC|3"
+     ]
+    },
+    {
+     "id": "sah-lp",
+     "title": "Thunderclap headache CT ปกติ → LP (xanthochromia คงอยู่ ~2 สัปดาห์)",
+     "asked": [
+      "ชาย 80 ปวดหัวมาก CT ปกติ → LP (78D)",
+      "Xanthochromia persist กี่วัน (78B)"
+     ],
+     "pattern": [
+      "CT ≤6 ชม. ไวเกือบ 100% · หลังจากนั้น LP ≥12 ชม. หา xanthochromia (อยู่ได้ ~2 สัปดาห์)"
+     ],
+     "members": [
+      "MDCU78|RoD|24",
+      "MDCU78|RoB|62"
+     ]
     }
    ]
   },
@@ -140,7 +170,8 @@ SUMM.push({
      "id": "neuro-hemostasis",
      "title": "ห้ามเลือดผิวสมองใกล้ eloquent cortex โดยไม่ใช้ความร้อน",
      "asked": [
-      "Oozing จากผิวสมองข้าง eloquent cortex ระหว่างผ่าตัด tumor → วิธีห้ามเลือดที่ไม่มี thermal injury (ตัวลวง bipolar, monopolar, argon, bone wax)"
+      "Oozing จากผิวสมองข้าง eloquent cortex ระหว่างผ่าตัด tumor → วิธีห้ามเลือดที่ไม่มี thermal injury (ตัวลวง bipolar, monopolar, argon, bone wax)",
+      "Neurosurgery OR ห้ามเลือดด้วยอะไร → bipolar cautery (78A)"
      ],
      "pattern": [
       "<b>Topical hemostatic agent</b> (gelatin sponge / Gelfoam, Surgicel, Floseal) + cottonoid + กดเบา ๆ + irrigation",
@@ -153,20 +184,23 @@ SUMM.push({
       "ถ้าข้อสอบจริงถามวิธีจี้ที่ thermal spread น้อยที่สุด คำตอบจะเป็น bipolar — คำตอบ bank อิงคำว่า without thermal injury"
      ],
      "members": [
-      "MDCU79|RoC|neuro 2"
+      "MDCU79|RoC|neuro 2",
+      "MDCU78|RoA|7"
      ]
     },
     {
      "id": "brain-mets-79",
      "title": "Brain metastases จาก breast cancer (MRI หลายก้อน)",
      "asked": [
-      "Breast CA on chemo + neuro deficit + ICP สูง + imaging → finding"
+      "Breast CA on chemo + neuro deficit + ICP สูง + imaging → finding",
+      "Multiple ring-enhancing → primary ที่ least likely = HCC/liver (78D)"
      ],
      "pattern": [
       "Mets: lung &gt; breast &gt; melanoma · gray-white junction · dexamethasone + SRS/WBRT · paraneoplastic cerebellar degeneration MRI ปกติ"
      ],
      "members": [
-      "MDCU79|RoD|Neuro 4"
+      "MDCU79|RoD|Neuro 4",
+      "MDCU78|RoD|21"
      ]
     },
     {
@@ -174,7 +208,8 @@ SUMM.push({
      "title": "Medulloblastoma (fourth ventricle) และ pineal tumor (Parinaud)",
      "asked": [
       "เด็ก 7 ปี ก้อน fourth ventricle truncal ataxia → medulloblastoma",
-      "Upward gaze palsy + light-near dissociation → pineal gland tumor"
+      "Upward gaze palsy + light-near dissociation → pineal gland tumor",
+      "Pineal germ cell tumor (78B มีแค่ช้อย)"
      ],
      "pattern": [
       "Medulloblastoma: vermis, drop mets → MRI spine · pilocytic: hemisphere cyst + nodule · ependymoma: 4th ventricle floor",
@@ -182,7 +217,8 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoD|Neuro 2",
-      "MDCU79|RoD|Neuro 10"
+      "MDCU79|RoD|Neuro 10",
+      "MDCU78|RoB|46"
      ]
     },
     {
@@ -210,6 +246,62 @@ SUMM.push({
      "members": [
       "MDCU79|RoD|Neuro ไม่มีเลข 1"
      ]
+    },
+    {
+     "id": "nph",
+     "title": "Normal pressure hydrocephalus: gait + incontinence + dementia",
+     "asked": [
+      "ผู้สูงอายุเดินผิดปกติ ปัสสาวะราด หลงลืม + MRI → NPH (78A)"
+     ],
+     "pattern": [
+      "CSF tap test ทำนายผล · VP shunt"
+     ],
+     "members": [
+      "MDCU78|RoA|3"
+     ]
+    },
+    {
+     "id": "prolactinoma",
+     "title": "Prolactinoma: amenorrhea–galactorrhea → dopamine agonist",
+     "asked": [
+      "Amenorrhea + galactorrhea → pituitary tumor (78A)",
+      "Galactorrhea amenorrhea treatment → dopamine agonist (78B)"
+     ],
+     "pattern": [
+      "Cabergoline first-line แม้ macroadenoma · ตัด pregnancy, ยา, hypothyroid ก่อน"
+     ],
+     "members": [
+      "MDCU78|RoA|8",
+      "MDCU78|RoB|55"
+     ]
+    },
+    {
+     "id": "lgg",
+     "title": "Low-grade (grade 2) glioma → maximal safe resection",
+     "asked": [
+      "Grade II glioma treatment (78A คีย์: maximal safe resection)"
+     ],
+     "pattern": [
+      "High-risk หลังผ่าตัด → RT + PCV/TMZ"
+     ],
+     "members": [
+      "MDCU78|RoA|9"
+     ]
+    },
+    {
+     "id": "cpa-meningioma",
+     "title": "CPA tumor (vestibular schwannoma) และ convexity meningioma",
+     "asked": [
+      "Facial numbness V2 + hearing loss + tinnitus ข้างเดียว → vestibular schwannoma (78B)",
+      "อ่อนแรงซีกซ้ายค่อยเป็น 15 เดือน + papilledema → convexity meningioma (78B)"
+     ],
+     "pattern": [
+      "Vestibular schwannoma โต → กด CN V ก่อน CN VII · meningioma: dural tail, slow-growing"
+     ],
+     "members": [
+      "MDCU78|RoB|38",
+      "MDCU78|RoB|54"
+     ]
     }
    ]
   },
@@ -222,7 +314,8 @@ SUMM.push({
      "asked": [
       "ไข้ ปวดหัว อ่อนแรงซีกขวา 2 สัปดาห์ CT ring-enhancing ผนังบาง 4 cm → management (ตัวลวง IV ATB อย่างเดียว, observe, WBRT)",
       "หลังผ่าตัด skull fracture ไข้ ปวดหัว สงสัย abscess → CT with contrast (79D)",
-      "เชื้อที่พบบ่อยใน brain abscess → S. aureus + Streptococcus (79D)"
+      "เชื้อที่พบบ่อยใน brain abscess → S. aureus + Streptococcus (79D)",
+      "Brain abscess investigation → MRI + DWI; ห้าม LP (78B)"
      ],
      "pattern": [
       "Ring-enhancing ผนังบางเรียบ + edema + ไข้; MRI DWI restricted ตรงกลาง แยกจาก necrotic tumor",
@@ -239,7 +332,8 @@ SUMM.push({
      "members": [
       "MDCU79|RoC|neuro 1",
       "MDCU79|RoD|Neuro 8",
-      "MDCU79|RoD|Neuro 14"
+      "MDCU79|RoD|Neuro 14",
+      "MDCU78|RoB|48"
      ]
     },
     {
@@ -293,6 +387,32 @@ SUMM.push({
      "members": [
       "MDCU79|RoD|Neuro 1"
      ]
+    },
+    {
+     "id": "crypto-meningitis",
+     "title": "HIV CD4 ต่ำ + ไข้ปวดหัว ไม่มี focal deficit → cryptococcal meningitis",
+     "asked": [
+      "ชายวัยรุ่น CD4 &lt;200 ไข้ ปวดหัว → เชื้ออะไร (78D)"
+     ],
+     "pattern": [
+      "CrAg, opening pressure สูง → amphotericin + flucytosine, therapeutic LP · toxo = focal + ring lesions"
+     ],
+     "members": [
+      "MDCU78|RoD|23"
+     ]
+    },
+    {
+     "id": "ncc",
+     "title": "Neurocysticercosis: multiple cyst with scolex ในวัยรุ่นชัก",
+     "asked": [
+      "CT brain multiple lesion อายุ 14 → cysticercosis (78C)"
+     ],
+     "pattern": [
+      "Cyst with dot · albendazole + steroid + AED"
+     ],
+     "members": [
+      "MDCU78|RoC|5"
+     ]
     }
    ]
   },
@@ -303,7 +423,8 @@ SUMM.push({
      "id": "frontoethmoidal-encephalocele",
      "title": "Frontoethmoidal encephalocele: failure of closure ที่ nasoethmoidal",
      "asked": [
-      "ทารก 6 เดือนก้อนที่ nasal root ตั้งแต่เกิด โตเวลาร้อง (ภาพ) → กลไกความผิดปกติ (ตัวลวง neural tube migration, vascular proliferation, nasal–maxillary fusion, craniosynostosis)"
+      "ทารก 6 เดือนก้อนที่ nasal root ตั้งแต่เกิด โตเวลาร้อง (ภาพ) → กลไกความผิดปกติ (ตัวลวง neural tube migration, vascular proliferation, nasal–maxillary fusion, craniosynostosis)",
+      "ทารกก้อนใหญ่สันจมูก (รูปนี้เป๊ะ ๆ) → defect ที่ nasoethmoid (78B)"
      ],
      "pattern": [
       "ก้อน nasal root + hypertelorism + <b>Furstenberg sign +</b> (โตเวลาร้อง) = frontoethmoidal (sincipital) encephalocele — พบบ่อยในไทย / เอเชียตะวันออกเฉียงใต้",
@@ -315,7 +436,8 @@ SUMM.push({
       "รูปในต้นฉบับไม่ใช่รูปจริงและ stem แต่งเพิ่ม — คำตอบตรงกับช่องเฉลยของผู้จด"
      ],
      "members": [
-      "MDCU79|RoC|Plastic 1"
+      "MDCU79|RoC|Plastic 1",
+      "MDCU78|RoB|9"
      ]
     },
     {
@@ -338,6 +460,32 @@ SUMM.push({
       "MDCU79|RoC|Ped 5",
       "MDCU79|RoD|Neuro 12"
      ]
+    },
+    {
+     "id": "sws",
+     "title": "Port-wine stain + seizure → Sturge–Weber",
+     "asked": [
+      "รูปปานแดงที่หน้า → Sturge–Weber (78B)"
+     ],
+     "pattern": [
+      "GNAQ, V1 port-wine stain + leptomeningeal angioma + glaucoma"
+     ],
+     "members": [
+      "MDCU78|RoB|42"
+     ]
+    },
+    {
+     "id": "crouzon-icp",
+     "title": "Crouzon: ICP สูงต้องแก้เร่งด่วน",
+     "asked": [
+      "รูป Crouzon อะไรเร่งด่วนสุด: keratitis vs increased ICP (78D)"
+     ],
+     "pattern": [
+      "Priority: airway → ICP → eye protection · Crouzon มือปกติ (Apert = syndactyly)"
+     ],
+     "members": [
+      "MDCU78|RoD|65"
+     ]
     }
    ]
   },
@@ -348,20 +496,24 @@ SUMM.push({
      "id": "csdh-neuro",
      "title": "Chronic SDH",
      "asked": [
-      "ล้ม 3 สัปดาห์ GCS drop + CT bilateral hypodense crescent → Dx"
+      "ล้ม 3 สัปดาห์ GCS drop + CT bilateral hypodense crescent → Dx",
+      "CT crescent ซ้าย + shift → left SDH (78D: ระวังอ่านข้างผิด)"
      ],
      "pattern": [
       "Chronic hypodense · burr hole + drain · MMA embolization ลด recurrence"
      ],
      "members": [
-      "MDCU79|RoD|Neuro 5"
+      "MDCU79|RoD|Neuro 5",
+      "MDCU78|RoD|22"
      ]
     },
     {
      "id": "gcs-neuro",
      "title": "GCS: V3 inappropriate words vs V2 sounds",
      "asked": [
-      "Eye to pain, พูดเป็นคำไม่เข้าเรื่อง, withdraw → GCS"
+      "Eye to pain, พูดเป็นคำไม่เข้าเรื่อง, withdraw → GCS",
+      "GCS 9 = moderate (78D)",
+      "คำนวณ GCS (78B จดแค่ \"GCS\")"
      ],
      "pattern": [
       "E2V3M4 = 9 (ถ้าเป็นเสียงอืออา = V2 → 8)"
@@ -370,7 +522,53 @@ SUMM.push({
       "คีย์ไฟล์ 79D ตอบ 8"
      ],
      "members": [
-      "MDCU79|RoD|Neuro 13"
+      "MDCU79|RoD|Neuro 13",
+      "MDCU78|RoB|41",
+      "MDCU78|RoD|25"
+     ]
+    },
+    {
+     "id": "edh",
+     "title": "Epidural hematoma: lucid interval + biconvex hyperdense",
+     "asked": [
+      "รถล้ม หมดสติสั้น ๆ แล้วตื่น แล้วซึมลง → CT biconvex (78B)"
+     ],
+     "pattern": [
+      "MMA · ไม่ข้าม suture · ผ่าตัดเมื่อ &gt;30 mL"
+     ],
+     "members": [
+      "MDCU78|RoB|39"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Localization และ herniation (78)",
+   "sections": [
+    {
+     "id": "localization",
+     "title": "Hemiparesis + aphasia = cortical/subcortical frontal (ไม่ใช่ internal capsule)",
+     "asked": [
+      "อ่อนแรงแขนขา + aphasia → localize (78B คีย์ frontal subcortical)"
+     ],
+     "pattern": [
+      "Aphasia = cortical sign → ตัด lacunar/internal capsule"
+     ],
+     "members": [
+      "MDCU78|RoB|37"
+     ]
+    },
+    {
+     "id": "kernohan",
+     "title": "Kernohan's notch: ipsilateral hemiparesis จากกด cerebral peduncle ฝั่งตรงข้าม",
+     "asked": [
+      "Kernohan, explain? (78B)"
+     ],
+     "pattern": [
+      "Pupil บอกข้างก้อนแม่นกว่า hemiparesis"
+     ],
+     "members": [
+      "MDCU78|RoB|40"
      ]
     }
    ]

@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "img",
  "title": "Imaging",
- "intro": "<ul><li>สถานี Imaging เป็นสถานีภาพ ไม่มี examiner ออก <b>ทุก rotation (11/11)</b> rotation ละ 2–5 สถานี — คำถามเรียงแบบเดิมเสมอ: <b>ชื่อการตรวจ / ชื่อท่า → describe → Dx → treatment</b> (บางสถานีเปลี่ยนเป็น next investigation, เขียน order วันแรก หรือ counselling)</li><li><b>3 ตระกูลหลักที่วนทุกปี:</b> <b>acute abdomen series</b> (ชื่อ 3 ท่า, SBO step-ladder, free air → perforated PU, sigmoid volvulus) · <b>mammogram</b> (CC / MLO, บรรยายตาม BI-RADS, spiculated mass หรือ clustered microcalcification → core needle biopsy) · <b>KUB / IVP</b> (staghorn → PCNL, renal / ureteric stone, CA bladder)</li><li><b>รอง:</b> US นิ่วถุงน้ำดี (3 rotation) → laparoscopic cholecystectomy · barium swallow (CA esophagus, achalasia) · barium enema (diverticulosis + counselling)</li><li>คะแนนอยู่ที่ <b>การบรรยายเป็นระบบด้วยศัพท์ที่ rubric ตรวจ</b> (valvulae conniventes, step-ladder, posterior acoustic shadow, spiculated, fine pleomorphic) แล้วปิดด้วย Dx ที่ระบุข้าง / ตำแหน่ง · หลายสถานีของ 66–65 ไม่มีภาพจริง ธนาคารเขียนเป็นโครงบรรยาย — ฝึกโครงให้คล่อง</li><li>⚠ key ต้นฉบับผิดซ้ำ: ตอบ <b>FNA</b> แทน core needle biopsy (mammogram 67 RoA, RoB), ไม่มี <b>endoscopic detorsion</b> ใน sigmoid volvulus, เรียก ureteric stone ว่า renal stone — ใช้คำตอบของธนาคาร</li><li>MDCU79 RoC เพิ่มสถานีภาพหลากหลาย: CXR (pneumothorax, CDH), CT (acute SDH), AXR (LBO), barium swallow, รูปคลินิก (DVT, omphalocele, melanoma, burn, biliary atresia, Courvoisier, preauricular sinus, thrombosed hemorrhoid) และแผนภาพไส้เลื่อน</li></ul>",
+ "intro": "<ul><li>สถานี Imaging เป็นสถานีภาพ ไม่มี examiner ออก <b>ทุก rotation (11/11)</b> rotation ละ 2–5 สถานี — คำถามเรียงแบบเดิมเสมอ: <b>ชื่อการตรวจ / ชื่อท่า → describe → Dx → treatment</b> (บางสถานีเปลี่ยนเป็น next investigation, เขียน order วันแรก หรือ counselling)</li><li><b>3 ตระกูลหลักที่วนทุกปี:</b> <b>acute abdomen series</b> (ชื่อ 3 ท่า, SBO step-ladder, free air → perforated PU, sigmoid volvulus) · <b>mammogram</b> (CC / MLO, บรรยายตาม BI-RADS, spiculated mass หรือ clustered microcalcification → core needle biopsy) · <b>KUB / IVP</b> (staghorn → PCNL, renal / ureteric stone, CA bladder)</li><li><b>รอง:</b> US นิ่วถุงน้ำดี (3 rotation) → laparoscopic cholecystectomy · barium swallow (CA esophagus, achalasia) · barium enema (diverticulosis + counselling)</li><li>คะแนนอยู่ที่ <b>การบรรยายเป็นระบบด้วยศัพท์ที่ rubric ตรวจ</b> (valvulae conniventes, step-ladder, posterior acoustic shadow, spiculated, fine pleomorphic) แล้วปิดด้วย Dx ที่ระบุข้าง / ตำแหน่ง · หลายสถานีของ 66–65 ไม่มีภาพจริง ธนาคารเขียนเป็นโครงบรรยาย — ฝึกโครงให้คล่อง</li><li>⚠ key ต้นฉบับผิดซ้ำ: ตอบ <b>FNA</b> แทน core needle biopsy (mammogram 67 RoA, RoB), ไม่มี <b>endoscopic detorsion</b> ใน sigmoid volvulus, เรียก ureteric stone ว่า renal stone — ใช้คำตอบของธนาคาร</li><li>MDCU79 RoC เพิ่มสถานีภาพหลากหลาย: CXR (pneumothorax, CDH), CT (acute SDH), AXR (LBO), barium swallow, รูปคลินิก (DVT, omphalocele, melanoma, burn, biliary atresia, Courvoisier, preauricular sinus, thrombosed hemorrhoid) และแผนภาพไส้เลื่อน</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: paraphimosis, pneumoperitoneum, Fournier, lipoma, penile SCC, traumatic pneumothorax, necrotizing fasciitis</li></ul>",
  "groups": [
   {
    "title": "Plain abdomen — Acute abdomen series",
@@ -129,7 +129,8 @@ SUMM.push({
      "asked": [
       "ชายปวดลิ้นปี่หลังอาหาร + ฟิล์มชุด acute abdomen → ท่าที่ถ่าย → 2 สาเหตุของสิ่งที่เห็น → เขียน order รวม IV fluid (66 RoA)",
       "ชาย 58 ปี ปวดลิ้นปี่ทันที 6 ชม. กิน NSAIDs → บรรยาย upright film + สาเหตุ → management (66 RoD)",
-      "65 RoA: upright CXR → บรรยาย + Dx"
+      "65 RoA: upright CXR → บรรยาย + Dx",
+      "Upright CXR (ผู้จดคิดว่า pneumoperitoneum): abnormal findings + DDx 2 + สาเหตุ (78A)"
      ],
      "flow": [
       "ชื่อชุด / ท่า (upright CXR)",
@@ -176,7 +177,10 @@ SUMM.push({
       "MDCU66|RoD|11#1",
       "MDCU66|RoD|11#2",
       "MDCU65|RoA|6#1",
-      "MDCU66|RoB|8#3"
+      "MDCU66|RoB|8#3",
+      "MDCU78|RoA|27#1",
+      "MDCU78|RoA|27#2",
+      "MDCU78|RoA|27#3"
      ]
     },
     {
@@ -1162,6 +1166,128 @@ SUMM.push({
       "preauricular sinus",
       "complete excision of sinus tract"
      ]
+    },
+    {
+     "id": "paraphimosis-img",
+     "title": "Paraphimosis → manual reduction (dorsal slit ถ้าล้มเหลว)",
+     "asked": [
+      "รูป paraphimosis: Dx + management (78A)"
+     ],
+     "pattern": [
+      "Emergency · ลดบวม + manual reduction → dorsal slit → circumcision ภายหลัง"
+     ],
+     "flow": [
+      "Dx → analgesia → ลดบวม → manual reduction → dorsal slit ถ้าไม่สำเร็จ → elective circumcision"
+     ],
+     "kw": [
+      "paraphimosis",
+      "manual reduction",
+      "dorsal slit",
+      "circumcision"
+     ],
+     "members": [
+      "MDCU78|RoA|25#1",
+      "MDCU78|RoA|25#2"
+     ]
+    },
+    {
+     "id": "fournier-img",
+     "title": "Fournier gangrene: investigate 3 + treat 3",
+     "asked": [
+      "รูป Fournier: Dx, investigation 3, treatment 3 (78B)"
+     ],
+     "pattern": [
+      "Resuscitation + broad-spectrum ATB + emergency debridement (second look) · LRINEC, culture, CT"
+     ],
+     "flow": [
+      "Dx → labs/culture/CT (ห้ามรอ) → resuscitate → ATB → radical debridement ± diversion"
+     ],
+     "kw": [
+      "Fournier gangrene",
+      "necrotizing fasciitis",
+      "debridement",
+      "LRINEC",
+      "broad-spectrum antibiotics"
+     ],
+     "members": [
+      "MDCU78|RoB|16#1",
+      "MDCU78|RoB|16#2",
+      "MDCU78|RoB|16#3"
+     ]
+    },
+    {
+     "id": "lipoma-img",
+     "title": "Lipoma ที่แขน: indication + วิธีตัด",
+     "asked": [
+      "รูป lipoma: Dx + indication และแนวการตัด (78B)"
+     ],
+     "pattern": [
+      "Indication: อาการ, cosmetic, &gt;5 cm, deep, โตเร็ว · enucleate พร้อม capsule ส่งพยาธิ"
+     ],
+     "flow": [
+      "Dx → indications → LA → incision ตามแนวผิว → enucleation → hemostasis → ปิด → พยาธิ"
+     ],
+     "kw": [
+      "lipoma",
+      "enucleation",
+      "capsule",
+      "liposarcoma red flags"
+     ],
+     "members": [
+      "MDCU78|RoB|17#1",
+      "MDCU78|RoB|17#2"
+     ]
+    },
+    {
+     "id": "penile-ca-img",
+     "title": "Penile SCC: biopsy → penectomy margin + inguinal LND",
+     "trend": "ออก 78B และ 78C (78C มีเฉลยในไฟล์)",
+     "asked": [
+      "Penile cancer diag + management (78B)",
+      "รูปองคชาต: Dx + Mx (78C เฉลย: incisional biopsy, penectomy 2 cm, inguinal LND)"
+     ],
+     "pattern": [
+      "Biopsy · partial/total penectomy (หรือ organ-sparing) · inguinal node staging/dissection"
+     ],
+     "flow": [
+      "Dx → biopsy → stage nodes → primary surgery → inguinal LND/DSNB"
+     ],
+     "kw": [
+      "squamous cell carcinoma",
+      "incisional biopsy",
+      "penectomy",
+      "2-cm margin",
+      "inguinal lymph node dissection"
+     ],
+     "members": [
+      "MDCU78|RoB|24#1",
+      "MDCU78|RoB|24#2",
+      "MDCU78|RoC|2#1",
+      "MDCU78|RoC|2#2"
+     ]
+    },
+    {
+     "id": "nf-img",
+     "title": "Necrotizing fasciitis: serial aggressive debridement",
+     "asked": [
+      "รูป NF: Dx + Mx (78C เฉลย: serial and aggressive debridement)"
+     ],
+     "pattern": [
+      "Resuscitate + ATB (+ clindamycin) + debridement ซ้ำทุก 24–48 ชม."
+     ],
+     "flow": [
+      "Dx (clinical) → resuscitate → ATB → emergency debridement → second look"
+     ],
+     "kw": [
+      "necrotizing fasciitis",
+      "serial debridement",
+      "clindamycin",
+      "LRINEC"
+     ],
+     "members": [
+      "MDCU78|RoC|9#1",
+      "MDCU78|RoC|9#2"
+     ]
     }
    ]
   },
@@ -1237,6 +1363,30 @@ SUMM.push({
      "kw": [
       "NG tube",
       "lower SVC / cavoatrial junction"
+     ]
+    },
+    {
+     "id": "trauma-ptx",
+     "title": "Trauma + distress + hypotension + pneumothorax → decompress/ICD + fluid",
+     "asked": [
+      "CXR pneumothorax หลังรถชน BP 80/50 → Dx + Mx (78C เฉลย: RL 2 L + ICD)"
+     ],
+     "pattern": [
+      "Tension PTX → needle/finger decompression → ICD · fluid 1 L แล้ว blood (ATLS 10th) · หา bleeding (FAST)"
+     ],
+     "flow": [
+      "ABC → decompress → ICD → IV fluid/blood → FAST"
+     ],
+     "kw": [
+      "tension pneumothorax",
+      "needle decompression",
+      "ICD",
+      "Ringer lactate",
+      "FAST"
+     ],
+     "members": [
+      "MDCU78|RoC|8#1",
+      "MDCU78|RoC|8#2"
      ]
     }
    ]

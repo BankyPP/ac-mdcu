@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "Pediatric surgery",
  "title": "Pediatric surgery",
- "intro": "<ul><li>MDCU79 RoC มี 12 ข้อย่อย กระจายหลายระบบ: <b>ทารกแรกเกิด / congenital anomaly</b> (ARM, SCT, cystic hygroma, epispadias, hydrocephalus, TOF), <b>ปัญหาการกินในทารก</b> (tongue tie ออกซ้ำ 2 เคส, pyloric stenosis, cleft palate timing) และ <b>vascular / skin</b> (infantile hemangioma), <b>อวัยวะเพศ</b> (paraphimosis)</li><li>รูปแบบ: ภาพถ่าย / ฟิล์ม → Dx (ARM, hydrocephalus, cystic hygroma), next step (frenotomy, IV fluid ก่อน pyloromyotomy, manual reduction), timing ของการผ่าตัด, หลักผ่าตัดเฉพาะโรค (coccygectomy ใน SCT)</li><li>ตัวลวงที่ซ้ำ: ผ่าตัดทันทีทั้งที่ต้อง resuscitate / ลองวิธี non-invasive ก่อน, และ observe ทั้งที่มีอาการ (tongue tie)</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: neonatal surgery เต็มรูปแบบ — Hirschsprung, NEC, double bubble, omphalocele, biliary atresia, HPS, intussusception, Meckel, Wilms, cystic hygroma, UDT/hydrocele/hypospadias/CAH, torticollis</li></ul>",
+ "intro": "<ul><li>MDCU79 RoC มี 12 ข้อย่อย กระจายหลายระบบ: <b>ทารกแรกเกิด / congenital anomaly</b> (ARM, SCT, cystic hygroma, epispadias, hydrocephalus, TOF), <b>ปัญหาการกินในทารก</b> (tongue tie ออกซ้ำ 2 เคส, pyloric stenosis, cleft palate timing) และ <b>vascular / skin</b> (infantile hemangioma), <b>อวัยวะเพศ</b> (paraphimosis)</li><li>รูปแบบ: ภาพถ่าย / ฟิล์ม → Dx (ARM, hydrocephalus, cystic hygroma), next step (frenotomy, IV fluid ก่อน pyloromyotomy, manual reduction), timing ของการผ่าตัด, หลักผ่าตัดเฉพาะโรค (coccygectomy ใน SCT)</li><li>ตัวลวงที่ซ้ำ: ผ่าตัดทันทีทั้งที่ต้อง resuscitate / ลองวิธี non-invasive ก่อน, และ observe ทั้งที่มีอาการ (tongue tie)</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: neonatal surgery เต็มรูปแบบ — Hirschsprung, NEC, double bubble, omphalocele, biliary atresia, HPS, intussusception, Meckel, Wilms, cystic hygroma, UDT/hydrocele/hypospadias/CAH, torticollis</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: ARM, Hirschsprung, NEC, malrotation (Ladd), jejunal atresia, choledochal cyst, biliary atresia, omphalocele, pyloric stenosis, Meckel, UDT, VUR, TGDC/branchial, torticollis, cleft palate, foreign body</li></ul>",
  "groups": [
   {
    "title": "ปัญหาการกินในทารก",
@@ -34,7 +34,8 @@ SUMM.push({
      "title": "Infantile hypertrophic pyloric stenosis → resuscitate ก่อน pyloromyotomy",
      "asked": [
       "ทารก 4 สัปดาห์อาเจียนไม่มีน้ำดี 10 วัน olive mass RUQ กระหม่อมบุ๋ม ซึม → next management (ตัวลวง immediate pyloromyotomy, PPI, ORS กลับบ้าน)",
-      "Non-bilious vomiting ยังหิว + olive RUQ → Dx (79D)"
+      "Non-bilious vomiting ยังหิว + olive RUQ → Dx (79D)",
+      "Pyloric stenosis → hypochloremic hypokalemic metabolic alkalosis (78B)"
      ],
      "pattern": [
       "<b>Pyloric stenosis is a medical, not surgical, emergency</b>",
@@ -50,7 +51,8 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoC|Ped ไม่มีเลข 1",
-      "MDCU79|RoD|Ped 9"
+      "MDCU79|RoD|Ped 9",
+      "MDCU78|RoB|29"
      ]
     },
     {
@@ -58,7 +60,9 @@ SUMM.push({
      "title": "Cleft palate: palatoplasty อายุ 9–12 เดือน",
      "asked": [
       "ทารก 3 เดือน isolated cleft of secondary palate กินขวดพิเศษได้ดี → เวลาผ่าตัดที่เหมาะสม",
-      "Cleft palate ซ่อมตอนไหน → 1 ปี (79D)"
+      "Cleft palate ซ่อมตอนไหน → 1 ปี (79D)",
+      "ภาวะแทรกซ้อนที่ severe สุดของ cleft palate (78B คีย์ speech delay)",
+      "Cleft palate ผ่าตอนกี่ขวบ → 1 ปี (78D)"
      ],
      "pattern": [
       "Timeline: cleft lip ~3 เดือน (rule of 10s) → <b>palatoplasty 9–12 เดือน</b> (เสร็จก่อน ~18 เดือน, ก่อนเริ่มพูด) → speech / VPI 3–5 ปี → alveolar bone graft 9–11 ปี → orthognathic วัยรุ่นปลาย",
@@ -72,7 +76,9 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoC|Plastic 6",
-      "MDCU79|RoD|Ped 8"
+      "MDCU79|RoD|Ped 8",
+      "MDCU78|RoB|8",
+      "MDCU78|RoD|63"
      ]
     }
    ]
@@ -84,7 +90,8 @@ SUMM.push({
      "id": "arm",
      "title": "Anorectal malformation: prone cross-table lateral → high ARM",
      "asked": [
-      "ทารกชายไม่มีรูทวาร ไม่มี meconium ที่ perineum, ฟิล์ม prone cross-table lateral ที่ 24 ชม. วาง marker → Dx (ตัวลวง low ARM, Hirschsprung, meconium plug, cloaca)"
+      "ทารกชายไม่มีรูทวาร ไม่มี meconium ที่ perineum, ฟิล์ม prone cross-table lateral ที่ 24 ชม. วาง marker → Dx (ตัวลวง low ARM, Hirschsprung, meconium plug, cloaca)",
+      "Meconium ทางท่อปัสสาวะ → cross-table (78B) · perineal fistula → PSARP (78D)"
      ],
      "pattern": [
       "ชายไม่มี perineal fistula → <b>รอ 16–24 ชม.</b> แล้วทำ prone cross-table lateral",
@@ -98,14 +105,17 @@ SUMM.push({
       "คำตอบตัดสินจากภาพ (ลมห่างจาก marker ชัดเจน) — ตอบตามการอ่านภาพของ bank"
      ],
      "members": [
-      "MDCU79|RoC|Ped 7"
+      "MDCU79|RoC|Ped 7",
+      "MDCU78|RoB|32",
+      "MDCU78|RoD|2"
      ]
     },
     {
      "id": "sct",
      "title": "Sacrococcygeal teratoma → en bloc excision + coccygectomy",
      "asked": [
-      "ทารกหญิง SCT ขนาดใหญ่ ต้องตัดโครงสร้างใดด้วยเพื่อป้องกัน recurrence (ตัวลวง sacrectomy, rectum, gluteal)"
+      "ทารกหญิง SCT ขนาดใหญ่ ต้องตัดโครงสร้างใดด้วยเพื่อป้องกัน recurrence (ตัวลวง sacrectomy, rectum, gluteal)",
+      "SCT หลังคลอด (รูป) → excision + coccygectomy (78D)"
      ],
      "pattern": [
       "<b>ตัด coccyx ทุกครั้ง</b> — เหลือ coccyx → recurrence ~35–40% (มักเป็น malignant yolk sac)",
@@ -118,7 +128,8 @@ SUMM.push({
       "sacrectomy เป็นตัวลวงจากชื่อโรค"
      ],
      "members": [
-      "MDCU79|RoC|Ped 6"
+      "MDCU79|RoC|Ped 6",
+      "MDCU78|RoD|4"
      ]
     },
     {
@@ -214,13 +225,56 @@ SUMM.push({
      "id": "vsd",
      "title": "VSD: holosystolic murmur ที่ LLSB + เหนื่อย ไม่เขียว",
      "asked": [
-      "Holosystolic murmur LLSB ไม่เขียวแต่เหนื่อย → Dx"
+      "Holosystolic murmur LLSB ไม่เขียวแต่เหนื่อย → Dx",
+      "(78B) VSD heart failure 1–2 เดือน"
      ],
      "pattern": [
       "ASD: ejection murmur LUSB + fixed split S2 · PDA: continuous machinery · TOF: เขียว"
      ],
      "members": [
-      "MDCU79|RoD|CVT 5"
+      "MDCU79|RoD|CVT 5",
+      "MDCU78|RoB|45"
+     ]
+    },
+    {
+     "id": "tga-ped",
+     "title": "TGA: cyanosis แรกเกิด + egg on string",
+     "asked": [
+      "ทารก 2 ชม. เขียว + CXR (78A)",
+      "กินแล้วเขียว + single S2 (78B)"
+     ],
+     "pattern": [
+      "PGE1 → septostomy → arterial switch"
+     ],
+     "members": [
+      "MDCU78|RoA|10",
+      "MDCU78|RoB|44"
+     ]
+    },
+    {
+     "id": "asd-ped",
+     "title": "ASD: ejection murmur upper sternal border + fixed split S2",
+     "asked": [
+      "ทารก 2 เดือน murmur เบา ๆ upper sternal border (78D)"
+     ],
+     "pattern": [
+      "ไม่มีอาการในวัยทารก ปิดเองได้ถ้าเล็ก"
+     ],
+     "members": [
+      "MDCU78|RoD|43"
+     ]
+    },
+    {
+     "id": "encephalocele-ped",
+     "title": "Frontoethmoidal encephalocele: defect ที่ nasoethmoid",
+     "asked": [
+      "ทารกก้อนใหญ่สันจมูก → defect location (78B)"
+     ],
+     "pattern": [
+      "ก้อนกลางจมูกในเด็ก → MRI/CT ก่อน ห้าม biopsy"
+     ],
+     "members": [
+      "MDCU78|RoB|9"
      ]
     }
    ]
@@ -276,28 +330,35 @@ SUMM.push({
      "id": "hirschsprung",
      "title": "Hirschsprung disease (BE: transition zone)",
      "asked": [
-      "ทารกขี้เทาออกช้า ท้องอืด + barium enema → Dx"
+      "ทารกขี้เทาออกช้า ท้องอืด + barium enema → Dx",
+      "ทารกไม่ถ่ายขี้เทา + blast sign → investigation (78B)"
      ],
      "pattern": [
       "BE: rectum แคบ + transition zone + colon ต้นโป่ง (rectosigmoid index &lt;1) · ยืนยัน <b>rectal suction biopsy</b> · เสี่ยง enterocolitis",
       "Microcolon = meconium ileus / ileal atresia · small left colon = แม่เบาหวาน"
      ],
      "members": [
-      "MDCU79|RoD|Ped 1"
+      "MDCU79|RoD|Ped 1",
+      "MDCU78|RoB|31"
      ]
     },
     {
      "id": "nec",
      "title": "NEC: pneumatosis intestinalis",
      "asked": [
-      "Preterm ท้องอืด ผนังท้องแดง → imaging ที่จำเพาะที่สุด"
+      "Preterm ท้องอืด ผนังท้องแดง → imaging ที่จำเพาะที่สุด",
+      "Preterm bloody stool + AXR → NEC (78B, 78D)",
+      "Acute abdomen อายุ 6 เดือน ที่ least likely = NEC (78C)"
      ],
      "pattern": [
       "Pneumatosis = Bell IIA · portal venous gas · free air = perforation → ผ่าตัด/peritoneal drain",
       "NPO, NG, IV fluid, broad-spectrum ATB; นมแม่/probiotics ลดความเสี่ยง"
      ],
      "members": [
-      "MDCU79|RoD|Ped 3"
+      "MDCU79|RoD|Ped 3",
+      "MDCU78|RoB|33",
+      "MDCU78|RoC|7",
+      "MDCU78|RoD|1"
      ]
     },
     {
@@ -318,7 +379,9 @@ SUMM.push({
      "id": "omphalocele",
      "title": "Omphalocele: associated anomalies",
      "asked": [
-      "Omphalocele → associated syndrome (ช้อยมี Down)"
+      "Omphalocele → associated syndrome (ช้อยมี Down)",
+      "Omphalocele สัมพันธ์ syndrome ใด (78B คีย์ Down)",
+      "Initial management omphalocele (78B)"
      ],
      "pattern": [
       "Omphalocele (กลางสะดือ มีถุง) anomaly 50–70%: trisomy 18/13/21, Beckwith-Wiedemann, cardiac, Cantrell · gastroschisis (ขวา ไม่มีถุง) anomaly น้อย"
@@ -327,7 +390,50 @@ SUMM.push({
       "ช้อยในข้อสอบมีแค่ Down เป็นตัวที่สัมพันธ์ (trisomy 13/18, BWS ไม่มีในช้อย)"
      ],
      "members": [
-      "MDCU79|RoD|Ped 6"
+      "MDCU79|RoD|Ped 6",
+      "MDCU78|RoB|26",
+      "MDCU78|RoB|58"
+     ]
+    },
+    {
+     "id": "malrotation",
+     "title": "Malrotation with midgut volvulus: Ladd's bands · peritonitis → explore lap",
+     "asked": [
+      "Ladd band คืออะไร (78C)",
+      "ทารก 6 สัปดาห์ bloody stool + tender + tachycardia → explore lap (78D)"
+     ],
+     "pattern": [
+      "Ladd's bands: cecum → right lateral wall ข้าม duodenum · stable → UGI · unstable → ผ่าตัดเลย"
+     ],
+     "members": [
+      "MDCU78|RoC|1",
+      "MDCU78|RoD|3"
+     ]
+    },
+    {
+     "id": "jejunal-atresia",
+     "title": "Jejunal atresia: few dilated loops/triple bubble",
+     "asked": [
+      "Bilious vomiting แรกเกิด + AXR (รูปนี้เป๊ะ ๆ) → jejunal atresia (78B)"
+     ],
+     "pattern": [
+      "Vascular accident in utero · double bubble = duodenal"
+     ],
+     "members": [
+      "MDCU78|RoB|30"
+     ]
+    },
+    {
+     "id": "peds-hernia",
+     "title": "Inguinal hernia ในเด็ก = patent processus vaginalis",
+     "asked": [
+      "Etiology ของ inguinal hernia ในเด็ก (78B)"
+     ],
+     "pattern": [
+      "Herniotomy (high ligation) · incarceration สูงในขวบปีแรก"
+     ],
+     "members": [
+      "MDCU78|RoB|27"
      ]
     }
    ]
@@ -339,14 +445,16 @@ SUMM.push({
      "id": "biliary-atresia",
      "title": "Biliary atresia → Kasai ก่อน 60 วัน",
      "asked": [
-      "ทารก 6 สัปดาห์ เหลือง อุจจาระซีด US ไม่มี GB HIDA ไม่ขับ → next"
+      "ทารก 6 สัปดาห์ เหลือง อุจจาระซีด US ไม่มี GB HIDA ไม่ขับ → next",
+      "ทารก 1 เดือน เหลือง direct hyperbili → Kasai (78A)"
      ],
      "pattern": [
       "Direct hyperbilirubinemia + acholic stool → US (triangular cord, GB เล็ก) → HIDA (ไม่ขับ) → intraoperative cholangiogram → <b>Kasai portoenterostomy</b> ก่อน 60 วัน",
       "ล้มเหลว → liver transplant"
      ],
      "members": [
-      "MDCU79|RoD|Ped 5"
+      "MDCU79|RoD|Ped 5",
+      "MDCU78|RoA|6"
      ]
     },
     {
@@ -367,13 +475,41 @@ SUMM.push({
      "id": "meckel",
      "title": "Meckel diverticulum: Tc-99m pertechnetate focal uptake RLQ",
      "asked": [
-      "Painless rectal bleeding → Meckel scan finding ที่ support"
+      "Painless rectal bleeding → Meckel scan finding ที่ support",
+      "เด็ก 6 ขวบ BRBPR มาก tachycardia → IV fluid ก่อน (78B)"
      ],
      "pattern": [
       "Tc-99m pertechnetate จับ ectopic gastric mucosa → focal uptake RLQ พร้อมกระเพาะ · Rule of 2s"
      ],
      "members": [
-      "MDCU79|RoD|Ped 11"
+      "MDCU79|RoD|Ped 11",
+      "MDCU78|RoB|34"
+     ]
+    },
+    {
+     "id": "choledochal",
+     "title": "Choledochal cyst: pain + jaundice + RUQ mass",
+     "asked": [
+      "เด็ก 4 ขวบ ปวดท้องซ้ำ เหลือง ก้อน RUQ (78B)"
+     ],
+     "pattern": [
+      "Excision + Roux-en-Y hepaticojejunostomy (เสี่ยง cholangiocarcinoma)"
+     ],
+     "members": [
+      "MDCU78|RoB|25"
+     ]
+    },
+    {
+     "id": "foreign-body",
+     "title": "เหรียญในกระเพาะ ไม่มีอาการ → observe · button battery ต้องแยก",
+     "asked": [
+      "X-ray เด็กเห็นวัตถุกลมในท้อง → management (78B)"
+     ],
+     "pattern": [
+      "Esophageal coin → remove · gastric → observe · button battery esophagus = emergency"
+     ],
+     "members": [
+      "MDCU78|RoB|59"
      ]
     }
    ]
@@ -387,7 +523,8 @@ SUMM.push({
      "asked": [
       "เด็ก 4 ปี UDT palpable → orchidopexy",
       "18 เดือน non-palpable → diagnostic laparoscopy",
-      "Hypospadias → หา UDT"
+      "Hypospadias → หา UDT",
+      "15 เดือน bilateral palpable UDT → bilateral orchiopexy (78B)"
      ],
      "pattern": [
       "Orchidopexy ภายใน 18 เดือน · non-palpable → EUA + laparoscopy (ไม่ส่ง US/MRI)"
@@ -395,7 +532,8 @@ SUMM.push({
      "members": [
       "MDCU79|RoD|Uro 16",
       "MDCU79|RoD|Uro 17",
-      "MDCU79|RoD|Ped 16"
+      "MDCU79|RoD|Ped 16",
+      "MDCU78|RoB|23"
      ]
     },
     {
@@ -441,20 +579,23 @@ SUMM.push({
      "id": "medulloblastoma",
      "title": "Posterior fossa tumor ในเด็ก: medulloblastoma",
      "asked": [
-      "เด็ก 7 ปี ก้อน fourth ventricle truncal ataxia hydrocephalus → Dx"
+      "เด็ก 7 ปี ก้อน fourth ventricle truncal ataxia hydrocephalus → Dx",
+      "Pineal germ cell tumor (78B)"
      ],
      "pattern": [
       "Vermis/4th ventricle + truncal ataxia = medulloblastoma · hemisphere cyst + nodule = pilocytic · pineal = Parinaud"
      ],
      "members": [
-      "MDCU79|RoD|Neuro 2"
+      "MDCU79|RoD|Neuro 2",
+      "MDCU78|RoB|46"
      ]
     },
     {
      "id": "torticollis",
      "title": "Congenital muscular torticollis → physiotherapy (stretching)",
      "asked": [
-      "ทารก &lt;1 ปี torticollis จาก SCM → manage"
+      "ทารก &lt;1 ปี torticollis จาก SCM → manage",
+      "ทารก 3 เดือนเอียงคอ (78B)"
      ],
      "pattern": [
       "PT stretching + จัดท่า สำเร็จ &gt;90% ก่อน 1 ปี · ล้มเหลว → SCM release · ตรวจ hip dysplasia ร่วม"
@@ -463,20 +604,80 @@ SUMM.push({
       "ช้อยต้นฉบับเขียน muscle strengthening exercise — ความหมายคือ physiotherapy"
      ],
      "members": [
-      "MDCU79|RoD|Ped 14"
+      "MDCU79|RoD|Ped 14",
+      "MDCU78|RoB|36"
      ]
     },
     {
      "id": "craniosynostosis-eye",
      "title": "Syndromic craniosynostosis ตาโปน → tarsorrhaphy",
      "asked": [
-      "Craniosynostosis ตาโปน → most urgent and effective"
+      "Craniosynostosis ตาโปน → most urgent and effective",
+      "Crouzon เร่งด่วนสุด → ICP (78D)"
      ],
      "pattern": [
       "Exorbitism → exposure keratopathy → tarsorrhaphy (ชั่วคราว) → definitive fronto-orbital/monobloc advancement"
      ],
      "members": [
-      "MDCU79|RoD|Plastic 1"
+      "MDCU79|RoD|Plastic 1",
+      "MDCU78|RoD|65"
+     ]
+    },
+    {
+     "id": "vur",
+     "title": "VUR grade IV: CAP ก่อน, ผ่าตัดเมื่อ breakthrough · VCUG ปกติ → หยุดยา",
+     "asked": [
+      "VUR grade IV + recurrent UTI → CAP (78B คีย์: reimplant ถ้า breakthrough)",
+      "VUR grade 4 กินยา 3 ปี VCUG ปกติ → stop ATB (78D)"
+     ],
+     "pattern": [
+      "Surgery: breakthrough febrile UTI, new scar · RIVUR"
+     ],
+     "members": [
+      "MDCU78|RoB|24",
+      "MDCU78|RoD|84"
+     ]
+    },
+    {
+     "id": "neck-ped",
+     "title": "ก้อนที่คอเด็ก: TGDC (US → Sistrunk) และ 2nd branchial cleft cyst",
+     "asked": [
+      "TGDC → Sistrunk (78B) · central mass ขยับตามกลืน → neck US (78D)",
+      "รูปก้อนข้างคอ → 2nd branchial cleft (78D)"
+     ],
+     "pattern": [
+      "TGDC ขยับตามแลบลิ้น · branchial cleft 2 อยู่ขอบหน้า SCM"
+     ],
+     "members": [
+      "MDCU78|RoB|35",
+      "MDCU78|RoD|5",
+      "MDCU78|RoD|6"
+     ]
+    },
+    {
+     "id": "preauricular-ped",
+     "title": "Preauricular sinus ติดเชื้อซ้ำ → excision",
+     "asked": [
+      "รูหน้าหูอักเสบ 2 ครั้ง → management (78B)"
+     ],
+     "pattern": [
+      "ผ่าตัดตอนหายอักเสบ"
+     ],
+     "members": [
+      "MDCU78|RoB|50"
+     ]
+    },
+    {
+     "id": "peds-burn",
+     "title": "เด็ก burn 8% ที่หน้า/คอ → admit",
+     "asked": [
+      "เด็ก burn 8% head and neck (78B)"
+     ],
+     "pattern": [
+      "IV fluid เมื่อ ≥10% · special area → admit"
+     ],
+     "members": [
+      "MDCU78|RoB|60"
      ]
     }
    ]

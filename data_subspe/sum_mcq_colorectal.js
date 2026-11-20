@@ -54,13 +54,15 @@ SUMM.push({
      "id": "hirschsprung-colo",
      "title": "Hirschsprung disease (barium enema transition zone)",
      "asked": [
-      "ทารกขี้เทาออกช้า + BE → Dx"
+      "ทารกขี้เทาออกช้า + BE → Dx",
+      "ทารกไม่ถ่ายขี้เทา 24 ชม. + blast sign → investigation ยืนยัน (78B คีย์ manometry; gold standard จริง = rectal suction biopsy)"
      ],
      "pattern": [
       "Transition zone + rectosigmoid index &lt;1 → rectal suction biopsy"
      ],
      "members": [
-      "MDCU79|RoD|Ped 1"
+      "MDCU79|RoD|Ped 1",
+      "MDCU78|RoB|31"
      ]
     }
    ]
@@ -740,6 +742,26 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoD|Colo 8"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Anorectal malformation (78)",
+   "sections": [
+    {
+     "id": "arm-colo",
+     "title": "Anorectal malformation ในทารกชาย: perineal fistula → primary repair · meconium ในปัสสาวะ → cross-table/colostomy",
+     "asked": [
+      "ไม่มีรูทวาร + meconium ออกท่อปัสสาวะ → initial investigation (78B)",
+      "ไม่ถ่ายขี้เทา 2 วัน ปัสสาวะใส + ภาพ perineal fistula → ทำอะไรต่อ (78D)"
+     ],
+     "pattern": [
+      "รอ 16–24 ชม. ดู perineum + ปัสสาวะ · perineal fistula → anoplasty/minimal PSARP ได้เลย · meconium ในปัสสาวะ (rectourethral fistula) → colostomy · ไม่ชัด → prone cross-table lateral (&lt;1 cm primary, &gt;1 cm colostomy) · VACTERL work-up"
+     ],
+     "members": [
+      "MDCU78|RoB|32",
+      "MDCU78|RoD|2"
      ]
     }
    ]

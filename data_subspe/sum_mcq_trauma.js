@@ -49,13 +49,15 @@ SUMM.push({
      "id": "tension-ptx",
      "title": "Tension pneumothorax → needle decompression",
      "asked": [
-      "Hypotension hypoxia trachea shift hyperresonance → next"
+      "Hypotension hypoxia trachea shift hyperresonance → next",
+      "อุบัติเหตุรถ CXR + tachycardia → thoracostomy (78B)"
      ],
      "pattern": [
       "Clinical Dx ไม่รอ CXR · ATLS 11: needle 4–5th ICS anterior to MAL (ผู้ใหญ่) → ICD · ห้าม PPV ก่อน decompress"
      ],
      "members": [
-      "MDCU79|RoD|CVT 8"
+      "MDCU79|RoD|CVT 8",
+      "MDCU78|RoB|51"
      ]
     }
    ]
@@ -67,20 +69,23 @@ SUMM.push({
      "id": "csdh",
      "title": "Chronic subdural hematoma (ล้ม 3 สัปดาห์ก่อน)",
      "asked": [
-      "ล้มในห้องน้ำ 3 สัปดาห์ GCS drop + CT → Dx"
+      "ล้มในห้องน้ำ 3 สัปดาห์ GCS drop + CT → Dx",
+      "CT crescent ซ้าย → left SDH (78D)"
      ],
      "pattern": [
       "Crescent hypodense ข้าม suture = chronic SDH · burr-hole drainage · acute hyperdense / subacute isodense"
      ],
      "members": [
-      "MDCU79|RoD|Neuro 5"
+      "MDCU79|RoD|Neuro 5",
+      "MDCU78|RoD|22"
      ]
     },
     {
      "id": "gcs",
      "title": "GCS calculation",
      "asked": [
-      "Eye to pain, พูดเป็นคำไม่เข้าเรื่อง, withdraw → GCS"
+      "Eye to pain, พูดเป็นคำไม่เข้าเรื่อง, withdraw → GCS",
+      "GCS 9 = moderate (78D) · คำนวณ GCS (78B)"
      ],
      "pattern": [
       "V3 = inappropriate words · V2 = incomprehensible sounds · M4 withdrawal · M3 decorticate · ใช้ best motor",
@@ -90,7 +95,22 @@ SUMM.push({
       "79D คีย์ไฟล์ตอบ E2V2M4 = 8 — คำว่า \"พูดเป็นคำ ๆ\" = V3 → 9"
      ],
      "members": [
-      "MDCU79|RoD|Neuro 13"
+      "MDCU79|RoD|Neuro 13",
+      "MDCU78|RoB|41",
+      "MDCU78|RoD|25"
+     ]
+    },
+    {
+     "id": "edh-trauma",
+     "title": "EDH: lucid interval + biconvex",
+     "asked": [
+      "รถล้มหมดสติสั้น ๆ แล้วซึมลง (78B)"
+     ],
+     "pattern": [
+      "Biconvex hyperdense ระหว่างกะโหลกกับ dura"
+     ],
+     "members": [
+      "MDCU78|RoB|39"
      ]
     }
    ]
@@ -115,13 +135,15 @@ SUMM.push({
      "id": "facial-laceration",
      "title": "แผลฟันแก้มยาว: facial nerve + parotid duct",
      "asked": [
-      "แผลขมับถึงคาง → อาการที่ไม่น่าพบ (upper eyelid ptosis)"
+      "แผลขมับถึงคาง → อาการที่ไม่น่าพบ (upper eyelid ptosis)",
+      "แผลแก้ม → Stensen duct (78B)"
      ],
      "pattern": [
       "CN VII: brow ptosis, lagophthalmos, drooling · duct/ต่อม → sialocele · eyelid ptosis = CN III/Horner"
      ],
      "members": [
-      "MDCU79|RoD|Plastic 7"
+      "MDCU79|RoD|Plastic 7",
+      "MDCU78|RoB|4"
      ]
     },
     {
@@ -135,6 +157,45 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoD|Plastic 6"
+     ]
+    },
+    {
+     "id": "open-tibia-flap",
+     "title": "Open tibia กระดูกโผล่ → free flap",
+     "asked": [
+      "(78B)"
+     ],
+     "pattern": [
+      "Soft tissue coverage ภายใน 72 ชม.–7 วัน"
+     ],
+     "members": [
+      "MDCU78|RoB|3"
+     ]
+    },
+    {
+     "id": "maxillary-waters",
+     "title": "Maxillary fracture → Waters view",
+     "asked": [
+      "(78B)"
+     ],
+     "pattern": [
+      "CT maxillofacial = standard"
+     ],
+     "members": [
+      "MDCU78|RoB|5"
+     ]
+    },
+    {
+     "id": "simple-laceration",
+     "title": "แผลสะอาดแขน → primary closure",
+     "asked": [
+      "(78B)"
+     ],
+     "pattern": [
+      "Irrigation + debridement + primary closure + tetanus"
+     ],
+     "members": [
+      "MDCU78|RoB|43"
      ]
     }
    ]

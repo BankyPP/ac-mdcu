@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "Onco",
  "title": "Oncology (ทุกวอร์ดย่อย)",
- "intro": "<ul><li><b>รวมข้อ Gen Sx ที่ clone มา (19 พ.ย. 2026)</b> — กลุ่ม “จาก Gen Sx — …” ด้านล่าง</li><li>MDCU79 RoC 9 ข้อย่อย กระจาย 4 วอร์ดย่อย: <b>Uro</b> (testicular seminoma ออกซ้ำ 2 เคส, bladder CIS, UTUC), <b>Colorectal</b> (rectal cancer stage III, colorectal liver metastasis), <b>Neuro</b> (vasogenic edema, เทคนิครังสี) และ <b>CVT</b> (thymoma + myasthenia gravis)</li><li>แนวถาม: Dx จาก marker / อาการ paraneoplastic และ <b>next management ตาม risk / stage</b> — CIS → BCG, high-risk UTUC → nephroureterectomy + bladder cuff, N+ rectal → neoadjuvant ก่อน TME, resectable CRLM → hepatectomy</li><li>กับดักร่วม: คำว่า in situ / T2 / metastasis ทำให้เลือกการรักษาเบาหรือ palliative เกินไป</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: prostate (PSA → MRI biopsy), testis (inguinal orchiectomy, LN drainage), NMIBC/UTUC/RCC, Wilms, melanoma margin, lung nodule, FAP, colon cancer stage III, brain tumors</li></ul>",
+ "intro": "<ul><li><b>รวมข้อ Gen Sx ที่ clone มา (19 พ.ย. 2026)</b> — กลุ่ม “จาก Gen Sx — …” ด้านล่าง</li><li>MDCU79 RoC 9 ข้อย่อย กระจาย 4 วอร์ดย่อย: <b>Uro</b> (testicular seminoma ออกซ้ำ 2 เคส, bladder CIS, UTUC), <b>Colorectal</b> (rectal cancer stage III, colorectal liver metastasis), <b>Neuro</b> (vasogenic edema, เทคนิครังสี) และ <b>CVT</b> (thymoma + myasthenia gravis)</li><li>แนวถาม: Dx จาก marker / อาการ paraneoplastic และ <b>next management ตาม risk / stage</b> — CIS → BCG, high-risk UTUC → nephroureterectomy + bladder cuff, N+ rectal → neoadjuvant ก่อน TME, resectable CRLM → hepatectomy</li><li>กับดักร่วม: คำว่า in situ / T2 / metastasis ทำให้เลือกการรักษาเบาหรือ palliative เกินไป</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: prostate (PSA → MRI biopsy), testis (inguinal orchiectomy, LN drainage), NMIBC/UTUC/RCC, Wilms, melanoma margin, lung nodule, FAP, colon cancer stage III, brain tumors</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: melanoma margin, prolactinoma, mediastinal tumors, bladder (BCG, SCC), Bosniak, testis DDx, lung nodule, PSA screening, TCC site, SCT</li></ul>",
  "groups": [
   {
    "title": "Uro-oncology",
@@ -13,7 +13,8 @@ SUMM.push({
      "asked": [
       "ก้อนอัณฑะแข็งไม่เจ็บ hCG สูง AFP ปกติ → Dx (ตัวลวง Leydig, Sertoli, yolk sac, epididymitis)",
       "ก้อนอัณฑะ → radical inguinal orchiectomy (79D)",
-      "LN ที่ไม่ใช่ทางแพร่ = inguinal (79D)"
+      "LN ที่ไม่ใช่ทางแพร่ = inguinal (79D)",
+      "ก้อนอัณฑะแข็งไม่เจ็บ: DDx ที่ไม่น่าใช่ = epididymo-orchitis (78B)"
      ],
      "pattern": [
       "Pure seminoma <b>ไม่หลั่ง AFP</b>; hCG สูงได้ ~15–20%",
@@ -28,7 +29,8 @@ SUMM.push({
       "MDCU79|RoC|URO 1",
       "MDCU79|RoC|URO 9",
       "MDCU79|RoD|Uro 2",
-      "MDCU79|RoD|Uro 3"
+      "MDCU79|RoD|Uro 3",
+      "MDCU78|RoB|28"
      ]
     },
     {
@@ -36,7 +38,8 @@ SUMM.push({
      "title": "Bladder CIS → intravesical BCG",
      "asked": [
       "CIS หลัง TURBT เอาที่เห็นออกหมด → next management",
-      "High-grade NMIBC → BCG (79D, คีย์ไฟล์ผิด)"
+      "High-grade NMIBC → BCG (79D, คีย์ไฟล์ผิด)",
+      "High-grade NMIBC หลัง TURBT → BCG (78B)"
      ],
      "pattern": [
       "CIS = <b>high-risk NMIBC</b> → BCG induction 6 สัปดาห์ + maintenance 1–3 ปี",
@@ -47,7 +50,8 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoC|URO 3",
-      "MDCU79|RoD|Uro 7"
+      "MDCU79|RoD|Uro 7",
+      "MDCU78|RoB|19"
      ]
     },
     {
@@ -74,26 +78,30 @@ SUMM.push({
      "id": "prostate-psa-onco",
      "title": "PSA 12 → MRI + biopsy",
      "asked": [
-      "LUTS + PSA 12 ไม่มี UTI → management"
+      "LUTS + PSA 12 ไม่มี UTI → management",
+      "ชาย 52 อยากตรวจคัดกรองมะเร็งต่อมลูกหมาก → shared decision (78D)"
      ],
      "pattern": [
       "mpMRI → targeted ± systematic biopsy"
      ],
      "members": [
-      "MDCU79|RoD|Uro 1"
+      "MDCU79|RoD|Uro 1",
+      "MDCU78|RoD|81"
      ]
     },
     {
      "id": "rcc-onco",
      "title": "Renal cell carcinoma",
      "asked": [
-      "Hematuria + น้ำหนักลด + solid renal mass → Dx"
+      "Hematuria + น้ำหนักลด + solid renal mass → Dx",
+      "Renal cystic lesion enhance → surgical excision (78B: complicated cyst)"
      ],
      "pattern": [
       "Solid enhancing ไม่มีไขมัน = RCC → partial/radical nephrectomy"
      ],
      "members": [
-      "MDCU79|RoD|Uro 8"
+      "MDCU79|RoD|Uro 8",
+      "MDCU78|RoB|20"
      ]
     },
     {
@@ -107,6 +115,32 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoD|Ped 12"
+     ]
+    },
+    {
+     "id": "bladder-scc",
+     "title": "Bladder SCC สัมพันธ์ chronic infection/irritation",
+     "asked": [
+      "มะเร็งกระเพาะปัสสาวะที่สัมพันธ์กับการติดเชื้อเรื้อรัง (78B)"
+     ],
+     "pattern": [
+      "Schistosomiasis, indwelling catheter, stone → SCC · urachal → adenocarcinoma"
+     ],
+     "members": [
+      "MDCU78|RoB|22"
+     ]
+    },
+    {
+     "id": "tcc-site",
+     "title": "Urothelial carcinoma: bladder บ่อยสุด · urethra น้อยสุด",
+     "asked": [
+      "TCC least likely occurs in (78D)"
+     ],
+     "pattern": [
+      "Distal urethra = squamous epithelium → SCC มากกว่า"
+     ],
+     "members": [
+      "MDCU78|RoD|85"
      ]
     }
    ]
@@ -231,7 +265,8 @@ SUMM.push({
       "Breast CA → brain mets",
       "Fourth ventricle → medulloblastoma",
       "Parinaud → pineal",
-      "Promising immunotherapy → ทุกข้อ"
+      "Promising immunotherapy → ทุกข้อ",
+      "Prolactinoma, low-grade glioma, vestibular schwannoma, pineal GCT, meningioma, brain mets (78)"
      ],
      "pattern": [
       "Mets หลายก้อน gray-white junction · medullo vermis · pineal Parinaud · GBM Stupp"
@@ -240,7 +275,14 @@ SUMM.push({
       "MDCU79|RoD|Neuro 4",
       "MDCU79|RoD|Neuro 2",
       "MDCU79|RoD|Neuro 10",
-      "MDCU79|RoD|Neuro ไม่มีเลข 1"
+      "MDCU79|RoD|Neuro ไม่มีเลข 1",
+      "MDCU78|RoA|8",
+      "MDCU78|RoA|9",
+      "MDCU78|RoB|38",
+      "MDCU78|RoB|46",
+      "MDCU78|RoB|54",
+      "MDCU78|RoB|55",
+      "MDCU78|RoD|21"
      ]
     }
    ]
@@ -252,7 +294,8 @@ SUMM.push({
      "id": "thymoma-mg",
      "title": "Myasthenia gravis + anterior mediastinal mass → thymoma",
      "asked": [
-      "หญิง 45 ปี หนังตาตก ภาพซ้อนแย่ลงตอนเย็น CT anterior mediastinal mass → most likely tumor (ตัวลวง teratoma, lymphoma, goiter, neurogenic)"
+      "หญิง 45 ปี หนังตาตก ภาพซ้อนแย่ลงตอนเย็น CT anterior mediastinal mass → most likely tumor (ตัวลวง teratoma, lymphoma, goiter, neurogenic)",
+      "MG + anterior mediastinal mass → thymoma (78B)"
      ],
      "pattern": [
       "Fatigable ptosis / diplopia = <b>MG</b>; MG + anterior mediastinal mass = <b>thymoma</b> (MG พบ 30–50% ของ thymoma)",
@@ -265,7 +308,8 @@ SUMM.push({
       "stem แต่งจาก recall ช้อยเดียว"
      ],
      "members": [
-      "MDCU79|RoC|CVT 4"
+      "MDCU79|RoC|CVT 4",
+      "MDCU78|RoB|12"
      ]
     },
     {
@@ -273,14 +317,30 @@ SUMM.push({
      "title": "Lung nodule: CT ก่อน, ก้อนน่าสงสัย → resection",
      "asked": [
       "CXR nodule → CT chest",
-      "ก้อนไม่ตอบยา TB ขอบ irregular ขึ้น → ผ่าตัด"
+      "ก้อนไม่ตอบยา TB ขอบ irregular ขึ้น → ผ่าตัด",
+      "CXR ก้อน apex → CT (78B) · spiculated 3.5 cm staging ปกติ → lobectomy (78D)"
      ],
      "pattern": [
       "Fleischner/ACCP · IGRA บวกไม่ได้ยืนยันว่าก้อนเป็น TB"
      ],
      "members": [
       "MDCU79|RoD|CVT 4",
-      "MDCU79|RoD|CVT 11"
+      "MDCU79|RoD|CVT 11",
+      "MDCU78|RoB|53",
+      "MDCU78|RoD|42"
+     ]
+    },
+    {
+     "id": "mediastinal-onco",
+     "title": "Posterior mediastinal mass → neurogenic tumor",
+     "asked": [
+      "Lateral CXR ก้อนหลัง (78B)"
+     ],
+     "pattern": [
+      "Posterior = neurogenic; anterior = thymoma/teratoma/lymphoma/thyroid"
+     ],
+     "members": [
+      "MDCU78|RoB|11"
      ]
     }
    ]
@@ -628,13 +688,35 @@ SUMM.push({
      "id": "melanoma-margin",
      "title": "Melanoma Breslow 3.2 mm → wide excision 2 cm (+ SLNB)",
      "asked": [
-      "Melanoma เท้าลึก 3.2 mm → margin"
+      "Melanoma เท้าลึก 3.2 mm → margin",
+      "Melanoma 2.5 mm → WLE 2 cm (78A)",
+      "Melanoma management (78B จดสั้น — แต่ง 1.5 mm: margin 1–2 cm + SLNB)"
      ],
      "pattern": [
       "in situ 0.5–1 · ≤1 mm 1 cm · 1–2 mm 1–2 cm · &gt;2 mm 2 cm · SLNB ≥T1b · acral lentiginous พบบ่อยในเอเชีย"
      ],
      "members": [
-      "MDCU79|RoD|Plastic 9"
+      "MDCU79|RoD|Plastic 9",
+      "MDCU78|RoA|1",
+      "MDCU78|RoB|49"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Pediatric tumor (78)",
+   "sections": [
+    {
+     "id": "sct-onco",
+     "title": "Sacrococcygeal teratoma → early excision + coccygectomy",
+     "asked": [
+      "Prenatal SCT คลอดแล้ว (รูป) → management (78D)"
+     ],
+     "pattern": [
+      "ต้องตัด coccyx · ติดตาม AFP"
+     ],
+     "members": [
+      "MDCU78|RoD|4"
      ]
     }
    ]

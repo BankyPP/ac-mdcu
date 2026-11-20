@@ -1,7 +1,7 @@
 SUMM.push({
  "tag": "Plastic",
  "title": "Plastic & Reconstructive surgery",
- "intro": "<ul><li>MDCU79 RoC 8 ข้อย่อย: <b>Burn</b> (Parkland 8 ชม.แรก, inhalation injury → intubation), <b>ก้อนผิวหนัง / ใต้ผิวหนัง</b> (subcutaneous cyst → complete excision, nevus sebaceous → full-thickness excision), <b>craniofacial / pediatric</b> (cleft palate timing, frontoethmoidal encephalocele, infantile hemangioma) และ <b>salivary</b> (pleomorphic adenoma)</li><li>รูปแบบ: คำนวณ (rule of nines + Parkland), ภาพ → next step, timing ผ่าตัด, Dx จาก histology</li><li>หลายเคสเป็น recall ช้อยเดียว Claude แต่ง stem (⚠) — จำ decision rule เช่น fluctuant → I&D vs ไม่อักเสบ → excision, low-risk vs high-risk hemangioma</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: keloid prevention, melanoma margin, genital warts, craniosynostosis ตาโปน, Le Fort airway, skin graft, fingertip, facial nerve, mandible fracture, parotid tumor ซ้ำ</li></ul>",
+ "intro": "<ul><li>MDCU79 RoC 8 ข้อย่อย: <b>Burn</b> (Parkland 8 ชม.แรก, inhalation injury → intubation), <b>ก้อนผิวหนัง / ใต้ผิวหนัง</b> (subcutaneous cyst → complete excision, nevus sebaceous → full-thickness excision), <b>craniofacial / pediatric</b> (cleft palate timing, frontoethmoidal encephalocele, infantile hemangioma) และ <b>salivary</b> (pleomorphic adenoma)</li><li>รูปแบบ: คำนวณ (rule of nines + Parkland), ภาพ → next step, timing ผ่าตัด, Dx จาก histology</li><li>หลายเคสเป็น recall ช้อยเดียว Claude แต่ง stem (⚠) — จำ decision rule เช่น fluctuant → I&D vs ไม่อักเสบ → excision, low-risk vs high-risk hemangioma</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: keloid prevention, melanoma margin, genital warts, craniosynostosis ตาโปน, Le Fort airway, skin graft, fingertip, facial nerve, mandible fracture, parotid tumor ซ้ำ</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: suture technique (half-buried), free flap, Stensen duct, Waters view, Parkland, cleft palate, encephalocele, Sturge–Weber, laceration closure, pressure injury, preauricular sinus, Crouzon</li></ul>",
  "groups": [
   {
    "title": "Burn",
@@ -10,7 +10,8 @@ SUMM.push({
      "id": "parkland",
      "title": "Parkland formula: rule of nines → ครึ่งแรกใน 8 ชม.",
      "asked": [
-      "ชาย 75 kg burn anterior trunk + แขนทั้งสองข้าง + ด้านหน้าต้นขาขวา → crystalloid ใน 8 ชม.แรก = 6.0 L"
+      "ชาย 75 kg burn anterior trunk + แขนทั้งสองข้าง + ด้านหน้าต้นขาขวา → crystalloid ใน 8 ชม.แรก = 6.0 L",
+      "Parkland 78A/78B"
      ],
      "pattern": [
       "Rule of nines: head 9, แขน 9 ต่อข้าง, anterior trunk 18, posterior trunk 18, ขา 18 ต่อข้าง (หน้า 9 หลัง 9), perineum 1; ฝ่ามือผู้ป่วย ≈1%",
@@ -25,7 +26,9 @@ SUMM.push({
       "stem ระบุ anterior thigh ข้างเดียวให้ชัด"
      ],
      "members": [
-      "MDCU79|RoC|Plastic 4"
+      "MDCU79|RoC|Plastic 4",
+      "MDCU78|RoA|2",
+      "MDCU78|RoB|6"
      ]
     },
     {
@@ -47,6 +50,20 @@ SUMM.push({
      "members": [
       "MDCU79|RoC|Plastic 5"
      ]
+    },
+    {
+     "id": "superficial-burn-plastic",
+     "title": "Superficial partial-thickness → dressing",
+     "asked": [
+      "แผลชมพูชื้นเจ็บ (78B, 78D)"
+     ],
+     "pattern": [
+      "ไม่ต้อง graft"
+     ],
+     "members": [
+      "MDCU78|RoB|7",
+      "MDCU78|RoD|62"
+     ]
     }
    ]
   },
@@ -57,7 +74,8 @@ SUMM.push({
      "id": "subcut-cyst-excision",
      "title": "ก้อนใต้ผิวหนัง benign ไม่อักเสบ → complete excision รวม capsule",
      "asked": [
-      "ก้อนที่แขนโตช้าหลายปี เพิ่งเจ็บ firm mobile ไม่ fluctuant ไม่แดงร้อน → management (ตัวลวง I&D, aspiration, oral ATB, observe)"
+      "ก้อนที่แขนโตช้าหลายปี เพิ่งเจ็บ firm mobile ไม่ fluctuant ไม่แดงร้อน → management (ตัวลวง I&D, aspiration, oral ATB, observe)",
+      "Lipoma หลังคอ cosmetic concern → excision (78B)"
      ],
      "pattern": [
       "ไม่อักเสบ → <b>elective complete excision รวม capsule / cyst wall</b> ส่งพยาธิ (เหลือผนัง → recur)",
@@ -70,7 +88,8 @@ SUMM.push({
       "stem เติมว่าไม่แดงร้อน — ถ้าเป็นหนองจะตอบ I&D"
      ],
      "members": [
-      "MDCU79|RoC|Plastic 3"
+      "MDCU79|RoC|Plastic 3",
+      "MDCU78|RoB|47"
      ]
     },
     {
@@ -110,13 +129,16 @@ SUMM.push({
      "id": "melanoma-plastic",
      "title": "Melanoma 3.2 mm → wide excision margin 2 cm",
      "asked": [
-      "Melanoma เท้าลึก 3.2 mm → treatment"
+      "Melanoma เท้าลึก 3.2 mm → treatment",
+      "Melanoma 2.5 mm → 2 cm (78A) · 1.5 mm → 1–2 cm + SLNB (78B)"
      ],
      "pattern": [
       "Margin ตาม Breslow + SLNB ≥T1b"
      ],
      "members": [
-      "MDCU79|RoD|Plastic 9"
+      "MDCU79|RoD|Plastic 9",
+      "MDCU78|RoA|1",
+      "MDCU78|RoB|49"
      ]
     },
     {
@@ -131,6 +153,32 @@ SUMM.push({
      "members": [
       "MDCU79|RoD|Plastic 10"
      ]
+    },
+    {
+     "id": "pressure-injury",
+     "title": "Pressure injury: เห็นไขมัน = stage 3 · เห็นกระดูก = stage 4",
+     "asked": [
+      "Pressure ulcer เห็น adipose ไม่เห็นกระดูก (78C)"
+     ],
+     "pattern": [
+      "NPIAP staging"
+     ],
+     "members": [
+      "MDCU78|RoC|6"
+     ]
+    },
+    {
+     "id": "preauricular-plastic",
+     "title": "Preauricular sinus → excision",
+     "asked": [
+      "(78B)"
+     ],
+     "pattern": [
+      "Excision ตอน quiescent"
+     ],
+     "members": [
+      "MDCU78|RoB|50"
+     ]
     }
    ]
   },
@@ -142,7 +190,8 @@ SUMM.push({
      "title": "Cleft palate → palatoplasty 9–12 เดือน",
      "asked": [
       "ทารก 3 เดือน isolated cleft palate กินได้ดี → เวลาผ่าตัด",
-      "ซ่อม cleft palate ตอนไหน → 1 ปี (79D)"
+      "ซ่อม cleft palate ตอนไหน → 1 ปี (79D)",
+      "Cleft palate complication (78B) · อายุผ่าตัด (78D)"
      ],
      "pattern": [
       "Lip ~3 เดือน → <b>palate 9–12 เดือน</b> (ก่อน ~18 เดือน) → speech / VPI 3–5 ปี → alveolar bone graft 9–11 ปี → orthognathic วัยรุ่นปลาย",
@@ -154,14 +203,17 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoC|Plastic 6",
-      "MDCU79|RoD|Ped 8"
+      "MDCU79|RoD|Ped 8",
+      "MDCU78|RoB|8",
+      "MDCU78|RoD|63"
      ]
     },
     {
      "id": "encephalocele",
      "title": "Frontoethmoidal encephalocele: failure of closure ที่ nasoethmoidal",
      "asked": [
-      "ก้อน nasal root ตั้งแต่เกิด โตเวลาร้อง + hypertelorism (ภาพ) → กลไก"
+      "ก้อน nasal root ตั้งแต่เกิด โตเวลาร้อง + hypertelorism (ภาพ) → กลไก",
+      "Frontoethmoidal encephalocele (78B)"
      ],
      "pattern": [
       "Anterior neuropore ปิดไม่สมบูรณ์ที่ frontal–ethmoid → bony defect; พบบ่อยในไทย",
@@ -173,7 +225,8 @@ SUMM.push({
       "stem และรูปในต้นฉบับไม่สมบูรณ์ — คำตอบตรงเฉลยของผู้จด"
      ],
      "members": [
-      "MDCU79|RoC|Plastic 1"
+      "MDCU79|RoC|Plastic 1",
+      "MDCU78|RoB|9"
      ]
     },
     {
@@ -198,13 +251,28 @@ SUMM.push({
      "id": "craniosynostosis",
      "title": "Craniosynostosis ตาโปน → tarsorrhaphy",
      "asked": [
-      "Most urgent and effective treatment ของตาโปน"
+      "Most urgent and effective treatment ของตาโปน",
+      "Crouzon → ICP สูงเร่งด่วน (78D)"
      ],
      "pattern": [
       "Lubricant → lid taping → tarsorrhaphy · definitive fronto-orbital advancement"
      ],
      "members": [
-      "MDCU79|RoD|Plastic 1"
+      "MDCU79|RoD|Plastic 1",
+      "MDCU78|RoD|65"
+     ]
+    },
+    {
+     "id": "sws-plastic",
+     "title": "Port-wine stain (capillary malformation) + seizure → Sturge–Weber",
+     "asked": [
+      "ปานแดงที่หน้า (78B)"
+     ],
+     "pattern": [
+      "Pulsed dye laser · ตรวจ IOP + MRI เมื่อปานกิน V1"
+     ],
+     "members": [
+      "MDCU78|RoB|42"
      ]
     }
    ]
@@ -282,13 +350,16 @@ SUMM.push({
      "id": "facial-nerve-plastic",
      "title": "แผลแก้มยาว: อาการที่ไม่น่าพบ = upper eyelid ptosis",
      "asked": [
-      "แผลขมับถึงคาง → not likely finding"
+      "แผลขมับถึงคาง → not likely finding",
+      "แผลแก้ม → Stensen duct (78B, 78D)"
      ],
      "pattern": [
       "CN VII: brow ptosis, lagophthalmos, drooling · sialocele จาก parotid"
      ],
      "members": [
-      "MDCU79|RoD|Plastic 7"
+      "MDCU79|RoD|Plastic 7",
+      "MDCU78|RoB|4",
+      "MDCU78|RoD|61"
      ]
     },
     {
@@ -305,6 +376,60 @@ SUMM.push({
      ],
      "members": [
       "MDCU79|RoD|Plastic 8"
+     ]
+    },
+    {
+     "id": "suture-technique",
+     "title": "V-shaped flap tip → half-buried (corner) mattress",
+     "asked": [
+      "แผลรูป V ต้องการรักษาเลือดเลี้ยงปลาย flap (78B)"
+     ],
+     "pattern": [
+      "Corner stitch ผ่าน dermis ของปลาย flap ไม่ทะลุผิว"
+     ],
+     "members": [
+      "MDCU78|RoB|2"
+     ]
+    },
+    {
+     "id": "free-flap",
+     "title": "กระดูกหน้าแข้งโผล่ ฐานแผลเลือดไม่ดี → free flap",
+     "asked": [
+      "แผลหน้าแข้งกระดูกโผล่ (78B คีย์: อยากได้ free flap)"
+     ],
+     "pattern": [
+      "Graft ไม่ติดบน bare bone/tendon · distal 1/3 tibia → free flap"
+     ],
+     "members": [
+      "MDCU78|RoB|3"
+     ]
+    },
+    {
+     "id": "waters-view",
+     "title": "สงสัย maxillary fracture → Waters view",
+     "asked": [
+      "ถูกต่อยหน้า สงสัย maxilla หัก → view (78B)"
+     ],
+     "pattern": [
+      "Waters: maxilla/orbit floor · SMV: zygomatic arch · Towne: condyle · CT = standard"
+     ],
+     "members": [
+      "MDCU78|RoB|5"
+     ]
+    },
+    {
+     "id": "laceration-closure",
+     "title": "แผลสะอาด → irrigation + primary closure · แผลคิ้ว: simple suture ห้ามโกนคิ้ว",
+     "asked": [
+      "แผล 4 cm แขน well vascularized → primary closure (78B)",
+      "แผลคิ้ว 2.5 cm cosmetic concern → simple interrupted (78C)"
+     ],
+     "pattern": [
+      "ส่ง plastic เฉพาะแผลซับซ้อน (eyelid margin, lacrimal, facial nerve, parotid duct, tissue loss)"
+     ],
+     "members": [
+      "MDCU78|RoB|43",
+      "MDCU78|RoC|4"
      ]
     }
    ]
