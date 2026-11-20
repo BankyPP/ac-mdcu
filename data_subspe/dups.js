@@ -8,11 +8,8 @@ W.DUP.push(
   ["MDCU76|RoD|15","MDCU78|RoC|Colorectal tumor 1","MDCU78|RoD|Colorectal tumor 3"],
   ["MDCU76|RoD|54","MDCU78|RoA|Anorectal 4","MDCU70|RoB|96"],
   ["MDCU78|RoC|Surgical Oncology 4","MDCU74|RoC|13"],
-  ["MDCU78|RoA|Small bowel 1","MDCU78|RoC|Acute abdomen 3"],
-  ["MDCU78|RoA|Anorectal 1","MDCU78|RoD|Anorectal disease 5"],
   ["MDCU78|RoA|Anorectal 2","MDCU78|RoD|Anorectal disease 1"],
   ["MDCU78|RoC|Anorectal 6","MDCU78|RoD|Anorectal disease 3"],
-  ["MDCU74|RoA|ไม่มีเลข 9","MDCU78|RoA|Colorectal 5"],
   ["MDCU74|RoD|ไม่มีเลข 29","MDCU78|RoC|Anorectal 3","MDCU73|RoB|24"],
   ["MDCU79|RoC|คิดไม่ออกว่าอยู่บทไหน ไม่มีเลข 6","MDCU72|RoB|13"],
   ["MDCU79|RoD|Acute abdomen 1","MDCU75|RoD|33"],
@@ -37,6 +34,29 @@ W.DUP.push(
   ["MDCU79|RoC|Ped 4","MDCU79|RoD|Ped 13"],
   ["MDCU79|RoC|Ped ไม่มีเลข 1","MDCU79|RoD|Ped 9"],
   ["MDCU79|RoC|neuro 6","MDCU79|RoD|Neuro 4"],
-  ["MDCU79|RoC|Colo 2","MDCU79|RoD|Ped 2"],
   ["MDCU79|RoC|CVT 3","MDCU79|RoD|CVT 1","MDCU79|RoD|CVT 9"]
+);
+
+/* AC 77 Subspe (21 พ.ย. 2026): ข้อซ้ำ/เรื่องเดียวกันข้าม rotation ปี 77 และกับปีอื่น (รวมกลุ่มเดิมที่ทับซ้อนเข้ามาด้วย) */
+W.DUP.push(
+  ["MDCU77|RoA|Plastic 2","MDCU77|RoB|Plastic 14"],
+  ["MDCU77|RoA|Ped 3","MDCU77|RoB|Plastic 15","MDCU78|RoD|63"],
+  ["MDCU77|RoB|Plastic 10","MDCU77|RoC|Plastic 8"],
+  ["MDCU77|RoB|Plastic 6","MDCU77|RoC|Plastic 13"],
+  ["MDCU77|RoA|Ped 10","MDCU77|RoB|Ped 8","MDCU77|RoC|Ped 3"],
+  ["MDCU77|RoA|Ped 13","MDCU77|RoB|Ped 9"],
+  ["MDCU77|RoA|Neuro 6","MDCU77|RoB|Neuro 2","MDCU77|RoC|Neuro 2"],
+  ["MDCU77|RoC|Colo 5","MDCU73|RoB|22"],
+  ["MDCU77|RoC|Colo 6","MDCU78|RoA|Small bowel 1","MDCU78|RoC|Acute abdomen 3","MDCU79|RoC|Colo 2","MDCU79|RoD|Ped 2"],
+  ["MDCU77|RoA|Colo 2","MDCU77|RoB|Colo 2"],
+  ["MDCU77|RoA|CVT 6","MDCU77|RoB|CVT 5"],
+  ["MDCU77|RoA|Neuro 9","MDCU79|RoD|Neuro 6"],
+  ["MDCU77|RoB|Plastic 4","MDCU78|RoD|62"],
+  ["MDCU77|RoB|Neuro 3","MDCU79|RoD|Neuro 7"],
+  ["MDCU77|RoB|Colo 6","MDCU77|RoC|Colo 11","MDCU78|RoA|Anorectal 1","MDCU78|RoD|Anorectal disease 5"],
+  ["MDCU77|RoA|Colo 12","MDCU78|RoA|Colorectal 5","MDCU74|RoA|ไม่มีเลข 9"],
+  ["MDCU77|RoA|Colo 11","MDCU79|RoD|Colo 7"],
+  ["MDCU77|RoC|Colo 3","MDCU79|RoD|Colo 10"],
+  ["MDCU77|RoA|Uro 12","MDCU78|RoD|82"],
+  ["MDCU77|RoB|Colo 3","MDCU79|RoD|Colo 12"]
 );
