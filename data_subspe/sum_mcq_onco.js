@@ -1,59 +1,643 @@
-SUMM.push({tag:"Onco", title:"Oncology (ทุกวอร์ดย่อย)",
-  intro:"<ul><li><b>รวมข้อ Gen Sx ที่ clone มา (19 พ.ย. 2026)</b> — กลุ่ม “จาก Gen Sx — …” ด้านล่าง</li><li>MDCU79 RoC 9 ข้อย่อย กระจาย 4 วอร์ดย่อย: <b>Uro</b> (testicular seminoma ออกซ้ำ 2 เคส, bladder CIS, UTUC), <b>Colorectal</b> (rectal cancer stage III, colorectal liver metastasis), <b>Neuro</b> (vasogenic edema, เทคนิครังสี) และ <b>CVT</b> (thymoma + myasthenia gravis)</li><li>แนวถาม: Dx จาก marker / อาการ paraneoplastic และ <b>next management ตาม risk / stage</b> — CIS → BCG, high-risk UTUC → nephroureterectomy + bladder cuff, N+ rectal → neoadjuvant ก่อน TME, resectable CRLM → hepatectomy</li><li>กับดักร่วม: คำว่า in situ / T2 / metastasis ทำให้เลือกการรักษาเบาหรือ palliative เกินไป</li></ul>",
-  groups:[
-    {title:"Uro-oncology", sections:[
-      {id:"seminoma", title:"Seminoma: β-hCG สูง + AFP ปกติ",
-       trend:"ออกซ้ำ 2 เคสในชุดเดียว",
-       asked:["ก้อนอัณฑะแข็งไม่เจ็บ hCG สูง AFP ปกติ → Dx (ตัวลวง Leydig, Sertoli, yolk sac, epididymitis)"],
-       pattern:["Pure seminoma <b>ไม่หลั่ง AFP</b>; hCG สูงได้ ~15–20%","Marker ก่อนผ่า → <b>radical inguinal orchiectomy</b> → CT staging + marker ซ้ำ","Stage I seminoma: surveillance หรือ carboplatin 1 cycle; สูงกว่า → BEP / EP"],
-       pearls:["ห้าม scrotal approach / biopsy","URO 1 echo pattern ใน recall เข้ากับ nonseminoma — มั่นใจปานกลาง"],
-       members:["MDCU79|RoC|URO 1","MDCU79|RoC|URO 9"]},
-      {id:"bladder-cis", title:"Bladder CIS → intravesical BCG",
-       asked:["CIS หลัง TURBT เอาที่เห็นออกหมด → next management"],
-       pattern:["CIS = <b>high-risk NMIBC</b> → BCG induction 6 สัปดาห์ + maintenance 1–3 ปี","BCG-unresponsive → radical cystectomy"],
-       pearls:["intravesical chemo single dose ใช้กับ low-risk papillary"],
-       members:["MDCU79|RoC|URO 3"]},
-      {id:"utuc", title:"High-risk UTUC → nephroureterectomy + bladder cuff",
-       asked:["High-grade UC proximal ureter 3 cm + hydronephrosis → management"],
-       pattern:["High-risk (high-grade, ≥2 cm, hydronephrosis, multifocal) → <b>radical nephroureterectomy + bladder cuff excision</b> + single post-op intravesical chemo","Adjuvant platinum ใน pT2–4 / N+ (POUT)"],
-       pearls:["radical nephrectomy = RCC ไม่ใช่ urothelial","stem แต่งให้เป็น high-risk จาก recall หัวข้อ + ช้อยเดียว"],
-       members:["MDCU79|RoC|URO 4"]}
-    ]},
-    {title:"Colorectal oncology", sections:[
-      {id:"rectal-ca-stage3", title:"Rectal cancer T2N1 mid rectum → neoadjuvant แล้ว LAR + TME",
-       asked:["Adenocarcinoma mid rectum 8 cm จาก anal verge MRI T2N1 MRF clear ไม่มี M → management (ตัวลวง upfront APR, local excision)"],
-       pattern:["<b>cT3–4 หรือ N+ → neoadjuvant</b> (long-course CRT 50–50.4 Gy + capecitabine / 5-FU, short-course 25 Gy / 5 fx; NCCN นิยม TNT)","Upper / mid rectum → <b>LAR + TME</b> ± diverting ileostomy; low rectum ลุกลาม sphincter → APR","Margin: distal ≥1–2 cm, CRM >1 mm; cCR หลัง TNT → watch-and-wait ในศูนย์เชี่ยวชาญ","Staging: MRI pelvis (T, N, MRF, EMVI), CT chest-abdomen, CEA, colonoscopy ทั้งลำไส้"],
-       pearls:["T2N0 ผ่าได้เลย แต่ T2N1 ต้องให้ neoadjuvant","stem เติมตำแหน่ง mid rectum — ถ้า low rectum ติด sphincter จะเป็น APR"],
-       members:["MDCU79|RoC|Colo 5"]},
-      {id:"crlm", title:"Colorectal liver metastasis resectable → liver resection",
-       asked:["หลังรักษา colon cancer stage III พบ liver met 2 ก้อน 2–3 cm segment VI, VII, FLR พอ → management (ตัวลวง RFA, chemo อย่างเดียว, transplant)"],
-       pattern:["CRLM resectable → <b>hepatectomy</b> ± perioperative FOLFOX (EORTC 40983); 5-year survival ~40–50%","Resectability: R0, เหลือ ≥2 contiguous segments ที่มี inflow / outflow / biliary drainage, FLR ≥20% (ปกติ) / ≥30% (หลัง chemo มาก) / ≥40% (cirrhosis), ควบคุมโรคนอกตับได้","FLR ไม่พอ → portal vein embolization, two-stage hepatectomy, ALPPS","Unresectable → systemic chemo ± biologic → ประเมิน conversion"],
-       pearls:["metastasis ไม่ได้แปลว่า palliative ใน CRLM","RFA เป็นทางเลือกเมื่อผ่าไม่ได้ — ผ่าได้ต้องผ่า"],
-       members:["MDCU79|RoC|Colo 6"]}
-    ]},
-    {title:"Neuro-oncology", sections:[
-      {id:"vasogenic-edema", title:"Brain metastasis edema = vasogenic → dexamethasone",
-       asked:["มะเร็งเต้านม ก้อนสมอง 2 cm + edema → ยา + เหตุผล"],
-       pattern:["Tumor edema = <b>vasogenic</b> → <b>corticosteroid</b> (dexamethasone 4–8 mg/วัน, 16 mg ถ้ารุนแรง) เฉพาะผู้มีอาการ (ASCO-SNO-ASTRO 2022)","Mannitol = bridge ชั่วคราว","Definitive: SRS / resection + SRS / WBRT ตามจำนวนและขนาด"],
-       pearls:["steroid + cytotoxic เป็นคู่ผิด","choices แต่งจาก recall ช้อยเดียว"],
-       members:["MDCU79|RoC|neuro 6"]},
-      {id:"rt-technique", title:"เทคนิครังสีที่แม่นที่สุด: gamma knife + proton",
-       asked:["เลือก 2 เทคนิคที่แม่นที่สุดสำหรับ brain tumor"],
-       pattern:["<b>Gamma knife (SRS)</b>: แม่น sub-millimeter","<b>Proton</b>: Bragg peak ไม่มี exit dose — เด็ก, skull base","IMRT แม่นน้อยกว่าสองตัวนี้ แต่ใช้กับ glioma ก้อนใหญ่"],
-       pearls:["ช้อยในต้นฉบับเป็นตัวเลข Claude แปลงเป็นชื่อเทคนิค"],
-       members:["MDCU79|RoC|neuro 3b"]}
-    ]},
-    {title:"Thoracic oncology", sections:[
-      {id:"thymoma-mg", title:"Myasthenia gravis + anterior mediastinal mass → thymoma",
-       asked:["หญิง 45 ปี หนังตาตก ภาพซ้อนแย่ลงตอนเย็น CT anterior mediastinal mass → most likely tumor (ตัวลวง teratoma, lymphoma, goiter, neurogenic)"],
-       pattern:["Fatigable ptosis / diplopia = <b>MG</b>; MG + anterior mediastinal mass = <b>thymoma</b> (MG พบ 30–50% ของ thymoma)","Anterior = 4T; middle = cyst / LN; posterior = neurogenic","Resectable → <b>total thymectomy en bloc</b> ไม่ต้อง biopsy ก่อน; optimize MG ก่อนผ่า (pyridostigmine, steroid, IVIG / plasmapheresis)","Paraneoplastic อื่น: pure red cell aplasia, hypogammaglobulinemia (Good)"],
-       pearls:["ไม่ตีความ ตาตกตอนเย็น เป็น MG → เลือก T อื่น","stem แต่งจาก recall ช้อยเดียว"],
-       members:["MDCU79|RoC|CVT 4"]}
-    ]},
-    /* clone จาก Gen Sx (19 พ.ย. 2026) — section จากสรุป Onco ของ Gen Sx เฉพาะข้อที่ clone มา */
-    {"title":"จาก Gen Sx — หลักการ: Carcinogenesis, risk factor และ prevention","sections":[{"id":"gen-prevention-screening","title":"ระดับของ prevention และ screening","trend":"แยก primary vs secondary prevention โดยใช้เคส BRCA / adenoma / sunscreen และสิ่งที่ต้องทำเมื่อผล screening บวก","asked":["BRCA1 carrier อายุ 25: ข้อใดเป็น primary prevention (bilateral risk-reducing mastectomy)","DCIS ที่พบจาก screening แล้วทำ mastectomy = prevention ระดับใด (secondary)","Tubular adenoma ที่ตัดด้วย colonoscopic polypectomy = secondary prevention","ชายอายุ 55 ปี ไม่เคย screen CRC: ควรแนะนำอย่างไร (เริ่ม screening เลย)","ข้อใดเป็น primary prevention (risk-reducing mastectomy ใน BRCA carrier; ตัวลวง annual mammogram, colonoscopic polypectomy, PSA screening, surveillance colonoscopy หลัง polypectomy = secondary)","Tubular adenoma 1 cm พบจาก colonoscopy → การกระทำที่เป็น secondary prevention: colonoscopic polypectomy (ตัวลวง serum CEA, FOBT, PET scan, high-fiber diet)","ข้อใดเป็น primary prevention ของมะเร็ง: sunscreen ป้องกัน skin cancer (ตัวลวง US เมื่อ AFP สูง, colonoscopy ใน polyposis, ERCP ในผู้ป่วยตัวเหลือง, EGD ใน Barrett เพื่อป้องกัน esophageal cancer)","Primary prevention ของ breast cancer: bilateral mastectomy ใน healthy BRCA1 carrier (ตัวลวง genetic testing, screening mammogram เริ่มอายุ 40, ตัด fibroadenoma / cyst, ตัด DCIS)","ชาย 49 ปี FOBT บวกจากการตรวจสุขภาพ ไม่มีอาการ CEA / CBC / LFT ปกติ → colonoscopy (ตัวลวง reassure, เพิ่มใยอาหารและน้ำ, EGD, CT whole abdomen)"],"pattern":["<b>Primary</b> = ป้องกันไม่ให้เกิดโรค (วัคซีน HPV / HBV, เลิกบุหรี่, lifestyle, bilateral risk-reducing mastectomy / salpingo-oophorectomy ใน BRCA carrier, chemoprevention)","<b>Secondary</b> = ตรวจพบและรักษาระยะ pre-clinical / early (screening mammogram, FOBT / FIT, colonoscopic polypectomy ของ adenoma, การรักษา DCIS ที่พบจาก screening)","<b>Tertiary</b> = ลดความพิการ / recurrence ของโรคที่เป็นแล้ว (adjuvant therapy, surveillance หลังผ่าตัด, rehabilitation)","<b>CRC screening average risk:</b> ไม่มีประวัติครอบครัว ไม่เคย screen → เริ่มทันที (USPSTF / ACS 2021 เริ่มที่อายุ 45; โครงการไทยใช้ FIT อายุ 50–70) · colonoscopy ทุก 10 ปี หรือ FIT ทุกปี · ห้ามใช้ CEA เป็น screening (CEA ใช้ติดตามหลังผ่าตัด)","<b>Primary prevention ตัวอย่างเพิ่ม:</b> ปรับ risk factor (เลิกบุหรี่, ครีมกันแดด, วัคซีน HBV / HPV, ลด alcohol, คุมน้ำหนัก) และ removal of target organ ก่อนมี lesion ในกลุ่มเสี่ยงสูง — risk-reducing mastectomy / RRSO ใน BRCA, prophylactic colectomy ใน FAP, prophylactic thyroidectomy ใน MEN2 / RET, total gastrectomy ใน CDH1 · <b>Secondary</b> = screening + เอา premalignant lesion ออก + surveillance · <b>Tertiary</b> = CEA ติดตามหลังรักษา, adjuvant therapy","<b>แยกระดับเร็ว ๆ:</b> ยังไม่มีโรค / รอยโรค แล้วลด exposure หรือเอาอวัยวะเป้าหมายออก = primary (sunscreen, วัคซีน HPV / HBV, เลิกบุหรี่, risk-reducing mastectomy, chemoprevention) · ตรวจหาโรคหรือรอยโรคตั้งต้นที่เกิดแล้ว = secondary (mammogram, FIT / colonoscopy, EGD surveillance ใน Barrett, US เมื่อ AFP สูง) · ตัด DCIS = รักษามะเร็งที่เป็นแล้ว ไม่ใช่ primary","<b>Stool test บวก (gFOBT / FIT):</b> ต้องตามด้วย diagnostic colonoscopy ทุกราย ไม่ว่าอายุ อาการ หรือ CEA / CBC ปกติ — ควรทำภายในราว 6 เดือน (US Multi-Society Task Force; รอ > 9–10 เดือนสัมพันธ์กับ advanced stage) · USPSTF 2021 / ACS 2018: average risk เริ่ม screen อายุ 45 ปี"],"pearls":["ข้อ BRCA1: bank เปลี่ยนช้อยเป็น 'bilateral risk-reducing mastectomy' — MRI / mammogram / US = surveillance (secondary); ลายมือในเฉลยที่ว่า chemoprevention = secondary ไม่ตรงนิยามทั่วไป","ข้อ polypectomy: FOBT ก็ถือเป็น secondary prevention (screening) ได้ แต่ bank ใส่เคส adenoma ที่พบแล้วจึงตอบ polypectomy","ข้อ polypectomy: 73 RoC / 74 RoC / 78 ตอบตรงกัน — ตัด adenoma ที่พบแล้ว = secondary (บางตำราจัดเป็น primary แต่ข้อสอบนี้ใช้ตามสไลด์) ส่วน surgery ก่อนมี lesion เช่น risk-reducing mastectomy = primary; ข้อ adenoma 1 cm (74 RoC) ต้นฉบับตอบได้สองช้อย (FOBT ก็เป็น secondary) — bank เติมว่าส่อง colonoscopy พบ adenoma แล้ว จึงเหลือ polypectomy","คำว่า 'to prevent cancer' ในช้อย colonoscopy ใน polyposis / EGD ใน Barrett เป็นกับดัก — การเฝ้าระวังในผู้มีรอยโรคตั้งต้นแล้ว = secondary","เคส FOBT บวก (70 RoA): คีย์ในไฟล์ตอบ 'เพิ่มใยอาหารและน้ำ' — bank ตอบ colonoscopy (ช้อยที่ bank เติม); CEA ปกติไม่ตัดมะเร็ง และอายุยังไม่ถึงเกณฑ์เดิมไม่ใช่เหตุให้ไม่ส่องเมื่อผลบวกแล้ว"],"members":["MDCU78|RoC|Surgical Oncology 4","MDCU78|RoD|Colorectal tumor 4","MDCU74|RoC|13","MDCU70|RoA|31"]}]},
-    {"title":"จาก Gen Sx — หลักการ: Hereditary cancer syndromes","sections":[{"id":"gen-hered-colorectal","title":"FAP, Lynch และ Peutz-Jeghers (polyposis / colorectal)","trend":"โจทย์ซ้ำ: ริมฝีปากมี pigment → hamartomatous polyp; polyp หลายร้อย → FAP","asked":["ชายอายุ 25 ปี colonoscopy พบ adenomatous polyp หลายร้อยก้อน → คำแนะนำสำคัญที่สุด (genetic testing ของญาติ)","Pigmented macules ที่ริมฝีปาก / กระพุ้งแก้ม + small bowel obstruction หรือส่อง colonoscopy → polyp ชนิดใด (hamartomatous)","CRC ในพ่อ ปู่ และป้าเป็น ovarian cancer → pattern การถ่ายทอด (autosomal dominant)","ผู้ชาย 42 ปี ป้า 2 คนเป็น colon cancer ตอนอายุ 65 / 75 ปี colonoscopy ปกติ → ปรับ lifestyle","Colorectal adenocarcinoma เกิดอย่างไร (accumulation of multiple genetic mutations)","หญิง 20 ปี ปวดท้องเป็นพัก ๆ 6 เดือน, polyp ลำไส้เล็กหลายก้อน + จุดสีเข้มที่ริมฝีปากและกระพุ้งแก้ม → histology: hamartomatous polyp (Peutz-Jeghers)"],"pattern":["<b>FAP:</b> APC mutation (AD, chr 5q), adenoma > 100 ก้อน, อายุ ~ 15–25 ปี → โอกาสเป็น CRC เกือบ 100% ถ้าไม่ผ่าตัด · ผู้ป่วยต้องทำ prophylactic proctocolectomy (ileal pouch–anal anastomosis หรือ colectomy + IRA); ญาติสายตรงทำ <b>genetic testing + counselling</b> และเริ่ม endoscopic screening ตั้งแต่วัยรุ่น · มี extracolonic: duodenal / ampullary adenoma, desmoid, CHRPE, osteoma (Gardner)","<b>Lynch syndrome (HNPCC):</b> mismatch-repair genes (MLH1, MSH2, MSH6, PMS2), autosomal dominant → CRC ต้นอายุ (~ 45 ปี) ข้างขวา + endometrial, ovarian, gastric, urinary tract · Amsterdam II: ญาติ 3 คน (หนึ่งคนเป็น first-degree ของอีกสองคน), 2 รุ่นต่อเนื่อง, 1 คนอายุ < 50 ปี, ตัด FAP ออก · ญาติ second-degree 2 คนที่เป็นตอนอายุ 65–75 ปี <b>ไม่เข้าเกณฑ์</b> → ให้คำแนะนำ lifestyle ไม่ต้อง genetic test / colonoscopy ถี่ขึ้น","<b>Peutz-Jeghers:</b> STK11, AD, pigmented macules ที่ริมฝีปาก / กระพุ้งแก้ม / มือเท้า + <b>hamartomatous polyps</b> ใน small bowel (jejunum มาก) → intussusception / obstruction · เสี่ยง CRC, pancreas, breast, ovarian cancer เพิ่ม · hamartomatous polyp ไม่ใช่ adenoma แต่มี malignant potential ผ่าน syndrome","<b>Adenoma–carcinoma sequence:</b> normal mucosa → adenoma → carcinoma จากการสะสม mutation หลายตำแหน่ง (APC → KRAS → p53 / DCC-SMAD4) ไม่ใช่ single mutation, ไม่ใช่ hyperplastic → inflammatory polyp → cancer และไม่ใช่ทุก hamartoma ที่กลายเป็นมะเร็ง","<b>ชนิดของ polyp:</b> adenomatous (tubular < villous < tubulovillous เสี่ยง), hyperplastic (ไม่ premalignant ยกเว้น sessile serrated), inflammatory (IBD), hamartomatous (PJS, juvenile)","<b>PJS ทางคลินิก:</b> ปวดบิดเป็นพัก ๆ จาก intussusception ตั้งแต่อายุน้อย, GI bleeding / ซีด · histology = hamartomatous polyp ที่มี smooth muscle แตกแขนงแบบ arborizing ใน lamina propria, พบมากสุดใน jejunum · polyp ใหญ่ในลำไส้เล็ก (ราว ≥ 1–1.5 cm) ควรตัดเพื่อป้องกัน intussusception"],"pearls":["โจทย์ภาพ PJS (ริมฝีปากสีฟ้าเทา / น้ำตาลเข้ม) ไม่มีรูปในไฟล์ — bank บรรยายใน stem แทน; คำตอบยังเป็น hamartomatous polyp","FAP ที่ได้ colonoscopy ครั้งเดียวไม่ใช่เรื่อง 'repeat 10 ปี' — อย่าเลือก routine surveillance ช้อยหลอก","ตัวหลอกของโจทย์ PJS: adenomatous polyp (คิดว่า FAP), juvenile polyposis (hamartomatous เหมือนกันแต่ไม่มี pigmentation และอยู่ colon เป็นหลัก), GIST, hyperplastic, inflammatory polyp"],"members":["MDCU76|RoA|47","MDCU78|RoA|Colorectal 3","MDCU78|RoC|Colorectal tumor 3","MDCU78|RoA|Oncology 2","MDCU77|RoC|55","MDCU78|RoC|Surgical Oncology 2","MDCU74|RoA|28"]}]},
-    {"title":"จาก Gen Sx — หลักการ: Surgical oncology, oncologic emergency และ palliative care","sections":[{"id":"gen-palliative-care","title":"Palliative / end-of-life care และการเลือกวิธี palliation","trend":"ถามนิยามและสิ่งที่ 'ไม่ใช่' palliative care + การปรึกษาเป้าหมายผู้ป่วย","asked":["Palliative care ที่ถูกต้องคืออะไร (ปรับคุณภาพชีวิตช่วงเวลาที่เหลือ)","ข้อใดไม่ใช่องค์ประกอบ / เป้าหมายของ end-of-life / palliative care (euthanasia)","ข้อใดไม่ใช่ palliative treatment (ERCP + stent; ตามคีย์ของรุ่นนั้น)","ผู้ป่วย end-stage cancer อยากอยู่บ้านกับครอบครัว → consult end-of-life care / palliative care center","ชายอายุ 76 ECOG 3, โรคร่วมมาก, ไม่ต้องการผ่าตัดใหญ่, sigmoid cancer ไม่มี obstruction → best supportive care","WHO ให้เริ่ม palliative care ในผู้ป่วยมะเร็งเมื่อใด → ตั้งแต่วินิจฉัย (ตัวลวง: ระยะท้าย, ไม่ใช่ขณะยัง curable, หลัง curative treatment fail, วาระสุดท้าย)","ข้อใดเป็น palliative treatment: gastrojejunostomy bypass มะเร็งหัวตับอ่อน (ตัวลวง BCS ก้อนเล็ก, total thyroidectomy + LND, LAR stage II rectal, FOBT ซ้ำ)","Pancreatic head ca + peritoneal carcinomatosis + lung mets → ข้อความที่ผิด: 'ศัลยแพทย์ไม่มีบทบาทในการดูแล' (ที่ถูก: GJ เมื่อมี GOO, biliary stent เมื่อเหลือง, pain control around-the-clock, MDT เรื่อง palliative chemo / RT)"],"pattern":["<b>นิยาม (WHO):</b> ดูแลผู้ป่วยโรคคุกคามชีวิตและครอบครัว เพื่อ <b>เพิ่มคุณภาพชีวิต</b> โดยป้องกัน / บรรเทา pain และอาการทางกาย จิตใจ สังคม จิตวิญญาณ · ไม่เร่งหรือยื้อความตาย · เริ่มได้ตั้งแต่วินิจฉัยร่วมกับการรักษาหลัก — ไม่ใช่เฉพาะวาระสุดท้าย · ไม่ใช่ 'ถอนการรักษาทั้งหมด' หรือ 'ยื้อชีวิตทุกวิถีทาง'","<b>องค์ประกอบ:</b> symptom palliation (pain, dyspnea ฯลฯ), spiritual / psychosocial support, family & bereavement support, advance care planning (living will ตาม พ.ร.บ. สุขภาพแห่งชาติ มาตรา 12) · <b>Euthanasia ไม่ใช่</b> ส่วนหนึ่งของ palliative / EOL care (ผิดกฎหมายไทย)","<b>เมื่อผู้ป่วยระบุความต้องการ (อยากอยู่บ้าน):</b> เคารพ autonomy → ส่งปรึกษา end-of-life / palliative care team เพื่อวางแผนดูแลที่บ้าน; ไม่ให้สามี 'ตัดสินแทน', ไม่เริ่ม chemo ใหม่ โดยไม่ตรงเป้าหมาย, ไม่ discharge ทิ้ง","<b>ECOG 3–4 + ไม่ต้องการ major surgery + ไม่มี obstruction / metastasis:</b> best supportive care ถูกต้อง (stent ใช้เมื่อมี obstruction เท่านั้น) ","<b>ตัวอย่าง palliative procedure:</b> opioid / palliative sedation, RT สำหรับ cord compression หรือ bone pain, gastrojejunostomy สำหรับ gastric outlet obstruction, biliary stent / PTBD ใน unresectable obstructive jaundice, esophageal stent ใน metastatic dysphagia","<b>Curative vs palliative:</b> ดูว่าตั้งใจเอาก้อนออกให้หายขาด (R0) หรือแค่แก้ภาวะแทรกซ้อนเพื่อคุณภาพชีวิต (bypass, stent, RT ลดปวด / เลือดออก)","<b>Palliation ของ unresectable pancreatic head ca:</b> biliary obstruction → ERCP + SEMS (หรือ surgical biliary bypass) · gastric outlet obstruction → gastrojejunostomy (open / laparoscopic), duodenal stent หรือ EUS-guided gastroenterostomy · pain → around-the-clock analgesic + celiac plexus neurolysis — ศัลยแพทย์ยังอยู่ในทีม MDT เสมอ"],"pearls":["ข้อ 'ไม่ใช่ palliative': คีย์ตอบ ERCP + stent เพราะ ERCP เป็นทั้ง diagnostic และ therapeutic — แต่ในโจทย์ unresectable pancreatic / hilar cancer (รุ่นอื่น) stent ถือเป็น palliative drainage มาตรฐาน; อ่านบริบทของโจทย์ให้ดี","ข้อ 'อยู่บ้าน': ช้อย B (pain control + palliative care ใน รพ.) กับ D ใกล้กัน — bank เติม 'in the hospital' ให้ B เพื่อแยก; ผู้ป่วยต้องการอยู่บ้านจึงตอบ D","ข้อ WHO timing (74 RoC): คีย์ลายมือตอบ C 'ไม่ใช่ขณะที่ยัง curable' แต่ bank ตอบ A ตาม WHO 2002 และ WHA67.19 (2014) — palliative care ใช้ได้ตั้งแต่ระยะแรกควบคู่กับ chemotherapy / RT ไม่ใช่ end-of-life care หรือ hospice"],"members":["MDCU78|RoA|Colorectal 1"]},{"id":"gen-lap-oncology","title":"Laparoscopic surgery ในมะเร็ง: ข้อห้าม และ port-site metastasis","trend":"ถามว่าเมื่อไรไม่ควรใช้ lap และก้อนแข็งที่แผล trocar หลังผ่าตัดมะเร็งคืออะไร","asked":["ผู้ป่วยใดควรหลีกเลี่ยง laparoscopic approach: มะเร็งลุกลามอวัยวะข้างเคียง (ตัวลวง เคย laparotomy จาก peritonitis, อายุ > 70, DM, กำลังกิน anticoagulant)","หลัง laparoscopic colectomy จาก colon cancer มีก้อนแข็ง ไม่เจ็บ เคลื่อนได้ที่ port site → port-site metastasis (ตัวลวง lymphosarcoma, lymph node metastasis, port-site incisional hernia, lipoma)"],"pattern":["<b>มะเร็งลามอวัยวะข้างเคียง (T4b):</b> ต้อง en bloc multivisceral resection ให้ได้ R0 → open (NCCN colon: lap ไม่แนะนำใน locally advanced disease, acute obstruction หรือ perforation จากมะเร็ง) · ข้อห้ามอื่น: hemodynamic instability, ทน pneumoperitoneum ไม่ได้ (โรคหัวใจ / ปอดรุนแรง), uncorrectable coagulopathy · เคย laparotomy / adhesion และ anticoagulant ที่หยุดได้ = relative","<b>Port-site metastasis:</b> ก้อนแข็งไม่เจ็บที่แผล trocar หลังผ่าตัดมะเร็ง = wound recurrence จนกว่าพิสูจน์ได้ว่าไม่ใช่ · กลไก: เซลล์ฝังตอนดึงชิ้นเนื้อโดยไม่ใช้ wound protector, เครื่องมือปนเปื้อน, chimney effect, aerosolization, peritoneal dissemination · RCT (COST NEJM 2004, COLOR, CLASICC) พบ < 1% ไม่ต่างจาก open · work-up: CT chest / abdomen / pelvis + CEA + biopsy — มักบ่งว่ามี peritoneal disease; รอยโรคเดี่ยวพิจารณา wide en bloc excision ± systemic therapy"],"pearls":["Port-site hernia นุ่มและดันกลับได้; 'movable' ไม่ได้แปลว่า benign ในบริบทหลังผ่าตัดมะเร็ง","ข้อ lap (70 RoC): ช้อยต้นฉบับ 'invasive cancer' กำกวม (มะเร็ง invasive ส่วนใหญ่ทำ lap ได้) — bank เกลาเป็น 'cancer invading adjacent organs'"],"members":["MDCU70|RoB|73"]},{"id":"gen-onco-vte","title":"VTE prophylaxis ในผู้ป่วยมะเร็งที่ผ่าตัดใหญ่","trend":"ออกครั้งเดียว — ถามมาตรการที่ 'ไม่' ลด VTE","asked":["Rectal ca วางแผน low anterior resection → มาตรการใดไม่ลดความเสี่ยง perioperative VTE: neoadjuvant chemoradiotherapy"],"pattern":["มะเร็ง + major abdominopelvic surgery = ความเสี่ยง VTE สูง (Virchow's triad: stasis, endothelial injury, hypercoagulability) · <b>chemotherapy และ radiation เพิ่ม ไม่ลด</b>ความเสี่ยง VTE","<b>มาตรการที่ลด VTE:</b> low-dose unfractionated heparin, LMWH, intermittent pneumatic compression ระหว่างผ่าตัด, early mobilization · ผู้ป่วยมะเร็งที่ผ่าตัดช่องท้อง / เชิงกรานความเสี่ยงสูงพิจารณา LMWH ต่อหลังออกจาก รพ. (extended prophylaxis ราว 4 สัปดาห์)"],"pearls":["ข้อ NOT: ช้อย LMWH / UFH / IPC / early mobilization ล้วนลด VTE จึงไม่ใช่คำตอบ; neoadjuvant chemoradiotherapy ลดก้อนแต่ไม่ป้องกัน VTE"],"members":["MDCU74|RoA|5"]}]},
-    {"title":"จาก Gen Sx — มะเร็งตับและการตัดตับ (HCC, liver metastasis)","sections":[{"id":"gen-liver-mets-resection","title":"Liver metastasis / major hepatectomy: FLR และ portal vein embolization","trend":"FLR ไม่พอ → PVE ออกซ้ำ 6 ครั้ง","asked":["Liver mets แต่ future liver remnant ไม่พอ → ทำอะไรก่อน resection: portal vein embolization","FLR 18% หลัง right trisectionectomy → PVE","ปัจจัยสำคัญที่สุดในการตัดสินใจ resect colorectal liver mets → future liver remnant","FLR ขั้นต่ำสำหรับตับปกติ → 25%","Colorectal ca ตัดแล้ว 1 ปี + single 2 × 3 cm met segment VI, FLR พอ → liver resection","Multiple hypoechoic liver lesions → primary ที่น่าจะเป็น colorectal","Pringle maneuver บีบอะไร → portal pedicle (hepatoduodenal ligament)","Colectomy for colon ca 4 ปีก่อน + CT ติดตามพบ solid nodules หลายก้อนใหม่ในตับ → metachronous liver metastases (ตัวลวง synchronous, HCC, cirrhosis, simple cysts)","Sigmoid colon ca เพิ่งวินิจฉัย + CT staging พบก้อนตับหลายก้อนพร้อมกัน → synchronous metastasis","ชายไม่มีโรคตับ ultrasound พบ hypoechoic nodules หลายก้อน + CEA สูง → colorectal liver metastases (ตัวลวง polycystic liver, adenoma, HCC, hemangioma)","Colon ca วางแผน colectomy + liver mets 3 ก้อน ≤ 3 cm อยู่ left lobe, right lobe ปกติ, ไม่มี extrahepatic, ตับดี → liver resection (ตัวลวง RFA, best supportive care, chemo อย่างเดียว, TACE)","หลัง colectomy 1 ปี surveillance พบ 3 ก้อนสอง lobe + CEA ขึ้น ไม่มี extrahepatic disease ตัดได้หมด FLR พอ → liver resection (ตัวลวง tumor marker อย่างเดียว, reassure, biopsy, systemic chemo อย่างเดียว)","ปัจจัยหลักในการตัดสินว่า CRLM ผ่าเพื่อหายขาดได้ → predicted volume of hepatic remnant อีกรอบ (ตัวลวง จำนวนก้อน, ขนาดก้อน, จำนวน chemo cycle, อายุ)","Right hemicolectomy + chemo 3 ปีก่อน, colonoscopy ปกติ, LFT ปกติ, ก้อนเดี่ยว hyperechoic ในตับ → metachronous colorectal liver metastasis อีกรอบ (ตัวลวง synchronous / metachronous HCC, synchronous cholangiocarcinoma, synchronous CRLM)"],"pattern":["<b>Resectability ของ CRLM</b> ตัดสินด้วย: ตัดแบบ R0 ได้ + <b>future liver remnant (FLR) พอ</b> + ไม่มี unresectable extrahepatic disease — จำนวนและขนาดก้อนไม่ใช่ตัวตัดสินหลัก · single metastasis ที่ metachronous + FLR พอ → resection (± perioperative chemo)","<b>FLR ขั้นต่ำ:</b> ตับปกติ ~ 20–25% · หลัง chemo/ steatosis ~ 30–40% · cirrhosis ≥ 40% · FLR น้อยกว่านี้ (เช่น 18%) → <b>portal vein embolization (PVE)</b> ให้ FLR โตก่อนผ่าตัด (รอ ~ 4–6 สัปดาห์; ไม่ได้ทำให้ก้อนเล็ก) · ทางเลือกอื่น ALPPS/ liver venous deprivation · TACE/RFA/hepatic vein embolization/ chemo อย่างเดียว ไม่ใช่คำตอบ","<b>Mets ที่เห็นเป็น multiple hypoechoic lesions</b> ในตับ → primary จาก GI มากสุดคือ colorectal (portal drainage)","<b>Pringle maneuver</b> = clamp portal triad (hepatic artery + portal vein + CBD) ที่ hepatoduodenal ligament เพื่อควบคุมเลือดขณะตัดตับ (ไม่ใช่ hepatic veins/ IVC)","<b>Synchronous vs metachronous:</b> synchronous = พบพร้อม primary (หรือภายใน ~ 3–6 เดือน) · metachronous = พบหลังรักษา primary · CRC → ตับบ่อยสุดผ่าน portal drainage (synchronous ~ 15–25%) · ผู้ป่วยที่เคยเป็น colon ca แล้วพบก้อนตับใหม่ให้นึก metastasis ก่อน HCC (pretest probability สูงกว่า)","<b>CRLM ที่ resectable = ผ่าตัดหายขาดได้</b> (5-year survival หลัง hepatectomy ~ 40–50% vs chemo อย่างเดียว ~ 10–20%) — เกณฑ์ไม่ดูจำนวนหรือขนาดก้อน (3 ก้อน ≤ 3 cm ที่ lobe เดียวก็ตัดได้) · ablation เป็นทางเลือกเมื่อตัดไม่ได้ ไม่ใช่เมื่อ resection ทำได้","<b>ภาพ:</b> mets มักหลายก้อน hypoechoic หรือ target lesion; ในตับที่ไม่มี cirrhosis เนื้องอกร้ายที่พบบ่อยสุดคือ metastasis (HCC ต้องมีบริบท cirrhosis / HBV + AFP) · CEA ใช้ติดตาม","<b>Resectability ของ CRLM ดูสิ่งที่เหลือ:</b> R0 + ≥ 2 contiguous segments ที่มี inflow / outflow / biliary drainage + FLR ≥ 20–25% (ตับปกติ), ≥ 30% (หลัง chemo นาน / steatosis), ≥ 40% (cirrhosis) — จำนวน ขนาด และ bilobar ไม่ใช่ข้อห้าม · FLR ไม่พอ → PVE, two-stage hepatectomy, ALPPS · NCCN: metachronous resectable → resection ± perioperative FOLFOX / CAPOX (EORTC 40983) · 5-year survival หลังผ่าตัดราว 40–50%","<b>Synchronous vs metachronous:</b> พบพร้อมหรือภายในราว 6 เดือนหลัง primary = synchronous; หลังจากนั้น = metachronous · CRLM บน US มักเป็น hyperechoic หรือ target lesion"],"pearls":["เคส MDCU76 RoA (FLR ไม่พอ) คีย์เดิมตอบ TACE → ตอบ PVE: TACE ก่อน PVE ใช้ใน HCC บนตับแข็ง ไม่ใช่ liver metastasis; กลไก PVE คือทำให้ตับที่จะเหลือโต","ข้อ CRLM 'III segments' (77D): bank เขียน stem ใหม่ — right trisectionectomy + FLR 18%","ข้อ colectomy 4 ปี (73 RoC): ต้นฉบับมีช้อย A–D ช้อย E ว่าง — bank เติม 'multiple simple hepatic cysts' และ 'new solid' ใน stem; อย่าตอบ HCC เพียงเพราะเห็นก้อนในตับ","อย่าคิดว่า 'มะเร็งแพร่กระจายตับ = stage IV = palliative' — CRLM เป็นข้อยกเว้นที่ผ่าตัดหายขาดได้","เคส 3 ก้อน (72 RoB): ภาพที่จดมา (hyperechoic, T2 สว่างมาก, delayed phase ยังสว่าง) คล้าย hemangioma — bank เติม CEA ขึ้น + resectable + FLR พอ ให้ตอบ resection"],"members":["MDCU73|RoC|83","MDCU74|RoD|ไม่มีเลข 2","MDCU79|RoC|คิดไม่ออกว่าอยู่บทไหน ไม่มีเลข 6","MDCU79|RoD|Liver and biliary tract 1&2 ไม่มีเลข 2","MDCU72|RoB|13","MDCU71|RoA|90","MDCU70|RoA|80"]}]},
-    {"title":"จาก Gen Sx — มะเร็งลำไส้ใหญ่ ไส้ตรง และ anal","sections":[{"id":"gen-rectal-cancer","title":"Rectal cancer: MRI staging, neoadjuvant และ en bloc resection","trend":"T3–T4 / node+ ที่ลุกลามอวัยวะข้างเคียง → neoadjuvant ก่อนผ่าตัดเสมอ","asked":["Rectal ca ลุกลาม prostate หลัง neoadjuvant CRT โดยตรง → en bloc resection of rectum + prostate","4 cm rectal ca 3 cm เหนือ puborectalis ลุกลาม uterus/ cervix + node+ → neoadjuvant therapy แล้วผ่าตัด","Rectal ca 5 cm ลุกลาม prostate (right lobe) + perirectal nodes → neoadjuvant ตามด้วย en bloc resection","Hematochezia + tenesmus: บทบาทหลักของ pelvic MRI → ประเมินความลึกของ local invasion","Rectal ca ที่เพิ่งวินิจฉัย → การตรวจใดไม่ใช่ routine staging work-up: bone scan (ตัวลวง CT chest, CT abdomen, complete colonoscopy, MRI pelvis)"],"pattern":["<b>Rectal cancer:</b> colonoscopy + biopsy, CT chest/abdomen (distant), <b>pelvic MRI</b> = local staging (ความลึก T, mesorectal fascia/ CRM, nodes, sphincter involvement) · ERUS สำหรับ early T1–2","<b>cT3–4 หรือ node+ (mid–low rectum)</b> → <b>neoadjuvant chemoradiation</b> (หรือ short-course RT / total neoadjuvant therapy) → <b>TME</b> (LAR ถ้าเก็บ sphincter ได้, APR ถ้า sphincter ถูกลุกลาม/ tumor ต่ำมาก)","<b>T4b (ลุกลามอวัยวะข้างเคียง: prostate, uterus, bladder)</b> → neoadjuvant CRT แล้ว <b>en bloc multivisceral resection</b> เพื่อให้ R0 — LAR + 'shave' ออกจาก prostate, local excision, diverting colostomy หรือ chemo เดี่ยว ไม่ถูก","T1 low-risk เล็ก → transanal local excision เฉพาะ early lesion เท่านั้น","<b>Routine staging work-up:</b> history + DRE (ระยะจาก anal verge, fixation, sphincter) + proctoscopy + biopsy · complete colonoscopy (หา synchronous tumor ~ 5%) · CT chest / abdomen / pelvis (distant mets) · pelvic MRI (T, N, CRM ≤ 1 mm = threatened, EMVI, sphincter complex) · CEA · <b>ไม่ routine:</b> bone scan (ทำเมื่อปวดกระดูก / ALP สูง), PET-CT (เมื่อ CT กำกวม, วางแผน pelvic exenteration, recurrence)"],"pearls":["ข้อ prostate: ต้นฉบับเขียน 'prostate metastasis' แต่ที่ถูกคือ direct invasion (T4b) ไม่ใช่ hematogenous metastasis","เคส MDCU78 RoD (ลุกลาม prostate 5 cm): คีย์มี ? — bank ปรับช้อย B เป็น neoadjuvant แล้ว en bloc resection เพราะ LAR อย่างเดียวไม่พอ","ข้อ bone scan (73 RoB): ต้นฉบับ PET ก็ไม่ routine เช่นกันจึงกำกวม — bank แทนช้อย C เป็น complete colonoscopy; ปัจจุบัน pelvic MRI ทำทุกราย (ไม่ใช่เฉพาะก้อนใหญ่ตามที่ Schwartz / ลายมือเขียน)"],"members":["MDCU76|RoD|15","MDCU78|RoC|Colorectal tumor 1","MDCU78|RoD|Colorectal tumor 3","MDCU78|RoC|Colorectal tumor 2","MDCU73|RoB|22"]},{"id":"gen-colorectal-cea","title":"CEA: บทบาทใน colorectal cancer และ tumor marker อื่น","trend":"ตอบ 'ติดตามหลังรักษา' เสมอ — ห้าม screening / diagnosis","asked":["Colon ca + liver metastases → tumor marker ที่ส่งติดตาม: CEA (ตัวลวง CA 19-9, AFP, C-kit, CA 125)","ข้อใดถูกเรื่อง serum CEA ใน colon ca: surveillance หลัง curative colectomy (ตัวลวง lifelong ทุก 6–12 เดือน, screening CRC, diagnosis, screen ญาติสายตรง)","ข้อใดผิดเรื่อง serum CEA ใน CRC: ใช้ screening และ diagnosis (ที่ถูก: สูงเล็กน้อยใน benign condition / smoker, ใช้ surveillance หลัง curative resection, preop สูง = prognosis แย่)","ชาย 55 ปี ถ่ายมูกเลือด 1 เดือน → สิ่งที่ไม่ใช่บทบาท GP: serum CEA + PET scan (ที่เป็นบทบาท: ซักประวัติละเอียด, DRE, พิจารณา colonoscopy ถ้ามี, อธิบายสาเหตุที่เป็นไปได้ก่อนส่งต่อ)"],"pattern":["<b>บทบาท CEA:</b> baseline ก่อนผ่าตัดทุกราย (prognostic; ควรกลับปกติใน ~ 4–6 สัปดาห์หลังตัด) · surveillance หลัง curative resection (ทุก 3–6 เดือน 2 ปีแรกใน stage II–III) · ติดตามผล chemo ใน metastatic CRC · CEA ที่กลับสูงซ้ำหลังเคยลด = recurrence (มักเป็น liver mets)","<b>ห้ามใช้ screening / diagnosis:</b> ไม่ sensitive พอในระยะต้น และสูงได้ใน smoker, IBD, cirrhosis, pancreatitis, renal failure, hypothyroidism, มะเร็งอื่น (pancreas, stomach, lung, breast)","<b>Marker อื่น:</b> AFP = HCC · CA 19-9 = pancreas / biliary · CA 125 = ovary · C-kit (CD117) = GIST","<b>CEA:</b> sensitivity / specificity ต่ำ — สูงได้ใน smoking, IBD, pancreatitis, hepatitis, cirrhosis, COPD และมะเร็งอื่น (กระเพาะ ตับอ่อน ปอด เต้านม) · ใช้: preop baseline (สูง = prognosis แย่; ควรกลับปกติใน 4–6 สัปดาห์หลัง R0), surveillance stage II–III ทุก 3–6 เดือนใน 2 ปีแรกแล้วทุก 6 เดือนจนครบ 5 ปี (ร่วม CT และ colonoscopy), ติดตาม metastatic disease · ไม่ใช้ screening / diagnosis (ASCO)","<b>PET-CT</b> ไม่ใช่ routine staging ของ CRC (NCCN: ใช้เมื่อ CT ไม่ชัดหรือก่อน metastasectomy) · การวินิจฉัย = colonoscopy + biopsy; rectal cancer ส่วนใหญ่คลำได้ด้วย DRE"],"pearls":["ข้อ CEA (79 RoD): ช้อยถูก 'follow up only after colectomy' มีคำว่า only ทำให้ลังเล เพราะ CEA ใช้ติดตามระหว่างให้ยาใน metastatic ด้วย — แต่ถูกที่สุดเมื่อเทียบช้อยอื่น; 'ตลอดชีวิตทุก 6–12 เดือน' ผิดทั้งความถี่และระยะเวลา","ข้อ marker liver mets (73 RoC): เห็น 'ก้อนในตับ' แล้วอย่าเลือก AFP — primary คือ colon จึงใช้ CEA","ข้อ GP (72 RoC): คีย์ในไฟล์ตอบ 'consider colonoscopy' — bank ตอบ CEA + PET เพราะ 'consider … if available' คือการพิจารณาส่งตรวจ ซึ่งเป็นบทบาท GP","ข้อ CEA FALSE (72 RoA): ต้นฉบับจดช้อยมาสองตัว — bank แต่งช้อยที่เหลือเป็นข้อความที่ถูกทั้งหมด"],"members":["MDCU73|RoC|86","MDCU79|RoD|Surgical oncology 1","MDCU72|RoA|86","MDCU72|RoC|30"]},{"id":"gen-anal-condyloma","title":"Anal canal squamous cell carcinoma และ condyloma","trend":"ออก 2 ข้อในรอบล่าสุด (HPV-related anal disease)","asked":["MSM + HIV+ แผลเรื้อรังแข็งใน anal canal 4 เดือน → anal SCC","Extensive perianal + intra-anal condylomata acuminata → surgical excision + electrocoagulation","Anal canal SCC สัมพันธ์กับไวรัสใดมากที่สุด → HPV (ตัวลวง EBV, HSV-2, VZV, HIV)","ชาย HIV+ เคยเป็น anorectal wart ตอนนี้มีก้อนที่ anus → squamous cell carcinoma (ตัวลวง adenocarcinoma, melanoma, BCC, GIST)"],"pattern":["<b>Anal SCC:</b> HPV 16/18, HIV, MSM/ receptive anal intercourse, smoking, immunosuppression · non-healing indurated ulcer/ mass → biopsy · รักษาหลัก = <b>chemoradiation (Nigro: 5-FU + mitomycin + RT)</b> ไม่ใช่ APR ตั้งต้น · แผลเฉียบพลันเจ็บ → นึก HSV/ syphilis/ chancroid ก่อน","<b>Condyloma acuminata</b> (HPV 6/11): ขนาดเล็ก/ภายนอกรักษาด้วย topical (imiquimod, podophyllotoxin), cryotherapy · <b>extensive หรือ intra-anal</b> → surgical excision/ electrocautery (imiquimod ไม่ใช้กับ intra-anal wart ตาม CDC 2021) · acyclovir/ antibiotic/ observation ไม่เหมาะ","<b>ไวรัส:</b> HPV 16 / 18 พบ > 80–90% (E6 / E7 ยับยั้ง p53 และ Rb) · HIV เป็นปัจจัยเสี่ยง (immunosuppression → HPV persistence) ไม่ใช่ไวรัสก่อมะเร็งโดยตรง · precursor = anal HSIL / AIN → screening ด้วย anal cytology ± high-resolution anoscopy ใน HIV / MSM · anal canal ใต้ dentate line บุด้วย squamous จึงเป็น SCC ไม่ใช่ adenocarcinoma"],"pearls":["ข้อ condyloma: bank เติม 'extensive + intra-anal' เพราะ imiquimod ใช้ได้กับ external wart เล็ก","ข้อ HPV vs HIV (73 RoB): เห็น HIV แล้วอย่าตอบ HIV — คำตอบคือ HPV; first-line ของ anal SCC คือ chemoradiation (Nigro) ไม่ใช่ APR"],"members":["MDCU78|RoC|Anorectal 3","MDCU78|RoC|Anorectal 4","MDCU73|RoB|24","MDCU74|RoD|ไม่มีเลข 29"]},{"id":"gen-colon-presentation-surgery","title":"Colon cancer: อาการตามตำแหน่ง, ผ่าตัดและภาวะแทรกซ้อน","trend":"right-sided = ซีด / FOBT บวก; left = obstruction; จับคู่ operation กับตำแหน่ง","asked":["70 ปี น้ำหนักลด อ่อนเพลีย ซีด FOBT บวก ไม่มี bowel change → right-sided colon cancer","70 ปี ท้องผูกเรื้อรัง ท้องอืด อุจจาระเรียวมีเลือด AXR sigmoid cut-off → obstructing colon carcinoma","Metastatic colon ca + colostomy ไม่มี output 24 ชม. + อาเจียน stable → NG decompression + CT abdomen","Right colon ca + pericolonic nodes → right colectomy + ileocolic anastomosis + adjuvant chemotherapy","Descending colon ca → left colectomy + loop ileostomy (temporary) ป้องกัน anastomosis","Sigmoid ca, 76 ปี, ECOG 3, ไม่ต้องการ major surgery → best supportive care"],"pattern":["<b>ตำแหน่ง:</b> right colon (lumen กว้าง, อุจจาระเหลว) → iron-deficiency anemia, occult blood, weight loss, ก้อน RLQ · left/sigmoid (lumen แคบ, อุจจาระแข็ง) → change in bowel habit, constipation, thin/blood-streaked stool, obstruction · rectum → hematochezia, tenesmus","<b>Obstructing left colon ca:</b> AXR ลำไส้ใหญ่ขยายตัดขาด (cut-off) ที่ sigmoid, small bowel ไม่ขยาย (ileocecal valve competent) · pseudo-obstruction (Ogilvie) ไม่มีจุดตัดขาด","<b>Surgery:</b> right colon → right hemicolectomy + ileocolic anastomosis (extended right ถ้า transverse ใกล้ hepatic flexure) · descending/ sigmoid → left hemicolectomy / sigmoidectomy + colocolic anastomosis ± protective loop ileostomy (ชั่วคราว) · ตัด regional lymph node (CME) · <b>stage III (node+) → adjuvant chemotherapy</b> (FOLFOX/ CAPOX); colon ไม่ใช้ adjuvant RT ตามมาตรฐาน","<b>ผู้ป่วย unfit (ECOG 3, โรคร่วม) ที่ปฏิเสธผ่าตัดใหญ่ ไม่มี obstruction/ metastasis</b> → palliative/ best supportive care · colonic stent/ Hartmann/ anastomosis ใช้เมื่อมี obstruction หรือผู้ป่วยสมัครใจผ่าตัด","<b>Stoma ไม่ทำงานใน metastatic colon ca:</b> stable ไม่มี peritonitis → initial = NG decompression, IV fluid, CT abdomen หา adhesive vs recurrence/ carcinomatosis ก่อนตัดสินใจ — ไม่ laparotomy ทันที, ไม่ให้ laxative ปริมาณสูง"],"pearls":["ข้อ ECOG 3: ไม่มีคีย์ — bank เติม stem (ไม่มี obstruction/ metastasis) และตอบ BSC","ข้อ right colectomy (3): ปรับเป็น 'adjuvant chemotherapy' เพราะ colon cancer ไม่ใช้ radiation มาตรฐาน","ข้อ stoma obstruction: ไม่มีคีย์ — bank เพิ่มช้อย D (NG decompression + CT)"],"members":["MDCU78|RoD|Colorectal tumor 2","MDCU78|RoD|Colorectal tumor 5","MDCU78|RoD|Colorectal tumor 6","MDCU78|RoA|Colorectal 2","MDCU78|RoD|Colorectal tumor 1","MDCU78|RoA|Colorectal 1"]}]}
-  ]});
+SUMM.push({
+ "tag": "Onco",
+ "title": "Oncology (ทุกวอร์ดย่อย)",
+ "intro": "<ul><li><b>รวมข้อ Gen Sx ที่ clone มา (19 พ.ย. 2026)</b> — กลุ่ม “จาก Gen Sx — …” ด้านล่าง</li><li>MDCU79 RoC 9 ข้อย่อย กระจาย 4 วอร์ดย่อย: <b>Uro</b> (testicular seminoma ออกซ้ำ 2 เคส, bladder CIS, UTUC), <b>Colorectal</b> (rectal cancer stage III, colorectal liver metastasis), <b>Neuro</b> (vasogenic edema, เทคนิครังสี) และ <b>CVT</b> (thymoma + myasthenia gravis)</li><li>แนวถาม: Dx จาก marker / อาการ paraneoplastic และ <b>next management ตาม risk / stage</b> — CIS → BCG, high-risk UTUC → nephroureterectomy + bladder cuff, N+ rectal → neoadjuvant ก่อน TME, resectable CRLM → hepatectomy</li><li>กับดักร่วม: คำว่า in situ / T2 / metastasis ทำให้เลือกการรักษาเบาหรือ palliative เกินไป</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: prostate (PSA → MRI biopsy), testis (inguinal orchiectomy, LN drainage), NMIBC/UTUC/RCC, Wilms, melanoma margin, lung nodule, FAP, colon cancer stage III, brain tumors</li></ul>",
+ "groups": [
+  {
+   "title": "Uro-oncology",
+   "sections": [
+    {
+     "id": "seminoma",
+     "title": "Seminoma: β-hCG สูง + AFP ปกติ",
+     "trend": "ออกซ้ำ 2 เคสในชุดเดียว",
+     "asked": [
+      "ก้อนอัณฑะแข็งไม่เจ็บ hCG สูง AFP ปกติ → Dx (ตัวลวง Leydig, Sertoli, yolk sac, epididymitis)",
+      "ก้อนอัณฑะ → radical inguinal orchiectomy (79D)",
+      "LN ที่ไม่ใช่ทางแพร่ = inguinal (79D)"
+     ],
+     "pattern": [
+      "Pure seminoma <b>ไม่หลั่ง AFP</b>; hCG สูงได้ ~15–20%",
+      "Marker ก่อนผ่า → <b>radical inguinal orchiectomy</b> → CT staging + marker ซ้ำ",
+      "Stage I seminoma: surveillance หรือ carboplatin 1 cycle; สูงกว่า → BEP / EP"
+     ],
+     "pearls": [
+      "ห้าม scrotal approach / biopsy",
+      "URO 1 echo pattern ใน recall เข้ากับ nonseminoma — มั่นใจปานกลาง"
+     ],
+     "members": [
+      "MDCU79|RoC|URO 1",
+      "MDCU79|RoC|URO 9",
+      "MDCU79|RoD|Uro 2",
+      "MDCU79|RoD|Uro 3"
+     ]
+    },
+    {
+     "id": "bladder-cis",
+     "title": "Bladder CIS → intravesical BCG",
+     "asked": [
+      "CIS หลัง TURBT เอาที่เห็นออกหมด → next management",
+      "High-grade NMIBC → BCG (79D, คีย์ไฟล์ผิด)"
+     ],
+     "pattern": [
+      "CIS = <b>high-risk NMIBC</b> → BCG induction 6 สัปดาห์ + maintenance 1–3 ปี",
+      "BCG-unresponsive → radical cystectomy"
+     ],
+     "pearls": [
+      "intravesical chemo single dose ใช้กับ low-risk papillary"
+     ],
+     "members": [
+      "MDCU79|RoC|URO 3",
+      "MDCU79|RoD|Uro 7"
+     ]
+    },
+    {
+     "id": "utuc",
+     "title": "High-risk UTUC → nephroureterectomy + bladder cuff",
+     "asked": [
+      "High-grade UC proximal ureter 3 cm + hydronephrosis → management",
+      "Upper ureter tumor 3 cm → RNU + cuff (79D)"
+     ],
+     "pattern": [
+      "High-risk (high-grade, ≥2 cm, hydronephrosis, multifocal) → <b>radical nephroureterectomy + bladder cuff excision</b> + single post-op intravesical chemo",
+      "Adjuvant platinum ใน pT2–4 / N+ (POUT)"
+     ],
+     "pearls": [
+      "radical nephrectomy = RCC ไม่ใช่ urothelial",
+      "stem แต่งให้เป็น high-risk จาก recall หัวข้อ + ช้อยเดียว"
+     ],
+     "members": [
+      "MDCU79|RoC|URO 4",
+      "MDCU79|RoD|Uro 13"
+     ]
+    },
+    {
+     "id": "prostate-psa-onco",
+     "title": "PSA 12 → MRI + biopsy",
+     "asked": [
+      "LUTS + PSA 12 ไม่มี UTI → management"
+     ],
+     "pattern": [
+      "mpMRI → targeted ± systematic biopsy"
+     ],
+     "members": [
+      "MDCU79|RoD|Uro 1"
+     ]
+    },
+    {
+     "id": "rcc-onco",
+     "title": "Renal cell carcinoma",
+     "asked": [
+      "Hematuria + น้ำหนักลด + solid renal mass → Dx"
+     ],
+     "pattern": [
+      "Solid enhancing ไม่มีไขมัน = RCC → partial/radical nephrectomy"
+     ],
+     "members": [
+      "MDCU79|RoD|Uro 8"
+     ]
+    },
+    {
+     "id": "wilms-onco",
+     "title": "Wilms tumor",
+     "asked": [
+      "ก้อนไตในเด็กไม่ข้าม midline → Dx"
+     ],
+     "pattern": [
+      "Wilms vs neuroblastoma (adrenal, ข้าม midline, VMA)"
+     ],
+     "members": [
+      "MDCU79|RoD|Ped 12"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Colorectal oncology",
+   "sections": [
+    {
+     "id": "rectal-ca-stage3",
+     "title": "Rectal cancer T2N1 mid rectum → neoadjuvant แล้ว LAR + TME",
+     "asked": [
+      "Adenocarcinoma mid rectum 8 cm จาก anal verge MRI T2N1 MRF clear ไม่มี M → management (ตัวลวง upfront APR, local excision)"
+     ],
+     "pattern": [
+      "<b>cT3–4 หรือ N+ → neoadjuvant</b> (long-course CRT 50–50.4 Gy + capecitabine / 5-FU, short-course 25 Gy / 5 fx; NCCN นิยม TNT)",
+      "Upper / mid rectum → <b>LAR + TME</b> ± diverting ileostomy; low rectum ลุกลาม sphincter → APR",
+      "Margin: distal ≥1–2 cm, CRM >1 mm; cCR หลัง TNT → watch-and-wait ในศูนย์เชี่ยวชาญ",
+      "Staging: MRI pelvis (T, N, MRF, EMVI), CT chest-abdomen, CEA, colonoscopy ทั้งลำไส้"
+     ],
+     "pearls": [
+      "T2N0 ผ่าได้เลย แต่ T2N1 ต้องให้ neoadjuvant",
+      "stem เติมตำแหน่ง mid rectum — ถ้า low rectum ติด sphincter จะเป็น APR"
+     ],
+     "members": [
+      "MDCU79|RoC|Colo 5"
+     ]
+    },
+    {
+     "id": "crlm",
+     "title": "Colorectal liver metastasis resectable → liver resection",
+     "asked": [
+      "หลังรักษา colon cancer stage III พบ liver met 2 ก้อน 2–3 cm segment VI, VII, FLR พอ → management (ตัวลวง RFA, chemo อย่างเดียว, transplant)"
+     ],
+     "pattern": [
+      "CRLM resectable → <b>hepatectomy</b> ± perioperative FOLFOX (EORTC 40983); 5-year survival ~40–50%",
+      "Resectability: R0, เหลือ ≥2 contiguous segments ที่มี inflow / outflow / biliary drainage, FLR ≥20% (ปกติ) / ≥30% (หลัง chemo มาก) / ≥40% (cirrhosis), ควบคุมโรคนอกตับได้",
+      "FLR ไม่พอ → portal vein embolization, two-stage hepatectomy, ALPPS",
+      "Unresectable → systemic chemo ± biologic → ประเมิน conversion"
+     ],
+     "pearls": [
+      "metastasis ไม่ได้แปลว่า palliative ใน CRLM",
+      "RFA เป็นทางเลือกเมื่อผ่าไม่ได้ — ผ่าได้ต้องผ่า"
+     ],
+     "members": [
+      "MDCU79|RoC|Colo 6"
+     ]
+    },
+    {
+     "id": "colon-ca-onco",
+     "title": "Colon cancer: right-sided IDA และ stage III resection + adjuvant",
+     "asked": [
+      "IDA + ก้อน ascending → Dx",
+      "T4aN1 sigmoid → CME + adjuvant"
+     ],
+     "pattern": [
+      "LN ≥12 + adjuvant FOLFOX/CAPOX ใน stage III"
+     ],
+     "members": [
+      "MDCU79|RoD|Colo 9",
+      "MDCU79|RoD|Colo 10"
+     ]
+    },
+    {
+     "id": "fap-onco",
+     "title": "FAP + CHRPE",
+     "asked": [
+      "Polyp เยอะ + CHRPE → FAP"
+     ],
+     "pattern": [
+      "APC · prophylactic proctocolectomy"
+     ],
+     "members": [
+      "MDCU79|RoD|Colo 5"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Neuro-oncology",
+   "sections": [
+    {
+     "id": "vasogenic-edema",
+     "title": "Brain metastasis edema = vasogenic → dexamethasone",
+     "asked": [
+      "มะเร็งเต้านม ก้อนสมอง 2 cm + edema → ยา + เหตุผล"
+     ],
+     "pattern": [
+      "Tumor edema = <b>vasogenic</b> → <b>corticosteroid</b> (dexamethasone 4–8 mg/วัน, 16 mg ถ้ารุนแรง) เฉพาะผู้มีอาการ (ASCO-SNO-ASTRO 2022)",
+      "Mannitol = bridge ชั่วคราว",
+      "Definitive: SRS / resection + SRS / WBRT ตามจำนวนและขนาด"
+     ],
+     "pearls": [
+      "steroid + cytotoxic เป็นคู่ผิด",
+      "choices แต่งจาก recall ช้อยเดียว"
+     ],
+     "members": [
+      "MDCU79|RoC|neuro 6"
+     ]
+    },
+    {
+     "id": "rt-technique",
+     "title": "เทคนิครังสีที่แม่นที่สุด: gamma knife + proton",
+     "asked": [
+      "เลือก 2 เทคนิคที่แม่นที่สุดสำหรับ brain tumor"
+     ],
+     "pattern": [
+      "<b>Gamma knife (SRS)</b>: แม่น sub-millimeter",
+      "<b>Proton</b>: Bragg peak ไม่มี exit dose — เด็ก, skull base",
+      "IMRT แม่นน้อยกว่าสองตัวนี้ แต่ใช้กับ glioma ก้อนใหญ่"
+     ],
+     "pearls": [
+      "ช้อยในต้นฉบับเป็นตัวเลข Claude แปลงเป็นชื่อเทคนิค"
+     ],
+     "members": [
+      "MDCU79|RoC|neuro 3b"
+     ]
+    },
+    {
+     "id": "neuro-onco-79",
+     "title": "Brain tumors: mets, medulloblastoma, pineal, immunotherapy",
+     "asked": [
+      "Breast CA → brain mets",
+      "Fourth ventricle → medulloblastoma",
+      "Parinaud → pineal",
+      "Promising immunotherapy → ทุกข้อ"
+     ],
+     "pattern": [
+      "Mets หลายก้อน gray-white junction · medullo vermis · pineal Parinaud · GBM Stupp"
+     ],
+     "members": [
+      "MDCU79|RoD|Neuro 4",
+      "MDCU79|RoD|Neuro 2",
+      "MDCU79|RoD|Neuro 10",
+      "MDCU79|RoD|Neuro ไม่มีเลข 1"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Thoracic oncology",
+   "sections": [
+    {
+     "id": "thymoma-mg",
+     "title": "Myasthenia gravis + anterior mediastinal mass → thymoma",
+     "asked": [
+      "หญิง 45 ปี หนังตาตก ภาพซ้อนแย่ลงตอนเย็น CT anterior mediastinal mass → most likely tumor (ตัวลวง teratoma, lymphoma, goiter, neurogenic)"
+     ],
+     "pattern": [
+      "Fatigable ptosis / diplopia = <b>MG</b>; MG + anterior mediastinal mass = <b>thymoma</b> (MG พบ 30–50% ของ thymoma)",
+      "Anterior = 4T; middle = cyst / LN; posterior = neurogenic",
+      "Resectable → <b>total thymectomy en bloc</b> ไม่ต้อง biopsy ก่อน; optimize MG ก่อนผ่า (pyridostigmine, steroid, IVIG / plasmapheresis)",
+      "Paraneoplastic อื่น: pure red cell aplasia, hypogammaglobulinemia (Good)"
+     ],
+     "pearls": [
+      "ไม่ตีความ ตาตกตอนเย็น เป็น MG → เลือก T อื่น",
+      "stem แต่งจาก recall ช้อยเดียว"
+     ],
+     "members": [
+      "MDCU79|RoC|CVT 4"
+     ]
+    },
+    {
+     "id": "lung-nodule-onco",
+     "title": "Lung nodule: CT ก่อน, ก้อนน่าสงสัย → resection",
+     "asked": [
+      "CXR nodule → CT chest",
+      "ก้อนไม่ตอบยา TB ขอบ irregular ขึ้น → ผ่าตัด"
+     ],
+     "pattern": [
+      "Fleischner/ACCP · IGRA บวกไม่ได้ยืนยันว่าก้อนเป็น TB"
+     ],
+     "members": [
+      "MDCU79|RoD|CVT 4",
+      "MDCU79|RoD|CVT 11"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "จาก Gen Sx — หลักการ: Carcinogenesis, risk factor และ prevention",
+   "sections": [
+    {
+     "id": "gen-prevention-screening",
+     "title": "ระดับของ prevention และ screening",
+     "trend": "แยก primary vs secondary prevention โดยใช้เคส BRCA / adenoma / sunscreen และสิ่งที่ต้องทำเมื่อผล screening บวก",
+     "asked": [
+      "BRCA1 carrier อายุ 25: ข้อใดเป็น primary prevention (bilateral risk-reducing mastectomy)",
+      "DCIS ที่พบจาก screening แล้วทำ mastectomy = prevention ระดับใด (secondary)",
+      "Tubular adenoma ที่ตัดด้วย colonoscopic polypectomy = secondary prevention",
+      "ชายอายุ 55 ปี ไม่เคย screen CRC: ควรแนะนำอย่างไร (เริ่ม screening เลย)",
+      "ข้อใดเป็น primary prevention (risk-reducing mastectomy ใน BRCA carrier; ตัวลวง annual mammogram, colonoscopic polypectomy, PSA screening, surveillance colonoscopy หลัง polypectomy = secondary)",
+      "Tubular adenoma 1 cm พบจาก colonoscopy → การกระทำที่เป็น secondary prevention: colonoscopic polypectomy (ตัวลวง serum CEA, FOBT, PET scan, high-fiber diet)",
+      "ข้อใดเป็น primary prevention ของมะเร็ง: sunscreen ป้องกัน skin cancer (ตัวลวง US เมื่อ AFP สูง, colonoscopy ใน polyposis, ERCP ในผู้ป่วยตัวเหลือง, EGD ใน Barrett เพื่อป้องกัน esophageal cancer)",
+      "Primary prevention ของ breast cancer: bilateral mastectomy ใน healthy BRCA1 carrier (ตัวลวง genetic testing, screening mammogram เริ่มอายุ 40, ตัด fibroadenoma / cyst, ตัด DCIS)",
+      "ชาย 49 ปี FOBT บวกจากการตรวจสุขภาพ ไม่มีอาการ CEA / CBC / LFT ปกติ → colonoscopy (ตัวลวง reassure, เพิ่มใยอาหารและน้ำ, EGD, CT whole abdomen)"
+     ],
+     "pattern": [
+      "<b>Primary</b> = ป้องกันไม่ให้เกิดโรค (วัคซีน HPV / HBV, เลิกบุหรี่, lifestyle, bilateral risk-reducing mastectomy / salpingo-oophorectomy ใน BRCA carrier, chemoprevention)",
+      "<b>Secondary</b> = ตรวจพบและรักษาระยะ pre-clinical / early (screening mammogram, FOBT / FIT, colonoscopic polypectomy ของ adenoma, การรักษา DCIS ที่พบจาก screening)",
+      "<b>Tertiary</b> = ลดความพิการ / recurrence ของโรคที่เป็นแล้ว (adjuvant therapy, surveillance หลังผ่าตัด, rehabilitation)",
+      "<b>CRC screening average risk:</b> ไม่มีประวัติครอบครัว ไม่เคย screen → เริ่มทันที (USPSTF / ACS 2021 เริ่มที่อายุ 45; โครงการไทยใช้ FIT อายุ 50–70) · colonoscopy ทุก 10 ปี หรือ FIT ทุกปี · ห้ามใช้ CEA เป็น screening (CEA ใช้ติดตามหลังผ่าตัด)",
+      "<b>Primary prevention ตัวอย่างเพิ่ม:</b> ปรับ risk factor (เลิกบุหรี่, ครีมกันแดด, วัคซีน HBV / HPV, ลด alcohol, คุมน้ำหนัก) และ removal of target organ ก่อนมี lesion ในกลุ่มเสี่ยงสูง — risk-reducing mastectomy / RRSO ใน BRCA, prophylactic colectomy ใน FAP, prophylactic thyroidectomy ใน MEN2 / RET, total gastrectomy ใน CDH1 · <b>Secondary</b> = screening + เอา premalignant lesion ออก + surveillance · <b>Tertiary</b> = CEA ติดตามหลังรักษา, adjuvant therapy",
+      "<b>แยกระดับเร็ว ๆ:</b> ยังไม่มีโรค / รอยโรค แล้วลด exposure หรือเอาอวัยวะเป้าหมายออก = primary (sunscreen, วัคซีน HPV / HBV, เลิกบุหรี่, risk-reducing mastectomy, chemoprevention) · ตรวจหาโรคหรือรอยโรคตั้งต้นที่เกิดแล้ว = secondary (mammogram, FIT / colonoscopy, EGD surveillance ใน Barrett, US เมื่อ AFP สูง) · ตัด DCIS = รักษามะเร็งที่เป็นแล้ว ไม่ใช่ primary",
+      "<b>Stool test บวก (gFOBT / FIT):</b> ต้องตามด้วย diagnostic colonoscopy ทุกราย ไม่ว่าอายุ อาการ หรือ CEA / CBC ปกติ — ควรทำภายในราว 6 เดือน (US Multi-Society Task Force; รอ > 9–10 เดือนสัมพันธ์กับ advanced stage) · USPSTF 2021 / ACS 2018: average risk เริ่ม screen อายุ 45 ปี"
+     ],
+     "pearls": [
+      "ข้อ BRCA1: bank เปลี่ยนช้อยเป็น 'bilateral risk-reducing mastectomy' — MRI / mammogram / US = surveillance (secondary); ลายมือในเฉลยที่ว่า chemoprevention = secondary ไม่ตรงนิยามทั่วไป",
+      "ข้อ polypectomy: FOBT ก็ถือเป็น secondary prevention (screening) ได้ แต่ bank ใส่เคส adenoma ที่พบแล้วจึงตอบ polypectomy",
+      "ข้อ polypectomy: 73 RoC / 74 RoC / 78 ตอบตรงกัน — ตัด adenoma ที่พบแล้ว = secondary (บางตำราจัดเป็น primary แต่ข้อสอบนี้ใช้ตามสไลด์) ส่วน surgery ก่อนมี lesion เช่น risk-reducing mastectomy = primary; ข้อ adenoma 1 cm (74 RoC) ต้นฉบับตอบได้สองช้อย (FOBT ก็เป็น secondary) — bank เติมว่าส่อง colonoscopy พบ adenoma แล้ว จึงเหลือ polypectomy",
+      "คำว่า 'to prevent cancer' ในช้อย colonoscopy ใน polyposis / EGD ใน Barrett เป็นกับดัก — การเฝ้าระวังในผู้มีรอยโรคตั้งต้นแล้ว = secondary",
+      "เคส FOBT บวก (70 RoA): คีย์ในไฟล์ตอบ 'เพิ่มใยอาหารและน้ำ' — bank ตอบ colonoscopy (ช้อยที่ bank เติม); CEA ปกติไม่ตัดมะเร็ง และอายุยังไม่ถึงเกณฑ์เดิมไม่ใช่เหตุให้ไม่ส่องเมื่อผลบวกแล้ว"
+     ],
+     "members": [
+      "MDCU78|RoC|Surgical Oncology 4",
+      "MDCU78|RoD|Colorectal tumor 4",
+      "MDCU74|RoC|13",
+      "MDCU70|RoA|31"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "จาก Gen Sx — หลักการ: Hereditary cancer syndromes",
+   "sections": [
+    {
+     "id": "gen-hered-colorectal",
+     "title": "FAP, Lynch และ Peutz-Jeghers (polyposis / colorectal)",
+     "trend": "โจทย์ซ้ำ: ริมฝีปากมี pigment → hamartomatous polyp; polyp หลายร้อย → FAP",
+     "asked": [
+      "ชายอายุ 25 ปี colonoscopy พบ adenomatous polyp หลายร้อยก้อน → คำแนะนำสำคัญที่สุด (genetic testing ของญาติ)",
+      "Pigmented macules ที่ริมฝีปาก / กระพุ้งแก้ม + small bowel obstruction หรือส่อง colonoscopy → polyp ชนิดใด (hamartomatous)",
+      "CRC ในพ่อ ปู่ และป้าเป็น ovarian cancer → pattern การถ่ายทอด (autosomal dominant)",
+      "ผู้ชาย 42 ปี ป้า 2 คนเป็น colon cancer ตอนอายุ 65 / 75 ปี colonoscopy ปกติ → ปรับ lifestyle",
+      "Colorectal adenocarcinoma เกิดอย่างไร (accumulation of multiple genetic mutations)",
+      "หญิง 20 ปี ปวดท้องเป็นพัก ๆ 6 เดือน, polyp ลำไส้เล็กหลายก้อน + จุดสีเข้มที่ริมฝีปากและกระพุ้งแก้ม → histology: hamartomatous polyp (Peutz-Jeghers)"
+     ],
+     "pattern": [
+      "<b>FAP:</b> APC mutation (AD, chr 5q), adenoma > 100 ก้อน, อายุ ~ 15–25 ปี → โอกาสเป็น CRC เกือบ 100% ถ้าไม่ผ่าตัด · ผู้ป่วยต้องทำ prophylactic proctocolectomy (ileal pouch–anal anastomosis หรือ colectomy + IRA); ญาติสายตรงทำ <b>genetic testing + counselling</b> และเริ่ม endoscopic screening ตั้งแต่วัยรุ่น · มี extracolonic: duodenal / ampullary adenoma, desmoid, CHRPE, osteoma (Gardner)",
+      "<b>Lynch syndrome (HNPCC):</b> mismatch-repair genes (MLH1, MSH2, MSH6, PMS2), autosomal dominant → CRC ต้นอายุ (~ 45 ปี) ข้างขวา + endometrial, ovarian, gastric, urinary tract · Amsterdam II: ญาติ 3 คน (หนึ่งคนเป็น first-degree ของอีกสองคน), 2 รุ่นต่อเนื่อง, 1 คนอายุ < 50 ปี, ตัด FAP ออก · ญาติ second-degree 2 คนที่เป็นตอนอายุ 65–75 ปี <b>ไม่เข้าเกณฑ์</b> → ให้คำแนะนำ lifestyle ไม่ต้อง genetic test / colonoscopy ถี่ขึ้น",
+      "<b>Peutz-Jeghers:</b> STK11, AD, pigmented macules ที่ริมฝีปาก / กระพุ้งแก้ม / มือเท้า + <b>hamartomatous polyps</b> ใน small bowel (jejunum มาก) → intussusception / obstruction · เสี่ยง CRC, pancreas, breast, ovarian cancer เพิ่ม · hamartomatous polyp ไม่ใช่ adenoma แต่มี malignant potential ผ่าน syndrome",
+      "<b>Adenoma–carcinoma sequence:</b> normal mucosa → adenoma → carcinoma จากการสะสม mutation หลายตำแหน่ง (APC → KRAS → p53 / DCC-SMAD4) ไม่ใช่ single mutation, ไม่ใช่ hyperplastic → inflammatory polyp → cancer และไม่ใช่ทุก hamartoma ที่กลายเป็นมะเร็ง",
+      "<b>ชนิดของ polyp:</b> adenomatous (tubular < villous < tubulovillous เสี่ยง), hyperplastic (ไม่ premalignant ยกเว้น sessile serrated), inflammatory (IBD), hamartomatous (PJS, juvenile)",
+      "<b>PJS ทางคลินิก:</b> ปวดบิดเป็นพัก ๆ จาก intussusception ตั้งแต่อายุน้อย, GI bleeding / ซีด · histology = hamartomatous polyp ที่มี smooth muscle แตกแขนงแบบ arborizing ใน lamina propria, พบมากสุดใน jejunum · polyp ใหญ่ในลำไส้เล็ก (ราว ≥ 1–1.5 cm) ควรตัดเพื่อป้องกัน intussusception"
+     ],
+     "pearls": [
+      "โจทย์ภาพ PJS (ริมฝีปากสีฟ้าเทา / น้ำตาลเข้ม) ไม่มีรูปในไฟล์ — bank บรรยายใน stem แทน; คำตอบยังเป็น hamartomatous polyp",
+      "FAP ที่ได้ colonoscopy ครั้งเดียวไม่ใช่เรื่อง 'repeat 10 ปี' — อย่าเลือก routine surveillance ช้อยหลอก",
+      "ตัวหลอกของโจทย์ PJS: adenomatous polyp (คิดว่า FAP), juvenile polyposis (hamartomatous เหมือนกันแต่ไม่มี pigmentation และอยู่ colon เป็นหลัก), GIST, hyperplastic, inflammatory polyp"
+     ],
+     "members": [
+      "MDCU76|RoA|47",
+      "MDCU78|RoA|Colorectal 3",
+      "MDCU78|RoC|Colorectal tumor 3",
+      "MDCU78|RoA|Oncology 2",
+      "MDCU77|RoC|55",
+      "MDCU78|RoC|Surgical Oncology 2",
+      "MDCU74|RoA|28"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "จาก Gen Sx — หลักการ: Surgical oncology, oncologic emergency และ palliative care",
+   "sections": [
+    {
+     "id": "gen-palliative-care",
+     "title": "Palliative / end-of-life care และการเลือกวิธี palliation",
+     "trend": "ถามนิยามและสิ่งที่ 'ไม่ใช่' palliative care + การปรึกษาเป้าหมายผู้ป่วย",
+     "asked": [
+      "Palliative care ที่ถูกต้องคืออะไร (ปรับคุณภาพชีวิตช่วงเวลาที่เหลือ)",
+      "ข้อใดไม่ใช่องค์ประกอบ / เป้าหมายของ end-of-life / palliative care (euthanasia)",
+      "ข้อใดไม่ใช่ palliative treatment (ERCP + stent; ตามคีย์ของรุ่นนั้น)",
+      "ผู้ป่วย end-stage cancer อยากอยู่บ้านกับครอบครัว → consult end-of-life care / palliative care center",
+      "ชายอายุ 76 ECOG 3, โรคร่วมมาก, ไม่ต้องการผ่าตัดใหญ่, sigmoid cancer ไม่มี obstruction → best supportive care",
+      "WHO ให้เริ่ม palliative care ในผู้ป่วยมะเร็งเมื่อใด → ตั้งแต่วินิจฉัย (ตัวลวง: ระยะท้าย, ไม่ใช่ขณะยัง curable, หลัง curative treatment fail, วาระสุดท้าย)",
+      "ข้อใดเป็น palliative treatment: gastrojejunostomy bypass มะเร็งหัวตับอ่อน (ตัวลวง BCS ก้อนเล็ก, total thyroidectomy + LND, LAR stage II rectal, FOBT ซ้ำ)",
+      "Pancreatic head ca + peritoneal carcinomatosis + lung mets → ข้อความที่ผิด: 'ศัลยแพทย์ไม่มีบทบาทในการดูแล' (ที่ถูก: GJ เมื่อมี GOO, biliary stent เมื่อเหลือง, pain control around-the-clock, MDT เรื่อง palliative chemo / RT)"
+     ],
+     "pattern": [
+      "<b>นิยาม (WHO):</b> ดูแลผู้ป่วยโรคคุกคามชีวิตและครอบครัว เพื่อ <b>เพิ่มคุณภาพชีวิต</b> โดยป้องกัน / บรรเทา pain และอาการทางกาย จิตใจ สังคม จิตวิญญาณ · ไม่เร่งหรือยื้อความตาย · เริ่มได้ตั้งแต่วินิจฉัยร่วมกับการรักษาหลัก — ไม่ใช่เฉพาะวาระสุดท้าย · ไม่ใช่ 'ถอนการรักษาทั้งหมด' หรือ 'ยื้อชีวิตทุกวิถีทาง'",
+      "<b>องค์ประกอบ:</b> symptom palliation (pain, dyspnea ฯลฯ), spiritual / psychosocial support, family & bereavement support, advance care planning (living will ตาม พ.ร.บ. สุขภาพแห่งชาติ มาตรา 12) · <b>Euthanasia ไม่ใช่</b> ส่วนหนึ่งของ palliative / EOL care (ผิดกฎหมายไทย)",
+      "<b>เมื่อผู้ป่วยระบุความต้องการ (อยากอยู่บ้าน):</b> เคารพ autonomy → ส่งปรึกษา end-of-life / palliative care team เพื่อวางแผนดูแลที่บ้าน; ไม่ให้สามี 'ตัดสินแทน', ไม่เริ่ม chemo ใหม่ โดยไม่ตรงเป้าหมาย, ไม่ discharge ทิ้ง",
+      "<b>ECOG 3–4 + ไม่ต้องการ major surgery + ไม่มี obstruction / metastasis:</b> best supportive care ถูกต้อง (stent ใช้เมื่อมี obstruction เท่านั้น) ",
+      "<b>ตัวอย่าง palliative procedure:</b> opioid / palliative sedation, RT สำหรับ cord compression หรือ bone pain, gastrojejunostomy สำหรับ gastric outlet obstruction, biliary stent / PTBD ใน unresectable obstructive jaundice, esophageal stent ใน metastatic dysphagia",
+      "<b>Curative vs palliative:</b> ดูว่าตั้งใจเอาก้อนออกให้หายขาด (R0) หรือแค่แก้ภาวะแทรกซ้อนเพื่อคุณภาพชีวิต (bypass, stent, RT ลดปวด / เลือดออก)",
+      "<b>Palliation ของ unresectable pancreatic head ca:</b> biliary obstruction → ERCP + SEMS (หรือ surgical biliary bypass) · gastric outlet obstruction → gastrojejunostomy (open / laparoscopic), duodenal stent หรือ EUS-guided gastroenterostomy · pain → around-the-clock analgesic + celiac plexus neurolysis — ศัลยแพทย์ยังอยู่ในทีม MDT เสมอ"
+     ],
+     "pearls": [
+      "ข้อ 'ไม่ใช่ palliative': คีย์ตอบ ERCP + stent เพราะ ERCP เป็นทั้ง diagnostic และ therapeutic — แต่ในโจทย์ unresectable pancreatic / hilar cancer (รุ่นอื่น) stent ถือเป็น palliative drainage มาตรฐาน; อ่านบริบทของโจทย์ให้ดี",
+      "ข้อ 'อยู่บ้าน': ช้อย B (pain control + palliative care ใน รพ.) กับ D ใกล้กัน — bank เติม 'in the hospital' ให้ B เพื่อแยก; ผู้ป่วยต้องการอยู่บ้านจึงตอบ D",
+      "ข้อ WHO timing (74 RoC): คีย์ลายมือตอบ C 'ไม่ใช่ขณะที่ยัง curable' แต่ bank ตอบ A ตาม WHO 2002 และ WHA67.19 (2014) — palliative care ใช้ได้ตั้งแต่ระยะแรกควบคู่กับ chemotherapy / RT ไม่ใช่ end-of-life care หรือ hospice"
+     ],
+     "members": [
+      "MDCU78|RoA|Colorectal 1"
+     ]
+    },
+    {
+     "id": "gen-lap-oncology",
+     "title": "Laparoscopic surgery ในมะเร็ง: ข้อห้าม และ port-site metastasis",
+     "trend": "ถามว่าเมื่อไรไม่ควรใช้ lap และก้อนแข็งที่แผล trocar หลังผ่าตัดมะเร็งคืออะไร",
+     "asked": [
+      "ผู้ป่วยใดควรหลีกเลี่ยง laparoscopic approach: มะเร็งลุกลามอวัยวะข้างเคียง (ตัวลวง เคย laparotomy จาก peritonitis, อายุ > 70, DM, กำลังกิน anticoagulant)",
+      "หลัง laparoscopic colectomy จาก colon cancer มีก้อนแข็ง ไม่เจ็บ เคลื่อนได้ที่ port site → port-site metastasis (ตัวลวง lymphosarcoma, lymph node metastasis, port-site incisional hernia, lipoma)"
+     ],
+     "pattern": [
+      "<b>มะเร็งลามอวัยวะข้างเคียง (T4b):</b> ต้อง en bloc multivisceral resection ให้ได้ R0 → open (NCCN colon: lap ไม่แนะนำใน locally advanced disease, acute obstruction หรือ perforation จากมะเร็ง) · ข้อห้ามอื่น: hemodynamic instability, ทน pneumoperitoneum ไม่ได้ (โรคหัวใจ / ปอดรุนแรง), uncorrectable coagulopathy · เคย laparotomy / adhesion และ anticoagulant ที่หยุดได้ = relative",
+      "<b>Port-site metastasis:</b> ก้อนแข็งไม่เจ็บที่แผล trocar หลังผ่าตัดมะเร็ง = wound recurrence จนกว่าพิสูจน์ได้ว่าไม่ใช่ · กลไก: เซลล์ฝังตอนดึงชิ้นเนื้อโดยไม่ใช้ wound protector, เครื่องมือปนเปื้อน, chimney effect, aerosolization, peritoneal dissemination · RCT (COST NEJM 2004, COLOR, CLASICC) พบ < 1% ไม่ต่างจาก open · work-up: CT chest / abdomen / pelvis + CEA + biopsy — มักบ่งว่ามี peritoneal disease; รอยโรคเดี่ยวพิจารณา wide en bloc excision ± systemic therapy"
+     ],
+     "pearls": [
+      "Port-site hernia นุ่มและดันกลับได้; 'movable' ไม่ได้แปลว่า benign ในบริบทหลังผ่าตัดมะเร็ง",
+      "ข้อ lap (70 RoC): ช้อยต้นฉบับ 'invasive cancer' กำกวม (มะเร็ง invasive ส่วนใหญ่ทำ lap ได้) — bank เกลาเป็น 'cancer invading adjacent organs'"
+     ],
+     "members": [
+      "MDCU70|RoB|73"
+     ]
+    },
+    {
+     "id": "gen-onco-vte",
+     "title": "VTE prophylaxis ในผู้ป่วยมะเร็งที่ผ่าตัดใหญ่",
+     "trend": "ออกครั้งเดียว — ถามมาตรการที่ 'ไม่' ลด VTE",
+     "asked": [
+      "Rectal ca วางแผน low anterior resection → มาตรการใดไม่ลดความเสี่ยง perioperative VTE: neoadjuvant chemoradiotherapy"
+     ],
+     "pattern": [
+      "มะเร็ง + major abdominopelvic surgery = ความเสี่ยง VTE สูง (Virchow's triad: stasis, endothelial injury, hypercoagulability) · <b>chemotherapy และ radiation เพิ่ม ไม่ลด</b>ความเสี่ยง VTE",
+      "<b>มาตรการที่ลด VTE:</b> low-dose unfractionated heparin, LMWH, intermittent pneumatic compression ระหว่างผ่าตัด, early mobilization · ผู้ป่วยมะเร็งที่ผ่าตัดช่องท้อง / เชิงกรานความเสี่ยงสูงพิจารณา LMWH ต่อหลังออกจาก รพ. (extended prophylaxis ราว 4 สัปดาห์)"
+     ],
+     "pearls": [
+      "ข้อ NOT: ช้อย LMWH / UFH / IPC / early mobilization ล้วนลด VTE จึงไม่ใช่คำตอบ; neoadjuvant chemoradiotherapy ลดก้อนแต่ไม่ป้องกัน VTE"
+     ],
+     "members": [
+      "MDCU74|RoA|5"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "จาก Gen Sx — มะเร็งตับและการตัดตับ (HCC, liver metastasis)",
+   "sections": [
+    {
+     "id": "gen-liver-mets-resection",
+     "title": "Liver metastasis / major hepatectomy: FLR และ portal vein embolization",
+     "trend": "FLR ไม่พอ → PVE ออกซ้ำ 6 ครั้ง",
+     "asked": [
+      "Liver mets แต่ future liver remnant ไม่พอ → ทำอะไรก่อน resection: portal vein embolization",
+      "FLR 18% หลัง right trisectionectomy → PVE",
+      "ปัจจัยสำคัญที่สุดในการตัดสินใจ resect colorectal liver mets → future liver remnant",
+      "FLR ขั้นต่ำสำหรับตับปกติ → 25%",
+      "Colorectal ca ตัดแล้ว 1 ปี + single 2 × 3 cm met segment VI, FLR พอ → liver resection",
+      "Multiple hypoechoic liver lesions → primary ที่น่าจะเป็น colorectal",
+      "Pringle maneuver บีบอะไร → portal pedicle (hepatoduodenal ligament)",
+      "Colectomy for colon ca 4 ปีก่อน + CT ติดตามพบ solid nodules หลายก้อนใหม่ในตับ → metachronous liver metastases (ตัวลวง synchronous, HCC, cirrhosis, simple cysts)",
+      "Sigmoid colon ca เพิ่งวินิจฉัย + CT staging พบก้อนตับหลายก้อนพร้อมกัน → synchronous metastasis",
+      "ชายไม่มีโรคตับ ultrasound พบ hypoechoic nodules หลายก้อน + CEA สูง → colorectal liver metastases (ตัวลวง polycystic liver, adenoma, HCC, hemangioma)",
+      "Colon ca วางแผน colectomy + liver mets 3 ก้อน ≤ 3 cm อยู่ left lobe, right lobe ปกติ, ไม่มี extrahepatic, ตับดี → liver resection (ตัวลวง RFA, best supportive care, chemo อย่างเดียว, TACE)",
+      "หลัง colectomy 1 ปี surveillance พบ 3 ก้อนสอง lobe + CEA ขึ้น ไม่มี extrahepatic disease ตัดได้หมด FLR พอ → liver resection (ตัวลวง tumor marker อย่างเดียว, reassure, biopsy, systemic chemo อย่างเดียว)",
+      "ปัจจัยหลักในการตัดสินว่า CRLM ผ่าเพื่อหายขาดได้ → predicted volume of hepatic remnant อีกรอบ (ตัวลวง จำนวนก้อน, ขนาดก้อน, จำนวน chemo cycle, อายุ)",
+      "Right hemicolectomy + chemo 3 ปีก่อน, colonoscopy ปกติ, LFT ปกติ, ก้อนเดี่ยว hyperechoic ในตับ → metachronous colorectal liver metastasis อีกรอบ (ตัวลวง synchronous / metachronous HCC, synchronous cholangiocarcinoma, synchronous CRLM)"
+     ],
+     "pattern": [
+      "<b>Resectability ของ CRLM</b> ตัดสินด้วย: ตัดแบบ R0 ได้ + <b>future liver remnant (FLR) พอ</b> + ไม่มี unresectable extrahepatic disease — จำนวนและขนาดก้อนไม่ใช่ตัวตัดสินหลัก · single metastasis ที่ metachronous + FLR พอ → resection (± perioperative chemo)",
+      "<b>FLR ขั้นต่ำ:</b> ตับปกติ ~ 20–25% · หลัง chemo/ steatosis ~ 30–40% · cirrhosis ≥ 40% · FLR น้อยกว่านี้ (เช่น 18%) → <b>portal vein embolization (PVE)</b> ให้ FLR โตก่อนผ่าตัด (รอ ~ 4–6 สัปดาห์; ไม่ได้ทำให้ก้อนเล็ก) · ทางเลือกอื่น ALPPS/ liver venous deprivation · TACE/RFA/hepatic vein embolization/ chemo อย่างเดียว ไม่ใช่คำตอบ",
+      "<b>Mets ที่เห็นเป็น multiple hypoechoic lesions</b> ในตับ → primary จาก GI มากสุดคือ colorectal (portal drainage)",
+      "<b>Pringle maneuver</b> = clamp portal triad (hepatic artery + portal vein + CBD) ที่ hepatoduodenal ligament เพื่อควบคุมเลือดขณะตัดตับ (ไม่ใช่ hepatic veins/ IVC)",
+      "<b>Synchronous vs metachronous:</b> synchronous = พบพร้อม primary (หรือภายใน ~ 3–6 เดือน) · metachronous = พบหลังรักษา primary · CRC → ตับบ่อยสุดผ่าน portal drainage (synchronous ~ 15–25%) · ผู้ป่วยที่เคยเป็น colon ca แล้วพบก้อนตับใหม่ให้นึก metastasis ก่อน HCC (pretest probability สูงกว่า)",
+      "<b>CRLM ที่ resectable = ผ่าตัดหายขาดได้</b> (5-year survival หลัง hepatectomy ~ 40–50% vs chemo อย่างเดียว ~ 10–20%) — เกณฑ์ไม่ดูจำนวนหรือขนาดก้อน (3 ก้อน ≤ 3 cm ที่ lobe เดียวก็ตัดได้) · ablation เป็นทางเลือกเมื่อตัดไม่ได้ ไม่ใช่เมื่อ resection ทำได้",
+      "<b>ภาพ:</b> mets มักหลายก้อน hypoechoic หรือ target lesion; ในตับที่ไม่มี cirrhosis เนื้องอกร้ายที่พบบ่อยสุดคือ metastasis (HCC ต้องมีบริบท cirrhosis / HBV + AFP) · CEA ใช้ติดตาม",
+      "<b>Resectability ของ CRLM ดูสิ่งที่เหลือ:</b> R0 + ≥ 2 contiguous segments ที่มี inflow / outflow / biliary drainage + FLR ≥ 20–25% (ตับปกติ), ≥ 30% (หลัง chemo นาน / steatosis), ≥ 40% (cirrhosis) — จำนวน ขนาด และ bilobar ไม่ใช่ข้อห้าม · FLR ไม่พอ → PVE, two-stage hepatectomy, ALPPS · NCCN: metachronous resectable → resection ± perioperative FOLFOX / CAPOX (EORTC 40983) · 5-year survival หลังผ่าตัดราว 40–50%",
+      "<b>Synchronous vs metachronous:</b> พบพร้อมหรือภายในราว 6 เดือนหลัง primary = synchronous; หลังจากนั้น = metachronous · CRLM บน US มักเป็น hyperechoic หรือ target lesion"
+     ],
+     "pearls": [
+      "เคส MDCU76 RoA (FLR ไม่พอ) คีย์เดิมตอบ TACE → ตอบ PVE: TACE ก่อน PVE ใช้ใน HCC บนตับแข็ง ไม่ใช่ liver metastasis; กลไก PVE คือทำให้ตับที่จะเหลือโต",
+      "ข้อ CRLM 'III segments' (77D): bank เขียน stem ใหม่ — right trisectionectomy + FLR 18%",
+      "ข้อ colectomy 4 ปี (73 RoC): ต้นฉบับมีช้อย A–D ช้อย E ว่าง — bank เติม 'multiple simple hepatic cysts' และ 'new solid' ใน stem; อย่าตอบ HCC เพียงเพราะเห็นก้อนในตับ",
+      "อย่าคิดว่า 'มะเร็งแพร่กระจายตับ = stage IV = palliative' — CRLM เป็นข้อยกเว้นที่ผ่าตัดหายขาดได้",
+      "เคส 3 ก้อน (72 RoB): ภาพที่จดมา (hyperechoic, T2 สว่างมาก, delayed phase ยังสว่าง) คล้าย hemangioma — bank เติม CEA ขึ้น + resectable + FLR พอ ให้ตอบ resection"
+     ],
+     "members": [
+      "MDCU73|RoC|83",
+      "MDCU74|RoD|ไม่มีเลข 2",
+      "MDCU79|RoC|คิดไม่ออกว่าอยู่บทไหน ไม่มีเลข 6",
+      "MDCU79|RoD|Liver and biliary tract 1&2 ไม่มีเลข 2",
+      "MDCU72|RoB|13",
+      "MDCU71|RoA|90",
+      "MDCU70|RoA|80"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "จาก Gen Sx — มะเร็งลำไส้ใหญ่ ไส้ตรง และ anal",
+   "sections": [
+    {
+     "id": "gen-rectal-cancer",
+     "title": "Rectal cancer: MRI staging, neoadjuvant และ en bloc resection",
+     "trend": "T3–T4 / node+ ที่ลุกลามอวัยวะข้างเคียง → neoadjuvant ก่อนผ่าตัดเสมอ",
+     "asked": [
+      "Rectal ca ลุกลาม prostate หลัง neoadjuvant CRT โดยตรง → en bloc resection of rectum + prostate",
+      "4 cm rectal ca 3 cm เหนือ puborectalis ลุกลาม uterus/ cervix + node+ → neoadjuvant therapy แล้วผ่าตัด",
+      "Rectal ca 5 cm ลุกลาม prostate (right lobe) + perirectal nodes → neoadjuvant ตามด้วย en bloc resection",
+      "Hematochezia + tenesmus: บทบาทหลักของ pelvic MRI → ประเมินความลึกของ local invasion",
+      "Rectal ca ที่เพิ่งวินิจฉัย → การตรวจใดไม่ใช่ routine staging work-up: bone scan (ตัวลวง CT chest, CT abdomen, complete colonoscopy, MRI pelvis)"
+     ],
+     "pattern": [
+      "<b>Rectal cancer:</b> colonoscopy + biopsy, CT chest/abdomen (distant), <b>pelvic MRI</b> = local staging (ความลึก T, mesorectal fascia/ CRM, nodes, sphincter involvement) · ERUS สำหรับ early T1–2",
+      "<b>cT3–4 หรือ node+ (mid–low rectum)</b> → <b>neoadjuvant chemoradiation</b> (หรือ short-course RT / total neoadjuvant therapy) → <b>TME</b> (LAR ถ้าเก็บ sphincter ได้, APR ถ้า sphincter ถูกลุกลาม/ tumor ต่ำมาก)",
+      "<b>T4b (ลุกลามอวัยวะข้างเคียง: prostate, uterus, bladder)</b> → neoadjuvant CRT แล้ว <b>en bloc multivisceral resection</b> เพื่อให้ R0 — LAR + 'shave' ออกจาก prostate, local excision, diverting colostomy หรือ chemo เดี่ยว ไม่ถูก",
+      "T1 low-risk เล็ก → transanal local excision เฉพาะ early lesion เท่านั้น",
+      "<b>Routine staging work-up:</b> history + DRE (ระยะจาก anal verge, fixation, sphincter) + proctoscopy + biopsy · complete colonoscopy (หา synchronous tumor ~ 5%) · CT chest / abdomen / pelvis (distant mets) · pelvic MRI (T, N, CRM ≤ 1 mm = threatened, EMVI, sphincter complex) · CEA · <b>ไม่ routine:</b> bone scan (ทำเมื่อปวดกระดูก / ALP สูง), PET-CT (เมื่อ CT กำกวม, วางแผน pelvic exenteration, recurrence)"
+     ],
+     "pearls": [
+      "ข้อ prostate: ต้นฉบับเขียน 'prostate metastasis' แต่ที่ถูกคือ direct invasion (T4b) ไม่ใช่ hematogenous metastasis",
+      "เคส MDCU78 RoD (ลุกลาม prostate 5 cm): คีย์มี ? — bank ปรับช้อย B เป็น neoadjuvant แล้ว en bloc resection เพราะ LAR อย่างเดียวไม่พอ",
+      "ข้อ bone scan (73 RoB): ต้นฉบับ PET ก็ไม่ routine เช่นกันจึงกำกวม — bank แทนช้อย C เป็น complete colonoscopy; ปัจจุบัน pelvic MRI ทำทุกราย (ไม่ใช่เฉพาะก้อนใหญ่ตามที่ Schwartz / ลายมือเขียน)"
+     ],
+     "members": [
+      "MDCU76|RoD|15",
+      "MDCU78|RoC|Colorectal tumor 1",
+      "MDCU78|RoD|Colorectal tumor 3",
+      "MDCU78|RoC|Colorectal tumor 2",
+      "MDCU73|RoB|22"
+     ]
+    },
+    {
+     "id": "gen-colorectal-cea",
+     "title": "CEA: บทบาทใน colorectal cancer และ tumor marker อื่น",
+     "trend": "ตอบ 'ติดตามหลังรักษา' เสมอ — ห้าม screening / diagnosis",
+     "asked": [
+      "Colon ca + liver metastases → tumor marker ที่ส่งติดตาม: CEA (ตัวลวง CA 19-9, AFP, C-kit, CA 125)",
+      "ข้อใดถูกเรื่อง serum CEA ใน colon ca: surveillance หลัง curative colectomy (ตัวลวง lifelong ทุก 6–12 เดือน, screening CRC, diagnosis, screen ญาติสายตรง)",
+      "ข้อใดผิดเรื่อง serum CEA ใน CRC: ใช้ screening และ diagnosis (ที่ถูก: สูงเล็กน้อยใน benign condition / smoker, ใช้ surveillance หลัง curative resection, preop สูง = prognosis แย่)",
+      "ชาย 55 ปี ถ่ายมูกเลือด 1 เดือน → สิ่งที่ไม่ใช่บทบาท GP: serum CEA + PET scan (ที่เป็นบทบาท: ซักประวัติละเอียด, DRE, พิจารณา colonoscopy ถ้ามี, อธิบายสาเหตุที่เป็นไปได้ก่อนส่งต่อ)"
+     ],
+     "pattern": [
+      "<b>บทบาท CEA:</b> baseline ก่อนผ่าตัดทุกราย (prognostic; ควรกลับปกติใน ~ 4–6 สัปดาห์หลังตัด) · surveillance หลัง curative resection (ทุก 3–6 เดือน 2 ปีแรกใน stage II–III) · ติดตามผล chemo ใน metastatic CRC · CEA ที่กลับสูงซ้ำหลังเคยลด = recurrence (มักเป็น liver mets)",
+      "<b>ห้ามใช้ screening / diagnosis:</b> ไม่ sensitive พอในระยะต้น และสูงได้ใน smoker, IBD, cirrhosis, pancreatitis, renal failure, hypothyroidism, มะเร็งอื่น (pancreas, stomach, lung, breast)",
+      "<b>Marker อื่น:</b> AFP = HCC · CA 19-9 = pancreas / biliary · CA 125 = ovary · C-kit (CD117) = GIST",
+      "<b>CEA:</b> sensitivity / specificity ต่ำ — สูงได้ใน smoking, IBD, pancreatitis, hepatitis, cirrhosis, COPD และมะเร็งอื่น (กระเพาะ ตับอ่อน ปอด เต้านม) · ใช้: preop baseline (สูง = prognosis แย่; ควรกลับปกติใน 4–6 สัปดาห์หลัง R0), surveillance stage II–III ทุก 3–6 เดือนใน 2 ปีแรกแล้วทุก 6 เดือนจนครบ 5 ปี (ร่วม CT และ colonoscopy), ติดตาม metastatic disease · ไม่ใช้ screening / diagnosis (ASCO)",
+      "<b>PET-CT</b> ไม่ใช่ routine staging ของ CRC (NCCN: ใช้เมื่อ CT ไม่ชัดหรือก่อน metastasectomy) · การวินิจฉัย = colonoscopy + biopsy; rectal cancer ส่วนใหญ่คลำได้ด้วย DRE"
+     ],
+     "pearls": [
+      "ข้อ CEA (79 RoD): ช้อยถูก 'follow up only after colectomy' มีคำว่า only ทำให้ลังเล เพราะ CEA ใช้ติดตามระหว่างให้ยาใน metastatic ด้วย — แต่ถูกที่สุดเมื่อเทียบช้อยอื่น; 'ตลอดชีวิตทุก 6–12 เดือน' ผิดทั้งความถี่และระยะเวลา",
+      "ข้อ marker liver mets (73 RoC): เห็น 'ก้อนในตับ' แล้วอย่าเลือก AFP — primary คือ colon จึงใช้ CEA",
+      "ข้อ GP (72 RoC): คีย์ในไฟล์ตอบ 'consider colonoscopy' — bank ตอบ CEA + PET เพราะ 'consider … if available' คือการพิจารณาส่งตรวจ ซึ่งเป็นบทบาท GP",
+      "ข้อ CEA FALSE (72 RoA): ต้นฉบับจดช้อยมาสองตัว — bank แต่งช้อยที่เหลือเป็นข้อความที่ถูกทั้งหมด"
+     ],
+     "members": [
+      "MDCU73|RoC|86",
+      "MDCU79|RoD|Surgical oncology 1",
+      "MDCU72|RoA|86",
+      "MDCU72|RoC|30"
+     ]
+    },
+    {
+     "id": "gen-anal-condyloma",
+     "title": "Anal canal squamous cell carcinoma และ condyloma",
+     "trend": "ออก 2 ข้อในรอบล่าสุด (HPV-related anal disease)",
+     "asked": [
+      "MSM + HIV+ แผลเรื้อรังแข็งใน anal canal 4 เดือน → anal SCC",
+      "Extensive perianal + intra-anal condylomata acuminata → surgical excision + electrocoagulation",
+      "Anal canal SCC สัมพันธ์กับไวรัสใดมากที่สุด → HPV (ตัวลวง EBV, HSV-2, VZV, HIV)",
+      "ชาย HIV+ เคยเป็น anorectal wart ตอนนี้มีก้อนที่ anus → squamous cell carcinoma (ตัวลวง adenocarcinoma, melanoma, BCC, GIST)"
+     ],
+     "pattern": [
+      "<b>Anal SCC:</b> HPV 16/18, HIV, MSM/ receptive anal intercourse, smoking, immunosuppression · non-healing indurated ulcer/ mass → biopsy · รักษาหลัก = <b>chemoradiation (Nigro: 5-FU + mitomycin + RT)</b> ไม่ใช่ APR ตั้งต้น · แผลเฉียบพลันเจ็บ → นึก HSV/ syphilis/ chancroid ก่อน",
+      "<b>Condyloma acuminata</b> (HPV 6/11): ขนาดเล็ก/ภายนอกรักษาด้วย topical (imiquimod, podophyllotoxin), cryotherapy · <b>extensive หรือ intra-anal</b> → surgical excision/ electrocautery (imiquimod ไม่ใช้กับ intra-anal wart ตาม CDC 2021) · acyclovir/ antibiotic/ observation ไม่เหมาะ",
+      "<b>ไวรัส:</b> HPV 16 / 18 พบ > 80–90% (E6 / E7 ยับยั้ง p53 และ Rb) · HIV เป็นปัจจัยเสี่ยง (immunosuppression → HPV persistence) ไม่ใช่ไวรัสก่อมะเร็งโดยตรง · precursor = anal HSIL / AIN → screening ด้วย anal cytology ± high-resolution anoscopy ใน HIV / MSM · anal canal ใต้ dentate line บุด้วย squamous จึงเป็น SCC ไม่ใช่ adenocarcinoma"
+     ],
+     "pearls": [
+      "ข้อ condyloma: bank เติม 'extensive + intra-anal' เพราะ imiquimod ใช้ได้กับ external wart เล็ก",
+      "ข้อ HPV vs HIV (73 RoB): เห็น HIV แล้วอย่าตอบ HIV — คำตอบคือ HPV; first-line ของ anal SCC คือ chemoradiation (Nigro) ไม่ใช่ APR"
+     ],
+     "members": [
+      "MDCU78|RoC|Anorectal 3",
+      "MDCU78|RoC|Anorectal 4",
+      "MDCU73|RoB|24",
+      "MDCU74|RoD|ไม่มีเลข 29"
+     ]
+    },
+    {
+     "id": "gen-colon-presentation-surgery",
+     "title": "Colon cancer: อาการตามตำแหน่ง, ผ่าตัดและภาวะแทรกซ้อน",
+     "trend": "right-sided = ซีด / FOBT บวก; left = obstruction; จับคู่ operation กับตำแหน่ง",
+     "asked": [
+      "70 ปี น้ำหนักลด อ่อนเพลีย ซีด FOBT บวก ไม่มี bowel change → right-sided colon cancer",
+      "70 ปี ท้องผูกเรื้อรัง ท้องอืด อุจจาระเรียวมีเลือด AXR sigmoid cut-off → obstructing colon carcinoma",
+      "Metastatic colon ca + colostomy ไม่มี output 24 ชม. + อาเจียน stable → NG decompression + CT abdomen",
+      "Right colon ca + pericolonic nodes → right colectomy + ileocolic anastomosis + adjuvant chemotherapy",
+      "Descending colon ca → left colectomy + loop ileostomy (temporary) ป้องกัน anastomosis",
+      "Sigmoid ca, 76 ปี, ECOG 3, ไม่ต้องการ major surgery → best supportive care"
+     ],
+     "pattern": [
+      "<b>ตำแหน่ง:</b> right colon (lumen กว้าง, อุจจาระเหลว) → iron-deficiency anemia, occult blood, weight loss, ก้อน RLQ · left/sigmoid (lumen แคบ, อุจจาระแข็ง) → change in bowel habit, constipation, thin/blood-streaked stool, obstruction · rectum → hematochezia, tenesmus",
+      "<b>Obstructing left colon ca:</b> AXR ลำไส้ใหญ่ขยายตัดขาด (cut-off) ที่ sigmoid, small bowel ไม่ขยาย (ileocecal valve competent) · pseudo-obstruction (Ogilvie) ไม่มีจุดตัดขาด",
+      "<b>Surgery:</b> right colon → right hemicolectomy + ileocolic anastomosis (extended right ถ้า transverse ใกล้ hepatic flexure) · descending/ sigmoid → left hemicolectomy / sigmoidectomy + colocolic anastomosis ± protective loop ileostomy (ชั่วคราว) · ตัด regional lymph node (CME) · <b>stage III (node+) → adjuvant chemotherapy</b> (FOLFOX/ CAPOX); colon ไม่ใช้ adjuvant RT ตามมาตรฐาน",
+      "<b>ผู้ป่วย unfit (ECOG 3, โรคร่วม) ที่ปฏิเสธผ่าตัดใหญ่ ไม่มี obstruction/ metastasis</b> → palliative/ best supportive care · colonic stent/ Hartmann/ anastomosis ใช้เมื่อมี obstruction หรือผู้ป่วยสมัครใจผ่าตัด",
+      "<b>Stoma ไม่ทำงานใน metastatic colon ca:</b> stable ไม่มี peritonitis → initial = NG decompression, IV fluid, CT abdomen หา adhesive vs recurrence/ carcinomatosis ก่อนตัดสินใจ — ไม่ laparotomy ทันที, ไม่ให้ laxative ปริมาณสูง"
+     ],
+     "pearls": [
+      "ข้อ ECOG 3: ไม่มีคีย์ — bank เติม stem (ไม่มี obstruction/ metastasis) และตอบ BSC",
+      "ข้อ right colectomy (3): ปรับเป็น 'adjuvant chemotherapy' เพราะ colon cancer ไม่ใช้ radiation มาตรฐาน",
+      "ข้อ stoma obstruction: ไม่มีคีย์ — bank เพิ่มช้อย D (NG decompression + CT)"
+     ],
+     "members": [
+      "MDCU78|RoD|Colorectal tumor 2",
+      "MDCU78|RoD|Colorectal tumor 5",
+      "MDCU78|RoD|Colorectal tumor 6",
+      "MDCU78|RoA|Colorectal 2",
+      "MDCU78|RoD|Colorectal tumor 1",
+      "MDCU78|RoA|Colorectal 1"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Skin cancer",
+   "sections": [
+    {
+     "id": "melanoma-margin",
+     "title": "Melanoma Breslow 3.2 mm → wide excision 2 cm (+ SLNB)",
+     "asked": [
+      "Melanoma เท้าลึก 3.2 mm → margin"
+     ],
+     "pattern": [
+      "in situ 0.5–1 · ≤1 mm 1 cm · 1–2 mm 1–2 cm · &gt;2 mm 2 cm · SLNB ≥T1b · acral lentiginous พบบ่อยในเอเชีย"
+     ],
+     "members": [
+      "MDCU79|RoD|Plastic 9"
+     ]
+    }
+   ]
+  }
+ ]
+});
