@@ -1,0 +1,168 @@
+<section class="cover">
+<div class="hero"><div class="ac">AC</div>
+<div class="um">USER MANUAL · ฉบับปรับปรุง</div>
+<h1>คู่มือการใช้งาน<br>เว็บฝึกทำข้อสอบเก่า</h1>
+<div class="tl">อ่านง่าย จบเร็ว ใช้เป็นตั้งแต่วันแรก — รู้ด้วยว่าแต่ละ round เอาโจทย์มาจากไหน</div>
+<div class="meta">ใช้ได้กับทุกวอร์ด · ทุกเว็บ (คลังข้อสอบเก่า MDCU · คลังข้อสอบเก่า SI) · MCQ / MEQ / OSCE · ข้อมูล ณ 22 พ.ย. 2569 (แทนฉบับ 18 พ.ย. 2569)</div></div>
+<div class="toc"><h2>สารบัญ</h2>
+<div class="row m"><span class="c">บทที่ 1</span><span class="t">รู้จัก Round ทั้งหมด + สัดส่วนและที่มาของโจทย์</span><span class="p">2</span></div>
+<div class="row s"><span class="c"></span><span class="t">1.1 ตาราง round หน้าเดียว · 1.2 ตารางสัดส่วน/ที่มาโจทย์ทุก round (น. 3) · 1.3 มีอะไรใหม่ในฉบับนี้</span><span class="p">2</span></div>
+<div class="row m"><span class="c">บทที่ 2</span><span class="t">หน้า home และ Phase 1 / Phase 2</span><span class="p">4</span></div>
+<div class="row s"><span class="c"></span><span class="t">2.1 หน้าเลือกวอร์ด · 2.2 หน้า home ของวอร์ด · 2.3 Phase 1 กับ Phase 2 · 2.4 บันทึก ย้ายเครื่อง AI</span><span class="p">4</span></div>
+<div class="row m"><span class="c">บทที่ 3</span><span class="t">หน้าทำข้อสอบ · เฉลย · กระดาษคำตอบ</span><span class="p">6</span></div>
+<div class="row s"><span class="c"></span><span class="t">3.1 หน้าทำข้อ · 3.2 หน้าเฉลย · 3.3 กระดาษคำตอบ · 3.4 MEQ/OSCE · 3.5 รูปในสถานี OSCE</span><span class="p">6</span></div>
+<div class="row m"><span class="c">บทที่ 4</span><span class="t">อธิบาย Round แบบละเอียด (ทุก round · ทุกแท็บ · ฟีเจอร์เล็ก ๆ)</span><span class="p">9</span></div>
+<div class="row s"><span class="c"></span><span class="t">ข้อสอบเก่า: Service · Grand · Ward staff · Quality · Legendary</span><span class="p">9</span></div>
+<div class="row s"><span class="c"></span><span class="t">ทุกเช้า: Morning round (MCQ · MEQ · OSCE)</span><span class="p">13</span></div>
+<div class="row s"><span class="c"></span><span class="t">โจทย์ใหม่: Unit · Admission · Specialty · Long case</span><span class="p">14</span></div>
+<div class="row s"><span class="c"></span><span class="t">ทบทวน &amp; บนวอร์ด: Advisor · Round I/O · Teaching</span><span class="p">15</span></div>
+<div class="row m"><span class="c">บทที่ 5</span><span class="t">สรุป High-yield และตารางทั้งหมด</span><span class="p">17</span></div>
+<div class="row m"><span class="c">บทที่ 6</span><span class="t">วอร์ด เว็บ และการตั้งค่าสอบจริง</span><span class="p">19</span></div>
+</div>
+<div class="loginbox"><div class="ic">🔐</div><div><b class="h">ใช้ครั้งแรกในเครื่องใหม่ ให้ log in ที่มุมขวาบนก่อน</b>เพื่อ save progress เข้าบัญชี — คำตอบ โน้ต รูปที่ตั้งค่า และความคืบหน้าทุกวอร์ดจะตามไปทุกเครื่องที่ log in บัญชีเดียวกัน ถ้าไม่ log in ข้อมูลจะอยู่แค่ในเครื่องนั้นเครื่องเดียว <span class="small">(ยกเว้นรูปที่ใส่เองในสถานี OSCE — เก็บในเครื่องนั้น ดูข้อ 3.5)</span></div></div>
+</section>
+
+<section class="chap ch1">
+<div class="chh"><span class="pill">บทที่ 1</span><h1>รู้จัก Round ทั้งหมด</h1></div>
+<p class="lead">หน้า home ของแต่ละวอร์ดมีกล่อง "round" ให้เลือก แต่ละ round คือวิธีฝึกคนละแบบ — เลือกให้ตรงกับช่วงที่เรียนอยู่ <span class="ai">AI</span> = ต้องใช้ AI (เปิดเว็บใน Claude หรือใส่ API key)</p>
+<h2 class="sec"><span class="no">1.1</span>ตาราง round หน้าเดียว</h2>
+<table><thead><tr><th style="width:22%">Round</th><th>คืออะไร</th><th style="width:28%">ใช้ตอนไหน</th></tr></thead><tbody>
+<tr class="grp g-ac"><td colspan="3">🗂 ทำข้อสอบเก่า</td></tr>
+<tr><td class="rn">Service round</td><td>ทำข้อสอบเก่าทีละปี / rotation แบบกระดาษคำตอบ เลือกตาม Tag ได้ — <b>หัวใจของเว็บ</b></td><td>ใช้ตลอด ไล่ทำข้อสอบเก่าให้ครบทุกปี</td></tr>
+<tr><td class="rn">Grand round</td><td>สุ่มข้อสอบเก่าจากทุกปีมารวมเป็นรอบเดียว (ข้อสอบเก่าล้วน)</td><td>อยากลองแบบคละปี เหมือนไม่รู้ว่าจะเจออะไร</td></tr>
+<tr><td class="rn">Ward staff round</td><td>รวมข้อที่ยัง "ไม่แม่น" — ผิดล่าสุด ถูกไม่ถึง 2 ครั้งติด ข้อ ⚑ และข้อที่ 📌 เก็บไว้</td><td>เก็บข้อที่พลาด จนถูกติดกัน 2 ครั้ง</td></tr>
+<tr><td class="rn">Quality round</td><td>ข้อสอบเก่าที่ยังไม่เคยทำ แบบจับเวลาเป็นเซต (speedrun) · OSCE มี IRL / SIM</td><td>ฝึกความเร็ว ช่วงใกล้สอบ</td></tr>
+<tr><td class="rn">Legendary round</td><td>จำลองสอบจริง จำนวนข้อ/เวลาเท่าสอบจริง ไม่เห็นเฉลยจนจบ · MCQ ข้อสอบเก่า 60–70% + จากไฟล์วอร์ด 20–30% + นอกไฟล์ 5–10% · OSCE ข้อสอบเก่า 90% + จากไฟล์ 10%</td><td>ซ้อมใหญ่ก่อนสอบ</td></tr>
+<tr class="grp g-am"><td colspan="3">☀️ ทุกเช้า</td></tr>
+<tr><td class="rn">Morning round</td><td>ชุดประจำวัน เปลี่ยนทุก 07:30 · MCQ 15 ข้อ (เก่า 5 + Unit 10) / MEQ 1 เคส / OSCE 3 สถานี (เก่า 1 + Unit 2) · เก็บไฟ 🔥 และเหรียญ 🏅</td><td>ทุกวัน ทำให้เป็นนิสัย</td></tr>
+<tr class="grp g-new"><td colspan="3">✨ โจทย์ใหม่ (ไม่ใช่ข้อสอบเก่า)</td></tr>
+<tr><td class="rn">Unit round</td><td>โจทย์ที่ Claude แต่งเตรียมไว้: MCQ ตามบท lecture · MEQ ตามหัวข้อ · OSCE ตามหัวข้อใหญ่ + เลือกหัวข้อเล็กได้</td><td>หลังเรียน lecture / หัวข้อนั้นจบ</td></tr>
+<tr><td class="rn">Admission round <span class="ai">AI</span></td><td>AI แต่งเคสใหม่ทีละข้อ ไม่มีวันหมด เนื้อหาอะไรก็ได้ในวอร์ดที่เหมาะกับชั้นปี</td><td>ข้อสอบเก่าหมดแล้ว อยากได้โจทย์เพิ่ม</td></tr>
+<tr><td class="rn">Specialty round <span class="ai">AI</span></td><td>AI แต่งโจทย์จากไฟล์ของวอร์ด (เรื่อง / R / T / N, เปิด L ได้) · OSCE มี Specialty ของตัวเอง</td><td>อยากเจาะเรื่อง/ไฟล์ที่เพิ่งอ่าน</td></tr>
+<tr><td class="rn">Long case <span class="ai">AI</span></td><td>AI สร้างเคสยาวจากอาการนำ เดินเคสทีละขั้น เฉลยทีละขั้นสไตล์ MEQ</td><td>ฝึกคิดเป็นเคสแบบ MEQ / ราวด์วอร์ด</td></tr>
+<tr class="grp g-rev"><td colspan="3">📖 ทบทวนและอ่าน</td></tr>
+<tr><td class="rn">Advisor round</td><td>อ่านเฉลยข้อที่เคยทำแล้วจากทุก round โดยไม่ต้องตอบใหม่ + รายงานจุดอ่อน</td><td>ทวนเบา ๆ ก่อนนอน / ก่อนสอบ</td></tr>
+<tr><td class="rn">Round I/O</td><td>สรุปเนื้อหา L / R / T / N + รวมตามเรื่อง พร้อม guideline ล่าสุด แยกตามแท็บ</td><td>อ่านเนื้อหา ก่อนหรือหลังทำโจทย์</td></tr>
+<tr class="grp g-ward"><td colspan="3">🩺 ใช้บนวอร์ด</td></tr>
+<tr><td class="rn">Teaching round <span class="ai">AI</span></td><td>History taking · Physical exam · CTA · Case · ใบเหลือง · Flashcard · Oral (เร็ว ๆ นี้)</td><td>ตอนรับเคส เขียนรายงาน ท่อง keyword</td></tr>
+</tbody></table>
+<div class="note n-tip">💡 <b>เริ่มยังไงดี</b> ช่วงเรียน → Service round + Morning ทุกวัน + Unit หลังเรียนแต่ละบท + อ่าน Round I/O · ช่วงใกล้สอบ → สลับเป็น Phase 2 แล้วใช้ Ward staff, Quality, Legendary และสรุป High-yield</div>
+<p class="small">บาง round มีเฉพาะบางแท็บหรือบางวอร์ด ถ้ายังไม่เปิดใช้ กล่องจะเขียนบอกไว้ (เช่น "เร็ว ๆ นี้" หรือ "ปิด")</p>
+
+<h2 class="sec" style="break-before:page"><span class="no">1.2</span>สัดส่วนและที่มาของโจทย์ — ทุก round ทุกแท็บ</h2>
+<p class="lead">ป้ายที่มา: <span class="tag t-ac">ข้อสอบเก่า (AC)</span> ข้อสอบเก่าจากไฟล์ที่รุ่นพี่จด · <span class="tag t-u">Unit</span> โจทย์ที่ Claude แต่งเตรียมไว้ · <span class="tag t-f">จากไฟล์วอร์ด</span> โจทย์ที่อิง L/R/T/N ของวอร์ด · <span class="tag t-o">นอกไฟล์</span> ความรู้ทั่วไปที่เชื่อถือได้ · <span class="tag t-ai">AI</span> แต่งตอนกดใช้งาน</p>
+<table><thead><tr><th style="width:15%">Round</th><th style="width:29%">MCQ</th><th style="width:28%">MEQ</th><th>OSCE</th></tr></thead><tbody>
+<tr><td class="rn">Service</td><td><span class="tag t-ac">AC</span> 100% เลือกปี/Ro/Tag เอง</td><td><span class="tag t-ac">AC</span> 100% ตามปี</td><td><span class="tag t-ac">AC</span> 100% ตามปี ไม่จับเวลา</td></tr>
+<tr><td class="rn">Grand</td><td><span class="tag t-ac">AC</span> 100% สุ่มทุกปี 10/20/40/60/ทั้งหมด</td><td><span class="tag t-ac">AC</span> 100% สุ่มเคส</td><td><span class="tag t-ac">AC</span> 100% สุ่มสถานี</td></tr>
+<tr><td class="rn">Ward staff</td><td>ข้อที่เคยทำแล้วยังไม่แม่น — ค่าเริ่ม <span class="tag t-ac">AC</span> · เลือกรวม Unit / Admission / AI ของ Legendary ได้</td><td>ข้อย่อยที่ยังไม่ได้เต็ม</td><td>ข้อย่อยที่ยังไม่ได้เต็ม</td></tr>
+<tr><td class="rn">Quality</td><td><span class="tag t-ac">AC</span> ที่ยังไม่เคยทำใน Phase นั้น</td><td>เร็ว ๆ นี้</td><td><span class="tag t-ac">AC</span> ที่ยังไม่เคยทำ (สุ่มหรือเลือกปี)</td></tr>
+<tr><td class="rn">Legendary</td><td><div class="bar"><span class="b-ac" style="width:60%">AC 60–70%</span><span class="b-f" style="width:27%">ไฟล์ 20–30%</span><span class="b-o" style="width:13%">5–10%</span></div>สุ่มตัวเลขใหม่ทุกชุด · ช่องที่ทำไม่ได้ใช้ AC แทน</td><td>ยังไม่มี</td><td><div class="bar"><span class="b-ac" style="width:90%">AC 90%</span><span class="b-f" style="width:10%">10</span></div>ไฟล์ = Unit · Specialty · AI จากไฟล์ (ไม่มีนอกไฟล์) · เลือก "AC เท่านั้น" ได้</td></tr>
+<tr><td class="rn">Morning</td><td><div class="bar"><span class="b-ac" style="width:33%">AC 5</span><span class="b-u" style="width:67%">Unit 10</span></div>AC ที่เคยทำแล้ว · ขาดฝั่งไหนเติมจากอีกฝั่ง</td><td>1 เคส/วัน ที่ Claude แต่งล่วงหน้า (เฉพาะวอร์ด MEQ แบบเคส)</td><td><div class="bar"><span class="b-ac" style="width:33%">AC 1</span><span class="b-u" style="width:67%">Unit 2</span></div>สัดส่วนนี้มาก่อนทุกกฎ</td></tr>
+<tr><td class="rn">Unit</td><td><span class="tag t-u">Unit</span> ~200 ข้อ/บท lecture</td><td><span class="tag t-u">Unit</span> ตามหัวข้อ</td><td><span class="tag t-u">Unit</span> ตามหัวข้อใหญ่ → หัวข้อเล็ก</td></tr>
+<tr><td class="rn">Admission</td><td><span class="tag t-ai">AI</span> <span class="tag t-o">นอกไฟล์</span> ทีละข้อ ไม่จำกัด</td><td>เร็ว ๆ นี้</td><td>รอรายละเอียด</td></tr>
+<tr><td class="rn">Specialty</td><td><span class="tag t-ai">AI</span> <span class="tag t-f">ไฟล์</span> R/T/N/เรื่อง (+L ถ้าเปิด)</td><td>ปิด</td><td><span class="tag t-ai">AI</span> <span class="tag t-f">ไฟล์</span> Round I/O ที่แท็บ OSCE เห็น</td></tr>
+<tr><td class="rn">Long case</td><td colspan="3"><span class="tag t-ai">AI</span> สร้างเคสจากอาการนำ ใช้ร่วมทุกแท็บ</td></tr>
+<tr><td class="rn">Advisor</td><td colspan="3">ข้อที่ทำแล้วจากทุก round (AC · Unit · Admission · Specialty · AI ของ Legendary · Morning) — อ่านเฉลยอย่างเดียว</td></tr>
+<tr><td class="rn">Round I/O</td><td colspan="3">สรุปจาก L · R · T · N + รวมตามเรื่อง — ไฟล์ที่ติดป้ายแท็บเห็นเฉพาะแท็บนั้น ไม่ติดป้าย = ทุกแท็บ</td></tr>
+</tbody></table>
+<div class="note n-info"><b>ℹ️ "จากไฟล์วอร์ด" ใน Legendary MCQ นับอะไรบ้าง</b> — Unit round · Specialty round ของเรา · เคส Admission ที่บันทึกว่าสร้างจากไฟล์ · โจทย์ใหม่ที่ AI แต่งจากหน้า Round I/O 1 หน้าต่อข้อ (ให้ AI ตรวจกับ guideline/ตำราก่อนใช้ · ลำดับความน่าเชื่อถือ guideline/textbook &gt; lecture &gt; resource &gt; ward note) · <b>"นอกไฟล์"</b> = เคส Admission ทั่วไป + โจทย์ AI จากความรู้นอกไฟล์ (มีเฉพาะ MCQ)</div>
+<div class="note n-tip">💡 ระหว่างสอบ Legendary ไม่บอกที่มาเลย — ตอนเฉลยจึงบอกว่าแต่ละข้อมาจากกลุ่มไหน เคยเจอมาก่อนใน round ไหน และมีข้อคล้ายกันในคลังหรือไม่</div>
+
+<h2 class="sec"><span class="no">1.3</span>มีอะไรใหม่ในฉบับนี้ (เทียบกับฉบับ 18 พ.ย.)</h2>
+<div class="cols">
+<div class="note n-new" style="margin:0"><b>🆕 ข้อสอบ / round</b><ul>
+<li><b>Legendary MCQ</b> สัดส่วนใหม่ เก่า 60–70% · ไฟล์ 20–30% · นอกไฟล์ 5–10% (ทุกวอร์ด รวม OB-GYN)</li>
+<li><b>Legendary OSCE</b> เก่า 90% : ไฟล์ 10% (เลิกช่องใส่จำนวนข้อ AI เอง)</li>
+<li><b>Unit round OSCE</b> เลือกหัวข้อเล็กได้ หรือสุ่มคละทุกหัวข้อเล็ก + 🎲 สลับลำดับ</li>
+<li>SI Med: Unit OSCE <b>Blood smear 100 สถานี</b> (Microscope) + R03, R04 ใน Round I/O</li></ul></div>
+<div class="note n-new" style="margin:0"><b>🆕 ฟีเจอร์เล็ก ๆ</b><ul>
+<li><b>🔎 ค้นรูป / ใส่รูปเอง</b> ในทุกสถานี OSCE ที่ไม่มีรูป ใช้ได้ทุก round</li>
+<li>Teaching round มี <b>Flashcard</b> (และ Oral เร็ว ๆ นี้)</li>
+<li>Ward staff รวมข้อ ⚑ ไม่มั่นใจ และ 📌 เก็บไว้ เสมอ · เลือก Tag ได้ทั้ง Ward staff / Advisor</li>
+<li>กระดาษคำตอบทุก round เลือกชุด/บท/สถานะได้แบบ Service · 📝 กรองข้อที่มีโน้ต</li></ul></div>
+</div>
+</section>
+
+<section class="chap ch2">
+<div class="chh"><span class="pill">บทที่ 2</span><h1>หน้า home และ Phase 1 / Phase 2</h1></div>
+<h2 class="sec"><span class="no">2.1</span>หน้าเลือกวอร์ด (หน้าแรกสุด)</h2>
+<div class="grid2">
+<div class="phone">
+<div style="display:flex;justify-content:space-between;font:600 8pt Kanit"><span>คลังข้อสอบเก่า</span><span>👤 <span class="cn">1</span></span></div>
+<div class="mrow mpk">📊 สรุปเกรด Surgery B+/–/– · … <span class="cn">2</span></div>
+<div class="mrow"><span class="chip" style="background:#c42a66;color:#fff;border:0">Gen Sx</span><div style="flex:1"><b class="k">General Surgery</b><br><span class="small">1,628 ข้อ · สอบอีก 2 w 3 d</span></div><span class="cn">3</span><b>B+</b> <span class="cn">4</span></div>
+<div class="mrow"><span class="chip" style="background:#2457a8;color:#fff;border:0">Med</span><div style="flex:1"><b class="k">Internal Medicine</b><br><span class="small">MCQ · MEQ · OSCE</span></div></div>
+<div class="mrow"><span>👤 บัญชีของฉัน · log in / ออกจากระบบ · เปลี่ยนสถาบัน</span><span class="cn">5</span></div>
+<div class="mrow" style="background:#fff6dc">เว็บมีเวอร์ชันใหม่ — แตะเพื่อโหลดใหม่ <span class="cn">6</span></div>
+</div>
+<ol class="num">
+<li><span class="n">1</span><span><b>👤 มุมขวาบน</b> — log in เพื่อ save progress ข้ามเครื่อง</span></li>
+<li><span class="n">2</span><span><b>บรรทัดชมพู 📊 สรุปเกรด</b> — แตะดูตารางเกรดทุกวิชา (บทที่ 5) · แตะชื่อวิชาเพื่อไปใส่เกรด</span></li>
+<li><span class="n">3</span><span><b>การ์ดวอร์ด</b> — ชื่อย่อ ชื่อเต็ม จำนวนข้อ นับถอยหลังถึงวันสอบ (ถ้าใส่ไว้) แตะเพื่อเข้าวอร์ด · วอร์ดที่มี artifact ของตัวเองขึ้นเป็นการ์ดลิงก์ออก</span></li>
+<li><span class="n">4</span><span><b>เกรดด้านขวา</b> — เรียงบนลงล่าง ช่องที่ยังไม่ใส่เป็น "–"</span></li>
+<li><span class="n">5</span><span><b>การ์ดบัญชี</b> — log in / ออก · <b>ปุ่มเปลี่ยนสถาบัน</b> (MDCU ↔ SI ต้องใส่รหัสเข้าเว็บปลายทาง) · ความคืบหน้าแต่ละสถาบันแยกกัน</span></li>
+<li><span class="n">6</span><span><b>แถบเหลือง</b> — เว็บมีอัปเดต แตะเพื่อโหลดของใหม่ · ถ้าเปิดแท็บค้างนานแล้วรูปขึ้น "?" เว็บจะเช็กเวอร์ชันและโหลดใหม่ให้เอง</span></li>
+</ol></div>
+
+<h2 class="sec"><span class="no">2.2</span>หน้า home ของวอร์ด</h2>
+<div class="grid2">
+<div class="phone">
+<div style="font:600 8pt Kanit">⌂ AC Gen Sx Y4 · เปลี่ยนวอร์ด <span class="cn">1</span></div>
+<div style="display:flex;gap:4px;margin:4px 0"><span class="chip" style="background:#231f2b;color:#fff">MCQ</span><span class="chip">MEQ</span><span class="chip">OSCE</span><span class="cn">2</span></div>
+<div class="mrow"><b class="k">Phase 1</b> | Phase 2 <span class="cn">3</span><span class="small" style="margin-left:auto">คลัง 1,628 · ทำแล้ว 412 · ถูก 78%</span></div>
+<div class="mrow mpk">ทำต่อ: Grand round 12/40 <span style="margin-left:auto">×</span><span class="cn">4</span></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:3px">
+<div class="mrow">Grand round</div><div class="mrow">Service round</div><div class="mrow" style="background:#fdecee">Morning 🔥5 🏅3 <span class="cn">5</span></div><div class="mrow">Legendary</div><div class="mrow">Ward staff · 23</div><div class="mrow">Teaching</div><div class="mrow">Unit</div><div class="mrow">Round I/O •</div></div>
+<div class="mrow" style="background:#eef3ff">📘 ทบทวนก่อนสอบ (Phase 2) ▾ <span class="cn">6</span></div>
+<div class="mrow">🎓 เกรด · Admit · ICU · Discharge <span class="cn">7</span></div>
+<div class="mrow">🔁 ย้ายความคืบหน้า 🔗 ⤵ 💾 📂 <span class="cn">8</span></div>
+<div class="small" style="text-align:center">อัปเดตเว็บล่าสุด 22 พ.ย. 01:01 <span class="cn">9</span></div>
+</div>
+<ol class="num">
+<li><span class="n">1</span><span><b>⌂ ชื่อวอร์ด</b> กลับหน้าเลือกวอร์ด · ปุ่ม Back ของเบราว์เซอร์ใช้ได้ทุกหน้า รีเฟรชแล้วอยู่หน้าเดิม</span></li>
+<li><span class="n">2</span><span><b>แท็บ MCQ / MEQ / OSCE</b> ข้อสอบแต่ละชนิดแยกกัน (ความคืบหน้าก็แยก) วอร์ดที่ไม่มีสอบชนิดนั้นจะเขียนบอก</span></li>
+<li><span class="n">3</span><span><b>ปุ่ม Phase + สถิติ</b> สลับ Phase ได้ตลอด · ใต้ปุ่มบอกจำนวนข้อในคลัง ข้อที่ทำแล้ว และ % ถูก</span></li>
+<li><span class="n">4</span><span><b>กล่องชมพู "ทำต่อ"</b> round ที่ค้างไว้ แตะเพื่อทำต่อ หรือ × เพื่อซ่อน (ซ่อนจนกว่าจะกลับไปทำรอบนั้น ซิงก์ข้ามเครื่อง) · ในหน้าของแต่ละ round ก็มีกล่องแบบนี้พร้อม ×</span></li>
+<li><span class="n">5</span><span><b>กล่อง round</b> ชื่อ + คำอธิบายสั้น · Morning มีไฟ/เหรียญและเปลี่ยนสีตามสถานะวันนี้ · Ward staff มีตัวเลขข้อค้าง · Round I/O มีจุดเมื่อมีเนื้อหาใหม่ · ที่มี <span class="ai">AI</span> ต้องใช้ AI</span></li>
+<li><span class="n">6</span><span><b>ทบทวนก่อนสอบ</b> เฉพาะ Phase 2 — แตะหัวกล่องเพื่อพับ/กาง (จำแยกตามแท็บ ซิงก์ข้ามเครื่อง)</span></li>
+<li><span class="n">7</span><span><b>เกรด / Admit · ICU · Discharge</b> ใส่เกรด วันเริ่มวอร์ด วันสอบ และจำนวนข้อ/เวลาของสอบจริง (MCQ และ OSCE) — Legendary ใช้ค่านี้</span></li>
+<li><span class="n">8</span><span><b>ย้ายความคืบหน้า</b> ส่งลิงก์ / นำเข้า / ไฟล์สำรอง (ข้อ 2.4)</span></li>
+<li><span class="n">9</span><span><b>อัปเดตเว็บล่าสุด</b> วันเวลาที่เว็บอัปเดตครั้งล่าสุด · ปุ่ม <b>เปิดใน Claude</b> พาไป artifact ที่ใช้ AI ได้โดยไม่ต้องมี API key</span></li>
+</ol></div>
+</section>
+
+<section class="ch2" style="break-before:page">
+<h2 class="sec"><span class="no">2.3</span>Phase 1 กับ Phase 2 ต่างกันยังไง</h2>
+<p class="lead">ข้อสอบชุดเดียวกันเป๊ะ แต่ความคืบหน้าแยกกัน — เหมือนมีกระดาษคำตอบ 2 แผ่น แผ่นแรกใช้ตอนเรียน แผ่นที่สองใช้ทวนก่อนสอบ</p>
+<div class="cols">
+<div class="note n-info" style="margin:0"><b class="k" style="font-size:11pt;color:#2457a8">Phase 1</b> · ช่วงเรียน / อยู่บนวอร์ด<ul><li>ทำข้อสอบเก่ารอบแรก เก็บความรู้ไปใช้บนวอร์ด</li><li>ดูแนวข้อสอบ ว่าเนื้อหาไหนในสไลด์และนอกสไลด์ที่ออก</li><li>จดโน้ตของตัวเองไว้ในแต่ละข้อ</li></ul></div>
+<div class="note" style="margin:0;background:var(--mgs);border:1px solid #f3b8cf"><b class="k" style="font-size:11pt;color:var(--mg)">Phase 2</b> · ช่วงใกล้สอบ<ul><li>ทวนข้อสอบเก่ารอบสอง กระดาษคำตอบเริ่มใหม่</li><li>แต่ยังเห็นว่าข้อไหนเคยถูก/ผิดใน Phase 1 (ป้าย P1✓ / P1✗)</li><li>มีการ์ด <b>ทบทวนก่อนสอบ</b> + ตัวกรองเพิ่ม "ตอบถูก" "ไม่เคยทำใน P1"</li></ul></div></div>
+<h3>อะไรแยก อะไรใช้ร่วม</h3>
+<table class="kv"><thead><tr><th>อะไร</th><th style="width:20%">แยกแต่ละ Phase</th><th style="width:20%">ใช้ร่วม 2 Phase</th></tr></thead><tbody>
+<tr><td>คำตอบ / ความคืบหน้าข้อสอบเก่า</td><td class="yes">✓</td><td></td></tr>
+<tr><td>ช่อง ✎ ทด / จดก่อนตอบ</td><td class="yes">✓</td><td></td></tr>
+<tr><td>รอบที่ทำค้าง · ข้อล่าสุดที่เปิดค้างใน Service round</td><td class="yes">✓</td><td></td></tr>
+<tr><td>"สรุปของฉัน" (โน้ตหลังดูเฉลย) · ⚑ / 📌</td><td></td><td class="yes">✓</td></tr>
+<tr><td>Unit · Admission · Specialty · โจทย์ AI ของ Legendary (โจทย์ที่ไม่ใช่ข้อสอบเก่า)</td><td></td><td class="yes">✓</td></tr>
+<tr><td>Morning round (ชุดเดียวกันทั้ง 2 Phase)</td><td></td><td class="yes">✓</td></tr>
+</tbody></table>
+<div class="note n-info">ℹ️ <b>สลับ Phase</b> กดปุ่ม Phase ที่หน้า home สลับไปกลับได้ตลอด ข้อมูลไม่หาย · แนะนำเปลี่ยนเป็น Phase 2 เมื่อเริ่มเข้าโหมดทวนก่อนสอบ</div>
+
+<h2 class="sec"><span class="no">2.4</span>บันทึกความคืบหน้า ย้ายเครื่อง AI และอื่น ๆ</h2>
+<div class="cols">
+<div><h3>💾 การบันทึก</h3><ul>
+<li>ไม่ log in ก็ใช้ได้ — เว็บเก็บในเครื่องให้อัตโนมัติ</li>
+<li>log in (มุมขวาบน) — ซิงก์เข้าบัญชี เปิดเครื่องไหนก็ทำต่อได้ ของที่ทำไว้ก่อน log in จะรวมเข้าบัญชีเอง</li>
+<li>สถานะบันทึก: ☁️ เข้าบัญชีแล้ว · 💾 อยู่ในเครื่อง · ⚠️ บันทึกไม่สำเร็จ</li>
+<li>เก็บทุกอย่าง: ประวัติการตอบทุกครั้ง ⚑ 📌 โน้ต ลายมือ รอบที่ค้าง การตั้งค่า</li>
+<li>เปิดครั้งต่อไปเร็วขึ้นและใช้ออฟไลน์ได้ (เว็บเก็บไฟล์ไว้ในเครื่อง)</li></ul>
+<h3>🌙 Dark mode · ⌨ คีย์ลัด</h3><ul><li>Dark mode เปลี่ยนตามการตั้งค่าเครื่อง</li><li>A–E / 1–5 เลือก · Enter ยืนยัน · ← → เปลี่ยนข้อ · Esc ปิดแผง</li></ul></div>
+<div><h3>🔁 ย้ายความคืบหน้า (การ์ดท้ายหน้า home)</h3><ul>
+<li>🔗 ส่งลิงก์ความคืบหน้า — ส่งไปเปิดอีกเครื่อง</li>
+<li>⤵ นำเข้าลิงก์ — รวมกับของเครื่องนี้ ข้อไหนเครื่องนี้ทำมากกว่าจะเก็บของเครื่องนี้</li>
+<li>💾 ดาวน์โหลดไฟล์สำรอง (.json) ครบทุกอย่างรวมโน้ตและลายมือ · 📂 นำเข้าไฟล์สำรอง</li></ul>
+<h3>🤖 ใช้ AI ยังไง</h3><ul>
+<li><b>เปิดใน Claude</b> (ปุ่มในเว็บ) — ใช้ AI ได้เลย ผลที่ทำเก็บในบัญชี Claude</li>
+<li>หรือใส่ <b>API key</b> ครั้งเดียว (หน้า Admission) — เก็บในเบราว์เซอร์เครื่องนั้นเท่านั้น ใช้กับทุกฟีเจอร์ AI</li>
+<li>โจทย์ AI ที่แต่งใน Claude → ปุ่ม <b>🌐 Update for all</b> ส่งเข้าเว็บและคลังรวม ให้เพื่อนในวอร์ดได้ใช้ด้วย</li></ul></div></div>
+</section>
