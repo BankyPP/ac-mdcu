@@ -39,7 +39,7 @@ W.DUP.push(
 
 /* AC 77 Subspe (21 พ.ย. 2026): ข้อซ้ำ/เรื่องเดียวกันข้าม rotation ปี 77 และกับปีอื่น (รวมกลุ่มเดิมที่ทับซ้อนเข้ามาด้วย) */
 W.DUP.push(
-  ["MDCU77|RoA|Plastic 2","MDCU77|RoB|Plastic 14"],
+  ["MDCU77|RoA|Plastic 2","MDCU77|RoB|Plastic 14","MDCU76|RoD|1"],
   ["MDCU77|RoA|Ped 3","MDCU77|RoB|Plastic 15","MDCU78|RoD|63"],
   ["MDCU77|RoB|Plastic 10","MDCU77|RoC|Plastic 8"],
   ["MDCU77|RoB|Plastic 6","MDCU77|RoC|Plastic 13"],
@@ -59,4 +59,31 @@ W.DUP.push(
   ["MDCU77|RoC|Colo 3","MDCU79|RoD|Colo 10"],
   ["MDCU77|RoA|Uro 12","MDCU78|RoD|82"],
   ["MDCU77|RoB|Colo 3","MDCU79|RoD|Colo 12"]
+);
+
+/* AC 76 Subspe (21 พ.ย. 2026): ข้อเรื่องเดียวกันข้าม rotation ปี 76 และกับปีอื่น (Marjolin 76D ข้อ 1 รวมเข้ากลุ่ม 77 เดิมด้านบน) */
+W.DUP.push(
+  ["MDCU76|RoA|8","MDCU76|RoC|Uro 2"],
+  ["MDCU76|RoA|10","MDCU76|RoD|18"],
+  ["MDCU76|RoA|14","MDCU76|RoD|36"],
+  ["MDCU76|RoA|29","MDCU76|RoD|62","MDCU76|RoA|47"],
+  ["MDCU76|RoA|21","MDCU76|RoD|22"],
+  ["MDCU76|RoA|13","MDCU76|RoC|CVT 4","MDCU76|RoD|9"],
+  ["MDCU76|RoA|22","MDCU76|RoD|23","MDCU77|RoC|Plastic 5"],
+  ["MDCU76|RoC|Plastic 3","MDCU76|RoD|46"],
+  ["MDCU76|RoC|Plastic 8","MDCU76|RoD|47","MDCU78|RoD|6"],
+  ["MDCU76|RoA|9","MDCU76|RoC|Colo 1"],
+  ["MDCU76|RoC|CVT 2","MDCU76|RoD|69"],
+  ["MDCU76|RoA|23","MDCU76|RoD|48"],
+  ["MDCU76|RoA|7","MDCU76|RoD|31"],
+  ["MDCU76|RoA|6","MDCU76|RoD|41"],
+  ["MDCU76|RoA|1","MDCU76|RoD|72"],
+  ["MDCU76|RoD|37","MDCU79|RoC|URO 4","MDCU77|RoA|Uro 4"],
+  ["MDCU76|RoD|21","MDCU79|RoD|Colo 7"],
+  ["MDCU76|RoD|59","MDCU79|RoD|Ped 1"],
+  ["MDCU76|RoA|24","MDCU79|RoD|Ped 6"],
+  ["MDCU76|RoD|38","MDCU77|RoA|Neuro 7"],
+  ["MDCU76|RoD|65","MDCU78|RoD|Anorectal disease 3"],
+  ["MDCU76|RoD|28","MDCU79|RoD|CVT 3"],
+  ["MDCU76|RoC|Plastic 4","MDCU79|RoC|Ped 4"]
 );
