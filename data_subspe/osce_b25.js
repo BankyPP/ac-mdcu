@@ -220,18 +220,18 @@ SA({page:5,orig:"SEQ 4",num:"SA 4",sub:"Mammogram",title:"Short answer — breas
  interp:"Suspicious mammographic mass",
  summary:["BI-RADS 4–5 → core biopsy","Spiculated mass, pleomorphic microcalcification","US axilla for staging"]}),
 
-SA({page:5,orig:"SEQ 5",num:"SA 5",sub:"Other spot",title:"Short answer — video clip (not available)",
- stem:`A video clip of a clinical finding is shown.<br>1. Describe the abnormality.<br>2. What is the diagnosis?`,
+SA({page:5,orig:"SEQ 5",num:"SA 5",sub:"Neuro motor/reflex",title:"Short answer — video: dorsal midbrain (Parinaud) syndrome",
+ stem:`A video clip shows a patient's eye movements (clip: Ophthalmology — dorsal midbrain syndrome).<br>1. Describe the abnormality.<br>2. What is the diagnosis and its likely cause?`,
  gray:"5. (วิดีโอ https://youtu.be/u7D1-zj98l8?t=34 ตัดคำบรรยายด้านล่างออก) 5.1 บรรยายความผิดปกติ 5.2 วินิจฉัย",
- flag:"⚠ เป็นวิดีโอ YouTube ที่ไม่อยู่ในไฟล์ และ Claude เปิดลิงก์ไม่ได้ในรอบนี้ — ยังไม่รู้ว่าเป็นวิดีโอเรื่องอะไร (เปิดลิงก์ในไฟล์แล้วบอก Claude เพื่อเติมเฉลย)",imgAlt:"คลิปวิดีโอ (https://youtu.be/u7D1-zj98l8?t=34)",
- notes:"ไม่มีไฟล์เฉลย · ลิงก์วิดีโอในไฟล์: https://youtu.be/u7D1-zj98l8?t=34",
- opinion:"ยังไม่มีเฉลย — ไม่ทราบเนื้อหาวิดีโอ",
+ flag:"วิดีโอ YouTube ไม่อยู่ในไฟล์ — ชื่อคลิปจาก YouTube คือ Ophthalmology - Dorsal midbrain syndrome (ช่อง ophthalclass) · เฉลยเขียนจากชื่อคลิป ยังไม่ได้ดูภาพเคลื่อนไหวจริง",imgAlt:"คลิปวิดีโอ (https://youtu.be/u7D1-zj98l8?t=34): การกลอกตาขึ้นบนไม่ได้ ตาสั่นแบบ convergence-retraction เมื่อพยายามมองขึ้น",
+ notes:"ไม่มีไฟล์เฉลย · ลิงก์วิดีโอในไฟล์: https://youtu.be/u7D1-zj98l8?t=34 · ชื่อคลิป Ophthalmology - Dorsal midbrain syndrome (ตรวจจาก YouTube oEmbed 21 พ.ย. 2026) · ข้อสอบ Subspe → เนื้อหาเชื่อมกับ pineal region tumor/hydrocephalus",
+ opinion:"ความมั่นใจปานกลาง (เฉลยจากชื่อคลิป ไม่ได้ดูภาพ)",
  parts:S(
-  B("5.1 Describe.",2,{tags:["spot"],ans:"ยังไม่มีเฉลย — เปิดดูวิดีโอจากลิงก์ในไฟล์แล้วบรรยายสิ่งที่เห็น",rubric:"ประเมินเอง",pts:[P("Describe the finding","describe","บรรยาย")]}),
-  B("5.2 Diagnosis.",2,{tags:["spot"],ans:"ยังไม่มีเฉลย",rubric:"ประเมินเอง",pts:[P("Diagnosis","diagnos","วินิจฉัย")]})
+  B("5.1 Describe.",4,{tags:["spot"],ans:"<b>Upgaze palsy</b> (vertical gaze palsy) · พยายามมองขึ้น → <b>convergence-retraction nystagmus</b> (ลูกตาหดเข้าเบ้าและเข้าหากัน) · <b>light-near dissociation</b> (pupil ไม่ตอบสนองแสงแต่หดเมื่อมองใกล้) · ± eyelid retraction (Collier sign), setting-sun sign ในเด็ก",rubric:"1/ประเด็น",pts:[CR(P("Upgaze palsy","upgaze","upward gaze","vertical gaze","มองขึ้น")),CR(P("Convergence-retraction nystagmus","convergence","retraction")),P("Light-near dissociation","light-near","light near","dissociation"),P("Lid retraction or setting-sun sign","collier","lid retraction","setting sun")]}),
+  B("5.2 Diagnosis and cause.",4,{tags:["spot"],ans:"<b>Dorsal midbrain (Parinaud) syndrome</b> — รอยโรคที่ pretectal area/posterior commissure · สาเหตุ: <b>pineal region tumor</b> (germinoma, pineoblastoma) ในเด็ก/วัยรุ่น, <b>obstructive hydrocephalus</b> (aqueductal stenosis, shunt failure), midbrain stroke/hemorrhage ในผู้สูงอายุ, MS",rubric:"1/ประเด็น",pts:[CR(P("Parinaud / dorsal midbrain syndrome","parinaud","dorsal midbrain")),CR(P("Pineal region tumor","pineal","germinoma")),P("Hydrocephalus","hydroceph","aqueduct","shunt"),P("Midbrain stroke","stroke","infarct","hemorrhage")]})
  ),
- interp:"Video station (content unknown)",
- summary:["วิดีโอไม่อยู่ในไฟล์","รอเติมเฉลยเมื่อทราบเนื้อหา"]}),
+ interp:"Parinaud syndrome",
+ summary:["Upgaze palsy + convergence-retraction nystagmus + light-near dissociation","Pineal tumor or hydrocephalus","Setting-sun sign in infants with hydrocephalus"]}),
 
 SA({page:6,orig:"SEQ 6",num:"SA 6",sub:"CXR",title:"Short answer — intubated patient with worsening dyspnea",img:["os74a_s6"],
  stem:`An elderly woman admitted with pneumonia is intubated. She later becomes more dyspneic, and a chest radiograph is taken.<br>1. Describe the abnormality.<br>2. What is the diagnosis?<br>3. What is the treatment?`,
