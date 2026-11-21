@@ -1,438 +1,89 @@
-SUMM.push({
- "tag": "Plastic",
- "title": "Plastic & Reconstructive surgery",
- "intro": "<ul><li>MDCU79 RoC 8 ข้อย่อย: <b>Burn</b> (Parkland 8 ชม.แรก, inhalation injury → intubation), <b>ก้อนผิวหนัง / ใต้ผิวหนัง</b> (subcutaneous cyst → complete excision, nevus sebaceous → full-thickness excision), <b>craniofacial / pediatric</b> (cleft palate timing, frontoethmoidal encephalocele, infantile hemangioma) และ <b>salivary</b> (pleomorphic adenoma)</li><li>รูปแบบ: คำนวณ (rule of nines + Parkland), ภาพ → next step, timing ผ่าตัด, Dx จาก histology</li><li>หลายเคสเป็น recall ช้อยเดียว Claude แต่ง stem (⚠) — จำ decision rule เช่น fluctuant → I&D vs ไม่อักเสบ → excision, low-risk vs high-risk hemangioma</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: keloid prevention, melanoma margin, genital warts, craniosynostosis ตาโปน, Le Fort airway, skin graft, fingertip, facial nerve, mandible fracture, parotid tumor ซ้ำ</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: suture technique (half-buried), free flap, Stensen duct, Waters view, Parkland, cleft palate, encephalocele, Sturge–Weber, laceration closure, pressure injury, preauricular sinus, Crouzon</li></ul>",
- "groups": [
-  {
-   "title": "Burn",
-   "sections": [
-    {
-     "id": "parkland",
-     "title": "Parkland formula: rule of nines → ครึ่งแรกใน 8 ชม.",
-     "asked": [
-      "ชาย 75 kg burn anterior trunk + แขนทั้งสองข้าง + ด้านหน้าต้นขาขวา → crystalloid ใน 8 ชม.แรก = 6.0 L",
-      "Parkland 78A/78B"
-     ],
-     "pattern": [
-      "Rule of nines: head 9, แขน 9 ต่อข้าง, anterior trunk 18, posterior trunk 18, ขา 18 ต่อข้าง (หน้า 9 หลัง 9), perineum 1; ฝ่ามือผู้ป่วย ≈1%",
-      "คิดในเคสนี้: 18 + 9 + 9 + ~4.5 ≈ 40% → 4 × 75 × 40 = 12 L / 24 ชม. → <b>6 L ใน 8 ชม.แรกนับจากเวลาเกิด burn</b>",
-      "นับเฉพาะ partial + full thickness; ใช้ Lactated Ringer's",
-      "ABLS 2018 เริ่ม 2 mL/kg/%TBSA ผู้ใหญ่, 3 mL เด็ก, 4 mL electrical; titrate ตาม UO 0.5 mL/kg/h ผู้ใหญ่, 1 mL/kg/h เด็ก <30 kg",
-      "Fluid creep → compartment syndrome, pulmonary edema"
-     ],
-     "pearls": [
-      "นับ anterior thigh เป็น 9% ผิด (ครึ่งของหน้าขา ≈4.5%)",
-      "นับ 8 ชม.จากเวลามาถึง รพ. ผิด",
-      "stem ระบุ anterior thigh ข้างเดียวให้ชัด"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 4",
-      "MDCU78|RoA|2",
-      "MDCU78|RoB|6"
-     ]
-    },
-    {
-     "id": "inhalation-injury",
-     "title": "Inhalation injury มี stridor / เสียงแหบ → early intubation",
-     "asked": [
-      "ติดในบ้านไม้ไฟไหม้ มี soot รอบจมูกปาก + stridor + เสียงแหบ → immediate management (ตัวลวง nasal cannula, IV fluid, hyperbaric O2, bronchodilator)"
-     ],
-     "pattern": [
-      "Stridor, hoarseness = upper airway edema กำลังเกิด → <b>early endotracheal intubation</b> ท่อ ≥7.5–8.0 mm ไม่ตัดท่อ",
-      "ข้อบ่งชี้อื่น (ATLS 10th): burn ใบหน้าลึก / ในปาก, กลืนลำบาก, GCS ต่ำ, burn >40–50% TBSA, ส่งต่อไกล",
-      "100% O2 + COHb (co-oximetry); cyanide → lactic acidosis ไม่ดีขึ้น → hydroxocobalamin",
-      "Bronchoscopy ยืนยัน lower airway injury"
-     ],
-     "pearls": [
-      "SpO2 ปกติเท็จจาก COHb",
-      "อย่ารอจน SpO2 ตก"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 5"
-     ]
-    },
-    {
-     "id": "superficial-burn-plastic",
-     "title": "Superficial partial-thickness → dressing",
-     "asked": [
-      "แผลชมพูชื้นเจ็บ (78B, 78D)"
-     ],
-     "pattern": [
-      "ไม่ต้อง graft"
-     ],
-     "members": [
-      "MDCU78|RoB|7",
-      "MDCU78|RoD|62"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "ก้อนผิวหนังและใต้ผิวหนัง",
-   "sections": [
-    {
-     "id": "subcut-cyst-excision",
-     "title": "ก้อนใต้ผิวหนัง benign ไม่อักเสบ → complete excision รวม capsule",
-     "asked": [
-      "ก้อนที่แขนโตช้าหลายปี เพิ่งเจ็บ firm mobile ไม่ fluctuant ไม่แดงร้อน → management (ตัวลวง I&D, aspiration, oral ATB, observe)",
-      "Lipoma หลังคอ cosmetic concern → excision (78B)"
-     ],
-     "pattern": [
-      "ไม่อักเสบ → <b>elective complete excision รวม capsule / cyst wall</b> ส่งพยาธิ (เหลือผนัง → recur)",
-      "Fluctuant + inflamed → I&D ก่อน แล้ว excise ผนังหลังยุบ ~6–8 สัปดาห์",
-      "Sarcoma red flags (>5 cm, ใต้ deep fascia, โตเร็ว, recur) → MRI แล้ว core needle biopsy ห้าม shell-out",
-      "ATB ใน abscess เฉพาะมี cellulitis / SIRS / ภูมิต่ำ (IDSA 2014)"
-     ],
-     "pearls": [
-      "เจ็บ ≠ ติดเชื้อ — ตัดสินด้วย fluctuation และ signs of inflammation",
-      "stem เติมว่าไม่แดงร้อน — ถ้าเป็นหนองจะตอบ I&D"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 3",
-      "MDCU78|RoB|47"
-     ]
-    },
-    {
-     "id": "nevus-sebaceous",
-     "title": "Nevus sebaceous of Jadassohn → complete full-thickness excision",
-     "asked": [
-      "เด็ก 14 ปี แผ่นเหลืองส้มไม่มีผมบนหนังศีรษะตั้งแต่เกิด หนาขึ้นหลังวัยรุ่น (ภาพ) → next step (ตัวลวง incisional biopsy, cryo, steroid, shave)"
-     ],
-     "pattern": [
-      "Hamartoma ของ epidermis + sebaceous + apocrine; 3 ระยะ: แผ่นเรียบ → verrucous วัยรุ่น → secondary neoplasm ผู้ใหญ่",
-      "Secondary neoplasm ส่วนใหญ่ benign (trichoblastoma, syringocystadenoma papilliferum); BCC จริงพบน้อย",
-      "รักษา: <b>complete full-thickness excision</b> ลงถึงไขมัน; ใหญ่ → tissue expander / local flap",
-      "Biopsy เมื่อมีก้อนใหม่ แผล เลือดออก ในรอยโรค"
-     ],
-     "pearls": [
-      "shave / cryo เอา adnexa ส่วนลึกออกไม่หมด",
-      "prophylactic excision ยังถกเถียง (observation ก็ยอมรับได้) — bank ตอบตามแนวสอน"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 7"
-     ]
-    },
-    {
-     "id": "keloid-prevention",
-     "title": "ป้องกัน keloid ในคน keloid-prone (เจาะหู) → silicone gel",
-     "asked": [
-      "มี keloid ที่แขน มาเจาะหู → prevent"
-     ],
-     "pattern": [
-      "Prevention first-line = silicone gel/sheet (± pressure earring) · treatment keloid = intralesional triamcinolone · หลังตัด keloid → steroid/RT/pressure"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 2"
-     ]
-    },
-    {
-     "id": "melanoma-plastic",
-     "title": "Melanoma 3.2 mm → wide excision margin 2 cm",
-     "asked": [
-      "Melanoma เท้าลึก 3.2 mm → treatment",
-      "Melanoma 2.5 mm → 2 cm (78A) · 1.5 mm → 1–2 cm + SLNB (78B)"
-     ],
-     "pattern": [
-      "Margin ตาม Breslow + SLNB ≥T1b"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 9",
-      "MDCU78|RoA|1",
-      "MDCU78|RoB|49"
-     ]
-    },
-    {
-     "id": "genital-warts",
-     "title": "Anogenital warts ใน MSM → imiquimod",
-     "asked": [
-      "ชาย MSM รูป wart → treat"
-     ],
-     "pattern": [
-      "Patient-applied: imiquimod, podofilox, sinecatechins · provider: cryo, excision, TCA · ไม่มี systemic anti-HPV · condyloma lata = syphilis"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 10"
-     ]
-    },
-    {
-     "id": "pressure-injury",
-     "title": "Pressure injury: เห็นไขมัน = stage 3 · เห็นกระดูก = stage 4",
-     "asked": [
-      "Pressure ulcer เห็น adipose ไม่เห็นกระดูก (78C)"
-     ],
-     "pattern": [
-      "NPIAP staging"
-     ],
-     "members": [
-      "MDCU78|RoC|6"
-     ]
-    },
-    {
-     "id": "preauricular-plastic",
-     "title": "Preauricular sinus → excision",
-     "asked": [
-      "(78B)"
-     ],
-     "pattern": [
-      "Excision ตอน quiescent"
-     ],
-     "members": [
-      "MDCU78|RoB|50"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Craniofacial และ vascular anomaly ในเด็ก",
-   "sections": [
-    {
-     "id": "cleft-palate",
-     "title": "Cleft palate → palatoplasty 9–12 เดือน",
-     "asked": [
-      "ทารก 3 เดือน isolated cleft palate กินได้ดี → เวลาผ่าตัด",
-      "ซ่อม cleft palate ตอนไหน → 1 ปี (79D)",
-      "Cleft palate complication (78B) · อายุผ่าตัด (78D)"
-     ],
-     "pattern": [
-      "Lip ~3 เดือน → <b>palate 9–12 เดือน</b> (ก่อน ~18 เดือน) → speech / VPI 3–5 ปี → alveolar bone graft 9–11 ปี → orthognathic วัยรุ่นปลาย",
-      "Cleft palate → OME, ใส่ ventilation tube; isolated cleft palate → Pierre Robin, 22q11.2, Stickler"
-     ],
-     "pearls": [
-      "สลับเวลา lip / palate / bone graft",
-      "stem แต่งจาก recall ช้อยเดียว"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 6",
-      "MDCU79|RoD|Ped 8",
-      "MDCU78|RoB|8",
-      "MDCU78|RoD|63"
-     ]
-    },
-    {
-     "id": "encephalocele",
-     "title": "Frontoethmoidal encephalocele: failure of closure ที่ nasoethmoidal",
-     "asked": [
-      "ก้อน nasal root ตั้งแต่เกิด โตเวลาร้อง + hypertelorism (ภาพ) → กลไก",
-      "Frontoethmoidal encephalocele (78B)"
-     ],
-     "pattern": [
-      "Anterior neuropore ปิดไม่สมบูรณ์ที่ frontal–ethmoid → bony defect; พบบ่อยในไทย",
-      "Furstenberg + แยกจาก nasal glioma; dermoid มี pit มีขน",
-      "<b>ห้าม biopsy ก่อน MRI + CT</b>; ผ่าตัดร่วม neurosurgery + plastic"
-     ],
-     "pearls": [
-      "hemangioma / cleft lip / craniosynostosis เป็นตัวลวงกลไก",
-      "stem และรูปในต้นฉบับไม่สมบูรณ์ — คำตอบตรงเฉลยของผู้จด"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 1",
-      "MDCU78|RoB|9"
-     ]
-    },
-    {
-     "id": "hemangioma",
-     "title": "Infantile hemangioma low-risk → observe",
-     "asked": [
-      "ทารก 3 เดือน hemangioma 1 cm แก้ม ไม่มีแผล → management"
-     ],
-     "pattern": [
-      "Low-risk → <b>active observation + reassurance</b> (AAP 2019)",
-      "High-risk (periocular, airway, ulcer, nasal tip / lip, segmental, PHACE, LUMBAR) → oral propranolol 2–3 mg/kg/day",
-      "Malformation (ISSVA) มีตั้งแต่เกิด โตตามตัว ไม่ยุบเอง; venous → sclerotherapy, AVM → embolization ± excision"
-     ],
-     "pearls": [
-      "stem เติมเป็น low-risk — ถ้า high-risk คำตอบเป็น propranolol"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 2"
-     ]
-    },
-    {
-     "id": "craniosynostosis",
-     "title": "Craniosynostosis ตาโปน → tarsorrhaphy",
-     "asked": [
-      "Most urgent and effective treatment ของตาโปน",
-      "Crouzon → ICP สูงเร่งด่วน (78D)"
-     ],
-     "pattern": [
-      "Lubricant → lid taping → tarsorrhaphy · definitive fronto-orbital advancement"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 1",
-      "MDCU78|RoD|65"
-     ]
-    },
-    {
-     "id": "sws-plastic",
-     "title": "Port-wine stain (capillary malformation) + seizure → Sturge–Weber",
-     "asked": [
-      "ปานแดงที่หน้า (78B)"
-     ],
-     "pattern": [
-      "Pulsed dye laser · ตรวจ IOP + MRI เมื่อปานกิน V1"
-     ],
-     "members": [
-      "MDCU78|RoB|42"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Salivary gland",
-   "sections": [
-    {
-     "id": "pleomorphic-adenoma",
-     "title": "Pleomorphic adenoma (epithelial + myoepithelial + chondromyxoid stroma)",
-     "asked": [
-      "ก้อนเดี่ยวไม่เจ็บหน้าใบหู histology biphasic ductal + myoepithelial ใน myxoid / chondroid stroma → Dx (ตัวลวง mucoepidermoid, Warthin, adenoid cystic, acinic)",
-      "หญิงก้อนหน้าหู firm mobile → Dx (79D)"
-     ],
-     "pattern": [
-      "<b>Pleomorphic adenoma</b> = salivary tumor ที่พบบ่อยสุด; pseudopod นอก capsule → <b>superficial / partial parotidectomy เก็บ facial nerve</b> ห้าม enucleate",
-      "ทิ้งไว้นาน → carcinoma ex pleomorphic adenoma",
-      "Warthin: oncocytic + lymphoid stroma, ชายสูงอายุสูบบุหรี่, bilateral; mucoepidermoid = มะเร็งที่พบบ่อยสุด; adenoid cystic = perineural invasion",
-      "Work-up: US ± FNA, MRI ถ้าลึก / สงสัยมะเร็ง; ไม่ทำ open biopsy",
-      "หลัง parotidectomy: facial nerve weakness, Frey syndrome, ชาใบหู (great auricular)"
-     ],
-     "pearls": [
-      "tumor ที่พบบ่อยสุด (pleomorphic) vs มะเร็งที่พบบ่อยสุด (mucoepidermoid)"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 8",
-      "MDCU79|RoD|Plastic 11"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Trauma และ reconstruction",
-   "sections": [
-    {
-     "id": "lefort-plastic",
-     "title": "Le Fort + shock → orotracheal intubation",
-     "asked": [
-      "Mobile maxilla เลือดออก BP 80/40 → next"
-     ],
-     "pattern": [
-      "A ก่อน C · ห้าม nasotracheal"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 3"
-     ]
-    },
-    {
-     "id": "skin-graft",
-     "title": "แผล granulation ดี 8×6 cm → split-thickness skin graft",
-     "asked": [
-      "หลัง debride NF ที่ anterior tibia granulation ขึ้น → wound management"
-     ],
-     "pattern": [
-      "Reconstructive ladder · granulation ดี → STSG · bone/tendon โผล่ → flap"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 5"
-     ]
-    },
-    {
-     "id": "fingertip-plastic",
-     "title": "Fingertip amputation → V-Y advancement",
-     "asked": [
-      "ต้องการความยาว + sensation → treatment"
-     ],
-     "pattern": [
-      "V-Y (transverse/dorsal oblique) · cross-finger (volar oblique) · Moberg (thumb)"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 6"
-     ]
-    },
-    {
-     "id": "facial-nerve-plastic",
-     "title": "แผลแก้มยาว: อาการที่ไม่น่าพบ = upper eyelid ptosis",
-     "asked": [
-      "แผลขมับถึงคาง → not likely finding",
-      "แผลแก้ม → Stensen duct (78B, 78D)"
-     ],
-     "pattern": [
-      "CN VII: brow ptosis, lagophthalmos, drooling · sialocele จาก parotid"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 7",
-      "MDCU78|RoB|4",
-      "MDCU78|RoD|61"
-     ]
-    },
-    {
-     "id": "mandible-plastic",
-     "title": "OPG: left mandibular body fracture",
-     "asked": [
-      "Panoramic film → Dx"
-     ],
-     "pattern": [
-      "ดู marker L/R · body = canine ถึงฟันกรามซี่ 3"
-     ],
-     "pearls": [
-      "ไฟล์ไม่มีคีย์ (\"ขึ้นกับรูป\") — ตอบจากรูปในไฟล์"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 8"
-     ]
-    },
-    {
-     "id": "suture-technique",
-     "title": "V-shaped flap tip → half-buried (corner) mattress",
-     "asked": [
-      "แผลรูป V ต้องการรักษาเลือดเลี้ยงปลาย flap (78B)"
-     ],
-     "pattern": [
-      "Corner stitch ผ่าน dermis ของปลาย flap ไม่ทะลุผิว"
-     ],
-     "members": [
-      "MDCU78|RoB|2"
-     ]
-    },
-    {
-     "id": "free-flap",
-     "title": "กระดูกหน้าแข้งโผล่ ฐานแผลเลือดไม่ดี → free flap",
-     "asked": [
-      "แผลหน้าแข้งกระดูกโผล่ (78B คีย์: อยากได้ free flap)"
-     ],
-     "pattern": [
-      "Graft ไม่ติดบน bare bone/tendon · distal 1/3 tibia → free flap"
-     ],
-     "members": [
-      "MDCU78|RoB|3"
-     ]
-    },
-    {
-     "id": "waters-view",
-     "title": "สงสัย maxillary fracture → Waters view",
-     "asked": [
-      "ถูกต่อยหน้า สงสัย maxilla หัก → view (78B)"
-     ],
-     "pattern": [
-      "Waters: maxilla/orbit floor · SMV: zygomatic arch · Towne: condyle · CT = standard"
-     ],
-     "members": [
-      "MDCU78|RoB|5"
-     ]
-    },
-    {
-     "id": "laceration-closure",
-     "title": "แผลสะอาด → irrigation + primary closure · แผลคิ้ว: simple suture ห้ามโกนคิ้ว",
-     "asked": [
-      "แผล 4 cm แขน well vascularized → primary closure (78B)",
-      "แผลคิ้ว 2.5 cm cosmetic concern → simple interrupted (78C)"
-     ],
-     "pattern": [
-      "ส่ง plastic เฉพาะแผลซับซ้อน (eyelid margin, lacrimal, facial nerve, parotid duct, tissue loss)"
-     ],
-     "members": [
-      "MDCU78|RoB|43",
-      "MDCU78|RoC|4"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"Plastic", title:"Plastic & Reconstructive surgery",
+  intro:"<ul><li>แท็ก Plastic ออกทุกรุ่น MDCU66–79 และกระจายเป็น 5 ตระกูลใหญ่: <b>craniofacial / cleft</b> (อายุ palatoplasty ~1 ปี, Treacher Collins → ตรวจการได้ยิน, Crouzon / Apert ตาโปน → tarsorrhaphy, FEEM ที่พบบ่อยในไทย), <b>facial trauma</b> (แผลกลางแก้ม → Stensen duct, zygoma fracture 'ไม่ใช่' malocclusion, Waters / Towne / panoramic, midface fracture → orotracheal intubation), <b>burn</b> (inhalation → intubate, คำนวณ Parkland, เกณฑ์ส่ง burn center), <b>wound closure</b> (half-buried stitch, fingertip, skin graft vs flap, pressure injury) และ <b>skin lesion / มะเร็งผิวหนัง</b> (Marjolin, BCC รอบตา → Mohs, melanoma margin, premalignant)</li><li>MDCU66–68 ใช้ stem เดิมซ้ำแทบคำต่อคำ: ไฟไหม้อพาร์ตเมนต์ + soot → ETT, ผู้ป่วย 60 kg 40% TBSA ถาม rate / endpoint, Z-plasty 60° = 75%, 'FTSG donor site หายเอง' = ข้อความผิด, BCC ขอบหนังตา → Mohs, แผลในปากเจ็บไม่กี่วัน → observe, ก้อนในปากเลือดออก → angiogram</li><li>MDCU69–74 เพิ่มโจทย์ spot diagnosis จากภาพ (FEEM vs frontonasal dysplasia, Treacher Collins, keratoacanthoma ใต้ตา), เลือก plain film (open bite + maxilla stable → panoramic), pressure injury stage 2 → hydrocolloid และ half-buried suture สำหรับขอบแผลเลือดเลี้ยงไม่ดี</li><li>MDCU75–79 ขยายไป <b>breast reconstruction</b> (TRAM pedicle = superior epigastric), nevus sebaceous / congenital nevus, keloid prevention (silicone), melanoma margin ตาม Breslow, anogenital warts → imiquimod, fingertip V-Y, Le Fort + shock → orotracheal intubation, pleomorphic adenoma, craniofacial microsomia, Apert กับสติปัญญา, Crouzon กับ ICP สูง</li><li>โจทย์คำนวณที่ต้องทำให้คล่อง: <b>Parkland</b> (นับ 8 ชม.จากเวลาเกิด burn แล้วลบน้ำที่ได้มาแล้ว), <b>lidocaine</b> (1% = 10 mg/mL, plain 4.5 mg/kg), rule of nines; คีย์เก่าที่ผิดจริงมีไม่มาก (fight bite, fingertip เล็ก) — ดูในกับดักของแต่ละเรื่อง</li></ul>",
+  groups:[
+    {title:"Craniofacial anomaly: craniosynostosis, Treacher Collins, FEEM, facial cleft", sections:[
+      {"id":"tcs-hearing","title":"Treacher Collins syndrome → ตรวจการได้ยิน (conductive hearing loss) · แยกจาก craniofacial microsomia","trend":"ภาพเด็ก Treacher Collins ถาม 'ปัญหาที่ต้องตรวจประจำ / ที่ซ่อนอยู่' ซ้ำแทบทุกรุ่น — ตอบ hearing","asked":["ภาพเด็ก Treacher Collins → functional deficit ที่ต้องประเมินประจำ / hidden problem / ต้องคัดกรองตั้งแต่วัยทารก = <b>conductive hearing loss</b> (ตัวลวง exposure keratitis, ICP สูง, upper airway obstruction, malocclusion, intellectual disability, sensorineural HL, cleft lip, polydactyly)","Spot dx: down-slanting palpebral fissure, coloboma หนังตาล่างขนตาด้านในหาย, zygoma เล็ก, micrognathia, หูผิดรูป สองข้าง สติปัญญาปกติ → Treacher Collins (ตัวลวง Pierre Robin, hemifacial microsomia, Crouzon, Apert, Down)","Spot dx ภาพเด็กหน้าไม่สมมาตรข้างเดียว → <b>craniofacial microsomia</b> (ตัวลวง craniofacial cleft, Pfeiffer, Crouzon, Treacher Collins)"],"pattern":["<b>Treacher Collins</b> (mandibulofacial dysostosis; <i>TCOF1</i>, AD) = ความผิดปกติของ 1st/2nd pharyngeal arch <b>สองข้างสมมาตร</b>: down-slanting palpebral fissure, lower lid coloboma, malar / zygoma hypoplasia, micrognathia, microtia + ossicle ผิดรูป ± cleft palate · <b>สติปัญญาปกติ</b>","<b>Conductive hearing loss ~50%</b> (microtia, external canal atresia, ossicular malformation) → ตรวจการได้ยินตั้งแต่แรกเกิด (bone-anchored hearing aid) เพื่อไม่ให้พัฒนาการพูดเสีย · ทารกที่คางเล็กมากต้องดู airway ร่วมด้วย","<b>Craniofacial (hemifacial) microsomia</b> = 1st/2nd arch <b>ข้างเดียว</b>: mandible / ramus เล็ก, microtia, macrostomia, facial nerve weakness — craniofacial anomaly ที่พบบ่อยอันดับสองรองจาก cleft lip / palate · Goldenhar = microsomia + epibulbar dermoid + vertebral anomaly","<b>Pierre Robin sequence</b> = micrognathia + glossoptosis + cleft palate โดยใบหน้าส่วนอื่นปกติ → ปัญหาเด่นคือ airway obstruction"],"pearls":["เด็ก Treacher Collins ดูเหมือนพัฒนาการช้าเพราะหูไม่ได้ยิน ไม่ใช่ intellectual disability","แยก bilateral สมมาตร (Treacher Collins) กับ unilateral (microsomia) · hearing loss เป็น conductive ไม่ใช่ sensorineural","คีย์ MDCU77 RoA: malocclusion ก็พบได้จาก mandible เล็ก แต่สิ่งที่ต้องคัดกรองตั้งแต่ทารกคือการได้ยิน"],"members":["MDCU77|RoA|Ped 2","MDCU77|RoC|Plastic 5","MDCU76|RoA|22","MDCU76|RoD|23","MDCU74|RoA|ไม่มีเลข 2","MDCU67|RoA|32","MDCU67|RoC|37","MDCU66|RoA|69","MDCU66|RoD|23","MDCU77|RoB|Plastic 1"]},
+      {"id":"exorbitism-tarsorrhaphy","title":"Syndromic craniosynostosis ตาโปน → ป้องกัน exposure keratitis (lubricant → tarsorrhaphy)","trend":"ภาพเด็ก Crouzon / Apert ตาโปนถามสิ่งที่เร่งด่วน — ตอบเรื่องตา เว้นแต่โจทย์ให้อาการ ICP สูงหรือ airway ชัดเจน","asked":["ภาพเด็ก craniosynostosis หน้าผากโหนก ตาโปน (± median cleft ริมฝีปากบน) → ต้องจัดการ / ประเมินเร่งด่วน = <b>exposure keratitis</b> (ตัวลวง conductive HL, ICP สูง, upper airway obstruction, strabismus)","ภาพ Crouzon → ต้องประเมินเร่งด่วน = exposure keratitis (ตัวลวง speech, ICP, airway, hearing)","ภาพเด็กตาโปนมาก ตาข้างหนึ่งต้องรักษาเร่งด่วน ป้องกันอะไร → exposure keratitis (ตัวลวง amblyopia, glaucoma, cataract, retinal detachment)","Craniosynostosis ตาโปนมากจนหนังตาปิดกระจกตาไม่ได้ → most urgent and effective = <b>tarsorrhaphy</b> (ตัวลวง lid taping, antibiotic ointment, artificial tears + steroid ointment, systemic antibiotics)","Crouzon ตาโปนปิดตาไม่ได้ เริ่มมี corneal exposure → tarsorrhaphy (ตัวลวง monobloc advancement ทันที, Le Fort I, cranial vault expansion, dacryocystorhinostomy)","ทารกตาโปนมาก + lagophthalmos รุนแรง + brachycephaly + acrosyndactyly (Apert) + มี stridor ตอนนอน → eye ointment + urgent tarsorrhaphy (ตัวลวง O2 + ป้อนนมท่านั่ง, CT brain, cranial vault remodeling ทันที)","Craniosynostosis ตาโปนเล็กน้อย ยังไม่มี corneal damage → <b>artificial tears</b> (ตัวลวง taping, tarsorrhaphy, antibiotic ointment, observe)"],"pattern":["Syndromic craniosynostosis (Crouzon, Apert: <i>FGFR2</i> · Pfeiffer: <i>FGFR1</i> / <i>FGFR2</i>) → orbit ตื้น → <b>exorbitism</b> → ปิดตาไม่สนิท → exposure keratopathy, corneal ulcer, globe subluxation → <b>ตาบอดถาวรได้ในเวลาสั้น</b>","<b>ขั้นบันได</b>: ตาโปนน้อย ยังไม่มี keratitis → artificial tears กลางวัน + ointment กลางคืน → ปิดตาไม่สนิท / มี exposure keratopathy → lubricant + <b>tarsorrhaphy</b> (ทำเร็ว ได้ผล เป็นการรักษาชั่วคราว) · globe subluxation → ดันลูกตากลับทันทีแล้ว tarsorrhaphy","Definitive = เพิ่มปริมาตร orbit ด้วย fronto-orbital / monobloc / Le Fort III advancement — ไม่ใช่สิ่งที่ทำทันที","Lid taping / หยอดตาหลุดง่ายและไม่พอในตาโปนมาก → คำว่า 'most urgent and effective' = tarsorrhaphy"],"pearls":["เคส Apert + stridor: คีย์เลือกตา (tarsorrhaphy) เพราะ severe lagophthalmos เสี่ยงตาบอดถาวร — airway (จัดท่า, nasal airway) ต้องดูแลคู่กัน ผู้จดบันทึกว่าข้อนี้ยาก","ถ้าโจทย์ให้ปวดหัวตอนเช้า อาเจียน papilledema → ICP สูงเร่งด่วนกว่าตา (ดูหัวข้อ Crouzon / Apert)","ตาโปนเล็กน้อยไม่มี keratitis ไม่ต้องรีบ tarsorrhaphy — เลือกตามระดับความรุนแรงที่โจทย์ให้"],"members":["MDCU79|RoD|Plastic 1","MDCU77|RoB|Plastic 12","MDCU73|RoD|Plastic ตรงแอค 4","MDCU71|RoA|34","MDCU67|RoA|32b","MDCU67|RoC|45","MDCU66|RoD|22","MDCU72|RoC|ไม่มีเลข 5"]},
+      {"id":"feem","title":"Frontoethmoidal encephalomeningocele (FEEM, 'งวงช้าง')","trend":"โรคที่พบบ่อยในไทย ถามทั้ง spot dx จากภาพ ตำแหน่ง defect กลไก และอันตราย","asked":["ทารก 6 เดือน ก้อนนิ่มผิวปกติที่ nasal root ตั้งแต่เกิด โตเวลาร้อง + hypertelorism → สาเหตุ = <b>failure of closure ของ nasoethmoidal region</b> (ตัวลวง failure of neural tube migration, vascular endothelium proliferation, nasal–maxillary prominence ไม่เชื่อม, suture ปิดก่อนกำหนด)","Defect อยู่ที่ใด → <b>nasoethmoidal junction / nasoethmoidal bone</b> (ตัวลวง cribriform plate, skull base, meninges, occipital bone)","ภาพก้อนกลางโคนจมูก 'งวงช้าง' / ภาพหลังผ่าตัด FEEM → Dx (ตัวลวง craniofacial cleft, craniosynostosis, frontonasal dysplasia, Treacher Collins)","อันตรายหลักของ FEEM → <b>incarceration ของเนื้อสมองที่ยื่นออกมา</b> (ตัวลวง vascular malformation, defect ของกระดูก, ICP สูง, suture ปิดก่อนกำหนด)"],"pattern":["<b>FEEM</b> (sincipital encephalocele): anterior neuropore ปิดไม่สมบูรณ์ที่รอยต่อ <b>frontal–ethmoid (foramen caecum)</b> → bony defect ที่ meninges ± สมองยื่นออก · แบ่ง nasofrontal, nasoethmoidal, naso-orbital · <b>พบบ่อยในไทย / เอเชียตะวันออกเฉียงใต้</b> (ตะวันตกเด่น occipital encephalocele)","Clinical: ก้อนนิ่มผิวปกติที่ glabella / nasal root ตั้งแต่เกิด, hypertelorism / telecanthus, <b>Furstenberg sign</b> (โตเวลาร้องหรือกด jugular vein), ส่องไฟทะลุได้","<b>ห้าม biopsy / เจาะ</b> (CSF leak, meningitis) → MRI + CT → ผ่าตัดร่วม neurosurgery + plastic: ตัดเนื้อสมองที่ไม่ทำงาน ปิด dura ซ่อม bony defect ± แก้ hypertelorism","อันตราย: เนื้อสมองที่ยื่นถูกรัด / บาดเจ็บ, CSF leak, meningitis","<b>แยก</b>: basal encephalocele ผ่าน cribriform / sphenoid → อยู่ในโพรงจมูก / คอหอย มองไม่เห็นภายนอก · nasal dermoid มี pit / ขน · nasal glioma ไม่โตเวลาร้อง"],"pearls":["เห็นก้อนชมพูม่วงที่จมูกแล้วตอบ hemangioma — ดูตำแหน่ง (nasal root ไม่ใช่ปลายจมูก), hypertelorism และการโตเวลาร้อง","ก้อนภายนอกที่หน้าผาก / สันจมูก = frontoethmoidal · ก้อนในโพรงจมูก = basal (cribriform plate)","ช้อย 'failure of neural tube migration' ใช้คำผิด — กลไกคือการปิดไม่สมบูรณ์ (closure) ไม่ใช่ migration; MDCU79 RoC รูปในต้นฉบับไม่ใช่รูปจริง"],"members":["MDCU79|RoC|Plastic 1","MDCU78|RoB|9","MDCU76|RoD|6","MDCU72|RoA|89","MDCU69|RoA|69","MDCU68|RoC|39"]},
+      {"id":"crouzon-apert","title":"Crouzon / Apert: ICP สูง · midface advancement วัยเรียน · สติปัญญา","trend":"ถามลำดับความสำคัญและ timing ของการผ่าตัดใน syndromic craniosynostosis","asked":["เด็ก 2 ปี Crouzon มือปกติ ปวดหัวตอนเช้า อาเจียน papilledema → ปัญหาที่ต้องแก้เร่งด่วนที่สุด = <b>increased ICP</b> (ตัวลวง exposure keratitis, malocclusion, conductive HL, รูปศีรษะ)","Crouzon 7 ปี midface hypoplasia + exorbitism + OSA → ผ่าตัดช่วงวัยเรียน = <b>midface advancement</b> (ตัวลวง gastrostomy, BAHA, orthognathic, speech therapy)","Syndromic craniosynostosis ภาวะใดต้องแก้ไขช่วงวัยเรียน → <b>airway obstruction</b> (ตัวลวง elective midface advancement, hearing loss, speech therapy, strabismus)","ภาพหน้าเด็ก (turribrachycephaly หน้าผากสูงแบน hypertelorism midface แบน) ข้อความใดไม่ถูก → '<b>intelligence is usually normal</b>' (ข้อความที่ถูก: วินิจฉัยได้ตั้งแต่แรกเกิด, genetic testing ยืนยันได้, ลักษณะทางคลินิกช่วยวินิจฉัย, skull film ช่วยได้)"],"pattern":["<b>Crouzon</b> (<i>FGFR2</i>, AD): bicoronal / multisuture synostosis + midface hypoplasia + exorbitism, <b>มือเท้าปกติ</b>, สติปัญญามักปกติ · <b>Apert</b> (<i>FGFR2</i>): acro / turribrachycephaly + <b>syndactyly มือเท้าทั้งสองข้าง</b>, สติปัญญาตั้งแต่ปกติถึง intellectual disability · Pfeiffer: นิ้วโป้งมือ / เท้ากว้างเบี่ยง","<b>ลำดับความสำคัญ</b>: airway → ICP สูง → ตา · ICP สูง (ปวดหัวเช้า อาเจียน papilledema, copper-beaten skull) → cranial vault expansion / posterior vault distraction เร่งด่วนก่อนเกิด optic atrophy","<b>Timeline</b>: cranial vault remodeling ในขวบปีแรก → <b>midface advancement (Le Fort III / monobloc ± distraction) ช่วงวัยเรียน</b> เมื่อมี airway obstruction (OSA) / exorbitism รุนแรง → orthognathic surgery หลัง skeletal maturity (ถ้าทำเพื่อความสวยอย่างเดียวรอโตเต็มที่) · hearing และ speech ติดตามตลอด"],"pearls":["จำว่า Crouzon สติปัญญาปกติแล้วคิดว่าข้อความ 'intelligence normal' ถูก — ภาพ MDCU76 RoD เข้ากับ Apert (ลายมือคีย์: Apert 'มักไม่ค่อยมีหวัง') ไม่มีภาพมือยืนยัน","Crouzon มือปกติ ต่างจาก Apert (syndactyly) — ใช้มือแยกในภาพ","Midface advancement วัยเรียนทำเพราะ airway ไม่ใช่ความสวย"],"members":["MDCU78|RoD|65","MDCU75|RoC|Plastic 4","MDCU72|RoD|ไม่มีเลข 7","MDCU76|RoD|5"]},
+      {"id":"facial-cleft-priority","title":"Facial cleft ในทารก: ประเด็นเร่งด่วน (airway / ตา)","asked":["ทารกแรกเกิด severe facial cleft → ประเด็นเร่งด่วนที่สุด = <b>airway</b> (ตัวลวง feeding, hearing, speech, ความสวย)","เด็ก facial cleft ปิดตาไม่สนิท → ความเสี่ยงหลัก = <b>blindness</b> (ตัวลวง sinus infection, airway difficulty, feeding difficulty, ICP สูง)"],"pattern":["หลัก ABC: ทารก facial cleft รุนแรง / micrognathia → ประเมินและดูแล <b>airway</b> ก่อน → feeding (จุกพิเศษ, NG) → การได้ยิน การพูด ความสวยทีหลัง","Cleft ที่ผ่านเปลือกตา / orbit (Tessier cleft, eyelid coloboma) → lagophthalmos → exposure keratopathy → corneal ulcer → <b>blindness</b> → ป้องกันกระจกตาด่วน (lubricant, moisture chamber, tarsorrhaphy, eyelid reconstruction)"],"pearls":["ลายมือคีย์ MDCU76 RoC เตือนว่าถ้า cleft เกี่ยวกับเปลือกตา สิ่งเร่งด่วนจริงคือ corneal exposure — อ่านว่าโจทย์บอกเรื่องตาหรือไม่"],"members":["MDCU76|RoC|Plastic 6","MDCU69|RoC|35"]},
+      {"id":"frontonasal-dysplasia","title":"Frontonasal dysplasia (median facial cleft): hypertelorism ไม่มีก้อน","asked":["ภาพเด็ก orbital hypertelorism + nasal root กว้างแบน + median nasal cleft ไม่มีก้อนกลางหน้า → <b>frontonasal dysplasia</b> (ตัวลวง FEEM, craniofacial cleft, craniosynostosis, Treacher Collins, cleft lip)"],"pattern":["Frontonasal dysplasia (median cleft face syndrome): orbital hypertelorism, nasal root กว้าง, ปลายจมูกแยก / median cleft ของจมูก ± ริมฝีปากบน, widow's peak, cranium bifidum occultum","<b>มีก้อนนิ่มที่ nasal root = FEEM</b> · <b>มีร่อง (cleft) ไม่มีก้อน = frontonasal dysplasia</b>"],"members":["MDCU69|RoA|68","MDCU67|RoB|49"]}
+    ]},
+    {title:"Facial trauma: แผลใบหน้าและกระดูกหน้าหัก", sections:[
+      {"id":"cheek-stensen","title":"แผลลึกกลางแก้ม → Stensen (parotid) duct + buccal branch","trend":"ภาพแผลกลางแก้มถามโครงสร้างที่บาดเจ็บแทบทุกรุ่น — ถามท่อตอบ Stensen duct ถามเส้นประสาทตอบ buccal branch","asked":["ภาพแผลกลางแก้ม / แผลมีดตามแนว tragus → กึ่งกลางริมฝีปากบน ผ่านหน้า masseter → structure ที่บาดเจ็บ = <b>Stensen duct</b> (ตัวลวง facial artery, marginal mandibular branch, frontal branch, infraorbital nerve, procerus, platysma)","แผลแก้มลึกมี <b>น้ำใสไหลออก</b> → parotid (Stensen) duct (ตัวลวง submandibular duct, lacrimal duct, facial artery, hypoglossal nerve)","แผลกลางแก้มข้ามแนว parotid duct → facial nerve branch ที่เสี่ยง = <b>buccal branch</b>","หลังเย็บแผลลึกกลางแก้ม ยกริมฝีปากบน / ยิ้มข้างนั้นไม่ได้ แต่หลับตาและย่นหน้าผากได้ → buccal branch (ตัวลวง frontal, marginal mandibular, infraorbital nerve)"],"pattern":["<b>Landmark</b>: Stensen duct วิ่งใน <b>กลาง 1/3 ของเส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน</b> บนผิว masseter แล้วเจาะ buccinator เปิดที่ papilla ตรงข้ามฟันกรามบนซี่ที่ 2 · buccal branch ของ CN VII วิ่งแนวเดียวกัน","<b>ตรวจ</b>: น้ำใสไหลจากแผล · ใส่ cannula ทาง papilla ฉีด saline / methylene blue ดูว่ารั่วออกแผล · ตรวจกล้ามเนื้อใบหน้าทุกแขนงก่อนฉีดยาชา","<b>ซ่อม</b>: duct → microsurgical repair over stent · nerve ที่ขาด lateral ต่อแนวตั้งผ่าน lateral canthus → ซ่อม primary (ภายใน ~72 ชม. ยังกระตุ้นหาปลายเส้นได้) · medial ต่อแนวนี้มี cross-innervation มักฟื้นเอง","ไม่ซ่อม duct → sialocele / salivary fistula"],"pearls":["Infraorbital nerve = sensory (ชาแก้ม) ไม่ใช่ motor — แผลแก้มที่ยิ้มไม่ได้คือ buccal branch","Marginal mandibular วิ่งตามขอบล่าง mandible ไม่ใช่กลางแก้ม · frontal branch อยู่ที่ขมับ"],"members":["MDCU78|RoB|4","MDCU78|RoD|61","MDCU73|RoD|Plastic ตรงแอค 3","MDCU71|RoA|39","MDCU72|RoB|24","MDCU67|RoA|31","MDCU66|RoD|25","MDCU66|RoD|33","MDCU75|RoC|Plastic 6","MDCU72|RoD|78"]},
+      {"id":"facial-xray-view","title":"เลือก plain film ใน facial fracture: Waters · Towne · Panoramic","trend":"ถามชื่อ view แทบทุกรุ่น — จับคู่กระดูกกับ view ให้แม่น","asked":["สงสัย maxillary fracture / ต้องการดู maxilla → <b>Waters view</b> (ตัวลวง Towne, Caldwell, submentovertex, lateral skull, AP, panoramic)","สงสัย zygoma / ZMC fracture → <b>Waters view</b> (ตัวลวง Towne, lateral cephalogram, panoramic, Caldwell)","สงสัย mandibular condyle fracture → <b>Towne view</b> (ตัวลวง AP, lateral, Waters, panoramic)","Malocclusion + ปวดกรามหลังถูกทำร้าย ต้องการดู mandible ทั้งชิ้นเป็น initial study → <b>panoramic radiograph</b>","Anterior open bite + maxilla ไม่โยก → <b>panoramic</b> (สงสัย bilateral condylar fracture) (ตัวลวง Waters, Towne, Caldwell, SMV)"],"pattern":["<b>Waters (occipitomental)</b>: maxilla, maxillary sinus, orbital floor / rim (teardrop sign ของ blowout), zygoma = view หลักของ midface","<b>Submentovertex (jug-handle)</b>: zygomatic arch · <b>Caldwell (PA)</b>: frontal sinus, orbital rim · <b>Towne (reverse Towne)</b>: mandibular condyle / subcondylar","<b>Panoramic (OPG)</b>: เห็น mandible ทั้งชิ้น = initial study ของ mandible fracture","<b>Anterior open bite + maxilla stable</b> = bilateral condylar / subcondylar fracture (ramus สั้นลง ฟันกรามชนกันก่อน) → panoramic · ถ้า maxilla โยก = Le Fort","ปัจจุบัน <b>CT maxillofacial</b> เป็นมาตรฐานของ facial fracture — ข้อสอบถาม plain film จึงตอบตามคู่ข้างบน"],"pearls":["Towne vs panoramic: ถาม condyle โดยเฉพาะ → Towne · ถาม mandible ทั้งชิ้น / open bite → panoramic","Open bite ชวนให้นึกถึง Le Fort — แต่โจทย์บอก maxilla stable"],"members":["MDCU78|RoB|5","MDCU73|RoD|Plastic ตรงแอค 5","MDCU70|RoB|ไม่มีเลข 3","MDCU70|RoC|ไม่มีเลข 5","MDCU66|RoA|65","MDCU73|RoB|Plastic 1","MDCU67|RoB|59","MDCU74|RoC|4","MDCU73|RoB|Plastic 2","MDCU71|RoB|31"]},
+      {"id":"zygoma-fracture","title":"Zygomaticomaxillary complex (ZMC) fracture: อาการที่ 'ไม่ใช่' = malocclusion","trend":"ถามแบบ EXCEPT ซ้ำทุกรุ่นตั้งแต่ MDCU66 — คำตอบคือ malocclusion หรือ lingual crossbite","asked":["ข้อใดไม่ใช่อาการของ zygoma fracture → <b>malocclusion</b> (ตัวลวงที่เป็นอาการจริง trismus, diplopia, infraorbital paresthesia / ชาแก้ม, periorbital ecchymosis / hematoma, malar flattening)","เวอร์ชัน crossbite → <b>lingual crossbite</b> ไม่ใช่อาการ","ZMC fracture ชาแก้ม ข้างจมูก ริมฝีปากบน → <b>infraorbital nerve</b> (ตัวลวง zygomatic branch CN VII, supraorbital, inferior alveolar, mental nerve)"],"pattern":["<b>ZMC (tripod / tetrapod) fracture</b>: แตกที่ frontozygomatic suture, infraorbital rim / orbital floor, zygomaticomaxillary buttress, zygomatic arch","อาการ: malar flattening, periorbital ecchymosis + subconjunctival hemorrhage, <b>infraorbital nerve (V2) paresthesia</b> (แก้ม ข้างจมูก ริมฝีปากบน ฟันบน), diplopia (orbital floor / entrapment, enophthalmos), step-off ที่ orbital rim, <b>trismus</b> (arch ยุบกด coronoid process / temporalis)","<b>Malocclusion / crossbite</b> = fracture ของกระดูกที่มีฟัน (maxilla – Le Fort, mandible) → ไม่ใช่ isolated zygoma","Imaging: Waters view, SMV ดู arch · CT = มาตรฐาน · displaced → ORIF"],"pearls":["Trismus (อ้าปากได้น้อย) ≠ malocclusion (สบฟันผิด) — trismus เป็นของ zygoma","ไฟล์ MDCU66 RoB ช้อยเขียน inferior alveolar (ลายมือแก้เป็น infraorbital) — เส้นที่ชาใน ZMC คือ infraorbital"],"members":["MDCU70|RoB|ไม่มีเลข 4","MDCU72|RoA|88","MDCU67|RoA|42","MDCU66|RoB|38","MDCU66|RoC|2","MDCU66|RoD|4","MDCU74|RoC|24"]},
+      {"id":"midface-airway","title":"Midface (Le Fort) fracture เลือดออกมาก: airway ก่อน · ห้ามใส่ท่อทางจมูกใน skull base fracture","asked":["อุบัติเหตุรถ BP 80/40 maxilla โยก เลือดออกปากและจมูก → next = <b>orotracheal intubation</b> (ตัวลวง IV fluid, anterior nasal packing, nasotracheal intubation, CT facial bone)","มอเตอร์ไซค์ล้ม เลือดออกปากและจมูกมาก + hypotension → <b>ETT</b> ก่อน (ตัวลวง IV fluid, O2 mask, anterior nasal packing, เข้า OR หยุดเลือด)","Facial trauma ข้อห้ามใส่ NG tube → <b>basilar skull fracture</b> (ตัวลวง maxillary alveolar, mandible, zygomatic arch, nasal bone fracture)","ข้อห้าม nasotracheal intubation → <b>basilar skull fracture</b> (ตัวลวง mandible fracture, C-spine injury, isolated zygomatic arch, ต้องผ่าตัดในช่องปาก)"],"pattern":["<b>ATLS 11th (2025, xABCDE)</b>: หลังคุม exsanguinating external hemorrhage (x) → Airway + C-spine protection มาก่อน Circulation — เลือดไหลลงคอ + maxilla ที่ลอยเลื่อนไปอุด nasopharynx → definitive airway ด้วย <b>orotracheal intubation</b> (RSI + in-line stabilization) · ใส่ไม่ได้ → surgical cricothyroidotomy","จากนั้นจึง IV fluid / blood และหยุดเลือด: anterior + posterior packing / balloon, จัด maxilla, angioembolization","<b>ห้าม nasotracheal tube และ NG tube ทางจมูก</b> ใน basilar skull fracture (cribriform plate, CSF rhinorrhea, raccoon eyes, Battle sign) และ Le Fort II–III → ท่ออาจเข้ากะโหลก → ใช้ orotracheal / orogastric","Mandible fracture / ผ่าตัดในช่องปาก มักใช้ nasotracheal เพื่อทำ maxillomandibular fixation ได้ (ไม่ใช่ข้อห้าม)"],"pearls":["เห็น BP 80/40 แล้วรีบให้น้ำ — airway ที่ไม่ปลอดภัยต้องมาก่อน","เลือก nasotracheal เพราะคิดว่าเลี่ยงการขยับคอ — midface / skull base fracture ห้าม"],"members":["MDCU79|RoD|Plastic 3","MDCU66|RoA|X13","MDCU66|RoB|39","MDCU75|RoC|Plastic 1","MDCU74|RoD|13"]},
+      {"id":"mandible-occlusion","title":"Malocclusion = fracture ของกระดูกที่มีฟัน · อ่าน OPG mandible fracture","asked":["Fracture ใดกระทบการสบฟัน → <b>mandibular parasymphysis</b> (ตัวลวง zygoma, nasal bone, orbital blowout, naso-orbito-ethmoid)","หลัง facial trauma fracture ใดน่าจะทำ malocclusion → <b>maxillary fracture</b> (ตัวลวง nasal, isolated zygomatic arch, frontal sinus, orbital floor)","ภาพ panoramic หลังถูกต่อยกราม → Dx = mandibular angle fracture / left mandibular body fracture (ตัวลวง condyle, ข้างตรงข้าม, symphysis, zygomatic arch, Le Fort I, TMJ dislocation)"],"pattern":["Malocclusion เกิดจาก <b>maxilla (Le Fort)</b> และ <b>mandible</b> (symphysis / parasymphysis, body, angle, ramus, condyle) — nasal, zygoma, orbit, NOE ไม่เปลี่ยนการสบฟัน","<b>แบ่งส่วน mandible</b>: symphysis / parasymphysis (ระหว่าง canine) · body (canine → ขอบหน้า masseter / ฟันกรามซี่ 3) · angle (หลังฟันกรามซี่ 3) · ramus · coronoid · condyle","อ่าน OPG: ดู <b>marker L / R</b> ก่อนเสมอแล้วเทียบตำแหน่งกับฟัน · mandible เป็นวงแหวน มักหัก 2 จุด → หาจุดที่สอง (เช่น body / angle ข้างหนึ่ง + condyle อีกข้าง)","Angle fracture สัมพันธ์กับฟันคุด · displaced → ORIF / maxillomandibular fixation"],"pearls":["MDCU79 RoD ไฟล์ไม่มีคีย์ (เขียนว่าขึ้นกับรูป) — ภาพจริงอาจต่างจากไฟล์ ให้อ่านจาก marker และฟัน"],"members":["MDCU73|RoD|Plastic ตรงแอค 6","MDCU68|RoB|4","MDCU66|RoC|6","MDCU79|RoD|Plastic 8","MDCU77|RoC|Plastic 7"]},
+      {"id":"facial-nerve-branches","title":"แผลขมับ–แก้ม: แขนง facial nerve ไหน และอาการที่ 'ไม่น่าพบ'","asked":["แผลลึกหน้าผากด้านข้าง / ขมับเหนือ zygomatic arch → ยักคิ้วไม่ได้ ย่นหน้าผากไม่ได้ → <b>frontal (temporal) branch</b> (ตัวลวง zygomatic branch, supraorbital nerve, oculomotor, buccal branch)","ถูกฟันด้วยมีดยาวจากขมับถึงคาง → อาการที่ไม่น่าพบ = <b>ptosis ของหนังตาบน</b> (ที่พบได้ sialocele, lagophthalmos, drooling, brow ptosis)","ภาพแผลแก้มขวา ถ้าเย็บปิดตรง ๆ อย่างเดียว ภาวะที่ไม่คาดว่าจะเกิด → <b>drooling</b> (ที่เกิดได้ sialocele, salivary fistula, lagophthalmos, brow ptosis)"],"pattern":["<b>5 แขนง CN VII</b>: temporal / frontal → frontalis (ยกคิ้ว; ขาด = brow ptosis) · zygomatic → orbicularis oculi (หลับตา; ขาด = lagophthalmos) · buccal → ยกริมฝีปากบน ยิ้ม buccinator (อาหารค้างแก้ม) · marginal mandibular → depressor มุมปาก (มุมปากตก น้ำลายไหล) · cervical → platysma","<b>Frontal branch</b> วิ่งตาม <b>Pitanguy line</b> (0.5 cm ใต้ tragus → 1.5 cm เหนือ lateral eyebrow) อยู่ตื้นใต้ temporoparietal fascia เหนือ zygomatic arch → แผลขมับ / หน้าผากด้านข้างเสี่ยงที่สุด cross-innervation น้อย","<b>Ptosis ของหนังตาบน</b> = levator palpebrae (CN III) หรือ Müller muscle (sympathetic / Horner) — ไม่ใช่ CN VII · facial palsy ทำให้หลับตาไม่สนิท (lagophthalmos) ไม่ใช่หนังตาตก","แผลแก้มยาวผ่าน parotid gland / duct → sialocele / salivary fistula"],"pearls":["สับสน brow ptosis (CN VII) กับ upper eyelid ptosis (CN III / sympathetic)","คีย์ลายมือ MDCU69 RoC ตอบ drooling เป็นสิ่งที่ไม่คาดว่าจะเกิด (แผลไม่ถึงแนว marginal mandibular) ขณะที่ MDCU79 RoD (แผลขมับถึงคาง ยาวกว่า) นับ drooling เป็นสิ่งที่พบได้ — ตัดสินจากแนวแผลในภาพ"],"members":["MDCU76|RoC|Plastic 2","MDCU74|RoC|25","MDCU79|RoD|Plastic 7","MDCU69|RoC|X21"]}
+    ]},
+    {title:"มะเร็งผิวหนัง premalignant และ pigmented lesion", sections:[
+      {"id":"bcc-mohs","title":"Basal cell carcinoma: pearly rolled border · รอบตา (H-zone) → Mohs","trend":"MDCU66–67 ถาม BCC ขอบหนังตา → Mohs ซ้ำ ส่วนรุ่นอื่นให้ภาพ / คำบรรยายแล้วถาม Dx","asked":["รอยโรคสีคล้ำที่หน้า ขอบ pearly rolled + telangiectasia ± central ulcer → <b>BCC</b> (ตัวลวง melanoma, SCC, seborrheic keratosis, keratoacanthoma, nevus sebaceous)","ชาวนาสูงอายุ ก้อน pearly โตช้าที่จมูก ขอบม้วน telangiectasia แผลตรงกลาง → BCC (ตัวลวง SCC, melanoma, keratoacanthoma, actinic keratosis)","BCC ที่ขอบหนังตาล่าง (biopsy ยืนยัน) / แผลใต้ตา 1 ปี biopsy เป็น BCC → <b>Mohs surgery</b> (ตัวลวง excision for definitive pathology, wide excision 0.1 / 0.5 / 1 / 2 cm)"],"pattern":["<b>BCC</b> = มะเร็งผิวหนังพบบ่อยสุด บนใบหน้าที่โดนแดด: pearly papule, rolled border, telangiectasia, central ulcer (rodent ulcer) · คนเอเชียมักเป็น <b>pigmented BCC</b> (ต้องแยกจาก melanoma) · โตช้า แทบไม่แพร่กระจาย แต่ทำลายเนื้อเยื่อเฉพาะที่","<b>NCCN (BCC, v2.2024 ขึ้นไป)</b>: low-risk (ลำตัว / แขนขา < 2 cm, primary, subtype ไม่ aggressive) → standard excision margin <b>4 mm</b> · high-risk (<b>ศีรษะ คอ มือ เท้า pretibia anogenital ทุกขนาด</b> — รวมเปลือกตา จมูก หู ริมฝีปาก; ลำตัว / แขนขา ≥ 2 cm; recurrent; aggressive subtype; perineural) → <b>Mohs micrographic surgery</b> (หรือ excision + complete margin assessment) — cure สูงสุดและเก็บเนื้อเยื่อ","เทียบ margin: BCC 4 mm · SCC low-risk 4–6 mm · melanoma เป็น cm ตาม Breslow","BCC ที่ medial canthus ลุกเข้า orbit ได้"],"pearls":["เห็นคำว่า pigmented แล้วตอบ melanoma — ขอบ pearly + telangiectasia = BCC","ลายมือคีย์ MDCU66 RoD: margin 0.5 cm ≈ BCC, 1 cm ≈ SCC แต่บนเปลือกตาคำตอบคือ Mohs"],"members":["MDCU76|RoC|Plastic 1","MDCU73|RoD|Plastic ตรงแอค 2","MDCU69|RoC|33","MDCU67|RoA|36","MDCU67|RoC|32","MDCU66|RoD|48"]},
+      {"id":"melanoma","title":"Melanoma: ABCDE และ excision margin ตาม Breslow thickness","asked":["ข้อใดไม่ใช่ ABCDE → <b>density</b> (D = diameter > 6 mm)","Excisional biopsy melanoma Breslow 0.3 mm ที่แก้ม → margin <b>1 cm</b> (ตัวลวง 0.5, 2, 3, 4 cm)","Breslow 1.5 mm ไม่มี ulceration คลำ node ไม่ได้ → <b>margin 1–2 cm + SLNB</b> (ตัวลวง 0.5 cm อย่างเดียว, elective inguinal LND, RT, observe)","Breslow ~2 mm → wide excision <b>2 cm</b> (คีย์) (ตัวลวง 0.5, 1 cm, MRND, LN biopsy)","Breslow 2.5 mm ที่แขน → WLE <b>2 cm</b> (ตัวลวง 1 cm, chemo, RT, Mohs)","Melanoma ที่เท้า 3.2 mm ไม่มี node → wide excision <b>1–2 cm</b> (คำตอบจริง 2 cm) (ตัวลวง 5 cm, 0.5 cm, Mohs, observe)"],"pattern":["<b>ABCDE</b>: Asymmetry · Border irregular · Color variegation · Diameter > 6 mm · Evolving","<b>Margin (NCCN Melanoma)</b>: in situ 0.5–1 cm · ≤ 1.0 mm <b>1 cm</b> · 1.01–2.0 mm <b>1–2 cm</b> · > 2.0 mm <b>2 cm</b> (ลึกถึง fascia) · กว้างกว่า 2 cm ไม่เพิ่ม survival","<b>SLNB</b>: T1a (< 0.8 mm ไม่มี ulceration) ไม่ทำ · T1b (0.8–1.0 mm หรือมี ulceration) พิจารณา · ≥ T2 (> 1 mm) เสนอทุกราย ทำพร้อม WLE · ไม่ทำ elective lymph node dissection แล้ว · SLN บวก → nodal US surveillance ± adjuvant systemic therapy แทน completion dissection (MSLT-II, DeCOG-SLT)","คนไทย / เอเชีย melanoma ที่ฝ่าเท้า / เล็บมักเป็น acral lentiginous (ไม่สัมพันธ์แดด)"],"pearls":["จุดตัดคือ 1 mm และ 2 mm — 2.5 / 3.2 mm → 2 cm (ช้อย '1–2 cm' ถือว่าครอบคลุม 2 cm)","Breslow 'ประมาณ 2 mm' ตาม NCCN อยู่ช่วง 1–2 cm — คีย์เก่าตอบ 2 cm ซึ่งอยู่ในช่วงที่ยอมรับ","Mohs ไม่ใช่มาตรฐานของ invasive melanoma"],"members":["MDCU77|RoA|Plastic 5","MDCU74|RoC|28","MDCU78|RoB|49","MDCU68|RoC|41","MDCU78|RoA|1","MDCU79|RoD|Plastic 9"]},
+      {"id":"marjolin","title":"Marjolin ulcer: แผลใหม่บน burn scar เก่า → SCC","trend":"ออกต่อเนื่องหลายรุ่น มักใส่ประวัติเบาหวานเป็นตัวลวง","asked":["แผลเรื้อรัง / ก้อน fungating บน burn scar เก่าหลายสิบปี → <b>Marjolin ulcer</b> (ตัวลวง arterial, venous, neuropathic, diabetic, ischemic ulcer, pressure injury, pyoderma gangrenosum)","ผู้ป่วยเบาหวาน แผลไม่หายบน burn scar ที่ส้นเท้า / หลังเท้าจาก 30 ปีก่อน → Marjolin ulcer","ก้อน fungating โตเร็วใน burn scar เก่า → <b>squamous cell carcinoma</b> (ตัวลวง BCC, amelanotic melanoma, hypertrophic scar, keloid)"],"pattern":["<b>Marjolin ulcer</b> = มะเร็งบนแผลเรื้อรัง / แผลเป็น (burn scar พบบ่อยสุด, chronic osteomyelitis sinus, venous ulcer, pressure ulcer) หลัง latency หลายสิบปี (เฉลี่ยราว 30 ปี) · ชนิดที่พบบ่อยสุด = <b>SCC</b> ลุกลามและไป lymph node มากกว่า SCC ทั่วไป","Work-up: <b>biopsy หลายตำแหน่งที่ขอบแผล</b> + ตรวจ regional nodes → wide excision (margin ≥ 2 cm) + reconstruction ± node dissection เมื่อคลำได้","แผลเรื้อรังที่เปลี่ยนลักษณะ (ขอบนูน fungating เลือดออก กลิ่น ไม่หายหลังรักษา) → biopsy เสมอ"],"pearls":["เห็นคำว่าเบาหวานแล้วตอบ diabetic / neuropathic ulcer — ประวัติ burn scar เก่าคือตัวชี้ขาด","ตอบ BCC เพราะพบบ่อยสุดในมะเร็งผิวหนังทั่วไป — บนแผลเรื้อรังเป็น SCC"],"members":["MDCU77|RoA|Plastic 2","MDCU77|RoB|Plastic 14","MDCU76|RoD|1","MDCU71|RoB|ไม่มีเลข 3","MDCU67|RoD|20"]},
+      {"id":"premalignant","title":"Premalignant skin lesion = actinic (solar) keratosis","asked":["ข้อใดเป็น premalignant lesion → <b>actinic keratosis / solar keratosis</b> (ตัวลวง seborrheic keratosis, syringoma, compound nevus, dermatofibroma, capillary hemangioma, cystic hygroma, lipoma)"],"pattern":["<b>Actinic (solar) keratosis</b>: ผื่นแดงสากเป็นขุยบนผิวโดนแดด (หน้า หู หลังมือ หนังศีรษะล้าน) → SCC (ราว 0.1–1% ต่อรอยโรคต่อปี) · Rx cryotherapy, topical 5-FU / imiquimod, photodynamic therapy","Premalignant อื่นที่ลายมือคีย์เขียน: Bowen disease (SCC in situ) → SCC · actinic cheilitis → lip SCC · nevus sebaceous → secondary neoplasm","ตัวลวงที่เป็น benign: seborrheic keratosis (waxy 'แปะติด'), syringoma, dermatofibroma, compound nevus, hemangioma, lipoma"],"pearls":["สับสน actinic keratosis กับ seborrheic keratosis"],"members":["MDCU77|RoA|Plastic 3","MDCU73|RoD|Plastic 1","MDCU71|RoB|ไม่มีเลข 2","MDCU67|RoD|21"]},
+      {"id":"periocular-biopsy","title":"ก้อน / แผลรอบตาที่โตช้าในผู้สูงอายุ → incisional biopsy ก่อน","asked":["ชาย 73 ปี ก้อนที่เปลือกตาล่างโตช้า 1 ปี → <b>incisional biopsy</b> (ตัวลวง MRI / CT orbit, lower blepharoplasty, observe)","หญิง 78 ปี รอยโรคใต้ตา 1 ปี ตรงกลางเป็นแอ่ง keratin (keratoacanthoma) → incisional biopsy (ตัวลวง complete eye exam, CT / MRI orbit, blepharoplasty)","ชาย 70 ปี แผลใต้ตาโตช้า 1 ปี การมองเห็นปกติ → incisional biopsy (ตัวลวง complete eye exam, CT / MRI orbit, topical antibiotics)"],"pattern":["รอยโรคเรื้อรังที่โตขึ้นบนหน้าผู้สูงอายุ = สงสัย skin cancer (BCC พบบ่อยสุดที่เปลือกตาล่าง, SCC, sebaceous carcinoma) → <b>tissue diagnosis ก่อน</b> ด้วย incisional (หรือ punch / excisional ถ้าเล็ก) biopsy แล้วจึง Mohs / wide excision + eyelid reconstruction","<b>Keratoacanthoma</b>: ก้อนรูปโดมมี central keratin plug โตเร็ว อาจยุบเอง แต่แยกจาก well-differentiated SCC ทางคลินิกไม่ได้ → biopsy ให้ถึงฐานและรักษาเหมือน SCC","CT / MRI orbit ทำเมื่อสงสัย orbital invasion (ตาโปน กลอกตาจำกัด การมองเห็นผิดปกติ) — ไม่ใช่ขั้นแรก"],"members":["MDCU71|RoA|ไม่มีเลข 3","MDCU72|RoC|58","MDCU66|RoA|62"]},
+      {"id":"nevus-sebaceous","title":"Nevus sebaceous of Jadassohn → complete (full-thickness) excision","asked":["เด็ก / วัยรุ่น แผ่นสีเหลืองส้ม ไม่มีผม ผิวเหมือนขี้ผึ้งบนหนังศีรษะตั้งแต่เกิด (หนาเป็น verrucous หลังวัยรุ่น) → <b>complete full-thickness excision</b> (ตัวลวง incisional biopsy, cryotherapy, topical steroid / tretinoin, shave, laser ablation, observation)"],"pattern":["Hamartoma ของ epidermis + sebaceous + apocrine gland (postzygotic <i>HRAS</i> / <i>KRAS</i>) · 3 ระยะ: ทารกแผ่นเรียบเหลืองส้ม → วัยรุ่นหนา verrucous (ฮอร์โมน) → ผู้ใหญ่อาจเกิด secondary neoplasm","Secondary neoplasm ส่วนใหญ่ benign (trichoblastoma, syringocystadenoma papilliferum) — BCC จริงพบน้อย","คำตอบตามแนวสอนและคีย์ทุกรุ่น = <b>complete full-thickness excision</b> ลงถึงไขมัน ได้ทั้งรักษา ยืนยันพยาธิ และความสวย · ใหญ่ → serial excision / tissue expander / local flap","วิธีผิวเผิน (shave, cryo, laser) เอา adnexa ส่วนลึกออกไม่หมด"],"pearls":["แนวทางปัจจุบันหลายแหล่งยอมรับ observation แล้วตัดเมื่อมีก้อนใหม่ / เปลี่ยนแปลงหรือเพื่อความสวย — ถ้ามีทั้ง observation และ complete excision ในช้อย ตอบตามคีย์ (excision)","มีก้อนใหม่ แผล เลือดออกในรอยโรค → biopsy"],"members":["MDCU79|RoC|Plastic 7","MDCU77|RoB|Plastic 6","MDCU77|RoC|Plastic 13"]},
+      {"id":"congenital-nevus","title":"Congenital melanocytic nevus ขนาดใหญ่ → staged excision","asked":["เด็ก 9 ปี ไฝดำตั้งแต่เกิดที่หลัง โตตามตัว 10 cm → <b>congenital melanocytic nevus</b> (ตัวลวง acquired junctional / compound / intradermal nevus, combined nevus)","เด็ก 3 ปี ไฝดำมีขน 10 cm ที่หลังตั้งแต่เกิด → <b>staged excision</b> (ตัวลวง excision ครั้งเดียว, wide excision, close observation, dermabrasion)"],"pattern":["CMN = มีตั้งแต่เกิด โตตามสัดส่วนตัว มักมีขน · จัดตาม <b>projected adult size</b>: small < 1.5 cm, medium 1.5–20 cm, <b>large / giant > 20 cm</b> (10 cm ที่ลำตัวเด็กเล็กมักเกิน 20 cm เมื่อโต)","Large / giant: เสี่ยง melanoma ตลอดชีวิตราว 2–5% (มักในวัยเด็ก) + neurocutaneous melanosis (หลายก้อน / แนวกลางหลัง → MRI brain & spine)","ใหญ่เกินปิดได้ครั้งเดียว → <b>staged (serial) excision</b> ± tissue expansion / skin graft"],"members":["MDCU76|RoD|42","MDCU74|RoA|88"]}
+    ]},
+    {title:"แผลและเทคนิคการเย็บ", sections:[
+      {"id":"half-buried","title":"Half-buried horizontal mattress (corner stitch): ปลาย flap / ขอบแผลเลือดเลี้ยงไม่ดี","trend":"ออกซ้ำแทบทุกรุ่น ทั้งแบบแผลรูป V / flap สามเหลี่ยม และแบบ 'ขอบแผลเลือดเลี้ยงไม่ดีหลัง debridement'","asked":["แผลรูป V / flap สามเหลี่ยม / flap มุมฉาก ต้องการรักษาเลือดที่ปลาย flap กัน necrosis → <b>half-buried (horizontal) mattress</b> (ตัวลวง simple interrupted ผ่านปลาย, vertical mattress, horizontal mattress, figure-of-eight, running / continuous, subcuticular)","หลัง debride แผล ขอบแผลเลือดเลี้ยงไม่ดี / marginal blood supply (เช่น ต้นขาด้านหลัง) → <b>half-buried mattress</b> (ตัวลวง simple interrupted, vertical mattress, horizontal mattress, simple continuous, continuous locking)"],"pattern":["<b>Half-buried horizontal mattress</b> (corner / tip stitch): เข็มผ่านผิวหนังเฉพาะด้านที่เลือดเลี้ยงดี แล้ววิ่งแนวนอน <b>ใน dermis ของปลาย flap / ขอบที่เลือดน้อยโดยไม่ทะลุผิว</b> → ไม่รัด subdermal plexus → ลด tip necrosis และ stitch mark (L05: minimize suture marks, preserve blood supply at the tip)","ใช้กับ: มุมแหลม / ปลาย flap ของ Z-plasty, V-Y, rhomboid, แผลรูป V / ปากฉลาม, ขอบแผลที่ tissue trauma มาก","เทคนิคที่ <b>ลด blood supply ขอบแผล</b>: horizontal mattress ธรรมดา (รัดทั้ง loop), continuous over-and-over / locking (รัดตลอดแนว) → ห้ามใช้ตรงที่เลือดเลี้ยงไม่ดี"],"pearls":["จำว่า 'mattress ช่วย evert' แล้วเลือก horizontal mattress ธรรมดา — ตัวนี้ทำ ischemia ขอบแผลมากที่สุด","ร้อยผ่านปลาย flap ตรง ๆ (simple interrupted) ทำให้ปลายขาดเลือด"],"members":["MDCU78|RoB|2","MDCU77|RoC|Plastic 11","MDCU76|RoC|Plastic 5","MDCU74|RoD|10","MDCU72|RoA|86@p31","MDCU72|RoB|22","MDCU66|RoA|X16","MDCU66|RoC|14"]},
+      {"id":"fingertip","title":"Fingertip injury: เล็ก < 1 cm² ไม่มีกระดูกโผล่ → secondary intention · ต้องการความยาว + sensation → V-Y advancement","trend":"เคส 0.9 × 1 cm ไม่มีกระดูกโผล่ออกซ้ำหลายรุ่นแต่คีย์ไม่ตรงกัน — ยึด secondary intention","asked":["ปลายนิ้วถูกตัด / avulsion 0.9 × 1 cm ไม่มีกระดูกโผล่ nail bed ปกติ → <b>healing by secondary intention</b> (ตัวลวง V-Y flap, simple suture, FTSG, STSG, skin flap, revision amputation, cross-finger flap)","Graphic designer ปลายนิ้วชี้ขาด ต้องการรักษาความยาวนิ้วและ sensation ที่ปลาย → <b>V-Y advancement flap</b> (ตัวลวง revision amputation, STSG, FTSG, cross-finger flap)"],"pattern":["<b>Defect เล็ก (≲ 1–1.5 cm²) ไม่มีกระดูกโผล่</b> → <b>secondary intention</b> (moist dressing) — หายดี sensation และรูปปลายนิ้วดี ไม่มีแผลผ่าตัดเพิ่ม (Green's Operative Hand Surgery 8e)","<b>กระดูกโผล่ / ต้องการคงความยาว</b>: แนว transverse หรือ dorsal oblique → <b>V-Y advancement (Atasoy–Kleinert volar)</b> = sensate homodigital flap ทำขั้นตอนเดียว · lateral V-Y (Kutler) · volar oblique เสีย pulp มาก → cross-finger flap · นิ้วโป้ง → Moberg flap","Revision amputation (ตัดกระดูกให้สั้นแล้วเย็บ) เมื่อยอมเสียความยาวเพื่อกลับไปทำงานเร็ว · skin graft ให้ sensation และ padding ด้อย"],"pearls":["คีย์ MDCU72 RoC ตอบ V-Y flap กับเคส 0.9 × 1 cm ไม่มีกระดูกโผล่ ขณะที่ MDCU72 RoD, MDCU77 RoC และ MDCU68 RoD (stem เดียวกัน) ตอบ secondary intention ซึ่งตรงตำรา — ถ้ามีทั้งคู่ในช้อยให้ตอบ secondary intention","คีย์ไฟล์ 01.2 ของ MDCU68 RoD ตอบ simple suture — ผิด เพราะเนื้อปลายนิ้วหายไปเย็บชนไม่ได้","MDCU79 RoD ต้นฉบับไม่บอกลักษณะแผล — คำตอบ V-Y มาจากคำว่า 'ต้องการคงความยาว + sensation'"],"members":["MDCU79|RoD|Plastic 6","MDCU77|RoC|Plastic 3","MDCU72|RoC|54","MDCU72|RoD|ไม่มีเลข 8","MDCU68|RoD|62"]},
+      {"id":"laceration-closure","title":"แผลฉีกขาดสะอาด: primary closure · แผลคิ้ว · แผลในช่องปาก","asked":["แผลมีดสะอาด 4 cm ที่แขน 2 ชม. ขอบเลือดดี ไม่มี tissue loss ตรวจ tendon / nerve ปกติ → <b>irrigation, debridement, primary closure</b> (ตัวลวง secondary intention, delayed primary closure 4 วัน, STSG, local flap)","แผลคิ้วด้านข้าง 2.5 cm สะอาด กังวลความสวย → <b>simple interrupted suture</b> (ตัวลวง ส่ง plastic ทันที, โกนคิ้วก่อนเย็บ, ปล่อยหายเอง, รอปิด 72 ชม.)","แผลฉีกขาดที่ buccal mucosa → <b>absorbable suture แบบ simple interrupted</b> (ตัวลวง nylon subcuticular, silk vertical mattress, staples, glue อย่างเดียว)","เนื้อเยื่อที่ยุบตัวง่ายอย่าง oral mucosa เย็บแบบใด → <b>simple interrupted</b> (ตัวลวง continuous over-and-over, subcuticular, half-buried, staples)"],"pattern":["แผลสะอาด ขอบเลือดดี มาเร็ว (แขนขา ~6–12 ชม., ใบหน้าได้ถึง ~24 ชม.) → irrigation + debride เนื้อตาย + <b>primary closure</b> + tetanus prophylaxis · ตรวจ tendon / nerve / vessel ก่อนเย็บ","<b>แผลคิ้ว</b>: เย็บ simple interrupted ไหม non-absorbable เส้นเล็ก (5-0 / 6-0) จัดแนวขอบคิ้วให้ตรงก่อน · <b>ห้ามโกนคิ้ว</b> (เสียจุดอ้างอิง ขนอาจขึ้นไม่เหมือนเดิม) · ตัดไหมหน้า ~5 วัน","<b>แผลในปาก</b>: absorbable suture (chromic catgut, Vicryl Rapide) แบบ simple interrupted — แต่ละปมอิสระ ระบายได้ ไม่ต้องตัดไหม · แผลเล็กขอบชิดปล่อยหายเองได้","<b>Layer closure (L05)</b>: deep dermal suture ไหมละลายยึดแผล ≥ 4 สัปดาห์ + epidermal suture ตัดใน 5–7 วันเพื่อไม่ให้เกิด stitch mark","ส่ง plastic เมื่อแผลซับซ้อน: eyelid margin, lacrimal canaliculus, facial nerve, parotid duct, tissue loss — ความกังวลเรื่องความสวยอย่างเดียวไม่ใช่ข้อบ่งชี้"],"pearls":["'ห้ามโกนคิ้ว' เป็นจุดที่ถูกถาม","แผลสะอาดที่เพิ่งเกิด ขอบดี ไม่ต้องรอปิด (delayed primary closure ใช้กับแผลปนเปื้อน)"],"members":["MDCU78|RoB|43","MDCU78|RoC|4","MDCU73|RoB|Plastic 5","MDCU73|RoD|Plastic 4"]},
+      {"id":"mattress-sutures","title":"Vertical vs horizontal mattress: eversion กับ blood supply","asked":["แผลรูปวงรีขอบม้วนเข้า (invert) ต้องการ evert ขอบ → <b>vertical mattress</b> (ตัวลวง simple interrupted, horizontal mattress, running subcuticular, figure-of-eight)","เทคนิคใดเสี่ยงทำให้ขอบแผลขาดเลือด / necrosis ถ้าผูกแน่น → <b>horizontal mattress</b> (ตัวลวง simple interrupted, vertical mattress, subcuticular, simple continuous)"],"pattern":["<b>Vertical mattress</b> (far–far ~1 cm, near–near ~2 mm แนวเดียวกัน) → eversion ดีที่สุด เหมาะกับผิวหย่อน / ขอบม้วนเข้า (หลังมือ คอ ข้อพับ) แลกกับ stitch mark 4 รู","<b>Horizontal mattress</b> → evert ได้ กระจายแรงตึง เย็บเร็ว แต่ <b>รัด tissue ทั้ง loop → blood supply ขอบแผลลดมากที่สุด</b> ห้ามใช้ตรงที่เลือดไม่ดี","Simple interrupted: พื้นฐาน ต้องตักรูปขวด (flask) จึง evert · Subcuticular: ไม่มี stitch mark ต้อง approximate แม่น · Continuous over-and-over: เร็วแต่คุม eversion ยากและรัดเลือดตลอดแนว (L05)"],"members":["MDCU77|RoC|Plastic 10","MDCU74|RoC|22"]},
+      {"id":"abrasion-scrub","title":"แผลถลอกมีเศษดิน / หินฝัง → scrub + antibiotic ointment","asked":["ล้มมอเตอร์ไซค์ แผลถลอกที่เข่า / แก้ม 4 × 4 cm มีเศษถนนฝัง → <b>scrubbing + antibiotic ointment</b> (ตัวลวง irrigation อย่างเดียว, irrigation + silver sulfadiazine, scrubbing + silver sulfadiazine, irrigation + moist gauze, oral antibiotics, เย็บปิด)"],"pattern":["ต้อง <b>scrub</b> (แปรง / gauze ใต้ local anesthesia) เอาเศษดิน หิน ยางมะตอยออกให้หมดในช่วงแรก (ภายใน ~24–48 ชม.) มิฉะนั้นเกิด <b>traumatic (accidental) tattoo</b> ถาวรและติดเชื้อ","แล้วทา <b>antibiotic ointment</b> / petrolatum (ลายมือคีย์: Terramycin) + moist dressing → re-epithelialization เร็ว · tetanus prophylaxis","Silver sulfadiazine เป็นยาทาแผล burn ไม่ใช่ทางเลือกของแผลถลอก · แผลถลอกไม่ต้องเย็บ"],"pearls":["เลือก irrigation อย่างเดียวเพราะคิดว่าแผลตื้น — เศษที่ฝังในผิวไม่ออกด้วยการล้าง"],"members":["MDCU77|RoC|Plastic 2","MDCU76|RoA|3"]},
+      {"id":"hand-wounds","title":"แผลที่มือ: fight bite และแผลจากมีดผ่าตัด","asked":["ต่อยปากเพื่อน วันต่อมาข้อ MCP นิ้วกลางบวม หลังมือแดง ขยับไม่ได้ X-ray ไม่หัก → <b>surgical exploration + irrigation</b> (ตัวลวง joint aspiration อย่างเดียว, splint + elevation อย่างเดียว, oral ATB แล้วนัด 1 สัปดาห์, เย็บปิดแผล)","Scrub nurse โดนมีดบาดด้าน volar ปลายนิ้วชี้ 1 cm มี digital nerve + tendon ขาด → สิ่งที่ไม่ต้องทำ = <b>oral antibiotics</b> (ที่ควรทำ debridement, irrigation, tetanus toxoid, เย็บปิด)"],"pattern":["<b>Fight bite</b> (clenched-fist injury): ฟันกระทบข้อ MCP ขณะกำหมัด → เชื้อในปาก (<i>Eikenella corrodens</i>, streptococci, <i>S. aureus</i>, anaerobes) เข้าข้อ / extensor tendon · แผลเล็กแต่ติดเชื้อลึก","บวมแดง ปวด ขยับไม่ได้ = septic arthritis / tenosynovitis → <b>surgical exploration + irrigation / debridement</b> + IV amoxicillin-clavulanate (หรือ ampicillin-sulbactam) + splint + elevation · <b>ห้ามเย็บปิดแผล</b> (Green's Operative Hand Surgery 8e, IDSA SSTI 2014)","<b>แผลสะอาดจากของมีคมปลอดเชื้อ</b>: irrigation, debride ตามจำเป็น, tetanus ตามประวัติวัคซีน, ซ่อม tendon / nerve (hand surgeon) แล้วปิดแผล → oral antibiotic prophylaxis ไม่จำเป็น · เพิ่ม sharps / blood-borne exposure protocol (HIV, HBV, HCV)"],"pearls":["คีย์เก่า MDCU77 RoC ตอบ splint + elevation — ตาม Green's 8e (2022) และ IDSA 2014 fight bite ที่ติดเชื้อข้อแล้วต้องผ่าตัดล้าง splint เป็นแค่ส่วนเสริม","คีย์ MDCU77 RoB เขียน 'D?' (ไม่แน่ใจเรื่อง oral ATB) — บางตำราให้ prophylaxis เมื่อมี tendon injury จึงยังถกเถียง"],"members":["MDCU77|RoC|Plastic 9","MDCU77|RoB|Plastic 8"]},
+      {"id":"lidocaine-dose","title":"ขนาดสูงสุดของ lidocaine (1% = 10 mg/mL)","asked":["เด็ก 40 kg ตัด lipoma ใช้ 1% lidocaine without adrenaline ได้สูงสุด → <b>20 mL</b> (ตัวลวง 4, 12, 28, 40 mL)","เด็ก 10 ปี 40 kg ใช้ 1% lidocaine without adrenaline ได้สูงสุด → <b>18 mL</b> (ตัวลวง 8, 12, 28, 40 mL)"],"pattern":["<b>Lidocaine plain</b> 4.5 mg/kg (ไม่เกิน 300 mg) · <b>with adrenaline</b> 7 mg/kg (ไม่เกิน 500 mg)","<b>แปลงหน่วย</b>: 1% = 10 mg/mL (2% = 20 mg/mL) → 40 kg × 4.5 = 180 mg = <b>18 mL</b> · ถ้าใช้ 5 mg/kg (คีย์ MDCU77 RoB: 0.5 mL/kg) = 200 mg = <b>20 mL</b> · มี adrenaline 7 mg/kg = 280 mg = 28 mL (ตัวลวง)","ช้อยแต่ละรุ่นมีตัวเลขในช่วง 18–20 mL เพียงตัวเดียว"],"pearls":["ลืมแปลง % เป็น mg/mL หรือใช้ขนาดของ with adrenaline (28 mL)"],"members":["MDCU77|RoB|Plastic 10","MDCU77|RoC|Plastic 8"]}
+    ]},
+    {title:"Cleft lip และ cleft palate", sections:[
+      {"id":"cleft-timeline","title":"Cleft lip / palate: ลำดับและอายุที่ผ่าตัด","trend":"ถามอายุ palatoplasty (~1 ปี) และ 'ผ่าตัดแรก' = cheiloplasty 3 เดือน วนแทบทุกรุ่น","asked":["ทารก isolated cleft palate กินได้ดี → palatoplasty อายุ <b>9–12 เดือน / 1 ปี</b> (ตัวลวง 1, 3, 6 เดือน, 1.5–2 ปี, 3 ปี, 5 ปีก่อนเข้าเรียน, 9 ปีพร้อม bone graft)","เด็ก cleft lip and palate ทำอะไรตอนอายุ ~1 ปี → <b>palatoplasty</b> (ตัวลวง cleft lip repair, alveolar bone graft, Le Fort I, rhinoplasty)","ทารกแรกเกิด cleft lip ± palate ผ่าตัดแรกคืออะไร อายุเท่าไร → <b>cheiloplasty 3 เดือน</b> (ตัวลวง palatoplasty 3 เดือน / 1 ปี, alveolar bone graft 1–6 เดือน, rhinoplasty 1 เดือน)","ทารก 11 เดือนยังไม่ได้ซ่อม cleft palate ปัญหาพัฒนาการใดกำหนดเวลาผ่าตัด → <b>speech</b> (ตัวลวง hearing, vision, motor, dentition)","ปัจจัยสำคัญที่สุดต่อผลการรักษา craniofacial anomaly → <b>optimal timing of surgery</b> (ตัวลวง psychosocial support, ศัลยแพทย์เก่ง, ผ่าตัดให้จบในขวบปีแรก, รอ skeletal maturity)"],"pattern":["<b>Timeline</b>: cheiloplasty ~3 เดือน (rule of 10s: อายุ 10 สัปดาห์, น้ำหนัก 10 lb, Hb 10 g/dL) → <b>palatoplasty 9–12 เดือน</b> (ACPA Parameters of Care 2024: มักทำ 9–14 เดือน และควรปิดเพดานภายใน 18 เดือน) → speech therapy / VPI surgery 3–5 ปี → <b>alveolar bone graft 8–11 ปี</b> (ก่อน permanent canine ขึ้น) → orthognathic (Le Fort I) และ rhinoplasty หลัง skeletal maturity","ซ่อมเพดานก่อนเริ่มพูดเป็นคำ (~1 ปี) ให้ levator veli palatini sling ทำงานทันพัฒนาการพูด ลด VPI / hypernasality / compensatory articulation · เร็วเกิน (< 6 เดือน) รบกวน maxillary growth","หลักการ craniofacial anomaly = <b>multidisciplinary team</b> + ผ่าตัดแต่ละขั้นใน <b>optimal timing</b> ตามการเจริญของใบหน้า"],"pearls":["สลับเวลา lip (3 เดือน) / palate (~1 ปี) / bone graft (8–11 ปี) — จำตามพัฒนาการ: หน้าตา → การพูด → ฟันแท้","MDCU77 ต้นฉบับถาม 'ข้อไหนถูก' ซึ่ง palatoplasty 1 ปี และตรวจการได้ยินตั้งแต่ 1 เดือนก็ถูก — ถ้าถามผ่าตัดแรกตอบ cheiloplasty 3 เดือน","Hearing (OME) สำคัญแต่ไม่ใช่ตัวกำหนดเวลา palatoplasty"],"members":["MDCU79|RoC|Plastic 6","MDCU79|RoD|Ped 8","MDCU78|RoD|63","MDCU68|RoB|7","MDCU70|RoA|51","MDCU77|RoA|Ped 3","MDCU77|RoB|Plastic 15","MDCU74|RoD|12","MDCU76|RoD|68"]},
+      {"id":"cleft-complication","title":"Cleft palate: OME / conductive hearing loss และ speech (VPI)","asked":["ทารก cleft lip + palate ภาวะที่น่าจะเกิดมากที่สุด → <b>middle ear effusion / otitis media with effusion</b> (ตัวลวง Eustachian tube atresia / absent, choanal atresia, sensorineural deafness, external ear deformity, hypothyroidism, esophageal atresia, macroglossia)","ทารก cleft (ภาพ) complication ที่รุนแรงที่สุด → <b>speech delay</b> (คีย์) (ตัวลวง feeding difficulty, aspiration, airway obstruction, recurrent otitis media)"],"pattern":["Tensor และ levator veli palatini เกาะผิดที่ → <b>Eustachian tube dysfunction</b> (ท่อยังอยู่ ไม่ได้ตัน) → <b>OME เกือบทุกราย</b> → <b>conductive</b> hearing loss → ตรวจการได้ยินตั้งแต่ทารก ใส่ ventilation tube ตามข้อบ่งชี้","ปัญหาอื่น: feeding (ดูดไม่ได้ เพราะสร้าง negative pressure ไม่ได้), nasal regurgitation, ฟัน, <b>speech (VPI: hypernasality, nasal emission, compensatory articulation)</b>","Most common = feeding / OME · ผลระยะยาวที่รุนแรงและเป็นเป้าหมายหลักของ palatoplasty = speech"],"pearls":["คีย์ MDCU78 RoB ตอบ speech delay เป็น 'most severe' — ถกเถียงได้ว่า aspiration รุนแรงเฉียบพลันกว่า และถ้าเป็น Pierre Robin ปัญหาเร่งด่วนคือ airway obstruction","คิดว่า Eustachian tube ตัน (atresia) — จริงคือทำงานผิดปกติ · hearing loss เป็น conductive"],"members":["MDCU77|RoC|Plastic 6","MDCU71|RoA|33","MDCU78|RoB|8"]},
+      {"id":"cleft-gp-refer","title":"GP พบทารก cleft lip → ส่ง multidisciplinary cleft team","asked":["GP พบทารก cleft lip (complete unilateral) → <b>refer cleft team</b> (ตัวลวง nasoalveolar molding, lip taping, lip adhesion, ซ่อม lip ทันที, ซ่อมตอน 5 ปี, reassure นัด 1 ปี)"],"pattern":["สิ่งที่ GP ทำ: <b>ส่งต่อ cleft team</b> (plastic surgeon, orthodontist, speech therapist, ENT / audiology, ทันตแพทย์, กุมารแพทย์, พันธุศาสตร์) + สอนการให้นม (ขวด / จุกพิเศษ ท่าตั้ง) + ตรวจหาความผิดปกติร่วม","Presurgical orthopedics (lip taping, nasoalveolar molding) และ lip adhesion เป็นงานของทีมเฉพาะทาง"],"members":["MDCU74|RoA|90","MDCU74|RoD|11"]},
+      {"id":"submucous-cleft","title":"Submucous cleft palate: bifid uvula → VPI","asked":["Bifid (cleft) uvula สัมพันธ์กับอะไร → <b>submucous cleft palate</b> (ตัวลวง facial cleft, craniosynostosis, cleft lip and palate, craniofacial cleft)","ภาพเพดานมี bifid uvula → complication เด่น = <b>velopharyngeal insufficiency</b> (ตัวลวง sensorineural HL, macroglossia, trismus, recurrent tonsillitis)"],"pattern":["<b>Calnan triad</b>: bifid uvula + zona pellucida (แนวกลางสีฟ้าใสจากกล้ามเนื้อแยก) + notch ที่ขอบหลัง hard palate","Levator veli palatini เกาะผิดที่ → <b>VPI</b> (hypernasal speech, nasal emission / regurgitation) + OME → conductive HL · ผ่าตัดเมื่อมี VPI จริง","<b>ระวัง adenoidectomy</b> ในเด็ก submucous cleft → VPI แย่ลง"],"members":["MDCU73|RoD|Plastic 5","MDCU66|RoB|35"]},
+      {"id":"cleft-risk","title":"ปัจจัยเสี่ยง cleft lip / palate สูงสุด = ประวัติครอบครัว","asked":["แม่รายใดเสี่ยงมีลูก cleft lip and palate สูงสุด → <b>แม่เองเป็น cleft lip and palate</b> (ตัวลวง alcohol + smoking, anticonvulsant, steroid, folate deficiency)","ปัจจัยเสี่ยงสำคัญที่สุดของ cleft palate → <b>พ่อเป็น cleft palate</b> (ตัวลวง folate deficiency, alcohol / บุหรี่, พ่ออายุมาก, แม่เป็นเบาหวาน)"],"pattern":["<b>Family history (first-degree relative)</b> เพิ่มความเสี่ยงชัดที่สุด: พ่อหรือแม่เป็น → ลูกเสี่ยงหลายเปอร์เซ็นต์ (ราว 3–5%) เทียบประชากรทั่วไปราว 1 ใน 700","ปัจจัยสิ่งแวดล้อม (บุหรี่, alcohol, phenytoin / valproate, steroid, retinoid, folate ต่ำ, เบาหวาน) เพิ่มความเสี่ยงน้อยกว่า","Isolated cleft palate สัมพันธ์กับ syndrome มากกว่า cleft lip ± palate (Pierre Robin, 22q11.2, Stickler)"],"members":["MDCU69|RoC|38","MDCU68|RoD|73"]}
+    ]},
+    {title:"Skin graft · flap · reconstructive ladder", sections:[
+      {"id":"skin-graft","title":"Skin graft: STSG vs FTSG และ graft take","trend":"'Donor site ของ FTSG หายเอง' เป็นข้อความผิดที่ถูกถามซ้ำหลายรุ่น","asked":["ข้อใดผิดเรื่อง skin graft → <b>donor site ของ FTSG หายเอง</b> (ข้อความที่ถูก: STSG donor หายจาก adnexa, FTSG หดน้อยกว่า, ต้องมี vascularized bed, hematoma / seroma ทำ graft ล้มเหลวบ่อยสุด, ต้องกัน streptococcal infection, take เริ่มด้วย plasmatic imbibition)","ข้อใดผิดเรื่อง FTSG → <b>ใช้ในเด็กน้อยกว่า STSG</b> (ข้อความที่ถูก: take rate ต่ำกว่า STSG, นิยมที่หน้า, texture และ cosmetic ดีกว่า)","STSG บนแผล granulation ใน 24–48 ชม.แรกได้อาหารด้วยกลไกใด → <b>plasmatic imbibition</b> (ตัวลวง inosculation, revascularization, neovascularization, arterial inflow)"],"pattern":["<b>STSG</b> = epidermis + บางส่วนของ dermis → donor หายเองจาก epithelium ใน adnexa (~10–14 วัน) · primary contraction น้อย <b>secondary contraction มาก</b> · take ง่ายกว่า เหมาะกับแผลใหญ่","<b>FTSG</b> = epidermis + dermis ทั้งหมด → <b>donor ต้องเย็บปิด primary</b> (หรือ graft) · primary contraction มาก (~40% ของพื้นที่ตาม Neligan · L05 ระบุ ~50%) secondary contraction น้อย · สีและ texture ใกล้ผิวเดิม → หน้า มือ ข้อพับ ใช้ได้ดีในเด็ก","<b>Graft take</b>: plasmatic imbibition (0–48 ชม.) → inosculation (48–72 ชม.) → revascularization (หลัง 72 ชม. ถึง ~1 สัปดาห์) · graft ไม่มีเลือดของตัวเอง ('ปักชำ') ใช้บน bare bone / bare tendon / บริเวณที่ฉายรังสีไม่ได้","<b>Graft failure</b>: hematoma / seroma (บ่อยสุด) > infection (Group A <i>Streptococcus</i> สลาย graft แม้เชื้อน้อย) > shearing → กดด้วย tie-over bolster","<b>Composite graft</b> (ผิว + cartilage เช่นจากหูไปปีกจมูก) ขนาดไม่เกิน ~1 cm (L05)"],"pearls":["จำกลับด้าน: STSG บาง → หดทีหลังมาก · FTSG หนา → หดทันทีมากแต่หดทีหลังน้อย","Granulation ที่ดีคือ bed ที่รับ graft ได้ — ไม่ใช่ข้อห้าม"],"members":["MDCU73|RoD|Plastic ตรงแอค 8","MDCU72|RoB|23","MDCU69|RoC|37","MDCU69|RoC|X10","MDCU68|RoC|37","MDCU75|RoC|Plastic 2"]},
+      {"id":"recon-ladder","title":"Reconstructive ladder: ฐานแผลมีเลือด → skin graft · กระดูก / เอ็นเปลือย → flap","asked":["แผลหน้าท้อง 5 × 8 cm สะอาด granulation ลึกถึงไขมัน ดึงขอบชนไม่ได้ → <b>skin graft</b> (ตัวลวง primary closure, secondary intention, local skin flap, free flap)","หลัง debride necrotizing fasciitis ที่หน้าแข้ง แผล 8 × 6 cm granulation ดี → <b>STSG</b> (ตัวลวง secondary intention, FTSG, local flap, free flap)","แผลหน้าแข้งจากอุบัติเหตุ กระดูกโผล่ ฐานแผลเลือดไม่ดี → <b>latissimus dorsi free flap</b> (ตัวลวง secondary intention, STSG, FTSG, primary closure under tension)","ผิวหลังมือหาย ฐานแผลสะอาดเลือดดี paratenon ยังอยู่ ปิดตรงไม่ได้ ต้องการ function ดีหดน้อย → <b>FTSG</b> (ตัวลวง STSG, biological dressing, vacuum dressing, primary closure)"],"pattern":["<b>Ladder (L05)</b>: secondary intention → direct closure → skin graft → local flap → regional flap → free flap · เลือกขั้นต่ำที่ได้ผล (แนวคิด reconstructive elevator ข้ามขั้นได้ถ้าได้ผลดีกว่า) · ตั้งแต่ skin graft ขึ้นไป GP ต้องส่งต่อ","Skin graft ต้องการ <b>vascularized bed</b> (granulation, fat, muscle, periosteum, paratenon) · ตัดสินจาก <b>สิ่งที่อยู่ก้นแผล</b> ไม่ใช่ตำแหน่ง","<b>Flap indication (L05)</b>: bed ไม่มีเลือด (bone ไม่มี periosteum, tendon ไม่มี paratenon, cartilage, hardware, บริเวณที่ฉายรังสี) · ต้องการ padding bony prominence (pressure sore) · ต้องการ functional muscle","ขา: proximal 1/3 → gastrocnemius flap · middle 1/3 → soleus flap · <b>distal 1/3 / defect ใหญ่ → free flap</b> (latissimus dorsi, ALT, gracilis)","<b>STSG</b> สำหรับแผลใหญ่ทั่วไป · <b>FTSG</b> สำหรับหน้า มือ ข้อพับ (หดทีหลังน้อย) — หลังมือ donor = ขาหนีบ (hip flexion crease) ตามสไลด์อาจารย์"],"pearls":["เห็นหน้าแข้งแล้วตอบ flap ทันที — ถ้า granulation คลุมแล้ว STSG ได้","แผลใหญ่ ~48 cm² ปล่อยหายเองนานมาก เสี่ยงติดเชื้อและ unstable scar","หลังมือ: ทางปฏิบัติ STSG ก็ใช้ได้เมื่อแผลกว้างมาก แต่คีย์ MDCU76 RoD ตอบ FTSG (หดน้อย)"],"members":["MDCU70|RoC|44","MDCU67|RoA|33","MDCU79|RoD|Plastic 5","MDCU78|RoB|3","MDCU76|RoD|44"]},
+      {"id":"breast-reconstruction","title":"Breast reconstruction ด้วย autologous flap: TRAM / DIEP / latissimus dorsi","asked":["นักแสดงต้องตัดเต้านม ต้องการเต้านมใหม่ที่สัมผัสเป็นธรรมชาติที่สุด → <b>musculocutaneous flap</b> (ตัวลวง STSG, FTSG, ปิดโดยไม่สร้าง, external prosthesis)","Autologous breast reconstruction ต้องการปริมาตรพอสร้าง breast mound → donor site <b>rectus abdominis</b> (ตัวลวง latissimus dorsi, posterior serratus, gastrocnemius, gracilis)","Pedicled TRAM flap ใช้เส้นเลือดใด → <b>superior epigastric artery</b> (ตัวลวง deep inferior epigastric, thoracodorsal, internal pudendal, lateral thoracic)"],"pattern":["Autologous flap ให้ปริมาตร ความนุ่ม อุณหภูมิ และเปลี่ยนตามน้ำหนักเหมือนเต้านมจริง — skin graft ให้แค่ผิวบางไม่มีปริมาตร","<b>Abdomen (TRAM / DIEP)</b> = donor อันดับ 1 (เนื้อหน้าท้องมากพอไม่ต้องใช้ implant; ปัจจุบัน DIEP เป็นมาตรฐานของ autologous — Neligan) · TRAM = transverse rectus abdominis myocutaneous · <b>pedicled TRAM → superior epigastric a.</b> (แขนงปลายของ internal thoracic a.) · <b>free TRAM / DIEP → deep inferior epigastric vessels</b> ต่อกับ internal mammary vessels","<b>DIEP</b> = perforator flap เก็บกล้ามเนื้อ rectus ไว้ ลด abdominal wall morbidity · <b>Latissimus dorsi (thoracodorsal a.)</b> = อันดับ 2 ปริมาตรน้อยกว่า มักใช้ implant ร่วม"],"pearls":["สับสน pedicled TRAM (superior epigastric) กับ free TRAM / DIEP (deep inferior epigastric)","ตอบ latissimus dorsi เพราะอยู่ใกล้เต้านม — ปริมาตรไม่พอ"],"members":["MDCU77|RoB|Plastic 3","MDCU76|RoA|20","MDCU76|RoD|4"]},
+      {"id":"z-plasty","title":"Z-plasty: มุม 60° ได้ความยาว 75%","asked":["Z-plasty มุม 60° ได้ความยาวเพิ่มทางทฤษฎีเท่าไร → <b>75%</b> (ตัวลวง 25, 50, 60, 90, 100, 120%)"],"pattern":["Theoretical gain in length: 30° = 25% · 45° = 50% · <b>60° = 75%</b> · 75° = 100% · 90° = 120% (เริ่ม 30° = 25% แล้วเพิ่มทีละ 15° ได้ +25%)","ใช้: ยืด central limb (แก้ scar contracture ที่ดึงรั้ง เช่นข้อพับ) + เปลี่ยนทิศ scar ไปตาม RSTL · 60° เป็นมุมมาตรฐาน (สมดุลระหว่างความยาวกับ tension ด้านข้าง) · ความยาวจริงน้อยกว่าทฤษฎี","เทียบ: V-Y = ยืดไปข้างหน้าตาม axis (fingertip) · W-plasty = แตก scar เส้นตรงยาวเป็นซิกแซก ไม่ได้ยืด (L05)"],"members":["MDCU70|RoB|ไม่มีเลข 1","MDCU67|RoB|58"]},
+      {"id":"wound-healing","title":"Wound healing: vitamin C กับ collagen · องค์ประกอบ granulation tissue","asked":["Vitamin ที่จำเป็นต่อ collagen synthesis → <b>vitamin C</b> (ตัวลวง A, B12, D, K)","องค์ประกอบของ granulation tissue → <b>fibroblasts, macrophages และ capillaries ใหม่</b> (ตัวลวง neutrophil + fibrin, keratinocytes + keratin, epithelioid histiocytes + giant cells, mature collagen type I + adipocytes)"],"pattern":["<b>Vitamin C</b> = cofactor ของ prolyl และ lysyl hydroxylase → hydroxylation ทำให้ collagen triple helix เสถียรและ cross-link ได้ · ขาด = scurvy แผลหายช้า แผลเก่าแยก เหงือกเลือดออก · <b>vitamin A</b> ใช้แก้ผลของ steroid ต่อการหายของแผล","<b>Granulation tissue</b> (proliferative phase) = fibroblasts (collagen type III + ECM) + angiogenesis (VEGF) + macrophages · myofibroblast ทำให้แผลหดตัว · ต่างจาก granuloma (epithelioid histiocytes + giant cells)"],"members":["MDCU77|RoB|Plastic 2","MDCU77|RoB|Plastic 9"]}
+    ]},
+    {title:"Burn และ inhalation injury", sections:[
+      {"id":"burn-inhalation","title":"Inhalation injury (ไฟไหม้ในที่ปิด, soot, stridor) → intubation ก่อน","trend":"MDCU66–68 ใช้ stem ไฟไหม้อพาร์ตเมนต์ + soot + กระสับกระส่ายซ้ำ แล้วกลับมาใน MDCU75 และ 79 — ตอบ airway ก่อนเสมอ","asked":["ช่วยออกจากไฟไหม้อพาร์ตเมนต์ burn หน้า คอ อก แขน กระสับกระส่าย / ซึม soot รอบปากจมูก → ทำอะไรก่อน refer = <b>endotracheal intubation</b> (ตัวลวง bronchoscopy suction, pulse oximetry, O2 mask 10 L/min, subclavian line, chest escharotomy, IV catheter, CXR, ABG)","Burn หน้า + ขนจมูก / คิ้วไหม้ (singed) + ซึม → ทำอะไรก่อน = intubation (+ 100% O2) (ตัวลวง bronchoscopy, pulse oximetry, escharotomy, IV line)","บ้านไม้ไฟไหม้ soot รอบจมูกปาก + stridor + เสียงแหบ → immediate management = early ETT (ตัวลวง nasal cannula, IV fluid, hyperbaric O2, nebulized bronchodilator)","Circumferential full-thickness burn คอ–อก + stridor เสียงแหบ หายใจลำบาก → ETT ก่อน (ตัวลวง chest escharotomy, fasciotomy คอ, salbutamol, high-flow nasal cannula)","ช้อยไม่มี ETT (สถานการณ์เดิม) หรือผู้ป่วยมีรอยไหม้ที่หน้ารออยู่ ER → <b>O2 mask 10 L/min</b> (ตัวลวง central line, ประเมิน %TBSA, wet saline gauze, escharotomy)"],"pattern":["<b>สัญญาณ inhalation injury</b>: ไฟไหม้ในที่ปิด, soot ในจมูก / ปาก / เสมหะ, ขนจมูก–คิ้วไหม้, burn ใบหน้า / คอ, เสียงแหบ, stridor, ซึมหรือกระสับกระส่าย (hypoxia, CO, cyanide)","<b>Airway first (ATLS 11th 2025, ABLS)</b>: stridor, เสียงแหบ, burn ใบหน้าลึก / ในปาก, ซึม, circumferential neck burn, burn กว้าง หรือต้องส่งต่อไกล → <b>early endotracheal intubation</b> ก่อน airway edema บวมมากขึ้นหลังเริ่มให้น้ำ (24–48 ชม.แรก) · ใช้ท่อใหญ่ (ผู้ใหญ่ ≥ 7.5–8.0 mm) และไม่ตัดท่อให้สั้น","ทุกรายให้ <b>100% O2 ทาง non-rebreather</b> ทันที (half-life ของ COHb ~4 ชม. ในอากาศ → ราว 30–60 นาทีเมื่อได้ 100% O2) — ถ้าช้อยไม่มี ETT เลือก O2 mask","Pulse oximetry หลอก (COHb อ่านเป็น oxyHb) → ABG + co-oximetry · lactic acidosis ไม่ดีขึ้น → นึกถึง cyanide (hydroxocobalamin)","ลำดับ: A (intubate) → B (chest escharotomy เมื่อ eschar รอบอกจำกัดการหายใจ) → C (IV fluid ตาม Parkland) — bronchoscopy ใช้ยืนยัน lower airway injury ภายหลัง ไม่ใช่สิ่งแรก"],"pearls":["เลือก pulse oximetry / O2 mask ทั้งที่มี ETT ในช้อย — มีสัญญาณ airway (stridor, เสียงแหบ, soot + ซึม) ต้อง intubate ก่อนส่งต่อ","เห็น circumferential burn แล้วตอบ escharotomy ก่อน — ABC: airway มาก่อน breathing","MDCU66 RoA ไม่มี ETT ในช้อย คีย์ตอบ O2 mask 10 L/min (ลายมือคีย์เขียนว่าควร ETT) · MDCU66 RoC รอยไหม้หน้ารออยู่ ER คีย์ตอบ O2 mask (ลายมือ: CO half-life 4 ชม. → 30 นาทีเมื่อได้ O2)"],"members":["MDCU79|RoC|Plastic 5","MDCU75|RoC|Plastic 3","MDCU68|RoD|63","MDCU68|RoD|65","MDCU67|RoA|38","MDCU67|RoB|46","MDCU67|RoC|42","MDCU66|RoA|74","MDCU66|RoC|7"]},
+      {"id":"burn-parkland","title":"Parkland formula: คำนวณ rate และ monitor ด้วย urine output","trend":"โจทย์คำนวณเลขชุดเดิม (60 kg, 40% TBSA) วนซ้ำ — ถาม rate ใน 8 ชม.แรกหลังได้น้ำมาแล้ว, rate ช่วง 16 ชม.หลัง และ endpoint","asked":["ชาย 75 kg burn partial + full thickness ทั้ง anterior trunk, แขนทั้งสองข้าง, ด้านหน้าต้นขาขวา → crystalloid ใน 8 ชม.แรก = <b>6.0 L</b> (ตัวลวง 3.0, 4.5, 7.5, 12.0 L)","60 kg 40% TBSA มาถึง 5 ชม.หลังเกิดเหตุ ได้ RL มาแล้ว 3,000 mL → rate ใน 3 ชม.ถัดไป = <b>600 mL/hr</b>","60 kg 40% second-degree ได้ RLS 1,200 mL ใน 2 ชม.ที่ผ่านมา → rate ใน 6 ชม.ถัดไป = <b>600 mL/hr</b>","60 kg 40% ครบ 8 ชม.แรกของ Parkland แล้ว → rate ต่อ = <b>300 mL/hr</b>","Burn 40% 4 ชม. ได้น้ำมาแล้ว HR 160 BP 120/90 → monitor / จัดการอย่างไร → <b>urine output ~60 mL/hr</b> (ตัวลวง keep BP เดิม, CVP 17 cmH2O, IV mannitol, serial Hct, ทำตามสูตรเคร่งครัด)"],"pattern":["<b>Parkland (Baxter)</b> = 4 mL × kg × %TBSA (นับเฉพาะ partial + full thickness ไม่นับ superficial) ด้วย <b>Lactated Ringer's</b> · ครึ่งแรกใน <b>8 ชม.นับจากเวลาเกิด burn</b> ครึ่งหลังใน 16 ชม.ถัดไป","<b>สูตรลัดเคส 60 kg 40%</b>: 4 × 60 × 40 = 9,600 mL → 4,800 ใน 8 ชม.แรก → ลบที่ได้ไปแล้ว หารด้วยชั่วโมงที่เหลือจนครบ 8 ชม.หลังเกิดเหตุ (ได้ 3,000 ใน 5 ชม. → 1,800 / 3 = 600 mL/hr · ได้ 1,200 ใน 2 ชม. → 3,600 / 6 = 600 mL/hr) · 16 ชม.หลัง 4,800 / 16 = 300 mL/hr","<b>Rule of nines</b> ผู้ใหญ่: ศีรษะ 9, แขนข้างละ 9, ลำตัวหน้า 18, หลัง 18, ขาข้างละ 18 (หน้า 9 หลัง 9), perineum 1 · ฝ่ามือรวมนิ้วของผู้ป่วย ≈ 1% · เคส 75 kg: 18 + 9 + 9 + ~4.5 (หน้าต้นขาข้างเดียว) ≈ 40% → 4 × 75 × 40 = 12 L → 6 L ใน 8 ชม.แรก","<b>ปัจจุบัน</b>: <b>ABA Clinical Practice Guidelines on Burn Shock Resuscitation (2024)</b> แนะนำเริ่ม <b>2 mL × kg × %TBSA</b> (แทน 4 mL) ในผู้ใหญ่ burn ≥ 20% TBSA, titrate ด้วย urine output 0.5 mL/kg/hr และพิจารณา albumin ใน 24 ชม.แรก · ABLS 2018 / ATLS 10th: 2 mL ผู้ใหญ่ thermal burn, 3 mL เด็ก, 4 mL electrical — แต่ข้อสอบเก่าทุกเคสคำนวณด้วย 4 mL (Parkland) ให้ดูตัวเลขในช้อย","<b>Endpoint</b> = urine output: ผู้ใหญ่ 0.5 mL/kg/hr (~30–50 mL/hr), เด็ก < 30 kg 1 mL/kg/hr, high-voltage electrical / myoglobinuria 1–1.5 mL/kg/hr → titrate rate ทุกชั่วโมง สูตรเป็นแค่จุดเริ่ม · HR 160 + ได้น้ำน้อยกว่าเป้า = under-resuscitation ต้องเร่ง (เคสนี้ต้องราว 900 mL/hr) ไม่ใช่คุม BP / CVP หรือให้ mannitol","Over-resuscitation (fluid creep) → abdominal / extremity compartment syndrome, pulmonary edema"],"pearls":["เริ่มนับ 8 ชม.จากเวลามาถึงโรงพยาบาล (ผิด) — นับจากเวลาเกิด burn ถ้ามาช้าต้องให้เร็วขึ้นชดเชย","ลืมลบปริมาณที่ได้มาแล้ว หรือหารด้วย 8 ชม.เต็ม","นับหน้าต้นขาข้างเดียวเป็น 9% (ด้านหน้าของขาทั้งท่อน = 9%) → ได้ 7.5 L ซึ่งเป็นตัวลวงในช้อย","คำถาม endpoint ไม่ใช่ BP / CVP / Hct — ใช้ urine output"],"members":["MDCU79|RoC|Plastic 4","MDCU67|RoA|39","MDCU67|RoA|40","MDCU67|RoB|47","MDCU67|RoC|44","MDCU66|RoA|X14","MDCU66|RoA|X15","MDCU66|RoC|19"]},
+      {"id":"burn-depth","title":"ความลึกของ burn และการรักษาตามความลึก","asked":["น้ำร้อนลวก 5% มี hemorrhagic (bloody) bullae พื้นแผลกดไม่ซีด → <b>deep partial-thickness</b> (ตัวลวง superficial partial, full thickness, superficial, fourth-degree)","Flame burn รักแร้ขวา 10 × 10 cm แดงชมพู ชื้น เจ็บมาก capillary refill ดี → <b>dressing ด้วย silver sulfadiazine</b> (ตัวลวง debride + local flap / STSG / FTSG, escharotomy)","ลักษณะของ full-thickness (third-degree) burn → <b>ทำลายผิวทั้งชั้น / dermal appendages ทั้งหมด</b> (ตัวลวง ไม่ต้อง graft, หายใน 7 หรือ 14 วัน, เจ็บมาก, ตุ่มพองพื้นชื้น)"],"pattern":["<b>Superficial (1st)</b>: epidermis แดง แห้ง เจ็บ ไม่มี blister หายใน ~1 สัปดาห์ ไม่นับใน TBSA","<b>Superficial partial-thickness</b>: ถึง papillary dermis — blister, พื้นชมพูชื้น <b>เจ็บมาก กดซีด</b> capillary refill ดี → หายเองใน ~2–3 สัปดาห์ → ทำแผล + topical antimicrobial (silver sulfadiazine / silver dressing)","<b>Deep partial-thickness</b>: ถึง reticular dermis — blister แตกง่าย / เป็นเลือด พื้นแดงเข้มด่าง <b>กดไม่ซีด</b> รู้สึกแค่แรงกด → หาย > 3 สัปดาห์ เกิด hypertrophic scar → tangential excision + skin graft","<b>Full-thickness (3rd)</b>: ทำลาย epidermis + dermis + adnexa ทั้งหมด — ขาว / น้ำตาล leathery แห้ง <b>ไม่เจ็บ</b> ไม่หายเอง (หายจากขอบเท่านั้น) → excision + skin graft · circumferential → escharotomy","ตัดสินว่าต้อง graft จาก <b>ความลึก</b> (คาดว่าหายเองภายใน 3 สัปดาห์หรือไม่) ไม่ใช่จากตำแหน่ง"],"pearls":["เห็น blister แล้วตอบ superficial partial ทันที — ต้องดู capillary refill และสีพื้นแผล (bloody bullae + ไม่ซีด = deep)","แผลที่รักแร้ (ข้อพับ) ทำให้กลัว contracture แล้วเลือก graft — superficial partial หายเองได้","ไม่เจ็บ = ลึก (เส้นประสาทถูกทำลาย)"],"members":["MDCU76|RoA|16","MDCU75|RoD|Plastic 1","MDCU67|RoB|48","MDCU67|RoD|38","MDCU66|RoC|17"]},
+      {"id":"burn-referral","title":"เกณฑ์ส่ง burn center (ABA 2022)","asked":["ผู้ป่วยรายใดควรส่ง burn center มากที่สุด → <b>full-thickness burn ใบหน้า 7%</b> (ตัวลวง superficial partial อก 5%, เด็ก 10 ปีแผลพองที่เท้า 5%, superficial หลัง 7%, deep partial แขน 3%, full-thickness ต้นขา 1–2%)","ใครควร admit burn unit → <b>third-degree 5% ที่ใบหน้า</b> (ตัวลวง first-degree หลัง 10%, sunburn, second-degree แขน 2%, superficial ต้นขา 3%)"],"pattern":["<b>ABA Guidelines for Burn Patient Referral (2022)</b> — immediate consultation + consider transfer: <b>full-thickness ทุกขนาด</b> · partial-thickness ≥ 10% TBSA · deep partial / full-thickness ที่ <b>ใบหน้า มือ เท้า อวัยวะเพศ perineum หรือข้อ</b> · มีโรคร่วม / trauma ร่วม / ปวดคุมไม่ได้ · inhalation injury ทุกราย · chemical ทุกราย · high-voltage (≥ 1,000 V) และฟ้าผ่า · เด็ก (≤ 14 ปี หรือ < 30 kg) ส่วนใหญ่ได้ประโยชน์จาก burn center","Consultation recommended: partial-thickness < 10%, burn ที่อาจลึก, สงสัย inhalation (flash burn ใบหน้า, ขนไหม้), low-voltage electrical","ช้อยที่ดีที่สุด = เข้าหลายเกณฑ์พร้อมกัน (full-thickness + ใบหน้า) · first-degree / sunburn ไม่นับ TBSA และไม่ต้องส่ง"],"pearls":["คีย์ MDCU77 RoA เขียน A > C — เด็กแผลพองที่เท้าก็เข้าเกณฑ์ (ตำแหน่ง + เด็ก) แต่ full-thickness ที่ใบหน้าชัดกว่า","ลายมือคีย์บางรุ่นเขียนตัวเลข %TBSA — ตาม ABA 2022 full-thickness ทุกขนาดและบริเวณพิเศษเข้าเกณฑ์โดยไม่ขึ้นกับขนาด"],"members":["MDCU77|RoA|Plastic 1","MDCU67|RoA|41","MDCU66|RoD|42"]}
+    ]},
+    {title:"ช่องปาก ขากรรไกร และต่อมน้ำลาย", sections:[
+      {"id":"oral-ulcer-observe","title":"แผลในปากที่เจ็บ เป็นไม่กี่วัน → observe 2–3 สัปดาห์","trend":"MDCU66–68 ถามซ้ำ — คำว่า 'เจ็บ' + 'ไม่กี่วัน' = observe","asked":["แผล / ก้อนในปากที่เจ็บ เป็นมา 4–7 วัน (คนหนุ่ม ขอบเรียบ 1–1.5 cm) → <b>observe / follow up</b> (ตัวลวง incisional / excisional biopsy, wide excision 0.5–1 cm, radiotherapy, radical / elective neck dissection, ATB 6 สัปดาห์)"],"pattern":["แผลเจ็บ ขอบเรียบ เกิดไม่กี่วัน โดยเฉพาะคนอายุน้อย = <b>aphthous / traumatic ulcer</b> หายเองใน 1–3 สัปดาห์ → observe + รักษาตามอาการ / แก้สาเหตุ (ฟันคม ฟันปลอม)","<b>Biopsy เมื่อ</b>: ไม่หายใน 2–3 สัปดาห์, แข็ง / ขอบนูน, ไม่เจ็บ, เลือดออก, ผู้สูงอายุมีปัจจัยเสี่ยง (หมาก ยาสูบ สุรา), มี neck node → R/O SCC"],"pearls":["'เจ็บ' ชี้ไปทาง inflammatory — มะเร็งระยะแรกมักไม่เจ็บ"],"members":["MDCU68|RoB|3","MDCU67|RoA|37","MDCU66|RoC|5","MDCU66|RoD|37"]},
+      {"id":"oral-scc","title":"มะเร็งช่องปาก / ริมฝีปาก = SCC และปัจจัยเสี่ยง","asked":["แผลที่ริมฝีปากล่าง → ปัจจัยเสี่ยงสำคัญที่สุด = <b>UV</b> (ตัวลวง foreign body, HPV, HSV, vitamin B deficiency)","ผู้สูงอายุ แผลที่กระพุ้งแก้มซ้ายขอบเรียบ เลือดออกไม่หยุด → <b>เคี้ยวหมาก / ยาสูบ</b> (ตัวลวง vitamin B1, iron deficiency, HSV, ฟันปลอมหลวม)","หญิง 28 ปี ก้อนแข็งไม่เจ็บที่กระพุ้งแก้ม 3 cm + node คอ 2 cm → biopsy น่าจะเป็น <b>SCC</b> (ตัวลวง melanoma, adenocarcinoma, acute ulcer, fungal infection)","ก้อน / แผลที่ลิ้นมีเลือดออก → <b>SCC</b> (ตัวลวง BCC, adenocarcinoma, fibrosarcoma, melanoma)"],"pattern":["มะเร็งช่องปาก ~90% = <b>SCC</b> · ไทย / เอเชีย: <b>หมาก (betel quid) + ยาสูบเคี้ยว</b> → buccal mucosa SCC · ร่วมกับบุหรี่ สุรา · leukoplakia / erythroplakia / oral submucous fibrosis = premalignant","<b>ริมฝีปากล่าง</b> → SCC (> 90%) ปัจจัยหลัก <b>UV</b> (ริมฝีปากล่างโดนแดดมากกว่า) + บุหรี่ / ไปป์, actinic cheilitis · ริมฝีปากบนพบ BCC มากกว่า","BCC ไม่เกิดบน mucosa · ลิ้น SCC ไป node เร็ว → biopsy แล้ว stage (AJCC 8th ใช้ depth of invasion)"],"pearls":["คิดว่าแผลขอบเรียบไม่น่าเป็นมะเร็ง — ผู้สูงอายุ + เลือดออก + ไม่หาย ต้อง biopsy"],"members":["MDCU77|RoB|Plastic 7","MDCU76|RoD|2","MDCU67|RoD|17","MDCU66|RoA|70"]},
+      {"id":"pleomorphic-adenoma","title":"Pleomorphic adenoma (ก้อนหน้าหู firm mobile)","asked":["ชาย 40 ปี ก้อนเดี่ยวไม่เจ็บหน้าหู พยาธิ biphasic ductal + myoepithelial ใน myxoid / chondroid stroma → <b>pleomorphic adenoma</b> (ตัวลวง mucoepidermoid, Warthin, adenoid cystic, acinic cell carcinoma)","หญิง ก้อนหน้าหู firm mobile ไม่มีอาการ → pleomorphic adenoma"],"pattern":["<b>Pleomorphic adenoma</b> = salivary tumor พบบ่อยสุด (~60–70% ของ parotid tumor) หญิงวัย 30–50 ก้อนเดี่ยว firm / rubbery ขอบเรียบ โตช้า ไม่มี facial palsy · พยาธิ = epithelial + myoepithelial ใน chondromyxoid stroma ('mixed tumor')","Capsule ไม่สมบูรณ์ มี pseudopod → <b>superficial (หรือ partial) parotidectomy เก็บ facial nerve</b> · ห้าม enucleate (recur) · ทิ้งไว้นาน → carcinoma ex pleomorphic adenoma","Work-up: US ± FNA, MRI ถ้า deep lobe / สงสัยมะเร็ง · ไม่ทำ open / incisional biopsy","<b>แยก</b>: Warthin = oncocytic + lymphoid stroma ชายสูงอายุสูบบุหรี่ เป็นสองข้างได้ · mucoepidermoid = <b>มะเร็ง</b> salivary พบบ่อยสุด · adenoid cystic = perineural invasion","หลัง parotidectomy: facial nerve weakness, Frey syndrome, ชาใบหู (great auricular n.)"],"pearls":["เนื้องอกที่พบบ่อยสุด (pleomorphic adenoma) vs มะเร็งที่พบบ่อยสุด (mucoepidermoid)","ผู้จด MDCU79 RoD คิดว่าเป็น cyst — ก้อน parotid firm mobile ที่พบบ่อยสุดคือ pleomorphic adenoma"],"members":["MDCU79|RoC|Plastic 8","MDCU79|RoD|Plastic 11"]},
+      {"id":"oral-bleeding-mass","title":"ก้อนในปากเลือดออกมาก → catheter angiogram (+ embolization)","asked":["หญิง 50 ปี ก้อนใหญ่ในช่องปากเลือดออกมาก → <b>catheter angiogram</b> (ตัวลวง X-ray, CTA, MRA, ultrasound)","หญิง 42 ปี ก้อนกระพุ้งแก้มโตขึ้น เลือดออก 2 ชม. → <b>angiogram</b> (ตัวลวง X-ray, MRI, US, observe)"],"pattern":["ก้อนในปากที่เลือดออกมาก (vascular malformation / vascular tumor) → ดูแล airway และกดห้ามเลือดก่อน → <b>catheter angiography</b> = ได้ทั้ง Dx (feeding vessel) และ Rx (<b>embolization</b>) ในครั้งเดียว","CTA / MRA ใช้วางแผนในรายที่ไม่ได้เลือดออกเฉียบพลัน"],"members":["MDCU67|RoC|41","MDCU67|RoD|18"]},
+      {"id":"ameloblastoma","title":"Ameloblastoma (ก้อนขากรรไกร)","asked":["ภาพก้อนขากรรไกร → <b>ameloblastoma</b> (ตัวลวง hemangioma, soft tissue sarcoma, SCC, pyogenic granuloma)"],"pattern":["Benign odontogenic tumor ที่พบบ่อย มักที่ <b>posterior mandible (molar–ramus)</b> · ก้อนโตช้า ไม่เจ็บ ขยาย cortex ฟันโยก · X-ray: multilocular radiolucency (soap bubble), root resorption","Locally aggressive → segmental / marginal mandibulectomy with margin 1–2 cm + reconstruction (เช่น free fibula flap) · curettage อย่างเดียว recur สูง"],"members":["MDCU74|RoA|89"]}
+    ]},
+    {title:"Pressure injury", sections:[
+      {"id":"pressure-stage2-tx","title":"Pressure injury stage 2 → offloading + moist dressing (hydrocolloid)","trend":"ถามการรักษา stage 2 ซ้ำหลายรุ่น โดยใส่ graft / flap เป็นตัวลวง","asked":["Stage 2 / แผลตื้นสีชมพู partial-thickness ไม่มี slough ที่ sacrum / ischium → <b>hydrocolloid dressing</b> (ตัวลวง STSG, FTSG, gluteal / rotation / tensor fascia lata flap, excision + primary closure, surgical debridement)"],"pattern":["<b>Stage 2</b> หายเองจาก epithelialization → <b>pressure offloading</b> (พลิกตัวทุก 2 ชม., ที่นอนลดแรงกด) + <b>moist dressing</b> (hydrocolloid, foam, film) + โภชนาการ + ดูแลความชื้น / ปัสสาวะอุจจาระ","<b>Stage 3–4</b> ที่ไม่หาย → debridement + flap reconstruction (padding bony prominence): sacral → gluteal rotation / advancement flap · ischial → hamstring / gluteal thigh flap · trochanteric → TFL flap","Hydrocolloid: ให้ความชื้น ดูดซับได้บ้าง ทิ้งไว้หลายวันได้ เหมาะกับแผลตื้น exudate น้อย (L05)"],"pearls":["Graft / flap สงวนไว้ให้ stage 3–4","ไฟล์ MDCU74 RoA เขียน 'damage to superficial veins' — หมายถึง partial-thickness skin loss (stage 2)"],"members":["MDCU74|RoA|ไม่มีเลข 4","MDCU74|RoC|27","MDCU70|RoA|58","MDCU72|RoB|26","MDCU69|RoC|X15"]},
+      {"id":"pressure-staging","title":"Pressure injury staging (NPIAP) และตำแหน่งตามท่า","asked":["แผลกดทับ sacrum full-thickness เห็นไขมัน ไม่เห็นกระดูก / เอ็น / กล้ามเนื้อ → <b>stage 3</b>","Full-thickness เห็นกระดูกที่ก้นแผล → <b>stage 4</b>","Partial-thickness เห็น dermis → <b>stage 2</b>","ผู้ป่วยนั่งรถเข็น pressure sore ตำแหน่งที่พบบ่อยที่สุด → <b>ischial tuberosity</b> (ตัวลวง greater trochanter, perineum, heel, occiput)"],"pattern":["<b>NPIAP (2016)</b>: Stage 1 ผิวไม่แตก แดงกดไม่ซีด · Stage 2 partial-thickness เห็น dermis (แผลตื้นชมพูชื้น / blister ใส) · Stage 3 full-thickness skin loss <b>เห็นไขมัน</b> (อาจมี slough, undermining) · Stage 4 full-thickness <b>เห็น fascia, muscle, tendon, ligament, cartilage หรือ bone</b> · Unstageable = slough / eschar ปิดจนดูฐานไม่ได้ · Deep tissue pressure injury = ม่วงแดงเข้มกดไม่ซีด","<b>ตำแหน่งตามท่า</b>: นั่ง (wheelchair) → ischial tuberosity · นอนหงาย → sacrum, heel, occiput · นอนตะแคง → greater trochanter"],"pearls":["ลายมือคีย์เก่าบางรุ่นเขียน 'III = muscle' — NPIAP: stage 3 = เห็นไขมัน · เห็นกล้ามเนื้อ / กระดูก = stage 4"],"members":["MDCU78|RoC|6","MDCU74|RoD|9","MDCU72|RoD|ไม่มีเลข 4","MDCU66|RoC|9"]}
+    ]},
+    {title:"ก้อนผิวหนัง / ใต้ผิวหนัง และ sinus", sections:[
+      {"id":"subcut-cyst","title":"Epidermal cyst / lipoma: excision ทั้งถุงเมื่อมีอาการ · observe เมื่อเล็กไม่มีอาการ","asked":["ก้อนที่แขนโตช้าหลายปี เพิ่งเจ็บ firm mobile ไม่ fluctuant ไม่แดงร้อน → <b>complete excision with capsule</b> (ตัวลวง I&D, needle aspiration, oral ATB 7 วัน, observe)","ก้อนหลังคอมี punctum ติดผิว อักเสบ 2 ครั้งในปีที่ผ่านมา ตอนนี้สงบ → <b>excisional biopsy</b> (ตัวลวง incisional biopsy, I&D, oral ATB; คีย์ยอมรับ advice ด้วย)","Epidermal cyst 1 cm ที่หลัง → <b>advice and observe</b> (ตัวลวง punch / incisional / excisional biopsy, I&D)","Lipoma 4 cm หลังคอ นิ่ม ไม่มีอาการ แต่กังวลความสวยอยากเอาออก → <b>surgical excision</b> (ตัวลวง I&D, RT, wide excision 2 cm, intralesional steroid)"],"pattern":["<b>Epidermal inclusion cyst</b>: ก้อนติดผิว มี <b>punctum</b> ขยับไปกับผิว · เล็กไม่มีอาการ → reassure / observe · มีอาการ (อักเสบซ้ำ โต รบกวนความสวย) → <b>complete excision รวม cyst wall + punctum</b> ช่วงไม่อักเสบ (ส่งพยาธิ = excisional biopsy) · เหลือผนัง → recur","<b>Fluctuant + แดงร้อน (infected cyst)</b> → I&D ก่อน แล้วตัดผนังภายหลัง · ยาปฏิชีวนะใน abscess เฉพาะมี cellulitis / SIRS / ภูมิต่ำ (IDSA 2014)","<b>Lipoma</b>: นิ่ม mobile โตช้า → excision เมื่อผู้ป่วยต้องการหรือมีอาการ · <b>red flags sarcoma</b> (> 5 cm, ลึกใต้ deep fascia, โตเร็ว, แข็งติดแน่น, recur) → MRI แล้ว core needle biopsy ห้าม shell-out"],"pearls":["'เพิ่งเจ็บ' ไม่เท่ากับติดเชื้อ — ตัดสินด้วย fluctuation + signs of inflammation","Wide excision 2 cm เป็น margin ของ melanoma ไม่ใช่ lipoma","คีย์ MDCU77 RoA ตอบได้ทั้ง advice และ excision (ต้นฉบับไม่บอกอาการ) — bank เติมว่าอักเสบซ้ำจึงตอบ excision"],"members":["MDCU79|RoC|Plastic 3","MDCU77|RoA|Plastic 7","MDCU67|RoD|39","MDCU78|RoB|47"]},
+      {"id":"preauricular-sinus","title":"Preauricular sinus ติดเชื้อซ้ำ → complete excision ของ sinus tract ตอนไม่อักเสบ","asked":["เด็กมีรูหน้าหูตั้งแต่เกิด อักเสบ / มีหนองซ้ำ 2–3 ครั้ง ตอนนี้สงบ → <b>complete surgical excision of the sinus tract</b> (ตัวลวง I&D, long-term prophylactic ATB, sclerotherapy, observe)"],"pattern":["Congenital จากการเชื่อมกันไม่สมบูรณ์ของ hillocks of His (1st / 2nd branchial arch) · ไม่มีอาการ → ไม่ต้องทำอะไร","ติดเชื้อซ้ำ → รักษาการติดเชื้อให้สงบ (ATB ± aspiration / I&D ถ้าเป็นฝี) แล้ว <b>complete excision ของ tract ทั้งหมด</b> (รวม cartilage ส่วนที่ติด, supra-auricular approach ลด recurrence)","มีความผิดปกติอื่นร่วม (หูผิดรูป ประวัติครอบครัว) → ตรวจการได้ยินและไต (branchio-oto-renal syndrome)"],"members":["MDCU78|RoB|50","MDCU74|RoC|6"]},
+      {"id":"dermoid-cyst","title":"External angular dermoid cyst (ก้อนหางคิ้วในทารก)","asked":["ทารก 3 เดือน ก้อนแข็งไม่เจ็บใต้หางคิ้วซ้าย ติดโครงสร้างลึก → <b>dermoid cyst</b> (ตัวลวง lipoma, osteoma, pilomatrixoma, hemangioma)"],"pattern":["Dermoid cyst เกิดตามแนว embryonic fusion line — ตำแหน่งพบบ่อยสุด <b>lateral eyebrow (frontozygomatic suture)</b>: ก้อนแข็งยาง ไม่เจ็บ ติด periosteum ผิวเลื่อนได้ มีตั้งแต่ทารก → complete excision","<b>Midline dermoid</b> (สันจมูกมี pit / ขน, glabella) → CT / MRI หา intracranial extension ก่อนผ่าตัด และแยกจาก encephalocele / nasal glioma","Pilomatrixoma: ก้อนแข็งเป็นเหลี่ยม (calcified) ติดผิว สีอมฟ้า ในเด็ก"],"members":["MDCU68|RoB|46"]}
+    ]},
+    {title:"Skin infection และ HPV", sections:[
+      {"id":"folliculitis","title":"Folliculitis (ตุ่มหนองเล็กที่รูขุมขน) → topical antibiotic","asked":["ภาพตุ่มหนองเล็กหลายตุ่มที่รูขุมขนบริเวณคาง / หน้า / ผิวหนัง → <b>folliculitis</b> (ตัวลวง furuncle, carbuncle, cellulitis, necrotizing fasciitis, impetigo, erysipelas)","หญิงแข็งแรง รอยโรคเจ็บที่รักแร้ขวา (folliculitis) → <b>topical antibiotics</b> (ตัวลวง cold compress + NSAID, wide excision, I&D, oral antibiotics)"],"pattern":["<b>Folliculitis</b> = ติดเชื้อตื้นของ hair follicle (<i>S. aureus</i> บ่อยสุด) → ตุ่มหนองเล็กหลายตุ่มมีขนตรงกลาง · <b>furuncle</b> = ฝีของ follicle เดียว · <b>carbuncle</b> = furuncle หลายอันรวมกันมีหลายหัว · cellulitis = แดงกระจายขอบไม่ชัด · erysipelas = ขอบชัดนูน · impetigo = สะเก็ดสีน้ำผึ้ง","Folliculitis ไม่มาก → <b>topical</b> mupirocin / fusidic acid / clindamycin + สุขอนามัย หยุดโกน · กว้าง เป็นซ้ำ หรือ furuncle / carbuncle + cellulitis → oral antibiotic · fluctuant → I&D"],"pearls":["คีย์ MDCU77 RoB เขียน 'D?' — ถ้าโจทย์บรรยายว่ากว้าง / เป็นซ้ำจะตอบ oral ATB","รอยโรครักแร้ที่เป็นซ้ำเรื้อรังมี sinus tract → hidradenitis suppurativa ไม่ใช่ folliculitis"],"members":["MDCU77|RoB|Plastic 11","MDCU67|RoA|35","MDCU67|RoC|33","MDCU66|RoD|39"]},
+      {"id":"hidradenitis","title":"Hidradenitis suppurativa: ลักษณะที่ 'ไม่ใช่'","asked":["ข้อใดไม่ใช่ลักษณะ HS → <b>ผื่นแดงนูนมีขุยที่เข่า ศอก หนังศีรษะ (psoriasis)</b> (ที่ใช่: ปวดมาก, nodule อักเสบในบริเวณ apocrine, หนองกลิ่นเหม็น, เรื้อรังกลับเป็นซ้ำ)"],"pattern":["HS = chronic relapsing inflammation ของ folliculopilosebaceous unit ในบริเวณ apocrine / ข้อพับ (รักแร้ ขาหนีบ perineum ใต้ราวนม) → painful nodule, abscess, <b>sinus tract</b>, หนองกลิ่นเหม็น, double-ended comedone, scar","Hurley staging: I = abscess ไม่มี sinus / scar · II = เป็นซ้ำ มี sinus tract แยกกัน · III = sinus tract เชื่อมกันทั่วบริเวณ → wide excision ± graft / flap","Red scaly plaque บน extensor (เข่า ศอก หนังศีรษะ) = psoriasis"],"members":["MDCU69|RoA|90"]},
+      {"id":"anogenital-warts","title":"Anogenital warts (condyloma acuminata) → imiquimod","asked":["ชาย 40 ปี MSM รอยโรคหูดตามภาพ → <b>imiquimod 5% cream</b> (ตัวลวง wide excision, systemic anti-HPV drug, oral acyclovir, IM benzathine penicillin)"],"pattern":["<b>CDC STI Treatment Guidelines 2021</b>: patient-applied — imiquimod 3.75% / 5% cream, podofilox 0.5%, sinecatechins 15% · provider-administered — cryotherapy, surgical removal (tangential scissor / shave excision, curettage, electrosurgery), TCA / BCA 80–90%","<b>ไม่มียาต้าน HPV แบบ systemic</b> · wide excision ไม่จำเป็น","ใน MSM ตรวจ anal canal (anoscopy) และคัดกรอง HIV, syphilis · แยกจาก <b>condyloma lata</b> (secondary syphilis: แบนเรียบชื้น → benzathine penicillin)"],"members":["MDCU79|RoD|Plastic 10"]}
+    ]},
+    {title:"Vascular anomaly: hemangioma vs malformation", sections:[
+      {"id":"hemangioma-vs-malformation","title":"Infantile hemangioma vs vascular malformation","asked":["ทารก 3 เดือน hemangioma 1 cm ที่แก้มห่างตา จมูก ปาก ไม่มีแผล → <b>observe and reassure</b> (ตัวลวง pulsed dye laser, embolization, surgical excision, radiotherapy)","เด็ก 1 ปี รอยแดงที่ท้อง เริ่มเห็นตอน 2 สัปดาห์เป็นจุด 1 mm → <b>advice and follow-up</b> (ตัวลวง wide excision, oral propranolol, PDL, embolization)","รอยแดงเกิดหลังคลอดแล้วโต ตอนนี้ 3 ขวบคงที่ → <b>infantile hemangioma</b> (ตัวลวง venous malformation, AVM, lymphatic malformation, pyogenic granuloma)","รอยแดงมีตั้งแต่เกิด โตช้า 3 ขวบยังไม่ยุบ ไม่ pulsatile → <b>capillary-venous malformation</b> (ตัวลวง infantile hemangioma, AVM, lymphatic malformation, pyogenic granuloma)"],"pattern":["<b>Infantile hemangioma</b> = vascular tumor (<b>GLUT-1 +</b>) มักไม่เห็นหรือเป็นจุดเล็กตอนเกิด → โตเร็ว 1–3 เดือนแรก การโตส่วนใหญ่จบราว 5 เดือน → involute ช้า ๆ ส่วนใหญ่ยุบเสร็จราวอายุ 4 ปี","<b>AAP 2019</b>: low-risk (เล็ก ลำตัว / แก้มไม่ใกล้อวัยวะสำคัญ ไม่มีแผล) → <b>active observation + reassurance</b> ถ่ายรูปเทียบ · high-risk (periocular, airway / beard distribution, ulceration, ปลายจมูก / ริมฝีปาก, ใหญ่บนใบหน้า, segmental → PHACE, lumbosacral → LUMBAR, ≥ 5 ก้อน → ตรวจตับ) → <b>oral propranolol 2–3 mg/kg/day</b> และส่งต่อเร็ว","<b>Vascular malformation (ISSVA)</b> = มีตั้งแต่เกิด <b>โตตามตัว ไม่ยุบเอง</b> · low-flow (capillary, venous, lymphatic) ไม่ pulsatile · high-flow (AVM) pulsatile / thrill · venous / lymphatic → sclerotherapy · AVM → embolization ± excision · capillary (port-wine stain) → pulsed dye laser"],"pearls":["'โตเร็ว' ช่วงไม่กี่เดือนแรกเป็น natural history ไม่ใช่ข้อบ่งชี้รักษา — ตัดสินจากตำแหน่ง ขนาด แผล และ function","คำสำคัญ: 'เกิดหลังคลอด / ยุบได้' = hemangioma · 'มีตั้งแต่เกิด ไม่ยุบ โตตามตัว' = malformation (คีย์ MDCU66 RoD กับ MDCU67 RoC ตอบต่างกันตามคำนี้)","MDCU79 RoC ต้นฉบับไม่บอกขนาด / ตำแหน่ง — ถ้าเป็น high-risk คำตอบคือ propranolol"],"members":["MDCU79|RoC|Plastic 2","MDCU77|RoA|Plastic 8","MDCU66|RoD|2","MDCU67|RoC|31"]},
+      {"id":"sturge-weber","title":"Port-wine stain + ชัก → Sturge–Weber syndrome","asked":["ปานแดงที่หน้าตั้งแต่เกิด โตตามตัว + focal seizure → <b>Sturge–Weber syndrome</b> (ตัวลวง infantile hemangioma, PHACE, Klippel–Trenaunay, NF1)"],"pattern":["Sturge–Weber (somatic <i>GNAQ</i>): facial <b>capillary malformation (port-wine stain) บริเวณ V1</b> + leptomeningeal angiomatosis ข้างเดียวกัน (ชัก, hemiparesis, พัฒนาการช้า, tram-track calcification) + glaucoma","Port-wine stain ที่ V1 → ตรวจ IOP + MRI brain with contrast · Rx: pulsed dye laser, ยากันชัก, รักษา glaucoma","แยก: PHACE = segmental infantile hemangioma + posterior fossa / arterial / cardiac / eye anomalies · Klippel–Trenaunay = capillary-venous-lymphatic malformation + limb overgrowth"],"pearls":["ปานแดงตั้งแต่เกิดโตตามตัว = vascular malformation ไม่ใช่ hemangioma"],"members":["MDCU78|RoB|42"]}
+    ]},
+    {title:"Scar: keloid และ hypertrophic scar", sections:[
+      {"id":"scar-keloid","title":"Keloid vs hypertrophic scar: วินิจฉัย ป้องกัน และรักษา","asked":["เจาะหู 3 ปี ก้อนหลังติ่งหูโตเลยขอบแผลเดิม → <b>keloid</b> (ตัวลวง hypertrophic scar, chronic abscess, epidermoid cyst, pyogenic granuloma)","มี keloid ที่แขน อยากเจาะหู → first-line prevention = <b>silicone gel</b> (ตัวลวง prophylactic RT, pressure therapy, immediate intralesional steroid, TCA)","2 เดือนหลังผ่าตัดไส้ติ่ง แผลคันนูนเป็นปุ่มอยู่ในขอบแผล → <b>silicone scar gel</b> (ตัวลวง observe, Hirudoid cream, steroid injection, sclerosing agent, scar revision)"],"pattern":["<b>Hypertrophic scar</b>: นูนแต่อยู่ในขอบแผลเดิม เกิดในไม่กี่สัปดาห์ ยุบลงได้เองบางส่วนใน 1–2 ปี · <b>Keloid</b>: ลามเกินขอบแผลเดิม ไม่ยุบ ตำแหน่งคลาสสิก ติ่งหู อก ไหล่ sternum","<b>Prevention และ first-line ของ hypertrophic scar</b>: <b>silicone gel / sheet</b> เริ่มเมื่อแผลปิด (~2 สัปดาห์) ใช้ ≥ 12 ชม./วัน 2–3 เดือนขึ้นไป ± pressure (pressure earring) (International Clinical Recommendations on Scar Management)","<b>Keloid ที่เกิดแล้ว</b>: intralesional triamcinolone เป็น first-line · ตัดอย่างเดียว recur สูง (> 50%) → ตัดแล้วตามด้วย steroid / radiotherapy / pressure","Scar revision รอ scar mature (~12–18 เดือน)"],"pearls":["สับสน 'ป้องกัน' (silicone) กับ 'รักษา keloid ที่เป็นแล้ว' (intralesional steroid)","ลายมือคีย์ MDCU67 RoC: steroid injection สำหรับ keloid ส่วน hypertrophic scar ใหม่ใช้ silicone"],"members":["MDCU79|RoD|Plastic 2","MDCU76|RoD|32","MDCU67|RoA|34","MDCU67|RoC|34"]}
+    ]},
+    {title:"อื่น ๆ (ติดแท็ก Plastic แต่เป็นเรื่องอื่น)", sections:[
+      {"id":"cea-crc","title":"Serum CEA ใน colorectal cancer","asked":["ข้อใดผิดเรื่อง serum CEA ใน colorectal cancer → <b>ใช้ screening และวินิจฉัย</b> (ข้อความที่ถูก: สูงเล็กน้อยได้ใน benign condition, ใช้ surveillance หลัง curative resection, สูงก่อนผ่าตัด = prognosis แย่, สูงได้ในคนสูบบุหรี่)"],"pattern":["CEA sensitivity / specificity ต่ำ → <b>ไม่ใช้ screening หรือวินิจฉัย</b> (วินิจฉัยด้วย colonoscopy + biopsy)","ใช้: baseline ก่อนผ่าตัด (สูง = prognosis แย่ ควรกลับปกติภายใน 4–6 สัปดาห์หลัง curative resection) และ <b>surveillance</b> หลังผ่าตัด stage II–III ทุก 3–6 เดือนใน 2 ปีแรก แล้วทุก 6 เดือนจนครบ 5 ปี (NCCN)","สูงได้ใน: สูบบุหรี่, IBD, pancreatitis, hepatitis, cirrhosis และมะเร็งอื่น"],"pearls":["เรื่องนี้เป็น Colorectal / Onco — ติดแท็ก Plastic มาจากไฟล์ต้นฉบับ"],"members":["MDCU72|RoA|86@p4"]}
+    ]}
+  ]});

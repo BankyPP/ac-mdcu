@@ -109,6 +109,8 @@ Co({page:258,sec:"OSCE",orig:"4",topic:"pe",sub:"DRE/Prostate",ex:1,title:"Physi
 /* ===== OSCE 5 ===== */
 Co({page:258,sec:"OSCE",orig:"5",topic:"proc",sub:"Suture & knot",ex:1,proc:1,title:"Procedure — local anesthesia and wound closure, then advise the patient",seen:"คล้าย MDCU65 RoB OSCE 10 (vertical mattress 2 stitches) และ MDCU65 RoA OSCE 12",
  stem:`A laceration on a skin pad/manikin needs to be closed. The examiner is observing.<br>1. Infiltrate local anesthesia.<br>2. Close the wound with vertical mattress sutures.<br>3. Give the patient advice on wound care.`,
+ opinion:"ไม่มีเฉลยในไฟล์ (เราเฉลยเอง) รายละเอียดแผลและอุปกรณ์เราเติม — มั่นใจ<b>สูง</b><br>ผู้คุมดู: ถามแพ้ยาชา, คำนวณขนาดสูงสุดของ lidocaine (ราว 4.5 mg/kg ถ้าไม่ผสม adrenaline, 7 mg/kg ถ้าผสม), aspirate ก่อนฉีด, ฉีดผ่านขอบแผลด้านใน, รอยาออกฤทธิ์และทดสอบก่อนเย็บ แล้วเย็บ vertical mattress ให้ขอบ evert · คำแนะนำที่คนมักลืม: <b>tetanus prophylaxis</b> ตามประวัติวัคซีน, อาการติดเชื้อที่ต้องกลับมาก่อนนัด และวันตัดไหมตามตำแหน่งแผล (หน้าเร็วสุด ขา/ข้อต่อช้าสุด) · ตรวจคีย์ (22 พ.ย. 2026): วันตัดไหมลำตัว: AAFP 2017 = 10–14 วัน (ตำราเดิม/ตำราไทยหลายเล่ม 7–10 วัน) — ในข้อสอบเขียนเป็นช่วงตามตำแหน่งและระบุแหล่งได้ทั้งสอง · ความมั่นใจสูง",
+ notes:"ตรวจคีย์ 22 พ.ย. 2026: เดิม นัดตัดไหม ‘ลำตัว/แขน 7–10, ขา 10–14, ข้อต่อ/ฝ่ามือฝ่าเท้า 14’ → แก้เป็น ลำตัว 10–14 วัน (เขียนคู่กับตำราเดิม 7–10) ตาม AAFP 2017 (Laceration Repair, Am Fam Physician 2017;95:628 Table 5: หน้า 3–5, หนังศีรษะ 7–10, แขน 7–10, ลำตัว 10–14, ขา 10–14, มือ/เท้า 10–14, ฝ่ามือ/ฝ่าเท้า 14–21 วัน — expert opinion)",
  gray:"5. ฉีดยาชา + เย็บ vertical mattress แล้วก้ให้คำแนะนำคนไข้",
  sp:"(Claude เติม) หุ่นแผ่นหนังมีแผลฉีกขาดตรงยาว ~3 cm · อุปกรณ์: ถุงมือ sterile, ชุดเย็บแผล (needle holder, toothed forceps, scissors), 1% lidocaine, syringe + เข็ม 25–27G, ไหม nylon 4-0, น้ำยาทำความสะอาด, gauze · อาจารย์เล่นเป็นผู้ป่วยเมื่อให้คำแนะนำ (ถามว่าตัดไหมเมื่อไร อาบน้ำได้ไหม)",
  flag:"รายละเอียดแผล/อุปกรณ์ Claude เติม (ไฟล์จดแค่ 'ฉีดยาชา + เย็บ vertical mattress + ให้คำแนะนำ')",
@@ -122,13 +124,13 @@ Co({page:258,sec:"OSCE",orig:"5",topic:"proc",sub:"Suture & knot",ex:1,proc:1,ti
     H("Vertical mattress",40),CR(P("Far-far then near-near","far","near","ไกล","ใกล้")),P("ขอบแผลปลิ้นออก (eversion) ปมข้างแผล","evert","ปลิ้น","ปม","knot"),P("Square knot 3 throws ไม่แน่นเกิน","square","3 throw","สามปม","แน่น"),
     H("หลังทำ",10),P("ทิ้งเข็มใน sharps container","sharp","ภาชนะ","ทิ้งเข็ม")]}),
   B("5.2 Give the patient advice on wound care.",3,{tags:["proc"],
-   ans:"<b>ดูแลแผล</b>: ให้แผลแห้ง 24–48 ชม. หลังจากนั้นอาบน้ำได้ ซับให้แห้ง (ไม่แช่น้ำ) · ทำแผลวันละครั้ง/เมื่อเปียก · <b>อาการต้องกลับมาก่อนนัด</b>: ปวดมากขึ้น บวมแดงร้อน มีหนอง มีไข้ แผลแยก เลือดออก · <b>นัดตัดไหม</b>: หน้า 3–5 วัน, หนังศีรษะ 7–10 วัน, ลำตัว/แขน 7–10 วัน, ขา 10–14 วัน, ข้อต่อ/ฝ่ามือฝ่าเท้า 14 วัน · ยาแก้ปวด (paracetamol) · ประเมิน <b>tetanus prophylaxis</b> ตามประวัติวัคซีน · หลีกเลี่ยงการใช้แรง/ยืดบริเวณแผล",
+   ans:"<b>ดูแลแผล</b>: ให้แผลแห้ง 24–48 ชม. หลังจากนั้นอาบน้ำได้ ซับให้แห้ง (ไม่แช่น้ำ) · ทำแผลวันละครั้ง/เมื่อเปียก · <b>อาการต้องกลับมาก่อนนัด</b>: ปวดมากขึ้น บวมแดงร้อน มีหนอง มีไข้ แผลแยก เลือดออก · <b>นัดตัดไหม</b>: หน้า 3–5 วัน, หนังศีรษะ 7–10 วัน, แขน 7–10 วัน, <b>ลำตัว 10–14 วัน</b> (AAFP 2017; ตำราเดิม 7–10), ขา/มือ/เท้า 10–14 วัน, ข้อต่อ 14 วัน, ฝ่ามือฝ่าเท้า 14–21 วัน · ยาแก้ปวด (paracetamol) · ประเมิน <b>tetanus prophylaxis</b> ตามประวัติวัคซีน · หลีกเลี่ยงการใช้แรง/ยืดบริเวณแผล",
    exp:"Tetanus: แผลสะอาดเล็กให้ Td ถ้าได้วัคซีนเข็มสุดท้าย >10 ปีหรือไม่ครบ 3 เข็ม · แผลสกปรก: >5 ปีให้ Td และถ้าไม่ครบ 3 เข็มให้ TIG ด้วย",
    rubric:"ได้ = ดูแลแผล + อาการติดเชื้อที่ต้องกลับมา + นัดตัดไหมตามตำแหน่ง + tetanus",
    pts:[P("ให้แผลแห้ง 24–48 ชม. ทำแผล","แห้ง","dry","24","48","ทำแผล"),CR(P("อาการติดเชื้อที่ต้องกลับมา (บวมแดง หนอง ไข้)","ติดเชื้อ","infect","หนอง","pus","ไข้","fever","บวม","แดง")),P("นัดตัดไหมตามตำแหน่ง","ตัดไหม","suture removal","remove"),P("Tetanus prophylaxis","tetanus","บาดทะยัก","\\btd\\b")]})
  ),
  interp:"หัตถการฉีดยาชา + เย็บ vertical mattress ครบขั้นตอน และให้คำแนะนำหลังเย็บแผลที่ผู้ป่วยนำไปใช้ได้",
- summary:["Lidocaine 1% max ~4.5 mg/kg (+adrenaline ~7) · aspirate ก่อนฉีด · ฉีดผ่านขอบแผล","Vertical mattress = far-far near-near → eversion","คำแนะนำ: แห้ง 24–48 ชม., อาการติดเชื้อ, นัดตัดไหม, tetanus","ตัดไหม: หน้า 3–5 · หัว/ลำตัว/แขน 7–10 · ขา 10–14 · ข้อต่อ 14 วัน"]}),
+ summary:["Lidocaine 1% max ~4.5 mg/kg (+adrenaline ~7) · aspirate ก่อนฉีด · ฉีดผ่านขอบแผล","Vertical mattress = far-far near-near → eversion","คำแนะนำ: แห้ง 24–48 ชม., อาการติดเชื้อ, นัดตัดไหม, tetanus","ตัดไหม: หน้า 3–5 · หัว/แขน 7–10 · ลำตัว 10–14 (AAFP 2017; ตำราเดิม 7–10) · ขา 10–14 · ข้อต่อ 14 · ฝ่ามือฝ่าเท้า 14–21 วัน"]}),
 
 /* ===== OSCE 6 ===== */
 Co({page:258,sec:"OSCE",orig:"6",topic:"hx",sub:"Jaundice",ex:1,title:"History taking — a patient presenting with yellow skin",

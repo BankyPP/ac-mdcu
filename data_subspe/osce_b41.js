@@ -109,7 +109,7 @@ Co({page:61,orig:"8",topic:"path",sub:"Breast cancer staging",title:"Breast path
  flag:NOIMG,imgAlt:"ใบผลพยาธิวิทยาเต้านม (ไม่ได้นำมาลงเพราะเป็นรายงานผู้ป่วย)",
  notes:"แนวคำตอบในไฟล์: อ่านตอนสรุป · 2 ก้อน · LN 1/13 · ไม่ทราบ metastasis · ใบผลในไฟล์ไม่นำมาลง",opinion:"ความมั่นใจปานกลาง",
  parts:S(
-  BS("8.1 Staging.",5,{tags:["path"],ans:"อ่าน synoptic/summary · <b>หลายก้อน → ใช้ขนาดก้อนใหญ่สุดเป็น T + ใส่ (m)</b> เช่น pT2(m) · <b>LN 1/13 positive → pN1a</b> · M: ไม่มีข้อมูล → <b>cM0/Mx</b> (ต้อง staging) · รวม เช่น pT2(m)N1aM0 = stage IIB",rubric:"1/ประเด็น",pts:[CR(P("T by largest tumor with (m)","largest","(m)","multifocal","t2","t1")),CR(P("pN1a for 1 node","n1")),P("M0/Mx needs staging","m0","mx","staging"),P("Stage grouping","stage")]})
+  BS("8.1 Staging.",5,{tags:["path"],ans:"อ่าน synoptic/summary · <b>หลายก้อน → ใช้ขนาดก้อนใหญ่สุดเป็น T + ใส่ (m)</b> เช่น pT2(m) · <b>LN 1/13 positive → pN1a</b> · M: ไม่มีข้อมูล → <b>cM0</b> (AJCC 8th ไม่มี MX — ถ้ายังไม่ได้ทำ staging ให้เขียน cM0 แล้วส่ง staging) · รวม เช่น pT2(m)N1aM0 = stage IIB",rubric:"1/ประเด็น",pts:[CR(P("T by largest tumor with (m)","largest","(m)","multifocal","t2","t1")),CR(P("pN1a for 1 node","n1")),P("cM0 (no MX in AJCC 8th) + staging","m0","staging"),P("Stage grouping","stage")]})
  ),
  interp:"pTNM",
  summary:["Multifocal: largest tumor + (m)","1–3 nodes = pN1a","M needs clinical staging"]}),

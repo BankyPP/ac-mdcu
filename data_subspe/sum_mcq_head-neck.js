@@ -1,142 +1,151 @@
-SUMM.push({
- "tag": "Head & neck",
- "title": "Head & neck",
- "intro": "<ul><li>MDCU79 RoC 2 ข้อย่อย ทั้งคู่ถาม <b>Dx ของก้อน</b>: ก้อน parotid จาก histology (pleomorphic adenoma) และก้อนคอทารกแรกเกิดจากภาพ (cystic hygroma)</li><li>ต้องแยกก้อนด้วยตำแหน่ง (parotid / midline / lateral neck), อายุที่พบ, ลักษณะ (cystic vs solid) และคำสำคัญทาง histology</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: pleomorphic adenoma ซ้ำ, cystic hygroma ซ้ำ และแผลแก้มกับ facial nerve</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: Stensen duct injury, thyroglossal duct cyst (Sistrunk, US ก่อนผ่าตัด), branchial cleft cyst, torticollis, preauricular sinus</li></ul>",
- "groups": [
-  {
-   "title": "Salivary gland",
-   "sections": [
-    {
-     "id": "pleomorphic-adenoma",
-     "title": "Pleomorphic adenoma ของ parotid",
-     "asked": [
-      "ก้อนเดี่ยวไม่เจ็บหน้าใบหู histology ductal + myoepithelial ใน chondromyxoid stroma → Dx",
-      "หญิงก้อนหน้าหู firm mobile ไม่มีอาการ → Dx (79D)"
-     ],
-     "pattern": [
-      "<b>Chondromyxoid stroma + epithelial + myoepithelial</b> = pleomorphic adenoma (benign salivary tumor ที่พบบ่อยสุด)",
-      "Pseudopod → <b>superficial / partial parotidectomy</b> เก็บ facial nerve ห้าม enucleate; ทิ้งไว้ → carcinoma ex pleomorphic adenoma",
-      "Warthin = lymphoid stroma; mucoepidermoid = มะเร็งที่พบบ่อยสุด; adenoid cystic = perineural invasion",
-      "US ± FNA ไม่ทำ open biopsy; facial palsy / ติดแน่น / LN โต = สงสัยมะเร็ง",
-      "หลังผ่าตัด: Frey syndrome, facial nerve weakness, ชาใบหู",
-      "Pleomorphic adenoma = บ่อยสุด → superficial parotidectomy · Warthin = ชายสูงอายุสูบบุหรี่ bilateral · facial palsy/ปวด = มะเร็ง"
-     ],
-     "pearls": [
-      "สลับ tumor ที่พบบ่อยสุด (pleomorphic) กับมะเร็งที่พบบ่อยสุด (mucoepidermoid)"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 8",
-      "MDCU79|RoD|Plastic 11"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "ก้อนที่คอในเด็ก",
-   "sections": [
-    {
-     "id": "cystic-hygroma",
-     "title": "Cystic hygroma (macrocystic lymphatic malformation)",
-     "asked": [
-      "ทารกแรกเกิดก้อนใหญ่ นุ่ม กดยุบ ข้างคอซ้ายลามไหล่ (ภาพ) → Dx",
-      "ก้อนคอด้านข้างทารก cystic → Dx (79D)"
-     ],
-     "pattern": [
-      "Posterior triangle ~75%, หลายช่อง transilluminate, ตั้งแต่เกิด / ก่อน 2 ขวบ",
-      "Airway compression (EXIT), ติดเชื้อ, เลือดออกในก้อน",
-      "US / MRI ไม่ต้อง biopsy; macrocystic → <b>sclerotherapy</b> (OK-432, doxycycline, bleomycin) หรือผ่าตัด; microcystic → sirolimus",
-      "Midline: thyroglossal duct cyst (Sistrunk), dermoid; lateral: branchial cleft (2nd ผ่านระหว่าง ICA / ECA), SCM tumor"
-     ],
-     "pearls": [
-      "branchial cyst มักไม่ใหญ่และไม่ปรากฏตั้งแต่เกิด"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 4",
-      "MDCU79|RoD|Ped 13"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Facial soft tissue injury",
-   "sections": [
-    {
-     "id": "facial-nerve-cheek",
-     "title": "แผลแก้มยาว: facial nerve branches vs eyelid ptosis",
-     "asked": [
-      "แผลฟันจากขมับถึงคาง → อาการที่ไม่น่าพบ",
-      "แผลแก้มแนว tragus → mid upper lip → Stensen duct (78B คีย์ E; 78D ตรง AC)"
-     ],
-     "pattern": [
-      "Temporal → brow ptosis · zygomatic → lagophthalmos · buccal/marginal → drooling · parotid → sialocele · upper eyelid ptosis = CN III/sympathetic",
-      "Stensen duct + buccal branch อยู่แนวเดียวกัน (กึ่งกลางของ tragus → mid upper lip)"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 7",
-      "MDCU78|RoB|4",
-      "MDCU78|RoD|61"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "ก้อนที่คอในเด็ก (78)",
-   "sections": [
-    {
-     "id": "tgdc",
-     "title": "Thyroglossal duct cyst: ขยับตามแลบลิ้น → US คอก่อน → Sistrunk",
-     "asked": [
-      "ก้อนกลางคอขยับตามแลบลิ้น → management (78B: Sistrunk)",
-      "Central neck mass moving with deglutition → next (78D: neck US)"
-     ],
-     "pattern": [
-      "US ยืนยันต่อมไทรอยด์ปกติก่อนผ่าตัด · Sistrunk = cyst + mid hyoid + tract ถึง foramen cecum"
-     ],
-     "members": [
-      "MDCU78|RoB|35",
-      "MDCU78|RoD|5"
-     ]
-    },
-    {
-     "id": "branchial-cleft",
-     "title": "Second branchial cleft cyst: ขอบหน้า SCM",
-     "asked": [
-      "รูปก้อนข้างคอ 1A/1B → 1st vs 2nd branchial cleft vs TGDC (78D)"
-     ],
-     "pattern": [
-      "2nd (บ่อยสุด): ขอบหน้า SCM, tract ระหว่าง ICA–ECA → tonsillar fossa · 1st: ใกล้หู/parotid"
-     ],
-     "members": [
-      "MDCU78|RoD|6"
-     ]
-    },
-    {
-     "id": "torticollis-hn",
-     "title": "Congenital muscular torticollis",
-     "asked": [
-      "ทารก 3 เดือนเอียงคอ (รูปนี้เป๊ะ ๆ) (78B)"
-     ],
-     "pattern": [
-      "SCM fibrosis → เอียงไปข้างเดียวกัน คางหันฝั่งตรงข้าม · physiotherapy first-line · ตรวจ DDH"
-     ],
-     "members": [
-      "MDCU78|RoB|36"
-     ]
-    },
-    {
-     "id": "preauricular",
-     "title": "Preauricular sinus ติดเชื้อซ้ำ → excision ตอนหายอักเสบ",
-     "asked": [
-      "รูหน้าหู บวมเจ็บ 2 ครั้ง → management (78B)"
-     ],
-     "pattern": [
-      "Complete excision ของ tract (supra-auricular approach) ตอน quiescent · BOR syndrome → hearing + renal US"
-     ],
-     "members": [
-      "MDCU78|RoB|50"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"Head & neck", title:"Head & neck",
+  intro:"<ul><li>Head &amp; neck ใน Subspe มาจาก Plastic + Ped surgery เป็นหลัก และส่วนใหญ่เป็น <b>spot diagnosis จากรูปหรือคำบรรยายสั้น</b> แล้วถาม Dx / โครงสร้างที่บาดเจ็บ / next step — ช้อยตัวลวงชุดเดิมวนซ้ำแทบทุกรุ่น</li><li>ออกซ้ำมากที่สุด: <b>ก้อนคอในเด็ก</b> แยกด้วยตำแหน่ง — midline ขยับตามแลบลิ้น = TGDC (Sistrunk, US ก่อนผ่า, ติดเชื้อทาง foramen cecum, มะเร็ง ~1%), ขอบหน้า SCM = 2nd branchial cleft (cyst vs sinus), posterior triangle ส่องไฟผ่าน = lymphatic malformation, ก้อนใน SCM ทารก = CMT (physiotherapy); และ <b>แผลกลางแก้ม → Stensen duct</b> ซึ่งถามซ้ำตั้งแต่ MDCU66 ถึง MDCU78</li><li>ช่องปาก: <b>แผลเจ็บขอบเรียบในคนหนุ่ม → observe 2–3 สัปดาห์</b> (MDCU66–72) เทียบกับแผลแข็งไม่เจ็บในผู้สูงอายุ = SCC — risk ตามตำแหน่ง (buccal = หมาก / ยาเส้น, ริมฝีปากล่าง = UV), workup = incisional biopsy + FNA ต่อมน้ำเหลือง, รักษา = primary surgery (คีย์เก่า MDCU77 ตอบ excisional biopsy และ RT ก่อนผ่า); MDCU67 ถามก้อนในปากเลือดออกมาก → angiogram</li><li>Salivary: <b>malignant parotid ที่พบบ่อยสุด = mucoepidermoid</b> ถามซ้ำ MDCU71–76; MDCU79 เปลี่ยนเป็น <b>pleomorphic adenoma</b> จาก histology และก้อนหน้าหู</li><li>MDCU70–73 เน้น <b>maxillofacial fracture</b> (เลือก plain film: Waters / Towne / panoramic, อาการ ZMC ที่ไม่มี malocclusion, เลือดออกจมูกปาก + hypotension → airway ก่อน); MDCU68–69 และ MDCU77 ถาม <b>intrathoracic goiter มี stridor → ผ่าตัด</b>; MDCU74–76 เพิ่ม <b>Treacher Collins (ตรวจการได้ยิน)</b>, craniosynostosis และ TB lymphadenitis</li></ul>",
+  groups:[
+    {title:"ก้อนที่คอในเด็ก", sections:[
+      {id:"branchial-cleft", title:"Branchial cleft anomaly: 2nd cleft cyst vs sinus และ 1st cleft",
+       trend:"ให้ตำแหน่งข้างคอ (ขอบหน้า SCM) หรือหน้าใบหู แล้วให้แยก cyst / sinus / ลำดับ cleft",
+       asked:["เด็กมีรูเปิดเล็กที่ผิวขอบหน้า SCM ส่วนล่าง มีเมือกไหลเป็นพัก ๆ (บางรุ่นให้รูปวงรอบรู) → <b>2nd branchial cleft sinus / anomaly</b> (ตัวลวง 1st, 3rd, 4th cleft, TGDC, 2nd cleft cyst)","เด็ก 10–12 ปี ก้อนนุ่มขอบหน้า SCM ช่วงรอยต่อ upper–middle third ใต้มุมขากรรไกร โตหรืออักเสบหลัง URI ไม่ขยับตามกลืน (ให้รูปหน้า-ข้าง) → <b>2nd branchial cleft cyst</b> (ตัวลวง 1st cleft, TGDC, cystic hygroma, dermoid, thymic cyst)","ทารก 3 เดือน ก้อนนุ่ม 4 cm หน้าใบหู ไม่เจ็บ ผิวปกติ → <b>1st branchial cleft cyst</b> (ตัวลวง parotid hemangioma, suppurative lymphadenitis, cystic hygroma, pleomorphic adenoma)","ข้อความที่ถูกเกี่ยวกับ 2nd branchial cleft cyst → <b>พบข้างซ้ายมากกว่าเล็กน้อย</b> (ตัวลวง M:F 2.5:1, bilateral 10%, sinus ในผู้ใหญ่ cyst ในเด็ก, ทิ้งไว้กลายเป็นมะเร็ง)"],
+       pattern:["<b>2nd cleft = ~90–95% ของ branchial anomaly</b>: cyst อยู่ขอบหน้า SCM ระดับ upper–middle third (ใต้ angle of mandible); sinus / fistula เปิดที่ผิวขอบหน้า SCM <b>ส่วนล่าง</b>","Tract ของ 2nd cleft ผ่าน <b>ระหว่าง internal และ external carotid</b> เหนือ CN XII → เปิดที่ <b>tonsillar fossa</b>","<b>Sinus / fistula</b> = มีรูเปิดที่ผิว ไหลเมือก พบตั้งแต่เด็ก; <b>cyst</b> = ก้อนไม่มีรู มักโผล่ในวัยรุ่น–ผู้ใหญ่ โตหรืออักเสบหลัง URI","ระบาดวิทยา: ไม่มี sex predilection (M = F); <b>ซ้าย > ขวาเล็กน้อย</b> ตามสไลด์ lecture ในคีย์ (series ต่าง ๆ รายงานข้างไม่ตรงกัน); bilateral: ~2% (สไลด์ lecture) / 2–3% (Medscape) แต่ StatPearls ระบุ 10% ของ branchial anomaly ทั้งหมด; มะเร็งที่เกิดจาก branchial cyst (branchiogenic carcinoma) พบน้อยมาก — คีย์ถือว่าไม่กลายเป็นมะเร็ง","<b>1st cleft</b>: ก้อน / รูบริเวณหน้า–ใต้ใบหู มุมขากรรไกร ซ้อนกับ parotid; tract สัมพันธ์ external auditory canal และ <b>facial nerve</b> (เสี่ยงบาดเจ็บตอนผ่า)","รักษา: antibiotics ช่วงอักเสบ แล้ว <b>complete excision ของ cyst + tract</b> (2nd cleft ตามขึ้นไปถึง tonsillar fossa)"],
+       pearls:["Cyst vs sinus อ่านจากโจทย์: มี <b>รูเปิด + discharge</b> = sinus; ก้อนไม่มีรู = cyst — MDCU76 RoD คีย์ขีดเส้นใต้คำว่า sinus","ก้อน cystic ข้างคอใน <b>ผู้ใหญ่ >40 ปี</b> ต้องแยก metastatic SCC (โดยเฉพาะ HPV oropharynx) และ papillary thyroid ca ก่อนสรุปว่าเป็น branchial cyst","ทารก 3 เดือนก้อนหน้าหู: infantile hemangioma ของ parotid ก็พบบ่อย (มักเห็นสีผิวแดง / อมฟ้า) — คีย์ MDCU68 RoC ตอบ 1st branchial cleft cyst เพราะผิวปกติ"],
+       members:["MDCU78|RoD|6","MDCU76|RoC|Plastic 8","MDCU76|RoD|47","MDCU74|RoC|10","MDCU68|RoB|47","MDCU68|RoC|56","MDCU67|RoA|7","MDCU66|RoA|X8"]},
+      {id:"tgdc", title:"Thyroglossal duct cyst",
+       trend:"ก้อน midline ขยับตามแลบลิ้น / กลืน แล้วสลับถาม Dx, การรักษา, investigation ก่อนผ่า, ทางติดเชื้อ หรือข้อความที่ผิด",
+       asked:["เด็ก 5 ปี ก้อนกลางคอไม่เจ็บ ขยับขึ้นตามแลบลิ้น → congenital neck mass ที่พบบ่อยที่สุดในเด็ก = <b>TGDC</b> (ตัวลวง dermoid, branchial cleft cyst, cystic hygroma, ranula)","ให้รูปก้อนกลางคอที่ขยับตามแลบลิ้น → Dx = TGDC (ตัวลวง dermoid, 2nd branchial, cystic hygroma, reactive node)","เด็ก 7 ปี ก้อน midline ขยับตามแลบลิ้นและกลืน → management = <b>Sistrunk procedure</b> (ตัวลวง simple cyst excision, thyroidectomy, antibiotics, observe)","เด็ก 6 ปี euthyroid ก้อนใต้ hyoid ขยับตามกลืนและแลบลิ้น → next step = <b>US คอ</b> (ตัวลวง thyroid scan, TFT, FNA, Sistrunk ทันที)","TGDC ติดเชื้อผ่านทางใด → <b>tract จาก foramen cecum ที่ติดต่อช่องปาก</b> (ตัวลวง piriform sinus, hematogenous จากฟัน / thyroid, external auditory canal, lymphatic จาก tonsil, parotid)","ก้อน midline 3 เดือน TFT และ thyroid scan ปกติ → ข้อความที่ผิด = <b>ไม่มีโอกาสเป็นมะเร็ง</b> (ที่ถูก: พยากรณ์หลังผ่าดี, Sistrunk, ติดเชื้อพบบ่อย, ไม่ตัด hyoid body แล้ว recur เพิ่ม)"],
+       pattern:["Thyroid เคลื่อนจาก <b>foramen cecum</b> ที่โคนลิ้นลงมาผ่านหน้า / ผ่าน hyoid → duct ที่ค้างอยู่ = TGDC: อยู่ midline ระดับหรือใต้ hyoid, ยึดกับ hyoid จึง <b>ขยับขึ้นเมื่อแลบลิ้นและกลืน</b>","<b>Congenital neck mass ที่พบบ่อยที่สุดในเด็ก</b> — ถ้าไม่ระบุ congenital ก้อนคอที่พบบ่อยสุดในเด็กคือ reactive lymph node","<b>ก่อนผ่าตัด: US คอ</b> ยืนยันลักษณะ cyst และว่ามี thyroid ปกติในตำแหน่งปกติ (กันตัด ectopic thyroid ที่อาจเป็นเนื้อ thyroid ทั้งหมด → hypothyroid ตลอดชีวิต); US ไม่เห็น thyroid ปกติ → thyroid scan + TFT","<b>Sistrunk procedure</b> = ตัด cyst + <b>ส่วนกลางของ hyoid body</b> + tract ขึ้นไปถึง foramen cecum → recurrence ~5% เทียบกับตัด cyst อย่างเดียว ~45–55% (StatPearls)","ติดเชื้อ: เชื้อจากช่องปากขึ้นมาตาม tract ที่ต่อ foramen cecum (มักหลัง URI) → antibiotics ให้สงบก่อนแล้วค่อย Sistrunk; เลี่ยง I&amp;D ถ้าทำได้","<b>มะเร็งใน TGDC &lt;1%</b> ส่วนใหญ่ (~92%) เป็น papillary thyroid carcinoma (StatPearls)"],
+       pearls:["ตัวลวง simple cyst excision: ไม่เอาส่วนกลางของ hyoid ออก → เป็นซ้ำ","Piriform sinus = ทางติดเชื้อของ 3rd / 4th branchial anomaly (acute suppurative thyroiditis ข้างซ้ายซ้ำ ๆ) ไม่ใช่ TGDC","Dermoid cyst ก็อยู่ midline แต่ <b>ไม่ขยับตามแลบลิ้น</b> (ยึดกับผิวหนัง)"],
+       members:["MDCU78|RoB|35","MDCU78|RoD|5","MDCU77|RoA|Ped 1","MDCU76|RoC|Plastic 3","MDCU76|RoD|46","MDCU74|RoC|5","MDCU73|RoD|Ped 2"]},
+      {id:"lymphatic-malformation", title:"Lymphatic malformation (cystic hygroma)",
+       trend:"ให้รูปทารก / เด็กก้อนนุ่มข้างคอ (posterior triangle ลามไหล่หรือแก้ม) แล้วถาม Dx",
+       asked:["ทารกแรกเกิดก้อนใหญ่ นุ่ม กดยุบ ข้างคอซ้ายลามถึงไหล่ มีตั้งแต่เกิด (ให้รูป) → <b>cystic hygroma</b> (ตัวลวง TGDC, branchial cleft cyst, cervical teratoma, SCM tumor)","ทารกก้อนใหญ่ข้างคอมีส่วน cystic (ให้รูป) → cystic hygroma (ตัวลวง TGDC, 2nd branchial, dermoid, reactive lymphadenitis)","เด็กเล็กก้อนนุ่ม ไม่เจ็บ กดยุบ ที่แก้มล่างลงคอตั้งแต่ทารก <b>ส่องไฟผ่านสว่าง</b> → cystic hygroma (ตัวลวง 1st branchial cleft cyst, hemangioma, pleomorphic adenoma, dermoid)","เด็ก 8 เดือน / เด็ก ก้อน cystic ไม่เจ็บที่ posterior triangle หรือข้างคอ ผิวปกติ → <b>lymphatic malformation</b> (ตัวลวง dermoid, infantile hemangioma, venous malformation, lymphovenous malformation, AVM)"],
+       pattern:["<b>Lymphatic malformation</b> (ISSVA: slow-flow vascular malformation; ชนิด macrocystic = cystic hygroma) จาก jugular lymph sac ไม่เชื่อมกับระบบหลอดเลือดดำ","ตำแหน่ง: คอ ~75% โดยเฉพาะ <b>posterior triangle</b> ลาม axilla / แก้ม / ลิ้น / mediastinum; เห็นตั้งแต่เกิดหรือก่อน 2 ขวบ; นุ่ม กดยุบ หลายช่อง <b>transilluminate</b> ผิวด้านบนปกติ; ที่พบในครรภ์สัมพันธ์ Turner, Down, Noonan","แทรกซ้อน: กด airway (ก้อนใหญ่ในครรภ์ → วางแผน EXIT procedure), ติดเชื้อหรือเลือดออกในก้อน → โตเร็วทันที","วินิจฉัยด้วย US / MRI ไม่ต้อง biopsy; macrocystic → <b>sclerotherapy</b> (OK-432, doxycycline, bleomycin) หรือ excision; microcystic / ซับซ้อน → sirolimus","แยกตัวลวง: <b>infantile hemangioma</b> = ผิวแดง / ม่วง โตเร็วในขวบแรกแล้วยุบ; <b>venous malformation</b> = สีน้ำเงิน กดยุบ โตเวลาเบ่ง / ก้มหัว; <b>dermoid</b> = midline; <b>branchial</b> = ขอบหน้า SCM ไม่ใหญ่ตั้งแต่เกิด"],
+       pearls:["เห็นก้อนข้างคอแล้วตอบ branchial cleft cyst — ก้อนใหญ่ นุ่ม หลายช่อง ตั้งแต่เกิด ลามไหล่ / แก้ม = lymphatic malformation","คีย์ลายมือ MDCU72–73 ตัด dermoid เพราะ dermoid อยู่ midline (คอ, sternum, คิ้ว, หน้าผาก, scalp)"],
+       members:["MDCU79|RoC|Ped 4","MDCU79|RoD|Ped 13","MDCU76|RoC|Plastic 4","MDCU73|RoD|Ped 1","MDCU72|RoD|ไม่มีเลข 5"]},
+      {id:"cmt", title:"Congenital muscular torticollis (SCM tumor / fibromatosis colli)",
+       trend:"ทารกคอเอียง + ก้อนแข็งใน SCM แล้วถาม Dx, การรักษา หรือสิ่งที่ไม่สัมพันธ์",
+       asked:["ทารก 3 เดือนศีรษะเอียงข้างหนึ่ง คางหันฝั่งตรงข้าม คอขยับจำกัด คลำได้ก้อนแข็งใน SCM (ให้รูป) → <b>congenital muscular torticollis</b> (ตัวลวง Klippel–Feil, ocular torticollis, posterior fossa tumor, atlantoaxial rotatory subluxation)","ทารก <1 ปี ก้อนแข็งใน SCM + plagiocephaly ไม่มี hemifacial hypoplasia → <b>observe + physiotherapy</b> (ตัวลวง SCM release, incisional biopsy, CT neck, Botox)","ข้อใด <b>NOT</b> associated กับ CMT → <b>atrophy ของ trapezius ฝั่งตรงข้าม</b> (ที่สัมพันธ์จริง: plagiocephaly, cervical scoliosis, hemifacial hypoplasia, DDH)","Excision เป็น treatment of choice ยกเว้นโรคใด → <b>sternocleidomastoid tumor</b> (TGDC, branchial cleft cyst, cystic hygroma, dermoid ผ่าตัด)"],
+       pattern:["SCM fibrosis / สั้น (สัมพันธ์ท่าในครรภ์, คลอดยาก) → ศีรษะ <b>เอียงไปข้างเดียวกับ SCM ที่สั้น คางหันไปฝั่งตรงข้าม</b>; คลำได้ก้อนแข็งใน SCM (sternomastoid tumor) ช่วงสัปดาห์แรก ๆ หลังเกิด","สัมพันธ์ / ผลตามมา: <b>plagiocephaly</b>, <b>hemifacial hypoplasia</b>, cervical scoliosis ชดเชย และ <b>DDH</b> → ต้องตรวจสะโพกทุกราย","<b>รักษา: passive stretching physiotherapy</b> หายดี >90% (คีย์ MDCU76: observe + physio ราว 1 ปี); ผ่าตัด SCM release / lengthening เมื่อไม่ดีขึ้นหลังรักษา 6–12 เดือนขึ้นไป หรือ facial asymmetry เพิ่มขึ้น","คลินิกชัดไม่ต้อง biopsy หรือ CT"],
+       pearls:["คิดว่าก้อนที่คอทารกต้อง biopsy หรือ excise — SCM tumor เป็นข้อยกเว้นที่รักษาด้วย physiotherapy","Trapezius ไม่เกี่ยวกับ CMT — คีย์ MDCU76 RoD ขีดคำว่า cause ทิ้ง (ช้อยเป็นผลที่ตามมา)"],
+       members:["MDCU78|RoB|36","MDCU76|RoA|7","MDCU76|RoD|31","MDCU67|RoB|5"]},
+      {id:"cervical-lad", title:"Cervical lymphadenopathy ในเด็ก: reactive vs TB lymphadenitis",
+       trend:"ถามสาเหตุที่พบบ่อยสุด หรือให้เคสก้อนคอ + PPD / TST บวกแล้วถาม next step",
+       asked:["สาเหตุที่พบบ่อยที่สุดของ cervical lymphadenopathy ในเด็ก → <b>head and neck infection (reactive)</b> (ตัวลวง lymphoma, HIV, TB, suppurative lymphadenitis)","เด็ก 3 ปี ก้อนคอขวาแข็ง เรียบ ไม่แดง PPD บวก → <b>FNA for diagnosis</b> (Xpert / AFB / culture) ตาม WHO 2024 — คีย์เก่าตอบ start anti-TB drugs (ตัวลวง start anti-TB drugs, excisional biopsy + frozen section, repeat PPD, US + watchful waiting)","เด็กชาย LN คอกลม โตช้า ไม่เจ็บ TST บวกมาก + มีคนในบ้านเป็น TB → <b>start anti-TB drugs</b> (ตัวลวง repeat TST, broad-spectrum antibiotics 2 สัปดาห์, RT, observe)"],
+       pattern:["ส่วนใหญ่ = <b>reactive hyperplasia</b> จาก viral URI, pharyngitis, ฟัน, ผิวหนัง; รองลงมา bacterial lymphadenitis (S. aureus, GAS)","สงสัยมะเร็ง (lymphoma): >2 cm, แข็ง ติดแน่น, supraclavicular, B symptoms, ไม่ยุบใน 4–6 สัปดาห์ → biopsy","<b>TB lymphadenitis</b>: โตช้า ไม่เจ็บ อาจ matted / cold abscess, TST / IGRA บวก, ประวัติสัมผัส; ยืนยันด้วย FNA หรือ excisional biopsy (AFB, culture, Xpert, histology) + CXR","รักษา <b>2HRZE / 4HR</b> (6 เดือน); <b>ห้าม I&amp;D</b> (เกิด chronic draining sinus); ระหว่างรักษาก้อนอาจโตชั่วคราว (paradoxical reaction) ไม่ใช่ยาล้มเหลว","เด็ก 1–5 ปี ก้อนข้างเดียว ไม่มีอาการทั่วไป TST บวกอ่อน ไม่มีประวัติสัมผัส → นึกถึง <b>NTM</b> ซึ่งรักษาด้วย complete excision ไม่ใช่ anti-TB"],
+       pearls:["คีย์ MDCU67 (สองรอบ) และ MDCU76 ตอบ start anti-TB — ตาม reference ควรเก็บเนื้อเยื่อยืนยันก่อน: WHO TB Module 3 (2024) ให้ส่ง lymph node aspirate / biopsy ตรวจ Xpert Ultra เป็น initial test → ใน MDCU67 (เด็ก 3 ปี ไม่มีประวัติสัมผัส ต้องแยก NTM) ช้อย <b>FNA for diagnosis</b> มีหลักฐานรองรับดีกว่า; MDCU76 มี household contact + TST บวกมาก และไม่มีช้อย FNA → start anti-TB","ตัวลวง repeat TST / antibiotics 2 สัปดาห์ แทนการรักษา"],
+       members:["MDCU73|RoB|Ped 1","MDCU76|RoD|63","MDCU67|RoA|12","MDCU67|RoC|65"]},
+      {id:"preauricular-sinus", title:"Preauricular sinus ติดเชื้อซ้ำ",
+       trend:"รูหน้าหูที่ติดเชื้อซ้ำ ตอนนี้หายอักเสบ แล้วถาม management",
+       asked:["เด็กชายมีรูหน้าหูขวาตั้งแต่เกิด บวมเจ็บ 2 ครั้งในปีนี้ (ได้ oral antibiotics) ตอนนี้ไม่อักเสบ → <b>complete surgical excision ของ sinus tract</b> (ตัวลวง I&amp;D, long-term prophylactic antibiotics, observe, sclerotherapy)","เด็กหญิง 10 ปี ติดเชื้อมีหนองไหล 3 ครั้งในปีเดียว ตอนนี้หายแล้ว → complete excision ของ tract"],
+       pattern:["Congenital จาก hillocks of His (1st / 2nd arch) เชื่อมกันไม่สมบูรณ์; รูมักอยู่หน้า helical crus","<b>ไม่มีอาการ → observe</b>; <b>ติดเชื้อซ้ำ → complete excision ของ tract ทั้งหมด</b> (รวมกระดูกอ่อนส่วนที่ติด, supra-auricular approach ลด recurrence) <b>ในช่วงที่หายอักเสบ</b>","ระหว่างติดเชื้อ: antibiotics ± aspiration / I&amp;D เมื่อเป็นฝี แล้วนัดผ่าตัด","มีหูผิดรูป / hearing loss / ประวัติครอบครัว → นึกถึง branchio-oto-renal syndrome → ตรวจการได้ยิน + renal US"],
+       pearls:["I&amp;D หรือ antibiotics ระยะยาวไม่แก้ tract จึงเป็นซ้ำ; ผ่าช่วงอักเสบเสี่ยงตัด tract ไม่หมด"],
+       members:["MDCU78|RoB|50","MDCU74|RoC|6"]}
+    ]},
+    {title:"Oral cavity lesion และ oral cancer", sections:[
+      {id:"oral-scc-risk", title:"Oral & lip SCC: risk factor ตามตำแหน่ง",
+       trend:"ให้แผลตามตำแหน่ง (buccal mucosa / ลิ้น / ริมฝีปากล่าง) แล้วถาม risk factor ที่สำคัญที่สุด",
+       asked:["Risk factor ของ oral cavity cancer → <b>tobacco chewing</b> (ตัวลวง vitamin B1 deficiency, high-fiber diet, chronic HBV, H. pylori)","ผู้สูงอายุแผล buccal mucosa ซ้ายขอบเรียบ เลือดออกไม่หยุด / ชาย 65 ปี แผล buccal 2×3 cm ไม่เจ็บ เลือดออกเมื่อกัด + LN คอ 2 cm → <b>betel nut / tobacco chewing</b> (ตัวลวง vitamin B, iron deficiency, HSV, ฟันปลอมไม่พอดี, UV, cigarette smoking, alcohol)","Main risk factor ของแผล (มะเร็ง) ที่ buccal mucosa → <b>betel and tobacco chewing</b> (ตัวลวง UV, nutritional deficiency, cigarette, alcohol)","ให้รูปแผลริมฝีปากล่าง / หญิง 45 ปีแผลแข็งไม่เจ็บที่ริมฝีปากล่าง 1.5×3 cm เลือดออกบางครั้ง → <b>UV</b> (ตัวลวง foreign body, HPV, HSV, vitamin B / zinc deficiency, bacterial / fungal infection)"],
+       pattern:["Oral cavity cancer >90% = <b>SCC</b>; risk: ยาสูบทุกรูปแบบ (สูบ, เคี้ยว, ยาเส้น), alcohol (เสริมฤทธิ์กับยาสูบ), <b>หมาก (betel quid / areca nut)</b> ที่พบบ่อยในผู้สูงอายุไทย, ฟันคม / ฟันปลอมเสียดสีเรื้อรัง; HPV สำคัญกับ <b>oropharynx</b> มากกว่า oral cavity","<b>Buccal mucosa</b> = ตำแหน่งที่หมาก / ยาเส้นสัมผัสโดยตรง → ตอบ betel / tobacco <b>chewing</b> (ชนะ cigarette smoking และ alcohol เมื่อโจทย์ระบุตำแหน่งนี้)","<b>Lower lip</b> SCC (~90% ของ lip cancer) → <b>UV / แสงแดดเรื้อรัง</b> (actinic cheilitis = premalignant) ร่วมกับ pipe smoking, immunosuppression; ริมฝีปากบนพบ BCC มากกว่า","Premalignant ในช่องปาก: leukoplakia, <b>erythroplakia (เสี่ยงมะเร็งสูงกว่า)</b>, oral submucous fibrosis (หมาก)"],
+       pearls:["Site predicts exposure: buccal = เคี้ยว, ริมฝีปากล่าง = แดด","แผลขอบเรียบในผู้สูงอายุที่เลือดออกไม่หยุดยังต้องคิดถึง SCC และ biopsy"],
+       members:["MDCU77|RoA|Plastic 6","MDCU76|RoD|2","MDCU69|RoA|75","MDCU69|RoC|X12","MDCU77|RoB|Plastic 7","MDCU69|RoC|36"]},
+      {id:"oral-ulcer-observe", title:"แผลในปากที่เจ็บ เป็นไม่กี่วัน (aphthous / traumatic ulcer) → observe",
+       trend:"โจทย์เดิมแทบทุกคำ: คนหนุ่ม 18 ปี แผลเจ็บขอบเรียบ 4–7 วัน แล้วล่อด้วย biopsy / wide excision",
+       asked:["ชาย 18 ปี แผลเจ็บ (มาก) ขอบเรียบที่ buccal mucosa / ในปาก 1–1.5 cm เป็นมา 7 วัน → <b>observe / symptomatic / follow up</b> (ตัวลวง incisional biopsy, excisional biopsy, wide excision margin 0.5 cm หรือ 1 cm)","แผลเจ็บที่ buccal mucosa 4 วัน → <b>observe</b> (ตัวลวง incisional / excisional biopsy, radical / elective neck dissection)","ก้อน / แผลในปากที่เจ็บ → <b>observe 2–3 สัปดาห์</b> (ตัวลวง excision, incisional biopsy ทันที, RT, antibiotics 6 สัปดาห์)"],
+       pattern:["<b>เจ็บ + ขอบเรียบ + อายุน้อย + เป็นไม่กี่วัน</b> = aphthous หรือ traumatic ulcer → รักษาตามอาการ (ยาทา, กำจัดสาเหตุ เช่นฟันคม) แล้วนัดดู — ส่วนใหญ่หายใน 1–3 สัปดาห์","<b>ไม่หายใน 2–3 สัปดาห์</b>, ไม่เจ็บ, แข็ง (induration), ขอบนูน, เลือดออกง่าย, มี LN คอ, อายุมาก / มี risk factor → <b>biopsy</b> เพื่อแยก SCC"],
+       pearls:["Oral SCC ระยะแรกมักไม่เจ็บ — แผลเจ็บในคนหนุ่มจึงยังไม่ใช่ข้อบ่งชี้ biopsy","Wide excision / neck dissection ก่อนมี tissue diagnosis ไม่ใช่คำตอบ"],
+       members:["MDCU72|RoB|7","MDCU68|RoB|3","MDCU67|RoA|37","MDCU66|RoC|5","MDCU66|RoD|37"]},
+      {id:"oral-scc-workup", title:"Oral SCC / ก้อนคอในผู้ใหญ่: biopsy, FNA ต่อมน้ำเหลือง และการรักษา",
+       trend:"ถามขั้นต่อไปเมื่อมีรอยโรคในปาก ± LN คอ — คีย์เก่าหลายข้อตอบไม่ตรง guideline",
+       asked:["ชายมีรอยโรคในปากไม่เจ็บ เลือดออกบางครั้ง (ให้รูป leukoplakia) + submental LN 1.5 cm → <b>incisional biopsy</b> (ตัวลวง topical steroid, excisional biopsy, FNA ต่อมน้ำเหลือง, swab smear / culture)","แผลลิ้นไม่เจ็บ 1×2 cm + LN คอ fixed → ตรวจต่อมน้ำเหลืองด้วย <b>US + FNA</b> (ตัวลวง plain film, bimanual palpation, MRI, angiography)","ชาย 25 ปี ก้อน submental / submandibular LN 2.5 cm fixed ไม่พบความผิดปกติอื่น → <b>FNA</b> (ตัวลวง incisional, core, excisional biopsy, empirical antibiotics 2 สัปดาห์)","รอยโรคขาวในปาก biopsy ยืนยัน SCC ไม่มี distant metastasis → <b>wide surgical excision</b> (ตัวลวง RT แล้ว wide excision, chemo แล้ว wide excision, observe, topical steroid)"],
+       pattern:["<b>Primary lesion</b>: incisional biopsy ตรงจุดที่น่าสงสัยที่สุด (แดง ขรุขระ แข็ง เลือดออก) — ไม่ excisional ก่อนรู้ผล เพราะเสีย margin / landmark สำหรับ wide excision","<b>Neck node ในผู้ใหญ่</b>: <b>FNA (US-guided)</b> ก่อน open biopsy — AAO-HNS Clinical Practice Guideline: Evaluation of the Neck Mass in Adults (2017) ให้ทำ FNA แทน open biopsy และหา primary (ตรวจปาก / คอหอย, CT / MRI); open biopsy ก่อนรู้ว่าเป็น SCC เสี่ยง tumor spill และทำ neck dissection ยากขึ้น; FNA สงสัย lymphoma หรือไม่ได้ผล → core / excisional biopsy","Staging: CT / MRI head–neck + chest imaging","<b>Resectable oral cavity SCC → primary surgery</b>: wide excision ให้ได้ clear margin ± neck dissection (ตาม depth of invasion / nodal status) แล้วให้ adjuvant RT ตาม pathology; margin บวก หรือ extranodal extension → <b>adjuvant chemoradiation (cisplatin)</b> (NCCN Head and Neck Cancers)","Neoadjuvant RT / chemo ก่อนผ่าไม่ใช่มาตรฐานของ oral cavity SCC"],
+       pearls:["คีย์เก่า MDCU77 RoA ตอบ excisional biopsy สำหรับ LN คอ fixed — ตาม AAO-HNS 2017 คำตอบคือ FNA","คีย์เก่า MDCU77 RoC ตอบ 'radiation แล้ว wide excision' (ใส่ ? ไว้) — ตาม NCCN oral cavity SCC ผ่าตัดก่อน ± adjuvant RT / CRT","คีย์ MDCU77 RoB เว้นว่าง (ลายมือบอกรูป = leukoplakia) — leukoplakia ที่เลือดออก + LN โต = suspicious → biopsy ไม่ใช่ทาสเตียรอยด์"],
+       members:["MDCU77|RoB|Plastic 13","MDCU71|RoB|42","MDCU77|RoA|Plastic 9","MDCU77|RoC|Plastic 1"]},
+      {id:"oral-scc-type", title:"มะเร็งช่องปาก / ลิ้นที่พบบ่อยที่สุด = SCC",
+       trend:"ถามชนิดมะเร็งตรง ๆ หรือให้ก้อนแข็งไม่เจ็บ + LN คอแล้วถามผลชิ้นเนื้อ",
+       asked:["ชาย 60 ปี สูบบุหรี่ เคี้ยวหมาก แผลไม่หายที่ขอบข้างลิ้น → intraoral cancer ที่พบบ่อยสุด = <b>SCC</b> (ตัวลวง adenoid cystic, mucoepidermoid, lymphoma, melanoma)","Most common malignant tumor ของลิ้น / ก้อนลิ้นเป็นแผลเลือดออก → <b>SCC</b> (ตัวลวง BCC, adenocarcinoma, melanoma, fibrosarcoma, hemangioma)","หญิง 28 ปี ก้อน buccal แข็ง ไม่เจ็บ 3×3 cm + LN คอ 2 cm → biopsy น่าจะพบ <b>SCC</b> (ตัวลวง melanoma, adenocarcinoma, acute ulcer, fungal infection)"],
+       pattern:["Oral / tongue cancer ~90% = <b>squamous cell carcinoma</b>; ลิ้นพบบ่อยที่ <b>lateral border</b> รองลงมาคือ floor of mouth; แพร่ไป LN คอเร็ว","ก้อน / แผล <b>แข็ง ไม่เจ็บ</b> + LN คอโต = SCC จนกว่าจะพิสูจน์ได้ — อายุน้อยไม่ได้ตัดมะเร็งออก","BCC เกิดที่ผิวหนัง ไม่เกิดใน mucosa; adenoid cystic / mucoepidermoid เป็นมะเร็งต่อมน้ำลาย (minor salivary gland ในปากพบได้แต่น้อยกว่า SCC มาก)"],
+       members:["MDCU74|RoC|26","MDCU74|RoD|7","MDCU67|RoD|17","MDCU66|RoA|70"]},
+      {id:"intraoral-bleeding", title:"ก้อนในปากเลือดออกมาก → catheter angiography ± embolization",
+       trend:"MDCU67 ถามสองรอบ: ก้อนในปาก / buccal เลือดออก แล้วให้เลือก investigation",
+       asked:["หญิง 50 ปี ก้อนใหญ่ในปาก massive bleeding → investigation ที่มีประโยชน์ที่สุด = <b>catheter angiogram</b> (ตัวลวง X-ray, CTA, MRA, US)","หญิง 42 ปี ก้อน buccal โตขึ้น เลือดออกมา 2 ชม. → <b>angiogram</b> (ตัวลวง X-ray, MRI, US, observe)"],
+       pattern:["เลือดออกมากจากก้อนในปาก (vascular malformation / hypervascular tumor) → <b>catheter angiography</b> = ทั้งวินิจฉัย (หา feeding vessel) และรักษา (<b>embolization</b>) ในครั้งเดียว","ลำดับจริง: เลือดออกในปากมาก → <b>airway ก่อน</b> (เลือดอุดทางเดินหายใจ) + กดห้ามเลือด + resuscitation แล้วจึง angiography"],
+       pearls:["CTA / MRA วินิจฉัยได้แต่รักษาไม่ได้ — คีย์เลือก catheter angiogram เพราะ embolize ได้ทันที"],
+       members:["MDCU67|RoC|41","MDCU67|RoD|18"]},
+      {id:"ameloblastoma", title:"Ameloblastoma",
+       asked:["ให้รูปก้อนที่ขากรรไกร → Dx = <b>ameloblastoma</b> (ตัวลวง hemangioma, soft tissue sarcoma, SCC, pyogenic granuloma)"],
+       pattern:["Odontogenic tumor ที่สำคัญทางคลินิกและพบบ่อยที่สุด (คีย์: m/c benign odontogenic tumor; odontoma พบบ่อยกว่าแต่เป็น hamartoma) มักที่ <b>posterior mandible (molar–ramus)</b> โตช้า ขยาย cortex หน้าบวม ฟันโยก","X-ray: <b>multilocular radiolucency แบบ soap bubble</b>","Benign แต่ locally aggressive → resection with margin (marginal / segmental mandibulectomy) + reconstruction เช่น fibula free flap; enucleation อย่างเดียว recur สูง"],
+       members:["MDCU74|RoA|89"]}
+    ]},
+    {title:"Facial soft tissue injury", sections:[
+      {id:"stensen-duct", title:"แผลกลางแก้ม: Stensen (parotid) duct และ buccal branch",
+       trend:"ให้รูปแผลกลางแก้มแล้วถามโครงสร้างที่บาดเจ็บ — ออกซ้ำแทบทุกรุ่นด้วยช้อยชุดเดิม",
+       asked:["ให้รูปแผลลึกกลางแก้ม / แผลมีดที่แก้ม / แผลระหว่างหูกับมุมปาก → structure ที่บาดเจ็บ = <b>Stensen duct</b> (ตัวลวง frontal branch, marginal mandibular branch, infraorbital nerve, procerus, platysma)","แผลแก้มตามแนว tragus → upper lip ผ่านหน้า masseter (บางรุ่นมีน้ำใสไหลจากแผล) → <b>Stensen / parotid duct</b> (ตัวลวง facial artery, marginal mandibular, infraorbital nerve, submandibular duct, hypoglossal nerve, lacrimal duct)","แผลกลางแก้มตัดผ่านแนว parotid duct → facial nerve branch ที่เสี่ยงที่สุด = <b>buccal branch</b> (ตัวลวง frontal, marginal mandibular, cervical, posterior auricular)"],
+       pattern:["<b>Landmark</b>: parotid (Stensen) duct วิ่งตาม <b>กลาง 1/3 ของเส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน</b> ข้ามผิว masseter → เจาะ buccinator → เปิดตรงข้าม <b>upper 2nd molar</b>; <b>buccal branch</b> ของ CN VII วิ่งแนวเดียวกัน (คีย์ MDCU78 RoB: same landmark)","บาดเจ็บ → น้ำลายใสไหลจากแผล, ภายหลังเกิด sialocele / salivary fistula","ตรวจ: cannulate papilla ในปาก ฉีด saline / methylene blue ดูว่ารั่วออกแผล; ซ่อม duct บน stent (microsurgical repair) และตรวจ / ซ่อม buccal branch ไปพร้อมกัน","แผลแก้มลึกทุกแผล: ตรวจการเคลื่อนไหวกล้ามเนื้อใบหน้าทุก branch ก่อนฉีดยาชา"],
+       pearls:["ตัวลวงประจำ: marginal mandibular (วิ่งตามขอบ mandible), infraorbital nerve (ชาแก้ม — สัมพันธ์ zygoma fracture), frontal branch (ขมับ–หน้าผาก), procerus (ระหว่างคิ้ว)","น้ำใสไหลจากแผลแก้ม = parotid duct / gland injury"],
+       members:["MDCU78|RoB|4","MDCU78|RoD|61","MDCU73|RoD|Plastic ตรงแอค 3","MDCU71|RoA|39","MDCU72|RoB|24","MDCU72|RoD|78","MDCU67|RoA|31","MDCU66|RoD|25","MDCU66|RoD|33"]},
+      {id:"facial-nerve-branch", title:"Facial nerve branch injury: บอกอาการตาม branch",
+       trend:"ให้แนวแผลบนใบหน้าแล้วถาม branch ที่ขาด หรืออาการที่ไม่น่าพบ",
+       asked:["แผลลึกหน้าผากด้านข้างไปทางขมับ หลังบาดเจ็บยักคิ้วข้างนั้นไม่ได้ → <b>frontal (temporal) branch ของ facial nerve</b> (ตัวลวง zygomatic branch, supraorbital nerve, oculomotor nerve, buccal branch)","ถูกฟันด้วยมีดพร้าพาดแก้มจากขมับถึงคาง (ให้รูป) → อาการที่ <b>ไม่น่าพบ</b> = <b>upper eyelid ptosis</b> (ที่พบได้: sialocele, lagophthalmos, drooling, brow ptosis)"],
+       pattern:["<b>Temporal / frontal branch</b> → frontalis: ยักคิ้วไม่ได้ หน้าผากไม่ย่น <b>brow ptosis</b>; แนว Pitanguy line (0.5 cm ใต้ tragus → 1.5 cm เหนือหางคิ้ว)","<b>Zygomatic</b> → orbicularis oculi: หลับตาไม่สนิท (<b>lagophthalmos</b>)","<b>Buccal</b> → ยิ้ม / ป่องแก้ม / orbicularis oris; <b>marginal mandibular</b> → depressor มุมปาก → มุมปากตก <b>drooling</b>; cervical → platysma","แผลผ่านเนื้อ parotid / duct → <b>sialocele</b>","<b>Upper eyelid ptosis</b> = levator palpebrae superioris (CN III) หรือ Müller muscle (sympathetic, Horner) → ไม่ใช่ CN VII","Facial nerve ที่ขาดควรซ่อมเร็ว — ภายใน ~72 ชม. ยังกระตุ้นปลายเส้นเพื่อหา branch ได้"],
+       pearls:["สับสน upper eyelid ptosis (CN III / sympathetic) กับ brow ptosis และ lagophthalmos (CN VII)","ยักคิ้วไม่ได้หลังแผลหน้าผากด้านข้าง ไม่ใช่ supraorbital nerve ซึ่งเป็น sensory"],
+       members:["MDCU79|RoD|Plastic 7","MDCU76|RoC|Plastic 2"]},
+      {id:"oral-mucosa-repair", title:"เย็บแผล oral (buccal) mucosa",
+       trend:"MDCU73 ถามทั้งสองรอบว่าเย็บแผลในปากด้วยไหมอะไร / เทคนิคไหน",
+       asked:["วิธีเย็บแผล oral (buccal) mucosa → <b>absorbable suture แบบ simple interrupted</b> (ตัวลวง nylon subcuticular, silk vertical mattress, skin staples, cyanoacrylate glue อย่างเดียว)","เทคนิคเย็บสำหรับเนื้อเยื่อที่ยุบ / เคลื่อนไหวง่ายอย่าง oral mucosa → <b>simple interrupted</b> (ตัวลวง continuous over-and-over, subcuticular, half-buried horizontal mattress, staples)"],
+       pattern:["Absorbable (chromic catgut, Vicryl Rapide 4-0) <b>simple interrupted</b> → ไม่ต้องตัดไหม, ปมหนึ่งขาดแผลไม่แยกทั้งแนว, ระบายสารคัดหลั่งได้","แผลเล็กในปากที่ขอบชิดกันดีอาจไม่ต้องเย็บ","Subcuticular ใช้ปิดผิวหนังเพื่อแผลสวย; half-buried horizontal mattress ใช้ที่มุม / ปลาย flap"],
+       members:["MDCU73|RoB|Plastic 5","MDCU73|RoD|Plastic 4"]}
+    ]},
+    {title:"Salivary gland tumor", sections:[
+      {id:"parotid-malignant", title:"Malignant parotid tumor ที่พบบ่อยที่สุด = mucoepidermoid carcinoma",
+       trend:"ถามตรง ๆ ซ้ำหลายรุ่นโดยวาง pleomorphic adenoma / Warthin / adenoid cystic เป็นตัวลวง",
+       asked:["Most common malignant tumor / malignancy ของ parotid → <b>mucoepidermoid carcinoma</b> (ตัวลวง adenoid cystic, acinic cell, adenocarcinoma, carcinoma ex pleomorphic adenoma, SCC, pleomorphic adenoma, Warthin)","ก้อนบริเวณ parotid ที่มุมขากรรไกรซ้าย + หน้าอ่อนแรงและชาซีกนั้น (ให้รูป) → มะเร็งที่น่าจะเป็นที่สุด = <b>mucoepidermoid carcinoma</b>"],
+       pattern:["<b>Mucoepidermoid carcinoma</b> (mucinous + squamous / intermediate cells) = มะเร็งต่อมน้ำลายที่พบบ่อยที่สุด โดยเฉพาะ parotid","<b>Adenoid cystic carcinoma</b>: พบบ่อยใน submandibular / minor salivary gland, เด่น <b>perineural invasion</b> (ปวด ชา facial palsy), recur และแพร่ไปปอดช้า","ภาพรวม (rule of 80 ในคีย์): parotid tumor ~80% benign; tumor ที่พบบ่อยที่สุดโดยรวม = pleomorphic adenoma > Warthin; ยิ่งต่อมเล็กสัดส่วนมะเร็งยิ่งสูง","อาการเตือนมะเร็งของก้อน parotid: <b>facial nerve palsy</b>, ปวด / ชา, โตเร็ว, ติดแน่น / ติดผิวหนัง, LN คอโต"],
+       pearls:["สลับ benign ที่พบบ่อยสุด (pleomorphic adenoma) กับ malignant ที่พบบ่อยสุด (mucoepidermoid)","Warthin เป็น benign ไม่ใช่มะเร็ง; carcinoma ex pleomorphic adenoma พบน้อยกว่า","MDCU76 RoD มีอาการชา (perineural) ชวนเลือก adenoid cystic แต่คีย์ตอบตามความชุกใน parotid = mucoepidermoid"],
+       members:["MDCU76|RoD|70","MDCU74|RoD|8","MDCU73|RoD|Plastic 2","MDCU71|RoA|ไม่มีเลข 2","MDCU72|RoB|8","MDCU72|RoB|25"]},
+      {id:"pleomorphic-adenoma", title:"Pleomorphic adenoma ของ parotid",
+       trend:"MDCU79 ถามทั้ง RoC (จาก histology) และ RoD (ก้อนหน้าหู firm mobile)",
+       asked:["ชาย 40 ปี ก้อนเดี่ยวหน้าหู ไม่เจ็บ โตช้า histology biphasic ductal epithelium + myoepithelial cells ใน myxoid / chondroid stroma → <b>pleomorphic adenoma</b> (ตัวลวง mucoepidermoid, Warthin, adenoid cystic, acinic cell)","หญิงก้อนหน้าหู firm mobile ไม่มีอาการ → <b>pleomorphic adenoma</b> (ตัวลวง adenoid cystic, Warthin, mucoepidermoid, acinic cell)"],
+       pattern:["<b>Pleomorphic adenoma (benign mixed tumor)</b> = salivary gland tumor ที่พบบ่อยที่สุด (~60–70% ของ parotid tumor), หญิง 30–50 ปี, superficial lobe, ก้อนแข็ง ขอบเรียบ ขยับได้ ไม่มี facial palsy","Histology: epithelial + myoepithelial cells ใน <b>chondromyxoid stroma</b>; Warthin = papillary cystic + <b>lymphoid stroma</b> (ชายสูงอายุ สูบบุหรี่ อาจเป็นสองข้าง)","Workup: US ± FNA — ไม่ทำ open / incisional biopsy ของก้อน parotid","Capsule ไม่สมบูรณ์มี <b>pseudopod</b> → <b>superficial (หรือ partial) parotidectomy เก็บ facial nerve</b>; ห้าม enucleation (recur สูง); ทิ้งไว้นานเสี่ยง <b>carcinoma ex pleomorphic adenoma</b>","แทรกซ้อนหลัง parotidectomy: facial nerve weakness, Frey syndrome (gustatory sweating), ชาใบหู (great auricular nerve), sialocele"],
+       pearls:["ผู้จด MDCU79 RoD คิดว่าเป็น cyst — ก้อน parotid firm mobile ไม่มีอาการ = pleomorphic adenoma"],
+       members:["MDCU79|RoC|Plastic 8","MDCU79|RoD|Plastic 11"]}
+    ]},
+    {title:"Maxillofacial trauma", sections:[
+      {id:"facial-fx-imaging", title:"Facial fracture: เลือก plain film view",
+       trend:"จับคู่กระดูกที่หักกับ view — Waters สำหรับ maxilla / ZMC, Towne สำหรับ condyle, panoramic สำหรับ mandible / open bite",
+       asked:["สงสัย maxillary fracture / plain film ประเมิน maxilla → <b>Waters view</b> (ตัวลวง AP, Towne, panoramic, lateral skull, lateral C-spine, SMV)","สงสัย zygomaticomaxillary complex (ZMC) fracture → <b>Waters view</b> (ตัวลวง Towne, lateral cephalogram, panoramic, Caldwell)","สงสัย mandibular condyle fracture → <b>Towne view</b> (ตัวลวง lateral, AP, panoramic, Waters)","หลัง facial trauma มี anterior open bite แต่ maxilla stable → <b>panoramic radiograph</b> (ตัวลวง Waters, Towne, Caldwell, SMV, AP / lateral skull)"],
+       pattern:["<b>Waters (occipitomental)</b>: maxilla, maxillary sinus, orbital rim / floor, zygoma → midface / ZMC / Le Fort","<b>Towne (reverse Towne)</b>: mandibular condyle และ condylar neck","<b>Panoramic (orthopantomogram)</b>: mandible ทั้งชิ้น (body, angle, ramus, condyle) + ฟัน","<b>SMV (jug-handle)</b>: zygomatic arch; <b>Caldwell</b>: frontal sinus, orbital rim","<b>Anterior open bite + maxilla ไม่ขยับ</b> = <b>bilateral condylar / subcondylar fracture</b> (ramus สั้นลง ฟันกรามชนกันก่อน) → panoramic; ถ้า maxilla ขยับได้ → Le Fort","ปัจจุบัน <b>CT facial bone</b> เป็นมาตรฐาน — เมื่อโจทย์ถาม plain film ให้ตอบตาม view"],
+       pearls:["Open bite ชวนนึกถึง Le Fort — โจทย์บอก maxilla stable จึงเป็น mandible (condyle) → panoramic","Panoramic ก็เห็น condyle ได้ แต่คีย์ MDCU73 RoB เลือก Towne เมื่อถามเจาะ condyle"],
+       members:["MDCU73|RoD|Plastic ตรงแอค 5","MDCU70|RoB|ไม่มีเลข 3","MDCU70|RoC|ไม่มีเลข 5","MDCU73|RoB|Plastic 1","MDCU73|RoB|Plastic 2","MDCU71|RoB|31"]},
+      {id:"zmc-signs", title:"ZMC fracture vs fracture ที่ทำให้ malocclusion",
+       trend:"ถามแบบ NOT / EXCEPT ว่าอาการใดไม่ใช่ของ zygoma fracture — คำตอบคืออาการด้านการสบฟัน",
+       asked:["ข้อใด NOT typical ของ isolated zygomatic fracture → <b>malocclusion</b> (ที่ใช่: periorbital ecchymosis, trismus, infraorbital numbness, malar flattening)","ข้อใด NOT เป็น sign / symptom ของ zygomatic fracture → <b>lingual crossbite</b> (ที่ใช่: trismus, diplopia, periorbital ecchymosis, infraorbital paresthesia)","Fracture ใดน่าจะทำให้ malocclusion → <b>maxillary fracture</b> (ตัวลวง nasal bone, isolated zygomatic arch, frontal sinus, orbital floor)"],
+       pattern:["<b>ZMC fracture</b>: malar flattening, periorbital ecchymosis + subconjunctival hemorrhage, <b>infraorbital nerve paresthesia</b> (แก้ม ริมฝีปากบน), step-off ที่ orbital rim, <b>diplopia</b> (orbital floor / entrapment), <b>trismus</b> (arch กด coronoid process / temporalis)","<b>Malocclusion / crossbite / open bite</b> = กระดูกที่มีฟันหัก: <b>maxilla (Le Fort) หรือ mandible</b>"],
+       pearls:["Trismus (อ้าปากไม่ขึ้น) ≠ malocclusion (สบฟันผิด) — trismus พบใน zygoma / arch fracture ได้"],
+       members:["MDCU70|RoB|ไม่มีเลข 4","MDCU72|RoA|88","MDCU73|RoD|Plastic ตรงแอค 6"]},
+      {id:"facial-trauma-airway", title:"Maxillofacial trauma เลือดออกจมูก-ปาก + hypotension → airway ก่อน",
+       trend:"MDCU70 ถามทั้ง RoB และ RoC ด้วยเคสเดียวกัน",
+       asked:["หลังอุบัติเหตุมอเตอร์ไซค์ เลือดออกมากทางจมูกและปาก + hypotension → ทำอะไรก่อน = <b>secure airway / endotracheal intubation</b> (ตัวลวง IV fluid resuscitation, anterior nasal packing, angiographic embolization, Le Fort reduction, facial X-ray)"],
+       pattern:["ATLS 10th: <b>Airway with restriction of cervical spine motion</b> มาก่อน — เลือดและกระดูกใบหน้าที่หักอุด airway → suction + definitive airway (ETT; ใส่ไม่ได้ → surgical airway / cricothyroidotomy)","แล้วจึง Circulation: IV เส้นใหญ่ 2 เส้น, anterior / posterior nasal packing, reduction ของ fracture ชั่วคราว, ยังออกต่อ → angiographic embolization","Hypotension จากเลือดออกที่ใบหน้าอย่างเดียวพบน้อย → หาแหล่งเลือดออกอื่นร่วมเสมอ"],
+       pearls:["เห็น hypotension แล้วตอบ IV fluid ก่อน airway; nasal packing ทำหลังใส่ ETT"],
+       members:["MDCU70|RoB|27","MDCU70|RoC|43"]}
+    ]},
+    {title:"Intrathoracic (mediastinal) goiter", sections:[
+      {id:"mediastinal-goiter", title:"Mediastinal goiter มี stridor / dyspnea → ผ่าตัด",
+       trend:"ผู้สูงอายุ stridor / หอบ + ก้อน anterior mediastinum ที่ I-131 จับ แล้วถามการรักษา — คีย์เก่าสองไฟล์ตอบไม่ตรงกันหลายรุ่น",
+       asked:["หญิงสูงอายุ stridor, CXR มีก้อน, I-131 จับที่อกแต่ไม่จับที่คอ → <b>surgical excision ผ่าน median sternotomy</b> (ตัวลวง observe, hormonal therapy, RAI ablation, neoadjuvant CRT แล้วผ่า)","หญิงสูงอายุ stridor ก้อน anterior mediastinum 5 cm กด trachea, I-131 จับต่อเนื่องกับคอ → <b>surgical thyroidectomy</b> (ตัวลวง observe, RT, CRT, hormonal therapy)","หญิงหอบ ก้อน mediastinum I-131 จับที่ก้อนในอก ไม่จับที่ตำแหน่ง thyroid → <b>transthoracic surgery</b> (ตัวลวง observe, iodine ablation, iodine ablation แล้วผ่า, levothyroxine suppression)","การรักษา thyroid tissue ใน mediastinum → <b>surgery</b> (ตัวลวง conservative, I-131 แล้วผ่า, I-131, hormone)"],
+       pattern:["I-131 จับที่ก้อน = <b>thyroid tissue</b> (lymphoma, thymoma, germ cell tumor ไม่จับ)","<b>Secondary (substernal / retrosternal) goiter</b> = ต่อลงมาจาก thyroid ที่คอ (uptake ต่อเนื่องกับคอ) เลือดมาจาก thyroid arteries → ส่วนใหญ่ <b>เอาออกทาง cervical incision</b> ได้ บางรายต้อง sternotomy","<b>Primary (ectopic) intrathoracic goiter</b> (พบน้อย ราว 0.2–1% ของ intrathoracic goiter) = ไม่ต่อกับคอ (uptake ในอกอย่างเดียว) เลือดมาจาก intrathoracic vessels → ต้อง <b>median sternotomy / thoracotomy</b>","ข้อบ่งชี้ผ่าตัด: กด trachea / esophagus / SVC (stridor, dyspnea, dysphagia), โตต่อ, สงสัยมะเร็ง — mediastinal goiter โดยทั่วไปควรผ่าออก","<b>RAI ไม่เหมาะ</b> เมื่อมี airway compression (ต่อมบวมชั่วคราว หดช้า) → ใช้เฉพาะผู้เสี่ยงผ่าตัดสูง; ข้อยกเว้นตามสไลด์ lecture: ไม่มีอาการ และเป็น functioning thyroid tissue แหล่งเดียวของร่างกาย → ไม่ผ่า (ถ้าผ่าต้องให้ thyroid hormone ทดแทน)"],
+       pearls:["คีย์ลายมือ MDCU68 RoB ตอบ I-131 — สไลด์ lecture ในภาพคีย์เองบอกว่า mediastinal thyroid ควรผ่าออก (ยกเว้นไม่มีอาการและเป็น functioning tissue แหล่งเดียว) → คำตอบ surgery ตรงกับคีย์ไฟล์ 01.2","คีย์ไฟล์ 01.2 ของ MDCU69 RoC ตอบ chemoradiation (คิดว่าเป็น lymphoma) — I-131 จับ = thyroid → ผ่าตัดตามคีย์ชุดแรก","เลือก RAI เพราะเห็นว่าก้อนจับไอโอดีน"],
+       members:["MDCU77|RoB|CVT 10","MDCU69|RoC|R48","MDCU68|RoC|63","MDCU68|RoB|78"]}
+    ]},
+    {title:"Craniofacial anomaly", sections:[
+      {id:"treacher-collins", title:"Treacher Collins syndrome",
+       trend:"ให้รูปหรือคำบรรยายหน้าเด็กแล้วถาม Dx หรือปัญหาที่ต้องตรวจหา (hearing)",
+       asked:["เด็ก down-slanting palpebral fissure สองข้าง, coloboma ของ lower eyelid ขาดขนตาด้านใน, zygoma hypoplasia, micrognathia, ใบหูผิดรูป สติปัญญาปกติ → <b>Treacher Collins syndrome</b> (ตัวลวง Pierre Robin, hemifacial microsomia, Crouzon, Apert)","ให้รูปหน้าเด็ก → ปัญหาที่น่าจะมีมากที่สุด = <b>hearing loss</b> (ตัวลวง malocclusion, intellectual disability, seizure, optic atrophy)","ให้รูป → ต้องตรวจอะไรเพื่อหาปัญหาที่ซ่อนอยู่ = <b>hearing</b> (ตัวลวง vision, swallowing, intellectual function, cardiac function)"],
+       pattern:["<b>Treacher Collins (mandibulofacial dysostosis)</b>: TCOF1 ส่วนใหญ่ autosomal dominant; ความผิดปกติของ <b>1st / 2nd pharyngeal arch สองข้างสมมาตร</b>","ลักษณะ: down-slanting palpebral fissures, <b>lower eyelid coloboma</b>, malar / zygoma hypoplasia, micrognathia, microtia ± cleft palate","<b>Conductive hearing loss ~50%</b> (external canal atresia + ossicle ผิดรูป) → ตรวจการได้ยินแต่เนิ่น ๆ; <b>สติปัญญาปกติ</b>; ระวัง airway จาก micrognathia","แยก: <b>hemifacial microsomia</b> = ข้างเดียวไม่สมมาตร; <b>Pierre Robin</b> = micrognathia + glossoptosis + airway obstruction ± cleft palate; Crouzon / Apert = craniosynostosis"],
+       pearls:["เลือก malocclusion เพราะเห็นคางเล็ก หรือ intellectual disability — Treacher Collins สติปัญญาปกติ ปัญหาที่ซ่อนอยู่คือหูได้ยินลดลง"],
+       members:["MDCU76|RoA|22","MDCU76|RoD|23","MDCU74|RoA|ไม่มีเลข 2"]},
+      {id:"craniosynostosis", title:"Syndromic craniosynostosis (Apert / Crouzon)",
+       asked:["ให้รูปหน้าเด็ก (หน้า-ข้าง) ศีรษะสูง หน้าผากแบน → ข้อความที่ <b>ไม่ถูก</b> = <b>intelligence is usually normal</b> (ที่ถูก: วินิจฉัยได้ตั้งแต่แรกเกิด, genetic testing ช่วยยืนยัน, clinical features ช่วยวินิจฉัย, skull radiograph ช่วยวินิจฉัย)"],
+       pattern:["<b>Apert</b> (FGFR2, AD): turribrachycephaly (coronal synostosis), หน้าผากสูงแบน, hypertelorism, down-slanting, midface hypoplasia + <b>syndactyly มือเท้าสมมาตร</b>; สติปัญญาตั้งแต่ปกติถึง intellectual disability เล็กน้อย–ปานกลาง (MedlinePlus Genetics)","<b>Crouzon</b> (FGFR2): craniosynostosis + midface hypoplasia + exorbitism แต่ <b>มือเท้าปกติ</b> และสติปัญญามักปกติ","วินิจฉัย: clinical (มักสงสัยได้ตั้งแต่แรกเกิด), skull X-ray / CT เห็น suture ปิดและ copper-beaten skull, FGFR2 testing ยืนยัน"],
+       pearls:["ตรวจคีย์ 21 พ.ย. 2026: แก้คำตอบจาก 'diagnosed at birth' เป็น 'intelligence usually normal' ตามคีย์ MDCU76 RoD — ภาพเข้ากับ Apert (ลายมือคีย์เขียน Crouzon แต่ถ้าเป็น Crouzon ทุกช้อยจะถูก)","แยก Crouzon กับ Apert ด้วย <b>มือ</b> — ดูนิ้วเสมอ"],
+       members:["MDCU76|RoD|5"]}
+    ]}
+  ]});

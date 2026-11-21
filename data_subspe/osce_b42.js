@@ -60,9 +60,9 @@ Co({page:66,orig:"3",topic:"pe",sub:"Urolithiasis",ex:1,title:"Right flank pain 
 Co({page:66,orig:"4",topic:"img",sub:"Urolithiasis",img:["mo66_1"],title:"Film — right renal calculi",
  stem:`Many films are given — look quickly.<br>1. Describe the abnormality.<br>2. Diagnosis.<br>3. Treatment.`,
  gray:"4. 4.1 บรรยายความผิดปกติ 4.2 Give the diagnosis 4.3 Treatment Note : จะให้ film มาหลายแผ่นมากๆ ต้องดูเร็วๆ รูปนี้เป็น Rt. Renal canaliculi",
- notes:"แนวคำตอบในไฟล์: Rt. renal calculi",opinion:"ความมั่นใจสูง",
+ notes:"แนวคำตอบในไฟล์: Rt. renal calculi · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘Rx: &lt;2 ซม. ESWL/RIRS; &gt;2 ซม./staghorn PCNL’ เขียนเครื่องหมาย &lt; &gt; แบบดิบ ทำให้หน้าเว็บตัดข้อความ (เครื่องหมาย > หน้า 2 ซม. หาย) → เขียนใหม่ด้วย &lt; &gt; และแยก &lt;1 / 1–2 / &gt;2 ซม. ตาม EAU Guidelines on Urolithiasis 2025 (renal stone: &gt;20 mm PCNL; 10–20 mm SWL or endourology; &lt;10 mm SWL or RIRS)",opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): การรักษานิ่วไตตามขนาดตาม EAU 2025 · ความมั่นใจสูง",
  parts:S(
-  BS("4.1 Answer.",5,{tags:["img"],ans:"<b>Radio-opaque calculi ที่เงาไตขวา</b> · Dx: <b>right renal calculi</b> · Rx: <2 ซม. ESWL/RIRS; >2 ซม./staghorn PCNL; ติดเชื้อ+อุดกั้น → drain ก่อน",rubric:"1/ประเด็น",pts:[CR(P("Opaque calculi right kidney","opaque","calcul","stone")),CR(P("Right renal calculi","renal")),CR(P("ESWL/RIRS/PCNL","eswl","pcnl","rirs"))]})
+  BS("4.1 Answer.",5,{tags:["img"],ans:"<b>Radio-opaque calculi ที่เงาไตขวา</b> · Dx: <b>right renal calculi</b> · Rx (EAU 2025): <b>&lt;1 ซม.</b> → ESWL หรือ RIRS · <b>1–2 ซม.</b> → ESWL หรือ endourology (RIRS/PCNL; lower pole ที่ไม่เอื้อต่อ ESWL → RIRS/PCNL) · <b>&gt;2 ซม. หรือ staghorn</b> → <b>PCNL</b> (first-line); ติดเชื้อ+อุดกั้น → drain ก่อน",rubric:"1/ประเด็น",pts:[CR(P("Opaque calculi right kidney","opaque","calcul","stone")),CR(P("Right renal calculi","renal")),CR(P("ESWL/RIRS/PCNL","eswl","pcnl","rirs"))]})
  ),
  interp:"Renal calculi",
  summary:["Size-based: ESWL/RIRS vs PCNL"]}),

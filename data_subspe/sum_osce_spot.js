@@ -1,3014 +1,1045 @@
-SUMM.push({
- "tag": "spot",
- "title": "Spot Diagnosis",
- "intro": "<ul><li>สถานีภาพไม่มี examiner (PowerPoint / MEQ) ออกทุก rotation ของ MDCU65–67 — สไลด์ละ 2–4 ข้อย่อย: <b>ชื่อ investigation / บรรยายภาพ → Dx (± DDx) → สาเหตุ / พยาธิกำเนิด → management</b></li><li><b>Pediatric surgery มากที่สุด:</b> cleft lip (timing ซ่อม + rule of 10s), malrotation with midgut volvulus, duodenal atresia (double bubble + failure of recanalization), omphalocele vs gastroschisis, Hirschsprung, EA/TEF, ARM + VACTERL, biliary atresia, hydrocele / hernia ในเด็ก</li><li><b>ภาพคลินิกที่วนซ้ำ:</b> paraphimosis, hemorrhoid + anal fissure, BCC / melanoma, infected epidermoid cyst, paronychia, toe gangrene, venous vs arterial ulcer, pressure ulcer, mastitis / breast abscess, inguinal hernia, facial nerve injury จากแผลแก้ม, burn depth (superficial vs deep partial thickness)</li><li><b>ภาพ imaging:</b> free air under diaphragm, gallstone / acute cholecystitis US, achalasia (bird-beak), IVP ureteric stone / UPJ obstruction, SBO film; <b>เครื่องมือ:</b> Penrose, Jackson-Pratt, NG tube, proctoscope, 3-way Foley</li><li>ส่วนที่ถามไม่มีภาพแต่จัดอยู่ในชุดนี้: เปรียบเทียบ burn depth, rule of nines, breast TNM staging, post-op orders, LUTS (IPSS) — ต้องท่องเป็นรายการให้ครบ</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา (พาร์ท meq/MEQ = Short Answers): hernia sites, pancreatitis, submental mass, neonatal distal obstruction, Babinski, Parinaud, acholic stool, preauricular sinus, EGD + CLO, malrotation, constipation, diverticulosis, CLTI, mammogram, anal fissure, SBO, melanoma, motor/reflex, mandible fx, pressure ulcer, gastroschisis/omphalocele, KUB stone, cleft palate, condyloma, cholecystitis, DVT, burn, BCC, perianal abscess, CDH</li></ul>",
- "groups": [
-  {
-   "title": "Pediatric surgery — congenital anomalies",
-   "sections": [
-    {
-     "id": "abdominal-wall-defect",
-     "title": "Omphalocele vs gastroschisis (newborn abdominal wall defect)",
-     "trend": "ภาพทารกผนังหน้าท้องเปิดมาแทบทุกปี — สลับ omphalocele กับ gastroschisis ต้องแยกให้ได้จากภาพ",
-     "asked": [
-      "ภาพทารกมีถุงเยื่อหุ้มที่สะดือ → Dx → associated anomalies ที่ต้องหา → initial management (67 RoA, RoC)",
-      "ภาพลำไส้โผล่ด้านขวาของสายสะดือไม่มีถุง → Dx → initial management (66 RoA, 65 RoA)",
-      "รูป gastroschisis: Dx + initial management (78B)",
-      "Omphalocele เหมือน AC (78C)"
-     ],
-     "flow": [
-      "ดูภาพ: defect อยู่ที่สะดือหรือข้างขวา · มีถุงหุ้มไหม · สายสะดือเกาะที่ไหน · ลำไส้บวมหนา (peel) ไหม",
-      "ตอบ Dx พร้อมเหตุผลจากภาพ",
-      "Omphalocele → associated anomalies + การตรวจ",
-      "Initial management ตามชนิด → แผนปิด defect"
-     ],
-     "pattern": [
-      "<b>Omphalocele:</b> defect ที่ umbilical ring มีถุง amnion + peritoneum ห่อลำไส้ / ตับ สายสะดือติดยอดถุง · ความผิดปกติร่วม 50–70%",
-      "<b>Associated anomalies ของ omphalocele:</b> cardiac (บ่อยสุด → echo) · trisomy 13 / 18 / 21 (karyotype) · Beckwith–Wiedemann (macroglossia, gigantism, hypoglycemia → เจาะ glucose) · Pentalogy of Cantrell (omphalocele ส่วนบน) · OEIS / cloacal exstrophy (ส่วนล่าง) · พยากรณ์โรคขึ้นกับ anomaly ร่วม ไม่ใช่ขนาดถุง",
-      "<b>Gastroschisis:</b> defect ด้านขวาของสายสะดือ สายสะดือปกติ ไม่มีถุง ลำไส้บวมแข็งมี peel · anomaly ร่วมน้อย ยกเว้น intestinal atresia ~10% · มารดาอายุน้อย",
-      "<b>Initial ทั้งคู่:</b> ABC, keep warm (radiant warmer) · NPO + OG / NG decompression · IV fluid (gastroschisis ต้องมากกว่าปกติ) + glucose · IV ATB · ตรวจหา anomaly",
-      "<b>คลุม:</b> gastroschisis → sterile bowel bag / plastic wrap (ไม่ใช้ gauze เปียกที่ทำให้ตัวเย็น) นอนตะแคงขวาประคองลำไส้ไม่ให้พับ · omphalocele → คลุมถุงด้วย sterile non-adherent dressing / gauze ชุบ NSS อุ่น แล้วห่อ plastic กันถุงแตก",
-      "<b>ปิด defect:</b> เล็ก → primary closure · ใหญ่ → staged silo (gastroschisis: preformed silo) · giant omphalocele → ‘paint and wait’ (silver sulfadiazine ให้เกิด eschar แล้วซ่อม ventral hernia ภายหลัง) · gastroschisis หลังผ่าตัดต้อง TPN นาน ระวัง abdominal compartment syndrome"
-     ],
-     "kw": [
-      "omphalocele: membrane-covered sac at umbilicus",
-      "gastroschisis: right of the cord, no sac",
-      "cardiac / chromosomal / Beckwith–Wiedemann",
-      "bowel bag / plastic wrap",
-      "keep warm",
-      "OG decompression",
-      "IV fluid + glucose",
-      "primary closure vs silo"
-     ],
-     "ddx": [
-      "omphalocele",
-      "gastroschisis",
-      "ruptured omphalocele",
-      "umbilical cord hernia"
-     ],
-     "pearls": [
-      "ตอบ Dx โดยไม่ให้เหตุผลจากภาพ (ตำแหน่งเทียบสายสะดือ + มี / ไม่มีถุง) เสียคะแนน",
-      "omphalocele ที่ถุงไม่แตกไม่ต้องผ่าเร่งด่วนเท่า gastroschisis — ประเมิน anomaly ให้ครบก่อน",
-      "rubric 67 RoC: ตอบ povidone gauze คลุมถุงได้แค่บางส่วน"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 13#1",
-      "MDCU67|RoA|MEQ 13#2",
-      "MDCU67|RoA|MEQ 13#3",
-      "MDCU67|RoC|MEQ 7#1",
-      "MDCU67|RoC|MEQ 7#2",
-      "MDCU67|RoC|MEQ 7#3",
-      "MDCU66|RoA|PPT 8#1",
-      "MDCU66|RoA|PPT 8#2",
-      "MDCU65|RoA|PPT 4#1",
-      "MDCU78|RoB|MEQ 14#1",
-      "MDCU78|RoB|MEQ 14#2",
-      "MDCU78|RoC|MEQ 1#1",
-      "MDCU78|RoC|MEQ 1#2",
-      "MDCU78|RoC|MEQ 1#3"
-     ]
-    },
-    {
-     "id": "peds-groin",
-     "title": "Hydrocele และ inguinal hernia ในเด็ก",
-     "trend": "ภาพถุงอัณฑะ / ขาหนีบทารก — ถามการตรวจแยกโรคและอายุที่ควรผ่าตัด",
-     "asked": [
-      "ภาพทารก scrotal swelling → key PE ที่ใช้แยก → อายุที่ควรผ่าตัด (67 RoD)",
-      "ทารกชาย 3 เดือน ก้อนขาหนีบสองข้างโผล่ตอนร้อง → Dx + รักษาอย่างไร เมื่อไร (66 RoD)",
-      "ก้อนถุงอัณฑะ cystic ส่องไฟผ่าน คลำเหนือก้อนได้ → Dx + management (65 RoB)"
-     ],
-     "flow": [
-      "ดูภาพ / ฟังโจทย์: ยุบตามการร้อง? ส่องไฟผ่าน? คลำเหนือก้อนได้?",
-      "Dx: hydrocele (communicating / non-communicating) หรือ inguinal hernia",
-      "Management + timing + approach"
-     ],
-     "pattern": [
-      "<b>Key PE:</b> transillumination (hydrocele เรือง) · get above the swelling (คลำขอบบนได้ = hydrocele; คลำไม่ได้ ต่อเข้า inguinal canal = hernia) · ดันกลับได้ / cough-cry impulse = hernia · ทารก: ลำไส้ใน hernia อาจโปร่งแสงได้ จึงใช้ transillumination อย่างเดียวไม่พอ",
-      "<b>Hydrocele เด็ก:</b> เกิดจาก patent processus vaginalis · ส่วนใหญ่หายเองภายใน 1–2 ปี → สังเกต · ผ่าตัดเมื่อไม่หายหลัง ~1–2 ปี, communicating (ขนาดเปลี่ยนตามวัน) หรือมี hernia ร่วม → <b>inguinal approach: high ligation of patent processus vaginalis</b> (ไม่ใช่ทาง scrotum แบบผู้ใหญ่) · ห้ามเจาะดูด",
-      "<b>Inguinal hernia เด็ก:</b> indirect จาก patent processus vaginalis · ไม่หายเอง → <b>herniotomy (high ligation of sac) ทั้งสองข้าง โดยเร็วหลังวินิจฉัย</b> ไม่ใช้ mesh เพราะทารก &lt; 1 ปี / preterm เสี่ยง incarceration สูง",
-      "Incarcerated ไม่ strangulated → manual reduction (sedation) แล้วผ่าตัดใน 24–48 ชม. · strangulated → ผ่าฉุกเฉิน",
-      "<b>ผู้ใหญ่ hydrocele:</b> US หาสาเหตุ secondary (tumor, epididymo-orchitis, torsion) · มีอาการ → Jaboulay / Lord’s plication ทาง scrotum"
-     ],
-     "kw": [
-      "transillumination",
-      "get above the swelling",
-      "patent processus vaginalis",
-      "observe until 1–2 years",
-      "high ligation via inguinal approach",
-      "herniotomy soon after diagnosis",
-      "risk of incarceration"
-     ],
-     "ddx": [
-      "hydrocele",
-      "indirect inguinal hernia",
-      "encysted hydrocele of the cord",
-      "testicular tumor",
-      "undescended testis"
-     ],
-     "pearls": [
-      "ตอบ ‘รอจนโต’ สำหรับไส้เลื่อนเด็ก = ผิด (rubric 66 RoD)",
-      "ตอบผ่าตัด hydrocele เด็กทาง scrotum = ได้บางส่วน",
-      "hydrocele เด็กไม่ต้องตัดถุง แค่ผูก processus vaginalis"
-     ],
-     "members": [
-      "MDCU67|RoD|PPT 12#1",
-      "MDCU67|RoD|PPT 12#2",
-      "MDCU66|RoD|PPT 2#1",
-      "MDCU65|RoB|PPT 14#1"
-     ]
-    },
-    {
-     "id": "ea-tef",
-     "title": "Esophageal atresia with distal tracheoesophageal fistula (Gross type C)",
-     "trend": "CXR ทารกสาย NG ขดใน upper pouch — ถาม type และ VACTERL",
-     "asked": [
-      "CXR ทารกที่วินิจฉัย anomaly ของหลอดอาหาร-หลอดลม → type อะไร → initial management (66 RoA)",
-      "ทารกน้ำลายฟูมปาก สำลักตอนดูดนมครั้งแรก ใส่สายไม่ลง → Dx + type → associated anomalies (65 RoC)"
-     ],
-     "flow": [
-      "อ่านภาพ: ปลายสายขดอยู่ระดับไหน + มีลมในท้องไหม",
-      "Dx + Gross type พร้อมเหตุผล",
-      "Associated anomalies (VACTERL) + การตรวจ",
-      "Initial management → แผนผ่าตัด"
-     ],
-     "pattern": [
-      "สาย NG / OG ขดใน upper esophageal pouch (T2–T4) + <b>มีลมในกระเพาะ / ลำไส้</b> → EA with distal TEF = <b>Gross type C</b> (Vogt 3b) ~85%",
-      "<b>Gasless abdomen</b> → pure EA (Gross A) · H-type (E) = TEF ไม่มี atresia (สำลัก / ปอดอักเสบซ้ำ)",
-      "<b>VACTERL:</b> Vertebral, Anorectal, Cardiac (บ่อยสุด — echo ดู right-sided aortic arch ด้วย), TE fistula, Renal (US), Limb (radial ray) · อื่น: trisomy 18 / 21, CHARGE · polyhydramnios, prematurity",
-      "<b>Initial:</b> NPO · Replogle (double-lumen) tube ใน upper pouch ต่อ continuous low suction · head up 30–45° · IV fluid + glucose, keep warm · ATB ถ้า aspiration pneumonia · เลี่ยง bag-mask แรง ๆ",
-      "<b>Definitive:</b> right extrapleural thoracotomy → ligate fistula + primary esophageal anastomosis"
-     ],
-     "kw": [
-      "coiled NG tube in upper pouch",
-      "gas in stomach = distal fistula",
-      "Gross type C",
-      "VACTERL",
-      "echocardiogram (aortic arch)",
-      "Replogle tube continuous suction",
-      "head up",
-      "ligation of TEF + primary anastomosis"
-     ],
-     "ddx": [
-      "pure esophageal atresia (gasless abdomen)",
-      "H-type TEF",
-      "esophageal stricture"
-     ],
-     "pearls": [
-      "บอกแค่ ‘TEF’ ไม่บอก type = ครึ่งคะแนน",
-      "บอก VACTERL แต่ไม่บอกการตรวจที่ใช้หา หรือบอกแค่ cardiac = ได้ไม่เต็ม"
-     ],
-     "members": [
-      "MDCU66|RoA|PPT 7#1",
-      "MDCU66|RoA|PPT 7#2",
-      "MDCU65|RoC|PPT 13#1",
-      "MDCU65|RoC|PPT 13#2"
-     ]
-    },
-    {
-     "id": "arm",
-     "title": "Anorectal malformation (imperforate anus) ± rectourethral fistula",
-     "trend": "ภาพฝีเย็บทารกไม่มีรูทวาร — ถามชนิด fistula, VACTERL และ staged repair",
-     "asked": [
-      "ภาพทารกชาย imperforate anus มีขี้เทาที่ปลาย urethra → Dx → associated anomalies → treatment (67 RoC)",
-      "ภาพฝีเย็บทารก → Dx → management → สิ่งที่ต้องพิจารณาเพิ่ม (66 RoB)"
-     ],
-     "flow": [
-      "Dx: ARM + ระบุชนิด fistula จากที่เห็น",
-      "Initial care + รอ 16–24 ชม. ดู meconium",
-      "Low → anoplasty / high → colostomy + PSARP",
-      "VACTERL + การตรวจ"
-     ],
-     "pattern": [
-      "<b>Low:</b> meconium ออกที่ perineum / median raphe (cutaneous fistula, bucket handle) → <b>anoplasty (minimal PSARP)</b> ช่วงแรกเกิด",
-      "<b>High / intermediate:</b> meconium ในปัสสาวะหรือที่ meatus = rectourethral fistula, flat bottom, ไม่มี fistula ที่ผิว → <b>divided descending colostomy</b> → อายุ ~1–3 เดือน distal colostogram + <b>PSARP</b> ปิด fistula → anal dilatation 2 สัปดาห์หลังผ่าตัด → ปิด colostomy",
-      "Initial: NPO, OG decompression, IV fluid + glucose, IV ATB · <b>รอ 16–24 ชม.</b> ให้ meconium ออกทาง fistula ก่อนตัดสินใจ (± cross-table lateral prone film)",
-      "<b>VACTERL:</b> sacrum / spine (X-ray, spinal US — tethered cord), cardiac (echo), EA/TEF (ใส่ OG ผ่านได้ไหม), renal (US ไต — พบบ่อยสุดร่วมกับ ARM, VCUG), limb · sacral ratio พยากรณ์การกลั้นอุจจาระ"
-     ],
-     "kw": [
-      "imperforate anus / anorectal malformation",
-      "rectourethral fistula",
-      "perineal fistula = low",
-      "wait 16–24 h",
-      "colostomy → PSARP → closure",
-      "anoplasty",
-      "VACTERL",
-      "renal US, echo, spine"
-     ],
-     "pearls": [
-      "ตอบแค่ imperforate anus ไม่บอกชนิด fistula = บางส่วน (67 RoC)",
-      "ตอบ loop colostomy แทน divided colostomy ได้เกือบเต็ม",
-      "ลืมรอ 16–24 ชม. ก่อนจัดชนิด เป็นจุดเสียคะแนนบ่อย"
-     ],
-     "members": [
-      "MDCU67|RoC|MEQ 11#1",
-      "MDCU67|RoC|MEQ 11#2",
-      "MDCU67|RoC|MEQ 11#3",
-      "MDCU66|RoB|PPT 2#1",
-      "MDCU66|RoB|PPT 2#2",
-      "MDCU66|RoB|PPT 2#3"
-     ]
-    },
-    {
-     "id": "cdh",
-     "title": "Congenital diaphragmatic hernia (Bochdalek)",
-     "asked": [
-      "ภาพ X-ray ทรวงอก-ช่องท้องทารกแรกเกิด → Dx → initial และ definitive treatment (67 RoB)",
-      "CDH หรือ eventration (78C): Dx, Tx"
-     ],
-     "flow": [
-      "อ่านภาพ: bowel loops ในทรวงอกซ้าย, mediastinum ถูกดันไปขวา, ลมในท้องน้อย, ปลาย OG ในทรวงอก",
-      "Dx",
-      "Initial resuscitation",
-      "Definitive repair หลัง stabilize"
-     ],
-     "pattern": [
-      "Left CDH (Bochdalek, posterolateral 80–85%) — ปัญหาหลัก pulmonary hypoplasia + pulmonary hypertension",
-      "<b>Initial:</b> intubate ทันที — <b>ห้าม bag-mask ventilation</b> · gentle ventilation (PIP ต่ำ, permissive hypercapnia) · OG / NG continuous suction · NPO, IV fluid, glucose · arterial line, รักษา PPHN (iNO, inotrope), HFOV / ECMO ถ้าไม่ตอบสนอง · echo หา cardiac anomaly",
-      "<b>Definitive:</b> surgical repair (reduce อวัยวะ + เย็บ / patch diaphragm) <b>หลัง stabilize</b> ไม่ใช่ emergency (CDH EURO Consortium 2019)"
-     ],
-     "kw": [
-      "bowel loops in left hemithorax",
-      "mediastinal shift to the right",
-      "Bochdalek",
-      "intubation, no bag-mask",
-      "OG decompression",
-      "pulmonary hypertension",
-      "delayed repair after stabilization"
-     ],
-     "ddx": [
-      "congenital pulmonary airway malformation",
-      "eventration of diaphragm",
-      "Morgagni hernia"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 6#1",
-      "MDCU67|RoB|MEQ 6#2",
-      "MDCU78|RoC|MEQ 15#1",
-      "MDCU78|RoC|MEQ 15#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Pediatric surgery — neonatal bowel obstruction & jaundice",
-   "sections": [
-    {
-     "id": "malrotation-volvulus",
-     "title": "Malrotation with midgut volvulus",
-     "trend": "bilious vomiting ในทารกที่เคยปกติ — ถามทั้ง plain film และ UGI study และ Ladd’s procedure ครบขั้น",
-     "asked": [
-      "ทารกแรกเกิดอาเจียนเขียวทันที + plain film → provisional Dx → treatment (67 RoC)",
-      "ทารก 3 สัปดาห์ / 10 วันอาเจียนน้ำดี + UGI contrast → Dx (บอก sign) → management · แยกจาก pyloric stenosis อย่างไร (66 RoD, 65 RoA)",
-      "ทารก 2 สัปดาห์ bilious vomiting + film → Dx → พยาธิสภาพ → treatment (65 RoB)",
-      "3 wk abrupt bilious vomiting + AXR → Dx, Tx (78B)"
-     ],
-     "flow": [
-      "Bilious vomiting = surgical emergency จนกว่าจะพิสูจน์ว่าไม่ใช่",
-      "อ่านภาพ: plain film (กระเพาะ / duodenum ขยาย ลมปลายน้อย) หรือ UGI (DJ flexure ผิดที่, corkscrew, beak)",
-      "Dx + พยาธิสภาพ (Ladd’s bands, narrow mesentery)",
-      "Resuscitation → emergency Ladd’s procedure 5 ขั้น"
-     ],
-     "pattern": [
-      "<b>UGI:</b> DJ junction อยู่ขวาต่อแนวกลาง / ต่ำกว่า pylorus, duodenum ไม่ข้ามแนวกลาง, <b>corkscrew</b> sign, beak sign (อุดตันสมบูรณ์) · US: whirlpool sign, SMV อยู่ซ้ายของ SMA · plain film: กระเพาะ ± duodenum ขยาย ลมปลายน้อย (อาจ double bubble + มีลมปลาย) หรือปกติ",
-      "<b>พยาธิสภาพ:</b> ลำไส้หมุนไม่ครบ 270° → cecum อยู่ RUQ มี <b>Ladd’s bands</b> พาดผ่าน duodenum + ฐาน mesentery แคบ → บิดรอบ SMA → midgut ขาดเลือดในไม่กี่ชั่วโมง",
-      "<b>Resuscitation:</b> NPO, NG / OG decompression, IV fluid bolus + electrolyte, IV broad-spectrum ATB, keep warm, เตรียมเลือด · shock / peritonitis → ผ่าตัดทันทีไม่ต้องรอภาพ",
-      "<b>Ladd’s procedure:</b> (1) detorsion <b>ทวนเข็มนาฬิกา</b> + ประเมิน viability (ก้ำกึ่ง → second look 24–48 ชม.) (2) ตัด Ladd’s bands (3) ขยายฐาน mesentery (4) appendectomy (5) วางลำไส้เล็กขวา ลำไส้ใหญ่ซ้าย · ลำไส้ตายมาก → short bowel (TPN)",
-      "<b>แยก HPS:</b> HPS อายุ 2–8 สัปดาห์ อาเจียนพุ่ง <b>ไม่มีน้ำดี</b>, olive mass, hypochloremic hypokalemic metabolic alkalosis, US muscle ≥3–4 mm / length ≥15–17 mm, UGI string / shoulder sign → แก้น้ำเกลือแร่ก่อนแล้ว Ramstedt pyloromyotomy (ไม่ฉุกเฉิน)"
-     ],
-     "kw": [
-      "bilious vomiting = surgical emergency",
-      "malrotation with midgut volvulus",
-      "DJ junction right of midline",
-      "corkscrew sign",
-      "Ladd’s bands",
-      "counterclockwise detorsion",
-      "widen mesentery",
-      "appendectomy",
-      "small bowel right, colon left"
-     ],
-     "ddx": [
-      "duodenal atresia / stenosis / web",
-      "annular pancreas",
-      "jejunal atresia",
-      "hypertrophic pyloric stenosis (non-bilious)",
-      "intussusception"
-     ],
-     "pearls": [
-      "ตอบ intussusception (67 RoC) หรือ pyloric stenosis (66 RoD) = ไม่ได้คะแนน",
-      "Ladd’s ต้องบอกให้ครบองค์ประกอบ — ลืม appendectomy หรือทิศ detorsion เสียคะแนน",
-      "น้ำดีในอาเจียน = อุดตันต่ำกว่า ampulla → ไม่ใช่ HPS"
-     ],
-     "members": [
-      "MDCU67|RoC|MEQ 6#1",
-      "MDCU67|RoC|MEQ 6#2",
-      "MDCU66|RoD|PPT 9#1",
-      "MDCU66|RoD|PPT 9#2",
-      "MDCU65|RoA|PPT 8#1",
-      "MDCU65|RoA|PPT 8#2",
-      "MDCU65|RoB|PPT 5#1",
-      "MDCU78|RoB|MEQ 2#1",
-      "MDCU78|RoB|MEQ 2#2"
-     ]
-    },
-    {
-     "id": "duodenal-atresia",
-     "title": "Duodenal atresia (double bubble) — pathogenesis",
-     "trend": "plain film double bubble + polyhydramnios — ข้อย่อยที่สองถาม ‘most acceptable theory’ แทบทุกครั้ง",
-     "asked": [
-      "ทารกมารดา polyhydramnios อาเจียนน้ำดีหลังกินครั้งแรก + plain film → Dx → most acceptable theory of pathogenesis (67 RoA, 65 RoB, 65 RoC)"
-     ],
-     "flow": [
-      "อ่าน film: double bubble + ไม่มีลมส่วนปลาย",
-      "Dx: duodenal atresia",
-      "Pathogenesis: failure of recanalization",
-      "(± associated anomalies + treatment)"
-     ],
-     "pattern": [
-      "<b>Double bubble</b> (กระเพาะ + duodenal bulb) + <b>ไม่มีลมในลำไส้ส่วนปลาย</b> → duodenal atresia · ส่วนใหญ่ distal ต่อ ampulla → อาเจียนมีน้ำดีวันแรก · polyhydramnios (กลืนน้ำคร่ำผ่านไม่ได้)",
-      "<b>Pathogenesis:</b> <b>failure of recanalization</b> ของ duodenum — solid cord stage (สัปดาห์ 5–6) แล้วไม่เกิด vacuolization กลับเป็นท่อ (สัปดาห์ 8–10) → atresia / stenosis / web · ต่างจาก jejunoileal atresia = intrauterine vascular accident",
-      "ภาวะร่วม: Down syndrome ~30%, CHD, annular pancreas, malrotation, VACTERL (เพราะเป็น defect ระยะต้น)",
-      "<b>Treatment:</b> NG decompression, IV fluid / electrolyte, echo → <b>duodenoduodenostomy (diamond-shaped)</b>",
-      "Double bubble + <b>มีลมปลาย</b> → incomplete (stenosis / web) หรือ <b>malrotation with volvulus</b> → UGI ด่วน"
-     ],
-     "kw": [
-      "double bubble",
-      "no distal gas",
-      "duodenal atresia",
-      "failure of recanalization",
-      "polyhydramnios",
-      "Down syndrome",
-      "diamond-shaped duodenoduodenostomy"
-     ],
-     "ddx": [
-      "malrotation with midgut volvulus",
-      "duodenal stenosis / web",
-      "annular pancreas"
-     ],
-     "pearls": [
-      "ตอบ Down syndrome เป็นกลไก = 0 (เป็นภาวะร่วม ไม่ใช่ pathogenesis)",
-      "ตอบ vascular accident = 0 (เป็นกลไกของ jejunoileal atresia)",
-      "ตอบ malrotation เป็นคำตอบหลักของ double bubble ไม่มีลมปลาย = 0 (65 RoC)"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 12#1",
-      "MDCU67|RoA|MEQ 12#2",
-      "MDCU65|RoB|PPT 13#1",
-      "MDCU65|RoC|PPT 12#1",
-      "MDCU65|RoC|PPT 12#2"
-     ]
-    },
-    {
-     "id": "hirschsprung",
-     "title": "Hirschsprung disease (และ DDx ของ distal neonatal obstruction)",
-     "trend": "ออกเป็นคู่สไลด์ (plain film → contrast enema) — ถาม investigation ยืนยันและ initial vs definitive treatment",
-     "asked": [
-      "ทารก 3 วัน อาเจียนเขียว ไม่ถ่ายขี้เทา + plain film → DDx → investigation ที่ขอ (67 RoB)",
-      "สไลด์ต่อ: barium / contrast enema → Dx → initial และ definitive treatment (67 RoB, 67 RoD)",
-      "Contrast enema → DDx → key investigation ที่ใช้แยก (67 RoD)",
-      "3 วัน อาเจียน ไม่ถ่ายขี้เทา AXR lower gut obstruction → DDx 3, investigation, management (78A)"
-     ],
-     "flow": [
-      "Plain film: ลำไส้ขยายหลาย loop + air-fluid levels = distal (low) obstruction → DDx",
-      "Contrast enema: rectum / sigmoid แคบ → transition zone → colon ต้นขยาย",
-      "ยืนยัน rectal suction biopsy",
-      "Initial (decompression, rectal irrigation, จัดการ enterocolitis) → definitive pull-through"
-     ],
-     "pattern": [
-      "<b>DDx distal obstruction ทารก:</b> Hirschsprung · meconium plug / small left colon (มารดาเบาหวาน) · meconium ileus (CF — น้อยในไทย) · ileal / colonic atresia · ARM (ดูรูทวาร) · sepsis / hypothyroidism",
-      "<b>Contrast enema</b> (water-soluble ในทารก): transition zone, rectosigmoid index &lt; 1, contrast ค้าง &gt; 24 ชม.",
-      "<b>Gold standard: rectal suction biopsy</b> — ไม่มี ganglion cells ใน submucosal plexus, nerve trunk หนา, AChE เพิ่ม / calretinin ลบ · anorectal manometry: ไม่มี RAIR (เด็กโต)",
-      "พยาธิ: neural crest cells เคลื่อนลงไม่ถึงปลาย → aganglionic segment ไม่คลาย · rectosigmoid 75–80% · ร่วม Down syndrome · ไม่ถ่ายขี้เทา &gt; 24–48 ชม., blast sign",
-      "<b>Initial:</b> NPO, OG / NG, IV fluid / electrolyte, <b>rectal irrigation (washout) NSS อุ่น</b> วันละ 1–2 ครั้ง · Hirschsprung-associated enterocolitis (ไข้ ท้องอืด ถ่ายเหลวเหม็น) → IV ATB · decompress ไม่ได้ / enterocolitis รุนแรง / long segment → <b>leveling colostomy</b> (ยืนยัน ganglion ด้วย frozen section)",
-      "<b>Definitive: pull-through</b> — transanal endorectal (Soave / De la Torre), Swenson, Duhamel · ติดตาม enterocolitis, ท้องผูก, incontinence"
-     ],
-     "kw": [
-      "distal bowel obstruction",
-      "contrast enema: transition zone",
-      "rectosigmoid index < 1",
-      "rectal suction biopsy = gold standard",
-      "absent ganglion cells",
-      "rectal irrigation",
-      "enterocolitis",
-      "leveling colostomy",
-      "pull-through"
-     ],
-     "ddx": [
-      "meconium plug / small left colon syndrome",
-      "meconium ileus",
-      "ileal / colonic atresia",
-      "anorectal malformation",
-      "functional constipation",
-      "sepsis / hypothyroidism"
-     ],
-     "pearls": [
-      "⚠ ไฟล์เดิม (67 RoD) ตอบ barium enema เป็น key investigation — bank แก้เป็น rectal biopsy (enema แยกโรคได้ไม่แน่นอน) · ตอบ enema ได้แค่บางส่วน",
-      "ไฟล์ 67 RoB ตอบ barium enema — ในทารกใช้ water-soluble contrast",
-      "meconium plug ~10% เป็น Hirschsprung → biopsy ถ้าอาการไม่หายหลังขับ plug"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 4#1",
-      "MDCU67|RoB|MEQ 4#2",
-      "MDCU67|RoB|MEQ 5#1",
-      "MDCU67|RoB|MEQ 5#2",
-      "MDCU67|RoD|PPT 13#1",
-      "MDCU67|RoD|PPT 13#2",
-      "MDCU67|RoD|PPT 14#1",
-      "MDCU67|RoD|PPT 14#2",
-      "MDCU78|RoA|MEQ 4#1",
-      "MDCU78|RoA|MEQ 4#2",
-      "MDCU78|RoA|MEQ 4#3"
-     ]
-    },
-    {
-     "id": "biliary-atresia",
-     "title": "Biliary atresia (neonatal cholestasis, acholic stool)",
-     "trend": "ภาพทารกตัวเหลือง / ผ้าอ้อมอุจจาระซีด — ถาม DDx และ Kasai ก่อน 60 วัน",
-     "asked": [
-      "ทารก 7 สัปดาห์ ตัวเหลือง ท้องโต อุจจาระซีด direct bilirubin สูง → DDx → investigations + management (65 RoA)",
-      "ภาพอุจจาระทารก 6 สัปดาห์ที่เหลืองตั้งแต่สัปดาห์แรก → most likely Dx (65 RoC)",
-      "เด็ก 2 เดือนอึซีด: 3 โรค + ที่ รพช. (78A)",
-      "Acholic stool เหมือน AC (78C)"
-     ],
-     "flow": [
-      "บอกว่าเป็น conjugated hyperbilirubinemia + acholic stool",
-      "Biliary atresia จนกว่าจะพิสูจน์ว่าไม่ใช่ + DDx",
-      "Investigations ตามลำดับ",
-      "Kasai ก่อน 60 วัน → transplant ถ้าล้มเหลว"
-     ],
-     "pattern": [
-      "Neonatal cholestasis = direct bilirubin &gt; 1 mg/dL หรือ &gt; 20% ของ total · ทารกครบกำหนดเหลือง &gt; 2 สัปดาห์ต้องเจาะ direct bilirubin + ดู stool color card",
-      "<b>DDx:</b> choledochal cyst, neonatal hepatitis, TORCH / CMV / UTI-sepsis, Alagille, PFIC, α1-antitrypsin deficiency, galactosemia, hypothyroidism, TPN cholestasis, inspissated bile",
-      "<b>Investigations:</b> LFT (GGT สูง) · fasting US (GB เล็ก / ไม่เห็น / ไม่หดตัว, <b>triangular cord sign</b>, แยก choledochal cyst) · HIDA (จับดีแต่ไม่ขับลงลำไส้) · liver biopsy (bile duct proliferation, bile plug) · <b>intraoperative cholangiogram = gold standard</b>",
-      "<b>Kasai portoenterostomy</b> (Roux-en-Y jejunum ต่อ porta hepatis) ให้เร็วที่สุด — ดีสุด <b>ก่อนอายุ 60 วัน</b> · หลังผ่าตัด: UDCA, vitamin A D E K, MCT formula, prophylactic ATB กัน cholangitis · ล้มเหลว / cirrhosis → <b>liver transplantation</b> (ข้อบ่งชี้ที่พบบ่อยสุดในเด็ก)"
-     ],
-     "kw": [
-      "acholic (clay-coloured) stool",
-      "conjugated hyperbilirubinemia",
-      "biliary atresia",
-      "triangular cord sign",
-      "HIDA: no excretion",
-      "intraoperative cholangiogram",
-      "Kasai before 60 days",
-      "liver transplantation"
-     ],
-     "ddx": [
-      "choledochal cyst",
-      "neonatal hepatitis",
-      "Alagille syndrome",
-      "TORCH infection",
-      "α1-antitrypsin deficiency",
-      "TPN-associated cholestasis"
-     ],
-     "pearls": [
-      "ตอบ obstructive jaundice ไม่ระบุโรค = ครึ่งคะแนน (65 RoC)",
-      "บอก Kasai โดยไม่บอกเวลา (ก่อน 60 วัน) = ได้บางส่วน"
-     ],
-     "members": [
-      "MDCU65|RoA|PPT 6#1",
-      "MDCU65|RoA|PPT 6#2",
-      "MDCU65|RoC|PPT 10#1",
-      "MDCU78|RoA|MEQ 7#1",
-      "MDCU78|RoA|MEQ 7#2",
-      "MDCU78|RoC|MEQ 2#1",
-      "MDCU78|RoC|MEQ 2#2"
-     ]
-    },
-    {
-     "id": "constipation-child",
-     "title": "AXR เด็กอุจจาระเต็มลำไส้: fecal impaction (แยก Hirschsprung)",
-     "asked": [
-      "AXR เด็ก: Dx, initial management ละเอียด, definite treatment (78B)"
-     ],
-     "pattern": [
-      "Disimpaction (PEG 1–1.5 g/kg/วัน) → maintenance + toilet training · ท้องผูกตั้งแต่แรกเกิด → Hirschsprung → pull-through"
-     ],
-     "flow": [
-      "Dx → disimpaction → maintenance → behavioral"
-     ],
-     "kw": [
-      "fecal impaction",
-      "PEG",
-      "disimpaction",
-      "toilet training",
-      "Hirschsprung"
-     ],
-     "members": [
-      "MDCU78|RoB|MEQ 3#1",
-      "MDCU78|RoB|MEQ 3#2",
-      "MDCU78|RoB|MEQ 3#3"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Plastic, craniofacial & burn",
-   "sections": [
-    {
-     "id": "cleft-lip",
-     "title": "Cleft lip ± palate — timing ของการซ่อม (rule of 10s) และคำแนะนำมารดา",
-     "trend": "ภาพทารกปากแหว่งออกทุกปี — คำถามหลักคือ ‘อายุที่ผ่าตัด + เหตุผล’",
-     "asked": [
-      "ภาพทารก → recommended age to repair → reason (67 RoA, 67 RoD)",
-      "ภาพทารก → Dx → ผ่าตัดเมื่อไร → คำแนะนำแรกแก่มารดา (66 RoA)",
-      "ภาพ bilateral cleft lip → Dx → ซ่อมเมื่อไรและทำไม (66 RoD)",
-      "คำแนะนำมารดาในการเลี้ยงดู + อายุที่ซ่อมพร้อมเหตุผล (67 RoC)",
-      "Cleft palate เหมือน AC (78C)"
-     ],
-     "flow": [
-      "Dx: unilateral / bilateral, complete / incomplete cleft lip ± palate (ตรวจในปาก)",
-      "Timing: lip ~3 เดือน (rule of 10s) · palate 9–18 เดือน · alveolar bone graft 8–11 ปี",
-      "เหตุผลของแต่ละ timing",
-      "คำแนะนำมารดา: feeding, หู, ทีมสหสาขา, จิตใจ"
-     ],
-     "pattern": [
-      "<b>Lip repair (cheiloplasty) ~3 เดือน (10–12 สัปดาห์)</b> — rule of 10s: อายุ ≥ 10 สัปดาห์, น้ำหนัก ≥ 10 lb (~4.5 kg), Hb ≥ 10 g/dL (± WBC &lt; 10,000)",
-      "เหตุผล lip: ดมยาปลอดภัยขึ้น (น้ำหนัก / Hb พอ ทนเสียเลือด), เนื้อเยื่อโตพอให้เย็บแม่นยำ, ได้ตรวจหา anomaly อื่น (หัวใจ, syndrome) ก่อน, ช่วยการดูดนมและความสัมพันธ์ครอบครัว · ± nasoalveolar molding ก่อน (bilateral มักทำ NAM / lip adhesion)",
-      "<b>Palate repair 9–18 เดือน (~1 ปี)</b> — ก่อนเริ่มพูด ให้ velopharyngeal function พร้อม ลด hypernasal speech และปัญหาหูชั้นกลาง · ไม่เร็วเกินไปเพราะรบกวนการเจริญของ maxilla",
-      "Alveolar bone graft 8–11 ปี (ก่อน canine ขึ้น) · revision / rhinoplasty วัยรุ่น",
-      "<b>คำแนะนำมารดา:</b> ไม่ใช่ความผิดของแม่ แก้ไขได้ผลดี · cleft lip อย่างเดียว → ให้นมแม่ต่อได้ (ใช้นิ้วช่วยปิดรอยแยก) · มี cleft palate → บีบนมแม่ป้อนด้วย squeezable bottle / จุกพิเศษ / feeding obturator, ท่าศีรษะสูง ป้อนช้า เรอบ่อย ระวังสำลัก ติดตามน้ำหนัก · ดูแลช่องปาก · สังเกต otitis media with effusion · ทีมสหสาขา (plastic, ทันตกรรมจัดฟัน, ENT, speech therapist, genetic counseling) · นัดผ่าตัด"
-     ],
-     "kw": [
-      "cleft lip ± cleft palate",
-      "rule of 10s (10 weeks, 10 lb, Hb 10)",
-      "lip repair ~3 months",
-      "palate repair 9–18 months before speech",
-      "safe anesthesia",
-      "speech development vs maxillary growth",
-      "squeeze bottle / special nipple",
-      "multidisciplinary team"
-     ],
-     "pearls": [
-      "ตอบ ‘ภายใน 1 ปีเพื่อพัฒนาการพูด’ อย่างเดียวได้บางส่วน — ต้องแยก lip กับ palate",
-      "บอกเวลาแต่ไม่บอกเหตุผล = บางส่วน",
-      "แนะนำให้งดนมแม่ = ไม่ได้คะแนนส่วน feeding (66 RoA)",
-      "ข้อย่อย Dx ของ 67 RoC เป็นข้อที่ bank เติมเอง"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 10#1",
-      "MDCU67|RoA|MEQ 10#2",
-      "MDCU67|RoC|MEQ 4#1",
-      "MDCU67|RoC|MEQ 4#2",
-      "MDCU67|RoC|MEQ 4#3",
-      "MDCU67|RoD|PPT 6#1",
-      "MDCU67|RoD|PPT 6#2",
-      "MDCU66|RoA|PPT 9#1",
-      "MDCU66|RoA|PPT 9#2",
-      "MDCU66|RoA|PPT 9#3",
-      "MDCU66|RoD|PPT 3#1",
-      "MDCU78|RoC|MEQ 3#1",
-      "MDCU78|RoC|MEQ 3#2",
-      "MDCU78|RoC|MEQ 3#3"
-     ]
-    },
-    {
-     "id": "burn-depth",
-     "title": "Superficial vs deep partial-thickness (2nd-degree) burn — เปรียบเทียบทุกด้าน + การรักษา",
-     "trend": "โจทย์เดียวกันซ้ำสามรอบ — ‘compare in every aspect including management’",
-     "asked": [
-      "Compare superficial second-degree with deep second-degree burns in every aspect, including management (67 RoA, 67 RoC, 66 RoA)",
-      "Burn เหมือน AC: depth, %TBSA, Parkland (78C)"
-     ],
-     "flow": [
-      "ความลึก",
-      "ลักษณะ (สี, blister, ความชื้น, blanching / capillary refill)",
-      "ความรู้สึกเจ็บ (± ขนดึงหลุด)",
-      "การหาย + แผลเป็น",
-      "การรักษาที่ต่างกัน"
-     ],
-     "pattern": [
-      "<b>ความลึก:</b> superficial = epidermis + papillary dermis · deep = ถึง reticular dermis",
-      "<b>ลักษณะ:</b> superficial = ชมพูแดง ชื้น มี blister กดซีดกลับเร็ว · deep = ซีดขาวปนแดง (mottled) แห้งกว่า blister น้อย / แตก capillary refill ช้า / ไม่ซีด",
-      "<b>ความเจ็บ:</b> superficial เจ็บมาก · deep เจ็บน้อยลง รู้สึกแค่แรงกด (pinprick ลด) · ขน: deep ดึงหลุดง่าย",
-      "<b>การหาย:</b> superficial หายเองจาก skin appendages ใน 10–14 วัน (&lt; 3 สัปดาห์) แทบไม่มีแผลเป็น (สีผิวเปลี่ยนได้) · deep &gt; 3 สัปดาห์ เกิด hypertrophic scar / contracture",
-      "<b>รักษา superficial:</b> ทำความสะอาด เอาตุ่มแตก / ผิวหลุดออก, moist / occlusive dressing (silver sulfadiazine, silver dressing, biological dressing), ยาแก้ปวด, ยกส่วนที่บาดเจ็บ",
-      "<b>รักษา deep:</b> dressing + ประเมินซ้ำใน 48–72 ชม. (burn wound conversion) → ถ้าคาดว่าไม่หายใน ~3 สัปดาห์ → <b>early tangential excision + split-thickness skin graft</b> · splint ป้องกัน contracture, physiotherapy, pressure garment 6–12 เดือน, silicone",
-      "ทั้งคู่: tetanus prophylaxis, ไม่ให้ systemic ATB ป้องกัน · นับรวมใน %TBSA (1st degree ไม่นับ)"
-     ],
-     "kw": [
-      "papillary vs reticular dermis",
-      "blister, moist, blanching",
-      "mottled, dry, slow capillary refill",
-      "painful vs reduced pain",
-      "heal < 3 weeks vs > 3 weeks",
-      "hypertrophic scar / contracture",
-      "tangential excision + STSG",
-      "pressure garment"
-     ],
-     "pearls": [
-      "⚠ ไฟล์เดิม (67 RoA) ตอบรักษา conservative ทั้งคู่ — bank แก้ว่า deep ต้อง excision + STSG ถ้าไม่หายใน 3 สัปดาห์",
-      "ตอบเฉพาะแผลเป็น / ไม่ครบ 5 ด้าน ได้คะแนนน้อย — rubric ให้ด้านละ 1 คะแนน"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 9#1",
-      "MDCU67|RoC|MEQ 3#1",
-      "MDCU66|RoA|PPT 12#1",
-      "MDCU78|RoC|MEQ 11#1",
-      "MDCU78|RoC|MEQ 11#2",
-      "MDCU78|RoC|MEQ 11#3"
-     ]
-    },
-    {
-     "id": "facial-nerve",
-     "title": "แผลแทง / ฉีกที่แก้ม-หน้าหู: facial nerve branch injury และ parotid duct",
-     "trend": "ภาพแผลแก้มแนว tragus → มุมปาก — ถามแขนงที่บาดเจ็บ อาการ และวิธีตรวจ",
-     "asked": [
-      "แผลมีดที่หน้า → เส้นประสาทใดอาจบาดเจ็บ ตรวจอย่างไร (67 RoC)",
-      "แผลแทงกลางแก้มสงสัย buccal branch → อาการและอาการแสดง → วิธีตรวจ (66 RoD)",
-      "แผลแทงหน้าใบหูเหนือ parotid → โครงสร้างสำคัญที่อาจบาดเจ็บ + อาการ → วิธีทดสอบ (65 RoA)"
-     ],
-     "flow": [
-      "ระบุโครงสร้าง: แขนง facial nerve ตามแนวแผล + parotid (Stensen’s) duct",
-      "อาการตามแขนง",
-      "ตรวจกล้ามเนื้อแต่ละแขนง เทียบสองข้าง ก่อนฉีดยาชา",
-      "ตรวจ parotid duct",
-      "แผนรักษา (explore + repair ภายใน 72 ชม.)"
-     ],
-     "pattern": [
-      "CN VII แตก 5 แขนงใน parotid: temporal, zygomatic, buccal, marginal mandibular, cervical · บาดเจ็บ main trunk = อ่อนแรงทั้งซีกรวมหน้าผาก (LMN)",
-      "<b>Temporal:</b> เลิกคิ้ว / ย่นหน้าผาก · <b>Zygomatic:</b> หลับตาแน่น (lagophthalmos → exposure keratitis) · <b>Buccal</b> (เสี่ยงสุดในแผลแก้ม): ยิ้มยิงฟัน, ย่นจมูก, เป่าแก้ม (กดดูลมรั่ว), ผิวปาก — อาการ: มุมปากไม่ยก, nasolabial fold แบน, อาหารค้างกระพุ้งแก้ม, น้ำลายไหล · <b>Marginal mandibular:</b> ทำปากเบะ / ยื่นริมฝีปากล่าง · <b>Cervical:</b> platysma",
-      "ตรวจ <b>ก่อนฉีดยาชา</b> และเทียบสองข้าง · ผู้ป่วยไม่ร่วมมือ: ดูสีหน้าตอนร้อง / ยิ้ม · sensory: infraorbital, auriculotemporal, great auricular",
-      "<b>Parotid duct</b> (แนว tragus → กึ่งกลางริมฝีปากบน): น้ำลายรั่วจากแผล, สอด probe / IV catheter ผ่านรูเปิดตรงฟันกรามบนซี่ที่สอง ดูว่าโผล่ที่แผล, ฉีด methylene blue / NSS ย้อน",
-      "<b>Repair:</b> แผลอยู่ด้านหลังเส้นดิ่งผ่าน lateral canthus → explore + microsurgical repair <b>ภายใน 72 ชม.</b> (ยังใช้ nerve stimulator หาปลายส่วนปลายได้) · ด้านหน้าเส้นนี้แขนงประสานกันมาก มักฟื้นเอง · ป้องกันกระจกตาถ้าหลับตาไม่สนิท"
-     ],
-     "kw": [
-      "facial nerve (CN VII) branches",
-      "buccal branch: smile, blow cheeks, whistle",
-      "zygomatic branch: close eyes tightly",
-      "marginal mandibular: lower lip",
-      "test before local anesthetic",
-      "parotid (Stensen’s) duct",
-      "cannulate duct opening opposite upper 2nd molar",
-      "repair within 72 h, lateral to lateral canthus"
-     ],
-     "pearls": [
-      "บอกแค่ ‘facial nerve’ / ‘หน้าเบี้ยว’ ไม่ระบุแขนง = บางส่วน",
-      "ไม่พูดถึง parotid duct = เสียคะแนน (66 RoD, 65 RoA)",
-      "ฉีดยาชาก่อนตรวจทำให้แปลผลไม่ได้"
-     ],
-     "members": [
-      "MDCU67|RoC|MEQ 5#1",
-      "MDCU66|RoD|PPT 6#1",
-      "MDCU65|RoA|PPT 10#1",
-      "MDCU65|RoA|PPT 10#2"
-     ]
-    },
-    {
-     "id": "orbital-floor",
-     "title": "Orbital floor (blowout) fracture",
-     "asked": [
-      "หลังรถจักรยานยนต์ล้ม ตาซ้ายบวมช้ำ เห็นภาพซ้อน enophthalmos CT coronal ไม่พบ zygoma หัก → Dx → treatment (67 RoA)"
-     ],
-     "flow": [
-      "อ่าน coronal CT: orbital floor แตก fat / inferior rectus ห้อยลง maxillary sinus",
-      "Dx + กลไก",
-      "ตรวจเพิ่ม",
-      "ข้อบ่งชี้ผ่าตัด + วิธี + timing"
-     ],
-     "pattern": [
-      "<b>Left orbital floor (pure blowout) fracture</b> — แรงที่ลูกตาเพิ่มแรงดันในเบ้าตา ผนังบางสุด (floor, medial wall) แตก → enophthalmos (ปริมาตรเพิ่ม) + diplopia (inferior rectus ติด — มองขึ้นไม่ได้)",
-      "ตรวจ: visual acuity, EOM + forced duction test, ชาแก้ม / ริมฝีปากบน (infraorbital n.), จักษุแพทย์ตรวจ globe injury",
-      "เบื้องต้น: ห้ามสั่งน้ำมูก / เบ่ง, ประคบเย็น, ศีรษะสูง, ± ATB / steroid",
-      "<b>ข้อบ่งชี้ผ่าตัด:</b> enophthalmos &gt; 2 mm, diplopia ต่อเนื่อง / forced duction บวก, defect ใหญ่ (&gt; 50% ของ floor) → orbital floor exploration + reconstruction (titanium mesh, porous polyethylene, bone graft) ผ่าน transconjunctival / subciliary ภายใน ~2 สัปดาห์ · เด็ก trapdoor / oculocardiac reflex → ผ่าด่วน · ไม่มีข้อบ่งชี้ → observe 1–2 สัปดาห์ให้ยุบบวมแล้วประเมินซ้ำ"
-     ],
-     "kw": [
-      "orbital floor blowout fracture",
-      "herniation of orbital fat / inferior rectus into maxillary sinus",
-      "enophthalmos",
-      "diplopia on upgaze",
-      "forced duction test",
-      "infraorbital nerve numbness",
-      "orbital floor reconstruction"
-     ],
-     "ddx": [
-      "zygomaticomaxillary complex (tripod) fracture",
-      "globe rupture",
-      "retrobulbar hematoma"
-     ],
-     "pearls": [
-      "⚠ ไฟล์เดิมตอบ zygoma (ZMC) fracture + ORIF — ขัดกับโจทย์ที่บอกว่า CT ไม่พบ zygoma หัก · bank แก้เป็น orbital floor fracture"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 11#1",
-      "MDCU67|RoA|MEQ 11#2"
-     ]
-    },
-    {
-     "id": "keloid",
-     "title": "Keloid vs hypertrophic scar",
-     "asked": [
-      "แผลถลอกเล็ก 2 เดือนก่อน กลายเป็นแผลเป็นนูนแข็งใหญ่เกินขอบแผลเดิม → เรียกว่าอะไร → แยกจาก hypertrophic scar อย่างไร (65 RoB)"
-     ],
-     "flow": [
-      "Dx: keloid",
-      "เปรียบเทียบ: ขอบเขต, เวลาเกิด, การยุบเอง, ตำแหน่ง, เป็นซ้ำ, พยาธิ",
-      "(± การรักษา)"
-     ],
-     "pattern": [
-      "<b>Keloid:</b> ลามเกินขอบแผลเดิม · เกิดช้า (หลายเดือน) · ไม่ยุบเอง · ติ่งหู, กลางอก, ไหล่, หลังบน · ผิวเข้ม / ครอบครัว · ตัดอย่างเดียวเป็นซ้ำ 45–100% · พยาธิ: collagen หนา hyalinized ไม่เป็นระเบียบ ไม่มี nodule",
-      "<b>Hypertrophic scar:</b> อยู่ภายในขอบแผล · เกิดเร็ว (สัปดาห์–1 เดือน) · ยุบเองใน 12–18 เดือน · บริเวณมีแรงตึง / ข้อพับ / burn · ตอบสนองต่อแก้แรงตึง (Z-plasty) · พยาธิ: collagen ขนานผิว มี nodule ของ myofibroblast (α-SMA)",
-      "รักษา keloid: intralesional triamcinolone, silicone gel sheet, pressure garment · ผ่าตัด + adjuvant (steroid injection / radiotherapy)"
-     ],
-     "kw": [
-      "keloid",
-      "extends beyond original wound",
-      "does not regress",
-      "hypertrophic scar confined to wound",
-      "regresses in 12–18 months",
-      "high recurrence after excision",
-      "intralesional triamcinolone"
-     ],
-     "members": [
-      "MDCU65|RoB|PPT 10#1",
-      "MDCU65|RoB|PPT 10#2"
-     ]
-    },
-    {
-     "id": "rule-of-nines",
-     "title": "Rule of nines (%TBSA)",
-     "asked": [
-      "ภาพร่างกายผู้ใหญ่ด้านหน้า-หลัง ชี้บริเวณ a–h → บอก %TBSA ของแต่ละส่วน (67 RoB)"
-     ],
-     "flow": [
-      "บอก % ของแต่ละบริเวณที่ชี้ แยกหน้า / หลัง",
-      "(± ใช้ต่อใน Parkland)"
-     ],
-     "pattern": [
-      "<b>ผู้ใหญ่:</b> ศีรษะ-คอ 9% (หน้า 4.5 + หลัง 4.5) · แขนแต่ละข้าง 9% (4.5 + 4.5) · ลำตัวหน้า 18% (อก 9 + ท้อง 9) · ลำตัวหลัง 18% · ขาแต่ละข้าง 18% (หน้า 9 + หลัง 9) · perineum 1%",
-      "<b>เด็ก:</b> ศีรษะ 18%, ขาข้างละ 14% (หลังอายุ 1 ปี ศีรษะลด 1% ขาเพิ่ม 0.5% ต่อปี) หรือ Lund–Browder · แผลกระจาย: ฝ่ามือผู้ป่วยรวมนิ้ว ≈ 1%",
-      "นับเฉพาะ partial + full thickness · Parkland 4 mL × kg × %TBSA (ATLS 10th: ผู้ใหญ่ 2 mL × kg × %TBSA) ครึ่งแรกใน 8 ชม. นับจากเวลาเกิดเหตุ"
-     ],
-     "kw": [
-      "head 9%",
-      "each arm 9%",
-      "anterior trunk 18%",
-      "posterior trunk 18%",
-      "each leg 18%",
-      "perineum 1%",
-      "palm ≈ 1%"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 14#1"
-     ]
-    },
-    {
-     "id": "flap-wound",
-     "title": "แผลที่ห้ามปิดด้วย flap (reconstructive ladder)",
-     "asked": [
-      "แผลชนิดใดที่ปิดด้วย flap ไม่ได้ (67 RoB)"
-     ],
-     "flow": [
-      "หลัก: แผลต้องสะอาด เลือดดี ไม่มีเนื้องอกค้าง ก่อนปิดด้วยวิธีใดก็ตาม",
-      "รายการแผลที่ยังห้ามปิด",
-      "(คะแนนเสริม) แยกจากแผลที่ skin graft ไม่ติดซึ่งต้องใช้ flap"
-     ],
-     "pattern": [
-      "แผลติดเชื้อที่ยังคุมไม่ได้ (หนอง, cellulitis, osteomyelitis ที่ยังไม่ debride)",
-      "แผลยังมีเนื้อตาย / สิ่งปนเปื้อน → debridement ก่อน",
-      "แผลมะเร็งที่ยังตัดไม่หมด / ยังไม่รู้ผลขอบ (residual tumor)",
-      "ผู้ป่วยไม่พร้อม (สัญญาณชีพไม่คงที่, โภชนาการ / เบาหวานคุมไม่ได้) หรือไม่มีหลอดเลือดสำหรับ pedicle / recipient vessel",
-      "ตรงข้าม: แผลที่ <b>skin graft ไม่ติด ต้องใช้ flap</b> = กระดูกไม่มี periosteum, เอ็นไม่มี paratenon, กระดูกอ่อนไม่มี perichondrium, โลหะ / implant, บริเวณฉายรังสี",
-      "Reconstructive ladder: secondary intention → primary closure → skin graft → local → regional → free flap"
-     ],
-     "kw": [
-      "uncontrolled infection",
-      "undebrided necrotic / contaminated wound",
-      "residual tumor / unknown margin",
-      "no recipient vessel / unstable patient",
-      "exposed bone without periosteum needs flap",
-      "reconstructive ladder"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 7#1"
-     ]
-    },
-    {
-     "id": "mandible-fx",
-     "title": "Mandible angle fracture: panoramic + Towne view",
-     "asked": [
-      "Left angle mandible fracture: view อะไร อะไรหัก (78B)"
-     ],
-     "pattern": [
-      "OPG + Towne · ORIF/MMF"
-     ],
-     "flow": [
-      "ชื่อ view → ตำแหน่งหัก → ตรวจตำแหน่งที่ 2"
-     ],
-     "kw": [
-      "OPG",
-      "Towne view",
-      "mandibular angle fracture"
-     ],
-     "members": [
-      "MDCU78|RoB|MEQ 12#1",
-      "MDCU78|RoB|MEQ 12#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Urology",
-   "sections": [
-    {
-     "id": "paraphimosis",
-     "title": "Paraphimosis",
-     "trend": "ภาพองคชาต glans บวมมีวงรัด — ออกสามรอบ คำตอบเหมือนเดิมทุกครั้ง",
-     "asked": [
-      "ภาพองคชาต → Dx (พร้อมเหตุผล) → management (67 RoA, 67 RoB)",
-      "เด็ก 6 ปี ผู้ปกครองรูดหนังหุ้มปลายตอนอาบน้ำ glans บวม → Dx + treatment (66 RoD)"
-     ],
-     "flow": [
-      "Dx + เหตุผลจากภาพ + บอกว่าเป็น urological emergency",
-      "Analgesia / penile block",
-      "ลดบวม",
-      "Manual reduction",
-      "ล้มเหลว → dorsal slit",
-      "Elective circumcision + สอนป้องกัน"
-     ],
-     "pattern": [
-      "<b>Paraphimosis</b> = หนังหุ้มปลายถูกรูดค้างหลัง coronal sulcus รูดกลับไม่ได้ → constricting band → venous / lymphatic congestion → glans + prepuce บวม (edematous collar) → นานเกิด ischemia / necrosis = <b>emergency</b>",
-      "ต่างจาก phimosis = รูดเปิดไม่ได้ (ไม่ฉุกเฉิน)",
-      "Dorsal penile block (ยาชาไม่มี adrenaline) / ยาชาทา + ยาแก้ปวด (เด็ก: sedation)",
-      "ลดบวม: บีบ glans ต่อเนื่อง 5–10 นาที / ผ้าพันยืด / ถุงมือน้ำแข็ง, granulated sugar, puncture technique",
-      "<b>Manual reduction:</b> นิ้วโป้งดัน glans เข้า ขณะนิ้วชี้-กลางดึง prepuce มาคลุม",
-      "ไม่สำเร็จ → <b>dorsal slit</b> · หลังหายบวม → <b>elective circumcision</b> · สอนให้รูดหนังกลับทุกครั้ง (โดยเฉพาะหลังใส่ Foley)"
-     ],
-     "kw": [
-      "paraphimosis",
-      "retracted foreskin, constricting band",
-      "edematous glans",
-      "urological emergency",
-      "penile block",
-      "reduce edema",
-      "manual reduction",
-      "dorsal slit",
-      "elective circumcision"
-     ],
-     "ddx": [
-      "phimosis",
-      "balanitis",
-      "penile tumor"
-     ],
-     "pearls": [
-      "ไม่มีขั้นตอนเมื่อ reduction ล้มเหลว (dorsal slit) = เสียคะแนน",
-      "สาเหตุ iatrogenic ที่ถามได้: ใส่สายสวนแล้วลืมรูดหนังกลับ"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 14#1",
-      "MDCU67|RoA|MEQ 14#2",
-      "MDCU67|RoB|MEQ 9#1",
-      "MDCU67|RoB|MEQ 9#2",
-      "MDCU66|RoD|PPT 5#1"
-     ]
-    },
-    {
-     "id": "ureteric-stone",
-     "title": "IVP: obstructing ureteric calculus with hydroureteronephrosis",
-     "trend": "IVP ยังออก — ต้องอ่านตามลำดับ phase ไม่ใช่บอกแค่ ‘ไตบวมน้ำ’",
-     "asked": [
-      "IVP ชาย 40 ปี ปวดบิดเอวซ้ายร้าวขาหนีบ → describe → Dx (65 RoA)",
-      "IVP ผู้ใหญ่ปวดเอว → describe two findings → two treatment options (65 RoC)",
-      "Film KUB left ureter stone (78B)",
-      "Ureteric stone เหมือน AC (78C)"
-     ],
-     "flow": [
-      "Preliminary KUB: radiopaque density ตามแนวท่อไต",
-      "Nephrogram: delayed / persistent nephrogram ข้างที่อุดตัน",
-      "Pyelogram: hydronephrosis + hydroureter เหนือนิ่ว contrast หยุดตรงนิ่ว",
-      "ข้างตรงข้าม / bladder / post-void",
-      "Dx → treatment ตามขนาด ตำแหน่ง และภาวะติดเชื้อ"
-     ],
-     "pattern": [
-      "อ่าน IVP: KUB → nephrogram → pyelogram (calyces, pelvis) → ureter → bladder → post-void",
-      "Findings: radiopaque stone ~1 cm ตามแนว ureter ซ้าย (L3–4 / ใกล้ SI joint) · <b>delayed nephrogram</b> ซ้าย · <b>hydronephrosis + hydroureter</b> เหนือนิ่ว (calyceal blunting / clubbing) · ขวาปกติ → <b>left obstructing ureteric calculus</b>",
-      "นิ่ว &lt; 5 mm มักหลุดเอง → <b>medical expulsive therapy</b> (tamsulosin + analgesia + น้ำ)",
-      "<b>Intervention:</b> URS + laser / pneumatic lithotripsy ± DJ stent · ESWL (นิ่วท่อไตส่วนบน ≤ 1–2 cm) · PCNL (นิ่วใหญ่ในไต / staghorn)",
-      "<b>Infected obstructed kidney</b> (ไข้) → decompression ด่วน (PCN หรือ DJ stent) + ATB ก่อนเอานิ่วออก · ข้อบ่งชี้อื่น: ไตข้างเดียว, AKI, ปวดคุมไม่ได้",
-      "ปัจจุบัน non-contrast CT KUB เป็นมาตรฐานวินิจฉัย renal colic"
-     ],
-     "kw": [
-      "radiopaque calculus along ureter",
-      "delayed nephrogram",
-      "hydronephrosis + hydroureter above stone",
-      "ureteric calculus",
-      "medical expulsive therapy (tamsulosin)",
-      "URS / ESWL / PCNL",
-      "PCN or DJ stent if infected"
-     ],
-     "ddx": [
-      "UPJ obstruction (no hydroureter)",
-      "phlebolith",
-      "ureteric tumor / stricture"
-     ],
-     "pearls": [
-      "บอกแค่ ‘ไตบวมน้ำ’ = บางส่วน",
-      "phlebolith อยู่ต่ำในอุ้งเชิงกราน กลม มี center ใส — ไม่อยู่ในแนว contrast"
-     ],
-     "members": [
-      "MDCU65|RoA|PPT 3#1",
-      "MDCU65|RoC|PPT 5#1",
-      "MDCU65|RoC|PPT 5#2",
-      "MDCU78|RoB|MEQ 15#1",
-      "MDCU78|RoB|MEQ 15#2",
-      "MDCU78|RoC|MEQ 10#1",
-      "MDCU78|RoC|MEQ 10#2",
-      "MDCU78|RoC|MEQ 10#3"
-     ]
-    },
-    {
-     "id": "upj",
-     "title": "Ureteropelvic junction (UPJ) obstruction",
-     "asked": [
-      "IVP ชาย 20 ปี ปวดเอวขวาเป็นพัก ๆ แย่ลงหลังดื่มน้ำมาก → describe → Dx (65 RoB)"
-     ],
-     "flow": [
-      "KUB ไม่มีนิ่ว",
-      "IVP: renal pelvis โป่งมาก + calyces ป้าน แต่ ureter ปกติ",
-      "Dx + สาเหตุ",
-      "ยืนยัน + รักษา"
-     ],
-     "pattern": [
-      "KUB ไม่มี radiopaque · ไตขวา nephrogram ช้า, <b>ballooned renal pelvis</b> + hydronephrosis · <b>ureter ไม่ขยาย</b> (ไม่มี hydroureter) · ซ้ายปกติ → <b>right UPJ obstruction</b>",
-      "Dietl’s crisis = ปวดหลังดื่มน้ำมาก / เบียร์",
-      "สาเหตุ: intrinsic aperistaltic segment, crossing lower-pole vessel",
-      "ยืนยัน: <b>diuretic renogram (MAG3 + furosemide)</b> ดู obstruction + split function",
-      "รักษา: <b>Anderson–Hynes dismembered pyeloplasty</b> (open / laparoscopic / robotic) เมื่อมีอาการ, split function ลด, ติดเชื้อ / นิ่ว"
-     ],
-     "kw": [
-      "hydronephrosis without hydroureter",
-      "ballooned renal pelvis",
-      "UPJ obstruction",
-      "Dietl’s crisis",
-      "diuretic renogram MAG3",
-      "Anderson–Hynes pyeloplasty"
-     ],
-     "ddx": [
-      "ureteric stone",
-      "vesicoureteral reflux",
-      "VUJ obstruction (hydroureter)"
-     ],
-     "pearls": [
-      "บอกแค่ hydronephrosis = บางส่วน — ต้องบอกว่า ureter ปกติ"
-     ],
-     "members": [
-      "MDCU65|RoB|PPT 6#1"
-     ]
-    },
-    {
-     "id": "penile-ca",
-     "title": "Squamous cell carcinoma of the penis",
-     "asked": [
-      "ภาพแผล / ก้อนที่องคชาต (ลูกศร) → Dx → treatment (67 RoD)"
-     ],
-     "flow": [
-      "Dx + ปัจจัยเสี่ยง",
-      "Biopsy",
-      "รักษาก้อนหลักตามขนาด / ตำแหน่ง",
-      "ประเมินและจัดการ inguinal LN"
-     ],
-     "pattern": [
-      "SCC penis — ไม่ขลิบ / phimosis, smegma, HPV 16 / 18, บุหรี่, lichen sclerosus",
-      "Biopsy ยืนยันก่อน",
-      "จำกัดที่หนังหุ้ม → circumcision · เล็กที่ glans → wide local excision / glansectomy (penile-sparing) · ลุกลาม → partial penectomy (margin ปลอด) · ตอเหลือไม่พอยืนปัสสาวะ → total penectomy + perineal urethrostomy",
-      "Inguinal LN (ปัจจัยพยากรณ์สำคัญสุด): คลำได้ → FNA / biopsy → inguinal lymphadenectomy · คลำไม่ได้แต่ intermediate / high risk → dynamic sentinel node biopsy หรือ modified inguinal lymphadenectomy"
-     ],
-     "kw": [
-      "SCC of penis",
-      "biopsy",
-      "circumcision / glansectomy / partial penectomy",
-      "inguinal lymph node assessment",
-      "dynamic sentinel node biopsy"
-     ],
-     "ddx": [
-      "condyloma acuminata / giant condyloma",
-      "syphilitic chancre",
-      "balanitis"
-     ],
-     "members": [
-      "MDCU67|RoD|PPT 9#1",
-      "MDCU67|RoD|PPT 9#2"
-     ]
-    },
-    {
-     "id": "luts-ipss",
-     "title": "LUTS — ประเมินความรุนแรงด้วย IPSS",
-     "asked": [
-      "ชายมี LUTS → อาการที่ต้องถามเพื่อประเมินความรุนแรง (67 RoC)"
-     ],
-     "flow": [
-      "ใช้ IPSS 7 อาการ (ช่วง 1 เดือน) แยก voiding / storage",
-      "แปลผลคะแนน + QoL",
-      "อาการอื่น + complication / red flags"
-     ],
-     "pattern": [
-      "<b>IPSS 7 ข้อย่อย</b> (0–5 คะแนนต่อข้อ รวม 0–35): voiding — incomplete emptying, intermittency, weak stream, straining · storage — frequency (&lt; 2 ชม.), urgency, nocturia",
-      "แปลผล: 0–7 mild · 8–19 moderate · 20–35 severe + QoL score 0–6",
-      "ถามเพิ่ม: hesitancy, terminal / post-void dribbling, urge incontinence",
-      "Complications / red flags: acute urinary retention, hematuria, UTI, นิ่วกระเพาะปัสสาวะ, ไตวาย, ปวดกระดูก / น้ำหนักลด (CA prostate)"
-     ],
-     "kw": [
-      "IPSS",
-      "incomplete emptying",
-      "frequency",
-      "intermittency",
-      "urgency",
-      "weak stream",
-      "straining",
-      "nocturia",
-      "mild 0–7 / moderate 8–19 / severe 20–35"
-     ],
-     "pearls": [
-      "แยก voiding / storage ได้แต่ไม่รู้จัก IPSS = บางส่วน"
-     ],
-     "members": [
-      "MDCU67|RoC|MEQ 13#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "GI & hepatobiliary — imaging, endoscopy, acute abdomen",
-   "sections": [
-    {
-     "id": "gallstone-cholecystitis",
-     "title": "Ultrasound: cholelithiasis และ acute calculous cholecystitis",
-     "trend": "ภาพ US ถุงน้ำดีออกเกือบทุกปี — ถามชื่อ investigation, บรรยาย, Dx, complication / management",
-     "asked": [
-      "หญิง 48 ปี จุกแน่นลิ้นปี่เป็น ๆ หาย ๆ → investigation อะไร → findings → Dx → complications 2 อย่าง (67 RoA)",
-      "หญิง 50 ปี ปวดใต้ลิ้นปี่ กดใต้ชายโครงขวาแล้วหยุดหายใจ + ภาพ US → ชื่อ imaging → ชื่อการตรวจร่างกาย → management (67 RoD)",
-      "ไข้ + ปวดท้องขวาบน + US → Dx (บอก US findings) → US ใช้วินิจฉัยภาวะศัลยกรรมอะไรได้อีก (65 RoA)",
-      "ภาพ US ช่องท้อง → ชื่อ investigation → findings + Dx (65 RoC)",
-      "RUQ pain + ไข้ + US → ชื่อ → findings → Dx (65 RoC)",
-      "Acute cholecystitis เหมือน AC (78C)"
-     ],
-     "flow": [
-      "ชื่อ: ultrasonography of the upper abdomen (hepatobiliary / RUQ)",
-      "บรรยาย: echogenic focus + posterior acoustic shadow ± mobile · ผนัง GB · pericholecystic fluid · CBD",
-      "Dx: cholelithiasis หรือ acute calculous cholecystitis (ดูผนังหนา + clinical)",
-      "Complication / management"
-     ],
-     "pattern": [
-      "<b>Gallstone:</b> hyperechoic focus ใน GB + <b>posterior acoustic shadow</b> + เคลื่อนตามท่า (gravity dependent) · polyp / sludge ไม่มี shadow, polyp ไม่เคลื่อน",
-      "<b>Acute cholecystitis:</b> stone (± impacted ที่ neck) + <b>GB wall &gt; 4 mm</b> + pericholecystic fluid + GB distension + sonographic Murphy sign · Tokyo Guidelines 2018: A (local: Murphy sign, RUQ pain / mass) + B (systemic: ไข้, WBC / CRP) + C (imaging) = definite",
-      "<b>Murphy’s sign:</b> กดใต้ชายโครงขวาให้หายใจเข้าลึก → หยุดหายใจกลางคัน (inspiratory arrest)",
-      "<b>Management cholecystitis:</b> NPO, IV fluid, analgesia (NSAIDs / opioid), IV ATB gram-neg + anaerobe (ceftriaxone + metronidazole) → <b>early laparoscopic cholecystectomy</b> ใน admission เดียวกัน (ดีสุดใน 72 ชม.) · เสี่ยงสูง / grade III → percutaneous cholecystostomy",
-      "<b>Symptomatic gallstone</b> (biliary colic) → elective LC · ไม่มีอาการส่วนใหญ่ไม่ต้องผ่า (ยกเว้น stone &gt; 3 cm, porcelain GB)",
-      "<b>Complications ของนิ่ว:</b> acute cholecystitis (empyema, gangrene, perforation), choledocholithiasis → obstructive jaundice / cholangitis, gallstone pancreatitis, Mirizzi syndrome, cholecystoenteric fistula → gallstone ileus, CA gallbladder",
-      "<b>US ใช้กับอะไรอีก:</b> CBD stone / ท่อน้ำดีขยาย, liver abscess / mass, pancreatitis / pseudocyst, appendicitis (เด็ก / ตั้งครรภ์), <b>FAST</b>, AAA, hydronephrosis / นิ่วไต, intussusception (target sign), pyloric stenosis, ovarian torsion / ectopic, collection, ascites"
-     ],
-     "kw": [
-      "ultrasonography of upper abdomen",
-      "echogenic focus with posterior acoustic shadow",
-      "mobile / gravity dependent",
-      "GB wall thickening > 4 mm",
-      "pericholecystic fluid",
-      "sonographic Murphy sign",
-      "Murphy’s sign (inspiratory arrest)",
-      "early laparoscopic cholecystectomy",
-      "percutaneous cholecystostomy",
-      "Tokyo Guidelines 2018"
-     ],
-     "ddx": [
-      "gallbladder polyp",
-      "sludge",
-      "acalculous cholecystitis",
-      "renal stone (ถ้าภาพเป็นไต)"
-     ],
-     "pearls": [
-      "ตอบ cholelithiasis เมื่อภาพ + clinical เป็น acute cholecystitis = ครึ่งคะแนน (65 RoC)",
-      "บอกแค่ lap chole ไม่มี supportive + ATB = ได้ส่วนใหญ่แต่ไม่เต็ม",
-      "ข้อย่อย ‘US ใช้ทำอะไรอีก’ ต้องตอบ ≥ 4 ภาวะหลายระบบ (รวม FAST / appendicitis / AAA)"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 3#1",
-      "MDCU67|RoA|MEQ 3#2",
-      "MDCU67|RoA|MEQ 3#3",
-      "MDCU67|RoA|MEQ 3#4",
-      "MDCU67|RoD|PPT 2#1",
-      "MDCU67|RoD|PPT 2#2",
-      "MDCU67|RoD|PPT 2#3",
-      "MDCU65|RoA|PPT 2#1",
-      "MDCU65|RoA|PPT 2#2",
-      "MDCU65|RoC|PPT 1#1",
-      "MDCU65|RoC|PPT 1#2",
-      "MDCU65|RoC|PPT 17#1",
-      "MDCU65|RoC|PPT 17#2",
-      "MDCU65|RoC|PPT 17#3",
-      "MDCU78|RoC|MEQ 6#1",
-      "MDCU78|RoC|MEQ 6#2"
-     ]
-    },
-    {
-     "id": "pneumoperitoneum",
-     "title": "Upright CXR: free air under diaphragm (pneumoperitoneum) — perforated peptic ulcer",
-     "trend": "ชายวัยกลางคนปวดท้องทันที + upright CXR ออกสามรอบ — ชื่อฟิล์ม, บรรยาย, สาเหตุ, management",
-     "asked": [
-      "ชาย 41 ปี ปวดท้อง 2 ชม. → ฟิล์มชื่ออะไร → บรรยาย → สาเหตุ 2 อย่าง → management (67 RoA)",
-      "ชื่อ imaging + ท่า → DDx 2 อย่าง (67 RoD)",
-      "ปวดลิ้นปี่ทันที → describe film → DDx 2 อย่าง (65 RoC)"
-     ],
-     "flow": [
-      "ชื่อ: chest X-ray upright (erect) PA",
-      "บรรยาย: crescent radiolucency ใต้ hemidiaphragm (สองข้าง) = pneumoperitoneum · ปอดปกติ",
-      "สาเหตุ: hollow viscus perforation (perforated PU มากสุด) + non-surgical",
-      "Management: resuscitation → ATB / PPI → emergency laparotomy + Graham patch"
-     ],
-     "pattern": [
-      "Upright CXR ไวที่สุด (เห็น ~1 mL) ต้องนั่ง / ยืน 5–10 นาทีก่อนถ่าย · ยืนไม่ได้ → left lateral decubitus",
-      "ใต้ diaphragm ซ้ายแยกจาก gastric bubble (มีผนัง fundus หนา + air-fluid level) · Chilaiditi sign = ลำไส้ใหญ่แทรกระหว่างตับกับ diaphragm (เห็น haustra) = pseudo-pneumoperitoneum · supine film: Rigler, football, falciform ligament sign",
-      "<b>สาเหตุ:</b> <b>perforated peptic ulcer</b> (มากสุดในชายวัยกลางคน, NSAIDs, H. pylori, บุหรี่) · perforated diverticulitis / colon cancer, perforated gastric cancer, typhoid, trauma · ruptured appendicitis (free air น้อย) · ไม่ใช่โรค: หลังผ่าตัด / laparoscopy, peritoneal dialysis",
-      "<b>Management:</b> NPO, IV crystalloid, NG decompression, Foley วัด urine output, lab (CBC, BUN / Cr, electrolyte, lactate, G/M) · IV broad-spectrum ATB (ceftriaxone + metronidazole) · IV PPI · analgesia → <b>emergency laparotomy / laparoscopy</b>: perforated PU → simple closure + <b>omental (Graham) patch</b> + peritoneal lavage · ลำไส้ทะลุ → ซ่อม / resection ± stoma · หลังผ่าตัด: test + eradicate H. pylori, หยุด NSAIDs, PPI ต่อ",
-      "Non-operative (Taylor) เฉพาะ contained leak อาการคงที่"
-     ],
-     "kw": [
-      "upright (erect) PA chest X-ray",
-      "free air under the diaphragm",
-      "pneumoperitoneum",
-      "perforated peptic ulcer",
-      "hollow viscus perforation",
-      "NPO, NG, IV fluid, Foley",
-      "IV antibiotics + PPI",
-      "emergency laparotomy",
-      "omental (Graham) patch"
-     ],
-     "ddx": [
-      "perforated peptic ulcer",
-      "perforated colonic diverticulitis / colon cancer",
-      "perforated gastric cancer",
-      "post-operative free air",
-      "Chilaiditi sign (pseudo-pneumoperitoneum)"
-     ],
-     "pearls": [
-      "ไฟล์ 67 RoD ตอบ ruptured appendicitis เป็น DDx — ยอมรับได้แต่ไส้ติ่งแตกมักมี free air น้อย ควรให้ perforated PU นำ",
-      "ขาดการผ่าตัดใน management = ได้ไม่เกินครึ่ง",
-      "ต้องบอกชนิดฟิล์ม (upright PA) ด้วย — rubric ให้คะแนนแยก"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 1#1",
-      "MDCU67|RoA|MEQ 1#2",
-      "MDCU67|RoA|MEQ 1#3",
-      "MDCU67|RoA|MEQ 1#4",
-      "MDCU67|RoD|PPT 1#1",
-      "MDCU67|RoD|PPT 1#2",
-      "MDCU65|RoC|PPT 20#1",
-      "MDCU65|RoC|PPT 20#2"
-     ]
-    },
-    {
-     "id": "endoscopy",
-     "title": "Endoscopy: EGD, rapid urease test (H. pylori), ERCP, colonic diverticulosis",
-     "trend": "ภาพส่องกล้อง / ภาพประกอบหัตถการ — ถามชื่อเต็ม ข้อบ่งชี้ และแปลผล",
-     "asked": [
-      "ภาพ investigation + test kit → ชื่อ → แปลผล + management ต่อ (67 RoD)",
-      "ภาพประกอบหัตถการ → ชื่อ → ข้อบ่งชี้ ≥ 2 (67 RoB)",
-      "ภาพฉีด contrast ท่อน้ำดีผ่านกล้อง → ชื่อเต็ม → 2 ภาวะที่ได้ประโยชน์ (67 RoA)",
-      "ภาพ colonoscopy → Dx → counsel ผู้ป่วย (67 RoD)",
-      "รูป upper endoscopy + Pronto Dry: หัตถการ, indication 2, ตรวจหาสารใด, แปลผล, Tx (78B)"
-     ],
-     "flow": [
-      "บอกชื่อเต็มของหัตถการ",
-      "ข้อบ่งชี้ diagnostic / therapeutic หรือแปลผล",
-      "Management / counseling ต่อ"
-     ],
-     "pattern": [
-      "<b>EGD:</b> ข้อบ่งชี้ — UGIB (ส่องใน 24 ชม. หลัง resuscitation; สงสัย variceal ใน 12 ชม.), dyspepsia + alarm features, dysphagia / odynophagia, อาเจียนเรื้อรัง, biopsy · surveillance (Barrett’s, varices) · therapeutic: ห้ามเลือด (injection, clip, thermal, band ligation), foreign body, dilatation / stent, PEG, EMR / ESD",
-      "<b>Rapid urease (CLO) test:</b> ชิ้นเนื้อ antrum ใน gel urea + pH indicator · เหลือง → <b>ชมพู / แดง = positive H. pylori</b> · รักษา eradication 14 วัน — bismuth quadruple (PPI + bismuth + tetracycline + metronidazole) เป็นทางเลือกแรกในพื้นที่ดื้อ clarithromycin สูง (Maastricht VI 2022) หรือ clarithromycin triple · test of cure: UBT / stool antigen ≥ 4 สัปดาห์หลังหยุด ATB และหยุด PPI ≥ 2 สัปดาห์",
-      "<b>ERCP</b> = endoscopic retrograde cholangiopancreatography (side-viewing duodenoscope, cannulate ampulla) · ใช้รักษาเป็นหลัก: choledocholithiasis (sphincterotomy + stone extraction), acute cholangitis (drainage / stent), malignant obstruction (stent + brush cytology), gallstone pancreatitis ที่มี cholangitis / ท่ออุดตันต่อเนื่อง, bile leak, benign stricture · วินิจฉัยใช้ MRCP / EUS แทน · complication: post-ERCP pancreatitis 3–10%, bleeding, perforation, cholangitis",
-      "<b>Colonic diverticulosis:</b> รูเปิด diverticula หลายรู mucosa ไม่อักเสบ (false / pulsion diverticula ตรง vasa recta) · counsel: ส่วนใหญ่ไม่มีอาการ ไม่ใช่มะเร็ง · fiber สูง ดื่มน้ำ ออกกำลังกาย คุมน้ำหนัก เลิกบุหรี่ เลี่ยง NSAIDs · ไม่ต้องงดถั่ว / เมล็ด · มาทันทีถ้าถ่ายเป็นเลือด หรือปวดท้อง + ไข้ (diverticulitis)"
-     ],
-     "kw": [
-      "esophagogastroduodenoscopy (EGD)",
-      "rapid urease (CLO) test: pink = positive",
-      "H. pylori eradication 14 days",
-      "test of cure ≥ 4 weeks off antibiotics, 2 weeks off PPI",
-      "endoscopic retrograde cholangiopancreatography",
-      "sphincterotomy + stone extraction",
-      "biliary stent",
-      "diverticulosis: high-fiber diet, warning signs"
-     ],
-     "pearls": [
-      "⚠ ไฟล์เดิมแปลผล CLO ว่า H. pylori เป็นสาเหตุ GERD — bank แก้ (ตอบ GERD ไม่ได้คะแนนส่วนแปลผล)",
-      "ต้องเขียนชื่อเต็ม ERCP ให้ถูก (คะแนน 4 จาก 10)",
-      "diverticulosis counseling ต้องมี warning signs (เลือดออก, ปวด + ไข้)"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 7#1",
-      "MDCU67|RoA|MEQ 7#2",
-      "MDCU67|RoB|MEQ 3#1",
-      "MDCU67|RoB|MEQ 3#2",
-      "MDCU67|RoD|PPT 3#1",
-      "MDCU67|RoD|PPT 3#2",
-      "MDCU67|RoD|PPT 5#1",
-      "MDCU67|RoD|PPT 5#2",
-      "MDCU78|RoB|MEQ 1#1",
-      "MDCU78|RoB|MEQ 1#2",
-      "MDCU78|RoB|MEQ 1#3",
-      "MDCU78|RoB|MEQ 1#4",
-      "MDCU78|RoB|MEQ 1#5"
-     ]
-    },
-    {
-     "id": "achalasia",
-     "title": "Barium swallow: achalasia (bird-beak)",
-     "trend": "esophagogram ออกสอง rotation ของ 67 — ถามชื่อ, บรรยาย, Dx, พยาธิ, management",
-     "asked": [
-      "ชาย 42 ปี กลืนลำบากทั้งของแข็งและเหลว → investigation → บรรยาย → Dx → principal pathology (67 RoA)",
-      "Contrast study ของหลอดอาหาร → ชื่อ → Dx → management (67 RoB)"
-     ],
-     "flow": [
-      "ชื่อ: barium swallow (esophagogram)",
-      "บรรยาย: dilated esophagus + debris, smooth tapering ที่ GEJ (bird-beak)",
-      "Dx + ยืนยัน (manometry + EGD)",
-      "พยาธิ / management"
-     ],
-     "pattern": [
-      "หลอดอาหารขยาย มี barium ค้างผสมเศษอาหาร · ส่วนปลายตีบเรียว <b>เรียบ</b> ที่ GEJ = <b>bird-beak</b> · ไม่มี mucosal irregularity / shouldering",
-      "กลืนลำบากทั้งของแข็งและเหลวตั้งแต่แรก = motility disorder · ของแข็งก่อนแล้วลุกลาม = mechanical (มะเร็ง, stricture)",
-      "ยืนยัน: <b>high-resolution manometry</b> (incomplete LES relaxation + aperistalsis; Chicago classification type I–III) + <b>EGD</b> แยก pseudoachalasia",
-      "<b>Pathology:</b> สูญเสีย inhibitory (NO / VIP) ganglion cells ใน myenteric (Auerbach’s) plexus → LES คลายไม่สมบูรณ์ + aperistalsis · ส่วนใหญ่ idiopathic · secondary: Chagas disease",
-      "<b>Management:</b> laparoscopic <b>Heller myotomy + partial fundoplication</b> (Dor / Toupet) · <b>POEM</b> · pneumatic dilatation · เสี่ยงสูง / สูงอายุ: botulinum toxin · ยา (nifedipine / nitrates) ผลน้อย · end-stage megaesophagus → esophagectomy"
-     ],
-     "kw": [
-      "barium swallow (esophagogram)",
-      "dilated esophagus",
-      "smooth tapering — bird-beak",
-      "achalasia",
-      "manometry + EGD",
-      "loss of ganglion cells in Auerbach’s plexus",
-      "Heller myotomy + fundoplication",
-      "POEM",
-      "pneumatic dilatation"
-     ],
-     "ddx": [
-      "pseudoachalasia (CA cardia — irregular, shouldering)",
-      "peptic / caustic stricture",
-      "esophageal carcinoma"
-     ],
-     "pearls": [
-      "⚠ ไฟล์เดิม (67 RoB) ตอบ stent — stent ใช้กับ malignant obstruction ไม่ใช่ achalasia · ไม่ได้คะแนน",
-      "ตอบ esophageal stricture พร้อมเหตุผลได้แค่บางส่วน"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 2#1",
-      "MDCU67|RoA|MEQ 2#2",
-      "MDCU67|RoA|MEQ 2#3",
-      "MDCU67|RoA|MEQ 2#4",
-      "MDCU67|RoB|MEQ 1#1",
-      "MDCU67|RoB|MEQ 1#2",
-      "MDCU67|RoB|MEQ 1#3"
-     ]
-    },
-    {
-     "id": "bowel-obstruction",
-     "title": "Bowel obstruction: SBO plain film และ large bowel obstruction",
-     "asked": [
-      "ปวดบิด อาเจียน ท้องอืด + abdominal film → Dx → list radiographic signs (65 RoB)",
-      "หญิงปวดท้อง อาเจียนลักษณะอุจจาระ 2 วัน ท้องโต (ภาพ) → Dx → 2 สาเหตุ → initial management (67 RoC)",
-      "Film abdomen upright bowel obstruction (78B)",
-      "SBO เหมือน AC (78C)"
-     ],
-     "flow": [
-      "Dx ระดับการอุดตัน (small vs large bowel)",
-      "บอก signs บนฟิล์ม",
-      "สาเหตุ",
-      "Initial management + เมื่อไรต้องผ่าตัด"
-     ],
-     "pattern": [
-      "<b>SBO signs:</b> dilated SB &gt; 3 cm ส่วนกลางท้อง หลาย loop · valvulae conniventes พาดเต็มความกว้าง (stack of coins) · multiple air-fluid levels แบบขั้นบันได · string of beads · ลมใน colon / rectum น้อยหรือไม่มี · strangulation ดูจาก CT (whirl sign, ผนังไม่ enhance)",
-      "<b>LBO:</b> ท้องโปนมาก + feculent vomiting (อุดตันปลายนาน / ileocecal valve รั่ว) · สาเหตุ: <b>colorectal carcinoma</b> (~60%), <b>volvulus</b> (sigmoid &gt; cecal), diverticular stricture, extrinsic compression, hernia, fecal impaction · adhesion พบน้อยใน LBO",
-      "<b>Initial:</b> NPO, <b>NG decompression</b>, IV crystalloid + electrolyte, Foley, analgesia, lab (CBC, electrolyte, BUN / Cr, lactate, G/M) · acute abdomen series + CT with IV contrast หาระดับและสาเหตุ · peritonitis / strangulation / cecum &gt; 12 cm (closed loop) → ผ่าตัดด่วน · sigmoid volvulus ไม่มี gangrene → endoscopic detorsion",
-      "แยก distal SBO และ pseudo-obstruction (Ogilvie)"
-     ],
-     "kw": [
-      "dilated small bowel loops > 3 cm",
-      "valvulae conniventes",
-      "step-ladder air-fluid levels",
-      "absent colonic gas",
-      "large bowel obstruction",
-      "colorectal carcinoma, sigmoid volvulus",
-      "NPO, NG, IV fluid, Foley",
-      "CT abdomen"
-     ],
-     "ddx": [
-      "paralytic ileus",
-      "pseudo-obstruction (Ogilvie)",
-      "distal SBO vs LBO"
-     ],
-     "pearls": [
-      "ตอบ ‘bowel obstruction’ ไม่ระบุระดับ = บางส่วน",
-      "ตอบ adhesion เป็นสาเหตุ LBO ได้ครึ่งคะแนน",
-      "ขาด NG / IV fluid ใน initial management = บางส่วน"
-     ],
-     "members": [
-      "MDCU65|RoB|PPT 1#1",
-      "MDCU67|RoC|MEQ 14#1",
-      "MDCU67|RoC|MEQ 14#2",
-      "MDCU67|RoC|MEQ 14#3",
-      "MDCU78|RoB|MEQ 8#1",
-      "MDCU78|RoB|MEQ 8#2",
-      "MDCU78|RoB|MEQ 8#3",
-      "MDCU78|RoC|MEQ 4#1",
-      "MDCU78|RoC|MEQ 4#2",
-      "MDCU78|RoC|MEQ 4#3"
-     ]
-    },
-    {
-     "id": "pancreatitis",
-     "title": "Acute pancreatitis (alcohol) — criteria, DDx / investigations, treatment",
-     "trend": "ชุดสามสไลด์ต่อเนื่อง (65 RoB) — Dx criteria → DDx + investigation → treatment",
-     "asked": [
-      "ชาย 45 ปี ดื่มสุรา ปวดลิ้นปี่ทะลุหลัง โน้มตัวไปข้างหน้า → most likely Dx + diagnostic criteria (65 RoB)",
-      "สไลด์ต่อ → DDx → investigations (65 RoB)",
-      "สไลด์ต่อ → treatment (65 RoB)",
-      "ปวดร้าวไปหลัง + US GB: Dx, lab 2 + severity 4, imaging 1 (78A)"
-     ],
-     "flow": [
-      "Dx: acute pancreatitis + Revised Atlanta 2 ใน 3",
-      "DDx ที่อันตราย + investigation",
-      "ประเมินความรุนแรง",
-      "Treatment: fluid, analgesia, early feeding, ไม่ให้ ATB ป้องกัน, รักษาสาเหตุ"
-     ],
-     "pattern": [
-      "<b>Revised Atlanta 2012</b> ≥ 2 ใน 3: ปวดท้องเข้าได้ · lipase (หรือ amylase) ≥ 3 เท่า ULN · imaging เข้าได้ · ครบ 2 ข้อแรกไม่ต้อง CT · สาเหตุบ่อย: นิ่ว และสุรา (อื่น: TG สูง, Ca สูง, post-ERCP, ยา, trauma)",
-      "<b>DDx:</b> perforated PU, cholecystitis / cholangitis, inferior MI, ruptured / dissecting AAA, mesenteric ischemia, obstruction / volvulus, DKA, lower lobe pneumonia",
-      "<b>Investigations:</b> lipase · CBC, BUN / Cr, electrolyte, Ca, glucose, LFT (ALT &gt; 150 → นิ่ว), TG, LDH, CRP, ABG / lactate · <b>ECG</b> · upright CXR / acute abdomen series · <b>US abdomen ทุกราย</b> (หานิ่ว) · CECT เมื่อวินิจฉัยไม่ชัด หรือหลัง 72–96 ชม. ถ้าไม่ดีขึ้น",
-      "ความรุนแรง: mild / moderately severe (transient organ failure &lt; 48 ชม. หรือ local complication) / severe (persistent organ failure &gt; 48 ชม.) · scores: BISAP, Ranson, APACHE II, modified Marshall",
-      "<b>Treatment:</b> goal-directed IV fluid ปริมาณปานกลาง — <b>Ringer’s lactate</b> (bolus 10 mL/kg ถ้า hypovolemic แล้ว ~1.5 mL/kg/ชม.) ไม่ให้มากเกิน (WATERFALL 2022) · analgesia (opioid ได้) · antiemetic · <b>early oral feeding</b> ใน 24–72 ชม. (กินไม่ได้ → enteral ก่อน TPN) · <b>ไม่ให้ prophylactic ATB</b> · หยุดสุรา + thiamine / benzodiazepine กัน withdrawal · จากนิ่ว → cholecystectomy ใน admission เดียวกัน (mild), ERCP เฉพาะ cholangitis / ท่ออุดตันต่อเนื่อง · necrosis / collection → step-up approach เมื่อมีข้อบ่งชี้ ช้ากว่า 4 สัปดาห์ถ้าทำได้"
-     ],
-     "kw": [
-      "acute pancreatitis",
-      "Revised Atlanta 2 of 3",
-      "lipase ≥ 3× ULN",
-      "US for gallstones",
-      "ECG to exclude MI",
-      "Ringer’s lactate goal-directed",
-      "early oral feeding",
-      "no prophylactic antibiotics",
-      "stop alcohol"
-     ],
-     "ddx": [
-      "perforated peptic ulcer",
-      "acute cholecystitis / cholangitis",
-      "inferior wall MI",
-      "ruptured / dissecting AAA",
-      "acute mesenteric ischemia"
-     ],
-     "pearls": [
-      "NPO นาน หรือให้ ATB ทุกราย = เสียคะแนน (ACG 2024 / AGA 2018)",
-      "DDx ต้องมี perforated PU และ MI"
-     ],
-     "members": [
-      "MDCU65|RoB|PPT 2#1",
-      "MDCU65|RoB|PPT 3#1",
-      "MDCU65|RoB|PPT 4#1",
-      "MDCU78|RoA|MEQ 2#1",
-      "MDCU78|RoA|MEQ 2#2",
-      "MDCU78|RoA|MEQ 2#3"
-     ]
-    },
-    {
-     "id": "obstructive-jaundice",
-     "title": "Obstructive (cholestatic) jaundice pattern — painless progressive jaundice",
-     "asked": [
-      "ชาย 65 ปี ตัวเหลืองไม่ปวด 6 สัปดาห์ + LFT (direct bilirubin เด่น, ALP / GGT สูงกว่า AST / ALT มาก) → ชื่อ pattern → DDx (65 RoA)"
-     ],
-     "flow": [
-      "ชื่อ pattern",
-      "DDx (มะเร็งก่อน)",
-      "Next step imaging"
-     ],
-     "pattern": [
-      "<b>Direct (conjugated) hyperbilirubinemia, cholestatic pattern</b> (ALP / GGT เด่น) = obstructive jaundice · direct &gt; 50% ของ total",
-      "<b>DDx painless progressive:</b> periampullary tumors — <b>CA head of pancreas</b>, distal cholangiocarcinoma, ampullary CA, duodenal CA · hilar cholangiocarcinoma (Klatskin) · LN ที่ porta hepatis · benign: painless CBD stone, stricture, chronic pancreatitis, PSC · intrahepatic: drug, PBC",
-      "Next: <b>US</b> (ท่อขยาย / ระดับ) → CT pancreas protocol / MRCP, CA 19-9"
-     ],
-     "kw": [
-      "conjugated (direct) hyperbilirubinemia",
-      "cholestatic / obstructive pattern",
-      "ALP and GGT predominant",
-      "periampullary carcinoma",
-      "carcinoma of head of pancreas",
-      "cholangiocarcinoma",
-      "US → CT / MRCP"
-     ],
-     "ddx": [
-      "carcinoma head of pancreas",
-      "distal / hilar cholangiocarcinoma",
-      "ampullary carcinoma",
-      "choledocholithiasis",
-      "benign biliary stricture"
-     ],
-     "pearls": [
-      "ตอบ ‘hyperbilirubinemia’ ไม่ระบุชนิด = บางส่วน",
-      "ค่า lab ในโจทย์ bank เป็นค่าที่เติมเพื่อฝึก — จำ pattern ไม่ต้องจำตัวเลข"
-     ],
-     "members": [
-      "MDCU65|RoA|PPT 1#1"
-     ]
-    },
-    {
-     "id": "diverticulosis-spot",
-     "title": "Diverticulosis และภาวะแทรกซ้อน",
-     "asked": [
-      "ให้ประวัติ diverticulosis: Dx + complication 2 (78B)"
-     ],
-     "pattern": [
-      "Bleeding, diverticulitis (abscess, perforation, fistula, stricture)"
-     ],
-     "flow": [
-      "Dx → complications"
-     ],
-     "kw": [
-      "diverticulosis",
-      "diverticulitis",
-      "bleeding",
-      "fistula",
-      "stricture"
-     ],
-     "members": [
-      "MDCU78|RoB|MEQ 4#1",
-      "MDCU78|RoB|MEQ 4#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Vascular & limb",
-   "sections": [
-    {
-     "id": "leg-ulcer",
-     "title": "Chronic leg ulcer: venous vs arterial (บรรยายแผล + ระบบที่ผิดปกติ)",
-     "trend": "บรรยาย ulcer อย่างเป็นระบบ แล้วบอก ‘system ที่ผิดปกติ’ — ออก 65 สอง rotation",
-     "asked": [
-      "ภาพแผลเรื้อรังขาหญิง 60 ปี → describe the lesion (65 RoB)",
-      "สไลด์ต่อ → สาเหตุของแผล → risk factors (65 RoB)",
-      "ภาพแผลเท้าเรื้อรัง A → PE ที่ต้องทำ → ระบบใดผิดปกติ (65 RoC)",
-      "ภาพแผลขาเรื้อรัง B → describe → ระบบใดผิดปกติ (65 RoC)"
-     ],
-     "flow": [
-      "บรรยาย: จำนวน, ตำแหน่ง, ขนาด, รูปร่าง, edge, floor / base, discharge, ผิวรอบแผล, LN, ชีพจร",
-      "สรุป venous / arterial / neuropathic",
-      "PE ที่ต้องทำ (arterial) หรือสาเหตุ + risk factors (venous)"
-     ],
-     "pattern": [
-      "<b>Venous ulcer:</b> gaiter area เหนือ medial malleolus · ใหญ่ ตื้น ขอบไม่สม่ำเสมอแต่ <b>sloping edge</b> · floor granulation + fibrin / slough · exudate มาก · เจ็บไม่มาก · ผิวรอบ: hemosiderin pigmentation, <b>lipodermatosclerosis</b> (inverted champagne bottle), venous eczema, atrophie blanche, varicose veins, ขาบวม · ชีพจรคลำได้ → <b>venous system — chronic venous insufficiency (CEAP C6)</b>",
-      "<b>สาเหตุ venous:</b> ambulatory venous hypertension จาก valvular reflux (GSV / SSV / perforator / deep), obstruction (post-thrombotic), calf muscle pump failure → fibrin cuff / leukocyte trapping → แผล · <b>RF:</b> DVT / กระดูกขาหัก, varicose veins, อายุ, หญิง, ตั้งครรภ์หลายครั้ง, อ้วน, ยืนนาน, ครอบครัว, thrombophilia · รักษา: compression (หลัง ABI ≥ 0.8) + ยกขา + ดูแลแผล ± แก้ superficial reflux (EVLA / RFA) — EVRA trial",
-      "<b>Arterial ulcer:</b> ปลายนิ้ว / ปุ่มกระดูก · <b>punched-out</b> ขอบชัด ฐานซีดไม่มี granulation · ปวดมาก (ยกขาแย่ลง) · ผิวมันบาง ขนร่วง เล็บหนา → <b>arterial system — PAD</b>",
-      "<b>PE arterial:</b> คลำชีพจร femoral, popliteal, DP, PT เทียบสองข้าง · อุณหภูมิ, capillary refill · bruit · <b>Buerger’s test</b> (ยก 45° ซีด / ห้อยแดงคล้ำ) · <b>ABI</b> (Doppler; &gt; 1.3 แข็งกดไม่ลง → toe-brachial index) · sensation / monofilament แยก neuropathic",
-      "Neuropathic: ฝ่าเท้าจุดรับน้ำหนัก ไม่เจ็บ มี callus"
-     ],
-     "kw": [
-      "gaiter area / medial malleolus",
-      "sloping edge",
-      "granulation base",
-      "hemosiderin pigmentation",
-      "lipodermatosclerosis",
-      "chronic venous insufficiency",
-      "punched-out ulcer",
-      "peripheral arterial disease",
-      "ABI",
-      "Buerger’s test",
-      "compression after ABI"
-     ],
-     "ddx": [
-      "venous ulcer",
-      "arterial (ischemic) ulcer",
-      "neuropathic (diabetic) ulcer",
-      "Marjolin’s ulcer (SCC)"
-     ],
-     "pearls": [
-      "บรรยายแผลไม่ครบองค์ประกอบ (edge, floor, surrounding skin) = บางส่วน",
-      "ต้องตรวจ ABI ก่อนพัน compression เสมอ",
-      "risk factors venous ต้องมี DVT"
-     ],
-     "members": [
-      "MDCU65|RoB|PPT 11#1",
-      "MDCU65|RoB|PPT 12#1",
-      "MDCU65|RoC|PPT 14#1",
-      "MDCU65|RoC|PPT 14#2",
-      "MDCU65|RoC|PPT 15#1",
-      "MDCU65|RoC|PPT 15#2"
-     ]
-    },
-    {
-     "id": "toe-gangrene",
-     "title": "Toe gangrene / diabetic foot infection",
-     "trend": "ภาพนิ้วเท้าที่สองดำ + แผลฝ่าเท้า ออกใน 67 สอง rotation — describe, causes, PE, management",
-     "asked": [
-      "ภาพเท้า → describe → possible causes → important PE → management (67 RoB)",
-      "ภาพเท้า → describe → 3 causes → 3 PE (67 RoC)",
-      "รูป CLTI นิ้วโป้ง + นิ้วก้อย popliteal pulse ปกติ distal 0: describe, location, PE (78B)"
-     ],
-     "flow": [
-      "บรรยาย: นิ้วไหน, dry vs wet gangrene, demarcation, แผลฝ่าเท้า, ผิวรอบ",
-      "สาเหตุ",
-      "PE: vascular, neuropathy, infection, systemic",
-      "Management"
-     ],
-     "pattern": [
-      "นิ้วเท้าที่สองดำ แห้ง หด (mummified) demarcation ชัด = dry gangrene · มีแผลฝ่าเท้า slough ผิวรอบแดงบวม = ติดเชื้อร่วม (wet gangrene) — ต้องผ่าด่วน",
-      "<b>สาเหตุ:</b> diabetic foot (neuropathy + PAD + infection — บ่อยสุดในไทย) · atherosclerotic PAD / critical limb ischemia · arterial embolism (AF, atheroembolism — blue toe) · Buerger’s disease (ชายอายุน้อยสูบบุหรี่) · necrotizing fasciitis · frostbite, trauma, vasospasm, vasculitis, hypercoagulable, vasopressor",
-      "<b>PE:</b> peripheral pulses ทุกระดับ ± bruit · ABI (&lt; 0.9 PAD, &lt; 0.4 critical; DM สูงลวง → toe pressure) · trophic changes, capillary refill, Buerger’s test · neuropathy: 10-g monofilament, vibration 128 Hz, ankle reflex · infection: ขอบเขตแดง, หนอง, crepitus, bullae, pain out of proportion, probe-to-bone · systemic: ไข้ / sepsis",
-      "<b>Management:</b> resuscitation ถ้า sepsis · คุมน้ำตาล · IV broad-spectrum ATB (piperacillin-tazobactam; + clindamycin ถ้าสงสัย necrotizing) ปรับตาม tissue culture · <b>urgent debridement / drainage + toe / ray amputation</b> (necrotizing → radical debridement + second look) · ประเมิน revascularization (angiography, bypass / endovascular) · X-ray / MRI หา osteomyelitis · off-loading · tetanus · สอนดูแลเท้า (IWGDF 2023)"
-     ],
-     "kw": [
-      "gangrene of the second toe",
-      "dry vs wet gangrene",
-      "line of demarcation",
-      "diabetic foot infection",
-      "peripheral arterial disease",
-      "pulses + ABI",
-      "monofilament",
-      "probe-to-bone",
-      "debridement + toe / ray amputation",
-      "revascularization"
-     ],
-     "ddx": [
-      "diabetic foot infection",
-      "critical limb ischemia (PAD)",
-      "arterial embolism",
-      "Buerger’s disease",
-      "necrotizing fasciitis"
-     ],
-     "pearls": [
-      "PE ต้องมี pulse หรือ ABI จึงได้เต็ม",
-      "6P ใช้กับ acute limb ischemia เป็นหลัก ไม่ใช่ chronic",
-      "ABI ใน DM อาจสูงลวง — ใช้ toe pressure"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 10#1",
-      "MDCU67|RoB|MEQ 10#2",
-      "MDCU67|RoB|MEQ 10#3",
-      "MDCU67|RoB|MEQ 10#4",
-      "MDCU67|RoC|MEQ 9#1",
-      "MDCU67|RoC|MEQ 9#2",
-      "MDCU67|RoC|MEQ 9#3",
-      "MDCU78|RoB|MEQ 5#1",
-      "MDCU78|RoB|MEQ 5#2",
-      "MDCU78|RoB|MEQ 5#3"
-     ]
-    },
-    {
-     "id": "acute-limb-ischemia",
-     "title": "Acute limb ischemia (embolism จาก AF)",
-     "asked": [
-      "ชาย 72 ปี AF เท้าขวาปวดเย็น 6 ชม. + ภาพเท้า → describe → PE ที่สำคัญ (66 RoD)"
-     ],
-     "flow": [
-      "บรรยายสีเทียบข้างปกติ → สรุป acute arterial ischemia",
-      "6P",
-      "Pulses + Doppler",
-      "Sensory / motor → Rutherford class",
-      "หาต้นเหตุ (หัวใจ)"
-     ],
-     "pattern": [
-      "เท้าขวาซีด (pallor) / mottling / ปลายนิ้วเขียว เทียบซ้าย · mottling กดจาง = ยังกู้ได้ · fixed mottling = irreversible",
-      "<b>6P:</b> pain, pallor, pulselessness, poikilothermia, paresthesia, paralysis",
-      "คลำชีพจร femoral, popliteal, DP, PT เทียบสองข้าง ± <b>handheld Doppler</b> (arterial / venous signal) · อุณหภูมิ, capillary refill",
-      "Sensory (เริ่มที่ฝ่าเท้า / ระหว่างนิ้ว) + motor → <b>Rutherford:</b> I viable · IIa marginally threatened · IIb immediately threatened (sensory loss เกินนิ้ว + motor อ่อนแรง → revascularize ทันที) · III irreversible (อัมพาต ชาสนิท ไม่มี Doppler ทั้งสองแบบ → amputation)",
-      "calf กดเจ็บ / แข็ง (compartment) · หัวใจ: irregular pulse (AF), murmur · bruit, AAA · ให้ <b>heparin ทันที</b>เมื่อวินิจฉัย"
-     ],
-     "kw": [
-      "pallor / mottling compared with other leg",
-      "6P",
-      "pulses at every level",
-      "handheld Doppler",
-      "sensory and motor deficit",
-      "Rutherford classification",
-      "embolism from atrial fibrillation",
-      "heparin"
-     ],
-     "ddx": [
-      "arterial embolism",
-      "thrombosis on atherosclerotic plaque",
-      "phlegmasia cerulea dolens",
-      "aortic dissection"
-     ],
-     "pearls": [
-      "บรรยายสีไม่เทียบข้างปกติ = บางส่วน",
-      "คลำชีพจรอย่างเดียวไม่พอ ต้องมี sensory / motor (Rutherford) + Doppler + หาต้นเหตุ"
-     ],
-     "members": [
-      "MDCU66|RoD|PPT 11#1",
-      "MDCU66|RoD|PPT 11#2"
-     ]
-    },
-    {
-     "id": "pad-claudication",
-     "title": "Intermittent claudication (chronic PAD)",
-     "asked": [
-      "ชาย 68 ปี สูบบุหรี่ 40 pack-years ปวดน่องขวาหลังเดิน 100 m พักแล้วหาย → Dx → PE (65 RoA)"
-     ],
-     "flow": [
-      "Dx + ระดับรอยโรคจากตำแหน่งปวด",
-      "PE: inspection → palpation → auscultation → Buerger’s → ABI → ระบบอื่น"
-     ],
-     "pattern": [
-      "<b>Chronic lower limb arterial occlusive disease (PAD)</b> — intermittent claudication ขาขวา · ปวดน่อง → femoropopliteal (SFA / popliteal) · ปวดก้น / ต้นขา → aortoiliac (Leriche: + femoral pulse หาย + impotence) · Fontaine IIa / IIb",
-      "แยก neurogenic claudication (spinal stenosis — ยืนนานปวด ดีขึ้นเมื่อก้ม / นั่ง)",
-      "<b>PE:</b> trophic changes, กล้ามเนื้อลีบ, แผล / gangrene · อุณหภูมิ, capillary refill · pulses femoral, popliteal, DP, PT เทียบสองข้าง · bruit femoral / aorta · <b>Buerger’s test</b> (angle &lt; 20° = รุนแรง) · <b>ABI</b> (&lt; 0.9 PAD, &lt; 0.4 critical; &gt; 1.3 → TBI) · BP แขนสองข้าง, AF, AAA, carotid bruit",
-      "เบื้องต้น: หยุดบุหรี่, antiplatelet, statin, supervised exercise, cilostazol"
-     ],
-     "kw": [
-      "intermittent claudication",
-      "peripheral arterial disease",
-      "femoropopliteal disease",
-      "pulses compared both sides",
-      "Buerger’s test",
-      "ankle-brachial index < 0.9",
-      "trophic changes"
-     ],
-     "ddx": [
-      "neurogenic claudication (lumbar spinal stenosis)",
-      "venous claudication",
-      "chronic compartment syndrome"
-     ],
-     "pearls": [
-      "คลำชีพจรอย่างเดียว = บางส่วน — ต้องมี ABI + Buerger’s"
-     ],
-     "members": [
-      "MDCU65|RoA|PPT 9#1",
-      "MDCU65|RoA|PPT 9#2"
-     ]
-    },
-    {
-     "id": "lymphedema",
-     "title": "Secondary lymphedema ของแขน ± cellulitis",
-     "asked": [
-      "หญิง 49 ปี แขนซ้ายบวมแดงปวด 3 วัน (ภาพ) → Dx → 2 สาเหตุ / ปัจจัยของแขนบวม (67 RoA)"
-     ],
-     "flow": [
-      "Dx: lymphedema ทั้งแขน + cellulitis ซ้อน",
-      "สาเหตุ (secondary หลังรักษามะเร็งเต้านมก่อน)",
-      "(± รักษา)"
-     ],
-     "pattern": [
-      "<b>Lymphedema of the left arm</b> (บวมทั้งแขนรวมมือ) + <b>cellulitis / lymphangitis</b> (แดง ร้อน ปวด เฉียบพลัน) — หญิงวัยนี้นึกถึง secondary หลัง axillary dissection ± RT",
-      "<b>สาเหตุ:</b> ALND (~20%; SLNB ~5%), axillary / supraclavicular radiotherapy, tumor recurrence ที่รักแร้, filariasis (Wuchereria, Brugia), cellulitis ซ้ำ, trauma / burn · เพิ่มเสี่ยง: อ้วน, ติดเชื้อที่แขน · primary (congenital, praecox, tarda) พบน้อย",
-      "รักษา: ATB คลุม Streptococcus (cloxacillin / cefazolin) + ยกแขน · ระยะยาว complete decongestive therapy (manual lymphatic drainage, compression, exercise, skin care)"
-     ],
-     "kw": [
-      "secondary lymphedema",
-      "axillary lymph node dissection",
-      "radiotherapy",
-      "cellulitis",
-      "filariasis",
-      "complete decongestive therapy"
-     ],
-     "ddx": [
-      "upper-extremity DVT",
-      "tumor recurrence compressing axillary vein / lymphatics"
-     ],
-     "pearls": [
-      "ตอบ lymphedema อย่างเดียวไม่บอก cellulitis = ได้คะแนนส่วนใหญ่แต่ไม่เต็ม"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 4#1",
-      "MDCU67|RoA|MEQ 4#2"
-     ]
-    },
-    {
-     "id": "dvt-spot",
-     "title": "DVT หลังผ่าตัด: duplex US → anticoagulation 3 เดือน",
-     "asked": [
-      "DVT เหมือน AC (78C)"
-     ],
-     "pattern": [
-      "Compression US · LMWH/DOAC · provoked 3 เดือน"
-     ],
-     "flow": [
-      "Dx → duplex US → anticoagulation"
-     ],
-     "kw": [
-      "DVT",
-      "compression ultrasound",
-      "LMWH",
-      "DOAC",
-      "3 months"
-     ],
-     "members": [
-      "MDCU78|RoC|MEQ 7#1",
-      "MDCU78|RoC|MEQ 7#2",
-      "MDCU78|RoC|MEQ 7#3"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Anorectal",
-   "sections": [
-    {
-     "id": "hemorrhoids",
-     "title": "Hemorrhoids (internal grade II–IV, mixed) — grading และการรักษาตาม grade",
-     "trend": "ภาพก้อนยื่นจากทวาร ออกสี่ rotation — grade ตามโจทย์ (หุบเอง / ต้องดัน) แล้วเลือกการรักษา",
-     "asked": [
-      "เลือดสด + ก้อนยื่นตอนเบ่งแล้วหุบเอง (ภาพ) → Dx → management (67 RoB)",
-      "เลือดออก + ก้อนต้องดันกลับเอง → describe → อธิบายกลไกเลือดออก → treatment (67 RoC)",
-      "ภาพรอยโรครอบทวาร → Dx → treatment (67 RoD)",
-      "ภาพทวารมีรอยโรคมากกว่าหนึ่ง (fissure + hemorrhoid) → management (66 RoB)"
-     ],
-     "flow": [
-      "บรรยาย: ก้อนเยื่อบุแดงม่วงหลายก้อน ตำแหน่ง 3, 7, 11 นาฬิกา (lithotomy) ± external component",
-      "Grade ตาม Goligher จากประวัติการยื่น",
-      "กลไกเลือดออก (ถ้าถาม)",
-      "Conservative ทุกราย → office procedure / hemorrhoidectomy ตาม grade + แยกมะเร็ง"
-     ],
-     "pattern": [
-      "<b>Goligher:</b> I เลือดออกไม่ยื่น · II ยื่นแล้วกลับเอง · III ต้องดันกลับ · IV ดันไม่เข้า · external = ใต้ dentate line คลุมด้วย anoderm · mixed = ทั้งสอง",
-      "<b>กลไกเลือดออก:</b> อุจจาระแข็ง / เบ่ง ครูด mucosa ที่คลุม anal cushion ที่ขยาย (AV communication) → เลือดแดงสดจาก presinusoidal arterioles หยด / พุ่งหลังถ่าย ไม่ปวด",
-      "<b>Conservative ทุกราย:</b> fiber 25–35 g/วัน + น้ำ, stool softener, ไม่เบ่ง / นั่งนาน, sitz bath ± flavonoids (MPFF)",
-      "<b>Grade I–II (± III เล็ก): rubber band ligation</b> (ดีสุด, รัดเหนือ dentate line, ห้ามรัด external) · sclerotherapy, infrared coagulation",
-      "<b>Excisional hemorrhoidectomy</b> (Milligan–Morgan open / Ferguson closed) เมื่อ grade III–IV, mixed ที่ external มาก, office procedure ล้มเหลว · ทางเลือก stapled hemorrhoidopexy, DG-HAL · thrombosed / gangrenous prolapse → ผ่าเร่งด่วน",
-      "Colonoscopy / flexible sigmoidoscopy เมื่ออายุ ≥ 45–50 ปี, alarm features (ซีด น้ำหนักลด ลักษณะถ่ายเปลี่ยน) หรือประวัติครอบครัว",
-      "มี fissure ร่วม: รักษา conservative + topical sphincter relaxant ก่อน · ไม่ทำ RBL / hemorrhoidectomy ขณะ fissure เจ็บมาก"
-     ],
-     "kw": [
-      "internal hemorrhoid grade II / III / IV",
-      "mixed (interno-external) hemorrhoids",
-      "3, 7, 11 o’clock",
-      "Goligher grading",
-      "high-fiber diet, sitz bath",
-      "rubber band ligation",
-      "excisional hemorrhoidectomy (Milligan–Morgan / Ferguson)",
-      "exclude colorectal cancer"
-     ],
-     "ddx": [
-      "rectal prolapse (concentric folds)",
-      "anal fissure with sentinel tag",
-      "colorectal carcinoma",
-      "thrombosed external hemorrhoid",
-      "anal polyp"
-     ],
-     "pearls": [
-      "⚠ ไฟล์เดิม (67 RoB, grade II) ตอบ hemorrhoidectomy ทันที — bank แก้ให้เริ่ม conservative / RBL ก่อน",
-      "describe ต้องบอก grade + ตำแหน่ง 3 / 7 / 11 จึงได้เต็ม (67 RoC)",
-      "ลืมแยกมะเร็งลำไส้ในผู้สูงอายุเสียคะแนน"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 13#1",
-      "MDCU67|RoB|MEQ 13#2",
-      "MDCU67|RoC|MEQ 2#1",
-      "MDCU67|RoC|MEQ 2#2",
-      "MDCU67|RoC|MEQ 2#3",
-      "MDCU67|RoD|PPT 11#1",
-      "MDCU67|RoD|PPT 11#2",
-      "MDCU66|RoB|PPT 4#1",
-      "MDCU66|RoB|PPT 4#2"
-     ]
-    },
-    {
-     "id": "anal-fissure",
-     "title": "Anal fissure (acute vs chronic) — การรักษาเป็นขั้น",
-     "trend": "ภาพทวารหญิงอายุน้อยถ่ายเจ็บ + เลือดสด — ต้องบอก acute / chronic จากลักษณะ",
-     "asked": [
-      "หญิง 24 ปี เลือดสดเป็น ๆ หาย ๆ 6 เดือน (ภาพ) → Dx → treatment (67 RoA)",
-      "หญิง 30 ปี ถ่ายเจ็บ + เลือดออก → Dx → แนะนำการรักษา (66 RoA)",
-      "ภาพทวาร → Dx → treat (66 RoB)",
-      "Fissure + hemorrhoid ในภาพเดียว → management (66 RoB)",
-      "รูป anal fissure 2 วัน (78B)"
-     ],
-     "flow": [
-      "Dx + acute / chronic ตามลักษณะในภาพ / ระยะเวลา",
-      "ตำแหน่ง (posterior midline) — นอก midline คิดโรคอื่น",
-      "Conservative 6–8 สัปดาห์",
-      "Topical sphincter relaxant / botox",
-      "ล้มเหลว → LIS"
-     ],
-     "pattern": [
-      "แผลฉีกตามแนวยาวของ anoderm ใต้ dentate line ส่วนใหญ่ <b>posterior midline</b> · ปวดแสบมากขณะ / หลังถ่าย + เลือดสดติดกระดาษ",
-      "<b>Chronic</b> (&gt; 6–8 สัปดาห์): ขอบนูนแข็ง, เห็นใยกล้ามเนื้อ internal sphincter ที่ฐาน, <b>sentinel pile</b>, hypertrophied anal papilla · acute = แผลตื้นขอบเรียบไม่มี tag",
-      "Lateral / หลายแผล / ไม่เจ็บ → Crohn’s, TB, HIV, syphilis, CA",
-      "พยาธิ: internal sphincter hypertonia → posterior midline ขาดเลือด → แผลไม่หาย",
-      "<b>Conservative:</b> fiber / psyllium, น้ำมาก, stool softener, warm sitz bath, lidocaine ทา",
-      "<b>Chemical sphincterotomy 6–8 สัปดาห์:</b> 2% diltiazem (ผลข้างเคียงน้อย) หรือ 0.2–0.4% GTN (ปวดหัว) วันละ 2 ครั้ง · หรือ botulinum toxin ฉีด internal sphincter",
-      "<b>Chronic ไม่ตอบสนอง → lateral internal sphincterotomy (LIS)</b> = มาตรฐาน หาย &gt; 90% (เสี่ยงกลั้นลม / อุจจาระเล็กน้อย) ± ตัด sentinel tag / papilla · เสี่ยง incontinence → fissurectomy / advancement flap (ASCRS 2023)",
-      "ไม่ควร DRE / ส่องกล้องขณะเจ็บมาก · ไม่ทำ anal stretch"
-     ],
-     "kw": [
-      "anal fissure, posterior midline",
-      "chronic: sentinel pile, hypertrophied papilla, exposed internal sphincter",
-      "high-fiber diet, stool softener, sitz bath",
-      "topical diltiazem 2% / GTN 0.2–0.4%",
-      "botulinum toxin",
-      "lateral internal sphincterotomy"
-     ],
-     "ddx": [
-      "hemorrhoids",
-      "Crohn’s fissure",
-      "anal cancer",
-      "syphilis / HIV / TB ulcer",
-      "perianal abscess"
-     ],
-     "pearls": [
-      "⚠ ไฟล์เดิม (67 RoA) ตอบ acute — bank แก้เป็น chronic (เป็น ๆ หาย ๆ 6 เดือน) · ตอบ acute ได้คะแนนส่วนใหญ่",
-      "ตอบ conservative อย่างเดียวไม่มี topical / LIS = บางส่วน",
-      "ภาพ 66 RoB (สองรอยโรค) เป็นข้อที่ bank เติม Dx เอง — acute fissure + internal hemorrhoid"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 8#1",
-      "MDCU67|RoA|MEQ 8#2",
-      "MDCU66|RoA|PPT 6#1",
-      "MDCU66|RoA|PPT 6#2",
-      "MDCU66|RoB|PPT 1#1",
-      "MDCU66|RoB|PPT 1#2",
-      "MDCU66|RoB|PPT 4#1",
-      "MDCU66|RoB|PPT 4#2",
-      "MDCU78|RoB|MEQ 7#1",
-      "MDCU78|RoB|MEQ 7#2",
-      "MDCU78|RoB|MEQ 7#3"
-     ]
-    },
-    {
-     "id": "condyloma",
-     "title": "Condyloma acuminata (perianal warts)",
-     "asked": [
-      "ชายโสด 28 ปี ภาพรอบทวาร → Dx → สาเหตุ + risk factors → management (66 RoA)",
-      "Condyloma acuminata เหมือน AC (78C)"
-     ],
-     "flow": [
-      "Dx + DDx condyloma lata",
-      "HPV type + risk factors",
-      "ตรวจเพิ่ม (anoscopy, STI)",
-      "รักษาตามขนาด / ตำแหน่ง + คู่นอน / ป้องกัน"
-     ],
-     "pattern": [
-      "ตุ่มนูนขรุขระคล้ายดอกกะหล่ำหลายตุ่ม = <b>condyloma acuminata</b> · HPV 6 / 11 (~90%) · 16 / 18 → AIN / anal SCC",
-      "RF: คู่นอนหลายคน / ไม่ใช้ถุงยาง, receptive anal intercourse (MSM), ภูมิต่ำ (HIV, ยากดภูมิ), สูบบุหรี่, STI อื่น, ไม่ได้รับวัคซีน HPV",
-      "ตรวจ: <b>anoscopy</b> หารอยโรคใน anal canal · anti-HIV, <b>VDRL / TPHA</b>, HBsAg · biopsy ถ้าผิดลักษณะ / ใหญ่ / ดื้อยา",
-      "รักษา: เล็ก น้อย นอก canal → podophyllin 25% (แพทย์ทา) / podophyllotoxin 0.5%, imiquimod 5%, TCA 80–90%, cryotherapy · กว้าง / ใน canal / ดื้อ → surgical excision + electrofulguration · ห้าม podophyllin / imiquimod ในตั้งครรภ์",
-      "รักษาคู่นอน, ถุงยาง, วัคซีน HPV, ติดตาม recurrence (20–30%)"
-     ],
-     "kw": [
-      "condyloma acuminata",
-      "HPV 6 / 11",
-      "anoscopy",
-      "screen HIV, VDRL / TPHA",
-      "podophyllin / imiquimod / TCA / cryotherapy",
-      "excision + electrofulguration",
-      "partner treatment, HPV vaccine"
-     ],
-     "ddx": [
-      "condyloma lata (secondary syphilis)",
-      "skin tags",
-      "Buschke–Löwenstein giant condyloma",
-      "anal SCC"
-     ],
-     "pearls": [
-      "ต้องให้ DDx condyloma lata และส่ง VDRL / TPHA เสมอ"
-     ],
-     "members": [
-      "MDCU66|RoA|PPT 10#1",
-      "MDCU66|RoA|PPT 10#2",
-      "MDCU66|RoA|PPT 10#3",
-      "MDCU78|RoC|MEQ 5#1",
-      "MDCU78|RoC|MEQ 5#2",
-      "MDCU78|RoC|MEQ 5#3"
-     ]
-    },
-    {
-     "id": "perianal-abscess",
-     "title": "Perianal / ischiorectal abscess ในผู้ป่วยเบาหวาน",
-     "asked": [
-      "ชาย 40 ปี DM ไม่รักษา ปวดก้น + ไข้ (ภาพ) → Dx → treatment (67 RoD)",
-      "Perianal abscess เหมือน AC: Dx, Tx (78C)"
-     ],
-     "flow": [
-      "Dx (perianal vs ischiorectal ตามขอบเขต)",
-      "I&D โดยเร็ว",
-      "ATB เพราะ DM / cellulitis / ไข้",
-      "คุมน้ำตาล + เฝ้าระวัง Fournier / fistula"
-     ],
-     "pattern": [
-      "ก้อนบวมแดงร้อนข้างทวาร = <b>perianal abscess</b> · กว้างลงแก้มก้นลึก = ischiorectal · จาก cryptoglandular infection",
-      "<b>Incision and drainage โดยเร็ว</b> (ไม่ต้องรอ fluctuation) กรีดใกล้ขอบทวาร (fistula ที่อาจเกิดจะสั้น) เปิดกว้างพอ · ลึก / ใหญ่ → EUA",
-      "<b>ATB ร่วม</b> (gram-negative + anaerobe) เมื่อ DM, ภูมิต่ำ, cellulitis กว้าง, sepsis, ลิ้นหัวใจเทียม · คุมน้ำตาล · sitz bath, ยาแก้ปวด",
-      "เฝ้าระวัง necrotizing soft-tissue infection (Fournier) · fistula-in-ano ตามมา ~1/3"
-     ],
-     "kw": [
-      "perianal / ischiorectal abscess",
-      "cryptoglandular",
-      "incision and drainage",
-      "antibiotics because of diabetes",
-      "glycemic control",
-      "Fournier gangrene",
-      "fistula-in-ano"
-     ],
-     "pearls": [
-      "ตอบ ATB อย่างเดียวไม่ระบาย = ไม่ได้คะแนนหลัก"
-     ],
-     "members": [
-      "MDCU67|RoD|PPT 8#1",
-      "MDCU67|RoD|PPT 8#2",
-      "MDCU78|RoC|MEQ 14#1",
-      "MDCU78|RoC|MEQ 14#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Breast",
-   "sections": [
-    {
-     "id": "mastitis",
-     "title": "Lactational mastitis และ breast abscess (แยก inflammatory breast cancer)",
-     "trend": "ภาพเต้านมแดงในแม่ให้นม ออกสี่ rotation — ต้องบอก ‘ให้นมต่อ’ และ anti-staph ATB",
-     "asked": [
-      "หญิงให้นมบุตร (ภาพ) → describe → 2 DDx (67 RoC)",
-      "หญิง 27 ปี ให้นมลูก 4 สัปดาห์ ไข้ ปวดเต้า 2 วัน → Dx → treatment (66 RoD)",
-      "หลังคลอด 6 สัปดาห์ ได้ ATB 5 วันไม่ดีขึ้น คลำได้ fluctuant → Dx → management (65 RoA)",
-      "หญิงสาวปวดแดงเต้านม + ไข้ → DDx → treatment (65 RoC)"
-     ],
-     "flow": [
-      "บรรยาย: erythema ตำแหน่ง (UOQ ติด areola), รูปลิ่ม, ไม่มีแผล / discharge / peau d’orange, fluctuation?",
-      "Dx / DDx: mastitis, abscess, inflammatory breast cancer",
-      "Management mastitis → ไม่ดีขึ้น 48–72 ชม. → US หา abscess → aspiration / I&D",
-      "ไม่ตอบสนอง / ไม่ได้ให้นม → biopsy"
-     ],
-     "pattern": [
-      "<b>Lactational mastitis:</b> แดง บวม ร้อน กดเจ็บรูปลิ่ม + ไข้ · S. aureus จาก milk stasis + รอยแตกหัวนม · พบบ่อยใน 6 สัปดาห์แรก",
-      "<b>รักษา:</b> <b>ให้นมต่อ / ปั๊มนมออกสม่ำเสมอ</b> (ไม่หยุด — หยุดแล้ว stasis มากขึ้น) · ประคบเย็น, paracetamol / ibuprofen · ATB anti-staph 10–14 วัน: <b>dicloxacillin / cloxacillin หรือ cephalexin</b> (แพ้ penicillin / MRSA → clindamycin, TMP-SMX) ปลอดภัยกับการให้นม (ABM 2022)",
-      "<b>Breast abscess:</b> ไม่ดีขึ้น 48–72 ชม. / fluctuant → <b>US</b> → <b>US-guided needle aspiration</b> (ซ้ำทุก 2–3 วัน) เป็นแรก · ใหญ่ / หลายช่อง / ผิวบาง / aspiration ล้มเหลว → I&D (radial หรือ circumareolar ห่างหัวนม) + culture · ให้นมต่อได้ถ้าแผลไม่ใกล้หัวนม",
-      "<b>Inflammatory breast cancer:</b> erythema + edema / peau d’orange ≥ 1/3 เต้า ไม่ค่อยไข้ ไม่ตอบสนอง ATB 1–2 สัปดาห์ → mammogram / US + skin punch / core biopsy",
-      "DDx อื่น: periductal mastitis / duct ectasia (สูบบุหรี่, subareolar), idiopathic granulomatous mastitis, cellulitis, engorgement, plugged duct"
-     ],
-     "kw": [
-      "lactational (puerperal) mastitis",
-      "Staphylococcus aureus",
-      "continue breastfeeding / empty the breast",
-      "dicloxacillin / cephalexin",
-      "breast abscess",
-      "ultrasound-guided needle aspiration",
-      "incision and drainage",
-      "inflammatory breast cancer → biopsy"
-     ],
-     "ddx": [
-      "lactational mastitis",
-      "breast abscess",
-      "inflammatory breast cancer",
-      "periductal mastitis",
-      "granulomatous mastitis"
-     ],
-     "pearls": [
-      "แนะนำหยุดให้นม = ผิด (เสียคะแนน)",
-      "ให้ ATB ต่ออย่างเดียวเมื่อมี abscess = บางส่วน",
-      "DDx ต้องมี inflammatory breast cancer"
-     ],
-     "members": [
-      "MDCU67|RoC|MEQ 10#1",
-      "MDCU67|RoC|MEQ 10#2",
-      "MDCU66|RoD|PPT 1#1",
-      "MDCU65|RoA|PPT 7#1",
-      "MDCU65|RoC|PPT 11#1",
-      "MDCU65|RoC|PPT 11#2"
-     ]
-    },
-    {
-     "id": "breast-staging",
-     "title": "Breast cancer: clinical TNM / anatomic stage (AJCC 8th) และ locally advanced breast cancer",
-     "trend": "ให้ข้อมูลก้อน + LN มาให้ stage — กับดักคือ fixed / matted axillary node = N2a",
-     "asked": [
-      "ข้อมูลคลินิก: ก้อน 4.5 cm fixed ต่อ pectoralis fascia, axillary LN fixed / matted, M0 → clinical TNM + stage (65 RoB)",
-      "ก้อน 1.5 × 2 cm + axillary LN fixed (matted), M0 → clinical TNM → anatomic stage (65 RoC)",
-      "หญิงเจ็บตึงเต้านมซ้าย 4 เดือน (ภาพ) → describe → provisional Dx → investigations → stage (66 RoA)"
-     ],
-     "flow": [
-      "T จากขนาดมิติยาวสุด + skin / chest wall",
-      "N จาก axillary node เคลื่อนได้ / fixed, internal mammary, infra / supraclavicular",
-      "M",
-      "รวมเป็น anatomic stage → แนวรักษา"
-     ],
-     "pattern": [
-      "<b>T:</b> T1 ≤ 2 cm (T1c &gt; 1–2 cm) · T2 &gt; 2–5 cm · T3 &gt; 5 cm · <b>T4a</b> chest wall (ซี่โครง, intercostal, serratus — <b>ไม่รวม pectoralis</b>) · <b>T4b</b> skin edema / peau d’orange / ulcer / satellite nodules · T4c = a + b · <b>T4d</b> inflammatory",
-      "<b>cN:</b> N1 axillary I–II เคลื่อนได้ · <b>N2a axillary fixed / matted</b> · N2b internal mammary อย่างเดียว · N3a infraclavicular · N3b internal mammary + axillary · N3c supraclavicular",
-      "<b>Stage:</b> N2 ใด ๆ กับ T0–3 = <b>IIIA</b> · T4 (N0–2) = <b>IIIB</b> · N3 = IIIC · M1 = IV",
-      "ตัวอย่าง: 4.5 cm ติด pectoralis + axillary fixed → <b>cT2 N2a M0 = IIIA</b> (ถ้า fixed หมายถึงผนังอก = T4a → IIIB) · 2 cm + axillary matted → <b>cT1c N2a M0 = IIIA</b>",
-      "<b>Describe ภาพเต้านม:</b> ขนาด / สมมาตร, ผิว (erythema กี่ส่วน, peau d’orange, dimpling, ulcer, satellite nodules), หัวนม retraction, ก้อน, รักแร้ / supraclavicular",
-      "<b>Investigations (LABC):</b> bilateral mammogram + US breast / axilla · core needle biopsy (± skin punch) → ER, PR, HER2, Ki-67 · FNA / core LN · staging CT chest / abdomen (หรือ CXR + US liver), bone scan, LFT, ALP · echo ก่อน anthracycline / anti-HER2",
-      "แนวรักษา: neoadjuvant systemic therapy → surgery (mastectomy + axillary dissection) → radiotherapy"
-     ],
-     "kw": [
-      "cT2 / cT1c",
-      "cN2a: fixed / matted axillary nodes",
-      "pectoralis involvement is not T4",
-      "T4b peau d’orange, T4d inflammatory",
-      "N2 = stage IIIA",
-      "T4 = IIIB, N3 = IIIC",
-      "locally advanced breast cancer",
-      "core needle biopsy + receptor status",
-      "systemic staging",
-      "neoadjuvant therapy"
-     ],
-     "pearls": [
-      "ตอบ N1 เพราะไม่สนใจคำว่า fixed / matted = 0 ส่วน N",
-      "ติด pectoralis ไม่ใช่ T4 — T4a ต้องติดผนังทรวงอก",
-      "AJCC 8th มี prognostic stage แต่ระดับนิสิตตอบ anatomic stage ได้"
-     ],
-     "members": [
-      "MDCU66|RoA|PPT 4#1",
-      "MDCU66|RoA|PPT 4#2",
-      "MDCU66|RoA|PPT 4#3",
-      "MDCU66|RoA|PPT 4#4",
-      "MDCU65|RoB|PPT 9#1",
-      "MDCU65|RoC|PPT 4#1",
-      "MDCU65|RoC|PPT 4#2"
-     ]
-    },
-    {
-     "id": "breast-lump-workup",
-     "title": "Breast lump: ประวัติเพิ่มเติม และ triple assessment",
-     "asked": [
-      "ภาพเต้านมมีก้อน → ซักประวัติอะไรเพิ่ม (65 RoB)",
-      "หญิง 45 ปี คลำได้ก้อน → 2 investigations เพื่อวินิจฉัย (65 RoC)"
-     ],
-     "flow": [
-      "ประวัติ: ก้อน → อาการเฉพาะที่ → อาการแพร่กระจาย → ปัจจัยเสี่ยง → อื่น ๆ",
-      "Triple assessment: clinical + imaging + core biopsy"
-     ],
-     "pattern": [
-      "<b>ก้อน:</b> พบเมื่อไร อย่างไร, โตเร็ว / ช้า, เจ็บ, เปลี่ยนตามรอบเดือน, ก้อนอื่น / อีกข้าง",
-      "<b>เฉพาะที่:</b> nipple discharge (เลือด), หัวนมบุ๋ม, ผิวบุ๋ม / peau d’orange / แผล, ก้อนรักแร้",
-      "<b>แพร่กระจาย:</b> น้ำหนักลด, ปวดกระดูก, ไอ / หอบ, RUQ pain / jaundice, ปวดหัว / อ่อนแรง",
-      "<b>Risk factors:</b> อายุ, ครอบครัวมะเร็งเต้านม / รังไข่ (BRCA), menarche &lt; 12 / menopause &gt; 55, nulliparity / บุตรคนแรก &gt; 30, ไม่ให้นม, HRT / ยาคุม, ฉายรังสีทรวงอก, เคย biopsy (atypical hyperplasia, LCIS), มะเร็งเต้าอีกข้าง, สุรา, อ้วน · อื่น: ตั้งครรภ์ / ให้นม, trauma (fat necrosis), mammogram เดิม",
-      "<b>Investigations:</b> (1) <b>mammogram + breast US</b> (อายุ ≥ 40 ใช้ mammogram เป็นหลัก; &lt; 30–35 เริ่ม US) รายงาน BI-RADS (2) <b>US-guided core needle biopsy</b> (ได้ histology แยก invasive / in situ + ER / PR / HER2 — ดีกว่า FNA) · ทำ imaging ก่อน biopsy"
-     ],
-     "kw": [
-      "characteristics of the lump",
-      "nipple discharge / retraction, skin changes",
-      "symptoms of metastasis",
-      "family history (BRCA)",
-      "reproductive / hormonal history",
-      "triple assessment",
-      "mammogram + ultrasound (BI-RADS)",
-      "core needle biopsy"
-     ],
-     "pearls": [
-      "ตอบ FNA แทน core = บางส่วน · ตอบ tumor marker = 0",
-      "ประวัติต้องมี risk factors ≥ 4 กลุ่ม (ครอบครัว, ประจำเดือน, บุตร, ฮอร์โมน)"
-     ],
-     "members": [
-      "MDCU65|RoB|PPT 8#1",
-      "MDCU65|RoC|PPT 16#1"
-     ]
-    },
-    {
-     "id": "mammogram-spot",
-     "title": "Mammogram 2 views (MLO/CC) → BI-RADS 5 → core biopsy",
-     "trend": "78B และ 78C",
-     "asked": [
-      "Mammogram 2 views: ชื่อ, view A/B, describe, Dx, next (78B)",
-      "MMG ไม่มี LN: film, Dx + เหตุผล 2, ส่งอะไรต่อ (78C)"
-     ],
-     "pattern": [
-      "MLO เห็น pectoralis · spiculated mass + pleomorphic calcification → core needle biopsy"
-     ],
-     "flow": [
-      "ชื่อ/ท่า → describe → BI-RADS/Dx → core biopsy"
-     ],
-     "kw": [
-      "MLO",
-      "CC",
-      "spiculated",
-      "microcalcification",
-      "BI-RADS 5",
-      "core needle biopsy"
-     ],
-     "members": [
-      "MDCU78|RoB|MEQ 6#1",
-      "MDCU78|RoB|MEQ 6#2",
-      "MDCU78|RoB|MEQ 6#3",
-      "MDCU78|RoB|MEQ 6#4",
-      "MDCU78|RoB|MEQ 6#5",
-      "MDCU78|RoC|MEQ 13#1",
-      "MDCU78|RoC|MEQ 13#2",
-      "MDCU78|RoC|MEQ 13#3"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Skin tumours",
-   "sections": [
-    {
-     "id": "bcc",
-     "title": "Basal cell carcinoma ของใบหน้า (H-zone) — biopsy, excision margin, Mohs",
-     "trend": "ภาพตุ่มข้างจมูก / หัวตาในผู้สูงอายุ ออกสามรอบ — ต้องให้เหตุผล Dx และ margin / Mohs",
-     "asked": [
-      "ภาพรอยโรคข้างจมูกใกล้หัวตา → Dx พร้อมเหตุผล → management (67 RoB)",
-      "ชาวนา 68 ปี ตุ่มนูนขอบชัดข้างปีกจมูก → most likely Dx + main DDx → management (65 RoB)",
-      "ภาพรอยโรคใบหน้าผู้สูงอายุ → รักษาอย่างไร → หลังตัดออกต้องทำอะไรต่อ (65 RoC)",
-      "BCC เหมือน AC (78C)"
-     ],
-     "flow": [
-      "Dx + เหตุผล (อายุ, ตำแหน่งโดนแดด, pearly, rolled border, telangiectasia, rodent ulcer)",
-      "DDx: SCC เป็นหลัก",
-      "Biopsy ยืนยัน",
-      "Excision margin 4 mm หรือ Mohs ใน H-zone → ปิดแผล",
-      "ส่งพยาธิดูขอบ + follow-up + กันแดด"
-     ],
-     "pattern": [
-      "<b>Nodular BCC:</b> pearly / translucent papule, <b>rolled border</b>, <b>telangiectasia</b>, ± central ulcer (rodent ulcer) · โตช้า แพร่กระจายน้อยมาก · ใบหน้าส่วนกลาง (ข้างจมูก, nasolabial fold, เปลือกตา) · คนไทยมัก pigmented BCC",
-      "DDx: <b>SCC</b> (ขอบไม่ชัด แข็ง keratin / แผล โตเร็ว บน actinic keratosis / ริมฝีปากล่าง — ต้องตรวจ LN), keratoacanthoma, amelanotic melanoma, sebaceous hyperplasia",
-      "<b>Biopsy</b> (punch / shave / incisional) ก่อน",
-      "<b>Low-risk BCC:</b> surgical excision clinical margin <b>~4 mm</b> → primary closure / local flap / skin graft · <b>High-risk</b> (H-zone: รอบตา จมูก ริมฝีปาก หู คาง, ขอบไม่ชัด, recurrent, morpheaform / infiltrative) → <b>Mohs micrographic surgery</b> หรือ excision with margin control / frozen section (NCCN BCC)",
-      "ผ่าไม่ได้: radiotherapy, curettage & electrodesiccation (superficial), imiquimod / 5-FU (superficial), cryotherapy · ลุกลาม → hedgehog inhibitor (vismodegib)",
-      "<b>หลังตัด:</b> ส่ง histopathology (ผูกไหมกำหนดทิศ) ยืนยัน Dx, subtype, <b>margin</b> → ขอบบวก → re-excision / Mohs / RT · ตรวจผิวหนังทั้งตัวทุก 6–12 เดือน + กันแดด"
-     ],
-     "kw": [
-      "basal cell carcinoma (nodular)",
-      "pearly papule, rolled border, telangiectasia",
-      "rodent ulcer",
-      "sun-exposed H-zone",
-      "biopsy",
-      "excision with 4-mm margin",
-      "Mohs micrographic surgery",
-      "send for histopathology — margin status",
-      "sun protection, follow-up"
-     ],
-     "ddx": [
-      "squamous cell carcinoma",
-      "keratoacanthoma",
-      "amelanotic melanoma",
-      "sebaceous hyperplasia"
-     ],
-     "pearls": [
-      "ตอบ SCC โดยให้เหตุผลและการรักษาถูกต้อง = บางส่วน (65 RoB)",
-      "ข้อย่อย ‘หลังตัดต้องทำอะไร’ ผู้จดบันทึกว่ากำกวม — คำตอบหลักคือส่งพยาธิดู margin (ตอบแค่ดูแลแผล = ครึ่งคะแนน)",
-      "BCC ไม่ต้องตรวจ LN routine (SCC ต้อง)"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 8#1",
-      "MDCU67|RoB|MEQ 8#2",
-      "MDCU65|RoB|PPT 7#1",
-      "MDCU65|RoC|PPT 8#1",
-      "MDCU65|RoC|PPT 8#2",
-      "MDCU78|RoC|MEQ 12#1",
-      "MDCU78|RoC|MEQ 12#2"
-     ]
-    },
-    {
-     "id": "melanoma",
-     "title": "Malignant melanoma — ABCDE, risk factors, excisional biopsy → WLE ตาม Breslow + SLNB",
-     "asked": [
-      "ภาพ pigmented lesion → one Dx → treatment (67 RoD)",
-      "ภาพรอยโรคผิวหนัง → describe → risk factors (65 RoC)",
-      "รูป melanoma ที่จมูก: Dx, Tx (78B)"
-     ],
-     "flow": [
-      "บรรยายตาม ABCDE + ตำแหน่ง (acral?)",
-      "Dx: melanoma (+ subtype)",
-      "Excisional biopsy → Breslow → WLE margin + SLNB",
-      "Risk factors"
-     ],
-     "pattern": [
-      "<b>ABCDE:</b> Asymmetry, Border irregular / notched, Color variegated (ดำ น้ำตาล น้ำเงิน แดง ขาว), Diameter &gt; 6 mm, Evolving ± ulcer / เลือดออก / satellite",
-      "คนไทย / เอเชีย: <b>acral lentiginous</b> (ฝ่ามือ ฝ่าเท้า ใต้เล็บ — Hutchinson sign) พบบ่อยและไม่สัมพันธ์ UV · คนผิวขาว: superficial spreading",
-      "<b>Excisional biopsy</b> margin 1–3 mm full thickness (ไม่ shave) → <b>Breslow thickness</b> (ปัจจัยพยากรณ์สำคัญสุด)",
-      "<b>WLE margin:</b> in situ 0.5–1 cm · ≤ 1 mm 1 cm · 1–2 mm 1–2 cm · &gt; 2 mm 2 cm · <b>SLNB</b> เมื่อ ≥ 0.8 mm (T1b ขึ้นไป) · node บวกทางคลินิก → lymph node dissection ± adjuvant immunotherapy / targeted",
-      "<b>Risk factors:</b> UV (sunburn วัยเด็ก, tanning bed), ผิวขาว Fitzpatrick I–II / ผมแดง ตาสีอ่อน กระมาก, nevi &gt; 50 / atypical nevi, giant congenital nevus &gt; 20 cm, ครอบครัว / เคยเป็น (CDKN2A), xeroderma pigmentosum, immunosuppression, อายุมาก · acral: trauma / แรงกดซ้ำที่ฝ่าเท้า"
-     ],
-     "kw": [
-      "ABCDE",
-      "malignant melanoma",
-      "acral lentiginous melanoma",
-      "excisional biopsy 1–3 mm margin",
-      "Breslow thickness",
-      "wide local excision by thickness",
-      "sentinel lymph node biopsy",
-      "UV, atypical nevi, family history"
-     ],
-     "ddx": [
-      "seborrheic keratosis",
-      "pigmented BCC",
-      "dysplastic nevus",
-      "subungual hematoma"
-     ],
-     "pearls": [
-      "ตอบ wide excision อย่างเดียว (ไฟล์เดิม) ได้ส่วนใหญ่ — เต็มต้องมี excisional biopsy ก่อน + SLNB",
-      "ห้าม shave biopsy เพราะวัด Breslow ไม่ได้",
-      "risk factors ต้องมี UV + nevi + ครอบครัว"
-     ],
-     "members": [
-      "MDCU67|RoD|PPT 4#1",
-      "MDCU67|RoD|PPT 4#2",
-      "MDCU65|RoC|PPT 2#1",
-      "MDCU65|RoC|PPT 2#2",
-      "MDCU78|RoB|MEQ 9#1",
-      "MDCU78|RoB|MEQ 9#2"
-     ]
-    },
-    {
-     "id": "marjolin",
-     "title": "Marjolin’s ulcer (SCC บนแผลเป็นไฟไหม้เก่า)",
-     "asked": [
-      "ชาวนา 60 ปี แผลเรื้อรังไม่หายที่ขาบนแผลเป็นไฟไหม้เก่า → describe → Dx + ยืนยันอย่างไร (65 RoA)"
-     ],
-     "flow": [
-      "บรรยาย ulcer ครบองค์ประกอบ (edge everted / indurated)",
-      "Dx: SCC on chronic scar",
-      "Biopsy จากขอบ + ตรวจ inguinal LN",
-      "(± WLE)"
-     ],
-     "pattern": [
-      "Ulcer เดี่ยว ~4 × 3 cm บนแผลเป็นเก่า · <b>raised, everted edge</b> แข็ง (indurated) ขอบไม่สม่ำเสมอ · ฐาน friable เลือดออกง่าย มี necrotic tissue / keratin · คลำ inguinal LN",
-      "Dx: <b>squamous cell carcinoma ใน chronic scar (Marjolin’s ulcer)</b>",
-      "ยืนยัน: <b>incisional / punch biopsy จากขอบแผลหลายตำแหน่ง</b> · LN โต → FNA",
-      "ขอบแผลบอกโรค: sloping = venous / healing · punched-out = arterial · undermined = TB · rolled / pearly = BCC · everted = SCC",
-      "รักษา: WLE margin 4–6 mm (high risk ≥ 6 mm / Mohs) ± LN dissection ถ้า node บวก"
-     ],
-     "kw": [
-      "chronic ulcer on old burn scar",
-      "raised everted indurated edge",
-      "friable bleeding base",
-      "Marjolin’s ulcer (SCC)",
-      "biopsy from the edge",
-      "inguinal lymph nodes"
-     ],
-     "ddx": [
-      "venous ulcer",
-      "chronic infected burn scar ulcer",
-      "BCC",
-      "pyoderma gangrenosum"
-     ],
-     "pearls": [
-      "บรรยายไม่ครบ edge / base / LN = บางส่วน",
-      "biopsy ต้องเอาจากขอบ ไม่ใช่กลางแผล (necrotic)"
-     ],
-     "members": [
-      "MDCU65|RoA|PPT 5#1"
-     ]
-    },
-    {
-     "id": "nasal-dorsum",
-     "title": "ตุ่มแดงบนสันจมูก: infantile hemangioma / rhinophyma / BCC / herpes zoster",
-     "asked": [
-      "ภาพตุ่มแดงนูนบนสันจมูก → most likely Dx → treatment (66 RoD)"
-     ],
-     "flow": [
-      "ดูอายุ + ลักษณะรอยโรค",
-      "เลือก Dx ที่เข้ากับภาพ + DDx ≥ 2",
-      "การรักษาตรงกับโรคที่เลือก"
-     ],
-     "pattern": [
-      "<b>ทารก:</b> ตุ่มแดงสดนุ่ม โตเร็วขวบปีแรก = <b>infantile hemangioma</b> (‘Cyrano nose’) → <b>oral propranolol</b> เริ่มเร็ว (ตำแหน่งจมูกเสี่ยงผิดรูป) · เหลือรอยหลังยุบ → ผ่าตัดแก้",
-      "<b>ผู้ใหญ่:</b> ผิวหนาขรุขระ รูขุมขนกว้าง = <b>rhinophyma</b> (rosacea) → doxycycline / isotretinoin ระยะต้น · หนาแล้ว → surgical shave / dermabrasion / CO2 laser",
-      "ตุ่มมันวาวขอบนูน + telangiectasia = <b>BCC</b> → biopsy + excision 4 mm หรือ Mohs (H-zone)",
-      "ตุ่มแดงเป็นกลุ่มตามแนว V1 = <b>herpes zoster</b> (Hutchinson sign) → acyclovir + ตรวจตา"
-     ],
-     "kw": [
-      "infantile hemangioma — propranolol",
-      "rhinophyma",
-      "basal cell carcinoma — Mohs",
-      "herpes zoster ophthalmicus — Hutchinson sign"
-     ],
-     "ddx": [
-      "infantile hemangioma",
-      "rhinophyma",
-      "basal cell carcinoma",
-      "herpes zoster (V1)"
-     ],
-     "pearls": [
-      "โจทย์ไม่ชัด (bank ไม่มีภาพจริง) — rubric ให้คะแนนตามความสมเหตุสมผลของ DDx ≥ 2 โรคและการรักษาที่ตรงโรค"
-     ],
-     "members": [
-      "MDCU66|RoD|PPT 4#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Skin & soft tissue — infection, cyst, pressure ulcer, hand wound",
-   "sections": [
-    {
-     "id": "epidermoid-cyst",
-     "title": "Epidermoid (sebaceous) cyst — infected / inflamed",
-     "trend": "ก้อนใต้ผิวหนังมี punctum ที่อักเสบ ออกสามรอบ — I&D ตอนอักเสบ ตัดผนังถุงภายหลัง",
-     "asked": [
-      "ก้อนที่ขา 3 เดือน แดงร้อนปวด 3 วัน → Dx → management → เชื้อที่พบบ่อย (67 RoB)",
-      "ตุ่มเล็กที่ใบหูผู้สูงอายุ → Dx → treatment (67 RoD)",
-      "ก้อนแดงที่แขน → describe → Dx (66 RoA)"
-     ],
-     "flow": [
-      "บรรยาย: ก้อนเดี่ยว dome-shaped ในผิวหนัง / ใต้ผิว, central punctum, ผิวบนแดง, ± keratin / หนอง, cellulitis รอบ",
-      "Dx: (infected) epidermoid cyst",
-      "ระยะอักเสบ: I&D ± ATB → หายแล้ว complete excision รวมผนัง",
-      "เชื้อ"
-     ],
-     "pattern": [
-      "Epidermoid cyst: ผนัง stratified squamous มี keratin · <b>central punctum</b> เป็นลักษณะเฉพาะ",
-      "<b>Inflamed / infected:</b> ปวด บวม แดง ร้อน (ผนังแตกก็อักเสบได้) · DDx: furuncle / carbuncle, skin abscess, cellulitis",
-      "<b>ระยะอักเสบ:</b> <b>incision and drainage</b> (มี fluctuation) ใต้ยาชา ระบายหนอง / keratin ล้าง packing · ประคบอุ่น ยาแก้ปวด · ATB เมื่อมี cellulitis, systemic, DM / ภูมิต่ำ (cloxacillin / dicloxacillin, cephalexin; MRSA → clindamycin / TMP-SMX) · <b>ไม่ตัดถุงขณะอักเสบ</b> (ผนังเปื่อย ตัดไม่หมด)",
-      "<b>หลังหายอักเสบ ~4–6 สัปดาห์:</b> elective <b>complete excision ของผนังถุง</b> (เหลือผนัง = เป็นซ้ำ) + ส่งพยาธิ",
-      "<b>เชื้อ:</b> S. aureus (รวม MRSA) บ่อยสุด, Streptococcus group A · ใกล้ฝีเย็บ / รักแร้อาจมี anaerobe + gram-negative",
-      "ตุ่มที่ใบหูผู้สูงอายุ: DDx nodular BCC, chondrodermatitis nodularis helicis, SCC, actinic keratosis → ส่งพยาธิเสมอ"
-     ],
-     "kw": [
-      "epidermoid (sebaceous) cyst",
-      "central punctum",
-      "infected / inflamed cyst with abscess",
-      "incision and drainage",
-      "complete excision of cyst wall after inflammation subsides",
-      "Staphylococcus aureus"
-     ],
-     "ddx": [
-      "furuncle / carbuncle",
-      "skin abscess",
-      "lipoma",
-      "nodular BCC",
-      "chondrodermatitis nodularis helicis"
-     ],
-     "pearls": [
-      "ตอบ furuncle / abscess ได้บางส่วน",
-      "ตัดถุงทั้งหมดขณะอักเสบ = ผิดหลัก",
-      "ใบหู: ตอบ BCC / chondrodermatitis พร้อมเหตุผลได้บางส่วน"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 11#1",
-      "MDCU67|RoB|MEQ 11#2",
-      "MDCU67|RoB|MEQ 11#3",
-      "MDCU67|RoD|PPT 10#1",
-      "MDCU67|RoD|PPT 10#2",
-      "MDCU66|RoA|PPT 14#1",
-      "MDCU66|RoA|PPT 14#2"
-     ]
-    },
-    {
-     "id": "paronychia",
-     "title": "Acute paronychia (± ingrown toenail)",
-     "trend": "ภาพนิ้วเท้า / นิ้วมือ nail fold บวมแดง ออกสามรอบ — รักษาตามระยะ (ยังไม่มีหนอง vs มีหนอง vs เล็บขบ)",
-     "asked": [
-      "นิ้วเท้าปวด 2 วัน → Dx → สาเหตุ → management (67 RoC)",
-      "nail fold นิ้วชี้บวมแดงมีหนองเล็กน้อย หลังตัด hangnail → Dx + treatment (66 RoD)",
-      "ภาพนิ้วเท้า → Dx → treatment (65 RoC)"
-     ],
-     "flow": [
-      "Dx: acute paronychia (± ingrown toenail)",
-      "สาเหตุ / เชื้อ",
-      "รักษา: ยังไม่มีหนอง → มีหนอง (I&D) → subungual → เล็บขบ (partial avulsion ± matricectomy)",
-      "ป้องกัน"
-     ],
-     "pattern": [
-      "การติดเชื้อของ nail fold — S. aureus, Streptococcus pyogenes (± anaerobe ในคนดูดนิ้ว / กัดเล็บ) · สาเหตุ: trauma ต่อ nail fold — ตัดเล็บสั้น / ตัดมุมเล็บผิด (เล็บขบ), รองเท้าคับ, hangnail",
-      "<b>ยังไม่มีหนอง:</b> แช่น้ำอุ่น 10–15 นาที วันละ 3–4 ครั้ง, ยกเท้าสูง, ยาแก้ปวด ± oral ATB anti-staph (dicloxacillin / cloxacillin, cephalexin; กัดเล็บ → amoxicillin-clavulanate; MRSA → clindamycin / TMP-SMX) เมื่อมี cellulitis",
-      "<b>มีหนอง:</b> <b>incision and drainage</b> ยก / กรีด nail fold ขนานเล็บ (ไม่ตัดเข้า matrix) ใต้ <b>digital block</b> · หนองใต้เล็บ → partial nail removal",
-      "<b>Ingrown toenail:</b> partial nail avulsion (wedge resection) ± phenol matricectomy กันซ้ำ · แนะนำตัดเล็บตรง รองเท้าหัวกว้าง",
-      "Chronic paronychia (&gt; 6 สัปดาห์, มือเปียก, Candida) → เลี่ยงความชื้น, topical steroid ± antifungal · DM / PAD ระวังแผลหายช้า"
-     ],
-     "kw": [
-      "acute paronychia",
-      "nail fold infection",
-      "ingrown toenail",
-      "Staphylococcus aureus",
-      "warm soaks",
-      "incision and drainage under digital block",
-      "partial nail avulsion ± phenol matricectomy",
-      "cut nails straight"
-     ],
-     "ddx": [
-      "felon (pulp space infection)",
-      "herpetic whitlow (ห้ามกรีด)",
-      "ingrown toenail",
-      "chronic paronychia (Candida)"
-     ],
-     "pearls": [
-      "ตอบ infected ingrown toenail ได้เต็ม (67 RoC)",
-      "herpetic whitlow ห้าม I&D — ให้ acyclovir"
-     ],
-     "members": [
-      "MDCU67|RoC|MEQ 12#1",
-      "MDCU67|RoC|MEQ 12#2",
-      "MDCU67|RoC|MEQ 12#3",
-      "MDCU66|RoD|PPT 10#1",
-      "MDCU65|RoC|PPT 18#1",
-      "MDCU65|RoC|PPT 18#2"
-     ]
-    },
-    {
-     "id": "pressure-injury",
-     "title": "Pressure injury (sacral) — ท่านอน กระดูกใต้แผล staging",
-     "asked": [
-      "ชาย 29 ปี ติดเตียงหลังอุบัติเหตุ มีแผล → Dx → ท่าที่นอนส่วนใหญ่ → กระดูกใต้แผล (66 RoA)",
-      "แผลบริเวณก้นผู้ป่วยติดเตียง → ท่าที่อยู่ส่วนใหญ่ → กระดูกใต้แผล (65 RoC)",
-      "รูปแผลกดทับสะโพก: กดกระดูกอะไร ท่าไหน (78B)"
-     ],
-     "flow": [
-      "Dx: pressure injury + stage (NPIAP)",
-      "ท่า ↔ ตำแหน่งแผล",
-      "กระดูกใต้แผล",
-      "(± ป้องกัน)"
-     ],
-     "pattern": [
-      "<b>NPIAP staging:</b> 1 non-blanchable erythema · 2 partial thickness / blister · 3 full thickness ถึงไขมัน · 4 เห็นกล้ามเนื้อ / เอ็น / กระดูก · unstageable (slough / eschar) · deep tissue injury (ม่วงคล้ำ)",
-      "<b>Sacrococcygeal</b> (บ่อยสุด) → <b>supine</b> → กระดูก <b>sacrum (± coccyx)</b>",
-      "Greater trochanter → นอนตะแคง · ischial tuberosity → นั่งรถเข็น / นั่งนาน · calcaneus → supine · occiput → เด็ก",
-      "Stage 4 เห็นกระดูก → ประเมิน osteomyelitis",
-      "ป้องกัน: พลิกตัวทุก 2 ชม., ที่นอนลม, หัวเตียง ≤ 30° (ลดแรงเฉือน), ดูแลความชื้น / โภชนาการ · RF: ไม่เคลื่อนไหว, ชา (SCI), กลั้นไม่ได้, ทุพโภชนาการ"
-     ],
-     "kw": [
-      "pressure injury (decubitus ulcer)",
-      "NPIAP stage",
-      "supine position",
-      "sacrum / coccyx",
-      "ischial tuberosity — sitting",
-      "greater trochanter — lateral",
-      "turn every 2 hours"
-     ],
-     "pearls": [
-      "ท่าที่ตอบต้องสอดคล้องกับตำแหน่งแผลที่บรรยาย — ตอบ ischium / trochanter ได้ถ้าเข้ากับท่า"
-     ],
-     "members": [
-      "MDCU66|RoA|PPT 13#1",
-      "MDCU66|RoA|PPT 13#2",
-      "MDCU66|RoA|PPT 13#3",
-      "MDCU65|RoC|PPT 3#1",
-      "MDCU65|RoC|PPT 3#2",
-      "MDCU78|RoB|MEQ 13#1",
-      "MDCU78|RoB|MEQ 13#2"
-     ]
-    },
-    {
-     "id": "finger-wound",
-     "title": "Finger laceration — บรรยายแผลและตรวจ tendon / digital nerve",
-     "asked": [
-      "ภาพแผลนิ้วชี้ซ้าย → describe → PE เพิ่ม → most likely cause (66 RoA)"
-     ],
-     "flow": [
-      "บรรยาย: ตำแหน่ง (volar / dorsal, phalanx, ข้ามข้อ), ชนิดแผล, ขนาด / ความลึก, โครงสร้างที่เห็น, ปนเปื้อน, สีปลายนิ้ว, resting cascade",
-      "PE: neurovascular → FDP / FDS / extensor → กระดูก",
-      "สาเหตุ + โครงสร้างที่อาจบาดเจ็บ"
-     ],
-     "pattern": [
-      "ชนิดแผล: laceration (ขอบเรียบ / ขรุขระ), puncture, avulsion, crush, bite · resting cascade เสีย = สงสัย tendon ขาด",
-      "<b>Neurovascular:</b> capillary refill / สี, digital nerve ทั้งสองข้าง (two-point discrimination) — <b>ตรวจก่อน digital block</b>",
-      "<b>Tendon:</b> FDP — งอ DIP ขณะจับ PIP · FDS — งอ PIP ขณะจับนิ้วอื่นเหยียด · extensor — เหยียด DIP / PIP (mallet, central slip)",
-      "Bone / joint: กดเจ็บ ผิดรูป ความมั่นคง ± X-ray (fracture / foreign body)",
-      "สาเหตุบ่อย: laceration จากของมีคม (ตัด flexor tendon / digital nerve ได้) · รูเล็กหลายรู = สัตว์กัด (ไม่เย็บปิด + ATB) · รักษา: ล้าง ซ่อมเอ็น / เส้นประสาทใต้ magnification, tetanus"
-     ],
-     "kw": [
-      "volar laceration",
-      "resting cascade",
-      "digital nerve sensation before block",
-      "FDP / FDS test",
-      "extensor mechanism",
-      "capillary refill",
-      "X-ray for fracture / foreign body"
-     ],
-     "pearls": [
-      "ฉีดยาชาก่อนตรวจ sensation = แปลผลไม่ได้",
-      "rubric ให้คะแนนตามความสอดคล้องกับภาพ — ระบุกลไก + โครงสร้างที่อาจบาดเจ็บ"
-     ],
-     "members": [
-      "MDCU66|RoA|PPT 1#1",
-      "MDCU66|RoA|PPT 1#2",
-      "MDCU66|RoA|PPT 1#3"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Tubes, drains & instruments",
-   "sections": [
-    {
-     "id": "drains",
-     "title": "Surgical drains: Penrose vs Jackson-Pratt (JP)",
-     "trend": "ภาพท่อระบายออกสาม rotation — ชื่อ, กลไก (passive open vs closed suction), ข้อดี, ใช้ในผ่าตัดอะไร",
-     "asked": [
-      "ภาพอุปกรณ์ → คืออะไร → 2 การผ่าตัดที่ใช้ (66 RoA — Penrose)",
-      "ภาพ drain มีกระเปาะ → อธิบายกลไก → ใช้ในผ่าตัดอะไร (66 RoB — JP)",
-      "ภาพ drain → ชื่อ → ข้อดีเหนือ drain อื่น (65 RoC — JP)"
-     ],
-     "flow": [
-      "บอกชื่อ",
-      "จัดชนิด: open / closed, passive / active",
-      "กลไก / ข้อดี-ข้อเสีย",
-      "การใช้งาน"
-     ],
-     "pattern": [
-      "<b>Penrose:</b> ท่อยาง latex นิ่มแบน = <b>passive open drain</b> (capillary action / gravity) · ข้อเสีย: retrograde infection, ระบายได้น้อย · ใช้: I&D ฝีตื้น (กันขอบแผลปิด), คล้องรั้ง spermatic cord ใน inguinal herniorrhaphy, คล้องหลอดอาหาร / หลอดเลือด, tourniquet นิ้ว, seton",
-      "<b>Jackson-Pratt:</b> สาย silicone ปลายแบนมีรู + กระเปาะ (bulb) = <b>closed, active, low-pressure suction</b> · บีบกระเปาะไล่ลม ปิดจุก → คืนรูปเกิดแรงดูด · เทเมื่อเต็ม ~1/2–2/3 และบันทึกปริมาณ · ถอดเมื่อ &lt; 25–50 mL/วัน",
-      "<b>ข้อดี JP:</b> ระบบปิดลด retrograde infection, ดูดต่อเนื่องทำให้ flap แนบ ลด seroma / hematoma, วัดปริมาณ / ดู content ได้ (bile / pancreatic leak), แรงดูดต่ำ + สายนุ่ม บาดเจ็บอวัยวะน้อย (ใช้ใกล้ anastomosis), ผู้ป่วยเคลื่อนไหวสะดวก",
-      "<b>ใช้ JP:</b> mastectomy / axillary dissection, thyroidectomy / neck dissection, hepatobiliary / pancreatic / colorectal, flap ใหญ่, orthopedic",
-      "เทียบ Redivac / Hemovac = closed high-vacuum (ขวดแข็ง) ใต้ผิวหนัง / กล้ามเนื้อ"
-     ],
-     "kw": [
-      "Penrose drain — passive open",
-      "Jackson-Pratt drain — closed active low-pressure suction",
-      "compressed bulb creates negative pressure",
-      "less retrograde infection",
-      "measure output",
-      "mastectomy / thyroidectomy / abdominal surgery",
-      "cord retraction in herniorrhaphy"
-     ],
-     "members": [
-      "MDCU66|RoA|PPT 5#1",
-      "MDCU66|RoA|PPT 5#2",
-      "MDCU66|RoB|PPT 3#1",
-      "MDCU66|RoB|PPT 3#2",
-      "MDCU65|RoC|PPT 6#1",
-      "MDCU65|RoC|PPT 6#2"
-     ]
-    },
-    {
-     "id": "ng-tube",
-     "title": "Nasogastric tube — indications และ contraindications",
-     "asked": [
-      "ภาพท่อที่ใช้ในผู้ป่วยศัลยกรรม → 2 indications → 2 contraindications (65 RoC)"
-     ],
-     "flow": [
-      "บอกชื่อ",
-      "Indications",
-      "Contraindications (absolute / relative)",
-      "ยืนยันตำแหน่งก่อนใช้"
-     ],
-     "pattern": [
-      "<b>Indications:</b> decompression (bowel obstruction, ileus, gastric outlet obstruction, หลังผ่าตัดช่องท้อง) · ป้องกัน aspiration · enteral feeding / ยา · gastric lavage · UGIB (ดู / ล้างเลือด) · เก็บ gastric content / ฉีด contrast",
-      "<b>Absolute CI:</b> <b>basilar skull fracture / severe midface trauma</b> (raccoon eyes, Battle sign, CSF rhinorrhea / otorrhea, hemotympanum → ใส่ OG แทน) · esophageal obstruction / atresia, recent esophageal surgery, caustic ingestion",
-      "<b>Relative:</b> esophageal varices ที่เพิ่งออก / เพิ่ง band, coagulopathy รุนแรง, recent nasal surgery, esophageal stricture / diverticulum, ผู้ป่วยไม่ protect airway (intubate ก่อน)",
-      "ยืนยันตำแหน่ง: <b>CXR</b> (มาตรฐานก่อนให้อาหาร), ดูด content pH ≤ 5.5 · ฟังลมไม่พอ"
-     ],
-     "kw": [
-      "nasogastric tube",
-      "gastric decompression",
-      "enteral feeding",
-      "prevent aspiration",
-      "basilar skull fracture",
-      "maxillofacial trauma → orogastric tube",
-      "confirm position by CXR"
-     ],
-     "pearls": [
-      "contraindication ต้องมี basal skull / midface fracture จึงได้เต็ม"
-     ],
-     "members": [
-      "MDCU65|RoC|PPT 7#1",
-      "MDCU65|RoC|PPT 7#2"
-     ]
-    },
-    {
-     "id": "proctoscope",
-     "title": "Proctoscope (anoscope)",
-     "asked": [
-      "ภาพเครื่องมือโลหะท่อสั้นมี obturator → ชื่อ → ใช้ทำอะไร (66 RoD)"
-     ],
-     "flow": [
-      "ชื่อ + ส่วนประกอบ (ท่อ + obturator + แหล่งแสง)",
-      "Diagnostic uses",
-      "Therapeutic uses"
-     ],
-     "pattern": [
-      "<b>Proctoscope</b> ยาว ~7–10 cm ดู anal canal + rectum ส่วนล่าง · obturator ปลายมนช่วยสอดไม่บาดเจ็บ ดึงออกแล้วมองผ่านท่อ · ทำต่อจาก DRE เสมอ",
-      "Diagnostic: hemorrhoids (บอก grade), fissure, internal opening ของ fistula, polyp / มะเร็งส่วนปลาย, proctitis, หาสาเหตุเลือดสด · biopsy",
-      "Therapeutic: <b>rubber band ligation</b>, <b>injection sclerotherapy</b> ของ hemorrhoids",
-      "เทียบ rigid sigmoidoscope ~25 cm · flexible sigmoidoscope ~60 cm"
-     ],
-     "kw": [
-      "proctoscope (anoscope)",
-      "obturator",
-      "examine anal canal and lower rectum",
-      "grade hemorrhoids",
-      "rubber band ligation",
-      "sclerotherapy",
-      "biopsy"
-     ],
-     "pearls": [
-      "ตอบ ‘speculum’ = บางส่วน"
-     ],
-     "members": [
-      "MDCU66|RoD|PPT 7#1"
-     ]
-    },
-    {
-     "id": "three-way-foley",
-     "title": "Three-way Foley catheter — continuous bladder irrigation",
-     "asked": [
-      "ภาพสายสวนปัสสาวะสาม port → specific indication (65 RoC)"
-     ],
-     "flow": [
-      "บอกชื่อ + port: balloon, drainage, irrigation",
-      "Specific indication: CBI"
-     ],
-     "pattern": [
-      "<b>Three-way Foley</b> (มัก 20–24 Fr ผนังแข็ง) → <b>continuous bladder irrigation (CBI)</b> ใน gross hematuria with clot — ป้องกัน / รักษา clot retention: หลัง TURP / TURBT, prostate / bladder bleeding, hemorrhagic cystitis, bladder tumor bleeding",
-      "ก่อนเริ่ม CBI ล้าง clot ออกให้หมด (manual irrigation) · ปรับอัตราให้ปัสสาวะสีชมพูอ่อน"
-     ],
-     "kw": [
-      "three-way Foley catheter",
-      "continuous bladder irrigation",
-      "gross hematuria with clots",
-      "clot retention",
-      "post-TURP"
-     ],
-     "members": [
-      "MDCU65|RoC|PPT 9#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Head & neck, endocrine, neuro",
-   "sections": [
-    {
-     "id": "parinaud",
-     "title": "Parinaud (dorsal midbrain) syndrome — pineal region tumor",
-     "trend": "วีดีโอการกลอกตา (ภาพนิ่ง 9 ทิศ) ออกสอง rotation ของ 67",
-     "asked": [
-      "วีดีโอผู้ป่วยมองขึ้นไม่ได้ แต่ทิศอื่นได้ + light reflex หาย → Dx → most likely cause (67 RoB)",
-      "ภาพตา 9 ทิศ → describe abnormal findings → Dx (67 RoD)",
-      "คลิป upward gaze + light-near dissociation (78A)",
-      "คลิปมองขึ้นไม่ได้ ม่านตาไม่หด (78C: dx parinaud)"
-     ],
-     "flow": [
-      "บรรยาย: vertical upgaze palsy สองข้าง, ทิศอื่นปกติ",
-      "อาการร่วม: light-near dissociation, convergence-retraction nystagmus, Collier sign",
-      "Dx: Parinaud",
-      "สาเหตุ + investigation"
-     ],
-     "pattern": [
-      "<b>Parinaud (dorsal midbrain) syndrome:</b> <b>upward gaze palsy</b> · <b>light-near dissociation</b> · convergence-retraction nystagmus · eyelid retraction (Collier sign) ± setting-sun sign",
-      "รอยโรคกด pretectal area / superior colliculus / posterior commissure (riMLF)",
-      "<b>สาเหตุ:</b> <b>pineal region tumor</b> — เด็ก / วัยรุ่นชายมักเป็น <b>germinoma</b> (กด aqueduct → obstructive hydrocephalus: ปวดหัว อาเจียน papilledema) · hydrocephalus / shunt malfunction · midbrain stroke (สูงอายุ), MS, trauma",
-      "Investigation: <b>MRI brain</b> + tumor markers β-hCG, AFP (เลือด / CSF) · germinoma ไวต่อ RT · hydrocephalus → ETV / VP shunt"
-     ],
-     "kw": [
-      "vertical upgaze palsy",
-      "light-near dissociation",
-      "convergence-retraction nystagmus",
-      "Collier sign",
-      "Parinaud / dorsal midbrain syndrome",
-      "pineal region tumor (germinoma)",
-      "obstructive hydrocephalus",
-      "MRI + β-hCG / AFP"
-     ],
-     "ddx": [
-      "pineal germinoma / pineal tumor",
-      "obstructive hydrocephalus",
-      "midbrain infarct / hemorrhage",
-      "progressive supranuclear palsy (downgaze ก่อน)"
-     ],
-     "pearls": [
-      "ตอบ abduction deficit (ตามลายมือในไฟล์ 67 RoD) = 0 — ภาพคือ upgaze palsy"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 12#1",
-      "MDCU67|RoB|MEQ 12#2",
-      "MDCU67|RoD|PPT 7#1",
-      "MDCU67|RoD|PPT 7#2",
-      "MDCU78|RoA|MEQ 6#1",
-      "MDCU78|RoA|MEQ 6#2",
-      "MDCU78|RoC|MEQ 9#1",
-      "MDCU78|RoC|MEQ 9#2"
-     ]
-    },
-    {
-     "id": "thyroglossal",
-     "title": "Thyroglossal duct cyst",
-     "asked": [
-      "ก้อนที่คอหลายปี โตขึ้นในปีที่ผ่านมา → provisional Dx → one investigation (67 RoC)"
-     ],
-     "flow": [
-      "Dx: midline neck mass ขยับเมื่อแลบลิ้น / กลืน",
-      "Investigation: US (ดูต่อมไทรอยด์ปกติ)",
-      "Treatment: Sistrunk"
-     ],
-     "pattern": [
-      "ก้อนกลมผิวเรียบ <b>แนวกลางคอ</b> ระดับ hyoid / thyroid cartilage · <b>เคลื่อนขึ้นเมื่อแลบลิ้นและกลืน</b> (ติด hyoid / foramen cecum) · โตขึ้น / แดง = ติดเชื้อร่วม",
-      "<b>US neck</b>: ยืนยันถุงน้ำ ตำแหน่งกับ hyoid และ <b>มีต่อมไทรอยด์ปกติ</b>ในตำแหน่งเดิม · ไม่เห็น → thyroid scan (Tc-99m / I-123) ± TFT แยก ectopic thyroid (ตัดแล้ว hypothyroid ถาวร)",
-      "รักษา: <b>Sistrunk operation</b> (cyst + กลาง hyoid + tract ถึง foramen cecum)"
-     ],
-     "kw": [
-      "thyroglossal duct cyst",
-      "midline neck mass",
-      "moves with tongue protrusion and swallowing",
-      "ultrasound neck — normal thyroid present",
-      "thyroid scan if no normal thyroid",
-      "Sistrunk operation"
-     ],
-     "ddx": [
-      "dermoid cyst",
-      "ectopic (lingual) thyroid",
-      "pyramidal lobe nodule",
-      "Delphian lymph node"
-     ],
-     "pearls": [
-      "ตอบ thyroid scan เป็น investigation แรก = บางส่วน (ใช้เมื่อ US ไม่เห็นต่อมปกติ)"
-     ],
-     "members": [
-      "MDCU67|RoC|MEQ 1#1",
-      "MDCU67|RoC|MEQ 1#2"
-     ]
-    },
-    {
-     "id": "graves",
-     "title": "Graves’ disease — ทางเลือกการรักษาและการเตรียมผ่าตัด",
-     "asked": [
-      "หญิง 30 ปี คอโตทั่ว ๆ ตาโปน ใจสั่น ขี้ร้อน น้ำหนักลด → Dx → treatment options (66 RoD)"
-     ],
-     "flow": [
-      "Dx + lab ยืนยัน",
-      "β-blocker",
-      "3 ทางเลือก: ATD, RAI, surgery + ข้อบ่งชี้ / ข้อห้าม",
-      "เตรียม euthyroid + Lugol ก่อนผ่าตัด → complication"
-     ],
-     "pattern": [
-      "<b>Graves’ disease</b> (diffuse toxic goiter + ophthalmopathy) · TSH ต่ำ, FT4 / T3 สูง, TRAb",
-      "β-blocker (propranolol) คุมอาการ",
-      "(1) <b>Antithyroid drugs</b>: methimazole 12–18 เดือน (PTU ในไตรมาสแรก / thyroid storm) — agranulocytosis, hepatotoxicity",
-      "(2) <b>Radioactive iodine</b>: ห้ามตั้งครรภ์ / ให้นม · ophthalmopathy แย่ลง (ให้ steroid ป้องกัน)",
-      "(3) <b>Total thyroidectomy</b> (ATA 2016 — ไม่ใช่ subtotal): goiter ใหญ่มีอาการกด, สงสัยมะเร็ง, ophthalmopathy รุนแรง, ตั้งครรภ์ใช้ยาไม่ได้ (ไตรมาสสอง), ผู้ป่วยต้องการ, ยาไม่ได้ผล · ก่อนผ่าตัด <b>euthyroid</b> (ATD + β-blocker) + <b>Lugol’s iodine 7–10 วัน</b> ลด vascularity · หลังผ่าตัด levothyroxine ตลอดชีวิต",
-      "Complications: RLN injury, hypoparathyroidism (hypocalcemia), neck hematoma กดทางเดินหายใจ, thyroid storm (ถ้าผ่าตอน thyrotoxic)"
-     ],
-     "kw": [
-      "Graves’ disease",
-      "diffuse toxic goiter + ophthalmopathy",
-      "TRAb",
-      "propranolol",
-      "methimazole",
-      "radioactive iodine",
-      "total thyroidectomy",
-      "euthyroid + Lugol’s iodine pre-op",
-      "RLN injury, hypocalcemia"
-     ],
-     "pearls": [
-      "บอกแค่ยา = บางส่วน — ต้องครบ 3 ทางเลือก + การเตรียมผ่าตัด"
-     ],
-     "members": [
-      "MDCU66|RoD|PPT 8#1"
-     ]
-    },
-    {
-     "id": "submental-mass",
-     "title": "ก้อนใต้คางกลาง: dermoid vs TGDC vs lymph node",
-     "asked": [
-      "ก้อนที่คาง (78A จดสั้น)"
-     ],
-     "pattern": [
-      "Dermoid ไม่ขยับตามแลบลิ้น → excision"
-     ],
-     "flow": [
-      "DDx → ลักษณะแยก → Dx → excision"
-     ],
-     "kw": [
-      "dermoid cyst",
-      "thyroglossal duct cyst",
-      "submental node"
-     ],
-     "members": [
-      "MDCU78|RoA|MEQ 3#1",
-      "MDCU78|RoA|MEQ 3#2"
-     ]
-    },
-    {
-     "id": "neuro-exam-spot",
-     "title": "Neuro spot: Babinski, motor power (hip flexion L2–3), brachioradialis reflex (C5–6)",
-     "trend": "78A, 78B, 78C",
-     "asked": [
-      "รูปเท้า dorsiflexion: ชื่อการตรวจ + lesion (78A)",
-      "VDO hip flexion Rt 4 Lt 5 (78B)",
-      "VDO brachioradialis reflex: ตรวจอะไร + root (78B)",
-      "Muscle reflex เหมือน AC (78C)"
-     ],
-     "pattern": [
-      "Babinski = UMN · iliopsoas L2–3 · MRC 0–5 · brachioradialis C5–6"
-     ],
-     "flow": [
-      "ชื่อการตรวจ → ผล → แปลผล (root/lesion)"
-     ],
-     "kw": [
-      "Babinski",
-      "UMN",
-      "iliopsoas",
-      "L2-L3",
-      "MRC grade",
-      "brachioradialis",
-      "C5-C6"
-     ],
-     "members": [
-      "MDCU78|RoA|MEQ 5#1",
-      "MDCU78|RoA|MEQ 5#2",
-      "MDCU78|RoB|MEQ 10#1",
-      "MDCU78|RoB|MEQ 10#2",
-      "MDCU78|RoB|MEQ 10#3",
-      "MDCU78|RoB|MEQ 11#1",
-      "MDCU78|RoB|MEQ 11#2",
-      "MDCU78|RoC|MEQ 8#1",
-      "MDCU78|RoC|MEQ 8#2"
-     ]
-    },
-    {
-     "id": "preauricular-spot",
-     "title": "Preauricular sinus ติดเชื้อซ้ำ",
-     "asked": [
-      "periauricular sinus (78A)"
-     ],
-     "pattern": [
-      "ATB ขณะอักเสบ → excision ตอนหาย"
-     ],
-     "flow": [
-      "Dx → ATB/drain ถ้าอักเสบ → excision"
-     ],
-     "kw": [
-      "preauricular sinus",
-      "excision",
-      "BOR syndrome"
-     ],
-     "members": [
-      "MDCU78|RoA|MEQ 8#1",
-      "MDCU78|RoA|MEQ 8#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Hernia & post-operative wound",
-   "sections": [
-    {
-     "id": "inguinal-hernia-adult",
-     "title": "Inguinal hernia ในผู้ใหญ่ — Dx, predisposing factors, mesh repair, pre-op orders",
-     "trend": "ชายมีก้อนขาหนีบซ้ายเข้าออก 2 ปี — ถามต่อเนื่องถึงการรักษาและ order ก่อนผ่าตัด",
-     "asked": [
-      "ชาย 45 ปี ก้อนขาหนีบซ้ายเข้าออก 2 ปี → Dx → 2 predisposing factors → treatment (67 RoA)",
-      "ชาย 40 ปี ก้อนขาหนีบซ้าย 2 ปี (ภาพ) → describe → most likely Dx + DDx (66 RoA)",
-      "สไลด์ต่อ → outline treatment → เขียน order ถ้าวางแผนผ่าตัด elective (66 RoA)"
-     ],
-     "flow": [
-      "บรรยาย: ตำแหน่งเทียบ inguinal ligament / pubic tubercle, ลง scrotum?, ผิวหนัง",
-      "Dx: left indirect inguinal (inguinoscrotal) hernia, reducible + DDx",
-      "Predisposing factors",
-      "Elective mesh repair + แก้ปัจจัย + อาการเตือน",
-      "Pre-op orders"
-     ],
-     "pattern": [
-      "ก้อน <b>เหนือ-ใน pubic tubercle</b> ลง scrotum (inguinoscrotal), cough impulse, ดันกลับได้, <b>get above ไม่ได้</b> (แยก hydrocele) · femoral อยู่ใต้-นอก",
-      "Indirect (ผ่าน deep ring ตาม processus vaginalis — ลง scrotum) vs direct (Hesselbach’s triangle) — แยกทางคลินิกไม่แม่นยำ ยืนยันระหว่างผ่าตัด (inferior epigastric vessels)",
-      "<b>Predisposing:</b> patent processus vaginalis · แรงดันช่องท้องสูง: ไอเรื้อรัง (COPD, บุหรี่), ท้องผูก / เบ่ง (คิด CA colon), เบ่งปัสสาวะ (BPH), ยกของหนัก, ascites, PD, อ้วน, ตั้งครรภ์ · ผนังหน้าท้องอ่อน: อายุ, บุหรี่, collagen disorder, เคยผ่าตัด · ชาย, ครอบครัว",
-      "<b>Treatment:</b> elective <b>tension-free mesh repair</b> — open Lichtenstein หรือ laparoscopic TEP / TAPP (EHS / HerniaSurge 2018) · tissue repair (Shouldice / Bassini) เมื่อไม่ใช้ mesh · แก้ปัจจัยเพิ่มแรงดัน · อาการเตือน incarceration / strangulation → มาทันที · truss ไม่แนะนำ · watchful waiting เฉพาะชายไม่มีอาการ / อาการน้อย",
-      "<b>Pre-op orders:</b> admit · set OR for left inguinal herniorrhaphy (Lichtenstein) under spinal / GA / local · consent ระบุข้าง + <b>site marking</b> · NPO (อาหาร 6–8 ชม., น้ำใส 2 ชม.) · lab ตามอายุ / โรคร่วม · IV fluid ขณะ NPO · <b>cefazolin 2 g IV ภายใน 60 นาทีก่อนลงมีด</b> (ใช้ mesh) · ให้ปัสสาวะก่อนเข้า OR · งด antiplatelet / anticoagulant ตามข้อบ่งชี้ · clipper ไม่โกน"
-     ],
-     "kw": [
-      "left indirect inguinal (inguinoscrotal) hernia, reducible",
-      "above and medial to pubic tubercle",
-      "cannot get above the swelling",
-      "patent processus vaginalis",
-      "raised intra-abdominal pressure (cough, constipation, BPH)",
-      "Lichtenstein tension-free mesh repair",
-      "TEP / TAPP",
-      "site marking",
-      "prophylactic cefazolin"
-     ],
-     "ddx": [
-      "femoral hernia",
-      "hydrocele / encysted hydrocele of the cord",
-      "inguinal lymphadenopathy",
-      "lipoma of the cord",
-      "undescended testis",
-      "saphena varix"
-     ],
-     "pearls": [
-      "ชายวัยกลางคนเพิ่งมีไส้เลื่อน ต้องถาม BPH, ไอเรื้อรัง, ท้องผูก (CA colon)",
-      "ข้อย่อย describe / Dx ของ 66 RoA เป็นข้อที่ bank เติมเอง"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 6#1",
-      "MDCU67|RoA|MEQ 6#2",
-      "MDCU67|RoA|MEQ 6#3",
-      "MDCU66|RoA|PPT 2#1",
-      "MDCU66|RoA|PPT 2#2",
-      "MDCU66|RoA|PPT 3#1",
-      "MDCU66|RoA|PPT 3#2"
-     ]
-    },
-    {
-     "id": "ssi",
-     "title": "Surgical site infection หลัง inguinal hernia repair",
-     "asked": [
-      "หลังซ่อมไส้เลื่อนวันที่ 3 มีไข้ (ภาพแผล) → etiology → initial management (65 RoC)"
-     ],
-     "flow": [
-      "Etiology: superficial incisional SSI (S. aureus) ± deep / mesh infection",
-      "แยกสาเหตุไข้หลังผ่าตัดอื่น (5W)",
-      "Source control → culture → ATB ตามข้อบ่งชี้"
-     ],
-     "pattern": [
-      "<b>Superficial incisional SSI</b> — S. aureus ± Streptococcus · เร็วมาก (&lt; 48 ชม.) คิด group A Strep / Clostridium (necrotizing) · hernia repair = clean wound (SSI ~1–2%) · hematoma / seroma เพิ่มเสี่ยง",
-      "แยกไข้หลังผ่าตัด 5W: wind, water, wound, walking, wonder drugs",
-      "<b>Management:</b> ตรวจแผล (หนอง, fluctuation, ขอบเขตแดง, crepitus) → <b>เปิดแผล (ตัดไหมบางเข็ม) ระบายหนอง</b> + gram stain / culture → ล้าง ทำแผลเปิด · ATB เมื่อ cellulitis &gt; 5 cm หรือ systemic signs (cefazolin / cloxacillin; MRSA → vancomycin) · CBC, ± US ดู collection ถึง mesh · mesh infection เรื้อรังไม่ตอบสนอง → อาจต้องเอา mesh ออก"
-     ],
-     "kw": [
-      "surgical site infection (superficial incisional)",
-      "Staphylococcus aureus",
-      "open the wound and drain",
-      "culture",
-      "antibiotics if cellulitis / systemic signs",
-      "mesh infection"
-     ],
-     "pearls": [
-      "ตอบ atelectasis = 0 เพราะภาพแผลบวมแดง",
-      "source control สำคัญกว่า ATB"
-     ],
-     "members": [
-      "MDCU65|RoC|PPT 19#1",
-      "MDCU65|RoC|PPT 19#2"
-     ]
-    },
-    {
-     "id": "hernia-sites",
-     "title": "แผนภาพไส้เลื่อนผนังหน้าท้อง A–F + precipitating factors",
-     "asked": [
-      "รูป hernia ตำแหน่งต่าง ๆ: ชื่อ A–F + 2 precipitating factors (78A)"
-     ],
-     "pattern": [
-      "Epigastric, umbilical, incisional, Spigelian, inguinal, femoral · ปัจจัยเพิ่ม IAP"
-     ],
-     "flow": [
-      "ชี้ตำแหน่ง → ชื่อ → ปัจจัยเสี่ยง"
-     ],
-     "kw": [
-      "epigastric",
-      "umbilical",
-      "incisional",
-      "Spigelian",
-      "inguinal",
-      "femoral",
-      "raised intra-abdominal pressure"
-     ],
-     "members": [
-      "MDCU78|RoA|MEQ 1#1",
-      "MDCU78|RoA|MEQ 1#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Ward orders & others",
-   "sections": [
-    {
-     "id": "postop-orders",
-     "title": "Post-operative orders: appendectomy (gangrenous) และ inguinal hernia repair",
-     "trend": "MEQ ไม่มีภาพใน 67 — เขียน one day / continuous order ให้ครบรูปแบบ",
-     "asked": [
-      "เขียน post-op order หลัง appendectomy สำหรับ gangrenous appendicitis แยก one day กับ continue (67 RoB)",
-      "ภาพผ่าตัดไส้เลื่อน → เขียน post-op order (67 RoC)"
-     ],
-     "flow": [
-      "หัว order: post-op (ชื่อการผ่าตัด + Dx)",
-      "One day: V/S, I/O, diet, IV fluid, analgesic IV, antiemetic, O2, ปัสสาวะ / แผล",
-      "Continue: diet ขั้นบันได, ambulation, ATB (ถ้าต้อง), analgesic po, wound care, คำแนะนำก่อนกลับบ้าน"
-     ],
-     "pattern": [
-      "<b>Appendectomy (gangrenous) — one day:</b> record V/S ทุก 15 นาที × 4 → 30 นาที × 2 → 1 ชม. จนคงที่ · I/O · NPO (จิบน้ำเมื่อตื่นดี) · 5%D/N/2 1,000 mL IV ~80–100 mL/hr · morphine 3 mg IV prn q 4 hr · metoclopramide 10 mg IV prn q 8 hr · O2 cannula prn",
-      "<b>Appendectomy — continue:</b> diet น้ำ → เหลว → อ่อน (early feeding) · early ambulation · urine output &gt; 0.5 mL/kg/hr · <b>ceftriaxone 2 g IV OD + metronidazole 500 mg IV q 8 hr</b> (complicated / contaminated) ~3–5 วัน แล้วพิจารณาเปลี่ยนเป็นกิน · paracetamol 500 mg 1–2 tab po q 6 hr prn ± tramadol · incentive spirometry · wound care · ตัดไหม 7–10 วัน",
-      "<b>Elective hernia repair — one day:</b> V/S ตาม anesthesia · จิบน้ำเมื่อตื่นดี → soft / regular diet (ไม่ต้อง NPO นาน) · IV fluid จนกินได้ · paracetamol ± NSAID, opioid prn · antiemetic prn · <b>ปัสสาวะเองใน 6–8 ชม.</b> ไม่ออก → in-out catheter · ดู hematoma ที่ขาหนีบ / scrotum",
-      "<b>Hernia — continue:</b> early ambulation · แผลแห้งไม่ต้องเปิดทุกวัน · scrotal support / ice pack · stool softener · งดยกของหนัก ~2–4 สัปดาห์ · นัดตัดไหม 7–10 วัน · (strangulated + bowel resection → NPO + NG, IV fluid, Foley, ATB, I/O)",
-      "WSES 2020: uncomplicated appendicitis ไม่ต้องให้ ATB ต่อหลังผ่าตัด · complicated → short course"
-     ],
-     "kw": [
-      "one day vs continuous orders",
-      "record vital signs",
-      "NPO → early feeding",
-      "IV fluid with rate",
-      "morphine IV prn + antiemetic",
-      "ceftriaxone + metronidazole with dose / frequency",
-      "early ambulation",
-      "urinary retention after hernia repair",
-      "avoid heavy lifting"
-     ],
-     "pearls": [
-      "⚠ ไฟล์เดิม (67 RoB) สั่งยาแก้ปวดทางปากขณะ NPO / ไม่ระบุความถี่ — bank แก้; หักคะแนนเมื่อไม่มี ATB หรือไม่ระบุขนาด / ความถี่",
-      "order แบบ laparotomy ทั้งชุดสำหรับ elective hernia repair = บางส่วน"
-     ],
-     "members": [
-      "MDCU67|RoB|MEQ 2#1",
-      "MDCU67|RoC|MEQ 8#1"
-     ]
-    },
-    {
-     "id": "csf-antibiotics",
-     "title": "Antibiotic penetration เข้า CSF",
-     "asked": [
-      "ยกตัวอย่าง ≥ 3 ตัวต่อกลุ่ม: ผ่าน CSF ดีแม้ไม่อักเสบ / ผ่านได้เฉพาะเมื่อ meninges อักเสบ / ผ่านไม่ได้แม้อักเสบ (67 RoA)"
-     ],
-     "flow": [
-      "กลุ่มที่ผ่านดีเสมอ",
-      "กลุ่มที่ผ่านเมื่ออักเสบ",
-      "กลุ่มที่ผ่านไม่ได้"
-     ],
-     "pattern": [
-      "<b>ผ่านดีแม้ไม่อักเสบ:</b> metronidazole, chloramphenicol, rifampicin, TMP-SMX, isoniazid, pyrazinamide (lipid soluble / โมเลกุลเล็ก)",
-      "<b>ผ่านเฉพาะเมื่ออักเสบ:</b> penicillin G, ampicillin, nafcillin / oxacillin, antipseudomonal penicillins, ceftriaxone / cefotaxime, cefepime, meropenem, vancomycin → ต้องให้ขนาดสูงใน meningitis",
-      "<b>ผ่านไม่ได้แม้อักเสบ:</b> aminoglycosides, macrolides (erythromycin), tetracycline, clindamycin, 1st-generation cephalosporins (cefazolin — ใช้ surgical prophylaxis ได้แต่ไม่ใช้รักษา meningitis)"
-     ],
-     "kw": [
-      "metronidazole, chloramphenicol, rifampicin, TMP-SMX",
-      "3rd-generation cephalosporins, penicillin, vancomycin, meropenem with inflamed meninges",
-      "aminoglycosides, clindamycin, cefazolin poor penetration"
-     ],
-     "pearls": [
-      "ข้อนี้เป็นเภสัชวิทยา ไม่ใช่ spot diagnosis — จำเป็นกลุ่มตามรายการ"
-     ],
-     "members": [
-      "MDCU67|RoA|MEQ 5#1",
-      "MDCU67|RoA|MEQ 5#2",
-      "MDCU67|RoA|MEQ 5#3"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"spot", title:"Spot Diagnosis",
+  intro:"<ul><li>สถานีภาพไม่มี examiner (PowerPoint / MEQ / Short answers) ออก<b>ทุก rotation MDCU65–78</b> สไลด์ละ 1–5 ข้อย่อย ลำดับคำถามแทบตายตัว: <b>ชื่อ investigation / view → บรรยายภาพ → Dx (± DDx) → สาเหตุ / พยาธิกำเนิด → management</b> · บางข้อไม่มีภาพเลย (เขียน order, เทียบ burn depth, LUTS / hematuria history, myotomes, ABI, CSF antibiotics) ต้องท่องเป็นรายการให้ครบ</li><li><b>Pediatric surgery ออกมากที่สุดและสม่ำเสมอที่สุด:</b> omphalocele vs gastroschisis, biliary atresia (acholic stool → ส่งต่อด่วนก่อน 60 วัน — ออกทุกรุ่นตั้งแต่ MDCU70), anorectal malformation (prone cross-table lateral, &lt; 1 cm vs &gt; 1 cm), malrotation with midgut volvulus (Ladd), duodenal atresia (failure of recanalization), Hirschsprung (rectal suction biopsy), CDH, EA / TEF, intussusception, hydrocele / inguinal hernia ในเด็ก และ <b>cleft lip (rule of 10s) / cleft palate (9–12 เดือน: speech vs maxillary growth)</b></li><li><b>ภาพคลินิกที่วนซ้ำ:</b> melanoma (Breslow → margin + SLNB), BCC ใบหน้า (Mohs), pressure injury (ท่า ↔ ปุ่มกระดูก), paronychia, toe gangrene / CLTI (ระดับรอยโรคจากชีพจร), venous ulcer, paraphimosis, anal fissure / hemorrhoids / condyloma / perianal abscess, mastitis, แผลแก้ม (buccal branch + parotid duct), burn depth + Parkland</li><li><b>Imaging:</b> free air under diaphragm, US acute cholecystitis + Murphy sign, achalasia (bird's beak), SBO (acute abdomen series), KUB / IVP ureteric stone, mammogram MLO / CC → BI-RADS → core biopsy (ทุกรุ่นตั้งแต่ MDCU74), mandible fracture views; <b>neuro clip</b> ออกทุกรุ่นตั้งแต่ MDCU68: Parinaud syndrome, key muscles / myotomes + MRC grade, Babinski, brachioradialis reflex, GCS + epidural hematoma</li><li>MDCU65–67 คีย์เดิมผิดหลายจุด (เช่น chronic fissure ตอบ acute, pathogenesis duodenal atresia ตอบ Down syndrome, orbital floor ตอบ zygoma, ‘งดนมแม่’ ใน cleft lip, investigation Hirschsprung ตอบ barium enema) — คลังแก้แล้วและระบุไว้ในกับดักของแต่ละหัวข้อ · MDCU77–78 หลายข้อไม่มีคีย์ในไฟล์ (คำตอบมาจากคลังตามแนวทางปัจจุบัน)</li></ul>",
+  groups:[
+    {title:"Pediatric surgery — ทารกแรกเกิด / ทารก: ผนังหน้าท้อง ลำไส้อุดตัน ตัวเหลือง ทวาร หลอดอาหาร กะบังลม", sections:[
+      {id:"omphalocele",
+       title:"Omphalocele (exomphalos) — Dx, associated anomalies, initial management",
+       trend:"ภาพทารกมีถุงที่สะดือออกแทบทุกปี ถามชุดเดิม Dx → anomaly ที่ต้องหา → การดูแลแรก (บางปีเพิ่ม embryology / ก่อนส่งต่อจาก รพ.ชุมชน)",
+       asked:["ภาพทารกมีถุงใสที่สะดือ สายสะดือเกาะยอดถุง → What is the diagnosis?","What associated anomalies do you have to look for? (ให้ตอบเป็นกลุ่ม: หัวใจ โครโมโซม syndrome)","What is your initial management? / Management before referral (แพทย์จบใหม่ที่ รพ.ชุมชน)","อธิบาย pathophysiology / embryology ว่าเกิดได้อย่างไร","Initial และ definitive management (primary vs staged vs paint-and-wait)"],
+       flow:["ดูภาพ → บอกตำแหน่ง defect (ที่ umbilical ring กลางตัว) + มีถุงหุ้ม + สายสะดือเกาะถุง + สิ่งที่อยู่ในถุง (ลำไส้ ± ตับ)","ตอบ Dx: omphalocele (ถ้ามีตับ / defect &gt; 5 cm = giant)","ไล่ associated anomalies ตามระบบ + การตรวจที่สั่ง","Initial management ตามลำดับ ABC → อุณหภูมิ → คลุมถุง → decompression → สารน้ำ / น้ำตาล → ตรวจหา anomaly → ส่งต่อ","Definitive: แผนปิดผนังหน้าท้องตามขนาด"],
+       pattern:["<b>Embryology:</b> lateral body folds เชื่อมกันไม่สมบูรณ์ + ลำไส้ที่ออกไปเป็น physiologic umbilical herniation (สัปดาห์ 6–10) ไม่กลับเข้าช่องท้อง → อวัยวะอยู่ในถุง amnion – Wharton jelly – peritoneum","<b>Associated anomalies ~50–70%:</b> cardiac (บ่อยสุด → echocardiogram) · chromosomal trisomy 13 / 18 / 21 (→ karyotype; พบมากในถุงเล็กที่มีแต่ลำไส้) · Beckwith–Wiedemann syndrome (macroglossia, gigantism / organomegaly, hypoglycemia → เจาะ glucose; ภายหลังเฝ้าระวัง Wilms / hepatoblastoma) · Pentalogy of Cantrell (omphalocele ส่วนบน + sternal cleft + anterior diaphragmatic defect + pericardial defect + ectopia cordis / intracardiac defect) · OEIS / cloacal exstrophy (ส่วนล่าง) · GU, neural tube defect, malrotation · giant → pulmonary hypoplasia","พยากรณ์โรคขึ้นกับ anomaly ร่วม (หัวใจ โครโมโซม) มากกว่าขนาดถุง","<b>Initial:</b> ABC · keep warm (radiant warmer / incubator) · คลุมถุงด้วย sterile gauze ชุบ NSS อุ่น (non-adherent) แล้วห่อ plastic wrap กันถุงแตก ลดเสียน้ำ / ความร้อน · จัดนอนตะแคงประคองถุงไม่ให้พับกดหลอดเลือด · NPO + OG / NG decompression · IV fluid + dextrose และเจาะ blood glucose · IV antibiotics (เช่น ampicillin + gentamicin; จำเป็นแน่ถ้าถุงแตก) · echo, karyotype · ส่งต่อกุมารศัลยแพทย์","<b>Definitive:</b> defect เล็ก → primary fascial closure · ใหญ่ / giant → staged closure (silo) หรือ ‘paint and wait’ (ทา silver sulfadiazine / povidone ให้ถุงเกิด eschar แล้ว epithelialize ซ่อม ventral hernia ภายหลัง) · ห้ามดันอวัยวะกลับแรงในวันแรก (abdominal compartment syndrome)","ถุงที่ไม่แตกไม่ใช่การผ่าตัดเร่งด่วนเท่า gastroschisis — ประเมิน anomaly ให้ครบก่อน"],
+       kw:["membrane-covered sac at the umbilicus, cord inserted on the sac","giant omphalocele (liver / defect &gt; 5 cm)","cardiac anomaly → echocardiogram","trisomy 13 / 18 / 21 → karyotype","Beckwith–Wiedemann: macroglossia, hypoglycemia","Pentalogy of Cantrell","warm saline gauze + plastic wrap","keep warm, NPO, OG decompression","IV fluid + glucose monitoring","primary closure vs staged (silo) / paint-and-wait"],
+       ddx:["gastroschisis","ruptured omphalocele","umbilical cord hernia"],
+       pearls:["ต้องบอกเหตุผลจากภาพ (กลางสะดือ + มีถุง + สายสะดือติดถุง) ไม่ใช่ตอบชื่อเฉย ๆ","คีย์เก่า MDCU67 RoC ตอบคลุมถุงด้วย gauze ชุบ povidone-iodine — ระยะแรกใช้ NSS อุ่น + plastic wrap; การทา antiseptic เป็นวิธี paint-and-wait ของ giant omphalocele ระยะต่อมา","ลืมเจาะน้ำตาล (BWS) และ echo เป็นจุดเสียคะแนนบ่อย","อย่าสลับ: anomaly ร่วมมากเป็นของ omphalocele, intestinal atresia เป็นของ gastroschisis"],
+       members:["MDCU67|RoA|MEQ 13#1","MDCU67|RoA|MEQ 13#2","MDCU67|RoA|MEQ 13#3","MDCU67|RoC|MEQ 7#1","MDCU67|RoC|MEQ 7#2","MDCU67|RoC|MEQ 7#3","MDCU78|RoC|MEQ 1#1","MDCU78|RoC|MEQ 1#2","MDCU78|RoC|MEQ 1#3","MDCU77|RoA|MEQ 5#1","MDCU77|RoA|MEQ 5#2","MDCU77|RoA|MEQ 5#3","MDCU77|RoC|MEQ 10#1","MDCU77|RoC|MEQ 10#2","MDCU77|RoC|MEQ 10#3","MDCU77|RoC|MEQ 10#4","MDCU76|RoC|MEQ 11#1","MDCU76|RoC|MEQ 11#2","MDCU76|RoC|MEQ 11#3","MDCU76|RoD|MEQ 10#1","MDCU76|RoD|MEQ 10#2","MDCU76|RoD|MEQ 10#3","MDCU75|RoD|MEQ 4#1","MDCU75|RoD|MEQ 4#2","MDCU75|RoD|MEQ 4#3","MDCU72|RoA|MEQ 7#1","MDCU72|RoA|MEQ 7#2","MDCU72|RoA|MEQ 7#3","MDCU72|RoC|MEQ 14#1","MDCU72|RoC|MEQ 14#2","MDCU72|RoC|MEQ 14#3","MDCU70|RoC|MEQ 3#1","MDCU70|RoC|MEQ 3#2","MDCU69|RoA|MEQ 7#1"]},
+      {id:"biliary-atresia",
+       title:"Biliary atresia — อุจจาระซีด (acholic stool) + direct hyperbilirubinemia ในทารก",
+       trend:"ภาพผ้าอ้อมอุจจาระซีดในทารก 1–2 เดือน ออกเกือบทุกปี ถาม DDx → ทำอะไรที่ รพ.ชุมชน (ส่งต่อด่วนก่อน 60 วัน) → อายุที่ต้องผ่าตัด",
+       asked:["ภาพอุจจาระซีดของทารก 6–7 สัปดาห์ตัวเหลือง → most likely Dx / DDx (2–3 โรค)","ถ้าเป็นแพทย์ รพ.ชุมชน จะส่งตรวจอะไรและทำอะไรต่อ","Investigations และ management ของโรคที่น่าจะเป็นที่สุด","By what age should the surgical procedure be performed?","ทารกซึม กินน้อย + acholic stool + direct bilirubin สูง → DDx (surgical vs medical)"],
+       flow:["ภาพ: acholic / clay-coloured stool ± ตัวเหลือง ท้องป่อง","ตีความ: conjugated cholestasis (direct bilirubin &gt; 1 mg/dL หรือ &gt; 20% ของ total)","DDx เรียง: biliary atresia → choledochal cyst → neonatal hepatitis / Alagille / อื่น","Investigation","Management: Kasai ก่อน 60 วัน / รพ.ชุมชน = vitamin K + ส่งต่อด่วน"],
+       pattern:["<b>ทารกตัวเหลือง &gt; 2 สัปดาห์ (ครบกำหนด)</b> → ตรวจ direct bilirubin + ดูสีอุจจาระ (stool color card) · อุจจาระซีด = bile ไม่ลงลำไส้","<b>DDx:</b> surgical — biliary atresia (คิดก่อนเสมอ), choledochal cyst, inspissated bile · medical — neonatal (idiopathic) hepatitis, infection (CMV / TORCH, UTI / sepsis), Alagille syndrome (paucity of bile ducts, butterfly vertebrae, posterior embryotoxon, peripheral pulmonary stenosis), PFIC, α1-antitrypsin deficiency, galactosemia, hypothyroidism, TPN-associated","<b>Investigations:</b> LFT (direct bilirubin, GGT สูง), PT / INR · fasting US: GB เล็ก / ไม่เห็น / ไม่หดตัว, triangular cord sign, แยก choledochal cyst · hepatobiliary scintigraphy (HIDA / DISIDA): ตับจับสารแต่ไม่ขับลงลำไส้ · liver biopsy: bile duct proliferation, bile plug · <b>intraoperative cholangiogram = gold standard</b>","<b>Kasai portoenterostomy</b> (ตัด fibrous remnant ที่ porta hepatis ต่อ Roux-en-Y jejunal limb) ให้เร็วที่สุด — ผลดีที่สุดเมื่อทำ<b>ก่อนอายุ 60 วัน</b> (bile drainage ~70%) · หลังผ่าตัด: antibiotic prophylaxis กัน cholangitis, ursodeoxycholic acid, vitamin A D E K, MCT formula · ล้มเหลว / ตับแข็ง → liver transplantation (BA = ข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก)","<b>ที่ รพ.ชุมชน:</b> ส่ง total / direct bilirubin, LFT, PT / INR, CBC, TSH, UA / urine culture · US ถ้าทำได้ · ฉีด vitamin K · ถ้าซึม กินน้อย → sepsis work-up, ตรวจน้ำตาล, antibiotics · <b>refer ด่วน</b>ไปกุมารศัลยแพทย์ — เด็ก 2 เดือนอยู่ที่เส้นตายแล้ว","Choledochal cyst → cyst excision + hepaticojejunostomy"],
+       kw:["acholic (clay-coloured) stool","conjugated hyperbilirubinemia (direct &gt; 1 mg/dL)","biliary atresia until proven otherwise","fasting US: absent / small gallbladder, triangular cord sign","HIDA: no excretion into bowel","intraoperative cholangiogram (gold standard)","Kasai portoenterostomy before 60 days","vitamin K, urgent referral","liver transplantation if Kasai fails"],
+       ddx:["choledochal cyst","neonatal (idiopathic) hepatitis","Alagille syndrome","PFIC","α1-antitrypsin deficiency","galactosemia","CMV / TORCH, sepsis / UTI","hypothyroidism"],
+       pearls:["ตอบ ‘observe / phototherapy’ แบบ physiologic jaundice = ผิดหลัก — direct hyperbilirubinemia ไม่ใช่ physiologic","ต้องพูดเรื่องเวลา ‘ก่อน 60 วัน’ และ ‘ส่งต่อด่วน’ เสมอ (rubric MDCU76–78 ให้คะแนนตรงนี้)","ลืม vitamin K (malabsorption ของ vitamin ละลายในไขมัน → เลือดออกในสมอง)"],
+       members:["MDCU65|RoA|PPT 6#1","MDCU65|RoA|PPT 6#2","MDCU65|RoC|PPT 10#1","MDCU78|RoA|MEQ 7#1","MDCU78|RoA|MEQ 7#2","MDCU78|RoC|MEQ 2#1","MDCU78|RoC|MEQ 2#2","MDCU77|RoA|MEQ 7#1","MDCU77|RoA|MEQ 7#2","MDCU77|RoC|MEQ 13#1","MDCU77|RoC|MEQ 13#2","MDCU76|RoA|MEQ 1#1","MDCU76|RoA|MEQ 1#2","MDCU76|RoC|MEQ 13#1","MDCU76|RoC|MEQ 13#2","MDCU73|RoB|MEQ 8#1","MDCU73|RoB|MEQ 8#2","MDCU73|RoB|MEQ 8#3","MDCU71|RoB|MEQ 5#1","MDCU71|RoB|MEQ 5#2","MDCU70|RoC|MEQ 4#1","MDCU70|RoC|MEQ 4#2"]},
+      {id:"anorectal-malformation",
+       title:"Anorectal malformation (imperforate anus) — ชนิด fistula, prone cross-table lateral, staged PSARP, VACTERL",
+       trend:"ภาพฝีเย็บทารกไม่มีรูทวาร ± ฟิล์ม prone cross-table lateral ออกเกือบทุกรุ่น ถาม Dx / ชนิด → ชื่อฟิล์ม → การรักษา (≤ 1 cm vs &gt; 1 cm) → VACTERL",
+       asked:["ทารกชายไม่มีรูทวาร มีขี้เทาออกปลาย urethral meatus → Dx (บอก fistula) → associated anomalies → treatment","ภาพฝีเย็บทารก → Dx → management → สิ่งที่ต้องพิจารณาเพิ่ม","Radiograph: name the view (prone cross-table lateral) → Dx → definitive treatment","rectal gas ใกล้ skin marker มาก ปัสสาวะไม่มีขี้เทา → Dx (low type) → Rx","Initial management + approach"],
+       flow:["ตรวจฝีเย็บ / ปัสสาวะหา meconium · รอ 16–24 ชม.","ระบุชนิด: perineal (cutaneous) fistula = low · rectourethral / rectovesical / ไม่มี fistula ที่ผิว = high / intermediate","Initial: NPO, OG decompression, IV fluid, antibiotics + หา VACTERL","Prone cross-table lateral (≥ 24 ชม.) วัดระยะ rectal gas – skin","Low / &lt; 1 cm → anoplasty / primary PSARP · High / &gt; 1 cm / rectourinary fistula → 3-stage"],
+       pattern:["<b>ชาย:</b> ขี้เทาที่ perineum / median raphe (cutaneous fistula, bucket handle) = low → anoplasty (minimal PSARP) แรกเกิด · ขี้เทาในปัสสาวะ / flat bottom = rectourethral (bulbar / prostatic) หรือ rectovesical fistula → colostomy ก่อน · <b>หญิง:</b> vestibular fistula, cloaca · ไม่มี fistula พบบ่อยใน Down syndrome","<b>รอ 16–24 ชม.</b> ให้แรงดันในลำไส้ดันขี้เทา / ลมลงถึงส่วนปลายก่อนตัดสินใจ (Peña) → <b>prone cross-table lateral film</b> + marker ที่ anal dimple (invertogram / Wangensteen–Rice เลิกใช้แล้ว)","<b>Rectal gas – skin &lt; 1 cm (low):</b> primary PSARP / anoplasty ไม่ต้อง colostomy + anal dilatation · <b>> 1 cm / rectourinary fistula / anomaly หนัก:</b> (1) <b>divided</b> descending colostomy แรกเกิด (2) อายุ ~1–3 เดือน distal colostogram ดูระดับ fistula → PSARP (แยกปิด fistula ดึง rectum ลงกลาง sphincter complex) (3) anal dilatation เริ่ม ~2 สัปดาห์หลัง PSARP แล้วปิด colostomy","<b>VACTERL:</b> Vertebral (X-ray / US spine, tethered cord, sacral ratio) · Anorectal · Cardiac (echo) · TracheoEsophageal fistula / EA (ใส่ OG ผ่านลงกระเพาะได้ไหม) · Renal (US ไต, VUR — พบบ่อยสุดร่วมกับ ARM ~50% ในชนิดสูง) · Limb (radial ray)","ความพิการร่วมพบ ~50–60% · sacral anomaly ทำนายการกลั้นอุจจาระ → ติดตาม bowel management ระยะยาว"],
+       kw:["imperforate anus / anorectal malformation","meconium at urethral meatus = rectourethral fistula","perineal (cutaneous) fistula = low type","wait 16–24 h","prone cross-table lateral film","rectal gas–skin distance &lt; 1 cm vs &gt; 1 cm","primary PSARP / anoplasty","divided colostomy → PSARP → colostomy closure","anal dilatation","VACTERL association"],
+       ddx:["low type with perineal fistula","rectourethral (bulbar / prostatic) fistula","rectovesical fistula","no-fistula type (Down syndrome)","cloaca / vestibular fistula (หญิง)"],
+       pearls:["คีย์เก่า MDCU67 RoC ตอบ (loop) colostomy — ใน rectourethral fistula แนะนำ divided colostomy เพื่อกันอุจจาระลงทางเดินปัสสาวะ (UTI, hyperchloremic acidosis) และใช้ distal limb ทำ colostogram ได้","คีย์เดียวกันเขียน ‘fistulectomy’ — ใน PSARP คือแยกและปิด fistula ที่ urethra ไม่ใช่ตัด fistula ออกเป็นท่อน","ตัดสินใจก่อน 16–24 ชม. หรือใช้ invertogram = แนวคิดเก่า","ต้องบอกตัวเลข 1 cm เมื่อถามจากฟิล์ม cross-table lateral"],
+       members:["MDCU67|RoC|MEQ 11#1","MDCU67|RoC|MEQ 11#2","MDCU67|RoC|MEQ 11#3","MDCU66|RoB|PPT 2#1","MDCU66|RoB|PPT 2#2","MDCU66|RoB|PPT 2#3","MDCU77|RoB|MEQ 8#1","MDCU77|RoB|MEQ 8#2","MDCU77|RoB|MEQ 8#3","MDCU77|RoD|MEQ 11#1","MDCU77|RoD|MEQ 11#2","MDCU77|RoD|MEQ 11#3","MDCU76|RoC|MEQ 14#1","MDCU76|RoC|MEQ 14#2","MDCU76|RoC|MEQ 14#3","MDCU72|RoA|MEQ 11#1","MDCU72|RoA|MEQ 11#2","MDCU72|RoA|MEQ 11#3","MDCU72|RoD|MEQ 4#1","MDCU70|RoB|MEQ 14#1","MDCU69|RoA|MEQ 9#1","MDCU68|RoC|MEQ 10#1"]},
+      {id:"malrotation-volvulus",
+       title:"Malrotation with midgut volvulus (bilious vomiting ในทารก)",
+       trend:"ทารกที่เคยดีแล้วอาเจียนเป็นน้ำดีทันที + ฟิล์มธรรมดาหรือ UGI study ออกแทบทุกรุ่น ถาม Dx → การรักษา (Ladd)",
+       asked:["ทารกแรกเกิด / 2–5 สัปดาห์ / 6 เดือน อาเจียนน้ำดีเฉียบพลัน + AXR → provisional Dx → treatment","UGI contrast study ในทารกอาเจียนน้ำดี → Dx (บอก radiographic signs) + management","แยกจาก hypertrophic pyloric stenosis อย่างไร","AXR ทารกอาเจียนน้ำดี: underlying anatomical abnormality คืออะไร (Ladd bands vs volvulus)","Possible diseases + investigation เพื่อวินิจฉัย → initial และ specific treatment"],
+       flow:["อ่านฟิล์ม: กระเพาะ / duodenum ขยาย ลมส่วนปลายน้อย (หรือ UGI: DJ junction ผิดที่, corkscrew / beak)","Dx: malrotation with midgut volvulus (จนกว่าจะพิสูจน์ว่าไม่ใช่)","Resuscitation","stable → UGI / US ยืนยัน · unstable / peritonitis → ผ่าตัดทันที","Ladd's procedure 5 ขั้น ± resection / second look"],
+       pattern:["<b>Bilious vomiting ในทารก = surgical emergency</b> (อุดตันใต้ ampulla) · malrotation ส่วนใหญ่แสดงอาการในเดือนแรก","<b>Plain AXR:</b> กระเพาะ ± duodenum ขยาย ลมส่วนปลายน้อย (paucity / gasless) หรืออาจปกติ · ฟิล์มปกติไม่ตัดโรค","<b>UGI contrast study (investigation of choice ถ้า stable):</b> DJ junction อยู่ขวาของแนวกระดูกสันหลัง / ต่ำกว่า duodenal bulb · duodenum ไม่ข้ามแนวกลาง · corkscrew sign (volvulus) · beak sign (อุดสมบูรณ์) · <b>US:</b> whirlpool sign, SMV อยู่ซ้ายของ SMA","<b>Pathology:</b> ลำไส้หมุนไม่ครบ 270° → cecum อยู่ RUQ, Ladd's bands พาดผ่าน duodenum ไปผนังขวา + mesentery ฐานแคบ → บิดรอบ SMA → midgut ขาดเลือดทั้งแถบในไม่กี่ชั่วโมง","<b>Resuscitation:</b> NPO, NG / OG decompression, IV fluid bolus + แก้ electrolyte, broad-spectrum IV antibiotics, จองเลือด · peritonitis / shock → ไปผ่าตัดเลยไม่รอภาพ","<b>Ladd's procedure:</b> (1) detorsion ทวนเข็มนาฬิกา ประเมิน viability (2) ตัด Ladd's bands (3) ขยายฐาน mesentery (4) appendectomy (cecum จะอยู่ซ้าย วินิจฉัยไส้ติ่งยากในอนาคต) (5) วางลำไส้เล็กขวา ลำไส้ใหญ่ซ้าย · ลำไส้ก้ำกึ่ง → second look 24–48 ชม. · ตายมาก → short bowel (TPN)","<b>แยก HPS:</b> HPS อายุ 2–8 สัปดาห์ อาเจียนพุ่ง <b>ไม่มีน้ำดี</b> หิวตลอด คลำ olive, hypochloremic hypokalemic metabolic alkalosis · US pyloric muscle ≥ 3–4 mm, length ≥ 15–17 mm · UGI string / shoulder sign · แก้น้ำ / เกลือแร่ก่อนแล้ว Ramstedt pyloromyotomy (ไม่ฉุกเฉิน)"],
+       kw:["bilious vomiting = malrotation with midgut volvulus until proven otherwise","paucity of distal gas","UGI: DJ junction right of midline, corkscrew sign","US whirlpool sign","NPO, NG decompression, IV fluid, antibiotics","emergency Ladd's procedure","counterclockwise detorsion","divide Ladd's bands, widen mesentery, appendectomy","small bowel right, colon left","second look"],
+       ddx:["duodenal atresia / stenosis / web","jejunoileal atresia","hypertrophic pyloric stenosis (non-bilious)","Hirschsprung disease / enterocolitis","intussusception","incarcerated inguinal hernia"],
+       pearls:["ตอบ ‘Ladd's band’ อย่างเดียวไม่ครบ — ต้องบอก malrotation with midgut volvulus (คีย์เก่า MDCU65 RoB ลังเลสองคำนี้ ทั้งคู่เป็นโรคเดียวกัน)","รอ UGI ในเด็ก peritonitis / shock = ผิด","detorsion ต้องหมุน ‘ทวนเข็มนาฬิกา’ และอย่าลืม appendectomy","double bubble + มีลมปลาย = นึกถึง volvulus (ฉุกเฉิน) ไม่ใช่ atresia"],
+       members:["MDCU67|RoC|MEQ 6#1","MDCU67|RoC|MEQ 6#2","MDCU66|RoD|PPT 9#1","MDCU66|RoD|PPT 9#2","MDCU65|RoA|PPT 8#1","MDCU65|RoA|PPT 8#2","MDCU65|RoB|PPT 5#1","MDCU78|RoB|MEQ 2#1","MDCU78|RoB|MEQ 2#2","MDCU76|RoD|MEQ 7#1","MDCU76|RoD|MEQ 7#2","MDCU74|RoA|SEQ 10#1","MDCU74|RoA|SEQ 10#2","MDCU74|RoA|SEQ 11#1","MDCU74|RoA|SEQ 11#2","MDCU72|RoA|MEQ 6#1","MDCU72|RoA|MEQ 6#2","MDCU71|RoB|MEQ 6#1","MDCU71|RoB|MEQ 6#2","MDCU70|RoA|MEQ 14#1","MDCU70|RoA|MEQ 14#2"]},
+      {id:"duodenal-atresia",
+       title:"Duodenal atresia — double bubble, pathogenesis, associated anomalies, duodenoduodenostomy",
+       trend:"ฟิล์ม double bubble + มารดา polyhydramnios + อาเจียนน้ำดีหลังกินมื้อแรก ถาม Dx → pathogenesis (failure of recanalization) → anomaly → การผ่าตัด",
+       asked:["Newborn มารดา polyhydramnios อาเจียนน้ำดีหลังมื้อแรก + AXR → Dx / supporting reasons","What is the most acceptable theory of pathogenesis?","Name 2 most common associated anomalies","What is the definitive treatment?","เด็กอาเจียน + double bubble → Dx และการรักษา (ต้องแยก volvulus)"],
+       flow:["อ่านฟิล์ม: 2 ฟองลม (กระเพาะ + duodenal bulb) + ไม่มีลมส่วนปลาย","Dx + เหตุผล (polyhydramnios, bilious vomiting วันแรก)","Pathogenesis","Associated anomalies","Initial → definitive"],
+       pattern:["<b>Double bubble sign</b> = ลมในกระเพาะ + duodenum ส่วนต้นขยาย · <b>ไม่มีลมส่วนปลาย</b> = complete atresia · มีลมปลาย = stenosis / web หรือ malrotation with volvulus (ต้อง UGI ด่วน)","อุดตันส่วนใหญ่อยู่ distal ต่อ ampulla of Vater (~85%) → อาเจียนมีน้ำดีวันแรก · polyhydramnios จากทารกกลืนน้ำคร่ำผ่านลำไส้ไม่ได้","<b>Pathogenesis:</b> failure of recanalization ของ duodenum (เยื่อบุเจริญอุดเป็น solid cord สัปดาห์ 5–6 แล้วไม่เกิด vacuolization กลับเป็นท่อช่วงสัปดาห์ 8–10) — ต่างจาก jejunoileal atresia ที่เกิดจาก intrauterine vascular accident","<b>Associated:</b> Down syndrome ~30% · congenital heart disease (AVSD) → echo ก่อนผ่าตัด · annular pancreas · malrotation · VACTERL / esophageal atresia","<b>Rx:</b> NG decompression, IV fluid + electrolyte, ตรวจหัวใจ → <b>diamond-shaped (Kimura) duodenoduodenostomy</b> (ไม่ใช่การผ่าตัดฉุกเฉินเท่า volvulus แต่ต้องแยก volvulus ก่อน)"],
+       kw:["double bubble sign without distal gas","maternal polyhydramnios","bilious vomiting after first feed (obstruction distal to ampulla)","failure of recanalization (weeks 8–10)","Down syndrome ~30%","congenital heart disease → echo","NG decompression, IV fluid","diamond-shaped (Kimura) duodenoduodenostomy"],
+       ddx:["duodenal stenosis / web","annular pancreas","malrotation with midgut volvulus","jejunal atresia (triple bubble)"],
+       pearls:["คีย์เก่า MDCU67 RoA ตอบ pathogenesis ว่า ‘Down syndrome / trisomy 21’ — นั่นคือภาวะที่พบร่วม ไม่ใช่กลไก คำตอบที่ถูกคือ failure of recanalization","อย่าตอบ vascular accident (นั่นคือ jejunoileal atresia)","เห็น double bubble แต่มีลมส่วนปลาย / เด็กเคยปกติแล้วอาเจียนน้ำดีทันที → คิด volvulus ก่อน"],
+       members:["MDCU67|RoA|MEQ 12#1","MDCU67|RoA|MEQ 12#2","MDCU65|RoB|PPT 13#1","MDCU65|RoC|PPT 12#1","MDCU65|RoC|PPT 12#2","MDCU77|RoB|MEQ 4#1","MDCU77|RoB|MEQ 4#2","MDCU77|RoB|MEQ 4#3","MDCU77|RoB|MEQ 4#4","MDCU77|RoD|MEQ 10#1","MDCU77|RoD|MEQ 10#2","MDCU77|RoD|MEQ 10#3","MDCU74|RoD|MEQ 1#1","MDCU74|RoD|MEQ 1#2","MDCU68|RoB|MEQ 10#1"]},
+      {id:"gastroschisis",
+       title:"Gastroschisis — Dx จากภาพ และ initial management",
+       trend:"ภาพลำไส้ออกข้างขวาของสายสะดือไม่มีถุง ถาม Dx + การดูแลแรก (บางปีถาม anomaly ร่วม)",
+       asked:["ภาพทารกลำไส้บวมหนาออกทาง defect เล็กข้างขวาของสายสะดือ ไม่มีถุง → Dx","Outline the initial management","What anomaly is commonly associated?","Diagnosis and management (รวม definitive closure)"],
+       flow:["บอกลักษณะ: defect full-thickness ด้านขวาของสายสะดือที่ปกติ · ไม่มีถุง · ลำไส้บวม หนา มี peel","Dx gastroschisis + แยกจาก omphalocele","Initial management ทีละขั้น","แผนผ่าตัดปิด + ดูแลหลังผ่าตัด (TPN)"],
+       pattern:["<b>ลักษณะ:</b> defect ด้านขวาของสายสะดือ (สายสะดือปกติ) ไม่มีถุงหุ้ม ลำไส้สัมผัสน้ำคร่ำ → บวมแข็งมี fibrinous peel · สัมพันธ์มารดาอายุน้อย","<b>Associated:</b> intestinal atresia ~10–15% + nonrotation · chromosomal / cardiac anomaly พบน้อย (ต่างจาก omphalocele)","<b>Initial:</b> ABC · คลุมลำไส้ด้วย sterile plastic bowel bag (ใส่ตัวทารกครึ่งล่างในถุง) หรือ clear plastic wrap — ไม่ใช้ gauze เปียกที่ทำให้ตัวเย็น · จัดนอนตะแคงขวา ประคองลำไส้ให้อยู่กลางไม่บิด / หักพับ (ดูสีลำไส้ ป้องกันขาดเลือดที่ขอบ defect) · keep warm · NPO + OG / NG decompression · IV fluid มากกว่า maintenance (เสียน้ำ / ความร้อนมาก) ทางแขน + glucose · IV antibiotics · ส่งต่อกุมารศัลยแพทย์","<b>ปิด:</b> primary reduction + closure ถ้าความดันในช่องท้องไม่สูง หรือ preformed (spring-loaded) silo ดันกลับทีละน้อยแล้วปิดใน 3–7 วัน (sutured / sutureless) · ระวัง abdominal compartment syndrome · หลังผ่าตัด TPN นาน (ลำไส้ทำงานช้า) และหา atresia"],
+       kw:["defect to the right of an intact umbilical cord","no covering sac, thickened matted bowel","sterile bowel bag / plastic wrap","right lateral position, avoid kinking of mesentery","keep warm","OG decompression","IV fluid (greater than maintenance) + antibiotics","primary closure or silo with staged reduction","TPN","intestinal atresia"],
+       ddx:["omphalocele (ruptured)","umbilical cord hernia"],
+       pearls:["ห่อด้วย gauze ชุบน้ำเกลือที่เย็นลง = ตัวเย็น เสียคะแนน; คำตอบมาตรฐานคือ bowel bag / plastic wrap","ลืมจัดท่าตะแคงขวา / ประคองลำไส้ไม่ให้บิดขั้ว","ตอบ anomaly ร่วมเป็นหัวใจ / โครโมโซม = สลับกับ omphalocele"],
+       members:["MDCU66|RoA|PPT 8#1","MDCU66|RoA|PPT 8#2","MDCU65|RoA|PPT 4#1","MDCU78|RoB|MEQ 14#1","MDCU78|RoB|MEQ 14#2","MDCU75|RoC|MEQ 2#1","MDCU75|RoC|MEQ 2#2","MDCU73|RoB|MEQ 2#1","MDCU73|RoB|MEQ 2#2","MDCU73|RoB|MEQ 2#3","MDCU71|RoA|MEQ 9#1","MDCU71|RoA|MEQ 9#2","MDCU70|RoA|MEQ 12#1"]},
+      {id:"hirschsprung",
+       title:"Hirschsprung disease และ neonatal distal bowel obstruction (ไม่ถ่ายขี้เทา)",
+       trend:"ทารกไม่ถ่ายขี้เทา + ท้องอืด + AXR / contrast enema เห็น transition zone ออกหลายรุ่น ถาม DDx → investigation (คำตอบยืนยันคือ rectal suction biopsy) → initial + definitive",
+       asked:["3-day-old อาเจียนน้ำดี ไม่ถ่ายขี้เทา + plain film → DDx (3 โรค) → investigation","Barium / contrast enema → Dx → initial และ definitive treatment","Contrast enema → DDx และ key investigation ที่แยกโรค","Plain film + barium enema ทารกท้องอืดท้องผูก → บรรยาย enema → Dx → management","Contrast enema AP + lateral → Dx"],
+       flow:["AXR: ลำไส้ขยายหลายห่วง air-fluid levels = distal (low) obstruction · ตรวจทวาร (แยก ARM)","DDx ของ distal obstruction","Contrast enema (water-soluble) → transition zone","ยืนยันด้วย rectal suction biopsy","Initial: decompression / washout · ดู enterocolitis","Definitive: pull-through (± leveling colostomy)"],
+       pattern:["<b>DDx distal neonatal obstruction:</b> Hirschsprung (สำคัญสุด) · meconium plug / small left colon syndrome (มารดาเบาหวาน) · meconium ileus (cystic fibrosis — พบน้อยในคนไทย) · ileal / colonic atresia · ARM (ตรวจทวาร) · functional: sepsis, hypothyroidism","ทารกปกติถ่ายขี้เทาภายใน 24–48 ชม.; เกิน 48 ชม. → คิด Hirschsprung","<b>Pathology:</b> neural crest cells เคลื่อนลงไม่ถึงส่วนปลาย → ไม่มี ganglion cells ใน myenteric + submucosal plexus ต่อเนื่องจาก internal sphincter ขึ้นไป → ส่วนนั้นหดเกร็ง · rectosigmoid (short segment) ~75–80% · สัมพันธ์ Down syndrome","<b>Contrast enema:</b> rectum / ส่วนปลายแคบ → cone-shaped transition zone → colon ส่วนต้นโป่ง · rectosigmoid index &lt; 1 · contrast ค้าง &gt; 24 ชม. · ทารกใช้ water-soluble · meconium ileus / ileal atresia → microcolon + pellets","<b>ยืนยัน = rectal suction biopsy</b> (gold standard): ไม่มี ganglion cells ใน submucosa + hypertrophic nerve trunks, acetylcholinesterase เพิ่ม / calretinin ลบ · anorectal manometry ไม่มี RAIR (เด็กโต)","<b>Initial:</b> NPO, OG / NG, IV fluid / electrolyte · rectal irrigation (washout) ด้วย NSS อุ่นวันละ 1–2 ครั้ง · Hirschsprung-associated enterocolitis (ไข้ ท้องอืด ถ่ายเหลวเหม็น) → IV antibiotics (รวม metronidazole) + irrigation — เป็นสาเหตุตายหลักทั้งก่อน / หลังผ่าตัด","<b>Definitive:</b> pull-through ตัดส่วน aganglionic แล้วดึงลำไส้ที่มี ganglion (ยืนยัน frozen section) ลงต่อเหนือ anal canal — transanal endorectal (Soave / De la Torre), Swenson, Duhamel · decompress ไม่ได้ / enterocolitis รุนแรง / long segment / ทารกไม่พร้อม → leveling colostomy ก่อน","meconium ileus uncomplicated → gastrografin enema (ทั้งวินิจฉัยและรักษา) · complicated / atresia → laparotomy · meconium plug ~13% เป็น Hirschsprung (Keckler 2008) → biopsy ถ้าอาการไม่หาย"],
+       kw:["failure to pass meconium within 48 h","distal bowel obstruction","contrast enema: transition zone, rectosigmoid index &lt; 1","rectal suction biopsy: absent ganglion cells, ↑AChE, calretinin negative","rectal irrigation / washout","Hirschsprung-associated enterocolitis","pull-through (Soave / Swenson / Duhamel)","leveling colostomy"],
+       ddx:["meconium plug / small left colon syndrome","meconium ileus (cystic fibrosis)","ileal / colonic atresia","anorectal malformation","functional constipation / idiopathic megacolon (เด็กโต)","sigmoid volvulus / LBO (ผู้ใหญ่)"],
+       pearls:["คีย์เก่า MDCU67 RoB และ RoD ตอบ investigation ว่า ‘barium enema’ — ภาพที่ให้เป็น enema แล้ว และ enema ไม่ยืนยันโรค คำตอบที่ต้องการคือ rectal (suction) biopsy","ทารกใช้ water-soluble contrast ไม่ใช่ barium","อย่าลืม enterocolitis — rubric มักให้คะแนน washout + antibiotics","ตอบ pull-through ต้องบอกชื่อวิธีอย่างน้อยหนึ่งชื่อ"],
+       members:["MDCU67|RoB|MEQ 4#1","MDCU67|RoB|MEQ 4#2","MDCU67|RoB|MEQ 5#1","MDCU67|RoB|MEQ 5#2","MDCU67|RoD|PPT 13#1","MDCU67|RoD|PPT 13#2","MDCU67|RoD|PPT 14#1","MDCU67|RoD|PPT 14#2","MDCU78|RoA|MEQ 4#1","MDCU78|RoA|MEQ 4#2","MDCU78|RoA|MEQ 4#3","MDCU77|RoA|MEQ 6#1","MDCU77|RoA|MEQ 6#2","MDCU77|RoA|MEQ 6#3","MDCU69|RoC|MEQ 10#1","MDCU69|RoC|MEQ 10#2","MDCU69|RoC|MEQ 10#3","MDCU68|RoB|MEQ 5#1"]},
+      {id:"cdh",
+       title:"Congenital diaphragmatic hernia (Bochdalek) — CXR ลำไส้ในทรวงอก, การช่วยหายใจ, delayed repair",
+       trend:"CXR ทารกหายใจลำบาก ท้องแฟบ ลำไส้ในทรวงอกซ้าย ออกซ้ำหลายรุ่น ถาม Dx → management (ห้าม bag-mask, gentle ventilation, ผ่าตัดเมื่อ stable)",
+       asked:["Newborn X-ray → Dx → initial และ definitive treatment","ทารกครบกำหนดหายใจลำบาก เสียงหายใจซ้ายลด → Dx → management","CXR ลำไส้มีลมในทรวงอกซ้าย mediastinum ถูกดันไปขวา ท้องแฟบ → Dx (แยก eventration) → management"],
+       flow:["อ่าน CXR: bowel loops มีลมในทรวงอกซ้าย, หัวใจ / mediastinum ไปขวา, ลมในท้องน้อย, ± ปลาย OG ขดในอก","Dx: left Bochdalek CDH (DDx eventration, CPAM)","Resuscitation: intubate ทันที ไม่ bag-mask + OG suction","Gentle ventilation + รักษา pulmonary hypertension","Delayed repair เมื่อ stabilize"],
+       pattern:["<b>Bochdalek</b> (posterolateral, ซ้าย ~80–85%) พบบ่อยกว่า Morgagni (anteromedial) · ปัญหาหลัก = pulmonary hypoplasia + pulmonary hypertension","<b>Initial:</b> endotracheal intubation ทันที — <b>ห้าม bag-mask ventilation</b> (ลมเข้ากระเพาะ / ลำไส้ในทรวงอก กดปอดมากขึ้น) · OG / NG + continuous suction · NPO, IV fluid, glucose, arterial line · echo หา cardiac anomaly / PH","<b>Gentle ventilation (CDH EURO Consortium 2015 update):</b> PIP ≤ 25 cmH₂O · permissive hypercapnia PaCO₂ 50–70 mmHg · เป้า preductal SpO₂ 80–95% (postductal &gt; 70%) · PH → iNO, inotrope · ไม่ตอบสนอง → HFOV / ECMO","<b>Surgical repair = delayed</b> หลัง stabilize (ไม่ใช่ emergency): เกณฑ์ เช่น MAP ปกติตามอายุครรภ์, preductal SpO₂ 85–95% บน FiO₂ &lt; 50%, lactate &lt; 3 mmol/L, urine &gt; 1 mL/kg/h → ดึงอวัยวะกลับ ปิด diaphragm แบบ primary หรือ patch","<b>Eventration:</b> กะบังลมยกสูงแต่ต่อเนื่อง เห็นขอบโค้งเรียบเหนือลำไส้ อาการน้อยกว่า → มีอาการทำ plication"],
+       kw:["bowel loops in the left hemithorax","mediastinal shift to the right","scaphoid abdomen","left Bochdalek CDH","immediate intubation, avoid bag-mask ventilation","OG / NG decompression","gentle ventilation, permissive hypercapnia","pulmonary hypertension (iNO, ECMO)","delayed repair after stabilization"],
+       ddx:["eventration of the diaphragm","congenital pulmonary airway malformation (CPAM)","pneumothorax"],
+       pearls:["ตอบผ่าตัดฉุกเฉินทันที = ผิด (delayed repair ผลดีกว่า)","ลืม ‘ห้าม bag-mask’ เป็นจุดตัดคะแนนบ่อย","MDCU78 RoC ผู้จดลังเล CDH กับ eventration — ท้องแฟบ + mediastinal shift + อาการตั้งแต่แรกเกิด = CDH"],
+       members:["MDCU67|RoB|MEQ 6#1","MDCU67|RoB|MEQ 6#2","MDCU78|RoC|MEQ 15#1","MDCU78|RoC|MEQ 15#2","MDCU76|RoA|MEQ 7#1","MDCU76|RoA|MEQ 7#2","MDCU72|RoB|MEQ 13#1","MDCU72|RoB|MEQ 13#2","MDCU69|RoA|MEQ 14#1","MDCU68|RoC|MEQ 13#1"]},
+      {id:"intussusception",
+       title:"Intussusception — currant jelly stool ในทารก, US target sign, pneumatic / hydrostatic reduction",
+       trend:"ภาพผ้าอ้อมเลือดปนมูกแบบแยม + เด็กร้องเป็นพัก ๆ ออกหลายรุ่น ถาม Dx → initial → definitive",
+       asked:["6-month-old ร้องเป็นพัก ๆ + ภาพผ้าอ้อม → Dx → initial management → definitive management","5-week-old ถ่ายเลือดแดงเหลวคล้ายแยม → Dx → initial → definite treatment","ก้นเด็กมีเลือดปนมูกคล้ำ + ร้องเป็นพัก ๆ → Dx (DDx Meckel) → management"],
+       flow:["ภาพ: red currant jelly stool + colicky crying ± sausage-shaped mass","Dx ileocolic intussusception","Initial: NPO, IV fluid, NG, ยืนยันด้วย US","Definitive: non-operative reduction ถ้าไม่มีข้อห้าม","ล้มเหลว / ข้อห้าม → surgery"],
+       pattern:["อายุพบบ่อย 6 เดือน – 3 ปี (ileocolic, idiopathic จาก lymphoid hyperplasia) · เด็ก &gt; 2–3 ปี / เป็นซ้ำ → หา lead point (Meckel, polyp, lymphoma)","<b>Triad:</b> colicky pain (ร้องงอเข่าเป็นพัก ๆ) + vomiting + currant jelly stool (อาการท้าย) · sausage-shaped mass, Dance sign (RLQ ว่าง)","<b>US ยืนยัน:</b> target / doughnut sign (transverse), pseudokidney sign (longitudinal)","<b>Initial:</b> NPO, IV fluid resuscitation, แก้ electrolyte, NG ถ้าอาเจียน / ท้องอืด, CBC ± antibiotics","<b>Definitive:</b> non-operative reduction — pneumatic (air, fluoroscopy) หรือ hydrostatic (US / fluoroscopy) สำเร็จ ~80–90%, recurrence ~10% · <b>ข้อห้าม:</b> peritonitis, perforation / free air, shock → laparotomy / laparoscopy manual reduction (บีบดันส่วนปลาย ‘squeeze’ ไม่ดึง) ± bowel resection","เลือดสด / คล้ำปริมาณมากไม่ปวด → คิด Meckel diverticulum (Tc-99m pertechnetate scan)"],
+       kw:["red currant jelly stool","intermittent colicky crying","ileocolic intussusception","US target / doughnut sign, pseudokidney sign","NPO, IV fluid, NG decompression","pneumatic or hydrostatic enema reduction","contraindications: peritonitis, perforation, shock","operative manual reduction (squeeze, don't pull)"],
+       ddx:["Meckel diverticulum","juvenile polyp","infectious enterocolitis","anal fissure","Henoch–Schönlein purpura"],
+       pearls:["ทำ enema reduction ในเด็ก shock / peritonitis = ผิดร้ายแรง","ลืมยืนยันด้วย US ก่อน reduce","MDCU71 RoB เด็กอายุ 5 สัปดาห์ — อายุน้อยกว่าปกติของโรค แต่ภาพและคีย์ยังตอบ intussusception"],
+       members:["MDCU77|RoC|MEQ 11#1","MDCU77|RoC|MEQ 11#2","MDCU77|RoC|MEQ 11#3","MDCU76|RoD|MEQ 5#1","MDCU76|RoD|MEQ 5#2","MDCU72|RoC|MEQ 13#1","MDCU72|RoC|MEQ 13#2","MDCU71|RoB|MEQ 7#1","MDCU71|RoB|MEQ 7#2","MDCU71|RoB|MEQ 7#3"]},
+      {id:"ea-tef",
+       title:"Esophageal atresia ± tracheoesophageal fistula — Gross type จากฟิล์ม, VACTERL, initial care",
+       trend:"CXR ทารกน้ำลายฟูมปาก สายใส่ไม่ลง ถาม ‘type อะไร’ (ดูลมในท้อง) + anomaly ร่วม ± initial management",
+       asked:["Newborn CXR สาย OG ขดใน upper pouch → What type of anomaly? → initial management","Drooling + choking มื้อแรก + feeding tube ใส่ไม่ลง → Dx + type → associated anomalies","X-ray ทารก → type ของ EA / TEF (gasless abdomen) → anomaly ร่วม"],
+       flow:["ดูปลายสายขดที่ T2–T4 (upper pouch)","ดูลมในกระเพาะ / ลำไส้: มี = distal TEF (type C) · ไม่มี = type A (หรือ B)","บอก Gross type","Initial care + VACTERL work-up","Definitive repair"],
+       pattern:["<b>Gross classification:</b> A = pure EA ไม่มี fistula (gasless abdomen ~8%) · B = proximal TEF · <b>C = proximal EA + distal TEF (~85%)</b> · D = fistula ทั้งสองส่วน · E = H-type TEF ไม่มี atresia (สำลัก / ปอดอักเสบซ้ำ)","ลมในท้องบอกว่ามี fistula ระหว่าง trachea กับ esophagus ส่วนล่าง → <b>สายขดใน upper pouch + มีลมในท้อง = type C</b> · ไม่มีลมเลย = type A (หรือ B)","<b>Initial:</b> NPO · Replogle (double-lumen) tube ใน upper pouch ต่อ continuous low suction กันสำลักน้ำลาย · นอนศีรษะสูง 30–45° (ลด reflux น้ำย่อยผ่าน fistula) · IV fluid + glucose, keep warm · antibiotics ถ้า aspiration · เลี่ยง bag-mask แรง","<b>VACTERL</b> (~50% มี anomaly): cardiac พบบ่อยสุด → <b>echo ก่อนผ่าตัด</b> (หา right-sided aortic arch ซึ่งเปลี่ยนข้างที่เปิดอก) · renal US · spine / limb X-ray · ตรวจทวาร · trisomy 18 / 21, CHARGE · polyhydramnios / prematurity","<b>Definitive (type C):</b> right extrapleural thoracotomy → ligate fistula + primary esophageal anastomosis · long gap (type A) → delayed primary anastomosis / replacement · Spitz classification (น้ำหนัก &lt; 1,500 g + major cardiac) ทำนายการรอด"],
+       kw:["coiled tube in upper esophageal pouch","gas in stomach = distal TEF (Gross type C, ~85%)","gasless abdomen = pure EA (type A)","Replogle tube with continuous suction","head-up 30–45°","VACTERL","echocardiogram (right-sided aortic arch)","right extrapleural thoracotomy, ligate fistula, primary anastomosis"],
+       ddx:["Gross type A (pure EA)","type B (proximal TEF)","H-type TEF","tube coiling from pharyngeal perforation"],
+       pearls:["type A กับ B แยกจากฟิล์มธรรมดาไม่ได้ (ทั้งคู่ gasless) — ตอบได้ทั้งสองถ้าถามจากภาพ","ลืมเหตุผลที่ต้อง echo ก่อนผ่าตัด (aortic arch ขวา)","อย่าฉีด barium ลง upper pouch (aspiration)"],
+       members:["MDCU66|RoA|PPT 7#1","MDCU66|RoA|PPT 7#2","MDCU65|RoC|PPT 13#1","MDCU65|RoC|PPT 13#2","MDCU71|RoA|MEQ 3#1","MDCU71|RoA|MEQ 3#2","MDCU70|RoB|MEQ 12#1"]},
+      {id:"functional-constipation",
+       title:"Functional constipation with fecal impaction ในเด็ก (AXR อุจจาระเต็มลำไส้)",
+       trend:"ถามครั้งเดียว: เด็กโตถ่ายแข็งนาน เปื้อนกางเกง + AXR → Dx → disimpaction → maintenance",
+       asked:["เด็ก 6 ปี ถ่ายแข็ง ถ่ายห่าง หลายเดือน ปวดท้อง เปื้อนกางเกง เคยถ่ายขี้เทาปกติ + AXR → Dx","Describe the initial management in detail","What is the definitive (long-term) treatment?"],
+       flow:["AXR: อุจจาระเต็มลำไส้ใหญ่ ไม่มี SB dilatation","Dx functional constipation + fecal impaction (overflow soiling)","แยก red flags / Hirschsprung","Disimpaction → maintenance + toilet training"],
+       pattern:["<b>Dx:</b> functional constipation with fecal impaction + overflow incontinence (encopresis) — &gt; 90% ของท้องผูกในเด็ก (Rome IV)","<b>Red flags → คิด Hirschsprung:</b> ท้องผูกตั้งแต่แรกเกิด ขี้เทาช้า &gt; 48 ชม. rectum ว่างบน DRE · อื่น: hypothyroidism, spinal dysraphism","<b>Disimpaction (ESPGHAN / NASPGHAN 2014):</b> oral PEG 3350 1–1.5 g/kg/วัน 3–6 วัน (first-line) หรือ rectal enema วันละครั้ง 3–6 วัน · อธิบายผู้ปกครองว่า soiling ไม่ใช่ความตั้งใจของเด็ก","<b>Maintenance:</b> PEG 0.4–0.8 g/kg/วัน ≥ 2 เดือน (ต่อจนถ่ายปกติ ≥ 1 เดือนแล้วค่อยลด) · toilet training นั่งส้วม 5–10 นาทีหลังอาหาร 2–3 ครั้ง / วัน + diary · ใยอาหาร น้ำ กิจกรรม · ถ้าพิสูจน์ได้ว่าเป็น Hirschsprung → pull-through"],
+       kw:["functional constipation with fecal impaction","overflow incontinence / encopresis","PEG 1–1.5 g/kg/day 3–6 days (disimpaction)","maintenance PEG 0.4–0.8 g/kg/day ≥ 2 months","toilet training, diary","red flags for Hirschsprung"],
+       ddx:["Hirschsprung disease","hypothyroidism","spinal dysraphism"],
+       pearls:["ไฟล์ไม่มีคีย์ — คำตอบมาจากคลัง (ESPGHAN / NASPGHAN 2014)","ตอบ Hirschsprung ทั้งที่ถ่ายขี้เทาปกติ = มองข้ามประวัติ"],
+       members:["MDCU78|RoB|MEQ 3#1","MDCU78|RoB|MEQ 3#2","MDCU78|RoB|MEQ 3#3"]}
+    ]},
+    {title:"Vascular & limb", sections:[
+      {id:"toe-gangrene",
+       title:"Toe gangrene / ischemic ulcer — บรรยาย, สาเหตุ, PE ที่ต้องทำ, diabetic foot",
+       trend:"ภาพนิ้วเท้าดำ ± แผลฝ่าเท้าออกเกือบทุกรุ่น ถามชุดเดิม describe → causes → physical examination → management",
+       asked:["ภาพเท้า → describe the lesion → possible causes → important PE → management","Toe lesion → describe → give three causes → three physical examinations","ภาพนิ้วเท้าที่สองดำ → describe → Dx → additional PE","ชาย HT มีแผล / เนื้อตายที่นิ้วโป้ง → describe → important PE → Dx","ผู้ป่วยเบาหวานนิ้วเท้าดำแห้ง → DDx → investigations","Diabetic wound → describe → further examination → most likely cause","Chronic toe ulcers + skin atrophy → Dx → further PE → risk factors","Chronic foot ulcer (punched-out ปลายนิ้ว) → PE → which system is abnormal"],
+       flow:["บรรยาย: ตำแหน่ง · dry (ดำแห้ง demarcate ชัด) vs wet (บวมแดง หนอง กลิ่น) · แผลฝ่าเท้า / ขอบ / ฐาน · trophic changes","สาเหตุ / Dx","PE: vascular → neuro → infection → systemic","Investigation: ABI / TBI, duplex, CTA","Management: sepsis / debridement / revascularization / คุมน้ำตาล / off-loading"],
+       pattern:["<b>Dry gangrene</b> = ขาดเลือดล้วน ดำแห้งเหี่ยว (mummified) line of demarcation ชัด → รอ demarcation + revascularize แล้วตัด · <b>Wet gangrene</b> = ติดเชื้อร่วม บวมแดง หนอง กลิ่น → debridement / amputation ด่วน","<b>Arterial (ischemic) ulcer:</b> ปลายนิ้ว / ปุ่มกระดูก, punched-out ขอบชัด, ฐานซีดไม่มี granulation, ปวดมาก (โดยเฉพาะยกขา) · ผิวมันบาง ขนร่วง เล็บหนา กล้ามเนื้อลีบ","<b>สาเหตุ:</b> atherosclerotic PAD (CLTI) · diabetic foot (neuropathy + PAD + infection — บ่อยสุดในไทย) · arterial embolism (AF, cardiac thrombus, atheroembolism / blue toe) · Buerger disease (ชายหนุ่มสูบบุหรี่) · necrotizing soft-tissue infection · อื่น: trauma, frostbite, vasospasm, vasculitis, hypercoagulable, vasopressor","<b>Risk factors (atherosclerosis):</b> smoking, DM, HT, dyslipidemia, อายุ, CKD, ประวัติครอบครัว","<b>PE:</b> คลำชีพจร femoral, popliteal, dorsalis pedis, posterior tibial เทียบสองข้าง ± handheld Doppler · bruit · capillary refill, อุณหภูมิ, Buerger's test (ยกขาซีด / ห้อยขาแดงคล้ำ, Buerger angle &lt; 20° = รุนแรง) · <b>ABI</b> (≤ 0.90 PAD — ACC / AHA 2024, ≤ 0.4 critical; DM / CKD อาจ &gt; 1.4 เท็จ → toe pressure / TBI) · neuropathy: 10-g monofilament, vibration 128 Hz, ankle reflex · infection: บวมแดง หนอง crepitus, pain out of proportion, <b>probe-to-bone</b> (osteomyelitis) · หัวใจ (AF), AAA","<b>Investigations:</b> ABI / TBI, arterial duplex, CTA / DSA วางแผน revascularization · CBC, FBS / HbA1c, Cr, ESR / CRP · X-ray foot (osteomyelitis, gas) · ECG (AF)","<b>Management (IWGDF 2023 สำหรับ diabetic foot):</b> resuscitate ถ้า sepsis · คุมน้ำตาล · IV antibiotics (เช่น piperacillin-tazobactam; + clindamycin ถ้าสงสัย necrotizing) ปรับตาม tissue culture · urgent debridement / drainage + toe / ray amputation ของนิ้วที่ตาย · ประเมิน revascularization (bypass / endovascular) ถ้ามี PAD · off-loading · tetanus · สอนดูแลเท้า"],
+       kw:["dry vs wet gangrene, line of demarcation","punched-out ischemic ulcer with pale base","trophic changes (shiny hairless skin, thick nails)","peripheral pulses (femoral, popliteal, DP, PT)","ABI ≤ 0.90 (TBI if &gt; 1.40 / calcified)","Buerger's test","monofilament (neuropathy)","probe-to-bone","debridement / toe amputation + revascularization + glucose control"],
+       ddx:["diabetic foot infection","atherosclerotic CLTI","arterial embolism / blue toe syndrome","Buerger disease","necrotizing fasciitis","frostbite"],
+       pearls:["คีย์เก่า MDCU67 RoB ให้ PE แค่ crepitus / pain out of proportion — ต้องมีคลำชีพจร / ABI และ monofilament ด้วย","6P เป็นของ acute limb ischemia — ใช้ในแผลเรื้อรังได้เป็นการเทียบเท่านั้น","ลืมคิดว่า ABI ใน DM อาจสูงเท็จ"],
+       members:["MDCU67|RoB|MEQ 10#1","MDCU67|RoB|MEQ 10#2","MDCU67|RoB|MEQ 10#3","MDCU67|RoB|MEQ 10#4","MDCU67|RoC|MEQ 9#1","MDCU67|RoC|MEQ 9#2","MDCU67|RoC|MEQ 9#3","MDCU76|RoA|MEQ 9#1","MDCU76|RoA|MEQ 9#2","MDCU76|RoA|MEQ 9#3","MDCU77|RoA|MEQ 9#1","MDCU77|RoA|MEQ 9#2","MDCU77|RoA|MEQ 9#3","MDCU72|RoA|MEQ 9#1","MDCU72|RoA|MEQ 9#2","MDCU72|RoA|MEQ 9#3","MDCU72|RoC|MEQ 3#1","MDCU72|RoC|MEQ 3#2","MDCU72|RoC|MEQ 3#3","MDCU72|RoD|MEQ 8#1","MDCU72|RoD|MEQ 8#2","MDCU69|RoA|MEQ 12#1","MDCU65|RoC|PPT 14#1","MDCU65|RoC|PPT 14#2"]},
+      {id:"venous-ulcer",
+       title:"Chronic venous insufficiency และ venous ulcer — บรรยายแผล, กลไก, risk, การตรวจ, การรักษา",
+       trend:"ภาพแผล / ผิวคล้ำเหนือ medial malleolus ออก MDCU65 (หลายข้อ), MDCU69–70 ถาม describe → system → cause / risk → PE / Ix → management",
+       asked:["Chronic ulcer หญิง 60 ปี → describe the lesion","(ต่อ) What causes this ulcer → risk factors","Chronic leg ulcer B → describe → which system is abnormal","Hyperpigmentation เหนือข้อเท้าด้านใน → describe → Dx → management","ปวดขาตอนเย็น + ภาพขา → Dx → important PE → further investigation"],
+       flow:["บรรยายแผล: จำนวน ตำแหน่ง ขนาด รูปร่าง ขอบ ฐาน discharge ผิวรอบ ชีพจร","System: venous","Pathophysiology + risk factors","PE / duplex","Compression (หลัง ABI) + ยกขา + ดูแลแผล ± แก้ reflux"],
+       pattern:["<b>Venous ulcer (CEAP C6):</b> แผลใหญ่ ตื้น ที่ gaiter area เหนือ <b>medial malleolus</b> · ขอบไม่สม่ำเสมอแต่<b>ลาดเอียง (sloping)</b> · ฐาน granulation แดง ± slough / fibrin · exudate มาก · ไม่ค่อยเจ็บ · ผิวรอบ: hemosiderin pigmentation, lipodermatosclerosis (inverted champagne bottle), venous eczema, atrophie blanche, varicose veins, edema · ชีพจรเท้าคลำได้ · venous ulcer ~70% ของแผลขาเรื้อรัง · C4 = ผิวเปลี่ยน (pigmentation / eczema / LDS) ยังไม่มีแผล","<b>กลไก:</b> ambulatory venous hypertension จาก (1) valvular reflux ของ superficial (GSV / SSV), perforator, deep veins (2) venous obstruction — post-thrombotic syndrome (3) calf muscle pump ล้มเหลว → capillary hypertension, leukocyte trapping, fibrin cuff → ผิวขาดออกซิเจน → แผล","<b>Risk factors:</b> DVT / กระดูกหักที่ขา, varicose veins, อายุ, หญิง, ตั้งครรภ์หลายครั้ง, อ้วน, ยืนนาน, ประวัติครอบครัว, thrombophilia, ข้อเท้าเคลื่อนไหวน้อย","<b>PE:</b> Brodie–Trendelenburg test, tourniquet test, Perthes test (deep vein patency), cough impulse ที่ SFJ · ABI ก่อน compression · <b>Ix: venous duplex ultrasound</b> (reflux / obstruction)","<b>Rx:</b> compression therapy (multilayer bandage / stocking) หลังยืนยัน <b>ABI ≥ 0.8</b> · ยกขา, ออกกำลังกล้ามเนื้อน่อง, ลดน้ำหนัก เลี่ยงยืนนาน · ดูแลแผล / ผิว · venoactive drugs · แก้ superficial reflux (endovenous laser / RFA ablation, sclerotherapy, high ligation + stripping) ช่วยแผลหายเร็วและลดการเป็นซ้ำ (ESCHAR, EVRA)"],
+       kw:["gaiter area above the medial malleolus","shallow ulcer with sloping edge, granulating base, heavy exudate","hemosiderin pigmentation, lipodermatosclerosis, venous eczema","venous system — chronic venous insufficiency (CEAP C4 / C6)","ambulatory venous hypertension (reflux, obstruction, calf-pump failure)","venous duplex ultrasound","compression after ABI ≥ 0.8","endovenous ablation of superficial reflux"],
+       ddx:["arterial ulcer","mixed arterio-venous ulcer","neuropathic ulcer","Marjolin's ulcer (แผลเรื้อรังไม่หาย ขอบนูน → biopsy)","pyoderma gangrenosum"],
+       pearls:["พัน compression โดยไม่ตรวจ ABI ก่อน = อันตรายในคนมี PAD ร่วม","บรรยาย ‘ขอบ’ ผิด (punched-out = arterial)"],
+       members:["MDCU65|RoB|PPT 11#1","MDCU65|RoB|PPT 12#1","MDCU65|RoC|PPT 15#1","MDCU65|RoC|PPT 15#2","MDCU70|RoB|MEQ 1#1","MDCU70|RoB|MEQ 1#2","MDCU70|RoB|MEQ 1#3","MDCU69|RoC|MEQ 4#1"]},
+      {id:"digital-ischemia",
+       title:"Digital ischemia ของนิ้วมือ — Buerger disease (thromboangiitis obliterans) และ frostbite",
+       trend:"ภาพปลายนิ้วดำ / แผลในชายสูบบุหรี่ออก MDCU68–72 ถาม Dx → treatment (หยุดบุหรี่คือหัวใจ); MDCU72 เป็นภาพ frostbite",
+       asked:["ชาย 30 pack-years แผลปลายนิ้วไม่หายด้วยยาแก้ปวด / antibiotics → Dx → treatment","Thromboangiitis obliterans picture → Dx + treatment","ปลายนิ้วดำเจ็บ → Dx → treatment","ปลายนิ้วมือหลายนิ้วสองข้างดำมี hemorrhagic blister สมมาตร → Dx → management"],
+       flow:["Dx จากภาพ + ประวัติ","แยกสาเหตุอื่นของ digital ischemia","การรักษาเฉพาะโรค"],
+       pattern:["<b>Buerger disease:</b> ชายอายุน้อย (&lt; 45–50 ปี) สูบบุหรี่ · segmental inflammatory occlusion ของ small / medium arteries ส่วนปลายทั้งแขนและขา · digital ulcer / gangrene, migratory superficial thrombophlebitis, Raynaud","<b>Rx Buerger:</b> <b>หยุดบุหรี่ทุกรูปแบบเด็ดขาด</b> = การรักษาเดียวที่หยุดโรค · wound care, analgesia, antibiotics ถ้าติดเชื้อ · vasodilator (cilostazol, iloprost) · รอ demarcation → amputation ส่วนที่ตาย · revascularization มักไม่มี target vessel","<b>Frostbite (deep, 3rd–4th degree):</b> ปลายนิ้วดำม่วง hemorrhagic blister สมมาตร · <b>rapid rewarming</b> ในน้ำ 37–39 °C จนผิวแดง / ม่วงและนุ่ม (~15–30 นาที) — ห้ามถู ห้ามใช้ความร้อนแห้ง ห้ามให้แข็งซ้ำ · ibuprofen + analgesia · ดูแล blister ยกสูง tetanus · deep frostbite: <b>tPA ภายใน 24 ชม.</b>หลัง thaw หรือ <b>iloprost ภายใน 48–72 ชม.</b> (Wilderness Medical Society 2024) · รอ demarcation หลายสัปดาห์ก่อน debridement / amputation","DDx อื่น: Raynaud phenomenon จาก systemic sclerosis (ANA, anti-Scl-70), emboli (echo, Doppler), vasculitis"],
+       kw:["thromboangiitis obliterans (Buerger disease)","young male smoker, distal small / medium arteries","complete smoking cessation","cilostazol / iloprost, wound care","delayed amputation after demarcation","frostbite: rapid rewarming 37–39 °C","iloprost ≤ 48–72 h / tPA ≤ 24 h for deep frostbite (WMS 2024)"],
+       ddx:["Raynaud phenomenon (systemic sclerosis)","atheroembolism","vasculitis","frostbite"],
+       pearls:["ตอบ revascularization / sympathectomy เป็นหลักโดยไม่พูดหยุดบุหรี่ = พลาดคะแนนหลัก","MDCU72 RoB ไม่มีเฉลยในไฟล์ — คลังอ่านภาพเป็น deep frostbite (pattern สมมาตรเว้นนิ้วโป้ง)"],
+       members:["MDCU71|RoB|MEQ 1#1","MDCU71|RoB|MEQ 1#2","MDCU70|RoA|MEQ 1#1","MDCU68|RoC|MEQ 1#1","MDCU72|RoB|MEQ 8#1","MDCU72|RoB|MEQ 8#2"]},
+      {id:"clti-level",
+       title:"CLTI: บอกระดับรอยโรคจากชีพจร / Doppler และ complete diagnosis",
+       trend:"MDCU75–78 ให้ภาพนิ้วเท้า gangrene + ผลคลำชีพจร / ตาราง Doppler แล้วถามระดับหลอดเลือดที่อุด + การวินิจฉัยเต็ม",
+       asked:["DM นิ้วโป้ง + นิ้วก้อยดำแห้ง popliteal 2+ แต่ DP / PT คลำไม่ได้ → describe → arterial lesion อยู่ที่ไหน → PE","Femoral 1+, popliteal 1+, PT / DP 0 ทั้งสองข้าง → describe all → structure ที่เป็นเหตุ → complete Dx → investigation","Dry gangrene นิ้วก้อย + ด้านในเท้า + ตาราง Doppler → describe → Dx + likely level"],
+       flow:["Describe: dry gangrene + trophic changes","ระดับรอยโรค = ต่ำกว่าชีพจรสุดท้ายที่คลำได้ / จุดที่ Doppler เปลี่ยน triphasic → monophasic","Complete Dx: CLTI ข้าง + Rutherford + ระดับ + สาเหตุ","Investigation เพื่อ revascularization"],
+       pattern:["<b>ระดับจากชีพจร:</b> femoral หาย = aortoiliac · femoral ได้ popliteal หาย = femoropopliteal (SFA) · popliteal ได้ DP / PT หาย = <b>infrapopliteal (tibial / peroneal)</b> — พบบ่อยใน DM, CKD, Buerger","<b>ตาราง Doppler:</b> จุดที่ waveform เปลี่ยนจาก triphasic → biphasic / monophasic / ไม่มี = ระดับที่อุด","<b>CLTI</b> (Global Vascular Guidelines 2019) = PAD + rest pain หรือแผล / gangrene &gt; 2 สัปดาห์ · <b>Rutherford:</b> 4 ischemic rest pain · <b>5 minor tissue loss</b> (แผลไม่หาย, focal gangrene ของนิ้ว) · 6 major tissue loss เกินระดับ transmetatarsal · Fontaine IV = ulcer / gangrene · ใช้ WIfI (Wound, Ischemia, foot Infection) ประเมิน limb threat","<b>Complete Dx ตัวอย่าง:</b> chronic limb-threatening ischemia of the left leg with dry gangrene of the toe (Rutherford 5) from bilateral infrapopliteal atherosclerotic PAD","<b>Investigations:</b> ABI / toe pressure (ABI &lt; 0.4 หรือ toe pressure &lt; 30 mmHg = CLTI; DM ABI อาจ &gt; 1.3–1.4 เท็จ) · arterial duplex · <b>CT angiography</b> (หรือ DSA) วางแผน revascularization · FBS / HbA1c, lipid, Cr"],
+       kw:["level of occlusion = below the last palpable pulse","popliteal present, DP / PT absent → infrapopliteal (tibial) disease","Doppler triphasic → monophasic","chronic limb-threatening ischemia","Rutherford 5 (minor tissue loss) vs 6","WIfI","toe pressure / TBI","CT angiography for revascularization planning"],
+       pearls:["คีย์เก่า MDCU77 RoC ตอบ ‘bilateral popliteal artery occlusion’ — popliteal ยังคลำได้ 1+ จึงต้องเป็น infrapopliteal (ร่วม inflow disease ได้เพราะ femoral 1+)","Rutherford 6 ใช้เมื่อเนื้อตายเกิน transmetatarsal — focal toe gangrene = 5"],
+       members:["MDCU78|RoB|MEQ 5#1","MDCU78|RoB|MEQ 5#2","MDCU78|RoB|MEQ 5#3","MDCU77|RoC|MEQ 6#1","MDCU77|RoC|MEQ 6#2","MDCU77|RoC|MEQ 6#3","MDCU77|RoC|MEQ 6#4","MDCU75|RoC|MEQ 8#1","MDCU75|RoC|MEQ 8#2"]},
+      {id:"arm-swelling",
+       title:"แขนบวมแดง: secondary lymphedema (หลังรักษามะเร็งเต้านม) ± cellulitis",
+       trend:"ภาพแขนบวมทั้งแขนในหญิงวัยกลางคน ถาม Dx → สาเหตุ / ระบบ (MDCU67, 69, 73)",
+       asked:["หญิง 49 ปี แขนซ้ายบวมแดงปวด 3 วัน → Dx → 2 causes / factors","แขนบวมปวด → Dx → cause","แขนซ้ายแดงร้อนบวมกดเจ็บ 3 วัน มีไข้ → Dx → system involved → causes"],
+       flow:["Dx: lymphedema ของแขน (± cellulitis ซ้อน) หรือ cellulitis","ระบบ: lymphatic / skin–soft tissue (DVT = venous)","สาเหตุ / ปัจจัยเสี่ยง","Rx ระยะสั้น + ระยะยาว"],
+       pattern:["<b>Secondary lymphedema ของแขน:</b> บวมทั้งแขนรวมมือ หลังรักษามะเร็งเต้านม — axillary lymph node dissection (เสี่ยง ~20%; SLNB ~5%; ALND + RT สูงขึ้น), radiotherapy ที่รักแร้ / supraclavicular, มะเร็งกลับเป็นซ้ำที่รักแร้อุด lymphatics · filariasis (Wuchereria bancrofti, Brugia malayi), cellulitis ซ้ำ, trauma · primary (congenital, praecox, tarda) พบน้อย","Lymphedema เป็นปัจจัยเสี่ยงของ cellulitis ซ้ำ (โปรตีนสูงใน interstitial fluid) → แดงร้อนปวดเฉียบพลัน + ไข้ = cellulitis / lymphangitis ซ้อน","<b>Cellulitis:</b> เชื้อ β-hemolytic Streptococcus (GAS) ± S. aureus · ปัจจัย: แผล / แมลงกัด / IV cannula, lymphedema, DM, ภูมิต่ำ (IDSA SSTI 2014) → antibiotics (cloxacillin / cefazolin) + ยกแขน","<b>Lymphedema ระยะยาว:</b> complete decongestive therapy — manual lymphatic drainage, compression bandaging / garment, exercise, skin care · หลีกเลี่ยงเจาะเลือด / วัดความดันข้างนั้น","ต้องแยก <b>upper-extremity DVT</b> (บวมเขียวคล้ำ เส้นเลือดผิวโป่ง มี central line / PICC → duplex) และ tumor recurrence"],
+       kw:["secondary lymphedema after axillary dissection / radiotherapy","superimposed cellulitis / lymphangitis","filariasis","Streptococcus pyogenes, S. aureus","antibiotics + limb elevation","complete decongestive therapy (MLD, compression, exercise, skin care)","exclude upper-extremity DVT / tumor recurrence"],
+       ddx:["upper-extremity DVT","cellulitis alone","axillary tumor recurrence","lymphangitis","abscess"],
+       pearls:["คีย์เก่า MDCU67 RoA ตอบ lymphedema อย่างเดียว — อาการแดง ปวด 3 วัน ต้องบอก cellulitis ซ้อนด้วย","MDCU73 RoB โจทย์จดไม่ครบ ความมั่นใจต่ำ — ตอบ cellulitis + DDx"],
+       members:["MDCU67|RoA|MEQ 4#1","MDCU67|RoA|MEQ 4#2","MDCU69|RoA|MEQ 13#1","MDCU73|RoB|MEQ 9#1","MDCU73|RoB|MEQ 9#2","MDCU73|RoB|MEQ 9#3"]},
+      {id:"abi",
+       title:"Ankle-brachial index — วิธีวัด, การคำนวณ, การแปลผล",
+       trend:"ภาพ cuff ที่แขน / ข้อเท้าหรือให้ตารางความดันแล้วคำนวณ ออก MDCU68, 70, 76",
+       asked:["ภาพ cuff แขนสองข้างข้อเท้าสองข้าง → what is this test → how is it measured → interpretation","Explain how to measure ABI and how to interpret","Calculate ABI from a table of pressures"],
+       flow:["ท่าและการพัก","วัด SBP ด้วย handheld Doppler: brachial ×2, DP + PT แต่ละข้าง","คำนวณแยกข้าง","แปลผล"],
+       pattern:["นอนหงายพัก 5–10 นาที · cuff ที่แขนและเหนือข้อเท้า · handheld Doppler หา brachial, dorsalis pedis, posterior tibial · บีบ cuff จนเสียงหายแล้วปล่อย ค่าที่เสียงกลับมา = SBP","<b>ABI ของขาแต่ละข้าง = SBP สูงสุด (DP หรือ PT) ของข้อเท้าข้างนั้น ÷ SBP สูงสุดของแขนสองข้าง</b>","<b>แปลผล (ACC / AHA 2016, 2024):</b> &gt; 1.40 non-compressible (calcified — DM, CKD → ใช้ toe-brachial index) · 1.00–1.40 ปกติ · 0.91–0.99 borderline · ≤ 0.90 PAD · 0.41–0.90 mild–moderate (claudication) · ≤ 0.40 severe (rest pain / tissue loss, CLTI)","ABI ≤ 0.9 ยังบ่งบอกความเสี่ยง cardiovascular สูง"],
+       kw:["supine rest 5–10 minutes","handheld Doppler","higher of DP / PT ÷ higher brachial SBP","≤ 0.90 = PAD","0.91–0.99 borderline, 1.00–1.40 normal","&gt; 1.40 non-compressible → toe-brachial index","≤ 0.40 severe / CLTI"],
+       pearls:["คีย์เก่า MDCU76 RoD ใช้จุดตัด non-compressible &gt; 1.30 — แนวทาง ACC / AHA ปัจจุบันใช้ &gt; 1.40 (ตำราเก่าบางเล่มใช้ 1.3)","ใช้ค่าต่ำสุดของแขน / ข้อเท้าในการคำนวณ = ผิด (ใช้ค่าสูงสุด)"],
+       members:["MDCU76|RoD|MEQ 13#1","MDCU76|RoD|MEQ 13#2","MDCU70|RoC|MEQ 1#1","MDCU70|RoC|MEQ 1#2","MDCU68|RoB|MEQ 4#1"]},
+      {id:"dvt",
+       title:"Deep vein thrombosis — ภาพขาบวมข้างเดียว (post-op / long-haul flight), duplex, anticoagulation",
+       trend:"MDCU77–78 ให้ภาพขาบวมแดงข้างเดียวหลังผ่าตัดสะโพก / บินไกล ถาม describe → Dx → confirm → Rx / Virchow triad",
+       asked:["Post-op day 5 hip surgery น่องซ้ายบวมร้อนกดเจ็บ เส้นเลือดผิวโป่ง → Dx → confirmatory investigation → treatment","ชายนักเทนนิส 25 ปี บินจากอเมริกา ขาปวดมาก ชีพจรปกติทุกตำแหน่ง → describe → Dx → investigation → 3 causes (mechanisms)"],
+       flow:["บรรยาย: unilateral swelling + erythema (วัดเส้นรอบวงน่องต่างกัน)","Dx: provoked DVT","Wells score → D-dimer (ถ้า low probability) / compression duplex US","Anticoagulation + ระยะเวลา","Virchow triad"],
+       pattern:["<b>Virchow's triad:</b> venous stasis (ผ่าตัด / นั่งนาน — long-haul flight &gt; 4 ชม.) · hypercoagulability · endothelial injury","Wells score (น่องต่างกัน &gt; 3 cm, pitting edema, collateral superficial veins, ผ่าตัด / ติดเตียง …) ประเมิน pretest probability · D-dimer ใช้ rule out เมื่อ probability ต่ำ (หลังผ่าตัดมักสูงอยู่แล้ว)","<b>ยืนยัน: compression (duplex) ultrasound</b> — vein กดไม่แฟบ (non-compressible) · sensitivity ~95% สำหรับ proximal DVT","<b>Rx:</b> anticoagulation — LMWH (enoxaparin 1 mg/kg SC q12h) หรือ DOAC (rivaroxaban / apixaban) หรือ UFH → warfarin (INR 2–3) · <b>provoked DVT (ผ่าตัด / บินไกล) รักษา 3 เดือน</b> · ห้ามใช้ anticoagulant → IVC filter · ลุกเดินเร็ว · เฝ้าระวังอาการ PE","Prevention หลังผ่าตัด: early ambulation, mechanical (IPC), pharmacologic prophylaxis ตาม Caprini"],
+       kw:["unilateral leg swelling, erythema, tenderness","provoked deep vein thrombosis","Virchow's triad","Wells score, D-dimer","compression duplex ultrasound (non-compressible vein)","LMWH / DOAC","3 months for provoked DVT","IVC filter if anticoagulation contraindicated"],
+       ddx:["cellulitis","ruptured Baker cyst","calf muscle tear (นักกีฬา)","superficial thrombophlebitis","lymphedema"],
+       pearls:["ส่ง D-dimer ในผู้ป่วยหลังผ่าตัด (ค่าสูงอยู่แล้ว) แทน duplex = ไม่ช่วย","ตอบระยะเวลารักษาแบบ unprovoked (≥ 3 เดือน / ระยะยาว) ในเคส provoked"],
+       members:["MDCU78|RoC|MEQ 7#1","MDCU78|RoC|MEQ 7#2","MDCU78|RoC|MEQ 7#3","MDCU77|RoD|MEQ 13#1","MDCU77|RoD|MEQ 13#2","MDCU77|RoD|MEQ 13#3","MDCU77|RoD|MEQ 13#4"]},
+      {id:"acute-limb-ischemia",
+       title:"Acute limb ischemia — 6P, Rutherford classification, heparin + embolectomy",
+       trend:"ขาซีดเย็นเฉียบพลันใน AF / ผลคลำชีพจร femoral ได้ popliteal หาย ถาม describe / Dx → การตรวจ → management",
+       asked:["ชาย 72 ปี AF เท้าขวาปวดเย็น 6 ชม. + ภาพ → describe the findings → important PE","ขาซ้ายซีดปวดหลายชั่วโมง femoral 2+ popliteal / PT / DP 0 → provisional Dx → additional examinations / investigations → management"],
+       flow:["บรรยาย: ซีด / mottling เทียบอีกข้าง","Dx: ALI + ระดับ (femoral bifurcation / SFA) + สาเหตุ (embolus จาก AF)","PE: 6P, ชีพจรทุกระดับ, Doppler, sensory / motor → Rutherford","Ix: ECG, echo, CTA ถ้าไม่เสียเวลา, labs","Heparin ทันที → revascularization → ดู compartment / reperfusion"],
+       pattern:["<b>6P:</b> Pain, Pallor, Pulselessness, Poikilothermia, Paresthesia, Paralysis · mottling ที่กดจาง = ยังกู้ได้ · fixed mottling = irreversible","<b>Rutherford ALI:</b> I viable (ไม่มี sensory / motor loss, Doppler arterial ได้ยิน) · IIa marginally threatened (sensory loss เล็กน้อยที่นิ้ว) · IIb immediately threatened (sensory loss เกินนิ้ว + motor อ่อนแรงเล็กน้อย–ปานกลาง) → revascularize ทันที · III irreversible (อัมพาต ชาสนิท ไม่มี Doppler ทั้ง arterial / venous) → amputation","<b>ระดับ:</b> femoral คลำได้ popliteal หาย = femoral bifurcation / SFA occlusion","<b>PE / Ix:</b> handheld Doppler, sensory / motor, capillary refill, calf tenderness (compartment) · หาแหล่ง emboli: AF, murmur, AAA · ECG, echocardiogram, CBC, coagulation, CK, creatinine · CT angiography ถ้าไม่ทำให้ช้า","<b>Rx:</b> <b>UFH IV bolus ทันที</b>เมื่อวินิจฉัย + analgesia · embolus → <b>Fogarty balloon embolectomy</b> · thrombosis on PAD → catheter-directed thrombolysis / bypass · ดู reperfusion injury / compartment syndrome → fasciotomy · anticoagulate AF ระยะยาว"],
+       kw:["6P","acute limb ischemia from arterial embolism (AF)","femoral bifurcation / superficial femoral artery occlusion","handheld Doppler, sensory and motor assessment","Rutherford I / IIa / IIb / III","IV unfractionated heparin immediately","Fogarty balloon embolectomy","fasciotomy for compartment syndrome"],
+       ddx:["acute-on-chronic thrombosis (PAD)","acute DVT / phlegmasia cerulea dolens","aortic dissection","popliteal aneurysm thrombosis"],
+       pearls:["รอ CTA ในขา IIb = เสียเวลา","ลืมหาแหล่ง emboli (AF / echo)","คีย์ MDCU66 RoD ผู้จดเขียนแค่ ‘arterial occlusion’ — คำตอบที่ต้องการคือ 6P + Rutherford"],
+       members:["MDCU66|RoD|PPT 11#1","MDCU66|RoD|PPT 11#2","MDCU77|RoB|MEQ 3#1","MDCU77|RoB|MEQ 3#2","MDCU77|RoB|MEQ 3#3"]},
+      {id:"neuropathic-ulcer",
+       title:"Diabetic neuropathic foot ulcer — แผลไม่เจ็บที่ฝ่าเท้า + callus",
+       trend:"MDCU74, 76: แผลกลมที่ฝ่าเท้าใต้หัว metatarsal ในเบาหวาน ถาม describe → Dx → PE / treatment",
+       asked:["Plantar foot ulcer → describe → Dx → additional PE","แผลไม่เจ็บที่เท้าซ้ายโตขึ้น 3 เดือน เบาหวาน → Dx → treatment"],
+       flow:["บรรยาย: punched-out ที่จุดลงน้ำหนัก ขอบ callus หนา ไม่เจ็บ","Dx neuropathic ulcer","PE: neuropathy + vascular + infection + deformity","Rx: off-loading + debridement + ดูแลแผล + คุมน้ำตาล ± revascularize"],
+       pattern:["<b>Neuropathic ulcer:</b> แผลกลม punched-out ที่ pressure point (หัว metatarsal, ส้นเท้า, นิ้วโป้ง) ขอบเป็น callus หนา ฐานแดง ไม่เจ็บ · ชีพจรมักคลำได้","<b>PE:</b> 10-g monofilament, vibration 128 Hz, pinprick, ankle reflex · DP / PT pulses + ABI (DM อาจสูงเท็จ → TBI) · probe-to-bone (osteomyelitis) + X-ray · infection (แดง บวม หนอง) · deformity (Charcot, claw toe) · รองเท้า","<b>Rx (IWGDF 2023):</b> <b>off-loading</b> (total contact cast / removable walker / รองเท้าพิเศษ) · sharp debridement callus + เนื้อตาย · moist dressing · antibiotics เฉพาะเมื่อมีการติดเชื้อ (จัด mild / moderate / severe) · คุมน้ำตาล · ประเมินและแก้ ischemia · สอนดูแลเท้า","แผลเรื้อรังไม่หาย ขอบนูน → biopsy แยก Marjolin / amelanotic melanoma"],
+       kw:["painless plantar ulcer at pressure point","surrounding callus","10-g monofilament, vibration (128 Hz)","pulses / ABI / TBI","probe-to-bone","off-loading (total contact cast)","sharp debridement","antibiotics only if infected"],
+       ddx:["ischemic ulcer","neuroischemic ulcer","Marjolin's ulcer","amelanotic acral melanoma"],
+       pearls:["คีย์ MDCU76 RoC ให้ ‘debride + ATB + wet dressing’ — ขาด off-loading ซึ่งเป็นหัวใจของการรักษา; antibiotics เฉพาะเมื่อติดเชื้อ"],
+       members:["MDCU76|RoC|MEQ 10#1","MDCU76|RoC|MEQ 10#2","MDCU74|RoD|MEQ 6#1","MDCU74|RoD|MEQ 6#2","MDCU74|RoD|MEQ 6#3"]},
+      {id:"claudication",
+       title:"Intermittent claudication (chronic PAD) — Dx, ระดับ, PE",
+       trend:"ถามครั้งเดียว (MDCU65): สไลด์ประวัติชายสูบบุหรี่ปวดน่องเวลาเดิน 100 m",
+       asked:["ชาย 68 ปี 40 pack-years ปวดน่องขวาหลังเดิน ~100 m หายเมื่อพัก 6 เดือน → Dx → PE"],
+       flow:["Dx: chronic PAD — intermittent claudication + ระดับ","PE ครบระบบ","การรักษาเบื้องต้น"],
+       pattern:["<b>Dx:</b> chronic lower limb arterial occlusive disease (atherosclerotic PAD) — intermittent claudication · ปวดน่อง → femoropopliteal (SFA / popliteal) · ปวดก้น / ต้นขา → aortoiliac (Leriche: ปวดก้น + femoral pulse หาย + impotence) · Fontaine IIa / IIb, Rutherford 1–3","แยก neurogenic claudication (spinal stenosis): ปวดเมื่อยืนนาน ดีขึ้นเมื่อก้ม / นั่ง ไม่ใช่แค่หยุดเดิน","<b>PE:</b> inspection เทียบสองข้าง (สีผิว ขนร่วง ผิวบางมัน เล็บหนา กล้ามเนื้อลีบ แผล) · อุณหภูมิ, capillary refill · ชีพจร femoral / popliteal / DP / PT · bruit femoral / abdominal · Buerger's test · <b>ABI</b> · ระบบอื่น: BP แขนสองข้าง, หัวใจ (AF), AAA, carotid bruit","<b>Rx เริ่มต้น:</b> หยุดบุหรี่ · antiplatelet · statin · supervised exercise · cilostazol · คุม DM / HT · revascularization เมื่ออาการจำกัดชีวิต / CLTI"],
+       kw:["intermittent claudication","calf pain → femoropopliteal disease","Leriche syndrome (aortoiliac)","peripheral pulses, bruit","Buerger's test","ABI","smoking cessation, antiplatelet, statin, supervised exercise, cilostazol"],
+       ddx:["neurogenic claudication (lumbar spinal stenosis)","chronic compartment syndrome","popliteal entrapment"],
+       pearls:["ไม่มีคีย์ในไฟล์ — คำตอบจากคลัง"],
+       members:["MDCU65|RoA|PPT 9#1","MDCU65|RoA|PPT 9#2"]}
+    ]},
+    {title:"Neurosurgery & neurological examination", sections:[
+      {id:"motor-myotomes",
+       title:"Key muscles / myotomes และ MRC power grading จากคลิปตรวจกำลังกล้ามเนื้อ",
+       trend:"คลิปตรวจกำลังกล้ามเนื้อให้บอกชื่อกล้ามเนื้อ + nerve root (± grade) ออกแทบทุกรุ่นตั้งแต่ MDCU68",
+       asked:["คลิป hip flexion ต้านแรงสองข้าง → muscle + root → power ขวา → power ซ้าย","4 clips (great toe dorsiflexion, elbow extension, knee extension, little finger abduction) → muscle + root","2 clips (little finger abduction, knee extension) → muscle + root","Elbow flexion / wrist extension → root level","Ankle plantar flexion / little finger abduction / shoulder abduction → muscle + root","Knee extension / ankle plantar flexion → muscle + main root","Ankle dorsiflexion → muscle → root","รูปตรวจกล้ามเนื้อ 3 ท่า → muscle + spinal level (รูปอ่านยาก)","Myotomes C5–T1 → muscle ที่ใช้ตรวจแต่ละ root (ไม่มีภาพ)","Key muscles video → muscle, nerve, roots (gastrocnemius, ADM, deltoid)","หญิงสูงอายุปวดหลัง hip flexion ซ้ายต้านเต็ม ขวาต้านได้แค่แรงโน้มถ่วง → muscle → grade"],
+       flow:["ดูท่า: ข้อไหน เคลื่อนทิศไหน","บอก muscle → nerve → root","Grade (MRC 0–5) เทียบสองข้าง"],
+       pattern:["<b>ASIA key muscles (upper):</b> C5 elbow flexors (biceps / brachialis; deltoid = shoulder abduction C5, axillary n.) · C6 wrist extensors (ECRL / ECRB, radial n.) · C7 elbow extensors (triceps) · C8 finger flexors (FDP นิ้วกลาง) · T1 little finger abductors (abductor digiti minimi / interossei, ulnar n.; C8–T1)","<b>ASIA key muscles (lower):</b> L2 hip flexors (iliopsoas; L1–L3) · L3 knee extensors (quadriceps, femoral n.; L3–4) · L4 ankle dorsiflexors (tibialis anterior, deep peroneal n.; L4–5) · L5 long toe extensors (extensor hallucis longus) · S1 ankle plantar flexors (gastrocnemius / soleus, tibial n.; S1–2)","<b>MRC grading:</b> 0 ไม่ขยับ · 1 กล้ามเนื้อกระตุก (flicker) · 2 ขยับได้เมื่อตัดแรงโน้มถ่วง · 3 ต้านแรงโน้มถ่วงได้ แต่ไม่ต้านแรงผู้ตรวจ · 4 ต้านแรงได้บางส่วน · 5 ปกติ","ตัวอย่าง: ยกเข่าต้านแรงโน้มถ่วงได้แต่ต้านมือผู้ตรวจไม่ได้ = 3 · ต้านได้แต่อ่อนกว่าปกติ = 4","บีบน่องแล้วเท้าจิกลง = Thompson (Simmonds) test ตรวจ Achilles tendon"],
+       kw:["C5 elbow flexors / deltoid","C6 wrist extensors","C7 elbow extensors (triceps)","C8 finger flexors (FDP)","T1 little finger abductors (ADM)","L2 hip flexors (iliopsoas)","L3 knee extensors (quadriceps)","L4 ankle dorsiflexors (tibialis anterior)","L5 EHL","S1 ankle plantar flexors (gastrocnemius)","MRC grade 0–5"],
+       pearls:["สับสน grade 3 กับ 4 — grade 3 ไม่ต้านแรงผู้ตรวจเลย","MDCU72 RoB คลังแก้รูป 2 จาก knee extension เป็น hip flexion (ผู้ตรวจกดที่ต้นขาส่วนปลายขณะนั่ง) — ดูว่าผู้ตรวจต้านที่ส่วนไหน","ตำราบางเล่มให้ quadriceps L4 — ASIA ใช้ L3; ADM ใน myotome = T1 (C8–T1)"],
+       members:["MDCU78|RoB|MEQ 10#1","MDCU78|RoB|MEQ 10#2","MDCU78|RoB|MEQ 10#3","MDCU77|RoB|MEQ 12#1","MDCU77|RoD|MEQ 2#1","MDCU76|RoC|MEQ 8#2","MDCU76|RoC|MEQ 8#3","MDCU76|RoD|MEQ 1#1","MDCU76|RoD|MEQ 1#2","MDCU76|RoD|MEQ 1#3","MDCU75|RoC|MEQ 10#1","MDCU75|RoC|MEQ 10#2","MDCU74|RoD|MEQ 4#1","MDCU74|RoD|MEQ 4#2","MDCU73|RoB|MEQ 7#1","MDCU73|RoB|MEQ 7#2","MDCU72|RoB|MEQ 11#1","MDCU72|RoC|MEQ 6#1","MDCU70|RoC|MEQ 5#1","MDCU69|RoC|MEQ 5#1","MDCU68|RoB|MEQ 9#1"]},
+      {id:"parinaud",
+       title:"Parinaud (dorsal midbrain) syndrome — upgaze palsy + light-near dissociation, pineal region tumor",
+       trend:"คลิป / ภาพ 9 ทิศ ผู้ป่วยมองขึ้นไม่ได้ ม่านตาไม่หดต่อแสง ออกแทบทุกรุ่น ถาม describe → Dx → ตำแหน่งรอยโรค + สาเหตุ",
+       asked:["Video: มองขึ้นไม่ได้ light reflex หาย → Dx → most likely cause","Eye movements 9 positions of gaze → describe abnormal findings → Dx","Clip: cannot look up, pupils react poorly (คลิปจบก่อน near test) → Dx → lesion site + common cause","Video → describe → Dx → lesion + common surgical cause","Video ophthalmology dorsal midbrain syndrome → describe → Dx + likely cause"],
+       flow:["บรรยาย: vertical (upward) gaze palsy — แนวราบ / มองลงปกติ","รูม่านตา: ไม่หดต่อแสง แต่หดเมื่อมองใกล้ (light-near dissociation)","อาการร่วม: convergence-retraction nystagmus, eyelid retraction (Collier sign), setting-sun sign (เด็ก)","Dx: Parinaud (dorsal midbrain) syndrome","Lesion + cause + work-up"],
+       pattern:["<b>Findings:</b> upgaze palsy (ผู้ป่วยย่นหน้าผากพยายามมองขึ้นแต่ลูกตาไม่ขึ้นเหนือแนวกลาง) · <b>light-near dissociation</b> · convergence-retraction nystagmus เมื่อพยายามมองขึ้น · eyelid retraction (Collier sign) · setting-sun sign ในเด็ก (hydrocephalus)","<b>Lesion:</b> dorsal midbrain — pretectal area, superior colliculus, posterior commissure (ใกล้ rostral interstitial nucleus of MLF) · pupillary light reflex ใช้ pretectal nucleus จึงเสียร่วม","<b>สาเหตุ:</b> <b>pineal region tumor</b> (germinoma ในเด็ก / วัยรุ่นชาย, pineoblastoma) กด dorsal midbrain + aqueduct → obstructive hydrocephalus (ปวดหัว อาเจียน papilledema) · hydrocephalus (aqueductal stenosis, shunt malfunction) · midbrain stroke / hemorrhage (ผู้สูงอายุ) · MS · trauma","<b>Work-up / Rx:</b> MRI brain + tumor markers (β-hCG, AFP) ในเลือด / CSF · hydrocephalus → endoscopic third ventriculostomy / VP shunt · germinoma ไวต่อ radiotherapy · biopsy / resection ตามชนิด","DDx light-near dissociation อื่น: Argyll Robertson pupil (neurosyphilis), Adie tonic pupil"],
+       kw:["vertical (upward) gaze palsy","light-near dissociation","convergence-retraction nystagmus","eyelid retraction (Collier sign)","Parinaud (dorsal midbrain) syndrome","pretectal area / posterior commissure","pineal region tumor (germinoma)","obstructive hydrocephalus"],
+       ddx:["abducens (CN VI) palsy","oculomotor (CN III) palsy","progressive supranuclear palsy","Argyll Robertson pupil"],
+       pearls:["คีย์เก่า MDCU67 RoD มีสองคำตอบ — ลายมือแดงตอบ abducens nerve palsy, ตัวพิมพ์ตอบ Parinaud; ภาพคือ upgaze palsy = Parinaud","บอกแค่ ‘pinealoma’ ได้ แต่ควรระบุ germinoma / hydrocephalus ด้วย"],
+       members:["MDCU67|RoB|MEQ 12#1","MDCU67|RoB|MEQ 12#2","MDCU67|RoD|PPT 7#1","MDCU67|RoD|PPT 7#2","MDCU78|RoA|MEQ 6#1","MDCU78|RoA|MEQ 6#2","MDCU78|RoC|MEQ 9#1","MDCU78|RoC|MEQ 9#2","MDCU77|RoD|MEQ 1#1","MDCU77|RoD|MEQ 1#2","MDCU77|RoD|MEQ 1#3","MDCU74|RoA|SEQ 5#1","MDCU74|RoA|SEQ 5#2","MDCU71|RoA|MEQ 10#1","MDCU70|RoB|MEQ 9#1"]},
+      {id:"head-injury-edh",
+       title:"Head injury: GCS ต่อเนื่อง, signs ของ herniation และ epidural hematoma บน CT",
+       trend:"โจทย์ข้อความ head injury ให้คิด GCS สองรอบ → signs → CT ที่คาด ออกเกือบทุกรุ่น MDCU68–77 (MDCU77 ให้ CT จริง)",
+       asked:["ชาย 25 ปี ถูกมอเตอร์ไซค์ชน หมดสติ 5 นาที ตื่นพูดปกติแล้วซึม E2M2V1 pupil ซ้าย 4 mm non-reactive hemiparesis ขวา + CT → describe → Dx","แผลขมับขวา ลืมตาเมื่อเรียก พูดสับสนบ้าง ทำตามสั่ง → GCS → ต่อมาซึม incomprehensible decerebrate ซ้าย flexion ขวา → GCS → signs อื่น → CT","Head injury scenario (2 ช่วง) → GCS → signs → CT","GCS ตอนแรก / หลังแย่ลง → CT","Serial GCS (4 ข้อย่อย) → signs → CT ที่คาด (ไม่มีรูป)","หมดสติ 5 นาที → GCS → neurological signs"],
+       flow:["คิด GCS ทีละ component (ใช้ best response)","บอก deterioration (ลด ≥ 2) → GCS ≤ 8 intubate","Signs: lucid interval, ipsilateral dilated pupil, contralateral hemiparesis, Cushing","CT: biconvex hyperdense ไม่ข้าม suture + mass effect","Rx: emergency craniotomy"],
+       pattern:["<b>GCS:</b> E 4 spontaneous / 3 to voice / 2 to pain / 1 none · V 5 oriented / 4 <b>confused</b> / 3 inappropriate words / 2 incomprehensible sounds / 1 none · M 6 obeys / 5 localizes / 4 <b>withdrawal (normal flexion)</b> / 3 abnormal flexion (decorticate) / 2 extension (decerebrate) / 1 none · ใช้ <b>best motor response</b> (ข้างที่ดีกว่า) · intubated ใส่ ‘T’","ตัวอย่าง: ลืมตาเมื่อเรียก + พูดสับสนบางคำ + ทำตามสั่ง = E3V4M6 = 13 · ลืมตาเมื่อเจ็บ + incomprehensible + decerebrate ซ้าย / flexion ขวา = E2V2M4 = 8 (ถ้า flexion เป็น decorticate = M3) · GCS ลด ≥ 2 = deterioration · ≤ 8 → intubate","<b>Signs:</b> lucid interval แล้วซึมลง (EDH) · <b>ipsilateral dilated non-reactive pupil (CN III — uncal / transtentorial herniation)</b> · <b>contralateral hemiparesis</b> · Cushing response (HT, bradycardia, irregular breathing) · ↑ICP: ปวดหัว อาเจียน papilledema, CN VI palsy, seizure · basal skull fracture: raccoon eyes, Battle sign, CSF rhinorrhea / otorrhea, hemotympanum","<b>CT EDH:</b> hyperdense <b>biconvex (lentiform)</b> extra-axial collection ระหว่างกะโหลกกับ dura <b>ไม่ข้าม suture line</b> (dura ยึดแน่นที่ suture) ± temporal skull fracture (middle meningeal artery) ± mass effect / midline shift · SDH = crescent ข้าม suture ได้","<b>Rx:</b> ABC, รักษา ICP → <b>emergency craniotomy + evacuation</b>"],
+       kw:["GCS E–V–M with best motor response","confused = V4; withdrawal = M4; decorticate = M3; decerebrate = M2","deterioration (drop ≥ 2), GCS ≤ 8 → intubate","lucid interval","ipsilateral fixed dilated pupil (uncal herniation)","contralateral hemiparesis","Cushing triad","biconvex (lentiform) hyperdensity not crossing sutures = epidural hematoma","emergency craniotomy"],
+       ddx:["acute subdural hematoma","intracerebral contusion","diffuse axonal injury"],
+       pearls:["คีย์เก่า MDCU75 RoD ให้ V5 ทั้งที่ ‘สับสนบางคำถาม’ — confused = V4 → GCS แรก 13 ไม่ใช่ 14","ใช้ motor ข้างที่แย่กว่า = ผิด (ต้อง best)","flexion ต่อความเจ็บถ้าโจทย์ไม่บอกว่า abnormal ให้ถือเป็น withdrawal M4 — MDCU69 RoA คลังตีความเป็น M3 ระบุเหตุผลในคำตอบ"],
+       members:["MDCU77|RoA|MEQ 1#1","MDCU77|RoA|MEQ 1#2","MDCU75|RoD|MEQ 1#1","MDCU75|RoD|MEQ 1#2","MDCU75|RoD|MEQ 1#3","MDCU75|RoD|MEQ 1#4","MDCU72|RoD|MEQ 9#1","MDCU72|RoD|MEQ 9#2","MDCU72|RoD|MEQ 9#3","MDCU71|RoB|MEQ 8#1","MDCU71|RoB|MEQ 8#2","MDCU69|RoA|MEQ 6#1","MDCU69|RoA|MEQ 6#2","MDCU69|RoA|MEQ 6#3","MDCU69|RoA|MEQ 6#4","MDCU68|RoC|MEQ 5#1"]},
+      {id:"reflexes-babinski",
+       title:"Babinski sign และ deep tendon reflex (brachioradialis C5–6)",
+       trend:"คลิป / ภาพเคาะ distal radius และขีดฝ่าเท้าออก MDCU75–78 ถามชื่อ reflex → root → แปลผล Babinski",
+       asked:["ภาพเท้า: ขีดฝ่าเท้าด้านข้างแล้วนิ้วโป้งกระดกขึ้น → name the test + result → what lesion","คลิปเคาะ distal radius ~5 cm เหนือข้อมือ ศอกงอ → which reflex → which root","Picture 1 reflex → root → picture 2 reflex → describe + interpret","Plantar response dorsiflexion → indicates what","เคาะ distal radius → muscle → root"],
+       flow:["บอกชื่อ reflex + วิธีเคาะ / ขีด","Root","ผล + แปลผล (UMN vs ปกติ)"],
+       pattern:["<b>Plantar reflex (Babinski test):</b> ขีดฝ่าเท้าด้านนอกจากส้นขึ้นไปแล้วโค้งเข้าหาฐานนิ้วโป้งด้วยของทู่ · ปกติผู้ใหญ่ = flexor (นิ้วงอลง) · <b>นิ้วโป้งกระดกขึ้น ± นิ้วอื่นกาง (fanning) = extensor plantar response (Babinski positive) = upper motor neuron lesion</b> (corticospinal tract — cortex, internal capsule, brainstem, spinal cord) · ปกติในทารก &lt; 1–2 ปี · Chaddock = ขีดด้านข้างข้อเท้า","UMN signs อื่น: spasticity, hyperreflexia, clonus, pyramidal weakness","<b>Brachioradialis (supinator) reflex:</b> เคาะ distal radius ~5 cm เหนือข้อมือ แขน semiprone → ศอกงอ · <b>C5–C6</b> (C6 เด่น, radial n.) · inverted supinator reflex (นิ้วงอแทน) = รอยโรค C5–6","Reflex roots: biceps C5–6 · brachioradialis C5–6 · triceps C7 · knee L3–4 · ankle S1"],
+       kw:["plantar reflex (Babinski test)","extensor plantar response = upper motor neuron lesion (corticospinal tract)","normal in infants &lt; 1–2 years","brachioradialis (supinator) reflex — C5–C6 (radial nerve)","biceps C5–6, triceps C7, knee L3–4, ankle S1"],
+       pearls:["ตอบ ‘Babinski positive’ แต่ไม่แปลว่า UMN = ไม่ครบ","สับสน brachioradialis กับ biceps reflex (biceps เคาะที่ข้อพับศอก)"],
+       members:["MDCU78|RoA|MEQ 5#1","MDCU78|RoA|MEQ 5#2","MDCU78|RoB|MEQ 11#1","MDCU78|RoB|MEQ 11#2","MDCU78|RoC|MEQ 8#1","MDCU78|RoC|MEQ 8#2","MDCU77|RoA|MEQ 2#1","MDCU77|RoA|MEQ 2#2","MDCU77|RoA|MEQ 2#3","MDCU77|RoA|MEQ 2#4","MDCU76|RoC|MEQ 8#1","MDCU75|RoC|MEQ 11#1","MDCU75|RoC|MEQ 11#2"]},
+      {id:"ich-lobar",
+       title:"Lobar intracerebral hemorrhage ในผู้สูงอายุ — ABC/2 volume, สาเหตุ (CAA)",
+       trend:"ถามครั้งเดียว (MDCU77 RoC)",
+       asked:["หญิง 70 ปี เวียนหัว 3 ชม. GCS 15 ไม่มี deficit ไม่มีโรคประจำตัว CT hematoma 40 × 30 mm สูง 30 mm → Dx → estimate volume → 2 most likely causes"],
+       flow:["Dx: acute lobar ICH + ตำแหน่ง + ข้าง","ABC/2","สาเหตุตามตำแหน่ง"],
+       pattern:["<b>Dx:</b> acute intracerebral (intraparenchymal) hemorrhage, left occipital lobe (lobar) — ด้านขวาของภาพ = ซีกซ้ายผู้ป่วย","<b>ABC/2</b> (cm): A, B = เส้นผ่านศูนย์กลางตั้งฉากบน axial ที่ใหญ่สุด, C = ความสูง → (4 × 3 × 3) / 2 = <b>18 mL</b> · ICH score: volume ≥ 30 mL = 1 คะแนน","<b>สาเหตุ:</b> lobar ICH ในผู้สูงอายุไม่มี HT → <b>cerebral amyloid angiopathy</b> · hypertensive ICH ชอบ deep (putamen, thalamus, pons, cerebellum) · อื่น: AVM, tumor, anticoagulant"],
+       kw:["lobar intracerebral hemorrhage","ABC/2 = 18 mL","cerebral amyloid angiopathy","hypertensive hemorrhage (deep locations)"],
+       ddx:["hemorrhagic transformation of infarct","tumor bleed","AVM"],
+       members:["MDCU77|RoC|MEQ 7#1","MDCU77|RoC|MEQ 7#2","MDCU77|RoC|MEQ 7#3"]},
+      {id:"post-traumatic-cns-infection",
+       title:"ไข้ ปวดหัว ซึม 2 สัปดาห์หลัง compound depressed skull fracture — subdural empyema / brain abscess",
+       trend:"ถามครั้งเดียว (MDCU77 RoC)",
+       asked:["ชาย 30 ปี ซึม ปวดหัว ไข้ กลัวแสง 2 สัปดาห์หลังแผลศีรษะ 5 cm มี bony step-off รักษาแค่ทำแผล → DDx → most common pathogen → investigation"],
+       flow:["DDx post-traumatic intracranial infection","เชื้อ","Imaging (ไม่ LP ก่อน)"],
+       pattern:["<b>DDx:</b> subdural empyema, epidural abscess, brain abscess, bacterial meningitis, osteomyelitis of skull — จาก compound depressed skull fracture ที่ไม่ได้ debride","<b>เชื้อ (post-traumatic / post-op):</b> <b>Staphylococcus aureus</b> · sinogenic / otogenic: Streptococcus (milleri), anaerobes","<b>Ix:</b> <b>contrast-enhanced MRI brain</b> (DWI restricted diffusion ใน empyema / abscess) หรือ CT with contrast ถ้าด่วน · CBC, hemoculture · <b>ห้าม LP ก่อน imaging</b> (mass effect)","บทเรียน: compound depressed skull fracture ต้อง debride + elevate fragment + antibiotics ไม่ใช่ทำแผลอย่างเดียว"],
+       kw:["subdural empyema / epidural abscess / brain abscess","compound depressed skull fracture","Staphylococcus aureus","contrast-enhanced MRI brain","no lumbar puncture before imaging"],
+       members:["MDCU77|RoC|MEQ 14#1","MDCU77|RoC|MEQ 14#2","MDCU77|RoC|MEQ 14#3"]}
+    ]},
+    {title:"Skin tumours & subcutaneous lumps", sections:[
+      {id:"melanoma",
+       title:"Malignant melanoma (รวม acral / subungual และบนใบหน้า) — ABCDE, excisional biopsy → WLE ตาม Breslow + SLNB",
+       trend:"ภาพไฝดำขอบไม่เรียบออกเกือบทุกรุ่น ทั้งที่ฝ่าเท้า ใต้เล็บ จมูก แก้ม ถาม Dx → การรักษา (margin ตาม Breslow) บางปีถามบรรยาย / risk factors",
+       asked:["Pigmented skin lesion → one diagnosis → treatment","Describe the lesion (ABCDE) → risk factors","หญิง 45 ปี ปื้นดำที่ฝ่าเท้า 4 สัปดาห์ → Dx → definitive treatment","ไฝดำโตเร็วบนใบหน้า / จมูกผู้สูงอายุ → Dx → definitive treatment (Mohs vs WLE)","รอยดำใต้เล็บลามถึง nail fold → describe → examination → cause / management","ไฝที่เท้าหลายเดือน (likely melanoma) → management ละเอียด"],
+       flow:["บรรยายตาม ABCDE + ตำแหน่ง (acral / subungual / face) ± ulceration, satellite","Dx malignant melanoma (ระบุชนิด: acral lentiginous / lentigo maligna / superficial spreading / nodular)","ตรวจ regional LN, in-transit nodules","Excisional biopsy 1–3 mm (ไม่ shave)","WLE ตาม Breslow + SLNB ตามเกณฑ์ → reconstruction → adjuvant ตาม stage"],
+       pattern:["<b>ABCDE:</b> Asymmetry · Border irregular / notched · Color variegated (ดำ น้ำตาล น้ำเงิน แดง ขาว) · Diameter &gt; 6 mm · Evolving (โตเร็ว เปลี่ยนสี เลือดออก) ± ulceration","<b>ชนิด:</b> คนไทย / เอเชีย พบ <b>acral lentiginous</b> (ฝ่ามือ ฝ่าเท้า ใต้เล็บ) มาก — ไม่สัมพันธ์แสงแดด · ใบหน้าผู้สูงอายุ = lentigo maligna melanoma · คนผิวขาวพบ superficial spreading มากสุด · <b>Hutchinson sign</b> = สีลามถึง nail fold (subungual melanoma)","<b>Risk factors:</b> UV (sunburn วัยเด็ก, tanning), ผิวขาว Fitzpatrick I–II, nevi จำนวนมาก / dysplastic nevi, giant congenital nevus (&gt; 20 cm), ประวัติครอบครัว / เคยเป็น (CDKN2A), xeroderma pigmentosum, immunosuppression · acral: trauma / แรงกดซ้ำ","<b>Biopsy:</b> excisional biopsy full-thickness margin 1–3 mm เพื่อวัด <b>Breslow thickness</b> (ปัจจัยพยากรณ์สำคัญสุด) · ห้าม shave · รอยโรคใหญ่บนหน้า / ใต้เล็บ → incisional / punch ส่วนที่หนาสุด / nail matrix biopsy","<b>WLE margin (NCCN):</b> in situ 0.5–1 cm · ≤ 1 mm 1 cm · 1–2 mm 1–2 cm · &gt; 2 mm 2 cm · ใบหน้า / lentigo maligna → staged excision หรือ Mohs เพื่อเก็บเนื้อเยื่อ · subungual → amputation ระดับนิ้ว (IP / MTP)","<b>SLNB:</b> Breslow ≥ 0.8 mm หรือมี ulceration (≥ T1b) · SLN บวก → ไม่ทำ completion LND เป็น routine (MSLT-II, DeCOG-SLT) ใช้ nodal US surveillance + adjuvant · LN คลำได้ / FNA บวก → therapeutic lymph node dissection (NCCN ปัจจุบันพิจารณา neoadjuvant immunotherapy ก่อนผ่าตัด) · stage III → adjuvant immunotherapy (anti-PD-1) หรือ BRAF / MEK inhibitor (BRAF-mutant) · staging CT / PET ในระยะสูง","ปิดแผล: skin graft / local flap (จมูก: bilobed, nasolabial, forehead flap)"],
+       kw:["ABCDE (asymmetry, border, color, diameter &gt; 6 mm, evolving)","acral lentiginous melanoma (sole / subungual)","Hutchinson sign","excisional biopsy with 1–3 mm margin, no shave","Breslow thickness","wide local excision: in situ 0.5–1 cm, ≤ 1 mm 1 cm, 1–2 mm 1–2 cm, &gt; 2 mm 2 cm","sentinel lymph node biopsy (≥ 0.8 mm or ulcerated)","Mohs / staged excision for lentigo maligna on the face","digit amputation for subungual melanoma"],
+       ddx:["pigmented BCC","seborrheic keratosis","dysplastic nevus","subungual hematoma (เลื่อนตามเล็บ มีประวัติกระแทก)","acral nevus"],
+       pearls:["คีย์เก่า MDCU70 RoC ให้ margin 2–5 cm — แนวทางปัจจุบันไม่เกิน 2 cm ตาม Breslow","คีย์ MDCU77 RoB และ MDCU69 / MDCU75 ตอบ Mohs — ใช้ได้กับ lentigo maligna บนใบหน้า แต่คำตอบหลักคือ excisional biopsy → WLE ตาม Breslow ± SLNB","ตอบ wide excision ทันทีโดยไม่ biopsy ก่อน / ทำ shave biopsy = เสียคะแนน","MDCU68 RoB รอยดำที่จมูก คีย์ตอบ melanoma — ต้องแยก pigmented BCC ด้วย biopsy"],
+       members:["MDCU67|RoD|PPT 4#1","MDCU67|RoD|PPT 4#2","MDCU65|RoC|PPT 2#1","MDCU65|RoC|PPT 2#2","MDCU78|RoB|MEQ 9#1","MDCU78|RoB|MEQ 9#2","MDCU77|RoA|MEQ 8#1","MDCU77|RoA|MEQ 8#2","MDCU77|RoB|MEQ 13#1","MDCU77|RoB|MEQ 13#2","MDCU75|RoC|MEQ 6#1","MDCU75|RoC|MEQ 6#2","MDCU74|RoD|MEQ 5#1","MDCU74|RoD|MEQ 5#2","MDCU74|RoD|MEQ 5#3","MDCU72|RoD|MEQ 6#1","MDCU71|RoA|MEQ 11#1","MDCU70|RoC|MEQ 2#1","MDCU69|RoA|MEQ 10#1","MDCU68|RoB|MEQ 3#1","MDCU68|RoB|MEQ 1#1"]},
+      {id:"bcc",
+       title:"Basal cell carcinoma ของใบหน้า (H-zone) — ลักษณะ, biopsy, 4-mm excision vs Mohs",
+       trend:"ภาพตุ่มมันวาวขอบม้วนที่ข้างจมูก / หัวตา / แก้ม / เปลือกตาออกเกือบทุกรุ่น ถาม Dx + เหตุผล → treatment (Mohs สำหรับใบหน้า) → หลังตัดต้องทำอะไร",
+       asked:["Facial skin lesion ใกล้หัวตา → Dx with reasons → management","ก้อนข้างปีกจมูกชาวนา 68 ปี → most likely Dx + main DDx → management","Pearly nodule ผู้สูงอายุ → how to treat → หลังตัดต้องทำอะไรต่อ","Pearly rolled-edge nodule nasolabial + central ulcer → Dx → treatment","ก้อนดำโตช้าบนแก้มผู้สูงอายุ → Dx (pigmented BCC) → treatment","ก้อนดำผิวขรุขระที่ขอบเปลือกตา → treatment"],
+       flow:["บรรยาย: pearly / translucent nodule, rolled border, telangiectasia ± central ulcer (rodent ulcer) บนบริเวณโดนแดด","Dx BCC (nodular / pigmented) + DDx SCC, melanoma","Biopsy ยืนยัน","จัด risk (H-zone, ขนาด, ขอบ, subtype, recurrent)","Low-risk: excision 4 mm · High-risk / ใบหน้า: Mohs","ส่งชิ้นเนื้อดู margin + ติดตาม + กันแดด"],
+       pattern:["<b>BCC</b> = มะเร็งผิวหนังที่พบบ่อยสุด โตช้า ทำลายเฉพาะที่ แพร่กระจายน้อยมาก · ผู้สูงอายุ ผิวโดนแดด ใบหน้าส่วนกลาง","<b>ลักษณะ (nodular):</b> pearly / translucent papule–nodule, rolled border, telangiectasia บนผิว ± central ulcer (rodent ulcer) · คนไทยมักเป็น <b>pigmented BCC</b> (ต้องแยก melanoma) · morpheaform / infiltrative = ขอบไม่ชัด aggressive","<b>High-risk (NCCN):</b> H-zone ของใบหน้า (central face, เปลือกตา, จมูก, ริมฝีปาก, คาง, หู, รอบหู), ขนาดใหญ่, ขอบไม่ชัด, recurrent, aggressive subtype, immunosuppression, เคยฉายรังสี","<b>Rx:</b> biopsy (punch / shave / incisional) ยืนยันก่อน · low-risk → surgical excision clinical margin ~4 mm (± curettage & electrodesiccation) · <b>high-risk / ใบหน้า → Mohs micrographic surgery</b> (ตรวจขอบทันที เก็บเนื้อดีได้มาก recurrence ต่ำสุด) หรือ excision with complete margin assessment / frozen section · ปิดด้วย primary closure / local flap / graft (เปลือกตา → eyelid reconstruction)","ผ่าตัดไม่ได้: radiotherapy · superficial BCC: imiquimod / 5-FU, cryotherapy · locally advanced / metastatic: hedgehog inhibitor (vismodegib)","<b>หลังตัด:</b> ส่งชิ้นเนื้อ (ผูกไหมระบุทิศ) ยืนยันชนิดและ margin → margin บวก → re-excision / Mohs / RT · ติดตามผิวหนังทุก 6–12 เดือน · กันแดด · BCC ไม่ต้องตรวจ LN routine (ต่างจาก SCC)"],
+       kw:["pearly translucent nodule","rolled (raised) border","telangiectasia","rodent ulcer","sun-exposed H-zone of the face","biopsy to confirm","excision with 4-mm margin (low-risk)","Mohs micrographic surgery (high-risk / face)","histopathology for margins","sun protection, follow-up"],
+       ddx:["cutaneous SCC","keratoacanthoma","malignant melanoma (pigmented lesion)","sebaceous hyperplasia","seborrheic keratosis"],
+       pearls:["ไม่ต้องเห็นมันวาวทุกราย — ขอบเขตชัดบนใบหน้าส่วนกลางยังนึก BCC ก่อน (MDCU65 RoB ผู้จดลังเล BCC / SCC)","ลืมส่งชิ้นเนื้อดู margin หลังตัด (คำตอบหลักของคำถาม ‘หลังตัดต้องทำอะไร’)","ตอบ wide excision 1–2 cm แบบ melanoma = เกินจำเป็น"],
+       members:["MDCU67|RoB|MEQ 8#1","MDCU67|RoB|MEQ 8#2","MDCU65|RoB|PPT 7#1","MDCU65|RoC|PPT 8#1","MDCU65|RoC|PPT 8#2","MDCU78|RoC|MEQ 12#1","MDCU78|RoC|MEQ 12#2","MDCU77|RoD|MEQ 15#1","MDCU77|RoD|MEQ 15#2","MDCU71|RoA|MEQ 2#1","MDCU68|RoB|MEQ 1#1"]},
+      {id:"epidermoid-cyst",
+       title:"Infected epidermoid (sebaceous) cyst, furuncle และ carbuncle",
+       trend:"ภาพก้อนใต้ผิวหนังเดิมนานแล้วแดงร้อนเฉียบพลันออกซ้ำหลายรุ่น (แขน ขา ใบหู) + carbuncle ต้นคอในเบาหวาน ถาม Dx → management → เชื้อ",
+       asked:["ก้อนที่ขา 3 เดือน 3 วันหลังปวดบวมแดงร้อน → Dx → management → common organisms","Red lump on the arm → describe → Dx","ตุ่มเล็กที่ใบหูผู้สูงอายุ → Dx → treatment (inclusion cyst; ต้องคิด BCC)","ก้อนแขน 3 เดือนแล้วอักเสบ 3 วัน → Dx (furuncle vs infected cyst) → management","ผู้ป่วยเบาหวานมีไข้ + รอยโรคหลายหัวหนองที่ต้นคอ → Dx → pathogen → management"],
+       flow:["บรรยายก้อน: dome-shaped, central punctum, แดงร้อน fluctuation ± cellulitis","Dx + DDx (furuncle / carbuncle / abscess)","ระยะอักเสบ: I&D ± antibiotics","หลังยุบ: complete excision ผนัง cyst","เชื้อ: S. aureus"],
+       pattern:["<b>Epidermoid (epidermal inclusion / ‘sebaceous’) cyst:</b> ก้อนกลมในชั้นผิวหนัง ขอบชัด มี <b>central punctum</b> ภายในเป็น keratin (ขาวเหลวเหมือนเนย) ผนัง stratified squamous epithelium · ประวัติก้อนเดิมนานแล้วอักเสบเฉียบพลัน = infected / inflamed cyst (ผนังแตกก็อักเสบได้แม้ไม่ติดเชื้อ)","<b>ระยะอักเสบ:</b> incision and drainage (มี fluctuation) ระบายหนอง / keratin ล้าง packing · ประคบอุ่น ยาแก้ปวด · antibiotics เมื่อมี cellulitis รอบ, อาการ systemic, DM / ภูมิต่ำ (dicloxacillin / cloxacillin, cephalexin; สงสัย MRSA → clindamycin / TMP-SMX) · <b>ไม่ตัดถุงขณะอักเสบ</b> (ผนังเปื่อย ตัดไม่หมด แผลแยก)","<b>หลังหายอักเสบ ~4–6 สัปดาห์:</b> elective complete excision เอาผนังถุง + punctum ออกทั้งหมด (เหลือผนัง = กลับเป็นซ้ำ) ส่งพยาธิ · ตุ่มที่ใบหูผู้สูงอายุ ต้องแยก BCC / chondrodermatitis nodularis helicis → excision ส่งตรวจ","<b>เชื้อ:</b> Staphylococcus aureus (บ่อยสุด รวม MRSA) · Streptococcus (GAS) · ใกล้ฝีเย็บ / รักแร้อาจมี anaerobe / gram-negative","<b>Furuncle</b> = ติดเชื้อรูขุมขนลึกเป็นฝี (ไม่มีก้อนนำมาก่อนนาน) · <b>Carbuncle</b> = furuncle หลายอันรวมกัน หลายรูหนอง ลามใน subcutaneous พบที่ต้นคอ / หลังในเบาหวาน → surgical drainage (cruciate incision / excision เนื้อตาย saucerization, packing) + IV anti-staph antibiotics (cloxacillin / cefazolin; MRSA → vancomycin) + คุมน้ำตาล ดู sepsis"],
+       kw:["central punctum","infected epidermoid (sebaceous) cyst","incision and drainage","antibiotics if cellulitis / DM / systemic signs","complete excision of the cyst wall after inflammation subsides (4–6 weeks)","Staphylococcus aureus, Streptococcus","carbuncle: multiple draining sinuses → cruciate incision / excision + IV antibiotics + glucose control"],
+       ddx:["furuncle / carbuncle","skin abscess","lipoma","BCC (ใบหู / ใบหน้าผู้สูงอายุ)","dermoid cyst"],
+       pearls:["ตัดถุงทั้งก้อนตอนอักเสบ = ตอบผิดลำดับ","ประวัติก้อนเดิมหลายเดือนช่วยแยก infected cyst จาก furuncle (คีย์เก่า MDCU68 RoC ตอบ furuncle)","carbuncle ใหญ่ / มีเนื้อตาย — ยาอย่างเดียวไม่พอ"],
+       members:["MDCU67|RoB|MEQ 11#1","MDCU67|RoB|MEQ 11#2","MDCU67|RoB|MEQ 11#3","MDCU67|RoD|PPT 10#1","MDCU67|RoD|PPT 10#2","MDCU66|RoA|PPT 14#1","MDCU66|RoA|PPT 14#2","MDCU71|RoA|MEQ 6#1","MDCU68|RoC|MEQ 6#1","MDCU77|RoD|MEQ 6#1","MDCU77|RoD|MEQ 6#2","MDCU77|RoD|MEQ 6#3"]},
+      {id:"lipoma",
+       title:"Lipoma — Dx, ข้อบ่งชี้ผ่าตัด, red flags ของ liposarcoma",
+       trend:"ภาพก้อนนิ่มใต้ผิวหนังโตช้าที่แขน / หลัง ออกช่วง MDCU70–73 ถาม Dx → management / ข้อบ่งชี้ผ่าตัด → ชื่อผ่าตัด",
+       asked:["ก้อนนุ่มที่แขนโตช้า 5 ปี → Dx → management","ก้อนนิ่มที่หลัง 3 เดือน → Dx → indications for surgery → name the operation","Dx และชื่อการรักษา"],
+       flow:["บรรยาย: ก้อนนุ่ม lobulated ขอบชัด เคลื่อนได้ ไม่ติดผิว slip sign","Dx lipoma + DDx","ไม่มีอาการ → observe","ข้อบ่งชี้ผ่าตัด + red flags → MRI + core biopsy ก่อน","Excision"],
+       pattern:["<b>Lipoma:</b> ก้อนนุ่ม lobulated ขอบชัด เคลื่อนได้ ไม่ติดผิว (ไม่มี punctum) · slipping sign · โตช้า","<b>Observe</b> ได้ถ้าไม่มีอาการ","<b>ข้อบ่งชี้ผ่าตัด:</b> cosmetic / ผู้ป่วยต้องการ · มีอาการปวด กดเบียด · โตเร็ว · สงสัยมะเร็ง","<b>Red flags (สงสัย liposarcoma / soft-tissue sarcoma):</b> ขนาด &gt; 5 cm, อยู่ลึกใต้ deep fascia, โตเร็ว, เจ็บ, แข็ง / ติดแน่น → <b>MRI + core needle biopsy ก่อนผ่าตัด</b> (ห้าม excise แบบ shell-out)","<b>Operation:</b> excision of lipoma (enucleation / marginal excision) ส่งตรวจพยาธิ"],
+       kw:["soft, lobulated, mobile subcutaneous mass","slip sign, no punctum","observe if asymptomatic","excision (enucleation / marginal excision)","red flags: &gt; 5 cm, deep to fascia, rapid growth, pain, firm → MRI + core biopsy (sarcoma)"],
+       ddx:["epidermoid cyst (มี punctum)","liposarcoma / soft-tissue sarcoma","neurofibroma","hibernoma"],
+       pearls:["ไม่ถามหา red flags ของ sarcoma ก่อนผ่าตัดก้อนใหญ่ / ลึก = จุดเสียคะแนน"],
+       members:["MDCU73|RoB|8#1","MDCU73|RoB|8#2","MDCU72|RoD|MEQ 7#1","MDCU72|RoD|MEQ 7#2","MDCU72|RoD|MEQ 7#3","MDCU70|RoC|MEQ 9#1"]},
+      {id:"cutaneous-scc",
+       title:"Cutaneous SCC และ Marjolin's ulcer (SCC บนแผลเป็นไฟไหม้เก่า)",
+       trend:"ถามเป็นระยะ: แผลเรื้อรังบนแผลเป็นเก่า, ก้อนมี keratin crater ที่จมูก, SCC หนังศีรษะ ถาม describe → Dx / confirm → margin + การปิดแผล",
+       asked:["แผลเรื้อรังที่หน้าแข้งชาวนา 60 ปี บนแผลเป็นไฟไหม้เก่า → describe → most likely Dx + how to confirm","ก้อนขอบยกตรงกลางเป็น keratin crater ที่จมูก → Dx → treatment","SCC หนังศีรษะ (ไม่ถึง galea) → margin ที่ต้องการ → ปิดแผลอย่างไร"],
+       flow:["บรรยายแผลแบบระบบ: ตำแหน่ง ขนาด รูปร่าง ขอบ (everted / rolled) ฐาน discharge ผิวรอบ LN","Dx: SCC / Marjolin's ulcer","ยืนยัน: biopsy จากขอบแผลหลายตำแหน่ง","Wide excision margin + ปิดแผลด้วย graft / flap","ตรวจ regional LN"],
+       pattern:["<b>การบรรยาย ulcer ตามขอบ:</b> sloping = venous / กำลังหาย · punched-out = arterial / ischemic, neuropathic · undermined = TB · rolled / pearly = BCC · <b>everted, indurated = SCC</b>","<b>Marjolin's ulcer:</b> SCC ที่เกิดบนแผลเรื้อรัง / แผลเป็นไฟไหม้เก่า (latency หลายปี) — ขอบนูนม้วนออก แข็ง ฐานยุ่ยเลือดออกง่าย มี necrotic tissue · ยืนยันด้วย incisional / punch biopsy จาก<b>ขอบแผลหลายตำแหน่ง</b> + คลำ inguinal LN (FNA ถ้าโต) · aggressive กว่า SCC ทั่วไป","<b>SCC:</b> ก้อน / แผลมีสะเก็ด keratin โตเร็วกว่า BCC เกิดบน actinic keratosis, ริมฝีปากล่าง, หลังมือ · keratoacanthoma = nodule ขอบยก ตรงกลาง keratin crater โตเร็ว (ถือเป็น SCC จนพิสูจน์)","<b>Margin (NCCN):</b> low-risk 4–6 mm · high-risk ≥ 6 mm หรือ Mohs (ใบหน้า) · ตัดออกเป็นชิ้นเดียว deep margin ใต้รอยโรค · ตรวจ LN คอ / parotid / ขาหนีบ → node บวก → lymph node dissection · ผ่าตัดไม่ได้ → RT","<b>หนังศีรษะ:</b> ยืดหยุ่นน้อย ปิดตรงไม่ได้ → local rotation / transposition flap · STSG ได้ถ้า periosteum ยังอยู่ (เห็นกระโหลกเปลือย → flap)"],
+       kw:["everted indurated edge, friable base","Marjolin's ulcer (SCC in chronic burn scar)","multiple biopsies from the ulcer edge","keratoacanthoma-like crater","wide excision 4–6 mm (low-risk), ≥ 6 mm or Mohs (high-risk)","regional lymph node examination","local rotation flap (scalp); STSG if periosteum intact"],
+       ddx:["BCC","keratoacanthoma","chronic venous / arterial ulcer","amelanotic melanoma"],
+       pearls:["biopsy จากกลางแผล (เนื้อตาย) แทนที่จะเป็นขอบ = ผลลบลวง","ลืมคลำต่อมน้ำเหลือง (SCC กระจายทาง LN ต่างจาก BCC)","MDCU70 RoB คีย์ให้ margin ~1 cm — ใช้ได้กับ high-risk; ตัวเลขมาตรฐานคือ 4–6 mm low-risk, ≥ 6 mm high-risk"],
+       members:["MDCU65|RoA|PPT 5#1","MDCU74|RoA|SEQ 7#1","MDCU74|RoA|SEQ 7#2","MDCU70|RoB|MEQ 10#1","MDCU70|RoB|MEQ 10#2"]},
+      {id:"hemangioma",
+       title:"Infantile hemangioma และรอยโรคแดงนูนบนจมูก",
+       trend:"ถามสองครั้ง: ก้อนนุ่มที่หน้าผากทารกโตขึ้นเรื่อย ๆ และรอยแดงนูนบนสันจมูก (ไม่ทราบอายุ — ตอบแยกตามอายุ)",
+       asked:["6-month-old ก้อนหน้าผากนุ่ม กดยุบ ไม่เต้น ตอนเกิดเล็กเท่าเมล็ดถั่วเขียวแล้วโตขึ้น → Dx → management","Red raised lesions over the nasal dorsum → most likely Dx → treatment"],
+       flow:["ประวัติ: เล็ก / ไม่เห็นตอนเกิด → โตเร็วขวบปีแรก → ยุบช้า ๆ","Dx infantile hemangioma (proliferative phase)","ข้อบ่งชี้รักษา (ตา จมูก ทางเดินหายใจ แผล)","Propranolol / timolol / ติดตาม → แก้ไขหลัง involution"],
+       pattern:["<b>Infantile hemangioma:</b> เล็กหรือไม่เห็นตอนเกิด → โตเร็วถึง ~5–6 เดือน (proliferative) → ยุบช้า ๆ หลายปี (involution) · superficial = แดงสด (strawberry) · deep = นุ่มสีน้ำเงิน","<b>ข้อบ่งชี้รักษา:</b> บดบังการมองเห็น (amblyopia) / ทางเดินหายใจ, แผล / เลือดออก, ตำแหน่งใบหน้าที่เสี่ยงผิดรูป (ปลายจมูก ‘Cyrano nose’, ริมฝีปาก)","<b>Oral propranolol</b> 2–3 mg/kg/วัน (AAP 2019; เริ่ม ~1 mg/kg/วันแล้วปรับขึ้น · ประเมินหัวใจก่อน ระวัง hypoglycemia, bradycardia, bronchospasm; ให้หลังกินนม) · รอยโรคเล็ก superficial → topical timolol · อธิบายธรรมชาติโรคและติดตามขนาด · หลัง involution เหลือ fibrofatty residue → ผ่าตัดแก้ไข","<b>รอยแดงบนสันจมูกในผู้ใหญ่:</b> rhinophyma (rosacea ระยะท้าย — doxycycline / isotretinoin, ผิวหนา → shave / dermabrasion / CO₂ laser) · BCC (biopsy + excision 4 mm / Mohs) · herpes zoster V1 (Hutchinson sign → acyclovir + ตรวจตา)"],
+       kw:["infantile hemangioma, proliferative phase","small at birth, rapid growth in first months, slow involution","oral propranolol 2–3 mg/kg/day (AAP 2019)","topical timolol for small superficial lesions","treat if periocular, airway, ulceration, facial disfigurement"],
+       ddx:["vascular malformation (มีตั้งแต่เกิด โตตามตัว ไม่ยุบ)","congenital hemangioma (RICH / NICH)","pyogenic granuloma","rhinophyma","BCC","herpes zoster"],
+       pearls:["หน้าผาก / ใกล้ตา → ต้องรักษาเพื่อกัน amblyopia ไม่ใช่รอยุบเองอย่างเดียว","MDCU66 RoD ไม่มีข้อมูลอายุ — คลังให้คำตอบแยกตามอายุ (ความมั่นใจต่ำ)"],
+       members:["MDCU77|RoC|MEQ 8#1","MDCU77|RoC|MEQ 8#2","MDCU66|RoD|PPT 4#1"]},
+      {id:"keloid",
+       title:"Keloid vs hypertrophic scar",
+       trend:"ถามครั้งเดียว: แผลถลอกเล็กกลายเป็นแผลเป็นนูนใหญ่เกินขอบเดิม",
+       asked:["แผลถลอก 2 เดือนก่อน ตอนนี้แผลเป็นนูนแข็งลามเกินขอบแผลเดิม → ชื่อรอยโรค → แยกจาก hypertrophic scar อย่างไร"],
+       flow:["Dx keloid","เทียบ keloid กับ hypertrophic scar ทีละด้าน","การรักษา"],
+       pattern:["<b>Keloid:</b> ลามเกินขอบแผลเดิม · เกิดช้า (หลายเดือนหลังแผลหาย) · ไม่ยุบเอง โตต่อ · ตำแหน่งจำเพาะ (ติ่งหู กลางอก ไหล่ หลังบน) · ผิวเข้ม / ประวัติครอบครัว · เป็นซ้ำสูงมากหลังตัดอย่างเดียว (45–100%) · พยาธิ: keloidal collagen มัดหนา hyalinized เรียงไม่เป็นระเบียบ ไม่มี nodule","<b>Hypertrophic scar:</b> อยู่ในขอบแผลเดิม · เกิดเร็ว (สัปดาห์ – 1 เดือน) · ยุบลงเองได้ใน 12–18 เดือน · บริเวณแรงตึง / ข้อพับ / แผลไฟไหม้ · ตอบสนองต่อการแก้แรงตึง (Z-plasty) · พยาธิ: collagen เส้นเล็กขนานผิว มี nodule ของ myofibroblast (α-SMA)","<b>รักษา keloid:</b> intralesional triamcinolone, silicone gel / sheet, pressure garment · ผ่าตัดต้องมี adjuvant (steroid injection หรือ radiotherapy) · ป้องกันในคน keloid-prone: เลี่ยงผ่าตัด / เจาะที่ไม่จำเป็น ลดแรงตึงแผล"],
+       kw:["keloid extends beyond the original wound margin","does not regress, high recurrence after excision alone","hypertrophic scar stays within margins, regresses in 12–18 months","intralesional triamcinolone","silicone sheet, pressure","excision + adjuvant steroid / radiotherapy"],
+       ddx:["hypertrophic scar","dermatofibrosarcoma protuberans"],
+       pearls:["ตอบแค่ ‘เกินขอบแผล’ ข้อเดียวไม่พอสำหรับคะแนนเต็ม ต้องเทียบหลายด้าน (เวลาเกิด การยุบ ตำแหน่ง การกลับเป็นซ้ำ พยาธิ)"],
+       members:["MDCU65|RoB|PPT 10#1","MDCU65|RoB|PPT 10#2"]}
+    ]},
+    {title:"Wounds, reconstruction, pressure injury & soft-tissue infection", sections:[
+      {id:"pressure-injury",
+       title:"Pressure injury (bedsore) — ท่านอน ↔ ปุ่มกระดูก, NPIAP staging, การป้องกัน",
+       trend:"ภาพแผลกดทับในผู้ป่วยติดเตียงออกแทบทุกรุ่น ถามคู่เดิม ‘นอนท่าไหน + กระดูกอะไรอยู่ใต้แผล’ ± stage",
+       asked:["ชาย 29 ปีติดเตียงหลังอุบัติเหตุ + ภาพแผล → Dx → patient mostly lies in which position → which bone beneath","Ulcer over buttock → probable position → bone","Deep ulcer over lateral hip → bony prominence → position","หญิง 86 ปีติดเตียง → detailed Dx (stage) → position → bony prominence","Pressure ulcer → staging + prevention"],
+       flow:["Dx: pressure injury + stage (NPIAP)","ตำแหน่งแผล → ท่า → ปุ่มกระดูก","การป้องกัน / รักษา"],
+       pattern:["<b>ตำแหน่ง ↔ ท่า:</b> sacrum / coccyx (พบบ่อยสุด), ส้นเท้า, occiput (เด็ก), scapula → <b>นอนหงาย (supine)</b> · <b>greater trochanter</b>, lateral malleolus, หู, ไหล่ → <b>นอนตะแคง (lateral decubitus)</b> · <b>ischial tuberosity → นั่ง</b> (รถเข็น)","<b>NPIAP staging:</b> 1 = ผิวแดงกดไม่จาง (non-blanchable erythema, intact) · 2 = partial-thickness เห็น dermis / ตุ่มน้ำ · 3 = full-thickness skin loss เห็นไขมัน (ไม่เห็นกระดูก / เอ็น) · 4 = เห็น / คลำได้กระดูก เอ็น กล้ามเนื้อ · unstageable = slough / eschar คลุม · deep tissue injury = ม่วงคล้ำไม่จาง","<b>ปัจจัยเสี่ยง:</b> ไม่เคลื่อนไหว, sensory loss (SCI), ความชื้น / กลั้นไม่ได้, ทุพโภชนาการ, shear · แรงกดเกิน capillary pressure (~32 mmHg) เป็นเวลานาน","<b>ป้องกัน:</b> พลิกตัวทุก 2 ชม. · ตะแคง 30° (ไม่ใช่ 90° ทับ trochanter) · ยกหัวเตียง ≤ 30° ลด shear ที่ sacrum · ที่นอนลม / ลดแรงกด · ผิวแห้งสะอาด · โภชนาการ","<b>รักษา:</b> offloading · debridement · moist dressing / NPWT · stage 4 ประเมิน osteomyelitis · ปิดด้วย flap (เช่น TFL flap สำหรับ trochanteric, gluteal flap สำหรับ sacral)"],
+       kw:["pressure injury (pressure ulcer / bedsore)","sacrum / coccyx → supine","greater trochanter → lateral decubitus","ischial tuberosity → sitting","NPIAP stage 1–4, unstageable, deep tissue injury","turn every 2 hours, 30° tilt","pressure-redistributing mattress, nutrition, moisture control"],
+       pearls:["ตอบท่าไม่ตรงกับปุ่มกระดูก (เช่น sacrum แต่ตอบ ‘นั่ง’) — ischium คือท่านั่ง","ถาม detailed diagnosis = ต้องบอก stage + ตำแหน่ง"],
+       members:["MDCU66|RoA|PPT 13#1","MDCU66|RoA|PPT 13#2","MDCU66|RoA|PPT 13#3","MDCU65|RoC|PPT 3#1","MDCU65|RoC|PPT 3#2","MDCU78|RoB|MEQ 13#1","MDCU78|RoB|MEQ 13#2","MDCU77|RoA|MEQ 10#1","MDCU77|RoA|MEQ 10#2","MDCU77|RoA|MEQ 10#3","MDCU77|RoC|MEQ 9#1","MDCU77|RoC|MEQ 9#2","MDCU77|RoC|MEQ 9#3","MDCU76|RoD|MEQ 12#1","MDCU76|RoD|MEQ 12#2","MDCU75|RoC|MEQ 5#1","MDCU75|RoC|MEQ 5#2","MDCU72|RoC|MEQ 7#1","MDCU72|RoC|MEQ 7#2","MDCU71|RoA|MEQ 1#1","MDCU70|RoA|MEQ xx#1","MDCU69|RoA|MEQ 5#1","MDCU68|RoC|MEQ 9#1"]},
+      {id:"paronychia",
+       title:"Acute paronychia ± ingrown toenail — สาเหตุ, เชื้อ, การรักษา (ยา + ขนาด)",
+       trend:"ภาพนิ ้วบวมแดงรอบเล็บออกเกือบทุกรุ่น MDCU65–74 ถาม Dx → cause / organism → management (บางปีให้ระบุยาและขนาด)",
+       asked:["Painful toe 2 days → Dx → cause → management","Index finger nail fold บวมมีหนองหลังแกะ hangnail 3 วัน → Dx → treatment","Toe lesion → Dx → 2 most common causes → treatment (ยา + ขนาด)","Diagnosis, most common organism, treatment","Great toe nail fold → describe → Dx (ingrown toenail with paronychia)"],
+       flow:["Dx: acute paronychia (± ingrown toenail / onychocryptosis)","สาเหตุ: minor trauma / ตัดเล็บผิด / รองเท้าคับ + S. aureus, Streptococcus","ยังไม่มีหนอง: warm soak ± oral antibiotic","มีหนอง: I&D ใต้ digital block","ingrown: partial nail avulsion ± matricectomy · คำแนะนำป้องกัน"],
+       pattern:["<b>Acute paronychia</b> = ติดเชื้อ nail fold (lateral / proximal) · สาเหตุ: minor trauma ต่อ cuticle / nail fold — แกะ hangnail, กัดเล็บ, ตัดเล็บสั้น / ตัดมุมลึก (เล็บขบ), รองเท้าคับ · เชื้อ: <b>Staphylococcus aureus</b> (บ่อยสุด) + Streptococcus pyogenes (± anaerobe ในคนดูดนิ้ว / กัดเล็บ)","<b>ยังไม่มีหนอง:</b> แช่น้ำอุ่น 10–15 นาที วันละ 3–4 ครั้ง · ยกสูง · ± topical antibiotic · มี cellulitis → oral anti-staph: <b>dicloxacillin 500 mg qid × 7 วัน</b> หรือ cephalexin 500 mg qid (กัดเล็บ → amoxicillin-clavulanate; สงสัย MRSA → clindamycin / TMP-SMX) · paracetamol 500 mg 1–2 เม็ด prn","<b>มีหนอง:</b> incision and drainage ใต้ digital nerve block (lidocaine ที่โคนนิ้ว) — ยก / กรีด nail fold ขนานเล็บ ไม่ตัดเข้า nail matrix · หนองใต้เล็บ → partial nail removal","<b>Ingrown toenail:</b> partial nail avulsion (wedge resection) ± chemical matricectomy (phenol) กันซ้ำ · สอนตัดเล็บตรง ไม่ตัดมุมลึก ใส่รองเท้าหัวกว้าง","<b>แยก:</b> chronic paronychia (&gt; 6 สัปดาห์, มือเปียกบ่อย, Candida → เลี่ยงความชื้น topical steroid ± antifungal) · felon (pulp ปลายนิ้วตึงปวดตุบ → กรีดระบายด้านข้าง) · herpetic whitlow (ตุ่มน้ำใส → ห้ามกรีด ให้ acyclovir) · DM / PAD ระวังลุกลาม"],
+       kw:["acute paronychia (infection of the nail fold)","ingrown toenail (onychocryptosis)","Staphylococcus aureus, Streptococcus pyogenes","warm soaks 3–4 times / day","dicloxacillin 500 mg qid or cephalexin 500 mg qid","incision and drainage under digital block","partial nail avulsion (wedge resection) ± phenol matricectomy","cut nails straight, wide shoes"],
+       ddx:["felon","herpetic whitlow","chronic (candidal) paronychia","subungual melanoma / SCC"],
+       pearls:["ถูกขอ ‘ชื่อยา + ขนาด’ (MDCU72 RoC) แล้วตอบแค่ ‘antibiotic’ = เสียคะแนน","กรีด herpetic whitlow = ผิด"],
+       members:["MDCU67|RoC|MEQ 12#1","MDCU67|RoC|MEQ 12#2","MDCU67|RoC|MEQ 12#3","MDCU66|RoD|PPT 10#1","MDCU65|RoC|PPT 18#1","MDCU65|RoC|PPT 18#2","MDCU74|RoA|SEQ 1#1","MDCU74|RoA|SEQ 1#2","MDCU72|RoA|MEQ 12#1","MDCU72|RoA|MEQ 12#2","MDCU72|RoA|MEQ 12#3","MDCU72|RoC|MEQ 4#1","MDCU72|RoC|MEQ 4#2","MDCU72|RoC|MEQ 4#3","MDCU72|RoD|MEQ 11#1","MDCU70|RoA|MEQ 5#1","MDCU68|RoB|MEQ 8#1"]},
+      {id:"reconstructive-ladder",
+       title:"Reconstructive ladder — ลำดับขั้น, แผลที่ยังห้ามปิดด้วย flap, เลือกวิธีปิดแผล (granulation → STSG)",
+       trend:"ถามลำดับ ladder ซ้ำ (MDCU68, 77) และให้เลือกวิธีปิดแผลหลัง debride / แผลไหม้วันที่ 7; MDCU67 ถามแผลแบบใดห้ามปิดด้วย flap",
+       asked:["Which types of wounds cannot be covered with a flap?","List the steps of the reconstructive ladder","NF ขา / ฝ่าเท้าหลัง debridement → ตาม ladder จะ reconstruct อย่างไร","Burn day 7: black arrow ชี้อะไร (granulation tissue) → ladder → เลือกวิธีไหน"],
+       flow:["ไล่ ladder จากง่ายไปยาก","ประเมินแผล: สะอาดไหม เลือดมาเลี้ยงดีไหม มีเนื้อตาย / ติดเชื้อ / มะเร็งค้างไหม เห็นโครงสร้างเปลือยไหม","เลือกขั้นที่เหมาะ (reconstructive elevator)"],
+       pattern:["<b>Ladder:</b> healing by secondary intention → primary closure (± delayed primary) → skin graft (split / full thickness) → tissue expansion → local flap → regional (pedicled) flap → free flap (microvascular) · NPWT ใช้เตรียมแผลแทรกได้ · <b>reconstructive elevator</b> = ข้ามไปขั้นที่ให้ผลดีที่สุดได้เลย","<b>หลักก่อนปิดแผลทุกวิธี:</b> แผลสะอาด เลือดมาเลี้ยงดี ไม่มีเนื้องอกค้าง","<b>ยังห้ามปิดด้วย flap:</b> (1) ติดเชื้อที่ยังคุมไม่ได้ (หนอง cellulitis osteomyelitis ที่ยังไม่ debride) (2) มีเนื้อตาย / สิ่งปนเปื้อน → debride ก่อน (3) มะเร็งที่ขอบยังไม่ทราบผล / ตัดไม่หมด (4) ผู้ป่วยไม่พร้อม (vital ไม่คงที่ โภชนาการ / น้ำตาลคุมไม่ได้) หรือไม่มี pedicle / recipient vessel","<b>แผลที่ skin graft ไม่ติด → ต้อง flap:</b> กระดูกไม่มี periosteum, เอ็นไม่มี paratenon, กระดูกอ่อนไม่มี perichondrium, โลหะ / implant, บริเวณฉายรังสี","<b>Granulation tissue</b> (แดงสด เป็นเม็ด เลือดออกง่าย = capillary ใหม่ + fibroblast) = ฐานรับ graft ดี → แผลกว้าง granulation ดี ไม่เห็นกระดูก / เอ็นเปลือย → <b>split-thickness skin graft</b> (meshed เพื่อคลุมพื้นที่กว้าง) ± NPWT เตรียมแผล"],
+       kw:["secondary intention → primary closure → skin graft → tissue expansion → local flap → regional flap → free flap","reconstructive elevator","clean, well-vascularized, tumor-free wound bed","flap contraindicated: uncontrolled infection, necrotic tissue, residual tumor, unfit patient","healthy granulation tissue","split-thickness skin graft (meshed)","exposed bone / tendon / hardware → flap"],
+       pearls:["ตอบ flap สำหรับแผล granulation ดี ๆ = เกินจำเป็น (คีย์ MDCU77 RoB / RoC = STSG)","ลืม tissue expansion / delayed primary closure ใน ladder ไม่เสียมาก แต่ลำดับต้องถูก"],
+       members:["MDCU67|RoB|MEQ 7#1","MDCU77|RoB|MEQ 5#1","MDCU77|RoB|MEQ 5#2","MDCU77|RoC|MEQ 4#1","MDCU77|RoC|MEQ 4#2","MDCU77|RoC|MEQ 4#3","MDCU68|RoB|MEQ 2#1"]},
+      {id:"necrotizing-fasciitis",
+       title:"Necrotizing fasciitis — clinical diagnosis, investigations, orders",
+       trend:"ภาพขา / เท้าบวมคล้ำมี bullae ในเบาหวาน ออก MDCU70–73 ถาม Dx → investigation (ไม่รอผล) → การรักษา / order",
+       asked:["ผู้ป่วยเบาหวาน ขาบวมลามเร็ว ผิวคล้ำ bullae crepitus ปวดเกินสัดส่วน → Dx → management","Foot infection → Dx → investigations","Necrotizing fasciitis picture → Dx → write treatment orders"],
+       flow:["Dx จากคลินิก (hard signs)","Resuscitation / sepsis bundle","Broad-spectrum IV antibiotics + clindamycin","Emergency radical debridement → second look 24–48 ชม.","Supportive: ICU, น้ำตาล, NPWT, reconstruction ภายหลัง"],
+       pattern:["<b>Clinical:</b> ปวดมากเกินสิ่งที่เห็น (pain out of proportion) · บวมแข็งเกินขอบแดง · ผิวคล้ำม่วง / bullae / hemorrhagic bleb · crepitus · ชาผิว · skin necrosis · sepsis — <b>เป็น clinical diagnosis ไม่รอผลตรวจ</b>","<b>Investigation (ถ้าไม่ล่าช้า):</b> CBC (leukocytosis), Na ต่ำ, BUN / Cr, glucose, CRP → LRINEC score, lactate, coagulation, hemoculture · plain film เห็น gas · CT / MRI · <b>surgical exploration (finger test: fascia แยกง่าย, dishwater fluid) + tissue culture / biopsy = definitive</b>","<b>Orders:</b> resuscitation (IV fluid, sepsis bundle, ICU) · broad-spectrum IV antibiotics: carbapenem (meropenem) หรือ piperacillin-tazobactam + vancomycin (MRSA) + <b>clindamycin</b> (ยับยั้ง toxin) · <b>emergency radical surgical debridement</b> จนถึงเนื้อดี · second look / re-debride ทุก 24–48 ชม. · คุมน้ำตาล · NPWT · reconstruction (skin graft) ภายหลัง · อาจต้อง amputation","การผ่าตัดเร็วเป็นปัจจัยสำคัญที่สุดต่อการรอดชีวิต"],
+       kw:["pain out of proportion","bullae, dusky skin, crepitus, skin necrosis","clinical diagnosis — do not delay surgery for imaging","LRINEC score","broad-spectrum antibiotics + clindamycin (+ vancomycin)","emergency radical debridement","second look in 24–48 h","ICU, glucose control, NPWT"],
+       ddx:["cellulitis","gas gangrene (Clostridium)","pyomyositis","DVT","diabetic foot infection"],
+       pearls:["ส่ง CT / รอ LRINEC ก่อนผ่าตัดในคนที่มี hard signs = ผิดลำดับ","ลืม clindamycin เป็นจุดที่ rubric ชอบให้คะแนน"],
+       members:["MDCU73|RoB|MEQ 3#1","MDCU73|RoB|MEQ 3#2","MDCU71|RoB|MEQ 3#1","MDCU71|RoB|MEQ 3#2","MDCU70|RoC|MEQ 8#1"]},
+      {id:"finger-wound",
+       title:"แผลที่นิ้วมือ — บรรยายแผล, ตรวจ tendon / digital nerve / vascular",
+       trend:"ถามครั้งเดียว (MDCU66): ภาพแผลนิ้วชี้ซ้าย",
+       asked:["Describe what you see → additional physical examination → most likely cause"],
+       flow:["บรรยายแผลเป็นระบบ","ตรวจ neurovascular ก่อนฉีดยาชา","ตรวจ tendon แยก FDP / FDS / extensor","Bone / joint ± X-ray","สาเหตุ → การรักษา"],
+       pattern:["<b>บรรยาย:</b> ตำแหน่ง (volar / dorsal, phalanx, ข้ามข้อ) · ชนิด (laceration ขอบเรียบ / ขรุขระ, puncture, avulsion, crush, bite) · ขนาด ความลึก สิ่งที่เห็น (tendon, กระดูก, สิ่งแปลกปลอม) · การปนเปื้อน · เลือดออก · สีปลายนิ้ว · resting cascade เสีย = สงสัย tendon ขาด · อักเสบ / ติดเชื้อ","<b>Neurovascular (ก่อน digital block):</b> capillary refill / สี, sensation ของ digital nerve ทั้งสองข้าง (two-point discrimination)","<b>Tendon:</b> FDP — จับ PIP ไว้ให้งอ DIP · FDS — จับนิ้วอื่นเหยียดไว้ให้งอ PIP · extensor — เหยียด DIP (mallet) / PIP (central slip)","Bone / joint: กดเจ็บ ผิดรูป ความมั่นคง ± X-ray (กระดูกหัก / สิ่งแปลกปลอม)","<b>รักษาตามสาเหตุ:</b> ล้างแผล ซ่อม tendon / nerve ใต้ magnification · tetanus · แผลสัตว์กัดไม่เย็บปิด + antibiotics (amoxicillin-clavulanate)"],
+       kw:["systematic wound description","check sensation before local anesthesia","two-point discrimination of digital nerves","FDP: flex DIP with PIP held","FDS: flex PIP with other fingers held extended","extensor function","X-ray for fracture / foreign body"],
+       pearls:["ตรวจ sensation หลังทำ digital block = ผิดลำดับ"],
+       members:["MDCU66|RoA|PPT 1#1","MDCU66|RoA|PPT 1#2","MDCU66|RoA|PPT 1#3"]}
+    ]},
+    {title:"Urology & male genital", sections:[
+      {id:"urolithiasis",
+       title:"Urolithiasis บน KUB / IVP — อ่านฟิล์ม, ureteric colic, ยืนยัน (NCCT), การรักษาตามขนาด",
+       trend:"ฟิล์ม KUB / IVP ปวดสีข้างร้าวขาหนีบออกเกือบทุกรุ่น ถามชื่อ (IVP) → บรรยายเป็นระบบ → Dx → confirm / treatment",
+       asked:["IVP ชาย 40 ปี ปวดสีข้างซ้ายร้าวขาหนีบ → describe → Dx","IVP adult flank pain → 2 findings → 2 treatment options","KUB L colicky flank pain radiopaque density ระดับ L4 TP → describe → Dx","KUB R colicky pain ใกล้ SI joint → describe → Dx → 1 confirmatory investigation","KUB ปวดหลังร้าวลงอัณฑะ (arrow) → describe → Dx","IVP hematuria 6 เดือน → describe all findings → Dx → further investigations","Series 7 รูป → name (abbreviation + full name) → report → Dx","Contrast urographic study → abbreviation → systematic reading → Dx","Explain ureteric colic"],
+       flow:["ชื่อ: IVP = intravenous pyelography (urography) / plain KUB","อ่านเป็นระบบ: scout (calcification แนว ureter) → nephrogram → pyelogram (calyces / pelvis) → ureter → bladder → post-void","บอกข้าง + ระดับ + hydronephrosis / hydroureter","Dx","ยืนยัน: NCCT KUB","Rx ตามขนาด / ตำแหน่ง / infection"],
+       pattern:["<b>แนว ureter บน KUB:</b> ปลาย transverse processes → ผ่าน sacroiliac joint → ischial spine → bladder · นิ่วทึบรังสี (calcium oxalate / phosphate, struvite; cystine จาง) · uric acid = radiolucent (เห็นใน CT) · phlebolith = กลม ขอบเรียบ center ใส อยู่ต่ำ / lateral ใน pelvis","<b>IVP findings ของนิ่วอุดตัน:</b> delayed (dense / persistent) nephrogram ข้างที่อุด · hydronephrosis (calyx blunted → clubbing → ballooning) + hydroureter เหนือตำแหน่งนิ่ว contrast หยุดที่ระดับเงานิ่ว · อีกข้างปกติ · ขนาดไตปกติ ~3–3.5 vertebral bodies · filling defect ไม่ทึบรังสี → uric acid stone, urothelial tumor, clot","<b>Ureteric colic:</b> ปวดเฉียบพลันรุนแรงเป็นพัก ๆ ที่ loin ร้าวลงขาหนีบ / อัณฑะ / แคม (loin to groin) กระสับกระส่าย คลื่นไส้อาเจียน hematuria · กลไก: นิ่วอุด → แรงดันใน collecting system ↑ + ureteric spasm (prostaglandin)","<b>Confirm:</b> <b>non-contrast CT KUB</b> (gold standard, sensitivity / specificity &gt; 95%; low-dose) · ตั้งครรภ์ / เด็ก → US · IVP ถูกแทนด้วย CT (CT urography สำหรับ hematuria)","<b>Rx (EAU):</b> analgesia — NSAIDs first-line · ≤ 5 mm มักหลุดเอง · 5–10 mm (โดยเฉพาะ distal) → medical expulsive therapy (tamsulosin) + ดื่มน้ำ · ใหญ่ / ไม่หลุด / ปวดไม่หาย → ureteroscopy (URS, laser) ± DJ stent หรือ ESWL (proximal ≤ 1–2 cm) · นิ่วไตใหญ่ / staghorn → PCNL · <b>obstructed infected kidney (ไข้) / ไตข้างเดียว / AKI → decompression ด่วน (PCN หรือ DJ stent) + antibiotics ก่อนเอานิ่ว</b>","Hematuria 6 เดือน + hydronephrosis ไม่เห็นนิ่ว → นึก radiolucent stone และ upper tract urothelial carcinoma → NCCT, CT urography, urine cytology, cystoscopy ± retrograde pyelography / ureteroscopy"],
+       kw:["IVP = intravenous pyelography (urography)","radiopaque calcification along the ureter (TP → SI joint → ischial spine)","delayed nephrogram, hydroureteronephrosis to the level of the stone","blunted calyces","ureteric calculus","non-contrast CT KUB","NSAIDs, medical expulsive therapy (tamsulosin)","URS / ESWL / PCNL","infected obstructed kidney → PCN / DJ stent"],
+       ddx:["phlebolith","calcified lymph node / vascular calcification","radiolucent (uric acid) stone","upper tract urothelial carcinoma","blood clot","UPJ obstruction"],
+       pearls:["บอกข้างผิด / ไม่บอกระดับ (vertebral level) เสียคะแนนบรรยาย","ส่ง ESWL / URS ในไตอุดตันติดเชื้อก่อน decompress = อันตราย","ภาพหลายข้อในไฟล์ไม่ใช่ภาพข้อสอบจริง (คลังใช้ ureteric stone เป็นตัวอย่าง) — จำวิธีอ่านเป็นระบบ"],
+       members:["MDCU65|RoA|PPT 3#1","MDCU65|RoC|PPT 5#1","MDCU65|RoC|PPT 5#2","MDCU78|RoB|MEQ 15#1","MDCU78|RoB|MEQ 15#2","MDCU78|RoC|MEQ 10#1","MDCU78|RoC|MEQ 10#2","MDCU78|RoC|MEQ 10#3","MDCU77|RoB|MEQ 15#1","MDCU77|RoB|MEQ 15#2","MDCU77|RoB|MEQ 15#3","MDCU77|RoC|MEQ 15#1","MDCU77|RoC|MEQ 15#2","MDCU77|RoC|MEQ 15#3","MDCU76|RoC|MEQ 7#1","MDCU76|RoC|MEQ 7#2","MDCU76|RoD|MEQ 8#1","MDCU76|RoD|MEQ 8#2","MDCU68|RoB|MEQ 6#1"]},
+      {id:"paraphimosis",
+       title:"Paraphimosis — Dx จากภาพ, ลดบวม → manual reduction → dorsal slit → circumcision",
+       trend:"ภาพองคชาตบวมมีวงรัดของหนังหุ้มปลายออกซ้ำมาก (MDCU66–73) ถาม Dx (± เหตุผล) → management",
+       asked:["Two photographs of the penis → Dx → management","Photograph → Dx with reasons → management","เด็ก 6 ปี glans บวม ผู้ปกครองรูดหนังหุ้มปลายตอนอาบน้ำ → Dx → treat","Boy swollen glans + tight retracted foreskin → Dx → manage","Give the diagnosis and management"],
+       flow:["บรรยาย: prepuce ร่นค้างหลัง corona เป็นวงรัด + glans / prepuce ส่วนปลายบวมน้ำ","Dx paraphimosis (urologic emergency)","Analgesia / penile block","ลดบวม","Manual reduction → ล้มเหลว dorsal slit","Elective circumcision + สอนป้องกัน"],
+       pattern:["<b>Paraphimosis</b> = หนังหุ้มปลายที่ถูกรูดถอยหลังค้างหลัง coronal sulcus ดึงกลับไม่ได้ → วงรัด (constricting band) → venous / lymphatic congestion → glans + prepuce ส่วนปลายบวม (edematous collar) → นานไปขาดเลือด / necrosis = <b>ฉุกเฉิน</b> · ≠ phimosis (รูดเปิดไม่ได้ ไม่ฉุกเฉิน)","สาเหตุ: รูดทำความสะอาด / ใส่สายสวนแล้วลืมรูดกลับ (iatrogenic บ่อย), เพศสัมพันธ์","<b>Rx:</b> analgesia + dorsal penile block (ยาชาไม่มี adrenaline) / sedation ในเด็ก → <b>ลดบวม:</b> บีบ glans ต่อเนื่อง 5–10 นาที / ผ้าพันยืด / ถุงมือใส่น้ำแข็ง, granulated sugar (osmotic), puncture technique เข็มเล็ก → <b>manual reduction:</b> นิ้วโป้งดัน glans เข้าขณะนิ้วชี้–กลางดึง prepuce มาคลุม → ไม่สำเร็จ → <b>dorsal slit</b> ใต้ยาชา (ฉุกเฉิน) → ภายหลัง <b>elective circumcision</b> ป้องกันซ้ำ · สอนรูดกลับทุกครั้ง (รวมหลังใส่ Foley)"],
+       kw:["paraphimosis","retracted foreskin forming a constricting band behind the corona","edematous glans / prepuce — urologic emergency","penile block, analgesia","reduce edema (compression, ice, sugar, puncture)","manual reduction","dorsal slit if fails","elective circumcision"],
+       ddx:["phimosis","balanitis","penile hematoma / fracture","angioedema"],
+       pearls:["สลับคำ phimosis / paraphimosis","ไปทำ circumcision ฉุกเฉินทันทีโดยไม่ลอง reduction"],
+       members:["MDCU67|RoA|MEQ 14#1","MDCU67|RoA|MEQ 14#2","MDCU67|RoB|MEQ 9#1","MDCU67|RoB|MEQ 9#2","MDCU66|RoD|PPT 5#1","MDCU73|RoB|MEQ 1#1","MDCU73|RoB|MEQ 1#2","MDCU72|RoB|8#1","MDCU72|RoB|8#2","MDCU72|RoD|12#1"]},
+      {id:"luts",
+       title:"LUTS ในชาย — ซักประวัติ, IPSS, การตรวจร่างกาย",
+       trend:"คำถามไม่มีภาพ ‘ชายมี LUTS / ปัสสาวะไม่สุด → ซักอะไร ตรวจอะไร ประเมินความรุนแรงอย่างไร’ ออก MDCU67, 76 (สองรอบ), 77",
+       asked:["LUTS → list symptoms ที่ถามเพื่อประเมินความรุนแรง","ชาย 65 ปี LUTS → history → examination","LUTS → history → assess severity → examination","Sensation of incomplete emptying → history → PE"],
+       flow:["History: storage / voiding / post-micturition → IPSS + QoL","Red flags / complications","สาเหตุอื่น: ยา neuro DM stricture","PE: abdomen → genitalia → DRE → focused neuro","Ix เสริม: UA, PSA, Cr, uroflow, PVR, frequency–volume chart"],
+       pattern:["<b>Storage:</b> frequency (ห่าง &lt; 2 ชม.), urgency, nocturia, urge incontinence · <b>Voiding:</b> hesitancy, weak stream, intermittency, straining, terminal dribbling · <b>Post-micturition:</b> incomplete emptying, post-void dribbling (ช่วยจำ FUN + PSIIT)","<b>IPSS:</b> 7 ข้อ (incomplete emptying, frequency, intermittency, urgency, weak stream, straining, nocturia) ข้อละ 0–5 รวม 0–35 · <b>0–7 mild, 8–19 moderate, 20–35 severe</b> + QoL score 0–6 · ใช้ประเมิน / ติดตาม ไม่ใช่วินิจฉัย BPH","<b>Red flags / complications:</b> hematuria, dysuria / ไข้ (UTI), acute urinary retention, นิ่ว, ไตวาย, ปวดกระดูก / น้ำหนักลด (CA prostate)","<b>สาเหตุอื่น:</b> ยา (anticholinergic, antihistamine, decongestant, diuretic) · neurologic disease / DM / spinal (neurogenic bladder) · ผ่าตัด / trauma / instrumentation / STD (urethral stricture) · ดื่มน้ำ กาแฟ สุรา","<b>PE:</b> abdomen — palpable / percussible bladder (chronic retention), ไต, CVA · external genitalia — meatal stenosis, phimosis · <b>DRE</b> — ขนาด consistency nodule ของ prostate, anal sphincter tone · focused neuro — perianal (S2–4) sensation, bulbocavernosus reflex, lower limb","<b>Ix:</b> urinalysis, PSA (ตามข้อบ่งชี้), creatinine, uroflowmetry + post-void residual, frequency–volume chart · ต่อมโต &gt; 40 mL ได้ประโยชน์จาก 5-ARI · storage เด่น → antimuscarinic / β3 agonist · voiding เด่น → α-blocker"],
+       kw:["storage vs voiding vs post-micturition symptoms","IPSS 0–35 (mild 0–7, moderate 8–19, severe 20–35) + QoL","red flags: hematuria, retention, UTI, bone pain","drug history, neurologic disease, DM, urethral trauma","palpable bladder","DRE: prostate size, consistency, nodules, anal tone","perianal sensation, bulbocavernosus reflex","PVR, uroflowmetry, PSA, creatinine"],
+       pearls:["ลืม focused neuro exam / ประวัติยา (neurogenic bladder, drug-induced retention)","ตอบ IPSS แต่ไม่รู้จุดตัดความรุนแรง"],
+       members:["MDCU67|RoC|MEQ 13#1","MDCU77|RoB|MEQ 11#1","MDCU77|RoB|MEQ 11#2","MDCU76|RoA|MEQ 4#1","MDCU76|RoA|MEQ 4#2","MDCU76|RoD|MEQ 3#1","MDCU76|RoD|MEQ 3#2","MDCU76|RoD|MEQ 3#3"]},
+      {id:"penile-scc",
+       title:"Squamous cell carcinoma of the penis",
+       trend:"ภาพแผล / ก้อนที่ glans ไม่เจ็บ 3 เดือนออก MDCU67, 70, 77 ถาม Dx → management",
+       asked:["Lesion of the penis (arrow) → Dx → treatment","Painless penile lesion 3 months → Dx → management"],
+       flow:["Dx + risk factors","Biopsy","รักษาก้อนหลักตามขนาด / ตำแหน่ง","ประเมิน inguinal nodes → ILND / DSNB"],
+       pattern:["<b>Risk:</b> ไม่ได้ขลิบ / phimosis, สุขอนามัย (smegma), HPV 16 / 18, สูบบุหรี่, lichen sclerosus","<b>Biopsy ยืนยัน</b> (DDx giant condyloma / Buschke–Löwenstein, verrucous carcinoma)","<b>Primary:</b> จำกัดที่หนังหุ้มปลาย → circumcision · เล็กที่ glans → wide local excision / glansectomy (penile-sparing) · ลุกลาม → partial penectomy (margin ปลอดมะเร็ง) · ตอเหลือไม่พอยืนปัสสาวะ → total penectomy + perineal urethrostomy","<b>Inguinal nodes</b> (ปัจจัยพยากรณ์สำคัญสุด): คลำได้ → FNA / biopsy → inguinal lymphadenectomy · คลำไม่ได้แต่ intermediate / high-risk → dynamic sentinel node biopsy หรือ modified inguinal lymphadenectomy · ระยะลุกลาม → chemotherapy"],
+       kw:["squamous cell carcinoma of the penis","uncircumcised, phimosis, HPV","biopsy","circumcision / glansectomy / partial or total penectomy + perineal urethrostomy","inguinal lymph node assessment, dynamic sentinel node biopsy / ILND"],
+       ddx:["giant condyloma (Buschke–Löwenstein)","verrucous carcinoma","chancre / chancroid","balanitis"],
+       pearls:["คีย์เก่า MDCU67 RoD ตอบ ‘excision → circumcision, penectomy’ — ต้องบอก biopsy และการจัดการต่อมน้ำเหลืองขาหนีบด้วย"],
+       members:["MDCU67|RoD|PPT 9#1","MDCU67|RoD|PPT 9#2","MDCU77|RoA|MEQ 3#1","MDCU77|RoA|MEQ 3#2","MDCU70|RoB|10#1"]},
+      {id:"hematuria",
+       title:"Hematuria ในผู้สูงอายุ — ประวัติและการตรวจร่างกาย",
+       trend:"คำถามไม่มีภาพ MDCU75 RoD (หญิงหมดประจำเดือน) และ MDCU77 RoA (ชาย 66 ปี)",
+       asked:["ชาย 66 ปี ปัสสาวะเป็นเลือด 2 สัปดาห์ → additional history → physical examination","หญิง 70 ปี หมดประจำเดือน 20 ปี hematuria 4 สัปดาห์ → history → examination"],
+       flow:["ยืนยันว่าเลือดมาจากทางเดินปัสสาวะ","ลักษณะ hematuria","อาการร่วม","Risk ของ urothelial cancer + ยา","PE"],
+       pattern:["<b>Painless gross hematuria ในผู้สูงอายุ = bladder (urothelial) cancer จนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b>","<b>History:</b> ยืนยันแหล่งเลือด (ไม่ใช่ช่องคลอด / ทวาร) · gross / microscopic · timing — initial (urethra / prostate), terminal (bladder neck), total (bladder ขึ้นไป) · clots · painless vs painful · LUTS, flank pain (นิ่ว), dysuria / ไข้ (UTI), น้ำหนักลด · risk: <b>สูบบุหรี่</b>, aromatic amines (สีย้อม ยาง), cyclophosphamide, pelvic radiation · anticoagulant / antiplatelet · trauma ออกกำลังหนัก · ประวัตินิ่ว BPH เคยเป็นมาก่อน ผ่าตัด · family history","<b>PE:</b> vital signs, ซีด · ballotable kidney (RCC / hydronephrosis), CVA tenderness, suprapubic mass / distended bladder · <b>ชาย: DRE</b> (prostate แข็งขรุขระ, ก้อนที่ฐาน bladder), external genitalia, urethral meatus, <b>left varicocele</b> (RCC) · <b>หญิง: pelvic / PV exam</b> แยกเลือดช่องคลอด, urethral caruncle, bimanual คลำ bladder mass · LN, ขาบวม","Work-up ต่อ: urinalysis, CT urography (upper tract) + cystoscopy (lower tract) ± urine cytology"],
+       kw:["painless gross hematuria = bladder cancer until proven otherwise","initial / terminal / total hematuria, clots","smoking, aromatic amines, cyclophosphamide, pelvic radiation","anticoagulants","ballotable kidney, palpable bladder","DRE (men) / pelvic exam (women)","left varicocele (RCC)","CT urography + cystoscopy"],
+       ddx:["bladder (urothelial) carcinoma","renal cell carcinoma","urolithiasis","UTI","BPH","prostate cancer"],
+       pearls:["ลืมถามสูบบุหรี่ (risk อันดับ 1) — คลังเติมเพิ่มจากคีย์ MDCU75 RoD","หญิงต้องแยกเลือดจากช่องคลอดด้วย PV"],
+       members:["MDCU77|RoA|MEQ 4#1","MDCU77|RoA|MEQ 4#2","MDCU75|RoD|MEQ 2#1","MDCU75|RoD|MEQ 2#2"]},
+      {id:"upj-obstruction",
+       title:"Ureteropelvic junction obstruction บน IVP",
+       trend:"ถามครั้งเดียว (MDCU65 RoB): ชาย 20 ปี ปวดเอวขวาหลังดื่มน้ำมาก",
+       asked:["IVP ชาย 20 ปี ปวดเอวขวาเป็นพัก ๆ แย่ลงหลังดื่มน้ำมาก → describe → Dx"],
+       flow:["KUB ไม่มีนิ่ว","IVP: ballooned renal pelvis + blunted calyces, ไม่มี hydroureter","Dx UPJ obstruction","ยืนยัน diuretic renogram → pyeloplasty"],
+       pattern:["<b>IVP:</b> nephrogram ช้า, renal pelvis โป่งมาก (ballooned) + calyces ป้าน (hydronephrosis) · ureter ขนาดปกติ / มองไม่เห็นใต้ UPJ (<b>ไม่มี hydroureter</b>) · hydronephrosis + hydroureter = อุดที่ ureter ล่าง / VUJ / VUR","<b>Dietl's crisis</b> = ปวดเอวเป็นพัก ๆ หลังดื่มน้ำ / เบียร์มาก (diuresis)","สาเหตุ: intrinsic aperistaltic segment, crossing lower-pole vessel","<b>ยืนยัน:</b> diuretic renogram (MAG3 + furosemide) ดู obstruction + split function · <b>Rx:</b> dismembered (Anderson–Hynes) pyeloplasty (open / laparoscopic / robotic) เมื่อมีอาการ split function ลด ติดเชื้อ / นิ่ว"],
+       kw:["ballooned renal pelvis with blunted calyces","normal / non-visualized ureter (no hydroureter)","Dietl's crisis","crossing vessel","MAG3 diuretic renogram","Anderson–Hynes dismembered pyeloplasty"],
+       ddx:["ureteric stone","VUR","megaureter","parapelvic cyst"],
+       members:["MDCU65|RoB|PPT 6#1"]}
+    ]},
+    {title:"Cleft lip & palate", sections:[
+      {id:"cleft-lip",
+       title:"Cleft lip (± palate) — เวลาผ่าตัดปาก (rule of 10s), เหตุผล และคำแนะนำมารดา",
+       trend:"ภาพทารกปากแหว่งออกทุกรุ่น ถาม ‘อายุที่ควรผ่าตัด + เหตุผล’ เกือบทุกครั้ง บางปีเพิ่มคำแนะนำมารดา / บรรยายภาพ",
+       asked:["ภาพทารกปากแหว่ง → recommended age to repair → reason","Give advice to the mother on caring for this baby","What is the diagnosis? (unilateral / bilateral, complete / incomplete, ± palate)","4-month-old ปากแหว่ง → อายุที่เหมาะ + เหตุผล + คำแนะนำ (ผ่าได้แล้วถ้าเกณฑ์ครบ)","Complete left cleft lip ถึงเพดาน → describe → treatments ที่ต้องทำและเมื่อไร → บอกแม่อย่างไร"],
+       flow:["บรรยาย: ข้าง (ซ้ายพบบ่อย) · unilateral / bilateral · complete (ถึงรูจมูก) / incomplete · มี cleft alveolus / palate ร่วมไหม","Dx","Timing: lip ~10 สัปดาห์–3 เดือน (rule of 10s) · palate 9–18 เดือน · ABG 7–11 ปี","เหตุผล","คำแนะนำมารดา: feeding, หู, ทีมสหสาขา, จิตใจ, genetic counseling"],
+       pattern:["<b>Cleft lip repair (cheiloplasty) ~10 สัปดาห์–3 เดือน — Rule of 10s:</b> อายุ ≥ 10 สัปดาห์, น้ำหนัก ≥ 10 ปอนด์ (~4.5 kg), Hb ≥ 10 g/dL (± WBC &lt; 10,000)","<b>เหตุผล:</b> ปลอดภัยต่อการดมยา / ทนเสียเลือด · เนื้อเยื่อริมฝีปากโตพอให้ซ่อมแม่น · มีเวลาตรวจหา anomaly ร่วม (หัวใจ / syndrome) · ช่วยการดูดนม ภาพลักษณ์ ความผูกพันของครอบครัว (psychological) · บางศูนย์ทำ nasoalveolar molding (NAM) / lip adhesion ก่อน (โดยเฉพาะ bilateral)","<b>ขั้นต่อไป:</b> palatoplasty 9–18 เดือน (ก่อนพูด) · alveolar bone graft ~7–11 ปี (ก่อน canine ขึ้น) · revision / rhinoplasty / orthognathic ช่วงวัยรุ่น · speech therapy, ENT (ventilation tube), orthodontic","<b>คำแนะนำมารดา:</b> ไม่ใช่ความผิดของแม่ แก้ไขได้ผลดี สติปัญญาปกติ · <b>cleft lip อย่างเดียว ให้นมแม่ได้</b> (เต้าช่วยปิดรอยแยก ใช้นิ้วช่วยปิด) · มี cleft palate → บีบนมแม่ป้อนด้วยขวดบีบ / จุกพิเศษ ท่าตั้งตรง ป้อนช้า เรอบ่อย ระวังสำลักออกจมูก · ติดตามน้ำหนักให้ถึงเกณฑ์ · ดูแลความสะอาดช่องปาก · สังเกตหูน้ำหนวก (OME) ตรวจการได้ยิน · cleft team · genetic counseling (โอกาสเกิดซ้ำ) · ให้ความรักไม่ให้เด็กเป็นปมด้อย","<b>Embryology:</b> maxillary prominence ไม่เชื่อมกับ medial nasal prominence (สัปดาห์ 4–7) · complete = แยกตลอดความสูงริมฝีปากถึงพื้นรูจมูก ± primary palate (alveolus) และ secondary palate"],
+       kw:["unilateral / bilateral, complete / incomplete cleft lip ± palate","cheiloplasty at ~10 weeks–3 months","rule of 10s: 10 weeks, 10 lb, Hb 10 g/dL","safety for anesthesia, tissue size, feeding / bonding","palatoplasty 9–18 months before speech","feeding: upright position, special bottle, frequent burping","otitis media with effusion → hearing check","multidisciplinary cleft team","genetic counseling"],
+       ddx:["cleft lip and palate","isolated cleft lip","Tessier facial cleft"],
+       pearls:["คีย์เก่า MDCU66 RoA ตอบคำแนะนำว่า ‘งดให้ลูกดื่มนมแม่’ — ผิด: cleft lip อย่างเดียวส่วนใหญ่ดูดเต้าได้ ต้องสนับสนุนนมแม่ (ถ้ามี cleft palate ใช้บีบนมป้อน)","ตอบอายุไม่แยก lip กับ palate เสียคะแนน (คีย์เก่าบางรุ่นเขียน ‘ภายใน 1 ขวบ’ รวม ๆ)","เด็ก 4 เดือนที่เกณฑ์ครบ = ผ่าได้แล้ว ไม่ต้องรอ"],
+       members:["MDCU67|RoA|MEQ 10#1","MDCU67|RoA|MEQ 10#2","MDCU67|RoC|MEQ 4#1","MDCU67|RoC|MEQ 4#2","MDCU67|RoC|MEQ 4#3","MDCU67|RoD|PPT 6#1","MDCU67|RoD|PPT 6#2","MDCU66|RoA|PPT 9#1","MDCU66|RoA|PPT 9#2","MDCU66|RoA|PPT 9#3","MDCU66|RoD|PPT 3#1","MDCU75|RoD|MEQ 6#1","MDCU75|RoD|MEQ 6#2","MDCU75|RoD|MEQ 6#3","MDCU72|RoA|MEQ 4#1","MDCU72|RoA|MEQ 4#2","MDCU72|RoC|MEQ 8#1","MDCU72|RoC|MEQ 8#2","MDCU71|RoA|MEQ 13#1","MDCU71|RoA|MEQ 13#2","MDCU70|RoB|MEQ 11#1","MDCU69|RoC|MEQ 7#1","MDCU68|RoC|MEQ 8#1"]},
+      {id:"cleft-palate",
+       title:"Cleft palate — palatoplasty 9–12 (ถึง 18) เดือน: speech vs maxillary growth, ปัญหาที่พบ",
+       trend:"ภาพเพดานโหว่ในทารกออกแทบทุกปีตั้งแต่ MDCU69 ถาม ‘อายุที่ซ่อม + ทำไม’ ± ปัญหาที่ทารกจะมี",
+       asked:["ภาพปากทารกเพดานโหว่ → Dx → อายุที่ควรซ่อม → เหตุผล","Isolated cleft palate (ริมฝีปากปกติ) 2 เดือน → Dx → 2 problems this infant may have → age + reason","Cleft palate → management ทั้งหมด (ทีม) → อายุ + เหตุผล","Unilateral / bilateral incomplete cleft palate → อายุ → เหตุผล (มากกว่าหนึ่งข้อ)"],
+       flow:["Dx: cleft palate (complete / incomplete, hard + soft, ± lip)","ปัญหา: feeding, aspiration, OME / hearing, speech (VPI), dental / maxillary growth, airway (Pierre Robin)","Timing: 9–12 เดือน (ไม่เกิน 18 เดือน)","เหตุผล: ก่อนพูด vs ไม่เร็วจนรบกวน maxilla (+ ปลอดภัยดมยา, ช่องปากใหญ่พอ)","ทีมสหสาขา"],
+       pattern:["<b>Palatoplasty อายุ ~9–12 เดือน (ช่วง 6–18 เดือน)</b>","<b>เหตุผล:</b> ซ่อมเสร็จ<b>ก่อนเริ่มพูด</b> (~1 ปี) ให้ levator veli palatini ปิด velopharynx ได้ → ลด velopharyngeal insufficiency / hypernasal speech / compensatory articulation · แต่<b>ไม่เร็วเกินไป</b> เพราะแผลเป็นรบกวนการเจริญของ maxilla (midface hypoplasia) · ปลอดภัยต่อการดมยา / ช่องปากกว้างพอให้ผ่าตัด","<b>ปัญหาที่ทารกมี:</b> feeding difficulty (สร้าง negative pressure ไม่ได้ น้ำนมออกจมูก) · aspiration · otitis media with effusion → hearing loss (eustachian tube; ventilation tube) · speech problem · dental / maxillary growth · airway obstruction ใน Pierre Robin sequence (micrognathia + glossoptosis + cleft palate — airway เป็นปัญหาแรก)","Isolated cleft palate สัมพันธ์ syndrome มากกว่า (Pierre Robin, 22q11 deletion) · cleft lip ± palate พบบ่อยกว่าโดยรวม","<b>ทีม:</b> feeding (ขวด / จุกพิเศษ ท่าตั้ง) · ENT / audiology · speech therapy (VPI หลังซ่อมอาจต้อง pharyngeal flap / pharyngoplasty) · orthodontic, alveolar bone graft 7–11 ปี (ถ้ามี alveolar cleft) · genetics"],
+       kw:["cleft of hard and soft (secondary) palate","palatoplasty at 9–12 months (before 18 months)","before speech development","avoid early repair → maxillary growth restriction","feeding difficulty, nasal regurgitation","otitis media with effusion, hearing","velopharyngeal insufficiency, hypernasal speech","Pierre Robin sequence (airway)"],
+       ddx:["submucous cleft palate (bifid uvula)","cleft lip and palate","Pierre Robin sequence"],
+       pearls:["ตอบเหตุผลข้างเดียว (เรื่องพูด) ไม่พูดถึง maxillary growth = ได้ไม่เต็ม — คีย์ MDCU77 RoD / MDCU76 RoC ให้ทั้งสองด้าน","สับสนกับ rule of 10s (นั่นคือ lip)"],
+       members:["MDCU78|RoC|MEQ 3#1","MDCU78|RoC|MEQ 3#2","MDCU78|RoC|MEQ 3#3","MDCU77|RoD|MEQ 4#1","MDCU77|RoD|MEQ 4#2","MDCU77|RoD|MEQ 4#3","MDCU76|RoA|MEQ 6#1","MDCU76|RoA|MEQ 6#2","MDCU76|RoA|MEQ 6#3","MDCU76|RoC|MEQ 12#1","MDCU76|RoC|MEQ 12#2","MDCU76|RoC|MEQ 12#3","MDCU74|RoA|SEQ ไม่มีเลข 1#1","MDCU73|RoB|MEQ 4#1","MDCU73|RoB|MEQ 4#2","MDCU72|RoB|MEQ 6#1","MDCU72|RoB|MEQ 6#2","MDCU72|RoB|MEQ 6#3","MDCU71|RoB|MEQ 2#1","MDCU71|RoB|MEQ 2#2","MDCU71|RoB|MEQ 2#3","MDCU69|RoA|MEQ 4#1"]}
+    ]},
+    {title:"Bowel obstruction, colorectal & appendix", sections:[
+      {id:"sbo",
+       title:"Small bowel obstruction — acute abdomen series, signs บนฟิล์ม, สาเหตุ (adhesion / hernia), conservative vs surgery",
+       trend:"ฟิล์มท้องท่ายืน / นอน ลำไส้เล็กโป่ง step-ladder ออกทุกรุ่นตั้งแต่ MDCU74 ถามชื่อฟิล์ม + ท่า → findings → Dx + สาเหตุ → การรักษา",
+       asked:["Colicky pain vomiting distension → Dx → list radiographic signs","Previous laparotomy + films → what films → findings → most likely cause → treatment","Upright AXR → which view → findings → Dx","หลัง appendectomy → view → findings → Dx + likely cause","ชาย 49 ปี ไม่ถ่าย / ไม่ผายลม 2 วัน → describe → Dx → 2 most common causes + history ที่แยก","Cardinal signs ไม่มีประวัติผ่าตัด 2 films → ชื่อ + ท่า → read + Dx → most common cause","Supine + upright → films/positions → abnormality → Dx → management","หลัง cholecystectomy / appendectomy 6 เดือน → series → interpret → Dx + cause → management"],
+       flow:["ชื่อ: acute abdomen series = supine abdomen + upright abdomen + upright CXR","Findings","Dx: mechanical SBO (complete / partial)","สาเหตุ: ประวัติผ่าตัด → adhesion · ไม่เคยผ่าตัด → hernia (ตรวจทุกช่อง)","NPO, NG, IV fluid, Foley ± water-soluble contrast → ผ่าตัดเมื่อ strangulation / ไม่ดีขึ้น"],
+       pattern:["<b>Supine</b> = ดูการกระจายและขนาดลำไส้ · <b>upright</b> = air-fluid levels, free air · ลุกไม่ได้ → left lateral decubitus","<b>SBO signs:</b> ลำไส้เล็กขยาย &gt; 3 cm หลายห่วงอยู่<b>กลางท้อง</b> · <b>valvulae conniventes</b> พาดเต็มความกว้าง (stack of coins) · multiple air-fluid levels ต่างระดับแบบ <b>step-ladder</b> (ต่างระดับในห่วงเดียวกัน) · string of beads · ลมใน colon / rectum น้อย / ไม่มี · ไม่มี free air","<b>LBO</b> เทียบ: colon ขยายรอบนอก &gt; 6 cm (cecum &gt; 9 cm — rule 3-6-9) มี haustra ไม่เต็มความกว้าง มีอุจจาระ","<b>สาเหตุ:</b> postoperative adhesion (อันดับ 1 โดยรวม / ผู้เคยผ่าตัด) · hernia (อันดับ 1 ในผู้ไม่เคยผ่าตัด — ถามก้อนขาหนีบ / สะดือที่เคยดันกลับได้) · tumor, Crohn, gallstone ileus, bezoar","<b>Management adhesive SBO ไม่มี strangulation:</b> conservative (สำเร็จ ~70–80%) — NPO, NG decompression, IV crystalloid + แก้ electrolyte, Foley วัด urine · water-soluble contrast (Gastrografin) challenge (ทั้งวินิจฉัย / รักษา) · CT with contrast หา closed loop / strangulation (whirl sign, ผนังไม่ enhance)","<b>ผ่าตัด (adhesiolysis / ตามสาเหตุ):</b> strangulation (ไข้ ชีพจรเร็ว ปวดต่อเนื่อง peritonitis lactate / WBC สูง), closed loop, incarcerated hernia, ไม่ดีขึ้นใน 48–72 ชม."],
+       kw:["acute abdomen series: supine + upright abdomen + upright CXR","dilated central small bowel loops &gt; 3 cm","valvulae conniventes","multiple air-fluid levels at different heights (step-ladder)","paucity of colonic gas","adhesion (previous surgery) / hernia (no previous surgery)","NPO, NG decompression, IV fluid, Foley","water-soluble contrast challenge","surgery for strangulation or failure after 48–72 h"],
+       ddx:["large bowel obstruction","paralytic ileus","gallstone ileus","incarcerated hernia","pseudo-obstruction"],
+       pearls:["ลืมตรวจ hernia ทุกช่องในผู้ป่วย SBO","ตอบผ่าตัดทันทีในทุกราย adhesive SBO = ผิด","MDCU76 RoD / MDCU78 RoB ไฟล์ไม่มีเฉลย (ผู้จดไม่แน่ใจ SBO / LBO) — คลังใช้ภาพ SBO เป็นตัวอย่าง"],
+       members:["MDCU65|RoB|PPT 1#1","MDCU78|RoB|MEQ 8#1","MDCU78|RoB|MEQ 8#2","MDCU78|RoB|MEQ 8#3","MDCU78|RoC|MEQ 4#1","MDCU78|RoC|MEQ 4#2","MDCU78|RoC|MEQ 4#3","MDCU77|RoA|MEQ 14#1","MDCU77|RoA|MEQ 14#2","MDCU77|RoA|MEQ 14#3","MDCU77|RoD|MEQ 12#1","MDCU77|RoD|MEQ 12#2","MDCU77|RoD|MEQ 12#3","MDCU76|RoA|MEQ 2#1","MDCU76|RoA|MEQ 2#2","MDCU76|RoA|MEQ 2#3","MDCU76|RoA|MEQ 2#4","MDCU76|RoD|MEQ 6#1","MDCU76|RoD|MEQ 6#2","MDCU76|RoD|MEQ 6#3","MDCU75|RoC|MEQ 4#1","MDCU75|RoC|MEQ 4#2","MDCU75|RoC|MEQ 4#3","MDCU75|RoC|MEQ 4#4","MDCU74|RoD|MEQ 3#1","MDCU74|RoD|MEQ 3#2","MDCU74|RoD|MEQ 3#3","MDCU74|RoD|MEQ 3#4"]},
+      {id:"colonoscopy-polyp",
+       title:"Colonoscopy — indications, bowel preparation, sessile polyp pathology",
+       trend:"ภาพส่องลำไส้ใหญ่ถามข้อบ่งชี้ซ้ำมาก (MDCU68–77) บางปีเพิ่ม bowel prep (ชื่อยา 2 ตัว) / พยาธิของ sessile polyp",
+       asked:["What is this investigation → 4 indications","Indications for colonoscopy + bowel preparation","Investigation → indications → bowel prep (2 drugs)","Endoscopic picture → procedure → 3 indications → sessile polyp likely pathology","Blood in stool + investigation → 3 indications → Dx (sessile polyp) → histopathology หลังตัด","Sigmoidoscope A + proctoscope B → ชื่อ → การใช้"],
+       flow:["ชื่อ: (flexible) colonoscopy","Indications: diagnostic → screening / surveillance → therapeutic","Bowel prep","Polyp: sessile vs pedunculated → adenoma"],
+       pattern:["<b>Indications:</b> lower GI bleeding / hematochezia, FIT / FOBT บวก · iron deficiency anemia · เปลี่ยนนิสัยการขับถ่าย / ท้องเสียเรื้อรัง · CRC screening (ความเสี่ยงทั่วไปเริ่มอายุ 45–50 ปี ทุก 10 ปีถ้าปกติ — USMSTF เริ่ม 45; ประวัติครอบครัวเริ่มเร็วกว่า) · surveillance หลังตัด polyp / หลังรักษา CRC · IBD · therapeutic: polypectomy (EMR / ESD), หยุดเลือด, decompression / detorsion sigmoid volvulus, stent","<b>Bowel prep:</b> low-residue diet 1–3 วัน → clear liquid วันก่อน · <b>PEG electrolyte solution 2–4 L split dose</b> · sodium picosulfate + magnesium citrate · sodium phosphate (ระวังไตวาย) · ± bisacodyl · หยุดธาตุเหล็ก · NPO 2–6 ชม. ก่อนทำ","<b>Sessile polyp</b> = ฐานกว้างไม่มีก้าน (pedunculated = มีก้าน) · pathology ที่น่าจะเป็น: <b>adenoma</b> (tubular / tubulovillous / villous — villous เสี่ยงมะเร็งสุด) หรือ sessile serrated lesion (right colon) · precursor ของ adenocarcinoma (adenoma–carcinoma sequence) · เสี่ยงสูงเมื่อ &gt; 1 cm, villous, high-grade dysplasia → ตัดออก","<b>Rigid sigmoidoscope</b> (~25 cm) ดู rectum / sigmoid, biopsy, detorsion sigmoid volvulus (± rectal tube) · <b>proctoscope</b> (~7–10 cm) ดู anal canal / rectum ล่าง, RBL / sclerotherapy · flexible sigmoidoscope ~60 cm"],
+       kw:["colonoscopy","LGIB / FIT positive / IDA / change in bowel habit","CRC screening from 45–50 years, surveillance after polypectomy / CRC","polypectomy, hemostasis, volvulus decompression","PEG split-dose bowel preparation","sessile polyp → adenoma (tubular / tubulovillous / villous) or sessile serrated lesion","rigid sigmoidoscope vs proctoscope"],
+       pearls:["ถูกขอ ‘ชื่อยา 2 ตัว’ แล้วตอบ ‘ยาระบาย’ = ไม่ได้คะแนน","ตอบ hyperplastic polyp เป็นพยาธิหลักของ sessile polyp ที่ตัดเพื่อลดความเสี่ยงมะเร็ง = ผิดแนว (MDCU76 RoD คีย์ไม่ได้ตอบส่วนนี้)"],
+       members:["MDCU77|RoB|MEQ 14#1","MDCU77|RoB|MEQ 14#2","MDCU77|RoB|MEQ 14#3","MDCU76|RoD|MEQ 14#1","MDCU76|RoD|MEQ 14#2","MDCU72|RoB|MEQ 10#1","MDCU72|RoB|MEQ 10#2","MDCU71|RoA|MEQ 8#1","MDCU71|RoA|MEQ 8#2","MDCU69|RoC|MEQ 9#1","MDCU68|RoC|MEQ 3#1","MDCU69|RoC|MEQ 8#1"]},
+      {id:"diverticulosis",
+       title:"Colonic diverticulosis — ภาพส่องกล้อง / barium enema, complications, counselling",
+       trend:"ภาพรูเปิด diverticula ใน colon ออก MDCU67, 73, 77, 78 ถาม Dx → 2 complications → คำแนะนำ",
+       asked:["Colonoscopic image → Dx → counsel","68-yo LLQ discomfort + colonoscopy outpouchings sigmoid → Dx → 2 complications","Barium enema outpouchings sigmoid → Dx → 2 major complications → advice","Examination + findings → name → 2 indications → Dx → 2 complications"],
+       flow:["Dx: diverticulosis (false / pulsion diverticula)","Complications","Advice"],
+       pattern:["<b>False (pulsion) diverticula:</b> mucosa + submucosa ยื่นผ่านจุดอ่อนที่ vasa recta แทงผ่านกล้ามเนื้อ · ตะวันตก sigmoid · เอเชียพบ right-sided บ่อย","<b>Complications:</b> <b>diverticular bleeding</b> (painless massive hematochezia ส่วนใหญ่หยุดเอง; ไม่หยุด → endoscopic hemostasis / angioembolization) · <b>acute diverticulitis</b> → abscess, perforation / peritonitis (Hinchey I pericolic abscess, II pelvic / distant abscess, III purulent, IV fecal peritonitis), fistula (colovesical: pneumaturia / fecaluria), stricture / LBO","<b>Advice:</b> ส่วนใหญ่ไม่มีอาการ ไม่ใช่มะเร็ง · high-fiber diet + น้ำพอ · ออกกำลังกาย ลดน้ำหนัก เลิกบุหรี่ · เลี่ยง NSAIDs / opioid · <b>ถั่ว เมล็ด popcorn กินได้</b> · มาทันทีถ้าถ่ายเป็นเลือด หรือปวดท้องน้อยซ้าย + ไข้"],
+       kw:["colonic diverticulosis (false / pulsion diverticula)","diverticular bleeding","diverticulitis → abscess, perforation, fistula, stricture","Hinchey classification","high-fiber diet; nuts / seeds allowed","return if bleeding or LLQ pain with fever"],
+       ddx:["colonic polyp / cancer","IBD"],
+       pearls:["บอกให้งดถั่ว / เมล็ด = คำแนะนำเก่า","คีย์ MDCU67 RoD ตอบคำแนะนำแค่ ‘ถ้ามีเลือดออกให้มาหา’ — ควรมี fiber + warning signs ของ diverticulitis ด้วย"],
+       members:["MDCU67|RoD|PPT 5#1","MDCU67|RoD|PPT 5#2","MDCU78|RoB|MEQ 4#1","MDCU78|RoB|MEQ 4#2","MDCU77|RoA|MEQ 15#1","MDCU77|RoA|MEQ 15#2","MDCU77|RoA|MEQ 15#3","MDCU77|RoA|MEQ 15#4","MDCU73|RoB|MEQ 6#1","MDCU73|RoB|MEQ 6#2","MDCU73|RoB|MEQ 6#3"]},
+      {id:"appendicitis",
+       title:"Acute appendicitis — เหตุผลสนับสนุน (Alvarado), orders, RLQ pain ในหญิง",
+       trend:"MDCU71 (orders), MDCU77 RoB (แผนภาพปวดย้ายที่ + WBC) และ MDCU77 RoD (หญิงปวด RLQ ถามประวัติ / DDx / Ix)",
+       asked:["ปวดรอบสะดือย้ายไป RLQ ไข้ 38 °C WBC 15,000 N 80% → Dx → all supporting reasons → management","Write the orders for acute appendicitis","หญิงปวด RLQ ไข้ → 3 history items → 3 DDx → (WBC 11,000, UA ปกติ) 2 further investigations"],
+       flow:["Dx + เหตุผล (migration, McBurney, ไข้, leukocytosis + left shift → Alvarado)","Orders pre-op","หญิงวัยเจริญพันธุ์: LMP / UPT ก่อนเสมอ → gyn DDx → US"],
+       pattern:["<b>Pathophysiology ของอาการ:</b> ปวดรอบสะดือ (visceral, T10) → ย้าย RLQ (McBurney) เมื่อ parietal peritoneum อักเสบ","<b>Alvarado (MANTRELS):</b> Migration 1, Anorexia 1, Nausea / vomiting 1, Tenderness RLQ 2, Rebound 1, Elevated temp 1, Leukocytosis 2, Shift to left 1","<b>Orders:</b> NPO · IV fluid (เช่น 5%D/NSS/2 ~80–100 mL/ชม. หรือ NSS ถ้าขาดน้ำ) · V/S, I/O · labs: CBC, UA, electrolyte, <b>UPT (หญิง)</b>, G/M · analgesia (morphine 3 mg IV prn — ไม่ต้องงดยาแก้ปวด) · prophylactic IV antibiotics ก่อนลงมีด (ceftriaxone 2 g + metronidazole 500 mg หรือ cefoxitin) · consent → set OR appendectomy (laparoscopic / open) · non-operative antibiotics เป็นทางเลือกใน uncomplicated บางราย (CODA)","<b>หญิงปวด RLQ — ประวัติ:</b> LMP / ประจำเดือนขาด / เลือดออกช่องคลอด · ปวดย้ายที่ เบื่ออาหาร คลื่นไส้ · ตกขาว เพศสัมพันธ์ (PID) · อาการทางปัสสาวะ / ปวดเอว · ปวดทันทีสัมพันธ์การขยับ (torsion)","<b>DDx:</b> acute appendicitis · PID / tubo-ovarian abscess · ruptured ectopic pregnancy (ห้ามพลาด) · ovarian torsion / ruptured cyst · right pyelonephritis / ureteric stone","<b>Ix:</b> <b>urine pregnancy test</b> (ก่อน CT) · US (TVUS / pelvic + appendix) · ไม่ชัดและไม่ตั้งครรภ์ → CT abdomen with contrast"],
+       kw:["migration of pain periumbilical → RLQ (McBurney point)","fever, leukocytosis with neutrophilia","Alvarado score (MANTRELS)","NPO, IV fluid, analgesia","prophylactic ceftriaxone + metronidazole","appendectomy (laparoscopic / open)","LMP / urine pregnancy test first","PID, ectopic pregnancy, ovarian torsion","TVUS / pelvic US"],
+       ddx:["ruptured ectopic pregnancy","PID / TOA","ovarian torsion / ruptured cyst","right ureteric stone / pyelonephritis","mesenteric adenitis","Meckel diverticulitis"],
+       pearls:["ไม่ทำ UPT ในหญิงวัยเจริญพันธุ์ก่อน CT = จุดตก","งดยาแก้ปวดเพราะกลัวบัง signs = แนวคิดเก่า"],
+       members:["MDCU77|RoB|MEQ 1#1","MDCU77|RoB|MEQ 1#2","MDCU77|RoB|MEQ 1#3","MDCU71|RoA|MEQ 7#1","MDCU77|RoD|MEQ 3#1","MDCU77|RoD|MEQ 3#2","MDCU77|RoD|MEQ 3#3"]},
+      {id:"colostomy",
+       title:"Colostomy / ostomy appliance — ชนิด stoma, โรคและหัตถการ (Hartmann's, APR)",
+       trend:"ภาพ stoma / ถุง ostomy ออก MDCU68–70 ถามชื่ออุปกรณ์ → 2 โรค + ชื่อหัตถการ",
+       asked:["Picture of a colostomy → what is it → in which 2 diseases → procedures called","Device in the picture → disease + procedure","Colostomy bag → 2 diseases with the operation"],
+       flow:["ชื่อ: end colostomy LLQ / ostomy baseplate (flange) + pouch (two-piece)","โรค → หัตถการ"],
+       pattern:["<b>อุปกรณ์:</b> ostomy appliance — baseplate / flange + pouch (two-piece system) หรือ one-piece","<b>End colostomy (LLQ):</b> left-sided colon cancer ที่ obstructed / perforated หรือ perforated diverticulitis (Hinchey III–IV) → <b>Hartmann's procedure</b> (ตัดลำไส้ ปิด rectal stump ทำ end colostomy — ต่อกลับได้ภายหลัง) · low rectal cancer ที่ลุกลาม sphincter → <b>abdominoperineal resection (APR)</b> = permanent colostomy","อื่น: loop colostomy (diversion เช่น ARM, rectal injury), ileostomy (total colectomy, diverting loop ileostomy หลัง low anterior resection)"],
+       kw:["end colostomy (LLQ)","ostomy baseplate + pouch","Hartmann's procedure (obstructed / perforated left colon cancer, perforated diverticulitis)","abdominoperineal resection (low rectal cancer) — permanent colostomy","ileostomy"],
+       pearls:["ตอบชื่อโรคแต่ไม่บอกชื่อหัตถการ (โจทย์ถามทั้งสอง)"],
+       members:["MDCU70|RoC|MEQ 14#1","MDCU69|RoA|MEQ 8#1","MDCU68|RoC|MEQ 11#1"]},
+      {id:"lbo",
+       title:"Large bowel obstruction — ฟิล์ม, สาเหตุ (CRC, volvulus), initial management",
+       trend:"MDCU67 RoC (ภาพท้องโป่ง อาเจียนเหมือนอุจจาระ) และ MDCU77 RoC (ฟิล์ม upright / supine + NG content) ถาม Dx → 2 causes → initial management",
+       asked:["หญิงปวดท้อง อาเจียน feculent 2 วัน ท้องโป่ง → Dx → 2 causes → initial management","ชาย 35 ปี ไม่เคยผ่าตัด ไม่ถ่าย 3 วัน NG drainage + films → name left / right films → Dx → 2 most likely causes"],
+       flow:["ฟิล์ม: upright (air-fluid) + supine (กระจายลม) · colon รอบนอก haustra","Dx LBO (แยก distal SBO / pseudo-obstruction)","สาเหตุ","Initial: NPO, NG, IV fluid, Foley, labs, AAS / CT","ประเมินผ่าตัดด่วน / endoscopic detorsion"],
+       pattern:["<b>LBO บนฟิล์ม:</b> colon ขยายรอบนอก &gt; 6 cm, cecum &gt; 9 cm, haustra ไม่เต็มความกว้าง · ileocecal valve ปิด = closed loop → cecum &gt; 12 cm เสี่ยงแตก · sigmoid volvulus: coffee bean sign","Feculent vomiting = อุดตันส่วนปลายนาน (ไม่ได้แปลว่ามี fistula)","<b>สาเหตุ (ผู้ใหญ่):</b> <b>colorectal carcinoma</b> (~60%) · <b>volvulus</b> (sigmoid &gt; cecal; ผู้สูงอายุ ติดเตียง ท้องผูกเรื้อรัง) · diverticular stricture · extrinsic compression (มะเร็งอุ้งเชิงกราน), hernia, fecal impaction · adhesion พบน้อยใน LBO","<b>Initial:</b> NPO · NG decompression · IV crystalloid + แก้ electrolyte · Foley · analgesia · labs (CBC, electrolyte, BUN / Cr, lactate, G/M) · acute abdomen series → <b>CT abdomen with IV contrast</b> (ระดับ / สาเหตุ) · peritonitis / strangulation / cecum ขยายมาก → ผ่าตัดเร่งด่วน (Hartmann's / resection ± stoma, stent เป็น bridge) · sigmoid volvulus ไม่มี gangrene → endoscopic detorsion"],
+       kw:["large bowel obstruction","peripheral dilated colon with haustra, cecum &gt; 9 cm","closed-loop obstruction (competent ileocecal valve)","colorectal carcinoma, sigmoid volvulus, diverticular stricture","NPO, NG, IV fluid, Foley","CT abdomen with contrast","emergency surgery / endoscopic detorsion"],
+       ddx:["distal SBO","colonic pseudo-obstruction (Ogilvie)","toxic megacolon"],
+       pearls:["คีย์เก่า MDCU67 RoC ให้สาเหตุ ‘adhesion band’ — adhesion เป็นสาเหตุอันดับหนึ่งของ SBO ไม่ใช่ LBO","คีย์ MDCU77 RoC ตอบ colorectal cancer + diverticulitis (ใช้ได้) แต่ volvulus ก็เป็นคำตอบสำคัญ"],
+       members:["MDCU67|RoC|MEQ 14#1","MDCU67|RoC|MEQ 14#2","MDCU67|RoC|MEQ 14#3","MDCU77|RoC|MEQ 3#1","MDCU77|RoC|MEQ 3#2","MDCU77|RoC|MEQ 3#3"]},
+      {id:"crc-bleeding",
+       title:"ถ่ายมูกเลือดในผู้ใหญ่ anal canal ปกติ — colorectal cancer work-up",
+       trend:"ถามครั้งเดียว (MDCU77 RoC)",
+       asked:["ชาย 50 ปี ถ่ายมูกเลือด 1 เดือน proctoscopy ปกติ ไม่มี fissure → ประวัติเพิ่ม → investigation → Dx"],
+       flow:["ประวัติ red flags","Colonoscopy + biopsy","Dx CRC จนกว่าจะพิสูจน์ → staging"],
+       pattern:["<b>ประวัติ:</b> change in bowel habit (ท้องผูกสลับท้องเสีย ลำอุจจาระเล็ก) · tenesmus ถ่ายไม่สุด · น้ำหนักลด เบื่ออาหาร ซีด · ปวดท้อง ท้องอืด (obstruction) · ไข้ ถ่ายบ่อย ปวดข้อ ผื่น (IBD) · เดินทาง / อาหาร (infectious colitis) · ครอบครัวมะเร็งลำไส้ / polyp · เคย colonoscopy · ฉายแสงเชิงกราน","<b>Ix:</b> <b>colonoscopy with biopsy</b> (ดูทั้งลำไส้) · ทำไม่ได้ → CT colonography / double-contrast barium enema · CBC, CEA (ใช้ติดตาม) · ยืนยันมะเร็ง → staging CT chest / abdomen / pelvis ± MRI pelvis (rectal cancer)","<b>Dx:</b> colorectal (rectosigmoid) carcinoma จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · DDx: ulcerative colitis, infectious colitis, polyp"],
+       kw:["change in bowel habit, tenesmus, weight loss, anemia","family history of CRC","colonoscopy with biopsy","CEA for follow-up","CT chest / abdomen / pelvis ± MRI pelvis staging"],
+       ddx:["ulcerative colitis","infectious colitis","colonic polyp","radiation proctitis"],
+       members:["MDCU77|RoC|MEQ 1#1","MDCU77|RoC|MEQ 1#2","MDCU77|RoC|MEQ 1#3"]},
+      {id:"gallstone-ileus",
+       title:"Gallstone ileus — Rigler triad บนฟิล์ม",
+       trend:"ถามครั้งเดียว (MDCU72 RoB)",
+       asked:["Plain abdominal film (arrows) → study + describe → Dx → most common site"],
+       flow:["อ่านฟิล์ม: SBO + pneumobilia + ectopic gallstone (Rigler triad)","Dx gallstone ileus","ตำแหน่งที่นิ่วติด + การรักษา"],
+       pattern:["<b>Rigler triad:</b> (1) small bowel obstruction (2) <b>pneumobilia</b> (air in biliary tree) (3) ectopic calcified gallstone (RLQ / pelvis)","กลไก: นิ่วใหญ่ผ่าน cholecystoduodenal (cholecystoenteric) fistula ไปติดที่ <b>terminal ileum</b> (ตำแหน่งแคบสุด — บ่อยที่สุด) · หญิงสูงอายุ","<b>Rx:</b> resuscitation → laparotomy + <b>enterolithotomy</b> (เอานิ่วออกจาก enterotomy เหนือจุดติด) ตรวจหานิ่วก้อนอื่น · fistula / cholecystectomy ทำภายหลังหรือไม่ทำในผู้สูงอายุเสี่ยงสูง","สาเหตุ SBO ที่พบบ่อยที่สุดโดยรวมยังเป็น adhesion"],
+       kw:["Rigler triad: SBO, pneumobilia, ectopic gallstone","cholecystoduodenal fistula","impaction at the terminal ileum","enterolithotomy"],
+       members:["MDCU72|RoB|MEQ 12#1","MDCU72|RoB|MEQ 12#2"]}
+    ]},
+    {title:"Hepatobiliary & pancreas", sections:[
+      {id:"acute-cholecystitis",
+       title:"Acute calculous cholecystitis — US findings, Murphy sign / Murphy point, early LC (TG18)",
+       trend:"ภาพ US ถุงน้ำดีผนังหนา + ภาพกดใต้ชายโครงขวาออกแทบทุกรุ่น ถามชื่อ investigation → บรรยาย → ชื่อ sign / landmark → Dx → management",
+       asked:["หญิง 50 ปี ปวดใต้ลิ้นปี่ 5 ชม. แพทย์กดใต้ชายโครงขวาให้หายใจเข้า ผู้ป่วยหยุดหายใจกลางคัน + US → name imaging → name PE → management","US หญิง 45 ปี ไข้ ปวด RUQ 2 วัน → Dx (บอก US findings) → US ใช้วินิจฉัยโรคศัลย์อะไรได้อีก","RUQ pain + fever + US → investigation → describe → Dx","จุดแดงที่กด (surface anatomy) → ชื่อ sign → อ่าน US → management","ปวดท้อง 3 วันหลังกินหมูกระทะ เคยเป็น 1 เดือนก่อน + US → describe → Dx → treat","Sign + anatomical location (Murphy point) → US findings → Dx + management","US of acute cholecystitis → describe → treatment"],
+       flow:["ชื่อ: ultrasonography of the upper abdomen (hepatobiliary)","บรรยาย US: stone + acoustic shadow / impacted at neck, wall ≥ 4 mm (TG18), pericholecystic fluid, distended GB, sonographic Murphy","PE: Murphy's sign ที่ Murphy point","Dx: acute calculous cholecystitis (TG18 A + B + C)","NPO, IV fluid, analgesia, IV antibiotics → early LC · high risk → PTGBD"],
+       pattern:["<b>US findings:</b> gallstone (echogenic focus + posterior acoustic shadow ± impacted at neck) · <b>GB wall thickening ≥ 4 mm</b> (TG18; TG13 ใช้ ≥ 5 mm) · <b>pericholecystic fluid</b> · distended GB · sonographic Murphy sign (กด probe ตรง GB เจ็บที่สุด) · ± sludge · US = first-line (ไม่มีรังสี ทำข้างเตียง sensitivity นิ่ว ~95%); HIDA เมื่อ US ไม่ชัด","<b>Murphy's sign:</b> กดใต้ชายโครงขวาที่ <b>Murphy point = จุดตัด right costal margin กับ midclavicular line (ขอบนอก rectus, tip of 9th costal cartilage) = fundus ของ GB</b> แล้วให้หายใจเข้าลึก → GB เลื่อนลงชนนิ้ว เจ็บจนหยุดหายใจกลางคัน (inspiratory arrest) · ด้านซ้ายไม่ควรบวก · ความไวลดในผู้สูงอายุ","<b>TG18 diagnosis:</b> A local (Murphy, RUQ mass / pain / tenderness) + B systemic (ไข้, CRP / WBC สูง) + C imaging = definite · grade I mild · II (WBC &gt; 18,000, RUQ mass, &gt; 72 ชม., marked local inflammation) · III organ dysfunction","<b>Management:</b> admit, NPO, IV fluid, analgesia (NSAID / opioid), IV antibiotics (ceftriaxone ± metronidazole; grade I–II หยุดยาภายใน 24 ชม.หลังตัด GB) → <b>early laparoscopic cholecystectomy</b> (ภายใน 72 ชม.–7 วันจากเริ่มอาการ ใน admission เดียวกัน) ในผู้ที่ fit (CCI ≤ 5, ASA ≤ 2) · high-risk / grade III ไม่ตอบสนอง / ผ่าตัดไม่ได้ → <b>percutaneous cholecystostomy (PTGBD)</b> แล้ว interval LC · อาการ 1 สัปดาห์ยังทำ early LC ได้ในศูนย์ที่ชำนาญ","<b>US ใช้อะไรได้อีก:</b> CBD stone / ท่อน้ำดีขยาย ระดับการอุดตัน, liver abscess / mass, pancreatitis / pseudocyst, appendicitis (เด็ก / ตั้งครรภ์), FAST, AAA, hydronephrosis / นิ่วไต, intussusception (target sign), pyloric stenosis, ovarian torsion / ectopic pregnancy, collection, ascites"],
+       kw:["ultrasonography of the upper abdomen","gallstone with posterior acoustic shadow","GB wall thickening ≥ 4 mm (TG18), pericholecystic fluid, distended GB","sonographic Murphy sign","Murphy's sign — inspiratory arrest","Murphy point: right costal margin × midclavicular line (tip of 9th costal cartilage)","Tokyo Guidelines 2018 (local + systemic + imaging)","NPO, IV fluid, IV antibiotics","early laparoscopic cholecystectomy","percutaneous cholecystostomy for high-risk"],
+       ddx:["biliary colic","acute cholangitis","acute pancreatitis","perforated peptic ulcer","right lower lobe pneumonia","hepatitis"],
+       pearls:["ตอบแค่ ‘gallstone’ ไม่บรรยายผนังหนา / น้ำรอบ GB = ได้ไม่เต็ม","Murphy point ต้องบอกเป็น surface anatomy (costal margin × MCL) ไม่ใช่แค่ ‘ใต้ชายโครงขวา’","รอ interval LC 6–8 สัปดาห์ในคนแข็งแรง = แนวคิดเก่า"],
+       members:["MDCU67|RoD|PPT 2#1","MDCU67|RoD|PPT 2#2","MDCU67|RoD|PPT 2#3","MDCU65|RoA|PPT 2#1","MDCU65|RoA|PPT 2#2","MDCU65|RoC|PPT 17#1","MDCU65|RoC|PPT 17#2","MDCU65|RoC|PPT 17#3","MDCU78|RoC|MEQ 6#1","MDCU78|RoC|MEQ 6#2","MDCU77|RoC|MEQ 12#1","MDCU77|RoC|MEQ 12#2","MDCU77|RoC|MEQ 12#3","MDCU77|RoC|MEQ 12#4","MDCU76|RoC|MEQ 1#1","MDCU76|RoC|MEQ 1#2","MDCU76|RoC|MEQ 1#3","MDCU76|RoD|MEQ 9#1","MDCU76|RoD|MEQ 9#2","MDCU76|RoD|MEQ 9#3","MDCU70|RoC|MEQ 7#1","MDCU70|RoC|MEQ 12#1"]},
+      {id:"cholelithiasis",
+       title:"Cholelithiasis บน US และ cholecystectomy — complications ของนิ่ว, ข้อบ่งชี้ LC, specimen ถุงน้ำดี",
+       trend:"ภาพ US นิ่วก้อนเดียว / ถุงน้ำดีที่ผ่าเปิดเห็นนิ่ว ออกสม่ำเสมอ ถาม findings → Dx → complications หรือข้อบ่งชี้ผ่าตัด",
+       asked:["หญิง 48 ปี แน่นลิ้นปี่เป็น ๆ หาย ๆ 6 เดือน + study → investigation → findings → Dx → 2 complications","US abdomen → investigation → findings + Dx (นิ่วก้อนใหญ่)","US นิ่วก้อนเดียว → findings → Dx → treatment","ปวด RUQ หลังอาหารซ้ำ ๆ + US → Dx → advice + treatment","ภาพอวัยวะที่ผ่าออก → organ → สิ่งที่อยู่ข้างใน → operation + indications"],
+       flow:["US: echogenic focus + posterior acoustic shadow + เคลื่อนตามท่า (ผนังไม่หนา ไม่มีน้ำรอบ)","Dx: cholelithiasis (symptomatic = biliary colic)","Symptomatic → elective LC · asymptomatic → observe ยกเว้นข้อบ่งชี้","Complications ของนิ่ว"],
+       pattern:["<b>เกณฑ์นิ่วบน US:</b> echogenic (hyperechoic) focus + <b>posterior acoustic shadow</b> + <b>mobile</b> (gravity-dependent) · polyp = echogenic ไม่มี shadow ไม่เคลื่อน · sludge ไม่มี shadow","<b>Biliary colic:</b> ปวด RUQ / ลิ้นปี่หลังอาหารมัน 30 นาที–6 ชม. แล้วหาย ไม่มีไข้ Murphy ลบ → <b>elective laparoscopic cholecystectomy</b> · ระหว่างรอ ลดอาหารมัน · มาทันทีถ้าปวด &gt; 6 ชม. ไข้ ตัวเหลือง ปวดร้าวหลัง","<b>Asymptomatic:</b> observe · ผ่าเมื่อ นิ่ว &gt; 2–3 cm, porcelain GB, polyp ≥ 1 cm, (sickle cell / ข้อบ่งชี้พิเศษ)","<b>Complications:</b> acute cholecystitis (empyema, gangrene, perforation) · choledocholithiasis → obstructive jaundice / acute cholangitis · gallstone (biliary) pancreatitis · Mirizzi syndrome · cholecystoenteric fistula → gallstone ileus · gallbladder cancer (นิ่วใหญ่ &gt; 3 cm, porcelain GB) — นิ่วเล็กหลุดลงท่อง่าย (pancreatitis / cholangitis) นิ่วใหญ่ → cholecystitis / fistula / ileus / cancer","<b>Indications for (L)C:</b> symptomatic gallstone · acute cholecystitis · หลัง gallstone pancreatitis (mild → ใน admission เดียวกัน) / CBD stone ที่เคลียร์แล้ว / cholangitis · GB polyp ≥ 1 cm · porcelain GB · asymptomatic stone &gt; 3 cm"],
+       kw:["echogenic focus with posterior acoustic shadow, mobile","cholelithiasis","biliary colic → elective laparoscopic cholecystectomy","asymptomatic: observe unless &gt; 2–3 cm, porcelain GB, polyp ≥ 1 cm","complications: cholecystitis, choledocholithiasis / cholangitis, pancreatitis, Mirizzi, gallstone ileus, GB cancer"],
+       ddx:["gallbladder polyp","sludge","adenomyomatosis","renal stone (ถ้าภาพเป็นไต)"],
+       pearls:["ใช้ ‘posterior acoustic shadow’ คำนี้ — rubric ให้คะแนนตรงนี้","ไม่ผ่าตัด asymptomatic stone ทุกราย"],
+       members:["MDCU67|RoA|MEQ 3#1","MDCU67|RoA|MEQ 3#2","MDCU67|RoA|MEQ 3#3","MDCU67|RoA|MEQ 3#4","MDCU65|RoC|PPT 1#1","MDCU65|RoC|PPT 1#2","MDCU75|RoC|MEQ 7#1","MDCU75|RoC|MEQ 7#2","MDCU75|RoC|MEQ 7#3","MDCU73|RoB|MEQ 5#1","MDCU73|RoB|MEQ 5#2","MDCU72|RoB|MEQ 1#1","MDCU72|RoB|MEQ 1#2","MDCU69|RoC|MEQ 2#1"]},
+      {id:"obstructive-jaundice",
+       title:"Painless obstructive jaundice — cholestatic LFT, Courvoisier sign, periampullary cancer, ERCP double duct, Whipple",
+       trend:"ให้ LFT ตัวเหลืองไม่ปวด / ภาพคลำ GB ได้ / ERCP ถาม pattern → sign → DDx (benign vs malignant) → investigation → Whipple",
+       asked:["ชาย 65 ปี ตัวเหลืองไม่ปวด 6 สัปดาห์ + LFT (DB 11.8, ALP 620, GGT 540) → term ของ pattern → DDx","ชาย 35 ปี ตัวเหลือง 1 เดือนไม่ปวดไม่ไข้ TB 21 DB 17 ALP 240 → type of hyperbilirubinemia → 3 DDx","ตัวเหลืองอุจจาระซีด + ภาพก้อน A → A คืออะไร ชื่อ sign → โรค → การรักษา","ตัวเหลือง คลำ cystic mass ไม่เจ็บใต้ชายโครง เคลื่อนตามหายใจ → sign → DDx (1 benign 4 malignant) → full name investigation → identify A and B"],
+       flow:["LFT: direct &gt; 50% + ALP / GGT เด่นกว่า AST / ALT = cholestatic (obstructive) pattern","ตรวจร่างกาย: palpable non-tender GB = Courvoisier sign","DDx periampullary malignancy ± benign","US → CT pancreatic protocol / MRCP / ERCP, CA 19-9","Resectable → Whipple · unresectable → stent + chemo"],
+       pattern:["<b>Pattern:</b> conjugated (direct) hyperbilirubinemia (direct &gt; 50% ของ total) + ALP / GGT สูงเด่นกว่า transaminase = <b>cholestatic / obstructive jaundice</b>","<b>Courvoisier sign (law):</b> ตัวเหลือง + คลำ GB ได้ไม่เจ็บ → มักไม่ใช่นิ่ว (GB ที่มีนิ่วเรื้อรังมัก fibrotic หดตัว) → นึกถึง malignant obstruction ส่วนปลาย","<b>DDx painless progressive obstructive jaundice:</b> malignant periampullary — <b>carcinoma head of pancreas</b> (บ่อยสุด พยากรณ์แย่สุด), distal cholangiocarcinoma, ampullary carcinoma (มาเร็ว พยากรณ์ดีสุด), duodenal carcinoma · hilar cholangiocarcinoma (Klatskin — GB ไม่โต) · metastatic LN ที่ porta · benign — CBD stone ที่ไม่ปวด, benign stricture, chronic pancreatitis (inflammatory mass), choledochal cyst, PSC · intrahepatic: drug-induced, PBC","ตัวเหลืองไม่ปวด + น้ำหนักลดในผู้สูงอายุ = มะเร็งจนกว่าจะพิสูจน์","<b>Work-up:</b> US (ท่อขยาย ระดับการอุดตัน) → CT pancreatic protocol / MRCP · CA 19-9 · EUS ± biopsy · <b>ERCP:</b> CBD (A) ตีบส่วนปลาย ส่วนบนขยาย + main pancreatic duct (B) ตีบ = <b>double duct sign</b> (CA head of pancreas) · brush cytology + stent","<b>Rx:</b> resectable → <b>pancreaticoduodenectomy (Whipple)</b> (ตัด head of pancreas, duodenum, distal CBD, GB ± distal stomach → pancreaticojejunostomy, hepaticojejunostomy, gastro / duodenojejunostomy) + adjuvant chemotherapy (mFOLFIRINOX) · cholangitis / bilirubin สูงมาก → preoperative drainage บางราย · unresectable → biliary stent (ERCP) + chemotherapy"],
+       kw:["cholestatic (obstructive) pattern: direct &gt; 50%, ALP / GGT ↑","Courvoisier sign (palpable non-tender gallbladder + jaundice)","periampullary cancer: head of pancreas, ampulla, distal CBD, duodenum","CT pancreatic protocol / MRCP, CA 19-9","ERCP: double duct sign","pancreaticoduodenectomy (Whipple)","biliary stent if unresectable"],
+       ddx:["carcinoma head of pancreas","ampullary carcinoma","distal cholangiocarcinoma","duodenal carcinoma","Klatskin tumor","choledocholithiasis","chronic pancreatitis","choledochal cyst"],
+       pearls:["บอกแค่ ‘direct hyperbilirubinemia’ ไม่บอก obstructive / cholestatic pattern = ไม่ครบ (คีย์เก่า MDCU65 RoA)","ใส่ hepatitis เป็น DDx หลักทั้งที่ ALP เด่น = อ่าน pattern ผิด"],
+       members:["MDCU65|RoA|PPT 1#1","MDCU69|RoA|MEQ 1#1","MDCU69|RoA|MEQ 1#2","MDCU76|RoC|MEQ 5#1","MDCU76|RoC|MEQ 5#2","MDCU76|RoC|MEQ 5#3","MDCU72|RoC|MEQ 1#1","MDCU72|RoC|MEQ 1#2","MDCU72|RoC|MEQ 1#3","MDCU72|RoC|MEQ 1#4"]},
+      {id:"ercp-cbd-stone",
+       title:"ERCP (ชื่อเต็ม, โครงสร้างบนภาพ, ข้อบ่งชี้) และ choledocholithiasis",
+       trend:"ภาพ ERCP ให้ชื่อเต็ม / ชี้ cystic duct–CHD–PD–CBD / ข้อบ่งชี้ (MDCU67, 77) และ US CBD stone (MDCU77)",
+       asked:["Endoscopic contrast study ของท่อน้ำดี → full name → 2 conditions that benefit","Biliary procedure image arrows A–D → full name → identify cystic duct, CHD, pancreatic duct, CBD → 2 indications","หญิง 40 ปี ตัวเหลือง ปวด RUQ หลังอาหาร CBD ขยายหนามี filling defect Murphy ลบ → investigation → detailed Dx → management"],
+       flow:["Endoscopic retrograde cholangiopancreatography","ระบุโครงสร้าง","ข้อบ่งชี้ (therapeutic เป็นหลัก)","CBD stone: ERCP + sphincterotomy + stone extraction → LC"],
+       pattern:["<b>ERCP = endoscopic retrograde cholangiopancreatography</b> — side-viewing duodenoscope ถึง ampulla of Vater cannulate ฉีด contrast ย้อน · ปัจจุบันใช้เพื่อ<b>รักษา</b>เป็นหลัก (วินิจฉัยใช้ MRCP / EUS)","<b>โครงสร้าง:</b> cystic duct = ท่อเล็กคดเคี้ยวไป GB · common hepatic duct = เหนือจุดรวม cystic duct · CBD = ใต้จุดรวมลงสู่ ampulla · main pancreatic duct = วิ่งแนวขวางไปทางซ้าย รวมกับ CBD ที่ ampulla","<b>Indications:</b> choledocholithiasis (sphincterotomy + stone extraction) · acute cholangitis (biliary drainage) · malignant biliary obstruction (stent + brush cytology) · gallstone pancreatitis <b>ที่มี cholangitis หรือท่อน้ำดีอุดตันต่อเนื่อง</b> · bile leak หลังผ่าตัด · benign stricture","<b>Complications:</b> post-ERCP pancreatitis (~3–10%), bleeding, perforation, cholangitis","<b>Choledocholithiasis:</b> US ไวต่อนิ่วใน GB &gt; 95% แต่ต่ำสำหรับนิ่วปลาย CBD · ASGE 2019 high likelihood (CBD stone บน US / cross-sectional, หรือ bilirubin &gt; 4 mg/dL + CBD ขยาย, หรือ ascending cholangitis) → ERCP โดยตรง · intermediate → MRCP / EUS · Rx: NPO / IV fluid, LFT, coagulation (vitamin K) → ERCP sphincterotomy + extraction → <b>LC ใน admission เดียวกัน</b> · มี cholangitis → antibiotics + urgent drainage · แยก Mirizzi syndrome"],
+       kw:["endoscopic retrograde cholangiopancreatography","side-viewing duodenoscope, ampulla of Vater","cystic duct / common hepatic duct / CBD / pancreatic duct","choledocholithiasis → sphincterotomy + stone extraction","acute cholangitis → biliary drainage","malignant obstruction → stent","post-ERCP pancreatitis","ASGE 2019 high-likelihood criteria","laparoscopic cholecystectomy in the same admission"],
+       pearls:["คีย์เก่า MDCU67 RoA ให้ ‘acute pancreatitis’ เป็นข้อบ่งชี้ — ใช้เฉพาะ gallstone pancreatitis ที่มี cholangitis / ท่ออุดต่อเนื่อง ไม่ใช่ pancreatitis ทุกราย","ตอบ ERCP เพื่อ ‘วินิจฉัย’ เป็นหลักในยุคปัจจุบัน = อ่อน"],
+       members:["MDCU67|RoA|MEQ 7#1","MDCU67|RoA|MEQ 7#2","MDCU77|RoB|MEQ 6#1","MDCU77|RoB|MEQ 6#2","MDCU77|RoB|MEQ 6#3","MDCU77|RoA|MEQ 12#1","MDCU77|RoA|MEQ 12#2","MDCU77|RoA|MEQ 12#3"]},
+      {id:"acute-pancreatitis",
+       title:"Acute pancreatitis (alcohol / gallstone) — Revised Atlanta, DDx, labs ความรุนแรง, imaging, การรักษา",
+       trend:"ชุดสไลด์ต่อเนื่อง MDCU65 RoB (Dx → DDx / Ix → treatment) และ MDCU78 RoA (US นิ่ว + ปวดทะลุหลัง → labs ยืนยัน / ความรุนแรง → imaging)",
+       asked:["ชาย 45 ปี ดื่มหนัก ปวดลิ้นปี่ทะลุหลัง 12 ชม. โน้มตัวไปหน้าดีขึ้น → most likely Dx → diagnostic criteria","(ต่อ) DDx → investigations","(ต่อ) Outline the treatment","หญิง 50 ปี ปวดลิ้นปี่ทะลุหลัง + US นิ่ว → provisional Dx → 2 labs ยืนยัน + 4 labs ความรุนแรง → 1 imaging ยืนยัน"],
+       flow:["Dx ด้วย Revised Atlanta 2/3","DDx ที่อันตราย","Labs วินิจฉัย / หาสาเหตุ / ความรุนแรง + imaging","Supportive care: fluid, analgesia, early feeding","รักษาสาเหตุ (หยุดสุรา / cholecystectomy / ERCP ถ้ามีข้อบ่งชี้) + ภาวะแทรกซ้อน"],
+       pattern:["<b>Revised Atlanta 2012 — ≥ 2 ใน 3:</b> (1) ปวดท้องเข้าได้ (epigastric เฉียบพลันรุนแรงทะลุหลัง) (2) serum lipase (หรือ amylase) ≥ 3 เท่า ULN (3) imaging (CECT / MRI / US) เข้าได้ · lipase จำเพาะและสูงนานกว่า · ครบ 2 ข้อแรกไม่ต้อง CT","<b>สาเหตุ:</b> gallstone (อันดับ 1 โดยรวม โดยเฉพาะหญิง) และ alcohol · อื่น: hypertriglyceridemia, hypercalcemia, post-ERCP, ยา, trauma","<b>DDx:</b> perforated PU, acute cholecystitis / cholangitis / biliary colic, acute inferior MI, ruptured / dissecting AAA, acute mesenteric ischemia, bowel obstruction, (DKA, lower lobe pneumonia)","<b>Labs:</b> lipase ± amylase · CBC (Hct), BUN / Cr, electrolytes, calcium, glucose, LFT (ALT &gt; 150 → นึกนิ่ว; bilirubin / ALP → biliary obstruction), triglyceride, LDH, AST, CRP (&gt; 150 mg/L ที่ 48 ชม.), ABG / lactate (PaO₂, base deficit), coagulation · ECG · upright CXR / AAS · <b>US abdomen ทุกราย</b> (หานิ่ว) · <b>CECT</b> เมื่อวินิจฉัยไม่ชัด หรือหลัง 72–96 ชม.ถ้าไม่ดีขึ้น (necrosis, CT severity index) — ไม่จำเป็นต้องทำทันที","<b>ความรุนแรง:</b> SIRS, BUN, Hct, BISAP, Ranson (48 ชม.), Glasgow, APACHE II, modified Marshall · mild (ไม่มี organ failure) / moderately severe (transient OF &lt; 48 ชม. หรือ local complication) / severe (persistent OF &gt; 48 ชม.)","<b>Treatment:</b> ward / ICU ถ้า severe · <b>goal-directed moderate fluid</b> Ringer's lactate (เช่น bolus 10 mL/kg ถ้า hypovolemic แล้ว ~1.5 mL/kg/ชม.) titrate urine ≥ 0.5 mL/kg/ชม., HR, BUN, Hct — เลี่ยง aggressive (WATERFALL 2022, ACG 2024) · analgesia (opioid ได้) · antiemetic · O₂ · <b>early oral feeding ภายใน 24–72 ชม.</b> ไม่ต้อง NPO นาน; กินไม่ได้ → enteral ก่อน TPN · <b>ไม่ให้ prophylactic antibiotics</b> (ให้เมื่อ infected necrosis) · alcohol: หยุดสุรา thiamine benzodiazepine กัน withdrawal · gallstone mild → cholecystectomy ใน admission เดียวกัน · ERCP เฉพาะ cholangitis / ท่ออุดต่อเนื่อง · collection / walled-off necrosis → step-up (percutaneous / endoscopic drainage → necrosectomy)"],
+       kw:["Revised Atlanta: 2 of 3 (pain, lipase ≥ 3× ULN, imaging)","gallstone and alcohol","lipase / amylase","BUN, Hct, glucose, calcium, LDH, AST, CRP, ABG (Ranson / BISAP)","US for gallstones in every patient","CECT if diagnosis unclear or after 72 h","goal-directed moderate Ringer's lactate","early oral feeding","no prophylactic antibiotics","same-admission cholecystectomy for mild gallstone pancreatitis","ERCP only if cholangitis / persistent obstruction"],
+       ddx:["perforated peptic ulcer","acute cholecystitis / cholangitis","inferior wall MI","ruptured / dissecting AAA","acute mesenteric ischemia","bowel obstruction"],
+       pearls:["สั่ง CECT ทันทีทุกรายตั้งแต่วันแรก = ไม่จำเป็น","ให้ prophylactic antibiotics / NPO นาน = แนวคิดเก่า","MDCU78 RoA ไม่มีเฉลยในไฟล์ — คลังตีความเป็น gallstone pancreatitis"],
+       members:["MDCU65|RoB|PPT 2#1","MDCU65|RoB|PPT 3#1","MDCU65|RoB|PPT 4#1","MDCU78|RoA|MEQ 2#1","MDCU78|RoA|MEQ 2#2","MDCU78|RoA|MEQ 2#3"]},
+      {id:"insulinoma",
+       title:"Insulinoma — hypoglycemia ซ้ำ + enhancing pancreatic lesion",
+       trend:"ถามครั้งเดียว (MDCU72 RoB): ผู้สูงอายุหมดสติซ้ำ DTX 40 + CT",
+       asked:["หมดสติซ้ำ PE ปกติ DTX 40 mg/dL + CT (arrow) → Dx → pathophysiology → investigations"],
+       flow:["Dx insulinoma","Whipple triad + กลไก","Biochemical confirmation (72-h fast)","Localization","Rx enucleation"],
+       pattern:["<b>Insulinoma</b> = β-cell tumor หลั่ง insulin อิสระ ไม่ถูกกดเมื่อน้ำตาลต่ำ → fasting hypoglycemia → neuroglycopenia (สับสน หมดสติ ชัก) + adrenergic symptoms · ส่วนใหญ่เดี่ยว benign เล็ก (MEN1 ให้คิดหลายก้อน)","<b>Whipple triad:</b> อาการ hypoglycemia + glucose ต่ำ (&lt; 55 mg/dL) + อาการหายเมื่อให้ glucose","<b>72-hour supervised fast:</b> ขณะ glucose &lt; 55: insulin ≥ 3 µU/mL, C-peptide ≥ 0.6 ng/mL, proinsulin ≥ 5 pmol/L, β-hydroxybutyrate ต่ำ, sulfonylurea screen ลบ (แยก factitious)","<b>Localize:</b> CT / MRI (hyperenhancing lesion), endoscopic ultrasound, (Ga-68 DOTATATE / exendin PET) · <b>Rx:</b> enucleation (หรือ distal pancreatectomy ตามตำแหน่ง) · ผ่าไม่ได้ → diazoxide"],
+       kw:["insulinoma (β-cell tumor)","Whipple triad","72-hour supervised fast","inappropriately high insulin, C-peptide, proinsulin","negative sulfonylurea screen","CT / MRI / EUS localization","enucleation"],
+       ddx:["factitious hypoglycemia (insulin / sulfonylurea)","non-islet cell tumor hypoglycemia","adrenal insufficiency"],
+       pearls:["ลืมตรวจ C-peptide / sulfonylurea เพื่อแยก exogenous insulin"],
+       members:["MDCU72|RoB|MEQ 4#1","MDCU72|RoB|MEQ 4#2","MDCU72|RoB|MEQ 4#3"]}
+    ]},
+    {title:"Breast", sections:[
+      {id:"mammogram",
+       title:"Mammogram (MLO / CC) — อ่านภาพตาม BI-RADS → Dx → next investigation",
+       trend:"ภาพ mammogram ออกทุกรอบตั้งแต่ MDCU74 ถามชื่อ view → บรรยาย → BI-RADS / Dx → ตรวจต่อ (core biopsy)",
+       asked:["Two images A and B → name imaging → which views → describe → Dx → next investigation","Mammogram 2 views หญิง 55 ปี spiculated + calcification ไม่มี LN → film → Dx + 2 reasons → next","Annual check-up 45 ปี → views → describe → Dx → risk factors → further investigation","30-year-old check-up → views → read → Dx (fibroadenoma) → further","Mammogram L UOQ mass → findings to report → Dx → further","R UOQ mass + axillary nodes → views → findings → Dx → 2 further investigations","Breast image → name the view → describe"],
+       flow:["ชื่อ: mammography · views: MLO (เห็น pectoralis เป็นสามเหลี่ยมมุมบน + axillary tail) และ CC","บรรยายตาม BI-RADS: composition → mass (location, size, shape, margin, density) → calcifications → architectural distortion → associated features (skin, nipple, axillary node)","BI-RADS category → Dx","Next: US ± core needle biopsy (+ receptor)"],
+       pattern:["<b>Views:</b> screening = 2 views ต่อข้าง — <b>MLO</b> (เห็นเนื้อเต้านมมากสุด pectoralis major + axillary tail; แบ่ง upper / lower) และ <b>CC</b> (หัวนมกึ่งกลาง แบ่ง outer / inner) · diagnostic เพิ่ม spot compression / magnification","<b>ลักษณะร้าย:</b> irregular, <b>spiculated</b> high-density mass · fine pleomorphic / fine linear branching microcalcifications · architectural distortion · skin thickening / nipple retraction · axillary lymphadenopathy → <b>BI-RADS 5 (≥ 95% malignant)</b> (ACR BI-RADS v2025 — category / ค่าความเสี่ยงคงเดิม)","<b>ลักษณะไม่ร้าย:</b> round / oval, circumscribed margin, ไม่มี calcification → fibroadenoma / cyst (BI-RADS 3 = probably benign &lt; 2% → follow-up 6 เดือน; ถ้าคลำได้ / ไม่แน่ใจ → US ± biopsy)","<b>Next (triple assessment):</b> breast + axillary US → <b>image-guided core needle biopsy</b> (US-guided; stereotactic สำหรับ calcification) + ER / PR / HER2 / Ki-67 · LN ผิดปกติ → US-guided FNA / core · ทำ imaging ก่อน biopsy (hematoma รบกวนภาพ)","หญิงอายุน้อย (&lt; 30–35 ปี): US เป็นตัวแรก (เนื้อเต้านมแน่น) · fibroadenoma พบบ่อยสุด &lt; 30–35 ปี · screening mammogram แนะนำเริ่มอายุ 40 ปี","Axillary node ปกติบน mammogram ไม่ได้ตัดการกระจาย → ประเมินด้วย US / SLNB"],
+       kw:["mammography: MLO and CC views","pectoralis major on MLO","irregular spiculated mass","fine pleomorphic / linear branching microcalcifications","BI-RADS 5 (≥ 95% malignancy)","circumscribed oval mass → BI-RADS 3 (fibroadenoma / cyst)","US-guided core needle biopsy + ER / PR / HER2","stereotactic biopsy for calcifications","axillary US ± FNA"],
+       ddx:["invasive carcinoma","fibroadenoma","cyst","phyllodes tumor","fat necrosis"],
+       pearls:["สลับ A / B (MLO vs CC) — ดูแถบ pectoralis","ตอบ FNA แทน core biopsy (ไม่ได้ histology / receptor)","คีย์ MDCU75 RoC ตอบ ‘core needle biopsy + ALND’ — ALND ไม่ใช่การตรวจถัดไป ต้องยืนยัน node ด้วย US + FNA / core ก่อน","หลายรุ่นไม่มีรูปจริง (คลังแต่งลักษณะภาพ) — จำกรอบการอ่านให้ครบ"],
+       members:["MDCU78|RoB|MEQ 6#1","MDCU78|RoB|MEQ 6#2","MDCU78|RoB|MEQ 6#3","MDCU78|RoB|MEQ 6#4","MDCU78|RoB|MEQ 6#5","MDCU78|RoC|MEQ 13#1","MDCU78|RoC|MEQ 13#2","MDCU78|RoC|MEQ 13#3","MDCU77|RoA|MEQ 13#1","MDCU77|RoA|MEQ 13#2","MDCU77|RoA|MEQ 13#3","MDCU77|RoA|MEQ 13#4","MDCU77|RoA|MEQ 13#5","MDCU77|RoC|MEQ 5#1","MDCU77|RoC|MEQ 5#2","MDCU77|RoC|MEQ 5#3","MDCU77|RoC|MEQ 5#4","MDCU77|RoD|MEQ 9#1","MDCU77|RoD|MEQ 9#2","MDCU77|RoD|MEQ 9#3","MDCU77|RoD|MEQ 9#4","MDCU76|RoD|MEQ 2#1","MDCU76|RoD|MEQ 2#2","MDCU76|RoD|MEQ 2#3","MDCU75|RoC|MEQ 3#1","MDCU75|RoC|MEQ 3#2","MDCU75|RoC|MEQ 3#3","MDCU75|RoC|MEQ 3#4","MDCU74|RoA|SEQ 4#1","MDCU74|RoA|SEQ 4#2","MDCU74|RoA|SEQ 4#3","MDCU74|RoA|SEQ 4#4","MDCU74|RoD|MEQ 7#1","MDCU74|RoD|MEQ 7#2"]},
+      {id:"breast-staging",
+       title:"Locally advanced / inflammatory breast cancer และ clinical TNM staging (AJCC 8th)",
+       trend:"ภาพเต้านมแดงบวม peau d'orange ± fixed axillary node ± bone scan และโจทย์ข้อความให้ staging ออกต่อเนื่อง MDCU65–76",
+       asked:["หญิงตึงเต้านมซ้าย 4 เดือน + ภาพ → describe → provisional Dx → investigations → stage","เต้านม 4.5 cm fixed (pectoral fascia) + fixed matted axillary node ไม่มี metastasis → clinical TNM + stage","ก้อน 1.5 × 2 cm + fixed matted axillary node → clinical TNM → anatomic stage","เต้านมซ้ายแดงโต fixed axillary node → describe → suspected Dx → investigations → รูปที่สอง (bone scan) + staging ให้ครบ","ภาพ peau d'orange → describe → Dx → further investigations","เต้านมซ้ายแดงบวม หัวนมบุ๋ม peau d'orange matted axillary node → all findings → clinical staging → confirm Dx"],
+       flow:["บรรยายผิวหนัง: erythema (กว้างเท่าไร), peau d'orange, ulcer, satellite nodule, nipple retraction, ก้อน, รักแร้ / supraclavicular","Dx: LABC / inflammatory breast cancer (DDx mastitis / abscess)","Triple assessment + receptor","Systemic staging (CT / bone scan)","ให้ TNM → stage","แผนการรักษา: neoadjuvant → surgery → RT"],
+       pattern:["<b>T (clinical, AJCC 8th):</b> T1 ≤ 2 cm (T1c &gt; 1–2 cm) · T2 &gt; 2–5 cm · T3 &gt; 5 cm · <b>T4</b> ไม่ขึ้นกับขนาด: T4a ติดผนังทรวงอก (ซี่โครง, intercostal, serratus anterior — ติดแค่ pectoralis ไม่นับ) · <b>T4b</b> skin: edema / peau d'orange, ulcer, satellite nodules · T4c = a + b · <b>T4d inflammatory</b> (erythema + edema ≥ 1/3 ของเต้านม เกิดเร็ว)","<b>N (clinical):</b> cN1 axillary level I–II <b>เคลื่อนได้</b> · <b>cN2a axillary fixed / matted</b> · cN2b internal mammary อย่างเดียว · cN3a infraclavicular · cN3b internal mammary + axillary · cN3c supraclavicular","<b>Anatomic stage:</b> N2 ใด ๆ กับ T0–3 = <b>IIIA</b> · T4 (N0–2) = <b>IIIB</b> · N3 = IIIC · M1 = IV · ตัวอย่าง: 4.5 cm + fixed matted axillary = cT2 cN2a M0 = IIIA · 1.5 × 2 cm + matted axillary = cT1c cN2a M0 = IIIA · peau d'orange + matted axillary = T4b / T4d N2a M0 = IIIB · + bone mets = T4 N2 M1 = IV","<b>Investigations:</b> bilateral mammogram + breast / axillary US · core needle biopsy ก้อน (± skin punch biopsy ยืนยัน dermal lymphatic invasion ใน IBC) + ER / PR / HER2 / Ki-67 · biopsy LN · systemic staging (locally advanced): CT chest / abdomen (หรือ CXR + US liver), <b>bone scan</b> หรือ PET-CT, LFT, ALP, Ca · baseline echo ถ้าจะให้ anthracycline / anti-HER2","<b>Rx LABC / IBC:</b> neoadjuvant systemic therapy → modified radical mastectomy (+ ALND) → radiotherapy · stage IV → systemic therapy ตาม receptor เป็นหลัก","เต้านมแดงบวมที่ไม่ดีขึ้นหลัง antibiotics 1–2 สัปดาห์ หรือไม่ได้ให้นม → biopsy เสมอ"],
+       kw:["peau d'orange (dermal lymphatic obstruction) = T4b","inflammatory breast cancer = T4d (erythema ≥ 1/3)","fixed / matted axillary nodes = cN2a","chest wall (not pectoralis) = T4a","N2 with T0–3 = IIIA, T4 = IIIB, N3 = IIIC, M1 = IV","core needle biopsy ± skin punch biopsy, ER / PR / HER2","bone scan / CT for staging","neoadjuvant systemic therapy → mastectomy → radiotherapy"],
+       ddx:["lactational mastitis / breast abscess","granulomatous mastitis","periductal mastitis"],
+       pearls:["นับ ‘ติด pectoralis’ เป็น T4 = ผิด (MDCU65 RoB คำว่า fixed กำกวม; ถ้าหมายถึงผนังอกจริงจะเป็น T4a → IIIB)","ก้อนเล็กแต่ node fixed ยังเป็น IIIA — stage กระโดดตาม N","คีย์ MDCU76 RoC ให้ T4b N2 M1 → stage IV (ถูก; T ใดก็เป็น IV เมื่อ M1)"],
+       members:["MDCU66|RoA|PPT 4#1","MDCU66|RoA|PPT 4#2","MDCU66|RoA|PPT 4#3","MDCU66|RoA|PPT 4#4","MDCU65|RoB|PPT 9#1","MDCU65|RoC|PPT 4#1","MDCU65|RoC|PPT 4#2","MDCU76|RoC|MEQ 4#1","MDCU76|RoC|MEQ 4#2","MDCU76|RoC|MEQ 4#3","MDCU76|RoC|MEQ 4#4","MDCU72|RoD|MEQ 10#1","MDCU72|RoD|MEQ 10#2","MDCU69|RoC|MEQ 3#1","MDCU69|RoC|MEQ 3#2","MDCU69|RoC|MEQ 3#3"]},
+      {id:"mastitis",
+       title:"Lactational mastitis และ breast abscess (แยก inflammatory breast cancer)",
+       trend:"ภาพเต้านมแดงเป็นรูปลิ่มในหญิงให้นมบุตรออก MDCU65–67 และ MDCU72 ถาม describe → DDx → treatment",
+       asked:["หญิงให้นมบุตร + ภาพเต้านม → describe the lesion → 2 DDx","หญิง 27 ปีให้นมลูก 4 สัปดาห์ ไข้ ปวดเต้า 2 วัน → Dx → treatment","6 สัปดาห์หลังคลอด ได้ยา 5 วันไม่ดีขึ้น คลำ fluctuant → Dx → management","หญิงสาวปวดแดงเต้านม มีไข้ → DDx → treatment"],
+       flow:["บรรยาย: erythema รูปลิ่ม ตำแหน่ง (เช่น UOQ ติด areola), ไม่มี ulcer / discharge / peau d'orange, fluctuation?","Dx / DDx","Mastitis: ให้นมต่อ + ยาแก้ปวด + ประคบเย็น ± anti-staph antibiotics","ไม่ดีขึ้น / fluctuant → US → aspiration / I&D","ไม่ตอบสนอง / ไม่ได้ให้นม → biopsy แยก IBC"],
+       pattern:["<b>Lactational (puerperal) mastitis:</b> พบบ่อยใน 6 สัปดาห์แรกหลังคลอด · milk stasis + S. aureus เข้าทางหัวนมแตก · erythema รูปลิ่มตามกลีบ ร้อน กดเจ็บ + ไข้","<b>Rx (ABM Protocol #36, 2022):</b> <b>ให้นมต่อ</b>ตามที่ทารกต้องการ (ไม่ต้องหยุด แต่ไม่ปั๊มเกินจนเต้าเกลี้ยง) · NSAID (ibuprofen) / paracetamol · ประคบเย็น (ไม่ประคบร้อน ไม่นวดแรง) · <b>antibiotic ครอบคลุม S. aureus</b> เมื่อสงสัย bacterial (ไข้ / อาการ systemic, แดงลาม, ไม่ดีขึ้น 12–24 ชม.): dicloxacillin / flucloxacillin / cloxacillin หรือ cephalexin ~10–14 วัน (แพ้ penicillin → clindamycin; MRSA → TMP-SMX / clindamycin) ± milk culture · ยาเหล่านี้ปลอดภัยกับการให้นม","<b>Breast abscess:</b> ไม่ดีขึ้นใน 48–72 ชม. / คลำ fluctuant → <b>US</b> ยืนยัน → <b>US-guided needle aspiration</b> (ซ้ำได้ทุก 2–3 วัน) เป็นทางเลือกแรก · abscess ใหญ่ / หลายช่อง / ผิวบางใกล้แตก / aspiration ไม่สำเร็จ → incision & drainage (แนวรัศมี / รอบ areola ห่างหัวนม) + ส่ง culture · ให้นมต่อได้ (ถ้าแผลไม่ใกล้หัวนม หรือปั๊มทิ้ง)","<b>แยก inflammatory breast cancer:</b> erythema / edema กว้าง ≥ 1/3 เต้า, peau d'orange, ไม่ค่อยมีไข้, ไม่ตอบสนองยา 1–2 สัปดาห์, ไม่ได้ให้นม → mammogram / US + core / skin punch biopsy · non-lactational: periductal mastitis (สูบบุหรี่ รอบ areola เป็นซ้ำ / fistula), idiopathic granulomatous mastitis"],
+       kw:["lactational (puerperal) mastitis","wedge-shaped erythema, fever","continue breastfeeding","NSAID, cold compress","anti-staphylococcal antibiotic (dicloxacillin / cephalexin) 10–14 days","breast abscess → ultrasound → needle aspiration / I&D","inflammatory breast cancer if no response → biopsy"],
+       ddx:["breast abscess","inflammatory breast cancer","engorgement / plugged duct","periductal mastitis","granulomatous mastitis"],
+       pearls:["สั่งหยุดให้นม = ผิด (ทำให้ milk stasis และเกิดฝีมากขึ้น)","ลืมบอก IBC เป็น DDx เสียคะแนนทุกรุ่น","I&D เป็นตัวแรกแทน aspiration — แนวทางปัจจุบันเริ่มที่ US-guided aspiration"],
+       members:["MDCU67|RoC|MEQ 10#1","MDCU67|RoC|MEQ 10#2","MDCU66|RoD|PPT 1#1","MDCU65|RoA|PPT 7#1","MDCU65|RoC|PPT 11#1","MDCU65|RoC|PPT 11#2","MDCU72|RoA|MEQ 10#1","MDCU72|RoA|MEQ 10#2"]},
+      {id:"breast-lump-workup",
+       title:"Breast lump — ประวัติที่ต้องถาม และ triple assessment",
+       trend:"MDCU65 ถามสองแบบ: ซักประวัติเพิ่มจากภาพก้อน และ 2 investigations ในหญิง 45 ปี",
+       asked:["ภาพเต้านมมีก้อน → What further history would you take?","หญิง 45 ปี คลำก้อนได้ → 2 investigations ที่จะส่งเพื่อวินิจฉัย"],
+       flow:["ประวัติก้อน → อาการเฉพาะที่ → อาการแพร่กระจาย → ปัจจัยเสี่ยง → อื่น ๆ","Triple assessment: clinical + imaging + pathology"],
+       pattern:["<b>ก้อน:</b> พบเมื่อไร อย่างไร โตเร็ว / ช้า เจ็บไหม เปลี่ยนตามรอบเดือนไหม ก้อนอื่น / อีกข้าง","<b>เฉพาะที่:</b> nipple discharge (เลือด), หัวนมบุ๋ม / เปลี่ยน, ผิวบุ๋ม / เปลือกส้ม / แดง / แผล, ก้อนรักแร้","<b>แพร่กระจาย:</b> น้ำหนักลด เบื่ออาหาร ปวดกระดูก ไอ / หอบ ปวด RUQ / ตัวเหลือง ปวดศีรษะ / อ่อนแรง","<b>Risk factors:</b> อายุ · ครอบครัวมะเร็งเต้านม / รังไข่ (ญาติสายตรง อายุที่เป็น BRCA) · menarche &lt; 12 ปี, menopause &gt; 55 ปี · nulliparity / บุตรคนแรกอายุ &gt; 30 ปี · ไม่ให้นมบุตร · HRT / ยาคุม · ฉายรังสีทรวงอก (Hodgkin) · เคย biopsy (atypical hyperplasia / LCIS) · มะเร็งเต้านมข้างตรงข้าม · สุรา อ้วนหลังหมดประจำเดือน (Gail model)","อื่น: ตั้งครรภ์ / ให้นม (galactocele, abscess), อุบัติเหตุ (fat necrosis), mammogram เดิม, โรคประจำตัว ยา","<b>Triple assessment (อายุ ≥ 40 ปี):</b> (1) imaging — <b>mammogram + breast US</b> (BI-RADS) (2) tissue — <b>core needle biopsy</b> (US-guided) ได้ histology แยก invasive / in situ + ER / PR / HER2 ดีกว่า FNA · อายุ &lt; 30–35 ปี เริ่มด้วย US · ทำ imaging ก่อน biopsy"],
+       kw:["characteristics of the lump (duration, growth, pain, cyclical change)","nipple discharge / retraction, skin changes, axillary lump","symptoms of metastasis","family history (BRCA), menarche, menopause, parity, breastfeeding, hormones, chest irradiation, previous biopsy","triple assessment","mammogram + ultrasound","core needle biopsy"],
+       pearls:["ลืมถามอาการแพร่กระจายและ hormonal risk factors","ตอบ FNA เป็นการตรวจหลัก (ได้แค่ cytology)"],
+       members:["MDCU65|RoB|PPT 8#1","MDCU65|RoC|PPT 16#1"]}
+    ]},
+    {title:"Upper GI — esophagus, stomach, perforation", sections:[
+      {id:"pneumoperitoneum",
+       title:"Pneumoperitoneum (free air under diaphragm) — upright CXR, signs, สาเหตุ, perforated PU",
+       trend:"ฟิล์ม upright CXR / supine AXR เห็น free air ออกเกือบทุกรุ่น ถามชื่อฟิล์ม + ท่า → บรรยาย → สาเหตุ → management",
+       asked:["ชาย 41 ปีปวดท้อง 2 ชม. → ชื่อ radiograph → describe → 2 causes → management","Radiograph → name the study + position → 2 DDx","Sudden epigastric pain ชายวัยกลางคน → describe the film → 2 DDx","Rescue worker 50 ปี guarding → technique (position) → finding → Dx → 2 causes ของโรค","Upright PA CXR ปวดท้องเฉียบพลัน → expected PE → describe → cause → treatment","Supine plain abdomen ชาย 40 ปี → describe abnormalities (ลูกศร) → 2 likely causes","หญิงปวดท้อง guarding → imaging + position → describe → 2 DDx","CXR free air → describe → 2 DDx → treatment"],
+       flow:["ชื่อ: chest X-ray PA upright (erect) — ผู้ป่วยนั่ง / ยืน 5–10 นาที ก่อนถ่าย","บรรยาย: crescent lucency ใต้ hemidiaphragm (ขวาเห็นง่าย) / supine signs","Dx pneumoperitoneum → hollow viscus perforation","สาเหตุ (perforated PU บ่อยสุด)","Resuscitation → emergency surgery"],
+       pattern:["<b>Upright CXR</b> = ไวที่สุดในฟิล์มธรรมดา เห็น free air ได้ ~1–2 mL ถ้านั่ง / ยืน 5–10 นาที · ลุกไม่ได้ → left lateral decubitus · CT ไวที่สุด","<b>บรรยาย:</b> crescent-shaped radiolucency ใต้ hemidiaphragm สองข้าง / ขวา (ระหว่างกะบังลมกับตับ) · ซ้ายต้องแยก gastric air bubble (มี fundus wall + air-fluid level) · <b>supine film:</b> Rigler (double-wall) sign, football sign, falciform ligament sign, continuous diaphragm sign · pseudo-pneumoperitoneum: Chilaiditi sign (colon แทรกระหว่างตับ–กะบังลม เห็น haustra)","<b>PE ที่คาด:</b> generalized peritonitis — guarding, board-like rigidity, rebound, bowel sound ลด, loss of liver dullness, tachycardia ไข้ (ผู้สูงอายุ / steroid อาจไม่ชัด)","<b>สาเหตุ:</b> <b>perforated peptic ulcer</b> (บ่อยสุดในชายวัยกลางคนปวดลิ้นปี่ทันที; สาเหตุ PU = H. pylori, NSAID / aspirin / steroid / ยาหม้อ, สูบบุหรี่, Zollinger–Ellison) · perforated colon (diverticulitis, cancer), bowel perforation จาก obstruction / ischemia / trauma, perforated gastric cancer · perforated appendicitis (free air น้อย) · ไม่ใช่ perforation: หลังผ่าตัดช่องท้อง / laparoscopy, peritoneal dialysis","<b>Management:</b> resuscitation — NPO, NG decompression, IV crystalloid, Foley วัด urine, labs (CBC, BUN / Cr, electrolyte, lactate, G/M) · IV broad-spectrum antibiotics (ceftriaxone + metronidazole) · IV PPI · analgesia → <b>emergency exploratory laparotomy / laparoscopy</b> → perforated DU: simple closure + omental (Graham) patch + peritoneal lavage · ลำไส้ทะลุ: repair / resection ± stoma · หลังผ่าตัด: ตรวจ / กำจัด H. pylori, หยุด NSAID, PPI · non-operative (Taylor) เฉพาะ contained leak ที่ stable"],
+       kw:["upright (erect) PA chest X-ray","free air under the diaphragm (pneumoperitoneum)","Rigler sign, football sign, falciform ligament sign (supine)","Chilaiditi sign (pseudo-pneumoperitoneum)","board-like rigidity, loss of liver dullness","perforated peptic ulcer (H. pylori, NSAID)","NPO, NG, IV fluid, antibiotics, IV PPI","emergency laparotomy, Graham omental patch"],
+       ddx:["perforated peptic ulcer","perforated diverticulitis / colon cancer","traumatic bowel perforation","post-operative free air","Chilaiditi sign","subphrenic abscess"],
+       pearls:["ตอบ ‘ruptured appendicitis’ เป็นสาเหตุแรกของ free air มาก — ไส้ติ่งแตกมักมีลมน้อย / ไม่มี (คีย์เก่า MDCU67 RoD)","คีย์ MDCU77 RoD ตอบสาเหตุ ‘excessive acid production?’ — คำตอบหลักคือ H. pylori + NSAIDs","ลืมบอกท่า (upright) เมื่อถามชื่อฟิล์ม"],
+       members:["MDCU67|RoA|MEQ 1#1","MDCU67|RoA|MEQ 1#2","MDCU67|RoA|MEQ 1#3","MDCU67|RoA|MEQ 1#4","MDCU67|RoD|PPT 1#1","MDCU67|RoD|PPT 1#2","MDCU65|RoC|PPT 20#1","MDCU65|RoC|PPT 20#2","MDCU77|RoD|MEQ 8#1","MDCU77|RoD|MEQ 8#2","MDCU77|RoD|MEQ 8#3","MDCU77|RoD|MEQ 8#4","MDCU76|RoC|MEQ 2#1","MDCU76|RoC|MEQ 2#2","MDCU76|RoC|MEQ 2#3","MDCU76|RoC|MEQ 2#4","MDCU72|RoC|MEQ 2#1","MDCU72|RoC|MEQ 2#2","MDCU69|RoA|MEQ 2#1","MDCU68|RoC|MEQ 7#1"]},
+      {id:"achalasia",
+       title:"Achalasia — barium swallow (bird's beak), pathology, การยืนยันและการรักษา",
+       trend:"ภาพ barium swallow หลอดอาหารโป่ง ปลายเรียวแหลม ออกแทบทุกรุ่น ถามชื่อ investigation → บรรยาย → Dx → pathology / management",
+       asked:["ชาย 42 ปี กลืนลำบากทั้งของแข็งและเหลวไม่ลุกลาม → investigation → describe → Dx → principal pathology","Contrast study → investigation → Dx → management","Dysphagia + radiological study → provisional Dx → investigation + findings → pathogenesis","Progressive dysphagia + regurgitation อาหารไม่ย่อย → investigation → findings → Dx","Barium swallow bird's beak → describe → Dx","Dysphagia → name → describe → Dx + pathology"],
+       flow:["ชื่อ: barium swallow (esophagogram)","บรรยาย: esophagus ขยาย ± air-fluid level / อาหารค้าง · ปลายตีบเรียวเรียบที่ GEJ (bird's beak) · ไม่มี gastric air bubble · ขอบเรียบไม่มี shouldering","Dx achalasia","ยืนยัน: high-resolution manometry + EGD (แยก pseudoachalasia)","Pathology","Rx"],
+       pattern:["<b>Barium swallow:</b> dilated (± tortuous, sigmoid) esophagus, barium / อาหารค้าง, air-fluid level, <b>smooth tapering ที่ GE junction = bird's beak</b>, ไม่มี peristalsis, ไม่มี gastric air bubble · ถ้าสงสัยทะลุใช้ water-soluble contrast","กลืนลำบากทั้งแข็งและเหลวตั้งแต่แรก = motility disorder · แข็งก่อนแล้วลุกลาม = mechanical (มะเร็ง, stricture)","<b>Pathology:</b> สูญเสีย <b>inhibitory (NO / VIP) neurons ใน myenteric (Auerbach) plexus</b> ของ LES และ esophageal body → LES คลายตัวไม่สมบูรณ์ + aperistalsis → อาหารค้าง หลอดอาหารขยาย · ส่วนใหญ่ idiopathic (สงสัย autoimmune หลังติดเชื้อไวรัส) · secondary: Chagas (Trypanosoma cruzi) · เพิ่มความเสี่ยง SCC","<b>ยืนยัน:</b> high-resolution esophageal manometry (incomplete LES relaxation + aperistalsis; Chicago classification type I–III) · <b>EGD ทุกราย</b> แยก pseudoachalasia (มะเร็ง cardia — ผู้สูงอายุ น้ำหนักลดเร็ว ส่วนตีบขรุขระ shouldering / ยาว)","<b>Rx:</b> laparoscopic Heller myotomy (cardiomyotomy) + partial fundoplication (Dor / Toupet) · POEM · pneumatic dilatation · ผู้สูงอายุ / เสี่ยงสูง: botulinum toxin ฉีด LES · ยา (nifedipine / nitrate) ได้ผลน้อย · end-stage megaesophagus → esophagectomy"],
+       kw:["barium swallow (esophagogram)","dilated esophagus with smooth distal tapering — bird's beak","absent gastric air bubble, air-fluid level","loss of inhibitory (NO / VIP) neurons in Auerbach's plexus","failure of LES relaxation + aperistalsis","high-resolution manometry","EGD to exclude pseudoachalasia","Heller myotomy + fundoplication / POEM / pneumatic dilatation"],
+       ddx:["pseudoachalasia (carcinoma of cardia)","esophageal carcinoma (apple-core)","peptic / caustic stricture","Chagas disease"],
+       pearls:["คีย์เก่า MDCU67 RoB ตอบ ‘cardiomyotomy or stent’ — stent ใช้กับ malignant stricture ไม่ใช่ achalasia","ลืม EGD แยกมะเร็ง","ตอบ pathology แค่ ‘LES ไม่คลาย’ ไม่บอกระดับเซลล์ (loss of ganglion / inhibitory neurons)"],
+       members:["MDCU67|RoA|MEQ 2#1","MDCU67|RoA|MEQ 2#2","MDCU67|RoA|MEQ 2#3","MDCU67|RoA|MEQ 2#4","MDCU67|RoB|MEQ 1#1","MDCU67|RoB|MEQ 1#2","MDCU67|RoB|MEQ 1#3","MDCU77|RoB|MEQ 2#1","MDCU77|RoB|MEQ 2#2","MDCU77|RoB|MEQ 2#3","MDCU76|RoA|MEQ 3#1","MDCU76|RoA|MEQ 3#2","MDCU76|RoA|MEQ 3#3","MDCU74|RoD|MEQ 10#1","MDCU74|RoD|MEQ 10#2","MDCU72|RoB|MEQ 7#1","MDCU72|RoB|MEQ 7#2","MDCU72|RoC|MEQ 10#1","MDCU72|RoC|MEQ 10#2"]},
+      {id:"egd-h-pylori",
+       title:"EGD + rapid urease (CLO) test — ข้อบ่งชี้ EGD, แปลผล, H. pylori eradication",
+       trend:"ภาพส่องกล้อง + ชุดตรวจสีชมพูแดงออก MDCU67, 72, 78 ถามชื่อหัตถการ / test → แปลผล → การรักษา (บางปีขอขนาดยา)",
+       asked:["Illustration of a procedure → name → ≥ 2 indications","Investigation + test kit result → name → interpret → further management","Procedure + test kit (well เป็นชมพูแดง) → name → 2 indications → detects which substance → interpret → treat","Name investigations (2) → interpret → treat with doses"],
+       flow:["Esophagogastroduodenoscopy + biopsy จาก antrum ทำ rapid urease test","ตรวจหา urease ของ H. pylori → ชมพู / แดง = positive","Eradication 14 วัน","Confirm eradication","รักษาโรคร่วม / หยุด NSAID"],
+       pattern:["<b>EGD indications:</b> UGIB (ภายใน 24 ชม.หลัง resuscitate; varices / high-risk ภายใน 12 ชม.) · dyspepsia + alarm features (อายุมาก, น้ำหนักลด, ซีด / IDA, กลืนลำบาก, อาเจียนต่อเนื่อง, ก้อน) · dysphagia / odynophagia · biopsy (H. pylori, มะเร็ง) · surveillance (Barrett, varices) · therapeutic: hemostasis, band ligation, foreign body, dilatation / stent, PEG, EMR / ESD","<b>Rapid urease (CLO) test:</b> ชิ้นเนื้อ antrum ใน gel urea + pH indicator · urease ของ H. pylori เปลี่ยน urea → ammonia → pH สูง → <b>เหลือง → ชมพู / แดง = positive</b> · sensitivity ~90% specificity ~95% · false negative: PPI (หยุด 2 สัปดาห์), antibiotics / bismuth (หยุด 4 สัปดาห์), active bleeding","<b>Eradication 14 วัน:</b> <b>bismuth quadruple</b> = PPI bid + bismuth (ACG 2024: subsalicylate 300 mg qid หรือ subcitrate 120–300 mg qid; บางแหล่งใช้ subsalicylate 262 mg × 2 = 524 mg qid) + metronidazole 500 mg tid–qid + tetracycline 500 mg qid — first-line เมื่อไม่ทราบความไวยา / พื้นที่ดื้อ clarithromycin (Maastricht VI 2022, ACG 2024) · clarithromycin triple = omeprazole 20 mg bid + amoxicillin 1 g bid + clarithromycin 500 mg bid — ใช้เมื่อทราบว่าไวต่อ clarithromycin · ทางเลือก vonoprazan + amoxicillin","<b>Confirm eradication:</b> urea breath test หรือ stool antigen ≥ 4 สัปดาห์หลังหยุด antibiotics และหยุด PPI ≥ 2 สัปดาห์ · PU: PPI ต่อ, เลี่ยง NSAID","H. pylori ทำให้ chronic gastritis, peptic ulcer, gastric cancer, MALT lymphoma — <b>ไม่ใช่สาเหตุของ GERD</b>"],
+       kw:["esophagogastroduodenoscopy (EGD)","rapid urease test (CLO test) on antral biopsy","urease → ammonia → pH ↑ → yellow to pink / red = positive","Helicobacter pylori","bismuth quadruple therapy 14 days","clarithromycin triple only if susceptible","urea breath test / stool antigen ≥ 4 weeks after therapy, off PPI 2 weeks"],
+       pearls:["คีย์เก่า MDCU67 RoD เขียนว่า H. pylori เป็นสาเหตุ GERD — ผิด","ตอบ triple therapy เป็นตัวเดียวโดยไม่พูดเรื่อง clarithromycin resistance = คะแนนไม่เต็มตามแนวทางปัจจุบัน","ถูกขอขนาดยา (MDCU72 RoC) ต้องเขียน mg + ความถี่ + 14 วัน"],
+       members:["MDCU67|RoB|MEQ 3#1","MDCU67|RoB|MEQ 3#2","MDCU67|RoD|PPT 3#1","MDCU67|RoD|PPT 3#2","MDCU78|RoB|MEQ 1#1","MDCU78|RoB|MEQ 1#2","MDCU78|RoB|MEQ 1#3","MDCU78|RoB|MEQ 1#4","MDCU78|RoB|MEQ 1#5","MDCU72|RoC|MEQ 5#1","MDCU72|RoC|MEQ 5#2","MDCU72|RoC|MEQ 5#3"]},
+      {id:"caustic-ingestion",
+       title:"Corrosive (น้ำยาล้างห้องน้ำ / ท่อ) ingestion — ER orders",
+       trend:"MDCU68, 70, 71 ให้เขียน order ผู้ป่วยกลืนน้ำยา (กรด HCl / ด่าง) ใน ER",
+       asked:["หญิงกลืนผลิตภัณฑ์นี้ เป็นแพทย์ ER → write the orders","วัยรุ่นดื่ม Vixol 30 นาที mucosa บวมแดง vital ดี ไม่มีปัญหาหายใจ → orders","ดื่มน้ำยาล้างท่อ → orders"],
+       flow:["ประเมิน airway ก่อน (บวม stridor → intubate)","NPO, IV fluid, IV PPI, analgesia","ห้าม: กระตุ้นอาเจียน ล้างท้อง neutralize charcoal ใส่ NG blind","Labs + imaging หา perforation","EGD 12–24 (ถึง 48) ชม. จัด grade → แผนตาม grade · จิตเวช"],
+       pattern:["Vixol = กรด (HCl) · น้ำยาล้างท่อ = ด่าง (NaOH) — ด่างทำ liquefactive necrosis ลึกกว่า (หลอดอาหาร) กรดทำ coagulative (กระเพาะ)","<b>Orders:</b> airway / ใส่ท่อถ้ามี stridor บวม · NPO · IV fluid · IV PPI · analgesic · <b>ห้ามกระตุ้นอาเจียน ห้ามล้างท้อง ห้าม neutralize ห้าม activated charcoal ห้ามใส่ NG แบบ blind</b>","Labs: CBC, electrolyte, ABG (acidosis), BUN / Cr, LFT, coagulation · upright CXR / AAS (free air, mediastinitis) ± CT chest / abdomen ถ้าสงสัย perforation (หรือ water-soluble contrast)","<b>EGD ภายใน 12–24 ชม.</b> (ไม่เกิน ~48 ชม.) จัด Zargar grade → grade ต่ำ: เริ่มกินได้ · grade สูง: NPO, feeding (jejunostomy), เฝ้าระวัง perforation · perforation / full-thickness necrosis → ผ่าตัด","ปรึกษาจิตเวช (ตั้งใจหรือไม่) · ติดตาม stricture (dilatation) และความเสี่ยงมะเร็งหลอดอาหารระยะยาว · <b>steroid ไม่แนะนำเป็น routine</b>"],
+       kw:["airway assessment","NPO, IV fluid, IV PPI, analgesia","no induced emesis, no gastric lavage, no neutralization, no charcoal, no blind NG","CXR / CT for perforation","early EGD within 12–24 h (Zargar grading)","psychiatric consultation","stricture follow-up"],
+       pearls:["คีย์เก่า MDCU68 RoD ให้ ‘steroid + antibiotic’ — ปัจจุบันไม่แนะนำ steroid เป็น routine","สั่งล้างท้อง / ให้นมหรือน้ำ neutralize = ผิดหลัก"],
+       members:["MDCU71|RoB|MEQ 4#1","MDCU70|RoC|MEQ 6#1","MDCU68|RoD|8#1"]},
+      {id:"esophageal-cancer",
+       title:"Carcinoma of the esophagus — apple-core บน barium swallow",
+       trend:"ถามครั้งเดียว (MDCU76 RoC): progressive dysphagia",
+       asked:["Progressive dysphagia + fluoroscopic image → investigation → describe → Dx → 2 management steps"],
+       flow:["Barium swallow: irregular narrowing + shouldering","Dx esophageal carcinoma","EGD + biopsy → staging → รักษาตาม stage"],
+       pattern:["<b>Apple-core lesion:</b> irregular narrowing ยาวช่วงหนึ่ง ขอบ shouldering mucosa ขรุขระ + proximal dilatation (benign stricture เรียบเรียวยาว)","ไทยพบ <b>SCC</b> (กลาง / บน) มากกว่า adenocarcinoma (ส่วนล่าง, GERD / Barrett) · risk: บุหรี่ สุรา อาหารร้อน / ดอง achalasia caustic injury","<b>Next:</b> EGD + biopsy · staging CT chest / abdomen ± PET-CT · EUS (T / N) · bronchoscopy ถ้าก้อนกลาง / บน · โภชนาการ (feeding tube / stent) · รักษา: neoadjuvant chemoradiation + esophagectomy หรือ definitive CRT"],
+       kw:["apple-core lesion with shouldering","proximal dilatation","esophageal carcinoma (SCC in Thailand)","EGD + biopsy","CT / EUS / PET staging","neoadjuvant CRT + esophagectomy"],
+       ddx:["benign (peptic / caustic) stricture","achalasia / pseudoachalasia","extrinsic compression"],
+       members:["MDCU76|RoC|MEQ 6#1","MDCU76|RoC|MEQ 6#2","MDCU76|RoC|MEQ 6#3","MDCU76|RoC|MEQ 6#4"]},
+      {id:"ugib",
+       title:"Upper GI bleeding — ประวัติที่ต้องถาม และการจัดการ",
+       trend:"ถามครั้งเดียว (MDCU72 RoD) ไม่มีภาพ",
+       asked:["UGIB 2 ครั้งก่อนมาถึง → 3 further history items → management"],
+       flow:["ประวัติหาสาเหตุ + ความรุนแรง","Resuscitation","Risk stratification","ยาตามสาเหตุที่สงสัย","EGD ภายใน 24 ชม. → ล้มเหลว → embolization / surgery"],
+       pattern:["<b>ประวัติ:</b> NSAIDs / aspirin / antiplatelet / anticoagulant · แอลกอฮอล์ ตับแข็ง HBV / HCV (varices) · PU / H. pylori ปวดลิ้นปี่ · อาเจียนรุนแรงก่อนมีเลือด (Mallory–Weiss) · น้ำหนักลด กลืนลำบาก (มะเร็ง) · ปริมาณ / ลักษณะเลือด ถ่ายดำ หน้ามืด","<b>Management:</b> ABC, 2 large-bore IV, crystalloid · CBC, G/M, coagulation, BUN / Cr · transfusion (restrictive Hb &lt; 7 g/dL ส่วนใหญ่) · Glasgow-Blatchford score · <b>IV PPI</b> (omeprazole 80 mg bolus → 8 mg/ชม. หรือ 40 mg IV bid) · สงสัย varices: octreotide / terlipressin + ceftriaxone prophylaxis · <b>EGD ภายใน 24 ชม.</b> → endoscopic hemostasis (injection + clip / thermal; band ligation ใน varices) · ล้มเหลว → angioembolization / surgery"],
+       kw:["NSAID / anticoagulant / alcohol / liver disease / PU history","2 large-bore IV, crystalloid, cross-match","Glasgow-Blatchford score","IV PPI","octreotide / terlipressin + antibiotic if variceal","EGD within 24 h"],
+       pearls:["ลืมถามยา anticoagulant / NSAID","ส่องกล้องก่อน resuscitate = ผิดลำดับ"],
+       members:["MDCU72|RoD|MEQ 12#1","MDCU72|RoD|MEQ 12#2"]},
+      {id:"retrocardiac-air-fluid",
+       title:"Air-fluid level หลังเงาหัวใจบน CXR — hiatal hernia และ DDx",
+       trend:"ถามครั้งเดียว (MDCU77 RoD)",
+       asked:["CXR air-fluid level เหนือกะบังลมหลังเงาหัวใจ → 3 DDx → 2 investigations"],
+       flow:["DDx","ยืนยันด้วย contrast study / CT / EGD"],
+       pattern:["Retrocardiac air-fluid level = <b>hiatal hernia</b> จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · DDx: lung abscess / cavity, dilated esophagus (achalasia) / epiphrenic diverticulum, CDH (Bochdalek / Morgagni), hydropneumothorax / empyema with bronchopleural fistula","<b>Investigations:</b> barium swallow / upper GI contrast study · CT chest · EGD (esophagitis, Barrett, ชนิด hernia)","Paraesophageal (type II–IV) hiatal hernia → repair (เสี่ยง volvulus / strangulation)"],
+       kw:["retrocardiac air-fluid level","hiatal hernia","lung abscess","achalasia / epiphrenic diverticulum","barium swallow / UGI study, CT chest, EGD"],
+       pearls:["คีย์เก่าให้ ‘pneumonia’ เป็น DDx — pneumonia ธรรมดาไม่ทำ air-fluid level; DDx ที่ดีกว่าคือ esophageal และ diaphragmatic hernia"],
+       members:["MDCU77|RoD|MEQ 7#1","MDCU77|RoD|MEQ 7#2"]}
+    ]},
+    {title:"Anorectal", sections:[
+      {id:"anal-fissure",
+       title:"Anal fissure (acute vs chronic) — บรรยายภาพ, การรักษาเป็นขั้น",
+       trend:"ภาพแหวกทวารเห็นแผลแนว posterior midline ออกทุกช่วงปี ถามแยก acute / chronic และการรักษาเป็นขั้น (conservative → topical → botox / LIS)",
+       asked:["หญิง 24 ปี เลือดสดเป็น ๆ หาย ๆ 6 เดือน + ภาพทวาร → Dx → outline the treatment","ภาพแหวกทวาร → Dx → advise / how to treat","Describe the lesion → Dx → management (posterior midline tear 2 วัน)","มองผ่าน speculum: hypertrophied papilla, sentinel pile, ขอบ fibrotic → describe → Dx → treatment","Diagnosis + patient counseling","ภาพทวารมีรอยโรคมากกว่าหนึ่ง (fissure + internal hemorrhoid) → Dx → management"],
+       flow:["บรรยาย: longitudinal tear ของ anoderm ใต้ dentate line ตำแหน่ง (posterior midline)","บอก acute / chronic จากลักษณะ + ระยะเวลา","Conservative ทุกราย","Chemical sphincterotomy 6–8 สัปดาห์","ล้มเหลว / chronic → botulinum toxin หรือ LIS"],
+       pattern:["<b>อาการ:</b> ปวดแสบมากขณะ / หลังถ่าย + เลือดสดเล็กน้อยติดกระดาษ · ส่วนใหญ่ posterior midline (บ้าง anterior ในหญิง)","<b>Acute (&lt; 6–8 สัปดาห์):</b> รอยแยกตื้น ขอบเรียบ ไม่มี sentinel · <b>Chronic (&gt; 6–8 สัปดาห์):</b> ขอบนูนแข็ง fibrotic, เห็นใยกล้ามเนื้อ internal sphincter ที่ก้นแผล, sentinel pile (skin tag) ด้านนอก, hypertrophied anal papilla ด้านใน","<b>Pathogenesis:</b> internal sphincter hypertonia → เลือดไปเลี้ยง posterior midline ลดลง → แผลไม่หาย (ยาทุกกลุ่มลดความตึงของ IAS)","<b>ขั้นที่ 1 conservative (ทุกราย):</b> ใยอาหาร / psyllium + ดื่มน้ำ, stool softener / bulk laxative, warm sitz bath, ยาชาทา (lidocaine), ไม่เบ่ง — acute ~50% หายด้วยวิธีนี้","<b>ขั้นที่ 2 chemical sphincterotomy 6–8 สัปดาห์:</b> topical 2% diltiazem (หรือ nifedipine) หรือ 0.2–0.4% nitroglycerin (GTN) ทาวันละ 2 ครั้ง — GTN ปวดหัวบ่อย CCB ผลข้างเคียงน้อยกว่า","<b>ขั้นที่ 3 (chronic ล้มเหลว):</b> botulinum toxin ฉีด IAS หรือ <b>lateral internal sphincterotomy (LIS)</b> = มาตรฐาน หายสูงสุด &gt; 90% (เสี่ยง incontinence ต่อลม / อุจจาระเล็กน้อย) ± ตัด sentinel tag / papilla · คนเสี่ยงกลั้นไม่อยู่ → fissurectomy / advancement flap (ASCRS 2023)","ไม่ทำ anal stretch (incontinence) · ไม่ทำ RBL / hemorrhoidectomy ขณะ fissure ยังเจ็บมาก","Fissure นอก midline / หลายแผล / ไม่เจ็บ → คิด Crohn, TB, HIV, syphilis, มะเร็ง → EUA + biopsy"],
+       kw:["longitudinal tear of anoderm distal to dentate line","posterior midline","chronic: sentinel pile, hypertrophied anal papilla, exposed internal sphincter fibers, &gt; 6–8 weeks","high-fiber diet, stool softener, sitz bath","topical diltiazem 2% / GTN 0.2–0.4% for 6–8 weeks","botulinum toxin","lateral internal sphincterotomy (LIS)"],
+       ddx:["hemorrhoids (painless bleeding)","perianal abscess","Crohn disease / TB / HIV / syphilitic ulcer","anal cancer"],
+       pearls:["คีย์เก่า MDCU67 RoA ตอบ ‘acute anal fissure’ ทั้งที่เป็นมา 6 เดือน — ระยะเวลา &gt; 6–8 สัปดาห์ = chronic","ไม่ควร DRE / ส่องกล้องตอนปวดมาก — แหวกก้นดูพอ","ข้ามขั้น conservative ไปผ่าตัดเลย = เสียคะแนน; อีกด้านคือ chronic ที่ล้มเหลวแล้วยังตอบแค่ยาทา"],
+       members:["MDCU67|RoA|MEQ 8#1","MDCU67|RoA|MEQ 8#2","MDCU66|RoA|PPT 6#1","MDCU66|RoA|PPT 6#2","MDCU66|RoB|PPT 1#1","MDCU66|RoB|PPT 1#2","MDCU66|RoB|PPT 4#1","MDCU66|RoB|PPT 4#2","MDCU78|RoB|MEQ 7#1","MDCU78|RoB|MEQ 7#2","MDCU78|RoB|MEQ 7#3","MDCU71|RoA|MEQ 5#1","MDCU70|RoB|MEQ xx2#1","MDCU68|RoC|MEQ 4#1"]},
+      {id:"hemorrhoids",
+       title:"Hemorrhoids — Goligher grading, ตำแหน่ง 3-7-11, ต้นเหตุเลือดออก, การรักษาตาม grade",
+       trend:"ภาพก้อนยื่นจากทวาร + ประวัติดันกลับเอง / หุบเอง ใช้ถาม grade และการรักษา ออกต่อเนื่องจาก MDCU65–72",
+       asked:["เลือดสดตอนถ่าย + ก้อนโผล่แล้วหุบเอง + ภาพ → Dx → appropriate management","ก้อนที่ต้องใช้มือดันกลับ → describe the lesion → explain the cause of bleeding → treatment","Perianal lesion → Dx → treatment (prolapsed หลายก้อน)","เลือดออกมาก ก้อนยื่นรอบวงสีม่วงคล้ำ → describe → cause → treatment","Grading + management ของก้อนที่ต้องดันกลับ","ภาพหลัง PR: ชี้ A (ใต้ dentate) และ B (เหนือ dentate) → Dx"],
+       flow:["บรรยาย: ก้อนเยื่อบุแดงม่วงหลายก้อนที่ 3, 7, 11 นาฬิกา (lithotomy) ± external component ± thrombosis","Grade (Goligher) จากประวัติ prolapse","อธิบายกลไกเลือดออก","Conservative ทุกราย → office procedure → ผ่าตัดตาม grade","แยกมะเร็งด้วย colonoscopy เมื่อมีข้อบ่งชี้"],
+       pattern:["<b>Anatomy:</b> anal cushions ตำแหน่ง left lateral, right anterior, right posterior = 3, 7, 11 นาฬิกา (lithotomy) · internal = เหนือ dentate line คลุม mucosa ไม่เจ็บ · external = ใต้ dentate line คลุม anoderm / ผิวหนัง เจ็บเมื่อ thrombosed · mixed = มีทั้งสอง","<b>Goligher (internal):</b> I เลือดออกไม่ยื่น · II ยื่นขณะเบ่งแล้วหุบเอง · III ยื่นต้องใช้มือดัน · IV ยื่นค้างดันไม่เข้า (± thrombosed / strangulated)","<b>เลือดออก:</b> อุจจาระแข็ง / เบ่งครูด mucosa ที่คลุม cushion ซึ่งมี arteriovenous communication → เลือด<b>แดงสด</b> (presinusoidal arteriole) หยด / พุ่งหลังถ่าย ไม่เจ็บ","<b>Conservative ทุกราย:</b> ใยอาหาร 25–35 g/วัน + น้ำ, bulk laxative / softener, ไม่เบ่ง / นั่งถ่ายนาน, sitz bath · ± flavonoid (MPFF) ลดเลือดออก","<b>Office procedure (grade I–II, เลือกได้ใน III):</b> rubber band ligation (ดีที่สุด — รัดเหนือ dentate line, ห้ามรัด external), sclerotherapy, infrared coagulation","<b>Excisional hemorrhoidectomy</b> (open Milligan–Morgan / closed Ferguson) เมื่อ grade III–IV, mixed ที่ external ใหญ่, ล้มเหลว office procedure, thrombosed / strangulated (urgent) · ทางเลือก stapled hemorrhoidopexy (PPH) สำหรับ grade III แบบรอบวง, DG-HAL / HAL-RAR","อายุ ≥ 45–50 ปี / alarm features (ซีด น้ำหนักลด ลักษณะถ่ายเปลี่ยน ประวัติครอบครัว) → colonoscopy / flexible sigmoidoscopy แยก colorectal cancer"],
+       kw:["internal hemorrhoids above dentate line (mucosa) vs external below (anoderm)","3, 7, 11 o'clock (lithotomy)","Goligher grade I–IV","bright red painless bleeding from presinusoidal arterioles","high-fiber diet, stool softener, sitz bath","rubber band ligation (grade I–II/III)","excisional hemorrhoidectomy (Milligan–Morgan / Ferguson) for III–IV, mixed, thrombosed","colonoscopy if age ≥ 45–50 or alarm features"],
+       ddx:["rectal prolapse (concentric mucosal folds)","anal fissure with sentinel pile","thrombosed external hemorrhoid","rectal polyp / cancer","anal skin tag, condyloma"],
+       pearls:["คีย์เก่า MDCU67 RoB ตอบ hemorrhoidectomy อย่างเดียวสำหรับก้อนที่หุบเอง (grade II) — เริ่ม conservative / RBL ก่อน","คำว่า ‘complex hemorrhoid’ ในคีย์เก่า = combined / mixed hemorrhoid","ตอบ grade จากภาพอย่างเดียวไม่ได้ ต้องใช้ประวัติ (หุบเอง / ต้องดัน / ดันไม่เข้า)","อย่าบอกว่าเลือดเป็น venous"],
+       members:["MDCU67|RoB|MEQ 13#1","MDCU67|RoB|MEQ 13#2","MDCU67|RoC|MEQ 2#1","MDCU67|RoC|MEQ 2#2","MDCU67|RoC|MEQ 2#3","MDCU67|RoD|PPT 11#1","MDCU67|RoD|PPT 11#2","MDCU72|RoA|MEQ 2#1","MDCU72|RoA|MEQ 2#2","MDCU72|RoA|MEQ 2#3","MDCU72|RoC|1#2","MDCU69|RoA|MEQ 3#1","MDCU66|RoB|PPT 4#1","MDCU66|RoB|PPT 4#2"]},
+      {id:"perianal-abscess",
+       title:"Perianal / ischiorectal abscess และ fistula-in-ano",
+       trend:"ภาพก้อนแดงร้อนข้างทวาร ± ผู้ป่วยเบาหวาน ออกหลายรุ่น ถาม Dx + treatment (I&D, เมื่อไรต้องให้ยา); MDCU72 เพิ่มภาพผ่าตัด fistula",
+       asked:["ชาย 40 ปี เบาหวานไม่รักษา ปวดก้น มีไข้ + ภาพ → Dx → treatment","ก้อนแดงร้อน fluctuant ข้างทวาร 3 วัน ไข้ต่ำ → Dx → how to treat","Perianal abscess → Dx + treatment","หญิง 30 ปีปวดก้น 2 วัน → what is it + management","ภาพผ่าตัด: forceps ซ้ายถืออะไร → Dx → definitive management"],
+       flow:["Dx: perianal (หรือ ischiorectal ถ้าบวมกว้างลงแก้มก้น) abscess","I&D โดยเร็ว (ไม่ต้องรอ fluctuation)","ให้ antibiotics เฉพาะกลุ่มเสี่ยง","ดูแลแผล + บอกโอกาสเกิด fistula","Fistula → probe หา internal opening → fistulotomy / seton ตามความลึก"],
+       pattern:["<b>Cryptoglandular origin</b> (anal gland ที่ dentate line) · ชนิด perianal (บ่อยสุด), ischiorectal, intersphincteric, supralevator","<b>Rx = incision and drainage โดยเร็ว</b> — ไม่รอ fluctuation · กรีดใกล้ anal verge (ถ้าเกิด fistula จะสั้น) เปิดกว้างพอ (cruciate / elliptical) · ก้อนลึก / ใหญ่ / supralevator → EUA ± CT / MRI","<b>Antibiotics ร่วม</b> (ครอบคลุม gram-negative + anaerobe) เฉพาะ: DM, immunocompromised, cellulitis กว้าง, sepsis, prosthetic / valvular heart disease — antibiotics อย่างเดียวไม่พอสำหรับฝี","ยาแก้ปวด sitz bath คุมน้ำตาล · ประมาณ 1/3–1/2 เกิด fistula-in-ano ตามมา · เบาหวานเฝ้าระวัง necrotizing infection (Fournier gangrene)","<b>Fistula-in-ano:</b> สอด fistula probe จาก external ไป internal opening (Goodsall rule: external opening หลังเส้นขวาง → tract โค้งเข้า posterior midline; หน้าเส้น → วิ่งตรงแนวรัศมีเข้า anal canal) · low / simple → fistulotomy (lay open) · high / complex (ผ่าน sphincter มาก, anterior ในหญิง, Crohn) → seton (draining / cutting), LIFT, advancement flap"],
+       kw:["perianal / ischiorectal abscess","cryptoglandular infection","early incision and drainage (do not wait for fluctuation)","incision close to the anal verge","antibiotics only if DM, immunocompromised, cellulitis, sepsis, valvular disease","fistula-in-ano in ~1/3","fistula probe, Goodsall's rule","fistulotomy vs seton / LIFT"],
+       ddx:["thrombosed external hemorrhoid","pilonidal abscess","infected sebaceous cyst","Fournier gangrene","hidradenitis suppurativa"],
+       pearls:["ตอบ antibiotics อย่างเดียว / รอให้ fluctuate = ผิด","ลืมว่าผู้ป่วยเบาหวาน = ข้อบ่งชี้ให้ยาร่วมและเฝ้าระวัง Fournier","ทำ fistulotomy ใน high fistula = เสี่ยง incontinence"],
+       members:["MDCU67|RoD|PPT 8#1","MDCU67|RoD|PPT 8#2","MDCU78|RoC|MEQ 14#1","MDCU78|RoC|MEQ 14#2","MDCU72|RoD|MEQ 1#1","MDCU70|RoB|MEQ xx6#1","MDCU72|RoB|MEQ 9#1","MDCU72|RoB|MEQ 9#2","MDCU72|RoB|MEQ 9#3"]},
+      {id:"condyloma",
+       title:"Condyloma acuminata (perianal warts) — HPV 6/11, ตรวจเพิ่ม, การรักษา",
+       trend:"ภาพตุ่มคล้ายดอกกะหล่ำรอบทวารในชายหนุ่ม ออกหลายรุ่น ถาม Dx → สาเหตุ / risk → ตรวจเพิ่ม (anoscopy + STI) → รักษา",
+       asked:["ชายโสด 28 ปี + ภาพรอบทวาร → Dx → cause + risk factors → management","Multiple cauliflower-like growths → Dx → causative organism → treatment","Perianal lesions → Dx → name 2 additional physical examinations → treatment + investigations","Dx → further investigations + treatment"],
+       flow:["Dx condyloma acuminata + แยก condyloma lata","สาเหตุ HPV 6, 11 + risk","ตรวจเพิ่ม: anoscopy / proctoscopy, DRE, อวัยวะเพศ, STI screening","รักษาตามขนาด / ตำแหน่ง","คู่นอน, ถุงยาง, วัคซีน, ติดตาม recurrence"],
+       pattern:["<b>Cause:</b> HPV type 6 และ 11 (low-risk ~90%) · HPV 16 / 18 สัมพันธ์ anal intraepithelial neoplasia / anal SCC","<b>Risk:</b> เพศสัมพันธ์หลายคู่ / ไม่ใช้ถุงยาง, receptive anal intercourse (MSM), immunosuppression (HIV, ยากดภูมิ, transplant), สูบบุหรี่, STI อื่น, ไม่ได้รับวัคซีน HPV","<b>ตรวจเพิ่ม:</b> anoscopy / proctoscopy หา intra-anal warts · DRE · ตรวจอวัยวะเพศ (หญิง: ตรวจภายใน + cervical screening) · anti-HIV, VDRL / TPHA (แยก condyloma lata), HBsAg · biopsy ถ้าผิดลักษณะ / ใหญ่ / ดื้อการรักษา (Buschke–Löwenstein, SCC)","<b>รักษา:</b> เล็ก น้อย อยู่ภายนอก → podophyllin 25% (แพทย์ทา) / podophyllotoxin 0.5%, imiquimod 5%, trichloroacetic acid (TCA) 80–90%, cryotherapy · กว้าง / ใน anal canal / ดื้อ → surgical excision + electrofulguration ใต้ยาระงับความรู้สึก · หญิงตั้งครรภ์: ห้าม podophyllin / podophyllotoxin, เลี่ยง imiquimod (CDC STI 2021) → ใช้ TCA / cryotherapy / excision","รักษาคู่นอน ใช้ถุงยาง งดเพศสัมพันธ์จนหาย วัคซีน HPV · recurrence ~20–30% (ถึง 50%) ไม่ว่าวิธีใด"],
+       kw:["condyloma acuminata (cauliflower-like papillomatous growths)","HPV 6 and 11","anoscopy / proctoscopy for intra-anal warts","screen HIV and syphilis (VDRL / TPHA)","podophyllin / podophyllotoxin, imiquimod, TCA, cryotherapy","excision + electrocautery for extensive / intra-anal","partner treatment, condom, HPV vaccine"],
+       ddx:["condyloma lata (secondary syphilis — flat, moist)","Buschke–Löwenstein tumor (giant condyloma)","anal SCC","skin tags","molluscum contagiosum"],
+       pearls:["ลืมตรวจ STI อื่น (HIV / syphilis) และ anoscopy เป็นจุดเสียคะแนนหลัก","ตอบ HPV 16 / 18 เป็นสาเหตุหูด = สลับกับมะเร็ง"],
+       members:["MDCU66|RoA|PPT 10#1","MDCU66|RoA|PPT 10#2","MDCU66|RoA|PPT 10#3","MDCU78|RoC|MEQ 5#1","MDCU78|RoC|MEQ 5#2","MDCU78|RoC|MEQ 5#3","MDCU75|RoC|MEQ 1#1","MDCU75|RoC|MEQ 1#2","MDCU75|RoC|MEQ 1#3","MDCU72|RoC|MEQ 11#1","MDCU72|RoC|MEQ 11#2"]}
+    ]},
+    {title:"Pediatric — ขาหนีบ ถุงอัณฑะ สะดือ และอวัยวะเพศเด็ก", sections:[
+      {id:"peds-hydrocele",
+       title:"Hydrocele ในทารก / เด็ก — transillumination, get above, อายุที่ผ่าตัด (inguinal approach)",
+       trend:"ภาพถุงอัณฑะบวมในทารก 6 เดือนออกเกือบทุกรุ่น ถามการตรวจที่แยกโรค → ผ่าตัดอะไร อายุเท่าไร",
+       asked:["Infant scrotal swelling → state the key physical examination to differentiate → age for surgical correction","6-month-old scrotal swelling → which examinations help → definitive treatment + age","ถุงน้ำส่องไฟผ่าน คลำขอบบนได้ → Dx → management","Important PE findings + Dx → operation + age"],
+       flow:["ตรวจ: get above the swelling · transillumination · reducibility / cough–cry impulse · คลำ testis","Dx: hydrocele (communicating vs non-communicating)","ทารก: observe","ผ่าตัดเมื่อไม่หาย ~1–2 ปี หรือ communicating / มี hernia","Operation: inguinal herniotomy (high ligation of patent processus vaginalis)"],
+       pattern:["<b>Hydrocele:</b> คลำขอบบนได้ (get above) · transillumination บวก · ดันกลับไม่ได้ ไม่มี cough impulse · คลำ testis อยู่ภายในก้อน · ขนาดเปลี่ยนในวัน (เล็กเช้า โตเย็น) = communicating","<b>Inguinal hernia:</b> get above ไม่ได้ (ต่อเนื่องเข้า inguinal canal) · มี impulse · ดันกลับได้ · ส่องไฟไม่ผ่าน (ยกเว้นลำไส้ทารกบางที่อาจโปร่งแสง → ใช้ get above + reducibility ร่วม)","<b>เด็ก:</b> เกิดจาก patent processus vaginalis · non-communicating ส่วนใหญ่หายเองภายใน 1–2 ปี → observe · ผ่าตัดเมื่อยังไม่หายหลังอายุ ~1–2 ปี, ขนาดเปลี่ยนชัด (communicating), โตขึ้นเรื่อย ๆ หรือมี hernia ร่วม (ผ่าเร็วกว่านั้น)","<b>Operation เด็ก = inguinal approach:</b> herniotomy — high ligation ของ patent processus vaginalis ที่ deep ring + ระบายน้ำ ไม่ต้องตัดถุง · ห้ามเจาะดูดในเด็ก","<b>ผู้ใหญ่ (non-communicating):</b> US หาสาเหตุ secondary (tumor, epididymo-orchitis, torsion, trauma) · มีอาการ → scrotal hydrocelectomy (Jaboulay / Lord plication)"],
+       kw:["get above the swelling","transillumination positive","reducibility / cough impulse to exclude hernia","palpate testis","communicating vs non-communicating hydrocele","observe until 1–2 years","inguinal herniotomy — high ligation of patent processus vaginalis"],
+       ddx:["indirect inguinal hernia","encysted hydrocele of the cord","testicular tumor (เด็กโต / ผู้ใหญ่)","testicular torsion"],
+       pearls:["คีย์เก่า MDCU77 RoB / RoD, MDCU75 RoD, MDCU69 RoC ตอบ ‘hydrocelectomy’ — ในเด็กผ่าตัดทางขาหนีบเพื่อปิด processus vaginalis ไม่ใช่ scrotal hydrocelectomy แบบผู้ใหญ่","ส่องไฟผ่านอย่างเดียวไม่พอในทารก ต้องบอก get above ร่วม","ตอบอายุผ่าตัดเป็น ‘ทันที’ สับสนกับ inguinal hernia"],
+       members:["MDCU67|RoD|PPT 12#1","MDCU67|RoD|PPT 12#2","MDCU65|RoB|PPT 14#1","MDCU77|RoB|MEQ 10#1","MDCU77|RoB|MEQ 10#2","MDCU77|RoD|MEQ 5#1","MDCU77|RoD|MEQ 5#2","MDCU77|RoD|MEQ 5#3","MDCU75|RoD|MEQ 3#1","MDCU75|RoD|MEQ 3#2","MDCU72|RoC|MEQ 12#1","MDCU72|RoC|MEQ 12#2","MDCU69|RoC|MEQ 11#1"]},
+      {id:"peds-hernia-umbilical",
+       title:"Inguinal hernia และ umbilical hernia ในเด็ก — เวลาผ่าตัดต่างกัน",
+       trend:"ภาพเด็กก้อนขาหนีบ ± สะดือ ถามวินิจฉัย + จะผ่าตัดเมื่อไร (inguinal ผ่าเร็ว umbilical รอ)",
+       asked:["3-month-old (term) ก้อนขาหนีบสองข้างโผล่เวลาร้อง → Dx → treatment + timing","เด็กมี umbilical hernia + indirect inguinal hernia → management","2-month-old อดีต preterm เด็กหญิง umbilical hernia + แคมขวาบวม → complete Dx + treatment","Umbilical swelling ในเด็ก → Dx + management","Boy right groin swelling → Dx + treatment","Reducible groin / scrotal swelling in a child → Dx + management"],
+       flow:["Dx: indirect inguinal hernia (patent processus vaginalis) ± umbilical hernia","Inguinal: herniotomy โดยเร็ว (elective แต่ไม่รอ)","Incarcerated → reduce แล้วผ่า 24–48 ชม. / strangulated → ผ่าฉุกเฉิน","Umbilical: observe ถึง 4–5 ปี + ข้อบ่งชี้ผ่าตัด"],
+       pattern:["<b>Pediatric inguinal hernia</b> = indirect เกือบทั้งหมด (patent processus vaginalis) · ไม่หายเอง · ทารก &lt; 1 ปี / preterm เสี่ยง incarceration สูง → <b>elective herniotomy (high ligation of sac) โดยเร็วหลังวินิจฉัย</b> (open หรือ laparoscopic) — ไม่ต้องซ่อมผนัง / ไม่ใช้ mesh · preterm มักผ่าก่อนกลับบ้านจาก NICU","<b>Incarcerated ไม่มี strangulation:</b> manual reduction (sedation) แล้วผ่าตัดใน 24–48 ชม. (รอบวมยุบ) · strangulated / ดันไม่เข้า → ผ่าตัดฉุกเฉิน","<b>เด็กหญิง:</b> ก้อนที่แคม = inguinal hernia อาจมีรังไข่ใน sac (ovary ติดอยู่ → ผ่าเร็ว เสี่ยงบิด / ขาดเลือด)","<b>Umbilical hernia เด็ก:</b> ส่วนใหญ่ปิดเอง → observe ถึงอายุ ~4–5 ปี · ผ่าตัด (umbilical herniorrhaphy) เมื่อ ไม่ปิดเมื่อ 4–5 ปี, defect &gt; 1.5–2 cm หลังอายุ 2 ปี, incarceration / strangulation · ไม่ต้องใช้เหรียญ / ผ้ารัด","ผู้ใหญ่ bilateral inguinal hernia → laparoscopic TEP / TAPP + mesh (คนละโรคกับเด็ก)"],
+       kw:["indirect inguinal hernia (patent processus vaginalis)","elective herniotomy (high ligation of the sac) soon after diagnosis","no mesh in children","incarcerated → reduce, operate within 24–48 h","ovary in the sac (girl)","umbilical hernia: observe until 4–5 years","repair if persists, defect &gt; 1.5–2 cm, incarceration"],
+       ddx:["hydrocele (communicating)","undescended testis / retractile testis","inguinal lymphadenopathy"],
+       pearls:["ตอบ ‘รอให้หายเอง’ สำหรับ inguinal hernia = สับสนกับ umbilical hernia / hydrocele","ตอบ mesh repair / Lichtenstein ในเด็ก = ผิด","ลืมเรื่อง preterm เสี่ยง incarceration สูง"],
+       members:["MDCU66|RoD|PPT 2#1","MDCU72|RoB|MEQ 2#1","MDCU72|RoB|MEQ 2#2","MDCU72|RoD|MEQ 3#1","MDCU71|RoA|MEQ 12#1","MDCU70|RoB|MEQ xx4#1","MDCU70|RoC|MEQ 13#1","MDCU70|RoC|MEQ 13#2","MDCU68|RoC|MEQ 2#1"]},
+      {id:"hypospadias",
+       title:"Hypospadias — ห้ามขลิบ, เวลาผ่าตัด",
+       trend:"ถามครั้งเดียว: ภาพองคชาตทารก → Dx → คำแนะนำ",
+       asked:["ภาพองคชาตทารก (meatus ด้าน ventral, hooded prepuce) → Dx → treatment advice"],
+       flow:["บรรยาย: ventral meatus, dorsal hooded prepuce ± chordee","Dx hypospadias (ระบุ distal / proximal)","คำแนะนำ: ห้ามขลิบ → ผ่าตัดซ่อมตามอายุ → ตรวจเพิ่มเมื่อมี UDT"],
+       pattern:["<b>Hypospadias:</b> urethral meatus อยู่ด้าน ventral (glanular / coronal / penile / penoscrotal / perineal) + hooded prepuce ± ventral curvature (chordee)","<b>ห้ามขลิบ</b> — เก็บ prepuce ไว้ใช้ซ่อม","ผ่าตัด (orthoplasty + urethroplasty ± glanuloplasty) อายุประมาณ 6–18 เดือน (EAU / ESPU Paediatric Urology)","มี undescended testis ร่วม (โดยเฉพาะ proximal / bilateral) → ตรวจ DSD (karyotype) · isolated distal ไม่ต้อง renal US routine"],
+       kw:["ventral urethral meatus","hooded prepuce, chordee","do not circumcise (prepuce for repair)","repair at 6–18 months","undescended testis → DSD work-up"],
+       ddx:["epispadias","disorder of sex development","megameatus intact prepuce"],
+       pearls:["ไม่มีไฟล์เฉลย รูปเล็กไม่ชัด — คำตอบจากคลังตาม EAU / ESPU","คำแนะนำที่พลาดบ่อยคือให้ขลิบก่อน"],
+       members:["MDCU74|RoA|SEQ 8#1","MDCU74|RoA|SEQ 8#2"]},
+      {id:"ureterocele",
+       title:"ก้อนที่รูเปิดท่อปัสสาวะในเด็กหญิง — prolapsed ectopic ureterocele vs urethral prolapse",
+       trend:"ถามครั้งเดียว: ภาพก้อนกลมสีม่วงที่ introitus แยกจาก urethral meatus (ใส่สายสวน) → Dx → management",
+       asked:["Mass at the urethral meatus in a girl → diagnosis and management"],
+       flow:["ดูว่าก้อนแยกจากรูท่อปัสสาวะ (มี catheter) หรือเป็นวงรอบรู","Dx + DDx","Investigation","Rx"],
+       pattern:["<b>Prolapsed ectopic ureterocele:</b> ก้อนกลมตึงสีม่วงคล้ำยื่นที่ introitus แยกจาก urethral meatus · มักสัมพันธ์ upper pole ของ duplex kidney → US KUB, VCUG, renal scan → obstructing ureterocele: early endoscopic decompression (incision / puncture) → reconstruction ภายหลัง (upper-pole heminephrectomy / ureteral reimplant) ตามการทำงานของไต","<b>Urethral prolapse:</b> ก้อนรูปโดนัทล้อมรอบรู urethra (เด็กหญิงผิวสีก่อนวัยรุ่น) → sitz bath + topical estrogen · necrosis / ไม่ดีขึ้น → excision","<b>Imperforate hymen + hydrocolpos:</b> เยื่อโป่งตึงสีน้ำเงินที่ introitus หลังรู urethra · <b>sarcoma botryoides:</b> ก้อนคล้ายพวงองุ่นจากช่องคลอด → biopsy"],
+       kw:["prolapsed ectopic ureterocele","separate from the catheterized urethral meatus","duplex kidney (upper pole)","US, VCUG, renal scan","endoscopic incision / puncture"],
+       ddx:["urethral prolapse","imperforate hymen with hydrocolpos","sarcoma botryoides (embryonal rhabdomyosarcoma)","paraurethral cyst"],
+       pearls:["ไม่มีเฉลยในไฟล์ — คลังอ่านรูปเป็น ureterocele ความมั่นใจปานกลาง; ต้องบอก DDx ให้ครบ"],
+       members:["MDCU72|RoB|MEQ 5#1","MDCU72|RoB|MEQ 5#2"]}
+    ]},
+    {title:"Burn", sections:[
+      {id:"burn-photo-care",
+       title:"ภาพแผลไหม้: บอกความลึก + wound care (ส่วนใหญ่เป็น superficial partial-thickness)",
+       trend:"ภาพแผลไหม้ชมพูชื้นมีตุ่มน้ำออกเกือบทุกรุ่นตั้งแต่ MDCU68 ถามความลึก + เหตุผล → การดูแลแผล (± ต้องให้สารน้ำไหม)",
+       asked:["Pink, painful burn with blisters → assess depth with reasons → wound management","Burn with peeled skin, moist pink base, severe pain → depth → manage the wound","Red very painful burn chest + arm → depth → wound management","Burn wound picture → degree → care","ผู้ป่วยบอกว่ายังเจ็บ ภาพแผลซีด → degree + management (ตอบทั้งสองแบบ)","Burn ลำตัวและแขน → Dx → management (รวม ABCDE + fluid)"],
+       flow:["ประเมินความลึกจาก สี · ความชื้น · blister · blanching / capillary refill · ความเจ็บ","Primary survey ABCDE + inhalation injury + %TBSA (ตัดสินใจเรื่องสารน้ำ)","Analgesia, tetanus, หยุดกระบวนการไหม้ / cooling","Wound care ตามความลึก","คาดเวลาหาย / แผนผ่าตัดถ้าลึก"],
+       pattern:["<b>ความลึก:</b> superficial (1st) = epidermis แดง เจ็บ ไม่มี blister · <b>superficial partial (2nd)</b> = blister, ชื้น ชมพูแดง, blanch ดี, เจ็บมาก · deep partial = mottled, blanch ช้า, เจ็บน้อย · full thickness (3rd) = ขาวซีด / น้ำตาล แห้งแข็งแบบหนัง (leathery) ไม่ blanch ไม่เจ็บ","<b>Initial:</b> หยุดไหม้ · cooling ด้วยน้ำสะอาดอุณหภูมิห้อง ~20 นาที (ระยะแรก ระวังตัวเย็น) · ABCDE + ประเมิน inhalation injury · %TBSA (rule of nines) → ผู้ใหญ่ ≥ 20% TBSA ให้สารน้ำ (ดู section Rule of nines + Parkland) · analgesia (IV opioid ช่วงแรก / ก่อนทำแผล) · tetanus prophylaxis · ยกส่วนบาดเจ็บสูง","<b>Wound care SPT:</b> ล้าง NSS / สบู่อ่อน · deroof / debride ตุ่มน้ำใหญ่ตึงหรือแตก · topical antimicrobial: 1% silver sulfadiazine (ไม่ใช้ที่หน้า ผู้แพ้ sulfa หญิงตั้งครรภ์ใกล้คลอด / ทารกแรกเกิด) หรือ silver / foam / hydrocolloid dressing · paraffin (Vaseline) gauze เช่น Bactigras ทับแล้วผ้าก๊อซ · biologic / biosynthetic dressing · exposure method (ปล่อยแห้งในห้องสะอาดเย็น) เป็นทางเลือกเก่า · หายใน 10–14 วัน (&lt; 3 สัปดาห์) ไม่ต้อง graft","<b>Deep partial / full thickness:</b> early excision + split-thickness skin graft · escharotomy ถ้า circumferential ที่แขนขา / ทรวงอก · ส่ง burn unit ตามเกณฑ์"],
+       kw:["superficial partial-thickness (superficial 2nd-degree) burn","pink, moist, blisters, blanching, very painful","cooling 20 minutes","ABCDE, inhalation injury, %TBSA","analgesia, tetanus prophylaxis","clean with NSS, debride ruptured blisters","1% silver sulfadiazine / silver dressing / paraffin gauze","heals in 2–3 weeks without grafting","full thickness: excision + STSG, escharotomy"],
+       ddx:["deep partial-thickness burn","full-thickness burn","scald vs flame burn"],
+       pearls:["บอกความลึกโดยไม่ให้ ‘เหตุผล’ (สี blister blanching ความเจ็บ) = ได้ครึ่ง","MDCU72 RoD: คำว่า ‘ยังเจ็บ’ ชี้ partial-thickness แต่ภาพที่คลังบรรยาย (ซีดแข็ง) เป็น full thickness — ตอบทั้งสองกรณีพร้อมเหตุผล","SSD ใช้ที่หน้าไม่เหมาะ (คราบ / pseudoeschar) — คีย์ MDCU77 RoD ให้ SSD + vaseline gauze"],
+       members:["MDCU77|RoD|MEQ 14#1","MDCU77|RoD|MEQ 14#2","MDCU76|RoA|MEQ 8#1","MDCU76|RoA|MEQ 8#2","MDCU76|RoC|MEQ 9#1","MDCU76|RoC|MEQ 9#2","MDCU74|RoD|MEQ 9#1","MDCU74|RoD|MEQ 9#2","MDCU72|RoD|MEQ 13#1","MDCU68|RoC|MEQ 12#1","MDCU72|RoB|MEQ 3#1","MDCU72|RoB|MEQ 3#2","MDCU70|RoB|MEQ xx#1","MDCU78|RoC|MEQ 11#1"]},
+      {id:"burn-tbsa-fluid",
+       title:"%TBSA (rule of nines) และ fluid resuscitation (Parkland vs ATLS 10th / ABLS)",
+       trend:"แผนภาพ a–h ให้บอก % (MDCU67) และเคสน้ำร้อนลวก 60 kg คำนวณ Parkland (MDCU78) — ต้องคำนวณเป็นตัวเลขพร้อมวิธีให้",
+       asked:["Adult body diagram ระบุ a–h → % TBSA ตาม rule of nines","ชาย 60 kg น้ำร้อนลวกลำตัวด้านหน้าทั้งหมด + แขนขวาทั้งแขน 1 ชม.ก่อน → depth → %TBSA → Parkland 24 ชม. และวิธีให้","Burn ลำตัว / แขน → ประเมิน TBSA + ให้สารน้ำเมื่อไร"],
+       flow:["รวมเฉพาะ partial + full thickness","ใช้ rule of nines (เด็กใช้ Lund–Browder) / ฝ่ามือ ~1%","คำนวณสารน้ำ 24 ชม.","ครึ่งแรกใน 8 ชม. นับจาก ‘เวลาไหม้’ (หักเวลาที่ผ่านไป) ครึ่งหลังใน 16 ชม.","titrate ตาม urine output"],
+       pattern:["<b>Rule of nines (ผู้ใหญ่):</b> ศีรษะ + คอ 9% · แขนแต่ละข้าง 9% · ลำตัวหน้า 18% (อก 9 + ท้อง 9) · ลำตัวหลัง 18% · ขาแต่ละข้าง 18% (หน้า 9 + หลัง 9) · perineum 1% · <b>เด็ก:</b> ศีรษะ 18% ขาข้างละ 14% (ทุก 1 ปีหลังอายุ 1 ขวบ ศีรษะลด 1% ขาเพิ่ม 0.5%) หรือ Lund–Browder chart · แผลกระจาย: ฝ่ามือผู้ป่วยรวมนิ้ว ≈ 1%","นับเฉพาะ partial- และ full-thickness — superficial (1st degree) ไม่นับ","<b>Parkland:</b> 4 mL × kg × %TBSA ของ Ringer's lactate ใน 24 ชม. ครึ่งแรกใน 8 ชม.แรกนับจากเวลาเกิดเหตุ ครึ่งหลังใน 16 ชม. · <b>ATLS 10th / ABLS (American Burn Association):</b> ผู้ใหญ่เริ่ม 2 mL × kg × %TBSA (เด็ก 3 mL, electrical 4 mL) แล้ว titrate — Parkland 4 mL เป็นขอบบน · ให้สารน้ำเมื่อผู้ใหญ่ ≥ 20% TBSA","<b>ตัวอย่าง (MDCU78 RoC):</b> SPT ลำตัวหน้า 18% + แขนขวา 9% = 27% · Parkland = 4 × 60 × 27 = 6,480 mL RL / 24 ชม. · ครึ่งแรก 3,240 mL ภายใน 8 ชม.จากเวลาไหม้ → ผ่านไป 1 ชม. เหลือ 7 ชม. ≈ 463 mL/ชม. · ครึ่งหลัง 3,240 mL ใน 16 ชม. ≈ 203 mL/ชม. · (ATLS 2 mL ได้ 3,240 mL / 24 ชม.)","<b>Titrate:</b> urine output ผู้ใหญ่ 0.5 mL/kg/ชม. (60 kg = 30 mL/ชม.), เด็ก 1 mL/kg/ชม., electrical 1 mL/kg/ชม. · Foley วัดปัสสาวะ"],
+       kw:["rule of nines: head 9, each arm 9, anterior trunk 18, posterior trunk 18, each leg 18, perineum 1","palm ≈ 1% TBSA","Lund–Browder chart for children","exclude superficial (1st-degree) burns","Parkland 4 mL × kg × %TBSA Ringer's lactate","half in first 8 h from time of burn, half in next 16 h","ATLS 10th / ABLS: start 2 mL × kg × %TBSA in adults","urine output 0.5 mL/kg/h"],
+       pearls:["นับ 8 ชม.จาก ‘เวลาไหม้’ ไม่ใช่เวลามาถึงโรงพยาบาล — ต้องหักเวลาที่ผ่านไป","รวม 1st-degree เข้าไปใน %TBSA = ให้น้ำเกิน","ตำราสองแหล่งให้ตัวเลขต่างกัน: Parkland 4 mL (ใช้ในข้อสอบเก่า) vs ATLS 10th / ABLS 2 mL — เขียนสูตรที่โจทย์สั่งแล้วบอกว่า titrate ตาม urine"],
+       members:["MDCU67|RoB|MEQ 14#1","MDCU78|RoC|MEQ 11#1","MDCU78|RoC|MEQ 11#2","MDCU78|RoC|MEQ 11#3","MDCU72|RoB|MEQ 3#1","MDCU72|RoB|MEQ 3#2","MDCU70|RoB|MEQ xx#1"]},
+      {id:"burn-depth-compare",
+       title:"เปรียบเทียบ superficial vs deep partial-thickness (2nd-degree) burn ทุกด้าน รวมการรักษา",
+       trend:"คำถามไม่มีภาพ ‘compare in every aspect including management’ ออกซ้ำ MDCU66–67 และ MDCU72",
+       asked:["Compare superficial second-degree with deep second-degree burns in every aspect, including management","Describe the differences … including treatment"],
+       flow:["ตอบเป็นตารางในรูป bullet ทีละหัวข้อ: ความลึก → ลักษณะ → blanching / capillary refill → ความรู้สึก → การหาย → แผลเป็น → การรักษา"],
+       pattern:["<b>ความลึก:</b> superficial partial-thickness (SPT) = epidermis + papillary dermis · deep partial-thickness (DPT) = ถึง reticular dermis","<b>ลักษณะ:</b> SPT แดง / ชมพู ชื้น มีตุ่มน้ำ (blister) กดซีดแล้วแดงกลับเร็ว · DPT ซีดขาวปนแดงเป็นจุด (mottled) แห้งกว่า blister น้อย / แตก กดซีดกลับช้าหรือไม่ซีด · DPT ดึงขนหลุดง่าย","<b>ความรู้สึก:</b> SPT เจ็บมาก (ปลายประสาทยังดี) · DPT เจ็บน้อยลง รู้สึกแรงกดได้ pinprick ลดลง","<b>การหาย:</b> SPT หายเองจาก epithelial appendages ภายใน ~10–14 วัน (&lt; 3 สัปดาห์) แผลเป็นน้อย อาจมีสีผิวเปลี่ยน · DPT หายช้า &gt; 3 สัปดาห์ เกิด hypertrophic scar / contracture มาก","<b>รักษา SPT:</b> ทำความสะอาด เอาตุ่มน้ำแตก / ผิวหลุดออก · moist / occlusive dressing (silver sulfadiazine, silver dressing, paraffin gauze, biological / biosynthetic dressing) · ยาแก้ปวด · ยกส่วนที่บาดเจ็บ","<b>รักษา DPT:</b> dressing ระยะแรกและประเมินซ้ำ (burn wound conversion ใน 48–72 ชม.) · ถ้าคาดว่าไม่หายใน ~3 สัปดาห์ (โดยเฉพาะหน้า มือ ข้อ) → <b>early tangential excision + split-thickness skin graft</b> · ป้องกัน contracture: splint ท่าป้องกัน, physiotherapy, pressure garment 6–12 เดือน, silicone gel","ทั้งสองชนิดนับรวมใน %TBSA เพื่อคำนวณสารน้ำ (1st degree ไม่นับ)"],
+       kw:["papillary vs reticular dermis","blisters, moist, blanching, brisk capillary refill vs mottled, slow / absent refill","very painful vs reduced pain (pressure sensation only)","heals &lt; 2–3 weeks without significant scar vs &gt; 3 weeks with hypertrophic scar / contracture","moist dressing / silver sulfadiazine","early tangential excision + split-thickness skin graft","pressure garment, splint, physiotherapy"],
+       pearls:["คีย์เก่า MDCU67 RoA ให้ทั้งสองแบบรักษา conservative — DPT ที่คาดว่าไม่หายใน 3 สัปดาห์ต้อง excision + STSG","ลืมพูดถึง scar / contracture prevention ของ DPT (rubric MDCU67 RoC ให้คะแนน pressure garment)"],
+       members:["MDCU67|RoA|MEQ 9#1","MDCU67|RoC|MEQ 3#1","MDCU66|RoA|PPT 12#1","MDCU72|RoA|MEQ 3#1"]}
+    ]},
+    {title:"Facial trauma (plastic / maxillofacial)", sections:[
+      {id:"facial-laceration",
+       title:"แผลที่แก้ม / หน้าหู: facial nerve branch injury และ parotid (Stensen) duct",
+       trend:"ภาพแผลมีด / แผลแทงที่แก้มออกเกือบทุกรุ่น ถาม ‘เส้นประสาท / โครงสร้างใดบาดเจ็บ + ตรวจอย่างไร’",
+       asked:["Knife wound to the face → which nerves may be injured → how to examine each","Stab wound mid-cheek (แนว tragus–มุมปาก) สงสัย buccal branch → expected symptoms / signs → how to examine","Stab wound over parotid region → important structure + symptoms → how to test","Laceration below zygomatic arch → structures at risk → examination","Facial slash → structures that may be injured","What abnormalities may occur → how to examine"],
+       flow:["ระบุแนวแผลเทียบ landmark: tragus → กึ่งกลางริมฝีปากบน (parotid duct, กลาง 1/3) และเส้นดิ่งผ่าน lateral canthus","ไล่แขนง facial nerve ที่เสี่ยงและวิธีตรวจแต่ละแขนง (ก่อนฉีดยาชา เทียบสองข้าง)","ตรวจ parotid duct","Sensory (trigeminal) + อื่น ๆ","การรักษา: explore / microsurgical repair ภายใน 72 ชม. · stent duct"],
+       pattern:["<b>Facial nerve (CN VII)</b> ผ่าน parotid แตก 5 แขนง — ตรวจทีละแขนงเทียบสองข้าง<b>ก่อนฉีดยาชา</b>: temporal (frontal) → เลิกคิ้ว / ย่นหน้าผาก · zygomatic → หลับตาแน่นสู้แรง (หลับไม่สนิท = lagophthalmos, เสี่ยง exposure keratitis) · <b>buccal</b> (เสี่ยงสุดในแผลแก้ม) → ยิ้มยิงฟัน ยกริมฝีปากบน ย่นจมูก ป่องแก้ม (กดดูลมรั่ว) ผิวปาก / ทำปากจู๋ · marginal mandibular → ทำปากเบะ / ยื่นริมฝีปากล่าง / แสดงฟันล่าง · cervical → platysma","<b>อาการ buccal branch:</b> มุมปากไม่ยก nasolabial fold แบน ป่องแก้มลมรั่ว ผิวปากไม่ได้ อาหารค้างกระพุ้งแก้ม น้ำลายไหลมุมปาก · main trunk = LMN palsy ทั้งซีก (รวมหน้าผาก)","<b>Parotid (Stensen) duct:</b> อยู่บนกลาง 1/3 ของเส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน เปิดที่ buccal mucosa ตรงฟันกรามบนซี่ที่ 2 · ตรวจ: น้ำลายรั่วจากแผล · บีบ parotid ดูน้ำลายที่ papilla · สอด lacrimal probe / IV cannula ทาง papilla ดูว่าโผล่ที่แผล หรือฉีด NSS / methylene blue · ขาด → ซ่อมบน silastic stent (ไม่ซ่อม → salivary fistula / sialocele)","อื่น ๆ: parotid gland, masseter, transverse facial / facial vessels, sensory branches ของ trigeminal (infraorbital V2, auriculotemporal V3, great auricular) → light touch / pinprick","<b>Rx:</b> แขนงที่ขาด<b>ด้านหลัง (lateral) ต่อเส้นดิ่งผ่าน lateral canthus</b> → explore + microsurgical repair ภายใน <b>72 ชม.</b> (ยังใช้ nerve stimulator หาปลายส่วนปลายได้ก่อน Wallerian degeneration) · ด้าน medial ต่อเส้นนี้แขนงประสานกันมาก มักฟื้นเอง · ปกป้องกระจกตาถ้าหลับตาไม่สนิท"],
+       kw:["buccal (± zygomatic) branch of facial nerve","test before local anesthesia, compare both sides","raise eyebrows / close eyes tightly / smile, show teeth, puff cheeks / show lower teeth","parotid (Stensen) duct: tragus to mid upper lip, opens opposite upper 2nd molar","cannulate the papilla / methylene blue to detect duct injury","repair nerve within 72 h if lateral to lateral canthus line","stent repair of parotid duct"],
+       pearls:["ตรวจหลังฉีดยาชา = แปลผลไม่ได้","ลืม parotid duct เมื่อแผลอยู่กลางแก้มเป็นจุดเสียคะแนนบ่อยที่สุด","MDCU67 RoC คีย์ขีดฆ่า ‘maxillary n. → pinprick’ — sensory ไม่ใช่คำตอบหลัก แต่บอกเสริมได้"],
+       members:["MDCU67|RoC|MEQ 5#1","MDCU66|RoD|PPT 6#1","MDCU65|RoA|PPT 10#1","MDCU65|RoA|PPT 10#2","MDCU76|RoD|MEQ 11#1","MDCU76|RoD|MEQ 11#2","MDCU74|RoA|SEQ ไม่มีเลข 2#1","MDCU72|RoA|MEQ 5#1","MDCU72|RoA|MEQ 5#2","MDCU72|RoC|MEQ 9#1","MDCU72|RoC|MEQ 9#2"]},
+      {id:"mandible-fracture",
+       title:"Mandibular fracture — ชื่อ views (OPG, Towne, PA, Waters), ตำแหน่ง, ORIF ± MMF",
+       trend:"ฟิล์มขากรรไกรหลาย view ออกต่อเนื่อง MDCU70–78 ถามชื่อ view → ตำแหน่งที่หัก → definitive treatment",
+       asked:["Panoramic + skull view หลังถูกต่อย → name the two views → what is fractured","Mandible radiographs → Dx → definitive treatment (bilateral angle)","PA, Waters, panoramic → name each view → Dx (ramus) → Rx","Facial trauma film → Dx (บอก location + ข้าง) → definitive management","อุบัติเหตุ ฟิล์มหลาย view → Dx + management (airway)"],
+       flow:["ชื่อ view","บอกตำแหน่ง (condyle / coronoid / ramus / angle / body / parasymphysis / symphysis) + ข้าง · หาจุดหักที่สอง","ABC (airway)","Antibiotics + tetanus + analgesia","Restore occlusion: ORIF (miniplate) ± MMF ภายใน ~2 สัปดาห์ · condyle ส่วนใหญ่ closed"],
+       pattern:["<b>Views:</b> panoramic (orthopantomogram, OPG) · Towne view (AP axial — เห็น condyle / ramus) · PA mandible · lateral oblique · Waters (occipitomental — midface) · CT ดีที่สุด","Mandible เป็นวงแหวน → <b>มักหัก ≥ 2 ตำแหน่ง</b> (เช่น angle + contralateral body / parasymphysis / condyle) — ต้องหาจุดที่สองเสมอ · ตำแหน่งบ่อย: condyle, angle (สัมพันธ์ฟันกรามซี่ 3), body, symphysis","ตรวจ malocclusion, ชาริมฝีปากล่าง / คาง (inferior alveolar nerve), ฟันโยก, แผลในปาก","<b>Rx:</b> ABC — bilateral parasymphyseal fracture ลิ้นตกปิด airway · antibiotics (penicillin / amoxicillin-clavulanate; fracture ผ่านเบ้าฟัน = open fracture) · tetanus · <b>restore occlusion + bony reduction: ORIF (miniplates — angle ใช้ Champy plate) ± maxillomandibular (intermaxillary) fixation ภายใน ~1–2 สัปดาห์</b> · condylar fracture ส่วนใหญ่ closed treatment / MMF"],
+       kw:["orthopantomogram (OPG)","Towne view","PA mandible, Waters view","mandibular angle / body / ramus fracture, side","look for a second fracture (ring)","airway","antibiotics (open fracture into the mouth)","ORIF with miniplates ± maxillomandibular fixation","restore occlusion"],
+       ddx:["dental / alveolar fracture","TMJ dislocation","zygomaticomaxillary complex fracture"],
+       pearls:["บอกตำแหน่งแต่ไม่บอกข้าง = เสียคะแนน (คีย์ MDCU76 RoD ระบุ ‘location + ข้าง’)","หยุดที่จุดหักแรกไม่หาจุดที่สอง"],
+       members:["MDCU78|RoB|MEQ 12#1","MDCU78|RoB|MEQ 12#2","MDCU77|RoB|MEQ 9#1","MDCU77|RoB|MEQ 9#2","MDCU76|RoD|MEQ 4#1","MDCU76|RoD|MEQ 4#2","MDCU75|RoC|MEQ 9#1","MDCU75|RoC|MEQ 9#2","MDCU75|RoC|MEQ 9#3","MDCU72|RoD|MEQ 5#1","MDCU70|RoC|MEQ 11#1"]},
+      {id:"orbital-floor",
+       title:"Orbital floor (blowout) fracture — diplopia + enophthalmos, ข้อบ่งชี้ผ่าตัด",
+       trend:"ถามครั้งเดียว (MDCU67): coronal CT หลังรถจักรยานยนต์ล้ม ไม่มี zygoma fracture",
+       asked:["ตาซ้ายบวมช้ำ เห็นภาพซ้อน enophthalmos CT ไม่พบ zygoma fracture + coronal CT → Dx → outline treatment"],
+       flow:["อ่าน coronal CT: floor แตกยุบ orbital fat / inferior rectus ยื่นลง maxillary sinus","Dx + ตรวจเพิ่ม","Conservative initial","ข้อบ่งชี้ผ่าตัด + เวลา"],
+       pattern:["<b>กลไก:</b> แรงกระแทกลูกตาเพิ่มแรงดันในเบ้าตา → ผนังบางสุด (floor, medial wall) แตก · enophthalmos (ปริมาตรเบ้าตาเพิ่ม) · diplopia / มองขึ้นไม่ได้ (inferior rectus ติด / บวม)","<b>ตรวจเพิ่ม:</b> visual acuity, eye movement, forced duction test, ชาแก้ม / ริมฝีปากบน (infraorbital nerve), จักษุแพทย์ตรวจ globe injury","<b>เบื้องต้น:</b> ห้ามสั่งน้ำมูก / เบ่ง · ประคบเย็น ศีรษะสูง · ± antibiotics / steroid ลดบวม · ไม่มีข้อบ่งชี้ → observe 1–2 สัปดาห์ให้ยุบบวมแล้วประเมินซ้ำ","<b>ข้อบ่งชี้ผ่าตัด:</b> enophthalmos &gt; 2 mm · diplopia ต่อเนื่อง / forced duction บวก (entrapment) · defect ใหญ่ (&gt; 50% ของ floor / &gt; 1–2 cm²) → orbital floor exploration ปล่อยเนื้อเยื่อกลับ + reconstruct ด้วย titanium mesh / porous polyethylene / bone graft (transconjunctival / subciliary) ภายใน ~2 สัปดาห์ · เด็ก trapdoor fracture / oculocardiac reflex → ผ่าทันที","ZMC (tripod) fracture ที่เคลื่อน → ORIF ที่ FZ suture, infraorbital rim, ZM buttress — ไม่ใช่เคสนี้"],
+       kw:["orbital floor (blowout) fracture","herniation of orbital fat / inferior rectus into maxillary sinus","enophthalmos, diplopia, upgaze restriction","forced duction test","infraorbital nerve hypoesthesia","surgery if enophthalmos &gt; 2 mm, entrapment, large defect","orbital floor reconstruction (mesh / implant) within ~2 weeks"],
+       ddx:["zygomaticomaxillary complex fracture","retrobulbar hematoma","globe rupture"],
+       pearls:["คีย์เก่า MDCU67 RoA ตอบ zygoma fracture → ORIF — โจทย์บอกชัดว่าไม่มี zygoma fracture; ภาพคือ orbital floor fracture"],
+       members:["MDCU67|RoA|MEQ 11#1","MDCU67|RoA|MEQ 11#2"]}
+    ]},
+    {title:"Hernia (adult), post-operative care & wound", sections:[
+      {id:"inguinal-hernia-adult",
+       title:"Inguinal hernia ในผู้ใหญ่ — Dx จากภาพ, predisposing factors, mesh repair, pre-op orders",
+       trend:"ภาพก้อนขาหนีบลงถุงอัณฑะดันกลับได้ในชายวัยกลางคนออกต่อเนื่อง MDCU66–74 ถาม describe / Dx + DDx → predisposing factors → treatment → orders",
+       asked:["ชาย 45 ปี ก้อนขาหนีบซ้ายเข้าออก 2 ปี → Dx → 2 predisposing factors → treatment","ชาย 40 ปี ก้อนขาหนีบซ้าย 2 ปี → describe → most likely Dx + DDx","(ต่อ) Outline treatment → write orders สำหรับ elective surgery","ก้อนขาหนีบลงถุงอัณฑะดันกลับได้ → Dx → treatment → risk factors","ก้อนขาหนีบขวาลงถุงอัณฑะ → Dx → 2 causes → management"],
+       flow:["บรรยาย: ก้อนเหนือ inguinal ligament เหนือ-ใน pubic tubercle ลง scrotum ± ตรวจ cough impulse / reducible / get above ไม่ได้ / testis แยก","Dx: (indirect) inguinoscrotal hernia, reducible + DDx","หาและแก้ปัจจัยเพิ่ม IAP","Elective mesh repair","Pre-op orders / อาการเตือน strangulation"],
+       pattern:["<b>ตำแหน่ง:</b> inguinal = เหนือ inguinal ligament และ<b>เหนือ-ใน pubic tubercle</b> · femoral = ใต้-นอก · ลงถุงอัณฑะ (inguinoscrotal / complete) = ส่วนใหญ่ indirect (ผ่าน deep ring ตาม processus vaginalis) · direct ดันผ่าน Hesselbach's triangle มักไม่ลง scrotum · แยก direct / indirect ทางคลินิกไม่แม่น → ยืนยันระหว่างผ่าตัด (สัมพันธ์ inferior epigastric vessels)","<b>DDx ก้อนขาหนีบ:</b> femoral hernia · hydrocele / encysted hydrocele of the cord · lipoma of the cord · inguinal lymphadenopathy · undescended / ectopic testis · saphena varix","<b>Predisposing factors:</b> patent processus vaginalis · ↑ intra-abdominal pressure — ไอเรื้อรัง (COPD, บุหรี่), ท้องผูก / เบ่งถ่าย (คิด CRC ในคนสูงอายุ), เบ่งปัสสาวะ (BPH), ยกของหนัก, ascites, peritoneal dialysis, อ้วน, ตั้งครรภ์ · ผนังอ่อน: อายุมาก, บุหรี่, collagen disorder, เคยผ่าตัด (appendectomy) · เพศชาย, ประวัติครอบครัว","<b>Rx:</b> symptomatic → elective <b>tension-free mesh repair</b>: open Lichtenstein หรือ laparoscopic TEP / TAPP (HerniaSurge 2018 — mesh ลด recurrence) · tissue repair (Shouldice / Bassini) เมื่อไม่ใช้ mesh · ชายไม่มี / มีอาการน้อย watchful waiting ได้ · truss ไม่แนะนำ · สอนอาการ incarceration / strangulation (ดันไม่เข้า ปวดมาก แดง อาเจียน) → มาทันที","<b>Pre-op orders:</b> admit · set OR left inguinal hernioplasty (Lichtenstein) ใต้ spinal / GA / local · consent ระบุข้าง + <b>site marking</b> · NPO อาหาร 6–8 ชม. น้ำใส 2 ชม. · lab ตามอายุ / โรคร่วม (± CXR / EKG) · IV fluid เช้าวันผ่าตัด · prophylactic antibiotic เช่น cefazolin 2 g IV ภายใน 60 นาทีก่อนลงมีด (HerniaSurge 2018: แนะนำใน open mesh repair เมื่อผู้ป่วย / สถานที่เสี่ยงติดเชื้อสูง) · ให้ปัสสาวะก่อนเข้า OR · จัดการยา antiplatelet / anticoagulant · ตัดขนด้วย clipper ไม่โกน"],
+       kw:["reducible indirect inguinoscrotal hernia","above and medial to the pubic tubercle","cough impulse, cannot get above","patent processus vaginalis","chronic cough, constipation, BPH (↑ intra-abdominal pressure)","tension-free mesh repair (Lichtenstein) / laparoscopic TEP / TAPP","site marking, consent, NPO, cefazolin within 60 min","warning signs of strangulation"],
+       ddx:["femoral hernia","hydrocele / encysted hydrocele of the cord","lipoma of the cord","inguinal lymphadenopathy","undescended testis","saphena varix"],
+       pearls:["คีย์เก่า MDCU67 RoA ตอบ ‘herniorrhaphy’ — ใช้ได้ แต่มาตรฐานปัจจุบันคือ mesh hernioplasty","ลืมหาสาเหตุเพิ่ม IAP (BPH, ไอ, ท้องผูก) ในชายวัยกลางคนที่เพิ่งเป็น"],
+       members:["MDCU67|RoA|MEQ 6#1","MDCU67|RoA|MEQ 6#2","MDCU67|RoA|MEQ 6#3","MDCU66|RoA|PPT 2#1","MDCU66|RoA|PPT 2#2","MDCU66|RoA|PPT 3#1","MDCU66|RoA|PPT 3#2","MDCU74|RoA|SEQ 3#1","MDCU74|RoA|SEQ 3#2","MDCU74|RoA|SEQ 3#3","MDCU69|RoA|MEQ 11#1"]},
+      {id:"hernia-sites",
+       title:"แผนภาพไส้เลื่อนผนังหน้าท้อง A–F + precipitating factors (รวม umbilical hernia ผู้ใหญ่)",
+       trend:"แผนภาพตำแหน่งไส้เลื่อนออก MDCU70, 74, 78; MDCU70 ถามภาพ umbilical hernia ผู้ใหญ่ + risk factors",
+       asked:["Diagram hernias 6 ตำแหน่ง A–F → name each → 2 precipitating factors","Name the type of hernia at each labelled site","Picture shows hernia sites → name each → 2 risk factors","Umbilical hernia picture (ผู้ใหญ่) → Dx → 3 risk factors"],
+       flow:["ไล่จากบนลงล่าง / กลางออกข้าง","Precipitating factors (↑ IAP + ผนังอ่อน)"],
+       pattern:["<b>ตำแหน่ง:</b> epigastric (linea alba เหนือสะดือ) · umbilical / paraumbilical · incisional (ตามแผลผ่าตัดเดิม) · Spigelian (ขอบนอกของ rectus ตาม semilunar line ระดับ arcuate line) · inguinal (เหนือ inguinal ligament เหนือ-ใน pubic tubercle — indirect / direct) · femoral (ใต้ inguinal ligament ใต้-นอก pubic tubercle, medial ต่อ femoral vein — คอแคบ เสี่ยง strangulation สูงสุด พบในหญิง) · (obturator — หญิงสูงอายุผอม)","<b>Precipitating factors:</b> ↑ intra-abdominal pressure — chronic cough (COPD, บุหรี่), chronic constipation / straining, BPH, ยกของหนัก, ascites, obesity, pregnancy, peritoneal dialysis · ผนังอ่อน: อายุมาก, collagen disorder, แผลผ่าตัดติดเชื้อ (incisional)","<b>Umbilical / paraumbilical hernia ผู้ใหญ่:</b> risk = pregnancy / multiparity, obesity, ascites (ตับแข็ง), ไอเรื้อรัง, เบ่ง · ไม่ปิดเองแบบเด็ก → repair (mesh ถ้า defect ใหญ่)"],
+       kw:["epigastric, umbilical / paraumbilical, incisional, Spigelian, inguinal, femoral","inguinal above-medial vs femoral below-lateral to pubic tubercle","femoral hernia: highest strangulation risk","↑ intra-abdominal pressure: cough, constipation, BPH, ascites, obesity, pregnancy"],
+       pearls:["สลับ inguinal / femoral เพราะไม่ใช้ pubic tubercle เป็น landmark"],
+       members:["MDCU78|RoA|MEQ 1#1","MDCU78|RoA|MEQ 1#2","MDCU74|RoD|MEQ 2#1","MDCU70|RoC|MEQ 10#1","MDCU70|RoB|MEQ xx3#1"]},
+      {id:"postop-orders",
+       title:"Post-operative orders: one-day vs continuous (inguinal hernia repair, appendectomy for gangrenous appendicitis)",
+       trend:"ภาพผ่าตัดไส้เลื่อน / โจทย์ appendectomy ให้เขียน post-op order ออก MDCU67 (สองรอบ) และ MDCU72",
+       asked:["Write postoperative orders หลัง appendicectomy for acute gangrenous appendicitis แยก one-day / continuing","Intra-operative photo hernia operation → write postoperative orders","Inguinal hernia repair picture → write post-operative orders"],
+       flow:["หัวเรื่อง: Post-op [ชื่อผ่าตัด]","One day: V/S, I/O, diet / NPO, IV fluid + rate, analgesic prn, antiemetic prn, O₂, observe ภาวะแทรกซ้อน","Continuous: diet step, ambulation, antibiotics (ถ้าจำเป็น) ชื่อ + ขนาด + ความถี่, oral analgesic, wound care, discharge advice"],
+       pattern:["<b>Elective inguinal hernia repair (clean):</b> one day — V/S q 15 นาที × 4, q 30 นาที × 2 แล้ว q 1–4 ชม. · จิบน้ำเมื่อตื่นดี → regular diet (ไม่ต้อง NPO นาน) · IV 5%D/N/2 ~80 mL/ชม. จนกินได้แล้ว off · analgesia multimodal: paracetamol 500–1,000 mg q 6 h ± NSAID, morphine 2–3 mg IV prn ปวดมาก · antiemetic prn (metoclopramide 10 mg IV) · <b>observe voiding — ไม่ปัสสาวะใน 6–8 ชม. / กระเพาะโป่ง → in-out catheter</b> (urinary retention หลัง spinal, ชายสูงอายุ) · observe wound / scrotal hematoma · continuous — early ambulation, wound care แห้งไม่ต้องเปิดทุกวัน, scrotal support / ice pack, stool softener · ก่อนกลับ: งดยกของหนัก ~2–4 สัปดาห์ นัดดูแผล 7–10 วัน (ไม่ต้องคา Foley, ไม่ต้อง antibiotics ต่อ)","<b>Strangulated hernia ที่ตัดต่อลำไส้:</b> NPO + NG จนลำไส้ทำงาน, IV fluid / electrolyte, Foley วัด urine ≥ 0.5–1 mL/kg/ชม., IV antibiotics, I/O","<b>Gangrenous appendicitis (complicated, contaminated wound class III):</b> one day — post-op appendectomy, V/S, I/O, NPO หรือจิบน้ำเมื่อรู้สึกตัวดี, IV 5%D/N/2 1,000 mL ~80–100 mL/ชม., morphine 3 mg IV prn q 4 h, metoclopramide 10 mg IV prn q 8 h, O₂ prn · continuous — diet เร็ว (น้ำ → เหลว → อ่อน), early ambulation, urine output &gt; 0.5 mL/kg/ชม., <b>ceftriaxone 2 g IV OD + metronidazole 500 mg IV q 8 h</b> (หรือ amoxicillin-clavulanate) ~3–5 วันแล้วพิจารณาเปลี่ยนเป็นรับประทาน, paracetamol 500 mg 1–2 tab po q 6 h prn, incentive spirometry, wound care · uncomplicated appendicitis ไม่ต้องให้ ATB ต่อหลังผ่าตัด (WSES 2020)"],
+       kw:["one-day vs continuous orders","vital signs schedule, I/O","diet when awake (hernia) / early feeding","IV fluid with rate","analgesic and antiemetic prn with dose / route / frequency","observe voiding (urinary retention) after hernia repair","early ambulation, wound care","gangrenous appendicitis: ceftriaxone + metronidazole postoperatively"],
+       pearls:["คีย์เก่า MDCU67 RoC เขียน order แบบหลัง laparotomy (NPO, IV 2 ลิตร, retain Foley) สำหรับ elective hernia repair — ปัจจุบันกินได้เมื่อตื่นดี ไม่ต้องคาสายสวน","คีย์ MDCU67 RoB สั่ง tramadol po OD prn / metronidazole 7.5 mg/kg — รูปแบบสั่งยาไม่สมเหตุผล ให้เขียนชื่อยา + ขนาด + route + ความถี่ให้ครบ","ลืมแยก one day / continuous เสียคะแนนรูปแบบ"],
+       members:["MDCU67|RoB|MEQ 2#1","MDCU67|RoC|MEQ 8#1","MDCU72|RoA|MEQ 8#1"]},
+      {id:"strangulated-hernia",
+       title:"Incarcerated / strangulated inguinal hernia with small bowel obstruction",
+       trend:"ถามครั้งเดียว (MDCU75 RoD): ก้อนขาหนีบขวาแดง + AXR SBO",
+       asked:["Red tender right groin mass + AXR dilated SB air-fluid levels ต่างระดับ → Dx → treatment"],
+       flow:["Dx: obstructed (incarcerated / strangulated) inguinal hernia + SBO","Resuscitation","Emergency open repair — ประเมินลำไส้"],
+       pattern:["ผิวแดง กดเจ็บ ดันไม่เข้า + SBO = <b>strangulation จนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b>","<b>Rx:</b> NPO, NG decompression, IV fluid, antibiotics · <b>ห้ามพยายาม reduce</b> เมื่อสงสัย strangulation · <b>emergency open repair</b> — เปิด sac ประเมิน viability ลำไส้ (resect ถ้าตาย) · clean-contaminated (strangulated / ตัดลำไส้โดยไม่มี gross spillage) ใช้ synthetic mesh ได้ · ปนเปื้อนมาก (gross contamination) → tissue repair (WSES 2017) · open repair เป็นมาตรฐาน; laparoscopic TAPP (ดูลำไส้ได้) ทำได้ในศูนย์ที่ชำนาญ · ไม่ทำ TEP"],
+       kw:["obstructed / strangulated inguinal hernia","small bowel obstruction","do not reduce if strangulation suspected","NPO, NG, IV fluid, antibiotics","emergency open repair, assess bowel viability, resect if non-viable","tissue repair if grossly contaminated (mesh acceptable if clean-contaminated)"],
+       ddx:["inguinal lymphadenitis / abscess","torsion of testis","femoral hernia"],
+       members:["MDCU75|RoD|MEQ 5#1","MDCU75|RoD|MEQ 5#2"]},
+      {id:"ssi",
+       title:"Surgical site infection หลัง inguinal hernia repair",
+       trend:"ถามครั้งเดียว (MDCU65 RoC): ไข้ POD 3 + ภาพแผลขาหนีบบวมแดง",
+       asked:["Inguinal hernia repair, POD 3 fever + wound photo → etiology → initial management"],
+       flow:["Dx superficial incisional SSI (± deep / mesh)","แยกสาเหตุไข้หลังผ่าตัดอื่น","Open & drain + culture","Antibiotics เมื่อมี cellulitis / systemic","ประเมิน mesh infection"],
+       pattern:["<b>Etiology:</b> superficial incisional SSI / wound cellulitis — <b>S. aureus</b> (ผิวหนัง) ± Streptococcus · เกิดเร็ว (&lt; 48 ชม.) ปวดมาก → นึก GAS / Clostridium necrotizing infection · hernia repair = clean wound (SSI ~1–2%) ส่วนใหญ่แสดงวันที่ 5–7 · hematoma / seroma เพิ่มเสี่ยง","สาเหตุไข้หลังผ่าตัด 5W: Wind (atelectasis / pneumonia), Water (UTI), Wound, Walking (DVT / PE), Wonder drugs","<b>Initial:</b> ตรวจแผล (หนอง fluctuation ขอบเขตแดง crepitus) · <b>เปิดแผล (ตัดไหมบางเข็ม) ระบายหนอง ส่ง gram stain + culture</b> · ล้าง ทำแผลเปิด · antibiotics เมื่อ cellulitis รอบแผล &gt; 5 cm หรือ systemic signs: anti-staph (cefazolin / cloxacillin; MRSA → vancomycin) · CBC ± US ดู collection ลึกถึง mesh · mesh infection เรื้อรังไม่ตอบสนอง → อาจต้องเอา mesh ออก","หลัก: source control (open & drain) สำคัญกว่า antibiotic; superficial SSI ไม่มี cellulitis / systemic ไม่จำเป็นต้องให้ยา"],
+       kw:["superficial incisional surgical site infection","Staphylococcus aureus","5W causes of postoperative fever","open the wound, drain, culture","antibiotics if cellulitis &gt; 5 cm or systemic signs","assess for deep / mesh infection (US)"],
+       ddx:["wound hematoma / seroma","deep SSI / mesh infection","necrotizing soft-tissue infection","other causes of postoperative fever"],
+       members:["MDCU65|RoC|PPT 19#1","MDCU65|RoC|PPT 19#2"]}
+    ]},
+    {title:"Head & neck, thyroid, ear pits", sections:[
+      {id:"preauricular-sinus",
+       title:"Preauricular sinus (infected) และ first branchial cleft anomaly — เส้นประสาทที่ต้องระวัง",
+       trend:"ภาพรูเล็กหน้าใบหูอักเสบซ้ำออก MDCU69, 74, 78; MDCU77 เป็นรอยโรคใต้–หน้าติ่งหู (first branchial cleft)",
+       asked:["เด็ก 6 ปี รูเล็กหน้า helix แดงบวมปวดซ้ำ 2 ครั้ง → Dx → manage","Preauricular sinus → outline management","Pit in front of the ear → Dx + treatment plan","เด็ก 7 ปี รอยโรคแดงตกสะเก็ดเป็นหนองใต้–หน้าติ่งหู ติดเชื้อซ้ำ → Dx → ถ้าจะระบายหนอง ต้องระวังเส้นประสาทใด"],
+       flow:["Dx","ไม่มีอาการ → observe","ติดเชื้อ → antibiotics ± drain","สงบแล้ว → complete excision","Bilateral / anomaly ร่วม → hearing + renal US"],
+       pattern:["<b>Preauricular sinus:</b> รูเล็กหน้า root of helix จากการรวมกันไม่สมบูรณ์ของ auricular hillocks (1st / 2nd arch) · ไม่มีอาการ → observe ไม่ต้องผ่าตัด · ติดเชื้อ → antibiotics คลุม Staph / Strep ± aspiration / I&D ถ้าเป็นฝี · <b>ติดเชื้อซ้ำ → complete surgical excision ของ sinus tract เมื่อหายอักเสบ</b> (รวม cartilage ที่ติด tract; supra-auricular approach ลด recurrence) · ผ่าขณะอักเสบเพิ่ม recurrence · bilateral / มีความผิดปกติร่วม → ตรวจการได้ยิน + renal US (branchio-oto-renal syndrome)","<b>First branchial cleft anomaly</b> (Work type II): จาก external auditory canal ถึงมุมขากรรไกร สัมพันธ์ parotid และ <b>facial nerve</b> → ระบายหนองแบบจำกัด กรีดขนานแขนงประสาท (marginal mandibular / cervical ใกล้มุมขากรรไกร) · excision เมื่อสงบโดย identify facial nerve trunk ก่อน (superficial parotidectomy approach) · DDx: NTM cervicofacial lymphadenitis (ผิวแดงม่วงบาง ตกสะเก็ด ในเด็ก), infected preauricular sinus, parotid abscess"],
+       kw:["preauricular sinus (congenital)","recurrent infection → antibiotics ± drainage","complete excision of the tract after inflammation subsides","observe if asymptomatic","branchio-oto-renal syndrome (hearing, renal US)","first branchial cleft anomaly","facial nerve at risk"],
+       ddx:["first branchial cleft anomaly","NTM lymphadenitis","infected epidermoid cyst","parotid abscess"],
+       pearls:["MDCU77 RoA ผู้จดบอกว่ารูปไม่ตรงข้อสอบจริงและไม่มีคีย์ — ตอบ facial nerve เป็นคำตอบหลัก"],
+       members:["MDCU78|RoA|MEQ 8#1","MDCU78|RoA|MEQ 8#2","MDCU74|RoD|MEQ 8#1","MDCU69|RoC|MEQ 6#1","MDCU77|RoA|MEQ 11#1","MDCU77|RoA|MEQ 11#2"]},
+      {id:"midline-neck-mass",
+       title:"Midline neck mass — thyroglossal duct cyst (US neck, Sistrunk) และก้อนใต้คาง (dermoid)",
+       trend:"ก้อนกลางคองานหลายปีโตขึ้น (MDCU67, 72) และก้อนกลางใต้คางไม่ขยับตามแลบลิ้น (MDCU78) ถาม Dx / DDx → 1 investigation → treatment",
+       asked:["Neck lump หลายปีโตขึ้นปีที่แล้ว → provisional Dx → 1 investigation","Midline neck mass → provisional Dx → 1 investigation","ชาย 20 ปี ก้อนกลางใต้คางไม่เจ็บ 2 ปี ไม่ขยับตามการกลืน / แลบลิ้น ไม่ติดผิว → 3 DDx → most likely Dx + treatment"],
+       flow:["ตรวจ: ระดับ (hyoid / thyroid cartilage / submental), ขยับตามกลืน / แลบลิ้น","Dx + DDx","Investigation","Treatment"],
+       pattern:["<b>Thyroglossal duct cyst:</b> ก้อนกลมผิวเรียบแนวกลางคอใกล้ hyoid เป็นมานาน <b>เคลื่อนขึ้นเมื่อแลบลิ้นและกลืน</b> (ติด hyoid / foramen cecum) · ก้อนแต่กำเนิดแนวกลางคอที่พบบ่อยสุด · โตขึ้น / แดง = ติดเชื้อ","<b>Investigation:</b> <b>ultrasound neck</b> — ยืนยัน cyst ตำแหน่งสัมพันธ์ hyoid และว่ามีต่อมไทรอยด์ปกติ · ไม่เห็นไทรอยด์ปกติ / สงสัย ectopic thyroid → thyroid scan (Tc-99m / I-123) ± TFT (ตัด ectopic thyroid ที่เป็นเนื้อไทรอยด์ชิ้นเดียว → hypothyroid ถาวร)","<b>Rx TGDC:</b> <b>Sistrunk operation</b> — ตัด cyst + ส่วนกลางของ hyoid + tract ถึง foramen cecum (ลด recurrence) · ติดเชื้ออยู่ → antibiotics ก่อน · อย่า I&D / เจาะก้อนกลางคอก่อนรู้ว่าเป็นอะไร","<b>Submental midline mass:</b> dermoid cyst (ไม่ขยับตามแลบลิ้น ไม่ติดผิว โตช้า; มี adnexal structures) · TGDC (สูงใกล้ hyoid) · submental lymphadenopathy (ระบายปลายลิ้น ริมฝีปากล่าง พื้นปาก — reactive, TB, lymphoma, mets) · plunging ranula · lipoma / epidermoid cyst · <b>dermoid → US / CT แล้ว surgical excision</b> (เหนือ mylohyoid → intraoral, ใต้ → submental approach)"],
+       kw:["thyroglossal duct cyst","midline, moves upward with tongue protrusion and swallowing","ultrasound neck (normal thyroid present?)","thyroid scan if no normal thyroid / ectopic suspected","Sistrunk operation (cyst + central hyoid + tract)","dermoid cyst (does not move with tongue protrusion)","submental lymph node, plunging ranula"],
+       ddx:["dermoid cyst","ectopic thyroid","pyramidal lobe / thyroid nodule","Delphian lymph node","plunging ranula","lipoma"],
+       pearls:["คีย์เก่า MDCU67 RoC ตอบ ‘thyroid scan’ — investigation แรกปัจจุบันคือ US คอ; thyroid scan เมื่อ US ไม่เห็นไทรอยด์ปกติ (ได้คะแนนบางส่วน)","MDCU78 RoA ไฟล์จดแค่ ‘ก้อนที่คาง’ — โจทย์ / คำตอบคลังแต่งเพิ่ม"],
+       members:["MDCU67|RoC|MEQ 1#1","MDCU67|RoC|MEQ 1#2","MDCU72|RoA|MEQ 1#1","MDCU72|RoA|MEQ 1#2","MDCU78|RoA|MEQ 3#1","MDCU78|RoA|MEQ 3#2"]},
+      {id:"thyroid",
+       title:"Graves' disease / goiter และข้อบ่งชี้ thyroidectomy",
+       trend:"MDCU66 (ภาพคอโต + ตาโปน), MDCU71 (goiter), MDCU68 (ข้อบ่งชี้ thyroidectomy ไม่มีภาพ)",
+       asked:["หญิง 30 ปี คอโต diffuse ตาโปน ใจสั่น ขี้ร้อน น้ำหนักลด → Dx → treatment options","Enlarged neck + hyperthyroid symptoms statement → Dx + treatment","Indications for thyroidectomy"],
+       flow:["Dx + ยืนยันด้วย TFT / TRAb","β-blocker","3 ทางเลือก: ATD / RAI / surgery","เตรียมก่อนผ่าตัด + ภาวะแทรกซ้อน"],
+       pattern:["<b>Graves:</b> diffuse toxic goiter + ophthalmopathy (± pretibial myxedema) · ยืนยัน TSH ต่ำ, FT4 / T3 สูง, TRAb (TSI)","<b>Rx (ATA 2016):</b> β-blocker (propranolol) คุมอาการ · (1) antithyroid drugs — methimazole 12–18 เดือน (PTU ในไตรมาสแรก / thyroid storm); ระวัง agranulocytosis, hepatotoxicity (2) radioactive iodine I-131 — ห้ามในตั้งครรภ์ / ให้นม, ophthalmopathy อาจแย่ลง (steroid ป้องกัน) (3) <b>total thyroidectomy</b> (ไม่ใช่ subtotal — recurrence ต่ำ)","<b>ข้อบ่งชี้ thyroidectomy:</b> thyrotoxicosis ที่ยาไม่ได้ผล / ไม่เหมาะ RAI / ophthalmopathy รุนแรง / ตั้งครรภ์ที่ใช้ยาไม่ได้ (ทำไตรมาสสอง) / ผู้ป่วยเลือก · tumor — มะเร็ง หรือ FNA indeterminate / non-diagnostic (establish diagnosis) · pressure symptoms (dysphagia, dyspnea, retrosternal goiter) · cosmetic","<b>เตรียมก่อนผ่าตัด:</b> ทำให้ euthyroid ด้วย ATD + β-blocker (ผ่าขณะ thyrotoxic → thyroid storm) + Lugol's iodine 7–10 วันลด vascularity · หลังผ่าตัด levothyroxine ตลอดชีวิต · complications: recurrent laryngeal nerve injury, hypoparathyroidism (hypocalcemia), เลือดออกกดทางเดินหายใจ","<b>Non-toxic multinodular goiter:</b> TFT, US, FNA ก้อนเด่น → ผ่าตัดเมื่อ compressive / retrosternal / cosmetic / สงสัยมะเร็ง · toxic MNG → ATD แล้ว RAI หรือ thyroidectomy"],
+       kw:["Graves' disease (diffuse toxic goiter + ophthalmopathy)","TSH low, FT4 high, TRAb","β-blocker","methimazole 12–18 months / RAI / total thyroidectomy","euthyroid + Lugol's iodine before surgery","indications: toxic, tumor / indeterminate FNA, pressure symptoms, retrosternal, cosmetic","RLN injury, hypocalcemia"],
+       ddx:["toxic multinodular goiter","toxic adenoma","thyroiditis","non-toxic MNG"],
+       pearls:["ผ่าตัดขณะยัง thyrotoxic = เสี่ยง thyroid storm","คีย์ MDCU66 RoD ผู้จดเขียน ‘เป็น grave disease มั้งครับ’ — คำตอบรักษามาจากคลัง (ATA 2016)"],
+       members:["MDCU66|RoD|PPT 8#1","MDCU71|RoA|MEQ 4#1","MDCU68|RoB|MEQ 7#1"]},
+      {id:"infected-neck-mass",
+       title:"ก้อนคออักเสบมีหนองตรงกลาง — ประวัติ, DDx, US",
+       trend:"ถามครั้งเดียว (MDCU76 RoA) ไม่เห็นรูปจริง",
+       asked:["Red swollen tender neck mass มีจุดหนองตรงกลาง → history → 3 DDx → further investigation"],
+       flow:["ประวัติ","DDx","US ± CT, labs"],
+       pattern:["<b>History:</b> ระยะเวลา มีก้อนเดิมมาก่อนไหม (cyst ที่ติดเชื้อ) · ปวด แดง ไข้ หนองไหล · การติดเชื้อนำ (เจ็บคอ ฟันผุ แผลหน้า / หนังศีรษะ) · กลืน / หายใจลำบาก (deep neck infection) · DM / ภูมิต่ำ · อาการไทรอยด์ · ประวัติผ่าตัด / ฉายรังสีคอ · ประวัติครอบครัว thyroid CA · TB contact · น้ำหนักลด","<b>DDx:</b> furuncle / carbuncle · infected epidermoid cyst · infected thyroglossal duct / branchial cleft cyst · suppurative lymphadenitis / deep neck abscess · infected thyroid cyst / acute suppurative thyroiditis","<b>Ix:</b> <b>US neck</b> (collection, ความสัมพันธ์กับ thyroid / hyoid) ± CT neck with contrast ถ้าสงสัย deep neck infection · CBC, glucose / HbA1c, pus gram stain + culture · อย่าผ่าก้อนกลางคอก่อนรู้ว่าเป็น TGDC / ectopic thyroid"],
+       kw:["duration, pre-existing lump","dysphagia / dyspnea (deep neck infection)","diabetes","furuncle / carbuncle, infected epidermoid / TGDC / branchial cyst, suppurative lymphadenitis","ultrasound neck ± CT"],
+       members:["MDCU76|RoA|MEQ 5#1","MDCU76|RoA|MEQ 5#2","MDCU76|RoA|MEQ 5#3"]}
+    ]},
+    {title:"Tubes, drains, catheters & instruments", sections:[
+      {id:"drains",
+       title:"Surgical drains — Penrose (passive open) vs Jackson-Pratt (closed active suction); retention suture",
+       trend:"ภาพท่อระบายออก MDCU65, 66 (สองรอบ), 70, 72 ถามชื่อ → กลไก / ข้อดี → ใช้ในผ่าตัดอะไร",
+       asked:["Soft flat latex tube → what is it → 2 operations ที่ใช้","Drain with a bulb → mechanism → operations ที่ใช้","Drain → name → 1 advantage over other drains","Closed suction drain → what, how it works, which operations","Penrose drain + retention sutures → what is each used for"],
+       flow:["ชื่อ","ชนิด: passive / active, open / closed","กลไก","ข้อบ่งชี้ / ข้อดีข้อเสีย"],
+       pattern:["<b>Penrose drain:</b> ท่อยาง latex นิ่มแบน = <b>passive, open drain</b> (capillary action, แรงโน้มถ่วง, ความดันในโพรง) · ใช้: I&D ฝีตื้น / แผลติดเชื้อ (กันขอบแผลปิด), คล้องดึงรั้ง spermatic cord ใน inguinal herniorrhaphy / หลอดอาหารใน fundoplication / หลอดเลือด, tourniquet นิ้ว, seton · ข้อเสีย: เชื้อเข้า retrograde ระบายได้น้อย","<b>Jackson-Pratt (JP) drain:</b> silicone tube ปลายแบนมีรูด้านข้าง + bulb (grenade) = <b>closed, active low-pressure suction</b> — บีบ bulb ไล่ลมแล้วปิดจุก bulb พยายามคืนรูปเกิดแรงดูดลบต่ำต่อเนื่อง · เท / บีบใหม่เมื่อเต็ม ~1/2–2/3 บันทึกปริมาณ · ถอดเมื่อ &lt; 25–50 mL/วัน · <b>ข้อดี:</b> ระบบปิด ลด retrograde infection, ดูดต่อเนื่องให้ flap แนบ ลด seroma / hematoma, วัดปริมาณและดู content ได้, แรงดูดต่ำ + silicone นุ่ม บาดเจ็บอวัยวะน้อย (ใช้ในช่องท้องใกล้ anastomosis), ผู้ป่วยเคลื่อนไหวสะดวก · ใช้: mastectomy / axillary dissection, thyroidectomy / neck dissection, hepatobiliary / pancreatic (ดู bile / pancreatic leak), colorectal, flap ใหญ่, orthopedic","Redivac / Hemovac = closed high-vacuum (ขวดแข็ง) เหมาะใต้ผิวหนัง / กล้ามเนื้อ","<b>Retention (tension) suture:</b> เย็บ full-thickness ผ่านทุกชั้นผนังหน้าท้อง (มี bolster / ท่อหุ้มกันบาดผิว) ลดแรงตึง ป้องกัน wound dehiscence / burst abdomen ในผู้ป่วยเสี่ยง (malnutrition, steroid, มะเร็ง, ไอมาก, re-closure)"],
+       kw:["Penrose drain — passive open drain","Jackson-Pratt drain — closed active low-pressure suction bulb","squeeze the bulb, close the cap","reduces retrograde infection, seroma / hematoma","mastectomy, thyroidectomy, abdominal surgery","retention suture prevents fascial dehiscence"],
+       pearls:["สะกด Penrose (คีย์ไฟล์เขียน ‘pendose’)","เรียก JP ว่า passive drain = ผิด"],
+       members:["MDCU66|RoA|PPT 5#1","MDCU66|RoA|PPT 5#2","MDCU66|RoB|PPT 3#1","MDCU66|RoB|PPT 3#2","MDCU65|RoC|PPT 6#1","MDCU65|RoC|PPT 6#2","MDCU70|RoB|MEQ xx5#1","MDCU72|RoD|MEQ 2#1"]},
+      {id:"scopes",
+       title:"Proctoscope (anoscope) และ rigid sigmoidoscope",
+       trend:"ภาพเครื่องมือโลหะท่อสั้นมี obturator (MDCU66) และคู่ A / B sigmoidoscope + proctoscope (MDCU69)",
+       asked:["Short tubular metal instrument with obturator → what → used for","Devices A and B → names → uses"],
+       flow:["ชื่อ + ส่วนประกอบ","ดูอะไรได้ / ความยาว","หัตถการที่ทำผ่านได้"],
+       pattern:["<b>Proctoscope (anoscope)</b> ยาว ~7–10 cm: ท่อ + obturator ปลายมน (ช่วยสอดไม่บาดเจ็บ แล้วดึงออกเพื่อมอง) ใช้กับแหล่งแสง · ทำต่อจาก DRE เสมอ · ใช้: วินิจฉัย hemorrhoids (grade), anal fissure, internal opening ของ fistula, polyp / มะเร็งส่วนปลาย, proctitis, หาสาเหตุเลือดแดงสด · หัตถการ: rubber band ligation, sclerotherapy, biopsy","<b>Rigid sigmoidoscope</b> ~25 cm: ดู rectum / sigmoid ส่วนปลาย, biopsy, detorsion sigmoid volvulus (± rectal tube) · flexible sigmoidoscope ~60 cm"],
+       kw:["proctoscope with obturator","anal canal and lower rectum","hemorrhoid grading, rubber band ligation, sclerotherapy, biopsy","rigid sigmoidoscope ~25 cm","sigmoid volvulus detorsion"],
+       members:["MDCU66|RoD|PPT 7#1","MDCU69|RoC|MEQ 8#1"]},
+      {id:"local-anesthetic",
+       title:"Lidocaine with adrenaline (max dose) และ Hemoclip",
+       trend:"ถามครั้งเดียว (MDCU73 RoD, OSCE station)",
+       asked:["A = 1% lidocaine with adrenaline, B = รูป → identify A and B → max dose ของ A ในผู้ป่วย 50 kg → precautions"],
+       flow:["Identify","คำนวณขนาดสูงสุด","ข้อควรระวัง + LAST"],
+       pattern:["A = lidocaine (Xylocaine) with adrenaline (epinephrine 1:100,000–1:200,000) · B = <b>Hemoclip</b> (metal ligation clips) หนีบหลอดเลือด / ท่อเล็ก (เช่น cystic duct / artery)","<b>Max dose:</b> lidocaine with adrenaline <b>7 mg/kg</b> → 50 kg = 350 mg = 1% (10 mg/mL) <b>35 mL</b> · plain lidocaine 4.5 mg/kg = 225 mg (22.5 mL)","<b>Precautions:</b> ตำรามาตรฐานห้ามใช้ adrenaline ที่ end-artery (นิ้ว นิ้วเท้า องคชาต ปลายจมูก ใบหู) — ข้อมูลปัจจุบันพบว่าใช้ในนิ้วได้ในคนไม่มีโรคหลอดเลือด · aspirate ก่อนฉีด (กัน intravascular) · ระวังโรคหัวใจ / arrhythmia, HT, thyrotoxicosis, pheochromocytoma · <b>LAST:</b> ชารอบปาก ลิ้นชา หูอื้อ มึน → ชัก → arrhythmia / arrest → หยุดยา ABC ห้ามชัก + <b>20% lipid emulsion</b>"],
+       kw:["lidocaine with adrenaline 7 mg/kg (plain 4.5 mg/kg)","50 kg → 350 mg = 35 mL of 1%","aspirate before injection","end-artery caution","local anesthetic systemic toxicity → 20% lipid emulsion","Hemoclip (ligating clip)"],
+       pearls:["ลืมแปลง mg เป็น mL (1% = 10 mg/mL)"],
+       members:["MDCU73|RoD|3#1","MDCU73|RoD|3#2","MDCU73|RoD|3#3"]},
+      {id:"ng-tube",
+       title:"Nasogastric tube — indications, contraindications, ยืนยันตำแหน่ง",
+       trend:"ถามครั้งเดียว (MDCU65 RoC)",
+       asked:["Tube with radiopaque line, side holes, second lumen (blue pigtail) → 2 indications → 2 contraindications"],
+       flow:["ชื่อ (NG tube — Salem sump มี vent lumen)","Indications","Contraindications","ยืนยันตำแหน่ง"],
+       pattern:["<b>Indications:</b> decompression (bowel obstruction, paralytic ileus, gastric outlet obstruction, หลังผ่าตัดช่องท้อง) · ป้องกัน aspiration ในผู้ป่วยอาเจียน / ซึม · enteral feeding / ให้ยา · gastric lavage (บางสารพิษ) · ประเมิน UGIB · เก็บ gastric content / ฉีดสารทึบ","<b>Absolute contraindications:</b> <b>basilar skull fracture / severe midface trauma</b> (สายเข้า cranial cavity → ใส่ OG แทน; signs: raccoon eyes, Battle sign, CSF rhinorrhea) · esophageal obstruction / atresia, recent esophageal surgery, caustic ingestion (เสี่ยงทะลุ)","<b>Relative:</b> esophageal varices ที่เพิ่งเลือดออก / banding, coagulopathy รุนแรง, recent nasal surgery, stricture / diverticulum, ผู้ป่วยไม่ protect airway (intubate ก่อน)","ยืนยันตำแหน่งก่อนให้อาหาร: <b>CXR</b> (มาตรฐาน) หรือดูด content pH ≤ 5.5 · ฟังลมอย่างเดียวไม่พอ"],
+       kw:["decompression, aspiration prevention, feeding, lavage","basilar skull fracture / midface trauma → orogastric tube","esophageal obstruction / recent surgery / caustic ingestion","confirm with CXR or aspirate pH ≤ 5.5"],
+       members:["MDCU65|RoC|PPT 7#1","MDCU65|RoC|PPT 7#2"]},
+      {id:"three-way-foley",
+       title:"Three-way Foley catheter — continuous bladder irrigation",
+       trend:"ถามครั้งเดียว (MDCU65 RoC)",
+       asked:["Urethral catheter with three ports → specific indication"],
+       flow:["3 ports: balloon, drainage, irrigation","Indication CBI"],
+       pattern:["<b>Three-way Foley</b> (มักขนาด 20–24 Fr ผนังแข็งไม่ยุบเวลาดูด): port balloon + drainage + irrigation","<b>Indication: continuous bladder irrigation (CBI)</b> ใน gross hematuria with clot — ป้องกัน / รักษา clot retention เช่น หลัง TURP / TURBT, prostate / bladder bleeding, hemorrhagic cystitis","ก่อนเริ่ม CBI ล้าง clot ออกให้หมด (manual irrigation) · ปรับอัตราน้ำให้ปัสสาวะสีชมพูอ่อน"],
+       kw:["three-way (irrigating) Foley catheter","continuous bladder irrigation","gross hematuria with clot retention","post-TURP / TURBT"],
+       members:["MDCU65|RoC|PPT 9#1"]},
+      {id:"picc",
+       title:"PICC line — ข้อบ่งชี้และเชื้อที่พบบ่อย",
+       trend:"ถามครั้งเดียว (MDCU69 RoC)",
+       asked:["What is this device → 3 indications → most common infecting organism"],
+       flow:["ชื่อ","Indications","Infection"],
+       pattern:["<b>PICC (peripherally inserted central catheter)</b> — ใส่ทาง basilic / brachial / cephalic vein ปลายอยู่ SVC–RA junction","<b>Indications:</b> chemotherapy, parenteral nutrition, long-term IV antibiotics, เจาะเลือดบ่อย, ให้เลือด / ยาระคายเคืองหลอดเลือดซ้ำ ๆ","<b>เชื้อบ่อยสุด:</b> coagulase-negative Staphylococcus (S. epidermidis) · อื่น S. aureus, gram-negative, Candida · ภาวะแทรกซ้อนอื่น: upper-extremity DVT, occlusion"],
+       kw:["peripherally inserted central catheter","chemotherapy, TPN, long-term IV antibiotics","coagulase-negative Staphylococcus (S. epidermidis)"],
+       members:["MDCU69|RoC|MEQ 1#1"]}
+    ]},
+    {title:"Chest (thoracic) & others", sections:[
+      {id:"pneumothorax",
+       title:"Spontaneous pneumothorax — CXR, primary vs secondary, aspiration vs chest drain",
+       trend:"CXR เจ็บหน้าอกทันทีในชายสูบบุหรี่ออก MDCU76 (สองรอบ) และ MDCU77",
+       asked:["ชาย 20 ปีสูบบุหรี่ 5 ปี เจ็บอกทันที → describe → Dx → treat","สูบบุหรี่ 20 ปี เจ็บอกทันที → describe → Dx → treat","สูบบุหรี่ 20 pack-years เจ็บอก → Dx → management"],
+       flow:["CXR: visceral pleural line + ไม่มี lung markings ด้านนอก · ขนาด · tracheal / mediastinal shift","Primary (ไม่มีโรคปอด) vs secondary (COPD / bulla)","Tension → needle decompression ทันที","PSP: observe / aspiration · SSP: chest drain + admit","Recurrence prevention"],
+       pattern:["<b>CXR:</b> visible visceral pleural line + <b>ไม่มี lung markings นอกเส้น</b> (แยก skin fold ที่ลายปอดต่อเนื่องเลยขอบ) · ปอดยุบ · ขนาด (BTS: rim ≥ 2 cm ที่ระดับ hilum = large) · ดู tracheal / mediastinal shift (tension), ระดับน้ำ (hydropneumothorax), hyperinflation อีกข้าง (COPD)","<b>Primary spontaneous (PSP):</b> ชายหนุ่มผอมสูง สูบบุหรี่ — apical bleb แตก · <b>Secondary (SSP):</b> โรคปอดเดิม (COPD / emphysema / bullae ในคนสูบนาน) — รุนแรงกว่า","<b>Tension pneumothorax</b> = clinical diagnosis → needle decompression ทันที แล้ว chest drain (ไม่รอ film)","<b>Rx (BTS 2023):</b> O₂ · PSP เล็ก / อาการน้อย → conservative (observe) · PSP มีอาการ / ใหญ่ → <b>needle aspiration</b> หรือ small-bore drain / ambulatory device · <b>SSP → intercostal chest drain + admit</b> · ตำแหน่ง safe triangle: 4th–5th ICS ระหว่าง anterior–mid axillary line (ขอบ pectoralis major, latissimus dorsi, ระดับหัวนม) · เลิกบุหรี่ · <b>VATS bullectomy + pleurodesis</b> เมื่อเป็นซ้ำ, air leak &gt; 5–7 วัน, bilateral, อาชีพเสี่ยง · ห้ามบิน / ดำน้ำจนหายสนิท"],
+       kw:["visceral pleural line with absent lung markings peripherally","primary vs secondary spontaneous pneumothorax","tension → needle decompression","needle aspiration / small-bore drain for symptomatic PSP","intercostal chest drain for SSP, 4th–5th ICS anterior to mid-axillary line (safe triangle)","smoking cessation","VATS bullectomy + pleurodesis for recurrence / persistent air leak"],
+       ddx:["skin fold","bulla","hydropneumothorax","tension pneumothorax"],
+       pearls:["ผู้สูบบุหรี่นาน (20 ปี / 20 pack-years) อาจเป็น SSP → chest drain มากกว่า aspiration (MDCU76 RoC คนเฉลยบรรยาย tracheal shift ต่างกัน)","ข้างของรอยโรคยึดตามคีย์ (MDCU77 RoB รูปในไฟล์ไม่ตรง)"],
+       members:["MDCU77|RoB|MEQ 7#1","MDCU77|RoB|MEQ 7#2","MDCU76|RoA|MEQ 10#1","MDCU76|RoA|MEQ 10#2","MDCU76|RoA|MEQ 10#3","MDCU76|RoC|MEQ 3#1","MDCU76|RoC|MEQ 3#2","MDCU76|RoC|MEQ 3#3"]},
+      {id:"lung-nodule",
+       title:"Solitary pulmonary nodule บน CXR ตรวจสุขภาพ",
+       trend:"ถามครั้งเดียว (MDCU77 RoC)",
+       asked:["หญิง 65 ปีแข็งแรง CXR ประจำปี → report + abnormality → history ช่วย DDx → further investigation"],
+       flow:["Report CXR เป็นระบบ","ประวัติ","CT chest → tissue diagnosis"],
+       pattern:["<b>Report:</b> CXR PA upright adequate · solitary round well-circumscribed opacity (nodule ≤ 3 cm / mass &gt; 3 cm) ที่ right middle lung zone · ไม่เห็น calcification / effusion / hilar adenopathy · หัวใจ กระดูกปกติ","<b>History:</b> ไอเรื้อรัง ไอเป็นเลือด เหนื่อย เจ็บอก · น้ำหนักลด เบื่ออาหาร ไข้ / เหงื่อออกกลางคืน · สูบบุหรี่ (pack-years) ฝุ่น / แร่ใยหิน · สัมผัสวัณโรค · มะเร็งเดิม (metastasis) · CXR เก่าเทียบ","<b>Ix:</b> <b>CT chest with contrast</b> (ขนาด ขอบ calcification LN) → tissue diagnosis (CT-guided biopsy / bronchoscopy) ± PET-CT · sputum AFB / GeneXpert ถ้าสงสัย TB","ผู้สูงอายุไม่มีอาการ: คิดมะเร็งปอดก่อน แล้วจึง TB granuloma (พบบ่อยในไทย) · ร้าย: spiculated, ใหญ่, โตขึ้น · benign: calcification popcorn / central / laminated"],
+       kw:["solitary well-circumscribed round opacity (nodule ≤ 3 cm)","smoking history, TB contact, prior malignancy, previous CXR","CT chest","CT-guided biopsy / bronchoscopy","lung cancer vs tuberculoma"],
+       ddx:["primary lung carcinoma","tuberculoma / granuloma","metastasis","hamartoma"],
+       members:["MDCU77|RoC|MEQ 2#1","MDCU77|RoC|MEQ 2#2","MDCU77|RoC|MEQ 2#3"]},
+      {id:"lung-collapse",
+       title:"Total lung collapse ในผู้ป่วยใส่ท่อช่วยหายใจ (ET tube ลึก / mucus plug)",
+       trend:"ถามครั้งเดียว (MDCU74 RoA)",
+       asked:["หญิงสูงอายุ pneumonia ใส่ท่อช่วยหายใจ เหนื่อยมากขึ้น + CXR → describe → Dx → treatment"],
+       flow:["อ่าน CXR: opacification + volume loss (ดึงเข้าหา)","Dx + สาเหตุ","แก้สาเหตุ"],
+       pattern:["<b>CXR:</b> opacification ของ left hemithorax ทั้งหมด · trachea / mediastinum ถูก<b>ดึงเข้าหา</b>ข้างที่ทึบ (volume loss — ต่างจาก effusion ที่ดันออก) · left hemidiaphragm ยก · ปอดขวา hyperinflated · ตรวจปลาย ET tube (ลงไปใน right main bronchus)","<b>Dx:</b> total left lung collapse (atelectasis) — mucus plug หรือ ET tube ลึกเข้า right main bronchus","<b>Rx:</b> ตรวจตำแหน่ง ET tube → ดึงขึ้นให้ปลายอยู่ 3–5 cm เหนือ carina · suction, chest physiotherapy, เพิ่ม PEEP / recruitment · ไม่ดีขึ้น → bronchoscopy เอา mucus plug ออก · รักษา pneumonia"],
+       kw:["complete opacification of the left hemithorax with ipsilateral mediastinal shift","right main bronchus intubation","mucus plug","ETT tip 3–5 cm above carina","suction, physiotherapy, PEEP, bronchoscopy"],
+       ddx:["massive pleural effusion (shift ไปข้างตรงข้าม)","pneumonectomy","consolidation"],
+       members:["MDCU74|RoA|SEQ 6#1","MDCU74|RoA|SEQ 6#2","MDCU74|RoA|SEQ 6#3"]},
+      {id:"csf-antibiotics",
+       title:"Antibiotic penetration เข้า CSF (3 กลุ่ม)",
+       trend:"ถามครั้งเดียว (MDCU67 RoA) ไม่มีภาพ",
+       asked:["ยกตัวอย่าง ≥ 3 ตัวต่อกลุ่ม: (1) ผ่าน CSF ดีแม้ไม่มีการอักเสบ (2) ถึงระดับรักษาเฉพาะเมื่อ meninges อักเสบ (3) ผ่านน้อย / ไม่ผ่านแม้อักเสบ"],
+       flow:["จำเป็น 3 กลุ่ม"],
+       pattern:["<b>ผ่านดีแม้ไม่อักเสบ</b> (ไขมันละลายดี / โมเลกุลเล็ก): metronidazole, chloramphenicol, rifampicin, TMP-SMX (sulfonamides), isoniazid, pyrazinamide","<b>ถึงระดับรักษาเฉพาะเมื่ออักเสบ</b> (tight junction ของ BBB หลวม → ต้องให้ขนาดสูง): penicillin G, ampicillin, nafcillin / oxacillin, antipseudomonal penicillins, 3rd-gen cephalosporins (ceftriaxone, cefotaxime), cefepime, meropenem, vancomycin","<b>ผ่านน้อย / ไม่ผ่านแม้อักเสบ:</b> aminoglycosides (gentamicin, amikacin), erythromycin / macrolides, tetracycline, clindamycin, 1st-gen cephalosporins (cefazolin) — cefazolin ป้องกัน SSI ได้ดีแต่ไม่ใช้รักษา meningitis"],
+       kw:["good without inflammation: metronidazole, chloramphenicol, rifampicin, TMP-SMX, INH, PZA","only with inflammation: penicillin, ampicillin, ceftriaxone / cefotaxime, meropenem, vancomycin","poor: aminoglycosides, macrolides, tetracycline, clindamycin, cefazolin"],
+       members:["MDCU67|RoA|MEQ 5#1","MDCU67|RoA|MEQ 5#2","MDCU67|RoA|MEQ 5#3"]}
+    ]}
+  ]});

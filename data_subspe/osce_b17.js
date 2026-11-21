@@ -26,14 +26,14 @@ Co({page:1,orig:"1",topic:"hx",sub:"Breast mass",ex:1,title:"History taking — 
  gray:"OSCE 1) (ซักประวัติ: พี่เจ้าหน้าที่) ผู้หญิงมาด้วยก้อนที่เต้านม 3 เดือน + มีรูปผู้หญิงวัยกลางคนแปะไว้ในกระดาษ",
  sp:"(Claude แต่ง) หญิง 45 ปี คลำได้ก้อนเต้านมซ้าย 3 เดือน โตขึ้นเล็กน้อย ไม่เจ็บ ไม่มีน้ำออกจากหัวนม ไม่มีผิวเปลี่ยน · ประจำเดือนครั้งแรกอายุ 11 ปี ยังมีประจำเดือน มีบุตร 1 คนอายุ 32 ปี ให้นม 2 เดือน ใช้ยาคุมมา 10 ปี · แม่เป็นมะเร็งเต้านมอายุ 50 · ไม่มีปวดกระดูก ไอ น้ำหนักลด",
  flag:"บทผู้ป่วยจำลองทั้งหมด Claude แต่ง (ไฟล์บอกแค่ก้อนที่เต้านม 3 เดือน)",
- notes:"ผู้จดเขียนว่าผู้ป่วยจำลองเป็นพี่เจ้าหน้าที่ และมีรูปผู้หญิงวัยกลางคนแปะในกระดาษ · ไฟล์ Key 77B ช่องนี้ว่าง",
- opinion:"ไม่มีเฉลยในไฟล์ — ความมั่นใจสูง",
+ notes:"ผู้จดเขียนว่าผู้ป่วยจำลองเป็นพี่เจ้าหน้าที่ และมีรูปผู้หญิงวัยกลางคนแปะในกระดาษ · ไฟล์ Key 77B ช่องนี้ว่าง · ตรวจคีย์ 22 พ.ย. 2026: เดิม summary ‘อายุ &lt;30–35 → US · ≥35–40 → mammogram + US’ → แก้จุดตัดอายุเป็น 30 ปี ตาม NCCN Breast Cancer Screening and Diagnosis (palpable mass: อายุ &lt;30 ปี US; ≥30 ปี diagnostic mammogram + US) และ ACR Appropriateness Criteria Palpable Breast Masses 2022 (30–39 ปี US หรือ mammogram/DBT; ≥40 ปี mammogram/DBT + US)",
+ opinion:"ไม่มีเฉลยในไฟล์ — ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): จุดตัดอายุสำหรับ imaging ก้อนเต้านม = 30 ปี (NCCN): &lt;30 → US · ≥30 → diagnostic mammogram + US · ความมั่นใจสูง",
  parts:S(
   B("1.1 Breast lump history.",10,{tags:["hx"],ans:"แนะนำตัว · <b>ก้อน</b>: เริ่มเมื่อไร ขนาด/โตเร็ว เจ็บ สัมพันธ์รอบเดือน · <b>อาการร่วม</b>: nipple discharge (เลือด), หัวนมบุ๋ม, ผิวเปลี่ยน/peau d'orange, ก้อนรักแร้ · <b>red flags metastasis</b>: ปวดกระดูก ไอ เหนื่อย ตัวเหลือง ปวดหัว น้ำหนักลด · <b>ปัจจัยเสี่ยง</b>: อายุ menarche/menopause, จำนวนบุตร อายุคลอดบุตรคนแรก ให้นมบุตร, ฮอร์โมน (OCP/HRT), ฉายแสงหน้าอก, เคยมีโรคเต้านม/biopsy, <b>ประวัติครอบครัวมะเร็งเต้านม/รังไข่</b> · สรุปและวางแผน triple assessment",exp:"Triple assessment: clinical + imaging (mammo/US) + biopsy (core)",rubric:"แบ่งหมวด",
    pts:[H("Opening",10),P("Introduce/consent","แนะนำ","introduce"),H("Lump",30),CR(P("Onset/duration/growth","นาน","growth","โต","duration")),P("Pain / cyclical change","pain","เจ็บ","cycl","รอบเดือน"),P("Nipple discharge / retraction","nipple","หัวนม","discharge"),P("Skin change / axillary lump","skin","ผิว","axill","รักแร้"),H("Metastatic symptoms",15),P("Bone pain / cough / weight loss","bone","กระดูก","cough","ไอ","weight","น้ำหนัก"),H("Risk factors",45),P("Menarche/menopause","menarche","menopause","ประจำเดือน"),P("Parity/first birth/breastfeeding","parity","บุตร","breastfeed","ให้นม"),P("Hormone use","hormone","ocp","hrt","ฮอร์โมน","ยาคุม"),CR(P("Family history","family","ครอบครัว")),P("Previous breast disease/radiation","previous","radiat","biopsy","ฉายแสง")]})
  ),
  interp:"Breast lump history",
- summary:["Risk: อายุ, ครอบครัว/BRCA, estrogen exposure, radiation","Triple assessment","อายุ &lt;30–35 → US ก่อน · ≥35–40 → mammogram + US"]}),
+ summary:["Risk: อายุ, ครอบครัว/BRCA, estrogen exposure, radiation","Triple assessment","อายุ &lt;30 → US ก่อน · ≥30 → diagnostic mammogram + US (NCCN)"]}),
 
 /* ===== OSCE 2 ===== */
 Co({page:1,orig:"2",topic:"proc",sub:"Suture & knot",ex:1,proc:1,title:"Procedure — two vertical mattress sutures on a silicone pad",

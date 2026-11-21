@@ -62,10 +62,10 @@ Co({page:14,orig:"3",topic:"pe",sub:"Abdomen",ex:1,title:"Physical examination �
 Co({page:14,orig:"4",topic:"suture",sub:"Suture & knot",ex:1,proc:1,title:"Vertical mattress suture — two stitches",
  stem:`On a skin pad, place two vertical mattress sutures with instrument ties.`,
  gray:"4. เย็บ vertical mattress 2 stitch (อ.นนท์)",
- notes:"ไม่มีไฟล์เฉลย · ข้อเดียวกับ 73D OSCE 7",
- opinion:"ความมั่นใจสูง",
+ notes:"ไม่มีไฟล์เฉลย · ข้อเดียวกับ 73D OSCE 7 · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘จับ needle holder ที่ 1/3–2/3 จากปลายเข็ม’ (ช่วงนี้รวมตำแหน่งใกล้ปลายแหลมซึ่งผิด) → แก้เป็น ‘1/3–1/2 จากโคนเข็ม (swage)’ ตาม Ethicon Wound Closure Manual / ตำรา basic surgical skills",
+ opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): ตำแหน่งจับเข็ม = 1/3–1/2 จากโคน (swage) ตรงกับสถานีเย็บอื่นในคลัง · ความมั่นใจสูง",
  parts:S(
-  B("4.1 Technique.",6,{tags:["suture"],ans:"จับ needle holder ที่ 1/3–2/3 จากปลายเข็ม · <b>far–far</b>: แทงห่างขอบแผล ~4–8 mm ลึกถึง dermis/subcutis ข้ามไปอีกฝั่งระยะเท่ากัน · <b>near–near</b>: ย้อนกลับแทงใกล้ขอบ ~1–2 mm ตื้นในชั้น dermis · ผูกฝั่งเดียวกับจุดเริ่ม · ขอบแผล<b>เผยอขึ้น (eversion)</b> · instrument tie: รอบแรก 2 รอบ แล้วกลับทิศ (square knot) 3 ปม · ไม่ผูกแน่นจนขาดเลือด · ตัดไหมเหลือ ~5 mm",rubric:"1/ประเด็น",pts:[CR(P("Far–far then near–near","far","near")),P("Bites perpendicular and symmetric","perpendic","symmetr","เท่ากัน"),CR(P("Wound edge eversion","evert","เผยอ")),P("Square knot by instrument tie","square","instrument","knot"),P("Not too tight","tight","แน่น"),P("Cut tails appropriately","tail","cut","ตัด")]})
+  B("4.1 Technique.",6,{tags:["suture"],ans:"จับเข็มด้วย needle holder ที่ <b>1/3–1/2 จากโคนเข็ม (swage)</b> = ราว 1/2–2/3 จากปลาย (ไม่จับใกล้ปลายแหลมหรือที่ swage) · <b>far–far</b>: แทงห่างขอบแผล ~4–8 mm ลึกถึง dermis/subcutis ข้ามไปอีกฝั่งระยะเท่ากัน · <b>near–near</b>: ย้อนกลับแทงใกล้ขอบ ~1–2 mm ตื้นในชั้น dermis · ผูกฝั่งเดียวกับจุดเริ่ม · ขอบแผล<b>เผยอขึ้น (eversion)</b> · instrument tie: รอบแรก 2 รอบ แล้วกลับทิศ (square knot) 3 ปม · ไม่ผูกแน่นจนขาดเลือด · ตัดไหมเหลือ ~5 mm",rubric:"1/ประเด็น",pts:[CR(P("Far–far then near–near","far","near")),P("Bites perpendicular and symmetric","perpendic","symmetr","เท่ากัน"),CR(P("Wound edge eversion","evert","เผยอ")),P("Square knot by instrument tie","square","instrument","knot"),P("Not too tight","tight","แน่น"),P("Cut tails appropriately","tail","cut","ตัด")]})
  ),
  interp:"Vertical mattress",
  summary:["Far–far, near–near","Everts edges, good for lax or thick skin","Square knot with first double throw"]}),

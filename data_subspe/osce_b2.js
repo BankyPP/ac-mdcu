@@ -66,8 +66,9 @@ Co({page:88,orig:"2",topic:"hx",sub:"Hematemesis/UGIB",ex:1,title:"History — 5
 /* ===== OSCE 3 ===== */
 Co({page:89,orig:"3",topic:"pe",sub:"Abdomen",ex:1,title:"Physical examination — woman with fever and right upper abdominal pain for 2 days",kimg:["os67b_k3"],
  stem:`A woman presents with fever and right upper abdominal pain for 2 days.<br>1. Perform an abdominal examination.<br>2. Give your diagnosis.`,
+ opinion:"คีย์รุ่นพี่ (ดู ฟัง เคาะ คลำครบ, Murphy's sign, ดูตาเหลือง → acute cholecystitis) ตรงกับเฉลยของคลัง แต่ผลตรวจและสัญญาณชีพในบทผู้ป่วยเราแต่งเองให้เข้ากับ acute cholecystitis เพราะไฟล์ไม่ได้จด มั่นใจสูง<br>จุดให้คะแนนคือลำดับ inspection → auscultation → percussion → palpation, คลำเบาก่อนลึกโดยเริ่มจากจุดที่ไม่ปวด, ทำ Murphy's sign ถูกวิธี (กดใต้ชายโครงขวาแล้วให้หายใจเข้าลึก หยุดหายใจกลางคัน) และเคาะตับ/ตรวจ liver span<br>ต้องดู jaundice ทุกครั้ง เพราะถ้ามีไข้ ปวด RUQ ร่วมกับตาเหลืองต้องคิดถึง acute cholangitis (Charcot's triad) ซึ่ง severity และการรักษาต่างกันตาม Tokyo Guidelines 2018 · ตรวจคีย์ (22 พ.ย. 2026): เกณฑ์ผนังถุงน้ำดีหนาใน US ใช้ ≥4 mm ตาม TG18 (TG13 ใช้ ≥5 mm) — ถ้าเขียนตัวเลขให้ระบุชื่อแนวทาง · ความมั่นใจสูง",
  gray:"OSCE 3 · ตรวจร่างกายผู้ป่วยหญิงมีไข้,ปวดท้องขวาบน มา 2 วันก่อนมารพ. และให้การวินิจฉัย",
- notes:"ผู้จดไฮไลต์ 'ผู้ป่วยหญิงมีไข้,ปวดท้องขวาบน' · แนวคำตอบหน้า 115: ดู ฟัง คลำ เคาะให้ครบ, Murphy's sign ด้วย, ดูตาเหลือง · Acute cholecystitis",
+ notes:"ผู้จดไฮไลต์ 'ผู้ป่วยหญิงมีไข้,ปวดท้องขวาบน' · แนวคำตอบหน้า 115: ดู ฟัง คลำ เคาะให้ครบ, Murphy's sign ด้วย, ดูตาเหลือง · Acute cholecystitis · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘ผนังถุงน้ำดีหนา >4 มม.’ → แก้เป็น ‘≥4 มม.’ (ข้อ 3.2) ตาม Tokyo Guidelines 2018 (TG18, Yokoe et al. JHBPS 2018 CQ5: GB wall thickening ≥4 mm; TG13 ใช้ ≥5 mm)",
  sp:"ผู้ป่วยหญิง (คนไข้จำลอง) · สัญญาณชีพ (ถ้าขอ): T 38.5 °C, PR 100/min, BP 120/80 mmHg · ตาไม่เหลือง · ท้องไม่อืด เคลื่อนไหวตามการหายใจ ไม่มีแผลผ่าตัด · bowel sound ปกติ · <b>กดเจ็บและ guarding ที่ RUQ</b> · <b>Murphy's sign บวก</b> (หยุดหายใจเข้าเมื่อกดใต้ชายโครงขวา) · ตับม้ามคลำไม่ได้ · ไม่มี rebound ทั่วท้อง · ไม่มี CVA tenderness",
  flag:"ผลตรวจ/สัญญาณชีพใน sp Claude กำหนดให้สอดคล้องกับ acute cholecystitis (ไฟล์ไม่ได้จดผลตรวจ)",
  parts:S(
@@ -80,7 +81,7 @@ Co({page:89,orig:"3",topic:"pe",sub:"Abdomen",ex:1,title:"Physical examination �
     H("คลำ",45),P("คลำเบาก่อน เริ่มไกลจากจุดปวด, guarding/rebound","light","เบา","ไกล","guarding","rebound","tender","กดเจ็บ"),CR(P("Murphy's sign ถูกวิธี","murphy")),P("คลำตับ ม้าม ไต, CVA tenderness","liver","ตับ","ม้าม","spleen","cva","ไต"),
     H("สรุปผล",15),P("สรุป RUQ tenderness + Murphy บวก + ไม่เหลือง","ruq","ขวาบน","murphy","สรุป")]}),
   B("3.2 Give your diagnosis.",2,{tags:["pe"],key:"Acute cholecystitis",
-   ans:"<b>Acute calculous cholecystitis</b> · ยืนยัน: CBC (WBC สูง), LFT, ultrasound (ผนังถุงน้ำดีหนา &gt;4 มม., pericholecystic fluid, นิ่วติดคอ, sonographic Murphy) ตาม Tokyo Guidelines 2018 · รักษา: NPO, IV fluid, IV ATB, แก้ปวด → <b>early laparoscopic cholecystectomy</b> (ภายใน 72 ชม.–1 สัปดาห์) ถ้าผู้ป่วยพร้อม · เสี่ยงผ่าตัดสูง → percutaneous cholecystostomy",
+   ans:"<b>Acute calculous cholecystitis</b> · ยืนยัน: CBC (WBC สูง), LFT, ultrasound (ผนังถุงน้ำดีหนา ≥4 มม. (TG18; TG13 ใช้ ≥5 มม.), pericholecystic fluid, นิ่วติดคอ, sonographic Murphy) ตาม Tokyo Guidelines 2018 · รักษา: NPO, IV fluid, IV ATB, แก้ปวด → <b>early laparoscopic cholecystectomy</b> (ภายใน 72 ชม.–1 สัปดาห์) ถ้าผู้ป่วยพร้อม · เสี่ยงผ่าตัดสูง → percutaneous cholecystostomy",
    exp:"DDx: acute cholangitis (เหลือง), liver abscess, RLL pneumonia, pyelonephritis, perforated PU, hepatitis",
    pts:[CR(P("Acute cholecystitis","cholecystitis","ถุงน้ำดีอักเสบ"))]})),
  interp:"ตรวจท้องอย่างเป็นระบบในผู้ป่วยไข้ + ปวด RUQ และทำ Murphy's sign เพื่อวินิจฉัย acute cholecystitis",

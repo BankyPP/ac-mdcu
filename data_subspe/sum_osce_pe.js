@@ -1,817 +1,226 @@
-SUMM.push({
- "tag": "pe",
- "title": "Physical examination",
- "intro": "<ul><li>สถานี Physical examination (มี examiner) ออก <b>ทุก rotation ของ MDCU65–67</b> และมี 2 สถานีที่แทบไม่เคยหายไป: <b>DRE บนหุ่นต่อมลูกหมาก</b> (9 rotation) และ <b>breast examination บนหุ่น</b> (7 rotation)</li><li><b>DRE</b>: ทำตามลำดับ (consent + chaperone → left lateral → ดู perianal → tone → 360° → prostate → ดูถุงมือ) แล้วบรรยายต่อม 6 ลักษณะ → แยก <b>BPH (โตเรียบ rubbery)</b> vs <b>CA prostate (hard nodule)</b> → ส่งตรวจต่อ (PSA, mpMRI, biopsy / UA, IPSS, PVR) · ปีหนึ่งต่อด้วย painless gross hematuria work-up</li><li><b>Breast</b>: inspection 3–4 ท่า → palpation ทั้งเต้า + axillary tail + หัวนม → LN axilla 5 กลุ่ม + supraclavicular → บรรยายก้อน → triple assessment · ต่อยอดเป็น TNM จากผลพยาธิ (AJCC 8th) หรือ bloody nipple discharge</li><li>ที่เหลือ: <b>motor exam ระบุ muscle + root</b> (2 ปี) และ DTR, ตรวจท้อง (cholecystitis — Murphy, appendicitis — peritoneal signs), thyroid, Trendelenburg test, ก้อนใต้ผิวหนังที่แขน (lipoma + longitudinal incision)</li><li>เหตุตกที่เจอทุกสถานี: ไม่ขออนุญาต / ไม่มี chaperone (DRE, breast), ไม่คลำ LN supraclavicular, คลำก่อนฟังในการตรวจท้อง, บรรยายแค่ 'มีก้อน' โดยไม่ระบุตำแหน่ง / consistency</li><li>MDCU79 RoC: ตรวจท้องคนปวด RUQ + US gallstone, DRE ไม่มีอาจารย์ (บรรยายต่อม + Dx), คำนวณ GCS 2 แบบ, Babinski</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: ตรวจท้อง (ureteric colic, appendicitis), ตรวจเต้านม + advice, DRE บนหุ่น (ต่อมแข็ง)</li></ul>",
- "groups": [
-  {
-   "title": "Prostate — digital rectal examination",
-   "sections": [
-    {
-     "id": "dre-bph",
-     "title": "DRE technique + BPH (ต่อมโตเรียบ rubbery)",
-     "trend": "หุ่นต่อมลูกหมากออกทุกปี — เกือบครึ่งเป็นหุ่น BPH ให้ทำ DRE ครบขั้นตอน แล้วบอก Dx เดียว",
-     "asked": [
-      "70-year-old man LUTS 6 เดือน → demonstrate DRE (รวมการจัดท่า) + describe findings → most likely Dx",
-      "Examine the prostate on the model → write a report → Dx",
-      "60-year-old man incomplete emptying + เคย AUR → demonstrate DRE → single most likely Dx",
-      "65-year-old man voiding + storage LUTS → describe the palpated prostate → Dx (ต่อด้วย treatment)",
-      "DRE บนหุ่นไม่มีอาจารย์ → บรรยาย prostate + Dx (79C)"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันตัวผู้ป่วย อธิบาย ขออนุญาต · ขอ chaperone · ล้างมือ",
-      "จัดท่า left lateral decubitus (Sims) เข่างอชิดอก ก้นชิดขอบเตียง (หรือ knee-chest / lithotomy)",
-      "สวมถุงมือ หล่อลื่นนิ้วชี้",
-      "แหวกก้นดู perianal: skin tag, hemorrhoid, fissure, fistula opening",
-      "บอกผู้ป่วยก่อน → วางนิ้วที่ anal verge ให้เบ่งเบา ๆ / หายใจทางปาก → สอดช้า ๆ",
-      "ประเมิน anal sphincter tone (ให้ขมิบ)",
-      "คลำผนัง rectum รอบ 360° หาก้อน",
-      "คลำ prostate ทางผนังหน้า: ขนาด, ผิว, consistency, สมมาตร, median sulcus, nodule, กดเจ็บ, rectal mucosa เลื่อนได้ไหม, ขอบบน / seminal vesicle",
-      "ถอนนิ้ว ดูถุงมือ (เลือด มูก สีอุจจาระ)",
-      "เช็ดทำความสะอาดให้ผู้ป่วย คลุมผ้า ถอดถุงมือ ล้างมือ แจ้งผล ขอบคุณ → รายงาน + Dx"
-     ],
-     "pattern": [
-      "<b>รายงาน BPH</b>: 'Perianal normal, anal tone normal, rectal mucosa smooth no mass. Prostate enlarged (~2–3 FB, ~40–50 g), smooth surface, rubbery consistency, symmetrical, median sulcus shallow / obliterated, no nodule, non-tender, rectal mucosa mobile. Glove: brown stool, no blood / mucus.'",
-      "<b>ต่อมปกติ</b> ~20 g ขนาดลูกเกาลัด (~2 FB) ยืดหยุ่นคล้ายปลายจมูก / thenar eminence มี median sulcus",
-      "<b>เปรียบเทียบ</b>: BPH (transition zone) โตสมมาตร เรียบ rubbery · CA (peripheral zone) hard / stony nodule ขรุขระ ไม่สมมาตร sulcus หาย · acute prostatitis นุ่ม บวม อุ่น กดเจ็บมาก (ห้ามนวด)",
-      "<b>Dx</b>: Benign prostatic hyperplasia with LUTS (voiding: straining, incomplete emptying · storage: frequency) ± bladder outlet obstruction / acute urinary retention",
-      "AUR: ใส่สายสวน + alpha-blocker แล้ว trial without catheter",
-      "บรรยาย: size, surface, consistency, median sulcus, nodule, mobility, tenderness"
-     ],
-     "kw": [
-      "consent + chaperone",
-      "left lateral (Sims) position",
-      "inspect perianal",
-      "sphincter tone",
-      "360° rectal wall",
-      "size, surface, consistency, symmetry, median sulcus, nodule, tenderness",
-      "mucosa mobile",
-      "inspect glove",
-      "clean patient, thank",
-      "BPH"
-     ],
-     "ddx": [
-      "Carcinoma of prostate",
-      "Urethral stricture",
-      "Neurogenic bladder",
-      "Bladder stone",
-      "ยาที่ทำให้ปัสสาวะไม่ออก (anticholinergic, antihistamine)"
-     ],
-     "pearls": [
-      "ไม่ขออนุญาต / ไม่มี chaperone = หักมาก",
-      "ตอบ CA prostate ทั้งที่ต่อมเรียบ = 0 · ตอบหลายโรคไม่เลือก = ครึ่งคะแนน (MDCU65 RoC)",
-      "DRE ประเมินขนาดได้ไม่แม่น (ใช้ TRUS วัดปริมาตร) และขนาดไม่สัมพันธ์กับความรุนแรงอาการ"
-     ],
-     "members": [
-      "MDCU67|RoD|11#1",
-      "MDCU67|RoD|11#2",
-      "MDCU66|RoA|3#1",
-      "MDCU66|RoA|3#2",
-      "MDCU66|RoC|5#1",
-      "MDCU66|RoC|5#2",
-      "MDCU65|RoC|4#1",
-      "MDCU65|RoC|4#2",
-      "MDCU79|RoC|4#1",
-      "MDCU79|RoC|4#2"
-     ]
-    },
-    {
-     "id": "dre-ca-prostate",
-     "title": "Carcinoma of prostate — hard nodule บน DRE",
-     "trend": "หุ่นอีกแบบที่ออกสลับกับ BPH — ต้องบอกตำแหน่งก้อน (lobe / pole) และขนาด ไม่ใช่แค่ 'มีก้อน'",
-     "asked": [
-      "Prostate model → describe the characteristics you palpate → most likely Dx",
-      "72-year-old man LUTS → demonstrate DRE → describe → Dx",
-      "Manikin ชาย 70 ปี → describe → Dx → investigations next",
-      "DRE หุ่น (ไม่มีอาจารย์) 70 ปีตรวจสุขภาพ: finding, Dx, Mx (78A)",
-      "หุ่น PR ต่อมแข็งทั่วและโต: describe + Dx (78C)"
-     ],
-     "flow": [
-      "(ในคนจริง) consent + chaperone, left lateral, ถุงมือ + หล่อลื่น",
-      "ดู perianal → สอดนิ้วช้า ๆ → tone → คลำ rectum รอบทิศ",
-      "กวาดนิ้วทั้งสอง lobe + median sulcus",
-      "บรรยาย: ขนาด สมมาตร ผิว consistency median sulcus",
-      "บรรยาย nodule: lobe ข้างไหน, ส่วนบน (base) / ล่าง (apex) / lateral, ขนาด, แข็งเหมือนหิน, ยึดติด / mucosa เลื่อนได้, seminal vesicle",
-      "ดูถุงมือ ทำความสะอาด ขอบคุณ → Dx → investigations"
-     ],
-     "pattern": [
-      "<b>รายงาน</b>: 'Prostate slightly enlarged / normal size, asymmetrical, hard (stony) nodule ~1–1.5 cm at the upper pole of the right lobe, irregular surface, median sulcus still palpable / obliterated on the right, non-tender, rectal mucosa mobile'",
-      "<b>Dx</b>: Carcinoma of prostate (อาจร่วมกับ BPH ที่ทำให้ต่อมโต) — มะเร็งส่วนใหญ่เกิดที่ peripheral zone (ด้านหลัง) จึงคลำได้",
-      "<b>Clinical T (AJCC 8th)</b>: T1 คลำไม่ได้ · T2a ≤ ครึ่งของ lobe เดียว · T2b > ครึ่งของ lobe เดียว · T2c ทั้งสอง lobe · T3 ทะลุ capsule / seminal vesicle · T4 ติดอวัยวะข้างเคียง",
-      "<b>Investigations</b>: serum PSA → multiparametric MRI (PI-RADS) ก่อน biopsy (EAU 2024) → MRI-targeted + systematic biopsy (transperineal / TRUS) → Gleason / ISUP grade group → staging ตามความเสี่ยง (bone scan, CT / MRI pelvis, PSMA PET-CT ใน high risk) · Cr, UA",
-      "<b>Hard nodule = ข้อบ่งชี้ biopsy แม้ PSA ปกติ</b>"
-     ],
-     "kw": [
-      "hard / stony nodule",
-      "site: right lobe, upper pole",
-      "size of nodule",
-      "asymmetrical",
-      "median sulcus",
-      "mucosa mobile / fixed",
-      "carcinoma of prostate",
-      "PSA",
-      "mpMRI",
-      "prostate biopsy, Gleason / ISUP"
-     ],
-     "ddx": [
-      "Nodular BPH",
-      "Prostatic calculi",
-      "Granulomatous prostatitis (หลัง BCG / TB)"
-     ],
-     "pearls": [
-      "บอกแค่ 'มีก้อน' ไม่ระบุตำแหน่ง / consistency = หักคะแนน",
-      "ตอบ BPH เมื่อหุ่นมี hard nodule = ได้บางส่วน",
-      "ข้อย่อย investigations ของ MDCU65 RoB ธนาคารข้อสอบเติมเอง (ไม่มีในไฟล์ต้นฉบับ)"
-     ],
-     "members": [
-      "MDCU67|RoA|10#1",
-      "MDCU67|RoA|10#2",
-      "MDCU67|RoB|10#1",
-      "MDCU67|RoB|10#2",
-      "MDCU66|RoB|13#1",
-      "MDCU66|RoB|13#2",
-      "MDCU66|RoB|13#3",
-      "MDCU65|RoB|5#1",
-      "MDCU65|RoB|5#2",
-      "MDCU78|RoA|23#1",
-      "MDCU78|RoA|23#2",
-      "MDCU78|RoA|23#3",
-      "MDCU78|RoC|1#1",
-      "MDCU78|RoC|1#2"
-     ]
-    },
-    {
-     "id": "bph-workup-tx",
-     "title": "BPH / LUTS — investigations และการรักษา",
-     "asked": [
-      "หลัง DRE ของ BPH → What further investigations would you request?",
-      "State the treatment (ชาย 65 ปี LUTS)"
-     ],
-     "flow": [
-      "ต่อจาก DRE + Dx BPH",
-      "บอกการตรวจพื้นฐาน LUTS",
-      "บอกการตรวจเพิ่มตามข้อบ่งชี้",
-      "บอกการรักษาเป็นขั้น: watchful waiting → ยา → ผ่าตัด + ข้อบ่งชี้"
-     ],
-     "pattern": [
-      "<b>Investigations</b>: UA (hematuria, infection) · BUN / Cr · PSA (หลังอธิบายข้อดีข้อเสีย) · IPSS · uroflowmetry (Qmax < 10 mL/s สนับสนุน BOO) + post-void residual (US) · US KUB / prostate (ขนาด, hydronephrosis, bladder stone) · PSA สูง / DRE ผิดปกติ → MRI ± biopsy",
-      "<b>อาการน้อย</b>: watchful waiting + ปรับพฤติกรรม (ลดน้ำ / คาเฟอีน / แอลกอฮอล์ก่อนนอน, double voiding)",
-      "<b>ยา</b>: alpha-1 blocker (tamsulosin, doxazosin) ออกฤทธิ์เร็ว · 5-alpha reductase inhibitor (finasteride, dutasteride) ในต่อม > 30–40 mL ลดขนาด ~20–30% ใช้เวลาหลายเดือน ลดความเสี่ยง AUR / ผ่าตัด · ใช้ร่วมกันได้",
-      "<b>ผ่าตัด (TURP มาตรฐาน)</b>: ยาไม่ได้ผล หรือมีภาวะแทรกซ้อน — AUR ซ้ำ, UTI ซ้ำ, bladder stone, hematuria ซ้ำ, ไตเสื่อมจากการอุดกั้น"
-     ],
-     "kw": [
-      "UA",
-      "creatinine",
-      "PSA after counselling",
-      "IPSS",
-      "uroflowmetry Qmax",
-      "post-void residual",
-      "alpha-blocker",
-      "5-ARI",
-      "TURP indications: retention, recurrent UTI, stone, hematuria, renal impairment"
-     ],
-     "pearls": [
-      "ส่ง IVP / CT เป็นอันดับแรก = ไม่เหมาะ",
-      "ตอบแค่ TURP = ได้บางส่วน — ต้องมี alpha-blocker ± 5-ARI และข้อบ่งชี้ผ่าตัด"
-     ],
-     "members": [
-      "MDCU66|RoA|3#3",
-      "MDCU67|RoD|11#3"
-     ]
-    },
-    {
-     "id": "dre-hematuria",
-     "title": "Painless gross hematuria — DRE + work-up (อย่าหยุดที่ BPH)",
-     "asked": [
-      "68-year-old man painless gross hematuria → perform DRE → describe findings → further investigations"
-     ],
-     "flow": [
-      "consent + chaperone → left lateral → ล้างมือ ถุงมือ",
-      "ดู perianal → หล่อลื่น สอดช้า ๆ → tone (ให้ขมิบ) → คลำ rectum 360°",
-      "คลำ prostate: ขนาด ผิว ความแข็ง sulcus nodule กดเจ็บ mucosa · seminal vesicle",
-      "ดูถุงมือ → ทำความสะอาด คลุมผ้า ขอบคุณ",
-      "รายงาน → บอกว่า BPH อธิบาย gross hematuria ไม่พอ → ส่งตรวจหามะเร็งทางเดินปัสสาวะ"
-     ],
-     "pattern": [
-      "<b>Findings (หุ่นนี้)</b>: normal anal tone, no rectal mass, prostate enlarged ~40 g, smooth, firm-rubbery, median sulcus shallow, no hard nodule, non-tender → เข้าได้กับ BPH แต่ <b>ยังต้องหาสาเหตุ hematuria</b>",
-      "<b>Work-up</b>: UA + microscopy (RBC morphology, casts, infection), urine culture, CBC, BUN / Cr, coagulation ถ้าใช้ยาต้านเลือดแข็ง",
-      "<b>Upper tract</b>: CT urography (ไตเสื่อม → US KUB) · <b>Lower tract</b>: cystoscopy (gold standard หา bladder tumor) ± urine cytology · PSA หลังอธิบาย · BPH: uroflowmetry, PVR",
-      "Gross hematuria ในผู้สูงอายุ / สูบบุหรี่ = เสี่ยงมะเร็งทางเดินปัสสาวะสูง (bladder CA บ่อยสุด) → CT urography + cystoscopy ทุกราย (AUA 2020 / EAU) แม้มี BPH"
-     ],
-     "kw": [
-      "consent + chaperone",
-      "left lateral",
-      "perianal, tone, 360°",
-      "prostate description",
-      "inspect glove",
-      "BPH does not explain gross hematuria",
-      "UA + microscopy",
-      "CT urography",
-      "cystoscopy",
-      "urine cytology",
-      "PSA"
-     ],
-     "pearls": [
-      "ไม่ขออนุญาต = ตก",
-      "ไม่มี cystoscopy ใน work-up = ได้บางส่วน"
-     ],
-     "members": [
-      "MDCU66|RoD|4#1",
-      "MDCU66|RoD|4#2",
-      "MDCU66|RoD|4#3"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Breast",
-   "sections": [
-    {
-     "id": "breast-exam",
-     "title": "Breast examination บนหุ่น — checklist ครบ + บรรยายก้อน",
-     "trend": "ออกเกือบทุกปี บางครั้งมาเป็น 'annual check-up' หรือ 'breast pain' แต่คะแนนอยู่ที่ checklist เดิม",
-     "asked": [
-      "44-year-old woman annual breast check-up → perform breast exam and report findings",
-      "Woman with breast pain → demonstrate breast exam exactly as on a real patient",
-      "40-year-old woman left breast lump → demonstrate breast exam",
-      "Examine the breast model → describe the mass (→ next steps)",
-      "Perform a complete breast examination → describe abnormality (→ ต่อด้วย TNM / triple assessment)",
-      "ตรวจเต้านม + advice หญิง 45 ปี (78A)"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันผู้ป่วย อธิบาย ขออนุญาต · chaperone (ผู้ช่วยหญิง) · ล้างมือ · เปิดเผยถึงเอวทั้งสองข้าง ถามว่าเจ็บข้างไหน",
-      "Inspection (นั่ง): แขนแนบลำตัว → ยกแขนเหนือศีรษะ → มือเท้าเอวเกร็ง pectoralis → (± โน้มตัวไปข้างหน้า)",
-      "ดู: ขนาด / สมมาตร, contour, ผิว (dimpling, peau d'orange, แดง, แผล), หัวนม (retraction, deviation, discharge, eczema / Paget)",
-      "Palpation (นอน ยกแขนข้างที่ตรวจไว้ใต้ศีรษะ): เริ่มข้างปกติ / ไม่เจ็บก่อน · pulp ของ 3 นิ้วกลาง วงเล็ก 3 ระดับแรงกด แบบ vertical strip (หรือ spiral / wedge)",
-      "ครอบคลุมไหปลาร้า → inframammary fold, midsternum → midaxillary line รวม axillary tail of Spence และใต้ areola · บีบหัวนมดู discharge",
-      "ถ้าพบก้อน: ทดสอบการยึดติดผิว / pectoralis (เท้าเอวเกร็งแล้วขยับก้อน)",
-      "LN (นั่ง พยุงแขนผู้ป่วย): axilla 5 กลุ่ม (anterior, posterior, lateral, central, apical) + supraclavicular + infraclavicular ทั้งสองข้าง",
-      "คลุมผ้า / ช่วยใส่เสื้อ ขอบคุณ ล้างมือ แจ้งผล → รายงาน (± บอกจะตรวจตับ ปอด กระดูกสันหลังถ้าสงสัยมะเร็ง)"
-     ],
-     "pattern": [
-      "<b>บรรยายก้อน</b>: ข้าง + ตำแหน่ง (quadrant / นาฬิกา + ระยะจากหัวนม), ขนาด, รูปร่าง, ขอบ, ผิว, consistency, mobility (ติดผิว / ติด pectoralis / ติดผนังอก), กดเจ็บ, LN เช่น 'left breast mass at 2 o'clock, 4 cm from nipple, 2.5 × 2 cm, hard, irregular, ill-defined, limited mobility, not fixed to skin or chest wall, non-tender; one mobile left axillary node 1 cm'",
-      "<b>Locally advanced (MDCU67 RoA)</b>: ก้อนแข็งยึดใต้หัวนม + nipple retraction + peau d'orange + axillary LN โต → peau d'orange = dermal lymphatic obstruction = <b>T4b</b> · ติดผนังอก (ซี่โครง / serratus) = T4a (pectoralis อย่างเดียวไม่นับ T4)",
-      "ท่ายกแขน / เกร็ง pectoralis ช่วยเผย skin tethering · tail of Spence เป็นจุดที่ลืมคลำบ่อย",
-      "ผู้ป่วย mastalgia: ตรวจเพื่อหา mass, mastitis / abscess และแยก chest wall pain"
-     ],
-     "kw": [
-      "consent + chaperone",
-      "expose to waist",
-      "inspection: arms by side, raised, hands on hips",
-      "skin dimpling, peau d'orange, nipple retraction",
-      "start with normal side",
-      "pulp of three fingers, three pressures",
-      "vertical strip, include axillary tail",
-      "nipple discharge",
-      "axillary nodes 5 groups",
-      "supraclavicular, infraclavicular",
-      "describe mass: site, size, shape, consistency, mobility, fixity, tenderness",
-      "cover patient, thank"
-     ],
-     "pearls": [
-      "ไม่คลำ supraclavicular / axilla = หักมาก (ผู้จดข้อสอบเน้น)",
-      "ไม่ขออนุญาต / ไม่มี chaperone = หักมากหรือตก",
-      "ไม่ตรวจข้างปกติ / ข้ามท่ายกแขนและเท้าเอว = หักคะแนน"
-     ],
-     "members": [
-      "MDCU67|RoA|3#1",
-      "MDCU67|RoD|3#1",
-      "MDCU66|RoB|12#1",
-      "MDCU66|RoD|7#1",
-      "MDCU65|RoA|9#1",
-      "MDCU65|RoC|5#1",
-      "MDCU78|RoA|20#1",
-      "MDCU78|RoA|20#2"
-     ]
-    },
-    {
-     "id": "breast-triple",
-     "title": "Breast mass → triple assessment / next steps",
-     "asked": [
-      "หลังบรรยายก้อน → outline the next steps in management",
-      "สรุปก้อนสงสัยมะเร็ง → ตรวจอะไรต่อ"
-     ],
-     "flow": [
-      "สรุปลักษณะก้อน (สงสัยร้าย: แข็ง ขอบไม่ชัด เคลื่อนน้อย)",
-      "Triple assessment: clinical → imaging ตามอายุ → tissue diagnosis",
-      "ยืนยันมะเร็ง → receptor → staging → MDT"
-     ],
-     "pattern": [
-      "<b>Triple assessment</b> (แม่นยำ > 99% เมื่อรวมกัน): (1) clinical (2) imaging: อายุ ≥ 30–35 → bilateral diagnostic mammogram + US; อายุน้อย → US ก่อน (3) <b>core needle biopsy (US-guided)</b> + ER, PR, HER2, Ki-67",
-      "ต่อมน้ำเหลืองที่สงสัย → FNA / core biopsy · FNA ของก้อนอย่างเดียวแยก invasive จาก in situ ไม่ได้และไม่ได้ receptor",
-      "ยืนยันมะเร็ง → staging ตามระยะ (CXR, LFT, ALP; ระยะสูง / มีอาการ → CT / bone scan) → MDT: breast-conserving surgery + SLNB / ALND หรือ mastectomy, systemic therapy, radiotherapy"
-     ],
-     "kw": [
-      "triple assessment",
-      "mammogram + ultrasound (age-appropriate)",
-      "US-guided core needle biopsy",
-      "ER / PR / HER2, Ki-67",
-      "staging",
-      "MDT"
-     ],
-     "pearls": [
-      "ตอบ FNA แทน core biopsy = ไม่ได้คะแนนส่วน tissue diagnosis เต็ม"
-     ],
-     "members": [
-      "MDCU66|RoB|12#2",
-      "MDCU65|RoA|9#1"
-     ]
-    },
-    {
-     "id": "breast-tnm",
-     "title": "Breast cancer TNM staging จาก pathology report (AJCC 8th) + work-up",
-     "asked": [
-      "หลังตรวจเต้านม → ให้ผล MRM: IDC (NST) 2.5 cm, margins free, LN 3/15 → TNM stage → further investigations"
-     ],
-     "flow": [
-      "อ่านผลพยาธิ: ขนาดก้อน → pT",
-      "นับ LN บวก → pN",
-      "ไม่มีหลักฐาน metastasis → cM0",
-      "รวมเป็น anatomic stage",
-      "บอกการตรวจเพิ่ม: receptor + systemic staging"
-     ],
-     "pattern": [
-      "<b>คำตอบ</b>: pT2 (> 2 ถึง ≤ 5 cm) pN1a (axillary LN 1–3 ต่อม) cM0 → <b>anatomic stage IIB</b> (AJCC 8th) · prognostic stage ต้องใช้ grade + ER / PR / HER2",
-      "<b>AJCC 8 T</b>: T1 ≤ 2 cm · T2 > 2–5 · T3 > 5 · T4a ผนังอก · T4b ผิวหนัง (ulcer, satellite nodule, peau d'orange) · T4c ทั้งคู่ · T4d inflammatory",
-      "<b>pN</b>: N1 = 1–3 LN · N2 = 4–9 · N3 = ≥ 10 หรือ infraclavicular",
-      "<b>Stage</b>: IIA = T0–1 N1 / T2 N0 · IIB = T2 N1 / T3 N0 · IIIA = T0–2 N2 / T3 N1–2",
-      "<b>Investigations</b>: ER, PR, HER2 (IHC ± ISH), Ki-67 · systemic staging ใน node-positive: CT chest / abdomen (หรือ CXR + US ตับ), bone scan (PET-CT ใน stage III) · CBC, LFT (ALP), Ca · mammogram ข้างตรงข้าม · germline BRCA ถ้ามีข้อบ่งชี้ (อายุน้อย, FH, triple-negative)"
-     ],
-     "kw": [
-      "pT2",
-      "pN1a",
-      "cM0",
-      "stage IIB",
-      "AJCC 8th edition",
-      "ER / PR / HER2",
-      "Ki-67",
-      "CT chest-abdomen / bone scan",
-      "contralateral mammogram"
-     ],
-     "pearls": [
-      "TNM ถูกแต่ stage ผิด = ได้บางส่วน",
-      "NCCN: stage I–IIB ที่ไม่มีอาการไม่ต้อง systemic imaging เป็น routine — แต่ rubric ให้คะแนนเมื่อบอก CT / bone scan หรือ CXR + US ตับ; ตอบแค่ CXR = ได้บางส่วน"
-     ],
-     "members": [
-      "MDCU66|RoD|7#2",
-      "MDCU66|RoD|7#3"
-     ]
-    },
-    {
-     "id": "nipple-discharge",
-     "title": "Bloody nipple discharge — intraductal papilloma",
-     "asked": [
-      "Woman with bloody discharge from the right nipple → breast exam including the discharge → most likely Dx + investigations"
-     ],
-     "flow": [
-      "consent + chaperone เปิดเผยถึงเอว",
-      "ดู 4 ท่า: สมมาตร ผิว หัวนม (retraction, eczema / Paget, คราบเลือด)",
-      "คลำทั้งเต้าแบบ vertical strip รวม axillary tail",
-      "ตรวจ discharge: กดเป็นวงรอบ areola ทีละตำแหน่งตามเข็มนาฬิกาหา trigger point → single vs multiple duct, ข้างเดียว vs สองข้าง, ออกเอง vs ต้องบีบ, สี (เลือด serous น้ำนม เขียว)",
-      "คลำก้อนใต้ areola · LN axilla, supraclavicular, infraclavicular · เทียบอีกข้าง",
-      "ขอบคุณ คลุมผ้า → Dx + investigations"
-     ],
-     "pattern": [
-      "<b>Pathologic discharge</b> = ออกเอง, ข้างเดียว, ท่อเดียว, เลือด / serous, หรือมีก้อนร่วม · physiologic = สองข้าง หลายท่อ ต้องบีบ สีขาวขุ่น / เขียว",
-      "<b>Most likely</b>: intraductal papilloma · ต้องแยก malignancy (DCIS / papillary carcinoma) ~5–15%",
-      "<b>Investigations</b>: diagnostic mammogram + retroareolar US (อายุ < 30 → US ก่อน; ACR Appropriateness Criteria) → ยังไม่พบ → MRI หรือ ductography · พบรอยโรค → core needle biopsy · ไม่พบแต่ยังออก → microdochectomy / major duct excision · cytology ของ discharge ไม่ช่วยตัดมะเร็ง"
-     ],
-     "kw": [
-      "trigger point around areola",
-      "single duct, unilateral, spontaneous, bloody",
-      "pathologic nipple discharge",
-      "intraductal papilloma",
-      "exclude DCIS / carcinoma",
-      "mammogram + retroareolar US",
-      "ductography / MRI",
-      "microdochectomy"
-     ],
-     "ddx": [
-      "DCIS / papillary carcinoma",
-      "Duct ectasia",
-      "Fibrocystic change"
-     ],
-     "pearls": [
-      "ข้อย่อย Dx / investigations ธนาคารข้อสอบเติมเอง (ไม่มีในไฟล์ต้นฉบับ)",
-      "ไม่หา trigger point / ไม่บอกลักษณะ discharge 4 อย่าง = เสียคะแนนหลัก"
-     ],
-     "members": [
-      "MDCU65|RoB|6#1",
-      "MDCU65|RoB|6#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Neurological examination",
-   "sections": [
-    {
-     "id": "motor-myotome",
-     "title": "Motor examination 4 extremities — ระบุ muscle + nerve root (myotome)",
-     "trend": "ออกซ้ำ MDCU66 และ 67 ด้วยโจทย์เกือบเหมือนเดิม — คะแนนอยู่ที่บอกชื่อมัดและรากถูกทุกท่า",
-     "asked": [
-      "Demonstrate the motor neurological examination of upper and lower extremities; name the muscle and the nerve root as you test each movement"
-     ],
-     "flow": [
-      "แนะนำตัว ขออนุญาต เปิดแขนขา จัดท่า",
-      "Inspection: bulk / atrophy, fasciculation, abnormal movement",
-      "Tone: passive ROM แขนและขา",
-      "Power MRC 0–5 เทียบซ้าย-ขวา ทีละ myotome: ยึด proximal ของข้อ ต้านแรงที่ distal",
-      "Upper limb C5 → T1",
-      "Lower limb L2 → S1",
-      "(Reflex ที่เกี่ยวข้อง ± S2–4 anal tone ด้วย PR เมื่อมีข้อบ่งชี้) → สรุปผล"
-     ],
-     "pattern": [
-      "<b>Upper</b>: C5 shoulder abduction — deltoid · C6 wrist extension — ECRL / ECRB (elbow flexion — biceps C5–6) · C7 elbow extension — triceps · C8 finger flexion — FDP (grip) · T1 finger abduction — dorsal interossei / ADM",
-      "<b>Lower</b>: L2 hip flexion — iliopsoas · L3 knee extension — quadriceps · L4 ankle dorsiflexion — tibialis anterior · L5 great toe extension — EHL · S1 plantarflexion — gastrocnemius / soleus · S2–4 anal sphincter",
-      "(C4 shoulder shrug — trapezius / levator scapulae ถ้าจะบอกเพิ่ม)",
-      "<b>MRC</b>: 0 ไม่ขยับ · 1 flicker · 2 ขยับเมื่อไม่มีแรงโน้มถ่วง · 3 ต้านแรงโน้มถ่วง · 4 ต้านแรงได้บางส่วน · 5 ปกติ"
-     ],
-     "kw": [
-      "inspection, tone, power",
-      "compare both sides",
-      "stabilise proximal joint",
-      "C5 deltoid",
-      "C6 wrist extensors",
-      "C7 triceps",
-      "C8 FDP",
-      "T1 interossei",
-      "L2 iliopsoas",
-      "L3 quadriceps",
-      "L4 tibialis anterior",
-      "L5 EHL",
-      "S1 gastrocnemius",
-      "MRC grade"
-     ],
-     "pearls": [
-      "ตรวจถูกแต่ไม่พูดชื่อมัด / ราก = ได้คะแนนน้อย · รากผิดแต่ละตำแหน่งหักคะแนน",
-      "ไม่ stabilize ข้อ proximal → ผลแรงผิด"
-     ],
-     "members": [
-      "MDCU67|RoC|3#1",
-      "MDCU66|RoC|3#1"
-     ]
-    },
-    {
-     "id": "dtr",
-     "title": "Deep tendon reflexes",
-     "asked": [
-      "Examine the deep tendon reflexes of this patient"
-     ],
-     "flow": [
-      "แนะนำตัว ขออนุญาต จัดท่าผ่อนคลาย เปิดบริเวณตรวจ",
-      "จับ reflex hammer ปลายด้าม เหวี่ยงจากข้อมือ เคาะครั้งเดียวแม่น",
-      "ตรวจเทียบซ้าย-ขวาทีละตำแหน่ง: biceps → brachioradialis → triceps → knee → ankle",
-      "ไม่ได้ reflex → reinforcement (Jendrassik)",
-      "Plantar response (Babinski) + clonus",
-      "รายงานเกรด"
-     ],
-     "pattern": [
-      "<b>ตำแหน่ง + root</b>: biceps C5–6 (นิ้วโป้งกดเอ็นแล้วเคาะนิ้ว) · brachioradialis C5–6 (เหนือ radial styloid 2–3 นิ้ว) · triceps C7(–8) (เหนือ olecranon) · knee L3–4 (patellar tendon ขณะห้อยขา / รองใต้เข่า) · ankle S1 (Achilles ขณะดันปลายเท้าขึ้นเล็กน้อย)",
-      "<b>เกรด</b>: 0 absent · 1+ ลดลง · 2+ ปกติ · 3+ ไวขึ้น · 4+ มี clonus · รายงานเช่น 'DTR 2+ all, symmetrical, plantar flexor, no clonus'",
-      "Hyperreflexia = UMN · hypo / areflexia = LMN, neuropathy, root lesion · ความไม่สมมาตรสำคัญกว่าค่าสัมบูรณ์"
-     ],
-     "kw": [
-      "hold hammer at end, swing from wrist",
-      "compare sides",
-      "biceps C5–6",
-      "brachioradialis C5–6",
-      "triceps C7",
-      "knee L3–4",
-      "ankle S1",
-      "Jendrassik reinforcement",
-      "Babinski, clonus",
-      "grade 0–4+"
-     ],
-     "pearls": [
-      "ไม่ทำ reinforcement เมื่อ reflex ไม่ขึ้น / ไม่ตรวจ plantar และ clonus = ได้ไม่เต็ม"
-     ],
-     "members": [
-      "MDCU66|RoB|3#1"
-     ]
-    },
-    {
-     "id": "gcs-calc",
-     "title": "คำนวณ GCS (best motor)",
-     "asked": [
-      "ลืมตาเมื่อเรียก สับสน ทำตามสั่ง → 13",
-      "หลับตา ครางอืออา ซ้าย decerebrate ขวา withdraw → 7"
-     ],
-     "pattern": [
-      "Confused = V4 · sounds = V2 · withdrawal = M4 · ใช้ best motor"
-     ],
-     "members": [
-      "MDCU79|RoC|18#1",
-      "MDCU79|RoC|18#2"
-     ],
-     "flow": [
-      "บรรยายการตอบสนอง 2 สถานการณ์ → คำนวณ GCS แต่ละแบบ"
-     ],
-     "kw": [
-      "E3V4M6 = 13",
-      "E1V2M4 = 7",
-      "best motor response"
-     ]
-    },
-    {
-     "id": "babinski",
-     "title": "Babinski sign (ขูดใต้เท้า)",
-     "asked": [
-      "ชื่อการตรวจ · ผลและการแปลผล"
-     ],
-     "pattern": [
-      "ลากขอบนอกฝ่าเท้าจากส้นเท้าไปฐานนิ้วโป้ง · กระดกขึ้น = UMN lesion · ทารกบวกได้ปกติ"
-     ],
-     "members": [
-      "MDCU79|RoC|22#1",
-      "MDCU79|RoC|22#2"
-     ],
-     "flow": [
-      "อาจารย์ให้ขูดใต้เท้า → ชื่อการตรวจ → ผลและการแปลผล"
-     ],
-     "kw": [
-      "Babinski sign",
-      "plantar reflex",
-      "extensor plantar response",
-      "upper motor neuron lesion"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Abdominal examination",
-   "sections": [
-    {
-     "id": "abd-cholecystitis",
-     "title": "Acute cholecystitis — abdominal exam + Murphy's sign",
-     "asked": [
-      "Woman with fever + RUQ pain 2 วัน → perform abdominal examination → Dx",
-      "ตรวจท้องคนปวดท้อง แล้วให้ US → symptomatic gallstone (79C)"
-     ],
-     "flow": [
-      "แนะนำตัว ขออนุญาต ล้างมือ · นอนหงายราบ แขนข้างลำตัว งอเข่าเล็กน้อย เปิดท้อง xiphoid → symphysis",
-      "General: vital signs (ไข้ ชีพจร), ตาเหลือง, ซีด",
-      "Inspection: contour, การเคลื่อนไหวตามการหายใจ, แผลผ่าตัด, distension",
-      "Auscultation (ก่อนคลำ): bowel sound",
-      "Percussion: ทั่วท้อง, liver span, percussion tenderness",
-      "Palpation: ถามจุดปวด → เริ่มไกลจุดปวด → light → deep → ตับ ม้าม ไต",
-      "Murphy's sign: มือใต้ชายโครงขวาที่ midclavicular line ให้หายใจเข้าลึก → หยุดหายใจเพราะเจ็บ = บวก (เทียบข้างซ้าย) · rebound · CVA tenderness",
-      "สรุปผล → Dx"
-     ],
-     "pattern": [
-      "<b>Findings</b>: ไข้ + RUQ tenderness / guarding + Murphy's sign บวก + ไม่เหลือง",
-      "<b>Dx</b>: Acute calculous cholecystitis · ยืนยัน: CBC, LFT, US (ผนัง > 4 mm, pericholecystic fluid, impacted stone, sonographic Murphy) ตาม Tokyo Guidelines 2018",
-      "<b>รักษา</b>: NPO, IV fluid, IV antibiotic, แก้ปวด → early laparoscopic cholecystectomy (ภายใน 72 ชม.–1 สัปดาห์) · เสี่ยงผ่าตัดสูง → percutaneous cholecystostomy",
-      "ถ้าตัวเหลือง → คิด cholangitis / CBD stone / Mirizzi",
-      "Murphy ลบ ไม่มีไข้ = biliary colic → elective LC · Murphy บวก + ไข้ = acute cholecystitis"
-     ],
-     "kw": [
-      "inspect → auscultate → percuss → palpate",
-      "start away from pain",
-      "look for jaundice",
-      "Murphy's sign",
-      "compare left side",
-      "guarding, rebound",
-      "acute calculous cholecystitis",
-      "Tokyo Guidelines 2018"
-     ],
-     "ddx": [
-      "Acute cholangitis (เหลือง)",
-      "Liver abscess",
-      "RLL pneumonia",
-      "Right pyelonephritis",
-      "Perforated peptic ulcer",
-      "Hepatitis"
-     ],
-     "pearls": [
-      "ไม่ทำ Murphy's sign / ไม่ดูตาเหลือง = หักคะแนน (แนวคำตอบเน้น)"
-     ],
-     "members": [
-      "MDCU67|RoB|3#1",
-      "MDCU67|RoB|3#2",
-      "MDCU79|RoC|3#1",
-      "MDCU79|RoC|3#2"
-     ]
-    },
-    {
-     "id": "abd-appendicitis",
-     "title": "Acute appendicitis — abdominal exam + peritoneal / special signs + PR",
-     "asked": [
-      "Acute abdominal pain 1 วัน → abdominal examination relevant to complaint (ไม่ต้องซักประวัติ) → findings + provisional Dx",
-      "ตรวจร่างกาย acute appendicitis (78B)",
-      "ตรวจท้องชายปวดท้องมีไข้ 6 ชม. พร้อมอธิบายเหตุผล (78C)"
-     ],
-     "flow": [
-      "แนะนำตัว ขออนุญาต ล้างมือ ยืนทางขวาผู้ป่วย · นอนหงายหมอนใบเดียว แขนข้างลำตัว เปิดใต้ราวนมถึงขาหนีบ คลุมส่วนอื่น · ถามจุดเจ็บ",
-      "General: ท่าทาง (นอนนิ่ง = peritonitis, ดิ้น = colic), vital signs / ไข้",
-      "Inspection: distension, หายใจท้องเคลื่อนไหว, แผลเก่า, ก้อน, visible peristalsis",
-      "Auscultation: bowel sound",
-      "Percussion: percussion tenderness, liver dullness, shifting dullness ถ้าท้องโต",
-      "Palpation: เริ่มไกลจุดปวด ดูหน้าผู้ป่วย light → deep · tenderness, guarding / rigidity, rebound, ก้อน, ตับ ม้าม",
-      "Special signs: McBurney's point, Rovsing, psoas, obturator (Murphy ถ้าสงสัย RUQ)",
-      "Hernial orifices + external genitalia",
-      "PR (ขออนุญาต + chaperone): tenderness ด้านขวา / pelvic abscess, ก้อน, เลือด",
-      "ขอบคุณ คลุมผ้า → สรุป findings + Dx"
-     ],
-     "pattern": [
-      "<b>Findings</b>: low-grade fever, localized tenderness + guarding + rebound ที่ McBurney's point, Rovsing / psoas บวก, PR tender ด้านขวา",
-      "<b>Dx</b>: Acute appendicitis with localized peritonitis",
-      "Psoas sign บวก = retrocecal appendix · obturator sign บวก = pelvic appendix",
-      "Percussion tenderness ใช้แทน rebound ได้และเจ็บน้อยกว่า",
-      "<b>Alvarado</b>: migratory pain, anorexia, N/V, RLQ tenderness (2), rebound, fever, leukocytosis (2), left shift"
-     ],
-     "kw": [
-      "stand on right",
-      "expose nipples to groin",
-      "look → listen → percuss → feel",
-      "start away from pain, watch face",
-      "guarding, rigidity, rebound / percussion tenderness",
-      "McBurney, Rovsing, psoas, obturator",
-      "hernial orifices, genitalia",
-      "PR with chaperone",
-      "acute appendicitis with localized peritonitis"
-     ],
-     "ddx": [
-      "Mesenteric adenitis",
-      "Meckel's diverticulitis",
-      "Right ureteric colic",
-      "Terminal ileitis",
-      "หญิง: ectopic pregnancy, ovarian torsion, PID"
-     ],
-     "pearls": [
-      "คลำก่อนฟัง / เริ่มคลำที่จุดปวดแรง ๆ = ตก",
-      "ลืม hernial orifices / PR = เสียคะแนน"
-     ],
-     "members": [
-      "MDCU65|RoA|2#1",
-      "MDCU65|RoA|2#2",
-      "MDCU78|RoB|20#1",
-      "MDCU78|RoC|3#1"
-     ]
-    },
-    {
-     "id": "abd-ureteric-colic",
-     "title": "ตรวจท้องผู้ป่วย distal ureteric colic",
-     "asked": [
-      "(มีอาจารย์) distal ureteric colic ตรวจท้อง (78A)"
-     ],
-     "pattern": [
-      "ดูท่าทาง (colic บิดตัว) · CVA tenderness · ตรวจขาหนีบ/อัณฑะ · แยก appendicitis/AAA"
-     ],
-     "flow": [
-      "เตรียม → ดู ฟัง เคาะ คลำ → CVA → ขาหนีบ/อัณฑะ → สรุป + UA/NCCT"
-     ],
-     "kw": [
-      "CVA tenderness",
-      "restless",
-      "groin and testes",
-      "AAA",
-      "NCCT KUB"
-     ],
-     "members": [
-      "MDCU78|RoA|19#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Vascular",
-   "sections": [
-    {
-     "id": "trendelenburg",
-     "title": "Trendelenburg (tourniquet) test ใน varicose veins + การแปลผล",
-     "asked": [
-      "Visible dilated tortuous veins ขาขวา → perform the Trendelenburg (tourniquet) test → explain interpretation"
-     ],
-     "flow": [
-      "แนะนำตัว อธิบาย ขออนุญาต เปิดขาทั้งสองข้าง (ดูเส้นขอดท่ายืนก่อน)",
-      "นอนหงาย → ยกขา ~45° ลูบเส้นเลือดจากล่างขึ้นบน (empty veins)",
-      "รัด tourniquet ต้นขาส่วนบนใต้ SFJ (2–3 cm ต่ำกว่าและด้านในต่อ pubic tubercle) หรือใช้นิ้วกด SFJ",
-      "ให้ยืนขึ้นขณะยังรัด → สังเกต 30 วินาที",
-      "คลาย tourniquet → สังเกตการโป่ง",
-      "ทำซ้ำโดยย้ายตำแหน่งรัด (กลางต้นขา, ใต้เข่า) หาระดับ perforator ที่รั่ว",
-      "ขอบคุณ → แปลผล"
-     ],
-     "pattern": [
-      "<b>ขณะรัดไม่โป่ง → คลายแล้วโป่งเร็วจากบนลงล่าง</b> = SFJ incompetence",
-      "<b>ขณะรัดโป่งเร็ว (< 30 s)</b> = รั่วต่ำกว่าจุดรัด (incompetent perforators / SPJ)",
-      "<b>โป่งขณะรัดและโป่งมากขึ้นเมื่อคลาย</b> = รั่วทั้ง SFJ และ perforator",
-      "<b>เติมช้า (> 30 s) ทั้งก่อนและหลังคลาย</b> = ไม่มี reflux สำคัญ",
-      "มาตรฐานปัจจุบัน: <b>duplex ultrasound</b> (reflux > 0.5 s ใน superficial vein) ก่อนรักษาทุกราย · Perthes test: รัดแล้วเดิน / เขย่ง ถ้าโป่งมากขึ้น / ปวด = deep vein obstruction (ห้ามผ่าตัด superficial vein)"
-     ],
-     "kw": [
-      "elevate leg and empty veins",
-      "tourniquet below SFJ",
-      "stand with tourniquet on",
-      "observe 30 s",
-      "release and observe",
-      "repeat at lower levels",
-      "SFJ incompetence",
-      "perforator incompetence",
-      "duplex ultrasound"
-     ],
-     "pearls": [
-      "ไม่ empty veins ก่อนรัด = ได้บางส่วน",
-      "แปลผลได้กรณีเดียว (เช่นบอกแค่ SFJ) = ไม่เต็ม — ต้องบอกทั้งกรณีโป่งเมื่อคลายและโป่งขณะรัด"
-     ],
-     "members": [
-      "MDCU65|RoB|7#1",
-      "MDCU65|RoB|7#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Head & neck",
-   "sections": [
-    {
-     "id": "thyroid-exam",
-     "title": "Thyroid examination + thyroid status (solitary thyroid nodule)",
-     "asked": [
-      "ผู้ป่วยคลำได้ก้อนที่คอด้านหน้า → examine the thyroid gland and assess thyroid status → describe findings"
-     ],
-     "flow": [
-      "แนะนำตัว ขออนุญาต · นั่ง เปิดคอถึงไหปลาร้า เตรียมแก้วน้ำ",
-      "Inspection ด้านหน้า: ก้อน / คอโต แผลเป็น เส้นเลือดดำโป่ง",
-      "จิบน้ำแล้วกลืน (ก้อน thyroid เลื่อนขึ้น) · แลบลิ้น (thyroglossal cyst เลื่อนขึ้น)",
-      "Palpation จากด้านหลัง ก้มคอเล็กน้อย: isthmus → แต่ละ lobe ขณะกลืน · ขนาด ผิว ความแข็ง ก้อนเดี่ยว / หลายก้อน กดเจ็บ คลำขอบล่างได้ไหม",
-      "Trachea position · cervical LN ทุกกลุ่ม",
-      "Percussion sternum (retrosternal) · auscultation bruit · Pemberton sign",
-      "Thyroid status: มือ (สั่น อุ่นชื้น), ชีพจร (rate, AF), ตา (lid retraction, lid lag, exophthalmos, ophthalmoplegia), reflex, proximal myopathy",
-      "สรุป → แผนตรวจต่อ"
-     ],
-     "pattern": [
-      "<b>รายงาน</b>: 'Solitary right thyroid nodule ~2.5 cm, smooth, firm, non-tender, moves with swallowing (not with tongue protrusion), lower border palpable, trachea central, no cervical lymphadenopathy, clinically euthyroid'",
-      "ก้อนเคลื่อนตามการกลืน = ติด pretracheal fascia → thyroid",
-      "<b>ต่อไป</b>: TSH + US neck → FNA ตามลักษณะ US (ACR TI-RADS / ATA 2015)",
-      "ลักษณะสงสัยมะเร็ง: แข็ง ติดแน่น โตเร็ว เสียงแหบ LN โต"
-     ],
-     "kw": [
-      "inspect, swallow, tongue protrusion",
-      "palpate from behind while swallowing",
-      "size, surface, consistency, nodularity",
-      "lower border",
-      "trachea",
-      "cervical lymph nodes",
-      "percuss sternum, bruit",
-      "hands, pulse, eyes, reflexes",
-      "clinically euthyroid",
-      "TSH, US, FNA"
-     ],
-     "pearls": [
-      "ไม่ให้กลืนขณะดู / คลำ = ตก",
-      "ลืมประเมิน thyroid status ทั้งที่โจทย์สั่ง = เสียคะแนนครึ่งหลัง"
-     ],
-     "members": [
-      "MDCU65|RoA|8#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Skin & soft tissue",
-   "sections": [
-    {
-     "id": "forearm-lipoma",
-     "title": "ก้อนเล็กเคลื่อนได้ที่แขน — lipoma: Dx, excision และ longitudinal incision",
-     "asked": [
-      "54-year-old man ก้อนแขนขวา 3 เดือน: 1 cm circumscribed, rubbery, ไม่ยึดผิวหนัง / กระดูก ไม่เจ็บ → Dx → treatment → วาด incision บนรูป"
-     ],
-     "flow": [
-      "อ่านลักษณะก้อนจากโจทย์ (ขนาด ขอบ consistency การยึดติด กดเจ็บ ระยะเวลา)",
-      "ให้ Dx + DDx",
-      "บอกการรักษา",
-      "วาด incision บนแผนภาพแขน + เหตุผล"
-     ],
-     "pattern": [
-      "<b>Dx</b>: subcutaneous lipoma — ขอบชัด หยุ่น ไม่ยึดผิวหนังและกระดูก ไม่เจ็บ โตช้า (slip sign)",
-      "<b>Treatment</b>: excision (excisional biopsy) under local anesthesia เลาะทั้งก้อนพร้อมแคปซูล ส่งพยาธิ · ไม่ต้อง wide excision ในก้อนเล็กลักษณะ benign · ไม่มีอาการและผู้ป่วยไม่ต้องการ → สังเกตได้",
-      "<b>Incision</b>: longitudinal ตามแนวยาวแขน ผ่านก้อน ยาวประมาณเส้นผ่านศูนย์กลางก้อน — ถ้าผลเป็น sarcoma จะ re-excise ได้ และไม่ตัดผ่านเส้นประสาท / หลอดเลือด / เอ็นที่วิ่งตามยาว · transverse incision = ไม่ได้คะแนน",
-      "Red flags soft tissue sarcoma: > 5 cm, ลึกใต้ fascia, โตเร็ว, เจ็บ → imaging (MRI) + core biopsy ก่อนผ่าตัด"
-     ],
-     "kw": [
-      "lipoma",
-      "mobile, not fixed to skin",
-      "excisional biopsy under LA",
-      "send for histopathology",
-      "longitudinal incision along limb axis",
-      "allows re-excision"
-     ],
-     "ddx": [
-      "Epidermoid (sebaceous) cyst — ยึดผิวหนัง มี punctum",
-      "Neurofibroma / schwannoma — เคลื่อนด้านข้างแต่ไม่เลื่อนตามแนวเส้นประสาท, Tinel sign",
-      "Ganglion cyst — ใกล้ข้อ / เอ็น",
-      "Soft tissue sarcoma (ก้อน > 5 cm, ลึก, โตเร็ว)"
-     ],
-     "pearls": [
-      "เฉลยไฟล์ต้นฉบับตอบ epidermoid cyst + wide excision — ธนาคารข้อสอบแก้เป็น lipoma + excisional biopsy เพราะโจทย์บอกไม่ยึดผิวหนัง (epidermoid cyst ยึดผิวและมี punctum); ตอบตามไฟล์ได้บางส่วน"
-     ],
-     "members": [
-      "MDCU67|RoD|12#1",
-      "MDCU67|RoD|12#2",
-      "MDCU67|RoD|12#3"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"pe", title:"Physical examination",
+  intro:"<ul><li>สถานี Physical examination มีเกือบทุก rotation ตั้งแต่ MDCU65 ถึง MDCU79 และหัวข้อวนอยู่ไม่กี่เรื่อง: <b>DRE บนหุ่นต่อมลูกหมาก</b> (ออกมากที่สุด เกือบทุกชุด), <b>ตรวจท้องในผู้ป่วยปวด RLQ (acute appendicitis)</b>, <b>breast examination บนหุ่น</b> และ <b>PR / proctoscopy ในผู้ป่วยถ่ายเป็นเลือด</b> — รูปแบบคือ demonstrate ตามลำดับ → บอกสิ่งที่พบ → Dx → (investigation / management / advice)</li><li><b>DRE</b>: หุ่นสลับระหว่าง <b>BPH (โตเรียบ rubbery)</b> กับ <b>CA prostate (hard nodule / แข็งทั้งต่อม)</b>; ตั้งแต่ MDCU72 มักเป็นสถานี <b>ไม่มีอาจารย์</b> ให้เขียนบรรยาย + Dx; ข้อย่อยต่อยอดคือ PSA → mpMRI → biopsy, IPSS, การรักษา BPH และ MDCU66 RoD ให้ <b>painless gross hematuria</b> (BPH อธิบายไม่ได้ → CT urography + cystoscopy)</li><li><b>ตรวจท้อง</b>: appendicitis ออกต่อเนื่องตั้งแต่ MDCU65 และ 69–78 (McBurney, Rovsing, psoas, obturator, PR); RUQ pain → <b>Murphy sign / acute cholecystitis</b> (65–67 ชุด RoB, 73) และ MDCU79 RoC ให้ภาพ US นิ่ว → symptomatic gallstone; <b>ureteric colic</b> (68, 78 — CVA tenderness, ตรวจอัณฑะ, NCCT KUB) และ <b>gut obstruction + PR</b> (68)</li><li><b>Breast</b>: checklist inspection 3–4 ท่า → palpation ทั้งเต้า + axillary tail → LN axilla 5 กลุ่ม + supraclavicular → บรรยายก้อน; MDCU76–78 ต่อด้วย <b>คำแนะนำ screening</b> เมื่อตรวจปกติ, MDCU66 ต่อด้วย <b>triple assessment</b> และ <b>TNM จากผลพยาธิ (AJCC 8th)</b>, MDCU65 เป็น <b>bloody nipple discharge</b></li><li><b>Anorectal</b> (MDCU69–77): DRE + ขอ proctoscope → ภาพ <b>prolapsed thrombosed internal hemorrhoid</b> / grade II, <b>anal fissure</b> (ตรวจด้วยการดู ไม่ฝืน PR) และอายุ 50 ถ่ายเป็นเลือดแต่ตรวจปกติ → <b>colonoscopy</b> · ที่เหลือ: neuro (myotome + root, DTR, Babinski, GCS), thyroid / ก้อนกลางคอ (TGDC), Trendelenburg test, ตรวจขาขาดเลือด และก้อน lipoma ที่แขน (longitudinal incision)</li><li>เหตุเสียคะแนนที่ซ้ำทุกสถานี: ไม่ขออนุญาต / ไม่มี chaperone (DRE, breast), ไม่ดู perianal และไม่ดูถุงมือ, คลำท้องก่อนฟังหรือเริ่มที่จุดเจ็บ, ลืม PR / hernia orifices, ลืม LN supraclavicular, บรรยายแค่ 'มีก้อน' โดยไม่บอกตำแหน่ง ขนาด ความแข็ง</li></ul>",
+  groups:[
+    {title:"Prostate — digital rectal examination (DRE)", sections:[
+      {id:"dre-ca-prostate", title:"Carcinoma of prostate — hard nodule หรือต่อมแข็งทั้งต่อมบน DRE",
+       trend:"หุ่นแบบมะเร็งออกสลับกับหุ่น BPH เกือบทุกปี — คะแนนอยู่ที่บอกตำแหน่งและความแข็งของก้อนให้ชัด แล้วต่อด้วย investigation",
+       asked:["หุ่นต่อมลูกหมาก → describe the characteristics you palpate → most likely Dx (ก้อนแข็ง ~1.5 cm ที่ lateral upper pole ของ right lobe)","ชาย 72 ปี LUTS → demonstrate DRE บนหุ่น → describe → Dx","หุ่นชาย 70 ปี → describe → Dx → investigations next","ชาย 70 ปีมาตรวจสุขภาพประจำปี (หุ่น ไม่มีอาจารย์) → describe → Dx → outline the management","หุ่นต่อมโตและแข็งทั้งต่อม → DRE + describe → Dx","หุ่น (ไม่มีอาจารย์) → prostate examination → Dx → name 2 investigations","หุ่นที่ anal sphincter หลวม + ต่อมแข็งขรุขระ → describe findings (8 คะแนน) → Dx","ชาย LUTS → describe ก้อนแข็ง ยึดแน่น เป็นปุ่มที่ lobe เดียว → Dx"],
+       flow:["(ในคนจริง) แนะนำตัว ยืนยันตัวผู้ป่วย อธิบาย ขออนุญาต ขอ chaperone · ล้างมือ","จัดท่า left lateral decubitus (Sims) เข่างอชิดอก ก้นชิดขอบเตียง · สวมถุงมือ หล่อลื่นนิ้วชี้","แหวกก้นดู perianal → บอกก่อนสอด วางนิ้วที่ anal verge ให้หายใจทางปาก / เบ่งเบา ๆ → สอดช้า ๆ","ประเมิน anal sphincter tone (ให้ขมิบ) → คลำผนัง rectum รอบ 360°","คลำ prostate ทางผนังหน้า กวาดทั้งสอง lobe + median sulcus + ขอบบน (seminal vesicle)","บรรยาย nodule: lobe ไหน, base (upper pole) / apex / lateral, ขนาด, ความแข็ง, ผิว, rectal mucosa เลื่อนได้หรือยึด","ถอนนิ้วดูถุงมือ (เลือด มูก สีอุจจาระ) → เช็ดทำความสะอาด คลุมผ้า ขอบคุณ ล้างมือ","รายงานผล → Dx → investigation / management"],
+       pattern:["<b>ตัวอย่างรายงาน (hard nodule)</b>: 'Normal anal tone, no rectal mass. Prostate slightly enlarged, asymmetrical, with a hard (stony) nodule about 1.5 cm at the lateral upper pole of the right lobe, irregular surface, median sulcus still palpable, non-tender, rectal mucosa mobile over the gland. Glove: no blood or mucus.'","<b>ต่อมแข็งทั้งต่อม</b>: 'enlarged, diffusely hard, irregular / nodular surface, median sulcus obliterated, ± fixed (rectal mucosa ไม่เลื่อน)' → carcinoma of prostate","<b>Dx</b>: Carcinoma of the prostate (suspected — ยืนยันด้วย biopsy) · ถ้าต่อมโตทั้งสองข้างร่วมด้วยตอบ <b>CA prostate with BPH</b> ได้ (เฉลยไฟล์ MDCU67 RoB)","<b>ทำไมคลำได้</b>: มะเร็งส่วนใหญ่ (~70%) เกิดใน <b>peripheral zone</b> ด้านหลังที่ติด rectum · BPH เกิดที่ transition zone","<b>Investigations (EAU 2025)</b>: serum PSA → <b>multiparametric MRI (PI-RADS) ก่อน biopsy</b> → MRI-targeted + systematic biopsy แนะนำทาง <b>transperineal</b> (ติดเชื้อน้อยกว่า transrectal) → ISUP grade group (Gleason) → staging ตามความเสี่ยง: bone scan + CT abdomen-pelvis หรือ PSMA PET-CT ใน high risk","<b>DRE ผิดปกติ = ข้อบ่งชี้ biopsy แม้ PSA ปกติ</b> · PSA สูง (คลาสสิก &gt; 4 ng/mL) หรือ DRE ผิดปกติ → MRI → biopsy · ถ้าถาม 2 investigations ตอบ <b>PSA + mpMRI → prostate biopsy</b>","<b>Clinical T (AJCC 8th)</b>: T1 คลำไม่ได้ · T2a ≤ ครึ่งของ lobe เดียว · T2b &gt; ครึ่งของ lobe เดียวแต่ไม่ถึงสอง lobe · T2c ทั้งสอง lobe · T3a ทะลุ capsule · T3b ลาม seminal vesicle · T4 ยึดติด / ลาม bladder, rectum, external sphincter, levator ani, pelvic wall","<b>Management</b> (เคสตรวจสุขภาพ 70 ปี): ยืนยัน Dx + staging ก่อน → รักษาตาม risk group และ life expectancy: active surveillance (low risk), radical prostatectomy หรือ radiotherapy ± ADT (localised / locally advanced), metastatic → ADT ร่วมกับ ARPI (abiraterone, enzalutamide, apalutamide) ± docetaxel (EAU 2025)"],
+       kw:["consent + chaperone","left lateral (Sims)","inspect perianal","anal sphincter tone","360° rectal wall","hard / stony nodule","site: lobe + upper pole / apex","size of nodule","asymmetrical","median sulcus obliterated","mucosa mobile / fixed","inspect glove","carcinoma of prostate","PSA","mpMRI before biopsy","prostate biopsy, ISUP / Gleason"],
+       ddx:["Nodular BPH","Prostatic calculi","Chronic / granulomatous prostatitis (เช่น TB, หลัง intravesical BCG)","ก้อนของผนัง rectum ด้านหน้า (อยู่ในผนัง ไม่ใช่ในต่อม)"],
+       pearls:["บอกแค่ 'มีก้อน' ไม่ระบุ lobe / pole / ขนาด / ความแข็ง = เสียคะแนน describe ซึ่งมากกว่าคะแนน Dx","หุ่นแข็งทั้งต่อมแต่โต อย่าตอบ BPH — BPH ต้องเรียบ rubbery สมมาตร","PSA ปกติไม่ตัดมะเร็งเมื่อคลำได้ hard nodule","หุ่นที่ anal sphincter หลวม: ต้องรายงาน anal tone ด้วยเสมอ (อยู่ในคะแนน describe)","ข้อย่อย investigations ของหุ่นชาย 70 ปี (MDCU65 RoB) ธนาคารเติมเอง ไม่มีในไฟล์ต้นฉบับ · หลายสถานี MDCU74–78 ไฟล์ไม่มีเฉลย — Dx อิงลักษณะหุ่นที่ผู้จดบรรยาย"],
+       members:["MDCU67|RoA|10#1","MDCU67|RoA|10#2","MDCU67|RoB|10#1","MDCU67|RoB|10#2","MDCU66|RoB|13#1","MDCU66|RoB|13#2","MDCU66|RoB|13#3","MDCU65|RoB|5#1","MDCU65|RoB|5#2","MDCU78|RoA|23#1","MDCU78|RoA|23#2","MDCU78|RoA|23#3","MDCU78|RoC|1#1","MDCU78|RoC|1#2","MDCU77|RoD|5#1","MDCU77|RoD|5#2","MDCU77|RoD|5#3","MDCU76|RoA|5#1","MDCU76|RoA|5#2","MDCU75|RoD|8#1","MDCU75|RoD|8#2","MDCU74|RoD|1#1","MDCU74|RoD|1#2","MDCU68|RoD|12#1"]},
+      {id:"dre-bph", title:"Benign prostatic hyperplasia — ต่อมโตเรียบ rubbery สมมาตร (DRE + Dx)",
+       trend:"หุ่น BPH มากับโจทย์ชายสูงอายุ LUTS หรือเคย acute urinary retention — ทำ DRE ครบขั้นตอนแล้วตอบ Dx เดียว",
+       asked:["ชาย 70 ปี frequency + เบ่งปัสสาวะ 6 เดือน → demonstrate DRE รวมการจัดท่า + describe → most likely Dx (→ investigations)","Examine the prostate on the model → write a report of your findings → Dx","ชาย 60 ปี ปัสสาวะไม่สุด + เคย acute urinary retention → demonstrate DRE (หุ่นจัดท่าให้แล้ว) → single most likely Dx","ชาย 65 ปี ปัสสาวะลำบาก ไม่สุด บ่อย → describe the palpated prostate → Dx → treatment","ชาย 65 ปี poor stream, intermittency, straining, nocturia → IPSS → DRE + describe → Dx","ชายสูงอายุ / ชายอายุ 50 กว่า LUTS (หุ่น ไม่มีอาจารย์) → describe PR findings → most likely Dx (→ treatment)","หุ่นที่ผู้จดบันทึกว่าน่าจะเป็น BPH → describe + Dx"],
+       flow:["แนะนำตัว ยืนยันตัวผู้ป่วย อธิบาย ขออนุญาต ขอ chaperone · ล้างมือ","จัดท่า left lateral (Sims) เข่างอชิดอก (หรือ knee-chest / lithotomy) · ถุงมือ + สารหล่อลื่น","ดู perianal (hemorrhoid, fissure, fistula, skin tag) → บอกก่อนสอด → สอดช้า ๆ","anal tone → คลำผนัง rectum รอบ 360° → คลำ prostate ทั้งสอง lobe + median sulcus","ถอนนิ้วดูถุงมือ → เช็ดทำความสะอาด จัดเสื้อผ้า ขอบคุณ ล้างมือ","รายงาน 'size – symmetry – surface – consistency – sulcus – nodule – tenderness – mucosa' → Dx"],
+       pattern:["<b>ตัวอย่างรายงาน</b>: 'Perianal normal. Anal tone normal. Rectal mucosa smooth, no mass. Prostate diffusely enlarged (~2–3 FB, ~40 g), symmetrical, smooth surface, firm-rubbery consistency, median sulcus shallow / obliterated, no nodule, non-tender, rectal mucosa mobile. Glove: brown stool, no blood or mucus.'","เฉลยไฟล์ MDCU77 RoA: <b>diffusely enlarged prostate, symmetry, smooth surface, firm consistency, no nodularity → Benign prostatic hyperplasia</b>","<b>ต่อมปกติ</b> ~20 g ขนาดราวลูก walnut กว้าง ~3.5 cm เรียบ rubbery-firm มี median sulcus","<b>แยกด้วยการคลำ</b>: BPH (transition zone) โตสมมาตร เรียบ rubbery sulcus ตื้นลง · CA (peripheral zone) hard / stony nodule ขรุขระ ไม่สมมาตร sulcus หาย · acute prostatitis นุ่ม บวม อุ่น กดเจ็บมาก (ห้ามนวด)","<b>Dx wording</b>: Benign prostatic hyperplasia with LUTS — voiding (poor stream, straining, intermittency, incomplete emptying, post-void dribbling) + storage (frequency, nocturia) ± bladder outlet obstruction / acute urinary retention","<b>AUR</b>: ใส่สายสวนปัสสาวะ + เริ่ม alpha-blocker อย่างน้อย 3 วันแล้ว trial without catheter (AUA 2026)","DRE ประเมินขนาดได้คร่าว ๆ — วัดปริมาตรด้วย TRUS / US · ขนาดต่อมไม่สัมพันธ์โดยตรงกับความรุนแรงของอาการ"],
+       kw:["consent + chaperone","left lateral (Sims) position","inspect perianal","anal tone","360° rectal wall","diffusely enlarged","symmetrical","smooth surface","rubbery / firm","median sulcus","no nodule","non-tender","mucosa mobile","inspect glove","clean patient, thank","BPH with LUTS"],
+       ddx:["Carcinoma of prostate","Urethral stricture","Neurogenic bladder (DM, spinal cord disease)","Bladder stone","ยาที่ทำให้ปัสสาวะไม่ออก (anticholinergic, antihistamine)"],
+       pearls:["ไม่ขออนุญาต / ไม่มี chaperone / ไม่จัดท่า = เสียคะแนนส่วน technique ซึ่งเป็นคะแนนก้อนใหญ่","ต่อมเรียบสมมาตรแต่ตอบ CA prostate = ผิด · โจทย์ถาม single most likely diagnosis → ตอบ BPH คำเดียว","อย่าลืมบอกผลถุงมือ (เลือด มูก) ในรายงาน"],
+       members:["MDCU67|RoD|11#1","MDCU67|RoD|11#2","MDCU66|RoA|3#1","MDCU66|RoA|3#2","MDCU66|RoC|5#1","MDCU66|RoC|5#2","MDCU65|RoC|4#1","MDCU65|RoC|4#2","MDCU77|RoA|7#2","MDCU77|RoA|7#3","MDCU72|RoD|3#1","MDCU72|RoD|3#2","MDCU68|RoB|10#1","MDCU68|RoC|12#1"]},
+      {id:"dre-unknown-model", title:"หุ่น DRE ไม่มีอาจารย์ — บรรยายต่อมเป็นระบบแล้วแยก BPH / CA / prostatitis",
+       trend:"สถานีวางหุ่น + ถุงมือ + gel ให้เขียนคำบรรยาย ไฟล์มักไม่มีเฉลยว่าหุ่นเป็นแบบไหน — ต้องใช้ decision rule ไม่ใช่จำคำตอบ",
+       asked:["Perform DRE on the model (no examiner) → describe the steps → describe the prostate + Dx","Prostate model, gloves and gel → describe the abnormality → Dx","DRE model → describe the lesion → Dx","PR on the model → A. describe the findings · B. Dx","Gloves + DRE model (ไม่มีอาจารย์ดู) → describe the prostate → Dx + next management"],
+       flow:["อ่านโจทย์: มีอาจารย์หรือไม่ / ให้ทำหรือให้เขียนขั้นตอน","ถ้าให้เขียนขั้นตอน: consent + chaperone → position → glove + lubricant → inspect perianal → tone → 360° → prostate → glove → clean","คลำหุ่น: เทียบ lobe ซ้าย-ขวา, median sulcus, ขอบบน, หาจุดแข็ง","เขียนลักษณะให้ครบทุกหัวข้อ","สรุป Dx เดียวที่ตรงกับสิ่งที่คลำได้ + next step"],
+       pattern:["<b>หัวข้อที่ต้องเขียนครบ</b>: anal tone · size (ปกติกว้าง ~3.5 cm / ~20 g; บอกเป็น g หรือ FB) · symmetry · surface (smooth / nodular) · consistency (rubbery / hard / boggy) · median sulcus (palpable / shallow / obliterated) · nodule (site, size) · tenderness · mobility ของ rectal mucosa · glove","<b>Decision rule</b>: โตเรียบ สมมาตร rubbery sulcus ยังคลำได้หรือตื้น → <b>BPH</b> · แข็งเหมือนหิน ขรุขระ / มี nodule ไม่สมมาตร sulcus หาย ± fixed → <b>carcinoma of prostate</b> · นุ่ม boggy บวม อุ่น กดเจ็บมาก + ไข้ → <b>acute bacterial prostatitis</b> (ห้ามนวด)","<b>Next management</b>: BPH → IPSS, UA, Cr, PSA, PVR ± uroflowmetry → alpha-blocker ± 5-ARI · CA → PSA + mpMRI → prostate biopsy","ในชาย ผนังหน้า = prostate (seminal vesicle ปกติคลำไม่ได้) · ในหญิงผนังหน้า = cervix"],
+       kw:["anal tone","size","symmetry","surface smooth / nodular","consistency rubbery / hard / boggy","median sulcus","nodule site + size","tenderness","mucosal mobility","glove","BPH vs carcinoma of prostate"],
+       ddx:["BPH","Carcinoma of prostate","Acute / chronic prostatitis","Prostatic calculi"],
+       pearls:["เขียนแค่ Dx ไม่เขียนลักษณะ = เสียคะแนน describe ซึ่งมากกว่าคะแนน Dx","ต้องให้คำบรรยายกับ Dx ไปทางเดียวกัน (เช่น เขียน rubbery smooth แล้วตอบ CA = ไม่ได้คะแนน)","สถานีเหล่านี้ไฟล์ไม่มีเฉลยและไม่ทราบลักษณะหุ่นจริง — ธนาคารเฉลยเป็นกรอบการบรรยาย (Campbell-Walsh-Wein)"],
+       members:["MDCU79|RoC|4#1","MDCU79|RoC|4#2","MDCU76|RoC|7#1","MDCU76|RoC|7#2","MDCU74|RoA|11#1","MDCU74|RoA|11#2","MDCU72|RoB|12#1","MDCU72|RoB|12#2","MDCU70|RoB|9#1"]},
+      {id:"bph-workup-tx", title:"BPH / LUTS — IPSS, investigations และการรักษา",
+       trend:"ข้อย่อยต่อจากหุ่น BPH — ถามประเมินความรุนแรง (IPSS) ส่งตรวจอะไร และรักษาเป็นขั้น",
+       asked:["ชาย 65 ปี LUTS → How would you assess the severity of his symptoms?","หลัง DRE ของ BPH → What further investigations would you request?","ชาย 65 ปี LUTS ต่อมโตเรียบ → State the treatment","หุ่น DRE → Dx + next management","ชายอายุ 50 กว่า LUTS → describe → Dx → treatment"],
+       flow:["ประเมินความรุนแรง: IPSS + QoL score","Basic evaluation","ตรวจเพิ่มตามข้อบ่งชี้","รักษาเป็นขั้น: watchful waiting + behavioral → ยา → ผ่าตัด + ข้อบ่งชี้"],
+       pattern:["<b>IPSS</b> (7 คำถาม 0–35): mild 0–7 · moderate 8–19 · severe 20–35 + QoL score (เฉลยไฟล์ MDCU77 RoA: IPS score)","<b>Investigations</b>: UA (hematuria, infection) · BUN / Cr · PSA (หลังอธิบายข้อดีข้อเสีย) · post-void residual (US) · uroflowmetry (Qmax &lt; 10 mL/s สนับสนุน bladder outlet obstruction) · US KUB / prostate (ปริมาตรต่อม, hydronephrosis, bladder stone) · frequency-volume chart ถ้า nocturia เด่น · PSA สูง / DRE ผิดปกติ → MRI ± biopsy","<b>อาการน้อย / ไม่รบกวน</b>: watchful waiting + behavioral (ลดน้ำ คาเฟอีน แอลกอฮอล์ก่อนนอน, double voiding, bladder training)","<b>Alpha-1 blocker</b> — first-line สำหรับ moderate–severe ออกฤทธิ์ภายในไม่กี่วัน · AUA 2026 ให้เลือก uroselective 1 ใน 3 ตัว: tamsulosin, alfuzosin, silodosin (doxazosin / terazosin ยังอยู่ใน EAU 2026)","<b>5-ARI</b> (finasteride, dutasteride) เมื่อ prostate &gt; 30 cc และ / หรือ PSA &gt; 1.5 ng/mL (AUA 2026) · EAU 2026: เมื่อเสี่ยง progression เช่น prostate &gt; 40 mL · ลดขนาดต่อม ~20–30% ใช้เวลาหลายเดือน ลดความเสี่ยง AUR และการผ่าตัด · ทำให้ PSA ลดลงราวครึ่งหนึ่ง","<b>Combination</b> alpha-blocker + 5-ARI ในต่อมโตตามเกณฑ์ข้างบน · storage เด่น → เพิ่ม antimuscarinic / beta-3 agonist · tadalafil 5 mg ต่อวันใช้ได้","<b>ผ่าตัด</b> (TURP มาตรฐาน; HoLEP; simple prostatectomy ในต่อม &gt; 80 cc) เมื่อ: renal insufficiency จาก BPH, refractory urinary retention, recurrent UTI, recurrent bladder stones หรือ recurrent gross hematuria จาก BPH, LUTS ไม่ตอบสนองยา / ไม่ต้องการกินยา (AUA 2026)"],
+       kw:["IPSS mild 0–7 / moderate 8–19 / severe 20–35","UA","creatinine","PSA after counselling","post-void residual","uroflowmetry Qmax","watchful waiting","alpha-blocker","5-ARI (&gt; 30 cc / PSA &gt; 1.5)","combination therapy","TURP indications"],
+       pearls:["ส่ง CT / IVP เป็น routine ใน BPH = ไม่เหมาะ — ภาพ upper tract ทำเมื่อมี hematuria, ไตเสื่อม หรือ PVR สูง","การรักษาต้องเรียงขั้น lifestyle → ยา → ผ่าตัด พร้อมข้อบ่งชี้ผ่าตัด ไม่ใช่ตอบ TURP อย่างเดียว","ผู้ป่วยกิน 5-ARI: คูณค่า PSA ด้วย 2 เวลาแปลผล"],
+       members:["MDCU77|RoA|7#1","MDCU67|RoD|11#3","MDCU66|RoA|3#3","MDCU72|RoB|12#2","MDCU68|RoC|12#1"]},
+      {id:"dre-hematuria", title:"Painless gross hematuria — DRE + work-up (อย่าหยุดที่ BPH)",
+       trend:"ใช้ DRE เป็นทางเข้า แล้ววัดว่ารู้ว่า gross hematuria ต้องหามะเร็งทางเดินปัสสาวะเสมอ",
+       asked:["ชาย 68 ปี painless gross hematuria → perform DRE including the prostate (มีอาจารย์) → describe findings → further investigations"],
+       flow:["consent + chaperone → left lateral → ล้างมือ ถุงมือ","ดู perianal → หล่อลื่น สอดช้า ๆ → tone → คลำ rectum 360°","คลำ prostate + seminal vesicle","ดูถุงมือ → ทำความสะอาด คลุมผ้า ขอบคุณ","รายงาน → บอกว่า BPH ไม่พอจะอธิบาย gross hematuria → ส่งตรวจหามะเร็ง"],
+       pattern:["<b>Findings (หุ่นนี้)</b>: normal anal tone, no rectal mass, prostate enlarged ~40 g, smooth, firm-rubbery, median sulcus shallow, no hard nodule, non-tender → เข้าได้กับ BPH แต่ <b>ยังต้องหาสาเหตุ hematuria</b>","<b>Basic</b>: UA + urine microscopy (dysmorphic RBC, casts → glomerular), urine culture, CBC, BUN / Cr, coagulation ถ้าใช้ยาต้านเลือดแข็ง","<b>Upper tract</b>: CT urography (ไตเสื่อม / แพ้ contrast → US KUB หรือ MR urography) · <b>Lower tract</b>: <b>cystoscopy</b> (มาตรฐานหา bladder tumor) ± urine cytology · PSA หลังอธิบาย · ประเมิน BPH: uroflowmetry, PVR","Gross hematuria ในผู้สูงอายุ / สูบบุหรี่ = เสี่ยงมะเร็งทางเดินปัสสาวะสูง (bladder cancer บ่อยสุด) → CT urography + cystoscopy ทุกราย แม้มี BPH (AUA / SUFU microhematuria guideline · EAU) · BPH เป็นสาเหตุ hematuria ได้ต่อเมื่อหาสาเหตุอื่นแล้วไม่พบ"],
+       kw:["consent + chaperone","left lateral","perianal, tone, 360°","prostate description","inspect glove","BPH does not explain gross hematuria","UA + microscopy","CT urography","cystoscopy","urine cytology","PSA"],
+       ddx:["Bladder cancer (urothelial carcinoma)","Upper tract urothelial carcinoma / RCC","Urolithiasis","BPH-related hematuria (diagnosis of exclusion)","UTI / radiation cystitis"],
+       pearls:["ตอบแค่ BPH แล้วจบ = พลาดประเด็นหลักของสถานี","work-up ที่ไม่มี cystoscopy = ไม่ครบ"],
+       members:["MDCU66|RoD|4#1","MDCU66|RoD|4#2","MDCU66|RoD|4#3"]}
+    ]},
+    {title:"Abdominal examination — acute abdomen", sections:[
+      {id:"abd-appendicitis", title:"Acute appendicitis — ตรวจท้อง RLQ + peritoneal signs + special signs + PR",
+       trend:"สถานีตรวจท้องที่ออกบ่อยที่สุด — SP ปวดย้ายมา RLQ ± ไข้ ให้ตรวจพร้อมบอกชื่อ / เหตุผลของแต่ละ sign แล้วตอบ Dx",
+       asked:["SP ปวดท้องเฉียบพลัน 1 วัน → abdominal examination relevant to the complaint (ไม่ต้องซักประวัติ) → findings + provisional Dx","ชาย 22 ปี ปวดรอบสะดือย้ายมา RLQ 12 ชม. เบื่ออาหาร ไข้ต่ำ → ตรวจท้องพร้อมอธิบายแต่ละ sign","ชาย 25 ปี ปวดท้อง + ไข้ 6 ชม. (T 38 °C, P 104) → ตรวจท้อง อธิบายว่าทำแต่ละขั้นเพื่ออะไร + รายงานผล","ชาย 40 ปี ปวด RLQ คลื่นไส้อาเจียน ไข้ 39 °C → ตรวจท้อง → Dx","ชาย 20 ปี ปวดย้ายมา RLQ 1 วัน → ตรวจสำหรับ acute appendicitis และบอกชื่อแต่ละ sign (อาจารย์บอกผลให้)","ชายปวด RLQ 6 ชม. V/S ปกติ → physical examination relevant to the complaint","Perform PE for suspected acute appendicitis on the SP / ตรวจท้องผู้ป่วยปวดท้องด้านขวา → Dx","ชาย 21 ปี ปวดท้องกระจาย 6 ชม. + ไข้ 37.7 °C → ตรวจ → Dx","Demonstrate PE ของผู้ป่วยปวด RLQ รุนแรง"],
+       flow:["ล้างมือ แนะนำตัว ขออนุญาต · นอนหงายหมอนใบเดียว แขนข้างลำตัว (± งอเข่าเล็กน้อย) · เปิดหน้าท้องใต้ราวนมถึงขาหนีบ คลุมส่วนอื่น · ยืนด้านขวา · ถามจุดที่ปวด","General: V/S (ไข้ ชีพจร), ท่าทาง (นอนนิ่ง = peritonitis · บิดตัว = colic)","Inspection: distension, การเคลื่อนไหวตามการหายใจ, แผลผ่าตัดเก่า, hernia","Auscultation (ก่อนคลำ): bowel sound","Percussion: percussion tenderness (ใช้แทน rebound ได้)","Palpation: เริ่มไกลจุดเจ็บ (LLQ) ดูหน้าผู้ป่วย light → deep → McBurney tenderness, guarding / rigidity, rebound","Special signs: Rovsing → psoas → obturator (± Dunphy / cough)","ตรวจ hernia orifices + external genitalia (อัณฑะ) · บอกว่าจะทำ PR (หญิง: PV)","คลุมผ้า ขอบคุณ ล้างมือ → สรุปผล + Dx (± Alvarado)"],
+       pattern:["<b>McBurney point</b> = จุด 1/3 จาก ASIS ไปสะดือบนเส้น spinoumbilical","<b>Rovsing</b>: กด LLQ → เจ็บ RLQ · <b>Psoas</b>: นอนตะแคงซ้าย เหยียดสะโพกขวา → เจ็บ = retrocecal appendix · <b>Obturator</b>: งอสะโพก + เข่า 90° แล้ว internal rotation → เจ็บ = pelvic appendix · <b>Dunphy</b>: ไอแล้วเจ็บ RLQ","<b>Peritoneal irritation</b>: guarding, rigidity, rebound tenderness — percussion tenderness / cough test ให้ข้อมูลเดียวกันและเจ็บน้อยกว่า","<b>PR</b>: tender ทางขวา / pelvic abscess ใน pelvic appendix — ต้องบอกเสมอ (เฉลยไฟล์ MDCU65 RoA: PE acute abdomen → PR ด้วย) · หญิง: PV / cervical motion tenderness, adnexal mass + urine pregnancy test","<b>ปวด RLQ รุนแรง</b>: เพิ่ม CVA tenderness (stone / pyelonephritis), hernia, อัณฑะ (torsion)","<b>รายงาน</b>: 'low-grade fever, localized tenderness with guarding and rebound at McBurney point, Rovsing and psoas signs positive, PR tender on the right → acute appendicitis with localized peritonitis'","<b>Alvarado (MANTRELS)</b>: Migration 1, Anorexia 1, Nausea / vomiting 1, Tenderness RLQ 2, Rebound 1, Elevated temperature ≥ 37.3 °C 1, Leukocytosis &gt; 10,000 2, Shift to left 1 = 10 · 5–6 equivocal · 7–8 probable · 9–10 very probable (WSES 2020 Jerusalem: ใช้ score ร่วมกับ imaging)"],
+       kw:["hand hygiene, introduce, consent","supine, expose nipple-to-groin, stand on right","ask where it hurts","inspection → auscultation → percussion → palpation","start away from pain, watch face","McBurney tenderness","guarding / rebound / percussion tenderness","Rovsing sign","psoas sign","obturator sign","hernia orifices + genitalia","PR (PV in women)","acute appendicitis with localized peritonitis"],
+       ddx:["Mesenteric adenitis","Meckel's diverticulitis","Right ureteric colic","Terminal ileitis / Crohn's disease","Right-sided diverticulitis (อายุมากขึ้น)","หญิง: ectopic pregnancy, ovarian torsion, PID","Testicular torsion"],
+       pearls:["คลำเริ่มที่จุดเจ็บ = เสียคะแนนและผู้ป่วยเกร็ง (เฉลยไฟล์ MDCU76 RoA: คลำเริ่มจากจุดไม่ปวด → ปวด, Rovsing, psoas, obturator)","คลำก่อนฟัง หรือข้าม percussion — ลำดับของ acute abdomen คือ ดู → ฟัง → เคาะ → คลำ","ลืม hernia orifices / อัณฑะ / PR","หลายสถานีสั่งให้ 'อธิบายแต่ละ sign' — พูดชื่อ sign และสิ่งที่หาทุกขั้น","ผลตรวจในหลายเคสธนาคารแต่งเพื่อให้ตอบ Dx ได้ — ในห้องสอบ SP / อาจารย์เป็นผู้ให้ผล"],
+       members:["MDCU65|RoA|2#1","MDCU65|RoA|2#2","MDCU78|RoB|20#1","MDCU78|RoC|3#1","MDCU77|RoA|10#1","MDCU77|RoA|10#2","MDCU76|RoA|2#1","MDCU75|RoC|10#1","MDCU72|RoB|1#1","MDCU72|RoD|6#1","MDCU72|RoD|6#2","MDCU71|RoA|1#1","MDCU70|RoA|3#1","MDCU70|RoA|3#2","MDCU69|RoC|2#1"]},
+      {id:"abd-ruq-gallbladder", title:"ปวดท้องขวาบน — acute cholecystitis (Murphy sign) vs symptomatic gallstone",
+       trend:"ตรวจท้อง focused RUQ — คะแนนอยู่ที่ Murphy sign และการดูตาเหลือง แล้ว Dx ตามผลตรวจ / ภาพ US",
+       asked:["หญิงไข้ + ปวด RUQ 2 วัน → perform an abdominal examination → Dx","SP ปวด RUQ → abdominal examination focused on this complaint → most likely Dx","SP ปวด RUQ → ตรวจท้อง → ให้ภาพ US (นิ่วหลายก้อนในถุงน้ำดี) → Dx"],
+       flow:["ล้างมือ แนะนำตัว ขออนุญาต · นอนหงาย เปิดท้อง xiphoid–symphysis ยืนขวา · ถามจุดปวด","General: ไข้, ดูตาเหลือง (sclera), ซีด","Inspection → auscultation → percussion (liver span, percussion tenderness)","Palpation เริ่มไกลจุดเจ็บ light → deep · guarding / rebound · ตับ ม้าม ไต","Murphy sign (เทียบข้างซ้าย) · คลำถุงน้ำดี (Courvoisier) · CVA tenderness","บอกว่าจะตรวจ hernia orifices / PR · คลุมผ้า ขอบคุณ → สรุป + Dx"],
+       pattern:["<b>Murphy sign</b>: วางมือ / นิ้วใต้ชายโครงขวาที่ midclavicular line ให้หายใจเข้าลึก → หยุดหายใจกลางคันเพราะเจ็บ = บวก · ข้างซ้ายต้องไม่เจ็บ","เฉลยไฟล์ MDCU67 RoB: <b>ดู ฟัง คลำ เคาะให้ครบ + Murphy's sign + ดูตาเหลือง</b> → Dx acute cholecystitis","<b>Dx</b>: ไข้ + RUQ tenderness + Murphy บวก ไม่เหลือง → <b>acute calculous cholecystitis</b> · เหลือง → คิด cholangitis / CBD stone / Mirizzi","<b>TG18 (ใช้เกณฑ์ TG13)</b>: A local (Murphy, RUQ mass / pain / tenderness) + B systemic (ไข้, CRP, WBC สูง) = suspected · + C imaging = definite · ภาพ: ผนังหนา ≥ 4 mm (TG18 2018; TG13 2013 ใช้ ≥ 5 mm), GB โต (long axis ≥ 8 cm / short axis ≥ 4 cm), pericholecystic fluid, sonographic Murphy, นิ่วติดคอ","<b>Tx acute cholecystitis</b>: NPO, IV fluid, IV antibiotics, analgesia → early laparoscopic cholecystectomy (ภายใน 72 ชม. ถึง 1 สัปดาห์ของอาการ) ถ้าพร้อมผ่าตัด · เสี่ยงสูง → percutaneous cholecystostomy (TG18)","<b>ภาพ US นิ่วไม่มีลักษณะอักเสบ</b>: echogenic foci + posterior acoustic shadow เคลื่อนตามท่า, ผนังไม่หนา ไม่มี pericholecystic fluid → <b>symptomatic gallstone (biliary colic)</b> → elective LC","Courvoisier: ถุงน้ำดีคลำได้ ไม่เจ็บ + เหลือง → คิด malignant distal obstruction (periampullary / หัวตับอ่อน)"],
+       kw:["jaundice (sclera)","fever","inspection → auscultation → percussion → palpation","start away from pain","Murphy's sign","compare left side","liver span","guarding / rebound","acute calculous cholecystitis","US: wall ≥ 4 mm (TG18), pericholecystic fluid, sonographic Murphy","symptomatic gallstone → elective LC"],
+       ddx:["Acute cholangitis","Biliary colic","Liver abscess","RLL pneumonia","Right pyelonephritis","Perforated peptic ulcer","Acute hepatitis"],
+       pearls:["ลืมดูตาเหลือง / ลืม Murphy = เสียคะแนนหลัก","biliary colic: ปวด &lt; 6 ชม. ไม่มีไข้ Murphy ลบ · cholecystitis: ปวดนาน + ไข้ + Murphy บวก","เกณฑ์ผนังถุงน้ำดีหนา: TG18 (2018) ≥ 4 mm · TG13 (2013) ≥ 5 mm — ถ้าเขียนตัวเลขให้บอกชื่อแนวทาง · ค่า &gt; 3 mm ที่คีย์ไฟล์บางเคสเขียน (เช่น MDCU76) คือเกณฑ์ผนังปกติทางรังสี ไม่ใช่เกณฑ์ TG — คำตอบคลังแก้เป็น ≥4 mm แล้ว (22 พ.ย. 2026)","MDCU79 RoC ไฟล์ไม่มีเฉลย — Dx symptomatic gallstone ตามที่ผู้จดเขียน"],
+       members:["MDCU67|RoB|3#1","MDCU67|RoB|3#2","MDCU73|RoB|3#1","MDCU73|RoB|3#2","MDCU79|RoC|3#1","MDCU79|RoC|3#2"]},
+      {id:"abd-ureteric-colic", title:"Ureteric colic — ตรวจท้อง + CVA tenderness + ตรวจขาหนีบ / อัณฑะ + investigations",
+       trend:"ปวดบิดเอวร้าวลงขาหนีบ — ตรวจเพื่อแยก peritonitis / AAA / torsion แล้วตอบ investigation",
+       asked:["ชาย 35 ปี ปวดบิดเอวขวาทันทีร้าวลงขาหนีบ → abdominal examination relevant to this patient + explain findings","ชายปวดเอวขวาร้าวลงขาหนีบ (SP บนเตียง) → examine + describe → ตอบคำถามอาจารย์ (investigations)"],
+       flow:["ล้างมือ แนะนำตัว ขออนุญาต · V/S (ไข้) · ท่าทาง","Inspection → auscultation (bowel sound, aortic bruit) → percussion","Palpation light → deep: tenderness ตามแนว ureter, guarding / rebound (แยก appendicitis), pulsatile mass","CVA tenderness ทั้งสองข้าง","ตรวจขาหนีบ + อัณฑะ (torsion, hernia)","สรุป + เสนอ investigation"],
+       pattern:["<b>ท่าทาง</b>: บิดตัวหาท่าสบายไม่ได้ = colic (ต่างจาก peritonitis ที่นอนนิ่ง)","<b>ท้อง soft ไม่มี peritoneal sign</b> (แยก appendicitis) · tenderness ตามแนว ureter · <b>CVA tenderness</b> ข้างที่ปวด (กด / เคาะเบา ๆ ที่มุมซี่โครง 12 กับกระดูกสันหลัง)","ต้องตรวจ <b>ขาหนีบ + อัณฑะ</b> (testicular torsion, hernia; distal ureteric stone ปวดร้าวไปอัณฑะ) และ <b>pulsatile mass / bruit</b> (AAA ในผู้สูงอายุที่ปวดเอวครั้งแรก)","<b>Pain pattern</b>: renal pelvis / upper ureter → ปวดเอว · mid ureter → ร้าวมาหน้าท้อง · distal / UVJ → ร้าวลงขาหนีบ อัณฑะ / labia + urgency, frequency","<b>Investigations</b>: UA (hematuria, pyuria / nitrite), urine culture, CBC, BUN / Cr, serum Ca / uric acid · <b>non-contrast CT KUB (low-dose) = มาตรฐาน</b> สำหรับ acute flank pain (EAU Urolithiasis 2025) · US KUB (hydronephrosis; first-line ในหญิงตั้งครรภ์ / เด็ก) · KUB film ติดตามนิ่วทึบแสง · IVP เมื่อไม่มี CT · stone analysis เมื่อได้นิ่ว"],
+       kw:["restless, cannot lie still","soft abdomen, no peritoneal signs","CVA tenderness","examine groin + testes","exclude AAA","UA hematuria","non-contrast CT KUB","US KUB hydronephrosis"],
+       ddx:["Acute appendicitis","Leaking AAA","Testicular torsion","Acute pyelonephritis","Biliary colic","หญิง: ectopic pregnancy, ovarian torsion"],
+       pearls:["ไม่ตรวจอัณฑะ / ขาหนีบ และไม่นึกถึง AAA = เสียคะแนนส่วน DDx","ตอบ IVP เป็นอันดับแรกทั้งที่มี CT = ไม่ใช่มาตรฐานปัจจุบัน","สถานี MDCU78 RoA ไฟล์ไม่มีเฉลย — checklist ตามมาตรฐานการตรวจท้อง"],
+       members:["MDCU78|RoA|19#1","MDCU68|RoD|3#1","MDCU68|RoD|3#2"]},
+      {id:"abd-bowel-obstruction", title:"Bowel obstruction — ตรวจท้อง + hernia orifices + PR",
+       asked:["Examine a patient presenting with gut obstruction; mention PR and what you expect to find"],
+       flow:["ล้างมือ แนะนำตัว ขออนุญาต · V/S + ภาวะขาดน้ำ","Inspection: distension, scar, visible peristalsis, hernia","Auscultation: ลักษณะ bowel sound","Percussion: tympanic","Palpation: tenderness, signs of strangulation, mass","Hernia orifices ทุกตำแหน่ง","PR + บอกสิ่งที่คาดว่าจะพบ"],
+       pattern:["<b>General</b>: tachycardia, hypotension, ภาวะขาดน้ำ (mucosa แห้ง, skin turgor ลด)","<b>Inspection</b>: distension, <b>แผลผ่าตัดเก่า</b> (adhesion = สาเหตุ SBO ที่พบบ่อยสุดในผู้ใหญ่ที่เคยผ่าตัด), visible peristalsis, ก้อน hernia","<b>Auscultation</b>: high-pitched / tinkling (obstruction ระยะแรก) → เงียบ (ระยะท้าย / ileus / peritonitis)","<b>Percussion</b>: tympanic · <b>Palpation</b>: tenderness, mass · <b>signs of strangulation</b>: เจ็บเฉพาะที่ต่อเนื่อง, guarding, rebound, ไข้, ชีพจรเร็ว","<b>Hernia orifices</b>: inguinal, femoral, umbilical, incisional — obstructed hernia ต้องไม่พลาด","<b>PR ที่คาดว่าจะพบ</b>: rectum ว่าง (complete obstruction), ก้อน (CA rectum), เลือด / มูก (strangulation, intussusception, ischemia), fecal impaction"],
+       kw:["dehydration / vital signs","distension","surgical scar","visible peristalsis","high-pitched / tinkling bowel sounds","tympanic","signs of strangulation","all hernia orifices","PR: empty rectum, mass, blood"],
+       ddx:["Adhesive small bowel obstruction","Obstructed / strangulated hernia","Colorectal cancer (large bowel obstruction)","Volvulus","Paralytic ileus"],
+       pearls:["ลืมตรวจ femoral / inguinal hernia ในผู้ป่วย obstruction = พลาดสาเหตุที่ต้องผ่าตัดด่วน","โจทย์สั่งให้บอกสิ่งที่คาดว่าจะพบใน PR — พูดให้ครบ empty rectum / mass / blood"],
+       members:["MDCU68|RoB|2#1"]}
+    ]},
+    {title:"Breast", sections:[
+      {id:"breast-exam", title:"Breast examination บนหุ่น — checklist ครบ + บรรยายก้อน",
+       trend:"ออกแทบทุกปี มาในชื่อ annual check-up / breast pain / breast lump แต่คะแนนอยู่ที่ checklist เดิม — ขออนุญาต + chaperone + LN",
+       asked:["หญิง 44 ปี annual breast check-up (หุ่น) → perform breast exam + report findings","หญิงเจ็บเต้านม → demonstrate breast exam on the model exactly as on a real patient","หญิง 40 ปี ก้อนเต้านมซ้าย → demonstrate breast exam (SP สวมหุ่น)","Examine the breast model → describe the mass (→ next steps)","Perform a complete breast examination → describe any abnormality (→ TNM จากผลพยาธิ)","Perform a complete breast exam on the model and explain each step","หญิง 44–45 ปีมาตรวจเต้านม → CBE + regional LN บนหุ่น (→ advice)","หญิงมาตรวจเต้านม → demonstrate on the model as if a real patient"],
+       flow:["แนะนำตัว ยืนยันตัวผู้ป่วย อธิบาย ขออนุญาต · ขอ chaperone (ผู้ช่วยหญิง) · ล้างมือ · เปิดเผยถึงเอวทั้งสองข้าง · ถามว่าเจ็บ / มีก้อนข้างไหน","Inspection (นั่ง): แขนแนบลำตัว → ยกแขนเหนือศีรษะ → มือเท้าเอวกดเกร็ง pectoralis → (± โน้มตัวไปข้างหน้า)","ดู: ขนาด / สมมาตร, contour, ผิว (dimpling, peau d'orange, แดง, แผล), หัวนม (retraction, deviation, discharge, eczema / Paget)","Palpation (นอนหงาย มือข้างที่ตรวจไว้ใต้ศีรษะ): ข้างปกติ / ไม่เจ็บก่อน · pads ของ 3 นิ้วกลาง วนวงเล็ก 3 ระดับแรงกด แบบ vertical strip (หรือ spiral / wedge)","ครอบคลุมไหปลาร้า → inframammary fold และ midsternum → midaxillary line รวม axillary tail of Spence และใต้ nipple-areola · กดรอบ areola ดู discharge","พบก้อน: บรรยาย + ทดสอบการยึดติดผิว / pectoralis (เท้าเอวเกร็งแล้วขยับก้อน)","LN (นั่ง พยุงแขนผู้ป่วย): axilla 5 กลุ่ม + supraclavicular + infraclavicular ทั้งสองข้าง","คลุมผ้า / ช่วยใส่เสื้อ ขอบคุณ ล้างมือ → รายงานผล"],
+       pattern:["<b>Inspection 3 ท่าหลัก</b>: arms by side → arms raised → hands pressed on hips (pectoral contraction) ช่วยให้เห็น skin tethering / dimpling ของก้อนที่ยึดติด · ท่าโน้มตัวไปข้างหน้าเสริมในเต้านมใหญ่","<b>Palpation</b>: pads ของนิ้ว 2–4, วงกลมเล็ก, light – medium – deep, vertical strip ครอบคลุมทั้งเต้า + tail of Spence (จุดที่พลาดบ่อย) + retroareolar","<b>Axillary LN 5 กลุ่ม</b>: anterior (pectoral), posterior (subscapular), lateral (humeral), central, apical — คลำขณะพยุงแขนผู้ป่วยให้กล้ามเนื้อคลาย + supraclavicular, infraclavicular","<b>บรรยายก้อน</b>: ข้าง + ตำแหน่ง (quadrant / นาฬิกา + ระยะจากหัวนม) · ขนาด · รูปร่าง · ผิว · ขอบ · consistency · mobility / fixation (ผิวหนัง, pectoralis, chest wall) · กดเจ็บ · LN เช่น 'left breast mass at 2 o'clock, 4 cm from the nipple, 2.5 × 2 cm, hard, irregular, ill-defined, not fixed to skin or chest wall, non-tender; one mobile 1-cm left axillary node'","<b>หุ่น MDCU67 RoA (ไฟล์จดไว้)</b>: ขวาปกติ · ซ้าย mobile mass ที่ upper outer quadrant + fixed mass ที่หัวนม, nipple retraction, peau d'orange, axillary LN → ลักษณะร้าย; peau d'orange = T4b","<b>ลักษณะสงสัยมะเร็ง</b>: แข็ง ขอบไม่ชัด เคลื่อนน้อย / ยึดติด, skin dimpling (Cooper ligament ถูกดึง), peau d'orange (dermal lymphatic obstruction), หัวนมบุ๋มใหม่, bloody discharge, LN โต","<b>เจ็บเต้านม</b>: ตรวจข้างไม่เจ็บก่อน หา mass, mastitis / abscess และแยก chest wall pain"],
+       kw:["consent + chaperone","hand hygiene, expose to waist","inspection: arms by side / raised / hands on hips","skin dimpling, peau d'orange, nipple retraction","normal side first","pads of 3 fingers, 3 pressures","vertical strip","axillary tail","nipple-areola / discharge","fixation to pectoralis","axillary 5 groups","supraclavicular + infraclavicular","describe: site, size, shape, consistency, mobility","cover, thank, wash hands"],
+       ddx:["Fibroadenoma","Breast cyst / fibrocystic change","Carcinoma of breast","Breast abscess / mastitis (เจ็บ แดง ร้อน)"],
+       pearls:["ไม่ขออนุญาต / ไม่เรียกพยาบาลมาเป็น chaperone = เสียคะแนน (โน้ตในไฟล์ MDCU67 RoD)","ลืมคลำ axillary และ supraclavicular LN (ลายมือในไฟล์ MDCU67 RoA)","ดูแค่ท่าเดียว / คลำไม่ครบ axillary tail / ตรวจข้างเดียว","ยึดติด pectoralis อย่างเดียว <b>ไม่ใช่</b> T4 — T4a ต้องยึด chest wall (ซี่โครง, intercostal, serratus anterior) (AJCC 8th)"],
+       members:["MDCU67|RoA|3#1","MDCU67|RoD|3#1","MDCU66|RoB|12#1","MDCU66|RoD|7#1","MDCU65|RoA|9#1","MDCU65|RoC|5#1","MDCU72|RoA|4#1","MDCU68|RoC|3#1","MDCU78|RoA|20#1","MDCU77|RoD|9#1","MDCU76|RoC|4#1"]},
+      {id:"breast-screening-advice", title:"ตรวจเต้านมปกติ → คำแนะนำ breast cancer screening",
+       trend:"MDCU76–78 ต่อจากการตรวจเต้านมเสมอ: หญิง 44–45 ปี ความเสี่ยงเฉลี่ย ผลตรวจปกติ → ให้คำแนะนำ",
+       asked:["หญิง 45 ปี มีบุตรคนแรกอายุ 25 ไม่เคยใช้ยาคุม → CBE บนหุ่น → give appropriate advice","หญิง 45 ปี บุตรคนแรกอายุ 25 ไม่มีประวัติครอบครัว ผลตรวจปกติ → give advice","หญิง 44 ปี breast check-up ตรวจเต้านม + LN ปกติ → give appropriate advice"],
+       flow:["แจ้งผลตรวจปกติ","ประเมินความเสี่ยง (average vs high risk)","แนะนำ screening mammogram + ช่วงเวลา","Breast self-awareness / BSE","อาการที่ต้องกลับมาทันที","ลดปัจจัยเสี่ยง · นัดครั้งต่อไป"],
+       pattern:["<b>ประเมินความเสี่ยง</b>: average risk = ไม่มีญาติสายตรงเป็นมะเร็งเต้านม / รังไข่, ไม่มี BRCA, ไม่เคยฉายแสงหน้าอก, บุตรคนแรกก่อน 30 ปี · risk factors: อายุ, ประวัติครอบครัว / BRCA, early menarche, late menopause, nulliparity หรือบุตรคนแรก &gt; 30 ปี, HRT, อ้วนหลังหมดประจำเดือน, แอลกอฮอล์, chest radiation","<b>Screening mammogram (average risk) — แต่ละแนวทางต่างกัน</b>: USPSTF 2024 ทุก 2 ปี อายุ 40–74 · ACS อายุ 40–44 เริ่มได้ตามความสมัครใจ, 45–54 ทุกปี, ≥ 55 ทุก 1–2 ปี · ACR 2023 ทุกปีตั้งแต่ 40 (ประเมินความเสี่ยงภายในอายุ 25) · <b>เฉลยไฟล์ MDCU76 RoC: อายุ &gt; 40 ปี mammogram ทุก 1 ปี (นัดปีหน้า) + self breast exam ทุกเดือน</b>","<b>Breast self-awareness / BSE</b> เดือนละครั้ง ช่วงหลังประจำเดือนหมดไม่กี่วัน (เต้านมไม่คัดตึง) · หมดประจำเดือนแล้วกำหนดวันที่เดิมทุกเดือน","<b>กลับมาทันที</b>ถ้า: คลำได้ก้อน, หัวนมบุ๋มใหม่ / มีเลือดหรือน้ำไหล, ผิวเปลี่ยน (บุ๋ม แดง เปลือกส้ม), ก้อนรักแร้","<b>ลดความเสี่ยง</b>: คุมน้ำหนัก ออกกำลังกาย ลดแอลกอฮอล์ หลีกเลี่ยง HRT ระยะยาว · ให้นมบุตรช่วยลดความเสี่ยง","<b>high risk</b> (ญาติสายตรง, BRCA, chest radiation อายุน้อย) → เริ่ม screening เร็วขึ้น + breast MRI ทุกปี"],
+       kw:["normal findings","average risk","screening mammogram age ≥ 40","interval (annual vs biennial, name the guideline)","monthly breast self-awareness / BSE","warning signs → return","lifestyle: weight, exercise, alcohol","high risk → earlier + MRI"],
+       pearls:["ตรวจปกติแล้วสั่ง mammogram / US 'ทันทีเพื่อหาก้อน' = ผิดประเด็น โจทย์ต้องการตารางการคัดกรอง","บอกแค่ BSE ไม่พูดถึง mammogram = ไม่ครบ","ระยะห่าง mammogram ต่างกันตามแนวทาง — บอกชื่อแนวทางที่ใช้ (ไฟล์เก่าตอบทุกปี)"],
+       members:["MDCU78|RoA|20#2","MDCU77|RoD|9#2","MDCU76|RoC|4#2"]},
+      {id:"breast-triple-tnm", title:"ก้อนสงสัยมะเร็งเต้านม → triple assessment และ TNM จากผลพยาธิ (AJCC 8th) + work-up",
+       trend:"ต่อยอดจากการตรวจหุ่น — ถาม next step ของก้อนที่คลำได้ หรือให้ผลพยาธิหลังผ่าตัดแล้วถาม stage + ตรวจเพิ่ม",
+       asked:["Examine the breast model → describe the mass → outline the next steps in management","Breast exam → ให้ผลพยาธิ MRM ซ้าย: invasive carcinoma NST 2.5 cm, margins free, metastatic carcinoma 3 / 15 axillary nodes → TNM stage → further investigations"],
+       flow:["Clinical examination (บรรยายก้อน + LN)","Imaging ตามอายุ","Tissue diagnosis: core needle biopsy + receptor","ยืนยันมะเร็ง → staging ตามระยะ","MDT: ผ่าตัด + systemic + radiotherapy","(ถ้าให้ผลพยาธิ) → pT, pN, cM → stage group → ส่งตรวจเพิ่ม"],
+       pattern:["<b>Triple assessment</b> = clinical + imaging + pathology","<b>Imaging (ACR 2022 palpable mass)</b>: &lt; 30 ปี → US · 30–39 ปี → US หรือ diagnostic mammogram / DBT · ≥ 40 ปี → diagnostic mammogram / DBT + US","<b>Tissue</b>: US-guided <b>core needle biopsy</b> + ER, PR, HER2, Ki-67 · FNA อย่างเดียวแยก invasive vs in situ ไม่ได้และไม่ได้ receptor · axillary node สงสัย → US + FNA / core","<b>AJCC 8th — T</b>: T1 ≤ 2 cm · T2 &gt; 2–5 cm · T3 &gt; 5 cm · T4a chest wall · T4b skin (ulcer, satellite nodule, edema รวม peau d'orange) · T4c = a + b · T4d inflammatory","<b>pN</b>: pN1a 1–3 axillary LN · pN2a 4–9 · pN3a ≥ 10 หรือ infraclavicular (level III)","<b>Anatomic stage</b>: IIA = T0–1 N1 / T2 N0 · <b>IIB = T2 N1 / T3 N0</b> · IIIA = T0–2 N2 / T3 N1–2 · IIIB = T4 N0–2 · IIIC = any T N3 · IV = M1","<b>คำตอบเคสนี้</b>: <b>pT2 (2.5 cm) pN1a (3 / 15) cM0 → anatomic stage IIB</b> · prognostic stage (AJCC 8th) ต้องใช้ grade + ER, PR, HER2 เพิ่ม","<b>Further investigations</b>: ER, PR, HER2 (IHC ± ISH), Ki-67, grade · CBC, LFT (ALP), Ca · mammogram ข้างตรงข้ามถ้ายังไม่ได้ทำ · systemic staging (NCCN): stage I–II ที่ไม่มีอาการไม่ต้องทำ CT / bone scan เป็น routine · stage III หรือมีอาการ / ALP สูง → CT chest-abdomen-pelvis + bone scan หรือ FDG PET-CT · germline BRCA testing ถ้ามีข้อบ่งชี้ (อายุน้อย, triple-negative, ประวัติครอบครัว)"],
+       kw:["triple assessment","age-based imaging (US / mammogram)","core needle biopsy","ER, PR, HER2, Ki-67","pT2","pN1a (1–3 nodes)","cM0","stage IIB","prognostic stage needs grade + receptors","staging work-up per stage"],
+       pearls:["pN นับจำนวนต่อมที่บวก ไม่ใช่สัดส่วน (3 / 15 = 3 ต่อม = pN1a)","เขียน TNM ให้ครบสามตัวแล้วตามด้วย stage group","ส่ง FNA เป็น tissue diagnosis หลัก = ไม่ได้ receptor และแยก invasive ไม่ได้"],
+       members:["MDCU66|RoB|12#2","MDCU66|RoD|7#2","MDCU66|RoD|7#3"]},
+      {id:"nipple-discharge", title:"Bloody nipple discharge — ตรวจ discharge + intraductal papilloma",
+       asked:["หญิงมีเลือดออกจากหัวนมขวา → breast exam on the manikin รวมการตรวจ nipple discharge → most likely Dx + investigations"],
+       flow:["แนะนำตัว ขออนุญาต chaperone เปิดเผยถึงเอว","Inspection 3–4 ท่า: ผิว หัวนม (retraction, eczema / Paget, คราบเลือด)","Palpation ทั้งเต้า + axillary tail + ใต้ areola","ตรวจ discharge: กดรอบ areola ทีละตำแหน่งตามเข็มนาฬิกาหา trigger point","LN axilla, supraclavicular, infraclavicular · เทียบอีกข้าง","Dx + investigations"],
+       pattern:["<b>บรรยาย discharge</b>: ข้างเดียว / สองข้าง · ท่อเดียว / หลายท่อ · ออกเอง / ต้องบีบ · สี (เลือด, serous, น้ำนม, เขียว) · trigger point (ตำแหน่งนาฬิกา) · ก้อนใต้ areola","<b>Pathologic discharge</b> = ออกเอง ข้างเดียว ท่อเดียว เป็นเลือดหรือใส (serous) หรือมีก้อนร่วม → ต้อง work-up · physiologic = สองข้าง หลายท่อ ต้องบีบ สีขาวขุ่น / เขียว","<b>Dx</b>: pathologic nipple discharge — สาเหตุพบบ่อยที่สุดของ bloody single-duct discharge = <b>intraductal papilloma</b> · ต้องแยกมะเร็ง (DCIS / papillary carcinoma) ซึ่งพบได้ส่วนน้อย","<b>Imaging (ACR 2022)</b>: &lt; 30 ปี → US ก่อน · 30–39 ปี → US หรือ diagnostic mammogram / DBT · ≥ 40 ปี → diagnostic mammogram / DBT + US · ไม่พบรอยโรค → MRI หรือ ductography (galactography)","<b>Discharge cytology ไม่ช่วยตัดมะเร็ง</b> · พบรอยโรค → US-guided core biopsy · ไม่พบแต่ยังออกต่อเนื่อง → microdochectomy (single duct excision) / major duct excision เพื่อวินิจฉัยและรักษา"],
+       kw:["unilateral, single duct, spontaneous, bloody","trigger point around areola","subareolar mass","intraductal papilloma","exclude DCIS / papillary carcinoma","US ± diagnostic mammogram","MRI / ductography","core biopsy","microdochectomy"],
+       ddx:["Intraductal papilloma","DCIS / papillary carcinoma","Duct ectasia","Fibrocystic change"],
+       pearls:["ตอบ duct ectasia / fibrocystic เป็นอันดับแรกใน bloody single-duct discharge = ไม่ใช่","ข้อย่อย Dx + investigations ของสถานีนี้ธนาคารเติมเอง (ไฟล์ต้นฉบับมีแค่การตรวจ)"],
+       members:["MDCU65|RoB|6#1","MDCU65|RoB|6#2"]}
+    ]},
+    {title:"Anorectal — bleeding per rectum", sections:[
+      {id:"pr-proctoscopy", title:"PR + proctoscopy ในผู้ป่วยถ่ายเป็นเลือด (technique + ขอเครื่องมือเพิ่ม)",
+       trend:"สถานี SP + หุ่น PR + ผ้าคลุม — ทำ PR ให้ครบขั้นตอน แล้วขอ proctoscope (internal hemorrhoid คลำไม่ได้)",
+       asked:["ถ่ายเป็นเลือด 1 เดือน (SP + หุ่น + ผ้าคลุม) → PE to reach a provisional Dx → state the additional examination you need (ขอเครื่องมือได้)","ชาย 70 ปี ถ่ายเป็นเลือด + ก้อนยื่นตอนถ่ายกลับเข้าเอง → DRE (ขอเครื่องมือเพิ่มได้)","SP ปวดทวาร + มีก้อน → ซักประวัติสั้น ๆ → demonstrate PR บนหุ่น","ผู้ป่วยต่างชาติพูดไทยได้ painless bleeding per rectum → เตรียมและจัดท่าที่ OPD → DRE + report","ถ่ายเป็นเลือดหลังถ่าย → DRE พร้อมรายงานผลระหว่างตรวจ อธิบายและบอกท่านอน","Bleeding per rectum → perform the examination on the model","อายุ 50 ปีถ่ายเป็นเลือด ~1 ปี → demonstrate DRE (มี proctoscope ให้)","Demonstrate PR for a patient with bleeding per rectum"],
+       flow:["แนะนำตัว ยืนยันชื่อ อธิบาย ขอ consent · มี chaperone · (ภาพรวม: V/S, ซีด, ตรวจท้อง, LN ขาหนีบ)","จัดท่า left lateral (Sims) เข่างอชิดอก ก้นชิดขอบเตียง · คลุมผ้าเปิดเฉพาะก้น · ไฟส่อง","สวมถุงมือ · แหวกก้นดู perianal: skin tag, external hemorrhoid, fissure, fistula opening · ให้เบ่งดู prolapse","หล่อลื่น บอกก่อนสอด วางนิ้วที่ anal verge กดเบา ๆ ให้ sphincter คลายแล้วสอด","anal tone + ให้ขมิบ (squeeze) → กวาดนิ้ว 360° หาก้อน / จุดเจ็บ → prostate / cervix","ถอนนิ้วดูถุงมือ: เลือดสด / คล้ำ, มูก, สีอุจจาระ","Proctoscopy: หล่อลื่น ใส่พร้อม obturator ชี้ไปทางสะดือแล้วหันไปด้านหลัง → ถอด obturator → ส่องไฟดู mucosa / hemorrhoid ขณะถอยกล้อง ให้เบ่งดูการยื่น","เช็ดทำความสะอาด ช่วยใส่กางเกง ขอบคุณ ล้างมือ → รายงาน + Dx"],
+       pattern:["<b>Additional examination</b> = <b>proctoscopy (anoscopy)</b> — internal hemorrhoid นุ่ม ยุบได้ คลำด้วย DRE ไม่ได้ (ยกเว้น thrombosed) · ± rigid / flexible sigmoidoscopy · อายุมาก / red flag → colonoscopy","<b>ตัวอย่างรายงาน</b>: 'Perianal: no skin tag, fissure or external opening; no prolapse on straining. Anal tone and squeeze normal. No rectal mass or tenderness. Prostate normal size. Glove: fresh blood, no mucus.'","<b>รายงานระหว่างตรวจ</b> (บางสถานีสั่ง) — พูดสิ่งที่เห็น / คลำได้ทุกขั้น","ผู้ป่วยต่างชาติ / ไม่คุ้น: อธิบายขั้นตอน + ท่านอนเป็นภาษาง่ายก่อนเริ่ม ขออนุญาตทุกครั้งก่อนสัมผัส","ปวดมากจนตรวจไม่ได้ → ไม่ฝืน ตรวจภายใต้ยาชา / EUA"],
+       kw:["consent + chaperone","left lateral (Sims), drape","inspect perianal + strain","lubricate, warn before inserting","anal tone + squeeze","360° sweep","inspect glove","proctoscope with obturator","inspect while withdrawing","clean patient, report"],
+       ddx:["Internal hemorrhoids","Anal fissure","Anorectal / rectal cancer","Rectal polyp","Proctitis / IBD"],
+       pearls:["ไม่ขอ proctoscope ในสถานีที่บอกว่าขอเครื่องมือได้ = เสียคะแนนข้อย่อย 'additional examination'","สอดนิ้วโดยไม่ดู perianal ก่อน / ไม่ดูถุงมือ / ไม่เช็ดทำความสะอาดให้ผู้ป่วย","ลืมถอด obturator หรือดู mucosa ตอนสอดเข้าแทนตอนถอย"],
+       members:["MDCU77|RoB|3#1","MDCU77|RoB|3#2","MDCU77|RoC|9#1","MDCU76|RoD|10#1","MDCU75|RoD|6#1","MDCU74|RoA|6#1","MDCU72|RoC|1#1","MDCU71|RoB|1#1","MDCU70|RoB|3#1"]},
+      {id:"hemorrhoid-dx", title:"Internal hemorrhoids — grading และ prolapsed thrombosed hemorrhoid จากภาพ",
+       trend:"หลังทำ PR อาจารย์ให้ภาพรอบทวาร / ภาพจาก proctoscope — ส่วนใหญ่เป็น prolapsed thrombosed internal hemorrhoid",
+       asked:["อาจารย์ให้ภาพสิ่งที่พบ → Dx (ถ่ายเป็นเลือด 1 เดือน)","ก้อนยื่นตอนถ่ายแล้วกลับเข้าเอง → Dx","ภาพรอบทวาร: ก้อนหลายก้อนยื่นรอบทวาร สีม่วงคล้ำ บวม → Dx","ภาพจาก proctoscope: internal hemorrhoid หลายหัวสีม่วงคล้ำบวม → Dx","ภาพจากการตรวจ → describe the abnormality + Dx"],
+       flow:["บรรยายภาพ: ตำแหน่ง (นาฬิกา), จำนวน, คลุมด้วย mucosa หรือผิวหนัง, สี, บวม, ยื่นออกนอกทวาร","บอก grade ตามประวัติการยื่น","Dx เต็ม (prolapsed / thrombosed / grade)","(± แนวทางรักษา)"],
+       pattern:["<b>Goligher grade</b>: I เลือดออก ไม่ยื่น · II ยื่นตอนเบ่ง กลับเข้าเอง · III ยื่นต้องดันกลับ · IV ดันไม่กลับ / ยื่นค้าง (รวม incarcerated / thrombosed)","<b>Primary positions</b>: 3, 7, 11 นาฬิกา (lithotomy) = left lateral, right anterior, right posterior","<b>Internal</b> = เหนือ dentate line คลุมด้วย mucosa เลือดออกไม่เจ็บ · <b>external</b> = ใต้ dentate line คลุมด้วย anoderm เจ็บมากเมื่อ thrombose","<b>ภาพก้อนหลายก้อนสีม่วงคล้ำ บวม คลุม mucosa ยื่นค้างนอกทวาร</b> → <b>prolapsed thrombosed (strangulated) internal hemorrhoids, grade IV</b> (เฉลยไฟล์ MDCU77 RoB: prolapsed thrombosed internal hemorrhoid) ± circumferential","<b>ยื่นตอนถ่ายแล้วกลับเอง</b> → <b>internal hemorrhoid grade II</b> (เฉลยไฟล์ MDCU77 RoC)","<b>รักษา (ASCRS 2024)</b>: ทุก grade เริ่มด้วย fiber + น้ำ + ไม่เบ่ง · grade I–III ที่ยังมีอาการ → office procedure (rubber band ligation ดีสุด, sclerotherapy, infrared coagulation) · grade III–IV / ล้มเหลว → excisional hemorrhoidectomy · prolapsed thrombosed / incarcerated → urgent excisional hemorrhoidectomy (หรือ conservative ถ้าอาการดีขึ้น) — ห้าม RBL ในก้อนที่ thrombose","อายุมาก / red flag (ชาย 70 ปีถ่ายเป็นเลือด) → colonoscopy ก่อนสรุปว่าเลือดมาจากริดสีดวง"],
+       kw:["internal hemorrhoid","Goligher grade I–IV","prolapsed","thrombosed / strangulated","mucosa-covered, purple, edematous","3, 7, 11 o'clock","grade II = reduces spontaneously","excisional hemorrhoidectomy","RBL for grade I–III"],
+       ddx:["Rectal prolapse (full-thickness: concentric circular folds vs hemorrhoid ที่เป็นก้อนแยกและรอยพับแนวรัศมี)","Thrombosed external hemorrhoid","Anorectal cancer","Hypertrophied anal papilla / polyp","Condyloma"],
+       pearls:["ตอบแค่ 'hemorrhoid' ไม่บอก internal / prolapsed / thrombosed / grade = ได้คะแนนไม่เต็ม","สับสน rectal prolapse (วงซ้อนเป็นวงกลม) กับ prolapsed piles (ก้อนแยก)","ไฟล์ MDCU74 RoA และ 76 RoD ไม่มีเฉลย — Dx ตามภาพที่ผู้จดบรรยาย"],
+       members:["MDCU77|RoB|3#3","MDCU77|RoC|9#2","MDCU76|RoD|10#2","MDCU75|RoD|6#2","MDCU74|RoA|6#2"]},
+      {id:"rectal-bleed-colonoscopy", title:"ถ่ายเป็นเลือดเรื้อรังแต่ตรวจปกติ (อายุ 50) → advice: colonoscopy",
+       asked:["อายุ 50 ปี ถ่ายเป็นเลือด ~1 ปี → demonstrate DRE + proctoscopy → ผลปกติทั้งหมด → give advice"],
+       flow:["แจ้งผลตรวจ PR + proctoscopy ปกติ","อธิบายว่ายังตัดแหล่งเลือดที่สูงกว่าไม่ได้","แนะนำ colonoscopy","คำแนะนำการขับถ่าย + อาการที่ต้องกลับมา"],
+       pattern:["<b>DRE + proctoscopy ปกติไม่ได้ตัด colorectal cancer / polyp</b> ที่อยู่สูงกว่า → <b>colonoscopy</b> (ดูทั้ง colon ไม่ใช่แค่ sigmoidoscopy)","ข้อบ่งชี้ colonoscopy ในผู้ป่วยเลือดออกทางทวาร (ASCRS 2024): หาแหล่งเลือดที่ชัดเจนไม่ได้, ปวดท้อง, ท้องผูกใหม่ / ขับถ่ายเปลี่ยน, ยังมี hematochezia หลังรักษาริดสีดวง + อายุถึงเกณฑ์คัดกรอง, ซีด, น้ำหนักลด, ประวัติครอบครัว CRC","คำแนะนำร่วม: อาหารกากใยสูง ดื่มน้ำ ไม่เบ่ง ไม่นั่งส้วมนาน","กลับมาทันทีถ้าเลือดออกมาก หน้ามืด ซีด น้ำหนักลด"],
+       kw:["normal findings do not exclude proximal lesion","colonoscopy","colorectal cancer / polyp","fiber, fluid, avoid straining","red flags → return"],
+       pearls:["บอกว่า 'ปกติ กลับบ้านได้' โดยไม่ส่ง colonoscopy = พลาดประเด็นหลัก"],
+       members:["MDCU71|RoB|1#2"]},
+      {id:"anal-fissure", title:"Anal fissure — วินิจฉัยด้วยการดู ไม่ฝืน PR",
+       asked:["ผู้ป่วยถ่ายเป็นเลือด (SP นอนบนเตียง + หุ่น PR) → demonstrate PE → ภาพรอยโรค → Dx"],
+       flow:["แนะนำตัว ขออนุญาต อธิบาย · left lateral","แหวก buttock เบา ๆ ดู anal verge — fissure เห็นได้จากการดู","ถ้าเจ็บมาก ไม่ฝืน DRE / proctoscopy → บอกว่าจะตรวจภายใต้ยาชา / EUA ถ้าจำเป็น","ดูภาพ → Dx"],
+       pattern:["<b>Anal fissure</b> = แผลฉีกตามยาวใน anoderm ใต้ dentate line ส่วนใหญ่อยู่ <b>posterior midline</b> (anterior midline พบได้โดยเฉพาะหญิง) · ประวัติ: ปวดแสบมากขณะ / หลังถ่าย + เลือดสดเล็กน้อย","<b>วินิจฉัยด้วยการดู</b> — sphincter spasm ทำให้ PR / proctoscopy เจ็บมาก ไม่ควรฝืน","<b>Acute</b> &lt; 6 สัปดาห์ (ASCRS 2023) · <b>chronic</b>: sentinel pile (skin tag) ที่ขอบนอก + hypertrophied anal papilla ด้านใน + เห็น internal sphincter fibers ที่ฐานแผล","<b>ตำแหน่งผิดปกติ</b> (lateral / หลายแผล) → คิด Crohn's disease, HIV, syphilis, TB, malignancy (ASCRS 2023)"],
+       kw:["gentle inspection by parting buttocks","do not force DRE if very painful","EUA if needed","posterior midline fissure","sentinel pile","chronic: hypertrophied papilla, exposed sphincter fibers"],
+       ddx:["Hemorrhoids","Perianal abscess / fistula","Crohn's disease (atypical fissure)","Anal cancer"],
+       pearls:["ฝืนสอดนิ้วในผู้ป่วยที่เจ็บมาก = เสียคะแนนส่วน patient care","fissure นอก midline อย่าตอบ idiopathic fissure ทันที"],
+       members:["MDCU69|RoA|3#1","MDCU69|RoA|3#2"]}
+    ]},
+    {title:"Neurological examination", sections:[
+      {id:"motor-myotome", title:"Motor examination 4 extremities — ระบุ muscle + nerve root (myotome)",
+       trend:"สั่งให้ตรวจ motor ทั้งแขนขาและพูดชื่อกล้ามเนื้อ + root ขณะตรวจแต่ละท่า",
+       asked:["Demonstrate the motor examination of upper and lower extremities on the SP; name the muscle and nerve root as you test each movement","Examine the motor system; state the muscle and the nerve root that supplies it for each test"],
+       flow:["แนะนำตัว ขออนุญาต เปิดเผยแขนขา จัดท่า","Inspection: muscle bulk / wasting, fasciculation, abnormal movement","Tone: passive ROM แขนและขา","Power (MRC 0–5) เทียบซ้าย-ขวา — ยึด proximal ของข้อไว้ ต้านแรงที่ distal · พูด movement – muscle – root ทุกท่า","(ต่อด้วย reflexes ถ้าสั่ง) · ขอบคุณ สรุปผล"],
+       pattern:["<b>ISNCSCI key muscles</b>: C5 elbow flexion (biceps) · C6 wrist extension (ECRL / ECRB) · C7 elbow extension (triceps) · C8 finger flexion (FDP นิ้วกลาง / hand grip) · T1 little finger abduction (abductor digiti minimi) · L2 hip flexion (iliopsoas) · L3 knee extension (quadriceps femoris) · L4 ankle dorsiflexion (tibialis anterior) · L5 great toe extension (extensor hallucis longus) · S1 ankle plantarflexion (gastrocnemius / soleus) · ตรวจ voluntary anal contraction (S4–5) ร่วมด้วย (ไม่นับเป็น key muscle)","<b>ท่าที่ใช้ในคลินิกเพิ่ม</b>: C4 shoulder shrug (trapezius / levator scapulae, C3–4) · C5 shoulder abduction (deltoid) · C7 wrist flexion, finger extension · T1 finger abduction (dorsal interossei)","<b>เฉลยไฟล์ MDCU66 RoC</b>: C4 rhomboid · C5 deltoid · C6 biceps, wrist extensor · C7 triceps · C8 hand grip · T1 abductor digiti minimi · L2 iliopsoas · L3 quadriceps femoris · L4 tibialis anterior · L5 extensor hallucis longus · S1 gastrocnemius","<b>MRC</b>: 0 ไม่ขยับ · 1 flicker · 2 ขยับได้เมื่อไม่มีแรงโน้มถ่วง · 3 ต้านแรงโน้มถ่วงได้ · 4 ต้านแรงได้บางส่วน · 5 ปกติ"],
+       kw:["inspection: bulk, fasciculation","tone","MRC 0–5","compare both sides","stabilize proximal joint","C5 biceps / deltoid","C6 wrist extensors","C7 triceps","C8 finger flexors","T1 abductor digiti minimi / interossei","L2 iliopsoas","L3 quadriceps","L4 tibialis anterior","L5 EHL","S1 gastrocnemius"],
+       pearls:["C4 ในไฟล์ตอบ rhomboid (dorsal scapular n., C5 ± C4) — ท่าที่ใช้ตรวจ C4 ทั่วไปคือ shoulder shrug · ตอบได้ทั้งสองแบบถ้าบอกเหตุผล","T1 = abductor digiti minimi ตรงกับ ISNCSCI (finger abduction / dorsal interossei ก็ใช้ได้)","ลืมพูด root หรือ muscle ในบางท่า / ไม่เทียบสองข้าง / ไม่ stabilize ข้อ"],
+       members:["MDCU67|RoC|3#1","MDCU66|RoC|3#1"]},
+      {id:"reflex-dtr-babinski", title:"Reflexes — deep tendon reflexes และ plantar response (Babinski sign)",
+       asked:["Examine the deep tendon reflexes of this patient","อาจารย์สั่งให้ขูดใต้ฝ่าเท้า → ชื่อการตรวจ → ทำ + บอกผล + แปลผล"],
+       flow:["แนะนำตัว ขออนุญาต จัดท่าผ่อนคลาย เปิดบริเวณตรวจ","จับ reflex hammer ปลายด้าม เหวี่ยงจากข้อมือ เทียบซ้าย-ขวาทีละตำแหน่ง","Biceps → brachioradialis → triceps → knee → ankle","ไม่ได้ reflex → reinforcement (Jendrassik)","Plantar response + clonus","รายงานเกรด + การแปลผล"],
+       pattern:["<b>DTR + root</b>: biceps C5–6 (เคาะนิ้วโป้งที่วางบนเอ็น) · brachioradialis C5–6 (เหนือ radial styloid) · triceps C7–8 (เหนือ olecranon) · knee L3–4 (patellar tendon ขณะห้อยขา) · ankle S1 (Achilles ขณะดันปลายเท้าขึ้นเล็กน้อย)","<b>Grading</b>: 0 absent · 1+ diminished · 2+ normal · 3+ brisker than normal · 4+ very brisk with clonus · รายงานเช่น 'DTR 2+ all, symmetrical, plantar flexor, no clonus'","hyperreflexia + clonus = UMN · hypo / areflexia = LMN, root, peripheral neuropathy · ความไม่สมมาตรมีความหมายกว่าค่าสัมบูรณ์","<b>Plantar reflex — Babinski sign</b> (เฉลยไฟล์ MDCU79 RoC: Babinski): ใช้ของปลายทู่ลากจาก heel ตามขอบนอกฝ่าเท้า แล้วโค้งไปทาง base ของนิ้วโป้งเท้าช้า ๆ ทั้งสองข้าง","<b>แปลผล</b>: นิ้วเท้างอลง = flexor plantar (Babinski negative) ปกติ · นิ้วโป้งกระดกขึ้น ± นิ้วอื่นกาง = extensor plantar (Babinski positive) = UMN / corticospinal tract lesion · ทารก &lt; 1–2 ปี บวกได้ปกติ","Equivalent signs: Chaddock (ขอบนอกหลังเท้า), Oppenheim (ลากหน้าแข้ง), Gordon (บีบน่อง) · Hoffmann = UMN ของแขน"],
+       kw:["hold hammer at end, swing from wrist","compare both sides","biceps C5–6","brachioradialis C5–6","triceps C7–8","knee L3–4","ankle S1","Jendrassik reinforcement","grade 0–4+","plantar reflex / Babinski sign","lateral sole heel → ball of foot","extensor plantar = UMN lesion"],
+       pearls:["เคาะหลายครั้งรัว ๆ หรือไม่เทียบสองข้าง","ลากกลางฝ่าเท้าแทนขอบนอก / แรงเกินจนเกิด withdrawal","ลืมบอกว่า Babinski บวกในทารกเป็นปกติ"],
+       members:["MDCU66|RoB|3#1","MDCU79|RoC|22#1","MDCU79|RoC|22#2"]},
+      {id:"gcs-calc", title:"Glasgow Coma Scale — คำนวณจาก scenario (best motor response)",
+       asked:["ลืมตาเมื่อเรียกชื่อ พูดเป็นประโยคแต่สับสน ทำตามสั่งได้ → GCS","หลับตาไม่ลืม ครางอืออา แขนซ้าย extension (decerebrate) ต่อความเจ็บ แขนขวา withdraw → GCS"],
+       flow:["แยก E, V, M ทีละหมวด","M ใช้ best response ของข้างที่ดีกว่า","รวมคะแนน + จัดความรุนแรง","บันทึก lateralizing sign แยก"],
+       pattern:["<b>E</b>: 4 spontaneous · 3 to sound / voice · 2 to pressure / pain · 1 none","<b>V</b>: 5 oriented · 4 confused · 3 inappropriate words · 2 incomprehensible sounds · 1 none","<b>M</b>: 6 obeys · 5 localizes · 4 normal flexion / withdrawal · 3 abnormal flexion (decorticate) · 2 extension (decerebrate) · 1 none","<b>Scenario 1</b>: E3 V4 M6 = <b>13</b> (mild TBI 13–15)","<b>Scenario 2</b>: E1 V2 M4 = <b>7</b> — ใช้ withdrawal ของแขนขวา (best) ไม่ใช่ extension ของแขนซ้าย · severe TBI (≤ 8) → definitive airway (ATLS 10th)","ความรุนแรง: mild 13–15 · moderate 9–12 · severe 3–8 · การตอบสนองต่างกันสองข้าง = lateralizing sign"],
+       kw:["E3 V4 M6 = 13","E1 V2 M4 = 7","best motor response","GCS ≤ 8 → intubate","lateralizing sign"],
+       pearls:["ใช้ motor ข้างที่แย่กว่า (M2) → ได้ 5 = ผิด","สับสน V4 confused กับ V3 inappropriate words"],
+       members:["MDCU79|RoC|18#1","MDCU79|RoC|18#2"]}
+    ]},
+    {title:"Head & neck", sections:[
+      {id:"thyroid-neck-mass", title:"Thyroid nodule / ก้อนที่คอ — thyroid examination + thyroid status + US / FNA",
+       asked:["SP มีก้อนที่คอด้านหน้า → examine the thyroid gland + assess thyroid status → describe findings","ก้อนที่คอ TFT ปกติ คลำ LN ไม่ได้ → examine the neck mass → name 2 investigations"],
+       flow:["แนะนำตัว ขออนุญาต · นั่ง เปิดคอถึงไหปลาร้า · เตรียมแก้วน้ำ","Inspection ด้านหน้า: ก้อน, แผลเป็น, เส้นเลือดดำโป่ง → จิบน้ำแล้วกลืน → แลบลิ้น","Palpation จากด้านหลัง (ก้มคอเล็กน้อย): isthmus → แต่ละ lobe ขณะกลืน · คลำขอบล่าง","ตำแหน่ง trachea · cervical LN ทุกกลุ่ม","Percussion sternum (retrosternal) · auscultation bruit · Pemberton sign","Thyroid status: มือ, ชีพจร, ตา, reflex, proximal myopathy","สรุปผล → investigations"],
+       pattern:["<b>ก้อนขยับขึ้นตามการกลืน</b> = ติด pretracheal fascia (thyroid / larynx) · <b>ขยับตามการแลบลิ้น</b> = thyroglossal duct cyst","<b>บรรยาย</b>: ตำแหน่ง (lobe ไหน), ขนาด, ผิว, consistency, ก้อนเดี่ยว / หลายก้อน, กดเจ็บ, ขยับตามการกลืน, คลำขอบล่างได้หรือไม่, trachea, LN เช่น 'solitary right thyroid nodule ~2.5 cm, smooth, firm, non-tender, moves with swallowing, lower border palpable, trachea central, no lymphadenopathy, clinically euthyroid'","<b>Thyroid status</b>: มือ (tremor, อุ่นชื้น), ชีพจร (rate, AF), ตา (lid retraction, lid lag, exophthalmos, ophthalmoplegia), reflex (brisk / delayed relaxation), proximal myopathy","<b>Investigations (ATA 2015)</b>: TSH ก่อน — TSH ต่ำ → radionuclide scan (hot nodule ไม่ต้อง FNA) · TSH ปกติ / สูง → <b>US thyroid + neck</b> (ATA pattern / ACR TI-RADS, LN) → <b>FNA</b> ตามขนาด + pattern → <b>Bethesda (2023)</b> I–VI","เกณฑ์ FNA (ATA 2015): high / intermediate suspicion ≥ 1 cm · low suspicion ≥ 1.5 cm · very low ≥ 2 cm (หรือติดตาม) · purely cystic ไม่ต้อง FNA","<b>คำตอบ 2 investigations</b> เมื่อ TFT ปกติ: <b>US thyroid / neck + FNA</b> (ไม่ต้อง thyroid scan)","ลักษณะสงสัยมะเร็ง: แข็ง ยึดติด โตเร็ว เสียงแหบ LN โต ประวัติฉายแสงที่คอ อายุน้อยหรือสูงอายุ ชาย"],
+       kw:["seated, expose neck, glass of water","swallow → moves up","tongue protrusion","palpate from behind","isthmus + both lobes","lower border / retrosternal","trachea position","cervical LN","bruit, Pemberton","thyroid status: hands, pulse, eyes, reflexes","TSH","US neck","FNA → Bethesda"],
+       ddx:["Colloid / adenomatous nodule","Follicular adenoma","Thyroid carcinoma","Multinodular goiter","Thyroglossal duct cyst","Cervical lymphadenopathy"],
+       pearls:["คลำจากด้านหน้าอย่างเดียว / ไม่ให้กลืน / ไม่ให้แลบลิ้น","ไม่ประเมิน thyroid status ทั้งที่โจทย์สั่ง","ส่ง thyroid scan ทั้งที่ TSH ปกติ"],
+       members:["MDCU65|RoA|8#1","MDCU73|RoD|5#1","MDCU73|RoD|5#2"]},
+      {id:"tgdc", title:"Thyroglossal duct cyst — ก้อนกลางคอที่ขยับตามการแลบลิ้น",
+       asked:["ผู้ป่วยมีก้อนกลางคอ (ให้ภาพก้อนกลมกลางคอเหนือ thyroid cartilage) → examine the neck mass → Dx"],
+       flow:["แนะนำตัว ขออนุญาต นั่ง เปิดคอ","Inspection: ตำแหน่ง (midline / lateral, สัมพันธ์ hyoid)","ให้กลืนน้ำ → ให้แลบลิ้น","Palpation จากด้านหลัง: ขนาด ผิว consistency fluctuation กดเจ็บ","Transillumination · คลำ thyroid + cervical LN · trachea","Dx"],
+       pattern:["<b>TGDC</b>: ก้อนกลม เรียบ cystic อยู่ <b>midline</b> ใกล้ hyoid (เหนือหรือใต้) · <b>ขยับขึ้นทั้งตอนกลืนและตอนแลบลิ้น</b> (tract ติด foramen cecum) · ไม่เจ็บถ้าไม่ติดเชื้อ","<b>ก่อนผ่าตัด</b>: US คอยืนยันว่ามีต่อม thyroid ปกติในตำแหน่งปกติ (ตัด ectopic thyroid)","<b>Sistrunk operation</b> = ตัด cyst + tract + ส่วนกลางของ hyoid ขึ้นไปถึง foramen cecum (ลดการกลับเป็นซ้ำ)"],
+       kw:["midline","moves with swallowing","moves with tongue protrusion","cystic, transilluminate","examine thyroid + LN","thyroglossal duct cyst","US to confirm normal thyroid","Sistrunk operation"],
+       ddx:["Dermoid cyst (ไม่ขยับตามการแลบลิ้น)","Ectopic thyroid","Thyroid nodule (pyramidal lobe / isthmus)","Submental lymph node"],
+       pearls:["ไม่ให้แลบลิ้น = พลาด sign ที่แยก TGDC","ตอบผ่าตัดแค่ 'excision of cyst' โดยไม่ตัด hyoid ส่วนกลาง → กลับเป็นซ้ำสูง"],
+       members:["MDCU74|RoD|6#1","MDCU74|RoD|6#2"]}
+    ]},
+    {title:"Vascular", sections:[
+      {id:"varicose-trendelenburg", title:"Varicose veins — Trendelenburg (tourniquet) test + การแปลผล",
+       asked:["SP เส้นเลือดขอดขาขวานอนบนเตียง (มีอาจารย์) → perform the Trendelenburg (tourniquet) test → explain how to interpret the results"],
+       flow:["แนะนำตัว อธิบาย ขออนุญาต เปิดขาทั้งสองข้าง (ดูเส้นเลือดขอดในท่ายืนก่อน)","นอนหงาย ยกขา ~45° ลูบเส้นเลือดจากล่างขึ้นบนให้เลือดดำไหลออก","รัด tourniquet ต้นขาส่วนบนใต้ saphenofemoral junction (หรือใช้นิ้วกด SFJ)","ให้ยืนขณะยังรัด → สังเกต ~30 วินาที","คลายสายรัด → สังเกตการเติม","ย้ายตำแหน่งรัด (กลางต้นขา, ใต้เข่า) หาระดับที่รั่ว · ขอบคุณ"],
+       pattern:["<b>ตำแหน่ง SFJ</b>: <b>inferolateral</b> ต่อ pubic tubercle — อยู่ในพื้นที่ ~3 × 3 cm ที่ lateral ได้ถึง ~4 cm และต่ำกว่าได้ถึง ~3 cm (Mirjalili 2014, Clin Anat) · อยู่ medial ต่อ femoral pulse","<b>แปลผล</b>: (1) ขณะรัดเส้นไม่โป่ง → คลายแล้วเติมเร็วจากบนลงล่าง = <b>SFJ incompetence</b> · (2) ขณะรัดเส้นโป่งเร็ว (&lt; 30 วินาที) = รั่วต่ำกว่าจุดรัด (incompetent perforator / SPJ) · (3) โป่งขณะรัดและโป่งมากขึ้นเมื่อคลาย = รั่วทั้ง SFJ และ perforator · (4) เติมช้า (&gt; 30 วินาที) ทั้งก่อนและหลังคลาย = ไม่มี reflux สำคัญ","การตรวจทางคลินิกใช้หาตำแหน่งคร่าว ๆ — มาตรฐานปัจจุบันคือ <b>duplex ultrasound</b> ก่อนรักษาทุกราย (reflux &gt; 500 ms ใน superficial truncal vein; SVS / AVF / AVLS)","<b>Perthes test</b>: รัดแล้วให้เดิน / เขย่งเท้า เส้นเลือดโป่งมากขึ้น + ปวด = deep vein obstruction (ห้ามผ่าตัด superficial vein)"],
+       kw:["elevate leg, empty veins","tourniquet below SFJ","stand with tourniquet on","observe 30 s","release and observe","control on tourniquet = SFJ incompetence","fills with tourniquet = perforator below","repeat at lower levels","confirm with duplex US"],
+       pearls:["ไม่ยกขาให้เลือดดำไหลออกก่อนรัด → แปลผลไม่ได้","รัดแน่นจนกด arterial / หลวมจนไม่กด superficial vein","SFJ อยู่ inferolateral ต่อ pubic tubercle ไม่ใช่ด้านใน (คำตอบคลังเดิม MDCU65 RoB เขียนด้านใน — แก้แล้ว 22 พ.ย. 2026)"],
+       members:["MDCU65|RoB|7#1","MDCU65|RoB|7#2"]},
+      {id:"chronic-limb-ischemia", title:"ปวดขา 3 เดือน (chronic limb ischemia / claudication) — ตรวจขาที่เกี่ยวข้อง",
+       asked:["SP ปวดขา 3 เดือน → ซักประวัติ → perform the relevant physical examination → Dx"],
+       flow:["แนะนำตัว ขออนุญาต เปิดขาทั้งสองข้าง","Inspection: ผิว ขน เล็บ แผล / gangrene ที่ปลายนิ้วและจุดกดทับ","คลำอุณหภูมิ + capillary refill","คลำชีพจร femoral, popliteal, posterior tibial, dorsalis pedis ทั้งสองข้าง + ฟัง bruit","Buerger test","ABI"],
+       pattern:["<b>Inspection</b>: ขนร่วง ผิวมันบาง เล็บหนา กล้ามเนื้อลีบ แผลที่ปลายนิ้ว / ส้นเท้า / จุดกดทับ, gangrene","<b>Palpation</b>: ขาเย็น capillary refill ช้า · ชีพจรลดหรือหายตามระดับที่ตีบ · ฟัง bruit ที่ femoral / abdominal aorta","<b>Buerger test</b>: ยกขาแล้วซีด (Buerger angle &lt; 20° = ขาดเลือดรุนแรง) → ห้อยขาแล้วแดงคล้ำ (dependent rubor)","<b>ABI ≤ 0.90 = PAD</b> · &gt; 1.40 = หลอดเลือดแข็งกดไม่ลง (ACC / AHA 2024)"],
+       kw:["trophic changes","ulcer / gangrene","temperature, capillary refill","femoral, popliteal, PT, DP pulses both sides","bruit","Buerger test","ABI ≤ 0.90"],
+       ddx:["Peripheral arterial disease (claudication / chronic limb-threatening ischemia)","Spinal stenosis (neurogenic claudication)","Chronic venous insufficiency"],
+       pearls:["คลำชีพจรข้างเดียว / ไม่ครบทุกระดับ","ลืม ABI ทั้งที่เป็นการตรวจยืนยันหลัก"],
+       members:["MDCU73|RoD|2#2"]}
+    ]},
+    {title:"Skin & soft tissue", sections:[
+      {id:"forearm-lipoma", title:"ก้อนเล็กเคลื่อนได้ใต้ผิวหนังที่แขน — lipoma: Dx, excision และ longitudinal incision",
+       asked:["ชาย 54 ปี ก้อนที่แขนขวา 3 เดือน: 1 cm ขอบชัด rubbery ไม่ยึดผิวหนังและกระดูก ไม่เจ็บ → Dx → treatment → วาด incision บนภาพแขน"],
+       flow:["อ่านลักษณะก้อนจากโจทย์ (ยึดผิวหรือไม่, ความลึก, consistency)","Dx + DDx","Treatment","วาด incision + เหตุผล"],
+       pattern:["<b>Dx: lipoma (subcutaneous)</b> — ก้อนขอบชัด นุ่มหยุ่น ไม่ยึดผิวหนังและกระดูก ไม่เจ็บ โตช้า · slip sign (ขอบก้อนลื่นหลุดจากนิ้ว)","<b>Epidermoid (sebaceous) cyst</b> อยู่ใน dermis จึง <b>ยึดติดผิวหนัง</b> มี punctum บีบได้ keratin กลิ่นเหม็น — ไม่เข้ากับโจทย์ที่ 'not fixed to skin'","<b>Treatment</b>: excision (excisional biopsy) ภายใต้ local anesthesia เลาะออกทั้งก้อนพร้อม capsule ส่งพยาธิ · ไม่ต้อง wide excision สำหรับก้อนเล็กลักษณะ benign · ไม่มีอาการและไม่ต้องการผ่าตัด → สังเกตได้","<b>Incision</b>: <b>longitudinal ตามแนวยาวของแขน</b> บนก้อน — ถ้าพยาธิเป็น sarcoma จะ re-excise ได้โดยตัดเนื้อเยื่อน้อยและไม่ตัดผ่านโครงสร้างที่วิ่งตามยาว (เส้นประสาท หลอดเลือด เอ็น) (หลักการ biopsy ก้อนที่แขนขา — NCCN soft tissue sarcoma)","<b>Red flag ของ sarcoma</b>: &gt; 5 cm, อยู่ลึกใต้ fascia, โตเร็ว, เจ็บ → MRI + core biopsy ก่อน ไม่ excise ทันที"],
+       kw:["lipoma","not fixed to skin → not epidermoid cyst","excisional biopsy under LA","send for histopathology","longitudinal incision along limb axis","allows re-excision if sarcoma"],
+       ddx:["Epidermoid (sebaceous) cyst","Neurofibroma / schwannoma (ขยับด้านข้างได้แต่ไม่ขยับตามแนวเส้นประสาท, Tinel)","Ganglion cyst (ใกล้ข้อ / เอ็น)","Soft tissue sarcoma"],
+       pearls:["<b>คีย์เก่า MDCU67 RoD ตอบ epidermal cyst + wide excision</b> — แต่โจทย์ระบุก้อนไม่ยึดผิวหนัง ซึ่งขัดกับ epidermoid cyst; ธนาคารแก้เป็น lipoma + excision","วาด incision แนวขวางแขน = ผิดหลักก้อนที่แขนขา","ถ้าเป็นรอยโรคบนผิว (เช่น epidermoid cyst) ตัดเป็นวงรีปลายแหลมกว้าง : ยาว = 1 : 3 รอบ punctum เพื่อไม่ให้เกิด dog ear (L05)"],
+       members:["MDCU67|RoD|12#1","MDCU67|RoD|12#2","MDCU67|RoD|12#3"]}
+    ]}
+  ]});

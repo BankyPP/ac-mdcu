@@ -1,580 +1,466 @@
-SUMM.push({
- "tag": "Uro",
- "title": "Urology",
- "intro": "<ul><li>แท็กที่ใหญ่ที่สุดของวอร์ด (MDCU79 RoC 15 ข้อย่อย) แบ่งเป็น 4 ก้อน: <b>uro-oncology</b> (testicular germ cell tumor ออกซ้ำ 2 เคส, bladder CIS, UTUC, angiomyolipoma), <b>นิ่ว / การอุดตัน</b> (obstructed infected kidney ออกซ้ำ 2 เคส, staghorn, bladder stone จาก BPH, AUR), <b>UTI / STI</b> (UTI ในหญิงตั้งครรภ์ออกซ้ำ 2 เคส, gonococcal urethritis) และ <b>อวัยวะเพศเด็ก</b> (paraphimosis, epispadias)</li><li>รูปแบบหลักคือ vignette สั้น → ถาม Dx หรือ next step / most appropriate management — ตัวตัดสินมักเป็นคำเดียวในโจทย์: AFP ปกติ, ไข้ + การอุดตัน, macroscopic fat, CIS, high-grade upper tract</li><li>หลายเคสเป็น recall ที่ไม่ครบและ Claude เติม stem / ช้อยให้ (⚠) — จำหลักการตัดสินใจไว้ เพราะถ้าโจทย์จริงเปลี่ยนรายละเอียด คำตอบเปลี่ยนตาม</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: ครอบคลุมเกือบทุกเรื่องของ uro — PSA สูง, testicular tumor (inguinal orchiectomy + lymphatic drainage), NMIBC/UTUC, RCC, นิ่ว + ไข้ (อุด vs ไม่อุด), emphysematous pyelonephritis, AUR, UDT ในเด็ก</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: renal colic analgesia (แพ้ NSAID), cystine, BPH medical, NMIBC BCG, Bosniak, renal abscess, bladder SCC, UDT, VUR, testicular mass DDx, ASB ในคนท้อง, PSA screening, emphysematous pyelitis, TCC site</li></ul>",
- "groups": [
-  {
-   "title": "Uro-oncology",
-   "sections": [
-    {
-     "id": "testis-gct",
-     "title": "Testicular germ cell tumor: seminoma (hCG สูง + AFP ปกติ)",
-     "trend": "ออกซ้ำในชุดเดียวกัน 2 เคส ถาม Dx จาก tumor marker pattern",
-     "asked": [
-      "ชายหนุ่มก้อนอัณฑะแข็งไม่เจ็บ β-hCG สูง AFP ปกติ → most likely diagnosis (ตัวลวง Leydig, Sertoli, yolk sac, epididymitis)",
-      "รุ่นที่ให้ US heterogeneous + calcification ร่วม → ยังตอบ seminoma เพราะเป็น germ cell tumor ตัวเดียวในช้อย",
-      "ก้อนแข็งในอัณฑะ + US hypoechoic → next step (79D)",
-      "ต่อมน้ำเหลืองที่ <b>ไม่ใช่</b> ทางแพร่ของ non-seminoma (79D)",
-      "ก้อนอัณฑะแข็งไม่เจ็บ: NOT DDx = epididymo-orchitis (78B)"
-     ],
-     "pattern": [
-      "Solid <b>intratesticular</b> mass ชาย 15–40 ปี = germ cell tumor จนกว่าจะพิสูจน์ว่าไม่ใช่",
-      "<b>AFP สูง = มี nonseminoma component เสมอ</b> (pure seminoma ไม่หลั่ง AFP); seminoma หลั่ง β-hCG ได้ ~15–20%",
-      "Yolk sac → AFP สูง; choriocarcinoma → hCG สูงมาก; teratoma → marker ปกติ; Leydig / Sertoli → marker ปกติ อาการจาก hormone",
-      "Work-up: scrotal US + AFP, β-hCG, LDH ก่อนผ่า → <b>radical inguinal orchiectomy</b> (high ligation ที่ internal ring) → CT chest-abdomen-pelvis + marker ซ้ำเพื่อ staging (S0–S3)",
-      "Seminoma stage I → surveillance หรือ carboplatin 1 cycle; stage II–III → BEP / EP (RT ใน IIA–B); counsel sperm banking",
-      "ก้อน intratesticular = มะเร็งจนกว่าพิสูจน์ได้ → tumor markers (AFP, β-hCG, LDH) → <b>radical inguinal orchiectomy</b> · ห้าม transscrotal biopsy/orchiectomy",
-      "Lymphatic drainage: right testis → <b>interaortocaval</b> · left testis → <b>para-aortic</b> · distant: retrocrural, mediastinum, left supraclavicular · <b>inguinal LN ไม่ใช่ทางปกติ</b> (เกิดเฉพาะ scrotal violation)"
-     ],
-     "pearls": [
-      "ห้าม trans-scrotal biopsy หรือ scrotal approach (เปลี่ยน lymphatic drainage)",
-      "เห็น hCG สูงอย่ารีบตอบ nonseminoma — ตัวแยกคือ AFP",
-      "URO 1 เป็น recall ที่ echo pattern เข้ากับ nonseminoma มากกว่า แต่ในช้อยมี germ cell tumor ตัวเดียว คำตอบจึงมั่นใจปานกลาง",
-      "79D Uro 3 คีย์ไฟล์ตอบ para-aortic (ผิด) — para-aortic คือ landing zone หลักของ left testis; ตอบ inguinal"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 1",
-      "MDCU79|RoC|URO 9",
-      "MDCU79|RoD|Uro 2",
-      "MDCU79|RoD|Uro 3",
-      "MDCU78|RoB|28"
-     ]
-    },
-    {
-     "id": "bladder-cis",
-     "title": "Bladder carcinoma in situ หลัง TURBT → intravesical BCG",
-     "asked": [
-      "Bladder CIS ที่ TURBT เอารอยโรคที่เห็นออกหมดแล้ว → next management (ตัวลวง intravesical chemo, cystectomy, surveillance)",
-      "High-grade NMIBC หลัง TURBT → manage ต่อ (79D)",
-      "High-grade NMIBC → BCG (78B)"
-     ],
-     "pattern": [
-      "CIS = flat high-grade → จัดเป็น <b>high-risk NMIBC</b> (เช่นเดียวกับ T1, high-grade, หลายก้อนใหญ่เป็นซ้ำ)",
-      "High-risk → <b>intravesical BCG</b> induction สัปดาห์ละครั้ง 6 สัปดาห์ + maintenance 1–3 ปี (SWOG schedule)",
-      "Low-risk (Ta low-grade เดี่ยว <3 cm) → single immediate post-TURBT chemo instillation; intermediate → chemo หรือ BCG",
-      "ห้าม BCG ภายใน 2 สัปดาห์หลัง TURBT, gross hematuria, traumatic catheterization, UTI; BCG sepsis → anti-TB drugs",
-      "BCG-unresponsive → radical cystectomy; ติดตาม cystoscopy + urine cytology ทุก 3 เดือนปีแรก + upper tract imaging",
-      "High-risk NMIBC (high grade, T1, CIS): re-TURBT 2–6 สัปดาห์ (T1/ไม่มี muscle ในชิ้นเนื้อ) → <b>BCG induction 6 สัปดาห์ + maintenance 1–3 ปี</b> (EAU 2024) · BCG เริ่ม 2–4 สัปดาห์หลัง TURBT ไม่ให้ทันที",
-      "Single immediate instillation = chemotherapy (MMC/gemcitabine) ใน low/intermediate risk · radical cystectomy = very high risk/BCG-unresponsive"
-     ],
-     "pearls": [
-      "in situ ไม่ได้แปลว่าแค่ติดตาม — CIS ของ bladder ลุกลามเป็น muscle-invasive ได้ราวครึ่งหนึ่งถ้าไม่รักษา",
-      "single post-TURBT chemo ใช้กับ papillary low / intermediate-risk ไม่ใช่ CIS",
-      "79D Uro 7 คีย์ไฟล์ตอบ partial cystectomy (ผิด) — partial cystectomy ใช้น้อยมากใน MIBC ก้อนเดี่ยวที่ dome"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 3",
-      "MDCU79|RoD|Uro 7",
-      "MDCU78|RoB|19"
-     ]
-    },
-    {
-     "id": "utuc",
-     "title": "Upper tract urothelial carcinoma high-risk → nephroureterectomy + bladder cuff",
-     "asked": [
-      "ชายสูบบุหรี่ painless gross hematuria, ก้อน 3 cm ที่ proximal ureter + hydronephrosis, biopsy high-grade UC → management (ตัวลวง radical nephrectomy, BCG, ESWL, DJ stent)",
-      "Upper ureter tumor 3 cm สูบบุหรี่ ไตอีกข้างปกติ → การรักษา (79D)"
-     ],
-     "pattern": [
-      "High-risk UTUC: high-grade, ≥2 cm, hydronephrosis, multifocal, invasive บน CT, variant histology",
-      "High-risk → <b>radical nephroureterectomy with bladder cuff excision</b> ± lymphadenectomy + single post-op intravesical chemo (bladder recurrence 22–47%)",
-      "Adjuvant platinum chemo ใน pT2–T4 หรือ N+ (POUT)",
-      "Low-risk (unifocal, <2 cm, low-grade) → kidney-sparing: ureteroscopic ablation, segmental ureterectomy",
-      "Work-up: CT urography + cystoscopy (bladder tumor ร่วม ~17%) + ureteroscopy ± biopsy + cytology; อายุน้อยหรือมีประวัติครอบครัว → นึกถึง Lynch",
-      "UTUC ≥2 cm = high risk → <b>RNU + bladder cuff excision</b> + single postoperative intravesical chemo"
-     ],
-     "pearls": [
-      "radical nephrectomy คือผ่าตัดของ RCC — urothelial ต้องเอาทั้งท่อรวมรูเปิด ureter (เหลือ stump → มะเร็งซ้ำ)",
-      "URO 4 recall มีแค่หัวข้อ + ช้อยเดียว Claude เติม stem high-risk ให้ — ถ้าโจทย์จริงเป็น low-risk คำตอบจะเปลี่ยนเป็น kidney-sparing"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 4",
-      "MDCU79|RoD|Uro 13"
-     ]
-    },
-    {
-     "id": "aml",
-     "title": "Renal angiomyolipoma เล็กไม่มีอาการ → observe",
-     "asked": [
-      "หญิง 45 ปี incidental renal mass 2 cm มี macroscopic fat บน CT ไม่มีอาการ → management"
-     ],
-     "pattern": [
-      "<b>Macroscopic fat (HU ติดลบ) ใน renal mass ≈ AML</b> — ไม่ต้อง biopsy",
-      "เล็ก ไม่มีอาการ → active surveillance ด้วย US / CT เป็นระยะ",
-      "Intervene เมื่อ: มีอาการ / เลือดออก (Wunderlich: flank pain + mass + shock), ก้อนโต (เกณฑ์ดั้งเดิม ≥4 cm) หรือโตเร็ว, aneurysm ในก้อน ≥5 mm, หญิงวางแผนตั้งครรภ์, เข้าถึงการรักษาฉุกเฉินยาก",
-      "เลือดออกเฉียบพลัน → selective arterial embolization; ทางเลือก nephron-sparing surgery; TSC ก้อนโต → everolimus",
-      "~20% สัมพันธ์ tuberous sclerosis (หลายก้อน สองข้าง)"
-     ],
-     "pearls": [
-      "embolization ใช้กับ AML ที่เลือดออกหรือเสี่ยงสูง ไม่ใช่ก้อนเล็กไม่มีอาการ",
-      "recall มีแค่คำว่า Angiomyolipoma + observe — stem ทั้งหมดแต่งให้คำตอบเป็น observe"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 6"
-     ]
-    },
-    {
-     "id": "prostate-psa",
-     "title": "PSA สูงโดยไม่มี UTI → MRI prostate + biopsy",
-     "trend": "ถามขั้นต่อไปเมื่อ PSA สูง แยกจากการรักษา BPH",
-     "asked": [
-      "ชาย 65 LUTS ต่อมโตเล็กน้อย PSA 12 ไม่มี UTI → management",
-      "ชาย 52 ขอคัดกรอง → shared decision-making (78D)"
-     ],
-     "pattern": [
-      "PSA สูง (&gt;4 หรือ age-specific) ไม่มีสาเหตุอื่น → <b>pre-biopsy mpMRI → targeted ± systematic biopsy</b> (EAU 2024)",
-      "ห้ามให้ 5-ARI ก่อนสืบค้น (ลด PSA ~50%) · antibiotic แล้ววัดซ้ำเฉพาะเมื่อมี prostatitis/UTI"
-     ],
-     "pearls": [
-      "ตัวลวง: alpha-blocker/5-ARI แล้วติดตาม (รักษา BPH ก่อนแยกมะเร็ง)"
-     ],
-     "members": [
-      "MDCU79|RoD|Uro 1",
-      "MDCU78|RoD|81"
-     ]
-    },
-    {
-     "id": "rcc",
-     "title": "Solid renal mass + hematuria → renal cell carcinoma",
-     "trend": "ให้ CT ก้อนไตแล้วถาม Dx เทียบกับ AML / TCC / XGP",
-     "asked": [
-      "Intermittent gross hematuria + น้ำหนักลด + CT solid enhancing renal mass → Dx"
-     ],
-     "pattern": [
-      "Solid enhancing mass ในเนื้อไต ไม่มีไขมัน = <b>RCC</b> · มี macroscopic fat (HU ติดลบ) = AML · filling defect ใน collecting system = urothelial carcinoma",
-      "T1a ≤4 cm → partial nephrectomy · ใหญ่/ลุกลาม → radical nephrectomy · paraneoplastic: polycythemia, hypercalcemia, HT, Stauffer"
-     ],
-     "members": [
-      "MDCU79|RoD|Uro 8"
-     ]
-    },
-    {
-     "id": "wilms",
-     "title": "Wilms tumor ในเด็ก (ก้อนจากไต ไม่ข้าม midline)",
-     "asked": [
-      "แม่คลำก้อนท้องลูกตอนอาบน้ำ US ก้อนในไต HT ไม่ข้าม midline ไม่มีท้องเสีย → Dx"
-     ],
-     "pattern": [
-      "Wilms: เด็กดูดี ก้อนเรียบจากไต ไม่ข้าม midline HT ~25% · Neuroblastoma: adrenal ข้าม midline เด็กป่วย calcification VMA/HVA สูง (VIP → watery diarrhea)",
-      "Mesoblastic nephroma = ทารก &lt;3 เดือน"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 12"
-     ]
-    },
-    {
-     "id": "bosniak",
-     "title": "Renal cyst ที่ enhance (Bosniak III–IV) → surgical excision",
-     "asked": [
-      "(78B คีย์: complicated renal cyst)"
-     ],
-     "pattern": [
-      "Bosniak I–II benign · IIF follow · III–IV ผ่าตัด"
-     ],
-     "members": [
-      "MDCU78|RoB|20"
-     ]
-    },
-    {
-     "id": "bladder-scc-uro",
-     "title": "Bladder SCC ↔ chronic infection/irritation",
-     "asked": [
-      "(78B)"
-     ],
-     "pattern": [
-      "Schistosoma, catheter, stone"
-     ],
-     "members": [
-      "MDCU78|RoB|22"
-     ]
-    },
-    {
-     "id": "tcc-site-uro",
-     "title": "TCC least likely ที่ urethra",
-     "asked": [
-      "(78D)"
-     ],
-     "pattern": [
-      "Bladder 90–95% · upper tract 5–10%"
-     ],
-     "members": [
-      "MDCU78|RoD|85"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "นิ่วและการอุดตันทางเดินปัสสาวะ",
-   "sections": [
-    {
-     "id": "obstructed-infected-kidney",
-     "title": "Obstructed infected kidney (นิ่ว ureter + ไข้) → urgent decompression",
-     "trend": "ออก 2 เคสในชุดเดียว ตัวลวงเป็นวิธีเอานิ่วออกทันที",
-     "asked": [
-      "ไข้ หนาวสั่น CVA tenderness, UA pyuria, นิ่ว proximal ureter 7 mm + hydronephrosis → นอกจาก IV ATB ต้องทำอะไร → urgent DJ stent",
-      "ไข้ + UA nitrite + Cr 2.1 + นิ่ว 8 mm mild hydronephrosis → urgent decompression ด้วย stent หรือ PCN",
-      "ไข้ 39 + CVA tenderness + นิ่วท่อไต 5 mm + hydronephrosis → DJ stent (79D)",
-      "ไข้ + นิ่ว renal pelvis 5 mm <b>ไม่มี hydronephrosis</b> → antibiotics + hydration (79D)"
-     ],
-     "pattern": [
-      "<b>Obstruction + infection = urologic emergency</b> → urgent decompression + IV ATB + urine / blood culture",
-      "Retrograde DJ stent = percutaneous nephrostomy ได้ผลเท่ากัน (EAU); PCN เมื่อส่องย้อนไม่ได้ / unstable มาก, DJ เมื่อมี coagulopathy",
-      "เลื่อน definitive (ESWL, URS, PCNL) ไปหลังติดเชื้อหาย",
-      "ข้อบ่งชี้ intervene ด่วนอื่น: AKI, solitary kidney / bilateral obstruction, ปวดหรืออาเจียนคุมไม่ได้",
-      "Uncomplicated: NSAID แก้ปวด, MET ด้วย tamsulosin สำหรับ distal >5 mm, ติดตามไม่เกิน 4–6 สัปดาห์; CT KUB non-contrast เป็นมาตรฐาน",
-      "ตัดสินด้วย <b>การอุดกั้น</b>: อุด + ติดเชื้อ → decompress (DJ/PCN) + IV ATB · ไม่อุด → ATB ตาม culture · ห้าม ESWL/URS/PCNL ขณะติดเชื้อ"
-     ],
-     "pearls": [
-      "นิ่วเล็กหรือ hydronephrosis mild ไม่เปลี่ยนกฎ — มีไข้ + อุดตันต้อง drain ก่อนเสมอ",
-      "ห้ามแตกนิ่วขณะติดเชื้อ (ปล่อย endotoxin → urosepsis)",
-      "URO 5 recall มีแค่ CVA tenderness + 2 ช้อย — ถ้าโจทย์จริงไม่มีไข้ นิ่วเล็กจะตอบ MET / ESWL"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 5",
-      "MDCU79|RoC|URO 8",
-      "MDCU79|RoD|Uro 5",
-      "MDCU79|RoD|Uro 14"
-     ]
-    },
-    {
-     "id": "staghorn",
-     "title": "Staghorn calculus = struvite / infection stone",
-     "asked": [
-      "หญิง recurrent UTI มี staghorn calculus → most common etiology (ตัวลวง cystinuria, hyperparathyroidism, uric acid)"
-     ],
-     "pattern": [
-      "Staghorn ส่วนใหญ่ = <b>struvite (magnesium ammonium phosphate) + carbonate apatite</b>",
-      "กลไก: urease-producing bacteria (<b>Proteus mirabilis</b> มากสุด, Klebsiella, Pseudomonas, Providencia) → ammonia → urine pH >7.2 → ตกตะกอน; coffin-lid crystals",
-      "รักษา: <b>PCNL</b> เป้าหมาย stone-free ทั้งหมด ± ESWL / flexible URS + ATB ตาม culture; ไตไม่ทำงาน → nephrectomy",
-      "ป้องกันซ้ำ: เอานิ่วออกหมด, รักษา UTI, acetohydroxamic acid ในผู้ผ่าตัดไม่ได้"
-     ],
-     "pearls": [
-      "E. coli ไม่สร้าง urease",
-      "cystine ทำ staghorn ได้แต่พบน้อย — โจทย์ถาม most common + มี recurrent UTI"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 7"
-     ]
-    },
-    {
-     "id": "bladder-stone-bph",
-     "title": "Bladder stone จาก BPH → transurethral cystolitholapaxy",
-     "asked": [
-      "ชายสูงอายุ BPH กินยาไม่สม่ำเสมอ terminal hematuria, dysuria, ปัสสาวะไม่สุด, CT ก้อนกลมทึบในกระเพาะปัสสาวะ 3 cm → management (ตัวลวง ESWL, open cystolithotomy, treat BPH 3 เดือน)",
-      "ปัสสาวะสะดุดหยุดกลางสาย ดีขึ้นเมื่อเปลี่ยนท่า → bladder calculus (79D)"
-     ],
-     "pattern": [
-      "Bladder stone ในผู้ใหญ่ส่วนใหญ่เป็น <b>secondary</b> จาก bladder outlet obstruction (BPH, stricture), neurogenic bladder, foreign body",
-      "อาการ: terminal hematuria, ปวดร้าวปลายองคชาต, ปัสสาวะสะดุดแล้วเปลี่ยนท่าจึงออก",
-      "รักษาแรกในผู้ใหญ่ (EAU): <b>transurethral cystolithotripsy / cystolitholapaxy</b> + แก้ BOO ใน session เดียว (TURP / HoLEP)",
-      "Percutaneous เมื่อส่องผ่าน urethra ไม่ได้; open cystolithotomy เมื่อนิ่วใหญ่มาก หรือทำร่วม open prostatectomy; ESWL ได้ผลต่ำ",
-      "Bladder stone จาก BPH = ข้อบ่งชี้ผ่าตัด BPH",
-      "Interrupted stream ที่ดีขึ้นเมื่อเปลี่ยนท่า + terminal hematuria/ปวดปลายองคชาต = bladder stone (ball-valve ที่ bladder neck)"
-     ],
-     "pearls": [
-      "recall ไม่บอกขนาดนิ่ว (บอกแค่ก้อนใหญ่ ๆ) Claude เติม 3 cm — ถ้านิ่วใหญ่มากคำตอบจะเป็น open cystolithotomy จึงมั่นใจปานกลาง"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 6b",
-      "MDCU79|RoD|Uro 12"
-     ]
-    },
-    {
-     "id": "aur-bph",
-     "title": "Acute urinary retention จาก BPH → urethral catheterization",
-     "asked": [
-      "ชาย 72 ปี BPH ปัสสาวะไม่ออก 12 ชม. คลำ bladder ได้ กดเจ็บ → initial management (ตัวลวง emergency TURP, alpha-blocker อย่างเดียว, suprapubic cystostomy, furosemide)",
-      "AUR จาก BPH หลังสวนระบายแล้ว → manage ต่อ (79D)"
-     ],
-     "pattern": [
-      "Decompress ทันที: <b>urethral catheter</b> 14–16 Fr (coudé ถ้าผ่านต่อมลูกหมากยาก); ใส่ไม่ได้ → suprapubic cystostomy",
-      "หลังระบาย: เฝ้าระวัง post-obstructive diuresis (>200 mL/h), decompression hematuria, ตรวจ Cr",
-      "Alpha-blocker ≥2–3 วันก่อน trial without catheter (TWOC); 5-ARI ถ้า prostate >30–40 mL",
-      "ล้ม TWOC / retention ซ้ำ, recurrent UTI, hematuria, bladder stone, renal insufficiency → elective TURP / HoLEP",
-      "ตัวกระตุ้น AUR: anticholinergic, ยาแก้หวัด sympathomimetic, opioid, แอลกอฮอล์, ท้องผูก, หลังดมยา",
-      "คาสาย + <b>alpha-blocker</b> แล้ว <b>trial without catheter</b> · TWOC ล้มเหลว/retention ซ้ำ → TURP · ระวัง post-obstructive diuresis"
-     ],
-     "pearls": [
-      "TURP เป็น definitive แต่ไม่ใช่ initial ในภาวะเฉียบพลัน",
-      "suprapubic เป็นทางเลือกเมื่อใส่ทาง urethra ไม่ได้เท่านั้น"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 10",
-      "MDCU79|RoD|Uro 15"
-     ]
-    },
-    {
-     "id": "ureteric-stone-kub",
-     "title": "Renal colic + KUB เงาทึบแนวท่อไต → ureteric stone",
-     "asked": [
-      "ปวดเอวซ้ายร้าวขาหนีบ CVA tenderness ให้ KUB → Dx (mid ureteric stone vs UPJO)"
-     ],
-     "pattern": [
-      "แนวท่อไตบน KUB: ปลาย transverse process → SI joint → ischial spine · upper (ถึงขอบบน sacrum) / mid (ทับ SI joint) / distal",
-      "NCCT KUB = มาตรฐานยืนยัน · phlebolith กลมมีจุดใสอยู่ต่ำใน pelvis"
-     ],
-     "pearls": [
-      "79D: รูปในไฟล์เป็นรูปใกล้เคียง เงาอยู่ระดับ L3 (upper ureter) แต่ช้อยมีแค่ mid ureteric stone กับ UPJO"
-     ],
-     "members": [
-      "MDCU79|RoD|Uro 6"
-     ]
-    },
-    {
-     "id": "citrate",
-     "title": "Citrate ป้องกันนิ่ว: จับ calcium เป็น soluble complex",
-     "asked": [
-      "ทำไม citrate ลดการเกิดนิ่ว"
-     ],
-     "pattern": [
-      "Citrate จับ Ca → ลด supersaturation ของ CaOx/CaP + ยับยั้ง crystal growth · K citrate → urine alkaline (ละลาย uric acid/cystine)",
-      "Hypocitraturia: distal RTA, chronic diarrhea, hypokalemia, thiazide"
-     ],
-     "members": [
-      "MDCU79|RoD|Uro 11"
-     ]
-    },
-    {
-     "id": "renal-colic-analgesia",
-     "title": "Renal colic: NSAIDs first-line · แพ้ NSAID → opioid",
-     "asked": [
-      "Renal colic แพ้ NSAIDs → morphine (78B)"
-     ],
-     "pattern": [
-      "NSAID &gt; opioid ใน renal colic; MET tamsulosin สำหรับ distal 5–10 mm"
-     ],
-     "members": [
-      "MDCU78|RoB|16"
-     ]
-    },
-    {
-     "id": "cystine",
-     "title": "Hexagonal crystals = cystine",
-     "asked": [
-      "UA hexagonal crystals (78B)"
-     ],
-     "pattern": [
-      "Coffin lid = struvite · envelope = Ca oxalate · rhomboid = uric acid"
-     ],
-     "members": [
-      "MDCU78|RoB|17"
-     ]
-    },
-    {
-     "id": "bph-medical",
-     "title": "BPH IPSS 22 ต่อมเล็ก PSA 1 → alpha-blocker",
-     "asked": [
-      "(78B)"
-     ],
-     "pattern": [
-      "5-ARI ต่อม &gt;30–40 mL · surgery เมื่อมี indication"
-     ],
-     "members": [
-      "MDCU78|RoB|18"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "UTI และ STI",
-   "sections": [
-    {
-     "id": "uti-pregnancy",
-     "title": "UTI ในหญิงตั้งครรภ์หลังรักษาครบ → repeat urine culture (test of cure)",
-     "trend": "ออกซ้ำ 2 เคสเกือบเหมือนกัน — ตัวลวงคือ observe และ prophylaxis จนคลอด",
-     "asked": [
-      "ครรภ์ 18–20 สัปดาห์ cystitis E. coli ได้ nitrofurantoin ครบ อาการหาย → next step",
-      "ASB ในครรภ์ รักษาแล้ว culture ซ้ำยังเจอเชื้อเดิม → investigate (79D)",
-      "ASB คนท้องหลังรักษายังบวก → ให้ยาอีกคอร์ส (78B)"
-     ],
-     "pattern": [
-      "ในครรภ์ bacteriuria ทุกแบบต้องรักษา และ <b>ส่ง urine culture ซ้ำ ~1–2 สัปดาห์หลังจบยา</b> แล้ว screen เป็นระยะจนคลอด",
-      "เหตุผล: hydroureter + stasis → เป็นซ้ำบ่อย; ไม่รักษา ASB → pyelonephritis 20–35%, preterm, LBW",
-      "ASB: screen urine culture ตอนฝากครรภ์ครั้งแรก, รักษาทุกราย (IDSA 2019)",
-      "ยาปลอดภัย: nitrofurantoin (เลี่ยงใกล้คลอด / G6PD), cephalexin, amoxicillin-clavulanate, fosfomycin; เลี่ยง TMP-SMX ไตรมาสแรกและใกล้คลอด, ห้าม fluoroquinolone, tetracycline",
-      "เป็นซ้ำ ≥2 ครั้งหรือหลัง pyelonephritis → suppressive nitrofurantoin / cephalexin ก่อนนอนจนคลอด",
-      "Pyelonephritis ในครรภ์ → admit + IV ceftriaxone / cefazolin; ไม่ดีขึ้น 48–72 ชม. → renal US",
-      "Persistent bacteriuria ในครรภ์ → รักษาซ้ำตาม sensitivity ± suppressive + <b>US KUB</b> (ไม่มีรังสี) หาความผิดปกติ"
-     ],
-     "pearls": [
-      "อย่าใช้หลักของหญิงไม่ตั้งครรภ์ (หายแล้วไม่ต้องตรวจซ้ำ)",
-      "prophylaxis จนคลอดไม่ใช่ขั้นแรกหลังติดเชื้อครั้งแรก",
-      "79C (หลังรักษาครั้งแรก) ตอบ repeat culture · 79D (culture ซ้ำแล้วยังเจอเชื้อเดิม) ตอบ US KUB"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 2",
-      "MDCU79|RoC|URO 12",
-      "MDCU79|RoD|Uro 4",
-      "MDCU78|RoB|52"
-     ]
-    },
-    {
-     "id": "gonococcal-urethritis",
-     "title": "Gonococcal urethritis → ceftriaxone IM + doxycycline",
-     "asked": [
-      "ชายหนุ่ม dysuria + หนองท่อปัสสาวะ Gram stain intracellular gram-negative diplococci ตรวจ chlamydia ไม่ได้ → treatment",
-      "Urethral discharge + GN diplococci → Dx (79D)"
-     ],
-     "pattern": [
-      "<b>CDC 2021: ceftriaxone 500 mg IM ครั้งเดียว</b> (1 g ถ้า ≥150 kg)",
-      "ยังไม่ exclude chlamydia → <b>เพิ่ม doxycycline 100 mg bid 7 วัน</b> (ตั้งครรภ์ใช้ azithromycin 1 g)",
-      "แพ้ cephalosporin รุนแรง → gentamicin 240 mg IM + azithromycin 2 g",
-      "รักษาคู่นอน, งดเพศสัมพันธ์ 7 วัน, ตรวจ HIV + syphilis, retest 3 เดือน",
-      "NGU: Chlamydia มากสุด, Mycoplasma genitalium, Trichomonas; NAAT first-void urine เป็นมาตรฐาน"
-     ],
-     "pearls": [
-      "regimen เก่า ceftriaxone + azithromycin ถูกยกเลิกเป็น routine — azithromycin เดี่ยวผิด",
-      "ไม่ใช้ fluoroquinolone ใน gonorrhea"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 11",
-      "MDCU79|RoD|Uro 9"
-     ]
-    },
-    {
-     "id": "emphysematous-pyelo",
-     "title": "Emphysematous pyelonephritis (เบาหวาน + gas ในเนื้อไต)",
-     "asked": [
-      "หญิงเบาหวาน ไข้สูง ปวดสีข้าง CT gas ใน renal parenchyma → Dx",
-      "CT แก๊สใน collecting system: pyelitis vs pyelonephritis (78D)"
-     ],
-     "pattern": [
-      "แก๊สในเนื้อไต = EPN · ใน collecting system = emphysematous pyelitis · ใน bladder = emphysematous cystitis",
-      "รักษา: IV ATB + คุมน้ำตาล + percutaneous drainage; ไม่ตอบ/รุนแรง → nephrectomy (Huang–Tseng)"
-     ],
-     "members": [
-      "MDCU79|RoD|Uro 10",
-      "MDCU78|RoD|83"
-     ]
-    },
-    {
-     "id": "renal-abscess-uro",
-     "title": "Renal abscess ตามขนาด (3 / 5 cm)",
-     "asked": [
-      "3.5 cm → IV ATB (78B)",
-      "&gt;5 cm ไม่ตอบยา → percutaneous drainage (78D)"
-     ],
-     "pattern": [
-      "&lt;3 ATB · 3–5 ATB ± drain · &gt;5 drain"
-     ],
-     "members": [
-      "MDCU78|RoB|21",
-      "MDCU78|RoD|82"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "อวัยวะเพศชายในเด็ก",
-   "sections": [
-    {
-     "id": "paraphimosis",
-     "title": "Paraphimosis → manual reduction ก่อน",
-     "asked": [
-      "เด็ก 6 ปี paraphimosis 4 ชม. glans ยังชมพู → next step (ตัวลวง dorsal slit, emergency circumcision, topical steroid)",
-      "Physiologic phimosis เด็ก 3 ปี ไม่มี scar → topical steroid + คำแนะนำ (79D)"
-     ],
-     "pattern": [
-      "Emergency: ประเมิน perfusion ของ glans",
-      "ขั้น 1: analgesia (dorsal penile block / sedation) + ลดบวม (manual compression, ice, granulated sugar, puncture) → <b>manual reduction</b>",
-      "ขั้น 2: ล้มเหลว → dorsal slit",
-      "ขั้น 3: elective circumcision ภายหลัง",
-      "Phimosis (รูดไม่ลง) → topical steroid ก่อน, circumcision ถ้าไม่ได้ผล",
-      "Physiologic phimosis: ไม่ดึงรั้ง · มีปัญหา → 0.05% betamethasone 4–8 สัปดาห์ · circumcision เมื่อ pathologic (scar/BXO), balanoposthitis ซ้ำ"
-     ],
-     "pearls": [
-      "สับสน phimosis กับ paraphimosis — topical steroid เป็นของ phimosis"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 2",
-      "MDCU79|RoD|Ped 4"
-     ]
-    },
-    {
-     "id": "epispadias",
-     "title": "Epispadias vs hypospadias",
-     "asked": [
-      "ทารกชาย meatus ด้าน dorsal + ventral hooded prepuce + dorsal chordee, bladder ปกติ → Dx",
-      "Hypospadias (ventral meatus, chordee, dorsal hood) → ต้องหาอะไรร่วม = UDT (79D)"
-     ],
-     "pattern": [
-      "<b>Epispadias</b>: meatus dorsal, dorsal chordee, ventral hood, pubic diastasis; penopubic → incontinence; ส่วนใหญ่อยู่ใน exstrophy-epispadias complex",
-      "<b>Hypospadias</b>: meatus ventral, ventral chordee, dorsal hood; ห้าม circumcise; ซ่อม 6–18 เดือน; proximal หรือมี undescended testis → ตรวจ DSD",
-      "Bladder exstrophy: bladder plate เปิดที่ผนังหน้าท้อง + epispadias + pubic diastasis",
-      "Hypospadias ร่วม UDT/inguinal hernia · hypospadias + คลำอัณฑะไม่ได้ = นึกถึง DSD (CAH) · ห้าม circumcision"
-     ],
-     "pearls": [
-      "chordee กับ hood อยู่ฝั่งตรงข้ามกันเสมอ — hypo = ventral, epi = dorsal",
-      "recall มีแค่ลักษณะ Claude เติมว่า bladder ปกติเพื่อแยกจาก exstrophy"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 3",
-      "MDCU79|RoD|Ped 16"
-     ]
-    },
-    {
-     "id": "udt",
-     "title": "Undescended testis: palpable → orchidopexy · non-palpable → laparoscopy",
-     "trend": "ถามทั้งเวลาผ่าตัดและการตรวจเมื่อคลำไม่ได้",
-     "asked": [
-      "เด็ก 4 ปี UDT คลำได้ใน inguinal canal → orchidopexy ทันที",
-      "เด็ก 18 เดือน non-palpable + US ไม่พบ → diagnostic laparoscopy",
-      "Bilateral palpable UDT 15 เดือน → orchiopexy (78B)"
-     ],
-     "pattern": [
-      "ส่งต่อถ้าไม่ลงภายใน 6 เดือน · orchidopexy ภายใน 18 เดือน (AUA/EAU) · hormone ไม่แนะนำ",
-      "Non-palpable: EUA → <b>diagnostic laparoscopy</b> (US/MRI ไม่แนะนำ) · bilateral non-palpable → แยก DSD/anorchia (karyotype, 17-OHP, hCG test)"
-     ],
-     "members": [
-      "MDCU79|RoD|Uro 16",
-      "MDCU79|RoD|Uro 17",
-      "MDCU79|RoD|Ped 16",
-      "MDCU78|RoB|23"
-     ]
-    },
-    {
-     "id": "hydrocele",
-     "title": "Non-communicating hydrocele (ส่องไฟผ่าน บีบไม่ยุบ)",
-     "asked": [
-      "ก้อนถุงอัณฑะขวาส่องไฟผ่าน นอน/บีบไม่ยุบ → Dx"
-     ],
-     "pattern": [
-      "Communicating: ขนาดเปลี่ยน บีบยุบ → herniotomy · non-communicating ทารก → observe 1–2 ปี · varicocele = bag of worms ซ้าย ยุบเมื่อนอน"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 7"
-     ]
-    },
-    {
-     "id": "cah-dsd",
-     "title": "DSD (คลำ gonad ไม่ได้ + hypospadias) → CAH salt-wasting: Na ต่ำ",
-     "asked": [
-      "DSD + UDT + hypospadias → electrolyte ที่ผิดปกติ"
-     ],
-     "pattern": [
-      "21-OH deficiency: <b>hyponatremia + hyperkalemia</b>, acidosis, hypoglycemia ช่วง 1–3 สัปดาห์ · 17-OHP สูง · hydrocortisone + fludrocortisone + NaCl",
-      "11β-OH: HT + hypokalemia"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 17"
-     ]
-    },
-    {
-     "id": "vur-uro",
-     "title": "VUR: CAP ก่อน, reimplant เมื่อ breakthrough · VCUG ปกติ → หยุดยา",
-     "asked": [
-      "VUR IV + recurrent UTI (78B)",
-      "VCUG ปกติหลังกินยา 3 ปี (78D)"
-     ],
-     "pattern": [
-      "RIVUR: CAP ลด febrile UTI"
-     ],
-     "members": [
-      "MDCU78|RoB|24",
-      "MDCU78|RoD|84"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"Uro", title:"Urology",
+  intro:"<ul><li>แท็กใหญ่ที่สุดของวอร์ด Subspe ออกทุกรุ่น (MDCU66–79) แบ่งเป็น 4 ก้อน: <b>นิ่ว</b> (นิ่วอุด + ไข้, staghorn / struvite, citrate, ยาแก้ปวด renal colic), <b>ต่อมลูกหมาก</b> (AUR / chronic retention, ยา BPH, PSA สูง / DRE nodule → MRI / biopsy), <b>uro-oncology</b> (NMIBC → BCG vs MIBC → cystectomy, UTUC, renal mass / AML / Bosniak, testicular GCT + lymphatic drainage, penile SCC) และ <b>pediatric uro</b> (hypospadias, DSD / CAH, phimosis, UDT, VUR, UPJO, hydrocele) ตามด้วย UTI / STI และ scrotal emergency</li><li>ข้อที่ออกซ้ำหลายรุ่นแบบเกือบคำต่อคำ: citrate จับ calcium · ข้อดีของ alpha-blocker = ออกฤทธิ์เร็ว / 5-ARI ลด DHT · staghorn = struvite จากเชื้อ urease (Proteus; E. coli ไม่ใช่) · 'ข้อใดผิดเรื่อง torsion' = ยกอัณฑะแล้วปวดลด · complication ของ UDT ที่ไม่ใช่ = orchitis · ข้อผิดของ Wilms = calcification / prognosis แย่ · ambiguous genitalia → electrolytes · risk ของ bladder ca ที่ไม่ใช่ = coffee · risk ของ penile SCC ที่ไม่ใช่ = paraphimosis · gold standard ของ UTI = culture ≥ 10⁵</li><li>Decision rule ที่ตอบได้เกือบทุกเคส: <b>ไข้ + นิ่วอุด → decompress (DJ / PCN) ก่อน</b> ไม่อุด → ยาอย่างเดียว · <b>AUR → catheter + alpha-blocker → TWOC</b> (ไม่ TURP ทันที) · <b>PSA สูง / DRE ผิดปกติ → หามะเร็งก่อนรักษา BPH</b> (มี MRI ในช้อย → MRI ก่อน biopsy ตาม EAU 2025) · <b>lamina propria → BCG · muscularis propria → cystectomy</b> · <b>filling defect ที่ยังไม่มีชิ้นเนื้อ → URS + biopsy</b> · <b>ก้อนอัณฑะ → inguinal orchiectomy ห้ามผ่า scrotum</b> · <b>non-palpable testis → laparoscopy</b> · <b>ASB ในครรภ์ → รักษา + culture ซ้ำ</b></li><li>MDCU79 (RoC, RoD) เป็นเคสสั้นครอบคลุมเกือบทุกเรื่อง หลายเคสเป็น recall ที่ bank เติม stem ให้ — จำหลักการตัดสินใจไว้ เพราะถ้าโจทย์จริงเปลี่ยนรายละเอียด (มีไข้ไหม, มี hydronephrosis ไหม, ขนาดก้อน) คำตอบเปลี่ยน · MDCU78 เพิ่ม renal colic ในคนแพ้ NSAID, cystine, Bosniak, renal abscess ตามขนาด, emphysematous pyelitis, ASB ในครรภ์ที่ยังไม่หาย · MDCU76–77 เน้น PSA / BPH, UTUC, RCC, VVF · MDCU66–72 เน้นพื้นฐาน UTI, urethritis, hematuria work-up, phimosis, UDT, VUR, DSD</li><li>คีย์เก่าที่ bank แก้ตาม guideline (รายละเอียดในกับดักของแต่ละหัวข้อ): partial cystectomy ใน NMIBC · para-aortic / common iliac ว่า 'ไม่ใช่' ทางระบายของ testis · RNU ก่อนมีชิ้นเนื้อ · TRUS biopsy ก่อน MRI · observe ว่าไม่เหมาะใน small renal mass ผู้สูงอายุ · CT KUB ใน gross hematuria ของคนเคยสูบบุหรี่ · OAB / alpha + 5-ARI ในคนที่คลำได้ bladder · hypermobility ในคนรั่วตลอดหลัง hysterectomy · quinolone ใน gonorrhea</li></ul>",
+  groups:[
+    {title:"นิ่วทางเดินปัสสาวะ (Urolithiasis)", sections:[
+      {id:"staghorn-struvite", title:"Staghorn / struvite (infection stone): urease-producing bacteria",
+       trend:"ถามสาเหตุ / ส่วนประกอบ / เชื้อของ staghorn วนไปทุกมุม",
+       asked:["หญิงมี UTI ซ้ำ + staghorn → สาเหตุที่พบบ่อยที่สุด = <b>urease-producing bacteria</b> (ตัวลวง hyperparathyroidism, uric acid, cystinuria, dehydration)","ส่วนประกอบที่พบบ่อยที่สุดของ staghorn → <b>magnesium ammonium phosphate</b>","หญิง DM คุมไม่ดี + osteopenia + pyuria + complete staghorn → สาเหตุ = chronic infection with urease-producing bacteria (DM / osteopenia / Ca supplement เป็นตัวหลอก)","UTI + urine pH 7.5 + staghorn → เชื้อที่พบบ่อยที่สุด = <b>Proteus</b>","เชื้อใด <b>ไม่</b> ทำให้เกิด struvite → <b>E. coli</b>","ข้อใดถูกเกี่ยวกับ struvite stone → ติดเชื้อหลัง PCNL พบบ่อย (ไม่ใช่ open surgery เป็นหลัก, ไม่ใช่ปัสสาวะกรด, ไม่ใช่ hypercalciuria, ส่วนใหญ่ไม่เป็นสองข้าง)","ลักษณะของ struvite → เกิดจาก urease-producing bacteria ในปัสสาวะด่าง"],
+       pattern:["<b>Staghorn ส่วนใหญ่ = struvite</b> (magnesium ammonium phosphate) ± carbonate apatite = <b>infection stone</b>","Urease ย่อย urea → ammonia + CO2 → <b>urine pH > 7.2</b> → struvite ตกตะกอนเร็วจนเต็ม collecting system · ผลึก coffin-lid","เชื้อ urease (+): <b>Proteus mirabilis (บ่อยสุด)</b>, Klebsiella, Pseudomonas, Providencia, Staphylococcus · <b>E. coli ไม่สร้าง urease</b> (แม้เป็นเชื้อ UTI ที่พบบ่อยที่สุด)","กลุ่มเสี่ยง: หญิง, UTI ซ้ำ, neurogenic bladder, สายสวนค้าง, urinary diversion","รักษา: <b>เอานิ่วออกให้หมด</b> — <b>PCNL เป็น first-line</b> ของ staghorn (เชื้อฝังในเนื้อนิ่ว ATB อย่างเดียวไม่หาย) + antibiotics; หลัง PCNL เสี่ยง UTI / urosepsis · ไตที่แทบไม่ทำงานแล้ว → nephrectomy (ดูหัวข้อนิ่วในไต)","Cystine และ uric acid ทำ staghorn ได้แต่พบน้อยกว่า — โจทย์ที่ถาม 'most common' ตอบ struvite / infection"],
+       pearls:["เลือก E. coli เพราะเป็นเชื้อ UTI ที่พบบ่อยสุด — E. coli ไม่มี urease","ตอบ calcium oxalate เพราะเป็นนิ่วที่พบบ่อยสุดโดยรวม — แต่ถามเฉพาะ staghorn","ช้อยในต้นฉบับบางรุ่นมีทั้ง 'struvite' และ 'magnesium ammonium phosphate' ซึ่งเป็นตัวเดียวกัน"],
+       members:["MDCU79|RoC|URO 7","MDCU77|RoB|Uro 1","MDCU75|RoD|Uro 3","MDCU72|RoC|ไม่มีเลข 4","MDCU67|RoC|85","MDCU67|RoD|36","MDCU66|RoD|5","MDCU66|RoD|44"]},
+      {id:"obstructed-infected", title:"นิ่วอุดตันร่วมกับติดเชื้อ (obstructed infected kidney) → urgent decompression",
+       trend:"โจทย์ให้ไข้ + นิ่ว แล้วให้ตัดสินว่า 'อุดหรือไม่อุด' — ถามซ้ำแทบทุกรุ่นตั้งแต่ MDCU66",
+       asked:["ไข้ 39 °C หนาวสั่น CVA tenderness + นิ่ว proximal ureter 7 mm มี hydronephrosis → นอกจาก IV antibiotics ทำ <b>urgent DJ stent</b> (ตัวลวง ESWL, emergency URS, tamsulosin, oral ATB กลับบ้าน)","ไข้ 38.5 °C UA nitrite + bacteria + WBC, Cr 2.1, นิ่ว 8 mm hydronephrosis เล็กน้อย → <b>urgent decompression ด้วย ureteric stent หรือ PCN</b>","ไข้ 39 °C CVA tenderness นิ่วท่อไต 5 mm + hydronephrosis → <b>DJ stent for urinary drainage</b> (ตัวลวง ATB แล้วรอนิ่วหลุดเอง, SWL, URS ทันที)","ปวดร้าวไปหลัง + ไข้ US นิ่ว 5 mm ใน renal pelvis <b>ไม่มี hydronephrosis</b> → <b>antibiotics + hydration</b> (ไม่ต้อง stent)","ข้อใด <b>ไม่ใช่</b> ข้อบ่งชี้ urgent intervention ของนิ่วอุดตัน → hematuria อย่างเดียว / นิ่ว 4 mm ที่คุมปวดได้","ความต่างของ infected hydronephrosis กับ pyonephrosis","พระ 24 ปี ไข้เป็น ๆ หาย ๆ ปวดเอวขวาร้าวลงท้องน้อย dysuria + right hydronephrosis UA WBC 30–50 → เลือก empiric parenteral ATB = <b>gentamicin</b> (complicated UTI)"],
+       pattern:["<b>ไข้ / sepsis + การอุดตัน = urologic emergency</b> (EAU Urolithiasis 2025): ปัสสาวะติดเชื้อค้างหลังจุดอุด ยาเข้าไม่ถึง → pyonephrosis, urosepsis → <b>urgent decompression</b> ด้วย retrograde <b>DJ stent หรือ percutaneous nephrostomy (PCN)</b> — ได้ผลเท่ากัน เลือกตามความพร้อม / coagulopathy / สภาพผู้ป่วย","ร่วมกับ: เก็บ urine + blood culture ก่อนยา, IV antibiotics, ส่ง culture ปัสสาวะที่ระบายได้จากเหนือจุดอุดซ้ำ · <b>เลื่อน definitive stone treatment (SWL / URS) ไปหลังติดเชื้อหาย</b> — ห้ามสลาย / ส่องเอานิ่วตอนติดเชื้อ (ปล่อยเชื้อเข้ากระแสเลือด)","ขนาดนิ่วไม่สำคัญ: นิ่ว 5 mm ก็ต้อง decompress ถ้ามีไข้ + hydronephrosis","<b>ไม่มีการอุดตัน</b> (ไม่มี hydronephrosis) → รักษาแบบ acute pyelonephritis: culture + antibiotics + hydration; ไข้ไม่ลงใน 48–72 ชม. → imaging ซ้ำหา obstruction / abscess","ข้อบ่งชี้ urgent decompression / intervention ของนิ่วอุดตัน: <b>infection proximal to obstruction / sepsis</b>, <b>ปวดหรืออาเจียนคุมไม่ได้</b>, <b>AKI / renal insufficiency</b>, <b>solitary (functioning) kidney</b>, <b>bilateral obstruction</b> · hematuria เล็กน้อยพบได้ปกติใน renal colic ไม่ใช่ข้อบ่งชี้ · นิ่ว ≤ 5 mm คุมปวดได้ → trial of passage ± tamsulosin","<b>Infected hydronephrosis</b> = ติดเชื้อในไตที่บวมน้ำ ยังไม่เสียเนื้อไต · <b>Pyonephrosis</b> = suppurative destruction ของ parenchyma + หนองใน collecting system → <b>สูญเสียหน้าที่ไต</b> · รักษาเหมือนกัน: IV antibiotics + urgent drainage (PCN / DJ)","Complicated UTI (ชาย, มี obstruction, มีไข้) empiric parenteral (EAU Urological Infections): amoxicillin + aminoglycoside, 2nd-gen cephalosporin + aminoglycoside หรือ IV 3rd-gen cephalosporin — เก็บ carbapenem ไว้สำหรับ ESBL · มี hydronephrosis + ไข้ ต้องคิดเรื่องระบายด้วย"],
+       pearls:["รีบรักษานิ่ว (ESWL / URS) ทั้งที่มีไข้ — ลำดับที่ถูกคือ ระบายก่อน รักษานิ่วทีหลัง","เห็นนิ่วเล็ก + hydronephrosis 'mild' แล้วเลือก conservative — ไข้ + อุด ต้อง decompress เสมอ","กลับกัน: ไข้ + นิ่ว แต่ <b>ไม่มี hydronephrosis</b> (MDCU79 RoD) → ยาอย่างเดียว อย่ารีบใส่ stent — อ่านโจทย์ให้เจอคำว่า hydronephrosis","MDCU79 RoC เป็น recall ที่จดมาไม่ครบ (มีแค่ CVA tenderness + ช้อย urgent DJ stent) — ถ้าโจทย์จริงไม่มีไข้ / ติดเชื้อ นิ่วเล็กจะตอบ MET แทน","Meropenem ไม่ใช่ first-line ของ complicated UTI ทั่วไป"],
+       members:["MDCU79|RoC|URO 5","MDCU79|RoC|URO 8","MDCU79|RoD|Uro 5","MDCU79|RoD|Uro 14","MDCU74|RoA|ไม่มีเลข 6","MDCU72|RoC|ไม่มีเลข 7","MDCU67|RoA|90","MDCU66|RoC|10"]},
+      {id:"citrate-prevention", title:"Citrate และการป้องกันนิ่วซ้ำ (ไม่จำกัด calcium)",
+       trend:"กลไกของ citrate ถามซ้ำแบบเกือบคำต่อคำหลายรุ่น",
+       asked:["Citrate ลดการเกิดนิ่วอย่างไร → <b>จับ calcium เป็น soluble complex</b> (ตัวลวง จับ oxalate / phosphate / chloride, ทำให้ปัสสาวะเป็นกรด, เพิ่ม oxalate excretion)","สารในปัสสาวะที่เป็น inhibitor สำคัญที่สุดของนิ่ว calcium → citrate","บทบาทของ citrate ในนิ่วเป็นซ้ำ","คำแนะนำทั่วไปสำหรับผู้ป่วยนิ่ว ข้อใด <b>ยกเว้น</b> → <b>จำกัด calcium</b> (ข้ออื่น: จำกัดเกลือ, จำกัดโปรตีนสัตว์, ดื่มน้ำพอ, ลดอาหาร oxalate สูง)"],
+       pattern:["<b>Citrate</b> จับ calcium ในปัสสาวะเป็น <b>soluble complex</b> → ionized calcium ที่จะไปจับ oxalate / phosphate ลดลง (ลด supersaturation) + ยับยั้ง crystal growth / aggregation โดยตรง = <b>stone inhibitor ที่สำคัญที่สุด</b> (อื่น ๆ: magnesium, pyrophosphate, Tamm-Horsfall protein)","<b>Potassium citrate</b> ทางปากถูก metabolize เป็น bicarbonate → <b>ปัสสาวะเป็นด่าง</b> (ช่วยละลาย / ป้องกัน uric acid และ cystine stone) — citrate ไม่ได้ทำให้ปัสสาวะเป็นกรด","Hypocitraturia (< 320 mg/วัน) พบใน distal RTA, chronic diarrhea, hypokalemia, อาหารโปรตีนสัตว์สูง, thiazide","General preventive measures (EAU Urolithiasis): ดื่มน้ำ 2.5–3 L/วัน ให้ปัสสาวะ 2–2.5 L/วัน · <b>calcium ในอาหารปกติ 1,000–1,200 mg/วัน</b> · NaCl 4–5 g/วัน · โปรตีนสัตว์ 0.8–1 g/kg/วัน · เลี่ยงอาหาร oxalate สูง","<b>ห้ามจำกัด calcium</b>: calcium ในลำไส้จับ oxalate ไว้ ถ้าจำกัด → oxalate ถูกดูดซึมมากขึ้น → hyperoxaluria → นิ่วมากขึ้น (เลี่ยงแค่ calcium supplement เกินจำเป็น)"],
+       pearls:["สับสนว่า citrate 'จับ oxalate' — ตัวที่ถูกจับคือ calcium","คิดว่าผู้ป่วยนิ่ว calcium ต้องงด calcium — ผิด","ห้ามจำกัดน้ำในผู้ป่วยนิ่ว (ถามเป็นช้อย 'ข้อใดไม่ควรทำ' ในเคสนิ่วท่อไต MDCU72 RoD)"],
+       members:["MDCU79|RoD|Uro 11","MDCU74|RoC|32","MDCU69|RoC|X13","MDCU68|RoD|xx","MDCU66|RoC|3","MDCU74|RoA|ไม่มีเลข 5"]},
+      {id:"renal-colic-analgesia", title:"Renal colic: ยาแก้ปวด — NSAID first-line · แพ้ NSAID → opioid",
+       trend:"เคสปวดร้าวลงขาหนีบ + บอกว่าแพ้ NSAID แล้วให้เลือกยา",
+       asked:["ปวดเอวร้าวลงขาหนีบ + <b>แพ้ NSAID รุนแรง</b> → <b>morphine</b> (ตัวลวง ibuprofen, ketorolac, diclofenac, celecoxib, hyoscine อย่างเดียว)","DM + นิ่ว distal ureter + แพ้ NSAID → morphine (ตัวลวง IV fluid, tamsulosin อย่างเดียว)","ปวด colic + N/V ข้อใด <b>ไม่เหมาะ</b> (ตามคีย์) → IV opioid (ข้ออื่น IV fluid, IV NSAID, COX-2 inhibitor, antiemetic)"],
+       pattern:["<b>NSAIDs (รวม metamizole) = first drug of choice</b> (EAU Urolithiasis 2025, strong) — ลด prostaglandin → ลด renal pelvic pressure / ureteric spasm, ปวดลดดีกว่าหรือเท่า opioid และต้องใช้ยาเสริมน้อยกว่า","<b>Opioids</b> (morphine, hydromorphone, tramadol) = ยาลำดับสอง / rescue หรือเมื่อแพ้ / มีข้อห้าม NSAID (EAU 2026: opioid หรือ ketamine เป็น second choice, weak); IV paracetamol เป็นอีกทางเลือก","COX-2 inhibitor ก็เป็น NSAID — ในผู้ที่แพ้ NSAID รุนแรงเลี่ยง","ร่วมกับ antiemetic; IV fluid ให้เมื่อขาดน้ำ (ไม่ใช่ forced hydration เพื่อขับนิ่ว) · tamsulosin เป็น MET ไม่ใช่ยาแก้ปวดเฉียบพลัน"],
+       pearls:["โจทย์ใส่ NSAID หลายตัวเป็นช้อยลวง — ต้องจำว่า ketorolac, diclofenac, ibuprofen, celecoxib เป็น NSAID ทั้งหมด","คีย์ MDCU66 RoD ตอบ IV opioid เป็น 'ไม่เหมาะ' — ความหมายคือ opioid ไม่ใช่ first-line เมื่อใช้ NSAID ได้ ไม่ได้แปลว่าห้ามใช้"],
+       members:["MDCU78|RoB|16","MDCU74|RoD|48","MDCU70|RoA|33","MDCU66|RoD|43"]},
+      {id:"renal-stone-mx", title:"นิ่วในไต: SWL / RIRS / PCNL ตามขนาด · staghorn ในไตที่เสียหน้าที่ → nephrectomy",
+       trend:"ให้ขนาดนิ่ว + ภาวะไต แล้วเลือกหัตถการ",
+       asked:["หญิง 40 ปี นิ่วไต 1 cm + hydronephrosis ไม่ปวด → <b>ESWL</b> (ตัวลวง follow-up, open pyelolithotomy)","นิ่ว 1 cm ใน minor calyx ไม่มี hydronephrosis แต่มีปวด + hematuria → <b>ESWL</b> (ตัวลวง observe, PCNL, dissolution, open surgery)","Complete staghorn ไตซ้ายทำงาน <b>10%</b> ไตขวาปกติ → <b>nephrectomy</b> (ตัวลวง PCNL, ESWL, URS, dissolution)","ไตขวาฝ่อ complete staghorn ทำงาน <b>5%</b> → right nephrectomy (ตัวลวง anatrophic nephrolithotomy, PCNL)"],
+       pattern:["EAU Urolithiasis 2025/2026 (นิ่วในไต): <b>< 10 mm</b> → SWL หรือ RIRS · <b>10–20 mm</b> → SWL หรือ endourology (RIRS / PCNL) — <b>lower pole ≥ 10 mm</b> → PCNL หรือ RIRS (EAU 2026: SWL ได้ผลจำกัดที่ lower pole) · <b>> 20 mm / staghorn</b> → <b>PCNL</b> first-line","นิ่วที่ทำให้ hydronephrosis = มีการอุด ต้องรักษา ไม่ใช่ติดตามเฉย ๆ · ข้อบ่งชี้ active treatment ของนิ่วในไต (EAU 2026): นิ่วโตขึ้น, อุดตันใหม่, ติดเชื้อ, ปวด · นิ่วใน calyx ไม่มีอาการ ไม่อุด → <b>active surveillance</b> ได้ (EAU 2026: observe ปีละครั้งใน lower calyx < 10 mm; AUA Surgical Management of Stones: active surveillance เป็น option)","Open / anatrophic surgery แทบไม่ใช้แล้ว · oral dissolution ใช้ได้เฉพาะ uric acid","<b>ไตที่ทำงานน้อยมาก</b> (renal scan; สไลด์ / คีย์ใช้ < 10%) + staghorn → เอานิ่วออกไม่ทำให้ไตฟื้น และไตเป็นแหล่งติดเชื้อเรื้อรัง (เสี่ยง XGP) → <b>(laparoscopic) simple nephrectomy</b> (AUA Surgical Management of Stones: พิจารณา nephrectomy เมื่อไตแทบไม่ทำงาน) ถ้าไตอีกข้างปกติ","Calcium oxalate monohydrate แข็งมาก แตกยากด้วย SWL"],
+       pearls:["คีย์ลายมือ MDCU74 RoD เขียนแค่เกณฑ์ขนาด (PCNL > 2 cm) — แต่โจทย์ให้ DRF 10% จึงตอบ nephrectomy","Staghorn + ไตทำงานดี → PCNL; ไตไม่ทำงาน → nephrectomy — ดูตัวเลข function ก่อนดูขนาด","MDCU67 RoA: ต้นฉบับเขียน 'ไม่เคยมี hydronephrosis มีปวด และปัสสาวะเป็นเลือด' = มีอาการ → คลังตอบ ESWL ตามคีย์ (EAU 2025/2026: 10–20 mm ไม่ใช่ lower pole → SWL / RIRS) · ⚠ ถ้าข้อสอบจริงบอกว่าไม่มีอาการและไม่อุด → observe (active surveillance) ตาม EAU 2026 / AUA · ถ้ามี hydronephrosis / ปวด / นิ่วโต (MDCU69 RoA) → ESWL"],
+       members:["MDCU69|RoA|12","MDCU67|RoA|76","MDCU74|RoD|35","MDCU71|RoA|12"]},
+      {id:"bladder-stone", title:"นิ่วกระเพาะปัสสาวะ (จาก BOO) และนิ่วติดท่อปัสสาวะ",
+       trend:"อาการ 'ปัสสาวะหยุดกลางคัน เปลี่ยนท่าแล้วออก' = bladder stone ถามซ้ำ",
+       asked:["ปัสสาวะสะดุดหยุดกะทันหันขณะปัสสาวะ ดีขึ้นเมื่อเปลี่ยนท่า → <b>bladder calculus</b> (ตัวลวง urethral stricture, OAB, detrusor underactivity, SUI)","ชายปัสสาวะหยุดกะทันหันเป็น ๆ หาย ๆ 1 เดือน → bladder calculus (ตัวลวง urethral calculus, stricture, bladder tumor)","ชาย 62 ปี BPH กินยาไม่สม่ำเสมอ terminal hematuria + CT นิ่ว bladder 3 cm prostate ~40 g → <b>transurethral cystolitholapaxy</b> (ตัวลวง hydration, รักษา BPH 3 เดือน, ESWL, open cystolithotomy)","ชาย 29 ปี ปัสสาวะไม่ออกทันทีขณะปัสสาวะ คลำ bladder ได้ + นิ่ว 1.5 cm ใน anterior urethra → <b>lidocaine jelly แล้วดันนิ่วกลับเข้า bladder</b> (ตัวลวง ใส่ Foley ทันที, suprapubic cystostomy ก่อน, cystoscopy GA)"],
+       pattern:["อาการเด่น: <b>interruption of stream</b> (นิ่วกลิ้งไปอุด bladder neck) ดีขึ้นเมื่อเปลี่ยนท่า, <b>terminal hematuria</b>, ปวดร้าวไปปลายองคชาตตอนท้ายปัสสาวะ (เด็กดึงองคชาต)","ผู้ใหญ่ส่วนใหญ่เป็น secondary stone จาก <b>bladder outlet obstruction (BPH, stricture)</b>, neurogenic bladder, สายสวนเรื้อรัง → ต้องแก้สาเหตุด้วย · bladder stone จาก BPH = ข้อบ่งชี้ผ่าตัดต่อมลูกหมาก","EAU Urolithiasis 2025: ผู้ใหญ่เริ่มที่ <b>transurethral cystolithotripsy / cystolitholapaxy</b> + แก้ BOO (TURP / HoLEP) ใน session เดียวกัน · percutaneous สำหรับก้อนใหญ่ · open cystolithotomy เมื่อนิ่วใหญ่มากหรือต้องทำ open prostatectomy ร่วม · ESWL ไม่ใช่วิธีหลักของนิ่ว bladder","<b>นิ่วติด urethra</b> + retention: ใส่ <b>2% lidocaine jelly</b> (ชา + หล่อลื่น) แล้วดันนิ่วกลับเข้า bladder → ใส่ Foley ระบาย → สลายนิ่วใน bladder ภายหลัง · ดันไม่ได้ → suprapubic cystostomy แล้ว endoscopic lithotripsy · ห้ามฝืนใส่ Foley ผ่านนิ่ว"],
+       pearls:["'Intermittency' ทั่วไปพบใน BPH — คำที่ชี้ bladder stone คือ <b>หยุดกะทันหัน + เปลี่ยนท่าแล้วออก</b>; stricture จะค่อย ๆ ลำเล็กลง","MDCU79 RoC ต้นฉบับบอกแค่ 'ก้อนใหญ่ ๆ' — bank เติมขนาด 3 cm; ถ้านิ่วใหญ่มากหรือต้อง open prostatectomy ร่วม คำตอบเปลี่ยนเป็น open cystolithotomy"],
+       members:["MDCU79|RoC|URO 6b","MDCU79|RoD|Uro 12","MDCU77|RoB|Uro 4","MDCU76|RoD|35"]},
+      {id:"ureteric-stone-mx", title:"นิ่วท่อไต: MET vs ureteroscopy / SWL ตามขนาด",
+       trend:"ให้ขนาดและตำแหน่งนิ่วท่อไตที่ไม่มีไข้ แล้วถามการรักษา",
+       asked:["ชาย 25 ปี นิ่ว distal ureter 5 mm ไม่มีไข้ ไตปกติ คุมปวดได้ → <b>analgesic + alpha-blocker + hydration แล้ว KUB ซ้ำ 4 สัปดาห์</b> (ตัวลวง NSAID + <b>beta</b>-blocker, ESWL, URS, PCNL)","IVP นิ่วท่อไต 1.5 cm + mild hydronephrosis ปวดหลังมาก → <b>DJ stent</b> (ตัวลวง hydration + alpha-blocker, open ureterolithotomy, observe)","นิ่ว calcium 8 mm ที่ distal ureter ข้อใด <b>ไม่ควรทำ</b> → <b>จำกัดน้ำ</b> (ทำได้: MET, SWL, URS, potassium citrate)"],
+       pattern:["นิ่ว ≤ 5 mm หลุดเองได้สูง (distal ~70–90%) → observation + NSAID","<b>MET</b>: EAU Urolithiasis 2025/2026 (strong) แนะนำ <b>alpha-blocker (tamsulosin)</b> เป็นทางเลือกหนึ่งสำหรับนิ่ว <b>distal ureter 5–10 mm</b> ที่ไม่มีข้อบ่งชี้เอานิ่วออก · ติดตาม imaging ภายใน 4–6 สัปดาห์ ถ้าไม่หลุด / ปวดไม่หาย / ติดเชื้อ / ไตเสื่อม → intervene","นิ่ว > 10 mm หลุดเองยาก → active removal: <b>ureteroscopy</b> (first-line โดยเฉพาะ distal) หรือ SWL · ปวดคุมไม่ได้ / อุดมาก → DJ stent ระบายก่อนได้","ไม่ทำ: จำกัดน้ำ · ไม่มีไข้ / ไม่มี AKI → ไม่ต้อง decompress ฉุกเฉิน"],
+       pearls:["Alpha-blocker ไม่ใช่ beta-blocker — ช้อยลวงสลับตัวอักษร","MDCU77 RoA ต้นฉบับไม่บอกขนาดและตำแหน่ง bank เติม 5 mm distal ไม่มีไข้ — ถ้ามีไข้ + อุด คำตอบเปลี่ยนเป็น decompression","MDCU77 RoC: การรักษาที่หายขาดของนิ่ว 1.5 cm คือ URS แต่ในช้อยมีแค่ DJ stent"],
+       members:["MDCU77|RoA|Uro 7","MDCU77|RoC|Uro 4","MDCU72|RoD|3"]},
+      {id:"stone-imaging", title:"Imaging ของนิ่ว: NCCT KUB และการอ่าน KUB ตามแนวท่อไต",
+       trend:"ให้เงื่อนไข 'KUB / IVP ไม่เห็นนิ่ว' หรือ 'แพ้สี' แล้วถามการตรวจยืนยัน",
+       asked:["ชาย 20 ปี gross hematuria ปวดร้าวลงขาหนีบ เคยเป็นนิ่ว KUB ไม่เห็นเงาทึบ แพ้ contrast → <b>non-contrast spiral CT</b> (ตัวลวง US, MRI, RPG, renal scan)","ปวดร้าวลงขาหนีบ IVP ไม่เห็นนิ่ว → ยืนยันด้วย non-contrast spiral CT","Renal colic + KUB เงาทึบแนวท่อไตซ้าย → <b>left (mid) ureteric stone</b> (ตัวลวง UPJ obstruction, phlebolith, calcified mesenteric node, staghorn)"],
+       pattern:["<b>Non-contrast (low-dose) CT KUB = gold standard</b> (sensitivity / specificity ~95–98%) — เห็นนิ่วเกือบทุกชนิดรวม uric acid ที่ radiolucent บน KUB, ไม่ต้องฉีดสี (เหมาะกับแพ้สี / ไตเสื่อม) · ข้อยกเว้น: indinavir stone มองไม่เห็นแม้บน CT","US เป็น first-line ในหญิงตั้งครรภ์และเด็ก · KUB ใช้ติดตามนิ่วทึบรังสี","แนวท่อไตบน KUB: วิ่งตามปลาย transverse process ของ lumbar spine → ข้าม <b>sacroiliac joint</b> → ลง pelvis ไปทาง ischial spine → bladder · แบ่ง <b>upper</b> (UPJ ถึงขอบบน sacrum), <b>middle</b> (ทับ sacrum / SI joint), <b>lower / distal</b> (ใต้ SI joint ถึง VUJ)","ปวดร้าวลง groin / อัณฑะ / แคม = นิ่วลงมาในท่อไตแล้ว · Phlebolith = เงากลมขอบเรียบในอุ้งเชิงกราน มักมีจุดโปร่งตรงกลาง — ยืนยันด้วย NCCT เมื่อแยกไม่ได้"],
+       pearls:["Uric acid stone ไม่ทึบบน KUB แต่เห็นบน CT","MDCU79 RoD: ในรูปใกล้เคียงเงานิ่วอยู่ข้าง transverse process ระดับ L3 (จริง ๆ คือ upper ureter) แต่ไม่มีช้อย upper จึงตอบตามคีย์ mid ureteric stone — ถ้ามีช้อย upper ให้ดูตำแหน่งเทียบ SI joint ก่อนตอบ"],
+       members:["MDCU79|RoD|Uro 6","MDCU68|RoB|42","MDCU66|RoC|12"]},
+      {id:"stone-type", title:"ชนิดนิ่วที่พบบ่อยและผลึก (calcium oxalate, cystine)",
+       trend:"ถามความถี่ของชนิดนิ่วและรูปผลึก",
+       asked:["นิ่วชนิดใดพบบ่อยที่สุด → <b>calcium oxalate</b>","นิ่ว 2 cm ใน renal pelvis ไม่มีอาการ ส่วนประกอบน่าจะเป็น → <b>calcium oxalate monohydrate</b>","ปวด colic + microscopic hematuria + <b>hexagonal crystals</b> → <b>cystine stone</b>"],
+       pattern:["ความถี่: <b>calcium oxalate (± phosphate) ~70–80%</b> (monohydrate / whewellite พบมากกว่า dihydrate และแข็งกว่า) > uric acid ~5–10% > struvite ~5–10% > cystine 1–2%","ผลึก: <b>hexagonal = cystine</b> · coffin lid = struvite · envelope = calcium oxalate dihydrate · dumbbell / needle = calcium oxalate monohydrate","<b>Cystinuria</b>: autosomal recessive, ดูดกลับ COLA (cystine, ornithine, lysine, arginine) ที่ proximal tubule ไม่ได้ · cyanide-nitroprusside test บวก · ทึบรังสีเล็กน้อย (ground-glass) · รักษา: ดื่มน้ำ > 3 L/วัน, alkalinize urine pH > 7–7.5 ด้วย potassium citrate, thiol drugs (tiopronin, D-penicillamine)","Uric acid: radiolucent บน KUB, ละลายได้ด้วย alkalinization"],
+       pearls:["ช้อยในต้นฉบับ MDCU75 RoC มี magnesium ammonium phosphate กับ struvite ซึ่งเป็นตัวเดียวกัน — ตัดทิ้งได้ทั้งคู่"],
+       members:["MDCU77|RoA|Uro 2","MDCU75|RoC|Uro 1","MDCU78|RoB|17"]},
+      {id:"endemic-stone", title:"Endemic bladder stone ในเด็กอีสาน และภูมิภาคที่พบนิ่วมากในไทย",
+       trend:"ข้อระบาดวิทยาเฉพาะไทยที่ออกซ้ำ",
+       asked:["นิ่วกระเพาะปัสสาวะในเด็กอีสานสมัยก่อน ปัจจัยหลัก → <b>อาหารโปรตีนสัตว์ (และฟอสเฟต) ต่ำ</b> (ตัวลวง พันธุกรรม, ภูมิอากาศ, chronic UTI / Proteus, calcium มาก, neurogenic bladder, hyperparathyroidism)","ภูมิภาคที่พบนิ่วทางเดินปัสสาวะมากที่สุดในไทย → <b>ภาคเหนือและตะวันออกเฉียงเหนือ</b>"],
+       pattern:["Endemic bladder stone ในเด็ก (อีสานในอดีต): อาหารข้าวเหนียวเป็นหลัก <b>ขาดโปรตีนสัตว์และฟอสเฟต</b> + ผักพื้นบ้าน oxalate สูง + ดื่มน้ำน้อย → ปัสสาวะ phosphate ต่ำ oxalate สูง → นิ่ว ammonium acid urate / calcium oxalate · ลดลงมากเมื่อโภชนาการดีขึ้น (นม, โปรตีน)","นิ่วทางเดินปัสสาวะส่วนบนพบมากในภาคเหนือและอีสาน (stone belt ของไทย)"],
+       pearls:["เลือก chronic UTI เพราะนึกถึง infection stone — endemic stone ในเด็กไทยเป็นเรื่องโภชนาการ","ผู้จด MDCU74 RoD จำช้อยว่า 'lack of animal fat diet' — หมายถึงอาหารจากสัตว์ (โปรตีน)"],
+       members:["MDCU76|RoD|26","MDCU74|RoD|19","MDCU67|RoC|86"]},
+      {id:"swl-ci", title:"ข้อห้ามของ shock wave lithotripsy (SWL)",
+       trend:"ถามแบบ 'ข้อใดเป็น / ไม่เป็นข้อห้าม'",
+       asked:["ข้อใด <b>ไม่ใช่</b> ข้อห้าม SWL → <b>gross hematuria</b> (ข้อห้ามจริง: ตั้งครรภ์, UTI, obstruction distal ต่อนิ่ว, aneurysm ใกล้นิ่ว)","ชาย DM นิ่ว distal ureter 10 mm อยากทำ SWL ข้อใดเป็นข้อห้าม → <b>uncontrolled coagulopathy</b> (ตัวลวง เคย SWL 1 ปีก่อน, DM ฉีด insulin, หูหนวก, แผลผ่าตัดไส้ติ่ง)"],
+       pattern:["ข้อห้าม SWL (EAU Urolithiasis): <b>ตั้งครรภ์</b>, <b>bleeding diathesis / ยาต้านเกล็ดเลือด-ยาละลายลิ่มเลือดที่หยุดไม่ได้</b>, <b>UTI ที่ยังไม่ควบคุม</b>, <b>anatomical obstruction distal ต่อนิ่ว</b> (เศษนิ่วออกไม่ได้), <b>arterial aneurysm ใกล้นิ่ว</b>, skeletal malformation / อ้วนมากจน target ไม่ได้","Gross hematuria เองไม่ใช่ข้อห้าม (ข้อห้ามคือภาวะเลือดออกง่าย) · เคยทำ SWL, DM, แผลผ่าตัดเก่า ไม่ใช่ข้อห้าม · pacemaker / defibrillator ต้องระวังตามคีย์เก่า"],
+       pearls:["คิดว่าเลือดในปัสสาวะทุกแบบห้ามทำ SWL — ห้ามเฉพาะ coagulopathy","ต้นฉบับ MDCU70 RoB เขียน 10 cm น่าจะหมายถึง 10 mm"],
+       members:["MDCU76|RoC|Uro 5","MDCU70|RoB|11"]}
+    ]},
+    {title:"Pediatric urology: อวัยวะเพศและอัณฑะ", sections:[
+      {id:"hypospadias", title:"Hypospadias: ventral meatus + chordee + dorsal hood · หา UDT · ห้ามขลิบ · ผ่าตัด 6–18 เดือน",
+       trend:"ถามลักษณะ, สิ่งที่ต้องหาเพิ่ม, คำแนะนำพ่อแม่ และผลถ้าไม่รักษา",
+       asked:["Ventral midshaft meatus มีลักษณะร่วมอะไร → <b>ventral curvature + dorsal hood</b>","ทารกชาย ventral meatus chordee dorsal hood ต้องหาความผิดปกติใดเพิ่ม → <b>undescended testis</b> (ตัวลวง epispadias, EA, duodenal atresia, craniosynostosis, CHD, imperforate anus, Wilms, cleft palate) — ถามสองรุ่น","เด็กมีรูเปิดผิดตำแหน่ง + dorsal hooded foreskin → <b>hypospadias repair</b> (ตัวลวง straightening อย่างเดียว, early circumcision, observe ถึงวัยรุ่น, urethral dilatation)","Ventral mid-shaft meatus + dorsal hood ต้องบอกพ่อแม่ให้หลีกเลี่ยงอะไรก่อนผ่าตัด → <b>circumcision</b>","เด็ก 10 เดือน mid-shaft hypospadias คำแนะนำที่ถูก → <b>ห้าม neonatal circumcision</b> (ตัวลวง ผ่าตอนวัยรุ่นดีสุด, ATB prophylaxis, ต้อง US ไตทุกราย, ฮอร์โมนจำเป็นทุกราย)","เด็ก 4 ปี penoscrotal meatus dorsal hood penis ตรง ถ้าไม่รักษาจะเกิดอะไร → <b>infertility</b> (ตัวลวง ED, retrograde ejaculation, AUR, มีเพศสัมพันธ์ไม่ได้)","Proximal ventral meatus + chordee ถ้าไม่ซ่อม ผลในผู้ใหญ่ → infertility"],
+       pattern:["Triad: <b>meatus ด้าน ventral</b> (glanular → penoscrotal / perineal), <b>ventral curvature (chordee)</b>, <b>dorsal hooded prepuce</b> (prepuce ด้านล่างขาด) · ~1 ใน 200–300 ชาย","หาร่วม: <b>UDT</b> (~5–10%) และ inguinal hernia · <b>proximal hypospadias + UDT (โดยเฉพาะคลำไม่ได้) → DSD work-up</b> (karyotype, 17-OHP, electrolytes) · isolated distal hypospadias ไม่ต้อง US ไตหรือ ATB prophylaxis","<b>ห้าม circumcision</b> — prepuce ใช้เป็นเนื้อเยื่อซ่อม urethra / skin coverage","ผ่าตัด (urethroplasty + orthoplasty แก้ curvature > 30°) อายุราว <b>6–18 เดือน</b> · hormone ก่อนผ่าบางรายที่องคชาตเล็ก ไม่ใช่ทุกราย","ไม่รักษา (โดยเฉพาะ proximal): ปัสสาวะยืนไม่ได้ / ลำปัสสาวะเบี่ยง, องคชาตงอมีเพศสัมพันธ์ลำบาก, ejaculate ไม่ถึง cervix (ineffective insemination) → <b>infertility</b> · erection ปกติ (ไม่ใช่ ED)"],
+       pearls:["จำสลับ hypo- (ventral) กับ epi- (dorsal) — chordee อยู่ฝั่งเดียวกับรูเปิด hood อยู่ฝั่งตรงข้าม","ทำ circumcision ก่อนซ่อม ทำให้เสียหนังที่ต้องใช้"],
+       members:["MDCU67|RoA|81","MDCU79|RoD|Ped 16","MDCU77|RoC|Uro 7","MDCU77|RoA|Uro 9","MDCU76|RoD|57","MDCU75|RoC|Ped 2","MDCU72|RoC|8","MDCU69|RoA|8"]},
+      {id:"dsd-cah", title:"Ambiguous genitalia / DSD → electrolytes ด่วน (CAH salt-wasting) + karyotype",
+       trend:"ถามซ้ำเกือบทุกรุ่น: lab ที่ด่วนที่สุดคือ electrolytes",
+       asked:["ทารก ambiguous genitalia lab ใดด่วนที่สุด → <b>serum electrolytes</b> (ตัวลวง TFT, CT, calcium, gonadal biopsy)","ทารก labia เชื่อม clitoris โต คลำ gonad ไม่ได้ → serum electrolytes (ตัวลวง vitamin K, albumin, calcium, LFT)","ทารกหญิง clitoromegaly + labioscrotal fusion ปัสสาวะปกติ → initial = <b>karyotype + electrolytes</b> (ตัวลวง topical steroid, ผ่าตัด clitoris ทันที / 6–12 เดือน) — ถามสองรุ่น","ทารก ambiguous genitalia คลำ gonad ไม่ได้ + hypospadias สงสัย CAH คาด electrolyte ผิดปกติแบบใด → <b>hyponatremia</b> (ตัวลวง hypokalemia, hypophosphatemia, hypocalcemia)","ทารกดูเป็นชาย phallus เล็กมาก คลำ gonad ไม่ได้สองข้าง → ต้องระวัง <b>hyponatremia</b>","ทารกชาย micropenis + bilateral UDT นอกจาก chromosome / hormone ต้องส่ง → <b>serum electrolytes</b>","เด็ก 13 ปี bilateral gynecomastia + scrotal hypospadias + bilateral non-palpable testes → <b>chromosomal study</b> (ตัวลวง mammogram, US เต้านม, mastectomy, observe)"],
+       pattern:["สาเหตุพบบ่อยที่สุดของ ambiguous genitalia ในทารก (46,XX DSD) = <b>CAH จาก 21-hydroxylase deficiency</b> (~95% ของ CAH): ขาด cortisol + aldosterone → precursor ไปสร้าง androgen → ทารกหญิง virilized (clitoromegaly, labioscrotal fusion — ดูเหมือน hypospadias + UDT แต่ gonad คลำไม่ได้เพราะเป็นรังไข่)","<b>Salt-wasting (~75%)</b> ช่วงอายุ 1–3 สัปดาห์: <b>hyponatremia, hyperkalemia</b>, metabolic acidosis, hypoglycemia, hypovolemic shock → ส่ง <b>electrolytes + glucose ด่วน</b> พร้อม 17-OHP, karyotype, pelvic US","<b>ทารก 'ชาย' ที่คลำ gonad ไม่ได้สองข้าง (± micropenis / hypospadias) = ถือเป็น 46,XX CAH จนกว่าพิสูจน์ได้</b>","รักษา CAH: hydrocortisone + fludrocortisone + NaCl; crisis → NSS bolus + stress-dose IV hydrocortisone · <b>ไม่ผ่าตัดอวัยวะเพศเร่งด่วน</b> — ตัดสินใจโดยทีม DSD","วัยรุ่น hypospadias + UDT + gynecomastia → DSD (เช่น partial androgen insensitivity, ovotesticular) → <b>karyotype</b> + hormone ก่อนรักษาที่เต้านม"],
+       pearls:["ตอบ karyotype / imaging ก่อน โดยลืมภาวะคุกคามชีวิตจาก salt-wasting","ถือว่าเป็นแค่ UDT ธรรมดาในทารกที่คลำ gonad ไม่ได้สองข้าง"],
+       members:["MDCU76|RoA|25","MDCU74|RoA|ไม่มีเลข 3","MDCU67|RoB|80","MDCU66|RoA|17","MDCU79|RoD|Ped 17","MDCU76|RoD|61","MDCU71|RoA|9","MDCU77|RoC|Ped 9"]},
+      {id:"phimosis-path", title:"Pathologic phimosis / balanoposthitis ซ้ำ → circumcision",
+       trend:"ตัวตัดสินคือ แผลเป็นวงขาว / balanoposthitis ซ้ำ / steroid ล้มเหลว",
+       asked:["เด็ก 2 ปี รูดหนังหุ้มไม่ได้ balanoposthitis 2 ครั้ง → <b>circumcision</b> (ตัวลวง topical steroid, observe, forceful retraction, ATB prophylaxis)","เด็ก < 4 ปี phimosis + balanoposthitis 2 ครั้ง → circumcision","เด็ก 1 ปี ปัสสาวะลำเล็ก ballooning มี<b>วงแผลเป็นสีขาว</b>ที่ปลาย prepuce → circumcision (ตัวลวง topical steroid, urethral dilatation)","เด็ก 3 ปี ballooning + balanoposthitis 3 ครั้ง + white scar → circumcision (ตัวลวง steroid, observe ถึง 4 ปี, manual reduction)","เด็ก 9 ปี pathologic phimosis scarring + balanoposthitis ซ้ำแม้ใช้ steroid → circumcision","เด็ก 12 ปี ballooning balanoposthitis ซ้ำ ปากหนังหุ้มเป็นแผลเป็น steroid ไม่ดีขึ้น → circumcision (ตัวลวง ventral slit, manual reduction)","ประโยชน์ของ neonatal circumcision → <b>ลดการติดเชื้อ</b> (ตัวลวง เพิ่ม fertility, ป้องกัน hypospadias / UDT / testicular cancer)"],
+       pattern:["<b>Pathologic (secondary) phimosis</b> = แผลเป็นวงขาวแข็งที่ปลายหนังหุ้ม (<b>BXO / lichen sclerosus</b>) → ตอบ steroid ไม่ดี → <b>circumcision</b> (EAU Paediatric 2025: circumcision ใน BXO หรือ phimosis ที่ไม่ตอบสนองการรักษา)","ข้อบ่งชี้ circumcision อื่น: <b>recurrent balanoposthitis</b>, UTI ซ้ำในเด็กที่มีความผิดปกติทางเดินปัสสาวะ, topical steroid ล้มเหลว · ballooning อย่างเดียวไม่ใช่ข้อบ่งชี้เด็ดขาด","Neonatal circumcision: ลด UTI ในขวบปีแรก, ลด STI / HIV / HPV, ลด penile cancer, ป้องกัน phimosis / balanitis · <b>ห้ามขลิบใน hypospadias / epispadias / chordee / buried penis</b>"],
+       pearls:["คีย์ไฟล์ 01.2 ของ MDCU69 RoC ตอบ manual reduction (คิดว่าเป็น paraphimosis) — ผิด คีย์ชุดแรกและ bank ตอบ circumcision","MDCU77 RoB ต้นฉบับจดแค่ 'ballooning of prepuce มา 5 hours' — ถ้าโจทย์จริงเป็น paraphimosis จะตอบ manual reduction","คีย์ MDCU77 RoA เขียน 'B (A?)' — balanitis ครั้งเดียวตอบ steroid ได้ ซ้ำหลายครั้ง = circumcision"],
+       members:["MDCU77|RoA|Uro 8","MDCU72|RoD|8","MDCU77|RoC|Uro 6","MDCU69|RoC|R1","MDCU74|RoC|7","MDCU77|RoB|Ped 5","MDCU67|RoC|79"]},
+      {id:"phimosis-physio", title:"Physiologic phimosis: เด็กเล็กไม่มีอาการ → observe · มีอาการ / ผู้ปกครองต้องการรักษา → topical steroid",
+       trend:"ให้อายุ + อาการ แล้วแยก observe กับ steroid",
+       asked:["เด็ก 1 ปี รูดหนังหุ้มไม่ได้ ไม่เคยติดเชื้อ ปัสสาวะปกติ → <b>observe ถึงราว 4 ปี</b> (ตัวลวง circumcision, steroid, topical ATB, forcible retraction)","เด็ก 3 ปี ไม่มี ballooning / ติดเชื้อ / ปัญหาปัสสาวะ หนังหุ้มปกติ → <b>follow-up + reassurance</b>","เด็ก 3 ปี phimosis ไม่มีแผลเป็น ไม่เคย balanitis → <b>topical steroid + ให้คำแนะนำพ่อแม่</b> (ตัวลวง circumcision, forced retraction, dorsal slit)","เด็ก 5 ปี ballooning ไม่มีติดเชื้อ / แผลเป็น พ่อแม่ต้องการรักษา → <b>topical steroid cream</b> (ตัวลวง reassure, oral ATB, dorsal slit, circumcision ทันที)","เด็ก 5 ปี ไม่เคย ballooning / balanitis / ปวด → <b>topical 0.1% triamcinolone</b> (ตัวลวง รอหายเอง, circumcision)"],
+       pattern:["หนังหุ้มติด glans ตั้งแต่เกิดและแยกเองทีละน้อย: รูดได้ ~50% ที่ 1 ปี, ~90% ที่ 3 ปี, > 99% ที่ 17 ปี → <b>physiologic phimosis ในเด็กเล็กไม่มีอาการ = observe</b> + สอนทำความสะอาด","<b>ห้ามรูดแรง (forced retraction)</b> → แผลเป็น → กลายเป็น pathologic phimosis","<b>Topical corticosteroid</b> = first-line เมื่อมีอาการ (ballooning, ปัสสาวะลำบาก) หรือยังไม่เปิดหลังอายุ ~3–4 ปี / ผู้ปกครองต้องการรักษา (EAU Paediatric 2025): 0.05–0.1% (betamethasone / triamcinolone) วันละ 2 ครั้ง 4–8 สัปดาห์ สำเร็จ > 80–90%","Steroid ล้มเหลว / มีแผลเป็น / ติดเชื้อซ้ำ → circumcision"],
+       pearls:["รุ่นต่างกันให้คำตอบต่างกันตามรายละเอียด: 1–3 ปีไม่มีอะไรเลย → observe / reassure; มี ballooning, พ่อแม่ต้องการ, หรือโตกว่า ~4 ปี → steroid","ตัดสินใจขลิบทันทีเพราะรูดไม่ได้"],
+       members:["MDCU70|RoA|40","MDCU74|RoC|35","MDCU79|RoD|Ped 4","MDCU76|RoD|55","MDCU67|RoA|80"]},
+      {id:"udt-nonpalpable", title:"UDT คลำไม่ได้ (non-palpable) → EUA + diagnostic laparoscopy · หลังวัยรุ่นฝ่อ → orchidectomy",
+       trend:"ตัวลวงหลักคือ imaging (US / CT / MRI) ที่ไม่พบอัณฑะ",
+       asked:["เด็ก 18 เดือน อัณฑะซ้ายคลำไม่ได้ US ไม่เห็น → <b>diagnostic laparoscopy</b> (ตัวลวง observe 6 เดือน, hCG stimulation, MRI, orchiectomy ทันที)","เด็ก 2 ปี อัณฑะขวาคลำไม่ได้ตรวจซ้ำแล้ว → diagnostic laparoscopy (ตัวลวง follow, MRI, US, inguinal exploration)","เด็ก 3 ปี อัณฑะซ้ายคลำไม่ได้ → diagnostic laparoscopy (ตัวลวง CT, MRI, US follow, hormone)","เด็ก 3 ปี คลำไม่ได้ US ขาหนีบและถุงไม่พบ → diagnostic laparoscopy (ตัวลวง วินิจฉัยว่าไม่มีอัณฑะแต่กำเนิด)","เด็ก 14 ปี unilateral non-palpable laparoscopy พบ <b>อัณฑะฝ่อในช่องท้อง</b> อีกข้างปกติ → <b>orchidectomy</b> (ตัวลวง orchidopexy, hCG, US ทุกปี, biopsy + orchidopexy)"],
+       pattern:["Non-palpable testis → <b>exam under anesthesia + diagnostic laparoscopy</b> (EAU Paediatric 2025, strong) = gold standard: (1) intra-abdominal testis → laparoscopic orchidopexy (one-stage หรือ Fowler-Stephens 2 stage) (2) vas + vessels เข้า internal ring → สำรวจ inguinal (3) blind-ending vessels = vanishing testis","<b>US / CT / MRI ไม่แนะนำ</b> — ผลลบไม่ได้แปลว่าไม่มีอัณฑะ และไม่เปลี่ยนการรักษา","<b>หลังวัยเจริญพันธุ์ + อัณฑะฝ่อในช่องท้อง + อีกข้างปกติ</b> → <b>orchidectomy</b> (สร้างอสุจิไม่ได้แล้ว เสี่ยงมะเร็ง และคลำติดตามไม่ได้)","Bilateral non-palpable (โดยเฉพาะ + hypospadias) → ต้องคิด DSD / CAH ก่อน"],
+       pearls:["เชื่อ imaging ที่ไม่พบอัณฑะ","ทำ orchidopexy ตามหลักเด็กเล็กในวัยรุ่นที่อัณฑะฝ่อ"],
+       members:["MDCU79|RoD|Uro 17","MDCU75|RoC|Ped 1","MDCU68|RoC|21","MDCU67|RoB|14","MDCU76|RoD|60"]},
+      {id:"udt-palpable", title:"UDT คลำได้ (palpable): รอถึง 6 เดือน → inguinal orchidopexy ก่อน 12 เดือน (ช้าสุด 18 เดือน)",
+       trend:"ถามว่า 'ตอนนี้อายุเท่านี้ ทำอะไร'",
+       asked:["เด็ก 1 เดือน อัณฑะซ้ายคลำได้ใน inguinal canal → <b>observe ถึง 6–12 เดือน</b> (ตัวลวง β-hCG, orchiopexy ทันที, testosterone)","เด็ก 15 เดือน อัณฑะสองข้างคลำได้ที่ขาหนีบ ดันลงถุงไม่ได้ → <b>bilateral orchiopexy ใน session เดียว</b> (ตัวลวง laparoscopy, รอถึง 2 ขวบ, US, hCG)","เด็ก 2 ปี อัณฑะซ้ายคลำได้ที่ inguinal canal → <b>left orchiopexy</b> (ตัวลวง orchiectomy, testosterone, laparoscopy, conservative)","เด็ก 4 ปี อัณฑะซ้ายคลำได้ใน inguinal canal → <b>orchidopexy โดยเร็ว</b> (ตัวลวง hCG, observe ถึงวัยรุ่น, testosterone, laparoscopy)"],
+       pattern:["UDT ลงเองได้ภายใน <b>6 เดือน</b> (corrected age) หลังจากนั้นโอกาสต่ำมาก → ส่งต่อเมื่ออายุ 6 เดือน","<b>EAU Paediatric 2025</b> (strong): orchidopexy <b>ก่อนอายุ 12 เดือน และช้าสุด 18 เดือน</b> (AUA: ภายใน 18 เดือน) — ลด germ cell loss และให้คลำตรวจมะเร็งได้ · เลยเวลาแล้ว → ผ่าโดยเร็ว","<b>Palpable → inguinal orchidopexy</b> · bilateral palpable ทำพร้อมกันได้ · <b>ไม่ต้อง US</b> ก่อนผ่าตัด","<b>Hormonal therapy ไม่แนะนำ</b>สำหรับ unilateral UDT (ได้ผลต่ำ) · bilateral non-palpable → endocrine / DSD work-up"],
+       pearls:["ทารก 1 เดือนรีบผ่า — ยังรอให้ลงเองได้","ส่ง US ก่อนส่งต่อ — guideline ไม่แนะนำ"],
+       members:["MDCU66|RoA|16","MDCU78|RoB|23","MDCU66|RoC|15","MDCU79|RoD|Uro 16"]},
+      {id:"hydrocele", title:"Hydrocele ในเด็ก: non-communicating → observe · communicating ที่ไม่หาย → inguinal ligation ของ processus vaginalis",
+       trend:"ให้ลักษณะ 'ส่องไฟผ่าน บีบไม่ยุบ ขนาดคงที่' แล้วถาม Dx / Mx",
+       asked:["เด็กชายถุงอัณฑะขวาบวม transilluminate นอนหรือบีบไม่ยุบ → <b>non-communicating hydrocele</b> (ตัวลวง varicocele, communicating hydrocele, hernia, tumor)","ทารก 4 เดือน ถุงอัณฑะบวมข้างเดียว ขนาดคงที่ silk glove sign ลบ transillumination บวก → <b>follow-up</b> (ตัวลวง aspiration, hydrocelectomy ทันที, herniotomy ใน 48 ชม., US + markers)","ทารก 6 เดือน ก้อน cystic irreducible ไม่เปลี่ยนขนาด ส่องไฟผ่าน อัณฑะปกติ → <b>observation</b> (ตัวลวง marsupialization, hydrocelectomy inguinal / scrotal, aspiration)","Persistent <b>communicating</b> hydrocele ในเด็ก → <b>inguinal ligation of processus vaginalis</b> (ตัวลวง aspiration, sclerotherapy, รอถึง 10 ปี, scrotal hydrocelectomy)"],
+       pattern:["Non-communicating: ขนาดคงที่ บีบไม่ยุบ ส่องไฟผ่าน silk glove sign ลบ → ทารกส่วนใหญ่หายเองใน 12–24 เดือน → <b>observe</b> (EAU Paediatric 2025: สังเกต 12 เดือนก่อนพิจารณาผ่าตัด)","Communicating (patent processus vaginalis): ขนาดเปลี่ยนในวัน (เล็กตอนเช้า ใหญ่ตอนเย็น / ยืน) บีบยุบช้า ๆ silk glove sign บวก → <b>รักษาเหมือน inguinal hernia</b>: inguinal incision + high ligation ของ processus vaginalis (herniotomy) เมื่อไม่หายตามเวลา","ผ่าตัดเร็วเมื่อสงสัย hernia ร่วม หรือมีพยาธิสภาพของอัณฑะ · <b>ห้ามเจาะดูด / sclerotherapy</b> ในเด็ก (ติดเชื้อ, เป็นซ้ำ) · scrotal approach ใช้ใน adult hydrocele","Hydrocele ที่เกิดใหม่ในเด็กโต / ผู้ใหญ่ → US แยก tumor / torsion / epididymitis (reactive hydrocele)"],
+       pearls:["คำว่า irreducible ชวนคิด incarcerated hernia — hernia คลำขอบบนของก้อนไม่ได้และส่องไฟไม่ผ่าน (ยกเว้นทารกบางราย)","ผ่าตัดเร็วเหมือน inguinal hernia ทั้งที่เป็น non-communicating"],
+       members:["MDCU79|RoD|Ped 7","MDCU75|RoD|Ped 7","MDCU74|RoA|44","MDCU70|RoC|ไม่มีเลข 2"]},
+      {id:"udt-complication", title:"ภาวะแทรกซ้อนของ UDT (orchitis ไม่ใช่) และความเสี่ยงที่เหลือหลัง orchidopexy",
+       trend:"ข้อ 'ข้อใดไม่ใช่ complication' ใช้ซ้ำ",
+       asked:["ข้อใด <b>ไม่ใช่</b> complication ของ UDT → <b>orchitis</b> (เป็นจริง: hernia, torsion, infertility, testicular cancer) — ถามสองรุ่น","เด็ก UDT ทำ orchiopexy แล้ว ยังมีโอกาสสูงกว่าเด็กอื่นในภาวะใด → <b>testicular cancer</b> (ตัวลวง hernia, trauma, infertility, all of the above)"],
+       pattern:["Complication ของ cryptorchidism: <b>infertility</b>, <b>malignancy</b> (germ cell tumor / seminoma), <b>torsion</b>, <b>inguinal hernia</b> (patent processus vaginalis), trauma (อัณฑะที่ขาหนีบ), ปัญหาจิตใจ · orchitis ไม่ได้เพิ่ม","Orchidopexy ช่วยให้คลำตรวจได้และลดความเสี่ยงมะเร็งเมื่อทำก่อนวัยรุ่น แต่<b>ความเสี่ยงมะเร็งไม่หายไป</b> → สอน testicular self-exam · hernia และ trauma ลดลงหลังผ่าตัด"],
+       pearls:["เลือก all of the above — hernia / trauma ลดลงหลังผ่าตัดแล้ว"],
+       members:["MDCU67|RoA|3","MDCU66|RoD|31","MDCU66|RoC|16"]},
+      {id:"epispadias", title:"Epispadias: meatus ด้าน dorsal",
+       trend:"ใช้แยกกับ hypospadias",
+       asked:["ทารกชายรูเปิดท่อปัสสาวะด้าน dorsal + ventral hooded prepuce + dorsal chordee bladder และผนังหน้าท้องปกติ → <b>epispadias</b> (ตัวลวง hypospadias, bladder exstrophy, phimosis, micropenis)"],
+       pattern:["<b>Epispadias</b> = meatus ด้าน <b>dorsal</b> (glanular / penile / penopubic) + <b>dorsal chordee</b> (องคชาตสั้นโค้งขึ้น) + <b>ventral hood</b> ± pubic symphysis แยก · penopubic มัก bladder neck ไม่สมบูรณ์ → incontinence","ส่วนใหญ่อยู่ใน exstrophy-epispadias complex — ถ้า bladder / ผนังหน้าท้องปกติ = isolated epispadias (พบน้อย) · รักษาผ่าตัดซ่อม ± bladder neck reconstruction","Hypospadias = ventral meatus + ventral chordee + dorsal hood"],
+       pearls:["ต้นฉบับจดแค่ลักษณะ 3 อย่าง — bank เติมว่า bladder ปกติเพื่อแยก exstrophy"],
+       members:["MDCU79|RoC|Ped 3"]}
+    ]},
+    {title:"BPH, LUTS, urinary retention และ voiding dysfunction", sections:[
+      {id:"aur", title:"Acute urinary retention (BPH ± ยากระตุ้น): catheter + alpha-blocker → trial without catheter",
+       trend:"เคส AUR ออกทุกรุ่น — ยากระตุ้น (ยาหอบหืด, bronchodilator) เป็นตัวหลอกที่ซ้ำ",
+       asked:["ชาย 72 ปี BPH กินยาไม่สม่ำเสมอ ปัสสาวะไม่ออก 12 ชม. คลำ bladder ได้กดเจ็บ → initial = <b>urethral catheterization</b> (ตัวลวง emergency TURP, alpha-blocker อย่างเดียว, suprapubic cystostomy, furosemide)","หลังสวนระบายแล้ว next → <b>คา Foley + alpha-blocker แล้ว trial without catheter</b> (ตัวลวง in-and-out ครั้งเดียว, SPC ทันที, TURP ทันที, 5-ARI อย่างเดียว)","AUR หลังเพิ่งเริ่ม inhaled bronchodilator (COPD) prostate 30–40 g → คา Foley นัด 2 สัปดาห์ (ตัวลวง advise TURP, single cath + หยุดยา)","Asthma เริ่ม inhaled bronchodilator + oral sympathomimetic แล้วปัสสาวะไม่ออก → <b>retain Foley + alpha-blocker → TWOC</b> (ตัวลวง retain Foley + TURP, intermittent cath + TURP, SPC)","ชาย LUTS + asthma กินยาหอบแล้วปัสสาวะไม่ออก → indwelling catheter + alpha-blocker นัด 2 สัปดาห์ (ตัวลวง หยุดยาหอบ)","LUTS ปัสสาวะไม่ออก คลำได้ก้อน cystic เหนือหัวหน่าว (= bladder เต็ม) → Foley + alpha-blocker (ตัวลวง suprapubic aspiration ของ 'ก้อน', open prostatectomy ทันที)","ผู้ป่วยรายใดควร <b>คา Foley</b> → AUR ที่ residual มาก (ตัวลวง straddle injury + blood at meatus, recurrent UTI, urge incontinence)"],
+       pattern:["ขั้นแรก: <b>decompress ด้วย urethral catheter</b> (Foley 14–16 Fr; ใส่ผ่านต่อมไม่ได้ลอง coudé) → วัด residual · ใส่ urethra ไม่ได้ / มีข้อห้าม → suprapubic cystostomy","ระวัง <b>post-obstructive diuresis</b> (ปัสสาวะ > 200 mL/ชม. ต่อเนื่อง → ดูน้ำและ electrolyte) และ decompression hematuria · ตรวจ Cr, UA","<b>คาสาย + เริ่ม alpha-blocker</b> (tamsulosin / alfuzosin / silodosin) <b>อย่างน้อย 3 วัน</b> แล้ว <b>trial without catheter (TWOC)</b> — alpha-blocker ก่อน TWOC เพิ่มโอกาสถอดสายสำเร็จ (AUA LUTS/BPH 2026, clinical principle) · ในไทยมักนัด 1–2 สัปดาห์ · ผ่าน TWOC แล้วยังเสี่ยง retention ซ้ำ","AUR ครั้งแรกที่มีตัวกระตุ้นชัด (anticholinergic / sympathomimetic / bronchodilator, ท้องผูก, ดมยา) ยังไม่ต้องผ่าตัด · <b>ไม่ต้องหยุดยาหอบหืดเอง</b>","<b>TURP เมื่อ TWOC ล้มเหลว / retention ซ้ำ</b> (refractory / recurrent retention = ข้อบ่งชี้ผ่าตัด; AUA 2026: catheter-dependent retention → resective procedure)","คีย์สไลด์: residual < 200 mL ไม่ต้องคาสาย, > 400 mL คาสาย · straddle injury + blood at meatus ห้ามใส่ Foley (ทำ RUG / SPC)"],
+       pearls:["เลือก TURP เพราะเป็น definitive treatment — ในภาวะเฉียบพลันระบายก่อน","ก้อน cystic เหนือหัวหน่าวในคนปัสสาวะไม่ออก = bladder อย่าเจาะดูด","ลืมให้ alpha-blocker ก่อนถอดสาย"],
+       members:["MDCU79|RoC|URO 10","MDCU79|RoD|Uro 15","MDCU77|RoA|Uro 5","MDCU74|RoD|36","MDCU69|RoA|5","MDCU67|RoA|78","MDCU70|RoC|9"]},
+      {id:"chronic-retention", title:"Chronic retention / overflow incontinence และ BPH ที่มี complication → ระบายก่อนแล้วผ่าตัด",
+       trend:"โจทย์ใส่คำว่า 'เล็ดเวลาไอ' ให้หลงเป็น stress incontinence ทั้งที่คลำได้ bladder",
+       asked:["ชาย 80 ปี incomplete emptying คลำได้ bladder prostate 60 mL PSA 3.5 → <b>สวนประเมิน residual แล้วเริ่ม alpha-blocker</b> (ตัวลวง alpha-blocker + 5-ARI, TURP, radical prostatectomy)","ชายสูงอายุ BPH ปัสสาวะหยดตลอด 'รั่วเวลาไอ' bladder สูง 2 นิ้วใต้สะดือ → <b>catheterization + alpha-blocker</b> (ตัวลวง pelvic floor training, anticholinergic, Foley + TURP ทันที)","BPH bladder เต็มสูง 10 cm เหนือ symphysis prostate 60 g → <b>intermittent catheterization + alpha-blocker</b> (ตัวลวง retain Foley + TURP)","LUTS 10 เดือน + เล็ดเวลาไอจาม 7 วัน prostate ~60 g + <b>bilateral hydronephrosis</b> + residual PSA 8 → <b>Foley แล้ว prostatectomy</b> (ตัวลวง bilateral PCN, 5-ARI + alpha-blocker)","IPSS 30 prostate > 50 g UA WBC/RBC มาก + bilateral hydronephrosis + <b>bladder stone</b> → <b>ใส่ catheter ก่อน แล้ว TURP + cystolitholapaxy</b>","หญิงสูงอายุ DM + peripheral neuropathy ปัสสาวะบ่อยหยดตลอด คลำได้ bladder → <b>overflow incontinence</b> (ตัวลวง OAB, SUI, VVF)"],
+       pattern:["<b>คลำได้ bladder = retention</b> — ปัสสาวะรั่ว / หยดตลอด (แม้บอกว่าเวลาไอ) ในคนที่มี retention = <b>overflow incontinence</b> ไม่ใช่ stress","ขั้นแรก: <b>ระบาย</b> (Foley หรือ clean intermittent catheterization) + วัด residual, Cr, US ไต · ระวัง post-obstructive diuresis","<b>Absolute indication ผ่าตัดต่อมลูกหมาก</b> (EAU Non-neurogenic Male LUTS 2025): refractory / recurrent urinary retention, recurrent UTI, <b>bladder stone</b>, refractory gross hematuria, <b>upper tract dilatation / renal insufficiency</b> จาก BPO → ระบายและรักษาการติดเชื้อก่อน แล้ว TURP (± cystolitholapaxy ใน session เดียว) / prostatectomy","Retention ครั้งแรกที่ไตยังดี → ระบาย + alpha-blocker แล้วลอง void ก่อน — ไม่ผ่าทันที","<b>Diabetic cystopathy</b> (sensory / autonomic neuropathy) → sensation ลด, capacity สูง, detrusor underactivity → PVR สูง → overflow → รักษาด้วย clean intermittent catheterization · OAB ไม่ทำให้ bladder โตจนคลำได้","PSA สูงขึ้นได้จาก retention / ต่อมโต แต่ยังต้องประเมินมะเร็งเมื่อพร้อม"],
+       pearls:["คีย์เก่า MDCU77 RoC ตอบ alpha-blocker + 5-ARI — แต่ bladder คลำได้ = chronic retention ต้องระบาย / ประเมิน residual ก่อน (EAU 2025) bank ตอบสวน + alpha-blocker","คีย์เก่า MDCU69 RoC ชุดแรกตอบ retain Foley + TURP ส่วนคีย์ไฟล์ 01.2 ตอบ CIC + alpha-blocker — bank ตามไฟล์ 01.2: retention ครั้งแรก ≠ ผ่าทันที","คีย์ลายมือ MDCU73 RoD ตอบ OAB (เขียน neurogenic bladder) — bank ตอบ overflow incontinence เพราะคลำได้ bladder","ต้นฉบับ MDCU76 RoD เขียน stress incontinence — เป็นตัวหลอก"],
+       members:["MDCU77|RoC|Uro 3","MDCU76|RoD|54@p11~2","MDCU69|RoC|X5","MDCU68|RoD|23","MDCU67|RoB|84","MDCU73|RoD|Uro 1"]},
+      {id:"bph-drugs", title:"Alpha-blocker vs 5-alpha reductase inhibitor: กลไกและข้อดีข้อเสีย",
+       trend:"ถามซ้ำแบบเกือบคำต่อคำ: ข้อดีของ alpha-blocker / 5-ARI ลดฮอร์โมนอะไร",
+       asked:["ข้อดีของ alpha-blocker เหนือ 5-ARI → <b>ออกฤทธิ์เร็ว</b> (ตัวลวง ลดขนาดต่อม, ลด AUR, ลดการผ่าตัด, ประสิทธิภาพระยะยาวดีกว่า, เพิ่ม bladder capacity)","5-ARI ลดการสร้างฮอร์โมนใด → <b>dihydrotestosterone (DHT)</b> (ตัวลวงชื่อฮอร์โมนแต่ง, estradiol)","ข้อใด <b>ไม่ใช่</b> ประโยชน์ของ 5-ARI → <b>บรรเทาอาการเร็ว</b>"],
+       pattern:["<b>Alpha-1 blocker</b> (tamsulosin, alfuzosin, doxazosin): คลาย smooth muscle ที่ prostate / bladder neck → <b>ได้ผลภายในวัน–สัปดาห์</b>, ใช้ได้ทุกขนาดต่อม แต่<b>ไม่ลดขนาดต่อม ไม่ลดความเสี่ยง AUR / ผ่าตัดระยะยาว</b>","<b>5-ARI</b> (finasteride = type 2, dutasteride = type 1+2): ยับยั้ง testosterone → <b>DHT</b> → ต่อมเล็กลง ~18–28% ใน 6–12 เดือน, <b>PSA ลด ~50%</b> (แปลผล PSA ต้องคูณ 2), <b>ลด AUR และการผ่าตัด</b>ระยะยาว · ข้อเสีย: <b>ออกฤทธิ์ช้า</b> (≥ 6 เดือน), ED / libido ลด","Combination ช่วงแรกจึงให้ alpha-blocker คู่ไปจนกว่า 5-ARI ออกฤทธิ์","Prostate cancer ขึ้นกับ testosterone → ADT; BPH ขึ้นกับ DHT"],
+       pearls:["สลับข้อดี: ลดขนาดต่อม / ลด AUR / ลดการผ่าตัด เป็นของ 5-ARI ไม่ใช่ alpha-blocker"],
+       members:["MDCU77|RoA|Uro 10","MDCU74|RoA|10","MDCU73|RoB|Uro 1","MDCU73|RoD|Uro 3","MDCU71|RoA|2"]},
+      {id:"bph-medical", title:"BPH: เลือก watchful waiting / alpha-blocker / combination ตามอาการและขนาดต่อม",
+       trend:"ให้ IPSS + ขนาดต่อม + PSA แล้วเลือกยา",
+       asked:["ชาย 67 ปี IPSS 22 ต่อมโตเล็กน้อยเรียบ PSA 1 → <b>alpha-blocker</b> (ตัวลวง WW, 5-ARI, TURP, radical prostatectomy)","IPSS 22 ต่อม rubbery โตเล็กน้อย PSA 1 → initial alpha-blocker (ตัวลวง anticholinergic เดี่ยว)","ต่อม 60 g PSA 3.5 อาการน้อย <b>ไม่รบกวน</b> → <b>watchful waiting + follow-up</b> (ตัวลวง alpha + 5-ARI, TURP + biopsy, biopsy)","IPSS 23 ต่อม 60 g PSA 3 UA / US ปกติ → <b>alpha-blocker + 5-ARI</b> (ตัวลวง alpha + antiandrogen, TURP ทันที, WW)"],
+       pattern:["IPSS: 0–7 mild · 8–19 moderate · 20–35 severe — การรักษาขึ้นกับ <b>ความรบกวน</b> ไม่ใช่ขนาดต่อมอย่างเดียว","<b>Mild / ไม่รบกวน</b> → watchful waiting + lifestyle + ติดตาม (EAU Non-neurogenic Male LUTS 2025)","<b>Moderate–severe ต่อมเล็ก</b> (PSA ต่ำ ~1 บ่งว่าต่อมเล็ก ไม่ถึงเกณฑ์ 5-ARI) → <b>alpha-1 blocker</b> first-line","<b>Moderate–severe + ต่อมโต</b> เสี่ยง progression → <b>alpha-blocker + 5-ARI (combination)</b> — เกณฑ์ต่างกันตาม guideline: <b>EAU Non-neurogenic Male LUTS 2025: ต่อม > 40 mL</b> · <b>AUA LUTS/BPH 2026: ต่อม > 30 cc และ/หรือ PSA > 1.5 ng/mL</b> (ต่อม 60 g เข้าทั้งสองเกณฑ์)","PSA < 4 และ DRE ปกติ → ไม่ต้อง biopsy · ผ่าตัดเมื่อยาไม่ได้ผลหรือมี absolute indication"],
+       pearls:["ให้ 5-ARI ในต่อมเล็ก — ได้ผลน้อย","เห็นต่อม 60 g แล้วจ่ายยาทันทีทั้งที่อาการไม่รบกวน"],
+       members:["MDCU78|RoB|18","MDCU76|RoC|Uro 1","MDCU74|RoA|11","MDCU67|RoC|83"]},
+      {id:"prostatitis", title:"Acute bacterial prostatitis ร่วมกับ urinary retention",
+       trend:"ไข้ + ปวด perineum + ปัสสาวะไม่ออก แล้วให้จับคู่ 'สายสวน + ยา'",
+       asked:["ชาย 65 ปี nocturia 2 เดือน ปัสสาวะไม่ออก ไข้ 39 °C หนาวสั่น ปวด perineum → <b>indwelling catheter + IV antibiotic</b> (ตัวลวง catheter + oral ATB, intermittent cath + alpha-blocker)","ชาย nocturia 6 เดือน ไข้ 38 °C ปวด perineum ปัสสาวะไม่ออก → initial = <b>indwelling Foley + IV antibiotics</b>"],
+       pattern:["ไข้สูง หนาวสั่น ปวด perineum / หลังส่วนล่าง + LUTS / retention + ต่อมกดเจ็บ boggy = <b>acute bacterial prostatitis</b>","รักษา: <b>IV antibiotics</b> (fluoroquinolone หรือ 3rd-gen cephalosporin ± aminoglycoside) แล้วเปลี่ยนเป็นยากินให้ครบ 2–4 สัปดาห์ + <b>ระบายปัสสาวะ</b> (urethral catheter ขนาดเล็กระยะสั้น หรือ suprapubic catheter)","<b>ห้ามนวดต่อมลูกหมาก</b> (bacteremia) · ไม่ดีขึ้น → imaging หา prostatic abscess"],
+       pearls:["เลือก oral antibiotics ทั้งที่มีไข้สูง + retention"],
+       members:["MDCU72|RoD|15","MDCU67|RoD|35"]},
+      {id:"neurogenic-bladder", title:"Neurogenic bladder ตามระดับรอยโรค (Parkinson, myelomeningocele)",
+       trend:"ถามจับคู่ระดับรอยโรค – ชนิด bladder dysfunction",
+       asked:["Parkinson disease มี bladder dysfunction แบบใด → <b>overactive bladder</b> (ตัวลวง chronic retention, recurrent UTI, SUI, VUR)","ทารกหญิง lumbosacral meningocele จะเกิดภาวะใด → <b>neurogenic bladder</b>"],
+       pattern:["<b>Suprapontine</b> (stroke, Parkinson, dementia): ขาดการยับยั้งจาก cortex แต่ pontine micturition center ยังทำงาน → <b>detrusor overactivity (OAB)</b> + sphincter ประสานงานปกติ","<b>Suprasacral spinal cord</b> (SCI เหนือ sacral, MS): detrusor overactivity + <b>detrusor-sphincter dyssynergia</b> → bladder ความดันสูง ทำลายไต","<b>Sacral / infrasacral</b> (conus, cauda equina, peripheral neuropathy เช่น DM): detrusor underactivity / areflexia → retention + overflow","<b>Myelomeningocele</b> = สาเหตุพบบ่อยสุดของ neurogenic bladder ในเด็ก → incontinence, UTI, secondary VUR, ไตเสื่อม → clean intermittent catheterization + anticholinergic ± augmentation"],
+       pearls:["นึกว่าโรคระบบประสาททุกชนิดทำให้ปัสสาวะค้าง — ระดับเหนือ pons ทำให้ OAB"],
+       members:["MDCU73|RoB|Uro 3","MDCU72|RoA|ไม่มีเลข 1"]},
+      {id:"urethral-stricture", title:"Urethral stricture: LUTS แบบอุดกั้นในชายอายุน้อย",
+       trend:"ใช้อายุแยก stricture ออกจาก BPH",
+       asked:["ชาย 35 ปี ปัสสาวะสะดุดและลำเล็กลงเรื่อย ๆ → <b>urethral stricture</b> (ตัวลวง BPH, bladder / urethral calculus, neurogenic bladder)"],
+       pattern:["Voiding LUTS ที่ค่อย ๆ แย่ลงใน<b>ชายอายุน้อย</b> → นึกถึง urethral stricture ก่อน (BPH มักอายุ > 50)","สาเหตุ: trauma (straddle injury, pelvic fracture), iatrogenic (Foley, cystoscopy, TURP), infection (gonorrhea), lichen sclerosus","วินิจฉัย: uroflowmetry (flow curve แบน plateau) + <b>retrograde urethrography</b> ± cystoscopy"],
+       pearls:["Bladder stone = หยุดกะทันหัน; stricture = ลำเล็กลงค่อยเป็นค่อยไป"],
+       members:["MDCU76|RoC|Uro 4"]}
+    ]},
+    {title:"UTI (ติดเชื้อทางเดินปัสสาวะ)", sections:[
+      {id:"emphysematous", title:"Emphysematous pyelonephritis / pyelitis / cystitis ในเบาหวาน",
+       trend:"ให้ CT ของคนเบาหวาน แล้วให้แยกตำแหน่งแก๊ส",
+       asked:["หญิง 58 ปี DM ไข้สูงปวดเอว CT gas ใน <b>เนื้อไต</b> → <b>emphysematous pyelonephritis</b> (ตัวลวง pyelitis, cystitis, XGP, renal abscess)","หญิง DM คุมไม่ดี ไข้ ปวดเอวขวา CT (รูป) แก๊สอยู่ใน calyces / collecting system เท่านั้น → <b>emphysematous pyelitis</b>","หญิง DM 60 ปี sepsis CT mottled gas ในเนื้อไต + crescent of gas ใน perinephric space → EPN","หญิง DM สูงอายุ dysuria CT gas เป็นเม็ดเรียงในผนัง bladder → <b>emphysematous cystitis</b> (ตัวลวง interstitial, TB cystitis, diverticulum)","Cross-sectional imaging ที่ characteristic ของ emphysematous cystitis → <b>air within the bladder wall</b> (ตัวลวง beaded necklace — เป็นภาพ plain film)","ชาย 70 ปี HIV ยังไม่เริ่ม ART + emphysematous cystitis next → <b>UA + urine culture</b> (ตัวลวง CT ซ้ำ, bladder irrigation, CD4)"],
+       pattern:["เกิดในเบาหวานคุมไม่ดี (> 90%) ± การอุดตัน / ภูมิต่ำ · เชื้อ E. coli, Klebsiella หมัก glucose เป็นแก๊ส · <b>CT = การตรวจหลัก</b>","แยกตามตำแหน่งแก๊ส: <b>collecting system = pyelitis</b> · <b>parenchyma = pyelonephritis</b> · <b>bladder wall / lumen = cystitis</b>","<b>Huang–Tseng</b>: class 1 แก๊สใน collecting system (= emphysematous pyelitis) · 2 ในเนื้อไต · 3A ลาม perinephric · 3B ลาม pararenal · 4 สองข้าง / ไตข้างเดียว","รักษา EPN: IV antibiotics + คุมน้ำตาล + แก้ obstruction (DJ / PCN) + <b>percutaneous drainage</b>; nephrectomy เมื่อไม่ตอบสนอง / รุนแรงมาก · pyelitis พยากรณ์ดีกว่า: ATB + แก้ obstruction","Emphysematous cystitis: plain film เห็นวงแก๊สรอบ bladder (beaded / cobblestone) · รักษา <b>culture (UA + urine culture ± hemoculture) → IV antibiotics + bladder drainage (Foley) + คุมน้ำตาล</b> ส่วนใหญ่ไม่ต้องผ่าตัด"],
+       pearls:["สลับ pyelitis กับ pyelonephritis — พยากรณ์และการรักษาต่างกัน","ช้อย beaded necklace ถูกสำหรับ plain film แต่โจทย์ถาม cross-sectional","เห็น HIV แล้วเลือก CD4 — ขั้นต่อไปของการติดเชื้อคือส่งเพาะเชื้อ"],
+       members:["MDCU79|RoD|Uro 10","MDCU78|RoD|83","MDCU74|RoD|33","MDCU76|RoC|Uro 3","MDCU75|RoC|Uro 2","MDCU75|RoD|CVT 6"]},
+      {id:"uti-basics", title:"UTI: gold standard (culture), เส้นทางติดเชื้อ และสาเหตุตามช่วงอายุ",
+       trend:"ข้อพื้นฐานที่ถามซ้ำจากสไลด์",
+       asked:["Gold standard / definitive diagnosis ของ UTI → <b>urine culture ≥ 10⁵ CFU/mL</b> (ตัวลวง WBC > 10/HPF, nitrite, leukocyte esterase, ไข้ + CVA tenderness)","Renal abscess ข้าง ascending colon ที่ติดเชื้อรุนแรง เชื้อลามมาทางใด → <b>lymphatic</b> (ตัวลวง vascular, direct contamination, hematogenous, transcoelomic)","ผู้ใช้ยาเสพติดทางหลอดเลือด ไข้ ปวดเอว สงสัยเชื้อมาทางกระแสเลือด → <b>Staphylococcus aureus</b> (ตัวลวง E. coli, Klebsiella, Pseudomonas, Proteus)","หญิงอายุ > 35 ปี สาเหตุ UTI ที่พบตามช่วงอายุ → <b>previous pelvic surgery</b> (ตัวลวง congenital anomaly, sexual intercourse, กลั้นปัสสาวะ, VUR) — ถามซ้ำสองรอบในรุ่นเดียว"],
+       pattern:["<b>Urine culture = gold standard</b>: clean-catch midstream ≥ 10⁵ CFU/mL · suprapubic aspiration โตเท่าไรก็มีความหมาย · catheter specimen ใช้เกณฑ์ต่ำกว่า · pyuria / nitrite / LE = screening (nitrite ลบได้ใน Enterococcus, S. saprophyticus)","เส้นทาง (Campbell-Walsh): <b>ascending</b> (พบบ่อยสุด; E. coli) · <b>hematogenous</b> (พบน้อย; <b>S. aureus</b> จาก bacteremia / IVDU → renal cortical abscess / carbuncle, Candida) · <b>lymphatic</b> (พบน้อยมาก; ลามจากอวัยวะข้างเคียง เช่น ลำไส้ติดเชื้อรุนแรง, retroperitoneal abscess — ตำราจัด direct extension ไว้ใต้ lymphatic)","สาเหตุตามช่วงอายุ (ตารางในสไลด์): 0–5 ปี congenital anomaly / VUR · 6–15 ปี voiding dysfunction / กลั้นปัสสาวะ · 16–35 ปี sexual intercourse · <b>36–65 ปี gynecologic / pelvic surgery</b> (ชาย: BOO) · > 65 ปี incontinence, สายสวน"],
+       pearls:["เลือก direct contamination ตามสามัญสำนึก — ข้อนี้ถามตาม route ในตำรา","ตอบ E. coli ตามความถี่โดยไม่ใช้ข้อมูล IVDU"],
+       members:["MDCU69|RoC|R15","MDCU66|RoD|41","MDCU76|RoD|12","MDCU76|RoD|51","MDCU72|RoB|28","MDCU72|RoC|10"]},
+      {id:"uti-pregnancy", title:"ASB / UTI ในหญิงตั้งครรภ์: รักษาเสมอ + test of cure (เป็นซ้ำ → รักษาซ้ำ + US ไต)",
+       trend:"MDCU78–79 ถามต่อเนื่องเป็นลำดับขั้น: หลังรักษา → ถ้ายังเจอเชื้อ → ทำอะไรต่อ",
+       asked:["ครรภ์ 20 สัปดาห์ cystitis E. coli รักษา nitrofurantoin ครบ 1 สัปดาห์ หายแล้ว → <b>repeat urine culture</b> (ตัวลวง co-trimoxazole ต่อ, observe, US ไต, cystoscopy)","ครรภ์ 18 สัปดาห์ UTI รักษาครบ รู้สึกดีขึ้น → repeat urine culture to confirm eradication (ตัวลวง nitrofurantoin จนคลอด, เปลี่ยนเป็น cipro)","ASB ในครรภ์ รักษาด้วยยาที่ไวแล้ว culture ซ้ำยังขึ้นเชื้อเดิม การตรวจที่เหมาะสม → <b>renal ultrasound</b> (ตัวลวง cystoscopy, CTU, culture ซ้ำ, VCUG)","ASB ในครรภ์ E. coli > 10⁵ รักษา 7 วัน culture ซ้ำยังบวก ไม่มีอาการ → <b>ให้ oral antibiotic อีกคอร์ส</b> (ตัวลวง IV antibiotics, US, ไม่รักษา, cystoscopy)","หญิงไม่มีอาการ UA WBC 10–20 culture 10⁵ CFU/mL → Dx <b>asymptomatic bacteriuria</b> (ตัวลวง UTI, pyuria, contaminated specimen)"],
+       pattern:["<b>ASB</b> = bacteria ≥ 10⁵ CFU/mL โดยไม่มีอาการ (หญิง: 2 ตัวอย่างติดกันเชื้อเดียวกัน) · pyuria ร่วมได้ไม่เปลี่ยนการวินิจฉัย · <b>รักษาเฉพาะหญิงตั้งครรภ์ และก่อนหัตถการทางเดินปัสสาวะที่ทำให้เยื่อบุเลือดออก</b> (เช่น TURP) (IDSA 2019) — คนทั่วไปไม่รักษา","ครรภ์: progesterone + มดลูกกด ureter → stasis → bacteriuria ลุกลามเป็น pyelonephritis ได้ 20–35% (preterm, LBW, sepsis) และเป็นซ้ำบ่อย → <b>รักษาทุกราย</b> (nitrofurantoin, cephalexin, amoxicillin-clavulanate ตามผลเชื้อ) และ<b>ส่ง culture ซ้ำหลังจบยา (test of cure)</b> ~1–2 สัปดาห์ (Williams Obstetrics) + screen เป็นระยะจนคลอด","Culture ซ้ำยังบวก → <b>รักษาซ้ำตาม sensitivity</b> (ยังเป็น oral ถ้าไม่มีอาการ; IV เฉพาะ pyelonephritis) ± <b>suppressive prophylaxis</b> (nitrofurantoin / cephalexin ก่อนนอน) จนคลอด · หาความผิดปกติทางเดินปัสสาวะด้วย <b>US KUB</b> (ไม่มีรังสี) — การตรวจที่มีรังสี / รุกล้ำเลื่อนไปหลังคลอด","Fluoroquinolone ห้ามในครรภ์"],
+       pearls:["ใช้หลักหญิงไม่ตั้งครรภ์ (หายแล้วไม่ต้องตรวจซ้ำ) กับหญิงตั้งครรภ์","สองรุ่นถามเคสเดียวกันแต่คำตอบต่างกันตามช้อย: ถ้ามีช้อย 'รักษาซ้ำ' (MDCU78 RoB) ตอบรักษาซ้ำ; ถ้าถาม 'investigation' (MDCU79 RoD) ตอบ US ไต","รักษา ASB ในคนทั่วไป — ไม่ต้อง"],
+       members:["MDCU79|RoC|URO 2","MDCU79|RoC|URO 12","MDCU79|RoD|Uro 4","MDCU78|RoB|52","MDCU77|RoC|Uro 5"]},
+      {id:"renal-abscess", title:"Renal abscess: รักษาตามขนาด (< 3 / 3–5 / > 5 cm)",
+       trend:"ให้ขนาดก้อน + stable / ไม่ตอบสนองยา แล้วเลือก ATB vs drainage",
+       asked:["หญิง 45 ปี ไข้ปวดเอว CT renal abscess <b>3.5 cm</b> stable → initial = <b>IV antibiotics</b> (ตัวลวง oral ATB, percutaneous drainage, nephrectomy)","CT renal abscess <b>4 cm</b> stable → IV antibiotics","หญิง 50 ปี ไข้ไม่ดีขึ้นหลัง IV ATB หลายวัน CT abscess <b>6 cm</b> → <b>percutaneous drainage</b> (ตัวลวง open drainage, IV ATB ต่อ, nephrectomy, ureteral stent)","ไข้ dysuria CT (รูป) ก้อน 6 cm → <b>percutaneous drainage + IV antibiotics</b>"],
+       pattern:["<b>≤ 3 cm</b> → IV antibiotics อย่างเดียวมักหาย","<b>3–5 cm</b> ผู้ป่วย stable → เริ่ม IV antibiotics แล้วประเมิน 48–72 ชม. ถ้าไม่ดีขึ้น / ภูมิต่ำ → drainage (การรักษากลุ่มนี้แล้วแต่ราย; บางแหล่งแนะนำ drain ก้อน > 3 cm) — คีย์และสไลด์อาจารย์ใช้เกณฑ์นี้","<b>> 5 cm หรือไม่ตอบสนองยา</b> → <b>percutaneous (US / CT-guided) drainage + IV antibiotics</b> (first-line ของก้อนใหญ่)","Open drainage / nephrectomy เมื่อ percutaneous ล้มเหลว, ฝีหลายช่อง หรือไตเสียหน้าที่","PCN (nephrostomy) ใช้ระบาย collecting system ที่อุด — คนละอย่างกับ percutaneous abscess drainage"],
+       pearls:["เห็นคำว่า abscess แล้วตอบ drain ทันทีทั้งที่ก้อน < 5 cm และ stable","ให้ยาอย่างเดียวในก้อน > 5 cm หรือรีบผ่าเปิดทั้งที่เจาะระบายได้","ต้นฉบับ MDCU78 RoD เขียนช้อย 'PCN' — bank ตีความเป็น percutaneous drainage"],
+       members:["MDCU78|RoB|21","MDCU75|RoC|Uro 3","MDCU78|RoD|82","MDCU77|RoA|Uro 12"]},
+      {id:"cystitis", title:"Acute uncomplicated cystitis ในหญิง: oral antibiotic สั้น ๆ ไม่ต้อง imaging",
+       trend:"ตัวลวงคือส่ง imaging / cystoscopy เพราะมี hematuria",
+       asked:["หญิง dysuria hematuria suprapubic tenderness ไม่มีไข้ UA RBC WBC bacteria มาก → <b>oral antibiotic 3–5 วันแล้วติดตาม</b> (ตัวลวง IV ceftriaxone + US, ATB แล้ว CT + cystoscopy, รอผล culture)","หญิง 35 ปี เป็นครั้งแรก terminal hematuria WBC 30–50 → <b>antibiotics กลับมาถ้าไม่ดีขึ้นใน 2–3 วัน</b> (ตัวลวง ATB + US / IVP / cystoscopy / CTU / RPG)","หญิง 24 ปี ปวดท้องน้อย frequency dysuria 2 วัน ไม่มีไข้ → <b>oral antibiotics 3 วัน</b> (ตัวลวง ดื่มน้ำอย่างเดียว, antipyretic, bladder training)","First-line antibiotic ของ uncomplicated cystitis ในหญิงไม่ตั้งครรภ์ → <b>nitrofurantoin 5 วัน</b> (ตัวลวง IV ceftriaxone, amoxicillin 3 วัน, gentamicin, oral vancomycin)"],
+       pattern:["Uncomplicated cystitis = หญิงไม่ตั้งครรภ์ ไม่มีไข้ / ปวดเอว ไม่มีความผิดปกติทางเดินปัสสาวะ → วินิจฉัยจากอาการ ± UA, <b>ไม่ต้อง imaging / cystoscopy</b>","First-line (EAU Urological Infections / IDSA): <b>fosfomycin 3 g ครั้งเดียว</b>, <b>nitrofurantoin 5 วัน</b>, pivmecillinam 3–5 วัน · TMP-SMX 3 วันถ้าเชื้อดื้อในพื้นที่ < 20% · fluoroquinolone ไม่ใช่ยาแรก · amoxicillin ดื้อสูง","Terminal hematuria ใน cystitis มาจาก trigone / bladder neck อักเสบ · ถ้า hematuria ยังอยู่หลังหายติดเชื้อ → ค่อย work-up","Nitrofurantoin ไม่ใช้กับ pyelonephritis (ระดับยาในเนื้อไตต่ำ)"],
+       pearls:["Hematuria ใน cystitis ครั้งแรกไม่ต้อง CTU / cystoscopy ทันที"],
+       members:["MDCU70|RoA|43","MDCU67|RoA|79","MDCU66|RoA|30","MDCU67|RoA|89"]},
+      {id:"apn", title:"Acute pyelonephritis ที่ต้อง admit: IV antibiotics + supportive",
+       trend:"ช้อย 'all of the above' ซ้ำหลายรุ่น",
+       asked:["Admit acute pyelonephritis (ไข้ ปวดเอว อาเจียน) → <b>IV antibiotics + hydration + antipyretics</b> (ตัวลวง nitrofurantoin 3 วัน, nephrectomy, fluid restriction + diuretics)","หญิง 20 ปี ไข้สูงหนาวสั่น ปวดเอวขวา 2 วัน กินยาลดไข้ไม่ดีขึ้น → <b>all of the above</b> (bed rest, parenteral ATB, hydration, antipyretic)","หญิง 20 ปี ไข้สูง CVA tenderness ยาแก้ปวดไม่ช่วย → all of the above (bed rest, IV ATB, antipyretic, IV fluid)"],
+       pattern:["Pyelonephritis ไม่รุนแรง → OPD oral (fluoroquinolone 7 วัน หรือ cephalosporin) · <b>admit เมื่อ</b> ไข้สูง / อาเจียน / sepsis / complicated → <b>IV antibiotics</b> (ceftriaxone, aminoglycoside, FQ) + IV fluid + antipyretic + rest → เปลี่ยนเป็นยากินเมื่อดีขึ้น รวม 7–14 วัน","ส่ง urine culture ก่อนยา · <b>ไม่ดีขึ้นใน 48–72 ชม.</b> → US / CT หา obstruction หรือ abscess"],
+       pearls:["คีย์ไฟล์ 01.2 ของ MDCU69 RoC ตอบ parenteral antibiotic เดี่ยว — คีย์ชุดแรกและ bank ตอบ all of the above (ยาเป็นหัวใจ แต่ทุกข้อทำร่วมกัน)"],
+       members:["MDCU70|RoC|ไม่มีเลข 1","MDCU69|RoC|R14","MDCU66|RoD|40"]},
+      {id:"postcoital", title:"Postcoital (honeymoon) cystitis → antibiotic + postcoital single-dose prophylaxis",
+       trend:"ถามซ้ำในรุ่น MDCU67 และ MDCU72",
+       asked:["หญิง 40 ปี แสบขัดหลังมีเพศสัมพันธ์ทุกครั้ง บางครั้งมีเลือด ไม่มีไข้ / ปวดเอว → <b>single-dose antibiotic หลังมีเพศสัมพันธ์ทุกครั้ง</b> (ตัวลวง งดเพศสัมพันธ์ 1 เดือน, vaginal estrogen, urethral dilatation, ตรวจสามีหา gonorrhea)","หญิง 40 ปี แสบขัดหลังเพศสัมพันธ์กับสามี → <b>antibiotic</b> (ตัวลวง estrogen cream, bladder instillation, cystoscopy)"],
+       pattern:["Recurrent cystitis ที่สัมพันธ์กับเพศสัมพันธ์ → รักษา episode เฉียบพลัน + ป้องกันด้วย <b>postcoital single-dose antimicrobial prophylaxis</b> (EAU Urological Infections, strong) — ยาที่ใช้ เช่น nitrofurantoin, fosfomycin, trimethoprim · หรือ continuous prophylaxis","ร่วมกับปัสสาวะหลังมีเพศสัมพันธ์ ดื่มน้ำพอ · <b>vaginal estrogen สำหรับหญิงวัยหมดประจำเดือน</b> · urethral dilatation ไม่มีประโยชน์"],
+       pearls:["เลือก estrogen cream ในหญิง 40 ปีที่ยังไม่หมดประจำเดือน"],
+       members:["MDCU72|RoD|14","MDCU67|RoD|16"]}
+    ]},
+    {title:"Pediatric urology: hydronephrosis, VUR, UTI ในเด็ก และ Wilms tumor", sections:[
+      {id:"vur-mx", title:"VUR: CAP ก่อน · breakthrough UTI / reflux ไม่หาย → ureteric reimplantation · VCUG ปกติแล้ว → หยุดยา",
+       trend:"ให้ grade + ประวัติ breakthrough แล้วเลือก CAP / ผ่า / หยุดยา",
+       asked:["เด็ก 4 ปี UTI ซ้ำ VCUG grade IV VUR → <b>continuous antibiotic prophylaxis</b> (คีย์เขียน reimplant ถ้ามี breakthrough) (ตัวลวง observe, endoscopic injection, bilateral reimplantation, nephrectomy)","เด็กหญิง 1 ปี febrile UTI ครั้งแรก bilateral grade IV ไตปกติ → CAP (ตัวลวง bilateral reimplantation, endoscopic injection ทันที)","เด็ก 1 ปี หาย febrile UTI แล้ว VCUG left grade 3 → <b>antibiotic prophylaxis + follow-up</b> (ตัวลวง nephrectomy, reimplantation, JJ stent)","เด็กหญิง 6 ปี febrile UTI <b>6 ครั้งทั้งที่กิน prophylaxis</b> bilateral grade 2 → <b>bilateral ureteral reimplantation</b> (ตัวลวง step up ATB, pyelostomy, กินยาเดิมต่อ, หยุดยา)","เด็กหญิง 6 ปี กิน prophylaxis VCUG ยังเป็น bilateral grade III + bilateral hydronephrosis → <b>bilateral ureteric reimplantation</b> (ตัวลวง เพิ่ม dose ยา, หยุดยา, pyeloplasty, nephrostomy)","เด็ก 4 ปี grade IV กิน CAP 3 ปีไม่มี breakthrough VCUG ซ้ำ<b>ปกติ</b> → <b>stop prophylaxis</b> (ตัวลวง VCUG ซ้ำ 3 เดือน, reimplant, ยาต่อถึงวัยรุ่น)","เด็ก 3 ปี grade 4 กินยา 2 ปีไม่มีติดเชื้อ VCUG ไม่มี VUR → stop prophylaxis"],
+       pattern:["VUR หายเองได้เมื่อโต (intravesical ureter ยาวขึ้น) — grade ต่ำในเด็กเล็กหายสูง","เริ่มต้น: <b>continuous antibiotic prophylaxis (CAP)</b> + จัดการ bladder–bowel dysfunction + ติดตาม (EAU Paediatric 2025: < 1 ปีที่มีอาการให้ CAP ทุก grade; 1–5 ปีเริ่ม conservative) · RIVUR: CAP ลด recurrent febrile UTI ราวครึ่งหนึ่ง","<b>ผ่าตัด</b> เมื่อ: <b>breakthrough febrile UTI ขณะกิน CAP</b>, renal scar ใหม่, reflux grade สูงที่ไม่หาย / เด็กโตแล้วยังไม่หาย, ไม่ยอมกินยา → <b>ureteric reimplantation</b> (สำเร็จ ~95–98%; EAU: reimplant ใน high grade ที่ไม่หาย, endoscopic injection สำหรับ grade ต่ำ)","<b>VCUG ไม่มี reflux แล้ว = หาย → หยุด CAP</b> ติดตามอาการ UTI","เพิ่มขนาดยาไม่ได้แก้ reflux"],
+       pearls:["High grade แล้วคิดว่าต้องผ่าทันที — เริ่ม CAP ก่อนถ้ายังไม่เคยกิน","Low grade ไม่ได้แปลว่าไม่ผ่า ถ้ามี breakthrough หลายครั้ง (MDCU69 RoA; ช้อยไม่มี endoscopic injection)","เป้าหมายของ prophylaxis คือรอให้ reflux หายเอง — หายแล้วก็หยุด"],
+       members:["MDCU78|RoB|24","MDCU74|RoD|34","MDCU67|RoC|81","MDCU69|RoA|7","MDCU76|RoA|19","MDCU78|RoD|84","MDCU72|RoA|1"]},
+      {id:"ped-uti", title:"Febrile UTI ในเด็ก: IV vs oral, หาสาเหตุ (VUR) ด้วย VCUG, reflux nephropathy",
+       trend:"MDCU67 RoA ถามเป็นชุดต่อเนื่อง: Dx → สาเหตุ → การรักษา",
+       asked:["เด็กชาย 2 ปี ไข้ ปวดสีข้าง ปัสสาวะแสบ 2 วัน ร้องงอแง ซึม ไม่กิน tachycardia → สาเหตุ = <b>UTI</b> (ตัวลวง RTI, GI infection, skin sepsis, meningitis)","เด็กคนเดียวกัน สาเหตุพื้นฐานน่าจะเป็น → <b>VUR</b> (ตัวลวง PUV, UPJO, BOO, neurogenic bladder)","เด็กคนเดียวกัน initial treatment → <b>IV antibiotic + hydration</b> (ตัวลวง oral ATB + antipyretic / hydration, observe, prophylaxis)","เด็กหญิง 2 ปี acute pyelonephritis 3 วัน ไม่เคยเป็น → <b>IV antibiotics</b> (ตัวลวง oral, prophylaxis, observe, nephrostomy)","เด็กหญิง 2 ปี febrile UTI 2 ครั้ง US mild hydronephrosis gold standard วินิจฉัยและ grade VUR → <b>VCUG</b> (ตัวลวง DMSA, diuretic renography, CTU, cystoscopy)","เด็กหญิง 3 ปี หลัง UTI culture ปกติแล้ว US bilateral hydronephrosis → <b>VCUG</b> (ตัวลวง RPG, CTU, cystoscopy)","เด็กหลัง febrile UTI US bilateral hydroureteronephrosis → VCUG (ตัวลวง IVP, CT, DMSA เดี่ยว)","เด็ก VUR DMSA พบ renal scar หลายแห่ง complication ระยะยาว → <b>hypertension</b>"],
+       pattern:["เด็กเล็กอาการไม่จำเพาะ (ไข้ ร้องงอแง กินไม่ได้) → ส่ง UA + urine culture (เก็บด้วย catheter / suprapubic ในเด็กที่ยังไม่ฝึกขับถ่าย)","<b>IV antibiotic</b> (3rd-gen cephalosporin เช่น ceftriaxone) + hydration เมื่อ <b>toxic / ซึม / ขาดน้ำ / กินไม่ได้</b> หรือทารกเล็ก → เปลี่ยนเป็นยากินเมื่อไข้ลง รวม 7–14 วัน · เด็กไม่ toxic ให้ oral ได้ผลเท่ากัน","หลัง febrile UTI: <b>renal + bladder US</b> (EAU: ภายใน 24 ชม. ในทารก / เด็กป่วยหนัก) · สาเหตุพื้นฐานที่พบบ่อยสุด = <b>VUR</b> · <b>VCUG = gold standard วินิจฉัยและ grade VUR (I–V)</b> และดู urethra (PUV ในเด็กชาย) — ทำเมื่อ US ผิดปกติ (hydronephrosis / hydroureter), febrile UTI ซ้ำ, หรือ atypical UTI · ทำหลังติดเชื้อหาย (urine sterile)","<b>DMSA</b> ดู renal scar (≥ 6 เดือนหลังติดเชื้อ) · <b>reflux nephropathy → hypertension</b> (renin), proteinuria, CKD","IVP ไม่ใช้แล้ว (รังสี) · PUV: เด็กชาย ลำปัสสาวะอ่อน bilateral hydronephrosis"],
+       pearls:["เลือก DMSA เมื่อถาม gold standard ของ VUR — DMSA ดู scar"],
+       members:["MDCU67|RoA|86","MDCU67|RoA|87","MDCU67|RoA|88","MDCU67|RoA|82","MDCU74|RoC|36","MDCU72|RoD|9","MDCU66|RoD|11","MDCU72|RoC|ไม่มีเลข 14"]},
+      {id:"antenatal-hydro", title:"Antenatal hydronephrosis / ก้อนที่สีข้างในทารก: US หลังวันที่ 3 → VCUG → diuretic renogram",
+       trend:"ถามลำดับการตรวจหลังคลอดซ้ำหลายรุ่น",
+       asked:["ทารก prenatal hydronephrosis US วันที่ 1 ไม่พบ → <b>US ซ้ำหลังวันที่ 3</b> (ตัวลวง reassure, IVP, CT, VCUG ทันที)","เด็ก 2 ปี antenatal right hydronephrosis VCUG ปกติ → <b>diuretic renogram</b> (ตัวลวง CT, KUB, RPG, VCUG ซ้ำ)","เด็ก 6 เดือน prenatal left hydronephrosis หลังคลอดยืนยัน VCUG ปกติ → <b>diuretic renal scan</b> (ตัวลวง IVP, CT, MRI, RPG)","ทารกแรกเกิดมีก้อนที่สีข้างซ้าย → <b>hydronephrosis</b> (ตัวลวง polycystic kidney, duplication cyst, nephroblastoma, neuroblastoma) — ถามสองรุ่น"],
+       pattern:["ทารก 48 ชม.แรกมี physiologic oliguria → US วันแรก<b>อาจไม่เห็น hydronephrosis</b> (false negative) → ทำ US หลัง 48–72 ชม. (วันที่ 3) และซ้ำ 4–6 สัปดาห์ (ยกเว้นสงสัย PUV / bilateral รุนแรงตรวจเร็ว)","Hydronephrosis คงอยู่ → <b>VCUG</b> แยก VUR / PUV → ถ้า VCUG ปกติ → <b>diuretic renogram (MAG3)</b> ดู drainage (obstruction เช่น UPJO) + split renal function","<b>ก้อนในท้องทารกแรกเกิด ~2/3 มาจากไต — พบบ่อยสุด hydronephrosis (UPJO)</b> รองลงมา multicystic dysplastic kidney · Wilms / neuroblastoma พบในเด็กโตกว่า"],
+       pearls:["US วันแรกปกติแล้ว discharge ทันที"],
+       members:["MDCU67|RoD|13","MDCU68|RoC|19","MDCU66|RoA|18","MDCU67|RoA|8","MDCU66|RoA|47"]},
+      {id:"upjo", title:"UPJ obstruction: pyeloplasty เมื่อ split function < 40% · ทำงานดี → ติดตาม · แทบไม่ทำงาน → nephrectomy",
+       trend:"ให้ DRF จาก renogram แล้วเลือกผ่า / ไม่ผ่า",
+       asked:["เด็กหญิง 7 เดือน antenatal hydronephrosis US severe left hydronephrosis <b>ไม่มี hydroureter</b> DRF 22:78 obstructive curve → <b>left pyeloplasty</b> (ตัวลวง nephrectomy, PCN, antegrade DJ, US ติดตาม)","ทารก 6 เดือน left hydronephrosis DRF ขวา:ซ้าย 70:30 → <b>left pyeloplasty</b> (ตัวลวง pyelostomy, PCN, US / renogram ซ้ำ 6 เดือน)","เด็ก UPJO mild ไม่มีอาการ / UTI DRF 50:50 → <b>follow-up ด้วย US + renogram</b> (ตัวลวง nephrectomy, pyeloplasty, DJ, ATB ตลอดชีวิต)","เด็ก 5 ปี ก้อนสีข้างซ้าย (hydronephrosis) renal scan function <b>5%</b> VCUG ปกติ → <b>nephrectomy</b> (ตัวลวง pyeloplasty, observe, PCD, JJ stent)"],
+       pattern:["Hydronephrosis <b>ไม่มี hydroureter</b> = UPJ obstruction (มี hydroureter → คิด VUR / UVJ obstruction / PUV)","ข้อบ่งชี้ <b>pyeloplasty</b> (Anderson–Hynes dismembered): <b>split renal function < 40%</b>, function ลดลง > 10% ระหว่างติดตาม, obstructive drainage + อาการ (ปวด, UTI, นิ่ว), hydronephrosis เพิ่มขึ้น (APD โต, SFU 3–4) — EAU Paediatric 2025: ผ่าเมื่อ split function บกพร่อง / ลดลงจาก obstruction","ไม่มีอาการ + DRF ≥ 40% → <b>conservative follow-up</b> (US + MAG3)","ไตแทบไม่ทำงาน (คีย์ / สไลด์: < 10%) → <b>nephrectomy</b> (บางรายใส่ PCN ก่อนเพื่อดูว่าฟื้นได้ไหม)"],
+       pearls:["ใส่ PCN / DJ เป็นการรักษาหลักของ UPJO ในเด็ก — เป็นแค่ชั่วคราว"],
+       members:["MDCU74|RoA|6","MDCU73|RoB|Uro 2","MDCU72|RoA|3","MDCU67|RoB|81"]},
+      {id:"wilms", title:"Wilms tumor vs neuroblastoma",
+       trend:"ข้อ 'ข้อใดผิดเกี่ยวกับ Wilms' ใช้ซ้ำ — ช้อยผิดคือ calcification / prognosis แย่",
+       asked:["แม่คลำก้อนท้องลูกตอนอาบน้ำ US ก้อนจากไต BP สูง ไม่ข้าม midline ไม่มีถ่ายเหลว → <b>Wilms tumor</b> (ตัวลวง neuroblastoma, mesoblastic nephroma, UPJO, hepatoblastoma)","ข้อใด <b>ผิด</b> เกี่ยวกับ Wilms → <b>prognosis แย่</b> (ถูก: อายุ 1–4 ปี, รักษา surgery + chemo + RT, calcification น้อยกว่า neuroblastoma, Denys–Drash)","ข้อใด <b>ผิด</b> → <b>plain film เห็นก้อนมี calcification</b> (ถูก: prognosis ดี, อายุ 24–48 เดือน, Denys–Drash, bilateral ได้) — ออกสองรุ่น"],
+       pattern:["<b>Wilms</b>: renal tumor พบบ่อยสุดในเด็ก อายุ 2–5 ปี (peak 3–4) · เด็กดูแข็งแรง ก้อนเรียบที่สีข้าง <b>ไม่ข้าม midline</b> · HT ~25% (renin), hematuria ~25% · <b>calcification พบน้อย (~10%)</b> · bilateral ~5–7% · claw sign จากไต ± tumor thrombus ใน renal vein / IVC","Syndrome: <b>WAGR</b> (WT1), <b>Denys–Drash</b>, Beckwith–Wiedemann, hemihypertrophy","<b>Prognosis ดีมาก</b> (overall survival > 85–90%) · รักษา: COG → upfront nephrectomy (ห้ามทำก้อนแตก / biopsy — upstage) + chemo (vincristine, dactinomycin) ± RT · SIOP → neoadjuvant chemo ก่อน","<b>Neuroblastoma</b>: ข้าม midline, เด็กดูป่วย, <b>stippled calcification ~85–90%</b>, VMA / HVA สูง, ถ่ายเหลวจาก VIP, prognosis แย่กว่า"],
+       pearls:["'ไม่มีถ่ายเหลว' ในโจทย์ใช้ตัด neuroblastoma","ต้นฉบับ MDCU72 RoB มีช้อยผิดสองข้อ — bank ปรับช้อยให้เหลือคำตอบเดียว"],
+       members:["MDCU79|RoD|Ped 12","MDCU72|RoB|20","MDCU72|RoB|31","MDCU69|RoC|21"]}
+    ]},
+    {title:"มะเร็งต่อมลูกหมาก (Prostate cancer)", sections:[
+      {id:"dre-nodule", title:"DRE คลำได้ nodule แข็ง / PSA สูงมาก → prostate biopsy (แม้ PSA ปกติ)",
+       trend:"ตัวหลอกคือ PSA ปกติหรือ PSA สูงมากจนอยากข้ามไป staging / ADT",
+       asked:["PSA 8.2 + firm nodule → <b>prostate biopsy</b> (ตัวลวง bone scan, TURP, ADT, PSA ซ้ำ)","LUTS PSA <b>3.5</b> DRE เรียบแต่มี <b>hard nodule</b> lobe ซ้าย → <b>biopsy</b> (ตัวลวง alpha-blocker ± 5-ARI, antiandrogen, radical prostatectomy)","ต่อมโตเล็กน้อยมี wood-like nodule PSA 4 → TRUS-guided biopsy (ตัวลวง CT KUB, cystourethroscopy, finasteride) — ถามซ้ำสองรอบในรุ่นเดียว","IPSS 25 + nodule + PSA 8 → biopsy (ตัวลวง pelvic CT, TURP, TURBT)","ไม่มี LUTS ต่อม ~30 g + hard nodule PSA 6.5 → TRUS biopsy (ตัวลวง uroflowmetry, bone scan, follow ทุกปี)","PSA 3.5 + hard nodule → TRUS biopsy (ตัวลวง PSA ซ้ำ 1 ปี)","PSA <b>114</b> + hard nodular prostate → <b>TRUS-guided biopsy</b> เพื่อวินิจฉัย (ตัวลวง CT + bone scan ก่อน, TURP, ADT โดยไม่มีชิ้นเนื้อ, radical prostatectomy โดยไม่ biopsy)"],
+       pattern:["<b>DRE ผิดปกติ (nodule แข็ง / wood-like / irregular) = ข้อบ่งชี้ biopsy ไม่ว่า PSA เท่าไร</b> — มะเร็งราว 1 ใน 4 มี PSA < 4","PSA สูงมาก (> 100) + DRE แข็ง = สงสัย advanced / metastatic แต่ยังต้อง<b>ยืนยันชิ้นเนื้อ</b> (Gleason / ISUP grade) ก่อน แล้ว staging (bone scan + CT หรือ PSMA PET) · ผู้ป่วยอาการหนักมากอาจเริ่ม ADT ได้เพื่อบรรเทา","Biopsy: MRI-targeted + systematic (TRUS หรือ transperineal) — ทำ mpMRI ก่อนถ้ามี","ไม่ใช้: uroflowmetry / cystoscopy / TURP / CT KUB เพื่อวินิจฉัยมะเร็ง"],
+       pearls:["PSA ปกติแล้วรักษา BPH ต่อ ทั้งที่คลำได้ nodule","PSA 114 แล้วข้ามไป staging หรือ ADT ก่อนมีชิ้นเนื้อ"],
+       members:["MDCU74|RoC|33","MDCU72|RoA|11","MDCU72|RoB|29","MDCU72|RoC|14","MDCU69|RoC|12","MDCU68|RoC|22","MDCU67|RoA|77","MDCU76|RoD|64","MDCU75|RoD|Uro 2"]},
+      {id:"psa-high", title:"PSA สูงแต่ DRE เรียบ: MRI prostate ก่อน biopsy (ไม่มี MRI ในช้อย → biopsy)",
+       trend:"เคส LUTS + PSA สูงออกแทบทุกรุ่น — ตัวลวงหลักคือรักษา BPH ไปก่อน",
+       asked:["ชาย 65 ปี LUTS ต่อมโตเล็กน้อย PSA 12 ไม่มี UTI → <b>MRI prostate แล้ว biopsy</b> (ตัวลวง 5-ARI แล้วประเมิน 3 เดือน, alpha-blocker, ATB 4–6 สัปดาห์แล้ว PSA ซ้ำ, TURP)","IPSS 22 + PSA 8 → <b>multiparametric MRI</b> (ตัวลวง uroflowmetry + PVR, TRUS biopsy, bone scan, PSA ซ้ำ 12 เดือน)","IPSS 22 PSA 8 'ตาม guideline ปัจจุบัน' → mpMRI (ตัวลวง biopsy โดยไม่ทำ imaging, alpha-blocker แล้ว PSA ซ้ำ 1 ปี)","PSA 8 DRE เรียบโต → mpMRI (ตัวลวง reassure ว่าเป็น BPH)","60 ปี ไม่มีอาการ PSA 14 DRE rubbery → TRUS-guided biopsy (ไม่มี MRI ในช้อย)","IPSS 25 DRE firm smooth PSA 8 → TRUS + biopsy (ตัวลวง alpha-blocker, 5-ARI, prostatectomy)","Hesitancy nocturia DRE โตเรียบ PSA 8 → TRUS + biopsy (ตัวลวง cystoscopy, TURP ทันที)","IPSS 22 PSA 10 → TRUS biopsy","PSA 6 ต่อม<b>ไม่โต</b> เรียบ → TRUS + biopsy (PSA density สูง)"],
+       pattern:["PSA > 4 ng/mL (หรือสูงกว่าเกณฑ์ตามอายุ) โดยไม่มีสาเหตุอื่น = ต้อง<b>หามะเร็งก่อน</b>รักษา BPH · DRE เรียบไม่ได้ตัดมะเร็ง (มะเร็งส่วนใหญ่ T1c ตรวจพบจาก PSA)","<b>EAU Prostate Cancer 2025</b> (strong): ในชาย PSA 3–20 ng/mL ใช้ <b>mpMRI ก่อน biopsy</b> → PI-RADS ≥ 3 → MRI-targeted + systematic biopsy (แนะนำ transperineal) · AUA/SUO 2023 ก็แนะนำ MRI ก่อน initial biopsy","ถ้าช้อยไม่มี MRI → ตอบ <b>prostate biopsy (TRUS / transperineal)</b> · ในที่ที่ไม่มี MRI ทำ TRUS systematic biopsy ได้เลย","PSA 4–10 = gray zone ใช้ตัวช่วย: PSA density > 0.15, free / total PSA < 25%, PSA velocity, MRI","ห้ามเริ่ม <b>5-ARI ก่อน</b>สืบค้น (PSA ลด ~50% บังมะเร็ง) · ไม่ต้องลอง ATB ถ้าไม่มีหลักฐาน UTI / prostatitis · TURP ไม่ใช่วิธีวินิจฉัยมะเร็ง · bone scan / staging หลังได้ tissue"],
+       pearls:["คีย์เก่า MDCU76 RoA ตอบ TRUS biopsy — bank แก้เป็น mpMRI ตาม EAU 2025 / AUA 2023 (ถ้ามี MRI ในช้อย เลือก MRI)","รุ่นเก่า (MDCU67–68) ยังตอบ TRUS biopsy เพราะช้อยไม่มี MRI — ในบางรุ่น bank เปลี่ยนช้อย MRI ออกเพื่อไม่ให้มีสองคำตอบ","ต่อมโตเยอะทำให้ PSA สูงได้ แต่ต่อมไม่โตแล้ว PSA สูง (PSA density สูง) ยิ่งต้องสงสัยมะเร็ง"],
+       members:["MDCU79|RoD|Uro 1","MDCU76|RoA|8","MDCU76|RoC|Uro 2","MDCU73|RoB|Uro 4","MDCU77|RoA|Uro 13","MDCU68|RoB|37","MDCU68|RoD|22","MDCU67|RoD|14","MDCU67|RoD|34"]},
+      {id:"prostate-tx", title:"Prostate cancer: localized → radical prostatectomy / RT · metastatic → ADT",
+       trend:"แยก localized กับ metastatic แล้วเลือกการรักษา",
+       asked:["PSA 14 poorly differentiated MRI มะเร็งสองกลีบ ไม่มี ECE / SVI → <b>radical prostatectomy</b> (ตัวลวง TURP, <b>simple</b> retropubic prostatectomy, active surveillance, ADT อย่างเดียว)","อายุ 48 ปี พ่อเป็นมะเร็งต่อมลูกหมาก PSA 8 biopsy เป็นมะเร็ง ไม่มี metastasis → radical prostatectomy","ชาย 70 ปี PSA 80 biopsy เป็นมะเร็ง bone scan มี bone metastasis → <b>hormonal therapy</b> (ตัวลวง RP, MVAC, EBRT, brachytherapy)","ชาย 75 ปี ล้มแล้ว humerus หัก (pathologic) ต่อมโตแข็งขรุขระ PSA > 100 → <b>bilateral orchiectomy</b> (ตัวลวง TURP, radiation, chemotherapy, brachytherapy)"],
+       pattern:["<b>Localized</b> ในผู้ป่วย life expectancy > 10 ปี: <b>radical prostatectomy + PLND</b> หรือ <b>EBRT + ADT</b> (high-risk ให้ long-term ADT) · low-risk → active surveillance ได้ · high grade (poorly differentiated) ไม่ใช่ AS","Simple (retropubic) prostatectomy และ TURP = ผ่าตัด BPH ไม่ใช่ผ่าตัดมะเร็ง","<b>Metastatic (hormone-sensitive)</b>: <b>ADT</b> = bilateral orchiectomy หรือ LHRH agonist / antagonist — EAU 2025 ให้ ADT ร่วมกับ ARPI (abiraterone, enzalutamide, apalutamide, darolutamide) ± docetaxel · RT สำหรับ bone pain / pathologic fracture","LHRH agonist ทำให้เกิด testosterone flare → ให้ antiandrogen นำ","MVAC = ยาเคมีของ bladder (urothelial) cancer ไม่ใช่ prostate"],
+       pearls:["สับสน simple กับ radical prostatectomy","เลือก MVAC เพราะเห็นคำว่า chemotherapy"],
+       members:["MDCU72|RoD|10","MDCU67|RoC|82","MDCU69|RoC|13","MDCU67|RoB|82"]},
+      {id:"psa-screening", title:"PSA screening ในชายไม่มีอาการ → shared decision-making",
+       trend:"ออกในรุ่นหลังเป็นคำถามคำแนะนำ",
+       asked:["ชาย 52 ปี ไม่มีอาการ ไม่มีประวัติครอบครัว ถามเรื่องตรวจคัดกรอง → <b>shared decision-making</b> (ตัวลวง DRE ทุกปี, DRE + PSA ทุกปี, ห้ามตรวจ, เริ่มที่ 60 ปี)"],
+       pattern:["<b>AUA/SUO 2023</b>: ชาย 50–69 ปี ตรวจ PSA หลัง <b>shared decision-making</b> (อธิบายประโยชน์ลดการตายเล็กน้อย vs false positive, biopsy complication, overdiagnosis / overtreatment); อาจตรวจ baseline ที่ 45–50 ปี · <b>USPSTF 2018</b>: 55–69 ปี individual decision, ≥ 70 ปีไม่แนะนำ","<b>EAU 2025</b>: เสนอ PSA แบบ risk-adapted แก่ชายที่ได้ข้อมูลครบ — เริ่ม 50 ปี, 45 ปีถ้ามีประวัติครอบครัวหรือเชื้อสายแอฟริกัน, 40 ปีถ้ามี BRCA2","DRE อย่างเดียวไม่แนะนำเป็นการคัดกรอง"],
+       pearls:["ตอบ 'ตรวจ DRE + PSA ทุกปีทุกคน' — ปัจจุบันเป็น shared decision"],
+       members:["MDCU78|RoD|81"]}
+    ]},
+    {title:"มะเร็งกระเพาะปัสสาวะ และ hematuria work-up", sections:[
+      {id:"nmibc", title:"Bladder tumor: TURBT → NMIBC high-risk (T1 / high grade / CIS) → intravesical BCG",
+       trend:"แทบทุกรุ่นมีเคส 'หลัง TURBT ผลเป็น ... next' — ตัวตัดสินคือ invade muscularis propria หรือไม่",
+       asked:["Gross hematuria + cystoscopy เห็น sessile papillary lesion → next = <b>TURBT</b> (ตัวลวง cold-cup biopsy, radical cystectomy, BCG โดยไม่ resect, systemic chemo)","Bladder <b>CIS</b> หลัง TURBT เอาก้อนที่เห็นออกหมด → <b>intravesical immunotherapy (BCG)</b> (ตัวลวง intravesical chemo, radical cystectomy, surveillance, observe)","TURBT ครบ ผลเป็น <b>high-grade</b> ไม่ invade muscle → <b>BCG induction + maintenance</b> (ตัวลวง partial cystectomy, immediate RC, cisplatin, cystoscopy อย่างเดียว)","TURBT ผล high-grade NMIBC → BCG (ตัวลวง intravesical mitomycin C, RC, EBRT)","Invade <b>lamina propria</b> ไม่ถึง muscularis propria (T1) → intravesical BCG (ตัวลวง cystoscopy 3 เดือน, PET-CT, RC)","สูบบุหรี่ high-grade papillary invade lamina propria หลัง complete TURBT → adjuvant BCG","NMIBC (superficial) high-risk หลัง TURBT adjuvant ที่ดีที่สุด → <b>intravesical BCG immunotherapy</b> (ตัวลวง radiation, intravesical chemo, targeted therapy, chemoradiation)"],
+       pattern:["ก้อนใน bladder → <b>TURBT</b> = วินิจฉัย (histology + ความลึก — ชิ้นเนื้อต้องมี detrusor muscle) + รักษา NMIBC · ไม่ทำ cystectomy ก่อนรู้ stage","Staging: Ta = mucosa · <b>T1 = lamina propria (ยังเป็น NMIBC)</b> · <b>T2 = muscularis propria (MIBC)</b> · CIS = flat high-grade (ส่องเห็นเป็น velvety red patch, TURBT เอาไม่หมดจริง)","EAU NMIBC 2025 risk group: <b>low</b> (TaLG เล็ก เดี่ยว) → single immediate instillation chemo (mitomycin C / gemcitabine) ภายใน 24 ชม. · <b>intermediate</b> → intravesical chemo หรือ BCG 1 ปี · <b>high</b> (T1, high grade, CIS) → <b>BCG induction 6 สัปดาห์ + maintenance 1–3 ปี</b> (ลดทั้ง recurrence และ progression) · very high / BCG-unresponsive → radical cystectomy","<b>Re-TURBT</b> 2–6 สัปดาห์ ใน T1 หรือ resection ไม่ครบ / ไม่มี muscle ในชิ้นเนื้อ","BCG เริ่ม 2–4 สัปดาห์หลัง TURBT เมื่อแผลหาย — <b>ห้ามให้ทันที</b> (systemic BCG infection); single immediate instillation เป็นยาเคมี ไม่ใช่ BCG","ติดตาม: cystoscopy + urine cytology ทุก 3 เดือนช่วงแรก (เป็นการติดตาม ไม่ใช่การรักษาแทน BCG)"],
+       pearls:["คีย์เก่า MDCU79 RoD (เฉลยย่อท้ายไฟล์) ตอบ partial cystectomy — bank ตอบ BCG induction + maintenance ตาม EAU NMIBC 2025","คิดว่า 'in situ' = ระยะแรกสุดจึงแค่ติดตาม — CIS เป็น high-risk ต้อง BCG","เห็นคำว่า 'invade' (lamina propria) แล้วตอบ cystectomy — ต้องเป็น muscularis propria","MDCU76 RoA resident วงช้อย cystoscopy 3 เดือน — เป็นการติดตามหลัง BCG"],
+       members:["MDCU79|RoC|URO 3","MDCU79|RoD|Uro 7","MDCU78|RoB|19","MDCU76|RoA|1","MDCU74|RoC|34","MDCU72|RoC|ไม่มีเลข 8","MDCU76|RoD|72"]},
+      {id:"hematuria-workup", title:"Painless hematuria (gross / microscopic): CT urography + cystoscopy",
+       trend:"ผู้สูงอายุสูบบุหรี่ + painless gross hematuria = urothelial cancer จนกว่าจะพิสูจน์ได้",
+       asked:["ชาย 70 ปีสูบบุหรี่จัด painless gross hematuria ไม่มี LUTS / flank pain → Dx น่าจะเป็น <b>urothelial carcinoma</b> (ตัวลวง RCC, นิ่ว, BPH, cystitis)","Painless gross hematuria ที่ ER → <b>cystoscopy + CT urography</b> (ตัวลวง NCCT, IVP + US, RPG)","หญิง 70 ปี เคยสูบบุหรี่ 25 ปี (เลิก 15 ปี) DM painless gross hematuria 2 วัน (เคยเป็นแล้วหาย) UA ปกติ → <b>upper tract imaging + cystoscopy</b> (ตัวลวง NCCT KUB อย่างเดียว, ATB แล้ว UA ซ้ำ)","หญิงไทย ปวดเอวขวา + gross hematuria เคยเป็นนิ่ว → <b>CT urography</b> (ตัวลวง IVP, RPG, MRU, cystoscopy)","หญิง 55 ปี microscopic hematuria เคยทำ PCNL staghorn 10 ปีก่อน → <b>CT urography</b> (ตัวลวง RPG, URS, VCUG, KUB)","ชาย 35 ปี microscopic hematuria US + cystoscopy + IVP ปกติ → next = <b>CT urography</b> (ตัวลวง IVP + cystoscopy ซ้ำทุก 3 เดือน, UA ทุก 3–6 เดือน)","ภาวะใด <b>least likely</b> เป็นสาเหตุ painless gross hematuria → <b>early prostate cancer</b> (ทำได้: bladder ca, RCC, urethral ca, BPH)"],
+       pattern:["Gross hematuria ในผู้ใหญ่ / microhematuria ที่มีความเสี่ยง (อายุ, ชาย, บุหรี่, สารเคมี) → ตรวจทั้ง <b>upper tract = CT urography</b> (non-contrast + nephrographic + excretory phase: เห็นนิ่ว, RCC, UTUC) และ <b>lower tract = cystoscopy</b> (AUA/SUFU Microhematuria 2020 amended 2025) ± urine cytology","CTU ไวกว่า IVP / US สำหรับ small renal mass และ UTUC · แพ้สี / ไตเสื่อม → MR urography หรือ retrograde pyelography + US / NCCT","เลือดหยุดแล้วหรือ UA รอบนี้ปกติ <b>ไม่ตัด</b>มะเร็ง (เลือดออกเป็นพัก ๆ) · NCCT KUB ดูนิ่วได้แต่พลาด urothelial tumor และไม่ดู bladder","สาเหตุ painless gross hematuria: bladder cancer (สำคัญสุด), UTUC, RCC, BPH (prostatic vessels), urethral cancer · <b>early prostate cancer มักไม่มีอาการ</b> (peripheral zone) → least likely","Acute renal colic อย่างเดียว → NCCT KUB ก็พอ"],
+       pearls:["คีย์เก่า MDCU66 RoA ตอบ CT KUB — bank ตอบ upper tract imaging + cystoscopy (ผู้สูงอายุเคยสูบบุหรี่ = high risk)","คีย์ลายมือ MDCU73 RoD ตอบ RCC (ใส่ ?) — RCC ทำ gross hematuria ได้ bank ตอบ early prostate cancer","เห็นประวัตินิ่วแล้วส่งแค่ภาพนิ่ว"],
+       members:["MDCU70|RoC|2","MDCU67|RoC|84","MDCU66|RoA|21","MDCU74|RoA|1","MDCU70|RoC|5","MDCU68|RoC|24","MDCU73|RoD|Uro 2"]},
+      {id:"bladder-ca-risk", title:"Bladder cancer: risk factor, histology (urothelial vs SCC) และตำแหน่งของ urothelial carcinoma",
+       trend:"ข้อจำแบบ 'ข้อใดไม่ใช่' ที่วนซ้ำ",
+       asked:["ข้อใด <b>ไม่ใช่</b> risk factor ของ bladder cancer → <b>coffee</b> (ตัวลวงที่เป็นจริง: smoking, aniline / aromatic amine dye, cyclophosphamide, hereditary)","Bladder cancer ชนิดที่พบบ่อยสุด → <b>urothelial carcinoma</b>","Bladder cancer ที่สัมพันธ์กับ chronic infection / irritation → <b>squamous cell carcinoma</b>","Transitional cell carcinoma <b>least likely</b> เกิดที่ใด → <b>urethra</b> (calyx, renal pelvis, ureter, bladder เกิดได้)"],
+       pattern:["<b>Urothelial (transitional cell) carcinoma > 90%</b> ของ bladder cancer · risk: <b>บุหรี่ (สำคัญสุด)</b>, aromatic amines (aniline dye, benzidine, 2-naphthylamine — อุตสาหกรรมสี ยาง), cyclophosphamide (acrolein; mesna ป้องกัน hemorrhagic cystitis), pelvic radiation, phenacetin, aristolochic acid, hereditary (Lynch) · <b>coffee ไม่ใช่ risk factor ที่ยืนยัน</b>","<b>Squamous cell carcinoma</b>: chronic irritation — <i>Schistosoma haematobium</i>, สายสวนค้างนาน (spinal cord injury), UTI ซ้ำ, bladder stone, diverticulum","<b>Adenocarcinoma</b>: urachal remnant (dome), bladder exstrophy","Urothelium บุตั้งแต่ calyx → renal pelvis → ureter → bladder → prostatic urethra; bladder 90–95%, upper tract 5–10% · urethra ส่วนปลายบุด้วย squamous epithelium · primary urethral carcinoma พบน้อยมาก (EAU Primary Urethral Carcinoma: urothelial 54–65% > SCC 16–22% > adenocarcinoma 10–16%; หญิงพบ adenocarcinoma มากสุด) — จึงเป็นตำแหน่งที่ TCC เกิด least likely ในช้อย"],
+       pearls:["Schistosoma + chronic catheter = SCC ไม่ใช่ TCC"],
+       members:["MDCU69|RoC|X16","MDCU66|RoD|16","MDCU67|RoC|77","MDCU78|RoB|22","MDCU78|RoD|85"]},
+      {id:"mibc", title:"MIBC (invade muscularis propria) → neoadjuvant cisplatin + radical cystectomy",
+       trend:"คู่ตรงข้ามของ NMIBC — ถามว่า invade muscle แล้วทำอะไร",
+       asked:["TURBT พบ invade <b>muscularis propria</b> ไม่มี metastasis → definitive = <b>radical cystectomy</b> (ตัวลวง re-TUR, BCG, MMC, surveillance)","Multiple sessile tumor high-grade invade muscularis propria CT ไม่มี mets / nodes → radical cystectomy","MIBC ไม่มี mets next → <b>chemotherapy แล้ว cystectomy</b> (ตัวลวง BCG, intravesical chemo, re-TUR)","Hematuria TURBT invade <b>detrusor</b> → radical cystectomy (ตัวลวง UA / cystoscopy ทุก 3 เดือน, BCG, intravesical chemo)"],
+       pattern:["<b>≥ T2, M0</b> → <b>neoadjuvant cisplatin-based chemotherapy</b> (gemcitabine-cisplatin หรือ dd-MVAC) → <b>radical cystectomy + bilateral pelvic lymphadenectomy + urinary diversion</b> (ในชายเอา prostate / seminal vesicle; หญิงแบบดั้งเดิมเป็น anterior exenteration) · EAU MIBC 2026: ผู้ที่ให้ cisplatin และ immunotherapy ได้ (cT2–T4a N0 M0) → perioperative gemcitabine-cisplatin + <b>durvalumab</b> (NIAGARA) — คำตอบข้อสอบยังเป็น 'chemotherapy แล้ว cystectomy'","ทางเลือกรักษา bladder: <b>trimodality therapy</b> (maximal TURBT + chemoradiation) ในผู้ป่วยที่เลือกได้","Intravesical BCG / chemo ใช้กับ NMIBC เท่านั้น · re-TURBT ใช้กับ T1 / resection ไม่ครบ","Muscularis propria = detrusor muscle"],
+       pearls:["สับสน lamina propria (T1 → BCG) กับ muscularis propria (T2 → cystectomy)"],
+       members:["MDCU77|RoA|Uro 3","MDCU72|RoA|10","MDCU71|RoB|ไม่มีเลข 5","MDCU69|RoA|3"]},
+      {id:"contrast-ci", title:"ข้อห้าม / ข้อควรระวังของ contrast study (contrast CT, IVP)",
+       trend:"ถามแบบ 'ข้อใดเป็น / ไม่เป็นข้อห้าม'",
+       asked:["ข้อใด <b>ไม่ใช่</b> ข้อห้าม / ข้อควรระวังของ contrast-enhanced CT → <b>hematuria</b> (เป็นข้อห้ามจริง: ตั้งครรภ์, เคยแพ้สีรุนแรง, Cr 3.2, symptomatic hyperthyroidism)","ข้อห้ามของ IVP → <b>Cr 2 mg/dL</b> (ตัวลวง ureteric colic, active hematuria, สงสัย urothelial tumor, single functioning kidney)"],
+       pattern:["ข้อห้าม / ข้อควรระวัง iodinated contrast: เคยแพ้สีระดับปานกลาง–รุนแรง, <b>ไตเสื่อม</b> (สไลด์ IVP: GFR < 45 mL/min/1.73 m²; เกณฑ์ ACR / ESUR ปัจจุบันเสี่ยง CA-AKI เมื่อ eGFR < 30), ตั้งครรภ์ (รังสี), symptomatic hyperthyroidism หรือภายใน 6 สัปดาห์ของ radioiodine scan / therapy, metformin ในผู้ที่ไตเสื่อม (หยุดยา)","<b>Hematuria, colic, สงสัย tumor = ข้อบ่งชี้</b> ของ CT urography / IVP ไม่ใช่ข้อห้าม"],
+       pearls:["คิดว่าเลือดในปัสสาวะห้ามฉีดสี"],
+       members:["MDCU76|RoA|28","MDCU71|RoB|ไม่มีเลข 1"]}
+    ]},
+    {title:"ก้อนที่ไต: RCC, angiomyolipoma และ renal cyst", sections:[
+      {id:"renal-cyst", title:"Renal cyst: Bosniak (ต้องใช้ contrast CT) และ simple cyst ที่มีอาการ",
+       trend:"ถามว่า Bosniak จัดจากอะไร / class ไหนต้องผ่า / simple cyst ทำอะไร",
+       asked:["CT renal cystic lesion มี thick enhancing septa + enhancing solid component → <b>surgical excision</b> (ตัวลวง US ติดตาม, aspiration, ATB, percutaneous drainage)","US พบ cystic renal lesion มี calcification → next = <b>contrast-enhanced CT</b> (ตัวลวง ไม่ต้องทำอะไร, US ซ้ำ 6 เดือน, partial nephrectomy, aspiration)","ผล US บรรยายว่าเหมือน Bosniak II จัด class ได้เท่าไร → <b>ต้องทำ contrast CT ก่อน</b>","Simple renal cyst มาด้วยอาการใดบ่อยสุด → <b>asymptomatic incidental</b>","ชาย 40 ปี ปวดเอวขวาเป็น ๆ หาย ๆ 1 ปี US simple cyst 6 cm ไม่มี hydronephrosis / นิ่ว → <b>laparoscopic cyst unroofing</b> (ตัวลวง symptomatic Rx, aspiration, sclerosing agent, nephrectomy)"],
+       pattern:["<b>Bosniak classification (2019) ใช้ contrast-enhanced CT หรือ MRI</b> (ดู enhancement) — US จัด class ไม่ได้ ถ้า US เห็น cyst ไม่ simple (septa, calcification, ผนังหนา) → ส่ง contrast CT","I simple · II minimally complex (benign, ไม่ต้องติดตาม) · <b>IIF</b> ติดตาม · <b>III</b> thick / irregular enhancing wall or septa (~50% malignant) → จัดการแบบ localized RCC หรือ AS (EAU RCC 2025) · <b>IV</b> enhancing soft-tissue nodule (~90% malignant) → จัดการแบบ RCC (partial nephrectomy ถ้าทำได้)","<b>Simple cyst</b> พบบ่อยตามอายุ ส่วนใหญ่ไม่มีอาการ ไม่ต้องรักษา · มีอาการ (ปวด, อุด collecting system) → <b>laparoscopic deroofing / unroofing</b> (recurrence ต่ำ) · aspiration อย่างเดียวกลับเป็นซ้ำสูง · aspiration + sclerotherapy เป็นทางเลือก"],
+       pearls:["Enhancement ใน cyst = สงสัย cystic RCC — ไม่เจาะดูด / ไม่ระบาย"],
+       members:["MDCU78|RoB|20","MDCU70|RoA|37","MDCU72|RoB|30","MDCU77|RoC|Uro 1","MDCU69|RoA|1"]},
+      {id:"renal-mass-mx", title:"Solid renal mass (RCC): partial vs radical nephrectomy vs active surveillance",
+       trend:"ให้ขนาดก้อน + อายุ / โรคร่วม แล้วเลือกหัตถการ",
+       asked:["Intermittent gross hematuria + น้ำหนักลด + solid renal mass บน CT → <b>RCC</b> (ตัวลวง UTUC renal pelvis, AML, complicated cyst, XGP)","CT บังเอิญพบก้อนไตขวา 7×8 cm → <b>radical nephrectomy</b> (ตัวลวง biopsy, partial nephrectomy, chemoradiation, observe)","ชาย 45 ปี ก้อนไตซ้าย 3 cm + painless hematuria ไตขวาปกติ → <b>partial nephrectomy</b> (ตัวลวง nephroureterectomy, percutaneous / ureteroscopic removal)","ชาย 81 ปี enhancing renal mass 1.5 cm การรักษาใด <b>ไม่เหมาะ</b> → <b>radical nephrectomy</b> (เหมาะ: active surveillance, RFA, cryoablation, partial nephrectomy)"],
+       pattern:["Solid renal mass ที่ enhance (≥ 15–20 HU) ไม่มีไขมัน = <b>RCC จนกว่าจะพิสูจน์ได้</b> (RCC ~90% ของมะเร็งไตผู้ใหญ่; small renal mass ราว 20% เป็น benign) · ก้อนในเนื้อไต = RCC, ก้อนใน collecting system = urothelial","<b>ไม่ต้อง biopsy ก่อนผ่าตัด</b>ในผู้ที่จะผ่าอยู่แล้ว · biopsy เมื่อจะทำ ablation / AS / systemic therapy หรือก้อนไม่ชัด (EAU RCC 2025)","T1a ≤ 4 cm · T1b 4–7 · T2 > 7 cm — EAU RCC 2025: <b>T1 → partial nephrectomy</b> (strong; ไม่ทำ RN ถ้า PN ทำได้) · <b>T2 → radical nephrectomy</b> (PN เฉพาะ solitary kidney / CKD)","ผู้สูงอายุ / frail / โรคร่วม + small renal mass → <b>active surveillance หรือ thermal ablation</b> (RFA, cryo) — SRM โตช้า แพร่กระจายน้อย · <b>radical nephrectomy = overtreatment</b> ของก้อน 1.5 cm (เพิ่ม CKD)","RCC ดื้อ chemotherapy และ radiotherapy"],
+       pearls:["คีย์เก่า MDCU77 RoC ตอบ observe เป็นข้อที่ไม่เหมาะ — bank ตอบ radical nephrectomy ตาม AUA Renal Mass 2021 / EAU RCC 2025 (AS เหมาะในผู้สูงอายุ)","Biopsy RCC ก่อนผ่าในทุกราย — ไม่จำเป็น","Renal mass + hematuria แล้วตอบ nephroureterectomy — เฉพาะ UTUC"],
+       members:["MDCU79|RoD|Uro 8","MDCU69|RoC|X7","MDCU67|RoC|76","MDCU77|RoC|Uro 2"]},
+      {id:"rcc-facts", title:"RCC: ความเสี่ยง (ESRD → papillary), อาการ, การกระจาย",
+       trend:"ข้อความจริงเรื่อง RCC ออกเป็นช้อย 'ข้อใดถูก / ไม่ใช่'",
+       asked:["ผู้ป่วย ESRD ล้างไตหลายปีเป็น RCC ชนิดใดน่าจะเป็น → <b>papillary</b> (ตัวลวง clear cell, chromophobe, medullary, collecting duct)","ข้อใด <b>ไม่ใช่</b> ทางกระจายของ RCC → <b>collecting system</b> (เป็นทางจริง: hematogenous, venous, direct ไป adrenal, lymphatic)","ข้อใดถูกเกี่ยวกับ RCC → <b>อุบัติการณ์สูงขึ้นใน ESRD</b> (ผิด: ส่วนใหญ่มาด้วย hematuria, chemo ดีสุดใน metastasis, มาจาก transitional epithelium, radiosensitive) — ถามสองรุ่นติดกัน","ข้อใดถูก → risk สูงใน ESRD (ผิด: ต้องมีชิ้นเนื้อก่อนผ่า, chemosensitive)"],
+       pattern:["Clear cell ~70–80% (มาจาก proximal tubule, VHL) · papillary ~10–15% · chromophobe ~5% · <b>ESRD / acquired cystic kidney disease → RCC เพิ่มหลายเท่า และสัดส่วน papillary สูง</b>","Risk: บุหรี่, อ้วน, HT, ESRD / ACKD, VHL","ปัจจุบัน<b>ส่วนใหญ่พบโดยบังเอิญ</b> · classic triad (hematuria, flank pain, mass) < 10% · paraneoplastic: polycythemia, hypercalcemia, HT","การกระจาย: <b>ลุกเข้า renal vein → IVC (tumor thrombus)</b>, hematogenous (ปอด กระดูก ตับ สมอง), lymphatic, direct ไป adrenal / perinephric fat · การกระจายตาม urothelium / collecting system เป็นลักษณะของ urothelial carcinoma","ดื้อ chemo และ RT → metastatic ใช้ immunotherapy-based combination / TKI"],
+       pearls:["ตอบ clear cell เพราะพบบ่อยสุดทั่วไป ทั้งที่โจทย์ให้ ESRD","Painless hematuria เด่น = TCC ไม่ใช่ RCC"],
+       members:["MDCU77|RoA|Uro 1","MDCU77|RoB|Uro 2","MDCU71|RoB|1","MDCU72|RoA|8"]},
+      {id:"aml", title:"Angiomyolipoma (ก้อนไตมีไขมัน): เล็กไม่มีอาการ → surveillance · มีอาการ / ใหญ่ → embolization หรือ partial nephrectomy",
+       trend:"คำว่า fat density / macroscopic fat คือ AML ทันที แล้วตัดสินจากขนาด + อาการ",
+       asked:["หญิง 45 ปี ก้อนไต 2 cm มี macroscopic fat ไม่มีอาการ ไม่มีเลือดออก → <b>observation + imaging เป็นระยะ</b> (ตัวลวง radical / partial nephrectomy, embolization, biopsy)","CT ก้อน fat-containing 3 cm ไม่มีอาการ → active surveillance (ตัวลวง biopsy ก่อนตัดสินใจ, everolimus)","ก้อน hyperechoic fat density <b>5 cm + ปวดสีข้างเป็นพัก ๆ</b> → <b>partial nephrectomy</b> (ตัวลวง follow-up US, biopsy, total nephrectomy, chemo)"],
+       pattern:["Renal mass ที่มี <b>macroscopic fat</b> (HU ติดลบ < −10 ถึง −20) = <b>angiomyolipoma</b> แทบแน่นอน ไม่ต้อง biopsy · ~20% สัมพันธ์ tuberous sclerosis","<b>เล็ก ไม่มีอาการ</b> → active surveillance (US / CT เป็นระยะ)","Intervene (EAU RCC 2025: selective arterial embolization หรือ nephron-sparing surgery) เมื่อ: <b>มีอาการ</b> (ปวด, hematuria, เลือดออกซ้ำ), <b>ก้อนใหญ่</b> (เกณฑ์ดั้งเดิมในสไลด์ / คีย์ ≥ 4 cm; EAU ไม่กำหนดตัวเลข), หญิงวัยเจริญพันธุ์, ติดตามไม่ได้ / เข้าถึง ER ยาก","<b>Wunderlich syndrome</b> (retroperitoneal hemorrhage) → <b>selective arterial embolization</b> เป็นทางเลือกแรก (ลดการตัดไต) · everolimus สำหรับ AML ที่ผ่าตัดไม่ได้ / TSC","Nephron-sparing (partial) ดีกว่า total nephrectomy ในโรค benign"],
+       pearls:["เห็น renal mass แล้วผ่าตัดทุกก้อนเพราะกลัว RCC — ไขมันบอก AML","MDCU79 RoC ต้นฉบับจดแค่ 'Angiomyolipoma — observe' bank แต่ง stem ให้เป็นก้อนเล็กไม่มีอาการ"],
+       members:["MDCU79|RoC|URO 6","MDCU76|RoD|53","MDCU70|RoC|1"]}
+    ]},
+    {title:"STI และ urethritis", sections:[
+      {id:"urethritis-dx", title:"หนองท่อปัสสาวะหลังเพศสัมพันธ์: Gram stain / NAAT → gonococcal urethritis",
+       trend:"ถามทั้ง Dx, เชื้อ, สาเหตุ และการส่งตรวจ",
+       asked:["ชาย 24 ปี หนอง + dysuria 3 วันหลังมีเพศสัมพันธ์ไม่ป้องกัน Gram stain GN diplococci → <b>gonococcal urethritis</b> (ตัวลวง chlamydial, ureaplasma, trichomonas, acute prostatitis)","Penile swab GN intracellular diplococci → <b>gonorrhea</b> (ตัวลวง chlamydia, trichomonas, syphilis, candida)","ชายหนองไหล 2 วันหลังมีเพศสัมพันธ์ไม่ป้องกัน → <b>urethral swab Gram stain + culture</b> (ตัวลวง UA + empirical oral ATB, observe, cystoscopy, RUG)","ชาย 35 ปี dysuria หนองเหลืองไหลตลอด → สาเหตุ = <b>sexual transmission</b>","ชายหนองเหลืองข้น → สาเหตุ = STI"],
+       pattern:["Gram stain หนองท่อปัสสาวะในชายที่มีอาการ พบ <b>Gram-negative intracellular diplococci ใน PMN</b> = <i>N. gonorrhoeae</i> (sensitivity / specificity > 95%) · Gram stain มองไม่เห็น chlamydia","ส่งตรวจ: urethral swab Gram stain + <b>NAAT</b> (gonorrhea + chlamydia; first-void urine หรือ urethral swab) ± culture แล้วให้ยาเลย","Gonococcal: ระยะฟักตัว 2–7 วัน หนองข้นเหลือง–เขียวมาก · non-gonococcal (chlamydia): discharge ใสกว่า"],
+       pearls:["ตรวจแค่ UA แล้วจ่ายยาโดยไม่หาเชื้อและไม่รักษาคู่นอน"],
+       members:["MDCU79|RoD|Uro 9","MDCU77|RoC|Uro 8","MDCU77|RoB|Uro 3","MDCU69|RoC|R13","MDCU67|RoC|88"]},
+      {id:"urethritis-rx", title:"Gonococcal urethritis: ceftriaxone 500 mg IM + doxycycline (CDC 2021)",
+       trend:"คีย์รุ่นเก่าใช้ quinolone / azithromycin — ต้องรู้ regimen ปัจจุบัน",
+       asked:["ชาย 25 ปี หนองท่อปัสสาวะ Gram stain GN intracellular diplococci ยังไม่ได้ตรวจ chlamydia → <b>ceftriaxone IM + oral doxycycline</b> (ตัวลวง benzathine penicillin, azithromycin, cipro + metronidazole, metronidazole)","ชาย 25 ปี GN intracellular diplococci บอกว่าคงกินยา 7 วันไม่ครบ → <b>ceftriaxone 500 mg IM + azithromycin 1 g ครั้งเดียว</b> (ตัวลวง ceftriaxone เดี่ยว, cipro, doxycycline เดี่ยว, ceftriaxone + doxycycline 7 วัน)","ชายมีอาการ urethritis หลังเที่ยวกลางคืน → (คีย์) ciprofloxacin + doxycycline (ตัวลวง ofloxacin เดี่ยว, amoxicillin, nitrofurantoin, metronidazole)","ชาย dysuria + discharge หลังมีเพศสัมพันธ์ 2 วัน → <b>doxycycline + ceftriaxone</b>","ชาย 25 ปี มีเพศสัมพันธ์ 2 วันก่อน dysuria UA WBC 10–20 → (คีย์) ciprofloxacin + doxycycline (ตัวลวง hydration, ofloxacin เดี่ยว, metronidazole, doxazosin)"],
+       pattern:["<b>CDC STI 2021</b>: gonorrhea → <b>ceftriaxone 500 mg IM ครั้งเดียว</b> (≥ 150 kg → 1 g) · ถ้ายังไม่ได้ตัด chlamydia → <b>doxycycline 100 mg bid 7 วัน</b> · ยกเลิก dual therapy แบบ azithromycin เป็นหลักแล้ว","<b>Azithromycin 1 g ครั้งเดียว</b> = alternative สำหรับ chlamydia เมื่อกังวลเรื่องกินยาไม่ครบ / ใช้ doxycycline ไม่ได้","<b>Fluoroquinolone ไม่แนะนำแล้ว</b> สำหรับ gonorrhea (ดื้อยาสูง) — คีย์รุ่น MDCU66–67 ตอบ cipro + doxy เพราะช้อยไม่มี ceftriaxone · ถ้ามี ceftriaxone ในช้อยให้เลือก ceftriaxone","ทุกราย: รักษาคู่นอน (expedited partner therapy), งดเพศสัมพันธ์ 7 วันหลังรักษาและจนคู่รักษาครบ, ตรวจ HIV / syphilis, retest ~3 เดือน"],
+       pearls:["จำ regimen เก่า ceftriaxone + azithromycin เป็นหลัก","คีย์ MDCU74 RoD ตอบ ceftriaxone + azithromycin ตามสไลด์ — ถูกในบริบทที่โจทย์บอกว่ากินยาไม่ครบ ถ้าไม่มีปัญหา adherence CDC 2021 ให้ doxycycline"],
+       members:["MDCU79|RoC|URO 11","MDCU74|RoD|38","MDCU67|RoD|15","MDCU67|RoD|33","MDCU66|RoC|11"]},
+      {id:"genital-lesion", title:"แผล / ผื่น / ก้อนที่อวัยวะเพศ: herpes, syphilis, HPV wart",
+       trend:"จับคู่ลักษณะรอยโรคกับเชื้อ",
+       asked:["ตุ่มน้ำเจ็บที่อวัยวะเพศ (รูป) → <b>genital herpes</b> (ตัวลวง primary syphilis, HPV, chancroid, molluscum)","ชาย 25 ปี ผื่น maculopapular ทั่วตัวรวมฝ่ามือฝ่าเท้า treponemal + nontreponemal บวก → <b>secondary syphilis</b> (ตัวลวง primary, tertiary, early / late latent)","MSM ก้อนรอบทวารคล้ายดอกกะหล่ำไม่เจ็บ → <b>HPV</b> (ตัวลวง HSV, T. pallidum, molluscum, H. ducreyi)"],
+       pattern:["<b>HSV</b>: vesicle เป็นกลุ่ม แตกเป็นแผลตื้น <b>เจ็บ</b> ± ไข้ LN ขาหนีบโต → PCR → acyclovir / valacyclovir","<b>Syphilis</b>: primary = chancre <b>ไม่เจ็บ</b> ขอบแข็ง · <b>secondary</b> (4–10 สัปดาห์หลัง chancre) = ผื่น maculopapular รวม<b>ฝ่ามือฝ่าเท้า</b>, condyloma lata, mucous patch, LN โต, serology บวกเกือบ 100% · latent = ไม่มีอาการ","Chancroid (<i>H. ducreyi</i>): แผลเจ็บขอบไม่เรียบ + bubo","<b>Condyloma acuminata</b> = HPV 6, 11 (ก้อนดอกกะหล่ำ) — ต่างจาก condyloma lata (syphilis) · MSM / HIV ตรวจ anal canal (HPV 16/18 → AIN / anal cancer) · รักษา podophyllotoxin, imiquimod, cryo, excision; วัคซีน HPV ป้องกัน"],
+       pearls:["เห็นแผลอวัยวะเพศแล้วตอบ syphilis — chancre ไม่เจ็บ ไม่เป็นตุ่มน้ำ","serology บวกแล้วนึกถึง latent — latent ต้องไม่มีอาการ"],
+       members:["MDCU77|RoA|Uro 6","MDCU75|RoC|Uro 4","MDCU77|RoC|Uro 9"]}
+    ]},
+    {title:"ภาวะเร่งด่วนของอัณฑะและองคชาต (scrotal / penile emergencies)", sections:[
+      {id:"torsion", title:"Testicular torsion: explore ทันที → detorsion + bilateral orchidopexy",
+       trend:"ข้อ 'ข้อใดผิดเกี่ยวกับ torsion' ใช้ซ้ำแบบคำต่อคำหลายรุ่น",
+       asked:["ข้อใด <b>ผิด</b> เกี่ยวกับ testicular torsion → <b>ยกอัณฑะแล้วปวดลดลง</b> (ถูก: เคยปวดเป็นพัก ๆ, UA ไม่มี WBC, คลำอัณฑะยาก, อัณฑะวางแนวนอน) — ใช้ซ้ำสามรอบ","เด็ก 14 ปี ปวดอัณฑะซ้ายเฉียบพลัน 3 ชม. + อาเจียน high-riding horizontal lie cremasteric reflex หาย → <b>emergency scrotal exploration + orchidopexy</b> (ตัวลวง Doppler พรุ่งนี้, ATB + scrotal support, observe 24 ชม.)","ผ่าตัดพบอัณฑะบิด detorsion แล้วกลับมาชมพู → <b>detorsion + bilateral orchidopexy</b> (ตัวลวง fix ข้างเดียว, orchiectomy, detorsion อย่างเดียว)"],
+       pattern:["พบบ่อยวัยรุ่น · ปวดเฉียบพลันรุนแรง ± N/V · <b>high-riding, horizontal lie, cremasteric reflex หาย</b>, <b>Prehn sign negative</b> (ยกแล้วไม่ลดปวด / ปวดมากขึ้น) · UA ปกติ · อาจเคยปวดเป็นพัก ๆ (intermittent torsion)","Urologic emergency (EAU Paediatric 2025): <b>urgent surgical exploration</b> — ไม่ควรรอ imaging ถ้าคลินิกชัด · salvage ดีที่สุดภายใน 6 ชม.","Viable หลัง detorsion → <b>bilateral orchidopexy</b> (bell-clapper deformity มักเป็นสองข้าง) · ไม่ viable → orchiectomy + contralateral orchidopexy"],
+       pearls:["ลืม fix ข้างที่ไม่บิด","Prehn sign บวก (ยกแล้วดีขึ้น) เป็นของ epididymitis"],
+       members:["MDCU67|RoA|2","MDCU67|RoC|63","MDCU66|RoA|X12","MDCU70|RoA|1","MDCU74|RoD|37"]},
+      {id:"epididymo-orchitis", title:"Acute epididymo-orchitis (STI ในชายอายุน้อย)",
+       trend:"MDCU67 RoB ถามเป็นชุดต่อเนื่อง: ประวัติ → ส่งตรวจ → วินิจฉัย",
+       asked:["ชาย 25 ปี ไปหาหญิงบริการ 2 วันก่อน dysuria ปวดอัณฑะสองข้าง + discharge → ส่ง <b>urethral swab culture</b> (ตัวลวง urine exam, testicular US, TRUS, cytology)","ชาย 30 ปี dysuria 3 วัน ปัสสาวะเป็นเลือด ไข้หนาวสั่น ปวดหลังซ้ายและอัณฑะซ้าย 3 ชม. ซักประวัติเพิ่ม → <b>sexual history</b>","ชายคนเดียวกัน ส่งตรวจเพิ่ม → <b>all of the above</b> (UA, urine culture, CBC, KUB)","ชายคนเดียวกัน Dx → <b>acute left epididymo-orchitis</b>","ชาย 24 ปี ปวดบวมแดงอัณฑะขวา 2 วัน → <b>oral antibiotics</b> (ตัวลวง orchiectomy, orchiopexy, IV ATB, observe)"],
+       pattern:["อาการค่อยเป็นค่อยไป บวมแดง ± ไข้ / dysuria, <b>Prehn sign บวก</b>, cremasteric reflex ยังอยู่ · แยก torsion ไม่ได้ → Doppler US / explore","สาเหตุ: <b>ชายอายุน้อย sexually active → C. trachomatis / N. gonorrhoeae</b> (ซักประวัติเพศสัมพันธ์) · ชายสูงอายุ / insertive anal sex → enteric (E. coli จาก BOO)","ส่งตรวจ: UA, urine culture, CBC, urethral swab Gram stain / <b>NAAT</b> (first-void urine หรือ urethral swab)","รักษา (CDC 2021): STI → <b>ceftriaxone 500 mg IM + doxycycline 100 mg bid 10 วัน</b> · enteric → levofloxacin 10 วัน · scrotal support, NSAID · ส่วนใหญ่เป็น OPD ด้วยยากิน"],
+       pearls:["คีย์ไฟล์ 01.2 ของ MDCU69 RoC ตอบ urine exam — คีย์ชุดแรกและ bank ตอบ urethral swab (หาเชื้อ STI)","ปวดเฉียบพลันข้างเดียวต้องแยก torsion ก่อนเสมอ"],
+       members:["MDCU69|RoC|14","MDCU67|RoB|85","MDCU67|RoB|86","MDCU67|RoB|87","MDCU67|RoC|90"]},
+      {id:"paraphimosis", title:"Paraphimosis → manual reduction ก่อน → dorsal slit → elective circumcision",
+       trend:"ถามขั้นแรกของการรักษา",
+       asked:["เด็ก 6 ปี glans บวมเจ็บ 4 ชม. หลังรูดหนังหุ้มแล้วรูดกลับไม่ได้ glans ชมพูดี → <b>manual reduction</b> (ตัวลวง dorsal slit, emergency circumcision, observe, steroid cream)","เด็กชายหนังหุ้มร่นค้างหลัง glans บวมเจ็บ → manual reduction (ตัวลวง ventral slit, emergency circumcision, steroid, warm compress)","ชายมีเพศสัมพันธ์ 2 วันก่อน หนังหุ้มบวมค้างหลัง glans → manual reduction (ตัวลวง ATB, dorsal slit, emergency circumcision)"],
+       pattern:["Paraphimosis = หนังหุ้มร่นค้างหลัง corona → venous / lymphatic congestion → บวมมากขึ้น → เสี่ยง glans ischemia = <b>emergency</b>","ขั้นแรก <b>manual reduction</b> (EAU Paediatric 2025): analgesia / penile block, ลดบวม (บีบรัดด้วยผ้าก๊อซต่อเนื่อง, ประคบเย็น, เจาะเข็มระบาย) แล้วดัน glans เข้าพร้อมดึงหนังหุ้มกลับ → ไม่สำเร็จ → <b>dorsal slit</b> → <b>elective circumcision</b> ภายหลังเพื่อป้องกันเป็นซ้ำ"],
+       pearls:["สลับ phimosis (รูดไม่ลง → steroid / elective circumcision) กับ paraphimosis (รูดลงแล้วไม่กลับ → reduce ฉุกเฉิน)","ทำ dorsal slit / circumcision ทันทีโดยยังไม่ลอง reduce"],
+       members:["MDCU79|RoC|Ped 2","MDCU74|RoA|5@p1","MDCU68|RoD|17"]}
+    ]},
+    {title:"มะเร็งอัณฑะ (Testicular tumor)", sections:[
+      {id:"testis-gct", title:"Testicular germ cell tumor: seminoma vs NSGCT และ tumor markers",
+       trend:"pattern 'hCG สูง + AFP ปกติ = seminoma' ถามซ้ำในรุ่นเดียวกัน",
+       asked:["ชาย 30 ปี ก้อนอัณฑะไม่เจ็บ US heterogeneous + calcification <b>hCG สูง AFP ปกติ</b> → <b>seminoma</b> (ตัวลวง Leydig, Sertoli, epididymal cyst, chronic epididymitis)","ชาย 28 ปี firm painless testicular mass β-hCG สูง AFP ปกติ → seminoma (ตัวลวง yolk sac tumor, Leydig)","Testicular cancer histology ที่พบบ่อยที่สุด → <b>seminoma</b> (ตัวลวง embryonal, yolk sac, mixed GCT, Leydig)","ข้อใด <b>ไม่ใช่</b> tumor marker ของ testicular tumor → <b>CA-125</b> (เป็นจริง: LDH, β-hCG, AFP)","Testicular tumor ที่พบบ่อยที่สุดใน<b>เด็ก</b> → <b>yolk sac tumor</b> (ตัวลวง seminoma, choriocarcinoma, teratoma, embryonal)"],
+       pattern:["Solid intratesticular mass ในชาย 15–40 ปี = <b>germ cell tumor</b> (~95%) จนกว่าพิสูจน์ได้ว่าไม่ใช่ · pure seminoma พบบ่อยสุด (30–40 ปี; US มักเป็น homogeneous hypoechoic) · NSGCT (embryonal, yolk sac, choriocarcinoma, teratoma, mixed) อายุน้อยกว่า","Markers: <b>AFP</b> (yolk sac, embryonal) — <b>pure seminoma ไม่มีวันมี AFP สูง</b> (ถ้าสูง ให้รักษาแบบ NSGCT) · <b>β-hCG</b> (choriocarcinoma สูงมาก; seminoma สูงได้ ~15–20% จาก syncytiotrophoblastic giant cells) · <b>LDH</b> (tumor burden) · CA-125 = ovary","<b>ก่อนวัยรุ่น</b>: <b>มะเร็ง</b>อัณฑะที่พบบ่อยสุด = <b>yolk sac tumor</b> (AFP สูง, ทารก–เด็กเล็ก; ข้อมูล tumor registry) · แต่ถ้านับ<b>ก้อนทุกชนิด</b> ข้อมูลหลายสถาบัน (Pohl et al., J Urol 2004: teratoma 48% vs yolk sac 15%) พบ <b>teratoma (benign) บ่อยที่สุด</b> — registry เก่ารายงาน yolk sac สูงเพราะ benign ไม่ถูกส่งรายงาน · คีย์ MDCU67 RoB ตอบ yolk sac","Seminoma radiosensitive / chemosensitive มาก: stage I → surveillance หรือ carboplatin 1 cycle"],
+       pearls:["เห็น hCG สูงแล้วตอบ nonseminoma เสมอ — ตัวแยกคือ AFP","เลือก Leydig cell tumor เพราะเห็นคำว่าฮอร์โมน — Leydig สร้าง steroid ไม่ใช่ hCG","MDCU79 RoC: echo heterogeneous + calcification ในต้นฉบับเข้ากับ NSGCT มากกว่า แต่ช้อยมี GCT แค่ seminoma และ marker เข้ากับ seminoma","ก้อนอัณฑะในเด็ก: โจทย์ถาม 'malignant' → yolk sac แน่นอน · ถาม 'most common testicular tumor' แล้วมี teratoma ในช้อย (MDCU67 RoB) คีย์ตอบ yolk sac แต่ข้อมูลใหม่กว่าสนับสนุน teratoma — อ่านคำถามให้ดี"],
+       members:["MDCU79|RoC|URO 1","MDCU79|RoC|URO 9","MDCU74|RoC|1","MDCU66|RoC|13","MDCU67|RoB|76"]},
+      {id:"testis-lymph", title:"Lymphatic drainage: testis → retroperitoneum · scrotum → inguinal",
+       trend:"ถาม landing zone และ 'ข้อใดไม่ใช่' — คีย์เก่าผิดสองรุ่น",
+       asked:["ข้อใด <b>ไม่ใช่</b> ตำแหน่ง LN metastasis ที่พบบ่อยของ NSGCT → <b>inguinal</b> (ตัวลวง interaortocaval, supraclavicular, paracaval, para-aortic)","Right testicular GCT กระจายไป LN กลุ่มใดเป็นหลัก → <b>interaortocaval</b> (ตัวลวง left para-aortic, inguinal, external / internal iliac)","LN กลุ่มใด <b>ไม่ใช่</b> primary drainage ของ testicular cancer (ไม่มี scrotal violation) → <b>inguinal</b> (ตัวลวง interaortocaval, paracaval, common iliac, para-aortic)","Scrotal skin cancer กระจายไป LN ใดก่อน → <b>inguinal</b>"],
+       pattern:["Testis มีน้ำเหลืองวิ่งตาม gonadal vessels ไป <b>retroperitoneum</b>: <b>ขวา → interaortocaval</b> (landing zone หลัก) และ paracaval / precaval · <b>ซ้าย → para-aortic</b> (ใต้ left renal vein) · กระจายแบบ stepwise (choriocarcinoma ไปทางเลือดเร็ว)","ต่อไป cisterna chyli → thoracic duct → posterior mediastinum → <b>left supraclavicular</b> (distant nodal) · common iliac เป็น secondary site ได้","<b>Inguinal LN รับน้ำเหลืองจาก scrotal skin และ penis</b> ไม่ใช่ testis — จะพบใน testicular cancer เฉพาะเมื่อมี <b>scrotal violation</b> (เคย biopsy / ผ่าตัดผ่านถุงอัณฑะ, orchidopexy, hernia repair) หรือก้อนลาม scrotal skin","จึงต้องทำ <b>inguinal</b> orchiectomy ไม่ผ่าทาง scrotum"],
+       pearls:["คีย์เก่า MDCU79 RoD (เฉลยย่อท้ายไฟล์) ตอบ para-aortic — ผิด para-aortic เป็นตำแหน่งแรก (โดยเฉพาะข้างซ้าย); bank ตอบ inguinal","คีย์ลายมือ MDCU72 RoD ตอบ common iliac (ใส่ ?) — bank ตอบ inguinal ตาม Campbell-Walsh-Wein 13e / EAU Testicular Cancer 2025","คิดว่าอัณฑะอยู่ใกล้ขาหนีบจึงไป inguinal"],
+       members:["MDCU79|RoD|Uro 3","MDCU75|RoC|Uro 5","MDCU72|RoD|ไม่มีเลข 3","MDCU67|RoA|85"]},
+      {id:"testis-mass", title:"ก้อนอัณฑะไม่เจ็บ: scrotal US + markers → radical inguinal orchiectomy",
+       trend:"ถาม next step และ DDx — กับดักคือ biopsy ผ่าน scrotum",
+       asked:["ชาย 28 ปี ก้อนแข็งไม่เจ็บ US hypoechoic intratesticular ขอบไม่เรียบ ส่ง marker แล้ว → <b>radical inguinal orchiectomy</b> (ตัวลวง Doppler ซ้ำ, MRI, transscrotal needle biopsy, ATB แล้ว US ซ้ำ)","ชายไทย 25 ปี อัณฑะขวาโต 6 cm ไม่เจ็บ → next = <b>scrotal ultrasound</b> (ตัวลวง FNA, core biopsy, scrotal orchidectomy, inguinal orchidectomy ทันที)","ชาย 30 ปี อัณฑะโตไม่เจ็บหลายสัปดาห์ ข้อใด <b>ไม่ใช่</b> DDx → <b>epididymo-orchitis</b> (เป็น DDx: tumor, hydrocele, spermatocele, varicocele)"],
+       pattern:["ลำดับ: <b>scrotal US</b> (intratesticular hypoechoic mass) + <b>tumor markers ก่อนผ่า</b> (AFP, β-hCG, LDH) → <b>radical inguinal orchiectomy</b> (high ligation ของ spermatic cord ที่ internal ring) = ทั้งวินิจฉัยและรักษา (EAU Testicular Cancer)","<b>ห้าม transscrotal biopsy / FNA / scrotal orchiectomy</b> — เปลี่ยน lymphatic drainage ไป inguinal (scrotal violation) และเสี่ยง seeding","Painless scrotal swelling DDx: testicular tumor (ต้องแยกก่อน), hydrocele, spermatocele / epididymal cyst, varicocele, hernia · <b>epididymo-orchitis เป็นภาวะเจ็บ</b> บวมแดง ± ไข้ / อาการปัสสาวะ"],
+       pearls:["ผ่าตัดผ่านถุงอัณฑะ — ต้อง inguinal approach เสมอ","อ่านข้ามคำว่า NOT / painless"],
+       members:["MDCU79|RoD|Uro 2","MDCU70|RoA|39","MDCU78|RoB|28"]}
+    ]},
+    {title:"Upper tract urothelial carcinoma (UTUC)", sections:[
+      {id:"utuc-dx", title:"Filling defect ใน ureter / renal pelvis ที่ยังไม่มีชิ้นเนื้อ → ureteroscopy + biopsy",
+       trend:"คีย์เก่าหลายรุ่นตอบ nephroureterectomy ทันที — bank แก้เป็น URS + biopsy",
+       asked:["Mild hydronephrosis + ก้อน 1 cm ที่ distal ureter บน CTU → next = <b>ureteroscopy + biopsy</b> (ตัวลวง RNU, DJ stent, BCG, CTU ซ้ำ 3 เดือน)","CTU filling defect 5 mm ใน ureter ขวา + mild hydronephrosis cytology inconclusive → <b>right URS + biopsy</b> (ตัวลวง RNU, systemic chemo, PCN, observe)","หญิง 60 ปี ไม่มีอาการ microscopic hematuria + hydronephrosis ซ้าย CT ก้อน 1.5 cm ที่ UPJ cystoscopy ปกติ → <b>left URS + biopsy</b> (ตัวลวง nephrectomy, nephroureterectomy, PCNL)","Hematuria IVP filling defect 2 cm ใน renal pelvis CT hypodense ตำแหน่งเดียวกัน → <b>URS + biopsy</b> (ตัวลวง radical nephrectomy, RNU โดยไม่ biopsy, partial nephrectomy)"],
+       pattern:["Filling defect ใน upper tract: DDx = <b>UTUC</b>, radiolucent stone (uric acid), blood clot, fungal ball","Work-up (EAU UTUC 2025): <b>CT urography</b> + urine cytology + <b>cystoscopy</b> (หา bladder tumor ร่วม) → <b>diagnostic ureteroscopy + biopsy</b> (± selective cytology) เมื่อ imaging / cytology ยังวินิจฉัยหรือแบ่ง risk ไม่ได้ และผลจะเปลี่ยนการรักษา","แบ่ง risk: <b>grade เป็นตัวชี้วัดที่สำคัญที่สุด</b> · high-grade cytology / biopsy, local invasion บน CT, variant histology → high risk · ขนาด (~2 cm), multifocal, hydronephrosis ใช้ประกอบกัน ไม่ตัดสินเดี่ยว ๆ","<b>Low risk</b> → kidney-sparing (endoscopic ablation, segmental ureterectomy ของ distal ureter) · <b>high risk</b> → RNU + bladder cuff"],
+       pearls:["คีย์เก่า MDCU77 RoA, MDCU76 RoD ตอบ radical nephroureterectomy และคีย์ไฟล์ 01.2 ของ MDCU69 RoC ตอบ RNU — bank ตอบ URS + biopsy (ยังไม่มีชิ้นเนื้อ / ก้อนเล็กอาจ low risk)","กระโดดไปผ่าตัดใหญ่ทันทีเมื่อเห็น filling defect"],
+       members:["MDCU77|RoA|Uro 4","MDCU76|RoD|37","MDCU70|RoB|5","MDCU69|RoC|15"]},
+      {id:"utuc-rnu", title:"UTUC high-risk → radical nephroureterectomy + bladder cuff excision",
+       trend:"ให้ก้อนใหญ่ / high grade ที่ ureter หรือ renal pelvis แล้วให้เลือกระหว่าง radical nephrectomy กับ RNU",
+       asked:["ชาย 68 ปีสูบบุหรี่ painless gross hematuria ก้อน 3 cm proximal ureter + hydronephrosis URS biopsy high-grade ไตซ้ายปกติ → <b>nephroureterectomy + bladder cuff</b> (ตัวลวง radical nephrectomy, BCG, ESWL, DJ stent + observe)","ชาย 66 ปีสูบบุหรี่ ก้อน 3 cm upper ureter ไตอีกข้างปกติ → RNU + bladder cuff (ตัวลวง URS laser ablation, segmental ureterectomy, BCG)","Hematuria IVP filling defect 3 cm renal pelvis CT ก้อน cystoscopy ปกติ → <b>right radical nephroureterectomy</b> (ตัวลวง radical nephrectomy, RC + ileal conduit)","อาการที่พบบ่อยที่สุดของ TCC renal pelvis → <b>gross hematuria</b> (ตัวลวง azotemia, asymptomatic, palpable mass, flank pain)"],
+       pattern:["อาการ UTUC: <b>hematuria</b> (gross หรือ microscopic ~70–80%) บ่อยสุด → flank pain (clot / ก้อนอุด) → ก้อนคลำได้ / azotemia พบน้อย","High-risk UTUC → <b>radical nephroureterectomy (RNU) with bladder cuff excision</b>: เอาไต + ureter ทั้งเส้น + intramural ureter + ureteric orifice (field change; ตอ ureter ที่เหลือเกิดมะเร็งซ้ำสูง) ± lymphadenectomy","หลัง RNU: <b>single postoperative intravesical chemotherapy</b> ลด bladder recurrence (เกิดได้ 22–47%) · พิจารณา adjuvant platinum ใน pT2+ / N+","<b>Radical nephrectomy = ผ่าตัดของ RCC</b> (มะเร็งเนื้อไต) ไม่เอา ureter — ใช้ไม่ได้กับ UTUC","ไตอีกข้างปกติ → ทำ RNU ได้โดยไม่ต้องกังวลไตวาย · solitary kidney / CKD จึงค่อยคิด kidney-sparing"],
+       pearls:["ลืม bladder cuff","ตอบ TCC renal pelvis มาด้วย classic triad แบบ RCC"],
+       members:["MDCU79|RoC|URO 4","MDCU79|RoD|Uro 13","MDCU67|RoA|83","MDCU75|RoD|Uro 1"]}
+    ]},
+    {title:"มะเร็งองคชาต (Penile cancer)", sections:[
+      {id:"penile-ca", title:"Penile SCC: biopsy ก่อน → penile-sparing / partial / total penectomy ตามตำแหน่งและความยาวตอ",
+       trend:"ถามขั้นวินิจฉัย (biopsy) และการเลือกขนาดการผ่าตัด",
+       asked:["ก้อนแผลที่ glans → วินิจฉัยด้วย <b>incisional biopsy</b> (ตัวลวง partial penectomy ทันที, ILND, PET-CT ก่อน biopsy, steroid)","ก้อนไม่เจ็บ 2 cm ที่ shaft → <b>incisional biopsy</b> (ตัวลวง excisional biopsy, circumcision, partial / total penectomy)","มาขลิบแล้วพบ penile condyloma → <b>incisional biopsy</b> (ตัวลวง ATB + follow, excisional biopsy, penectomy)","ชาย 40 ปี รอยโรค glans + shaft ลามถึง 3 cm จาก mons pubis SCC well-diff pT2N0M0 → <b>total penectomy</b> (ตัวลวง partial penectomy, laser, imiquimod, circumcision)","Partial penectomy distal shaft SCC — margin ตามตำราคลาสสิก → <b>2 cm</b>","ข้อใด <b>ไม่ใช่</b> ปัจจัยในการเลือกการรักษา penile SCC (ตามคีย์) → sexual activity (ปัจจัยจริง: ความยาวองคชาต, ขนาด, ความต้องการผู้ป่วย, stage)"],
+       pattern:["รอยโรค / ก้อน / แผลที่องคชาต → <b>biopsy ยืนยันก่อนรักษา</b> (EAU-ASCO Penile Cancer 2023: pre-treatment biopsy เมื่อมะเร็งยังไม่ชัด และก่อน topical / laser / RT) — ส่วนใหญ่เป็น SCC","Condyloma: wart ทั่วไปรักษาด้วย topical / cryo / excision; <b>biopsy เมื่อผิดปกติ</b> (pigmented, indurated, fixed, bleeding, ulcerated), ไม่ตอบสนองการรักษา หรือวินิจฉัยไม่แน่ (CDC STI 2021) — giant condyloma (Buschke-Löwenstein) อาจเป็นมะเร็ง","เลือกการผ่าตัดตาม stage, ขนาด, ตำแหน่ง, <b>ความยาวตอที่เหลือพอยืนปัสสาวะ</b> และความต้องการผู้ป่วย: Tis / Ta / T1 → penile-sparing (laser, glansectomy) · invade corpora (T3) → <b>partial penectomy</b> · ก้อนใหญ่ลามใกล้โคน ตอไม่พอ → <b>total penectomy + perineal urethrostomy</b>","Margin: ตำราคลาสสิก <b>2 cm</b> (คำตอบในคีย์) · EAU-ASCO 2023 ไม่กำหนดระยะ — เน้น <b>margin เป็นลบ</b> (frozen section เมื่อสงสัย) เพื่อเก็บความยาวองคชาต","Inguinal LN = สถานีแรก · cN0 แต่ high risk (≥ T1b) → dynamic sentinel node biopsy หรือ ILND"],
+       pearls:["เห็น N0 + well-differentiated แล้วเลือกผ่าตัดเล็ก โดยไม่ดูว่าก้อนลามถึงใกล้โคน","คีย์ MDCU67 RoC ไม่นับ sexual activity — ในทางปฏิบัติคุณภาพชีวิตทางเพศมีผลต่อการเลือก organ-sparing"],
+       members:["MDCU70|RoC|3","MDCU67|RoA|84","MDCU66|RoB|87","MDCU76|RoA|2","MDCU74|RoC|2","MDCU67|RoC|78"]},
+      {id:"penile-risk", title:"Risk factor ของ penile SCC (paraphimosis ไม่ใช่)",
+       trend:"ข้อเดียวกันออกสองรุ่นติด",
+       asked:["ข้อใด <b>ไม่</b> เพิ่มความเสี่ยง penile SCC → <b>paraphimosis</b> (เป็นจริง: phimosis, chronic balanitis, poor hygiene, HPV)"],
+       pattern:["Risk: <b>phimosis</b> (smegma ค้าง), chronic inflammation / balanitis / lichen sclerosus, poor hygiene, <b>HPV 16/18</b>, บุหรี่, PUVA · neonatal circumcision ลดความเสี่ยง","Paraphimosis = ภาวะฉุกเฉินเฉียบพลัน ไม่ใช่ risk factor"],
+       pearls:["สลับ phimosis กับ paraphimosis"],
+       members:["MDCU71|RoB|2","MDCU72|RoA|9"]}
+    ]},
+    {title:"GU trauma และ iatrogenic injury", sections:[
+      {id:"gyn-injury", title:"หลัง hysterectomy: ureteric injury และ vesicovaginal fistula",
+       trend:"แยกตามอาการ: ปวดสีข้าง + ปัสสาวะชมพู vs ปัสสาวะรั่วตลอดเวลา",
+       asked:["1 วันหลัง TAH ปัสสาวะสีชมพู + ปวดสีข้างขวา → <b>intravenous pyelography</b> (ตามคีย์; ตัวลวง cystoscopy, UA + culture, observe, US)","หญิงปัสสาวะรั่ว<b>ตลอดเวลาทั้งกลางวันกลางคืน</b>หลัง TAH ต้องใส่ผ้าอ้อมตลอด → <b>vesicovaginal fistula</b> (ตัวลวง pelvic diaphragm hypermobility, detrusor overactivity, overflow, urethral diverticulum)"],
+       pattern:["Ureter บาดเจ็บง่ายระหว่าง hysterectomy: ใต้ uterine artery ('water under the bridge'), ใกล้ infundibulopelvic ligament, ที่ ureteric tunnel · อาการหลังผ่า: ปวดสีข้าง, ไข้, hematuria, ileus, urinoma","วินิจฉัย (EAU Urological Trauma): <b>CT urography (มี delayed / excretory phase)</b> เป็นมาตรฐานปัจจุบัน หรือ retrograde pyelography · IVP คือ excretory imaging ที่ใกล้ที่สุดในช้อยเก่า","<b>ปัสสาวะไหลตลอดเวลา</b> ไม่สัมพันธ์กับไอ / จาม / ปวดปัสสาวะ หลังผ่าตัดอุ้งเชิงกราน = <b>urogenital fistula (VVF)</b> → dye (methylene blue) test, cystoscopy · hypermobility ทำให้ stress incontinence (รั่วเวลาไอจาม) ไม่ใช่รั่วตลอด"],
+       pearls:["คีย์เก่า MDCU76 RoA ตอบ pelvic diaphragm hypermobility — bank ตอบ VVF ตาม Campbell-Walsh-Wein 13e / EAU Female LUTS 2025","คิดว่าเลือดในปัสสาวะหลังผ่าตัดอุ้งเชิงกรานเป็นแค่จากสายสวน","MDCU77 RoB ต้นฉบับบอกแค่ปัสสาวะสีชมพู — bank เติมปวดสีข้างให้ตรงกับที่คีย์ตีความ"],
+       members:["MDCU77|RoB|Uro 5","MDCU76|RoA|11"]},
+      {id:"urethral-injury", title:"Blood at meatus หลังบาดเจ็บ → ห้ามใส่ Foley ก่อน retrograde urethrogram",
+       trend:"ถามข้อห้ามการใส่สายสวน",
+       asked:["สถานการณ์ใด <b>ห้าม</b> ใส่ urethral catheter → <b>blood at meatus หลังตกจากที่สูง</b> (ตัวลวง recurrent UTI, gross hematuria มี clot, AUR, monitor urine output)"],
+       pattern:["Blood at meatus, perineal butterfly hematoma, high-riding prostate หลัง pelvic fracture / fall / straddle injury → <b>สงสัย urethral injury</b> → <b>retrograde urethrogram ก่อน</b>ใส่ Foley (ATLS 10th)","ถ้ามี injury / ใส่ไม่ได้ → <b>suprapubic cystostomy</b> · anterior injury บางส่วนอาจคา Foley ได้ (คีย์สไลด์), complete disruption → SPC","Gross hematuria มี clot → ใส่ 3-way catheter ล้าง (ไม่ใช่ข้อห้าม)"],
+       pearls:["ใส่ Foley ใน trauma ทุกรายเพื่อ monitor urine โดยไม่ดู meatus"],
+       members:["MDCU72|RoC|ไม่มีเลข 10"]}
+    ]},
+    {title:"ข้อที่ติดแท็ก Uro แต่เป็นเรื่องของอวัยวะข้างเคียง", sections:[
+      {id:"crc-bladder", title:"มะเร็งลำไส้ใหญ่ / rectum ลุก bladder → en bloc resection",
+       trend:"ข้อ colorectal ที่ติดแท็ก Uro ด้วย",
+       asked:["Colon cancer CT ลุก <b>dome ของ bladder</b> → <b>anterior resection + en bloc partial cystectomy</b> (ตัวลวง pelvic exenteration ± chemo, diverting colostomy, chemo อย่างเดียว)","Rectal cancer ลุก bladder → <b>pelvic exenteration</b> (ตัวลวง LAR + coloanal, APR, chemo อย่างเดียว, local excision)"],
+       pattern:["หลักของมะเร็ง T4b ลุกอวัยวะข้างเคียง: <b>en bloc multivisceral resection ให้ได้ R0</b> — ห้ามแยก adhesion ออก (อาจเป็นเนื้องอก)","<b>Colon (sigmoid) cancer ลุก bladder dome</b> → resection + <b>partial cystectomy</b> en bloc (NCCN Colon 2025, ASCRS) แล้ว adjuvant chemo ถ้า N+; ลุก trigone / กว้าง → cystectomy / exenteration","<b>Rectal cancer ลุก bladder</b> → neoadjuvant chemoradiation / TNT แล้ว <b>pelvic exenteration</b> (เอา rectum + bladder ± prostate) — LAR / APR อย่างเดียวไม่ได้ R0"],
+       pearls:["คีย์เก่า MDCU69 RoC: คีย์ลายมือตอบ pelvic exenteration + chemo, คีย์ไฟล์ 01.2 ตอบ pelvic exenteration — bank ตอบ AR + en bloc partial cystectomy (dome = partial cystectomy, trigone = cystectomy / exenteration)"],
+       members:["MDCU69|RoC|X20","MDCU68|RoB|64"]},
+      {id:"radiation-proctitis", title:"Radiation proctitis หลังฉายแสง / brachytherapy ต่อมลูกหมาก",
+       trend:"ข้อ colorectal ที่ติดแท็ก Uro เพราะสาเหตุมาจาก prostate RT",
+       asked:["ชายสูงอายุท้องผูก ถ่ายเป็นเลือด colonoscopy เห็น telangiectasia หลายจุดที่ rectum → ประวัติที่น่าจะพบ → <b>brachytherapy for prostate cancer</b> (ตัวลวง สวนอุจจาระบ่อย, fecal impaction, NSAID, HHT)"],
+       pattern:["Rectal telangiectasia + bleeding หลังฉายแสงอุ้งเชิงกราน (prostate EBRT / brachytherapy, มะเร็งปากมดลูก) = <b>chronic radiation proctitis</b> — เกิด 9 เดือนถึงหลายปีหลังฉาย จาก obliterative endarteritis","รักษา: argon plasma coagulation, formalin, sucralfate enema, hyperbaric oxygen"],
+       pearls:["คิดถึง angiodysplasia ซึ่งมักอยู่ right colon"],
+       members:["MDCU76|RoA|12"]},
+      {id:"perianal-abscess", title:"Perianal abscess → incision and drainage (ติดแท็ก Uro ผิด)",
+       trend:"ข้อ anorectal ที่ติดแท็ก Uro ผิด",
+       asked:["ชายปวดรอบทวารเฉียบพลัน 2 วัน ก้อนกดเจ็บ fluctuant ข้างซ้ายของทวาร → <b>incision and drainage</b> (ตัวลวง excisional biopsy, oral ATB อย่างเดียว, sitz bath, primary fistulotomy)"],
+       pattern:["ASCRS 2022: anorectal abscess → <b>I&D ทันที</b>เมื่อวินิจฉัย ผ่าใกล้ขอบทวาร เปิดกว้างพอระบาย · antibiotics เพิ่มเฉพาะ cellulitis ลุกลาม, systemic sign, ภูมิต่ำ, DM, ลิ้นหัวใจเทียม · ราว 1/3 เกิด fistula-in-ano ภายหลัง · ไม่ทำ fistulotomy เป็น routine ในระยะ acute"],
+       pearls:["รอให้ยาช่วยหรือรอก้อนนิ่ม — เจอหนองต้องระบาย"],
+       members:["MDCU76|RoD|54@p11"]},
+      {id:"vte-prophylaxis", title:"VTE prophylaxis ก่อนผ่าตัดมะเร็ง rectum (ติดแท็ก Uro ผิด)",
+       trend:"ข้อ perioperative ที่ติดแท็ก Uro ผิด",
+       asked:["หญิงมะเร็ง rectum จะทำ LAR วิธีใด <b>ไม่</b> ลดความเสี่ยง VTE → <b>neoadjuvant chemoradiotherapy</b> (ลดได้: LDUH, LMWH, IPC, early mobilization)"],
+       pattern:["Chemotherapy / radiation <b>เพิ่ม</b>ความเสี่ยง VTE (endothelial injury, procoagulant) · มะเร็ง + pelvic surgery นาน = high risk (Caprini ≥ 5) → pharmacologic (LMWH / LDUH) + mechanical (IPC) + early ambulation · extended LMWH 4 สัปดาห์หลัง major abdominopelvic cancer surgery"],
+       pearls:["อ่านข้ามคำว่า NOT"],
+       members:["MDCU74|RoA|5@p2"]},
+      {id:"arm-vacterl", title:"Anorectal malformation ในทารก: คัดกรอง VACTERL ด้วย echocardiogram (ติดแท็ก Uro ผิด)",
+       trend:"ข้อ pediatric surgery ที่ติดแท็ก Uro",
+       asked:["ทารก ARM ปัสสาวะขุ่นไม่มี RBC / WBC sacrum 5 ปล้องปกติ มีลมในกระเพาะและลำไส้ ต้องส่งตรวจเพิ่ม → <b>echocardiogram</b> (ตัวลวง CT spine, barium swallow, MRI brain, bone scan)"],
+       pattern:["ทารก ARM ทุกรายต้องคัดกรอง <b>VACTERL</b> (Holcomb & Murphy Ashcraft's Pediatric Surgery): <b>echocardiogram</b> (cardiac anomaly พบบ่อย สำคัญต่อการดมยา), renal US, <b>spinal US</b> (< 3 เดือน; MRI ถ้าผิดปกติ), ใส่ NG ดู esophageal atresia, X-ray sacrum / แขนขา · CT spine มีรังสีและดูไขสันหลังได้ไม่ดี"],
+       pearls:["คีย์เก่า MDCU77 RoC ตอบ 'B?' (CT spine) — bank ตอบ echocardiogram"],
+       members:["MDCU77|RoC|Ped 8"]}
+    ]}
+  ]});

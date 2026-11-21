@@ -1,7 +1,25 @@
 {
  "MDCU74|RoD|39": {
-  "opinion": "ตรวจคีย์ (21 พ.ย. 2026): เห็นด้วยกับคีย์ P'Ing (B Stage II) — ตอบ B · ตาม WSES 2020 CT classification: abscess ≤4 cm = stage 1b, >4 cm = stage 2a (ตัด 4 cm แบบเดียวกับตารางของ P'Ing) และ WSES 2020 แนะนำ PCD + ATB สำหรับ large abscess · Hinchey ดั้งเดิม (1978)/modified Hinchey (Wasvary 1999) จัด pericolic abscess = Ib ไม่ว่าขนาด → ถ้าข้อสอบใช้ Hinchey ดั้งเดิมจะตอบ A · ความมั่นใจปานกลาง",
-  "why": "ตาราง modified Hinchey ที่ P'Ing แปะ: <b>Ia</b> pericolic phlegmon · <b>Ib</b> pericolic abscess (&lt;4 cm) · <b>II</b> pelvic/distant intra-abdominal (interloop) abscess <b>หรือ abscess &gt;4 cm</b> · <b>III</b> purulent peritonitis · <b>IV</b> fecal peritonitis · abscess 5 cm → <b>II</b> · สอดคล้องกับ <b>WSES 2020</b> CT classification (≤4 cm = 1b, <b>&gt;4 cm = 2a</b>) → <b>percutaneous drainage + ATB</b> (abscess เล็ก &lt;4–5 cm ลอง ATB อย่างเดียวได้)"
+  "ans": 0,
+  "stem": "A 62-year-old man with acute sigmoid diverticulitis has a CT showing a 5-cm pericolic abscess. According to the modified Hinchey classification, what is the stage?",
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): เดิมคีย์ P'Ing B (Stage II ตามตารางที่แปะ: abscess &gt;4 cm = II) → แก้เป็น <b>A Stage I (Ib)</b> · ตาม Hinchey 1978 และ modified Hinchey (Wasvary 1999 / Kaiser 2005) ที่แบ่งตาม<b>ตำแหน่ง</b>: Ib = confined pericolic abscess ไม่ว่าขนาด, II = pelvic/distant/retroperitoneal abscess · เกณฑ์ 4 cm เป็นของ WSES 2020 CT classification (1b ≤4 cm / 2a &gt;4 cm) และขนาด ≥3 cm ใช้ตัดสิน percutaneous drainage (ASCRS 2020) ไม่ได้เปลี่ยน Hinchey stage · ตอบให้ตรงกับ 76D 16 และ 73D Colo 1 · แก้ stem: ตัดคำ \"used in this exam\" ที่เติมไว้ให้เข้ากับคีย์เดิม (ต้นฉบับใน gray) · ช่อง notes เดิมยังอ้างตาราง &gt;4 cm = II — ใช้ไม่ได้แล้ว · ⚠ ถ้าข้อสอบจริงระบุว่าใช้ WSES classification ให้ตอบ stage 2a · ความมั่นใจปานกลาง-สูง",
+  "interp": "Pericolic abscess (ติดผนังลำไส้) ขนาด 5 cm — Hinchey จัดตามตำแหน่งของหนอง → Stage I (Ib)",
+  "why": "<b>Hinchey (1978)</b> และ <b>modified Hinchey</b> (Wasvary 1999 / Kaiser 2005) แบ่งตาม<b>ตำแหน่ง</b>ของหนอง ไม่ใช่ขนาด: 0 mild clinical diverticulitis · Ia pericolic phlegmon · <b>Ib confined pericolic abscess</b> · II pelvic / distant intra-abdominal / retroperitoneal abscess · III purulent peritonitis · IV fecal peritonitis → pericolic abscess 5 cm = <b>Stage I (Ib)</b> · ขนาดใช้ตัดสิน<b>การรักษา</b>: ≥3–4 cm → <b>CT-guided percutaneous drainage + ATB</b> (ASCRS 2020, WSES 2020) · ตัด 4 cm เป็นของ <b>WSES 2020 CT classification</b> (≤4 cm = 1b, &gt;4 cm = 2a) ไม่ใช่ Hinchey II",
+  "wrong": {
+   "B": "Stage II = pelvic / distant (interloop, retroperitoneal) abscess — ตารางที่คีย์เดิมแปะ (&gt;4 cm = II) เอาเกณฑ์ขนาดของ WSES มาปนกับ Hinchey",
+   "C": "Stage III = purulent peritonitis",
+   "D": "Stage IV = fecal peritonitis",
+   "E": "ไม่มี stage V"
+  },
+  "trap": "ใช้ขนาด &gt;4 cm ตัดสิน stage — ขนาดเป็นเกณฑ์ drainage / WSES 2a ไม่ใช่ Hinchey II",
+  "summary": [
+   "Modified Hinchey: 0 mild · Ia phlegmon · Ib pericolic abscess (ทุกขนาด) · II distant abscess · III purulent · IV fecal peritonitis",
+   "Abscess &lt;3 cm → IV ATB · ≥3–4 cm → ATB + percutaneous drainage",
+   "Hinchey III: laparoscopic lavage หรือ resection ± primary anastomosis/Hartmann",
+   "Hinchey IV: Hartmann procedure/resection",
+   "Colonoscopy 6–8 สัปดาห์หลังหาย"
+  ],
+  "notes": "ตรวจคีย์ 22 พ.ย. 2026: เดิมคลังตอบ B Stage II ตามตารางที่ P’Ing แปะ (abscess >4 cm = II) → แก้เป็น A Stage I · Hinchey 1978 / modified Hinchey (Wasvary 1999, Kaiser 2005) จัด pericolic abscess ทุกขนาดเป็น I(b) · ตัด 4 cm เป็นของ WSES 2020 CT classification (1b ≤4 cm / 2a >4 cm) คนละระบบ · 73D Colo 1 และ 76D 16 ตอบ I เหมือนกัน"
  },
  "MDCU74|RoD|45": {
   "opinion": "ตรวจคีย์ (21 พ.ย. 2026): ไม่เห็นด้วยกับคีย์ P'Ing (ข้อ 3 post-op CCRT) — คงตอบ A postoperative chemotherapy · ตาม ESMO Rectal Cancer CPG 2017 (slide set 2018): upper rectal cancers above the peritoneal reflection should be treated as colon cancer และ post-op CRT ใช้เฉพาะเมื่อมี adverse pathology (CRM+, perforation, incomplete mesorectum) ซึ่งโจทย์ไม่มี · ไฟล์ใช้คำ pericolic/apical node แบบ colon ด้วย · ถ้าข้อสอบตั้งใจหมายถึง mid/low rectum คำตอบตามคีย์ (CCRT) จะถูก (NCI PDQ: post-op CRT ยังเป็น acceptable option ของ stage II–III rectum ที่ไม่ได้ neoadjuvant) · ESMO 2025 (localised rectal cancer) ออกแล้วแต่เปิดเนื้อหาเต็มไม่ได้ · ความมั่นใจปานกลาง"
@@ -48,7 +66,23 @@
   "opinion": "ตรวจคีย์ (21 พ.ย. 2026): ไม่เห็นด้วยกับคีย์ P'Ing (1 APR — ใช้หลัก rectal adenocarcinoma ติด sphincter) — คงตอบ C chemoradiation · NCCN Anal Carcinoma v.2025 / ESMO 2021 / Alberta Health Services Anal Canal Cancer GI-001 v6 (May 2025): anal canal SCC ทุก stage ที่ไม่ใช่ T1 เล็ก → definitive CRT (5-FU/capecitabine + mitomycin + RT) · APR สำหรับ residual/recurrent disease หลัง CRT · local excision เฉพาะ T1 ≤2 cm ที่ไม่ติด sphincter · ความมั่นใจสูง"
  },
  "MDCU72|RoC|17": {
-  "opinion": "ตรวจคีย์ (21 พ.ย. 2026): ตามคีย์ P'Ing (A cavernous ICA aneurysm — P'Ing ใส่ ? และวาดภาพ cavernous sinus) — คงตอบ A · large cavernous/paraclinoid ICA aneurysm กด optic nerve/chiasm ทำ progressive visual loss ได้ (Youmans and Winn 8th ed.) แต่ tuberculum sellae meningioma ก็ทำได้ · โจทย์จดไม่ครบ (ช้อย C–E ว่าง) และน่าจะมีภาพประกอบ → ยืนยันจากแหล่งอ้างอิงไม่ได้ · ความมั่นใจต่ำ"
+  "ans": 1,
+  "stem": "A 32-year-old man has progressive loss of vision for 3 months. What is the most likely diagnosis?",
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): เดิมคีย์ P'Ing A cavernous ICA aneurysm (P'Ing ใส่ ? เอง) → แก้เป็น <b>B tuberculum sellae meningioma</b> · ตาม Youmans and Winn 8e / Greenberg 10e: aneurysm ของ <b>cavernous segment</b> อยู่ใน cavernous sinus ใต้ต่อ optic nerve มักทำ <b>cavernous sinus syndrome</b> (diplopia จาก CN VI/III/IV, ปวด V1) — visual loss พบเมื่อเป็น paraclinoid/ophthalmic segment มากกว่า · ส่วน <b>progressive painless visual loss</b> เป็นอาการเด่นของ suprasellar/tuberculum sellae meningioma · แก้ stem จาก \"Which lesion … is the answer given?\" เป็นคำถามตรงตามต้นฉบับ (เป็นอะไร) · ⚠ โจทย์กำกวม: recall ไม่ครบ (ช้อย C–E ว่าง, ช้อย B จดแค่ \"… meningioma\") และน่าจะมีภาพ — ในห้องสอบถ้าภาพ/โจทย์บอก ophthalmoplegia, ปวดหน้า, หรือเห็น vascular lesion ใน cavernous sinus → ตอบ aneurysm; ถ้าเป็นตามัวค่อยเป็นอย่างเดียว → meningioma · ความมั่นใจต่ำ",
+  "interp": "ตามัวค่อยเป็นค่อยไป 3 เดือน = compressive optic neuropathy จากก้อนใกล้ optic nerve/chiasm",
+  "why": "<b>Progressive painless visual loss</b> = ก้อนกด optic nerve/chiasm: pituitary macroadenoma, <b>tuberculum sellae / planum / clinoidal meningioma</b>, craniopharyngioma, paraclinoid aneurysm · <b>Tuberculum sellae meningioma</b>: อาการเด่นคือตามัวข้างเดียวหรือสองข้างค่อยเป็น (asymmetric field defect) ต่อมรับภาพไม่ปกติ · <b>Cavernous ICA aneurysm</b> อยู่ใน cavernous sinus → มักมาด้วย <b>diplopia (CN VI &gt; III, IV) + ปวด V1</b> (cavernous sinus syndrome) หรือ carotid-cavernous fistula ถ้าแตก — ตามัวพบน้อย (เป็นอาการของ ophthalmic/paraclinoid segment มากกว่า)",
+  "wrong": {
+   "A": "Cavernous ICA aneurysm มักทำ cavernous sinus syndrome (ophthalmoplegia, ปวดหน้า) มากกว่าตามัว — คีย์ P'Ing เลือกข้อนี้ (ใส่ ?)",
+   "C": "Vestibular schwannoma: hearing loss, tinnitus, imbalance (CPA)",
+   "D": "Pineal germinoma: Parinaud syndrome, hydrocephalus",
+   "E": "Cerebellar astrocytoma: ataxia, hydrocephalus ในเด็ก"
+  },
+  "trap": "เลือก aneurysm เพราะอยู่ใกล้ optic apparatus — ต้องแยก cavernous segment (CN III/IV/VI) กับ paraclinoid/ophthalmic segment (optic nerve)",
+  "summary": [
+   "Progressive visual loss: pituitary adenoma, meningioma (tuberculum sellae/clinoid/optic sheath), craniopharyngioma, paraclinoid aneurysm",
+   "Cavernous ICA aneurysm → cavernous sinus syndrome (CN III/IV/VI, V1) · แตก → carotid-cavernous fistula",
+   "Imaging: MRI + CTA"
+  ]
  },
  "MDCU72|RoD|14": {
   "opinion": "ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีวงคำตอบ (P'Ing กากบาท B, C, D และใส่ ? · ลายมือ honeymoon cystitis) — คงตอบ B postcoital single-dose antibiotic · EAU Guidelines on Urological Infections 2026: Use continuous or postcoital antimicrobial prophylaxis to prevent recurrent cystitis (strong) หลัง non-antimicrobial measures ล้มเหลว · ยาที่แนะนำคือ nitrofurantoin/fosfomycin/trimethoprim — EAU ไม่แนะนำ fluoroquinolone สำหรับ cystitis (อาจเป็นเหตุที่ P'Ing กากบาท B เพราะเป็น cipro) · vaginal estrogen สำหรับ postmenopausal · ช้อยที่เหลือ (งดเพศสัมพันธ์, ตรวจสามีหา GC) ไม่มีแนวทางรองรับ · ความมั่นใจปานกลาง",
@@ -58,9 +92,10 @@
   "opinion": "ตรวจคีย์ (21 พ.ย. 2026): ไม่เห็นด้วยกับคีย์ P'Ing (C common iliac — P'Ing ใส่ ?) — คงตอบ E inguinal · Campbell-Walsh-Wein 13e / EAU Testicular Cancer 2025 และ Curr Oncol Rep 2024 (RPLND templates): primary landing zone ขวา = interaortocaval/paracaval/precaval, ซ้าย = para-aortic/preaortic · common iliac อยู่ใน RPLND template (ipsilateral iliac) · inguinal node รับจาก scrotum เกี่ยวเฉพาะเมื่อมี scrotal violation · ความมั่นใจสูง"
  },
  "MDCU69|RoA|25": {
-  "opinion": "ตรวจคีย์ (21 พ.ย. 2026): เห็นด้วยกับคีย์ E (คีย์ 2 ไฟล์ตรงกัน) — คงตอบ E · A–D (เลือดไม่จางทุก tube, opening pressure สูง, xanthochromia, WBC สูงเกินสัดส่วน) ล้วนเป็นลักษณะของ true SAH ไม่ใช่ traumatic tap (Tintinalli/AHA/ASA 2023 aSAH guideline) · โจทย์น่าจะถามจริงว่า ข้อใดเป็นลักษณะของ traumatic tap → None of the above · ⚠ ถ้าถามว่า ข้อใดไม่ใช่ จะกำกวม · ความมั่นใจปานกลาง",
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): คงคำตอบ E (คีย์ 2 ไฟล์ตรงกัน) แต่แก้ stem ให้ตรงเจตนาคีย์ · ต้นฉบับ (gray) ถามว่า \"อะไรไม่ใช่ลักษณะของ traumatic tap\" ซึ่งทำให้ A–D ถูกทุกข้อและ E ผิดเชิงตรรกะ · A–D (เลือดไม่จางทุก tube, opening pressure สูง, xanthochromia, WBC สูงเกินสัดส่วน) ล้วนเป็นลักษณะของ true SAH (AHA/ASA 2023 aSAH guideline; Tintinalli) → ถ้าถามว่า \"ข้อใดเป็นลักษณะ traumatic tap\" คำตอบคือ None of the above · ⚠ โจทย์กำกวม: ในห้องสอบถ้าเจอข้อนี้ด้วยช้อยชุดเดิม ให้ตอบ E ตามคีย์ทั้ง 2 ไฟล์ (ผู้ออกข้อสอบตั้งใจให้ A–D เป็นลักษณะของ SAH) · ความมั่นใจปานกลาง",
   "interp": "A–D ทุกข้อเป็นลักษณะของ SAH → ไม่มีข้อใดเป็นลักษณะ traumatic tap → None of the above",
-  "trap": "⚠ โจทย์ recall เขียนว่า ไม่ใช่ลักษณะ แต่คีย์ทั้ง 2 ไฟล์ตอบ None — น่าจะถามว่า ข้อใดเป็นลักษณะของ traumatic tap"
+  "trap": "⚠ โจทย์ recall เขียนว่า ไม่ใช่ลักษณะ แต่คีย์ทั้ง 2 ไฟล์ตอบ None — น่าจะถามว่า ข้อใดเป็นลักษณะของ traumatic tap",
+  "stem": "Which of the following is a feature of a traumatic lumbar tap (rather than true subarachnoid hemorrhage)?"
  },
  "MDCU69|RoA|40": {
   "opinion": "ตรวจคีย์ (21 พ.ย. 2026): เห็นด้วยกับคีย์ชุดแรก (E sitz bath + medical) · คีย์ไฟล์ 01.2 (B hemorrhoidectomy) ผิด — คงตอบ E · 10 วันหลัง chemo = nadir (neutropenia + thrombocytopenia) → หลีกเลี่ยงหัตถการ anorectal · Grewal et al., J Am Coll Surg 1996: noninfectious anorectal complications ในผู้ป่วย leukemia respond to nonoperative intervention · ASCRS 2024 hemorrhoid guideline ไม่ได้กล่าวถึง special populations · ความมั่นใจปานกลาง"

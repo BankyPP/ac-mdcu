@@ -1,574 +1,213 @@
-SUMM.push({
- "tag": "hx",
- "title": "History taking",
- "intro": "<ul><li>สถานี History taking (มี SP + examiner) ออก <b>ทุก rotation ของ MDCU65–67</b> — โจทย์สั้นมาก (อาการนำ 1 บรรทัด) แล้วให้ซักต่อ ตามด้วยข้อย่อยที่อาจารย์ถาม <b>provisional Dx ± DDx ± initial management</b></li><li>เรื่องที่วนซ้ำมากที่สุดคือ <b>ทางเดินน้ำดี</b>: acute cholangitis (ไข้ + ปวดท้องบน + เหลือง — 3 rotation), acute cholecystitis, painless obstructive jaundice (cholangiocarcinoma / periampullary) — ต้องถามสีปัสสาวะ / อุจจาระ / คัน, อาการ Reynolds, ปลาดิบ, ประวัตินิ่ว / ERCP ทุกครั้ง</li><li>รองลงมา: <b>hematemesis / UGIB</b> (3 rotation — คะแนนหลักอยู่ที่ยา NSAID / ยาผง / ยาชุด และโรคตับ), ปวดท้องเรื้อรังที่มี alarm features (CA stomach), ปวดท้องเฉียบพลันในหญิงวัยเจริญพันธุ์ (ต้องถาม LMP / ตั้งครรภ์)</li><li>นอกช่องท้อง: <b>vascular</b> (varicose veins, intermittent claudication — MDCU65), <b>breast cancer screening + advice</b>, <b>counselling แม่เรื่อง physiologic phimosis</b></li><li>โครงที่ได้คะแนนเสมอ: แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต → CC → PI (SOCRATES / OPQRST) → อาการร่วม + red flags → แยกโรคระบบอื่น → PMH / ยา / สุรา / บุหรี่ / FH → สรุปให้ผู้ป่วยฟัง ถามว่ามีอะไรเพิ่ม ขอบคุณ</li><li>MDCU79 RoC (OSCE 7): ซักประวัติก้อนเต้านมหญิง 20 ปี + แนะนำการตรวจต่อ</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: ซักประวัติก้อนเต้านม (78B, 78C)</li></ul>",
- "groups": [
-  {
-   "title": "Hepatobiliary — fever, RUQ pain, jaundice",
-   "sections": [
-    {
-     "id": "hx-cholangitis",
-     "title": "Acute cholangitis (Charcot triad) จาก choledocholithiasis",
-     "trend": "ออกซ้ำทั้ง MDCU65 และ 67 — โจทย์อาจให้แค่ 'ปวดลิ้นปี่ + ไข้' หรือ 'ปวดท้อง' แล้วรอดูว่าซักเรื่องเหลืองและ sepsis หรือไม่",
-     "asked": [
-      "41-year-old woman: epigastric pain + fever 3 วัน → take history → Dx + most likely underlying cause",
-      "Abdominal pain (± fever) → focused history → provisional Dx (อาจารย์ถาม)",
-      "Abdominal pain and associated symptoms → history → provisional Dx + initial management"
-     ],
-     "flow": [
-      "แนะนำตัว ขออนุญาต ยืนยันชื่อ-อายุ",
-      "CC + PI ปวดท้องแบบ SOCRATES: ตำแหน่ง (ลิ้นปี่ / RUQ), onset, ลักษณะ, ร้าวสะบักขวา, สัมพันธ์อาหารมัน, เคยปวดแบบนี้ (biliary colic), ความรุนแรง",
-      "ไข้ หนาวสั่น",
-      "ตัวเหลือง: เริ่มเมื่อไร เร็วแค่ไหน, ปัสสาวะสีชาเข้ม, อุจจาระซีด, คัน, เคยเหลืองมาก่อน",
-      "อาการรุนแรง: ซึม สับสน หน้ามืด ใจสั่น (Reynolds pentad)",
-      "อาการร่วม: คลื่นไส้อาเจียน, อาเจียนเลือด / ถ่ายดำ, เบื่ออาหาร น้ำหนักลด (malignancy)",
-      "แยกโรค: ร้าวทะลุหลัง + สุรา (pancreatitis), แสบท้อง + NSAID (PUD), ปัสสาวะแสบขัด / ปวดเอว (pyelonephritis), ไอ เหนื่อย (RLL pneumonia), เจ็บหน้าอก (MI), ประจำเดือน / ตั้งครรภ์",
-      "PMH: นิ่วถุงน้ำดี, ผ่าตัด / ERCP / stent ท่อน้ำดี, โรคตับ, โรคเลือด (hemolysis), DM · ยา / สมุนไพร แพ้ยา",
-      "Social: ปลาน้ำจืดดิบ (ก้อยปลา ปลาร้า), สุรา · ปัจจัยเสี่ยงไวรัสตับอักเสบ (ให้เลือด เข็ม เพศสัมพันธ์) · FH มะเร็งตับ / ท่อน้ำดี",
-      "สรุปให้ผู้ป่วยฟัง → ตอบอาจารย์: Dx + สาเหตุ + แผนเบื้องต้น"
-     ],
-     "pattern": [
-      "<b>Dx</b>: Acute (ascending) cholangitis — Charcot triad (ไข้หนาวสั่น + ปวด RUQ + jaundice) · ซึม / hypotension เพิ่ม = Reynolds pentad",
-      "<b>สาเหตุที่น่าจะเป็นที่สุด</b>: choledocholithiasis (CBD stone) จากนิ่วถุงน้ำดี / recurrent stone หลัง ERCP · อื่น: malignant obstruction (cholangiocarcinoma, CA head of pancreas), benign stricture, liver fluke, stent อุดตัน",
-      "<b>TG18 diagnosis</b>: A systemic inflammation (ไข้ / WBC / CRP) + B cholestasis (jaundice / LFT) + C imaging (ท่อขยาย / เห็นสาเหตุ) → definite = A + B + C",
-      "<b>TG18 severity</b>: Grade III = organ dysfunction (hypotension ต้องใช้ vasopressor, สับสน, PaO2/FiO2 < 300, oliguria / Cr > 2, INR > 1.5, platelet < 100k) · Grade II = 2 ใน 5: WBC > 12k / < 4k, ไข้ ≥ 39 °C, อายุ ≥ 75, bilirubin ≥ 5, albumin ต่ำ",
-      "<b>Initial management</b>: ABC + IV fluid, hemoculture แล้ว IV antibiotic (ceftriaxone + metronidazole; severe → piperacillin-tazobactam), NPO, แก้ปวด · CBC, LFT, BUN / Cr, coagulation, lactate, US abdomen",
-      "<b>Biliary drainage</b>: ERCP (sphincterotomy + stone extraction / stent) — Grade III ด่วนหลัง resuscitate, Grade II early, Grade I ถ้าไม่ดีขึ้นใน 24 ชม. · ERCP ทำไม่ได้ → PTBD · ภายหลัง cholecystectomy กันเป็นซ้ำ"
-     ],
-     "kw": [
-      "Charcot triad",
-      "Reynolds pentad",
-      "dark urine, pale stool, pruritus",
-      "previous gallstone / biliary colic",
-      "previous ERCP / stent",
-      "raw freshwater fish",
-      "choledocholithiasis",
-      "Tokyo Guidelines 2018",
-      "blood culture + IV antibiotics",
-      "ERCP biliary drainage"
-     ],
-     "ddx": [
-      "Acute cholecystitis / Mirizzi syndrome",
-      "Cholangiocarcinoma ที่มีการติดเชื้อ",
-      "Liver abscess",
-      "Viral hepatitis",
-      "Acute pancreatitis"
-     ],
-     "pearls": [
-      "ซักแต่อาการปวด ไม่ถามสีปัสสาวะ / อุจจาระ / คัน และอาการซึม-ช็อก = หักมาก (ทุก rubric เน้น)",
-      "ตอบ acute cholecystitis = ได้บางส่วน เพราะไม่อธิบายตัวเหลือง",
-      "ผู้สูงอายุมี Charcot triad ครบเพียง ~50–70% — อย่ารอให้ครบ"
-     ],
-     "members": [
-      "MDCU67|RoA|2#1",
-      "MDCU67|RoA|2#2",
-      "MDCU65|RoA|7#1",
-      "MDCU65|RoA|7#2",
-      "MDCU65|RoB|9#1",
-      "MDCU65|RoB|9#2"
-     ]
-    },
-    {
-     "id": "hx-cholecystitis",
-     "title": "Acute calculous cholecystitis (ปวดท้อง 1 วัน)",
-     "asked": [
-      "Abdominal pain 1 day → take history → Dx + one DDx"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันผู้ป่วย ขออนุญาต",
-      "OPQRST: onset หลังอาหารมัน, RUQ, ปวดต่อเนื่อง > 6 ชม., ร้าวสะบักขวา, แย่ลงเมื่อหายใจลึก, ความรุนแรง",
-      "ไข้ หนาวสั่น · คลื่นไส้อาเจียน",
-      "ตัวเหลือง ปัสสาวะเข้ม อุจจาระซีด คัน (แยก cholangitis / CBD stone)",
-      "แยกโรค: ร้าวทะลุหลัง (pancreatitis), ถ่ายเหลว, ปัสสาวะแสบขัด / ปวดหลัง (pyelonephritis), ไอ เหนื่อย (RLL pneumonia), ประจำเดือน / ตั้งครรภ์",
-      "อดีต: เคยปวดแบบนี้ (biliary colic), นิ่ว, ผ่าตัด · ยา (OCP, NSAID), สุรา, DM",
-      "สรุปให้ผู้ป่วยฟัง → Dx + DDx 1 โรค"
-     ],
-     "pattern": [
-      "<b>Dx</b>: Acute calculous cholecystitis — ปวด RUQ ต่อเนื่อง > 6 ชม. ร้าวสะบักขวา + ไข้ + ไม่เหลือง + เคยมี biliary colic",
-      "<b>แยกสามโรคทางเดินน้ำดี</b>: biliary colic ปวด < 6 ชม. ไม่มีไข้ · cholecystitis ปวดนานกว่า + ไข้ · cholangitis มี jaundice (Charcot)",
-      "<b>TG18</b>: local inflammation (Murphy's sign, RUQ mass / tenderness) + systemic inflammation + imaging (US: ผนังหนา > 4 mm, pericholecystic fluid, impacted stone, sonographic Murphy)"
-     ],
-     "kw": [
-      "RUQ pain > 6 h",
-      "radiates to right scapula",
-      "after fatty meal",
-      "fever",
-      "no jaundice",
-      "previous biliary colic",
-      "acute calculous cholecystitis"
-     ],
-     "ddx": [
-      "Acute cholangitis / CBD stone",
-      "Acute pancreatitis",
-      "Acute hepatitis / liver abscess",
-      "Right pyelonephritis",
-      "Perforated peptic ulcer",
-      "Right lower lobe pneumonia",
-      "Acute appendicitis (retrocecal / ตั้งครรภ์)"
-     ],
-     "pearls": [
-      "ลืมถามอาการดีซ่าน → แยก cholangitis ไม่ได้ · ลืมถามโอกาสตั้งครรภ์ในหญิง"
-     ],
-     "members": [
-      "MDCU66|RoC|2#1",
-      "MDCU66|RoC|2#2"
-     ]
-    },
-    {
-     "id": "hx-obstructive-jaundice",
-     "title": "Painless obstructive jaundice — cholangiocarcinoma / periampullary tumor",
-     "asked": [
-      "ผู้ป่วยตัวเหลือง ตาเหลือง → focused history → provisional Dx + DDx"
-     ],
-     "flow": [
-      "แนะนำตัว ขออนุญาต ยืนยันชื่อ อายุ อาชีพ ภูมิลำเนา",
-      "เหลือง: onset, เร็ว / ค่อยเป็น, มากขึ้นเรื่อย ๆ หรือขึ้นลง",
-      "ปวดท้อง (ลักษณะ biliary colic?) · ไข้หนาวสั่น (Charcot)",
-      "ปัสสาวะสีชาเข้ม · อุจจาระซีด · คัน",
-      "เบื่ออาหาร น้ำหนักลด · คลื่นไส้อาเจียน · ถ่ายดำ / อาเจียนเลือด · ท้องโต ขาบวม",
-      "ปัจจัยเสี่ยง: ปลาน้ำจืดดิบ, สุรา, ยา / สมุนไพร, ให้เลือด / เข็ม / เพศสัมพันธ์เสี่ยง, HBV / HCV",
-      "อดีต: นิ่ว ผ่าตัดทางเดินน้ำดี โรคตับ โรคเลือด · FH มะเร็งตับ / ทางเดินอาหาร",
-      "สรุปปัญหาให้อาจารย์ → Dx + DDx + investigation"
-     ],
-     "pattern": [
-      "<b>แยก jaundice 3 กลุ่ม</b>: pre-hepatic (hemolysis — ปัสสาวะไม่เข้ม ไม่คัน) · hepatic (ไวรัส สุรา ยา) · post-hepatic / obstructive (ปัสสาวะเข้ม อุจจาระซีด คัน)",
-      "<b>Painless progressive obstructive jaundice + น้ำหนักลด</b> = มะเร็งจนกว่าจะพิสูจน์ว่าไม่ใช่",
-      "<b>Courvoisier's law</b>: ถุงน้ำดีโตคลำได้ไม่เจ็บ + jaundice → ไม่ใช่นิ่ว → อุดต่ำกว่า cystic duct (distal cholangiocarcinoma, CA head of pancreas, ampullary / duodenal CA)",
-      "<b>Provisional Dx</b>: distal cholangiocarcinoma (ปัจจัยเสี่ยง Opisthorchis viverrini) หรือ periampullary tumor",
-      "<b>Investigation</b>: LFT (direct bilirubin, ALP, GGT), CA 19-9, US → CT / MRCP"
-     ],
-     "kw": [
-      "onset and progression",
-      "painless",
-      "dark urine, pale stool, itching",
-      "weight loss",
-      "raw fish (liver fluke)",
-      "alcohol, drugs, herbal",
-      "hepatitis risk",
-      "obstructive jaundice",
-      "Courvoisier",
-      "periampullary tumor / cholangiocarcinoma"
-     ],
-     "ddx": [
-      "Carcinoma of head of pancreas",
-      "Ampullary carcinoma",
-      "Duodenal carcinoma",
-      "Hilar cholangiocarcinoma (ถุงน้ำดีไม่โต)",
-      "CBD stone (มักปวด / มีไข้)",
-      "Benign stricture"
-     ],
-     "pearls": [
-      "ตอบ hepatitis เป็นอันดับแรก = ได้บางส่วน",
-      "ขาดกลุ่มปัจจัยเสี่ยง (ปลาดิบ สุรา ยา ไวรัส) = หักคะแนน"
-     ],
-     "members": [
-      "MDCU66|RoD|6#1",
-      "MDCU66|RoD|6#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Upper GI bleeding",
-   "sections": [
-    {
-     "id": "hx-hematemesis",
-     "title": "Hematemesis — NSAID / aspirin-induced peptic ulcer bleeding",
-     "trend": "ออก 3 ปีติดกัน — rubric ทุกปีเน้นถามยาแก้ปวด (รวมยาผง / ยาชุด) และโรคตับ",
-     "asked": [
-      "50-year-old woman vomited blood 1 hour ago → take history",
-      "Vomiting of blood → take history",
-      "65-year-old woman vomiting blood 1 วัน → focused history → most likely Dx"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต",
-      "ยืนยัน hematemesis: อาเจียน ไม่ใช่ไอ (ฟอง = hemoptysis) ไม่ใช่เลือดกำเดาไหลลงคอ",
-      "ลักษณะ: เริ่มเมื่อไร กี่ครั้ง ปริมาณ สี (แดงสด / ลิ่ม vs coffee-ground) · อาเจียนรุนแรงนำมาก่อน (Mallory–Weiss)",
-      "ถ่ายดำ / ถ่ายเป็นเลือด",
-      "อาการเสียเลือด: หน้ามืด เป็นลม ใจสั่น เหงื่อออก เหนื่อย เจ็บอก ปัสสาวะน้อย",
-      "หาสาเหตุ: ปวดแสบลิ้นปี่สัมพันธ์มื้ออาหาร (PUD) · NSAID / aspirin / ยาผง (ทัมใจ บวรด) / ยาชุด / ยาลูกกลอน / steroid / antiplatelet / anticoagulant · สุรา โรคตับ ตาเหลือง ท้องมาน varices เดิม · น้ำหนักลด เบื่ออาหาร กลืนลำบาก อิ่มเร็ว (มะเร็ง) · เคย UGIB / H. pylori / ส่องกล้อง",
-      "Systemic bleeding: จ้ำเลือด เลือดออกเหงือก / ที่อื่น",
-      "PMH หัวใจ ไต ตับ DM · บุหรี่ · FH มะเร็งทางเดินอาหาร",
-      "สรุปให้ผู้ป่วยฟัง → Dx"
-     ],
-     "pattern": [
-      "<b>ซักประวัติให้ตอบ 3 คำถาม</b>: เลือดออกจากส่วนบนจริงไหม · มากแค่ไหน (hemodynamics) · สาเหตุอะไร (ulcer vs variceal — เปลี่ยนการรักษาเบื้องต้น)",
-      "<b>Dx ที่คาด</b>: Upper GI bleeding from NSAID (aspirin)-induced peptic ulcer — ยาผงทัมใจมี aspirin + paracetamol + caffeine",
-      "<b>สาเหตุ UGIB</b> เรียงตามความถี่: peptic ulcer (NSAID / H. pylori) > varices (ตับแข็ง) > erosive gastritis > Mallory–Weiss > malignancy",
-      "ประวัติใช้คำนวณ <b>Glasgow-Blatchford score</b> (BUN, Hb, SBP, ชีพจร, melena, syncope, โรคตับ, หัวใจล้มเหลว)",
-      "แผนเบื้องต้น: resuscitation, IV PPI, upper endoscopy ภายใน 24 ชม., หยุด NSAID, ตรวจ H. pylori"
-     ],
-     "kw": [
-      "hematemesis vs hemoptysis",
-      "fresh blood / coffee-ground, amount",
-      "melena",
-      "syncope, palpitation (hypovolemia)",
-      "NSAID / aspirin / ยาผงทัมใจ / ยาชุด",
-      "antiplatelet / anticoagulant",
-      "alcohol, chronic liver disease, varices",
-      "Mallory–Weiss",
-      "weight loss, dysphagia",
-      "systemic bleeding",
-      "NSAID-induced peptic ulcer bleeding"
-     ],
-     "ddx": [
-      "NSAID-induced erosive gastritis",
-      "Variceal bleeding (มีโรคตับ)",
-      "Mallory–Weiss tear",
-      "Gastric cancer"
-     ],
-     "pearls": [
-      "ไม่ถามยาแก้ปวด — โดยเฉพาะยาผง / ยาชุดด้วยชื่อการค้า — = หักมากทุกปี",
-      "ตอบ 'UGIB' โดยไม่ระบุสาเหตุ = ครึ่งคะแนน",
-      "ลืม systemic bleeding / coagulopathy เป็นจุดที่ rubric MDCU67 เน้น"
-     ],
-     "members": [
-      "MDCU67|RoB|2#1",
-      "MDCU66|RoB|2#1",
-      "MDCU65|RoC|6#1",
-      "MDCU65|RoC|6#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Abdominal pain — acute and chronic",
-   "sections": [
-    {
-     "id": "hx-chronic-epigastric",
-     "title": "ปวดท้องเรื้อรัง 6 เดือน + alarm features — carcinoma of stomach",
-     "asked": [
-      "Man with abdominal pain 6 เดือน → focused history → most likely Dx + DDx"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต",
-      "OPQRST: onset / ระยะเวลา, ตำแหน่ง, ลักษณะ, ร้าว, สัมพันธ์อาหาร (หลังกิน vs ท้องว่าง), ปัจจัยกระตุ้น / บรรเทา, ความรุนแรง, ความเปลี่ยนแปลง",
-      "อาการร่วม: คลื่นไส้อาเจียน, อาเจียนเลือด / ถ่ายดำ, กลืนลำบาก, อิ่มเร็ว, ท้องอืด, เหลือง, ไข้, การขับถ่ายเปลี่ยน, ก้อนในท้อง",
-      "Alarm features: น้ำหนักลด, เบื่ออาหาร, ซีด อ่อนเพลีย, GI bleeding, กลืนลำบาก, อาเจียนต่อเนื่อง, อายุ > 50–60",
-      "PMH / ยา: NSAID / aspirin, steroid, anticoagulant, เคยตรวจ H. pylori / ส่องกล้อง, DM, โรคตับ, ผ่าตัดช่องท้อง",
-      "Social: บุหรี่ สุรา อาหารหมักดอง / ปลาดิบ · FH มะเร็งทางเดินอาหาร",
-      "สรุปให้ผู้ป่วยฟัง ถามว่ามีอะไรเพิ่ม → Dx + DDx"
-     ],
-     "pattern": [
-      "<b>Most likely</b>: carcinoma of stomach — ชายสูงอายุ ปวดใต้ลิ้นปี่เรื้อรัง + น้ำหนักลด อิ่มเร็ว ถ่ายดำ + บุหรี่ อาหารหมักดอง + FH มะเร็งกระเพาะ",
-      "<b>Dyspepsia</b>: อายุ ≥ 50–60 ปี หรือมี alarm features → EGD + biopsy ทันที (ไม่ใช่ test-and-treat H. pylori)",
-      "ต่อไป: CBC (ซีด) → พบมะเร็ง → CT chest / abdomen staging"
-     ],
-     "kw": [
-      "OPQRST",
-      "relation to meals",
-      "early satiety",
-      "weight loss",
-      "melena / hematemesis",
-      "dysphagia",
-      "anemia",
-      "NSAID",
-      "smoking, alcohol, pickled food",
-      "family history of GI cancer",
-      "EGD with biopsy"
-     ],
-     "ddx": [
-      "Peptic ulcer disease (NSAID, H. pylori) ± bleeding",
-      "Carcinoma of pancreas (body / tail)",
-      "Cholangiocarcinoma",
-      "Chronic pancreatitis (สุรา)"
-     ],
-     "pearls": [
-      "ไม่ถาม alarm features = ได้บางส่วน",
-      "ข้อย่อย Dx เป็นส่วนที่ธนาคารข้อสอบเติมเอง (ไม่มีในไฟล์ต้นฉบับ) — ใช้เป็นแนว ตอบ CA stomach อันดับแรก, PUD อันดับแรกได้บางส่วน"
-     ],
-     "members": [
-      "MDCU67|RoC|2#1",
-      "MDCU67|RoC|2#2"
-     ]
-    },
-    {
-     "id": "hx-acute-abd-woman",
-     "title": "ปวดท้องเฉียบพลัน 5 ชม. ในหญิงวัยเจริญพันธุ์ (คิด appendicitis + แยก gyn)",
-     "asked": [
-      "Woman with abdominal pain 5 ชม. → take further history (ไม่ต้องให้ Dx)"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันชื่อ ขออนุญาต",
-      "PI ปวด: onset (ทันที / ค่อยเป็น), ตำแหน่งเริ่ม → ย้าย (รอบสะดือ → RLQ), ลักษณะ ความรุนแรง ต่อเนื่อง / เป็นพัก ๆ, ร้าว, แย่ลงเมื่อขยับ ไอ เดิน, เคยเป็นมาก่อน",
-      "GI: เบื่ออาหาร คลื่นไส้อาเจียน (ก่อนหรือหลังปวด), ถ่ายเหลว / ท้องผูก / ถ่ายเป็นเลือด",
-      "ไข้ หนาวสั่น",
-      "ปัสสาวะ: แสบขัด บ่อย เป็นเลือด ปวดหลัง / บั้นเอว",
-      "นรีเวช: LMP, ประจำเดือนสม่ำเสมอ, โอกาสตั้งครรภ์ (เพศสัมพันธ์ การคุมกำเนิด), เลือดออกทางช่องคลอด, ตกขาว, ประวัติ PID / ถุงน้ำรังไข่",
-      "อดีต: โรคประจำตัว ผ่าตัดช่องท้อง ยา (NSAID) แพ้ยา",
-      "สรุปประวัติให้ผู้ป่วยฟัง ขอบคุณ"
-     ],
-     "pattern": [
-      "<b>Appendicitis pattern</b>: ปวดรอบสะดือย้ายไป RLQ + anorexia + ปวดก่อนแล้วจึงคลื่นไส้อาเจียน + ไข้ต่ำ (องค์ประกอบ Alvarado score)",
-      "<b>หญิงวัยเจริญพันธุ์</b>: ต้องแยก ectopic pregnancy, ruptured / torsion ovarian cyst, PID และ UTI / ureteric colic เสมอ → LMP + โอกาสตั้งครรภ์เป็นคำถามบังคับ"
-     ],
-     "kw": [
-      "onset",
-      "migration periumbilical → RLQ",
-      "anorexia",
-      "pain before vomiting",
-      "fever",
-      "urinary symptoms",
-      "LMP",
-      "chance of pregnancy",
-      "vaginal bleeding / discharge",
-      "previous PID / ovarian cyst"
-     ],
-     "ddx": [
-      "Acute appendicitis",
-      "Ectopic pregnancy",
-      "Ovarian cyst torsion / rupture",
-      "PID",
-      "Right ureteric colic / UTI"
-     ],
-     "pearls": [
-      "ขาด LMP / โอกาสตั้งครรภ์ = หักมาก"
-     ],
-     "members": [
-      "MDCU67|RoD|2#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Vascular",
-   "sections": [
-    {
-     "id": "hx-claudication",
-     "title": "Intermittent claudication — peripheral arterial disease",
-     "asked": [
-      "Woman with leg pain on walking → focused history → most likely Dx"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันตัวผู้ป่วย",
-      "ปวด: ตำแหน่ง (น่อง / ต้นขา / ก้น), ข้างเดียว / สองข้าง, ลักษณะบีบ / ตะคริว, claudication distance, พักกี่นาทีหาย ต้องนั่ง / ก้มไหม, ระยะเวลา แย่ลงไหม",
-      "ความรุนแรง: rest pain ตอนกลางคืน ต้องห้อยขา, แผลไม่หาย นิ้วดำ, เท้าเย็น ชา ซีด ขนร่วง เล็บหนา",
-      "แยกโรค: ปวดหลังร้าวลงขา ชา ดีขึ้นเมื่อนั่ง / ก้ม (neurogenic claudication), ขาบวม เส้นเลือดขอด แผลตาตุ่ม (venous), ปวดข้อ (OA)",
-      "ปัจจัยเสี่ยง: บุหรี่ (pack-year), DM, HT, DLP, อายุ, FH",
-      "โรคหลอดเลือดที่อื่น: เจ็บอก (CAD), stroke / TIA, ปวดท้องหลังกิน (mesenteric)",
-      "ผลกระทบต่อชีวิตประจำวัน ยา → สรุป → Dx"
-     ],
-     "pattern": [
-      "<b>Intermittent claudication</b> = ปวดกล้ามเนื้อที่ระยะเดินเท่าเดิม หายเมื่อยืนพัก 2–5 นาที ไม่ต้องเปลี่ยนท่า · neurogenic หายช้ากว่าและต้องนั่ง / ก้ม",
-      "<b>ระดับรอยโรคอยู่สูงกว่าตำแหน่งปวดหนึ่งระดับ</b>: ก้น / ต้นขา = aortoiliac · น่อง = femoropopliteal",
-      "<b>Dx</b>: Peripheral arterial disease (chronic arterial insufficiency) with intermittent claudication, atherosclerotic, ระดับ femoropopliteal · บอก Fontaine IIb / Rutherford 2–3 (เดินได้ ~200 m) = เต็ม",
-      "Fontaine: I ไม่มีอาการ · IIa claudication > 200 m · IIb < 200 m · III rest pain · IV ulcer / gangrene (CLTI)",
-      "ต่อไป: ชีพจรขา, ABI (< 0.9 = PAD), duplex US · รักษา: เลิกบุหรี่, statin + antiplatelet, supervised exercise, cilostazol, revascularization เมื่อ lifestyle-limiting หรือ CLTI"
-     ],
-     "kw": [
-      "site of pain (calf / thigh / buttock)",
-      "claudication distance",
-      "relieved by standing rest",
-      "rest pain",
-      "ulcer / gangrene",
-      "smoking, DM, HT, DLP",
-      "CAD / stroke",
-      "spinal stenosis excluded",
-      "PAD with intermittent claudication",
-      "ABI"
-     ],
-     "ddx": [
-      "Neurogenic claudication (lumbar spinal stenosis)",
-      "Venous claudication / chronic venous insufficiency",
-      "Osteoarthritis"
-     ],
-     "members": [
-      "MDCU65|RoC|7#1",
-      "MDCU65|RoC|7#2"
-     ]
-    },
-    {
-     "id": "hx-varicose",
-     "title": "Varicose veins — focused history (CEAP)",
-     "asked": [
-      "Dilated tortuous veins on the leg → focused history"
-     ],
-     "flow": [
-      "แนะนำตัว ขออนุญาต",
-      "CC / PI: ตำแหน่ง ข้างเดียว / สองข้าง นานเท่าไร มากขึ้นไหม",
-      "อาการ: ขาหนัก ปวดตื้อ ตะคริว คัน บวม — แย่ลงเมื่อยืนนาน / ตอนเย็น ดีขึ้นเมื่อยกขา",
-      "ภาวะแทรกซ้อน: ผิวคล้ำ / แข็ง eczema, แผล, เลือดออกจากเส้นขอด, superficial thrombophlebitis",
-      "สาเหตุ secondary: ประวัติ DVT, กระดูกหัก / ผ่าตัด / นอนติดเตียง, ขาบวมเฉียบพลันทั้งขา",
-      "ปัจจัยเสี่ยง: ยืนนาน, ตั้งครรภ์หลายครั้ง, อ้วน, FH, อายุ, เพศหญิง, ฮอร์โมน",
-      "แยก arterial disease: claudication (ก่อนให้ใส่ถุงน่องรัด)",
-      "โรคอื่นที่ทำให้ขาบวม (หัวใจ ไต ตับ) ยา แพ้ยา · ผลกระทบ / ความกังวลด้านความงาม → สรุป CEAP"
-     ],
-     "pattern": [
-      "<b>CEAP clinical class</b>: C0 ไม่มีอาการ · C1 telangiectasia / reticular · C2 varicose veins · C3 edema · C4 ผิวเปลี่ยน (pigmentation, eczema, lipodermatosclerosis) · C5 แผลหายแล้ว · C6 แผลยังไม่หาย",
-      "<b>ประวัติ DVT</b> สำคัญ — deep vein obstruction เป็นข้อห้ามผ่าตัด superficial vein",
-      "<b>Claudication / PAD</b> ต้องแยกก่อนให้ compression stocking"
-     ],
-     "kw": [
-      "aching, heaviness, worse on standing",
-      "relieved by elevation",
-      "skin changes, ulcer, bleeding",
-      "thrombophlebitis",
-      "previous DVT",
-      "prolonged standing, pregnancy, family history",
-      "claudication",
-      "CEAP"
-     ],
-     "pearls": [
-      "ไม่ถามประวัติ DVT = ได้บางส่วน"
-     ],
-     "members": [
-      "MDCU65|RoB|8#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Breast",
-   "sections": [
-    {
-     "id": "hx-breast-screening",
-     "title": "Breast cancer screening ในหญิง 40 ปี — risk history + advice",
-     "asked": [
-      "40-year-old woman, annual check-up ขอตรวจคัดกรองมะเร็งเต้านม ไม่มีอาการ (ไม่ต้องตรวจร่างกาย) → take relevant history → give advice"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันชื่อ อายุ ขออนุญาต",
-      "อาการเต้านม: ก้อน เจ็บ discharge / เลือดจากหัวนม หัวนมบุ๋มใหม่ ผิวเปลี่ยน ก้อนรักแร้ · อาการ metastasis (ปวดกระดูก น้ำหนักลด)",
-      "ปัจจัยฮอร์โมน: อายุมีประจำเดือนครั้งแรก / หมดประจำเดือน, จำนวนบุตร อายุคลอดคนแรก, ให้นมบุตร, ยาคุม / HRT",
-      "ประวัติเต้านม: ก้อน / biopsy เดิม (atypical hyperplasia, LCIS)",
-      "ฉายรังสีหน้าอกก่อนอายุ 30",
-      "FH มะเร็งเต้านม / รังไข่ (อายุที่เป็น, ญาติชาย, BRCA)",
-      "Lifestyle: alcohol, obesity, ออกกำลังกาย · ประวัติคัดกรองเดิม",
-      "สรุปว่า average risk → ให้คำแนะนำคัดกรอง → อาการที่ต้องมาก่อนนัด → ถามคำถาม"
-     ],
-     "pattern": [
-      "<b>เป้าหมายประวัติ</b>: แยก average vs high risk (BRCA / ญาติสายตรงหลายคน, chest irradiation อายุน้อย, lifetime risk ≥ 20%) เพราะคำแนะนำต่างกัน",
-      "<b>Average risk อายุ 40</b>: mammogram เริ่มอายุ 40 ทุก 1–2 ปี (ACR / NCCN ทุกปี; USPSTF 2024 ทุก 2 ปี อายุ 40–74) ± US ในเต้านมเนื้อแน่น (พบบ่อยในคนไทย)",
-      "Clinical breast exam ทุกปี · breast self-exam / breast awareness ทุกเดือน 7–10 วันหลังเริ่มมีประจำเดือน (ไม่ลดอัตราตาย แต่ช่วยให้รู้จักเต้านม)",
-      "ลดปัจจัยเสี่ยง: คุมน้ำหนัก ออกกำลังกาย จำกัดแอลกอฮอล์",
-      "High risk → เริ่มเร็วขึ้น + breast MRI + genetic counseling",
-      "Mammogram เป็นการคัดกรองเดียวที่ลดอัตราตายจากมะเร็งเต้านม"
-     ],
-     "kw": [
-      "breast symptoms",
-      "menarche / menopause",
-      "parity, age at first birth, breastfeeding",
-      "OCP / HRT",
-      "previous biopsy, atypia",
-      "chest irradiation",
-      "family history breast / ovarian, BRCA",
-      "average risk",
-      "mammogram from age 40",
-      "CBE yearly, BSE monthly",
-      "return if lump / nipple blood"
-     ],
-     "pearls": [
-      "ถามปัจจัยเสี่ยงไม่ครบ 4 กลุ่ม (ฮอร์โมน ประวัติเต้านม รังสี ครอบครัว) หรือไม่สรุประดับความเสี่ยง = หักคะแนน"
-     ],
-     "members": [
-      "MDCU66|RoA|2#1",
-      "MDCU66|RoA|2#2"
-     ]
-    },
-    {
-     "id": "hx-breast-mass-young",
-     "title": "Breast mass หญิงอายุ 20 ปี — ซักประวัติ + แนะนำ (US ไม่ใช่ mammogram)",
-     "trend": "ถามทั้งการซักประวัติและคำแนะนำ next step",
-     "asked": [
-      "ซักประวัติ breast mass 20 ปี + แนะนำว่าต้องทำอะไรต่อ"
-     ],
-     "pattern": [
-      "ก้อน: onset ขนาด โตเร็ว เจ็บ สัมพันธ์รอบเดือน · nipple discharge/retraction · ผิวหนัง · รักแร้ · risk: menarche, ฮอร์โมน, ครอบครัว breast/ovary (BRCA), รังสีหน้าอก · ถามความกังวล",
-      "Advice: ส่วนใหญ่ fibroadenoma · <b>triple assessment</b>: PE + <b>breast US</b> (อายุ &lt;30) + CNB ถ้าน่าสงสัย · fibroadenoma ยืนยัน → ติดตาม/ผ่าตัดถ้าโต &gt;3 cm"
-     ],
-     "kw": [
-      "breast ultrasound",
-      "triple assessment",
-      "core needle biopsy",
-      "family history",
-      "fibroadenoma"
-     ],
-     "members": [
-      "MDCU79|RoC|7#1",
-      "MDCU79|RoC|7#2"
-     ],
-     "flow": [
-      "ผู้ป่วยจำลองหญิง 20 ปีคลำพบก้อนเต้านม → ซักประวัติ (มีอาจารย์ดู)",
-      "จบด้วยให้แนะนำว่าต้องทำอะไรต่อ"
-     ]
-    },
-    {
-     "id": "hx-breast-mass-older",
-     "title": "Breast mass หญิงวัยกลางคน — ซักประวัติ focused + DDx มะเร็ง",
-     "trend": "ออกทั้ง 78B และ 78C",
-     "asked": [
-      "ซักประวัติหญิงคลำได้ก้อนเต้านม (78B)",
-      "ซักประวัติก้อนเต้านม 3 เดือน (78C)"
-     ],
-     "pattern": [
-      "ก้อน (ระยะเวลา ขนาด เจ็บ รอบเดือน) · nipple/skin/axilla · metastasis symptoms · risk factors (ครอบครัว/BRCA, menarche, parity, ฮอร์โมน, alcohol, radiation) · สรุป + triple assessment"
-     ],
-     "flow": [
-      "แนะนำตัว → CC/ลักษณะก้อน → อาการเฉพาะที่ → อาการแพร่กระจาย → risk factors → PMH/ยา → สรุป + DDx"
-     ],
-     "kw": [
-      "duration",
-      "nipple discharge",
-      "axillary lump",
-      "family history",
-      "BRCA",
-      "weight loss",
-      "bone pain",
-      "triple assessment"
-     ],
-     "members": [
-      "MDCU78|RoB|18#1",
-      "MDCU78|RoC|5#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Pediatric counselling",
-   "sections": [
-    {
-     "id": "hx-phimosis-counsel",
-     "title": "Counselling แม่: physiologic phimosis ในเด็กชาย 3 ปี",
-     "asked": [
-      "แม่กังวลว่าหนังหุ้มปลายลูกชาย 3 ขวบรูดไม่ได้ → counsel the mother about the condition and management"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันชื่อแม่ / เด็ก · ถามว่าแม่รู้อะไรมาบ้างและกังวลเรื่องใด",
-      "ประเมินสั้น ๆ: ballooning, ปัสสาวะออกดีไหม, เคยติดเชื้อ (balanoposthitis, UTI), แผลเป็นขาวที่ปลายหนัง",
-      "อธิบายภาษาง่าย: physiologic phimosis ปกติในเด็กเล็ก หนังหุ้มยังติดหัว จะแยกเองตามอายุ · ballooning ไม่อันตรายถ้าปัสสาวะออกดี",
-      "คำแนะนำ: ห้ามรูดแรง · ทำความสะอาดภายนอกตอนอาบน้ำ รูดเบา ๆ เท่าที่ไปได้แล้วรูดกลับเสมอ",
-      "ทางเลือก: topical corticosteroid + รูดเบา ๆ",
-      "ข้อบ่งชี้ขลิบ",
-      "อาการต้องมาก่อนนัด",
-      "เปิดให้แม่ถาม → teach-back → สรุป"
-     ],
-     "pattern": [
-      "<b>Physiologic phimosis</b>: หนังหุ้มปลายรูดไม่ได้เป็นภาวะปกติ ส่วนใหญ่รูดได้เองในวัยเรียน–วัยรุ่น (สัดส่วนรายอายุต่างกันมากตามงานวิจัย — ไม่ต้องจำตัวเลข)",
-      "<b>ห้ามรูดแรง</b> → แผล พังผืด กลายเป็น pathologic phimosis หรือ paraphimosis",
-      "<b>Topical steroid</b> (0.05–0.1% betamethasone / triamcinolone) วันละ 2 ครั้ง 4–8 สัปดาห์ ร่วมกับรูดเบา ๆ — ได้ผลสูง",
-      "<b>ข้อบ่งชี้ circumcision</b>: pathologic phimosis (แผลเป็นวงขาวแข็ง — lichen sclerosus / BXO), balanoposthitis ซ้ำ, UTI ซ้ำ / มีความผิดปกติทางเดินปัสสาวะ, ปัสสาวะไม่ออก, ยาทาไม่ได้ผล",
-      "<b>กลับมาก่อนนัด</b>: ปัสสาวะไม่ออก, บวมแดงมีหนอง, ไข้, หนังหุ้มรูดลงแล้วกลับไม่ได้ (paraphimosis — ฉุกเฉิน)"
-     ],
-     "kw": [
-      "explore mother's concern",
-      "ballooning, urinary stream, infection",
-      "physiologic phimosis — normal",
-      "do not forcibly retract",
-      "hygiene, always pull foreskin back",
-      "topical steroid 4–8 weeks",
-      "indications for circumcision",
-      "paraphimosis = emergency",
-      "teach-back, invite questions"
-     ],
-     "pearls": [
-      "บอกว่าต้องขลิบทุกราย = ให้ข้อมูลผิด → ตก",
-      "ไม่เปิดโอกาสให้แม่ถาม / ไม่ทวนความเข้าใจ = หักมาก"
-     ],
-     "members": [
-      "MDCU65|RoA|1#1"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"hx", title:"History taking",
+  intro:"<ul><li>สถานี History taking มี SP + examiner ออก<b>แทบทุก rotation</b> ตั้งแต่ MDCU65 ถึง MDCU79 — โจทย์ให้อาการนำบรรทัดเดียว แล้วให้ซักต่อ ตามด้วยข้อย่อยสั้น ๆ ที่อาจารย์ถาม: <b>provisional Dx ± DDx</b>, <b>investigation ที่จะส่ง</b>, <b>การตรวจร่างกายที่จะทำ</b> หรือ <b>initial management</b>; บางรุ่น (MDCU72–75) ให้เขียนประวัติลงกระดาษแทน SP</li><li><b>ก้อนเต้านม</b> ออกบ่อยที่สุดและออกทุกรุ่นหลัง (MDCU68, 72, 74–79): ซักก้อน + nipple / skin / axilla + อาการแพร่กระจาย + risk factor ครบ 4 กลุ่ม (ฮอร์โมน, โรคเต้านมเดิม / รังสี, ครอบครัว, lifestyle) แล้วจบด้วย DDx + triple assessment; มุมที่แตกออก: <b>หญิง 20 ปี → US ไม่ใช่ mammogram</b> (MDCU79), breast cancer screening ในหญิง 40 ปี (MDCU66), nipple discharge (MDCU69)</li><li><b>Urology</b> ออกกว้างพอกัน: <b>hematuria</b> (MDCU72–74, 77 — timing / painless / บุหรี่ / สารเคมี → ส่ง CT urography + cystoscopy, ตรวจ BP / ไต / DRE) และ <b>LUTS ในชายสูงอายุ</b> (MDCU69–71, 73, 75 — voiding vs storage, <b>IPSS 7 คำถาม + QoL</b>, แยก stricture / neurogenic / CA prostate)</li><li><b>ช่องท้อง</b>: ปวดท้องเฉียบพลันในหญิงวัยเจริญพันธุ์ = <b>acute appendicitis ต้องแยก ectopic / ovarian / PID</b> (ซ้ำมาก: MDCU67, 68, 71, 73, 76, 77) — LMP และโอกาสตั้งครรภ์เป็นคำถามบังคับ; <b>ทางเดินน้ำดี</b> (cholangitis — Charcot / Reynolds, cholecystitis / biliary colic → US, painless obstructive jaundice + Courvoisier, liver mass); <b>hematemesis</b> (ยา NSAID / ยาผง / ยาชุด, โรคตับ, Mallory–Weiss, มะเร็ง → GBS, EGD ภายใน 24 ชม.)</li><li>อื่น ๆ: <b>claudication / PAD</b> (MDCU65, 70, 73, 76 — ถ้าอาการเป็นชั่วโมงถึงไม่กี่วันต้องถาม 6P ของ acute limb ischemia), varicose veins, dysphagia → achalasia, ปวดท้องเรื้อรัง + alarm features → CA stomach, <b>order กินน้ำยาล้างห้องน้ำ</b> (MDCU72, 75 — ติด tag hx), counselling แม่เรื่อง physiologic phimosis</li><li>โครงที่ได้คะแนนทุกสถานี: แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต → CC → PI (ตำแหน่ง onset ลักษณะ ร้าว ความรุนแรง ปัจจัย เวลา) → อาการร่วม + red flags → แยกโรคระบบอื่น → PMH / ยา / แพ้ยา / สุรา / บุหรี่ / FH → <b>สรุปให้ผู้ป่วยฟัง ถามว่ามีอะไรเพิ่ม ขอบคุณ</b> → ตอบอาจารย์ด้วย Dx + DDx</li></ul>",
+  groups:[
+    {title:"Breast — ก้อน, screening, nipple discharge", sections:[
+      {id:"hx-breast-lump", title:"Breast lump — ซักประวัติ focused + provisional Dx (carcinoma vs fibroadenoma / cyst / fibrocystic)",
+       trend:"สถานีที่ออกซ้ำมากที่สุดของ tag นี้ — โจทย์เดิมเปลี่ยนแค่อายุ (20, 42, 48 ปี, วัยกลางคน) และบางครั้งให้ present ต่ออาจารย์",
+       asked:["หญิงคลำได้ก้อนที่เต้านม (บางรุ่นบอก 3 เดือน) → take a focused history (SP เป็นเจ้าหน้าที่)","หญิง 42 / 48 ปีก้อนเต้านม → history + provisional diagnosis","หญิงก้อนเต้านมขวา → ซักประวัติแล้ว present ต่ออาจารย์ (อายุ CC risk factor DDx แผน)","หญิงมีอาการเต้านมขวา (ปวด / ก้อน) → ซักประวัติ (ต้องแยก cyclical mastalgia, mastitis ช่วงให้นม)","หญิง 20 ปีคลำได้ก้อน → relevant history (ประวัติแบบ fibroadenoma)"],
+       flow:["แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต (มี chaperone ถ้าจะตรวจต่อ)","ก้อน: เริ่มเมื่อไร พบอย่างไร ข้าง / ตำแหน่ง ขนาดและการเปลี่ยนแปลง (โตเร็ว?) เจ็บ สัมพันธ์รอบเดือน ก้อนเดียว / หลายก้อน / สองข้าง","อาการเฉพาะที่: nipple discharge (สี มีเลือด), nipple retraction ใหม่, ผิวหนังบุ๋ม / peau d'orange / แดง / แผล, ก้อนรักแร้หรือเหนือไหปลาร้า","ปวดเต้านม: cyclical vs non-cyclical, ให้นมบุตร + ไข้ บวมแดง (mastitis / abscess)","อาการแพร่กระจาย / constitutional: ปวดกระดูก ไอ เหนื่อย ปวดท้อง / ตัวเหลือง ปวดศีรษะ น้ำหนักลด","Risk factors: menarche / menopause / LMP, parity + อายุคลอดบุตรคนแรก + ให้นมบุตร, OCP / HRT, ก้อนหรือ biopsy เดิม (atypia, LCIS), ฉายรังสีที่อก, ประวัติครอบครัว breast / ovarian cancer (อายุที่เป็น, ญาติชาย, BRCA), alcohol, obesity","PMH ยา แพ้ยา → สรุปให้ผู้ป่วยฟัง ถามความกังวล","ตอบ / present: อายุ + CC + ลักษณะสำคัญ + risk → provisional Dx + DDx + แผน triple assessment"],
+       pattern:["<b>ลักษณะก้อนที่ต้องได้</b> (คีย์เก่าให้คะแนน): site, size + อัตราโต, shape, surface, consistency, mobility, tenderness, ความสัมพันธ์กับรอบเดือน, ก้อนที่รักแร้, nipple discharge / เจ็บเต้านม, เคยเป็นมาก่อน / การรักษา","<b>Risk factor 4 กลุ่ม</b>: (1) estrogen exposure — menarche เร็ว, menopause ช้า, nulliparity / บุตรคนแรกอายุมาก, ไม่ให้นมบุตร, HRT / OCP (2) โรคเต้านมเดิม — atypical hyperplasia, LCIS, เคย biopsy, chest irradiation อายุน้อย (3) ครอบครัว — breast / ovarian cancer ญาติสายตรง, อายุน้อยที่เป็น, ผู้ชายในครอบครัว → BRCA1 / 2 (4) lifestyle — alcohol, obesity หลังหมดประจำเดือน, ไม่ออกกำลังกาย","<b>Provisional Dx ตามภาพ</b>: วัยกลางคน ก้อนแข็งไม่เจ็บ โตขึ้น ± nipple retraction / skin change / axillary node → <b>carcinoma of breast</b> จนกว่าจะพิสูจน์ว่าไม่ใช่; อายุ 15–35 ก้อนเรียบ ขอบชัด ขยับดี ไม่เจ็บ → <b>fibroadenoma</b>; เจ็บตามรอบเดือน หลายก้อนสองข้าง → <b>fibrocystic change</b>; ก้อนนุ่มกลมเกิดเร็ว อายุ 35–50 → <b>cyst</b>; โตเร็วมาก ก้อนใหญ่ → phyllodes; ให้นม + ไข้ แดงร้อน → mastitis / abscess","<b>ปิดด้วยแผน</b>: triple assessment = clinical breast exam + imaging (US ถ้าอายุ &lt;30; ≥30 → diagnostic mammogram + US — NCCN Breast Screening and Diagnosis) + core needle biopsy เมื่อสงสัย"],
+       kw:["onset, site, size, growth rate, pain, cyclical change","nipple discharge (bloody), nipple retraction, skin change (peau d'orange)","axillary lump","bone pain, cough, jaundice, weight loss","menarche, menopause, parity, age at first birth, breastfeeding","OCP / HRT","previous breast biopsy / atypia, chest irradiation","family history breast / ovarian cancer, BRCA","carcinoma of breast vs fibroadenoma","triple assessment"],
+       ddx:["Carcinoma of breast","Fibroadenoma","Fibrocystic change","Breast cyst","Phyllodes tumor","Breast abscess / mastitis (ช่วงให้นม)"],
+       pearls:["ซักแต่ลักษณะก้อน ลืม risk factor หรืออาการแพร่กระจาย = หักมาก — rubric ทุกปีแบ่งคะแนนเป็น ก้อน / อาการร่วม / metastasis / risk / ครอบครัว","ลืมถามประวัติครอบครัว <b>มะเร็งรังไข่</b> และญาติผู้ชายที่เป็นมะเร็งเต้านม (BRCA)","ลืมถาม LMP / ตั้งครรภ์ / ให้นมบุตร — เปลี่ยนการเลือก imaging และ DDx (abscess)","สถานีที่ให้ present: ต้องสรุปเป็นประโยคเดียวพร้อม Dx + DDx + แผน ไม่ใช่อ่านทวนทุกคำตอบ","ส่วนใหญ่ไฟล์ต้นฉบับไม่มีเฉลย — แนวคำตอบมาจาก checklist มาตรฐาน; คีย์ที่มี (MDCU75, 76) ให้คะแนนลักษณะก้อน + gyne history + family history"],
+       members:["MDCU78|RoB|18#1","MDCU78|RoC|5#1","MDCU77|RoB|1#1","MDCU76|RoA|3#1","MDCU75|RoC|3#1","MDCU74|RoA|1#1","MDCU72|RoB|2#1","MDCU72|RoD|8#1","MDCU68|RoD|2#1","MDCU79|RoC|7#1"]},
+      {id:"hx-breast-next-step", title:"Breast lump — แนะนำการตรวจต่อ / investigation ตามอายุ (triple assessment)",
+       trend:"ข้อย่อยต่อจากซักประวัติก้อนเต้านม — วัดว่ารู้ว่าคนอายุน้อยใช้ US ไม่ใช่ mammogram",
+       asked:["หญิง 20 ปีคลำได้ก้อน → advise her on what should be done next","อาการเต้านมขวา (ปวด / ก้อน) → state what investigations you will send"],
+       flow:["บอกผู้ป่วยว่าก้อนในคนอายุน้อยส่วนใหญ่ไม่ใช่มะเร็ง (มักเป็น fibroadenoma) แต่ต้องตรวจให้แน่ใจ","Triple assessment: ตรวจเต้านม + รักแร้สองข้าง → imaging ตามอายุ → biopsy ถ้าสงสัย","แผนตามผล","เปิดโอกาสให้ถาม / ทวนความเข้าใจ"],
+       pattern:["<b>Imaging ตามอายุ</b> (NCCN Breast Screening and Diagnosis): อายุ &lt;30 ปี → <b>breast ultrasound</b> ก่อน (เนื้อเต้านมแน่น mammogram ไวต่ำ + รังสี) · อายุ ≥30 ปี → <b>diagnostic mammogram + US</b>","<b>Core needle biopsy</b> (ไม่ใช่ FNA) เมื่อ US / mammogram เป็น BI-RADS 4–5 หรือก้อนน่าสงสัยทางคลินิก; simple cyst → ไม่ต้องทำต่อ / aspiration ถ้ามีอาการ","<b>Fibroadenoma ที่ยืนยันแล้ว</b>: ก้อนเล็ก (ราว &lt;2–3 cm) ไม่โต → ติดตาม US ~6 เดือน · ผ่าตัด (excision) ถ้าโตเร็ว ใหญ่ (&gt;3 cm) มีอาการ หรือผู้ป่วยต้องการ","<b>Mastitis / abscess</b> (ให้นม + แดงร้อน ไข้) → US ± needle aspiration ส่ง culture + antibiotic ให้นมต่อได้"],
+       kw:["triple assessment","US first if age < 30","diagnostic mammogram + US if ≥ 30","core needle biopsy","BI-RADS 4–5","fibroadenoma follow-up or excision"],
+       pearls:["ส่ง mammogram ในหญิง 20 ปี = ผิดหลัก (คะแนนหลักของ advice)","ตอบ FNA แทน core biopsy — core ให้ histology + receptor ได้","ลืมบอกผู้ป่วยว่าส่วนใหญ่ไม่ร้ายแรง / ไม่เปิดโอกาสให้ถาม = หักคะแนน communication"],
+       members:["MDCU79|RoC|7#2","MDCU72|RoD|8#2"]},
+      {id:"hx-breast-screening", title:"Breast cancer screening ในหญิง 40 ปี — risk history + advice",
+       trend:"หญิงไม่มีอาการมาขอตรวจคัดกรอง — ซักเพื่อจัด average vs high risk แล้วแนะนำ",
+       asked:["หญิง 40 ปีมาตรวจสุขภาพประจำปี ขอตรวจคัดกรองมะเร็งเต้านม ไม่มีอาการ (ไม่ต้องตรวจร่างกาย) → take a relevant history","→ give her advice on what she should do"],
+       flow:["แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต","ถามอาการเต้านม (ก้อน เจ็บ discharge หัวนมบุ๋มใหม่ ผิวเปลี่ยน ก้อนรักแร้) — ถ้ามีอาการ = diagnostic ไม่ใช่ screening","Risk: ฮอร์โมน, โรคเต้านม / biopsy เดิม, chest irradiation ก่อนอายุ 30, ครอบครัว breast / ovarian (BRCA), alcohol / obesity","เคยตรวจคัดกรองมาก่อนไหม ผลอะไร","สรุประดับความเสี่ยง → ให้คำแนะนำ → ทวนความเข้าใจ"],
+       pattern:["<b>เป้าหมายของประวัติ</b> = แยก average risk vs high risk (BRCA carrier / ญาติสายตรงหลายคน, chest irradiation อายุ 10–30 ปี, lifetime risk ≥20%) เพราะคำแนะนำต่างกัน","<b>Average risk อายุ 40</b>: mammogram เริ่มที่ 40 — ACR / NCCN แนะนำทุกปี · <b>USPSTF 2024</b> ทุก 2 ปี อายุ 40–74 ปี · ± US เสริมในเต้านมเนื้อแน่น","Clinical breast exam โดยบุคลากร + breast awareness / self-exam (ช่วง 7–10 วันหลังเริ่มมีประจำเดือน) — ช่วยให้รู้จักเต้านมตัวเอง แต่ BSE อย่างเดียวไม่ลดอัตราตาย","ลดปัจจัยเสี่ยง: คุมน้ำหนัก ออกกำลังกาย จำกัด alcohol · อาการที่ต้องมาก่อนนัด: ก้อน หัวนมมีเลือด ผิวบุ๋ม / แดง ก้อนรักแร้","<b>High risk</b> → เริ่มเร็วขึ้น + <b>annual breast MRI</b> ร่วมกับ mammogram + genetic counselling"],
+       kw:["average vs high risk","family history / BRCA","chest irradiation","mammogram from age 40","annual (ACR / NCCN) or biennial (USPSTF 2024)","breast awareness","MRI for high risk"],
+       pearls:["ถามปัจจัยเสี่ยงไม่ครบทุกกลุ่ม หรือไม่สรุปว่า average risk = หักคะแนน","แนะนำ BSE อย่างเดียวโดยไม่มี mammogram = ผิดหลัก — mammogram เป็นการคัดกรองเดียวที่ลดอัตราตายจากมะเร็งเต้านม","ตอบความถี่ได้ทั้งทุกปีหรือทุก 2 ปี ถ้าบอกแหล่งอ้างอิง"],
+       members:["MDCU66|RoA|2#1","MDCU66|RoA|2#2"]},
+      {id:"hx-nipple-discharge", title:"Nipple discharge — แยก physiologic / galactorrhea จาก pathologic discharge",
+       trend:"โจทย์ไม่บอกอายุและข้าง — คะแนนอยู่ที่ถามให้ครบว่าเป็น pathologic discharge หรือไม่",
+       asked:["หญิงมี nipple discharge (ไม่บอกอายุ / ข้าง) มีอาจารย์ → take the important history"],
+       flow:["แนะนำตัว ถามอายุ ข้าง","ลักษณะ discharge: สี (น้ำนม ใส เขียว / เทา มีเลือด) · ออกเองหรือต้องบีบ · ท่อเดียว / หลายท่อ · ข้างเดียว / สองข้าง","ก้อนเต้านม nipple retraction ผิวเปลี่ยน","ประจำเดือน / ตั้งครรภ์ / ให้นม","ยา: antipsychotic, metoclopramide / domperidone, OCP ฯลฯ · อาการ pituitary (ปวดศีรษะ ตามัว) · hypothyroid","ประวัติครอบครัวมะเร็งเต้านม → สรุป"],
+       pattern:["<b>Pathologic discharge</b>: ออกเอง (spontaneous), ข้างเดียว, ท่อเดียว, ใส / serous หรือมีเลือด, มีก้อนร่วม, อายุมาก → สาเหตุที่พบบ่อยสุด = <b>intraductal papilloma</b> แต่ต้องแยก carcinoma (DCIS / invasive)","<b>Physiologic</b>: ต้องบีบจึงออก สองข้าง หลายท่อ สีน้ำนม / เขียว / เทา (เช่น duct ectasia, fibrocystic)","<b>Galactorrhea</b> (น้ำนมสองข้างนอกช่วงให้นม): ตั้งครรภ์, ยา dopamine antagonist, prolactinoma, hypothyroidism → pregnancy test, prolactin, TSH","Pathologic discharge → imaging: diagnostic mammogram + US (อายุ ≥30) / US (อายุ &lt;30) ± MRI หรือ ductography ถ้ายังไม่พบ → biopsy / duct excision"],
+       kw:["colour (bloody, serous, milky)","spontaneous vs expressed","single vs multiple ducts","unilateral vs bilateral","associated mass","drugs (antipsychotic, metoclopramide)","pregnancy / lactation","headache, visual field (prolactinoma)","intraductal papilloma"],
+       ddx:["Intraductal papilloma","Carcinoma (DCIS / invasive)","Duct ectasia","Galactorrhea (prolactinoma, drug, hypothyroidism, pregnancy)"],
+       pearls:["ลืมถามว่าออกเองหรือต้องบีบ และกี่ท่อ — สองคำถามที่แยก pathologic ได้ดีที่สุด","ลืมถามยาและอาการ pituitary เมื่อ discharge เป็นน้ำนมสองข้าง"],
+       members:["MDCU69|RoC|1#1"]}
+    ]},
+    {title:"Urology — LUTS และ hematuria", sections:[
+      {id:"hx-luts", title:"LUTS ในชายสูงอายุ (BPH) — ซักประวัติ voiding / storage + IPSS",
+       trend:"ถามซ้ำทั้งแบบ SP, แบบเขียน และแบบ 'ถามอะไรเพื่อประเมินความรุนแรง' (= IPSS)",
+       asked:["ชาย 65 ปี weak stream 6 เดือน → เขียนประวัติที่จะซัก (สงสัย BPH)","ชาย 70 ปีปัสสาวะบ่อย + ถ่ายไม่สุด → ซักอะไรเพิ่ม (short answer)","ชายมี LUTS → take a history (ต่อด้วย investigation)","ชายมี LUTS → what questions will you ask (ตอบด้วย IPSS)","LUTS 6 เดือน → ซักอย่างไรเพื่อประเมิน symptom severity"],
+       flow:["แนะนำตัว ระยะเวลา ความรุนแรง","Voiding: hesitancy, weak stream, intermittency, straining, terminal dribbling, incomplete emptying","Storage: frequency, urgency, nocturia, urge incontinence","IPSS + QoL","Complications: urinary retention, hematuria, UTI, นิ่ว, อาการไตวาย","แยกสาเหตุอื่น: urethral stricture, neurogenic bladder, CA prostate, ยา, น้ำ / คาเฟอีน / แอลกอฮอล์","สรุป"],
+       pattern:["<b>IPSS</b> = 7 คำถามช่วง 1 เดือนที่ผ่านมา คะแนน 0–5 ต่อคำถาม: incomplete emptying, frequency, intermittency, urgency, weak stream, straining, nocturia → รวม 0–35: <b>0–7 mild · 8–19 moderate · 20–35 severe</b> + <b>QoL</b> 1 คำถาม (0–6)","<b>Complications ของ BPH</b> (ข้อบ่งชี้ผ่าตัดตาม EAU / AUA): refractory urinary retention, recurrent UTI, bladder stone, recurrent gross hematuria, renal insufficiency จาก BOO, bladder diverticulum","<b>แยกโรค</b>: urethral stricture (STD / urethritis, เคยใส่สาย, trauma, ผ่าตัด) · neurogenic bladder (DM, stroke, Parkinson, spinal cord) · CA prostate (ปวดกระดูก น้ำหนักลด) · bladder cancer / CIS (hematuria, irritative symptoms) · ยา (anticholinergic, antihistamine, decongestant, diuretic) · ดื่มน้ำมาก / คาเฟอีน / แอลกอฮอล์ (nocturia)"],
+       kw:["hesitancy, weak stream, intermittency, straining, dribbling, incomplete emptying","frequency, urgency, nocturia, urge incontinence","IPSS 0–7 / 8–19 / 20–35","quality of life score","retention, hematuria, UTI, stone, renal failure","urethral stricture, neurogenic bladder, CA prostate","anticholinergic, decongestant, diuretic"],
+       ddx:["BPH (benign prostatic obstruction)","Urethral stricture","Neurogenic bladder","Carcinoma of prostate","Overactive bladder / UTI"],
+       pearls:["จำ IPSS ไม่ครบ 7 คำถามหรือไม่รู้ cut-off — สถานีที่ถาม 'ประเมินความรุนแรง' ให้คะแนนเกือบทั้งหมดที่ IPSS","ลืมถาม QoL และภาวะแทรกซ้อน (retention, hematuria, UTI, นิ่ว, ไต)","ลืมถามยา — decongestant / anticholinergic ทำให้ retention ได้"],
+       members:["MDCU75|RoC|4#1","MDCU73|RoD|SEQ X#1","MDCU71|RoA|9#1","MDCU70|RoA|7#1","MDCU69|RoA|11#1","MDCU69|RoC|5#1"]},
+      {id:"hx-hematuria", title:"Hematuria — ซักประวัติ + การตรวจร่างกาย (painless gross hematuria = มะเร็งจนกว่าจะพิสูจน์ว่าไม่ใช่)",
+       trend:"ออกทั้งแบบ SP และแบบเขียนลงกระดาษ บ่อยครั้งคู่กับ 'จะตรวจร่างกายอะไร' หรือ 'จะส่งตรวจอะไร'",
+       asked:["ผู้ป่วยปัสสาวะเป็นเลือด 3 สัปดาห์ → what history would you take → how would you examine the patient","ผู้ป่วย hematuria → เขียนประวัติที่จะซัก → เขียนการตรวจร่างกาย","SP มี hematuria → take a history (ต่อด้วย investigation)","ชาย 70 ปีปัสสาวะแดงสด → เขียนประวัติเพิ่มเติมเพื่อ DDx (ไม่มี SP)","หญิงหมดประจำเดือนแล้วหลายเดือนบอกว่ามีเลือดในปัสสาวะ → important history (ต้องแยกเลือดออกทางช่องคลอด)"],
+       flow:["ยืนยันว่าเป็นเลือดจากทางเดินปัสสาวะจริง: แยกจากช่องคลอด (postmenopausal bleeding) / ทวารหนัก / ประจำเดือน และปัสสาวะแดงจากยาหรืออาหาร (rifampicin, beet)","ลักษณะ: gross vs microscopic · timing (initial / terminal / total) · ลิ่มเลือด + รูปร่าง · painless vs painful","อาการร่วม: LUTS / แสบขัด / ไข้ (UTI) · ปวดบั้นเอวร้าวขาหนีบ (นิ่ว) · weak stream (BPH) · บวม ความดันสูง ปัสสาวะเป็นฟอง (glomerular) · น้ำหนักลด ปวดกระดูก","ปัจจัยเสี่ยงมะเร็ง urothelial: สูบบุหรี่ (pack-year), สัมผัสสารเคมีอาชีพ (aromatic amine / aniline dye, ยาง, สี), cyclophosphamide, pelvic radiation, อายุ","อื่น: anticoagulant / antiplatelet, เลือดออกง่าย, trauma, ออกกำลังกายหนัก, ประวัตินิ่ว / UTI, ประวัติครอบครัว (มะเร็ง, โรคไต)","ตรวจร่างกาย: general → abdomen → genitalia → DRE / pelvic → LN"],
+       pattern:["<b>Timing บอกตำแหน่ง</b>: initial = urethra · terminal = bladder neck / prostatic urethra · total = bladder หรือสูงกว่า (upper tract) · ลิ่มเลือดยาวคล้ายหนอน → จาก ureter / upper tract","<b>Painless gross hematuria ในผู้สูงอายุ / สูบบุหรี่</b> = <b>urothelial carcinoma (bladder)</b> จนกว่าจะพิสูจน์ว่าไม่ใช่ · ปวด colic ร้าวขาหนีบ = นิ่ว · แสบขัดถ่ายบ่อย + ไข้ = UTI / hemorrhagic cystitis · ความดันสูง บวม โปรตีนรั่ว = glomerular","<b>Physical examination</b>: BP (glomerular disease), pallor, edema · abdomen: ballotable kidney / flank mass (RCC), CVA tenderness, suprapubic mass / distended bladder · external genitalia / urethral meatus · <b>DRE</b> (prostate) ในชาย / <b>pelvic exam</b> ในหญิง · lymph nodes (supraclavicular, inguinal)","Anticoagulant ไม่ใช่คำอธิบายของ hematuria — ยังต้อง work up ตามปกติ (AUA / SUFU microhematuria guideline)"],
+       kw:["confirm urinary source (vs vaginal / rectal)","gross vs microscopic","initial / terminal / total","clots","painless vs painful","smoking","occupational chemicals (aniline dye)","cyclophosphamide, pelvic radiation","anticoagulant","stone, UTI, trauma","BP, ballotable kidney, CVA tenderness, DRE / pelvic exam"],
+       ddx:["Bladder cancer (urothelial carcinoma)","Renal cell carcinoma","Upper tract urothelial carcinoma","Urolithiasis","UTI / hemorrhagic cystitis","BPH","Glomerulonephritis"],
+       pearls:["หญิงวัยหมดประจำเดือนบอก 'เลือดในปัสสาวะ' — ถ้าไม่แยกว่าเลือดออกจากช่องคลอด (postmenopausal bleeding → endometrial cancer) จะเสียคะแนนหลักของสถานี","ลืมถามบุหรี่และอาชีพ = ขาด risk ของ bladder cancer ซึ่งเป็นคำตอบ DDx อันดับแรก","ถามแต่ gross / micro ลืม timing และ pain","ตรวจร่างกายลืม BP และ DRE / pelvic exam"],
+       members:["MDCU77|RoD|8#1","MDCU74|RoA|9#1","MDCU74|RoA|9#2","MDCU74|RoD|8#1","MDCU74|RoD|8#2","MDCU73|RoB|10#1","MDCU72|RoC|11#1"]},
+      {id:"hx-hematuria-ix", title:"Hematuria — investigations และ differential diagnosis (CT urography + cystoscopy)",
+       trend:"ข้อย่อยต่อจากประวัติ hematuria — ให้เขียนรายการ investigation และ DDx",
+       asked:["ปัสสาวะเป็นเลือด (ให้ประวัติเพิ่มในสถานี) → เขียน investigation → เขียน DDx","SP hematuria → what investigations would you send","ชาย 70 ปีปัสสาวะแดงสด → investigations"],
+       flow:["ยืนยัน hematuria + แยก infection / glomerular","ประเมินไต + coagulation","Upper tract imaging","Lower tract: cystoscopy","เรียง DDx ตามอายุ / ปัจจัยเสี่ยง"],
+       pattern:["<b>UA + microscopy</b> (RBC ≥3 / HPF ยืนยัน microhematuria; dysmorphic RBC, RBC cast, proteinuria → glomerular → ส่งอายุรกรรมโรคไต) + <b>urine culture</b>","CBC, BUN / Cr (ก่อนฉีด contrast), PT / INR","<b>Gross hematuria</b> (ไม่ใช่จาก UTI / ประจำเดือน) → urologic evaluation เต็ม: <b>CT urography</b> (upper tract: RCC, UTUC, stone) + <b>cystoscopy</b> (bladder — gold standard) · microhematuria แบ่ง low / intermediate / high risk ตาม AUA / SUFU 2020 (ปรับ 2025) — high risk ใช้ชุดเดียวกัน","ไตเสื่อม / แพ้ contrast / ตั้งครรภ์ → MR urography หรือ renal US + retrograde pyelography","<b>Urine cytology</b>: ใช้เสริมในผู้ป่วยเสี่ยงสูง / มี irritative symptoms (สงสัย CIS) — AUA ไม่แนะนำเป็น routine ใน initial work-up ของ microhematuria · PSA ในชายสูงอายุตามดุลยพินิจ","<b>DDx</b>: bladder cancer (painless gross, ผู้สูงอายุ, บุหรี่) · RCC · UTUC · urolithiasis (มี colic) · UTI / hemorrhagic cystitis · BPH · glomerulonephritis · trauma · coagulopathy / anticoagulant"],
+       kw:["UA + microscopy, urine culture","dysmorphic RBC / RBC cast = glomerular","CBC, BUN / Cr, coagulation","CT urography","cystoscopy","urine cytology (adjunct)","bladder cancer, RCC, UTUC, stone, UTI, BPH, GN"],
+       ddx:["Urothelial carcinoma of bladder","Renal cell carcinoma","Upper tract urothelial carcinoma","Urolithiasis","UTI / hemorrhagic cystitis","BPH","Glomerulonephritis"],
+       pearls:["ตอบแค่ U/S KUB แทน CT urography + cystoscopy = ไม่พอสำหรับ gross hematuria ในผู้สูงอายุ","ลืม cystoscopy — imaging ไม่เห็น flat lesion / CIS ในกระเพาะปัสสาวะ","DDx ไม่เอา bladder cancer ขึ้นก่อนในชายสูงอายุสูบบุหรี่ = เสียคะแนน"],
+       members:["MDCU73|RoB|10#2","MDCU72|RoA|3#1","MDCU72|RoA|3#2","MDCU72|RoC|11#2"]},
+      {id:"hx-luts-ix", title:"LUTS — investigations หลังซักประวัติ",
+       trend:"ข้อย่อยต่อจากซักประวัติ LUTS",
+       asked:["ซักประวัติชายมี LUTS → state further investigations"],
+       flow:["Lab พื้นฐาน","PSA หลัง counselling","Uroflowmetry + PVR","ขนาดต่อมลูกหมาก / frequency-volume chart ตามข้อบ่งชี้"],
+       pattern:["<b>EAU 2025 (Non-neurogenic male LUTS)</b>: IPSS + PE รวม <b>DRE</b> · <b>UA</b> · <b>PSA</b> เมื่อการพบ CA prostate จะเปลี่ยนการรักษา (หลังอธิบายผู้ป่วย) · <b>renal function</b> เมื่อสงสัยไตเสื่อม / ก่อนรักษา · <b>post-void residual</b> (US) · <b>uroflowmetry</b> (Qmax &lt;10 mL/s สนับสนุน bladder outlet obstruction) · <b>frequency-volume chart / bladder diary</b> เมื่อ storage / nocturia เด่น","<b>ขนาดต่อม</b> (transabdominal หรือ transrectal US) เมื่อจะเลือกยา 5-ARI หรือวางแผนผ่าตัด"],
+       kw:["UA","PSA","serum creatinine","uroflowmetry (Qmax)","post-void residual","prostate volume (TRUS / US)","frequency-volume chart"],
+       pearls:["ลืม UA และ PVR — สองอย่างพื้นฐานที่สุด","ส่ง PSA โดยไม่อธิบายผู้ป่วยก่อน (ผลต่อการวินิจฉัย / biopsy)"],
+       members:["MDCU71|RoA|9#2"]}
+    ]},
+    {title:"Acute abdomen", sections:[
+      {id:"hx-acute-abd-woman", title:"ปวดท้องเฉียบพลันในหญิงวัยเจริญพันธุ์ — acute appendicitis ต้องแยก ectopic pregnancy / ovarian / PID",
+       trend:"ซ้ำมากที่สุดในกลุ่มช่องท้อง — หญิง 22–25 ปีปวดท้อง 5–6 ชม. ให้ซักประวัติแล้วบอก Dx / DDx; บางรุ่นแยกคะแนน gyn history ออกมาเป็นข้อย่อยของตัวเอง",
+       asked:["หญิงปวดท้อง 5 ชม. → take a further history (ไม่ต้องให้ Dx; คีย์ไฟล์ = acute appendicitis)","หญิง 25 ปีปวดท้อง 6 ชม. → history → single most likely diagnosis","ผู้ป่วยปวดท้อง 6 ชม. → history + provisional diagnosis + บอกการตรวจที่จะทำ","หญิงปวดท้อง 6 ชม. → history of pain → gynecologic history → differential diagnosis","อายุ 22 ปีปวดท้อง (SP อายุมากกว่าโจทย์ — ระวัง) → ซักให้ครบ Alvarado + ประวัติประจำเดือน → Dx + DDx","หญิง 22 ปีปวดท้อง 6 ชม. → take a history"],
+       flow:["แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต","ปวด: onset (ทันที / ค่อยเป็น), ตำแหน่งเริ่มและการย้าย (รอบสะดือ → RLQ), ลักษณะ, ความรุนแรง, ร้าว, ต่อเนื่อง / เป็นพัก ๆ, ขยับ / ไอ / เดินแล้วปวดเพิ่ม, เคยเป็นไหม","อาการร่วม: anorexia, คลื่นไส้อาเจียน (ปวดนำมาก่อนหรือหลัง), ไข้","GI: ถ่ายเหลว ท้องผูก ถ่ายเป็นเลือด · GU: แสบขัด ปัสสาวะบ่อย เป็นเลือด ปวดบั้นเอว","Gyn (บังคับ): LMP, ประจำเดือนสม่ำเสมอ / ขาด, เลือดออกทางช่องคลอด, ตกขาว, เพศสัมพันธ์ / การคุมกำเนิด / โอกาสตั้งครรภ์, เคย PID / ถุงน้ำรังไข่","PMH ผ่าตัดเดิม ยา (NSAID / ยาแก้ปวด) แพ้ยา","สรุปให้ผู้ป่วยฟัง → Dx + DDx + การตรวจที่จะทำ"],
+       pattern:["<b>Appendicitis pattern</b>: ปวดรอบสะดือแล้วย้ายไป RLQ + anorexia + <b>ปวดนำก่อนแล้วจึงคลื่นไส้อาเจียน</b> + ไข้ต่ำ ๆ + ขยับ / ไอแล้วปวดเพิ่ม","<b>Alvarado score</b> (10 คะแนน): migration 1, anorexia 1, nausea / vomiting 1, RLQ tenderness 2, rebound 1, fever ≥37.3 °C 1, leukocytosis &gt;10,000 2, left shift 1 — ≥7 = likely appendicitis · สามตัวแรกมาจากประวัติ จึงต้องถามให้ครบ","<b>Gyn DDx ในหญิงวัยเจริญพันธุ์</b>: ruptured ectopic pregnancy (ประจำเดือนขาด + เลือดออกกะปริบกะปรอย + หน้ามืด) · ovarian torsion (ปวดทันทีรุนแรง + อาเจียน, มีถุงน้ำเดิม) · ruptured ovarian / corpus luteum cyst (กลางรอบ / ช่วง luteal หลังเพศสัมพันธ์) · PID / tubo-ovarian abscess (ตกขาว ไข้ ปวดสองข้าง) → <b>urine pregnancy test ทุกราย</b>","DDx อื่น: mesenteric adenitis, ureteric colic / UTI, gastroenteritis","บอกการตรวจที่จะทำต่อ: McBurney tenderness, rebound, Rovsing, psoas, obturator sign + pelvic exam ตามข้อบ่งชี้"],
+       kw:["periumbilical pain shifting to RLQ","anorexia","pain before vomiting","fever","LMP, missed period, pregnancy chance","vaginal bleeding, discharge, sexual history","dysuria, hematuria","acute appendicitis","ectopic pregnancy — urine pregnancy test","ovarian torsion / ruptured cyst, PID"],
+       ddx:["Acute appendicitis","Ruptured ectopic pregnancy","Ovarian torsion / ruptured ovarian cyst","PID / tubo-ovarian abscess","Ureteric colic / UTI","Mesenteric adenitis","Gastroenteritis"],
+       pearls:["ไม่ถาม LMP / โอกาสตั้งครรภ์ = หักมากทุกปี — ectopic pregnancy ต้องตัดออกก่อนเสมอ","ไม่ถามลำดับปวด-อาเจียน และการย้ายตำแหน่ง = เสียคะแนน Alvarado จากประวัติ","SP อาจอายุ / เพศไม่ตรงโจทย์ — ถามอายุจริงและปรับคำถาม (gyn history) ตามผู้ป่วยตรงหน้า","คีย์เก่าเรียงคะแนนประวัติปวดเป็น Location, Onset, Duration, Progression, Character, Radiation, Associated, Factors, Timing แล้วให้คะแนนการบอก specific signs (psoas, obturator, Rovsing)"],
+       members:["MDCU67|RoD|2#1","MDCU77|RoC|1#1","MDCU77|RoC|1#2","MDCU76|RoD|2#1","MDCU73|RoB|2#1","MDCU73|RoB|2#2","MDCU73|RoB|2#3","MDCU71|RoB|4#1","MDCU71|RoB|4#2","MDCU68|RoC|2#1"]},
+      {id:"hx-abd-obstruction-elderly", title:"ปวดท้องเฉียบพลันแบบ bowel obstruction / ในผู้สูงอายุ — ซักหาสาเหตุ + acute abdomen series",
+       trend:"ปวดท้องที่ไม่ใช่ appendicitis — ต้องถาม obstruction (อาเจียน ท้องอืด ไม่ถ่ายไม่ผายลม ผ่าตัดเดิม hernia) และโรคหลอดเลือดในผู้สูงอายุ",
+       asked:["หญิงไทย 40 ปีปวดท้อง 6 ชม. → take further history → name 1 further investigation","ผู้ป่วย 65 ปีปวดท้อง → take a history (SP อาจเป็นผู้หญิง — อย่าถามผิดเพศ)"],
+       flow:["แนะนำตัว ชื่อ อายุ อาชีพ ภูมิลำเนา (ดูเพศ / อายุของ SP จริง)","ปวด: onset ตำแหน่ง ลักษณะ (บิดเป็นพัก ๆ / colicky vs ต่อเนื่อง) ร้าว ความรุนแรง ปัจจัย","Obstruction: อาเจียน (มีน้ำดี / feculent), ท้องอืด, ไม่ถ่ายไม่ผายลม, ถ่ายครั้งสุดท้าย","ไข้ ดีซ่าน ถ่ายดำ / เป็นเลือด ปัสสาวะ","สาเหตุ: เคยผ่าตัดช่องท้อง (adhesion), ก้อนที่ขาหนีบ / สะดือ (hernia), น้ำหนักลด + เปลี่ยนนิสัยการขับถ่าย (CRC), AF / โรคหลอดเลือด (mesenteric ischemia), AAA","ผู้หญิง: LMP ตั้งครรภ์ ตกขาว","ยา (NSAID, anticoagulant), PMH, FH, SH → สรุป"],
+       pattern:["<b>Bowel obstruction</b>: colicky pain + อาเจียน + ท้องอืด + obstipation · สาเหตุที่ต้องถาม: <b>adhesion จากผ่าตัดเดิม</b> (พบบ่อยสุดของ SBO), <b>incarcerated hernia</b> (ต้องถาม / ดูขาหนีบ), <b>colorectal cancer</b> (ผู้สูงอายุ น้ำหนักลด ถ่ายเปลี่ยน — LBO), volvulus","ผู้สูงอายุ: ปวดรุนแรงเกินการตรวจร่างกาย + AF → <b>acute mesenteric ischemia</b>; ปวดท้อง / หลัง + ช็อก → ruptured AAA; NSAID → perforated peptic ulcer","<b>Investigation 1 อย่าง</b>: <b>acute abdomen series</b> (upright CXR + supine / upright abdomen) — หา dilated loops, air-fluid level, free air · หญิงวัยเจริญพันธุ์ส่ง urine pregnancy test ก่อนถ่ายรังสี · ต่อด้วย CT abdomen เมื่อต้องการหาสาเหตุ / ภาวะ strangulation"],
+       kw:["colicky pain","vomiting (bilious / feculent)","abdominal distension","obstipation (no stool, no flatus)","previous abdominal surgery","groin lump (hernia)","weight loss, change in bowel habit","AF (mesenteric ischemia)","acute abdomen series"],
+       ddx:["Small bowel obstruction (adhesion, hernia)","Large bowel obstruction (CRC, volvulus)","Acute mesenteric ischemia","Perforated peptic ulcer","Ruptured AAA"],
+       pearls:["ถามผิดเพศ (ถาม gyn history กับชาย หรือไม่ถามกับหญิง) — โจทย์เตือนว่า SP อาจไม่ตรงกับโจทย์","ลืมถามประวัติผ่าตัดช่องท้องและก้อนที่ขาหนีบ = พลาดสาเหตุอันดับแรกของ SBO"],
+       members:["MDCU72|RoC|5#1","MDCU72|RoC|5#2","MDCU68|RoB|1#1"]}
+    ]},
+    {title:"Biliary และ liver — ไข้, ปวด RUQ, ตัวเหลือง, ก้อนในตับ", sections:[
+      {id:"hx-cholangitis", title:"Acute cholangitis (Charcot triad) จาก choledocholithiasis",
+       trend:"โจทย์ให้แค่ 'ปวดท้อง (± ไข้)' แต่ SP มีไข้หนาวสั่น + ตัวเหลือง — rubric เน้นซักอาการเหลือง / obstructive และความรุนแรง มากกว่าอาการปวด",
+       asked:["หญิงไทย 41 ปีปวดลิ้นปี่ + ไข้ 3 วัน → take a history → diagnosis + most likely underlying cause","ผู้ป่วยปวดท้อง (มีอาจารย์) → focused history → provisional Dx (คีย์ไฟล์: เน้นตาเหลือง ตัวเหลือง ไม่เน้นอาการปวด)","ผู้ป่วยปวดท้อง → history of pain + associated symptoms → provisional Dx + initial management (SP ซึม = severe)"],
+       flow:["แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต","ปวด: ตำแหน่ง (ลิ้นปี่ / RUQ) onset ลักษณะ ร้าวสะบักขวา สัมพันธ์อาหารมัน เคยปวดเป็น ๆ หาย ๆ (biliary colic)","ไข้หนาวสั่น","ตัวเหลือง ตาเหลือง: เริ่มเมื่อไร มากขึ้นเร็วไหม + ปัสสาวะสีชาเข้ม + อุจจาระซีด + คัน","ความรุนแรง: ซึม สับสน หน้ามืด ใจสั่น ปัสสาวะออกน้อย","แยกโรค: ร้าวทะลุหลัง / สุรา (pancreatitis), แสบท้อง + NSAID (PUD), ปัสสาวะแสบ (pyelonephritis), ไอ (RLL pneumonia), ประจำเดือน / ตั้งครรภ์","ประวัติเดิม: นิ่วถุงน้ำดี, เคยผ่าตัด / ERCP / stent ท่อน้ำดี, โรคเลือด (hemolysis), DM","ปัจจัยเสี่ยง: กินปลาน้ำจืดดิบ (liver fluke), สุรา, ไวรัสตับอักเสบ, ยา / สมุนไพร, น้ำหนักลด","สรุป → Dx + สาเหตุ + แผน"],
+       pattern:["<b>Dx</b>: <b>acute (ascending) cholangitis</b> — Charcot triad: ไข้หนาวสั่น + ปวด RUQ / ลิ้นปี่ + jaundice · + ซึม / hypotension = Reynolds pentad · <b>สาเหตุที่น่าจะเป็นที่สุด = choledocholithiasis</b> (นิ่วถุงน้ำดีหลุดลง CBD, ประวัติ biliary colic) · อื่น: malignant obstruction (cholangiocarcinoma, CA head of pancreas), benign stricture, liver fluke, stent อุดตัน","<b>TG18 diagnosis</b>: A systemic inflammation (ไข้ &gt;38 °C / หนาวสั่น, WBC / CRP) + B cholestasis (bilirubin ≥2 mg/dL, LFT ผิดปกติ) + C imaging (ท่อน้ำดีขยาย / เห็นสาเหตุ) → suspected = A + B หรือ C · definite = A + B + C","<b>TG18 severity</b>: Grade III = organ dysfunction (hypotension ต้องใช้ vasopressor, สับสน, PaO2 / FiO2 &lt;300, oliguria / Cr &gt;2.0, PT-INR &gt;1.5, platelet &lt;100,000) · Grade II = ≥2 ใน: WBC &gt;12,000 หรือ &lt;4,000, ไข้ ≥39 °C, อายุ ≥75, total bilirubin ≥5 mg/dL, albumin ต่ำ · Grade I = ไม่เข้า II / III","<b>Initial management</b>: ABC + IV fluid, hemoculture แล้ว IV antibiotic (ceftriaxone ± metronidazole; Grade III → piperacillin-tazobactam), NPO, analgesic · CBC, LFT, BUN / Cr, coagulation, lactate · US abdomen","<b>Biliary drainage (TG18)</b>: Grade III = urgent หลัง resuscitation / organ support · Grade II = early · Grade I = ถ้าไม่ดีขึ้นใน 24 ชม. · วิธีแรก = <b>ERCP</b> (sphincterotomy + stone extraction / stent); ทำไม่ได้ → PTBD · หลังหาย → cholecystectomy กันเป็นซ้ำ"],
+       kw:["fever with chills","RUQ / epigastric pain radiating to right scapula","jaundice, tea-coloured urine, pale stool, pruritus","confusion, hypotension (Reynolds pentad)","history of gallstone / biliary colic","previous ERCP / biliary surgery","raw freshwater fish (liver fluke)","acute cholangitis from choledocholithiasis","TG18 grading","blood culture, IV antibiotics, ERCP"],
+       ddx:["Acute cholecystitis (± Mirizzi syndrome)","Infected malignant biliary obstruction (cholangiocarcinoma, CA head of pancreas)","Liver abscess","Acute pancreatitis","Viral hepatitis"],
+       pearls:["ซักแต่อาการปวด ไม่ถามสีปัสสาวะ / อุจจาระ / คัน และอาการซึม-ช็อก = หักมาก (คีย์ไฟล์ระบุให้เน้นอาการเหลือง)","ตอบ acute cholecystitis = ได้บางส่วน เพราะอธิบาย jaundice ไม่ได้","โจทย์ถาม 'underlying cause' ต้องตอบ choledocholithiasis ไม่ใช่แค่ 'biliary obstruction'","ผู้สูงอายุมี Charcot triad ครบเพียงราวครึ่งถึงสองในสาม — อย่ารอให้ครบ","ในไทยต้องถามปลาน้ำจืดดิบ (Opisthorchis viverrini → cholangiocarcinoma, recurrent pyogenic cholangitis)"],
+       members:["MDCU67|RoA|2#1","MDCU67|RoA|2#2","MDCU65|RoA|7#1","MDCU65|RoA|7#2","MDCU65|RoB|9#1","MDCU65|RoB|9#2"]},
+      {id:"hx-gallstone", title:"Biliary colic / acute calculous cholecystitis — ซักประวัติ + investigation of choice (US)",
+       trend:"ปวด RUQ / ลิ้นปี่สัมพันธ์อาหาร — แยก colic vs cholecystitis vs cholangitis จากประวัติ แล้วตอบ investigation 1 อย่าง",
+       asked:["ปวดท้อง 1 วัน → take a history → diagnosis + 1 DDx (คีย์ = acute cholecystitis)","Take a history จากผู้ป่วยที่สงสัย acute cholecystitis → investigation of choice","หญิงปวดท้อง 3 เดือน (ปวดลิ้นปี่ครั้งละ 15–30 นาที เป็นมากหลังอาหาร) → take a history → choose 1 investigation"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วย","ปวด: ตำแหน่ง RUQ / ลิ้นปี่, onset หลังอาหารมัน, ต่อเนื่องนานเท่าไร (&lt;6 ชม. vs นานกว่า), ร้าวสะบักขวา / หลัง, หายใจลึกแล้วเจ็บ, เคยเป็นแบบนี้","ไข้ คลื่นไส้อาเจียน","ตัวเหลือง ปัสสาวะเข้ม อุจจาระซีด คัน (แยก CBD stone / cholangitis)","แยก: ร้าวทะลุหลัง (pancreatitis), ปวดตอนหิว + NSAID (PUD), heartburn (GERD), hepatitis, MI, RLL pneumonia, pyelonephritis, ตั้งครรภ์","Alarm: น้ำหนักลด กลืนลำบาก ถ่ายดำ","Risk ของนิ่ว: หญิง อ้วน อายุ ≥40 มีบุตรหลายคน, DM, ลดน้ำหนักเร็ว, hemolysis (thalassemia), OCP","สรุป → Dx + DDx → investigation"],
+       pattern:["<b>แยก 3 โรคจากประวัติ</b>: biliary colic = ปวด RUQ / ลิ้นปี่หลังอาหาร <b>&lt;6 ชม.</b> หายเอง ไม่มีไข้ · <b>acute cholecystitis</b> = ปวดต่อเนื่อง <b>&gt;6 ชม.</b> + ไข้ + Murphy's sign ไม่เหลือง · <b>cholangitis</b> = ไข้ + ปวด + <b>jaundice</b>","<b>TG18 acute cholecystitis</b>: A local inflammation (Murphy's sign, RUQ mass / pain / tenderness) + B systemic inflammation (ไข้, CRP, WBC) + C imaging → suspected = A + B · definite = A + B + C","<b>Investigation of choice = transabdominal ultrasound</b>: gallstone / impacted stone ที่คอ, <b>ผนังถุงน้ำดีหนา 4 mm ขึ้นไป</b> (ตัวเลขในเนื้อหา TG18 — ไม่ใช่ 5 mm; ตารางเกณฑ์ TG18 เขียนแค่ 'imaging findings characteristic of acute cholecystitis' ไม่มีตัวเลข), pericholecystic fluid, GB โป่ง (long axis 8 cm / short axis 4 cm ขึ้นไป), sonographic Murphy's sign · US ไม่ชัด → HIDA scan (cholescintigraphy) · ร่วมกับ CBC, LFT, lipase","เคสเรื้อรัง (ปวดลิ้นปี่ 15–30 นาทีหลังอาหาร เป็น ๆ หาย ๆ) → symptomatic gallstone → US ยืนยันนิ่ว → elective laparoscopic cholecystectomy"],
+       kw:["RUQ / epigastric pain after fatty meal","duration > 6 h (cholecystitis) vs < 6 h (colic)","radiation to right scapula","fever","no jaundice","previous similar attacks","female, obese, ≥ 40, multiparous","acute calculous cholecystitis","ultrasound"],
+       ddx:["Acute cholangitis / CBD stone","Acute pancreatitis","Peptic ulcer / perforated PU","Acute hepatitis / liver abscess","Right pyelonephritis","Right lower lobe pneumonia","Inferior MI","Acute appendicitis (retrocecal / ตั้งครรภ์)"],
+       pearls:["ลืมถามอาการดีซ่าน → แยก cholangitis / CBD stone ไม่ได้","ตอบ CT หรือ MRCP เป็น investigation แรก = ไม่ใช่ investigation of choice","เฉลยคลังเดิม (MDCU71 RoA) เขียนผนังหนา '&gt;3–4 มม.' — แก้เป็น ≥4 mm ตาม TG18 แล้ว (22 พ.ย. 2026)","ลืมถามโอกาสตั้งครรภ์ในผู้หญิง"],
+       members:["MDCU66|RoC|2#1","MDCU66|RoC|2#2","MDCU71|RoA|2#1","MDCU71|RoA|2#2","MDCU70|RoB|2#1","MDCU70|RoB|2#2"]},
+      {id:"hx-obstructive-jaundice", title:"Painless progressive obstructive jaundice — distal cholangiocarcinoma / periampullary tumor",
+       trend:"SP ตัวเหลือง — ต้องแยก pre-hepatic / hepatic / obstructive แล้วให้ Dx จาก Courvoisier",
+       asked:["SP ตัวเหลือง ตาเหลือง (มีอาจารย์) → take a focused history → provisional Dx + DDx (อาจารย์ถาม)"],
+       flow:["แนะนำตัว ชื่อ อายุ อาชีพ ภูมิลำเนา","เหลือง: เริ่มเมื่อไร เร็ว / ค่อยเป็น มากขึ้นเรื่อย ๆ หรือขึ้นลง","ปวดท้อง (มี / ไม่มี) ไข้หนาวสั่น","ปัสสาวะสีชาเข้ม อุจจาระซีด คัน","เบื่ออาหาร น้ำหนักลด คลื่นไส้ ถ่ายดำ / อาเจียนเลือด ท้องโต ขาบวม","ปัจจัยเสี่ยง: ปลาน้ำจืดดิบ (ก้อยปลา ปลาร้า), สุรา, ยา / สมุนไพร, รับเลือด / เข็ม / เพศสัมพันธ์ (ไวรัส), ประวัติ HBV / HCV","อดีต: นิ่ว ผ่าตัดทางเดินน้ำดี โรคตับ โรคเลือด · ครอบครัวมะเร็งตับ / ทางเดินอาหาร","สรุป → Dx + DDx + investigation"],
+       pattern:["<b>แยก jaundice 3 กลุ่ม</b>: pre-hepatic (hemolysis — ปัสสาวะไม่เข้ม ไม่คัน ซีด) · hepatic (ไวรัส สุรา ยา — มีอาการตับอักเสบ) · <b>post-hepatic / obstructive</b> (ปัสสาวะเข้ม อุจจาระซีด คัน)","<b>Painless progressive obstructive jaundice + น้ำหนักลด</b> = มะเร็งจนกว่าจะพิสูจน์ว่าไม่ใช่","<b>Courvoisier's law</b>: ถุงน้ำดีโตคลำได้ไม่เจ็บ + jaundice → มักไม่ใช่นิ่ว (นิ่วทำให้ถุงน้ำดีเป็นพังผืดหดตัว) → อุดต่ำกว่า cystic duct","<b>Provisional Dx</b>: distal cholangiocarcinoma (ปัจจัยเสี่ยง Opisthorchis viverrini) หรือ periampullary tumor · DDx: CA head of pancreas, ampullary carcinoma, duodenal carcinoma, hilar cholangiocarcinoma (ถุงน้ำดีไม่โต), CBD stone (มักปวด / มีไข้), benign stricture","<b>Investigation</b>: LFT (direct bilirubin, ALP, GGT), CA 19-9, PT / INR → US (ท่อขยาย / ระดับที่อุด) → CT pancreas protocol / MRCP"],
+       kw:["onset and progression of jaundice","painless","tea-coloured urine, pale stool, pruritus","weight loss, anorexia","raw freshwater fish","alcohol, drugs / herbs, hepatitis risk","palpable gallbladder (Courvoisier)","distal cholangiocarcinoma / periampullary tumor","CA 19-9, US, CT / MRCP"],
+       ddx:["Distal cholangiocarcinoma","Carcinoma of head of pancreas","Ampullary / duodenal carcinoma","Hilar cholangiocarcinoma","CBD stone","Benign biliary stricture","Viral / alcoholic hepatitis"],
+       pearls:["ตอบ hepatitis เป็นอันดับแรก = ได้บางส่วน","ขาดกลุ่มปัจจัยเสี่ยง (ปลาดิบ สุรา ยา ไวรัส) = หักคะแนน","Hilar lesion ทำให้ถุงน้ำดีแฟบ — ใช้ Courvoisier แยกระดับการอุด"],
+       members:["MDCU66|RoD|6#1","MDCU66|RoD|6#2"]},
+      {id:"hx-liver-mass", title:"Liver mass — complete history (HCC vs cholangiocarcinoma vs metastasis vs abscess)",
+       trend:"อาจารย์ติ๊กทีละหัวข้อ — คะแนนอยู่ที่ถามปัจจัยเสี่ยงของแต่ละ DDx ให้ครบ",
+       asked:["SP ถูกตรวจพบก้อนในตับ → take a complete history (examiner ticks each point)"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วย","อาการของก้อน: ปวด / แน่นใต้ชายโครงขวา, คลำได้ก้อน, อิ่มเร็ว","Constitutional: น้ำหนักลด ไข้ เบื่ออาหาร","Obstructive jaundice: เหลือง ปัสสาวะเข้ม อุจจาระซีด คัน","Decompensated cirrhosis: ท้องโต ขาบวม อาเจียนเป็นเลือด ถ่ายดำ สับสน","Risk แยกตาม DDx (HCC / CCA / metastasis / abscess / adenoma)","ยา แพ้ยา โรคประจำตัว ผ่าตัด FH → สรุป"],
+       pattern:["<b>HCC</b>: HBV / HCV (ประวัติ ตรวจเลือด รับเลือด ครอบครัวเป็นพาหะ), แอลกอฮอล์, ตับแข็ง, aflatoxin (ถั่ว / ธัญพืชขึ้นรา), fatty liver / DM / obesity, ประวัติครอบครัวมะเร็งตับ","<b>Cholangiocarcinoma</b> (intrahepatic): กินปลาน้ำจืดดิบ (Opisthorchis viverrini — ภาคอีสาน), นิ่วในตับ, recurrent cholangitis","<b>Metastasis</b>: มะเร็งที่อื่น — ถ่ายผิดปกติ / ถ่ายเป็นเลือด (colorectal), ก้อนเต้านม, ไอ / เลือดออก (ปอด), ประวัติมะเร็งเดิม","<b>Liver abscess</b>: ไข้หนาวสั่น, ท้องเสียบิดมาก่อน (amoebic), DM (pyogenic / melioidosis)","<b>Hepatic adenoma</b>: หญิงใช้ยาคุมกำเนิดนาน / anabolic steroid"],
+       kw:["RUQ pain, palpable mass, early satiety","weight loss, fever","jaundice","ascites, GI bleeding, confusion (decompensation)","HBV / HCV, alcohol, cirrhosis, aflatoxin, NAFLD / DM","raw freshwater fish (liver fluke)","primary cancer elsewhere","dysentery (amoebic abscess)","OCP (adenoma)"],
+       ddx:["Hepatocellular carcinoma","Intrahepatic cholangiocarcinoma","Liver metastasis","Liver abscess (pyogenic / amoebic)","Hepatic adenoma / hemangioma"],
+       pearls:["ถามแต่ HCC ลืม CCA (ปลาดิบ) และ metastasis = เสียหลายหัวข้อ","ลืมอาการ decompensation — บอกว่ามีตับแข็งและกำหนดการรักษา"],
+       members:["MDCU72|RoA|1#1"]}
+    ]},
+    {title:"Upper GI bleeding — hematemesis", sections:[
+      {id:"hx-hematemesis", title:"Hematemesis — ซักประวัติ + Dx: NSAID / aspirin-induced peptic ulcer bleeding",
+       trend:"หญิง 50–65 ปีอาเจียนเป็นเลือด — คะแนนหลักอยู่ที่ยา (NSAID / ยาผง / ยาชุด), อาการเสียเลือด และแยก variceal",
+       asked:["หญิง 50 ปีอาเจียนเลือด 1 ชม.ก่อนมา → take a history","ผู้ป่วยอาเจียนเป็นเลือด → take a history","หญิง 65 ปีอาเจียนเลือด 1 วัน → focused history → most likely diagnosis (ยาผงทัมใจ)","หญิงอาเจียนเลือด 2 ชม. → history ประมาณ 2 นาที (ต่อด้วย management)","หญิง 55 ปีอาเจียนเลือดแล้วเป็นลม → ซักประวัติจากญาติ (ต่อด้วย investigation)","SP สองคน: UGIB และปวดท้อง → take a history"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วย (ซักจากญาติถ้าผู้ป่วยซึม)","ยืนยัน hematemesis: อาเจียนออกมา ไม่ใช่ไอ (มีฟอง = hemoptysis) ไม่ใช่เลือดกำเดาไหลลงคอ","ลักษณะเลือด: แดงสด / ลิ่ม vs coffee-ground · ปริมาณ จำนวนครั้ง เริ่มเมื่อไร · อาเจียนรุนแรงนำมาก่อน","Melena / hematochezia","อาการเสียเลือด: หน้ามืด เป็นลม ใจสั่น เหงื่อออก เหนื่อย เจ็บหน้าอก ปัสสาวะออกน้อย","สาเหตุ: ปวดแสบลิ้นปี่ / dyspepsia, NSAID / aspirin / ยาผง / ยาชุด / ยาลูกกลอน / steroid, antiplatelet / anticoagulant, สุรา + โรคตับ (เหลือง ท้องโต ขาบวม varices เดิม HBV / HCV), น้ำหนักลด กลืนลำบาก อิ่มเร็ว (CA), เคย PU / H. pylori / ส่องกล้อง","Systemic bleeding: จ้ำเลือด เลือดออกตามไรฟัน","PMH: หัวใจ ไต ตับ DM (comorbidity ของ risk score) · บุหรี่ · FH มะเร็งทางเดินอาหาร → สรุป"],
+       pattern:["<b>ประวัติต้องตอบ 3 คำถาม</b>: เลือดออกจากทางเดินอาหารส่วนบนจริงไหม · มากแค่ไหน (hemodynamics) · สาเหตุอะไร — <b>ulcer vs variceal</b> เพราะเปลี่ยนการรักษาเบื้องต้น","<b>Dx ที่คาด</b>: <b>UGIB from NSAID (aspirin)-induced peptic ulcer</b> — ยาผงแก้ปวด (เช่น ทัมใจ) มี aspirin + paracetamol + caffeine · aspirin ยับยั้ง COX-1 → prostaglandin ปกป้องเยื่อบุลดลง + ต้านเกล็ดเลือด","<b>สาเหตุ UGIB</b>: peptic ulcer (NSAID / H. pylori) พบบ่อยสุด · varices (ตับแข็ง สุรา) · erosive gastritis / esophagitis · Mallory–Weiss tear (อาเจียนรุนแรงก่อน) · malignancy (น้ำหนักลด กลืนลำบาก)","ข้อมูลจากประวัติใช้ใน <b>Glasgow-Blatchford score</b>: melena, syncope, hepatic disease, cardiac failure (ร่วมกับ BUN, Hb, SBP, HR)"],
+       kw:["confirm hematemesis (vs hemoptysis / epistaxis)","fresh blood vs coffee-ground, amount, frequency","preceding forceful vomiting (Mallory–Weiss)","melena","dizziness, syncope, palpitation","NSAID / aspirin / ยาผง / ยาชุด / steroid","antiplatelet / anticoagulant","alcohol, chronic liver disease (varices)","weight loss, dysphagia (cancer)","bleeding tendency","NSAID-induced peptic ulcer bleeding"],
+       ddx:["NSAID-induced peptic ulcer (gastric / duodenal)","Erosive gastritis","Variceal bleeding","Mallory–Weiss tear","Gastric cancer"],
+       pearls:["ไม่ถามยาแก้ปวด — โดยเฉพาะยาผง / ยาชุด / ยาลูกกลอนด้วยชื่อการค้า — = หักมากทุกปี (คีย์ไฟล์ระบุ 'ยา (ทัมใจ)')","ลืมแยกไอเป็นเลือด / มีฟอง และ systemic bleeding — คีย์ไฟล์ให้คะแนนแยก","ตอบ 'UGIB' โดยไม่ระบุสาเหตุ = ได้ครึ่ง","SP เป็นญาติ (ผู้ป่วยเป็นลม) — ยังต้องถามครบทุกหัวข้อ"],
+       members:["MDCU67|RoB|2#1","MDCU66|RoB|2#1","MDCU65|RoC|6#1","MDCU65|RoC|6#2","MDCU77|RoD|1#1","MDCU75|RoD|9#1","MDCU69|RoA|2#1"]},
+      {id:"hx-ugib-mx", title:"UGIB — investigations และ initial management (GBS, restrictive transfusion, IV PPI, EGD ภายใน 24 ชม.)",
+       trend:"ข้อย่อยต่อจากซักประวัติ hematemesis — อาจารย์ให้ V/S แล้วถาม management หรือถาม lab ที่จะส่ง",
+       asked:["หลังซักประวัติ อาจารย์ให้ BP 110/70 (relative hypotension) HR 72 → outline the management","หลังซักประวัติจากญาติ (อาเจียนเลือด + เป็นลม) → บอกอาจารย์ว่าจะส่งตรวจอะไร"],
+       flow:["ABC, O2, monitor","2 large-bore IV + crystalloid","Lab + G/M","Transfusion threshold","NPO + IV PPI (+ ยาสำหรับ varices ถ้าสงสัย)","Risk stratification","EGD ภายใน 24 ชม. → post-endoscopy PPI","หยุด NSAID, ตรวจ H. pylori"],
+       pattern:["<b>Resuscitation</b>: ABC, O2, 2 large-bore IV, crystalloid · <b>Lab</b>: CBC, <b>G/M (PRC)</b>, PT / INR, BUN / Cr (BUN / Cr สูง สนับสนุน UGIB), LFT, electrolytes","<b>Transfusion</b>: restrictive — Hb &lt;7 g/dL (ACG 2021); มีโรคหัวใจหลอดเลือด ใช้ threshold สูงขึ้น ~8 g/dL (ESGE 2021)","<b>Risk score</b>: <b>Glasgow-Blatchford ≤1</b> = very low risk → ผู้ป่วยนอกได้ (ACG 2021) · Rockall ใช้หลังส่องกล้อง","<b>ยา</b>: NPO, <b>IV PPI</b> ก่อนส่องกล้อง (เช่น omeprazole 80 mg IV bolus แล้ว 8 mg/h หรือ 40 mg IV q12h — ไม่ทำให้เลื่อนส่องกล้อง) · <b>erythromycin IV</b> ก่อนส่องกล้องเพื่อล้างกระเพาะ (ACG 2021) · สงสัย varices → <b>vasoactive drug</b> (terlipressin / octreotide / somatostatin) + <b>ceftriaxone</b> + EGD + band ligation ภายใน 12 ชม. (Baveno VII)","<b>Upper GI endoscopy ภายใน 24 ชม.</b> หลัง resuscitation (diagnostic + endoscopic hemostasis) · หลัง hemostasis ของ high-risk ulcer → <b>high-dose PPI 3 วัน</b> แล้ว PPI วันละ 2 ครั้งจนครบ 2 สัปดาห์ (ACG 2021) · หยุด NSAID, ตรวจและกำจัด H. pylori"],
+       kw:["ABC, 2 large-bore IV, crystalloid","CBC, G/M, PT / INR, BUN / Cr, LFT","transfuse if Hb < 7","Glasgow-Blatchford score","IV PPI","erythromycin before endoscopy","EGD within 24 h","high-dose PPI 3 days after hemostasis","stop NSAID, test H. pylori","octreotide / terlipressin + ceftriaxone if variceal"],
+       pearls:["BP 110 / 70 HR 72 ดูปกติแต่โจทย์บอก relative hypotension — ยังต้อง resuscitate + จอง G/M","Transfusion liberal (Hb &gt;10) เพิ่ม rebleeding / mortality — ตอบ threshold 7","ลืม G/M และ coagulation ใน lab list","สงสัย varices แต่ไม่ให้ vasoactive drug + antibiotic prophylaxis","คีย์ไฟล์ส่วน management ว่าง — แนวคำตอบตาม ACG 2021"],
+       members:["MDCU77|RoD|1#2","MDCU75|RoD|9#2"]}
+    ]},
+    {title:"Vascular — claudication / limb ischemia และ varicose veins", sections:[
+      {id:"hx-claudication", title:"ปวดขาเวลาเดิน — intermittent claudication (PAD) และแยก acute limb ischemia",
+       trend:"ปวดขาเวลาเดิน / ปวดน่อง — ถ้าระยะเวลาเป็นเดือนคือ chronic PAD; ถ้าเป็นชั่วโมงถึงไม่กี่วันต้องถาม 6P ของ acute limb ischemia",
+       asked:["หญิงปวดขาเวลาเดิน → focused history → most likely diagnosis","ผู้ป่วย 60 ปีปวดขาเวลาเดิน 3 วัน → focused history → further examination + investigations","SP ปวดขา 3 เดือน → history → (ตรวจร่างกาย) → diagnosis","ชายปวดน่อง 6 ชม.ก่อนมา → take a history for peripheral arterial disease"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วย","ปวด: ตำแหน่ง (ก้น / ต้นขา / น่อง) ข้างเดียว / สองข้าง ลักษณะบีบ / ตะคริว","Claudication: เดินได้กี่เมตรจึงปวด (คงที่ทุกครั้ง?) หยุดยืนพักกี่นาทีหาย ต้องนั่ง / ก้มไหม แย่ลงไหม","ความรุนแรง: rest pain ตอนกลางคืน ห้อยขาแล้วดีขึ้น · แผลไม่หาย นิ้วดำ · เท้าเย็น ชา ซีด ขนร่วง","Onset เฉียบพลัน (ชั่วโมง–วัน): 6P + แหล่ง emboli (AF ใจสั่น, MI, โรคลิ้นหัวใจ)","ปวดก้น / ต้นขา + erectile dysfunction (Leriche)","แยก: neurogenic claudication, venous claudication / CVI, sciatica, OA","Risk: บุหรี่ (pack-year), DM, HT, dyslipidemia, อายุ, ครอบครัว · polyvascular: เจ็บหน้าอก, stroke / TIA, ปวดท้องหลังอาหาร","ผลต่อกิจวัตร ยา → สรุป"],
+       pattern:["<b>Intermittent claudication</b> = ปวดกล้ามเนื้อซ้ำ ๆ ที่ระยะเดินเท่าเดิม หายเมื่อ<b>ยืนพัก</b> 2–5 นาที ไม่ต้องเปลี่ยนท่า · <b>ตำแหน่งปวดอยู่ต่ำกว่ารอยโรคหนึ่งระดับ</b>: ก้น / ต้นขา = aortoiliac (Leriche = ปวดก้น + ED + femoral pulse หาย) · น่อง = femoropopliteal","<b>แยกโรค</b>: neurogenic claudication (spinal stenosis) — ปวดชา / อ่อนแรงร้าวลงขา ระยะเดินไม่คงที่ ต้องนั่ง / ก้มจึงหาย ยืนพักไม่หาย · venous / CVI — ปวดหน่วงตอนยืนนาน บวม ดีขึ้นเมื่อยกขา · sciatica · OA","<b>Dx</b>: peripheral arterial disease (chronic arterial insufficiency) with intermittent claudication, atherosclerotic, ระดับ femoropopliteal · <b>Fontaine</b>: I ไม่มีอาการ · IIa เดินได้ &gt;200 m · IIb &lt;200 m · III rest pain · IV ulcer / gangrene · <b>Rutherford</b>: 1–3 mild / moderate / severe claudication · 4 rest pain · 5 minor tissue loss · 6 major tissue loss · rest pain / tissue loss = <b>CLTI</b>","<b>Acute limb ischemia</b> (onset ชั่วโมง–วัน): 6P — pain, pallor, pulselessness, paresthesia, paralysis, poikilothermia · หา embolic source (AF, MI, valve) vs thrombosis บน PAD เดิม → heparin IV + vascular consult ด่วน","<b>ตรวจ / ส่งตรวจต่อ</b>: คลำชีพจร femoral, popliteal, posterior tibial, dorsalis pedis สองข้าง + bruit · ผิว ขน เล็บ อุณหภูมิ capillary refill, Buerger test · <b>ABI (ACC / AHA 2024 PAD)</b>: <b>≤0.90 = PAD</b> · 0.91–0.99 borderline · 1.00–1.40 ปกติ · &gt;1.40 = noncompressible (หลอดเลือดแข็งกดไม่ลง) → toe-brachial index (<b>TBI ≤0.70 = PAD</b>) · <b>duplex US</b> · CTA / DSA เมื่อจะ revascularize · สงสัย CVI → Brodie-Trendelenburg + venous duplex · สงสัยกระดูกสันหลัง → neuro exam + SLR"],
+       kw:["site of pain (buttock / thigh / calf)","claudication distance","relieved by standing rest","rest pain, ulcer, gangrene","6P if acute onset","AF / embolic source","erectile dysfunction (Leriche)","smoking, DM, HT, dyslipidemia","CAD, stroke","neurogenic claudication, venous disease","PAD with intermittent claudication","pulses, ABI ≤ 0.90 (0.91–0.99 borderline, > 1.40 → TBI), duplex US"],
+       ddx:["Peripheral arterial disease (atherosclerotic)","Acute limb ischemia (embolism / thrombosis)","Neurogenic claudication (lumbar spinal stenosis)","Chronic venous insufficiency / venous claudication","Sciatica","Osteoarthritis"],
+       pearls:["อาการเพียง 3 วัน / 6 ชม. แต่ซักแบบ chronic claudication อย่างเดียว — ลืม 6P และ AF = พลาดประเด็นของโจทย์","ไม่แยก neurogenic claudication = หักคะแนน (คีย์ไฟล์ให้ DDx CVI และ sciatica / spinal stenosis)","ลืมถามโรคหลอดเลือดที่อื่น (CAD, stroke)","ตัด ABI ผิด — PAD คือ ≤0.90 และค่าสูงเกิน 1.40 ไม่ได้แปลว่าปกติ"],
+       members:["MDCU65|RoC|7#1","MDCU65|RoC|7#2","MDCU76|RoC|5#1","MDCU76|RoC|5#2","MDCU73|RoD|2#1","MDCU73|RoD|2#3","MDCU70|RoA|2#1"]},
+      {id:"hx-varicose", title:"Varicose veins — focused history (CEAP)",
+       trend:"SP เส้นเลือดโป่งที่ขา — ต้องได้อาการ ภาวะแทรกซ้อน ประวัติ DVT และแยก PAD ก่อนให้ใส่ถุงน่อง",
+       asked:["SP มีเส้นเลือดโป่งคดเคี้ยวที่ขา (มีอาจารย์) → take a focused history"],
+       flow:["แนะนำตัว ขออนุญาต","เส้นเลือดโป่ง: ตำแหน่ง ข้างเดียว / สองข้าง นานเท่าไร มากขึ้นไหม","อาการ: ขาหนัก ปวดตื้อ ตะคริว คัน บวม — แย่ลงเมื่อยืนนาน / ตอนเย็น ดีขึ้นเมื่อยกขา","ภาวะแทรกซ้อน: ผิวคล้ำ / แข็ง eczema, แผล, เลือดออกจากเส้น, superficial thrombophlebitis","Secondary cause: ประวัติ DVT, กระดูกหัก / ผ่าตัด / นอนติดเตียง","Risk: ยืนนาน ตั้งครรภ์หลายครั้ง อ้วน ครอบครัว อายุ เพศหญิง ฮอร์โมน","แยก PAD (claudication) และสาเหตุขาบวมอื่น (หัวใจ ไต ตับ)","ผลต่อชีวิต / ความกังวลเรื่องความงาม → สรุปเป็น CEAP"],
+       pattern:["<b>CEAP clinical class (ปรับปี 2020)</b>: C0 ไม่มีอาการ · C1 telangiectasia / reticular veins · C2 varicose veins · C3 edema · C4 ผิวเปลี่ยน (C4a pigmentation / eczema, C4b lipodermatosclerosis / atrophie blanche, C4c corona phlebectatica) · C5 แผลหายแล้ว · C6 แผลยังไม่หาย","<b>ประวัติ DVT</b> สำคัญ — post-thrombotic / deep venous obstruction เปลี่ยนแผนการรักษา superficial vein","<b>ต้องแยก PAD ก่อนให้ compression stocking</b> (ถามอาการ claudication; ตรวจชีพจร / ABI)","ซักให้ได้ C class + อาการ → ใช้เลือก conservative (ยกขา ถุงน่อง ลดน้ำหนัก) vs intervention (endovenous ablation / surgery / sclerotherapy)"],
+       kw:["location, duration, progression","heaviness, aching, itching, swelling worse on standing","skin pigmentation, eczema, ulcer, bleeding","superficial thrombophlebitis","previous DVT","prolonged standing, pregnancy, obesity, family history","claudication (exclude PAD)","CEAP"],
+       pearls:["ไม่ถามประวัติ DVT = ได้บางส่วน","ลืมแยก arterial disease ก่อนแนะนำถุงน่องรัด"],
+       members:["MDCU65|RoB|8#1"]}
+    ]},
+    {title:"Upper GI — dysphagia และ chronic epigastric pain", sections:[
+      {id:"hx-dysphagia", title:"Dysphagia — แยก motility (achalasia) จาก mechanical obstruction",
+       trend:"SP กลืนลำบาก (หญิงอายุน้อย) — คะแนนอยู่ที่ solid vs liquid และ oropharyngeal vs esophageal",
+       asked:["หญิง 29 ปีกลืนลำบาก → take a history → what is the diagnosis (achalasia)","SP กลืนลำบาก → take a history"],
+       flow:["แนะนำตัว ยืนยันตัวตน","Oropharyngeal vs esophageal: สำลัก / ไอทันทีที่เริ่มกลืน / อาหารย้อนจมูก vs ติดหลังกลืน + ชี้ระดับที่ติด","Solid vs liquid: เริ่มจากอะไร ตอนนี้เป็นทั้งคู่ไหม","Progressive vs intermittent, onset / duration","Regurgitation อาหารไม่ย่อย / กลางคืน, ไอกลางคืน / ปอดอักเสบ (aspiration)","Odynophagia, heartburn, chest pain, เสียงแหบ, hematemesis, น้ำหนักลด","PMH (scleroderma, stroke), ยา (NSAID, doxycycline, KCl), กินสารกัดกร่อน, GERD เดิม, บุหรี่ / สุรา, FH มะเร็ง → สรุป + Dx"],
+       pattern:["<b>Motility disorder</b>: กลืนลำบากต่อ<b>ทั้งของแข็งและของเหลวตั้งแต่แรก</b> (หรือของเหลวนำ) + regurgitation อาหารไม่ย่อย ในคนอายุน้อย → <b>achalasia</b>","<b>Mechanical obstruction</b>: ของแข็งก่อนแล้วลามไปของเหลว + progressive + น้ำหนักลด ในผู้สูงอายุ สูบบุหรี่ / สุรา → <b>esophageal cancer</b> · intermittent ของแข็ง + heartburn → peptic stricture / ring · ประวัติกินกรด / ด่าง → corrosive stricture","ยืนยัน achalasia: barium swallow (bird's beak) · EGD ตัด pseudoachalasia (มะเร็งที่ GEJ) · <b>high-resolution manometry</b> = gold standard (Chicago classification v4.0)"],
+       kw:["oropharyngeal vs esophageal","solids vs liquids","progressive vs intermittent","regurgitation of undigested food","nocturnal cough / aspiration","odynophagia, heartburn","weight loss","caustic ingestion","achalasia"],
+       ddx:["Achalasia","Esophageal carcinoma","Peptic stricture","Corrosive stricture","Pseudoachalasia (GEJ tumor)","Scleroderma esophagus"],
+       pearls:["ไม่ถาม solid vs liquid = เสียคะแนนหลัก","หญิงอายุน้อยกลืนลำบากทั้งน้ำและของแข็ง — ตอบมะเร็งหลอดอาหาร = ผิด"],
+       members:["MDCU77|RoA|9#1","MDCU77|RoA|9#2","MDCU74|RoD|3#1"]},
+      {id:"hx-chronic-epigastric", title:"ปวดท้องเรื้อรัง 6 เดือน + alarm features — carcinoma of stomach",
+       trend:"ปวดใต้ลิ้นปี่เรื้อรังในชายสูงอายุ — คะแนนอยู่ที่ alarm features",
+       asked:["ชายปวดท้อง 6 เดือน → focused history → most likely diagnosis + DDx"],
+       flow:["แนะนำตัว ยืนยันชื่อ-อายุ ขออนุญาต","ปวด: onset / ระยะเวลา ตำแหน่ง ลักษณะ ร้าว สัมพันธ์อาหาร (หลังกิน vs ท้องว่าง) ปัจจัย ความรุนแรง การเปลี่ยนแปลง","อาการร่วม: คลื่นไส้อาเจียน อาเจียนเป็นเลือด / ถ่ายดำ กลืนลำบาก อิ่มเร็ว ท้องอืด ตัวเหลือง ไข้ ขับถ่ายเปลี่ยน ก้อนในท้อง","Alarm features","ยา NSAID / aspirin / steroid / anticoagulant, เคยตรวจ H. pylori / ส่องกล้อง, DM, โรคตับ, ผ่าตัดเดิม","บุหรี่ สุรา อาหารหมักดอง / ปลาดิบ · FH มะเร็งทางเดินอาหาร → สรุป"],
+       pattern:["<b>Alarm features</b>: น้ำหนักลด, เบื่ออาหาร, ซีด / อ่อนเพลีย, GI bleeding (ถ่ายดำ อาเจียนเลือด), กลืนลำบาก, อาเจียนต่อเนื่อง, อิ่มเร็ว, คลำได้ก้อน, อายุมาก, ครอบครัวเป็นมะเร็งกระเพาะ","<b>Most likely</b>: <b>carcinoma of stomach</b> — ชายสูงอายุ ปวดใต้ลิ้นปี่เรื้อรัง + น้ำหนักลด อิ่มเร็ว ถ่ายดำ + บุหรี่ อาหารหมักดอง + FH · DDx: peptic ulcer disease (NSAID, H. pylori), CA pancreas (body / tail), cholangiocarcinoma, chronic pancreatitis (สุรา)","<b>Next step</b>: dyspepsia ที่อายุมากหรือมี alarm feature → <b>EGD + biopsy</b> (ไม่ใช่ test-and-treat H. pylori) · CBC (ซีด) · พบมะเร็ง → CT chest / abdomen staging"],
+       kw:["chronic epigastric pain","relation to meals","weight loss, anorexia","early satiety","melena / hematemesis","dysphagia, persistent vomiting","NSAID","smoking, pickled food","family history of gastric cancer","carcinoma of stomach","EGD with biopsy"],
+       ddx:["Carcinoma of stomach","Peptic ulcer disease","Carcinoma of pancreas","Cholangiocarcinoma","Chronic pancreatitis"],
+       pearls:["ไม่ถาม alarm features = ได้บางส่วน","ข้อย่อย Dx เป็นส่วนที่คลังเติม (ไม่มีในไฟล์ต้นฉบับ) — ตอบ CA stomach อันดับแรก, PUD อันดับแรกได้บางส่วน"],
+       members:["MDCU67|RoC|2#1","MDCU67|RoC|2#2"]}
+    ]},
+    {title:"Corrosive ingestion — ER orders", sections:[
+      {id:"hx-corrosive", title:"กินน้ำยาล้างห้องน้ำ (กรด HCl) — ER orders",
+       trend:"สถานีเขียน order (ติด tag hx) ซ้ำกับสถานี order ของ tag path — ผู้ป่วย V/S ปกติไม่มี stridor มาภายในไม่กี่ชั่วโมง",
+       asked:["ผู้ป่วยดื่มน้ำยาล้างห้องน้ำ 30 นาที V/S เกือบปกติ (HR ไม่เร็ว RR 12) → ในฐานะแพทย์ ER จะสั่งอะไร","ผู้ป่วยกินสารกัดกร่อน ให้ V/S → write the treatment orders"],
+       flow:["Airway ก่อน: stridor / เสียงแหบ / น้ำลายไหล → intubate (fiberoptic ไม่ blind)","NPO + สิ่งที่ห้ามทำ","IV fluid + monitor","ยา: PPI IV, analgesic","Lab + imaging หา perforation","EGD 12–24 ชม.","Surgery ถ้า perforation · psych / poison center"],
+       pattern:["<b>ABC</b>: ประเมิน airway edema (stridor, hoarseness, drooling) → intubate เร็ว (fiberoptic) · <b>NPO</b>","<b>ห้าม</b> กระตุ้นอาเจียน, ล้างท้อง, ใส่ NG tube แบบ blind, ให้สาร neutralize หรือ activated charcoal","<b>IV fluid</b> (เช่น RLS / NSS ระบุ rate) · continuous V/S monitoring · Foley ถ้าต้องติดตาม urine output · <b>PPI IV</b> (เช่น omeprazole 40 mg IV) + analgesic","<b>Lab</b>: CBC, electrolytes, BUN / Cr, ABG / lactate (acidosis), coagulation, G/M · <b>Imaging</b>: upright CXR + acute abdomen series หา free air / pneumomediastinum · สงสัย perforation → CT chest / abdomen","<b>EGD ภายใน 12–24 ชม.</b> (ไม่เกิน 48 ชม.) เพื่อ grade injury (Zargar) · หลีกเลี่ยงส่องช่วงวันที่ 5–15 (ผนังบางที่สุด เสี่ยงทะลุ) · perforation / peritonitis / unstable → emergency surgery","ซักชนิดสาร ปริมาณ เจตนา → ตั้งใจ = consult จิตเวช · ปรึกษาศูนย์พิษวิทยา (1367) · ติดตาม stricture / gastric outlet obstruction ระยะยาว","กรด → coagulation necrosis ทำลาย<b>กระเพาะ (antrum)</b> เด่น · ด่าง → liquefactive necrosis ทำลาย<b>หลอดอาหาร</b>ลึก"],
+       kw:["airway: stridor, hoarseness → intubate","NPO","no induced vomiting, no lavage, no blind NG, no neutralization / charcoal","IV fluid with rate","PPI IV","CBC, electrolytes, ABG","upright CXR / acute abdomen series","EGD within 12–24 h (Zargar)","surgery if perforation","psychiatric consult if intentional"],
+       pearls:["สั่ง neutralize ด้วยนม / ด่าง หรือให้ charcoal = ผิด (ปฏิกิริยาความร้อน, บดบังการส่องกล้อง, charcoal ไม่จับกรด-ด่าง)","ใส่ NG tube แบบ blind เสี่ยงทะลุ","ลืมสั่ง EGD และ CXR หา free air","Order ต้องระบุชนิด / rate ของ IV fluid"],
+       members:["MDCU75|RoD|11#1","MDCU72|RoD|4#1"]}
+    ]},
+    {title:"Pediatric — counselling ผู้ปกครอง", sections:[
+      {id:"hx-phimosis-counsel", title:"Counselling แม่: physiologic phimosis ในเด็กชาย 3 ปี",
+       trend:"สถานี communication — คะแนนอยู่ที่อธิบายว่าเป็นภาวะปกติ ไม่ต้องขลิบทุกราย และเปิดโอกาสให้แม่ถาม",
+       asked:["แม่ของเด็กชาย 3 ปีกังวลว่าหนังหุ้มปลายรูดไม่ได้ (มีอาจารย์) → counsel the mother about his condition and its management"],
+       flow:["แนะนำตัว ยืนยันชื่อแม่ / เด็ก ถามว่าแม่รู้อะไรมาบ้างและกังวลอะไร","ประเมินสั้น ๆ: ballooning, ปัสสาวะออกดีไหม, เคยติดเชื้อ (balanoposthitis, UTI), แผลเป็นขาวที่ปลายหนัง","อธิบายภาษาง่าย: physiologic phimosis เป็นเรื่องปกติ","คำแนะนำการดูแล","ทางเลือก: topical steroid","ข้อบ่งชี้การขลิบ","อาการที่ต้องมาก่อนนัด","ทวนความเข้าใจ เปิดโอกาสให้ถาม ขอบคุณ"],
+       pattern:["<b>Physiologic phimosis</b>: หนังหุ้มปลายติดกับหัวองคชาตเป็นปกติในเด็กเล็ก ค่อย ๆ แยกเองตามอายุ ส่วนใหญ่รูดได้ภายในวัยเรียน–วัยรุ่น · ballooning ไม่อันตรายถ้าปัสสาวะออกดี","<b>ห้ามรูดแรง</b> → แผล พังผืด กลายเป็น pathologic phimosis หรือ paraphimosis · ทำความสะอาดภายนอกตอนอาบน้ำ รูดเบา ๆ เท่าที่ไปได้แล้ว<b>รูดกลับเสมอ</b>","<b>Topical corticosteroid</b> 0.05–0.1% (เช่น betamethasone) ทาวันละ 2 ครั้ง 4–8 สัปดาห์ ร่วมกับรูดเบา ๆ — สำเร็จ &gt;90% (EAU Paediatric Urology) เมื่อแม่ต้องการ / มีอาการ","<b>ข้อบ่งชี้ circumcision</b>: pathologic phimosis (แผลเป็นวงขาวแข็ง — lichen sclerosus / BXO), balanoposthitis ซ้ำ, UTI ซ้ำ / มีความผิดปกติทางเดินปัสสาวะ, ปัสสาวะไม่ออก, ยาทาไม่ได้ผล","<b>กลับมาก่อนนัด</b>: ปัสสาวะไม่ออก, บวมแดงมีหนอง ไข้, หนังหุ้มรูดลงแล้วกลับไม่ได้ (<b>paraphimosis — ฉุกเฉิน</b>)"],
+       kw:["explore mother's concern","physiologic phimosis is normal","do not forcibly retract","gentle hygiene, always reduce foreskin","topical steroid 4–8 weeks","indications for circumcision","red flags: retention, infection, paraphimosis","check understanding, invite questions"],
+       pearls:["บอกว่าต้องขลิบทุกราย = ให้ข้อมูลผิด","ไม่ถามความกังวลของแม่ / ไม่ทวนความเข้าใจ / ไม่เปิดให้ถาม = หักมาก (คีย์ไฟล์เขียนว่า 'อย่าลืมให้แม่ถาม')"],
+       members:["MDCU65|RoA|1#1"]}
+    ]}
+  ]});

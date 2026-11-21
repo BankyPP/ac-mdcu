@@ -234,8 +234,9 @@ Co({page:174,orig:"8",topic:"img",sub:"Acute abdomen series",title:"Three radiog
 /* ===== OSCE 9 ===== */
 Co({page:175,orig:"9",topic:"img",sub:"Ultrasound",title:"Imaging of the right upper quadrant — name, describe, diagnose, treat",img:["os67c_9"],kimg:["os67c_k9"],
  stem:`An image is shown.<br>9.1 Name this investigation.<br>9.2 Describe the findings.<br>9.3 What is the diagnosis?<br>9.4 Outline the treatment.`,
+ opinion:"คีย์รุ่นพี่ตอบแค่ gallbladder stone และ LC ส่วนชื่อการตรวจและคำบรรยายไฟล์ไม่มีเฉลย เราเฉลยเองว่าเป็น ultrasound เห็น echogenic foci ที่ dependent part พร้อม posterior acoustic shadow มั่นใจสูง<br>ในการรักษาต้องระบุว่า LC สำหรับ symptomatic gallstone ส่วน asymptomatic ทั่วไปไม่ต้องผ่าตัด ยกเว้นกลุ่มเสี่ยงบางกลุ่ม การตอบ LC เฉย ๆ อาจไม่ได้คะแนนเต็มถ้าโจทย์ไม่ได้บอกอาการ<br>ควรบอกด้วยว่าภาพนี้ไม่มีลักษณะ acute cholecystitis (ผนังไม่หนา ไม่มี pericholecystic fluid) เพื่อแสดงว่าอ่านภาพครบ · ตรวจคีย์ (22 พ.ย. 2026): เกณฑ์ผนังถุงน้ำดีหนาใช้ ≥4 mm ตาม TG18 (TG13 ≥5 mm) · ความมั่นใจสูง",
  gray:"OSCE9 · [ภาพ] 9.1 ชื่อการตรวจ 9.2 บรรยายสิ่งที่เห็น 9.3 Diagnosis 9.4 Treatment",
- notes:"ตัวแดง: 9.3 'Gallbladder stone' · 9.4 'LC' · 9.1, 9.2 ไม่มีเฉลย · ภาพต้นฉบับมีคำว่า GALLBLADDER พิมพ์อยู่บนภาพ",
+ notes:"ตัวแดง: 9.3 'Gallbladder stone' · 9.4 'LC' · 9.1, 9.2 ไม่มีเฉลย · ภาพต้นฉบับมีคำว่า GALLBLADDER พิมพ์อยู่บนภาพ · ตรวจคีย์ 22 พ.ย. 2026: เดิม exp ‘ผนังหนา >3–4 mm’ → แก้เป็น ‘≥4 mm’ ตาม TG18 (Yokoe 2018 CQ5: GB wall ≥4 mm; TG13 ≥5 mm)",
  parts:S(
   B("9.1 Name this investigation.",1,{tags:["img"],
    ans:"<b>Ultrasonography of the upper abdomen / gallbladder</b> (hepatobiliary ultrasound)",
@@ -249,7 +250,7 @@ Co({page:175,orig:"9",topic:"img",sub:"Ultrasound",title:"Imaging of the right u
    pts:[CR(P("Hyperechoic foci ในถุงน้ำดี","hyperecho","echogenic","สะท้อน","ขาว","bright")),CR(P("Posterior acoustic shadow","shadow","เงา")),P("อยู่ dependent / ผนังไม่หนา","dependent","wall","ผนัง","pericholecystic")]}),
   B("9.3 What is the diagnosis?",2,{tags:["img"],key:"Gallbladder stone",
    ans:"<b>Gallstones (cholelithiasis)</b> — ไม่มีลักษณะ acute cholecystitis ในภาพนี้ (ผนังไม่หนา ไม่มี fluid)",
-   exp:"Acute cholecystitis ใน US: ผนังหนา >3–4 mm, pericholecystic fluid, sonographic Murphy sign, stone impacted ที่ neck",
+   exp:"Acute cholecystitis ใน US: ผนังหนา ≥4 mm (TG18; TG13 ≥5 mm), pericholecystic fluid, sonographic Murphy sign, stone impacted ที่ neck",
    rubric:"ได้ = gallstone/cholelithiasis",
    pts:[CR(P("Gallstones / cholelithiasis","gallstone","gallbladder stone","cholelith","นิ่วถุงน้ำดี","นิ่วในถุงน้ำดี"))]}),
   B("9.4 Outline the treatment.",2,{tags:["img"],key:"LC",

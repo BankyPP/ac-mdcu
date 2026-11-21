@@ -1,405 +1,101 @@
-SUMM.push({
- "tag": "path",
- "title": "Pathology & staging",
- "intro": "<ul><li>สถานีที่ออกบ่อยที่สุดคือ <b>pathology report ของ modified radical mastectomy → ให้ TNM + anatomic stage (AJCC 8th)</b> — ออกแทบทุก rotation และส่วนใหญ่เป็น <b>pT2 pN1a M0 = IIB</b>; ตัวหลอกคือ pN2a (4–9 ต่อม) = IIIA, cT4b (peau d'orange / ulcer) = IIIB</li><li>ข้อย่อยที่ตามมา: clinical vs pathological TNM, prognostic factors + ข้อมูลที่ต้องเพิ่ม (ER / PR / HER2 / Ki-67), investigations, management ของ locally advanced breast cancer, บรรยาย gross specimen</li><li>นอกจากเต้านม: <b>colon cancer pathology report → TNM / stage → adjuvant chemotherapy + surveillance</b></li><li><b>Order writing:</b> เขียน admission orders (acute appendicitis ก่อนผ่าตัด) และ post-op orders (หลัง appendectomy, gangrenous) — คะแนนอยู่ที่ order ครบหมวด ระบุชนิด / dose / rate</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: order ผู้ป่วยกินกรด (78A, 78C)</li></ul>",
- "groups": [
-  {
-   "title": "Breast cancer — TNM staging (AJCC 8th)",
-   "sections": [
-    {
-     "id": "breast-pt2n1",
-     "title": "Pathology report MRM → pT2 pN1a M0 = anatomic stage IIB",
-     "trend": "โจทย์รูปแบบเดิมเปลี่ยนแค่ตัวเลขขนาดก้อน / จำนวนต่อม — เป็น path station ที่ออกซ้ำมากที่สุด",
-     "asked": [
-      "รายงาน MRM: IDC / invasive carcinoma NST ขนาด 2.5–3.5 cm, axillary LN บวก 2–3 ต่อม, ไม่มี distant metastasis → TNM classification",
-      "→ anatomic stage",
-      "บางรายงานมี DCIS with microinvasion, grade, LVI หรือ largest deposit (6–8 mm) มาให้หลอก",
-      "ต่อจาก breast examination บนหุ่น (สถานีมี examiner) → TNM จาก pathology report"
-     ],
-     "flow": [
-      "T: ใช้ขนาดมิติที่ยาวที่สุดของ invasive component",
-      "N: นับจำนวน axillary LN ที่บวก + ขนาด deposit",
-      "M: ไม่มีหลักฐาน = cM0 (ไม่ใช้ MX)",
-      "รวมเป็น TNM → anatomic stage group",
-      "ระบุว่า prognostic stage ต้องมี grade + ER / PR / HER2"
-     ],
-     "pattern": [
-      "<b>T (AJCC 8th):</b> T1 ≤2 cm (T1mi ≤1 mm, T1a &gt;1–5 mm, T1b &gt;5–10 mm, T1c &gt;10–20 mm) · <b>T2 &gt;2–5 cm</b> · T3 &gt;5 cm · T4 = chest wall (4a) / skin ulcer, peau d'orange, satellite nodules (4b) / ทั้งคู่ (4c) / inflammatory (4d)",
-      "<b>pN:</b> <b>pN1a = 1–3 axillary LN</b> (อย่างน้อย 1 ต่อม &gt;2 mm) · pN2a = 4–9 · pN3a = ≥10 หรือ infraclavicular · micrometastasis &gt;0.2–2 mm = pN1mi · ITC ≤0.2 mm = pN0(i+)",
-      "<b>M:</b> cM0 เมื่อไม่มีหลักฐานแพร่กระจาย — AJCC 8th ไม่ใช้ MX",
-      "<b>Anatomic stage:</b> IIA = T0–1 N1 / T2 N0 · <b>IIB = T2 N1 / T3 N0</b> · IIIA = T0–3 N2 / T3 N1 · IIIB = T4 N0–2 · IIIC = N3 · IV = M1",
-      "<b>ตัวอย่างคำตอบ:</b> pT2 pN1a cM0 → anatomic stage IIB (AJCC 8th) · prognostic stage ต้องใช้ grade + ER / PR / HER2 เพิ่ม"
-     ],
-     "kw": [
-      "pT2 (>2–5 cm)",
-      "pN1a (1–3 axillary nodes)",
-      "cM0",
-      "anatomic stage IIB",
-      "AJCC 8th",
-      "prognostic stage needs grade, ER, PR, HER2"
-     ],
-     "pearls": [
-      "DCIS with microinvasion ข้าง ๆ ก้อน invasive ไม่ทำให้เป็น T1mi — ใช้ขนาดก้อน invasive ที่ใหญ่สุด (ตอบ T1mi = ผิด)",
-      "LVI และ grade ไม่เปลี่ยน T หรือ N — อย่าใส่ LVI เป็นส่วนของ T",
-      "ตอบ ‘stage II’ ไม่ระบุ IIB ได้ครึ่งคะแนน · ตอบ pN1 ไม่มี a ได้เกือบเต็ม",
-      "จำนวน LN ที่ตรวจได้น้อย (เช่น 6 ต่อม) ไม่เปลี่ยน N — จัดตามจำนวนที่บวก"
-     ],
-     "members": [
-      "MDCU66|RoC|10#2",
-      "MDCU66|RoD|7#2",
-      "MDCU65|RoA|13#1",
-      "MDCU65|RoB|15#1",
-      "MDCU65|RoC|13#1",
-      "MDCU65|RoC|13#2"
-     ]
-    },
-    {
-     "id": "breast-n2a",
-     "title": "Pathology report MRM → pT2 pN2a M0 = stage IIIA",
-     "trend": "ตัวแปรของโจทย์ MRM ที่เปลี่ยนจำนวนต่อมเป็น 4–9 เพื่อดูว่ารู้ cut-off ของ N",
-     "asked": [
-      "MRM ซ้าย IDC 3.5 cm, ผิวหนังและ pectoralis ไม่มีมะเร็ง, LN บวก 5/18, ไม่มี distant metastasis → TNM → stage"
-     ],
-     "flow": [
-      "T จากขนาด (3.5 cm = T2) และยืนยันว่า skin / pectoralis free (ไม่ใช่ T4)",
-      "N จากจำนวนต่อมบวก (5 = pN2a)",
-      "M0",
-      "Stage"
-     ],
-     "pattern": [
-      "<b>pT2 pN2a M0</b> (1 คะแนนต่อ T, N, M)",
-      "<b>Stage IIIA</b> — T0–3 N2 M0 = IIIA ตาม anatomic stage grouping ของ AJCC 8th (ไม่ต่างจากฉบับก่อนในส่วนนี้)"
-     ],
-     "kw": [
-      "pT2",
-      "pN2a (4–9 nodes)",
-      "M0",
-      "stage IIIA"
-     ],
-     "pearls": [
-      "นับต่อม: 1–3 = N1 · 4–9 = N2 · ≥10 = N3 — สลับ cut-off แล้ว stage ผิดทั้งข้อ",
-      "ตาราง staging ใน screenshot ของไฟล์เป็น AJCC ฉบับเก่า ให้ใช้ AJCC 8th (anatomic group ส่วนนี้เหมือนกัน)"
-     ],
-     "members": [
-      "MDCU66|RoB|9#1",
-      "MDCU66|RoB|9#2"
-     ]
-    },
-    {
-     "id": "breast-clinical-stage",
-     "title": "Clinical TNM (cTNM) จากการตรวจร่างกาย — cT2 N1 = IIB และ cT4b N1 = IIIB",
-     "trend": "ให้แยก clinical จาก pathological staging และให้ stage จากภาพ / การตรวจ",
-     "asked": [
-      "หญิง 52 ปี ก้อน 3.5 cm + axillary LN เดียว mobile → clinical TNM + stage → แล้วให้ pathological TNM จากรายงาน",
-      "ภาพเต้านม (peau d'orange, ulcer, nipple retraction) + axillary LN แข็ง 2 ต่อม movable, supraclavicular ไม่คลำได้ → describe → clinical stage"
-     ],
-     "flow": [
-      "Clinical staging ใช้ข้อมูลก่อนการรักษา (PE + imaging ± biopsy)",
-      "cT จากขนาดก้อน + skin / chest wall",
-      "cN จากลักษณะต่อม: movable ipsilateral level I–II = cN1 · fixed / matted = cN2a · supraclavicular = cN3c",
-      "M จาก systemic staging",
-      "Stage"
-     ],
-     "pattern": [
-      "<b>cT2 cN1 M0 → IIB</b> (ก้อน 3.5 cm ไม่มีผิวหนัง / ผนังอก, LN mobile)",
-      "<b>cT4b cN1 M0 → IIIB</b>: T4b = skin ulceration / edema (peau d'orange) / satellite nodules ที่ไม่ถึง inflammatory · N1 = ipsilateral axillary LN movable · M0 ต้องยืนยันด้วย systemic staging",
-      "cN: N1 movable · N2a fixed / matted · N3c supraclavicular · Clinical vs pathological อาจได้ stage เท่ากันได้ (เช่น cT2N1 และ pT2pN1a = IIB ทั้งคู่)"
-     ],
-     "kw": [
-      "clinical staging = pre-treatment",
-      "cT2 cN1 M0 = IIB",
-      "T4b = ulceration / peau d'orange / satellite nodules",
-      "cN1 movable, cN2a fixed / matted",
-      "stage IIIB"
-     ],
-     "pearls": [
-      "peau d'orange / ulcer = T4b ไม่ใช่ T4d — T4d (inflammatory) ต้องแดงร้อนทั่วเต้า ≥1/3 เกิดเร็ว",
-      "ตอบ T4 ไม่ระบุ b ได้คะแนนส่วนใหญ่ แต่ไม่เต็ม"
-     ],
-     "members": [
-      "MDCU66|RoC|10#1",
-      "MDCU67|RoB|11#2"
-     ]
-    },
-    {
-     "id": "breast-locally-advanced",
-     "title": "Locally advanced breast cancer — บรรยายภาพและวางแผนรักษา",
-     "trend": "ภาพเต้านมระยะลุกลาม: บรรยาย → stage → management แบบ neoadjuvant",
-     "asked": [
-      "ภาพเต้านม → describe the abnormalities",
-      "→ clinical stage (cT4b N1 M0)",
-      "→ outline the management"
-     ],
-     "flow": [
-      "Describe: ข้าง, nipple retraction, peau d'orange, skin ulceration (ตำแหน่ง quadrant), ผิวแดงคล้ำ, ขนาด / รูปร่างเต้าต่างจากข้างตรงข้าม",
-      "Stage",
-      "Confirm Dx + receptor → systemic staging → neoadjuvant → surgery → radiotherapy → adjuvant"
-     ],
-     "pattern": [
-      "<b>Describe:</b> right breast — nipple retraction · peau d'orange (dermal lymphatic obstruction) · skin ulceration ที่ lower outer quadrant · ผิวคล้ำ / แดง เต้าใหญ่ / ผิดรูป",
-      "<b>Confirm + staging:</b> core needle biopsy (histology, ER / PR / HER2, Ki-67) ± biopsy LN · stage III → systemic staging: CT chest / abdomen หรือ PET-CT, bone scan, LFT",
-      "<b>Neoadjuvant systemic therapy</b> ก่อน: anthracycline / taxane ± anti-HER2 (trastuzumab ± pertuzumab) ถ้า HER2+ (NCCN Breast)",
-      "<b>Surgery:</b> modified radical mastectomy (total mastectomy + axillary dissection level I–II) — ไม่ทำ BCS ใน T4 · <b>Post-mastectomy radiotherapy</b> (chest wall + regional nodes)",
-      "<b>Adjuvant:</b> endocrine (tamoxifen / aromatase inhibitor) ถ้า HR+, anti-HER2 ให้ครบ 1 ปี, capecitabine (TNBC) / T-DM1 (HER2+) ถ้ามี residual disease"
-     ],
-     "kw": [
-      "nipple retraction, peau d'orange, skin ulceration",
-      "core needle biopsy + ER / PR / HER2",
-      "systemic staging",
-      "neoadjuvant chemotherapy ± anti-HER2",
-      "MRM + PMRT",
-      "adjuvant endocrine therapy"
-     ],
-     "pearls": [
-      "ไฟล์เดิมตอบ MRM อย่างเดียว — ธนาคารแก้เป็น neoadjuvant systemic therapy ก่อนผ่าตัด (T4 / IIIB = locally advanced) · ตอบ MRM อย่างเดียวได้บางส่วน",
-      "อย่าเสนอ breast-conserving surgery ใน T4"
-     ],
-     "members": [
-      "MDCU67|RoB|11#1",
-      "MDCU67|RoB|11#3"
-     ]
-    },
-    {
-     "id": "breast-prognostic",
-     "title": "Prognostic factors และ investigations เพิ่มเติมหลังได้ pathology report",
-     "trend": "ข้อย่อยต่อจาก TNM: อะไรในรายงานสำคัญ และต้องส่งอะไรเพิ่ม",
-     "asked": [
-      "Which features in the report are important for prognosis and further treatment, and what additional information is needed?",
-      "หลังให้ TNM จาก pathology report → What further investigations are needed?"
-     ],
-     "flow": [
-      "ปัจจัยพยากรณ์ในรายงาน",
-      "ข้อมูลที่ขาด (receptor)",
-      "Staging workup",
-      "ผลต่อการรักษา"
-     ],
-     "pattern": [
-      "<b>Prognostic factors:</b> จำนวน axillary LN ที่บวก (สำคัญที่สุด), ขนาดก้อน, histologic grade (Nottingham: tubule formation + nuclear pleomorphism + mitotic count), lymphovascular invasion, margin status",
-      "<b>ข้อมูลที่ต้องเพิ่ม:</b> <b>ER, PR, HER2 (IHC ± ISH), Ki-67</b> → prognostic stage (AJCC 8th) + เลือก endocrine / anti-HER2 / chemotherapy ± genomic assay (เช่น Oncotype DX ใน HR+ / HER2− N1 วัยหมดประจำเดือน)",
-      "<b>Staging workup (node positive):</b> CT chest / abdomen (หรือ CXR + US ตับ), bone scan (PET-CT ใน stage III), CBC, LFT (ALP), Ca · mammogram ข้างตรงข้าม · germline BRCA ถ้ามีข้อบ่งชี้ (อายุน้อย, ประวัติครอบครัว, triple-negative)",
-      "N+ หลัง mastectomy → พิจารณา post-mastectomy radiotherapy"
-     ],
-     "kw": [
-      "number of positive nodes",
-      "tumor size, grade, LVI, margin",
-      "ER / PR / HER2, Ki-67",
-      "systemic staging: CT, bone scan",
-      "prognostic stage"
-     ],
-     "pearls": [
-      "ตอบแค่ CXR เป็น investigation ได้บางส่วน — ต้องมี receptor status + systemic staging",
-      "NCCN: stage I–IIB ที่ไม่มีอาการไม่จำเป็นต้อง systemic imaging เป็น routine แต่หลายสถาบันทำเมื่อ node positive — ในข้อสอบให้ตอบไว้"
-     ],
-     "members": [
-      "MDCU65|RoB|15#2",
-      "MDCU66|RoD|7#3"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Order writing (admission / post-op orders)",
-   "sections": [
-    {
-     "id": "order-admission-appendicitis",
-     "title": "Admission orders — acute appendicitis ก่อนผ่าตัด",
-     "trend": "เคส RLQ pain คลาสสิก → ให้ Dx แล้วเขียน admission orders เต็มหน้า",
-     "asked": [
-      "ชาย 22 ปี periumbilical pain ย้ายไป RLQ 12 ชม., anorexia, T 37.8, guarding / rebound, Rovsing +, WBC 14,000 (N 85%) → most likely diagnosis → write the admission orders"
-     ],
-     "flow": [
-      "Dx: acute appendicitis (Alvarado สูง)",
-      "Order for one day: admit, NPO, IV fluid, lab, ATB pre-op, analgesic, antiemetic, consent, set OR",
-      "Continuous: V/S, I/O, observe abdominal signs"
-     ],
-     "pattern": [
-      "<b>Dx:</b> acute appendicitis — migration, anorexia, nausea, RLQ tenderness, rebound, fever, leukocytosis + left shift (Alvarado ≥7 = likely)",
-      "<b>Order for one day:</b> admit ศัลยกรรม · NPO · IV balanced crystalloid ระบุชนิด + rate (เช่น LRS 1,000 mL IV 100 mL/hr) · lab: CBC, BUN / Cr, electrolyte, UA (± urine pregnancy test ในหญิงวัยเจริญพันธุ์), coagulation ตามข้อบ่งชี้",
-      "<b>ATB ก่อนลงมีด:</b> ceftriaxone 2 g IV + metronidazole 500 mg IV (หรือ cefoxitin) · <b>analgesic:</b> morphine 3 mg IV prn (ไม่บดบังการวินิจฉัย) · antiemetic prn",
-      "<b>Consent</b> appendectomy · <b>set OR</b> laparoscopic / open appendectomy · ให้ปัสสาวะก่อนเข้าห้องผ่าตัด",
-      "<b>Continuous:</b> V/S q4h (q1–2h ถ้าไม่คงที่), record I/O, observe abdominal signs"
-     ],
-     "kw": [
-      "acute appendicitis",
-      "NPO",
-      "IV fluid type + rate",
-      "CBC, BUN / Cr, electrolyte, UA, UPT",
-      "pre-op ceftriaxone + metronidazole",
-      "morphine IV prn",
-      "consent, set OR for appendectomy",
-      "V/S, I/O"
-     ],
-     "pearls": [
-      "IV fluid ไม่ระบุชนิด / rate หรือขาด ATB ก่อนผ่าตัด = หักคะแนน",
-      "การให้ยาแก้ปวดก่อนผ่าตัดไม่ทำให้วินิจฉัยพลาด — อย่างดยาแก้ปวด",
-      "ข้อย่อย Dx ของสถานีนี้ธนาคารเติมเอง (ไม่มีในไฟล์ต้นฉบับ)"
-     ],
-     "members": [
-      "MDCU66|RoB|7#1",
-      "MDCU66|RoB|7#2"
-     ]
-    },
-    {
-     "id": "order-postop-appendectomy",
-     "title": "Post-operative orders — หลัง appendectomy (acute gangrenous appendicitis)",
-     "trend": "เคสเดียวกันต่อหลังผ่าตัด: ชื่อ operation → post-op orders + เหตุผลเรื่อง ATB",
-     "asked": [
-      "ชาย 21 ปี RLQ pain 18 ชม., guarding / rebound ที่ McBurney's point, WBC 15,000 → ผ่าตัด → name of the operation",
-      "pathology = acute gangrenous appendicitis → write the postoperative orders"
-     ],
-     "flow": [
-      "Operation: appendectomy (laparoscopic / open)",
-      "Order for one day: post-op care, V/S schedule, I/O, diet, IV fluid, analgesic, antiemetic, ATB + เหตุผล, lab",
-      "Continuous: ambulation, incentive spirometry, observe wound / infection"
-     ],
-     "pattern": [
-      "<b>Operation:</b> appendectomy — laparoscopic เป็นมาตรฐานถ้าทำได้ (wound infection น้อยกว่า ฟื้นตัวเร็ว)",
-      "<b>Order for one day:</b> post-op care · V/S q15 min ×4, q30 min ×2, q1h จน stable แล้ว q4h · record I/O · NPO จนรู้สึกตัวดี → sips / liquid แล้ว advance (early feeding) · IV maintenance ระบุชนิด + rate (เช่น 5%D/N/2 1,000 mL IV 100 mL/hr) จนกินได้",
-      "<b>Analgesic:</b> morphine 3 mg IV prn q4h + paracetamol 500 mg 1–2 tab oral q6h prn · antiemetic prn",
-      "<b>ATB:</b> gangrenous จัดเป็น complicated ในหลายแนวทาง → ceftriaxone 2 g IV OD + metronidazole 500 mg IV q8h ต่อระยะสั้น (WSES 2020: complicated ให้ 3–5 วัน · uncomplicated ไม่ต้องให้ต่อ) — ตอบ ≤24 ชม. สำหรับ gangrenous ที่ไม่ทะลุได้ถ้าให้เหตุผล",
-      "<b>Continuous:</b> early ambulation, incentive spirometry / deep breathing, observe wound และอาการติดเชื้อ (ไข้, ปวดเพิ่ม)"
-     ],
-     "kw": [
-      "appendectomy",
-      "V/S q15 min → q4h",
-      "record I/O",
-      "diet plan / early feeding",
-      "IV fluid type + rate",
-      "morphine + paracetamol prn",
-      "ceftriaxone + metronidazole with reason",
-      "early ambulation, incentive spirometry"
-     ],
-     "pearls": [
-      "ไม่สั่ง ATB เลย = หักคะแนน — ต้องระบุเหตุผลว่าทำไมให้ / ให้กี่วัน",
-      "ระวังสั่ง NPO ยาวโดยไม่มีแผน advance diet"
-     ],
-     "members": [
-      "MDCU66|RoA|10#1",
-      "MDCU66|RoA|10#2"
-     ]
-    },
-    {
-     "id": "order-corrosive",
-     "title": "Order: กินน้ำยาล้างห้องน้ำ (HCl) — NPO, IV, monitor, AAS, EGD 12–24 ชม.",
-     "trend": "ออก 78A และ 78C (78C มีเฉลยในไฟล์)",
-     "asked": [
-      "กินเป็ดโปร 2 ชม. → order (78A)",
-      "กิน Vixol 30 นาที + รูปปาก → ER order (78C)"
-     ],
-     "pattern": [
-      "NPO · ห้าม induce vomiting/neutralize/blind NG · IV RL · continuous V/S · Foley · acute abdomen series · EGD 12–24 ชม. · stridor → notify/intubate"
-     ],
-     "flow": [
-      "Airway → NPO/ข้อห้าม → IV fluid → monitor → AAS + lab → EGD 12–24 ชม. → surgery ถ้า perforation"
-     ],
-     "kw": [
-      "NPO",
-      "no induced vomiting",
-      "Ringer lactate",
-      "acute abdomen series",
-      "EGD 12-24 hr",
-      "stridor"
-     ],
-     "members": [
-      "MDCU78|RoA|16#1",
-      "MDCU78|RoC|4#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Colorectal cancer",
-   "sections": [
-    {
-     "id": "colon-stage-adjuvant",
-     "title": "Colon cancer pathology report → pT3 N1b M0 = IIIB → adjuvant chemotherapy + surveillance",
-     "trend": "pathology report ลำไส้ใหญ่: stage แล้วต่อด้วยการรักษาเสริม",
-     "asked": [
-      "Sigmoid colectomy: adenocarcinoma ผ่าน muscularis propria เข้า pericolorectal tissue ไม่ถึง visceral peritoneum, LN บวก 2/14, CT ไม่มี metastasis → TNM stage",
-      "→ outline further treatment and follow-up"
-     ],
-     "flow": [
-      "T จากความลึก",
-      "N จากจำนวนต่อม (และตรวจได้ ≥12 ต่อม)",
-      "M → stage",
-      "Adjuvant chemotherapy (ชนิด + ระยะเวลา)",
-      "Surveillance: CEA, CT, colonoscopy"
-     ],
-     "pattern": [
-      "<b>T (AJCC 8th):</b> T1 submucosa · T2 muscularis propria · <b>T3 ผ่าน muscularis propria</b> · T4a ทะลุ visceral peritoneum · T4b ลุกลามอวัยวะข้างเคียง",
-      "<b>N:</b> N1a 1 · <b>N1b 2–3</b> · N1c tumor deposit · N2a 4–6 · N2b ≥7 · ต้องตรวจ LN ≥12 ต่อม",
-      "<b>Stage:</b> I = T1–2 N0 · II = T3–4 N0 · III = N+ (IIIA T1–2 N1 / T1 N2a · <b>IIIB T3–4a N1</b> / T2–3 N2a / T1–2 N2b · IIIC ที่เหลือ) · IV = M1 → <b>pT3 pN1b M0 = IIIB</b>",
-      "<b>Adjuvant (stage III):</b> oxaliplatin-based — <b>CAPOX 3 เดือน</b> สำหรับ low-risk (T1–3 N1) หรือ FOLFOX 6 เดือน (IDEA) · ผู้สูงอายุ / ไม่เหมาะ oxaliplatin → capecitabine หรือ 5-FU / LV · เริ่มภายใน 6–8 สัปดาห์",
-      "<b>Surveillance:</b> H&amp;P + CEA ทุก 3–6 เดือน ×2 ปี แล้วทุก 6 เดือนจนครบ 5 ปี · CT chest / abdomen / pelvis ทุก 6–12 เดือน ×5 ปี · colonoscopy ที่ 1 ปี (ถ้าก่อนผ่าตัดส่องไม่ครบ ทำภายใน 3–6 เดือน) แล้วตามผล"
-     ],
-     "kw": [
-      "pT3",
-      "pN1b (2–3 nodes)",
-      "M0",
-      "stage IIIB (AJCC 8th)",
-      "adjuvant CAPOX / FOLFOX",
-      "CEA, CT, colonoscopy at 1 year"
-     ],
-     "pearls": [
-      "ตอบ stage III ไม่ระบุ IIIB = ได้บางส่วน",
-      "colon cancer ไม่ใช้ radiotherapy เป็น routine (ต่างจาก rectal)",
-      "stage II ให้ chemo เฉพาะ high-risk (T4, LN &lt;12, poorly differentiated, LVI / PNI, obstruction / perforation) และ MSS",
-      "ขาด follow-up plan = ได้บางส่วน"
-     ],
-     "members": [
-      "MDCU66|RoD|8#1",
-      "MDCU66|RoD|8#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Gross specimen",
-   "sections": [
-    {
-     "id": "gross-breast-mass",
-     "title": "บรรยาย gross specimen ก้อนเต้านม (invasive carcinoma vs fibroadenoma)",
-     "trend": "สถานีชิ้นเนื้อจริงบนโต๊ะ — คะแนนอยู่ที่บรรยายเป็นระบบและปิดด้วย impression",
-     "asked": [
-      "Resected breast specimen + ลูกศรชี้ก้อน → palpate and describe the characteristics of the indicated mass"
-     ],
-     "flow": [
-      "ชนิด specimen + ข้าง + orientation",
-      "ตำแหน่ง (quadrant, ระยะจาก nipple)",
-      "ขนาด 3 มิติ",
-      "รูปร่าง + ขอบ",
-      "Consistency",
-      "ผิวหน้าตัด",
-      "ความสัมพันธ์กับผิวหนัง / nipple / deep margin",
-      "Impression"
-     ],
-     "pattern": [
-      "<b>ลำดับ:</b> specimen (mastectomy / wide excision) → ตำแหน่ง → ขนาด (cm 3 มิติ) → รูปร่าง → ขอบ (well-circumscribed vs ill-defined, stellate / spiculated) → consistency (แข็งมาก gritty vs rubbery) → cut surface (สี, necrosis, hemorrhage, calcification, cyst) → ความสัมพันธ์กับผิว / nipple / margin → impression",
-      "<b>Invasive carcinoma:</b> ขอบไม่เรียบ stellate / spiculated แข็งมาก cut surface ขาวเทา gritty มีจุดเหลือง (elastosis) ดึงรั้งเนื้อรอบข้าง (desmoplastic reaction)",
-      "<b>Fibroadenoma:</b> กลม ขอบเรียบชัด มีปลอก rubbery cut surface ขาว lobulated นูน มีร่องแบบ slit-like"
-     ],
-     "kw": [
-      "location, size (3 dimensions)",
-      "margin: stellate / spiculated vs well-circumscribed",
-      "consistency: hard, gritty",
-      "cut surface",
-      "relation to skin / nipple / margin",
-      "impression: invasive carcinoma"
-     ],
-     "ddx": [
-      "Invasive ductal carcinoma (NST)",
-      "Fibroadenoma",
-      "Phyllodes tumor"
-     ],
-     "pearls": [
-      "บรรยายครบแต่ไม่ให้ impression = ไม่เต็ม",
-      "ลืมผิวหน้าตัดและระยะถึง margin — สองส่วนที่ต่างจากการบรรยายก้อนจากการตรวจร่างกาย"
-     ],
-     "members": [
-      "MDCU65|RoC|12#1"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"path", title:"Pathology & staging",
+  intro:"<ul><li>สถานี Pathology & staging ส่วนใหญ่ให้ <b>ใบรายงานพยาธิ (pathology report) ของมะเร็งเต้านม → ให้ TNM + anatomic stage ตาม AJCC 8th</b> — ออกแทบทุก rotation ของ MDCU65–66 และกลับมาอีกใน MDCU67–68; ตัวเลขที่ออกบ่อยที่สุดคือ <b>pT2 pN1a cM0 = stage IIB</b> โดยใส่ตัวหลอกในรายงาน (DCIS with microinvasion, LVI, grade, จำนวนต่อมที่ตรวจได้น้อย, หลายก้อน)</li><li>ตัวแปรที่ใช้แยกคนที่จำ cut-off ได้: <b>LN บวก 4–9 ต่อม = pN2a → IIIA</b>, <b>peau d'orange / ulcer = cT4b → IIIB</b>, clinical (cTNM จากการตรวจ) vs pathological (pTNM จากชิ้นเนื้อ) ในสถานีเดียวกัน; MDCU68 ให้ <b>รายงานจริงยาว 2 หน้า</b> (wide excision + SLNB, มี 2 ก้อน) ต้องหา synoptic เองแล้วใส่ suffix (m) / (sn)</li><li>ข้อย่อยที่ตามมา: <b>prognostic factors + ข้อมูลที่ต้องเพิ่ม (ER / PR / HER2 / Ki-67)</b>, investigation เพื่อ systemic staging, <b>management ของ locally advanced breast cancer</b> (neoadjuvant ก่อนผ่าตัด — คีย์เก่าตอบ MRM อย่างเดียว) และ <b>บรรยาย gross specimen</b> ก้อนเต้านม</li><li><b>Colorectal cancer</b> (MDCU66, 75): pathology report ลำไส้ → <b>pTNM / stage</b> (colon pT3 N1b = IIIB, rectum T3 N0 = IIA) → <b>investigation หา M</b> (CT chest / abdomen / pelvis + CEA — คีย์เก่าตอบ CT brain) หรือ <b>adjuvant chemotherapy + surveillance</b></li><li><b>Order writing</b> อยู่ใน tag นี้ด้วย: <b>acute appendicitis</b> (MDCU66 — admission orders ก่อนผ่าตัด และ post-op orders หลัง gangrenous appendicitis) และ <b>กินน้ำยาล้างห้องน้ำ (HCl)</b> (MDCU78 — ER orders); MDCU74 มีสถานีข้อบ่งชี้การตัด lipoma ติด tag นี้</li></ul>",
+  groups:[
+    {title:"Breast cancer — pathology report, staging (AJCC 8th) และ gross specimen", sections:[
+      {id:"breast-ptnm", title:"Pathology report ของ mastectomy → pTNM + anatomic stage (pT2 pN1a = IIB, pT2 pN2a = IIIA)",
+       trend:"สถานี path ที่ออกซ้ำมากที่สุด — รูปแบบเดิมเปลี่ยนแค่ขนาดก้อน จำนวนต่อม และตัวหลอกในรายงาน",
+       asked:["รายงาน MRM: IDC / invasive carcinoma NST ขนาด 2.5–3.5 cm, axillary LN บวก 2–3 ต่อม (deposit 6–8 mm), ไม่มี distant metastasis → TNM classification → anatomic stage","รายงานใส่ตัวหลอก: DCIS with foci of microinvasion ข้างก้อน 3.2 cm, LVI present, grade 2, LN ที่ตรวจได้เพียง 6 ต่อม","ก้อน 3.5 cm ผิวหนังและ pectoralis ไม่มีมะเร็ง LN บวก 5 / 18 → TNM → stage (IIIA)","ต่อจากการตรวจเต้านมบนหุ่น (มี examiner) → ให้ TNM จาก pathology report","สถานีเดียวกันให้ clinical TNM ก่อนแล้วตามด้วย pathological TNM จากรายงาน (ER+ PR+ HER2−)"],
+       flow:["หา invasive tumor size (มิติยาวที่สุดของส่วน invasive) → pT","เช็ก skin / nipple / chest wall / pectoralis ว่ามีมะเร็งไหม (T4?)","นับ LN ที่บวก / ทั้งหมด + ขนาด deposit ใหญ่สุด → pN","M: ไม่มีหลักฐาน = cM0","รวม pT pN M → anatomic stage group","บอกว่า prognostic stage ต้องใช้ grade + ER / PR / HER2 เพิ่ม"],
+       pattern:["<b>T (AJCC 8th)</b>: T1 ≤2 cm (T1mi ≤1 mm, T1a &gt;1–5 mm, T1b &gt;5–10 mm, T1c &gt;10–20 mm) · <b>T2 &gt;2–5 cm</b> · T3 &gt;5 cm · T4 = chest wall (T4a), skin ulcer / peau d'orange / satellite nodules (T4b), ทั้งคู่ (T4c), inflammatory (T4d) — pectoralis muscle อย่างเดียวไม่ถือเป็น chest wall","<b>pN</b>: pN0(i+) = ITC ≤0.2 mm · pN1mi = micrometastasis &gt;0.2–2 mm · <b>pN1a = 1–3 axillary LN</b> (อย่างน้อย 1 ต่อม &gt;2 mm) · <b>pN2a = 4–9</b> · pN3a = ≥10 หรือ infraclavicular (level III)","<b>M</b>: cM0 เมื่อไม่มีหลักฐานจากการตรวจ / imaging — AJCC 8th ไม่ใช้ MX (pM0 ไม่มี)","<b>Anatomic stage</b>: IIA = T0–1 N1 / T2 N0 · <b>IIB = T2 N1 / T3 N0</b> · <b>IIIA = T0–3 N2 / T3 N1</b> · IIIB = T4 N0–2 · IIIC = N3 ใด ๆ · IV = M1","<b>คำตอบมาตรฐาน</b>: ก้อน 2.5–3.5 cm + LN 1–3 ต่อม → <b>pT2 pN1a cM0 = anatomic stage IIB</b> · LN 4–9 ต่อม → <b>pT2 pN2a cM0 = IIIA</b> · ต่อท้ายว่า prognostic stage (AJCC 8th) ต้องรวม grade + ER + PR + HER2"],
+       kw:["pT2 (> 2–5 cm, invasive component)","pN1a (1–3 axillary nodes)","pN2a (4–9 nodes)","cM0 (no MX)","anatomic stage IIB / IIIA","AJCC 8th","prognostic stage needs grade, ER, PR, HER2"],
+       pearls:["DCIS with microinvasion ข้างก้อน invasive ไม่ทำให้เป็น T1mi — T1mi ใช้เมื่อมีแค่ microinvasion; มีก้อน invasive ใหญ่ใช้ขนาดก้อนใหญ่สุด","LVI และ grade ไม่เปลี่ยน T หรือ N (เป็นปัจจัยพยากรณ์)","จำนวน LN ที่ตรวจได้น้อย (6 ต่อม) ไม่เปลี่ยน N — จัดตามจำนวนที่บวก","สลับ cut-off ของ N (1–3 / 4–9 / ≥10) แล้ว stage ผิดทั้งข้อ","ตอบ 'stage II' ไม่ระบุ IIB ได้ไม่เต็ม; ตอบ MX = ใช้ระบบเก่า","ตาราง staging ใน screenshot ของไฟล์ต้นฉบับเป็น AJCC ฉบับเก่า — anatomic grouping ส่วนนี้เหมือน AJCC 8th"],
+       members:["MDCU66|RoC|10#2","MDCU66|RoD|7#2","MDCU65|RoA|13#1","MDCU65|RoB|15#1","MDCU65|RoC|13#1","MDCU65|RoC|13#2","MDCU66|RoB|9#1","MDCU66|RoB|9#2"]},
+      {id:"breast-real-report", title:"รายงานพยาธิฉบับจริงยาว 2 หน้า (wide excision + SLNB / หลายก้อน) → อ่าน synoptic แล้วให้ TNM",
+       trend:"ใช้ใบรายงานจริงของผู้ป่วย (ไม่ได้ลงรูปในคลัง) — วัดว่าหา final diagnosis / synoptic และใช้ suffix ได้",
+       asked:["ใบรายงาน wide excision + sentinel lymph node biopsy ภาษาอังกฤษ 2 หน้า → give the TNM stage","ใบรายงานเต้านมยาว ~2 หน้า: มี 2 ก้อน, LN บวก 1 / 13 → give the TNM staging"],
+       flow:["หา final diagnosis / synoptic report","ชนิด (IDC / NST) + grade","ขนาด invasive ของก้อนที่ใหญ่สุด → pT (+ (m) ถ้าหลายก้อน)","Margin, LVI","LN บวก / ทั้งหมด + ขนาด deposit → pN (+ (sn) ถ้าจัด N จาก SLNB และตรวจ LN รวม &lt;6 ต่อม)","M = cM0 ถ้าไม่มีข้อมูล","ER / PR / HER2, Ki-67 ถ้ามี → prognostic stage"],
+       pattern:["<b>หลายก้อนข้างเดียวกัน</b>: ใช้ขนาดก้อน invasive ที่ใหญ่ที่สุดเป็น T (ไม่รวมขนาด) และ<b>ต้องใส่ suffix (m)</b> เช่น pT2(m)","<b>SLNB</b>: จัด N ตามจำนวนต่อมที่บวกและขนาด deposit (micrometastasis &gt;0.2–2 mm = pN1mi, ITC = pN0(i+)) · suffix <b>(sn)</b> (AJCC 8th): ใช้เมื่อจัด N จาก sentinel node biopsy และ<b>จำนวน LN ที่ตัดออก (sentinel + non-sentinel) &lt;6 ต่อม</b> เช่น pN1a(sn) — ถ้าได้ LN ≥6 ต่อม<b>ไม่ใส่ (sn)</b>","LN 1 / 13 (deposit &gt;2 mm) → <b>pN1a</b> (ได้ 13 ต่อม จึงไม่ใส่ (sn)) · M ไม่มีข้อมูล → <b>cM0</b> (AJCC 8th ไม่ใช้ MX) → เช่น <b>pT2(m) pN1a cM0 = IIB</b>"],
+       kw:["synoptic / final diagnosis","largest invasive tumor → T","(m) suffix for multiple tumors","(sn) = SLNB with &lt; 6 nodes removed","pN1mi / pN0(i+)","cM0","ER / PR / HER2"],
+       pearls:["รวมขนาดสองก้อนเข้าด้วยกันเป็น T = ผิด","M ไม่มีข้อมูลให้ตอบ cM0 — ห้ามตอบ MX (AJCC 8th ไม่ใช้ MX)","ใส่ (sn) ทั้งที่ได้ LN ≥6 ต่อม = ใช้ suffix ผิด","รายงานจริงยาวมาก — อ่าน synoptic ก่อน ไม่ต้องอ่าน gross description ทั้งหมด"],
+       members:["MDCU68|RoB|7#1","MDCU68|RoC|8#1"]},
+      {id:"breast-clinical-stage", title:"Clinical TNM (cTNM) จากการตรวจ — cT2 cN1 = IIB และ cT4b cN1 = IIIB",
+       trend:"ให้ stage จากการตรวจร่างกาย / ภาพเต้านม และแยกจาก pathological staging",
+       asked:["หญิง 52 ปี ก้อน 3.5 cm + axillary LN เดียว mobile → clinical TNM + stage (ก่อนถาม pathological TNM)","ภาพเต้านม (peau d'orange, ulcer, nipple retraction) + axillary LN แข็ง 2 ต่อม movable, supraclavicular คลำไม่ได้ → state the clinical stage"],
+       flow:["Clinical staging = ข้อมูลก่อนการรักษา (PE + imaging ± biopsy)","cT จากขนาด + skin / chest wall","cN จากลักษณะต่อม","M จาก systemic staging","Stage"],
+       pattern:["<b>cN</b>: cN1 = ipsilateral axillary level I–II <b>movable</b> · cN2a = fixed / matted · cN3a = infraclavicular · cN3b = internal mammary + axillary · <b>cN3c = supraclavicular</b>","ก้อน 3.5 cm ไม่ติดผิว / ผนังอก + LN mobile → <b>cT2 cN1 M0 = IIB</b> (pathological ภายหลังอาจได้ stage เท่ากัน)","Peau d'orange / skin ulceration / satellite nodules (ไม่ถึง inflammatory) = <b>T4b</b> + LN movable = N1 → <b>cT4b cN1 M0 = IIIB</b> (T4 N0–2 = IIIB) · M0 ต้องยืนยันด้วย systemic staging"],
+       kw:["clinical staging = pre-treatment","cT2 cN1 M0 = IIB","T4b = ulceration / peau d'orange / satellite nodules","cN1 movable, cN2a fixed / matted, cN3c supraclavicular","cT4b N1 M0 = IIIB"],
+       pearls:["Nipple retraction อย่างเดียวไม่ทำให้เป็น T4 — ที่ทำให้เป็น T4b คือ peau d'orange / ulcer","Peau d'orange เฉพาะที่ = T4b ไม่ใช่ T4d — T4d (inflammatory) ต้องแดงร้อนบวมทั่วเต้า ≥1 / 3 เกิดเร็ว","ตอบ T4 ไม่ระบุ b ได้ไม่เต็ม (คีย์ไฟล์เองก็เขียนไว้แบบไม่แน่ใจว่า 'T4b?')"],
+       members:["MDCU66|RoC|10#1","MDCU67|RoB|11#2"]},
+      {id:"breast-prognostic", title:"หลังได้ pathology report: prognostic factors และ investigation เพิ่ม (receptor + systemic staging)",
+       trend:"ข้อย่อยต่อจาก TNM — อะไรในรายงานสำคัญ และต้องส่งอะไรเพิ่ม",
+       asked:["Which features in the report are important for prognosis and further treatment, and what additional information is needed?","หลังให้ TNM จาก pathology report (ต่อจากตรวจเต้านมบนหุ่น) → what further investigations are needed?"],
+       flow:["ปัจจัยพยากรณ์ที่อยู่ในรายงาน","ข้อมูลที่ขาด: receptor status","Systemic staging","ผลต่อการรักษา"],
+       pattern:["<b>Prognostic factors ในรายงาน</b>: <b>จำนวน axillary LN ที่บวก (สำคัญที่สุด)</b>, ขนาดก้อน, histologic grade (Nottingham: tubule formation + nuclear pleomorphism + mitotic count), lymphovascular invasion, margin status","<b>ข้อมูลที่ต้องเพิ่ม</b>: <b>ER, PR, HER2 (IHC ± ISH), Ki-67</b> → prognostic stage (AJCC 8th) + เลือก endocrine / anti-HER2 / chemotherapy ± genomic assay (เช่น 21-gene recurrence score ใน HR+ / HER2−)","<b>Systemic staging</b> (NCCN: clinical stage III ขึ้นไป หรือมีอาการ / lab ผิดปกติ — หลายสถาบันทำใน node positive ด้วย): CT chest / abdomen (± pelvis) หรือ CXR + US ตับ, bone scan (PET-CT ใน stage III) · CBC, LFT (ALP), Ca · mammogram ข้างตรงข้าม · germline BRCA testing เมื่อมีข้อบ่งชี้ (อายุน้อย, ประวัติครอบครัว, triple-negative)","N+ หลัง mastectomy → พิจารณา post-mastectomy radiotherapy"],
+       kw:["number of positive nodes","tumor size, grade, LVI, margin","ER / PR / HER2, Ki-67","prognostic stage","CT chest / abdomen, bone scan","contralateral mammogram","BRCA if indicated"],
+       pearls:["ตอบแค่ CXR เป็น investigation ได้บางส่วน — ต้องมี receptor status + systemic staging","NCCN: stage I–IIB ที่ไม่มีอาการไม่ต้องทำ systemic imaging เป็น routine แต่ในข้อสอบ node positive ให้ตอบไว้พร้อมเหตุผล","ข้อย่อย prognostic เป็นส่วนที่คลังเติม (ไม่มีในไฟล์ต้นฉบับ)"],
+       members:["MDCU65|RoB|15#2","MDCU66|RoD|7#3"]},
+      {id:"breast-labc", title:"Locally advanced breast cancer (cT4b) — บรรยายภาพและวางแผนรักษา (neoadjuvant ก่อนผ่าตัด)",
+       trend:"ภาพเต้านมระยะลุกลาม: บรรยาย → stage → management — คีย์เก่าตอบผ่าตัดอย่างเดียว",
+       asked:["ภาพเต้านมผู้ป่วย → describe the abnormalities observed","→ outline the management (stage เป็นข้อย่อยใน section clinical TNM)"],
+       flow:["Describe: ข้าง, nipple, ผิวหนัง (peau d'orange, ulcer, ตำแหน่ง quadrant), สี, ขนาด / รูปร่างเต้าเทียบข้างตรงข้าม","ยืนยัน Dx + receptor","Systemic staging","Neoadjuvant systemic therapy → surgery → radiotherapy → adjuvant"],
+       pattern:["<b>Describe</b>: right breast — nipple retraction · <b>peau d'orange</b> (dermal lymphatic obstruction) · <b>skin ulceration</b> ที่ lower outer quadrant · ผิวคล้ำ / แดง เต้าใหญ่ / ผิดรูปเทียบข้างตรงข้าม","<b>Confirm + staging</b>: core needle biopsy (histology, ER / PR / HER2, Ki-67) ± biopsy LN · stage III → systemic staging: CT chest / abdomen หรือ PET-CT, bone scan, LFT","<b>Neoadjuvant systemic therapy ก่อน</b> (NCCN Breast): anthracycline / taxane-based chemotherapy ± anti-HER2 (trastuzumab ± pertuzumab) ถ้า HER2+ — เพื่อลดขนาดให้ผ่าตัดได้ R0","<b>Surgery</b>: modified radical mastectomy (total mastectomy + axillary dissection level I–II) — โดยทั่วไปไม่ทำ BCS ใน T4 (ห้ามเด็ดขาดใน inflammatory T4d) · <b>post-mastectomy radiotherapy</b> (chest wall + regional nodes)","<b>Adjuvant</b>: endocrine (tamoxifen / aromatase inhibitor) ถ้า HR+, anti-HER2 ให้ครบ 1 ปี, residual disease หลัง neoadjuvant → capecitabine (TNBC) / T-DM1 (HER2+)"],
+       kw:["nipple retraction","peau d'orange","skin ulceration (lower outer quadrant)","core needle biopsy + ER / PR / HER2","systemic staging","neoadjuvant chemotherapy ± anti-HER2","MRM + PMRT","adjuvant endocrine / anti-HER2"],
+       pearls:["คีย์เก่า MDCU67 RoB ตอบ 'total mastectomy with lymph node resection / MRM' อย่างเดียว — ตาม NCCN cT4 / IIIB เป็น locally advanced ต้องให้ neoadjuvant systemic therapy ก่อน (ตอบ MRM อย่างเดียวได้บางส่วน)","อย่าเสนอ breast-conserving surgery ใน T4","บรรยายภาพลืมบอกข้างและตำแหน่ง quadrant ของแผล"],
+       members:["MDCU67|RoB|11#1","MDCU67|RoB|11#3"]},
+      {id:"gross-breast-mass", title:"บรรยาย gross specimen ก้อนเต้านม (invasive carcinoma vs fibroadenoma)",
+       trend:"สถานีชิ้นเนื้อจริงบนโต๊ะ — คะแนนอยู่ที่บรรยายเป็นระบบและปิดด้วย impression",
+       asked:["Resected breast specimen + ลูกศรชี้ก้อน → palpate and describe the characteristics of the indicated mass"],
+       flow:["ชนิด specimen + ข้าง + orientation","ตำแหน่ง (quadrant, ระยะจาก nipple)","ขนาด 3 มิติ","รูปร่าง + ขอบ","Consistency","ผิวหน้าตัด","ความสัมพันธ์กับผิวหนัง / nipple / deep margin","Impression"],
+       pattern:["<b>ลำดับ</b>: specimen (mastectomy / wide excision) → ตำแหน่ง → ขนาด (cm 3 มิติ) → รูปร่าง → ขอบ (well-circumscribed vs ill-defined / infiltrative, stellate / spiculated) → consistency (แข็งมาก gritty vs rubbery) → cut surface (สี, necrosis, hemorrhage, calcification, cyst) → ความสัมพันธ์กับผิว / nipple / margin (การดึงรั้ง, ulcer, ระยะถึง margin) → impression","<b>Invasive carcinoma</b>: ขอบไม่เรียบ stellate / spiculated แข็งมาก cut surface ขาวเทา gritty มีจุดเหลือง (elastosis) ดึงรั้งเนื้อรอบข้าง (desmoplastic reaction)","<b>Fibroadenoma</b>: กลม ขอบเรียบชัด มีปลอก rubbery cut surface ขาว lobulated นูน มีร่องแบบ slit-like"],
+       kw:["location, size (3 dimensions)","margin: stellate / spiculated vs well-circumscribed","consistency: hard, gritty","cut surface","relation to skin / nipple / margin","impression: invasive carcinoma"],
+       ddx:["Invasive carcinoma (NST)","Fibroadenoma","Phyllodes tumor"],
+       pearls:["บรรยายครบแต่ไม่ให้ impression = ไม่เต็ม","ลืมผิวหน้าตัดและระยะถึง margin — สองส่วนที่ต่างจากการบรรยายก้อนจากการตรวจร่างกาย"],
+       members:["MDCU65|RoC|12#1"]}
+    ]},
+    {title:"Order writing — admission / post-op / ER orders", sections:[
+      {id:"order-appendicitis", title:"Acute appendicitis — Dx, admission orders ก่อนผ่าตัด, ชื่อ operation และ post-op orders (gangrenous)",
+       trend:"เคส RLQ pain คลาสสิก → Dx หรือชื่อผ่าตัด แล้วเขียน order เต็มหน้า (one day + continuous)",
+       asked:["ชาย 22 ปี periumbilical pain ย้ายไป RLQ 12 ชม. anorexia nausea T 37.8 guarding / rebound Rovsing + WBC 14,000 (N 85%) → most likely diagnosis → write the admission orders","ชาย 21 ปี RLQ pain 18 ชม. guarding / rebound ที่ McBurney WBC 15,000 → ผ่าตัด → name of the operation → pathology = acute gangrenous appendicitis → write the postoperative orders"],
+       flow:["Dx: acute appendicitis (Alvarado สูง)","Admission — order for one day: admit, NPO, IV fluid, lab, pre-op ATB, analgesic, antiemetic, consent, set OR · continuous: V/S, I/O, observe abdominal signs","Operation: appendectomy","Post-op — order for one day: post-op care, V/S schedule, I/O, diet plan, IV fluid, analgesic, antiemetic, ATB + เหตุผล · continuous: ambulation, incentive spirometry, observe wound"],
+       pattern:["<b>Dx</b>: acute appendicitis — migration, anorexia, nausea, RLQ tenderness, rebound, fever, leukocytosis + left shift (Alvarado ≥7 = likely)","<b>Admission orders</b>: admit ศัลยกรรม · NPO · IV balanced crystalloid ระบุชนิด + rate (เช่น LRS 1,000 mL IV 100 mL/hr) · lab: CBC, BUN / Cr, electrolytes, UA (± urine pregnancy test ในหญิง), coagulation ตามข้อบ่งชี้ · <b>pre-op ATB</b> (เช่น ceftriaxone 2 g IV + metronidazole 500 mg IV หรือ cefoxitin) · morphine 3 mg IV prn (ไม่บดบังการวินิจฉัย) · antiemetic prn · consent + set OR for laparoscopic / open appendectomy · ให้ปัสสาวะก่อนเข้าห้องผ่าตัด · continuous: V/S q4h (q1–2h ถ้าไม่คงที่), record I/O, observe abdominal signs","<b>Operation</b>: appendectomy — laparoscopic เป็นมาตรฐานถ้าทำได้ (แผลติดเชื้อน้อยกว่า ฟื้นตัวเร็ว)","<b>Post-op orders</b>: post-op care · V/S q15 min ×4, q30 min ×2, q1h จน stable แล้ว q4h · record I/O · NPO จนรู้สึกตัวดี → sips / liquid แล้ว advance (early feeding) · IV maintenance ระบุชนิด + rate จนกินได้ · morphine IV prn + paracetamol oral prn · antiemetic prn · continuous: early ambulation, incentive spirometry, observe wound / ไข้","<b>ATB หลังผ่าตัด (WSES 2020)</b>: uncomplicated → ไม่ต้องให้ต่อ · complicated (gangrenous, perforated, abscess) → short course 3–5 วัน (เช่น ceftriaxone 2 g IV OD + metronidazole 500 mg IV q8h) · gangrenous ไม่ทะลุ หลายสถาบันให้ ≤24 ชม. — ตอบได้ถ้าระบุเหตุผล"],
+       kw:["acute appendicitis","NPO","IV fluid type + rate","CBC, BUN / Cr, electrolytes, UA, UPT","pre-op ceftriaxone + metronidazole","morphine IV prn","consent, set OR","appendectomy (laparoscopic)","V/S q15 min → q4h, I/O","diet plan / early feeding","post-op ATB with reason and duration","early ambulation, incentive spirometry"],
+       pearls:["IV fluid ไม่ระบุชนิด / rate หรือไม่มี pre-op ATB = หักคะแนน","อย่างดยาแก้ปวดก่อนผ่าตัด — ไม่ทำให้วินิจฉัยพลาด","Post-op ไม่สั่ง ATB เลยใน gangrenous หรือสั่งโดยไม่บอกเหตุผล / ระยะเวลา = หักคะแนน","สั่ง NPO ยาวโดยไม่มีแผน advance diet","ข้อย่อย Dx ของสถานี admission เป็นส่วนที่คลังเติม"],
+       members:["MDCU66|RoB|7#1","MDCU66|RoB|7#2","MDCU66|RoA|10#1","MDCU66|RoA|10#2"]},
+      {id:"order-corrosive", title:"กินน้ำยาล้างห้องน้ำ (HCl) — ER orders: NPO, ห้ามทำให้อาเจียน, IV, monitor, AAS, EGD 12–24 ชม.",
+       trend:"ผู้ป่วยกินกรด (เป็ดโปร / Vixol) 30 นาที–2 ชม. V/S ปกติ ไม่มี stridor → เขียน order แพทย์ ER (หัวข้อเดียวกับสถานี order ใน tag hx)",
+       asked:["ชาย 30 ปีกินน้ำยาล้างห้องน้ำ HCl 2 ชม. ปวดลิ้นปี่ ปากพอง ไม่มี stridor V/S stable → write your initial orders","หญิง 35 ปีกิน Vixol 30 นาที + ภาพช่องปากแดงอักเสบ ไม่มี stridor → write your orders"],
+       flow:["Airway: stridor / hoarseness / drooling → แจ้งแพทย์ / เตรียม intubation","NPO + สิ่งที่ห้ามทำ","IV fluid + monitor + Foley","PPI IV, analgesic","Lab + acute abdomen series","EGD 12–24 ชม.","Perforation → CT + consult surgery"],
+       pattern:["<b>Order (ตามคีย์ไฟล์ 78C)</b>: NPO · Ringer lactate 1,000 mL IV rate 80 mL/hr · continuous V/S monitoring · retain Foley catheter (record urine output) · <b>acute abdomen series</b> (upright CXR — free air) · <b>plan EGD in 12–24 hr</b> · if stridor, please notify","<b>เพิ่มเพื่อให้ครบ</b>: <b>ห้าม</b>กระตุ้นอาเจียน / ห้าม neutralize / ห้าม activated charcoal / ห้ามใส่ NG แบบ blind · PPI IV (omeprazole) + analgesic · lab: CBC, electrolytes, BUN / Cr, ABG / lactate, G/M · peritonitis / free air / unstable → CT + consult surgery (emergency laparotomy)","<b>EGD</b> ภายใน 12–24 ชม. (ถึง 48 ชม.) เพื่อ grade ตาม Zargar · หลีกเลี่ยงส่องช่วงวันที่ 5–15 (เนื้อเยื่ออ่อนแอที่สุด เสี่ยงทะลุ)","<b>กรด</b> → coagulation necrosis ทำลาย<b>กระเพาะ (antrum)</b> มากกว่าหลอดอาหาร · <b>ด่าง</b> → liquefactive necrosis ลึกที่หลอดอาหาร · ระยะยาว: stricture, gastric outlet obstruction, esophageal cancer"],
+       kw:["NPO","no induced vomiting / neutralization / charcoal / blind NG","Ringer lactate with rate","continuous V/S monitoring","retain Foley","acute abdomen series","EGD 12–24 hr (Zargar)","notify if stridor","PPI IV"],
+       pearls:["คีย์ MDCU78 RoA ไม่มีในไฟล์ — ใช้แนวเดียวกับคีย์ 78C","ลืมสั่ง EGD หรือสั่งส่องหลังวันที่ 5 = เสี่ยงทะลุ","สั่งนม / ยาลดกรดเพื่อ neutralize หรือ charcoal = ผิด"],
+       members:["MDCU78|RoA|16#1","MDCU78|RoC|4#1"]}
+    ]},
+    {title:"Colorectal cancer — pathology report และขั้นต่อไป", sections:[
+      {id:"crc-ptnm", title:"Pathology report ลำไส้ใหญ่ / rectum → pTNM + stage (colon pT3 N1b = IIIB, rectum T3 N0 = IIA)",
+       trend:"รายงานลำไส้: ความลึก + จำนวนต่อม → stage",
+       asked:["Sigmoid colectomy: adenocarcinoma ผ่าน muscularis propria เข้า pericolorectal tissue ไม่ถึง visceral peritoneum, LN บวก 2 / 14, CT ไม่มี metastasis → TNM stage","Rectal cancer resected: invasion ถึง subserosal fibroadipose tissue, LN 0 / 27 → ถ้า M negative TNM stage คืออะไร"],
+       flow:["T จากความลึก","N จากจำนวนต่อมบวก (และต้องตรวจได้ ≥12 ต่อม)","M","Stage group"],
+       pattern:["<b>T (AJCC 8th colorectal)</b>: Tis · T1 submucosa · T2 muscularis propria · <b>T3 ผ่าน muscularis propria เข้า pericolorectal / perirectal / subserosal tissue</b> · T4a ทะลุ visceral peritoneum · T4b ลุกลามอวัยวะข้างเคียง","<b>N</b>: N1a 1 ต่อม · <b>N1b 2–3</b> · N1c tumor deposit ไม่มี LN บวก · N2a 4–6 · N2b ≥7 · ควรตรวจ LN ≥12 ต่อม","<b>Stage</b>: I = T1–2 N0 · <b>IIA = T3 N0</b> · IIB = T4a N0 · IIC = T4b N0 · IIIA = T1–2 N1 / T1 N2a · <b>IIIB = T3–4a N1</b> / T2–3 N2a / T1–2 N2b · IIIC = ที่เหลือ · IV = M1","<b>คำตอบ</b>: sigmoid → <b>pT3 pN1b M0 = IIIB</b> · rectum → <b>pT3 pN0 M0 = IIA</b>"],
+       kw:["T3 = through muscularis propria into pericolorectal tissue","N1b = 2–3 nodes","N0 with ≥ 12 nodes examined","stage IIIB","stage IIA","AJCC 8th"],
+       pearls:["ตอบ stage III ไม่ระบุ IIIB = ได้บางส่วน","Subserosa / perirectal fat ยังเป็น T3 — T4a ต้องทะลุ visceral peritoneum"],
+       members:["MDCU66|RoD|8#1","MDCU75|RoC|12#2"]},
+      {id:"crc-after-staging", title:"Colorectal cancer — investigation หา M stage, adjuvant chemotherapy และ surveillance",
+       trend:"ข้อย่อยต่อจาก stage: ส่งอะไรหา metastasis (rectum) หรือรักษาต่ออย่างไร (colon stage III)",
+       asked:["Rectal cancer resected → what investigations would you send to determine the M stage?","Colon pT3 N1b M0 → outline further treatment and follow-up"],
+       flow:["M staging: CT chest / abdomen / pelvis + CEA","Stage III colon → adjuvant oxaliplatin-based (ชนิด + ระยะเวลา) เริ่มภายใน 6–8 สัปดาห์","Surveillance: H&amp;P + CEA, CT, colonoscopy"],
+       pattern:["<b>M staging (NCCN Colon / Rectal)</b>: <b>CT chest / abdomen / pelvis with contrast</b> (ตับ ปอด) + <b>CEA</b> baseline · CXR ถ้าไม่มี CT chest · CT brain / bone scan เฉพาะเมื่อมีอาการ · PET-CT ไม่ใช่ routine · rectal cancer ใช้ <b>MRI pelvis</b> เป็น local staging ก่อนรักษา","<b>Adjuvant (stage III colon)</b>: oxaliplatin-based — low-risk (T1–3 N1) → <b>CAPOX 3 เดือน</b> (preferred) หรือ FOLFOX 3–6 เดือน · high-risk (T4 หรือ N2) → CAPOX 3–6 เดือน หรือ FOLFOX 6 เดือน (IDEA, NCCN) · ไม่เหมาะ oxaliplatin / ผู้สูงอายุ → capecitabine หรือ 5-FU / LV เดี่ยว","<b>Surveillance (NCCN)</b>: H&amp;P + CEA ทุก 3–6 เดือน ×2 ปี แล้วทุก 6 เดือนจนครบ 5 ปี · CT chest / abdomen / pelvis ทุก 6–12 เดือน ×5 ปี · colonoscopy ที่ 1 ปี (ถ้าก่อนผ่าตัดส่องไม่ครบ ทำภายใน 3–6 เดือน) แล้วตามผล"],
+       kw:["CT chest / abdomen / pelvis","CEA","MRI pelvis (rectal local staging)","adjuvant CAPOX 3 months / FOLFOX","start within 6–8 weeks","CEA, CT, colonoscopy at 1 year"],
+       pearls:["คีย์เก่า MDCU75 RoC ตอบ CT brain + CXR + CT abdomen — ตาม NCCN M staging = CT chest / abdomen / pelvis + CEA; CT brain ไม่ทำเป็น routine","Colon cancer ไม่ใช้ radiotherapy เป็น routine (ต่างจาก rectal)","Stage II colon ให้ chemo เฉพาะ high-risk (T4, LN &lt;12, poorly differentiated, LVI / PNI, obstruction / perforation) และ pMMR / MSS","ขาด follow-up plan = ได้บางส่วน"],
+       members:["MDCU75|RoC|12#1","MDCU66|RoD|8#2"]}
+    ]},
+    {title:"Soft tissue — lipoma", sections:[
+      {id:"lipoma-excision", title:"Subcutaneous lipoma — ข้อบ่งชี้การตัด (และลักษณะที่สงสัย liposarcoma)",
+       trend:"สถานีเดี่ยวที่ติด tag path (หมวด Other spot) — ให้ list ข้อบ่งชี้",
+       asked:["ผู้ป่วยมี subcutaneous lipoma → list the indications for excision"],
+       flow:["อาการ","ขนาด / การโต","ลักษณะสงสัยมะเร็ง","ความสวยงาม / การใช้งาน","วินิจฉัยไม่แน่"],
+       pattern:["<b>Indications</b>: มีอาการ (เจ็บ กดเส้นประสาท) · ขนาดใหญ่ (&gt;5 cm) หรือโตเร็ว · ลักษณะสงสัย liposarcoma · ความสวยงาม / ผู้ป่วยต้องการ · รบกวนการใช้งาน / การเคลื่อนไหว · วินิจฉัยไม่แน่ชัด","<b>สงสัย sarcoma</b>: ก้อน &gt;5 cm, อยู่ลึกใต้ fascia, โตเร็ว, แข็ง / fixed, เจ็บ → MRI + core needle biopsy ก่อนผ่าตัด (ไม่ทำ excisional biopsy / shell-out ทันที)"],
+       kw:["symptomatic (pain, nerve compression)","size > 5 cm or rapid growth","suspicious for liposarcoma (deep, firm, fixed)","cosmetic / patient request","functional impairment","diagnostic uncertainty"],
+       pearls:["ก้อนใหญ่ลึกใต้ fascia ตัดแบบ lipoma ไปเลยโดยไม่ทำ imaging / core biopsy = อาจตัดไม่ถึงขอบของ sarcoma"],
+       members:["MDCU74|RoD|11#1"]}
+    ]}
+  ]});

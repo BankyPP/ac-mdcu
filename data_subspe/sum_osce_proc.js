@@ -1,667 +1,166 @@
-SUMM.push({
- "tag": "proc",
- "title": "Procedure",
- "intro": "<ul><li>สถานี Procedure (มี examiner) ออก <b>ทุก rotation ของ MDCU65–67</b> และหัวข้อวนซ้ำแทบทั้งหมด: <b>เย็บ vertical mattress บน suture pad + ผูกปม</b> (ออกครบ 11 rotation) ตามด้วย <b>ผูกปมบนบอร์ดท่อยาง</b> (one-handed / two-handed / 3-throw square knot)</li><li>กลุ่มที่สอง = <b>sterile technique</b>: open sterile gloving (7 rotation), surgical hand scrub + เช็ดมือ, ใส่ gown + closed gloving — มักจับคู่กับหัตถการอื่นในสถานีเดียว (gloving + ทำแผล, gloving + เย็บ, gloving + ฉีดยาชา)</li><li>กลุ่มที่สาม = <b>แผลและยาชา</b>: ทำแผลเย็บแล้ว (เปิด dressing set เอง), wet dressing แผลสุนัขกัด, ฉีดยาชา field block รอบก้อน / ขอบแผล, advice ดูแลแผล + นัดตัดไหม</li><li>หัตถการข้างเตียงออกน้อย: <b>NG tube</b> (MDCU67 RoD) และ <b>Foley ในชาย AUR</b> (MDCU65 RoA)</li><li>เหตุตกที่ซ้ำทุกปี: เย็บผิดแบบ (simple / horizontal แทน vertical mattress) = 0, ปม granny / slip / air knot, ปนเปื้อนถุงมือแล้วไม่เปลี่ยน, ไม่ aspirate ก่อนฉีดยาชา, เป่า balloon ก่อนเห็นปัสสาวะ, ไม่ทิ้งเข็มลง sharps box</li><li>MDCU79 RoC: simple stitch 2 อัน + ปิดแผล, ใส่ถุงมือ + ฉีดยาชา (เลือกเข็มชมพู/ม่วง), หัตถการ ICD, NG intubation</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: sterile gloving + suture, WHO handwash + dressing, simple + vertical mattress, ตัดไหม, LA infiltration</li></ul>",
- "groups": [
-  {
-   "title": "Suturing & knot tying",
-   "sections": [
-    {
-     "id": "vertical-mattress",
-     "title": "Vertical mattress suture + instrument tie บน suture pad",
-     "trend": "ออกทุก rotation — เป็นสถานีเย็บหลักของวอร์ด มักให้ 1–2 stitch แล้วต่อด้วยผูกปมแบบอื่น",
-     "asked": [
-      "ให้ suture pad + needle holder + forceps + กรรไกร + ไหม non-absorbable เข็ม cutting → place one (หรือ two) vertical mattress suture แล้ว tie ด้วย instrument tie",
-      "บางปีให้ stitch แรกผูก surgeon's knot ด้วยเครื่องมือ stitch ที่สองผูก one-handed square knot (MDCU66 RoC)",
-      "MDCU67 RoD ให้เย็บ simple interrupted 1 + mattress 1 (vertical หรือ horizontal ได้ทั้งคู่)",
-      "MDCU66 RoB / RoD ต่อจาก sterile gloving หรือฉีดยาชาก่อนเย็บ",
-      "เย็บ simple + vertical (78B, 78C)"
-     ],
-     "flow": [
-      "(บอกอาจารย์) ล้างมือ สวมถุงมือ ทำความสะอาด / ปูผ้า (ถ้าเป็นแผลจำลองบนผู้ป่วย)",
-      "จับ needle holder แบบ thumb–ring (tripod) หรือ thenar grip · จับเข็มที่ 1/3–1/2 จากโคน (ไม่จับปลายแหลม) ปากคีมตั้งฉากกับเข็ม · forceps จับแบบปากกา จับขอบแผลเบา ๆ / จับเข็มด้วย forceps ไม่ใช้นิ้ว",
-      "Far–far: แทงเข็มตั้งฉากผิว ห่างขอบ ~5–10 mm ลึกถึง dermis / subcutis หมุนข้อมือตามความโค้งเข็ม ออกฝั่งตรงข้ามระยะเท่ากัน",
-      "Near–near: กลับเข็ม (backhand) แทงฝั่งที่ออก ห่างขอบ ~1–2 mm ตื้นใน dermis ออกฝั่งที่เริ่ม → ปลายไหมทั้งสองอยู่ฝั่งเดียวกัน แนวเดียวกันตั้งฉากแผล",
-      "Instrument tie: throw แรกพันรอบ needle holder 2 รอบ (surgeon's knot) → throw ถัดไป 1 รอบสลับทิศ ≥ 3 throw = square knot · ดึงขนานผิว",
-      "ขอบแผลชิดและ evert ไม่รัดจนซีด · ปมวางข้างแผล ไม่ทับแนวแผล",
-      "ตัดหางไหม ~5 mm (ไหมผิวหนัง) · stitch ที่สองห่าง ~5–10 mm ระยะสม่ำเสมอ",
-      "เก็บเข็มลง sharps container"
-     ],
-     "pattern": [
-      "<b>ลำดับ far-far → near-near</b> คือหัวใจของคะแนน: far = ห่าง 5–10 mm ลึก, near = 1–2 mm ตื้น · ทำผิดชนิด (simple / horizontal) = 0 ทั้งข้อย่อย",
-      "<b>แทงเข็มตั้งฉาก 90°</b> และหมุนตามความโค้งเข็ม (ไม่ดันตรง) → bite สมมาตรทั้งสองฝั่ง",
-      "<b>Square knot ≥ 3 throw สลับทิศ</b>; throw แรก double (surgeon's knot) กันปมแรกคลายในแผลตึง · ทิศเดิมซ้ำ = granny knot",
-      "<b>Eversion</b> = เป้าหมายของ vertical mattress · รัดแน่นเกิน → ขอบแผลขาดเลือด, cross-hatch mark",
-      "ข้อบ่งชี้: ผิวหย่อน / บริเวณที่ขอบแผลม้วนเข้า (หลังมือ ข้อพับ คอ ฝ่ามือ) แผลตึง ปิด dead space · ข้อเสีย: ช้า รอยไหมชัด → ตัดไหมเร็วขึ้นเล็กน้อยหรือสลับกับ simple interrupted",
-      "ระยะห่างระหว่าง stitch ≈ ระยะจากขอบแผล (~5–10 mm)"
-     ],
-     "kw": [
-      "needle grasped 1/3–1/2 from swage",
-      "needle perpendicular to skin",
-      "far-far then near-near",
-      "equal bites both sides",
-      "wound edge eversion",
-      "instrument tie, surgeon's knot first throw",
-      "square knot ≥ 3 throws, alternating direction",
-      "knot placed to one side of wound",
-      "tail ~5 mm",
-      "sharps disposal"
-     ],
-     "pearls": [
-      "ทำ near ก่อน far: rubric MDCU67 RoC ยังให้คะแนนถ้าโครงสร้างถูก แต่ปีอื่นถือว่าผิดลำดับ — ทำ far ก่อนเสมอ",
-      "จับเข็มด้วยนิ้ว / ไหมหลุดจากเข็ม / แทงเฉียง = เหตุหักคะแนนที่ผู้คุมสอบจดบ่อย",
-      "MDCU67 RoD ระบุ mattress แบบ vertical หรือ horizontal ได้ทั้งคู่ แต่ทุกสถานีอื่นสั่ง vertical ชัดเจน",
-      "ปมบนแนวแผล / air knot (ปมลอยไม่แนบผิว) = หักคะแนน"
-     ],
-     "members": [
-      "MDCU67|RoA|1#1",
-      "MDCU67|RoB|1#1",
-      "MDCU67|RoC|1#1",
-      "MDCU67|RoD|1#1",
-      "MDCU66|RoA|13#1",
-      "MDCU66|RoB|1#2",
-      "MDCU66|RoC|1#1",
-      "MDCU66|RoC|1#2",
-      "MDCU66|RoD|5#1",
-      "MDCU65|RoA|12#2",
-      "MDCU65|RoB|10#1",
-      "MDCU65|RoC|1#1",
-      "MDCU78|RoB|25#1",
-      "MDCU78|RoC|11#1"
-     ]
-    },
-    {
-     "id": "one-hand-tie",
-     "title": "One-handed knot tying (ท่อยาง / rubber pieces ให้ชนกัน)",
-     "trend": "มักเป็นข้อย่อยที่สองต่อจาก vertical mattress — ทดสอบ tension ด้วยท่อยางที่ต้องชนกันพอดี",
-     "asked": [
-      "Using a one-handed technique, tie a knot that brings the two rubber tubes together",
-      "Tie a three-throw knot around the tube using the one-hand technique",
-      "เย็บ simple interrupted หรือ vertical mattress แล้วผูกด้วย one-hand tie"
-     ],
-     "flow": [
-      "มือผูกถือปลายไหมสั้น อีกมือถือปลายยาว ให้ไหมตึงพอดี",
-      "Throw แรก: index-finger throw (นิ้วชี้เกี่ยวไหมลอดห่วง)",
-      "ดึงสองปลายในแนวราบขนานพื้นผิวไปคนละทิศ มือข้ามตามทิศ throw · นิ้วชี้ดันปมลงถึงจุดผูก ไม่ยกท่อยาง",
-      "ปมแรกรัดให้ท่อยางชนกันพอดี ไม่หลวม ไม่บีบจนยางยุบ",
-      "Throw ที่สอง: middle-finger throw ทิศตรงข้าม → square knot",
-      "Throw ที่สาม: index-finger throw อีกครั้ง (สลับทิศ) lock ปม · รักษาแรงตึงต่อเนื่องไม่ให้ปมแรกคลาย",
-      "ตัดหางไหม (ถ้าให้ตัด)"
-     ],
-     "pattern": [
-      "<b>สลับนิ้ว index / middle และสลับทิศดึงทุก throw</b> → square knot ปมนอนราบ",
-      "<b>ดึงเท่ากันในแนวราบ ทิศตรงข้าม</b> · ดึงไม่เท่ากัน = slip knot, ทิศเดิมซ้ำ = granny knot",
-      "<b>≥ 3 throw</b> · ใช้สองมือแทน = หักมาก · ปมหลุด = 0",
-      "<b>ไม่ยกเนื้อเยื่อ / ท่อยาง</b> ขณะผูก (ในผู้ป่วยจริง ligature หลุด / ฉีกหลอดเลือด)",
-      "ข้อดี: เร็ว ใช้ได้ในที่ลึก / แคบ เมื่ออีกมือต้องจับเนื้อเยื่อ"
-     ],
-     "kw": [
-      "one-handed technique",
-      "index-finger throw then middle-finger throw",
-      "alternate direction each throw",
-      "square knot ≥ 3 throws",
-      "push knot down with index finger",
-      "pull parallel / horizontal",
-      "tubes just touching",
-      "no air knot, no slip knot"
-     ],
-     "pearls": [
-      "ข้อผิดที่เจอบ่อย: ลืมไขว้มือข้ามฝั่ง → ปมกลายเป็น slip knot",
-      "air knot = ปมลอยไม่แนบท่อยาง แม้ throw ถูกก็หักคะแนน"
-     ],
-     "members": [
-      "MDCU67|RoA|1#2",
-      "MDCU67|RoC|1#2",
-      "MDCU66|RoA|13#2",
-      "MDCU66|RoC|1#2",
-      "MDCU65|RoC|2#1"
-     ]
-    },
-    {
-     "id": "two-hand-tie",
-     "title": "Two-handed tie / secure 3-throw square knot บนบอร์ด",
-     "asked": [
-      "Tie a two-hand knot with three throws so that the knot lies flat against the board",
-      "Using the cord, tie a knot around the rubber band with a two-handed technique",
-      "Tie a secure 3-throw knot to bring two pieces of rubber together"
-     ],
-     "flow": [
-      "ถือปลายไหมสองข้าง",
-      "Throw 1: ไขว้ไหมเป็นห่วงรอบนิ้วชี้ / นิ้วโป้ง ดึงปลายผ่านห่วง (ถ้ากลัวคลายทำ surgeon's knot 2 รอบ)",
-      "ดึงในแนวราบ มือไปคนละทิศ นิ้วชี้ดันปมลงถึงฐาน",
-      "Throw 2: ทิศตรงข้าม (สลับมือนำ / สลับด้าน) → square knot ปมนอนราบ",
-      "Throw 3: สลับทิศอีกครั้งเพื่อความมั่นคง · รักษาแรงตึงต่อเนื่อง",
-      "ตัดไหมเหลือ ~3 mm (monofilament ยาวกว่าเล็กน้อย)"
-     ],
-     "pattern": [
-      "<b>Square (reef) knot = throw แรกกับที่สองสลับทิศ</b>; ทิศเดียวกัน = granny knot หลวมง่าย",
-      "<b>ดันปมลงในแนวราบ</b> ไม่ยก / กระชาก · ตึงพอให้ขอบชิด ไม่รัดจนขาดเลือด",
-      "Two-handed tie คุม tension ได้ดีกว่า one-handed → ใช้กับไหม monofilament / ผูกหลอดเลือดสำคัญ",
-      "ไหม monofilament (nylon, Prolene) ลื่น → ต้องผูกมากกว่า 3 throw"
-     ],
-     "kw": [
-      "two-handed tie",
-      "square (reef) knot",
-      "3 throws alternating",
-      "knot lies flat",
-      "push down horizontally",
-      "constant tension",
-      "no granny / slip knot"
-     ],
-     "pearls": [
-      "slip knot ใช้ได้เฉพาะเมื่อตั้งใจปรับความตึงแล้ว lock ทีหลัง — ในสอบถือว่าผิด",
-      "ยกยาง / บอร์ดขึ้นขณะผูก = หักคะแนน"
-     ],
-     "members": [
-      "MDCU67|RoB|1#2",
-      "MDCU65|RoB|11#1",
-      "MDCU65|RoA|12#1"
-     ]
-    },
-    {
-     "id": "simple-interrupted-cut",
-     "title": "Simple interrupted suture และการตัดไหม",
-     "trend": "ออกเป็นข้อย่อยคู่กับ mattress — อาจถามวิธีตัดไหม (ตัดหางหลังผูก หรือถอดไหม)",
-     "asked": [
-      "Place one simple interrupted and one mattress suture, each tied with an instrument tie",
-      "Demonstrate the correct technique for cutting the suture",
-      "Place one simple interrupted suture and tie it using the one-hand technique",
-      "เย็บ simple stitch 2 อัน (79C)",
-      "เย็บ simple 2 อัน (78A)",
-      "ตัดไหม simple + vertical (78B)"
-     ],
-     "flow": [
-      "Simple interrupted: แทงเข็มตั้งฉาก ห่างขอบ ~3–5 mm (≈ ความลึก) ลึกเท่ากันสองฝั่ง ออกฝั่งตรงข้ามระยะเท่ากัน",
-      "ผูก square knot ≥ 3 throw ปมข้างแผล ขอบชิดพอดีไม่ซ้อน",
-      "ตัดหางไหม: ไถลปลายกรรไกรลงตามเส้นไหมจนชนปม → หมุนกรรไกร ~45° → ตัด โดยเห็นปลายกรรไกรตลอด",
-      "ถ้าหมายถึงถอดไหม: ทำความสะอาด → forceps ดึงปมขึ้น → ตัดชิดผิวใต้ปมด้านเดียว → ดึงไหมออกไปทางแผล"
-     ],
-     "pattern": [
-      "<b>Bite สมมาตร</b> ระยะจากขอบ = ความลึก ให้ขอบแผล evert เล็กน้อย",
-      "<b>ตัดหางไหม</b>: ไหม nylon ที่ผิวเหลือ ~5–10 mm (ตัดออกง่าย), ไหมละลายฝังใต้ผิวเหลือ ~2–3 mm",
-      "<b>ถอดไหม</b>: ตัดชิดผิวใต้ปมเพื่อไม่ลากไหมส่วนที่อยู่นอกผิว (ปนเปื้อน) ผ่านรูเข็ม · ดึงเข้าหาแผลกันแผลแยก"
-     ],
-     "kw": [
-      "perpendicular entry",
-      "equal depth and distance",
-      "slide-rotate-cut",
-      "tip of scissors visible",
-      "tail length appropriate",
-      "cut beneath knot close to skin",
-      "pull toward wound"
-     ],
-     "pearls": [
-      "MDCU67 RoD: ธนาคารข้อสอบตีความ 'ตัดไหม' ได้ 2 แบบ (ตัดหางหลังผูก / ถอดไหม) และให้คะแนนแบบใดแบบหนึ่ง — ถามอาจารย์ให้ชัดหรือพูดทั้งสองแบบ"
-     ],
-     "members": [
-      "MDCU67|RoD|1#1",
-      "MDCU67|RoD|1#2",
-      "MDCU66|RoA|13#2",
-      "MDCU79|RoC|1#1",
-      "MDCU78|RoA|21#2",
-      "MDCU78|RoB|26#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Sterile technique — scrub, gloving, gowning",
-   "sections": [
-    {
-     "id": "open-gloving",
-     "title": "Open sterile gloving",
-     "trend": "ออกเกือบทุก rotation มักเป็นข้อย่อยแรกก่อนทำแผล / เย็บ / ฉีดยาชา — ปนเปื้อนครั้งเดียวไม่เปลี่ยน = ตก",
-     "asked": [
-      "Put on sterile gloves (correctly / using the open technique)",
-      "หลัง scrub แล้ว → เช็ดมือ + ใส่ถุงมือ open technique",
-      "ใส่ถุงมือ sterile แล้วทำแผล / wet dressing / เย็บแผล / ฉีดยาชา",
-      "ใส่ถุงมือก่อนฉีดยาชา (79C)",
-      "ใส่ถุงมือ sterile + เย็บ 2 simple (78A)",
-      "ใส่ถุงมือ + ทายา ปูผ้า + ฉีดยาชา (78C)"
-     ],
-     "flow": [
-      "ล้างมือ (หรือสมมติ scrub แล้ว มือสูงกว่าศอก) · เลือกขนาด ตรวจซองและวันหมดอายุ",
-      "เปิดซองนอกจับเฉพาะด้านนอก (หรือให้ผู้ช่วยเปิด) → วางซองในบนพื้นผิวสะอาด เปิดโดยจับเฉพาะขอบนอก",
-      "มือเปล่าจับ ด้านในของ cuff ที่พับ ของถุงมือข้างแรก → สอดมือ (ไม่ต้องคลี่ cuff)",
-      "มือที่สวมแล้วสอดนิ้ว ใต้พับ cuff (ด้านนอก) ของถุงมือข้างที่สอง → สอดมือ โดยนิ้วโป้งที่สวมถุงมือกางออกไม่แตะผิว",
-      "คลี่ cuff ทั้งสองข้างโดยสอดนิ้วใต้พับ · ปรับนิ้ว",
-      "มืออยู่ระดับเอว–อก ด้านหน้า ไม่ห้อยต่ำกว่าเอว ไม่ซุกรักแร้ · ปนเปื้อน → บอกและเปลี่ยนใหม่"
-     ],
-     "pattern": [
-      "<b>หลัก skin-to-skin, glove-to-glove</b>: มือเปล่าแตะได้เฉพาะด้านในถุงมือ; มือที่สวมถุงมือแตะได้เฉพาะด้านนอกของถุงมืออีกข้าง",
-      "<b>Open gloving</b> = หัตถการข้างเตียง / ไม่ได้ใส่ gown · <b>Closed gloving</b> = ใน OR ที่ใส่ gown แล้ว",
-      "ปนเปื้อนแล้วไม่รู้ตัว / ไม่เปลี่ยน = ไม่ผ่านข้อย่อย"
-     ],
-     "kw": [
-      "check size and expiry",
-      "touch inside of cuff only with bare hand",
-      "gloved fingers under cuff of second glove",
-      "thumb kept away from skin",
-      "unroll cuffs without touching skin",
-      "hands above waist, in front",
-      "change if contaminated"
-     ],
-     "pearls": [
-      "นิ้วโป้งของมือที่สวมแล้วแตะข้อมือขณะใส่ข้างที่สอง = ปนเปื้อนที่พบบ่อยที่สุด",
-      "ลดมือต่ำกว่าเอว / เอามือซุกรักแร้หลังใส่เสร็จ = หักคะแนน"
-     ],
-     "members": [
-      "MDCU67|RoA|13#1",
-      "MDCU67|RoB|12#2",
-      "MDCU67|RoC|13#1",
-      "MDCU66|RoA|1#1",
-      "MDCU66|RoB|1#1",
-      "MDCU66|RoC|13#1",
-      "MDCU65|RoC|3#1",
-      "MDCU79|RoC|2#1",
-      "MDCU78|RoA|21#1",
-      "MDCU78|RoC|10#1"
-     ]
-    },
-    {
-     "id": "hand-scrub-dry",
-     "title": "Surgical hand scrub และการเช็ดมือหลัง scrub",
-     "trend": "ถามทั้งการฟอกมือเต็มขั้นตอน และการเช็ดมือด้วยผ้า sterile ก่อนใส่ถุงมือ / gown",
-     "asked": [
-      "Demonstrate the surgical hand scrub and hand drying",
-      "After completing your surgical hand scrub, dry your hands (then glove / gown)"
-     ],
-     "flow": [
-      "เตรียม: ถอดแหวน นาฬิกา กำไล · เล็บสั้นไม่ทาสี · ไม่มีแผลที่มือ · สวมหมวก + mask ก่อนล้าง",
-      "Pre-wash มือถึงเหนือศอก ทำความสะอาดใต้เล็บ (nail cleaner)",
-      "Scrub ด้วย chlorhexidine 4% หรือ povidone-iodine 7.5% ตามเวลาผู้ผลิต (ทั่วไป 2–5 นาที): ปลายนิ้ว → นิ้วทุกด้าน → ซอกนิ้ว → ฝ่ามือ / หลังมือ → ข้อมือ → แขนถึงเหนือศอก ทีละข้าง",
-      "มือสูงกว่าศอกตลอด ล้างออกจากปลายนิ้วลงศอกทางเดียว ไม่สะบัด ปิดน้ำด้วยศอก / เท้า",
-      "เดินเข้าห้องโดยใช้หลังดันประตู มืออยู่หน้าอก",
-      "เช็ดมือ: หยิบผ้า sterile ไม่ให้น้ำหยดลงห่อ ก้มตัวไม่ให้ผ้าแตะชุด → ครึ่งหนึ่ง / ปลายหนึ่งของผ้าเช็ดแขนแรก จากปลายนิ้ว → มือ → ข้อมือ → ศอก หมุนผ้า ไม่ย้อน",
-      "ใช้อีกครึ่ง / อีกด้านเช็ดแขนที่สอง แบบเดียวกัน → ทิ้งผ้าโดยไม่ลดมือต่ำกว่าเอว"
-     ],
-     "pattern": [
-      "<b>ทิศทาง: สะอาดสุด (ปลายนิ้ว) → สะอาดน้อย (ศอก)</b> ทั้งการฟอก ล้าง และเช็ด — ไม่ย้อนกลับ",
-      "<b>มือสูงกว่าศอกตลอด</b> ให้น้ำไหลจากมือลงศอก",
-      "<b>ผ้าคนละครึ่ง / คนละด้านต่อแขน</b>",
-      "Antiseptic: chlorhexidine 4% / povidone-iodine 7.5% หรือ alcohol-based surgical hand rub (WHO Guidelines on Hand Hygiene in Health Care) · ไม่ต้องใช้แปรงขัดผิว (ใช้เฉพาะใต้เล็บ)"
-     ],
-     "kw": [
-      "remove jewellery / watch",
-      "cap and mask before scrub",
-      "nail cleaning",
-      "fingertips to elbow",
-      "hands higher than elbows",
-      "rinse one direction",
-      "back opens door",
-      "separate half of towel for each arm",
-      "no back-tracking"
-     ],
-     "pearls": [
-      "ไม่ถอดนาฬิกา = ตก (MDCU65 RoA)",
-      "มือต่ำกว่าศอก / เช็ดย้อนจากศอกกลับมามือ = ปนเปื้อน"
-     ],
-     "members": [
-      "MDCU67|RoB|12#1",
-      "MDCU66|RoC|13#1",
-      "MDCU65|RoA|11#1",
-      "MDCU65|RoB|13#1",
-      "MDCU65|RoC|3#1"
-     ]
-    },
-    {
-     "id": "gown-closed-glove",
-     "title": "ใส่ sterile gown + closed gloving ก่อนเข้าห้องผ่าตัด",
-     "asked": [
-      "Demonstrate surgical hand antisepsis, drying your hands, and putting on a sterile gown and gloves",
-      "Dry your hands with a sterile towel, then put on a sterile gown and gloves ready to enter the OR"
-     ],
-     "flow": [
-      "(หลัง scrub + เช็ดมือ) หยิบ gown ที่ด้านในคอเสื้อ ยกขึ้น ถอยห่างโต๊ะ ปล่อยให้คลี่ ไม่แตะด้านนอก",
-      "สอดแขนทั้งสองพร้อมกัน มือไม่โผล่พ้นปลายแขนเสื้อ",
-      "ผู้ช่วย non-sterile ดึงไหล่และผูกเชือกด้านหลัง",
-      "Closed gloving: ผ่านแขนเสื้อ วางถุงมือฝ่ามือแนบฝ่ามือ นิ้วชี้ไปทางศอก → จับขอบ cuff พลิกคลุมปลายแขนเสื้อ → ดึงขึ้นให้มือสอดเข้า → ทำอีกข้าง",
-      "ผูกเชือกเอว: ส่งป้ายกระดาษให้ผู้ช่วย หมุนตัว ดึงเชือกจากป้ายมาผูก (wrap-around gown)",
-      "มืออยู่ในพื้นที่ sterile ระดับอก–เอว ด้านหน้า ไม่หันหลังให้ sterile field"
-     ],
-     "pattern": [
-      "<b>พื้นที่ sterile ของ gown</b> = ด้านหน้าตั้งแต่อกถึงระดับโต๊ะ และแขนเสื้อถึงเหนือศอก",
-      "<b>Closed gloving</b>: มือไม่โผล่พ้นแขนเสื้อจนถุงมือคลุมเสร็จ",
-      "ปนเปื้อนระหว่างขั้นตอน → แจ้งและเปลี่ยนชิ้นนั้นทันที (ถุงมือ / gown)"
-     ],
-     "kw": [
-      "hold gown inside neckline",
-      "let it unfold away from table",
-      "hands stay inside sleeves",
-      "closed gloving",
-      "assistant ties back",
-      "turn with card for waist tie",
-      "hands between chest and waist"
-     ],
-     "pearls": [
-      "เอามือโผล่พ้นแขนเสื้อก่อนใส่ถุงมือ = เปลี่ยนเป็น open technique โดยไม่ตั้งใจ",
-      "contaminate แล้วไม่เริ่มใหม่ = ตก"
-     ],
-     "members": [
-      "MDCU65|RoA|11#1",
-      "MDCU65|RoB|13#1"
-     ]
-    },
-    {
-     "id": "who-handwash",
-     "title": "ล้างมือ WHO 7 ขั้นตอน",
-     "asked": [
-      "ล้างมือตาม WHO + ทำแผล (78A)",
-      "ล้างมือ + ตัดไหม (78B)"
-     ],
-     "pattern": [
-      "7 ขั้นตอน 40–60 วินาที · ปิดก๊อกด้วยกระดาษ · 5 moments"
-     ],
-     "flow": [
-      "ถอดเครื่องประดับ → เปียก ลงสบู่ → 7 ขั้นตอน → ล้าง → เช็ด → ปิดก๊อกด้วยกระดาษ"
-     ],
-     "kw": [
-      "WHO 7 steps",
-      "40-60 seconds",
-      "5 moments"
-     ],
-     "members": [
-      "MDCU78|RoA|22#1",
-      "MDCU78|RoB|26#1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Wound care & local anesthesia",
-   "sections": [
-    {
-     "id": "wound-dressing",
-     "title": "ทำแผลเย็บแล้ว (dry dressing) ด้วย aseptic / no-touch technique",
-     "trend": "ประเมินลำดับการเปิด dressing set และการเช็ดสะอาดไปสกปรกเป็นหลัก",
-     "asked": [
-      "Demonstrate how to dress a wound, including putting on sterile gloves, using aseptic technique",
-      "Arm model ที่เย็บไว้เมื่อวาน → clean the wound and apply a new dressing (ต้องเปิด dressing set เอง; ไม่มีถุงมือ = no-touch technique)",
-      "ปิดแผลที่เย็บ (79C)",
-      "ทำแผล dry dressing ด้วยถุงมือ non-sterile (78A)"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันผู้ป่วย อธิบาย ขออนุญาต · ล้างมือ (alcohol hand rub) · จัดท่า เปิดแผล วางถุงขยะใกล้มือ",
-      "เปิด dressing set: แกะเทปไม่แตะด้านใน → มุมไกลตัวก่อน → มุมข้าง → มุมใกล้ตัวสุดท้าย ไม่เอื้อมข้าม sterile field",
-      "เท NSS / antiseptic ลงถ้วยโดยปากขวดไม่แตะ set (เททิ้งเล็กน้อยก่อน) · เทก๊อซ / สำลีลงโดยไม่สัมผัส",
-      "ลอกก๊อซเก่าด้วยถุงมือสะอาดหรือปากคีบอันแรก → ทิ้งถังติดเชื้อ แยกปากคีบนั้นทิ้ง · ประเมินแผล (บวม แดง ร้อน หนอง เลือดซึม แผลแยก) · ล้างมือ",
-      "ใส่ sterile gloves (open) หรือใช้ปากคีบ 2 อัน (no-touch)",
-      "เช็ดแนวแผลก่อนด้วย NSS ปาดครั้งเดียวต่อสำลีหนึ่งก้อน → เช็ดผิวรอบแผลจากในออกนอก ~2–3 cm ไม่ย้อน · ซับแห้ง",
-      "ปิดก๊อซ sterile เลยขอบแผล ~2–3 cm ติดพลาสเตอร์",
-      "ทิ้งขยะติดเชื้อ / ของมีคม ถอดถุงมือ ล้างมือ แนะนำการดูแลแผล บันทึก"
-     ],
-     "pattern": [
-      "<b>แผลสะอาด: เช็ดจากแผลออกนอก (clean → dirty)</b>; แผลติดเชื้อ: เช็ดจากรอบนอกเข้าหาแผลเพื่อไม่ให้เชื้อกระจาย",
-      "<b>สำลี 1 ก้อน = ปาด 1 ครั้ง</b> ไม่เช็ดย้อน",
-      "<b>ปากคีบที่ลอกแผลเก่า = สกปรก</b> แยกทิ้ง ไม่กลับมาใช้",
-      "ลำดับเปิด set: ไกลตัว → ข้าง → ใกล้ตัว",
-      "แผลเย็บสะอาด epithelialize ภายใน ~48 ชม. — ปกติไม่ต้องเปิดใน 48 ชม. แรกยกเว้นก๊อซเปียก / สงสัยติดเชื้อ (แต่สถานีประเมินเทคนิค)"
-     ],
-     "kw": [
-      "consent",
-      "hand hygiene",
-      "open set far corner first",
-      "pour without touching",
-      "remove old dressing with separate forceps",
-      "assess wound",
-      "no-touch technique",
-      "one swab one stroke",
-      "clean to dirty",
-      "cover beyond edges",
-      "dispose, wash hands, document"
-     ],
-     "pearls": [
-      "MDCU65 RoB: พูดว่าจะใส่ถุงมือหลังอาจารย์บอกว่าไม่มีถุงมือ = ตก — ต้องเปลี่ยนเป็น no-touch ด้วยปากคีบ",
-      "เอื้อมมือข้าม sterile field / ปากขวดแตะ set แล้วไม่แก้ไข = หักมาก"
-     ],
-     "members": [
-      "MDCU67|RoC|13#1",
-      "MDCU65|RoB|12#1",
-      "MDCU79|RoC|1#2",
-      "MDCU78|RoA|22#2"
-     ]
-    },
-    {
-     "id": "la-infiltration",
-     "title": "ฉีดยาชาเฉพาะที่ (field block รอบก้อน / ขอบแผล) ก่อนเย็บหรือตัดก้อน",
-     "trend": "ต้องบรรยายทุกขั้นตอนออกเสียง — คะแนนสำคัญคือ aspirate ก่อนฉีดและขนาดยาสูงสุด",
-     "asked": [
-      "Infiltrate local anaesthetic around the lumps (upper arm + forearm), describing each step aloud (ผู้คุมสอบเป็นผู้ช่วย)",
-      "Infiltrate local anesthesia then close the wound with vertical mattress sutures",
-      "ฉีดยาชา: เข็มชมพู (18G) ดูดยา เข็มม่วง (เล็ก) ฉีด (79C)",
-      "ทาน้ำยา ปูผ้า ดูดยาไล่อากาศ ฉีดแขนปลอม (78C)"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันผู้ป่วยและตำแหน่ง อธิบาย ขอ consent · ถามแพ้ยาชา / ยาต้านเกล็ดเลือด / anticoagulant",
-      "ตรวจยากับผู้ช่วย: ชื่อ (1% lidocaine ± adrenaline) ความเข้มข้น วันหมดอายุ · คำนวณขนาดสูงสุด",
-      "ดูดยาด้วยเข็มใหญ่ 18–21G → เปลี่ยนเป็นเข็มเล็ก 24–27G ไล่ฟองอากาศ",
-      "ทำความสะอาดผิวจากกลางออกนอกเป็นวงกว้าง · ปูผ้าเจาะกลาง",
-      "เตือนผู้ป่วยก่อนแทง → ทำ wheal → aspirate ทุกครั้งก่อนฉีด → ฉีดช้า ๆ ขณะถอนเข็ม",
-      "ก้อน: field block รูปเพชร / สี่เหลี่ยมล้อมรอบก้อน แทงจุดใหม่ผ่านบริเวณที่ชาแล้ว ทั้งชั้น intradermal และ subcutaneous · ทำครบทุกก้อน (รวมขนาดยาไม่เกินสูงสุด) · แผล: แทงผ่านขอบแผลด้านใน (เจ็บน้อยกว่า)",
-      "รอ 3–5 นาที ทดสอบความชาด้วยปลายเข็ม / forceps · เฝ้าระวัง LAST",
-      "ทิ้งเข็มลง sharps box ไม่สวมปลอกด้วยสองมือ"
-     ],
-     "pattern": [
-      "<b>Lidocaine max</b>: 4.5 mg/kg (สูงสุด 300 mg) ถ้าไม่มี adrenaline · 7 mg/kg (สูงสุด 500 mg) ถ้ามี adrenaline · 1% = 10 mg/mL",
-      "<b>Aspirate ก่อนฉีด</b> ไม่มีเลือดย้อนจึงฉีด — ไม่ aspirate = หักมาก",
-      "<b>Field block รอบก้อน ไม่ฉีดเข้าก้อน</b> (ขอบเขตก้อนไม่เสีย ไม่แพร่เชื้อ / เซลล์)",
-      "ลดความเจ็บ: เข็มเล็ก ฉีดช้า ยาอุ่น แทงผ่านขอบแผล · adrenaline ลดเลือดออกและยืดฤทธิ์ (หลักฐานปัจจุบันใช้ที่นิ้วได้ในคนไม่มีโรคหลอดเลือดส่วนปลาย)",
-      "<b>LAST</b>: ชารอบปาก หูอื้อ รสโลหะ สับสน ชัก หัวใจเต้นผิดจังหวะ → หยุดยา ABC, lipid emulsion 20%",
-      "Lidocaine max 4.5 mg/kg (7 กับ adrenaline) · aspirate ก่อนฉีด · ฉีดผ่านขอบแผล"
-     ],
-     "kw": [
-      "consent, ask allergy",
-      "check drug name / concentration / expiry with assistant",
-      "max dose 4.5 mg/kg (7 with adrenaline)",
-      "draw with large needle, inject with small needle",
-      "antiseptic + drape",
-      "warn patient",
-      "aspirate before injecting",
-      "inject slowly while withdrawing",
-      "field block around lump",
-      "test anaesthesia",
-      "watch for LAST",
-      "sharps box, no recapping"
-     ],
-     "pearls": [
-      "ลืมบรรยายออกเสียงในสถานีที่สั่งให้บรรยาย = เสียคะแนนแม้ทำถูก",
-      "มีสองก้อน → ต้องคำนวณขนาดยารวม ไม่ใช่ต่อก้อน"
-     ],
-     "members": [
-      "MDCU67|RoA|13#2",
-      "MDCU66|RoD|5#1",
-      "MDCU79|RoC|2#2",
-      "MDCU78|RoC|10#2",
-      "MDCU78|RoC|10#3"
-     ]
-    },
-    {
-     "id": "wet-dressing-bite",
-     "title": "Wet dressing แผลสุนัขกัดหลัง debridement",
-     "asked": [
-      "ผู้ป่วยถูกสุนัขกัด 2 วัน debride แล้วทำ wet dressing → ใส่ sterile gloves แล้ว demonstrate wet dressing"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันผู้ป่วย อธิบาย ขออนุญาต จัดท่า เตรียม set",
-      "ถุงมือสะอาดแกะ gauze เก่า (ติดแผลให้ชุบ NSS ก่อน) → ทิ้งถังติดเชื้อ",
-      "ประเมินแผล: ขนาด ความลึก discharge / หนอง กลิ่น necrotic tissue granulation cellulitis รอบแผล",
-      "เปลี่ยนเป็นถุงมือ sterile / forceps → เช็ดผิวรอบแผลด้วย antiseptic จากในออกนอก → ล้างในแผลด้วย NSS",
-      "ชุบ gauze ด้วย NSS บิดหมาด วางสัมผัสพื้นแผลทุกซอก (fill dead space หลวม ๆ ไม่อัดแน่น) → ปิดทับ gauze แห้งหนา → tape",
-      "ไม่เย็บปิด · บอกแผน: เปลี่ยนแผลวันละ 2–3 ครั้ง, rabies vaccine + RIG, tetanus, amoxicillin-clavulanate, นัดดูอาการติดเชื้อ · ทิ้งขยะ ล้างมือ บันทึก"
-     ],
-     "pattern": [
-      "<b>Wet-to-moist</b>: gauze ชุบ NSS บิดหมาด (ชุ่มเกิน → ผิวรอบแผลเปื่อย maceration) ช่วย debride เบา ๆ และให้ granulation ขึ้น",
-      "<b>ไม่ใช้ antiseptic เข้มข้นในแผล</b> (ทำลาย granulation) — ใช้ NSS ในแผล antiseptic รอบแผล",
-      "<b>Dog bite ไม่เย็บปิด</b> (แผลติดเชื้อ / ปนเปื้อน) → delayed primary closure เมื่อแผลสะอาด · ยกเว้นแผลบนใบหน้าที่มักพิจารณาเย็บ",
-      "<b>ยา</b>: amoxicillin-clavulanate (Pasteurella, Capnocytophaga, anaerobes) · rabies PEP ตาม WHO category + tetanus"
-     ],
-     "kw": [
-      "soak old gauze with NSS before removal",
-      "assess wound bed",
-      "NSS irrigation",
-      "gauze moist not soaking",
-      "loosely fill dead space",
-      "dry gauze cover",
-      "leave open, no primary closure",
-      "rabies vaccine + RIG",
-      "tetanus",
-      "amoxicillin-clavulanate"
-     ],
-     "pearls": [
-      "ลืมพูดเรื่อง rabies / tetanus = หักบางส่วน"
-     ],
-     "members": [
-      "MDCU66|RoA|1#2"
-     ]
-    },
-    {
-     "id": "wound-advice",
-     "title": "Advice ดูแลแผลหลังเย็บ + นัดตัดไหม",
-     "asked": [
-      "หลังฉีดยาชาและเย็บ vertical mattress → give the patient advice on wound care"
-     ],
-     "flow": [
-      "ให้แผลแห้ง 24–48 ชม. แล้วอาบน้ำได้ ซับแห้ง ไม่แช่น้ำ · ทำแผลวันละครั้ง / เมื่อเปียก",
-      "อาการต้องกลับมาก่อนนัด: ปวดมากขึ้น บวมแดงร้อน หนอง ไข้ แผลแยก เลือดออก",
-      "นัดตัดไหมตามตำแหน่ง",
-      "ยาแก้ปวด paracetamol · ประเมิน tetanus · หลีกเลี่ยงการใช้แรง / ยืดบริเวณแผล"
-     ],
-     "pattern": [
-      "<b>นัดตัดไหม</b>: หน้า 3–5 วัน · หนังศีรษะ 7–10 วัน · ลำตัว / แขน 7–10 วัน · ขา 10–14 วัน · ข้อต่อ / ฝ่ามือฝ่าเท้า 14 วัน",
-      "<b>Tetanus</b>: แผลสะอาดเล็ก → Td ถ้าเข็มสุดท้าย >10 ปี หรือได้ไม่ครบ 3 เข็ม · แผลสกปรก → Td ถ้า >5 ปี และถ้าไม่ครบ 3 เข็มให้ TIG ร่วม"
-     ],
-     "kw": [
-      "keep dry 24–48 h",
-      "signs of infection → return",
-      "suture removal by site",
-      "analgesic",
-      "tetanus prophylaxis"
-     ],
-     "pearls": [
-      "บอกวันตัดไหมเป็นค่าเดียวโดยไม่ดูตำแหน่งแผล = ได้ไม่เต็ม"
-     ],
-     "members": [
-      "MDCU66|RoD|5#2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Bedside tubes & catheters",
-   "sections": [
-    {
-     "id": "ng-tube",
-     "title": "Nasogastric tube insertion",
-     "asked": [
-      "Demonstrate the correct insertion of an NG tube exactly as you would on a real patient",
-      "ชื่อหัตถการ = NG intubation/gastric decompression (79C)"
-     ],
-     "flow": [
-      "ตรวจข้อบ่งชี้ / ข้อห้าม (basal skull fracture, facial fracture; ระวัง esophageal stricture / varices)",
-      "แนะนำตัว อธิบาย ขออนุญาต ตกลงสัญญาณขอหยุด (ยกมือ) · ล้างมือ สวมถุงมือ",
-      "จัดท่า Fowler นั่ง 45–90° · เลือกรูจมูกที่โล่ง",
-      "วัดความยาว NEX: ปลายจมูก → ติ่งหู → xiphoid แล้วทำเครื่องหมาย",
-      "หล่อลื่นปลายสาย สอดตามพื้นโพรงจมูกตรงไปด้านหลัง (ขนานพื้น ไม่ชี้ขึ้น)",
-      "ถึง oropharynx → ให้ก้มคาง + กลืน (จิบน้ำ) ดันตามจังหวะกลืนจนถึงเครื่องหมาย · ไอ สำลัก เสียงเปลี่ยน เขียว → ดึงออกทันที",
-      "ยืนยันตำแหน่ง: ดูดได้ gastric content pH ≤ 5.5 · CXR ถ้าจะให้อาหาร / pH ไม่ชัด",
-      "ยึดสายกับจมูกไม่กดปีกจมูก · ต่อถุง / ปิดสาย · บันทึกขนาด ความยาว content · ถอดถุงมือ ล้างมือ ขอบคุณ"
-     ],
-     "pattern": [
-      "<b>NEX</b> nose–earlobe–xiphoid (ทารก: จมูก–ติ่งหู–กึ่งกลาง xiphoid กับสะดือ)",
-      "<b>ก้มคาง + กลืน</b> ปิด epiglottis นำสายเข้า esophagus · แหงนคอ = เข้าหลอดลมง่าย",
-      "<b>ยืนยันตำแหน่ง</b>: aspirate pH ≤ 5.5 หรือ CXR (ปลายสายใต้กะบังลมซ้าย) · whoosh test อย่างเดียวไม่แนะนำ",
-      "ข้อห้ามใส่ทางจมูก: basal skull fracture / facial fracture → ใส่ทางปาก"
-     ],
-     "kw": [
-      "consent + stop signal",
-      "Fowler position",
-      "measure NEX",
-      "lubricate",
-      "along nasal floor",
-      "chin down + swallow",
-      "withdraw if cough / cyanosis",
-      "confirm by aspirate pH ≤ 5.5 / CXR",
-      "secure without pressure on ala",
-      "document"
-     ],
-     "pearls": [
-      "ไม่ยืนยันตำแหน่ง หรือดันต่อเมื่อผู้ป่วยไอ / เขียว = ข้อสำคัญที่ตก",
-      "บอกว่ายืนยันด้วยการฟังเสียงลมอย่างเดียว = ไม่ได้คะแนนส่วนยืนยัน"
-     ],
-     "members": [
-      "MDCU67|RoD|10#1",
-      "MDCU79|RoC|11#3"
-     ]
-    },
-    {
-     "id": "foley-male",
-     "title": "Foley catheterization ในชาย acute urinary retention",
-     "asked": [
-      "Male patient with AUR → insert a urethral (Foley) catheter on the male manikin"
-     ],
-     "flow": [
-      "แนะนำตัว ยืนยันผู้ป่วย อธิบายข้อบ่งชี้ / ขั้นตอน ขออนุญาต · ถามแพ้ยาชา / povidone / latex",
-      "ตรวจข้อห้าม: เลือดที่รูเปิดท่อปัสสาวะ, ต่อมลูกหมากลอยสูง, perineal hematoma (urethral injury)",
-      "เลือกสาย 14–16 Fr · ตรวจอุปกรณ์ · นอนหงาย · ล้างมือ เปิดชุด sterile สวมถุงมือ sterile",
-      "มือไม่ถนัดจับองคชาต (ถือว่าไม่ sterile แล้ว) รูดหนังหุ้มลง → ทำความสะอาดจากรูเปิดวนออกนอก สำลี 1 ก้อนต่อ 1 รอบ · ปูผ้าเจาะกลาง",
-      "ใส่ lidocaine jelly เข้าท่อปัสสาวะ รอ 2–3 นาที",
-      "จับองคชาตตั้งฉาก 90° กับลำตัว ดึงตึงเล็กน้อย → สอดสายช้า ๆ จนปัสสาวะไหล แล้วสอดต่อถึง Y-junction",
-      "ใส่ sterile water 10 mL เข้า balloon (เจ็บ → หยุดและดูดออก) → ดึงกลับเบา ๆ จนติด bladder neck",
-      "รูดหนังหุ้มกลับ (กัน paraphimosis) · ต่อถุง ยึดสายกับหน้าท้อง / ต้นขา · ถุงต่ำกว่ากระเพาะปัสสาวะ ไม่แตะพื้น",
-      "บันทึกปริมาณ / ลักษณะปัสสาวะ เวลา ขนาดสาย ปริมาตร balloon · ทิ้งขยะ ล้างมือ"
-     ],
-     "pattern": [
-      "<b>สอดจนถึง Y-junction ก่อน inflate</b> (ในชาย balloon อาจยังอยู่ใน prostatic urethra แม้เห็นปัสสาวะ) · inflate ก่อนปัสสาวะไหล = ตก",
-      "<b>Sterile water</b> ไม่ใช้ลม / NSS",
-      "<b>Urethral injury</b> (เลือดที่ meatus, high-riding prostate, perineal / scrotal hematoma) → ห้ามใส่ → retrograde urethrogram / suprapubic cystostomy (ATLS 10th)",
-      "ใส่ไม่เข้าใน BPH → สาย Coudé หรือปรึกษา urologist ไม่ฝืน",
-      "ปัสสาวะค้างมาก: เฝ้าระวัง hematuria, hypotension, post-obstructive diuresis"
-     ],
-     "kw": [
-      "consent + allergy",
-      "contraindication: blood at meatus",
-      "14–16 Fr",
-      "sterile technique",
-      "clean meatus outward",
-      "lidocaine jelly",
-      "penis 90°",
-      "advance to Y-junction",
-      "10 mL sterile water",
-      "retract foreskin back",
-      "bag below bladder",
-      "record"
-     ],
-     "pearls": [
-      "ไม่รูดหนังหุ้มปลายกลับ = ตก (paraphimosis)",
-      "ไม่ถามข้อห้าม urethral injury ก่อนใส่ = เสียคะแนน"
-     ],
-     "members": [
-      "MDCU65|RoA|10#1"
-     ]
-    },
-    {
-     "id": "icd-insertion",
-     "title": "Tube thoracostomy (ICD) สำหรับ pneumothorax",
-     "asked": [
-      "หัตถการชื่อว่าอะไร"
-     ],
-     "pattern": [
-      "Intercostal chest drainage 4–5th ICS anterior–mid axillary line (triangle of safety) เหนือขอบบนซี่โครง"
-     ],
-     "members": [
-      "MDCU79|RoC|6#3"
-     ],
-     "flow": [
-      "ต่อจาก film pneumothorax และเลือกอุปกรณ์ → ถามชื่อหัตถการ"
-     ],
-     "kw": [
-      "tube thoracostomy",
-      "intercostal chest drainage",
-      "4th–5th ICS",
-      "triangle of safety"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"proc", title:"Procedure",
+  intro:"<ul><li>สถานี Procedure มี examiner ยืนดูและให้คะแนนตาม checklist — ออก <b>ทุก rotation ตั้งแต่ MDCU65 ถึง MDCU79</b> และมัก <b>จับคู่ 2 งานในสถานีเดียว</b>: ใส่ถุงมือ + เย็บ / ฉีดยาชา / ทำแผล, ล้างมือตาม WHO + ทำแผล / ตัดไหม, ฉีดยาชา + เย็บ</li><li>ออกบ่อยที่สุด 2 เรื่อง: <b>open sterile gloving</b> (งานแรกของสถานีแทบทุกปี) และ <b>เย็บแผลบน suture pad</b> — <b>vertical mattress</b> เด่นใน MDCU65–67 และกลับมาใน MDCU75–78, <b>simple interrupted</b> เด่นใน MDCU74–79; รุ่น MDCU76–78 นิยมสั่ง simple 1 + vertical mattress 1</li><li>ผูกปม: <b>one-handed square knot</b> บนบอร์ดท่อยาง / เชือก (MDCU65–67, 76–77), two-handed / secure 3-throw knot (MDCU65, 67), <b>instrument tie + surgeon's knot</b> เป็นส่วนของการเย็บเกือบทุกครั้ง; MDCU67 RoD และ MDCU78 RoB ถามการตัดหางไหม / ตัดไหมออก</li><li>แผลและยาชา: <b>ฉีดยาชาที่ขอบแผลก่อนเย็บ</b> (MDCU66–79 — เลือกเข็มดูด / เข็มฉีด, max dose lidocaine, aspirate ก่อนฉีด), field block รอบก้อนที่แขนและวางแนวแผล lipoma (MDCU67, 77), <b>dry dressing แผลเย็บสะอาด</b> (MDCU65–79 — เปิด set เอง, no-touch, เช็ดสะอาดไปสกปรก), wet dressing แผลเปิด / ติดเชื้อ / สุนัขกัด (MDCU66, 73, 74) และ advice ดูแลแผล + นัดตัดไหม (MDCU66)</li><li><b>Hand hygiene ตาม WHO</b> (alcohol hand rub / ล้างมือ, พูดอธิบายทีละขั้น, ถามว่ามีกี่ขั้น) ออกต่อเนื่อง MDCU69–78; <b>surgical scrub + เช็ดมือ</b> และ gown + closed gloving ออกใน MDCU65–72; หัตถการข้างเตียงออกน้อย: <b>Foley ในชาย</b> (MDCU65 สาธิตบนหุ่น, MDCU74–75 เขียน / อธิบายขั้นตอน), <b>NG tube</b> (MDCU67) และชื่อหัตถการ ICD / NG จาก film (MDCU79)</li></ul>",
+  groups:[
+    {title:"Sterile technique — hand hygiene, scrub, gloving, gown, skin prep", sections:[
+      {id:"open-gloving", title:"Open sterile gloving (ใส่ถุงมือ sterile แบบ open technique)",
+       trend:"งานแรกของสถานีแทบทุกปี ก่อนเย็บ / ฉีดยาชา / ทำแผล — ปนเปื้อนแล้วไม่เปลี่ยน = เสียทั้งข้อย่อย",
+       asked:["Put on sterile gloves (correctly) แล้วต่อด้วยเย็บแผล ฉีดยาชา หรือ dry / wet dressing","สมมติ scrub แล้ว → เช็ดมือด้วยผ้า sterile แล้วใส่ถุงมือแบบ open technique ในห้องผ่าตัด","Alcohol hand rub ตาม WHO แล้วใส่ถุงมือ — บางสถานีให้เลือก closed หรือ open เอง","ให้เลือกขนาดถุงมือเอง หรือเลือกถุงมือผ่าตัดจากถุงมือหลายแบบ (MDCU69, MDCU71)","ผู้คุมสอบทำหน้าที่ผู้ช่วยเปิดซองให้ แล้วใส่ถุงมือก่อนฉีดยาชารอบก้อน (MDCU67 RoA)"],
+       flow:["ล้างมือ / hand rub (หรือสมมติว่า scrub แล้ว มือสูงกว่าศอก) · ถอดเครื่องประดับ","เลือกขนาด ตรวจซองไม่ขาด ไม่เปียก ไม่หมดอายุ","เปิดซองนอกโดยจับเฉพาะด้านนอก (หรือให้ผู้ช่วยเปิด) → วางซองในบนพื้นผิวสะอาด แห้ง ระดับเอว → คลี่ซองในโดยจับเฉพาะขอบนอก","มือเปล่าจับด้านในของ cuff ที่พับไว้ของถุงมือข้างแรก → สอดมือเข้า (ยังไม่ต้องคลี่ cuff)","นิ้วของมือที่สวมแล้วสอดใต้พับ cuff (ผิวด้านนอก) ของถุงมือข้างที่สอง → สอดมือเข้า โดยกางนิ้วโป้งที่สวมแล้วออกไม่ให้แตะผิว","คลี่ cuff ทั้งสองข้างด้วยนิ้วที่อยู่ใต้พับ → ปรับนิ้วให้พอดี","ประสานมือไว้ด้านหน้าระดับเอว–อกจนเริ่มหัตถการ · ถ้าปนเปื้อน บอกผู้คุมสอบแล้วเปลี่ยนคู่ใหม่"],
+       pattern:["<b>กฎ skin-to-skin, glove-to-glove</b>: มือเปล่าแตะได้เฉพาะ <b>ผิวด้านใน</b> ของถุงมือ (ส่วน cuff ที่พับ); มือที่สวมถุงมือแล้วแตะได้เฉพาะ <b>ผิวด้านนอก</b> ของถุงมืออีกข้าง","<b>Open gloving</b> = หัตถการข้างเตียง / ไม่ได้ใส่ gown (เย็บแผล ทำแผล ฉีดยาชา ใส่สายสวน); <b>closed gloving</b> = หลังใส่ sterile gown ใน OR (มือไม่โผล่พ้นแขนเสื้อ)","<b>พื้นที่ sterile ของมือ</b> = หน้าลำตัว ระหว่างเอวกับไหล่ ในแนวสายตา — ห้ามห้อยต่ำกว่าเอว ห้ามซุกรักแร้ ห้ามไขว้หลัง","ถุงมือผ่าตัด (sterile มีเบอร์ตามขนาดมือ ข้อมือยาว) ≠ ถุงมือตรวจ (non-sterile) — สถานีที่ให้เลือกต้องเลือกถุงมือ sterile ขนาดพอดีมือ","ตรวจซอง (ขาด / เปียก / หมดอายุ) ก่อนเปิด = คะแนนแรกที่มักลืม"],
+       kw:["check size, pack integrity, expiry","open wrapper touching outside only","bare hand touches inside of cuff only","gloved fingers under cuff of second glove","gloved thumb kept away from skin","unfold cuffs without touching skin","hands in front, between waist and shoulders","change if contaminated"],
+       pearls:["นิ้วโป้งของมือที่สวมแล้วแตะผิวข้อมือขณะใส่ข้างที่สอง = ปนเปื้อนที่พบบ่อยที่สุด","มือเปล่าดึง / แตะผิวด้านนอกของถุงมือเพื่อจัดให้เรียบ = ปนเปื้อน","สถานีที่ต่อด้วยฉีดยาชา / ทำแผล: หลังใส่ถุงมือแล้วไปจับขวดยา โต๊ะ หรือผู้ป่วยส่วนที่ไม่ sterile = ปนเปื้อน — ให้ผู้ช่วยถือขวดยาและตรวจฉลากร่วมกัน","ลดมือต่ำกว่าเอว / กอดอกเอามือซุกรักแร้ระหว่างรอ = หักคะแนน"],
+       members:["MDCU67|RoA|13#1","MDCU67|RoB|12#2","MDCU67|RoC|13#1","MDCU66|RoA|1#1","MDCU66|RoB|1#1","MDCU66|RoC|13#1","MDCU65|RoC|3#1","MDCU79|RoC|2#1","MDCU78|RoA|21#1","MDCU78|RoC|10#1","MDCU77|RoA|5#1","MDCU77|RoC|7#2","MDCU77|RoD|2#1","MDCU76|RoC|6#1","MDCU76|RoD|3#1","MDCU75|RoC|5#2","MDCU74|RoA|13#1","MDCU74|RoD|4#1","MDCU73|RoB|1#2","MDCU73|RoD|1#1","MDCU72|RoC|7#2","MDCU72|RoD|2#1","MDCU71|RoA|3#1","MDCU71|RoB|3#1","MDCU70|RoA|10#1","MDCU70|RoB|12#1","MDCU69|RoA|12#1","MDCU68|RoC|1#1"]},
+      {id:"who-hand-hygiene", title:"Hand hygiene ตาม WHO: alcohol hand rub และล้างมือด้วยน้ำ + สบู่",
+       trend:"มักเป็นงานแรกก่อนทำแผล / ตัดไหม / ใส่ถุงมือ และหลายปีให้พูดอธิบายทีละขั้นหรือถามว่ามีกี่ขั้น",
+       asked:["Perform hand hygiene / hand washing according to the WHO technique แล้วทำ dry dressing หรือตัดไหม","Alcohol-based hand rub ตาม WHO พร้อมพูดอธิบายทีละขั้น แล้วใส่ถุงมือ sterile หรือ non-sterile","อธิบายขั้นตอน hand rub ด้วย alcohol gel ตาม WHO และบอกว่ามีกี่ขั้นตอน (MDCU69)","Alcohol hand rub แบบ 'WHO 7 steps' แล้วใส่ถุงมือ (MDCU73)"],
+       flow:["ถอดแหวน นาฬิกา กำไล · เล็บสั้น ไม่มีเล็บปลอม","Hand rub: กดเจลให้เต็มอุ้งมือ (~3 mL) / Handwash: ทำมือให้เปียก → ลงสบู่","ฝ่ามือถูฝ่ามือ","ฝ่ามือถูหลังมืออีกข้าง นิ้วสอดประสาน แล้วสลับข้าง","ฝ่ามือถูฝ่ามือ นิ้วสอดประสาน (ถูซอกนิ้ว)","หลังนิ้วถูฝ่ามืออีกข้าง นิ้วล็อกกัน","กำนิ้วโป้งหมุนถู แล้วสลับข้าง","ปลายนิ้ว / เล็บหมุนถูกลางฝ่ามือ แล้วสลับข้าง","แบบ 7 ขั้นตอนที่สอนในไทย: ถูรอบข้อมือ","Hand rub: ถูจนแห้งเอง ไม่ใช้ผ้าเช็ด / Handwash: ล้างน้ำ → เช็ดด้วยกระดาษใช้ครั้งเดียว → ใช้กระดาษปิดก๊อก"],
+       pattern:["<b>WHO How to Handrub / How to Handwash</b>: ท่าถูหลัก <b>6 ท่า</b> (ฝ่ามือ, หลังมือ, ซอกนิ้ว, หลังนิ้ว, นิ้วโป้ง, ปลายนิ้ว); <b>ล้างมือ 7 ขั้นตอนแบบไทย</b> = 6 ท่า + ถูรอบข้อมือ — ถ้าถามว่ามีกี่ขั้น ตอบพร้อมระบุแหล่ง (WHO 6 ท่า / แบบไทย 7 ขั้น) และถูข้อมือด้วยเสมอ","<b>เวลา (WHO 2009)</b>: alcohol hand rub <b>20–30 วินาที</b> ถูจนแห้ง · ล้างมือด้วยน้ำ + สบู่ <b>40–60 วินาที</b>","<b>ใช้น้ำ + สบู่แทน alcohol</b> เมื่อมือเปื้อนเห็นชัด / เปื้อนเลือดหรือสารคัดหลั่ง หรือดูแลผู้ป่วย C. difficile (alcohol ไม่ฆ่าสปอร์)","<b>WHO 5 moments</b>: ก่อนสัมผัสผู้ป่วย · ก่อนทำหัตถการ aseptic · หลังสัมผัสสารคัดหลั่ง · หลังสัมผัสผู้ป่วย · หลังสัมผัสสิ่งแวดล้อมรอบผู้ป่วย","สถานีที่ให้ 'อธิบายทีละขั้น' — พูดชื่อท่าไปพร้อมทำ"],
+       kw:["remove jewellery","palmful of gel","palm to palm","palm over dorsum, fingers interlaced","palm to palm, fingers interlaced","backs of fingers, interlocked","rotational rubbing of thumbs","fingertips in palm","wrists (Thai 7 steps)","rub 20–30 s until dry / wash 40–60 s","paper towel to close tap","5 moments"],
+       pearls:["ลืมนิ้วโป้งหรือปลายนิ้ว = ผิวที่มักถูกลืมและผู้คุมสอบดู","เช็ด alcohol ด้วยผ้า / สะบัดมือ แทนการถูจนแห้ง = ผิดหลัก","ปิดก๊อกด้วยมือเปล่าหลังล้าง = ปนเปื้อนซ้ำ","ทำเงียบในสถานีที่สั่งให้อธิบาย = เสียคะแนนส่วนอธิบายแม้ท่าถูก","Hand hygiene ทั่วไป (ถึงข้อมือ) ≠ surgical hand preparation (ถึงข้อศอก ใช้เวลานานกว่า) — อย่าสลับกัน"],
+       members:["MDCU78|RoA|22#1","MDCU78|RoB|26#1","MDCU77|RoB|9#1","MDCU77|RoC|7#1","MDCU76|RoA|11#1","MDCU76|RoC|1#1","MDCU75|RoC|5#1","MDCU75|RoD|5#1","MDCU74|RoA|3#1","MDCU73|RoB|1#1","MDCU69|RoC|11#1"]},
+      {id:"surgical-scrub-dry", title:"Surgical hand scrub / surgical hand rub และการเช็ดมือหลัง scrub",
+       trend:"ถามทั้งการฟอกมือก่อนผ่าตัดและการเช็ดมือด้วยผ้า sterile ก่อนใส่ถุงมือหรือ gown",
+       asked:["Demonstrate a surgical hand scrub + hand drying แล้วใส่ถุงมือ open technique (MDCU67)","หลัง scrub เสร็จใน OR → เช็ดมือด้วยผ้า sterile แล้วใส่ถุงมือ open หรือใส่ gown + ถุงมือ (MDCU65–66)","Surgical hand washing พร้อมบรรยายทุกขั้น แล้วใส่ถุงมือ (MDCU72)","Surgical hand antisepsis ด้วย alcohol gel ตาม WHO + เลือกถุงมือ (MDCU71)","สมมติล้างมือแล้ว → เช็ดมือ + ใส่ถุงมือ เลือกขนาดเอง (MDCU69); ล้างมือ + ใส่ถุงมือ (MDCU70)"],
+       flow:["ถอดนาฬิกา แหวน กำไล · เล็บสั้น ไม่ทาสี ไม่มีเล็บปลอม · ไม่มีแผลที่มือ · สวมหมวกคลุมผมและ mask ให้เรียบร้อยก่อนล้าง","Pre-wash มือและแขนถึงเหนือศอก · ทำความสะอาดใต้เล็บด้วย nail pick / แปรง (ใช้เฉพาะใต้เล็บ)","Scrub ด้วย chlorhexidine 4% หรือ povidone-iodine 7.5% ตามเวลาที่ผลิตภัณฑ์กำหนด (2–5 นาที): ปลายนิ้ว → นิ้วทุกด้าน → ซอกนิ้ว → ฝ่ามือ / หลังมือ → ข้อมือ → แขน → เหนือศอก ทีละข้าง","มือสูงกว่าศอกตลอด ให้น้ำไหลจากปลายนิ้วลงศอก · ล้างออกทิศเดียว ไม่สะบัด · ปิดน้ำด้วยศอก / เท้า","เดินเข้าห้องโดยใช้หลังดันประตู มือตั้งอยู่หน้าอก ห่างตัว","เช็ดมือ: หยิบผ้า sterile โดยไม่ให้น้ำหยดลงห่อ ก้มตัวเล็กน้อยไม่ให้ผ้าแตะชุด → ใช้ครึ่งหนึ่ง / ปลายหนึ่งของผ้าเช็ดแขนแรกจากปลายนิ้ว → ฝ่ามือ / หลังมือ → ข้อมือ → ศอก หมุนผ้าลงไป ไม่ย้อนกลับ","ใช้อีกครึ่ง / อีกด้านของผ้าเช็ดแขนที่สองแบบเดียวกัน → ทิ้งผ้าโดยไม่ลดมือต่ำกว่าเอว → ใส่ gown / ถุงมือ"],
+       pattern:["<b>ทิศเดียว: สะอาดที่สุด (ปลายนิ้ว) → สะอาดน้อย (ศอก)</b> ทั้งฟอก ล้าง และเช็ด — ไม่ย้อนกลับมาที่มือ","<b>มือสูงกว่าศอกตลอด</b> หลังเริ่ม scrub · <b>ผ้าคนละครึ่ง / คนละด้านต่อแขน</b>","<b>WHO 2009 surgical hand preparation</b>: ฟอกด้วย antimicrobial soap 2–5 นาที (นานกว่านี้ไม่ได้ประโยชน์เพิ่ม) หรือใช้ <b>alcohol-based surgical hand rub</b> ตามเวลาที่ผู้ผลิตกำหนด (สูตร WHO: ≥ 3 รอบ รวม 3–5 นาที) ให้มือถึงแขนเปียกยาตลอด ถึงข้อศอก · ไม่แนะนำแปรงขัดผิว","ถ้าล้างน้ำก่อนใช้ alcohol rub ต้องเช็ดมือให้แห้งสนิทก่อนลงยา · surgical rub ถูจนแห้งเองแล้วใส่ถุงมือ","ห้ามเครื่องประดับ / นาฬิกา และห้ามเล็บปลอมในทีมผ่าตัด"],
+       kw:["remove watch, rings","cap and mask before scrub","nail cleaning","chlorhexidine 4% / povidone-iodine 7.5%","2–5 min (product time)","fingertips to above elbow","hands above elbows","rinse one direction","back through door","half towel per arm, fingertip → elbow","no back-tracking"],
+       pearls:["MDCU65 RoA: ไฟล์เน้น 'อย่าลืมถอดนาฬิกา' — ลืมถอดเครื่องประดับ = เสียคะแนนตั้งแต่ขั้นแรก","มือต่ำกว่าศอก / เช็ดย้อนจากศอกกลับมาที่มือ / ใช้ผ้าส่วนเดียวเช็ดทั้งสองแขน = ปนเปื้อน","ใส่หมวก / mask หลัง scrub (ต้องใช้มือจับ) = ปนเปื้อน — ใส่ก่อนเริ่มล้าง","MDCU71 ให้เลือกถุงมือ — เลือกถุงมือผ่าตัด sterile ไม่ใช่ถุงมือตรวจ"],
+       members:["MDCU67|RoB|12#1","MDCU66|RoC|13#1","MDCU65|RoA|11#1","MDCU65|RoB|13#1","MDCU65|RoC|3#1","MDCU72|RoC|7#1","MDCU71|RoB|3#1","MDCU70|RoA|10#1","MDCU69|RoA|12#1"]},
+      {id:"gown-closed-gloving", title:"ใส่ sterile gown + closed gloving ก่อนเข้าผ่าตัด",
+       trend:"ต่อจาก scrub และเช็ดมือเป็นสถานียาว — ประเมินการไม่ให้มือโผล่พ้นแขนเสื้อ",
+       asked:["Scrub → เช็ดมือ → ใส่ sterile gown และถุงมือ ผู้คุมสอบดู (MDCU65 RoA)","หลัง scrub เสร็จ เช็ดมือด้วยผ้า sterile แล้วใส่ gown + ถุงมือพร้อมเข้าห้องผ่าตัด (MDCU65 RoB)"],
+       flow:["Scrub และเช็ดมือ (ดู section surgical scrub)","หยิบ gown ที่ด้านในคอเสื้อ ยกขึ้นถอยห่างโต๊ะ ปล่อยให้คลี่ลง ไม่ให้แตะตัวหรือสิ่งของ","สอดแขนทั้งสองพร้อมกัน มือไม่โผล่พ้นปลายแขนเสื้อ","ผู้ช่วย non-sterile จับด้านในไหล่ดึงเข้าที่ และผูกเชือกคอ / หลัง","Closed gloving: ผ่านแขนเสื้อ วางถุงมือบนฝ่ามือ นิ้วถุงมือชี้ไปทางศอก → จับขอบ cuff พลิกคลุมปลายแขนเสื้อ → ดึงแขนเสื้อและถุงมือให้มือสอดเข้า → ทำอีกข้างด้วยมือที่สวมแล้ว","ผูกเชือกเอว (wrap-around gown): ส่งป้ายกระดาษให้ผู้ช่วย หมุนตัว ดึงเชือกออกจากป้ายแล้วผูกเอง","มือประสานด้านหน้าระดับอก–เอว รอเริ่มผ่าตัด"],
+       pattern:["<b>Sterile zone ของ gown</b> = ด้านหน้าตั้งแต่อกถึงระดับ sterile field และแขนเสื้อจากเหนือศอก ~5 cm ถึง cuff — หลัง คอ ไหล่ ใต้รักแร้ ไม่ sterile","<b>Closed gloving</b>: มือไม่ออกจากแขนเสื้อจนถุงมือคลุม cuff เสร็จ · open gloving ใช้เมื่อไม่ได้ใส่ gown","ปนเปื้อนระหว่างขั้นตอน → แจ้งและเปลี่ยนชิ้นที่ปนเปื้อนทันที (ถุงมือ / gown)"],
+       kw:["hold gown inside at neckline","let gown unfold away from table","both arms in, hands inside cuffs","assistant ties back","closed gloving through sleeve","glove cuff over gown cuff","turn with card for waist tie","hands in front, chest to waist"],
+       pearls:["จับด้านนอก gown ด้วยมือเปล่าตอนหยิบ = ปนเปื้อนทั้งชุด","มือโผล่พ้นแขนเสื้อแล้วยังทำ closed gloving ต่อ = ผิดเทคนิค","หันหลังให้ sterile field / ปล่อยมือต่ำกว่าเอวหลังสวมเสร็จ = หักคะแนน"],
+       members:["MDCU65|RoA|11#1","MDCU65|RoB|13#1"]},
+      {id:"skin-prep-drape", title:"Skin preparation และ draping ก่อนทำหัตถการ",
+       trend:"เป็นข้อย่อยระหว่างใส่ถุงมือกับฉีดยาชา — ดูทิศการทาและการใช้ forceps",
+       asked:["Demonstrate gloving, draping and cleaning of the wound area โดยให้สำลี / ก๊อซมา (MDCU70)","ใส่ถุงมือ → ทา antiseptic และปูผ้า → ดูดยาชา ไล่อากาศ ฉีดแขนจำลอง (MDCU78)"],
+       flow:["ใส่ถุงมือ sterile","ใช้ sponge-holding forceps คีบก๊อซ / สำลีชุบ antiseptic (ไม่ใช้มือจับ)","ทาจากจุดที่จะทำหัตถการเป็นวงออกด้านนอก กว้างพอครอบคลุมบริเวณที่อาจขยาย ไม่ย้อนกลับเข้ากลาง","เปลี่ยนก๊อซใหม่ทุกรอบ ทา 2–3 รอบ รอให้แห้ง","ปูผ้าเจาะกลาง (fenestrated drape) ให้จุดที่จะทำอยู่กลางช่อง มือไม่แตะส่วนไม่ sterile"],
+       pattern:["<b>Concentric จากในออกนอก</b> (สะอาดไปสกปรก) · ก๊อซที่ไปถึงขอบนอกแล้วห้ามกลับเข้ากลาง","<b>รอแห้ง</b>: povidone-iodine ต้องสัมผัสผิว ~2 นาทีจึงออกฤทธิ์ · chlorhexidine-alcohol ต้องแห้งสนิทก่อนใช้ไฟจี้ (ติดไฟได้)","น้ำยาเตรียมผิวก่อนผ่าตัด: <b>WHO 2016</b> แนะนำ alcohol-based chlorhexidine; <b>CDC 2017</b> แนะนำ alcohol-based antiseptic — povidone-iodine เป็นทางเลือก","บนแผลเปิด / mucosa ไม่ใช้น้ำยาที่มี alcohol — ทาผิวรอบแผล ล้างในแผลด้วย NSS"],
+       kw:["sterile gloves first","sponge-holding forceps","antiseptic centre → outward, no return","new gauze each round, 2–3 rounds","allow to dry","fenestrated drape centred on site"],
+       pearls:["ใช้มือจับก๊อซทาผิวแทน forceps — คำตอบ bank MDCU70 ระบุให้ใช้ forceps","ทาวนกลับเข้ากลาง / ใช้ก๊อซเดิมหลายรอบ = ผิดหลัก clean to dirty"],
+       members:["MDCU78|RoC|10#2","MDCU70|RoB|12#1"]}
+    ]},
+    {title:"Skin suturing & knot tying", sections:[
+      {id:"vertical-mattress", title:"Vertical mattress suture บน suture pad",
+       trend:"สถานีเย็บที่ออกมากที่สุด — สั่ง 1–2 stitch เดี่ยว ๆ หรือคู่กับ simple interrupted / ผูกปมแบบอื่น",
+       asked:["Place one / two vertical mattress sutures on the pad and tie with an instrument tie (เข็มร้อยไหมมาให้แล้ว)","Stitch แรกผูก surgeon's knot ด้วยเครื่องมือ stitch ที่สองผูก one-handed square knot (MDCU66 RoC)","Simple interrupted 1 + vertical mattress 1 (MDCU76–78); MDCU67 RoD สั่ง simple 1 + 'mattress' 1 แล้วตัดไหม","ใส่ถุงมือแล้วเย็บ VM 2 อัน · ฉีดยาชาแล้วเย็บ VM แล้วให้ advice ดูแลแผล (MDCU66)","สมมติใส่ถุงมือ / ปูผ้า / ฉีดยาชาแล้ว → เย็บ VM บน silicone pad (MDCU77)","VM 1 อันต่อจากการผูก 3-throw knot บนบอร์ด (MDCU65 RoA) หรือ VM คู่กับ one-hand tie บนท่อยาง (MDCU67)"],
+       flow:["(บอกผู้คุมสอบ) ล้างมือ ใส่ถุงมือ เตรียมผิว ปูผ้า ฉีดยาชา — ถ้าโจทย์ไม่ได้บอกว่าทำแล้ว","จับ needle holder ด้วยนิ้วโป้ง + นิ้วนาง (ring grip) หรือ thenar grip · จับเข็มที่ ~1/3–1/2 จากโคนเข็ม ปากคีมตั้งฉากกับเข็ม ไม่จับปลายแหลม · จับเข็มด้วย forceps ไม่ใช้นิ้ว","Toothed forceps จับขอบแผล / dermis เบา ๆ (จับแบบปากกา) ไม่บีบผิว","Far–far: แทงเข็มตั้งฉากผิว ห่างขอบแผล ~5–10 mm ลงลึกถึง dermis ล่าง / subcutis หมุนข้อมือตามความโค้งเข็ม ออกฝั่งตรงข้ามระยะเท่ากัน","Near–near: กลับเข็ม (backhand) แทงที่ฝั่งที่เพิ่งออก ห่างขอบ ~1–2 mm ตื้นใน dermis ข้ามกลับออกฝั่งที่เริ่ม ในแนวเดียวกันตั้งฉากแผล → ปลายไหมทั้งสองอยู่ฝั่งเดียวกัน","Instrument tie: surgeon's knot (พัน 2 รอบ) → throw ถัดไปพัน 1 รอบสลับทิศ ≥ 3 throws = square knot · ดึงขนานผิว","ตึงพอให้ขอบแผลชิดและ evert ไม่รัดจนซีด · วางปมไว้ข้างแผล ไม่ทับแนวแผล","ตัดหางไหม ~5 mm · stitch ถัดไปห่าง ~5–10 mm สม่ำเสมอ · เข็มลง sharps container"],
+       pattern:["<b>ลำดับ far–far ก่อน แล้ว near–near</b> (far = ห่าง 5–10 mm ลึก, near = 1–2 mm ตื้น) ในระนาบเดียวกันตั้งฉากแผล · เย็บผิดชนิด (simple / horizontal) เมื่อโจทย์สั่ง vertical = ไม่ได้คะแนนส่วนนั้น","<b>แทงเข็มตั้งฉาก 90°</b> และหมุนตามความโค้งเข็ม → bite สมมาตรสองฝั่ง","<b>เป้าหมาย = wound edge eversion</b> + ปิด dead space · ใช้เมื่อขอบแผลม้วนเข้า / ผิวหย่อน (หลังมือ ข้อพับ คอ) หรือแผลตึง","<b>ข้อเสีย</b>: ช้า, รัดแน่น / ทิ้งไว้นาน → ขอบแผลขาดเลือด skin necrosis และรอยไหม (cross-hatch) — AAFP 2017: VM evert ขอบแผลได้ดีที่สุดแต่ทำให้ necrosis และแผลเป็นได้","<b>Horizontal mattress</b> = เข้า–ออกขนานแผลแล้วย้อนกลับฝั่งเดิมระยะเท่ากัน กระจายแรงตึงตามแนวแผล ห้ามเลือดดี — ใช้ได้เมื่อโจทย์บอกแค่ 'mattress' (MDCU67 RoD)"],
+       kw:["needle holder: thumb–ring grip","needle grasped 1/3–1/2 from swage","toothed forceps, gentle","needle perpendicular to skin","far–far (5–10 mm, deep) then near–near (1–2 mm, superficial)","same plane, both tails on one side","wound edge eversion","surgeon's knot then square knot ≥ 3 throws","knot to one side of wound","tail ~5 mm","sharps disposal"],
+       pearls:["ทำ near ก่อน far / แทงเข็มเฉียง / near bite ลึกเกิน → ขอบแผลไม่ evert","จับเข็มด้วยนิ้ว / ไหมหลุดจากเข็ม / วางเข็มทิ้งบนโต๊ะ = จุดหักคะแนนที่ bank ระบุซ้ำ","ปมทับแนวแผล, air knot (ปมลอยไม่แนบผิว), รัดจนขอบแผลซีด = หักคะแนน"],
+       members:["MDCU67|RoA|1#1","MDCU67|RoB|1#1","MDCU67|RoC|1#1","MDCU67|RoD|1#1","MDCU66|RoA|13#1","MDCU66|RoB|1#2","MDCU66|RoC|1#1","MDCU66|RoC|1#2","MDCU66|RoD|5#1","MDCU65|RoA|12#2","MDCU65|RoB|10#1","MDCU65|RoC|1#1","MDCU78|RoB|25#1","MDCU78|RoC|11#1","MDCU77|RoA|2#1","MDCU77|RoB|2#1","MDCU77|RoC|2#1","MDCU76|RoA|1#2","MDCU76|RoC|6#2","MDCU75|RoC|1#1"]},
+      {id:"simple-interrupted", title:"Simple interrupted suture บน suture pad",
+       trend:"เด่นในรุ่นหลัง — มักสั่ง 2 stitch หรือ simple 1 + vertical mattress 1 แล้วต่อด้วยทำแผล / ผูกปมมือเดียว",
+       asked:["Close the wound with two simple interrupted sutures แล้ว dress แผล (MDCU79) / หลังใส่ถุงมือ (MDCU74, MDCU78)","Simple interrupted 1 + vertical mattress 1 (MDCU76–78); MDCU67 RoD ต่อด้วยการตัดไหม","Simple interrupted 2 อันผูกด้วย one-handed knot (MDCU76 RoD) หรือ 1 อันผูก one-hand tie คู่กับ VM ผูก instrument tie (MDCU66 RoA)","ให้ toothed และ non-toothed forceps → เย็บ 2 อัน แล้วผูก one-handed square knot บนบอร์ด (MDCU77 RoD)","ฉีดยาชาแล้วเย็บ simple 1–2 อันผูก instrument tie (MDCU74–75)"],
+       flow:["(บอกผู้คุมสอบ) ล้างมือ ใส่ถุงมือ — ถ้าโจทย์ไม่ได้สมมติไว้","จับ needle holder ถูกวิธี จับเข็มที่ ~1/3–1/2 จากโคน (= 1/2–2/3 จากปลาย) ด้วยเครื่องมือ ไม่ใช้นิ้ว","Toothed forceps จับขอบแผลเบา ๆ","แทงเข็มตั้งฉากผิว ห่างขอบแผล ~3–5 mm (ระยะจากขอบ ≈ ความลึก) หมุนตามความโค้ง ลงถึง dermis ออกฝั่งตรงข้ามระยะและความลึกเท่ากัน","Instrument tie: surgeon's knot แล้ว throw สลับทิศ ≥ 3 throws (square) — หรือ one-hand tie ถ้าโจทย์สั่ง","ขอบแผลชนกันพอดี evert เล็กน้อย ไม่ซ้อน ไม่รัดแน่น · ปมวางข้างแผล","ตัดหางไหม ~5 mm · stitch ที่สองห่าง ~5–10 mm · เข็มลง sharps"],
+       pattern:["<b>Bite สมมาตร</b>: ระยะจากขอบ = ความลึก เท่ากันสองฝั่ง และกว้างที่ฐานมากกว่าที่ผิว (box / flask shape) → ขอบ evert","<b>ข้อดี</b>: ใช้ได้กับแผลส่วนใหญ่ (AAFP 2017) · เส้นใดหลุดเส้นอื่นยังอยู่ · ปรับความตึงได้ทีละจุด","<b>Toothed forceps</b> จับผิวหนัง (ช้ำน้อยกว่าเพราะไม่ต้องบีบแรง); non-toothed ไว้คีบก๊อซ / สำลี","ระยะระหว่าง stitch ≈ ระยะจากขอบแผล"],
+       kw:["correct needle holder grip, needle 1/3–1/2 from swage","toothed forceps on dermis","perpendicular entry","equal bite distance and depth both sides","edges just apposed, slightly everted","square knot ≥ 3 throws (surgeon's first)","knot to the side","tail ~5 mm","even spacing","sharps disposal"],
+       pearls:["แทงเฉียง / bite ไม่เท่ากัน → ขอบซ้อน (step-off) หรือม้วนเข้า","คำอธิบาย bank MDCU79: จุดที่ตกบ่อย = จับเข็มด้วยมือ, ไม่ evert ขอบแผล, ปมไม่ square","ใช้ non-toothed forceps บีบผิวแรง ๆ = ผิวช้ำ (MDCU77 ให้เลือก forceps เอง)"],
+       members:["MDCU67|RoD|1#1","MDCU66|RoA|13#2","MDCU79|RoC|1#1","MDCU78|RoA|21#2","MDCU78|RoB|25#1","MDCU78|RoC|11#1","MDCU77|RoA|2#1","MDCU77|RoC|2#1","MDCU77|RoD|7#1","MDCU76|RoA|1#1","MDCU76|RoD|8#1","MDCU75|RoD|7#2","MDCU74|RoA|13#2","MDCU74|RoD|2#2"]},
+      {id:"instrument-tie", title:"Instrument tie และ surgeon's knot",
+       trend:"เป็นส่วนของการเย็บเกือบทุกสถานี — บางปีสั่งชัดว่า 'tie with a surgeon's knot using instruments'",
+       asked:["Place VM / simple interrupted แล้ว tie with an instrument tie","Tie the first stitch with a surgeon's knot using instruments (MDCU66 RoC) / tie each VM with a surgeon's knot using the instruments (MDCU75 RoC)","Simple + VM tied with surgical knots (MDCU77 RoA)"],
+       flow:["วาง needle holder ขนานกับแผลระหว่างปลายไหมยาวและปลายสั้น","Throw แรก: พันปลายยาวรอบ needle holder 2 รอบ (surgeon's knot) → คีบปลายสั้น → ดึงข้ามแผล วางปมราบ ตึงพอให้ขอบชิด","Throw ที่สอง: พัน 1 รอบทิศตรงข้าม → คีบปลายสั้น → ดึงกลับอีกฝั่ง (มือสลับฝั่ง)","Throw ที่สามขึ้นไป: สลับทิศอีกครั้ง — ไหม monofilament ผูกเพิ่ม","วางปมไว้ข้างแผล · ตัดหาง ~5 mm"],
+       pattern:["<b>Surgeon's knot</b> = throw แรกพัน 2 รอบ (double throw) → แรงเสียดทานมากขึ้น ปมแรกไม่คลายระหว่างทำ throw ต่อไป (แผลตึง)","<b>Square knot</b>: ทุก throw สลับทิศการพันและสลับฝั่งการดึง · ดึงขนานผิว","ไหม monofilament (nylon, polypropylene) ลื่น → ต้องผูกมากกว่า 3 throws","Instrument tie ประหยัดไหม ใช้เมื่อไหมสั้น — วิธีมาตรฐานของการเย็บผิวหนัง"],
+       kw:["needle holder between strands","double wrap first throw (surgeon's knot)","alternate wrap direction each throw","hands cross sides","pull parallel to skin","≥ 3 throws","knot off the incision","tail ~5 mm"],
+       pearls:["พันทิศเดียวกันทุก throw = granny knot หลุดง่าย","ดึงปมแรกแน่นจนผิวซีด — throw แรกแค่ให้ขอบชิด","ปล่อยปลายสั้นหลุดจาก needle holder ระหว่าง throw ทำให้ปมแรกคลาย"],
+       members:["MDCU67|RoA|1#1","MDCU67|RoC|1#1","MDCU67|RoD|1#1","MDCU66|RoA|13#1","MDCU66|RoC|1#1","MDCU65|RoC|1#1","MDCU77|RoA|2#1","MDCU75|RoC|1#2","MDCU75|RoD|7#2","MDCU74|RoA|13#2"]},
+      {id:"one-hand-tie", title:"One-handed knot tying (square knot มือเดียว)",
+       trend:"มักเป็นงานที่สองต่อจากการเย็บ — ให้ผูกท่อยาง / ชิ้นยางให้ชนกัน หรือใช้ผูกปมเย็บแผล",
+       asked:["Using a one-handed technique, tie a knot that brings two rubber tubes / pieces together (MDCU67 RoA, RoC)","Tie a three-throw one-hand knot around a rubber tube on the board (MDCU65)","ผูก one-handed square knot เชื่อมเชือก silk 2 เส้นบนบอร์ด (MDCU77)","เย็บ simple interrupted / VM แล้วผูกด้วย one-hand tie (MDCU66, MDCU76)"],
+       flow:["มือผูกจับปลายไหมสั้น อีกมือถือปลายยาวให้ตึงพอดี","Throw แรก: index-finger throw — นิ้วชี้เกี่ยวไหมข้ามแล้วดึงปลายลอดห่วง","ดึงสองปลายในแนวราบขนานพื้นผิวไปคนละทิศ (มือข้ามฝั่งตามทิศ throw) · นิ้วชี้ดันปมลงถึงจุดผูก ไม่ยกท่อยาง","ปมแรกรัดให้ท่อยางชนกันพอดี ไม่หลวม ไม่บีบจนยางยุบ","Throw ที่สอง: middle-finger throw ทิศตรงข้าม → square knot วางราบ","Throw ที่สาม: สลับทิศอีกครั้ง lock ปม · รักษาแรงตึงไม่ให้ปมแรกคลาย","ตัดหางไหม (ถ้าให้ตัด)"],
+       pattern:["<b>สลับนิ้ว (index ↔ middle) และสลับทิศดึงทุก throw</b> → square knot ปมนอนราบ","<b>ดึงแรงเท่ากันในแนวราบ ทิศตรงข้าม</b>: ดึงไม่เท่ากัน = slip knot, ทิศเดิมซ้ำ = granny knot (คลายง่าย)","<b>≥ 3 throws</b> · ไม่มี air knot · ชิ้นยางชนกันพอดี = tension ถูก (approximate ไม่ strangulate)","ข้อดีของ one-hand tie: เร็ว ใช้ในที่ลึก / แคบ ขณะอีกมือต้องคุมเนื้อเยื่อ"],
+       kw:["one-handed technique","index-finger throw then middle-finger throw","alternate direction each throw","square knot ≥ 3 throws","push knot down with index finger","pull horizontally, equal tension","tubes just touching","no air / slip / granny knot"],
+       pearls:["ลืมไขว้มือข้ามฝั่ง → slip / granny knot ที่ดูแน่นแต่เลื่อนได้","ยกท่อยาง / บอร์ดขึ้นขณะดึง — ในผู้ป่วยจริงทำให้ ligature หลุด / ฉีกหลอดเลือด","ใช้สองมือผูกทั้งที่สั่ง one-handed = ไม่ได้คะแนนเทคนิค"],
+       members:["MDCU67|RoA|1#2","MDCU67|RoC|1#2","MDCU66|RoA|13#2","MDCU66|RoC|1#2","MDCU65|RoC|2#1","MDCU77|RoD|7#2","MDCU76|RoD|8#1"]},
+      {id:"two-hand-tie", title:"Two-handed tie / secure 3-throw square knot บนบอร์ด",
+       trend:"ออกเฉพาะรุ่นแรก (MDCU65, 67) — ปมต้องนอนราบแนบบอร์ด",
+       asked:["Tie a two-hand knot with three throws so that the knot lies flat against the board (MDCU65 RoB)","Using the cord, tie a knot around the rubber band with a two-handed technique (MDCU67 RoB)","Tie a secure 3-throw knot to bring two pieces of rubber together (MDCU65 RoA)"],
+       flow:["จับปลายเชือก / ไหมทั้งสองข้าง","Throw 1: ไขว้เป็นห่วงรอบนิ้วชี้ (หรือนิ้วโป้ง) ดึงปลายลอดห่วง — ถ้ากลัวคลายพัน 2 รอบ (surgeon's knot)","ดึงในแนวราบ มือไปคนละทิศ นิ้วชี้ดันปมลงถึงฐาน ไม่ยก / กระชาก","Throw 2: ทิศตรงข้าม (สลับมือนำ / ข้ามฝั่ง) → square knot นอนราบ","Throw 3: สลับทิศอีกครั้งเพื่อความมั่นคง · รักษาแรงตึงต่อเนื่อง","ตัดหางเหลือพอดี"],
+       pattern:["<b>Square (reef) knot</b> = throw แรกกับที่สองสลับทิศ; ทิศเดียวกัน = granny knot","<b>ปมนอนราบแนบบอร์ด</b> — ดันลงในแนวราบ ไม่ยกยาง · ตึงพอชิด ไม่รัดจนขาดเลือด","Two-handed tie คุมแรงตึงได้ดีกว่า one-handed → ใช้กับ monofilament / ผูกหลอดเลือดสำคัญ","Slip knot เกิดจากดึงไม่สมดุล — ตั้งใจใช้ปรับแรงตึงได้แต่ต้อง lock ด้วย square throw ภายหลัง"],
+       kw:["two-handed tie","square (reef) knot","3 throws, alternating","knot lies flat","push down horizontally","constant tension","no granny / slip knot"],
+       pearls:["ยกยาง / บอร์ดขึ้นขณะผูก หรือปมลอย (air knot) = หักคะแนน","ผูกแบบ one-hand หรือ instrument tie ทั้งที่สั่ง two-hand = ผิดเทคนิค"],
+       members:["MDCU67|RoB|1#2","MDCU65|RoB|11#1","MDCU65|RoA|12#1"]},
+      {id:"suture-cut-removal", title:"การตัดหางไหม และการตัดไหมออก (simple และ vertical mattress)",
+       trend:"ถามต่อจากการเย็บ — ต้องรู้ทั้งการตัดหางหลังผูกและการตัดไหมออกจากแผลที่หายแล้ว",
+       asked:["Demonstrate the correct technique for cutting the suture หลังเย็บ simple + mattress (MDCU67 RoD — ตีความได้ทั้งตัดหางและตัดไหมออก)","แผลหายแล้วมี simple 1 + VM 1 → hand hygiene แล้วตัดไหมทั้งสองเส้น (MDCU78 RoB)"],
+       flow:["ตัดหางหลังผูก: เลื่อนปลายกรรไกรตัดไหมลงตามเส้นไหมจนชนปม → หมุนกรรไกร ~45° → ตัด โดยเห็นปลายกรรไกรตลอด","ตัดไหมออก: ล้างมือ อธิบาย ขออนุญาต · ดูว่าแผลติดดี","ทำความสะอาดแผลด้วย antiseptic","Simple: ใช้ forceps ดึงปมขึ้นเล็กน้อย → ตัดไหมชิดผิวด้านหนึ่งใต้ปม → ดึงไหมออกเข้าหาแนวแผล","Vertical mattress: ตัด loop ไหมด้านตรงข้ามปมชิดผิว → ดึงไหมทั้งเส้นออกทางฝั่งปม","ตรวจว่าเอาไหมออกครบ · แผลแยกระหว่างตัด → หยุด ปิด steri-strip · ปิดแผล แนะนำผู้ป่วย"],
+       pattern:["<b>หลักการตัดไหมออก</b>: ตัดชิดผิว เพื่อไม่ให้ไหมส่วนที่อยู่นอกผิว (ปนเปื้อน) ถูกลากผ่านรูเข็มใต้ผิว · ดึงเข้าหาแนวแผล ไม่ดึงออกห่างแผล (กันแผลแยก)","<b>ความยาวหางไหม</b>: ไหมผิวหนัง (nylon) ~5–10 mm ให้คีบตัดออกง่าย · ไหมละลายฝังใต้ผิว ~2–3 mm","<b>Slide–rotate–cut</b>: เห็นปลายกรรไกรตลอด ไม่ตัดโดนเนื้อเยื่อ / ปม","<b>เวลาตัดไหม (AAFP 2017)</b>: หน้า 3–5 วัน · หนังศีรษะ / แขน 7–10 วัน · ลำตัว / ขา / มือ / เท้า 10–14 วัน · ฝ่ามือ / ฝ่าเท้า 14–21 วัน"],
+       kw:["slide, rotate, cut — tips visible","tail ~5–10 mm (skin), ~2–3 mm (buried)","clean wound before removal","lift knot with forceps","cut close to skin beneath knot","pull through toward the wound line","VM: cut loop opposite knot, pull out via knot side","check all removed, steri-strip if gaping"],
+       pearls:["MDCU67 RoD: bank ตีความ 'cutting the suture' ได้ 2 แบบและให้คะแนนแบบใดแบบหนึ่ง — ถามผู้คุมสอบให้ชัด หรือพูดทั้งสองแบบ","ตัดห่างผิวแล้วดึง → ไหมส่วนนอกผิวลากผ่านแผล เสี่ยงติดเชื้อ","VM ตัดผิดจุดจนไหมค้างใต้ผิว — ต้องตรวจว่าเอาออกครบ"],
+       members:["MDCU67|RoD|1#2","MDCU78|RoB|26#2"]}
+    ]},
+    {title:"Wound care", sections:[
+      {id:"dry-dressing", title:"Dry dressing แผลเย็บปิดสะอาด (aseptic / no-touch technique)",
+       trend:"ออกเกือบทุกปี มักคู่กับ hand hygiene หรือใส่ถุงมือ — ประเมินการเปิด set การแยก forceps และการเช็ดสะอาดไปสกปรก",
+       asked:["Demonstrate wound dressing รวมการใส่ถุงมือ sterile ด้วย aseptic technique (MDCU67)","แผลเย็บเมื่อวานบนแขนหุ่น ไม่มีถุงมือให้ ต้องเปิด dressing set เอง → no-touch technique ด้วย forceps (MDCU65)","Hand hygiene ตาม WHO / hand rub + ใส่ถุงมือ non-sterile แล้ว dry dressing แผลเย็บสะอาด (MDCU74–78)","Dry dressing แผล midline ที่เย็บด้วย staples โดยให้เลือกจากขวด irrigation saline, IV saline, chlorhexidine, povidone-iodine (MDCU77)","แผลหลังตัด lipoma / ก้อนที่แขน 1 วัน (MDCU74–75), แผลเย็บ 12 ชม. (MDCU68), dress แผลหลังเย็บบน pad (MDCU79), ใส่ถุงมือ sterile + dry dressing (MDCU72)"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วย อธิบาย ขออนุญาต · จัดท่า เปิดเฉพาะแผล · วางถุงขยะติดเชื้อใกล้มือ","ล้างมือ / hand rub · ใส่ถุงมือสะอาด (หรือใช้ forceps อันแรก) ลอกแผ่นปิดแผลเก่า → ทิ้ง → ประเมินแผล: บวม แดง ร้อน หนอง เลือดซึม hematoma แผลแยก","ถอดถุงมือ ล้างมือ · เปิด dressing set: มุมไกลตัวก่อน → มุมข้าง → มุมใกล้ตัวสุดท้าย ไม่เอื้อมข้าม sterile field","เท NSS (และ antiseptic ถ้าใช้) ลงถ้วยโดยปากขวดไม่แตะ set · เทก๊อซ / สำลีลง set โดยไม่สัมผัส","ใส่ถุงมือ sterile หรือใช้ forceps 2 อัน (no-touch): อันหนึ่งหยิบของจาก set อีกอันสัมผัสแผล ปลายไม่แตะกัน","เช็ดบนแนวแผลก่อนด้วยสำลีชุบ NSS ปาดทีเดียวจากบนลงล่าง (สำลี 1 ก้อน = 1 ครั้ง) → เช็ดผิวรอบแผลจากใกล้แผลออกไกล ~2–3 cm ไม่ย้อนกลับ","ซับแห้ง → ปิดก๊อซ sterile แห้งคลุมเกินขอบแผล → ติดเทปขวางแนวแผล ไม่ทับข้อพับ / skin crease","ทิ้งขยะติดเชื้อ ถอดถุงมือ ล้างมือ · แนะนำผู้ป่วย บันทึกลักษณะแผล"],
+       pattern:["<b>Clean → dirty</b>: แนวแผลเย็บคือส่วนที่สะอาดที่สุด → เช็ดแนวแผลก่อน แล้วออกนอก · <b>สำลี 1 ก้อน ปาด 1 ครั้ง</b> ไม่เช็ดย้อน","<b>Forceps ที่ลอกแผลเก่า = สกปรก</b> แยกทิ้ง ไม่กลับมาใช้ · forceps หยิบของกับ forceps เช็ดแผลต้องแยกกัน","<b>NICE NG125</b>: เปลี่ยน / ถอด dressing แผลผ่าตัดด้วย <b>aseptic non-touch technique</b> · ทำความสะอาดแผลด้วย <b>sterile saline ใน 48 ชม.แรก</b> · บอกผู้ป่วยว่า <b>อาบน้ำได้หลัง 48 ชม.</b>","น้ำยา: เลือก <b>NSS สำหรับ irrigation</b> (ไม่เปิดขวด IV) · แผลเย็บสะอาดไม่จำเป็นต้องทา povidone / chlorhexidine บนแผล — ถ้าใช้ ทาเฉพาะผิวรอบแผล · NICE NG125: ไม่ใช้ topical antimicrobial กับแผลผ่าตัดที่หายแบบ primary intention (AAFP 2017 ต่างกัน: แผลฉีกขาดที่เย็บแล้วให้ทา antibiotic ointment)","Dry dressing = แผลเย็บปิด ไม่มี discharge · แผลเปิด / มีหนอง / ต้อง debride → wet dressing"],
+       kw:["introduce, consent, expose wound only","hand hygiene","remove old dressing with clean glove / separate forceps","assess wound (redness, swelling, discharge, dehiscence)","open set far corner first","pour without touching","no-touch technique, two forceps","NSS along incision, one swab one stroke","clean to dirty, inside → out","dry sterile gauze beyond edges","tape across, not over crease","dispose, wash hands, document"],
+       pearls:["MDCU65 RoB ไม่มีถุงมือให้ — ต้องทำ no-touch ด้วย forceps ทั้งหมด ขอถุงมือหรือใช้มือจับสำลี = ผิด","เอื้อมมือข้าม sterile field / ปากขวดแตะ set / จับ forceps ที่ปลาย = ปนเปื้อนที่ถูกหักบ่อย","ใช้ forceps อันที่ลอกแผลเก่ามาเช็ดแผลต่อ หรือเช็ดย้อนไปมา = ผิดหลัก","MDCU77: คำตอบ bank ให้เลือก irrigation saline ไม่ใช่ขวด IV saline","ไฟล์ MDCU76 RoC เน้นติดพลาสเตอร์ไม่ทับ skin crease"],
+       members:["MDCU67|RoC|13#1","MDCU65|RoB|12#1","MDCU79|RoC|1#2","MDCU78|RoA|22#2","MDCU77|RoB|9#2","MDCU77|RoD|2#2","MDCU76|RoA|11#2","MDCU76|RoC|1#2","MDCU75|RoD|5#2","MDCU74|RoA|3#2","MDCU72|RoD|2#1","MDCU68|RoB|12#1"]},
+      {id:"wet-dressing", title:"Wet dressing แผลเปิด / แผลติดเชื้อ / แผลสุนัขกัดหลัง debridement",
+       trend:"ต่อจากการใส่ถุงมือ sterile — ดูว่าใช้ NSS ในแผล ก๊อซหมาด และใส่โพรงหลวม ๆ",
+       asked:["ถูกสุนัขกัด 2 วัน debride แล้วทำ wet dressing มาตลอด → ใส่ถุงมือ sterile แล้วสาธิต wet dressing (MDCU66)","ใส่ถุงมือ sterile → wet dressing แผลเปิดที่ติดเชื้อ (MDCU74) / wet dressing แผลบนหุ่น (MDCU73)"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วย อธิบาย ขออนุญาต จัดท่า เตรียม set + NSS + ก๊อซ","ใส่ถุงมือสะอาดแกะก๊อซเก่า (ติดแผลให้ชุบ NSS ก่อนแกะ) → ทิ้งถุงขยะติดเชื้อ → ถอดถุงมือ ล้างมือ","ประเมินแผล: ขนาด ความลึก โพรง discharge / หนอง กลิ่น slough / necrotic tissue granulation และ cellulitis รอบแผล","ใส่ถุงมือ sterile / ใช้ forceps · เช็ดผิวรอบแผลด้วย antiseptic จากขอบแผลออกนอก (ไม่ลงในแผล)","ล้างในแผลด้วย NSS · ซับหนอง / เอา slough ที่หลุดง่ายออก","ชุบก๊อซด้วย NSS บิดหมาด → วางให้สัมผัสพื้นแผลทุกซอก ใส่โพรงหลวม ๆ ไม่อัดแน่น","ปิดทับด้วยก๊อซแห้งหนา ๆ → ติดเทป · ทิ้งขยะ ล้างมือ บันทึก","เคสสุนัขกัด: บอกแผน — ยังไม่เย็บปิด, rabies PEP, tetanus, antibiotic, นัดเปลี่ยนแผล"],
+       pattern:["<b>NSS ในแผล, antiseptic เฉพาะผิวรอบแผล</b> — antiseptic เข้มข้นทำลาย granulation","<b>ก๊อซหมาด ไม่โชก</b> (โชก → ผิวรอบแผลเปื่อย maceration) · <b>ใส่หลวม ๆ</b> fill dead space ไม่อัดแน่น","Wet-to-moist / wet-to-dry ช่วย mechanical debridement (แบบไม่เลือก — ลอกเนื้อดีออกด้วยได้) — เปลี่ยนตามปริมาณ discharge (คำตอบ bank: แผลติดเชื้อวันละ 1–2 ครั้ง, แผลสุนัขกัดวันละ 2–3 ครั้ง) · NICE NG125: ไม่ใช้ moist cotton gauze กับแผลผ่าตัดที่หายแบบ secondary intention (ใช้ interactive dressing) — แต่สถานีสั่งสาธิต wet dressing ให้ทำตามโจทย์","<b>Dog bite antibiotic</b> (AAFP 2017): amoxicillin-clavulanate ในแผลเสี่ยงติดเชื้อสูง (puncture ลึก, แผล > 3 cm, cat bite) · IDSA 2014 เพิ่ม: แผลที่มือ / หน้า ปานกลาง–รุนแรง, ถึงกระดูก / ข้อ, ภูมิคุ้มกันต่ำ · แพ้ penicillin → clindamycin-based · เชื้อ Pasteurella, Capnocytophaga, anaerobes","<b>Rabies PEP</b> (WHO category III = กัดทะลุผิว): ล้างแผล + rabies vaccine + RIG · <b>Tetanus</b>: แผลปนน้ำลาย = contaminated → ไม่ครบ 3 เข็ม / ไม่ทราบ: Td(ap) + TIG; ครบ 3 เข็ม: Td ถ้าเข็มสุดท้าย > 5 ปี","<b>การเย็บแผลสุนัขกัด</b> (AAFP 2017): ควรเย็บปิด โดยเฉพาะแผลใบหน้า (ติดเชื้อน้อยกว่า) — แต่เคสนี้ debride แล้วและรักษาด้วย wet dressing → ปล่อยเปิด รอ delayed primary closure / secondary intention เมื่อแผลสะอาด"],
+       kw:["soak adherent gauze with NSS before removal","assess wound bed, discharge, slough, cellulitis","antiseptic on surrounding skin, inside → out","NSS irrigation of wound","gauze moist not soaking","loosely fill dead space","dry gauze cover","rabies vaccine + RIG","tetanus prophylaxis","amoxicillin-clavulanate"],
+       pearls:["อัดก๊อซแน่น / ก๊อซโชกน้ำ / เท povidone ลงในแผล = หักคะแนน","เคสสุนัขกัด: ลืมพูด rabies, tetanus และ antibiotic = เสียคะแนนส่วนแผนการรักษา","ตอบว่า 'แผลสุนัขกัดห้ามเย็บทุกกรณี' ไม่ถูก (AAFP 2017) — แผลนี้ไม่เย็บเพราะติดเชื้อ / debride แล้วและกำลังทำ wet dressing"],
+       members:["MDCU66|RoA|1#2","MDCU74|RoD|4#2","MDCU73|RoD|1#2"]},
+      {id:"wound-advice", title:"Advice ดูแลแผลหลังเย็บ และนัดตัดไหม",
+       trend:"ข้อย่อยท้ายสถานีเย็บแผล — ต้องบอกวันตัดไหมตามตำแหน่งและ tetanus",
+       asked:["ฉีดยาชา → เย็บ vertical mattress → give the patient advice on wound care (MDCU66)"],
+       flow:["บอกว่าเย็บเรียบร้อย ไหมชนิดที่ต้องมาตัด","ให้แผลสะอาดและแห้งช่วงแรก → อาบน้ำได้ ซับแห้ง ไม่แช่น้ำ · เปลี่ยนผ้าปิดเมื่อเปียก / สกปรก","อาการที่ต้องกลับมาก่อนนัด: ปวดมากขึ้น บวม แดง ร้อน มีหนอง มีไข้ แผลแยก เลือดออก","นัดตัดไหมตามตำแหน่งแผล","ยาแก้ปวด paracetamol · ประเมิน tetanus prophylaxis · เลี่ยงการยืด / ใช้แรงบริเวณแผล","ถามว่ามีคำถามไหม ขอบคุณ"],
+       pattern:["<b>นัดตัดไหม (AAFP 2017, expert opinion)</b>: หน้า 3–5 วัน · หนังศีรษะ / แขน 7–10 วัน · ลำตัว / ขา / มือ / เท้า 10–14 วัน · ฝ่ามือ / ฝ่าเท้า 14–21 วัน","<b>อาบน้ำ</b>: เดิมสอนให้แห้ง 24–48 ชม. · NICE NG125 — แผลผ่าตัดอาบน้ำได้หลัง 48 ชม. · AAFP 2017 อ้างการศึกษาว่าเปิดแผลอาบน้ำใน 12 ชม.แรกไม่เพิ่มการติดเชื้อ","<b>Tetanus (AAFP 2017 / CDC)</b>: แผลสะอาดเล็ก — ไม่ครบ 3 เข็ม / ไม่ทราบ → Td(ap); ครบ 3 เข็ม → Td เมื่อเข็มสุดท้าย > 10 ปี; ไม่ต้อง TIG · แผลสกปรก / เสี่ยงสูง — ไม่ครบ 3 เข็ม → Td(ap) + TIG; ครบ 3 เข็ม → Td เมื่อ > 5 ปี","Red flags ต้องบอกครบ: ปวดมากขึ้น บวมแดงร้อน หนอง ไข้ แผลแยก เลือดออก"],
+       kw:["keep clean and dry, then shower, pat dry","change dressing if wet","return if pain, redness, swelling, pus, fever, dehiscence","suture removal day by site","analgesic","tetanus status","avoid tension on wound"],
+       pearls:["ให้วันตัดไหมค่าเดียวโดยไม่ดูตำแหน่ง = ได้ไม่เต็ม","ลำตัว: AAFP 2017 = 10–14 วัน (ตำราเดิม 7–10 — คลังเขียนทั้งสองแล้ว 22 พ.ย. 2026) · แขน 7–10, ขา 10–14 วัน; ทั้งหมดเป็น expert opinion ตอบเป็นช่วงตามตำแหน่งได้","ลืมถาม / บอก tetanus = เสียคะแนน"],
+       members:["MDCU66|RoD|5#2"]}
+    ]},
+    {title:"Local anesthesia", sections:[
+      {id:"la-infiltration", title:"ฉีดยาชาเฉพาะที่ (local infiltration) ที่ขอบแผลก่อนเย็บ",
+       trend:"ออกต่อเนื่องแทบทุกปีตั้งแต่ MDCU68 — ให้เลือกเข็มดูด / เข็มฉีดจากที่วางไว้ ถาม max dose และต้อง aspirate ก่อนฉีด",
+       asked:["Inject local anesthesia around the wound before suturing — เริ่มจากใส่ถุงมือ หรือเริ่มจากดูดยา","ให้เข็ม 2 ขนาด (18G + 24G, 20G + 25G หรือเข็มชมพู + ม่วง) → เลือกเข็มดูดยาและเข็มฉีดให้ถูก","ให้ lidocaine ทั้งชนิดมีและไม่มี adrenaline → เลือกขวด แล้วเย็บ simple 2 อัน (MDCU75)","ใส่ถุงมือ → เตรียมผิว ปูผ้า → ดูดยา ไล่อากาศ ฉีดแขนจำลอง (MDCU78)","มีผู้ป่วยจำลองนั่งข้างแขนหุ่น → ต้องสื่อสาร เตือนก่อนแทง ปลอบระหว่างฉีด (MDCU68)","ฉีดยาชาแล้วเย็บต่อ (VM หรือ simple interrupted)"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วยและตำแหน่ง อธิบาย ขอ consent · ถามแพ้ยาชา ยาต้านเกล็ดเลือด / anticoagulant","ล้างมือ ใส่ถุงมือ sterile · ทำความสะอาดผิว ปูผ้า (ถ้าโจทย์ไม่ได้บอกว่าทำแล้ว)","ตรวจยากับผู้ช่วย: ชื่อ (lidocaine 1%) ± adrenaline ความเข้มข้น วันหมดอายุ · คำนวณขนาดสูงสุดตามน้ำหนัก","ดูดยาด้วยเข็มใหญ่ (18G ชมพู / 20–21G) → เปลี่ยนเป็นเข็มเล็ก (24G ม่วง / 25–27G) → ไล่ฟองอากาศ","เตือนผู้ป่วยก่อนแทง → แทงผ่านขอบแผลด้านใน (wound edge) เข้าชั้น subcutaneous","Aspirate ก่อนฉีดทุกครั้งที่ขยับเข็ม — ไม่มีเลือดย้อนจึงฉีด","ฉีดช้า ๆ ขณะถอยเข็ม ไล่ไปรอบแผลทั้งสองฝั่ง แทงจุดใหม่ในบริเวณที่ชาแล้ว","รอ 2–5 นาที ทดสอบความชาด้วยปลายเข็ม / toothed forceps ก่อนเย็บ · สังเกตอาการ LAST","ทิ้งเข็มลง sharps container ไม่สวมปลอกเข็มด้วยสองมือ"],
+       pattern:["<b>Lidocaine</b>: 1% = 10 mg/mL · US label (Xylocaine): max <b>4.5 mg/kg (ไม่เกิน 300 mg)</b> เมื่อไม่มี adrenaline · <b>7 mg/kg (ไม่เกิน 500 mg)</b> เมื่อมี adrenaline — เช่น 60 kg ใช้ 1% plain ได้ไม่เกิน 27 mL · UK SmPC บางผลิตภัณฑ์ / BNF: plain <b>ไม่เกิน 200 mg</b> (= 1% 20 mL), มี adrenaline ไม่เกิน 500 mg","<b>เข็ม</b>: ดูดยาด้วยเข็มใหญ่ (เร็ว) แล้วเปลี่ยนเป็นเข็มเล็กเพื่อฉีด (เจ็บน้อย) · รหัสสีเข็มฉีดยา <b>ISO 6009:2016</b>: 18G ชมพู · 20G เหลือง · 21G เขียว · 23G น้ำเงิน · 24G ม่วง · 25G ส้ม","<b>Aspirate ก่อนฉีด</b> กันฉีดเข้าหลอดเลือด · ฉีดช้า ๆ ขณะถอยเข็ม · <b>แทงผ่านขอบแผล</b> (ไม่ผ่านผิวที่ไม่บาดเจ็บ) เจ็บน้อยกว่า","ลดความเจ็บ: เข็มเล็ก ฉีดช้า ยาอุ่น · buffered lidocaine = NaHCO3 1 mL + lidocaine 1% 9 mL (AAFP 2017)","<b>Adrenaline</b> ลดเลือดออกและยืดฤทธิ์ · AAFP 2017: ≤ 1:100,000 ใช้ที่นิ้วได้ปลอดภัย, 1:200,000 ปลอดภัยที่จมูก / หู · ข้อห้ามคือสงสัย peripheral vascular compromise","<b>LAST</b>: ชารอบปาก รสโลหะ หูอื้อ สับสน ชัก → arrhythmia / cardiac arrest → หยุดฉีด เรียกช่วย airway + O2 คุมชัก (benzodiazepine) และให้ <b>lipid emulsion 20%</b>"],
+       kw:["consent, ask allergy","check drug, concentration, expiry with assistant","max dose 4.5 mg/kg (7 with adrenaline)","draw with large needle (18G), inject with small (24–27G)","expel air","warn patient before needle","through wound edge","aspirate before injecting","inject slowly while withdrawing","test anaesthesia before suturing","sharps disposal, no recapping"],
+       pearls:["MDCU79 ให้เข็มชมพู + ม่วง: ชมพู = 18G ดูดยา, ม่วง = 24G ฉีด — สี 'เหลือง = 24G' เป็นรหัสสี IV cannula (ISO 10555-5) ไม่ใช่เข็มฉีดยา; เข็มฉีดยาตาม ISO 6009:2016 24G = ม่วง, 23G = น้ำเงิน (คลังแก้คำอธิบายแล้ว 22 พ.ย. 2026)","Adrenaline ที่นิ้ว / จมูก / หู: ตำราเดิมห้าม — AAFP 2017 ใช้ได้ถ้าไม่มี vascular compromise (ไม่ใช่ข้อห้ามเด็ดขาด; คลังแก้ MDCU72, 73, 75, 76, 79 ให้ตรงแล้ว 22 พ.ย. 2026)","ไม่ aspirate, ไม่ทดสอบความชาก่อนเย็บ, ไม่เตือนผู้ป่วยก่อนแทง = หักคะแนนที่พบซ้ำ","สวมปลอกเข็มสองมือ / วางเข็มทิ้งไว้บนโต๊ะ = ผิด sharps safety"],
+       members:["MDCU66|RoD|5#1","MDCU79|RoC|2#2","MDCU78|RoC|10#3","MDCU77|RoA|5#2","MDCU76|RoD|3#2","MDCU75|RoD|7#1","MDCU74|RoD|2#1","MDCU72|RoB|3#1","MDCU71|RoA|3#1","MDCU71|RoB|5#1","MDCU69|RoA|1#1","MDCU68|RoC|1#1"]},
+      {id:"lump-field-block-incision", title:"ก้อนใต้ผิวหนังที่แขน (lipoma): field block รอบก้อน และวางแนวแผลผ่าตัด",
+       trend:"ถามหัตถการก่อนตัดก้อน — ฉีดยาชาล้อมก้อนพร้อมบรรยาย หรือวาดแนวแผลพร้อมเหตุผล",
+       asked:["แขนหุ่นมีก้อน 2 ก้อน (ต้นแขน + ปลายแขน) ผู้คุมสอบเป็นผู้ช่วย → ใส่ถุงมือแล้ว infiltrate local anaesthetic รอบก้อน พร้อมบรรยายทุกขั้นออกเสียง (MDCU67)","Lipoma ที่ปลายแขน มีเส้นขอบก้อนวาดบนแขนที่ปูผ้าแล้ว → hand rub, ใส่ถุงมือ open แล้ววาดแนวแผลด้วยปากกา (MDCU77)"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วยและตำแหน่งก้อน อธิบาย ขอ consent ถามแพ้ยา","ใส่ถุงมือ sterile → ตรวจยากับผู้ช่วย → ดูดยาด้วยเข็มใหญ่ เปลี่ยนเข็มเล็ก ไล่อากาศ · คำนวณขนาดยารวมทุกก้อน","ทำความสะอาดผิวจากกลางก้อนออกนอกเป็นวงกว้าง → ปูผ้าเจาะกลาง","เตือนผู้ป่วย → ทำ wheal → aspirate → ฉีดขณะถอยเข็ม เป็นกรอบรูปเพชร / สี่เหลี่ยมล้อมรอบก้อน แทงจุดถัดไปผ่านผิวที่ชาแล้ว ทั้ง intradermal และ subcutaneous","ทำครบทุกก้อน → รอ 3–5 นาที ทดสอบชา","วางแนวแผล: วาดเส้นตรงผ่านกึ่งกลางก้อน ยาวประมาณเส้นผ่านศูนย์กลางก้อน พร้อมบอกเหตุผลของแนว"],
+       pattern:["<b>Field block รอบก้อน ไม่ฉีดเข้าก้อน</b> — ไม่ทำให้ขอบเขตก้อนเสีย ไม่แพร่เชื้อ / เซลล์","<b>หลายก้อน = รวมขนาดยาทุกก้อน</b> ไม่เกิน max dose (lidocaine 4.5 mg/kg, 7 mg/kg ถ้ามี adrenaline)","<b>แนวแผล lipoma</b>: linear incision ผ่านกึ่งกลางก้อน ยาวราวเส้นผ่านศูนย์กลาง (เลาะตาม capsule แล้วบีบก้อนออกได้) · บนแขนเลือกตาม RSTL (แผลเป็นสวย) หรือแนวยาวของแขน (ขนาน neurovascular, ขยายแผลได้) — ต้องบอกเหตุผลของแนวที่เลือก","<b>Elliptical excision</b> เมื่อต้องตัดผิวออกด้วย (ผิวยืดมาก / ก้อนใหญ่ / ติดผิว): ยาว : กว้าง ≈ 3 : 1 มุมปลาย ~30°"],
+       kw:["consent, confirm site","total dose for all lumps","field block around, not into, the lump","diamond / square pattern","re-enter through anaesthetised skin","aspirate before injecting","narrate each step","linear incision over centre of lump","length ≈ diameter","RSTL / long axis with reason","ellipse 3:1, 30°"],
+       pearls:["สถานีสั่ง 'describing each step aloud' — ทำเงียบ = เสียคะแนนแม้ทำถูก","ฉีดยาเข้าตัวก้อน / คิดขนาดยาแยกต่อก้อน = ผิด","MDCU67: ไฟล์ใช้เข็ม 21G ดูดยา 24G ฉีด — ใช้ได้ (25–27G เจ็บน้อยกว่า)","MDCU77: คำตอบ bank รับแนวแผลได้หลายแบบถ้าให้เหตุผลถูก — วาดโดยไม่อธิบายเหตุผลจะได้ไม่เต็ม"],
+       members:["MDCU67|RoA|13#2","MDCU77|RoC|7#3"]}
+    ]},
+    {title:"Bedside tubes & drains", sections:[
+      {id:"foley-male", title:"Foley catheterization ในชาย (acute urinary retention)",
+       trend:"MDCU65 ให้สาธิตบนหุ่นชาย; MDCU74–75 ให้ดูสายแล้วอธิบาย / เขียนขั้นตอน",
+       asked:["ชาย acute urinary retention → insert Foley บน male manikin ผู้คุมสอบดู (MDCU65)","วาง Foley บนโต๊ะ → บอกชื่อและขนาด (อ่านข้างสาย) → อธิบายวิธีใส่ → ยกตัวอย่างผู้ป่วยที่ต้องใช้ (MDCU75 RoC; ชื่อ / ขนาด / ข้อบ่งชี้อยู่หมวด Instrument)","สาย Foley 2-way เบอร์ 16 → describe the steps for using it (MDCU75 RoD)","Write the steps for inserting a Foley catheter (MDCU74)"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วย อธิบายข้อบ่งชี้ / ขั้นตอน ขอ consent · ถามแพ้ยาชา / povidone / latex","ตรวจข้อห้าม: สงสัย urethral injury (เลือดที่ meatus, perineal / scrotal hematoma)","เลือกสาย 14–16 Fr (2-way) · ล้างมือ เปิดชุด sterile ใส่ถุงมือ sterile · ทดสอบ balloon ตามแนวทางสถาบัน","มือไม่ถนัดจับองคชาต (มือนี้ไม่ sterile แล้ว) รูดหนังหุ้มปลายลง → ทำความสะอาดจาก meatus วนออกนอก สำลี 1 ก้อนต่อ 1 รอบ → ปูผ้าเจาะกลาง","ใส่ lidocaine jelly เข้าท่อปัสสาวะ รอ 2–3 นาที","จับองคชาตตั้งฉาก 90° กับลำตัว ดึงตึงเล็กน้อย → สอดสายช้า ๆ ด้วยมือ sterile จนปัสสาวะไหล → ดันต่อจนสุดถึง Y-junction","ใส่ sterile water ตามปริมาตรที่พิมพ์บนสาย (~10 mL) เข้า balloon — เจ็บให้หยุดและดูดออก → ดึงสายกลับเบา ๆ จนติด bladder neck","รูดหนังหุ้มปลายกลับ (กัน paraphimosis) · ต่อ closed drainage · ยึดสายกับต้นขา / หน้าท้อง · ถุงต่ำกว่ากระเพาะปัสสาวะ ไม่แตะพื้น","บันทึกปริมาณ / ลักษณะปัสสาวะ เวลา ขนาดสาย ปริมาตร balloon · ทิ้งขยะ ล้างมือ"],
+       pattern:["<b>ชาย: ดันจนถึง Y-junction ก่อนเป่า balloon</b> — เห็นปัสสาวะแล้ว balloon อาจยังอยู่ใน prostatic urethra · เป่าใน urethra = urethral injury","<b>Balloon ใช้ sterile water</b> (ไม่ใช้ลม / NSS) ตามปริมาตรที่พิมพ์บนสาย","<b>ข้อห้าม</b>: สงสัย urethral injury (เลือดที่ meatus, perineal ecchymosis จาก pelvic fracture) → retrograde urethrogram ก่อน / suprapubic cystostomy (ATLS 10th — คำตอบสอบ) · EAU Urological Trauma 2026: ผู้มีประสบการณ์ลองใส่สายอย่างนุ่มนวลได้ ถ้ายากให้ใส่ suprapubic catheter ภายใต้ US / มองเห็นตรง","<b>ใส่ไม่เข้าใน BPH</b> → ลองสาย Coudé หรือปรึกษา urologist ไม่ฝืน","ข้อบ่งชี้ตัวอย่าง: acute urinary retention / bladder outlet obstruction, วัด urine output ในผู้ป่วยวิกฤต / ช็อก, ระหว่างและหลังผ่าตัดใหญ่, ช่วยให้แผลกดทับที่ก้น / perineum หายในผู้ป่วยกลั้นปัสสาวะไม่ได้","<b>Closed drainage</b> ถุงต่ำกว่ากระเพาะ ไม่แตะพื้น ไม่หักพับ — ลด CAUTI"],
+       kw:["consent, allergy (latex, iodine)","exclude urethral injury","14–16 Fr","sterile gloves, clean meatus outward","lidocaine jelly, wait","penis at 90°","advance to Y-junction after urine flows","sterile water ~10 mL","retract foreskin back","closed drainage below bladder","document volume"],
+       pearls:["เป่า balloon ก่อนเห็นปัสสาวะ / ก่อนดันถึง Y = ข้อตก","ไม่รูดหนังหุ้มปลายกลับ = เสี่ยง paraphimosis (หักคะแนน)","ใช้มือที่จับองคชาตแล้วมาจับสาย = ปนเปื้อน"],
+       members:["MDCU65|RoA|10#1","MDCU75|RoC|8#2","MDCU75|RoD|3#2","MDCU74|RoD|10#1"]},
+      {id:"ng-tube", title:"Nasogastric tube insertion",
+       trend:"สาธิตบนหุ่นใน MDCU67 และถามชื่อหัตถการจาก film ใน MDCU79",
+       asked:["Demonstrate the correct insertion of an NG tube exactly as on a real patient (MDCU67)","Film เห็นสายผ่านหลอดอาหารลงกระเพาะ → ชื่อหัตถการ = nasogastric intubation for gastric decompression (MDCU79; ชื่อสาย / ถุงรองรับ / การวัดอยู่หมวด Instrument)"],
+       flow:["ตรวจข้อบ่งชี้ / ข้อห้าม (basal skull fracture, facial fracture → ห้ามใส่ทางจมูก)","แนะนำตัว อธิบาย ขออนุญาต ตกลงสัญญาณขอหยุด (ยกมือ) · ล้างมือ ใส่ถุงมือ","จัดท่า Fowler (นั่ง 45–90°) · เลือกรูจมูกที่โล่ง","วัดความยาว NEX: ปลายจมูก → ติ่งหู → xiphoid แล้วทำเครื่องหมาย","หล่อลื่นปลายสาย → สอดตามพื้นโพรงจมูกตรงไปด้านหลัง (ขนานพื้น ไม่ชี้ขึ้น)","ถึง oropharynx → ให้ก้มคาง และกลืน (จิบน้ำ) ดันตามจังหวะกลืนจนถึงเครื่องหมาย","ไอ สำลัก พูดไม่ได้ เขียว → ดึงออกทันที","ยืนยันตำแหน่ง: ดูด gastric aspirate ตรวจ pH ≤ 5.5 · CXR ถ้า pH ไม่ชัดหรือก่อนให้อาหาร","ยึดสายกับจมูกไม่กดปีกจมูก · ต่อถุง / ปิดสาย · บันทึกขนาด ความยาว content · ถอดถุงมือ ล้างมือ"],
+       pattern:["<b>NEX</b> = nose – earlobe – xiphoid","<b>ก้มคาง + กลืน</b> ช่วยปิด airway และนำสายเข้า esophagus · แหงนคอ = เข้าหลอดลมง่าย","<b>ยืนยันตำแหน่ง</b>: aspirate pH ≤ 5.5 (แนวทาง NHS) หรือ CXR (มาตรฐานอ้างอิง ปลายสายใต้กะบังลมซ้ายในกระเพาะ) · <b>ห้ามใช้ whoosh test</b> (ฟังลม) ยืนยันอย่างเดียว","ข้อบ่งชี้ decompression: bowel obstruction, ileus, gastric outlet obstruction, ป้องกัน aspiration; ให้อาหาร / ยาเมื่อกลืนไม่ได้"],
+       kw:["consent + stop signal","check contraindication (basal skull fracture)","Fowler position","measure NEX and mark","lubricate","along nasal floor","chin down + swallow","withdraw if cough / cyanosis","confirm pH ≤ 5.5 / CXR","no whoosh test alone","secure without pressure on ala","document"],
+       pearls:["ดันต่อขณะผู้ป่วยไอ / เขียว หรือไม่ยืนยันตำแหน่งก่อนใช้งาน = ข้อตกสำคัญ","สอดสายชี้ขึ้นตามสันจมูก → ชน turbinate เจ็บและเลือดออก","บอกว่ายืนยันด้วยการฟังลมอย่างเดียว = ไม่ได้คะแนนส่วนยืนยัน"],
+       members:["MDCU67|RoD|10#1","MDCU79|RoC|11#3"]},
+      {id:"icd-pneumothorax", title:"Tube thoracostomy (intercostal chest drainage) ใน pneumothorax",
+       trend:"ถามเป็นข้อย่อยท้ายสถานี film pneumothorax — ต้องเขียนชื่อหัตถการ ไม่ใช่ชื่ออุปกรณ์",
+       asked:["ชายผอมสูง 27 ปี เหนื่อยเจ็บอกทันที + CXR pneumothorax → เลือกอุปกรณ์ → ชื่อหัตถการ (MDCU79; Dx และอุปกรณ์อยู่หมวด Imaging)"],
+       flow:["อ่าน CXR → primary spontaneous pneumothorax","เลือกอุปกรณ์รักษา (chest tube + underwater seal drainage) ตามตัวอักษร","เขียนชื่อหัตถการ: intercostal chest drainage (tube thoracostomy)","ถ้าถามต่อ: ตำแหน่ง ข้อควรระวัง การป้องกันการเป็นซ้ำ"],
+       pattern:["<b>ชื่อหัตถการ</b>: intercostal chest drainage / tube thoracostomy (ICD)","<b>ตำแหน่ง</b>: 4th–5th ICS ระหว่าง anterior และ mid-axillary line ใน <b>triangle of safety</b> (ขอบข้าง pectoralis major, ขอบหน้า latissimus dorsi, แนวระดับ nipple / 5th ICS) · แทงชิด <b>ขอบบนของซี่โครงล่าง</b> เลี่ยง neurovascular bundle","<b>BTS 2023</b>: PSP อาการน้อยพิจารณา conservative ได้ไม่ว่าขนาดเท่าไร; ถ้าต้องทำหัตถการเลือกระหว่าง needle aspiration, ambulatory device หรือ chest drain ร่วมกับผู้ป่วย","ป้องกันการเป็นซ้ำ: VATS bullectomy + pleurodesis เมื่อเป็นซ้ำ / air leak ต่อเนื่อง / อาชีพเสี่ยง (นักบิน นักดำน้ำ)"],
+       kw:["primary spontaneous pneumothorax","intercostal chest drainage / tube thoracostomy","4th–5th ICS, anterior–mid axillary line","triangle of safety","above upper border of lower rib","underwater seal drainage"],
+       pearls:["ตอบแค่ 'chest tube' (ชื่ออุปกรณ์) ในช่องชื่อหัตถการ = ไม่ตรงคำถาม","แทงใต้ขอบล่างซี่โครง → เสี่ยง intercostal vessels / nerve"],
+       members:["MDCU79|RoC|6#3"]}
+    ]}
+  ]});

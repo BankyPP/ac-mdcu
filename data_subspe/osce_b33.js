@@ -37,10 +37,10 @@ Co({page:28,orig:"1",topic:"pe",sub:"Acute abdomen",ex:1,title:"Physical examina
 Co({page:28,orig:"2",topic:"hx",sub:"Hepatobiliary",ex:1,title:"History — acute cholecystitis and investigation",
  stem:`Take a history from a patient with suspected acute cholecystitis, then state the investigation of choice.`,
  gray:"OSCE ซักประวัติ Acute cholecystitis + ถาม Investigation",
- notes:"แนวคำตอบในไฟล์: Investigation = transabdominal ultrasound",opinion:"ความมั่นใจสูง",
+ notes:"แนวคำตอบในไฟล์: Investigation = transabdominal ultrasound · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘GB wall >3–4 มม.’ → แก้เป็น ‘≥4 มม.’ (ข้อ 2.2) ตาม Tokyo Guidelines 2018 (TG18, Yokoe et al. JHBPS 2018 CQ5: GB wall thickening ≥4 mm; TG13 ใช้ ≥5 mm)",opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): เกณฑ์ผนังถุงน้ำดีหนาใน US ใช้ ≥4 mm ตาม TG18 (TG13 ใช้ ≥5 mm) — ถ้าเขียนตัวเลขให้ระบุชื่อแนวทาง · ความมั่นใจสูง",
  parts:S(
   BS("2.1 History.",6,{tags:["hx"],ans:"<b>ปวด RUQ/ใต้ลิ้นปี่ ต่อเนื่อง >6 ชม.</b> ร้าวไปสะบักขวา · หลังกินอาหารมัน · <b>ไข้</b> · คลื่นไส้อาเจียน · <b>ตัวเหลือง ปัสสาวะเข้ม อุจจาระซีด</b> (CBD stone/cholangitis) · เคยปวดแบบนี้ (biliary colic) · risk: female, fat, forty, fertile, เบาหวาน, ลดน้ำหนักเร็ว, hemolysis · แยก peptic ulcer, pancreatitis (ปวดทะลุหลัง), hepatitis, MI, pneumonia",rubric:"1/ประเด็น",pts:[CR(P("RUQ pain, duration, radiation","ruq","right upper","ร้าว","shoulder","สะบัก")),P("Fatty meal","fatty","มัน"),CR(P("Fever","fever","ไข้")),P("Nausea/vomiting","nause","vomit"),CR(P("Jaundice, dark urine, pale stool","jaundice","เหลือง","pale")),P("Previous colic","previous","เคย"),P("Risk factors","risk","female","forty")]}),
-  BS("2.2 Investigation.",2,{tags:["hx"],ans:"<b>Transabdominal ultrasound</b> — gallstone, <b>GB wall >3–4 มม.</b>, pericholecystic fluid, sonographic Murphy · (HIDA scan ถ้า US ไม่ชัด) · CBC, LFT, lipase",rubric:"ได้",pts:[CR(P("Ultrasound","ultrasound","us","usg"))]})
+  BS("2.2 Investigation.",2,{tags:["hx"],ans:"<b>Transabdominal ultrasound</b> — gallstone, <b>GB wall หนา ≥4 มม.</b> (TG18; TG13 ≥5 มม.), pericholecystic fluid, sonographic Murphy · (HIDA scan ถ้า US ไม่ชัด) · CBC, LFT, lipase",rubric:"ได้",pts:[CR(P("Ultrasound","ultrasound","us","usg"))]})
  ),
  interp:"Acute cholecystitis",
  summary:["RUQ pain >6 h + fever + Murphy","US: stones, thick wall, fluid","Tokyo guidelines"]}),

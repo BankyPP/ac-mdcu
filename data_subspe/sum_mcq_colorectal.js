@@ -1,770 +1,360 @@
-SUMM.push({
- "tag": "Colorectal",
- "title": "Colorectal",
- "intro": "<ul><li><b>รวมข้อ Gen Sx ที่ clone มา (19 พ.ย. 2026)</b> — กลุ่ม “จาก Gen Sx — …” ด้านล่าง</li><li>MDCU79 RoC 4 ข้อย่อย: <b>sigmoid volvulus</b> จาก AXR, <b>diverticulitis + abscess</b> (Hinchey II → percutaneous drainage), <b>rectal cancer stage III</b> (neoadjuvant แล้ว LAR + TME), <b>colorectal liver metastasis</b> resectable → hepatectomy</li><li>รูปแบบ: อ่านภาพ → Dx และ most appropriate management ตาม stage / ขนาด / resectability</li><li>เนื้อหาหลายเคสซ้ำกับข้อสอบ Gen Sx (volvulus, diverticular abscess) — ฝึกร่วมกันได้</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: FAP (CHRPE), Peutz-Jeghers, UC, radiation proctitis, stoma necrosis, right colon cancer, stage III sigmoid cancer, Hirschsprung และ sigmoid volvulus</li></ul>",
- "groups": [
-  {
-   "title": "Benign colonic emergency",
-   "sections": [
-    {
-     "id": "sigmoid-volvulus",
-     "title": "Sigmoid volvulus: AXR coffee bean / bent inner tube",
-     "asked": [
-      "ผู้สูงอายุ obstipation ท้องอืด 3 วัน AXR (ภาพ) → Dx (ตัวลวง cecal volvulus, Ogilvie, toxic megacolon, SBO)",
-      "AXR coffee bean (อยู่ในหมวด Ped ของไฟล์ 79D) → Dx"
-     ],
-     "pattern": [
-      "AXR: ลำไส้วงเดียวรูปตัว U กลับหัวไม่มี haustra ขึ้นจาก pelvis ไป RUQ / ใต้กระบังลม, จุดบิดชี้ลง pelvis ซ้าย; CT whirl sign, bird's beak",
-      "ปัจจัยเสี่ยง: ผู้สูงอายุติดเตียง ท้องผูกเรื้อรัง ยาจิตเวช neurologic disease",
-      "ไม่มี peritonitis → <b>endoscopic detorsion + rectal tube → sigmoidectomy ใน admission เดียวกัน</b> (ASCRS 2021)",
-      "Peritonitis / gangrene / perforation / detorsion ล้มเหลว → emergency sigmoidectomy (Hartmann)",
-      "Cecal volvulus → right hemicolectomy; Ogilvie → neostigmine 2 mg IV → colonoscopic decompression",
-      "Sigmoid: coffee bean ชี้ RUQ → endoscopic detorsion → elective sigmoidectomy · Cecal: ชี้ LUQ → right hemicolectomy"
-     ],
-     "pearls": [
-      "cecal: วงอยู่ LUQ มัก SB โป่งร่วม; Ogilvie: gas ตลอด colon ถึง rectum ไม่มีรูปตัว U"
-     ],
-     "members": [
-      "MDCU79|RoC|Colo 2",
-      "MDCU79|RoD|Ped 2"
-     ]
-    },
-    {
-     "id": "diverticular-abscess",
-     "title": "Diverticulitis + pelvic abscess 7 cm → percutaneous drainage + IV ATB",
-     "asked": [
-      "Sigmoid diverticulitis + pelvic abscess 7 cm stable ไม่มี generalized peritonitis → management"
-     ],
-     "pattern": [
-      "Hinchey: I pericolic abscess, II pelvic / distant abscess, III purulent peritonitis, IV feculent",
-      "Abscess <3 cm → IV ATB; <b>≥3 cm เข้าถึงได้ → CT-guided PCD + IV ATB</b> (ASCRS 2020)",
-      "Hinchey III–IV / shock / non-op ล้มเหลว → emergency sigmoidectomy",
-      "หลังหาย: colonoscopy ~6–8 สัปดาห์ + elective sigmoidectomy",
-      "Uncomplicated immunocompetent → outpatient, ATB ไม่จำเป็นทุกราย"
-     ],
-     "pearls": [
-      "ขนาด abscess ไม่ใช่ข้อบ่งชี้ผ่าตัดฉุกเฉิน",
-      "stem เติม stable / ไม่มี peritonitis — ถ้ามี peritonitis ต้องผ่าตัด"
-     ],
-     "members": [
-      "MDCU79|RoC|Colo 4"
-     ]
-    },
-    {
-     "id": "hirschsprung-colo",
-     "title": "Hirschsprung disease (barium enema transition zone)",
-     "asked": [
-      "ทารกขี้เทาออกช้า + BE → Dx",
-      "ทารกไม่ถ่ายขี้เทา 24 ชม. + blast sign → investigation ยืนยัน (78B คีย์ manometry; gold standard จริง = rectal suction biopsy)"
-     ],
-     "pattern": [
-      "Transition zone + rectosigmoid index &lt;1 → rectal suction biopsy"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 1",
-      "MDCU78|RoB|31"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Colorectal cancer",
-   "sections": [
-    {
-     "id": "rectal-ca",
-     "title": "Rectal cancer T2N1 mid rectum → neoadjuvant + LAR with TME",
-     "asked": [
-      "Mid rectum 8 cm จาก anal verge MRI T2N1 MRF clear M0 → management"
-     ],
-     "pattern": [
-      "<b>T3–4 หรือ N+ → neoadjuvant</b> (CRT / short-course RT; NCCN นิยม TNT) แล้ว TME",
-      "Mid / upper → <b>LAR + TME</b>; low ลุกลาม sphincter → APR",
-      "cT1N0 low-risk → local excision; cT1–2N0 → TME เลย",
-      "cCR หลัง TNT → watch-and-wait ในศูนย์เชี่ยวชาญ (OPRA)",
-      "Complication หลัง LAR: leak, LARS, sexual / urinary dysfunction"
-     ],
-     "pearls": [
-      "T2 ไม่ได้แปลว่าผ่าได้เลย ถ้า N+",
-      "stem เติมตำแหน่ง — ถ้า low rectum ติด sphincter จะเป็น APR"
-     ],
-     "members": [
-      "MDCU79|RoC|Colo 5"
-     ]
-    },
-    {
-     "id": "crlm",
-     "title": "Colorectal liver metastasis resectable → liver resection",
-     "asked": [
-      "Liver met 2 ก้อน segment VI, VII หลัง colon cancer stage III, FLR พอ → management"
-     ],
-     "pattern": [
-      "<b>Hepatectomy</b> ± perioperative FOLFOX; 5-year survival ~40–50%",
-      "Resectable: R0, ≥2 contiguous segments ครบ inflow / outflow / bile, FLR ≥20% / 30% / 40%",
-      "FLR ไม่พอ → PVE, two-stage, ALPPS; unresectable → chemo ± biologic → conversion",
-      "Surveillance stage II–III: CEA ทุก 3–6 เดือน 2 ปี, CT ทุก 6–12 เดือนถึง 5 ปี, colonoscopy ที่ 1 ปี"
-     ],
-     "pearls": [
-      "CRLM resectable รักษาหายขาดได้ ไม่ใช่ palliative",
-      "RFA ด้อยกว่า resection เมื่อผ่าได้"
-     ],
-     "members": [
-      "MDCU79|RoC|Colo 6"
-     ]
-    },
-    {
-     "id": "right-colon-ca",
-     "title": "Right colon cancer: iron deficiency anemia",
-     "asked": [
-      "เหนื่อย ซีด IDA + ก้อน ascending colon → Dx"
-     ],
-     "pattern": [
-      "Right = ซีด IDA ก้อน · left = obstruction/change in bowel habit · IDA ในชาย/หญิงหมดประจำเดือน → colonoscopy + EGD"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 9"
-     ]
-    },
-    {
-     "id": "colon-ca-stage3",
-     "title": "Sigmoid cancer T4aN1 → resection with adequate mesocolon + adjuvant",
-     "asked": [
-      "CA sigmoid invade serosa N1 → treatment"
-     ],
-     "pattern": [
-      "Oncologic resection: CME/high ligation, LN ≥12, margin ≥5 cm → stage III adjuvant FOLFOX/CAPOX",
-      "Neoadjuvant ใน colon เฉพาะ T4b/bulky — ต่างจาก rectal"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 10"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Screening, carcinogenesis และ polyposis syndrome",
-   "sections": [
-    {
-     "id": "gen-polyposis-syndromes",
-     "title": "Polyposis / hereditary CRC: FAP, Lynch, Peutz-Jeghers",
-     "trend": "ให้เคสสั้น ๆ (adenoma เป็นร้อย, ครอบครัวมะเร็งหลายรุ่น, รอยดำที่ปาก) แล้วถามคำแนะนำ / รูปแบบถ่ายทอด / ชนิด polyp",
-     "asked": [
-      "อายุ 25 ปี adenomatous polyp เป็นร้อยทั้ง colon → คำแนะนำสำคัญสุด = genetic testing ของญาติ (FAP)",
-      "CRC ในพ่อและปู่ + ป้าเป็นมะเร็งรังไข่ → autosomal dominant (Lynch)",
-      "รอยจุดดำคล้ำที่ริมฝีปากและกระพุ้งแก้มในคนอายุน้อย + ส่อง colonoscopy → hamartomatous polyp (Peutz-Jeghers; ออก 2 เคส)",
-      "หญิง 20 ปี ปวดท้องเป็นพัก ๆ polyp หลายก้อนในลำไส้เล็ก + จุดสีเข้มที่ริมฝีปากและ buccal mucosa → hamartomatous polyp (vs adenomatous, GIST, hyperplastic, inflammatory)",
-      "ชาย 18 ปี complete SBO ผ่าตัดพบ intussusception จาก polyp + มี polyp อีกหลายก้อน + brownish macules ที่ริมฝีปากและเหงือก ไม่มีประวัติครอบครัว → hamartomatous polyp (ตัวลวง adenomatous, hyperplastic, inflammatory, retention polyp)",
-      "hyperpigmented macules ที่ oral mucosa และริมฝีปาก + polyp ในลำไส้ → hamartomatous polyp (ตัวลวง adenomatous, hyperplastic, inflammatory pseudopolyp, sessile serrated lesion)"
-     ],
-     "pattern": [
-      "<b>FAP</b>: APC (5q21), autosomal dominant, adenoma ≥100 เริ่มวัยรุ่น, CRC เกือบ 100% (อายุเฉลี่ย ~39 ปี) ถ้าไม่ผ่าตัด; ~1 ใน 4 de novo; attenuated FAP 10–99 ก้อน · MUTYH = autosomal recessive 10–100 ก้อน",
-      "FAP: ตรวจ APC ใน proband แล้ว cascade testing ญาติ (โอกาส 50%); พาหะ / ไม่ได้ตรวจ → colonoscopy ทุก 1–2 ปี เริ่มอายุ 10–15 ปี; ผ่าตัด total proctocolectomy + IPAA หรือ total colectomy + IRA; extracolonic: duodenal / periampullary adenoma, desmoid, CHRPE; Gardner = + osteoma, epidermoid cyst; Turcot = + medulloblastoma",
-      "<b>Lynch (HNPCC)</b>: germline MMR (MLH1, MSH2, MSH6, PMS2, EPCAM) <b>autosomal dominant</b> — ถ่ายทอดทุกรุ่น ชาย→ชายได้ (ตัด X-linked); CRC อายุน้อย ด้านขวา + endometrium (พบมากสุดนอกลำไส้), ovary, stomach, urothelium, sebaceous (Muir-Torre); Amsterdam II (3-2-1); universal MMR IHC / MSI; colonoscopy ทุก 1–2 ปี เริ่มอายุ 20–25",
-      "<b>Peutz-Jeghers</b>: STK11 / LKB1, AD; <b>mucocutaneous pigmentation</b> (ริมฝีปาก กระพุ้งแก้ม นิ้ว) + <b>hamartomatous polyp</b> (arborizing smooth muscle) พบมากสุดที่ jejunum รองลงมา colon / stomach; ภาวะแทรกซ้อน intussusception, bleeding, anemia; เสี่ยงมะเร็ง GI + breast, ovary (SCTAT), cervix (adenoma malignum), testis (Sertoli)",
-      "Surveillance PJ: EGD + colonoscopy + capsule / MR enterography เริ่ม ~อายุ 8 ปี ทำซ้ำทุก 1–3 ปี (ESGE 2019); ตัด small bowel polyp ใหญ่ ≥1–1.5 cm กัน intussusception",
-      "แยก: juvenile polyposis (SMAD4, BMPR1A; hamartoma ใน colon ไม่มี pigmentation), Cowden (PTEN)"
-     ],
-     "pearls": [
-      "เห็นคำว่า polyp หลายตัวแล้วตอบ adenoma แบบ FAP — จุดตัดสินคือ <b>รอยดำที่ปาก</b> → hamartoma",
-      "Hamartoma ไม่ได้แปลว่าไม่เสี่ยงมะเร็ง — PJ เสี่ยงสูงมากทั้งใน / นอก GI",
-      "Adenoma สะสม ≥10 ก้อนที่อายุน้อย → ส่ง genetic testing ไม่ใช่แค่ส่องตามรอบ sporadic",
-      "Lynch ไม่ใช่ X-linked แม้ญาติเป็นมะเร็งรังไข่ (มะเร็งเฉพาะเพศเกิดเพราะมีอวัยวะนั้น)",
-      "71 RoB: 'ไม่มีประวัติครอบครัว' ไม่ตัด PJ (de novo ได้); <b>retention polyp = juvenile polyp</b> (hamartoma อีกชนิด ไม่มี pigmentation, stroma บวมมี cystic gland) ไม่ใช่ PJ polyp (arborizing smooth muscle) — ถ้ามีทั้งสองช้อยให้ตอบ hamartomatous"
-     ],
-     "members": [
-      "MDCU76|RoA|47",
-      "MDCU78|RoA|Oncology 2",
-      "MDCU78|RoA|Colorectal 3",
-      "MDCU78|RoC|Colorectal tumor 3",
-      "MDCU74|RoA|28",
-      "MDCU71|RoB|ไม่มีเลข 6",
-      "MDCU71|RoB|ไม่มีเลข 14"
-     ]
-    },
-    {
-     "id": "gen-crc-screening-prevention",
-     "title": "CRC screening, ระดับ prevention และ carcinogenesis",
-     "trend": "ถามอายุเริ่มคัดกรอง / ความเสี่ยงจากประวัติครอบครัว / จัดระดับ prevention / กลไกเกิดมะเร็ง",
-     "asked": [
-      "ชาย 55 ปี ไม่มีประวัติครอบครัว ไม่เคยตรวจ → เริ่ม screening ทันที",
-      "ชาย 42 ปี colonoscopy ปกติ ญาติลำดับที่สอง (น้า ป้า) เป็น CRC ตอนอายุ 65 และ 75 → lifestyle modification + เลิกบุหรี่",
-      "Adenoma 1.5 cm pedunculated → secondary prevention = colonoscopic polypectomy",
-      "กลไกเกิด colorectal adenocarcinoma → สะสม genetic mutation หลายขั้น",
-      "ชาย 55 ปีไม่มีอาการ colonoscopy พบ tubular adenoma 1 cm ที่ sigmoid → การกระทำใดเป็น secondary prevention สำหรับผู้ป่วยรายนี้ (colonoscopic polypectomy vs CEA, PET, FOBT, high-fiber diet)"
-     ],
-     "pattern": [
-      "<b>Average risk เริ่มอายุ 45 ปี ถึง 75 ปี</b> (USPSTF 2021, ACS, NCCN); 76–85 ปีพิจารณารายบุคคล; ที่ไม่เคยตรวจเลย → เริ่มทันที ไม่รอ",
-      "วิธีคัดกรอง: colonoscopy ทุก 10 ปี · FIT ทุกปี · mt-sDNA ทุก 1–3 ปี · CT colonography / flexible sigmoidoscopy ทุก 5 ปี; stool test หรือ CTC ผิดปกติ → colonoscopy ตามเสมอ; <b>CEA ไม่ใช่ screening test</b>; ไทยใช้ FIT ในอายุ 50–70 ปี",
-      "<b>ญาติลำดับที่สอง / สาม</b> (ลุง ป้า น้า อา ปู่ย่าตายาย) เป็น CRC = ความเสี่ยงเฉลี่ยตาม NCCN; <b>ญาติลำดับแรก</b> ≥1 คน (หรือมี advanced adenoma) → colonoscopy เริ่มอายุ 40 หรือ 10 ปีก่อนอายุที่ญาติเป็น ทุก 5 ปี",
-      "<b>Primary prevention</b>: ปรับพฤติกรรม (เลิกบุหรี่, ลดน้ำหนัก, จำกัดแอลกอฮอล์ / เนื้อแดง / เนื้อแปรรูป, ใยอาหาร, ออกกำลังกาย), วัคซีน, prophylactic surgery · <b>Secondary</b>: screening และ <b>polypectomy</b> (ตรวจพบรอยโรค premalignant แล้วกำจัด) · <b>Tertiary</b>: adjuvant therapy, surveillance หลังรักษา, rehabilitation",
-      "<b>Adenoma–carcinoma sequence (Vogelstein)</b>: APC → KRAS → 18q loss (SMAD4, DCC) → TP53; CIN ~85%; MSI pathway ~15% (MMR, Lynch / sporadic MLH1 methylation); serrated pathway (BRAF, CIMP ผ่าน sessile serrated lesion); ใช้เวลา ~10 ปีจาก adenoma → เหตุผลของ screening",
-      "Precursor คือ adenoma (เสี่ยงขึ้นเมื่อ ≥1 cm, villous, high-grade dysplasia) และ sessile serrated lesion; hyperplastic polyp เล็กที่ distal และ inflammatory polyp ไม่ใช่ precursor"
-     ],
-     "pearls": [
-      "เห็นประวัติครอบครัวอย่าจัด high risk ทุกราย — แยกลำดับญาติและอายุที่ญาติเป็น",
-      "ผู้ป่วยที่มี adenoma อยู่แล้ว → polypectomy เป็น secondary (FOBT ก็เป็น secondary แต่เป็นตัวตรวจ ไม่ใช่การรักษาผู้ป่วยรายนี้)",
-      "จำเกณฑ์เก่า 50 ปีเป็นกับดัก",
-      "MDCU74 ต้นฉบับมี FOBT เป็นช้อยที่ถูกด้วย (screening = secondary) ธนาคารเติม stem ว่าส่องกล้องพบ adenoma แล้วจึงตอบ polypectomy; CEA เป็นการติดตามหลังรักษา ไม่ใช่ screening"
-     ],
-     "members": [
-      "MDCU77|RoC|55",
-      "MDCU78|RoD|Colorectal tumor 4",
-      "MDCU78|RoC|Surgical Oncology 4",
-      "MDCU78|RoC|Surgical Oncology 2",
-      "MDCU74|RoC|13"
-     ]
-    },
-    {
-     "id": "gen-suspected-crc-colonoscopy",
-     "title": "FOBT บวก / มูกเลือดปนอุจจาระ / เจอ hemorrhoid: ต้อง colonoscopy (บทบาท GP)",
-     "trend": "ผู้ป่วยวัย 45–55 มี FOBT บวก หรือถ่ายมีมูกเลือด ถามสิ่งที่ควรแนะนำ หรือข้อที่ไม่ใช่บทบาทของ GP",
-     "asked": [
-      "ชาย 49 ปี ตรวจสุขภาพ FOBT บวก แข็งแรง ไม่มีประวัติครอบครัว CEA / CBC / LFT ปกติ → colonoscopy (ตัวลวง reassure, เพิ่มใยอาหาร / น้ำ, EGD, CT whole abdomen)",
-      "ชาย 55 ปี ถ่ายมีมูกเลือดและเลือดหยดหลังถ่าย 1 ปี anoscopy พบ internal hemorrhoid 11 นาฬิกา ไม่เคยส่องกล้อง → ข้อที่ถูก: colonoscopy เพื่อ exclude proximal colorectal lesion (ตัวลวง sclerotherapy เฉพาะตอน active bleeding, prolapse ทุกรายต้อง hemorrhoidectomy, เห็น hemorrhoid แล้วไม่ต้องตรวจต่อ, hemorrhoid ที่ 11 นาฬิกาบ่งมะเร็ง)",
-      "ชาย 55 ปี มูกเลือดปนอุจจาระ 1 เดือน → ข้อใดไม่ใช่บทบาทของ GP: serum CEA และ PET scan (บทบาทที่ถูก: ซักประวัติละเอียด, DRE, พิจารณา colonoscopy ถ้ามี, อธิบายและให้กำลังใจก่อนส่งต่อ)"
-     ],
-     "pattern": [
-      "<b>Stool test (FOBT / FIT) บวก = screening ผิดปกติแล้ว → diagnostic colonoscopy ทุกราย</b> ไม่ว่าอายุ / แล็บปกติ (CEA, CBC ปกติไม่ตัดมะเร็ง); ไม่ทำ FOBT ซ้ำ ไม่ส่ง CT แทน",
-      "<b>Rectal bleeding + อายุ ≥ 45 หรือ red flag</b> (มูกปนเลือด, เปลี่ยน bowel habit, น้ำหนักลด, ซีด / IDA, ประวัติครอบครัว) → colonoscopy แม้เห็น hemorrhoid — hemorrhoid พบบ่อยและอยู่ร่วมกับมะเร็งได้; อายุน้อยไม่มี red flag เลือดหยดสดหลังถ่าย → anoscopy ± flexible sigmoidoscopy พอ",
-      "Internal hemorrhoid อยู่ตำแหน่ง classic 3, 7, 11 นาฬิกา (left lateral, right posterior, right anterior) ไม่บ่งมะเร็ง; grade I–II → fiber / น้ำ, rubber band ligation / sclerotherapy; hemorrhoidectomy สำหรับ grade III–IV / mixed / ล้มเหลว",
-      "<b>บทบาท GP</b>: ซักประวัติ red flag, ตรวจร่างกาย + <b>DRE</b> (rectal cancer ส่วนใหญ่คลำได้), CBC หา IDA, ส่ง / พิจารณา colonoscopy, สื่อสารก่อนส่งต่อ; <b>CEA ไม่ใช่การตรวจวินิจฉัย และ PET ไม่ใช่ initial work-up</b> (staging ทำหลังได้ biopsy)"
-     ],
-     "pearls": [
-      "70 RoA: คีย์เดิมตอบ 'เพิ่มใยอาหารและน้ำ' แต่คลังตอบ colonoscopy (ช้อยที่ bank แต่งเพิ่ม) — อย่ายึดอายุเริ่ม screening 50 ปีแบบเก่า",
-      "72 RoC: คีย์เดิมตอบ 'consider colonoscopy' แต่คลังตอบ CEA + PET เพราะ 'consider … if available' คือการพิจารณาส่งตรวจซึ่งเป็นบทบาท GP",
-      "71 RoA: เห็น hemorrhoid แล้วสรุปว่าเป็นแหล่งเลือดโดยไม่ส่องกล้อง; ต้นฉบับจำช้อยไม่ครบ bank เขียน statement ใหม่ทั้งหมด"
-     ],
-     "members": [
-      "MDCU70|RoA|31",
-      "MDCU71|RoA|77",
-      "MDCU72|RoC|30"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Diverticular disease และ lower GI bleeding",
-   "sections": [
-    {
-     "id": "gen-lgib",
-     "title": "Lower GI bleeding: สาเหตุและ work-up",
-     "trend": "ถามสาเหตุที่น่าจะเป็นที่สุดจากลักษณะเลือด หรือ next investigation",
-     "asked": [
-      "ผู้สูงอายุท้องผูกเรื้อรัง massive painless bright red per rectum, stable → colonic diverticulosis",
-      "ผู้สูงอายุเลือดสดน้อยหยดหลังถ่าย ไม่เจ็บ → hemorrhoid (ตัวลวง diverticulosis)",
-      "Hematochezia หลัง resuscitate stable + NG aspirate ได้ bile ไม่มีเลือด → colonoscopy",
-      "หญิง 18 ปี massive painless LGIB, EGD + colonoscopy ปกติ, เลือดหยุดเอง → Tc-99m pertechnetate (Meckel) scan",
-      "ชาย 70 ปี massive rectal bleeding 6 ชม. → สาเหตุที่พบบ่อยที่สุด (diverticulosis vs AVM, colorectal cancer, internal hemorrhoid, ischemic colitis)",
-      "หญิง 75 ปี เลือดสด 2 ครั้ง ไม่ปวดท้อง HR 96 BP 100/60 ท้องนุ่ม PR มีเลือด → appropriate initial management (two large-bore peripheral IV cannulas; ตัวลวง NG intubation, Foley, central line, urgent colonoscopy consult)"
-     ],
-     "pattern": [
-      "<b>ลักษณะเลือดชี้สาเหตุ</b>: massive painless ในผู้สูงอายุ = diverticular bleeding (vasa recta ที่คอ diverticulum, หยุดเอง ~75–80%, เป็นซ้ำ ~25%) หรือ angiodysplasia; หยดน้อยหลังถ่ายซ้ำ ๆ = hemorrhoid; เจ็บมาก = fissure; ปวดท้องนำก่อนเลือด = ischemic colitis",
-      "ทุกรายที่ ≥45 ปี หรือมี IDA / เปลี่ยน bowel habit / น้ำหนักลด → colonoscopy แยก CRC แม้พบ hemorrhoid",
-      "<b>Hematochezia ต้องแยก UGIB</b> (10–15%): NG ได้ bile ไม่มีเลือด = ตัด upper GI; น้ำใสไม่มี bile = ตัดได้แค่กระเพาะ; ได้เลือด / coffee ground → EGD",
-      "<b>LGIB stable</b> → colonoscopy หลัง bowel prep (first test, ทั้งวินิจฉัยและรักษา: clip, epinephrine, thermal); <b>unstable / ยังเลือดออก</b> → resuscitate → CTA → angioembolization; ล้มเหลว → segmental colectomy (รู้ตำแหน่ง) / subtotal colectomy (ไม่รู้) (ACG 2023)",
-      "<b>Meckel</b> ในวัยรุ่น / เด็ก: painless bleeding เมื่อ EGD + colonoscopy ปกติ → Tc-99m pertechnetate scan (จับ ectopic gastric mucosa ไม่ต้องมี active bleeding; ไวกว่าในเด็ก ~85–90%); ผู้ใหญ่ small bowel bleeding → capsule endoscopy / CT enterography",
-      "<b>Initial ของ LGIB ทุกรายคือ resuscitation ก่อนหาแหล่งเลือด</b>: ABC, large-bore IV 14–16 G ×2 + crystalloid, CBC / coagulogram / G-M, monitor vital sign + urine output; ตามด้วยตัด UGIB (10–15% ของ hematochezia รุนแรง; ACG 2023 ไม่ทำ NG lavage routine), colonoscopy ภายใน 24 ชม. หลัง prep; transfusion เมื่อ Hb &lt; 7 (&lt; 8 โรคหัวใจ); Oakland score ≤ 8 = ความเสี่ยงต่ำ จำหน่ายได้"
-     ],
-     "pearls": [
-      "เห็น painless bright red ในผู้สูงอายุอย่าตอบ hemorrhoid อัตโนมัติ — ดูปริมาณ / vital sign",
-      "อย่าเลือก angiography ทันทีถ้าเลือดหยุดแล้ว และอย่าตอบ Meckel scan ในผู้สูงอายุ",
-      "รายละเอียด Meckel เพิ่มเติมอยู่ในหมวด Small bowel",
-      "เลือก colorectal cancer เพราะอายุ 70 — มะเร็งทำให้เลือดออกเรื้อรังปริมาณน้อย; massive + acute + ผู้สูงอายุ = diverticular ก่อน (รองลงมา angiodysplasia)",
-      "ข้อ initial: คีย์ในไฟล์ต้นฉบับตอบ A nasogastric intubation แต่คลังตอบ C large-bore IV 2 เส้น (มั่นใจปานกลางถึงสูง) — HR 96 / BP 100/60 ในคนอายุ 75 อาจเป็น compensated hypovolemia; central line ไม่ใช่ขั้นแรกเพราะ large-bore peripheral ให้น้ำได้เร็วกว่า; ข้อนี้ติด tag Acute abdomen ด้วย"
-     ],
-     "members": [
-      "MDCU78|RoA|Colorectal 5",
-      "MDCU78|RoC|Anorectal 2",
-      "MDCU78|RoD|Stomach and Duodenum 5",
-      "MDCU77|RoB|6",
-      "MDCU74|RoA|ไม่มีเลข 9",
-      "MDCU73|RoC|37"
-     ]
-    },
-    {
-     "id": "gen-diverticulitis",
-     "title": "Sigmoid diverticulitis และ abscess",
-     "trend": "ปวด LLQ ในผู้สูงอายุ → วินิจฉัย; หรือมี abscess 4 cm ใน stable patient → next step",
-     "asked": [
-      "ผู้หญิงสูงอายุ ปวด left iliac fossa ไข้ต่ำ กดเจ็บเฉพาะที่ → sigmoid diverticulitis",
-      "Sigmoid diverticulitis + pericolic abscess 4 cm, stable ไม่มี generalized peritonitis → percutaneous drainage + IV antibiotics",
-      "LLQ pain 1 สัปดาห์ CT abscess 4 cm ลงไป pelvis ได้ antibiotic แล้ว → NPO + percutaneous drainage"
-     ],
-     "pattern": [
-      "<b>วินิจฉัย</b>: CT abdomen with IV contrast (ผนังหนา, pericolic fat stranding, abscess, free air); ภาวะแทรกซ้อน abscess, perforation, fistula (colovesical → pneumaturia / fecaluria), stricture / obstruction",
-      "<b>Hinchey</b>: I pericolic abscess · II pelvic / distant abscess · III purulent peritonitis · IV feculent peritonitis",
-      "<b>Uncomplicated</b> ใน immunocompetent → outpatient, antibiotic แบบเลือกใช้ (ASCRS 2020 / WSES 2020)",
-      "<b>Abscess</b>: เล็ก (&lt;3 cm ตาม ASCRS 2020; WSES 2020 ใช้ 4–5 cm) → antibiotic อย่างเดียว; <b>≥3 cm (หรืออยู่ใน pelvis) ที่เข้าถึงได้ → CT / US-guided percutaneous drainage + IV antibiotic</b> แล้วพิจารณา elective sigmoidectomy หลัง ~6–8 สัปดาห์",
-      "<b>Generalized peritonitis</b> (Hinchey III–IV) หรือล้มเหลวจาก drainage → ผ่าตัดฉุกเฉิน: Hartmann หรือ resection + primary anastomosis ± diverting ileostomy (laparoscopic lavage ไม่ใช่มาตรฐาน)",
-      "หลังหายจาก complicated diverticulitis → colonoscopy ที่ 6–8 สัปดาห์ตัดมะเร็ง; elective sigmoidectomy พิจารณารายบุคคล"
-     ],
-     "pearls": [
-      "เห็น 4 cm อย่าตอบ antibiotic อย่างเดียว — ใช้เกณฑ์ drain ≥3 cm และดูตำแหน่ง (pelvic abscess ต้อง PCD); ต้นฉบับบางเคสมีคีย์ต่างจาก bank แต่ bank ตอบ drainage",
-      "stable + ไม่มี peritonitis → อย่ารีบผ่าตัดใหญ่",
-      "ในคนไทย / เอเชีย diverticulosis ด้านขวาพบบ่อย (เลียนแบบ appendicitis) แต่ LLQ ผู้สูงอายุยังคิด sigmoid ก่อน"
-     ],
-     "members": [
-      "MDCU76|RoD|45",
-      "MDCU76|RoA|71",
-      "MDCU75|RoC|16"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Colorectal liver metastases และ CEA",
-   "sections": [
-    {
-     "id": "gen-crlm",
-     "title": "Colorectal liver metastases: วินิจฉัย, synchronous vs metachronous และ liver resection",
-     "trend": "ให้ก้อนในตับหลายก้อนในผู้ป่วยมะเร็งลำไส้ใหญ่หรือ CEA สูง แล้วถาม Dx คำเรียก หรือการจัดการ",
-     "asked": [
-      "ชายไม่มีโรคประจำตัว US ตับพบ multiple hypoechoic nodules + CEA สูง → colorectal liver metastases (vs polycystic liver, adenoma, HCC, hemangioma)",
-      "เพิ่งวินิจฉัย sigmoid cancer และ staging CT ครั้งเดียวกันพบก้อนในตับหลายก้อน → synchronous metastasis (vs metachronous, skip, satellite)",
-      "Colon cancer + liver metastases 3 ก้อน ≤ 3 cm อยู่ใน left lobe ทั้งหมด right lobe ปกติ ไม่มีโรคนอกตับ → liver resection (vs RFA, chemo alone, TACE, supportive)",
-      "65 ปี colectomy มะเร็ง colon 4 ปีก่อน ตรวจติดตาม CT พบ solid nodules ใหม่หลายก้อนใน liver → Dx (metachronous liver metastases; ตัวลวง HCC, synchronous metastases, cirrhosis, simple hepatic cysts)",
-      "60 ปี right hemicolectomy + chemo 3 ปีก่อน colonoscopy ปีก่อนปกติ ปวด RUQ 3 เดือน LFT ปกติ U/S ก้อนเดี่ยว → metachronous colorectal liver metastasis (ตัวลวง synchronous / metachronous HCC, synchronous cholangiocarcinoma, synchronous CRLM)",
-      "60 ปี colectomy 1 ปีก่อน surveillance พบก้อนในตับ 3 ก้อนทั้งสอง lobe + CEA สูงขึ้น ไม่มีโรคนอกตับ ตัดได้หมดและ FLR พอ → liver resection (ตัวลวง วัด tumor marker อย่างเดียว, reassurance, biopsy ก้อนตับ, systemic chemo อย่างเดียว)",
-      "ปัจจัยหลักที่ตัดสินว่า CRLM ผ่าตัดหายขาดได้ → predicted volume of the hepatic remnant (ตัวลวง จำนวนก้อน, ขนาดก้อน, จำนวนรอบ chemo, อายุ)"
-     ],
-     "pattern": [
-      "<b>Metastasis = เนื้องอกร้ายในตับที่พบบ่อยที่สุด</b>; CRC แพร่ไปตับผ่าน portal vein; multiple hypoechoic หรือ target lesion + CEA สูง ในตับไม่ cirrhosis → CRLM; ต่อด้วย colonoscopy + CT chest/abdomen/pelvis หรือ MRI ตับ",
-      "<b>Synchronous</b> = พบพร้อมกับวินิจฉัย primary (ราว 15–25%); <b>metachronous</b> = พบหลังรักษา primary แล้ว",
-      "<b>Resectable CRLM ผ่าตัดหายขาดได้</b> (5-year survival ราว 40–50%): เกณฑ์ไม่นับจำนวนหรือขนาด แต่ดู R0, <b>future liver remnant ≥ 20–30%</b> ในตับปกติ (≥ 30–40% หลัง chemo มาก, ≥ 40% ใน cirrhosis) และไม่มีโรคนอกตับที่คุมไม่ได้ → hepatectomy (simultaneous, colon-first หรือ liver-first) + perioperative FOLFOX / CAPOX",
-      "Borderline → conversion chemotherapy (± anti-EGFR ใน RAS wild-type left-sided หรือ bevacizumab), portal vein embolization, two-stage hepatectomy; ablation เป็นทางเลือกเมื่อ resection ทำไม่ได้",
-      "ก้อนหลายก้อนใหม่ใน liver หลัง curative colectomy ในผู้ป่วยที่รู้ว่ามี primary → นึก <b>metastasis ก่อน HCC</b> (pretest probability สูง); พบ <b>หลัง</b> รักษา primary (เช่น 4 ปี) = <b>metachronous</b>; พร้อม primary หรือภายใน ~3–6 เดือน = synchronous",
-      "Surveillance หลัง curative resection stage II–III: CEA ทุก 3–6 เดือน 2 ปีแรก แล้วทุก 6 เดือนถึง 5 ปี + CT chest / abdomen / pelvis ทุก 6–12 เดือน + colonoscopy ที่ 1 ปี; CT: hypovascular lesion, rim enhancement ± necrosis; ยืนยันด้วย MRI (DWI) / biopsy ถ้าไม่แน่ใจ"
-     ],
-     "pearls": [
-      "เห็น liver mass แล้วตอบ HCC — HCC ต้องมี cirrhosis หรือ HBV และใช้ AFP",
-      "คิดว่า stage IV = palliative — CRLM ที่ resectable เป็นข้อยกเว้น",
-      "เลือก RFA เพียงเพราะก้อน ≤ 3 cm ทั้งที่ resection ทำได้และผลดีกว่า",
-      "สลับ synchronous (พร้อมกัน) กับ metachronous (ภายหลัง)",
-      "ข้อ metachronous: ต้นฉบับมีช้อย A–D (E ว่าง) — คลังแต่งช้อย E ‘multiple simple hepatic cysts’ และเติม ‘new solid’ ใน stem",
-      "71 RoA: ตอบจำนวน / ขนาดก้อนตามเกณฑ์เก่า — ปัจจุบันดู 'สิ่งที่เหลือ' (FLR) ไม่ใช่ 'สิ่งที่ตัด'; 72 RoB: ก้อนทั้งสอง lobe ไม่ใช่ข้อห้ามถ้าตัดได้หมด; ไม่จำเป็นต้อง biopsy ก้อนที่ resectable (เสี่ยง tumor seeding)",
-      "72 RoB: ภาพที่ต้นฉบับจด (hyperechoic, T2 สว่างมาก, delayed phase ยังสว่าง) เข้ากับ hemangioma มากกว่า CRLM (CRLM มัก hypoechoic / target, rim enhancement) — bank เติม CEA สูงขึ้น + resectable เพื่อให้ตอบ liver resection; 70 RoA ก้อน hyperechoic / hyperdense ก็ไม่ใช่ภาพ CRLM แบบฉบับ แต่โจทย์ถามคำเรียกตามเวลา (metachronous) และประวัติมะเร็งทำให้คิด metastasis ก่อน"
-     ],
-     "members": [
-      "MDCU74|RoD|ไม่มีเลข 2",
-      "MDCU79|RoC|คิดไม่ออกว่าอยู่บทไหน ไม่มีเลข 6",
-      "MDCU79|RoD|Liver and biliary tract 1&2 ไม่มีเลข 2",
-      "MDCU73|RoC|83",
-      "MDCU70|RoA|80",
-      "MDCU72|RoB|13",
-      "MDCU71|RoA|90"
-     ]
-    },
-    {
-     "id": "gen-cea-role",
-     "title": "บทบาทของ serum CEA ในมะเร็งลำไส้ใหญ่",
-     "trend": "ถามว่า CEA ใช้ทำอะไร โดยมี screening และ diagnosis เป็นตัวลวง",
-     "asked": [
-      "ข้อใดถูกเรื่อง CEA ใน colon cancer (surveillance หลัง curative colectomy vs ตรวจตลอดชีวิตทุก 6–12 เดือน, screening, diagnosis, screening ญาติ)",
-      "Colon cancer ที่มี liver metastases → tumor marker ที่ใช้ monitoring (CEA; ตัวลวง CA 19-9, AFP, C-kit, CA 125)",
-      "ข้อความใดผิดเรื่อง serum CEA ใน CRC → 'ใช้ screening และ diagnosis' (ข้อที่ถูก: สูงเล็กน้อยได้ในภาวะ benign, ใช้ surveillance หลัง curative resection, preoperative สูง = prognosis แย่, สูงได้ใน smoker)"
-     ],
-     "pattern": [
-      "CEA <b>ไม่ sensitive และไม่ specific พอ</b>สำหรับ screening หรือ diagnosis (สูงได้ใน smoker, IBD, cirrhosis, pancreatitis, ไตวาย)",
-      "ใช้: (1) <b>baseline ก่อนผ่าตัด</b> บอก prognosis และควรกลับปกติใน 4–6 สัปดาห์หลัง R0 (2) <b>surveillance หลัง curative resection</b> stage II–III: NCCN ทุก 3–6 เดือนใน 2 ปีแรก แล้วทุก 6 เดือนจนครบ 5 ปี ร่วม CT C/A/P ทุก 6–12 เดือนและ colonoscopy ที่ 1 ปี (3) ติดตามการตอบสนองต่อ chemo ในโรคแพร่กระจาย",
-      "CEA สูงขึ้นต่อเนื่อง → CT ± PET-CT หา recurrence ที่อาจผ่าตัดได้",
-      "<b>จับคู่ marker</b>: CEA = colorectal, CA 19-9 = pancreas / biliary, AFP = HCC / germ cell, CA 125 = ovary, c-kit (CD117) = GIST; ก้อนใน liver ของผู้ป่วย colon cancer ไม่ใช่เหตุให้เลือก AFP",
-      "CEA ถูก metabolize ที่ตับ (Kupffer cell) → liver damage ทำให้ clearance ลด CEA สูงเอง; ผู้สูบบุหรี่ค่าสูงกว่า; false positive: IBD, pancreatitis, cirrhosis, ผู้สูงอายุ; CEA สูงขึ้นหลังผ่าตัดโดยไม่มีอาการ → CT chest / abdomen / pelvis ± PET หา recurrence"
-     ],
-     "pearls": [
-      "‘ทุก 6–12 เดือนตลอดชีวิต’ ผิดทั้งความถี่และระยะเวลา (ติดตาม 5 ปี)",
-      "72 RoA: คิดว่า tumor marker ทุกตัวใช้คัดกรองได้ — CEA ใช้ติดตาม ไม่ใช่หามะเร็ง; ต้นฉบับจดช้อยแค่สองตัว bank แต่งที่เหลือเป็นข้อความที่ถูกทั้งหมด"
-     ],
-     "members": [
-      "MDCU79|RoD|Surgical oncology 1",
-      "MDCU73|RoC|86",
-      "MDCU72|RoA|86"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — มะเร็งลำไส้ใหญ่และ rectum: การรักษา",
-   "sections": [
-    {
-     "id": "gen-rectal-neoadjuvant",
-     "title": "Rectal cancer: MRI staging, neoadjuvant และ T4b en bloc",
-     "trend": "ให้ rectal cancer ที่ทะลุผนัง / ติดอวัยวะข้างเคียง / N+ แล้วถามลำดับการรักษา หรือถามบทบาทของ MRI",
-     "asked": [
-      "Rectal cancer ติดมดลูก / prostate (cT4b) + N+, ไม่มี metastasis → neoadjuvant therapy แล้วผ่าตัด en bloc",
-      "หลัง neoadjuvant CRT MRI ยังเห็น invade prostate → en bloc resection ของ rectum + prostate",
-      "Hematochezia + tenesmus วินิจฉัย rectal cancer แล้ว → pelvic MRI ใช้ประเมิน depth of local invasion",
-      "Newly diagnosed rectal cancer → investigation ที่ ไม่ใช่ routine staging work-up (bone scan; ตัวเลือก CT chest, CT abdomen, complete colonoscopy, MRI pelvis)"
-     ],
-     "pattern": [
-      "<b>Staging</b>: colonoscopy + biopsy, <b>MRI pelvis = local staging</b> (T stage, CRM / mesorectal fascia ≤1 mm = threatened, EMVI, mesorectal / lateral nodes, หูรูด / levator, ระยะจาก anal verge), CT chest / abdomen / pelvis = distant staging, CEA; ERUS แยก T1 / T2 ใน early lesion",
-      "<b>cT1–2 N0</b> → TME ทันที (LAR หรือ APR); cT1 ลักษณะดีทำ local excision (TAMIS / TEM) ได้",
-      "<b>Locally advanced (cT3–4 และ / หรือ N+, MRF threatened) → neoadjuvant ก่อนเสมอ</b>: ปัจจุบันนิยม total neoadjuvant therapy = long-course chemoRT (50.4 Gy + capecitabine / 5-FU) หรือ short-course RT 5×5 Gy ร่วม FOLFOX / CAPOX (RAPIDO, PRODIGE 23) → restaging MRI → TME",
-      "<b>T4b</b> (prostate, bladder, uterus / cervix, sacrum) → หลัง neoadjuvant ทำ <b>en bloc multivisceral resection</b> (APR + prostatectomy / hysterectomy, pelvic exenteration) เป้าหมาย R0; ห้ามเลาะก้อนออกจากอวัยวะที่ยึดติด เพราะการยึดติดมีมะเร็งอยู่บ่อย",
-      "LAR เมื่อได้ distal margin ≥1–2 cm และหูรูดปกติ (มัก divert ชั่วคราว); APR เมื่อก้อนลุกลามหูรูด / levator",
-      "cCR หลัง TNT → watch-and-wait ได้ในบางราย (OPRA) ติดตามด้วย MRI + endoscopy + DRE",
-      "<b>Routine work-up ทุกราย</b>: DRE + proctoscopy / biopsy, <b>complete colonoscopy</b> (หา synchronous tumor ~5%), CT chest / abdomen / pelvis (distant: ปอด ตับ), <b>pelvic MRI</b> (T, N, CRM ≤ 1 mm, EMVI, ระยะจาก anal verge / sphincter), CEA; <b>bone scan และ PET/CT ไม่ routine</b> — ทำเมื่อปวดกระดูก / ALP สูง, CT กำกวม หรือวางแผนผ่าตัดใหญ่มาก (exenteration) / recurrence",
-      "ถ้าอุดตัน ห้ามเตรียมลำไส้แบบ mechanical bowel preparation; ERUS ดีในการแยก T1 / T2 ก่อน local excision"
-     ],
-     "pearls": [
-      "ช้อยที่มีคำว่า TME ล่อให้ผ่าตัดทันที — ต้องดู stage: T3–4 หรือ N+ = neoadjuvant ก่อน",
-      "ต้นฉบับเขียน prostate <i>metastasis</i> แต่ rectal cancer ลุกลาม prostate โดยตรง (T4b) ไม่ใช่แพร่กระจายทางเลือด → ตัด en bloc ไม่ใช่ systemic chemo อย่างเดียว",
-      "pelvic MRI ใช้กับ rectal cancer ไม่ใช่ colon; mesorectal excision (rectum) ≠ mesocolic excision (colon)",
-      "ข้อ staging NOT: ต้นฉบับช้อย C ‘PET scan’ ก็ไม่ routine เช่นกัน (กำกวม) — คลังแทนเป็น ‘Complete colonoscopy’ ให้เหลือ bone scan คำตอบเดียว; ปัจจุบัน pelvic MRI ทำทุกราย ต่างจาก Schwartz / ลายมือที่เขียนว่าใช้ใน tumor ใหญ่"
-     ],
-     "members": [
-      "MDCU76|RoD|15",
-      "MDCU78|RoC|Colorectal tumor 1",
-      "MDCU78|RoC|Colorectal tumor 2",
-      "MDCU78|RoD|Colorectal tumor 3",
-      "MDCU73|RoB|22"
-     ]
-    },
-    {
-     "id": "gen-colon-resection-adjuvant",
-     "title": "Colon cancer: เลือกผ่าตัดตามตำแหน่ง, adjuvant และ stoma",
-     "trend": "ให้ภาพการตัดลำไส้หรือตำแหน่งมะเร็งแล้วถามชื่อผ่าตัด / วิธีต่อ / การรักษาเสริม",
-     "asked": [
-      "Right colon cancer + pericolic node (N+) ไม่มี metastasis → right colectomy + ileocolic anastomosis + adjuvant chemotherapy",
-      "Descending colon cancer → left colectomy, ใช้ loop ileostomy ป้องกัน anastomosis แบบ temporary"
-     ],
-     "pattern": [
-      "<b>ตำแหน่ง → ผ่าตัด</b>: cecum / ascending → right colectomy (ligate ileocolic ± right colic) · hepatic flexure / transverse → extended right colectomy (ligate middle colic) · descending / sigmoid → left colectomy / sigmoidectomy (ligate IMA) ",
-      "หลัก oncologic: en bloc ตัดพร้อม mesentery (CME), high ligation, margin ≥5 cm, ต่อมน้ำเหลือง ≥12 ต่อม",
-      "<b>Stage III (N+ M0) → adjuvant FOLFOX / CAPOX</b>: low-risk (T1–3 N1) CAPOX 3 เดือน, high-risk (T4 หรือ N2) 6 เดือน (IDEA); high-risk stage II พิจารณา chemo; <b>radiation ไม่ใช่มาตรฐานของ colon cancer</b>",
-      "<b>Diverting stoma</b> ใช้ protect anastomosis ที่เสี่ยง leak (low rectal / coloanal, irradiated, immunocompromised, malnourished, emergency): loop ileostomy = temporary ปิดได้โดยไม่ต้องเปิดท้องใหม่ หลัง 8–12 สัปดาห์เมื่อ contrast enema ไม่ leak; end ileostomy = permanent หลัง total proctocolectomy; end colostomy ใช้ใน Hartmann / APR",
-      "ภาวะแทรกซ้อน ileostomy: high output → dehydration, AKI, hypokalemia, hypomagnesemia; skin excoriation; parastomal hernia; prolapse"
-     ],
-     "pearls": [
-      "ชื่อมาตรฐานคือ <b>left colectomy</b> ไม่ใช่ \"descending colectomy\"",
-      "colo-colonic anastomosis หลัง left colectomy ในทางปฏิบัติส่วนใหญ่ไม่ต้อง divert (คำตอบของ bank เป็นรูปแบบเชิงตำรา)",
-      "ต้นฉบับเขียน adjuvant chemoradiation — bank แก้เป็น adjuvant chemotherapy"
-     ],
-     "members": [
-      "MDCU78|RoA|Colorectal 2",
-      "MDCU78|RoD|Colorectal tumor 1"
-     ]
-    },
-    {
-     "id": "gen-crc-vte-prophylaxis",
-     "title": "VTE prophylaxis ก่อน low anterior resection (ถามแบบ NOT)",
-     "trend": "ถามมาตรการที่ไม่ลด VTE ในผู้ป่วยมะเร็ง rectum ที่จะผ่าตัด",
-     "asked": [
-      "Rectal cancer จะทำ LAR ข้อใดไม่ลดความเสี่ยง VTE (neoadjuvant chemoradiotherapy vs LDUH, LMWH, IPC, early mobilization)"
-     ],
-     "pattern": [
-      "มะเร็ง + major pelvic surgery = <b>high risk</b> (Caprini ≥ 5: malignancy +2, major surgery &gt; 45 นาที +2) → <b>pharmacologic (LMWH หรือ LDUH) + mechanical (IPC)</b> ถ้าเลือดออกไม่เสี่ยงสูง, early mobilization",
-      "<b>Extended LMWH 4 สัปดาห์</b> หลัง major abdominopelvic cancer surgery",
-      "Chemotherapy และ radiation <b>เพิ่ม</b> ความเสี่ยง VTE (endothelial injury, procoagulant state) — neoadjuvant CRT เป็นการรักษามะเร็ง ไม่ใช่ prophylaxis"
-     ],
-     "pearls": [
-      "อ่านข้าม NOT แล้วเลือก LMWH",
-      "คิดว่า CRT ลดก้อนจึงลด VTE"
-     ],
-     "members": [
-      "MDCU74|RoA|5"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — ลำไส้ใหญ่ขยาย / อุดตัน",
-   "sections": [
-    {
-     "id": "gen-sigmoid-volvulus",
-     "title": "Sigmoid volvulus: อ่านฟิล์มและ management",
-     "trend": "ให้ plain film (หรือบอกวินิจฉัยแล้ว) ในผู้สูงอายุท้องอืด obstipation แล้วถามวินิจฉัย / initial management",
-     "asked": [
-      "ปวดท้อง ท้องอืดมาก obstipation + plain film (ห่วงตัว U กลับหัวจาก pelvis) → sigmoid volvulus (ออก 2 rotation; ตัวลวง cecal volvulus, pseudo-obstruction, toxic megacolon)",
-      "Contrast enema ยืนยัน sigmoid volvulus, stable ไม่มี peritonitis / ischemia → endoscopic detorsion + rectal tube"
-     ],
-     "pattern": [
-      "พบใน<b>ผู้สูงอายุ ติดเตียง ท้องผูกเรื้อรัง โรคระบบประสาท / จิตเวช, Chagas</b> (redundant sigmoid)",
-      "Plain film: ห่วงขยายรูป <b>U กลับหัว / coffee bean / bent inner tube</b> เริ่มจาก pelvis ยอดสูงเหนือ transverse colon (northern exposure sign), ผนังสองข้างชิดกันเป็นเส้นกลาง; contrast enema = bird's beak; CT = whirl sign",
-      "<b>Uncomplicated</b> → endoscopic detorsion (flexible sigmoidoscopy) สำเร็จ ~70–90% ดู mucosa ก่อนถอย + คา rectal tube → <b>elective sigmoidectomy ใน admission เดียวกัน</b> เพราะ recurrence 40–70% (อาจใช้ PEC ถ้าเสี่ยงผ่าตัดสูงมาก)",
-      "<b>Complicated</b> (peritonitis, gangrene, perforation, detorsion ล้มเหลว, mucosa ขาดเลือด) → emergency laparotomy + sigmoidectomy / Hartmann",
-      "<b>Cecal volvulus</b>: อายุน้อยกว่า, ห่วงจาก RLQ ยอดชี้ LUQ, ลำไส้เล็กขยาย → ผ่าตัด right hemicolectomy / ileocecal resection (endoscopic detorsion มักไม่สำเร็จ)"
-     ],
-     "pearls": [
-      "เห็น volvulus อย่ารีบตอบผ่าตัด — แยก uncomplicated (detorsion ก่อน) กับ complicated (Hartmann)",
-      "neostigmine ไม่ใช่การรักษา volvulus (เป็นของ Ogilvie)",
-      "ดูทิศ / ฐานของห่วง: sigmoid ฐานอยู่ pelvis ซ้าย, cecal ฐาน RLQ"
-     ],
-     "members": [
-      "MDCU78|RoA|Small bowel 1",
-      "MDCU78|RoC|Acute abdomen 3",
-      "MDCU78|RoD|Small bowel and Small bowel obstruction 2"
-     ]
-    },
-    {
-     "id": "gen-ogilvie",
-     "title": "Ogilvie syndrome (acute colonic pseudo-obstruction)",
-     "trend": "ผู้ป่วยหลังผ่าตัด / ICU / ติดเตียง ลำไส้ใหญ่ขยายทั่วไป — ถามวินิจฉัยจากฟิล์มหรือยาที่เหมาะสม",
-     "asked": [
-      "ICU หลัง cardiac surgery ท้องอืดมากขึ้น ฟิล์มลำไส้ใหญ่ขยายทั่วไป แก้ electrolyte แล้ว → Ogilvie syndrome",
-      "Post-op day 5, ติดเตียงหลัง stroke, conservative 48 ชม. ไม่ดี, cecum 11 cm, ไม่มี mechanical obstruction → neostigmine",
-      "ข้อใดเป็น functional intestinal obstruction → Ogilvie syndrome (ตัวลวง gallstone ileus, volvulus, intussusception, SMA syndrome)"
-     ],
-     "pattern": [
-      "กลไก: autonomic imbalance (sympathetic เด่น); เสี่ยง: ผู้สูงอายุ, หลังผ่าตัด (หัวใจ, ortho, คลอด), ICU, sepsis, electrolyte (K, Mg, Ca), opioid, anticholinergic, โรคระบบประสาท",
-      "ภาพ: ลำไส้ใหญ่ขยายทั่วไป เด่น cecum / right colon <b>ไม่มี transition point / ห่วงบิด</b> มีลมถึง rectum; ต้องตัด mechanical obstruction ด้วย CT หรือ water-soluble enema ก่อน",
-      "<b>Conservative 24–48 ชม.</b>: NPO, NG, rectal tube, แก้ K / Mg, หยุด opioid / anticholinergic, เปลี่ยนท่า → ไม่ดีขึ้น → <b>neostigmine 2 mg IV ช้า ๆ 3–5 นาที</b> (ตอบสนอง 80–90%; monitor ECG, เตรียม atropine) → colonoscopic decompression → ผ่าตัดถ้า perforation / ischemia",
-      "ข้อห้าม neostigmine: mechanical obstruction, perforation, bradycardia, bronchospasm",
-      "เสี่ยงแตกเมื่อ cecum &gt;12 cm หรือขยายนาน &gt;6 วัน; หลัง decompression ให้ PEG ขนาดต่ำลด recurrence",
-      "Postoperative ileus ทั่วไป ไม่มียาจำเพาะ (NG, แก้ electrolyte, ลด opioid, ERAS)"
-     ],
-     "pearls": [
-      "ลำไส้ใหญ่ขยายมากไม่ใช่ volvulus ทุกครั้ง — ดูบริบท (หลังผ่าตัด / ICU) และรูปแบบขยายต่อเนื่อง",
-      "ตัวลวงในช้อยยา: atropine, epinephrine, PEG, loperamide ไม่ใช่",
-      "70 RoA: <b>functional obstruction</b> (ไม่มีสิ่งอุดตัน) = Ogilvie, paralytic ileus; <b>gallstone ileus เป็น mechanical</b> (นิ่วอุดที่ terminal ileum) แม้ชื่อมีคำว่า ileus; volvulus, intussusception, SMA syndrome (duodenum ถูก SMA กด) เป็น mechanical"
-     ],
-     "members": [
-      "MDCU78|RoC|Acute abdomen 4",
-      "MDCU78|RoC|Small bowel 2",
-      "MDCU70|RoA|7"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Inflammatory bowel disease และ extraintestinal",
-   "sections": [
-    {
-     "id": "gen-ibd",
-     "title": "Crohn, ulcerative colitis และ PSC",
-     "trend": "ให้ลักษณะ skip lesion / continuous lesion หรือผู้ป่วย UC ที่มีอาการท่อน้ำดี",
-     "asked": [
-      "ท้องเสียไม่มีเลือด น้ำหนักลด ไข้ 6 เดือน มา SBO, พบลำไส้อักเสบ 3 ช่วงไม่ต่อเนื่อง + fat wrapping → Crohn disease",
-      "Bloody diarrhea 3 เดือน, colonoscopy รอยโรคต่อเนื่องจาก rectum ถึง ascending colon → ulcerative colitis",
-      "UC ที่ทำ surveillance colonoscopy มาด้วยไข้ jaundice ปวด RUQ คัน → primary sclerosing cholangitis",
-      "ชาย 27 ปีผิวขาว ท้องผูก อุจจาระลีบ กดเจ็บ RLQ + ผนัง jejunum และ ileum หนา comb sign → small bowel Crohn (vs appendicitis, Meckel, UC with backwash ileitis, cecal diverticulosis)"
-     ],
-     "pattern": [
-      "<b>Crohn</b>: ปากถึงทวาร (บ่อยสุด terminal ileum), <b>skip lesion, transmural, creeping fat, cobblestone, rectal sparing</b>, noncaseating granuloma; fistula / stricture / perianal disease; ผ่าตัดเฉพาะ complication แบบ bowel-sparing (strictureplasty / limited resection)",
-      "แยก intestinal TB (บริบทไทย): ileocecal, transverse ulcer, caseating granuloma, ascites — ต้อง biopsy / AFB / PCR ก่อน steroid / anti-TNF",
-      "<b>UC</b>: เริ่มที่ rectum เสมอ ลามต่อเนื่อง (Montreal E1 proctitis, E2 left-sided, E3 extensive); mucosa แดง granular เปราะ หลอดเลือดหาย; bloody diarrhea + tenesmus; ผ่าตัด (total proctocolectomy + IPAA) เมื่อ toxic megacolon, perforation, massive bleeding, refractory, dysplasia / cancer",
-      "<b>PSC</b>: 70–80% มี IBD (ส่วนใหญ่ UC), ชายอายุ 30–40, ALP สูง (cholestatic), MRCP เห็น beading; ภาวะแทรกซ้อน cholangiocarcinoma, gallbladder cancer, CRC; UC + PSC ต้อง colonoscopy surveillance ทุกปี; ไม่มียาที่เปลี่ยนโรค (UDCA ขนาดสูงเพิ่มผลเสีย), ระยะท้าย transplant",
-      "Imaging ของ active Crohn: ผนังหนา, target sign, <b>comb sign</b>, fat stranding, creeping fat; stricture → อุจจาระลีบหรืออุดตัน; <b>backwash ileitis ของ UC</b> สั้นและอยู่เฉพาะ terminal ileum ต่อจาก pancolitis"
-     ],
-     "pearls": [
-      "รอยโรคถึง ascending colon ไม่ได้แปลว่า Crohn — ตัวตัดสินคือ <b>เริ่มที่ rectum และต่อเนื่อง = UC</b>",
-      "Charcot triad + UC → นึก PSC ก่อนนิ่ว CBD; cholangiocarcinoma เป็น late complication",
-      "ในไทย intestinal TB เป็นตัวลวงของ Crohn"
-     ],
-     "members": [
-      "MDCU75|RoD|33",
-      "MDCU78|RoA|Colorectal 4",
-      "MDCU78|RoA|Jaundice 2",
-      "MDCU79|RoD|Acute abdomen 1"
-     ]
-    },
-    {
-     "id": "gen-cdiff-colitis",
-     "title": "Clostridioides difficile colitis หลังได้ antibiotic",
-     "trend": "ถามยารักษาจากช้อยที่มีแต่ antibiotic ทั่วไป",
-     "asked": [
-      "ท้องเสียเป็นน้ำหลังได้ antibiotic ยืนยัน CDI → drug of choice จากช้อย (metronidazole vs ciprofloxacin, cefazolin, clindamycin, ceftriaxone)"
-     ],
-     "pattern": [
-      "IDSA/SHEA 2021 initial episode: <b>fidaxomicin 200 mg PO bid 10 วัน</b> (preferred) หรือ <b>vancomycin 125 mg PO qid 10 วัน</b>; <b>metronidazole 500 mg PO tid 10–14 วัน</b> เฉพาะ non-severe เมื่อไม่มีสองตัวแรก",
-      "Fulminant (shock, ileus, megacolon): vancomycin 500 mg PO/NG qid + IV metronidazole ± rectal vancomycin และปรึกษาศัลยแพทย์ (subtotal colectomy + end ileostomy)",
-      "ช้อยตัวลวง (clindamycin, fluoroquinolone, cephalosporin) เป็นสาเหตุของ CDI"
-     ],
-     "pearls": [
-      "ในช้อยของ MDCU74 มีแค่ metronidazole ที่รักษาได้ ธนาคารเติม 'among the following' เพราะ guideline ปัจจุบันให้ fidaxomicin หรือ oral vancomycin ก่อน",
-      "IV vancomycin ไม่ออกมาใน lumen จึงรักษา CDI ไม่ได้"
-     ],
-     "members": [
-      "MDCU74|RoA|ไม่มีเลข 1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — หลังผ่าตัดลำไส้ใหญ่: free air และก้อนที่แผล",
-   "sections": [
-    {
-     "id": "gen-postop-free-air",
-     "title": "Free air ใต้กระบังลมหลังผ่าตัดเปิดหน้าท้อง: residual pneumoperitoneum vs anastomotic leak",
-     "trend": "POD 3 หลัง open right hemicolectomy อาการดี แต่ฟิล์มเห็น free air ถามสาเหตุ",
-     "asked": [
-      "ชาย 55 ปี POD 3 หลัง open right hemicolectomy ไม่สบายท้อง ไม่มีไข้ vital signs ปกติ ท้องอืดเล็กน้อย ไม่มี peritoneal signs AXR air under diaphragm → residual postoperative pneumoperitoneum (ตัวลวง ileocolic anastomotic leak, deep SSI, small bowel perforation, subphrenic abscess)"
-     ],
-     "pattern": [
-      "<b>Free air หลัง laparotomy / laparoscopy พบได้ปกติ</b> ค่อย ๆ ถูกดูดซึม ค้างได้ราว 3–7 วัน (บางรายนานกว่า; lap ที่ใช้ CO₂ หายเร็วกว่า) — ตัดสินจาก<b>อาการทางคลินิก ไม่ใช่ฟิล์ม</b>",
-      "<b>Anastomotic leak</b>: มัก POD 5–7, ไข้, tachycardia (มักเป็นสัญญาณแรก), ปวดท้องมากขึ้น / peritonitis, ileus นาน, WBC / CRP สูง, น้ำ drain ขุ่น / มีอุจจาระ; free air ที่<b>เพิ่มขึ้น</b>ในฟิล์มต่อเนื่องชวนสงสัย → CT with contrast (IV ± rectal)",
-      "จัดการ leak: contained / abscess → antibiotic + percutaneous drainage; generalized peritonitis / sepsis → re-laparotomy (takedown + stoma หรือ divert)"
-     ],
-     "pearls": [
-      "71 RoA: คีย์เดิมตอบ anastomotic leak แต่คลังตอบ residual pneumoperitoneum — ผู้ป่วยไม่มีไข้ ไม่มี sepsis / peritonitis และเป็นแค่ POD 3; bank เติม 'vital signs ปกติ ไม่มี peritoneal signs' ใน stem"
-     ],
-     "members": [
-      "MDCU71|RoA|44"
-     ]
-    },
-    {
-     "id": "gen-port-site-metastasis",
-     "title": "ก้อนแข็งที่ port site หลัง laparoscopic colectomy: port-site metastasis",
-     "trend": "ก้อนแข็ง ไม่เจ็บ ที่แผล port หลังผ่าตัดมะเร็ง colon ด้วยกล้อง ถามสาเหตุ",
-     "asked": [
-      "ชายหลัง laparoscopic colectomy for colon cancer มีก้อนแข็ง ไม่เจ็บ ขยับได้ที่ port site → port-site metastasis (ตัวลวง lymphosarcoma, LN metastasis, port-site incisional hernia, subcutaneous lipoma)"
-     ],
-     "pattern": [
-      "Port-site / wound recurrence ในยุคปัจจุบัน < 1% ใกล้เคียง open (COST, COLOR) — oncologic outcome ของ lap colectomy เทียบเท่า open",
-      "ป้องกัน: wound protector / specimen bag ตอนนำชิ้นเนื้อออก, no-touch technique, กัน gas leak ตาม trocar, ปล่อยลมก่อนถอด trocar",
-      "แยก port-site hernia (นุ่ม ดันกลับได้ โป่งเมื่อไอ มักที่ port ≥ 10 mm) — ก้อนแข็งที่แผลในผู้ป่วยมะเร็ง = recurrence จนกว่าจะพิสูจน์ได้ → biopsy + CT staging ± CEA"
-     ],
-     "pearls": [
-      "70 RoB: 'movable' ไม่ได้แปลว่า benign (lipoma); ต้นฉบับมีช้อยแค่ A–C"
-     ],
-     "members": [
-      "MDCU70|RoB|73"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — มะเร็งลำไส้ใหญ่: อาการนำและภาวะแทรกซ้อน",
-   "sections": [
-    {
-     "id": "gen-malignant-obstruction-palliative",
-     "title": "Malignant bowel obstruction และ palliative care ในมะเร็งลำไส้ใหญ่",
-     "trend": "ผู้ป่วยระยะแพร่กระจาย / performance status ต่ำ — ถามว่าควรผ่าตัด stent หรือประคับประคอง",
-     "asked": [
-      "Metastatic colon cancer มี colostomy แล้วท้องอืด อาเจียน ไม่มี stoma output 24 ชม. stable ไม่มี peritonitis → NG decompression + CT abdomen",
-      "ชาย 76 ปี sigmoid cancer, ECOG 3, ไม่ต้องการผ่าตัดใหญ่, ไม่มี obstruction / metastasis → palliative and best supportive care"
-     ],
-     "pattern": [
-      "<b>Malignant bowel obstruction ที่ stable</b>: NPO, NG decompression, IV fluid + electrolyte, ตรวจ stoma ด้วยนิ้ว (stenosis, parastomal hernia, impaction) → <b>CT abdomen with contrast</b> หาตำแหน่งและสาเหตุ (adhesion, carcinomatosis, recurrence); สาเหตุไม่ใช่มะเร็งได้ราว 1 ใน 4",
-      "ผ่าตัดด่วนเมื่อ peritonitis, perforation, strangulation; elective เมื่ออุดตันจุดเดียว, performance status ดี, prognosis &gt;2–3 เดือน",
-      "Non-surgical: SEMS, venting gastrostomy, octreotide, dexamethasone, antiemetic / analgesic — ตัดสินใจร่วมกับผู้ป่วยตาม goals of care",
-      "<b>ECOG 3</b> (ดูแลตัวเองได้จำกัด อยู่บนเตียง / เก้าอี้ &gt;50% ของเวลาตื่น) + ไม่ต้องการผ่าตัด + ไม่มี obstruction → best supportive care (แก้ซีด, คุมอาการ, โภชนาการ, advance care planning); stent / stoma ค่อยพิจารณาเมื่อเกิด obstruction",
-      "Fit patient: ตัดสินด้วย geriatric assessment ร่วมเป้าหมายผู้ป่วย ไม่ใช้อายุอย่างเดียว"
-     ],
-     "pearls": [
-      "Stent แก้ obstruction ไม่ได้รักษาตัวมะเร็ง — ไม่มี obstruction ไม่ต้องใส่",
-      "เห็น obstruction อย่าตอบ laparotomy ทันทีถ้าไม่มี peritonitis — decompress + CT ก่อน"
-     ],
-     "members": [
-      "MDCU78|RoD|Colorectal tumor 6",
-      "MDCU78|RoA|Colorectal 1"
-     ]
-    },
-    {
-     "id": "gen-colon-ca-presentation",
-     "title": "อาการตามตำแหน่ง: right-sided vs left-sided และ obstructing carcinoma",
-     "trend": "ถามตำแหน่งมะเร็งจากอาการ หรือสาเหตุของลำไส้ใหญ่อุดตันในผู้สูงอายุ",
-     "asked": [
-      "ชาย 70 ปี น้ำหนักลด อ่อนเพลีย ซีด FOBT บวก ไม่มี bowel habit change → right-sided colon cancer",
-      "ผู้สูงอายุท้องผูกเรื้อรัง น้ำหนักลด อุจจาระลำเล็กมีเลือดปน ไม่ผายลม 3 วัน; ฟิล์มเห็น colon ขยายแล้ว cut-off ที่ sigmoid → obstructing colon carcinoma"
-     ],
-     "pattern": [
-      "<b>Right-sided</b> (cecum, ascending): lumen กว้าง อุจจาระเหลว → ไม่ค่อยอุดตัน, bowel habit ไม่เปลี่ยน; มาด้วย <b>iron deficiency anemia, occult bleeding</b>, อ่อนเพลีย, น้ำหนักลด, ก้อน RLQ",
-      "<b>Left-sided</b> (descending, sigmoid): lumen แคบ ก้อน annular → เปลี่ยน bowel habit, pencil-thin stool, เลือดปนอุจจาระ, ปวดบีบ, large bowel obstruction",
-      "<b>Rectum</b>: hematochezia, tenesmus, ถ่ายไม่สุด → PR + proctoscopy",
-      "IDA ในชายหรือหญิงวัยหมดประจำเดือน → colonoscopy + EGD เสมอ",
-      "<b>สาเหตุ LBO ในผู้ใหญ่</b>: carcinoma ~60% > volvulus > diverticular stricture; ileocecal valve competent → closed loop เสี่ยง cecal perforation เมื่อ cecum &gt;10–12 cm; ยืนยันด้วย CT with contrast",
-      "Left-sided obstructing cancer: Hartmann หรือ resection + primary anastomosis ± diverting loop ileostomy; SEMS เป็น bridge to surgery ในศูนย์ที่ทำได้; right-sided → right hemicolectomy + primary anastomosis"
-     ],
-     "pearls": [
-      "ไม่มี bowel habit change ไม่ได้แปลว่าไม่ใช่มะเร็ง — เป็นลักษณะของฝั่งขวา",
-      "ผู้สูงอายุท้องผูกเปลี่ยนไป + น้ำหนักลด / เลือดปน → คิดมะเร็งก่อน functional / fecal impaction",
-      "ฟิล์มที่มี transition point + ลำไส้เล็กไม่ขยาย ไม่ใช่ Ogilvie"
-     ],
-     "members": [
-      "MDCU78|RoD|Colorectal tumor 2",
-      "MDCU78|RoD|Colorectal tumor 5"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Polyposis และ IBD (79D)",
-   "sections": [
-    {
-     "id": "fap-chrpe",
-     "title": "FAP: polyp จำนวนมาก + CHRPE",
-     "asked": [
-      "Colonoscopy polyp เยอะ + ophthalmoscopy CHRPE → Dx"
-     ],
-     "pattern": [
-      "FAP (APC, AD) &gt;100 adenomas → prophylactic proctocolectomy · Gardner (osteoma, desmoid) · Turcot (brain tumor)"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 5"
-     ]
-    },
-    {
-     "id": "pjs",
-     "title": "Peutz-Jeghers: pigmentation ริมฝีปาก → hamartomatous polyp",
-     "asked": [
-      "รูปจุดดำริมฝีปาก/buccal → polyp ชนิด"
-     ],
-     "pattern": [
-      "PJS (STK11): hamartoma (small bowel) → intussusception, มะเร็งหลายอวัยวะ"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 12"
-     ]
-    },
-    {
-     "id": "uc",
-     "title": "Ulcerative colitis: inflammation ต่อเนื่องไม่มี skip lesion",
-     "asked": [
-      "Colonoscopy continuous sigmoid → descending → Dx"
-     ],
-     "pattern": [
-      "UC: mucosa ต่อเนื่องจาก rectum · Crohn: skip, transmural, fistula · ตรวจ stool แยก infectious/TB/amebic ก่อน"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 4"
-     ]
-    },
-    {
-     "id": "radiation-proctitis",
-     "title": "Chronic radiation proctitis: telangiectasia rectum หลังฉายรังสี",
-     "asked": [
-      "เคยฉายรังสี prostate + LGIB + telangiectasia ที่ rectum → Dx"
-     ],
-     "pattern": [
-      "รักษา: argon plasma coagulation (first-line), formalin, sucralfate enema, HBO · angiodysplasia อยู่ cecum"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 6"
-     ]
-    },
-    {
-     "id": "stoma-necrosis",
-     "title": "Stoma necrosis วันที่ 3 หลังผ่าตัดฉุกเฉิน",
-     "asked": [
-      "Stoma คล้ำ ไม่มี output (รูป) → Dx"
-     ],
-     "pattern": [
-      "ตรวจความลึกด้วย test tube + ไฟฉาย · เหนือ fascia → observe · ใต้ fascia → re-operation · late: parastomal hernia (บ่อยสุด), prolapse, stenosis"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 8"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Anorectal malformation (78)",
-   "sections": [
-    {
-     "id": "arm-colo",
-     "title": "Anorectal malformation ในทารกชาย: perineal fistula → primary repair · meconium ในปัสสาวะ → cross-table/colostomy",
-     "asked": [
-      "ไม่มีรูทวาร + meconium ออกท่อปัสสาวะ → initial investigation (78B)",
-      "ไม่ถ่ายขี้เทา 2 วัน ปัสสาวะใส + ภาพ perineal fistula → ทำอะไรต่อ (78D)"
-     ],
-     "pattern": [
-      "รอ 16–24 ชม. ดู perineum + ปัสสาวะ · perineal fistula → anoplasty/minimal PSARP ได้เลย · meconium ในปัสสาวะ (rectourethral fistula) → colostomy · ไม่ชัด → prone cross-table lateral (&lt;1 cm primary, &gt;1 cm colostomy) · VACTERL work-up"
-     ],
-     "members": [
-      "MDCU78|RoB|32",
-      "MDCU78|RoD|2"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"Colorectal", title:"Colorectal",
+  intro:"<ul><li>แท็ก Colorectal ของ Subspe ครอบคลุมทั้ง colon / rectum, anorectal (hemorrhoid, fissure, fistula, anal SCC) และ pediatric colorectal (Hirschsprung, ARM) ตั้งแต่ MDCU66 ถึง MDCU79 รวมข้อที่ clone มาจาก Gen Sx</li><li>ก้อนใหญ่สุดคือ <b>มะเร็งลำไส้ใหญ่และ rectum</b>: rectal T3 / N+ → neoadjuvant แล้ว TME, T4b ลุก prostate / bladder / uterus → neoadjuvant แล้ว en bloc, colon stage III → ผ่าตัดก่อนแล้ว adjuvant chemo (ไม่ใช้ RT), TNM AJCC 8th (นับ node ทุกกลุ่ม, inguinal = M1, FNH = M0), CRLM ที่ผ่าได้ → liver resection ตาม FLR</li><li>Pattern recognition ที่วนซ้ำ: <b>รอยดำที่ริมฝีปาก → hamartomatous polyp</b> (PJS, MDCU71–79), adenoma หลายร้อย → FAP / APC / CHRPE, ญาติเป็น CRC อายุน้อย → Lynch ส่องตอนนี้ทุก 1–2 ปี, <b>massive painless hematochezia ผู้สูงอายุ → diverticular bleeding</b>, coffee bean → sigmoid volvulus, telangiectasia ใน rectum หลังฉายแสง → radiation proctitis</li><li>Diverticular disease: Hinchey (pericolic abscess ทุกขนาด = I / Ib; คีย์เก่าบางรุ่นตอบ II เมื่อ >4 cm ซึ่งจริง ๆ คือ WSES CT 2a) ออกช่วง MDCU70–76, abscess ≥3 cm → percutaneous drainage (คีย์เก่า MDCU75–76 ตอบ antibiotics อย่างเดียว)</li><li>รุ่นเก่า MDCU66–69 เน้นข้อเท็จจริงสั้น ๆ: hemorrhoid grade II, หลัง hemorrhoidectomy → urinary retention, chronic fissure → LIS, complex fistula, valves of Houston, แขนง IMA, bowel prep (NaP ห้ามใน CKD), FAP เพิ่มความเสี่ยง, sigmoid volvulus แบบ EXCEPT; ส่วน MDCU77–79 เน้นอ่านภาพ (AXR volvulus / Ogilvie, รูปริมฝีปาก, stoma necrosis, contrast enema), บทบาท CEA, synchronous vs metachronous, pelvic MRI และ right-sided colon ca กับ IDA</li><li>Pediatric colorectal ออกทุกยุค: Hirschsprung (rectal suction biopsy, irrigation → pull-through) และ ARM (รอ 24 ชม., perineal fistula → repair, meconium ในปัสสาวะ → colostomy)</li></ul>",
+  groups:[
+    {title:"มะเร็งลำไส้ใหญ่และ rectum: staging และการรักษาตามระยะ", sections:[
+      {id:"t4b-en-bloc",
+       title:"T4b ลุกอวัยวะข้างเคียง (prostate, bladder, uterus, stomach): neoadjuvant แล้ว en bloc multivisceral resection",
+       trend:"ให้ก้อน rectum ลุก prostate / bladder แล้วถามขั้นแรก หรือถามชนิดการผ่าตัดหลัง neoadjuvant; colon ลุกอวัยวะถามแบบ en bloc",
+       asked:["Rectal ca ลุก prostate + seminal vesicle M0 → initial = neoadjuvant chemoradiotherapy (ตัวลวง immediate en bloc pelvic exenteration, anterior resection, LAR, transanal excision, palliative care) — ถามซ้ำหลายรุ่น","ก้อน 5 cm ลุก right lobe prostate + perirectal LN โต M0 → neoadjuvant แล้ว en bloc resection (ตัวลวง upfront LAR + TME, upfront APR, local excision, diverting colostomy)","หลัง neoadjuvant CRT MRI ยังเห็นก้อนลุก prostate → en bloc resection ของ rectum + prostate (ตัวลวง LAR แล้ว shave ก้อนออกจาก prostate, colostomy, local excision, chemo อย่างเดียว)","Rectal ca ลุก bladder → pelvic exenteration (ตัวลวง LAR + coloanal, APR, chemo, local excision); อีกรุ่นถามลำดับ → chemoradiation แล้ว exenteration (ตัวลวง exenteration แล้ว CRT, exenteration อย่างเดียว, wedge bladder, RT อย่างเดียว)","Colon ca ลุก dome ของ bladder → anterior resection + en bloc partial cystectomy (ตัวลวง pelvic exenteration ± chemotherapy, diverting colostomy)","Right colon ca ลุก stomach → hemicolectomy + en bloc gastrectomy (ตัวลวง right hemi อย่างเดียว, Roux-en-Y bypass, internal bypass, chemo)"],
+       pattern:["<b>T4b</b> = ลุกเข้าอวัยวะ / โครงสร้างข้างเคียงโดยตรง (AJCC 8th) — เป็น local extension ไม่ใช่ metastasis จึงยังมุ่ง cure (R0 คือปัจจัยพยากรณ์สำคัญสุด)","<b>Rectum T4b</b>: TNT / long-course CRT ก่อนเสมอ → restage MRI → <b>en bloc multivisceral resection</b>: ลุก prostate / seminal vesicle → TME + prostatectomy หรือ cystoprostatectomy; ลุก bladder กว้าง / trigone → total pelvic exenteration; ลุก uterus / vagina → posterior exenteration (รวม hysterectomy)","<b>Colon T4b</b>: ผ่าตัด en bloc ได้เลย (ลุก bladder dome → partial cystectomy, ลุก stomach → partial gastrectomy) แล้วให้ adjuvant ตาม stage; NCCN Colon 2025 ให้พิจารณา neoadjuvant FOLFOX / CAPOX ใน cT4b (หรือ bulky nodes) — ไม่ใช่ chemoradiation","ห้ามเลาะแยก adhesion ระหว่างก้อนกับอวัยวะ — adhesion ที่ดูเหมือน inflammatory มีมะเร็งอยู่ได้ราว 40% → R1 และ local recurrence"],
+       pearls:["คีย์เก่า MDCU69 RoC ตอบ pelvic exenteration (ลายมือเติม + chemotherapy, อีกไฟล์ไม่มี chemo) สำหรับ colon ลุก bladder dome — ตาม NCCN Colon 2025 / Sabiston 21e ตอบ en bloc partial cystectomy; exenteration สงวนไว้เมื่อลุก trigone หรือเป็น rectal cancer ลุกกว้าง","คีย์ MDCU78 RoD เขียน 'neoadjuvant then LAR (?)' — ก้อนติด prostate ทำ LAR อย่างเดียวไม่ได้ R0 ต้อง en bloc","ต้นฉบับ MDCU76 RoD เขียน 'prostate metastasis' — rectal cancer ไม่แพร่ทางเลือดไป prostate ที่จริงคือ direct invasion","Dome → partial cystectomy · trigone → cystectomy / exenteration"],
+       members:["MDCU76|RoD|15@p4","MDCU78|RoD|Colorectal tumor 3","MDCU77|RoA|Colo 5","MDCU76|RoC|Colo 4","MDCU68|RoB|64","MDCU67|RoD|3","MDCU69|RoC|X20","MDCU67|RoA|30"]},
+      {id:"colon-adjuvant",
+       title:"Colon cancer stage III: ผ่าตัดก่อน แล้ว adjuvant chemotherapy (ไม่ใช้ RT / neoadjuvant CRT)",
+       trend:"ให้ colon ca ที่ LN บวกแล้วถามลำดับหรือชนิด adjuvant — ตัวลวงหลักคือหลักการของ rectum",
+       asked:["Ascending colon mass + pericolic LN บน CT M0 → right hemicolectomy (แล้ว adjuvant chemotherapy) — ตัวลวง preoperative chemo / CRT / RT แล้ว right colectomy, right colectomy แล้ว postop RT — ถามซ้ำ","Cecal ca หลัง right hemicolectomy pT3N1M0 → systemic chemotherapy (ตัวลวง immunotherapy, RT, concurrent CRT, observe)","หลัง colectomy pT2 + pericolic 2 / 15 + apical 1 / 5 บวก M0 → postoperative chemotherapy (ตัวลวง postop RT, CRT, CEA อย่างเดียว, immunotherapy)","Sigmoid pT3 3 / 18 nodes M0 → stage IIIB + adjuvant chemotherapy (ตัวลวง stage IIIB + adjuvant CRT, stage IIA observe, stage IV palliative)","Sigmoid 4 cm + pericolic LN M0 → sigmoidectomy + lymphadenectomy + adjuvant chemo (ตัวลวง neoadjuvant CRT แล้ว sigmoidectomy, EMR, colostomy)","Sigmoid ทะลุ serosa N1 M0 → sigmoidectomy + adequate mesocolic resection + adjuvant (ตัวลวง sigmoidectomy + adjuvant เฉย ๆ, neoadjuvant + sigmoidectomy + adjuvant, sigmoidectomy อย่างเดียว)"],
+       pattern:["<b>Oncologic colectomy</b>: ligation เส้นเลือดหลักที่ต้นกำเนิด (central / high ligation) + เอา mesocolon ครบ (complete mesocolic excision), LN ≥12 ต่อม, margin ลำไส้ราว ≥5 cm","<b>Stage III (N+)</b> → adjuvant <b>CAPOX หรือ FOLFOX</b>: low-risk (T1–3 N1) CAPOX 3 เดือน, high-risk (T4 หรือ N2) 6 เดือน (IDEA); high-risk stage II พิจารณาเป็นราย ๆ","<b>ไม่ใช้ RT</b> ใน colon (ลำไส้เคลื่อนที่ได้ เสี่ยง small bowel injury) — RT / CRT เป็นของ rectum","Neoadjuvant ใน colon = systemic chemo เฉพาะ T4b / bulky (NCCN) ไม่ใช่มาตรฐานของ T3 / T4a"],
+       pearls:["ช้อยที่ต่างกันแค่ 'adequate mesocolic resection' — เลือกอันที่ครบหลัก oncologic","อย่าย้ายหลัก rectal cancer (neoadjuvant CRT) มาใช้กับ colon"],
+       members:["MDCU79|RoD|Colo 10","MDCU77|RoC|Colo 3","MDCU76|RoD|40","MDCU75|RoC|Colo 2","MDCU74|RoD|17","MDCU73|RoB|Colo 2","MDCU72|RoA|48"]},
+      {id:"tnm-staging",
+       title:"TNM staging (AJCC 8th): นับ node ทุกกลุ่ม, inguinal = M1, FNH ในตับ = M0",
+       trend:"ให้ pathology ที่มีตัวหลอก (apical / internal iliac / inguinal node, ก้อนตับที่เป็น FNH) แล้วถาม TNM หรือ stage",
+       asked:["Sigmoid ลุก uterus + liver met 1 ก้อน + 2 / 16 pericolic LN → T4bN1bM1a","Sigmoid ลุกอวัยวะข้างเคียง + pericolic 2 + inguinal 2 ต่อม + liver lesion biopsy = FNH → T4bN1bM1a (inguinal เป็น non-regional)","Rectal ca ลุก uterus + pericolic 2 + internal iliac 2 (หรือ apical 2) + liver nodule = FNH → T4N2M0 stage III (ตัวลวง T4N1M0, T4N2M1) — ถามซ้ำ","ลุก muscularis propria + pericolic 2 / 15 + apical 1 / 4 M0 → T2N1M0 stage III","Sigmoid pT3 3 / 18 nodes M0 → stage IIIB"],
+       pattern:["<b>T</b>: Tis = intramucosal (lamina propria) · T1 submucosa · T2 muscularis propria · T3 ผ่าน muscularis propria ถึง pericolorectal tissue · T4a ทะลุ visceral peritoneum (serosa) · T4b ลุกอวัยวะ / โครงสร้างข้างเคียง","<b>N</b>: N1a 1 ต่อม · N1b 2–3 · N1c tumor deposit โดยไม่มี LN บวก · N2a 4–6 · N2b ≥7 — <b>นับ regional node ทุกกลุ่มรวมกัน</b> (pericolic + apical / IMA + mesorectal + internal iliac ของ rectum)","<b>Regional node</b>: colon = pericolic และตามแนวเส้นเลือดหลักถึง apical; rectum เพิ่ม mesorectal, superior rectal, IMA, <b>internal iliac</b> · <b>inguinal = non-regional ของ colon / rectum → นับเป็น M1</b>","<b>M</b>: M1a = อวัยวะเดียว (ไม่มี peritoneum) · M1b ≥2 อวัยวะ · M1c peritoneal; ก้อนตับที่ biopsy เป็น <b>FNH = benign → M0</b>","<b>Stage</b>: IIIA = T1–2 N1 / T1 N2a · IIIB = T3–4a N1, T2–3 N2a, T1–2 N2b · IIIC = T4a N2a, T3–4a N2b, T4b N1–2 · IVA = M1a"],
+       pearls:["คีย์เก่า MDCU67 RoA ตอบ T4N1M0 (นับแค่ pericolic) — ตาม AJCC 8th pericolic 2 + apical 2 = 4 ต่อม → N2","คีย์เก่า MDCU73 RoB (ลายมือ) ตอบ T4N2M0 โดยนับ inguinal เป็น regional — ตาม AJCC 8th inguinal ของ colon = M1a","FNH ในตับเป็นตัวหลอกให้ตอบ M1"],
+       members:["MDCU73|RoB|Colo 3","MDCU70|RoA|64","MDCU72|RoA|49","MDCU67|RoA|28","MDCU67|RoA|29","MDCU74|RoD|17"]},
+      {id:"rectal-neoadjuvant",
+       title:"Rectal cancer locally advanced (T3–4 / N+): neoadjuvant ก่อน TME",
+       trend:"ให้ระดับก้อน + MRI stage แล้วถามลำดับการรักษา หรือถามข้อบ่งชี้ของ preoperative CRT ตรง ๆ",
+       asked:["Mid rectum 8 cm จาก anal verge, MRI T2N1, mesorectal fascia clear, M0 → chemoradiation แล้ว LAR + TME (ตัวลวง upfront APR, transanal local excision, systemic chemo + LND, palliative colostomy)","ก้อน 4 cm สูงจาก puborectalis 3 cm ทะลุผนัง ชิด uterus / cervix + LN บวก M0 → neoadjuvant therapy แล้วผ่าตัด (ตัวลวง LAR + CRT, APR + CRT, LAR + TME ทันที, anterior resection + mesocolic excision)","Middle rectum cT3N1 CRM clear M0 → neoadjuvant CRT แล้ว TME (ตัวลวง TME อย่างเดียว, TME แล้ว adjuvant chemo, local excision, chemo อย่างเดียว)","ข้อบ่งชี้ preoperative chemoradiation ใน rectal cancer → T3 และ / หรือ node-positive (ตัวลวง เพศชาย, mid rectum, low rectum, all of the above) — ถามซ้ำแบบเดิม"],
+       pattern:["<b>ข้อบ่งชี้ neoadjuvant</b> = cT3–T4 และ / หรือ N+ (stage II–III) ของ mid / low rectum หรือ MRF / CRM threatened (≤1 mm บน MRI), EMVI บวก — ตำแหน่งหรือเพศอย่างเดียวไม่ใช่ข้อบ่งชี้","<b>Regimen</b> (NCCN Rectal 2025): long-course CRT 45–50.4 Gy + capecitabine / 5-FU หรือ short-course RT 25 Gy / 5 fractions; แนวทางที่นิยมตอนนี้คือ <b>total neoadjuvant therapy (TNT)</b> = CRT หรือ SCRT + FOLFOX / CAPOX ทั้งหมดก่อนผ่า (RAPIDO, PRODIGE 23) → restage ด้วย pelvic MRI → ผ่าตัด","<b>ผ่าตัด = total mesorectal excision (TME)</b>: mid / upper → <b>LAR + TME</b> (± temporary diverting loop ileostomy), distal margin ≥1–2 cm, CRM >1 mm; ก้อนต่ำที่ลุก sphincter / levator → <b>APR</b>","cT1–2N0 → TME ได้เลยโดยไม่ต้อง neoadjuvant; cT1N0 low-risk → transanal local excision ได้; complete clinical response หลัง TNT → watch-and-wait ในศูนย์ที่ติดตามได้ (OPRA)","ก้อนชิด / ลุก uterus = cT4b → neoadjuvant ก่อนแล้ว en bloc (ดูเรื่อง T4b ด้านล่าง)"],
+       pearls:["ดูแค่ T2 แล้วผ่าเลย — N1 ทำให้เป็น stage III ต้อง neoadjuvant ก่อน","ช้อย 'LAR + TME' ถูกครึ่งเดียวเมื่อเป็น T3 / N+ — ลำดับคือ neoadjuvant ก่อน","อย่าสับสน mesorectal excision (rectum) กับ mesocolic excision (colon)","โจทย์ที่ไม่บอกว่าก้อนอยู่ mid หรือ low — ช้อยกว้าง ๆ 'neoadjuvant then surgery' ปลอดภัยที่สุด"],
+       members:["MDCU79|RoC|Colo 5","MDCU78|RoC|Colorectal tumor 1","MDCU74|RoC|29","MDCU69|RoC|R90","MDCU67|RoD|27"]},
+      {id:"colon-operation-site",
+       title:"Colon cancer: เลือกการผ่าตัดตามตำแหน่ง, anastomosis และ diverting stoma",
+       trend:"ถามชื่อการผ่าตัดตามตำแหน่งก้อน (บางรุ่นให้รูปแรเงา) และ stoma ที่ใช้ protect anastomosis",
+       asked:["Cecal adenocarcinoma 2 cm M0 → right hemicolectomy (ตัวลวง extended right, subtotal colectomy, cecectomy, left hemi)","Mid-transverse colon ca M0 → extended right hemicolectomy (ตัวลวง right hemi, left hemi, transverse colostomy, stent)","Right colon ca + pericolonic LN (ให้รูป) → (1) right colectomy (2) ileocolic anastomosis (3) adjuvant chemotherapy","Descending colon ca → (X) left colectomy (Y) loop ileostomy protect anastomosis (Z) temporary (ตัวลวง 'descending colectomy', end ileostomy, permanent)","Cecal ca + liver mets เล็ก 2 ก้อน resectable + ลุก omentum ผ่าตัด curative → สิ่งที่ NOT standard = HIPEC (ที่ทำ: wedge resection ของตับ, right hemi + ligation ที่ต้นกำเนิด, LN ≥12, en bloc omentectomy)"],
+       pattern:["ขอบเขตตาม vascular pedicle: <b>cecum / ascending / hepatic flexure</b> → right hemicolectomy (ileocolic + right colic + right branch ของ middle colic; terminal ileum ถึง proximal ⅓ transverse) · <b>transverse กลาง</b> → <b>extended right hemicolectomy</b> (ตัด middle colic ที่ต้นกำเนิด) หรือ transverse colectomy · <b>splenic flexure / descending</b> → left hemicolectomy · <b>sigmoid</b> → sigmoidectomy (high ligation IMA / sigmoid vessels)","ขนาดก้อนไม่เปลี่ยนขอบเขต — ต้องเอา LN ตามแนวเส้นเลือด","Right hemi ต่อด้วย <b>ileocolic (ileotransverse) anastomosis</b>","Stoma ที่ใช้ protect anastomosis เสี่ยง leak = <b>diverting loop ileostomy ชั่วคราว</b> ปิดราว 8–12 สัปดาห์หลังตรวจว่ารอยต่อหายดี (contrast enema); end stoma มักถาวรหรือเป็น Hartmann","<b>HIPEC</b> = ใช้คู่ cytoreductive surgery สำหรับ peritoneal metastasis เท่านั้น (ประโยชน์ของ oxaliplatin-HIPEC ไม่ชัดหลัง PRODIGE 7) — omentum ที่ถูกลุกโดยตรงตัด en bloc ก็พอ; liver mets เล็กที่ resectable ตัด R0 ได้ (wedge / non-anatomic)"],
+       pearls:["ชื่อมาตรฐานคือ 'left colectomy' ไม่ใช่ 'descending colectomy'","ต้นฉบับ MDCU78 RoA ช้อยเขียน adjuvant chemoradiation — colon ใช้ chemotherapy","Right hemi ธรรมดาไม่ครอบคลุม middle colic pedicle ของก้อน transverse กลาง","Left colectomy แบบ colo-colonic ส่วนใหญ่ไม่ต้อง divert — โจทย์กำหนดเองว่าทำเพื่อ protect anastomosis"],
+       members:["MDCU78|RoA|Colorectal 2","MDCU78|RoD|Colorectal tumor 1","MDCU77|RoA|Colo 1","MDCU76|RoC|Colo 3","MDCU76|RoC|Colo 1"]},
+      {id:"crc-presentation",
+       title:"อาการนำ: right-sided (IDA, ก้อน RLQ) vs left-sided / obstructing และ rectal mass",
+       trend:"ให้อาการ (ซีด ไม่มี bowel habit change / อุจจาระลำเล็ก + obstipation) แล้วถามตำแหน่งมะเร็งหรือ next step",
+       asked:["70 ปี น้ำหนักลด อ่อนเพลีย ซีด FOBT บวก ไม่มี bowel habit change → right-sided colon cancer (ตัวลวง left-sided, rectal, hemorrhoid, diverticulosis)","เหนื่อย 3 เดือน ซีด iron deficiency anemia + ก้อนที่ ascending colon → carcinoma ของ ascending colon (ตัวลวง sigmoid ca, ileocecal TB, Crohn, lymphoma)","หญิง 70 ปี อ่อนเพลีย 4 เดือน คลำก้อน RLQ ซีดเล็กน้อย → right-sided colon cancer (ตัวลวง Crohn terminal ileum, appendiceal mucocele, ovarian tumor)","70 ปี ท้องผูกเรื้อรัง ตอนนี้ไม่ถ่าย / ไม่ผายลม 3 วัน น้ำหนักลด 6 kg อุจจาระลำเล็กมีเลือด AXR colon โป่ง cut-off ที่ sigmoid ไม่มี small bowel โป่ง → obstructing colon carcinoma (ตัวลวง Ogilvie, adhesive SBO, IBS-C, Hirschsprung)","หญิง 40 ปี ถ่ายลำบาก 3 เดือน น้ำหนักลด 5 kg ถ่าย 7 ครั้ง / วัน PR มี skin tag + ก้อนนูนใน anal canal คลำขอบบนไม่ถึง → colonoscopy + biopsy (ตัวลวง lifestyle, hemorrhoidectomy, RBL, topical steroid)"],
+       pattern:["<b>Right colon</b> (cecum / ascending): lumen กว้าง อุจจาระเหลว → ก้อน exophytic โตได้มากโดยไม่อุดตัน → occult bleeding → <b>IDA</b>, อ่อนเพลีย เหนื่อย น้ำหนักลด ± คลำก้อน RLQ; ถ้าเห็นเลือดมักสีคล้ำ / melena","<b>Left colon / sigmoid</b>: ก้อน annular lumen แคบ อุจจาระแข็ง → change in bowel habit, อุจจาระลำเล็ก, เลือดสดปน, <b>obstruction</b>","<b>Rectum</b>: hematochezia, tenesmus, ถ่ายบ่อยไม่สุด, คลำได้จาก DRE","IDA ในชาย / หญิงวัยหมดประจำเดือนโดยไม่มีสาเหตุชัด → <b>colonoscopy + EGD</b> เสมอ (อย่าให้แค่ธาตุเหล็ก)","<b>Large bowel obstruction</b> ในผู้ใหญ่: สาเหตุอันดับหนึ่ง = <b>colorectal carcinoma</b> (ราว 60%) ตามด้วย volvulus, diverticular stricture; ileocecal valve competent → closed loop เสี่ยง cecal perforation เมื่อ cecum >10–12 cm; ยืนยันด้วย CT with contrast","Red flag (น้ำหนักลด, bowel habit change, ก้อนที่คลำขอบบนไม่ถึง, อายุ ≥45) → <b>colonoscopy + biopsy</b> ก่อนรักษาโรคทวารหนักที่เห็น"],
+       pearls:["ไม่มี bowel habit change ไม่ได้ตัดมะเร็ง — เป็นลักษณะของมะเร็งฝั่งขวา","Skin tag / hemorrhoid ที่เห็นชวนให้มองข้ามก้อนที่อยู่สูงขึ้นไป — ถ่าย 7 ครั้ง / วันคือ bowel habit change","ในไทยก้อน ileocecal ต้องคิดถึง TB ด้วย แต่ผู้สูงอายุ + IDA = มะเร็งก่อน"],
+       members:["MDCU78|RoD|Colorectal tumor 2","MDCU79|RoD|Colo 9","MDCU77|RoC|Colo 1","MDCU78|RoD|Colorectal tumor 5","MDCU71|RoB|78"]},
+      {id:"malignant-polyp",
+       title:"Polyp: ความเสี่ยงมะเร็ง และ malignant polyp หลัง polypectomy",
+       trend:"ให้ pathology หลังตัด polyp (intramucosal / ลุก submucosa, pedunculated / sessile, margin) แล้วถาม next step",
+       asked:["Polyp ชนิดใดเสี่ยงมะเร็งสูงสุด → villous adenoma (ตัวลวง tubulovillous, tubular, inflammatory, hyperplastic)","Screening พบ polyp ที่ ascending colon ตัดแล้วเป็น well-differentiated adenocarcinoma จำกัดใน polyp margin free → colonoscopic surveillance (ตัวลวง right hemi, total / subtotal colectomy, adjuvant chemo)","55 ปี polyp 1 cm ตัดได้ intramucosal adenocarcinoma margin free → close follow-up (ตัวลวง right colectomy, subtotal / total colectomy, CRT)","Sessile polyp 1 cm ตัดแล้วพบมะเร็งลุก submucosa → segmental colectomy (ตัวลวง subtotal colectomy, observe, ตัดซ้ำ, chemo)"],
+       pattern:["ความเสี่ยงมะเร็งของ adenoma เพิ่มตาม <b>ขนาด >1 cm</b>, <b>villous component</b> (villous > tubulovillous > tubular), <b>high-grade dysplasia</b>; hyperplastic / inflammatory polyp ไม่ใช่ precursor","<b>Intramucosal carcinoma (Tis)</b> ยังไม่ผ่าน muscularis mucosae → ไม่มี lymphatic → polypectomy ที่ margin free พอ แล้ว surveillance","<b>T1 malignant polyp</b> (ลุก submucosa): favorable = ตัดชิ้นเดียว, margin ≥1 mm (<1 mm ถือว่า positive), grade 1–2, ไม่มี lymphovascular invasion, tumor budding ต่ำ → observe + colonoscopy ซ้ำ; ขาดข้อใด → <b>oncologic segmental colectomy</b>","<b>Haggitt</b> (pedunculated): level 1–3 = invasion อยู่ใน head / neck / stalk → nodal risk ต่ำ; <b>level 4</b> = ลงถึง submucosa ของผนังลำไส้ใต้ฐาน stalk — <b>sessile polyp ที่มีมะเร็งลุก submucosa ถือเป็น level 4</b> → nodal risk สูงขึ้น (sessile โดยรวมราว 10%, level 4 ราว 27%) → segmental colectomy; NCCN Colon 2025 ยอมให้ observe ใน sessile ที่ favorable ครบทุกข้อ แต่โจทย์ที่ไม่ให้รายละเอียดเหล่านี้ → colectomy"],
+       pearls:["คีย์ไฟล์ 01.2 ของ MDCU69 RoC ตอบ observe ในเคส sessile ลุก submucosa — คีย์ลายมือชุดแรกและ Sabiston 21e ตอบ segmental colectomy","Tubulovillous ไม่ได้เสี่ยงกว่า villous ล้วน"],
+       members:["MDCU76|RoC|Colo 6","MDCU71|RoB|ไม่มีเลข 7","MDCU69|RoC|X8","MDCU67|RoC|28"]},
+      {id:"cea-surveillance",
+       title:"CEA และ surveillance หลังผ่าตัด",
+       trend:"ถามว่า CEA ใช้ทำอะไร, marker ที่ใช้ติดตาม CRLM, หรือแผน follow-up ข้อใดผิด",
+       asked:["ข้อใดถูกเรื่อง serum CEA ใน colon cancer → ใช้ surveillance หลัง curative colectomy (ตัวลวง screening, diagnosis, screening ญาติสายตรง, ติดตามตลอดชีวิตทุก 6–12 เดือน)","Colon ca + liver mets ส่ง tumor marker ใดติดตาม → CEA (ตัวลวง CA 19-9, AFP, c-kit, CA 125)","Follow-up หลัง LAR ข้อใดผิด → colonoscopy ที่ 1 ปีแล้วหยุด","70 ปี หลังรักษา rectal ca พบ nodule 1 cm ที่ปอด → การตรวจที่สำคัญน้อยสุด = ประวัติสัมผัส TB (ตามคีย์; ช้อยอื่น CEA, CT chest, colonoscopy, bone scan)"],
+       pattern:["CEA ไม่ไว / ไม่จำเพาะพอสำหรับ screening หรือ diagnosis (สูงได้ใน smoker, IBD, cirrhosis, pancreatitis, ไตวาย) — ใช้ 3 อย่าง: <b>baseline ก่อนผ่า</b> (prognosis), <b>surveillance หลัง curative resection</b>, ติดตามการตอบสนองใน metastatic disease","<b>NCCN stage II–III</b>: H&P + CEA ทุก 3–6 เดือน 2 ปี แล้วทุก 6 เดือนจนครบ 5 ปี · CT chest / abdomen / pelvis ทุก 6–12 เดือนถึง 5 ปี · colonoscopy ที่ 1 ปี (ถ้าก่อนผ่าส่องไม่ครบเพราะอุดตัน → ทำใน 3–6 เดือน) → อีก 3 ปี → ทุก 5 ปี","CEA สูงขึ้นหลังผ่า / ก้อนใหม่ในตับหรือปอด → CT C / A / P ± PET-CT + colonoscopy หา local / metachronous recurrence"],
+       pearls:["ช้อย 'lifelong ทุก 6–12 เดือน' ผิด — surveillance มาตรฐานราว 5 ปี","โจทย์ nodule ปอด: คีย์ตอบประวัติ TB สำคัญน้อยสุด แต่ bone scan ก็ไม่ใช่ routine ใน CRC — กำกวม จำคำตอบตามคีย์ไว้"],
+       members:["MDCU79|RoD|Surgical oncology 1","MDCU73|RoC|86","MDCU70|RoB|84","MDCU72|RoC|ไม่มีเลข 9"]},
+      {id:"postop-complications",
+       title:"หลังผ่าตัดลำไส้ใหญ่: free air, port-site metastasis, stoma necrosis",
+       trend:"ให้ภาพ / อาการหลังผ่าตัดแล้วถามว่าเป็นอะไร — ตัดสินจาก clinical ไม่ใช่จากภาพอย่างเดียว",
+       asked:["55 ปี POD 3 open right hemicolectomy อึดอัดท้อง ไม่มีไข้ vital signs ปกติ ท้องอืดเล็กน้อยไม่มี peritoneal signs AXR มี free air → residual postoperative pneumoperitoneum (ตัวลวง ileocolic anastomotic leak, deep SSI, small bowel perforation, subphrenic abscess)","Radiographic sign ใด NOT pneumoperitoneum → pneumatosis intestinalis (ตัวลวง double bowel wall, football, Rigler, falciform ligament sign)","หลัง laparoscopic colectomy คลำก้อนแข็งไม่เจ็บเคลื่อนได้ที่ port site → port-site metastasis (ตัวลวง lymphosarcoma, LN metastasis, port-site hernia, lipoma)","Emergency stoma 3 วันก่อน ตอนนี้สีคล้ำ ไม่มี output (ให้รูป) → necrotic stoma (ตัวลวง prolapse, parastomal hernia, stenosis, retraction)"],
+       pattern:["Free air หลัง <b>laparotomy</b> พบบ่อยและค้างได้ราว 1 สัปดาห์ (บางราย 2–3 สัปดาห์ โดยเฉพาะคนผอม); หลัง laparoscopy CO₂ ดูดซึมเร็วกว่า → วินิจฉัย leak จาก <b>clinical</b> ไม่ใช่ free air อย่างเดียว","<b>Anastomotic leak</b> (มัก POD 3–7): tachycardia (มักเป็นสัญญาณแรก), ไข้, ปวดมากขึ้น, peritonitis, ileus ไม่ดีขึ้น, WBC / CRP สูง → CT with contrast (free air ที่เพิ่มขึ้น, fluid collection, contrast extravasation)","Signs ของ pneumoperitoneum: free air ใต้กระบังลม (upright CXR), <b>Rigler / double wall</b>, <b>football</b> (เด็กนอนหงาย), <b>falciform ligament</b>, triangle sign · <b>pneumatosis intestinalis</b> = ลมในผนังลำไส้ (ischemia, NEC) ไม่ใช่ free air","<b>Port-site metastasis</b>: ก้อนแข็งไม่เจ็บที่แผล trocar → biopsy + CT C / A / P + CEA (มักบ่ง peritoneal spread); RCT (COST, COLOR, CLASICC) พบ wound recurrence <1% ไม่ต่างจาก open; hernia จะนุ่มและดันกลับได้","<b>Stoma necrosis</b> (24–72 ชม. แรก; mesentery ตึง, ตัด marginal artery มาก, ช่องผนังท้องแคบ, อ้วน, emergency) → ส่องหลอดทดลองหล่อลื่น / proctoscope + ไฟฉายดูความลึก: คล้ำ<b>เหนือ fascia</b> → เฝ้าดู (อาจตีบ / retract ภายหลัง); <b>ต่ำกว่า fascia → ผ่าตัดทำ stoma ใหม่ด่วน</b>"],
+       pearls:["คีย์เก่า (GS Supplementary) MDCU71 RoA ตอบ anastomotic leak — โจทย์ไม่มีไข้ / tachycardia / peritonitis จึงตอบ residual pneumoperitoneum","ก้อน 'movable' ไม่ได้แปลว่า benign","ดูแค่สีภายนอกของ stoma ไม่พอ ต้องดูว่าคล้ำลึกถึง fascia ไหม"],
+       members:["MDCU71|RoA|44","MDCU77|RoC|Colo 7","MDCU70|RoB|73","MDCU79|RoD|Colo 8"]},
+      {id:"rectal-staging",
+       title:"Rectal cancer: staging work-up (pelvic MRI, CT, colonoscopy — ไม่ใช่ bone scan / PET)",
+       trend:"ถามบทบาทของ pelvic MRI หรือข้อใด NOT routine staging",
+       asked:["ชายถ่ายเป็นเลือด + tenesmus เป็น rectal ca → บทบาทหลักของ pelvic MRI = ประเมิน depth of local invasion (ตัวลวง หา liver / lung mets, tissue diagnosis, synchronous proximal tumor, peritoneal carcinomatosis)","Rectal ca วินิจฉัยใหม่ ข้อใด NOT routine staging → bone scan (ตัวลวง CT chest, CT abdomen, complete colonoscopy, MRI pelvis)","Locally invasive rectal ca ข้อใด NOT routine initial staging → PET-CT (ตัวลวง pelvic MRI, CT abdomen, CT chest, colonoscopy)"],
+       pattern:["<b>Routine</b> (NCCN Rectal 2025): complete colonoscopy + biopsy (หา synchronous tumor), <b>pelvic MRI</b> (T, N, MRF / CRM, EMVI, ระยะจาก anal verge / sphincter), <b>CT chest / abdomen / pelvis</b> (distant), CEA; ERUS ช่วยแยก T1 vs T2 ใน early lesion","<b>ไม่ routine</b>: <b>PET-CT</b> (ใช้เมื่อ CT กำกวม, ใช้ contrast ไม่ได้, ก่อน metastasectomy), <b>bone scan</b> (เมื่อปวดกระดูก / ALP สูง)","Pelvic MRI = local staging + restaging หลัง neoadjuvant (ycT, tumor regression) — distant staging ใช้ CT"],
+       pearls:["เลือก 'หา metastasis' เพราะคิดว่า MRI ละเอียดสุด — pelvic MRI ดูเฉพาะ local","ต้นฉบับ MDCU73 RoB มีทั้ง PET และ bone scan ในช้อย (ไม่ routine ทั้งคู่) — ถ้าเจอแบบนี้ bone scan ไม่จำเป็นที่สุด"],
+       members:["MDCU78|RoC|Colorectal tumor 2","MDCU73|RoB|22","MDCU77|RoC|Colo 5"]},
+      {id:"advanced-palliative",
+       title:"มะเร็งระยะลุกลาม: ไม่พร้อมผ่าตัด, malignant bowel obstruction, colonic stent",
+       trend:"ให้ผู้ป่วย performance status แย่ / อุดตัน / มี metastasis แล้วถาม management ที่เหมาะกับเป้าหมาย",
+       asked:["76 ปี sigmoid ca มี angina DM HT ECOG 3 ไม่ต้องการผ่าตัดใหญ่ ไม่มี obstruction / metastasis → palliative + best supportive care (ตัวลวง colonic stent, sigmoidectomy, Hartmann, neoadjuvant CRT)","Metastatic colon ca เคยทำ colostomy ตอนนี้ท้องอืด อาเจียน stoma ไม่ออก 24 ชม. stable ไม่มี peritonitis → NG decompression + CT abdomen (ตัวลวง colonoscopy ทาง stoma, exploratory laparotomy, diagnostic laparoscopy, laxative ขนาดสูง)","Upper rectal ca เกือบอุดตัน + liver mets หลายก้อนทั้งสองกลีบ → colorectal stent แล้ว systemic chemotherapy (ตัวลวง resect primary, chemo แล้วผ่า, RT อย่างเดียว, liver resection ก่อน)"],
+       pattern:["ECOG 3 (อยู่บนเตียง / เก้าอี้ >50% ของเวลาตื่น) + ผู้ป่วยไม่ต้องการผ่าตัด + ไม่มีอาการที่ต้องแก้ → <b>best supportive care</b> (แก้ซีด, คุมปวด / ขับถ่าย, โภชนาการ, advance care planning); systemic therapy มาตรฐานมักต้อง ECOG 0–2","<b>Stent / diverting stoma มีไว้แก้ obstruction</b> ไม่ได้รักษาตัวมะเร็ง — ไม่อุดตันก็ไม่ต้องใส่","<b>Malignant bowel obstruction</b> ที่ stable ไม่มี peritonitis: NPO + NG decompression + IV fluid แก้ electrolyte + ตรวจ stoma (ตีบ, parastomal hernia, impaction) + <b>CT with contrast</b> หาระดับ / สาเหตุ (adhesion, carcinomatosis, local recurrence) → ตัดสินใจร่วมกับ prognosis และ goals of care (ผ่าตัด, stent, venting gastrostomy, octreotide / dexamethasone / antiemetic)","Obstructing CRC + metastasis ที่ผ่าไม่ได้ → <b>self-expanding metal stent</b> (ESGE) เพื่อเริ่ม systemic chemo เร็วโดยไม่ต้องผ่าตัดใหญ่; ก้อนต่ำใกล้ anal verge (ราว <5 cm) ไม่ใส่ stent (ปวด, tenesmus, กลั้นไม่ได้) → diverting colostomy; ระวัง stent ร่วม bevacizumab (เสี่ยงทะลุ)"],
+       pearls:["MDCU78 RoD ไม่มีคีย์ และต้นฉบับมีแต่ช้อยหัตถการ — ตามหลักปัจจุบันเริ่มจาก decompression + CT ก่อนตัดสินใจ","เลือก stent เพราะคิดว่าเป็น 'palliative intervention' ทั้งที่ไม่มี obstruction"],
+       members:["MDCU78|RoA|Colorectal 1","MDCU78|RoD|Colorectal tumor 6","MDCU77|RoC|Colo 8"]},
+      {id:"rectal-adjuvant-upfront",
+       title:"Rectal cancer ที่ผ่าตัดก่อนโดยไม่ได้ neoadjuvant: upper vs mid / low rectum",
+       trend:"ให้ pathology หลัง AR / LAR ที่ยังไม่ได้ neoadjuvant แล้วถามการรักษาต่อ — ต่างกันที่ระดับก้อน",
+       asked:["64 ปี upper rectum 14 cm เหนือ peritoneal reflection ทำ anterior resection โดยไม่ได้ neoadjuvant pT2 4 / 16 nodes M0 → postoperative chemotherapy (ตัวลวง postop RT, postop CRT, observe, completion APR)","หญิง 42 ปี mid rectum upfront LAR pT2 + mesorectal 2 / 15 + internal iliac 2 / 4 บวก → postoperative chemoradiotherapy (ตัวลวง chemo อย่างเดียว, RT อย่างเดียว, APR, CEA)"],
+       pattern:["นับ node: internal iliac = regional node ของ rectum (AJCC 8th) → 4 ต่อม = N2a → T2N2a = stage IIIB","<b>Mid / low rectum</b> stage II–III ที่ไม่ได้ neoadjuvant → <b>postoperative chemoradiotherapy</b> (fluoropyrimidine + RT) ร่วมกับ systemic chemo (NCCN Rectal) — แนวทางที่ถูกตั้งแต่แรกคือให้ neoadjuvant ก่อนผ่า","<b>Upper rectum เหนือ peritoneal reflection</b> → local recurrence ต่ำ รักษาแบบ colon cancer (ESMO Rectal 2017) → <b>adjuvant chemotherapy</b> (FOLFOX / CAPOX) ไม่ต้อง RT"],
+       pearls:["คีย์เก่า MDCU74 RoD (P'Ing) ตอบ postop CCRT ใน upper rectum — ตาม ESMO 2017 ตอบ chemotherapy อย่างเดียว","คีย์เก่า MDCU73 RoD (P'Ing) ตอบ chemo อย่างเดียวใน mid rectum ทั้งที่ลายมือเองเขียนว่า radio ใช้กับ rectum — ตาม NCCN ตอบ postop CRT","สองโจทย์ต่างกันแค่ระดับก้อน — อ่านตำแหน่งให้ดี"],
+       members:["MDCU74|RoD|45","MDCU73|RoD|Colo 2"]}
+    ]},
+    {title:"Screening, polyposis และ hereditary CRC", sections:[
+      {id:"high-risk-conditions",
+       title:"ใครเสี่ยง CRC สูงสุด / ภาวะใดเพิ่มความเสี่ยง",
+       trend:"ถามแบบเลือกคนที่เสี่ยงสูงสุดหรือภาวะที่เพิ่ม incidence — คำตอบคือ FAP แทบทุกครั้ง",
+       asked:["ใครเสี่ยง colon cancer สูงสุด → อายุ 25 polyp >100 ก้อน / tubular adenoma หลายร้อย (ตัวลวง FDR เป็นตอน 50, 80 ปีแข็งแรง, hyperplastic polyp 4 mm ใน rectum, UC proctitis 2 ปี, อุจจาระแข็ง 1 สัปดาห์, พี่สาวเป็น ovarian ca, ถ่ายมีเลือด) — ถามซ้ำ","ภาวะใดเพิ่ม incidence ของ CRC → FAP (ตัวลวง pseudomembranous colitis, solitary juvenile polyp, amoebic colitis, thrombosed hemorrhoid) — ถามซ้ำแทบทุกรุ่นเก่า"],
+       pattern:["<b>FAP</b> = ความเสี่ยงสูงสุด (เกือบ 100% ถ้าไม่ผ่าตัด)","เพิ่มความเสี่ยงจริง: FAP / MUTYH, Lynch, PJS, juvenile polyposis <b>syndrome</b>, IBD ที่เป็นนาน (UC extensive / Crohn colitis ราว >8 ปี), FDR เป็น CRC, adenoma ใหญ่ / villous, อายุมาก, อ้วน, สูบบุหรี่, เนื้อแดง / เนื้อแปรรูป, แอลกอฮอล์","<b>ไม่เพิ่ม</b>: solitary juvenile polyp (hamartoma เดี่ยวในเด็ก), hyperplastic polyp เล็กใน rectum, pseudomembranous (<i>C. difficile</i>) colitis, amoebic colitis, hemorrhoid, ท้องผูกระยะสั้น"],
+       pearls:["Solitary juvenile polyp ≠ juvenile polyposis syndrome (syndrome เพิ่มความเสี่ยง)","UC proctitis 2 ปียังเสี่ยงไม่มาก — ความเสี่ยงขึ้นกับระยะเวลาและ extent"],
+       members:["MDCU77|RoA|Colo 10","MDCU68|RoD|51","MDCU67|RoD|5","MDCU69|RoC|26","MDCU67|RoA|21","MDCU66|RoA|5","MDCU66|RoD|46"]},
+      {id:"peutz-jeghers",
+       title:"Peutz-Jeghers syndrome: pigmentation ที่ริมฝีปาก → hamartomatous polyp",
+       trend:"ให้รูป / คำบรรยายรอยดำที่ริมฝีปากและกระพุ้งแก้ม + polyp แล้วถามชนิด polyp — ถามซ้ำแทบทุกรุ่นหลัง",
+       asked:["รอยดำ / น้ำเงินเข้มที่ริมฝีปากและ buccal mucosa (บางรุ่นให้รูป) + colonoscopy พบ polyp → hamartomatous polyp (ตัวลวง adenomatous หลายร้อย, hyperplastic, inflammatory pseudopolyp, sessile serrated lesion, submucosal lipoma)","หญิง 20 ปี ปวดท้องเป็นพัก ๆ 6 เดือน polyp ในลำไส้เล็กหลายก้อน + hyperpigmented macules ที่ริมฝีปาก → histology = hamartomatous (ตัวลวง adenomatous, GIST, hyperplastic, inflammatory)","หญิงปวดท้อง colicky รุนแรง เคยตัด gastric polyp + รูปริมฝีปาก → hamartomatous polyp (ตัวลวง granulomatous polyp)"],
+       pattern:["<b>PJS</b>: autosomal dominant, <b>STK11 / LKB1</b> (19p13.3); mucocutaneous melanin pigmentation (ริมฝีปาก, buccal mucosa, นิ้ว — จางลงตามอายุยกเว้น buccal) + <b>hamartomatous polyp</b> (แกน smooth muscle แตกกิ่งแบบ arborizing) พบมากสุดที่ <b>small bowel / jejunum</b> รองลงมา colon, stomach","อาการ: ปวดท้องเป็นพัก ๆ / SBO จาก <b>intussusception</b> (polyp เป็น lead point), เลือดออก, ซีด","เสี่ยงมะเร็งหลายระบบ: colorectal, stomach, small bowel, pancreas, breast, ovary (SCTAT), cervix (adenoma malignum), testis (Sertoli cell tumor)","Surveillance (ESGE 2019): EGD + colonoscopy + capsule / MR enterography เริ่มราวอายุ 8 ปี; ตัด small bowel polyp ≥15–20 mm แบบ elective เพื่อกัน intussusception","แยก: juvenile polyposis (SMAD4 / BMPR1A — hamartoma ใน colon ไม่มี pigmentation), Cowden (PTEN), FAP (adenoma ≥100)"],
+       pearls:["เห็น polyp หลายก้อนแล้วตอบ adenoma แบบ FAP — จุดตัดสินคือรอยดำที่ปาก","Hamartoma ใน PJS ไม่ได้แปลว่าไม่เสี่ยงมะเร็ง — ตัว syndrome เสี่ยงสูง"],
+       members:["MDCU78|RoA|Colorectal 3","MDCU78|RoC|Colorectal tumor 3","MDCU74|RoA|28","MDCU71|RoB|ไม่มีเลข 14","MDCU79|RoD|Colo 12","MDCU77|RoB|Colo 3"]},
+      {id:"lynch",
+       title:"Lynch syndrome: ถ่ายทอด autosomal dominant, ญาติส่องกล้องเริ่ม 20–25 ปี ทุก 1–2 ปี",
+       trend:"ให้ครอบครัวที่เป็น CRC อายุน้อยหลายคน (มักมาด้วย fissure / เลือดออกที่อธิบายได้) แล้วถามคำแนะนำการคัดกรอง",
+       asked:["ผู้ป่วย CRC มีพ่อ + ปู่เป็น CRC และป้าเป็น ovarian ca → autosomal dominant (ตัวลวง AR, X-linked dominant / recessive, mitochondrial)","22 ปี anal fissure พี่ชาย CRC อายุ 40 ลุง 50 หลาน 27 → colonoscopy ตอนนี้ + ส่องสม่ำเสมอ (ตัวลวง reassure, เริ่ม 40 ทุก 5 ปี, FIT ทุกปีจาก 45, genetic counseling หลัง 40)","20 ปี ญาติ CRC อายุ 25, 40, 50 เข้าได้กับ Lynch → EGD + colonoscopy ตอนนี้ ทุก 1–2 ปี (ตัวลวง colonoscopy ที่ 45, เริ่ม 40 ทุก 5 ปี, FOBT จาก 50, prophylactic total colectomy)","25 ปี perianal bleeding 1 สัปดาห์จาก acute fissure ไม่มีน้ำหนักลด ญาติ CRC อายุ 30, 45, 50 → EGD + colonoscopy ตอนนี้ ทุก 1–2 ปี (ตัวลวง endoscopy ที่ 40 ทุก 10 ปี, FOBT, รักษา fissure อย่างเดียว)","ชายอายุยี่สิบกว่า fissure ไม่มี bowel habit change ญาติ CRC อายุ 25, 30, 40 → colonoscopy ตอนนี้ ทุก 1–2 ปี (ตัวลวง เริ่ม 40 ทุก 5 ปี, FOBT, barium enema)","ครอบครัว CRC เริ่มอายุ 25, 35, 40 → คัดกรองญาติด้วย colonoscopy ทุก 1–2 ปีจากอายุ 20–25 (ตัวลวง colonoscopy ทุก 10 ปีจาก 50, FIT จาก 45, CTC ทุก 5 ปี, ไม่ต้องคัดกรอง)"],
+       pattern:["<b>Lynch (HNPCC)</b>: germline mismatch repair (MLH1, MSH2, MSH6, PMS2, EPCAM deletion) <b>autosomal dominant</b> — พบทุกรุ่น, ชายหญิงเท่ากัน, ถ่ายจากพ่อสู่ลูกชายได้ (ตัด X-linked)","มะเร็ง: CRC อายุน้อย มักด้านขวา (MSI-high) + endometrium (นอกลำไส้พบมากสุด), ovary, stomach, small bowel, urothelium / upper tract, pancreas, biliary, sebaceous (Muir-Torre), glioblastoma (Turcot)","<b>Amsterdam II (3-2-1)</b>: ญาติ ≥3 คนเป็นมะเร็งกลุ่ม Lynch (หนึ่งคนเป็น first-degree ของอีกสองคน), ≥2 รุ่นติดกัน, ≥1 คนวินิจฉัย <50 ปี, ตัด FAP แล้ว; ปัจจุบันตรวจ MMR IHC / MSI ในชิ้นเนื้อ CRC ทุกราย (universal testing)","<b>Surveillance</b> (NCCN): genetic counseling / testing + <b>colonoscopy ทุก 1–2 ปี เริ่มอายุ 20–25</b> หรือ 2–5 ปีก่อนอายุญาติที่เป็นเร็วที่สุด (ถ้าเป็นก่อน 25) — คนที่อายุถึงเกณฑ์แล้ว = <b>ส่องตอนนี้</b>; MSH6 / PMS2 เริ่มช้ากว่า (30–35); EGD เริ่มอายุ 30–40 ทุก 2–4 ปี (NCCN Genetic / Familial High-Risk v1.2026) — ช้อย 'EGD + colonoscopy ตอนนี้ ทุก 1–2 ปี' ยังดีที่สุดในข้อเพราะแกนคือ colonoscopy ตอนนี้ทุก 1–2 ปี; ผู้หญิงดู endometrium / ovary","มี fissure / hemorrhoid อธิบายเลือดออกได้ก็ยังต้องเริ่ม surveillance ตามประวัติครอบครัว"],
+       pearls:["ใช้เกณฑ์ family history ทั่วไป (เริ่ม 40 ทุก 5 ปี) กับครอบครัวที่เข้า Amsterdam","เห็น ovarian ca ในผู้หญิงแล้วคิดว่า X-linked","ช้อยต้นฉบับ MDCU77 RoC เขียน 'colonoscope as soon as possible q 5 yr' — Lynch ต้องทุก 1–2 ปี"],
+       members:["MDCU78|RoA|Oncology 2","MDCU77|RoC|Colo 10","MDCU70|RoB|83","MDCU71|RoA|ไม่มีเลข 4","MDCU67|RoD|43","MDCU66|RoC|8"]},
+      {id:"diagnostic-colonoscopy",
+       title:"FOBT บวก / มีอาการ / เจอ hemorrhoid: ต้อง diagnostic colonoscopy (บทบาท GP)",
+       trend:"ให้ FOBT บวกหรือเลือดปนมูกแล้วถาม next step / สิ่งที่ไม่ใช่บทบาท GP / ใครไม่จำเป็นต้องส่อง",
+       asked:["49 ปี FOBT บวกจาก annual check-up แข็งแรง ไม่มีประวัติครอบครัว CEA / CBC / LFT ปกติ → colonoscopy (ตัวลวง reassure, เพิ่มใยอาหารและน้ำ, EGD, CT)","50 ปี FOBT บวกไม่มีอาการ → EGD + colonoscopy (ตัวลวง FOBT ซ้ำใน 1 ปี, นัด 3 เดือน, CT colonography ใน 5 ปี, CEA)","55 ปี ถ่ายมีมูกเลือด 1 เดือน สิ่งที่ NOT บทบาทของ GP → serum CEA + PET scan (บทบาทจริง: ซักประวัติ, DRE, พิจารณา colonoscopy, อธิบายก่อนส่งต่อ)","55 ปี มูกปนเลือด 1 ปี เลือดหยดหลังถ่าย anoscopy เจอ internal hemorrhoid ไม่เคยส่องกล้อง ข้อใดถูก → ควรทำ colonoscopy เพื่อ exclude proximal lesion (ตัวลวง sclerotherapy เฉพาะตอน active bleeding, prolapse ทุกรายต้อง hemorrhoidectomy, เห็น hemorrhoid แล้วไม่ต้องตรวจต่อ)","ใครไม่จำเป็นต้อง 'screening' ด้วย colonoscopy / BE / rigid sigmoidoscopy → FOBT บวกร่วมน้ำหนักลด (มีอาการ = diagnostic; ช้อยอื่น FAP, PJS, อุจจาระดำลำเล็ก, UC 14 ปี)","ใครจำเป็นต้อง colonoscopy น้อยที่สุด → น้ำหนักลดอย่างเดียว (ตัวลวง 70 ปีอุจจาระดำลำเล็ก, PJS, severe UC 10 ปีส่องล่าสุด 5 ปีก่อน, FAP)"],
+       pattern:["Stool test (gFOBT / FIT) <b>บวก → diagnostic colonoscopy ทุกราย</b> ไม่ขึ้นกับอายุ อาการ หรือผลเลือด — ควรทำภายในราว 6 เดือน (รอนานกว่า 9–10 เดือนสัมพันธ์กับมะเร็งระยะลุกลาม); ห้ามทำ FOBT ซ้ำแทน","EGD เพิ่มเมื่อมี IDA / อาการทางเดินอาหารส่วนบน (guaiac FOBT ไวต่อเลือดจาก upper GI ด้วย)","<b>บทบาท GP</b> ในผู้สงสัย CRC: ซักประวัติ (bowel habit, น้ำหนัก, ครอบครัว), ตรวจร่างกาย + <b>DRE</b>, CBC, ส่ง / ส่งต่อ colonoscopy, อธิบายสาเหตุที่เป็นไปได้ — <b>CEA ไม่ใช่การวินิจฉัย</b> และ <b>PET ไม่ใช่ initial work-up</b>","เจอ hemorrhoid แต่มี <b>มูกปนเลือด</b>, อายุ ≥45, ไม่เคยคัดกรอง หรือมี red flag → <b>complete colonoscopy</b> ก่อนสรุปว่าเลือดมาจาก hemorrhoid (ASCRS Hemorrhoids 2024)","Screening = คนไม่มีอาการ · คนมีอาการ / red flag (เลือดออก, bowel habit change, อุจจาระลำเล็ก, IDA) = diagnostic colonoscopy · กลุ่มเสี่ยง (FAP, PJS, UC นาน) = surveillance; น้ำหนักลดอย่างเดียวไม่จำเพาะต่อลำไส้ใหญ่"],
+       pearls:["คีย์เก่า (GS Supplementary) MDCU70 RoA ตอบเพิ่มใยอาหารและน้ำ — FOBT บวกต้อง colonoscopy เสมอ (USPSTF 2021, US Multi-Society Task Force)","คีย์เก่า (GS Supplementary) MDCU72 RoC ตอบว่า 'consider colonoscopy' ไม่ใช่บทบาท GP — ช้อยที่ผิดชัดคือ CEA + PET","CEA / CBC ปกติไม่ได้ตัดมะเร็ง","MDCU67 RoA recall ไม่ครบ (ไม่มีอายุ / เวลาส่องครั้งล่าสุด) — ยึดหลักมีอาการ = diagnostic ไม่ใช่ screening"],
+       members:["MDCU70|RoA|31","MDCU76|RoD|19","MDCU72|RoC|30","MDCU71|RoA|77","MDCU67|RoA|16","MDCU66|RoD|9"]},
+      {id:"screening",
+       title:"CRC screening: อายุเริ่ม, family history และวิธีคัดกรอง",
+       trend:"ถามวิธี screening ที่ดีที่สุด (รุ่นเก่า) หรือให้คนอายุ / ประวัติครอบครัวแล้วถามคำแนะนำ (รุ่นใหม่)",
+       asked:["55 ปี ไม่มีประวัติครอบครัว ไม่เคยคัดกรอง → เริ่ม screening ตอนนี้ (ตัวลวง รอใกล้อายุ 60, ตรวจเมื่อมีอาการ, เริ่มที่ 75, CEA อย่างเดียว)","42 ปี BMI 29 ดื่มสังสรรค์ สูบบุหรี่ 4 มวน / วัน ป้าฝั่งแม่และป้าฝั่งพ่อเป็น CRC อายุ 65, 75 colonoscopy เพิ่งปกติ → lifestyle modification + เลิกบุหรี่ (ตัวลวง ส่องซ้ำตอนนี้, ส่องทุกปี, prophylactic colectomy, ตรวจ Lynch)","วิธีคัดกรอง CRC ที่เหมาะสม / ดีที่สุด / มาตรฐาน → colonoscopy (ตัวลวง stool occult blood, CT, CT colonography, barium enema, sigmoidoscopy, CEA, plain film) — ถามซ้ำหลายรุ่น","Screening test สำหรับประชาชนทั่วไป → colonoscopy (ตามคีย์)"],
+       pattern:["<b>Average risk</b>: เริ่ม <b>45 ปี</b> ถึง 75 ปี (USPSTF 2021, ACS 2018, NCCN); 76–85 ปีพิจารณารายบุคคล; อายุเกินแล้วไม่เคยตรวจ → เริ่มทันที","วิธี: <b>colonoscopy ทุก 10 ปี</b> (gold standard — เห็นทั้งลำไส้ ตัด polyp / biopsy ได้ในครั้งเดียว), FIT ทุกปี, multitarget stool DNA ทุก 1–3 ปี, CT colonography หรือ flexible sigmoidoscopy ทุก 5 ปี; stool test / CTC ผิดปกติ → colonoscopy","<b>Family history</b>: first-degree (พ่อแม่ พี่น้อง ลูก) เป็น CRC / advanced adenoma ก่อนอายุ 60 หรือ FDR ≥2 คน → colonoscopy เริ่มอายุ 40 หรือ 10 ปีก่อนอายุญาติที่เป็นน้อยสุด ทุก 5 ปี · <b>second-degree</b> (ป้า น้า อา ลุง ปู่ย่าตายาย) → เหมือน average risk","หลังส่องปกติ สิ่งที่ทำได้คือลดปัจจัยเสี่ยง: เลิกบุหรี่, ลดน้ำหนัก, ลดแอลกอฮอล์ / เนื้อแดง / เนื้อแปรรูป, เพิ่มใยอาหาร, ออกกำลังกาย","CEA, barium enema, plain film <b>ไม่ใช่ screening</b>"],
+       pearls:["จำเกณฑ์เก่าที่เริ่ม 50 ปี","จัดญาติลำดับสองเป็น high risk","ระดับประชากรที่ทรัพยากรจำกัด (รวมโครงการในไทย) มักใช้ FIT เป็นด่านแรก — แต่ข้อสอบถาม 'ดีที่สุด / มาตรฐาน' ตอบ colonoscopy"],
+       members:["MDCU77|RoC|55","MDCU78|RoD|Colorectal tumor 4","MDCU69|RoC|27","MDCU67|RoA|17","MDCU66|RoA|2","MDCU66|RoA|12"]},
+      {id:"fap",
+       title:"FAP: วินิจฉัย, APC, CHRPE, การผ่าตัด และตรวจญาติ",
+       trend:"ให้ adenoma หลายร้อยแล้วถาม Dx / gene / คำแนะนำ / ชนิดการผ่าตัด",
+       asked:["25 ปี colonoscopy พบ adenoma หลายร้อยทั่ว colon → คำแนะนำสำคัญที่สุด = genetic testing ของสมาชิกครอบครัว (ตัวลวง ส่องซ้ำ 10 ปี, psychotherapy, low-fiber diet, aspirin)","Adenoma หลายร้อยทั่ว colon → gene ที่กลายพันธุ์ = APC (ตัวลวง RET, BRCA2, MLH1, TP53)","Polyp จำนวนมาก + ophthalmoscopy เห็น CHRPE → FAP (ตัวลวง Lynch, juvenile polyposis, PJS, MUTYH)","หญิงถ่ายเป็นเลือด adenoma หลายร้อยทั้ง colon และ rectum → FAP (ตัวลวง Lynch, juvenile, PJS, Cowden)","หญิง 20 ปี adenoma หลายร้อยทั่ว colon แต่ rectum มีน้อย → total colectomy + ileorectal anastomosis (ตัวลวง ตัด polyp ทุกตัวทางกล้อง, right hemi, ส่องติดตามทุกปี, chemo)"],
+       pattern:["<b>FAP</b>: germline <b>APC</b> (5q21) autosomal dominant; classic = adenoma ≥100 (ร้อยถึงพัน) เริ่มวัยรุ่น → CRC เกือบ 100% (เฉลี่ยราว 39 ปี) ถ้าไม่ผ่าตัด; attenuated FAP 10–99 ก้อน; MUTYH-associated polyposis = autosomal recessive","Extracolonic: <b>CHRPE</b>, duodenal / periampullary adenoma (หลังตัด colon แล้ว duodenal / periampullary cancer และ desmoid เป็นสาเหตุตายหลัก), desmoid tumor, osteoma + epidermoid cyst (Gardner), medulloblastoma (Turcot), papillary thyroid ca","<b>ครอบครัว</b>: genetic counseling + ตรวจ APC ใน proband แล้ว <b>cascade testing</b> ญาติสายตรง (โอกาส 50%); พาหะ / ยังไม่ได้ตรวจ → sigmoidoscopy / colonoscopy ทุกปีเริ่มอายุ 10–15 ปี","<b>Prophylactic surgery</b> ช่วงปลายวัยรุ่น–ต้น 20: rectum มี adenoma น้อย (ราว <20) → <b>total colectomy + IRA</b> (ทำง่าย ขับถ่ายดี ไม่กระทบ fertility แต่ต้องส่อง rectum ตลอดชีวิต); rectum มีมาก / ใหญ่ / dysplasia → <b>restorative proctocolectomy + IPAA</b>; หลังผ่ายังต้อง EGD (side-viewing) ดู duodenum"],
+       pearls:["ตอบแค่ส่องกล้องติดตามเหมือน sporadic adenoma — polyposis ต้องคิด syndrome และตรวจทั้งครอบครัว","จำนวน polyp ใน rectum คือตัวเลือก IRA vs IPAA","CHRPE = กุญแจของ FAP; Lynch มี polyp น้อย (nonpolyposis)"],
+       members:["MDCU76|RoA|47","MDCU79|RoD|Colo 5","MDCU77|RoB|Colo 5","MDCU76|RoA|29","MDCU76|RoD|62"]},
+      {id:"carcinogenesis-prevention",
+       title:"Adenoma–carcinoma sequence และระดับ prevention",
+       trend:"ถามกลไกการเกิดมะเร็ง หรือให้เคสพบ adenoma แล้วถามว่าอะไรเป็น secondary prevention",
+       asked:["Pathway การเกิด colorectal adenocarcinoma → การสะสม genetic mutation หลายตัว (ตัวลวง hyperplastic → inflammatory → cancer, single oncogene mutation, virus แปลงเซลล์โดยตรง, hamartoma ทุกตัวกลายเป็นมะเร็ง)","60 ปี colonoscopy พบ pedunculated tubular adenoma 1.5 cm → intervention ที่เป็น secondary prevention = colonoscopic polypectomy (ตัวลวง FOBT, fiber + เลิกบุหรี่, adjuvant chemo, CEA หลังผ่าตัด)"],
+       pattern:["<b>Vogelstein / chromosomal instability (ราว 85%)</b>: APC loss (early adenoma) → KRAS (intermediate) → 18q / SMAD4 / DCC loss (late adenoma) → TP53 loss (carcinoma) — ใช้เวลาราว 10 ปี; ทางอื่น: MSI (MMR — Lynch / sporadic MLH1 methylation ราว 15%) และ serrated pathway (BRAF, CIMP ผ่าน sessile serrated lesion)","<b>Primary</b> = ก่อนเกิดโรค (เลิกบุหรี่, อาหาร, ออกกำลังกาย) · <b>Secondary</b> = ตรวจพบและกำจัดระยะ premalignant / early (screening FOBT / colonoscopy, <b>polypectomy ของ adenoma</b>) · <b>Tertiary</b> = ลด recurrence / complication หลังเป็นมะเร็งแล้ว (adjuvant chemo, CEA surveillance)"],
+       pearls:["ต้นฉบับถามสั้น ๆ ทำให้ FOBT ก็เป็น secondary ได้ (คีย์เขียนเองว่าน่าจะได้ทั้งคู่) — ถ้าผู้ป่วยมี adenoma แล้ว ตอบ polypectomy","Polypectomy ไม่ใช่ primary เพราะรอยโรค premalignant เกิดขึ้นแล้ว"],
+       members:["MDCU78|RoC|Surgical Oncology 2","MDCU78|RoC|Surgical Oncology 4"]}
+    ]},
+    {title:"Pediatric colorectal: Hirschsprung และ anorectal malformation", sections:[
+      {id:"arm",
+       title:"Anorectal malformation: รอ 24 ชม., perineal fistula → repair, meconium ในปัสสาวะ → colostomy",
+       trend:"ให้ทารกไม่มีรูทวารแล้วถามสิ่งที่ทำใน 24 ชม. แรก / ตามชนิด fistula — ออกแทบทุกรุ่น",
+       asked:["ทารกชาย 3 ชม. ไม่มีรูทวาร ยังไม่เห็น meconium ที่ perineum หรือในปัสสาวะ → ตรวจ perineum ซ้ำที่ 24 ชม. (ตัวลวง cross-table lateral ทันที, colostomy วันนี้, PSARP, CT)","ทารกชายไม่มีรูทวาร stable → ใน 24 ชม. แรก = serial perineal examination (ตัวลวง cross-table, immediate colostomy / PSARP, contrast enema)","ทารกชาย imperforate anus มี meconium ในปัสสาวะ / ออกทาง urethra → colostomy (ตัวลวง anoplasty, primary PSARP, cross-table ที่ 24 ชม., rectal irrigation, endorectal pull-through) — ถามซ้ำหลายรุ่น","ทารกชาย meconium ออกทาง urethra → initial investigation = cross-table lateral film (ตามคีย์; ตัวลวง UA, CT, MRI, NG)","ทารกชาย 2 วัน ไม่ถ่ายขี้เทา ปัสสาวะปกติ มีรูเล็กหน้าตำแหน่งทวารปกติบีบขี้เทาออกได้ (ให้รูป) → primary minimal PSARP (ตัวลวง cross-table, colostomy, dilate fistula อย่างเดียว, BE)","ทารกหญิงไม่มีรูทวาร meconium ออกจากรูเดียวที่ตำแหน่ง urethra → divided double-barrel colostomy (ตัวลวง ileostomy, primary PSARP, cross-table ที่ 24 ชม., anoplasty)","Prone cross-table lateral ใช้เส้นอ้างอิงใดแบ่ง high / low → pubococcygeal line (ตัวลวง coccygeal tip, levator ani, I line, sacrum)","ทารกหญิงไม่มีรูทวาร sacrum ปกติ → คัดกรองความผิดปกติไขสันหลังด้วย ultrasound spine (ตัวลวง observe, neuro F/U, MRI, X-ray ซ้ำ 1 ปี)","ข้อใดผิดเรื่อง ARM → ต้องทำ prone cross-table lateral ทุกราย (ถูก: VACTERL, rectourethral fistula ต้อง colostomy ก่อน, ส่วนใหญ่มี fistula, ตรวจ spine / sacrum)"],
+       pattern:["<b>24 ชม. แรก</b>: NPO, IV fluid, OG / NG decompression, หา <b>VACTERL</b> (echo, renal US, spine / sacrum, ใส่ NG ดู esophageal atresia) และ<b>ตรวจ perineum + ปัสสาวะซ้ำที่ 16–24 ชม.</b> (รอแรงดันในลำไส้ดัน meconium ผ่าน fistula) ก่อนตัดสินใจ (Levitt–Peña)","<b>ชาย</b>: perineal fistula → <b>primary repair</b> (anoplasty / minimal PSARP) ไม่ต้อง colostomy · <b>meconium ในปัสสาวะ / urethra = rectourinary fistula (high)</b> → <b>colostomy</b> ก่อน → PSARP ราว 1–3 เดือน → ปิด stoma (3 ขั้น) · ไม่เห็น fistula หลัง 24 ชม. → <b>prone cross-table lateral</b>: rectal gas ห่างผิว <1 cm → primary PSARP, >1 cm → colostomy","<b>หญิง</b>: perineal / vestibular fistula → primary repair (หรือ colostomy ก่อนตามความพร้อม); <b>รูเปิดเดียวที่ perineum (cloaca)</b> → <b>divided colostomy</b> (± ระบาย bladder / vagina) → PSARVUP ภายหลัง","บนฟิล์ม: rectal pouch อยู่เหนือ <b>pubococcygeal (PC) line</b> = high, ระหว่าง PC line กับ I line = intermediate, ใต้ I line / ห่างผิว <1 cm = low (PC line แทนระดับ levator ani / puborectalis)","<b>Tethered cord / spinal dysraphism</b> พบราว 25–35% แม้ sacrum ปกติ → <b>spinal ultrasound</b> ในทารก <3 เดือน (posterior elements ยังไม่ ossify) → ผิดปกติ / เด็กโต → MRI","ส่วนใหญ่มี fistula; colostomy ที่ใช้ = divided (double-barrel) descending colostomy"],
+       pearls:["MDCU78 RoB คีย์ตอบ cross-table lateral แม้มี meconium ในปัสสาวะ — ในทางปฏิบัติไป colostomy ได้เลย; ถ้าถาม management และมีช้อย colostomy ตอบ colostomy","สั่ง invertogram / cross-table ทันทีหลังคลอด = ผิด ต้องรอราว 24 ชม.","เด็กหญิงที่ meconium ออกทางรู urethra / รูเดียว ให้คิด cloaca"],
+       members:["MDCU78|RoB|32","MDCU78|RoD|2","MDCU77|RoB|Ped 7","MDCU76|RoD|13","MDCU76|RoD|14","MDCU75|RoD|Ped 3","MDCU74|RoD|47","MDCU73|RoD|Ped 3","MDCU71|RoA|ไม่มีเลข 6","MDCU71|RoB|51","MDCU67|RoB|8"]},
+      {id:"hirschsprung-dx",
+       title:"Hirschsprung disease: วินิจฉัย (contrast enema → rectal suction biopsy)",
+       trend:"ให้ทารกขี้เทาออกช้า / blast sign / transition zone แล้วถาม Dx หรือ next step — ออกแทบทุกรุ่น",
+       asked:["ทารกขี้เทาออกช้า ท้องอืดมากขึ้น ให้ contrast enema → Hirschsprung (ตัวลวง meconium ileus, meconium plug, ileal atresia, functional constipation)","Contrast enema เห็น sigmoid / descending โป่ง rectum แคบ (transition zone) → next step = rectal (suction) biopsy (ตัวลวง US, MRI spine, colostomy โดยไม่ biopsy, enema ซ้ำ 1 เดือน, pull-through ทันที, oral laxative, sigmoid colectomy) — ถามซ้ำหลายรุ่น","ทารก 48 ชม. ไม่ถ่ายขี้เทา PR แล้วอุจจาระพุ่งเหม็น → rectal suction biopsy (ตัวลวง LFT, barium swallow, laparotomy, sweat chloride)","เด็ก 3 ขวบท้องผูกตั้งแต่ทารก ขี้เทาออกช้า + transition zone → rectal suction biopsy (ตัวลวง US, spinal MRI, manometry อย่างเดียว, colonoscopy)","ทารกไม่ถ่ายขี้เทาใน 24 ชม. sphincter tone สูง ถอนนิ้วแล้วพุ่ง (ช้อยไม่มี biopsy) → anorectal manometry (ตัวลวง CT, MRI, US, colonoscopy)","ข้อใดถูกเรื่อง Hirschsprung → ไม่มี ganglion cells ทั้ง Auerbach และ Meissner plexus (ตัวลวง enterocolitis เป็นอาการนำส่วนใหญ่, barium enema เป็น gold standard, ขาดเฉพาะ submucosa, ส่วนใหญ่เป็นทั้ง colon)","Rectal biopsy ของ Hirschsprung พบอะไร → ไม่มี ganglion cells + acetylcholinesterase เพิ่ม"],
+       pattern:["ไม่มี ganglion cells ทั้ง <b>myenteric (Auerbach) และ submucosal (Meissner)</b> plexus ใน distal bowel (neural crest migration ไม่สมบูรณ์) → aganglionic segment หดเกร็ง = functional obstruction; ราว 75–80% เป็น rectosigmoid (short segment)","อาการ: ขี้เทาออกช้า >24–48 ชม., ท้องอืด อาเจียน, DRE แล้วลม / อุจจาระพุ่ง (<b>blast sign</b>); เด็กโต = ท้องผูกเรื้อรังตั้งแต่เกิด; <b>enterocolitis</b> (ไข้ ท้องอืด อุจจาระเหม็นมาก) พบราว 10–30% → rectal irrigation + IV antibiotics","<b>Contrast enema</b>: transition zone รูปกรวย, rectosigmoid index <1, barium ค้าง >24 ชม. — บอกระดับได้แต่<b>ไม่ใช่ gold standard</b> (อาจไม่เห็นในทารกแรกเกิด / total colonic)","<b>Gold standard = rectal suction biopsy</b> (เหนือ dentate line ราว 1–2 cm): ไม่มี ganglion cells + hypertrophic nerve trunks + <b>acetylcholinesterase เพิ่ม</b> + calretinin negative","<b>Anorectal manometry</b>: ไม่มี rectoanal inhibitory reflex (RAIR) — ช่วยสนับสนุน ใช้ได้ดีในเด็กโต"],
+       pearls:["MDCU78 RoB ไม่มี biopsy ในช้อย คีย์จึงตอบ manometry — ถ้ามี rectal suction biopsy ให้เลือก biopsy เสมอ","Biopsy ต่ำเกินไปใกล้ dentate line ปกติก็ไม่มี ganglion cells → ผลลวง"],
+       members:["MDCU79|RoD|Ped 1","MDCU78|RoB|31","MDCU77|RoA|Ped 5","MDCU77|RoC|Colo 4","MDCU76|RoD|59","MDCU75|RoC|Colo 3","MDCU69|RoA|53","MDCU67|RoB|10"]},
+      {id:"hirschsprung-tx",
+       title:"Hirschsprung disease: การรักษา (rectal irrigation → pull-through)",
+       trend:"ถาม initial vs definitive treatment ตามอายุและความพร้อม",
+       asked:["เด็กท้องอืดท้องผูก transition zone รูปกรวยที่ rectosigmoid biopsy ยืนยัน → definitive = transanal endorectal pull-through (ตัวลวง PSARP, anal dilatation, subtotal colectomy, laxative ระยะยาว)","Treatment of choice ของ rectosigmoid Hirschsprung ในเด็ก → endorectal pull-through (ตัวลวง ileostomy, transverse colectomy, sigmoidectomy, rectal irrigation = initial)","เด็กหญิง 2 เดือนแข็งแรง transition zone rectosigmoid → transanal endorectal pull-through (ตัวลวง sigmoid colostomy + Swenson, transverse colostomy + Duhamel / Soave)","ทารก 5 วันวินิจฉัย Hirschsprung → initial = rectal irrigation (ตัวลวง PSARP, ileostomy, transverse colostomy, pull-through)","เด็กหญิง 10 ขวบ colon ส่วนต้นโป่งมาก sigmoid / rectum ขนาดปกติ → initial = daily enema decompress ก่อน (ตัวลวง Swenson, Duhamel, Soave, ileostomy)","ภาวะเด็กใดต้องผ่าตัดแก้ไข → Hirschsprung (ตัวลวง meconium plug, uncomplicated meconium ileus, umbilical hernia เล็กในทารก)"],
+       pattern:["<b>Initial / bridge</b>: rectal irrigation (washout) decompress + ป้องกัน enterocolitis; enterocolitis → irrigation + IV antibiotics","<b>Definitive</b> = ตัด aganglionic segment แล้วดึงลำไส้ที่มี ganglion ลงมาต่อเหนือ dentate line: <b>transanal endorectal pull-through (Soave / De la Torre)</b>, Swenson, Duhamel; ยืนยันระดับด้วย leveling (frozen) biopsy","<b>One-stage</b> (ไม่ต้อง stoma) ในเด็กแข็งแรง short segment; <b>staged with stoma</b> เมื่อ enterocolitis รุนแรง, ลำไส้โป่งมาก (วินิจฉัยช้า — decompress ก่อนราว 2–3 เดือน), ทุพโภชนาการ, long segment / total colonic","ภาวะที่ไม่ต้องผ่าตัด: meconium plug → contrast enema / irrigation (ต้องตัด Hirschsprung และ CF); uncomplicated meconium ileus → Gastrografin enema; umbilical hernia ทารกส่วนใหญ่ปิดเอง"],
+       pearls:["PSARP เป็นของ anorectal malformation ไม่ใช่ Hirschsprung","แยกคำถาม initial (irrigation) กับ definitive (pull-through)"],
+       members:["MDCU73|RoD|Colo 3","MDCU68|RoC|54","MDCU68|RoD|84","MDCU67|RoB|15","MDCU67|RoD|8","MDCU66|RoB|11"]},
+      {id:"neonatal-lgib",
+       title:"LGIB ในทารกแรกเกิด: polyp ไม่ใช่สาเหตุ",
+       trend:"ถามแบบ NOT สาเหตุของเลือดออกทางทวารหนักในทารกแรกเกิด",
+       asked:["ข้อใด NOT สาเหตุที่พบบ่อยของ lower GI bleeding ในทารกแรกเกิด → polyp (ตัวลวง anal fissure, NEC, swallowed maternal blood, midgut volvulus)"],
+       pattern:["Neonate: swallowed maternal blood (Apt test), anal fissure, NEC, midgut volvulus, Hirschsprung enterocolitis, milk protein allergy","<b>Juvenile polyp</b> พบอายุราว 2–8 ปี (painless rectal bleeding ในเด็กเล็ก–วัยเรียน)"],
+       pearls:["Midgut volvulus + เลือดออก = ลำไส้ขาดเลือด ต้องผ่าตัดด่วน"],
+       members:["MDCU72|RoD|59"]}
+    ]},
+    {title:"Lower GI bleeding", sections:[
+      {id:"lgib-diverticular",
+       title:"Massive painless LGIB ผู้สูงอายุ: diverticular bleeding (แยกจาก hemorrhoid)",
+       trend:"ถามสาเหตุที่พบบ่อยสุดของ massive / painless hematochezia — ออกแทบทุกรุ่น ตัวลวงประจำคือ angiodysplasia, มะเร็ง, hemorrhoid",
+       asked:["ผู้สูงอายุ / ผู้ใหญ่ massive painless bleeding per rectum (6 ชม. / 2 วัน) → diverticulosis / diverticular bleeding (ตัวลวง angiodysplasia / AVM, colorectal cancer, ischemic colitis, internal hemorrhoid, IBD, anal fissure) — ถามซ้ำแทบทุกรุ่น","ผู้สูงอายุท้องผูกเรื้อรัง massive painless bright red blood, vital signs stable → colonic diverticulosis (ตัวลวง internal hemorrhoid)","ชายสูงอายุกิน metoprolol (HT) + aspirin (PAD) massive bleeding per rectum → diverticulosis","สาเหตุที่พบบ่อยที่สุดของ LGIB ในผู้ใหญ่ → diverticular disease","ชายสูงอายุเลือดสดหยดลงโถ / เคลือบอุจจาระหลังถ่าย ปริมาณน้อย เป็นหลายครั้ง vital signs ปกติ → hemorrhoids (ตัวลวง diverticulosis, fissure, ischemic / infectious colitis)"],
+       pattern:["<b>Diverticular bleeding</b> = สาเหตุอันดับหนึ่งของ acute / massive LGIB ในผู้ใหญ่ — vasa recta ที่ถูกยืดบนโดม / คอของ diverticulum แตก (arterial) → ออกมาก ไม่ปวด, หยุดเองราว 75–80% แต่ rebleed ได้; ตำแหน่งที่เลือดออกพบที่ right colon ได้บ่อย (เอเชียมี right-sided diverticula มาก); NSAID / antiplatelet เพิ่มความเสี่ยง","รองลงมา: angiodysplasia (ผู้สูงอายุ, cecum / right colon), colitis (ischemic — มีปวดท้อง), neoplasia (มักเลือดออกน้อยเรื้อรัง / occult), anorectal (hemorrhoid)","เลือดมาจาก <b>diverticulosis</b> ไม่ใช่ diverticulitis (ช่วงอักเสบไม่ค่อยเลือดออก)","<b>Hemorrhoid</b>: เลือดสดหยด / ติดกระดาษ / เคลือบผิวอุจจาระ ไม่ปนเนื้ออุจจาระ ปริมาณน้อยเป็นซ้ำ ไม่เจ็บ (internal เหนือ dentate line) — ออกมากจน vital signs เปลี่ยน ให้คิด diverticular"],
+       pearls:["β-blocker กลบ tachycardia — ประเมิน volume จาก BP, Hct, ปัสสาวะ","ผู้สูงอายุเห็นเลือดแล้วตอบมะเร็ง — มะเร็งเลือดออกน้อยเรื้อรัง","แม้เป็น hemorrhoid ผู้ ≥45 ปีที่ถ่ายเป็นเลือดต้อง colonoscopy"],
+       members:["MDCU78|RoA|Colorectal 5","MDCU74|RoA|ไม่มีเลข 9","MDCU77|RoA|Colo 12","MDCU76|RoC|Colo 5","MDCU74|RoD|42","MDCU73|RoB|Colo 5","MDCU72|RoB|4","MDCU72|RoD|37","MDCU69|RoC|25","MDCU67|RoC|21","MDCU66|RoB|X3","MDCU78|RoC|Anorectal 2"]},
+      {id:"lgib-workup",
+       title:"LGIB: resuscitation, แยก UGIB และลำดับการตรวจ (colonoscopy, CTA, Meckel scan)",
+       trend:"ถามขั้นแรกของการดูแล, ข้อใดผิดในการ resuscitate, หรือ investigation ถัดไปตามความ stable และอายุ",
+       asked:["หญิง 75 ปี ถ่ายเป็นเลือด 2 ครั้ง HR 96 BP 100/60 ไม่ปวดท้อง → initial management = two large-bore peripheral IV (ตัวลวง NG intubation, Foley, CVC, urgent consult colonoscopy)","หญิง 69 ปี massive rectal bleeding ไม่ปวดท้อง ข้อใดผิด → resuscitate ด้วย IV dextrose water (ถูก: ทำ NG aspiration, anoscopy, diverticular bleeding พบบ่อยสุด, colonoscopy หลังเตรียมลำไส้)","ชายสูงอายุ hematochezia หลัง resuscitate stable NG aspirate ได้ bile ไม่มีเลือด → colonoscopy (ตัวลวง EGD, exploratory laparotomy, capsule endoscopy, Tc-99m pertechnetate scan)","40 ปี diverticular disease มีเลือดออกทางทวาร การจัดการภายใน 24 ชม. → urgent colonoscopy (ตัวลวง broad-spectrum antibiotics, emergency colectomy, barium enema, observe)","หญิง 18 ปี massive painless LGIB EGD + colonoscopy ไม่พบจุดเลือดออก มีแต่ old clot วันรุ่งขึ้นออกซ้ำหยุดเอง stable → radionuclide scan ด้วย Tc-99m pertechnetate (ตัวลวง SBFT, US, CT with IV contrast, sequential mesenteric angiography)"],
+       pattern:["<b>Initial</b> = ABC + resuscitation: large-bore peripheral IV 2 เส้น (14–16 G), <b>isotonic crystalloid</b> + เลือด (restrictive: Hb <7 g/dL, <8 ถ้ามีโรคหัวใจ — ACG 2023), CBC, coagulogram, G / M; ห้ามใช้ dextrose water (ไม่อยู่ใน intravascular); CVC ไม่ใช่ขั้นแรก; shock index ≥1 = unstable","<b>แยก UGIB</b> (ราว 10–15% ของ severe hematochezia): NG aspirate ได้ <b>bile ไม่มีเลือด</b> = ตัด UGIB ได้ (น้ำใสไม่มี bile ตัดได้แค่กระเพาะ); unstable หรือ BUN สูง → EGD ก่อน; anoscopy ดูโรคทวารหนัก","<b>Stable</b> → <b>colonoscopy หลัง bowel prep</b> (หาตำแหน่ง + hemostasis: epinephrine injection, clip) — ACG 2023: ทำระหว่างนอน รพ. แบบ nonemergent; การรีบส่องภายใน 24 ชม. ไม่ลด rebleeding / mortality","<b>Unstable / ยังเลือดออกมาก</b> → <b>CT angiography</b> ก่อน (sensitivity ราว 90%) → angioembolization; ผ่าตัดเมื่อหาตำแหน่งไม่ได้และยังเลือดออกต่อ","<b>วัยรุ่น / ผู้ใหญ่อายุน้อย</b> painless LGIB ที่ EGD + colonoscopy ปกติ → <b>Meckel scan (Tc-99m pertechnetate)</b> — จับ ectopic gastric mucosa ไม่ต้องมี active bleeding; ผู้ใหญ่ทั่วไปใช้ capsule endoscopy / CT enterography (ACG 2015 small bowel bleeding)"],
+       pearls:["คีย์เก่า MDCU73 RoC ตอบ nasogastric intubation เป็น initial — ACG 2023 ให้ประเมินและ resuscitate ก่อนเสมอ","ช้อย 'urgent colonoscopy' ในคีย์ MDCU66 RoD ดีที่สุดในข้อ แต่แนวทางใหม่ไม่บังคับให้ส่องภายใน 24 ชม.","Meckel scan ในผู้สูงอายุผิดบริบท; angiography ต้องมี active bleeding"],
+       members:["MDCU78|RoD|Stomach and Duodenum 5","MDCU73|RoC|37","MDCU67|RoD|7","MDCU66|RoD|24","MDCU77|RoB|6"]},
+      {id:"radiation-proctitis",
+       title:"Chronic radiation proctitis: telangiectasia ใน rectum หลังฉายรังสี pelvis",
+       trend:"ให้ประวัติฉายรังสี prostate / cervix + telangiectasia ใน rectum แล้วถาม Dx หรือย้อนถามประวัติ",
+       asked:["เคยฉายรังสี prostate หลายปีก่อน ตอนนี้ LGIB colonoscopy เห็น telangiectasia จำนวนมากใน rectum → radiation proctitis (ตัวลวง ischemic colitis, angiodysplasia, ulcerative proctitis, hemorrhoid)","หญิง 54 ปี brachytherapy CA cervix 10 ปีก่อน + hematuria ซ้ำ 6 เดือน + rectal bleeding Hct 30% platelet / coag ปกติ → radiation proctitis (ตัวลวง bleeding hemorrhoid, rectal ca, rectal varices, angiodysplasia) — ถามซ้ำ","ชายสูงอายุท้องผูก มีเลือดออก colonoscopy เห็น telangiectasia ใน rectum → ประวัติที่น่าจะเป็น = brachytherapy ของ prostate ca (ตัวลวง สวนอุจจาระบ่อย, fecal impaction, NSAID, HHT)"],
+       pattern:["<b>Chronic radiation proctitis</b>: >3 เดือนถึงหลายปีหลัง pelvic RT (prostate, cervix, rectum) — obliterative endarteritis → ischemia, fibrosis, <b>neovascular telangiectasia</b> เปราะเลือดออกง่าย; มักมี radiation cystitis (hematuria) ร่วม","Acute (ภายใน 3 เดือน) = mucosal inflammation: ท้องเสีย, tenesmus, มูก","รักษาเลือดออก: <b>argon plasma coagulation</b> (endoscopic first-line), topical formalin 4%, sucralfate enema, hyperbaric oxygen; รุนแรง / ดื้อการรักษา → diversion หรือ resection"],
+       pearls:["Angiodysplasia อยู่ cecum / right colon และไม่มีประวัติรังสี","หญิงถ่ายเป็นเลือดแล้วตอบ hemorrhoid โดยไม่ใช้ประวัติ brachytherapy"],
+       members:["MDCU79|RoD|Colo 6","MDCU77|RoA|Colo 6","MDCU76|RoA|12","MDCU70|RoA|75"]}
+    ]},
+    {title:"Colonic volvulus, Ogilvie และ large bowel obstruction", sections:[
+      {id:"sigmoid-volvulus-xray",
+       title:"Sigmoid volvulus: อ่าน AXR (coffee bean / bent inner tube)",
+       trend:"ให้ plain film ผู้สูงอายุ obstipation แล้วถาม Dx — ออกเกือบทุกรอบในรุ่นใหม่",
+       asked:["ผู้สูงอายุ / ติดเตียง obstipation ท้องอืด ไม่ถ่าย / ไม่ผายลม 3 วัน ให้ AXR → sigmoid volvulus (ตัวลวง cecal volvulus, Ogilvie / ACPO, toxic megacolon, SBO, midgut volvulus, fecal impaction, paralytic ileus) — ถามซ้ำแทบทุกรุ่นใหม่","ภาพอยู่ในหมวด Ped ของไฟล์แต่เป็นภาวะผู้ใหญ่ (ท้องอืด คลื่นไส้ อาเจียน) → sigmoid volvulus (ตัวลวง intussusception, midgut volvulus)"],
+       pattern:["AXR: ห่วงลำไส้ใหญ่โป่งมากวงเดียวรูป <b>inverted U / coffee bean / bent inner tube</b> ไม่มี haustra ขึ้นจาก pelvis ซ้าย ยอดมักไป RUQ / ใต้กระบังลม (สูงกว่า transverse colon), ผนังด้านในสองขาชิดกันเป็นเส้นกลางชี้ลง pelvis ซ้าย (จุดบิด), colon ส่วนต้นโป่งตาม; CT: <b>whirl sign</b>, bird's beak","<b>Cecal volvulus</b>: ฐานอยู่ RLQ ยอดชี้ <b>LUQ</b> (รูปไต), small bowel โป่งร่วม, colon ส่วนปลายแฟบ","<b>Ogilvie</b>: colon โป่งต่อเนื่องหลายส่วน (cecum ใหญ่สุด) ไม่มีห่วงบิด แก๊สลงถึง rectum","ปัจจัยเสี่ยง sigmoid volvulus: ผู้สูงอายุติดเตียง / อยู่สถานดูแล, ท้องผูกเรื้อรัง, ยาจิตเวช / anticholinergic, Parkinson / neurologic disease, Chagas"],
+       pearls:["ดูว่าห่วงเริ่มจาก pelvis (sigmoid) หรือ RLQ (cecum) และมี small bowel โป่งร่วมไหม","ลำไส้ใหญ่ที่โป่งไม่มี valvulae conniventes — อย่าตอบ SBO"],
+       members:["MDCU79|RoC|Colo 2","MDCU78|RoA|Small bowel 1","MDCU78|RoC|Acute abdomen 3","MDCU79|RoD|Ped 2","MDCU77|RoC|Colo 6","MDCU76|RoD|15@p4~2"]},
+      {id:"sigmoid-volvulus-mx",
+       title:"Sigmoid volvulus: endoscopic detorsion vs emergency laparotomy",
+       trend:"ให้ volvulus พร้อม / ไม่พร้อม peritonitis หรือ air ในผนังลำไส้ แล้วถาม management",
+       asked:["ผู้สูงอายุ contrast enema / AXR เป็น sigmoid volvulus stable ไม่มี peritonitis / ischemia → endoscopic (flexible sigmoidoscopic) detorsion + rectal tube (ตัวลวง emergency Hartmann, laparotomy, ATB + observe, neostigmine, laxative / enema, colonoscopy)","ผู้สูงอายุท้องอืด ท้องผูก AXR volvulus + กดเจ็บ LLQ มี guarding → emergency exploratory laparotomy (ตัวลวง sigmoidoscopic detorsion, barium enema reduction, rectal tube, neostigmine)","ชายติดเตียง ปวดท้องน้อย + localized peritonitis + coffee bean → exploratory laparotomy (ตัวลวง NPO + observe, endoscopic detorsion, BE, rectal tube)","Coffee bean sign + air ในผนัง sigmoid → exploratory laparotomy (ตัวลวง detorsion, rectal tube, BE, NPO + ATB)","ไข้ + กดเจ็บ LLQ เฉพาะที่ + coffee bean → sigmoidoscopic detorsion (ตามคีย์; ตัวลวง laparotomy + colectomy, BE, NG, stent)"],
+       pattern:["<b>Uncomplicated</b> (stable, ไม่มี peritonitis / ischemia / perforation): resuscitate → <b>endoscopic detorsion</b> (flexible sigmoidoscopy) สำเร็จราว 60–95% + ดู mucosa ว่าขาดเลือดไหม + คา <b>rectal tube</b> → <b>sigmoid colectomy ใน admission เดียวกัน</b> (เป็นซ้ำหลัง detorsion อย่างเดียวราว 40–70%) — ASCRS Colonic Volvulus 2021","<b>Complicated</b>: peritonitis, perforation, <b>air ในผนังลำไส้ (pneumatosis)</b>, gangrene / mucosa ดำตอนส่อง, detorsion ล้มเหลว → <b>emergency laparotomy + sigmoidectomy</b> (มัก Hartmann) โดยไม่ detorsion ก่อน","Neostigmine เป็นยาของ Ogilvie ไม่ใช่ volvulus; barium enema ไม่ใช่การรักษา"],
+       pearls:["ผ่าตัดทุกรายทั้งที่ไม่มี peritonitis — หรือกลับกัน ส่องกล้องทั้งที่มี guarding","MDCU67 RoD มีไข้ + กดเจ็บเฉพาะที่ แต่คีย์ยังตอบ detorsion (ไม่มี peritonitis ชัด) — ถ้าส่องแล้วเห็น mucosa ดำหรือมี peritonitis ต้องเปลี่ยนเป็นผ่าตัด"],
+       members:["MDCU78|RoD|Small bowel and Small bowel obstruction 2","MDCU77|RoB|Colo 2","MDCU77|RoA|Colo 2","MDCU72|RoA|53","MDCU69|RoA|38","MDCU67|RoD|42"]},
+      {id:"sigmoid-volvulus-facts",
+       title:"Sigmoid volvulus: ข้อเท็จจริง (ถามแบบ EXCEPT)",
+       trend:"ข้อ EXCEPT ชุดเดิมวนซ้ำในรุ่นเก่า — ตัวผิดคือ 'น้อยกว่าครึ่งของ colonic volvulus' หรือ 'ไม่มี ischemia ก็ผ่าฉุกเฉิน'",
+       asked:["ข้อใดผิดเรื่อง sigmoid volvulus → 'ไม่มี ischemia ควรผ่าตัดฉุกเฉิน'","ข้อใดผิด → 'คิดเป็นน้อยกว่าครึ่งของ colonic volvulus' — ถามซ้ำหลายรุ่น"],
+       pattern:["ถูกทั้งหมดนี้: เป็น <b>colonic volvulus ที่พบมากที่สุด</b> (ส่วนใหญ่ราว 60–80%; cecal รองลงมา), มักเป็นผู้สูงอายุที่อยู่สถานดูแล / ติดเตียง, coffee bean บน plain film, endoscopic decompression แล้วตามด้วย elective sigmoidectomy, reduction ล้มเหลวหรือ ischemia → emergency surgery","Cecal volvulus: endoscopic reduction ไม่ได้ผล → right hemicolectomy"],
+       pearls:["จำว่า ischemia / peritonitis / detorsion ล้มเหลว เท่านั้นที่ทำให้ผ่าฉุกเฉิน"],
+       members:["MDCU69|RoC|31","MDCU67|RoA|22","MDCU67|RoB|24","MDCU66|RoA|7"]},
+      {id:"obstipation-workup",
+       title:"Obstipation ผู้สูงอายุ: ตรวจแรก และสาเหตุของท้องผูก",
+       trend:"ถามการตรวจแรกในผู้สูงอายุไม่ถ่าย / ไม่ผายลม หรือข้อใดไม่ใช่สาเหตุท้องผูก",
+       asked:["72 ปี ไม่ถ่าย / ไม่ผายลม 3 วัน ไม่มี peritonitis ไม่มีก้อน PR ปกติ → acute abdomen series (ตัวลวง barium enema, CT, MRI, colonoscopy) — ถามซ้ำ","ข้อใด NOT สาเหตุของท้องผูก (ตามคีย์) → Parkinson disease (ช้อยอื่น anticholinergic, multiple sclerosis, hypothyroidism, hypercalcemia)"],
+       pattern:["สงสัย bowel obstruction → <b>acute abdomen series</b> (upright CXR + supine / upright abdomen) ก่อน: dilated loop, air-fluid level, small vs large bowel, coffee bean, free air → ต่อด้วย <b>CT with contrast</b> หาสาเหตุ (ผู้สูงอายุ: colon ca, volvulus); barium ห้ามเมื่อยังไม่ตัด obstruction / perforation","Secondary constipation: ยา (anticholinergic, opioid, CCB, iron), metabolic (hypothyroidism, hypercalcemia, DM), <b>neurologic (Parkinson, MS, spinal cord injury)</b>, ภาวะอุดตัน"],
+       pearls:["ปัจจุบัน CT มักทำได้เร็วและให้ข้อมูลมากกว่า แต่คีย์ตอบ plain film เป็นตรวจแรก","ข้อ NOT สาเหตุท้องผูกของ MDCU66 RoD: ทุกช้อยเป็นสาเหตุจริง (ASCRS Chronic Constipation 2024, Sabiston 21e) — คีย์ตอบ Parkinson ทั้งที่ Parkinson เป็นสาเหตุที่พบบ่อย; รู้ไว้ว่าข้อนี้กำกวม"],
+       members:["MDCU69|RoC|24","MDCU67|RoB|20","MDCU66|RoD|10"]},
+      {id:"ogilvie",
+       title:"Ogilvie syndrome (acute colonic pseudo-obstruction): neostigmine",
+       trend:"ให้ผู้ป่วยหนัก / หลังผ่าตัด colon โป่งโดยไม่มี mechanical obstruction แล้วถาม Dx หรือยา",
+       asked:["ผู้ป่วย ICU หลังผ่าตัดหัวใจ ท้องอืดมากขึ้น กำลังแก้ electrolyte ให้ AXR → Ogilvie syndrome (ตัวลวง sigmoid / cecal volvulus, SBO, gallstone ileus)","ผู้ป่วยติดเตียงหลัง stroke POD 5 ท้องอืดมาก ไม่ผายลมแม้ conservative + แก้ electrolyte 48 ชม. colon โป่งทั่ว cecum 11 cm ไม่มี mechanical obstruction → neostigmine (ตัวลวง atropine, epinephrine, PEG, loperamide)","Functional intestinal obstruction คือ → Ogilvie syndrome (ตัวลวง gallstone ileus, volvulus, intussusception, SMA syndrome)"],
+       pattern:["<b>ACPO</b>: colon (cecum / right colon) โป่งมากโดย<b>ไม่มี mechanical obstruction</b> — autonomic imbalance (parasympathetic ลด) ในผู้ป่วยหนัก: หลังผ่าตัด (หัวใจ, ortho, C-section), ICU, sepsis, electrolyte (K, Mg, Ca), opioid / anticholinergic","R/O mechanical ด้วย CT หรือ water-soluble contrast enema → <b>conservative 24–48 ชม.</b> (NPO, NG / rectal tube, แก้ electrolyte, หยุด opioid / anticholinergic, เปลี่ยนท่า)","ไม่ดีขึ้น / cecum >10–12 cm → <b>neostigmine 2 mg IV ช้า ๆ</b> (ตอบสนองราว 80–90%) monitor ECG + เตรียม atropine; ห้ามใน mechanical obstruction, perforation, bradycardia, bronchospasm","ล้มเหลว → colonoscopic decompression; perforation / ischemia → ผ่าตัด (เสี่ยงแตกเมื่อ cecum >12 cm หรือโป่งนาน >6 วัน)"],
+       pearls:["SMA syndrome และ gallstone ileus เป็น mechanical แม้ไม่มีก้อนในผนังลำไส้","Neostigmine มีหลักฐานใน ACPO ไม่ใช่ postoperative ileus ทั่วไป"],
+       members:["MDCU78|RoC|Small bowel 2","MDCU78|RoC|Acute abdomen 4","MDCU70|RoA|7"]}
+    ]},
+    {title:"Diverticular disease (และ abscess ในท้องน้อย)", sections:[
+      {id:"hinchey",
+       title:"Hinchey classification: pericolic abscess ทุกขนาด = I (modified = Ib) · คีย์เก่าที่ตอบ II เมื่อ >4 cm คือ WSES CT 2a",
+       trend:"ถาม Hinchey ของ pericolic abscess ตรง ๆ — บางรุ่นใส่ขนาด >4–5 cm และอ้าง 'modified Hinchey ที่ใช้ในข้อสอบนี้' (คีย์เก่าตอบ II)",
+       asked:["Diverticulitis + pericolic abscess ไม่มี peritonitis → Hinchey I (ตัวลวง II–V) — ถามซ้ำหลายรุ่น","Small pericolic abscess ตาม original Hinchey → I","Sigmoid diverticulitis ไข้ กดเจ็บเฉพาะที่ไม่มี rebound CT pericolic abscess 5 cm → Hinchey I","Pericolic abscess 5 cm ตาม modified Hinchey (ช้อย stage I–V) และ pericolic abscess >5 cm ไม่มี peritonitis ตาม modified Hinchey (ช้อย Ib, II, III, IV, 0) → ตาม Hinchey 1978 / Wasvary 1999 / Kaiser 2005 = I / Ib (คีย์เก่า MDCU74 RoD และ MDCU73 RoD ตอบ II)","Classification ที่ใช้ stage complicated diverticulitis ตามการทะลุและ peritonitis → Hinchey (ตัวลวง Goligher, Dukes, Child-Pugh, Ranson)"],
+       pattern:["<b>Original Hinchey (1978)</b>: I = pericolic / mesenteric abscess · II = pelvic, intra-abdominal (distant) หรือ retroperitoneal abscess · III = generalized purulent peritonitis · IV = feculent peritonitis (ไม่มี class V)","<b>Modified Hinchey (Wasvary 1999; Kaiser 2005 ใช้ CT)</b>: 0 = mild clinical · Ia = confined pericolic inflammation / phlegmon · Ib = pericolic / mesocolic abscess · II = pelvic / distant / retroperitoneal abscess · III · IV — แบ่งตาม<b>ตำแหน่ง</b> ไม่ใช่ขนาด","ตารางในคีย์เก่า (P'Ing) ที่เขียน 'abscess >4 cm = II' <b>ไม่ใช่ Hinchey</b> — การตัดที่ 4 cm มาจาก <b>WSES 2020 CT classification</b>: 0 = uncomplicated · 1a = pericolic air / fluid เล็กน้อยไม่มี abscess · <b>1b = abscess ≤4 cm</b> · <b>2a = abscess >4 cm</b> · 2b = distant gas (>5 cm จากลำไส้ที่อักเสบ) · 3 = diffuse fluid ไม่มี distant free gas · 4 = diffuse fluid + distant free gas","วิธีตอบ: <b>pericolic abscess ทุกขนาด = Hinchey I (modified = Ib)</b> — ขนาดเปลี่ยนแค่การรักษา (drain หรือไม่) ไม่เปลี่ยน Hinchey; ถ้าโจทย์ถาม WSES CT stage จึงใช้ 4 cm (≤4 = 1b, >4 = 2a)","การรักษาตาม stage: I–II → antibiotics ± percutaneous drainage; III–IV → ผ่าตัด (colectomy: Hartmann หรือ primary anastomosis ± diverting ileostomy — ASCRS 2020 ให้ resection มากกว่า laparoscopic lavage)","ตัวลวงอื่น: Goligher = hemorrhoid, Dukes = CRC, Child-Pugh = cirrhosis, Ranson = pancreatitis; Hansen–Stock (0–III) เป็น classification ของ diverticular disease อีกแบบ"],
+       pearls:["คีย์ MDCU76 RoD ไฮไลต์ I แต่ผู้เฉลยภายหลังวง II — ตาม Hinchey / modified Hinchey pericolic abscess 5 cm = I (ขนาดใช้ตัดสินว่าต้อง drain ไม่ได้เปลี่ยน stage)","คีย์เก่า MDCU74 RoD และ MDCU73 RoD (P'Ing) ตอบ II สำหรับ pericolic abscess 5 cm / >5 cm — ตาม Hinchey 1978, Wasvary 1999, Kaiser 2005 ตอบ I / Ib (ตัด 4 cm เป็นของ WSES CT 1b / 2a ไม่ใช่ Hinchey II)"],
+       members:["MDCU76|RoD|16","MDCU74|RoD|39","MDCU73|RoB|Colo 6","MDCU73|RoD|Colo 1","MDCU70|RoC|ไม่มีเลข 4","MDCU72|RoB|1","MDCU72|RoC|ไม่มีเลข 1","MDCU72|RoD|36"]},
+      {id:"acute-diverticulitis",
+       title:"Acute diverticulitis: วินิจฉัย, antibiotics และห้ามส่องกล้องระยะ acute",
+       trend:"ให้ปวด LLQ + ไข้แล้วถาม Dx หรือ 'นอกจาก IV fluid ทำอะไร' / ข้อใดถูก",
+       asked:["ชายสูงอายุปวด LLQ ไข้ 38 °C stable กดเจ็บเฉพาะที่ไม่มีก้อน → sigmoid diverticulitis (ตัวลวง sigmoid ca, ischemic colitis, ureteric colic, appendicitis)","61 / 50 ปี acute diverticulitis (episode แรก) นอกจาก IV fluid → empirical antibiotics (ตัวลวง diagnostic colonoscopy, NG suction, sigmoidectomy, APR) — ถามซ้ำ","80 ปี acute diverticulitis หลังให้ IV fluid → broad-spectrum antibiotics (ตัวลวง colonoscopy, sigmoidectomy, barium enema, แก้ปวดอย่างเดียว)","ปวด LLQ ไข้ คลื่นไส้ 2 วัน สงสัย diverticulitis ข้อใดถูก → หลีกเลี่ยง colonoscopy เพราะเสี่ยงทะลุ (ตัวลวง ส่องทันที, IV 5% dextrose in water, TPN จนหาย, emergency sigmoidectomy)"],
+       pattern:["ปวด LLQ + ไข้ + กดเจ็บเฉพาะที่ในผู้สูงอายุ = sigmoid diverticulitis ('left-sided appendicitis'); ยืนยันด้วย <b>CT with contrast</b> (wall thickening, fat stranding, abscess, free air)","คำตอบของข้อสอบ: <b>isotonic IV fluid + antibiotics</b> (gram-negative + anaerobe) ± bowel rest; ASCRS 2020: uncomplicated ในคนภูมิคุ้มกันปกติที่ทานได้ → รักษาแบบผู้ป่วยนอก และ <b>antibiotics ใช้แบบเลือก</b> — แต่ผู้สูงอายุ / ไข้สูง / โรคร่วม / ทานไม่ได้ → admit + IV antibiotics","<b>ห้าม colonoscopy / barium enema ระยะ acute</b> (เสี่ยงทะลุ) → ส่องหลังหายราว 6–8 สัปดาห์ (โดยเฉพาะ complicated หรือยังไม่เคยส่องคุณภาพดีใน 1 ปี)","ส่วนใหญ่ไม่ต้อง TPN / NG; emergency surgery เฉพาะ peritonitis","Elective colectomy ไม่แนะนำหลัง uncomplicated episode แรก (เลิกใช้เกณฑ์อายุ <50) — ตัดสินรายบุคคล"],
+       pearls:["ผู้สูงอายุปวด LLQ แล้วตอบมะเร็ง — มะเร็งค่อยแยกด้วยการส่องกล้องตอนหาย","IV fluid ต้องเป็น isotonic ไม่ใช่ D5W"],
+       members:["MDCU76|RoD|17","MDCU67|RoA|19","MDCU67|RoB|23","MDCU67|RoC|29","MDCU67|RoD|4"]},
+      {id:"diverticular-abscess",
+       title:"Diverticulitis + abscess: ขนาด ≥3 cm → percutaneous drainage + IV antibiotics",
+       trend:"ให้ขนาด abscess + stable ไม่มี generalized peritonitis แล้วถาม management — คีย์เก่าหลายรุ่นตอบ antibiotics อย่างเดียว",
+       asked:["62 ปี sigmoid diverticulitis + pelvic abscess 7 cm stable ไม่มี generalized peritonitis → percutaneous drainage + IV antibiotics (ตัวลวง oral ATB, IV ATB + admit, emergency sigmoidectomy, laparotomy + lavage)","Sigmoid diverticulitis + pericolic abscess 4 cm stable → percutaneous drainage + IV antibiotics (ตัวลวง IV ATB อย่างเดียว, sigmoidectomy + primary anastomosis, Hartmann, loop colostomy)","ไข้ ปวด LLQ 1 สัปดาห์ abscess 4 cm จาก paracolic gutter ลงถึง pelvis stable ได้ ATB อยู่ → NPO + percutaneous drainage (ตัวลวง emergency lap colectomy / sigmoidectomy, NPO + ATB + observe, colonoscopy ใน 48 ชม.)"],
+       pattern:["<b>ASCRS 2020</b>: abscess <b><3 cm → IV antibiotics</b> + เฝ้าดู; <b>≥3 cm ที่เข้าถึงได้ → CT / US-guided percutaneous drainage + IV antibiotics</b> (gram-negative + anaerobe); WSES 2020 ใช้ตัดราว 4–5 cm","Emergency surgery เฉพาะ <b>generalized peritonitis (Hinchey III–IV)</b>, sepsis ที่คุมไม่ได้ หรือ drainage / antibiotics ล้มเหลว — ขนาด abscess ไม่ใช่ข้อบ่งชี้ผ่าตัดฉุกเฉิน; PCD เปลี่ยน emergency Hartmann เป็น elective resection ที่ต่อได้","หลังหาย: <b>colonoscopy ราว 6–8 สัปดาห์</b> แยกมะเร็ง + พิจารณา <b>elective sigmoidectomy</b> หลัง abscess ที่ต้อง drain (โอกาสเป็นซ้ำ / complication สูง)"],
+       pearls:["คีย์เก่า MDCU76 RoA ตอบ IV antibiotics อย่างเดียวใน abscess 4 cm และคีย์เก่า MDCU75 RoC ตอบ NPO + ATB + observe — ตาม ASCRS 2020 (≥3 cm drain) ตอบ percutaneous drainage","Stem ระบุ stable / ไม่มี generalized peritonitis — ถ้ามี peritonitis หรือ shock ต้องผ่าตัด"],
+       members:["MDCU79|RoC|Colo 4","MDCU76|RoA|71","MDCU75|RoC|16"]},
+      {id:"appendiceal-abscess",
+       title:"Appendiceal abscess / mass (ติดแท็กนี้มาด้วย)",
+       trend:"ให้ RLQ pain หลายวัน + คลำก้อน (± ได้ antibiotics มาแล้ว) แล้วถาม Dx",
+       asked:["ไข้ ปวด RLQ 4 วัน คลำก้อนกดเจ็บ CT rim-enhancing fluid 5 cm รอบ appendix → appendiceal abscess (ตัวลวง uncomplicated appendicitis, cecal ca, Crohn ileitis, appendiceal mucocele)","เด็ก 10 ปี ปวด RLQ 10 วัน เดินก้มตัว ท้องเสียไม่มีเลือดวันละ 3 ครั้ง ได้ antibiotics จากคลินิกไม่ดีขึ้น คลำก้อน 4 cm → appendiceal abscess (ตัวลวง intussusception, Meckel diverticulitis, mesenteric adenitis, Crohn)"],
+       pattern:["Appendicitis ที่มาช้า (ราว >3–5 วัน) หรือได้ antibiotics มาก่อน → walled-off เป็น <b>phlegmon / abscess</b> คลำก้อน RLQ; ท้องเสียจาก pelvic irritation","รักษา: IV antibiotics + <b>percutaneous drainage</b> ถ้า abscess ใหญ่ (ราว ≥3–4 cm); generalized peritonitis → ผ่าตัด; interval appendectomy พิจารณาเป็นราย ๆ และผู้ใหญ่อายุ ≥40 ควรส่อง colonoscopy / CT ติดตามเพื่อแยกมะเร็ง","Intussusception พบอายุราว 3 เดือน–3 ปี"],
+       pearls:["รีบทำ appendectomy ฉุกเฉินใน abscess ที่ถูกล้อมไว้แล้ว — เพิ่มภาวะแทรกซ้อน","ท้องเสียทำให้ไปคิด gastroenteritis"],
+       members:["MDCU76|RoD|71","MDCU74|RoD|2"]}
+    ]},
+    {title:"Anatomy และ bowel preparation", sections:[
+      {id:"colon-vs-rectum-anatomy",
+       title:"Colon vs rectum anatomy: valves of Houston",
+       trend:"ถามซ้ำแบบ 'ข้อใด NOT anatomy ของ colon' — คำตอบคือ valves of Houston ทุกครั้ง",
+       asked:["Semilunar transverse folds ของผนัง rectum ชื่อ → valves of Houston (ตัวลวง appendices epiploicae, haustra, columns of Morgagni, plicae circulares)","ข้อใด NOT anatomy ของ colon → valves of Houston (ที่เป็นของ colon: taenia coli, appendices epiploicae, marginal artery เชื่อม SMA–IMA, white line of Toldt, เลี้ยงด้วย SMA + IMA, มีทั้งส่วน intra- และ retroperitoneal, haustra) — ถามซ้ำหลายรุ่น"],
+       pattern:["<b>Colon</b>: taeniae coli 3 แถบ, haustra, appendices epiploicae; ascending / descending = retroperitoneal (แนว white line of Toldt), transverse / sigmoid = intraperitoneal; เลือดจาก SMA + IMA เชื่อมด้วย marginal artery of Drummond","<b>Rectum</b>: taeniae แผ่ออกเป็นชั้นกล้ามเนื้อตามยาวรอบวงที่ rectosigmoid junction → ไม่มี taeniae, haustra, appendices epiploicae; มี <b>valves of Houston</b> 3 อัน (บนซ้าย, กลางขวา — ระดับ anterior peritoneal reflection, ล่างซ้าย)","Columns of Morgagni = anal canal เหนือ dentate line; plicae circulares = small bowel"],
+       pearls:["Valves of Houston อยู่ rectum ไม่ใช่ colon"],
+       members:["MDCU77|RoB|Colo 1","MDCU75|RoD|Colo 1","MDCU68|RoB|61","MDCU67|RoD|1"]},
+      {id:"colon-blood-supply",
+       title:"Blood supply: แขนงของ IMA / SMA และ root of mesentery",
+       trend:"ถามแขนงของ IMA ซ้ำในรุ่นเก่า",
+       asked:["แขนงของ inferior mesenteric artery → sigmoid artery (ตัวลวง middle colic, right colic, ileocolic, wandering artery / arc of Riolan) — ถามซ้ำ","Root ของ small bowel mesentery วิ่งระหว่าง → duodenojejunal flexure ซ้ายของ L2 ถึง right sacroiliac joint (ตัวลวง pylorus–ICV, Treitz–left SI joint)"],
+       pattern:["<b>SMA</b>: ileocolic, right colic, middle colic · <b>IMA</b>: left colic, sigmoid arteries, superior rectal; middle / inferior rectal มาจาก internal iliac / internal pudendal","Collateral: marginal artery of Drummond, arc of Riolan (meandering artery — middle colic ↔ left colic) ไม่ใช่แขนงโดยตรง; watershed: splenic flexure (Griffiths point), rectosigmoid (Sudeck point)","<b>Root of mesentery</b> ยาวราว 15 cm เฉียงจาก DJ flexure (ซ้าย L2) ลงขวาถึง right sacroiliac joint / ileocecal junction ข้าม D3, aorta, IVC, right ureter, right psoas; มี SMA / SMV อยู่ภายใน — malrotation ทำให้ root แคบ → midgut volvulus"],
+       pearls:["Root of mesentery ลงไปทางขวา ไม่ใช่ซ้าย"],
+       members:["MDCU69|RoC|30","MDCU67|RoB|30","MDCU77|RoC|Colo 9"]},
+      {id:"bowel-prep",
+       title:"Bowel preparation: PEG ปลอดภัย, sodium phosphate ห้ามใน CKD / ผู้สูงอายุ",
+       trend:"ถามว่า prep ใดเหมาะสมที่สุด / ไม่เหมาะสม — ตัวผิดคือ sodium phosphate ในผู้สูงอายุหรือ CKD",
+       asked:["Bowel prep ที่ได้ผลดีที่สุดก่อน colonoscopy → PEG 2–3 L ภายใน 6 ชม. ก่อนส่อง (ตัวลวง senna โด๊สเดียว, hyperosmolar 1 L, tap water enema, clear liquid 24 ชม.)","Bowel prep ที่ไม่เหมาะสม → sodium phosphate ในหญิง 60 ปี (CKD) ก่อนผ่าตัด rectal ca (ช้อยที่ถูก: PEG ในชาย 50 ปี, PEG ใน CKD, NaP 90 mL ในหญิง 40 ปี) — ถามซ้ำ"],
+       pattern:["<b>PEG-electrolyte lavage</b> = iso-osmotic ไม่ดึงน้ำ / เกลือแร่ → ปลอดภัยใน CKD, heart failure, ผู้สูงอายุ; คุณภาพดีสุดเมื่อให้แบบ <b>split-dose</b> (ครึ่งหนึ่งคืนก่อน ครึ่งหนึ่งเช้าวันส่อง) หรือ same-day โดยดื่มให้หมดอย่างน้อย 2 ชม. ก่อนส่อง","<b>Oral sodium phosphate</b> (hyperosmotic) → acute phosphate nephropathy, hyperphosphatemia, hypocalcemia, volume shift → <b>หลีกเลี่ยง</b> ใน CKD, ผู้สูงอายุ, heart failure, ผู้ใช้ ACEI / ARB / diuretic / NSAID; ใช้ได้ในคนอายุน้อยสุขภาพดี"],
+       pearls:["ตัวลวงที่ดื่มน้อยทานง่ายมักเป็น hyperosmolar ที่ไม่ปลอดภัยต่อไต"],
+       members:["MDCU77|RoA|Colo 3","MDCU69|RoA|44","MDCU68|RoC|89"]}
+    ]},
+    {title:"Colorectal liver metastases", sections:[
+      {id:"crlm-resection",
+       title:"CRLM ที่ resectable → liver resection (future liver remnant เป็นตัวตัดสิน)",
+       trend:"ให้ CRLM ที่ผ่าได้ (synchronous / metachronous / recurrent) แล้วถาม management — ตัวลวงคือ RFA, biopsy, palliative chemo",
+       asked:["60 ปี stage III หลัง adjuvant surveillance พบ mets 2 ก้อน 2–3 cm segment VI, VII ไม่มีโรคอื่น fit FLR พอ → liver resection (ตัวลวง RFA, chemo อย่างเดียว, liver transplant, BSC)","Colon ca วางแผน colectomy staging พบ mets 3 ก้อน ≤3 cm อยู่ left lobe ทั้งหมด right lobe ปกติ → liver resection (ตัวลวง RFA, BSC, chemo อย่างเดียว, TACE)","ปัจจัยหลักตัดสิน curative resection ของ CRLM → predicted volume ของ hepatic remnant (ตัวลวง จำนวนก้อน, ขนาดก้อน, จำนวน cycle chemo, อายุ)","pT3N0M0 ผ่าไป 2 ปี พบก้อนตับเดี่ยว 3 cm ตำแหน่งผ่าได้ → liver resection (ตัวลวง image-guided biopsy, RFA, palliative chemo, observe)","หลัง left colectomy 1 ปี ก้อนตับ 1.5 cm → liver resection (ตัวลวง FNA, RFA, cryotherapy, embolization)","Sigmoid T3N0 ผ่าไปแล้ว, liver mets ทำ left hepatectomy ปีต่อมา, อีกปีมีก้อนใหม่ 3 cm ไม่มี local recurrence → liver resection อีกครั้ง (ตัวลวง palliative chemo, RFA, HAI, TACE)","หญิงวัยกลางคน liver mass 4 cm + synchronous early sigmoid adenocarcinoma ก้อนตับ resectable → liver resection แล้ว resect primary แล้ว chemotherapy (ตามคีย์; ตัวลวง simultaneous resection, sigmoidectomy อย่างเดียว, colostomy + chemo, palliative chemo)"],
+       pattern:["CRLM ที่ resectable = <b>curative intent</b> — 5-year survival หลัง hepatectomy ราว 40–50% (chemo อย่างเดียวต่ำกว่ามาก)","<b>Resectability ปัจจุบัน</b> ดู<b>สิ่งที่เหลือ</b> ไม่ใช่จำนวน / ขนาดก้อน: ตัดได้ R0, เหลือ ≥2 contiguous segments ที่มี inflow, outflow, biliary drainage ครบ, <b>FLR ≥20%</b> ในตับปกติ · ≥30% หลังได้ chemo มาก / steatosis · ≥40% ในตับแข็ง (AHPBA / SSAT / SSO consensus 2013), ไม่มีโรคนอกตับที่คุมไม่ได้, ผู้ป่วย fit","FLR ไม่พอ → portal vein embolization, two-stage hepatectomy, ALPPS; unresectable → conversion chemo (FOLFOX / FOLFIRI ± anti-EGFR ใน RAS wild-type left-sided หรือ bevacizumab) แล้วประเมินใหม่","± perioperative FOLFOX (EORTC 40983 เพิ่ม PFS); <b>repeat hepatectomy</b> เมื่อกลับเป็นซ้ำและยัง resectable ให้ผลใกล้เคียงครั้งแรก","<b>ไม่ต้อง biopsy</b> ก้อนตับใหม่ในผู้ป่วย CRC ที่วางแผนผ่า (เสี่ยง tumor seeding และไม่เปลี่ยนการรักษา)","<b>Ablation (RFA / MWA)</b> สำหรับก้อนเล็ก (ราว ≤3 cm) ที่ผ่าไม่ได้ / ผู้ป่วยไม่ fit หรือใช้ร่วมกับ resection; <b>COLLISION (Lancet Oncol 2025)</b>: ก้อน ≤3 cm (≤10 ก้อน) thermal ablation ให้ OS และ local control ไม่ด้อยกว่า resection และภาวะแทรกซ้อนน้อยกว่า — แต่ตำรา / คีย์ข้อสอบยังตอบ <b>liver resection</b> เมื่อผ่าได้และผู้ป่วย fit","<b>Synchronous resectable</b>: staged (colon-first แบบคลาสสิก หรือ liver-first เมื่อ primary ไม่มีอาการ) หรือ simultaneous ในรายที่เลือก — คีย์ทั้งสองไฟล์ของ MDCU75 RoC เลือก staged (liver ก่อน) เพราะ simultaneous = ผ่าตัดใหญ่สองอย่างพร้อมกัน"],
+       pearls:["'ไปตับ = stage IV = palliative' ผิดสำหรับ CRLM","เลือก RFA เพราะก้อน ≤3 cm ทั้งที่ผ่าได้ — หลัง COLLISION 2025 ablation เป็นทางเลือกที่ยอมรับได้มากขึ้น แต่ข้อสอบที่มีช้อย liver resection ยังตอบ resection","จำนวน / ขนาดก้อนเป็นเกณฑ์เก่าที่เลิกใช้เป็นข้อห้ามแล้ว"],
+       members:["MDCU79|RoC|Colo 6","MDCU79|RoC|คิดไม่ออกว่าอยู่บทไหน ไม่มีเลข 6","MDCU71|RoA|90","MDCU76|RoA|9","MDCU68|RoD|53","MDCU67|RoC|26","MDCU75|RoC|Colo 4"]},
+      {id:"crlm-diagnosis",
+       title:"ก้อนในตับ + CEA: วินิจฉัย CRLM และ synchronous vs metachronous",
+       trend:"ถามคำนิยามตามเวลาที่พบ หรือให้ก้อนตับหลายก้อน + CEA สูงแล้วถาม Dx",
+       asked:["ชายไม่มีโรคประจำตัว US ตับมี hypoechoic nodules หลายก้อน + CEA สูง → colorectal liver metastases (ตัวลวง polycystic liver, hepatocellular adenoma, HCC, hemangioma)","Sigmoid ca วินิจฉัยใหม่ CT staging พบก้อนตับหลายก้อนพร้อมกัน → synchronous metastasis (ตัวลวง metachronous, multiple primary, skip metastasis, satellite lesion)","65 ปี colectomy 4 ปีก่อน ติดตาม CT พบ solid nodules ใหม่หลายก้อน → metachronous liver metastases (ตัวลวง HCC, synchronous, cirrhosis, simple cysts)"],
+       pattern:["ตับที่ไม่มี cirrhosis: เนื้องอกร้ายที่พบบ่อยสุด = <b>metastasis</b>; CRC ไปตับบ่อยสุดผ่าน portal vein; US hypoechoic / target lesion หลายก้อน + CEA สูง","<b>Synchronous</b> = พบพร้อมตอนวินิจฉัย primary (บางนิยามนับรวม 3–6 เดือนแรก) · <b>metachronous</b> = พบหลังรักษา primary ไปแล้ว; ราว 15–25% มี liver mets ตอนวินิจฉัย","ขั้นต่อไป: colonoscopy หา primary + CT C / A / P หรือ MRI ตับ (ประเมิน resectability) + CEA"],
+       pearls:["HCC ต้องมีบริบท cirrhosis / HBV / HCV และใช้ AFP","syn = ด้วยกัน, meta = หลัง"],
+       members:["MDCU74|RoD|ไม่มีเลข 2","MDCU79|RoD|Liver and biliary tract 1&2 ไม่มีเลข 2","MDCU73|RoC|83"]}
+    ]},
+    {title:"Anorectal (ข้อที่ติดแท็ก Colorectal)", sections:[
+      {id:"hemorrhoid",
+       title:"Hemorrhoid: Goligher grade และการรักษาตาม grade / thrombosed prolapse",
+       trend:"รุ่นเก่าถาม grade ของก้อนที่ยื่นแล้วกลับเอง และ prolapsed thrombosed hemorrhoid → hemorrhoidectomy",
+       asked:["เลือดออก + ก้อนยื่นเวลาเบ่งแล้วกลับเข้าเอง (ตรวจไม่เห็นข้างนอก) → grade II (ตัวลวง I, III, IV, mixed) — ถามซ้ำหลายรุ่น","ชาย (recall อายุ '2 ปี') bright red blood 3 เดือน internal hemorrhoid ไม่มีก้อนคลำได้ → sclerosing agent (คีย์เขียนว่า rubber band ก็ได้; ตัวลวง hemorrhoidectomy, colonoscopy, CTC)","Thrombosed prolapsed (internal) hemorrhoid → (urgent) hemorrhoidectomy (ตัวลวง RBL, sclerosing agent, sitz bath, oral flavonoid) — ถามซ้ำ"],
+       pattern:["<b>Goligher</b>: I = เลือดออก ไม่ prolapse · II = prolapse แล้ว<b>กลับเอง</b> · III = ต้องดันกลับ · IV = ดันไม่กลับ / incarcerated","ASCRS Hemorrhoids 2024: ทุก grade เริ่มด้วย fiber + น้ำ; grade I–II (และบาง III) → office procedure — <b>rubber band ligation</b> (ได้ผลดีสุดใน office), sclerotherapy, infrared coagulation; grade III–IV / ล้มเหลว / มี external ร่วม → <b>excisional hemorrhoidectomy</b>","<b>Prolapsed thrombosed / incarcerated internal hemorrhoid</b> ในผู้ป่วยทั่วไป → <b>urgent hemorrhoidectomy</b>; ห้าม band ก้อนที่ thrombosed","ก่อนสรุปว่าเลือดมาจาก hemorrhoid ในผู้ ≥45 ปีหรือมี red flag → colonoscopy"],
+       pearls:["MDCU67 RoA recall อายุ '2 ปี' น่าจะผิด — เด็กเล็กเลือดออกทางทวารให้คิด juvenile polyp","Mixed = internal + external ไม่ใช่ grade"],
+       members:["MDCU67|RoA|20","MDCU67|RoC|16","MDCU66|RoB|16","MDCU67|RoA|18","MDCU66|RoA|1","MDCU66|RoD|28"]},
+      {id:"anorectal-abscess-fistula",
+       title:"Anorectal abscess / fistula-in-ano: antibiotics เมื่อไร และ complex fistula",
+       trend:"รุ่นเก่าถามข้อบ่งชี้ antibiotics ร่วมกับ drainage และนิยาม complex fistula (คำตอบ all of the above)",
+       asked:["Perianal abscess / fistula ควรให้ antibiotics ร่วมกับ drainage เมื่อ → ทั้งหมด (ไข้, ischioanal abscess, cellulitis รอบ, immunocompromised) — ถามซ้ำ","60 ปี DM คุมไม่ได้ ไข้ ก้อนบวมรอบทวาร + cellulitis → incision & drainage + antibiotics (ตัวลวง ATB อย่างเดียว, needle aspiration + ATB, I&D อย่างเดียว, observe)","Complex fistula-in-ano → ทั้งหมด (high transsphincteric, multiple openings, hemihorseshoe, ร่วมกับ Crohn) — ถามซ้ำ"],
+       pattern:["Anorectal abscess รักษาหลัก = <b>incision & drainage</b> (ยาไม่แทน drainage); ASCRS 2022: ให้ antibiotics เพิ่มเมื่อมี <b>cellulitis รอบ, systemic signs / sepsis, immunosuppression / DM คุมไม่ได้</b>, prosthetic valve, ฝีลึก / กว้าง (ischioanal, supralevator)","DM + ไข้ + cellulitis ระวัง <b>necrotizing soft tissue infection (Fournier gangrene)</b>","<b>Complex fistula</b>: ผ่าน external sphincter มาก (ราว >30%) / high transsphincteric, suprasphincteric, extrasphincteric, anterior ในผู้หญิง, horseshoe / หลายทาง, เป็นซ้ำ, incontinence เดิม, Crohn, radiation, TB → <b>ห้าม fistulotomy ตรง ๆ</b> → seton, LIFT, advancement flap; simple (intersphincteric / low transsphincteric) → fistulotomy"],
+       pearls:["ตอบ I&D อย่างเดียวในผู้ป่วยเสี่ยงสูง (DM, cellulitis)"],
+       members:["MDCU67|RoB|17","MDCU67|RoC|19","MDCU67|RoD|26","MDCU67|RoA|24","MDCU66|RoD|21"]},
+      {id:"anal-fissure",
+       title:"Chronic anal fissure และ anoderm: ลักษณะ chronic และ LIS",
+       trend:"รุ่นเก่าถาม treatment of choice ของ chronic fissure และลักษณะ chronic fissure",
+       asked:["ปวดเวลาถ่าย + เลือดสด เป็นมาเกือบปี (chronic fissure) → lateral internal sphincterotomy (ตัวลวง bulk laxative, laxative + NTG, fissurectomy + advancement flap, anal dilatation, sitz bath, hemorrhoidectomy) — ถามซ้ำ","ลักษณะของ chronic anal fissure → ทั้งหมด (fibrotic edge, hypertrophied anal papilla, sentinel pile, เห็น internal sphincter fiber)","ลักษณะของ anoderm → มี somatic sensory nerve มาก (ตัวลวง sebaceous gland, hair follicle, sweat gland, keratinized squamous)"],
+       pattern:["<b>Anoderm</b> (dentate line ถึง anal verge): non-keratinized squamous ไม่มี hair / sebaceous / sweat gland, มี <b>somatic sensory (pudendal)</b> → fissure / external hemorrhoid เจ็บมาก; เหนือ dentate line ไม่เจ็บ","<b>Chronic</b> = >6–8 สัปดาห์ หรือมี sentinel pile (ด้านนอก), hypertrophied anal papilla (ด้านใน), ขอบแข็ง fibrotic, เห็นเส้นใย internal sphincter ที่ฐาน; ส่วนใหญ่ posterior midline","ASCRS Anal Fissure 2023: เริ่ม fiber / sitz bath + topical <b>CCB (diltiazem / nifedipine)</b> หรือ nitrate (NTG ปวดหัวมากกว่า) ± botulinum toxin; <b>LIS</b> = ได้ผลสูงสุด (healing >90%) สำหรับ chronic ที่ไม่หายด้วยยาหรือเป็นมานาน — คำตอบของข้อสอบ chronic fissure","Anal dilatation ไม่แนะนำ (incontinence); fissure นอก midline / หลายแผล / ไม่เจ็บ → หา secondary cause: Crohn, TB, HIV / STI, anal cancer"],
+       pearls:["NTG / CCB เป็น first-line และใช้ใน acute — โจทย์ที่เน้น 'เป็นมาเกือบปี' หรือ 'treatment of choice ของ chronic' ตอบ LIS"],
+       members:["MDCU67|RoA|23","MDCU67|RoC|18","MDCU66|RoA|3","MDCU66|RoD|32","MDCU67|RoA|27"]},
+      {id:"hemorrhoid-neutropenic",
+       title:"Thrombosed hemorrhoid หลังเคมีบำบัด (neutropenia): conservative",
+       trend:"คู่ตรงข้ามของเคส thrombosed hemorrhoid ทั่วไป — ผู้ป่วยมะเร็งเม็ดเลือดหลัง chemo 10 วัน",
+       asked:["หญิง 18 ปี AML ได้ chemo 10 วันก่อน มี thrombosed internal hemorrhoid → warm sitz bath + medication (ตัวลวง hemorrhoidectomy, stapled hemorrhoidopexy, RBL + ยา, sclerotherapy)","ชาย 20 ปี leukemia หลัง chemo 10 วัน prolapsed thrombosed internal hemorrhoid → warm sitz bath + medication (ตัวลวง I&D, hemorrhoidectomy, RBL, stapled)"],
+       pattern:["ราว 10 วันหลัง chemo = nadir ของ neutrophil / platelet → หัตถการเสี่ยงเลือดออก, sepsis, แผลไม่หาย → <b>conservative</b>: warm sitz bath, stool softener / fiber, analgesic, topical ± antibiotics (immunocompromised)","RBL / sclerotherapy <b>ห้ามใน immunocompromised / neutropenia</b> (เสี่ยง pelvic sepsis); ผ่าตัดเฉพาะเมื่อมี necrosis / sepsis ที่ต้อง source control"],
+       pearls:["โจทย์คู่: ผู้ป่วยทั่วไป prolapsed thrombosed → hemorrhoidectomy · หลัง chemo → conservative"],
+       members:["MDCU67|RoD|6","MDCU66|RoC|1"]},
+      {id:"hemorrhoidectomy-complication",
+       title:"Complication ที่พบบ่อยสุดหลัง hemorrhoidectomy: urinary retention",
+       trend:"ถามตรง ๆ ซ้ำในรุ่นเก่า",
+       asked:["ภาวะแทรกซ้อนที่พบบ่อยที่สุดหลัง hemorrhoidectomy → urinary retention (ตัวลวง bleeding, skin tag, infection, anal stricture, wound disruption) — ถามซ้ำ"],
+       pattern:["<b>Urinary retention</b> พบบ่อยสุด (ปวด, spinal anesthesia, ให้สารน้ำมาก) — ป้องกันด้วยจำกัด IV fluid และคุมปวดให้ดี","อื่น ๆ: bleeding (secondary ราว 7–10 วัน), infection พบน้อย (เลือดมาเลี้ยงดี), anal stricture (ตัด anoderm มากเกิน), incontinence"],
+       pearls:["อย่าตอบ bleeding เพราะดูน่ากลัวกว่า"],
+       members:["MDCU67|RoB|16","MDCU67|RoC|17"]},
+      {id:"anal-canal-cancer",
+       title:"Anal canal cancer: SCC → chemoradiation (Nigro), APR เป็น salvage",
+       trend:"ให้ก้อนที่ anal canal ลุก sphincter / prostate แล้วถามการรักษา — คีย์เก่าตอบผ่าตัด",
+       asked:["Anal canal SCC 3 cm ลุก prostate → chemoradiation (ตัวลวง brachytherapy, APR, LAR, pelvic exenteration)","Anal canal tumor ลุก sphincter complex → APR (ตามคีย์; ช้อยต้นฉบับ LAR / APR / wide excision + LND)"],
+       pattern:["<b>Anal canal SCC</b> (สัมพันธ์ HPV) แม้ T4 ลุก prostate → <b>definitive chemoradiation</b> (Nigro: 5-FU หรือ capecitabine + mitomycin + RT) — NCCN Anal Carcinoma 2025 / ESMO 2021: complete response สูง เก็บ sphincter ได้; ประเมินการตอบสนองได้นานถึงราว 26 สัปดาห์","<b>APR</b> = salvage สำหรับ SCC ที่ persistent / recurrent หลัง CRT หรือเป็นการรักษาของ <b>adenocarcinoma</b> ของ anal canal / low rectum ที่ลุก sphincter","Inguinal node เป็น regional ของ anal canal (ต่างจาก colon / rectum ที่ inguinal = M1)"],
+       pearls:["คีย์เก่า MDCU67 RoD ตอบ pelvic exenteration ใน SCC ลุก prostate — ตาม NCCN ตอบ CRT","โจทย์ที่บอกแค่ 'anal canal tumor ลุก sphincter' คีย์ตอบ APR (คิดแบบ adenocarcinoma) — ถ้าระบุ SCC ให้ตอบ CRT เสมอ"],
+       members:["MDCU67|RoA|26","MDCU67|RoD|2"]}
+    ]},
+    {title:"Inflammatory bowel disease", sections:[
+      {id:"crohn-vs-uc",
+       title:"Crohn disease vs ulcerative colitis: แยกจากการกระจายของรอยโรค",
+       trend:"ให้ภาพ colonoscopy / CT / ผลผ่าตัดแล้วถาม Dx — ตัวลวงประจำคือ intestinal TB",
+       asked:["39 ปี ท้องเสียไม่มีเลือด น้ำหนักลด 5 kg ไข้ 6 เดือน มาด้วย SBO ผ่าตัดพบ inflamed segments 3 ช่วงไม่ต่อกัน + fat wrapping ใน jejunum และ ileum → Crohn (ตัวลวง intestinal TB, adhesive band, SBP, NEC)","27 ปี ท้องผูก อุจจาระลีบ กดเจ็บ RLQ ไม่มี rebound CT ผนัง jejunum + ileum หนา fat stranding comb sign → small bowel Crohn (ตัวลวง appendicitis, Meckel diverticulitis, UC + backwash ileitis, cecal diverticulosis)","ถ่ายเป็นเลือด 3 เดือน colonoscopy รอยโรคต่อเนื่องจาก rectum ถึง ascending colon (ให้รูป) → UC (ตัวลวง Crohn, IBS, ischemic colitis, colonic TB)","Chronic bloody diarrhea colonoscopy อักเสบต่อเนื่องไม่มี skip จาก sigmoid ถึง descending → UC (ตัวลวง infectious colitis, Crohn, intestinal TB, lymphoma)"],
+       pattern:["<b>UC</b>: mucosal inflammation <b>เริ่ม rectum เสมอ ลามต่อเนื่องขึ้นไป</b> (proctitis → left-sided ถึง splenic flexure → extensive / pancolitis) ไม่มี skip; bloody diarrhea, tenesmus, urgency; colonoscopy: erythema, เส้นเลือดหาย, friability, granular, แผลตื้น, pseudopolyp; backwash ileitis สั้น ๆ","<b>Crohn</b>: transmural granulomatous inflammation ได้ทุกที่จากปากถึงทวาร (terminal ileum บ่อยสุด), <b>skip lesions</b>, <b>creeping fat / fat wrapping</b>, cobblestone, aphthous ulcer, stricture → SBO / อุจจาระลีบ, fistula, abscess, rectal sparing; CT / MR enterography: wall thickening, target sign, <b>comb sign</b> (vasa recta คั่ง = active)","ยืนยันด้วย ileocolonoscopy + biopsy (Crohn: non-caseating granuloma); left-sided UC รักษาด้วย mesalamine (5-ASA) ทั้งทางปากและทางทวาร","ไทย: แยก <b>intestinal TB</b> และ amebic colitis ด้วย biopsy / เพาะเชื้อก่อนให้ steroid / immunosuppression"],
+       pearls:["รอยโรคไปถึง ascending colon ไม่ได้แปลว่า Crohn — ตัวตัดสินคือเริ่มที่ rectum และต่อเนื่อง","กดเจ็บ RLQ แต่ jejunum ก็หนา = Crohn ไม่ใช่ appendicitis"],
+       members:["MDCU75|RoD|33","MDCU79|RoD|Acute abdomen 1","MDCU78|RoA|Colorectal 4","MDCU79|RoD|Colo 4"]},
+      {id:"uc-psc-referral",
+       title:"UC: PSC และใครควรส่งศัลยแพทย์",
+       trend:"ให้ผู้ป่วย UC มีอาการท่อน้ำดี หรือถามว่าผู้ป่วยรายใดไม่จำเป็นต้องส่ง colorectal surgeon",
+       asked:["ผู้ป่วย UC ส่องกล้อง surveillance ทุกปี มาด้วยไข้ jaundice ปวด RUQ คัน → primary sclerosing cholangitis (ตัวลวง distal cholangiocarcinoma, CBD stone, Mirizzi, acute cholecystitis)","ผู้ป่วยรายใดเหมาะส่ง colorectal surgeon น้อยที่สุด → ulcerative colitis (ตัวลวง FAP ขาดติดตาม 10 ปี, หญิง 68 ปีอุจจาระดำลำเล็ก, adenoma ครบกำหนดส่อง, IDA ใหม่ในคน 60 ปี)"],
+       pattern:["<b>PSC</b>: ราว 70–80% มี IBD (ส่วนใหญ่ UC), ชายวัย 30–40; คัน อ่อนเพลีย jaundice + bacterial cholangitis เป็นพัก ๆ จาก stricture, cholestatic LFT (ALP เด่น), MRCP <b>beading</b>; เสี่ยง cholangiocarcinoma และ CRC สูงขึ้น","UC ส่วนใหญ่รักษาด้วยยา (gastroenterologist) → ศัลยกรรมเมื่อดื้อยา, dysplasia / cancer, toxic megacolon / perforation / bleeding (ASCRS UC 2021); FAP, IDA ใหม่, อุจจาระดำลำเล็กในผู้สูงอายุ = ต้องส่งตรวจ / ผ่าตัด"],
+       pearls:["UC + Charcot triad → ตอบ PSC ไม่ใช่ CBD stone; cholangiocarcinoma เป็นภาวะแทรกซ้อนระยะยาวของ PSC","MDCU66 RoA recall ไม่ครบ — UC นานเกิน 8 ปีก็ต้อง surveillance colonoscopy"],
+       members:["MDCU78|RoA|Jaundice 2","MDCU66|RoA|X2"]}
+    ]}
+  ]});

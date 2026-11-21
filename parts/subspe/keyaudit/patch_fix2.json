@@ -1,0 +1,209 @@
+{
+ "_note": "Subspe MCQ key fixes round 2 (22 พ.ย. 2026) — from High-yield writers / fact-checkers (BRIEF_FIX2.md)",
+ "MDCU73|RoD|Colo 1": {
+  "ans": 0,
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): เดิมคีย์ P'Ing B (Class II ตามตาราง abscess &gt;4 cm = II) → แก้เป็น <b>A Class Ib</b> · ตาม Hinchey 1978 / modified Hinchey (Wasvary 1999, Kaiser 2005): Ib = confined pericolic abscess ไม่ว่าขนาด, II = pelvic/distant/retroperitoneal abscess · เกณฑ์ 4 cm เป็นของ WSES 2020 CT classification (1b/2a) และใช้ตัดสิน percutaneous drainage ไม่ได้เปลี่ยน Hinchey stage · ตอบให้ตรงกับ 74D 39, 76D 16 และ 73B Colo 6 · ⚠ ถ้าข้อสอบจริงระบุ WSES classification ให้ตอบ 2a · ความมั่นใจปานกลาง-สูง",
+  "interp": "Pericolic abscess (ติดผนังลำไส้) &gt;5 cm ไม่มี peritonitis — modified Hinchey จัดตามตำแหน่ง → Ib",
+  "why": "<b>Modified Hinchey</b> (Wasvary 1999 / Kaiser 2005): 0 mild clinical · Ia pericolic phlegmon · <b>Ib confined pericolic abscess</b> (ไม่กำหนดขนาด) · II pelvic / distant intra-abdominal / retroperitoneal abscess · III purulent peritonitis · IV feculent peritonitis → pericolic abscess &gt;5 cm = <b>Ib</b> · ขนาด ≥3–4 cm ใช้ตัดสินว่าต้อง <b>percutaneous drainage + ATB</b> (ASCRS 2020) · ตัด 4 cm เป็นของ WSES 2020 CT classification (1b ≤4 cm, 2a &gt;4 cm)",
+  "wrong": {
+   "B": "II = pelvic / interloop / distant abscess — ตารางที่คีย์เดิมแปะใช้ &gt;4 cm = II ซึ่งเอาเกณฑ์ WSES มาปน",
+   "C": "III = purulent peritonitis",
+   "D": "IV = feculent peritonitis",
+   "E": "0 = mild clinical diverticulitis"
+  },
+  "trap": "ใช้ขนาด &gt;4 cm ตัดสิน stage — ขนาดเป็นเกณฑ์ drainage / WSES 2a ไม่ใช่ Hinchey II (ดู 73B Colo 6, 74D 39, 76D 16)",
+  "summary": [
+   "Modified Hinchey: Ia phlegmon · Ib pericolic abscess (ทุกขนาด) · II distant abscess · III purulent · IV feculent",
+   "Abscess &lt;3 cm: ATB alone · ≥3–4 cm: percutaneous drainage + ATB",
+   "III: lavage or resection",
+   "IV: Hartmann"
+  ]
+ },
+ "MDCU72|RoC|54": {
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): คงคำตอบ B V-Y flap ตามคีย์ P'Ing เฉพาะในช้อยที่จดมา · ตาม Green's Operative Hand Surgery 8e: fingertip defect เล็ก (&lt;1–1.5 cm²) ไม่มีกระดูกโผล่ → <b>healing by secondary intention</b> ดีที่สุด (stem เดียวกันใน 72D ไม่มีเลข 8, 77C Plastic 3, 68D 62 ตอบ secondary intention) · ⚠ โจทย์กำกวม: ต้นฉบับช้อย E ว่าง (เราเติม amputation revision) — ช้อย E จริงน่าจะเป็น secondary intention เหมือนรุ่นอื่น · ในห้องสอบ: ถ้ามีช้อย secondary intention / dressing → ตอบข้อนั้น; ถ้ามีแค่ suture / V-Y / STSG / FTSG → ตอบ V-Y (เย็บชนไม่ได้เพราะเนื้อหาย, graft ได้ sensation/padding ด้อย) · ความมั่นใจต่ำ-ปานกลาง",
+  "trap": "ถ้ามีช้อย secondary intention ให้ตอบข้อนั้น (72D ไม่มีเลข 8, 77C Plastic 3, 68D 62) — V-Y ใช้เมื่อกระดูกโผล่"
+ },
+ "MDCU76|RoC|Neuro 3": {
+  "stem": "A patient opens his eyes only to painful stimuli, says inappropriate words and withdraws from pain. What is his Glasgow Coma Scale score?",
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): คงคำตอบ D (9) แต่แก้ stem: เดิมเขียน \"incomprehensible sounds\" (= V2 → รวม 8 ซึ่งไม่มีในช้อย) → แก้เป็น \"<b>inappropriate words</b>\" (V3) ตามที่ผู้จดเขียน \"incomprehensible word\" และคีย์ลายมือ E2 V3 M4 = 9 (Teasdale 2014 / ATLS 10th) · ต้นฉบับยังอยู่ใน gray · ⚠ ในห้องสอบ: ถ้าโจทย์เขียน incomprehensible <b>sounds</b> จริง = V2 → 8; ถ้าเป็น words = V3 → 9 · ความมั่นใจสูง (หลังแก้ stem)",
+  "interp": "นับ GCS: ลืมตาเมื่อเจ็บ + พูดเป็นคำแต่ไม่เข้าเรื่อง + ชักแขนหนีเจ็บ",
+  "why": "Eye เปิดต่อ pain = <b>E2</b> · พูดเป็นคำ ๆ ที่ไม่เข้าเรื่อง (<b>inappropriate words</b>) = <b>V3</b> · withdraw from pain = <b>M4</b> → <b>E2V3M4 = 9</b> (moderate TBI) · ถ้าเป็นแค่เสียงอืออา (<b>incomprehensible sounds</b>) = V2 → รวม 8 (severe)",
+  "wrong": {
+   "A": "3 = คะแนนต่ำสุด E1V1M1",
+   "B": "5 ต่ำเกินไป",
+   "C": "7 ต่ำเกินไป (เช่น E2V2M3)",
+   "E": "12 สูงเกินไป"
+  }
+ },
+ "MDCU72|RoD|80": {
+  "ans": 3,
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): เดิมคีย์ P'Ing B (wound care ที่ community hospital — \"รักษาก่อนแล้วค่อย investigate\") → แก้เป็น <b>D ส่ง burn center โดยรถพยาบาลเร่งด่วน</b> · ตาม <b>ABA Guidelines for Burn Patient Referral 2022</b>: เด็ก (≤14 ปี) ที่สงสัย <b>non-accidental trauma</b> เป็นเหตุให้ปรึกษา/ส่งต่อ burn center และ burn ที่<b>เท้า</b> (deep partial/full thickness) เป็นเกณฑ์ immediate consultation with consideration for transfer · การส่งต่อเป็นทั้ง \"การรักษาที่จำเป็น\" และการ<b>ปกป้องเด็ก</b> ไม่ให้กลับไปกับผู้ต้องสงสัย (ต้องไปด้วยรถพยาบาล ไม่ใช่รถส่วนตัว) · สอดคล้องกับ 74D 14 ที่คลังตอบส่ง burn center ด้วยรถโรงพยาบาล · ความมั่นใจปานกลาง",
+  "interp": "Burn เท้า 2 ข้างสมมาตร (immersion) ในเด็ก 3 ปี สงสัย child abuse → รักษา + ปกป้องเด็ก + ส่งต่อที่เหมาะสม",
+  "why": "Suspected abuse หลักคือ (1) <b>ให้การรักษาที่จำเป็น</b> (2) <b>ปกป้องเด็ก</b> ไม่ให้กลับไปอยู่กับผู้ต้องสงสัย (3) แจ้งทีม child protection / social worker · Burn ที่<b>เท้าทั้ง 2 ข้าง</b> + เด็ก + <b>non-accidental trauma</b> เข้าเกณฑ์ <b>ABA 2022</b> ให้ส่ง burn center → ส่งด้วย<b>รถพยาบาล</b> (ไม่ให้ครอบครัว/ผู้ต้องสงสัยพาไปเอง) · skeletal survey ทำได้ภายหลังที่ burn center (เด็ก &lt;2 ปีทำทุกราย; 2–5 ปีตามความเหมาะสม)",
+  "wrong": {
+   "A": "Skeletal survey เป็นการสืบค้น ทำหลังให้การรักษา/ส่งต่อ และ routine ในเด็ก &lt;2 ปี",
+   "B": "Wound care ที่ community hospital ไม่พอสำหรับ burn ที่เท้าในเด็กที่สงสัย abuse (ABA 2022 ให้ส่ง burn center) — คีย์เดิมเลือกข้อนี้",
+   "C": "แจ้งตำรวจจับไม่ใช่หน้าที่แพทย์ ให้แจ้งทีมคุ้มครองเด็ก/social worker ตามกฎหมาย และต้องรักษาเด็กก่อน",
+   "E": "ให้ครอบครัว (ซึ่งอาจเป็นผู้ทำร้าย) พาไปเอง เสี่ยงเด็กไม่ถึงหรือถูกทำร้ายซ้ำ"
+  },
+  "trap": "คิดว่า \"รักษาก่อน\" = ทำแผลที่ รพ.ชุมชน — burn เท้าในเด็กที่สงสัย abuse ต้องส่ง burn center ด้วยรถพยาบาล",
+  "summary": [
+   "Stocking/glove symmetric scald, ขอบชัด, sparing flexion creases → immersion burn สงสัย abuse",
+   "ABA 2022: เด็ก + non-accidental trauma, burn ที่มือ/เท้า/หน้า/อวัยวะเพศ/perineum/ข้อ → ปรึกษา/ส่ง burn center",
+   "Treat → protect → report (child protection team / social worker)",
+   "Skeletal survey: ทุกรายที่ &lt;2 ปี"
+  ]
+ },
+ "MDCU67|RoA|70": {
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): คงคำตอบ B cerebral angiography (DSA) ตามคีย์ · ตรวจกับ <b>AHA/ASA 2023 aSAH guideline</b>: ไม่มีข้อแนะนำว่าต้องทำ CTA ก่อน — supportive text บอกเพียงว่า CTA \"often is the next diagnostic test performed\"; ข้อแนะนำ COR 1 คือ ถ้า CTA ลบ/ไม่ชัด → <b>DSA</b> และ DSA (2a) ช่วยวางแผนรักษา · DSA ยังเป็น gold standard → ข้อเสนอให้เปลี่ยนเป็น CTA ไม่ได้รับ · ⚠ ในห้องสอบ: ถ้าถาม \"next/initial imaging ในห้องฉุกเฉิน\" หรือมี CTA แต่ไม่มี DSA → ตอบ CTA; ถ้าถาม \"most needed / gold standard\" → DSA · ความมั่นใจปานกลาง"
+ },
+ "MDCU77|RoB|CVT 2": {
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): คงคำตอบ A ตามคีย์ 77B แต่ ⚠ โจทย์กำกวม: ตาม <b>ATLS 10th/11th</b> รายการ CXR signs ของ blunt aortic injury มีทั้ง widened mediastinum, left apical cap, NG tube เบี่ยงขวา, fracture ซี่ 1–2 และ \"<b>elevation of the right mainstem bronchus</b>\" (คู่กับ depression of the left mainstem bronchus) → ช้อยทั้ง 5 ตามที่จดเป็น sign ได้หมด · คีย์ A น่าจะมาจากต้นฉบับที่เป็น <b>left</b> main bronchus elevation (ซึ่งผิด เพราะ left ถูกกดลง) · ในห้องสอบ: ถ้าเขียน left main bronchus elevation → ตอบข้อนั้น; ถ้าเขียน right จริง ไม่มีช้อยผิดชัด — ตัวที่จำเพาะน้อยสุดคือ rib fracture ทั่วไป (ATLS ระบุเฉพาะซี่ 1–2) · ความมั่นใจต่ำ-ปานกลาง",
+  "why": "Hematoma รอบ aortic isthmus ดันโครงสร้างใน mediastinum — CXR signs ตาม <b>ATLS</b>: widened mediastinum (&gt;8 cm), obliteration of aortic knob, trachea และ <b>NG tube เบี่ยงขวา</b>, <b>depression of left mainstem bronchus</b>, <b>elevation of right mainstem bronchus</b>, obliteration of AP window, widened paratracheal/paraspinal stripe, <b>apical (pleural) cap</b>, left hemothorax, fracture <b>ซี่ 1–2</b> หรือ scapula · ⚠ ตาม ATLS right mainstem bronchus elevation ก็เป็น sign — คีย์ตอบ A น่าจะหมายถึง <b>left</b> main bronchus elevation (ที่ถูกคือ left ถูก<b>กดลง</b>)",
+  "wrong": {
+   "B": "Left apical pleural cap = เลือดจาก mediastinum ลามขึ้นยอดปอดซ้าย (ATLS sign)",
+   "C": "Fracture ซี่ 1–2 / scapula บ่งแรงกระแทกสูง (ATLS ระบุเฉพาะซี่ 1–2 — rib fracture ทั่วไปจำเพาะน้อย)",
+   "D": "Widened mediastinum = sign ที่สำคัญที่สุด",
+   "E": "NG tube เบี่ยงขวา = hematoma ดันหลอดอาหาร"
+  },
+  "trap": "จำผิดเป็น left main bronchus ยกขึ้น — จริงคือ left ถูกกดลง ส่วน right ยกขึ้นได้"
+ },
+ "MDCU71|RoB|16": {
+  "ans": 2,
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): เดิมคีย์ P'Ing E ruptured AComA aneurysm (provisional SAH จาก thunderclap) → แก้เป็น <b>C basal ganglia hemorrhage</b> · BP 180/100 + GCS ต่ำ + <b>อ่อนแรงซีกขวา 2/5</b> + <b>pupil ซ้าย 5 mm sluggish</b> = mass ในซีกซ้ายพร้อม uncal herniation → hypertensive ICH ที่ putamen/basal ganglia (ตำแหน่งที่พบบ่อยที่สุด; AHA/ASA 2022 ICH guideline, Greenberg 10e) · AComA aneurysm อยู่ midline ไม่กด CN III และ SAH ไม่ทำ hemiparesis หนักข้างเดียวตั้งแต่แรก (CN III จาก aneurysm = PComA) · ICH ก็มาด้วยปวดหัวทันทีได้ · ตอบตรงกับ 73B Neuro 4 · ⚠ ถ้าโจทย์จริงมีคอแข็ง/ภาพ CT เป็น SAH ใน basal cistern → SAH · ความมั่นใจปานกลาง",
+  "interp": "ปวดหัวทันที + BP สูง + อ่อนแรงซีกขวาหนัก + pupil ซ้ายโต = hypertensive ICH ซีกซ้าย กำลัง uncal herniation",
+  "why": "<b>Pupil ซ้ายโต sluggish</b> (CN III ถูกกดจาก <b>uncal herniation</b>) + <b>อ่อนแรงซีกขวา</b> (contralateral) + <b>BP 180/100</b> + GCS ต่ำ → ก้อนเลือดในสมองซีกซ้ายที่มี mass effect = <b>hypertensive basal ganglia (putaminal) hemorrhage</b> (ตำแหน่ง hypertensive ICH ที่พบบ่อยที่สุด: putamen &gt; thalamus &gt; lobar &gt; pons &gt; cerebellum) · ICH ก็มาด้วยปวดหัวเฉียบพลันได้ · <b>AComA aneurysm</b> อยู่ midline → SAH ทำปวดหัว/คอแข็ง/ซึม แต่ไม่กด CN III และไม่ทำ hemiparesis หนักข้างเดียว (CN III palsy จาก aneurysm = <b>PComA</b>) · ยืนยันด้วย <b>NCCT brain</b>",
+  "wrong": {
+   "A": "Pituitary apoplexy: ปวดหัวทันที + ตามัว/field defect + ophthalmoplegia (ทั้งสองข้าง) ± hypopituitarism — ไม่ทำ hemiparesis",
+   "B": "Pontine hemorrhage: coma, <b>pinpoint pupils</b>, quadriparesis, hyperthermia — ไม่ใช่ pupil โตข้างเดียว",
+   "D": "Extensive infarction: ไม่ปวดหัวฉับพลันรุนแรง, herniation มักเกิดวันที่ 2–5 (malignant MCA)",
+   "E": "AComA rupture → SAH ไม่กด CN III ไม่ทำ hemiparesis หนักข้างเดียว — คีย์เดิม P'Ing เลือกข้อนี้"
+  },
+  "trap": "เห็น thunderclap headache แล้วตอบ SAH/aneurysm ทันที — ดู BP, focal deficit และข้างของ pupil ก่อน",
+  "summary": [
+   "Uncal herniation: ipsilateral blown pupil + contralateral hemiparesis",
+   "Hypertensive ICH: putamen &gt; thalamus &gt; lobar &gt; pons &gt; cerebellum",
+   "PComA aneurysm → painful pupil-involving CN III palsy · AComA → SAH ± frontal ICH",
+   "Pontine hemorrhage: pinpoint pupils"
+  ],
+  "notes": "ตรวจคีย์ 22 พ.ย. 2026: เดิมคลังตามคีย์ P’Ing ตอบ E ruptured AComA aneurysm (ลายมือ provisional SAH) → แก้เป็น C basal ganglia hemorrhage · hemiparesis ขวาหนัก + pupil ซ้ายโต = uncal herniation จากก้อนเลือดซีกซ้าย · AComA ไม่กด CN III (aneurysm ที่กด CN III = PComA) · ตรงกับ 73B Neuro 4"
+ },
+ "MDCU79|RoC|neuro 1": {
+  "opinion": "ตอบ D ความมั่นใจสูง — รูปเป็น ring-enhancing lesion ผนังบางเรียบขนาดใหญ่มี mass effect ซึ่งเมื่อร่วมกับไข้คือ brain abscess ที่ต้องระบาย + IV antibiotics; ⚠ stem เราแต่งเองทั้งหมดเพราะต้นฉบับมีแต่รูป — ถ้าโจทย์จริงให้ก้อนเล็กหรือหลายก้อน คำตอบจะเป็น C · ตรวจคีย์ (22 พ.ย. 2026): แก้คำอธิบาย: ลบข้อความ \"ESCMID 2024 ให้เปลี่ยนเป็นยากินได้หลัง IV ~2 สัปดาห์\" — ESCMID 2024 (Bodilsen et al.) <b>ไม่ให้คำแนะนำ</b>เรื่อง early oral switch (ข้อมูลไม่พอ) และไม่แนะนำ oral consolidation หลัง IV ≥6 สัปดาห์เป็น routine · คำตอบไม่เปลี่ยน",
+  "why": "Brain abscess ขนาด <b>&gt;2.5 cm</b> มี mass effect และเป็นก้อนเดี่ยวเข้าถึงได้ → <b>neurosurgical aspiration (stereotactic หรือ burr hole) หรือ excision ร่วมกับ IV antibiotics</b> — การระบายหนองลดขนาดก้อนและ mass effect และได้หนองไปย้อม gram stain/culture เพื่อปรับยา (ESCMID 2024 แนะนำให้ aspirate หรือ excise ทุกครั้งที่ทำได้); empirical IV antibiotics: <b>3rd-generation cephalosporin (cefotaxime หรือ ceftriaxone) + metronidazole</b> รวมระยะเวลารักษา ~6–8 สัปดาห์ (ESCMID 2024 ไม่ให้คำแนะนำเรื่องเปลี่ยนเป็นยากินเร็วเพราะข้อมูลไม่พอ) ติดตามด้วย CT/MRI ซ้ำ; หาแหล่งติดเชื้อต้นทาง",
+  "wrong": {
+   "A": "Observation อย่างเดียวผิด — brain abscess เป็นภาวะคุกคามชีวิต (rupture เข้า ventricle → ventriculitis อัตราตายสูง, herniation จาก mass effect) ต้องรักษาทันที; การทำ imaging ซ้ำใช้<b>ระหว่าง</b>การรักษาเพื่อติดตามการตอบสนอง ไม่ใช่แทนการรักษา",
+   "B": "Oral antibiotics ตั้งแต่แรกไม่พอ — ต้องเริ่มด้วย IV ขนาดสูงที่ผ่าน blood-brain barrier; การ step-down เป็นยากินระหว่างคอร์สมีการศึกษา (เช่น ORAL trial) แต่ <b>ESCMID 2024 ยังไม่ให้คำแนะนำ</b>เรื่อง early oral switch",
+   "C": "IV antibiotics อย่างเดียวใช้กับ abscess <b>ขนาดเล็ก (&lt;2.5 cm)</b>, ระยะ cerebritis (ยังไม่มี capsule), หลายก้อน, อยู่ลึกหรือ eloquent area ที่ผ่าตัดเสี่ยง หรือผู้ป่วยผ่าตัดไม่ได้ — ก้อนนี้ 4 cm มี mass effect ควรระบาย; จะถูกถ้าโจทย์ให้ก้อน 1.5 cm หลายก้อน",
+   "E": "Whole-brain radiotherapy เป็นการรักษา <b>multiple brain metastases</b> — ring-enhancing lesion ใน DDx ของ abscess ได้แก่ glioblastoma และ metastasis แต่ทั้งสองมักมีผนังหนาไม่สม่ำเสมอ ไม่มีไข้ และ DWI ตรงกลางไม่ restrict; การฉายแสงก้อนที่เป็นหนองจะทำให้ติดเชื้อลุกลาม"
+  }
+ },
+ "MDCU79|RoC|neuro 6": {
+  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับช้อยเดียวที่ผู้จดจดไว้และหลักพยาธิสรีรวิทยา; ⚠ stem และช้อยอื่นเราแต่งเอง โจทย์จริงอาจถามต่างจากนี้ (เช่น ถามชนิดของ edema หรือการรักษา definitive) · ตรวจคีย์ (22 พ.ย. 2026): แก้แหล่งอ้างอิงขนาด dexamethasone: เดิมอ้าง ASCO-SNO-ASTRO 2022 (ซึ่งเป็น guideline การรักษา brain metastasis ด้วย surgery/RT/systemic ไม่ได้กำหนดขนาด steroid) → <b>CNS guideline on steroids in brain metastases 2019 (Ryken et al.)</b> และ <b>EANO-ESMO 2021</b> · คำตอบไม่เปลี่ยน",
+  "why": "Edema รอบ brain tumor และ metastasis เป็นชนิด <b>vasogenic</b>: หลอดเลือดของเนื้องอกไม่มี tight junction ที่สมบูรณ์และมี VEGF สูง → <b>blood-brain barrier รั่ว</b> น้ำและโปรตีนออกสู่ extracellular space ของ white matter (เห็นเป็นนิ้วมือ finger-like ใน white matter ไม่ลาม gray matter) → <b>corticosteroid (dexamethasone)</b> ลด permeability ของหลอดเลือดได้ดี อาการดีขึ้นภายใน 24–72 ชั่วโมง; <b>CNS guideline 2019 (Ryken et al.)</b>: ไม่ให้ในผู้ไม่มีอาการ, อาการเล็กน้อยจาก mass effect เริ่ม <b>dexamethasone 4–8 mg/วัน</b>, อาการรุนแรง/mass effect มาก ≥16 mg/วัน; <b>EANO-ESMO 2021</b>: ให้เฉพาะผู้มีอาการ ใช้ขนาดต่ำสุดที่คุมอาการได้แล้ว taper ให้เร็วที่สุด",
+  "summary": [
+   "Cerebral edema 3 ชนิด: <b>vasogenic</b> (BBB รั่ว → extracellular, white matter, finger-like; tumor, abscess, contusion ระยะหลัง) / <b>cytotoxic</b> (Na-K ATPase ล้ม → intracellular, gray + white matter; ischemic stroke, hypoxia, trauma ระยะแรก — DWI restricted) / <b>interstitial</b> (transependymal CSF จาก obstructive hydrocephalus → periventricular)",
+   "<b>Dexamethasone</b> ได้ผลกับ vasogenic edema: เริ่ม 4–8 mg/วัน (≥16 mg/วันถ้ารุนแรง), taper เมื่ออาการดีขึ้นหรือหลังรักษา definitive; ไม่ให้ในผู้ไม่มีอาการ (CNS guideline 2019 Ryken et al.; EANO-ESMO 2021); ผลข้างเคียง: hyperglycemia, myopathy, infection (PJP prophylaxis ถ้าให้นาน), GI bleeding, insomnia",
+   "Mannitol (0.25–1 g/kg) และ hypertonic saline = ลด ICP เฉียบพลันแบบ bridge ใน herniation ทุกชนิดของ edema",
+   "Definitive treatment ของ brain metastasis: <b>stereotactic radiosurgery</b> สำหรับก้อนจำนวนจำกัดขนาดเล็ก; <b>surgical resection</b> (ตามด้วย SRS ที่ cavity) สำหรับก้อนเดี่ยวที่เข้าถึงได้ ขนาดใหญ่ (&gt;3–4 cm) มี mass effect หรือยังไม่ทราบ pathology; whole-brain RT สำหรับก้อนจำนวนมาก (+ hippocampal avoidance และ memantine) (ASCO-SNO-ASTRO 2022)",
+   "Systemic therapy ที่ผ่าน BBB ได้ใช้ในบางชนิด เช่น HER2-positive breast cancer (tucatinib-based regimen), EGFR-mutant lung cancer (osimertinib)",
+   "ยากันชัก: ให้เฉพาะผู้ที่ชักแล้ว ไม่ให้ป้องกันในผู้ไม่เคยชัก (levetiracetam เป็นตัวเลือกหลัก)",
+   "ดูข้อ 12 (radiotherapy สำหรับ brain tumor)"
+  ]
+ },
+ "MDCU67|RoA|76": {
+  "stem": "A 45-year-old woman has a 1-cm stone in a minor calyx of the right kidney on IVP. There is no hydronephrosis, but she has flank pain and hematuria. What should be done?",
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): คงคำตอบ B ESWL · ข้อเสนอให้เปลี่ยนเป็น observe อิงจาก stem เดิมที่แปลว่า \"ไม่มีปวดหรือ hematuria\" — แต่ต้นฉบับ (gray) เขียน \"ไม่เคยมี Hydronephrosis <b>มีปวด และปัสสาวะเป็นเลือด</b>\" = มีอาการ (notes เดิมก็อ่านแบบนี้) → แก้ stem ให้ตรงต้นฉบับ · นิ่วไตที่มีอาการขนาด 10–20 mm ไม่ใช่ lower pole → <b>SWL หรือ RIRS</b> (EAU Urolithiasis 2025/2026; AUA Surgical Management of Stones) · ⚠ โจทย์กำกวม: ถ้าข้อสอบจริงระบุว่า<b>ไม่มีอาการ</b>และไม่อุดตัน → active surveillance (observe) เป็นทางเลือกตาม AUA/EAU · ความมั่นใจปานกลาง",
+  "interp": "นิ่วไต 1 cm ที่ minor calyx (ไม่ใช่ lower pole) ไม่มี hydronephrosis แต่มีปวด + hematuria → ต้อง active treatment",
+  "why": "นิ่วไตที่<b>มีอาการ</b> (ปวด, hematuria) ควรรักษา · ขนาด <b>10–20 mm ไม่ใช่ lower pole</b> → <b>SWL (ESWL)</b> หรือ RIRS · lower pole &gt;10 mm → RIRS/PCNL (SWL clearance ต่ำ) · <b>&gt;20 mm → PCNL</b> · นิ่ว<b>ไม่มีอาการ</b>ไม่อุดตัน → active surveillance ได้ · dissolution ใช้กับ uric acid เท่านั้น · open surgery แทบไม่ใช้แล้ว",
+  "wrong": {
+   "A": "Observe (active surveillance) ใช้กับนิ่วไตที่ไม่มีอาการและไม่อุดตัน — โจทย์นี้มีปวด + hematuria",
+   "C": "PCNL สำหรับนิ่ว &gt;20 mm หรือ lower pole ที่ SWL/RIRS ไม่ได้ผล",
+   "D": "Oral dissolution ใช้กับ uric acid stone เท่านั้น (radiolucent) — นิ่วเห็นใน IVP ไม่บอกชนิด",
+   "E": "Open surgery แทบไม่ใช้แล้ว"
+  },
+  "trap": "อ่าน stem ให้ดีว่ามีอาการหรือไม่ — ไม่มีอาการ/ไม่อุดตัน → observe; มีอาการ 1–2 cm ไม่ใช่ lower pole → SWL/RIRS",
+  "summary": [
+   "Renal stone มีอาการ &lt;2 cm (ไม่ใช่ lower pole): SWL หรือ RIRS",
+   "Lower pole &gt;1 cm: RIRS/PCNL",
+   "≥2 cm: PCNL",
+   "ไม่มีอาการ ไม่อุดตัน: active surveillance",
+   "Uric acid: alkalinize"
+  ]
+ },
+ "MDCU67|RoB|76": {
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): คงคำตอบ D yolk sac tumor แต่ ⚠ โจทย์กำกวม: ข้อมูล multicenter ใหม่ (Pohl 2004: teratoma 48%, yolk sac 15% ในเด็ก ≤12 ปี; Woo &amp; Ross, Transl Androl Urol 2020) พบว่า <b>teratoma</b> พบบ่อยที่สุดเมื่อนับเนื้องอกอัณฑะก่อนวัยรุ่นทั้งหมด ส่วน <b>yolk sac tumor = malignant</b> ที่พบบ่อยที่สุด (registry เดิมเอนไป yolk sac เพราะส่งแต่ malignant) · ตำราพยาธิ (Robbins) ยังเขียน yolk sac = primary testicular tumor ที่พบบ่อยสุดในเด็ก &lt;3 ปี และคีย์ลายมือ + ตาราง age-wise incidence ตอบ yolk sac → แหล่งอ้างอิงขัดกัน จึงคงตามคีย์/lecture · ในห้องสอบ: ถาม \"malignant\" หรือ \"infant/AFP สูง\" → yolk sac แน่นอน; ถาม \"most common\" เฉย ๆ → ตอบ yolk sac ตามคีย์ แต่รู้ว่า teratoma เป็นคำตอบตามข้อมูลใหม่ · ความมั่นใจปานกลาง",
+  "why": "Prepubertal testicular tumor ที่เป็น<b>มะเร็ง</b>บ่อยสุด = <b>yolk sac tumor</b> (AFP สูง, ทารก–เด็กเล็ก &lt;3 ปี) — คีย์ตอบข้อนี้ · ⚠ ถ้านับเนื้องอกทั้งหมด (รวม benign) ข้อมูล multicenter ใหม่ (Pohl 2004; Woo &amp; Ross 2020) พบ <b>teratoma</b> บ่อยที่สุด (~48%) ซึ่งในเด็กก่อนวัยรุ่นเป็น benign → testis-sparing surgery · seminoma อายุ 35–40"
+ },
+ "MDCU77|RoA|Uro 5": {
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจปานกลาง — ในทางปฏิบัติควรเริ่ม alpha-blocker ร่วมกับสายสวนค้างก่อนนัด TWOC · ตรวจคีย์ (22 พ.ย. 2026): เติม: <b>AUA LUTS/BPH guideline 2026</b> (Clinical Principle) ให้ <b>uroselective alpha-blocker อย่างน้อย 3 วันก่อน voiding trial</b> ในผู้ป่วย AUR จาก BPH → คำตอบที่ดีที่สุดคือ \"ใส่สายค้าง + alpha-blocker ≥3 วัน แล้ว TWOC\" — ในช้อยที่จดมาไม่มีตัวนี้ตรง ๆ จึงคง C (สายค้างแล้วนัด) · ในห้องสอบถ้ามีช้อย \"retained Foley + alpha-blocker then TWOC\" ให้เลือกข้อนั้น",
+  "summary": [
+   "AUR: ปวดท้องน้อย คลำได้ bladder → ใส่ urethral catheter ทันที (ถ้าไม่ได้ → suprapubic)",
+   "ตัวกระตุ้น AUR: ยา anticholinergic/antihistamine/sympathomimetic, ท้องผูก, ดื่มสุรา, ผ่าตัด/ดมยา, UTI",
+   "TWOC หลังใส่สาย 2–7 วัน; ให้ uroselective alpha-blocker (tamsulosin/alfuzosin) <b>อย่างน้อย 3 วันก่อน TWOC</b> (AUA 2026) เพิ่มอัตราสำเร็จ",
+   "ข้อบ่งชี้ผ่าตัด BPH: AUR ซ้ำ/TWOC ล้มเหลว, recurrent UTI, bladder stone, hematuria ซ้ำ, ไตเสื่อมจาก BPH, ยาไม่ได้ผล",
+   "ยา BPH: alpha-blocker ออกฤทธิ์เร็ว · 5ARI ลดขนาดต่อม/ลด AUR ระยะยาว (prostate &gt;40 g)",
+   "ดูข้อ 338 (alpha-blocker vs 5-ARI)"
+  ]
+ },
+ "MDCU78|RoB|32": {
+  "opinion": "เห็นด้วยกับคีย์ B แบบมีข้อแม้ ความมั่นใจปานกลาง — meconium ในปัสสาวะบอกชนิด fistula แล้ว ขั้นต่อไปในทางปฏิบัติคือ VACTERL work-up และ colostomy; ฟิล์ม cross-table lateral เป็นการตรวจมาตรฐานที่ข้อสอบมักถาม · ตรวจคีย์ (22 พ.ย. 2026): ⚠ โจทย์กำกวม: ตาม Levitt &amp; Peña (algorithm ARM เพศชาย) meconium ในปัสสาวะ = recto-urinary fistula → <b>colostomy</b> ได้เลยโดยไม่ต้องทำ cross-table lateral (cross-table ใช้เมื่อไม่มีหลักฐานทางคลินิกหลัง 24 ชม.) — แต่โจทย์ถาม \"investigation\" และไม่มีช้อย colostomy จึงคง B ตามคีย์ · ในห้องสอบ: ถ้ามีช้อย colostomy (หรือถาม management) → ตอบ colostomy; ถ้าเป็นช้อยตรวจตามที่จด → B",
+  "trap": "ทารกชาย meconium ในปัสสาวะ = recto-urinary fistula → colostomy ได้เลย (ถ้าถาม management) — cross-table lateral ใช้เมื่อยังไม่รู้ชนิดหลัง 24 ชม."
+ },
+ "MDCU71|RoB|77": {
+  "ans": 4,
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): เดิมคีย์ P'Ing A lifestyle modification (ให้เหตุผลว่าวันละ 3 ครั้งยังอยู่ในช่วงปกติ จึงไม่ถือว่า bowel habit เปลี่ยน) → แก้เป็น <b>E colonoscopy</b> · การเปลี่ยนจากวันละ 1 เป็น 3 ครั้งนาน 3 เดือนคือ <b>change in bowel habit</b> แม้ยังอยู่ในช่วงปกติ · <b>NICE NG12 / HTG690 (2023)</b>: อายุใดก็ตามที่ bowel habit เปลี่ยน และอายุ &lt;50 ที่มี rectal bleeding ร่วมอาการอื่น → ต้องสืบค้นมะเร็งลำไส้ (FIT เป็นด่านแรกในระบบ NHS แล้วส่งส่อง) · <b>ASCRS hemorrhoid guideline (สรุปใน AFP 2025)</b>: ส่อง colonoscopy เมื่อไม่มีแหล่งเลือดออกที่ชัดเจน — <b>skin tag ไม่อธิบายเลือดออก</b> · early-onset CRC เพิ่มขึ้น · ความมั่นใจปานกลาง-สูง",
+  "interp": "หญิง 40 ปี เลือดออกทางทวารเป็น ๆ หาย ๆ 3 เดือน + ถ่ายบ่อยขึ้นจาก 1 → 3 ครั้ง/วัน (bowel habit เปลี่ยน) + PR พบแค่ skin tag (ไม่อธิบายเลือดออก) → ต้องดูลำไส้ใหญ่ทั้งหมด",
+  "why": "<b>Rectal bleeding + change in bowel habit</b> เป็น red flag ของมะเร็งลำไส้แม้อายุ &lt;45–50 ปี (NICE NG12/HTG690 2023) และ PR พบเพียง <b>small skin tag</b> ซึ่งไม่เลือดออก → ยังไม่มีแหล่งเลือดออกที่อธิบายได้ → <b>colonoscopy</b> (ASCRS: ส่องเมื่อไม่มีแหล่งเลือดออกชัดเจน, เลือดออกต่อแม้รักษา hemorrhoid แล้ว, หรือมี alarm features) · lifestyle modification ใช้เมื่อ PR/anoscopy พบสาเหตุที่อธิบายเลือดออก (hemorrhoid, fissure) และไม่มี red flag",
+  "wrong": {
+   "A": "Lifestyle modification ใช้เมื่อพบสาเหตุ benign ที่อธิบายอาการและไม่มี red flag — ที่นี่ bowel habit เปลี่ยนและ skin tag ไม่อธิบายเลือดออก (คีย์เดิม P'Ing เลือกข้อนี้)",
+   "B": "Hemorrhoidectomy: ยังไม่พบ hemorrhoid ที่มีข้อบ่งชี้",
+   "C": "Barium enema ถูกแทนด้วย colonoscopy/CT colonography และตัดชิ้นเนื้อไม่ได้",
+   "D": "CT abdomen ไม่ใช่การตรวจแรกของ rectal bleeding — ใช้ staging เมื่อพบมะเร็งแล้ว"
+  },
+  "trap": "คิดว่าถ่าย 3 ครั้ง/วันยังปกติจึงไม่ใช่ red flag — การ \"เปลี่ยน\" จากเดิมคือ red flag และ skin tag ไม่ใช่สาเหตุของเลือดออก",
+  "summary": [
+   "Red flags ของ rectal bleeding: อายุ ≥45–50, change in bowel habit, น้ำหนักลด, iron-deficiency anemia, FHx CRC, ก้อนใน PR → colonoscopy",
+   "ASCRS: colonoscopy เมื่อไม่มีแหล่งเลือดออกชัดเจน หรือเลือดออกต่อแม้รักษา hemorrhoid",
+   "พบ hemorrhoid/fissure ที่อธิบายอาการ + ไม่มี red flag → fiber, น้ำ, office procedure"
+  ]
+ },
+ "MDCU67|RoA|12": {
+  "ans": 4,
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): เดิมคีย์ B start anti-TB → แก้เป็น <b>E FNA for diagnosis</b> · เด็ก 3 ปี ก้อนคอข้างเดียว ไม่มีประวัติสัมผัส TB → ต้องแยก <b>NTM lymphadenitis</b> (พบมากในเด็ก 1–5 ปี, TST บวกได้จาก cross-reaction, รักษาด้วย complete excision ไม่ใช่ anti-TB) · <b>WHO consolidated guidelines on TB Module 3: Diagnosis (2024)</b> ให้ส่ง <b>lymph node aspirate/biopsy ตรวจ Xpert MTB/RIF Ultra</b> (+ AFB, culture, cytology) เป็น initial test ของ TB lymphadenitis ในเด็ก · แนวทางวัณโรคไทย 2564 ก็ให้ยืนยันด้วย FNA/biopsy · ห้าม I&amp;D · ตอบตรงกับ 67C 65 (ข้อเดียวกัน) · 76D 63 (มี household contact, ไม่มีช้อย FNA) ยังคงตอบ anti-TB · ⚠ ถ้าโจทย์จริงมีประวัติสัมผัส TB ชัดและไม่มีช้อยตรวจชิ้นเนื้อ → anti-TB · ความมั่นใจปานกลาง",
+  "interp": "เด็ก 3 ปี ก้อนคอข้างเดียว แข็ง ผิวเรียบ ไม่แดง PPD บวก ไม่มีประวัติสัมผัส → mycobacterial lymphadenitis ต้องยืนยันชนิดก่อน (TB vs NTM)",
+  "why": "ก้อนคอ + <b>PPD บวก</b> → mycobacterial lymphadenitis แต่ในเด็ก <b>1–5 ปี</b> ที่<b>ไม่มีประวัติสัมผัส</b> ต้องแยก <b>NTM</b> (TST บวกได้จาก cross-reaction; รักษาด้วย <b>complete excision</b> ไม่ตอบสนองต่อ anti-TB) → <b>FNA</b> ส่ง <b>Xpert MTB/RIF Ultra</b>, AFB stain, mycobacterial culture และ cytology (WHO TB Module 3 Diagnosis 2024: lymph node aspirate/biopsy เป็น initial test) · ยืนยัน TB → <b>2HRZE/4HR</b> (WHO 2022: non-severe peripheral LN TB ในเด็ก 3 เดือน–16 ปี ใช้ 4 เดือน 2HRZ(E)/2HR ได้) · <b>ห้าม I&amp;D</b> (เกิด chronic sinus)",
+  "wrong": {
+   "A": "Excisional biopsy + frozen section เป็นการตรวจขั้นถัดไปเมื่อ FNA ไม่ได้ผล หรือเป็นการรักษาเมื่อยืนยัน NTM — frozen section ไม่จำเป็นในก้อนติดเชื้อ",
+   "B": "เริ่ม anti-TB ก่อนยืนยันเสี่ยงรักษาผิดถ้าเป็น NTM (ไม่มีประวัติสัมผัส) — คีย์เดิมเลือกข้อนี้; เหมาะเมื่อมี household contact ชัดและไม่มีทางตรวจชิ้นเนื้อ",
+   "C": "ทำ PPD ซ้ำไม่ช่วยวินิจฉัย และทำให้เกิด boosting",
+   "D": "US + watchful waiting ใช้กับ reactive node เล็ก — ก้อนที่ PPD บวกต้องหาสาเหตุ"
+  },
+  "trap": "เห็น PPD บวกแล้วเริ่มยาเลย — เด็กเล็กไม่มีประวัติสัมผัสต้องแยก NTM ก่อน; และห้าม I&amp;D",
+  "summary": [
+   "Mycobacterial lymphadenitis: FNA (Xpert Ultra, AFB, culture, cytology) ก่อนรักษา",
+   "TB node: anti-TB 2HRZE/4HR (หรือ 4 เดือนใน non-severe เด็ก)",
+   "NTM (เด็ก 1–5 ปี ไม่มีประวัติสัมผัส): complete excision",
+   "ห้าม I&amp;D"
+  ]
+ },
+ "MDCU67|RoC|65": {
+  "ans": 4,
+  "opinion": "ตรวจคีย์ (22 พ.ย. 2026): เดิมคีย์ B start anti-TB → แก้เป็น <b>E FNA for diagnosis</b> · เด็ก 3 ปี ก้อนคอข้างเดียว ไม่มีประวัติสัมผัส TB → ต้องแยก <b>NTM lymphadenitis</b> (พบมากในเด็ก 1–5 ปี, TST บวกได้จาก cross-reaction, รักษาด้วย complete excision ไม่ใช่ anti-TB) · <b>WHO consolidated guidelines on TB Module 3: Diagnosis (2024)</b> ให้ส่ง <b>lymph node aspirate/biopsy ตรวจ Xpert MTB/RIF Ultra</b> (+ AFB, culture, cytology) เป็น initial test ของ TB lymphadenitis ในเด็ก · แนวทางวัณโรคไทย 2564 ก็ให้ยืนยันด้วย FNA/biopsy · ห้าม I&amp;D · ตอบตรงกับ 67A 12 (ข้อเดียวกัน) · 76D 63 (มี household contact, ไม่มีช้อย FNA) ยังคงตอบ anti-TB · ⚠ ถ้าโจทย์จริงมีประวัติสัมผัส TB ชัดและไม่มีช้อยตรวจชิ้นเนื้อ → anti-TB · ความมั่นใจปานกลาง",
+  "interp": "เด็ก 3 ปี ก้อนคอข้างเดียว แข็ง ผิวเรียบ ไม่แดง PPD บวก ไม่มีประวัติสัมผัส → mycobacterial lymphadenitis ต้องยืนยันชนิดก่อน (TB vs NTM)",
+  "why": "ก้อนคอ + <b>PPD บวก</b> → mycobacterial lymphadenitis แต่ในเด็ก <b>1–5 ปี</b> ที่<b>ไม่มีประวัติสัมผัส</b> ต้องแยก <b>NTM</b> (TST บวกได้จาก cross-reaction; รักษาด้วย <b>complete excision</b> ไม่ตอบสนองต่อ anti-TB) → <b>FNA</b> ส่ง <b>Xpert MTB/RIF Ultra</b>, AFB stain, mycobacterial culture และ cytology (WHO TB Module 3 Diagnosis 2024: lymph node aspirate/biopsy เป็น initial test) · ยืนยัน TB → <b>2HRZE/4HR</b> (WHO 2022: non-severe peripheral LN TB ในเด็ก 3 เดือน–16 ปี ใช้ 4 เดือน 2HRZ(E)/2HR ได้) · <b>ห้าม I&amp;D</b> (เกิด chronic sinus)",
+  "wrong": {
+   "A": "Excisional biopsy + frozen section เป็นการตรวจขั้นถัดไปเมื่อ FNA ไม่ได้ผล หรือเป็นการรักษาเมื่อยืนยัน NTM — frozen section ไม่จำเป็นในก้อนติดเชื้อ",
+   "B": "เริ่ม anti-TB ก่อนยืนยันเสี่ยงรักษาผิดถ้าเป็น NTM (ไม่มีประวัติสัมผัส) — คีย์เดิมเลือกข้อนี้; เหมาะเมื่อมี household contact ชัดและไม่มีทางตรวจชิ้นเนื้อ",
+   "C": "ทำ PPD ซ้ำไม่ช่วยวินิจฉัย และทำให้เกิด boosting",
+   "D": "US + watchful waiting ใช้กับ reactive node เล็ก — ก้อนที่ PPD บวกต้องหาสาเหตุ"
+  },
+  "trap": "เห็น PPD บวกแล้วเริ่มยาเลย — เด็กเล็กไม่มีประวัติสัมผัสต้องแยก NTM ก่อน; และห้าม I&amp;D",
+  "summary": [
+   "Mycobacterial lymphadenitis: FNA (Xpert Ultra, AFB, culture, cytology) ก่อนรักษา",
+   "TB node: anti-TB 2HRZE/4HR (หรือ 4 เดือนใน non-severe เด็ก)",
+   "NTM (เด็ก 1–5 ปี ไม่มีประวัติสัมผัส): complete excision",
+   "ห้าม I&amp;D"
+  ]
+ }
+}

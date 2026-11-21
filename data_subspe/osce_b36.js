@@ -150,9 +150,9 @@ SA({page:42,orig:"MEQ 9",num:"SA 2",sub:"Neuro",flag:NOIMG,imgAlt:"วิดี�
 SA({page:42,orig:"MEQ 10",num:"SA 3",sub:"Plastic",flag:NOIMG,imgAlt:"ก้อนบนหนังศีรษะ",title:"Short answer — SCC of the scalp",
  stem:`A scalp mass is squamous cell carcinoma involving epidermis and dermis but not reaching the galea. (The lesion should be removed in one piece.)<br>A. What margin is needed?<br>B. How will you close the wound?`,
  gray:"10. ให้รูปก้อนบนหัวมา บอกว่าเป็น squamous cell carcinoma กินลงไปชั้น epidermis+dermisแต่ไม่ถึงscalp ถาม เรื่องการผ่าก้อน \"Lesion เหมือนมองลงในone piece\" A. ต้องตัด margin ยังไง (ตอบ บวกทุกด้าน1cm) B. จะปิดแผลด้วยอะไร = flap",
- notes:"แนวคำตอบในไฟล์: margin ทุกด้าน 1 cm · ปิดด้วย flap",opinion:"ความมั่นใจสูง",
+ notes:"แนวคำตอบในไฟล์: margin ทุกด้าน 1 cm · ปิดด้วย flap · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘(low-risk 4–6 มม., high-risk ≥6 มม.–1 ซม.)’ → คง 1 ซม. ตามคีย์ แต่ระบุว่า scalp = high-risk ตาม NCCN Squamous Cell Skin Cancer (low-risk 4–6 mm; high-risk: Mohs/PDEMA preferred หรือ wider margin ≥6 mm)",opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): margin ~1 ซม. ใช้ได้สำหรับ scalp SCC (high-risk ตาม NCCN; low-risk ใช้ 4–6 มม.) · ความมั่นใจสูง",
  parts:S(
-  BS("3.1 Margin.",2,{tags:["spot"],ans:"<b>Wide excision margin ~1 ซม. ทุกด้าน</b> (low-risk 4–6 มม., high-risk ≥6 มม.–1 ซม.) deep margin ถึงชั้นใต้รอยโรค ตัดออกเป็นชิ้นเดียว",rubric:"ได้",pts:[CR(P("1 cm margin","1 cm","1cm","1 ซม"))]}),
+  BS("3.1 Margin.",2,{tags:["spot"],ans:"<b>Wide excision margin ~1 ซม. ทุกด้าน</b> ตามคีย์ — NCCN: low-risk SCC ใช้ standard excision margin 4–6 มม. · SCC ที่หนังศีรษะ (head and neck) จัดเป็น <b>high-risk</b> → Mohs/PDEMA เป็นวิธีที่แนะนำ หรือ standard excision ด้วย margin กว้างกว่า (≥6 มม. ราว 1 ซม.) และตรวจ margin ก่อนปิดแผลด้วย flap deep margin ถึงชั้นใต้รอยโรค ตัดออกเป็นชิ้นเดียว",rubric:"ได้",pts:[CR(P("1 cm margin","1 cm","1cm","1 ซม"))]}),
   BS("3.2 Closure.",2,{tags:["spot"],ans:"<b>Local flap</b> (rotation/transposition flap ของ scalp) — scalp ยืดหยุ่นน้อย ปิดตรงไม่ได้ · (STSG ได้ถ้า periosteum ยังอยู่)",rubric:"ได้",pts:[CR(P("Flap","flap"))]})
  ),
  interp:"Scalp SCC",
@@ -191,12 +191,12 @@ SA({page:42,orig:"MEQ 14",num:"SA 6",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"
 SA({page:42,orig:"MEQ xx",num:"SA 7",sub:"Burn",flag:NOIMG,imgAlt:"แผลไหม้ครึ่งตัวบนและแขนขวา",title:"Short answer — burn of upper body and right arm",
  stem:`A burn of the upper half of the trunk and the right arm (likely superficial second degree). Give the degree and management.`,
  gray:"xx. รูป burn ครึ่งตัวบน+แขนขวา น่าจะ 2nd sup. ถาม degree, management",
- notes:"ผู้เขียนคิดว่าเป็น 2nd superficial",opinion:"ความมั่นใจปานกลาง",
+ notes:"ผู้เขียนคิดว่าเป็น 2nd superficial · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘Parkland 4 ml/kg/%TBSA (ถ้า >15–20%)’ → แก้เกณฑ์เป็น ≥20% TBSA และเริ่ม 2 mL/kg/%TBSA ตาม ATLS 10th ed. (2018) / ABA Advanced Burn Life Support 2018: ให้สารน้ำเมื่อผู้ใหญ่ burn (partial + full thickness) ≥20% TBSA, เริ่ม Ringer's lactate 2 mL × kg × %TBSA (เด็ก 3 mL, electrical 4 mL) ครึ่งแรกใน 8 ชม. แล้ว titrate ตาม UO — Parkland 4 mL เป็นขอบบน/สูตรดั้งเดิม",opinion:"ความมั่นใจปานกลาง · ตรวจคีย์ (22 พ.ย. 2026): เกณฑ์ให้สารน้ำผู้ใหญ่ ≥20% TBSA และสูตรเริ่มต้น 2 mL/kg/%TBSA (ATLS 10th/ABLS) — ถ้าโจทย์ถาม Parkland ให้คำนวณ 4 mL ตามที่ถาม · ความมั่นใจสูง",
  parts:S(
-  BS("7.1 Answer.",5,{tags:["spot"],ans:"<b>Superficial second-degree (partial thickness) burn</b> · %TBSA: ลำตัวหน้า 18% (ครึ่งบน ~9%) + แขนขวา 9% · ABC, inhalation · <b>Parkland 4 ml/kg/%TBSA</b> (ถ้า >15–20%) · UO 0.5 ml/kg/h · analgesia, tetanus · ทำแผล silver sulfadiazine/biologic dressing · หายใน 2–3 สัปดาห์",rubric:"1/ประเด็น",pts:[CR(P("Superficial partial thickness","superficial","partial","2nd","second")),P("TBSA estimate","tbsa","rule of nine","%"),CR(P("Parkland","parkland","4 ml")),P("Tetanus and analgesia","tetanus","analges"),P("Dressing","dressing","silver")]})
+  BS("7.1 Answer.",5,{tags:["spot"],ans:"<b>Superficial second-degree (partial thickness) burn</b> · %TBSA: ลำตัวหน้า 18% (ครึ่งบน ~9%) + แขนขวา 9% · ABC, inhalation · รายนี้: ลำตัวหน้าครึ่งบน 9% + แขนขวา 9% ≈ <b>18% (&lt;20%)</b> → ยังไม่ต้องใช้สูตร ให้ดื่ม/IV ตาม UO (ถ้ารวมหลังครึ่งบน ≈27%) · ผู้ใหญ่ ≥20% TBSA (ไม่นับ superficial/1st degree) → <b>RL เริ่ม 2 mL/kg/%TBSA</b> (ATLS 10th/ABLS; Parkland 4 mL/kg/%TBSA = สูตรดั้งเดิม) ครึ่งแรกใน 8 ชม. · UO 0.5 ml/kg/h · analgesia, tetanus · ทำแผล silver sulfadiazine/biologic dressing · หายใน 2–3 สัปดาห์",rubric:"1/ประเด็น",pts:[CR(P("Superficial partial thickness","superficial","partial","2nd","second")),P("TBSA estimate","tbsa","rule of nine","%"),CR(P("Fluid if ≥20% TBSA: 2 mL/kg/%TBSA (Parkland 4 mL)","parkland","2 ml","4 ml","ml/kg")),P("Tetanus and analgesia","tetanus","analges"),P("Dressing","dressing","silver")]})
  ),
  interp:"Burn",
- summary:["Rule of nines","Parkland if >15–20%","Superficial heals 2–3 weeks"]}),
+ summary:["Rule of nines","Fluids if ≥20% TBSA: 2 mL/kg/%TBSA (ATLS 10th; Parkland 4 mL)","Superficial heals 2–3 weeks"]}),
 
 SA({page:42,orig:"MEQ xx2",num:"SA 8",sub:"Anorectal",flag:NOIMG,imgAlt:"แผลปริที่ขอบทวารหนักด้านหลัง",title:"Short answer — acute anal fissure",
  stem:`A picture of an acute anal fissure. Give the diagnosis and management.`,

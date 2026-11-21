@@ -24,8 +24,8 @@ Co({page:1,orig:"1",topic:"proc",sub:"Suture & knot",ex:1,proc:1,title:"Procedur
  stem:`A skin pad with a laceration, needle holder, toothed forceps, scissors and a nylon suture are provided. The examiner is observing.<br>1. Close the wound with two vertical mattress stitches and tie each with a surgeon's knot using the instruments.`,
  gray:"เย็บให้ดูหน่อย — ให้เย็บ vertical mattress 2 stitch + ผูก surgeon knot ด้วยเครื่องมือ (ระวังไม่ทัน)",
  sp:"หุ่นแผล · needle holder · toothed forceps · กรรไกร · nylon 3-0 · ผู้คุมดู: จับ needle holder ถูก, แทงเข็มตั้งฉาก, far-far แล้ว near-near ด้านเดียวกัน, ขอบแผล evert, surgeon's knot (ปมแรกพัน 2 รอบ) + ปมกลับทิศ, ทำเสร็จทัน 4 นาที",
- notes:"ผู้จดเตือนว่าเวลาไม่ค่อยทัน · ไฟล์ Key 75C ไม่มีเฉลยเพิ่ม",
- opinion:"ความมั่นใจสูง",
+ notes:"ผู้จดเตือนว่าเวลาไม่ค่อยทัน · ไฟล์ Key 75C ไม่มีเฉลยเพิ่ม · ตรวจคีย์ 22 พ.ย. 2026: เดิม summary ‘หน้า 5 วัน ลำตัว 7–10 วัน’ → แก้เป็น ลำตัว 10–14 วัน (เขียนคู่กับตำราเดิม 7–10) ตาม AAFP 2017 (Laceration Repair, Am Fam Physician 2017;95:628 Table 5: หน้า 3–5, หนังศีรษะ 7–10, แขน 7–10, ลำตัว 10–14, ขา 10–14, มือ/เท้า 10–14, ฝ่ามือ/ฝ่าเท้า 14–21 วัน — expert opinion)",
+ opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): วันตัดไหมลำตัว: AAFP 2017 = 10–14 วัน (ตำราเดิม/ตำราไทยหลายเล่ม 7–10 วัน) — ในข้อสอบเขียนเป็นช่วงตามตำแหน่งและระบุแหล่งได้ทั้งสอง · ความมั่นใจสูง",
  parts:S(
   B("1.1 Vertical mattress technique.",5,{tags:["proc"],ans:"แทงเข็ม<b>ตั้งฉาก</b> · <b>far–far</b> (ห่างขอบ ~5–8 mm, ลึก) แล้วกลับ <b>near–near</b> (1–2 mm, ตื้น) ด้านเดียวกับที่แทงเข้า · ระยะสองข้างเท่ากัน · ได้ <b>wound edge eversion</b>",exp:"Vertical mattress ใช้เมื่อขอบแผลม้วนเข้า/ผิวหนาหรือหย่อน",rubric:"ได้ = ลำดับถูก + eversion",
    pts:[CR(P("Far-far then near-near","far","near")),P("Perpendicular needle, equal bites","perpendic","90","equal","เท่ากัน"),P("Edge eversion","evert")]}),
@@ -33,7 +33,7 @@ Co({page:1,orig:"1",topic:"proc",sub:"Suture & knot",ex:1,proc:1,title:"Procedur
    pts:[CR(P("First throw double (surgeon's knot)","double","2 รอบ","surgeon")),P("Subsequent throws alternate direction","alternat","กลับทิศ","square"),P("Knot to the side, not too tight","side","ข้าง","not too tight")]})
  ),
  interp:"Vertical mattress + surgeon's knot",
- summary:["Vertical mattress: far-far near-near → eversion","Surgeon's knot: double first throw","Square knot ≥3 throws สำหรับ nylon","ตัดไหม: หน้า 5 วัน ลำตัว 7–10 วัน แขนขา 10–14 วัน"]}),
+ summary:["Vertical mattress: far-far near-near → eversion","Surgeon's knot: double first throw","Square knot ≥3 throws สำหรับ nylon","ตัดไหม: หน้า 3–5 วัน ลำตัว 10–14 วัน (AAFP 2017; ตำราเดิม 7–10) แขน 7–10 / ขา 10–14 วัน"]}),
 
 /* ===== OSCE 2 ===== */
 Co({page:1,orig:"2",topic:"suture",sub:"Suture material",title:"Suture materials — choose the suture for each tissue",kimg:["os75c_ko2","os75c_ko2t"],

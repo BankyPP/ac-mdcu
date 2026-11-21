@@ -1,327 +1,123 @@
-SUMM.push({
- "tag": "Anorectal",
- "title": "Anorectal",
- "intro": "<ul><li><b>รวมข้อ Gen Sx ที่ clone มา (19 พ.ย. 2026)</b> — กลุ่ม “จาก Gen Sx — …” ด้านล่าง</li><li>MDCU79 RoC 3 ข้อย่อย: <b>fistula-in-ano</b> แบบ simple → fistulotomy, <b>obstetric sphincter injury</b> → anterior EAS, และ <b>anorectal malformation</b> ในทารก (prone cross-table lateral → high ARM)</li><li>แกนร่วม: กายวิภาคและหน้าที่ของ sphincter — ตัดได้แค่ไหนโดยไม่เสีย continence, ส่วนไหนฉีกตอนคลอด, ระยะ rectal pouch ถึงผิวหนัง</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: chronic anal fissure (ยาทาก่อน LIS), high fistula (seton), hemorrhoid grade I, rectal prolapse ในหญิงสูงอายุ และ perianal abscess (I&D)</li></ul>",
- "groups": [
-  {
-   "title": "ผู้ใหญ่: sphincter และ fistula",
-   "sections": [
-    {
-     "id": "fistula-in-ano",
-     "title": "Simple (low) fistula-in-ano → fistulotomy",
-     "asked": [
-      "หลัง perianal abscess ซ้ำ tract ผ่านเฉพาะ subcutaneous sphincter continence ปกติ → treatment (ตัวลวง fistulectomy + repair, LIFT, seton, advancement flap)",
-      "High transsphincteric fistula ไม่มี abscess → seton (79D)"
-     ],
-     "pattern": [
-      "Simple (intersphincteric, low transsphincteric ตัด EAS <30%) → <b>fistulotomy</b> หายสูงสุด >90% (ASCRS 2022)",
-      "Complex (EAS >30%, supra- / extrasphincteric, anterior ในหญิง, หลาย tract, Crohn, หลังฉายแสง, incontinence เดิม) → seton, LIFT, advancement flap",
-      "Parks: intersphincteric พบบ่อยสุด",
-      "Goodsall: external opening หน้า transverse anal line → tract ตรงรัศมี; หลัง → โค้งไป posterior midline",
-      "Complex / ซ้ำ → MRI pelvis หรือ endoanal US; Crohn → seton + anti-TNF",
-      "Complex/high fistula → draining seton แล้ว sphincter-sparing definitive: LIFT, advancement flap (ASCRS 2022) · MRI pelvis ก่อนผ่าตัด complex"
-     ],
-     "pearls": [
-      "sphincter-sparing ไม่ได้ดีกว่าเสมอใน simple fistula",
-      "fistulotomy (เปิด tract) ≠ fistulectomy (ตัด tract ออก)",
-      "LIFT ก็ถูกได้ใน tract ที่ mature แล้ว — คีย์ตอบ seton"
-     ],
-     "members": [
-      "MDCU79|RoC|Colo 1",
-      "MDCU79|RoD|Colo 2"
-     ]
-    },
-    {
-     "id": "obstetric-sphincter",
-     "title": "Fecal incontinence หลังคลอดทางช่องคลอด → anterior EAS injury",
-     "asked": [
-      "หญิงคลอดทางช่องคลอด 2 ครั้ง fecal incontinence → กล้ามเนื้อที่บาดเจ็บ (ตัวลวง posterior EAS, IAS, puborectalis)"
-     ],
-     "pattern": [
-      "ฉีกจาก perineal body (ด้านหน้าทวาร) → <b>anterior external anal sphincter</b>",
-      "RCOG: 3a EAS <50%, 3b >50%, 3c EAS + IAS, 4th ถึง mucosa",
-      "EAS เสีย → urge incontinence; IAS เสีย → passive soiling (IAS ให้ resting tone ~70–85%)",
-      "Work-up: endoanal US + anorectal manometry",
-      "รักษา: fiber + loperamide + biofeedback → <b>overlapping anterior sphincteroplasty</b> ถ้ามี defect → sacral nerve stimulation"
-     ],
-     "pearls": [
-      "IAS ให้ resting tone มากสุดแต่ไม่ใช่สิ่งที่ฉีกก่อนตอนคลอด"
-     ],
-     "members": [
-      "MDCU79|RoC|Colo 3"
-     ]
-    },
-    {
-     "id": "anal-fissure-79",
-     "title": "Chronic anal fissure ดีขึ้นน้อยจาก conservative → topical NTG/diltiazem",
-     "asked": [
-      "Chronic fissure + lifestyle + sitz bath ดีขึ้นน้อย → next"
-     ],
-     "pattern": [
-      "Ladder: fiber/sitz → topical NTG/CCB 6–8 สัปดาห์ → botox → LIS (ASCRS 2023)",
-      "Fissure ด้านข้าง/หลายแผล → Crohn, TB, HIV, CA"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 1"
-     ]
-    },
-    {
-     "id": "hemorrhoid-79",
-     "title": "Internal hemorrhoid grade I → lifestyle modification",
-     "asked": [
-      "Internal hemorrhoid grade I → management"
-     ],
-     "pattern": [
-      "I: fiber/น้ำ · I–II ล้มเหลว → RBL · III → RBL/surgery · IV → hemorrhoidectomy (Goligher)"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 3"
-     ]
-    },
-    {
-     "id": "rectal-prolapse",
-     "title": "Rectal prolapse ในหญิงสูงอายุ",
-     "asked": [
-      "หญิง 79 ปี ถ่ายไม่สุด ก้อนยื่นเวลาเบ่ง → Dx"
-     ],
-     "pattern": [
-      "Concentric folds = full-thickness prolapse · radial = hemorrhoid · ผ่าตัด abdominal rectopexy (แข็งแรง) หรือ perineal Altemeier/Delorme (เสี่ยงสูง)"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 7"
-     ]
-    },
-    {
-     "id": "perianal-abscess-79",
-     "title": "Perianal abscess + cellulitis → I&D + antibiotics",
-     "asked": [
-      "ปวดก้น fluctuant + erythema เป็น ๆ หาย ๆ → treatment"
-     ],
-     "pattern": [
-      "Prompt I&D (แผลใกล้ anal verge) · ATB เมื่อ cellulitis, sepsis, immunocompromised, DM · ห้ามทำ fistulotomy ทันทีถ้าไม่ชัด"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 11"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "เด็ก",
-   "sections": [
-    {
-     "id": "arm",
-     "title": "Anorectal malformation: >1 cm บน cross-table lateral → high ARM",
-     "asked": [
-      "ทารกชายไม่มีรูทวาร ไม่มี meconium ที่ perineum ฟิล์ม prone cross-table lateral ที่ 24 ชม. (ภาพ) → Dx"
-     ],
-     "pattern": [
-      "รอ 16–24 ชม. → prone cross-table lateral; ลม rectum ถึง marker <b>>1 cm = high</b> → colostomy ก่อน แล้ว PSARP; ≤1 cm → primary PSARP",
-      "Meconium ในปัสสาวะ = rectourinary fistula",
-      "ตรวจ VACTERL"
-     ],
-     "pearls": [
-      "ถ่ายเร็วเกินไปดู high เกินจริง",
-      "คำตอบตัดสินจากภาพที่ลมห่าง marker ชัด"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 7"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Anorectal abscess และ fistula-in-ano",
-   "sections": [
-    {
-     "id": "gen-abscess-drainage",
-     "title": "Anorectal abscess: สาเหตุ เชื้อ และการรักษา",
-     "trend": "ให้รูปหรือเคสก้อนข้างทวารปวด fluctuant แล้วถามการรักษา / สาเหตุ / เชื้อที่เพาะได้",
-     "asked": [
-      "ปวดรอบทวาร 2 วัน + ก้อน fluctuant ข้างทวาร (หรือให้รูป) → most appropriate management (ตอบ I&amp;D)",
-      "ให้รูป perianal abscess + ไข้ → เชื้อที่เพาะได้เป็นกลุ่มใด (ตอบ more than one: GPC + GNR)",
-      "What is the most common cause of anorectal abscess → infection of anal glands",
-      "ชาย 38 ปี ไม่มีโรคประจำตัว ปวดทวาร + ไข้ 3 วัน ก้อนกดเจ็บ อุ่น fluctuant ข้างทวารซ้าย → I&amp;D (ไม่ใช่ oral antibiotics นัด 1 สัปดาห์, admit + IV antibiotics, debridement, sitz bath)"
-     ],
-     "pattern": [
-      "<b>Cryptoglandular</b> ~90%: anal gland เปิดที่ crypt ระดับ dentate line อุดตัน → ติดเชื้อใน intersphincteric space → ลามเป็น perianal (พบบ่อยสุด), ischiorectal, intersphincteric, supralevator, horseshoe (ผ่าน deep postanal space); อีก ~10% จาก Crohn, TB, malignancy, trauma, radiation, HIV",
-      "<b>รักษา = incision and drainage ทันที</b> ไม่ต้องรอ fluctuation ไม่ใช่ antibiotic อย่างเดียว; กรีดใกล้ anal verge ให้มากที่สุดเพื่อให้ tract สั้นถ้าเกิด fistula; ฝีลึก / ischiorectal / horseshoe ทำใน OR",
-      "<b>Antibiotics เสริมเฉพาะ</b>: cellulitis ลุกลาม, systemic sepsis, immunosuppression, DM, valvular heart disease / prosthetic valve (ASCRS 2022)",
-      "<b>เชื้อ polymicrobial</b> จาก gut + skin flora: E. coli (พบมากสุด ~27%), Bacteroides (anaerobic GNR), Enterococcus, S. aureus, CoNS, Klebsiella, Pseudomonas, Peptostreptococcus → ถ้าให้ยาต้องคลุม gram-negative + anaerobe",
-      "ปวดทวารมากแต่ไม่เห็นก้อน + ไข้ → นึกถึง intersphincteric / supralevator abscess → DRE, EUA, MRI pelvis / endoanal US",
-      "หลัง drainage ราว 30–50% เกิด fistula-in-ano; ฝีซ้ำหลายครั้ง → นึกถึง Crohn"
-     ],
-     "pearls": [
-      "โจทย์ถามเชื้อที่ <b>พบบ่อยทั้งกลุ่ม</b> ไม่ใช่เชื้อตัวเดียว → ข้อ \"more than one\" เพราะมีทั้ง GPC และ GNR; ระวังจำ Bacteroides ผิดเป็น gram-positive",
-      "ตัวลวง: sitz bath / oral antibiotics alone / excisional biopsy / primary fistulotomy ใน acute abscess ไม่ใช่คำตอบ",
-      "เคสให้รูปไม่บอกชื่อโรค: ก้อนแดงบวมตึงข้างรูทวาร = perianal abscess",
-      "ไข้ไม่ใช่ข้อบ่งชี้ให้ admit + IV antibiotics ในผู้ป่วยแข็งแรง: ไม่มี cellulitis ลุกลาม / sepsis / immunosuppression → I&amp;D ใต้ local anesthesia อย่างเดียว; debridement ใช้กับ necrotizing infection"
-     ],
-     "members": [
-      "MDCU76|RoA|41",
-      "MDCU76|RoD|54",
-      "MDCU78|RoA|Anorectal 4",
-      "MDCU78|RoD|Anorectal disease 3",
-      "MDCU70|RoB|96"
-     ]
-    },
-    {
-     "id": "gen-fistula-in-ano",
-     "title": "Fistula-in-ano: สาเหตุ การจำแนก และการผ่าตัด",
-     "trend": "ถามสาเหตุที่พบบ่อยที่สุด หรือเลือกวิธีผ่าตัดตามชนิดของ fistula",
-     "asked": [
-      "External opening ข้างทวาร + probe เข้า anal canal ใกล้ anal verge + fibrous tract → สาเหตุที่พบบ่อยที่สุด (anal gland infection)",
-      "Low transsphincteric fistula ผ่าน external sphincter ส่วนน้อย, continence ปกติ → วิธีที่ recurrence ต่ำสุด (fistulotomy)"
-     ],
-     "pattern": [
-      "<b>~90% cryptoglandular</b> (Parks): internal opening ที่ crypt ระดับ dentate line; สาเหตุรอง: Crohn, TB, malignancy, radiation, trauma, HIV — ต้องมีเบาะแสเพิ่ม เช่น หลายรู เป็นซ้ำ อาการลำไส้",
-      "<b>Parks classification</b>: intersphincteric (พบบ่อยสุด ~45–70%) > transsphincteric (~25–30%) > suprasphincteric (~5%) > extrasphincteric (~1–5%)",
-      "<b>Goodsall rule</b>: external opening อยู่หลังเส้นขวาง → tract โค้งไป posterior midline; อยู่หน้าเส้น → ตรงแนวรัศมี (ยกเว้นรูหน้าที่ห่างขอบทวาร &gt;3 cm อาจโค้งไป posterior)",
-      "<b>Simple fistula</b> (intersphincteric, low transsphincteric ผ่าน external sphincter &lt;30%, continence ปกติ) → <b>fistulotomy</b> หาย &gt;90% recurrence ต่ำสุด (ASCRS แนะนำเป็นการรักษาหลัก)",
-      "<b>Complex fistula</b> (ผ่าน sphincter &gt;30%, anterior ในหญิง, หลาย tract, recurrent, Crohn, radiation, incontinence เดิม) → sphincter-sparing: draining seton, LIFT, endorectal advancement flap, plug / glue — ต้องแลกกับ recurrence ที่สูงกว่า (flap, LIFT ราว 60–80% หายตามรายงานต่าง ๆ)",
-      "Imaging ใน complex fistula: MRI pelvis หรือ endoanal US; EUA หา internal opening"
-     ],
-     "pearls": [
-      "โจทย์ถาม <b>lowest recurrence</b> ไม่ใช่ sparing sphincter → fistulotomy; อย่าเลือก LIFT / flap เพียงเพราะฟังดู \"ปลอดภัย\"",
-      "ห้าม fistulotomy แม้ fistula ต่ำ: หญิง anterior fistula, เคยคลอดทางช่องคลอด, เคยผ่าตัดทวาร, Crohn, sphincter อ่อนเดิม"
-     ],
-     "members": [
-      "MDCU78|RoC|Anorectal 6",
-      "MDCU78|RoD|Anorectal disease 2"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Hemorrhoid และ anal fissure",
-   "sections": [
-    {
-     "id": "gen-hemorrhoid",
-     "title": "Hemorrhoid: grade, อาการ และการเลือกรักษา",
-     "trend": "ให้รูป / เคสแล้วถาม management ตาม Goligher grade และ external component; หรือถามสาเหตุเลือดสดหลังถ่าย",
-     "asked": [
-      "Painless bleeding + prolapse ต้องดันกลับเอง (ให้รูป proctoscopy) → rubber band ligation",
-      "Prolapse ต้องดันกลับ + มี external component ใหญ่ (mixed) → excisional hemorrhoidectomy",
-      "Grade II ยังเลือดออกหลัง fiber 6 สัปดาห์ → rubber band ligation",
-      "ปวดมาก 2 วัน ก้อนดันกลับไม่ได้ ผิวเป็น mucosa แดงคล้ำ มี thrombosis → emergency hemorrhoidectomy",
-      "ผู้สูงอายุ เลือดสดหยดหลังถ่าย ไม่เจ็บ สัญญาณชีพปกติ → hemorrhoid เป็นสาเหตุที่น่าจะเป็นที่สุด",
-      "ชาย 55 ปี มูกปนเลือด 1 ปี เลือดหยดหลังถ่าย anoscopy เห็น internal hemorrhoid ที่ 11 นาฬิกา ไม่เคยส่องกล้อง → ข้อความที่ถูก: ต้อง colonoscopy แยก proximal colorectal lesion"
-     ],
-     "pattern": [
-      "<b>Internal</b> (เหนือ dentate line, visceral innervation) เลือดสด ไม่เจ็บ; <b>external</b> (ใต้ dentate line, anoderm / ผิวหนัง, somatic) เจ็บเมื่อ thrombose; ตำแหน่งหลัก 3, 7, 11 o'clock (lithotomy)",
-      "<b>Goligher</b>: I เลือดออกไม่ยื่น · II ยื่นแล้วกลับเอง · III ต้องดันกลับ · IV ดันไม่กลับ",
-      "ทุก grade: fiber 25–35 g/วัน + น้ำ + ไม่เบ่ง / ไม่นั่งส้วมนาน; flavonoid ช่วยอาการ",
-      "<b>Grade I–III ที่ไม่ดีขึ้น → office procedure: rubber band ligation ดีที่สุดและทำบ่อยที่สุด</b> (รัดเหนือ dentate line จึงไม่เจ็บ, 1–3 ตำแหน่ง/ครั้ง ห่างกัน 4–6 สัปดาห์); sclerotherapy / infrared coagulation เหมาะ grade I–II",
-      "<b>Excisional hemorrhoidectomy</b> (Milligan–Morgan, Ferguson): grade III ที่มี external component ใหญ่, grade IV, mixed, thrombosed / strangulated, ล้มเหลวจาก office procedure; ภาวะแทรกซ้อน: ปวด, urinary retention, เลือดออก, anal stenosis, incontinence",
-      "<b>Prolapsed thrombosed internal hemorrhoid</b> (ผิวเป็น mucosa) → urgent hemorrhoidectomy; thrombosed <i>external</i> hemorrhoid ภายใน 72 ชม. → excise ก้อน, &gt;72 ชม. → conservative",
-      "ผู้ป่วยอายุ ≥45–50 ปี หรือมี alarm feature (น้ำหนักลด, anemia, เปลี่ยน bowel habit) → <b>colonoscopy</b> ก่อนโทษ hemorrhoid; RBL ระวังใน anticoagulant (เลือดออกวันที่ 5–10) และภูมิคุ้มกันต่ำ (pelvic sepsis)"
-     ],
-     "pearls": [
-      "ตัดสินด้วย <b>grade (การ prolapse) และ external component</b> ไม่ใช่ขนาด \"large\"",
-      "office procedure ทำได้เฉพาะส่วน internal เหนือ dentate line — ห้าม band / ฉีดที่ external",
-      "NTG ointment และ LIS เป็นของ fissure ไม่ใช่ hemorrhoid",
-      "เห็นคำว่า thrombosed อย่าตอบ I&amp;D ทันที: ดูว่าผิวคลุมเป็น mucosa (internal prolapse → ผ่าตัด) หรือผิวหนัง (external)",
-      "outlet bleeding ปริมาณน้อยซ้ำ ๆ = hemorrhoid; ออกมากทันทีจน vital sign เปลี่ยน = diverticular bleeding",
-      "เห็น hemorrhoid แล้วหยุดตรวจ: <b>มูกปนเลือด</b>, อาการนาน, อายุ ≥45 ที่ยังไม่เคยคัดกรอง หรือ red flag → colonoscopy ก่อน (ASCRS); ตำแหน่ง 11 นาฬิกาเป็น anal cushion ปกติ ไม่ได้บอกมะเร็ง; sclerotherapy ไม่จำเป็นต้องรอ active bleeding; ไม่ใช่ทุก prolapse ต้อง hemorrhoidectomy",
-      "เคส MDCU71 RoA เป็น recall ไม่ครบ ช้อยถูกเขียนใหม่โดยคงประเด็นเดิม"
-     ],
-     "members": [
-      "MDCU78|RoA|Anorectal 2",
-      "MDCU78|RoA|Anorectal 3",
-      "MDCU78|RoC|Anorectal 2",
-      "MDCU78|RoC|Anorectal 5",
-      "MDCU78|RoD|Anorectal disease 1",
-      "MDCU71|RoA|77"
-     ]
-    },
-    {
-     "id": "gen-anal-fissure",
-     "title": "Anal fissure: วินิจฉัยและขั้นตอนรักษา",
-     "trend": "ถามวินิจฉัยจากอาการปวดเมื่อถ่าย หรือ next step เมื่อ conservative / ยาทาล้มเหลว",
-     "asked": [
-      "ปวดแสบขณะและหลังถ่าย ~1 ชม. + เลือดสดติดกระดาษ ไม่มีก้อน ไม่มีไข้ → acute anal fissure",
-      "Chronic (3 เดือน) ล้มเหลวจาก fiber + sitz bath + topical diltiazem / NTG 8 สัปดาห์ (ให้รูปที่มี sentinel pile) → lateral internal sphincterotomy"
-     ],
-     "pattern": [
-      "<b>Fissure</b> = แผลฉีกตามยาวของ anoderm ใต้ dentate line (somatic nerve → เจ็บมาก); ปวดแปลบขณะถ่ายและปวดต่ออีกเป็นชั่วโมงจาก internal sphincter spasm + เลือดสดเล็กน้อยติดกระดาษ; posterior midline ~90%, หญิงพบ anterior ได้ 10–25%",
-      "<b>Acute</b> &lt;6–8 สัปดาห์ ขอบเรียบ; <b>chronic</b> &gt;6–8 สัปดาห์: sentinel pile, hypertrophied anal papilla, ขอบแข็ง, เห็นใย internal sphincter",
-      "กลไก: internal sphincter hypertonia → resting pressure สูง → posterior midline ขาดเลือด → แผลไม่หาย",
-      "<b>ขั้นรักษา</b>: (1) fiber, น้ำ, stool softener, sitz bath, topical anesthetic → (2) topical CCB (diltiazem 2%, nifedipine; ปวดหัวน้อยกว่า) หรือ nitroglycerin 0.2–0.4% 6–8 สัปดาห์ → (3) botulinum toxin (หาย ~60–80%) หรือ <b>lateral internal sphincterotomy (gold standard หาย ~90–95%</b>, เสี่ยง minor incontinence); ASCRS 2023 ให้ LIS ได้ตั้งแต่ต้นใน chronic fissure ที่ไม่เสี่ยง incontinence",
-      "Atypical fissure (นอก midline, หลายแผล, ไม่เจ็บ, ไม่หาย) → Crohn, TB, HIV, syphilis, มะเร็ง → EUA + biopsy ไม่ใช่ LIS",
-      "ระวัง LIS ในหญิงหลังคลอด / sphincter อ่อนเดิม → botulinum toxin หรือ advancement flap"
-     ],
-     "pearls": [
-      "เลือดสดหลังถ่าย <b>แต่เจ็บมาก</b> = fissure; internal hemorrhoid ไม่เจ็บ",
-      "ถ้าโจทย์บอกว่ายาทาล้มเหลวแล้ว อย่าตอบ NTG ซ้ำ; ถ้าเป็น acute fissure ยังไม่ใช่ LIS"
-     ],
-     "members": [
-      "MDCU78|RoA|Anorectal 1",
-      "MDCU78|RoC|Anorectal 1",
-      "MDCU78|RoD|Anorectal disease 5"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Necrotizing infection และ HPV-related anal disease",
-   "sections": [
-    {
-     "id": "gen-fournier",
-     "title": "Fournier gangrene",
-     "trend": "ให้รูป / เคส DM ที่ perineum-scrotum เน่า แล้วถาม management",
-     "asked": [
-      "DM คุมไม่ดี + ปวดบวม perineum และ scrotum, ผิวคล้ำเน่า, crepitus, กลิ่นเหม็น, ไข้ 39 °C → IV antibiotics + emergency radical debridement"
-     ],
-     "pattern": [
-      "Necrotizing fasciitis ของ perineum / genitalia / perianal, <b>polymicrobial</b>; risk: DM (สำคัญสุด), alcohol, immunocompromise, obesity, PVD",
-      "<b>3 อย่างพร้อมกัน</b>: resuscitation + broad-spectrum IV antibiotics (vancomycin / linezolid + pip-tazo หรือ carbapenem + clindamycin) + <b>emergency radical debridement</b> แล้ว re-debride ทุก 24–48 ชม. จนไม่มีเนื้อตาย",
-      "± diverting colostomy ถ้าปนเปื้อนอุจจาระ, suprapubic cystostomy ถ้า urethra เกี่ยวข้อง; testis มักเก็บไว้ได้; ภายหลังต้อง reconstruction",
-      "LRINEC ช่วยคัดกรองแต่ห้ามใช้ตัดโรคออก; imaging ต้องไม่ทำให้ผ่าตัดช้า (มี pre-peritoneal / retroperitoneal sign จึง CT ช่วย)"
-     ],
-     "pearls": [
-      "ตัวลวง: antibiotics alone / observe, needle aspiration, orchiectomy โดยไม่ debride, hyperbaric O<sub>2</sub> เป็นการรักษาหลัก",
-      "เนื้อตายจริงใต้ผิวมากกว่าที่เห็นภายนอกเสมอ"
-     ],
-     "members": [
-      "MDCU78|RoD|Anorectal disease 4"
-     ]
-    },
-    {
-     "id": "gen-anal-scc-condyloma",
-     "title": "Anal SCC และ condyloma acuminata (HPV)",
-     "trend": "โจทย์ HIV+ (± MSM หรือเคยมีหูดที่ทวาร) แล้วมีก้อนหรือแผลที่ anal canal หรือหูดหงอนไก่ใน anal canal",
-     "asked": [
-      "MSM, HIV+, แผลแข็งเรื้อรังใน anal canal 4 เดือน → มะเร็งชนิดใด (anal squamous cell carcinoma)",
-      "Condyloma กว้างขวางทั้งรอบทวารและใน anal canal → surgical excision + electrocoagulation",
-      "ชาย HIV+ เคยมี anorectal warts ตอนนี้มีก้อนที่ทวาร → squamous cell carcinoma (vs adenocarcinoma, melanoma, BCC, GIST)",
-      "Squamous cell carcinoma ของ anal canal → ไวรัสที่สัมพันธ์สูงสุด (HPV; ตัวลวง EBV, HSV-2, VZV, HIV)"
-     ],
-     "pattern": [
-      "<b>Anal SCC</b>: HPV 16/18 → AIN / HSIL → invasive SCC; เสี่ยงสูงสุด HIV+ MSM, transplant, ประวัติ cervical / vulvar HSIL, สูบบุหรี่; anal canal เป็น squamous epithelium ไม่ใช่ adenocarcinoma",
-      "วินิจฉัย: biopsy; staging MRI pelvis + CT / PET-CT",
-      "<b>รักษาหลัก = chemoradiation (Nigro: 5-FU หรือ capecitabine + mitomycin C + RT 50–54 Gy)</b> เก็บหูรูดได้ CR ~80–90%; APR สำหรับ persistent / recurrent",
-      "คัดกรองกลุ่มเสี่ยง: anal cytology / hrHPV → high-resolution anoscopy → รักษา HSIL (ANCHOR 2022 ลดมะเร็ง ~57%)",
-      "<b>Condyloma</b> = HPV 6/11; ยาทาที่ผู้ป่วยทาเอง (imiquimod, podofilox, sinecatechins) ใช้เฉพาะ <b>external warts</b>; รอยโรค intra-anal หรือกว้างขวาง → provider-administered: cryotherapy, TCA / BCA 80–90%, หรือ <b>surgical excision + fulguration</b> ใต้ยาระงับความรู้สึก (CDC 2021) พร้อม anoscopy และส่งชิ้นเนื้อหา dysplasia; ทำเป็น stage ถ้าวงรอบเพื่อเลี่ยง anal stenosis; recurrence 20–30%",
-      "Buschke–Löwenstein (giant condyloma) = verrucous carcinoma → wide local excision",
-      "ประวัติ <b>condyloma (HPV) + HIV</b> = เสี่ยงสูงสุดต่อ anal SCC; > 90% ของ anal SCC สัมพันธ์กับ HPV; ใต้ dentate line เป็น squamous epithelium",
-      "<b>HPV 16 / 18 พบ &gt; 80–90% ของ anal SCC</b> (E6 / E7 ยับยั้ง p53 และ Rb); <b>HIV เป็นปัจจัยเสี่ยง</b> (ภูมิคุ้มกันต่ำ → HPV persistence) ไม่ใช่ไวรัสก่อมะเร็งโดยตรง; ปัจจัยอื่น anal receptive intercourse / MSM, immunosuppression, สูบบุหรี่, cervical / vulvar dysplasia; precursor = AIN / HSIL; วัคซีน HPV ลดความเสี่ยง",
-      "ไวรัสก่อมะเร็งอื่นที่ใช้เป็นตัวลวง: EBV → NPC / lymphoma, HHV-8 → Kaposi sarcoma ใน HIV, HSV-2 ไม่ก่อ anal SCC"
-     ],
-     "pearls": [
-      "เห็นมะเร็งแถวทวารอย่าตอบ adenocarcinoma / APR เป็นการรักษาแรก",
-      "เลือก imiquimod เพราะคุ้นชื่อ — ต้องดูว่ารอยโรคอยู่ใน anal canal หรือกว้างหรือไม่",
-      "แผลเฉียบพลันเจ็บใน MSM ต้องคิด HSV, primary syphilis, chancroid, LGV ก่อน",
-      "เห็นก้อนที่ทวารแล้วนึก adenocarcinoma แบบ colorectal — anal canal + HIV + HPV = SCC (ออกซ้ำทั้ง MDCU78 และ MDCU74)",
-      "เลือก HIV เพราะ anal SCC พบบ่อยในผู้ติดเชื้อ HIV — HIV คือ risk factor ส่วนตัวก่อมะเร็งคือ HPV; ข้อนี้ติด tag Onco ด้วย"
-     ],
-     "members": [
-      "MDCU78|RoC|Anorectal 3",
-      "MDCU78|RoC|Anorectal 4",
-      "MDCU74|RoD|ไม่มีเลข 29",
-      "MDCU73|RoB|24"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"Anorectal", title:"Anorectal",
+  intro:"<ul><li>Anorectal ออกทุกรุ่น (Colo ของ Subspe รวมข้อ Gen Sx ที่ clone มา) และส่วนใหญ่เป็น <b>รูป / เคสสั้นแล้วถาม management</b>: abscess → I&amp;D ทันที, fissure → บันไดยา → LIS, hemorrhoid → ตาม Goligher grade + external component, fistula → simple (fistulotomy) vs complex (seton / LIFT)</li><li>ถามแบบ 'ข้อใดไม่ใช่' ซ้ำด้วยช้อยชุดเดิม: <b>ข้อห้าม rubber band ligation</b> (anal sex ไม่ใช่ข้อห้าม) MDCU70–74, <b>Fournier gangrene</b> (anal cancer ไม่ใช่สาเหตุหลัก) MDCU71–72, ลักษณะ chronic fissure / ข้อบ่งชี้ LIS (acute fissure ไม่ใช่) MDCU69–74</li><li>Perianal abscess: I&amp;D ทุกราย + <b>antibiotics เมื่อ DM / cellulitis / ไข้ / immunocompromise</b> (MDCU68–69, 76, 79); สาเหตุ = cryptoglandular, เชื้อ polymicrobial, sequela = fistula (MDCU76–78)</li><li>MDCU74–79 เพิ่ม <b>fistula-in-ano</b> หลายมุม (fistulotomy ใน low tract, seton / LIFT ใน high transsphincteric, fistulectomy เสีย sphincter มากสุด), <b>HPV</b>: anal SCC ใน HIV / MSM → <b>chemoradiation</b> (คีย์เก่า MDCU69, 71 ตอบผ่าตัด) และ condyloma (PV exam, excision + fulguration), <b>rectal prolapse</b> จากรูป (วงซ้อน vs radial)</li><li>MDCU75 และ MDCU79 ถาม <b>obstetric sphincter injury</b> (anterior EAS, endoanal US); MDCU79 RoC มี <b>anorectal malformation</b> ในทารก (prone cross-table lateral); MDCU71 ถาม <b>เลือดออกทางทวาร: เมื่อไรต้อง colonoscopy</b> (อายุ ≥45 / มูกเลือด, bowel habit เปลี่ยน, Lynch)</li></ul>",
+  groups:[
+    {title:"Anorectal abscess และ fistula-in-ano", sections:[
+      {id:"fistula-surgery", title:"Fistula-in-ano: simple vs complex และการเลือกผ่าตัด",
+       trend:"ถามวิธีผ่าตัดตามชนิด tract (subcutaneous / low → fistulotomy, high transsphincteric → seton / LIFT) และข้อความผิดเรื่องหลักการรักษา",
+       asked:["หลังฝีซ้ำ tract ผ่านเฉพาะ subcutaneous part ของ sphincter continence ปกติ → <b>fistulotomy</b> (ตัวลวง fistulectomy + primary sphincter repair, LIFT, long-term draining seton, endorectal advancement flap)","Low transsphincteric ผ่าน external sphincter ส่วนน้อย continence ปกติ เสี่ยง incontinence ต่ำ → วิธีที่ recurrence ต่ำสุด = <b>fistulotomy</b> (ตัวลวง LIFT, fistula plug, seton, advancement flap)","High transsphincteric fistula ไม่มี abscess → <b>seton placement</b> (ตัวลวง fistulotomy, LIFT, fibrin glue, fistulectomy + immediate sphincter repair)","Transsphincteric fistula (external opening ขวา internal opening ขวาที่ dentate line) → วิธีที่รักษา sphincter ได้ดีที่สุด = <b>LIFT</b> (ตัวลวง cutting seton, fistulotomy, fistulectomy, primary sphincter division + repair)","ชาย 40 ปี high transsphincteric → operation ที่ออกแบบมาให้ไม่ตัด sphincter = <b>LIFT</b> (ตัวลวง fistulotomy + primary repair, cutting seton, fistulectomy + marsupialization, LIS)","Fistula ชนิดใด <b>ไม่</b> นับเป็น complex → <b>low intersphincteric</b> (ตัวลวง high transsphincteric, suprasphincteric, extrasphincteric, anterior fistula ในหญิง)","การรักษาใด <b>ผิด</b> → <b>fistulotomy สำหรับ high anterior fistula ในหญิง</b> (ที่ถูก: fistulotomy ใน low intersphincteric, draining seton / advancement flap ใน high fistula, LIFT ใน transsphincteric)","ผ่าตัด fistula แบบใดเสี่ยง sphincter injury มากที่สุด → <b>fistulectomy</b> (ตัวลวง LIFT, cutting seton, advancement flap, fibrin glue)","ข้อใด <b>ไม่ใช่</b> หลักการรักษา fistula-in-ano → <b>resection of the horseshoe tract</b> (ที่ใช่: drainage ทาง external opening, ปิด internal opening, เอา infected anal gland ออก, preserve anal sphincter)"],
+       pattern:["<b>Parks classification</b>: intersphincteric (พบบ่อยสุด) > transsphincteric > suprasphincteric > extrasphincteric","<b>Goodsall rule</b>: external opening หลังเส้นขวางผ่านทวาร → tract โค้งไปเปิดที่ posterior midline; อยู่หน้าเส้น → ตรงตามแนวรัศมี (ยกเว้นรูหน้าที่ห่างขอบทวาร >3 cm อาจโค้งไปหลัง)","<b>Simple</b> = intersphincteric หรือ low transsphincteric (ตัด external sphincter <30%) และไม่มีปัจจัยเสี่ยง → <b>fistulotomy</b> (lay open + curette ± marsupialization) หาย >90% recurrence ต่ำสุด (ASCRS 2022)","<b>Complex</b> = ผ่าน external sphincter >30% (high transsphincteric), suprasphincteric, extrasphincteric, horseshoe, <b>anterior fistula ในหญิง</b>, หลาย tract, recurrent, Crohn, radiation, incontinence เดิม → sphincter-sparing; MRI pelvis / endoanal US ช่วยวางแผน","Complex: <b>draining (loose) seton</b> ก่อน (ระบาย กันฝีซ้ำ ให้ tract mature) → definitive: <b>LIFT</b> (เข้าทาง intersphincteric groove ผูกและตัด tract โดยไม่ตัดกล้าม), endorectal advancement flap, plug / fibrin glue (หายต่ำกว่า); cutting seton = ตัด sphincter ช้า ๆ (เสี่ยง incontinence รองจาก fistulectomy)","<b>Fistulectomy</b> = เลาะ tract ทั้งเส้นพร้อมกล้ามรอบ แผลกว้าง เสีย sphincter มากที่สุด; ต่างจาก <b>fistulotomy</b> ที่แค่เปิด tract","หลักการรักษา: กำจัด cryptoglandular source (internal opening + infected gland), ปิด internal opening กันติดเชื้อซ้ำ, ระบายให้ดีตลอด tract ทาง external opening และ <b>รักษา continence</b>; horseshoe → <b>modified Hanley</b> (เปิด deep postanal space + counter-drain แขนข้าง) ไม่ต้องตัด tract ทั้งหมดออก"],
+       pearls:["ถาม lowest recurrence ใน simple fistula → fistulotomy; อย่าเลือก LIFT / flap เพราะฟังดูปลอดภัยกว่า","MDCU79 RoD: LIFT ก็ถูกได้ถ้าถาม definitive sphincter-sparing ของ tract ที่ mature แล้ว — คีย์ตอบ seton (ขั้นแรกของ high fistula)","คีย์เก่า MDCU76 RoA วง 'preservation of the anal sphincter' ว่าไม่ใช่หลักการ — ตรวจคีย์ 21 พ.ย. 2026 ตอบ resection of the horseshoe tract เพราะ ASCRS 2022 ถือการรักษา continence เป็นเป้าหมายหลัก","ห้าม fistulotomy แม้ tract ต่ำ: anterior fistula ในหญิง / หลังคลอด, Crohn, sphincter อ่อนเดิม"],
+       members:["MDCU79|RoC|Colo 1","MDCU78|RoD|Anorectal disease 2","MDCU79|RoD|Colo 2","MDCU75|RoC|Colo 6","MDCU74|RoC|30","MDCU77|RoC|Colo 2","MDCU70|RoC|88","MDCU77|RoA|Colo 8","MDCU76|RoA|17"]},
+      {id:"abscess-management", title:"Anorectal abscess: I&D ทุกราย ± antibiotics",
+       trend:"เคสก้อน fluctuant ข้างทวารแล้วถาม management — สลับว่ามี DM / cellulitis / ไข้ หรือไม่",
+       asked:["ปวดรอบทวารหลายวัน (ให้รูปก้อนแดงบวมข้างทวาร) → <b>I&amp;D</b> (ตัวลวง excisional biopsy, oral antibiotics alone, sitz bath + observe, primary fistulotomy)","ชาย 38 ปี ไม่มีโรคประจำตัว ปวดทวาร + ไข้ 3 วัน ก้อนกดเจ็บ อุ่น fluctuant ข้างทวารซ้าย → <b>I&amp;D</b> (ตัวลวง oral antibiotics นัด 1 สัปดาห์, admit + IV antibiotics, debridement, warm sitz bath)","ชายแข็งแรง ก้อน fluctuant ข้างทวาร ไม่มี cellulitis หรือ sepsis → <b>I&amp;D</b> (ตัวลวง IV / oral antibiotics alone, sitz bath, fistulotomy)","DM + perianal abscess + cellulitis รอบ / DM ปวดก้นขวา + cellulitis + ไข้ / perianal abscess + ไข้ + cellulitis → <b>I&amp;D + antibiotics</b> (ตัวลวง I&amp;D อย่างเดียว, IV antibiotics อย่างเดียว, seton, fistulotomy, sitz bath)","Anal abscess แบบใดควรเพิ่ม antibiotics → <b>all of the above</b>: fever, ischioanal abscess, surrounding cellulitis, immunocompromised host","ฝีเคยแตกหนองไหลเองหลายครั้ง ตอนนี้ก้อน fluctuant + erythema รอบ → <b>I&amp;D + antibiotics</b> (ตัวลวง oral antibiotics, sitz bath, immediate fistulotomy, seton โดยไม่ระบายฝี)","ไข้ ปวดก้น / rectum, PR คลำได้ก้อนร้อน กดเจ็บ fluctuant ข้าง prostate เหนือ anorectal ring → <b>surgical drainage</b> (supralevator / high intersphincteric abscess)"],
+       pattern:["<b>ทุก anorectal abscess ต้อง drain ทันที</b> (ASCRS 2022: anorectal abscess, fistula-in-ano) — ไม่ต้องรอ fluctuation; antibiotics อย่างเดียวไม่พอ (ยาเข้าโพรงหนองไม่ได้ และหนองจะลามเป็น ischiorectal / supralevator / horseshoe หรือ necrotizing infection)","Perianal abscess: I&amp;D ใต้ local anesthesia กรีด <b>ใกล้ anal verge ที่สุด</b> (ถ้าเกิด fistula tract จะสั้น) และกว้างพอให้ระบาย; ฝีลึก (ischiorectal, horseshoe, supralevator) ทำใน OR","<b>Antibiotics เพิ่มเมื่อ</b> (ASCRS 2022): cellulitis รอบ / ลุกลาม, systemic signs of infection (ไข้ / sepsis), underlying immunosuppression — คีย์นับ <b>DM</b> (โดยเฉพาะคุมไม่ดี) อยู่ในกลุ่มนี้; ยาต้องคลุม gram-negative + anaerobe","<b>Supralevator abscess</b>: ระบายตามต้นกำเนิด — มาจาก intersphincteric (ลามขึ้นบน) → ระบาย<b>ทาง rectum</b>; มาจาก ischiorectal → ระบาย<b>ทางผิวหนัง perineum</b> (ระบายผิดทางจะเกิด suprasphincteric / extrasphincteric fistula); มาจากโรคใน pelvis → รักษาต้นเหตุ / percutaneous drainage","ปวดทวารมาก + ไข้ แต่มองไม่เห็นก้อน → นึกถึง intersphincteric / supralevator → DRE, EUA, MRI pelvis หรือ endoanal US","DM + ไข้สูง + ผิวคล้ำ / crepitus / ลามเร็ว → ต้องคิดถึง Fournier gangrene"],
+       pearls:["Where there is pus, let it out — ตัวลวงประจำ: antibiotics อย่างเดียว, sitz bath, รอให้ fluctuate","ไข้ในคนแข็งแรงที่ไม่มี cellulitis (MDCU70 RoB) คีย์ยังตอบ I&amp;D อย่างเดียว ไม่ใช่ admit + IV antibiotics; แต่ MDCU69 RoC นับ fever และ ischioanal abscess เป็นข้อบ่งชี้ให้ยา — อ่านว่าโจทย์ถามอะไร","Primary fistulotomy ขณะระบายฝีทำได้เฉพาะ simple fistula ที่เห็นชัดในมือผู้ชำนาญ ไม่ใช่คำตอบมาตรฐานของ acute abscess"],
+       members:["MDCU78|RoA|Anorectal 4","MDCU70|RoB|96","MDCU76|RoD|27","MDCU79|RoD|Colo 11","MDCU69|RoA|32","MDCU69|RoC|29","MDCU69|RoC|R77","MDCU68|RoB|ไม่มีเลข 1","MDCU73|RoB|Colo 4"]},
+      {id:"cryptoglandular", title:"Cryptoglandular disease: สาเหตุ เชื้อ และ sequela ของ abscess / fistula",
+       trend:"ถามสาเหตุที่พบบ่อยที่สุดของ abscess / fistula, pathophysiology, เชื้อที่เพาะได้ หรือผลที่ตามมา",
+       asked:["Most common cause ของ anorectal abscess / pathophysiology ของ perianal abscess → <b>anal gland อุดตัน + ติดเชื้อ</b> (ตัวลวง Crohn, thrombosed external hemorrhoid, chronic fissure, pilonidal, ผิวหนังรอบทวารติดเชื้อ, hair follicle, transmural inflammation)","External opening ข้างทวาร probe เข้า anal canal ใกล้ verge คลำได้ fibrous tract / เคยเป็นฝีแล้วมีหนองไหลจากรูเป็นพัก ๆ → สาเหตุ = <b>infection of the anal glands</b> (ตัวลวง Crohn, TB, trauma จากอุจจาระแข็ง, radiation proctitis, anal cancer, pilonidal)","ปวดรอบทวาร + ไข้ 3 วัน (ให้รูป perianal abscess) → กลุ่มเชื้อที่เพาะได้บ่อย = <b>more than one</b> (GPC + GNR)","ให้รูป perianal abscess → sequela ที่เกิดตามมาได้ = <b>fistula in ano</b> (ตัวลวง condyloma, fissure, pilonidal sinus, rectal prolapse)","ให้รูปหนองไหลจากรอบทวาร → least likely cause = <b>DM</b> (ตัวลวง anal trauma, anal gland infection, Crohn, pelvic radiation)"],
+       pattern:["<b>Cryptoglandular theory (Parks) ~90%</b>: anal gland 4–10 ต่อมทอดใน intersphincteric plane เปิดที่ crypt ระดับ <b>dentate line</b> → อุดตัน → ติดเชื้อ → intersphincteric abscess → ลงล่าง = <b>perianal (พบบ่อยสุด)</b>, ออกข้าง = ischiorectal, ขึ้นบน = supralevator, รอบด้านหลัง = horseshoe (deep postanal space)","<b>Abscess = ระยะเฉียบพลัน, fistula = ระยะเรื้อรัง</b> ของโรคเดียวกัน: หลังระบายฝีราว 30–50% เกิด fistula-in-ano โดย internal opening อยู่ที่ crypt","สาเหตุ non-cryptoglandular (~10%): <b>Crohn</b>, trauma / foreign body, <b>radiation</b>, malignancy, TB, HIV — นึกถึงเมื่อหลายรู ซับซ้อน เป็นซ้ำ หรือมีอาการลำไส้","<b>DM / immunosuppression = ปัจจัยเสี่ยง</b> (โรครุนแรงขึ้น, necrotizing infection) ไม่ใช่ต้นเหตุของ tract","<b>เชื้อ polymicrobial</b> (gut + skin flora): aerobe — E. coli มากที่สุด, Enterococcus, S. aureus, CoNS, Klebsiella, Proteus, Pseudomonas; anaerobe — <b>Bacteroides (gram-negative rod)</b>, Peptostreptococcus → มีทั้ง GPC และ GNR"],
+       pearls:["ถามกลุ่มเชื้อที่พบบ่อย → 'more than one' ไม่ใช่ GNR อย่างเดียว; Bacteroides เป็น gram-negative","ตอบ Crohn เพราะจำได้ว่า fistula สัมพันธ์ Crohn — โรคที่พบบ่อยที่สุดยังเป็น cryptoglandular","MDCU77 RoB ไม่มีคีย์และทุกช้อยเกี่ยวข้องได้ — ตอบ DM เพราะเป็น predisposing factor ไม่ใช่สาเหตุของทางหนอง"],
+       members:["MDCU78|RoD|Anorectal disease 3","MDCU77|RoA|Colo 9","MDCU78|RoC|Anorectal 6","MDCU76|RoD|65","MDCU76|RoA|41","MDCU77|RoA|Colo 7","MDCU77|RoB|Colo 4"]}
+    ]},
+    {title:"Anal fissure", sections:[
+      {id:"chronic-fissure-lis", title:"Chronic anal fissure ล้มเหลวจากยา → lateral internal sphincterotomy",
+       trend:"ให้รูป / เคส fissure เรื้อรัง (sentinel pile, papilla, เห็นใย IAS) แล้วถาม management ที่ได้ผลที่สุด — ตอบ LIS เมื่อโจทย์บอก chronic + ยาล้มเหลว หรือถาม best outcome",
+       asked:["ปวดมากขณะถ่าย + เลือดสด 3 เดือน ล้มเหลวจาก fiber, sitz bath และ topical diltiazem / nitroglycerin 8 สัปดาห์ (ให้รูป) → <b>LIS</b> (ตัวลวง hemorrhoidectomy, I&amp;D, RBL, fistulotomy, Botox, NTG ซ้ำ)","Posterior midline fissure + sentinel skin tag + exposed internal sphincter fibers ยาทา 8 สัปดาห์ไม่ได้ผล → <b>LIS</b> (ตัวลวง fistulotomy + seton, hemorrhoidectomy, forceful anal dilatation, I&amp;D, ทา nitrate ต่อ 1 ปี, stool softener)","Chronic fissure + sentinel pile + hypertrophied anal papilla → วิธีที่ได้ผลที่สุด recurrence ต่ำสุด / best outcome → <b>(lateral) internal sphincterotomy</b> (ตัวลวง Botox, fissurectomy + advancement, topical lidocaine + fiber, posterior midline sphincterotomy, NTG)","เลือดออก 3 เดือน ปวดตุบหลังถ่าย มี skin tag + แผลลึก → <b>LIS</b> (ตัวลวง lifestyle, Botox, 2% isosorbide dinitrate ointment, stool softener)","แผลลึกขอบ fibrotic + hypertrophied papilla + sentinel pile → <b>LIS</b> (ตัวลวง laxative + proctosedyl, lifestyle, Botox, NTG)"],
+       pattern:["<b>Chronic</b> = >6–8 สัปดาห์ + <b>sentinel pile, hypertrophied anal papilla, ขอบ fibrotic / indurated, เห็นใย internal sphincter</b> ที่ก้นแผล; posterior midline ~90%","กลไก: <b>internal anal sphincter hypertonia</b> → resting pressure สูง → posterior midline ขาดเลือด → แผลไม่หาย; เป้าหมายรักษา = ลด IAS tone","ASCRS 2023 (Anal Fissures): topical CCB (diltiazem 2%, nifedipine) หรือ nitroglycerin 0.2–0.4% 6–8 สัปดาห์ เป็น first-line ของ chronic fissure (CCB ปวดหัวน้อยกว่า) → ไม่ได้ผล → botulinum toxin หรือ <b>LIS</b>; LIS เสนอเป็นการรักษาแรกได้ในผู้ป่วยที่เลือกแล้วว่าไม่เสี่ยง incontinence","<b>LIS = gold standard</b>: หาย ≥88% (ASCRS 2023) ถึงราว 95% recurrence ต่ำที่สุด; ตัด IAS ด้านข้างยาวเท่าความยาว fissure (ไม่เกิน dentate line); เสี่ยง minor incontinence (ลม / soiling)","<b>ไม่ทำ forceful anal dilatation</b> (sphincter ฉีกแบบควบคุมไม่ได้ incontinence สูง); posterior midline sphincterotomy เกิด keyhole deformity","Atypical fissure (นอก midline, หลายแผล, ไม่เจ็บ) → Crohn, TB, HIV, syphilis, มะเร็ง → EUA + biopsy ก่อน; หญิงหลังคลอดหรือ sphincter อ่อนเดิม → Botox หรือ advancement flap แทน LIS"],
+       pearls:["Best outcome ≠ first-line — โจทย์ถาม most effective / lowest recurrence → LIS; ถามขั้นต่อจาก conservative → ยาทา","คีย์ MDCU71 RoA และ MDCU76 RoD ตอบ LIS ทั้งที่โจทย์ไม่ได้บอกว่าเคยลองยา — ASCRS 2023 รองรับ: 'LIS may be offered in selected pharmacologically naive patients' และเป็น treatment of choice ของ chronic fissure ในผู้ไม่มี incontinence เดิม (1A); ยาทา CCB / nitrate ก็เป็น first-line ที่ถูก แต่เมื่อโจทย์ให้ chronic fissure ชัด (sentinel pile, papilla, fibrotic edge) คีย์ MDCU เลือก LIS","NTG และ LIS เป็นของ fissure ไม่ใช่ hemorrhoid"],
+       members:["MDCU78|RoA|Anorectal 1","MDCU78|RoD|Anorectal disease 5","MDCU77|RoB|Colo 6","MDCU77|RoC|Colo 11","MDCU76|RoA|10","MDCU76|RoD|18","MDCU74|RoC|31","MDCU70|RoA|69","MDCU71|RoA|84","MDCU69|RoC|X9"]},
+      {id:"fissure-features-lis-indication", title:"ลักษณะ chronic fissure และข้อบ่งชี้ LIS (ข้อใดไม่ใช่)",
+       trend:"ถามแบบ EXCEPT — คำตอบคือ acute fissure หรือสิ่งที่ไม่ใช่ fissure",
+       asked:["ผู้ป่วย fissure รายใด <b>ไม่</b> ต้องทำ LIS → <b>acute fissure 2 สัปดาห์</b> (ที่ต้องทำ: chronic + sentinel tag ล้มเหลว nitrate, papilla ล้มเหลว diltiazem, recur หลัง Botox, exposed IAS ล้มเหลวยา)","ข้อใด NOT strong indication / NOT favor LIS → <b>acute anal fissure</b> (ที่ใช่: sphincter spasm, ปวด >6 สัปดาห์, failed medical sphincterotomy, fibrotic edges, recurrent bleeding)","ข้อใด NOT characteristic / feature ของ chronic fissure → <b>อาการ <2 สัปดาห์</b> หรือ <b>fluctuant perianal swelling</b> (ที่ใช่: sentinel pile, fibrotic edge, IAS spasm, hypertrophied papilla)"],
+       pattern:["Chronic fissure: <b>>6–8 สัปดาห์</b>, sentinel pile, hypertrophied anal papilla, fibrotic edges, exposed IAS fibers, IAS spasm / hypertonia","ข้อบ่งชี้ LIS: chronic fissure ที่ยังปวด / เลือดออกหลัง <b>medical (chemical) sphincterotomy</b> ล้มเหลว หรือเป็นซ้ำ","<b>Acute fissure</b> (<6–8 สัปดาห์) → conservative หายได้ส่วนใหญ่ → ไม่ใช่ข้อบ่งชี้ LIS","Fluctuant perianal swelling = perianal abscess ไม่ใช่ fissure"],
+       members:["MDCU74|RoD|40","MDCU73|RoB|Colo 1","MDCU71|RoA|88","MDCU72|RoB|5","MDCU69|RoC|28"]},
+      {id:"acute-fissure", title:"Acute anal fissure: วินิจฉัยและการรักษาขั้นแรก",
+       trend:"ถามวินิจฉัยจากอาการปวดเวลาถ่าย หรือขั้นแรก / ขั้นถัดไปในบันไดของ ASCRS",
+       asked:["ถ่ายอุจจาระแข็งแล้วปวดแปลบขณะและหลังถ่ายราว 1 ชม. เลือดสดเล็กน้อยติดกระดาษ คลำไม่พบก้อน ไม่มีไข้ → <b>acute anal fissure</b> (ตัวลวง thrombosed external hemorrhoid, perianal abscess, fistula in ano, internal hemorrhoid)","การรักษาเริ่มต้นของ acute anal fissure → <b>stool softeners + fiber</b> (ตัวลวง LIS, anal dilatation, fissurectomy + advancement flap, Botox)","หญิง 25 ปี ปวดแปลบเวลาถ่าย + เลือดออก 1 วัน แผลขอบคมที่ anterior midline sphincter ตึง → <b>nitroglycerin ointment</b> (ตัวลวง stimulant laxative, Botox, LIS, hemorrhoidectomy)","Chronic posterior midline fissure + sentinel tag ที่ lifestyle + sitz bath ดีขึ้นเพียงเล็กน้อย → ขั้นถัดไป = <b>topical nitroglycerin</b> (ตัวลวง Botox, LIS, manual anal dilatation, fissurectomy + advancement flap)"],
+       pattern:["<b>Fissure</b> = แผลฉีกตามยาวของ anoderm <b>ใต้ dentate line</b> (somatic innervation → เจ็บมาก): ปวดแปลบเหมือนมีดบาดขณะถ่าย ปวดต่อเป็นนาที–ชั่วโมงจาก sphincter spasm + เลือดสดเล็กน้อยติดกระดาษ","<b>Posterior midline ~90%</b>; ผู้หญิง (โดยเฉพาะหลังคลอด) พบ anterior midline ได้ราว 10–25%","ตรวจโดยแหวกก้นดู; เลี่ยง DRE / anoscopy ตอนเจ็บมาก","<b>Acute (<6–8 สัปดาห์)</b>: fiber + น้ำ + stool softener + sitz bath ± topical anesthetic — หายได้ราวครึ่งหนึ่ง; เติม topical CCB / nitroglycerin ได้ (ลด IAS tone เพิ่มเลือดเลี้ยง)","บันได ASCRS 2023: conservative → topical CCB / nitrate 6–8 สัปดาห์ → Botox หรือ LIS — เลือกขั้นถัดจากสิ่งที่โจทย์บอกว่าทำไปแล้ว"],
+       pearls:["เลือดสดหลังถ่าย <b>แต่เจ็บมาก</b> = fissure; internal hemorrhoid ไม่เจ็บ; thrombosed external hemorrhoid คลำได้ก้อนสีม่วง","กระโดดไปทำ LIS / Botox ใน acute fissure หรือในโจทย์ที่ยังไม่ได้ลองยาทา","MDCU77 RoA ไม่มีช้อย fiber จึงตอบ NTG ointment; MDCU79 RoD คีย์ตอบ NTG เพราะเพิ่งผ่าน conservative"],
+       members:["MDCU78|RoC|Anorectal 1","MDCU74|RoA|61","MDCU77|RoA|Colo 13","MDCU79|RoD|Colo 1"]}
+    ]},
+    {title:"Hemorrhoid และเลือดออกทางทวาร", sections:[
+      {id:"hemorrhoid-grade", title:"Hemorrhoid: เลือกการรักษาตาม Goligher grade และ external component",
+       trend:"ให้อาการ prolapse (กลับเอง / ต้องดัน) ± รูป proctoscopy แล้วถามการรักษา",
+       asked:["Grade I เลือดออกไม่เจ็บเป็นครั้งคราวหลังถ่าย → <b>lifestyle modification</b> (ตัวลวง RBL, sclerotherapy, hemorrhoidectomy, stapled hemorrhoidopexy)","Grade II (ยื่นตอนเบ่งแล้วกลับเอง) ที่ 3, 7, 11 นาฬิกา ยังเลือดออกหลัง fiber + น้ำ 6 สัปดาห์ → <b>RBL</b> (ตัวลวง lifestyle อย่างเดียว, nitroglycerin, hemorrhoidectomy, LIS)","ชายนั่งส้วม >15 นาทีทุกเช้า internal hemorrhoid grade II–III (ให้รูป) ได้คำแนะนำ conservative แล้ว → <b>RBL</b> (ตัวลวง lifestyle อย่างเดียว, hemorrhoidectomy, steroid cream, sclerotherapy ของ external)","เลือดออกไม่เจ็บ + ก้อนยื่นตอนถ่ายต้องดันกลับเอง (grade III) ให้รูป proctoscopy → <b>RBL</b> (ตัวลวง sclerotherapy, LIS, I&amp;D, steroid cream)","Prolapse ต้องดันกลับ + <b>external component ใหญ่ (mixed)</b> → <b>excisional hemorrhoidectomy</b> (ตัวลวง RBL, sclerosing injection, steroid cream, infrared coagulation)"],
+       pattern:["<b>Internal</b> (เหนือ dentate line, visceral innervation): เลือดสดไม่เจ็บ หยด / ติดกระดาษ; <b>external</b> (ใต้ dentate line, somatic): เจ็บเมื่อ thrombose; ตำแหน่งหลัก 3, 7, 11 นาฬิกา (lithotomy)","<b>Goligher</b>: I เลือดออกไม่ยื่น · II ยื่นแล้วกลับเอง · III ต้องดันกลับ · IV ดันไม่กลับ","<b>ทุก grade เริ่มด้วย</b> fiber (psyllium) 25–35 g/วัน + น้ำ + ไม่เบ่ง / ไม่นั่งส้วมนาน ± flavonoid — grade I ส่วนใหญ่พอ (ASCRS 2024 Hemorrhoids)","<b>Grade I–III ที่ไม่ดีขึ้น → rubber band ligation</b> (ASCRS 2024: grade I–II และ grade III ที่เลือก; AGA 2026: band / IRC ใช้ได้ grade 1–3 ก่อนคิด hemorrhoidectomy) = office procedure ที่ได้ผลดีที่สุดและทำบ่อยที่สุด (รัดเหนือ dentate line จึงไม่เจ็บ, 1–3 ตำแหน่งต่อครั้ง ห่าง 4–6 สัปดาห์); sclerotherapy / infrared coagulation เหมาะ grade I–II","<b>Excisional hemorrhoidectomy</b> (Milligan–Morgan เปิด / Ferguson ปิด): grade III–IV ที่ล้มเหลว office procedure, <b>มี external component ใหญ่ / mixed</b>, grade IV, thrombosed / strangulated; recurrence ต่ำสุดแต่ปวดมากกว่า; แทรกซ้อน urinary retention, เลือดออก, anal stenosis","Stapled hemorrhoidopexy ยก cushion กลับได้แต่ไม่แก้ external component"],
+       pearls:["ตัดสินด้วย <b>grade (การ prolapse) + external component</b> ไม่ใช่คำว่า 'large'","Office procedure รักษาได้เฉพาะส่วน internal — ห้าม band / ฉีดที่ external (ปวดรุนแรง)","คีย์ MDCU78 RoD เขียน 'B > A' (RBL ดีกว่า lifestyle) เพราะยังเลือดออกหลัง fiber","ผู้จด MDCU79 RoD ไม่แน่ใจว่า grade I — ถ้าเป็น grade II–III ที่ไม่ตอบ conservative จะตอบ RBL"],
+       members:["MDCU79|RoD|Colo 3","MDCU78|RoD|Anorectal disease 1","MDCU76|RoD|24","MDCU78|RoA|Anorectal 2","MDCU78|RoC|Anorectal 5"]},
+      {id:"rbl-contraindication", title:"ข้อห้ามของ rubber band ligation",
+       trend:"ถามแบบ EXCEPT ซ้ำหลายรุ่นด้วยช้อยชุดเดิม — anal sex ไม่ใช่ข้อห้าม",
+       asked:["ข้อใดเป็นข้อห้ามของ RBL → <b>ได้ immunosuppressive drugs</b> (ตัวลวง grade II, anal intercourse, เคย band สำเร็จ, อายุ >60)","ข้อใด <b>ไม่ใช่</b> ข้อห้ามของ RBL → <b>receptive anal intercourse / anal sex</b> (ข้อห้ามจริง: immunocompromise, chemotherapy / immunosuppressive drugs, HIV, coagulopathy, anticoagulant, portal hypertension)"],
+       pattern:["<b>Immunocompromise</b> (HIV, chemotherapy, immunosuppressant) → เสี่ยง <b>pelvic sepsis</b> หลัง band","<b>Coagulopathy / anticoagulant</b> → เลือดออกมากเมื่อ band หลุดราววันที่ 5–10 (AGA 2026: coagulopathy เช่น cirrhosis หรือได้ anticoagulant → infrared coagulation ปลอดภัยกว่า band)","<b>Portal hypertension</b> (rectal varices, coagulopathy)","ห้าม band ส่วน external / ใต้ dentate line (ปวดมาก)","Anal intercourse, อายุมาก, เคย band มาก่อน, grade II <b>ไม่ใช่ข้อห้าม</b> (ลายมือคีย์: ระวังหลัง stapled hemorrhoidopexy)"],
+       pearls:["ปวดมาก + ไข้ + ปัสสาวะไม่ออกหลัง RBL = สงสัย pelvic sepsis → ประเมินด่วน ไม่ใช่รอดู"],
+       members:["MDCU74|RoD|43","MDCU70|RoA|61","MDCU72|RoA|46","MDCU72|RoB|2","MDCU72|RoC|ไม่มีเลข 3"]},
+      {id:"rectal-bleeding-colonoscopy", title:"เลือดออกทางทวาร: เมื่อไรโทษ hemorrhoid ได้ และเมื่อไรต้อง colonoscopy",
+       trend:"MDCU71 ถามสามมุม (อายุ + มูกเลือด, bowel habit เปลี่ยน 1 → 3 ครั้ง / วัน, ประวัติครอบครัว) และ MDCU78 ถามสาเหตุ painless outlet bleeding",
+       asked:["ผู้สูงอายุเลือดสดหยดหลังถ่าย เคลือบผิวอุจจาระ ปริมาณน้อยหลายครั้ง ไม่เจ็บ สัญญาณชีพปกติ → <b>hemorrhoids</b> (ตัวลวง diverticulosis, anal fissure, ischemic colitis, infectious colitis)","ชาย 55 ปี มูกปนเลือด 1 ปี ช่วงหลังเลือดหยดหลังถ่าย anoscopy เห็น internal hemorrhoid ที่ 11 นาฬิกา ไม่มี active bleeding ไม่เคยส่องกล้อง → ข้อที่ถูก = <b>colonoscopy เพื่อแยก proximal colorectal lesion</b>","หญิง 40 ปี เลือดออกเป็นพัก 3 เดือน ไม่มีอาการทั่วไป ถ่ายเปลี่ยนจากวันละครั้งเป็นวันละ 3 ครั้ง ไม่มี FHx PR พบ skin tag → คีย์ลายมือตอบ lifestyle modification; ตาม reference (NICE NG12, ASCRS 2024) ตอบ <b>colonoscopy</b> (ตัวลวง hemorrhoidectomy, barium enema, CT abdomen)","ชาย 25 ปี เลือดออก 1 สัปดาห์ ไม่ปวดท้อง น้ำหนักไม่ลด ตรวจพบ acute anal fissure แต่ญาติ 3 คนเป็นมะเร็งลำไส้อายุ 30, 45, 50 → <b>gastroscopy + colonoscopy เลย แล้วทุก 1–2 ปี</b> (ตัวลวง endoscopy อายุ 40 แล้วทุก 10 ปี, FOBT, FOBT + sigmoidoscopy, รักษา fissure อย่างเดียว)"],
+       pattern:["Hemorrhoid = <b>outlet bleeding</b>: เลือดสด หยด / ติดกระดาษ / เคลือบผิวอุจจาระ ไม่ปนในเนื้อ ปริมาณน้อยเป็นซ้ำ ไม่เจ็บ → สาเหตุที่พบบ่อยที่สุดของ painless outlet bleeding; diverticular bleeding = ออกมากทันทีจนสัญญาณชีพเปลี่ยน","โทษ common anorectal disease ได้เมื่อ (1) ไม่มี bowel habit change — นับจากการเปลี่ยนไปจาก pattern เดิมของผู้ป่วย แม้ยังอยู่ในช่วงปกติ 3 ครั้ง / สัปดาห์ ถึง 3 ครั้ง / วัน (2) PR / anoscopy พบรอยโรคที่อธิบายอาการ (skin tag ไม่ใช่แหล่งเลือดออก) (3) ไม่มี alarm feature","NICE NG12: อายุ <b>&lt;50 + rectal bleeding + altered bowel habit</b> (หรือปวดท้อง, น้ำหนักลด, iron deficiency) ที่อธิบายไม่ได้ → urgent referral; ASCRS 2024 (สรุปใน AFP 2025): พิจารณา colonoscopy เมื่อหาแหล่งเลือดออกไม่พบ, มีอาการลำไส้ใหม่ หรือยังเลือดออกหลังรักษา hemorrhoid","<b>ต้อง colonoscopy</b> เมื่อ อายุ ≥45 ที่ยังไม่เคยคัดกรอง, <b>มูกปนเลือด</b> / เลือดปนอุจจาระ, bowel habit เปลี่ยน, น้ำหนักลด, ซีด / iron deficiency, FHx — ASCRS 2024 (Hemorrhoids) ให้ประเมินลำไส้ใหญ่ตามอายุ / ความเสี่ยง / อาการ ก่อนสรุปว่าเลือดออกจาก hemorrhoid","<b>Amsterdam II</b>: ญาติ ≥3 คนเป็นมะเร็งกลุ่ม Lynch (หนึ่งคนเป็น first-degree ของอีกสองคน), ≥2 รุ่นติดกัน, ≥1 คนวินิจฉัยก่อน 50 ปี, ไม่ใช่ FAP → สงสัย <b>Lynch syndrome</b>","Lynch surveillance (NCCN): <b>colonoscopy ทุก 1–2 ปี เริ่มอายุ 20–25</b> (หรือ 2–5 ปีก่อนอายุที่ญาติเป็นน้อยที่สุดถ้าญาติเป็นก่อน 25) + <b>EGD เริ่มอายุ 30–40 ทุก 2–4 ปี</b>"],
+       pearls:["เห็น hemorrhoid แล้วหยุดตรวจในผู้ป่วยอายุ ≥45 ที่มีมูกเลือด — ตำแหน่ง 11 นาฬิกาเป็น anal cushion ปกติ ไม่ได้บอกมะเร็ง","คีย์ลายมือ MDCU71 RoB ตอบ lifestyle เพราะถือว่าวันละ 3 ครั้งยังอยู่ในเกณฑ์ปกติ — แต่ guideline นับการเปลี่ยนจากวันละครั้งเป็นวันละ 3 ครั้งเป็น altered bowel habit และ skin tag ไม่อธิบายเลือดออก → ตาม reference ตอบ colonoscopy","มี fissure อธิบายเลือดออกแล้วอย่าลืมประวัติครอบครัว — คีย์ MDCU71 RoA นับเริ่มคัดกรองที่อายุ 20 (30 − 10); NCCN เริ่ม EGD ที่ 30–40 ปี แต่ช้อยอื่นผิดชัดกว่า","Outlet bleeding ปริมาณน้อยซ้ำ ๆ = hemorrhoid; ออกมากทันทีจน vital signs เปลี่ยน = diverticular"],
+       members:["MDCU78|RoC|Anorectal 2","MDCU71|RoA|77","MDCU71|RoB|77","MDCU71|RoA|ไม่มีเลข 4"]},
+      {id:"thrombosed-hemorrhoid", title:"Thrombosed hemorrhoid: internal prolapsed vs external vs ผู้ป่วยหลัง chemo",
+       trend:"ให้รูป / เคสก้อนปวดที่ทวาร แล้วให้แยกชนิด ระยะเวลา และสภาพผู้ป่วย",
+       asked:["ปวดทวารมาก 2 วัน ก้อนปวดดันกลับไม่ได้ ผิวเป็น mucosa แดงคล้ำมี thrombosis (ให้รูป) → <b>emergency hemorrhoidectomy</b> (ตัวลวง I&amp;D, RBL, LIS, sclerotherapy)","ปวดทวาร 4 วัน ตอนนี้เริ่มดีขึ้น (ให้รูป thrombosed external hemorrhoid) → <b>analgesics + follow-up</b> (ตัวลวง clot evacuation, urgent hemorrhoidectomy, RBL, LIS)","วัยรุ่น 18 ปี leukemia ได้ chemotherapy มา 10 วัน มี prolapsed thrombosed internal hemorrhoid → <b>warm sitz bath + medical treatment</b> (ตัวลวง I&amp;D, hemorrhoidectomy, stapled hemorrhoidopexy, RBL)"],
+       pattern:["<b>Prolapsed thrombosed (incarcerated) internal hemorrhoid</b>: ผิวคลุมเป็น <b>mucosa</b> ดันกลับไม่ได้ ปวดมาก เสี่ยง necrosis → <b>urgent excisional hemorrhoidectomy</b> (ทำในภาวะเฉียบพลันได้ปลอดภัย)","<b>Thrombosed external hemorrhoid</b>: ก้อนสีม่วงคลุมด้วย anoderm / ผิวหนัง ปวดมากสุด 48–72 ชม.; มา <b>ภายใน ~72 ชม.</b> และปวดมาก → <b>excision ทั้งก้อน</b> ใต้ยาชา (ASCRS 2024: early surgical excision ในรายที่เลือก — ดีกว่ากรีดเอาลิ่มเลือดออกซึ่งเป็นซ้ำบ่อย) ส่วน AGA Clinical Practice Update 2026 แนะนำ incision and drainage (เอาลิ่มเลือดออก) ในรายปวดมากเฉียบพลัน; <b>เกิน 72 ชม. / ปวดดีขึ้น</b> → conservative (analgesic, sitz bath, stool softener, ยาทา) ยุบเองใน 2–3 สัปดาห์","<b>ผู้ป่วย neutropenia / thrombocytopenia</b> (chemo nadir ราว 7–14 วัน, leukemia) → <b>หลีกเลี่ยงหัตถการ anorectal</b> (ติดเชื้อรุนแรง เลือดออก) → sitz bath, stool softener, analgesic, ยาทา ± antibiotics"],
+       pearls:["เห็นคำว่า thrombosed แล้วตอบ I&amp;D — ดูว่าผิวคลุมเป็น mucosa (internal → ผ่าตัด) หรือผิวหนัง (external → ตัดสินตามเวลา)","คีย์ไฟล์ 01.2 ของ MDCU69 RoA ตอบ hemorrhoidectomy — ตรวจคีย์ 21 พ.ย. 2026 ยืนตามคีย์ชุดแรก (sitz bath + medical) เพราะผู้ป่วยอยู่ช่วง nadir หลัง chemo","MDCU77 RoA ต้นฉบับเขียนปวด 3 วัน (ก้ำกึ่ง 72 ชม.) — ถ้ายังไม่ถึง 72 ชม. และปวดมาก คำตอบจะเป็น excision"],
+       members:["MDCU78|RoA|Anorectal 3","MDCU77|RoA|Colo 4","MDCU69|RoA|40"]}
+    ]},
+    {title:"HPV-related anal disease", sections:[
+      {id:"anal-scc-etiology", title:"Anal SCC: HPV และ HIV",
+       trend:"HIV+ / MSM / เคยมีหูด แล้วมีแผล–ก้อนที่ anal canal → ถามชนิดมะเร็งหรือไวรัส / ปัจจัยที่เกี่ยวข้อง",
+       asked:["ชาย 50 ปี MSM HIV+ แผลแข็งเรื้อรังไม่หายใน anal canal 4 เดือน → <b>anal squamous cell carcinoma</b> (ตัวลวง rectal adenocarcinoma, anal melanoma, BCC, extramammary Paget)","ชาย HIV+ เคยมี anorectal warts ตอนนี้มีก้อนที่ทวาร → <b>SCC</b> (ตัวลวง adenocarcinoma, melanoma, BCC, GIST)","SCC ของ anal canal สัมพันธ์กับไวรัสใดมากที่สุด → <b>HPV</b> (ตัวลวง EBV, HSV-2, VZV, HIV)","ก้อนเกิดที่ dentate line ลามลง anal canal biopsy เป็น SCC → etiologic factor สำคัญที่สุด = <b>HPV</b> (ตัวลวง low-fiber diet, chronic hemorrhoids, H. pylori, FAP)"],
+       pattern:["Anal canal ใต้ dentate line บุด้วย squamous / transitional epithelium → มะเร็งส่วนใหญ่ = <b>SCC</b> ไม่ใช่ adenocarcinoma แบบ colorectal","<b>HPV 16 / 18</b> พบใน >80–90% ของ anal SCC (E6 / E7 ยับยั้ง p53 และ Rb) → AIN / HSIL → invasive SCC","กลุ่มเสี่ยง: <b>HIV+ MSM สูงสุด</b>, receptive anal intercourse, ประวัติ condyloma หรือ cervical / vulvar HSIL, organ transplant, สูบบุหรี่ — <b>HIV เป็นปัจจัยเสี่ยง</b> (ภูมิต่ำ → HPV คงอยู่) ไม่ใช่ไวรัสก่อมะเร็งโดยตรง","อาการ: เลือดออก ปวด ก้อน / แผลแข็งเรื้อรัง, inguinal node; วินิจฉัยด้วย biopsy; staging MRI pelvis + CT chest / abdomen (± PET-CT)","คัดกรองกลุ่มเสี่ยง: anal cytology / hrHPV → high-resolution anoscopy → รักษา HSIL (ANCHOR trial 2022: ลด anal cancer ในผู้ติดเชื้อ HIV ราว 57%)"],
+       pearls:["แผลเฉียบพลันเจ็บใน MSM ให้คิด HSV, primary syphilis, chancroid, LGV ก่อน; แผลแข็งเรื้อรัง → biopsy หา SCC","ไวรัสตัวลวง: EBV → NPC / lymphoma, HHV-8 → Kaposi sarcoma; เลือก HIV เพราะ anal SCC พบบ่อยในผู้ติดเชื้อ HIV — ตัวก่อมะเร็งคือ HPV"],
+       members:["MDCU78|RoC|Anorectal 3","MDCU74|RoD|ไม่มีเลข 29","MDCU73|RoB|24","MDCU76|RoD|66"]},
+      {id:"condyloma", title:"Condyloma acuminata (anogenital warts)",
+       trend:"ถามเชื้อก่อโรค, การรักษาเมื่อเป็นใน anal canal และการตรวจเพิ่มหลังรักษาในหญิงที่มี anal sex",
+       asked:["MSM ก้อนไม่เจ็บรูปดอกกะหล่ำรอบทวาร → สาเหตุ = <b>HPV</b> (ตัวลวง HSV, Treponema pallidum, molluscum contagiosum, Haemophilus ducreyi)","Condyloma กว้างขวางทั้งรอบทวารและใน anal canal → <b>surgical excision + electrocoagulation</b> (ตัวลวง imiquimod ทาทุกรอยโรค, oral acyclovir, oral antibiotics, observe)","หญิง 30 ปี / หญิงที่มี anal sex มี perianal condyloma (ไม่มีรอยโรคใน anal canal) รักษาด้วย trichloroacetic acid ได้ → additional / next step = <b>pelvic (PV) examination</b> (ตัวลวง stool exam, colonoscopy, imiquimod, antiviral)"],
+       pattern:["<b>Condyloma acuminata = HPV 6 / 11</b> (low-risk); ต่างจาก condyloma lata ของ secondary syphilis (แบน ชื้น)","CDC 2021: ยาที่ผู้ป่วยทาเอง (imiquimod, podofilox, sinecatechins) ใช้กับ <b>external warts</b>; รอยโรค <b>intra-anal</b> → provider-administered: cryotherapy, TCA / BCA 80–90% หรือ surgical removal","รอยโรคกว้างขวาง / หลายก้อน / อยู่ใน anal canal → <b>surgical excision + fulguration (electrocoagulation)</b> ใต้ยาระงับความรู้สึก + anoscopy ทั้ง canal + ส่งชิ้นเนื้อหา dysplasia (โดยเฉพาะใน HIV); เป็นวงรอบทวาร → ทำเป็น stage กัน anal stenosis; เป็นซ้ำบ่อยโดยเฉพาะใน 3 เดือนแรก (CDC 2021)","<b>หลังรักษาต้องหารอยโรคที่อื่น</b>: ผู้หญิง → <b>ตรวจภายใน (speculum / PV)</b> หา warts ที่ช่องคลอด / ปากมดลูก (CDC 2021: cervical wart → ส่งผู้เชี่ยวชาญ biopsy ก่อนรักษา) + คัดกรองมะเร็งปากมดลูกตามรอบปกติ ไม่ต้องถี่ขึ้น; perianal warts → DRE / anoscopy หา intra-anal warts (CDC 2021); ตรวจ STI อื่น (HIV, syphilis); วัคซีน HPV ป้องกัน","Giant condyloma (Buschke–Löwenstein) = verrucous carcinoma → wide local excision"],
+       pearls:["คีย์ P'Ing (MDCU74 RoA และ MDCU75 RoC) ตอบ imiquimod — เป็นการรักษาซ้ำซ้อน ไม่ใช่การประเมินเพิ่ม; ตรวจคีย์ 21 พ.ย. 2026 ตอบ PV exam ตามคีย์ COOK / GUN — CDC 2021 ไม่ได้เขียนคำว่า PV exam ตรง ๆ แต่ให้หารอยโรคที่อวัยวะเพศ / ปากมดลูก / anal canal ซึ่งในช้อยชุดนี้มีแต่ PV exam ที่ตรงหลัก","เลือก imiquimod เพราะคุ้นชื่อ — ต้องดูว่ารอยโรคอยู่ใน anal canal หรือกว้างแค่ไหน"],
+       members:["MDCU77|RoC|Uro 9","MDCU78|RoC|Anorectal 4","MDCU75|RoC|Colo 1","MDCU74|RoA|69"]},
+      {id:"anal-scc-treatment", title:"Anal SCC: definitive chemoradiation ไม่ใช่ APR",
+       trend:"ให้ anal SCC ติด sphincter หรือลุก prostate แล้วล่อด้วยการผ่าตัดแบบ rectal cancer — คีย์เก่าตอบผ่าตัดทั้งสองรุ่น",
+       asked:["ก้อน 2×3 cm ติด anal sphincter biopsy เป็น well-differentiated SCC ของ anal canal → <b>chemoradiation</b> (ตัวลวง APR, LAR + coloanal anastomosis, wide local excision, brachytherapy อย่างเดียว)","Anal canal tumor ลุก prostate ไม่พบอย่างอื่น → <b>chemoradiation</b> (ตัวลวง brachytherapy, APR, pelvic exenteration, local excision)"],
+       pattern:["<b>Anal canal SCC ที่ไม่มี distant metastasis ทุก stage → definitive chemoradiation (Nigro)</b>: 5-FU (หรือ capecitabine) + <b>mitomycin C</b> + RT — เก็บ sphincter และอวัยวะได้ (NCCN Anal Carcinoma 2025, ESMO 2021)","แม้ T4 ลุก prostate / ช่องคลอด / กระเพาะปัสสาวะ ก็ยังเริ่มด้วย CRT","ก้อนยุบต่อเนื่องได้หลายเดือนหลัง CRT (ACT II ประเมินที่ 26 สัปดาห์) → <b>APR สงวนไว้สำหรับ persistent / recurrent disease</b>","ข้อยกเว้น: anal margin (perianal) T1 เล็ก well-differentiated → local excision ได้; anal canal <b>adenocarcinoma</b> → รักษาแบบ rectal cancer (neoadjuvant CRT + APR / exenteration)"],
+       pearls:["คีย์ลายมือ MDCU71 RoB ตอบ APR (ใช้หลัก 'ติด sphincter → APR' ของ rectal adenocarcinoma) — ตรวจคีย์ 21 พ.ย. 2026 แก้เป็น chemoradiation ตาม NCCN","คีย์ทั้งสองไฟล์ของ MDCU69 RoC ตอบ pelvic exenteration — ตาม NCCN / ESMO anal SCC T4 ยังใช้ CRT; exenteration ใช้เป็น salvage เท่านั้น"],
+       members:["MDCU71|RoB|84","MDCU69|RoC|X6"]}
+    ]},
+    {title:"Necrotizing และ skin infection รอบทวาร", sections:[
+      {id:"fournier", title:"Fournier gangrene",
+       trend:"ถาม 'ข้อใดผิด' ซ้ำหลายรุ่น (anal cancer ไม่ใช่สาเหตุหลัก) และเคส DM perineum เน่าแล้วถาม management",
+       asked:["ข้อใด <b>ผิด</b> เกี่ยวกับ Fournier gangrene → <b>anal cancer เป็นสาเหตุที่พบบ่อยที่สุด</b> (ที่ถูก: necrotizing fasciitis ของ perineum, DM เป็น risk factor, บางรายต้อง colostomy / fecal diversion, ให้ empirical antibiotics ก่อนผล culture, radical debridement)","DM คุมไม่ดี ปวดบวม perineum + scrotum 2 วัน ไข้ 39 °C หัวใจเต้นเร็ว ผิวคล้ำเน่า crepitus กลิ่นเหม็น → <b>IV antibiotics + emergency radical debridement</b> (ตัวลวง antibiotics + observe, needle aspiration ของ scrotum, orchiectomy โดยไม่ debride, hyperbaric O2 เป็นการรักษาหลัก)"],
+       pattern:["<b>Fournier gangrene</b> = necrotizing fasciitis ของ perineum / genitalia / perianal, polymicrobial (aerobe + anaerobe)","Source: <b>anorectal (perianal / ischiorectal abscess) พบบ่อยที่สุด</b>, urogenital (urethral stricture, UTI, instrumentation), ผิวหนัง; risk: <b>DM</b> (สำคัญสุด), alcohol, immunocompromise, obesity","รักษา <b>3 อย่างพร้อมกัน</b>: resuscitation + broad-spectrum IV antibiotics ทันทีก่อนผล culture (เช่น vancomycin / linezolid + piperacillin-tazobactam หรือ carbapenem + clindamycin เพื่อยับยั้ง toxin) + <b>emergency radical debridement</b> แล้ว re-look / re-debride ทุก 24–48 ชม. จนไม่มีเนื้อตาย","± <b>diverting colostomy</b> เมื่อแผลปนเปื้อนอุจจาระหรือ sphincter เกี่ยวข้อง; suprapubic cystostomy ถ้า urethra เกี่ยวข้อง; testis มักเก็บได้ (เลือดมาจาก testicular artery); ภายหลังต้อง reconstruction","Imaging ต้องไม่ทำให้ผ่าตัดช้า; hyperbaric O2 เป็นแค่ adjunct"],
+       pearls:["ผิวที่เห็นภายนอกน้อยกว่าเนื้อตายใต้ผิวเสมอ","สาเหตุคือ infection (anorectal / urogenital) ไม่ใช่มะเร็ง","MDCU78 RoD ต้นฉบับให้แค่รูป Fournier gangrene — stem และคำถาม management แต่งเพิ่ม"],
+       members:["MDCU78|RoD|Anorectal disease 4","MDCU71|RoA|89","MDCU72|RoA|58","MDCU72|RoB|3","MDCU72|RoD|43"]},
+      {id:"pilonidal", title:"Pilonidal abscess",
+       asked:["ชายหนุ่ม ก้อนแดง เจ็บ fluctuant ที่ natal cleft มีรูเล็ก ๆ (pits) แนวกลางใกล้ ๆ (ให้รูป) → <b>pilonidal abscess</b> (ตัวลวง infected sebaceous cyst, perianal abscess, hidradenitis suppurativa, carbuncle)"],
+       pattern:["<b>Pilonidal disease</b>: ขนแทงเข้าผิวที่ <b>sacrococcygeal natal cleft</b> → foreign body reaction / ติดเชื้อ; ชายหนุ่ม ขนดก นั่งนาน; <b>midline pits</b> เป็นเบาะแส","Acute abscess → <b>I&amp;D โดยกรีดเยื้องจากแนวกลาง (off-midline)</b> แล้วผ่าตัด definitive ภายหลังถ้าเป็นซ้ำ / เรื้อรัง (pit picking, off-midline closure เช่น Karydakis / cleft lift / Limberg flap)","แยก: perianal abscess อยู่ข้างรูทวาร; hidradenitis = หลายรูที่รักแร้ ขาหนีบ perineum"],
+       pearls:["เห็นรูแล้วคิดว่าเป็น punctum ของ sebaceous cyst — pits ที่แนวกลาง natal cleft = pilonidal"],
+       members:["MDCU76|RoA|30"]}
+    ]},
+    {title:"Pelvic floor: rectal prolapse และ fecal incontinence", sections:[
+      {id:"rectal-prolapse", title:"Rectal prolapse (procidentia)",
+       trend:"ให้รูป / เคสก้อนยื่นตอนเบ่ง แล้วให้แยก rectal prolapse จาก prolapsed hemorrhoid",
+       asked:["ก้อนยื่นจากทวารตอนเบ่งแล้วกลับเข้าไป (ให้รูปตอนเบ่ง) → <b>rectal prolapse</b> (ตัวลวง thrombosed hemorrhoid, external hemorrhoid, prolapsed internal hemorrhoid, rectal polyp)","ก้อนยื่นตอนถ่าย แรก ๆ กลับเอง ตอนนี้ต้องดันกลับ (ให้รูป) → <b>rectal prolapse</b> (ตัวลวง internal hemorrhoid, anal polyp, hypertrophied anal papilla, skin tag)","หญิง 79 ปี ถ่ายไม่สุด + ก้อนยื่นจากทวารตอนเบ่งถ่าย → <b>rectal prolapse</b> (ตัวลวง prolapsed internal hemorrhoid, rectal cancer, anal polyp, rectocele)"],
+       pattern:["<b>Full-thickness rectal prolapse</b> = ผนัง rectum ทุกชั้นยื่นผ่านทวาร; หญิงสูงอายุเด่นมาก, multiparity, ท้องผูกเบ่งเรื้อรัง, pelvic floor อ่อน","ภาพ: <b>รอยพับเป็นวงกลมซ้อนกัน (concentric / circular folds)</b> vs prolapsed hemorrhoid = <b>radial folds</b> แยกเป็นกลีบตามตำแหน่ง","อาการ: ก้อนยื่นตอนเบ่ง, ถ่ายไม่สุด, mucus discharge, fecal incontinence พบบ่อย; ตรวจโดยให้นั่งยอง / เบ่งบนโถ","ก่อนผ่าตัด: colonoscopy ตามอายุ / อาการ เพื่อแยก lead point หรือมะเร็ง","รักษา = ผ่าตัด: <b>abdominal approach (rectopexy ± resection, laparoscopic / ventral mesh)</b> ในผู้แข็งแรง recurrence ต่ำกว่า; <b>perineal approach (Altemeier perineal rectosigmoidectomy, Delorme)</b> ในผู้สูงอายุ / เสี่ยงผ่าตัดสูง"],
+       pearls:["ประวัติ 'แรกกลับเอง ตอนนี้ต้องดัน' เหมือน hemorrhoid grade II → III — ต้องตัดสินจากรูป (วงซ้อน vs radial); คีย์ MDCU76 RoD เขียน 'ดูภาพให้ออก'","Rectocele = ผนังหลังช่องคลอดโป่ง ไม่ยื่นออกทางทวาร"],
+       members:["MDCU79|RoD|Colo 7","MDCU77|RoA|Colo 11","MDCU76|RoD|21"]},
+      {id:"obstetric-sphincter-injury", title:"Fecal incontinence หลังคลอด: anterior EAS injury และ endoanal US",
+       trend:"หญิงกลั้นอุจจาระไม่อยู่หลังคลอดทางช่องคลอด แล้วถามกล้ามเนื้อที่บาดเจ็บหรือ investigation ดู anatomy",
+       asked:["หญิงกลั้นอุจจาระไม่อยู่ตั้งแต่คลอดทางช่องคลอด 2 ครั้ง → <b>anterior part ของ external anal sphincter</b> (ตัวลวง posterior EAS, anterior / posterior IAS, puborectalis)","หญิง 32 ปี fecal incontinence หลังคลอดทางช่องคลอด + episiotomy → investigation ที่ดูกายวิภาคของ sphincter ดีที่สุด = <b>endoanal ultrasonography</b> (ตัวลวง defecography, CT pelvis, anorectal manometry, pudendal nerve terminal motor latency)"],
+       pattern:["คลอดทางช่องคลอด = สาเหตุ sphincter injury ที่พบบ่อยที่สุดในหญิง: ฉีกจาก perineal body (หน้าทวาร) → <b>anterior EAS</b> บาดเจ็บก่อน รุนแรงขึ้นจึงลาม IAS และ mucosa","OASIS (RCOG): 3a EAS <50%, 3b EAS >50%, 3c EAS + IAS, 4th ถึง anorectal mucosa; risk: ครรภ์แรก, forceps, midline episiotomy, ทารก >4 kg, occiput posterior, ระยะเบ่งนาน","EAS (voluntary) เสีย → <b>urge incontinence</b>; IAS (resting tone ส่วนใหญ่) เสีย → <b>passive soiling</b>","<b>Endoanal US</b> = investigation หลักดู defect ของ IAS / EAS (MRI เป็นทางเลือก); <b>manometry, defecography, PNTML</b> = ประเมิน function; CT เห็น sphincter ไม่ชัด (ASCRS 2023 Fecal Incontinence)","รักษา: fiber + loperamide + biofeedback → ผ่าตัด (ASCRS 2023): <b>overlapping anterior sphincteroplasty</b> พิจารณาเมื่อมี EAS defect (ผลลดลงตามเวลา); <b>sacral neuromodulation</b> เป็น first-line surgical option ได้ทั้งมีและไม่มี sphincter defect"],
+       pearls:["IAS ให้ resting tone มากที่สุด แต่โจทย์ถามกลไกจากการคลอด → anterior EAS","คีย์ P'Ing ของ MDCU75 RoC ตอบ CT pelvis (คิดว่าถาม anatomy = CT) — ตรวจคีย์ 21 พ.ย. 2026 ตอบ endoanal US ตามคีย์ COOK / GUN และ ASCRS 2023"],
+       members:["MDCU79|RoC|Colo 3","MDCU75|RoC|Colo 5"]}
+    ]},
+    {title:"Pediatric: anorectal malformation", sections:[
+      {id:"anorectal-malformation", title:"Anorectal malformation: low vs high จาก prone cross-table lateral",
+       asked:["ทารกชายไม่มีรูทวาร ไม่มี meconium ที่ perineum อายุ 24 ชม. ทำ prone cross-table lateral วาง marker ที่ anal dimple (ให้ภาพ rectal pouch ห่าง marker มาก) → <b>high anorectal malformation</b> (ตัวลวง meconium plug syndrome, Hirschsprung, low ARM, cloacal malformation)"],
+       pattern:["ตรวจ perineum ก่อน: เห็น <b>perineal fistula</b> (meconium ที่ perineum / median raphe, bucket handle) = low ARM → <b>primary anoplasty / PSARP</b> ในช่วงแรกเกิด","ชายไม่มี perineal fistula → <b>รอ 16–24 ชม.</b> (ให้ลมเดินถึงปลาย rectum และ meconium ถูกดันผ่าน fistula) + ตรวจปัสสาวะหา meconium (rectourinary fistula)","<b>Prone cross-table lateral</b> (marker ที่ anal dimple): rectal gas ห่างผิว <b>>1 cm</b> / อยู่เหนือ coccyx = high (หรือ intermediate) ARM มักมี rectourethral (bulbar / prostatic) หรือ rectovesical fistula → <b>diverting (divided descending) colostomy</b> ก่อน แล้ว PSARP ภายหลัง (Peña / Levitt); <b>≤1 cm</b> = low → primary PSARP","คัดกรอง VACTERL: echocardiogram, renal US, spine / sacrum, ใส่สาย NG ตรวจ esophageal atresia","แยก: Hirschsprung / meconium plug มีรูทวารปกติ; cloaca = เพศหญิงมีรูเปิดเดียว"],
+       pearls:["ถ่ายภาพก่อน 16–24 ชม. → ลมยังไม่ถึงปลาย rectum ทำให้ดู high เกินจริง","ภาพไม่มีสเกล ตัดสินจากระยะ pouch–marker เทียบกับกระดูกสันหลังทารก (ห่างหลายช่วง = >1 cm ชัดเจน)"],
+       members:["MDCU79|RoC|Ped 7"]}
+    ]}
+  ]});

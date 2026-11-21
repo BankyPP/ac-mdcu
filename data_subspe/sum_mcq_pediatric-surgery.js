@@ -1,686 +1,453 @@
-SUMM.push({
- "tag": "Pediatric surgery",
- "title": "Pediatric surgery",
- "intro": "<ul><li>MDCU79 RoC มี 12 ข้อย่อย กระจายหลายระบบ: <b>ทารกแรกเกิด / congenital anomaly</b> (ARM, SCT, cystic hygroma, epispadias, hydrocephalus, TOF), <b>ปัญหาการกินในทารก</b> (tongue tie ออกซ้ำ 2 เคส, pyloric stenosis, cleft palate timing) และ <b>vascular / skin</b> (infantile hemangioma), <b>อวัยวะเพศ</b> (paraphimosis)</li><li>รูปแบบ: ภาพถ่าย / ฟิล์ม → Dx (ARM, hydrocephalus, cystic hygroma), next step (frenotomy, IV fluid ก่อน pyloromyotomy, manual reduction), timing ของการผ่าตัด, หลักผ่าตัดเฉพาะโรค (coccygectomy ใน SCT)</li><li>ตัวลวงที่ซ้ำ: ผ่าตัดทันทีทั้งที่ต้อง resuscitate / ลองวิธี non-invasive ก่อน, และ observe ทั้งที่มีอาการ (tongue tie)</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: neonatal surgery เต็มรูปแบบ — Hirschsprung, NEC, double bubble, omphalocele, biliary atresia, HPS, intussusception, Meckel, Wilms, cystic hygroma, UDT/hydrocele/hypospadias/CAH, torticollis</li><li>AC Subspe MDCU78 (RoA–RoD) เพิ่มเข้ามา: ARM, Hirschsprung, NEC, malrotation (Ladd), jejunal atresia, choledochal cyst, biliary atresia, omphalocele, pyloric stenosis, Meckel, UDT, VUR, TGDC/branchial, torticollis, cleft palate, foreign body</li></ul>",
- "groups": [
-  {
-   "title": "ปัญหาการกินในทารก",
-   "sections": [
-    {
-     "id": "tongue-tie",
-     "title": "Ankyloglossia (tongue tie) ที่มีอาการ → frenotomy",
-     "trend": "ออก 2 เคส (ทารก 5 วัน และ 3 เดือน) คำตอบเดียวกัน",
-     "asked": [
-      "ทารกกินนมแม่ ดูดบ่อยไม่อิ่ม น้ำหนักขึ้นช้า แม่เจ็บหัวนม frenulum สั้นยกลิ้นไม่ขึ้น → management",
-      "ทารก 5 วันดูดไม่ดีแม้ได้ lactation support, frenulum จำกัดการยกและแลบลิ้น → next step"
-     ],
-     "pattern": [
-      "มีอาการด้านการให้นม (latch ไม่ดี, ไม่อิ่ม, น้ำหนักขึ้นช้า, แม่เจ็บหัวนม) หลังประเมินร่วม lactation consultant → <b>frenotomy</b>",
-      "ทำที่ OPD ไม่ต้องดมยาในทารกเล็ก ให้ดูดนมได้ทันที (AAO-HNS 2020)",
-      "ไม่มีอาการ → observe ไม่ทำ prophylactic frenotomy",
-      "เด็กโต frenulum หนา / ปัญหาการพูด → frenuloplasty ภายใต้ GA",
-      "ทารกแรกเกิดดูดไม่ดีต้องคิดสาเหตุอื่นด้วย: latch ผิด, น้ำนมน้อย, hypotonia, sepsis, hypoglycemia, jaundice, cleft palate"
-     ],
-     "pearls": [
-      "ทั้งสองเคสเป็น recall ช้อยเดียว Claude แต่งช้อยอื่นและเติมว่าลิ้นถูกจำกัดจริง — ถ้า frenulum ไม่จำกัดการเคลื่อนไหวจะตอบ observe"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 1",
-      "MDCU79|RoC|Ped 8"
-     ]
-    },
-    {
-     "id": "ihps",
-     "title": "Infantile hypertrophic pyloric stenosis → resuscitate ก่อน pyloromyotomy",
-     "asked": [
-      "ทารก 4 สัปดาห์อาเจียนไม่มีน้ำดี 10 วัน olive mass RUQ กระหม่อมบุ๋ม ซึม → next management (ตัวลวง immediate pyloromyotomy, PPI, ORS กลับบ้าน)",
-      "Non-bilious vomiting ยังหิว + olive RUQ → Dx (79D)",
-      "Pyloric stenosis → hypochloremic hypokalemic metabolic alkalosis (78B)"
-     ],
-     "pattern": [
-      "<b>Pyloric stenosis is a medical, not surgical, emergency</b>",
-      "Hypochloremic hypokalemic metabolic alkalosis (paradoxical aciduria ระยะท้าย)",
-      "NSS 10–20 mL/kg bolus → D5 ½NSS + KCl (หลังปัสสาวะออก) จน Cl ≥100, HCO3 <30, K ปกติ",
-      "จากนั้น Ramstedt pyloromyotomy (open / laparoscopic)",
-      "US: muscle thickness ≥3–4 mm, channel length ≥15–16 mm; อายุ 2–8 สัปดาห์, ชาย, ลูกคนแรก, erythromycin แรกเกิด"
-     ],
-     "pearls": [
-      "ผ่าตัดขณะยัง alkalosis → postoperative apnea",
-      "ห้าม Ringer lactate / bicarbonate (lactate → bicarbonate ทำให้ alkalosis แย่ลง)",
-      "อาเจียนมีน้ำดีในทารก = malrotation with volvulus จนกว่าจะพิสูจน์ว่าไม่ใช่"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped ไม่มีเลข 1",
-      "MDCU79|RoD|Ped 9",
-      "MDCU78|RoB|29"
-     ]
-    },
-    {
-     "id": "cleft-palate-timing",
-     "title": "Cleft palate: palatoplasty อายุ 9–12 เดือน",
-     "asked": [
-      "ทารก 3 เดือน isolated cleft of secondary palate กินขวดพิเศษได้ดี → เวลาผ่าตัดที่เหมาะสม",
-      "Cleft palate ซ่อมตอนไหน → 1 ปี (79D)",
-      "ภาวะแทรกซ้อนที่ severe สุดของ cleft palate (78B คีย์ speech delay)",
-      "Cleft palate ผ่าตอนกี่ขวบ → 1 ปี (78D)"
-     ],
-     "pattern": [
-      "Timeline: cleft lip ~3 เดือน (rule of 10s) → <b>palatoplasty 9–12 เดือน</b> (เสร็จก่อน ~18 เดือน, ก่อนเริ่มพูด) → speech / VPI 3–5 ปี → alveolar bone graft 9–11 ปี → orthognathic วัยรุ่นปลาย",
-      "เหตุผล: ซ่อม levator veli palatini ทันพัฒนาการพูด ลด VPI แต่ไม่รบกวน maxilla มากเกิน",
-      "Cleft palate เสี่ยง otitis media with effusion → ใส่ ventilation tube มักพร้อม palatoplasty",
-      "Isolated cleft palate → นึกถึง syndrome: Pierre Robin, 22q11.2, Stickler"
-     ],
-     "pearls": [
-      "สับสนเวลา lip (3 เดือน) / palate (9–12 เดือน) / bone graft (9–11 ปี)",
-      "recall มีแค่หัวข้อ + ช้อยเดียว — stem แต่งให้"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 6",
-      "MDCU79|RoD|Ped 8",
-      "MDCU78|RoB|8",
-      "MDCU78|RoD|63"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Congenital anomaly ของทารกแรกเกิด",
-   "sections": [
-    {
-     "id": "arm",
-     "title": "Anorectal malformation: prone cross-table lateral → high ARM",
-     "asked": [
-      "ทารกชายไม่มีรูทวาร ไม่มี meconium ที่ perineum, ฟิล์ม prone cross-table lateral ที่ 24 ชม. วาง marker → Dx (ตัวลวง low ARM, Hirschsprung, meconium plug, cloaca)",
-      "Meconium ทางท่อปัสสาวะ → cross-table (78B) · perineal fistula → PSARP (78D)"
-     ],
-     "pattern": [
-      "ชายไม่มี perineal fistula → <b>รอ 16–24 ชม.</b> แล้วทำ prone cross-table lateral",
-      "ระยะลมปลาย rectum ถึง marker <b>>1 cm = high</b> → diverting colostomy ก่อน แล้ว PSARP 1–3 เดือน; ≤1 cm = low → primary PSARP / anoplasty",
-      "Meconium ในปัสสาวะชาย = rectourinary fistula (high)",
-      "หญิง: vestibular fistula พบบ่อยสุด; cloaca (รูเดียว) → colostomy",
-      "ตรวจ VACTERL ทุกราย: spine + US tethered cord, echo, NG tube, renal US, limb"
-     ],
-     "pearls": [
-      "ถ่ายฟิล์มเร็วกว่า 16–24 ชม. → ดู high เกินจริง",
-      "คำตอบตัดสินจากภาพ (ลมห่างจาก marker ชัดเจน) — ตอบตามการอ่านภาพของ bank"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 7",
-      "MDCU78|RoB|32",
-      "MDCU78|RoD|2"
-     ]
-    },
-    {
-     "id": "sct",
-     "title": "Sacrococcygeal teratoma → en bloc excision + coccygectomy",
-     "asked": [
-      "ทารกหญิง SCT ขนาดใหญ่ ต้องตัดโครงสร้างใดด้วยเพื่อป้องกัน recurrence (ตัวลวง sacrectomy, rectum, gluteal)",
-      "SCT หลังคลอด (รูป) → excision + coccygectomy (78D)"
-     ],
-     "pattern": [
-      "<b>ตัด coccyx ทุกครั้ง</b> — เหลือ coccyx → recurrence ~35–40% (มักเป็น malignant yolk sac)",
-      "SCT = neonatal tumor ที่พบบ่อยสุด, หญิง:ชาย ~3–4:1",
-      "Altman I (ส่วนใหญ่นอกตัว พบบ่อยสุด) → IV (presacral ทั้งหมด วินิจฉัยช้า malignant มากสุด)",
-      "ผ่าตัดเร็วหลังคลอด (malignant เพิ่มตามอายุ), ควบคุม median sacral artery แต่เนิ่น",
-      "ติดตาม AFP ทุก 3 เดือน 3 ปี + rectal exam + imaging"
-     ],
-     "pearls": [
-      "sacrectomy เป็นตัวลวงจากชื่อโรค"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 6",
-      "MDCU78|RoD|4"
-     ]
-    },
-    {
-     "id": "cystic-hygroma",
-     "title": "Cystic hygroma (macrocystic lymphatic malformation) ที่คอทารก",
-     "asked": [
-      "ทารกแรกเกิดก้อนใหญ่ นุ่ม กดยุบ ข้างคอซ้ายลามถึงไหล่ ตั้งแต่เกิด (ภาพ) → Dx (ตัวลวง branchial cyst, thyroglossal, teratoma, SCM tumor)",
-      "ก้อน cystic ด้านข้างคอทารก ส่องไฟผ่าน → Dx (79D)"
-     ],
-     "pattern": [
-      "Posterior triangle ~75%, นุ่ม หลายช่อง transilluminate, ตั้งแต่เกิด; prenatal สัมพันธ์ Turner, Down, Noonan",
-      "ภาวะแทรกซ้อน: airway compression (EXIT), ติดเชื้อ, เลือดออกในก้อน",
-      "Dx: US / MRI ไม่ต้อง biopsy",
-      "Macrocystic → <b>sclerotherapy</b> (OK-432, doxycycline, bleomycin) หรือผ่าตัด; microcystic → sirolimus",
-      "Midline: thyroglossal (Sistrunk), dermoid; lateral: branchial cleft, lymphatic malformation, SCM tumor"
-     ],
-     "pearls": [
-      "branchial cyst ไม่ใหญ่ขนาดนี้และมักไม่ปรากฏตั้งแต่แรกเกิด"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 4",
-      "MDCU79|RoD|Ped 13"
-     ]
-    },
-    {
-     "id": "hydrocephalus",
-     "title": "Hydrocephalus ในทารก (ภาพ sunset sign)",
-     "asked": [
-      "ทารก 4 เดือน ภาพศีรษะโต HC >P97 fontanelle ตึง → Dx (ตัวลวง myelomeningocele, craniosynostosis, achondroplasia, encephalocele)",
-      "หัวโต + sunset eyes → congenital hydrocephalus (79D)"
-     ],
-     "pattern": [
-      "ศีรษะโตเร็ว, fontanelle โป่งตึง, sutures แยก, scalp vein โป่ง, <b>sunset sign</b>, Macewen sign",
-      "Obstructive (aqueductal stenosis, tumor, Dandy-Walker, Chiari II) vs communicating (post-hemorrhagic, post-meningitis)",
-      "ทารก: cranial US ผ่าน fontanelle; MRI หาสาเหตุ",
-      "รักษา: VP shunt หรือ ETV ± choroid plexus cauterization ใน obstructive",
-      "Myelomeningocele ~80% ต้อง shunt; ปิด defect ใน 24–72 ชม."
-     ],
-     "pearls": [
-      "achondroplasia ศีรษะโตหน้าผากโหนกได้ แต่ไม่มี fontanelle ตึง / sunset sign",
-      "recall มีแค่รูป + Dx + 2 ช้อย — stem แต่งให้"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 5",
-      "MDCU79|RoD|Neuro 12"
-     ]
-    },
-    {
-     "id": "tof-bt-shunt",
-     "title": "TOF ductal-dependent ที่ PGE1 ล้มเหลว → modified BT shunt",
-     "asked": [
-      "ทารก 3 วัน TOF SpO2 60% แม้ O2 100% duct ปิดแม้ให้ PGE1 → next management (ตัวลวง PA banding, indomethacin, balloon septostomy)",
-      "Pulmonary atresia ductal-dependent → palliative BT shunt (79D)"
-     ],
-     "pattern": [
-      "Ductal-dependent pulmonary circulation → PGE1; ล้มเหลว → <b>modified Blalock-Thomas-Taussig shunt</b> (subclavian / innominate → PA) หรือ ductal / RVOT stent",
-      "Complete repair (ปิด VSD + แก้ RVOT) elective อายุ 3–6 เดือน",
-      "Tet spell: knee-chest, O2, morphine, fluid, phenylephrine, beta-blocker",
-      "PGE1 side effect: apnea, ไข้, hypotension",
-      "เลือดไปปอดน้อย → shunt (BT/ductal stent) · มากเกิน → PA banding · TGA → arterial switch (Senning/Mustard = atrial switch)"
-     ],
-     "pearls": [
-      "BT shunt / ductal stent เพิ่มเลือดไปปอด vs PA banding ลด; PGE1 เปิด duct vs indomethacin ปิด; balloon septostomy ใช้ใน d-TGA",
-      "recall ช้อยเดียว — ช้อยอื่นแต่งให้"
-     ],
-     "members": [
-      "MDCU79|RoC|CVT 1",
-      "MDCU79|RoD|CVT 6"
-     ]
-    },
-    {
-     "id": "epispadias-ped",
-     "title": "Epispadias vs hypospadias",
-     "asked": [
-      "ทารกชาย meatus dorsal + ventral hood + dorsal chordee, bladder ปกติ → Dx",
-      "Hypospadias → หา UDT ร่วม (79D)"
-     ],
-     "pattern": [
-      "<b>Epispadias</b> = meatus dorsal, dorsal chordee, ventral hood ± pubic diastasis / incontinence",
-      "<b>Hypospadias</b> = meatus ventral, ventral chordee, dorsal hood; ห้าม circumcise; ซ่อม 6–18 เดือน",
-      "Bladder exstrophy = bladder plate เปิดที่ผนังหน้าท้อง + epispadias"
-     ],
-     "pearls": [
-      "chordee และ hood อยู่ฝั่งตรงข้ามกันเสมอ",
-      "recall มีแค่ลักษณะ — stem เติมว่า bladder ปกติ"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 3",
-      "MDCU79|RoD|Ped 16"
-     ]
-    },
-    {
-     "id": "vsd",
-     "title": "VSD: holosystolic murmur ที่ LLSB + เหนื่อย ไม่เขียว",
-     "asked": [
-      "Holosystolic murmur LLSB ไม่เขียวแต่เหนื่อย → Dx",
-      "(78B) VSD heart failure 1–2 เดือน"
-     ],
-     "pattern": [
-      "ASD: ejection murmur LUSB + fixed split S2 · PDA: continuous machinery · TOF: เขียว"
-     ],
-     "members": [
-      "MDCU79|RoD|CVT 5",
-      "MDCU78|RoB|45"
-     ]
-    },
-    {
-     "id": "tga-ped",
-     "title": "TGA: cyanosis แรกเกิด + egg on string",
-     "asked": [
-      "ทารก 2 ชม. เขียว + CXR (78A)",
-      "กินแล้วเขียว + single S2 (78B)"
-     ],
-     "pattern": [
-      "PGE1 → septostomy → arterial switch"
-     ],
-     "members": [
-      "MDCU78|RoA|10",
-      "MDCU78|RoB|44"
-     ]
-    },
-    {
-     "id": "asd-ped",
-     "title": "ASD: ejection murmur upper sternal border + fixed split S2",
-     "asked": [
-      "ทารก 2 เดือน murmur เบา ๆ upper sternal border (78D)"
-     ],
-     "pattern": [
-      "ไม่มีอาการในวัยทารก ปิดเองได้ถ้าเล็ก"
-     ],
-     "members": [
-      "MDCU78|RoD|43"
-     ]
-    },
-    {
-     "id": "encephalocele-ped",
-     "title": "Frontoethmoidal encephalocele: defect ที่ nasoethmoid",
-     "asked": [
-      "ทารกก้อนใหญ่สันจมูก → defect location (78B)"
-     ],
-     "pattern": [
-      "ก้อนกลางจมูกในเด็ก → MRI/CT ก่อน ห้าม biopsy"
-     ],
-     "members": [
-      "MDCU78|RoB|9"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Vascular anomaly และอวัยวะเพศ",
-   "sections": [
-    {
-     "id": "infantile-hemangioma",
-     "title": "Infantile hemangioma low-risk → observe and reassure",
-     "asked": [
-      "ทารก 3 เดือน hemangioma 1 cm ที่แก้ม ไม่ใกล้ตา จมูก ปาก ไม่มีแผล โตขึ้นไม่กี่สัปดาห์ → management (ตัวลวง laser, embolization, excision, RT)"
-     ],
-     "pattern": [
-      "Natural history: โตเร็วสุด 1–3 เดือน, จบการโต ~5 เดือน, involute ส่วนใหญ่ภายใน ~4 ปี; GLUT-1 positive",
-      "Low-risk → <b>active observation + reassurance</b> + ถ่ายรูปติดตาม (AAP 2019); superficial บาง ๆ อาจใช้ topical timolol",
-      "High-risk (AAP 2019): periocular, airway, ulceration, nasal tip / lip, segmental facial >5 cm (PHACE), lumbosacral (LUMBAR), hepatic → <b>oral propranolol 2–3 mg/kg/day</b>",
-      "Propranolol: ให้กินพร้อมนม (ระวัง hypoglycemia), bradycardia, hypotension, bronchospasm"
-     ],
-     "pearls": [
-      "โตเร็วช่วง 1–3 เดือนคือปกติ ไม่ใช่เหตุให้ intervene",
-      "recall Claude เติมขนาด / ตำแหน่ง low-risk — ถ้าโจทย์จริงเป็น high-risk คำตอบคือ propranolol (ไม่มีในช้อย)"
-     ],
-     "members": [
-      "MDCU79|RoC|Plastic 2"
-     ]
-    },
-    {
-     "id": "paraphimosis-ped",
-     "title": "Paraphimosis → manual reduction",
-     "asked": [
-      "เด็ก 6 ปี paraphimosis 4 ชม. glans ชมพู → next step",
-      "Physiologic phimosis → topical steroid + แนะนำ ห้ามดึง (79D)"
-     ],
-     "pattern": [
-      "Analgesia + ลดบวม → <b>manual reduction</b> → ล้มเหลว dorsal slit → elective circumcision ภายหลัง",
-      "Phimosis → topical steroid ก่อน"
-     ],
-     "pearls": [
-      "อย่าข้ามไป dorsal slit / circumcision ทันที"
-     ],
-     "members": [
-      "MDCU79|RoC|Ped 2",
-      "MDCU79|RoD|Ped 4"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "ทารกแรกเกิด: ลำไส้อุดตันและผนังหน้าท้อง",
-   "sections": [
-    {
-     "id": "hirschsprung",
-     "title": "Hirschsprung disease (BE: transition zone)",
-     "asked": [
-      "ทารกขี้เทาออกช้า ท้องอืด + barium enema → Dx",
-      "ทารกไม่ถ่ายขี้เทา + blast sign → investigation (78B)"
-     ],
-     "pattern": [
-      "BE: rectum แคบ + transition zone + colon ต้นโป่ง (rectosigmoid index &lt;1) · ยืนยัน <b>rectal suction biopsy</b> · เสี่ยง enterocolitis",
-      "Microcolon = meconium ileus / ileal atresia · small left colon = แม่เบาหวาน"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 1",
-      "MDCU78|RoB|31"
-     ]
-    },
-    {
-     "id": "nec",
-     "title": "NEC: pneumatosis intestinalis",
-     "asked": [
-      "Preterm ท้องอืด ผนังท้องแดง → imaging ที่จำเพาะที่สุด",
-      "Preterm bloody stool + AXR → NEC (78B, 78D)",
-      "Acute abdomen อายุ 6 เดือน ที่ least likely = NEC (78C)"
-     ],
-     "pattern": [
-      "Pneumatosis = Bell IIA · portal venous gas · free air = perforation → ผ่าตัด/peritoneal drain",
-      "NPO, NG, IV fluid, broad-spectrum ATB; นมแม่/probiotics ลดความเสี่ยง"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 3",
-      "MDCU78|RoB|33",
-      "MDCU78|RoC|7",
-      "MDCU78|RoD|1"
-     ]
-    },
-    {
-     "id": "duodenal-atresia",
-     "title": "Double bubble + bilious vomiting วันแรก → NG + IV fluid ก่อน duodenoduodenostomy",
-     "asked": [
-      "ทารก 1 วัน bilious vomiting + double bubble → manage ต่อ"
-     ],
-     "pattern": [
-      "Duodenal atresia (Down ~30%): NPO, NG decompression, IV fluid/electrolyte → echo → <b>duodenoduodenostomy</b>",
-      "มีแก๊สส่วนปลาย/อาเจียนเขียวเฉียบพลัน → upper GI study หา malrotation/volvulus ด่วน"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 15"
-     ]
-    },
-    {
-     "id": "omphalocele",
-     "title": "Omphalocele: associated anomalies",
-     "asked": [
-      "Omphalocele → associated syndrome (ช้อยมี Down)",
-      "Omphalocele สัมพันธ์ syndrome ใด (78B คีย์ Down)",
-      "Initial management omphalocele (78B)"
-     ],
-     "pattern": [
-      "Omphalocele (กลางสะดือ มีถุง) anomaly 50–70%: trisomy 18/13/21, Beckwith-Wiedemann, cardiac, Cantrell · gastroschisis (ขวา ไม่มีถุง) anomaly น้อย"
-     ],
-     "pearls": [
-      "ช้อยในข้อสอบมีแค่ Down เป็นตัวที่สัมพันธ์ (trisomy 13/18, BWS ไม่มีในช้อย)"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 6",
-      "MDCU78|RoB|26",
-      "MDCU78|RoB|58"
-     ]
-    },
-    {
-     "id": "malrotation",
-     "title": "Malrotation with midgut volvulus: Ladd's bands · peritonitis → explore lap",
-     "asked": [
-      "Ladd band คืออะไร (78C)",
-      "ทารก 6 สัปดาห์ bloody stool + tender + tachycardia → explore lap (78D)"
-     ],
-     "pattern": [
-      "Ladd's bands: cecum → right lateral wall ข้าม duodenum · stable → UGI · unstable → ผ่าตัดเลย"
-     ],
-     "members": [
-      "MDCU78|RoC|1",
-      "MDCU78|RoD|3"
-     ]
-    },
-    {
-     "id": "jejunal-atresia",
-     "title": "Jejunal atresia: few dilated loops/triple bubble",
-     "asked": [
-      "Bilious vomiting แรกเกิด + AXR (รูปนี้เป๊ะ ๆ) → jejunal atresia (78B)"
-     ],
-     "pattern": [
-      "Vascular accident in utero · double bubble = duodenal"
-     ],
-     "members": [
-      "MDCU78|RoB|30"
-     ]
-    },
-    {
-     "id": "peds-hernia",
-     "title": "Inguinal hernia ในเด็ก = patent processus vaginalis",
-     "asked": [
-      "Etiology ของ inguinal hernia ในเด็ก (78B)"
-     ],
-     "pattern": [
-      "Herniotomy (high ligation) · incarceration สูงในขวบปีแรก"
-     ],
-     "members": [
-      "MDCU78|RoB|27"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Hepatobiliary และ GI ในเด็ก",
-   "sections": [
-    {
-     "id": "biliary-atresia",
-     "title": "Biliary atresia → Kasai ก่อน 60 วัน",
-     "asked": [
-      "ทารก 6 สัปดาห์ เหลือง อุจจาระซีด US ไม่มี GB HIDA ไม่ขับ → next",
-      "ทารก 1 เดือน เหลือง direct hyperbili → Kasai (78A)"
-     ],
-     "pattern": [
-      "Direct hyperbilirubinemia + acholic stool → US (triangular cord, GB เล็ก) → HIDA (ไม่ขับ) → intraoperative cholangiogram → <b>Kasai portoenterostomy</b> ก่อน 60 วัน",
-      "ล้มเหลว → liver transplant"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 5",
-      "MDCU78|RoA|6"
-     ]
-    },
-    {
-     "id": "intussusception",
-     "title": "Intussusception stable → air enema reduction",
-     "asked": [
-      "Currant jelly stool + sausage mass + target sign, stable → next"
-     ],
-     "pattern": [
-      "Stable ไม่มี peritonitis → image-guided air/hydrostatic enema (สำเร็จ 80–90%) · peritonitis/free air/shock → laparotomy",
-      "เด็กโต/ซ้ำ → หา lead point (Meckel, polyp, lymphoma)"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 10"
-     ]
-    },
-    {
-     "id": "meckel",
-     "title": "Meckel diverticulum: Tc-99m pertechnetate focal uptake RLQ",
-     "asked": [
-      "Painless rectal bleeding → Meckel scan finding ที่ support",
-      "เด็ก 6 ขวบ BRBPR มาก tachycardia → IV fluid ก่อน (78B)"
-     ],
-     "pattern": [
-      "Tc-99m pertechnetate จับ ectopic gastric mucosa → focal uptake RLQ พร้อมกระเพาะ · Rule of 2s"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 11",
-      "MDCU78|RoB|34"
-     ]
-    },
-    {
-     "id": "choledochal",
-     "title": "Choledochal cyst: pain + jaundice + RUQ mass",
-     "asked": [
-      "เด็ก 4 ขวบ ปวดท้องซ้ำ เหลือง ก้อน RUQ (78B)"
-     ],
-     "pattern": [
-      "Excision + Roux-en-Y hepaticojejunostomy (เสี่ยง cholangiocarcinoma)"
-     ],
-     "members": [
-      "MDCU78|RoB|25"
-     ]
-    },
-    {
-     "id": "foreign-body",
-     "title": "เหรียญในกระเพาะ ไม่มีอาการ → observe · button battery ต้องแยก",
-     "asked": [
-      "X-ray เด็กเห็นวัตถุกลมในท้อง → management (78B)"
-     ],
-     "pattern": [
-      "Esophageal coin → remove · gastric → observe · button battery esophagus = emergency"
-     ],
-     "members": [
-      "MDCU78|RoB|59"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Uro / onco / อื่น ๆ ในเด็ก",
-   "sections": [
-    {
-     "id": "udt-ped",
-     "title": "Undescended testis",
-     "asked": [
-      "เด็ก 4 ปี UDT palpable → orchidopexy",
-      "18 เดือน non-palpable → diagnostic laparoscopy",
-      "Hypospadias → หา UDT",
-      "15 เดือน bilateral palpable UDT → bilateral orchiopexy (78B)"
-     ],
-     "pattern": [
-      "Orchidopexy ภายใน 18 เดือน · non-palpable → EUA + laparoscopy (ไม่ส่ง US/MRI)"
-     ],
-     "members": [
-      "MDCU79|RoD|Uro 16",
-      "MDCU79|RoD|Uro 17",
-      "MDCU79|RoD|Ped 16",
-      "MDCU78|RoB|23"
-     ]
-    },
-    {
-     "id": "hydrocele-ped",
-     "title": "Non-communicating hydrocele",
-     "asked": [
-      "ส่องไฟผ่าน บีบไม่ยุบ → Dx"
-     ],
-     "pattern": [
-      "Non-communicating ทารก → observe 1–2 ปี · communicating → herniotomy"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 7"
-     ]
-    },
-    {
-     "id": "cah",
-     "title": "CAH salt-wasting: hyponatremia",
-     "asked": [
-      "DSD + UDT + hypospadias → electrolyte"
-     ],
-     "pattern": [
-      "21-OH: Na ↓ K ↑ acidosis hypoglycemia · 17-OHP · hydrocortisone + fludrocortisone"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 17"
-     ]
-    },
-    {
-     "id": "wilms-ped",
-     "title": "Wilms tumor vs neuroblastoma",
-     "asked": [
-      "ก้อนจากไต ไม่ข้าม midline HT ไม่มีท้องเสีย → Dx"
-     ],
-     "pattern": [
-      "Wilms: ไต เรียบ ไม่ข้าม midline เด็กดูดี · Neuroblastoma: adrenal ข้าม midline ป่วย VMA สูง"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 12"
-     ]
-    },
-    {
-     "id": "medulloblastoma",
-     "title": "Posterior fossa tumor ในเด็ก: medulloblastoma",
-     "asked": [
-      "เด็ก 7 ปี ก้อน fourth ventricle truncal ataxia hydrocephalus → Dx",
-      "Pineal germ cell tumor (78B)"
-     ],
-     "pattern": [
-      "Vermis/4th ventricle + truncal ataxia = medulloblastoma · hemisphere cyst + nodule = pilocytic · pineal = Parinaud"
-     ],
-     "members": [
-      "MDCU79|RoD|Neuro 2",
-      "MDCU78|RoB|46"
-     ]
-    },
-    {
-     "id": "torticollis",
-     "title": "Congenital muscular torticollis → physiotherapy (stretching)",
-     "asked": [
-      "ทารก &lt;1 ปี torticollis จาก SCM → manage",
-      "ทารก 3 เดือนเอียงคอ (78B)"
-     ],
-     "pattern": [
-      "PT stretching + จัดท่า สำเร็จ &gt;90% ก่อน 1 ปี · ล้มเหลว → SCM release · ตรวจ hip dysplasia ร่วม"
-     ],
-     "pearls": [
-      "ช้อยต้นฉบับเขียน muscle strengthening exercise — ความหมายคือ physiotherapy"
-     ],
-     "members": [
-      "MDCU79|RoD|Ped 14",
-      "MDCU78|RoB|36"
-     ]
-    },
-    {
-     "id": "craniosynostosis-eye",
-     "title": "Syndromic craniosynostosis ตาโปน → tarsorrhaphy",
-     "asked": [
-      "Craniosynostosis ตาโปน → most urgent and effective",
-      "Crouzon เร่งด่วนสุด → ICP (78D)"
-     ],
-     "pattern": [
-      "Exorbitism → exposure keratopathy → tarsorrhaphy (ชั่วคราว) → definitive fronto-orbital/monobloc advancement"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 1",
-      "MDCU78|RoD|65"
-     ]
-    },
-    {
-     "id": "vur",
-     "title": "VUR grade IV: CAP ก่อน, ผ่าตัดเมื่อ breakthrough · VCUG ปกติ → หยุดยา",
-     "asked": [
-      "VUR grade IV + recurrent UTI → CAP (78B คีย์: reimplant ถ้า breakthrough)",
-      "VUR grade 4 กินยา 3 ปี VCUG ปกติ → stop ATB (78D)"
-     ],
-     "pattern": [
-      "Surgery: breakthrough febrile UTI, new scar · RIVUR"
-     ],
-     "members": [
-      "MDCU78|RoB|24",
-      "MDCU78|RoD|84"
-     ]
-    },
-    {
-     "id": "neck-ped",
-     "title": "ก้อนที่คอเด็ก: TGDC (US → Sistrunk) และ 2nd branchial cleft cyst",
-     "asked": [
-      "TGDC → Sistrunk (78B) · central mass ขยับตามกลืน → neck US (78D)",
-      "รูปก้อนข้างคอ → 2nd branchial cleft (78D)"
-     ],
-     "pattern": [
-      "TGDC ขยับตามแลบลิ้น · branchial cleft 2 อยู่ขอบหน้า SCM"
-     ],
-     "members": [
-      "MDCU78|RoB|35",
-      "MDCU78|RoD|5",
-      "MDCU78|RoD|6"
-     ]
-    },
-    {
-     "id": "preauricular-ped",
-     "title": "Preauricular sinus ติดเชื้อซ้ำ → excision",
-     "asked": [
-      "รูหน้าหูอักเสบ 2 ครั้ง → management (78B)"
-     ],
-     "pattern": [
-      "ผ่าตัดตอนหายอักเสบ"
-     ],
-     "members": [
-      "MDCU78|RoB|50"
-     ]
-    },
-    {
-     "id": "peds-burn",
-     "title": "เด็ก burn 8% ที่หน้า/คอ → admit",
-     "asked": [
-      "เด็ก burn 8% head and neck (78B)"
-     ],
-     "pattern": [
-      "IV fluid เมื่อ ≥10% · special area → admit"
-     ],
-     "members": [
-      "MDCU78|RoB|60"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"Pediatric surgery", title:"Pediatric surgery",
+  intro:"<ul><li>Tag ที่ใหญ่ที่สุดของ Subspe MCQ และออกทุกรุ่น MDCU66–79 — ครอบคลุม <b>กุมารศัลยศาสตร์ทั่วไป</b> (neonatal GI obstruction, abdominal wall, Hirschsprung / ARM, biliary atresia, intussusception), <b>pediatric urology</b>, <b>ก้อนที่คอเด็ก</b>, <b>cleft / craniofacial</b> (ติด tag Plastic), <b>CHD</b> (ติด tag CVT) และ neurosurgery เด็ก</li><li>รูปแบบที่ซ้ำมากที่สุดเป็น pattern recognition แบบคลาสสิก: <b>ทารกที่เคยดีอาเจียนน้ำดีฉับพลัน = midgut volvulus</b>, olive + non-bilious = HPS (แก้ alkalosis ก่อนผ่า), preterm + pneumatosis = NEC (free air เท่านั้นที่ต้องผ่า), OG ขด + ท้องไม่มีลม = pure EA, double bubble = duodenal atresia (มีลมส่วนปลาย → UGI ก่อน), meconium ในปัสสาวะ = colostomy, enema เห็น transition zone → rectal suction biopsy</li><li>รุ่นเก่า (MDCU66–72) ชอบ <b>ข้อใดผิด / ไม่ใช่</b> และถามซ้ำแทบคำต่อคำ: L→R shunt ไม่ทำ PA hypoplasia, TOF เลือกผ่าตัดตามขนาด PA, ASD = fixed split S2 + RBBB, Wilms ไม่มี calcification (neuroblastoma มี), torsion ยกอัณฑะแล้วไม่ทุเลา, UDT ไม่ทำ orchitis, gastroschisis ileus นาน, juvenile polyp ไม่ใช่เลือดออกในทารกแรกเกิด, Treacher Collins = conductive hearing loss</li><li>Pediatric urology เน้น <b>การตัดสินใจตามตัวเลข / อายุ</b>: UDT รอ 6 เดือน ผ่าภายใน 18 เดือน (non-palpable → laparoscopy ไม่ใช่ US), UPJO pyeloplasty เมื่อ DRF < 40% / nephrectomy < 10%, VUR เริ่ม CAP ผ่าเมื่อ breakthrough หยุดยาเมื่อ VCUG ปกติ, phimosis observe → steroid → circumcision เมื่อมี scar / balanoposthitis ซ้ำ, hypospadias ห้ามขลิบ + หา UDT, ambiguous genitalia → electrolytes (CAH salt-wasting)</li><li>รุ่นใหม่ (MDCU76–79) เพิ่มภาพ (cystic hygroma, hydrocephalus sunset sign, FEEM, Treacher Collins, enema Hirschsprung, cross-table lateral ของ ARM) และหัวข้อใหม่: tongue tie → frenotomy, paraphimosis → manual reduction, epispadias, SCT ต้องตัด coccyx, CMT → stretching, infantile hemangioma low-risk → observe, cleft palate ~1 ปี; คีย์เก่าที่คลังแก้แล้วมีหลายจุด (3 เดือนอาเจียนน้ำดีตอบ volvulus ไม่ใช่ intussusception, ทารก hydrocephalus ไม่ค่อยมี papilledema, ARM ต้อง echo ไม่ใช่ CT spine) — ดูใน pearls ของแต่ละหัวข้อ</li></ul>",
+  groups:[
+    {title:"Pediatric urology: อวัยวะเพศ อัณฑะ และทางเดินปัสสาวะ", sections:[
+      {id:"hypospadias", title:"Hypospadias (และ epispadias): ลักษณะ ภาวะร่วม และห้ามขลิบ",
+       trend:"ออกเกือบทุกปี — ให้ตำแหน่งรูเปิดกับ hood แล้วถามสิ่งที่ต้องหาเพิ่ม สิ่งที่ห้ามทำ หรือผลระยะยาว",
+       asked:["ทารกชายรูเปิดด้าน ventral + chordee + dorsal hooded foreskin → ต้องคลำหาอะไรเพิ่ม → <b>undescended testis</b> (ตัวลวง epispadias, EA, duodenal atresia, craniosynostosis, CHD, imperforate anus, Wilms, cleft palate)","เด็กชายรูเปิดผิดที่ + dorsal hood → management → <b>hypospadias repair</b> (ตัวลวง penile straightening อย่างเดียว, early circumcision, observe ถึงวัยรุ่น, urethral dilatation)","Mid-shaft hypospadias → บอกพ่อแม่ให้ <b>หลีกเลี่ยง circumcision</b> ก่อนซ่อม / neonatal circumcision เป็นข้อห้าม (ตัวลวง วัยรุ่นเป็นเวลาที่ดีที่สุด, ต้องกิน ATB ป้องกัน UTI, ต้อง US ไตทุกราย, hormone จำเป็นทุกราย)","รูเปิด ventral midshaft → สิ่งที่พบร่วม → <b>ventral curvature + dorsal hood</b>","Penoscrotal / proximal hypospadias + chordee ที่ไม่ได้ผ่าตัด → ผลตอนโต → <b>infertility</b> (ฉีดอสุจิเข้าช่องคลอดไม่ได้; ตัวลวง ED, retrograde ejaculation, retention)","MDCU79: ทารกชายรูเปิดด้าน <b>dorsal</b> + ventral hooded prepuce + dorsal chordee, bladder ปกติ → <b>epispadias</b> (ตัวลวง hypospadias, bladder exstrophy, micropenis)"],
+       pattern:["<b>Hypospadias triad</b>: (1) meatus ด้าน ventral (glanular → penoscrotal / perineal) (2) ventral curvature (chordee) (3) <b>dorsal hooded foreskin</b> (prepuce ด้านล่างขาด)","<b>Epispadias</b> = ทุกอย่างกลับด้าน: meatus ด้าน dorsal + dorsal chordee + <b>ventral hood</b>; ส่วนใหญ่อยู่ใน exstrophy-epispadias complex — ถ้า bladder และผนังหน้าท้องปกติ = isolated epispadias; ชนิด penopubic มัก incontinence (bladder neck ไม่สมบูรณ์)","ภาวะร่วมที่ต้องคลำหา: <b>UDT</b> (EAU Paediatric Urology 2025: congenital UDT 2–6.2%, acquired UDT 1–14%) และ inguinal hernia; isolated distal hypospadias ไม่ต้อง US ไตหรือ ATB prophylaxis","<b>Hypospadias + UDT</b> (โดยเฉพาะคลำอัณฑะไม่ได้ / proximal hypospadias) = DSD จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ → karyotype, electrolytes, 17-OHP (ดูหัวข้อ DSD / CAH)","<b>ห้าม circumcision</b> ก่อนซ่อม เพราะใช้ prepuce สร้าง urethra / ปิดผิวหนัง","ผ่าตัดซ่อม (orthoplasty + urethroplasty เช่น TIP) อายุ <b>6–18 เดือน</b> (EAU Paediatric Urology); ไม่ใช่รอวัยรุ่น; hormone (testosterone) ก่อนผ่าตัดหลักฐานยังไม่ชัด ใช้เฉพาะบางราย (ส่วนใหญ่ proximal hypospadias / องคชาตเล็ก) ไม่ใช่ทุกราย (EAU 2025)","ไม่ผ่าตัดใน proximal hypospadias: ยืนปัสสาวะไม่ได้ / ปัสสาวะกระจาย, องคชาตงอทำให้มีเพศสัมพันธ์ลำบาก, <b>ineffective insemination → infertility</b>; erection ยังปกติ ไม่ทำให้ retention"],
+       pearls:["จำทิศ: hypo = ใต้ = ventral, epi = บน = dorsal; chordee อยู่ฝั่งเดียวกับรูเปิด ส่วน hood อยู่ฝั่งตรงข้ามเสมอ","อย่าตอบ ED เป็นผลของ hypospadias ที่ไม่ผ่าตัด — คีย์ทุกปีตอบ infertility"],
+       members:["MDCU79|RoC|Ped 3","MDCU79|RoD|Ped 16","MDCU77|RoA|Uro 9","MDCU77|RoC|Uro 7","MDCU76|RoD|57","MDCU75|RoC|Ped 2","MDCU72|RoC|8","MDCU69|RoA|8","MDCU67|RoA|81"]},
+      {id:"dsd-cah", title:"Ambiguous genitalia / DSD: นึกถึง CAH salt-wasting ก่อน",
+       trend:"ทุกปีถาม lab ที่ด่วนที่สุดหรือ electrolyte ที่ผิดปกติในทารกอวัยวะเพศกำกวม",
+       asked:["ทารกอวัยวะเพศกำกวม → การตรวจที่ด่วนที่สุด → <b>serum electrolytes</b> (ตัวลวง TFT, CT, calcium, gonadal biopsy)","ทารกหญิง labia เชื่อม + clitoromegaly คลำ gonad ไม่ได้ → lab ด่วน → <b>electrolytes</b> (ตัวลวง vitamin K, albumin, calcium, LFT)","Clitoromegaly + labioscrotal fusion → initial management → <b>karyotype + serum electrolytes</b> (ตัวลวง topical steroid, ผ่าตัด clitoral reduction / labial separation ตอนนี้หรือ 6–12 เดือน)","ทารก 'ชาย' micropenis / phallus เล็ก + bilateral non-palpable gonads (± hypospadias) → electrolyte ที่ต้องเฝ้าระวัง → <b>hyponatremia</b> (ตัวลวง hypokalemia, hypophosphatemia, hypercalcemia)","Micropenis + bilateral UDT นอกจาก karyotype และ hormone → ต้องส่ง <b>serum electrolytes</b>","ทารก 3 สัปดาห์ ชัก ซึม + clitoromegaly + labial fusion → ความผิดปกติที่อธิบายอาการ → <b>hyponatremia</b> (hyperkalemia เกิดจริงแต่ไม่ใช่เหตุชัก)","เด็ก 13 ปี gynecomastia + scrotal hypospadias + bilateral non-palpable testes → <b>chromosomal study</b> (ตัวลวง mammogram, US เต้านม, mastectomy, observe)"],
+       pattern:["สาเหตุที่พบบ่อยสุดของ 46,XX DSD (virilized female) = <b>CAH จาก 21-hydroxylase deficiency</b> (~95% ของ CAH); ทารกดูเหมือนชายที่คลำอัณฑะไม่ได้ทั้งสองข้าง (gonad = รังไข่) อาจเป็น 46,XX CAH","ขาด cortisol + aldosterone → androgen เกิน; ชนิด <b>salt-wasting</b> (~3/4) เกิด crisis ช่วงสัปดาห์ที่ 1–3: <b>hyponatremia, hyperkalemia</b>, metabolic acidosis, hypoglycemia, dehydration → shock","Work-up ทันที: <b>serum electrolytes + glucose + 17-OHP</b> พร้อม karyotype และ pelvic US (หา uterus / gonad); ส่งต่อทีม DSD","รักษา crisis: NSS bolus + IV hydrocortisone stress dose; ระยะยาว hydrocortisone + fludrocortisone + NaCl","การผ่าตัดอวัยวะเพศ <b>เลื่อนออกไป</b> ให้ทีม DSD ตัดสิน — ไม่ทำ clitoral reduction / labial separation เป็นขั้นแรก","Hypospadias + UDT (โดยเฉพาะ bilateral non-palpable, proximal) หรือวัยรุ่นที่มี gynecomastia ร่วม → <b>karyotype</b> + hormone (testosterone, DHT, LH / FSH, AMH, 17-OHP) + imaging หา gonad / müllerian structure"],
+       pearls:["ตัวลวงที่พบบ่อย: hypokalemia — CAH salt-wasting ได้ <b>hyper</b>kalemia","ทารก micropenis + UDT สองข้างควรนึกถึง hypopituitarism (hypoglycemia) ด้วย แต่คำตอบของข้อสอบคือ electrolytes / hyponatremia"],
+       members:["MDCU79|RoD|Ped 17","MDCU77|RoC|Ped 9","MDCU76|RoA|25","MDCU76|RoD|61","MDCU74|RoA|ไม่มีเลข 3","MDCU70|RoB|7","MDCU71|RoA|9","MDCU67|RoB|80","MDCU66|RoA|17"]},
+      {id:"upjo", title:"Antenatal hydronephrosis และ UPJ obstruction: ตรวจอะไร เมื่อไรผ่า pyeloplasty / nephrectomy",
+       trend:"ให้ค่า DRF จาก renogram แล้วถามว่าจะ follow-up, pyeloplasty หรือ nephrectomy",
+       asked:["ทารกแรกเกิด prenatal hydronephrosis แต่ US วันแรกไม่เห็น → <b>US ซ้ำหลังวันที่ 3</b> (ตัวลวง reassure, IVP, CT, VCUG ทันที)","Prenatal / postnatal hydronephrosis, VCUG ปกติ → ตรวจต่อ → <b>diuretic renogram</b> (MAG3) (ตัวลวง CT, KUB, retrograde pyelography, VCUG ซ้ำ, IVP, MRI)","7 เดือน severe hydronephrosis ไม่มี hydroureter, DRF 22% + obstructive curve → <b>pyeloplasty</b> (ตัวลวง nephrectomy, PCN, DJ stent, follow-up)","6 เดือน left HN, DRF ซ้าย 30% → <b>left pyeloplasty</b>","Mild HN จาก UPJO ไม่มีอาการ DRF 50:50 → <b>follow-up ด้วย US + renogram</b> (ตัวลวง nephrectomy, pyeloplasty, DJ, ATB ตลอดชีวิต)","5 ปี flank mass, ไตทำงาน 5%, VCUG ปกติ → <b>nephrectomy</b>","ทารกแรกเกิดคลำได้ก้อนที่ flank ซ้าย → สาเหตุที่น่าจะเป็นที่สุด → <b>hydronephrosis</b> (ตัวลวง Wilms, neuroblastoma, polycystic kidney, duplication cyst)"],
+       pattern:["<b>Postnatal US</b> เลื่อนออกไปหลังช่วงแรกเกิดเพราะมี physiologic oliguria → US วันแรกอาจ false negative: UTD consensus 2014 = หลังอายุ <b>> 48 ชม.</b>; EAU Paediatric Urology 2025 = <b>ภายในสัปดาห์แรก</b> (ยกเว้นรายรุนแรง — bilateral, solitary kidney, oligohydramnios → ทำทันทีหลังคลอด); ซ้ำอีกครั้งที่ 4–6 สัปดาห์","HN ± hydroureter → <b>VCUG</b> แยก VUR / PUV; ถ้า VCUG ปกติ (ไม่มี hydroureter = นึกถึง UPJO) → <b>diuretic renogram (MAG3)</b> ดู drainage + split (differential) renal function","ข้อบ่งชี้ <b>pyeloplasty</b> (Anderson-Hynes dismembered): <b>DRF < 40%</b>, DRF ลดลง > 10% ระหว่างติดตาม, obstructive drainage ร่วมกับอาการ (ปวด, UTI, นิ่ว), APD / grade HN เพิ่มขึ้น (EAU Paediatric Urology)","DRF ≥ 40% ไม่มีอาการ → <b>conservative</b>: ติดตาม US + renogram","ไตแทบไม่ทำงาน (DRF <b>< 10%</b>) → <b>nephrectomy</b> (บางรายใส่ PCN ทดลองดูการฟื้นก่อน)","ก้อนในท้องทารกแรกเกิด ~2/3 มาจากไต; อันดับ 1 = <b>hydronephrosis (UPJO)</b>, รองลงมา multicystic dysplastic kidney; Wilms / neuroblastoma พบในเด็กโตกว่า"],
+       pearls:["ไม่มี hydroureter = ไม่ใช่ VUR / UVJ obstruction → คิด UPJO","ตัวเลข 40% (pyeloplasty) และ 10% (nephrectomy) ถูกใช้ตัดสินทุกปี"],
+       members:["MDCU74|RoA|6","MDCU73|RoB|Uro 2","MDCU72|RoA|3","MDCU68|RoC|19","MDCU67|RoB|81","MDCU67|RoD|13","MDCU66|RoA|18","MDCU67|RoA|8","MDCU66|RoA|47"]},
+      {id:"vur-mx", title:"Vesicoureteral reflux: CAP ก่อน ผ่าตัดเมื่อ breakthrough, หยุดยาเมื่อ VCUG ปกติ",
+       trend:"ให้ grade VUR + ประวัติ UTI ระหว่างกินยา แล้วถามขั้นต่อไป",
+       asked:["4 ปี UTI ซ้ำ VCUG grade IV → <b>continuous antibiotic prophylaxis</b> (คีย์เขียนต่อ: reimplantation ถ้า breakthrough)","1 ปี febrile UTI ครั้งแรก bilateral grade IV, ไตปกติ → <b>CAP</b> (ตัวลวง reimplantation, endoscopic injection ทันที, nephrectomy, observe)","1 ปี หลัง febrile UTI, left grade III → <b>CAP + follow-up</b>","Grade IV กิน CAP 2–3 ปีไม่มีติดเชื้อ VCUG ซ้ำไม่มี reflux → <b>หยุด CAP</b> (ตัวลวง VCUG ซ้ำ, reimplantation, ให้ต่อถึงวัยรุ่น)","6 ปี febrile UTI 6 ครั้งทั้งที่กิน CAP, bilateral grade 2 → <b>bilateral ureteral reimplantation</b> (ตัวลวง เพิ่มยา, pyelostomy)","6 ปี กิน CAP แต่ VCUG ยัง bilateral grade III + hydronephrosis → <b>bilateral ureteric reimplantation</b> (ตัวลวง เพิ่ม dose ยา, หยุดยา, pyeloplasty, nephrostomy)"],
+       pattern:["เริ่มด้วย <b>CAP</b> + รักษา bladder-bowel dysfunction + ติดตาม (RIVUR: CAP ลด recurrent febrile UTI ราวครึ่งหนึ่ง) — ส่วนใหญ่หายเองเมื่อ intravesical ureter ยาวขึ้น (grade ต่ำ หายง่ายกว่า)","ข้อบ่งชี้ผ่าตัด (ureteral reimplantation สำเร็จ ~95%+ หรือ endoscopic injection): <b>breakthrough febrile UTI ขณะได้ CAP</b>, renal scar ใหม่ / ไตโตช้า, high grade ที่ไม่หายเมื่อโต, กินยาไม่ได้","Breakthrough ไม่ขึ้นกับ grade — grade 2 ที่ติดเชื้อซ้ำหลายครั้งก็ผ่า","VCUG ซ้ำไม่มี reflux = หายแล้ว → <b>หยุด CAP</b> แล้วติดตามอาการ UTI","การเพิ่มขนาดยาไม่แก้ reflux — ล้มเหลวจากยา = แก้ต้นเหตุด้วยการผ่าตัด","EAU Paediatric Urology 2025: CAP สำหรับเด็กที่มีอาการในขวบปีแรกทุก grade; <b>พิจารณาผ่าตัดใน persistent high-grade (IV–V)</b> และเด็กอายุ > 1 ปี high grade ที่เนื้อไตผิดปกติ — แต่คำตอบข้อสอบ (ยังไม่เคยกินยา) = CAP"],
+       pearls:["ยังไม่เคยได้ CAP → เริ่ม CAP · ได้แล้วยังติดเชื้อ → ผ่า · VCUG ปกติ → หยุดยา"],
+       members:["MDCU78|RoB|24","MDCU78|RoD|84","MDCU76|RoA|19","MDCU74|RoD|34","MDCU72|RoA|1","MDCU69|RoA|7","MDCU67|RoC|81"]},
+      {id:"phimosis-physio", title:"Physiologic phimosis: observe หรือ topical steroid (ห้ามรูดแรง)",
+       trend:"ให้อายุ + ไม่มีอาการ / มี ballooning แล้วถามว่าจะ observe หรือทายา",
+       asked:["1 ปี รูดไม่ลง ไม่เคยติดเชื้อ ปัสสาวะปกติ → <b>observe ถึงราว 4 ปี</b> (ตัวลวง circumcision, topical steroid, forcible retraction)","3 ปี รูดไม่ลง ไม่มี ballooning / ติดเชื้อ / scar → <b>follow-up + reassurance</b>","3 ปี phimosis ไม่มี scar ไม่เคย balanitis → <b>topical steroid + parental education</b> (MDCU79; ตัวลวง circumcision, forced retraction, dorsal slit)","5 ปี รูดไม่ลง ballooning ขณะปัสสาวะ ไม่มี infection / scar พ่อแม่อยากรักษา → <b>topical steroid</b> (ตัวลวง reassure เฉย ๆ, oral ATB, dorsal slit, circumcision)","5 ปี รูดไม่ลง ไม่เคย ballooning / balanitis → <b>topical 0.1% triamcinolone</b> (ตัวลวง รอหายเอง, circumcision)","ประโยชน์ของ neonatal circumcision → <b>ลดความเสี่ยงติดเชื้อ (UTI)</b> (ตัวลวง เพิ่ม fertility, ป้องกัน hypospadias / UDT / testicular cancer)"],
+       pattern:["หนังหุ้มปลายติด glans ตั้งแต่เกิดเป็นเรื่องปกติ และแยกเองทีละน้อยจนถึงวัยรุ่น → ไม่มีอาการ = <b>observe + สอนพ่อแม่ทำความสะอาด ไม่ดึงรั้ง</b>","<b>Topical corticosteroid</b> (0.05–0.1% เช่น betamethasone / triamcinolone) ทาวันละ 2 ครั้ง <b>4–8 สัปดาห์</b> เมื่อมีอาการเล็กน้อย, ยังไม่เปิดในเด็กโต (~หลัง 4 ปี) หรือพ่อแม่ต้องการรักษา (EAU Paediatric Urology)","Ballooning อย่างเดียวไม่ใช่ข้อบ่งชี้ circumcision","<b>ห้าม forced retraction</b> — ทำให้เกิดแผลเป็น → pathologic phimosis / paraphimosis","Neonatal circumcision (AAP 2012): ลด UTI ในขวบปีแรก, ลด STI / HIV, penile cancer; ห้ามทำใน hypospadias"],
+       pearls:["คีย์แต่ละปีแบ่งตามอายุและอาการ: ไม่มีอาการเลยในเด็กเล็ก → observe; มี ballooning / ไม่หายในเด็กโต / พ่อแม่อยากรักษา → steroid","MDCU79 RoD ตอบ topical steroid แม้เด็ก 3 ปีไม่มีอาการ เพราะช้อยคู่กับ parental education และไม่มีช้อย observe เดี่ยว — ถ้ามีช้อย observe ในเด็กเล็กไม่มีอาการ ให้เลือก observe"],
+       members:["MDCU79|RoD|Ped 4","MDCU76|RoD|55","MDCU74|RoC|35","MDCU70|RoA|40","MDCU67|RoA|80","MDCU67|RoC|79"]},
+      {id:"phimosis-patho", title:"Pathologic phimosis / balanoposthitis ซ้ำ → circumcision",
+       trend:"ใส่ scar สีขาว (BXO), balanoposthitis ซ้ำ หรือยาทาล้มเหลว เพื่อให้ตอบ circumcision",
+       asked:["2 ปี balanoposthitis 2 ครั้ง → <b>circumcision</b> (คีย์ MDCU77 เขียน B (A?) — ถ้าเป็นครั้งเดียว topical steroid ก็ได้)","เด็ก < 4 ปี phimosis + balanoposthitis 2 ครั้ง → <b>circumcision</b> (ตัวลวง รอหาย, steroid, ค่อย ๆ รูดแรง)","1 ปี ปัสสาวะไม่พุ่ง ballooning + <b>วงแผลเป็นสีขาว</b>ที่ปลายหนัง → <b>circumcision</b> (ตัวลวง topical steroid, urethral dilatation)","3 ปี ballooning + balanoposthitis 3 ครั้ง + white scar → <b>circumcision</b>","9 ปี / 12 ปี scarring + balanoposthitis ซ้ำ ทั้งที่ทา steroid แล้ว → <b>circumcision</b> (ตัวลวง ventral slit, manual reduction, ทายาต่อ 1 ปี)"],
+       pattern:["ข้อบ่งชี้ <b>circumcision</b>: pathologic phimosis (แผลเป็นวงขาว = <b>BXO / lichen sclerosus</b>), <b>recurrent balanoposthitis</b>, phimosis ที่ไม่ตอบสนองต่อ topical steroid, recurrent febrile UTI ในเด็กที่มีความผิดปกติของทางเดินปัสสาวะ (EAU Paediatric Urology 2025)","BXO ตอบสนองต่อยาทาไม่ดี → ไม่ต้องลองทายาต่อ","ช่วงติดเชื้อเฉียบพลันรักษาด้วยยาก่อน แล้วผ่าตัดแบบ elective"],
+       pearls:["คีย์ไฟล์ 01.2 ของ MDCU69 RoC ตอบ manual reduction (เข้าใจเป็น paraphimosis) — คำตอบที่ถูกคือ circumcision เพราะมี white scar + balanoposthitis ซ้ำ","MDCU77 RoB ต้นฉบับจดว่า 'ballooning 5 hours' — ถ้าโจทย์จริงเป็นหนังรูดค้างบวม (paraphimosis) จะตอบ manual reduction; ให้อ่าน stem ให้ดีว่ารูดไม่ลง (phimosis) หรือรูดลงแล้วไม่กลับ (paraphimosis)"],
+       members:["MDCU77|RoA|Uro 8","MDCU77|RoB|Ped 5","MDCU77|RoC|Uro 6","MDCU74|RoC|7","MDCU72|RoD|8","MDCU69|RoC|R1"]},
+      {id:"udt-nonpalpable", title:"Non-palpable testis: diagnostic laparoscopy (ไม่ใช้ US / MRI)",
+       trend:"ให้คลำไม่ได้ + US ไม่เห็น เพื่อหลอกให้ส่ง imaging",
+       asked:["18 เดือน คลำไม่ได้ US ไม่เห็น → <b>diagnostic laparoscopy</b> (ตัวลวง observe อีก 6 เดือน, hCG stimulation, MRI, orchiectomy)","2 ปี / 3 ปี impalpable testis ตรวจซ้ำแล้ว → <b>diagnostic laparoscopy</b> (ตัวลวง follow-up, MRI, US, CT, inguinal exploration, hormone)","3 ปี non-palpable, US ขาหนีบและถุงอัณฑะไม่พบ → <b>laparoscopy</b> (ตัวลวง วินิจฉัยว่าไม่มีอัณฑะแต่กำเนิด, observe ถึง 4 ปี)","14 ปี unilateral non-palpable, laparoscopy พบ intra-abdominal testis ฝ่อ ข้างตรงข้ามปกติ → <b>orchidectomy</b> (ตัวลวง orchidopexy, hCG, biopsy + orchidopexy)"],
+       pattern:["ตรวจร่างกายซ้ำ / EUA ก่อน ถ้ายังคลำไม่ได้ → <b>diagnostic laparoscopy</b> = gold standard ทั้งวินิจฉัยและรักษา: intra-abdominal testis → laparoscopic orchidopexy (one-stage หรือ Fowler-Stephens 2 stage); vas + vessels เข้า internal ring → inguinal exploration; blind-ending vessels = vanishing testis","<b>US / CT / MRI ไม่แนะนำ</b> (AUA 2014, EAU) — sensitivity ต่ำ ผลลบไม่ได้ตัดการมีอัณฑะ และไม่เปลี่ยนการรักษา","Bilateral non-palpable หรือร่วมกับ hypospadias → ประเมิน DSD ก่อน","<b>Post-pubertal</b> atrophic intra-abdominal testis + ข้างตรงข้ามปกติ → <b>orchidectomy</b> (ไม่สร้างอสุจิ แต่เสี่ยงมะเร็งและคลำติดตามไม่ได้)"],
+       pearls:["US ไม่เห็น ≠ ไม่มีอัณฑะ","เด็ก 2–3 ปีเลยกรอบ 18 เดือนแล้ว — ห้ามรอต่อ"],
+       members:["MDCU79|RoD|Uro 17","MDCU75|RoC|Ped 1","MDCU68|RoC|21","MDCU67|RoB|14","MDCU76|RoD|60"]},
+      {id:"torsion", title:"Testicular torsion: ผ่าตัดสำรวจทันที + bilateral orchidopexy",
+       trend:"ถามซ้ำแทบคำต่อคำว่า statement ใดผิด (Prehn sign) และจัดการตอน detorsion",
+       asked:["ข้อความที่ <b>ผิด</b> เรื่อง torsion → <b>ยกถุงอัณฑะแล้วปวดลดลง</b> (ข้อถูก: เคยปวดเป็น ๆ หาย ๆ, UA ไม่มี WBC, คลำอัณฑะได้ยาก, testis วางแนวนอน) — ถามซ้ำหลายรุ่น","15 ปี ปวดเฉียบพลัน 3 ชม. high-riding ไม่มี cremasteric reflex ผ่าตัดพบบิด detorsion แล้วสีชมพู → <b>detorsion + bilateral orchidopexy</b> (ตัวลวง orchidopexy ข้างเดียว, orchiectomy, detorsion อย่างเดียว)","14 ปี ปวดเฉียบพลัน 3 ชม. + อาเจียน, high-riding horizontal lie, cremasteric หาย → <b>emergency scrotal exploration + orchidopexy</b> (ตัวลวง Doppler พรุ่งนี้เช้า, ATB + scrotal support, observe 24 ชม.)"],
+       pattern:["Clinical: ปวดเฉียบพลันมาก ± อาเจียน, <b>high-riding, horizontal lie, cremasteric reflex หาย</b>, <b>Prehn sign ลบ</b> (ยกแล้วไม่ทุเลา — ต่างจาก epididymitis ที่ทุเลา), UA ปกติ, อาจเคยปวดเป็นพัก ๆ (intermittent torsion)","Clinical ชัด → <b>scrotal exploration ทันที</b> ไม่รอ Doppler; ยิ่งเร็วยิ่งดี (ภายในราว 6 ชม. โอกาสรอดสูง)","อัณฑะมีชีวิตหลัง detorsion → <b>bilateral orchidopexy</b> (bell-clapper deformity มักเป็นสองข้าง); ตายแล้ว → orchiectomy + fix ข้างตรงข้าม"],
+       pearls:["ลืม fix ข้างที่ไม่บิด = ตอบผิด","รอ imaging เมื่อคลินิกชัด = เสียอัณฑะ"],
+       members:["MDCU74|RoD|37","MDCU70|RoA|1","MDCU67|RoA|2","MDCU67|RoC|63","MDCU66|RoA|X12"]},
+      {id:"udt-palpable", title:"Palpable undescended testis: รอถึง 6 เดือน แล้ว orchidopexy ภายใน 18 เดือน",
+       trend:"ให้อายุเป็นตัวตัดสิน: ทารกเล็กรอ, เลย 6–18 เดือนผ่าตัดทันที",
+       asked:["1 เดือน คลำอัณฑะได้ที่ inguinal canal → <b>observe ถึง 6–12 เดือน</b> (ตัวลวง hCG, orchiopexy ทันที, orchiectomy, testosterone)","15 เดือน bilateral palpable inguinal ดันลงถุงไม่ได้ → <b>bilateral orchiopexy ในครั้งเดียว</b> (ตัวลวง laparoscopy, รอถึง 2 ปี, scrotal US, hCG)","2 ปี palpable ที่ inguinal canal → <b>orchiopexy</b> (ตัวลวง orchiectomy, testosterone, laparoscopy, conservative)","4 ปี palpable inguinal ข้างเดียว → <b>orchidopexy as soon as possible</b> (ตัวลวง hCG, observe ถึงวัยรุ่น, testosterone, laparoscopy)"],
+       pattern:["อัณฑะลงเองได้ภายใน <b>6 เดือน (corrected age)</b> หลังจากนั้นแทบไม่ลง → ส่ง pediatric surgeon / urologist ถ้ายังไม่ลงที่ 6 เดือน (AUA 2014)","<b>Orchidopexy</b> ภายในขวบปีถัดไป — <b>อย่างช้าที่สุดอายุ 18 เดือน</b> (EAU Paediatric Urology: ควรก่อน 12 เดือน) เพื่อลด germ cell loss และให้คลำตรวจมะเร็งได้; bilateral ทำพร้อมกันได้","Palpable → <b>inguinal orchidopexy</b>; ไม่ต้อง US ก่อนผ่าตัด","<b>Hormone (hCG / GnRH / testosterone) ไม่แนะนำเพื่อให้อัณฑะลง</b> — ได้ผลต่ำ (AUA 2014, EAU 2025); EAU 2025 ให้พิจารณา endocrine treatment เฉพาะ <b>bilateral</b> UDT เพื่อรักษา fertility potential"],
+       pearls:["เด็กที่เลย 18 เดือนแล้ว → ผ่าเลย ไม่ต้องรอหรือตรวจเพิ่ม","Palpable = inguinal orchidopexy · non-palpable = laparoscopy"],
+       members:["MDCU79|RoD|Uro 16","MDCU78|RoB|23","MDCU66|RoA|16","MDCU66|RoC|15"]},
+      {id:"vur-ix", title:"Febrile UTI ในเด็ก → VCUG หา VUR, DMSA ดู scar, reflux nephropathy → hypertension",
+       trend:"ถามการตรวจที่เป็น gold standard ของ VUR และผลระยะยาวของ renal scar",
+       asked:["2 ปี หญิง febrile UTI 2 ครั้ง US mild HN → gold standard วินิจฉัยและ grade VUR → <b>VCUG</b> (ตัวลวง DMSA, diuretic renogram, CT urography, cystoscopy)","3 ปี หญิง เคยเป็น UTI ตอนนี้ urine culture ปกติ US bilateral HN → <b>VCUG</b> (ตัวลวง retrograde pyelography, CT, cystoscopy, culture ซ้ำ)","Febrile UTI 3 เดือนก่อน รักษาแล้ว US bilateral hydroureteronephrosis → <b>VCUG</b> (ตัวลวง IVP, CT, DMSA อย่างเดียว, observe)","VUR + DMSA เห็น multiple renal scars → ภาวะแทรกซ้อนระยะยาว → <b>hypertension</b> (ตัวลวง nephrotic syndrome, RTA, polycythemia)"],
+       pattern:["<b>VCUG</b> = gold standard วินิจฉัย + grade VUR (I–V) และดู urethra (posterior urethral valve ในเด็กชาย) — ทำหลังเชื้อหาย (urine sterile)","ข้อบ่งชี้ VCUG — แนวทางต่างกัน: <b>AAP 2011</b> = renal-bladder US ผิดปกติ (hydronephrosis, scar, สงสัย high-grade VUR / obstruction) หลัง febrile UTI ครั้งแรก หรือ <b>febrile UTI ครั้งที่ 2</b>; <b>EAU Paediatric Urology 2025</b> = ทำ VCUG ในเด็ก 0–2 ปีหลัง febrile UTI ครั้งแรกที่พิสูจน์แล้วเป็นแนวทางที่ปลอดภัยที่สุด (ทางเลือก top-down: DMSA ก่อน แล้ว VCUG เมื่อไตผิดปกติ)","<b>DMSA</b> = ดู renal scarring; MAG3 = ดู obstruction / drainage","Reflux nephropathy (renal scar) → <b>hypertension</b> (renin), proteinuria, CKD, ปัญหาระหว่างตั้งครรภ์"],
+       pearls:["IVP ไม่ใช้แล้ว (รังสี) — ตัวลวงประจำ","เด็กชาย bilateral HUN ต้องนึกถึง PUV — VCUG เห็นทั้งสองโรค"],
+       members:["MDCU74|RoC|36","MDCU72|RoD|9","MDCU66|RoD|11","MDCU72|RoC|ไม่มีเลข 14"]},
+      {id:"udt-complication", title:"ภาวะแทรกซ้อนของ undescended testis",
+       trend:"ถามว่าข้อใด <b>ไม่ใช่</b> complication หรืออะไรยังเสี่ยงอยู่แม้ทำ orchidopexy แล้ว",
+       asked:["ข้อใด <b>ไม่ใช่</b> complication ของ UDT (ที่ไม่ได้ทำ orchiopexy) → <b>orchitis</b> (ข้อที่ใช่: hernia, torsion, infertility, cancer) — ถามซ้ำ","เด็ก UDT ที่ทำ orchiopexy แล้วยังมีโอกาสสูงกว่าเด็กอื่นเรื่องใด → <b>testicular cancer</b> (ตัวลวง hernia, trauma, infertility, all of the above)"],
+       pattern:["Complication ของ cryptorchidism: <b>infertility</b>, <b>malignancy</b> (germ cell tumor), <b>inguinal hernia</b> (patent processus vaginalis), <b>torsion</b>, trauma (อัณฑะอยู่บนกระดูกหัวหน่าว), ปัญหาจิตใจ — orchitis ไม่เพิ่ม","Orchidopexy ก่อนวัยรุ่นลดแต่<b>ไม่ทำให้ความเสี่ยงมะเร็งหายไป</b> → สอน testicular self-examination"],
+       pearls:["คีย์ MDCU66 RoC ตอบ cancer เดี่ยว ๆ — fertility ก็ยังด้อยกว่าเด็กทั่วไปโดยเฉพาะ bilateral แต่ hernia / trauma ลดลงหลังผ่าตัด จึงไม่ใช่ all of the above"],
+       members:["MDCU67|RoA|3","MDCU66|RoD|31","MDCU66|RoC|16"]},
+      {id:"paraphimosis", title:"Paraphimosis: manual reduction → dorsal slit → elective circumcision",
+       asked:["6 ปี glans บวมเจ็บ 4 ชม. หลังรูดหนังลงแล้วกลับไม่ได้ glans ยังชมพู → <b>manual reduction</b> (ตัวลวง dorsal slit, emergency circumcision, observe, topical steroid)","หนังหุ้มปลายร่นค้างหลัง glans บวมเจ็บ → ทำอะไรก่อน → <b>manual reduction</b> (ตัวลวง ventral slit, emergency circumcision, ประคบอุ่น)"],
+       pattern:["Paraphimosis = urologic emergency: วงหนังรัดหลัง corona → venous / lymphatic congestion → บวมมากขึ้น → glans ischemia","ลำดับ: analgesia / penile block → ลดบวม (บีบรัดด้วยผ้าก๊อซ, ประคบเย็น, เจาะเข็มระบาย) → <b>manual reduction</b> → ล้มเหลว → <b>dorsal slit</b> ฉุกเฉิน → <b>elective circumcision</b> ภายหลังเพื่อกันเป็นซ้ำ"],
+       pearls:["สับสน phimosis (รูดไม่ลง → steroid / circumcision) กับ paraphimosis (รูดลงแล้วไม่กลับ → reduce ฉุกเฉิน)"],
+       members:["MDCU79|RoC|Ped 2","MDCU74|RoA|5@p1"]},
+      {id:"bladder-stone", title:"Endemic bladder stone ในเด็กอีสาน",
+       asked:["นิ่วกระเพาะปัสสาวะในเด็กภาคอีสาน (ในอดีต) ปัจจัยหลัก → <b>อาหารโปรตีนจากสัตว์ (และ phosphate) ต่ำ</b> (ตัวลวง genetic, climate, chronic UTI / Proteus, calcium เกิน, neurogenic bladder, hyperparathyroidism)"],
+       pattern:["อาหารหลักเป็นข้าวเหนียว ขาดโปรตีนจากสัตว์และ phosphate + ผักพื้นบ้าน oxalate สูง + ขาดน้ำ → ปัสสาวะ phosphate ต่ำ oxalate สูง → นิ่ว <b>ammonium acid urate / calcium oxalate</b>; ลดลงเมื่อโภชนาการดีขึ้น (นม โปรตีน)"],
+       pearls:["ผู้จดรุ่นหนึ่งจำช้อยเป็น 'lack of animal fat' — ความหมายคืออาหารจากสัตว์ (protein)"],
+       members:["MDCU76|RoD|26","MDCU74|RoD|19"]},
+      {id:"uti", title:"Febrile UTI / pyelonephritis ในเด็กเล็ก: วินิจฉัย สาเหตุพื้นฐาน และ route ของยา",
+       trend:"MDCU67 RoA ให้เคสต่อเนื่องเด็กชาย 2 ปี ถามทีละขั้น",
+       asked:["2 ปี ไข้ ปวดสีข้าง แสบขัด ร้องงอแง ซึม ไม่กิน tachycardia → สาเหตุ → <b>UTI (acute pyelonephritis)</b>","เคสเดิม → สาเหตุพื้นฐานที่น่าจะเป็น → <b>VUR</b> (ตัวลวง PUV, UPJO, BOO, neurogenic bladder)","เคสเดิม (ซึม กินไม่ได้) → initial treatment → <b>IV antibiotic + hydration</b> (ตัวลวง oral ATB + antipyretic, observe, prophylaxis)","2 ปี หญิง acute pyelonephritis 3 วัน ไม่เคยเป็นมาก่อน → <b>IV antibiotics</b> (recall ไม่ครบ)"],
+       pattern:["เก็บปัสสาวะด้วย catheter / suprapubic aspiration ในเด็กที่ยังไม่ฝึกขับถ่าย → UA + culture","<b>AAP 2011</b>: oral และ parenteral ได้ผลเท่ากัน — เลือก IV (เช่น ceftriaxone) เมื่อ <b>toxic, ขาดน้ำ, กินไม่ได้</b>, อายุน้อยมาก; เปลี่ยนเป็น oral เมื่อไข้ลง รวม 7–14 วัน","หลัง febrile UTI ครั้งแรก → renal-bladder US; สาเหตุพื้นฐานที่พบบ่อยที่สุด = <b>VUR</b> → VCUG ตามข้อบ่งชี้ (ดูหัวข้อ VCUG)","PUV: เด็กชาย ปัสสาวะไม่พุ่ง bilateral HN ตั้งแต่ทารก"],
+       pearls:["⚠ เคส pyelonephritis เด็กหญิง 2 ปีไม่มีอาการ toxic: ตาม AAP 2011 ให้ oral ได้เท่ากับ IV — คีย์ตอบ IV เพราะ recall ไม่ครบ ถ้าโจทย์บอกว่าเด็กกินได้ไม่ toxic ให้นึกถึง oral"],
+       members:["MDCU67|RoA|82","MDCU67|RoA|86","MDCU67|RoA|87","MDCU67|RoA|88"]}
+    ]},
+    {title:"Cleft lip/palate และ craniofacial anomaly", sections:[
+      {id:"cleft-timing", title:"Cleft lip / palate: ลำดับและอายุที่ผ่าตัด (lip 3 เดือน, palate ~1 ปี)",
+       trend:"ถามแทบทุกปี — ให้ภาพ cleft แล้วถามอายุ palatoplasty หรือการผ่าตัดแรก",
+       asked:["Isolated cleft palate → palatoplasty อายุเท่าไร → <b>9–12 เดือน / 1 ปี</b> (ตัวลวง 3 เดือน, 6 เดือน, 1.5–2 ปี, 3–5 ปี, 9 ปีพร้อม bone graft)","ทารกแรกเกิดภาพ cleft lip → การผ่าตัดแรกและอายุ → <b>cheiloplasty ที่ 3 เดือน</b> (ตัวลวง palatoplasty 1 ปี ซึ่งถูกแต่เป็นผ่าตัดที่สอง, ABG 1–6 เดือน, rhinoplasty 1 เดือน)","Cleft lip and palate อายุราว 1 ปี ทำอะไร → <b>palatoplasty</b> (ตัวลวง lip repair, ABG, Le Fort I, rhinoplasty)","11 เดือน cleft palate ยังไม่ซ่อม → พัฒนาการที่กำหนดเวลาผ่าตัด → <b>speech</b> (ตัวลวง hearing, vision, motor, dentition)","Craniofacial anomaly → ปัจจัยสำคัญที่สุดต่อผลการรักษา → <b>optimal timing of surgery</b> (ตัวลวง psychosocial support, ศัลยแพทย์เก่ง, ผ่าครบในขวบปีแรก, รอโตเต็มที่)"],
+       pattern:["<b>Cheiloplasty ~3 เดือน</b> (rule of 10s: อายุ 10 สัปดาห์, น้ำหนัก 10 ปอนด์, Hb 10 g/dL)","<b>Palatoplasty ~9–12 เดือน</b> (ACPA: ให้เสร็จก่อน ~18 เดือน) — ก่อนเด็กเริ่มพูดเป็นคำ เพื่อซ่อม levator veli palatini sling ลด VPI / hypernasal speech; เร็วเกินรบกวน maxillary growth, ช้าเกินเกิด compensatory articulation ถาวร","Speech therapy / VPI surgery ช่วง 3–5 ปี → <b>alveolar bone graft 8–11 ปี</b> (ก่อน canine แท้ขึ้น) → orthognathic (Le Fort I) / rhinoplasty หลังโตเต็มที่","หลักของ craniofacial: <b>multidisciplinary team</b> + ผ่าตัดแต่ละขั้น <b>ในเวลาที่เหมาะสม</b> ตามการเจริญของใบหน้าและพัฒนาการ","ลำดับจำ: หน้าตา (lip) → การพูด (palate) → ฟันแท้ (bone graft) → โครงหน้า (jaw)"],
+       pearls:["สลับ lip 3 เดือน กับ palate 1 ปี เป็นกับดักหลัก","MDCU77 ต้นฉบับถาม 'ข้อไหนถูก' และมีหลายช้อยถูก (palatoplasty 1 ปี, ตรวจการได้ยิน 1 เดือน) — ฉบับในคลังปรับเป็นการผ่าตัดแรกจึงตอบ cheiloplasty 3 เดือน"],
+       members:["MDCU79|RoC|Plastic 6","MDCU79|RoD|Ped 8","MDCU78|RoD|63","MDCU77|RoA|Ped 3","MDCU77|RoB|Plastic 15","MDCU70|RoA|51","MDCU68|RoB|7","MDCU74|RoD|12","MDCU76|RoD|68"]},
+      {id:"exorbitism", title:"ตาโปน / ปิดตาไม่สนิท (craniosynostosis, facial cleft): ป้องกัน exposure keratitis",
+       trend:"ให้ภาพตาโปนแล้วถามสิ่งที่ด่วนที่สุด — คำตอบเกือบทุกปีคือกระจกตา",
+       asked:["Craniosynostosis ตาโปนมาก หนังตาปิดกระจกตาไม่ได้ → การรักษาที่ด่วนและได้ผลที่สุด → <b>tarsorrhaphy</b> (ตัวลวง lid taping, antibiotic ointment, artificial tears, systemic ATB)","ภาพเด็ก exorbitism ข้างหนึ่งต้องจัดการด่วน → ป้องกันอะไร → <b>exposure keratitis</b> (ตัวลวง amblyopia, glaucoma, cataract, retinal detachment)","Craniosynostosis + frontal bossing + exophthalmos + median cleft upper lip → ต้องจัดการด่วนที่สุด → <b>exposure keratitis</b> (ตัวลวง conductive HL, ICP, airway, strabismus) — ถามซ้ำ","ภาพ Crouzon → ต้องประเมินด่วน → <b>exposure keratitis</b> (คีย์ลายมือ 'ICP not sure')","Craniosynostosis exorbitism <b>เล็กน้อย ไม่มี corneal damage</b> → <b>artificial tears</b> (ตัวลวง tarsorrhaphy, taping, ATB ointment, observe)","ทารก exorbitism + antimongoloid slant + severe lagophthalmos + acrosyndactyly + stridor → ด่วนที่สุด → <b>eye ointment + urgent tarsorrhaphy</b> (ตัวลวง O2 + ป้อนนมท่านั่ง, CT brain, cranial vault remodeling ทันที)","Facial cleft ที่ทำให้ปิดตาไม่สนิท → major risk → <b>blindness</b> (corneal ulcer)","Severe facial cleft ในทารกแรกเกิด → ปัญหาที่ด่วนที่สุด → <b>airway</b> (คีย์ลายมือเตือนว่าถ้า cleft ผ่านเปลือกตา corneal exposure ด่วนกว่า)"],
+       pattern:["Syndromic craniosynostosis (Crouzon / Apert) มี orbit ตื้น → <b>exorbitism</b> → ปิดตาไม่สนิท → exposure keratopathy → corneal ulcer → ตาบอด / globe luxation","<b>Mild</b> ยังไม่มี keratitis → lubrication (artificial tears กลางวัน, ointment กลางคืน)","<b>Severe</b> / lagophthalmos / มี keratopathy → lubricant + <b>tarsorrhaphy</b> ทันที; globe subluxation → ดันกลับแล้ว tarsorrhaphy","Definitive = fronto-orbital / monobloc advancement เพิ่มปริมาตร orbit","ลำดับความเร่งด่วนทั่วไป: <b>airway</b> → ICP สูง → ตา; ถ้าโจทย์ให้ตาเปิดค้างชัดเจน คีย์เลือกตาเป็นหลัก"],
+       pearls:["MDCU77 RoB ผู้จดบอก 'ยากมาก' — มี stridor ด้วยแต่คีย์ตอบ tarsorrhaphy เพราะ severe lagophthalmos เสี่ยงตาบอดถาวร","MDCU72 RoC (mild ไม่มี corneal damage) ตอบ artificial tears — อย่าตอบ tarsorrhaphy ทุกเคส ให้ดูความรุนแรง"],
+       members:["MDCU79|RoD|Plastic 1","MDCU77|RoB|Plastic 12","MDCU71|RoA|34","MDCU72|RoC|ไม่มีเลข 5","MDCU67|RoA|32b","MDCU67|RoC|45","MDCU66|RoD|22","MDCU69|RoC|35","MDCU76|RoC|Plastic 6"]},
+      {id:"treacher-collins", title:"Treacher Collins syndrome: ตรวจการได้ยิน (conductive hearing loss)",
+       trend:"ภาพหน้าเด็กแบบเดิมเกือบทุกปี ถามปัญหาที่ต้องตรวจ — คำตอบคือ hearing",
+       asked:["ภาพหน้าเด็ก → ต้องคัดกรองอะไรในวัยทารก / hidden problem → <b>hearing</b> (ตัวลวง malocclusion, CHD, hypothyroid, intellectual disability, vision, swallowing)","ภาพ TCS → functional deficit ที่ต้องประเมินเป็นประจำ → <b>conductive hearing loss</b> (ตัวลวง exposure keratitis, ICP, airway, sensorineural HL, strabismus) — ถามซ้ำหลายรุ่น","ภาพทารกแรกเกิด → diagnosis → <b>Treacher Collins</b> (ตัวลวง Pierre Robin, Crouzon, Apert, Down)","Down-slanting palpebral fissure + lower lid coloboma + zygoma hypoplasia + micrognathia + ใบหูผิดรูป สติปัญญาปกติ → <b>Treacher Collins</b> (ตัวลวง hemifacial microsomia, Pierre Robin)"],
+       pattern:["<b>Mandibulofacial dysostosis</b> (TCOF1, autosomal dominant) — 1st / 2nd pharyngeal arch สองข้างสมมาตร: down-slanting palpebral fissures, lower eyelid coloboma, malar / zygoma hypoplasia, micrognathia, microtia ± cleft palate","<b>Conductive hearing loss ~50%</b> (microtia, external canal atresia, ossicle ผิดรูป) → ตรวจการได้ยินตั้งแต่แรกเกิด (bone-anchored hearing aid) เพื่อพัฒนาการพูด","<b>สติปัญญาปกติ</b>; ทารกอาจมีปัญหา airway จาก micrognathia","แยก: <b>Pierre Robin</b> = micrognathia + glossoptosis + cleft palate ใบหน้าส่วนอื่นปกติ; <b>hemifacial microsomia</b> = ข้างเดียว; Crouzon / Apert = craniosynostosis"],
+       pearls:["เลือก intellectual disability เพราะเด็กพูดช้า — จริง ๆ คือหูไม่ได้ยิน","เลือก sensorineural แทน conductive"],
+       members:["MDCU77|RoA|Ped 2","MDCU77|RoC|Plastic 5","MDCU76|RoA|22","MDCU76|RoD|23","MDCU74|RoA|ไม่มีเลข 2","MDCU67|RoA|32","MDCU67|RoC|37","MDCU66|RoA|69","MDCU66|RoD|23"]},
+      {id:"feem", title:"Frontoethmoidal encephalomeningocele (FEEM) vs frontonasal dysplasia",
+       trend:"โรคเด่นของไทย — ภาพก้อนที่โคนจมูกถามตำแหน่ง defect หรือแยกจาก frontonasal dysplasia",
+       asked:["ภาพทารกก้อนยื่นจาก frontonasal → defect อยู่ที่ใด → <b>nasoethmoidal (junction)</b> (ตัวลวง cribriform plate, skull base, meninges, occipital bone) — ถามซ้ำ","ภาพก้อนกลางโคนจมูก 'งวงช้าง' / ภาพหลังซ่อม → <b>FEEM</b> (ตัวลวง craniofacial cleft, craniosynostosis, frontonasal dysplasia, Treacher Collins)","FEEM → อันตรายหลัก → <b>incarceration ของเนื้อสมองที่ยื่น</b> (ตัวลวง vascular malformation, bone defect, ICP, suture ปิดก่อน)","Hypertelorism + broad nasal root + midline nasal cleft (ไม่มีก้อน) → <b>frontonasal dysplasia</b> — ถามซ้ำ"],
+       pattern:["FEEM: สมอง / meninges ยื่นผ่าน defect รอบ <b>foramen cecum</b> ระหว่าง frontal กับ ethmoid → ก้อนนิ่มภายนอกที่ glabella / nasal root (subtype nasofrontal, nasoethmoidal, naso-orbital) + telecanthus / hypertelorism; พบบ่อยในไทยและเอเชียตะวันออกเฉียงใต้","<b>Basal encephalocele</b> ผ่าน cribriform plate / sphenoid → อยู่ในจมูก / คอหอย มองไม่เห็นภายนอก; occipital encephalocele พบมากในตะวันตก","ก้อนกลางโคนจมูกในเด็ก <b>ห้าม biopsy</b> (CSF leak, meningitis) → MRI → intracranial + extracranial repair (ตัดเนื้อสมองที่ไม่ทำงาน, ปิด dura, reconstruct กระดูก ± แก้ hypertelorism)","<b>Frontonasal dysplasia</b> (median cleft face): hypertelorism, broad / flat nasal root, median cleft ของจมูก ± ริมฝีปาก, widow's peak — <b>ไม่มีก้อน</b>"],
+       pearls:["มีก้อน = FEEM · มีร่อง / cleft ไม่มีก้อน = frontonasal dysplasia","เลือก meninges เพราะคิดถึงสิ่งที่ยื่นออกมา — คำถามคือ 'bony site'"],
+       members:["MDCU78|RoB|9","MDCU76|RoD|6","MDCU72|RoA|89","MDCU69|RoA|69","MDCU68|RoC|39","MDCU69|RoA|68","MDCU67|RoB|49"]},
+      {id:"cleft-complication", title:"ภาวะแทรกซ้อนของ cleft palate: OME / hearing, speech (VPI), submucous cleft",
+       trend:"ถาม associated condition ที่พบบ่อยหรือรุนแรงที่สุด และ bifid uvula",
+       asked:["Complete cleft lip + cleft palate → ภาวะที่น่าจะเกิด → <b>middle ear effusion</b> (ตัวลวง Eustachian tube atresia, choanal atresia, hypothyroid, EA)","ภาพ cleft lip and palate → associated condition ที่พบบ่อยที่สุด → <b>otitis media with effusion</b> (ตัวลวง ear deformity, absent Eustachian tube, SNHL, macroglossia)","ภาพ cleft → complication ที่ <b>รุนแรงที่สุด</b> → <b>speech delay</b> (ตัวลวง feeding difficulty, aspiration, airway obstruction, recurrent OM)","Bifid uvula สัมพันธ์กับ → <b>submucous cleft palate</b>","ภาพ bifid uvula → complication เด่น → <b>velopharyngeal insufficiency</b> (ตัวลวง SNHL, macroglossia, trismus, tonsillitis)"],
+       pattern:["Tensor / levator veli palatini เกาะผิดที่ → <b>Eustachian tube dysfunction</b> (ท่อไม่ได้ตัน) → <b>OME เกือบทุกราย</b> → conductive HL → ตรวจหู ใส่ ventilation tube ตามข้อบ่งชี้","ปัญหาแรกที่พบบ่อยสุดในทารก = <b>feeding</b> (สร้าง negative pressure ไม่ได้, nasal regurgitation); ปัญหาระยะยาวที่ถาวรและเป็นเป้าหมายหลักของ palatoplasty = <b>speech (VPI)</b>","<b>Submucous cleft palate</b> — Calnan triad: bifid uvula, zona pellucida (แถบน้ำเงินกลางเพดานอ่อน), notch ที่ขอบหลัง hard palate → VPI (hypernasal speech, nasal emission) → ผ่าตัดเมื่อมีอาการ; ระวัง adenoidectomy ทำให้ VPI แย่ลง","Hearing loss ใน cleft = <b>conductive</b> ไม่ใช่ sensorineural"],
+       pearls:["คำถาม 'most severe' ≠ 'most common' — คีย์ MDCU78 ตอบ speech; ถ้าเป็น Pierre Robin ปัญหาเร่งด่วนคือ airway"],
+       members:["MDCU78|RoB|8","MDCU77|RoC|Plastic 6","MDCU71|RoA|33","MDCU73|RoD|Plastic 5","MDCU66|RoB|35"]},
+      {id:"crouzon-apert", title:"Crouzon / Apert (syndromic craniosynostosis): ICP, airway, midface advancement, สติปัญญา",
+       asked:["Crouzon 2 ปี ปวดหัวตอนเช้า อาเจียน papilledema → ปัญหาที่ต้องรีบแก้ → <b>increased ICP</b> (ตัวลวง exposure keratitis, malocclusion, conductive HL, รูปศีรษะ)","Crouzon 7 ปี midface hypoplasia รุนแรง + exorbitism + OSA → ผ่าตัดช่วงวัยเรียน → <b>midface advancement</b> (ตัวลวง gastrostomy, BAHA, orthognathic, speech therapy)","ภาพ syndromic craniosynostosis → ภาวะที่ต้องแก้ช่วงวัยเรียน → <b>airway obstruction</b> (ตัวลวง hearing, elective midface advancement, speech, strabismus)","ภาพหน้า turribrachycephaly (กลุ่ม Apert) → ข้อความที่ <b>ไม่ถูก</b> → <b>'intelligence is usually normal'</b>"],
+       pattern:["<b>Crouzon</b> (FGFR2, AD): bicoronal (multisuture) synostosis + midface hypoplasia + exorbitism, <b>มือเท้าปกติ</b>, สติปัญญามักปกติ","<b>Apert</b> (FGFR2): acro / turribrachycephaly + <b>syndactyly มือเท้า</b>; intellectual disability พบได้บ่อย (ปกติถึงปานกลาง)","ลำดับ: airway → <b>ICP สูง</b> (papilledema → optic atrophy) ต้อง cranial vault expansion / decompression ด่วน → ป้องกันกระจกตา","ขั้นการผ่าตัด: cranial vault remodeling ขวบปีแรก → <b>midface advancement (Le Fort III / monobloc, distraction) ช่วงวัยเรียน</b> เมื่อมี OSA / exorbitism → orthognathic หลังโตเต็มที่; elective เพื่อความสวยงามรอโตเต็มที่"],
+       pearls:["MDCU76 RoD: เดิมคลังตอบข้อความเรื่องวินิจฉัยตั้งแต่เกิด แล้วแก้เป็น 'normal intelligence' ตามคีย์ Key 76D เพราะภาพเข้ากับ Apert; ถ้าเป็น Crouzon สติปัญญามักปกติ"],
+       members:["MDCU78|RoD|65","MDCU76|RoD|5","MDCU75|RoC|Plastic 4","MDCU72|RoD|ไม่มีเลข 7"]},
+      {id:"vascular-anomaly", title:"Infantile hemangioma vs vascular malformation",
+       trend:"แยกด้วยประวัติ 'มีตั้งแต่เกิดหรือไม่' และ 'ยุบหรือไม่'",
+       asked:["3 เดือน hemangioma 1 cm ที่แก้ม ห่างตา จมูก ปาก กำลังโต ไม่มีแผล → <b>observe and reassure</b> (ตัวลวง pulsed dye laser, embolization, excision, RT)","1 ปี รอยแดงที่ท้อง เริ่มเป็นจุดเล็กตอน 2 สัปดาห์ → <b>advice and follow-up</b> (ตัวลวง wide excision, propranolol, laser, embolization)","รอยแดงหลังคลอดไม่นาน โตแล้วคงที่ที่ 3 ปี → <b>infantile hemangioma</b>","รอยแดง<b>มีตั้งแต่เกิด</b> โตช้าตามตัว 3 ปียังไม่ยุบ ไม่ pulsatile → <b>capillary-venous malformation</b> (ตัวลวง IH, AVM, LM, pyogenic granuloma)"],
+       pattern:["<b>Infantile hemangioma</b>: ไม่เห็น / เห็นเป็นจุดเล็กตอนเกิด → โตเร็วที่สุดอายุ 1–3 เดือน (การโตส่วนใหญ่จบราว 5 เดือน) → involute ช้า ๆ ส่วนใหญ่จบราวอายุ 4 ปี (AAP 2019); GLUT-1 positive","Low-risk (เล็ก ไม่อยู่ตำแหน่งสำคัญ ไม่มีแผล) → <b>active observation</b> + อธิบาย natural history + ถ่ายรูปเทียบ","High-risk (segmental ที่หน้า, รอบตา / airway / ริมฝีปาก / ปลายจมูก, ulceration, PHACE / LUMBAR, ≥5 ก้อน → ตรวจตับ) → <b>oral propranolol 2–3 mg/kg/day</b> อย่างน้อย 6 เดือน (AAP 2019) ส่งต่อเร็ว","<b>Vascular malformation</b>: มีตั้งแต่เกิด โตตามตัว <b>ไม่ยุบเอง</b>; low-flow (capillary, venous, lymphatic) vs high-flow AVM (pulsatile, thrill)"],
+       pearls:["โตเร็วช่วง 1–3 เดือนเป็น natural history ปกติ — ไม่ใช่เหตุให้ทำ invasive","คำในโจทย์ตัดสิน: ยุบ / คงที่หลังโต = IH · มีตั้งแต่เกิดและไม่ยุบ = malformation (MDCU66 กับ MDCU67 ให้โจทย์คล้ายกันแต่ตอบต่างกันด้วยเหตุนี้)"],
+       members:["MDCU79|RoC|Plastic 2","MDCU77|RoA|Plastic 8","MDCU67|RoC|31","MDCU66|RoD|2"]},
+      {id:"cleft-refer", title:"GP พบทารก cleft lip: ส่งต่อ multidisciplinary cleft team",
+       asked:["ในฐานะ GP พบทารกตามภาพ (cleft) → <b>refer to cleft specialist team</b> (ตัวลวง nasoalveolar molding, lip taping, lip repair ทันที, นัด 1 ปี)","ทารก complete unilateral cleft lip มาหา GP → <b>refer to multidisciplinary cleft team</b> (ตัวลวง taping, lip adhesion, NAM, ซ่อมตอน 5 ปี)"],
+       pattern:["Cleft lip ± palate ต้องดูแลโดย <b>multidisciplinary cleft team</b> ตั้งแต่แรกเกิด (plastic surgeon, orthodontist, speech therapist, ENT, ทันตแพทย์) — GP: <b>ส่งต่อ + แนะนำการให้นม</b> (ขวด / จุกพิเศษ)","NAM และ lip taping เป็น presurgical orthopedics ที่ทีมเฉพาะทางเริ่ม"],
+       pearls:["เลือก NAM / taping เพราะเป็นขั้นแรกของการรักษา — แต่ไม่ใช่หน้าที่ GP"],
+       members:["MDCU74|RoA|90","MDCU74|RoD|11"]},
+      {id:"cleft-risk", title:"ปัจจัยเสี่ยงของ cleft lip / palate: family history",
+       asked:["แม่แบบใดเสี่ยงมีลูก CL/P มากที่สุด → <b>แม่เป็น CL/P เอง</b> (ตัวลวง alcohol + smoking, anticonvulsant, steroid, folate deficiency)","ปัจจัยเสี่ยงสำคัญที่สุดของ cleft palate → <b>พ่อเป็น cleft palate</b> (ตัวลวง folate ต่ำ, alcohol / smoking, พ่ออายุมาก, maternal DM)"],
+       pattern:["<b>Family history (first-degree relative)</b> เพิ่มความเสี่ยงชัดที่สุด (พ่อหรือแม่เป็น → ลูกเสี่ยงราวร้อยละ 2–5 เทียบประชากรทั่วไป ~0.1%)","Teratogen (phenytoin, valproate, บุหรี่, alcohol, retinoid, steroid) และ folate ต่ำ เพิ่มความเสี่ยงน้อยกว่า"],
+       pearls:["Isolated cleft palate สัมพันธ์กับ syndrome มากกว่า CL ± P"],
+       members:["MDCU69|RoC|38","MDCU68|RoD|73"]},
+      {id:"cmn", title:"Congenital melanocytic nevus ขนาดใหญ่: staged excision",
+       asked:["9 ปี ไฝที่หลังตั้งแต่เกิด โตตามตัว ตอนนี้ 10 cm → <b>congenital melanocytic nevus</b> (ตัวลวง acquired intradermal / junctional / compound, combined nevus; คีย์ลายมือ staged excision)","3 ปี black hairy nevus 10 cm ที่หลังตั้งแต่เกิด → <b>staged excision</b> (ตัวลวง excision ครั้งเดียว, wide excision, observe, dermabrasion)"],
+       pattern:["ไฝตั้งแต่เกิด โตตามตัว ± ขนดก = <b>CMN</b>; large / giant = projected adult size <b>≥ 20 cm</b> (ก้อน 10 cm ที่หลังเด็กเล็กจะเกิน 20 cm ตอนโต)","Large CMN เสี่ยง melanoma และ neurocutaneous melanosis (ก้อนแนวกลางหลัง / หลายก้อน → MRI สมองไขสันหลัง)","รักษา: เฝ้าระวัง หรือ <b>staged (serial) excision</b> ± tissue expansion / graft — ตัดครั้งเดียวปิดแผลไม่ได้"],
+       pearls:["MDCU74 RoA ไฟล์ไม่มีคีย์ — คำตอบ staged excision เป็นของคลัง"],
+       members:["MDCU76|RoD|42","MDCU74|RoA|88"]}
+    ]},
+    {title:"ทารกแรกเกิด–ทารก: ทางเดินอาหารอุดตัน NEC และ congenital anomaly ของทรวงอก", sections:[
+      {id:"malrotation", title:"Malrotation with midgut volvulus: bilious vomiting = volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
+       trend:"หัวข้อที่ออกบ่อยที่สุดของ tag — 'ทารก 3 สัปดาห์ที่เคยดี อาเจียนน้ำดีฉับพลัน' ถามแทบทุกปี",
+       asked:["ทารก 3 สัปดาห์ (หรือ 1 เดือน) เคยกินดี อาเจียนน้ำดีฉับพลัน → <b>malrotation with midgut volvulus</b> (ตัวลวง HPS, duodenal atresia, intussusception, NEC, GER, TEF) — ถามซ้ำแทบคำต่อคำ","ทารก <b>3 เดือน</b> อาเจียนน้ำดีฉับพลัน → <b>midgut volvulus</b> (คีย์เก่า MDCU66 RoA และ RoB ตอบ intussusception — คลังแก้)","ทารกครบกำหนดวันที่ 7 อาเจียนน้ำดีปนเลือด วันต่อมาถ่ายเป็นเลือด → <b>malrotation with volvulus</b>","UGI study เห็น <b>corkscrew</b> → <b>Ladd procedure</b> (ตัวลวง NG + observe, BE, duodenoduodenostomy, pyloromyotomy)","UGI เห็น DJ junction อยู่ขวาของ midline ผ่าตัดพบพังผืดพาดผ่าน duodenum → Ladd's bands คือ <b>พังผืดจาก cecum ไปผนังท้องด้านขวา</b> (ตัวลวง vitelline remnant, duodenal web, annular pancreas)","3 วัน อาเจียนน้ำดี ท้องอืด เลือดทางทวารเล็กน้อย Doppler SMV–SMA กลับข้าง → <b>NG decompression</b> (คีย์ = initial resuscitation; ช้อย explore lap ก็สมเหตุสมผล)","6 สัปดาห์ อาเจียนน้ำดี ถ่ายเป็นเลือด HR 160 ท้องอืด guarding → <b>resuscitation + exploratory laparotomy</b> (ตัวลวง US, UGI study, air enema, rectal biopsy)","14 ปี อาเจียนน้ำดีเป็นพัก ๆ ตั้งแต่ทารก ตอนนี้ SBO → CT → <b>whirl sign ของ mesentery</b> (ตัวลวง target sign, free air, pneumatosis, appendicolith)","14 ปี ปวดท้อง อาเจียนน้ำดีหลังกิน US <b>whirlpool sign</b> → <b>exploratory laparotomy + Ladd procedure</b> (ตัวลวง lysis adhesion, ATB, contrast enema reduction, NG + observe)"],
+       pattern:["Malrotation: cecum ค้างที่ RUQ → <b>Ladd's bands</b> จาก cecum / ascending colon ไป right lateral abdominal wall พาดผ่าน D2–D3 → extrinsic duodenal obstruction + <b>narrow mesenteric base</b> → midgut volvulus (ลำไส้เล็กทั้งหมดขาดเลือดในไม่กี่ชั่วโมง)","อายุ: ส่วนใหญ่เดือนแรก แต่เกิด<b>ได้ทุกอายุ</b> (เด็กโต: ปวดท้อง / อาเจียนน้ำดีเป็นพัก ๆ, FTT, malabsorption)","Stable → <b>UGI contrast study ด่วน</b> (gold standard): DJ flexure ไม่ข้ามซ้ายของ spine / อยู่ต่ำกว่า pylorus, <b>corkscrew</b> = volvulus; US / CT: <b>SMV อยู่ซ้ายของ SMA</b>, <b>whirlpool / whirl sign</b>","มี peritonitis, ถ่ายเป็นเลือด, shock = ลำไส้กำลังตาย → <b>resuscitate (IV fluid, NG, ATB) แล้วผ่าตัดทันที</b> ไม่เสียเวลาทำ imaging","<b>Ladd procedure</b>: detorsion <b>ทวนเข็มนาฬิกา</b> → ตัด Ladd's bands → ขยาย mesenteric base → appendectomy → วางลำไส้เล็กขวา colon ซ้าย (± resection ลำไส้ที่ตาย)"],
+       pearls:["อาเจียนน้ำดีในทารก ไม่ใช่ reflux — เป็น surgical emergency","Target sign = intussusception ไม่ใช่ volvulus","Intussusception อาเจียนช่วงแรก non-bilious + ปวดเป็นพัก + currant jelly — อย่าเลือกเพียงเพราะอายุ 3 เดือนอยู่ในช่วง peak"],
+       members:["MDCU78|RoC|1","MDCU78|RoD|3","MDCU77|RoA|Ped 8","MDCU77|RoB|Ped 1","MDCU77|RoC|Ped 2","MDCU76|RoA|4","MDCU73|RoB|Ped 3","MDCU70|RoB|34","MDCU72|RoD|47","MDCU69|RoC|R65","MDCU68|RoD|88","MDCU67|RoA|4","MDCU66|RoA|60","MDCU66|RoB|5"]},
+      {id:"nec", title:"Necrotizing enterocolitis: pneumatosis, Bell staging, medical vs ผ่าตัด",
+       trend:"ทารก preterm หลังเริ่มนม (หรือหลังได้ indomethacin / PDA ligation) แล้วถาม Dx, film ที่จำเพาะ หรือ management ตาม free air",
+       asked:["Preterm งอแง ท้องอืด ผนังหน้าท้องแดง → imaging ที่จำเพาะที่สุด → <b>pneumatosis intestinalis</b> (ตัวลวง air-fluid level, double bubble, microcolon, gasless)","Preterm เริ่มนม feeding intolerance ท้องอืด ถ่ายเป็นเลือด + AXR → <b>NEC</b> (ตัวลวง volvulus, HAEC, intussusception, meconium plug / ileus) — ถามซ้ำ","29 สัปดาห์ อายุ 3 สัปดาห์ pneumatosis + portal venous gas → <b>NEC</b>","Preterm หลัง PDA ligation / ได้ indomethacin มี pneumatosis หรือ portal venous gas <b>ไม่มี free air</b> → <b>NPO + IV antibiotics</b> (ตัวลวง laparotomy ทันที, peritoneal drain, ให้นมต่อ + probiotic, contrast enema) — ถามซ้ำ","Preterm LBW pneumatosis + <b>free air</b> → <b>surgery</b> (ตัวลวง medical ต่อ, film ซ้ำ 24 ชม., rectal irrigation)","NEC: finding ใดบ่ง bowel ischemia / necrosis → <b>abdominal wall erythema</b> (ตัวลวง WBC สูง, gastric aspirate เพิ่ม, ท้องอืดเล็กน้อย, occult blood)","NEC: film ที่ดีที่สุดหา perforation นอกจาก supine AP → <b>supine cross-table lateral</b> (ตัวลวง prone cross-table lateral, upright CXR, BE, UGI)","ทารกครบกำหนดอายุ 6 เดือน ปวดท้องเฉียบพลัน → สาเหตุที่ <b>น่าจะเป็นน้อยที่สุด</b> → <b>NEC</b>"],
+       pattern:["Risk: <b>prematurity / VLBW</b>, formula feeding, hypoxia / ischemia, CHD, indomethacin; อาการ: feeding intolerance, ท้องอืด, ถ่ายเป็นเลือด, apnea / bradycardia, temperature instability","<b>Modified Bell</b>: IIA = <b>pneumatosis intestinalis</b> (hallmark, จำเพาะ) · IIB = + <b>portal venous gas</b> · IIIA = ป่วยหนัก ลำไส้ยังไม่ทะลุ · IIIB = <b>pneumoperitoneum</b>","Medical (stage I–II): <b>NPO, NG / OG decompression, IV fluid / TPN, broad-spectrum IV antibiotics 7–14 วัน</b>, serial AXR q6–8 ชม.","ผ่าตัด: <b>absolute = pneumoperitoneum (perforation)</b>; relative = ทรุดแม้รักษาเต็มที่, fixed loop, <b>abdominal wall erythema</b>, คลำได้ก้อน, paracentesis บวก, acidosis / thrombocytopenia / WBC <b>ต่ำ</b>ลง → laparotomy (resection + stoma) หรือ peritoneal drain ในทารกตัวเล็กมาก","หา free air ในทารก: AP + <b>supine cross-table lateral</b> หรือ left lateral decubitus (ลมลอยไปด้านหน้า); ท่าคว่ำลมไปด้านหลัง เห็นยาก","NEC เกือบทั้งหมดเป็นโรคของทารกแรกเกิด (preterm หลังเริ่มนม 2–3 สัปดาห์) — ทารกครบกำหนด 6 เดือนแทบไม่พบ"],
+       pearls:["Portal venous gas ไม่ใช่ absolute indication — มีแต่ pneumatosis / portal gas ไม่มี free air → medical","WBC ที่บ่งความรุนแรงคือ <b>ต่ำ</b> ไม่ใช่สูง","แยก soap-bubble ของ meconium ileus จาก pneumatosis"],
+       members:["MDCU79|RoD|Ped 3","MDCU78|RoB|33","MDCU78|RoD|1","MDCU78|RoC|7","MDCU77|RoC|Ped 5","MDCU76|RoC|Ped 2","MDCU74|RoD|4","MDCU73|RoB|Ped 2","MDCU72|RoC|ไม่มีเลข 12","MDCU70|RoB|33","MDCU67|RoB|11"]},
+      {id:"ihps", title:"Infantile hypertrophic pyloric stenosis: แก้ alkalosis ก่อน pyloromyotomy",
+       trend:"คลาสสิกทุกปี: วินิจฉัย, electrolyte, investigation (US) หรือ resuscitate ก่อนผ่า",
+       asked:["Non-bilious projectile vomiting หิวตลอด คลำได้ olive (อายุ 24 วัน–5 สัปดาห์) → <b>HPS</b> (ตัวลวง overfeeding, CMPA, choledochal cyst, duodenal atresia, malrotation, GERD, annular pancreas)","HPS → lab ที่คาด → <b>hypochloremic hypokalemic metabolic alkalosis</b> / ช้อยเดี่ยว <b>hypochloremia</b> (ตัวลวง hyperkalemia, acidosis, respiratory alkalosis)","สงสัย IHPS → การตรวจที่ดีที่สุด → <b>ultrasonography</b> (ตัวลวง CT, BE, UGI barium / water-soluble)","5 สัปดาห์ AXR กระเพาะโป่งลมส่วนปลายน้อย → <b>US</b>","4 สัปดาห์ อาเจียน 10 วัน olive + กระหม่อมบุ๋ม ซึม → <b>IV fluid resuscitation + แก้ electrolyte</b> (ตัวลวง PPI, NG + observe, pyloromyotomy ทันที, ORS กลับบ้าน)","ทำอย่างไรก่อนและหลังผ่าตัดให้ผลดีที่สุด → <b>แก้ fluid / electrolyte แล้ว pyloromyotomy</b> (ตัวลวง ผ่าก่อนแก้น้ำ, gastrojejunostomy, balloon dilatation, NPO 1 สัปดาห์หลังผ่า)"],
+       pattern:["อายุ <b>2–8 สัปดาห์ (peak 3–6)</b>, ชาย บุตรคนแรก, erythromycin ในทารกเพิ่มเสี่ยง; projectile <b>non-bilious</b> หลังกิน หิวหลังอาเจียน (hungry vomiter), visible gastric peristalsis, olive ที่ epigastrium / RUQ","Lab: <b>hypochloremic hypokalemic metabolic alkalosis</b> + paradoxical aciduria ระยะท้าย (aldosterone ดูด Na แลก K / H)","<b>US</b> = investigation of choice: muscle thickness <b>≥ 3–4 mm</b>, channel length <b>≥ 15–17 mm</b>; UGI (string / shoulder sign, double track) เมื่อ US ไม่ชัด","<b>Medical ไม่ใช่ surgical emergency</b>: NSS bolus 10–20 mL/kg (ซ้ำได้) → maintenance D5½NSS + KCl เมื่อปัสสาวะออก จน <b>Cl ≥ 100, HCO3 < 30 mmol/L</b>, K ปกติ","แล้ว <b>Ramstedt pyloromyotomy</b> (open / laparoscopic); ผ่าตอนยังมี alkalosis เสี่ยง postoperative apnea และ arrhythmia"],
+       pearls:["เห็น olive แล้วรีบผ่า = ผิด","ไม่แก้ alkalosis ด้วย bicarbonate หรือ acid — แก้ด้วย NSS + KCl"],
+       members:["MDCU79|RoC|Ped ไม่มีเลข 1","MDCU79|RoD|Ped 9","MDCU78|RoB|29","MDCU77|RoA|Ped 7","MDCU76|RoD|20","MDCU74|RoA|ไม่มีเลข 7","MDCU74|RoD|44","MDCU73|RoB|Ped 4","MDCU72|RoC|ไม่มีเลข 15","MDCU67|RoA|10","MDCU66|RoA|58"]},
+      {id:"duodenal-atresia", title:"Duodenal atresia / double bubble: ลักษณะ ภาวะร่วม และ next step",
+       trend:"ถามลักษณะ (polyhydramnios, Down, cardiac) แบบข้อใดผิด และ double bubble ที่มีลมส่วนปลายต้องทำ UGI ก่อน",
+       asked:["1 วัน อาเจียนน้ำดี AXR double bubble → next → <b>NG decompression + IV fluid</b> (ตัวลวง ATB, duodenoduodenostomy ทันที, contrast enema, ให้นม)","Bilious vomiting วันแรก AXR → <b>duodenal atresia</b>","Double bubble ข้อใด <b>ผิด</b> → <b>oligohydramnios</b> (ข้อถูก: Down, bilious vomiting, duodenoduodenostomy, situs inversus / anterior portal vein)","Duodenal atresia ข้อใด <b>ผิด</b> → <b>cardiac anomaly พบน้อย</b> (คีย์ไฟล์ 01.2 ตอบ malrotation / situs inversus — คลังตอบตามคีย์ลายมือ)","ลักษณะ / อาการของ duodenal atresia → <b>maternal polyhydramnios</b> (ตัวลวง ท้องอืดมาก, visible peristalsis, bloody stool, ไม่ถ่าย meconium) — ถามซ้ำ","ข้อใด <b>ไม่ใช่</b> sign ของ neonatal gut obstruction → <b>bloody stool</b> (ข้อที่ใช่: bilious vomiting, ไม่ถ่าย meconium, ท้องอืด, polyhydramnios)","Double bubble ข้อใด <b>ไม่ใช่</b> DDx → <b>SMA syndrome</b> (DDx: duodenal atresia, annular pancreas, malrotation)","Double bubble <b>มีลมส่วนปลาย</b> + NG ได้น้ำดี → next → <b>UGI contrast study</b> (ตัวลวง GJ, contrast enema, duodenojejunostomy, Ladd)","Double bubble มีลมส่วนปลาย → การรักษา → <b>duodenoduodenostomy</b> (คีย์ลายมือเตือนต้อง UGI แยก malrotation ก่อน)"],
+       pattern:["Failure of recanalization; ส่วนใหญ่ <b>ใต้ ampulla</b> → อาเจียนน้ำดีตั้งแต่วันแรก, <b>ท้องแฟบ</b> (upper obstruction), ถ่าย meconium ได้, antenatal <b>polyhydramnios</b> + double bubble","ภาวะร่วมบ่อย: <b>Down syndrome ~30%</b>, <b>cardiac ~20–30%</b>, annular pancreas, malrotation, situs inversus, anterior (preduodenal) portal vein, VACTERL, prematurity → echo ก่อนผ่าตัด","AXR: <b>double bubble ไม่มีลมส่วนปลาย</b> = atresia; <b>มีลมส่วนปลาย</b> = partial (stenosis / web / annular pancreas) หรือ <b>malrotation ± volvulus</b> → <b>UGI ด่วน</b>","ขั้นแรก: NPO + OG / NG decompression + IV fluid / electrolyte → <b>diamond-shaped duodenoduodenostomy</b> แบบ semi-elective (ไม่ใช่ Ladd ถ้าไม่ใช่ malrotation)","Upper obstruction (duodenum) = polyhydramnios มาก ท้องไม่อืด · lower (ileum / colon) = ท้องอืดมาก ไม่ถ่าย meconium; ถ่ายเลือดชี้ ischemia (NEC / volvulus) ไม่ใช่ obstruction ธรรมดา","<b>SMA syndrome</b> เป็นโรคเด็กโต / วัยรุ่นที่น้ำหนักลดเร็ว (หลังใส่เฝือกตัว, scoliosis surgery, anorexia) ไม่ใช่ทารกแรกเกิด"],
+       pearls:["Oligohydramnios = renal agenesis / urinary obstruction ไม่ใช่ GI atresia","ลมส่วนปลายไม่ได้ตัด volvulus ออก — กลับยิ่งต้องรีบ UGI"],
+       members:["MDCU79|RoD|Ped 15","MDCU77|RoA|Ped 4","MDCU77|RoB|Ped 6","MDCU69|RoA|51","MDCU69|RoC|23","MDCU68|RoD|77","MDCU67|RoA|9","MDCU67|RoB|6","MDCU66|RoA|X11","MDCU66|RoA|X10"]},
+      {id:"ea-tef", title:"Esophageal atresia ± TEF: ดูลมในท้องแยกชนิด และการผ่าตัด",
+       trend:"ภาพ OG tube ขดใน pouch + ท้องมี / ไม่มีลม ถามชนิด — ถามซ้ำหลายรุ่น",
+       asked:["ทารกน้ำลายฟูมปาก สำลักนมแรก film มี<b>ลมในกระเพาะ / ลำไส้</b> → <b>EA with distal TEF</b> (ตัวลวง EA without TEF, H-type, laryngeal cleft, choanal atresia)","OG ขดใน upper chest / pouch, RUL atelectasis, <b>gasless abdomen</b> → <b>EA without TEF (pure EA)</b> (ตัวลวง H-type, stenosis, EA with distal / proximal + distal TEF, duodenal atresia) — ถามซ้ำแทบทุกรุ่น","8 ชม. drooling + mild RD ไม่มีลมในลำไส้ → <b>isolated EA (type A)</b>","EA with distal TEF → การรักษา → <b>ligate fistula + immediate primary repair</b> (ตัวลวง ligate + delayed primary repair, gastrostomy + cervical esophagostomy, colon replacement)"],
+       pattern:["อาการ: น้ำลายฟูม, สำลัก / เขียวตอนป้อนนมแรก, <b>OG / NG ใส่ไม่ลง ขดใน upper pouch</b> บน film; aspiration → RUL atelectasis / pneumonia","<b>มีลมในท้อง = มี distal TEF</b> → Gross type C (~85%, พบบ่อยสุด); <b>gasless abdomen = ไม่มี distal TEF</b> → type A pure EA (~8%) หรือ type B; H-type (E) ไม่มี atresia","Type C: right thoracotomy / thoracoscopy (extrapleural) → <b>ligate / divide TEF + primary end-to-end esophagoesophagostomy ในครั้งเดียว</b>","Pure EA มัก <b>long gap</b> → <b>gastrostomy + delayed primary repair</b> (รอ esophagus โต) → ต่อไม่ได้ค่อย esophageal replacement","ตรวจ VACTERL (echo — ดู aortic arch ด้วย, renal US, spine, limb, ARM)"],
+       pearls:["ตอบแค่ 'EA' โดยไม่ดูลมในท้อง = พลาดชนิด","คีย์ลายมือเขียนอายุ '3 week' — หมายถึงทารกแรกเกิด"],
+       members:["MDCU76|RoC|Ped 3","MDCU74|RoD|46","MDCU70|RoB|36","MDCU70|RoC|59","MDCU71|RoA|57","MDCU72|RoD|46","MDCU67|RoB|4","MDCU67|RoC|61"]},
+      {id:"jejunoileal-atresia", title:"Jejunal / ileal atresia: triple bubble vs หลายห่วง และการผ่าตัด",
+       asked:["ทารกแรกเกิดอาเจียนน้ำดี ท้องอืดส่วนบน AXR ห่วงลำไส้โป่งไม่กี่ห่วง → <b>jejunal atresia</b> (ตัวลวง duodenal atresia, malrotation, meconium ileus, Hirschsprung)","1 วัน อาเจียนน้ำดี ไม่ถ่าย meconium ทวารปกติ AXR <b>หลายห่วง ไม่มีลมใน rectum</b> → <b>ileal atresia</b> (ตัวลวง jejunal / duodenal atresia, HPS, malrotation)","2 วัน GA 34 สัปดาห์ ท้องอืด อาเจียนน้ำดี ไม่ถ่าย meconium → <b>jejunal atresia</b> (ตัวลวง duodenal atresia, Hirschsprung, malrotation, HPS)","AXR <b>triple bubble</b> ไม่มีลมส่วนปลาย → definitive operation → <b>jejunojejunostomy</b> (ตัวลวง duodenoduodenostomy, Ladd, GJ, pyloromyotomy, ileostomy) — ถามซ้ำ","ผ่าตัดยืนยัน jejunal atresia → <b>resection + jejunojejunostomy</b>"],
+       pattern:["สาเหตุ = <b>intrauterine vascular accident</b> (ต่างจาก duodenal atresia ที่เป็น failure of recanalization) → anomaly ร่วมน้อย","ยิ่งอุดส่วนปลาย ยิ่งท้องอืดมากและเห็นห่วงโป่งมาก: <b>triple bubble / ไม่กี่ห่วง = jejunal</b> · <b>หลายห่วง + air-fluid level = ileal</b> (ต่อด้วย contrast enema เห็น <b>microcolon</b> และแยก meconium ileus / Hirschsprung)","ผ่าตัด: resect atretic segment + ส่วน proximal ที่โป่งมาก (หรือ tapering) → <b>end-to-end / end-to-oblique anastomosis</b>; ตรวจลำไส้ทั้งเส้นหา atresia หลายตำแหน่ง"],
+       pearls:["Double bubble = duodenum · triple bubble = proximal jejunum","คีย์ MDCU67 RoC ใช้ 'ท้องอืด + ไม่ถ่าย meconium' ชี้ lower obstruction (jejunal) — Hirschsprung ก็ให้ภาพคล้ายกัน ต้องแยกด้วย contrast enema"],
+       members:["MDCU78|RoB|30","MDCU77|RoA|Ped 6","MDCU77|RoC|Ped 6","MDCU76|RoD|58","MDCU74|RoC|9","MDCU67|RoC|69"]},
+      {id:"cdh", title:"Congenital diaphragmatic hernia: intubate + OG ห้าม bag-mask / chest drain, ผ่าตัดหลัง stabilize",
+       trend:"ให้ scaphoid abdomen + เสียงหายใจซ้ายลด แล้วถามสิ่งที่ห้ามทำหรือเวลาผ่าตัด",
+       asked:["ทารก respiratory distress, scaphoid abdomen, BS ซ้ายลด, mediastinum เลื่อนขวา → สิ่งที่ <b>ไม่ควรทำ</b> → <b>left chest drain</b> (ตัวลวง IV fluid, ATB, keep warm, CXR)","Left CDH → สิ่งที่ <b>ไม่ควรทำ</b> → <b>chest drainage</b> (ตัวลวง IV access, OG decompression, CXR, ETT)","38 สัปดาห์ RD ตั้งแต่เกิด หัวใจฟังได้ทางขวา scaphoid → <b>intubation + OG tube</b> (ตัวลวง ผ่าตัดด่วน, bag-mask 100% O2, bilateral ICD, ECMO ก่อน stabilize)","CDH ควรผ่าตัดเมื่อใด → <b>หลังแก้ acidosis (stabilize แล้ว)</b> (ตัวลวง ทันที, 6 ชม., หลังใส่ ICD, น้ำหนัก > 2,500 g)","CDH ข้อใดถูก → <b>วินิจฉัยได้จาก fetal US</b> (ตัวลวง hiatal hernia, chest tube ฉุกเฉิน, ต้อง UGI, ผ่าตัดฉุกเฉิน)"],
+       pattern:["Bochdalek ด้าน<b>ซ้าย ~85%</b>: RD แรกเกิด, <b>scaphoid abdomen</b>, BS ข้างเดียวลด, หัวใจ / mediastinum ถูกดันไปข้างตรงข้าม; ปัญหาหลัก = <b>pulmonary hypoplasia + pulmonary hypertension</b>","Prenatal US วินิจฉัยได้ (lung-to-head ratio, liver herniation)","Resuscitation: <b>intubate ทันที</b> (<b>ห้าม bag-mask</b> — ลมเข้ากระเพาะลำไส้ในอกกดปอดเพิ่ม) + <b>OG / NG decompression</b> + gentle ventilation (permissive hypercapnia) ± iNO / ECMO","<b>ห้ามใส่ chest drain</b> (แทงโดนลำไส้) เว้นแต่มี pneumothorax จริง; CXR ยืนยัน (ลำไส้ในอก, ปลาย OG อยู่ในอก)","<b>Delayed repair</b> หลัง physiologic stabilization (acid-base, hemodynamic, PHT คงที่) — ไม่ใช่ emergency surgery"],
+       pearls:["Mediastinal shift ชวนคิด tension pneumothorax → ใส่ ICD = ผิด"],
+       members:["MDCU76|RoD|29","MDCU74|RoA|38","MDCU69|RoC|R69","MDCU67|RoA|11","MDCU67|RoC|68"]}
+    ]},
+    {title:"Congenital heart disease (CVT ในเด็ก)", sections:[
+      {id:"asd", title:"Atrial septal defect: SEM ที่ LUSB + wide fixed split S2 + incomplete RBBB",
+       trend:"ให้ fixed split S2 + RBBB ถามวินิจฉัยเกือบทุกรุ่น และชนิดที่พบบ่อยที่สุด",
+       asked:["เด็กเหนื่อย SEM ที่ LUSB + wide fixed split S2 + (incomplete) RBBB → <b>ASD</b> (ตัวลวง VSD, PDA, TOF, coarctation) — ถามซ้ำหลายรุ่น","2 เดือน มาฉีดวัคซีน โตดี soft 2/6 crescendo-decrescendo ที่ upper sternal border + fixed split S2 → <b>ASD</b>","ASD ชนิดที่พบบ่อยที่สุด → <b>ostium secundum</b> (ตัวลวง primum, PFO, sinus venosus, combined)"],
+       pattern:["L→R shunt ระดับ atrium → RV volume overload → murmur คือ <b>pulmonary flow murmur</b> (relative PS) = systolic ejection ที่ <b>LUSB</b> ไม่ใช่เสียงเลือดผ่านรู","<b>Wide fixed split S2</b> เป็นลักษณะเด่น; ECG <b>incomplete RBBB + RAD</b> (secundum) หรือ LAD (primum)","ชนิด: <b>secundum (fossa ovalis) ~75%</b> > primum (endocardial cushion, cleft MV, Down) > sinus venosus (ใกล้ SVC, PAPVR) > coronary sinus; <b>PFO ไม่นับเป็น ASD</b>","มักไม่มีอาการในวัยทารก; secundum เล็กปิดเองได้; ใหญ่ปิดด้วย device / ผ่าตัดช่วงอายุ 2–5 ปี"],
+       pearls:["ไฟล์บางรุ่นจดเป็น pansystolic — fixed split S2 + RBBB ยังชี้ ASD","VSD = holosystolic ที่ LLSB · ASD = ejection ที่ LUSB · PDA = continuous"],
+       members:["MDCU78|RoD|43","MDCU76|RoD|67","MDCU74|RoA|19","MDCU73|RoB|CVT 1","MDCU70|RoA|90","MDCU71|RoA|69"]},
+      {id:"lr-shunt", title:"ภาวะแทรกซ้อนระยะยาวของ L→R shunt และ Eisenmenger",
+       trend:"ถามซ้ำแทบคำต่อคำทุกรุ่น: ข้อใดไม่ใช่ complication — คำตอบ pulmonary artery hypoplasia",
+       asked:["ข้อใด <b>ไม่ใช่</b> long-term complication ของ L→R shunt → <b>hypoplasia ของ pulmonary artery</b> (ข้อที่ใช่: heart failure, pulmonary hypertension, IE, shunt reversal, cyanosis) — ถามซ้ำหลายรุ่น","19 ปี large VSD ไม่ได้ซ่อม เขียว clubbing R→L shunt + irreversible pulmonary vascular disease → definitive → <b>heart-lung transplantation</b> (ตัวลวง VSD patch closure, PA banding, BT shunt, lung transplant อย่างเดียวไม่ซ่อมหัวใจ)"],
+       pattern:["L→R shunt (VSD, PDA, ASD, AVSD) → pulmonary overcirculation → CHF, FTT, pneumonia ซ้ำ → pulmonary hypertension (plexiform lesion) → <b>Eisenmenger</b> (shunt กลับ R→L) → cyanosis; jet lesion → infective endocarditis","PA ในโรคนี้<b>โต</b> — <b>PA hypoplasia เป็นของโรคที่ pulmonary flow น้อย</b> (TOF, pulmonary atresia)","Eisenmenger: <b>ปิด VSD ไม่ได้แล้ว</b> (RV fail) → pulmonary vasodilator ระหว่างรอ → <b>heart-lung transplant</b> (หรือ lung transplant + ซ่อม VSD ในบางศูนย์)"],
+       pearls:["Hypoplasia กับ hypertension สะกดคล้ายกัน — อ่านช้อยให้ดี"],
+       members:["MDCU75|RoD|CVT 2","MDCU72|RoA|34","MDCU69|RoC|16","MDCU68|RoB|79","MDCU68|RoD|34","MDCU75|RoC|CVT 1"]},
+      {id:"pda", title:"PDA ใน preterm: COX inhibitor ก่อน ผ่าตัดเมื่อยาล้มเหลว / มีข้อห้าม",
+       asked:["Preterm hsPDA ยังเหนื่อยแม้ให้ diuretic ไม่มีข้อห้ามยา → <b>indomethacin</b> (ตัวลวง ligation, aspirin, PGE1, digoxin)","800 g preterm on ventilator, pneumonia / sepsis, continuous murmur ที่ LUSB → ข้อที่ <b>ผิด</b> → <b>ต้องผ่าตัดปิดก่อน</b> — ถามซ้ำ","Preterm hsPDA พิจารณา ligation เมื่อใช้ยาไม่ได้ → ข้อใด <b>ไม่ใช่</b> ข้อบ่งชี้ผ่าตัด → <b>น้ำหนัก < 500 g</b> (ข้อบ่งชี้: IVH, platelet ต่ำ, Cr สูง, NEC)","PDA ligation มี <b>ข้อห้าม</b>เมื่อใด → <b>Eisenmenger (R→L flow)</b> (ตัวลวง preterm ที่ยาล้มเหลว, HF, audible PDA, หลัง endarteritis)"],
+       pattern:["Preterm hsPDA → <b>COX inhibitor</b>: indomethacin หรือ ibuprofen (หรือ paracetamol) — ทารกครบกำหนดยาไม่ค่อยได้ผล","ยาล้มเหลว (ราว 2 courses) หรือ<b>มีข้อห้ามของ NSAID</b> — เลือดออก (IVH), thrombocytopenia, azotemia / Cr สูง, NEC / bowel ischemia → <b>surgical ligation</b> หรือ transcatheter closure","น้ำหนักตัวน้อยอย่างเดียว (< 500 g) ไม่ใช่ข้อห้ามยาหรือข้อบ่งชี้ผ่าตัด","ข้อบ่งชี้ปิดในเด็กโต: HF, audible PDA (ป้องกัน endarteritis); <b>ข้อห้ามปิด</b>: severe PAH with R→L / bidirectional shunt (Eisenmenger), life-threatening infection / septic shock","PGE1 = <b>เปิด</b> duct · indomethacin = <b>ปิด</b> duct"],
+       pearls:["ช้อยข้อห้ามยาถูกใช้เป็นข้อบ่งชี้ผ่าตัด — อ่าน NOT ให้ดี"],
+       members:["MDCU76|RoC|CVT 1","MDCU75|RoC|CVT 4","MDCU70|RoA|89","MDCU72|RoD|17","MDCU72|RoB|6"]},
+      {id:"bt-shunt", title:"Tetralogy of Fallot / ductal-dependent pulmonary flow: modified BTT shunt",
+       asked:["3 วัน TOF เขียวมาก SpO2 60% ductus กำลังปิดแม้ให้ PGE1 → <b>modified Blalock-Thomas-Taussig shunt</b> (ตัวลวง เพิ่ม PGE1, PA banding, indomethacin, balloon atrial septostomy)","Pulmonary atresia ductal-dependent เริ่ม PGE1 แล้ว → palliative operation → <b>BT shunt</b> (ตัวลวง Senning, Mustard, PA banding, arterial switch)","TOF เขียวมาก ตัวเล็กเกินกว่าจะ complete repair → <b>modified BTT shunt</b> (ตัวลวง Glenn, Fontan, PA banding, arterial switch)","1 ปี เขียวมากขึ้นเวลาร้อง squatting harsh SEM ที่ LUSB CXR boot-shaped → <b>TOF</b> (ตัวลวง TGA, VSD, truncus, TAPVR)"],
+       pattern:["<b>TOF</b> = VSD + RVOT obstruction + overriding aorta + RVH; tet spell (เขียวขึ้นเมื่อร้อง), <b>squatting</b> เพิ่ม SVR, CXR <b>boot-shaped heart</b> + pulmonary oligemia; murmur มาจาก RVOT obstruction","Ductal-dependent pulmonary flow: <b>PGE1</b> คง ductus ก่อน → ถ้าไม่พอ / PA เล็ก / ทารกเล็ก → <b>modified BTT shunt</b> (PTFE graft จาก subclavian / innominate artery ไป PA) เพิ่ม pulmonary blood flow แล้วค่อย complete repair; ทางเลือกปัจจุบัน ductal / RVOT stent","<b>PA banding ลด</b> pulmonary flow (ใช้ใน L→R ใหญ่) — ตรงข้ามกับ BT shunt"],
+       pearls:["สลับ BT shunt (เพิ่มเลือดไปปอด) กับ PA banding (ลดเลือดไปปอด)"],
+       members:["MDCU79|RoC|CVT 1","MDCU79|RoD|CVT 6","MDCU77|RoC|CVT 7","MDCU74|RoC|18"]},
+      {id:"cyanotic", title:"Cyanosis ในทารกแรกเกิด: TGA (egg on a string) และแยก cyanotic vs acyanotic CHD",
+       asked:["2 ชม. เขียวแต่ไม่หอบ CXR → <b>TGA (egg on a string)</b> (ตัวลวง truncus, TOF, TAPVR, pneumopericardium)","แรกเกิดเขียว แย่ลงตอนกินนม single loud S2 ไม่มี murmur ชัด CXR → <b>TGA</b> (ตัวลวง TOF, VSD, choanal atresia, PPHN)","เด็กคนใด <b>ไม่เขียว</b> → <b>ASD</b> (ตัวลวง VSD + PS, DORV, TGA + VSD, TOF)","ทารกแรกเกิดเขียว → น่าจะเป็นน้อยที่สุด → <b>ASD</b> (ตัวลวง DORV, VSD, TOF, TGA + VSD)"],
+       pattern:["<b>D-TGA</b>: เขียวมากตั้งแต่ชั่วโมงแรก <b>ไม่ค่อยหอบ</b>, single loud S2 (aorta อยู่หน้า), murmur มักไม่มีถ้า septum intact; CXR <b>egg on a string</b> (superior mediastinum แคบ) pulmonary vascularity ปกติ / เพิ่ม","รักษาเร่งด่วน: <b>PGE1</b> → balloon atrial septostomy (Rashkind) → <b>arterial switch (Jatene)</b> ใน 2–3 สัปดาห์แรก","Cyanotic (5T): TOF, TGA, truncus, TAPVR, tricuspid atresia (+ DORV); acyanotic: ASD, VSD, PDA, AVSD; cyanotic ที่พบบ่อยสุดโดยรวม = TOF, ในทารกแรกเกิด = TGA","ASD ไม่ทำให้มีอาการในทารกแรกเกิดเลย จึง least likely ที่สุด (VSD ก็ acyanotic แต่มีอาการได้)"],
+       pearls:["'ร้องแล้วหายเขียว' (paradoxical cyanosis) = choanal atresia — ผู้จด MDCU78 จำอาการนี้มาแต่คลังตัดออก เพราะไม่เข้ากับ TGA"],
+       members:["MDCU78|RoA|10","MDCU78|RoB|44","MDCU70|RoB|ไม่มีเลข 6","MDCU72|RoC|46"]},
+      {id:"vsd", title:"Ventricular septal defect: holosystolic murmur ที่ LLSB, CHD ที่พบบ่อยที่สุด",
+       asked:["เด็ก holosystolic murmur ที่ LLSB ไม่เขียวแต่เหนื่อย → <b>VSD</b>","2 เดือน ดูดนมเหนื่อย เหงื่อออก น้ำหนักขึ้นน้อย tachypnea hepatomegaly harsh 3/6 holosystolic LLSB → <b>VSD</b> (ตัวลวง ASD, PDA, TOF, coarctation)","CHD ที่พบบ่อยที่สุด → <b>VSD</b> (ตัวลวง TOF, TGA, PDA, ASD)"],
+       pattern:["VSD = CHD ที่พบบ่อยที่สุด (~25–30%; ถ้านับ bicuspid aortic valve บางตำราสูงกว่า แต่ไม่อยู่ในช้อย)","Harsh <b>holosystolic murmur ที่ LLSB</b> ± thrill","Large VSD: heart failure ช่วง <b>4–8 สัปดาห์</b> เมื่อ PVR ลดลง (เหงื่อออกขณะดูดนม, FTT, tachypnea, hepatomegaly) → anti-failure + ปิดด้วยการผ่าตัดภายใน 3–6 เดือน ก่อนเกิด pulmonary vascular disease","Small muscular / perimembranous ปิดเองได้"],
+       pearls:["Large VSD murmur อาจเบากว่า small VSD"],
+       members:["MDCU79|RoD|CVT 5","MDCU78|RoB|45","MDCU75|RoC|CVT 2"]},
+      {id:"tof-pa", title:"TOF: เลือก total repair หรือ shunt ตามขนาด pulmonary artery",
+       asked:["TOF ปัจจัยที่สำคัญที่สุดในการเลือก total correction หรือ palliative shunt → <b>ขนาดของ pulmonary arteries</b> (ตัวลวง อายุ, aortic override, ความรุนแรง PS, ขนาด VSD) — ถามซ้ำหลายรุ่น"],
+       pattern:["PA ขนาดพอ (McGoon ratio / Nakata index ดี) → <b>complete repair</b> (ปิด VSD + แก้ RVOT) ทำได้ตั้งแต่ ~3–6 เดือน","PA เล็ก / hypoplastic → <b>modified BT shunt</b> ก่อนให้ PA โต (ถ้า total repair ทั้งที่ PA เล็ก RV pressure สูงจน fail)","อายุไม่ใช่ข้อจำกัดหลักในปัจจุบัน"],
+       pearls:["เลือก degree of PS เพราะคิดว่ากำหนดความรุนแรง — คีย์ทุกรุ่นตอบขนาด PA"],
+       members:["MDCU75|RoD|CVT 4","MDCU69|RoC|17","MDCU68|RoC|65"]}
+    ]},
+    {title:"Hirschsprung disease และ anorectal malformation", sections:[
+      {id:"arm", title:"Anorectal malformation: รอ 24 ชม. ดู fistula → anoplasty / PSARP หรือ colostomy",
+       trend:"ออกแทบทุกปี — ให้เพศ + ตำแหน่ง meconium (perineum / ปัสสาวะ / ไม่เห็น) แล้วถามขั้นต่อไป",
+       asked:["ทารกชายไม่มีรูทวาร <b>meconium ออกทาง urethra / ในปัสสาวะ</b> → <b>colostomy</b> (ตัวลวง anoplasty, primary PSARP, cross-table lateral, CT, rectal irrigation) — ถามซ้ำหลายรุ่น","ทารกชายมี meconium ทางท่อปัสสาวะ → initial investigation → <b>cross-table lateral film</b> (คีย์ MDCU78 RoB; ⚠ ดู pearl)","2 วัน ปัสสาวะเหลืองปกติ ภาพเห็นรูเล็กหน้าตำแหน่งทวารมี meconium บีบออก (perineal fistula) → <b>primary minimal PSARP</b> (ตัวลวง cross-table lateral, colostomy, dilatation อย่างเดียว, BE)","ทารกชาย 3 ชม. ไม่มีรูทวาร ยังไม่เห็น fistula / meconium → <b>ตรวจ perineum ซ้ำที่ 24 ชม.</b> (ตัวลวง cross-table ตอนนี้, colostomy วันนี้, PSARP, CT)","ทารกชายไม่มีรูทวาร stable → ใน 24 ชม.แรกทำอะไร → <b>serial perineal examination</b>","ทารกชายไม่มี fistula ที่ 24 ชม. → prone cross-table lateral (marker ที่ anal dimple) เห็น rectal pouch ห่าง marker มาก → <b>high ARM</b> (ตัวลวง meconium plug, Hirschsprung, low ARM, cloaca)","Prone cross-table lateral แบ่ง high / low ด้วยเส้นอ้างอิงใด → <b>pubococcygeal line</b> (ตัวลวง coccygeal tip, levator ani, I line, sacrum)","ทารกหญิงไม่มีรูทวารปกติ meconium ออกจากรูเดียวที่ perineum ตำแหน่ง urethra → <b>divided (double-barrel) colostomy</b> (ตัวลวง ileostomy, primary PSARP, cross-table 24 ชม., anoplasty)","ทารกไม่ถ่าย meconium + ท้องอืด → ตรวจอะไรก่อน → <b>careful perineal examination</b> (ตัวลวง รอ 48 ชม. แล้ว US, BE ทันที, rectal biopsy ทันที, CT)","ARM ข้อใด <b>ผิด</b> → <b>ต้องทำ prone cross-table lateral ทุกราย</b> (ข้อถูก: VACTERL, rectourethral fistula → colostomy ก่อน, ส่วนใหญ่มี fistula, ประเมิน spine / sacrum)"],
+       pattern:["ทารกไม่ถ่าย meconium → <b>ตรวจ perineum อย่างละเอียดก่อนเสมอ</b>; ถ้าทวารปกติจึงไป AXR / contrast enema / rectal biopsy","<b>16–24 ชม.แรก</b>: NPO, IV fluid, OG, ตรวจ VACTERL และ<b>ตรวจ perineum + ปัสสาวะซ้ำ</b> (ต้องรอแรงดันในลำไส้ดัน meconium ผ่าน fistula) (Levitt–Peña)","<b>Perineal fistula</b> (ชาย / หญิง) = low → <b>anoplasty / minimal PSARP ช่วงแรกเกิด ไม่ต้อง colostomy</b>","<b>Meconium ในปัสสาวะ</b> (rectourethral / rectovesical fistula) หรือหญิง <b>รูเดียว (cloaca)</b> → <b>divided descending colostomy</b> ก่อน → PSARP (หรือ PSARVUP ใน cloaca) ราว 1–3 เดือน → ปิด colostomy (3 stages) — ไม่ต้องรอ film","ไม่เห็น fistula หลัง 24 ชม. → <b>prone cross-table lateral</b> (marker ที่ dimple): rectal gas ห่างผิว <b>> 1 cm / เหนือ coccyx / เหนือ PC line = high</b> → colostomy; <b>< 1 cm / ใต้ I line = low</b> → primary PSARP","เส้นบนภาพรังสี: <b>PC line</b> (แทนระดับ levator ani / puborectalis) — เหนือ = high, ระหว่าง PC line กับ I line = intermediate, ใต้ I line = low"],
+       pearls:["ถ่าย film ก่อน 16–24 ชม. → ลมยังไม่ถึงปลาย rectum ดู high เกินจริง","MDCU78 RoB ตอบ cross-table lateral แม้มี meconium ในปัสสาวะ — แนวทาง Levitt–Peña ทำ colostomy ได้เลยโดยไม่ต้องใช้ film; ถ้าช้อยมี colostomy ให้เลือก colostomy เหมือนรุ่น MDCU71 / MDCU74","ช้อย levator ani กับ PC line หมายถึงระดับเดียวกัน — ถ้าถามบนภาพรังสีตอบ PC line"],
+       members:["MDCU79|RoC|Ped 7","MDCU78|RoB|32","MDCU78|RoD|2","MDCU76|RoD|13","MDCU76|RoD|14","MDCU75|RoD|Ped 3","MDCU74|RoD|47","MDCU73|RoD|Ped 3","MDCU71|RoA|ไม่มีเลข 6","MDCU71|RoB|51","MDCU72|RoC|ไม่มีเลข 11","MDCU67|RoB|8"]},
+      {id:"hirsch-dx", title:"Hirschsprung disease: วินิจฉัยด้วย rectal suction biopsy",
+       trend:"ให้ขี้เทาออกช้า + contrast enema เห็น transition zone แล้วถาม next step หรือผล biopsy",
+       asked:["ทารกขี้เทาออกช้า ท้องอืด contrast enema → <b>Hirschsprung</b> (ตัวลวง meconium ileus / plug, ileal atresia, functional constipation)","Enema เห็น sigmoid / descending โป่ง rectum แคบ → next → <b>rectal (suction) biopsy</b> (ตัวลวง US, MRI spine, colostomy ไม่ biopsy, enema ซ้ำ, pull-through ทันที, laxative, sigmoid colectomy, colonoscopy) — ถามซ้ำหลายรุ่น","48 ชม. ไม่ถ่าย meconium, DRE แล้วอุจจาระพุ่งเหม็น → <b>rectal suction biopsy</b> (ตัวลวง LFT, barium swallow, laparotomy, sweat chloride)","Blast sign + sphincter tone เพิ่ม → การตรวจในช้อยที่สนับสนุน → <b>anorectal manometry</b> (ช้อยไม่มี biopsy)","Rectal biopsy ใน Hirschsprung เห็นอะไร → <b>ไม่มี ganglion cell + AChE เพิ่ม</b> (ตัวลวง AChE ลด / ปกติ, ganglion เพิ่ม) — ถามซ้ำ","Hirschsprung ข้อใดถูก → <b>ไม่มี ganglion cell ทั้ง Auerbach และ Meissner plexus</b> (ตัวลวง enterocolitis เป็นอาการที่พบบ่อยสุด, BE เป็น gold standard, ส่วนใหญ่ total colon)"],
+       pattern:["Neural crest migration ล้มเหลว → <b>ไม่มี ganglion cell ใน submucosal (Meissner) และ myenteric (Auerbach) plexus</b> ของลำไส้ส่วนปลาย → หดเกร็งไม่คลาย; <b>rectosigmoid ~75–80%</b>","อาการ: meconium ออกช้า <b>> 24–48 ชม.</b>, ท้องอืด, อาเจียน, DRE แล้วอุจจาระ / ลมพุ่ง (<b>blast sign</b>); enterocolitis ~10–30% (ไข้ ท้องอืด ถ่ายเหลวเหม็น)","Contrast enema: <b>transition zone</b> (ส่วนปลายแคบ ส่วนต้นโป่ง), rectosigmoid index < 1, barium ค้าง > 24 ชม. — ช่วย<b>บอกตำแหน่ง</b>แต่ไม่ใช่การยืนยัน","<b>Rectal suction biopsy = gold standard</b> (เหนือ dentate line ~1–2 cm): ไม่มี ganglion cell + hypertrophic nerve trunks + <b>acetylcholinesterase เพิ่ม</b> + calretinin negative","Anorectal manometry: ไม่มี rectoanal inhibitory reflex (ใช้ได้ดีในเด็กโต) — ตอบเมื่อช้อยไม่มี biopsy"],
+       pearls:["ถือ contrast enema เป็นการวินิจฉัยยืนยันแล้วไปผ่าตัด = ผิด","Biopsy ต่ำเกิน (ใกล้ dentate) ปกติก็ไม่มี ganglion → แปลผลผิด","คีย์ MDCU78 RoB ตอบ manometry เพราะไม่มี biopsy ในช้อย"],
+       members:["MDCU79|RoD|Ped 1","MDCU78|RoB|31","MDCU77|RoA|Ped 5","MDCU77|RoC|Colo 4","MDCU76|RoD|59","MDCU75|RoC|Colo 3","MDCU72|RoA|62","MDCU69|RoA|53","MDCU67|RoB|10"]},
+      {id:"hirsch-tx", title:"Hirschsprung disease: rectal irrigation → pull-through",
+       asked:["Rectosigmoid Hirschsprung → treatment of choice → <b>endorectal pull-through</b> (ตัวลวง ileostomy, transverse colectomy, sigmoidectomy, rectal irrigation = initial)","ยืนยัน aganglionosis แล้ว transition zone รูปกรวยที่ rectosigmoid → definitive → <b>transanal endorectal pull-through</b> (ตัวลวง PSARP, anal dilatation, subtotal colectomy, laxative)","หญิง 2 เดือนแข็งแรง rectosigmoid transition → <b>transanal endorectal pull-through</b> (ตัวลวง colostomy + Swenson / Duhamel / Soave)","5 วัน Hirschsprung → initial management → <b>rectal irrigation</b> (ตัวลวง PSARP, ileostomy, colostomy, pull-through ทันที)","10 ปี Hirschsprung วินิจฉัยช้า colon ส่วนต้นโป่งมาก → initial → <b>daily enema</b> (decompress 2–3 เดือนแล้วค่อย pull-through)","ภาวะใดต้องผ่าตัดแก้ → <b>Hirschsprung</b> (ตัวลวง meconium plug, uncomplicated meconium ileus, umbilical hernia เล็ก)"],
+       pattern:["Initial / bridging: <b>rectal irrigation (saline washout)</b> decompress ลำไส้ (enterocolitis → irrigation + IV antibiotics)","Definitive: ตัด aganglionic segment แล้วดึงลำไส้ปกติลงมาต่อ — <b>transanal endorectal (Soave / De la Torre) pull-through</b>, Swenson, Duhamel; ยืนยัน ganglion ด้วย leveling biopsy","เด็กแข็งแรง short segment ไม่มี enterocolitis → <b>one-stage pull-through ไม่ต้อง stoma</b>; staged (colostomy ก่อน) เมื่อ enterocolitis รุนแรง, colon โป่งมาก, ทุพโภชนาการ, long segment","วินิจฉัยช้าในเด็กโต colon โป่งหนา → <b>decompress ก่อน</b> (enema / irrigation หรือ colostomy) 2–3 เดือน แล้ว pull-through","Meconium plug → contrast enema / irrigation (ต้องแยก Hirschsprung, CF); uncomplicated meconium ileus → Gastrografin enema"],
+       pearls:["PSARP เป็นการผ่าตัดของ ARM ไม่ใช่ Hirschsprung"],
+       members:["MDCU73|RoD|Colo 3","MDCU68|RoC|54","MDCU68|RoD|84","MDCU67|RoB|15","MDCU67|RoD|8","MDCU66|RoB|11"]},
+      {id:"arm-vacterl", title:"ARM กับ VACTERL: คัดกรอง echo, spine US, renal US",
+       asked:["ทารก ARM urine ขุ่น sacrum 5 ปล้องปกติ มีลมในกระเพาะลำไส้ → ต้องตรวจเพิ่ม → <b>echocardiogram</b> (คีย์เก่า MDCU77 RoC 'B?' CT spine — คลังแก้ตาม Holcomb & Ashcraft 7e)","ทารกหญิงไม่มีรูทวาร sacrum ปกติ → คัดกรองความผิดปกติของไขสันหลัง → <b>spinal ultrasound</b> (ตัวลวง observe, ตรวจระบบประสาททุก 3 เดือน, MRI, X-ray ซ้ำที่ 1 ปี)","ข้อใดเป็นส่วนหนึ่งของ VACTERL → <b>anorectal malformation</b> (ตัวลวง ankylosing spondylitis, congenital cystic lung, cleft lip, Hirschsprung)"],
+       pattern:["<b>VACTERL</b>: Vertebral, Anorectal, Cardiac, TracheoEsophageal, Renal, Limb (radial) — พบหนึ่งอย่างต้องตรวจครบ","ARM ทุกราย: <b>echocardiogram</b>, renal US, <b>spinal US</b> (ทารก < 3 เดือน posterior elements ยังไม่เป็นกระดูก → ผิดปกติ / เด็กโตค่อย MRI), X-ray sacrum / spine, ใส่ NG ดู EA (มีลมในกระเพาะ = มักไม่ใช่ pure EA), ตรวจแขนขา","Tethered cord / spinal dysraphism พบได้บ่อยแม้ sacrum ปกติ; CT spine มีรังสีและดูไขสันหลังไม่ดี"],
+       pearls:["Sacrum ปกติ ไม่ได้แปลว่าไขสันหลังปกติ"],
+       members:["MDCU77|RoB|Ped 7","MDCU77|RoC|Ped 8","MDCU68|RoD|89"]}
+    ]},
+    {title:"ผนังหน้าท้อง สะดือ ขาหนีบ และถุงอัณฑะ", sections:[
+      {id:"gastroschisis", title:"Gastroschisis: ลักษณะ (vs omphalocele) และ initial management",
+       trend:"ถามแทบทุกปีแบบ 'ข้อใดถูก' — ช้อยลวงเป็นลักษณะของ omphalocele",
+       asked:["Gastroschisis ข้อใดถูก → <b>prolonged adynamic ileus หลังซ่อม</b> (ตัวลวง chromosomal, anomaly ร่วมสูง, atresia 40–80%, ตับ / ม้ามออกมา) — ถามซ้ำหลายรุ่น","ภาพ gastroschisis ข้อใดถูก → <b>defect อยู่ขวาของสะดือ</b> (ตัวลวง ตับออก, ส่วนใหญ่มี atresia, chromosomal, มีถุง)","ภาพ gastroschisis ข้อใดจริง → <b>สภาพลำไส้กำหนด prognosis</b>","ภาพ gastroschisis ข้อใดถูก → <b>intestinal atresia พบร่วมได้</b> (ตัวลวง anomaly ร่วมบ่อย, ตับ + ลำไส้, มีถุง, BWS)","Gastroschisis ข้อใดถูก → <b>anomaly ร่วมน้อยกว่า omphalocele</b> / <b>สัมพันธ์กับ SGA</b> (ตัวลวง defect ซ้าย, มีถุง peritoneum, แม่อายุมาก, รอซ่อมได้หลายสัปดาห์)","ลำไส้เล็กและใหญ่ยื่นผ่าน defect ข้างสะดือ ไม่มีถุง → <b>gastroschisis</b> (ตัวลวง omphalocele / ruptured omphalocele, umbilical hernia, patent omphalomesenteric duct)","Defect ขวาของสะดือ ลำไส้บวมไม่มีถุง → สิ่งที่ <b>ไม่ใช่</b> initial management ในห้องคลอด → <b>ดันลำไส้กลับทันทีที่เตียง</b> (ที่ทำ: IV fluid, IV ATB, OG decompression, คลุมพลาสติก)"],
+       pattern:["Full-thickness defect เล็ก (< 4 cm) <b>ทางขวาของสายสะดือ</b> (สายสะดือติดปกติ), <b>ไม่มีถุง</b>, มีแต่ลำไส้ (ไม่มีตับ)","แม่<b>อายุน้อย</b>, สูบบุหรี่ / ยาเสพติด; ทารก <b>SGA / preterm</b>","Anomaly ร่วมน้อย — ยกเว้น <b>intestinal atresia ~10–15%</b>; ไม่สัมพันธ์ chromosome","ลำไส้แช่ amniotic fluid → peel, บวมหนา → <b>dysmotility / prolonged ileus</b> ต้อง TPN นาน; <b>prognosis ขึ้นกับสภาพลำไส้</b> (simple vs complex: atresia, perforation, necrosis, volvulus)","Initial: keep warm, <b>คลุมลำไส้ด้วย bowel bag / plastic wrap</b> (ไม่ให้บิดหักพับ, ตะแคงขวา), <b>OG decompression</b>, NPO + <b>IV fluid</b> (เสียน้ำมาก), <b>IV antibiotics</b> → ห้องผ่าตัด: primary closure หรือ <b>preformed silo + staged reduction</b> — <b>ไม่ดันลำไส้กลับที่เตียงห้องคลอด</b>"],
+       pearls:["ตับ / ม้าม, chromosome, BWS, anomaly เยอะ, มีถุง = omphalocele ทั้งหมด"],
+       members:["MDCU77|RoA|Ped 10","MDCU77|RoB|Ped 8","MDCU77|RoC|Ped 3","MDCU76|RoC|Colo 2","MDCU74|RoC|8","MDCU69|RoA|58","MDCU69|RoC|X2","MDCU67|RoA|5","MDCU67|RoB|1","MDCU67|RoC|72"]},
+      {id:"omphalocele", title:"Omphalocele: ถุงหุ้ม + ภาวะร่วมมาก (chromosome, BWS, หัวใจ)",
+       trend:"ถาม syndrome ที่สัมพันธ์ (ในช้อยมีแค่ Down) และข้อใดถูก",
+       asked:["Defect กลางสะดือ มีถุง สายสะดือเกาะถุง (± ตับ) → syndrome ที่สัมพันธ์ → <b>Down syndrome</b> (ตัวลวง Turner, Noonan, Marfan, Williams, Klinefelter, DiGeorge) — ถามซ้ำ","Omphalocele ข้อใดจริง → <b>ถุงมีได้ทั้งลำไส้และตับ</b> (ตัวลวง อยู่ขวาของสะดือ, ไม่มีถุง, prognosis ดีกว่า gastroschisis, ต้องปิดฉุกเฉินเสมอ, SGA)","Omphalocele vs gastroschisis ข้อใดจริง → <b>สัมพันธ์กับแม่อายุมาก</b> (คีย์เก่า P'Ing MDCU74 RoA ตอบ 'contents eviscerated' — คลังแก้ตาม Holcomb & Ashcraft 7e / CDC)","Omphalocele 4 cm intact หายใจดี → initial → <b>คลุมถุงด้วย moist sterile cover + gastric tube + IV fluid</b> (ตัวลวง ปิด fascia ทันที, gauze แห้ง + ให้นม, เจาะถุงดันลำไส้, silo ทันที)"],
+       pattern:["Physiologic herniation ไม่กลับเข้าท้อง (สัปดาห์ 10–12) → defect <b>ที่ umbilicus</b> มี<b>ถุง</b> (amnion + peritoneum) สายสะดือเกาะบนถุง; มีลำไส้ ± <b>ตับ</b>","Anomaly ร่วมสูง: <b>chromosomal (trisomy 18, 13, 21)</b>, <b>Beckwith-Wiedemann</b> (macroglossia, hypoglycemia, organomegaly, Wilms / hepatoblastoma), <b>cardiac</b>, pentalogy of Cantrell, OEIS (cloacal exstrophy) → prognosis ขึ้นกับ anomaly ร่วม (แย่กว่า gastroschisis)","สัมพันธ์กับ<b>มารดาอายุมาก</b> (gastroschisis = อายุน้อย)","Initial: keep warm, คลุมถุงด้วย moist / plastic ไม่ให้แตก, OG, IV fluid <b>+ glucose</b> (BWS hypoglycemia), echo + karyotype → เล็กปิด primary; giant → <b>paint-and-wait</b> แล้วซ่อมภายหลัง — ไม่เร่งด่วนเพราะถุงยังอยู่"],
+       pearls:["ในความจริงสัมพันธ์ trisomy 18 / 13 และ BWS มากกว่า — แต่ในช้อยมีแค่ Down","อย่าทำให้ถุงแตก"],
+       members:["MDCU79|RoD|Ped 6","MDCU78|RoB|26","MDCU78|RoB|58","MDCU76|RoA|24","MDCU74|RoA|ไม่มีเลข 8","MDCU72|RoB|21","MDCU68|RoC|53"]},
+      {id:"hydrocele", title:"Hydrocele ในเด็ก: non-communicating → observe, communicating → inguinal ligation",
+       asked:["ก้อนถุงอัณฑะส่องไฟผ่าน ไม่ยุบเมื่อนอน / บีบ → <b>non-communicating hydrocele</b> (ตัวลวง varicocele, communicating hydrocele, hernia, tumor)","4 เดือน ขนาดไม่เปลี่ยนในวัน silk glove ลบ transillumination บวก → <b>follow-up</b> (ตัวลวง เจาะดูด, hydrocelectomy, herniotomy ใน 48 ชม., US + tumor markers)","6 เดือน ก้อน cystic ไม่ยุบ ส่องไฟผ่าน อัณฑะปกติ → <b>observation</b> (ตัวลวง hydrocelectomy inguinal / scrotal, aspiration)","Non-communicating hydrocele ไม่มีอาการ ควรผ่าเมื่อ → <b>หลัง 2 ปี</b>","Persistent communicating hydrocele → <b>inguinal ligation ของ processus vaginalis</b> (ตัวลวง aspiration, sclerotherapy, รอถึง 10 ปี, scrotal hydrocelectomy)"],
+       pattern:["Non-communicating: ขนาดคงที่ บีบไม่ยุบ silk glove ลบ → ส่วนใหญ่<b>หายเองใน 12–24 เดือน</b> → observe; ช่วงอายุผ่าตัดต่างกันตามแหล่ง: <b>EAU Paediatric Urology 2025</b> = ไม่ผ่าใน <b>12 เดือนแรก</b>, ยังคงอยู่หลังจากนั้น = ข้อบ่งชี้ผ่าตัด (ผ่าเร็วถ้าสงสัย hernia / พยาธิสภาพอัณฑะ); EAU ฉบับก่อนและคีย์ MDCU67 ใช้ <b>12–24 เดือน / หลัง 2 ปี</b>; ใหญ่ตึง หรือกลายเป็น communicating ก็ผ่า","Communicating (PPV เปิด): ขนาดเปลี่ยนในวัน → รักษา<b>เหมือน hernia</b> = <b>inguinal approach, high ligation ของ PPV</b> ถ้าไม่หายหลัง 1–2 ปี","<b>ห้ามเจาะดูด</b> (ติดเชื้อ, เป็นซ้ำ); scrotal approach ใช้ใน hydrocele ของผู้ใหญ่","เด็กโตที่เพิ่งเป็น → US แยก tumor / torsion / epididymitis (reactive hydrocele)"],
+       pearls:["ทารกบางราย hernia ก็ส่องไฟผ่านได้ — ดูว่าคลำขอบบนของก้อนได้หรือไม่","Irreducible ในโจทย์ hydrocele ไม่ได้หมายถึง incarcerated hernia"],
+       members:["MDCU79|RoD|Ped 7","MDCU75|RoD|Ped 7","MDCU74|RoA|44","MDCU70|RoC|ไม่มีเลข 2","MDCU67|RoB|9"]},
+      {id:"inguinal-hernia", title:"Inguinal hernia ในเด็ก: patent processus vaginalis → herniotomy (ไม่ใช้ mesh)",
+       asked:["สาเหตุที่พบบ่อยที่สุดของ inguinal hernia ในเด็ก → <b>patent processus vaginalis</b> (ตัวลวง transversalis fascia อ่อน, IAP สูง, defect external oblique)","1 เดือน bilateral reducible inguinal hernia → <b>high ligation of hernia sac</b> (ตัวลวง mesh, Cooper ligament, Bassini, Shouldice)","Indirect inguinal hernia ในเด็ก ข้อใดถูก → <b>ส่วนใหญ่ reducible</b> (ตัวลวง ซ้าย > ขวา, หญิง > ชาย, ใช้ mesh, รอ 2 ปี)","ก้อนขาหนีบเคยเข้าออก ตอนนี้บวมค้าง เจ็บ ผิวแดง + ท้องอืด ไม่ถ่าย → <b>emergency groin exploration</b> (ตัวลวง observe, ATB แล้ว elective, sedation + manual reduction, laparotomy)"],
+       pattern:["เด็ก = <b>indirect</b> จาก PPV; <b>ขวา > ซ้าย, ชาย > หญิง</b>, preterm สูง","รักษา: <b>herniotomy (high ligation ของ sac ที่ internal ring)</b> ไม่ซ่อม posterior wall / ไม่ใช้ mesh; ผ่าตัด<b>เร็วหลังวินิจฉัย</b> (ทารกเสี่ยง incarceration สูง) ไม่รอ","Incarcerated ไม่มี strangulation → sedation + manual reduction แล้วผ่าตัดใน 24–48 ชม.","<b>Strangulation</b> (ผิวแดง เจ็บ ลำไส้อุดตัน) → <b>ห้ามดันกลับ</b> → emergency groin exploration ± bowel resection"],
+       pearls:["ผู้ใหญ่ direct = transversalis fascia อ่อน — อย่าเอาหลักผู้ใหญ่มาใช้"],
+       members:["MDCU78|RoB|27","MDCU76|RoD|56","MDCU75|RoD|Ped 4","MDCU71|RoB|ไม่มีเลข 6@p29"]},
+      {id:"umbilical", title:"สะดือในเด็ก: umbilical hernia รอถึง 4–5 ปี และสะดือแฉะ",
+       asked:["4 เดือน umbilical hernia ดันกลับได้ defect 1 cm → <b>observe ซ่อมถ้ายังอยู่ที่อายุ 4 ปี</b> (ตัวลวง TFT, ซ่อมทันที, coin strapping, ซ่อมตอน 1 ปี)","1 ปี ก้อนสะดือ 1 cm โผล่ตอนร้อง → <b>observe ถึงราว 4 ปี</b> (ตัวลวง urgent / elective surgery, coin strapping, sclerosing agent)","2 เดือน สะดือแฉะมีน้ำ → น่าจะเป็นน้อยที่สุด → <b>umbilical hernia</b> (ตัวลวง omphalitis, umbilical polyp, patent urachus, patent vitelline duct)"],
+       pattern:["Umbilical hernia ในเด็กส่วนใหญ่<b>ปิดเองภายใน 4–5 ปี</b> และแทบไม่ incarcerate → observe","ผ่าตัดเมื่อ: ยังอยู่หลัง <b>อายุ 4–5 ปี</b>, defect <b>> 1.5–2 cm</b>, incarceration; coin strapping ไม่ช่วยและทำผิวเสีย","สะดือแฉะ: omphalitis, umbilical granuloma (silver nitrate) / polyp (excise), <b>patent urachus</b> (น้ำปัสสาวะ), <b>patent vitelline duct</b> (อุจจาระ / เมือก); umbilical hernia มีผิวหนังคลุม ไม่มี discharge"],
+       pearls:["อย่าใช้หลัก inguinal hernia (ผ่าเร็ว) กับ umbilical hernia"],
+       members:["MDCU76|RoC|Ped 4","MDCU67|RoB|3","MDCU67|RoA|6"]}
+    ]},
+    {title:"ปวดท้อง เลือดออก และสิ่งแปลกปลอมในทางเดินอาหารเด็ก", sections:[
+      {id:"intus-dx", title:"Intussusception: clinical triad, US (target sign) และ lead point",
+       trend:"ให้ทารก 6–9 เดือน ปวดเป็นพัก + currant jelly แล้วถามวินิจฉัยหรือ investigation — ถามซ้ำแทบทุกรุ่น",
+       asked:["9 เดือน ร้องเป็นพัก ขางอ ถ่าย currant jelly คลำได้ก้อน sausage ที่ RUQ → <b>intussusception</b> (ตัวลวง duplication cyst, polyp, Wilms, neuroblastoma)","6 เดือน ปวดเกร็งเป็นพัก 12 ชม. ดึงขาเข้าท้อง stool guaiac บวก → <b>intussusception</b> (ตัวลวง Meckel, volvulus, appendicitis, GE, kidney stone) — ถามซ้ำ","6 เดือน อาเจียน ปวดท้อง ถ่ายมูกเลือด → <b>intussusception</b> (ตัวลวง Peyer patch hypertrophy, Meckel, hemorrhoid, juvenile polyp)","6 เดือน ร้องเป็นพัก อาเจียนหลังกิน 8 วัน แม่คลำได้ก้อน sausage → <b>intussusception</b> (ตัวลวง choledochal cyst, Meckel, HPS, Wilms)","9 เดือน อาเจียน ถ่ายมูกเลือด ปวดเป็นพัก → investigation → <b>ultrasonography</b> (ตัวลวง proctoscopy, PR, stool exam, CT, colonoscopy, UGI, barium meal) — ถามซ้ำหลายรุ่น","6 เดือน ร้องเป็นพัก อุจจาระแดง ขาดน้ำเล็กน้อย คลำได้ก้อน RUQ → <b>abdominal US</b> (ตัวลวง plain film, CT, colonoscopy, UGI)","18 ปี SBO ผ่าตัดพบ intussusception จาก polyp + polyp อีกหลายก้อน + จุดสีน้ำตาลที่ริมฝีปากเหงือก → histology → <b>hamartomatous polyp</b> (Peutz-Jeghers; ตัวลวง adenomatous, hyperplastic, inflammatory, retention)"],
+       pattern:["อายุ <b>3 เดือน–3 ปี</b> (ส่วนใหญ่ < 2 ปี), ileocolic, idiopathic จาก lymphoid hyperplasia (Peyer's patch) หลังติดเชื้อไวรัส","Triad: <b>ปวดเป็นพัก (ร้อง ขางอ)</b>, อาเจียน, <b>currant jelly stool</b> (ครบ < 50%); คลำได้ <b>sausage mass</b> ที่ RUQ + RLQ ว่าง (Dance sign); บางรายมาด้วยซึมอย่างเดียว","<b>US = investigation of choice</b> (sens / spec ~98–100%, ไม่มีรังสี): <b>target / doughnut</b> (transverse), <b>pseudokidney</b> (longitudinal)","<b>Pathologic lead point</b> ในเด็กโต / เป็นซ้ำ: Meckel, polyp, lymphoma, HSP, duplication; <b>Peutz-Jeghers</b> (STK11, AD, ~1/4 de novo) = hamartomatous polyp ใน jejunum + melanin pigmentation ริมฝีปาก / เยื่อบุปาก → intussusception / bleeding ในวัยรุ่น, เสี่ยงมะเร็งหลายระบบ"],
+       pearls:["Meckel = เลือดออก<b>ไม่ปวด</b> · intussusception = ปวดเป็นพัก","ไม่มีประวัติครอบครัวไม่ได้ตัด PJS; อย่าสับสน juvenile (retention) polyp กับ PJS polyp"],
+       members:["MDCU77|RoA|Ped 13","MDCU77|RoB|Ped 9","MDCU72|RoA|70","MDCU69|RoA|55","MDCU69|RoC|X1","MDCU69|RoC|X14","MDCU67|RoB|12","MDCU67|RoC|71","MDCU66|RoC|18","MDCU71|RoB|ไม่มีเลข 6@p37"]},
+      {id:"meckel", title:"Meckel diverticulum / vitelline remnant: painless rectal bleeding → resuscitate → Meckel scan",
+       trend:"ให้เด็กเล็กถ่ายเลือดแดงคล้ำไม่ปวด แล้วถาม initial management หรือ investigation",
+       asked:["2 ปี ถ่ายเลือดสีแดงอิฐไม่ปวด stable → <b>Tc-99m pertechnetate scan</b> (ตัวลวง colonoscopy, BE, CTA, EGD)","2 ปี ถ่ายเลือดไม่ปวด ซีด อ่อนเพลีย → หลัง resuscitation / next → <b>Meckel scan</b> (ตัวลวง tagged RBC scan, plain film, US, CT, colonoscopy) — ถามซ้ำ","6 ปี ถ่ายเลือดแดงสดปริมาณมากไม่ปวด tachycardia BP ปกติ → initial → <b>IV fluid resuscitation</b> (ตัวลวง Meckel scan, colonoscopy, CT, capsule)","Meckel scan finding ที่สนับสนุน → <b>focal uptake ที่ RLQ</b> (ตัวลวง diffuse uptake ตาม colon, ไม่มี uptake นอกกระเพาะ, photopenic area, LUQ)","Vitelline duct remnant ข้อใด <b>ไม่ใช่</b> อาการ → <b>failure to thrive</b> (ที่ใช่: ปวดท้อง, bleeding, umbilical discharge, SBO)"],
+       pattern:["Rule of 2s: ~2% ของประชากร, ~2 ฟุตจาก ileocecal valve, อาการมักก่อน 2 ปี, ectopic tissue 2 ชนิด (gastric, pancreatic)","Ectopic gastric mucosa หลั่งกรด → <b>ulcer ที่ ileum ข้าง diverticulum</b> → <b>painless rectal bleeding</b> (แดงคล้ำ / สีแดงอิฐ)","ขั้นแรกเสมอ: ABC + <b>resuscitation</b> (tachycardia ในเด็กคือสัญญาณ shock ระยะแรก BP ตกช้า) → แล้ว <b>Tc-99m pertechnetate (Meckel) scan</b>: <b>focal uptake นอกกระเพาะที่ RLQ</b> ขึ้นพร้อมกระเพาะ (เพิ่ม sensitivity ด้วย H2 blocker / pentagastrin / glucagon)","Vitelline remnant อื่น: SBO (volvulus รอบ band, intussusception), Meckel diverticulitis (เลียน appendicitis), umbilical discharge (patent duct)","รักษา: diverticulectomy หรือ <b>segmental ileal resection</b> (กรณีเลือดออกต้องเอาแผลที่ ileum ออกด้วย)"],
+       pearls:["ถาม initial management = resuscitate ไม่ใช่ scan","Tagged RBC scan ใช้เมื่อเลือดออกต่อเนื่องหาตำแหน่งไม่ได้"],
+       members:["MDCU79|RoD|Ped 11","MDCU78|RoB|34","MDCU77|RoA|Ped 9","MDCU74|RoC|12","MDCU74|RoD|3","MDCU72|RoC|ไม่มีเลข 2"]},
+      {id:"appendicitis", title:"ปวดท้องน้อยขวาในเด็ก: appendiceal abscess, mesenteric adenitis, การตรวจและ imaging",
+       asked:["8 ปี ปวดท้อง > 1 สัปดาห์ ไข้ 4 วัน คลำก้อนกดเจ็บ 4 cm ที่ RLQ → <b>appendiceal abscess</b> (ตัวลวง mesenteric adenitis, intussusception, Crohn, Meckel diverticulitis)","10 ปี ปวด RLQ 10 วัน เดินก้ม ถ่ายเหลว ได้ ATB จากคลินิกแล้ว คลำก้อน 4 cm → <b>appendiceal abscess</b>","10 ปี หลัง gastroenteritis 1 สัปดาห์ ไข้ ปวด RLQ US เห็น mesenteric LN โตหลายต่อม appendix ปกติ → <b>mesenteric adenitis</b> (ตัวลวง Meckel diverticulitis, intussusception, ureteric stone, appendiceal abscess)","8 ปี สงสัย appendicitis สิ่งที่แพทย์ <b>ไม่ควรทำ</b> → <b>ให้แม่ตรวจ PR แทน</b> (ที่ควรทำ: ให้เดิน / กระโดด, ตรวจบนตักแม่, เบี่ยงเบนความสนใจ, เริ่มคลำห่างจุดเจ็บ)","เด็กปวดท้องน้อยซ้าย การตรวจเบื้องต้นที่ <b>มีประโยชน์น้อยที่สุด</b> → <b>CT abdomen</b> (คีย์ลังเล B? / D?; ตัวลวง US, CBC, UA / UC, electrolytes)"],
+       pattern:["เด็กเล็กวินิจฉัยช้า → perforation แล้วถูกห่อเป็น <b>appendiceal mass / abscess</b> (ก้อน RLQ + ไข้นาน; ถ่ายเหลวจาก pelvic irritation)","Abscess: <b>IV antibiotics ± percutaneous drainage</b> (ก้อน > 3 cm) แล้ว interval appendectomy หรือผ่าตัดเลยในศูนย์ที่ถนัด","<b>Mesenteric adenitis</b>: ตาม viral URI / gastroenteritis (Yersinia), ปวด RLQ เลียน appendicitis, US เห็น mesenteric LN โต + appendix ปกติ → supportive","Imaging เด็ก: หลัก <b>ALARA</b> → <b>US เป็น first-line</b> (ACR Appropriateness Criteria) + CBC, UA / UC; CT เมื่อ US ไม่ได้ข้อสรุป","เทคนิคตรวจเด็ก: ให้เดิน / กระโดด, ตรวจบนตักแม่, เบี่ยงเบนความสนใจ, เริ่มห่างจุดเจ็บ; PR เป็นหัตถการของแพทย์ (และไม่จำเป็นในเด็กส่วนใหญ่)"],
+       pearls:["ท้องเสียในโจทย์ชวนคิด GE — ดูว่ามีก้อนและไข้นาน","Intussusception อายุ 3 เดือน–3 ปี ไม่เข้ากับเด็ก 10 ปี (คีย์ลายมือใช้อายุตัด)"],
+       members:["MDCU77|RoC|Ped 4","MDCU77|RoC|Ped 7","MDCU75|RoD|Ped 6","MDCU74|RoD|2","MDCU77|RoB|Ped 3"]},
+      {id:"intus-mx", title:"Intussusception: air / hydrostatic enema reduction และข้อห้าม",
+       asked:["Intussusception stable ไม่มี peritonitis → <b>air enema reduction ใต้ imaging</b> (ตัวลวง laparotomy, IV fluid + observe, BE วินิจฉัยอย่างเดียว, ATB)","6 เดือน ถ่ายมูกเลือด RLQ ว่าง Dance sign AXR ไม่มีลมที่ RLQ → <b>pneumatic reduction</b> (ตัวลวง Ladd, diagnostic laparoscopy, laparotomy, observe)","18 เดือน ileocolic intussusception → ข้อห้ามของ pneumatic reduction → <b>pneumoperitoneum</b> (ไม่ใช่ข้อห้าม: อายุ > 2 ปี, อาการ > 48 ชม., ล้มเหลว 1 ครั้ง, immunocompromised)","ข้อห้ามของ air / barium reduction → <b>pneumoperitoneum</b> (ไม่ใช่: มาหลัง 48 ชม., อายุ > 3 ปี, เป็นซ้ำหลัง reduction, เป็นซ้ำหลังผ่าตัด)"],
+       pattern:["Resuscitate + <b>image-guided enema reduction</b> (air หรือ hydrostatic, ใต้ fluoroscopy / US) สำเร็จ ~80–90%","<b>ข้อห้าม</b>: <b>peritonitis</b>, <b>perforation (free air)</b>, <b>shock / unstable</b> ที่ไม่ตอบสนอง → laparotomy","อายุมาก, อาการนาน, เป็นซ้ำ, ภูมิคุ้มกันต่ำ <b>ไม่ใช่ข้อห้าม</b> (โอกาสสำเร็จลด / ต้องหา lead point); recurrence ~10% → enema ซ้ำได้; ล้มเหลวแต่ stable → delayed repeat attempt ได้"],
+       pearls:["ลืมตรวจข้อห้ามก่อนทำ enema"],
+       members:["MDCU79|RoD|Ped 10","MDCU74|RoD|6","MDCU71|RoA|47","MDCU68|RoC|51"]},
+      {id:"neonatal-bleed", title:"เลือดออกทางเดินอาหารในทารกแรกเกิด: juvenile polyp ไม่ใช่สาเหตุ",
+       asked:["สาเหตุของ GI bleeding ในทารกแรกเกิดที่ <b>พบน้อยที่สุด / ไม่ใช่</b> → <b>juvenile (rectal) polyp</b> (สาเหตุที่ใช่: swallowed maternal blood, anal fissure, NEC, vitamin K deficiency, midgut volvulus) — ถามซ้ำ"],
+       pattern:["ทารกแรกเกิด: <b>swallowed maternal blood</b> (Apt test), anal fissure, <b>NEC</b>, <b>midgut volvulus</b>, vitamin K deficiency bleeding, cow's milk protein allergy, Hirschsprung enterocolitis","<b>Juvenile polyp</b> พบอายุ <b>2–8 ปี</b> → ไม่ใช่สาเหตุในทารกแรกเกิด"],
+       pearls:["จัดสาเหตุ LGIB ตามอายุ — polyp = วัยก่อนเรียน / วัยเรียน, Meckel = < 2 ปี, intussusception = 3 เดือน–3 ปี"],
+       members:["MDCU74|RoD|49","MDCU72|RoD|59","MDCU69|RoC|R62"]},
+      {id:"foreign-body", title:"กลืนเหรียญ: อยู่ในกระเพาะไม่มีอาการ → กลับบ้านดูอุจจาระ",
+       asked:["4 ปี กลืนเหรียญ 3 ชม. กินได้ ไม่มีอาการ X-ray เหรียญอยู่ LUQ ไม่มี double-ring → <b>observe / OPD follow-up</b> (ตัวลวง emergency endoscopy, laparotomy, ipecac, laxative)","3 ปี กลืนเหรียญ 50 สตางค์ อยู่ในกระเพาะ → <b>discharge + follow-up</b> (ตัวลวง emergency EGD, ทำให้อาเจียน, laparoscopic gastrotomy, admit X-ray ทุก 6 ชม.) — ถามซ้ำ"],
+       pattern:["เหรียญใน<b>กระเพาะ</b> + ไม่มีอาการ → กลับบ้าน กินอาหารปกติ ดูอุจจาระ; X-ray ซ้ำถ้ายังไม่ออกใน 2–4 สัปดาห์หรือมีอาการ","เหรียญค้างใน <b>esophagus</b> → endoscopic removal ภายใน 24 ชม. (ทันทีถ้ามีอาการ / น้ำลายไหล)","<b>Button battery</b> (double-ring / halo sign ใน AP, step-off ใน lateral) ใน esophagus = emergency ภายใน 2 ชม.; magnets หลายชิ้น → เสี่ยง perforation ต้องเอาออก"],
+       pearls:["แยกเหรียญกับ button battery ด้วย double-ring sign ทุกครั้ง"],
+       members:["MDCU78|RoB|59","MDCU75|RoD|Ped 1","MDCU68|RoC|42"]},
+      {id:"gerd", title:"GERD ในเด็ก: ข้อบ่งชี้ antireflux surgery",
+       asked:["เด็กคนใดมีข้อบ่งชี้ fundoplication ชัดที่สุด → <b>9 ปี ยาล้มเหลว 3 รอบ + lung abscess</b> (ตัวลวง 3 เดือน gastritis ครั้งแรก, physiologic regurgitation น้ำหนักขึ้นดี, อาเจียนครั้งเดียวตอน GE, heartburn คุมได้ด้วย PPI)"],
+       pattern:["Antireflux surgery (fundoplication) เมื่อ <b>ล้มเหลวจากการรักษาด้วยยา</b> หรือมี<b>ภาวะแทรกซ้อน</b>: aspiration pneumonia ซ้ำ / lung abscess, stricture, Barrett, FTT, life-threatening event","Physiologic regurgitation ในทารกที่โตดี → reassure"],
+       members:["MDCU74|RoD|50"]}
+    ]},
+    {title:"ก้อนที่คอ ใบหน้า และช่องปากในเด็ก", sections:[
+      {id:"branchial", title:"Branchial cleft anomaly: 2nd cleft cyst vs sinus, 1st cleft ที่หน้าหู",
+       trend:"แยก cyst (ก้อน) กับ sinus (รูมีเมือก) และตำแหน่งตามขอบหน้า SCM",
+       asked:["10 ปี ก้อนใต้มุมขากรรไกรตามขอบหน้า SCM โตหลัง URI ไม่ขยับตามกลืน → <b>2nd branchial cleft cyst</b> (ตัวลวง 1st cleft, TGDC, cystic hygroma, dermoid)","12 ปี ก้อนนุ่มขอบหน้า SCM รอยต่อส่วนบน–กลาง บวมเจ็บหลัง URI → <b>2nd branchial cleft cyst</b> (ตัวลวง thymic cyst)","รูเล็กที่ขอบหน้า SCM ส่วนล่าง มีเมือกไหลเป็นพัก → <b>2nd branchial cleft anomaly / sinus</b> (ตัวลวง 1st / 3rd / 4th, TGDC, 2nd cleft cyst) — ถามซ้ำหลายรุ่น","3 เดือน ก้อนนุ่ม 4 cm หน้าหู ผิวปกติ → <b>1st branchial cleft cyst</b> (ตัวลวง parotid hemangioma, suppurative LN, cystic hygroma, pleomorphic adenoma)","2nd branchial cleft cyst ข้อใดถูก (ตามคีย์) → <b>พบด้านซ้ายมากกว่าเล็กน้อย</b> (ตัวลวง ชาย:หญิง 2.5:1, bilateral 10%, sinus ในผู้ใหญ่ cyst ในเด็ก, กลายเป็นมะเร็ง)"],
+       pattern:["<b>2nd cleft ~90–95%</b> ของ branchial anomaly","<b>Cyst</b>: ก้อนขอบหน้า SCM รอยต่อ upper–middle third ใต้มุมขากรรไกร ไม่มีรู มักโผล่ / อักเสบหลัง URI ในเด็กโต–ผู้ใหญ่","<b>Sinus / fistula</b>: <b>รูเปิดที่ขอบหน้า SCM ส่วนล่าง</b> มีเมือกไหล พบตั้งแต่เด็ก; tract ผ่าน<b>ระหว่าง ICA กับ ECA</b> เหนือ CN XII ไปเปิดที่ <b>tonsillar fossa</b>","รักษา: ATB เมื่ออักเสบ แล้ว <b>complete excision</b> ทั้ง cyst และ tract","<b>1st cleft</b>: หน้า / ใต้หู บริเวณ parotid สัมพันธ์ external auditory canal และ facial nerve (ระวังเส้นประสาทตอนผ่าตัด); 3rd / 4th: piriform sinus → suppurative thyroiditis ซ้ายซ้ำ ๆ","ตามสไลด์ lecture: M = F, ซ้ายมากกว่าเล็กน้อย, bilateral ~2%, ไม่กลายเป็นมะเร็ง (ก้อน cystic ที่คอผู้ใหญ่ > 40 ปี ต้องแยก metastatic SCC / papillary thyroid ca)"],
+       pearls:["เห็นรูให้ตอบ sinus · เห็นก้อนให้ตอบ cyst","ทารก 3 เดือนก้อนที่ parotid — infantile hemangioma ของ parotid ก็พบบ่อย; คีย์ตอบ 1st cleft cyst"],
+       members:["MDCU78|RoD|6","MDCU76|RoC|Plastic 8","MDCU76|RoD|47","MDCU74|RoC|10","MDCU68|RoB|47","MDCU68|RoC|56","MDCU67|RoA|7","MDCU66|RoA|X8"]},
+      {id:"tgdc", title:"Thyroglossal duct cyst: US ยืนยันต่อมไทรอยด์ → Sistrunk",
+       trend:"ให้ก้อนกลางคอขยับตามแลบลิ้น แล้วถาม Dx, next step, การรักษา, ทางติดเชื้อ หรือข้อใดผิด",
+       asked:["ก้อนกลางคอขยับขึ้นเมื่อแลบลิ้น / กลืน → <b>TGDC</b> (ตัวลวง dermoid, 2nd cleft cyst, cystic hygroma, reactive LN)","Congenital neck mass ที่พบบ่อยที่สุดในเด็ก → <b>TGDC</b> (ตัวลวง dermoid, branchial, hygroma, ranula)","6 ปี ก้อนกลางคอใต้ hyoid euthyroid → next → <b>US คอ</b> (ตัวลวง thyroid scan, TFT, FNA, Sistrunk ทันที)","7 ปี TGDC → management → <b>Sistrunk procedure</b> (ตัวลวง ATB, simple cyst excision, thyroidectomy, observe)","Infected TGDC เชื้อมาทางใด → <b>tract จาก foramen cecum ที่ติดต่อช่องปาก</b> (ตัวลวง piriform sinus, hematogenous, parotid, lymphatic จาก tonsil) — ถามซ้ำ","TGDC ข้อใด <b>ผิด</b> → <b>ไม่มีโอกาสเป็นมะเร็ง</b> (ข้อถูก: prognosis ดี, Sistrunk, ติดเชื้อบ่อย, ทิ้ง hyoid body recurrence สูง)"],
+       pattern:["Remnant ของ thyroglossal duct (foramen cecum → thyroid) = <b>congenital neck mass ที่พบบ่อยที่สุดในเด็ก</b>; midline ระดับ hyoid ขยับขึ้นเมื่อ<b>แลบลิ้น / กลืน</b>","ก่อนผ่าตัด: <b>US คอ</b>ยืนยันลักษณะ cyst และว่ามี<b>ต่อมไทรอยด์ปกติในตำแหน่งปกติ</b> (กันตัด ectopic thyroid ที่อาจเป็นเนื้อไทรอยด์ทั้งหมด); ถ้าไม่เห็น → thyroid scan + TFT","<b>Sistrunk</b>: ตัด cyst + <b>ส่วนกลางของ hyoid</b> + tract ถึง foramen cecum → recurrence < 5% (ตัดแค่ cyst ~50%)","ติดเชื้อจากเชื้อในช่องปากผ่าน tract → ATB ก่อน เลี่ยง I&D แล้วผ่าตัดเมื่อหายอักเสบ","มะเร็งใน TGDC ~1% (ส่วนใหญ่ papillary thyroid carcinoma)"],
+       pearls:["Piriform sinus = 3rd / 4th branchial anomaly","โดยรวมทุกชนิด lymphadenopathy พบบ่อยที่สุด — คำถามจึงระบุ congenital"],
+       members:["MDCU78|RoB|35","MDCU78|RoD|5","MDCU77|RoA|Ped 1","MDCU76|RoC|Plastic 3","MDCU76|RoD|46","MDCU74|RoC|5","MDCU73|RoD|Ped 2"]},
+      {id:"lymphatic-malformation", title:"Cystic hygroma (macrocystic lymphatic malformation)",
+       asked:["ทารกแรกเกิดก้อนใหญ่นุ่มกดยุบที่คอซ้ายตั้งแต่เกิด (ภาพ) → <b>cystic hygroma</b> (ตัวลวง TGDC, branchial cyst, cervical teratoma, SCM tumor)","ภาพทารกก้อนใหญ่ข้างคอมี cystic component → <b>cystic hygroma</b>","เด็กเล็กก้อนนุ่มไม่เจ็บกดยุบที่แก้มล่างลามคอ ส่องไฟผ่าน → <b>cystic hygroma</b> (ตัวลวง 1st cleft cyst, hemangioma, pleomorphic adenoma, dermoid)","8 เดือน ก้อน cystic นุ่มที่ posterior triangle ผิวปกติ → <b>lymphatic malformation</b> (ตัวลวง dermoid, IH, venous malformation, lymphovenous) — ถามซ้ำ"],
+       pattern:["ISSVA: slow-flow vascular malformation; jugular lymph sac ไม่เชื่อมกับหลอดเลือดดำ → ~75% ที่คอ (<b>posterior triangle</b>) ลาม axilla / mediastinum / แก้มได้","นุ่ม กดยุบ หลายช่อง <b>transilluminate</b> ผิวปกติ พบตั้งแต่เกิดหรือก่อน 2 ปี (มักเห็นจาก prenatal US; สัมพันธ์ Turner, Down, Noonan)","ภาวะแทรกซ้อน: <b>airway compression</b> (ก้อนใหญ่อาจต้องวางแผน EXIT), ติดเชื้อ / เลือดออกในก้อนทำให้โตทันที","รักษา: macrocystic → <b>sclerotherapy</b> (OK-432, doxycycline, bleomycin) หรือ excision; microcystic / ซับซ้อน → sirolimus","แยก: dermoid = midline / แนว fusion (คอกลาง, sternum, คิ้ว, หน้าผาก); IH = แดงโตแล้วยุบ; venous malformation = สีน้ำเงิน โตเมื่อเบ่ง"],
+       pearls:["Midline = TGDC / dermoid · ขอบหน้า SCM = branchial · posterior triangle ส่องไฟผ่าน = cystic hygroma"],
+       members:["MDCU79|RoC|Ped 4","MDCU79|RoD|Ped 13","MDCU76|RoC|Plastic 4","MDCU73|RoD|Ped 1","MDCU72|RoD|ไม่มีเลข 5"]},
+      {id:"cmt", title:"Congenital muscular torticollis (sternomastoid tumor): physiotherapy stretching",
+       asked:["ทารก < 1 ปี torticollis จาก SCM → initial → <b>physical therapy เน้น stretching</b> (ตัวลวง collar, SCM release, CT C-spine, botulinum toxin)","ทารก < 1 ปี ก้อนแข็งใน SCM + plagiocephaly ไม่มี hemifacial hypoplasia → <b>observe + physiotherapy</b> (ตัวลวง release, biopsy, CT, botox)","3 เดือน ศีรษะเอียง คางหันฝั่งตรงข้าม คลำก้อนแข็งใน SCM → <b>congenital muscular torticollis</b> (ตัวลวง Klippel-Feil, ocular torticollis, posterior fossa tumor, AARS)","ข้อใด <b>ไม่สัมพันธ์</b> กับ CMT → <b>trapezius ฝั่งตรงข้ามฝ่อ</b> (ที่สัมพันธ์: plagiocephaly, cervical scoliosis, hemifacial hypoplasia, DDH)","Excision เป็นการรักษาหลักของโรคต่อไปนี้ <b>ยกเว้น</b> → <b>sternocleidomastoid tumor</b> (TGDC, branchial cyst, cystic hygroma, dermoid ใช้ผ่าตัด)"],
+       pattern:["SCM fibrosis / สั้น (สัมพันธ์ breech, คลอดยาก) → ศีรษะเอียง<b>เข้าหา</b>ข้างที่เป็น คาง<b>หันออก</b>ฝั่งตรงข้าม; คลำ sternomastoid tumor ช่วง 2–4 สัปดาห์; US ยืนยันได้","ภาวะร่วม / ผลตามมา: plagiocephaly, hemifacial hypoplasia, cervical scoliosis, <b>DDH</b> (ต้องตรวจสะโพก)","<b>Physiotherapy: passive stretching</b> + จัดท่า / active strengthening (APTA CPG 2018) → สำเร็จ > 90% ถ้าเริ่มเร็ว","ผ่าตัด (SCM release / lengthening) เมื่อไม่ดีขึ้นหลัง 6–12 เดือน, deficit > 15°, หรือเริ่มมี facial asymmetry","ไม่ต้อง biopsy ก้อนใน SCM ของทารก"],
+       pearls:["Torticollis ที่มี neuro signs ไข้ ปวด หรือเฉียบพลันในเด็กโต → หาสาเหตุอื่น (posterior fossa tumor, retropharyngeal abscess, AARS)","ต้นฉบับ MDCU79 ใช้คำว่า strengthening exercise — หัวใจคือ stretching"],
+       members:["MDCU79|RoD|Ped 14","MDCU78|RoB|36","MDCU76|RoA|7","MDCU76|RoD|31","MDCU67|RoB|5"]},
+      {id:"cervical-lad", title:"ต่อมน้ำเหลืองคอโตในเด็ก: reactive พบบ่อยสุด, TB lymphadenitis → anti-TB",
+       asked:["สาเหตุที่พบบ่อยที่สุดของ cervical lymphadenopathy ในเด็ก → <b>head and neck infection (reactive)</b> (ตัวลวง lymphoma, HIV, TB, suppurative)","3 ปี ก้อนคอแข็งเรียบไม่แดง PPD บวก ไม่มีประวัติสัมผัส → <b>FNA for diagnosis</b> (คีย์เก่าตอบ start anti-TB; ตัวลวง excisional biopsy + frozen, start anti-TB, PPD ซ้ำ, US + watchful waiting) — ถามซ้ำ","เด็กต่อมคอโตช้าไม่เจ็บ TST บวกมาก มีผู้สัมผัสวัณโรคในบ้าน → <b>start anti-TB</b> (ตัวลวง TST ซ้ำ, ATB 2 สัปดาห์, RT, observe)"],
+       pattern:["ส่วนใหญ่ = <b>reactive hyperplasia</b> จาก viral URI, pharyngitis, ฟัน, ผิวหนัง; bacterial (S. aureus, GAS) รองลงมา","Red flag สงสัยมะเร็ง: > 2 cm, แข็งติดแน่น, supraclavicular, B symptoms, ไม่ยุบใน 4–6 สัปดาห์","<b>TB lymphadenitis</b> (โตช้า ไม่เจ็บ TST บวก มีผู้สัมผัส) → anti-TB: สูตรมาตรฐาน 6 เดือน <b>2HRZE / 4HR</b> (สไลด์ lecture); <b>WHO 2022</b>: peripheral lymph node TB นับเป็น non-severe TB → เด็กอายุ 3 เดือน–16 ปี ใช้สูตร <b>4 เดือน 2HRZ(E) / 2HR</b> ได้; <b>ห้าม I&D</b> (เกิด sinus); ระวัง paradoxical reaction","ในทางปฏิบัติยืนยันด้วย FNA / excisional biopsy (AFB, culture, GeneXpert, histology) ได้ โดยเฉพาะเด็ก 1–5 ปีที่อาจเป็น NTM (รักษาด้วยการตัดออก) — WHO TB Module 3 (2024): lymph node aspirate ตรวจ Xpert MTB/RIF Ultra เป็น initial test"],
+       pearls:["คีย์ MDCU67 (สองรอบ) ตอบเริ่มยาแม้มีช้อย FNA — คลังตอบ <b>FNA for diagnosis</b> เพราะเด็ก 3 ปีไม่มีประวัติสัมผัส ต้องแยก NTM ก่อน (WHO 2024); MDCU76 มี household contact และไม่มีช้อย FNA → start anti-TB"],
+       members:["MDCU76|RoD|63","MDCU73|RoB|Ped 1","MDCU67|RoA|12","MDCU67|RoC|65"]},
+      {id:"tongue-tie", title:"Ankyloglossia (tongue tie) ที่มีปัญหาการดูดนม → frenotomy",
+       asked:["3 เดือน ดูดบ่อยแต่ไม่อิ่ม น้ำหนักขึ้นช้า แม่เจ็บหัวนม frenulum สั้นยกลิ้นไม่ได้ → <b>frenotomy</b> (ตัวลวง observe, speech therapy, เปลี่ยนนมผง, nystatin)","5 วัน ดูดไม่ดีแม้ได้ lactation support frenulum จำกัดการยก / แลบลิ้น → <b>frenotomy</b>","ทารกงอแงตอนดูด น้ำหนักขึ้นน้อย frenulum ตึง แม่เจ็บหัวนม → <b>frenotomy</b> (ตัวลวง frenuloplasty ใต้ GA, เปลี่ยนขวด, รอให้ยืด, speech therapy)"],
+       pattern:["Tongue tie ที่<b>มีอาการด้านการให้นม</b> (latch ไม่ดี ดูดนานไม่อิ่ม น้ำหนักขึ้นช้า แม่เจ็บหัวนม) และ lactation support ไม่ช่วย → <b>frenotomy</b> (AAO-HNS consensus 2020)","Frenotomy = ตัดส่วนบางด้วยกรรไกรปลายทู่ ที่ OPD ไม่ต้องดมยาในทารกเล็ก ดูดนมได้ทันที; frenuloplasty (ตัด + เย็บ ใต้ GA) สำหรับเด็กโต / พังผืดหนา","ไม่มีปัญหาการกิน / แค่เห็น frenulum → observe; ก่อนตัดต้องประเมินสาเหตุอื่นของการดูดไม่ดี"],
+       pearls:["อย่าแนะนำเปลี่ยนเป็นขวด"],
+       members:["MDCU79|RoC|Ped 1","MDCU79|RoC|Ped 8","MDCU76|RoD|25"]},
+      {id:"preauricular", title:"Preauricular sinus ติดเชื้อซ้ำ → complete excision ช่วงไม่อักเสบ",
+       asked:["เด็กมีรูหน้าหูขวาตั้งแต่เกิด บวมเจ็บ 2 ครั้งในปีนี้ หายด้วยยา ตอนนี้ไม่อักเสบ → <b>complete surgical excision ของ sinus tract</b> (ตัวลวง I&D, ATB ระยะยาว, observe, sclerotherapy)"],
+       pattern:["Congenital จาก hillocks of His (1st / 2nd arch) เชื่อมไม่สมบูรณ์","ไม่มีอาการ → observe; <b>ติดเชื้อซ้ำ → complete excision ทั้ง tract</b> (รวมกระดูกอ่อนบางส่วน) ในช่วงที่ไม่อักเสบ; ระหว่างติดเชื้อ → ATB ± drain ถ้าเป็น abscess","ตรวจการได้ยิน / ไต (branchio-oto-renal) เมื่อมีข้อบ่งชี้"],
+       members:["MDCU78|RoB|50"]},
+      {id:"dermoid", title:"External angular dermoid cyst ที่หางคิ้ว",
+       asked:["3 เดือน ก้อนแข็งไม่เจ็บใต้หางคิ้วซ้ายติดโครงสร้างลึก → <b>dermoid cyst</b> (ตัวลวง lipoma, osteoma, pilomatrixoma, hemangioma)"],
+       pattern:["ก้อนที่ <b>lateral eyebrow</b> (frontozygomatic suture) ในทารก แข็งยาง ติด periosteum ผิวเลื่อนได้ = external angular dermoid → complete excision","Dermoid แนวกลาง (nasal) → MRI หา intracranial extension ก่อนตัด"],
+       members:["MDCU68|RoB|46"]}
+    ]},
+    {title:"ตับและทางเดินน้ำดีในทารกและเด็ก", sections:[
+      {id:"ba-workup", title:"ทารกตัวเหลือง + อุจจาระซีด: ขั้นตอนตรวจ biliary atresia (LFT → US → IOC)",
+       trend:"ถาม 'การตรวจแรก' ซ้ำหลายรุ่น คีย์ส่วนใหญ่ตอบ LFT / fractionated bilirubin แต่มีรุ่นที่ตอบ US",
+       asked:["2 เดือน เหลือง อุจจาระซีด ปัสสาวะเข้ม (± hepatomegaly) → การตรวจแรก → <b>LFT / fractionated serum bilirubin</b> (ตัวลวง Doppler US, DISIDA, MRCP, elastography, biopsy, IOC) — ถามซ้ำหลายรุ่น","4 เดือน เหลือง acholic stool hepatomegaly → next → <b>Doppler US</b> (คีย์ MDCU75 RoD; ตัวลวง LFT, elastography, MRCP, HIDA)","2 เดือน เหลือง acholic stool US ไม่เห็น GB → next → <b>intraoperative cholangiography</b> (ตัวลวง Kasai โดยไม่ทำ cholangiogram, LT, UDCA, US ซ้ำ)","6 สัปดาห์ conjugated hyperbilirubinemia → triangular cord sign ข้อใด <b>ผิด</b> → <b>ไม่พบแล้วตัด BA ออกได้</b> (ข้อถูก: fibrous remnant ที่ porta, specific สูง, วัดหน้า portal vein bifurcation, GB ผิดปกติเพิ่มความแม่น)","3 สัปดาห์ ตัวเหลือง → สาเหตุที่ <b>ไม่น่าใช่</b> ที่อายุนี้ → <b>breast-feeding jaundice</b> (ตัวลวง breast milk jaundice, physiologic, indirect hyperbilirubinemia, BA)"],
+       pattern:["ทารกเหลือง <b>> 2 สัปดาห์</b> → ตรวจ <b>total + direct bilirubin</b> เสมอ (NASPGHAN 2017: direct / conjugated > 1.0 mg/dL = ผิดปกติ) — ไม่ใช่ breast milk jaundice ทุกราย","ลำดับ (คีย์ลายมือ MDCU76): <b>LFT → US</b> (GB เล็ก / ไม่มี / ไม่หดตัว, <b>triangular cord sign</b>, แยก choledochal cyst) → triangular cord บวก → <b>IOC</b>; ลบ: อายุ > 60 วัน → IOC, < 60 วัน → DISIDA → (liver biopsy) → <b>intraoperative cholangiogram (gold standard)</b> → Kasai ในผ่าตัดเดียวกัน","<b>Triangular cord sign</b> = echogenic fibrous remnant ≥ 3–4 mm หน้าต่อ portal vein bifurcation; <b>specificity สูง แต่ sensitivity ปานกลาง</b> → ไม่พบไม่ได้ตัด BA","HIDA: ไม่มี excretion เข้าลำไส้ (ใช้ phenobarbital priming); biopsy: bile ductular proliferation, bile plugs, portal fibrosis (giant cell = neonatal hepatitis)","Breast-feeding jaundice = <b>สัปดาห์แรก</b> (ได้นมไม่พอ); breast milk jaundice เริ่มปลายสัปดาห์แรกอยู่ได้ 2–3 เดือน (unconjugated)"],
+       pearls:["คีย์ต่างรุ่นต่างกัน: MDCU66 / 67 / 76 / 77 ตอบ LFT, MDCU75 ตอบ Doppler US — ถ้ามี LFT ในช้อยและโจทย์ยังไม่ยืนยัน direct hyperbilirubinemia ให้เลือก LFT; ถ้ายืนยันแล้วให้เลือก US","อย่ากระโดดไป Kasai โดยไม่มี cholangiogram ยืนยัน"],
+       members:["MDCU77|RoA|Ped 11","MDCU76|RoA|21","MDCU76|RoD|22","MDCU75|RoD|Ped 5","MDCU74|RoD|1","MDCU73|RoB|Ped 5","MDCU67|RoC|67","MDCU66|RoA|X9"]},
+      {id:"ba-kasai", title:"Biliary atresia: Kasai portoenterostomy ก่อน 60 วัน และข้อเท็จจริงที่ถูกถาม",
+       trend:"มักเป็นคำถาม 'ข้อใดถูก / ผิด' เรื่อง timing, ชนิดผ่าตัด, transplant",
+       asked:["6 สัปดาห์ ไม่มี GB HIDA ไม่ excrete → <b>Kasai ทันที</b> (ตัวลวง observe HIDA ซ้ำ, phenobarbital + UDCA, LT ทันที, cyst excision)","1 เดือน triangular cord + IOC ยืนยัน → <b>Kasai hepatoportoenterostomy</b> (ตัวลวง primary LT, UDCA, cholecystectomy, cyst excision + RYHJ)","ข้อใด <b>ผิด</b> → <b>LT เป็นข้อห้ามหลัง Kasai ล้มเหลว</b> / <b>BA เป็นสาเหตุที่พบบ่อยที่สุดของ pathologic jaundice ในทารก</b>","ข้อใดถูก → <b>ผลดีที่สุดเมื่อผ่าก่อน 2 เดือน</b> (ตัวลวง choledochojejunostomy, CT เป็นมาตรฐาน, LT ไม่จำเป็นเลย)","ข้อใดถูก → <b>2 ใน 3 เป็น chronic liver disease</b> (ตัวลวง ผ่าหลัง 60 วัน, type 2 พบบ่อยสุด, hepatoduodenostomy)","ข้อใดถูก → <b>ไม่รักษารอดราว 2 ปี + LT เมื่อตับวาย</b> (ตัวลวง Kasai = choledochojejunostomy, รักษาก่อน 6 เดือน)","ข้อใดถูก → <b>US ตับและ GB เป็นส่วนหนึ่งของ workup</b> (ตัวลวง รอด 10 ปี, choledochojejunostomy, giant cell transformation, LT อันดับ 3)"],
+       pattern:["Progressive fibro-obliterative cholangiopathy; type III (ที่ porta hepatis) ~90%; ไม่รักษา → cirrhosis เสียชีวิตราว <b>2 ปี</b>","<b>Kasai = hepatic portoenterostomy</b> (ตัด fibrous remnant ที่ porta แล้วต่อ Roux-en-Y jejunal limb) — <b>ไม่ใช่</b> choledochojejunostomy (นั่นคือ choledochal cyst)","ผลดีที่สุดเมื่อทำ <b>ก่อน 60 วัน</b> (ยิ่งเร็วยิ่งดี; หลัง 90 วันแย่มาก)","หลัง Kasai: ~1/3 ดีระยะยาว, ~2/3 เป็น chronic liver disease → <b>liver transplant</b>; BA = <b>ข้อบ่งชี้ LT อันดับ 1 ในเด็ก</b>","BA = สาเหตุที่พบบ่อยที่สุดของ <b>neonatal cholestasis ที่ต้องผ่าตัด</b> ไม่ใช่ของ pathologic jaundice ทั้งหมด (unconjugated เช่น hemolysis, G6PD, ABO / Rh พบบ่อยกว่า)"],
+       pearls:["BA ทางคีย์ P'Ing ถือว่า 'LT เป็น gold standard' เป็นข้อถูก จึงเหลือข้อ 'most common cause of pathologic jaundice' เป็นข้อผิด"],
+       members:["MDCU79|RoD|Ped 5","MDCU78|RoA|6","MDCU74|RoC|11","MDCU74|RoD|5","MDCU69|RoC|22","MDCU67|RoB|7","MDCU67|RoD|22","MDCU66|RoB|4"]},
+      {id:"choledochal", title:"Choledochal cyst: pain + jaundice + RUQ mass → US → excision + Roux-en-Y HJ",
+       asked:["4 ปี ปวดท้องซ้ำ ตัวเหลือง คลำก้อน RUQ → <b>choledochal cyst</b> (ตัวลวง neonatal hepatitis, A1AT, viral hepatitis, cholelithiasis)","8 ปี ก้อน cystic RUQ + LFT cholestatic → next → <b>abdominal US</b> (ตัวลวง ERCP, DISIDA, laparotomy, เจาะดูด)","เด็กปวดท้องเป็นพัก + เหลือง ภาพ imaging → <b>choledochal cyst</b> (ตัวลวง BA, Caroli, pseudocyst, GB duplication)","Type I choledochal cyst → <b>excision + Roux-en-Y</b> (ตัวลวง cystogastrostomy, cystojejunostomy, transduodenal marsupialization, Kasai)"],
+       pattern:["Congenital dilatation ของท่อน้ำดี สัมพันธ์ <b>anomalous pancreaticobiliary junction</b> (long common channel → pancreatic juice reflux); เอเชีย หญิง > ชาย","Triad ปวด + เหลือง + ก้อน RUQ (ครบน้อย); <b>Todani type I</b> (fusiform CBD) พบบ่อยสุด","ตรวจแรก = <b>US</b> → MRCP ดูกายวิภาค / common channel (ไม่ใช่ ERCP เป็นอันดับแรกในเด็ก)","ภาวะแทรกซ้อน: cholangitis, pancreatitis, นิ่ว, <b>cholangiocarcinoma</b> → <b>complete cyst excision + Roux-en-Y hepaticojejunostomy</b> (internal drainage ทิ้ง cyst ไว้เสี่ยงมะเร็ง); type III (choledochocele) → endoscopic / transduodenal"],
+       pearls:["ท่อนอกตับโป่ง = choledochal cyst · ท่อในตับโป่งหลายจุด = Caroli"],
+       members:["MDCU78|RoB|25","MDCU77|RoA|Ped 12","MDCU77|RoC|Ped 1","MDCU67|RoD|23"]},
+      {id:"ba-complication", title:"ภาวะแทรกซ้อนระยะยาวหลัง Kasai",
+       asked:["หลัง Kasai ข้อใด <b>ไม่ใช่</b> complication → <b>hepatoblastoma</b> (ที่ใช่: portal hypertension, variceal bleeding, ascending cholangitis, HPS, intrahepatic cyst, chronic liver disease) — ถามซ้ำ","2 ปี หลัง Kasai → long-term complication → <b>portal hypertension แม้ไม่เหลืองแล้ว</b> (คีย์เก่า P'Ing ตอบ intrahepatic biliary cyst — คลังแก้ตาม Holcomb & Ashcraft 7e)"],
+       pattern:["<b>Ascending cholangitis</b> = พบบ่อยที่สุด (30–60%) ส่วนใหญ่ช่วงปีแรก","<b>Portal hypertension</b> (34–76%) → varices / variceal bleeding — เกิดได้<b>แม้ jaundice หายแล้ว</b> เพราะ fibrosis ในตับยังดำเนินต่อ","อื่น ๆ: hepatopulmonary syndrome / portopulmonary HT, intrahepatic biliary cysts, progressive cirrhosis → LT","Hepatoblastoma ไม่ใช่ complication ของ BA"],
+       pearls:["Cholangitis = most common (ต้น ๆ) · portal HT = long-term ที่สำคัญ"],
+       members:["MDCU75|RoD|Ped 2","MDCU70|RoA|11","MDCU66|RoA|55"]}
+    ]},
+    {title:"เนื้องอกในเด็ก", sections:[
+      {id:"neuroblastoma", title:"Neuroblastoma: extracranial solid tumor ที่พบบ่อยสุด, calcification, prognosis",
+       trend:"ถาม 'most common extracranial solid tumor' และก้อนที่มี calcification ซ้ำหลายรุ่น",
+       asked:["Extracranial solid tumor ที่พบบ่อยที่สุดในเด็ก → <b>neuroblastoma</b> (ตัวลวง teratoma, Wilms, hepatoblastoma, RMS, hydronephrosis, duplication cyst) — ถามซ้ำ","ก้อนในท้องเด็กที่มี calcification / เห็น calcification บน plain film บ่อย → <b>neuroblastoma</b> (ตัวลวง Wilms, hematoma, mesoblastic nephroma, lymphoma, hepatoblastoma)","Neuroblastoma ข้อใด <b>ผิด</b> → <b>prognosis ดีในเด็กส่วนใหญ่ที่วินิจฉัยหลัง 2 ปี</b> (ข้อถูก: neural crest, VMA / HVA สูง, MYCN amplification = แย่)","Adrenal neuroblastoma ข้อใด <b>ผิด</b> → <b>กระจายไป bone, liver และ lung</b> (lung = Wilms; ข้อถูก: prognosis ขึ้นกับอายุ stage biology, ก่อน 5 ปี, HT ได้, multimodal)"],
+       pattern:["จาก <b>neural crest</b> (adrenal medulla, sympathetic chain); median ~18 เดือน, เกือบทั้งหมดก่อน 5 ปี; <b>extracranial solid tumor ที่พบบ่อยที่สุด</b> และมะเร็งที่พบบ่อยที่สุดในทารก (โดยรวม: leukemia > CNS tumor)","ก้อน<b>ข้าม midline</b> เด็กดูป่วย; <b>stippled calcification ~85–90%</b>, encase หลอดเลือด; <b>urine VMA / HVA สูง</b>","Metastasis: <b>bone, bone marrow, liver, skin</b> (blueberry muffin), orbit (raccoon eyes) — <b>lung พบน้อย</b>; HT (catecholamine / กด renal artery), opsoclonus-myoclonus, VIP diarrhea","Prognosis: <b>อายุ < 18 เดือน</b>, stage L1 / MS ดี; <b>MYCN amplification</b>, เด็กโตที่มาด้วย metastatic disease แย่; รักษาตาม risk: surgery, chemo, RT, anti-GD2 immunotherapy"],
+       pearls:["Stage MS (4S) ในทารก regress เองได้ ทำให้เข้าใจผิดว่า prognosis ดีทุกอายุ","Wilms displaces / มาจากไต · neuroblastoma encases / ข้าม midline"],
+       members:["MDCU77|RoB|Ped 2","MDCU67|RoA|1","MDCU67|RoC|62","MDCU74|RoD|41","MDCU72|RoD|60","MDCU66|RoD|7","MDCU66|RoD|34"]},
+      {id:"wilms", title:"Wilms tumor: ก้อนไตไม่ข้าม midline, calcification น้อย, prognosis ดี",
+       asked:["แม่คลำก้อนท้องตอนอาบน้ำ US ก้อนจากไต BP สูง ไม่ข้าม midline ไม่มีท้องเสีย → <b>Wilms tumor</b> (ตัวลวง neuroblastoma, mesoblastic nephroma, UPJO, hepatoblastoma)","Wilms ข้อใด <b>ผิด</b> → <b>prognosis แย่</b> (ข้อถูก: อายุ 1–4 ปี, surgery + chemo + RT, calcification น้อยกว่า NB, Denys-Drash)","Wilms ข้อใด <b>ผิด</b> → <b>plain film เห็นก้อนมี calcification</b> (ข้อถูก: prognosis ดี, 24–48 เดือน / 3–4 ปี, Denys-Drash, WAGR, bilateral ได้) — ถามซ้ำ"],
+       pattern:["Renal tumor ที่พบบ่อยที่สุดในเด็ก อายุ <b>2–5 ปี</b> (peak 3–4); เด็กดูแข็งแรง ก้อนเรียบ <b>ไม่ข้าม midline</b>; HT ~25% (renin), hematuria","<b>Calcification พบน้อย (~10%)</b>, claw sign, tumor thrombus ใน renal vein / IVC; metastasis ไป<b>ปอด</b>; bilateral ~5–7%","สัมพันธ์ <b>WAGR</b> (WT1), <b>Denys-Drash</b>, Beckwith-Wiedemann, hemihypertrophy","รักษา: COG → upfront nephrectomy (ห้าม biopsy / ทำก้อนแตก — upstage) + chemo (vincristine, dactinomycin) ± RT; SIOP → neoadjuvant chemo ก่อน; <b>overall survival > 90%</b>"],
+       pearls:["'ไม่มีท้องเสีย' ใช้ตัด neuroblastoma (VIP); ไฟล์คีย์ MDCU72 มีช้อยผิด 2 ตัว — คลังปรับให้เหลือคำตอบเดียว"],
+       members:["MDCU79|RoD|Ped 12","MDCU72|RoB|20","MDCU72|RoB|31","MDCU69|RoC|21"]},
+      {id:"sct", title:"Sacrococcygeal teratoma: ตัด en bloc พร้อม coccyx",
+       asked:["SCT ขนาดใหญ่ในทารก ตอนผ่าต้องตัดอะไรด้วย → <b>coccygectomy</b> (ตัวลวง sacrectomy, rectum, gluteal muscle, ligate median sacral artery อย่างเดียว)","Prenatal SCT หลังคลอด stable (ภาพ) → <b>early complete excision รวม coccyx</b> (ตัวลวง MRI + MDT ก่อนตัดสินใจ, observe, neoadjuvant chemo, RT)","Teratoma ข้อใด <b>ผิด</b> → <b>AFP สูงอย่างเดียววินิจฉัยได้</b> (ข้อถูก: ในเด็ก sacrococcygeal พบบ่อยสุด, ก้อนใหญ่ + hydrops prognosis แย่, ตัดพร้อม coccyx, ส่วนใหญ่ benign ตอนเกิด)"],
+       pattern:["เนื้องอกที่พบบ่อยที่สุดในทารกแรกเกิด; ส่วนใหญ่ benign ตอนเกิด แต่ความเสี่ยง malignant (yolk sac tumor) <b>เพิ่มตามอายุ</b> → ผ่าตัดเร็วหลัง stabilize","ต้องตัด <b>en bloc พร้อม coccyx เสมอ</b> (กำเนิดจากเซลล์ที่ coccyx; ทิ้ง coccyx → recurrence สูงมาก และอาจกลับมาเป็น malignant); ควบคุม median sacral artery แต่เนิ่น ๆ","AFP: ส่ง baseline และ<b>ใช้ติดตาม</b> (PR exam + AFP ราว 3 ปี) — AFP สูงตามปกติในทารกแรกเกิดจึง<b>ไม่ใช่ตัววินิจฉัย</b>","MRI ช่วยประเมิน intrapelvic extension แต่ไม่ควรทำให้ผ่าตัดช้า; ก้อนใหญ่ + fetal hydrops (high-output failure) = prognosis แย่"],
+       pearls:["เลือก sacrectomy เพราะชื่อ sacrococcygeal"],
+       members:["MDCU79|RoC|Ped 6","MDCU78|RoD|4","MDCU69|RoC|X17"]},
+      {id:"liver-tumor", title:"Liver tumor ในทารก: hepatoblastoma vs infantile hepatic hemangioma",
+       asked:["Hepatoblastoma ข้อใด <b>ผิด</b> → <b>เกิดในวัยรุ่นที่มี cirrhosis</b> (ข้อถูก: มะเร็งตับปฐมภูมิที่พบบ่อยสุดในเด็ก, AFP สูง, ตอบสนอง cisplatin, ต้อง resection / LT)","Benign hepatic tumor ของทารก → <b>infantile hepatic hemangioma</b> (ตัวลวง hepatoblastoma, HCC, undifferentiated embryonal sarcoma, angiosarcoma)"],
+       pattern:["<b>Hepatoblastoma</b>: อายุ 6 เดือน–3 ปี, สัมพันธ์ prematurity / LBW, Beckwith-Wiedemann, FAP; <b>AFP สูง</b> ใช้ติดตาม; neoadjuvant <b>cisplatin</b> → resection หรือ liver transplant","HCC = วัยรุ่น / มี cirrhosis หรือ HBV","<b>Infantile hepatic hemangioma</b> = benign liver tumor ที่พบบ่อยสุดในทารก; diffuse → high-output heart failure, consumptive hypothyroidism (ตรวจ TSH)"],
+       members:["MDCU70|RoA|2","MDCU66|RoD|6"]},
+      {id:"testis-tumor", title:"Testicular tumor ในเด็ก: yolk sac tumor",
+       asked:["Testicular tumor ที่พบบ่อยที่สุดในเด็ก → <b>yolk sac tumor</b> (ตัวลวง seminoma, choriocarcinoma, teratoma, embryonal carcinoma)"],
+       pattern:["Prepubertal malignant testicular tumor ที่พบบ่อยสุด = <b>yolk sac tumor</b> (ทารก–เด็กเล็ก, <b>AFP สูง</b>); seminoma พบในผู้ใหญ่","Teratoma ในเด็กก่อนวัยรุ่นมัก benign และบางรายงานพบบ่อยไม่แพ้กันเมื่อนับเนื้องอกทั้งหมด — คีย์ตอบ yolk sac"],
+       members:["MDCU67|RoB|76"]}
+    ]},
+    {title:"Neurosurgery ในเด็ก", sections:[
+      {id:"brain-tumor", title:"Brain tumor ในเด็ก: medulloblastoma, pineal germ cell tumor, craniopharyngioma, choroid plexus tumor",
+       asked:["7 ปี ปวดหัว truncal ataxia upward gaze palsy + hydrocephalus MRI ก้อนใน 4th ventricle → <b>medulloblastoma</b> (ตัวลวง ependymoma, pineal tumor, pilocytic astrocytoma, craniopharyngioma)","14 ปี ปวดหัว อาเจียน มองขึ้นไม่ได้ light-near dissociation papilledema ก้อน pineal + hydrocephalus β-hCG สูง → <b>pineal germ cell tumor</b> (ตัวลวง pituitary adenoma, craniopharyngioma, medulloblastoma, vestibular schwannoma)","10 ปี อ้วนขึ้น กินจุ นอนทั้งวัน แล้วตามัว → <b>craniopharyngioma</b> (ตัวลวง pituitary adenoma, ependymoma, morbid obesity, medulloblastoma)","1 ปี intraventricular tumor (สงสัย choroid plexus tumor) + hydrocephalus → best management → <b>tumor removal</b> (ตัวลวง acetazolamide, LP, EVD, VP shunt)"],
+       pattern:["<b>Medulloblastoma</b> (WHO grade 4 embryonal): cerebellar <b>vermis → 4th ventricle</b> → obstructive hydrocephalus + truncal ataxia; drop metastases → MRI spine + CSF cytology; maximal safe resection + craniospinal RT + chemo","<b>Pineal germ cell tumor</b> (วัยรุ่นชาย เอเชีย): กด tectum → <b>Parinaud</b> (upgaze palsy, light-near dissociation) + กด aqueduct → hydrocephalus; markers serum / CSF <b>β-hCG</b> (germinoma / chorio), AFP (yolk sac); ETV + biopsy → germinoma: chemo + RT","<b>Craniopharyngioma</b> (Rathke pouch, suprasellar, calcified cystic, เด็ก 5–14 ปี): hypothalamic (hyperphagia, obesity, somnolence), visual loss, growth failure, DI","<b>Choroid plexus papilloma</b> ในทารก: สร้าง CSF มาก + อุดทาง → <b>ผ่าตัดเอาก้อนออก</b>แก้ต้นเหตุ (มักไม่ต้อง shunt; EVD ชั่วคราวได้; ก้อนเลือดมาเลี้ยงมาก)"],
+       pearls:["Upgaze palsy อาจเกิดจาก hydrocephalus เอง — ดูตำแหน่งก้อนที่โจทย์บอก (4th ventricle = medulloblastoma)"],
+       members:["MDCU79|RoD|Neuro 2","MDCU78|RoB|46","MDCU69|RoC|3","MDCU66|RoA|34"]},
+      {id:"hydrocephalus", title:"Hydrocephalus ในทารก: ศีรษะโต sunset sign (papilledema พบน้อย)",
+       asked:["4 เดือน HC > P97 กระหม่อมตึง (ภาพ) → <b>hydrocephalus</b> (ตัวลวง myelomeningocele, sagittal synostosis, achondroplasia, frontal encephalocele)","ภาพทารกศีรษะโต ตาเหลือบลงเห็นตาขาวด้านบน → <b>congenital hydrocephalus</b> (ตัวลวง craniosynostosis, benign familial macrocephaly, achondroplasia, rickets)","ข้อใด <b>มักไม่พบ</b>ในทารก hydrocephalus → <b>papilledema</b> (คีย์เก่า MDCU66 RoA ตอบ dilated scalp veins — คลังแก้ตาม MSD Manual / Greenberg)"],
+       pattern:["ทารก sutures ยังเปิด → <b>HC โตเร็วตัด percentile</b>, กระหม่อมหน้าโป่งตึง, sutures แยก, <b>scalp veins โป่ง</b>, <b>sunset sign</b> (กด tectum), irritability, อาเจียน, กินไม่ดี","<b>Papilledema พบน้อย / late sign ในทารก</b> เพราะกะโหลกขยายได้ (ต่างจากเด็กโต)","สาเหตุ congenital: aqueductal stenosis, Chiari II (ร่วม myelomeningocele), Dandy-Walker, post-hemorrhagic (preterm IVH), post-infectious, tumor","ตรวจ: cranial US ผ่านกระหม่อม / CT / MRI; รักษา: VP shunt หรือ ETV (obstructive) ± choroid plexus cauterization"],
+       pearls:["แยก benign macrocephaly (ไม่มี ICP สูง) จาก hydrocephalus"],
+       members:["MDCU79|RoC|Ped 5","MDCU79|RoD|Neuro 12","MDCU66|RoA|33"]},
+      {id:"brain-abscess", title:"Brain abscess ในเด็ก: เชื้อจากหู = Streptococcus, ก้อนใหญ่ / herniation → drain",
+       asked:["1 ปี เคยรักษา meningitis กลับมาไข้ ซึม CT enhanced (มี mass effect / herniation) → <b>IV antibiotics + surgical drainage</b> (ตัวลวง ATB อย่างเดียว, LP, VP shunt, AED + observe)","3 ปี ไข้ ซึม ภาพสมอง + ประวัติ otitis media → เชื้อที่พบบ่อยที่สุด → <b>Streptococcus</b> (ตัวลวง Candida, Nocardia, Fusobacterium, Toxoplasma)"],
+       pattern:["Drain (aspiration / craniotomy) + IV ATB ระยะยาวเมื่อ <b>ขนาด > 2.5 cm, mass effect / herniation, ซึมลง หรือไม่ตอบสนองต่อยา</b>","Otogenic (ไป temporal lobe / cerebellum): <b>Streptococci</b> + anaerobes, Proteus, Pseudomonas → empirical <b>ceftriaxone + metronidazole</b> (± anti-Pseudomonas ใน chronic otitis)","หลัง neonatal meningitis: abscess (Citrobacter, Proteus) หรือ subdural empyema — ต้องระบายเช่นกัน"],
+       members:["MDCU77|RoA|Neuro 5","MDCU77|RoB|Ped 4"]},
+      {id:"ntd", title:"Neural tube defect: folic acid ก่อนตั้งครรภ์ และ neurogenic bladder",
+       asked:["หญิงวางแผนตั้งครรภ์ถามวิธีกิน folic acid ป้องกัน NTD → <b>เริ่ม 1 เดือนก่อนตั้งครรภ์</b> (ตัวลวง เริ่มเมื่อรู้ว่าท้อง, เริ่มหลัง LMP 1–2 เดือน, ไตรมาส 2–3)","ทารกหญิง lumbosacral meningocele → ภาวะที่น่าจะเกิด → <b>neurogenic bladder</b> (ตัวลวง ไม่มีมดลูก, ambiguous genitalia, urogenital sinus, UPJO)"],
+       pattern:["Neural tube ปิดภายใน ~28 วันหลังปฏิสนธิ (มักก่อนรู้ว่าตั้งครรภ์) → <b>folic acid 400 µg/วัน ตั้งแต่อย่างน้อย 1 เดือนก่อนตั้งครรภ์ ถึง 12 สัปดาห์</b>; เคยมีลูก NTD / กลุ่มเสี่ยงสูง 4 mg/วัน","Myelomeningocele = สาเหตุที่พบบ่อยที่สุดของ <b>neurogenic bladder</b> ในเด็ก → detrusor-sphincter dyssynergia, ความดันสูง, UTI, VUR, ไตเสื่อม → <b>clean intermittent catheterization + anticholinergic</b> ± augmentation"],
+       members:["MDCU76|RoC|Ped 1","MDCU73|RoB|Uro 3"]}
+    ]},
+    {title:"Burn, trauma, ยาชาเฉพาะที่ในเด็ก และข้อที่ติด tag มาจากผู้ใหญ่", sections:[
+      {id:"burn", title:"Burn ในเด็ก: ความลึก, special area, child abuse",
+       trend:"สองรุ่นให้เคส stocking burn สงสัยทารุณกรรม แต่คีย์ตอบต่างกัน",
+       asked:["10 ปี แตะกระทะร้อน 10 นาที แผลแดงมี bleb / blister → <b>superficial second degree</b> (ตัวลวง first degree, deep second, third, ยังบอกไม่ได้)","5 ปี scald 8% TBSA ที่หน้าและคอ partial thickness ไม่มี stridor / เสียงแหบ / เขม่า → <b>admit for wound care + observation</b> (ตัวลวง Parkland, กลับบ้าน, early excision + graft, escharotomy)","3 ปี partial-thickness ที่เท้าสองข้างแบบ stocking ขอบชัด ประวัติไม่สอดคล้อง สงสัยพ่อเลี้ยงทำร้าย → <b>ส่ง burn center ด้วยรถโรงพยาบาล</b> (ตัวลวง ให้ครอบครัวเดินทางเอง, แจ้งตำรวจแล้วส่งกลับบ้าน, OPD dressing, ให้กลับกับพ่อเลี้ยง)","3 ปี อยู่กับพ่อเลี้ยง scald second degree ที่เท้าสองข้างสมมาตร สงสัย abuse → ทำอะไรก่อน → <b>ambulance ไป burn center</b> (คีย์เก่า MDCU72 RoD ตอบ wound care ที่ community hospital; ตัวลวง skeletal survey, wound care ที่ community hospital, แจ้งตำรวจจับ, รถส่วนตัวไป burn center)"],
+       pattern:["ความลึก: <b>blister + แดงชมพู ชื้น เจ็บ = superficial partial (2nd degree)</b>; ความลึกอาจลึกขึ้นใน 48–72 ชม. (burn wound conversion) จึงประเมินซ้ำ แต่จัดตามที่เห็นในขณะนั้น","%TBSA น้อยและดื่มได้ไม่ต้อง IV formula แต่ <b>หน้า มือ เท้า genitalia perineum เหนือข้อ = special area</b> (ABA 2022): <b>deep partial / full thickness</b> ที่ตำแหน่งเหล่านี้ → immediate consultation + พิจารณาส่งต่อ burn center; partial thickness < 10% TBSA → แนะนำปรึกษา burn center (ในทางปฏิบัติ admit ดูแลแผลบริเวณหน้าในเด็กเล็ก)","<b>Non-accidental burn</b>: stocking / glove (immersion) ขอบชัด สมมาตร ประวัติไม่สอดคล้อง → หลักการ: (1) ให้การรักษาที่จำเป็น (2) <b>ปกป้องเด็ก</b> ไม่ให้กลับไปอยู่กับผู้ต้องสงสัย (3) แจ้งทีม child protection / social work ตามกฎหมาย; ABA 2022 ระบุ pediatric non-accidental trauma เป็นเหตุให้ปรึกษาพร้อมพิจารณาส่งต่อ burn center"],
+       pearls:["คีย์เก่าสองรุ่นต่างกัน แต่คลังตอบตรงกันแล้ว: MDCU74 RoD และ MDCU72 RoD → ส่ง burn center ด้วยรถพยาบาล (ABA 2022: เท้า + non-accidental trauma) — คีย์ MDCU72 RoD เดิมตอบ wound care ที่ community hospital ด้วยเหตุผล 'รักษาก่อน' ซึ่งไม่ปกป้องเด็กและไม่พอสำหรับ burn ที่เท้า","แจ้งตำรวจทันทีแต่ไม่ได้ดูแลแผลหรือปกป้องเด็ก = ผิดหลัก"],
+       members:["MDCU78|RoB|60","MDCU77|RoB|Plastic 5","MDCU74|RoD|14","MDCU72|RoD|80"]},
+      {id:"lidocaine", title:"Maximum dose ของ lidocaine ในเด็ก",
+       asked:["เด็ก 40 kg ตัด lipoma ใช้ 1% lidocaine ไม่มี adrenaline ได้สูงสุดกี่ mL → <b>20 mL</b> (MDCU77 RoB; คีย์ใช้ 0.5 mL/kg)","เด็ก 10 ปี 40 kg ใช้ 1% lidocaine ไม่มี adrenaline สูงสุด → <b>18 mL</b> (MDCU77 RoC; ช้อยไม่มี 20 mL)"],
+       pattern:["Lidocaine <b>plain 4.5 mg/kg</b> (≈ 5 mg/kg, ไม่เกิน 300 mg); <b>with adrenaline 7 mg/kg</b> (ไม่เกิน 500 mg)","<b>1% = 10 mg/mL</b> → 40 kg × 4.5 mg = 180 mg = <b>18 mL</b> (ถ้าใช้ 5 mg/kg = 20 mL); มี adrenaline 280 mg = 28 mL","สูตรลัดในคีย์: 1% plain 0.5 mL/kg, with adrenaline 0.7 mL/kg"],
+       pearls:["ดูช้อยที่มี — สองรุ่นเฉลยต่างกันเพราะใช้ 4.5 กับ 5 mg/kg; ทั้งคู่ไม่ใช่ 28 mL (ตัวเลขของสูตรที่มี adrenaline)"],
+       members:["MDCU77|RoB|Plastic 10","MDCU77|RoC|Plastic 8"]},
+      {id:"trauma", title:"สาเหตุการตายจากการบาดเจ็บในเด็ก",
+       asked:["3 สาเหตุที่พบบ่อยที่สุดของการตายจากการบาดเจ็บในเด็ก → <b>airway obstruction, blood loss, CNS injury</b> (ตัวลวง burn / drowning / poisoning, spinal / pelvic, tension pneumothorax / sepsis)"],
+       pattern:["เด็กทางเดินหายใจเล็ก ลิ้นใหญ่ occiput ใหญ่ → <b>airway obstruction</b>; blood volume น้อย (~80 mL/kg) → <b>blood loss</b>; ศีรษะใหญ่ → <b>CNS injury</b> — เน้น ABC และ head injury (สไลด์ในคีย์ MDCU70)"],
+       members:["MDCU70|RoA|4"]},
+      {id:"vte", title:"Perioperative VTE prophylaxis ใน rectal cancer (ข้อผู้ใหญ่ที่ติด tag มาในหมวดนี้)",
+       asked:["หญิง rectal cancer จะทำ LAR มาตรการใด <b>ไม่</b>ลดความเสี่ยง VTE → <b>neoadjuvant chemoradiotherapy</b> (ที่ลด: LDUH, LMWH, IPC ระหว่างผ่าตัด, early mobilization)"],
+       pattern:["Chemotherapy / radiation <b>เพิ่ม</b>ความเสี่ยง VTE (endothelial injury, procoagulant state) ไม่ได้ป้องกัน","Major abdominopelvic cancer surgery = high risk (Caprini ≥ 5) → <b>pharmacologic (LMWH / LDUH) + mechanical (IPC)</b> ถ้าไม่เสี่ยงเลือดออกสูง + early mobilization; <b>extended LMWH ~4 สัปดาห์</b>หลังผ่าตัดมะเร็งช่องท้อง / เชิงกราน"],
+       pearls:["อ่านข้ามคำว่า NOT แล้วเลือก LMWH"],
+       members:["MDCU74|RoA|5@p2"]}
+    ]}
+  ]});

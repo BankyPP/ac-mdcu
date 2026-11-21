@@ -1,429 +1,340 @@
-SUMM.push({
- "tag": "Surgical infection",
- "title": "Surgical infection",
- "intro": "<ul><li><b>รวมข้อ Gen Sx ที่ clone มา (19 พ.ย. 2026)</b> — กลุ่ม “จาก Gen Sx — …” ด้านล่าง</li><li>MDCU79 RoC 9 ข้อย่อย ทั้งหมดเป็นแท็กร่วมกับวอร์ดอื่น: <b>Uro</b> (obstructed infected kidney 2 เคส, UTI ในครรภ์ 2 เคส, gonorrhea), <b>Neuro</b> (brain abscess, meningococcal meningitis), <b>Colorectal</b> (diverticular abscess) และ <b>CVT</b> (cavitary TB)</li><li>ธีมที่ร้อยทุกเคส: <b>source control</b> — หนองหรือปัสสาวะติดเชื้อที่ถูกกักไว้ต้องระบาย (DJ stent / PCN, stereotactic aspiration, percutaneous drainage) ATB อย่างเดียวไม่พอ</li><li>อีกกลุ่มคือ regimen / การวินิจฉัยเชื้อจาก gram stain (GN diplococci = gonococcus / meningococcus) และการติดตามหลังรักษา (test of cure ในครรภ์)</li><li>MDCU79 RoD (ไฟล์ AC 79D ส่วน Subspe) เพิ่มเข้ามา: source control (stent, I&D, chest drain), EPN, toxoplasmosis, brain abscess, IE prophylaxis, ASB ในครรภ์, gonorrhea, warts</li></ul>",
- "groups": [
-  {
-   "title": "Source control: ระบายก่อน",
-   "sections": [
-    {
-     "id": "obstructed-infected-kidney",
-     "title": "Obstructed infected kidney → urgent DJ stent / PCN",
-     "trend": "ออก 2 เคสในชุดเดียว",
-     "asked": [
-      "ไข้ + CVA tenderness + pyuria + นิ่ว proximal ureter 7 mm + hydronephrosis → นอกจาก IV ATB ทำอะไร",
-      "ไข้ + nitrite + Cr 2.1 + นิ่ว 8 mm → urgent decompression",
-      "นิ่ว + ไข้ + hydronephrosis → DJ stent · ไม่มี hydronephrosis → ATB (79D)"
-     ],
-     "pattern": [
-      "<b>อุดตัน + ติดเชื้อ = urologic emergency</b> → urgent decompression (retrograde DJ stent = PCN, EAU) + IV ATB + urine / blood culture",
-      "Definitive stone treatment หลังติดเชื้อหาย",
-      "ข้อบ่งชี้ด่วนอื่น: AKI, solitary kidney, bilateral obstruction, ปวดคุมไม่ได้"
-     ],
-     "pearls": [
-      "อย่าเลือก ESWL / URS ทันที หรือ ATB อย่างเดียว",
-      "URO 5 stem แต่งเติมไข้ให้ — ถ้าไม่มีติดเชื้อ คำตอบจะเป็น MET / ESWL"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 5",
-      "MDCU79|RoC|URO 8",
-      "MDCU79|RoD|Uro 5",
-      "MDCU79|RoD|Uro 14"
-     ]
-    },
-    {
-     "id": "brain-abscess",
-     "title": "Brain abscess 4 cm → stereotactic aspiration + IV ATB",
-     "asked": [
-      "ไข้ ปวดหัว อ่อนแรงครึ่งซีก CT ring-enhancing ผนังบาง 4 cm → management",
-      "Post-op skull fracture สงสัย abscess → CT with contrast · เชื้อ = S. aureus + Strep (79D)",
-      "Brain abscess investigation → MRI DWI (78B)"
-     ],
-     "pattern": [
-      "<b>ขนาด >2.5 cm</b> / mass effect / เข้าถึงได้ → aspiration หรือ excision + IV ATB (ESCMID 2024)",
-      "Empirical ceftriaxone / cefotaxime + metronidazole (+ vancomycin หลังผ่าตัด / trauma) 6–8 สัปดาห์",
-      "ก้อนเล็ก <2.5 cm, cerebritis, หลายก้อน, ลึก → ยาอย่างเดียว + imaging ติดตาม"
-     ],
-     "pearls": [
-      "ตัวลวง IV ATB alone — ขนาดและ mass effect คือข้อบ่งชี้ระบาย"
-     ],
-     "members": [
-      "MDCU79|RoC|neuro 1",
-      "MDCU79|RoD|Neuro 8",
-      "MDCU79|RoD|Neuro 14",
-      "MDCU78|RoB|48"
-     ]
-    },
-    {
-     "id": "diverticular-abscess",
-     "title": "Diverticulitis + pelvic abscess 7 cm (Hinchey II) → percutaneous drainage + IV ATB",
-     "asked": [
-      "ผู้ป่วยสถานพยาบาลระยะยาว sigmoid diverticulitis + pelvic abscess 7 cm stable ไม่มี generalized peritonitis → management (ตัวลวง emergency sigmoidectomy, laparotomy lavage, IV ATB อย่างเดียว)"
-     ],
-     "pattern": [
-      "Abscess <3 cm → IV ATB; <b>≥3 cm (ASCRS 2020) และเข้าถึงได้ → CT-guided percutaneous drainage + IV ATB</b>",
-      "Generalized peritonitis (Hinchey III–IV) / septic shock / non-op ล้มเหลว → emergency sigmoidectomy (Hartmann หรือ primary anastomosis ± ileostomy)",
-      "หลังหาย: colonoscopy ~6–8 สัปดาห์ + พิจารณา elective sigmoidectomy"
-     ],
-     "pearls": [
-      "ขนาด abscess ไม่ใช่ข้อบ่งชี้ผ่าตัดฉุกเฉิน — peritonitis คือตัวตัดสิน",
-      "stem เติม stable และไม่มี peritonitis ให้"
-     ],
-     "members": [
-      "MDCU79|RoC|Colo 4"
-     ]
-    },
-    {
-     "id": "perianal-abscess-si",
-     "title": "Perianal abscess + cellulitis → I&D + antibiotics",
-     "asked": [
-      "Fluctuant perianal mass + erythema → treatment"
-     ],
-     "pattern": [
-      "I&D เสมอ · ATB เมื่อ cellulitis/sepsis/DM/immunocompromised"
-     ],
-     "members": [
-      "MDCU79|RoD|Colo 11"
-     ]
-    },
-    {
-     "id": "empyema-si",
-     "title": "Empyema → ICD + IV antibiotics",
-     "asked": [
-      "Empyema pH 6.9 → management",
-      "pH ต่ำ glucose ต่ำ LDH สูง → chest tube (78B)"
-     ],
-     "pattern": [
-      "Drain + ATB ครอบคลุม anaerobe · loculated → tPA/DNase/VATS · peel → decortication"
-     ],
-     "members": [
-      "MDCU79|RoD|CVT 10",
-      "MDCU78|RoB|10"
-     ]
-    },
-    {
-     "id": "nf-graft",
-     "title": "Necrotizing fasciitis หลัง debride → STSG",
-     "asked": [
-      "NF ที่ anterior tibia granulation ดี → wound coverage"
-     ],
-     "pattern": [
-      "Debridement ซ้ำ + ATB → NPWT → STSG/flap"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 5"
-     ]
-    },
-    {
-     "id": "renal-abscess",
-     "title": "Renal abscess: &lt;3 cm ATB · 3–5 cm ATB ± drain · &gt;5 cm percutaneous drainage",
-     "asked": [
-      "Renal abscess 3.5 cm stable → IV ATB (78B)",
-      "Renal abscess &gt;5 cm ไม่ตอบ ATB → percutaneous drainage (78D)"
-     ],
-     "pattern": [
-      "Open drainage/nephrectomy เมื่อ percutaneous ล้มเหลว"
-     ],
-     "members": [
-      "MDCU78|RoB|21",
-      "MDCU78|RoD|82"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "UTI และ STI",
-   "sections": [
-    {
-     "id": "uti-pregnancy",
-     "title": "UTI ในหญิงตั้งครรภ์หลังรักษาครบ → repeat urine culture",
-     "trend": "ออกซ้ำ 2 เคสเนื้อหาเดียวกัน",
-     "asked": [
-      "ครรภ์ 18–20 สัปดาห์ cystitis E. coli รักษา nitrofurantoin ครบ อาการหาย → next step",
-      "Persistent ASB ในครรภ์ → US KUB (79D)",
-      "ASB ในคนท้องหลังรักษายังบวก → ให้ยาอีกคอร์ส (78B)"
-     ],
-     "pattern": [
-      "<b>Test of cure</b>: urine culture ซ้ำ ~1–2 สัปดาห์หลังจบยา แล้ว screen เป็นระยะจนคลอด",
-      "ASB ในครรภ์ screen และรักษาทุกราย (IDSA 2019)",
-      "ยาปลอดภัย: nitrofurantoin, cephalexin, amoxicillin-clavulanate, fosfomycin; เลี่ยง TMP-SMX ไตรมาสแรก / ใกล้คลอด, fluoroquinolone, tetracycline",
-      "เป็นซ้ำ ≥2 ครั้ง / หลัง pyelonephritis → suppressive therapy ก่อนนอนจนคลอด"
-     ],
-     "pearls": [
-      "observe and reassure คือตัวลวงจากหลักของหญิงไม่ตั้งครรภ์"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 2",
-      "MDCU79|RoC|URO 12",
-      "MDCU79|RoD|Uro 4",
-      "MDCU78|RoB|52"
-     ]
-    },
-    {
-     "id": "gonorrhea",
-     "title": "Gonococcal urethritis → ceftriaxone 500 mg IM + doxycycline",
-     "asked": [
-      "หนองท่อปัสสาวะ GN intracellular diplococci ตรวจ chlamydia ไม่ได้ → treatment",
-      "GN diplococci urethral discharge → gonococcal urethritis (79D)"
-     ],
-     "pattern": [
-      "CDC 2021: <b>ceftriaxone 500 mg IM</b> ครั้งเดียว + <b>doxycycline 100 mg bid 7 วัน</b> ถ้ายังไม่ exclude chlamydia",
-      "รักษาคู่นอน, ตรวจ HIV / syphilis, retest 3 เดือน"
-     ],
-     "pearls": [
-      "azithromycin ไม่ใช่ routine แล้ว"
-     ],
-     "members": [
-      "MDCU79|RoC|URO 11",
-      "MDCU79|RoD|Uro 9"
-     ]
-    },
-    {
-     "id": "epn",
-     "title": "Emphysematous pyelonephritis",
-     "asked": [
-      "เบาหวาน + gas ใน renal parenchyma → Dx",
-      "CT แก๊สใน collecting system → emphysematous pyelitis (78D)"
-     ],
-     "pattern": [
-      "IV ATB + percutaneous drainage ± nephrectomy"
-     ],
-     "members": [
-      "MDCU79|RoD|Uro 10",
-      "MDCU78|RoD|83"
-     ]
-    },
-    {
-     "id": "warts-si",
-     "title": "Anogenital warts → imiquimod",
-     "asked": [
-      "MSM + wart → treat"
-     ],
-     "pattern": [
-      "Imiquimod/cryo/excision · ตรวจ HIV/syphilis"
-     ],
-     "members": [
-      "MDCU79|RoD|Plastic 10"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "CNS และปอด",
-   "sections": [
-    {
-     "id": "meningococcal",
-     "title": "Meningococcal meningitis (GN diplococci + purpura)",
-     "asked": [
-      "วัยรุ่นหอพัก ไข้ คอแข็ง purpuric rash CSF bacterial GN diplococci → Dx"
-     ],
-     "pattern": [
-      "GN diplococci = <b>N. meningitidis</b>; purpura จาก endotoxin / DIC → Waterhouse-Friderichsen",
-      "Empirical: ceftriaxone + vancomycin (+ ampicillin ถ้า >50 ปี) + dexamethasone",
-      "Contact prophylaxis: ciprofloxacin 500 mg ครั้งเดียว / rifampicin / ceftriaxone IM",
-      "กลุ่มเสี่ยง: หอพัก ค่ายทหาร, terminal complement deficiency, asplenia (OPSI)"
-     ],
-     "pearls": [
-      "pneumococcus = gram-positive diplococci; Hib = coccobacilli"
-     ],
-     "members": [
-      "MDCU79|RoC|neuro 4"
-     ]
-    },
-    {
-     "id": "cavitary-tb",
-     "title": "Upper lobe cavity + อาการเรื้อรัง → pulmonary TB",
-     "asked": [
-      "ชาย 35 ปี ไอ ไข้ เหงื่อออกกลางคืน น้ำหนักลด 2 เดือน thick-walled cavity RUL → Dx (ตัวลวง lung abscess, SCC, aspergilloma, GPA)"
-     ],
-     "pattern": [
-      "Reactivation TB: apical / posterior segment upper lobe, cavity, tree-in-bud",
-      "Dx: sputum AFB + Xpert MTB/RIF + culture / DST; ตรวจ HIV; airborne precaution",
-      "รักษา <b>2HRZE / 4HR</b> ภายใต้ DOT",
-      "DDx: abscess (เฉียบพลัน, dependent segment, air-fluid level), SCC (ผู้สูงอายุสูบบุหรี่), aspergilloma (fungus ball, Monod sign)",
-      "บทบาทศัลยกรรม: MDR TB localized, destroyed lung, massive hemoptysis หลัง BAE ล้มเหลว, aspergilloma มีอาการ, BPF / empyema"
-     ],
-     "pearls": [
-      "recall มีแค่หัวข้อ + ช้อยเดียว — ระยะเวลาและตำแหน่ง upper lobe เติมให้"
-     ],
-     "members": [
-      "MDCU79|RoC|CVT 6"
-     ]
-    },
-    {
-     "id": "toxo-si",
-     "title": "Cerebral toxoplasmosis ใน AIDS",
-     "asked": [
-      "HIV CD4 40 ring-enhancing หลายก้อน → Dx"
-     ],
-     "pattern": [
-      "Pyrimethamine + sulfadiazine + leucovorin · TMP-SMX prophylaxis CD4 &lt;100"
-     ],
-     "members": [
-      "MDCU79|RoD|Neuro 1"
-     ]
-    },
-    {
-     "id": "ie-prophylaxis-si",
-     "title": "IE prophylaxis ก่อนทำฟัน",
-     "asked": [
-      "ใครไม่ต้องให้ → ASD repaired ไม่มี residual"
-     ],
-     "pattern": [
-      "Highest-risk เท่านั้น · amoxicillin 2 g"
-     ],
-     "members": [
-      "MDCU79|RoD|CVT 7"
-     ]
-    },
-    {
-     "id": "pve",
-     "title": "Prosthetic valve endocarditis → redo valve replacement",
-     "asked": [
-      "Mechanical MVR ติดเชื้อ (78A)"
-     ],
-     "pattern": [
-      "Explant + debridement + replacement"
-     ],
-     "members": [
-      "MDCU78|RoA|11"
-     ]
-    },
-    {
-     "id": "crypto-ncc",
-     "title": "CNS infection: cryptococcal meningitis (HIV) และ neurocysticercosis",
-     "asked": [
-      "HIV CD4 ต่ำ ไข้ ปวดหัว (78D)",
-      "CT brain multiple lesion อายุ 14 (78C)"
-     ],
-     "pattern": [
-      "Crypto: CrAg, ampho + flucytosine · NCC: cyst with scolex"
-     ],
-     "members": [
-      "MDCU78|RoD|23",
-      "MDCU78|RoC|5"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Infection control และความปลอดภัยของบุคลากร",
-   "sections": [
-    {
-     "id": "gen-cdiff",
-     "title": "C. difficile infection: การวินิจฉัย ความรุนแรง และการรักษา",
-     "trend": "ท้องเสียหลังได้ antibiotic (แม้ cefazolin dose เดียว) — ถามการตรวจ หรือยาที่ใช้จากช้อยที่ให้",
-     "asked": [
-      "ท้องเสียน้ำหลังจบ antibiotic สงสัย C. difficile → ตรวจ stool C. difficile toxin (ไม่ใช่ proctosigmoidoscopy / stool culture / blood culture / CT)",
-      "ท้องเสียเป็นน้ำหลังได้ antibiotic ยืนยัน CDI ยาใดในช้อยเป็น drug of choice → metronidazole (ช้อยอื่น ciprofloxacin, cefazolin, clindamycin, ceftriaxone เป็นยาต้นเหตุ)",
-      "หลังซ่อม hernia ด้วย mesh ได้ cefazolin 3 วันต่อมาถ่ายเหลวมีมูกเลือด toxin บวก WBC 11,000 Cr ปกติ ไม่มี peritonitis → oral metronidazole (ไม่ใช่ IV vancomycin, colectomy, loperamide, ORS อย่างเดียว)"
-     ],
-     "pattern": [
-      "ส่งตรวจเฉพาะ <b>unformed stool ≥ 3 ครั้ง / 24 ชม.</b> ไม่ได้กินยาระบาย; ไม่ทำ test of cure",
-      "IDSA / SHEA 2017: multistep — <b>GDH + toxin EIA</b> ± NAAT ตัดสินเมื่อขัดกัน, หรือ NAAT + toxin; NAAT เดี่ยวจับ colonization ได้",
-      "Risk: antibiotic (clindamycin, fluoroquinolone, cephalosporin), อายุมาก, นอน รพ.นาน, PPI, chemotherapy, IBD",
-      "Severe: WBC ≥ 15,000 หรือ Cr > 1.5; fulminant: hypotension / shock, ileus, megacolon",
-      "รักษา (IDSA / SHEA 2021): หยุด antibiotic ต้นเหตุ, initial → <b>fidaxomicin 200 mg bid 10 วัน</b> (preferred) หรือ oral vancomycin 125 mg qid 10 วัน; fulminant → oral vancomycin 500 mg qid + IV metronidazole ± rectal vancomycin",
-      "ผ่าตัด (fulminant ไม่ตอบสนอง / perforation / megacolon): subtotal colectomy + end ileostomy หรือ diverting loop ileostomy + colonic lavage; recurrence → fidaxomicin, bezlotoxumab, FMT",
-      "Contact precautions + ล้างมือด้วยสบู่น้ำ",
-      "<b>ข้อสอบไม่มี oral vancomycin / fidaxomicin ในช้อย</b> → เลือก <b>oral metronidazole 500 mg tid 10–14 วัน</b> ซึ่ง IDSA / SHEA 2021 ยังรับได้เฉพาะ <b>non-severe</b> (WBC ≤15,000 และ Cr <1.5) เมื่อไม่มียาแรก; <b>IV vancomycin ไม่ออกมาใน lumen ลำไส้</b> ใช้รักษา CDI ไม่ได้ (IV ที่ใช้ใน fulminant คือ metronidazole)",
-      "ข้อบ่งชี้ผ่าตัด (subtotal colectomy + end ileostomy หรือ loop ileostomy + colonic lavage ด้วย vancomycin): perforation, toxic megacolon, shock ต้องใช้ vasopressor, แย่ลงหลังยา 48–72 ชม.; ห้าม antimotility (loperamide); recurrence → fidaxomicin / vancomycin pulsed-tapered, ≥2 ครั้ง → FMT; contact precautions + ล้างมือด้วยสบู่และน้ำ (alcohol ไม่ฆ่า spore)"
-     ],
-     "pearls": [
-      "เห็น pseudomembrane แล้วว่าต้อง endoscopy ผิด การตรวจที่เร็วและเป็นมาตรฐานคือ stool test",
-      "จำว่า 'vancomycin รักษา C. diff' แล้วเลือก IV vancomycin — ต้องเป็น oral",
-      "เห็นถ่ายเป็นเลือดแล้วเลือก colectomy ทั้งที่ไม่มีเกณฑ์ fulminant",
-      "MDCU74 RoA และ MDCU79 RoC ตอบ metronidazole เพราะ 'among the following' — ถ้าช้อยมี oral vancomycin หรือ fidaxomicin ให้เลือกตัวนั้น (คีย์ MDCU79 เขียนเองว่า 'vancomycin PO ดีสุด ถ้าไม่มีก็ metronidazole')"
-     ],
-     "members": [
-      "MDCU74|RoA|ไม่มีเลข 1"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Soft tissue infection และ abscess",
-   "sections": [
-    {
-     "id": "gen-nsti",
-     "title": "Necrotizing soft tissue infection / Fournier / gas gangrene",
-     "trend": "ให้ภาพ NSTI (ปวดเกินสัดส่วน, bullae, ผิวม่วง, crepitus) แล้วถามเชื้อหรือการรักษา — คำตอบการรักษาคือผ่าตัด debride ทันทีเสมอ",
-     "asked": [
-      "ปวดขามาก ไข้ tachycardia bullae เนื้อตาย → IV antibiotics + urgent surgical debridement",
-      "DM คุมไม่ดี ปวดบวม perineum-scrotum ผิวคล้ำเน่า crepitus กลิ่นเหม็น ไข้ 39°C (Fournier) → IV antibiotics + emergency radical debridement (ไม่ใช่ antibiotic อย่างเดียว / aspiration / orchiectomy / HBO อย่างเดียว)",
-      "แผล crush ปนเปื้อน 2 วัน crepitus ผิวสีบรอนซ์ น้ำเหลืองสีน้ำตาลบาง ๆ เหม็น ฟิล์มมี gas ในกล้ามเนื้อ → Clostridium perfringens",
-      "2 วันหลังโดนของมีคมตำที่ขา ปวดมาก ไข้ ชีพจรเร็ว ผิวรอบแผลม่วงมี bullae → surgical debridement + IV antibiotics (ไม่ใช่ AK amputation, antibiotic อย่างเดียว 14 วัน, HBOT อย่างเดียว, ยกขา-ประคบอุ่น)",
-      "แผลทะลุปนเปื้อนที่ขา ผิวม่วง bullae คลำได้ crepitus → เชื้อ Clostridium perfringens (ไม่ใช่ Vibrio cholerae, S. pyogenes, S. epidermidis, Candida)",
-      "ผู้ป่วยเบาหวานปวดขามากเกินผิวหนัง 12 ชม. erythema ลาม ผิวม่วงคล้ำ hemorrhagic bullae ไข้ tachycardia → initial management: emergency surgical debridement (ไม่ใช่ IV antibiotic แล้วดู 48 ชม., needle aspiration, HBOT อย่างเดียว)",
-      "แผล crush ปนเปื้อน NSTI ที่ขา crepitus Gram stain พบ large gram-positive rods สงสัย Clostridium → นอกจาก urgent debridement ยาที่เป็น drug of choice คือ penicillin (ไม่ใช่ ceftriaxone / amikacin / cefazolin / ciprofloxacin)",
-      "ชายสูงอายุเบาหวาน ปวดน่องรุนแรง แดง มี purple blebs ไม่มี crepitus ไข้ 39°C dorsiflex ข้อเท้าไม่ได้เพราะปวด → Dx necrotizing fasciitis (ไม่ใช่ cellulitis / erysipelas / DVT / clostridial myonecrosis)",
-      "ผู้ป่วยเบาหวาน ขาปวดบวมแดงร้อน ปวดมากเมื่อขยับ purple bullae ชีพจรปลาย 2+ → IV antibiotics + IV fluid + surgical debridement (ไม่ใช่ oral antibiotic + I&D / amputation / ช้อย 'debridement because of NF' ที่ไม่ครบแผน)"
-     ],
-     "pattern": [
-      "สัญญาณเตือน: <b>ปวดมากเกินกว่าที่เห็น</b>, บวม / induration เกินขอบแดง, hemorrhagic bullae, skin necrosis / ชา, crepitus / gas, ลามเร็ว, systemic toxicity; finger test ไม่มีแรงต้าน, dishwater fluid",
-      "Type I polymicrobial (DM, perineum = <b>Fournier</b>, หลังผ่าตัด) พบบ่อยสุด; type II <b>GAS</b> ± S. aureus (คนแข็งแรง แผลเล็ก); <b>Vibrio vulnificus</b> (น้ำทะเล / อาหารทะเล, ตับแข็ง); <b>Clostridium perfringens</b> (myonecrosis หลัง crush / ผ่าตัดลำไส้)",
-      "<b>Clostridial myonecrosis</b>: anaerobic spore-forming Gram-positive rod สร้าง alpha toxin (phospholipase C) ฟักตัวสั้น (< 24–72 ชม.), ปวดมาก, ผิวซีด → บรอนซ์ / ม่วง, bullae, crepitus, thin brown discharge เหม็นหวาน, gas ใน film, Gram stain boxcar rods เม็ดเลือดขาวน้อย; <b>C. septicum</b> spontaneous สัมพันธ์มะเร็งลำไส้ใหญ่ / neutropenia → ต้อง colonoscopy",
-      "รักษา 3 อย่างพร้อมกัน: resuscitation + broad-spectrum IV antibiotic (vancomycin หรือ linezolid + piperacillin-tazobactam หรือ carbapenem + <b>clindamycin</b> ยับยั้ง toxin) + <b>emergency radical debridement</b> ซ้ำทุก 24–48 ชม. จนไม่มีเนื้อตาย ± amputation; GAS ยืนยัน → penicillin + clindamycin; Clostridium → penicillin + clindamycin; Vibrio → doxycycline + ceftazidime",
-      "<b>Fournier</b>: ± diverting colostomy (ปนเปื้อนอุจจาระ), suprapubic cystostomy (urethra เกี่ยวข้อง); testis มักเก็บไว้ได้; เนื้อตายจริงมากกว่าผิวที่เห็น; ถ้ามีสัญญาณลามเข้า pre-peritoneal / retroperitoneal ทำ CT ทั้งท้องก่อนผ่า; หลังหายต้อง reconstruct (graft, flap)",
-      "LRINEC (CRP, WBC, Hb, Na, Cr, glucose) ≥ 6 สงสัย ≥ 8 เสี่ยงสูง แต่คะแนนต่ำไม่ตัดโรค; imaging ห้ามทำให้ผ่าตัดช้า; HBO / IVIG เป็นเพียง adjunct; ดูแลแผลด้วย NPWT แล้ว skin graft / ปิดแผล",
-      "<b>Hard signs → ผ่าตัดทันที:</b> bullae (โดยเฉพาะ hemorrhagic), ผิวม่วงคล้ำ / necrosis, crepitus / gas, ผิวชา, ลามแม้ได้ยา, systemic toxicity; LRINEC ≥6 ชวนสงสัยแต่ sensitivity ต่ำ ใช้ตัดโรคทิ้งไม่ได้ — CT / LRINEC ห้ามทำให้ผ่าตัดช้า; ช้า >12–24 ชม. อัตราตายเพิ่มชัด",
-      "ยา empirical (IDSA 2014): vancomycin หรือ linezolid + piperacillin-tazobactam หรือ carbapenem + <b>clindamycin</b> (ยับยั้ง toxin); GAS / Clostridium ยืนยัน → penicillin + clindamycin; second look 24–36 ชม. แล้วทุกวันจนไม่มีเนื้อตายเพิ่ม; HBOT / IVIG เป็น adjunct เท่านั้น",
-      "<b>Crepitus = gas</b> → Clostridium (gas gangrene, α-toxin lecithinase) หรือ type I polymicrobial; GAS ไม่สร้างก๊าซ; <b>C. septicum</b> = spontaneous gas gangrene ไม่มีแผล สัมพันธ์ colon cancer / neutropenia → colonoscopy",
-      "<b>Drug of choice ของ Clostridium (gas gangrene / myonecrosis) = penicillin G</b> 2–4 ล้านหน่วย IV ทุก 4–6 ชม. + <b>clindamycin</b> (ยับยั้งการสร้าง alpha-toxin) ควบคู่กับ urgent debridement (IDSA 2014); Gram stain พบ large gram-positive rods ไม่มี neutrophil มาก; ceftriaxone / cefazolin / aminoglycoside / quinolone ไม่ใช่ยาหลัก"
-     ],
-     "pearls": [
-      "จำแค่ NF = C. perfringens ผิด NF ส่วนใหญ่คือ polymicrobial หรือ GAS; C. perfringens คือ gas gangrene (แผลบดอัด + gas ในกล้ามเนื้อ)",
-      "รอ imaging หรือ ATB ตอบสนองก่อนผ่า ผิด ต้องผ่าตัดทันที",
-      "ไม่ต้องตัด testis ไปด้วยเสมอใน Fournier",
-      "MDCU76 RoD เคสนี้ต้นฉบับเป็นรูป NF ที่ไม่มีรูป bank เติมลักษณะ clostridial ให้เหลือ C. perfringens",
-      "Vibrio ที่ทำ bullae คือ V. vulnificus (น้ำทะเล + ตับแข็ง) ไม่ใช่ V. cholerae",
-      "สองเคส MDCU74 RoD recall สั้นมาก ('โดนตำมา ม่วง bleb' / 'ม่วง bleb มี crepitus') คลังเติม stem และแต่งช้อย; MDCU79 RoD ถามซ้ำแบบเบาหวาน",
-      "MDCU73 RoB (Clostridium → ยา): ต้นฉบับมีแค่ชื่อโรค คลังแต่ง stem เป็น crush injury + Gram-positive rods แล้วถามยา — ตอบ penicillin ไม่ใช่ broad-spectrum cephalosporin และอย่าลืม debridement ด่วนควบคู่",
-      "<b>ไม่มี crepitus ไม่ตัด NF</b> (crepitus พบส่วนน้อย ส่วนใหญ่ใน type I / clostridial); <b>ชีพจรปลาย 2+</b> ไม่ตัด NF และบอกว่ายังไม่ต้อง amputate; pain on passive movement / ปวดเกินสัดส่วน = hard sign",
-      "MDCU70 RoC: คีย์ในไฟล์ตอบ 'debridement because of NF' แต่ bank ตอบช้อยที่ครบ 3 ขา (IV antibiotic + resuscitation + debridement) — เลือกช้อยแผนรักษาที่ครบที่สุด ไม่ใช่ช้อยที่ชื่อโรคตรง",
-      "NSTI ออกแล้วใน 7 ชุดปี — ถามทั้ง Dx, เชื้อ, ยา และ initial management"
-     ],
-     "members": [
-      "MDCU78|RoD|Anorectal disease 4"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "จาก Gen Sx — Intra-abdominal infection และ abscess (รวมตับและตับอ่อน)",
-   "sections": [
-    {
-     "id": "gen-abscess-drainage",
-     "title": "Abscess ในช่องท้อง: ขนาดและตำแหน่งตัดสินการ drain",
-     "trend": "CT พบ abscess (diverticular หรือหลังผ่าตัด) ผู้ป่วย stable ไม่มี peritonitis ถามการรักษา",
-     "asked": [
-      "Sigmoid diverticulitis + pericolic abscess 4 cm stable → percutaneous drainage + IV antibiotics (คีย์เดิมตอบ antibiotics อย่างเดียว)",
-      "Sigmoid diverticulitis มี abscess 4 cm ลง pelvis ไข้ 1 สัปดาห์ ได้ antibiotic แล้ว → NPO + percutaneous drainage (ไม่ใช่ emergency colectomy / observe / colonoscopy ใน 48 ชม.)",
-      "หลังผ่าตัดช่องท้องหลายสัปดาห์ CT พบ single unilocular collection 6 cm LLQ เข้าถึงทางผิวหนังได้ → percutaneous drainage",
-      "POD 5 หลัง right hepatectomy ปวด RUQ + ไข้ stable CT พบ subdiaphragmatic collection 5 cm → US-guided percutaneous drainage (ไม่ใช่ antibiotic อย่างเดียว / relaparotomy / ERCP stent / CT ซ้ำ 1 สัปดาห์)"
-     ],
-     "pattern": [
-      "<b>Hinchey</b>: I pericolic / mesocolic abscess, II pelvic / distant / retroperitoneal abscess, III purulent peritonitis, IV feculent peritonitis",
-      "Abscess < 3 cm (หรือ phlegmon) → IV antibiotics อย่างเดียว; <b>≥ 3 cm หรือ pelvic</b> → <b>CT / US-guided percutaneous drainage + antibiotics</b> (ASCRS 2020 ใช้ 3 cm; WSES 2020 ใช้ 4–5 cm) เพราะยาซึมเข้าโพรงหนองใหญ่ไม่ดี",
-      "ผ่าตัดฉุกเฉินเฉพาะ generalized peritonitis (Hinchey III–IV), sepsis คุมไม่ได้ หรือ drainage / antibiotic ล้มเหลว: Hinchey III stable → resection + primary anastomosis ± diverting ileostomy หรือ Hartmann; IV / unstable → Hartmann; laparoscopic lavage ไม่ใช่มาตรฐาน",
-      "หลัง abscess: ส่อง <b>colonoscopy 6–8 สัปดาห์</b>ตัดมะเร็ง และพิจารณา <b>elective sigmoidectomy</b> (pelvic abscess ตามด้วย interval colectomy)",
-      "Uncomplicated diverticulitis ใน immunocompetent: อาจไม่ต้อง antibiotic (selective use, ASCRS / WSES 2020)",
-      "<b>Postoperative abscess</b>: POD 5–10+ ไข้ ปวดท้อง ileus WBC สูง → CT with contrast; percutaneous drainage เป็น first-line เมื่อ unilocular, เข้าถึงได้, หนองไม่ข้น, stable; ถอดสายเมื่อ output < 10–20 mL / วัน",
-      "ผ่าตัดเมื่อ: multiloculated, diffuse, หนองข้น / debris, เข้าถึงไม่ได้ / ใกล้อวัยวะสำคัญ, ongoing contamination (anastomotic leak), generalized peritonitis",
-      "Antibiotic คลุม gram-negative + anaerobe ราว <b>4 วัน</b>หลัง source control ที่เพียงพอ (STOP-IT)",
-      "<b>Collection หลัง hepatectomy</b> (subphrenic abscess, infected biloma จากผิวตัดตับ, infected hematoma): stable + เข้าถึงได้ → image-guided percutaneous drainage + antibiotic (WSES 2017); ส่งน้ำ culture + bilirubin — drain bilirubin ≥ 3 เท่าของ serum ตั้งแต่ POD 3 = <b>bile leak (ISGLS 2011)</b>; ERCP stent ใช้เมื่อ leak ไม่หยุดหลังระบายแล้ว; relaparotomy เมื่อ peritonitis / unstable / drain ไม่ได้ผล"
-     ],
-     "pearls": [
-      "เห็น abscess 4 cm แล้วใช้เกณฑ์ 5 cm ของ mesocolic abscess ตอบ antibiotics อย่างเดียว — ผิดเมื่ออยู่ใน pelvis; bank ตอบ drainage ทั้งสองเคส (คีย์เดิมของ MDCU75 RoC ตอบ D แต่ลายมือผู้เฉลยเองเขียน pelvic abscess = NPO + ATB + PCD)",
-      "คิดว่า abscess หลังผ่าต้องผ่าซ้ำเสมอ ผิด percutaneous drainage เป็น first-line",
-      "เคส MDCU77 RoA (POD 5 หลัง gangrenous cholecystitis) ก็ใช้หลัก collection เดียวกัน"
-     ],
-     "members": [
-      "MDCU76|RoA|71",
-      "MDCU75|RoC|16"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"Surgical infection", title:"Surgical infection",
+  intro:"<ul><li>แท็กนี้ใน Subspe เป็น <b>การติดเชื้อรายระบบ</b> ที่ติดแท็กร่วมกับวอร์ดย่อยเสมอ: ทรวงอก (CVT), สมอง (Neuro), ทางเดินปัสสาวะ / STI (Uro), ทวารหนัก / diverticulitis (Colorectal) และผิวหนัง / มือ (Plastic) — หลักที่ร้อยทุกเรื่องคือ <b>มีหนองหรือของเหลวติดเชื้อที่ถูกกักไว้ → ต้องระบาย (source control) ยาอย่างเดียวไม่พอ</b> ยกเว้นก้อนเล็กตามเกณฑ์ขนาด</li><li>MDCU66–69 ออกแบบ <b>ข้อจำซ้ำเกือบคำต่อคำ</b>: เกณฑ์ pleural fluid ของ empyema (ตัวลวง WBC > 10,000 — เกณฑ์คือ 15,000), ข้อบ่งชี้ผ่าตัด lung abscess (ไม่ดีขึ้นหลัง antibiotics 2 สัปดาห์), lung abscess เกิดที่ dependent segment ขวา + postural drainage, mediastinitis ต้อง drainage + debridement, perianal abscess ให้ antibiotics เมื่อไหร่ และ folliculitis จากรูป</li><li>MDCU70–74 เน้น <b>CNS infection</b>: brain abscess 'ข้อใดผิด' (ไข้พบแค่ราวครึ่ง), ยาที่ไม่ผ่าน BBB (aminoglycoside, clindamycin), CSF ของ bacterial meningitis, <b>neurocysticercosis</b> (cyst with dot) และ <b>toxoplasmosis</b> ใน HIV, subdural empyema จาก sinusitis; ร่วมกับ <b>Fournier gangrene</b> (สาเหตุไม่ใช่ anal cancer) และ <b>Hinchey classification</b> (pericolic abscess ทุกขนาด = <b>Hinchey I / Ib</b> — ตาราง '> 4 cm = II' ในคีย์เก่าไม่ใช่ Hinchey)</li><li>MDCU74–79 ขยับไปทาง <b>Uro</b>: obstructed infected kidney → DJ stent / PCN, renal abscess ตามขนาด (3 / 5 cm), emphysematous pyelonephritis / pyelitis / cystitis, ASB และ UTI ในหญิงตั้งครรภ์ (test of cure), gonococcal urethritis (CDC 2021), anogenital warts; และ <b>brain abscess management</b> (ขนาด > 2.5 cm → aspiration), diverticular abscess → percutaneous drainage, IE prophylaxis ก่อนทำฟัน</li><li>คีย์เก่าที่ bank แก้ตาม reference: pericolic abscess 5 cm → Hinchey I(b) (ไม่ใช่ II), diverticular abscess 4 cm → PCD (ไม่ใช่ ATB อย่างเดียว), fight bite → explore + irrigate (ไม่ใช่ splint), CXR หลังซี่โครงหัก → empyema (ไม่ใช่ lung abscess), condyloma ในหญิง → ตรวจภายใน (ไม่ใช่ imiquimod)</li></ul>",
+  groups:[
+    {title:"CNS infection", sections:[
+      {id:"neurocysticercosis",
+       title:"Neurocysticercosis: ชักครั้งแรก + cyst with dot",
+       trend:"ให้รูป CT / MRI ในคนหนุ่มสาวชักครั้งแรก — คำตอบเดิมเกือบทุกรุ่น",
+       asked:["ชักครั้งแรก CT / MRI หลาย cyst เล็กมีจุดเยื้องศูนย์ ± calcification → <b>neurocysticercosis</b> (ตัวลวง brain abscess, metastasis, tuberculoma, toxoplasmosis, GBM) — ออกซ้ำหลายรุ่น","เกษตรกร / คนเลี้ยงหมูชัก cyst with dot → เชื้อ = <b>Taenia solium</b> (ตัวลวง S. aureus, M. tuberculosis, Toxoplasma, Cryptococcus)","เด็กหญิง 12 ปีชักครั้งแรก มีทั้ง ring / focal enhancing lesions และ cyst ใน parenchyma + ventricle → neurocysticercosis","MRI 'starry sky' หลาย cyst เล็ก + ชัก → neurocysticercosis"],
+       pattern:["เกิดจาก <b>ตัวอ่อน Taenia solium</b> (กินไข่ที่ปนเปื้อนอุจจาระคนที่มีพยาธิตืดหมู) — สาเหตุสำคัญของ <b>acquired epilepsy</b> ในประเทศกำลังพัฒนา; <b>ชักเป็นอาการที่พบบ่อยที่สุด</b>","ระยะบนภาพ: <b>vesicular</b> (cyst + scolex = <b>'cyst with dot' pathognomonic</b>) → colloidal (ring enhancement + edema) → granular nodular → <b>calcified</b>","รักษา (<b>IDSA / ASTMH 2017</b>): antiepileptic drug + cyst ที่ยังมีชีวิต → <b>albendazole</b> (± praziquantel เมื่อ > 2 cyst) + <b>corticosteroid</b>; calcified lesion → ไม่ให้ยาฆ่าพยาธิ ให้แค่ AED; intraventricular cyst → neuroendoscopic removal; hydrocephalus → shunt"],
+       pearls:["หลาย cyst ไม่ใช่ metastasis หรือ abscess — scolex (dot) คือตัวตัดสิน","Pyogenic abscess ให้ ring enhancement + DWI restriction ไม่มี scolex"],
+       members:["MDCU78|RoC|5","MDCU76|RoC|Neuro 1","MDCU75|RoD|Neuro 1","MDCU74|RoC|13@p2","MDCU74|RoD|25","MDCU73|RoB|Neuro 7","MDCU70|RoC|25","MDCU72|RoB|14"]},
+      {id:"brain-abscess-organism",
+       title:"Brain abscess: เชื้อและตำแหน่งตามแหล่งต้นทาง",
+       trend:"ให้แหล่งติดเชื้อ (ฟันผุ, หูน้ำหนวก, หลังผ่าตัดกะโหลก) แล้วถามเชื้อหรือถามการตรวจหาต้นเหตุ",
+       asked:["เชื้อคู่ที่พบบ่อยที่สุดจาก brain abscess → <b>S. aureus + Streptococcus spp.</b>","ไข้ ปวดหัว CT ring lesion + ฟันผุหลายซี่ → เชื้อพบบ่อยสุด = <b>Streptococci</b> (ตัวลวง Fusobacterium, Nocardia, Toxoplasma)","เด็ก 3 ขวบ ไข้ ซึม มีประวัติ otitis media → <b>Streptococcus</b> (ตัวลวง Candida, Nocardia)","3 สัปดาห์หลัง craniotomy จาก depressed skull fracture มี abscess ใต้ bone flap → <b>S. aureus</b>","chronic otitis media + headache ไข้ focal deficit + ring-enhancing lesion ที่ temporal lobe → <b>brain abscess</b> (ตัวลวง GBM, metastasis, tuberculoma)","temporal lobe abscess ไม่มีอ่อนแรง ตรวจอะไรให้ข้อมูลมากสุด → <b>otoscopic examination</b>"],
+       pattern:["<b>Sinusitis / ฟัน</b> → <b>frontal lobe</b>; เชื้อ <b>Streptococcus</b> (viridans, S. anginosus / milleri group) + anaerobes","<b>Otitis media / mastoiditis</b> → <b>temporal lobe หรือ cerebellum</b>; strep + anaerobes + Enterobacteriaceae (Proteus) ± Pseudomonas → ตรวจหูด้วย otoscope","<b>หลัง penetrating trauma / neurosurgery</b> → <b>S. aureus</b> (± CoNS, gram-negative)","<b>Hematogenous</b> (IE, lung abscess, cyanotic CHD) → หลายก้อน แนว MCA territory ที่ grey–white junction; ภูมิต่ำ → Toxoplasma, Nocardia, Listeria, เชื้อรา","โดยรวม: <b>Streptococci พบบ่อยที่สุด</b> ตามด้วย S. aureus; empirical (<b>ESCMID 2024</b>) community-acquired = <b>3rd-gen cephalosporin (ceftriaxone / cefotaxime) + metronidazole</b> · หลัง neurosurgery = <b>carbapenem + vancomycin หรือ linezolid</b>"],
+       pearls:["S. pneumoniae = เชื้อของ meningitis — เชื้อเด่นของ abscess คือ strep กลุ่ม viridans / milleri (คีย์ MDCU79 RoD เขียน S. aureus + S. pneumoniae แต่ bank แก้ช้อยเป็น Streptococcus species)","ฟันผุแล้วตอบ anaerobe อย่างเดียวผิด — strep ยังเป็นเชื้อเด่น"],
+       members:["MDCU79|RoD|Neuro 14","MDCU77|RoA|Neuro 4","MDCU77|RoB|Ped 4","MDCU74|RoD|32","MDCU76|RoA|15","MDCU73|RoB|Neuro 3"]},
+      {id:"cns-antibiotic",
+       title:"ยาที่ผ่าน blood–brain barrier ไม่ได้: aminoglycoside, clindamycin",
+       trend:"ข้อจำที่ออกซ้ำเกือบทุกรุ่น MDCU70–76 — คำตอบส่วนใหญ่คือ aminoglycoside / gentamicin",
+       asked:["ยาใดผ่าน BBB ไม่พอ ไม่ใช้รักษา CNS infection → <b>aminoglycoside</b> (ช้อยที่ใช้ได้ penicillin, vancomycin, fosfomycin, chloramphenicol, ampicillin, amoxicillin, ceftriaxone) — ออกซ้ำหลายรอบ","ไข้ stiff neck CSF WBC สูง glucose ต่ำ protein สูง ยาใดใช้ไม่ได้ → <b>gentamicin</b> — ออกซ้ำ","bacterial brain abscess ยาใดไม่ควรใช้เพราะเข้า CNS ไม่ดี → <b>clindamycin</b> (ใช้ได้ penicillin G, cefotaxime, ceftriaxone, vancomycin)"],
+       pattern:["<b>ผ่านได้ดีแม้ meninges ปกติ</b>: chloramphenicol, metronidazole, TMP-SMX, rifampicin, fosfomycin","<b>ผ่านได้เมื่อ meninges อักเสบ</b>: penicillin G, ampicillin / amoxicillin, 3rd-gen cephalosporin (ceftriaxone, cefotaxime), vancomycin, meropenem","<b>ผ่านไม่ดีแม้มีการอักเสบ</b> → ไม่ใช้เป็นยาหลัก: <b>aminoglycosides (gentamicin)</b>, <b>clindamycin</b>, 1st-gen cephalosporin (cefazolin), erythromycin, tetracycline","Bacterial meningitis ผู้ใหญ่ (empirical): <b>ceftriaxone / cefotaxime + vancomycin</b> (+ ampicillin เมื่อเสี่ยง Listeria เช่น อายุ > 50 ปี, ภูมิต่ำ); brain abscess ใช้ <b>metronidazole</b> คลุม anaerobe (ไม่ใช่ clindamycin)"],
+       pearls:["Vancomycin ผ่านได้น้อยเมื่อ meninges ปกติ แต่ยังใช้รักษา meningitis ได้ — ไม่ใช่คำตอบ","Clindamycin คลุม anaerobe ก็จริงแต่เข้า CNS ไม่ดี"],
+       members:["MDCU76|RoC|Neuro 2","MDCU75|RoC|Neuro 1","MDCU74|RoA|56","MDCU73|RoB|Neuro 1","MDCU70|RoC|24","MDCU72|RoD|ไม่มีเลข 6"]},
+      {id:"bacterial-meningitis",
+       title:"Bacterial meningitis: CSF profile, Gram stain และ meningitis หลัง basilar skull fracture",
+       trend:"ให้ค่า CSF หลายชุดแล้วเลือกชุดที่เป็น bacterial — จุดชี้ขาดคือ glucose ต่ำ",
+       asked:["CSF ค่าใดเข้ากับ bacterial meningitis มากที่สุด → <b>glucose ต่ำมาก</b> (ตัวลวง protein 4 mg/dL, neutrophil 50%, WBC 5, opening pressure 10 cmH₂O) — ออกซ้ำ","CSF profile ชุดใดเป็น bacterial → <b>RBC 10,000, WBC 500, glucose 40</b> (ตัวลวง WBC สูงแต่ glucose 60, WBC ต่ำ) — ออกซ้ำ","นักศึกษา 19 ปี ไข้ ปวดหัว stiff neck ผื่น purpura CSF Gram stain = intracellular <b>gram-negative diplococci</b> → <b>meningococcal meningitis</b>","head trauma 3 สัปดาห์ก่อน มี Battle sign + stiff neck ไข้ มีน้ำใน mastoid air cells เล็กน้อย → <b>meningitis</b> (ตัวลวง mastoiditis, cerebritis, encephalitis)"],
+       pattern:["CSF bacterial: <b>glucose ต่ำ</b> (< 40 mg/dL หรือ CSF / serum ratio ≤ 0.4) · <b>protein สูง</b> (> 100–200 mg/dL) · <b>WBC สูง</b> (หลักร้อย–พัน, <b>neutrophil เด่น</b>) · <b>opening pressure สูง</b> · ขุ่น","Viral: lymphocyte เด่น glucose ปกติ · TB / fungal: lymphocyte เด่น glucose ต่ำ protein สูงมาก","<b>Gram stain</b>: GN diplococci = <b>Neisseria meningitidis</b> (ผื่น petechiae / purpura, purpura fulminans, Waterhouse-Friderichsen; วัยรุ่นอยู่รวมกัน, ขาด C5–C9, ไม่มีม้าม) · GP diplococci = pneumococcus · GN coccobacilli = H. influenzae · GP rods = Listeria · encapsulated yeast (India ink) = Cryptococcus","<b>Basilar skull fracture</b> (Battle sign, raccoon eyes, CSF otorrhea / rhinorrhea) → dura ฉีก → <b>post-traumatic bacterial meningitis</b> (มัก pneumococcus) ได้หลายวัน–สัปดาห์หลังบาดเจ็บ"],
+       pearls:["ค่า WBC สูงแต่ glucose ปกติ = viral หรือ traumatic tap ไม่ใช่ bacterial","สับสน gram-negative (meningococcus) กับ gram-positive (pneumococcus) diplococci"],
+       members:["MDCU76|RoC|Neuro 5","MDCU71|RoA|ไม่มีเลข 5","MDCU71|RoB|ไม่มีเลข 10","MDCU72|RoB|12","MDCU79|RoC|neuro 4","MDCU74|RoA|51"]},
+      {id:"hiv-cns",
+       title:"CNS infection ใน HIV: cerebral toxoplasmosis และ cryptococcal meningitis",
+       trend:"ให้ HIV / ภูมิต่ำ + ring lesions หลายก้อนที่ basal ganglia → toxoplasmosis; ไม่มี focal deficit + CT ปกติ → cryptococcus",
+       asked:["HIV CD4 40 ซึม อ่อนแรงซีกซ้าย aphasia 2 สัปดาห์ ไม่มี stiff neck + รูป contrast imaging → <b>cerebral toxoplasmosis</b> (ตัวลวง PML, cryptococcal, PCNSL, CMV)","HIV CD4 50 + DM ไข้ ปวดหัว อ่อนแรงขวา MRI multiple ring-enhancing lesions ที่ basal ganglia / corticomedullary junction Toxo IgG บวก → toxoplasmosis","ผู้ป่วย DM + HIV / immunocompromised มี ring lesions หลายก้อนที่ basal ganglia → toxoplasmosis (ตัวลวง meningioma, GBM, NCC, metastasis) — ออกซ้ำ","DM + HIV ปวดหัว 3 สัปดาห์ ซึม 4 วัน แขนขาขวา 4/5 → toxoplasmosis","HIV CD4 < 100 ไข้ ปวดหัว 2 สัปดาห์ stiff neck เล็กน้อย ไม่มี focal deficit CT ปกติ → <b>Cryptococcus neoformans</b>"],
+       pattern:["<b>Cerebral toxoplasmosis</b> = CNS mass lesion ที่พบบ่อยที่สุดใน AIDS (<b>CD4 < 100</b>, Toxo IgG บวก): <b>หลาย ring-enhancing lesions + edema ที่ basal ganglia / thalamus / grey–white junction</b> (eccentric target sign) → รักษา empirical <b>pyrimethamine + sulfadiazine + leucovorin</b> (ทางเลือก TMP-SMX) แล้วประเมินภาพ ~10–14 วัน; ไม่ยุบ → biopsy หา <b>primary CNS lymphoma</b> (มักก้อนเดียว periventricular)","Prophylaxis: TMP-SMX เมื่อ CD4 < 100 และ Toxo IgG บวก","<b>Cryptococcal meningitis</b> = CNS opportunistic infection ที่พบบ่อยในผู้ป่วย HIV ไทย (CD4 < 100): ปวดหัว + ไข้แบบ subacute, meningism น้อย, <b>CT มักปกติ</b>, <b>opening pressure สูงมาก</b> → CSF / serum CrAg, India ink → induction amphotericin B + flucytosine (<b>WHO 2022</b>: liposomal amphotericin B 10 mg/kg ครั้งเดียว + flucytosine + fluconazole 14 วัน) แล้ว fluconazole, <b>therapeutic LP ซ้ำ</b> เพื่อลด ICP, เริ่ม ART หลัง ~4–6 สัปดาห์","แยก: focal deficit + ring lesions → toxo · ไม่มี focal + CT ปกติ → crypto · ก้อนเดียวไม่ตอบยา → lymphoma · white matter ไม่ enhance → PML"],
+       pearls:["DM คุมไม่ดีอย่างเดียว (ไม่มี HIV) ทำให้คิดถึง bacterial abscess หรือ mucormycosis มากกว่า — แต่โจทย์ที่ใส่ 'immunocompromised' + basal ganglia หลายก้อน ตอบ toxoplasmosis"],
+       members:["MDCU79|RoD|Neuro 1","MDCU74|RoD|31","MDCU70|RoC|22","MDCU70|RoC|72","MDCU71|RoA|25","MDCU78|RoD|23"]},
+      {id:"brain-abscess-facts",
+       title:"Brain abscess: ข้อใดผิด (ไข้พบแค่ราวครึ่ง) และปัจจัยเสี่ยง",
+       trend:"'ข้อใดผิด / NOT true' เกี่ยวกับ brain abscess — คำตอบเดิมทุกครั้งคือ 'ผู้ป่วยส่วนใหญ่มีไข้'",
+       asked:["ข้อใดผิด → <b>most patients are febrile / fever is usually present</b> (ข้อที่ถูก: headache พบบ่อยที่สุด, R→L cardiac shunt / cyanotic heart disease, chronic otitis media, sinusitis, skull fracture เพิ่มความเสี่ยง, contrast MRI เห็น ring enhancement, aspiration + antibiotics เป็นการรักษาหลัก) — ออกซ้ำหลายรอบ"],
+       pattern:["อาการ: <b>headache พบบ่อยที่สุด</b> (~70%) · <b>ไข้พบเพียง ~50%</b> · triad ไข้ + ปวดหัว + focal deficit พบน้อย (~20%) · ชัก, ซึม, คลื่นไส้อาเจียนจาก ICP สูง","ปัจจัยเสี่ยง / route: <b>contiguous</b> (sinusitis, otitis media / mastoiditis, ฟัน) · <b>hematogenous</b> (IE, lung abscess, bronchiectasis, <b>cyanotic CHD / R→L shunt</b> ที่เลือดไม่ผ่านปอดกรองเชื้อ) · <b>direct inoculation</b> (penetrating trauma, skull fracture, หลังผ่าตัดสมอง) · ภูมิคุ้มกันต่ำ"],
+       pearls:["ไม่มีไข้ไม่ได้ตัด brain abscess ออก — ดู ring-enhancing lesion + แหล่งติดเชื้อ"],
+       members:["MDCU74|RoA|ไม่มีเลข 1@p3~2","MDCU74|RoD|29","MDCU70|RoB|ไม่มีเลข 7","MDCU70|RoC|23"]},
+      {id:"brain-abscess-imaging",
+       title:"Brain abscess: imaging ที่เหมาะสม และห้าม lumbar puncture",
+       asked:["ใน brain abscess สิ่งใด contraindicated → <b>lumbar puncture</b> (ทำได้: contrast CT, hemoculture, echocardiogram) — ออกซ้ำ","COM + ปวดหัว ไข้ อ่อนแรงซีกซ้าย 5 วัน สงสัย brain abscess → <b>contrast MRI with DWI</b> (ตัวลวง LP, skull x-ray, EEG, angiography)","ไม่ถึงเดือนหลังผ่าตัด skull fracture มีไข้ปวดหัว สงสัย abscess / subdural empyema → <b>CT brain with contrast</b> (ตัวลวง MRI <b>without</b> contrast, LP)"],
+       pattern:["<b>Investigation of choice = MRI with gadolinium + DWI</b>: ring enhancement ผนังบางเรียบ + <b>restricted diffusion ในโพรง</b> (หนอง) — แยกจาก necrotic tumor / metastasis ที่ไม่ restrict","ไม่มี MRI / ฉุกเฉิน → <b>CT with contrast</b> (ring-enhancing lesion, extra-axial collection ขอบ enhance)","<b>ห้าม LP</b>: เป็น space-occupying lesion + ICP สูง → เสี่ยง herniation และผล CSF ไม่ช่วยวินิจฉัย","ส่งเพิ่ม: hemoculture, echocardiography (หา IE), ตรวจหู / sinus / ฟัน หาต้นเหตุ"],
+       pearls:["ช้อย MRI 'without contrast' เป็นกับดัก — ไม่เห็น ring enhancement จึงด้อยกว่า CT with contrast"],
+       members:["MDCU78|RoB|48","MDCU79|RoD|Neuro 8","MDCU66|RoD|1","MDCU66|RoD|13"]},
+      {id:"brain-abscess-management",
+       title:"Brain abscess: aspiration + IV antibiotics หรือยาอย่างเดียว (ตัดสินที่ขนาดและ mass effect)",
+       trend:"ให้รูป / ขนาดก้อนแล้วถาม management — ขนาดและ mass effect คือตัวตัดสิน",
+       asked:["ไข้ ปวดหัว อ่อนแรงครึ่งซีก 2 สัปดาห์ CT ring-enhancing 4 cm → <b>stereotactic aspiration + IV antibiotics</b> (ตัวลวง observe, oral ATB, IV ATB alone, WBRT)","เด็ก 1 ขวบ เคยรักษา meningitis กลับมาไข้ ซึม CT เป็น abscess → <b>IV antibiotics + surgical drainage</b> (ตัวลวง IV ATB alone, LP ซ้ำ, VP shunt)","lung abscess แล้วมี brain abscess หลายก้อนขนาด 0.3–1 cm ไม่มี mass effect → <b>IV antibiotics alone</b> (ตัวลวง burr-hole aspiration, craniotomy, LP, oral ATB 2 สัปดาห์)"],
+       pattern:["<b>ระบาย (stereotactic / burr-hole aspiration หรือ excision) + IV antibiotics</b> เมื่อ: ก้อน <b>> 2.5 cm</b>, มี <b>mass effect</b> / herniation / ซึมลง, ใกล้ ventricle (เสี่ยงแตกเข้า ventricle), ไม่ตอบสนองต่อยา หรือยังไม่รู้เชื้อ — <b>ESCMID 2024</b> แนะนำ aspirate หรือ excise ทุกครั้งที่ทำได้เพื่อได้หนองไปเพาะเชื้อ","<b>ยาอย่างเดียว</b> ได้เมื่อ: ก้อนเล็ก (< 2.5 cm), ระยะ cerebritis, หลายก้อนเล็กหรืออยู่ลึก / eloquent area และรู้เชื้อจากแหล่งอื่นแล้ว → ติดตาม CT / MRI ซ้ำ","Empirical (<b>ESCMID 2024</b>): <b>ceftriaxone / cefotaxime + metronidazole</b> (หลัง neurosurgery → carbapenem + vancomycin / linezolid); ถ้าผ่าตัดได้ภายใน ~24 ชม. เลื่อนยาไปหลังเจาะหนองได้; รวมรักษา <b>6–8 สัปดาห์</b> — ESCMID 2024 ไม่ให้คำแนะนำเรื่องเปลี่ยนเป็นยากินเร็ว","ทารกหลัง meningitis: เกิดได้ทั้ง brain abscess (Citrobacter, Proteus) และ subdural empyema — ก้อนใหญ่ต้องระบาย"],
+       pearls:["เห็นว่าเป็น 'infection' แล้วตอบ IV antibiotics alone ทั้งที่ก้อน 4 cm มี mass effect","ก้อนเล็กหลายก้อนไม่ต้องเจาะทุกก้อน","Stem MDCU79 RoC แต่งจากรูป — ถ้าโจทย์จริงให้ก้อนเล็ก / หลายก้อน คำตอบจะเป็น IV antibiotics"],
+       members:["MDCU79|RoC|neuro 1","MDCU77|RoA|Neuro 5","MDCU77|RoC|Neuro 7"]},
+      {id:"subdural-empyema",
+       title:"Subdural empyema จาก sinusitis",
+       asked:["frontal sinusitis + ไข้ ปวดหัว ชัก contrast MRI มี crescentic rim-enhancing collection ตาม convexity → <b>subdural empyema</b> (ตัวลวง EDH, chronic SDH, meningioma, brain abscess)","ชาย 18 ปี ไข้ ชัก อ่อนแรง + รูป CT → subdural empyema (ตัวลวง epidural empyema)","ไข้ + sinusitis + รูป contrast MRI → subdural empyema"],
+       pattern:["หนองใน subdural space มักแทรกซ้อนจาก <b>frontal sinusitis</b> (หรือ otitis, หลังผ่าตัด / trauma) → ไข้ ปวดหัว ชัก focal deficit ลุกลามเร็ว","ภาพ: <b>crescentic</b> extra-axial collection ตามผิวสมอง ขอบ enhance, <b>ข้าม suture ได้</b> (ไหลตาม falx ได้), DWI restricted · <b>epidural empyema</b> = lentiform / biconvex ไม่ข้าม suture","<b>Neurosurgical emergency</b> → craniotomy (หรือ burr hole) ระบายหนอง + IV antibiotics + รักษา sinus ต้นเหตุ"],
+       members:["MDCU73|RoD|Neuro 3","MDCU72|RoA|24","MDCU72|RoB|15"]},
+      {id:"cns-defense",
+       title:"กลไกป้องกันการติดเชื้อหลักของ CNS = anatomical barrier",
+       asked:["กลไกป้องกันการติดเชื้อหลักของระบบประสาทส่วนกลาง → <b>anatomical barriers</b> (ตัวลวง complement, neutrophil, macrophage, IgA ใน CSF, lymph node ในสมอง) — ออกซ้ำ"],
+       pattern:["ด่านหลัก = <b>anatomical barrier</b>: ผิวหนัง, กะโหลก / กระดูกสันหลัง, meninges (dura), <b>blood–brain barrier</b> และ blood–CSF barrier","ภายใน CNS ภูมิคุ้มกันน้อย (complement, immunoglobulin, เม็ดเลือดขาวใน CSF ต่ำ — immunologically privileged) จึงเป็นกลไกรอง และเมื่อติดเชื้อแล้วลุกลามรุนแรง"],
+       members:["MDCU75|RoD|Neuro 2","MDCU69|RoC|6"]},
+      {id:"spondylodiscitis",
+       title:"Pyogenic spondylodiscitis: เชื้อพบบ่อยที่สุด",
+       asked:["ปวดหลัง + ไข้ MRI pyogenic spondylodiscitis → เชื้อพบบ่อยที่สุด = <b>Staphylococcus aureus</b> (ตัวลวง S. pneumoniae, E. coli, H. influenzae type A / B) — ออกซ้ำ"],
+       pattern:["<b>S. aureus</b> (รวม MRSA) = สาเหตุพบบ่อยที่สุดของ pyogenic vertebral osteomyelitis / discitis (hematogenous) · gram-negative (E. coli) จาก UTI ในผู้สูงอายุ · Pseudomonas ใน IVDU","MRI = investigation of choice; blood culture + CT-guided biopsy ก่อนให้ยาถ้าผู้ป่วย stable (IDSA 2015)","TB (Pott disease) = non-pyogenic: thoracic, หลายระดับ / skip lesion, paravertebral abscess ใหญ่ disc ค่อนข้างคงอยู่"],
+       members:["MDCU73|RoB|Neuro 8","MDCU72|RoC|ไม่มีเลข 13"]}
+    ]},
+    {title:"Urinary tract infection", sections:[
+      {id:"emphysematous-uti",
+       title:"Emphysematous pyelonephritis / pyelitis / cystitis ในเบาหวาน",
+       trend:"ให้ CT ที่มีแก๊สในผู้ป่วยเบาหวาน แล้วให้บอกตำแหน่งแก๊ส → ชื่อโรค",
+       asked:["หญิง 58 ปี DM ไข้สูง flank pain CT แก๊สใน <b>renal parenchyma</b> → <b>emphysematous pyelonephritis</b>","DM ไข้ flank pain sepsis CT แก๊สใน parenchyma + crescent ใน perinephric space → EPN","หญิง 65 ปี DM คุมไม่ได้ + รูป CT แก๊สอยู่ใน calyces ที่ขยาย ไม่เข้าเนื้อไต → <b>emphysematous pyelitis</b>","หญิงสูงอายุ DM dysuria ปวดท้องน้อย CT แก๊สเป็นเม็ดเรียงในผนัง bladder → <b>emphysematous cystitis</b>","สงสัย emphysematous cystitis — finding บน cross-sectional imaging → <b>air within the bladder wall</b> (beaded necklace = plain film)","ชาย 70 ปี HIV ยังไม่ได้ ART มี emphysematous cystitis → next step = <b>UA + urine culture</b> (ตัวลวง CD4, CT ซ้ำ, bladder irrigation)"],
+       pattern:["เกิดจากเชื้อ (<b>E. coli</b> ~70%, Klebsiella) หมัก glucose ในเนื้อเยื่อเป็นแก๊ส — <b>เบาหวานคุมไม่ดี</b> (~90–95%) ± การอุดตัน; CT = investigation of choice","<b>Huang–Tseng classification</b>: class 1 แก๊สใน collecting system (= <b>emphysematous pyelitis</b>) · class 2 แก๊สในเนื้อไต · 3A ลามเข้า perinephric · 3B pararenal · 4 ทั้งสองข้างหรือ solitary kidney","รักษา EPN: IV antibiotics + คุมน้ำตาล + แก้การอุดตัน + <b>percutaneous drainage</b> (class 2–3); <b>nephrectomy</b> เมื่อ PCD ล้มเหลวหรือรุนแรงมาก (shock, AKI, thrombocytopenia, ซึม) · <b>emphysematous pyelitis</b> พยากรณ์ดีกว่า: ATB + ระบายการอุดตัน (DJ / PCN)","<b>Emphysematous cystitis</b>: CT = แก๊สใน<b>ผนัง</b> bladder ± lumen; plain film = วงแก๊ส 'beaded necklace / cobblestone' รอบ bladder → ส่ง <b>UA + urine culture</b> แล้ว IV antibiotics + <b>bladder drainage (Foley)</b> + คุมน้ำตาล — ส่วนใหญ่ไม่ต้องผ่าตัด"],
+       pearls:["แยกตำแหน่งแก๊ส: parenchyma = pyelonephritis · collecting system = pyelitis · ผนัง bladder = cystitis","'Beaded necklace' ก็ถูกสำหรับ plain film แต่โจทย์ถาม cross-sectional imaging → air within bladder wall","แก๊สใน lumen อย่างเดียวอาจมาจาก fistula / instrumentation ไม่ใช่ emphysematous cystitis"],
+       members:["MDCU79|RoD|Uro 10","MDCU74|RoD|33","MDCU78|RoD|83","MDCU76|RoC|Uro 3","MDCU75|RoC|Uro 2","MDCU75|RoD|CVT 6"]},
+      {id:"renal-abscess",
+       title:"Renal abscess: รักษาตามขนาด (< 3 · 3–5 · > 5 cm) และ route ของเชื้อ",
+       trend:"ให้ขนาดฝีไตแล้วถาม initial management — จำเกณฑ์ 3 และ 5 cm",
+       asked:["หญิง 45 ปี ไข้ flank pain CT renal abscess <b>3.5 cm / 4 cm</b> stable → initial = <b>IV antibiotics</b> (ตัวลวง PCD, nephrectomy, open drainage, oral ATB) — ออกซ้ำ","ไข้ หนาวสั่น ไม่ดีขึ้นหลัง IV ATB หลายวัน CT renal abscess <b>6 cm</b> → <b>percutaneous drainage</b> (ตัวลวง open drainage, IV ATB ต่อ, nephrectomy, ureteral stent)","ไข้ dysuria microscopic hematuria CT renal abscess 6 cm → <b>percutaneous drainage + IV antibiotics</b>","renal abscess ข้างขวาติดกับ ascending colon ที่ติดเชื้อรุนแรง → เชื้อลามทาง <b>lymphatic</b> (ตัวลวง direct contamination, hematogenous)","IVDU ไข้ flank pain เชื้อเข้าไตทางกระแสเลือด → <b>Staphylococcus aureus</b> (ตัวลวง E. coli, Klebsiella, Proteus)"],
+       pattern:["<b>ตามขนาด (สไลด์ UTI & STD และ Campbell-Walsh-Wein)</b>: <b>< 3 cm → IV antibiotics</b> · <b>3–5 cm → IV antibiotics</b> แล้วประเมิน 48–72 ชม. (drain ถ้าไม่ดีขึ้น / ภูมิต่ำ) · <b>> 5 cm หรือไม่ตอบสนองต่อยา → percutaneous drainage (US / CT-guided) + IV antibiotics</b> · PCD ล้มเหลว / หลายช่อง / ไตเสีย → open drainage หรือ nephrectomy","Route ของ UTI (<b>Campbell-Walsh-Wein</b>): <b>ascending</b> (พบบ่อยที่สุด; E. coli) · <b>hematogenous</b> (พบน้อย; <b>S. aureus</b> จาก bacteremia เช่น IVDU, ฝีผิวหนัง → renal cortical abscess / carbuncle) · <b>lymphatic</b> (พบน้อยมาก; ลามจากอวัยวะข้างเคียง เช่น ลำไส้ติดเชื้อรุนแรง, retroperitoneal abscess)"],
+       pearls:["เห็นคำว่า abscess แล้วตอบ drain ทันที — 3–5 cm ใน stable patient เริ่มด้วย IV antibiotics","PCN (nephrostomy) ระบาย collecting system ที่อุดตัน — renal abscess ต้อง percutaneous abscess drainage","Direct contamination ฟังดูถูกตามสามัญสำนึก แต่ตำราจัดการลามจากอวัยวะข้างเคียงไว้ใต้ lymphatic route","IVDU + hematogenous → S. aureus ไม่ใช่ E. coli (ผู้เฉลยคนแรกตอบ E. coli)"],
+       members:["MDCU78|RoB|21","MDCU75|RoC|Uro 3","MDCU78|RoD|82","MDCU77|RoA|Uro 12","MDCU76|RoD|12","MDCU76|RoD|51"]},
+      {id:"obstructed-infected-kidney",
+       title:"Obstructed infected kidney / pyonephrosis → urgent decompression (DJ stent หรือ PCN)",
+       trend:"ให้นิ่ว + ไข้ แล้วถาม next step — ตัวตัดสินคือมี hydronephrosis (อุดตัน) หรือไม่",
+       asked:["หญิง 40 ปี flank pain ไข้ 39 °C หนาวสั่น CVA tenderness pyuria นิ่ว proximal ureter 7 mm + hydronephrosis นอกจาก IV ATB → <b>urgent DJ stent</b> (ตัวลวง ESWL, emergency URS, oral ATB OPD, tamsulosin MET)","ชาย 48 ปี flank pain ไข้ 38.5 °C nitrite บวก Cr 2.1 นิ่ว 8 mm mild hydronephrosis → <b>urgent decompression ด้วย ureteric stent หรือ PCN</b>","ไข้ 39 °C CVA tenderness นิ่ว ureter 5 mm + hydronephrosis → <b>DJ stent</b> (ตัวลวง ATB แล้วรอนิ่วหลุดเอง)","ปวดร้าวไปหลัง + ไข้ นิ่ว 5 mm ใน renal pelvis <b>ไม่มี hydronephrosis</b> → <b>antibiotics + hydration</b> (ตัวลวง ESWL, DJ stent, PCNL)","ความต่าง infected hydronephrosis กับ pyonephrosis → <b>pyonephrosis มี parenchymal destruction และสูญเสียการทำงานของไต</b>","พระอายุ 24 ปี ไข้เป็น ๆ หาย ๆ ปวดเอวขวา dysuria hydronephrosis ขวา UA WBC 30–50 → เลือกยา = <b>gentamicin</b> (complicated UTI; ตัวลวง penicillin, meropenem, metronidazole, co-trimoxazole)"],
+       pattern:["<b>อุดตัน + ติดเชื้อ = urologic emergency</b> → <b>urgent decompression</b> ด้วย retrograde <b>DJ ureteric stent</b> หรือ <b>percutaneous nephrostomy (PCN)</b> — ได้ผลเท่ากัน (<b>EAU 2025</b>) + IV antibiotics; เก็บ urine (รวมปัสสาวะเหนือจุดอุดตัน) และ blood culture","<b>ห้ามรักษานิ่วโดยตรง</b> (ESWL, URS, PCNL) ขณะติดเชื้อ — เลื่อนจนการติดเชื้อหาย (แตก / ขยับนิ่วปล่อยเชื้อและ endotoxin เข้ากระแสเลือด)","ข้อบ่งชี้ intervene ด่วนอื่นในนิ่ว: AKI, solitary kidney, bilateral obstruction, ปวดคุมไม่ได้","<b>ไม่มีการอุดตัน</b> (ไม่มี hydronephrosis) → รักษาแบบ acute pyelonephritis: culture + antibiotics + hydration; ไข้ไม่ลงใน 48–72 ชม. → imaging ซ้ำหา obstruction / abscess","<b>Infected hydronephrosis</b> = ไตบวมน้ำที่ติดเชื้อ ยังไม่เสีย parenchyma · <b>pyonephrosis</b> = suppurative destruction ของเนื้อไต + หนองใน collecting system → สูญเสียการทำงาน; รักษาเหมือนกัน: IV antibiotics + drainage (PCN / DJ)","Complicated UTI empirical (<b>EAU 2025</b>): amoxicillin + aminoglycoside, 2nd-gen cephalosporin + aminoglycoside หรือ IV 3rd-gen cephalosporin — carbapenem สำรองสำหรับ ESBL"],
+       pearls:["นิ่วเล็ก 5 mm ที่หลุดเองได้ก็ตาม — ไข้ + อุดตันเปลี่ยนการจัดการทันที: decompress ก่อนเสมอ","เห็นไข้ + นิ่วแล้วใส่ stent ทุกราย — ไม่มี hydronephrosis ให้ยา","เคส gentamicin: complicated UTI ที่มี hydronephrosis ต้องระบายด้วย ไม่ใช่แค่เลือกยา","Stem MDCU79 RoC URO 5 แต่งเติมไข้ — ถ้าไม่มีติดเชื้อ นิ่วเล็กจะตอบ MET / ESWL"],
+       members:["MDCU79|RoC|URO 5","MDCU79|RoC|URO 8","MDCU79|RoD|Uro 5","MDCU79|RoD|Uro 14","MDCU74|RoA|ไม่มีเลข 6","MDCU66|RoC|10"]},
+      {id:"asb-pregnancy",
+       title:"Asymptomatic bacteriuria และ UTI ในหญิงตั้งครรภ์: รักษาเสมอ แล้วทำ test of cure",
+       trend:"MDCU77–79 ถามลำดับหลังรักษา: หายแล้ว → culture ซ้ำ; culture ยังบวก → ยาอีกคอร์ส / US KUB",
+       asked:["หญิงไม่มีอาการ ตรวจปัสสาวะ WBC 10–20 culture 10⁵ CFU/mL → <b>asymptomatic bacteriuria</b> (ตัวลวง UTI, pyuria, contaminated)","ตั้งครรภ์ 18–20 สัปดาห์ cystitis E. coli รักษา nitrofurantoin ครบ ไม่มีอาการแล้ว → <b>repeat urine culture</b> (test of cure) (ตัวลวง observe, ยาจนคลอด, US, cipro) — ออกซ้ำ","ตั้งครรภ์ ASB รักษา 7 วันแล้ว culture ซ้ำยังบวก → <b>ให้ยากินอีกคอร์ส</b> (ตัวลวง IV ATB, US, ไม่รักษา, cystoscopy)","ตั้งครรภ์ ASB รักษาแล้ว culture ซ้ำพบเชื้อเดิม → investigation = <b>renal ultrasound</b> (ตัวลวง cystoscopy, CTU, VCUG, culture ซ้ำ)"],
+       pattern:["<b>ASB</b> = bacteria ≥ 10⁵ CFU/mL โดยไม่มีอาการ (หญิง 2 ตัวอย่างติดกัน, ชาย 1 ตัวอย่าง); pyuria ร่วมได้ไม่เปลี่ยนการวินิจฉัย","<b>IDSA 2019</b>: screen และรักษา ASB เฉพาะ <b>หญิงตั้งครรภ์</b> และก่อนหัตถการทางเดินปัสสาวะที่ทำให้เยื่อบุเลือดออก (เช่น TURP) — คนทั่วไป ผู้สูงอายุ เบาหวาน ใส่สาย ไม่ต้องรักษา","ในครรภ์: progesterone + มดลูกกด ureter → stasis; ASB ไม่รักษาลุกลามเป็น pyelonephritis ได้ ~20–35% (preterm birth, LBW, sepsis) → รักษาตาม sensitivity (nitrofurantoin, cephalexin, amoxicillin-clavulanate, fosfomycin; เลี่ยง FQ) แล้ว <b>urine culture ซ้ำ (test of cure)</b> และ screen เป็นระยะจนคลอด (Williams; ACOG)","Culture ยังบวก → <b>รักษาซ้ำตาม sensitivity</b> + พิจารณา <b>suppressive prophylaxis</b> (nitrofurantoin / cephalexin ก่อนนอน) จนหลังคลอด; ถ้าถามการตรวจหาสาเหตุ → <b>US KUB</b> (ไม่มีรังสี) — การตรวจที่มีรังสี / รุกล้ำเลื่อนไปหลังคลอด"],
+       pearls:["ใช้หลักคนไม่ท้อง (หายแล้วจบ) กับคนท้อง = ผิด","Suppressive prophylaxis ตั้งแต่ติดเชื้อครั้งแรกยังไม่ใช่ขั้นแรก — ใช้เมื่อเป็นซ้ำ / culture ยังบวก","MDCU78 RoB (ยาอีกคอร์ส) กับ MDCU79 RoD (US KUB) ไม่ขัดกัน — ต่างกันที่ถาม 'next step' หรือถาม 'investigation'"],
+       members:["MDCU79|RoC|URO 2","MDCU79|RoC|URO 12","MDCU79|RoD|Uro 4","MDCU78|RoB|52","MDCU77|RoC|Uro 5"]},
+      {id:"cystitis-pyelonephritis",
+       title:"Uncomplicated cystitis, postcoital cystitis และ acute pyelonephritis ที่ต้อง admit",
+       asked:["หญิง dysuria hematuria suprapubic tenderness ไม่มีไข้ UA RBC / WBC / bacteria มาก → <b>oral antibiotics 3–5 วันแล้วติดตาม</b> (ตัวลวง IV ceftriaxone + US, CT + cystoscopy, รอผล culture)","หญิง 40 ปี dysuria หลังมีเพศสัมพันธ์ทุกครั้ง ไม่มีไข้ → <b>single-dose antibiotic หลังเพศสัมพันธ์</b> (ตัวลวง งดเพศสัมพันธ์, vaginal estrogen, urethral dilatation, ตรวจสามีหา gonorrhea)","admit acute pyelonephritis ไข้ ปวดเอว อาเจียน → <b>IV antibiotics + hydration + antipyretic</b> (ตัวลวง nitrofurantoin 3 วัน, nephrectomy, จำกัดน้ำ)","หญิง 20 ปี ไข้สูงหนาวสั่น ปวดเอวขวา 2 วัน กินยาลดไข้ไม่ดีขึ้น → <b>all of the above</b> (bed rest, parenteral ATB, hydration, antipyretic)"],
+       pattern:["<b>Uncomplicated cystitis</b> (หญิงไม่ท้อง ไม่มีไข้ ไม่ปวดเอว): ยาสั้น ๆ — <b>EAU 2025</b>: fosfomycin 3 g ครั้งเดียว, nitrofurantoin 5 วัน, pivmecillinam 3–5 วัน (FQ ไม่ใช่ยาแรก) · ไม่ต้อง imaging / cystoscopy; hematuria ที่ยังอยู่หลังหายติดเชื้อจึงค่อยหาสาเหตุอื่น","<b>Postcoital recurrent cystitis</b>: ปัสสาวะหลังมีเพศสัมพันธ์ + <b>postcoital single-dose antibiotic prophylaxis</b> (EAU: nitrofurantoin, fosfomycin, trimethoprim); vaginal estrogen ใช้ในหญิงวัยหมดประจำเดือน, urethral dilatation ไม่มีประโยชน์","<b>Acute pyelonephritis</b> ที่ไข้สูง อาเจียน sepsis หรือ complicated → admit: <b>IV antibiotics</b> (เช่น ceftriaxone) + hydration + antipyretic + rest → เปลี่ยนเป็นยากินเมื่อดีขึ้น รวม ~7–14 วัน; เก็บ urine culture ก่อนให้ยา; ไข้ไม่ลงใน 48–72 ชม. → imaging หา obstruction / abscess"],
+       pearls:["คีย์ไฟล์ 01.2 ของ MDCU69 RoC ตอบ parenteral antibiotic อย่างเดียว — คีย์อีกชุดและ bank ตอบ all of the above (ยาเป็นหัวใจ แต่ทุกข้อเป็นส่วนของการดูแล)","Cystitis มี hematuria ไม่ต้อง workup ทันที"],
+       members:["MDCU70|RoA|43","MDCU72|RoD|14","MDCU70|RoC|ไม่มีเลข 1","MDCU69|RoC|R14"]},
+      {id:"uti-diagnosis-risk",
+       title:"UTI: gold standard ในการวินิจฉัย และสาเหตุตามช่วงอายุ",
+       asked:["Gold standard ในการวินิจฉัย UTI → <b>urine culture > 10⁵ CFU/mL</b> (ตัวลวง urine WBC > 10 /HPF, nitrite, ไข้ + CVA tenderness)","หญิงอายุ > 35 ปี ปัจจัยใดเป็นสาเหตุ UTI ที่พบทั่วไป → <b>previous pelvic surgery</b> (ตัวลวง congenital anomaly, sexual intercourse, กลั้นปัสสาวะ, VUR) — ออกซ้ำ"],
+       pattern:["<b>Urine culture = gold standard</b>: midstream clean-catch ≥ 10⁵ CFU/mL; suprapubic aspiration ขึ้นเชื้อเท่าไรก็มีความหมาย; pyuria / nitrite / leukocyte esterase เป็น screening (nitrite ลบได้ใน Enterococcus, S. saprophyticus)","สาเหตุ / ปัจจัยตามช่วงอายุ (ตารางในสไลด์): <b>0–5 ปี</b> congenital anomaly, VUR · <b>6–15 ปี</b> functional (กลั้นปัสสาวะ / voiding dysfunction) · <b>16–35 ปี</b> sexual intercourse · <b>36–65 ปี</b> gynecologic / pelvic surgery (หญิง), BOO (ชาย) · <b>> 65 ปี</b> incontinence, catheter, BOO"],
+       members:["MDCU69|RoC|R15","MDCU72|RoB|28","MDCU72|RoC|10"]},
+      {id:"acute-prostatitis",
+       title:"Acute bacterial prostatitis + acute urinary retention",
+       asked:["ชาย 65 ปี nocturia 2 เดือน ตอนนี้ปัสสาวะไม่ออก ไข้ 39 °C หนาวสั่น ปวด perineum → <b>indwelling catheter + IV antibiotics</b> (ตัวลวง oral ATB, intermittent catheter + alpha-blocker)"],
+       pattern:["ไข้สูง หนาวสั่น ปวด perineum / ท้องน้อย + LUTS หรือ AUR = <b>acute bacterial prostatitis</b> → ไม่นวด prostate (เสี่ยง bacteremia), ส่ง urine / blood culture","รักษา: <b>IV antibiotics</b> (เช่น ceftriaxone หรือ FQ ขึ้นกับ local resistance) แล้วยากินรวม ~2–4 สัปดาห์ + <b>bladder drainage</b> เมื่อปัสสาวะคั่ง (urethral catheter ขนาดเล็กหรือ suprapubic catheter)","ไม่ดีขึ้น → transrectal US / CT หา prostatic abscess → drainage"],
+       pearls:["ไข้สูง + AUR ต้องเป็น IV antibiotics ไม่ใช่ยากินแบบ OPD"],
+       members:["MDCU72|RoD|15"]}
+    ]},
+    {title:"Empyema thoracis และ parapneumonic effusion", sections:[
+      {id:"empyema-criteria",
+       title:"Empyema thoracis: เกณฑ์วินิจฉัยจาก pleural fluid",
+       trend:"ข้อจำตัวเลขที่ออกซ้ำแทบทุกรุ่นเก่า — ตัวลวงคือเปลี่ยนตัวเลข WBC หรือกลับทิศ pH",
+       asked:["ข้อใด NOT diagnostic criterion ของ empyema → <b>WBC > 10,000</b> (เกณฑ์ในสไลด์คือ > 15,000) — ออกซ้ำหลายรอบ ตัวเลือกอื่น LDH > 1,000, pH < 7, glucose < 40, protein > 3, Gram stain บวก","ข้อใด NOT criterion โดยช้อยเป็น WBC > 15,000, protein > 3, LDH > 1,000, glucose < 40 → <b>ทุกข้อเป็นเกณฑ์ (all of the above)</b>","pleural fluid ข้อใด NOT support empyema → <b>pH > 7.2</b>","ข้อใดถูกเกี่ยวกับ empyema / criteria → <b>ทั้ง pH < 7 และ Gram stain พบเชื้อ</b> (ตัวลวง cloudy fluid, air-fluid level, CRP)","finding ใดบ่ง empyema โดยตรงที่สุด → <b>เห็นเชื้อใน Gram stain</b> (pH / glucose เป็นหลักฐานทางอ้อม)"],
+       pattern:["<b>Empyema</b> = หนองใน pleural space หรือ pleural fluid ที่ <b>Gram stain / culture บวก</b> — นี่คือหลักฐานตรง; pH, glucose, LDH เป็นหลักฐานทางอ้อมของ complicated parapneumonic effusion","<b>ตัวเลขตามสไลด์อาจารย์ที่ใช้ตอบ</b>: Gram stain / culture บวก · <b>WBC > 15,000 /mm³</b> · protein > 3 g/dL · <b>pH < 7</b> · glucose < 40 mg/dL · LDH > 1,000 IU/L","<b>BTS 2023</b> (เกณฑ์ใส่สายระบาย): หนองชัด หรือ <b>pH ≤ 7.2</b> → ใส่ intercostal drain; pH 7.21–7.39 + LDH ≥ 900 IU/L → พิจารณา drain (โดยเฉพาะเมื่อ effusion ใหญ่, glucose ≤ 72 mg/dL, มี septation หรือ pleural enhancement บน CT); pH ≥ 7.4 → ยังไม่ต้อง drain","ทิศทางที่ต้องจำ: empyema = pH <b>ต่ำ</b>, glucose <b>ต่ำ</b>, LDH <b>สูง</b>, WBC <b>สูง</b>"],
+       pearls:["ตัวลวงประจำคือ WBC > 10,000 — ข้อสอบรุ่นเก่าให้ตอบว่า NOT criterion เพราะตัวเลขในสไลด์คือ 15,000","ถ้าช้อยใส่ตัวเลขตามสไลด์ครบทุกตัว คำตอบคือ 'ทุกข้อเป็นเกณฑ์'","Air-fluid level ในเนื้อปอด = lung abscess ไม่ใช่เกณฑ์ของ empyema; cloudy fluid ไม่จำเพาะ (chylothorax ก็ขุ่น)"],
+       members:["MDCU75|RoD|CVT 1","MDCU74|RoD|23","MDCU69|RoA|87","MDCU68|RoC|72","MDCU67|RoA|51","MDCU67|RoA|55","MDCU67|RoB|43","MDCU67|RoC|53","MDCU67|RoD|25","MDCU66|RoB|74","MDCU66|RoD|3","MDCU66|RoD|14"]},
+      {id:"empyema-drain",
+       title:"Parapneumonic effusion / empyema: tap ก่อน แล้ว ICD + IV antibiotics",
+       trend:"ให้ pneumonia + effusion แล้วถาม next step — ตอบ diagnostic tap ถ้ายังไม่รู้ผล, ตอบ ICD เมื่อได้หนองหรือ pH ต่ำ",
+       asked:["ชายสูงอายุ ไข้ ไอ CXR มี pleural effusion → next step = <b>diagnostic thoracentesis</b> (ไม่ใช่ ICD หรือ decortication ทันที)","เจาะได้ thick green fluid / frank pus → <b>intercostal chest drain + IV antibiotics</b> (ตัวลวง oral ATB, pigtail, repeated tap, decortication, lobectomy) — ออกซ้ำหลายรุ่น","pneumonia 10 วันไข้ไม่ลง เจาะได้หนอง นอกจาก antibiotics ทำอะไร → ICD","pleural glucose 30 mg/dL, LDH 1,200 U/L, pH 6.9 → chest tube drainage","empyema pH 6.9 ไม่มี loculation → <b>ICD + IV antibiotics</b> (ตัวลวง IV ATB อย่างเดียว, decortication)"],
+       pattern:["ขั้นตอน: effusion + pneumonia → <b>US-guided diagnostic thoracentesis</b> ส่ง pH, glucose, LDH, protein, cell count, Gram stain, culture","<b>หนอง / Gram stain หรือ culture บวก / pH ≤ 7.2</b> → <b>intercostal chest drain (ICD) + IV antibiotics</b> ที่ครอบคลุม anaerobe (เช่น amoxicillin-clavulanate หรือ ceftriaxone + metronidazole; hospital-acquired → ครอบคลุม MRSA + gram-negative)","ICD แล้วระบายไม่หมด / loculated → intrapleural <b>tPA + DNase</b> (MIST-2) หรือ <b>VATS debridement</b>","ระยะของ empyema: exudative → fibrinopurulent (fibrin, loculation) → organizing (peel หนา, trapped lung)"],
+       pearls:["Antibiotics อย่างเดียวไม่พอเมื่อเจาะได้หนอง — ต้องระบาย","Decortication ไม่ใช่ขั้นแรก — เก็บไว้สำหรับระยะ organizing หรือ ICD / VATS ล้มเหลว","ยังไม่ได้เจาะ → อย่าข้ามไปใส่ ICD: ต้องรู้ก่อนว่าเป็น simple หรือ complicated effusion"],
+       members:["MDCU79|RoD|CVT 10","MDCU78|RoB|10","MDCU74|RoC|21","MDCU70|RoC|32","MDCU70|RoC|55","MDCU70|RoC|ไม่มีเลข 3","MDCU71|RoA|62"]},
+      {id:"empyema-organizing",
+       title:"Organizing empyema (peel หนา, dry tap) → decortication",
+       trend:"ให้ empyema นานหลายสัปดาห์ที่เจาะแทบไม่ได้น้ำ แล้วถามว่าทำอะไร / อะไรไม่ควรทำ",
+       asked:["pleural infection 6 สัปดาห์ CT ผนังหนา loculated + pleural peel เจาะได้หนองข้นไม่กี่หยด → <b>decortication</b>","ไข้เรื้อรัง effusion ซ้าย เจาะได้ < 2 mL → ข้อใด NOT indicated → <b>intercostal drainage</b> (ที่ทำได้คือ CT chest, decortication, antibiotics)"],
+       pattern:["<b>Organizing stage</b> (มักหลัง ~3–6 สัปดาห์): fibrous peel หนาหุ้มปอด → ปอดขยายไม่ได้ (trapped lung) และไม่มีน้ำให้ระบาย","→ <b>decortication</b> (VATS หรือ open thoracotomy) ลอก peel ให้ปอดขยาย + antibiotics; CT chest ใช้ดู peel / loculation ก่อนผ่าตัด","Dry tap ในเคส empyema เรื้อรัง = บอกว่าเป็นระยะ organizing → ICD ไม่ช่วย"],
+       pearls:["เจาะซ้ำหรือใส่ ICD ทั้งที่เป็น peel แล้ว = คำตอบผิด"],
+       members:["MDCU77|RoC|CVT 9","MDCU69|RoA|88"]},
+      {id:"empyema-organism-trauma",
+       title:"Empyema: เชื้อที่พบบ่อย และ empyema หลัง chest trauma (แยกจาก lung abscess บน CXR)",
+       asked:["คู่เชื้อที่ทำให้เกิด empyema บ่อยที่สุด → <b>Streptococcus pneumoniae + Staphylococcus aureus</b>","ซี่โครงหัก 5 วันก่อน วันนี้ไข้ หอบ CXR มี air-fluid level ซ้าย → <b>left empyema thoracis (pyopneumothorax)</b> (คีย์เก่าตอบ lung abscess)"],
+       pattern:["<b>Schwartz 11e</b>: empyema ส่วนใหญ่เป็น parapneumonic — เชื้อเด่นคือ <b>pneumococcus และ S. aureus</b>; gram-negative และ anaerobe พบมากขึ้น; หลังผ่าตัด / ในโรงพยาบาล → S. aureus (MRSA) + gram-negative","หลัง chest trauma: <b>retained hemothorax</b> และการใส่ ICD เป็นปัจจัยเสี่ยง post-traumatic empyema","CXR: <b>empyema / pyopneumothorax</b> = air-fluid level ยาว กว้างชิดผนังอก ความยาวต่างกันในท่า PA กับ lateral, ทำมุมป้านกับผนัง · <b>lung abscess</b> = โพรงกลมผนังหนาในเนื้อปอด air-fluid level ยาวเท่ากันทุกท่า และมักมาจาก aspiration ที่ใช้เวลานานกว่าไม่กี่วัน","รักษา empyema: ICD + antibiotics; loculated → VATS"],
+       pearls:["คีย์เก่า MDCU77 RoB ตอบ lung abscess จาก air-fluid level — bank อ่านภาพซ้ำแล้วตอบ empyema (air-fluid level กว้างเต็ม hemithorax ชิดผนัง)","Anaerobe เด่นใน lung abscess / aspiration ไม่ใช่คำตอบ 'พบบ่อยสุด' ของ empyema"],
+       members:["MDCU76|RoA|5","MDCU77|RoB|CVT 1"]}
+    ]},
+    {title:"Anorectal infection", sections:[
+      {id:"perianal-abscess-management",
+       title:"Perianal / anorectal abscess: I&D เสมอ + antibiotics เมื่อไหร่",
+       trend:"ออกทุกช่วงรุ่น — รุ่นเก่าถาม 'ให้ antibiotics เมื่อไหร่' (all of the above), รุ่นหลังให้เคสแล้วถาม I&D ± ATB",
+       asked:["perianal abscess กรณีใดต้องเพิ่ม antibiotics → <b>all of the above</b> (ไข้, ischioanal abscess, cellulitis รอบ ๆ, immunocompromised) — ออกซ้ำหลายรอบ","DM คุมไม่ได้ / มีไข้ + perianal abscess + cellulitis รอบ ๆ → <b>I&D + antibiotics</b> (ตัวลวง ATB อย่างเดียว, I&D อย่างเดียว, needle aspiration, seton) — ออกซ้ำ","ชายสุขภาพดี ก้อน fluctuant ข้างทวาร ไม่มี cellulitis / sepsis → <b>I&D</b> อย่างเดียว (ตัวลวง IV / oral ATB อย่างเดียว, sitz bath, fistulotomy)","fluctuant perianal mass + erythema รอบ ๆ เคยแตกเองแล้วดีขึ้น → <b>I&D + antibiotics</b> (ตัวลวง immediate fistulotomy, seton โดยไม่ระบาย)","ปวดก้นและทวาร ไข้ PR คลำได้ก้อนร้อน fluctuant ข้าง prostate เหนือ anorectal ring → <b>surgical drainage</b> (supralevator / high intersphincteric abscess)"],
+       pattern:["<b>ทุก anorectal abscess ต้อง incision and drainage ทันที</b> (ไม่ต้องรอ fluctuation ชัด) — antibiotics อย่างเดียวไม่พอ; แผลใกล้ขอบทวารที่สุดเพื่อให้ fistula ที่อาจเกิดสั้น","<b>ASCRS 2022</b> — antibiotics หลังระบายสงวนไว้เมื่อ: <b>cellulitis รอบ ๆ</b>, <b>systemic sign of infection (ไข้ / sepsis)</b>, <b>immunosuppression</b> (รวม DM คุมไม่ดี); คีย์ในสไลด์นับ abscess ลึก (ischioanal) ด้วย","ตำแหน่ง: perianal (พบบ่อยสุด) · ischioanal · intersphincteric · <b>supralevator</b> → ระบายตามต้นกำเนิด: มาจาก intersphincteric → ระบายทาง rectum; มาจาก ischioanal → ระบายทางผิวหนัง; สงสัย prostatic abscess → CT / MRI","เห็น fistula ชัดเป็น simple ขณะ drain → fistulotomy ได้ในมือผู้ชำนาญ; ไม่ชัด → loose seton — ไม่ทำ fistulotomy โดยไม่ระบาย"],
+       pearls:["'Where there is pus, let it out' — ช้อย antibiotics alone ผิดเสมอ","DM + perianal infection ที่ลุกลาม ต้องนึกถึง Fournier gangrene"],
+       members:["MDCU79|RoD|Colo 11","MDCU76|RoD|27","MDCU73|RoB|Colo 4","MDCU69|RoA|32","MDCU69|RoC|29","MDCU69|RoC|R77","MDCU68|RoB|ไม่มีเลข 1","MDCU67|RoB|17","MDCU67|RoC|19","MDCU67|RoD|26"]},
+      {id:"fournier",
+       title:"Fournier gangrene: radical debridement ด่วน; สาเหตุไม่ใช่ anal cancer",
+       trend:"MDCU71–72 ถาม 'ข้อใดผิด' ซ้ำ 4 ครั้งด้วยคำตอบเดิม; MDCU78 ถาม management",
+       asked:["ข้อใดผิดเกี่ยวกับ Fournier gangrene → <b>anal cancer เป็นสาเหตุที่พบบ่อยที่สุด</b> (ข้อที่ถูก: necrotizing fasciitis ของ perineum, DM เป็น risk factor, บางรายต้อง colostomy, ให้ empirical ATB ก่อนผล culture, ต้อง radical debridement) — ออกซ้ำหลายรอบ","ชาย DM คุมไม่ดี ปวด perineum / scrotum 2 วัน ไข้ 39 °C tachycardia ผิวบวมคล้ำ เน่า crepitus กลิ่นเหม็น → <b>IV antibiotics + emergency radical debridement</b> (ตัวลวง ATB + observe, needle aspiration, orchiectomy, HBO เป็นการรักษาหลัก)"],
+       pattern:["<b>Fournier gangrene</b> = necrotizing fasciitis ของ perineum / genitalia; แหล่งที่พบบ่อย: <b>anorectal</b> (perianal abscess) > urogenital (urethral stricture, UTI) > ผิวหนัง; ปัจจัยเสี่ยง <b>DM</b>, alcohol, immunocompromise","รักษา 3 อย่างพร้อมกัน: <b>resuscitation + broad-spectrum IV antibiotics</b> (empirical ก่อนผล culture; <b>IDSA 2014</b>: vancomycin / linezolid + piperacillin-tazobactam หรือ carbapenem หรือ ceftriaxone + metronidazole; เพิ่ม clindamycin ยับยั้ง toxin เมื่อเป็น strep / clostridia) + <b>emergency radical debridement</b> ถึงเนื้อที่เลือดออกดี → กลับไป debride ซ้ำทุก 24–48 ชม.","± <b>diverting colostomy</b> เมื่อแผลปนเปื้อนอุจจาระ / sphincter เกี่ยวข้อง · suprapubic cystostomy เมื่อ urethra เกี่ยวข้อง · <b>testis มักไม่ต้องตัด</b> (เลือดมาจาก testicular artery แยก)","HBO เป็นได้แค่ adjunct; หลัง debride แผลสะอาดมี granulation → ปิดแผลด้วย skin graft / flap"],
+       pearls:["รอ imaging หรือรอยาออกฤทธิ์ก่อนผ่าตัด = mortality เพิ่ม; ผิวที่เห็นมักน้อยกว่าเนื้อตายจริงใต้ผิว","Stem MDCU78 RoD แต่งจาก 'ให้รูป Fournier' — ไม่ทราบว่าโจทย์จริงถามอะไร"],
+       members:["MDCU71|RoA|89","MDCU72|RoA|58","MDCU72|RoB|3","MDCU72|RoD|43","MDCU78|RoD|Anorectal disease 4"]},
+      {id:"perianal-abscess-pathophysiology",
+       title:"Anorectal abscess / fistula: cryptoglandular origin, sequela และสาเหตุอื่น",
+       asked:["pathophysiology ของ perianal abscess → <b>anal gland อุดตันแล้วติดเชื้อ</b> (ตัวลวง skin infection, thrombosed hemorrhoid, hair follicle ที่ natal cleft, transmural inflammation)","รูป perianal abscess — sequela ที่ตามมาได้ → <b>fistula in ano</b>","มีหนองไหลจากรอบทวาร (fistula) — สาเหตุใด least likely → <b>diabetes mellitus</b> (สาเหตุจริง: anal gland infection, trauma, Crohn, pelvic radiation)"],
+       pattern:["<b>Cryptoglandular theory</b> (~90%): anal gland เปิดที่ crypt บน dentate line → ท่ออุดตัน → ติดเชื้อใน intersphincteric space → ลามเป็น perianal / ischioanal / supralevator abscess","Abscess = ระยะเฉียบพลัน, <b>fistula in ano = ระยะเรื้อรังของโรคเดียวกัน</b> — หลังระบายเกิด fistula ราว 1 ใน 3 ถึงครึ่ง","Non-cryptoglandular: <b>Crohn disease</b>, trauma / foreign body, <b>radiation</b>, มะเร็ง, TB, HIV","<b>DM เป็นปัจจัยเสี่ยงต่อความรุนแรง</b> (necrotizing infection) ไม่ใช่ต้นเหตุของทางเชื่อม"],
+       pearls:["สับสน 'ปัจจัยเสี่ยง' กับ 'สาเหตุ' — คีย์ MDCU77 RoB ไม่มี bank ตอบ DM ความมั่นใจปานกลาง-ต่ำ"],
+       members:["MDCU77|RoA|Colo 9","MDCU77|RoA|Colo 7","MDCU77|RoB|Colo 4"]},
+      {id:"pilonidal-abscess",
+       title:"Pilonidal abscess: ก้อนที่ natal cleft + midline pits",
+       asked:["ชายหนุ่ม ก้อนแดง เจ็บ fluctuant ที่ natal cleft มี midline pits ใกล้ ๆ → <b>pilonidal abscess</b> (ตัวลวง infected sebaceous cyst, perianal abscess, hidradenitis, carbuncle)"],
+       pattern:["ขนแทงเข้าผิวหนังที่ sacrococcygeal → foreign body reaction; ชายหนุ่ม ขนดก นั่งนาน; <b>midline pits</b> (punctate openings) เป็นตัวบอกโรค","Acute abscess → <b>incision and drainage</b> (แผลเยื้องจากแนวกลาง) · โรคเรื้อรัง / เป็นซ้ำ → ผ่าตัด definitive (pit picking, off-midline closure เช่น Karydakis, cleft lift)"],
+       pearls:["เห็นรูแล้วคิดว่าเป็น punctum ของ sebaceous cyst"],
+       members:["MDCU76|RoA|30"]}
+    ]},
+    {title:"Lung abscess และการติดเชื้อในทรวงอกอื่น", sections:[
+      {id:"lung-abscess-surgery",
+       title:"Lung abscess: ข้อบ่งชี้ผ่าตัด",
+       trend:"ข้อจำซ้ำมากที่สุดของกลุ่มนี้ — ถามทั้งแบบ 'ข้อใดเป็น' และ 'ข้อใดไม่เป็น' ข้อบ่งชี้ผ่าตัด",
+       asked:["ข้อบ่งชี้ผ่าตัด → <b>ไม่ตอบสนองต่อ antibiotics หลัง 2 สัปดาห์</b> (ตัวลวง occasional hemoptysis, bronchopleural fistula, bilateral small abscesses ในผู้ป่วยภูมิต่ำ, all of the above) — ออกซ้ำหลายรอบ","abscess upper lobe ข้อบ่งชี้ผ่าตัด → <b>massive hemoptysis</b> (ตัวลวง ไข้ 3 วันหลังเริ่มยา, ขนาดเท่าเดิมหลัง 1 สัปดาห์, > 3 cm, ติดต่อกับหลอดลม)","ข้อใด NOT indication → <b>bronchopleural fistula</b> (ช้อยอื่น rupture เข้า pleura, progression, ไม่ดีขึ้น 2 สัปดาห์, massive hemoptysis)","ข้อใด NOT indication for lung resection → <b>'persists 14 วัน / 2 สัปดาห์ after conservative care'</b> (ช้อยอื่น > 6 cm, rupture เข้า pleura, massive hemoptysis, rule out malignancy)","ข้อใด NOT indication for lobectomy → <b>rupture into the pleura</b> (→ ใส่ ICD ก่อน)","ข้อใด NOT indication → abscess 3 cm ที่ดีขึ้นด้วยยา"],
+       pattern:["Lung abscess ส่วนใหญ่ (~80–90%) หายด้วย <b>antibiotics 4–6 สัปดาห์ + postural drainage</b>","<b>ข้อบ่งชี้ผ่าตัด (ตามสไลด์และ Sabiston)</b>: ไม่ดีขึ้นหลัง antibiotics ~2 สัปดาห์ / persistent หรือ enlarging abscess · ขนาด <b>> 6 cm</b> · <b>massive hemoptysis</b> · สงสัยมะเร็ง (rule out carcinoma) · แตกเข้า pleural space · ภาวะแทรกซ้อนอื่น (empyema)","ไม่ใช่ข้อบ่งชี้: hemoptysis เล็กน้อย, abscess เล็กหลายก้อนสองข้างในผู้ป่วยภูมิต่ำ (รักษาด้วยยา), air-fluid level / ติดต่อหลอดลม (เป็นทางระบายตามธรรมชาติ), ขนาด 3 cm, ไข้ไม่กี่วันหลังเริ่มยา","ผ่าตัดที่ทำ = <b>lobectomy</b> (หรือ segmentectomy); ผู้ป่วยไม่พร้อมผ่าตัด → percutaneous / endoscopic drainage"],
+       pearls:["ดูคำให้ดี: 'no improvement after 2 weeks of <b>antibiotics</b>' = ข้อบ่งชี้ แต่ 'persists 2 weeks after <b>conservative care</b>' = คีย์ MDCU73 RoD ถือว่าไม่ใช่ (ผู้เฉลยแก้คำว่า conservative ≠ ATB)","Rupture เข้า pleura คีย์ไม่ตรงกัน: MDCU68 RoC ถามข้อบ่งชี้ <b>lobectomy</b> → rupture ไม่ใช่ (ต้อง ICD รักษา empyema ก่อน) แต่ MDCU73 RoD และ MDCU76 RoD นับ rupture เข้า pleura เป็นข้อบ่งชี้ผ่าตัด — อ่านว่าโจทย์ถาม lobectomy โดยตรงหรือถาม indication ทั่วไป","BPF: คีย์ MDCU66–67 และ MDCU76 RoD ไม่นับเป็นข้อบ่งชี้ (สไลด์ไม่มี) แต่ตำราบางเล่มนับ empyema + BPF ที่ไม่หายเป็นข้อบ่งชี้ — ในข้อสอบนี้ตอบตามสไลด์","คีย์ไฟล์ 01.2 ของ MDCU68 RoC ตอบ 'ไม่ดีขึ้นหลัง 2 สัปดาห์' ว่าไม่ใช่ข้อบ่งชี้ — ขัดกับทุกรุ่น bank ตอบ rupture เข้า pleura ตามคีย์ลายมือ"],
+       members:["MDCU76|RoC|CVT 4","MDCU76|RoD|9","MDCU73|RoD|CVT 3","MDCU73|RoD|CVT 6","MDCU70|RoB|ไม่มีเลข 8","MDCU68|RoC|74","MDCU67|RoA|57","MDCU67|RoB|35","MDCU67|RoC|50","MDCU66|RoD|15","MDCU66|RoD|29"]},
+      {id:"lung-abscess-features",
+       title:"Lung abscess: กลไก ตำแหน่ง เชื้อ และ DDx ของ cavity (TB)",
+       trend:"ข้อ 'ข้อใดถูก' ชุดเดิมซ้ำใน MDCU66–67; รุ่นหลังให้ cavity แล้วแยก TB กับ abscess",
+       asked:["ข้อใดถูกเกี่ยวกับ lung abscess → <b>พบบ่อยที่ dependent segment ของปอดขวา</b> (ตัวลวง hematogenous seeding, hemoptysis / foul sputum พบน้อย, Staphylococcus เป็นเชื้อหลัก) — ออกซ้ำหลายรอบ","ผ่าตัดปอดแล้วอาเจียนสำลักระหว่างผ่าตัด ต่อมาเป็น pneumonia → เชื้อ = <b>mixed aerobes + anaerobes</b>","ไอ ไข้ เหงื่อออกกลางคืน น้ำหนักลด 2 เดือน CXR thick-walled cavity เดียวที่ RUL → <b>pulmonary TB</b> (ตัวลวง lung abscess, SCC, aspergilloma, GPA)"],
+       pattern:["กลไกหลัก = <b>aspiration</b> (สติลดลง, alcohol, ชัก, กลืนผิดปกติ, ฟันไม่ดี) → เชื้อ <b>polymicrobial: anaerobes ช่องปาก</b> (Peptostreptococcus, Prevotella, Fusobacterium, Bacteroides) + aerobic strep; ในโรงพยาบาลเพิ่ม gram-negative bacilli และ S. aureus","ตำแหน่ง = dependent segment: <b>posterior segment ของ upper lobe และ superior segment ของ lower lobe ข้างขวา</b> (right main bronchus ตรงและกว้างกว่า)","อาการ: ไข้ ไอมีเสมหะเหม็น (foul sputum พบบ่อย), hemoptysis ได้; CXR โพรงผนังหนา + air-fluid level","<b>Cavity DDx</b>: TB = อาการ subacute–chronic (หลายสัปดาห์–เดือน) + apical / posterior upper lobe → sputum AFB + Xpert MTB/RIF + culture, airborne precaution, ตรวจ HIV, รักษา <b>2HRZE / 4HR</b> · lung abscess = เฉียบพลันหลังสำลัก · มะเร็ง (SCC) = สูงอายุสูบบุหรี่ ผนังหนาไม่เรียบ"],
+       pearls:["Hematogenous seeding (เช่น IE ซีกขวา) ทำให้เกิดหลายก้อน ไม่ใช่กลไกส่วนใหญ่","S. aureus ไม่ใช่เชื้อ 'usual' ของ lung abscess — anaerobe ต่างหาก"],
+       members:["MDCU67|RoA|58","MDCU67|RoB|36","MDCU67|RoC|51","MDCU66|RoD|30","MDCU76|RoC|CVT 6","MDCU79|RoC|CVT 6"]},
+      {id:"lung-abscess-initial",
+       title:"Lung abscess ไม่มีภาวะแทรกซ้อน: antibiotics + postural drainage",
+       trend:"ข้อจำของ MDCU66–67 — 'นอกจาก antibiotics ทำอะไร'",
+       asked:["นอกจาก antibiotics ควรเพิ่มอะไรตั้งแต่แรกใน uncomplicated / early lung abscess → <b>postural drainage + chest physiotherapy</b> (ตัวลวง ICD, urgent lobectomy, needle aspiration, bronchial stent) — ออกซ้ำหลายรอบ"],
+       pattern:["<b>Antibiotics ที่ครอบคลุม anaerobe</b> (เช่น amoxicillin-clavulanate / ampicillin-sulbactam หรือ clindamycin) นาน ~4–6 สัปดาห์จนภาพดีขึ้น + <b>postural drainage / chest physiotherapy</b>","Bronchoscopy เมื่อสงสัยสิ่งอุดตัน / มะเร็ง","<b>ไม่ใส่ ICD ใน lung abscess</b> (เสี่ยง contaminate pleura → empyema / bronchopleural fistula); percutaneous drainage หรือผ่าตัดเมื่อไม่ตอบสนอง"],
+       members:["MDCU67|RoA|56","MDCU67|RoB|45","MDCU67|RoC|58","MDCU66|RoA|90"]},
+      {id:"lung-abscess-complication",
+       title:"Lung abscess แทรกซ้อน: แตกเข้า pleura → ICD · massive hemoptysis → ป้องกันทางเดินหายใจก่อน",
+       asked:["abscess 5 cm ได้ IV antibiotics 6 วัน แล้วโพรงหายไปพร้อม effusion ใหม่ → <b>intercostal chest drain</b> (ตัวลวง open thoracostomy, continue ATB, segmentectomy, lobectomy, pneumonectomy) — ออกซ้ำ","lung abscess 2 cm มี massive hemoptysis → initial = <b>protect airway, นอนตะแคงเอาข้างที่เลือดออกลง แล้ว bronchial artery embolization</b> (ตัวลวง emergency lobectomy ก่อน, PCD, ATB อย่างเดียว, chest physiotherapy)"],
+       pattern:["โพรงหาย + effusion ใหม่ = abscess <b>แตกเข้า pleural space</b> → empyema / pyopneumothorax → <b>ICD + antibiotics ต่อ</b>; การตัดปอดพิจารณาภายหลังเมื่อจำเป็น","<b>Massive hemoptysis</b>: ผู้ป่วยเสียชีวิตจากการสำลักเลือด (asphyxia) มากกว่าเสียเลือด → (1) <b>นอนตะแคงเอาข้างที่เลือดออกลง</b> (2) ป้องกันทางเดินหายใจ: intubation (single-lumen ลงข้างดี หรือ double-lumen) (3) หาตำแหน่ง / หยุดเลือดด้วย bronchoscopy และ <b>bronchial artery embolization</b> (4) lobectomy เมื่อ embolization ล้มเหลวหรือมีรอยโรคที่ต้องตัด"],
+       pearls:["คีย์ MDCU76 RoA วง 'Lobectomy and…' แต่ลายมือผู้เฉลยเขียนลำดับ protect airway → ตะแคงข้างที่ bleed ลง → รักษาตามสาเหตุ — bank ตอบตามลำดับนี้","อย่ารีบผ่าตัดปอดเมื่อ abscess แตกเข้า pleura — ระบาย pleura ก่อน"],
+       members:["MDCU71|RoA|ไม่มีเลข 1","MDCU72|RoD|20","MDCU76|RoA|13"]},
+      {id:"mediastinitis",
+       title:"Acute mediastinitis: antibiotics อย่างเดียวไม่พอ",
+       trend:"ข้อ 'ข้อใดผิด' ชุดเดียวกันซ้ำใน MDCU67",
+       asked:["ข้อใดผิดเกี่ยวกับ acute mediastinitis → <b>antibiotics อย่างเดียวมักพอ</b> (ข้อที่ถูก: S. aureus สำคัญหลัง sternotomy, descending necrotizing มาจาก oropharynx / คอ, esophageal perforation เป็นสาเหตุ, ต้อง drainage + debridement + รักษาต้นเหตุ)"],
+       pattern:["สาเหตุ: <b>esophageal perforation</b> (Boerhaave, iatrogenic), <b>post-sternotomy</b> (S. aureus รวม MRSA, CoNS), <b>descending necrotizing mediastinitis</b> จาก odontogenic / pharyngeal / deep neck infection","รักษาแบบ aggressive: broad-spectrum antibiotics + <b>surgical drainage + debridement</b> + จัดการต้นเหตุ (ซ่อม / ระบาย esophagus, debride sternum); descending type มักต้องระบายทั้งคอและทรวงอก"],
+       members:["MDCU67|RoA|59","MDCU67|RoB|42","MDCU67|RoC|55"]},
+      {id:"fungal-lung",
+       title:"Fungal lung infection: ข้อใดถูก",
+       asked:["ข้อใดถูก → <b>สูดสปอร์ Histoplasma ทำให้เกิด flu-like illness</b> (ตัวลวง rib involvement บ่ง histoplasmosis, hemoptysis ใน aspergilloma < 10%, mucormycosis ในคนปกติ, coccidioidomycosis มักเป็น cavity, ครึ่งหนึ่งเป็น cryptococcal meningitis หลังตัดปอด)"],
+       pattern:["<b>Histoplasma capsulatum</b>: สปอร์จากมูลนก / ค้างคาว → ส่วนใหญ่ไม่มีอาการหรือเป็น flu-like illness","ลามข้าม tissue plane เข้าซี่โครง / ผนังอก → นึกถึง <b>actinomycosis</b> ไม่ใช่ histoplasmosis","<b>Aspergilloma</b>: hemoptysis พบบ่อย (ราวครึ่งขึ้นไป) — massive hemoptysis เป็นข้อบ่งชี้ตัดปอด","<b>Mucormycosis</b>: DKA / ภูมิต่ำ ไม่ใช่คนปกติ · <b>coccidioidomycosis</b>: เกิด cavity เพียงส่วนน้อย"],
+       members:["MDCU68|RoB|84","MDCU68|RoD|39"]}
+    ]},
+    {title:"Intra-abdominal infection: diverticulitis, appendiceal abscess, C. difficile", sections:[
+      {id:"hinchey",
+       title:"Hinchey classification ของ complicated diverticulitis: pericolic abscess ทุกขนาด = I (Ib)",
+       trend:"ถามซ้ำเกือบทุกรุ่น MDCU70–76 — ทั้งแบบไม่บอกขนาด และแบบ 'pericolic abscess 5 cm' ซึ่งคีย์เก่าตอบ II ตามตาราง 4 cm; คำตอบที่ถูกตาม Hinchey ทุกเวอร์ชันคือ I / Ib",
+       asked:["classification ที่ใช้ stage complicated diverticulitis ตาม perforation / peritonitis → <b>Hinchey</b> (ตัวลวง Goligher, Dukes, Child-Pugh, Ranson)","diverticulitis + pericolic abscess ไม่มี peritonitis → <b>Hinchey I</b> — ออกซ้ำหลายรอบ","small pericolic abscess ตาม original Hinchey → <b>I</b>","sigmoid diverticulitis ไข้ กดเจ็บเฉพาะที่ ไม่มี rebound CT pericolic abscess 5 cm → <b>Hinchey I</b> (คีย์ไฮไลต์ I แต่วง II)","pericolic abscess 5 cm / > 5 cm ไม่มี peritonitis ตาม modified Hinchey → <b>Stage I / Class Ib</b> (คีย์เก่าวง II ตามตาราง 'Ib < 4 cm, II > 4 cm' — ตารางนี้ไม่ใช่ Hinchey)"],
+       pattern:["<b>Original Hinchey (1978)</b> แบ่งตาม<b>ตำแหน่ง</b>ของหนอง: <b>I = pericolic (mesocolic) abscess</b> · <b>II = pelvic, distant intra-abdominal หรือ retroperitoneal abscess</b> · <b>III = generalized purulent peritonitis</b> · <b>IV = fecal peritonitis</b> — ไม่มี class V","<b>Modified Hinchey (Wasvary 1999; เกณฑ์ CT โดย Kaiser 2005)</b>: 0 mild clinical diverticulitis · <b>Ia</b> confined pericolic inflammation / phlegmon · <b>Ib</b> pericolic (mesocolic) abscess · <b>II</b> pelvic / distant intra-abdominal / retroperitoneal abscess · III purulent · IV fecal — <b>ไม่มีเกณฑ์ขนาดในทุกเวอร์ชันของ Hinchey</b> → pericolic abscess 5 cm (หรือใหญ่กว่า) ยังเป็น <b>I / Ib</b>","<b>WSES CT classification</b> (Sartelli 2015; ใช้ใน WSES 2020) เป็นคนละระบบ: 0 uncomplicated · 1a pericolic air / fluid ไม่มี abscess · <b>1b abscess ≤ 4 cm</b> · <b>2a abscess > 4 cm</b> · 2b distant gas > 5 cm · 3 diffuse fluid ไม่มี distant free gas · 4 diffuse fluid + distant free gas — abscess 5 cm = <b>WSES 2a</b> ไม่ใช่ 'Hinchey II'","ตอบในข้อสอบ: <b>pericolic abscess ไม่ว่าขนาดเท่าไร และไม่ว่าโจทย์เขียน original หรือ modified Hinchey → I</b> (ถ้าช้อยแยก Ia / Ib → <b>Ib</b>); ตอบ II เฉพาะหนองที่อยู่<b>ห่างจาก colon</b> (pelvic, distant / interloop, retroperitoneal)","ขนาดใช้ตัดสิน<b>การรักษา</b> ไม่ใช่ stage: abscess > 3 cm (ASCRS 2020) / > 4–5 cm (WSES 2020) → percutaneous drainage + antibiotics"],
+       pearls:["<b>คีย์เก่า / ตารางที่ผู้เฉลยแปะ</b> (Ia phlegmon · Ib pericolic abscess < 4 cm · II pelvic / interloop abscess <b>หรือ > 4 cm</b>) ตอบ <b>II</b> ใน MDCU74 RoD 39, MDCU73 RoD Colo 1 และคีย์ MDCU76 RoD 16 วง II (ไฮไลต์ I) — ตารางนี้เอาเกณฑ์ 4 cm ของ WSES มาปนกับ Hinchey; คลังตอบ <b>Hinchey I(b) ทั้งสามข้อ</b> ตาม Hinchey 1978 / Wasvary 1999 / Kaiser 2005","Goligher = hemorrhoid, Dukes = CRC, Child-Pugh = cirrhosis, Ranson = pancreatitis; คีย์ MDCU70 RoC แปะ Hansen–Stock (แบ่ง 0–III รวม chronic recurrent) แต่โจทย์ถามตาม perforation / peritonitis = Hinchey"],
+       members:["MDCU70|RoC|ไม่มีเลข 4","MDCU72|RoB|1","MDCU72|RoC|ไม่มีเลข 1","MDCU72|RoD|36","MDCU73|RoB|Colo 6","MDCU76|RoD|16","MDCU74|RoD|39","MDCU73|RoD|Colo 1"]},
+      {id:"diverticular-abscess",
+       title:"Diverticular abscess > 3 cm ใน stable patient → percutaneous drainage + IV antibiotics",
+       trend:"MDCU75–79 ให้ abscess ขนาด 4–7 cm ไม่มี generalized peritonitis แล้วถาม management — คีย์เก่าสองรุ่นตอบยาอย่างเดียวและถูกแก้",
+       asked:["LLQ pain sigmoid diverticulitis + pericolic abscess 4 cm stable ไม่มี generalized peritonitis → <b>percutaneous drainage + IV antibiotics</b> (คีย์เก่าตอบ IV ATB alone; ตัวลวง sigmoidectomy + primary anastomosis, Hartmann, loop colostomy)","ไข้ LLQ pain 1 สัปดาห์ CT abscess 4 cm ลามจาก paracolic gutter ลง pelvis เริ่ม broad-spectrum ATB แล้ว → <b>NPO + percutaneous drainage</b> (คีย์เก่าตอบ NPO + ATB + observe; ตัวลวง emergency laparoscopic colectomy / sigmoidectomy, colonoscopy ใน 48 ชม.)","ผู้ป่วย long-term care sigmoid diverticulitis + pelvic abscess 7 cm stable → <b>percutaneous drainage + IV antibiotics</b> (ตัวลวง oral ATB, emergency sigmoidectomy, laparotomy + lavage)"],
+       pattern:["<b>ASCRS 2020</b>: stable + abscess <b>> 3 cm</b> ที่เข้าถึงได้ → <b>CT / US-guided percutaneous drainage + IV antibiotics</b> (คลุม gram-negative + anaerobe); abscess เล็ก → IV antibiotics อย่างเดียว · <b>WSES 2020</b>: large abscess (ตัดราว 4–5 cm) → PCD + ATB, abscess เล็กลอง ATB อย่างเดียวก่อน; drain ไม่ได้ → ATB หรือผ่าตัดตามอาการ","ผ่าตัดฉุกเฉิน (Hartmann หรือ resection + primary anastomosis ± diverting ileostomy) เฉพาะ <b>generalized peritonitis (Hinchey III–IV)</b>, septic shock หรือ drainage / ยาไม่ได้ผล — ขนาด abscess ไม่ใช่ข้อบ่งชี้ผ่าตัดฉุกเฉิน","หลังหาย: <b>colonoscopy ~6–8 สัปดาห์</b> เพื่อตัดมะเร็ง + พิจารณา <b>elective (interval) sigmoidectomy</b> เพราะหลัง abscess กลับเป็นซ้ำ / แทรกซ้อนสูง"],
+       pearls:["คีย์เก่า MDCU76 RoA ตอบ IV antibiotics alone และ MDCU75 RoC ตอบ NPO + ATB + observe — bank แก้เป็น PCD ตาม ASCRS 2020 (> 3 cm) และ WSES 2020 (large abscess)","เห็น abscess ใหญ่แล้วรีบผ่าตัดฉุกเฉิน — ตัวตัดสินคือ generalized peritonitis ไม่ใช่ขนาด","Stem MDCU79 RoC เติมสาเหตุและ 'stable ไม่มี generalized peritonitis' เอง"],
+       members:["MDCU76|RoA|71","MDCU75|RoC|16","MDCU79|RoC|Colo 4"]},
+      {id:"appendiceal-abscess",
+       title:"Appendiceal abscess: ปวด RLQ หลายวัน + คลำได้ก้อน",
+       asked:["เด็ก 8 ปี ปวดท้อง > 1 สัปดาห์ ไข้ 4 วัน คลำได้ก้อนกดเจ็บ RLQ 4 cm → <b>appendiceal abscess</b> (ตัวลวง mesenteric adenitis, intussusception, Crohn, Meckel diverticulitis)","ไข้ ปวด RLQ 4 วัน ก้อนกดเจ็บ RLQ CT rim-enhancing collection 5 cm รอบ appendix → <b>appendiceal abscess</b> (ตัวลวง uncomplicated appendicitis, cecal ca, Crohn ileitis, mucocele)"],
+       pattern:["Appendicitis ที่มาช้า (> 3–5 วัน) ทะลุแล้วถูก omentum / ลำไส้ห่อเป็นก้อน = <b>appendiceal abscess / phlegmon</b>","รักษา (<b>WSES 2020 Jerusalem</b>): <b>IV antibiotics + percutaneous drainage</b> เมื่อ abscess ใหญ่ (≥ 3–4 cm) แล้วพิจารณา interval appendectomy เมื่อเป็นซ้ำ; ศูนย์ที่ชำนาญผ่าตัด laparoscopic ได้เลย; peritonitis ทั่วท้อง → ผ่าตัด","ผู้ใหญ่ (> 40 ปี) หลังรักษาแบบ non-operative → colonoscopy / CT ติดตาม เพื่อตัดมะเร็ง (appendiceal neoplasm)"],
+       pearls:["เด็กมีไข้ + ก้อน RLQ นานเป็นสัปดาห์ ไม่ใช่ mesenteric adenitis","รีบผ่าตัดฉุกเฉินใน abscess ที่ contained ไม่ใช่คำตอบแรก"],
+       members:["MDCU77|RoC|Ped 4","MDCU76|RoD|71"]},
+      {id:"c-difficile",
+       title:"Clostridioides difficile infection: ยาที่ใช้",
+       asked:["หลังได้ antibiotics มีท้องเสียเป็นน้ำ ยืนยัน CDI → ยาในช้อยที่เลือกใช้ → <b>metronidazole</b> (ช้อยอื่น ciprofloxacin, cefazolin, clindamycin, ceftriaxone เป็นยาที่ก่อ CDI)"],
+       pattern:["<b>IDSA / SHEA 2021</b> initial episode: <b>fidaxomicin 200 mg PO วันละ 2 ครั้ง 10 วัน</b> (preferred) หรือ <b>vancomycin 125 mg PO วันละ 4 ครั้ง 10 วัน</b>; <b>metronidazole 500 mg PO วันละ 3 ครั้ง 10–14 วัน</b> ใช้ได้เฉพาะ non-severe (WBC < 15,000 และ Cr < 1.5 mg/dL) เมื่อไม่มีสองตัวแรก","Fulminant (shock, ileus, megacolon): vancomycin 500 mg PO / NG วันละ 4 ครั้ง + IV metronidazole ± rectal vancomycin + ปรึกษาศัลยแพทย์ (subtotal colectomy หรือ diverting loop ileostomy + colonic lavage)","ต้องเป็น vancomycin <b>ทางปาก</b> — IV vancomycin ไม่ออกมาใน lumen ลำไส้"],
+       pearls:["ตอบ metronidazole เพราะ 'among the following' — ถ้าช้อยมี oral vancomycin หรือ fidaxomicin ให้เลือกตัวนั้น (ผู้เฉลยเขียนเองว่า 'or vancomycin')","ข้อนี้ติดแท็ก Neuro ร่วมด้วยซึ่งไม่เกี่ยว — เนื้อหาเป็น GI / infection"],
+       members:["MDCU74|RoA|ไม่มีเลข 1@p3"]}
+    ]},
+    {title:"Sexually transmitted infection", sections:[
+      {id:"gonorrhea",
+       title:"Gonococcal urethritis: Gram stain → ceftriaxone 500 mg IM (+ doxycycline)",
+       trend:"MDCU69–79 ถามครบทุกขั้น: สาเหตุ → ส่งตรวจอะไร → วินิจฉัยจาก Gram stain → regimen",
+       asked:["ชาย dysuria + continuous yellow urethral discharge → สาเหตุ = <b>sexual transmission</b>","ไปเที่ยวผู้หญิงบริการ / nightclub 2 วันก่อน มีหนองท่อปัสสาวะ ± ปวดอัณฑะสองข้าง → ส่งตรวจ = <b>urethral swab Gram stain + culture</b> (ตัวลวง UA + empirical oral ATB, US testis, TRUS, cystoscopy)","หนองท่อปัสสาวะ Gram stain intracellular GN diplococci → <b>gonorrhea / gonococcal urethritis</b> (ตัวลวง chlamydia, trichomonas, ureaplasma, prostatitis) — ออกซ้ำ","GN diplococci ไม่มี chlamydia testing → <b>ceftriaxone IM + doxycycline oral</b> (ตัวลวง benzathine penicillin, azithromycin อย่างเดียว, cipro + metronidazole)","GN diplococci ผู้ป่วยบอกว่าคงกินยา 7 วันไม่ครบ → <b>ceftriaxone 500 mg IM + azithromycin 1 g single dose</b>"],
+       pattern:["<b>Gram stain</b> หนองท่อปัสสาวะชายที่มีอาการ: intracellular <b>gram-negative diplococci</b> ใน PMN = N. gonorrhoeae (sensitivity / specificity > 95%) + ส่ง <b>NAAT</b> / culture สำหรับ gonorrhea และ chlamydia","<b>CDC 2021</b>: <b>ceftriaxone 500 mg IM ครั้งเดียว</b> (น้ำหนัก ≥ 150 kg → 1 g) — เลิก dual therapy กับ azithromycin; ถ้ายังไม่ได้ตัด chlamydia → เพิ่ม <b>doxycycline 100 mg วันละ 2 ครั้ง 7 วัน</b> · ยากินใหม่ zoliflodacin / gepotidacin (FDA อนุมัติ ธ.ค. 2025) สำรองไว้เมื่อเชื้อดื้อหรือใช้ ceftriaxone ไม่ได้ — ceftriaxone ยังเป็นยาแรก","Chlamydia ทางเลือกเมื่อกังวล adherence / ตั้งครรภ์ → <b>azithromycin 1 g single dose</b> (CDC 2021 alternative; ตรงกับสไลด์อาจารย์)","<b>Epididymo-orchitis จาก STI</b> (ชายวัยมีเพศสัมพันธ์): ceftriaxone 500 mg IM + doxycycline 10 วัน (CDC 2021); ปวดข้างเดียวเฉียบพลันต้องแยก torsion ก่อน","ทุกราย: รักษาคู่นอน (expedited partner therapy), งดเพศสัมพันธ์ 7 วันหลังรักษาและจนคู่นอนรักษาครบ, ตรวจ HIV / syphilis, retest ~3 เดือน"],
+       pearls:["จำ regimen เก่า ceftriaxone + azithromycin เป็นค่าเริ่มต้น — ปัจจุบันคู่ของ ceftriaxone เมื่อยังไม่ตัด chlamydia คือ doxycycline; azithromycin ใช้เมื่อมีเหตุ (adherence)","Chlamydia ไม่เห็นใน Gram stain","ตรวจแค่ UA แล้วจ่ายยาโดยไม่หาเชื้อและไม่รักษาคู่นอน = ผิด"],
+       members:["MDCU69|RoC|R13","MDCU77|RoB|Uro 3","MDCU69|RoC|14","MDCU79|RoD|Uro 9","MDCU77|RoC|Uro 8","MDCU79|RoC|URO 11","MDCU74|RoD|38"]},
+      {id:"anogenital-warts",
+       title:"Anogenital warts (condyloma acuminata): รักษาและตรวจหารอยโรคที่อื่น",
+       asked:["หญิงมี receptive anal intercourse มี perianal condylomata ที่รักษาด้วย TCA ได้ ตรวจ anal canal ไม่พบรอยโรค → next / additional = <b>per vaginal (pelvic) examination</b> (ตัวลวง imiquimod, antiviral, colonoscopy, stool exam) — ออกซ้ำ","ชายมีเพศสัมพันธ์กับชาย + รูปรอยโรค → รักษา = <b>imiquimod 5% cream</b> (ตัวลวง wide excision, systemic anti-HPV, acyclovir, benzathine penicillin)"],
+       pattern:["HPV 6 / 11 → condyloma acuminata (ขรุขระคล้ายดอกกะหล่ำ)","รักษา (<b>CDC 2021</b>): ผู้ป่วยทาเอง — <b>imiquimod 3.75% / 5% cream</b>, podofilox 0.5%, sinecatechins 15% · แพทย์ทำ — cryotherapy, <b>TCA / BCA 80–90%</b>, surgical removal (tangential excision, curettage, electrosurgery) · <b>ไม่มียาต้านไวรัส HPV</b>","หารอยโรคตำแหน่งอื่นและ STI อื่น — หญิง → <b>ตรวจภายใน (speculum)</b> เมื่อรอยโรคถึง introitus / มีอาการทางช่องคลอด หรือสงสัยรอยโรคภายใน (BASHH 2024); คัดกรองมะเร็งปากมดลูกตามรอบปกติ ไม่ต้องถี่ขึ้น (CDC 2021) · perianal warts → ตรวจ anal canal (DRE / anoscopy) (CDC 2021) · ตรวจ HIV, syphilis"],
+       pearls:["คีย์ P'Ing (MDCU74 RoA, MDCU75 RoC) ตอบ imiquimod — แต่ imiquimod เป็นการรักษาซ้ำซ้อนกับ TCA ไม่ใช่การประเมินเพิ่มเติม; bank ตอบตรวจภายใน (หารอยโรคที่ vagina / cervix) ซึ่งเป็นการประเมินเพิ่มที่สมเหตุผลที่สุดในช้อย (คีย์ COOK / GUN ของ MDCU75 RoC ก็ตอบตรวจภายใน) — CDC 2021 เองไม่ได้ระบุ speculum เป็นข้อบังคับ","Condyloma lata (syphilis) แบนเรียบชื้น — ถ้าไม่แน่ใจตรวจ syphilis serology"],
+       members:["MDCU75|RoC|Colo 1","MDCU74|RoA|69","MDCU79|RoD|Plastic 10"]},
+      {id:"genital-ulcer-syphilis",
+       title:"Genital herpes และ secondary syphilis",
+       asked:["ตุ่มน้ำเจ็บที่อวัยวะเพศตามรูป → <b>genital herpes</b> (ตัวลวง primary syphilis, HPV, chancroid, molluscum)","ผื่น maculopapular ทั่วตัวรวมฝ่ามือฝ่าเท้า treponemal + nontreponemal บวก → <b>secondary syphilis</b> (ตัวลวง primary, tertiary, early / late latent)"],
+       pattern:["<b>Genital herpes</b> (HSV-2 > HSV-1): vesicles เป็นกลุ่ม แตกเป็นแผลตื้น <b>เจ็บ</b> ± ไข้ ต่อมน้ำเหลืองขาหนีบโต → ยืนยันด้วย PCR จากแผล → acyclovir / valacyclovir","<b>Syphilis</b>: primary = <b>chancre ไม่เจ็บ</b> ขอบแข็ง · <b>secondary</b> (หลัง chancre ~4–10 สัปดาห์) = ผื่น maculopapular ทั่วตัว<b>รวมฝ่ามือฝ่าเท้า</b>, condyloma lata, mucous patch, lymphadenopathy; serology บวกเกือบ 100% · latent = serology บวกแต่<b>ไม่มีอาการ</b> · tertiary = gumma, cardiovascular, neurosyphilis","รักษา primary / secondary / early latent: <b>benzathine penicillin G 2.4 million units IM ครั้งเดียว</b> (CDC 2021)","Chancroid = แผลเจ็บขอบไม่เรียบ + bubo เป็นหนอง"],
+       pearls:["แผลที่อวัยวะเพศแล้วตอบ syphilis เสมอ — chancre ไม่เจ็บและไม่เป็นตุ่มน้ำ","Serology บวก + มีผื่น ไม่ใช่ latent"],
+       members:["MDCU77|RoA|Uro 6","MDCU75|RoC|Uro 4"]}
+    ]},
+    {title:"Skin, soft tissue, hand และ neck infection", sections:[
+      {id:"folliculitis",
+       title:"Folliculitis และ pyoderma อื่น: วินิจฉัยจากรูปและการรักษา",
+       trend:"ให้รูปตุ่มหนองเล็ก ๆ ที่รูขุมขน — คำตอบเดิมทุกครั้ง",
+       asked:["รูปตุ่มหนองเล็กหลายตุ่มที่ hair follicle บริเวณคาง / หน้า → <b>folliculitis</b> (ตัวลวง furuncle, carbuncle, cellulitis, necrotizing fasciitis, impetigo, erysipelas) — ออกซ้ำ","หญิงสุขภาพดี รอยโรคเจ็บที่รักแร้ขวาตามรูป → <b>topical antibiotics</b> (ตัวลวง cold compress + NSAID, wide excision, I&D, oral ATB)"],
+       pattern:["<b>Folliculitis</b> = ติดเชื้อผิวเผินของรูขุมขน (S. aureus) → ตุ่มหนองเล็กหลายตุ่มมีขนตรงกลาง · <b>furuncle</b> = ฝีของ follicle เดียว · <b>carbuncle</b> = หลาย furuncle รวมกันลงลึก · <b>impetigo</b> = สะเก็ดสีน้ำผึ้ง · <b>erysipelas</b> = แดงนูนขอบชัด (dermis ตื้น) · <b>cellulitis</b> = แดงกระจายขอบไม่ชัด","รักษา folliculitis ไม่มาก: <b>topical antibiotics</b> (mupirocin, fusidic acid, clindamycin) + สุขอนามัย หยุดโกน; oral antibiotics เมื่อเป็นมาก / ซ้ำ / มี cellulitis · <b>furuncle / carbuncle / abscess</b> → I&D (IDSA 2014) ± antibiotics เมื่อมี SIRS","Wide excision ใช้กับ hidradenitis suppurativa เรื้อรัง ไม่ใช่ folliculitis"],
+       pearls:["คีย์ MDCU77 RoB เองไม่แน่ใจ (topical vs oral) — bank ตอบ topical ความมั่นใจปานกลาง"],
+       members:["MDCU67|RoA|35","MDCU67|RoC|33","MDCU66|RoD|39","MDCU77|RoB|Plastic 11"]},
+      {id:"hidradenitis",
+       title:"Hidradenitis suppurativa: ลักษณะที่ไม่ใช่",
+       asked:["ลักษณะของ hidradenitis suppurativa ยกเว้น → <b>raised red scaly plaques ที่เข่า ข้อศอก หนังศีรษะ</b> (= psoriasis; ข้อที่ถูก: ปวดมาก, nodule อักเสบใน apocrine area, discharge กลิ่นเหม็น, chronic relapsing)"],
+       pattern:["Chronic relapsing inflammation ของ folliculopilosebaceous unit ใน <b>apocrine-bearing area</b> (axilla, groin, perineum, inframammary): painful nodules → abscess → sinus tracts + double-ended comedones + discharge กลิ่นเหม็น + scar","<b>Hurley staging</b> (I nodule / abscess ไม่มี sinus · II recurrent + sinus tract แยกกัน · III diffuse interconnected tracts) ใช้เลือกการรักษา: ยา (clindamycin + rifampicin, tetracycline, adalimumab) → deroofing / <b>wide excision</b> ในโรคเรื้อรัง"],
+       members:["MDCU69|RoA|90"]},
+      {id:"fight-bite",
+       title:"Fight bite (clenched-fist injury) ที่ข้อ MCP → surgical exploration + irrigation",
+       asked:["ต่อยปากเพื่อน วันต่อมาข้อ MCP นิ้วกลางบวม แดงด้านหลัง ขยับไม่ได้ x-ray ไม่หัก → <b>surgical exploration and irrigation</b> (คีย์เก่าตอบ splint + elevation; ตัวลวง joint aspiration, oral ATB นัด 1 สัปดาห์, primary closure)"],
+       pattern:["ฟันกระทบข้อ MCP ขณะกำหมัด → เชื้อในปาก (<b>Eikenella corrodens</b>, streptococci, anaerobes, S. aureus) เข้าข้อ / extensor tendon — แผลเล็กแต่ติดเชื้อลึก (แผลผิวกับแผลเอ็นเลื่อนจากกันเมื่อแบมือ)","มีบวมแดง ขยับไม่ได้ = septic arthritis / tenosynovitis → <b>exploration ในห้องผ่าตัด + irrigation / debridement</b> + IV antibiotics (<b>ampicillin-sulbactam</b> หรือ <b>amoxicillin-clavulanate</b>) + splint + elevation (Green's Operative Hand Surgery 8th, IDSA 2014)","<b>ห้ามเย็บปิดแผล</b>"],
+       pearls:["คีย์เก่า MDCU77 RoC ตอบ splint + elevation อย่างเดียว — bank แก้เป็น exploration + irrigation; splint เป็นแค่ส่วนเสริม","ประเมินแผลเล็กที่ข้อนิ้วว่าไม่รุนแรง = กับดัก"],
+       members:["MDCU77|RoC|Plastic 9"]},
+      {id:"nf-wound-coverage",
+       title:"แผลหลัง debride necrotizing fasciitis ที่มี granulation ดี → split-thickness skin graft",
+       asked:["necrotizing fasciitis หน้าแข้งเหนือ tibia หลัง debride แผล granulation ดี 8 × 6 cm → <b>split-thickness skin graft</b> (ตัวลวง secondary intention, FTSG, local flap, free flap)"],
+       pattern:["<b>Reconstructive ladder</b>: secondary intention → primary closure → skin graft → local flap → regional flap → free flap","Granulation tissue ที่ดี = recipient bed ที่รับ graft ได้ → <b>STSG</b> เหมาะกับแผลใหญ่ (บางกว่า FTSG จึง take ดีกว่า, donor site หายเอง); รอหายเองแผล ~48 cm² ใช้เวลานานและเสี่ยง unstable scar","ต้องใช้ <b>flap</b> เมื่อก้นแผลเป็น bone ที่ไม่มี periosteum, tendon ที่ไม่มี paratenon, hardware หรือข้อเปิด"],
+       pearls:["เห็นตำแหน่ง anterior tibia แล้วตอบ flap — ตัดสินจากสิ่งที่อยู่ก้นแผล ไม่ใช่ตำแหน่ง"],
+       members:["MDCU79|RoD|Plastic 5"]},
+      {id:"infected-tgdc",
+       title:"Infected thyroglossal duct cyst: เชื้อเข้าทาง foramen cecum",
+       asked:["thyroglossal duct cyst ติดเชื้อทางใดบ่อยที่สุด → <b>ทางที่ติดต่อกับ foramen cecum / ช่องปาก</b> (ตัวลวง piriform sinus, hematogenous จาก thyroid, parotid, lymphatic จาก tonsil)"],
+       pattern:["Thyroglossal duct วิ่งจาก <b>foramen cecum</b> ที่โคนลิ้นลงมาถึงตำแหน่ง thyroid → ท่อที่ยังติดต่อช่องปากพาเชื้อในปากเข้ามา → infected TGDC (ก้อนกลางคอขยับตามการแลบลิ้น)","รักษา: antibiotics ให้การอักเสบสงบ แล้ว <b>Sistrunk operation</b> (ตัด cyst + ท่อ + กลาง hyoid ถึง foramen cecum)","ทาง <b>piriform sinus</b> = 3rd / 4th branchial anomaly → acute suppurative thyroiditis / deep neck abscess ด้านซ้ายซ้ำ ๆ"],
+       members:["MDCU76|RoC|Plastic 3"]},
+      {id:"tb-lymphadenitis",
+       title:"Tuberculous cervical lymphadenitis ในเด็ก",
+       asked:["เด็กชาย ต่อมน้ำเหลืองคอโตช้า ไม่เจ็บ TST บวกมาก มีคนในบ้านเป็นวัณโรค → <b>เริ่มยาต้านวัณโรค</b> (ตัวลวง TST ซ้ำ, broad-spectrum ATB 2 สัปดาห์, radiotherapy, observe)"],
+       pattern:["ต่อมน้ำเหลืองคอโตช้า ไม่เจ็บ (± matted, cold abscess, sinus) + TST / IGRA บวก + มีผู้สัมผัส → <b>tuberculous lymphadenitis (scrofula)</b>","ยืนยันด้วย <b>FNA หรือ excisional biopsy</b> (AFB, culture, Xpert MTB/RIF, histology: caseating granuloma) + CXR — โดยเฉพาะเด็กเล็กที่อาจเป็น NTM (รักษาด้วย excision)","รักษา: <b>2HRZE / 4HR</b> (6 เดือน) ตามแนวทางวัณโรคประเทศไทย / WHO"],
+       pearls:["ถ้าช้อยมี FNA / excisional biopsy ควรเลือกการยืนยันชิ้นเนื้อก่อน — ในช้อยชุดนี้ไม่มี จึงตอบเริ่มยา"],
+       members:["MDCU76|RoD|63"]}
+    ]},
+    {title:"Infective endocarditis", sections:[
+      {id:"ie-diagnosis",
+       title:"Infective endocarditis: ไข้ + murmur ใหม่ และลิ้นที่เกี่ยวข้อง",
+       trend:"ให้ไข้ + murmur แล้วถามวินิจฉัย หรือให้ IVDU แล้วถามลิ้น",
+       asked:["IVDU ไข้นาน + pansystolic murmur ใหม่ → <b>infective endocarditis</b>","ชาย 35 ปี หอบเฉียบพลัน ไข้ 38.5 °C pansystolic murmur → IE (ตัวลวง rheumatic fever ใช้ Jones criteria)","ไข้ + diastolic blowing murmur ที่ right parasternal border → <b>IE ของ aortic valve</b>","IVDU เป็น pneumonia ซ้ำ ๆ → <b>right-sided valve vegetation</b> (septic pulmonary emboli)"],
+       pattern:["ไข้ + <b>regurgitant murmur ใหม่</b> = IE จนกว่าจะพิสูจน์ว่าไม่ใช่ → blood culture 3 ชุดก่อนให้ยา + echocardiography (TTE แล้ว TEE) ตาม modified Duke criteria (ESC 2023)","Murmur: pansystolic = MR / TR · <b>early diastolic blowing ที่ sternal border = AR</b> → aortic valve IE (acute AR → heart failure)","<b>IVDU</b> → IE ซีกขวา: <b>tricuspid</b> มากที่สุด (pulmonary รอง), เชื้อ <b>S. aureus</b> → septic pulmonary emboli = pneumonia / lung abscess หลายก้อนซ้ำ ๆ","ข้อบ่งชี้ผ่าตัด (ESC 2023): heart failure, infection ที่คุมไม่ได้ (abscess, fistula, bacteremia ไม่หาย, เชื้อรา / ดื้อยา), ป้องกัน embolism (vegetation ขนาดใหญ่ ≥ 10 mm ร่วมกับ embolic event)"],
+       pearls:["ต้นฉบับ MDCU76 RoD ช้อยเป็น pulmonary valve vegetation (ไม่มี tricuspid) — หลักคือ right-sided"],
+       members:["MDCU73|RoD|CVT 2","MDCU70|RoA|80@p5","MDCU72|RoC|47","MDCU76|RoD|50"]},
+      {id:"ie-prophylaxis",
+       title:"IE prophylaxis ก่อนทำฟัน: ใครไม่ต้องให้",
+       asked:["ผู้ป่วยรายใด <b>ไม่ต้อง</b> ให้ antibiotic prophylaxis ก่อน dental procedure ที่ manipulate gingiva → <b>ASD ที่ผ่าตัดปิดสมบูรณ์ 5 ปีก่อน ไม่มี residual</b> (ต้องให้: TAVR, TOF ที่ทำ BT shunt, mitral repair ด้วย annuloplasty ring, AVR)"],
+       pattern:["<b>AHA 2021 / ESC 2023</b> ให้ prophylaxis เฉพาะ <b>highest risk</b> ก่อนหัตถการฟันที่ manipulate gingiva / periapical region / ทะลุ oral mucosa: (1) <b>prosthetic valve</b> รวม TAVR และ prosthetic material ที่ใช้ซ่อมลิ้น (annuloplasty ring, chords) (2) เคยเป็น IE (3) <b>unrepaired cyanotic CHD</b> รวม palliative shunt / conduit (4) CHD ที่ซ่อมด้วย prosthetic material / device <b>ภายใน 6 เดือนแรก</b> (5) repaired CHD ที่มี residual shunt / regurgitation ข้าง prosthetic material (6) heart transplant ที่มี valvulopathy","ยา: <b>amoxicillin 2 g PO 30–60 นาทีก่อนทำ</b>; แพ้ penicillin → azithromycin / clarithromycin หรือ doxycycline (AHA 2021 ไม่แนะนำ clindamycin แล้ว)"],
+       pearls:["'เคยผ่าตัดหัวใจ' ไม่ได้แปลว่าต้องให้ทุกราย — ASD / VSD / PDA ที่ซ่อมสมบูรณ์เกิน 6 เดือนและไม่มี residual ไม่ต้องให้"],
+       members:["MDCU79|RoD|CVT 7"]},
+      {id:"pve",
+       title:"Prosthetic valve endocarditis ที่ต้องผ่าตัด → เปลี่ยนลิ้นใหม่",
+       asked:["หญิง 70 ปี เคยทำ mechanical MVR 30 ปีก่อน เป็น PVE ที่ต้องผ่าตัด → <b>MVR ด้วย bileaflet mechanical valve</b> (ตัวลวง mitral repair, caged-ball valve, autologous tissue valve, transcatheter valve-in-valve)"],
+       pattern:["PVE ที่มีข้อบ่งชี้ผ่าตัด → <b>เอาลิ้นเทียมออก + radical debridement + ใส่ลิ้นใหม่</b> — ซ่อมลิ้นเทียมไม่ได้, transcatheter valve-in-valve ไม่ทำในการติดเชื้อ active","ลิ้น mechanical ปัจจุบัน = <b>bileaflet</b> (hemodynamics ดี, thrombogenic น้อยกว่า caged-ball ที่เลิกใช้แล้ว); ชนิดลิ้น (mechanical vs bioprosthetic) ไม่มีผลต่อการติดเชื้อซ้ำ — เลือกตามอายุและการกิน anticoagulant"],
+       pearls:["ถ้าช้อยมี bioprosthetic valve ทั่วไป ผู้ป่วยอายุ 70 ปีก็เหมาะได้ตาม ACC/AHA 2020 — แต่ในช้อยชุดนี้ bileaflet mechanical ดีที่สุด"],
+       members:["MDCU78|RoA|11"]}
+    ]},
+    {title:"ติดแท็กนี้แต่เนื้อหาไม่ใช่การติดเชื้อ", sections:[
+      {id:"crc-secondary-prevention",
+       title:"Secondary prevention ของมะเร็งลำไส้ใหญ่ = colonoscopic polypectomy",
+       asked:["ชาย 55 ปีไม่มีอาการ colonoscopy พบ tubular adenoma 1 cm ที่ sigmoid — intervention ใดเป็น secondary prevention → <b>colonoscopic polypectomy</b> (ตัวลวง serum CEA, PET, FOBT, high-fiber diet)"],
+       pattern:["Primary = ลดปัจจัยเสี่ยงไม่ให้เกิดโรค · <b>secondary = ตรวจคัดกรองและรักษารอยโรคระยะแรกก่อนมีอาการ</b> (screening + polypectomy ตามสไลด์อาจารย์และ USPSTF 2021) · tertiary = ลดภาวะแทรกซ้อน / การกลับเป็นซ้ำเมื่อเป็นโรคแล้ว","Adenoma–carcinoma sequence (APC → KRAS → SMAD4 / DCC → TP53) ใช้เวลาราว 10 ปี — ตัด adenoma ลด incidence และการตาย"],
+       pearls:["ผู้ป่วยรายนี้ส่องกล้องพบ adenoma แล้ว FOBT จึงไม่มีประโยชน์ต่อเขา","ติดแท็ก Neuro + Surgical infection ผิด — ควรเป็น Onco / Colorectal"],
+       members:["MDCU74|RoC|13@p10"]},
+      {id:"metachronous-crlm",
+       title:"Metachronous colorectal liver metastasis",
+       asked:["ชาย 60 ปี ปวดใต้ชายโครงขวา 3 เดือน เคยผ่าตัด right hemicolectomy + chemo 3 ปีก่อน LFT ปกติ US hyperechoic mass เดียว → <b>metachronous colorectal liver metastasis</b> (ตัวลวง synchronous / metachronous HCC, cholangiocarcinoma, synchronous CRLM)"],
+       pattern:["ตับเป็นตำแหน่งแพร่กระจายที่พบบ่อยที่สุดของ CRC (portal venous drainage); <b>synchronous</b> = พบพร้อม primary (หรือภายใน ~6 เดือน) · <b>metachronous</b> = พบหลังรักษา primary ไปแล้ว","US: metastasis จาก colon มักเป็น hyperechoic หรือ target lesion; CT portal venous phase มักเป็น hypodense + rim enhancement","ไม่มี cirrhosis / HBV / HCV และ LFT ปกติ → ไม่นึกถึง HCC ก่อน; ต่อด้วย CEA + CT chest–abdomen–pelvis (± liver MRI / PET) แล้ว MDT ประเมิน resectability"],
+       pearls:["ติดแท็ก CVT + Surgical infection ผิด — ควรเป็น Onco / HPB"],
+       members:["MDCU70|RoA|80@p50"]}
+    ]}
+  ]});

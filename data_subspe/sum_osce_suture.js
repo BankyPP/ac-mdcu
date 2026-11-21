@@ -1,460 +1,304 @@
-SUMM.push({
- "tag": "suture",
- "title": "Suture materials",
- "intro": "<ul><li>สถานีไหมเย็บแผลออก <b>ทุก rotation</b> (MDCU65–67) — วางไหม 2–3 ชนิด (ในซองที่ปิดชื่อ generic หรือแกะออกมาแล้ว) ไม่มี examiner</li><li>ลำดับคำถามแทบเหมือนเดิมทุกครั้ง: <b>generic name → จำแนก 3 มิติ (natural / synthetic · monofilament / multifilament · absorbable / non-absorbable) → ใช้ทำอะไร</b> แล้วบางครั้งปิดด้วยคำถามเลือกไหม: <b>เย็บผิวหนังได้เส้นไหน</b>, เย็บลำไส้ได้เส้นไหน, เย็บกล้ามเนื้อใช้เส้นไหน</li><li><b>ไหมที่วนออก:</b> silk และ polypropylene (Prolene) แทบทุก rotation · polyglactin 910 (Vicryl) · catgut (plain / chromic) · nylon · polydioxanone (PDS)</li><li>คะแนนให้ต่อไหม: ต้องเป็น <b>generic name</b> (ชื่อการค้า Prolene / Vicryl / PDS ได้ครึ่งเดียวหรือ 0 ในบาง rotation) และต้องถูก <b>ครบทั้ง 3 มิติ</b> จึงได้คะแนนไหมนั้น</li><li>MDCU79 RoC: ไหมผูกท่อน้ำดีและไหมปิดแผล — ซองปิดชื่อด้วยเทปดำ ถามชื่อการค้า generic multi/mono absorb</li><li>AC Subspe MDCU78 OSCE (78A, 78B, 78C) เพิ่มเข้ามา: เลือกไหม 4 งานจาก 5 ชนิด (78A), ไหมใน laparotomy + bowel anastomosis (78B, 78C)</li></ul>",
- "groups": [
-  {
-   "title": "Generic name + classification (3 มิติ)",
-   "sections": [
-    {
-     "id": "framework",
-     "title": "หลักจำแนกไหม 3 มิติ และ monofilament vs multifilament",
-     "trend": "ทุกสถานีไหมมีข้อย่อยจำแนก 3 มิติ — ตอบเป็นแม่แบบเดียวกันทุกเส้น",
-     "asked": [
-      "Classify / describe each suture by origin, structure and absorbability",
-      "State material, absorbability, monofilament or multifilament",
-      "อ่านซองแล้วบอก generic name + คุณสมบัติ"
-     ],
-     "flow": [
-      "ระบุ generic name (แปลงจากชื่อการค้า / สี / ลักษณะเส้น)",
-      "Origin: natural (catgut, silk) vs synthetic",
-      "Structure: monofilament vs braided multifilament",
-      "Absorbability: absorbable (ระบุกลไก + ระยะคงแรงดึงถ้าจำได้) vs non-absorbable",
-      "(ถ้าถาม) use ที่สอดคล้องกับคุณสมบัติ"
-     ],
-     "pattern": [
-      "ตอบเป็นแถวต่อไหม: <b>ชื่อ generic: natural / synthetic · mono / multi · absorbable / non-absorbable</b>",
-      "<b>ตารางในหัว:</b> silk = natural · braided · non-absorbable · polypropylene = synthetic · mono · non-absorbable · nylon = synthetic · mono · non-absorbable · polyglactin 910 = synthetic · braided · absorbable · polydioxanone = synthetic · mono · absorbable (ช้า) · catgut = natural · twisted (มักจัด mono) · absorbable",
-      "<b>Monofilament:</b> ผ่านเนื้อเยื่อลื่น tissue drag น้อย เชื้อเกาะน้อย แต่ knot security ต่ำ / memory สูง ต้องผูกหลาย throw",
-      "<b>Braided multifilament:</b> ผูกง่าย ปมแน่น แต่มี capillarity (wicking) เก็บเชื้อ — ไม่เหมาะกับแผลติดเชื้อ",
-      "<b>กลไกสลาย:</b> synthetic absorbable = hydrolysis (อักเสบน้อย) · natural (catgut) = proteolysis / enzyme (tissue reaction มาก)"
-     ],
-     "kw": [
-      "generic name",
-      "natural vs synthetic",
-      "monofilament vs braided multifilament",
-      "absorbable vs non-absorbable",
-      "hydrolysis vs proteolysis",
-      "knot security / capillarity"
-     ],
-     "pearls": [
-      "ขาดมิติใดมิติหนึ่งของไหมเส้นใดจะไม่ได้คะแนนเส้นนั้น — เขียนครบ 3 คำทุกเส้นเสมอ",
-      "ตอบ catgut หรือ silk ว่า synthetic ไม่ได้คะแนนมิตินั้น"
-     ],
-     "members": [
-      "MDCU67|RoA|12#2",
-      "MDCU67|RoB|13#2",
-      "MDCU67|RoC|12#2",
-      "MDCU67|RoD|9#2",
-      "MDCU66|RoA|8#2",
-      "MDCU66|RoB|10#2",
-      "MDCU66|RoC|12#2",
-      "MDCU66|RoD|2#1",
-      "MDCU65|RoA|5#1",
-      "MDCU65|RoB|1#1",
-      "MDCU65|RoC|9#1",
-      "MDCU65|RoC|9#2"
-     ]
-    },
-    {
-     "id": "silk",
-     "title": "Silk — natural · braided multifilament · non-absorbable",
-     "trend": "เกือบทุกชุดไหมมี silk (ไหมดำถัก)",
-     "asked": [
-      "ไหมสีดำถักในซอง / แกะแล้ว → generic name + classify + use",
-      "ซองชื่อการค้า → generic + filament + absorbability + use"
-     ],
-     "flow": [
-      "Name: silk (สีดำ ถัก)",
-      "Classify 3 มิติ",
-      "Use"
-     ],
-     "pattern": [
-      "<b>Silk:</b> natural (โปรตีนจากรังไหม) · <b>braided multifilament</b> · <b>non-absorbable</b> (ถูกย่อยช้ามากเป็นปี แต่จัดเป็น non-absorbable)",
-      "ผูกง่าย ปมแน่นที่สุด แต่ tissue reaction มาก และเสี่ยงติดเชื้อ (wicking)",
-      "<b>Use:</b> ligature ผูกหลอดเลือด, เย็บยึด drain / tube กับผิวหนัง, ชั้น seromuscular (Lembert) ของการต่อลำไส้, เย็บผิวหนังได้ (หนังศีรษะ, ยึดท่อ)"
-     ],
-     "kw": [
-      "silk",
-      "natural",
-      "braided multifilament",
-      "non-absorbable",
-      "ligature, secure drain to skin"
-     ],
-     "pearls": [
-      "ไม่ใช้ในทางเดินปัสสาวะ / ท่อน้ำดี (เป็นแกนให้เกิดนิ่ว) และไม่เหมาะกับแผลติดเชื้อ"
-     ],
-     "members": [
-      "MDCU67|RoB|13#1",
-      "MDCU67|RoB|13#2",
-      "MDCU67|RoC|12#1",
-      "MDCU67|RoC|12#2",
-      "MDCU66|RoA|8#1",
-      "MDCU66|RoA|8#2",
-      "MDCU66|RoB|10#1",
-      "MDCU66|RoB|10#2",
-      "MDCU66|RoC|12#1",
-      "MDCU66|RoC|12#2",
-      "MDCU66|RoD|2#1",
-      "MDCU65|RoB|1#1",
-      "MDCU79|RoC|10#2"
-     ]
-    },
-    {
-     "id": "polypropylene",
-     "title": "Polypropylene (Prolene) — synthetic · monofilament · non-absorbable",
-     "trend": "ไหมสีน้ำเงิน monofilament ที่ออกแทบทุก rotation — ต้องตอบชื่อ generic ไม่ใช่ Prolene",
-     "asked": [
-      "ซอง Prolene (ปิดชื่อ generic) → generic name + classify + use",
-      "ไหมสีฟ้า monofilament → name (ยอมรับ nylon หรือ polypropylene)"
-     ],
-     "flow": [
-      "Name: polypropylene (ชื่อการค้า Prolene)",
-      "Classify 3 มิติ",
-      "Use"
-     ],
-     "pattern": [
-      "<b>Polypropylene:</b> synthetic · <b>monofilament</b> · <b>non-absorbable</b> · ผิวลื่น tissue reaction ต่ำ แต่ปมลื่นต้องผูกหลาย throw",
-      "<b>Use:</b> <b>vascular anastomosis</b> (ผิวเรียบ ลด thrombosis), ปิด fascia / abdominal wall, ยึด mesh ใน hernia repair, เย็บผิวหนัง (รวม subcuticular แบบดึงออกได้)"
-     ],
-     "kw": [
-      "polypropylene",
-      "synthetic",
-      "monofilament",
-      "non-absorbable",
-      "vascular anastomosis",
-      "mesh fixation"
-     ],
-     "pearls": [
-      "ตอบ ‘Prolene’ (ชื่อการค้า) แทน polypropylene ได้แค่ครึ่งคะแนน หรือ 0 ใน rotation ที่ rubric ระบุว่าต้องเป็น generic name"
-     ],
-     "members": [
-      "MDCU67|RoA|12#1",
-      "MDCU67|RoA|12#2",
-      "MDCU67|RoB|13#1",
-      "MDCU67|RoB|13#2",
-      "MDCU67|RoC|12#1",
-      "MDCU66|RoA|8#1",
-      "MDCU66|RoA|8#2",
-      "MDCU66|RoB|10#1",
-      "MDCU66|RoB|10#2",
-      "MDCU66|RoC|12#1",
-      "MDCU66|RoC|12#2",
-      "MDCU66|RoD|2#1"
-     ]
-    },
-    {
-     "id": "polyglactin",
-     "title": "Polyglactin 910 (Vicryl) — synthetic · braided · absorbable",
-     "trend": "ไหมสีม่วงถักที่ออกบ่อยรองลงมา — มักให้อ่านซองหรือเทียบกับ nylon",
-     "asked": [
-      "ซอง Vicryl / ไหมสีม่วงถัก → generic name + classify + use",
-      "อ่านซองไหม → generic name + คุณสมบัติ + ข้อมูลบนซอง + use",
-      "opened suture B → name, origin, filament structure, absorbability",
-      "ไหมผูกท่อน้ำดี: ชื่อการค้า generic filament absorbability (79C)"
-     ],
-     "flow": [
-      "Name: polyglactin 910 (copolymer glycolide + lactide, เคลือบ)",
-      "Classify 3 มิติ + ระยะเวลา",
-      "Use / ไม่เหมาะกับอะไร"
-     ],
-     "pattern": [
-      "<b>Polyglactin 910:</b> synthetic · <b>braided multifilament</b> (coated) · <b>absorbable</b> โดย hydrolysis",
-      "คงแรงดึง ~75% ที่ 2 สัปดาห์ · ~50% ที่ 3 สัปดาห์ · ดูดซึมหมด ~56–70 วัน · Vicryl Rapide สลายเร็วกว่ามาก (ใช้ผิวหนัง / mucosa ที่ไม่อยากตัดไหม)",
-      "<b>Use:</b> ชั้น subcutaneous / subcuticular, ผูกหลอดเลือดเล็ก, กล้ามเนื้อ / fascia ที่ไม่รับแรงนาน, bowel anastomosis, mucosa ช่องปาก",
-      "<b>ไม่เหมาะ:</b> abdominal fascia ที่ตึง, vascular anastomosis, tendon (ต้องการแรงนาน)"
-     ],
-     "kw": [
-      "polyglactin 910",
-      "synthetic",
-      "braided multifilament",
-      "absorbable (hydrolysis)",
-      "50% at 3 weeks, absorbed 56–70 days",
-      "subcuticular, ligature, anastomosis"
-     ],
-     "pearls": [
-      "เฉลยพิมพ์ของ MDCU67 RoA ใส่คุณสมบัติ Vicryl ผิด — ที่ถูกคือ braided + absorbable (ตอบ mono / non-absorbable ถูกหัก)",
-      "ชื่อ generic คือ polyglactin 910 ไม่ใช่ ‘polyglycolic acid’ (Dexon)"
-     ],
-     "members": [
-      "MDCU67|RoA|12#1",
-      "MDCU67|RoA|12#2",
-      "MDCU67|RoD|9#1",
-      "MDCU67|RoD|9#2",
-      "MDCU66|RoA|8#1",
-      "MDCU66|RoA|8#2",
-      "MDCU66|RoD|2#1",
-      "MDCU65|RoA|5#1",
-      "MDCU65|RoC|9#2",
-      "MDCU79|RoC|10#2"
-     ]
-    },
-    {
-     "id": "catgut",
-     "title": "Catgut (plain / chromic) — natural · twisted · absorbable",
-     "trend": "ไหมสีน้ำตาลขดในน้ำยา ยังออกบ่อยในชุดไหมของไทย",
-     "asked": [
-      "ไหมสีน้ำตาลทอง / ขดในน้ำยา → generic name + classify + use"
-     ],
-     "flow": [
-      "Name: plain หรือ chromic catgut (surgical gut)",
-      "Classify 3 มิติ",
-      "Use"
-     ],
-     "pattern": [
-      "<b>Catgut:</b> natural (collagen จาก submucosa ลำไส้แกะ / serosa วัว) · twisted ขัดผิวจนคล้าย monofilament (บางตำราจัด multifilament — ตอบได้ทั้งคู่) · <b>absorbable</b> ด้วย proteolysis / phagocytosis → tissue reaction มาก",
-      "Plain gut คงแรงดึง ~7–10 วัน · <b>chromic</b> (เคลือบเกลือโครเมียม) คงแรงดึง ~2–3 สัปดาห์ ดูดซึม ~90 วัน",
-      "<b>Use:</b> mucosa ที่หายเร็ว (ช่องปาก, ชั้นในของลำไส้), ผูกหลอดเลือดเล็กใน subcutaneous, perineum / episiotomy, circumcision, กระเพาะปัสสาวะ"
-     ],
-     "kw": [
-      "chromic catgut",
-      "natural (collagen)",
-      "absorbable — proteolysis",
-      "twisted (monofilament)",
-      "mucosa, episiotomy, small vessel ligature"
-     ],
-     "pearls": [
-      "ห้ามตอบว่า catgut เป็น synthetic",
-      "ไม่ใช้เย็บผิวหนังทั่วไป (reaction มาก) — ตอบ catgut ในข้อย่อยเย็บผิวหนังถูกหัก"
-     ],
-     "members": [
-      "MDCU67|RoB|13#1",
-      "MDCU67|RoB|13#2",
-      "MDCU67|RoC|12#1",
-      "MDCU67|RoC|12#2",
-      "MDCU67|RoD|9#1",
-      "MDCU67|RoD|9#2",
-      "MDCU66|RoB|10#1",
-      "MDCU66|RoB|10#2",
-      "MDCU66|RoC|12#1",
-      "MDCU66|RoC|12#2"
-     ]
-    },
-    {
-     "id": "nylon",
-     "title": "Nylon (polyamide) — synthetic · monofilament · non-absorbable",
-     "trend": "ไหมสีน้ำเงิน / ดำเส้นเดี่ยวสำหรับเย็บผิวหนัง",
-     "asked": [
-      "ไหมสีน้ำเงินเส้นเดี่ยว → generic name + classify + use",
-      "opened suture A → name, origin, filament structure, absorbability"
-     ],
-     "flow": [
-      "Name: nylon / polyamide (Ethilon, Dafilon, Dermalon)",
-      "Classify 3 มิติ",
-      "Use"
-     ],
-     "pattern": [
-      "<b>Nylon:</b> synthetic · <b>monofilament</b> · <b>non-absorbable</b> (สลายช้ามาก ~15–20% ต่อปี แต่จัดเป็น non-absorbable) · memory สูง ต้องผูกหลาย throw · tissue reaction น้อย",
-      "<b>Use:</b> <b>skin closure</b> ที่ตัดไหมออกภายหลัง, microsurgery (8-0 ถึง 10-0)"
-     ],
-     "kw": [
-      "nylon (polyamide)",
-      "synthetic",
-      "monofilament",
-      "non-absorbable",
-      "skin closure"
-     ],
-     "pearls": [
-      "ไหมสีฟ้า monofilament ที่ไม่มีซองตอบได้ทั้ง nylon หรือ polypropylene (rubric MDCU67 RoC)"
-     ],
-     "members": [
-      "MDCU67|RoC|12#1",
-      "MDCU67|RoC|12#2",
-      "MDCU67|RoD|9#1",
-      "MDCU67|RoD|9#2",
-      "MDCU65|RoC|9#1",
-      "MDCU79|RoC|10#3"
-     ]
-    },
-    {
-     "id": "pds",
-     "title": "Polydioxanone (PDS) — synthetic · monofilament · absorbable ช้า",
-     "trend": "ออกเป็นซอง PDS ให้แยกจาก Vicryl และ Prolene",
-     "asked": [
-      "ซอง PDS II (ปิดชื่อ) → generic name + classify + use",
-      "ซอง PDS คู่ silk → generic + classify + use",
-      "ไหมปิดแผล (fascia): PDS (79C)"
-     ],
-     "flow": [
-      "Name: polydioxanone",
-      "Classify 3 มิติ",
-      "Use"
-     ],
-     "pattern": [
-      "<b>Polydioxanone:</b> synthetic · <b>monofilament</b> · <b>absorbable แบบช้า</b> (hydrolysis) — คงแรงดึงหลายสัปดาห์ (ราว 4–6 สัปดาห์) ดูดซึมหมด ~6 เดือน",
-      "<b>Use:</b> <b>ปิด fascia หน้าท้อง</b> (looped PDS, continuous small bites), bowel / biliary anastomosis, ศัลยกรรมเด็ก, subcuticular",
-      "เทียบ absorbable: Monocryl (poliglecaprone, mono, สลายเร็ว — subcuticular) &lt; Vicryl (braided ~3 สัปดาห์) &lt; PDS (mono, นานสุด — fascia)"
-     ],
-     "kw": [
-      "polydioxanone",
-      "synthetic",
-      "monofilament",
-      "absorbable (slow)",
-      "abdominal fascia closure"
-     ],
-     "pearls": [
-      "อย่าสลับ PDS เป็น non-absorbable — monofilament ไม่ได้แปลว่าไม่ละลาย"
-     ],
-     "members": [
-      "MDCU67|RoA|12#1",
-      "MDCU67|RoA|12#2",
-      "MDCU65|RoB|1#1",
-      "MDCU79|RoC|10#3"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "การเลือกใช้ไหม",
-   "sections": [
-    {
-     "id": "use-by-tissue",
-     "title": "Use of each suture — เลือกไหมตามเนื้อเยื่อ",
-     "trend": "ทุกสถานีถาม ‘give one use of each’ — ให้ตอบ use ที่เข้ากับคุณสมบัติ",
-     "asked": [
-      "Give one example of the use of each suture",
-      "State its uses (คู่กับ generic name + คุณสมบัติ)",
-      "เลือกไหมผูก bile duct (absorbable) และปิดแผล (79C)",
-      "ไหม 5 อัน → เย็บเชื่อมหลอดเลือดแดง / ผูกหลอดเลือดดำ / ซ่อมกล้ามเนื้อ / skin (78A)"
-     ],
-     "flow": [
-      "นึกคุณสมบัติก่อน (absorbable? mono?)",
-      "จับคู่กับเนื้อเยื่อที่ต้องการแรงยึดนาน / สั้น",
-      "ตอบ use อย่างน้อย 1 ต่อไหม"
-     ],
-     "pattern": [
-      "<b>หลัก:</b> เนื้อเยื่อหายเร็ว / อยู่ลึก / ไม่อยากตัดไหม → absorbable (ลำไส้, subcutaneous, mucosa) · ต้องรับแรงนาน → non-absorbable หรือ absorbable ช้า (fascia, หลอดเลือด, tendon, mesh) · ผิวหนังที่จะตัดไหม → non-absorbable monofilament",
-      "<b>Silk:</b> ligature, ยึด drain / tube กับผิวหนัง, Lembert seromuscular · <b>Polypropylene:</b> vascular anastomosis, fascia, mesh, skin · <b>Nylon:</b> skin closure, microsurgery",
-      "<b>Polyglactin:</b> subcutaneous / subcuticular, ligature เล็ก, bowel anastomosis, mucosa · <b>PDS:</b> abdominal fascia, bowel / biliary, เด็ก · <b>Chromic catgut:</b> mucosa ช่องปาก / ช่องคลอด, episiotomy, ligature เล็ก",
-      "ท่อน้ำดี/ทางเดินปัสสาวะใช้ absorbable (non-absorbable เป็น nidus นิ่ว)"
-     ],
-     "kw": [
-      "vascular anastomosis — polypropylene",
-      "ligature / secure drain — silk",
-      "subcuticular — polyglactin",
-      "fascia — PDS / polypropylene",
-      "skin — nylon",
-      "mucosa / episiotomy — chromic catgut"
-     ],
-     "pearls": [
-      "silk / ไหมไม่ละลายในกระเพาะปัสสาวะหรือท่อน้ำดีทำให้เกิดนิ่ว",
-      "ตอบ use ที่ขัดกับคุณสมบัติ (เช่น catgut เย็บ fascia หน้าท้อง, Vicryl ต่อหลอดเลือด) ไม่ได้คะแนน"
-     ],
-     "members": [
-      "MDCU67|RoA|12#3",
-      "MDCU67|RoB|13#3",
-      "MDCU67|RoC|12#3",
-      "MDCU67|RoD|9#3",
-      "MDCU66|RoA|8#3",
-      "MDCU66|RoB|10#3",
-      "MDCU66|RoC|12#3",
-      "MDCU66|RoD|2#1",
-      "MDCU65|RoA|5#1",
-      "MDCU65|RoB|1#1",
-      "MDCU79|RoC|10#2",
-      "MDCU79|RoC|10#3",
-      "MDCU78|RoA|24#1"
-     ]
-    },
-    {
-     "id": "skin-closure",
-     "title": "ไหมเส้นไหนเย็บผิวหนังได้ (skin closure)",
-     "trend": "ข้อย่อยปิดท้ายที่ออกซ้ำ — ตอบได้มากกว่าหนึ่งเส้น",
-     "asked": [
-      "Which of these sutures can be used to close skin? (more than one answer is possible) — ชุด nylon + chromic catgut + silk / silk + Vicryl + Prolene / Prolene + chromic catgut + silk"
-     ],
-     "flow": [
-      "คัดไหม non-absorbable ออกมาก่อน",
-      "จัดลำดับ: monofilament ดีที่สุด → silk ใช้ได้",
-      "ตัดไหมที่ไม่ควรใช้ออกพร้อมเหตุผล"
-     ],
-     "pattern": [
-      "<b>ตอบทุกเส้นที่เป็น non-absorbable:</b> nylon / polypropylene (ดีที่สุด — monofilament reaction น้อย แผลเป็นน้อย) + silk (ใช้ได้ แต่ reaction มากกว่า เช่น หนังศีรษะ, ยึดท่อ)",
-      "Polyglactin ใช้ได้เฉพาะ subcuticular (หรือ Vicryl Rapide) — ไม่ใช่ไหม interrupted skin มาตรฐาน",
-      "Chromic catgut ไม่ใช้เย็บผิวหนังทั่วไป (reaction มาก) ยกเว้นบางกรณีในเด็ก / หน้าที่ไม่อยากตัดไหม"
-     ],
-     "kw": [
-      "non-absorbable monofilament — nylon / polypropylene",
-      "silk acceptable",
-      "not catgut"
-     ],
-     "pearls": [
-      "ตอบเส้นเดียว (nylon หรือ polypropylene) ได้ครึ่งคะแนน — ต้องใส่ silk ด้วย",
-      "ตอบ catgut ถูกหัก · ไฟล์ MDCU66 RoA ตอบ silk + Vicryl — ได้เพียงบางส่วน ที่ถูกคือ silk + polypropylene"
-     ],
-     "members": [
-      "MDCU67|RoC|12#4",
-      "MDCU66|RoA|8#4",
-      "MDCU66|RoC|12#4"
-     ]
-    },
-    {
-     "id": "bowel-muscle",
-     "title": "ไหมเย็บลำไส้ (bowel anastomosis) และไหมเย็บกล้ามเนื้อ",
-     "trend": "ข้อย่อยเลือกไหมตามอวัยวะ — ตอบพร้อมเหตุผล",
-     "asked": [
-      "Which of these sutures (Prolene, PDS, Vicryl) can be used to suture the bowel? (more than one answer)",
-      "Which suture (silk, Prolene, Vicryl) is suitable for suturing muscle?",
-      "รูปตัดต่อลำไส้: operation + ไหมต่อลำไส้, ผูก vessel, sheath, skin (78B)",
-      "ลำไส้ทะลุจากวัตถุแหลม: operation + เลือกไหมต่อลำไส้ (78C เฉลย: exploratory laparotomy with bowel anastomosis, PDS)"
-     ],
-     "flow": [
-      "บอกไหมที่ใช้ได้",
-      "ให้เหตุผลจากการหายของเนื้อเยื่อ"
-     ],
-     "pattern": [
-      "<b>Bowel:</b> ใช้ได้ทั้ง 3 — polyglactin และ PDS (absorbable) ใช้บ่อยสุด เช่น 3-0 Vicryl ชั้น full-thickness, PDS single-layer continuous · polypropylene ใช้ single-layer continuous หรือชั้น seromuscular ได้ · ลำไส้หายเร็ว แรงยึดหลักอยู่ที่ submucosa",
-      "<b>Muscle:</b> <b>polyglactin 910 (Vicryl)</b> 2-0 ถึง 3-0 — กล้ามเนื้อหายในไม่กี่สัปดาห์ ใช้ absorbable ไม่ทิ้งสิ่งแปลกปลอม (จริง ๆ เย็บชั้น fascia / epimysium) · silk ใช้ได้แต่ไม่นิยม · Prolene / PDS เหมาะกับ abdominal fascia ที่ต้องรับแรงนานมากกว่า"
-     ],
-     "kw": [
-      "absorbable for bowel — Vicryl, PDS",
-      "submucosa = strength layer",
-      "Vicryl for muscle — absorbable"
-     ],
-     "pearls": [
-      "ไฟล์เดิมตอบลำไส้แค่ PDS + polypropylene — ธนาคารตอบได้ทั้ง 3 (อย่างน้อยต้องมี Vicryl + PDS)",
-      "เลือก Vicryl สำหรับกล้ามเนื้อแต่ไม่บอกเหตุผล = ได้บางส่วน"
-     ],
-     "members": [
-      "MDCU67|RoA|12#4",
-      "MDCU66|RoD|2#2",
-      "MDCU78|RoB|22#1",
-      "MDCU78|RoB|22#2",
-      "MDCU78|RoC|6#1",
-      "MDCU78|RoC|6#2"
-     ]
-    },
-    {
-     "id": "packet-needle",
-     "title": "อ่านซองไหม — ขนาดไหม ชนิดเข็ม และข้อมูลบนซอง",
-     "trend": "ให้อ่านซองจริงแล้วบอกข้อมูลทั้งหมด",
-     "asked": [
-      "ซอง Vicryl พร้อมฉลาก → generic name + คุณสมบัติ + ข้อมูลบนซอง + use"
-     ],
-     "flow": [
-      "ชื่อการค้า / generic",
-      "ขนาดไหม",
-      "ความยาวไหม",
-      "ชนิดเข็ม + ความโค้ง + ความยาวเข็ม",
-      "วันหมดอายุ / sterile",
-      "คุณสมบัติ + use"
-     ],
-     "pattern": [
-      "<b>ขนาดไหม:</b> ยิ่งเลข 0 มากยิ่งเล็ก (เช่น 2-0 ใหญ่กว่า 4-0)",
-      "<b>เข็ม:</b> taper point = เนื้อเยื่ออ่อน / ลำไส้ · cutting / reverse cutting = ผิวหนัง / เนื้อเยื่อแข็ง · ความโค้ง 1/2 หรือ 3/8 circle · ความยาวเข็ม",
-      "ข้อมูลอื่น: ความยาวไหม, dyed / undyed, lot, วันหมดอายุ, sterile"
-     ],
-     "kw": [
-      "suture size (more zeros = finer)",
-      "taper vs cutting needle",
-      "1/2 / 3/8 circle",
-      "expiry date, sterile"
-     ],
-     "members": [
-      "MDCU65|RoA|5#1"
-     ]
-    }
-   ]
-  }
- ]
-});
+SUMM.push({tag:"suture", title:"Suture materials",
+  intro:"<ul><li>สถานีไหมออก <b>ทุก rotation</b> และมี 3 รูปแบบที่สลับกันตามยุค: <b>(1) เลือกไหมตามงาน / ตามการผ่าตัด</b> (MDCU70–79 เป็นหลัก) · <b>(2) สถานีเย็บจริงมี examiner</b> (MDCU68–73) · <b>(3) ระบุชื่อ generic + จำแนกไหม</b> (MDCU65–67, กลับมาใน MDCU76 และ MDCU79)</li><li><b>เลือกไหมตามงาน</b> = ตัวที่ออกมากที่สุด: ให้โจทย์แผลมีดฟันแขน (brachial / radial artery ขาด), laparotomy ตัดต่อลำไส้, inguinal hernioplasty, episiotomy, lipoma แล้ววางซอง A–E ให้เติมตาราง <b>ตัวอักษร · trade name · generic name · mono / multifilament · absorbable หรือไม่</b> — คำตอบหลักซ้ำทุกปี: <b>artery = Prolene · ผูก vessel = silk · muscle / subcut / aponeurosis = Vicryl · skin = nylon · bowel = Vicryl / PDS · mesh = polypropylene · rectus sheath = loop PDS</b></li><li><b>Examiner station</b> (MDCU68–73): <b>vertical mattress</b> แทบทุก rotation (1–3 stitch, surgical knot / instrument tie, บางปีจับเวลา), บางปีคู่กับ simple interrupted และเริ่มจาก sterile gloving + ฉีดยาชา + ทดสอบชาบนผู้ป่วยจำลอง</li><li><b>ระบุไหม</b>: วาง 2–3 เส้น (ซองปิดชื่อ / แกะแล้ว) → generic name → <b>natural / synthetic · mono / multifilament · absorbable / non-absorbable</b> → use 1 อย่าง → บางปีปิดด้วย \"เส้นไหนเย็บผิวหนัง / ลำไส้ / กล้ามเนื้อได้\"; ไหมที่วนออก: silk, polypropylene, polyglactin 910, catgut, nylon, polydioxanone</li><li>คีย์เก่าผิดซ้ำหลายจุด (Vicryl = monofilament non-absorbable, catgut / silk = synthetic, muscle = nylon และ skin = Vicryl, Vicryl mesh) — ในหน้านี้ตอบตามตำรา / guideline และบอกคีย์เก่าไว้ใน กับดัก</li></ul>",
+  groups:[
+    {title:"เลือกไหมตามงาน / ตามการผ่าตัด (suture selection)", sections:[
+      {id:"extremity-layers", title:"แผลลึกที่แขนขา / ก้อนที่แขน: เลือกไหมทีละชั้น (artery · vein · muscle · subcutaneous · skin)",
+       trend:"สถานีที่ออกบ่อยที่สุดในรุ่นหลัง — เปลี่ยนแค่เรื่องเล่า (มีดฟันแขน, radial artery, lipoma) แต่คำตอบชุดเดิม",
+       asked:["แผลมีดฟันแขนลึกถึงกล้ามเนื้อ + brachial artery ขาด → เติมตาราง muscle / brachial artery / ligate vessel / skin: ตัวอักษร, trade name, generic name, filament, absorbability",
+        "Forearm injury: repair radial artery · ligate vein · subcutaneous · skin โดยซองปิดชื่อ (เหลือ silk ที่มีชื่อ) แล้วถามต่อว่าเส้นไหน absorbable",
+        "วางไหม 5 ชนิด (Vicryl, silk, catgut, Prolene, nylon) → เลือกสำหรับ arterial anastomosis / ligation of a vein / muscle / skin; บางปีให้เลือก 4 จาก 5 งาน (เพิ่ม bowel anastomosis, ligate artery)",
+        "ให้เติมประโยค \"I will suture (tissue) with (suture), size …, which has (properties)\" สำหรับ ligate vein / artery anastomosis / muscle / skin",
+        "แผลของมีคมลึกถึงกล้ามเนื้อ ซองม่วง / เทา / เขียว + ไหมดำไม่มีซอง → muscle · fat layer · bleeding vein · skin + ชื่อเทคนิคในรูป (vertical mattress)",
+        "Lipoma ที่แขน: เลือก retractor · เครื่องมือจับก้อน · ไหม muscle · subcutaneous · skin",
+        "รูปการต่อหลอดเลือดแดงปลายชนปลาย → เลือกไหม + คุณสมบัติ + เทคนิค",
+        "ไหม 3 ซอง (silk, Prolene, Vicryl) → เส้นไหนเหมาะเย็บกล้ามเนื้อ"],
+       flow:["อ่านเรื่อง: กลไกบาดเจ็บ / การผ่าตัด + ชั้นที่ต้องเย็บ",
+        "ระบุไหมแต่ละซองจากชื่อ / สี / ลักษณะเส้น (บางซองปิดชื่อ)",
+        "เลือกไหมทีละชั้นจากลึกไปตื้น: artery → vein → muscle / fascia → subcutaneous → skin",
+        "เติมตารางให้ครบทุกช่อง: ตัวอักษร · trade name · generic name · natural / synthetic · mono / multifilament · absorbable / non-absorbable (บางปีถามขนาด)",
+        "ข้อย่อยท้าย: เส้นไหน absorbable / เทคนิคเย็บผิวหนังในรูป"],
+       pattern:["<b>Artery repair / anastomosis</b> (brachial, radial): <b>Prolene = polypropylene</b> · synthetic · monofilament · non-absorbable · <b>6-0 / 7-0</b> สำหรับ brachial / radial (หลอดเลือดใหญ่ใช้เบอร์ใหญ่ขึ้น) · double-armed, continuous, everting (intima ชน intima) · เหตุผล: ผิวเรียบลากผ่านผนังไม่ฉีก intima, thrombogenicity ต่ำ, แรงดึงคงถาวร",
+        "<b>Ligate vein / bleeding vessel</b>: <b>silk</b> · natural · braided multifilament · non-absorbable · 2-0 / 3-0 — ผูกปมแน่นไม่หลุด; <b>Vicryl</b> ก็ผูกได้ · ถ้าโจทย์เป็น <b>ซ่อมผนังหลอดเลือด</b> (ไม่ใช่ผูก) → Prolene",
+        "<b>Muscle</b>: <b>Vicryl = polyglactin 910</b> · synthetic · braided multifilament · absorbable · 2-0 / 3-0 · เย็บหลวม ๆ ผ่าน epimysium / fascia (กล้ามเนื้อเองยึดไหมไม่อยู่ รัดแน่น = ขาดเลือด)",
+        "<b>Subcutaneous / fat / deep dermis</b>: Vicryl 3-0 / 4-0 (absorbable, \"multifilament\" ตามที่โจทย์ใบ้) — ลด dead space และรับแรงตึงแทนไหมผิว (L05-3: deep dermal absorbable ต้องยึดแผล ≥ 4 wk)",
+        "<b>Skin</b>: <b>nylon = polyamide</b> (Ethilon, Dafilon, Dermalon) · synthetic · monofilament · non-absorbable · 3-0 / 4-0 · <b>simple interrupted</b> (ถ้ารูปเป็น far-far / near-near = <b>vertical mattress</b>)",
+        "<b>เส้นไหน absorbable</b> ในชุด Prolene / silk / Vicryl / nylon → <b>Vicryl เส้นเดียว</b> (คงแรงดึง ~50% ที่ 3 สัปดาห์ ดูดซึมหมด 56–70 วัน); silk ถูกย่อยช้ามากเป็นปีแต่จัดเป็น non-absorbable",
+        "<b>Lipoma ที่แขน</b>: retractor = <b>Senn (rake) retractor</b> (แผลตื้นเล็ก) · จับก้อน = <b>Allis tissue forceps</b> · muscle = Vicryl · subcutaneous = Vicryl 3-0 / 4-0 · skin = nylon",
+        "ประโยคเต็ม: \"I will ligate the vein with silk 3-0, natural braided multifilament non-absorbable\" — ใส่ชื่อ + ขนาด + 3 คุณสมบัติทุกครั้ง"],
+       kw:["Prolene (polypropylene) 6-0 / 7-0 — arterial repair","silk — ligate vein","Vicryl (polyglactin 910) — muscle, subcutaneous","nylon (polyamide) — skin","synthetic / natural","monofilament / multifilament (braided)","absorbable / non-absorbable","letter + trade name + generic name","Senn retractor · Allis forceps"],
+       pearls:["คีย์เก่า MDCU76 RoD ตอบ muscle = Ethilon (nylon) และ skin = Vicryl — สลับกัน: muscle ต้อง absorbable (Vicryl) ส่วนผิวหนังที่เย็บ vertical mattress แล้วตัดไหม ต้อง nylon",
+        "ligate vein ตอบได้ทั้ง silk และ Vicryl แต่ <b>arterial anastomosis ต้อง Prolene เท่านั้น</b> — ตอบ silk / Vicryl / catgut ที่ artery = ผิด",
+        "เขียนแค่ชื่อการค้า (Prolene, Vicryl) โดยไม่มี generic name หรือขาดคุณสมบัติบางช่อง = ไม่ได้เต็มช่องนั้น",
+        "Catgut ในชุดเป็นตัวลวงสำหรับ artery และ skin",
+        "เบาะแสจากซองในข้อสอบ: ไหมม่วงถัก = Vicryl · ไหมดำถักไม่มีซอง = silk · ซองเขียว = Ethilon (nylon) · ไหมฟ้า mono = Prolene"],
+       members:["MDCU78|RoA|24#1","MDCU77|RoB|8#1","MDCU77|RoC|ไหม#1","MDCU77|RoC|ไหม#3","MDCU77|RoD|12#1","MDCU76|RoA|7#1","MDCU76|RoA|7#2","MDCU76|RoA|7#3","MDCU76|RoA|7#4","MDCU76|RoD|11#1","MDCU76|RoD|11#2","MDCU76|RoD|11#3","MDCU76|RoD|11#4","MDCU75|RoC|2#1","MDCU75|RoC|2#2","MDCU75|RoC|2#3","MDCU75|RoC|2#4","MDCU74|RoD|7#1","MDCU74|RoD|7#3","MDCU74|RoD|7#4","MDCU73|RoD|4#1","MDCU73|RoD|4#2","MDCU70|RoB|6#1","MDCU66|RoD|2#2"]},
+
+      {id:"skin-closure", title:"Skin closure: ไหมเส้นไหนเย็บผิวหนังได้ + เทคนิค",
+       trend:"ข้อย่อยปิดท้ายแทบทุกสถานีเลือกไหม — ถามทั้งชนิดไหมและชื่อเทคนิค",
+       asked:["จากไหม 3 เส้นที่วาง (nylon / catgut / silk หรือ silk / Vicryl / Prolene หรือ Prolene / catgut / silk) → เส้นไหนเย็บผิวหนังได้ (ตอบได้มากกว่า 1)",
+        "ปิดผิวหนังด้วยไหมอะไร + ใช้เทคนิคอะไร (simple interrupted)",
+        "ดูรูปแผลที่เย็บแล้ว → บอกชื่อเทคนิค (vertical mattress)",
+        "ปิดผิวหนังหลัง hernioplasty / laparotomy / episiotomy"],
+       flow:["ดูไหมที่วาง → แยก non-absorbable monofilament ออกมาก่อน",
+        "ตอบทุกเส้นที่ใช้ได้ พร้อมเงื่อนไข (interrupted แล้วตัด vs subcuticular)",
+        "บอกเทคนิค / ชื่อเทคนิคในรูป"],
+       pattern:["มาตรฐาน = <b>non-absorbable monofilament</b>: <b>nylon</b> หรือ <b>polypropylene</b> 3-0 / 4-0 — reaction น้อย ติดเชื้อน้อย ตัดออกง่าย · polypropylene เป็นตัวที่ดีที่สุดในชุดที่มี Prolene",
+        "<b>Silk</b>: เย็บผิวได้ (interrupted แล้วตัดไหม) แต่ tissue reaction / stitch abscess มากกว่า → ใช้ที่หนังศีรษะ, ยึด drain / tube",
+        "<b>Vicryl</b> (braided absorbable): เย็บผิวได้เฉพาะแบบ <b>subcuticular (buried)</b> ไม่ต้องตัด · <b>Vicryl Rapide</b> (แรงดึง 50% ที่ 5 วัน, 0% ที่ 10–14 วัน, ดูดซึม 42 วัน) แบบ interrupted ที่หลุดเอง · Monocryl (poliglecaprone 25) subcuticular",
+        "<b>Chromic catgut ไม่ใช้เย็บผิวหนังทั่วไป</b> (reaction มาก)",
+        "<b>Simple interrupted</b> = เทคนิค default: เข็มตั้งฉาก bite เท่ากันสองฝั่ง ทรง flask (ลึกกว้างกว่าผิว) → eversion",
+        "<b>Vertical mattress</b> = far-far (~1 cm) แล้ว near-near (~2 mm) ในแนวเดียวกัน → eversion ดีที่สุด แลกกับรูเข็ม 4 รูและรัด blood supply (L05-3) · <b>Subcuticular</b> = ไม่มี stitch mark · L05-3: ไหมที่ผ่าน epidermis ควรตัดภายใน 5–7 วันเพื่อไม่ให้เกิด stitch mark จึงต้องมี deep dermal absorbable ยึดแผลไว้"],
+       kw:["non-absorbable monofilament","nylon / polypropylene 3-0 / 4-0","silk — acceptable, more reaction","Vicryl — subcuticular only","simple interrupted","vertical mattress — far-far near-near","eversion"],
+       pearls:["คีย์เก่า MDCU66 RoA ตอบ silk + Vicryl — ขาด polypropylene ซึ่งเหมาะที่สุด และ Vicryl ต้องระบุว่า subcuticular",
+        "MDCU66 RoC ไฟล์ลากเส้นจาก catgut + silk มาที่ข้อย่อยนี้ — catgut ไม่ควรตอบว่าเย็บผิวหนัง",
+        "คีย์เก่า MDCU76 RoD ตอบ Vicryl ให้ผิวหนังที่เย็บ vertical mattress — ผิด (เทคนิคผ่านผิวแล้วต้องตัด = nylon)",
+        "ตอบเทคนิคให้ตรงรูป: far-far / near-near ในแนวตั้งฉากแผล = vertical; สองจุดขนานแนวแผล = horizontal mattress"],
+       members:["MDCU67|RoC|12#4","MDCU66|RoA|8#4","MDCU66|RoC|12#4","MDCU77|RoC|ไหม#3","MDCU76|RoA|7#4","MDCU76|RoD|11#4","MDCU75|RoD|2#4","MDCU74|RoA|7#3","MDCU74|RoA|7#4","MDCU72|RoC|6#4"]},
+
+      {id:"laparotomy-bowel", title:"Laparotomy + bowel anastomosis: ไหมต่อลำไส้ · mesenteric vessel · rectus sheath · bile duct · appendix",
+       trend:"ให้รูป / เรื่องผ่าตัดช่องท้องแล้วถามชื่อผ่าตัดก่อน ตามด้วยไหมทีละชั้นของการปิดหน้าท้อง",
+       asked:["รูป midline laparotomy ตัดลำไส้เล็กแล้วต่อปลาย → ชื่อผ่าตัด + ไหมสำหรับ bowel anastomosis / ligate mesenteric vessels / close rectus sheath / skin",
+        "ลำไส้เล็กทะลุจาก foreign body แหลม (มี Vicryl, silk, PDS, nylon) → ชื่อผ่าตัด + ไหมต่อลำไส้",
+        "ปวดท้อง ไม่ถ่ายไม่ผายลม 2 วัน → ชื่อผ่าตัด + ตาราง: bowel / ligate vessel / subcutaneous (multifilament) / skin",
+        "เลือกไหม: ligation of the appendiceal base · bowel anastomosis · fascial closure · skin",
+        "จากไหม 3 เส้น (Prolene, PDS, Vicryl) เส้นไหนเย็บลำไส้ได้ (ตอบได้มากกว่า 1)",
+        "รูปการเย็บ rectus sheath → เลือกไหม + คุณสมบัติ + เทคนิค",
+        "Cholecystectomy convert เป็น open: ไหมผูก bile duct และไหมปิดแผล → brand, generic name, filament, absorbability",
+        "รูปขั้นตอนเย็บลำไส้ → ไหมชั้นในและชั้นนอก"],
+       flow:["ดูรูป / อ่านเรื่อง → ตั้งชื่อผ่าตัด",
+        "ไหมต่อลำไส้ (ชั้นใน / ชั้นนอก หรือ single layer)",
+        "ผูก mesenteric vessel",
+        "ปิดหน้าท้อง: rectus sheath → subcutaneous → skin",
+        "ตารางคุณสมบัติของไหมแต่ละเส้น"],
+       pattern:["<b>ชื่อผ่าตัด</b>: <b>Exploratory laparotomy with segmental small bowel resection and (primary) anastomosis</b> · ลำไส้ทะลุจาก foreign body: รูเล็กขอบดี → primary repair, เนื้อตาย / หลายรู → resection + anastomosis + เอา foreign body ออก + ล้างช่องท้อง",
+        "<b>Bowel anastomosis</b> = <b>absorbable synthetic 3-0</b>: <b>Vicryl</b> (braided) หรือ <b>PDS</b> (monofilament คงแรงนาน) · two-layer = ชั้นใน full-thickness continuous absorbable + ชั้นนอก interrupted seromuscular <b>Lembert ด้วย silk 3-0</b> · single-layer continuous ใช้ PDS (หรือ Prolene) · <b>ไม่ใช้ nylon</b>",
+        "จากชุด Prolene / PDS / Vicryl: <b>ต่อลำไส้ได้ทั้ง 3</b> — Vicryl / PDS ใช้บ่อยสุด, Prolene ใช้ single-layer หรือชั้น seromuscular",
+        "<b>Mesenteric vessel</b>: silk 2-0 / 3-0 หรือ Vicryl ligature",
+        "<b>Rectus sheath / midline fascia</b> (EHS 2015): <b>continuous</b> (strong) · <b>หลีกเลี่ยง rapidly absorbable</b> (strong) · แนะนำ <b>slowly absorbable monofilament = PDS</b> single-layer aponeurotic closure · <b>small bites</b> (5 mm จากขอบ ห่างกัน 5 mm) · <b>SL : WL ≥ 4 : 1</b> · EHS / AHS update 2022 (BJS): ยังแนะนำ <b>continuous small-bites + slowly absorbable suture</b> (weak) · ในข้อสอบ: loop PDS 1 (หรือ nylon / Prolene 1)",
+        "<b>Subcutaneous</b> = Vicryl (multifilament absorbable) · <b>Skin</b> = nylon 3-0 interrupted หรือ skin staples",
+        "<b>Appendiceal base</b> = absorbable: chromic catgut 2-0 หรือ Vicryl 2-0",
+        "<b>ผูก bile duct</b> = absorbable (Vicryl) — non-absorbable ที่ค้างในทางเดินน้ำดี / ปัสสาวะเป็น nidus ของนิ่ว · ตอบตามซองที่วางจริง (ถ้าวาง silk ให้บอกคุณสมบัติ silk ให้ครบ) · <b>ปิดแผล</b> = PDS (fascia) / nylon (skin)"],
+       kw:["exploratory laparotomy with small bowel resection and anastomosis","Vicryl / PDS 3-0 — bowel","silk 3-0 Lembert seromuscular","silk — mesenteric vessel","loop PDS — rectus sheath, continuous","small bites 5 mm × 5 mm, SL:WL ≥ 4:1","absorbable — bile duct, appendiceal base","nylon — skin"],
+       pearls:["คีย์เก่า MDCU67 RoA ตอบไหมเย็บลำไส้แค่ PDS + polypropylene — ที่ถูกใช้ได้ทั้ง 3 รวม Vicryl ซึ่งเป็นไหมต่อลำไส้ที่ใช้บ่อยที่สุด",
+        "ห้ามตอบ Vicryl ปิด fascia หน้าท้อง — EHS 2015 ให้เลี่ยง rapidly absorbable (EHS / AHS 2022 ยังใช้ slowly absorbable); ต้อง slowly absorbable (PDS) หรือ non-absorbable monofilament",
+        "ชื่อผ่าตัดต้องมีครบ laparotomy + resection + anastomosis (ไม่ใช่แค่ \"exploratory laparotomy\")",
+        "ไม่ใช้ silk / nylon ในท่อน้ำดีหรือทางเดินปัสสาวะ (nidus นิ่ว)",
+        "STITCH trial ใช้ PDS 2-0 กับเข็มเล็กในเทคนิค small bites — loop PDS 1 เป็นวิธีดั้งเดิมที่ยังตอบได้ในข้อสอบ"],
+       members:["MDCU78|RoB|22#1","MDCU78|RoB|22#2","MDCU78|RoC|6#1","MDCU78|RoC|6#2","MDCU77|RoA|3#1","MDCU77|RoA|3#2","MDCU77|RoC|ไหม#2","MDCU74|RoD|7#2","MDCU73|RoB|12#1","MDCU72|RoC|6#1","MDCU67|RoA|12#4","MDCU79|RoC|10#2","MDCU79|RoC|10#3"]},
+
+      {id:"hernia-repair", title:"Inguinal hernioplasty: mesh · external oblique aponeurosis · ligate vessel / sac · skin",
+       trend:"ให้ operative note แบบเติมคำ — mesh, aponeurosis, เส้นเลือด, ผิวหนัง, เทคนิค",
+       asked:["Operative note open inguinal hernioplasty เติมช่องว่าง: mesh ทำจาก ___ · ปิด external oblique aponeurosis ด้วย ___ · ผูกเส้นเลือดที่ออกด้วย ___ · ปิดผิวหนังด้วย ___ ด้วยเทคนิค ___",
+        "ของบนโต๊ะ A–E (ซอง Vicryl, mesh, ซอง Ethilon, เส้นสีเหลืองหยาบ, เส้นสีดำ) → ตัวอักษร + generic + trade + filament + absorbability",
+        "Inguinal hernia repair ในผู้ใหญ่ใช้อะไร · ปิด aponeurosis ด้วยอะไร · ผูก hernia sac ด้วยอะไร · ชื่อเทคนิคในรูป · ปิดผิวหนังด้วยอะไร",
+        "Herniorrhaphy: repair hernia ด้วย ___ แล้วบอกชื่อ / วัสดุ / คุณสมบัติของไหม 5 ซอง"],
+       flow:["อ่าน op note → จับว่าแต่ละช่องคือชั้นไหน",
+        "Mesh / repair → aponeurosis → ligate vessel / sac → skin + technique",
+        "เติมตัวอักษร + generic + trade + filament + absorbability"],
+       pattern:["<b>Mesh</b> = <b>polypropylene (Prolene) mesh</b> · synthetic · monofilament · non-absorbable (ถาวร) — HerniaSurge 2018: adult inguinal hernia ใช้ mesh repair, open = Lichtenstein · ยึด mesh ด้วย Prolene continuous กับ inguinal ligament เริ่มที่ pubic tubercle",
+        "<b>External oblique aponeurosis</b> = <b>Vicryl 2-0</b> (polyglactin 910 · braided · absorbable) continuous",
+        "<b>Hernia sac</b> (high ligation) = silk (คำตอบในคลัง) หรือ Vicryl",
+        "<b>Bleeding vessel ใน subcutaneous</b> = <b>silk free tie</b> (natural · braided · non-absorbable) หรือ plain / chromic catgut (เส้นสีเหลืองหยาบ) / Vicryl",
+        "<b>Skin</b> = <b>nylon (Ethilon)</b> · monofilament · non-absorbable · <b>simple interrupted</b> (หรือ subcuticular ถ้าใช้ absorbable) · ถ้ารูปเป็น far-far near-near → vertical mattress",
+        "ซ่อม hernia แบบเย็บ (herniorrhaphy) ต้องใช้ <b>non-absorbable</b> (Prolene) เพราะต้องรับแรงถาวร"],
+       kw:["polypropylene (Prolene) mesh — non-absorbable monofilament","Lichtenstein tension-free","Vicryl — external oblique aponeurosis","silk — ligate vessel / sac","nylon — skin","simple interrupted"],
+       pearls:["คีย์เก่า MDCU71 RoB ตอบ mesh = Vicryl mesh — ผิด: Vicryl mesh เป็น absorbable ชั่วคราว ใช้ hernioplasty ไม่ได้ ต้องเป็น polypropylene mesh ถาวร",
+        "Mesh ไม่ใช่ \"ไหม\" — ต้องตอบวัสดุ (polypropylene) + monofilament + non-absorbable ให้ครบเหมือนไหม",
+        "เส้นสีเหลืองหยาบไม่มีซอง = catgut, เส้นดำ = silk — ทั้งคู่ใช้ผูกเส้นเลือดเล็กได้"],
+       members:["MDCU76|RoC|9#1","MDCU75|RoD|2#1","MDCU75|RoD|2#2","MDCU75|RoD|2#3","MDCU75|RoD|2#4","MDCU74|RoA|7#1","MDCU74|RoA|7#2","MDCU74|RoA|7#3","MDCU74|RoA|7#4","MDCU74|RoA|7#5","MDCU71|RoB|6#1"]},
+
+      {id:"episiotomy", title:"Episiotomy / perineal repair: ไหมและเทคนิคแต่ละชั้น",
+       trend:"ออกคู่กับสถานีเย็บลำไส้ — ถาม vaginal mucosa, muscle, skin",
+       asked:["รูปการซ่อมแผลฝีเย็บ (episiotomy) + ซอง A–E → แต่ละชั้นใช้ไหมอะไร ชนิดไหน เทคนิคอะไร",
+        "สถานีรวม bowel + perineum: ไหมสำหรับ vaginal mucosa / perineum, muscle layer ที่เย็บสองฝั่งเข้าหากัน, skin (ตัวอักษร · generic · trade · filament · absorbability · structure used for)"],
+       flow:["Vaginal mucosa → perineal muscle → skin",
+        "ไหม + ขนาด + ชนิด + เทคนิค ต่อชั้น"],
+       pattern:["<b>ทุกชั้นใช้ absorbable</b> — ห้าม nylon / silk ที่ฝีเย็บ",
+        "<b>วัสดุ</b>: NICE NG235 (2023) 1.12.21 = <b>absorbable synthetic</b> suture · ที่นิยมคือ <b>polyglactin 910 ชนิดละลายเร็ว (Vicryl Rapide 2-0)</b> · Cochrane (Kettle 2010): synthetic เจ็บน้อยกว่า catgut และชนิดละลายเร็วต้องตัดไหมออกน้อยกว่า · chromic catgut (natural · absorbable, ซองมีน้ำยา) เป็นคำตอบเดิมในไทย",
+        "<b>Vaginal mucosa</b>: <b>continuous non-locked</b> เริ่มเหนือ apex ไปถึง hymenal ring · <b>Perineal muscle</b>: absorbable 2-0 <b>continuous non-locked</b> (NICE NG235 1.12.20 ใช้กับทั้งผนังช่องคลอดและกล้ามเนื้อ) · <b>Skin</b>: ถ้าขอบผิวชิดดีหลังเย็บกล้ามเนื้อไม่ต้องเย็บ; ถ้าต้องเย็บ = <b>continuous subcuticular</b> absorbable 3-0 (NICE 1.12.19; ไม่ต้องตัดไหม)",
+        "Vicryl = polyglactin 910 · synthetic · braided multifilament · absorbable"],
+       kw:["absorbable synthetic — all layers (NICE NG235)","Vicryl Rapide 2-0 (polyglactin 910)","chromic catgut","vaginal mucosa — continuous non-locked from above apex to hymen","perineal muscle — continuous non-locked","subcuticular skin (only if needed)"],
+       pearls:["คำตอบเดิมในคลัง (MDCU72 RoA 9) เขียน vaginal mucosa แบบ continuous <b>locking</b> — แก้แล้ว (21 พ.ย. 2026) เป็น <b>continuous non-locked</b> ตาม NICE NG235 (2023) 1.12.20 ซึ่งใช้กับทั้งผนังช่องคลอดและชั้นกล้ามเนื้อ",
+        "ตอบ nylon / silk ที่ผิวหนังฝีเย็บ = ผิด (ต้องตัดไหมในที่เจ็บ, reaction)"],
+       members:["MDCU72|RoA|9#1","MDCU72|RoC|6#2","MDCU72|RoC|6#3","MDCU72|RoC|6#4"]}
+    ]},
+
+    {title:"เทคนิคการเย็บ (examiner station)", sections:[
+      {id:"vertical-mattress", title:"Vertical mattress suture + surgical knot / instrument tie",
+       trend:"สถานีเย็บที่ออกต่อเนื่องทุกปีช่วง MDCU68–73 — 1–3 stitch บน pad หรือแขนจำลอง บางปีจับเวลา",
+       asked:["Place 2 vertical mattress sutures บน skin pad ผูกด้วย instrument tie / surgical knot",
+        "Place 3 vertical mattress sutures ภายใน 2 นาที (ให้ sterile gloves)",
+        "Sterile gloving → ฉีดยาชา → 1 vertical mattress ผูกด้วยเครื่องมือ (แขนจำลอง อธิบายผู้ป่วยทุกขั้น)",
+        "แผล prep / drape / ชาแล้ว → 2 vertical mattress (มี examiner + ผู้ช่วยตัดไหม)",
+        "Simple interrupted 1 + vertical mattress 1 ตามลำดับ"],
+       flow:["(ผู้ป่วยจำลอง) แนะนำตัว อธิบาย ทดสอบชา บอกก่อนลงเข็ม",
+        "จับ needle holder (thumb–ring) ใช้<b>ปลายปาก</b> needle holder จับเข็มตั้งฉาก ที่ประมาณ <b>1/3–1/2 ของความยาวเข็มนับจากโคน (swaged end)</b> = ราว 2/3 จากปลายแหลม (AORN, Limbs & Things: ~1/3 จาก swage) — ไม่จับที่ swage / ไม่จับใกล้ปลายแหลม · forceps จับขอบแผลเบา ๆ ไม่ใช้นิ้วจับเข็ม",
+        "Far–far: แทงตั้งฉากห่างขอบ ~4–8 mm (AFP 2002; L05-3 และ Merck Manual ~1 cm) ลึกถึง dermis / subcutis หมุนตามความโค้งเข็ม ออกอีกฝั่งระยะเท่ากัน",
+        "Near–near: กลับเข็ม แทงฝั่งที่ออก ห่างขอบ ~1–2 mm ตื้นใน dermis ออกฝั่งที่เริ่ม → ปลายไหมสองข้างอยู่ฝั่งเดียวกัน แนวตั้งฉากแผล",
+        "Surgical knot ด้วย instrument tie: throw แรกพัน 2 รอบ แล้ว single throw สลับทิศ ≥ 2 ครั้ง (square)",
+        "ขอบแผล evert ไม่รัดจนซีด · ปมไว้ข้างแผล · ตัดหางไหม ~5 mm (หรือบอกผู้ช่วยตัดพร้อมความยาว)",
+        "stitch ถัดไประยะเท่ากัน · ทิ้งเข็มลง sharps container"],
+       pattern:["<b>ลำดับ far-far → near-near</b> = หัวใจของคะแนน · far ลึก กว้าง / near ตื้น แคบ ในแนวเดียวกัน",
+        "<b>Surgical knot</b> = double throw แรก (กันคลาย) + single throw สลับทิศ · square knot ≥ 3 throw; ทิศเดิมซ้ำ = granny knot",
+        "<b>Eversion</b> คือเป้าหมาย (L05-3: mattress มีไว้ control wound edge eversion) · ข้อเสีย = stitch mark 4 รู + รัด blood supply ทั้ง loop → ไม่ใช้ที่ blood supply ไม่ดี",
+        "ปมอยู่ข้างแผลไม่ทับแนวแผล, ระยะระหว่าง stitch สม่ำเสมอ, ไหมไม่หลุดจากเข็มระหว่างทำ",
+        "จับเวลา 3 stitch / 2 นาที → ฝึก instrument tie ให้ไหลลื่น ไม่ต้องเปลี่ยนมือ"],
+       kw:["needle perpendicular to skin","far-far then near-near","equal bites both sides","wound edge eversion","surgical knot: double throw then alternate single throws","instrument tie","knot to one side","tail ~5 mm","sharps disposal"],
+       pearls:["ทำ near ก่อน far หรือทำเป็น horizontal mattress = ผิดชนิด",
+        "จับเข็มด้วยนิ้ว / แทงเฉียง / bite ไม่เท่ากันสองฝั่ง = เหตุหักคะแนนที่พบบ่อย",
+        "รัดแน่นจนขอบแผลซีดหรือขอบม้วนเข้า (inversion) = เสียคะแนน eversion",
+        "สถานีที่มีผู้ป่วยจำลอง: ลืมทดสอบชาหรือไม่บอกผู้ป่วยก่อนแทง = เสียคะแนนส่วนสื่อสาร",
+        "Vertical mattress ของ MDCU65–67 อยู่ในหมวดหัตถการ (proc) — เนื้อหาเดียวกัน"],
+       members:["MDCU73|RoB|4#1","MDCU73|RoD|7#1","MDCU72|RoA|2#1","MDCU72|RoB|4#2","MDCU72|RoC|3#2","MDCU72|RoD|1#1","MDCU71|RoA|4#1","MDCU71|RoB|5#2","MDCU70|RoA|1#1","MDCU70|RoB|1#1","MDCU69|RoC|12#1","MDCU68|RoB|11#1","MDCU68|RoD|1#1"]},
+
+      {id:"simple-interrupted", title:"Simple interrupted suture + instrument tie",
+       trend:"ออกคู่กับ vertical mattress หรือต่อจากการฉีดยาชา",
+       asked:["Place 1 simple interrupted + 1 vertical mattress บน pad",
+        "ฉีดยาชาแล้วเย็บ 2 simple interrupted ผูกด้วยเครื่องมือ",
+        "เย็บบนผู้ป่วยจำลอง simple ก่อนแล้ว vertical mattress"],
+       flow:["แทงเข็มตั้งฉากฝั่งแรก ขึ้นกลางแผล",
+        "แทงอีกฝั่งระยะและความลึกเท่ากัน (ไม่ข้ามสองฝั่งในเข็มเดียวถ้าแผลกว้าง)",
+        "Instrument tie: square knot 3 throw ปมข้างแผล",
+        "ตัดหาง ~5 mm · stitch ที่สองระยะเท่ากัน"],
+       pattern:["<b>ทรง flask</b>: ตักลึกกว้างกว่าที่ผิว → ขอบแผล evert เล็กน้อย (L05-3) · เย็บให้ถึงก้นแผล ไม่เหลือ dead space",
+        "bite ห่างขอบเท่ากันสองฝั่ง ลึกเท่ากัน ขอบชนกันพอดีไม่เกย",
+        "<b>Square knot 3 throw</b> สลับทิศ (throw แรก double ได้) · ปมข้างแผล · ไม่รัดแน่น"],
+       kw:["needle perpendicular","equal distance and depth","flask shape","eversion","square knot 3 throws","knot to one side","cut tail ~5 mm"],
+       pearls:["ขอบแผลบุ๋ม (inversion) จากตักผิวกว้างกว่าลึก = หักคะแนน",
+        "ปมทับแนวแผล / air knot = หักคะแนน"],
+       members:["MDCU72|RoB|4#1","MDCU72|RoC|3#2","MDCU71|RoA|4#1","MDCU69|RoA|1#2"]},
+
+      {id:"prep-local-anesthesia", title:"ก่อนลงเข็ม: sterile gloving · ยาชา · ทดสอบชา · สื่อสารกับผู้ป่วย",
+       trend:"ส่วนต้นของสถานีเย็บบนผู้ป่วยจำลอง — คะแนนส่วนสื่อสารและความปลอดภัย",
+       asked:["Put on gloves, inject local anesthesia, then vertical mattress",
+        "Local anesthesia แล้ว vertical mattress บนแขนจำลอง อธิบายผู้ป่วยทุกขั้น",
+        "ก่อนเย็บบนผู้ป่วยจำลอง (สมมติใส่ถุงมือและฉีดยาชาแล้ว) ต้องทำอะไร",
+        "แผล prep / drape / ฉีดยาชาแล้ว → ทดสอบชาก่อนเย็บ"],
+       flow:["แนะนำตัว ยืนยันผู้ป่วย อธิบายขั้นตอน ขอความยินยอม",
+        "Sterile gloving (ถ้าสั่ง) · ทำความสะอาด / ปูผ้า",
+        "ถามประวัติแพ้ยาชา · ดูดยา lidocaine · aspirate ก่อนฉีด ฉีดช้า",
+        "ทดสอบชาด้วยการหนีบ forceps แล้วถามว่าเจ็บไหม",
+        "บอกผู้ป่วยก่อนลงเข็มทุกครั้ง"],
+       pattern:["<b>Lidocaine</b> 1–2% (1% = 10 mg/mL): ขนาดสูงสุดต่างกันตามฉลาก — <b>US label (Pfizer)</b>: ไม่มี adrenaline <b>4.5 mg/kg (≤ 300 mg)</b> · มี adrenaline <b>7 mg/kg (≤ 500 mg)</b> · <b>UK SmPC</b>: ไม่มี adrenaline 4.5 mg/kg (≤ 200 mg) · มี adrenaline ≤ 500 mg · ฉีดด้วยเข็มเล็ก ผ่านขอบแผล · <b>aspirate ก่อนฉีด</b>",
+        "<b>ทดสอบชา</b> ด้วย forceps ก่อนเย็บ — เป็นช่องคะแนนเฉพาะในสถานีที่บอกว่าฉีดยาชาแล้ว",
+        "พูดกับผู้ป่วยตลอด: อธิบาย, เตือนก่อนแทง, ถามอาการเจ็บ"],
+       kw:["introduce, identify, explain, consent","ask drug allergy","aspirate before injecting","test anaesthesia with forceps","warn patient before needle","sterile gloving"],
+       pearls:["ข้ามการทดสอบชาเพราะโจทย์บอกว่าฉีดยาชาแล้ว = เสียคะแนน",
+        "ไม่ aspirate ก่อนฉีด / ไม่ถามแพ้ยา = ข้อผิดพลาดด้านความปลอดภัย"],
+       members:["MDCU72|RoC|3#1","MDCU70|RoB|1#1","MDCU68|RoD|1#1","MDCU69|RoC|12#1"]}
+    ]},
+
+    {title:"ระบุชื่อ generic + จำแนกไหม (identification)", sections:[
+      {id:"classify-framework", title:"แม่แบบตอบ: generic name → natural / synthetic · mono / multifilament · absorbable → use",
+       trend:"สถานีวางไหม 2–3 เส้นใช้ลำดับคำถามเดิมทุกครั้ง — ตอบเป็นแถวต่อไหมให้ครบทุกมิติ",
+       asked:["Give the generic name of each suture (ซองปิดชื่อ generic / แกะแล้ว / ซองมีแต่ brand name)",
+        "Describe / classify each suture by origin, structure and absorbability",
+        "Give one use of each suture",
+        "Name, material and properties of 5 sutures (A–E)",
+        "Opened sutures A, B → name, origin, filament structure, absorbability"],
+       flow:["Generic name (แปลงจากชื่อการค้า / สี / ลักษณะเส้น)",
+        "Origin: natural vs synthetic",
+        "Structure: monofilament vs braided multifilament",
+        "Absorbability: absorbable (+ กลไก, ระยะแรงดึง) vs non-absorbable",
+        "Use อย่างน้อย 1 ที่สอดคล้องกับคุณสมบัติ",
+        "(บางปี) เส้นไหนเย็บผิวหนัง / ลำไส้ / กล้ามเนื้อได้"],
+       pattern:["ตอบเป็นแถวต่อไหม: <b>generic (trade) · natural / synthetic · mono / multi · absorbable / non-absorbable · use</b>",
+        "<b>Silk</b> = natural · braided · non-absorbable · <b>Polypropylene (Prolene)</b> = synthetic · mono · non-absorbable · <b>Nylon (Ethilon, Dafilon)</b> = synthetic · mono · non-absorbable · <b>Polyglactin 910 (Vicryl)</b> = synthetic · braided · absorbable · <b>Polydioxanone (PDS)</b> = synthetic · mono · absorbable ช้า · <b>Catgut (plain / chromic)</b> = natural · twisted · absorbable",
+        "<b>Monofilament</b>: ผ่านเนื้อเยื่อลื่น เชื้อเกาะน้อย reaction น้อย แต่ knot security ต่ำ / memory สูง → ผูกหลาย throw · <b>Braided multifilament</b>: ผูกง่าย ปมแน่น แต่มี capillarity (wicking) เก็บเชื้อ",
+        "<b>กลไกสลาย</b>: synthetic absorbable = <b>hydrolysis</b> (reaction น้อย) · natural (catgut) = <b>proteolysis / phagocytosis</b> (reaction มาก)",
+        "หลัก use: เนื้อเยื่อหายเร็ว / อยู่ลึก → absorbable · ต้องรับแรงนาน (หลอดเลือด, fascia, mesh) → non-absorbable หรือ absorbable ช้า · ผิวหนังที่จะตัดไหม → non-absorbable monofilament"],
+       kw:["generic name","natural / synthetic","monofilament / braided multifilament","absorbable / non-absorbable","hydrolysis vs proteolysis","knot security vs capillarity"],
+       pearls:["ขาดมิติใดของไหมเส้นใด = ไม่ได้คะแนนเส้นนั้น — เขียนครบทุกมิติทุกเส้น",
+        "ตอบชื่อการค้าแทน generic (Prolene, Vicryl, PDS) ได้ไม่เต็ม",
+        "คีย์เก่า MDCU67 RoC จัด catgut และ silk ว่า synthetic — ผิด ทั้งสองเป็น natural",
+        "คีย์เก่า MDCU67 RoA (ฉบับพิมพ์) เขียน Vicryl = monofilament non-absorbable — ผิด (ลายมือผู้จดถูก)"],
+       members:["MDCU67|RoA|12#1","MDCU67|RoA|12#2","MDCU67|RoA|12#3","MDCU67|RoB|13#1","MDCU67|RoB|13#2","MDCU67|RoB|13#3","MDCU67|RoC|12#1","MDCU67|RoC|12#2","MDCU67|RoC|12#3","MDCU67|RoD|9#1","MDCU67|RoD|9#2","MDCU67|RoD|9#3","MDCU66|RoA|8#1","MDCU66|RoA|8#2","MDCU66|RoA|8#3","MDCU66|RoB|10#1","MDCU66|RoB|10#2","MDCU66|RoB|10#3","MDCU66|RoC|12#1","MDCU66|RoC|12#2","MDCU66|RoC|12#3","MDCU66|RoD|2#1","MDCU65|RoA|5#1","MDCU65|RoB|1#1","MDCU65|RoC|9#1","MDCU65|RoC|9#2","MDCU76|RoC|9#2"]},
+
+      {id:"silk", title:"Silk — natural · braided multifilament · non-absorbable",
+       trend:"ไหมดำถัก (มักแกะไว้ไม่มีซอง) แทบทุกชุด",
+       asked:["ไหมดำถักไม่มีซอง / ซองชื่อการค้า → generic name + classify + use",
+        "ไหมผูก bile duct ที่วางให้ → brand, generic, filament, absorbability"],
+       flow:["Name: silk","Classify","Use"],
+       pattern:["<b>Silk</b>: natural (โปรตีน fibroin จากรังไหม) · <b>braided multifilament</b> · <b>non-absorbable</b> (ถูกย่อยช้ามากเป็นปี แต่จัดเป็น non-absorbable)",
+        "ผูกง่าย ปมแน่นที่สุด แต่ tissue reaction มาก และเสี่ยงติดเชื้อจาก wicking",
+        "<b>Use</b>: ligature ผูกหลอดเลือด, เย็บยึด drain / tube กับผิวหนัง, ชั้น seromuscular (Lembert) ของการต่อลำไส้, ผิวหนัง (หนังศีรษะ)"],
+       kw:["silk","natural","braided multifilament","non-absorbable","ligature, secure drain"],
+       pearls:["ไม่ใช้ในทางเดินปัสสาวะ / ท่อน้ำดี (nidus นิ่ว) และไม่เหมาะกับแผลติดเชื้อ",
+        "ตอบ silk ว่า synthetic หรือ absorbable = ผิด"],
+       members:["MDCU67|RoB|13#1","MDCU67|RoB|13#2","MDCU67|RoB|13#3","MDCU67|RoC|12#1","MDCU67|RoC|12#2","MDCU67|RoC|12#3","MDCU66|RoA|8#1","MDCU66|RoA|8#2","MDCU66|RoA|8#3","MDCU66|RoB|10#1","MDCU66|RoB|10#2","MDCU66|RoB|10#3","MDCU66|RoC|12#1","MDCU66|RoC|12#2","MDCU66|RoC|12#3","MDCU66|RoD|2#1","MDCU65|RoB|1#1","MDCU76|RoC|9#2","MDCU79|RoC|10#2"]},
+
+      {id:"polypropylene", title:"Polypropylene (Prolene) — synthetic · monofilament · non-absorbable",
+       trend:"ซอง Prolene ที่ปิดชื่อ generic — ต้องตอบ polypropylene",
+       asked:["ซอง Prolene → generic name + classify + use",
+        "ไหมฟ้า monofilament ไม่มีซอง → ชื่อ (nylon หรือ polypropylene)"],
+       flow:["Name: polypropylene","Classify","Use"],
+       pattern:["<b>Polypropylene</b>: synthetic · <b>monofilament</b> · <b>non-absorbable</b> · ผิวลื่น reaction ต่ำ thrombogenicity ต่ำ แต่ปมลื่นต้องผูกหลาย throw",
+        "<b>Use</b>: <b>vascular anastomosis</b>, ปิด fascia / abdominal wall, ยึด mesh ใน hernia repair, ผิวหนัง (interrupted หรือ subcuticular แบบดึงออก)"],
+       kw:["polypropylene","synthetic","monofilament","non-absorbable","vascular anastomosis","mesh fixation"],
+       pearls:["ตอบ \"Prolene\" แทน polypropylene = ชื่อการค้า ไม่ใช่ generic",
+        "ไหมฟ้า monofilament ที่ไม่มีซองตอบได้ทั้ง nylon และ polypropylene"],
+       members:["MDCU67|RoA|12#1","MDCU67|RoA|12#2","MDCU67|RoA|12#3","MDCU67|RoB|13#1","MDCU67|RoB|13#2","MDCU67|RoB|13#3","MDCU67|RoC|12#1","MDCU66|RoA|8#1","MDCU66|RoA|8#2","MDCU66|RoA|8#3","MDCU66|RoB|10#1","MDCU66|RoB|10#2","MDCU66|RoB|10#3","MDCU66|RoC|12#1","MDCU66|RoC|12#2","MDCU66|RoC|12#3","MDCU66|RoD|2#1","MDCU76|RoC|9#2","MDCU79|RoC|10#3"]},
+
+      {id:"polyglactin", title:"Polyglactin 910 (Vicryl) — synthetic · braided · absorbable",
+       trend:"ไหมม่วงถัก — มักให้อ่านซองหรือคู่กับ nylon / silk",
+       asked:["ซอง Vicryl / ไหมม่วงถักที่แกะแล้ว → generic name + classify + use",
+        "ไหมผูก bile duct → brand, generic, filament, absorbability"],
+       flow:["Name: polyglactin 910","Classify + ระยะแรงดึง","Use / ข้อห้าม"],
+       pattern:["<b>Polyglactin 910</b>: copolymer glycolide + lactide (coated) · synthetic · <b>braided multifilament</b> · <b>absorbable</b> โดย hydrolysis",
+        "แรงดึงเหลือ <b>~75% ที่ 2 สัปดาห์ · ~40–50% ที่ 3 สัปดาห์</b> (~25% ที่ 4 สัปดาห์) · ดูดซึมหมด <b>56–70 วัน</b> (Ethicon) · Vicryl Rapide: 50% ที่ 5 วัน, หมดแรงดึง 10–14 วัน, ดูดซึม 42 วัน",
+        "<b>Use</b>: subcutaneous / subcuticular, ผูกหลอดเลือดเล็ก, กล้ามเนื้อ, bowel anastomosis, aponeurosis, mucosa",
+        "<b>ไม่เหมาะ</b>: abdominal fascia (rapidly absorbable ตาม EHS 2015), vascular anastomosis, tendon, เย็บผ่านผิวหนังทิ้งไว้"],
+       kw:["polyglactin 910","synthetic","braided multifilament","absorbable (hydrolysis)","50% at 3 weeks, absorbed 56–70 days","subcutaneous, ligature, bowel anastomosis"],
+       pearls:["คีย์พิมพ์เก่า MDCU67 RoA ใส่ Vicryl = monofilament non-absorbable — ผิด",
+        "generic name คือ polyglactin 910 ไม่ใช่ polyglycolic acid (Dexon)"],
+       members:["MDCU67|RoA|12#1","MDCU67|RoA|12#2","MDCU67|RoA|12#3","MDCU67|RoD|9#1","MDCU67|RoD|9#2","MDCU67|RoD|9#3","MDCU66|RoA|8#1","MDCU66|RoA|8#2","MDCU66|RoA|8#3","MDCU66|RoD|2#1","MDCU65|RoA|5#1","MDCU65|RoC|9#2","MDCU76|RoC|9#2","MDCU79|RoC|10#2"]},
+
+      {id:"catgut", title:"Catgut (plain / chromic) — natural · twisted · absorbable",
+       trend:"ไหมสีน้ำตาลขดในน้ำยา ยังอยู่ในชุดไหมของไทย",
+       asked:["ไหมสีน้ำตาลทอง / ขดในน้ำยา → generic name + classify + use"],
+       flow:["Name: plain หรือ chromic catgut","Classify","Use"],
+       pattern:["<b>Catgut</b>: natural (collagen จาก submucosa ลำไส้แกะ / serosa วัว) · <b>twisted</b> ขัดผิวจนคล้าย monofilament (บางตำราจัด multifilament — ตอบได้ทั้งคู่) · <b>absorbable</b> ด้วย proteolysis → tissue reaction มาก",
+        "<b>Chromic</b> = ชุบเกลือโครเมียม สลายช้ากว่า plain (Ethicon: plain คงแรง ~7–10 วัน ดูดซึม ~70 วัน · chromic คงแรง ~21–28 วัน ดูดซึม ~90 วัน)",
+        "<b>Use</b>: mucosa ที่หายเร็ว (ช่องปาก, ชั้นในลำไส้), ผูกหลอดเลือดเล็ก / subcutaneous, perineum / episiotomy, กระเพาะปัสสาวะ, appendiceal base"],
+       kw:["chromic catgut","natural (collagen)","twisted","absorbable — proteolysis","mucosa, perineum, small vessel ligature"],
+       pearls:["คีย์เก่า MDCU67 RoC ตอบ catgut = synthetic braided — ผิด",
+        "ไม่ใช้เย็บผิวหนังทั่วไป"],
+       members:["MDCU67|RoB|13#1","MDCU67|RoB|13#2","MDCU67|RoB|13#3","MDCU67|RoC|12#1","MDCU67|RoC|12#2","MDCU67|RoC|12#3","MDCU67|RoD|9#1","MDCU67|RoD|9#2","MDCU67|RoD|9#3","MDCU66|RoB|10#1","MDCU66|RoB|10#2","MDCU66|RoB|10#3","MDCU66|RoC|12#1","MDCU66|RoC|12#2","MDCU66|RoC|12#3","MDCU76|RoC|9#2"]},
+
+      {id:"nylon", title:"Nylon (polyamide) — synthetic · monofilament · non-absorbable",
+       trend:"ไหมเส้นเดี่ยวสีดำ / น้ำเงิน สำหรับเย็บผิวหนัง",
+       asked:["ไหมเส้นเดี่ยวสีน้ำเงิน / ดำ (แกะแล้ว) → generic name + origin + filament + absorbability + use",
+        "ไหมปิดแผล → brand, generic, filament, absorbability"],
+       flow:["Name: nylon / polyamide","Classify","Use"],
+       pattern:["<b>Nylon</b>: synthetic · <b>monofilament</b> · <b>non-absorbable</b> (ตาราง Ethicon: เสียแรงดึง ~15–20% ต่อปี — บางแหล่ง ~10–15% — แต่จัดเป็น non-absorbable) · memory สูง ต้องผูกหลาย throw · reaction น้อย",
+        "<b>Use</b>: <b>skin closure</b> ที่ตัดไหมออกภายหลัง, microsurgery (8-0 ถึง 10-0)"],
+       kw:["nylon (polyamide)","synthetic","monofilament","non-absorbable","skin closure"],
+       pearls:["ชื่อการค้าที่เจอ: Ethilon, Dafilon, Dermalon — ต้องตอบ generic ว่า nylon / polyamide"],
+       members:["MDCU67|RoC|12#1","MDCU67|RoC|12#2","MDCU67|RoC|12#3","MDCU67|RoD|9#1","MDCU67|RoD|9#2","MDCU67|RoD|9#3","MDCU65|RoC|9#1","MDCU76|RoC|9#2","MDCU79|RoC|10#3"]},
+
+      {id:"pds", title:"Polydioxanone (PDS) — synthetic · monofilament · absorbable ช้า",
+       trend:"ซอง PDS II ให้แยกจาก Vicryl และ Prolene",
+       asked:["ซอง PDS II (ปิดชื่อ) → generic name + classify + use",
+        "ซอง PDS คู่ silk → generic + classify + use",
+        "ไหมปิดแผล fascia → brand, generic, filament, absorbability"],
+       flow:["Name: polydioxanone","Classify","Use"],
+       pattern:["<b>Polydioxanone</b>: synthetic · <b>monofilament</b> · <b>absorbable แบบช้า</b> (hydrolysis) — PDS II (3-0 ขึ้นไป) แรงดึงเหลือ ~80% ที่ 2 สัปดาห์, ~70% ที่ 4 สัปดาห์, ~60% ที่ 6 สัปดาห์ (4-0 ลงไป ~60 / 40 / 35%) · ดูดซึมหมด 182–238 วัน (Ethicon)",
+        "<b>Use</b>: <b>ปิด fascia หน้าท้อง</b> (continuous small bites — EHS 2015 slowly absorbable monofilament; EHS / AHS 2022 ยืนยัน), bowel / biliary anastomosis, ศัลยกรรมเด็ก, subcuticular",
+        "เทียบ absorbable: Monocryl (mono, ดูดซึม 91–119 วัน — subcuticular) · Vicryl (braided, แรงดึง ~3 สัปดาห์) · PDS (mono, แรงดึงนานสุด — fascia)"],
+       kw:["polydioxanone","synthetic","monofilament","absorbable (slow)","abdominal fascia closure"],
+       pearls:["monofilament ไม่ได้แปลว่า non-absorbable — อย่าจัด PDS เป็น non-absorbable"],
+       members:["MDCU67|RoA|12#1","MDCU67|RoA|12#2","MDCU67|RoA|12#3","MDCU65|RoB|1#1","MDCU79|RoC|10#3"]},
+
+      {id:"packet-reading", title:"อ่านซองไหม: generic name, ขนาด, ชนิดเข็ม",
+       trend:"ให้ซองไหมจริงพร้อมฉลากแล้วถามข้อมูลบนซอง",
+       asked:["ซองไหมสีม่วงมีฉลาก → generic name + คุณสมบัติ (structure, absorbability) + ข้อมูลบนซอง + ตัวอย่าง use"],
+       flow:["Generic name จากชื่อการค้า","Structure + absorbability","อ่านข้อมูลบนซอง: ขนาด, ความยาว, เข็ม","Use"],
+       pattern:["<b>Vicryl = polyglactin 910</b> · synthetic · braided · absorbable (hydrolysis; ~50% ที่ 3 สัปดาห์, ดูดซึม 56–70 วัน)",
+        "<b>ขนาด USP</b>: ยิ่งเลข 0 มากยิ่งเล็ก (2-0 ใหญ่กว่า 4-0) · ความยาวไหม",
+        "<b>เข็ม</b>: taper point (round body) = เนื้อเยื่ออ่อน ลำไส้ หลอดเลือด · cutting / reverse cutting = ผิวหนัง เนื้อเยื่อแข็ง · ความโค้ง 3/8, 1/2 circle · ความยาวเข็ม",
+        "อื่น ๆ บนซอง: coated / dyed, sterile, วันหมดอายุ, lot"],
+       kw:["polyglactin 910","braided, absorbable","USP size 2-0","taper point vs reverse cutting","3/8 or 1/2 circle","expiry, sterile"],
+       pearls:["ตอบชื่อบนซอง (Vicryl) โดยไม่แปลงเป็น generic = ไม่ได้เต็ม"],
+       members:["MDCU65|RoA|5#1"]}
+    ]}
+  ]});

@@ -25,8 +25,8 @@ Co({page:1,orig:"1",topic:"proc",sub:"Suture & knot",ex:1,proc:1,title:"Procedur
  stem:`A skin model with a laceration, needle holder, toothed forceps, scissors and a nylon suture are provided. The examiner is observing.<br>1. Close the wound with one simple interrupted stitch and one vertical mattress stitch.`,
  gray:"OSCE 1. เย็บแผล simple/vertical mattress เย็บอย่างละ stitch",
  sp:"หุ่นแผล · needle holder · toothed forceps · กรรไกร · ไหม nylon 3-0/4-0 · ผู้คุมดู: จับ needle holder ถูก (thumb–ring), ใช้ forceps จับ dermis ไม่บีบขอบผิว, แทงเข็มตั้งฉาก 90°, ระยะห่างจากขอบเท่ากันสองข้าง, ผูกปมด้วย instrument tie ≥3 ปม (ปมแรก 2 รอบ), ปมอยู่ข้างแผล ไม่รัดแน่นเกิน, vertical mattress: far-far แล้ว near-near ขอบแผล evert, ตัดไหมเหลือ ~5 mm",
- notes:"ไฟล์ Key 76A วาดหน้ายิ้มไว้ (ไม่มีเฉลย)",
- opinion:"ความมั่นใจสูง",
+ notes:"ไฟล์ Key 76A วาดหน้ายิ้มไว้ (ไม่มีเฉลย) · ตรวจคีย์ 22 พ.ย. 2026: เดิม summary ‘ลำตัว 7–10 วัน’ → แก้เป็น ลำตัว 10–14 วัน (เขียนคู่กับตำราเดิม 7–10) ตาม AAFP 2017 (Laceration Repair, Am Fam Physician 2017;95:628 Table 5: หน้า 3–5, หนังศีรษะ 7–10, แขน 7–10, ลำตัว 10–14, ขา 10–14, มือ/เท้า 10–14, ฝ่ามือ/ฝ่าเท้า 14–21 วัน — expert opinion)",
+ opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): วันตัดไหมลำตัว: AAFP 2017 = 10–14 วัน (ตำราเดิม/ตำราไทยหลายเล่ม 7–10 วัน) — ในข้อสอบเขียนเป็นช่วงตามตำแหน่งและระบุแหล่งได้ทั้งสอง · ความมั่นใจสูง",
  parts:S(
   B("1.1 Simple interrupted stitch.",4,{tags:["proc"],ans:"จับ needle holder ที่ ⅓ ท้ายของเข็ม · แทงเข็ม<b>ตั้งฉาก 90°</b> ห่างขอบแผล 3–5 mm ทั้งสองข้าง<b>เท่ากัน</b> · ลึกถึง dermis · <b>instrument tie</b> ปมแรก 2 รอบ (surgeon's knot) + ปมกลับทิศ ≥2 ครั้ง · ปมอยู่ด้านข้างแผล · ไม่รัดจนขอบซีด",exp:"ปมที่ดีต้อง square และขอบแผลชนกันพอดี",rubric:"ได้ = เทคนิคแทงเข็ม + ปมแน่นถูกต้อง",
    pts:[H("Needle and bite",50),P("Needle perpendicular to skin","90","perpendic","ตั้งฉาก"),P("Equal distance and depth both sides","equal","เท่ากัน","symmetr"),H("Knot",50),CR(P("Secure square knots (instrument tie)","square","knot","ปม","instrument tie")),P("Knot placed to one side, not strangulating","side","ข้างแผล","not too tight","ไม่แน่นเกิน")]}),
@@ -34,7 +34,7 @@ Co({page:1,orig:"1",topic:"proc",sub:"Suture & knot",ex:1,proc:1,title:"Procedur
    pts:[CR(P("Far-far then near-near","far","near","ไกล","ใกล้")),P("Edge eversion","evert","ขอบแผลยก")]})
  ),
  interp:"Basic suturing",
- summary:["Simple interrupted: มาตรฐาน ปรับแต่ละจุดได้","Vertical mattress: far-far near-near → eversion","ปมแรกพัน 2 รอบ แล้วกลับทิศ ≥2 ปม","ตัดไหมผิวหน้า 3–5 วัน, ลำตัว 7–10 วัน, แขนขา/ข้อ 10–14 วัน"]}),
+ summary:["Simple interrupted: มาตรฐาน ปรับแต่ละจุดได้","Vertical mattress: far-far near-near → eversion","ปมแรกพัน 2 รอบ แล้วกลับทิศ ≥2 ปม","ตัดไหมผิวหน้า 3–5 วัน, ลำตัว 10–14 วัน (AAFP 2017; ตำราเดิม 7–10), แขน 7–10 / ขา/ข้อ 10–14 วัน"]}),
 
 /* ===== OSCE 2 ===== */
 Co({page:1,orig:"2",topic:"pe",sub:"Abdomen",ex:1,title:"Physical examination — suspected acute appendicitis",kimg:["os76a_ko2"],
@@ -338,7 +338,7 @@ SA({page:3,orig:"MEQ 9",num:"SA 9",sub:"Vascular/Ulcer",title:"Short answer — 
  parts:S(
   B("9.1 Describe the lesion.",3,{tags:["spot"],key:KF+"sharp irregular necrotic base ulcer, ไม่มี granulation, ดำ (necrotic/black)",ans:"บรรยาย: ตำแหน่ง, ขนาด, ขอบ (<b>punched-out/sharp</b>), พื้นแผล (<b>ดำ necrotic ไม่มี granulation</b>), ผิวรอบ (ซีด มันวาว ขนร่วง), discharge · นิ้วชี้เท้าดำแห้งขอบชัด = <b>dry gangrene</b>",exp:"Wet gangrene: บวม แดง หนอง กลิ่น → ต้องผ่าด่วน",rubric:"ได้",pts:[P("Site and size","site","ตำแหน่ง","size","ขนาด"),CR(P("Black necrotic / no granulation","black","ดำ","necro","gangren")),P("Edge and surrounding skin","edge","ขอบ","punched","surround")]}),
   B("9.2 Diagnosis.",2,{tags:["spot"],key:KF+"Arterial ulcer (PAD)",ans:"<b>Dry gangrene / arterial (ischemic) ulcer</b> จาก <b>peripheral arterial disease — chronic limb-threatening ischemia</b> (atherosclerosis, เบาหวาน; คนหนุ่มสูบบุหรี่ → Buerger disease)",exp:"Dry gangrene ปล่อยให้ demarcate แล้วตัดหลัง revascularization",rubric:"ได้",pts:[CR(P("Arterial ulcer / PAD / CLTI","arterial","pad","ischemi","ขาดเลือด","gangren"))]}),
-  B("9.3 Additional examination.",3,{tags:["spot"],key:KF+"ABI · pulse 4 ตำแหน่ง: femoral, popliteal, posterior tibial, dorsalis pedis",ans:"<b>คลำชีพจร</b> femoral, popliteal, posterior tibial, dorsalis pedis ทั้งสองข้าง · <b>ABI</b> · capillary refill, Buerger test, อุณหภูมิ, trophic changes · ตรวจ <b>monofilament</b> (neuropathy ในเบาหวาน) · ฟัง bruit",exp:"ABI <0.9 = PAD · >1.3 = non-compressible (DM, CKD) → toe pressure",rubric:"ได้",pts:[CR(P("Peripheral pulses","pulse","ชีพจร","dorsalis","tibial","popliteal","femoral")),CR(P("ABI","abi","ankle.?brachial")),P("Neuropathy / Buerger test","monofilament","neuro","buerger")]})
+  B("9.3 Additional examination.",3,{tags:["spot"],key:KF+"ABI · pulse 4 ตำแหน่ง: femoral, popliteal, posterior tibial, dorsalis pedis",ans:"<b>คลำชีพจร</b> femoral, popliteal, posterior tibial, dorsalis pedis ทั้งสองข้าง · <b>ABI</b> · capillary refill, Buerger test, อุณหภูมิ, trophic changes · ตรวจ <b>monofilament</b> (neuropathy ในเบาหวาน) · ฟัง bruit",exp:"ABI <0.9 = PAD · >1.40 = non-compressible (DM, CKD) → toe pressure",rubric:"ได้",pts:[CR(P("Peripheral pulses","pulse","ชีพจร","dorsalis","tibial","popliteal","femoral")),CR(P("ABI","abi","ankle.?brachial")),P("Neuropathy / Buerger test","monofilament","neuro","buerger")]})
  ),
  interp:"Ischemic toe",
  summary:["Arterial ulcer: ปลายนิ้ว ขอบเรียบ ดำ ไม่มี granulation เจ็บ","Pulses + ABI","Dry gangrene → revascularization แล้ว amputation"]}),

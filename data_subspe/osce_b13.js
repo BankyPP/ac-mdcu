@@ -309,8 +309,8 @@ Co({page:5,orig:"21",topic:"proc",sub:"Suture & knot",ex:1,proc:1,title:"Procedu
  gray:"(มีอาจารย์) ใส่ถุงมือ sterile + เย็บ 2 simple",
  sp:"(Claude แต่ง) หุ่นผิวหนังมีแผลตรง · ถุงมือ sterile, nylon 3-0/4-0, needle holder, toothed forceps, scissors · ผู้คุมดู: ใส่ถุงมือไม่ปนเปื้อน, จับเข็มด้วย needle holder ที่ 2/3 จากปลาย, แทงตั้งฉาก ระยะเท่ากัน ขอบแผล evert, instrument tie square knot, ตัดไหมยาว ~5 mm",
  flag:"รายละเอียดอุปกรณ์ Claude แต่ง",
- notes:"ต้นฉบับ: \"(มีอาจารย์) ใส่ถุงมือ sterile + เย็บ 2 simple\" · ไม่มีเฉลย · OSCE Subspe 79C มีสถานีคล้ายกัน",
- opinion:"ไม่มีเฉลยในไฟล์ — ขั้นตอนตามมาตรฐาน basic surgical skill ความมั่นใจสูง",
+ notes:"ต้นฉบับ: \"(มีอาจารย์) ใส่ถุงมือ sterile + เย็บ 2 simple\" · ไม่มีเฉลย · OSCE Subspe 79C มีสถานีคล้ายกัน · ตรวจคีย์ 22 พ.ย. 2026: เดิม exp ‘หนังศีรษะ/ลำตัว 7–10, แขนขา 10–14’ → แก้เป็น ลำตัว 10–14 วัน (เขียนคู่กับตำราเดิม 7–10) ตาม AAFP 2017 (Laceration Repair, Am Fam Physician 2017;95:628 Table 5: หน้า 3–5, หนังศีรษะ 7–10, แขน 7–10, ลำตัว 10–14, ขา 10–14, มือ/เท้า 10–14, ฝ่ามือ/ฝ่าเท้า 14–21 วัน — expert opinion)",
+ opinion:"ไม่มีเฉลยในไฟล์ — ขั้นตอนตามมาตรฐาน basic surgical skill ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): วันตัดไหมลำตัว: AAFP 2017 = 10–14 วัน (ตำราเดิม/ตำราไทยหลายเล่ม 7–10 วัน) — ในข้อสอบเขียนเป็นช่วงตามตำแหน่งและระบุแหล่งได้ทั้งสอง · ความมั่นใจสูง",
  parts:S(
   B("21.1 Put on sterile gloves.",3,{tags:["proc"],
    ans:"ล้างมือ · ตรวจซองไม่ขาด ไม่หมดอายุ ขนาดถูก · เปิดซองนอก วางซองในบนพื้นที่สะอาด · มือเปล่าจับ<b>ด้านในของขอบพับ</b>สวมข้างแรก · มือที่สวมแล้ว<b>สอดนิ้วใต้ขอบพับ (ด้านนอก)</b>ของอีกข้างแล้วสวม · คลี่ขอบพับโดยไม่แตะผิว · มือเหนือเอว ไม่แตะสิ่งไม่ sterile · ปนเปื้อน = เปลี่ยนใหม่",
@@ -319,7 +319,7 @@ Co({page:5,orig:"21",topic:"proc",sub:"Suture & knot",ex:1,proc:1,title:"Procedu
    pts:[P("Hand hygiene + check package","ล้างมือ","hand","ซอง","expiry","หมดอายุ"),CR(P("Bare hand touches only inside of cuff; gloved hand only outside","ด้านใน","inside","ใต้ขอบ","under the cuff","outside")),P("Keep hands above waist","เหนือเอว","above waist")]}),
   B("21.2 Two simple interrupted sutures.",7,{tags:["proc"],
    ans:"จับ needle holder ถูกวิธี · <b>จับเข็มที่ 1/2–2/3 จากปลาย</b> ด้วยเครื่องมือ ไม่ใช้มือ · <b>แทงตั้งฉาก</b> ห่างขอบ ~3–5 mm ระยะ = ความลึก สองฝั่งเท่ากัน → ขอบแผล <b>evert</b> · ใช้ toothed forceps จับขอบเบา ๆ · <b>Instrument tie</b>: surgeon's knot แล้ว square knot ≥3 throws · ปมข้างแผล ไม่ตึงเกิน · ตัดไหม ~5 mm · stitch ที่ 2 ห่างพอดี · ทิ้งเข็มลง sharps",
-   exp:"ตัดไหม: หน้า 5 วัน, หนังศีรษะ/ลำตัว 7–10, แขนขา 10–14 วัน",
+   exp:"ตัดไหม: หน้า 3–5 วัน, หนังศีรษะ 7–10, ลำตัว 10–14 วัน (AAFP 2017; ตำราเดิม 7–10), แขน 7–10 / ขา 10–14 วัน",
    rubric:"ได้ = จับเข็มถูก + แทงตั้งฉาก ระยะเท่ากัน + evert + square knot",
    pts:[CR(P("Needle held with needle holder at 2/3","needle holder","2/3","จับเข็ม")),CR(P("Perpendicular entry, equal bites, edge eversion","ตั้งฉาก","perpendicular","เท่ากัน","evert")),CR(P("Square knot by instrument tie","square","surgeon","instrument tie","3 throw")),P("Cut suture ~5 mm, sharps disposal","5 mm","ตัดไหม","sharps")]})
  ),

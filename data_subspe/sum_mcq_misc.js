@@ -1,0 +1,11 @@
+SUMM.push({tag:"Misc", title:"Misc (perioperative)",
+  intro:"<ul><li>แท็กนี้มีโจทย์ perioperative care เพียงเรื่องเดียว: <b>การป้องกัน pulmonary aspiration ในผู้ป่วยแข็งแรงที่ผ่าตัด elective ภายใต้ GA</b> → ตอบ <b>preoperative fasting (NPO)</b> ตามแนวทาง ASA</li><li>ตัวลวงคือมาตรการที่ไม่ใช้ routine ในผู้ป่วยความเสี่ยงต่ำ (NG tube, prokinetic) และท่า Trendelenburg ซึ่งใช้ระบายเมื่ออาเจียนแล้ว ไม่ใช่ป้องกัน</li></ul>",
+  groups:[
+    {title:"Perioperative care", sections:[
+      {id:"aspiration-fasting", title:"ป้องกัน pulmonary aspiration ก่อนดมยาสลบ: preoperative fasting (ASA)",
+       asked:["หญิง 30 ปีแข็งแรง นัดผ่าตัด elective ภายใต้ GA → มาตรการสำคัญที่สุดป้องกัน pulmonary aspiration → <b>preoperative fasting</b> (ตัวลวง Trendelenburg ขณะ induction, NG tube routine, prokinetic routine, deep sedation ก่อน induction)"],
+       pattern:["<b>ASA Practice Guidelines for Preoperative Fasting (2017)</b> ผู้ป่วยแข็งแรง elective: <b>clear liquid 2 ชม.</b>, <b>นมแม่ 4 ชม.</b>, infant formula / nonhuman milk 6 ชม., <b>light meal 6 ชม.</b>, อาหารทอด / มัน / เนื้อสัตว์ <b>≥8 ชม.</b>","<b>ASA 2023 modular update</b> (เพิ่มจาก 2017): ผู้ใหญ่ความเสี่ยงต่ำดื่ม <b>carbohydrate-containing clear liquid ได้ถึง 2 ชม.</b> ก่อนผ่า; เคี้ยวหมากฝรั่งไม่ต้องเลื่อนผ่าตัด (แต่ต้องคายก่อนให้ยาสลบ / sedation); เด็กให้ดื่ม clear liquid ได้ใกล้ถึง 2 ชม. — ส่วน <b>ESAIC 2022</b> (เด็ก, ยุโรป) ลด clear fluid เหลือ <b>1 ชม.</b> และนมแม่ 3 ชม.","ASA 2017: <b>ไม่แนะนำให้ routine</b> GI stimulant (prokinetic เช่น metoclopramide), H2 blocker / PPI, antacid, antiemetic เพื่อลด aspiration ในผู้ป่วยที่ไม่มีความเสี่ยงเพิ่ม และไม่แนะนำ anticholinergic เพื่อการนี้เลย","ผู้ป่วยเสี่ยงสูง (full stomach, emergency, bowel obstruction, pregnancy, GERD รุนแรง) → <b>rapid sequence induction</b> + cricoid pressure, NG decompression ก่อน induction ในลำไส้อุดตัน","ถ้าอาเจียน / regurgitate ขณะไม่รู้สึกตัว → ศีรษะต่ำ (head-down) + ตะแคง + suction เพื่อระบายออก"],
+       pearls:["Trendelenburg ระหว่าง induction ไม่ได้ป้องกัน aspiration — ผู้จดเดิมจดไว้ทั้ง NPO และ Trendelenburg; ไฟล์ไม่มีคีย์ ธนาคารตอบ NPO","Deep sedation ก่อน induction เพิ่มความเสี่ยงเพราะ airway reflex เสียก่อนใส่ท่อ"],
+       members:["MDCU74|RoC|3"]}
+    ]}
+  ]});
