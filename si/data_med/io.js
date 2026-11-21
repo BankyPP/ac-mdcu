@@ -1,6 +1,7 @@
 /* Round I/O (SI: "Summary") — Internal Medicine Y4 (SI) · W.IO.docs = [{code, kind:"L"|"R"|"N", title, src, upd, legend?, pages:[{id, title, topics:[หัวข้อวอร์ด], rev, upd, html, refs?:[{t,u?}]}]}]
    html ใช้ {{IMG:key}} (รูปใน si/img) และ {{R:n}} = เลขอ้างอิงของ refs ในหน้านั้น · แก้หน้าไหนให้เพิ่ม rev + เปลี่ยน upd
-   27 ต.ค. 2026: L17 (Multiple myeloma) + R01 (Medically important bacteria) + R02 (Adrenal insufficiency) */
+   27 ต.ค. 2026: L17 (Multiple myeloma) + R01 (Medically important bacteria) + R02 (Adrenal insufficiency)
+   22 พ.ย. 2026: R03 (Chaicharoen — Atlas of Blood Smears) 10 หน้า + R04 (Mindray Blood Cell Atlas) 7 หน้า · ใช้ร่วมทุกแท็บ (ไม่ใส่ types) · รูป si/img/ubs_* ใช้ร่วมกับ Unit round OSCE Blood smear */
 W.IO={
 "docs": [
 {
@@ -534,6 +535,297 @@ W.IO={
 ],
 "rev": 1,
 "upd": "2026-10-27"
+}
+]
+},
+{
+"code": "R03",
+"kind": "R",
+"title": "Atlas of Blood Smears in Common Hematologic Diseases",
+"src": "R03 Atlas of Blood Smears in Common Hematologic Diseases — Chaicharoen Tantanate, M.D. (v.01.2025) · 58 หน้า A5 · แจกฟรีเพื่อการศึกษาที่ไม่แสวงกำไร · ⚠ ผู้แต่งระบุว่ารูปสเมียร์ทั้งหมด <b>สร้างด้วย AI (Nano Banana Pro)</b> ตามการตีความของผู้แต่ง — ใช้ฝึกดูรูปแบบได้ แต่ไม่ใช่เคสจริง",
+"upd": "2026-11-22",
+"legend": "<span><span class=\"imp\">ตัวแดง</span> = สำคัญ/ต้องจำ</span><span>p.N = หน้า PDF ในไฟล์ต้นฉบับ</span><span><span class=\"warn\">⚠ อัปเดต</span> = guideline/การจัดกลุ่มใหม่กว่าที่ไฟล์ใช้</span><span>📘 Guideline = เนื้อหาจาก guideline ที่เชื่อถือได้ ฉบับล่าสุด (ใส่ท้ายกล่องของหัวข้อนั้น)</span>",
+"pages": [
+{
+"id": "R03-1",
+"title": "เทคนิคทำ/อ่านสเมียร์ · artifacts · การให้เกรด RBC morphology",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"iointro\">สเมียร์ที่ดี = EDTA (จุกม่วง) ทำภายใน <b>2–3 ชม.</b> · wedge (push) technique มุม <b>30–45°</b> ครอบคลุม 2/3 ของสไลด์ มี feathered edge · ย้อม Romanowsky (Wright / Wright-Giemsa) → สเมียร์สีชมพูม่วง · RBC สีชมพูแซลมอน, nucleus WBC สีม่วงน้ำเงิน</div>\n<div class=\"box\"><h3>Zone of morphology & systematic scanning <span class=\"ref\">p.9–12</span></h3>\n<ul><li>อ่านที่ <span class=\"imp\">monolayer</span> (ระหว่าง thick body กับ feathered edge): RBC ห่างเท่า ๆ กัน แตะกันได้แต่ไม่ซ้อน และเห็น central pallor</li><li><b>10×</b> ดูคุณภาพสีและการกระจาย + <span class=\"imp\">ตรวจ feathered edge หา platelet clump / fibrin strand</span></li><li><b>40×</b> เลือก zone of morphology</li><li><b>100× oil</b>: RBC (ขนาด สี รูปร่าง inclusion) · WBC differential 100 ตัว + morphology · ประมาณจำนวน/รูปร่างเกล็ดเลือด</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">Siriraj Key PBS (osce_ref) · ICSH 2015</span></div><p><span class=\"chip gl\">📘 Guideline</span> การประมาณเกล็ดเลือด: เฉลี่ยต่อ oil field × 15,000–20,000/µL · Key ศิริราช: <b>&lt; 5/OF = ต่ำ, &gt; 25/OF = สูง</b> · NRBC รายงานต่อ 100 WBC และแก้ WBC = WBC × 100/(100 + NRBC)</p></div></div><div class=\"box\"><h3>Common artifacts <span class=\"ref\">p.13</span></h3>\n<div class=\"fig\">{{IMG:ubs_artif}}</div><p class=\"cap\">A crenated RBCs · B water artifact · C stain precipitate (R03 p.13)</p><ul><li><b>Crenated RBC (artifactual burr cell)</b>: ขอบหนาม จากแห้งช้า/EDTA เก่า — ถ้าเป็นจริงต้องเห็นทุก field</li><li><b>Water artifact</b>: moth-eaten / refractile shiny blotch จากความชื้นหรือน้ำใน stain/methanol</li><li><b>Stain precipitate</b>: เม็ดน้ำเงินดำ — <span class=\"imp\">ปรับโฟกัสขึ้นลง precipitate จะเงาวาวอยู่คนละระนาบ</span> ต่างจากเชื้อหรือ parasite</li></ul></div><div class=\"box\"><h3>การให้เกรด RBC morphology <span class=\"ref\">p.14–16</span></h3>\n<p><b>สภาเทคนิคการแพทย์</b> (anisocytosis, poikilocytosis, hypochromia): few 5–10% · 1+ 11–25% · 2+ 26–50% · 3+ 51–75% · 4+ 76–100% · teardrop, bite, blister, ghost, microspherocyte, macro-ovalocyte, polychromasia, inclusion → นับต่อ OPF · rouleaux, agglutination, parasite → รายงาน \"พบ\"</p><table><tr><th>ICSH 2015</th><th>1+ (few)</th><th>2+ (moderate)</th><th>3+ (many)</th></tr><tr><td>Aniso, macro/microcytes, hypochromic</td><td>—</td><td>11–20%</td><td>&gt; 20%</td></tr><tr><td>Polychromasia, acanthocyte, echinocyte, elliptocyte, ovalocyte, spherocyte, stomatocyte, <span class=\"imp\">target</span>, <span class=\"imp\">teardrop</span>, basophilic stippling</td><td>—</td><td>5–20%</td><td>&gt; 20%</td></tr><tr><td>Macro-ovalocyte</td><td>—</td><td>2–5%</td><td>&gt; 5%</td></tr><tr><td>Bite, blister, irregularly contracted cells</td><td>—</td><td>1–2%</td><td>&gt; 2%</td></tr><tr><td><span class=\"imp\">Schistocyte</span></td><td>&lt; 1%</td><td>1–2%</td><td>&gt; 2%</td></tr><tr><td>Sickle cell</td><td>—</td><td>1–2%</td><td>&gt; 2%</td></tr><tr><td>Howell–Jolly, Pappenheimer</td><td>—</td><td>2–3%</td><td>&gt; 3%</td></tr></table>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">ICSH recommendations for the standardization of nomenclature and grading of peripheral blood cell morphological features (Palmer L et al. Int J Lab Hematol 2015;37:287–303) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> ฉบับนี้ยังเป็นมาตรฐานปัจจุบัน — schistocyte ≥ 1% (≈ &gt; 2 ตัว/oil field) สนับสนุน TMA เมื่อเข้ากับคลินิก (ICSH 2021 schistocyte update)</p></div></div>",
+"refs": [
+{
+"t": "Palmer L, et al. ICSH recommendations for the standardization of nomenclature and grading of peripheral blood cell morphological features. Int J Lab Hematol 2015;37(3):287–303"
+},
+{
+"t": "Zini G, et al. ICSH recommendations for identification, diagnostic value, and quantitation of schistocytes: Impact and revisions. Int J Lab Hematol 2021;43(6):1264–71"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R03-2",
+"title": "Iron deficiency anemia vs thalassemia trait · Hb CS · Hb E",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"iointro\">ทั้ง IDA และ thalassemia trait เป็น <b>hypochromic microcytic</b> — แยกด้วย RBC count, RDW, pencil cell, basophilic stippling, Mentzer index, ferritin และ Hb typing</div>\n<div class=\"box\"><h3>Iron deficiency anemia <span class=\"ref\">p.17–19</span></h3>\n<div class=\"fig\">{{IMG:ubs_ida}}</div><p class=\"cap\">IDA: hypochromic microcytic, pencil cells, few target cells (R03 p.17)</p><ul><li><b>RBC</b>: <span class=\"imp\">hypochromia, microcytic, anisocytosis, poikilocytosis</span> · <span class=\"imp\">pencil-shaped RBC / elliptocyte</span> · few target cells · <b>ไม่มี</b> spherocyte / basophilic stippling · ไม่มี polychromasia (ยกเว้นเลือดออกอยู่หรือได้เหล็กแล้ว)</li><li><b>WBC</b>: ปกติ · eosinophilia ถ้ามี <span class=\"imp\">hookworm</span> ร่วม · <b>Platelet</b>: ปกติหรือสูง (reactive thrombocytosis)</li></ul><div class=\"fig\">{{IMG:ubs_idacu}}</div><p class=\"cap\">A hypochromic microcyte · B pencil cell · C target cell (p.18)</p><ul><li>Hypochromic microcyte: heme สร้างน้อย → แบ่งตัวเพิ่ม (microcytic) + Hb รวมต่ำ (hypochromia)</li><li>Pencil cell: ขาดเหล็กทำให้ membrane cytoskeleton อ่อน → ยืดค้างหลังผ่าน microvessel</li><li>Target cell: Hb น้อยเทียบกับพื้นที่ผิว membrane → membrane เกินโป่งตรงกลาง</li></ul><table><tr><th></th><th>IDA</th><th>Thalassemia trait</th></tr><tr><td>RBC count</td><td>ต่ำ</td><td>มักปกติ/สูง</td></tr><tr><td>RDW</td><td><span class=\"imp\">สูง</span> (aniso เด่น)</td><td>ปกติ (เล็กสม่ำเสมอ)</td></tr><tr><td>Basophilic stippling</td><td>พบน้อย</td><td>พบได้/หยาบ</td></tr><tr><td>Pencil cell</td><td><span class=\"imp\">พบบ่อย</span></td><td>พบน้อย</td></tr><tr><td>Target cell</td><td>มี</td><td><span class=\"imp\">เด่นกว่า</span></td></tr></table><ul><li>Ix: <span class=\"imp\">serum ferritin ต่ำ</span> (acute phase reactant — อาจปกติ/สูงเท็จในการอักเสบ โรคตับ มะเร็ง) · serum iron ↓ TIBC ↑ TSAT ↓ · sTfR ↑ · หาสาเหตุเสมอ</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">BSG guidelines for the management of iron deficiency anaemia in adults (Snook J et al. Gut 2021) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> Ferritin &lt; 30 µg/L ยืนยันขาดเหล็ก (ถ้ามีการอักเสบอาจใช้ &lt; 100 + TSAT &lt; 20%) · ชายทุกอายุ/หญิงหมดประจำเดือนที่เป็น IDA → <span class=\"imp\">bidirectional endoscopy</span> + celiac serology · oral iron <b>วันละ 1 เม็ดหรือวันเว้นวัน</b> ต่อ ~3 เดือนหลัง Hb ปกติ · ไม่ตอบสนอง/ดูดซึมไม่ได้ → IV iron</p></div></div><div class=\"box\"><h3>Thalassemia traits <span class=\"ref\">p.20–22, 26</span></h3>\n<div class=\"fig\">{{IMG:ubs_thtrait}}</div><p class=\"cap\">α-thal 1 trait / homozygous α-thal 2 / β-thal trait: Hb ปกติ MCV ต่ำ (p.20)</p><ul><li><b>α-thal 1 trait, homozygous α-thal 2, β-thal trait</b>: Hb ปกติ MCV ต่ำ · hypochromic microcytic ระดับเล็กน้อย, few target cells, ไม่มี spherocyte/polychromasia, WBC/plt ปกติ</li></ul><div class=\"fig\">{{IMG:ubs_hbcs}}</div><p class=\"cap\">Hb CS trait / α-thal 2/Hb CS: basophilic stippling (p.21)</p><ul><li><b>Hb CS trait, α-thal 2/Hb CS</b>: Hb ปกติ MCV ปกติหรือต่ำ · มี <span class=\"imp\">basophilic stippling</span></li></ul><div class=\"fig\">{{IMG:ubs_hbe}}</div><p class=\"cap\">Hb E trait / homozygous Hb E: target cells (p.22)</p><ul><li><b>Hb E trait</b> (MCV ปกติ/ต่ำ) และ <b>homozygous Hb E</b> (MCV ต่ำ): <span class=\"imp\">target cells — เด่นมากใน homozygous Hb E</span></li><li><b>Mentzer index</b> = MCV (fL) ÷ RBC (×10⁶/µL): <span class=\"imp\">&lt; 13 ชวน thalassemia, &gt; 13 ชวน IDA</span></li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">แนวทางการควบคุมและป้องกันโรคธาลัสซีเมีย กรมอนามัย / Thai Society of Hematology · TIF 2021</span></div><p><span class=\"chip gl\">📘 Guideline</span> คัดกรองคู่: <b>OF + DCIP</b> → Hb typing (HPLC/CE: β-trait Hb A2 ≥ 3.5%, HbE trait A + E 25–30%, homozygous E ~85–95%) + <b>PCR α-thal 1 (SEA)</b> · คู่เสี่ยง 3 โรครุนแรง: <span class=\"imp\">Hb Bart's hydrops, homozygous β-thal, β-thal/HbE</span> → prenatal diagnosis</p></div></div>",
+"refs": [
+{
+"t": "Snook J, et al. British Society of Gastroenterology guidelines for the management of iron deficiency anaemia in adults. Gut 2021;70:2030–51"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R03-3",
+"title": "Thalassemia diseases: Hb H · β-thal/Hb E · post-splenectomy",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Hb H disease (± Hb CS) <span class=\"ref\">p.23, 26</span></h3>\n<div class=\"fig\">{{IMG:ubs_hbh}}</div><p class=\"cap\">Hb H disease: target, teardrop, schistocyte, spherocyte, polychromasia (p.23)</p><ul><li><b>RBC</b>: hypochromia, microcytosis, anisocytosis <span class=\"imp\">ระดับปานกลาง</span> · poikilocytosis: spherocyte, target, <span class=\"imp\">teardrop</span>, schistocyte · polychromasia · NRBC · basophilic stippling (เพิ่มใน Hb CS)</li><li><b>WBC/Platelet</b>: ปกติ</li></ul><div class=\"fig\">{{IMG:ubs_hbhinc}}</div><p class=\"cap\">Hb H inclusion — 'golf ball' (brilliant cresyl blue, p.26)</p><ul><li><b>Hb H inclusion test</b>: บ่ม RBC กับ brilliant cresyl blue / new methylene blue → Hb H (β4) ตกตะกอนเป็นจุดทั่วเซลล์ (golf ball) · <span class=\"imp\">ไวสูงต่อ Hb H disease แต่ต่ำต่อ α-thal trait</span></li><li>Hemolytic crisis เมื่อมีไข้/ติดเชื้อ/ยา oxidant → Hb ตกเร็ว</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">Guidelines for the Management of Non-Transfusion-Dependent β-Thalassaemia and α-thalassaemia (TIF 2023) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> Hb H: folic acid, หลีกเลี่ยง oxidant drugs, <span class=\"imp\">ห้ามให้ยาเหล็กโดยไม่มีหลักฐานขาดเหล็ก</span> · ให้เลือดเป็นครั้งคราวในช่วง crisis/ตั้งครรภ์ · เฝ้าระวัง iron overload แม้ไม่ได้รับเลือดประจำ</p></div></div><div class=\"box\"><h3>Homozygous β-thal / β-thal/Hb E disease <span class=\"ref\">p.24</span></h3>\n<div class=\"fig\">{{IMG:ubs_bthe}}</div><p class=\"cap\">β-thal/Hb E disease: marked poikilocytosis, NRBC (p.24)</p><ul><li><b>RBC</b>: hypochromia, microcytosis, anisocytosis <span class=\"imp\">ปานกลางถึงรุนแรง</span> · spherocyte, target, teardrop, schistocyte, polychromasia · <span class=\"imp\">NRBC</span> · basophilic stippling</li><li><b>WBC/Platelet</b>: ปกติ (WBC analyzer สูงเท็จจาก NRBC)</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">Guidelines for the Management of Transfusion-Dependent Thalassaemia, 4th ed. (TIF 2021) {{R:2}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> Pre-transfusion Hb <span class=\"imp\">9.5–10.5 g/dL</span> (11–12 ถ้ามีโรคหัวใจ) · leukoreduced PRC · iron chelation เริ่มเมื่อ ferritin &gt; 1,000 ng/mL หรือรับเลือด ~10–20 ครั้ง: DFO (SC/IV), DFP (เฝ้าระวัง agranulocytosis), DFX (ไต/ตับ) · cardiac T2* &lt; 20 ms = cardiac iron</p></div></div><div class=\"box\"><h3>Thalassemia major — post-splenectomy <span class=\"ref\">p.25</span></h3>\n<div class=\"fig\">{{IMG:ubs_splen}}</div><p class=\"cap\">Post-splenectomy: NRBC เพิ่มมาก, Howell–Jolly body (p.25)</p><ul><li>ม้ามหายไป → ไม่มีการกรอง/เก็บกัก: <span class=\"imp\">1. NRBC เพิ่มมาก 2. Howell–Jolly bodies 3. thrombocytosis</span></li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">CDC adult immunization schedule 2025 (asplenia) · ASH/BSH asplenia guidance</span></div><p><span class=\"chip gl\">📘 Guideline</span> วัคซีน: pneumococcal (PCV20 หรือ PCV15 → PPSV23), Hib, MenACWY + MenB, influenza ทุกปี · ไข้ในผู้ไม่มีม้าม = <span class=\"imp\">emergency (OPSI) → ceftriaxone ทันที</span></p></div></div>",
+"refs": [
+{
+"t": "Taher A, et al. Guidelines for the Management of Non-Transfusion-Dependent β-Thalassaemia and α-thalassaemia. TIF 2023"
+},
+{
+"t": "Cappellini MD, et al. Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT), 4th ed. TIF 2021"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R03-4",
+"title": "Megaloblastic anemia · Aplastic anemia",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Megaloblastic anemia <span class=\"ref\">p.27–28</span></h3>\n<div class=\"fig\">{{IMG:ubs_mega}}</div><p class=\"cap\">Macro-ovalocytes + hypersegmented neutrophil (p.27)</p><ul><li><b>RBC</b>: macrocytic, anisocytosis ปานกลาง · poikilocytosis: <span class=\"imp\">macro-ovalocyte</span>, teardrop, schistocyte · Howell–Jolly, basophilic stippling, Cabot ring พบได้</li><li><b>WBC</b>: ปกติหรือ leukopenia · <span class=\"imp\">hypersegmented neutrophil: ≥ 1 ตัวมี 6 lobes หรือ &gt; 5% มี 5 lobes</span></li><li><b>Platelet</b>: ปกติหรือต่ำ</li></ul><div class=\"fig\">{{IMG:ubs_megacu}}</div><p class=\"cap\">A macro-ovalocyte · B hypersegmented neutrophil (p.28)</p><ul><li>ขาด B12/folate → DNA synthesis บกพร่อง → <span class=\"imp\">nuclear–cytoplasmic asynchrony</span> + ข้ามการแบ่งตัว → เซลล์ใหญ่ Hb เต็ม (macro-ovalocyte) และ nucleus แบ่ง lobe มากเกิน</li><li><b>Diagnostic triad</b>: macro-ovalocytes + hypersegmented neutrophils + pancytopenia (ระยะท้าย)</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">BSH guidelines for the diagnosis and treatment of cobalamin and folate disorders (Devalia V et al. 2014; BSH 2024 update in progress) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> B12 deficiency: IM hydroxocobalamin/cyanocobalamin 1 mg ×3/สัปดาห์ 2 สัปดาห์ → ทุก 2–3 เดือนตลอดชีวิต (มีอาการทางประสาท: วันเว้นวันจนอาการคงที่) · folate: folic acid 5 mg/d 4 เดือน — <span class=\"imp\">ห้ามให้ folate เดี่ยวก่อนตัด B12 deficiency</span> · ระวัง hypokalemia ช่วงแรก</p></div></div><div class=\"box\"><h3>Aplastic anemia <span class=\"ref\">p.29</span></h3>\n<div class=\"fig\">{{IMG:ubs_aa}}</div><p class=\"cap\">Aplastic anemia: NCNC, ไม่มี polychromasia/NRBC, เกล็ดเลือดน้อย (p.29)</p><ul><li><b>RBC</b>: normochromic normocytic · mild macrocytosis ได้ (<span class=\"imp\">round macrocyte ไม่ใช่ oval</span>) · ไม่มี polychromasia หรือ NRBC</li><li><b>WBC</b>: leukopenia & neutropenia · relative lymphocytosis · <span class=\"imp\">ไม่มี dysplastic cell หรือ blast</span></li><li><b>Platelet</b>: thrombocytopenia</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">BSH guideline for the diagnosis and management of adult aplastic anaemia (Kulasekararaj A et al. Br J Haematol 2024) {{R:2}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> Severe AA (Camitta): BM cellularity &lt; 25% + ≥ 2 ใน: ANC &lt; 0.5, plt &lt; 20, retic &lt; 60 ×10⁹/L · very severe ANC &lt; 0.2 · work-up: BM biopsy, PNH flow, viral, B12/folate, chromosomal breakage/telomere ถ้าสงสัย inherited · <span class=\"imp\">อายุน้อยมี matched sibling → HSCT; ไม่มี → hATG + cyclosporine + eltrombopag</span> · ให้เลือด leukoreduced (irradiated ถ้าได้ ATG/ก่อน HSCT)</p></div></div>",
+"refs": [
+{
+"t": "Devalia V, et al. Guidelines for the diagnosis and treatment of cobalamin and folate disorders. Br J Haematol 2014;166:496–513"
+},
+{
+"t": "Kulasekararaj A, et al. Guidelines for the diagnosis and management of adult aplastic anaemia: A British Society for Haematology Guideline. Br J Haematol 2024;204:784–804"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R03-5",
+"title": "RBC membrane defects: HS · HE · SAO",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>ภาพรวม membrane defects <span class=\"ref\">p.30</span></h3>\n<div class=\"fig\">{{IMG:ubs_memb}}</div><p class=\"cap\">A spherocytes (HS) · B elliptocytes (HE) · C stomatocytic ovalocytes (SAO) (p.30)</p><table><tr><th></th><th>HS</th><th>HE</th><th>SAO</th></tr><tr><td>Defect</td><td>Ankyrin, band 3, spectrin, protein 4.2 — <span class=\"imp\">vertical interaction</span></td><td>Spectrin, protein 4.1, glycophorin C — <span class=\"imp\">horizontal interaction</span></td><td>SLC4A1 <span class=\"imp\">27-bp deletion</span> → band 3 แข็ง</td></tr><tr><td>กลไก</td><td>cytoskeleton หลุด → membrane vesiculate → surface/volume ลด → spherocyte</td><td>skeleton ไม่มั่นคงทางกล → ผิดรูปถาวรเมื่อเจอ shear stress</td><td>membrane แข็งแน่น ต้านการเปลี่ยนรูป (และต้าน malaria invasion)</td></tr></table></div><div class=\"box\"><h3>Hereditary spherocytosis <span class=\"ref\">p.31</span></h3>\n<div class=\"fig\">{{IMG:ubs_hs}}</div><p class=\"cap\">HS: spherocytes, MCHC &gt; 36 g/dL (p.31)</p><ul><li><span class=\"imp\">Hallmark: spherocyte เพิ่ม</span> (กลม ไม่มี central pallor ดูเล็กกว่า RBC แต่ทึบ) · pincered (mushroom) cell ใน band 3 deficiency · polychromasia/NRBC ได้</li><li>WBC ปกติหรือเพิ่มแบบ reactive · plt ปกติหรือ reactive thrombocytosis</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">Guidelines for the diagnosis and management of hereditary spherocytosis — 2011 update (Bolton-Maggs PHB et al. Br J Haematol) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> วินิจฉัยได้ด้วย family history + spherocyte + MCHC/retic สูง, DAT ลบ · ไม่ชัด → <span class=\"imp\">EMA binding test</span> (หรือ incubated OFT) · folic acid · splenectomy ใน moderate–severe (หลังอายุ 6 ปี, ฉีดวัคซีนก่อน), พิจารณา partial ในเด็ก · ภาวะแทรกซ้อน: aplastic crisis (parvovirus B19), gallstones</p></div></div><div class=\"box\"><h3>Hereditary elliptocytosis <span class=\"ref\">p.32</span></h3>\n<div class=\"fig\">{{IMG:ubs_he}}</div><p class=\"cap\">HE: elliptocytes &gt; 25%, orient สุ่ม (p.32)</p><ul><li><span class=\"imp\">Elliptocyte/ovalocyte เพิ่ม (cigar/rod-shaped) มักมากกว่า 25% ของ RBC</span></li><li>ต่างจาก pencil cell ของ IDA: HE มัก <span class=\"imp\">normochromic</span></li><li><span class=\"imp\">Artifact: elliptocyte เรียงขนานทางเดียวกัน · HE จริง: orient สุ่ม</span></li></ul></div><div class=\"box\"><h3>Southeast Asian ovalocytosis <span class=\"ref\">p.33</span></h3>\n<div class=\"fig\">{{IMG:ubs_sao}}</div><p class=\"cap\">SAO: stomatocytic ovalocytes, theta cells (p.33)</p><ul><li><span class=\"imp\">Stomatocytic ovalocyte</span> (macro-ovalocyte รูปไข่กว้าง) รวม <span class=\"imp\">theta cell (knizocyte)</span> — มีสันขวางแบ่ง central pallor เป็น 2 ช่อง (double slit, θ)</li><li>polychromasia/NRBC ได้ · WBC/plt ปกติหรือ reactive</li></ul></div>",
+"refs": [
+{
+"t": "Bolton-Maggs PHB, et al. Guidelines for the diagnosis and management of hereditary spherocytosis — 2011 update. Br J Haematol 2012;156:37–49"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R03-6",
+"title": "Autoimmune hemolytic anemia · HS vs AIHA · G6PD deficiency",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Warm AIHA <span class=\"ref\">p.34</span></h3>\n<div class=\"fig\">{{IMG:ubs_waiha}}</div><p class=\"cap\">Warm AIHA: microspherocytes, polychromasia, NRBC (p.34)</p><ul><li><span class=\"imp\">Hallmark: microspherocyte</span> (เล็ก กลม ไม่มี pallor ดูทึบ) · polychromasia/NRBC</li><li>WBC: ปกติหรือ reactive · <span class=\"imp\">มี abnormal lymphoid cell → คิด secondary (CLL/lymphoma)</span></li><li>Platelet: ปกติหรือ reactive · <span class=\"imp\">ถ้า thrombocytopenia (ITP) ร่วม → Evans syndrome</span></li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">Diagnosis and treatment of autoimmune hemolytic anemia in adults: recommendations from the First International Consensus Meeting (Jäger U et al. Blood Rev 2020) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> DAT (IgG ± C3d) · first line: <span class=\"imp\">prednisolone 1 mg/kg/d</span> (± rituximab แรก ๆ ในรายรุนแรง) · second line rituximab · folic acid + thromboprophylaxis · <span class=\"imp\">อย่าเลื่อนให้เลือดในรายคุกคามชีวิต</span> (least incompatible หลังตัด alloantibody)</p></div></div><div class=\"box\"><h3>Cold agglutinin disease <span class=\"ref\">p.35</span></h3>\n<div class=\"fig\">{{IMG:ubs_cad}}</div><p class=\"cap\">Cold agglutinin disease: RBC agglutination (p.35)</p><ul><li><span class=\"imp\">Hallmark: RBC agglutination</span> — กองก้อน 3 มิติไม่เป็นระเบียบ (<span class=\"imp\">ไม่ใช่ linear stack แบบ rouleaux</span>) · spherocyte น้อยกว่า WAIHA</li><li>MCHC อาจสูงเท็จ &gt; 40 g/dL</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">Jäger 2020 consensus · Berentsen S. CAD 2023</span></div><p><span class=\"chip gl\">📘 Guideline</span> DAT C3d+ (IgG−), cold agglutinin titre ≥ 64 · เก็บตัวอย่างที่ 37 °C · หลีกเลี่ยงความเย็น/ใช้ blood warmer · <span class=\"imp\">rituximab ± bendamustine, sutimlimab (anti-C1s); steroid ไม่ได้ผล</span> · secondary: Mycoplasma, EBV (ชั่วคราว)</p></div></div><div class=\"box\"><h3>Comparison: HS vs AIHA <span class=\"ref\">p.36</span></h3>\n<table><tr><th></th><th>HS</th><th>AIHA</th></tr><tr><td>Etiology</td><td>Genetic (intrinsic) — membrane protein deficiency</td><td>Acquired (extrinsic) — autoantibody → macrophage ตัด membrane</td></tr><tr><td>Smear</td><td><span class=\"imp\">Uniform spherocytes</span>, no agglutination</td><td>Warm: <span class=\"imp\">microspherocytes ขนาดหลากหลาย</span> · Cold: <span class=\"imp\">agglutination</span></td></tr><tr><td>DAT</td><td><span class=\"imp\">Negative</span></td><td><span class=\"imp\">Positive</span></td></tr><tr><td>MCHC</td><td>&gt; 36 g/dL</td><td>ปกติ–สูง (cold อาจ &gt; 40 เท็จ)</td></tr><tr><td>Confirm</td><td>EMA binding (flow), OFT</td><td>Monospecific DAT: IgG+ warm, C3d+ cold</td></tr></table></div><div class=\"box\"><h3>G6PD deficiency with hemolysis <span class=\"ref\">p.37–38</span></h3>\n<div class=\"fig\">{{IMG:ubs_g6pd}}</div><p class=\"cap\">G6PD deficiency with hemolysis (p.37)</p><ul><li><span class=\"imp\">Hallmark: Hb leakage cell · blister cell (hemi-ghost, pre-keratocyte) · bite cell (keratocyte, degmacyte) · ghost cell</span> · polychromasia/NRBC</li></ul><div class=\"fig\">{{IMG:ubs_g6cu}}</div><p class=\"cap\">A ghost cell · B bite cell · C blister cell (p.38)</p><ul><li>Oxidative stress → Hb denature 'รั่ว' ไปด้านหนึ่ง → เหลือถุง membrane ว่าง = blister cell</li><li>Splenic macrophage ตัด Hb inclusion (Heinz body) ที่ติด membrane → รอยกัดครึ่งวงกลม = bite cell</li><li>Intravascular hemolysis รุนแรง → Hb รั่วหมดเหลือเปลือก = ghost cell</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">WHO Guidelines for malaria (2025) · WHO G6PD testing guidance</span></div><p><span class=\"chip gl\">📘 Guideline</span> ตรวจ G6PD ก่อนให้ primaquine/tafenoquine · ช่วง hemolysis อาจได้ผลปกติเท็จ → ตรวจซ้ำ 2–3 เดือนหรือใช้ quantitative · vivax + G6PD deficient: <span class=\"imp\">primaquine 0.75 mg/kg สัปดาห์ละครั้ง × 8 สัปดาห์</span> ภายใต้การดูแล · variant ไทย: Viangchan, Mahidol, Canton, Kaiping</p></div></div>",
+"refs": [
+{
+"t": "Jäger U, et al. Diagnosis and treatment of autoimmune hemolytic anemia in adults: Recommendations from the First International Consensus Meeting. Blood Rev 2020;41:100648"
+},
+{
+"t": "WHO Guidelines for malaria. Geneva: World Health Organization (latest version)"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R03-7",
+"title": "Microangiopathic hemolytic anemia (DIC, TMA)",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>MAHA blood picture <span class=\"ref\">p.39–40</span></h3>\n<div class=\"fig\">{{IMG:ubs_maha}}</div><p class=\"cap\">MAHA: schistocytes, microspherocytes, polychromasia, thrombocytopenia (p.39)</p><ul><li><b>RBC</b>: <span class=\"imp\">schistocytes (fragmented RBCs)</span>, microspherocytes, polychromasia ± NRBC · <b>WBC</b>: ปกติหรือ reactive · <b>Platelet</b>: <span class=\"imp\">consumptive thrombocytopenia</span>, large/giant platelets</li><li>Fibrin strand 'ตัด' RBC ในหลอดเลือดเล็ก → schistocyte</li><li><span class=\"imp\">Diagnostic threshold: schistocyte ≥ 1% ของ RBC (&gt; 2 ตัวต่อ oil field)</span></li><li>สาเหตุ: <b>DIC</b> (กระตุ้น coagulation + fibrinolysis + platelet) · <b>TMA</b> (กระตุ้น platelet เป็นหลัก) เช่น TTP, HUS, HELLP, malignant hypertension</li></ul><div class=\"fig\">{{IMG:ubs_mahacu}}</div><p class=\"cap\">ภาพขยาย: helmet cells/triangular fragments</p>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">ISTH guideline for the diagnosis/treatment of TTP (Zheng XL et al. J Thromb Haemost 2020) {{R:1}} · ISTH DIC guidance</span></div><p><span class=\"chip gl\">📘 Guideline</span> TTP: ADAMTS13 &lt; 10% · <span class=\"imp\">plasma exchange + corticosteroid + rituximab ± caplacizumab</span> · ไม่ให้เกล็ดเลือดถ้าไม่มีเลือดออกรุนแรง · PLASMIC score ช่วยระหว่างรอผล · DIC: ISTH score ≥ 5 · รักษาสาเหตุ + plt/FFP/cryo เมื่อเลือดออก · STEC-HUS: supportive, หลีกเลี่ยง antibiotic/antimotility</p></div></div>",
+"refs": [
+{
+"t": "Zheng XL, et al. ISTH guidelines for treatment of thrombotic thrombocytopenic purpura. J Thromb Haemost 2020;18:2496–502"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R03-8",
+"title": "Reactive lymphocytosis · Acute leukemia (AML, APL, ALL)",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Reactive (atypical/variant) lymphocytosis <span class=\"ref\">p.41–43</span></h3>\n<div class=\"fig\">{{IMG:ubs_reactl}}</div><p class=\"cap\">Reactive lymphocytes (p.41)</p><ul><li>WHO ใช้คำว่า <span class=\"imp\">variant lymphocyte</span> · ขนาด 10–30 µm <span class=\"imp\">pleomorphic (หน้าตาต่างกัน)</span> ต่างจาก blast ที่ monotonous</li><li>Nucleus รูปร่างต่าง ๆ chromatin ไม่แน่น อาจเห็น nucleoli · cytoplasm มาก สีฟ้า ถูก RBC กดเป็นรอย (skirt)</li></ul><div class=\"fig\">{{IMG:ubs_4cells}}</div><p class=\"cap\">A normal lymphocyte · B reactive lymphocyte · C monocyte · D blast (p.43)</p><table><tr><th></th><th>Normal lymph</th><th>Reactive lymph</th><th>Monocyte</th><th>Blast</th></tr><tr><td>Size</td><td>7–10 µm</td><td>10–30 µm</td><td>12–20 µm</td><td>10–20 µm</td></tr><tr><td>N:C</td><td>สูง</td><td>ปานกลาง–ต่ำ</td><td>ปานกลาง–ต่ำ</td><td><span class=\"imp\">สูง</span></td></tr><tr><td>Cytoplasm</td><td>น้อย ฟ้าซีด</td><td>มาก ฟ้า ถูก RBC กด</td><td>มาก ฟ้าเทา ground-glass มี vacuole</td><td>น้อย ฟ้าเข้ม แข็ง</td></tr><tr><td>Nucleus</td><td>กลม chromatin แน่น</td><td>ไม่สม่ำเสมอ smudged/coarse</td><td>พับ brain-like lacy</td><td>กลม/รี <span class=\"imp\">chromatin ละเอียดโปร่ง</span></td></tr><tr><td>Nucleoli</td><td>ไม่มี</td><td>ไม่ชัด</td><td>ไม่มี</td><td><span class=\"imp\">เด่น</span></td></tr><tr><td>สาเหตุ</td><td>—</td><td>EBV, dengue, CMV, hepatitis, HIV, ยา (phenytoin), หลังวัคซีน</td><td>TB, recovery, SLE/RA/IBD, CMML</td><td>AML, MDS, ALL</td></tr></table>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">WHO/SEARO dengue guidance · Thai MOPH dengue guideline</span></div><p><span class=\"chip gl\">📘 Guideline</span> Dengue: leukopenia + atypical lymph + thrombocytopenia · <span class=\"imp\">warning signs</span> (ปวดท้อง อาเจียนต่อเนื่อง เลือดออกเยื่อบุ ซึม ตับโต Hct ↑ พร้อม plt ↓) → crystalloid ตาม Hct/vital signs, หลีกเลี่ยง NSAID/IM</p></div></div><div class=\"box\"><h3>Acute leukemia: myeloblast vs lymphoblast <span class=\"ref\">p.44–49</span></h3>\n<table><tr><th></th><th>Myeloblast (AML)</th><th>Lymphoblast (ALL)</th></tr><tr><td>Size</td><td>ใหญ่</td><td>เล็ก–กลาง</td></tr><tr><td>Chromatin</td><td>ละเอียด lacy โปร่ง</td><td>หยาบ เป็นก้อน</td></tr><tr><td>Nucleoli</td><td><span class=\"imp\">เด่น 2–4 อัน</span></td><td>ไม่ชัด/เล็ก (ยกเว้น L3)</td></tr><tr><td>Cytoplasm</td><td>ปานกลาง–มาก มักมี granule</td><td>น้อย ไม่มี granule (sky blue)</td></tr><tr><td>Auer rod</td><td><span class=\"imp\">มี (pathognomonic)</span></td><td><span class=\"imp\">ไม่มีเลย</span></td></tr><tr><td>Markers</td><td>CD13, CD33, CD117, cyMPO, CD14 (monocytic)</td><td>B: CD10, CD19, CD20, CD22, CD79a · T: CD2, CD3, CD5, CD7</td></tr></table><div class=\"fig\">{{IMG:ubs_aml}}</div><p class=\"cap\">AML: myeloblasts, Auer rod (p.45)</p><ul><li>AML: NCNC RBC ± NRBC · blast สูง (มัก &gt; 20%) myeloblast เด่น ± Auer rod · thrombocytopenia ± ขนาดเกล็ดหลากหลาย · <span class=\"imp\">ถ้า morphology ไม่ชัด อย่าตัดสิน subtype ก่อนได้ immunophenotype</span></li></ul><div class=\"fig\">{{IMG:ubs_apl}}</div><p class=\"cap\">APL (hypergranular, 75%): abnormal promyelocytes, faggot cell (p.46)</p><ul><li>APL: <span class=\"imp\">abnormal promyelocyte</span> เด่น nucleus เยื้อง ไม่สม่ำเสมอ รูปไต/bilobed · cytoplasm แน่นด้วย azurophilic granule หยาบ · <span class=\"imp\">faggot cell</span> (Auer rod เป็นมัด) · schistocyte ถ้ามี DIC · flow: CD13, CD33, CD117, MPO+ แต่ <span class=\"imp\">HLA-DR−, CD34−</span> · <span class=\"imp\">t(15;17)(q24;q21) PML::RARA</span> · <span class=\"imp\">medical emergency: ให้ ATRA ทันที</span></li></ul><div class=\"fig\">{{IMG:ubs_all}}</div><p class=\"cap\">ALL: lymphoblasts (p.48)</p><div class=\"fig\">{{IMG:ubs_allfab}}</div><p class=\"cap\">A ALL-L1 · B ALL-L2 · C ALL-L3 (p.49)</p><ul><li>L1: เล็ก สม่ำเสมอ N:C สูง nucleoli ไม่ชัด · L2: ใหญ่ หลากหลาย nucleus มีรอยแยก nucleoli เด่น · L3: ใหญ่ สม่ำเสมอ <span class=\"imp\">cytoplasm น้ำเงินเข้มมี vacuole</span> nucleoli ชัด (Burkitt)</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">WHO Classification 5th ed. (2022) / ICC 2022 · ELN 2022 AML recommendations (Döhner H et al. Blood 2022) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> <span class=\"warn\">⚠ อัปเดต</span> FAB L1–L3 ไม่ใช้ในการจำแนกแล้ว — ALL แบ่งตาม B/T lineage + genetics; L3 = Burkitt (mature B, MYC) · AML: blast ≥ 20% (WHO 2022 ไม่มีเกณฑ์ blast สำหรับ AML ที่มี defining genetic abnormality ส่วนใหญ่; ICC ≥ 10%) · work-up: BM, flow, cytogenetics, NGS (FLT3, NPM1, CEBPA, IDH1/2, TP53) · APL: ATRA + ATO (low/intermediate), + chemo ใน high risk (WBC &gt; 10k); รักษา differentiation syndrome ด้วย dexamethasone</p></div></div>",
+"refs": [
+{
+"t": "Döhner H, et al. Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN. Blood 2022;140:1345–77"
+},
+{
+"t": "Khoury JD, et al. The 5th edition of the WHO Classification of Haematolymphoid Tumours: Myeloid and Histiocytic/Dendritic Neoplasms. Leukemia 2022;36:1703–19"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R03-9",
+"title": "CML · granulocytic maturation · CLL · myelophthisis",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Chronic myeloid leukemia <span class=\"ref\">p.50</span></h3>\n<div class=\"fig\">{{IMG:ubs_cml}}</div><p class=\"cap\">CML: granulocytes ทุกระยะ, basophils, eosinophils (p.50)</p><ul><li><b>RBC</b>: มัก NCNC ± polychromasia/NRBC</li><li><b>WBC</b>: <span class=\"imp\">granulocyte ทุกระยะ</span> — blast มัก &lt; 5% (chronic phase), promyelocyte/myelocyte เด่น, metamyelocyte/band/seg · <span class=\"imp\">basophilia & eosinophilia</span></li><li><b>Platelet</b>: <span class=\"imp\">thrombocytosis พบบ่อยมาก</span> · giant platelet · hypogranular/pale platelet</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">ELN 2020 recommendations for treating CML (Hochhaus A et al. Leukemia 2020) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> ยืนยัน BCR::ABL1 (FISH/RT-PCR) · TKI first line (imatinib, dasatinib, nilotinib, bosutinib) · ติดตาม BCR::ABL1 IS ทุก 3 เดือน: ≤ 10% ที่ 3 เดือน, ≤ 1% ที่ 6 เดือน, <span class=\"imp\">≤ 0.1% (MMR) ที่ 12 เดือน</span> · แยก leukemoid: มีสาเหตุ, toxic changes, ไม่มี basophilia, LAP สูง</p></div></div><div class=\"box\"><h3>Granulocytic development (neutrophil lineage) <span class=\"ref\">p.51</span></h3>\n<div class=\"fig\">{{IMG:ubs_gran}}</div><p class=\"cap\">เรียงลำดับ: B → D → A → E → C → F</p><table><tr><th>Stage</th><th>Nucleus</th><th>Cytoplasm</th></tr><tr><td>Myeloblast</td><td>ใหญ่ กลม/รี chromatin ละเอียด หลาย nucleoli</td><td>น้อย basophilic เข้ม ไม่มี granule</td></tr><tr><td>Promyelocyte</td><td>ใหญ่ chromatin ละเอียด nucleoli ยังเห็น</td><td>มาก basophilic <span class=\"imp\">primary azurophilic granule</span></td></tr><tr><td>Myelocyte</td><td>กลม/รี chromatin เริ่มแน่น <span class=\"imp\">ไม่มี nucleoli</span></td><td>basophilic น้อยลง <span class=\"imp\">specific (secondary) granule</span></td></tr><tr><td>Metamyelocyte</td><td><span class=\"imp\">รูปไต</span> chromatin เป็นก้อน</td><td>ชมพูอ่อน secondary granule</td></tr><tr><td>Band</td><td><span class=\"imp\">รูปเกือกม้า</span></td><td>ชมพูอ่อน secondary granule มาก</td></tr><tr><td>Segmented</td><td>2–5 lobe เชื่อมกัน</td><td>ชมพูอ่อน secondary granule มาก</td></tr></table></div><div class=\"box\"><h3>Chronic lymphocytic leukemia <span class=\"ref\">p.52</span></h3>\n<div class=\"fig\">{{IMG:ubs_cll}}</div><p class=\"cap\">CLL: small mature lymphocytes, smudge cells (p.52)</p><ul><li><b>RBC</b>: มัก NCNC · <span class=\"imp\">AIHA ร่วม 10–25%</span></li><li><b>WBC</b>: lymphocytosis เล็ก–กลาง nucleus กลม chromatin หยาบเป็นก้อน (<span class=\"imp\">soccer ball / cracked earth</span>) · <span class=\"imp\">smudge (basket) cell</span> = เซลล์เปราะแตกตอนทำสเมียร์</li><li><b>Platelet</b>: ปกติ (ระยะต้น) · ต่ำ (ระยะท้ายหรือ ITP)</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">iwCLL guidelines 2018 (Hallek M et al. Blood 2018) {{R:2}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> วินิจฉัย: clonal B lymphocytes ≥ 5,000/µL ≥ 3 เดือน · flow CD5+ CD19+ CD23+ CD200+ CD20/sIg dim (Matutes ≥ 4) · MBL &lt; 5,000 ไม่มี LAD/cytopenia · Rai/Binet · <span class=\"imp\">รักษาเมื่อ active disease</span>: marrow failure (Hb &lt; 10, plt &lt; 100k), ม้าม ≥ 6 ซม./ก้อน ≥ 10 ซม./โตเร็ว, LDT &lt; 6 เดือน, autoimmune cytopenia ดื้อ steroid, B symptoms</p></div></div><div class=\"box\"><h3>Myelophthisis <span class=\"ref\">p.53</span></h3>\n<div class=\"fig\">{{IMG:ubs_myelo}}</div><p class=\"cap\">Myelophthisis: teardrop, NRBC, myelocytes, giant platelet (p.53)</p><ul><li><b>RBC</b>: <span class=\"imp\">teardrop cell (dacrocyte)</span> — บีบผ่าน fibrosis/ไขกระดูกที่ผิดรูป · NRBC + polychromasia · ovalocyte, schistocyte</li><li><b>WBC</b>: immature granulocytes (มัก myelocyte/metamyelocyte, บางครั้ง promyelocyte, น้อยมาก blast)</li><li><b>Platelet</b>: thrombocytopenia · large/giant platelet</li><li>สาเหตุ: มะเร็งแพร่กระจาย (เต้านม ต่อมลูกหมาก ปอด), myelofibrosis, granulomatous infection (TB, เชื้อรา), lymphoma/myeloma · BM aspiration มัก dry tap → trephine biopsy</li></ul></div>",
+"refs": [
+{
+"t": "Hochhaus A, et al. European LeukemiaNet 2020 recommendations for treating chronic myeloid leukemia. Leukemia 2020;34:966–84"
+},
+{
+"t": "Hallek M, et al. iwCLL guidelines for diagnosis, indications for treatment, response assessment, and supportive management of CLL. Blood 2018;131:2745–60"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R03-10",
+"title": "Multiple myeloma · Plasma cell leukemia · ITP · APDE",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Multiple myeloma <span class=\"ref\">p.54</span></h3>\n<div class=\"fig\">{{IMG:ubs_mm}}</div><p class=\"cap\">MM: rouleaux formation, plasma cell (p.54)</p><ul><li><b>RBC</b>: <span class=\"imp\">rouleaux formation (coin stacking)</span> — monoclonal protein เข้มข้นทำให้ plasma หนาแน่นและหักล้าง zeta potential (ประจุลบที่ปกติทำให้ RBC ผลักกัน) · รายรุนแรงพื้นหลังสไลด์ออกฟ้า/ขุ่น</li><li><b>WBC</b>: ปกติ · อาจเห็น circulating plasma cell · <b>Platelet</b>: ปกติหรือต่ำ</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">IMWG updated criteria for the diagnosis of multiple myeloma (Rajkumar SV et al. Lancet Oncol 2014) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> MM: clonal BM PC ≥ 10% หรือ plasmacytoma + <span class=\"imp\">CRAB</span> (Ca &gt; 11, Cr &gt; 2/CrCl &lt; 40, Hb &lt; 10 หรือลด ≥ 2, lytic lesion) หรือ <span class=\"imp\">SLiM</span> (BM PC ≥ 60%, FLC ratio ≥ 100, &gt; 1 focal lesion MRI) · work-up: SPEP+IFE, serum FLC, UPEP/IFE, BM + FISH, low-dose WB-CT, β2M/LDH/albumin (R-ISS) · rouleaux ไม่จำเพาะ: polyclonal hypergammaglobulinemia (cirrhosis, infection, autoimmune), Waldenström</p></div></div><div class=\"box\"><h3>Plasma cell leukemia <span class=\"ref\">p.55</span></h3>\n<div class=\"fig\">{{IMG:ubs_pcl}}</div><p class=\"cap\">PCL: circulating plasma cells + rouleaux (p.55)</p><ul><li><b>RBC</b>: <span class=\"imp\">rouleaux</span> เด่นที่สุด</li><li><b>WBC</b>: <span class=\"imp\">circulating plasma cell เป็น hallmark</span> (ไฟล์: &gt; 5% ของ differential หรือ &gt; 2,000/µL) · plasmablastic feature (N:C สูง nucleoli เด่น) = aggressive</li><li><b>Platelet</b>: มักต่ำ</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">IMWG 2021 definition of primary plasma cell leukemia (Fernández de Larrea C et al. Blood Cancer J 2021) {{R:2}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> <span class=\"warn\">⚠ อัปเดต</span> primary PCL = <span class=\"imp\">circulating plasma cells ≥ 5% ใน PB smear</span> (เดิม ≥ 20% หรือ &gt; 2 ×10⁹/L) · พยากรณ์แย่ → induction เข้มข้น (PI + IMiD ± anti-CD38) + ASCT</p></div></div><div class=\"box\"><h3>Immune thrombocytopenia <span class=\"ref\">p.56</span></h3>\n<div class=\"fig\">{{IMG:ubs_itp}}</div><p class=\"cap\">ITP: NCNC RBC, WBC ปกติ, giant platelet (p.56)</p><ul><li><b>RBC</b>: NCNC · polychromasia ถ้าเพิ่งเลือดออกมาก · <b>WBC</b>: ปกติ · atypical lymph ในเด็กหลังติดเชื้อไวรัส</li><li><b>Platelet</b>: thrombocytopenia · <span class=\"imp\">large/giant platelet</span></li><li><span class=\"imp\">ต้องหาสาเหตุ secondary ITP: HIV, HCV, autoimmune, lymphoproliferative</span></li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">ASH 2019 guidelines for ITP (Neunert C et al. Blood Adv 2019) · ICR 2019 (Provan D et al.) {{R:3}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> First line: dexamethasone 40 mg/d × 4 วัน หรือ prednisolone 1 mg/kg (≤ 6 สัปดาห์) ± IVIG ถ้าเลือดออก · second line: TPO-RA, rituximab, fostamatinib, splenectomy (หลัง 12 เดือน) · ตั้งครรภ์: prednisolone ขนาดต่ำ/IVIG, plt ≥ 50k สำหรับคลอด, ≥ 70–80k สำหรับ neuraxial anesthesia · ระวัง pseudothrombocytopenia (EDTA clump)</p></div></div><div class=\"box\"><h3>Acquired platelet dysfunction with eosinophilia (APDE) <span class=\"ref\">p.57</span></h3>\n<div class=\"fig\">{{IMG:ubs_apde}}</div><p class=\"cap\">APDE: pale-staining platelets + eosinophils (p.57)</p><ul><li><b>RBC</b>: NCNC · <b>WBC</b>: <span class=\"imp\">marked eosinophilia</span> morphology ปกติ</li><li><b>Platelet</b>: <span class=\"imp\">pale-staining / gray platelet (ขาด α และ dense granule)</span> · <span class=\"imp\">count ปกติ</span></li><li>มักหายเองได้ แต่ควร <span class=\"imp\">ตรวจอุจจาระหาพยาธิ</span> เพราะพบร่วมบ่อย</li></ul></div>",
+"refs": [
+{
+"t": "Rajkumar SV, et al. International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. Lancet Oncol 2014;15:e538–48"
+},
+{
+"t": "Fernández de Larrea C, et al. Primary plasma cell leukemia: consensus definition by the IMWG according to peripheral blood plasma cell percentage. Blood Cancer J 2021;11:192"
+},
+{
+"t": "Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv 2019;3:3829–66"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+}
+]
+},
+{
+"code": "R04",
+"kind": "R",
+"title": "Blood Cell Atlas (normal & abnormal peripheral blood cells)",
+"src": "R04 Blood Cell Atlas — Mindray (ภาพถ่ายจาก MC-80 Automated Digital Cell Morphology Analyzer, สเมียร์จาก SC-120 ย้อม Romanowsky) · 50 หน้า · รูปเซลล์จริง · หน้า 48–50 เป็นโฆษณาเครื่อง (ไม่สรุป)",
+"upd": "2026-11-22",
+"legend": "<span><span class=\"imp\">ตัวแดง</span> = สำคัญ/ต้องจำ</span><span>p.N = หน้า PDF ในไฟล์ต้นฉบับ</span><span><span class=\"warn\">⚠ อัปเดต</span> = guideline/การจัดกลุ่มใหม่กว่าที่ไฟล์ใช้</span><span>📘 Guideline = เนื้อหาจาก guideline ที่เชื่อถือได้ ฉบับล่าสุด (ใส่ท้ายกล่องของหัวข้อนั้น)</span>",
+"pages": [
+{
+"id": "R04-1",
+"title": "เซลล์ปกติใน peripheral blood: neutrophil · lymphocyte · monocyte · eosinophil · basophil · RBC · platelet",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Band & segmented neutrophils <span class=\"ref\">p.5–8</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_band}}</div><p class=\"cap\">Band neutrophil (p.5)</p><div class=\"fig\">{{IMG:ubs_c_seg}}</div><p class=\"cap\">Segmented neutrophil (p.7)</p><ul><li><b>Band</b>: 10–15 µm nucleus <span class=\"imp\">รูปแท่ง/แถบ/ไส้กรอก</span> chromatin หยาบสีม่วงชมพูเข้ม cytoplasm ชมพูมี granule เล็กจำนวนมาก</li><li><span class=\"imp\">Left shift</span> = band เพิ่ม และ/หรือพบ metamyelocyte, myelocyte, promyelocyte ใน PB: ติดเชื้อ (โดยเฉพาะ acute septic), พิษเฉียบพลัน, เสียเลือดเฉียบพลัน, aplastic anemia</li><li><b>Segmented</b>: 10–15 µm nucleus 2–5 lobe (3 lobe 40–50%) granule ชมพูเล็กสม่ำเสมอ</li><li><span class=\"imp\">Right shift</span> = neutrophil ที่มี ≥ 5 lobe &gt; 3%: megaloblastic anemia, ยา antimetabolite, ช่วงฟื้นจากการอักเสบ · right shift รุนแรง + WBC ต่ำ = ไขกระดูกทำงานลดลง</li></ul></div><div class=\"box\"><h3>Lymphocyte · monocyte · eosinophil · basophil <span class=\"ref\">p.9–16</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_wbc4}}</div><p class=\"cap\">A eosinophil · B basophil · C monocyte · D lymphocyte</p><ul><li><b>Lymphocyte</b> 6–15 µm · เพิ่มทางสรีรวิทยาในเด็ก · พยาธิ: ไวรัส/แบคทีเรีย (คางทูม, infectious mononucleosis), ระยะฟื้น TB, ALL/CLL</li><li><b>Monocyte</b> 12–20 µm กลม/รี/ไม่สม่ำเสมอ มี pseudopod ได้ · nucleus บิด/พับ รูปไต/ภูเขา/เกือกม้า chromatin หลวมเป็นร่างแห · cytoplasm เทาฟ้า/เทาแดง โปร่ง มี vacuole + granule ละเอียด · เพิ่มใน SBE, malaria, kala-azar, ระยะฟื้น, ระยะฟื้นของ agranulocytosis, monocytic leukemia, MDS</li><li><b>Eosinophil</b> 13–15 µm <span class=\"imp\">nucleus 2 lobe รูปแว่นตา</span> granule ส้มหยาบเรียงแน่น (peroxidase, phospholipase D, catalase, acid phosphatase) · เพิ่มใน <span class=\"imp\">พยาธิ</span> และภูมิแพ้</li><li><b>Basophil</b> 10–12 µm <span class=\"imp\">nucleus ถูก granule ม่วงดำขนาดต่าง ๆ บดบัง</span> · เพิ่มในภูมิแพ้บางชนิด, <span class=\"imp\">myeloproliferative disorders</span>, basophilic leukemia</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">ค่าปกติ (ผู้ใหญ่) · ICSH 2015 nomenclature</span></div><p><span class=\"chip gl\">📘 Guideline</span> Neutrophil 40–75% · lymphocyte 20–45% · monocyte 2–10% · eosinophil 1–6% · basophil 0–1% — ใช้ absolute count (WBC × %) ในการตัดสิน · band ปกติ &lt; 5%</p></div></div><div class=\"box\"><h3>RBC & platelet ปกติ <span class=\"ref\">p.17</span></h3>\n<ul><li>RBC ปกติ: biconcave disc ขนาดสม่ำเสมอ เฉลี่ย <span class=\"imp\">7.2 µm (6.7–7.7)</span> · central pallor ~1/3 · พบได้ใน acute hemorrhagic anemia และ aplastic anemia บางราย</li><li>Platelet ปกติ: <span class=\"imp\">1.5–3 µm</span> ไม่มี nucleus granule ม่วงแดงละเอียด cytoplasm ฟ้า/ชมพูอ่อน · หน้าที่: รักษา endothelium, aggregation, adhesion, release, procoagulant, clot retraction</li></ul></div>",
+"refs": [
+{
+"t": "Palmer L, et al. ICSH recommendations for the standardization of nomenclature and grading of peripheral blood cell morphological features. Int J Lab Hematol 2015;37:287–303"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R04-2",
+"title": "Neutrophil abnormalities: phagocytosis of fungi/parasites · toxic changes",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Neutrophil phagocytosis of fungi or parasites <span class=\"ref\">p.19</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_phago2}}</div><p class=\"cap\">Neutrophils/monocyte with phagocytosed yeast-like organisms (p.19)</p><ul><li>Neutrophil เป็น phagocyte หลัก เคลื่อนที่ด้วยการเปลี่ยนรูปและกลืนกินสูง → อาจเห็นเชื้อ (yeast, parasite) ภายในเซลล์ใน PB/buffy coat</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">Thai/WHO guidance: talaromycosis in advanced HIV (WHO 2022 talaromycosis guideline)</span></div><p><span class=\"chip gl\">📘 Guideline</span> ในผู้ป่วย HIV CD4 ต่ำในไทย ให้นึกถึง <span class=\"imp\">Talaromyces marneffei</span> (yeast มี septum แบ่งตัวแบบ fission) ddx Histoplasma (budding) · induction <span class=\"imp\">amphotericin B 2 สัปดาห์ → itraconazole</span> + เริ่ม ART</p></div></div><div class=\"box\"><h3>Toxic changes in neutrophils <span class=\"ref\">p.20–21</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_toxic3}}</div><p class=\"cap\">A toxic granulation · B vacuolation · C Döhle body (p.20–21)</p><ul><li>พบใน <span class=\"imp\">severe septic infection, sepsis, extensive burns, malignant tumors, acute poisoning</span> — ขนาดเซลล์หลากหลาย, <span class=\"imp\">toxic granulation, vacuolation, Döhle bodies</span>, degeneration</li><li>เกิดเดี่ยวหรือร่วมกัน ช่วยติดตามโรคและพยากรณ์ · Döhle body = rough ER (RNA) สีฟ้าเทาที่ขอบ cytoplasm · Döhle-like + giant platelet → MYH9-related disease</li></ul></div>",
+"refs": [
+{
+"t": "WHO guidelines for diagnosing, preventing and managing cryptococcal disease, histoplasmosis and talaromycosis among adults, adolescents and children living with HIV (2022)"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R04-3",
+"title": "Immature myeloid cells: blast · promyelocyte · abnormal promyelocyte (APL) · myelocyte · metamyelocyte",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Blast cells <span class=\"ref\">p.22–23</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_blast}}</div><p class=\"cap\">Blast (p.22)</p><ul><li>ขนาดกลาง–ใหญ่ <span class=\"imp\">N:C สูง</span> nucleus กลมเด่น <span class=\"imp\">chromatin ละเอียด nucleoli ชัด</span> · cytoplasm น้อย basophilic สีน้ำเงิน</li></ul></div><div class=\"box\"><h3>Promyelocytes <span class=\"ref\">p.24–25</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_promy}}</div><p class=\"cap\">Promyelocyte (p.24)</p><ul><li>12–25 µm ใหญ่กว่า myeloblast · nucleus ใหญ่เว้าเล็กน้อยเยื้องไปข้างหนึ่ง <span class=\"imp\">มี nucleolus</span> chromatin เริ่มหยาบกว่า blast</li><li>cytoplasm มาก basophilic มี <span class=\"imp\">non-specific (azurophilic) granule สีม่วงแดง</span> จำนวน/รูปร่างหลากหลาย · อาจมี paranuclear hof</li></ul></div><div class=\"box\"><h3>Abnormal promyelocytes (APL) <span class=\"ref\">p.26–27</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_apl3}}</div><p class=\"cap\">Abnormal promyelocytes — bilobed/folded nuclei (p.26–27)</p><ul><li>ขนาดหลากหลาย <span class=\"imp\">nucleus ไม่สม่ำเสมอ (รูปไต/bilobed)</span> chromatin แน่น nucleoli จาง · cytoplasm มาก · <span class=\"imp\">Auer rod ยาวหนา = faggot cell</span> (เหมือนมัดฟืน)</li><li>FAB: <span class=\"imp\">M3a (coarse granules), M3b (fine granules), M3v (micro/มองไม่เห็น granule + nucleus บิด/เป็น lobe)</span></li><li>APL = AML ที่มี abnormal promyelocyte + <span class=\"imp\">t(15;17) PML-RARα</span> · <span class=\"imp\">พบ abnormal promyelocyte ใน PB ต้องรายงานและแจ้งแพทย์ทันที</span></li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">ELN 2019 APL recommendations (Sanz MA et al. Blood 2019) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> <span class=\"warn\">⚠ อัปเดต</span> t(15;17) ปัจจุบันเขียน <span class=\"imp\">t(15;17)(q24.1;q21.2) PML::RARA</span> · เริ่ม <span class=\"imp\">ATRA ทันทีที่สงสัย</span> + support DIC (fibrinogen &gt; 150 mg/dL, plt &gt; 30–50k) · ATRA + ATO (WBC ≤ 10k) · high risk + chemotherapy · M3v มัก WBC สูง (high risk)</p></div></div><div class=\"box\"><h3>Neutrophilic myelocytes & metamyelocytes <span class=\"ref\">p.28–31</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_leftshift}}</div><p class=\"cap\">A band · B myelocyte · C segmented · D metamyelocyte</p><ul><li><b>Myelocyte</b> 10–20 µm เล็กกว่า promyelocyte · nucleus รี/ครึ่งวงกลม แบนหรือเว้าเล็กน้อย (<span class=\"imp\">&lt; 1/2</span>) <span class=\"imp\">ไม่มี nucleolus</span> · cytoplasm มาก ฟ้า/ฟ้าอ่อน granule ละเอียดแดง-ม่วงเต็ม</li><li><b>Metamyelocyte</b> 10–16 µm <span class=\"imp\">nucleus เว้ามาก รูปไต/เสี้ยว/เกือกม้า</span> (เว้า 1/2–3/4 ของเส้นผ่านศูนย์กลาง) เยื้อง ไม่มี nucleolus · cytoplasm ฟ้าอ่อนเต็มด้วย neutral granule</li><li>พบใน PB ใน AML, CLL, MDS, severe infection (และ leukoerythroblastic, CML, G-CSF)</li></ul></div>",
+"refs": [
+{
+"t": "Sanz MA, et al. Management of acute promyelocytic leukemia: updated recommendations from an expert panel of the European LeukemiaNet. Blood 2019;133:1630–43"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R04-4",
+"title": "Lymphocytes: reactive types · abnormal lymphocytes (Sézary, lymphoma cells, prolymphocytes, hairy cells)",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Reactive lymphocytes <span class=\"ref\">p.32–33</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_reactl4}}</div><p class=\"cap\">Reactive lymphocyte (p.32)</p><ul><li>กระตุ้นจากไวรัส (adenovirus), protozoa (Toxoplasma), ยา, connective tissue disease → เซลล์บวม cytoplasm เพิ่ม basophilia เพิ่ม nucleus เป็นแบบ blast</li><li><span class=\"imp\">Type I (vacuolated, foam/plasma cell type) · Type II (irregular, monocytoid) · Type III (naive, immature/prolymphocyte type)</span> (Downey)</li><li>เพิ่มใน <span class=\"imp\">infectious mononucleosis</span>, viral hepatitis, epidemic hemorrhagic fever (dengue), eczema</li></ul></div><div class=\"box\"><h3>Abnormal lymphocytes (suspected neoplastic) <span class=\"ref\">p.34–37</span></h3>\n<ul><li>ใช้เรียก lymphocyte ที่สงสัย malignant/monoclonal — <span class=\"imp\">ในผู้ป่วยรายเดียวหน้าตาค่อนข้างเหมือนกัน (homogeneous)</span> จึงแยกจาก reactive ยาก · รายงานเป็น abnormal lymphocytes แล้ว <span class=\"imp\">ยืนยันด้วย flow cytometry</span></li></ul><div class=\"fig\">{{IMG:ubs_c_sezary}}</div><p class=\"cap\">Sézary cells — cerebriform nuclei (p.34)</p><ul><li><b>Sézary cell</b>: mature T-lymphoma cell ขนาดหลากหลาย chromatin หยาบแน่น <span class=\"imp\">nucleus บิด/พับเป็นร่องแบบรอยหยักสมอง (cerebriform)</span> cytoplasm น้อยสีฟ้า</li></ul><div class=\"fig\">{{IMG:ubs_c_lymphoma}}</div><p class=\"cap\">Lymphoma cells — cleaved/notched nuclei (p.35)</p><ul><li><b>Lymphoma cell</b> (T, B, NK): ขนาดต่างกันมาก nucleus <span class=\"imp\">เว้า บิด พับ หรือมีรอยตัด (cleft)</span> chromatin หลากหลาย ± nucleolus cytoplasm น้ำเงินเข้มอาจมี granule/vacuole</li></ul><div class=\"fig\">{{IMG:ubs_c_prolymph}}</div><p class=\"cap\">Prolymphocytes — single prominent nucleolus (p.36)</p><ul><li><b>Prolymphocyte</b> 12–14 µm cytoplasm ฟ้าซีดปานกลาง N:C ลดลง chromatin หยาบกว่า lymphoblast แต่ละเอียดกว่า mature · <span class=\"imp\">nucleolus ใหญ่เดี่ยว</span> · พบใน ALL/CLL, viral infection, lymphocytic leukemoid</li></ul><div class=\"fig\">{{IMG:ubs_c_hairy}}</div><p class=\"cap\">Hairy cells — hair-like projections (p.37)</p><ul><li><b>Hairy cell</b> ~2× lymphocyte nucleus กลาง/รี/เว้าเล็กน้อย cytoplasm มากสีฟ้าเทาขุ่น <span class=\"imp\">ขอบมีขนยื่นไม่สม่ำเสมอ</span> · พบ 90% ของ hairy cell leukemia · พบครั้งแรกให้นับเป็น abnormal lymphocyte + บรรยายละเอียด</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">WHO Classification 5th ed. Lymphoid neoplasms (Alaggio R et al. Leukemia 2022) {{R:1}}</span></div><p><span class=\"chip gl\">📘 Guideline</span> <span class=\"warn\">⚠ อัปเดต</span> WHO 2022 <span class=\"imp\">ยกเลิก B-PLL</span> เป็นโรคแยก → CLL with prolymphocytic progression (&gt; 15% prolymphocytes), mantle cell lymphoma, splenic B-cell lymphoma/leukemia with prominent nucleoli · HCL: CD11c, CD25, CD103, CD123, annexin A1, BRAF V600E → cladribine ± rituximab · Sézary syndrome: CD4+ CD7−/CD26−, CD4:CD8 ≥ 10</p></div></div>",
+"refs": [
+{
+"t": "Alaggio R, et al. The 5th edition of the WHO Classification of Haematolymphoid Tumours: Lymphoid Neoplasms. Leukemia 2022;36:1720–48"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R04-5",
+"title": "Plasma cells · myeloma cells",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Mature plasma cells <span class=\"ref\">p.38</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_plasma}}</div><p class=\"cap\">Plasma cells (p.38)</p><ul><li>8–15 µm · <span class=\"imp\">nucleus กลมเล็กเยื้องศูนย์ (&lt; 1/3 ของเซลล์)</span> chromatin เป็นก้อนใหญ่มี parachromatin · ไม่มี nucleolus</li><li>cytoplasm <span class=\"imp\">น้ำเงินเข้มทึบ</span> มักมี vacuole (foamy) · <span class=\"imp\">perinuclear halo (hof) ชัด</span></li><li>ปกติไม่พบใน PB · จำนวนน้อยแบบ reactive ใน dengue/viral infection/sepsis</li></ul></div><div class=\"box\"><h3>Myeloma cells <span class=\"ref\">p.39</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_myeloma}}</div><p class=\"cap\">Abnormal plasma (myeloma) cells (p.39)</p><ul><li>พบจำนวนน้อยใน PB ของ multiple myeloma · <span class=\"imp\">ใหญ่กว่า plasma cell ปกติ รูปร่างไม่สม่ำเสมอ อาจมี pseudopod</span> · nucleus ใหญ่ chromatin หลวมละเอียด <span class=\"imp\">nucleoli 1–2 อันชัด</span> · cytoplasm ฟ้ามาก</li><li>พบได้ใน PB ของ plasma cell leukemia</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">IMWG 2021 primary PCL definition</span></div><p><span class=\"chip gl\">📘 Guideline</span> Circulating plasma cells ≥ 5% ใน PB smear = primary plasma cell leukemia</p></div></div>",
+"refs": [],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R04-6",
+"title": "Platelets & megakaryocytes: gray platelets · aggregation · large/giant platelets · megakaryocytes",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Abnormal platelets <span class=\"ref\">p.40–41</span></h3>\n<ul><li>ปกติ: giant 0.7–2.0% · large 8–16% · medium 44–49% · small 33–44% · รูปแท่ง/ลูกอ๊อด/งู พบได้เล็กน้อย</li><li><span class=\"imp\">Irregular/bizarre platelet &gt; 10%</span> = ผิดปกติ: MDS, granulocytic leukemia, post-splenectomy, TTP, giant platelet disorders</li></ul><div class=\"fig\">{{IMG:ubs_c_gray}}</div><p class=\"cap\">Gray platelets (p.40)</p><ul><li><b>Gray platelet</b>: ใหญ่ สีเทาหลังย้อม Wright เพราะ <span class=\"imp\">ขาด α-granule</span> · gray platelet syndrome: เลือดออกเล็กน้อย–ปานกลาง มัก <span class=\"imp\">myelofibrosis + splenomegaly</span></li></ul><div class=\"fig\">{{IMG:ubs_c_pltagg}}</div><p class=\"cap\">Platelet aggregation (p.41)</p><ul><li><b>PLT aggregation</b>: ทำให้ impedance count <span class=\"imp\">ต่ำเท็จ</span> · สาเหตุ thrombocythemia/platelet activation (MPN), เจาะ/ผสมเลือดไม่ดี, <span class=\"imp\">EDTA-PTCP (antibody ต่อ GPIIb/IIIa)</span> → เจาะใหม่ใน non-EDTA (citrate) หรือเครื่องที่มี deaggregation</li></ul><div class=\"fig\">{{IMG:ubs_c_giant}}</div><p class=\"cap\">Large & giant platelets (p.41)</p><ul><li><b>Large</b> 4–7 µm ใกล้ขนาด RBC · <b>Giant</b> &gt; RBC (7–20 µm) · พบใน <span class=\"imp\">ITP, MDS, Bernard–Soulier, Glanzmann, post-splenectomy</span> · ทำให้นับต่ำเท็จได้</li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">Bernard–Soulier / platelet function testing (ISTH SSC guidance)</span></div><p><span class=\"chip gl\">📘 Guideline</span> BSS: macrothrombocytopenia + <span class=\"imp\">ristocetin agglutination ไม่ขึ้นและไม่แก้ด้วย normal plasma</span> (vWD แก้ได้) · CD42b ↓ · (Glanzmann มักขนาดปกติ — aggregation ต่อ ADP/collagen/AA ไม่ขึ้น)</p></div></div><div class=\"box\"><h3>Megakaryocytes <span class=\"ref\">p.42–43</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_mk3}}</div><p class=\"cap\">Megakaryocytes / micromegakaryocytes in PB (p.42–43)</p><ul><li>ปกติไม่พบใน PB · megakaryocyte ผิดปกติ (small, lymphoid, binucleated) พบใน <span class=\"imp\">acute megakaryocytic leukemia, MDS, MPN, MDS/MPN, AML</span> และมะเร็ง</li><li>Small (lymph-like) megakaryocyte 5–8 µm mononuclear ไม่มี nucleolus cytoplasm น้อยสีฟ้าอ่อนอาจมี granule ม่วงแดง — ระวังสับสนกับ lymphocyte</li></ul></div>",
+"refs": [],
+"rev": 1,
+"upd": "2026-11-22"
+},
+{
+"id": "R04-7",
+"title": "Nucleated RBCs · smudge cells · artefacts",
+"topics": [
+"Hematology"
+],
+"html": "<div class=\"box\"><h3>Nucleated red blood cells <span class=\"ref\">p.44–45</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_nrbc}}</div><p class=\"cap\">Nucleated RBC (p.44)</p><ul><li>Normoblast/erythroblast 4 ระยะ: <span class=\"imp\">pronormoblast → basophilic → polychromatic → orthochromatic normoblast</span></li><li>กลม nucleus กลางเซลล์ · pronormoblast/basophilic มีปุ่มยื่น · orthochromatic เริ่มขับ nucleus · <span class=\"imp\">cytoplasm น้ำเงินเข้ม → ฟ้าเทา → เทาแดง → แดงซีด ไม่มี granule</span></li></ul>\n<div class=\"glsec\"><div class=\"glh\">📘 Guideline <span class=\"glsrc\">ICSH 2015</span></div><p><span class=\"chip gl\">📘 Guideline</span> รายงาน NRBC ต่อ 100 WBC + แก้ WBC · สาเหตุในผู้ใหญ่: hemolysis/thalassemia, marrow infiltration, hypoxia/shock/sepsis, post-splenectomy</p></div></div><div class=\"box\"><h3>Smudge cells <span class=\"ref\">p.46</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_smudge}}</div><p class=\"cap\">Smudge (basket) cells (p.46)</p><ul><li>Basket cell / Gumprecht shadow = <span class=\"imp\">เศษ WBC ที่แตกระหว่างทำสเมียร์</span> ติดสีม่วงแดงจาง chromatin เบลอ · เพิ่มมากใน <span class=\"imp\">CLL</span> · เติม albumin ก่อนทำสเมียร์ลดได้</li></ul></div><div class=\"box\"><h3>Artefacts <span class=\"ref\">p.47</span></h3>\n<div class=\"fig\">{{IMG:ubs_c_artef}}</div><p class=\"cap\">Dye sediment artefacts (p.47)</p><ul><li>ย้อมไม่ถูก: สเมียร์แห้งเกิน, สัดส่วน stain:buffer ไม่เหมาะ, ล้างไม่พอ → <span class=\"imp\">dye sediment</span> เกาะ</li><li><span class=\"imp\">แก้: ละลายสเมียร์แห้งด้วย methanol แล้วล้างน้ำ</span> (แล้วย้อมใหม่)</li></ul></div>",
+"refs": [
+{
+"t": "Palmer L, et al. ICSH recommendations ... Int J Lab Hematol 2015;37:287–303"
+}
+],
+"rev": 1,
+"upd": "2026-11-22"
 }
 ]
 }

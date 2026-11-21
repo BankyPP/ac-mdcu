@@ -252,7 +252,7 @@ function mqList(rk){const v=mqS().v,L=mqL(),setOk=q=>v.set==="all"||v.set.split(
   if(rk==="advisor")return mqAdvL().filter(q=>mqStyOk(q)&&tgPass(mqQTagsX(q),v.tga));
   if(rk==="morning")return mornXList();
   if(rk==="spc")return osSpcList();
-  if(rk==="unit"&&mqIsOS())return osUnitList(v.utop);
+  if(rk==="unit"&&mqIsOS())return osUnitList(v.utop,v.usub,v);
   if(rk==="unit")return v.tags.length?L.filter(q=>setOk(q)&&mqSecOk(q)&&mqStyOk(q)&&mqTPass(q,v.status)):[];
   if(rk==="grand")return v.gl.map(u=>L.find(q=>q.uid===u)).filter(Boolean);
   return L.filter(q=>setOk(q)&&mqSecOk(q)&&mqStyOk(q)&&mqPass(q,v.status)&&(rk!=="service"||tgPass(mqQTags(q),v.tg)));}
@@ -340,7 +340,9 @@ function mqRList(){const v=mqS().v,rk=v.r||"service",L=mqL(),T=mqTopics();
   {const qi=$("mqQ"),qn=$("mqQn");if(qn)qn.textContent=QT.length?`พบ ${Q.length}/${Q0.length} ข้อ`:"";
     if(qi){let tm=0;qi.addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(()=>{mqQ=qi.value;const p0=qi.selectionStart;mqRList();const n=$("mqQ");if(n){n.focus();try{n.setSelectionRange(p0,p0);}catch(e){}}},160);});}}
   {const tw=$("tgWrap"),g=mqRTg(rk);if(tw&&g)tgWire(tw,g,()=>{mqVset({});save();mqRList();});}
-  document.querySelectorAll("[data-utop]").forEach(b=>b.onclick=()=>{mqVset({utop:b.dataset.utop});save();mqRList();});
+  document.querySelectorAll("[data-utop]").forEach(b=>b.onclick=()=>{const t=b.dataset.utop,us=Object.assign({},v.useed||{});if(!us[t])us[t]=Math.floor(Math.random()*1e9)+1;mqVset({utop:t,usub:"",useed:us});save();mqRList();});
+  document.querySelectorAll("[data-usub]").forEach(b=>b.onclick=()=>{mqVset({usub:b.dataset.usub});save();mqRList();});
+  document.querySelectorAll("[data-ushuf]").forEach(b=>b.onclick=()=>{const us=Object.assign({},v.useed||{});us[v.utop]=Math.floor(Math.random()*1e9)+1;mqVset({useed:us});save();mqRList();toast("สลับลำดับสถานีใหม่แล้ว");});
   document.querySelectorAll("[data-mtag]").forEach(b=>b.onclick=()=>{const k=b.dataset.mtag,a=v.tags;const i=a.indexOf(k);if(i>=0)a.splice(i,1);else a.push(k);mqVset({});save();mqRList();});
   document.querySelectorAll("[data-msty]").forEach(b=>b.onclick=()=>{mqVset({style:b.dataset.msty});save();mqRList();});
   document.querySelectorAll("[data-mset]").forEach(b=>b.onclick=()=>{const k=b.dataset.mset;let sel=v.set==="all"?[]:v.set.split("|");if(k==="all")sel=[];else if(sel.includes(k))sel=sel.filter(x=>x!==k);else sel.push(k);mqVset({set:sel.length?sel.join("|"):"all"});save();mqRList();});

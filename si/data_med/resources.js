@@ -117,5 +117,61 @@ W.RES=[
 "HC vs prednisolone: HC first line, half-life 90 min (หลายมื้อ); pred once daily แต่ metabolic/growth effect มากกว่า, mortality ใน PAI สูงกว่า (HR 2.45 vs 1.82)",
 "MR-HC: Plenadren วันละครั้งเช้า (dual release, AUC ต่ำกว่า 20%, BMI/BP/metabolic/QOL ดีขึ้น แต่ไม่มี prewaking rise); Chronocort (Efmody) วันละ 2 ครั้ง มี overnight rise คุม androgen ใน CAH; CSHI ผ่าน insulin pump สำหรับปัญหา GI/CAH คุมยาก"
 ]
+},
+{
+"code": "R03",
+"title": "Atlas of Blood Smears in Common Hematologic Diseases",
+"kw": "blood smear|peripheral smear|\\bpbs\\b|blood film|spherocyt|schistocyt|target cell|teardrop|pencil cell|elliptocyt|ovalocyt|stomatocyt|bite cell|blister|ghost cell|agglutin|rouleaux|basophilic stippl|howell|hypersegment|macro-?ovalocyt|nrbc|nucleated red|blast|auer|faggot|smudge|thalass|hb ?h\\b|hb ?e\\b|constant spring|iron deficien|megaloblast|aplastic|hereditary sph|elliptocytosis|ovalocytosis|g6pd|aiha|autoimmune hemoly|cold agglutin|maha|microangiopath|\\bttp\\b|\\bdic\\b|reactive lymph|atypical lymph|\\baml\\b|\\bapl\\b|\\ball\\b|\\bcml\\b|\\bcll\\b|myelophth|myelofibros|myeloma|plasma cell leuk|\\bitp\\b|apde",
+"topic": "Hematology",
+"tags": [
+"Hematology"
+],
+"type": "Atlas (slides, A5)",
+"url": "",
+"note": "Chaicharoen Tantanate, M.D. · v.01.2025 · 58 หน้า · รูปสเมียร์สร้างด้วย AI ตามการตีความของผู้แต่ง · แจกฟรีเพื่อการศึกษา",
+"points": [
+"อ่านสเมียร์ที่ monolayer: 10× ดู feathered edge หา platelet clump → 40× เลือกบริเวณ → 100× oil ประเมิน RBC/WBC/platelet · artifact: crenated cell, water artifact, stain precipitate",
+"เกรด ICSH 2015: target/teardrop/spherocyte ฯลฯ 2+ = 5–20%, 3+ > 20% · schistocyte < 1% few, 1–2% moderate, > 2% many · NRBC รายงานต่อ 100 WBC",
+"IDA: hypochromic microcytic, pencil cell, few target, ไม่มี stippling; RDW สูง RBC ต่ำ · thal trait: เล็กสม่ำเสมอ RDW ปกติ RBC สูง · Mentzer < 13 = thal, > 13 = IDA",
+"Hb CS: basophilic stippling · Hb E/homozygous E: target cells เด่น · Hb H: aniso/poik ปานกลาง (target, teardrop, schistocyte, spherocyte), polychromasia, NRBC; HbH inclusion 'golf ball' (BCB)",
+"β-thal/HbE: aniso/poik รุนแรง + NRBC · post-splenectomy: NRBC มาก + Howell–Jolly + thrombocytosis",
+"Megaloblastic: macro-ovalocyte + hypersegmented neutrophil (≥1 ตัว 6 lobes หรือ > 5% มี 5 lobes) · aplastic: NCNC/round macrocyte ไม่มี polychromasia/NRBC/blast + pancytopenia",
+"HS: spherocyte สม่ำเสมอ MCHC > 36 DAT− (EMA binding) · HE: elliptocyte > 25% normochromic orient สุ่ม · SAO: stomatocytic ovalocyte/theta cell (SLC4A1 27-bp)",
+"WAIHA: microspherocyte ขนาดหลากหลาย + polychromasia, DAT IgG+ · CAD: agglutination, DAT C3d+, MCHC สูงเท็จ · G6PD: Hb leakage, blister, bite, ghost cell",
+"MAHA: schistocyte ≥ 1% (> 2/oil field) + thrombocytopenia — DIC (coag ผิดปกติ) vs TMA (TTP/HUS coag ปกติ)",
+"Reactive lymph: pleomorphic cytoplasm ฟ้าโอบ RBC (EBV, dengue, CMV) vs blast: N:C สูง chromatin ละเอียด nucleoli เด่น monomorphic",
+"AML: myeloblast + Auer rod · APL: abnormal promyelocyte + faggot cell, t(15;17) PML::RARA, emergency → ATRA · ALL: lymphoblast ไม่มี granule/Auer rod (L3 = Burkitt vacuolated)",
+"CML: granulocyte ทุกระยะ + basophilia/eosinophilia + thrombocytosis · CLL: small mature lymph chromatin เป็นก้อน + smudge cells, AIHA 10–25%",
+"Myelophthisis: teardrop + NRBC + immature granulocyte + giant platelet · MM: rouleaux ± plasma cell · PCL: circulating plasma cells (IMWG 2021 ≥ 5%)",
+"ITP: isolated thrombocytopenia + giant platelet หา secondary (HIV, HCV) · APDE: eosinophilia + pale platelets count ปกติ ตรวจอุจจาระหาพยาธิ"
+]
+},
+{
+"code": "R04",
+"title": "Blood Cell Atlas (Mindray MC-80)",
+"kw": "band|segment|neutrophil|lymphocyt|monocyt|eosinophil|basophil|left shift|right shift|toxic granul|dohle|döhle|vacuol|phagocyt|blast|promyelocyt|myelocyt|metamyelocyt|reactive lymph|atypical lymph|sezary|sézary|hairy cell|prolymphocyt|lymphoma cell|plasma cell|myeloma cell|gray platelet|grey platelet|giant platelet|platelet clump|aggregat|pseudothrombocytopen|megakaryocyt|nucleated red|nrbc|normoblast|smudge|basket cell|artefact|artifact",
+"topic": "Hematology",
+"tags": [
+"Hematology"
+],
+"type": "Atlas (real cell photographs)",
+"url": "",
+"note": "Mindray · ภาพจาก MC-80 digital morphology analyzer · 50 หน้า (หน้า 48–50 โฆษณาเครื่อง)",
+"points": [
+"Band: nucleus รูปแท่ง/ไส้กรอก · left shift = band ↑ ± metamyelocyte/myelocyte/promyelocyte ใน PB (ติดเชื้อรุนแรง พิษ เสียเลือด) · right shift = > 3% ของ neutrophil มี ≥ 5 lobe (megaloblastic, antimetabolite)",
+"Monocyte 12–20 µm nucleus พับ chromatin ร่างแห cytoplasm เทาฟ้ามี vacuole (SBE, malaria, kala-azar, CMML) · eosinophil 2 lobe granule ส้ม (พยาธิ ภูมิแพ้) · basophil granule ม่วงดำบัง nucleus (MPN)",
+"RBC ปกติ 7.2 µm central pallor 1/3 · platelet 1.5–3 µm",
+"Toxic changes (sepsis, burns, malignancy, poisoning): toxic granulation, vacuolation, Döhle body · neutrophil อาจมีเชื้อรา/parasite ที่ถูกกลืน",
+"Blast: N:C สูง chromatin ละเอียด nucleoli ชัด cytoplasm น้อยน้ำเงิน · promyelocyte 12–25 µm มี nucleolus + azurophilic granule + hof",
+"Abnormal promyelocyte (APL): nucleus รูปไต/bilobed, faggot cell · M3a coarse, M3b fine, M3v micro granule + nucleus บิด · พบใน PB ต้องแจ้งแพทย์ทันที",
+"Myelocyte: nucleus รี เว้า < 1/2 ไม่มี nucleolus granule ละเอียด · metamyelocyte: nucleus รูปไต/เกือกม้า",
+"Reactive lymph type I vacuolated, II irregular (monocytoid), III naive — IM, viral hepatitis, dengue · abnormal lymph homogeneous ในผู้ป่วยรายเดียว → flow cytometry",
+"Sézary: cerebriform nucleus · lymphoma cell: nucleus เว้า/พับ/มีรอยตัด · prolymphocyte 12–14 µm nucleolus เดี่ยวเด่น · hairy cell: ขนยื่นรอบเซลล์ (HCL 90%)",
+"Plasma cell 8–15 µm nucleus เยื้อง < 1/3 clock-face, cytoplasm น้ำเงินเข้ม + hof · myeloma cell ใหญ่ ไม่สม่ำเสมอ chromatin ละเอียด nucleoli 1–2",
+"Platelet ปกติ: giant 0.7–2%, large 8–16% · bizarre > 10% = ผิดปกติ (MDS, leukemia, post-splenectomy, TTP) · gray platelet = ขาด α-granule (GPS: myelofibrosis/ม้ามโต)",
+"Platelet aggregation → นับต่ำเท็จ (MPN, เจาะเลือดไม่ดี, EDTA-PTCP anti-GPIIb/IIIa) → เจาะใหม่ใน citrate · large 4–7 µm, giant > RBC (ITP, MDS, BSS, Glanzmann, post-splenectomy)",
+"Megakaryocyte ใน PB: AMKL, MDS, MPN, AML · small megakaryocyte 5–8 µm คล้าย lymphocyte",
+"NRBC 4 ระยะ cytoplasm น้ำเงินเข้ม → แดงซีด ไม่มี granule · smudge cell ↑ ใน CLL · dye sediment จากแห้งเกิน/สัดส่วนสีผิด/ล้างไม่พอ แก้ด้วย methanol แล้วล้างน้ำ"
+]
 }
 ];

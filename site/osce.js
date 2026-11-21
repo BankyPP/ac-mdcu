@@ -467,7 +467,7 @@ const xClone=o=>JSON.parse(JSON.stringify(o));
 function mornMQOn(wid){const W=WARDS[wid||ward];return !!(W&&W.cfg&&W.cfg.mornMEQ);}
 function mornMQAll(){const W=W_();return (W&&W.MORN||[]).map(c=>{const u="MORN|"+c.day;if(!XQ[u]){const q=mqNormX(Object.assign(xClone(c),{uid:u,set:"Morning round",ro:"",orig:dayTH(c.day),file:"Morning",page:"",title:"เคส Morning round · "+dayTH(c.day)}),false);delete q.day;q.mday=c.day;XQ[u]=q;}return XQ[u];});}
 function osUnitAll(){const W=W_(),cnt={};return (W&&W.OSU||[]).map(c=>{const t=c.topic||"";cnt[t]=(cnt[t]||0)+1;const u="OSU|"+t+"|"+(c.id||cnt[t]);
-  if(!XQ[u])XQ[u]=mqNormX(Object.assign(xClone(c),{uid:u,set:"Unit round",ro:osTN(t),orig:String(c.id||cnt[t]),file:c.file||"Unit",page:c.page||""}),true);return XQ[u];});}
+  if(!XQ[u])XQ[u]=mqNormX(Object.assign(xClone(c),{uid:u,set:"Unit round",ro:osTN(t)+(c.sub?" · "+osSubNm(c.sub):""),orig:String(c.id||cnt[t]),file:c.file||"Unit",page:c.page||""}),true);return XQ[u];});}
 function osSpcS(){const m=mqInitP(P_(),"OSCE");const S=m.spc=m.spc||{};S.sel=S.sel||{all:0,T:[],U:[]};["T","U"].forEach(k=>{if(!Array.isArray(S.sel[k]))S.sel[k]=[];});
   S.bag=S.bag||{sig:"",list:[]};S.list=Array.isArray(S.list)?S.list:[];S.B=S.B||{};S.pts=S.pts||{};return S;}
 function osSpcQ(u){const S=osSpcS(),raw=S.B[u];if(!raw)return null;const k="S"+u;if(!XQ[k])XQ[k]=mqNormX(xClone(raw),true);return XQ[k];}
@@ -526,11 +526,20 @@ function mornXStart(type){
   const m=mqInitP(P_(),"MEQ"),d=mDay(),q=mqXFind("MORN|"+d);if(!q){toast(mornMQWait());return;}
   m.mopen=m.mopen||{};m.mopen[d]=1;Object.keys(m.mopen).sort().slice(0,-60).forEach(k=>delete m.mopen[k]);save();mqOpen(q.uid,undefined,"morning");}
 /* ---- Unit round OSCE: by big topic ---- */
-function osUnitList(t){return t?osUnitAll().filter(q=>q.topic===t):[];}
+/* 22 Nov 2026 (user, ทวทว): a big topic draws from ALL its small topics in a random order (seeded per topic so the list keeps its order until re-shuffled) ·
+   or pick ONE small topic (e.g. Blood smear) · v.usub = small topic ("" = all) · v.useed[topic] = order seed */
+const OS_SUBN={PBS:"Blood smear"};   /* display names of small topics (the data keeps the engine name, e.g. q.sub "PBS") */
+const osSubNm=s=>OS_SUBN[s]||s;
+const osHash=x=>{let h=2166136261;for(let i=0;i<x.length;i++){h^=x.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;};
+function osUnitList(t,sb,v){if(!t)return [];let L=osUnitAll().filter(q=>q.topic===t);if(sb)L=L.filter(q=>osSubOf(q)===sb);
+  const sd=String((v&&v.useed&&v.useed[t])||1);return L.map(q=>[osHash(q.uid+"|"+sd),q]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);}
 function osUnitCnt(){const A=osUnitAll();return `<span class="rcnt">มี <b>${A.length}</b> สถานี · ${osTopics().length} หัวข้อใหญ่</span>`;}
 function osUnitPicker(v){const A=osUnitAll(),T=osTopics();
-  return `<div class="tl-h">เลือกหัวข้อใหญ่</div><div class="chips tchips">${T.map(t=>{const L=A.filter(q=>q.topic===t.id),dn=L.filter(q=>xDone(q,"OSCE")).length;return `<button class="chip" type="button" data-utop="${esc(t.id)}" aria-pressed="${v.utop===t.id}"${L.length?"":' style="opacity:.55"'}>${esc(t.name)}<span class="cnt">${L.length?dn+"/"+L.length:"0"}</span></button>`;}).join("")||`<span class="hint">วอร์ดนี้ยังไม่ได้ตั้งหัวข้อ OSCE</span>`}</div>`;}
-function osUnitEmpty(t){return t?`ยังไม่มีสถานี Unit round ในหัวข้อ “${esc(osTN(t))}” — รอ Claude แต่ง (หัวข้อละ 50 สถานี)`:"เลือกหัวข้อใหญ่ 1 หัวข้อ — สถานีของหัวข้อนั้นจะแสดงที่นี่";}
+  return `<div class="tl-h">เลือกหัวข้อใหญ่</div><div class="chips tchips">${T.map(t=>{const L=A.filter(q=>q.topic===t.id),dn=L.filter(q=>xDone(q,"OSCE")).length;return `<button class="chip" type="button" data-utop="${esc(t.id)}" aria-pressed="${v.utop===t.id}"${L.length?"":' style="opacity:.55"'}>${esc(t.name)}<span class="cnt">${L.length?dn+"/"+L.length:"0"}</span></button>`;}).join("")||`<span class="hint">วอร์ดนี้ยังไม่ได้ตั้งหัวข้อ OSCE</span>`}</div>`+osUnitSubPicker(v,A);}
+function osUnitSubPicker(v,A){if(!v.utop)return "";const L=A.filter(q=>q.topic===v.utop);if(!L.length)return "";const by={};L.forEach(q=>{const k=osSubOf(q)||"อื่น ๆ";(by[k]=by[k]||[]).push(q);});
+  const ks=Object.keys(by).sort((a,b)=>by[b].length-by[a].length),cnt=x=>`<span class="cnt">${x.filter(q=>xDone(q,"OSCE")).length}/${x.length}</span>`;
+  return `<div class="tl-h" style="margin-top:8px">หัวข้อเล็ก <span class="hint" style="font-weight:400">ไม่เลือก = สุ่มคละจากทุกหัวข้อเล็กของ “${esc(osTN(v.utop))}”</span></div><div class="chips tchips"><button class="chip" type="button" data-usub="" aria-pressed="${!v.usub}">ทั้งหมด (สุ่มคละ)${cnt(L)}</button>${ks.map(k=>`<button class="chip" type="button" data-usub="${esc(k)}" aria-pressed="${v.usub===k}">${esc(osSubNm(k))}${cnt(by[k])}</button>`).join("")}<button class="chip" type="button" data-ushuf="1" title="สลับลำดับสถานีใหม่">🎲 สลับลำดับใหม่</button></div>`;}
+function osUnitEmpty(t){return t?`ยังไม่มีสถานี Unit round ในหัวข้อ “${esc(osTN(t))}” — รอ Claude แต่ง`:"เลือกหัวข้อใหญ่ 1 หัวข้อ — สถานีของหัวข้อนั้นจะแสดงที่นี่";}
 /* ---- Specialty round OSCE (#/<ward>/osspc) ---- */
 var OSSPC={busy:0,err:""};
 const osSpcUnits=()=>spcUnits(ward,"OSCE");
