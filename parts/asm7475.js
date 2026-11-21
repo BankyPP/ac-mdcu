@@ -39,6 +39,11 @@ const base={set:S.set,ro:S.ro,file:S.file};if(S.kfile!==undefined)base.kfile=S.k
 const A=o=>{const q=Object.assign({},base,{opinion:""},o);if(Array.isArray(q.wrong)){const w={};let j=0;for(let i=0;i<5;i++){if(i!==q.ans)w[LT[i]]=q.wrong[j++];}q.wrong=w;}return q;};
 const parts=fs.readdirSync(__dirname).filter(f=>f.startsWith(code+"_part")&&f.endsWith(".js")).sort((a,b)=>parseInt(a.replace(/\D/g,""))-parseInt(b.replace(/\D/g,"")));
 let QB=[];parts.forEach(f=>{const src=fs.readFileSync(path.join(__dirname,f),"utf8");QB=QB.concat(eval("["+src+"]"));});
+// second-key patches: parts/<code>_k2.js = [{orig,img,cap,k2,note}] (key from __01_2_MCQs_Key_1.pdf)
+{const pf=path.join(__dirname,code+"_k2.js");if(fs.existsSync(pf)){const P=eval("["+fs.readFileSync(pf,"utf8")+"]");P.forEach(p=>{const q=QB.find(x=>x.orig===p.orig);if(!q){console.log("k2: orig not found",p.orig);return;}
+ q.kimg=[].concat(q.kimg||[]);q.kcap=[].concat(q.kcap||[]);if(p.img&&!q.kimg.includes(p.img)){q.kimg.push(p.img);q.kcap.push(p.cap||"คีย์ไฟล์ 01.2 MCQ Key_1");}
+ const L=p.k2;const same=L&&L.length===1&&"ABCDE".indexOf(L)===q.ans;q.key=(q.key||"")+" · คีย์ไฟล์ 01.2 (MCQ Key_1): "+(L||"ไม่มีขีด")+(L&&L.length===1?(same?" (ตรงกัน)":" (⚠ ต่างจากคีย์ชุดแรก)"):"");
+ if(p.note)q.notes=(q.notes?q.notes+" · ":"")+p.note;if(L&&L.length===1&&!same)q.opinion=(q.opinion?q.opinion+" · ":"")+"⚠ คีย์ 2 ไฟล์ไม่ตรงกัน (ไฟล์ 01.2 ตอบ "+L+")"+(p.op?" · "+p.op:"");});console.log("k2 patches",P.length);}}
 // in-set rid (1..N) in "ข้อ n" → global rid = offset + n (offset = questions in data_b<M>.js with M < this file's number, same ward folder)
 const dir=path.dirname(path.join(R,S.out)),myN=+path.basename(S.out).replace(/\D/g,"");let off=0;
 fs.readdirSync(dir).filter(f=>/^data_b\d+\.js$/.test(f)&&+f.replace(/\D/g,"")<myN).forEach(f=>{const B=[];new Function("QB",fs.readFileSync(path.join(dir,f),"utf8"))(B);off+=B.filter(q=>!q.notice).length;});
