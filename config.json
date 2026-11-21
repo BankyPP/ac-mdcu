@@ -527,9 +527,6 @@
       "sub": "MDCU",
       "brand": "AC Subspe Sx Y4 MCQ",
       "dir": "data_subspe",
-      "noExam": [
-        "MEQ"
-      ],
       "lectures": [
         {
           "title": "L05 Basic plastic surgery",
@@ -540,6 +537,11 @@
       "dates": [
         {
           "part": "OSCE",
+          "at": "2026-12-28T13:00",
+          "end": "16:00"
+        },
+        {
+          "part": "MEQ",
           "at": "2026-12-28T13:00",
           "end": "16:00"
         },

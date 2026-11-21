@@ -2763,19 +2763,27 @@ function examDates(w){return wDates(w).map(x=>{
   const m=/^(\d{4})-(\d\d)-(\d\d)(?:T(\d\d):(\d\d))?/.exec(x.at||"");if(!m)return null;
   const y=+m[1],mo=+m[2],d=+m[3],hasT=!!m[4],at=Date.UTC(y,mo-1,d,hasT?+m[4]:0,hasT?+m[5]:0)-7*3600e3;
   const e=/^(\d\d):(\d\d)$/.exec(x.end||""),dur=hasT&&e?(+e[1]*60+ +e[2])-(+m[4]*60+ +m[5]):(((w.exam||{})[x.part]||{}).min)||0;
-  return {part:x.part||"",label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}${e?"–"+x.end:""}`:""}`,at,hasT,dur,score:x.score||""};}).filter(Boolean);}
-function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign({},x)),rot=wRot(w),parts=["MCQ","MEQ","OSCE"];
+  return {part:x.part||"",label:`${d} ${TH_MON[mo-1]} ${String(y+543).slice(2)}${hasT?` ${m[4]}:${m[5]}${e?"–"+x.end:""}`:""}`,at,hasT,dur,score:x.score||""};}).filter(Boolean).sort(edCmp);}
+/* display order (21 Nov 2026, every ward on every site): exam day → start time (no time = start of the day) → end time (no end = after one with an end) → MCQ, MEQ, OSCE · "done" rows without a date first */
+const ED_PO=["MCQ","MEQ","OSCE"];
+const edEnd=x=>x.hasT&&x.dur?x.at+x.dur*60e3:Infinity;
+function edCmp(a,b){if(!!a.fixedDone!==!!b.fixedDone)return a.fixedDone?-1:1;
+  const da=Math.floor((a.at+7*3600e3)/864e5),db=Math.floor((b.at+7*3600e3)/864e5);if(da!==db)return da-db;
+  if(a.at!==b.at)return a.at-b.at;const ea=edEnd(a),eb=edEnd(b);if(ea!==eb)return ea<eb?-1:1;
+  const pa=ED_PO.indexOf(a.part),pb=ED_PO.indexOf(b.part);return (pa<0?99:pa)-(pb<0?99:pb);}
+/* same order for the raw rows in the Admit · ICU · Discharge editor (rows that don't parse go last) */
+function edSortRaw(D,w){return D.map(x=>[x,examDates({dates:[x],exam:w.exam})[0]]).sort((p,q)=>!p[1]||!q[1]?(!p[1])-(!q[1]):edCmp(p[1],q[1])).map(p=>p[0]);}
+function rDates(){const w=W_().cfg,o=wOv(w.id),D=edSortRaw(wDates(w).map(x=>Object.assign({},x)),w),rot=wRot(w),parts=["MCQ","MEQ","OSCE"];
   const row=(x,i)=>{const m=/^(\d{4}-\d\d-\d\d)(?:T(\d\d:\d\d))?/.exec(x.at||"")||[];return `<div class="dtrow" data-i="${i}">
     <label>สอบ<select data-f="part">${[...new Set(parts.concat(x.part?[x.part]:[]))].concat([""]).map(p=>`<option value="${esc(p)}"${p===(x.part||"")?" selected":""}>${p||"(ไม่ระบุ)"}</option>`).join("")}</select></label>
     <label>วันที่<input type="date" data-f="d" value="${esc(m[1]||"")}"></label>
     <label>เริ่ม<input type="time" data-f="t" value="${esc(m[2]||"")}"></label>
     <label>จบ<input type="time" data-f="e" value="${esc(x.end||"")}"></label>
     <label class="ck"><input type="checkbox" data-f="done"${x.done&&!x.at?" checked":""}> สอบไปแล้ว (ไม่ต้องใส่วัน)</label>
-    <span class="dtmv"><span class="dtgrip" data-grip title="กดค้างแล้วลากเพื่อย้าย" aria-label="ลากเพื่อย้าย">☰ ลาก</span><button class="btn" type="button" data-mv="-1" aria-label="เลื่อนขึ้น">↑ ขึ้น</button><button class="btn" type="button" data-mv="1" aria-label="เลื่อนลง">↓ ลง</button></span>
     <button class="link" type="button" data-del="${i}">ลบ</button></div>`;};
   let h=`<h1 class="h2">Admit · ICU · Discharge — ${esc(w.name)}</h1><p class="sub">แก้แล้วกดบันทึก นับถอยหลัง คำเตือน Phase 2 และหน้าประวัติ Morning round ใช้ค่านี้ทันที · เข้าสู่ระบบไว้จะใช้ค่าเดียวกันทุกเครื่อง${o?` · <b>กำลังใช้ค่าที่แก้เอง</b> (แก้ล่าสุด ${fmtDT(o.ts)})`:" · ตอนนี้ใช้ค่าตั้งต้นของเว็บ"}</p>`;
   h+=`<div class="card"><h3>ICU <span class="hint" style="font-weight:400">(วันสอบ)</span></h3><div id="dtRows">${D.map(row).join("")||`<p class="hint">ยังไม่มี ICU</p>`}</div><button class="btn" id="dtAdd" type="button">+ เพิ่ม ICU</button>
-    <p class="hint" style="margin-top:8px">ลำดับในหน้านี้ = ลำดับที่โชว์ในหน้าวอร์ดและหน้าแรก (บนสุด = ซ้ายสุด/ก่อน) — กด ☰ ค้างแล้วลาก หรือกด ↑ ขึ้น / ↓ ลง · ไม่ใส่เวลาเริ่ม = นับถอยหลังเป็นวัน · ใส่เวลาเริ่มและจบ = ระหว่างสอบขึ้น "กำลังสอบ ✍️" · เหลือ ≤14 วันกล่องเป็นสีแดงและเตือนให้เริ่ม Phase 2</p></div>`;
+    <p class="hint" style="margin-top:8px">ลำดับเรียงให้อัตโนมัติทั้งในหน้านี้ หน้าวอร์ด และหน้าแรก: วันสอบก่อน → วันเดียวกันเอาเวลาเริ่มก่อน → เริ่มพร้อมกันเอาที่จบก่อน → เหมือนกันเป๊ะเรียง MCQ · MEQ · OSCE · ไม่ใส่เวลาเริ่ม = นับถอยหลังเป็นวัน · ใส่เวลาเริ่มและจบ = ระหว่างสอบขึ้น "กำลังสอบ ✍️" · เหลือ ≤14 วันกล่องเป็นสีแดงและเตือนให้เริ่ม Phase 2</p></div>`;
   {const E0=Object.assign({},(w.exam||{}).MCQ,o&&o.exam);h+=`<div class="card"><h3>MCQ สอบจริง <span class="hint" style="font-weight:400">(จำนวนข้อ · เวลา — ใช้กับ Legendary round)</span></h3><div class="dtrow"><label>จำนวนข้อ<input type="number" id="exN" min="1" max="500" value="${esc(E0.n||"")}" placeholder="เช่น 100"></label><label>เวลา (นาที)<input type="number" id="exM" min="1" max="600" value="${esc(E0.min||"")}" placeholder="เช่น 150"></label></div><span class="rd">เว้นว่าง = ใช้ค่าตั้งต้นของเว็บ${(w.exam||{}).MCQ?` (${w.exam.MCQ.n} ข้อ ${w.exam.MCQ.min} นาที)`:" (ยังไม่มี)"} · MEQ ยังไม่มี Legendary round</span></div>`;}
   if(!(w.noExam||[]).includes("OSCE")){const E1=Object.assign({},(w.exam||{}).OSCE,o&&o.examOS);h+=`<div class="card"><h3>OSCE สอบจริง <span class="hint" style="font-weight:400">(จำนวนข้อ · เวลาต่อข้อ — ค่าตั้งต้นของ Legendary round OSCE)</span></h3><div class="dtrow"><label>จำนวนข้อ (ไม่นับข้อพัก)<input type="number" id="osN" min="1" max="80" value="${esc(E1.n||"")}" placeholder="เช่น 25"></label><label>เวลาต่อข้อ (นาที)<input type="number" id="osM" min="1" max="60" step="0.5" value="${esc(E1.min||"")}" placeholder="เช่น 5"></label></div><span class="rd">เว้นว่าง = ใช้ค่าตั้งต้นของเว็บ${(w.exam||{}).OSCE?` (${w.exam.OSCE.n} ข้อ ข้อละ ${w.exam.OSCE.min} นาที)`:" (ยังไม่มี)"} · เปลี่ยนได้อีกตอนเริ่มสอบ</span></div>`;}
   h+=`<div class="card"><h3>Admit &amp; Discharge</h3><span class="rd">วันเริ่มและวันจบวอร์ด — ใช้กับหน้าประวัติ Morning round (เรียงครบทุกวันในช่วงนี้)</span><div class="dtrow"><label>Admit<input type="date" id="rtS" value="${esc(rot.start||"")}"></label><label>Discharge<input type="date" id="rtE" value="${esc(rot.end||"")}"></label></div></div>`;
@@ -2784,7 +2792,7 @@ function rDates(){const w=W_().cfg,o=wOv(w.id),D=wDates(w).map(x=>Object.assign(
   const read=()=>[...document.querySelectorAll("#dtRows .dtrow")].map(r=>{const g=f=>r.querySelector(`[data-f="${f}"]`),i=+r.dataset.i,old=D[i]||{},part=g("part").value,d=g("d").value,t=g("t").value,e=g("e").value,done=g("done").checked;
     const x={part};if(old.score)x.score=old.score;if(d){x.at=d+(t?"T"+t:"");if(t&&e)x.end=e;}else if(done)x.done=true;else return null;return x;}).filter(Boolean);
   const bindRow=r=>{r.querySelector("[data-del]").onclick=()=>r.remove();
-    const g=r.querySelector("[data-grip]");g.onpointerdown=e=>{e.preventDefault();r.classList.add("drag");
+    const g=r.querySelector("[data-grip]");if(g)g.onpointerdown=e=>{e.preventDefault();r.classList.add("drag");
       /* window listeners: moving the row drops pointer capture on the grip */
       const pm=ev=>{if(ev.pointerId!==e.pointerId)return;const box=$("dtRows"),rows=[...box.querySelectorAll(".dtrow")].filter(x=>x!==r);let before=null;for(const x of rows){const b=x.getBoundingClientRect();if(ev.clientY<b.top+b.height/2){before=x;break;}}if(before){if(before!==r.nextElementSibling)box.insertBefore(r,before);}else if(r!==box.lastElementChild)box.appendChild(r);};
       const pu=ev=>{if(ev.pointerId!==e.pointerId)return;r.classList.remove("drag");window.removeEventListener("pointermove",pm);window.removeEventListener("pointerup",pu);window.removeEventListener("pointercancel",pu);};
