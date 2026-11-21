@@ -409,7 +409,7 @@ function mqView(){const c=mqCur();if(!c){go(ward);return;}const {q}=c;mqVisTouch
   if(tm){if(TP.length>1)h+=`<div class="psteps">${TP.map(j=>{const d=mqTDone(q,j);return `<button class="pstep ${d?"done":"open"}${j===pi?" on":""}" data-mpart="${j}">${d?"✓ ":""}${mqGL(q,j)}</button>`;}).join("")}</div>`;}
   else if(NP>1)h+=`<div class="psteps">${q.parts.map((p,j)=>{const lock=j>ps;return `<button class="pstep ${j<ps?"done":j===ps?"open":"lock"}${j===pi?" on":""}" data-mpart="${j}" ${lock?'disabled title="ส่งคำตอบ Part ก่อนหน้าก่อน"':""}>${lock?"🔒 ":j<ps?"✓ ":""}${mqGL(q,j)}</button>`;}).join("")}</div>`;
   if(mqCaseDone(q))h+=myNoteTop(q);   /* 📝 my after-answer note above the question — only once the whole case has been answered (user 28 Oct 2026) */
-  if(!q.sa){h+=`<section class="case${pi>0?" old":""}"><div class="case-lab">${q.mday?"เคสประจำวัน":"ข้อ"} ${esc(mqNum(q))}${pi>0?' <span class="oldtag">ข้อมูลเดิม</span>':""}</div><div class="stem">${q.stem}</div>${mqImgs(q.img,q.imgNote)}${q.gray&&!(mqIsOS()&&!mqCaseDone(q))?grayBox(q.gray,q.uid+"|c"):""}</section>`;
+  if(!q.sa){h+=`<section class="case${pi>0?" old":""}"><div class="case-lab">${q.mday?"เคสประจำวัน":"ข้อ"} ${esc(mqNum(q))}${pi>0?' <span class="oldtag">ข้อมูลเดิม</span>':""}</div><div class="stem">${q.stem}</div>${mqIsOS()?osPicBlock(q,false):mqImgs(q.img,q.imgNote)}${q.gray&&!(mqIsOS()&&!mqCaseDone(q))?grayBox(q.gray,q.uid+"|c"):""}</section>`;
     const prev=q.parts.slice(0,pi).filter(p=>p.info||p.img);
     if(prev.length)h+=`<details class="prev old" open><summary>ข้อมูลเพิ่มเติมจาก Part ก่อนหน้า <span class="oldtag">ข้อมูลเดิม</span></summary>${prev.map(p=>`<div class="pinfo"><span class="pn">${esc(mqGL(q,p.i).replace("Part ","P"))}</span><div>${p.info?`<div>${p.info}</div>`:""}${p.info&&(p.igray||p.gray)?grayBox(p.igray||p.gray,q.uid+"|i"+p.i):""}${mqImgs(p.img,p.imgNote)}</div></div>`).join("")}</details>`;}
   const pm=SUBS.reduce((a,s)=>a+mqMk(s),0);
@@ -441,7 +441,7 @@ function mqView(){const c=mqCur();if(!c){go(ward);return;}const {q}=c;mqVisTouch
   h+=`</section></div>`;
   {const done=Q.filter(x=>mqCaseDone(x)).length;$("pos").textContent=k>=0?`${k+1} / ${Q.length}`:"";$("count").textContent=`${done}/${Q.length}`;$("prog").style.width=(Q.length?done/Q.length*100:0)+"%";
     $("prev").textContent="ก่อนหน้า";$("next").textContent=v.r==="grand"?"สุ่มข้อถัดไป":v.r==="spc"&&k===Q.length-1?"สร้างสถานีถัดไป":"ถัดไป";$("prev").disabled=false;$("next").disabled=false;$("next").classList.toggle("primary",pDone);$("next").classList.toggle("ghost",!pDone);}
-  $("main").innerHTML=h;mqBindView(q,pi);mqTStart();mqTPaint();
+  $("main").innerHTML=h;mqBindView(q,pi);if(mqIsOS())osPicWire(q,()=>{const c2=mqCur();if(c2&&c2.q.uid===q.uid)mqView();});mqTStart();mqTPaint();
   if(pDone&&mqAiAvail()&&HAS_CLAUDE()){const kk=q.uid+"#"+pi;if(!MQAI.auto)MQAI.auto={};if(!MQAI.auto[kk]&&SUBS.some(x=>!mqReo(r,x._i)&&((r.t&&r.t[x._i])||"").trim()&&!(r.ai&&r.ai[x._i]))){MQAI.auto[kk]=1;setTimeout(()=>mqAiRun(q,pi,false),0);}}}
 function mqDoneSub(q,pi,s,r,t){const i=s._i,typed=!!t.trim(),ai=(r.ai&&r.ai[i])||null,kk=q.uid+"#"+pi,sg=mqSug(s,r);let h="";
   h+=`<div class="mmine-lab">คำตอบของฉัน <span>· ส่งแล้ว</span></div><textarea class="ans ro" readonly rows="3" placeholder="— ไม่ได้พิมพ์คำตอบ —">${esc(t)}</textarea><div class="sbody">`;
