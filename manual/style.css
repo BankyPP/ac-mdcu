@@ -97,3 +97,7 @@ ul{margin:0;padding-left:15px}ul li{margin:0 0 3px}
 .kv td:first-child{font-family:Kanit;font-weight:500;white-space:nowrap}
 .yes{color:var(--ok);font-weight:700}.no{color:#b6b0bd}
 .split{break-inside:avoid}
+
+/* Morning aura sample: glow on the back-most layer (behind every box), like the website */
+.note.aura{position:relative;background:#fff;border:1px solid var(--line)}
+.note.aura::before{content:"";position:absolute;inset:0;border-radius:inherit;z-index:-1;box-shadow:0 0 10px 5px hsla(280,90%,84%,.95),0 0 24px 11px hsla(310,90%,87%,.7),0 0 42px 20px hsla(340,90%,91%,.5)}
