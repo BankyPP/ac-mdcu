@@ -140,7 +140,7 @@ A({page:78,page2:78,orig:"41",...K1("41","คีย์ลายมือ · ห�
  summary:["In situ 0.5–1 cm","1–2 mm: 1–2 cm","SLNB ≥0.8 mm"],
  notes:"⚠ โจทย์ Q40 ไม่อยู่ในไฟล์ · Claude สมมติเป็น melanoma หนา ~2 มม. ตามลายมือที่วงคำตอบ C = melanoma",guide:"NCCN Melanoma",
  variants:["Breslow vs Clark?","Completion lymph node dissection?"],
- opinion:"ตามคีย์ C ความมั่นใจปานกลาง (ไม่เห็นโจทย์ข้อ 40)"}),
+ opinion:"ตามคีย์ C ความมั่นใจปานกลาง (ไม่เห็นโจทย์ Q40)"}),
 A({page:78,page2:78,orig:"42",...K1("42","คีย์ลายมือ · หน้า 78"),_t:"Pediatric surgery",_g:["Pediatric surgery"],
  stem:"A child swallowed a 50-satang coin and came to hospital; he is asymptomatic and X-ray shows the coin in the stomach. What is the management?",
  gray:"42. เด็กกลืนเหรียญ 50 สตางค์ แล้วมารพ. ยังพูดได้ ไม่มีเขียว xray เจอเหรียญในกระเพาะ ถาม management — A) ให้กลับบ้าน รอดูอึ B) admit ที่รพ คอย xray ดู C) gastroscope คีบออกมา D) กินน้ำเยอะๆ ให้มันออกมาเร็วๆ",
