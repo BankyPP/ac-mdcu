@@ -233,7 +233,7 @@ Co({page:3,orig:"9",topic:"img",sub:"Clinical photograph",title:"Clinical photog
  gray:"9 รูป thromboses external hemorrhoid? 6 oclock 1)dx 2)management",
  flag:NOIMG,imgAlt:"ภาพรอบทวาร มีก้อนสีม่วงคล้ำตึงที่ขอบทวารตำแหน่ง 6 นาฬิกา",
  notes:"ผู้จดเขียน \"thromboses external hemorrhoid?\" (ไม่แน่ใจ) ไม่มีรูปและเฉลย · ไม่ได้บอกระยะเวลาที่ปวด — การจัดการขึ้นกับว่าภายใน 72 ชม. หรือไม่",
- opinion:"ไฟล์ไม่มีเฉลย — ตามคำบรรยาย thrombosed external hemorrhoid; การจัดการแบ่งตามเวลา (≤72 ชม. → excision, &gt;72 ชม. → conservative) ความมั่นใจปานกลาง-สูง",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีเฉลย (ผู้จดเขียน thrombosed external hemorrhoid?) · เห็นด้วย: ก้อนเจ็บที่ขอบทวาร = <b>thrombosed external hemorrhoid</b> · รักษาแบ่งตามเวลา: ปวดมากภายใน ~72 ชม. → <b>excision</b> ใต้ยาชาเฉพาะที่ (ดีกว่า incision อย่างเดียว) · หลัง 72 ชม. → conservative (sitz bath, fiber, analgesic, topical nifedipine + lidocaine) · คงคำตอบเดิม · แหล่งตัดสิน: ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids 2024 (เลือก early surgical excision ในบางราย) · ความมั่นใจ: ปานกลาง-สูง",
  parts:S(
   B("9.1 Diagnosis.",3,{tags:["img"],
    ans:"<b>Thrombosed external hemorrhoid</b> — ก้อนสีม่วงคล้ำตึง เจ็บมาก ที่ขอบทวาร (ใต้ dentate line คลุมด้วย anoderm ที่มีเส้นประสาทรับความเจ็บ) · DDx: perianal abscess (แดงร้อน fluctuant ไข้), prolapsed thrombosed internal hemorrhoid, sentinel pile ของ fissure",
@@ -328,7 +328,7 @@ Co({page:4,orig:"16",topic:"img",sub:"Contrast GI study",title:"Barium swallow �
  gray:"16 film barium swallow 1)บรรยาย 2)ชื่อ investigation 3)diag 4)ตรวจเพิ่มเติม 2 อย่าง",
  flag:NOIMG+" · ไฟล์ไม่ได้บอกว่าฟิล์มเป็นโรคอะไร — เฉลยเขียนแบบ achalasia (bird's beak) ซึ่งพบบ่อยที่สุดใน OSCE barium swallow พร้อมเทียบกับ esophageal cancer (apple core/shouldering)",imgAlt:"ภาพ barium swallow ท่ายืน เห็นหลอดอาหารโป่งขยาย ส่วนปลายเรียวแหลมเป็นรูปจะงอยปากนก",
  notes:"ไฟล์ไม่มีเลขข้อสถานีเดิมที่ 13–15 (ข้ามจาก 12 ไป 16) · ไม่มีรูป ไม่มีเฉลย (คอลัมน์เฉลยมีแค่ \"1.\" / \"2.\" ว่าง)",
- opinion:"ไฟล์ไม่ได้บอกโรค — เราเดาว่าเป็น achalasia (Gen Sx 79D มีรูป achalasia เช่นกัน) ความมั่นใจต่ำ-ปานกลาง; ในห้องสอบให้แยก bird's beak (เรียบ เรียว) กับ apple core/irregular stricture (มะเร็ง)",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีเฉลยและไม่บอกโรค · เฉลยใช้ <b>achalasia</b> (bird beak) ซึ่งพบบ่อยที่สุดใน barium swallow ของ OSCE พร้อมวิธีแยกจาก carcinoma (irregular/shouldering/apple core) · ตรวจเพิ่ม 2 อย่าง: <b>high-resolution manometry</b> (gold standard, Chicago v4.0) + <b>EGD</b> ตัด pseudoachalasia — ถูกต้องตามแนวทาง · คงคำตอบเดิม · แหล่งตัดสิน: ACG Clinical Guideline: Achalasia 2020 + Chicago Classification v4.0 (2021) · ความมั่นใจ: สูง (เนื้อหา) / ต่ำ (โรคในภาพจริง)",
  parts:S(
   B("16.1 Describe the film.",3,{tags:["img"],
    ans:"Barium swallow ท่า erect AP/oblique: <b>หลอดอาหารโป่งขยาย (megaesophagus)</b> มี air-fluid level/อาหารค้าง ส่วนปลายที่ GE junction <b>เรียวแหลมเรียบสมมาตร (bird's beak)</b> barium ผ่านลงกระเพาะได้น้อย/ช้า ไม่เห็น gastric air bubble · (ถ้าเป็นมะเร็ง: irregular stricture, shouldering, apple-core, mucosal destruction, ส่วนต้นโป่งเล็กน้อย)",
@@ -379,8 +379,8 @@ Co({page:5,orig:"18",topic:"img",sub:"CT brain",title:"Head injury — calculate
  img:["os79c_18"],imgNote:"CT สมองไม่ฉีดสี ภาพ axial",
  stem:`1. Calculate the GCS: the patient opens his eyes when his name is called, speaks in sentences but is confused, and obeys commands.<br>2. Calculate the GCS: the patient keeps his eyes closed, makes moaning sounds, extends the left arm (decerebrate) to pain, and withdraws the right arm from pain.<br>3. A non-contrast CT of the brain is shown. What is the diagnosis?`,
  gray:"18 1)คำนวน gcs ลืมตาเรียกชื่อ / พูดได้เป็นประโยคแต่มีสับสน / ทำตามคำสั่งได้ 2)คำนวน gcs หลับตา / ร้องเสียงอืออา / ซ้ายเหยียดแขน decerebrate แต่ แขนขวาดึงแขนหนี pain (นมจว่าซ้ายขวาจำสลับมั้ย) 3)dx",
- notes:"ผู้จดไม่แน่ใจว่าจำแขนซ้าย/ขวาสลับหรือไม่ (\"นมจว่าซ้ายขวาจำสลับมั้ย\") — ไม่เปลี่ยน GCS (ใช้ best motor) · ไม่มีเฉลย",
- opinion:"ไฟล์ไม่มีเฉลย — GCS คิดตามเกณฑ์มาตรฐาน (ความมั่นใจสูง): 1) E3V4M6 = 13 2) E1V2M4 = 7 (ใช้ best motor = withdrawal); CT ในไฟล์เป็น acute subdural hematoma ข้างขวาที่ดัน midline (อ่านจากรูปในไฟล์ ความมั่นใจปานกลาง-สูง)",
+ notes:"ผู้จดไม่แน่ใจว่าจำแขนซ้าย/ขวาสลับหรือไม่ (\"นมจว่าซ้ายขวาจำสลับมั้ย\") — ไม่เปลี่ยน GCS (ใช้ best motor) · ไม่มีเฉลย · ตรวจคีย์ 21 พ.ย. 2026: ไฟล์ไม่มีเฉลย · เฉลยเดิมตอบ CT = acute SDH → แก้เป็น acute epidural hematoma (biconvex, swirl sign) ตามรูปในไฟล์ + ATLS 10th/BTF",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีเฉลย · GCS ตามเกณฑ์มาตรฐาน: 1) <b>E3V4M6 = 13</b> 2) <b>E1V2M4 = 7</b> (ใช้ best motor = withdrawal) · <b>แก้การอ่าน CT</b>: เฉลยเดิมตอบ acute SDH แต่เมื่อดูรูปในไฟล์ hematoma ข้างขวาเป็นรูป <b>biconvex/lentiform</b> ขอบด้านในนูน สิ้นสุดชัด ความทึบไม่สม่ำเสมอ (swirl) + midline shift ไปซ้าย = <b>acute epidural hematoma</b> (เข้ากับ GCS ที่ลดจาก 13 เป็น 7 แบบ lucid interval) · แหล่งตัดสิน: ATLS 10th + Brain Trauma Foundation Surgical Management of TBI + Radiopaedia (EDH vs SDH) · ความมั่นใจ: สูง (GCS) / ปานกลาง-สูง (CT)",
  parts:S(
   B("18.1 GCS of scenario 1.",2,{tags:["pe"],
    ans:"<b>E3 V4 M6 = 13</b> (ลืมตาเมื่อเรียก = E3 · พูดเป็นประโยคแต่สับสน = V4 confused · ทำตามสั่ง = M6) → mild TBI (13–15)",
@@ -391,13 +391,13 @@ Co({page:5,orig:"18",topic:"img",sub:"CT brain",title:"Head injury — calculate
    rubric:"ได้ = 7 (ใช้ best motor) · ผิดถ้าใช้ M2 (= 5)",
    pts:[CR(P("E1V2M4 = 7 (best motor)","\\b7\\b","e1v2m4","e1 v2 m4","best motor"))]}),
   B("18.3 CT diagnosis.",3,{tags:["img"],
-   ans:"<b>Acute subdural hematoma (right)</b> — hyperdense crescent-shaped extra-axial collection ตามผิวสมองซีกขวา ข้าม suture lines + <b>midline shift ไปทางซ้าย</b> + ventricle ข้างขวาถูกกด (mass effect) · เข้ากับ motor แย่ด้านซ้าย (ตรงข้ามรอยโรค) · การรักษา: หนา &gt;10 mm หรือ midline shift &gt;5 mm → <b>emergency craniotomy and evacuation</b> (BTF)",
-   exp:"EDH = biconvex ไม่ข้าม suture (middle meningeal artery) · SDH = crescent ข้าม suture (bridging veins)",
-   rubric:"ได้ = acute SDH + บอกข้าง/mass effect",
-   pts:[CR(P("Acute subdural hematoma","subdural","\\bsdh\\b")),P("ข้างขวา + midline shift","right","ขวา","midline","shift","mass effect")]})
+   ans:"<b>Acute epidural (extradural) hematoma (right)</b> — extra-axial collection hyperdense รูป <b>biconvex/lentiform</b> ขอบด้านในนูนเข้าหาสมอง ขอบหน้า-หลังสิ้นสุดชัด (ไม่ลามข้าม suture) ความทึบไม่สม่ำเสมอ (swirl sign = เลือดกำลังออก) + scalp swelling ด้านเดียวกัน + <b>right lateral ventricle ถูกกด</b> + <b>midline shift ไปทางซ้าย</b> (mass effect) · เข้ากับ GCS 13 → 7 (lucid interval) และ motor แย่ด้านซ้าย (ตรงข้ามรอยโรค) · การรักษา: EDH &gt;30 mL (ไม่ว่า GCS เท่าใด) หรือ GCS &lt;9 + anisocoria → <b>emergency craniotomy and evacuation</b> (BTF Surgical Management of TBI)",
+   exp:"EDH = biconvex/lentiform ไม่ข้าม suture (มักจาก middle meningeal artery + กะโหลกแตก) · SDH = crescent ขอบด้านในเว้า ข้าม suture ได้ลามตามผิวสมองทั้งซีก (bridging veins) — ภาพนี้ขอบด้านในนูนและสิ้นสุดชัดจึงเป็น EDH",
+   rubric:"ได้ = acute EDH + บอกข้าง/mass effect · ตอบ acute SDH = ได้บางส่วน (เห็น extra-axial hematoma แต่แยกชนิดผิด)",
+   pts:[CR(P("Acute epidural (extradural) hematoma","epidural","extradural","\\bedh\\b")),P("ข้างขวา + midline shift","right","ขวา","midline","shift","mass effect")]})
  ),
- interp:"คำนวณ GCS (best motor) + อ่าน CT acute SDH ที่มี midline shift",
- summary:["GCS: E4 V5 M6 — ใช้ best motor","Confused = V4 · sounds = V2 · withdrawal = M4 · decerebrate = M2","GCS ≤8 → intubate","Acute SDH: crescent hyperdense ข้าม suture; หนา &gt;10 mm/shift &gt;5 mm → craniotomy"]}),
+ interp:"คำนวณ GCS (best motor) + อ่าน CT acute EDH (biconvex) ที่มี midline shift",
+ summary:["GCS: E4 V5 M6 — ใช้ best motor","Confused = V4 · sounds = V2 · withdrawal = M4 · decerebrate = M2","GCS ≤8 → intubate","Acute EDH: biconvex hyperdense ไม่ข้าม suture, lucid interval; &gt;30 mL → craniotomy (SDH = crescent ข้าม suture)"]}),
 
 /* ===== OSCE 19 ===== */
 Co({page:5,orig:"19",topic:"img",sub:"Clinical photograph",title:"Clinical photograph — a swollen red leg after a long flight",
@@ -602,7 +602,7 @@ Co({page:9,orig:"28",topic:"img",sub:"Clinical photograph",title:"Clinical photo
  stem:`A photograph of the area in front of the ear is shown.<br>1. What is the diagnosis?<br>2. What is the curative treatment?`,
  gray:"28 1. Diag 2. Tx ให้หายขาด · ช่องเฉลย: \"Preauricular pit · Sinus tract excision?\"",
  notes:"เฉลยในไฟล์ (หน้า 20): Preauricular pit · Sinus tract excision? (ผู้เฉลยใส่เครื่องหมาย ? ไม่แน่ใจ)",
- opinion:"เห็นด้วยกับเฉลยในไฟล์ ความมั่นใจปานกลาง-สูง — ในรูปบริเวณหน้า helix บวมแดงม่วง เข้ากับ infected preauricular sinus; การรักษาให้หายขาด = complete excision of the sinus tract (supra-auricular/extended approach) หลังการอักเสบสงบ — ใส่ ? ไม่จำเป็น",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): เห็นด้วยกับคีย์ (Preauricular pit · Sinus tract excision) — ไม่ต้องใส่ ? · รูปในไฟล์: บวมแดงหน้า crus ของ helix = <b>infected preauricular sinus</b> · ระยะติดเชื้อ: ATB ± I&amp;D → เมื่อการอักเสบสงบ <b>complete excision of the sinus tract</b> (supra-auricular/extended approach เอา cartilage ที่ติดออกด้วย ลด recurrence) · คงคำตอบเดิม · แหล่งตัดสิน: Cummings Otolaryngology 7e (congenital ear anomalies) + systematic review supra-auricular vs simple sinectomy · ความมั่นใจ: สูง",
  parts:S(
   B("28.1 Diagnosis.",2,{tags:["img"],key:"ไฟล์: Preauricular pit",
    ans:"<b>Preauricular sinus (pit)</b> — ในรูปมีการ<b>อักเสบ/บวม (infected preauricular sinus/abscess)</b> หน้า crus ของ helix · เป็นความผิดปกติแต่กำเนิดจากการเชื่อมกันไม่สมบูรณ์ของ 6 hillocks of His (1st/2nd branchial arch) · มักไม่มีอาการ อาจมีหนอง/กลิ่น · แยกจาก first branchial cleft anomaly (ใกล้ parotid, ทางเปิดใต้ติ่งหู/ในช่องหู)",

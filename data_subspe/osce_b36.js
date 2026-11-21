@@ -60,7 +60,7 @@ Co({page:37,orig:"3",topic:"proc",sub:"Anorectal exam",ex:1,proc:1,title:"PR in 
 Co({page:37,orig:"4",topic:"img",sub:"Colorectal",img:["mo37_1"],title:"Barium enema — read the film",
  stem:`A barium enema film is shown. Read the film.`,
  gray:"4. เรื่องx-ray Ba enema ให้อ่านฟิล์ม",
- notes:"ไม่มีเฉลยในไฟล์ · Claude อ่าน: ส่วน descending/sigmoid colon ตีบยาว ผิวไม่เรียบ",opinion:"ความมั่นใจต่ำ",
+ notes:"ไม่มีเฉลยในไฟล์ · Claude อ่าน: ส่วน descending/sigmoid colon ตีบยาว ผิวไม่เรียบ",opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไม่มีเฉลยในไฟล์ · barium enema ในรูปอ่านยาก — ยืนยันจากแหล่งอ้างอิงไม่ได้ว่าข้อสอบต้องการโรคใด คงคำตอบ segment ตีบขอบไม่เรียบ → DDx colorectal carcinoma (apple-core), diverticular stricture, IBD, ischemic colitis → colonoscopy + biopsy เพื่อยืนยัน (NCCN Colon Cancer 2025) · ความมั่นใจต่ำ",
  parts:S(
   B("4.1 Interpretation.",4,{tags:["img"],ans:"<b>Double-contrast barium enema</b> · มี <b>segment ตีบแคบ ขอบไม่เรียบ</b> ที่ descending/sigmoid colon → ddx <b>colorectal carcinoma (apple-core/annular lesion)</b>, stricture จาก diverticular disease, IBD, ischemic colitis · → <b>colonoscopy with biopsy</b>",rubric:"1/ประเด็น",pts:[CR(P("Barium enema","barium","enema")),CR(P("Narrowed irregular segment","narrow","stricture","apple","annular","ตีบ")),P("Carcinoma in DDx","carcinoma","cancer"),P("Colonoscopy with biopsy","colonoscop","biopsy")]})
  ),

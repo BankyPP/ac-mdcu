@@ -261,7 +261,7 @@ SA({page:3,orig:"MEQ 7",num:"SA 7",sub:"Mammogram",title:"Short answer — breas
  gray:"7. รูปนม ถาม view + describe lesion",
  flag:NOIMG,imgAlt:"Mammogram view MLO มีก้อนขอบไม่เรียบ",
  notes:"ไม่มีไฟล์เฉลย · ไม่รู้ภาพจริง",
- opinion:"ไฟล์ไม่มีรูป — เฉลยแบบกรอบการอ่าน ความมั่นใจต่ำ",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไม่มีไฟล์เฉลยและไม่มีรูป — ยืนยันจากแหล่งอ้างอิงไม่ได้ว่าภาพจริงเป็นอะไร คงเฉลยแบบกรอบ (MLO เห็น pectoralis, CC; บรรยายตาม ACR BI-RADS Atlas 5th ed.: location, size, shape, margin, density, calcification, associated features → category) · ความมั่นใจต่ำ",
  parts:S(
   B("7.1 View.",1,{tags:["spot"],ans:"<b>MLO</b> (เห็น pectoralis major เป็นสามเหลี่ยมมุมบน) หรือ <b>CC</b> (เห็นเต้านมจากบนลงล่าง, หัวนมอยู่กึ่งกลาง)",rubric:"ได้",pts:[CR(P("MLO or CC","mlo","cc","oblique","craniocaudal"))]}),
   B("7.2 Describe.",3,{tags:["spot"],ans:"บรรยาย: ตำแหน่ง (quadrant/นาฬิกา), ขนาด, <b>shape</b>, <b>margin</b> (circumscribed vs spiculated), density, <b>calcification</b>, skin/nipple retraction, axillary node → BI-RADS",rubric:"ได้",pts:[P("Location, size","location","size","quadrant"),CR(P("Margin, shape","margin","spicul","circumscrib","shape")),P("Calcification, skin, nodes","calcif","skin","node")]})

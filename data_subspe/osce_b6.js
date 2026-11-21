@@ -186,7 +186,7 @@ Co({page:237,sec:"OSCE",orig:"9",topic:"path",sub:"Breast cancer staging",title:
  interp:"แปลงผลพยาธิเต้านมเป็น TNM และ anatomic stage",summary:["T: ≤2 cm T1, >2–5 T2, >5 T3, ผิวหนัง/ผนังอก T4","pN: 1–3 = N1, 4–9 = N2, ≥10 = N3","T0–3 N2 M0 = IIIA · T4 = IIIB · N3 = IIIC · M1 = IV"]}),
 
 /* ===== OSCE 10 ===== */
-Co({page:237,sec:"OSCE",orig:"10",topic:"suture",sub:"Suture material",title:"Suture materials — identify and classify three sutures",imgNote:NOIMG,imgAlt:"ไหมเย็บแผล 3 ชนิดในซองบรรจุ",
+Co({page:237,sec:"OSCE",orig:"10",opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีเฉลย มีแต่ชื่อไหมที่ผู้จดไม่แน่ใจ (prolene? silk? catgut?) จึงตอบตามสามชื่อนั้น · การจำแนก: <b>polypropylene</b> synthetic monofilament non-absorbable · <b>silk</b> natural braided non-absorbable · <b>catgut</b> natural absorbable (proteolysis; plain คงแรง ~7–10 วัน, chromic ~2–3 สัปดาห์) — ถูกต้องตามตำรา · คงคำตอบเดิม · แหล่งตัดสิน: Sabiston 21e / Schwartz 11e (suture materials) + Ethicon wound closure manual · ความมั่นใจ: สูง (เนื้อหา) / ต่ำ (ชนิดไหมที่ออกจริง)",topic:"suture",sub:"Suture material",title:"Suture materials — identify and classify three sutures",imgNote:NOIMG,imgAlt:"ไหมเย็บแผล 3 ชนิดในซองบรรจุ",
  stem:`Three suture materials are shown.<br>10.1 Name each suture.<br>10.2 For each, state whether it is absorbable, natural or synthetic, and monofilament or multifilament.<br>10.3 Give one use of each suture.`,
  gray:"ผู้จดคนที่ 1 (จดเป็นข้อ 9): ข้อ9 ไหมๆ 3 อัน : prolene? , silk ? ,catgut? · 9.1 ชื่อไหม · 9.2 absorbable? Natural vs synthetic? Filament? · 9.3 ใช้ทำอะไร",
  notes:"ผู้จดคนแรกจดสถานีนี้เป็นลำดับที่ 9 (เลขเลื่อน) · ผู้จดใส่เครื่องหมาย ? หลังชื่อไหมทั้ง 3 (ไม่แน่ใจว่าเป็น prolene, silk, catgut)",

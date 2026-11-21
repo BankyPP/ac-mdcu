@@ -75,7 +75,7 @@ SA({page:2,orig:"MEQ 3",num:"SA 3",sub:"Head & neck",title:"Spot — a midline m
  gray:"ก้อนที่คางละซักประ ยากชิบ · 1. (ว่าง)",
  flag:"ต้นฉบับจดแค่ \"ก้อนที่คาง\" และว่าซักประวัติยาก ไม่บอกคำถาม — Claude แต่งเคสและคำถามทั้งหมด",
  notes:"ต้นฉบับ: \"ก้อนที่คางละซักประ ยากชิบ\" (ก้อนที่คาง แล้วซักประวัติยากมาก) ช่องคำถามย่อยมีแค่ \"1.\" · ไม่มีรูป ไม่มีเฉลย · อาจเป็นสถานีซักประวัติแต่อยู่ในพาร์ท meq จึงแต่งเป็นคำถามเขียนตอบ",
- opinion:"ไม่มีเฉลยในไฟล์ — ความมั่นใจต่ำว่าโจทย์จริงถามอะไร; เนื้อหาที่แต่งเน้น DDx ก้อนใต้คางกลาง",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีคีย์และไม่บอกคำถาม (จดแค่ ก้อนที่คาง) · เฉลยแต่งเป็น DDx ก้อนกลางใต้คาง: <b>dermoid cyst</b>, thyroglossal duct cyst (ขยับตามการกลืน/แลบลิ้น), submental LN, plunging ranula · dermoid → <b>surgical excision</b> (เลือกทางเข้าตามตำแหน่งเทียบ mylohyoid) — ถูกต้องตามตำรา · คงคำตอบเดิม · แหล่งตัดสิน: Cummings Otolaryngology 7e / Sabiston 21e (neck masses) · ความมั่นใจ: สูง (เนื้อหา) / ต่ำ (โจทย์จริงถามอะไร)",
  parts:S(
   B("3.1 Three differential diagnoses.",3,{tags:["spot"],
    ans:"ก้อนกลางใต้คาง (submental): <b>dermoid cyst</b> · <b>thyroglossal duct cyst</b> (สูง ใกล้ hyoid) · <b>submental lymphadenopathy</b> (reactive, TB, lymphoma, metastasis จากริมฝีปาก/พื้นปาก) · plunging ranula · lipoma · sebaceous/epidermoid cyst",
@@ -211,7 +211,7 @@ Co({page:4,orig:"16",topic:"path",sub:"Order writing",title:"Orders — corrosiv
  gray:"เป็ดโปร กินมา 2 ชม. (หรือ 30 นาที วะอี) 30 ปะ · 1.",
  flag:"รายละเอียดอาการและสัญญาณชีพ Claude แต่ง · ผู้จดไม่แน่ใจเวลา (2 ชม. หรือ 30 นาที)",
  notes:"ต้นฉบับ: \"เป็ดโปร กินมา 2 ชม. (หรือ 30 นาที วะอี) 30 ปะ\" (เป็ดโปร = น้ำยาล้างห้องน้ำ HCl) ผู้จดไม่แน่ใจว่ากินมากี่นาที · ไม่มีเฉลย · ข้อสอบ OSCE 78C มีสถานีเดียวกัน (vixol) ซึ่งไฟล์เฉลย 78C ให้แนวคำตอบเป็น order",
- opinion:"ไม่มีเฉลยในไฟล์ — ใช้แนวเดียวกับเฉลยของ OSCE 78C สถานี vixol ความมั่นใจสูง",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีคีย์ (กินน้ำยาล้างห้องน้ำ HCl) · เฉลยใช้แนวเดียวกับ OSCE 78C สถานี vixol: NPO, <b>ห้ามทำให้อาเจียน/ห้าม blind NG/ห้าม neutralize หรือ charcoal</b>, ดู airway, IV fluid, PPI, CXR + acute abdomen series หา perforation, <b>EGD ภายใน 12–24 ชม.</b> (Zargar grading) และ CT เมื่อสงสัย transmural necrosis/perforation → surgery · ถูกต้องตามแนวทาง · คงคำตอบเดิม · แหล่งตัดสิน: WSES–CoCaSS guidelines for caustic ingestion 2015 + ESGE Guideline on ingested foreign bodies and caustic ingestion · ความมั่นใจ: สูง",
  parts:S(
   B("16.1 Initial orders.",8,{tags:["path"],
    ans:"<b>Order for one day</b>: <b>NPO</b> · <b>ห้ามทำให้อาเจียน ห้ามใส่ NG tube แบบ blind ห้ามให้สารทำให้เป็นกลาง/activated charcoal</b> · IV fluid (เช่น Ringer's lactate/NSS) · <b>Monitor V/S, airway</b> (ถ้ามี stridor/hoarseness/drooling → แจ้งแพทย์/เตรียม intubation) · PPI IV (omeprazole), analgesic · Lab: CBC, electrolytes, BUN/Cr, ABG/lactate, G/M · Imaging: <b>CXR upright + acute abdomen series</b> หา free air (perforation) · <b>Plan EGD ภายใน 12–24 ชม.</b> เพื่อ grading (Zargar) · หากมี peritonitis/free air/unstable → CT + consult surgery (emergency laparotomy) · Retain Foley ถ้าจำเป็นติดตาม urine output",
@@ -228,7 +228,7 @@ Co({page:4,orig:"17",topic:"inst",sub:"Surgical instrument",title:"Instruments �
  gray:"อุปกรณ์ 5 อย่าง (chest tube, babcock, army navy retractor, trocarปะลืม, curved mayo scissor(มีหรอ), prolene mesh)",
  flag:"ผู้จดไม่แน่ใจ trocar และ curved Mayo scissor — Claude เลือก 5 ชิ้นจากรายการ",
  notes:"ต้นฉบับจดรายการอุปกรณ์ 6 ชื่อโดยไม่แน่ใจ 2 ชื่อ (\"trocar ปะ ลืม\", \"curved mayo scissor (มีหรอ)\") แต่บอกว่ามี 5 อย่าง · Stem ในสถานีนี้บอกชื่ออุปกรณ์เพื่อให้เห็นว่ามีอะไร (ข้อสอบจริงให้ของจริงไม่มีชื่อ) · ไม่มีรูป ไม่มีเฉลย",
- opinion:"ไม่มีเฉลยในไฟล์ — ความมั่นใจสูงในชื่อและการใช้งาน",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีคีย์ · ผู้จดจำอุปกรณ์ได้ 6 ชื่อ (ไม่แน่ใจ trocar, curved Mayo) จึงเลือก 5 ชิ้น · ชื่อและการใช้งาน: chest tube, <b>Babcock</b> (จับเนื้อเยื่อท่อ/บอบบาง atraumatic), <b>Army–Navy retractor</b>, <b>curved Mayo scissors</b> (ตัดเนื้อเยื่อหนา), <b>polypropylene mesh</b> (hernioplasty) — ถูกต้อง · คงคำตอบเดิม · แหล่งตัดสิน: Sabiston 21e / surgical instrument references · ความมั่นใจ: สูง (เนื้อหา) / ปานกลาง (ชุดเครื่องมือจริง)",
  imgAlt:"ของจริง 5 ชิ้นบนโต๊ะ",
  parts:S(
   B("17.1 Name and use of each item.",10,{tags:["inst"],

@@ -262,7 +262,9 @@ function mqList(rk){const v=mqS().v,L=mqL(),setOk=q=>v.set==="all"||v.set.split(
 function mqHomeHTML(type){type=type||"MEQ";const P=P_(),p=ph(),L=mqL(ward,type),W=W_(),done=L.filter(q=>mqCaseDone(q)),scs=done.map(mqScoreC).filter(s=>s&&s.all);
   const avg=scs.length?Math.round(scs.reduce((a,s)=>a+s.got/s.tot,0)/scs.length*100):null,nC=L.filter(q=>!q.sa).length,nS=L.length-nC,sl=mqStaffL().length;
   let h=type==="OSCE"?osHomeTop(L):"";
-  if(!L.length)h+=`<div class="card"><h3>ยังไม่มีข้อสอบ ${type} ในคลัง</h3><span class="rd" style="margin:0">ส่งไฟล์ข้อสอบเก่า ${type} (PDF/รูป/เอกสาร) ให้ Claude แล้วให้เพิ่มเข้าเว็บ ปุ่ม round ด้านล่างจะใช้ได้เมื่อมีข้อสอบ (Round I/O, Teaching และ Long case ใช้ได้เลย)</span></div>`;
+  const hyGo=!L.length&&((W&&W.cfg&&W.cfg.hyGo)||{})[type];   /* MEQ ที่สอบรวมกับ OSCE (Subspe Sx, 21 พ.ย. 2026) → ชี้ไปแท็บ OSCE */
+  if(hyGo)h+=`<div class="card"><h3>${type} สอบรวมกับ ${hyGo}</h3><span class="rd" style="margin:0">ข้อสอบเก่าพาร์ท ${type} ของวอร์ดนี้อยู่ในแท็บ ${hyGo} (พาร์ท Short Answers) — ฝึกและดูสรุป High-yield ที่แท็บ ${hyGo}</span><div class="tools" style="margin-top:8px"><button class="tool" type="button" data-type="${hyGo}">ไปแท็บ ${hyGo} →</button><button class="tool" data-go="mqhy">📘 สรุป High-yield ${type}</button></div></div>`;
+  else if(!L.length)h+=`<div class="card"><h3>ยังไม่มีข้อสอบ ${type} ในคลัง</h3><span class="rd" style="margin:0">ส่งไฟล์ข้อสอบเก่า ${type} (PDF/รูป/เอกสาร) ให้ Claude แล้วให้เพิ่มเข้าเว็บ ปุ่ม round ด้านล่างจะใช้ได้เมื่อมีข้อสอบ (Round I/O, Teaching และ Long case ใช้ได้เลย)</span></div>`;
   h+=`<p class="statline">คลังมี <b>${L.length}</b> ข้อ${type==="OSCE"&&L.length?` (ไม่มีอาจารย์ ${L.filter(q=>!q.ex).length} · มีอาจารย์ ${L.filter(q=>q.ex).length})`:""} · ข้อสอบเก่า <b>${L.length}</b> ข้อ${type==="MEQ"&&L.length?` (case ${nC} · short answer ${nS})`:""} · Phase ${p} ทำแล้ว <b>${done.length}</b> ข้อ · คะแนนเฉลี่ย <b>${avg==null?"–":avg+"%"}</b></p>`;
   const v=mqS().v,cq=v.u&&L.find(q=>q.uid===v.u);
   if(cq&&!mqCaseDone(cq)&&mqAnyDone(cq)&&!rsHidden(P,"mq"+type,v.vt))h+=rsBox("mq"+type,`<button class="resume" id="mqResume"><span>ทำต่อ: <b>${type} ข้อ ${esc(mqNum(cq))}</b><span class="rd">${esc(cq.set)} · ${esc(mqTitle(cq))}</span></span><span class="go">→</span></button>`);
@@ -1444,7 +1446,13 @@ function hsStatsBind(type,OPEN,keep){const SO=OPEN._st;if(!SO)return;const re=()
     $("stRoAll").onclick=()=>{document.querySelectorAll("th [data-sty]").forEach(b=>{SO.y[b.dataset.sty]=true;});re();};
     $("stRoNone").onclick=()=>{SO.y={};re();};}}
 function rHySum(type){
-  const W=W_(),P=P_(),ALL=hsItems(type);
+  const W=W_(),P=P_();
+  /* วอร์ดที่ MEQ สอบรวมกับ OSCE (config ward.hyGo={MEQ:"OSCE"}, ผู้ใช้สั่ง 21 พ.ย. 2026 Subspe Sx): สรุป MEQ = ป้ายให้ไปดูสรุป OSCE */
+  const GO=type==="MEQ"&&W.cfg&&W.cfg.hyGo&&W.cfg.hyGo.MEQ;
+  if(GO){$("main").innerHTML=`<div class="mqv hysum"><div class="whead"><h1 class="h2">สรุป High-yield · MEQ</h1><a href="#/${esc(ward)}">กลับหน้าวอร์ด</a></div>
+    <div class="empty">MEQ ของวอร์ดนี้<b>สอบรวมกับ OSCE</b> (วันเวลาเดียวกัน) — ข้อสอบเก่าพาร์ท MEQ อยู่ในแท็บ OSCE (พาร์ท Short Answers) จึงสรุปรวมไว้ใน <b>สรุป High-yield OSCE</b><br><br><button class="tool" type="button" id="hsGoOs">📘 ไปดูสรุป High-yield OSCE</button></div></div>`;
+    $("hsGoOs").onclick=()=>{P.type=GO;save();go(ward+"/mqhy");};return;}
+  const ALL=hsItems(type);
   P.hyOpen=P.hyOpen||{};const OPEN=P.hyOpen[type]=P.hyOpen[type]||{};
   const STY=type==="MEQ"&&ALL.some(o=>o.sty==="sa")&&ALL.some(o=>o.sty==="case"),sty=STY?(OPEN._sty==="sa"?"sa":"case"):"";
   const its=STY?ALL.filter(o=>o.sty===sty):ALL,byKey={};its.forEach(o=>{byKey[o.key]=o;});
@@ -2690,7 +2698,7 @@ function route(){
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
   if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","spc","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin","io","tch","taker","case","osl","osx","osr","osh","osq","osspc"].includes(v))v="home";
-  if((v==="mqr"||v==="mqhy")&&!mqL().length&&!mqXAny())v="home";if(v==="mq"&&!mqL().length&&!mqFindU(mqS().v.u))v="home";
+  if((v==="mqr"||v==="mqhy")&&!mqL().length&&!mqXAny()&&!(v==="mqhy"&&(((W_()||{}).cfg||{}).hyGo||{})[mqKN()]))v="home";if(v==="mq"&&!mqL().length&&!mqFindU(mqS().v.u))v="home";
   if(v==="osx"&&!osRunCur())v=osLastRes()?"osr":"osl";if(v==="osr"&&!osLastRes())v="osl";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";

@@ -147,7 +147,7 @@ Co({page:4,orig:"11",topic:"pe",sub:"DRE/Prostate",title:"Prostate model — des
  gray:"11. (มีหุ่นตรวจ prostate gland จำลอง ถุงมือ เจล วางอยู่บนโต๊ะ ไม่มีอาจารย์คุม) 11.1 บรรยายความผิดปกติ 11.2 วินิจฉัย",
  flag:"ไฟล์ไม่ได้บอกลักษณะของหุ่น — เฉลยแบบกรอบการบรรยาย (หุ่นในข้อสอบปีอื่น 74D/75D เป็นต่อมแข็งขรุขระ = CA prostate)",
  notes:"ไม่มีไฟล์เฉลย",
- opinion:"ไม่มีเฉลยและไม่รู้ลักษณะหุ่น — ความมั่นใจต่ำเรื่องการวินิจฉัย",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไม่มีไฟล์เฉลยและไม่ทราบลักษณะหุ่น — ยืนยันจากแหล่งอ้างอิงไม่ได้ว่าหุ่นเป็นโรคใด คงเฉลยแบบกรอบการบรรยาย (hard nodular + median sulcus หาย = CA prostate; smooth rubbery enlarged = BPH; boggy tender = prostatitis) ตาม Campbell-Walsh-Wein Urology 13e · ความมั่นใจต่ำ (การวินิจฉัย)",
  parts:S(
   B("11.1 Describe.",6,{tags:["pe"],ans:"บรรยายตามลำดับ: sphincter tone · <b>size</b> (ปกติ ~2.5–3 cm, เทียบความกว้างนิ้ว) · <b>consistency</b> (rubbery = BPH, hard = CA, boggy/tender = prostatitis) · <b>surface</b> (smooth/nodular) · <b>median sulcus</b> (มี/หาย) · symmetry · mucosal mobility · tenderness",rubric:"1/ประเด็น",pts:[P("Size","size","ขนาด"),CR(P("Consistency","consisten","hard","rubbery","แข็ง")),P("Surface / nodules","surface","nodul","smooth","ขรุขระ"),P("Median sulcus","sulcus"),P("Mobility, tenderness","mobil","tender")]}),
   B("11.2 Diagnosis.",2,{tags:["pe"],ans:"ตามที่คลำ: hard nodular, sulcus หาย → <b>carcinoma of the prostate</b> · smooth rubbery enlarged, sulcus ชัด → <b>BPH</b>",rubric:"ได้ = สอดคล้องกับที่บรรยาย",pts:[CR(P("Prostate cancer or BPH consistent with findings","cancer","carcinoma","bph","benign"))]})
@@ -262,7 +262,7 @@ SA({page:7,orig:"SEQ 8",num:"SA 8",sub:"Pediatric surgery",title:"Short answer �
  stem:`A photograph of an infant's penis is shown.<br>1. What is the diagnosis?<br>2. What treatment advice would you give?`,
  gray:"8. 8.1 วินิจฉัย 8.2 คำแนะนำในการรักษา (รูปอวัยวะเพศเด็ก)",
  notes:"ไม่มีไฟล์เฉลย · รูปเล็กไม่ชัด เห็นองคชาตเด็กและปากกาชี้ด้านใต้",
- opinion:"ไม่มีเฉลย — Claude อ่านภาพไม่ชัด ตอบ hypospadias ความมั่นใจต่ำ",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไม่มีไฟล์เฉลย · รูปเล็กไม่ชัด เห็นปากกาชี้ด้านใต้องคชาตและ prepuce ลักษณะ hooded → คง hypospadias · คำแนะนำตรงกับ EAU/ESPU Paediatric Urology Guidelines 2025 (ห้ามขลิบเพราะใช้ prepuce ซ่อม, ผ่าตัดราว 6–18 เดือน, ถ้ามี undescended testis/ambiguous genitalia ร่วม → แยก DSD) · ความมั่นใจต่ำ–ปานกลาง (รูปไม่ชัด)",
  parts:S(
   B("8.1 Diagnosis.",2,{tags:["spot"],ans:"<b>Hypospadias</b> (urethral meatus อยู่ด้าน ventral, hooded prepuce ± chordee)",rubric:"ได้",pts:[CR(P("Hypospadias","hypospad"))]}),
   B("8.2 Advice.",3,{tags:["spot"],ans:"<b>ห้ามขลิบ</b> (เก็บ prepuce ไว้ซ่อม) · ผ่าตัดซ่อม (orthoplasty + urethroplasty) อายุ <b>6–18 เดือน</b> · ถ้ามี undescended testis ร่วม → ตรวจ DSD · ไม่ต้อง renal US/ATB ใน isolated distal",rubric:"ได้",pts:[CR(P("No circumcision","circumcis","ขลิบ")),CR(P("Repair at 6–18 months","6","18","month","เดือน")),P("Evaluate DSD if UDT","dsd","testis","karyotype")]})

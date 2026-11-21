@@ -154,7 +154,7 @@ Co({page:1,orig:"9",topic:"inst",sub:"Surgical instrument",title:"Instruments �
  flag:NOIMG+" · ผู้จดไม่แน่ใจว่าอันที่สองเป็น Metzenbaum หรือ Mayo — ใส่ทั้งสองแบบในเฉลย",
  imgAlt:"A: forceps มีเขี้ยวที่ปลาย (ล็อกได้) · B: กรรไกรปลายโค้ง · C: retractor ขนาดเล็กสองปลาย (ปลายหนึ่งเป็นขอสามง่าม อีกปลายเป็นใบแบนงอ) · D: สายระบายพลาสติกมีรูข้าง ต่อกับขวดสุญญากาศ",
  notes:"ผู้จดตอบมา: kocher tooth / metzenbaum or mayo ??? / senn retractor / radivac drain · ไฟล์ Key 76A แปะรูป Senn retractor · ลายมือ Radivac = active + vacuum, collect drainage from อวัยวะ tissue น้อย ๆ ex. mastectomy, thyroidectomy",
- opinion:"ความมั่นใจปานกลาง (ไม่รู้ว่าอันที่สองเป็นกรรไกรชนิดไหน)",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): เห็นด้วยกับคีย์/ลายมือในไฟล์ 76A (Senn retractor · Radivac = closed active suction drain หลัง mastectomy/thyroidectomy) และคำตอบผู้จด (Kocher toothed clamp, Metzenbaum หรือ Mayo) — ชื่อและการใช้ตรงกับตำราเครื่องมือผ่าตัดมาตรฐาน · อันที่สองไม่ทราบชนิดจริง จึงรับทั้ง Metzenbaum และ Mayo · ความมั่นใจปานกลาง",
  parts:S(
   B("9.1 Names and uses.",8,{tags:["inst"],key:KF+"Senn retractor (รูป) · Radivac = active + vacuum drain, collect drainage ex. mastectomy, thyroidectomy",
    ans:"A. <b>Kocher (Ochsner) clamp</b> — มีเขี้ยว ใช้จับเนื้อเยื่อแข็ง/fascia/ทับ bowel ที่จะตัดทิ้ง · B. <b>Metzenbaum scissors</b> — ด้ามยาว ใบบาง ตัด/เลาะเนื้อเยื่ออ่อน (dissection) · (ถ้าเป็น <b>Mayo scissors</b> — ใบหนา ตัด fascia/ไหม) · C. <b>Senn retractor</b> — retractor มือเล็ก สองปลาย ใช้แหวกผิวหนัง/ชั้นตื้นในแผลเล็ก · D. <b>Radivac drain</b> — <b>closed active suction (vacuum) drain</b> ระบายเลือด/น้ำเหลืองใต้ flap เช่น หลัง mastectomy, thyroidectomy, neck dissection",

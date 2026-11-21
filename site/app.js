@@ -303,7 +303,7 @@ function route(){
   if(v==="sess"&&!validSess())v="home";
   if(v==="result"&&!P_().sess)v="home";
   if(!["home","service","svc","grand","sess","result","hy","kw","unit","quality","qedit","adm","spc","advisor","report","legend","exam","lres","lrev","admq","lcase","staff","launch","lhist","teach","mhist","dates","mqr","mq","mqhy","mqin","io","tch","taker","case","osl","osx","osr","osh","osq","osspc"].includes(v))v="home";
-  if((v==="mqr"||v==="mqhy")&&!mqL().length&&!mqXAny())v="home";if(v==="mq"&&!mqL().length&&!mqFindU(mqS().v.u))v="home";
+  if((v==="mqr"||v==="mqhy")&&!mqL().length&&!mqXAny()&&!(v==="mqhy"&&(((W_()||{}).cfg||{}).hyGo||{})[mqKN()]))v="home";if(v==="mq"&&!mqL().length&&!mqFindU(mqS().v.u))v="home";
   if(v==="osx"&&!osRunCur())v=osLastRes()?"osr":"osl";if(v==="osr"&&!osLastRes())v="osl";
   if(v==="exam"&&!P_().leg)v="legend";
   if((v==="lres"||v==="lrev")&&!(bank[st.legSel]&&st.legSel.split("|")[1]===ward))v="legend";

@@ -62,7 +62,7 @@ SA({page:3,orig:"MEQ 3",num:"SA 3",sub:"Pediatric surgery",title:"Spot — abdom
  gray:"(รูป AXR เด็ก) · 1. Dx 2. Initial management แบบละเอียด 3. Definite treatment",
  flag:"ต้นฉบับมีแค่รูปและคำถาม ไม่มีประวัติ — Claude แต่งประวัติเป็น functional constipation with fecal impaction ตามรูป (อุจจาระเต็มลำไส้ใหญ่)",
  notes:"รูป AXR ในไฟล์: เด็ก มีอุจจาระก้อนเต็มลำไส้ใหญ่ทั่วท้อง ไม่เห็นลำไส้เล็กขยายหรือ air-fluid level ชัด · ไม่มีประวัติในไฟล์ ไม่มีเฉลย",
- opinion:"ไม่มีเฉลยในไฟล์ — ความมั่นใจต่ำว่าโจทย์จริงคือโรคใด: จากรูปเข้าได้กับ fecal impaction จาก functional constipation; ถ้าประวัติในข้อสอบจริงเป็นท้องผูกตั้งแต่แรกเกิด/ถ่ายขี้เทาช้า ต้องตอบ Hirschsprung disease (definitive = pull-through)",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีคีย์และไม่มีประวัติ · รูป AXR ในไฟล์: อุจจาระเต็มลำไส้ใหญ่ ไม่มี SB dilatation ชัด → <b>functional constipation with fecal impaction</b> · disimpaction: <b>PEG 1–1.5 g/kg/วัน 3–6 วัน</b> หรือ enema · maintenance PEG 0.4–0.8 g/kg/วัน ≥2 เดือน + toilet training · ถ้าประวัติจริงเป็นท้องผูกตั้งแต่แรกเกิด/ขี้เทาช้า &gt;48 ชม. → ต้องตอบ <b>Hirschsprung disease</b> (rectal suction biopsy → pull-through) · คงคำตอบเดิม · แหล่งตัดสิน: ESPGHAN/NASPGHAN Functional Constipation Guideline 2014 + Holcomb and Ashcraft Pediatric Surgery 7e · ความมั่นใจ: ปานกลาง (โรคตามโจทย์จริง ต่ำ-ปานกลาง)",
  parts:S(
   B("3.1 Diagnosis.",2,{tags:["spot"],ans:"<b>Functional constipation with fecal impaction</b> (overflow incontinence/encopresis) · DDx: Hirschsprung disease (ถ้าท้องผูกตั้งแต่แรกเกิด, ขี้เทาช้า &gt;48 ชม., rectum ว่างบน DRE), hypothyroidism, spinal dysraphism",exp:"Functional constipation (Rome IV) พบ &gt;90% ของท้องผูกในเด็ก",rubric:"ได้ = fecal impaction/functional constipation (± DDx Hirschsprung)",
    pts:[CR(P("Fecal impaction / functional constipation","impaction","constipation","ท้องผูก","fecal load")),P("Mentions Hirschsprung as DDx","hirschsprung")]}),
@@ -153,7 +153,7 @@ SA({page:3,orig:"MEQ 8",num:"SA 8",sub:"Imaging film",title:"Spot — an upright
  gray:"ให้รูป film abdomen (upright) เป็นลักษณะ bowel obstruction แต่ไม่ชัวว่าเป็น large/ small bowel obstruction · 1. View ไหน 2. บรรยาย finding 3. Dx",
  flag:NOIMG+" · ผู้จดไม่แน่ใจว่า SBO หรือ LBO — Claude บรรยายภาพเป็น small bowel obstruction",imgAlt:"ฟิล์มท้องท่ายืน ลำไส้เล็กขยายหลายห่วงตรงกลาง มี air-fluid level หลายระดับ",
  notes:"ต้นฉบับ: \"ให้รูป film abdomen (upright) เป็นลักษณะ bowel obstruction แต่ไม่ชัวว่าเป็น large/ small bowel obstruction\" · ไม่มีรูป ไม่มีเฉลย",
- opinion:"ไม่มีเฉลยในไฟล์ — ความมั่นใจต่ำว่าภาพจริงเป็น SBO หรือ LBO; คำตอบอิงคำบรรยายที่เราแต่ง และใน exp อธิบายวิธีแยก",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีคีย์ (ผู้จดไม่แน่ใจ SBO หรือ LBO) · เฉลย: <b>upright abdominal film</b>, บรรยายแบบ <b>small bowel obstruction</b> (SB &gt;3 cm กลางท้อง, valvulae conniventes, step-ladder air-fluid levels, colon มีลมน้อย) และใน exp อธิบายการแยก LBO (haustra, ขอบรอบนอก, &gt;6 cm/cecum &gt;9 cm) — ถูกต้องตามตำรา · คงคำตอบเดิม · แหล่งตัดสิน: Sabiston 21e (bowel obstruction) + WSES ASBO guidelines 2017 update · ความมั่นใจ: สูง (เนื้อหา) / ต่ำ (ภาพจริงเป็น SBO หรือ LBO)",
  parts:S(
   B("8.1 Which view?",1,{tags:["spot"],ans:"<b>Upright (erect) plain abdominal radiograph</b> (ส่วนหนึ่งของ acute abdomen series ร่วมกับ supine abdomen + upright CXR)",exp:"ท่ายืนเห็น air-fluid level; ท่านอนหงายเห็นการกระจายของแก๊สและขนาดลำไส้ได้ดีกว่า",rubric:"ได้ = upright abdomen",pts:[CR(P("Upright/erect abdomen","upright","erect","ท่ายืน"))]}),
   B("8.2 Describe the findings.",3,{tags:["spot"],ans:"ลำไส้เล็กขยาย (&gt;3 cm) หลายห่วง อยู่ตรงกลางท้อง · <b>valvulae conniventes</b> พาดเต็มความกว้าง (stack of coins) · <b>multiple air–fluid levels แบบ step-ladder</b> · แก๊สใน colon/rectum น้อยหรือไม่มี · ไม่มี free air",exp:"LBO: ลำไส้ขยายรอบนอก (peripheral) &gt;6 cm (cecum &gt;9 cm), haustra ไม่เต็มความกว้าง, มีอุจจาระ",rubric:"ได้ = dilated small bowel + valvulae + air-fluid levels + no colonic gas",
@@ -342,7 +342,7 @@ Co({page:4,orig:"21",topic:"inst",sub:"Surgical instrument",title:"Instruments �
  gray:"ผู้ป่วยเจ็บชายโครงขวา ถาม Diagnosis และถามอุปกรณ์ที่จะใช้ ถามอักษร ชื่ออุปกรณ์ ชื่อหัตถการ (มีอุปกรณ์วางอยู่ประมาณ 4-5 ชิ้น) · 1.",
  flag:"ประวัติและชุดเครื่องมือ Claude แต่ง (ไฟล์ไม่ได้บอกว่ามีเครื่องมืออะไร)",
  notes:"ต้นฉบับ: \"ผู้ป่วยเจ็บชายโครงขวา ถาม Diagnosis และถามอุปกรณ์ที่จะใช้ ถามอักษร ชื่ออุปกรณ์ ชื่อหัตถการ (มีอุปกรณ์วางอยู่ประมาณ 4-5 ชิ้น)\" · ไม่มีรูป ไม่มีเฉลย · Stem ในสถานีนี้บอกชื่อเครื่องมือให้เห็นว่ามีอะไร (ข้อสอบจริงให้ของจริงไม่มีชื่อ)",
- opinion:"ไม่มีเฉลยในไฟล์ — ความมั่นใจต่ำว่าเครื่องมือจริงในข้อสอบคืออะไร; เราแต่งเป็นชุด laparoscopic cholecystectomy",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีคีย์ (ปวดชายโครงขวา + เครื่องมือ 4–5 ชิ้น) · เฉลยแต่งเป็น <b>acute calculous cholecystitis → laparoscopic cholecystectomy</b> (early ภายใน 72 ชม.–7 วัน ใน TG18 grade I–II) และชุดเครื่องมือ trocar, laparoscope, grasper, clip applier, L-hook — ถูกต้องตามแนวทาง · คงคำตอบเดิม · แหล่งตัดสิน: Tokyo Guidelines 2018 (TG18) + Sabiston 21e · ความมั่นใจ: สูง (เนื้อหา) / ต่ำ (เครื่องมือที่ออกจริง)",
  imgAlt:"เครื่องมือ 5 ชิ้นวางบนโต๊ะ ติดป้าย A–E",
  parts:S(
   B("21.1 Diagnosis.",1,{tags:["inst"],ans:"<b>Acute calculous cholecystitis</b>",exp:"Tokyo Guidelines 2018: local inflammation (Murphy, RUQ mass/pain) + systemic (fever, CRP, WBC) + imaging",rubric:"ได้ = acute cholecystitis",pts:[CR(P("Acute cholecystitis","cholecystitis"))]}),
@@ -439,7 +439,7 @@ Co({page:5,orig:"27",topic:"inst",sub:"Surgical instrument",title:"Instruments �
  stem:`Four items are provided: curved Mayo scissors, a colostomy bag, a Richardson retractor and a polypropylene (Prolene) mesh.<br>1. Name each item and state what it is used for.`,
  gray:"ให้อุปกรณ์มา 4 อย่าง ถามว่าคืออะไร ใช้ทำอะไร 1. Curved major scissor 2. Colostomy bag ? 3. Richardson retractor 4. Prolene mesh",
  notes:"ต้นฉบับจด \"Curved major scissor\" (= curved Mayo scissors) และ \"Colostomy bag ?\" (ผู้จดไม่แน่ใจ) · ไม่มีรูป ไม่มีเฉลย · Stem บอกชื่ออุปกรณ์ตามที่ผู้จดจำ",
- opinion:"ไม่มีเฉลยในไฟล์ — ความมั่นใจสูง",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีคีย์ (ผู้จดจำชื่อ curved major scissor = curved Mayo, colostomy bag ?, Richardson retractor, Prolene mesh) · ชื่อและการใช้งาน: curved Mayo ตัดเนื้อเยื่อหนา · colostomy bag (ostomy pouch) · <b>Richardson retractor</b> แหวกผนังหน้าท้อง/แผลลึก · polypropylene mesh เสริมผนังหน้าท้องใน hernia repair — ถูกต้อง · คงคำตอบเดิม · แหล่งตัดสิน: Sabiston 21e / surgical instrument references · ความมั่นใจ: สูง",
  imgAlt:"อุปกรณ์ 4 ชิ้นบนโต๊ะ",
  parts:S(
   B("27.1 Name and use.",8,{tags:["inst"],ans:"<b>Curved Mayo scissors</b> — ตัดเนื้อเยื่อหนา (fascia, กล้ามเนื้อ) · <b>Colostomy bag (ostomy pouch)</b> — รองรับอุจจาระจาก colostomy (ถุงปิดปลาย) · <b>Richardson retractor</b> — retractor มือถือใบใหญ่ แหวกผนังหน้าท้อง/แผลลึก (laparotomy) · <b>Prolene (polypropylene) mesh</b> — เสริมผนังหน้าท้องใน hernia repair (Lichtenstein, ventral)",exp:"Retractors อื่น: Army–Navy (ตื้น), Deaver (ลึก โค้ง), Balfour/Gosset (self-retaining abdominal), Weitlaner (self-retaining เล็ก)",rubric:"1 คะแนนต่อชื่อ + 1 ต่อการใช้",

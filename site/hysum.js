@@ -95,7 +95,13 @@ function hsStatsBind(type,OPEN,keep){const SO=OPEN._st;if(!SO)return;const re=()
     $("stRoAll").onclick=()=>{document.querySelectorAll("th [data-sty]").forEach(b=>{SO.y[b.dataset.sty]=true;});re();};
     $("stRoNone").onclick=()=>{SO.y={};re();};}}
 function rHySum(type){
-  const W=W_(),P=P_(),ALL=hsItems(type);
+  const W=W_(),P=P_();
+  /* วอร์ดที่ MEQ สอบรวมกับ OSCE (config ward.hyGo={MEQ:"OSCE"}, ผู้ใช้สั่ง 21 พ.ย. 2026 Subspe Sx): สรุป MEQ = ป้ายให้ไปดูสรุป OSCE */
+  const GO=type==="MEQ"&&W.cfg&&W.cfg.hyGo&&W.cfg.hyGo.MEQ;
+  if(GO){$("main").innerHTML=`<div class="mqv hysum"><div class="whead"><h1 class="h2">สรุป High-yield · MEQ</h1><a href="#/${esc(ward)}">กลับหน้าวอร์ด</a></div>
+    <div class="empty">MEQ ของวอร์ดนี้<b>สอบรวมกับ OSCE</b> (วันเวลาเดียวกัน) — ข้อสอบเก่าพาร์ท MEQ อยู่ในแท็บ OSCE (พาร์ท Short Answers) จึงสรุปรวมไว้ใน <b>สรุป High-yield OSCE</b><br><br><button class="tool" type="button" id="hsGoOs">📘 ไปดูสรุป High-yield OSCE</button></div></div>`;
+    $("hsGoOs").onclick=()=>{P.type=GO;save();go(ward+"/mqhy");};return;}
+  const ALL=hsItems(type);
   P.hyOpen=P.hyOpen||{};const OPEN=P.hyOpen[type]=P.hyOpen[type]||{};
   const STY=type==="MEQ"&&ALL.some(o=>o.sty==="sa")&&ALL.some(o=>o.sty==="case"),sty=STY?(OPEN._sty==="sa"?"sa":"case"):"";
   const its=STY?ALL.filter(o=>o.sty===sty):ALL,byKey={};its.forEach(o=>{byKey[o.key]=o;});

@@ -289,11 +289,11 @@ SA({page:3,orig:"MEQ 8",num:"SA 8",sub:"Vascular/Ulcer",title:"Short answer — 
  stem:`A photograph shows dry gangrene of the right little toe and the medial side of the right foot, with a table of arterial Doppler flow in the leg.<br>1. Describe the lesion.<br>2. What is the diagnosis and the likely level of arterial disease?`,
  gray:"ภาพ gangrene ที่นิ้วก้อยกับด้านในเท้าข้างขวา แล้วให้ตาราง blood flow ของเส้นเลือดที่เท้ามา 1. จงบรรยาย 2. Dx และ location (น่าจะหมายถึงเส้นเลือดไหน) 3. -",
  flag:NOIMG+" · ไม่มีตาราง Doppler ในไฟล์",imgAlt:"นิ้วก้อยเท้าขวาและด้านในเท้าดำแห้ง ขอบเขตชัด",
- notes:"ไม่มีเฉลยในไฟล์ Key 75C สำหรับข้อนี้ · ผู้จดจำข้อ 3 ไม่ได้",
- opinion:"ไฟล์ไม่มีเฉลยและไม่มีตาราง — Claude เฉลย ความมั่นใจต่ำเรื่องระดับหลอดเลือด",
+ notes:"ไม่มีเฉลยในไฟล์ Key 75C สำหรับข้อนี้ · ผู้จดจำข้อ 3 ไม่ได้"+" · ตรวจคีย์ 21 พ.ย. 2026: ไม่มีคีย์เดิม — แก้ Rutherford 6 → 5 (focal gangrene)",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ Key 75C ไม่มีเฉลย (กากบาทข้อนี้) และไม่มีตาราง Doppler — คง dry gangrene → CLTI จาก PAD (นิยาม Global Vascular Guidelines 2019, WIfI) · แก้ Rutherford 6 → 5 (focal toe gangrene = minor tissue loss) · ระดับโรคต้องอ่านจากตาราง (จุดที่ waveform เปลี่ยนเป็น monophasic/ไม่มีสัญญาณ) ยืนยันจากแหล่งอ้างอิงไม่ได้ · ความมั่นใจ: การวินิจฉัยปานกลาง, ระดับหลอดเลือดต่ำ",
  parts:S(
   B("8.1 Describe.",2,{tags:["spot"],ans:"<b>Dry gangrene</b>: เนื้อเยื่อดำ แห้ง ขอบเขต (line of demarcation) ชัด ที่นิ้วก้อยและด้านในเท้าขวา",rubric:"ได้",pts:[CR(P("Dry gangrene with demarcation","dry","gangrene","demarcat"))]}),
-  B("8.2 Diagnosis and level.",3,{tags:["spot"],ans:"<b>Chronic limb-threatening ischemia (Rutherford 6)</b> จาก peripheral arterial disease · ระดับโรคอ่านจากตาราง Doppler — จุดที่สัญญาณเปลี่ยนจาก triphasic เป็น monophasic/ไม่มี เช่น <b>femoropopliteal หรือ infrapopliteal (tibial) disease</b> (พบบ่อยในเบาหวาน)",rubric:"ได้ = CLTI + บอกระดับตามตาราง",pts:[CR(P("Critical limb ischemia / PAD","ischemi","pad","peripheral arter","clti")),P("Level from Doppler (femoropopliteal / tibial)","femor","poplit","tibial","infrapop")]})
+  B("8.2 Diagnosis and level.",3,{tags:["spot"],ans:"<b>Chronic limb-threatening ischemia (Rutherford 5 — focal gangrene/minor tissue loss; 6 ถ้าเนื้อตายลามเกินระดับ transmetatarsal)</b> จาก peripheral arterial disease · ระดับโรคอ่านจากตาราง Doppler — จุดที่สัญญาณเปลี่ยนจาก triphasic เป็น monophasic/ไม่มี เช่น <b>femoropopliteal หรือ infrapopliteal (tibial) disease</b> (พบบ่อยในเบาหวาน)",rubric:"ได้ = CLTI + บอกระดับตามตาราง",pts:[CR(P("Critical limb ischemia / PAD","ischemi","pad","peripheral arter","clti")),P("Level from Doppler (femoropopliteal / tibial)","femor","poplit","tibial","infrapop")]})
  ),
  interp:"CLTI with dry gangrene",
  summary:["Rutherford 5–6 = tissue loss","ABI, toe pressure, duplex","Revascularization then minor amputation"]}),

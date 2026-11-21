@@ -451,7 +451,7 @@ Co({page:268,sec:"OSCE",orig:"13",topic:"path",sub:"Breast cancer staging",title
  gray:"ข้อสอบใหม่ - ให้ผล patho มา stage CA breast TNM น่าจะ T2N1 นะ M ไม่แน่ใจอ่ะ มันมี microinvasive",
  flag:"⚠ ค่าทั้งหมดในผลพยาธิ (ขนาด 3.2 cm, LN 2/14) Claude แต่งให้ตรงกับคำตอบที่ผู้จดจำได้ (T2N1) · ผู้จดไม่แน่ใจเรื่อง M และพูดถึง microinvasive",
  notes:"ไฟล์จัดเป็น 'ข้อสอบใหม่' · ผู้จดตอบ T2N1 ไม่แน่ใจ M และกล่าวถึง microinvasive",
- opinion:"ผู้จดสับสนเรื่อง microinvasion — microinvasion (≤1 mm, T1mi) มีผลต่อ T เฉพาะเมื่อไม่มี invasive component ขนาดใหญ่ ในรายงานที่มีก้อน invasive 3.2 cm แล้ว T ใช้ขนาดก้อนใหญ่สุด (T2) · M ใช้ cM0 เมื่อไม่มีหลักฐานทางคลินิก/ภาพ",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): เห็นด้วยกับที่ผู้จดจำได้ (T2N1) · ค่าในผลพยาธิ Claude แต่งให้ตรงคำตอบ · microinvasion (≤1 mm = T1mi) ใช้กำหนด T เฉพาะเมื่อไม่มี invasive component ที่ใหญ่กว่า — เมื่อมีก้อน invasive 3.2 cm ใช้ขนาดก้อนใหญ่สุด = <b>pT2</b> · LN บวก 1–3 ต่อม = <b>pN1a</b> · M ใช้ <b>cM0</b> (AJCC 8th ไม่มี MX) → <b>anatomic stage IIB</b> · คงคำตอบเดิม · แหล่งตัดสิน: AJCC Cancer Staging Manual 8th ed. (Breast) · ความมั่นใจ: สูง (หลัก staging) / ต่ำ (ตัวเลขในโจทย์จริง)",
  parts:S(
   B("13.1 TNM classification and anatomic stage.",4,{tags:["path"],key:"ผู้จด: น่าจะ T2N1, M ไม่แน่ใจ (มี microinvasive)",
    ans:"<b>pT2</b> (invasive tumor &gt;2 ถึง ≤5 cm; ใช้ขนาดก้อน invasive ที่ใหญ่สุด — microinvasion ใน DCIS ไม่เปลี่ยน T เมื่อมีก้อน invasive ใหญ่แล้ว) · <b>pN1a</b> (axillary LN บวก 1–3 ต่อม, deposit &gt;2 mm) · <b>cM0</b> (ไม่มีหลักฐานแพร่กระจาย — <b>ไม่ใช้ MX</b> ในระบบ AJCC ปัจจุบัน) → <b>Anatomic stage IIB</b> (T2N1M0) · ต้องมี ER/PR/HER2 เพื่อจัด prognostic stage",

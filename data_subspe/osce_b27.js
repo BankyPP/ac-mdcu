@@ -159,7 +159,7 @@ Co({page:14,orig:"11",topic:"img",sub:"IVP/KUB",title:"Reading an intravenous py
  gray:"11. อ่าน IVP",
  flag:NOIMG,imgAlt:"IVP: hydronephrosis ซ้าย ท่อไตส่วนต้นโป่ง ไม่เห็น contrast ลงถึงส่วนปลาย ร่วมกับเงาทึบในแนวท่อไต",
  notes:"ไม่มีไฟล์เฉลย · ไม่มีรูปและไม่บอกคำวินิจฉัย → ใช้ ureteric stone with hydronephrosis เป็นตัวอย่าง",
- opinion:"ความมั่นใจต่ำ (ไม่เห็นรูป)",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไม่มีไฟล์เฉลยและไม่มีรูป — ยืนยันจากแหล่งอ้างอิงไม่ได้ว่าฟิล์มจริงเป็นโรคใด คงกรอบการอ่าน IVP (scout → nephrogram → pyelocalyceal → ureter → bladder → post-void) + ตัวอย่าง ureteric stone with hydronephrosis; ปัจจุบัน NCCT/CT urography ใช้แทน IVP (EAU Urolithiasis Guidelines 2025) · ความมั่นใจต่ำ",
  parts:S(
   B("11.1 Systematic reading.",5,{tags:["img"],ans:"ระบุชื่อ วันที่ · <b>KUB/scout film</b> ดู radiopaque stone · ฟิล์มหลังฉีด: ดู <b>nephrogram</b> (ทั้งสองข้างเท่ากันไหม, delayed), <b>pyelocalyceal system</b> (blunting/clubbing = hydronephrosis), ureter (ระดับที่อุดตัน, dilatation เหนือจุดนั้น), bladder (filling defect), post-void",rubric:"1/ประเด็น",pts:[CR(P("Scout film first","scout","kub","plain")),P("Nephrogram symmetry or delay","nephrogram","delay"),CR(P("Calyceal blunting, hydronephrosis","blunt","club","hydroneph")),P("Level of obstruction","level","ureter"),P("Bladder filling defect","bladder","filling defect")]}),
   B("11.2 Diagnosis.",2,{tags:["img"],ans:"ตัวอย่าง: <b>Left ureteric stone with hydronephrosis</b> (delayed nephrogram, dilated system down to the stone)",rubric:"ได้",pts:[P("Ureteric stone with obstruction","stone","calcul","obstruct")]})
@@ -270,7 +270,7 @@ SA({page:15,orig:"MEQ 9",num:"SA 9",sub:"Vascular/Ulcer",title:"Short answer —
  stem:`A patient has a red, warm, swollen and tender left arm for 3 days with fever.<br>1. What is the diagnosis?<br>2. Which body system is involved?<br>3. What are the causes?`,
  gray:"MEQ 9. แขนซ้ายบวมแดงมา 3 วัน: diag? เกิดจากระบบอะไร?, เกิดจากอะไรบ้าง?",
  notes:"ไม่มีไฟล์เฉลย · โจทย์กำกวม → ใช้ cellulitis และให้ ddx upper-extremity DVT และ lymphangitis",
- opinion:"ความมั่นใจต่ำ (โจทย์จดไม่ครบ)",
+ opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไม่มีไฟล์เฉลย โจทย์จดไม่ครบ — คง cellulitis (skin and soft tissue infection; เชื้อหลัก β-hemolytic streptococci ± S. aureus) ตาม IDSA SSTI Guideline 2014 และ DDx upper-extremity DVT, lymphangitis, abscess · ความมั่นใจต่ำ",
  parts:S(
   B("9.1 Diagnosis.",2,{tags:["spot"],ans:"<b>Cellulitis</b> ของแขนซ้าย · ddx: <b>upper-extremity DVT</b> (บวมทั้งแขน ไม่ค่อยแดงร้อน, มี central line/PICC), lymphangitis (เส้นแดงตามแนวน้ำเหลือง), abscess",rubric:"ได้",pts:[CR(P("Cellulitis","cellulitis")),P("Ddx DVT or lymphangitis","dvt","thromb","lymphangitis")]}),
   B("9.2 System involved.",2,{tags:["spot"],ans:"<b>Skin and soft tissue infection</b> (ชั้น dermis/subcutaneous) · ถ้าเป็น DVT = venous system · lymphangitis = lymphatic system",rubric:"ได้",pts:[CR(P("Skin and soft tissue","skin","soft tissue","ผิวหนัง","integument"))]}),
