@@ -1,5 +1,5 @@
 /* resource นอก lecture (code R) — Subspecialty Surgery Y4 (Subspe Sx, MDCU) · W.RES=[{code,title,kw,topic,tags,type,url,note,points}]
-   R01 = First Aid for Sx OSCEs (แท็บ OSCE เท่านั้นใน Round I/O) · kw จับเฉพาะโจทย์ที่พูดถึงสถานี/หัตถการ/เครื่องมือ/ไหม OSCE (กติกา R/T 14 พ.ย. 2026) · 22 พ.ย. 2026 */
+   R01 = First Aid for Sx OSCEs (แท็บ OSCE เท่านั้นใน Round I/O) · kw จับเฉพาะโจทย์ที่พูดถึงสถานี/หัตถการ/เครื่องมือ/ไหม OSCE (กติกา R/T 14 พ.ย. 2026) · R02 = OSCE-MEQs Synopsis (แท็บ OSCE เท่านั้น) · R02 = OSCE-MEQs Synopsis (แท็บ OSCE เท่านั้น) · 22 พ.ย. 2026 */
 W.RES=[
 {
 "code": "R01",
@@ -35,6 +35,42 @@ W.RES=[
 "Perianal abscess → I&D ทันที + antibiotics เมื่อมี cellulitis/systemic sign · Lipoma → excision ตามแนว RSTL",
 "Instruments: Metzenbaum (delicate), Mayo (tissue หนา), Babcock (จับอวัยวะไม่บาดเจ็บ, ไส้ติ่ง), Allis (มีฟัน จับ fascia), Crile (ร่องตลอดปาก), Deaver/Richardson (ดึงแผลลึก), Senn/Army–Navy (แผลตื้น), Penrose (passive), JP/Redivac (closed suction), Backhaus (towel clip)",
 "Suture: Silk biologic non-abs multi (ผูก vein, mucosa) · Nylon synthetic non-abs mono (skin) · Prolene non-abs mono (vessel, mesh) · Ethibond/Dacron polyester multi (valve) · Chromic catgut biologic abs (perineum) · Vicryl polyglactin abs multifilament (subcutaneous, bowel) · PDS abs mono (sheath)"
+]
+},
+{
+"code": "R02",
+"title": "OSCE-MEQs Synopsis",
+"kw": "\\bosce\\b|\\bipss\\b|\\bluts\\b|claudication|lodcraft|vertical mattress|simple interrupted|lidocaine|xylocaine|local anesth|poole suction|balfour|kocher|debakey|adson|mosquito|right.angle clamp|tonsil clamp|malleable|sengstaken|\\\\bt-tube|double.?j|dj stent|malecot|fogarty|redivac|penrose|jackson.?pratt|ostomy|colostomy bag|3.?way|mesh|catgut|polydioxanone|\\bpds\\b|vicryl|prolene|monocryl|nylon|ethibond|bi-?rads|mammogra|pyelogra|\\bivp\\b|staghorn|apple.?core|step.?ladder|coffee.?bean|bird.?s?.?beak|achalasia|double bubble|duodenal atresia|\\\\bladd|midgut volvulus|hirschsprung|diaphragmatic hernia|meckel|pertechnetate|gastroschisis|omphalocele|cantrell|beckwith|paronychia|buerger|thromboangiitis|lymphedema|furuncle|carbuncle|paraphimosis|hydrocele|transillumination|anal fissure|hemorrhoid|anorectal malformation|imperforate anus|psarp|vacterl|thyroglossal|cleft (lip|palate)|rule of (10|ten|9|nine)|basal cell|melanoma|preauricular|epidermoid|bed ?sore|pressure (ulcer|injury)|post-?op(erative)? order|pre-?op(erative)? order|urease|clo ?test|parinaud|\\bpicc\\b|reconstructive ladder|ankle.brachial|\\babi\\b|sigmoidoscop|proctoscop|ureteric colic|epidural hematoma|corrosive|caustic",
+"topic": "OSCE",
+"tags": [
+"OSCE"
+],
+"type": "สมุดสรุปลายมือ (GoodNotes) + ข้อสอบเก่า",
+"url": "",
+"note": "200 หน้า · ส่วนสรุป p3–21: หัตถการ (ฉีดยาชา dose, ล้างมือ, ทำแผล, NG, วิธีเย็บ), ไหม 6 ตัว + ตาราง, อุปกรณ์ (tube/drain/stent/SB tube) + เครื่องมือผ่าตัด (ภาพถ่ายชุดจริง), ซัก Hx (claudication, LUTS-IPSS, ปวดท้อง, UGIB, nipple discharge, breast mass + RF), ตรวจร่างกาย (ปวดท้อง/appendicitis/gut obs., PR + prostate, breast SSSS BCMT, myotome, neck mass), film (SBO, Ba enema, KUB stone, mammogram + BI-RADS, IVP ตามเวลา, CXR, GB stone + flowchart นิ่ว CBD/intrahepatic, diverticulosis, volvulus, CA eso, achalasia), รูป → Dx แยกอวัยวะ (penile, perianal, TNM breast + stage, caustic, lipoma, paronychia, Buerger, CVI, PAD, NF, lymphedema, gangrene, furuncle, hernia, paraphimosis, LBO, hydrocele, gastroschisis, omphalocele, fissure, hemorrhoid, ARM, TGDC, cleft, BCC, melanoma, facial n., preauricular sinus, mastitis), imaging (midgut volvulus, free air, ERCP, zygoma, duodenal atresia, Hirschsprung, CDH, Meckel), อื่น ๆ (bedsore, ยาผ่าน BBB, burn + rule of 9, pre/post-op order, EGD, colonoscopy, urease, Parinaud, PICC, ladder, ABI, ICP, EDH, corrosive) · ส่วนข้อสอบ p22–199: AC 69 R1/R3, 68 R2–R4, 67 R1–R4 (มีในคลังแล้ว) · Round I/O R02-0, P1, U1, T1–T2, H1, E1–E2, I1–I3, S1–S7 (แท็บ OSCE เท่านั้น)",
+"points": [
+"ฉีดยาชา: ถามแพ้ยา · 1% lidocaine = 10 mg/mL · ไม่มี adrenaline 4.5–5 mg/kg (≤ 300 mg) · มี adrenaline 7 mg/kg (≤ 500 mg) · aspirate ก่อนฉีด · LAST → 20% lipid emulsion",
+"ไหม: catgut → perineum/peritoneum · PDS → sheath/hollow viscus · Prolene → vessel · silk → ผูก/เย็บ drain · Vicryl → subcutaneous/muscle · nylon → skin · Maxon = monofilament",
+"Drain: Penrose open passive · Redivac/JP closed suction · ICD pleura · 3-way Foley = CBI · DJ stent ไต→bladder · T-tube CBD · Malecot cystostomy/nephrostomy · Fogarty embolectomy/ลากนิ่ว CBD · SB tube = EV/GV bridge (aspiration, perforation, asphyxia)",
+"Instrument: Allis (ฟัน, จับเนื้อที่ตัดทิ้ง/fascia) · Babcock (bowel atraumatic) · Kocher (fascia เหนียว) · Debakey (vessel/bowel) · right angle (vessel ลึก) · Mayo ตรงตัดไหม/โค้ง dense tissue · Metzenbaum delicate · Richardson ตื้น · Deaver ลึก · Poole suction",
+"Hx ทุกข้อ: LODCRAFT + PH, FH, SH + constitutional · ผู้หญิง R/O gyne · claudication vascular (ขึ้นเขาแย่ พักหายเร็ว pulse ↓) vs neurogenic (ปวดหลัง ลงเขาแย่ โน้มตัว/นั่งดีขึ้น)",
+"IPSS 7 ข้อ (incomplete emptying, frequency, intermittency, urgency, weak stream, straining, nocturia) + QoL · incontinence/post-void dribbling ไม่อยู่ใน IPSS",
+"Breast mass RF: menarche < 12, menopause > 55, ลูกคนแรกหลัง 30/ไม่มีลูก, ไม่ให้นม, hormone/ยาคุม, FH, alcohol, RT · nipple discharge: ข้าง, รู, สี, ออกเอง/ต้องบีบ, ยา, hypothyroid/pituitary",
+"PE: แนะนำตัว ขออนุญาต เรียกผู้ช่วย ห่มผ้า · appendicitis: psoas = retrocecal, obturator = pelvic, Rovsing กด LLQ ปวด RLQ · gut obstruction ตรวจ scar, groin hernia, PR · mass = SSSS BCMT",
+"PR: left lateral งอสะโพก 90° · ถุงมือ 2 ชั้น · inspection → sphincter tone → lesion (ห่าง anal verge, mobile/fixed) → prostate (BPH smooth symmetric firm; CA hard irregular nodular fixed) → ดูอุจจาระ",
+"Myotome: C5 elbow flexor (ไฟล์เขียน biceps C6) · C6 wrist ext · C7 elbow ext · C8 finger flexor · T1 finger abductor · L2 hip flexor · L3 knee ext · L4 ankle dorsiflexor · L5 EHL · S1 plantar flexor",
+"SBO film: SB > colon, air–fluid ต่างระดับในลูปเดียว, step-ladder, ไม่มีลมใน rectum · เคยผ่าตัด = adhesion (conservative + water-soluble contrast) · ไม่เคย = incarcerated hernia",
+"Mammogram 2 view CC + MLO · BI-RADS 3 F/U 6 เดือน · 4–5 biopsy (CNB ดีกว่า FNA) · 6 proven → Tx",
+"IVP: scout → 1 min nephrogram → 3 min calyces (cup vs club) → 10 min ureter → 25 min bladder → full bladder → post-void · นิ่วไต > 2 cm PCNL, 1–2 cm SWL/RIRS",
+"นิ่วถุงน้ำดี: LC gold standard · acute cholecystitis early LC (TG18 ภายใน 72 ชม.) · cholangitis → ATB + ERCP drainage → LC · CBD stone ASGE 2019: high risk → ERCP, intermediate → EUS/MRCP",
+"Achalasia: bird’s beak, smooth mucosa · EGD R/O pseudoachalasia · HRM · PD/Heller/POEM · CA eso: apple-core irregular → SCC neoadjuvant CRT + esophagectomy",
+"Breast TNM: T1 ≤ 2, T2 > 2–5, T3 > 5 cm, T4a chest wall, T4b skin/peau d’orange, T4d inflammatory · pN1 1–3, pN2 4–9, pN3 ≥ 10 · IIIB = T4N0–2 → neoadjuvant + MRM + PMRT",
+"Peds: midgut volvulus → Ladd (detorsion ทวนเข็ม, ตัด Ladd band, SB ขวา/colon ซ้าย, appendectomy) · duodenal atresia double bubble, failure of recanalization, trisomy 21 · Hirschsprung → rectal suction biopsy, rectal irrigation, pull-through · CDH ห้าม bag-mask ให้ intubate · Meckel = 99mTc-pertechnetate",
+"Gastroschisis (ขวาสะดือ ไม่มีถุง, jejunoileal atresia) vs omphalocele (มีถุง, anomaly มาก: Cantrell, Beckwith–Wiedemann) · คลุม sterile กันความร้อน/น้ำ, IV fluid, ATB, OG · hydrocele เด็ก observe 1–2 ปี, transillumination + get above",
+"Anorectal: acute fissure conservative · chronic fissure (sentinel pile, papilla) → topical CCB/NTG/botox → LIS · hemorrhoid grade III–IV → hemorrhoidectomy · thrombosed external ≤ 72 ชม. → excision · ARM low → anoplasty, high → colostomy → PSARP → ปิด",
+"Face/skin: TGDC → US + Sistrunk · cleft lip rule of 10, palate 6–12 เดือน · BCC margin 4 mm/Mohs · melanoma margin ตาม Breslow (≤ 1 mm 1 cm, 1–2 mm 1–2 cm, > 2 mm 2 cm) + SLNB > 0.8 mm · facial n.: zygomatic หลับตา, buccal ยิ้ม",
+"Order: clean = cefazolin 2 g ก่อนลงมีด ≤ 60 นาที ไม่ต้องต่อ · appendectomy cefazolin + metronidazole · uncomplicated ไม่ต้องให้ ATB หลังผ่าตัด, complicated ~4 วัน · ASA fasting อาหาร 6–8 ชม., clear fluid 2 ชม.",
+"อื่น ๆ: rule of 9 · superficial vs deep partial burn (2 vs 3–4 สัปดาห์, deep → graft) · ยาผ่าน BBB MOR/PVC/EAT · H. pylori ไทย → bismuth quadruple · ABI ≤ 0.90 PAD · EDH lentiform · Cushing reflex · ureteric colic หาท่าสบายไม่ได้ · corrosive: CT หา transmural necrosis, ห้ามล้างท้อง"
 ]
 }
 ];
