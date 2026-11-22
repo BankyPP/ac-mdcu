@@ -620,11 +620,11 @@ function rHome(){
   h+=`<div class="exdates">${ED.map(x=>{const c=cdOf(x),sc=x.score&&scoreOf(x.score);return `<span class="exd${c.hot?" hot":""}${c.done?" done":""}"><span class="k">สอบ${x.part?" "+esc(x.part):""}</span>${x.label?`<span class="v">${esc(x.label)}</span>`:""}${cdHTML(x)}${sc?`<span class="v">คะแนน ${esc(sc)}</span>`:""}</span>`;}).join("")}<a class="exedit" href="#/${esc(ward)}/dates">${ED.length?"✎ แก้วันสอบ":"+ ใส่วันสอบ"}</a></div>`;
   h+=tkHomeCard();
   h+=`<div class="tabs" role="tablist">${["MCQ","MEQ","OSCE"].map(t=>`<button class="tab" role="tab" aria-selected="${t===type}" data-type="${t}">${t}</button>`).join("")}</div>`;
-  const noEx=(w.noExam||[]).includes(type);
+  const joinEx=((w.hyGo)||{})[type],noEx=(w.noExam||[]).includes(type)||!!joinEx;   /* MEQ ที่สอบรวมกับ OSCE (config hyGo, Subspe Sx) → หน้าเหมือนวอร์ดที่ไม่มีสอบ แต่เขียนว่าสอบรวมกับ OSCE (ผู้ใช้สั่ง 22 พ.ย. 2026) */
   if(!noEx){h+=`<div class="seg" role="group" aria-label="Phase"><button data-ph="1" aria-pressed="${p===1}"><b>Phase 1</b>ช่วงเรียน</button><button data-ph="2" aria-pressed="${p===2}"><b>Phase 2</b>ช่วงใกล้สอบ</button></div>`;
   h+=`<p class="phase-hint">${p===1?"ทำเพื่อเก็บความรู้ไปใช้บนวอร์ด และดูว่าข้อสอบชอบออกแนวไหน เนื้อหาไหนมีหรือไม่มีในสไลด์":"ทวนข้อสอบเก่ารอบสองก่อนสอบ มีหน้าสรุป high-yield, keyword และทวนเฉพาะข้อที่ยังผิด/ไม่มั่นใจ — ความคืบหน้าแยกจาก Phase 1"}</p>`;}
   if(noEx){
-    h+=`<div class="empty" style="padding:44px 10px"><b style="font-family:var(--num);font-size:18px;color:var(--ink)">${esc(w.name)} ไม่มีสอบ ${type}</b><br><span class="hint">วอร์ดนี้สอบเฉพาะ ${["MCQ","MEQ","OSCE"].filter(t=>!(w.noExam||[]).includes(t)).join(" / ")}</span></div>`;
+    h+=joinEx?`<div class="empty" style="padding:44px 10px"><b style="font-family:var(--num);font-size:18px;color:var(--ink)">${esc(w.name)} สอบ ${type} รวมกับ ${esc(joinEx)}</b><br><span class="hint">ข้อสอบเก่าพาร์ท ${type} อยู่ในแท็บ ${esc(joinEx)} (พาร์ท Short Answers)</span></div>`:`<div class="empty" style="padding:44px 10px"><b style="font-family:var(--num);font-size:18px;color:var(--ink)">${esc(w.name)} ไม่มีสอบ ${type}</b><br><span class="hint">วอร์ดนี้สอบเฉพาะ ${["MCQ","MEQ","OSCE"].filter(t=>!(w.noExam||[]).includes(t)).join(" / ")}</span></div>`;
   }else if(type==="MEQ"||type==="OSCE"){h+=mqHomeHTML(type);
   }else if(type!=="MCQ"){
     h+=`<div class="empty" style="padding:40px 10px">ยังไม่มีข้อสอบ ${type} ในวอร์ดนี้<br><span class="hint">ส่งไฟล์ ${type} ให้ Claude แล้วให้เพิ่มเข้าเว็บ</span></div>`+ioCard();
