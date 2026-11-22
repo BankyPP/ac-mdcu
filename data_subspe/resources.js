@@ -1,5 +1,5 @@
 /* resource นอก lecture (code R) — Subspecialty Surgery Y4 (Subspe Sx, MDCU) · W.RES=[{code,title,kw,topic,tags,type,url,note,points}]
-   R01 = First Aid for Sx OSCEs (แท็บ OSCE เท่านั้นใน Round I/O) · kw จับเฉพาะโจทย์ที่พูดถึงสถานี/หัตถการ/เครื่องมือ/ไหม OSCE (กติกา R/T 14 พ.ย. 2026) · R02 = OSCE-MEQs Synopsis (แท็บ OSCE เท่านั้น) · R02 = OSCE-MEQs Synopsis (แท็บ OSCE เท่านั้น) · 22 พ.ย. 2026 */
+   R01 = First Aid for Sx OSCEs (แท็บ OSCE เท่านั้นใน Round I/O) · kw จับเฉพาะโจทย์ที่พูดถึงสถานี/หัตถการ/เครื่องมือ/ไหม OSCE (กติกา R/T 14 พ.ย. 2026) · R02 = OSCE-MEQs Synopsis (แท็บ OSCE เท่านั้น) · R02 = OSCE-MEQs Synopsis (แท็บ OSCE เท่านั้น) · R03 = Surgical instruments & Suture materials (5 ไฟล์, แท็บ OSCE เท่านั้น) · 22 พ.ย. 2026 */
 W.RES=[
 {
 "code": "R01",
@@ -71,6 +71,39 @@ W.RES=[
 "Face/skin: TGDC → US + Sistrunk · cleft lip rule of 10, palate 6–12 เดือน · BCC margin 4 mm/Mohs · melanoma margin ตาม Breslow (≤ 1 mm 1 cm, 1–2 mm 1–2 cm, > 2 mm 2 cm) + SLNB > 0.8 mm · facial n.: zygomatic หลับตา, buccal ยิ้ม",
 "Order: clean = cefazolin 2 g ก่อนลงมีด ≤ 60 นาที ไม่ต้องต่อ · appendectomy cefazolin + metronidazole · uncomplicated ไม่ต้องให้ ATB หลังผ่าตัด, complicated ~4 วัน · ASA fasting อาหาร 6–8 ชม., clear fluid 2 ชม.",
 "อื่น ๆ: rule of 9 · superficial vs deep partial burn (2 vs 3–4 สัปดาห์, deep → graft) · ยาผ่าน BBB MOR/PVC/EAT · H. pylori ไทย → bismuth quadruple · ABI ≤ 0.90 PAD · EDH lentiform · Cushing reflex · ureteric colic หาท่าสบายไม่ได้ · corrosive: CT หา transmural necrosis, ห้ามล้างท้อง"
+]
+},
+{
+"code": "R03",
+"title": "Surgical instruments & Suture materials",
+"kw": "catgut|vicryl|polyglactin|prolene|polypropylene|polydioxanone|\\bpds\\b|monocryl|poliglecaprone|maxon|monomax|\\bnylon|ethilon|dermalon|ethibond|dacron|\\bsilk\\b|suture material|absorbable suture|monofilament|multifilament|braided|needle holder|metzenbaum|mayo scissors|\\ballis\\b|babcock|kocher|mosquito|crile|kelly (clamp|hemostat)|right.?angle clamp|mixter|tonsil clamp|debakey|adson|sponge (holder|forceps)|towel clamp|backhaus|\\bsenn\\b|army.?navy|richardson|deaver|malleable|balfour|weitlaner|gelpi|langenbeck|yankauer|poole suction|frazier|stapler|hemoclip|ligaclip|veress|trocar|redivac|penrose|jackson.?pratt|double.?j|foley|retention suture|mattress suture|subcuticular|intradermal|lidocaine|xylocaine|leukostrip|steri.?strip|ostomy|duoderm|tegaderm|bactigras|harmonic scalpel|electrocautery|proctoscope|scalpel|blade no|#1[015]\\b",
+"topic": "OSCE",
+"tags": [
+"OSCE"
+],
+"type": "สไลด์อาจารย์ (C, D, E) + สรุปนักศึกษา (A, B) — 5 ไฟล์",
+"url": "",
+"note": "รวม 5 ไฟล์: A สรุป A3 8 หน้า (ไหม 6 ตัว + retention suture, forceps/clamps/scissors/retractors/lap/others, tubes-drains-lines, wound & ostomy materials, ยาชา, ล้างมือ, ถุงมือ, NG, Foley, op note appendectomy) · B แผ่นสรุปเครื่องมือ 3 หน้า (clamps, scissors, scalpels, forceps, retractors, needles & sutures, staplers, suction, energy, lap) · C สไลด์ Surgical Instruments 2025 (retractors, forceps & clamps, scalpels & scissors, suction — ชื่อ + รูป) · D สไลด์ Suture Material 2025 (classification, ซองไหม, tensile/absorption, USP, needle, เทคนิคเย็บ) · E สไลด์ Suture Materials 2026 รศ.พญ.กษยา (history, classification, comparison, ไหมรายตัว, mesh/graft/steel/clip/stapler/tape, อ่านซอง, USP, ไหมตามบริเวณ, needle, เวลาตัดไหม, เทคนิค) · Round I/O R03-0, U1–U4, T1–T4, P1 (แท็บ OSCE เท่านั้น)",
+"points": [
+"ไหม 6 ตัว: nylon (syn·mono·non-abs) → skin (3-0) · Prolene (syn·mono·non-abs) → vessel, mesh · PDS (syn·mono·abs นาน) → sheath/fascia, viscera · Vicryl (syn·braided·abs) → subcut, muscle (ห้าม tendon) · silk (nat·multi·non-abs) → ผูก vessel, เย็บ drain, mark specimen · chromic catgut (nat·multi·abs เร็ว) → perineum, hemorrhoid, peritoneum",
+"Absorbable = เสียแรงดึงส่วนใหญ่ภายใน ~60 วัน · natural สลายด้วย enzyme proteolysis (อักเสบมาก) · synthetic สลายด้วย hydrolysis (คาดเดาได้) · tensile strength retention ≠ absorption time",
+"Mono: ติดเชื้อน้อย ผ่านเนื้อลื่น แต่ปมหลุดง่าย ต้องผูกหลาย throw · Multi: แรงดึงสูง จับ/ผูกง่าย ปมแน่น แต่ติดเชื้อ (capillarity) + tissue drag มากกว่า",
+"Maxon, Monocryl, Monosyn, Monomax = monofilament · Prolene = polypropylene (ไม่ใช่ polyethylene) · Ethibond/Dacron = braided polyester · Vicryl Plus = triclosan (WHO SSI 2018 แนะนำ)",
+"ลำดับคงแรง: Vicryl Rapide < plain gut < Monocryl < chromic ≈ Vicryl/Dexon < Maxon ≈ PDS < Monomax · Vicryl ~50% ที่ 3 wk ดูดซึม 56–70 วัน · PDS ดูดซึม 182–238 วัน",
+"USP: 0 มากยิ่งเล็ก (6-0 หน้า, 4-0 มือ, 3-0 หลัง/scalp, 2-0 เข่า; subcut Vicryl 3-0/4-0) · ซองไหมบอก ชื่อ, mono/braided, absorbable, synthetic, ขนาด/ความยาว, เข็ม",
+"เข็ม: taper/round body → ลำไส้ vessel · cutting/reverse cutting → skin · blunt → ตับ ไต fascia · 3/8 circle ผิวหนัง, 1/2 ช่องลึก · swaged = atraumatic",
+"ตัดไหม: หน้า 5–6 วัน · หู คอ อก แขน มือ 7–10 · scalp หลัง ไหล่ ขา เท้า 10–14 (palms/soles 14–21)",
+"เทคนิค: vertical mattress = eversion · horizontal = แผลตึง/ห้ามเลือด · half-buried = มุมแผล · subcuticular = สวย · locked = ห้ามเลือด · retention: No.1 non-absorbable + cushion tube ห่าง 10 cm กัน dehiscence",
+"ปิด midline laparotomy (EHS/AHS 2022): continuous small bites + slowly absorbable (PDS) · ซ่อม hernia ยึด mesh ด้วย Prolene",
+"Clamp: Allis (ฟัน traumatic: fascia/เนื้อที่ตัดทิ้ง) · Babcock (ห่วง atraumatic: appendix, bowel, tube, vas) · Kocher (ฟัน 1×2: fascia, thyroid) · mosquito < Crile (ร่องเต็ม) < Kelly (ร่องครึ่ง) < Rochester · tonsil = vessel ลึก · right angle = คล้องไหมหลัง vessel/duct",
+"Forceps: tooth → skin · Adson → งานละเอียด · DeBakey → vessel · sponge holder → paint/ซับ · towel clamp → หนีบผ้า · needle holder ร่องตาข่าย, Castro-Viejo = micro",
+"Scissors: Mayo หนา (fascia, tendon; ตรง = ตัดไหม) · Metzenbaum บาง (bowel, vessel, adhesion) · blade #10 แผลใหญ่, #11 stab/I&D, #15 แผลละเอียด (handle #3)",
+"Retractor: Senn เล็ก · Army-Navy skin · Richardson ผนังหน้าท้อง · Deaver อวัยวะลึก · malleable กันลำไส้ · Weitlaner/Gelpi/Balfour self-retaining · Suction: Poole ช่องท้อง, Yankauer ผิว/ปาก, Frazier ที่แคบ",
+"Stapler: linear (TA) ไม่ตัด · linear cutter (GIA) ตัด+ปิด 2 ขอบ · circular (EEA) colorectal anastomosis · Harmonic = ultrasonic cut & coagulate · electrocautery cut/coagulate",
+"Drain: JP bulb · Redivac ขวดสุญญากาศ (thyroid, breast) · Penrose open passive (appendectomy) · ICD empyema/hemo/pneumothorax · Foley 3-way = CBI · DJ stent urinary diversion · ostomy 1 ชิ้น (ใช้ง่าย ผู้สูงอายุ) vs 2 ชิ้น (แป้นติดนาน)",
+"ยาชา: lidocaine 7 mg/kg with adrenaline, ไม่มี 5 mg/kg ในไฟล์ (ฉลาก 4.5, ≤300 mg) · ไฟล์ห้าม adrenaline ปลายนิ้ว/เท้า/penis/จมูก · ดูดยาเข็ม 18 ฉีดเข็ม 24 · ทดสอบด้วย tooth forceps",
+"NG: วัด ท้องซ้ายบน → หู → จมูก · CI base of skull fracture, midface trauma · ยืนยัน X-ray/pH ≤ 5.5 (ไม่ใช้ฟังเสียง) · Foley: CI urethral injury (high-riding prostate, blood at meatus) · รูด prepuce กลับ",
+"Op note open appendectomy: McBurney · ligate mesoappendix · stump double ligation silk 2-0 · peritoneum chromic 2-0 · EO fascia Vicryl · skin nylon 4-0"
 ]
 }
 ];
