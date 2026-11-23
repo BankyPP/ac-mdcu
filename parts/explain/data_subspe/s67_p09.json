@@ -1,0 +1,194 @@
+{
+"MDCU67|RoB|59": {
+ "wrong": {
+  "A": "AP (PA) view ของกะโหลก/mandible เห็น ramus และ body ได้ แต่ condyle ซ้อนกับ mastoid/temporal bone จึงเห็นไม่ชัด · จะถูกถ้าใช้ PA mandible ดู ramus/angle fracture ร่วมกับ view อื่น",
+  "B": "Waters (occipitomental) view เห็น midface ได้ดี — zygoma, maxillary sinus, orbital rim/floor (คีย์ลายมือ: Waters → zygoma, maxilla) · ไม่เห็น condyle · จะถูกถ้าโจทย์สงสัย zygomaticomaxillary complex หรือ orbital floor fracture",
+  "D": "Lateral oblique view ของ mandible เห็น body และ ramus ข้างหนึ่งโดยไม่ซ้อนกับอีกข้าง แต่ condyle มักซ้อนกับโครงสร้างอื่น · จะถูกถ้าสงสัย body/angle fracture ในที่ไม่มี panoramic",
+  "E": "Skull lateral view ทำให้ mandible สองข้างซ้อนกัน แยก condyle ข้างไหนหักไม่ได้ · ใช้ดู sella, calvarium, soft tissue ของ nasopharynx · จะถูกถ้าโจทย์ถาม lateral skull ใน depressed skull fracture หรือ adenoid"
+ },
+ "summary": [
+  "Mandible fracture: พบบ่อยที่ condyle, angle, body, symphysis · มักหัก 2 ตำแหน่ง (ring structure) เช่น parasymphysis + contralateral condyle",
+  "อาการ condylar fracture: ปวดหน้าหู, malocclusion (open bite ข้างตรงข้าม, คางเบี้ยวไปข้างที่หักเมื่ออ้าปาก), เลือดออกจากหู (EAC laceration)",
+  "Imaging: panoramic (orthopantomogram) + reverse Towne เป็นชุดมาตรฐานเดิม · ปัจจุบัน CT maxillofacial เป็น gold standard · รักษา condylar fracture ส่วนใหญ่แบบ closed (MMF ระยะสั้น) ยกเว้น displaced มาก/เข้า middle cranial fossa"
+ ]
+},
+"MDCU67|RoB|67": {
+ "why": "ผู้ป่วยความดันสูงมาก (180/110) มี <b>hypertensive intracerebral hemorrhage</b> ตำแหน่งบน CT ตัดสินชนิด:<br>• ก้อนเลือดอยู่ <b>medial ต่อ internal capsule ติด third ventricle</b> = <b>thalamus</b> (thalamus เป็นผนังด้านข้างของ third ventricle)<br>• Putamen (basal ganglia) อยู่ lateral ต่อ internal capsule · caudate อยู่ติด frontal horn ของ lateral ventricle<br>• Thalamic hemorrhage เป็นตำแหน่งที่พบบ่อยอันดับ 2 ของ hypertensive ICH และมักแตกเข้า ventricle (IVH) ทำให้ hydrocephalus<br>→ ตอบ <b>B</b> (ตรงคีย์ลายมือ ขีด B) · แนวเดียวกับปี 67 RoA ข้อ 67",
+ "wrong": {
+  "A": "Basal ganglia (putaminal) hemorrhage เป็นตำแหน่งที่พบบ่อยที่สุดของ hypertensive ICH แต่อยู่ lateral ต่อ internal capsule ไม่ได้อยู่ติด third ventricle · จะถูกถ้า CT เห็นเลือดด้านนอกของ internal capsule และผู้ป่วยตามองไปทางรอยโรค",
+  "C": "Lobar hemorrhage อยู่ใน cortex/subcortical white matter ของ lobe ต่างๆ มักเกิดจาก cerebral amyloid angiopathy ในผู้สูงอายุ, AVM, tumor มากกว่าความดันสูง · จะถูกถ้าเลือดอยู่ใกล้ผิวสมอง เช่น parietal/occipital lobe",
+  "D": "Cerebellar hemorrhage อยู่ใน posterior fossa ทำให้เวียนศีรษะ อาเจียน เดินเซ ปวดท้ายทอย อาจกด brainstem/4th ventricle · ต้องผ่าตัดถ้า > 3 cm หรือกด brainstem/hydrocephalus · จะถูกถ้า CT เห็นเลือดใต้ tentorium",
+  "E": "Caudate hemorrhage อยู่ที่หัวของ caudate ติดผนังด้านข้างของ frontal horn ของ lateral ventricle มักแตกเข้า ventricle อาการคล้าย SAH · จะถูกถ้าเลือดอยู่ด้านหน้าติด lateral ventricle ไม่ใช่ third ventricle"
+ },
+ "trap": "ทั้ง thalamus และ caudate อยู่ medial ต่อ internal capsule — ตัวแยกคือ thalamus ติด third ventricle (ด้านหลัง) ส่วน caudate ติด frontal horn ของ lateral ventricle (ด้านหน้า) · ข้อนี้ไม่มีรูปในไฟล์ ต้องอาศัยคำบรรยายตำแหน่ง",
+ "summary": [
+  "Thalamic hemorrhage: hemisensory loss ข้างตรงข้าม (± hemiparesis จากกด internal capsule), ตามองลงล่าง/upgaze palsy, pupil เล็ก ตอบสนองน้อย, aphasia (ข้างซ้าย)",
+  "การจัดการ ICH: SBP เป้า ~140 mmHg (ไม่ต่ำกว่า 130) ภายใน 1 ชม., reverse anticoagulant, ป้องกัน hyperglycemia/ไข้ · IVH + hydrocephalus → EVD",
+  "Score พยากรณ์ ICH: GCS, volume ≥ 30 mL, IVH, infratentorial, อายุ ≥ 80 (ICH score)"
+ ]
+},
+"MDCU67|RoB|68": {
+ "wrong": {
+  "A": "CT with contrast (ธรรมดา) ไม่ได้ออกแบบ timing ให้เห็นหลอดเลือดชัด จึงหา aneurysm/AVM ได้ไม่ดีเท่า CTA · มีประโยชน์ในการหา tumor ที่ enhance · จะถูกถ้าสงสัย hemorrhagic tumor/metastasis",
+  "B": "MRI ช่วยหา cavernoma, tumor, amyloid angiopathy (microbleeds บน SWI) และ venous thrombosis แต่ใช้เวลานาน ไม่เหมาะในระยะเฉียบพลันที่ผู้ป่วยไม่ stable · มักทำภายหลังเมื่อเลือดยุบ · จะถูกถ้าโจทย์ถามการหาสาเหตุในรายที่ CTA ลบหลายสัปดาห์ต่อมา",
+  "C": "Catheter angiogram (DSA) เป็น gold standard ของ vascular malformation แต่ invasive (เสี่ยง stroke ~0.5–1%) · ใช้เมื่อ CTA ลบแต่ยังสงสัยสูง หรือจะรักษาแบบ endovascular · จะถูกถ้า CTA เห็น AVM และต้องวางแผนรักษา",
+  "E": "Skull X-ray ไม่มีบทบาทใน ICH ไม่เห็นเลือดในสมองหรือหลอดเลือด · จะถูกเฉพาะใน trauma บางสถานการณ์ในอดีต"
+ },
+ "summary": [
+  "AHA/ASA 2022: CTA (± CTV) แนะนำใน ICH ที่อาจมีสาเหตุ secondary (lobar, อายุ < 70, ไม่มีความดันสูง, IVH เดี่ยว) · ในรายความดันสูงตำแหน่ง deep (thalamus/putamen) อายุมาก โอกาสพบ vascular lesion ต่ำ",
+  "CTA spot sign (contrast รั่วในก้อนเลือด) ทำนาย hematoma expansion และผลแย่",
+  "ICH ที่ CTA ลบแต่ยังสงสัย → DSA ± MRI หลัง 4–8 สัปดาห์เมื่อเลือดยุบ (หา cavernoma, tumor ที่ถูกเลือดบัง)"
+ ]
+},
+"MDCU67|RoB|69": {
+ "why": "<b>Thunderclap headache</b> (ปวดหัวรุนแรงฉับพลัน) ในผู้สูงอายุ = red flag ต้องคิดถึง <b>subarachnoid hemorrhage</b> (คีย์ลายมือ: > 50 yr, sudden → red flag):<br>• Non-contrast CT ไวต่อ SAH ~100% ใน 6 ชม.แรก แต่<b>ลดลงตามเวลา</b> (~85% ที่ 3 วัน, ~50% ที่ 1 สัปดาห์) เพราะเลือดถูกดูดซึม<br>• ผู้ป่วยมาหลังเกิดเหตุ 1 สัปดาห์ CT ปกติจึงยังตัด SAH ไม่ได้ → ต้อง <b>lumbar puncture</b> หา RBC และ <b>xanthochromia</b> (พบได้ตั้งแต่ ~12 ชม. ถึง 2 สัปดาห์)<br>• ถ้า LP บวก → CTA/DSA หา aneurysm<br>→ ตอบ <b>C</b> (ตรงคีย์ลายมือ ขีด C)",
+ "wrong": {
+  "A": "การวัดความดันซ้ำไม่ช่วยวินิจฉัย BP 140/90 ไม่ได้สูงจนอธิบายอาการปวดหัวรุนแรงฉับพลัน · การตัดสินใจขึ้นกับการตัด SAH · จะถูกถ้าโจทย์เป็นปวดหัวจาก hypertensive urgency ที่ BP > 180/120",
+  "B": "Cerebral angiography ใช้หา aneurysm หลังยืนยันว่ามี SAH (จาก CT หรือ LP บวก) · ทำทันทีโดยไม่มีหลักฐาน SAH เป็นการตรวจ invasive ที่ไม่จำเป็นในส่วนใหญ่ (บางแนวทางใช้ CTA แทน LP ได้) · จะถูกถ้า LP พบ xanthochromia",
+  "D": "ยาแก้ปวดชนิดกินบรรเทาอาการแต่ไม่วินิจฉัย การปล่อยกลับบ้านโดยพลาด sentinel bleed ทำให้ aneurysm แตกซ้ำซึ่งอัตราตายสูง · จะถูกถ้าโจทย์เป็น tension headache ที่ไม่มี red flag",
+  "E": "ยาแก้ปวดทางหลอดเลือดก็ไม่ได้ช่วยวินิจฉัยเช่นกัน · การตอบสนองต่อยาแก้ปวดไม่ได้ตัด SAH (โจทย์บอกว่าดีขึ้นบ้างด้วยยา) · จะถูกถ้าโจทย์เป็น migraine attack ที่วินิจฉัยแล้ว"
+ },
+ "summary": [
+  "Ottawa SAH rule: อายุ ≥ 40, ปวดคอ/คอแข็ง, หมดสติ, เริ่มขณะออกแรง, thunderclap (สูงสุดใน 1 นาที), ก้มคอไม่ได้ → ต้อง workup SAH",
+  "CT ภายใน 6 ชม.ปกติในเครื่องที่ดีตัด SAH ได้ · หลัง 6 ชม. CT ปกติ → LP (หรือ CTA ตามบริบท) · LP: RBC ไม่ลดลงจาก tube 1 ถึง 4 + xanthochromia",
+  "Sentinel headache (warning leak) เกิดก่อน aneurysm แตกใหญ่ได้หลายวัน–สัปดาห์ การวินิจฉัยตอนนี้ช่วยชีวิตได้"
+ ]
+},
+"MDCU67|RoB|70": {
+ "wrong": {
+  "A": "การทำ film ซ้ำเพราะกลัวก้อนเลือดโตไม่ใช่ประเด็นหลัก — ภัยคุกคามของ aneurysmal SAH คือ rebleeding จาก aneurysm ที่ยังไม่ได้ secure ไม่ใช่ clot ขยาย (คีย์ลายมือ: A ✗) · จะถูกถ้าเป็น ICH ระยะแรกที่ต้องดู hematoma expansion",
+  "C": "Bed rest ที่บ้านอย่างเดียวไม่ป้องกัน rebleeding และไม่ได้รักษา aneurysm · ผู้ป่วยยังเสี่ยง rebleed, vasospasm (วันที่ 3–14 ซึ่งตรงกับช่วงนี้), hydrocephalus · จะถูกถ้าเป็น perimesencephalic non-aneurysmal SAH ที่ angiography ลบแล้ว",
+  "D": "Anticonvulsant ไม่แนะนำใช้ระยะยาวแบบ routine ใน SAH (phenytoin สัมพันธ์กับผลแย่) และ MRI ติดตามไม่ได้แก้ปัญหา aneurysm · จะถูกถ้าผู้ป่วยมีอาการชักจริงหรือมีรอยโรคเสี่ยงชัก",
+  "E": "คำตอบคีย์ลายมือเดิม — การคุมไขมัน/ความดันและติดตามเป็นส่วนหนึ่งของ secondary prevention แต่ไม่พอเพราะยังไม่ได้หาและ secure aneurysm · ตรวจคีย์ 21 พ.ย. 2026 เปลี่ยนเป็น B · จะถูกถ้า aneurysm ได้รับการ coil/clip เรียบร้อยแล้ว"
+ },
+ "summary": [
+  "ประวัติหมดสติทันที + ปวดหัว อาเจียน + CT เป็น SAH = aneurysmal SAH จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ (~85% ของ spontaneous SAH)",
+  "Rebleeding สูงสุดใน 24 ชม.แรก และสะสม ~20–30% ใน 2 สัปดาห์ถ้าไม่ secure · อัตราตายของ rebleed สูงมาก → CTA/DSA และ coil/clip โดยเร็ว",
+  "คีย์ลายมือเดิมตอบ E · ตรวจคีย์ตาม AHA/ASA 2023 แล้วเปลี่ยนเป็น B — ผู้ป่วยที่ถูกปล่อยกลับบ้านโดยไม่ได้หา aneurysm ต้องส่งต่อทันที"
+ ]
+},
+"MDCU67|RoB|71": {
+ "interp": "ภาพผู้ป่วยมีลักษณะ <b>acromegaly</b> (ใบหน้าหยาบ คิ้วโหนก จมูก/ขากรรไกรใหญ่ มือใหญ่) — โจทย์ถามสาเหตุ ซึ่งคือฮอร์โมนที่ทำให้กระดูกและเนื้อเยื่ออ่อนโตในผู้ใหญ่",
+ "why": "<b>Acromegaly</b> เกิดจาก <b>growth hormone เกิน</b>หลัง epiphysis ปิด ซึ่ง >95% มาจาก <b>GH-secreting pituitary (somatotroph) adenoma</b>:<br>• GH กระตุ้นตับสร้าง <b>IGF-1</b> → กระดูกและ soft tissue โต: frontal bossing, prognathism, ฟันห่าง, ลิ้นโต, มือเท้าใหญ่, ผิวหนา เหงื่อมาก<br>• ระบบอื่น: hypertension, cardiomyopathy, DM, OSA, carpal tunnel, colon polyp<br>• วินิจฉัย: IGF-1 สูง + OGTT GH ไม่ถูกกด → MRI pituitary<br>• รักษา: transsphenoidal surgery → somatostatin analog/pegvisomant/RT<br>→ ตอบ <b>D</b> (ตรงคีย์ลายมือ ขีด D) · แนวเดียวกับปี 67 RoA ข้อ 75",
+ "wrong": {
+  "A": "Craniopharyngioma เป็นเนื้องอก suprasellar ที่ไม่หลั่งฮอร์โมน ทำให้ hypopituitarism (รวม GH ต่ำ → เด็กตัวเตี้ย), DI, bitemporal hemianopia · ตรงข้ามกับ acromegaly · จะถูกถ้าเด็กตัวเตี้ยมี calcified cystic suprasellar mass",
+  "B": "Glioblastoma เป็น primary malignant brain tumor ใน cerebral hemisphere ไม่หลั่งฮอร์โมน ทำให้ชัก อ่อนแรง ICP สูง · จะถูกถ้าผู้สูงอายุมีอาการทางระบบประสาทแย่ลงเร็วพร้อม ring-enhancing mass",
+  "C": "Prolactinoma หลั่ง prolactin ทำให้ galactorrhea, amenorrhea, infertility, libido ลด · ไม่ทำให้ใบหน้า/มือโต (บางรายเป็น mixed GH/PRL adenoma ได้แต่พบน้อย) · จะถูกถ้าหญิงสาวขาดประจำเดือนมีน้ำนมไหล · รักษาด้วย cabergoline",
+  "E": "ACTH-secreting adenoma ทำให้ Cushing disease: moon face, buffalo hump, central obesity, purple striae, proximal myopathy · ไม่ทำให้กระดูกใบหน้าและมือโต · จะถูกถ้าภาพเป็นหน้ากลมแดง ท้องใหญ่ แขนขาลีบ"
+ },
+ "trap": "ในเด็กที่ epiphysis ยังไม่ปิด GH เกินทำให้ gigantism (ตัวสูงมาก) ไม่ใช่ acromegaly · และ acromegaly ต้องตรวจ IGF-1 ไม่ใช่ random GH เพราะ GH หลั่งเป็นช่วง (pulsatile)",
+ "summary": [
+  "Pituitary adenoma: prolactinoma พบบ่อยที่สุด > non-functioning > GH > ACTH > TSH (พบน้อย) · macroadenoma (≥ 10 mm) กด chiasm → bitemporal hemianopia",
+  "Acromegaly ต้องคัดกรองภาวะแทรกซ้อน: echo, sleep study, colonoscopy, HbA1c · ผู้ป่วยที่ไม่รักษามีอายุสั้นลงจากโรคหัวใจ",
+  "Transsphenoidal surgery เป็น first-line ของ adenoma ที่หลั่งฮอร์โมน (ยกเว้น prolactinoma ใช้ dopamine agonist) · pituitary apoplexy = ปวดหัวฉับพลัน ตามัว + adrenal insufficiency → steroid ด่วน"
+ ]
+},
+"MDCU67|RoB|76": {
+ "wrong": {
+  "A": "Seminoma เป็น testicular tumor ที่พบบ่อยที่สุดในผู้ใหญ่ (อายุ 30–40 ปี) แทบไม่พบในเด็กก่อนวัยรุ่น · AFP ไม่ขึ้น · จะถูกถ้าโจทย์ถามเนื้องอกอัณฑะที่พบบ่อยที่สุดในผู้ใหญ่ หรือใน UDT หลัง orchiopexy",
+  "B": "Choriocarcinoma เป็น germ cell tumor ที่พบน้อยและรุนแรงมาก β-hCG สูงมาก กระจายทางเลือดเร็ว (ปอด สมอง) อาจมี gynecomastia/hyperthyroidism · พบในวัยรุ่น/ผู้ใหญ่ · จะถูกถ้าโจทย์เป็นชายหนุ่มที่ β-hCG สูงมากและมี lung metastasis",
+  "C": "Teratoma ในเด็กก่อนวัยรุ่นเป็น benign (ต่างจากผู้ใหญ่ที่ถือว่า malignant) รักษาด้วย testis-sparing excision · ข้อมูลใหม่บางชุดพบ teratoma บ่อยที่สุดเมื่อนับเนื้องอกรวม benign (Pohl 2004) แต่คีย์ตอบ yolk sac ซึ่งเป็น 'malignant' ที่บ่อยที่สุด · จะถูกถ้าโจทย์ถาม prepubertal testicular tumor ทั้งหมดรวม benign",
+  "E": "Embryonal carcinoma พบในวัยรุ่นและผู้ใหญ่ (มักเป็นส่วนหนึ่งของ mixed germ cell tumor) aggressive · ไม่ใช่ชนิดที่พบบ่อยในเด็กเล็ก · จะถูกถ้าโจทย์ถาม component ที่พบบ่อยใน mixed NSGCT ของผู้ใหญ่"
+ },
+ "trap": "โจทย์กำกวม — คีย์ (และตำราเดิม) ตอบ yolk sac tumor (~80% ตามคีย์ลายมือ) ซึ่งเป็นมะเร็งอัณฑะที่พบบ่อยที่สุดในเด็ก แต่ถ้านับเนื้องอกทั้งหมดรวม benign ข้อมูล multicenter ใหม่พบ teratoma มากที่สุด · อ่านคำว่า malignant ในโจทย์ให้ดี",
+ "summary": [
+  "Yolk sac (endodermal sinus) tumor: พบในเด็กอายุ < 2–3 ปี, AFP สูง (ใช้ติดตาม), Schiller-Duval bodies · ส่วนใหญ่ stage I → radical inguinal orchiectomy แล้วติดตาม AFP (ปกติ AFP ในทารกสูงอยู่แล้ว ต้องเทียบตามอายุ)",
+  "Prepubertal teratoma/epidermoid cyst: benign → testis-sparing enucleation ผ่าน inguinal approach",
+  "เนื้องอกอัณฑะทุกรายผ่าตัดทาง inguinal (ควบคุม cord ก่อน) ห้าม trans-scrotal · ก่อนผ่าตัดส่ง AFP, β-hCG, LDH"
+ ]
+},
+"MDCU67|RoB|80": {
+ "wrong": {
+  "A": "Topical steroid ไม่มีบทบาทใน ambiguous genitalia · ใช้รักษา labial adhesion (ใช้ estrogen cream) หรือ phimosis · จะถูกถ้าโจทย์เป็น labial adhesion ในเด็กหญิงที่อวัยวะเพศปกติแต่ริมแคมเชื่อมกันบางๆ",
+  "C": "ผ่าตัด clitoral reduction ทันทีในทารกแรกเกิดก่อนวินิจฉัยเป็นอันตราย — ยังไม่รู้ karyotype/สาเหตุ ผู้ป่วยอาจเข้า salt-wasting crisis และการตัดสินใจผ่าตัดอวัยวะเพศต้องผ่านทีม DSD และครอบครัว · จะถูกถ้าไม่มีสถานการณ์ใดที่เหมาะ",
+  "D": "Clitoral reduction อายุ 6–12 เดือนเป็นช่วงเวลาที่บางศูนย์เคยทำใน CAH ที่ยืนยันแล้ว แต่ยังไม่ใช่ initial management และปัจจุบันมีแนวโน้มเลื่อนการผ่าตัดเพื่อให้ผู้ป่วยมีส่วนร่วมตัดสินใจ · จะถูกถ้าวินิจฉัย CAH แล้วและทีม DSD กับครอบครัวตกลงผ่าตัด",
+  "E": "Labial separation ก่อนแล้วค่อยผ่า clitoris ตอนวัยรุ่น ยังเป็นการตัดสินใจรักษาก่อนวินิจฉัย · ไม่ได้แก้ปัญหาเร่งด่วนคือ adrenal crisis · จะถูกถ้าเป็นแผนผ่าตัดระยะยาวหลังวินิจฉัยและปรึกษาทีมแล้ว"
+ },
+ "summary": [
+  "Virilized 46,XX DSD ที่พบบ่อยที่สุด = CAH จาก 21-hydroxylase deficiency (autosomal recessive) · ~75% เป็น salt-wasting → hyponatremia, hyperkalemia, hypoglycemia, shock ในสัปดาห์ที่ 1–3",
+  "Initial workup ambiguous genitalia: karyotype (FISH SRY), serum electrolytes, glucose, 17-OHP, testosterone/DHT, LH/FSH, AMH, pelvic US (หา uterus/gonad) · ห้ามระบุเพศจนกว่าจะประเมินครบ",
+  "รักษา CAH: hydrocortisone + fludrocortisone + NaCl ในทารก · stress dose เมื่อเจ็บป่วย · การผ่าตัด genitoplasty ตัดสินใจโดยทีมสหสาขา"
+ ]
+},
+"MDCU67|RoB|81": {
+ "why": "เด็ก 5 ปีมีก้อนที่ flank จาก <b>hydronephrosis</b> (ส่วนใหญ่เป็น UPJ obstruction) และ VCUG ปกติ (ไม่ใช่ VUR):<br>• Renal scan (MAG3/DMSA) บอก <b>split renal function</b> ของไตข้างนั้นเพียง <b>5%</b> = ไตแทบไม่ทำงานแล้ว<br>• หลักทั่วไป: ไตที่ทำงาน <b>< 10%</b> และไม่ฟื้นแม้ระบายแล้ว → <b>nephrectomy</b> (เอาไตที่ไม่ทำงานซึ่งเป็นแหล่งติดเชื้อ/ปวด/ความดันสูงออก) · ไตที่ทำงาน > 10–15% หรือฟื้นได้ → pyeloplasty<br>• บางสถาบันใส่ PCN ระบาย 4–6 สัปดาห์ก่อนแล้ว scan ซ้ำเพื่อดู recoverability โดยเฉพาะในทารก<br>→ ตอบ <b>B</b> ตามคีย์ (ความมั่นใจปานกลาง · คีย์ลายมือ: UPJ obstruction, ~40% ทำ pyeloplasty)",
+ "wrong": {
+  "A": "Pyeloplasty (Anderson-Hynes dismembered) เป็นการรักษามาตรฐานของ UPJ obstruction ที่ไตยังทำงานพอ (split function > 10–15%) หรือ function ลดลงต่อเนื่อง มีอาการ ติดเชื้อ · ไตที่เหลือ 5% ผ่าแล้วมักไม่ฟื้น · จะถูกถ้า renal scan พบ function 30–40%",
+  "C": "Observation ใช้กับ hydronephrosis ที่ไม่มีอาการ ไตทำงานดีคงที่ (มักในทารกที่วินิจฉัยก่อนคลอด) · เด็กรายนี้มีก้อนคลำได้และไตเกือบไม่ทำงาน · จะถูกถ้าเป็น antenatal hydronephrosis ที่ split function ≥ 40% และไม่มี UTI",
+  "D": "Percutaneous nephrostomy เป็นการระบายชั่วคราว ใช้เมื่อติดเชื้อ (pyonephrosis) หรือเพื่อทดสอบว่าไตจะฟื้นหรือไม่ก่อนตัดสินใจ · ไม่ใช่การรักษาถาวร · จะถูกถ้ามีไข้ร่วมกับ hydronephrosis หรือต้องการประเมิน recoverability",
+  "E": "Cystoscopy + JJ stent เป็นการระบายชั่วคราวเช่นกัน ใส่ผ่าน UPJ ที่ตีบในเด็กอาจทำได้ยาก · ไม่ใช่ definitive treatment · จะถูกถ้าต้องระบายเร่งด่วนในผู้ใหญ่ที่ทำ PCN ไม่ได้"
+ },
+ "summary": [
+  "UPJ obstruction: สาเหตุ hydronephrosis ที่พบบ่อยที่สุดในเด็ก (intrinsic stenosis, crossing lower pole vessel) · อาการเด็กโต: ปวดสีข้างเป็นพักหลังดื่มน้ำมาก (Dietl crisis), ก้อน, UTI, hematuria",
+  "Investigation: US (renal pelvis ขยาย ureter ไม่ขยาย) → diuretic renogram MAG3 (obstructive curve, split function) → VCUG ตัด VUR",
+  "ข้อบ่งชี้ pyeloplasty: split function < 40% หรือลดลง > 10% ระหว่างติดตาม, มีอาการ, UTI, APD เพิ่มขึ้น · nephrectomy เมื่อไตแทบไม่ทำงาน (< 10%) และไม่ฟื้น"
+ ]
+},
+"MDCU67|RoB|82": {
+ "wrong": {
+  "A": "TURP ทำเมื่อมีการอุดตันทางเดินปัสสาวะ (retention, hydronephrosis) จากต่อมลูกหมาก แต่ไม่ได้รักษามะเร็งที่แพร่กระจาย · อาจทำเป็น channel TURP เพื่อแก้อุดตันร่วมกับ ADT · จะถูกถ้าโจทย์เน้นว่าผู้ป่วยปัสสาวะไม่ออกทั้งที่ได้ ADT แล้ว",
+  "B": "Radiation (external beam) ในโรค metastatic ใช้เป็น palliative สำหรับ bone pain, impending/pathologic fracture, spinal cord compression · หรือ RT ที่ต่อมในรายที่ low-volume metastasis · ไม่ใช่การรักษาหลักทั้งระบบ · จะถูกถ้าโจทย์ถามการรักษาปวดจาก bone metastasis เดี่ยว",
+  "C": "Chemotherapy (docetaxel) ใช้ร่วมกับ ADT ใน metastatic hormone-sensitive prostate cancer (high-volume) หรือใน castration-resistant disease · ไม่ใช้เดี่ยวโดยไม่มี ADT · จะถูกถ้าโรคดำเนินต่อแม้ testosterone อยู่ในระดับ castrate",
+  "E": "Brachytherapy (ฝังแร่ในต่อม) ใช้กับ localized low/intermediate-risk prostate cancer ที่ต่อมไม่ใหญ่ · ไม่มีบทบาทในโรคที่กระจายไปกระดูก · จะถูกถ้าเป็น T1c Gleason 6 ต่อมขนาด < 50 g"
+ },
+ "summary": [
+  "Metastatic prostate cancer: PSA สูงมาก (> 100), DRE แข็งขรุขระ, bone pain/pathologic fracture (osteoblastic lesion), ALP สูง · ยืนยันด้วย biopsy + bone scan/PSMA PET",
+  "Androgen deprivation therapy (ADT): bilateral orchiectomy (เร็ว ถูก ไม่ต้องฉีดซ้ำ) หรือ LHRH agonist (ต้องให้ antiandrogen ก่อนป้องกัน flare) / antagonist (degarelix) · ปัจจุบันให้ ADT + ARPI (abiraterone, enzalutamide, apalutamide) ± docetaxel",
+  "Bone health: denosumab/zoledronic acid ใน CRPC ที่มี bone metastasis, calcium/vitamin D · pathologic fracture → fixation + RT"
+ ]
+},
+"MDCU67|RoB|84": {
+ "wrong": {
+  "A": "TURP + cystolitholapaxy คือการผ่าตัดที่ถูก แต่ผู้ป่วยมี bilateral hydronephrosis และ UTI (WBC มาก) ต้องระบายด้วย catheter ก่อน ให้ไตฟื้น (ระวัง post-obstructive diuresis) และรักษาการติดเชื้อก่อนผ่าตัด · จะถูกถ้าไม่มี hydronephrosis/UTI",
+  "B": "Alpha-blocker + 5-ARI (combination therapy) เหมาะกับ BPH ที่มีอาการปานกลาง–รุนแรงและต่อมใหญ่ > 30–40 mL โดย 'ไม่มี complication' · เมื่อมี bladder stone และ hydronephrosis เป็นข้อบ่งชี้ผ่าตัด · จะถูกถ้าไม่มีภาวะแทรกซ้อน",
+  "C": "Antibiotic + alpha-blocker รักษา UTI และอาการได้บางส่วน แต่ไม่แก้ bladder stone และ upper tract obstruction · UTI จะกลับเป็นซ้ำเพราะนิ่วเป็นแหล่งเชื้อ · จะถูกถ้าเป็น BPH ที่มี UTI ครั้งแรกโดยไม่มีนิ่ว/hydronephrosis",
+  "E": "Urodynamic study ไม่จำเป็นก่อน TURP ในผู้ที่มี BPH ชัดเจนพร้อม complication · และแผนนี้ไม่ได้จัดการ bladder stone · urodynamics ใช้เมื่อสงสัย detrusor underactivity/neurogenic bladder · จะถูกถ้าผู้ป่วยมีโรคทางระบบประสาทร่วมหรือ IPSS ไม่สอดคล้องกับ obstruction"
+ },
+ "summary": [
+  "ข้อบ่งชี้ผ่าตัด BPH (AUA/EAU): refractory urinary retention, recurrent UTI, bladder stone, recurrent gross hematuria, renal insufficiency/hydronephrosis จาก BPH, อาการรุนแรงที่ยาไม่ได้ผล",
+  "Bilateral hydronephrosis จาก BOO: ใส่ Foley ระบายก่อน → ติดตาม creatinine และ urine output (post-obstructive diuresis > 200 mL/hr) → รักษา UTI ตาม culture → ผ่าตัด",
+  "Bladder stone ในชายสูงอายุเกือบทั้งหมดเกิดจาก BOO → ต้องแก้ทั้งนิ่ว (cystolitholapaxy) และสาเหตุ (TURP/HoLEP) ในการผ่าตัดเดียวกัน"
+ ]
+},
+"MDCU67|RoB|85": {
+ "why": "ชายอายุ 30 ปีมี <b>dysuria + ไข้หนาวสั่น + ปวดอัณฑะซ้าย</b> → <b>acute epididymo-orchitis</b> จาก ascending infection (คีย์ลายมือ):<br>• ในชาย<b>อายุ < 35 ปี</b> เชื้อที่พบบ่อยที่สุดคือ STI: <b>Chlamydia trachomatis, Neisseria gonorrhoeae</b> · ชายที่มี insertive anal intercourse อาจเป็น enteric organisms<br>• ชาย > 35 ปีมักเกิดจาก E. coli/enteric bacteria จาก bladder outlet obstruction, หลังใส่ catheter/instrumentation<br>• ประวัติเพศสัมพันธ์จึงสำคัญที่สุดในการเลือก empiric antibiotics (ceftriaxone + doxycycline) และรักษาคู่นอน<br>→ ตอบ <b>A</b> (ตรงคีย์ลายมือ ขีด A)",
+ "wrong": {
+  "B": "Genital trauma ทำให้ปวดอัณฑะ ช้ำ hematocele/testicular rupture แต่ไม่อธิบายปัสสาวะแสบขัดมา 3 วัน ไข้หนาวสั่น และปัสสาวะเป็นเลือด · จะถูกถ้าโจทย์บอกถูกเตะ/ชนที่อัณฑะแล้วบวมเจ็บทันที",
+  "C": "ประวัตินิ่วอาจช่วยเพราะมีปวดหลังและปัสสาวะเป็นเลือด (นิ่วร่วม UTI) แต่ไม่ใช่ประวัติหลักที่เปลี่ยนการรักษาของ epididymo-orchitis ในชายหนุ่ม · จะเป็นคำตอบถ้าโจทย์มีแค่ปวดหลังร้าวลงขาหนีบเป็นพักๆ ไม่มีปวดอัณฑะ/ไข้",
+  "D": "Birth history (UDT, hypospadias, คลอดก่อนกำหนด) เกี่ยวกับความผิดปกติแต่กำเนิดในเด็ก ไม่ได้ช่วยวินิจฉัยการติดเชื้อเฉียบพลันในชายอายุ 30 ปี · จะถูกถ้าเป็นเด็กเล็กที่มี UTI ซ้ำ",
+  "E": "Family history of cancer ใช้ประเมินความเสี่ยงมะเร็งอัณฑะ (ญาติสายตรงเป็นเพิ่มความเสี่ยง) ซึ่งมักเป็นก้อนแข็งไม่เจ็บ ไม่มีไข้ · ไม่เข้ากับอาการติดเชื้อเฉียบพลัน · จะถูกถ้าโจทย์เป็นก้อนแข็งไม่เจ็บที่อัณฑะ"
+ },
+ "summary": [
+  "Acute epididymo-orchitis: ปวดบวมอัณฑะค่อยเป็นค่อยไป ไข้ อาการทางเดินปัสสาวะ · Prehn sign บวก (ยกแล้วปวดลด), cremasteric reflex ยังมี, Doppler เลือดมาเลี้ยงเพิ่ม",
+  "อายุ < 35 ปี/เสี่ยง STI: ceftriaxone 500 mg IM ครั้งเดียว + doxycycline 100 mg bid 10 วัน · insertive anal sex: ceftriaxone + levofloxacin · > 35 ปี/enteric: levofloxacin 10 วัน",
+  "ส่ง NAAT (chlamydia/gonorrhea) จากปัสสาวะ first-void, UA, urine culture · รักษาคู่นอนและตรวจ HIV/syphilis ร่วม"
+ ]
+},
+"MDCU67|RoB|86": {
+ "interp": "โจทย์ถามการตรวจเพิ่มเติมในชายที่สงสัย <b>epididymo-orchitis ร่วมกับปวดหลังและปัสสาวะเป็นเลือด</b> — ต้องตรวจทั้งการติดเชื้อ (UA, culture, CBC) และหานิ่ว/โรคทางเดินปัสสาวะส่วนบน (KUB) จึงตอบทุกข้อ",
+ "wrong": {
+  "A": "Urinalysis เป็นการตรวจที่จำเป็น (ข้อนี้ถูก) — ดู pyuria, bacteriuria, hematuria, leukocyte esterase/nitrite สนับสนุนการติดเชื้อ · แต่เป็นเพียงหนึ่งในการตรวจที่ต้องส่ง จึงเลือกเดี่ยวไม่ได้เมื่อมี All of the above",
+  "B": "Urine culture จำเป็น (ข้อนี้ถูก) — ระบุเชื้อและความไวของยา โดยเฉพาะถ้าเป็น enteric organism หรือไม่ตอบสนองต่อ empiric therapy · เป็นหนึ่งในการตรวจที่ถูก",
+  "C": "CBC จำเป็น (ข้อนี้ถูก) — ผู้ป่วยมีไข้หนาวสั่น ประเมิน leukocytosis/sepsis และประกอบการตัดสินใจ admit · เป็นหนึ่งในการตรวจที่ถูก",
+  "D": "Plain KUB ช่วยได้ (ข้อนี้ถูก) — ผู้ป่วยมีปวดหลังซ้ายและปัสสาวะเป็นเลือดทุกครั้ง ต้องหานิ่วในทางเดินปัสสาวะที่อาจอุดตันร่วมกับการติดเชื้อ (ภาวะฉุกเฉิน) · เป็นหนึ่งในการตรวจที่ถูก"
+ },
+ "summary": [
+  "Workup ปวดอัณฑะเฉียบพลัน: ถ้าแยก torsion ไม่ได้ทางคลินิก → scrotal Doppler US (หรือ explore ทันทีถ้าสงสัยมาก) · epididymitis: Doppler เลือดเพิ่ม, torsion: เลือดลด/หาย",
+  "Febrile UTI + ปวดหลัง + hematuria ในผู้ชาย → นึกถึง pyelonephritis/obstructed infected kidney จากนิ่ว → KUB/US/CT KUB · ถ้ามีการอุดตันร่วมติดเชื้อต้องระบายด่วน",
+  "ตารางแยก torsion vs epididymo-orchitis (ในคีย์): อายุ, onset, ไข้, อาการปัสสาวะ, cremasteric reflex, Prehn sign, Doppler, UA"
+ ]
+},
+"MDCU67|RoB|87": {
+ "wrong": {
+  "B": "Acute bacterial prostatitis: ไข้สูง หนาวสั่น dysuria ปวดฝีเย็บ/ท้องน้อย ปัสสาวะลำบาก/retention · DRE ต่อมลูกหมากบวม เจ็บมาก (ห้ามนวดต่อม) · ไม่อธิบายปวดอัณฑะ · จะถูกถ้าโจทย์เน้นปวด perineum และ DRE เจ็บมาก",
+  "C": "Acute cystitis: แสบขัด ปัสสาวะบ่อย ปวดท้องน้อย อาจมีเลือด แต่ไม่มีไข้สูงหนาวสั่น และไม่ทำให้ปวดอัณฑะ · ในผู้ชาย UTI ถือเป็น complicated เสมอ · จะถูกถ้าไม่มีไข้และไม่มีอาการนอก bladder",
+  "D": "Acute left pyelonephritis อธิบายไข้หนาวสั่น ปวดหลังซ้าย และ hematuria ได้ (และอาจเป็นร่วมกัน) แต่ไม่อธิบายปวดอัณฑะซ้ายที่เกิดขึ้น 3 ชม. · คีย์เลือกการวินิจฉัยที่อธิบายอาการใหม่ที่เด่นที่สุด · จะถูกถ้าไม่มีปวดอัณฑะและมี CVA tenderness ชัด",
+  "E": "None of the above ไม่ถูกเพราะ acute epididymo-orchitis อธิบายอาการได้สอดคล้องที่สุด · จะถูกเฉพาะถ้าไม่มีช้อยใดเข้ากับผู้ป่วย เช่น ถ้าเป็น testicular torsion ซึ่งไม่มีในช้อย"
+ },
+ "summary": [
+  "Epididymo-orchitis ส่วนใหญ่เริ่มจาก epididymitis (ascending จาก urethra/bladder) แล้วลามเข้า testis · onset ค่อยเป็นค่อยไปเป็นชั่วโมงถึงวัน ต่างจาก torsion ที่ปวดทันที",
+  "ต้องแยก testicular torsion เสมอ (อายุน้อยแม้ 30 ปีก็เป็นได้) — ถ้าไม่แน่ใจ ทำ Doppler US ด่วนหรือ explore",
+  "รักษา: antibiotics ตามกลุ่มอายุ/ความเสี่ยง, scrotal elevation/support, NSAID · ภาวะแทรกซ้อน: abscess, testicular infarction, chronic epididymitis, infertility"
+ ]
+}
+}
