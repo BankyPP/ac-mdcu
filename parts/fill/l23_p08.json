@@ -1,0 +1,272 @@
+{
+"111": {
+"interp": "burn 50% มีไข้วันที่ 10 → ถามกลุ่มตำแหน่งหลักที่ต้องหาการติดเชื้อ",
+"why": "สไลด์หน้า 68 Management of infection — Sites: <b>Blood stream · Burn wound · Lower respiratory tract · Urinary tract</b><br>ผู้ป่วย burn ใหญ่ภูมิต่ำ มีแผลเปิด สาย IV สายสวนปัสสาวะ และท่อช่วยหายใจ จึงติดเชื้อได้ทั้ง 4 ตำแหน่ง · ชีทหน้า 22–23: suppurative thrombophlebitis จากสาย IV พบบ่อย (เปลี่ยนสายทุก 72 ชม.) · pneumonia พบบ่อยที่สุดในกลุ่มติดเชื้อของ burn · ต้องเพาะเชื้อเลือด แผล เสมหะ ปัสสาวะ",
+"wrong": {
+"A": "ผิด — หูชั้นกลางและไซนัสไม่ใช่ตำแหน่งหลักของการติดเชื้อใน burn จะถูกถ้าผู้ป่วยใส่ NG tube นานแล้วมีไข้ร่วมน้ำมูกเป็นหนอง (sinusitis)",
+"B": "ผิด — donor site ติดเชื้อได้แต่เป็นแค่ส่วนหนึ่ง ต้องตรวจครบทุกตำแหน่งหลัก จะถูกถ้ามีไข้ร่วมกับ donor site แดงบวมเป็นหนองชัดเจน",
+"D": "ผิด — อวัยวะในช่องท้องไม่ใช่กลุ่มตำแหน่งหลักตามสไลด์ แม้ acalculous cholecystitis เกิดได้ จะถูกถ้ามีไข้ร่วมปวดใต้ชายโครงขวา Murphy sign บวก",
+"E": "ผิด — สมอง ตา ข้อ กระดูก ไม่ใช่ตำแหน่งหลัก แม้ osteomyelitis เกิดได้ในแผลลึกถึงกระดูก จะถูกถ้าแผลไหม้ลึกถึงกระดูกแล้วมีไข้และกระดูกตายเปิด"
+},
+"trap": "แผลไหม้เป็นตำแหน่งที่นึกถึงก่อน แต่ต้องตรวจครบ 4 ที่: เลือด แผล ปอด ปัสสาวะ",
+"summary": [
+"Sites: blood stream, burn wound, lower respiratory tract, urinary tract (p68)",
+"Pneumonia พบบ่อยที่สุดในกลุ่ม infection ของ burn",
+"Suppurative thrombophlebitis จาก IV → เปลี่ยนสายทุก 72 ชม. (ชีท p22)",
+"เชื้อบ่อย: Pseudomonas, S. aureus · เชื้อรา Candida"
+]
+},
+"112": {
+"interp": "burn 45% septic แผลเน่าเหม็น → ถามชุดการจัดการผู้ป่วย septic",
+"why": "สไลด์หน้า 70 Management of the clinically septic patient: <b>Cardiopulmonary support · GI system support · Eschar debridement · Systemic antibiotics</b><br>ต้องประคับประคองระบบไหลเวียน/หายใจ ให้ enteral nutrition และกำจัดต้นเหตุ คือ eschar ที่ติดเชื้อ (source control) ร่วมกับยาปฏิชีวนะ IV ตามผลเพาะเชื้อหรือ empiric ตามเชื้อประจำ burn unit · ชีทหน้า 24: กำจัดต้นเหตุก่อน (eschar ที่ติดเชื้อ สายสวน) คุมไม่อยู่อาจต้องเปลี่ยน topical",
+"wrong": {
+"B": "ผิด — รอให้ไข้ลงก่อนผ่าตัดไม่ได้ eschar ติดเชื้อคือต้นเหตุ ต้องตัดออกเพื่อคุม sepsis จะถูกถ้าเป็นการผ่าตัดที่ไม่เร่งด่วน เช่น scar revision",
+"C": "ผิด — pressure garment ใช้ระยะ rehab หลังแผลปิด ไม่เกี่ยวกับ sepsis จะถูกถ้าโจทย์ถามการป้องกัน hypertrophic scar",
+"D": "ผิด — ยาทาอย่างเดียวไม่พอใน invasive infection เพราะ eschar ไม่มีเลือด ต้องผ่าตัด + ยา IV จะถูกถ้าโจทย์ถามการป้องกันการติดเชื้อในแผลที่ยังไม่ติดเชื้อ",
+"E": "ผิด — หยุดอาหารทำให้ภูมิและการหายแย่ลง ต้องให้ GI support/enteral ต่อ จะถูกถ้ามี ileus รุนแรงหรือ GI bleeding ที่ต้องงดอาหารชั่วคราว"
+},
+"trap": "ยาปฏิชีวนะอย่างเดียวไม่พอใน burn wound sepsis — ต้องตัด eschar ที่ติดเชื้อ (source control) ด้วย",
+"summary": [
+"Septic burn: cardiopulmonary + GI support + eschar debridement + systemic antibiotics (p70)",
+"Source control: eschar ที่ติดเชื้อ สายสวน",
+"Antibiotic ตามผลเพาะเชื้อ หรือ empiric ตามเชื้อประจำ burn unit",
+"Prophylactic systemic antibiotic ไม่มีประโยชน์ (ชีท p23)"
+]
+},
+"113": {
+"interp": "แผลเปลี่ยนลักษณะวันที่ 8 ส่ง quantitative eschar culture → ถามค่าที่สนับสนุน invasive burn wound infection",
+"why": "สไลด์หน้า 69 Wound surveillance: <b>Quantitative eschar cultures — more than 10⁵ organisms/gram tissue</b><br>ใช้ชิ้นเนื้อ eschar ชั่งน้ำหนักแล้วนับเชื้อ ถ้าเกิน 10⁵ ต่อกรัมเนื้อเยื่อ สนับสนุนการติดเชื้อที่รุกลึก ไม่ใช่แค่ colonization ที่ผิว · ชีทหน้า 23: ยังเป็นมาตรฐาน ทำสัปดาห์ละ 1–2 ครั้งเพื่อรู้ resident flora · histology ที่เห็นเชื้อรุก subeschar tissue ดีกว่า",
+"wrong": {
+"B": "ผิด — หน่วยต่อ mL ของเลือดไม่ใช่เกณฑ์ eschar culture จะถูกถ้าโจทย์ถามเกณฑ์นับเชื้อในตัวอย่างอื่น เช่น ปัสสาวะ ≥ 10⁵ CFU/mL",
+"C": "ผิด — ไม่มีเชื้อขึ้นไม่สนับสนุนการติดเชื้อ จะถูกถ้าโจทย์ถามผลที่ตัดการติดเชื้อของแผลได้",
+"D": "ผิด — surface swab ขึ้นเชื้อบอกได้แค่ colonization แผล burn ทุกแผลมีเชื้อ จะถูกถ้าโจทย์ถามว่าทำไม swab ผิวแผลไม่พอวินิจฉัย invasive infection",
+"E": "ผิด — 10² ต่อกรัมต่ำกว่าเกณฑ์มาก ถือเป็น colonization จะถูกถ้าโจทย์ถามระดับเชื้อที่ยังไม่ถือว่าติดเชื้อรุก"
+},
+"summary": [
+"Quantitative eschar culture > 10⁵ organisms/g tissue = burn wound infection (p69)",
+"Histology: เชื้อรุก viable subeschar tissue = invasive infection (ดีกว่า)",
+"Surface swab = colonization เท่านั้น",
+"ทำสัปดาห์ละ 1–2 ครั้ง (ชีท p23)"
+]
+},
+"114": {
+"interp": "สงสัย invasive burn wound infection → ถาม histology ที่เป็นการวินิจฉัย",
+"why": "สไลด์หน้า 69 Wound surveillance — Qualitative: <b>Histological examination = visualization of invading microorganisms of the subeschar tissue</b><br>eschar ตายแล้วมีเชื้ออยู่เสมอ (colonization) การติดเชื้อที่แท้จริงคือเชื้อลุกเข้าเนื้อเยื่อที่ยังมีชีวิตใต้ eschar ซึ่งจะไปต่อหลอดเลือดและ sepsis · ชีทหน้า 23: histology ที่เห็นเชื้อลุก subeschar tissue ดีกว่า quantitative culture",
+"wrong": {
+"A": "ผิด — granulation เป็นการหายปกติ ไม่ได้บ่งว่าติดเชื้อ จะถูกถ้าโจทย์ถามพื้นแผลที่พร้อมสำหรับวาง skin graft",
+"B": "ผิด — เชื้อที่ผิว eschar แห้งเป็นเพียง colonization ไม่ใช่ invasive จะถูกถ้าโจทย์ถามความแตกต่างระหว่าง colonization กับ infection (ข้อนี้คือ colonization)",
+"C": "ผิด — keratin pearl เป็นลักษณะของ squamous cell carcinoma จะถูกถ้าแผลเป็นเรื้อรังจาก burn หลายสิบปีกลายเป็น Marjolin ulcer",
+"E": "ผิด — neutrophil ใน epidermis พบได้ในการอักเสบทั่วไป ไม่ใช่เกณฑ์ invasive burn infection จะถูกถ้าโจทย์ถามลักษณะ pustule หรือการอักเสบตื้นของผิว"
+},
+"trap": "เชื้อบน eschar มีเสมอ — ต้องเห็นเชื้อ ‘รุก’ เนื้อที่ยังมีชีวิตใต้ eschar จึงจะเป็น invasive",
+"summary": [
+"Qualitative: histology เห็นเชื้อรุก subeschar tissue (p69)",
+"Quantitative: > 10⁵ organisms/g tissue",
+"Colonization ≠ infection",
+"สัญญาณ wound infection: แผลเปลี่ยนสี eschar แยกเร็ว partial → full graft หลุด"
+]
+},
+"115": {
+"interp": "swab ผิวแผลขึ้น Pseudomonas แต่แผลไม่เปลี่ยน → ถามวิธีแยก invasive infection กับ colonization",
+"why": "สไลด์หน้า 69 Wound surveillance: <b>Quantitative eschar cultures (&gt; 10⁵ organisms/g tissue)</b> · <b>Qualitative: histological examination</b> (เชื้อรุก subeschar tissue)<br>แผล burn ทุกแผลมีเชื้อปนเปื้อน swab ผิวจึงบอกได้แค่ colonization · ต้องใช้ tissue biopsy เพื่อนับเชื้อต่อกรัม หรือดู histology ว่าเชื้อลุกเนื้อดีหรือไม่ · ชีทหน้า 23: Pseudomonas และ S. aureus พบบ่อยที่สุด",
+"wrong": {
+"A": "ผิด — COHb ใช้ประเมินพิษ CO ไม่เกี่ยวกับการติดเชื้อแผล จะถูกถ้าโจทย์ถามการตรวจผู้ป่วยไฟไหม้ในที่ปิดที่สับสน",
+"C": "ผิด — urine output ใช้ประเมิน resuscitation ไม่ได้แยก colonization กับ infection จะถูกถ้าโจทย์ถามการติดตามความพอของสารน้ำ",
+"D": "ผิด — swab ซ้ำก็ยังเป็นเชื้อที่ผิว ไม่ได้บอกการรุกลึก จะถูกถ้าโจทย์ถามการเฝ้าระวังเชื้อประจำหน่วยแบบหยาบ ๆ (ไม่ใช่วินิจฉัย)",
+"E": "ผิด — ไม่ให้ prophylactic systemic antibiotic ใน burn และยังไม่ได้วินิจฉัยว่าติดเชื้อ จะถูกถ้ายืนยันแล้วว่า invasive infection จึงให้ยาตามเชื้อ"
+},
+"trap": "เห็น Pseudomonas ขึ้นแล้วรีบให้ยา — swab ผิวแผลบอกแค่ colonization ต้อง biopsy ก่อน",
+"summary": [
+"Surface swab = colonization (p69)",
+"Tissue biopsy: quantitative > 10⁵/g หรือ histology เห็นเชื้อรุก",
+"ไม่ให้ systemic antibiotic prophylaxis (ชีท p23)",
+"เชื้อบ่อย: Pseudomonas aeruginosa, S. aureus"
+]
+},
+"116": {
+"interp": "หญิง 176 lb burn 25% → แปลงเป็น kg แล้วคำนวณ Curreri",
+"why": "สไลด์หน้า 73 Curreri and Luterman (ผู้ใหญ่): <b>25 kcal/kg body weight plus 40 kcal per percentage burn</b><br>176 lb ÷ 2.2 = 80 kg → 25 × 80 + 40 × 25 = 2,000 + 1,000 = <b>3,000 kcal/วัน</b> · burn ใหญ่เป็น hypermetabolic state ต้องการพลังงานมาก · <b>นอกสไลด์:</b> Curreri มักให้พลังงานเกินจริงใน burn ใหญ่ มาตรฐานปัจจุบัน = indirect calorimetry ถ้ามี",
+"wrong": {
+"A": "ผิด — 2,000 kcal คือแค่ส่วน 25 × 80 ลืมบวก 40 × 25 จะถูกถ้าผู้ป่วยไม่มี burn (คิดแค่ 25 kcal/kg)",
+"B": "ผิด — 5,400 kcal เกิดจากใช้น้ำหนักเป็นปอนด์ (25 × 176 = 4,400 + 1,000) จะถูกถ้าโจทย์ให้น้ำหนัก 176 kg จริง",
+"C": "ผิด — 1,000 kcal คือแค่ส่วน 40 × 25 ลืมส่วนน้ำหนักตัว จะถูกถ้าโจทย์ถามเฉพาะพลังงานที่เพิ่มจาก burn",
+"D": "ผิด — 4,400 kcal คือ 25 × 176 (ใช้ปอนด์) ลืมส่วน burn จะถูกถ้าโจทย์ถามความต้องการพื้นฐานของคนน้ำหนัก 176 kg"
+},
+"trap": "น้ำหนักเป็นปอนด์ต้องหาร 2.2 · และต้องบวกสองส่วน (น้ำหนัก + %burn)",
+"summary": [
+"Curreri (ผู้ใหญ่): 25 kcal/kg + 40 kcal/%burn (p73)",
+"80 kg 25% → 3,000 kcal/วัน",
+"Burn ~40% → ใช้พลังงาน 2 เท่า (ชีท p30)",
+"มาตรฐานปัจจุบัน: indirect calorimetry"
+]
+},
+"117": {
+"interp": "70 kg burn 40% เริ่มโภชนาการ → ถามสูตรพลังงานผู้ใหญ่ในบทนี้ (Curreri)",
+"why": "สไลด์หน้า 73: <b>Curreri and Luterman formula (Adult) = 25 kcal/kg body weight + 40 kcal per % burn</b><br>ตัวอย่าง: 25 × 70 + 40 × 40 = 1,750 + 1,600 = 3,350 kcal/วัน · เด็กใช้ Davies (60 kcal/kg + 35 kcal/%) · ต้องแยกจากสูตรน้ำ Parkland (4 mL/kg/%) · ชีทหน้า 31: kcal : g N ≈ 100–150 : 1 · ไขมัน 25–40% · enteral เป็นหลัก",
+"wrong": {
+"A": "ผิด — 4 mL/kg/% คือสูตร Parkland สำหรับสารน้ำ ไม่ใช่พลังงาน จะถูกถ้าโจทย์ถามสูตรคำนวณ LR ใน 24 ชม.แรก",
+"B": "ผิด — 100 kcal/kg + 10 kcal/% ไม่ใช่สูตรในบท จะถูกถ้าโจทย์ถามสูตร maintenance น้ำของเด็ก 10 kg แรก (100 mL/kg) ซึ่งเป็นคนละเรื่อง",
+"C": "ผิด — 30 kcal/kg ไม่ปรับตาม burn ต่ำเกินสำหรับ hypermetabolism จะถูกถ้าเป็นผู้ป่วยทั่วไปที่ไม่มี burn ใหญ่",
+"E": "ผิด — 60 kcal/kg + 35 kcal/% คือ Davies สำหรับเด็ก จะถูกถ้าผู้ป่วยเป็นเด็ก burn ไม่เกิน 50%"
+},
+"trap": "สับสนกับ Parkland (4 mL/kg/%) และสลับค่าคงที่ของ Davies (60/35) กับ Curreri (25/40)",
+"summary": [
+"Curreri (ผู้ใหญ่): 25 kcal/kg + 40 kcal/% (p73)",
+"Davies (เด็ก ≤ 50%): 60 kcal/kg + 35 kcal/% (p74)",
+"Parkland เป็นสูตรน้ำ ไม่ใช่พลังงาน",
+"โปรตีนสูง ~1.5–2 g/kg/วัน · enteral เร็ว"
+]
+},
+"118": {
+"interp": "เด็ก 20 kg burn 30% → คำนวณ Davies",
+"why": "สไลด์หน้า 74 Davies formula (child up to 50% burns): <b>60 kcal/kg body weight plus 35 kcal per percentage burn</b><br>60 × 20 + 35 × 30 = 1,200 + 1,050 = <b>2,250 kcal/วัน</b> · เด็กต้องการพลังงานต่อ kg สูงกว่าผู้ใหญ่เพราะยังเจริญเติบโต (ค่าคงที่ 60 vs 25 ของ Curreri) · ชีทหน้า 31 ใช้สูตรเดียวกัน",
+"wrong": {
+"A": "ผิด — 1,200 kcal คือแค่ 60 × 20 ลืมส่วน burn จะถูกถ้าโจทย์ถามเฉพาะส่วนตามน้ำหนักตัว",
+"C": "ผิด — 3,000 kcal ไม่ตรงสูตร Davies จะถูกถ้าโจทย์เป็นผู้ใหญ่ 80 kg burn 25% ด้วยสูตร Curreri",
+"D": "ผิด — 1,700 kcal เกิดจากใช้ค่าคงที่ Curreri (25 × 20 + 40 × 30) จะถูกถ้าใช้สูตรผู้ใหญ่กับน้ำหนักและ %burn นี้",
+"E": "ผิด — 1,050 kcal คือแค่ 35 × 30 ลืมส่วนน้ำหนักตัว จะถูกถ้าโจทย์ถามเฉพาะพลังงานที่เพิ่มจาก burn"
+},
+"trap": "ใช้ค่าคงที่ผู้ใหญ่ (25/40) กับเด็กจะได้ 1,700 ซึ่งเป็นตัวลวง",
+"summary": [
+"Davies (เด็ก ≤ 50% burn): 60 kcal/kg + 35 kcal/% (p74)",
+"20 kg 30% → 2,250 kcal/วัน",
+"Curreri ผู้ใหญ่: 25 + 40",
+"เริ่ม enteral เร็ว เด็กเสี่ยง hypoglycemia"
+]
+},
+"119": {
+"interp": "เด็ก 15 kg scald 20% ต้องการโภชนาการ → ถามสูตรที่เหมาะ (Davies)",
+"why": "สไลด์หน้า 74: <b>Davies formula — Child (up to 50% burns)</b> = 60 kcal/kg + 35 kcal/%burn<br>ผู้ป่วยเป็นเด็กและ burn 20% (ไม่เกิน 50%) จึงใช้ Davies: 60 × 15 + 35 × 20 = 900 + 700 = 1,600 kcal/วัน · Curreri (p73) เป็นสูตรผู้ใหญ่ · Parkland และ Brooke เป็นสูตรสารน้ำ ไม่ใช่พลังงาน",
+"wrong": {
+"A": "ผิด — Brooke เป็นสูตรสารน้ำ (LR 1.5 + colloid 0.5 mL/kg/%) จะถูกถ้าโจทย์ถามสูตร resuscitation ที่มี colloid + D5W 2,000 mL",
+"C": "ผิด — Curreri เป็นสูตรพลังงานผู้ใหญ่ จะถูกถ้าผู้ป่วยเป็นผู้ใหญ่",
+"D": "ผิด — Harris–Benedict ไม่ปรับ stress factor ต่ำกว่าความต้องการจริงของ burn จะถูกถ้าโจทย์ถาม BMR ของคนทั่วไปที่ไม่มี burn",
+"E": "ผิด — Parkland เป็นสูตรสารน้ำ 4 mL/kg/% จะถูกถ้าโจทย์ถามปริมาณ LR ใน 24 ชม.แรก"
+},
+"trap": "ชื่อสูตรเยอะในบท — Parkland/Brooke = น้ำ · Curreri/Davies = พลังงาน (ผู้ใหญ่/เด็ก)",
+"summary": [
+"Davies = เด็ก (up to 50% burns) (p74)",
+"Curreri = ผู้ใหญ่ (p73)",
+"Parkland, Brooke, Evans = สูตรสารน้ำ",
+"Hypermetabolism ของ burn สูงสุดในบรรดาการบาดเจ็บ"
+]
+},
+"120": {
+"interp": "เด็ก 10 kg burn 40% → คำนวณ Davies",
+"why": "สไลด์หน้า 74 Davies: <b>60 kcal/kg body weight plus 35 kcal per percentage burn</b><br>60 × 10 + 35 × 40 = 600 + 1,400 = <b>2,000 kcal/วัน</b> · burn 40% ยังอยู่ในขอบเขตของสูตร (up to 50%) · เด็กเล็กต้องการพลังงานต่อ kg สูง และควรเริ่ม enteral feeding เร็วภายใน 24 ชม. · ติดตามน้ำหนักทุกวัน (ชีท: น้ำหนักลด &gt; 10% → แผลหาย/ภูมิบกพร่อง)",
+"wrong": {
+"A": "ผิด — 2,600 kcal ไม่ตรงสูตร (อาจเกิดจากคำนวณ 60 × 10 + 50 × 40) จะถูกถ้าใช้ค่าคงที่ต่อ %burn ที่สูงกว่า Davies",
+"B": "ผิด — 600 kcal คือแค่ 60 × 10 ลืมส่วน burn จะถูกถ้าโจทย์ถามส่วนพลังงานตามน้ำหนักตัวอย่างเดียว",
+"C": "ผิด — 1,850 kcal เกิดจากใช้ Curreri (25 × 10 + 40 × 40) จะถูกถ้าใช้สูตรผู้ใหญ่กับค่านี้",
+"E": "ผิด — 1,400 kcal คือแค่ 35 × 40 ลืมส่วนน้ำหนัก จะถูกถ้าโจทย์ถามพลังงานที่เพิ่มจาก burn อย่างเดียว"
+},
+"trap": "สลับค่าคงที่กับ Curreri จะได้ 1,850 · ลืมบวกส่วนใดส่วนหนึ่งจะได้ 600 หรือ 1,400",
+"summary": [
+"Davies: 60 × kg + 35 × % (p74)",
+"10 kg 40% → 2,000 kcal",
+"ใช้ได้กับ burn ไม่เกิน 50%",
+"ติดตามน้ำหนักทุกวัน + 24-hr UUN สัปดาห์ละครั้ง (ชีท p31)"
+]
+},
+"121": {
+"interp": "burn 55% ติดเชื้อซ้ำ ๆ → ถามข้อความที่ถูกเกี่ยวกับภูมิคุ้มกันที่ถูกกดหลัง burn",
+"why": "สไลด์หน้า 76 Immunosuppression: <b>Mechanical barrier · Non-specific immune response (vascular, cellular, humoral component) · Specific immune response</b><br>burn ใหญ่ไม่ได้เสียแค่ผิว แต่กดภูมิทุกระดับ: neutrophil chemotaxis/phagocytosis/killing ลด, complement และ opsonin ผิดปกติ, T-cell และ B-cell ลด → Ig ลด, suppressor cells เพิ่ม (ชีทหน้า 32) · mafenide และ sulfadiazine ลด chemotaxis ของ PMN ด้วย · จึงเสี่ยง sepsis ซึ่งเป็นสาเหตุตายหลักหลังพ้นช่วง burn shock",
+"wrong": {
+"B": "ผิด — immunosuppression เกิดในทุกวัย ไม่เฉพาะเด็ก จะถูกถ้าโจทย์ถามปัจจัยเสริมที่ทำให้ภูมิต่ำลงอีก (อายุสุดขั้ว เบาหวาน ยากดภูมิ)",
+"C": "ผิด — ไม่ได้เสียแค่ผิว ภูมิทั้ง non-specific และ specific ถูกกด จะถูกถ้าเป็นแผลถลอกเล็กที่เสียเฉพาะ mechanical barrier",
+"D": "ผิด — humoral (B-cell, Ig, complement) ก็ลดลง จะถูกถ้าโจทย์ถามส่วนที่ไม่ได้รับผลกระทบในแผลเล็กมาก",
+"E": "ผิด — specific immunity ลดลง ไม่ได้เพิ่ม (T-cell ลด suppressor เพิ่ม) จะถูกถ้าโจทย์ถามการตอบสนองของภูมิในช่วงหายแล้วได้รับวัคซีน"
+},
+"trap": "‘ผิวหนังหาย’ เป็นคำตอบที่ง่ายเกินไป — burn กดภูมิทั้ง non-specific และ specific",
+"summary": [
+"Immunosuppression: mechanical barrier + non-specific (vascular, cellular, humoral) + specific (p76)",
+"Neutrophil chemotaxis/phagocytosis ลด, complement/opsonin ลด, T/B cell ลด",
+"SSD และ mafenide ลด chemotaxis ของ PMN (ชีท p32)",
+"ผล: sepsis เป็นสาเหตุตายหลักหลังพ้น burn shock"
+]
+},
+"122": {
+"interp": "burn 50% ไข้ไม่ลด เลือดเพาะเชื้อขึ้นแม้ให้ยา เจอเส้นเลือดแข็งกดเจ็บมีหนองที่เคยแทง IV → ถามการวินิจฉัยและรักษา",
+"wrong": {
+"A": "ผิด — drug fever ไม่ทำให้เลือดเพาะเชื้อขึ้นและไม่มีหนองตามเส้นเลือด จะถูกถ้าไข้ขึ้นหลังเริ่มยาใหม่ ผลเพาะเชื้อทั้งหมดลบ และไข้หายหลังหยุดยา",
+"B": "ผิด — graft failure เป็นปัญหาที่แผลปลูกผิว ไม่ใช่เส้นเลือดที่เคยแทง IV จะถูกถ้า graft หลุดเปลี่ยนสีหลังผ่าตัด",
+"C": "ผิด — cellulitis ตื้นไม่อธิบายเส้นเลือดเป็นหนองที่ทำให้ bacteremia ต่อเนื่อง จะถูกถ้าผิวแดงบวมรอบแผลโดยไม่มีหนองในเส้นเลือดและเลือดเพาะเชื้อลบ",
+"D": "ผิด — DVT ไม่มีหนอง และยา anticoagulant อย่างเดียวไม่กำจัดแหล่งเชื้อ จะถูกถ้าน่องบวมกดเจ็บข้างเดียว ultrasound พบลิ่มเลือดใน deep vein ไม่มีไข้"
+},
+"trap": "ไข้ + เลือดเพาะเชื้อขึ้นตลอดแม้ให้ยา ทำให้คิดว่ายาไม่ครอบคลุม — ต้องหาแหล่งเชื้อที่ยาเข้าไม่ถึง (เส้นเลือดเป็นหนอง) แล้วผ่าตัดออก",
+"summary": [
+"Suppurative thrombophlebitis = complication ของ burn จากสาย IV (p77)",
+"เลือดเพาะเชื้อขึ้นต่อเนื่อง → ตัดเส้นเลือดที่ติดเชื้อออก",
+"ป้องกัน: เปลี่ยนสาย IV ทุก 72 ชม. (ชีท p22)",
+"Complications อื่น: wound sepsis, pulmonary, GI, orthopedic"
+]
+},
+"123": {
+"interp": "burn 45% อาเจียนเป็นเลือดวันที่ 6 → ถามภาวะแทรกซ้อนทาง GI ของ burn (Curling's ulcer)",
+"why": "สไลด์หน้า 77 Complications: <b>Gastrointestinal complications</b> · ชีทหน้า 33: GI bleeding จาก stress ulcer (Curling) เคยพบบ่อยและตายได้ → ป้องกันด้วย antacid / H₂ blocker<br>Curling's ulcer คือ stress ulcer ใน burn ใหญ่ เกิดจาก mucosal ischemia ช่วง shock และ hypersecretion · <b>นอกสไลด์:</b> ป้องกันด้วย PPI/H₂ blocker ร่วมกับ enteral feeding เร็ว · GI complications อื่น: ileus, acalculous cholecystitis, SMA syndrome",
+"wrong": {
+"A": "ผิด — มะเร็งกระเพาะไม่เกิดเฉียบพลันในวันที่ 6 หลัง burn จะถูกถ้าผู้สูงอายุมีน้ำหนักลด อิ่มเร็ว ซีดเรื้อรังหลายเดือน",
+"C": "ผิด — Mallory–Weiss เกิดจากอาเจียนรุนแรงหลังดื่มสุรา ไม่ใช่ภาวะเฉพาะของ burn จะถูกถ้าผู้ป่วยดื่มหนักอาเจียนหลายครั้งแล้วมีเลือดปน",
+"D": "ผิด — Boerhaave คือหลอดอาหารแตกทะลุ ปวดอกรุนแรง ไม่ใช่ stress ulcer จะถูกถ้าอาเจียนรุนแรงแล้วปวดอก มี subcutaneous emphysema",
+"E": "ผิด — Cushing's ulcer เป็น stress ulcer จาก head injury/โรคระบบประสาท ไม่ใช่ burn จะถูกถ้าผู้ป่วยบาดเจ็บศีรษะรุนแรง ICP สูง แล้วเลือดออกในกระเพาะ"
+},
+"trap": "Curling (burn) กับ Cushing (head injury/CNS) สลับกันบ่อย — จำว่า Curling = burn",
+"summary": [
+"Curling's ulcer = stress ulcer ใน burn (p77 · ชีท p33)",
+"ป้องกัน: PPI/H₂ blocker/antacid + enteral feeding เร็ว",
+"Cushing's ulcer = head injury",
+"GI complications อื่น: ileus, acalculous cholecystitis, SMA syndrome"
+]
+},
+"124": {
+"interp": "burn 30% ต้องการยาแก้ปวดในวันแรก ๆ → ถามวิธีที่ถือว่า ideal (morphine IV)",
+"why": "สไลด์หน้า 78 Pain control: <b>Morphine IV = ideal method</b><br>ช่วงแรกของ burn ใหญ่ perfusion ของผิวและกล้ามเนื้อลด การดูดซึมยาจาก IM/SC ไม่แน่นอน อาจไม่ออกฤทธิ์แล้วดูดซึมพร้อมกันทีหลังจนเกินขนาด · ให้ IV ขนาดน้อยแล้ว titrate (ชีทหน้า 33) · ให้ก่อนทำแผล และแบบตั้งเวลา ไม่ใช่ prn · ระยะสั้น &lt; 10 วันใช้ PCA ได้",
+"wrong": {
+"A": "ผิด — paracetamol ทางทวารอย่างเดียวไม่พอสำหรับปวดรุนแรงจาก burn 30% จะถูกถ้าเป็นยาเสริมแบบ multimodal หรือแผลเล็กในเด็ก",
+"B": "ผิด — SC ดูดซึมไม่แน่นอนช่วงที่ perfusion ลด และ prn คุมปวดไม่ดี จะถูกถ้าผู้ป่วย stable perfusion ดี แผลเล็ก ปวดเป็นครั้งคราว",
+"D": "ผิด — codeine กินแบบ prn อ่อนเกินไปสำหรับ burn 30% ช่วงแรก จะถูกถ้าเป็นแผลเล็กที่ดูแลแบบผู้ป่วยนอก",
+"E": "ผิด — IM ดูดซึมไม่แน่นอนใน burn และ pethidine มี metabolite สะสม จะถูกถ้าโจทย์ถามข้อห้ามของ IM injection ในช่วง burn shock (ไม่ใช่ข้อบ่งชี้)"
+},
+"trap": "IM/SC เป็นวิธีให้ยาแก้ปวดที่คุ้นใน ward — แต่ใน burn ช่วงแรก perfusion ลด ต้องให้ IV",
+"summary": [
+"Morphine IV = ideal (p78)",
+"ระยะสั้น < 10 วัน: PCA (คนไข้กดเอง)",
+"ปวดเรื้อรัง: methadone 5–10 mg q 8 hr (not prn)",
+"ให้ยาก่อนทำแผล + แบบตั้งเวลา + multimodal"
+]
+},
+"125": {
+"interp": "burn 25% คาดว่าต้องใช้ยาแก้ปวดแรงราว 1 สัปดาห์ → ถามวิธีที่แนะนำสำหรับระยะสั้น (PCA)",
+"why": "สไลด์หน้า 78: <b>Short period (&lt; 10 days) — Patient-controlled analgesia system</b> (ลายมือ = คนไข้กดเอง)<br>PCA ให้ผู้ป่วยกดรับ opioid IV ขนาดน้อยเมื่อปวด มี lockout ป้องกันเกินขนาด คุมปวดได้ดี เหมาะกับความปวดที่ผันผวน (ระหว่างทำแผล/กายภาพ) · ระยะเวลา 1 สัปดาห์อยู่ในช่วง &lt; 10 วัน · ถ้าปวดเรื้อรังนานกว่านั้นใช้ methadone 5–10 mg q 8 hr",
+"wrong": {
+"A": "ผิด — aspirin prn อ่อนเกินไปและรบกวนเกล็ดเลือด ไม่เหมาะกับปวดรุนแรง จะถูกถ้าเป็นปวดเล็กน้อยจากแผลตื้นขนาดเล็ก",
+"B": "ผิด — การกลัวติดยาจนไม่ให้ opioid ทำให้คุมปวดไม่ได้ ต้องให้อย่างเหมาะสม จะถูกถ้าโจทย์ถามความเชื่อผิดที่ควรแก้กับญาติ",
+"C": "ผิด — IM ดูดซึมไม่แน่นอนและทุก 12 ชม. ห่างเกินไปสำหรับ morphine จะถูกถ้าโจทย์ถามวิธีที่ไม่แนะนำใน burn",
+"D": "ผิด — methadone q 8 hr ใช้กับ chronic pain ไม่ใช่ระยะสั้น 1 สัปดาห์ จะถูกถ้ายังปวดมากหลังหลายสัปดาห์"
+},
+"trap": "methadone กับ PCA แยกด้วยระยะเวลา — < 10 วันใช้ PCA · เรื้อรังใช้ methadone",
+"summary": [
+"Short period (< 10 วัน) → PCA (p78)",
+"Chronic → methadone 5–10 mg q 8 hr (not prn)",
+"Morphine IV = ideal method",
+"ยาเสริมตอนทำแผลไม่ควรเปลี่ยนระดับความรู้สึกตัว (ชีท p33)"
+]
+},
+"126": {
+"interp": "ยังปวดมากหลัง burn 6 สัปดาห์ → ถามระบบยาสำหรับ chronic pain (methadone 5–10 mg q 8 hr แบบตั้งเวลา)",
+"why": "สไลด์หน้า 78: <b>Chronic pain — Methadone 5–10 mg on a q 8 hr (not prn)</b><br>methadone ออกฤทธิ์ยาว ให้ตามเวลาสม่ำเสมอเพื่อให้ระดับยาคงที่ ไม่ใช่รอปวดค่อยให้ · ชีทหน้า 33: ใช้ 2–3 วันกว่าระดับยาพอ · methadone ติดได้ → ค่อย ๆ ลดจนหยุด 7–10 วันก่อนกลับบ้าน · ยังปวดมากพิจารณา anxiolytic และดูแลจิตใจ",
+"wrong": {
+"A": "ผิด — methadone prn ไม่ได้ระดับยาคงที่ สไลด์ระบุชัดว่า not prn จะถูกถ้าเป็นยาเสริม short-acting ที่ให้ก่อนทำแผล",
+"B": "ผิด — 50 mg ทุก 8 ชม.สูงเกินขนาดที่สไลด์กำหนดมาก เสี่ยงกดการหายใจ จะถูกถ้าผู้ป่วยติด opioid เรื้อรังมาก่อนและต้องใช้ขนาดสูงภายใต้ผู้เชี่ยวชาญ",
+"C": "ผิด — paracetamol prn อย่างเดียวไม่พอสำหรับปวดรุนแรงเรื้อรังจาก burn จะถูกถ้าเป็นยาเสริมในแผนแบบ multimodal",
+"D": "ผิด — PCA เหมาะกับระยะสั้น < 10 วัน ไม่ใช่ใช้ไปเรื่อย ๆ จะถูกถ้าเป็นสัปดาห์แรกหลัง burn"
+},
+"trap": "ต้องจำทั้งขนาด (5–10 mg) ความถี่ (q 8 hr) และ ‘not prn’",
+"summary": [
+"Chronic pain: methadone 5–10 mg q 8 hr not prn (p78)",
+"ระดับยาพอหลัง 2–3 วัน (ชีท p33)",
+"ลดจนหยุด 7–10 วันก่อนกลับบ้าน",
+"Short period: PCA · ideal: morphine IV"
+]
+}
+}
