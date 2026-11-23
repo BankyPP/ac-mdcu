@@ -1,0 +1,190 @@
+{
+"MDCU67|RoA|50": {
+ "wrong": {
+  "A": "อาการที่พบบ่อยที่สุดของ constrictive pericarditis คือเหนื่อยง่าย/อ่อนเพลีย (dyspnea, fatigue จาก low cardiac output) · ท้องโต (ascites, hepatomegaly) และขาบวมพบได้จาก right heart failure แต่ไม่ใช่อาการหลัก · จะถูกถ้าโจทย์ถามอาการเด่นที่ทำให้สับสนกับโรคตับ",
+  "B": "Pulsus paradoxus เป็นลักษณะเด่นของ cardiac tamponade (พบใน constriction ได้เพียง ~1/3) และ AF ทำให้ประเมิน pulsus paradoxus ได้ยากขึ้น ไม่ได้ทำให้พบบ่อยขึ้น · constriction พบ Kussmaul sign มากกว่า · จะถูกถ้าโจทย์ถาม tamponade",
+  "C": "Previous cardiac surgery เป็นสาเหตุสำคัญในประเทศพัฒนาแล้ว แต่สาเหตุที่พบบ่อยที่สุดโดยรวมคือ idiopathic/viral (คีย์ลายมือ: C → idiopathic?) และในประเทศกำลังพัฒนารวมไทยคือ tuberculosis · จะถูกถ้าโจทย์ถามสาเหตุที่พบเพิ่มขึ้นในยุคปัจจุบันของประเทศตะวันตก",
+  "E": "All of the above ผิดเพราะ A, B, C ไม่ถูกต้อง เหลือเพียง D ที่ถูก (CT/MRI เห็น pericardium หนา) · จะถูกเฉพาะถ้าทุกข้อความเป็นจริง"
+ },
+ "summary": [
+  "Constrictive pericarditis: pericardium หนา/แข็งจำกัดการคลายตัวของหัวใจ → equalization ของ diastolic pressure, square root (dip-and-plateau) sign, ventricular interdependence",
+  "Physical exam: JVP สูง + Kussmaul sign, pericardial knock (early diastolic), hepatomegaly, ascites, edema · CXR/CT: pericardial calcification (TB), CT/MRI pericardium > 4 mm",
+  "แยกจาก restrictive cardiomyopathy ด้วย echo (respirophasic septal shift, mitral inflow variation > 25%, annulus reversus) และ cath · รักษา: pericardiectomy (TB ให้ยาต้านวัณโรคก่อน)"
+ ]
+},
+"MDCU67|RoA|51": {
+ "interp": "ข้อ EXCEPT — โจทย์ถามค่าใดใน pleural fluid <b>ไม่ใช่เกณฑ์ empyema</b> · ทุกช้อยเป็นตัวชี้วัด complicated parapneumonic effusion/empyema เพียงแต่ตัวเลข WBC 10,000 ไม่ตรงเกณฑ์ (เกณฑ์ศัลย์ใช้ > 15,000)",
+ "why": "เกณฑ์วินิจฉัย <b>empyema thoracis</b> (ตำราศัลย์/ATS) — มีข้อใดข้อหนึ่ง:<br>• หนองจริง (frank pus) จากการเจาะ<br>• <b>Gram stain หรือ culture บวก</b><br>• Biochemistry ของ complicated parapneumonic effusion: <b>pH < 7.0–7.2, glucose < 40 mg/dL, LDH > 1,000 IU/L</b><br>• WBC ใน pleural fluid สูงมาก <b>> 15,000/mm³</b> (คีย์ลายมือเขียน 15,000) — ไม่ใช่ 10,000<br>→ ข้อที่ไม่ใช่เกณฑ์คือ <b>B. WBC > 10,000</b> (ตรงคีย์ลายมือ ขีด B) · ทั้งนี้ BTS ปัจจุบันเน้น pH < 7.2 เป็นตัวตัดสินใส่ chest drain มากกว่าค่า WBC",
+ "wrong": {
+  "A": "ข้อความนี้เป็นเกณฑ์จริง — Gram stain บวกใน pleural fluid แปลว่ามีเชื้อใน pleural space (infected effusion) ต้องระบายด้วย chest drain ทุกราย แม้ของเหลวยังไม่ขุ่นเป็นหนอง",
+  "C": "ข้อความนี้เป็นเกณฑ์จริง — LDH > 1,000 IU/L สะท้อนการอักเสบ/เซลล์แตกจำนวนมากใน pleural space พบใน complicated parapneumonic effusion/empyema (ต่างจาก Light's criteria ที่ใช้แยก exudate)",
+  "D": "ข้อความนี้เป็นเกณฑ์จริง — glucose < 40 mg/dL เพราะเชื้อและเม็ดเลือดขาวใช้กลูโคส พบใน empyema (และ rheumatoid effusion, TB, malignancy) · ต้องระบาย",
+  "E": "ข้อความนี้เป็นเกณฑ์จริง — pH < 7.0 (BTS ใช้ < 7.2) จากการสร้าง lactic acid และ CO2 ใน pleural space เป็นตัวชี้วัดที่แม่นที่สุดว่าต้องใส่ chest drain (ต้องวัดด้วย blood gas analyzer)"
+ },
+ "trap": "ตัวเลขหลอก: เกณฑ์ WBC คือ > 15,000 ไม่ใช่ 10,000 · และอย่าสับสนกับ Light's criteria (protein ratio > 0.5, LDH ratio > 0.6, LDH > 2/3 ULN) ซึ่งใช้แยก exudate กับ transudate ไม่ใช่วินิจฉัย empyema",
+ "summary": [
+  "Parapneumonic effusion 3 ระยะ: exudative (ใส ไหลอิสระ) → fibrinopurulent (loculation, pH/glucose ต่ำ) → organizing (peel หนา ปอดขยายไม่ได้ = trapped lung)",
+  "รักษา: antibiotics + chest drain เมื่อเป็นหนอง/stain บวก/pH < 7.2 · loculated → intrapleural tPA + DNase (MIST-2) · ไม่ดีขึ้น/organizing → VATS/open decortication",
+  "ประเด็นเดียวกับปี 68 R3 — จำตัวเลขชุด pH < 7.2, glucose < 40 (หรือ < 60), LDH > 1,000, WBC > 15,000"
+ ]
+},
+"MDCU67|RoA|52": {
+ "wrong": {
+  "A": "ปรับยา (diuretic, β-blocker/rate control, anticoagulant ถ้ามี AF) ช่วยคุมอาการ แต่ไม่แก้ลิ้นตีบ · ผู้ป่วยมีอาการแม้ได้ยาแล้ว เป็นข้อบ่งชี้ intervention · จะถูกถ้าเป็น asymptomatic MS หรือ MS ระดับไม่รุนแรง",
+  "C": "Mitral valve replacement ทำเมื่อ PBMV ทำไม่ได้: Wilkins score สูง (> 8) ลิ้นหนา calcified มาก, มี LA thrombus ที่ไม่หาย, MR ปานกลาง–รุนแรง (คีย์ลายมือ: C/I PBMV) · ผู้ป่วยรายนี้ไม่มีข้อห้ามเหล่านี้ · จะถูกถ้าลิ้นแข็งมีหินปูนมากหรือ MR ≥ moderate",
+  "D": "Open mitral commissurotomy (OMC) เป็นทางเลือกเมื่อลิ้นยังซ่อมได้แต่มีข้อห้าม PBMV เช่น LA thrombus หรือ PBMV ล้มเหลว · เป็นการผ่าตัดเปิดหัวใจที่ invasive กว่า PBMV · จะถูกถ้ามี LA clot ที่ไม่หายหลัง anticoagulation แต่ลิ้น pliable",
+  "E": "All of the above ไม่เหมาะเพราะโจทย์ถามการรักษาที่ควรทำในผู้ป่วยรายนี้ ซึ่งมีตัวเลือกที่ดีที่สุดชัดเจนคือ PBMV · (ต่างจากปี 66 X19 ที่ถามรวมทางเลือกการรักษา MS ทั้งหมด จึงตอบ All of the above)"
+ },
+ "summary": [
+  "Severe MS: MVA ≤ 1.5 cm² (very severe ≤ 1.0) · mean gradient > 10 mmHg · PASP > 50 mmHg · สาเหตุส่วนใหญ่ในไทย = rheumatic heart disease",
+  "ก่อน PBMV ต้องทำ TEE ตัด LA/LAA thrombus และประเมิน Wilkins score (mobility, thickening, calcification, subvalvular 1–4 คะแนนต่อหัวข้อ) — ≤ 8 เหมาะทำ PBMV",
+  "ACC/AHA: PBMV class I ใน symptomatic severe MS + favorable morphology + ไม่มี LA thrombus + MR ≤ mild · ผ่าตัด (MVR/OMC) เมื่อ PBMV ห้ามหรือร่วมกับผ่าตัดหัวใจอื่น"
+ ]
+},
+"MDCU67|RoA|53": {
+ "wrong": {
+  "A": "ยาอย่างเดียวไม่พอ — ผู้ป่วยมีอาการ NYHA FC III (เหนื่อยจนทำงานไม่ได้) จาก severe MS + severe TR ซึ่งเป็นข้อบ่งชี้ผ่าตัด · จะถูกถ้าเป็นโรคลิ้นหัวใจระดับ mild/moderate ที่ไม่มีอาการ",
+  "B": "Balloon valvotomy (PBMV) แก้ได้เฉพาะ MS และไม่แก้ severe TR · ในรายที่ต้องผ่าตัด TR อยู่แล้ว ควรแก้ลิ้นทั้งสองในการผ่าตัดครั้งเดียว · จะถูกถ้าเป็น isolated severe MS ที่ลิ้นเหมาะและ TR ไม่รุนแรง",
+  "C": "MV repair ในลิ้น rheumatic ที่ตีบรุนแรง (หนา แข็ง commissure เชื่อม subvalvular apparatus หดสั้น) ผลระยะยาวไม่ดี กลับมาตีบ/รั่วซ้ำสูง จึงมักเลือก replacement · จะถูกถ้าเป็น degenerative MR (mitral valve prolapse) ที่ repair ได้ผลดี",
+  "E": "TV replacement ไม่จำเป็นเพราะ TR ใน left-sided valve disease ส่วนใหญ่เป็น functional (annulus ขยายจาก RV dilatation) แก้ด้วย tricuspid annuloplasty (ring) ได้ผลดีและเลี่ยงปัญหาของลิ้นเทียมฝั่งขวา · จะถูกถ้า TV มีพยาธิสภาพเองจนซ่อมไม่ได้ (endocarditis, carcinoid)"
+ },
+ "summary": [
+  "Functional TR ใน left-sided valve disease: ซ่อมพร้อมผ่าตัดลิ้นซ้ายเมื่อ TR severe หรือ TR น้อยกว่าแต่ annulus ขยาย > 40 mm (21 mm/m²) เพราะถ้าไม่ซ่อม TR มักแย่ลงและผ่าตัดซ้ำมีความเสี่ยงสูง",
+  "Tricuspid annuloplasty (ring หรือ De Vega) เป็นมาตรฐาน · replacement สงวนไว้สำหรับลิ้นที่มีพยาธิสภาพเองหรือซ่อมไม่ได้",
+  "Rheumatic mitral disease: PBMV ถ้าลิ้นเหมาะ · ผ่าตัดเมื่อมีโรคร่วม (severe TR, aortic valve disease, CAD) หรือ morphology ไม่เหมาะ · หลัง MVR (mechanical) ต้อง warfarin ตลอดชีวิต"
+ ]
+},
+"MDCU67|RoA|54": {
+ "why": "<b>LIMA (left internal mammary artery) → LAD</b> เป็นหัวใจของ CABG:<br>• <b>Patency 90–95% ที่ 10 ปี</b> (เอกสารในคีย์) เพราะ IMA ทน atherosclerosis (internal elastic lamina ต่อเนื่อง, endothelium สร้าง NO/prostacyclin มาก)<br>• LAD เลี้ยงกล้ามเนื้อหัวใจมากที่สุด (anterior wall + 2/3 ของ septum) การรักษา flow ของ LAD ระยะยาวจึงส่งผลต่อการรอดชีวิตมากที่สุด<br>• หลักฐานตั้งแต่การศึกษา Cleveland Clinic (Loop et al.) พบว่า LIMA–LAD เพิ่ม long-term survival ลดการเกิด MI และการผ่าตัดซ้ำ เทียบกับ SVG–LAD<br>→ guideline ACC/AHA ให้ LIMA–LAD เป็น class I · ตอบ <b>E</b> (ตรงคีย์ลายมือ)",
+ "wrong": {
+  "A": "LIMA ต่อ LCX ใช้ได้ (ผ่าน transverse sinus หรือ sequential) และมี patency ดีเช่นกัน แต่ LCX เลี้ยงกล้ามเนื้อน้อยกว่า LAD และการใช้ LIMA ไปที่อื่นทำให้เสียโอกาส LIMA–LAD · จะถูกถ้า LAD ไม่มีพยาธิสภาพ/เคย graft แล้ว",
+  "B": "SVG (saphenous vein graft) patency ต่ำกว่ามาก (~50–60% ที่ 10 ปี) จาก intimal hyperplasia และ graft atherosclerosis · ใช้กับเป้าหมายรอง (LCX, RCA) · จะถูกถ้าโจทย์ถาม conduit ที่ใช้บ่อยรองลงมาหรือ graft ที่ล้มเหลวบ่อยที่สุด",
+  "C": "Radial artery ต่อ RCA ได้ผลดีกว่า SVG เมื่อ target มี high-grade stenosis (> 70–90%) แต่ถ้า stenosis ไม่มากจะเกิด competitive flow และ graft ตัน · RCA มี competitive flow บ่อย · จะถูกถ้าโจทย์ถาม second arterial conduit ที่เหมาะกับ RCA ที่ตีบรุนแรง",
+  "D": "Radial artery ต่อ left coronary system (OM/diagonal) เป็น second arterial graft ที่ดีกว่า SVG แต่ผลต่อ survival น้อยกว่า LIMA–LAD และเสี่ยง vasospasm (ต้องให้ CCB/nitrate) · จะถูกถ้าโจทย์ถาม conduit ที่สองเพื่อเพิ่ม arterial revascularization"
+ },
+ "summary": [
+  "Conduit ใน CABG: LIMA (ดีที่สุด) > RIMA (bilateral IMA อาจเพิ่ม survival แต่เสี่ยง sternal wound infection ในเบาหวาน/อ้วน) > radial artery > SVG",
+  "ข้อบ่งชี้ CABG มากกว่า PCI: left main disease, 3-vessel disease (โดยเฉพาะ SYNTAX สูง), multivessel disease ในเบาหวาน (FREEDOM trial), LV dysfunction",
+  "ก่อนเก็บ radial artery ต้องทำ Allen test เพื่อยืนยัน ulnar collateral flow · SVG เก็บจาก great saphenous vein (endoscopic/open)"
+ ]
+},
+"MDCU67|RoA|55": {
+ "wrong": {
+  "A": "Pleural fluid ขุ่นไม่จำเพาะต่อ empyema — อาจเป็น chylothorax (สีขาวขุ่นเหมือนน้ำนม triglyceride > 110), pseudochylothorax หรือเซลล์มาก · ต้องดู biochemistry/stain ประกอบ · จะถูกถ้าเป็นหนองข้นชัดเจน (frank pus) ซึ่งวินิจฉัย empyema ได้เลย",
+  "B": "Air-fluid level ใน parenchyma (ผนังหนา กลม มุมแหลมกับผนังอก) = lung abscess (คีย์ลายมือ: B lung abscess) · ถ้าเป็น air-fluid level ใน pleural space ต้องนึกถึง bronchopleural fistula หรือหลังเจาะ · จะถูกถ้าโจทย์ถาม imaging ของ lung abscess",
+  "C": "pH < 7 เป็นเกณฑ์ empyema จริง แต่ไม่ใช่คำตอบเดียวที่ถูก เพราะ Gram stain บวกก็เป็นเกณฑ์ด้วย ช้อย E รวมทั้งสองไว้ · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถามตัวชี้วัด biochemistry ที่ดีที่สุดว่าต้องใส่ chest drain",
+  "D": "เห็นเชื้อใน Gram stain เป็นเกณฑ์ empyema จริง แต่ไม่ครบเพราะ pH < 7 ก็ถูกเช่นกัน (ช้อย E) · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถามข้อพิสูจน์ว่ามีการติดเชื้อใน pleural space"
+ },
+ "summary": [
+  "Empyema vs lung abscess บน CT: empyema = lenticular, split pleura sign (parietal + visceral pleura หนาแยกกัน), มุมป้านกับผนังอก, กดเบียดปอด · abscess = กลม ผนังหนาไม่เรียบ มุมแหลม อยู่ในเนื้อปอด",
+  "รักษา empyema: chest drain + antibiotics (ครอบคลุม anaerobe ใน community-acquired) · ไม่ใช้ drain ใน lung abscess เพราะเสี่ยง BPF/ปน pleural space",
+  "Organizing empyema/trapped lung → decortication (VATS หรือ open) · ผู้ป่วยไม่พร้อมผ่าตัด → open drainage (Eloesser flap)"
+ ]
+},
+"MDCU67|RoA|56": {
+ "wrong": {
+  "B": "Intercostal chest drain ใช้ระบาย pleural space (empyema, pneumothorax, hemothorax) · การใส่ drain เข้าไปใน lung abscess ผ่าน pleura ที่ยังไม่ติดกันเสี่ยง empyema/BPF · จะถูกถ้า abscess แตกเข้าช่องเยื่อหุ้มปอดเป็น pyopneumothorax",
+  "C": "Lobectomy ฉุกเฉินไม่ใช่การรักษาแรก ใช้เมื่อ massive hemoptysis, ล้มเหลวกับยา, สงสัยมะเร็ง, ก้อนใหญ่มาก · ผ่าตัดในระยะเฉียบพลันเสี่ยง spillage ไปปอดอีกข้าง · จะถูกถ้าโจทย์มีเลือดออกมาก > 600 mL/วัน หรือก้อนเป็นมะเร็ง",
+  "D": "Percutaneous needle aspiration/catheter drainage (CT-guided) ใช้เมื่อไม่ตอบสนองต่อ antibiotics หรือผู้ป่วยเสี่ยงผ่าตัดสูง ไม่ใช่ขั้นแรกของ uncomplicated abscess · จะถูกถ้าไข้ไม่ลง ก้อนโตขึ้นหลังให้ยา 1–2 สัปดาห์",
+  "E": "Bronchial stent ใช้แก้ airway stenosis/compression หรือ fistula ไม่ได้ช่วยระบายฝีในปอด · bronchoscopy มีบทบาทในการตัด endobronchial obstruction (มะเร็ง สิ่งแปลกปลอม) ที่เป็นสาเหตุ · จะถูกถ้าโจทย์เป็น malignant central airway obstruction"
+ },
+ "summary": [
+  "Lung abscess ส่วนใหญ่ระบายตัวเองผ่านหลอดลม → antibiotics ครอบคลุม anaerobe (ampicillin-sulbactam, clindamycin, carbapenem) นาน 4–6 สัปดาห์หรือจน imaging ดีขึ้น + postural drainage/chest physiotherapy",
+  "Bronchoscopy ทำเพื่อตัด obstructing lesion (มะเร็งหลอดลม สิ่งแปลกปลอม) โดยเฉพาะในผู้ไม่มีปัจจัยเสี่ยง aspiration หรือไม่ตอบสนองต่อยา",
+  "ล้มเหลวกับยา → percutaneous drainage หรือผ่าตัด (lobectomy/segmentectomy) · ใช้ double-lumen tube ป้องกันหนองไหลไปปอดอีกข้าง"
+ ]
+},
+"MDCU67|RoA|57": {
+ "wrong": {
+  "B": "Hemoptysis เป็นครั้งคราวพบได้บ่อยใน lung abscess และรักษาด้วยยา · ข้อบ่งชี้ผ่าตัดคือ massive/life-threatening hemoptysis (คีย์ลายมือ: B ต้อง massive) · จะถูกถ้าโจทย์เป็นเลือดออก > 200–600 mL/24 ชม. หรือทำให้ airway/hemodynamics ไม่คงที่",
+  "C": "Bronchopleural fistula/empyema จาก abscess แตก รักษาด้วยการระบาย pleural space ก่อน (chest drain) และผ่าตัดถ้า fistula ไม่ปิด · บางตำรานับเป็นข้อบ่งชี้ผ่าตัด แต่คีย์เลือก A ที่เป็นข้อบ่งชี้หลักที่ชัดที่สุด · จะถูกถ้าโจทย์ระบุ BPF ที่ไม่ปิดหลังระบาย",
+  "D": "Multiple small bilateral abscesses ในผู้ป่วยภูมิคุ้มกันต่ำมักเกิดจาก hematogenous spread (septic emboli, S. aureus, fungus) รักษาด้วยยาเป็นหลัก ผ่าตัดไม่ได้ช่วยและเสี่ยงสูง · จะถูกถ้าเป็นก้อนเดี่ยวใหญ่ที่ไม่ตอบสนองต่อยา",
+  "E": "All of the above ผิดเพราะ B (hemoptysis เล็กน้อย) และ D (bilateral small abscesses) ไม่ใช่ข้อบ่งชี้ผ่าตัด · จะถูกเฉพาะถ้าทุกข้อเป็นข้อบ่งชี้จริง"
+ },
+ "trap": "คำว่า 'occasional' hemoptysis เป็นตัวหลอก — ต้อง massive เท่านั้น · และ BPF แม้เป็นภาวะแทรกซ้อนรุนแรง แต่ขั้นแรกคือ chest drain ไม่ใช่ผ่าตัดทันที · ข้อ 'สองสัปดาห์' คือระยะเวลาที่เริ่มถือว่าล้มเหลวกับยา",
+ "summary": [
+  "ข้อบ่งชี้ผ่าตัด lung abscess: ไม่ตอบสนองต่อยา, abscess ใหญ่ > 6 cm, massive hemoptysis, สงสัยมะเร็ง, BPF/empyema ที่ไม่หายหลังระบาย, chronic abscess ที่ยังมีอาการ",
+  "ผ่าตัดที่ใช้: lobectomy (มากที่สุด) หรือ segmentectomy · pneumonectomy เมื่อทำลายทั้งปอด · ต้องใช้ lung isolation (double-lumen tube)",
+  "Prognosis แย่ใน: abscess ใหญ่, ภูมิคุ้มกันต่ำ, เกิดจาก obstruction (มะเร็ง), เชื้อ S. aureus/Klebsiella/Pseudomonas, ผู้สูงอายุ"
+ ]
+},
+"MDCU67|RoA|58": {
+ "wrong": {
+  "A": "ข้อความผิด — กลไกหลักของ lung abscess คือ aspiration ของเชื้อในช่องปาก (คีย์ลายมือ: A aspiration) ในผู้ที่ระดับความรู้สึกตัวลดลง (สุรา ชัก ดมยา) ร่วมกับฟันผุ · hematogenous seeding พบใน septic emboli (IV drug use, tricuspid endocarditis) ซึ่งเป็นแบบ multiple",
+  "C": "ข้อความผิด — เสมหะเหม็น (putrid sputum จาก anaerobe) และ hemoptysis พบบ่อยใน lung abscess (คีย์ลายมือ: C common) ร่วมกับไข้ ไอ น้ำหนักลดแบบค่อยเป็นค่อยไป · จะเป็นข้อถูกถ้าพูดถึง abscess ระยะต้นที่ยังไม่ติดต่อกับหลอดลม",
+  "D": "ข้อความผิด — เชื้อที่พบบ่อยคือ anaerobe ในช่องปาก (Peptostreptococcus, Prevotella, Fusobacterium, Bacteroides) แบบ polymicrobial (คีย์ลายมือ: D anaerobe) · S. aureus, Klebsiella พบใน necrotizing pneumonia/ผู้ป่วยในโรงพยาบาล/หลังไข้หวัดใหญ่",
+  "E": "None of the above ผิดเพราะข้อ B เป็นข้อความที่ถูก (abscess พบบ่อยใน dependent segment ของปอดขวา) · จะถูกเฉพาะถ้าทุกข้อผิด"
+ },
+ "summary": [
+  "Dependent segments ตามท่า: นอนหงาย → posterior segment ของ upper lobe และ superior segment ของ lower lobe · ยืน/นั่ง → basal segments ของ lower lobe",
+  "ปอดขวาพบบ่อยกว่าเพราะ right main bronchus กว้าง สั้น และแนวตรงกว่า (เช่นเดียวกับสิ่งแปลกปลอม)",
+  "Primary abscess (aspiration ในคนไม่มีโรค) พยากรณ์ดี · secondary (มี obstruction จากมะเร็ง, bronchiectasis, ภูมิต่ำ, septic emboli) ต้องหาและแก้สาเหตุ"
+ ]
+},
+"MDCU67|RoA|59": {
+ "wrong": {
+  "B": "ข้อความนี้ถูก — post-sternotomy mediastinitis/deep sternal wound infection เชื้อหลักคือ S. aureus (รวม MRSA ตามคีย์ลายมือ) และ coagulase-negative staphylococci · ปัจจัยเสี่ยง: เบาหวาน อ้วน bilateral IMA harvest COPD ผ่าตัดนาน",
+  "C": "ข้อความนี้ถูก — descending necrotizing mediastinitis เกิดจากการติดเชื้อในช่องปาก/คอ (odontogenic, peritonsillar/retropharyngeal abscess, Ludwig angina) ลุกลามลงตาม fascial planes (retropharyngeal/danger space) เข้าสู่ mediastinum",
+  "D": "ข้อความนี้ถูก — esophageal perforation (Boerhaave, iatrogenic จาก endoscopy, สิ่งแปลกปลอม) เป็นสาเหตุสำคัญของ acute mediastinitis ที่อัตราตายสูง ต้องซ่อม/ระบายภายใน 24 ชม.",
+  "E": "None of the above ไม่ถูกเพราะมีข้อความที่ผิดจริงคือ A (antibiotics อย่างเดียวไม่พอ) · จะเป็นคำตอบเฉพาะถ้าทุกข้อความถูก"
+ },
+ "summary": [
+  "Acute mediastinitis 3 กลุ่ม: post-sternotomy, esophageal perforation, descending necrotizing (จากคอ) · อัตราตายสูง ต้อง source control + drainage + debridement + broad-spectrum antibiotics",
+  "Descending necrotizing mediastinitis: CT คอ–ทรวงอกทุกราย · ถ้าลามต่ำกว่า carina ต้องระบายทาง thorax (VATS/thoracotomy) ร่วมกับ cervical drainage",
+  "Post-sternotomy mediastinitis: เปิดแผล debride เอา wire ออก → NPWT → ปิดด้วย muscle flap (pectoralis major, rectus abdominis) หรือ omental flap"
+ ]
+},
+"MDCU67|RoA|60": {
+ "wrong": {
+  "B": "Ventricular septal rupture ทำให้มี holosystolic murmur ใหม่ (มักมี thrill ที่ left sternal border) และ cardiogenic shock ได้เช่นกัน แต่ echo เห็น septal defect + left-to-right shunt (O2 step-up ใน RV) ไม่ใช่ flail mitral leaflet · จะถูกถ้า echo พบรูที่ septum",
+  "C": "Free wall rupture ทำให้ hemopericardium → cardiac tamponade, PEA, เสียชีวิตเฉียบพลัน ไม่มี murmur ใหม่ · echo เห็น pericardial effusion · จะถูกถ้าโจทย์เป็นความดันตกกะทันหัน JVP สูง เสียงหัวใจเบาหลัง MI",
+  "D": "Pericarditis หลัง MI (early ใน 1–3 วัน หรือ Dressler syndrome หลังสัปดาห์) ให้เจ็บหน้าอกตามท่า + pericardial friction rub ไม่ใช่ holosystolic murmur และไม่ทำให้ acute pulmonary edema · จะถูกถ้ามี friction rub + diffuse ST elevation",
+  "E": "Aortic dissection อาจทำให้มี diastolic murmur ของ aortic regurgitation และ MI (ลามเข้า coronary ostium โดยเฉพาะ RCA) แต่ไม่ทำให้ flail mitral leaflet · จะถูกถ้าเจ็บหน้าอกทะลุหลัง ความดันแขนสองข้างต่าง mediastinum กว้าง"
+ },
+ "summary": [
+  "Mechanical complications หลัง MI (มักวันที่ 3–5, ลดลงมากในยุค primary PCI): papillary muscle rupture, VSR, free wall rupture, LV aneurysm/pseudoaneurysm",
+  "Papillary muscle rupture: posteromedial พบบ่อยกว่า (เลือดเลี้ยงจาก PDA เส้นเดียว, inferior MI) · anterolateral มีเลือดเลี้ยงสองทาง (LAD + LCX) · ทำให้ acute severe MR, pulmonary edema, shock",
+  "รักษา: afterload reduction (nitroprusside), IABP/mechanical support เป็น bridge → emergency mitral valve replacement (หรือ repair)"
+ ]
+},
+"MDCU67|RoA|61": {
+ "wrong": {
+  "A": "Subfalcine (cingulate) herniation — cingulate gyrus เลื่อนใต้ falx cerebri อาจกด anterior cerebral artery ทำให้ขาข้างตรงข้ามอ่อนแรง · ไม่ทำให้ pupil ขยายข้างเดียว · จะถูกถ้า CT เห็น midline shift โดยยังไม่มี pupillary change",
+  "B": "Central (transtentorial) herniation — diencephalon/ก้านสมองถูกกดลงตรงกลางจาก mass สองข้างหรือ diffuse edema ทำให้ pupil เล็กสองข้าง (ระยะแรก) ซึม Cheyne-Stokes แล้ว decorticate → decerebrate ทั้งสองข้าง · จะถูกถ้าเป็น diffuse brain swelling",
+  "D": "Tonsillar herniation — cerebellar tonsil ลงผ่าน foramen magnum กด medulla ทำให้หยุดหายใจ, Cushing response, คอแข็ง/เอียง เสียชีวิตเร็ว · มักเกิดจาก posterior fossa mass หรือ LP ใน ICP สูง · จะถูกถ้าผู้ป่วยหยุดหายใจกะทันหัน",
+  "E": "Transcalvarial (external) herniation — เนื้อสมองโป่งออกทางรูกะโหลกที่แตกหรือหลังทำ craniectomy · ไม่ใช่สาเหตุของ pupil ขยายและ posturing ในโจทย์ · จะถูกถ้าโจทย์บอกหลังผ่าตัดเอากระดูกออกแล้วสมองบวมยื่นออก"
+ },
+ "trap": "Lucid interval ชี้ไปที่ epidural hematoma (คีย์ลายมือ: middle meningeal artery) ซึ่งเป็นสาเหตุ แต่ข้อนี้ถามชนิดของ herniation · ข้างของ pupil ที่ขยาย (ซ้าย) บอกข้างของรอยโรคได้น่าเชื่อถือกว่า motor sign",
+ "summary": [
+  "Uncal herniation triad: pupil ขยายไม่ตอบสนองข้างเดียวกับรอยโรค (CN III ถูกกด — parasympathetic fiber อยู่ผิวนอก), อ่อนแรง/posturing ข้างตรงข้าม (cerebral peduncle), ระดับความรู้สึกตัวลดลง",
+  "การจัดการเบื้องต้นระหว่างเตรียมผ่าตัด: intubate, หัวสูง 30°, hyperventilation ชั่วคราว (PaCO2 30–35), mannitol 1 g/kg หรือ hypertonic saline → CT → craniotomy ด่วน",
+  "Herniation syndromes อื่น: subfalcine, central, upward (posterior fossa mass), tonsillar, external — แต่ละแบบมีอาการตามโครงสร้างที่ถูกกด"
+ ]
+},
+"MDCU67|RoA|62": {
+ "wrong": {
+  "B": "Chronic subdural hematoma พบในผู้สูงอายุ/ติดสุรา บาดเจ็บเล็กน้อยหรือจำไม่ได้ อาการค่อยเป็นค่อยไปเป็นสัปดาห์ (สับสน ปวดหัว อ่อนแรง) · CT เห็น crescent-shaped hypodense · จะถูกถ้าโจทย์เป็นผู้สูงอายุสับสนมากขึ้นหลังล้ม 3 สัปดาห์",
+  "C": "Intracerebral hemorrhage/contusion หลังบาดเจ็บมักทำให้หมดสติหรือมี deficit ตั้งแต่แรก ไม่มี lucid interval ชัดเจน อาจโตขึ้น (blossoming) ใน 24–72 ชม. · จะถูกถ้าเป็นผู้ป่วยความดันสูงที่มีอาการอ่อนแรงเฉียบพลันไม่มีบาดเจ็บ",
+  "D": "Traumatic SAH พบบ่อยหลังบาดเจ็บ แต่เลือดกระจายในร่องสมองบางๆ ไม่ใช่ mass ที่ทำให้ herniation · aneurysmal SAH ปวดหัวรุนแรงที่สุดในชีวิต คอแข็ง · จะถูกถ้าโจทย์เป็น thunderclap headache",
+  "E": "Intraventricular hemorrhage ทำให้ hydrocephalus ได้ แต่ไม่ทำให้ unilateral mass effect ร่วมกับบวมที่ scalp บริเวณ temporal · พบในทารกคลอดก่อนกำหนด หรือ ICH ที่แตกเข้า ventricle · จะถูกถ้าโจทย์เป็น preterm infant ที่ซึม กระหม่อมโป่ง"
+ },
+ "summary": [
+  "Acute EDH: เกือบทั้งหมดมี skull fracture ที่ temporal ฉีก middle meningeal artery · CT = biconvex (lentiform) hyperdensity ไม่ข้าม suture line แต่ข้าม dural reflection ได้",
+  "Lucid interval พบเพียง ~20–50% ของ EDH · Acute SDH (bridging vein) เป็น crescent ข้าม suture ได้ บาดเจ็บสมองร่วมมากกว่า พยากรณ์แย่กว่า",
+  "ข้อบ่งชี้ผ่าตัด EDH (BTF): volume > 30 mL ไม่ว่า GCS เท่าใด หรือ GCS < 9 ร่วมกับ anisocoria → craniotomy ด่วนที่สุด"
+ ]
+},
+"MDCU67|RoA|63": {
+ "wrong": {
+  "B": "Monro-Kellie doctrine คือหลักว่ากะโหลกเป็นกล่องปิด ปริมาตรสมอง + เลือด + CSF คงที่ เมื่อมี mass ต้องชดเชยด้วยการลด CSF/venous blood ก่อน ICP จะพุ่ง · อธิบาย ICP สูงแต่ไม่อธิบายอ่อนแรงข้างเดียวกับรอยโรค · จะถูกถ้าโจทย์ถามหลักการของ ICP",
+  "C": "Cushing triad (hypertension, bradycardia, irregular respiration) เป็นสัญญาณ ICP สูงมากจนใกล้ herniation · ไม่เกี่ยวกับข้างของ posturing · จะถูกถ้าโจทย์ให้ BP 200/110, HR 48 และหายใจไม่สม่ำเสมอ",
+  "D": "Duret hemorrhage คือเลือดออกเล็กๆ ใน midbrain/pons จาก perforating arteries ฉีกขาดเมื่อก้านสมองถูกดันลง (descending transtentorial herniation) เป็น sign ระยะท้ายที่พยากรณ์แย่ · จะถูกถ้าโจทย์ถาม CT หลัง herniation ที่เห็นเลือดออกใน brainstem",
+  "E": "Battle sign คือรอยช้ำหลังใบหู (mastoid ecchymosis) บ่งชี้ basilar skull fracture ร่วมกับ raccoon eyes, CSF rhinorrhea/otorrhea, hemotympanum · ไม่ใช่ phenomenon ของ motor sign · จะถูกถ้าโจทย์ถาม sign ของ base of skull fracture"
+ },
+ "summary": [
+  "Kernohan notch phenomenon: mass ด้านหนึ่งดันก้านสมองไปชนขอบ tentorium อีกฝั่ง → กด cerebral peduncle ฝั่งตรงข้ามกับ mass → อ่อนแรงข้างเดียวกับรอยโรค = false localizing sign",
+  "การบอกข้างของรอยโรค: pupil ที่ขยาย (CN III) น่าเชื่อถือกว่า motor sign (~85–90% อยู่ข้างเดียวกับ mass) — ถ้าไม่มี CT ให้เจาะ burr hole ข้าง pupil ขยายก่อน",
+  "False localizing signs อื่น: CN VI palsy จาก ICP สูง (เส้นยาวบนก้านสมอง), bilateral extensor plantar · ต่างจากปี 68 R4 ที่ posturing ข้างตรงข้ามตามปกติ"
+ ]
+}
+}

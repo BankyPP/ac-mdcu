@@ -1,0 +1,173 @@
+{
+"MDCU67|RoA|64": {
+ "wrong": {
+  "A": "Non-contrast CT brain เป็นการตรวจที่จำเป็นและต้องทำด่วน (คำตอบคีย์ลายมือเดิม) แต่ทำหลัง primary survey · ผู้ป่วย GCS ≤ 8 + herniation ที่ส่งไป CT โดยยังไม่ secure airway เสี่ยง hypoxia/aspiration ระหว่างทาง · จะถูกถ้าผู้ป่วยหายใจเองได้ดี GCS สูง airway ปลอดภัย",
+  "C": "Lumbar puncture ห้ามเด็ดขาดในผู้ป่วยที่มี mass lesion/ICP สูง/herniation เพราะลดความดันใน spinal canal ทำให้สมองเลื่อนลง (tonsillar herniation) เสียชีวิตได้ · จะถูกถ้าสงสัย meningitis หรือ SAH ที่ CT ปกติและไม่มี mass effect",
+  "D": "Skull X-ray เห็นกระดูกหักได้แต่ไม่เห็นเลือดออกในกะโหลก ไม่เปลี่ยนการรักษาและเสียเวลา ปัจจุบันแทบไม่ใช้ใน head injury · จะถูกถ้าโจทย์ถาม screening ในที่ไม่มี CT หรือ skeletal survey ใน non-accidental injury",
+  "E": "MRI brain ใช้เวลานาน เครื่องอยู่ห่างจากการ monitor ไม่เหมาะกับผู้ป่วยวิกฤต และไม่ดีกว่า CT ในการเห็นเลือดออกเฉียบพลัน · จะถูกถ้าต้องการประเมิน diffuse axonal injury ในผู้ป่วย stable ที่ CT ไม่อธิบายอาการ"
+ },
+ "summary": [
+  "Head injury: ATLS primary survey ก่อนเสมอ — airway with c-spine protection → breathing → circulation (ป้องกัน hypoxia SpO2 < 90% และ hypotension SBP < 100–110 ซึ่งเพิ่ม mortality เท่าตัว)",
+  "Definitive airway เมื่อ GCS ≤ 8, airway ไม่ปลอดภัย, หายใจไม่พอ, หรือมีอาการ herniation · หลัง intubate ใช้ normoventilation (PaCO2 35–40) และ hyperventilate ชั่วคราวเฉพาะขณะมี herniation",
+  "คีย์ลายมือเดิมตอบ A (CT) — ตรวจคีย์ 21 พ.ย. 2026 เปลี่ยนเป็น B ตาม ATLS 10th/BTF 4th: secure airway → CT ด่วน → craniotomy"
+ ]
+},
+"MDCU67|RoA|66": {
+ "wrong": {
+  "A": "NPH เป็น communicating hydrocephalus (การดูดซึม CSF ผิดปกติ) ทางเดิน CSF จาก ventricle ถึง subarachnoid space ยังต่อกัน · LP ทำได้และยังใช้วินิจฉัย/ทำนายผล shunt (tap test เอา CSF 30–50 mL แล้วดูการเดินดีขึ้น) · จะเป็นข้อห้ามถ้ามี obstruction ใน ventricle",
+  "B": "Communicating hydrocephalus ไม่มีการอุดกั้นในระบบ ventricle ความดันส่งผ่านถึงช่องไขสันหลังเท่ากัน LP จึงไม่สร้าง pressure gradient ที่ทำให้ herniation · บางรายใช้ serial LP/lumbar drain ชั่วคราว · จะเป็นข้อห้ามถ้ามี mass lesion ร่วม",
+  "D": "Hydrocephalus จาก TB meningitis ส่วนใหญ่เป็น communicating (exudate อุดที่ basal cisterns/arachnoid granulation) (คีย์ลายมือ: D communicating) และ LP จำเป็นเพื่อวินิจฉัย · ต้องระวังถ้ามี tuberculoma/obstruction ที่ aqueduct",
+  "E": "Hydrocephalus หลัง SAH ส่วนใหญ่เป็น communicating (เลือดอุด arachnoid granulation) (คีย์ลายมือ: E communicating) · LP/lumbar drain ใช้ได้ในรายที่ aneurysm secure แล้วและไม่มี mass effect · ระยะเฉียบพลันที่มี IVH อุด ventricle มักใช้ EVD"
+ },
+ "trap": "อย่าเหมาว่า 'hydrocephalus = ห้าม LP' ทุกชนิด — ห้ามเฉพาะแบบ obstructive (non-communicating) หรือมี mass effect · NPH, post-meningitis, post-SAH ส่วนใหญ่เป็น communicating ซึ่ง LP ทำได้",
+ "summary": [
+  "Non-communicating (obstructive) hydrocephalus: อุดในระบบ ventricle เช่น aqueductal stenosis, colloid cyst (foramen of Monro), posterior fossa tumor อุด 4th ventricle → CT เห็น ventricle เหนือจุดอุดโต",
+  "Communicating hydrocephalus: การดูดซึมที่ arachnoid granulation ผิดปกติ (หลัง SAH, meningitis, NPH) → ventricle โตทั้งหมดรวม 4th ventricle",
+  "รักษา: obstructive → endoscopic third ventriculostomy (ETV) หรือ VP shunt · communicating → VP shunt · NPH triad: เดินผิดปกติ (magnetic gait), สมองเสื่อม, กลั้นปัสสาวะไม่อยู่"
+ ]
+},
+"MDCU67|RoA|67": {
+ "wrong": {
+  "A": "Basal ganglia (putaminal) hemorrhage อยู่ lateral ต่อ internal capsule เป็นตำแหน่ง hypertensive ICH ที่พบบ่อยที่สุด อาการ hemiparesis ข้างตรงข้าม + gaze deviation ไปทางรอยโรค · จะถูกถ้า CT เห็นเลือดอยู่ด้านนอกของ internal capsule",
+  "B": "Caudate hemorrhage อยู่ติด frontal horn ของ lateral ventricle มักแตกเข้า ventricle อาการคล้าย SAH (ปวดหัว คอแข็ง สับสน) โดย deficit น้อย · จะถูกถ้าเลือดอยู่ที่ผนัง lateral ventricle ด้านหน้า",
+  "D": "MCA territory (lobar) hemorrhage อยู่ในเนื้อสมองส่วน cortex/subcortex สาเหตุมักไม่ใช่ความดันสูงอย่างเดียว เช่น cerebral amyloid angiopathy ในผู้สูงอายุ, AVM, tumor · จะถูกถ้า CT เห็นเลือดใกล้ผิวสมองที่ frontal/parietal/temporal lobe",
+  "E": "Pontine hemorrhage อยู่ใน brainstem ไม่ใช่ข้าง third ventricle อาการโคม่าฉับพลัน pinpoint pupils quadriplegia hyperthermia พยากรณ์แย่มาก · จะถูกถ้า CT เห็นเลือดตรงกลาง pons ใน posterior fossa"
+ },
+ "summary": [
+  "Hypertensive ICH (lipohyalinosis ของ perforating arteries): putamen > thalamus > lobar > cerebellum > pons",
+  "Thalamic hemorrhage: hemisensory loss ข้างตรงข้าม, ตามองลงล่างและเข้าใน (wrong-way eyes/upgaze palsy), มัก IVH และ hydrocephalus (อาจต้อง EVD)",
+  "Cerebellar hemorrhage > 3 cm หรือกด brainstem/hydrocephalus → surgical evacuation ด่วน (ตำแหน่งที่ผ่าตัดแล้วได้ประโยชน์ชัดที่สุด) · supratentorial ICH ส่วนใหญ่รักษาแบบ medical (BP control, reverse anticoagulant)"
+ ]
+},
+"MDCU67|RoA|68": {
+ "wrong": {
+  "A": "Repeat non-contrast CT ใช้ติดตาม hematoma expansion ภายใน 6–24 ชม. หรือเมื่ออาการแย่ลง แต่ไม่ช่วยหาสาเหตุ · ICH หลายจุดในคนไม่มีโรคประจำตัวต้องหาสาเหตุทาง vascular ก่อน · จะถูกถ้าผู้ป่วยซึมลงและต้องดูว่าเลือดขยายหรือเกิด hydrocephalus",
+  "C": "Coagulogram (PT/INR, aPTT, platelet) ควรส่งทุกรายของ ICH และเป็นส่วนหนึ่งของการหาสาเหตุ (coagulopathy ทำให้ ICH หลายจุดได้) แต่เป็นการตรวจเลือดพื้นฐาน คีย์เลือกการตรวจที่หาโรคหลอดเลือดสมองโดยตรง · จะถูกถ้าผู้ป่วยกิน warfarin/มี bleeding tendency",
+  "D": "Echocardiogram ใช้หา cardioembolic source ใน ischemic stroke หรือ septic emboli จาก infective endocarditis (mycotic aneurysm → ICH หลายจุด) · ไม่ใช่การตรวจแรกถ้าไม่มีไข้/murmur · จะถูกถ้าผู้ป่วยมีไข้ murmur ใหม่ และ ICH หลายจุด",
+  "E": "IV antihypertensive ใช้ลด BP ใน ICH เมื่อ SBP 150–220 (AHA 2022 เป้า ~140 ห้ามต่ำกว่า 130) · คีย์ลายมือกา E ✗ เพราะ BP 160/90 ไม่สูงมากและโจทย์เน้นหาสาเหตุ · ปัจจุบันการคุม BP ควรทำร่วมกัน · จะถูกถ้า SBP > 180–220 ร่วมกับอาการแย่"
+ },
+ "summary": [
+  "ICH ที่ควรหา secondary cause (CTA/CTV ± DSA): อายุ < 70 ปี, lobar location, ไม่มีประวัติความดันสูง, ICH หลายจุด, IVH เดี่ยว, มี SAH ร่วม, รูปร่างผิดปกติ",
+  "Secondary causes: AVM, aneurysm, cavernoma, dural AV fistula, cerebral venous thrombosis, tumor (metastasis เช่น melanoma, RCC, choriocarcinoma), vasculitis, coagulopathy, septic emboli",
+  "CTA spot sign = active contrast extravasation ทำนาย hematoma expansion · ICH ทุกราย: reverse anticoagulant ด่วน, คุม BP, ประเมิน hydrocephalus"
+ ]
+},
+"MDCU67|RoA|69": {
+ "wrong": {
+  "B": "Profile นี้เป็น CSF ปกติ (ไม่มี RBC, WBC ≤ 5, protein 15–45, glucose ~60% ของเลือด) · ผู้ป่วย SAH ที่ CT เห็นเลือดใน basal cistern ต้องมี RBC จำนวนมาก · จะถูกถ้าโจทย์เป็นผู้ป่วยปวดหัวจาก migraine/tension ที่ LP ปกติ",
+  "C": "Profile ของ bacterial meningitis: WBC สูงมากเป็น PMN, protein สูง, glucose ต่ำมาก (< 40 หรือ ratio < 0.4) และ RBC แทบไม่มี · จะถูกถ้าผู้ป่วยไข้สูง คอแข็ง ซึมเฉียบพลัน และ Gram stain พบเชื้อ",
+  "D": "Profile ของ TB/fungal meningitis: lymphocyte เด่น 100–500, protein สูงมาก, glucose ต่ำ, ไม่มี RBC · อาการค่อยเป็นค่อยไปหลายสัปดาห์ มี cranial nerve palsy/hydrocephalus/basal enhancement · จะถูกถ้าโจทย์เป็นไข้ต่ำๆ ปวดหัวเรื้อรังในผู้ป่วย HIV",
+  "E": "Profile ของ viral (aseptic) meningitis: lymphocyte เด่นจำนวนไม่มาก, protein สูงเล็กน้อย, glucose ปกติ, ไม่มี RBC · จะถูกถ้าโจทย์เป็นไข้ ปวดหัว คอแข็งในวัยรุ่น อาการไม่รุนแรง หายเอง"
+ },
+ "summary": [
+  "SAH: CT ภายใน 6 ชม.ไวเกือบ 100% · ถ้า CT ลบแต่สงสัย → LP: RBC สูงไม่ลดลงจาก tube 1 → 4 และ xanthochromia (หลัง ~12 ชม. ถึง 2 สัปดาห์) แยกจาก traumatic tap",
+  "CSF ใน SAH หลังไม่กี่วัน: WBC สูงได้จาก chemical meningitis, protein สูง (เลือดเพิ่ม protein), glucose ปกติหรือต่ำเล็กน้อย",
+  "อาการ SAH: thunderclap headache (worst headache of life), คอแข็ง, ซึม, CN III palsy (PComm aneurysm) · grade ด้วย Hunt-Hess/WFNS และ Fisher scale"
+ ]
+},
+"MDCU67|RoA|70": {
+ "why": "เมื่อยืนยัน <b>SAH</b> แล้ว สิ่งที่ต้องหาคือ<b>สาเหตุ</b> ซึ่ง ~85% เป็น <b>ruptured intracranial aneurysm</b> — ต้องหาตำแหน่งเพื่อรักษาเร็ว (ภายใน 24–72 ชม.) ป้องกัน rebleeding ที่อัตราตายสูง:<br>• <b>Cerebral angiography (DSA)</b> = gold standard: ความละเอียดสูงสุด เห็น aneurysm เล็ก, neck, หลอดเลือดข้างเคียง, AVM/dural fistula และทำ endovascular coiling ได้ในครั้งเดียว (คีย์ลายมือ ขีด B + แผนผัง SAH management)<br>• AHA/ASA 2023: CTA มักเป็นการตรวจถัดไปในทางปฏิบัติเพราะเร็ว แต่ถ้า CTA ลบหรือไม่ชัด ต้องทำ DSA (class I) และ DSA ช่วยวางแผนรักษา<br>→ ตอบ <b>B</b> ตามคีย์ (ตรวจคีย์ 22 พ.ย. 2026 คงคำตอบ)",
+ "wrong": {
+  "A": "Contrast CT brain (ธรรมดา) ไม่ได้ออกแบบให้เห็นหลอดเลือด จึงไม่เห็น aneurysm ได้ดี และ contrast อาจบดบังเลือดใน subarachnoid space · จะถูกถ้าต้องการหา tumor/abscess ซึ่งไม่ใช่สาเหตุของ SAH",
+  "C": "CTA เร็ว ไม่ invasive ไวสูงต่อ aneurysm > 3 mm และในทางปฏิบัติมักทำเป็นการตรวจแรก แต่อาจพลาด aneurysm เล็กและไม่สามารถรักษาได้ในครั้งเดียว · คีย์เลือก gold standard · จะถูกถ้าโจทย์ถามการตรวจ non-invasive ที่ทำต่อทันทีในห้องฉุกเฉิน",
+  "D": "MRA ใช้เวลานาน ผู้ป่วยซึม/ไม่ stable ทำยาก ความละเอียดต่ำกว่า CTA/DSA · เหมาะใช้ screening aneurysm ในกลุ่มเสี่ยง (ADPKD, ญาติสายตรง ≥ 2 คน) หรือติดตาม aneurysm ที่ coil แล้ว · จะถูกถ้าโจทย์ถาม screening ในผู้ไม่มีอาการ",
+  "E": "Lumbar puncture ใช้วินิจฉัย SAH เมื่อ CT ลบ · ข้อนี้ CT เห็นเลือดใน basal cistern แล้ว จึงไม่ต้อง LP และ LP ก่อน secure aneurysm อาจเพิ่ม transmural pressure เสี่ยง rebleed · จะถูกถ้า CT ปกติแต่ประวัติ thunderclap headache ชัด"
+ },
+ "summary": [
+  "AHA/ASA 2023 aSAH: CTA เป็นการตรวจเริ่มต้นที่พบบ่อย · CTA ลบ/ไม่ชัด → DSA · DSA ลบในรายเลือดกระจายมาก → ทำซ้ำ 1–2 สัปดาห์ (perimesencephalic SAH แบบไม่มี aneurysm พยากรณ์ดี)",
+  "Secure aneurysm เร็ว (ภายใน 24 ชม. ถ้าทำได้) ด้วย endovascular coiling หรือ microsurgical clipping · ก่อน secure: คุม SBP < 160, ให้ nimodipine 60 mg q4h 21 วัน",
+  "Complications: rebleeding (สูงสุดใน 24 ชม.แรก), hydrocephalus (EVD), delayed cerebral ischemia จาก vasospasm (วันที่ 3–14 → euvolemia, induced hypertension, endovascular), hyponatremia"
+ ]
+},
+"MDCU67|RoA|71": {
+ "interp": "โจทย์ถามว่า <b>Parinaud (dorsal midbrain) syndrome</b> พบในเนื้องอกตำแหน่งใด — ต้องนึกถึงโครงสร้างที่ถูกกดคือ tectum/superior colliculus ซึ่งอยู่ติด pineal gland",
+ "wrong": {
+  "A": "CP angle tumor (vestibular schwannoma, meningioma) กด CN VIII (SNHL, tinnitus), CN V (ชาหน้า, corneal reflex หาย), CN VII และ cerebellum · ไม่กด dorsal midbrain · จะถูกถ้าโจทย์เป็นหูอื้อข้างเดียวและเดินเซ",
+  "B": "Craniopharyngioma อยู่ suprasellar กด optic chiasm (bitemporal hemianopia), pituitary/hypothalamus (growth failure, DI, hypopituitarism) อาจทำให้ hydrocephalus · มี calcification + cystic บน CT · จะถูกถ้าเด็กตัวเตี้ย ปัสสาวะมาก ตามัวด้านข้าง",
+  "C": "Sphenoid wing meningioma กด optic nerve (ตามัวข้างเดียว, optic atrophy), CN III–VI ใน superior orbital fissure/cavernous sinus และทำให้ตาโปน (Foster Kennedy syndrome จาก olfactory/sphenoid meningioma) · จะถูกถ้าโจทย์เป็นผู้หญิงวัยกลางคนตาโปนข้างเดียวตามัว",
+  "E": "All of the above ผิดเพราะเนื้องอก A–C อยู่ห่างจาก tectum ไม่ทำให้ Parinaud syndrome · จะถูกเฉพาะถ้าทุกช้อยเป็นรอยโรคที่ dorsal midbrain"
+ },
+ "trap": "Parinaud ไม่ได้เกิดเฉพาะ pineal tumor — hydrocephalus ที่ 3rd ventricle โป่งกด tectum (shunt malfunction ในเด็ก: setting-sun sign), midbrain stroke, MS ก็ทำได้ · แต่ในบรรดาช้อยเนื้องอก pineal region คือคำตอบคลาสสิก",
+ "summary": [
+  "Parinaud syndrome: upgaze palsy, light-near dissociation (pupil ไม่ตอบสนองแสงแต่หดเมื่อมองใกล้), convergence-retraction nystagmus, eyelid retraction (Collier sign)",
+  "Pineal region tumor: germ cell tumor (germinoma พบบ่อยสุด โดยเฉพาะชายเอเชีย) > pineal parenchymal tumor (pineocytoma/pineoblastoma) > glioma · มักทำ obstructive hydrocephalus จากกด aqueduct",
+  "Workup: MRI + serum/CSF AFP, β-hCG · germinoma ไวต่อรังสีและเคมีบำบัดมาก · hydrocephalus → ETV พร้อม biopsy ในครั้งเดียว"
+ ]
+},
+"MDCU67|RoA|72": {
+ "wrong": {
+  "B": "ข้อความนี้ถูก — เนื้องอกสมองในเด็กส่วนใหญ่ (~50–60%) อยู่ infratentorial/posterior fossa ได้แก่ medulloblastoma, pilocytic astrocytoma, ependymoma, brainstem glioma (ยกเว้นทารก < 1 ปีที่ supratentorial บ่อยกว่า) · ผู้ใหญ่ส่วนใหญ่เป็น supratentorial",
+  "C": "ข้อความนี้ถูก — เนื้องอก benign (meningioma, schwannoma, craniopharyngioma) ทำให้ตายได้เพราะกะโหลกเป็นกล่องปิด ก้อนโตทำให้ ICP สูง herniation หรือกด brainstem · ความ benign ทางพยาธิไม่ได้แปลว่า benign ทางคลินิก",
+  "D": "ข้อความนี้ถูก — benign ไม่ได้แปลว่าผ่าออกง่าย ถ้าอยู่ใน eloquent area, skull base, cavernous sinus หรือหุ้มหลอดเลือด/เส้นประสาทสำคัญ อาจตัดได้ไม่หมด ต้องใช้ radiosurgery ร่วม",
+  "E": "ข้อความนี้ถูก — brain metastasis พบบ่อยกว่า primary brain tumor ทั้งหมดในผู้ใหญ่ (มาจาก lung, breast, melanoma, RCC, colon) และพบเพิ่มขึ้นเพราะผู้ป่วยมะเร็งมีชีวิตยืนยาวขึ้น"
+ },
+ "summary": [
+  "Primary malignant brain tumor แพร่นอก CNS น้อยมาก (ไม่มี lymphatic, มี BBB, ผู้ป่วยมักเสียชีวิตก่อน) · ยกเว้นหลังผ่าตัด/VP shunt (เช่น medulloblastoma กระจายทาง shunt เข้าช่องท้อง)",
+  "Drop metastasis ภายใน CNS ทาง CSF พบได้ใน medulloblastoma, ependymoma, germinoma → ต้อง MRI ทั้ง spine และตรวจ CSF cytology",
+  "เนื้องอกสมองผู้ใหญ่: metastasis > meningioma (primary ที่พบบ่อยสุด) > glioblastoma (primary malignant ที่พบบ่อยสุด) > pituitary adenoma > schwannoma"
+ ]
+},
+"MDCU67|RoA|73": {
+ "wrong": {
+  "A": "Medulloblastoma เป็น malignant brain tumor ที่พบบ่อยที่สุดในเด็ก (posterior fossa, vermis) แต่ในภาพรวมทุกอายุพบน้อยกว่า metastasis · จะถูกถ้าโจทย์ถาม malignant brain tumor ที่พบบ่อยที่สุดในเด็ก",
+  "B": "Meningioma เป็น primary brain tumor ที่พบบ่อยที่สุดโดยรวม แต่ส่วนใหญ่ (~80%) เป็น benign (WHO grade 1) จึงไม่ใช่คำตอบของ malignant · จะถูกถ้าโจทย์ถาม primary intracranial tumor ที่พบบ่อยที่สุด",
+  "C": "Acoustic neuroma (vestibular schwannoma) เป็น benign tumor ที่ CP angle (WHO grade 1) · จะถูกถ้าโจทย์ถามสาเหตุก้อนที่ CP angle ที่พบบ่อยที่สุด หรือ tumor ที่ทำให้ unilateral SNHL",
+  "D": "Pineal tumor พบน้อย (< 1% ของเนื้องอกสมองผู้ใหญ่ มากขึ้นในเด็กเอเชีย) ส่วนใหญ่เป็น germinoma · จะถูกถ้าโจทย์ถามสาเหตุของ Parinaud syndrome ในเด็กชาย"
+ },
+ "trap": "ต้องแยก 3 คำถามที่คล้ายกัน: malignant brain tumor ที่พบบ่อยสุด = metastasis · primary malignant ที่พบบ่อยสุด = glioblastoma · primary brain tumor ที่พบบ่อยสุด (รวม benign) = meningioma · และในเด็ก malignant ที่พบบ่อยสุด = medulloblastoma",
+ "summary": [
+  "Brain metastasis: มาจาก lung (บ่อยสุด) > breast > melanoma (มีแนวโน้มลงสมองสูงสุด) > RCC > colorectal · มักอยู่ gray–white junction, multiple, edema มากเกินขนาดก้อน",
+  "รักษา: dexamethasone ลด edema, ยากันชักถ้าชัก · ก้อนเดี่ยว/จำนวนน้อยในผู้ป่วยที่โรคนอกสมองคุมได้ → surgical resection หรือ stereotactic radiosurgery · หลายก้อน → SRS หรือ whole brain RT (hippocampal avoidance + memantine)",
+  "Hemorrhagic metastasis: melanoma, RCC, choriocarcinoma, thyroid · ต้องแยกจาก hypertensive ICH"
+ ]
+},
+"MDCU67|RoA|74": {
+ "wrong": {
+  "A": "Pineal tumor กด dorsal midbrain → Parinaud syndrome และ obstructive hydrocephalus · การได้ยินมักปกติ (บางรายอาจมี central hearing problem จาก inferior colliculus แต่ไม่ใช่ SNHL คลาสสิก) · จะถูกถ้าโจทย์เป็นมองขึ้นไม่ได้ + ปวดหัวจาก hydrocephalus",
+  "C": "Craniopharyngioma อยู่ suprasellar ทำให้ bitemporal hemianopia, hypopituitarism, DI, hydrocephalus · ไม่เกี่ยวกับ CN VIII · จะถูกถ้าเด็กตัวเตี้ย ตามัวด้านข้าง และ CT เห็น calcified cystic suprasellar mass",
+  "D": "Glioblastoma อยู่ใน cerebral hemisphere ทำให้ชัก อ่อนแรง บุคลิกเปลี่ยน ICP สูง ตามตำแหน่ง · ไม่ทำให้ SNHL จากเส้นประสาทหู · จะถูกถ้าโจทย์เป็นผู้สูงอายุมีอาการทางระบบประสาทแย่ลงเร็ว + ring-enhancing mass ข้าม corpus callosum",
+  "E": "Meningioma ที่ CP angle ทำให้ SNHL ได้ แต่เป็นสาเหตุอันดับ 2 ของ CP angle mass (~10%) และ meningioma ส่วนใหญ่อยู่ที่ convexity/parasagittal/sphenoid wing ซึ่งไม่ทำให้หูเสีย · จะถูกถ้าก้อน CP angle มี dural tail และไม่ขยาย IAC"
+ },
+ "summary": [
+  "Vestibular schwannoma: เกิดจาก Schwann cell ของ vestibular nerve ใน internal auditory canal → asymmetric SNHL (อาการแรกที่พบบ่อยสุด), tinnitus, imbalance → ก้อนโตกด CN V (corneal reflex หาย), CN VII (มักเป็นช้า), cerebellum, hydrocephalus",
+  "Investigation: audiogram (asymmetric SNHL, speech discrimination แย่กว่าระดับเสียง) → gadolinium MRI (ice cream cone appearance) เป็น gold standard",
+  "Bilateral vestibular schwannoma = NF2 (chromosome 22) · รักษา: observation (ก้อนเล็ก), stereotactic radiosurgery, microsurgical resection (translabyrinthine, retrosigmoid, middle fossa)"
+ ]
+},
+"MDCU67|RoA|75": {
+ "interp": "ภาพวาดแสดง <b>ใบหน้าหยาบ คิ้ว/หน้าผากโหนก จมูกและขากรรไกรใหญ่ มือใหญ่</b> — คือลักษณะ acral และ facial overgrowth จาก growth hormone เกินในผู้ใหญ่ ไม่ใช่ลักษณะของ cortisol หรือ prolactin เกิน",
+ "wrong": {
+  "B": "Cushing disease (ACTH-secreting pituitary adenoma) ให้ moon face, buffalo hump, central obesity, purple striae, proximal myopathy, ผิวบาง ช้ำง่าย · ไม่ทำให้กระดูกใบหน้าและมือขยาย · จะถูกถ้าภาพเป็นหน้ากลมแดง ท้องใหญ่ แขนขาลีบ",
+  "C": "Pineal tumor ไม่หลั่ง GH ทำให้ Parinaud syndrome, hydrocephalus และอาจ precocious puberty (β-hCG จาก germ cell tumor ในเด็กชาย) · จะถูกถ้าภาพ/โจทย์เป็นเด็กชายมองขึ้นไม่ได้และเข้าสู่วัยรุ่นเร็ว",
+  "D": "Prolactinoma (adenoma ที่พบบ่อยที่สุด) ทำให้ galactorrhea, amenorrhea/infertility ในหญิง, libido ลด/ED ในชาย และอาจกด chiasm ถ้าเป็น macroadenoma · ไม่ทำให้ใบหน้า/มือใหญ่ · จะถูกถ้าโจทย์เป็นหญิงสาวขาดประจำเดือนมีน้ำนมไหล",
+  "E": "Ependymoma เกิดจาก ependymal cell ใน 4th ventricle (เด็ก) หรือ spinal cord (ผู้ใหญ่) ทำให้ hydrocephalus, ataxia · ไม่หลั่งฮอร์โมน · จะถูกถ้าโจทย์เป็นเด็กปวดหัว อาเจียนตอนเช้า และ MRI เห็นก้อนใน 4th ventricle"
+ },
+ "summary": [
+  "GH เกินก่อน epiphysis ปิด = gigantism · หลังปิด = acromegaly · อาการ: frontal bossing, prognathism, ฟันห่าง, ลิ้นโต, มือเท้าใหญ่ (แหวน/รองเท้าคับ), เหงื่อมาก, carpal tunnel, OSA",
+  "Comorbidity: hypertension, cardiomyopathy, DM, colon polyp/CRC (ต้อง colonoscopy) · ก้อนใหญ่ → bitemporal hemianopia, hypopituitarism",
+  "วินิจฉัย: IGF-1 สูง → OGTT GH ไม่ถูกกด (< 1 ng/mL) → MRI pituitary · รักษา: transsphenoidal surgery → somatostatin analog/pegvisomant/RT ถ้ายังไม่หาย"
+ ]
+},
+"MDCU67|RoA|76": {
+ "wrong": {
+  "A": "Observe (active surveillance) ใช้กับนิ่วไตที่ไม่มีอาการ ไม่อุดตัน ไม่ติดเชื้อ (คีย์ลายมือเขียนเกณฑ์ขนาด 2 cm และ > 1 cm lower pole) · ผู้ป่วยรายนี้มีปวด flank และ hematuria จึงควรรักษา · จะถูกถ้านิ่ว calyx เล็กที่ตรวจพบโดยบังเอิญไม่มีอาการ",
+  "C": "PCNL (percutaneous nephrolithotomy) เป็นมาตรฐานของนิ่วไต > 20 mm, staghorn, หรือ lower pole > 10 mm ที่ SWL/RIRS ไม่ได้ผล · invasive กว่าและเสี่ยงเลือดออกมากกว่า SWL สำหรับนิ่ว 1 cm · จะถูกถ้านิ่วขนาด 2.5 cm หรือ staghorn",
+  "D": "Oral dissolution (alkalinization ด้วย potassium citrate/sodium bicarbonate) ใช้ได้กับ uric acid stone (radiolucent, urine pH ต่ำ) เท่านั้น · นิ่วส่วนใหญ่เป็น calcium oxalate ละลายไม่ได้ · จะถูกถ้าเป็นนิ่วที่ไม่เห็นใน KUB แต่เห็นใน CT และ urine pH < 5.5",
+  "E": "Open stone surgery (pyelolithotomy/nephrolithotomy) แทบไม่ใช้แล้ว เหลือเฉพาะนิ่วซับซ้อนมากที่วิธี minimally invasive ล้มเหลว หรือต้องแก้ความผิดปกติทางกายวิภาคพร้อมกัน · จะถูกถ้าเป็น complex staghorn ร่วมกับ UPJ obstruction ในที่ไม่มีอุปกรณ์ endourology"
+ }
+},
+"MDCU67|RoA|77": {
+ "why": "<b>DRE พบ hard nodule = ข้อบ่งชี้ prostate biopsy โดยตัวเอง</b> แม้ PSA จะอยู่ในเกณฑ์ (3.5 ng/mL):<br>• ~25% ของ prostate cancer มี PSA ต่ำกว่า 4 และ nodule แข็งที่คลำได้ส่วนใหญ่อยู่ใน peripheral zone ซึ่งเป็นที่เกิดมะเร็ง ~70%<br>• คีย์ลายมือ: 'cannot R/O CA' — ไม่สามารถตัดมะเร็งออกได้จาก PSA อย่างเดียว<br>• แนวทางปัจจุบัน (EAU): ทำ <b>multiparametric MRI ก่อน biopsy</b> แล้วทำ targeted + systematic biopsy (TRUS หรือ transperineal)<br>• การรักษาด้วย α-blocker/5-ARI หรือรอตรวจซ้ำจะทำให้วินิจฉัยช้า<br>→ ตอบ <b>C. TRUS-guided biopsy</b> (ตรงคีย์ลายมือ ขีด C)",
+ "wrong": {
+  "A": "Alpha-blocker (tamsulosin, doxazosin) รักษาอาการ LUTS จาก BPH โดยคลายกล้ามเนื้อเรียบที่ bladder neck/prostate · ไม่ช่วยวินิจฉัยหรือรักษามะเร็ง และการให้ยาแทนการ biopsy ทำให้ล่าช้า · จะถูกถ้า DRE เป็นต่อมโตเรียบยืดหยุ่นไม่มี nodule และ PSA ปกติ",
+  "B": "5-alpha reductase inhibitor (finasteride, dutasteride) ลดขนาด prostate และลด PSA ลงประมาณครึ่งหนึ่ง จึงบดบังการคัดกรองมะเร็ง (ต้องคูณ PSA × 2) · ไม่ใช่ขั้นตอนต่อไปเมื่อคลำได้ nodule · จะถูกถ้าเป็น BPH ต่อมใหญ่ > 30–40 mL ที่ตัดมะเร็งแล้ว",
+  "D": "การตรวจ PSA ซ้ำใน 1 ปีเหมาะกับชายที่ PSA ปกติ DRE ปกติ (screening ตามรอบ) หรือ PSA สูงเล็กน้อยที่อาจเกิดจาก prostatitis (ตรวจซ้ำ 6–8 สัปดาห์) · ไม่เหมาะเมื่อมี hard nodule · จะถูกถ้า DRE ปกติ",
+  "E": "Bone scan เป็น staging หลังวินิจฉัยมะเร็งแล้ว ทำในรายความเสี่ยงสูง (PSA > 20, Gleason ≥ 8, T3–T4, หรือปวดกระดูก) · ยังไม่มี tissue diagnosis จึงไม่ใช่ขั้นถัดไป · จะถูกถ้าผล biopsy เป็น Gleason 4+4 และ PSA 40"
+ },
+ "summary": [
+  "ข้อบ่งชี้ prostate biopsy: DRE ผิดปกติ (nodule แข็ง, ต่อมไม่สมมาตร) ไม่ว่า PSA เท่าใด, PSA สูง (> 4 หรือตามอายุ) ยืนยันซ้ำ, PSA velocity/density สูง",
+  "Pre-biopsy mpMRI (PI-RADS ≥ 3 → targeted + systematic biopsy) ลด overdiagnosis ของมะเร็งที่ไม่สำคัญ · transperineal route ลดการติดเชื้อเทียบกับ transrectal",
+  "Gleason/ISUP grade group + PSA + T stage → risk group (NCCN/EAU) → active surveillance, radical prostatectomy, radiotherapy ± ADT"
+ ]
+}
+}
