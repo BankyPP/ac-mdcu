@@ -1,0 +1,143 @@
+{
+"MDCU73|RoB|Colo 1": {
+ "wrong": {
+  "A": "เป็นข้อบ่งชี้จริง: internal sphincter spasm (hypertonia) คือพยาธิสภาพหลักที่ทำให้เลือดไปเลี้ยงแผลน้อยและ LIS แก้ตรงจุด · ข้อนี้จะเป็นคำตอบถ้าความดัน sphincter ต่ำ (ห้าม LIS)",
+  "B": "เป็นข้อบ่งชี้จริง: ปวดเวลาถ่ายนานเกิน 6 สัปดาห์ = chronic fissure (P'Ing แก้จาก 8 เป็น 6 สัปดาห์) · ข้อนี้จะเป็นคำตอบถ้าเพิ่งเป็นไม่กี่วัน",
+  "C": "เป็นข้อบ่งชี้จริง: medical sphincterotomy (GTN, diltiazem, botox) ล้มเหลว → ขั้นต่อไปคือ LIS · ข้อนี้จะเป็นคำตอบถ้ายังไม่เคยลองยาเลยในผู้ที่เสี่ยง incontinence",
+  "D": "เป็นข้อบ่งชี้จริง: ขอบแผลแข็งเป็น fibrosis = ลักษณะ chronic fissure (ร่วม sentinel tag, papilla) ที่ไม่หายด้วย conservative · ข้อนี้จะเป็นคำตอบถ้าขอบแผลนุ่มสด"
+ },
+ "trap": "Acute fissure (<6 สัปดาห์) ส่วนใหญ่หายเองด้วย fiber, stool softener, sitz bath — ไม่ใช่ข้อบ่งชี้ LIS แม้ปวดมาก · คำว่า ‘strong indication’ หมายถึงลักษณะ chronic + ล้มเหลวจากยา"
+},
+"MDCU73|RoB|Colo 2": {
+ "wrong": {
+  "A": "Neoadjuvant chemotherapy ใน colon cancer ยังไม่ใช่มาตรฐาน ใช้เฉพาะ locally advanced T4b บางราย (FOxTROT) — ก้อน ascending ที่มีต่อมน้ำเหลือง pericolic โตและไม่แพร่กระจาย ผ่าตัดได้ทันที · จะถูกถ้าก้อน T4b ลุกอวัยวะข้างเคียงที่ตัดยาก (ในบางแนวทาง)",
+  "B": "Preoperative chemoradiotherapy เป็นมาตรฐานของ ‘rectal’ cancer stage II–III ไม่ใช่ colon (ลำไส้ใหญ่เคลื่อนที่ได้ ฉายรังสีลำไส้เล็กรอบๆ เสียหาย) · จะถูกถ้าก้อนอยู่ mid/low rectum T3/N+",
+  "C": "Preoperative radiotherapy (short-course) ใช้ใน rectal cancer ไม่ใช่ colon · จะถูกถ้าเป็น rectal cancer T3 ที่เลือก short-course RT (5×5 Gy)",
+  "D": "Postoperative radiotherapy ไม่ใช้ใน colon cancer (ยกเว้นบางกรณี margin บวกที่ fixed retroperitoneum) · adjuvant ที่ใช้คือ chemotherapy · จะถูกถ้าเป็น rectal cancer ที่ไม่ได้ neoadjuvant แล้วพบ pT3/N+ หลังผ่าตัด"
+ }
+},
+"MDCU73|RoB|Colo 3": {
+ "wrong": {
+  "A": "T4bN1bM0 ถูก T และ N แต่ละเลย inguinal node ซึ่งไม่ใช่ regional node ของ colon → นับเป็น distant metastasis (M1) · จะถูกถ้ามีเพียง pericolic node บวก 2 ต่อมโดยไม่มี inguinal node",
+  "B": "T4bN2aM0 (ตรงกับคีย์ P'Ing ที่เขียน T4N2M0) นับ inguinal 2 ต่อมรวมเป็น regional ทำให้กลายเป็น 4 ต่อม (N2a) — ผิดเพราะ inguinal ไม่ใช่ regional ของ sigmoid · จะถูกถ้ามี pericolic/mesenteric node บวก 4–6 ต่อมโดยไม่มีการแพร่ไกล",
+  "D": "T4a หมายถึงทะลุ visceral peritoneum แต่ไม่ลุกอวัยวะข้างเคียง (ก้อนนี้ลุกอวัยวะจึงเป็น T4b) และ M0 ละเลย inguinal node · จะถูกถ้าก้อนทะลุผิว serosa ไม่ติดอวัยวะอื่น node 2–3 ต่อม",
+  "E": "T3 ผิด (ลุกอวัยวะ = T4b), N2a ผิด (มี regional node 2 ต่อม = N1b) และ M1b ต้องแพร่ ≥2 อวัยวะ/ตำแหน่ง · FNH ในตับเป็น benign ไม่นับ · จะถูกถ้าก้อนอยู่ในผนังถึง subserosa node 4–6 ต่อม และแพร่ทั้งตับและปอด"
+ }
+},
+"MDCU73|RoB|Colo 4": {
+ "wrong": {
+  "B": "ยาปฏิชีวนะกินอย่างเดียวไม่พอสำหรับฝีที่ fluctuant (ยาเข้าโพรงหนองไม่ได้) ฝีจะลุกลามเป็น sepsis/Fournier · จะถูกถ้าเป็น cellulitis รอบทวารที่ยังไม่มีโพรงหนอง (imaging ไม่เห็น collection)",
+  "C": "Sitz bath + ยาแก้ปวดใช้กับ fissure/thrombosed hemorrhoid หรือเป็นการดูแลหลังระบาย ไม่ใช่การรักษาฝีที่มีไข้ · จะถูกถ้าเป็น anal fissure เฉียบพลันหรือหลังผ่าตัดระบายหนองแล้ว",
+  "D": "Fistulotomy ทำเมื่อเป็น fistula-in-ano เรื้อรังที่เห็นทางชัด ไม่ทำในระยะฝีเฉียบพลันที่เนื้อเยื่ออักเสบบวม (หา internal opening ยาก เสี่ยงตัด sphincter เกิน) · จะถูกถ้าพบ low intersphincteric fistula ชัดเจนขณะระบายฝี perianal ที่ตื้น",
+  "E": "Rubber band ligation รักษา internal hemorrhoid grade I–III ไม่ใช่ฝี และห้ามในภาวะติดเชื้อ · จะถูกถ้าเป็นริดสีดวงภายในเลือดออกไม่มีไข้"
+ },
+ "trap": "ฝีที่คลำได้จาก PR เหนือ anorectal ring (supralevator) ต้องรู้ต้นกำเนิดก่อนระบาย: มาจาก intersphincteric → ระบายผ่าน rectum · มาจาก ischiorectal → ระบายผ่านผิวหนัง (ระบายผิดทางทำให้เกิด extrasphincteric fistula) · มักต้อง CT/MRI ช่วย และแยก prostatic abscess ในผู้ชาย"
+},
+"MDCU73|RoB|Colo 5": {
+ "wrong": {
+  "B": "Angiodysplasia เป็นสาเหตุรองลงมาในผู้สูงอายุ เลือดออกเป็นพักๆ ปริมาณน้อย–ปานกลาง มักที่ right colon สัมพันธ์ aortic stenosis/CKD · จะถูกถ้าผู้สูงอายุมี AS เลือดออกซ้ำๆ ซีดเรื้อรัง ส่องกล้องเห็นหลอดเลือดแดงแผ่เป็นจุด",
+  "C": "Colon cancer มักเลือดออกน้อย เรื้อรัง หรือแฝง (ซีด) ร่วมถ่ายเปลี่ยนนิสัย น้ำหนักลด ไม่ใช่เลือดออกมากเฉียบพลัน · จะถูกถ้าผู้สูงอายุซีดจากขาดเหล็ก ถ่ายเปลี่ยน น้ำหนักลด",
+  "D": "Ischemic colitis มีปวดท้องเฉียบพลัน (มักซ้ายล่าง) ตามด้วยถ่ายเป็นเลือดปนปริมาณไม่มาก ไม่ใช่ painless · จะถูกถ้าผู้สูงอายุมีโรคหลอดเลือด ปวดท้องซ้ายแล้วถ่ายเป็นเลือด",
+  "E": "Internal hemorrhoid เลือดสดหยดหลังถ่ายปริมาณน้อย ไม่ทำให้ massive bleeding จนช็อก (ยกเว้นในผู้ป่วย portal hypertension/coagulopathy) · จะถูกถ้าเลือดสดหยดเคลือบอุจจาระไม่ปวดในคนอายุน้อย"
+ },
+ "trap": "Diverticulosis (ไม่อักเสบ) คือสาเหตุเลือดออก — diverticulitis (อักเสบ) แทบไม่เลือดออก · ต้องแยก upper GI bleeding ที่เลือดออกเร็วมากจนถ่ายเป็นเลือดแดง (BUN/Cr สูง, NG aspirate, EGD) ก่อนเสมอโดยเฉพาะเมื่อช็อก"
+},
+"MDCU73|RoB|Colo 6": {
+ "wrong": {
+  "B": "Hinchey II คือฝีในอุ้งเชิงกราน/retroperitoneum หรือห่างจากลำไส้ (distant abscess) ไม่ใช่ pericolic abscess เล็ก · จะถูกถ้า CT เห็นฝีใน pelvis แยกจากผนังลำไส้",
+  "C": "Hinchey III คือ purulent (generalized) peritonitis จาก abscess แตก · จะถูกถ้า CT เห็น free fluid/air ทั่วท้องและผู้ป่วยมี peritonitis ทั่วไป",
+  "D": "Hinchey IV คือ fecal peritonitis (ลำไส้ทะลุเปิดเข้าช่องท้อง) อันตรายที่สุด · จะถูกถ้าผ่าตัดพบอุจจาระในช่องท้อง",
+  "E": "ผิด เพราะ Hinchey ใช้จัด complicated (perforated) diverticulitis ซึ่งรวม pericolic abscess · จะถูกถ้าเป็น uncomplicated diverticulitis ที่ไม่มี abscess/perforation (original Hinchey ไม่ได้แบ่ง — modified Hinchey เพิ่ม 0/Ia)"
+ },
+ "summary": [
+  "Original Hinchey: I pericolic abscess · II pelvic/distant abscess · III purulent peritonitis · IV fecal peritonitis",
+  "Modified (Wasvary): 0 mild · Ia phlegmon · Ib pericolic abscess · II · III · IV (บางตาราง 74D ใช้ขนาด >4 ซม. แยก)",
+  "รักษา: Ia antibiotics (หรือ observe ใน uncomplicated) · abscess ≥3–4 ซม. → percutaneous drainage · III → laparoscopic lavage/resection · IV → Hartmann's หรือ resection + anastomosis + diverting stoma",
+  "Colonoscopy 6–8 สัปดาห์หลังหายเพื่อแยกมะเร็ง (โดยเฉพาะ complicated)"
+ ]
+},
+"MDCU73|RoB|CVT 1": {
+ "wrong": {
+  "B": "VSD ให้ holosystolic murmur ที่ left lower sternal border และ S2 ไม่ fixed split · EKG มัก LVH/biventricular · จะถูกถ้าเด็กมี pansystolic murmur ดังที่ LLSB ± thrill",
+  "C": "PDA ให้ continuous machinery murmur ใต้ไหปลาร้าซ้าย bounding pulse wide pulse pressure · จะถูกถ้าทารกคลอดก่อนกำหนดหรือแม่ติดหัดเยอรมัน",
+  "D": "TOF มี cyanosis, tet spell, SEM จาก RVOT obstruction แต่ S2 เดี่ยว (P2 เบา) · จะถูกถ้าเด็กเขียวนั่งยองๆ CXR boot-shaped heart",
+  "E": "Coarctation มี BP แขน > ขา ชีพจร femoral เบา/ช้า systolic murmur ที่หลัง · จะถูกถ้าเด็กความดันสูงที่แขนแต่ชีพจรขาเบา"
+ }
+},
+"MDCU73|RoB|CVT 2": {
+ "wrong": {
+  "B": "เหมาะสม: IV β-blocker (esmolol, labetalol) เป็นยาแรก ลด HR และ dP/dt (แรงเฉือนผนังหลอดเลือด) เป้า HR <60 SBP 100–120 · ข้อนี้จะเป็นคำตอบ (ไม่เหมาะ) ถ้ามี severe AR/tamponade/bradycardia/asthma รุนแรงที่ห้าม β-blocker",
+  "C": "เหมาะสม: CTA ทั้งเส้น aorta เป็นการตรวจวินิจฉัยหลัก เห็น flap, ชนิด, ขอบเขต, malperfusion · ข้อนี้จะเป็นคำตอบถ้าผู้ป่วยไม่เสถียรมากจนเคลื่อนย้ายไม่ได้ (ใช้ TEE ข้างเตียงแทน)",
+  "D": "เหมาะสม: morphine ลดปวด ลด sympathetic drive ช่วยคุม HR/BP · ข้อนี้จะเป็นคำตอบถ้าผู้ป่วยความดันต่ำ/หายใจกดมาก",
+  "E": "เหมาะสม: echo (TTE/TEE) ประเมิน AR, pericardial effusion/tamponade, flap ใน ascending aorta รวดเร็วข้างเตียง · ข้อนี้จะเป็นคำตอบถ้าผู้ป่วยทำ CTA ได้ทันทีและ echo ทำให้ล่าช้า"
+ }
+},
+"MDCU73|RoB|CVT 3": {
+ "wrong": {
+  "A": "Low-dose CT ใช้คัดกรองมะเร็งปอดในผู้ไม่มีอาการ (อายุ 50–80 สูบ ≥20 pack-years) ไม่ใช่การประเมินก้อนที่พบแล้วซึ่งต้องการ contrast CT เพื่อ staging · จะถูกถ้าชาย 65 ปีสูบบุหรี่หนักมาตรวจสุขภาพโดยยังไม่พบก้อน",
+  "C": "Mediastinoscopy ใช้ staging ต่อมน้ำเหลือง mediastinum หลัง CT/PET เห็นต่อมโต (หรือ EBUS-TBNA ก่อน) ไม่ใช่ขั้นแรก · จะถูกถ้า CT/PET พบต่อมน้ำเหลือง mediastinum โตและ EBUS ไม่ได้ผล",
+  "D": "Thoracoscopy (VATS) เป็นการผ่าตัดเพื่อ biopsy/resection ขั้นหลังเมื่อ staging เสร็จหรือ biopsy วิธีอื่นไม่ได้ · จะถูกถ้าก้อนอยู่ peripheral ที่ biopsy ด้วยเข็มไม่ได้และผู้ป่วยพร้อมผ่าตัด",
+  "E": "การรอดูไม่เหมาะกับก้อน spiculated 2 ซม.ในผู้สูบบุหรี่ ซึ่งโอกาสเป็นมะเร็งสูงมาก · จะถูกถ้าก้อนเล็ก <6 มม. ในผู้เสี่ยงต่ำ หรือมี calcification แบบ benign"
+ }
+},
+"MDCU73|RoB|CVT 4": {
+ "wrong": {
+  "A": "ช้อยนี้เขียน pulsus paradoxus กลับทิศ: ปกติ SBP ‘ลดลง’ >10 mmHg ขณะหายใจเข้า ไม่ใช่ inspiration สูงกว่า expiration · จะถูกถ้าเขียนว่า ‘SBP ขณะหายใจเข้าต่ำกว่าขณะหายใจออกเกิน 10 mmHg’",
+  "B": "ไม่ต้องซ่อมลิ้นซ้ำ — ปัญหาคือเลือด/น้ำสะสมในเยื่อหุ้มหัวใจกดหัวใจ ไม่ใช่ลิ้นรั่ว · จะถูกถ้า echo พบลิ้นรั่วรุนแรง/ลิ้นเทียมทำงานผิด (paravalvular leak, thrombosis)",
+  "D": "เริ่ม heparin ทันทีทำให้เลือดออกในเยื่อหุ้มหัวใจมากขึ้น (tamponade หลังผ่าตัดมักเกี่ยวข้องกับ anticoagulant) · จะถูกถ้าเป็นลิ้นเทียมที่เกิด thrombosis โดยไม่มีเลือดออก",
+  "E": "PE ทำความดันต่ำ JVD ได้ แต่ heart sound ไม่เบา และหลังผ่าตัดหัวใจ Beck triad ชี้ tamponade มากกว่า · จะถูกถ้าหอบเฉียบพลัน hypoxemia RV dilate ใน echo ไม่มี effusion"
+ }
+},
+"MDCU73|RoB|CVT 5": {
+ "wrong": {
+  "A": "Free wall rupture (วันที่ 3–5) ทำให้ hemopericardium → tamponade/PEA ตายฉับพลัน ไม่มี murmur ใหม่ (P'Ing) · จะถูกถ้าผู้ป่วยหลัง MI ทรุดฉับพลัน ความดันตก JVD เสียงหัวใจเบา",
+  "C": "Ventricular aneurysm เกิดหลังหลายสัปดาห์ ให้ HF, arrhythmia, mural thrombus, ST elevation ค้าง ไม่ใช่ murmur ใหม่เฉียบพลันวันที่ 3 · จะถูกถ้าหลัง anterior MI หลายสัปดาห์มี ST ยกค้างและ embolism",
+  "D": "Dressler syndrome (post-MI pericarditis จากภูมิคุ้มกัน) เกิด 2–10 สัปดาห์ มีไข้ เจ็บอกตามท่า pericardial rub ไม่ใช่ HF + pansystolic murmur · จะถูกถ้าหลัง MI หลายสัปดาห์มีไข้ เจ็บอกดีขึ้นเมื่อโน้มตัว",
+  "E": "RV infarction (ร่วม inferior MI) ให้ความดันต่ำ JVD ปอดใส (ไม่ใช่ pulmonary edema) ไม่มี apical murmur ใหม่ · จะถูกถ้า inferior MI + hypotension + clear lungs + ST ยกใน V4R"
+ },
+ "trap": "Murmur ใหม่หลัง MI 2–7 วัน: ที่ apex ร้าวรักแร้ + pulmonary edema = papillary muscle rupture (acute MR; posteromedial จาก inferior MI) · ที่ LLSB + thrill + step-up O₂ ใน RV = ventricular septal rupture · ไม่มี murmur + tamponade = free wall rupture — ทั้งหมดเป็น surgical emergency"
+},
+"MDCU73|RoB|CVT 6": {
+ "wrong": {
+  "A": "ข้อความถูก: AS ในผู้สูงอายุส่วนใหญ่เป็น degenerative/calcific (P'Ing: senile = calcification) · อายุน้อยกว่า: bicuspid valve · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า AS ส่วนใหญ่มาจาก rheumatic",
+  "B": "ข้อความถูก: rheumatic heart disease เกิดที่ mitral valve มากที่สุด (MS, MR) รองลงมา aortic · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า RHD เกิดที่ tricuspid มากที่สุด",
+  "C": "ข้อความถูก: Marfan syndrome (fibrillin-1) ทำให้ aortic root dilatation → AR และเสี่ยง dissection ร่วม MVP · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า Marfan ทำ AS",
+  "E": "ข้อความถูก: mitral valve prolapse (myxomatous degeneration) เป็นสาเหตุสำคัญของ primary MR (mid-systolic click + late systolic murmur) · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า MVP ทำให้ MS"
+ },
+ "trap": "Tricuspid regurgitation ส่วนใหญ่เป็น ‘secondary/functional’ จาก RV dilatation และ pulmonary hypertension ที่ตามมาจากโรคหัวใจซีกซ้าย (P'Ing: back pressure จาก LV) — primary TR (rheumatic, IE ในผู้ฉีดยา, carcinoid, Ebstein, pacemaker lead) พบน้อยกว่า"
+},
+"MDCU73|RoB|CVT 7": {
+ "wrong": {
+  "A": "FEV1 >0.5 L ต่ำเกินสำหรับ lobectomy (P'Ing: ~0.6 L พอสำหรับ wedge resection เท่านั้น) · จะถูกถ้าโจทย์ถามเกณฑ์ขั้นต่ำของ wedge/limited resection",
+  "B": "FEV1 >1 L ยังไม่พอจะผ่า lobectomy โดยไม่ประเมินเพิ่ม ต้องคำนวณ ppoFEV1/DLCO และ exercise test · จะถูกถ้าโจทย์ถามเกณฑ์ segmentectomy หรือผู้ป่วยตัวเล็กที่ ppoFEV1 ผ่าน",
+  "D": "FEV1 >2 L (หรือ >80% predicted) คือเกณฑ์ที่ทำ pneumonectomy ได้โดยไม่ต้องทดสอบเพิ่ม (P'Ing) — สำหรับ lobectomy ใช้เกณฑ์ต่ำกว่า · จะถูกถ้าโจทย์ถาม pneumonectomy",
+  "E": "FEV1 >2.5 L มากเกินกว่าเกณฑ์ที่ต้องการ (ไม่ใช่ค่าตัดสิน) · จะถูกถ้าโจทย์ถามค่าปกติของผู้ใหญ่ร่างกายปกติ (ไม่ใช่เกณฑ์ผ่าตัด)"
+ }
+},
+"MDCU73|RoB|CVT 8": {
+ "wrong": {
+  "A": "ให้ FFP เฉพาะระหว่างผ่าตัด (คีย์ P'Ing เลือกข้อนี้) ช้าเกินไปในผู้ป่วยช็อกจากเลือดออกมาก — ต้อง resuscitate ด้วยเลือด (PRC + FFP) และ reverse warfarin ที่ ER ทันที · จะถูกถ้าผู้ป่วย hemodynamics คงที่และจะเข้าผ่าตัดทันที (ให้ระหว่างเตรียม/ในห้อง)",
+  "C": "การให้ warfarin ต่อในภาวะเลือดออกมากผิดอย่างยิ่ง ต้องหยุดและ reverse · จะถูกถ้าเป็นเลือดออกเล็กน้อย (minor bleeding เช่น เลือดกำเดาหยุดเอง) ที่ INR ในเป้า",
+  "D": "Vitamin K ทางปากออกฤทธิ์ช้า (24 ชม.) ไม่ทันในเลือดออกรุนแรง · จะถูกถ้า INR สูงเกิน (เช่น 5–9) ไม่มีเลือดออก ใช้ vitamin K ขนาดต่ำทางปาก",
+  "E": "Platelet ไม่แก้ฤทธิ์ warfarin (warfarin ลด factor II, VII, IX, X) · จะถูกถ้าผู้ป่วยกินยาต้านเกล็ดเลือด/เกล็ดเลือดต่ำ และเลือดออกในสมองที่ต้องผ่าตัด"
+ }
+},
+"MDCU73|RoB|CVT 9": {
+ "wrong": {
+  "B": "DeBakey IIIa คือ dissection จำกัดใน descending thoracic aorta (เหนือกะบังลม) = Stanford B ไม่ใช่ A · จะถูกถ้า dissection เริ่มหลัง left subclavian จำกัดในทรวงอก",
+  "C": "DeBakey I (ascending + ลามถึง descending) เป็น Stanford A ไม่ใช่ B — คู่นี้ผิดทั้งคู่กัน · จะถูกถ้าเขียน ‘Stanford A, DeBakey I’ สำหรับ dissection ที่เริ่ม ascending ลามยาวลงท้อง",
+  "D": "Stanford B + DeBakey IIIb จับคู่ถูก (descending ลามลงใต้กะบังลม) แต่ไม่ใช่ dissection ใน ascending · จะถูกถ้า dissection เริ่มหลัง left subclavian ลามถึงหลอดเลือดในช่องท้อง",
+  "E": "DeBakey II (เฉพาะ ascending) เป็น Stanford A ไม่ใช่ B · จะถูกถ้าเปลี่ยนเป็น ‘Stanford A’"
+ },
+ "trap": "Stanford ดูแค่ว่ามี ascending aorta หรือไม่ (A = มี ไม่ว่า entry tear อยู่ที่ใด) · DeBakey ดูทั้งจุดเริ่มและขอบเขต — ascending อย่างเดียว = II, ascending ลาม descending = I · ระวังจับคู่ Stanford กับ DeBakey ข้ามกลุ่ม"
+},
+"MDCU73|RoB|Neuro 1": {
+ "wrong": {
+  "A": "Ceftriaxone ผ่าน BBB ได้ดีเมื่อเยื่อหุ้มสมองอักเสบ เป็น empirical first-line ของ bacterial meningitis (pneumococcus, meningococcus, H. influenzae) · ข้อนี้จะเป็นคำตอบถ้าเป็นทารกแรกเกิดที่ตัวเหลือง (เลี่ยง ceftriaxone ใช้ cefotaxime)",
+  "B": "Penicillin G ใช้รักษา meningitis ได้เมื่อเชื้อไวต่อยา (meningococcus, pneumococcus ที่ MIC ต่ำ, Listeria ร่วม ampicillin) · ข้อนี้จะเป็นคำตอบถ้าเป็น pneumococcus ดื้อ penicillin",
+  "C": "Cefotaxime (3rd-gen cephalosporin) ผ่าน BBB ดี ใช้แทน ceftriaxone โดยเฉพาะในทารกแรกเกิด · ข้อนี้จะเป็นคำตอบถ้าเชื้อเป็น Listeria (cephalosporin ไม่ครอบคลุม)",
+  "D": "Vancomycin ผ่าน BBB ได้พอเมื่อเยื่อหุ้มสมองอักเสบ ใช้ร่วม ceftriaxone ครอบคลุม pneumococcus ดื้อ cephalosporin · ข้อนี้จะเป็นคำตอบถ้าให้เดี่ยวๆ หลัง dexamethasone ลดการอักเสบมาก (ระดับใน CSF ลด) — แต่ยังใช้ได้ร่วมกัน"
+ },
+ "trap": "Aminoglycoside ผ่าน BBB ได้น้อยมาก (polar) แม้เยื่อหุ้มสมองอักเสบ — ให้ IV อย่างเดียวรักษา meningitis ไม่ได้ (ใช้เสริม synergy กับ ampicillin ใน Listeria/neonatal sepsis หรือ intraventricular ใน ventriculitis) · empirical ผู้ใหญ่: ceftriaxone + vancomycin (+ ampicillin ถ้า >50 ปี/ภูมิต่ำ) + dexamethasone"
+}
+}
