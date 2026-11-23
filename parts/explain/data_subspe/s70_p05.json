@@ -1,0 +1,178 @@
+{
+"MDCU70|RoC|21": {
+ "wrong": {
+  "B": "Vestibular schwannoma (คำตอบที่ผู้จดเขียนเดิม) อยู่ที่ CPA/IAC enhance แบบ solid ± cystic ไม่ใช่ irregular ring + บวมรอบมากในเนื้อสมอง และไม่สัมพันธ์กับประวัติมะเร็งปอด · จะถูกถ้าก้อนอยู่ CPA ยื่นเข้า IAC มี SNHL ข้างเดียว",
+  "C": "Meningioma เป็นก้อนติด dura (dural tail) enhance สม่ำเสมอ โตช้า บวมรอบได้แต่ไม่ใช่ irregular ring · จะถูกถ้าก้อนขอบเรียบติดเยื่อหุ้มสมอง หญิงวัยกลางคน อาการค่อยเป็น",
+  "D": "Cavernous malformation ภาพ popcorn + hemosiderin rim บน MRI ไม่มีบวมรอบมาก (ยกเว้นเลือดออกใหม่) · จะถูกถ้าเป็นคนอายุน้อยชัก MRI GRE เห็นวงดำรอบก้อน",
+  "E": "Pituitary adenoma อยู่ใน sella/suprasellar → ลานสายตา/ฮอร์โมน ไม่ใช่ ring-enhancing ในเนื้อสมอง · จะถูกถ้าก้อนอยู่ sella มี bitemporal hemianopia"
+ },
+ "trap": "Ring enhancement: ‘irregular/หนาไม่เท่ากัน’ + บวมรอบมาก + ประวัติมะเร็ง = metastasis (หรือ GBM) · ‘smooth/บาง’ + DWI restricted ตรงกลาง = abscess (P'Ing) · จำ MAGIC DR (Metastasis, Abscess, GBM, Infarct, Contusion, Demyelination, Radiation necrosis) · ⚠ ผู้จดตอบ schwannoma แต่ P'Ing แก้เป็น lung metastasis",
+ "summary": [
+  "Brain metastasis: เนื้องอกในสมองที่พบบ่อยที่สุดในผู้ใหญ่ — ปอด > เต้านม > melanoma > ไต > ลำไส้ · มักอยู่ gray-white junction หลายก้อน",
+  "Hemorrhagic metastasis: melanoma, RCC, choriocarcinoma, thyroid",
+  "รักษา: dexamethasone ลดบวม · ก้อนเดี่ยวเข้าถึงได้ → ผ่าตัด + SRS ที่ cavity · หลายก้อน (≤10–15) → SRS · กระจายมาก → WBRT (+ memantine/hippocampal avoidance)",
+  "Targeted therapy/immunotherapy ที่ผ่าน BBB (osimertinib, alectinib) ใช้ใน NSCLC ที่มี driver mutation"
+ ]
+},
+"MDCU70|RoC|22": {
+ "wrong": {
+  "B": "Meningioma ไม่ใช่การติดเชื้อ เป็นก้อนเดี่ยวติด dura enhance สม่ำเสมอ โตช้า ไม่เกิดหลาย ring lesion ใน basal ganglia ภายใน 3 สัปดาห์ · จะถูกถ้าก้อนเดี่ยวฐานติด dura มี dural tail",
+  "C": "Glioblastoma มักเป็นก้อนเดี่ยว irregular ring (necrosis) ข้าม corpus callosum (butterfly) ในผู้สูงอายุ ไม่ใช่หลายก้อนเล็กใน basal ganglia ของผู้ภูมิต่ำ · จะถูกถ้าผู้สูงอายุอาการเร็ว ก้อนใหญ่ก้อนเดียว ring หนาไม่เรียบ",
+  "D": "Vestibular schwannoma อยู่ CPA ให้ SNHL ไม่ใช่ ring lesions หลายก้อนในสมองส่วนลึก · จะถูกถ้าก้อนอยู่ CPA มีหูข้างเดียวไม่ได้ยิน",
+  "E": "Pituitary adenoma อยู่ sella ไม่ใช่ basal ganglia · จะถูกถ้ามีลานสายตาผิดปกติหรือฮอร์โมนเกิน"
+ }
+},
+"MDCU70|RoC|23": {
+ "wrong": {
+  "B": "ข้อความจริง: ปวดหัวเป็นอาการที่พบบ่อยที่สุดของ brain abscess (~70%) มักปวดข้างเดียวตำแหน่งก้อน · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าชักเป็นอาการที่พบบ่อยที่สุด",
+  "C": "ข้อความจริง: cyanotic heart disease (R→L shunt) ทำให้เชื้อไม่ถูกกรองที่ปอด → brain abscess (เด็ก TOF อายุ >2 ปี) · ข้อนี้จะเป็นคำตอบถ้าเป็น acyanotic heart disease",
+  "D": "ข้อความจริง: otitis media/mastoiditis ลามตรง → temporal lobe และ cerebellar abscess · ข้อนี้จะเป็นคำตอบถ้าบอกว่า otitis ทำให้ frontal lobe abscess (นั่นคือ sinusitis)",
+  "E": "ข้อความจริง: การรักษาหลักคือ aspiration (stereotactic) หรือ excision ร่วม IV antibiotics 6–8 สัปดาห์ · ข้อนี้จะเป็นคำตอบถ้าบอกว่าให้ยาอย่างเดียวทุกราย (ใช้เฉพาะก้อน <2.5 ซม./cerebritis/หลายก้อนลึก)"
+ },
+ "trap": "ไข้ไม่ได้พบในผู้ป่วยส่วนใหญ่ — P'Ing จดว่า fever ~25% (ตำราส่วนใหญ่ ~50%) · ไม่มีไข้หรือ WBC ปกติไม่ตัด brain abscess · ข้อเดียวกับ 70B ไม่มีเลข 7 (ถามคนละรูป)",
+ "summary": [
+  "Brain abscess: ปวดหัว (พบบ่อยสุด), ไข้ ~25–50%, focal deficit, ชัก, ซึม · triad ครบเพียง ~20%",
+  "ปัจจัยเสี่ยง: sinusitis (frontal), otitis/mastoiditis (temporal, cerebellum), ฟัน, endocarditis, cyanotic CHD, trauma/ผ่าตัด, ภูมิต่ำ",
+  "MRI: ring-enhancing บางเรียบ + DWI restriction ตรงกลาง (แยกจาก necrotic tumor)",
+  "รักษา: aspiration/excision + IV antibiotics 6–8 สัปดาห์ (ceftriaxone + metronidazole ± vancomycin) · ห้าม LP"
+ ]
+},
+"MDCU70|RoC|24": {
+ "wrong": {
+  "A": "Vancomycin ผ่าน BBB ปกติได้น้อย แต่ผ่านได้พอเมื่อ meninges อักเสบ จึงใช้ใน bacterial meningitis (ครอบคลุม penicillin-resistant pneumococcus) · ข้อนี้จะเป็นคำตอบถ้าโจทย์หมายถึงสมองที่ไม่มีการอักเสบ (เช่นให้ร่วม dexamethasone ที่ลดการอักเสบ ระดับใน CSF ลด)",
+  "B": "Ampicillin (β-lactam) ผ่านได้ดีเมื่อ meninges อักเสบ ใช้ครอบคลุม Listeria ในทารก ผู้สูงอายุ ภูมิต่ำ · ข้อนี้จะเป็นคำตอบถ้าเยื่อหุ้มสมองไม่อักเสบ",
+  "C": "Chloramphenicol ละลายในไขมัน ผ่าน BBB ได้ดีมากแม้ไม่มีการอักเสบ (เคยใช้รักษา meningitis) แต่มีพิษต่อไขกระดูก/gray baby · ข้อนี้จะเป็นคำตอบถ้าถามยาที่มีผลข้างเคียง aplastic anemia",
+  "E": "Ceftriaxone (3rd gen cephalosporin) ผ่าน BBB ได้ดีเมื่ออักเสบ เป็นยาหลักของ bacterial meningitis · ข้อนี้จะเป็นคำตอบถ้าเปลี่ยนเป็น cefazolin (1st gen) ซึ่งผ่านได้ไม่ดี"
+ },
+ "trap": "การผ่าน BBB ขึ้นกับ meningeal inflammation: β-lactam และ vancomycin ผ่านได้พอ ‘เมื่ออักเสบ’ · aminoglycoside (polar, มีประจุ) ผ่านไม่ดีแม้อักเสบ — ใน ventriculitis จึงต้องให้ intraventricular/intrathecal · ยาอื่นที่ผ่านไม่ดี: cefazolin, clindamycin, erythromycin, 1st-gen cephalosporin"
+},
+"MDCU70|RoC|25": {
+ "wrong": {
+  "B": "Brain abscess มักเป็นก้อนเดียวหรือไม่กี่ก้อน ring บางเรียบ ขนาดใหญ่กว่า มี DWI restriction ร่วมไข้/แหล่งติดเชื้อ ไม่ใช่ถุงน้ำเล็กจำนวนมากทั้งในเนื้อสมองและโพรงสมอง · จะถูกถ้าเด็กมี cyanotic heart disease หรือหูอักเสบเรื้อรัง ไข้ ปวดหัว",
+  "C": "Toxoplasmosis เกิดในผู้ภูมิต่ำ (HIV CD4 <100) ring lesions ที่ basal ganglia/corticomedullary junction ไม่ใช่ถุงน้ำในโพรงสมอง · จะถูกถ้าผู้ป่วย HIV ไม่ได้กินยา มีหลายก้อนที่ basal ganglia (eccentric target sign)",
+  "D": "Metastasis พบในผู้ใหญ่/ผู้สูงอายุที่มีมะเร็ง ก้อน solid/ring irregular บวมมาก ไม่ใช่ถุงน้ำใน ventricle ในเด็ก 12 ปี · จะถูกถ้าผู้สูงอายุมีประวัติมะเร็ง",
+  "E": "Tuberculoma เป็นก้อน ring/nodular enhancing (target sign) ร่วม basal meningitis ไม่ใช่ถุงน้ำจำนวนมากที่เห็น scolex · จะถูกถ้ามี TB ปอด basal exudate hydrocephalus"
+ },
+ "trap": "หลายถุงน้ำเล็กกระจายในเนื้อสมอง (starry sky) ± ถุงในโพรงสมอง + จุดในถุง (scolex — cyst with dot sign) ในเด็ก/คนที่มาจากถิ่นระบาด (กินหมูดิบ) ชักครั้งแรก = neurocysticercosis (Taenia solium) · ระยะต่างๆ: vesicular → colloidal (ring enhance บวม) → granular → calcified",
+ "summary": [
+  "Neurocysticercosis: สาเหตุ acquired epilepsy ที่พบบ่อยที่สุดในโลก · ติดจากกินไข่ T. solium (fecal-oral) ไม่ใช่กินเนื้อหมู",
+  "รูปแบบ: parenchymal (ชัก), intraventricular (obstructive hydrocephalus), subarachnoid/racemose (meningitis, hydrocephalus), spinal",
+  "รักษา: albendazole ± praziquantel + corticosteroid (ลดการอักเสบเมื่อถุงตาย) + antiepileptic · ไม่ให้ antiparasitic ใน calcified lesion หรือ cysticercal encephalitis",
+  "Intraventricular cyst/hydrocephalus → endoscopic removal หรือ shunt"
+ ]
+},
+"MDCU70|RoC|26": {
+ "wrong": {
+  "B": "Nonfunctioning adenoma กด chiasm → bitemporal hemianopia ได้ และอาจมีประจำเดือนผิดปกติจาก hypopituitarism หรือ stalk effect (prolactin สูงเล็กน้อย <150) แต่ prolactinoma เป็นคำตอบที่อธิบาย infertility ได้ตรงที่สุดในหญิงวัยเจริญพันธุ์ · จะถูกถ้า prolactin สูงเล็กน้อยไม่สมกับขนาดก้อนใหญ่",
+  "C": "Craniopharyngioma พบในเด็ก (5–14 ปี) และผู้ใหญ่ 50–70 ปี เป็น cystic + calcified suprasellar มี DI/โตช้า · จะถูกถ้าเด็กเตี้ย ปัสสาวะมาก ก้อนมี calcification เหนือ sella",
+  "D": "Somatotroph (GH) adenoma → acromegaly (มือเท้าโต คางยื่น เบาหวาน) ไม่ได้มาด้วย infertility เป็นหลัก · จะถูกถ้าผู้ป่วยแหวน/รองเท้าคับ หน้าเปลี่ยน IGF-1 สูง",
+  "E": "Meningioma (tuberculum/diaphragma sellae) กด chiasm ได้ แต่ไม่หลั่งฮอร์โมน ไม่ทำให้ infertility · จะถูกถ้าก้อนติด dura เหนือ sella มี dural tail ฮอร์โมนปกติ"
+ },
+ "trap": "Prolactin สูงยับยั้ง GnRH → FSH/LH ต่ำ → anovulation, amenorrhea, infertility (± galactorrhea) — หญิงมักมาเร็ว (microadenoma) ส่วนชายมาช้า (macroadenoma กดตา) · P'Ing แก้คำในไฟล์จาก bilateral เป็น bitemporal hemianopia",
+ "summary": [
+  "Prolactinoma: functioning pituitary adenoma ที่พบบ่อยที่สุด · หญิง: amenorrhea-galactorrhea-infertility · ชาย: libido ลด ED ปวดหัว ตามัว",
+  "Prolactin >200 ng/mL สนับสนุน prolactinoma · ระดับต่ำผิดคาดในก้อนใหญ่ → hook effect",
+  "รักษาแรก: cabergoline แม้ macroadenoma กด chiasm · ผ่าตัดเมื่อดื้อ/ทนยาไม่ได้/apoplexy",
+  "แยกสาเหตุอื่นของ prolactin สูง: ตั้งครรภ์, ยา (antipsychotic, metoclopramide), hypothyroidism, CKD, stalk effect"
+ ]
+},
+"MDCU70|RoC|27": {
+ "wrong": {
+  "B": "RAPD (Marcus Gunn pupil) เกิดจากรอยโรคที่ optic nerve/retina ข้างเดียว (optic neuritis, glaucoma รุนแรง) ส่องไฟสลับแล้ว pupil ข้างนั้นขยาย · จะถูกถ้าผู้ป่วยตามัวข้างเดียวปวดเวลากลอกตา (optic neuritis)",
+  "C": "Horner syndrome (ptosis, miosis, anhidrosis) เกิดจาก sympathetic pathway เสีย (Pancoast tumor, carotid dissection, lateral medullary) · จะถูกถ้าผู้ป่วยหนังตาตก รูม่านตาเล็กข้างเดียว เหงื่อไม่ออก",
+  "D": "Pinpoint pupils เกิดจาก pontine hemorrhage หรือ opioid overdose · จะถูกถ้าผู้ป่วย coma ฉับพลัน decerebrate หรือเสพยา",
+  "E": "Pupil ข้างเดียวโตไม่ตอบสนอง = CN III ถูกกด (uncal herniation, PCoA aneurysm) · จะถูกถ้าผู้ป่วยบาดเจ็บศีรษะซึมลง หรือปวดหัวรุนแรงหนังตาตก"
+ },
+ "trap": "Light-near dissociation: pupil ไม่หดต่อแสงแต่หดเมื่อมองใกล้ (accommodation) เพราะ pretectal nucleus ใน dorsal midbrain เสีย แต่ทาง near response (ventral) ยังดี · พบใน Parinaud (pineal tumor), Argyll Robertson (neurosyphilis — pupil เล็ก), Adie tonic pupil, diabetic neuropathy"
+},
+"MDCU70|RoC|28": {
+ "wrong": {
+  "B": "Left vestibular schwannoma จะทำให้หูซ้ายเสีย (SNHL ซ้าย) Weber จะไปข้างขวา (ข้างหูดี) และ cerebellar sign ข้างซ้าย — ไม่ตรงกับผลตรวจ · จะถูกถ้า Weber ไปขวา finger-to-nose ซ้ายผิดปกติ",
+  "C": "Right parietal glioma ทำให้อ่อนแรง/ชาซีกซ้าย neglect แต่ไม่ทำให้หูขวาเสียแบบ sensorineural และไม่มี ipsilateral cerebellar sign · จะถูกถ้ามี sensory loss ซีกซ้าย neglect ไม่มีปัญหาการได้ยิน",
+  "D": "Pineal tumor → Parinaud syndrome (กลอกตาขึ้นไม่ได้) + hydrocephalus ไม่ใช่ SNHL ข้างเดียวกับ cerebellar sign · จะถูกถ้ามี upgaze palsy, light-near dissociation",
+  "E": "Left cerebellar infarction ทำ ataxia ข้างซ้าย (ไม่ใช่ขวา) เกิดเฉียบพลัน และไม่ทำ SNHL (ยกเว้น AICA infarct) · จะถูกถ้าเวียนหัวเฉียบพลัน finger-to-nose ซ้ายผิดปกติ"
+ }
+},
+"MDCU70|RoC|29": {
+ "why": "<b>อาการค่อยเป็นค่อยไป</b> (ก้อนโตช้า) + <b>ICP สูง</b> + <b>อ่อนแรงซีกซ้าย</b> (corticospinal tract/motor cortex ด้านขวา) ในผู้ใหญ่วัยกลางคน → ก้อนที่ผิวสมองด้านขวา = <b>right convexity meningioma</b> (P'Ing: tumor at brain surface)<br>• Meningioma โตช้า สมองปรับตัวได้จนก้อนใหญ่ก่อนมีอาการ ICP สูง/papilledema · ติด dura enhance สม่ำเสมอ มี dural tail และกระดูกหนา (hyperostosis)<br>• ข้อเดียวกับ 70B เลข 59 (คนละ rotation)<br>→ ตอบ <b>A</b>",
+ "wrong": {
+  "B": "Pituitary adenoma → bitemporal hemianopia และอาการฮอร์โมน (เกิน/ขาด) ไม่ทำ hemiparesis · จะถูกถ้ามีลานสายตาขอบนอกหายสองข้าง/acromegaly/prolactin สูง",
+  "C": "Pineal germinoma พบในชายวัยรุ่น → Parinaud syndrome + obstructive hydrocephalus ไม่ใช่อ่อนแรงซีกเดียว · จะถูกถ้ากลอกตาขึ้นไม่ได้ ปวดหัวอาเจียน tumor marker β-hCG สูง",
+  "D": "Vestibular schwannoma → SNHL ข้างเดียว tinnitus ataxia · hemiparesis เกิดเฉพาะก้อนใหญ่มากกดก้านสมอง · จะถูกถ้ามีหูไม่ได้ยินข้างเดียวเป็นอาการนำ",
+  "E": "Medulloblastoma เป็น posterior fossa tumor ในเด็ก → truncal ataxia + hydrocephalus ไม่ใช่ผู้ใหญ่วัยกลางคนอ่อนแรงซีกเดียว · จะถูกถ้าเด็กเดินเซ อาเจียนเช้า ก้อนที่ vermis"
+ },
+ "trap": "ฝั่งของอ่อนแรงอยู่ตรงข้ามกับก้อน: อ่อนแรงซ้าย → ก้อนสมองซีกขวา · ‘ค่อยเป็นค่อยไปนาน’ ชี้ไปที่ benign slow-growing (meningioma) มากกว่า glioma high grade/metastasis ที่อาการเร็ว",
+ "summary": [
+  "Meningioma: primary brain tumor ที่พบบ่อยที่สุดในผู้ใหญ่ หญิง > ชาย สัมพันธ์รังสี, NF2, ฮอร์โมน",
+  "ตำแหน่ง: convexity (hemiparesis, ชัก), parasagittal/falx (ขาอ่อนแรงสองข้าง), sphenoid wing, olfactory groove (Foster Kennedy), foramen magnum",
+  "Imaging: extra-axial, enhance สม่ำเสมอ, dural tail, CSF cleft, hyperostosis",
+  "รักษา: observe (เล็ก ไม่มีอาการ) · ผ่าตัด (Simpson grade I = ตัดก้อน + dura + กระดูก) · SRS/RT สำหรับเหลือ/ตำแหน่งยาก/grade II–III"
+ ]
+},
+"MDCU70|RoC|32": {
+ "wrong": {
+  "A": "US ช่วยยืนยันน้ำ ดู loculation/septation และนำทางการเจาะ แต่ไม่บอกว่าเป็น complicated parapneumonic effusion/empyema หรือไม่ ต้องได้น้ำมาตรวจ · จะถูกถ้าใช้ประกอบการเจาะ (US-guided thoracentesis) หรือน้ำน้อยเจาะยาก",
+  "C": "Bronchoscopy ใช้เมื่อสงสัยก้อนอุดหลอดลม มะเร็ง/สิ่งแปลกปลอม หรือ pneumonia ไม่ตอบยา ไม่ใช่ขั้นแรกของ effusion ร่วมไข้ไอ · จะถูกถ้า effusion + ปอดยุบ (atelectasis) สงสัยก้อนอุดหลอดลม",
+  "D": "ICD ใส่เมื่อผลการเจาะบ่งชี้ (หนอง, gram stain/culture บวก, pH <7.2, glucose <60, loculated, ขนาด ≥½ hemithorax) (คีย์: ใส่หลัง tap) · จะถูกถ้าเจาะได้หนองหรือ pH ต่ำ",
+  "E": "Decortication ใช้ใน organizing empyema ที่ ICD ไม่ได้ผล (fibrous peel, trapped lung) (คีย์: ถ้า ICD ไม่ work) · จะถูกถ้าเป็น empyema เรื้อรัง เจาะได้น้ำน้อย CT เห็น peel หนา"
+ },
+ "trap": "Effusion ร่วมไข้ไอในผู้ใหญ่ = parapneumonic effusion จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ → diagnostic thoracentesis ทุกรายที่น้ำหนาเกิน ~1 ซม. ใน lateral decubitus (หรือ US) ส่ง pH, glucose, LDH, protein, cell count, gram stain/culture · ผลนี้ตัดสินว่าต้อง ICD หรือไม่ (P'Ing: แยก sterile effusion vs empyema)"
+},
+"MDCU70|RoC|43": {
+ "interp": "อุบัติเหตุมอเตอร์ไซค์ เลือดออกมากจากจมูกและปาก (maxillofacial trauma) + ความดันต่ำ → โจทย์ถามสิ่งที่ต้องทำ ‘ก่อน’ ตามลำดับ ATLS ซึ่งคือการเปิดทางเดินหายใจให้ปลอดภัย",
+ "why": "ตาม ATLS ลำดับคือ <b>Airway (with c-spine protection) → Breathing → Circulation</b><br>• เลือดจำนวนมากจากจมูกและปากใน midface (Le Fort) fracture ไหลลงคอ → สำลัก/อุดทางเดินหายใจ เป็นภัยที่ฆ่าเร็วที่สุด → ต้อง<b>ใส่ท่อช่วยหายใจ (ETT)</b> ก่อน (หรือ surgical airway ถ้าใส่ไม่ได้)<br>• เมื่อ airway ปลอดภัยแล้วจึง resuscitate, pack จมูก (anterior/posterior/balloon), จัดกระดูก และ embolization ถ้ายังออก<br>• ข้อเดียวกับ 70B เลข 27 (คนละ rotation)<br>→ ตอบ <b>A</b> (ตรงคีย์ P'Ing)",
+ "wrong": {
+  "B": "IV resuscitation จำเป็นเพราะความดันต่ำ แต่ทำพร้อมกัน/ตามหลัง airway — การให้สารน้ำไม่ช่วยถ้าผู้ป่วยสำลักเลือดจนหยุดหายใจ · จะถูกถ้าใส่ท่อช่วยหายใจเรียบร้อยแล้ว",
+  "C": "Anterior nasal packing ช่วยห้ามเลือดจากจมูกส่วนหน้า แต่ทำหลังใส่ ETT และใน midface fracture มักต้อง posterior packing/balloon ด้วย · จะถูกถ้า airway ปลอดภัยแล้วยังเลือดออกจากจมูก",
+  "D": "Angiographic embolization (internal maxillary artery) ใช้เมื่อเลือดยังออกหลัง packing และจัดกระดูก · จะถูกถ้าใส่ท่อแล้ว pack แล้ว ยังเลือดออกไม่หยุดและช็อก",
+  "E": "Facial X-ray/CT ทำหลังผู้ป่วยคงที่ (secondary survey) ไม่ใช่ขั้นแรกในผู้ป่วยเลือดออกมากช็อก · จะถูกถ้าผู้ป่วยรู้สึกตัวดี hemodynamics คงที่ สงสัยกระดูกหน้าหัก"
+ },
+ "trap": "ความดันต่ำทำให้อยากให้สารน้ำก่อน แต่ ATLS ต้อง A ก่อน C เสมอ — เลือดในปากและคอใน maxillofacial trauma ทำให้ทางเดินหายใจอุดตันเร็วกว่าที่ช็อกจะฆ่า · ระวัง c-spine และ basal skull fracture (ห้ามใส่ NG/nasotracheal tube)",
+ "summary": [
+  "Primary survey: Airway + c-spine → Breathing → Circulation + hemorrhage control → Disability → Exposure",
+  "Maxillofacial hemorrhage: secure airway (ETT/cricothyroidotomy) → anterior + posterior nasal packing/balloon → fracture reduction/IMF → angiographic embolization",
+  "Facial trauma + ใส่ท่อยาก/เลือดมาก → surgical airway (cricothyroidotomy)",
+  "Midface fracture ห้ามใส่ NG/nasal tube จนกว่าจะตัด cribriform plate fracture"
+ ]
+},
+"MDCU70|RoC|44": {
+ "wrong": {
+  "A": "Primary closure ทำไม่ได้เพราะขอบแผลดึงมาชนไม่ได้ (5×8 ซม.) การเย็บตึงทำให้แผลแยก/ขาดเลือด · จะถูกถ้าแผลเล็กหรือผิวหนังรอบหลวมพอปิดได้ไม่ตึง",
+  "B": "Secondary intention (ปล่อยหายเอง ± NPWT) ทำได้แต่ใช้เวลานานหลายสัปดาห์ แผลเป็นหดรั้งและไม่สวย · จะถูกถ้าแผลปนเปื้อน/ติดเชื้อ ยังไม่พร้อมปิด หรือผู้ป่วยไม่พร้อมผ่าตัด",
+  "D": "Local skin flap ไม่จำเป็นเมื่อ bed ดี (granulation บนไขมัน) graft ติดได้ — flap ใช้เมื่อ bed ไม่ดี มีกระดูก/เส้นเอ็น/อุปกรณ์เปลือย หรือต้องการ padding · จะถูกถ้าแผลเปิดเห็นตาข่าย (mesh) หรือ fascia ที่ติดเชื้อ",
+  "E": "Free flap ซับซ้อน ใช้เมื่อไม่มี local/regional flap ที่เหมาะกับ defect ใหญ่ที่มีโครงสร้างสำคัญเปลือย · จะถูกถ้าเป็นแผลหน้าแข้งส่วนล่างเห็นกระดูก tibia ขนาดใหญ่"
+ },
+ "trap": "Skin graft ต้องการ bed ที่มีเลือดเลี้ยงดี (granulation, กล้ามเนื้อ, fascia, periosteum, paratenon) — ไม่ติดบนกระดูก/เส้นเอ็นเปลือย, cartilage ไม่มี perichondrium, แผลติดเชื้อ (β-strep >10⁵) หรือเนื้อเยื่อที่ฉายรังสี · แผลสะอาดบน subcutaneous fat ที่มี granulation = graft ได้",
+ "summary": [
+  "Reconstructive ladder: secondary intention → primary closure → skin graft → local flap → regional flap → free flap (เลือกขั้นที่ง่ายที่สุดที่ให้ผลดี — หรือ ‘elevator’ ข้ามขั้นเพื่อผลดีที่สุด)",
+  "Graft ต้องการ vascular bed · ล้มเหลวจาก hematoma/seroma, infection, shear",
+  "Flap indication (P'Ing): bed เลือดเลี้ยงไม่ดี, padding บริเวณกระดูกยื่น, ต้องการ functional motor unit, ควบคุมการติดเชื้อ (เพิ่มเลือดไปเลี้ยง)",
+  "NPWT ช่วยเตรียม bed และยึด graft"
+ ]
+},
+"MDCU70|RoC|55": {
+ "why": "เจาะได้<b>หนองข้นสีเขียว</b> = <b>empyema thoracis</b> (ไม่ต้องรอผลเคมี เพราะหนองชัดเจนเป็นข้อบ่งชี้ระบายเด็ดขาด)<br>• การรักษา: <b>ระบายหนอง (intercostal chest drain)</b> + <b>IV antibiotics</b> (P'Ing แก้จาก oral เป็น IV) ครอบคลุม community-acquired เช่น streptococci, anaerobes (ampicillin-sulbactam หรือ ceftriaxone + metronidazole)<br>• ระยะนี้ยังเป็นของเหลวระบายได้ (P'Ing: fluid = ICD drain ได้) · ถ้ามี loculation → intrapleural tPA + DNase หรือ VATS · peel หนา (organizing) → decortication<br>→ ตอบ <b>C</b>",
+ "wrong": {
+  "A": "Oral antibiotics อย่างเดียวไม่พอใน empyema ที่มีหนองข้น ต้องระบายและให้ยาทางหลอดเลือด · จะถูกถ้าเป็น pneumonia + simple parapneumonic effusion เล็กที่ไม่ต้องระบาย ในผู้ป่วยนอก",
+  "B": "Small-bore catheter (10–14 Fr) ใช้ได้ผลในหลายราย (โดยเฉพาะร่วม tPA/DNase) แต่หนองข้นมากอาจอุดสาย ตามคีย์เลือก ICD ขนาดมาตรฐาน · จะถูกถ้าน้ำเป็น complicated effusion ไม่ข้นมาก หรือใช้ร่วม fibrinolytic ตามแนวทาง BTS",
+  "D": "Decortication ใช้ใน organizing empyema (stage III) หรือเมื่อ ICD + fibrinolytic ล้มเหลว ไม่ใช่การรักษาแรกเมื่อหนองยังระบายได้ · จะถูกถ้าเจาะแทบไม่ได้น้ำ CT เห็น peel หนา ปอดขยายไม่ได้",
+  "E": "การเจาะซ้ำหลายครั้งไม่พอสำหรับหนองข้น (ระบายไม่หมด กลับสะสม) · จะถูกถ้าเป็นน้ำปริมาณน้อยไม่ข้นในเด็ก หรือ simple effusion ที่ต้องเจาะเพื่อบรรเทาอาการ"
+ },
+ "trap": "หนองในช่องเยื่อหุ้มปอด = empyema → ต้องระบายเสมอ (ไม่ต้องรอผล pH/glucose) · ยาปฏิชีวนะอย่างเดียวไม่เข้าโพรงหนอง · ICD ไม่ดีขึ้นใน 5–7 วัน → CT หา loculation/สายผิดตำแหน่ง แล้ว fibrinolytic/VATS",
+ "summary": [
+  "Empyema stages: I exudative (ระบายง่าย) → II fibrinopurulent (loculation) → III organizing (fibrous peel)",
+  "Stage I–II: ICD + IV antibiotics ± intrapleural tPA/DNase (MIST-2) · ไม่ดีขึ้น → VATS debridement",
+  "Stage III/trapped lung: decortication (VATS หรือ open) · ผู้ป่วยไม่ไหว → open drainage (Eloesser flap)",
+  "Antibiotics ครอบคลุม anaerobe นานรวม 2–6 สัปดาห์ ตามการตอบสนอง"
+ ]
+},
+"MDCU70|RoC|59": {
+ "wrong": {
+  "A": "ผูก fistula แล้วต่อหลอดอาหารแบบ delayed primary repair (± gastrostomy) ใช้ใน long-gap EA (pure EA type A หรือช่องว่างยาวเกินต่อทันที) รอให้หลอดอาหารโต · จะถูกถ้าระหว่างผ่าตัดพบช่องว่างยาว (>3 vertebral bodies) ต่อตึงไม่ได้",
+  "B": "การ divert fistula ไม่ใช่การผ่าตัดมาตรฐาน — ต้องแยก (divide) และปิดฝั่งหลอดลม (ligate) แล้วต่อหลอดอาหารปลายต่อปลาย · จะถูกถ้าโจทย์หมายถึงการแยก fistula ซึ่งเป็นขั้นตอนหนึ่งของ primary repair",
+  "D": "Gastrostomy + cervical esophagostomy (spit fistula) เป็นทางเลือกเมื่อต่อหลอดอาหารไม่ได้ (long gap มาก/ล้มเหลวหลายครั้ง) รอ esophageal replacement · จะถูกถ้า pure EA ที่ช่องว่างยาวมากหรือทารกอาการหนัก",
+  "E": "Esophageal replacement (colon, stomach, jejunum interposition) เป็นทางเลือกสุดท้ายเมื่อต่อหลอดอาหารเดิมไม่ได้ · จะถูกถ้าช่องว่างยาวมาก ล้มเหลวจากการต่อเดิม หรือ stricture รุนแรงที่ขยายไม่ได้"
+ },
+ "trap": "ลมในลำไส้ = มี distal TEF (Gross C, พบบ่อยสุด ~85%) ซึ่งช่องว่างมักสั้น → ผ่าตัดทาง right thoracotomy (extrapleural) หรือ thoracoscopic: ligate/divide TEF + immediate primary end-to-end anastomosis · ต้องตรวจหัวใจก่อน (หา right aortic arch ซึ่งต้องเปลี่ยนไปผ่าซ้าย)"
+}
+}

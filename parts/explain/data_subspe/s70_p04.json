@@ -1,0 +1,145 @@
+{
+"MDCU70|RoB|36": {
+ "summary": [
+  "Esophageal atresia: น้ำลายไหลมาก สำลักตอนดูดนม OG tube ผ่านไม่ได้ ขดใน upper pouch (เห็นใน CXR)",
+  "Gross C (EA + distal TEF) ~85% → ท้องมีลม · gasless abdomen → Gross A (pure EA, long gap ~8%) หรือ B (proximal TEF)",
+  "ตรวจหา VACTERL: vertebral, anorectal, cardiac (echo ก่อนผ่าตัด — ข้าง aortic arch), TEF, renal, limb",
+  "ดูแลก่อนผ่าตัด: Replogle tube ดูดน้ำลาย, หัวสูง · long gap → gastrostomy + delayed primary anastomosis/Foker"
+ ]
+},
+"MDCU70|RoB|ไม่มีเลข 7": {
+ "wrong": {
+  "A": "ข้อความจริง: sinusitis (frontal/ethmoid) ลามตรงผ่านกระดูก/venous ทำให้ frontal lobe abscess · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า sinusitis ไม่เกี่ยว",
+  "B": "ข้อความจริง: otitis media/mastoiditis ลามตรง (direct spread) → temporal lobe หรือ cerebellar abscess · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าหูอักเสบไม่เพิ่มความเสี่ยง",
+  "C": "ข้อความจริง: right-to-left shunt (cyanotic CHD เช่น TOF, pulmonary AVM) ทำให้เชื้อในเลือดดำข้ามปอดซึ่งปกติกรองเชื้อไว้ ไปสมองโดยตรง (P'Ing) · ข้อนี้จะเป็นคำตอบถ้าเป็น L→R shunt (ASD/VSD ไม่มี Eisenmenger)",
+  "D": "ข้อความจริง: skull fracture แบบเปิด/บาดแผลทะลุ หรือหลังผ่าตัดสมอง ทำให้เชื้อเข้าสู่เนื้อสมองโดยตรง · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า trauma ไม่เกี่ยว"
+ },
+ "trap": "Brain abscess ไม่จำเป็นต้องมีไข้ — classic triad (ไข้ + ปวดหัว + focal deficit) พบเพียง ~20% และไข้พบแค่ ~50% · อาการที่พบบ่อยที่สุดคือปวดหัว · การไม่มีไข้หรือ WBC ปกติจึงไม่ตัด abscess ออก",
+ "summary": [
+  "Brain abscess: ปวดหัว (พบบ่อยสุด ~70%), ไข้ ~50%, focal deficit ~50%, ชัก, ซึม — triad ครบ ~20%",
+  "ที่มา: ลามตรงจาก sinus/หู/ฟัน, hematogenous (endocarditis, ปอด, cyanotic CHD), trauma/ผ่าตัด",
+  "MRI: ring-enhancing lesion + restricted diffusion (DWI) แยกจาก necrotic tumor",
+  "รักษา: aspiration/excision (ก้อน >2.5 ซม. หรือ mass effect) + IV antibiotics 6–8 สัปดาห์ · หลีกเลี่ยง LP"
+ ]
+},
+"MDCU70|RoB|ไม่มีเลข 8": {
+ "wrong": {
+  "A": "เป็นข้อบ่งชี้ผ่าตัด: abscess ขนาดใหญ่ (>6 ซม.) มักตอบสนองต่อยาไม่ดี ต้องระบาย (percutaneous/surgical) หรือ resection · ข้อนี้จะเป็นคำตอบถ้าขนาดเล็ก <4–6 ซม.ที่ยุบลง",
+  "B": "เป็นข้อบ่งชี้ผ่าตัด/ระบาย: ไม่ดีขึ้นหลังให้ antibiotics ที่เหมาะสม 2 สัปดาห์ (ไข้ไม่ลง ก้อนไม่ยุบ) และต้องแยกมะเร็งที่อุดหลอดลม · ข้อนี้จะเป็นคำตอบถ้าตอบสนองดีภายในสัปดาห์แรก",
+  "C": "เป็นข้อบ่งชี้ผ่าตัด: massive hemoptysis จากการกัดกร่อนหลอดเลือด (bronchial artery) อันตรายถึงชีวิต → bronchial artery embolization หรือ resection · ข้อนี้จะเป็นคำตอบถ้าเป็นเสมหะปนเลือดเล็กน้อย",
+  "D": "เป็นข้อบ่งชี้ผ่าตัด: abscess แตกเข้าช่องเยื่อหุ้มปอด → empyema/pyopneumothorax/bronchopleural fistula ต้องระบาย/ผ่าตัด · ข้อนี้จะเป็นคำตอบถ้า abscess ระบายเองผ่านหลอดลมโดยไม่แตกเข้า pleura"
+ },
+ "trap": "Lung abscess ส่วนใหญ่ (~80–90%) หายด้วย antibiotics + postural drainage นาน 4–6 สัปดาห์ (หรือจน CXR ดีขึ้นมาก) ไม่ต้องผ่าตัด · ⚠ ในไฟล์ P'Ing ติ๊กทุกช้อยว่าเป็นข้อบ่งชี้ (รวมช้อยเดิม R/O CA ซึ่งก็เป็นข้อบ่งชี้จริง) จึงเปลี่ยนช้อย E เป็น abscess เล็กที่ดีขึ้นด้วยยา",
+ "summary": [
+  "Lung abscess: มักจาก aspiration (anaerobes) ในคนติดสุรา ชัก ฟันผุ · ตำแหน่ง posterior segment RUL, superior segment RLL",
+  "รักษา: antibiotics ครอบคลุม anaerobe (ampicillin-sulbactam, clindamycin) 4–6 สัปดาห์ + postural drainage ± bronchoscopy",
+  "ข้อบ่งชี้ระบาย/ผ่าตัด: ไม่ตอบยา, ขนาด >6 ซม., massive hemoptysis, แตกเป็น empyema/BPF, สงสัยมะเร็ง",
+  "Percutaneous drainage ในผู้ป่วยเสี่ยงผ่าตัด · ผ่าตัดมัก lobectomy"
+ ]
+},
+"MDCU70|RoB|ไม่มีเลข 9": {
+ "wrong": {
+  "A": "Lobectomy เป็นการผ่าตัดมาตรฐานของ NSCLC ระยะแรก แต่ยังไม่มีการวินิจฉัยทางพยาธิวิทยา/staging และ PFT แย่ (post-op FEV1 คาด <1.5 L หรือ ppoFEV1 <40%) อาจทนผ่าตัดไม่ได้ (คีย์) · จะถูกถ้ายืนยันมะเร็ง stage I–II และ ppoFEV1/ppoDLCO ผ่านเกณฑ์",
+  "B": "Open wedge resection ใช้กับ lung metastasis หรือมะเร็งระยะแรกมาก (คีย์) และไม่ใช่ขั้นแรกก่อนได้ tissue/staging · จะถูกถ้าเป็นก้อนเล็กรอบนอกที่ต้องการทั้งวินิจฉัยและรักษาในผู้ป่วยปอดไม่ดี (ปัจจุบันใช้ VATS)",
+  "C": "VATS wedge resection ใช้วินิจฉัยและรักษาก้อนเล็กรอบนอกที่เข้าถึงยากด้วยเข็ม/กล้อง หรือ sublobar resection ในผู้ป่วยปอดไม่ดี แต่ขั้นแรกควรได้ tissue diagnosis ด้วยวิธีที่รุกรานน้อยกว่า · จะถูกถ้า bronchoscopy/TTNA ไม่ได้ผลและก้อนอยู่ peripheral <2 ซม.",
+  "D": "SBRT ใช้ในผู้ป่วยที่ผ่าตัดไม่ได้ แต่ควรมีหลักฐานทางเนื้อเยื่อก่อน (ยกเว้นบางกรณีที่ biopsy เสี่ยงมาก) · จะถูกถ้ายืนยันมะเร็ง stage I แล้วและผู้ป่วยทนผ่าตัดไม่ได้"
+ },
+ "trap": "ก่อนผ่าตัดปอดต้องมี (1) tissue diagnosis (2) staging (CT, PET-CT, EBUS/mediastinoscopy) (3) physiologic assessment — ppoFEV1 และ ppoDLCO >60% = ปลอดภัย, 30–60% → stair climb/shuttle walk, <30% หรือ VO2max <10 mL/kg/min = เสี่ยงสูงมาก · ผู้ป่วย COPD จึงต้องประเมินก่อน ไม่ใช่ผ่าทันที"
+},
+"MDCU70|RoC|1": {
+ "wrong": {
+  "A": "การติดตามด้วย US เหมาะกับ AML ไม่มีอาการขนาด <4 ซม. (ตรวจซ้ำ 6–12 เดือน) แต่ก้อน 5 ซม. ที่มีอาการปวดเสี่ยงเลือดออก (Wunderlich syndrome) ต้องรักษา (คีย์ ✗: ใช้เมื่อ asymptomatic + <4 cm) · จะถูกถ้าก้อน 3 ซม. พบโดยบังเอิญ",
+  "B": "Percutaneous biopsy ไม่จำเป็นเพราะไขมันมหภาค (macroscopic fat, HU < −10) บน CT วินิจฉัย AML ได้เกือบแน่นอน และเสี่ยงเลือดออก · จะถูกถ้าเป็น fat-poor AML ที่แยกจาก RCC ไม่ได้",
+  "D": "Total (radical) nephrectomy เสียเนื้อไตดีโดยไม่จำเป็นในเนื้องอก benign (คีย์ ✗: สำหรับ multifocal) · จะถูกถ้าก้อนใหญ่มากแทนที่เนื้อไตเกือบทั้งหมด หรือเลือดออกรุนแรงที่ embolize ไม่สำเร็จ",
+  "E": "Chemotherapy ไม่ใช้ใน AML (benign) · ยาที่ใช้คือ mTOR inhibitor (everolimus) ใน AML หลายก้อนจาก tuberous sclerosis · จะถูกถ้าโจทย์เป็น TSC มี AML สองข้างหลายก้อน"
+ },
+ "trap": "ไขมันในก้อนไตบน CT = angiomyolipoma (benign) ไม่ใช่ RCC → ไม่ต้อง biopsy · ข้อบ่งชี้รักษา: มีอาการ (ปวด/เลือดออก), ขนาด >4 ซม., โตเร็ว, หญิงวัยเจริญพันธุ์ที่อาจตั้งครรภ์ · วิธีแรกที่นิยม: selective arterial embolization หรือ partial nephrectomy (nephron-sparing)"
+},
+"MDCU70|RoC|2": {
+ "wrong": {
+  "A": "RCC ส่วนใหญ่พบโดยบังเอิญจาก imaging (classic triad hematuria + flank pain + mass พบ <10%) และ hematuria ของ RCC มักร่วมปวดสีข้าง/ก้อน · จะถูกถ้า CT พบก้อนเนื้อไตที่ enhance หรือมี paraneoplastic (polycythemia, hypercalcemia)",
+  "C": "นิ่วทางเดินปัสสาวะทำให้ hematuria ร่วมปวด (renal colic) ไม่ใช่ painless (คีย์: painful hematuria) · จะถูกถ้ามีปวดบิดสีข้างร้าวลงขาหนีบ",
+  "D": "BPH ทำให้ hematuria ได้ (หลอดเลือดเปราะบนต่อม) แต่มักมี LUTS และต้องตัดมะเร็งก่อนเสมอ · จะถูกถ้าชายสูงอายุมี LUTS มาก cystoscopy เห็นหลอดเลือดบนต่อมที่โต ไม่มีก้อนในกระเพาะ",
+  "E": "Cystitis มีแสบขัด ปัสสาวะบ่อย กลั้นไม่ได้ ไม่ใช่ painless · จะถูกถ้าเป็นหญิงอายุน้อยปัสสาวะแสบขัดเป็นเลือด UA มี pyuria/bacteria"
+ },
+ "trap": "Painless gross hematuria ในผู้สูงอายุสูบบุหรี่ = bladder cancer (urothelial carcinoma) จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ แม้ hematuria หายเอง หรือผู้ป่วยกินยาต้านการแข็งตัว ก็ต้อง workup ครบ (cystoscopy + CT urography)"
+},
+"MDCU70|RoC|3": {
+ "wrong": {
+  "B": "Partial penectomy เป็นการรักษา penile SCC ที่ glans/distal shaft แต่ต้องยืนยันชนิดและ grade ด้วย biopsy ก่อนตัดอวัยวะ · จะถูกถ้า biopsy ยืนยัน SCC ลุก corpora ที่ glans/distal และเหลือความยาวพอยืนปัสสาวะได้",
+  "C": "Inguinal lymph node dissection ทำตามสถานะต่อมน้ำเหลือง (คลำได้ → FNA; คลำไม่ได้แต่ high risk → dynamic sentinel node biopsy/modified ILND) หลังรู้ผลพยาธิของก้อนหลัก · จะถูกถ้าเป็น pT1G3/≥pT2 หรือคลำต่อมน้ำเหลืองขาหนีบได้และ FNA ยืนยัน",
+  "D": "PET-CT ใช้ staging ในโรคลุกลาม (ต่อมน้ำเหลืองโต) ไม่ใช่ขั้นแรกก่อนมีการวินิจฉัยทางเนื้อเยื่อ · จะถูกถ้ายืนยัน SCC แล้วมี inguinal node บวก ต้องหา pelvic/distant metastasis",
+  "E": "Topical steroid ใช้กับ lichen sclerosus/balanitis ไม่ใช่ก้อนแผลที่สงสัยมะเร็ง การลองยาทำให้วินิจฉัยช้า · จะถูกถ้าเป็นผื่นขาวบางที่ glans/หนังหุ้ม (BXO) ไม่มีก้อน"
+ },
+ "trap": "ก้อน/แผลที่ glans ในผู้ชาย (โดยเฉพาะไม่ได้ขลิบ มี phimosis สุขอนามัยไม่ดี HPV สูบบุหรี่) = สงสัย penile SCC → biopsy (incisional) ก่อนทุกการรักษา · ต่อมน้ำเหลืองขาหนีบโตอาจเป็นแค่การอักเสบ (~50%) จึงไม่ตัดสินจากการคลำอย่างเดียว"
+},
+"MDCU70|RoC|5": {
+ "wrong": {
+  "A": "Retrograde pyelography ฉีดสีผ่านกล้องดูท่อไตและกรวยไต เห็น filling defect ได้ดี แต่ไม่เห็น renal parenchyma (ต้องเสริม US/CT) และรุกรานกว่า (คีย์) · จะถูกถ้าผู้ป่วยแพ้สี/ไตเสื่อมทำ CTU ไม่ได้ หรือทำระหว่าง cystoscopy",
+  "C": "Ureteroscopy รุกรานและใช้เมื่อ imaging/cytology ผิดปกติ ต้องการ biopsy ก้อนในท่อไต · จะถูกถ้า CTU พบ filling defect ในท่อไต/กรวยไต",
+  "D": "VCUG ใช้ประเมิน vesicoureteral reflux และ posterior urethral valve ในเด็ก ไม่ใช่การหาสาเหตุ hematuria ในผู้ใหญ่ · จะถูกถ้าเป็นเด็กติดเชื้อทางเดินปัสสาวะซ้ำมีไข้ US พบ hydronephrosis",
+  "E": "Plain KUB เห็นแค่นิ่วทึบรังสี ไม่เห็นเนื้องอก/ทางเดินปัสสาวะส่วนบน ไม่พอสำหรับ hematuria workup · จะถูกถ้าใช้ติดตามขนาดนิ่วทึบรังสีที่รู้อยู่แล้ว"
+ },
+ "trap": "Microscopic hematuria ในหญิง 55 ปีต้องตัดมะเร็ง (TCC) ทั้ง upper และ lower tract แม้มีประวัติ staghorn stone (อย่าโทษนิ่วเก่า) · upper tract: CT urography (หรือ MR urography ถ้าแพ้สี) · lower tract: cystoscopy (เห็น CIS, flat lesion ที่ imaging พลาด)",
+ "summary": [
+  "Hematuria workup (AUA): upper tract imaging — CT urography (non-contrast + nephrographic + excretory phase) + cystoscopy",
+  "แพ้สี/ไตเสื่อม: MR urography หรือ non-contrast CT/US + retrograde pyelography",
+  "Urine cytology เป็นตัวเสริม (ไวต่อ high-grade/CIS)",
+  "Risk stratification (อายุ, เพศ, บุหรี่, จำนวน RBC) กำหนดความเข้มข้นของการตรวจใน microscopic hematuria"
+ ]
+},
+"MDCU70|RoC|9": {
+ "wrong": {
+  "B": "UTI ซ้ำไม่ใช่ข้อบ่งชี้คาสาย — การคาสายกลับเพิ่มความเสี่ยง CAUTI · จะถูกถ้า UTI ซ้ำเกิดจาก incomplete emptying (residual มาก) ที่ต้องใช้ clean intermittent catheterization",
+  "C": "Dysuria + pyuria = cystitis รักษาด้วยยาปฏิชีวนะ ไม่ต้องคาสาย · จะถูกถ้ามี clot retention หรือ urinary retention ร่วม",
+  "D": "Straddle injury + เลือดที่ปลายท่อปัสสาวะ = สงสัย anterior (bulbar) urethral injury → ทำ retrograde urethrogram ก่อน การใส่สายแบบไม่รู้อาจทำให้ partial tear กลายเป็น complete (complete → suprapubic cystostomy) · จะถูกถ้า RUG พบเพียง contusion/partial tear ที่ใส่สายได้ง่ายโดยผู้ชำนาญ",
+  "E": "Urge incontinence (overactive bladder) รักษาด้วย bladder training, antimuscarinic, mirabegron ไม่ใช่คาสาย · จะถูกถ้าเป็น overflow incontinence จาก retention เรื้อรัง"
+ }
+},
+"MDCU70|RoC|16": {
+ "why": "ชายอายุ 20 ปี <b>ไม่มีโรคประจำตัว ไม่มีความดันสูง ไม่มีอุบัติเหตุ</b> แต่มีเลือดออกในสมอง (IVH) → spontaneous ICH ในคนอายุน้อยต้องหา <b>vascular lesion</b> โดยเฉพาะ <b>AVM</b> (สาเหตุ ICH ที่พบบ่อยที่สุดในวัยหนุ่มสาว) รวมถึง aneurysm, moyamoya, cavernoma<br>• ขั้นต่อไป: <b>CT angiography</b> (เร็ว ไม่รุกราน) · ถ้าลบแต่สงสัยมาก → DSA (gold standard) หรือ MRI/MRA ซ้ำหลังเลือดยุบ<br>• Primary IVH ในผู้ใหญ่พบน้อย มักมาจาก AVM/aneurysm ที่ periventricular หรือ choroid plexus<br>→ ตอบ <b>A</b> (ตรงลายมือ P'Ing)",
+ "wrong": {
+  "B": "LP ห้ามทำเมื่อมีเลือดออกในสมอง/hydrocephalus/mass effect (เสี่ยง herniation) และ CT เห็นเลือดแล้วไม่ต้องยืนยันด้วย CSF · จะถูกถ้าสงสัย SAH แต่ CT ปกติ (>6 ชม.)",
+  "C": "EEG ใช้ประเมิน seizure/nonconvulsive status แต่ไม่ช่วยหาสาเหตุเลือดออก · จะถูกถ้าผู้ป่วยซึมไม่สมกับขนาดเลือดออกและสงสัย nonconvulsive seizure",
+  "D": "รอ CT ซ้ำ 1 เดือนช้าเกิน เพราะ AVM/aneurysm ที่แตกแล้วเสี่ยงเลือดออกซ้ำ ต้องหาและรักษาเร็ว · จะถูกถ้า CTA/DSA ครั้งแรกลบแต่เลือดอาจบดบัง → ทำ MRI/DSA ซ้ำ 4–6 สัปดาห์",
+  "E": "Serum ammonia ใช้ประเมิน hepatic encephalopathy (ซึมจากตับวาย) ไม่เกี่ยวกับเลือดออกในสมองที่เห็นใน CT · จะถูกถ้าผู้ป่วยตับแข็งซึมสับสน CT ปกติ"
+ },
+ "trap": "อย่ารอให้มีความดันสูง/ประวัติ trauma จึงหาสาเหตุ — ICH ในคนอายุน้อย ไม่มีความดันสูง หรือตำแหน่งผิด pattern (lobar, primary IVH) ต้องทำ vascular imaging เสมอ · AVM แตกมักมาด้วย ICH/IVH ชัก หรือปวดหัว"
+},
+"MDCU70|RoC|17": {
+ "wrong": {
+  "B": "AVM มี nidus + feeding artery + draining vein เห็นเป็น flow voids บน MRI และเห็นชัดใน angiography · ภาพ popcorn + hemosiderin rim ไม่ใช่ AVM · จะถูกถ้า MRI เห็นกลุ่ม flow voids คดเคี้ยว และ DSA เห็น early venous drainage",
+  "C": "Pontine glioma (DIPG) เป็นก้อนขยายตัวกระจาย (diffuse expansile) ใน pons พบมากในเด็ก 5–10 ปี อาการ CN VI/VII + long tract + ataxia ค่อยเป็นเร็ว · จะถูกถ้าเด็กมีอาการ cranial nerve หลายเส้น MRI pons บวมโตไม่มีขอบชัด",
+  "D": "Brainstem abscess พบน้อย ภาพ ring-enhancing + DWI restriction ร่วมไข้/แหล่งติดเชื้อ · จะถูกถ้าผู้ป่วยมีไข้ endocarditis/หูอักเสบ และ MRI เห็น ring enhancement",
+  "E": "Capillary telangiectasia มักอยู่ pons เหมือนกันแต่ไม่มีอาการ ไม่เลือดออก ภาพจาง enhance เล็กน้อย ไม่มี popcorn/hemosiderin ring · จะถูกถ้าเป็น incidental finding ใน pons ที่ enhance บางๆ (brush-like) ไม่มีอาการ"
+ }
+},
+"MDCU70|RoC|18": {
+ "why": "<b>Cerebellar hemorrhage</b> ขนาดใหญ่ในผู้สูงอายุความดันสูง + <b>ซึมลง</b> = posterior fossa มีพื้นที่น้อย ก้อนเลือดกด<b>ก้านสมอง</b>และอุด <b>fourth ventricle</b> (obstructive hydrocephalus) → เสียชีวิตเร็ว<br>• ข้อบ่งชี้ผ่าตัด (AHA/ASA 2022): cerebellar ICH <b>>3 ซม.</b> (หรือ ≥15 มล.), อาการแย่ลง, <b>brainstem compression</b>, <b>hydrocephalus</b> → <b>suboccipital decompressive craniectomy + evacuation</b> ทันที<br>• การใส่ EVD อย่างเดียวไม่แนะนำ (เสี่ยง upward herniation และไม่แก้การกดก้านสมอง)<br>→ ตอบ <b>A</b> (ตรงสไลด์ที่ P'Ing แปะ)",
+ "wrong": {
+  "B": "คุมความดันเป็นการรักษาพื้นฐานของ ICH ทุกราย (SBP เป้า ~140) แต่ไม่พอในก้อน cerebellar ใหญ่ที่กดก้านสมองจนซึม · จะถูกถ้าก้อน cerebellar <3 ซม. รู้สึกตัวดี ไม่มี hydrocephalus",
+  "C": "Mannitol ลด ICP ชั่วคราวเป็น bridge แต่ไม่แก้ก้อนเลือดที่กดก้านสมอง การสังเกตทำให้ herniation · จะถูกถ้าใช้ระหว่างรอเข้าห้องผ่าตัด",
+  "D": "LP ห้ามในก้อนใน posterior fossa/hydrocephalus เพราะเสี่ยง tonsillar herniation · จะถูกถ้าสงสัย SAH/meningitis โดย CT ไม่มี mass effect",
+  "E": "Thrombolysis ห้ามเด็ดขาดใน hemorrhagic stroke · จะถูกถ้าเป็น acute ischemic stroke ภายใน 4.5 ชม. CT ไม่มีเลือดออก"
+ },
+ "trap": "Cerebellar ICH ต่างจาก supratentorial ICH: posterior fossa แคบ ก้อนไม่ต้องใหญ่ก็กดก้านสมอง/อุด fourth ventricle → เกณฑ์ผ่าตัดต่ำกว่ามาก (>3 ซม./ซึมลง/hydrocephalus) และต้องผ่าตัดเร็ว · ผู้ป่วยอาจเริ่มด้วยเวียนหัว อาเจียน เดินไม่ได้ ก่อนซึมลงฉับพลัน"
+},
+"MDCU70|RoC|19": {
+ "wrong": {
+  "B": "Aneurysmal SAH (คำตอบที่ผู้จดเขียน) มีปวดหัวรุนแรงเฉียบพลัน คอแข็ง หมดสติได้ แต่ไม่ทำให้ pupil 1 มม. สองข้าง + decerebrate ทั้งสี่รยางค์ตั้งแต่แรก (ลายมือ P'Ing: lesion ใต้ midbrain ซึ่งชี้ pons) · คอแข็งในรายนี้เกิดจากเลือดจาก pons แตกเข้า fourth ventricle/subarachnoid · จะถูกถ้า pupil ปกติ/ข้างเดียวโต (PCoA aneurysm กด CN III) และ CT เห็นเลือดใน basal cistern เป็นหลัก",
+  "C": "Putaminal hemorrhage (HT-ICH ที่พบบ่อยสุด) ให้อ่อนแรงครึ่งซีกข้างตรงข้าม ตาเหลือบไปข้างรอยโรค pupil ปกติ (จนกว่าจะ herniate) · จะถูกถ้าผู้ป่วยอ่อนแรงซีกเดียว ตามองไปทางรอยโรค",
+  "D": "Cerebellar infarction เริ่มด้วยเวียนหัว อาเจียน ataxia ไม่ทำให้ coma ทันทีพร้อม pinpoint pupils (จะซึมลงช้าเมื่อบวมกดก้านสมองใน 2–4 วัน) · จะถูกถ้าผู้ป่วยเวียนหัว เดินเซ ไม่มีความผิดปกติของ pupil",
+  "E": "Thalamic hemorrhage ให้ตาเหลือบลงล่าง (‘peering at nose’), pupil เล็กตอบสนองน้อย, sensory loss ซีกตรงข้าม ไม่ใช่ decerebrate ทั้งสี่รยางค์ + pupil 1 มม. · จะถูกถ้าผู้ป่วยตาเหลือบลงล่างและชาครึ่งซีก"
+ },
+ "trap": "⚠ คำตอบที่ผู้จดเขียนคือ SAH เพราะมีคอแข็ง แต่ pupil 1 มม. ไม่ตอบสนองสองข้าง (pinpoint จาก sympathetic tract เสีย) + coma ฉับพลัน + หายใจผิดปกติ + decerebrate ทั้งสี่รยางค์ = pontine hemorrhage (ลายมือ P'Ing: lesion ใต้ midbrain) · คอแข็งเกิดได้จากเลือดแตกเข้า ventricle/subarachnoid"
+},
+"MDCU70|RoC|20": {
+ "wrong": {
+  "A": "มีประโยชน์: ยกหัว 30° ช่วย venous drainage ลด ICP และ ICP monitoring เมื่อ GCS 3–8 + CT ผิดปกติ (BTF) · ข้อนี้จะเป็นคำตอบถ้าผู้ป่วยรู้สึกตัวดี GCS 15 ไม่มีข้อบ่งชี้ monitor",
+  "B": "มีประโยชน์: contusion มักขยายตัว (blossoming) ภายใน 24–72 ชม. ต้อง CT ซ้ำ (โดยเฉพาะถ้าอาการแย่ลงหรือมี coagulopathy) · ข้อนี้จะเป็นคำตอบถ้าเป็นแผลหนังศีรษะอย่างเดียวไม่มีรอยโรคในสมอง",
+  "C": "มีประโยชน์: phenytoin/levetiracetam 7 วันลด early post-traumatic seizure ใน severe TBI/cortical contusion (ไม่ลด late seizure) · ข้อนี้จะเป็นคำตอบถ้าให้ยาเกิน 7 วันเพื่อป้องกัน late seizure",
+  "E": "มีประโยชน์: craniotomy เมื่อ contusion ใหญ่/mass effect เพิ่ม/ICP สูงคุมไม่ได้/ทรุดลง (เช่น >20 มล. + midline shift >5 มม.) · ข้อนี้จะเป็นคำตอบถ้า contusion เล็ก ผู้ป่วยคงที่"
+ },
+ "trap": "Contusion คือเนื้อสมองช้ำจากแรงกระแทก ไม่ใช่ความผิดปกติของหลอดเลือด จึงไม่ได้ประโยชน์จาก angiography/embolization · embolization ใช้กับ traumatic pseudoaneurysm/dural AV fistula/เลือดออกจาก external carotid ในกะโหลก-ใบหน้า · ⚠ ผู้จดเดาภาพ โจทย์จึงถูกแต่งตามคำตอบ"
+}
+}

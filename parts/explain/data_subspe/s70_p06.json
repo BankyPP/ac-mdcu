@@ -1,0 +1,108 @@
+{
+"MDCU70|RoC|72": {
+ "wrong": {
+  "A": "Neurocysticercosis เป็นถุงน้ำหลายถุงมี scolex (cyst with dot) พบในคนภูมิปกติจากถิ่นระบาด ไม่จำเพาะกับ HIV และไม่เลือก basal ganglia · จะถูกถ้าเป็นเด็ก/วัยรุ่นชักครั้งแรก ภาพ starry sky",
+  "B": "Metastasis พบในผู้ใหญ่ที่มีมะเร็งปฐมภูมิ มักอยู่ gray-white junction บวมรอบมาก ไม่ใช่ HIV + ไข้ + basal ganglia · จะถูกถ้ามีประวัติมะเร็งปอด/เต้านม",
+  "C": "Bacterial brain abscess มักก้อนเดียวหรือไม่กี่ก้อน มีแหล่งติดเชื้อ (sinus, หู, ฟัน, endocarditis) ring บางเรียบ DWI restriction · ใน DM อย่างเดียวพบบ่อย แต่หลายก้อนที่ basal ganglia ในผู้ป่วย HIV ชี้ toxoplasma · จะถูกถ้าไม่มี HIV มีหูอักเสบ ก้อนเดียวใน temporal lobe",
+  "E": "Glioblastoma มักก้อนเดี่ยว irregular ring เนื้อตายตรงกลาง ข้าม corpus callosum ในผู้สูงอายุ ไม่ใช่หลายก้อนร่วมไข้ใน HIV · จะถูกถ้าผู้สูงอายุอาการเร็ว ก้อนใหญ่ก้อนเดียว"
+ },
+ "trap": "HIV + หลาย ring-enhancing lesions ที่ basal ganglia/corticomedullary junction = toxoplasmosis (eccentric target sign) จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · คู่แยกสำคัญคือ primary CNS lymphoma (ก้อนเดียว periventricular, EBV DNA ใน CSF, thallium SPECT/PET uptake สูง) · DM ร่วมด้วยไม่เปลี่ยนคำตอบ",
+ "summary": [
+  "Cerebral toxoplasmosis: reactivation ของ T. gondii ใน HIV ที่ CD4 <100 · ติดจากแมว/เนื้อดิบ (IgG บวก)",
+  "อาการ: ไข้ ปวดหัว สับสน focal deficit ชัก · CT/MRI: หลาย ring lesion ที่ basal ganglia",
+  "รักษา empiric: pyrimethamine + sulfadiazine + leucovorin (หรือ TMP-SMX) 6 สัปดาห์ → ทำ imaging ซ้ำใน 2 สัปดาห์ ถ้าไม่ดีขึ้นพิจารณา biopsy (PCNSL)",
+  "Primary prophylaxis: TMP-SMX เมื่อ CD4 <100 และ IgG บวก"
+ ]
+},
+"MDCU70|RoC|73": {
+ "wrong": {
+  "B": "Chemoradiation นำแล้วผ่าตัดเฉพาะที่เหลือ ไม่ใช่แนวทางของ thymoma ที่ตัดได้ (ผ่าตัดก่อนให้ R0 เป็นปัจจัยพยากรณ์สำคัญที่สุด) · thymoma ตอบสนอง RT ได้ จึงใช้เป็น adjuvant · จะถูกถ้าเป็น lymphoma ใน anterior mediastinum หรือ thymoma ลุกลามมาก (Masaoka III–IVa) ที่ให้ induction chemo ก่อนผ่าตัด",
+  "C": "ข้อนี้ผิดที่ให้เหตุผลว่า thymoma ดื้อรังสี — จริงๆ thymoma ไวต่อ RT (ใช้ adjuvant ใน stage II–III/R1) · จะถูกถ้าเป็น germ cell tumor ชนิด nonseminoma ที่ใช้ chemo + ผ่าตัดเนื้อที่เหลือ",
+  "D": "Steroid คุมอาการ MG แต่ไม่รักษาเนื้องอก thymoma ที่อาจลุกลาม และ thymectomy ยังช่วย MG ด้วย · จะถูกถ้าเป็น MG ไม่มี thymoma ในผู้สูงอายุที่ผ่าตัดไม่ได้ (ใช้ pyridostigmine/steroid/immunosuppressant)",
+  "E": "CT-guided biopsy ไม่จำเป็นในก้อน anterior mediastinum ที่ภาพเข้ากับ thymoma และตัดได้ (เสี่ยง seeding ทำลาย capsule) และ RT อย่างเดียวไม่ใช่มาตรฐาน · จะถูกถ้าก้อนตัดไม่ได้หรือสงสัย lymphoma/germ cell tumor (tumor marker สูง)"
+ },
+ "trap": "ก้อน anterior mediastinum + MG = thymoma → total thymectomy (ตัด thymus ทั้งหมดรวมไขมันรอบ) ไม่ใช่ biopsy ก่อนเมื่อภาพชัดและตัดได้ · ก่อนผ่าตัดต้องคุม MG ให้ดี (pyridostigmine, IVIG/plasmapheresis ถ้ารุนแรง) เพื่อลด myasthenic crisis หลังผ่าตัด"
+},
+"MDCU70|RoC|88": {
+ "wrong": {
+  "A": "การรักษาถูก: low intersphincteric (simple) fistula ตัดผ่าน sphincter เพียงเล็กน้อย → fistulotomy (lay open) หายสูง incontinence ต่ำ · ข้อนี้จะเป็นคำตอบถ้าเป็น high fistula ที่ตัด sphincter มาก",
+  "B": "การรักษาถูก: draining (loose) seton ใช้ใน high/complex fistula, Crohn's หรือช่วงติดเชื้อ เพื่อระบายและให้ tract แข็งก่อนการผ่าตัดขั้นต่อไป · ข้อนี้จะเป็นคำตอบถ้าใช้ cutting seton แบบดึงแน่นเร็วใน fistula สูงด้านหน้าหญิง",
+  "C": "การรักษาถูก: LIFT (ligation of intersphincteric fistula tract) เก็บ sphincter สำหรับ transsphincteric fistula · ข้อนี้จะเป็นคำตอบถ้าใช้กับ suprasphincteric/extrasphincteric ที่ทางผ่านซับซ้อน",
+  "D": "การรักษาถูก: endorectal advancement flap ปิดรูภายในโดยไม่ตัด sphincter ใช้ใน high/complex fistula · ข้อนี้จะเป็นคำตอบถ้าใช้ในช่วงที่ยังมี abscess/ติดเชื้อเฉียบพลัน"
+ },
+ "trap": "Fistula สูง (ผ่าน sphincter >30%) และ fistula ด้านหน้าในผู้หญิง (external sphincter ด้านหน้าสั้น + อาจบาดเจ็บจากการคลอด) ห้าม fistulotomy เพราะเสี่ยง incontinence สูง → ใช้วิธีเก็บหูรูด (seton, LIFT, advancement flap) · ระวัง Crohn's, recurrent, incontinence เดิม = complex",
+ "summary": [
+  "Parks classification: intersphincteric (พบบ่อยสุด), transsphincteric, suprasphincteric, extrasphincteric",
+  "Goodsall rule: รูภายนอกหลังแนวขวาง → วิ่งโค้งไป posterior midline · หน้าแนวขวาง (<3 ซม.) → วิ่งตรงเข้า",
+  "Simple fistula → fistulotomy · complex → draining seton, LIFT, advancement flap, (fibrin glue/plug — ผลจำกัด)",
+  "Complex fistula/recurrent → MRI pelvis หรือ endoanal US วางแผนผ่าตัด"
+ ]
+},
+"MDCU70|RoC|ไม่มีเลข 1": {
+ "wrong": {
+  "B": "Nitrofurantoin เข้มข้นในปัสสาวะแต่ระดับในเนื้อไตและเลือดต่ำมาก จึงห้ามใช้ใน pyelonephritis และ 3 วันเป็น regimen ของ cystitis · จะถูกถ้าเป็น uncomplicated cystitis ในหญิง (5 วัน)",
+  "C": "Nephrectomy ไม่ใช่การรักษา acute pyelonephritis ทั่วไป · จะถูกถ้าเป็น emphysematous pyelonephritis รุนแรงที่ไม่ตอบยา + drainage หรือ xanthogranulomatous pyelonephritis ที่ไตไม่ทำงาน",
+  "D": "การจำกัดน้ำ + diuretic ทำให้ขาดน้ำมากขึ้น (ไข้ อาเจียน) เสี่ยง AKI/septic shock · จะถูกถ้าผู้ป่วยมี volume overload จากหัวใจล้มเหลว/ไตวาย",
+  "E": "การไม่ให้ antibiotics ใน pyelonephritis เสี่ยง sepsis, renal abscess, renal scar · จะถูกถ้าเป็น asymptomatic bacteriuria ในคนไม่ตั้งครรภ์และไม่มีหัตถการ"
+ },
+ "trap": "Admit acute pyelonephritis เมื่อ: sepsis, อาเจียนกินยาไม่ได้, ตั้งครรภ์, complicated (obstruction, นิ่ว, DM, ภูมิต่ำ, ผู้ชาย) → IV antibiotics + hydration + ยาลดไข้ + พัก · ส่ง urine culture ก่อนให้ยา · ไม่ดีขึ้นใน 48–72 ชม. → CT/US หา obstruction/abscess (ไฟล์เดิมเป็นช้อย ‘all of the above’)"
+},
+"MDCU70|RoC|ไม่มีเลข 2": {
+ "wrong": {
+  "A": "การเจาะดูดน้ำออกในเด็กไม่ได้ปิด processus vaginalis ที่ยังเปิด น้ำจะกลับมาใหม่ และเสี่ยงติดเชื้อ/เจาะโดนลำไส้ (ถ้ามีไส้เลื่อนร่วม) · จะถูกถ้าเป็นผู้ใหญ่ที่เสี่ยงผ่าตัดสูง ต้องการบรรเทาชั่วคราว",
+  "B": "Sclerotherapy ห้ามในเด็กที่เป็น communicating hydrocele เพราะสารจะไหลเข้าช่องท้องผ่าน processus vaginalis ทำให้ peritonitis · จะถูกถ้าเป็นผู้ใหญ่ non-communicating hydrocele ที่ไม่อยากผ่าตัด",
+  "C": "การรอถึงอายุ 10 ปีนานเกิน — hydrocele แรกเกิดส่วนใหญ่หายเองภายใน 1–2 ปี ถ้ายังอยู่/เปลี่ยนขนาด (communicating) หลังนั้นต้องผ่าตัด · จะถูกถ้าเป็นทารก <1–2 ปี non-communicating ที่รอหายเองได้",
+  "D": "Hydrocelectomy ผ่านถุงอัณฑะ (Jaboulay/Lord) ใช้ใน non-communicating hydrocele ของผู้ใหญ่ ไม่ได้ผูก processus vaginalis ที่ขาหนีบ จึงกลับเป็นซ้ำในเด็ก · จะถูกถ้าเป็นผู้ใหญ่ hydrocele ขนาดใหญ่ไม่เปลี่ยนขนาด"
+ },
+ "trap": "Communicating hydrocele ในเด็ก = processus vaginalis เปิด (เหมือน indirect inguinal hernia ที่มีแต่น้ำ) ขนาดเปลี่ยนตามวัน (เช้าเล็ก เย็นใหญ่) → รักษาแบบไส้เลื่อน: inguinal herniotomy (high ligation of PPV) (P'Ing: treat as hernia) · ห้ามเจาะ/ฉีดสารแข็งตัว"
+},
+"MDCU70|RoC|ไม่มีเลข 3": {
+ "interp": "เจาะ pleural effusion ได้หนองข้นสีเขียว = empyema thoracis → โจทย์ถามการรักษาหลัก (management of choice) ซึ่งคือระบายหนองด้วย ICD (ร่วม IV antibiotics)",
+ "why": "<b>หนองในช่องเยื่อหุ้มปอด = empyema thoracis</b> (P'Ing) → ข้อบ่งชี้เด็ดขาดในการ<b>ระบาย</b>โดยไม่ต้องรอผล pH/glucose<br>• ระยะที่ยังเป็นของเหลว (exudative/fibrinopurulent) → <b>intercostal chest drain (ICD)</b> + IV antibiotics ครอบคลุม anaerobe<br>• ถ้ามี loculation/ระบายไม่หมด → intrapleural tPA + DNase หรือ VATS debridement<br>• ระยะ organizing (peel หนา, trapped lung) → decortication<br>• ข้อคล้ายเลข 55 ในชุดเดียวกัน (ถ้อยคำต่างกัน)<br>→ ตอบ <b>A</b>",
+ "wrong": {
+  "B": "Percutaneous drainage ใส่ stent ไม่ใช่วิธีมาตรฐานของ empyema (stent ใช้ในท่อน้ำดี/ทางเดินปัสสาวะ) · image-guided small-bore catheter ใช้ได้ แต่คำในช้อยไม่ใช่การรักษาที่เหมาะ · จะถูกถ้าหมายถึง image-guided pigtail catheter ใน loculated collection ที่เข้าถึงยาก",
+  "C": "Decortication ใช้ใน organizing empyema (fibrous peel, ปอดขยายไม่ได้) หรือเมื่อ ICD/fibrinolytic ล้มเหลว ไม่ใช่ทางเลือกแรกเมื่อหนองยังระบายได้ · จะถูกถ้าเจาะได้น้ำน้อยมาก CT เห็น peel หนา",
+  "D": "Antibiotics กินอย่างเดียวไม่พอ — ยาเข้าโพรงหนองไม่ดีและหนองต้องระบาย · จะถูกถ้าเป็น simple parapneumonic effusion เล็กไม่ต้องระบายในผู้ป่วยนอก",
+  "E": "เจาะซ้ำหลายครั้งระบายหนองข้นไม่หมด เสี่ยงกลับสะสม/loculation · จะถูกถ้าเป็น effusion ใสปริมาณน้อยที่เจาะเพื่อบรรเทาอาการ (therapeutic thoracentesis)"
+ },
+ "trap": "หนองชัดเจนจากการเจาะ = ระบายเลย (ICD) ไม่ต้องรอผลเคมี · ICD อย่างเดียวไม่พอถ้าไม่ให้ IV antibiotics และติดตามการขยายของปอด · ระบายไม่ดีใน 5–7 วัน → CT ดู loculation/ตำแหน่งสาย แล้ว fibrinolytic หรือ VATS",
+ "summary": [
+  "Empyema = หนอง หรือ gram stain/culture บวกในช่องเยื่อหุ้มปอด",
+  "Stage I–II: ICD + IV antibiotics ± intrapleural tPA/DNase · ไม่ดีขึ้น → VATS",
+  "Stage III (organizing, trapped lung): decortication · ผู้ป่วยไม่ไหว → open window (Eloesser flap)",
+  "Antibiotics ครอบคลุม streptococci + anaerobes (ampicillin-sulbactam หรือ ceftriaxone + metronidazole) 2–6 สัปดาห์"
+ ]
+},
+"MDCU70|RoC|ไม่มีเลข 4": {
+ "wrong": {
+  "B": "Goligher classification ใช้จัดระดับ internal hemorrhoid (grade I–IV ตามการยื่นและการดันกลับ) ไม่ใช่ diverticulitis · จะถูกถ้าโจทย์ถามริดสีดวงที่ยื่นออกมาแล้วต้องดันกลับเอง (grade III)",
+  "C": "Dukes classification เป็นระบบ staging มะเร็งลำไส้ใหญ่แบบเก่า (A–D) ปัจจุบันใช้ TNM · จะถูกถ้าโจทย์ถาม staging ของ colorectal cancer แบบดั้งเดิม",
+  "D": "Child-Pugh ใช้ประเมินความรุนแรงของตับแข็ง (bilirubin, albumin, INR, ascites, encephalopathy) · จะถูกถ้าโจทย์ถามความเสี่ยงผ่าตัดในผู้ป่วยตับแข็ง",
+  "E": "Ranson criteria ใช้ประเมินความรุนแรงของ acute pancreatitis (ตอนรับและ 48 ชม.) · จะถูกถ้าโจทย์ถามพยากรณ์ของตับอ่อนอักเสบเฉียบพลัน"
+ },
+ "trap": "ผู้จดจำได้แค่ ‘Her....’ แต่ P'Ing แปะ Hansen–Stock — ทั้ง Hinchey (ใช้แพร่หลายสุด) และ Hansen–Stock ใช้จัด complicated diverticulitis · ปัจจุบันนิยม modified Hinchey (Wasvary) จาก CT · อย่าสับสนกับ Goligher (ริดสีดวง) ที่ชื่อขึ้นต้นคล้าย",
+ "summary": [
+  "Hinchey: I pericolic abscess · II pelvic/distant abscess · III purulent peritonitis · IV fecal peritonitis",
+  "Modified Hinchey (CT): 0 mild clinical · Ia phlegmon/confined inflammation · Ib pericolic abscess <4 ซม. · II · III · IV",
+  "Hansen–Stock: 0 diverticulosis · I acute uncomplicated · IIa phlegmon · IIb abscess · IIc free perforation · III chronic recurrent",
+  "แนวรักษา: Ia antibiotics · abscess >3–4 ซม. percutaneous drainage · III laparoscopic lavage/resection · IV Hartmann's หรือ resection + anastomosis ± diverting stoma"
+ ]
+},
+"MDCU70|RoC|ไม่มีเลข 5": {
+ "interp": "โจทย์ถาม plain film ท่าที่ใช้ประเมินกระดูก maxilla (midface) ซึ่งคือ Waters (occipitomental) view — ข้อเดียวกับ 70B ไม่มีเลข 3",
+ "why": "<b>Waters view (occipitomental)</b>: เงยคาง ~37° ให้ petrous ridge ลงไปใต้ maxillary sinus → เห็น <b>maxilla, maxillary sinus, orbital floor/rim, zygoma</b> ชัดที่สุดใน plain film<br>• ใช้ประเมิน maxillary/Le Fort fracture, ZMC fracture, orbital blow-out (เลือดใน sinus)<br>• ปัจจุบันมาตรฐานคือ CT facial bone<br>→ ตอบ <b>A</b> (ตรงที่ผู้จดเขียน)",
+ "wrong": {
+  "B": "Towne view ดู occipital bone และ mandibular condyle/subcondylar · จะถูกถ้าโจทย์สงสัย condylar fracture",
+  "C": "Panoramic (orthopantomogram) ดู mandible ทั้งชิ้นและฟัน · จะถูกถ้าโจทย์สงสัย mandibular fracture (malocclusion, ชาคาง)",
+  "D": "Lateral cervical spine ใช้ประเมินกระดูกคอในผู้บาดเจ็บ (ต้องเห็นถึง C7–T1) ไม่ใช่ maxilla · จะถูกถ้าโจทย์ถาม plain film แรกในผู้ป่วยสงสัย c-spine injury (ปัจจุบันใช้ CT)",
+  "E": "Submentovertex (jug-handle) view ดู zygomatic arch และฐานกะโหลก · จะถูกถ้าโจทย์สงสัย zygomatic arch fracture (มี trismus, ผิวยุบเหนือ arch)"
+ },
+ "trap": "จับคู่ท่า film กับกระดูก: Waters = maxilla/midface · Caldwell = frontal/ethmoid sinus · Towne = condyle · Panoramic = mandible · SMV = zygomatic arch · ในเวชปฏิบัติปัจจุบันส่ง CT facial bone เป็นหลัก",
+ "summary": [
+  "Waters (occipitomental): maxilla, maxillary sinus, orbital floor, zygoma",
+  "Caldwell (PA 15°): frontal/ethmoid sinus, orbital rim · Towne: condyle · SMV: zygomatic arch · Panoramic: mandible",
+  "CT facial bone (axial + coronal + 3D) เป็นมาตรฐานของ facial fracture",
+  "Le Fort ทุกชนิดมี pterygoid plate หัก"
+ ]
+}
+}

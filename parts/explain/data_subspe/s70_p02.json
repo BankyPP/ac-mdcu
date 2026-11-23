@@ -1,0 +1,159 @@
+{
+"MDCU70|RoA|64": {
+ "why": "จัด TNM (AJCC 8th) ทีละส่วน:<br>• <b>T</b>: มะเร็ง sigmoid ลุกเข้า <b>uterus</b> (อวัยวะข้างเคียง) = <b>T4b</b> (T4a = ทะลุ visceral peritoneum เท่านั้น)<br>• <b>N</b>: pericolic node บวก <b>2/16</b> = <b>N1b</b> (N1a = 1 node, N1b = 2–3, N2a = 4–6, N2b ≥7)<br>• <b>M</b>: liver metastasis อวัยวะเดียว ไม่มี peritoneal = <b>M1a</b><br>→ T4bN1bM1a = stage IVA · ตอบ <b>A</b> (P'Ing จด T4N1M1 stage 4 · N1 ≤3 nodes)",
+ "wrong": {
+  "B": "T4aN1aM0 ผิดทั้งสามส่วน: T4a คือทะลุ visceral peritoneum แต่ไม่ลุกอวัยวะอื่น, N1a คือ node บวก 1 ต่อม, และ M0 ละเลย liver metastasis · จะถูกถ้าก้อนทะลุเยื่อบุช่องท้องผิวลำไส้ node บวก 1 ต่อม ไม่มีการแพร่กระจาย",
+  "C": "T3 คือลุกผ่าน muscularis propria เข้า pericolorectal tissue แต่ยังไม่ทะลุ peritoneum/อวัยวะอื่น และ N2a ต้อง node บวก 4–6 ต่อม · จะถูกถ้าก้อนอยู่ในผนังลำไส้ถึง subserosa node บวก 5 ต่อม ตับมีก้อนอย่างเดียว",
+  "D": "T4b ถูก แต่ N2a (ต้อง 4–6 node) และ M1b (ต้องแพร่ ≥2 อวัยวะ/ตำแหน่ง ไม่มี peritoneum) ผิด · จะถูกถ้า node บวก 4–6 ต่อม และมีทั้ง liver + lung metastasis",
+  "E": "T4a ผิด (ลุก uterus = T4b) และ M1c คือ peritoneal metastasis (มีหรือไม่มีอวัยวะอื่น) · จะถูกถ้าก้อนทะลุ peritoneum ไม่ลุกอวัยวะ node 2–3 ต่อม และมี peritoneal carcinomatosis"
+ },
+ "trap": "T4a vs T4b: ทะลุ visceral peritoneum (serosa) = T4a · ติด/ลุกอวัยวะข้างเคียง (uterus, bladder, abdominal wall) = T4b · และ N1 แบ่งย่อยตามจำนวน (N1a 1, N1b 2–3) ไม่ใช่ตามตำแหน่ง node · N1c = tumor deposit โดยไม่มี node บวก"
+},
+"MDCU70|RoA|69": {
+ "wrong": {
+  "A": "Lifestyle (fiber, น้ำ, sitz bath) เป็นพื้นฐานที่รักษา acute fissure ได้ดี แต่ chronic fissure ที่มี sentinel tag + เห็น sphincter fiber และล้มเหลวจาก nitrate แล้วไม่หายด้วยวิธีนี้อย่างเดียว (คีย์: conservative = acute) · จะถูกถ้าเป็น acute fissure <6 สัปดาห์",
+  "B": "ให้ GTN ต่อหลัง 8 สัปดาห์ไม่ได้ผลแล้วไม่มีประโยชน์เพิ่ม และผลข้างเคียงปวดหัวมาก · จะถูกถ้าเพิ่งเริ่ม/ใช้ยาไม่ครบ 6–8 สัปดาห์ หรือเปลี่ยนเป็น diltiazem ที่ทนได้ดีกว่า",
+  "C": "Fissurectomy + advancement flap (V-Y/house flap) ใช้ในผู้ป่วยที่ sphincter อ่อนแอ/เสี่ยง incontinence (ความดัน sphincter ต่ำ หญิงหลังคลอดบาดเจ็บ) ไม่ใช่การรักษาแรกที่ได้ผลดีที่สุด · จะถูกถ้า manometry พบ resting pressure ต่ำหรือ LIS ล้มเหลว",
+  "E": "Anal dilatation (Lord's procedure) ยืดหูรูดแบบควบคุมไม่ได้ ทำให้ sphincter ฉีกหลายจุด เสี่ยง incontinence สูง จึงเลิกใช้ · จะถูกถ้าเป็น pneumatic balloon dilatation แบบควบคุมในบางศูนย์ (หลักฐานจำกัด)"
+ },
+ "trap": "Chronic fissure (>6–8 สัปดาห์: sentinel tag, hypertrophied papilla, เห็น internal sphincter) ที่ยาทาล้มเหลว → LIS ได้ผลดีที่สุด (หาย >90%) · ข้อยกเว้นคือผู้ป่วยเสี่ยง incontinence ให้ botox หรือ advancement flap แทน · fissure นอกแนวกลางต้องหาสาเหตุอื่นก่อน",
+ "summary": [
+  "Acute fissure: fiber, sitz bath, stool softener, topical anesthetic → หายส่วนใหญ่",
+  "Chronic: topical GTN 0.2–0.4% หรือ diltiazem 2% 6–8 สัปดาห์ → botulinum toxin → lateral internal sphincterotomy",
+  "LIS: หายสูงสุด recurrence ต่ำ ผลข้างเคียง incontinence ต่อลมเล็กน้อย",
+  "ข้อควรเลี่ยง LIS: หญิงเคยบาดเจ็บ sphincter, IBD, ความดัน sphincter ต่ำ → advancement flap/botox"
+ ]
+},
+"MDCU70|RoA|75": {
+ "wrong": {
+  "B": "Hemorrhoid เลือดออกสดไม่เจ็บได้ แต่ไม่อธิบายปัสสาวะเป็นเลือดซ้ำ 6 เดือน และประวัติฉายแร่อุ้งเชิงกรานชี้ไปที่ radiation injury ทั้งกระเพาะปัสสาวะและ rectum · จะถูกถ้าไม่มีประวัติ RT ตรวจเห็น internal hemorrhoid เลือดออก",
+  "C": "Rectal cancer ต้องแยกเสมอในหญิง 54 ปีเลือดออกทางทวาร (และ RT เพิ่มความเสี่ยงมะเร็งทุติยภูมิ) แต่ PR ไม่พบก้อน และ hematuria ร่วมเข้ากับ radiation มากกว่า — ยังต้องส่องกล้องยืนยัน · จะถูกถ้าคลำได้ก้อนแข็งขอบนูน หรือมีน้ำหนักลด ถ่ายเปลี่ยนนิสัย",
+  "D": "Rectal varices เกิดจาก portal hypertension (ตับแข็ง) เลือดออกได้มาก แต่ผู้ป่วยไม่มีประวัติโรคตับและเกล็ดเลือด/การแข็งตัวปกติ · จะถูกถ้าผู้ป่วยตับแข็ง ม้ามโต เกล็ดเลือดต่ำ",
+  "E": "Angiodysplasia พบในผู้สูงอายุ เลือดออกเป็นพักๆ มักอยู่ right colon และไม่อธิบาย hematuria · จะถูกถ้าเป็นผู้สูงอายุมี aortic stenosis/CKD เลือดออกซ้ำไม่ทราบสาเหตุ ไม่มีประวัติ RT"
+ },
+ "trap": "ประวัติฉายแร่อุ้งเชิงกราน (cervical/prostate cancer) แม้นานเป็น 10 ปี + ปัสสาวะเป็นเลือดซ้ำ (radiation cystitis) + ถ่ายเป็นเลือดไม่เจ็บ = chronic radiation injury (obliterative endarteritis → telangiectasia เปราะ) · chronic radiation proctitis เกิดได้ตั้งแต่ 6 เดือนถึงหลายปีหลัง RT",
+ "summary": [
+  "Chronic radiation proctitis: obliterative endarteritis + ischemia + telangiectasia → เลือดออก, tenesmus, stricture, fistula",
+  "ต้อง colonoscopy/sigmoidoscopy ยืนยันและแยกมะเร็ง (ระวัง biopsy ผนังด้านหน้าเสี่ยง fistula)",
+  "รักษา: sucralfate enema, topical formalin 4%, argon plasma coagulation (APC), hyperbaric oxygen · ผ่าตัด/diversion เมื่อดื้อการรักษาหรือมี fistula/stricture",
+  "Radiation cystitis: hematuria ซ้ำ → irrigation, HBO, intravesical formalin/alum"
+ ]
+},
+"MDCU70|RoA|77": {
+ "wrong": {
+  "A": "Vitamin K ขนาดสูงใน mechanical valve ทำให้ดื้อ warfarin นานหลายวัน เสี่ยง valve thrombosis เมื่อต้องกลับมาให้ยา และออกฤทธิ์ช้า (6–24 ชม.) ไม่ทันผ่าตัดเร่งด่วน (คีย์: เสี่ยงเกิด clot @ valve) · จะถูกถ้าเป็นการผ่าตัดที่รอได้ 24 ชม. ใช้ vitamin K ขนาดต่ำ 1–2.5 mg ในผู้ที่ไม่ใช่ mechanical valve",
+  "C": "หยุด warfarin รอ INR ลดเองใช้เวลา 4–5 วัน appendix จะแตกเป็น peritonitis · จะถูกถ้าเป็นการผ่าตัด elective (หยุด warfarin 5 วัน + bridge ด้วย heparin ในเสี่ยง thrombosis สูง)",
+  "D": "Antibiotics อย่างเดียวรักษา uncomplicated appendicitis ได้ในบางการศึกษา (CODA) แต่ล้มเหลว/กลับเป็นซ้ำ ~25–40% และมาตรฐานยังคือ appendectomy · จะถูกถ้าผู้ป่วยเสี่ยงผ่าตัดสูงมากและเลือกไม่ผ่าตัดหลังรับทราบข้อมูล หรือเป็น appendiceal mass/phlegmon",
+  "E": "PRC ไม่จำเป็นเพราะผู้ป่วยไม่ได้เสียเลือด และ FFP 6 ยูนิตกำหนดตายตัวโดยไม่ดู INR/น้ำหนัก · จะถูกถ้ามีเลือดออกมากและ Hb ต่ำ ต้อง massive transfusion"
+ },
+ "trap": "ผ่าตัดเร่งด่วนในผู้ใช้ warfarin: reverse ด้วย PCC (หรือ FFP ถ้าไม่มี PCC) ทันที · ใน mechanical valve หลีกเลี่ยง vitamin K ขนาดสูง · หลังผ่าตัดเมื่อเลือดหยุดดี เริ่ม heparin แล้ว warfarin กลับ · elective surgery: ประเมินความเสี่ยงเลือดออก vs thrombosis ก่อนหยุดยา/bridge"
+},
+"MDCU70|RoA|80@p5": {
+ "interp": "ชายอายุ 35 ปี ไข้ + หายใจเหนื่อยเฉียบพลัน + pansystolic murmur ใหม่ (acute mitral regurgitation) → นึกถึง infective endocarditis ที่ทำลายลิ้นหัวใจจน heart failure",
+ "wrong": {
+  "A": "Rheumatic fever ใช้ Jones criteria (carditis, polyarthritis, chorea, erythema marginatum, subcutaneous nodule) มักพบเด็ก 5–15 ปีหลังคออักเสบ ไม่ใช่ชายวัย 35 ไข้กับหัวใจรั่วเฉียบพลัน · จะถูกถ้าเป็นเด็กเจ็บคอ 2–3 สัปดาห์ก่อน ปวดข้อย้ายที่ ASO สูง",
+  "B": "Degenerative valve disease (MVP, calcific) ค่อยเป็นค่อยไป ไม่มีไข้ · จะถูกถ้าผู้สูงอายุ/MVP มีเสียงฟู่เรื้อรัง ไม่มีไข้ หรือ chordae ขาดเองโดยไม่มีติดเชื้อ",
+  "D": "Viral myocarditis มีไข้และหัวใจล้มเหลวได้ แต่ไม่ทำให้เกิด murmur ใหม่ดังชัด (อาจมี functional MR จาก LV โต) · จะถูกถ้ามีไข้หวัดนำ เจ็บหน้าอก troponin สูง EKG เปลี่ยน echo LV บีบตัวลดทั่วๆ ลิ้นปกติ",
+  "E": "Cardiac tumor (atrial myxoma) อาจมีไข้ น้ำหนักลด embolism และเสียง tumor plop แต่พบน้อยและไม่ใช่อาการเฉียบพลันนี้ · จะถูกถ้ามีอาการเปลี่ยนตามท่า เป็นลม echo เห็นก้อนติด interatrial septum"
+ },
+ "trap": "ไข้ + murmur ใหม่ = IE จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ → ส่ง hemoculture 3 ชุดก่อนให้ยา · acute MR จาก IE (leaflet ทะลุ/chordae ขาด) ทำให้ pulmonary edema เฉียบพลัน ซึ่งเป็นข้อบ่งชี้ผ่าตัดเร่งด่วน · ถามหาปัจจัยเสี่ยง: ฉีดยา ฟันผุ/ถอนฟัน ลิ้นเทียม",
+ "summary": [
+  "Modified Duke criteria: major = blood culture บวกเชื้อทั่วไปของ IE 2 ครั้ง + echo เห็น vegetation/abscess/ลิ้นรั่วใหม่",
+  "เชื้อ: S. aureus (acute, ฉีดยา — tricuspid), viridans strep (subacute, ฟัน), Enterococcus, HACEK",
+  "ข้อบ่งชี้ผ่าตัด: heart failure จากลิ้นรั่ว, uncontrolled infection (abscess, เชื้อดื้อ/รา, bacteremia ต่อเนื่อง), ป้องกัน emboli (vegetation >10 มม. + emboli)",
+  "Antibiotics IV 4–6 สัปดาห์ตามเชื้อ"
+ ]
+},
+"MDCU70|RoA|89": {
+ "wrong": {
+  "A": "ข้อความถูก: continuous (machinery) murmur ที่ left upper sternal border ในทารกคลอดก่อนกำหนดที่ใช้เครื่องช่วยหายใจ = PDA (พบบ่อยในทารก <1,000 g) · ข้อนี้จะเป็นคำตอบถ้า murmur เป็น holosystolic ที่ LLSB (VSD)",
+  "C": "ข้อความถูก: ต้องรักษาปอดอักเสบและ sepsis ไปพร้อมกัน (สภาวะเหล่านี้ทำให้ PDA ปิดยากและหัวใจทำงานหนัก) · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าไม่ต้องรักษาการติดเชื้อ",
+  "D": "ข้อความถูก: ผ่าตัด ligation (หรือ transcatheter closure ในทารกตัวเล็กบางศูนย์) เมื่อยาปิดไม่ได้หรือมีข้อห้ามใช้ยา และ PDA ยังมีผลต่อการไหลเวียน · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าห้ามผ่าตัดในทารกก่อนกำหนด",
+  "E": "ข้อความถูก: indomethacin/ibuprofen (ยับยั้ง prostaglandin E2) หรือ paracetamol ปิด PDA ในทารกก่อนกำหนดได้ดี · ข้อนี้จะเป็นคำตอบถ้าเป็นทารกครบกำหนด/เด็กโตซึ่งยาไม่ได้ผล"
+ },
+ "trap": "Preterm PDA → ยาก่อน (NSAID/paracetamol) ไม่ใช่ผ่าตัดก่อน · ข้อห้าม NSAID: ไตวาย/ปัสสาวะน้อย, NEC, เลือดออก (IVH ใหม่), เกล็ดเลือดต่ำ · ส่วน PDA ในทารกครบกำหนด/เด็กโต ยาไม่ได้ผล → ปิดด้วย catheter device หรือผ่าตัด"
+},
+"MDCU70|RoA|90": {
+ "why": "<b>ASD</b> (secundum) → L→R shunt ระดับ atrium → <b>RV volume overload</b>:<br>• เลือดผ่าน pulmonary valve มาก → <b>systolic ejection murmur ที่ LUSB</b> (relative pulmonary stenosis) ไม่ใช่เสียงเลือดผ่านรูรั่วเอง (ความดันสองห้องต่างกันน้อย)<br>• RV บีบนาน pulmonary valve ปิดช้า + shunt ปรับตามการหายใจ → <b>wide fixed split S2</b><br>• RV dilatation → EKG <b>incomplete RBBB</b>, right axis deviation<br>• อาจมี mid-diastolic rumble ที่ LLSB (flow ผ่าน tricuspid) ใน shunt ใหญ่<br>→ ตอบ <b>A</b> (ตรงคีย์ P'Ing)",
+ "wrong": {
+  "B": "VSD ให้ holosystolic (pansystolic) murmur ที่ left lower sternal border (ยิ่งรูเล็กยิ่งดัง) S2 ไม่ fixed split และ EKG มัก LVH/biventricular hypertrophy · จะถูกถ้าโจทย์เป็นทารกหายใจเร็ว ดูดนมเหนื่อย murmur pansystolic LLSB",
+  "C": "PDA ให้ continuous machinery murmur ที่ใต้ไหปลาร้าซ้าย/LUSB, bounding pulse, wide pulse pressure · จะถูกถ้าโจทย์เป็นทารกคลอดก่อนกำหนดหรือแม่ติดหัดเยอรมันมี machinery murmur",
+  "D": "Coarctation of aorta มี BP แขนสูงกว่าขา, ชีพจรขาเบา/ช้า (radio-femoral delay), systolic murmur ที่หลังระหว่างสะบัก, rib notching ในเด็กโต · จะถูกถ้าเด็กความดันสูงที่แขน ชีพจร femoral คลำได้เบา",
+  "E": "TOF มี cyanosis, tet spell, systolic ejection murmur จาก RVOT obstruction (ยิ่งตีบมากยิ่งเบา), S2 เดี่ยว, CXR boot-shaped · จะถูกถ้าเด็กเขียวนั่งยองๆ หลังวิ่ง"
+ },
+ "trap": "Murmur ใน ASD ไม่ได้เกิดจากเลือดผ่านรูรั่ว แต่เกิดจาก flow ผ่าน pulmonary valve มาก (systolic ejection ที่ LUSB) — คนจึงสับสนกับ pulmonary stenosis · จุดชี้ขาดคือ S2 แยกกว้างและ ‘fixed’ ไม่เปลี่ยนตามการหายใจ + iRBBB",
+ "summary": [
+  "ASD: wide fixed split S2 + SEM ที่ LUSB + iRBBB + RVH/RAD · CXR: หัวใจขวาโต, pulmonary plethora",
+  "Secundum (พบบ่อยสุด) → transcatheter device closure ถ้าขอบรอบรูพอ · primum (AVSD, left axis deviation) และ sinus venosus (ร่วม anomalous pulmonary venous return) → ผ่าตัด",
+  "ข้อบ่งชี้ปิด: RV dilatation หรือ Qp:Qs ≥1.5 ก่อนเกิด pulmonary vascular disease (มักทำ 2–5 ปี)",
+  "ไม่ปิดในผู้ใหญ่: AF, paradoxical embolism, HF, Eisenmenger (ปิดไม่ได้แล้ว)"
+ ]
+},
+"MDCU70|RoA|xx": {
+ "wrong": {
+  "A": "Silver sulfadiazine ทาจนหายเหมาะกับ partial-thickness burn ที่ re-epithelialize ได้เองจาก adnexa (คีย์: conservative = partial thickness) · full-thickness 4×7 ซม.จะหายช้ามากจาก contraction และแผลเป็นหดรั้ง · จะถูกถ้าแผลเป็นสีชมพูชื้น มีตุ่มพอง ปวดมาก (superficial partial)",
+  "C": "FTSG ใช้กับบริเวณเล็กที่ต้องการลดการหดรั้งและสีผิวเข้ากัน เช่น ใบหน้า จมูก มือ (คีย์) ไม่เหมาะกับแผลไหม้ที่ขา และ bed หลัง excision แผลไหม้ไม่ดีพอสำหรับ FTSG · จะถูกถ้าเป็นแผลไหม้ลึกขนาดเล็กที่ฝ่ามือ/หนังตา",
+  "D": "Local flap ใช้เมื่อมีกระดูก เส้นเอ็นไม่มี paratenon หรือข้อเปิด ซึ่ง graft ติดไม่ได้ · แผลไหม้ full-thickness ทั่วไปมี bed (ไขมัน/fascia) ที่ graft ติดได้ · จะถูกถ้าแผลลึกจนเห็น tibia ไม่มี periosteum",
+  "E": "Dry dressing อย่างเดียวไม่ทำให้ full-thickness burn หาย (ไม่มี epidermal element เหลือ) จะหายจากขอบเข้าหากันช้าและหดรั้งมาก · จะถูกถ้าเป็นการปิดแผลชั่วคราวระหว่างรอ excision หรือแผลไหม้ระดับ 1"
+ },
+ "trap": "แผลสีขาว/ซีด แข็งแบบหนัง ไม่ปวด กดไม่ซีด และเห็น thrombosed subdermal vein = full-thickness (3rd degree) → หายเองไม่ได้ ต้อง early excision + STSG (ภายใน ~5 วัน) · อย่าตีความแผลขาวไม่ปวดว่า ‘ไม่รุนแรง’"
+},
+"MDCU70|RoB|5": {
+ "wrong": {
+  "A": "Nephrectomy (ไม่ตัด ureter) เป็นการผ่าตัดของ RCC · ใน UTUC ต้องตัดทั้งไต ท่อไต และ bladder cuff (มะเร็ง urothelium กลับเป็นซ้ำในท่อไตที่เหลือ) และยังไม่ได้ยืนยันวินิจฉัย · จะถูกถ้า CT เห็นก้อนในเนื้อไตที่ enhance (RCC)",
+  "B": "Radical nephroureterectomy + bladder cuff เป็นการรักษามาตรฐานของ high-risk UTUC แต่ต้อง URS biopsy/cytology ยืนยันวินิจฉัยและจัด risk ก่อน (คีย์: ยังไม่ได้ investigate) เพราะ low-risk อาจรักษาแบบเก็บไตได้ · จะถูกถ้ายืนยันแล้วเป็น high-grade UTUC/ก้อน >2 ซม./multifocal",
+  "D": "PCNL ใช้เอานิ่วในไตขนาดใหญ่ ไม่ใช่ก้อน hypodense ที่สงสัยเนื้องอก และการเจาะผ่านผิวหนังเข้าก้อน urothelial เสี่ยง seeding · จะถูกถ้า CT พบนิ่ว >2 ซม./staghorn ที่ไต",
+  "E": "การรอ CT 6 เดือนไม่เหมาะ เพราะมี hematuria + hydronephrosis + ก้อนที่ UPJ ซึ่งสงสัยมะเร็ง · จะถูกถ้าเป็นถุงน้ำ simple cyst ใกล้ไตไม่มีอาการ"
+ },
+ "trap": "Hematuria + hydronephrosis + filling defect/ก้อน hypodense ที่ UPJ/ท่อไต และ cystoscopy ปกติ = สงสัย upper tract urothelial carcinoma (UTUC) · ขั้นต่อไปคือยืนยันด้วย ureteroscopy + biopsy + selective cytology ก่อนตัดสินใจ nephroureterectomy vs kidney-sparing (ก้อนเล็ก low-grade ablation ได้)"
+},
+"MDCU70|RoB|7": {
+ "wrong": {
+  "A": "Hypokalemia ไม่ใช่ลักษณะของ salt-wasting CAH (ขาด aldosterone → K สูง ไม่ใช่ต่ำ) · จะถูกถ้าเป็น CAH ชนิด 11β-hydroxylase หรือ 17α-hydroxylase deficiency (DOC สูง → ความดันสูง K ต่ำ)",
+  "B": "Hyperkalemia เกิดจริงใน salt-wasting crisis (ขาด aldosterone) และทำให้ arrhythmia ได้ แต่ไม่ใช่สาเหตุของ ‘ชักและซึม’ ซึ่งเกิดจาก Na ต่ำ (สมองบวม) ± น้ำตาลต่ำ · จะถูกถ้าโจทย์ถามสาเหตุของคลื่นไฟฟ้าหัวใจผิดปกติ/หัวใจหยุดเต้น",
+  "D": "Hypercalcemia ไม่ใช่ลักษณะของ CAH (ทำให้ซึม ท้องผูก ปัสสาวะมาก แต่ไม่สัมพันธ์กับอวัยวะเพศกำกวม) · จะถูกถ้าเป็น Williams syndrome หรือ subcutaneous fat necrosis ในทารก",
+  "E": "CAH ขาด cortisol → hypoglycemia ไม่ใช่ hyperglycemia · จะถูกถ้าเป็น neonatal diabetes หรือทารกได้ glucose IV มากเกิน/ stress"
+ }
+},
+"MDCU70|RoB|11": {
+ "wrong": {
+  "A": "เคยทำ SWL เมื่อ 1 ปีก่อนไม่ใช่ข้อห้าม ทำซ้ำได้ (เว้นระยะ ~2 สัปดาห์ระหว่างครั้ง) · จะถูกถ้าทำ SWL ล้มเหลวมาแล้ว 2–3 ครั้งกับนิ่วก้อนเดิม ควรเปลี่ยนเป็น URS",
+  "B": "เบาหวานที่ใช้อินซูลินไม่ใช่ข้อห้าม SWL (ระวังเรื่องติดเชื้อ/คุมน้ำตาลเท่านั้น) · จะถูกถ้ามี UTI ที่ยังไม่รักษาซึ่งพบบ่อยใน DM",
+  "D": "หูหนวกไม่เกี่ยวกับ SWL (คลื่นกระแทกโฟกัสที่นิ่ว) · จะถูกถ้าโจทย์ถามข้อห้าม/ข้อควรระวังของยา aminoglycoside ที่ไปทำลายการได้ยิน",
+  "E": "แผลผ่าตัดไส้ติ่งไม่ใช่ข้อห้าม · ข้อจำกัดคือมีกระดูก/ลำไส้/อุปกรณ์ขวางแนวคลื่น หรืออ้วนมากจนโฟกัสไม่ถึง (skin-to-stone distance >10 ซม.) · จะถูกถ้าโจทย์เป็น aortic aneurysm/ปอดอยู่ในแนวคลื่น"
+ }
+},
+"MDCU70|RoB|18": {
+ "why": "คำนวณ <b>Parkland</b>: 4 mL × 60 kg × 40% = <b>9,600 mL/24 ชม.</b><br>• ครึ่งแรก <b>4,800 mL</b> ต้องให้ภายใน <b>8 ชม.นับจากเวลาเกิดแผลไหม้</b><br>• ผู้ป่วยมาถึงเมื่อผ่านไป 2 ชม. และได้ RL ระหว่างทางแล้ว <b>1,200 mL</b><br>• เหลือ 4,800 − 1,200 = <b>3,600 mL</b> ในเวลาที่เหลือ 8 − 2 = <b>6 ชม.</b> → 3,600 ÷ 6 = <b>600 mL/hr</b><br>• จากนั้น 4,800 mL ที่เหลือให้ใน 16 ชม. (300 mL/hr) และปรับตาม urine output 0.5 mL/kg/hr (~30 mL/hr)<br>→ ตอบ <b>E</b> (ตรงลายมือ P'Ing)",
+ "wrong": {
+  "A": "800 mL/hr ได้จาก 4,800 ÷ 6 โดยไม่หัก 1,200 mL ที่ได้ไปแล้ว → ให้เกิน เสี่ยง fluid creep/abdominal compartment syndrome · จะถูกถ้าผู้ป่วยยังไม่ได้รับสารน้ำเลยระหว่างทาง",
+  "B": "1,000 mL/hr ไม่ตรงการคำนวณใด (สูงเกินไป) · จะถูกถ้าน้ำหนัก/TBSA มากกว่านี้ เช่น 75 kg 50% แล้วหักที่ให้ไปแล้ว",
+  "C": "1,200 mL/hr ได้จาก 4,800 ÷ 4 หรือคิดเวลาเหลือผิด → เกินมาก · จะถูกถ้าเหลือเวลาในครึ่งแรกเพียง 3 ชม. (3,600 ÷ 3)",
+  "D": "500 mL/hr ต่ำเกิน (ได้จากหาร 3,600 ด้วยเวลาผิด ~7.2 ชม. หรือใช้ 8 ชม.เต็มนับจากมาถึง) → under-resuscitation · จะถูกถ้าเริ่มนับ 8 ชม.ใหม่จากเวลามาถึงโรงพยาบาล ซึ่งผิดหลัก"
+ },
+ "trap": "นับ 8 ชม.แรกจาก ‘เวลาเกิดแผลไหม้’ ไม่ใช่เวลามาถึงโรงพยาบาล และต้องหักสารน้ำที่ได้รับก่อนถึงโรงพยาบาลออก — ข้อหลอกในช้อยมักคือลืมหักหรือนับเวลาผิด",
+ "summary": [
+  "Parkland: RL 4 mL × kg × %TBSA (2nd–3rd degree) ใน 24 ชม. · ครึ่งแรกใน 8 ชม.จากเวลาเกิดแผล ครึ่งหลังใน 16 ชม.",
+  "มาช้า: (ครึ่งแรก − ที่ได้แล้ว) ÷ เวลาที่เหลือในช่วง 8 ชม.แรก",
+  "สูตรเป็นจุดเริ่มต้น ปรับตาม urine output (ผู้ใหญ่ 0.5 mL/kg/hr; ไฟฟ้า/myoglobinuria 1 mL/kg/hr)",
+  "ATLS ปัจจุบันเริ่มที่ 2 mL/kg/%TBSA ในผู้ใหญ่แผลไหม้ความร้อน (ไฟฟ้า 4 mL) เพื่อลด over-resuscitation"
+ ]
+},
+"MDCU70|RoB|27": {
+ "wrong": {
+  "A": "IV fluid resuscitation สำคัญเพราะความดันต่ำ แต่ทำพร้อมกัน/หลังจาก airway ปลอดภัย เพราะเลือดจากจมูกและปากที่ไหลมากจะสำลักอุดทางเดินหายใจก่อนที่ช็อกจะฆ่าผู้ป่วย · จะถูกถ้า airway ปลอดภัยแล้ว (ใส่ท่อแล้ว)",
+  "B": "Anterior nasal packing ช่วยหยุดเลือดจากจมูกส่วนหน้า แต่ใน maxillofacial trauma เลือดออกมากต้องใส่ ETT ก่อน แล้วจึง pack (anterior + posterior/balloon) (คีย์: B หลัง ETT) · จะถูกถ้าเป็น epistaxis ธรรมดาที่ทางเดินหายใจปลอดภัย",
+  "D": "Angiographic embolization (internal maxillary artery) ใช้เมื่อเลือดยังออกหลัง packing และ fracture reduction · จะถูกถ้าใส่ท่อแล้ว packed แล้วยังเลือดออกและความดันต่ำต่อเนื่อง",
+  "E": "การจัดกระดูก Le Fort ให้เข้าที่ช่วยลดเลือดออกได้ แต่ทำหลังควบคุม airway และ resuscitation · จะถูกถ้าถามขั้นตอนห้ามเลือดหลัง packing ไม่ได้ผล"
+ }
+},
+"MDCU70|RoB|33": {
+ "wrong": {
+  "A": "NEC รุนแรงมักทำให้ WBC ‘ต่ำ’ (neutropenia) และเกล็ดเลือดต่ำ มากกว่า WBC สูง (คีย์: severe ↓WBC) · จะถูกถ้าเป็นการติดเชื้อแบคทีเรียทั่วไปในเด็กโต",
+  "B": "Gastric residual เพิ่ม (feeding intolerance) เป็นอาการระยะแรก (Bell stage I) ไม่จำเพาะกับลำไส้ตาย · จะถูกถ้าโจทย์ถามอาการเริ่มต้นที่ทำให้ต้องหยุดนมและเฝ้าระวัง",
+  "D": "ท้องอืดเล็กน้อยพบระยะแรก (stage I) ไม่บ่งการตายของลำไส้ · จะถูกถ้าโจทย์ถามอาการระยะ suspected NEC",
+  "E": "Occult blood ในอุจจาระพบได้ตั้งแต่ระยะแรก (stage I) ไม่จำเพาะกับ necrosis · จะถูกถ้าถามสิ่งที่ทำให้สงสัย NEC ในทารกคลอดก่อนกำหนดที่ท้องอืด"
+ },
+ "trap": "ผนังหน้าท้องแดง/คล้ำ บวม (abdominal wall erythema/cellulitis) = transmural necrosis/peritonitis (Bell IIIA–B) · ข้อบ่งชี้ผ่าตัดเด็ดขาดของ NEC มีข้อเดียวคือ pneumoperitoneum · อย่าตอบ WBC สูง — NEC รุนแรงมักมี WBC ต่ำ เกล็ดเลือดต่ำ acidosis"
+}
+}
