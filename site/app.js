@@ -49,6 +49,9 @@ document.addEventListener("visibilitychange",()=>{if(document.visibilityState===
 addEventListener("pageshow",e=>{if(e.persisted)stCheck(1).then(o=>stAct(o,true));});
 /* 16 Nov 2026: was every 15 min — now every minute while the page is on screen, so the bar shows soon after any deploy (index.html is ~6 KB) */
 setInterval(()=>{if(document.visibilityState==="visible")stCheck(1).then(o=>stAct(o,false));},60000);
+/* 23 Nov 2026: also check 3 s after the page opens — a fresh open can still get the old index.html from the browser's HTTP cache
+   (GitHub Pages lets it be kept up to 10 min), and until now the first check came only a minute later, so the old page showed no bar */
+setTimeout(()=>stCheck(1).then(o=>stAct(o,false)),3000);
 const CFG=(typeof CONFIG!=="undefined"&&CONFIG)||{};
 /* institution of this website (config "inst"): MDCU = repo root, SI = si/config.json — used in AI prompts */
 const INST=Object.assign({id:"mdcu",name:"MDCU",th:"จุฬาฯ",en:"Chulalongkorn University (MDCU)",enShort:"Chulalongkorn University",stu:"นิสิตแพทย์"},CFG.inst||{});
