@@ -4,40 +4,41 @@
  "points": {
   "S1": {
    "pages": [
-    2
+    2,
+    "s2",
+    "s3"
    ],
    "level": "M",
    "desc": "ชั้นผิว + appendages · plexus ที่ dermo-epidermal junction · perforator จากใต้ fascia",
    "asked": [
     1,
     2,
-    97,
-    105
+    65
    ]
   },
   "S2": {
    "pages": [
     4,
-    5
+    5,
+    "s13"
    ],
    "level": "M",
    "desc": "skin tag: all layers + central vascular core · narrow pedicle · ไม่ต้องรักษา เล็กจี้/ตัด ใหญ่ excision",
    "asked": [
     3,
-    4,
-    106
+    4
    ]
   },
   "S3": {
    "pages": [
-    6
+    6,
+    "s12"
    ],
    "level": "M",
    "desc": "seborrheic keratosis: คนแก่ family hx · basal cells excess · peel off · benign · จี้ cosmetic",
    "asked": [
     5,
-    6,
-    130
+    6
    ]
   },
   "S4": {
@@ -48,20 +49,19 @@
    "desc": "keratoacanthoma: ปล่องภูเขาไฟ keratin plug · ใหญ่สับสน SCC → bx",
    "asked": [
     7,
-    8,
-    131
+    88
    ]
   },
   "S5": {
    "pages": [
-    8
+    8,
+    "s10"
    ],
    "level": "M",
    "desc": "mole ส่วนใหญ่ acquired ไม่เสี่ยง · congenital (CMN) เสี่ยง melanoma",
    "asked": [
-    9,
-    10,
-    127
+    8,
+    86
    ]
   },
   "S6": {
@@ -71,99 +71,98 @@
    "level": "M",
    "desc": "cardinal signs malignant change → bx",
    "asked": [
-    11,
-    12,
-    132
+    9,
+    89
    ]
   },
   "S7": {
    "pages": [
     10,
-    11
+    11,
+    "s14"
    ],
    "level": "M",
    "desc": "lipoma subcu โยกได้ · กรีดเอาออกไม่ต้องตัดผิว · ใหญ่/โตเร็ว → liposarcoma",
    "asked": [
-    13,
-    14,
-    15
+    10,
+    11
    ]
   },
   "S8": {
    "pages": [
     12,
-    13
+    13,
+    "s13"
    ],
    "level": "M",
    "desc": "sebaceous (epidermal inclusion) cyst ติดผิวที่ punctum · ตัด skin ด้านบนออกด้วย",
    "asked": [
-    16,
-    17,
-    133
+    12,
+    90
    ]
   },
   "S9": {
    "pages": [
     14,
     15,
-    16
+    16,
+    "s13"
    ],
    "level": "M",
    "desc": "elliptical incision รอบ punctum → เอาถุงทั้งใบ (complete excision)",
    "asked": [
-    18,
-    19,
-    107
+    13,
+    14
    ]
   },
   "S10": {
    "pages": [
     17,
-    18
+    18,
+    "s15"
    ],
    "level": "M",
    "desc": "hemangioma เป็นตั้งแต่เกิด โตเร็วขวบปีแรก 90% involute → fibrofatty",
    "asked": [
-    20,
-    21,
-    108
+    15,
+    70
    ]
   },
   "S11": {
    "pages": [
-    18
+    18,
+    "s15"
    ],
    "level": "M",
    "desc": "hemangioma ตำแหน่งอันตราย (เปลือกตา amblyopia > 3 mo, หู, airway) → ยา/ผ่าตัด",
    "asked": [
-    22,
-    23,
-    109
+    16,
+    17
    ]
   },
   "S12": {
    "pages": [
     17,
-    19
+    19,
+    "s15"
    ],
    "level": "M",
    "desc": "VM: fetal development · โตตามตัว · never involute",
    "asked": [
-    24,
-    25,
-    110
+    18,
+    71
    ]
   },
   "S13": {
    "pages": [
-    19
+    19,
+    "s15"
    ],
    "level": "M",
    "desc": "high flow (pulse thrill bruit) embolize/sclerosant แล้วตัด · venous ม่วง ตัด/laser fiber · capillary แดง laser · lymphatic สีผิว",
    "asked": [
-    26,
-    27,
-    28
+    19,
+    20
    ]
   },
   "S14": {
@@ -173,8 +172,8 @@
    "level": "m",
    "desc": "ผู้ใหญ่ริมฝีปากสีม่วงน้ำเงิน = venous malformation (hemangioma ควรยุบแล้ว)",
    "asked": [
-    29,
-    134
+    21,
+    91
    ]
   },
   "S15": {
@@ -184,9 +183,9 @@
    "level": "M",
    "desc": "premalignant → excision not wide",
    "asked": [
-    30,
-    31,
-    135
+    22,
+    23,
+    92
    ]
   },
   "S16": {
@@ -196,46 +195,45 @@
    "level": "M",
    "desc": "Bowen's disease → SCC",
    "asked": [
-    32,
-    33,
-    111
+    24,
+    72
    ]
   },
   "S17": {
    "pages": [
     22,
-    70
+    70,
+    "s14"
    ],
    "level": "M",
    "desc": "nevus sebaceous of Jadassohn: head-neck cobblestone → BCC → excision",
    "asked": [
-    34,
-    35,
-    128
+    25,
+    87
    ]
   },
   "S18": {
    "pages": [
-    23
+    23,
+    "s12"
    ],
    "level": "M",
    "desc": "actinic keratosis = m/c premalignant → SCC (cf SK benign)",
    "asked": [
-    36,
-    37,
-    136
+    26,
+    93
    ]
   },
   "S19": {
    "pages": [
-    24
+    24,
+    "s16"
    ],
    "level": "M",
    "desc": "BCC 77% SCC 20% MM 3% · common BCC · aggressive MM",
    "asked": [
-    38,
-    39,
-    112
+    27,
+    73
    ]
   },
   "S20": {
@@ -245,10 +243,9 @@
    "level": "M",
    "desc": "risk factors UVB, radiation, chemical (หมาก arsenic), chronic inflammation, genetic, XP, immunosuppression แผล 3–4 wk",
    "asked": [
-    40,
-    41,
-    42,
-    43
+    28,
+    29,
+    30
    ]
   },
   "S21": {
@@ -259,24 +256,23 @@
    "level": "M",
    "desc": "BCC ตีนผม–ริมฝีปากบน · ริมฝีปากล่าง → SCC",
    "asked": [
-    44,
-    45,
-    137
+    31,
+    94
    ]
   },
   "S22": {
    "pages": [
     27,
     31,
-    32
+    32,
+    "s17"
    ],
    "level": "M",
    "desc": "BCC: pearly rolled edge, telangiectasia, central ulcer · Asian pigmented",
    "asked": [
-    46,
-    47,
-    48,
-    113
+    32,
+    33,
+    74
    ]
   },
   "S23": {
@@ -288,8 +284,8 @@
    "level": "m",
    "desc": "superficial BCC flat red plaque · sclerotic depressed white plaque ขอบไม่ชัด",
    "asked": [
-    49,
-    50
+    34,
+    35
    ]
   },
   "S24": {
@@ -299,22 +295,21 @@
    "level": "M",
    "desc": "bx ขอบให้ติดเนื้อดีดู transition",
    "asked": [
-    51,
-    52,
-    138
+    36,
+    95
    ]
   },
   "S25": {
    "pages": [
     33,
-    34
+    34,
+    "s17"
    ],
    "level": "M",
    "desc": "rodent ulcer = BCC แตกเป็นแผล พื้นสะอาด",
    "asked": [
-    53,
-    54,
-    139
+    37,
+    96
    ]
   },
   "S26": {
@@ -322,14 +317,14 @@
     35,
     37,
     41,
-    42
+    42,
+    "s17"
    ],
    "level": "M",
    "desc": "SCC everted raised edge necrotic base",
    "asked": [
-    55,
-    56,
-    114
+    38,
+    75
    ]
   },
   "S27": {
@@ -339,48 +334,48 @@
    "level": "m",
    "desc": "well → poor differentiation = prognosis แย่ลง",
    "asked": [
-    57,
-    140
+    39,
+    97
    ]
   },
   "S28": {
    "pages": [
     38,
     39,
-    40
+    40,
+    "s17"
    ],
    "level": "M",
    "desc": "ริมฝีปากล่าง SCC จาก irritation บุหรี่ หมาก",
    "asked": [
-    58,
-    59,
-    141
+    40,
+    98
    ]
   },
   "S29": {
    "pages": [
     43,
-    45
+    45,
+    "s17"
    ],
    "level": "M",
    "desc": "margin BCC 0.5 cm · SCC 1 cm · คำนวณขนาดแผล",
    "asked": [
-    60,
-    61,
-    62
+    41,
+    42
    ]
   },
   "S30": {
    "pages": [
-    44
+    44,
+    "s18"
    ],
    "level": "M",
    "desc": "Marjolin's ulcer: แผลเรื้อรัง/burn/venous ulcer → SCC → bx + wide excision",
    "asked": [
-    63,
-    64,
-    129,
-    142
+    43,
+    44,
+    99
    ]
   },
   "S31": {
@@ -390,9 +385,8 @@
    "level": "M",
    "desc": "margin ขึ้นกับความลึก · head-neck ทำ wide ไม่ได้ → Mohs",
    "asked": [
-    65,
-    66,
-    115
+    45,
+    76
    ]
   },
   "S32": {
@@ -403,22 +397,21 @@
    "level": "M",
    "desc": "melanoma: แตกเป็นแผล สีไม่สม่ำเสมอ nodular",
    "asked": [
-    67,
-    68,
-    116
+    46,
+    77
    ]
   },
   "S33": {
    "pages": [
     49,
-    50
+    50,
+    "s11"
    ],
    "level": "M",
    "desc": "ABCD criteria",
    "asked": [
-    69,
-    70,
-    143
+    47,
+    100
    ]
   },
   "S34": {
@@ -429,20 +422,20 @@
    "level": "m",
    "desc": "Breslow mm จาก granular layer · Clark = layer",
    "asked": [
-    71,
-    144
+    48,
+    101
    ]
   },
   "S35": {
    "pages": [
-    54
+    54,
+    "s19"
    ],
    "level": "M",
    "desc": "melanoma Tx: wide excision + LN dissection, chemo, RT, immunotherapy (IFN), vaccine",
    "asked": [
-    72,
-    73,
-    117
+    49,
+    50
    ]
   },
   "S36": {
@@ -452,8 +445,8 @@
    "level": "m",
    "desc": "margin ตาม thickness: in situ 0.5 · <1 mm 1 · 1–2 1–2 · 2–4 2 · >4 2–3",
    "asked": [
-    74,
-    145
+    51,
+    102
    ]
   },
   "S37": {
@@ -464,9 +457,8 @@
    "level": "M",
    "desc": "Mohs: ตัดทีละ mm frozen + mapping ตัดเพิ่มเฉพาะที่ positive · ใกล้ organ สำคัญ/หน้า",
    "asked": [
-    75,
-    76,
-    146
+    52,
+    103
    ]
   },
   "S38": {
@@ -476,121 +468,121 @@
    "level": "M",
    "desc": "Mohs adv high cure, ↓morbidity, tissue conservation · disadv time cost inconvenience specialist",
    "asked": [
-    77,
-    78,
-    118
+    53,
+    78
    ]
   },
   "S39": {
    "pages": [
-    59
+    59,
+    "s6"
    ],
    "level": "M",
    "desc": "pressure > 2× capillary arterial end 32 mmHg (~65) 2 ชม. → irreversible → พลิกตัวทุก 2 ชม.",
    "asked": [
-    79,
-    80,
-    119
+    54,
+    79
    ]
   },
   "S40": {
    "pages": [
-    59
+    59,
+    "s6"
    ],
    "level": "M",
    "desc": "sites: sitting ischial · supine sacrum · lateral trochanter/malleolus/ใบหู",
    "asked": [
-    81,
-    82,
-    120
+    55,
+    80
    ]
   },
   "S41": {
    "pages": [
-    59
+    59,
+    "s7"
    ],
    "level": "M",
    "desc": "Tx relief of pressure, wound care, systemic enhancement · best prevent",
    "asked": [
-    83,
-    84,
-    147
+    56,
+    104
    ]
   },
   "S42": {
    "pages": [
-    60
+    60,
+    "s7"
    ],
    "level": "M",
    "desc": "stage I–IV",
    "asked": [
-    85,
-    86,
-    87
+    57,
+    58
    ]
   },
   "S43": {
    "pages": [
-    61
+    61,
+    "s9"
    ],
    "level": "m",
    "desc": "organisms HPV pox herpes · S. aureus, GAS",
    "asked": [
-    88,
-    148
+    59,
+    105
    ]
   },
   "S44": {
    "pages": [
     62,
     63,
-    64
+    64,
+    "s7"
    ],
    "level": "M",
    "desc": "folliculitis: น้อยหายเอง · หลายเม็ด dicloxacillin",
    "asked": [
-    89,
-    90,
-    121
+    60,
+    81
    ]
   },
   "S45": {
    "pages": [
     65,
-    66
+    66,
+    "s7"
    ],
    "level": "M",
    "desc": "furuncle abscess → I&D",
    "asked": [
-    91,
-    92,
-    149
+    61,
+    106
    ]
   },
   "S46": {
    "pages": [
     67,
-    68
+    68,
+    "s8"
    ],
    "level": "M",
    "desc": "carbuncle หลาย pocket → debride skin",
    "asked": [
-    93,
-    94,
-    122
+    62,
+    82
    ]
   },
   "S47": {
    "pages": [
-    69
+    69,
+    "s8"
    ],
    "level": "M",
    "desc": "nec fasciitis: perforator → skin necrosis, sepsis, mixed organisms, debride → graft, Fournier",
    "asked": [
-    95,
-    96,
-    123,
-    150
+    63,
+    64,
+    107
    ]
   },
   "S48": {
@@ -600,23 +592,22 @@
    "level": "M",
    "desc": "spot benign: SK, nevus sebaceous, neurofibroma นุ่ม, KA",
    "asked": [
-    98,
-    99,
-    124
+    66,
+    83
    ]
   },
   "S49": {
    "pages": [
     71,
-    72
+    72,
+    "s14"
    ],
    "level": "M",
    "desc": "NF1 ≥ 2 ใน 7 · AD 50% de novo · chr 17 · café-au-lait แรก · neurofibroma · type 2 central",
    "asked": [
-    100,
-    101,
-    102,
-    125
+    67,
+    68,
+    84
    ]
   },
   "S50": {
@@ -626,9 +617,295 @@
    "level": "M",
    "desc": "spot malignant: SCC base สกปรก · BCC ขอบมัน telangiectasia · MM · สงสัย → incisional bx",
    "asked": [
-    103,
-    104,
+    69,
+    85
+   ]
+  },
+  "T1": {
+   "pages": [
+    "s4"
+   ],
+   "level": "M",
+   "desc": "abrasion: เอาสิ่งแปลกปลอมออกภายใน 12 ชม. กัน traumatic tattoo · แผลชุ่มชื้น tulle gauze",
+   "asked": [
+    108,
+    109
+   ]
+  },
+  "T2": {
+   "pages": [
+    "s4"
+   ],
+   "level": "m",
+   "desc": "contusion: ศีรษะสูง ประคบเย็น 24–48 ชม. แล้วประคบอุ่น · hematoma → evacuate/aspirate",
+   "asked": [
+    110
+   ]
+  },
+  "T3": {
+   "pages": [
+    "s4",
+    "s5"
+   ],
+   "level": "M",
+   "desc": "cut เย็บได้เลย · laceration ตัดเนื้อช้ำ ล้างมาก · avulsion flap trapdoor ประเมินเลือดปลาย flap",
+   "asked": [
+    111,
+    112
+   ]
+  },
+  "T4": {
+   "pages": [
+    "s5"
+   ],
+   "level": "M",
+   "desc": "bite: คน Eikenella · สุนัข Pasteurella · ไม่เย็บทันทีเว้นหน้า · ล้าง ตัดเนื้อตาย ATB",
+   "asked": [
+    113,
+    114,
+    115
+   ]
+  },
+  "T5": {
+   "pages": [
+    "s5",
+    "s6"
+   ],
+   "level": "M",
+   "desc": "เย็บทีละชั้น ลึก→ตื้น · deep dermis สำคัญต่อความสวยที่สุด · ชั้นลึกไหมละลาย ผิว nylon/prolene",
+   "asked": [
+    116,
+    117
+   ]
+  },
+  "T6": {
+   "pages": [
+    "s6"
+   ],
+   "level": "M",
+   "desc": "กรด coagulative · ด่าง liquefactive ลึกกว่า · ล้างน้ำปริมาณมาก",
+   "asked": [
+    118,
+    119
+   ]
+  },
+  "T7": {
+   "pages": [
+    "s6"
+   ],
+   "level": "m",
+   "desc": "cold injury: thrombosis → อุ่น ยกสูง ตัดเนื้อตาย",
+   "asked": [
+    120
+   ]
+  },
+  "T8": {
+   "pages": [
+    "s7"
+   ],
+   "level": "m",
+   "desc": "radiation skin: แดง → hyperpigmentation · > 6 เดือน thrombosis fibrosis แผลไม่หาย",
+   "asked": [
+    121
+   ]
+  },
+  "T9": {
+   "pages": [
+    "s9"
+   ],
+   "level": "M",
+   "desc": "hidradenitis suppurativa: apocrine รักแร้ ขาหนีบ รอบทวาร · เรื้อรัง → ตัดผิวออก ± graft",
+   "asked": [
+    122,
+    123
+   ]
+  },
+  "T10": {
+   "pages": [
+    "s8",
+    "s9"
+   ],
+   "level": "M",
+   "desc": "cellulitis GAS/S. aureus กินยาพอ ยกเว้นภูมิต่ำ IV · NSTI ปัจจัยเสี่ยง · fasciitis vs myositis",
+   "asked": [
+    124,
+    125
+   ]
+  },
+  "T11": {
+   "pages": [
+    "s8"
+   ],
+   "level": "m",
+   "desc": "actinomycosis: หน้า/ศีรษะ 40–60% · sulfur granules · penicillin",
+   "asked": [
     126
+   ]
+  },
+  "T12": {
+   "pages": [
+    "s9",
+    "s10"
+   ],
+   "level": "M",
+   "desc": "warts HPV: common/plantar/flat/condyloma · salicylic, podophyllin, cryo, cautery · เป็นซ้ำบ่อย",
+   "asked": [
+    127,
+    128
+   ]
+  },
+  "T13": {
+   "pages": [
+    "s10"
+   ],
+   "level": "m",
+   "desc": "molluscum: umbilicated 2–5 mm · poxvirus (ชีทเขียน HPV ผิด) · curettage/cryo",
+   "asked": [
+    129
+   ]
+  },
+  "T14": {
+   "pages": [
+    "s10",
+    "s11"
+   ],
+   "level": "M",
+   "desc": "nevi junctional/compound/dermal · dysplastic nevus → melanoma 6% / 15% FHx · total-body photo",
+   "asked": [
+    130,
+    131
+   ]
+  },
+  "T15": {
+   "pages": [
+    "s11",
+    "s12"
+   ],
+   "level": "M",
+   "desc": "giant CMN: leptomeningeal melanocytosis · melanoma 1–5% · staged excision ก่อน 12 ปี",
+   "asked": [
+    132,
+    133
+   ]
+  },
+  "T16": {
+   "pages": [
+    "s13"
+   ],
+   "level": "M",
+   "desc": "dermoid cyst congenital แนวกลางหน้า หางคิ้ว มีกระดูก ฟันได้ · trichilemmal หนังศีรษะ หญิง",
+   "asked": [
+    134,
+    135
+   ]
+  },
+  "T17": {
+   "pages": [
+    "s14"
+   ],
+   "level": "m",
+   "desc": "dermatofibroma: ก้อนแข็ง 1–2 cm หลังแมลงกัด หญิง แขนขา",
+   "asked": [
+    136
+   ]
+  },
+  "T18": {
+   "pages": [
+    "s14"
+   ],
+   "level": "m",
+   "desc": "neurilemmoma (schwannoma): Schwann cell ปวดร้าวตามเส้นประสาท excision",
+   "asked": [
+    137
+   ]
+  },
+  "T19": {
+   "pages": [
+    "s15",
+    "s16"
+   ],
+   "level": "M",
+   "desc": "AVM: thrill bruit hypertrophy CHF → excision/debulk หลัง embolization · port-wine V1 → Sturge–Weber",
+   "asked": [
+    138,
+    139
+   ]
+  },
+  "T20": {
+   "pages": [
+    "s16"
+   ],
+   "level": "M",
+   "desc": "BCC: head–neck 85% จมูกมากสุด · metachronous 40%/10 ปี · mets 0.0028–0.1% ทางเลือด",
+   "asked": [
+    140,
+    141
+   ]
+  },
+  "T21": {
+   "pages": [
+    "s17"
+   ],
+   "level": "m",
+   "desc": "BCC ชนิด superficial 10% ลำตัว eczema-like · margin 5 mm cure 98/80%",
+   "asked": [
+    142
+   ]
+  },
+  "T22": {
+   "pages": [
+    "s17",
+    "s18"
+   ],
+   "level": "M",
+   "desc": "SCC LN 2–5% · LND เมื่อคลำได้/bx + · RT adjuvant (margin+, perineural, > 1 node) · Marjolin mets 20–50%",
+   "asked": [
+    143,
+    144
+   ]
+  },
+  "T23": {
+   "pages": [
+    "s19"
+   ],
+   "level": "M",
+   "desc": "melanoma subtypes: SSM 70% · nodular 15–20% ลึก · LM ดีสุด · acral ใต้เล็บ (มากสุดในเอเชีย)",
+   "asked": [
+    145,
+    146
+   ]
+  },
+  "T24": {
+   "pages": [
+    "s6",
+    "s7"
+   ],
+   "level": "M",
+   "desc": "pressure: arteriole/capillary/venule 32/20/12 · นั่ง ischial 300 · นอน sacrum 150 · กล้ามเนื้อตายก่อนผิว",
+   "asked": [
+    147,
+    148
+   ]
+  },
+  "T25": {
+   "pages": [
+    "s2",
+    "s3"
+   ],
+   "level": "m",
+   "desc": "epidermis: melanocyte 1:35 · turnover 40–56 วัน · Langerhans จากไขกระดูก · collagen I:III 4:1",
+   "asked": [
+    149
+   ]
+  },
+  "T26": {
+   "pages": [
+    "s12"
+   ],
+   "level": "m",
+   "desc": "AK → SCC 5–20% · cryo, electrodesiccation, 5-FU, laser, excision",
+   "asked": [
+    150
    ]
   }
  },
