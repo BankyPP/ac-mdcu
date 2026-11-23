@@ -3780,7 +3780,7 @@ function nPickWire(id,cb){document.querySelectorAll(`[data-np-${id}]`).forEach(b
   const i=$("np-"+id);if(!i)return;const ok=()=>{if(i._d)return;const x=Math.round(+i.value);if(x>=1){i._d=1;setTimeout(()=>cb(Math.min(999,x)),0);}};i.addEventListener("change",ok);i.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();ok();}});}
 function rUnit(){
   const W=W_(),P=P_(),Ls=W.UNIT;
-  let h=`<h1 class="h2">Unit round</h1><p class="sub">โจทย์ใหม่แบบ case-based ที่สร้างจาก lecture แต่ละบท ครอบคลุมทุกจุดในสไลด์ เก็บไว้ในคลังแล้ว ทำได้ทั้งในเว็บและใน Claude ไม่ต้องสร้างใหม่ · สุ่มใหม่ทุกครั้งที่เริ่ม (เจอข้อซ้ำได้) ใช้ร่วมกันทั้งสอง Phase</p>`;
+  let h=`<h1 class="h2">Unit round</h1><p class="sub">โจทย์ใหม่แบบ case-based ที่สร้างจาก lecture แต่ละบท ครอบคลุมทุกจุดในสไลด์ เก็บไว้ในคลังแล้ว ทำได้ทั้งในเว็บและใน Claude ไม่ต้องสร้างใหม่ · สุ่มใหม่ทุกครั้งที่เริ่ม (เจอข้อซ้ำได้ ถ้าไม่ติ๊ก "เฉพาะข้อที่ยังไม่เคยทำ") ใช้ร่วมกันทั้งสอง Phase</p>`;
   if(!Ls.length){h+=`<div class="card"><h3>ยังไม่มีโจทย์ Unit round ในวอร์ดนี้</h3><span class="rd" style="margin:0">ส่งไฟล์ lecture ให้ Claude แล้วจะสร้างโจทย์ case-based ภาษาอังกฤษให้บทละประมาณ 200 ข้อ ครอบคลุมทุกเรื่องในสไลด์</span></div>`;$("main").innerHTML=h;return;}
   let n=Math.max(1,Math.round(+st.unitN||10));
   h+=nPickHTML("un",n,"ข้อ");
@@ -3788,12 +3788,14 @@ function rUnit(){
   const sel=new Set((st.unitSel||[]).filter(id=>W.byLec[id]));
   h+=`<div class="yh" style="font-family:var(--num);font-weight:700;margin:14px 0 6px">บท <span class="hint" style="font-weight:400">เลือกได้หลายบท · ไม่เลือกเลย = สุ่มรวมทุกบท · ตัวเลข = เคยเจอแล้ว/ทั้งหมด</span></div><div class="chips" style="margin:0 0 6px">${saBtn("[data-lec]")}</div>`;
   h+=`<div class="stack" style="margin-top:0">`+Ls.map(Lc=>`<button class="resume qprog${Lc.nolec?" nolec":""}" data-lec="${esc(Lc.id)}" aria-pressed="${sel.has(Lc.id)}"><span><b>${esc(Lc.title)}</b><span class="rd">${Lc.QB.length?`เคยเจอแล้ว ${seen(Lc.QB)}/${Lc.QB.length} ข้อ`:Lc.nolec?"ยังไม่มีไฟล์ lecture — มีแค่หัวข้อบทไว้ก่อน":"ยังไม่มีโจทย์ — มีแค่หัวข้อบทไว้ก่อน"}</span></span><span class="go">${sel.has(Lc.id)?"✓":""}</span></button>`).join("")+`</div>`;
-  const pool=sel.size?[].concat(...Ls.filter(Lc=>sel.has(Lc.id)).map(Lc=>Lc.QB)):all;
-  h+=`<p class="statline" style="margin-top:10px">${sel.size?`จาก ${sel.size} บทที่เลือก`:"สุ่มรวมทุกบท"} · มีโจทย์ ${pool.length} ข้อ (เคยเจอแล้ว ${seen(pool)})</p><div class="row2"><button class="btn ghost" id="uClr" type="button" ${sel.size?"":"disabled"}>ล้างที่เลือก</button><span class="spacer"></span><button class="btn primary" id="uGo" type="button" ${pool.length?"":"disabled"}>เริ่มทำ ${Math.min(n,pool.length)} ข้อ</button></div>`;
+  const fresh=!!st.unitFresh,base=sel.size?[].concat(...Ls.filter(Lc=>sel.has(Lc.id)).map(Lc=>Lc.QB)):all,pool=fresh?base.filter(q=>!uAtts(P,q.uid).length):base;
+  h+=`<label class="chk"><input type="checkbox" id="uFresh" ${fresh?"checked":""}><span>เฉพาะข้อที่ยังไม่เคยทำ <span class="hint">(ไม่ติ๊ก = สุ่มรวมทั้งข้อที่เคยทำและยังไม่เคยทำ)</span></span></label>`;
+  h+=`<p class="statline" style="margin-top:10px">${sel.size?`จาก ${sel.size} บทที่เลือก`:"สุ่มรวมทุกบท"} · มีโจทย์ ${base.length} ข้อ (เคยเจอแล้ว ${seen(base)}${fresh?` · ยังไม่เคยทำ <b>${pool.length}</b>`:""})</p><div class="row2"><button class="btn ghost" id="uClr" type="button" ${sel.size?"":"disabled"}>ล้างที่เลือก</button><span class="spacer"></span><button class="btn primary" id="uGo" type="button" ${pool.length?"":"disabled"}>${pool.length?`เริ่มทำ ${Math.min(n,pool.length)} ข้อ`:fresh&&base.length?"ทำครบทุกข้อแล้ว":"เริ่มทำ 0 ข้อ"}</button></div>`;
   $("main").innerHTML=h;
   nPickWire("un",x=>{st.unitN=x;persist();rUnit();});
   document.querySelectorAll("[data-lec]").forEach(b=>b.onclick=()=>{const id=b.dataset.lec;if(sel.has(id))sel.delete(id);else sel.add(id);st.unitSel=[...sel];persist();rUnit();});
   $("uClr").onclick=()=>{st.unitSel=[];persist();rUnit();};
+  $("uFresh").onchange=e=>{st.unitFresh=e.target.checked;persist();rUnit();};
   $("uGo").onclick=()=>{const t=sel.size===1?W.byLec[[...sel][0]].title:sel.size?sel.size+" บท":"ทุกบท";startSess("unit","Unit round · "+t,shuffle(pool).slice(0,n).map(q=>q.uid));};
 }
 
