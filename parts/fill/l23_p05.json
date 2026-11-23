@@ -1,0 +1,276 @@
+{
+"61": {
+"trap": "ลายมือ p26 เขียนว่า ‘เจาะ blood gas = PaO₂ ↓’ (ถูกแก้แล้ว) — PaO₂ ใน CO poisoning มักปกติ อย่าใช้ PaO₂ ปกติตัดโรคหรืองด O₂"
+},
+"63": {
+"interp": "คนสูบบุหรี่จัดวันละ 2 ซอง COHb 8% ไม่มีอาการ → ถามว่าตีความค่านี้อย่างไร",
+"why": "สไลด์หน้า 27: <b>0–10% = Minimal symptoms (frequently found in heavy smokers)</b><br>ควันบุหรี่มี CO คนสูบจัดจึงมี COHb พื้นฐานสูงกว่าคนทั่วไปได้ถึงราว 10% โดยไม่มีอาการ · ผู้ป่วยรายนี้ไม่มีอาการ ค่า 8% จึงเข้ากับการสูบบุหรี่มากกว่าพิษ CO รุนแรง · การแปลผลต้องดูอาการร่วมเสมอ (ชีทหน้า 10 ระบุเช่นเดียวกัน) · ถ้ายังสงสัยว่าสูดควันมาก ให้ O₂ และติดตามอาการ",
+"wrong": {
+"B": "ผิด — coma สัมพันธ์กับ COHb 40–50% ไม่ใช่ 8% จะถูกถ้าผู้ป่วยไม่รู้สึกตัวและ COHb 45%",
+"C": "ผิด — ระดับที่ไม่รอดคือมากกว่า 50% จะถูกถ้า COHb สูงกว่า 50%",
+"D": "ผิด — 8% ไม่มีอาการ ไม่จำเป็นต้องใส่ tube จะถูกถ้ามีสัญญาณ upper airway burn หรือ COHb สูงมากร่วม coma",
+"E": "ผิด — 8% ไม่ทำให้ชักทุกราย คำว่า always ผิด จะถูกถ้าโจทย์ถามอาการทางสมองของพิษ CO รุนแรง (COHb สูงมาก) ที่อาจชักได้"
+},
+"trap": "เห็นตัวเลข COHb หลังไฟไหม้แล้วรีบสรุปว่าเป็นพิษ — 0–10% พบได้ในคนสูบบุหรี่จัดโดยไม่มีอาการ",
+"summary": [
+"COHb 0–10% = อาการน้อย พบในคนสูบบุหรี่จัด (p27)",
+"10–20% ปวดหัว คลื่นไส้ · 20–30% ง่วง อ่อนแรง",
+"30–40% สับสน · 40–50% coma · > 50% ตาย",
+"แปลผล COHb คู่กับอาการทางคลินิกเสมอ"
+]
+},
+"64": {
+"interp": "ผู้ป่วยไฟไหม้ coma และกดการหายใจ → ถามช่วง COHb ที่เข้ากับอาการ",
+"why": "สไลด์หน้า 27: <b>40–50% = Coma, respiratory depression</b> · 30–40% confusion, agitation · &gt; 50% death<br>อาการ coma + กดการหายใจตรงกับช่วง 40–50% · ผู้ป่วยกลุ่มนี้ต้องใส่ ETT ให้ 100% O₂ (ลด COHb half-life จาก 240 เหลือ 30–40 นาที) และพิจารณา hyperbaric O₂ ในรายรุนแรง (หมดสติ neuro deficit) · ลายมือหน้า 31: ไฟไหม้ในที่ปิด + Glasgow &lt; 8 ให้ 100% O₂",
+"wrong": {
+"B": "ผิด — 30–40% มีอาการสับสนกระวนกระวาย ยังไม่ coma จะถูกถ้าผู้ป่วยยังตื่นแต่สับสนและกระวนกระวาย",
+"C": "ผิด — 10–20% มีแค่ปวดศีรษะคลื่นไส้ จะถูกถ้าผู้ป่วยรู้ตัวดีแต่ปวดหัว",
+"D": "ผิด — 20–30% ง่วงและอ่อนแรง ยังไม่ coma จะถูกถ้าผู้ป่วยง่วงซึมแต่ปลุกตื่น อ่อนเพลีย",
+"E": "ผิด — 0–10% แทบไม่มีอาการ พบในคนสูบบุหรี่จัด จะถูกถ้าผู้ป่วยไม่มีอาการและสูบบุหรี่จัด"
+},
+"trap": "coma (40–50%) กับ death (> 50%) ติดกัน · confusion (30–40%) ยังไม่ coma",
+"summary": [
+"COHb 40–50% = coma + respiratory depression (p27)",
+"> 50% = เสียชีวิต",
+"Coma หลังไฟไหม้ในที่ปิด → ETT + 100% O₂",
+"พิจารณา HBO ใน CO poisoning รุนแรง"
+]
+},
+"65": {
+"interp": "ใส่ tube หลังไฟไหม้ในที่ปิด ดูดได้ผงดำจาก tube → ถาม investigation ที่ยืนยันและประเมินความรุนแรงของ lower airway injury",
+"why": "สไลด์หน้า 29 Diagnosis: <b>Investigation — Bronchoscopy · Ventilation scanning</b> · หน้า 28: carbonaceous sputum (เห็นใน ETT)<br>Fiberoptic bronchoscopy เห็นเขม่า เยื่อบุบวมแดง/ซีด/เป็นแผล จึงยืนยันและจัดระดับความรุนแรงได้โดยตรง และใช้ดูดเขม่า (pulmonary toilet) ได้ด้วย · ชีทหน้า 12: ยืนยันด้วย bronchoscopy · xenon ventilation scan ช่วยแต่ไม่สะดวกระยะเฉียบพลัน · CXR แรกรับมักปกติ",
+"wrong": {
+"A": "ผิด — lactate บอกภาวะ tissue hypoxia/cyanide แต่ไม่ยืนยันหรือจัดระดับการบาดเจ็บของหลอดลม จะถูกถ้าโจทย์ถามสิ่งที่ช่วยสงสัย cyanide poisoning จากควันพลาสติก",
+"C": "ผิด — PFT ทำไม่ได้ในผู้ป่วยใส่ tube ระยะเฉียบพลันและไม่เห็นเยื่อบุ จะถูกถ้าโจทย์ถามการติดตามผลระยะยาวของปอดหลังหาย",
+"D": "ผิด — CXR แรกรับมักปกติแม้บาดเจ็บรุนแรง จะถูกถ้าโจทย์ถามการตรวจหาภาวะแทรกซ้อนหลายวันต่อมา เช่น pneumonia หรือ ARDS",
+"E": "ผิด — pulse oximetry ไม่บอกการบาดเจ็บของทางเดินหายใจ และหลอกใน CO poisoning จะถูกถ้าโจทย์ถามเครื่องมือเฝ้าระวัง oxygenation ทั่วไปเมื่อไม่มี CO"
+},
+"trap": "CXR เป็นการตรวจที่คุ้นเคย แต่แรกรับมักปกติ — การตรวจที่เห็นการบาดเจ็บโดยตรงคือ bronchoscopy",
+"summary": [
+"Inhalation Dx: Hx closed space · PE facial burn, carbonaceous sputum · Investigation bronchoscopy, ventilation scan (p29)",
+"Bronchoscopy = มาตรฐาน ทั้งวินิจฉัยและรักษา (ดูดเขม่า)",
+"CXR แรกรับมักปกติ",
+"ส่ง COHb, ABG, lactate ทุกรายที่สงสัย"
+]
+},
+"66": {
+"interp": "ผู้ป่วยไฟไหม้อพาร์ตเมนต์ → ถามประวัติที่เพิ่มความสงสัย inhalation injury มากที่สุด (ติดในห้องปิดที่มีควัน)",
+"why": "สไลด์หน้า 29 Diagnosis: <b>History — burn in a closed space</b> · ลายมือหน้า 23: closed space เสี่ยงกว่า<br>ในห้องปิดควันและ CO สะสมเข้มข้น ผู้ป่วยหนีไม่ได้จึงสูดเข้าไปนาน ทั้ง CO poisoning, products of combustion และความร้อนต่อทางเดินหายใจ · ชีทหน้า 12: ประวัติไฟไหม้ในที่ปิด (อาคาร ตึก) เป็นประวัติสำคัญ ร่วมกับตรวจพบแผลหน้า–คอ ขนจมูกไหม้ เขม่าในคอ",
+"wrong": {
+"A": "ผิด — กระโดดจากชั้น 1 บ่งการบาดเจ็บร่วมจาก trauma ไม่ใช่ inhalation จะถูกถ้าโจทย์ถามประวัติที่ต้องหาการบาดเจ็บอวัยวะอื่นใน secondary survey",
+"C": "ผิด — sunburn สัปดาห์ก่อนเป็น 1° ที่ไม่เกี่ยวกับทางเดินหายใจ จะถูกถ้าโจทย์ถามแผลที่ไม่นับใน %TBSA",
+"D": "ผิด — น้ำร้อนลวกที่ผิวไม่ทำให้เกิด inhalation injury จะถูกถ้าเป็นการสูดไอน้ำร้อน (steam) ซึ่งพาความร้อนลงถึงทางเดินหายใจส่วนล่างได้",
+"E": "ผิด — ทรายร้อนลวกเท้าเป็น contact burn เฉพาะที่ ไม่เกี่ยวกับการหายใจ จะถูกถ้าโจทย์ถามตำแหน่งพิเศษที่ต้องส่ง burn center (เท้า)"
+},
+"trap": "ไฟไหม้อพาร์ตเมนต์ทุกรายไม่ได้เสี่ยงเท่ากัน — ตัวชี้คือ ‘ติดอยู่ในที่ปิดกับควัน’",
+"summary": [
+"ประวัติสำคัญ: burn in a closed space (p29)",
+"ตรวจ: facial burn, ขนจมูก/คิ้วไหม้, เขม่า, carbonaceous sputum, respiratory compromise",
+"Open space ก็เกิดได้แต่เสี่ยงน้อยกว่า",
+"Steam พาความร้อนลงลึกถึงทางเดินหายใจส่วนล่าง (ชีท p11)"
+]
+},
+"67": {
+"interp": "inhalation injury ใส่ tube แล้ว → ถามชุดการรักษา supportive มาตรฐาน",
+"why": "สไลด์หน้า 30 Treatment: <b>Supportive — Endotracheal intubation · 100% oxygen · Positive-pressure ventilation with PEEP</b> · <b>Pulmonary toilet — Bronchoscopy</b> · Monitoring — Swan-Ganz catheterization<br>การบาดเจ็บจากเขม่าไม่มียาเฉพาะ ต้องประคับประคองจนปอดฟื้น: O₂ ไล่ CO, PEEP กัน alveolar collapse/pulmonary edema, ดูดเสมหะสม่ำเสมอ (ชีทหน้า 12: หัวใจของการรักษา) · หลีกเลี่ยง steroid และไม่ให้ antibiotic ป้องกัน",
+"wrong": {
+"B": "ผิด — ไม่ให้ antibiotic ป้องกันและหลีกเลี่ยง steroid ใน inhalation injury (เพิ่มติดเชื้อ) จะถูกถ้ามี pneumonia ชัดจากผลเพาะเชื้อ จึงให้ antibiotic ตามเชื้อ",
+"C": "ผิด — ไม่ทำ tracheostomy ทันทีหรือ lobectomy การบาดเจ็บเป็นแบบกระจาย จะถูกถ้าเป็นก้อนเนื้องอกจำกัดในกลีบเดียว",
+"D": "ผิด — hyperventilation ถึง PaCO₂ 20 ไม่ใช่การรักษา inhalation injury จะถูกถ้าเป็นการลด ICP ชั่วคราวในผู้ป่วยสมองบวมที่กำลังจะ herniate",
+"E": "ผิด — จำกัดน้ำและขับปัสสาวะไม่ใช่มาตรฐาน ผู้ป่วยที่มี inhalation ต้องการน้ำมากขึ้นด้วยซ้ำ จะถูกถ้าเป็นช่วงหลังที่ capillary integrity กลับมาแล้วและน้ำเกินชัด"
+},
+"trap": "steroid ฟังดูดีสำหรับบวมของทางเดินหายใจ — แต่ใน inhalation injury ไม่ให้ เพิ่มการติดเชื้อ",
+"summary": [
+"Supportive: ETT + 100% O₂ + PPV with PEEP (p30)",
+"Pulmonary toilet: ดูดเสมหะ + bronchoscopy",
+"Monitoring: Swan-Ganz ในผู้มีโรคหัวใจ–ปอด",
+"หลีกเลี่ยง steroid · ไม่ให้ antibiotic ป้องกัน"
+]
+},
+"68": {
+"interp": "COHb 25% ให้ 100% O₂ ทาง non-rebreather → ถามวัตถุประสงค์หลัก (ไล่ CO ออกจาก Hb ลด half-life)",
+"why": "สไลด์หน้า 30: <b>100% oxygen</b> · ลายมือ: <b>ไล่ carboxy Hb</b> · หน้า 31: COHb half-life 240 นาทีที่ FiO₂ 0.21 → 30–40 นาทีที่ FiO₂ 1.0<br>O₂ ความเข้มข้นสูงแข่งกับ CO ในการจับ Hb ทำให้ CO หลุดออกเร็วขึ้น และ CO ยังหลุดจาก cytochrome oxidase ตามมา · ชีทหน้า 11: ให้ 100% O₂ จน metabolic acidosis หาย (HCO₃ &gt; 20 mEq/L)",
+"wrong": {
+"B": "ผิด — การเปลี่ยน cyanide เป็น thiocyanate ทำด้วย sodium thiosulfate หรือใช้ hydroxocobalamin ไม่ใช่ O₂ จะถูกถ้าโจทย์ถามยาต้านพิษ cyanide จากควันพลาสติก",
+"C": "ผิด — O₂ ไม่ป้องกันทางเดินหายใจบวม ต้องใส่ ETT ก่อนบวม จะถูกถ้าโจทย์ถามการจัดการ upper airway burn ที่เสียงแหบ",
+"D": "ผิด — O₂ ไม่ได้ลดความต้องการน้ำ ผู้ป่วย inhalation ต้องการน้ำมากขึ้น จะถูกถ้าโจทย์ถามบทบาทของ albumin ในการลดปริมาณ crystalloid",
+"E": "ผิด — O₂ ไม่ละลายเขม่า เขม่าต้องดูดออกด้วย bronchoscopy จะถูกถ้าโจทย์ถาม pulmonary toilet"
+},
+"trap": "100% O₂ มีหลายประโยชน์ แต่จุดประสงค์หลักใน CO poisoning คือไล่ CO จาก Hb — ไม่ใช่รักษา cyanide หรือกันบวม",
+"summary": [
+"100% O₂ ไล่ carboxy Hb (ลายมือ p30)",
+"COHb t½: 240 นาที (room air) → 30–40 นาที (FiO₂ 1.0) (p31)",
+"ให้จน acidosis หาย HCO₃ > 20 (ชีท p11)",
+"Cyanide จากควันพลาสติก → hydroxocobalamin"
+]
+},
+"69": {
+"interp": "inhalation injury รุนแรงต้องเอาเขม่าและเสมหะออกซ้ำ ๆ → ถามหัตถการสำหรับ pulmonary toilet",
+"why": "สไลด์หน้า 30: <b>Pulmonary toilet — Bronchoscopy</b><br>bronchoscopy ใช้ทั้งวินิจฉัย (เห็นเขม่า เยื่อบุบวม) และรักษา คือดูดเขม่า เสมหะเหนียว และ cast ที่อุดหลอดลมออก ลด atelectasis และ pneumonia · ชีทหน้า 12: ดูดเสมหะ/สิ่งคัดหลั่งสม่ำเสมอเป็นหัวใจของการรักษา ± serial bronchoscopy · ใช้ ETT ขนาดใหญ่พอ (ผู้ใหญ่ ≥ 7.5–8) เพื่อทำ bronchoscopy ได้",
+"wrong": {
+"B": "ผิด — lung biopsy ไม่ใช่การทำความสะอาดทางเดินหายใจ จะถูกถ้าโจทย์ถามการวินิจฉัย interstitial lung disease ที่ไม่ทราบสาเหตุ",
+"C": "ผิด — ตัด trachea ไม่ใช่การรักษา inhalation ระยะเฉียบพลัน จะถูกถ้าเป็น tracheal stenosis เรื้อรังหลังใส่ tube นาน",
+"D": "ผิด — pleurodesis ใช้กับ pleural effusion/pneumothorax ซ้ำ ไม่เกี่ยวกับเขม่าในหลอดลม จะถูกถ้าเป็น malignant pleural effusion ที่กลับซ้ำ",
+"E": "ผิด — chest tube ระบายลม/น้ำในช่องเยื่อหุ้มปอด ไม่ได้เอาเขม่าออก จะถูกถ้ามี pneumothorax จาก barotrauma ระหว่างใช้ PEEP"
+},
+"trap": "‘toilet’ อาจทำให้นึกถึงหัตถการทรวงอกอื่น — pulmonary toilet = ทำความสะอาดทางเดินหายใจ ด้วยดูดเสมหะ/bronchoscopy",
+"summary": [
+"Pulmonary toilet = bronchoscopy + ดูดเสมหะสม่ำเสมอ (p30)",
+"Bronchoscopy ใช้ทั้งวินิจฉัยและรักษา",
+"ใช้ ETT ขนาดใหญ่พอสำหรับ bronchoscope",
+"ชีท: high-frequency percussive ventilation อาจมีประโยชน์"
+]
+},
+"70": {
+"interp": "CO poisoning หายใจ room air → ถาม half-life ของ COHb (240 นาที)",
+"why": "สไลด์หน้า 31 Half-life of COHb: <b>240 minutes at FiO₂ 0.21</b> · 30–40 minutes at FiO₂ 1.0 · ลายมือ: ~4 hr = room air O₂ 21%<br>บน room air CO ค่อย ๆ หลุดจาก Hb ช้ามาก จึงต้องให้ 100% O₂ ทันทีเพื่อย่นเหลือ 30–40 นาที · <b>นอกสไลด์:</b> ตำราปัจจุบันระบุ room air ~4–6 ชม. · 100% O₂ ผ่าน non-rebreather ~60–90 นาที · hyperbaric O₂ ~20 นาที — ตอบตามสไลด์ถ้าถามตรง ๆ",
+"wrong": {
+"B": "ผิด — 10 นาทีสั้นเกินจริง แม้ hyperbaric O₂ ยังราว 20 นาที จะถูกถ้าโจทย์ถามว่าน้ำ 120 °F (49 °C) ต้องสัมผัสนานเท่าไรจึงเกิด full thickness",
+"C": "ผิด — 30 นาทีเป็น half-life บน FiO₂ 1.0 ไม่ใช่ room air จะถูกถ้าผู้ป่วยได้ 100% O₂ ทาง ETT",
+"D": "ผิด — 24 ชม.ยาวเกินจริง จะถูกถ้าโจทย์ถามช่วงที่ edema ของ major burn สูงสุด (12–24 ชม.)",
+"E": "ผิด — 72 ชม.ยาวเกินจริงมาก จะถูกถ้าโจทย์ถามว่าเปลี่ยน IV line ทุกกี่ชั่วโมงในผู้ป่วย burn (ชีท: ทุก 72 ชม.)"
+},
+"trap": "สลับ 240 (room air) กับ 30–40 (FiO₂ 1.0) — โจทย์ถาม room air",
+"summary": [
+"COHb t½: 240 นาที (FiO₂ 0.21) · 30–40 นาที (FiO₂ 1.0) (p31)",
+"ตำราปัจจุบัน: room air 4–6 ชม. · 100% O₂ 60–90 นาที · HBO ~20 นาที",
+"ไฟไหม้ในที่ปิด + GCS < 8 → 100% O₂ (ลายมือ p31)",
+"ให้ O₂ จน HCO₃ > 20 (ชีท)"
+]
+},
+"71": {
+"interp": "COHb t½ 240 นาทีบน room air → ถามว่าเมื่อให้ FiO₂ 1.0 จะเหลือเท่าไร",
+"why": "สไลด์หน้า 31: <b>30–40 minutes at FiO₂ 1.0</b> (240 minutes at FiO₂ 0.21) · ลายมือ: <b>ให้ 100% O₂ → t½ ลดเหลือ 30 min</b> ∴ ไฟไหม้ใน closed space และ Glasgow &lt; 8 ให้ 100% O₂ (mask c̄ bag)<br>O₂ ความเข้มข้นสูงแข่งจับ Hb ทำให้ CO หลุดเร็วขึ้นราว 6–8 เท่า · <b>นอกสไลด์:</b> ตำราปัจจุบันบอก non-rebreather ~60–90 นาที, hyperbaric ~20 นาที — ข้อสอบตามสไลด์ตอบ 30–40 นาที",
+"wrong": {
+"B": "ผิด — 120 นาทีเป็นแค่ครึ่งหนึ่งของ room air ไม่ตรงกับสไลด์ จะถูกถ้าโจทย์ใช้ค่าจากตำราบางเล่มสำหรับ O₂ ไม่ถึง 100%",
+"C": "ผิด — 480 นาทียาวกว่า room air ไม่สมเหตุสมผลเมื่อเพิ่ม O₂ จะถูกถ้าโจทย์ถาม 2 half-life บน room air (≈ 480 นาที)",
+"D": "ผิด — 240 นาทีคือค่าที่ room air ไม่ใช่ FiO₂ 1.0 จะถูกถ้าผู้ป่วยหายใจอากาศปกติ",
+"E": "ผิด — 5 นาทีสั้นเกินจริง แม้ hyperbaric O₂ ก็ราว 20 นาที จะถูกถ้าโจทย์ถามว่าแผลไฟฟ้าแรงต่ำที่ไม่มีอาการต้องเฝ้าดูสั้น ๆ ก่อนกลับบ้าน (ไม่ต้อง admit monitor)"
+},
+"trap": "ค่าในสไลด์ (30–40 นาที) ต่างจากตำราปัจจุบัน (60–90 นาที) — ตอบตามสไลด์",
+"summary": [
+"FiO₂ 1.0 → COHb t½ 30–40 นาที (p31)",
+"Room air → 240 นาที (~4 ชม.)",
+"ตำราปัจจุบัน: 100% O₂ ~60–90 นาที · HBO ~20 นาที",
+"พิจารณา HBO: หมดสติ neuro deficit COHb สูงมาก ตั้งครรภ์"
+]
+},
+"72": {
+"interp": "burn 30% จากไฟไหม้ห้องปิด ใน primary survey ของ burn ตัว ‘B’ เน้นอะไร",
+"why": "ลายมือสไลด์หน้า 33: <b>A: Airway → มี inhalation injury ไหม? · B: Breathing → ให้ O₂ if CO intoxication · C: Circulation → Parkland formula</b><br>ไฟไหม้ในห้องปิดเสี่ยง CO intoxication ขั้น B จึงเน้นให้ 100% O₂ (ลด COHb half-life) และดู ventilation เช่น circumferential chest burn ที่ต้อง escharotomy · ส่วนการมองหา upper airway burn และใส่ tube เป็นขั้น A",
+"wrong": {
+"B": "ผิด — การหา upper airway burn และใส่ tube เป็นขั้น A (Airway) จะถูกถ้าโจทย์ถามว่า ‘A’ ใน primary survey ของ burn เน้นอะไร",
+"C": "ผิด — tetanus เป็นส่วนของ emergent management หลัง primary survey จะถูกถ้าโจทย์ถามรายการใน triage and emergent management (p34)",
+"D": "ผิด — wound excision เป็น wound management ภายหลัง ไม่ใช่ primary survey จะถูกถ้าโจทย์ถามการรักษา full thickness ชัด ≤ 10% (early excision + graft)",
+"E": "ผิด — Parkland เป็นขั้น C (Circulation) จะถูกถ้าโจทย์ถามว่า ‘C’ ใน primary survey ของ burn เน้นอะไร"
+},
+"trap": "A กับ B ปนกันง่าย — A = ดู inhalation/ใส่ tube · B = O₂ สำหรับ CO · C = Parkland",
+"summary": [
+"A: airway — มี inhalation injury ไหม? → ETT (ลายมือ p33)",
+"B: breathing — ให้ O₂ ถ้า CO intoxication",
+"C: circulation — Parkland formula",
+"แล้วต่อด้วย Hx, PE, %TBSA, admission, escharotomy, tetanus (p34)"
+]
+},
+"73": {
+"interp": "scald 25% ใน primary survey แบบ burn ขั้น ‘C’ คืออะไร",
+"why": "ลายมือสไลด์หน้า 33: <b>C : Circulation → Parkland formula</b> (A = inhalation injury, B = O₂ if CO intoxication)<br>ผู้ป่วย 25% เกินเกณฑ์ให้ IV ตามสูตรในผู้ใหญ่ (≥ 20%) ขั้น C จึงเป็นการเปิด large-bore IV 2 เส้น เริ่ม LR 4 mL/kg/% ครึ่งหนึ่งใน 8 ชม.แรก และใส่ Foley ติดตาม urine output · ชีทหน้า 14: แทง IV ผ่านผิวที่ไม่ไหม้ดีกว่า",
+"wrong": {
+"B": "ผิด — chest escharotomy เกี่ยวกับ breathing/ventilation เมื่อมี circumferential chest burn ไม่ใช่ขั้น C ตามลายมือ จะถูกถ้าผู้ป่วยมี circumferential chest eschar และ peak pressure สูง",
+"C": "ผิด — 100% O₂ สำหรับ CO เป็นขั้น B ตามลายมือ จะถูกถ้าโจทย์ถามว่า ‘B’ ใน primary survey ของ burn คืออะไร",
+"D": "ผิด — ทา silver sulfadiazine เป็น wound management ภายหลัง จะถูกถ้าโจทย์ถาม topical antibiotic ที่ใช้แพร่หลายที่สุด",
+"E": "ผิด — ใส่ ETT เป็นขั้น A จะถูกถ้าผู้ป่วยมีเสียงแหบ stridor หรือ deep facial burn"
+},
+"trap": "escharotomy ก็ทำในห้องฉุกเฉิน แต่ไม่ใช่ ‘C’ ตามลายมือ — C ของ burn คือ Parkland",
+"summary": [
+"C = Parkland formula (ลายมือ p33)",
+"2 large-bore IV ผ่านผิวที่ไม่ไหม้ถ้าได้ (ชีท p14)",
+"Foley ติดตาม UO ทุกชั่วโมง",
+"เด็กหาเส้นไม่ได้ → intraosseous"
+]
+},
+"74": {
+"interp": "burn 40% → ถามรายการที่เป็น triage and emergent management ไม่ใช่ wound management ภายหลัง",
+"wrong": {
+"A": "ผิด — skin grafting เป็น wound management หลังภาวะฉุกเฉินผ่านไป จะถูกถ้าโจทย์ถามการรักษา full thickness ที่ทำหลัง excision",
+"B": "ผิด — scar revision ทำหลังแผลหายและ scar mature เป็นเดือนถึงปี จะถูกถ้าโจทย์ถามการแก้ contracture ข้ามข้อด้วย Z-plasty ระยะหลัง",
+"C": "ผิด — tangential excision เป็น early excision (มักภายใน 3–7 วัน) อยู่ใน wound management จะถูกถ้าโจทย์ถามการตัดเนื้อตายทีละชั้นจนเลือดออกเป็นจุด",
+"D": "ผิด — pressure garment ใส่เมื่อแผลปิดแล้วเพื่อกัน scar/contracture ระยะ rehab จะถูกถ้าโจทย์ถามการป้องกัน hypertrophic scar หลังแผลหาย"
+},
+"trap": "ทุกช้อยเป็นการรักษา burn จริง — แยกตามเวลา: ประเมินความลึกและ %TBSA ทำตั้งแต่แรกรับ ที่เหลือทำภายหลัง",
+"summary": [
+"Triage & emergent: airway (ETT), history, PE, depth + %TBSA, fluid, admission, escharotomy, tetanus (p34)",
+"Wound management: exposure/dressing, early excision + graft, topical antibiotic",
+"Rehab: active/passive motion, splint, pressure garment",
+"%TBSA ต้องประเมินแต่แรกเพื่อคำนวณน้ำ"
+]
+},
+"75": {
+"notes": "p34 Triage and Emergent Management: Airway · History Taking · Physical Examination · Estimation of Depth and Surface Area · Fluid Resuscitation · Indication for Admission · Escharotomy · Tetanus Prevention",
+"interp": "burn 20% จำไม่ได้ว่าฉีดบาดทะยักครั้งสุดท้ายเมื่อไร → ถาม tetanus prophylaxis (toxoid + TIG)",
+"wrong": {
+"A": "ผิด — ไม่รอให้แผลติดเชื้อ burn เป็น tetanus-prone wound ต้องป้องกันตั้งแต่แรก จะถูกถ้าโจทย์ถามความเข้าใจผิดที่ควรแก้",
+"B": "ผิด — ให้ TIG อย่างเดียวได้ภูมิชั่วคราว ต้องให้ toxoid ร่วมเพื่อสร้างภูมิระยะยาว จะถูกถ้าโจทย์ถามสิ่งที่ให้ภูมิคุ้มกันทันที (passive) ในแผลเสี่ยง",
+"D": "ผิด — แผล burn ไม่ได้ปลอดเชื้อ เนื้อตายเลือดน้อยเหมาะกับ Clostridium tetani จะถูกถ้าเป็นแผล 1° ผิวแดงจากแดดที่ไม่มีเนื้อตาย",
+"E": "ผิด — ยาปฏิชีวนะกินไม่ใช่การป้องกันบาดทะยัก และไม่ให้ prophylactic antibiotic ใน burn จะถูกถ้ามี cellulitis รอบแผล burn เล็กที่ดูแลแบบผู้ป่วยนอก"
+},
+"trap": "แผลไฟไหม้ดูเหมือน ‘ฆ่าเชื้อด้วยความร้อนแล้ว’ — แต่ 3° มีเนื้อตายเลือดน้อย เป็น tetanus-prone wound (ชีท p17)",
+"summary": [
+"Tetanus prevention เป็นส่วนของ emergent management (p34)",
+"Burn = tetanus-prone wound (ชีท p17)",
+"ประวัติวัคซีนไม่ทราบ/ไม่ครบ 3 เข็ม → toxoid + TIG",
+"ครบแล้วแต่เกิน 5 ปี → toxoid อย่างเดียว"
+]
+},
+"76": {
+"interp": "circumferential full thickness ที่แขน หลังให้น้ำ 6 ชม. แขนตึง eschar แข็ง นิ้วเย็น capillary refill ช้า ชา → ถามหัตถการ",
+"why": "สไลด์หน้า 36: <b>Escharotomy = prevent compartment syndrome in case circumferential burns</b><br>eschar ของ full thickness แข็งไม่ยืด เมื่อให้น้ำแล้วเนื้อใต้ eschar บวม จึงรัดเหมือนสายรัด → ความดันในช่องสูง เลือดไปปลายมือไม่ได้ · ต้องกรีดผ่าน eschar ถึงไขมันตามแนว mid-lateral/mid-medial ทันที (ไม่ต้องดมยาเพราะ eschar ไม่มีความรู้สึก) · ชีทหน้า 16: ระวัง ulnar nerve หลัง medial epicondyle",
+"wrong": {
+"B": "ผิด — พันรัดเพิ่มยิ่งเพิ่มความดันและขาดเลือดมากขึ้น จะถูกถ้าเป็นการพันผ้าหลวม ๆ หลังทายาบนแผลที่ไม่ได้รอบแขน",
+"C": "ผิด — ตัดแขนเหนือศอกเกินจำเป็น มือยังมีชีวิตแค่ขาดเลือดจากการรัด จะถูกถ้าเป็น electrical burn แรงสูงที่กล้ามเนื้อตายทั้งแขนแม้ทำ fasciotomy แล้ว",
+"D": "ผิด — ยกสูงและรอ 24 ชม.ช้าเกินไป นิ้วเย็นชาแล้วต้องคลายทันที จะถูกถ้าแขนบวมเล็กน้อยไม่รัดรอบ ชีพจรและความรู้สึกปลายมือปกติ",
+"E": "ผิด — skin graft ไม่ทำใน ER และไม่ได้แก้การรัด จะถูกถ้าโจทย์ถามการปิดแผลถาวรหลัง excision ของ full thickness"
+},
+"trap": "อาการขาดเลือดปลายมือหลังให้น้ำอาจถูกมองว่าเป็นแค่บวม — circumferential eschar + นิ้วเย็นชา ต้องกรีดทันที",
+"summary": [
+"Escharotomy กัน compartment syndrome ใน circumferential burn (p36)",
+"แขนขา: กรีด mid-lateral/mid-medial ถึงไขมัน",
+"ระวัง ulnar nerve (ศอก) และ common peroneal nerve (หัว fibula) (ชีท p16)",
+"ถ้ายังมี muscle compartment syndrome (electrical) → fasciotomy"
+]
+},
+"77": {
+"interp": "circumferential full thickness ที่อก หลังให้น้ำ peak airway pressure สูง ช่วยหายใจยาก → ถามขั้นต่อไป (chest escharotomy)",
+"why": "สไลด์หน้า 36: <b>Escharotomy = prevent compartment syndrome in case circumferential burns</b><br>eschar รอบอกแข็งไม่ยืด เมื่อบวมหลัง resuscitation อกขยายไม่ได้ compliance ลด → peak pressure สูง ventilate ยาก · ชีทหน้า 16: กรีดตามแนว <b>anterior axillary line ทั้งสองข้าง</b> ลึกตลอด eschar ± ใต้ชายโครง (subcostal) ทั้งสองข้าง ด้วยมีดหรือจี้ไฟฟ้า · ทำทันทีที่ตรวจพบ ก่อนส่งต่อ",
+"wrong": {
+"A": "ผิด — เพิ่ม tidal volume ยิ่งเพิ่ม pressure เสี่ยง barotrauma ไม่แก้สาเหตุ จะถูกถ้าผู้ป่วยไม่มี chest eschar และมี hypoventilation จากการตั้งเครื่องต่ำเกิน",
+"B": "ผิด — ไม่มีหลักฐาน pneumothorax การใส่ chest tube ทั้งสองข้างไม่แก้การรัดจาก eschar จะถูกถ้าลมหายใจข้างหนึ่งหาย trachea เบี้ยว หลังใช้ PEEP สูง",
+"C": "ผิด — หยุดให้น้ำจะทำให้เกิด burn shock แก้การรัดด้วยการกรีด eschar จะถูกถ้าได้น้ำเกินมากจน UO สูงมาก ต้องลดอัตรา (ไม่ใช่หยุด)",
+"D": "ผิด — bronchoscopy ใช้กับเขม่า/เสมหะอุดหลอดลม ไม่แก้ปัญหาที่ผนังอก จะถูกถ้า pressure สูงจาก cast/เสมหะอุดหลอดลมในผู้ป่วย inhalation injury"
+},
+"trap": "peak pressure สูงทำให้คิดถึงปัญหาในปอด (เสมหะ pneumothorax) — circumferential chest eschar เป็นปัญหาที่ผนังอก",
+"summary": [
+"Circumferential chest eschar → อกขยายไม่ได้ ventilate ยาก (p36)",
+"กรีด anterior axillary line ทั้งสองข้าง ± subcostal (ชีท p16)",
+"ทำได้ข้างเตียงไม่ต้องดมยา (eschar ไม่มีความรู้สึก)",
+"ทำทันทีที่ตรวจพบ ก่อนส่งต่อ"
+]
+},
+"78": {
+"notes": "p36: Escharotomy = prevent compartment syndrome in case circumferential burns (รูปกรีดตามแนวแขน/มือ) · ชีท p16: กรีด mid-lateral / mid-medial line",
+"interp": "circumferential full thickness ที่แขน มือเย็น เตรียมทำ escharotomy ข้างเตียง → ถามข้อความที่ถูกต้องเกี่ยวกับหัตถการ",
+"wrong": {
+"A": "ผิด — superficial partial thickness ยืดหยุ่น ไม่ทำให้รัด ไม่ต้องกรีด จะถูกถ้าเป็น deep 2° หรือ 3° ที่รอบแขน (ชีท p16)",
+"B": "ผิด — ไม่กรีดกลางหลังแขนลงถึงเอ็น แนวมาตรฐานคือ mid-lateral/mid-medial และลึกแค่ไขมัน จะถูกถ้าเป็นมือที่ทำ dorsal escharotomy ที่หลังมือ (ไม่ใช่ปลายแขน)",
+"C": "ผิด — escharotomy ต้องทำทันทีที่พบการรัด ไม่ใช่รอ 7 วัน จะถูกถ้าโจทย์ถามช่วงเวลาทำ early excision (มัก 3–7 วัน)",
+"D": "ผิด — escharotomy กรีดแค่ eschar ไม่ต้องเปิด fascia ทุกราย fascia เปิดเมื่อทำ fasciotomy จะถูกถ้ามี muscle compartment syndrome เช่น electrical burn ที่กล้ามเนื้อลึกตาย"
+},
+"trap": "สับสน escharotomy (กรีด eschar ถึงไขมัน) กับ fasciotomy (เปิด fascia) — escharotomy ไม่ต้องลงถึง fascia",
+"summary": [
+"Escharotomy: กรีดผ่าน eschar ถึงไขมัน ไม่ต้องดมยา (p36)",
+"แนว mid-lateral/mid-medial ของแขนขา · มือ dorsal · นิ้ว mid-lateral ด้านไม่หยิบจับ (ชีท p16)",
+"Fasciotomy เมื่อ muscle compartment syndrome (electrical)",
+"ทำได้ด้วยมีดหรือจี้ไฟฟ้า"
+]
+}
+}
