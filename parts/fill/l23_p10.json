@@ -1,0 +1,273 @@
+{
+"143": {
+"interp": "full thickness 20% ที่ลำตัว → ถามเหตุผลที่ต้อง excise + graft แทนรอให้หายเอง",
+"why": "สไลด์หน้า 49: <b>Full thickness — no epithelial elements · scar tissue · granulation · contracture</b> · หน้า 50: <b>to get rid of destroyed skin as quickly as possible · to get the raw area healed by skin grafting</b><br>ไม่มี appendage ผิวจึงงอกจากก้นแผลไม่ได้ ต้องอาศัยการหดและผิวคืบจากขอบซึ่งช้ามาก แผลใหญ่ 20% จะเป็น granulation เปิดนาน ติดเชื้อ เสียโปรตีน และหดรั้งจนพิการ · ชีทหน้า 22: บางแผลไม่ปลูกผิว 15–20 ปีก็ไม่หาย",
+"wrong": {
+"A": "ผิด — full thickness ไม่กลับเป็น partial thickness ความลึกเพิ่มได้แต่ไม่ลดลง จะถูกถ้าโจทย์ถามว่าการติดเชื้อทำให้ partial thickness กลายเป็นอะไร",
+"B": "ผิด — eschar เป็นเนื้อตายที่เชื้อโตได้ดี ไม่ได้กันเชื้อตลอดไป จะถูกถ้าโจทย์ถามว่าสะเก็ดแห้ง (scab) ใน exposure treatment ช่วยกันปนเปื้อนชั่วคราว",
+"D": "ผิด — full thickness ทำแผลอย่างเดียวหายช้ากว่า graft มาก จะถูกถ้าเป็น superficial partial thickness ที่หายเร็วด้วย dressing",
+"E": "ผิด — graft ไม่ได้ทำเพื่อความสวยงามอย่างเดียว แต่เพื่อปิดแผล ลดติดเชื้อ และกัน contracture จะถูกถ้าโจทย์ถามการผ่าตัดแก้แผลเป็นที่หายแล้วเพื่อความสวยงาม"
+},
+"trap": "อาจคิดว่า graft เพื่อความสวยงาม — เหตุผลหลักคือ full thickness ไม่มีแหล่งผิว หายช้ามาก ติดเชื้อ และหดรั้ง",
+"summary": [
+"Full thickness: no epithelial elements → scar, granulation, contracture (p49)",
+"เป้าหมาย: ตัดเนื้อตายเร็ว + skin graft (p50)",
+"Granulation เปิดนาน → ติดเชื้อ เสียโปรตีนและเลือด",
+"ชีท: ไม่ปลูกผิวบางแผล 15–20 ปีไม่หาย"
+]
+},
+"144": {
+"interp": "superficial partial 6% ที่ต้นขา เพื่อนเสนอ early excision → ถามคำตอบที่เหมาะ (ไม่จำเป็น รักษาแบบ conservative)",
+"why": "สไลด์หน้า 54: <b>a. Obviously partial thickness burns: conservative treatment</b> · หน้า 40: <b>If infection can be prevented these will heal spontaneously</b><br>superficial partial ยังมี appendage ครบ หายเองใน 10–14 วันโดยไม่มีแผลเป็น · การตัดออกจะสร้างแผลลึกขึ้นและต้องมี donor site เพิ่มโดยไม่จำเป็น · early excision สงวนไว้สำหรับ full thickness, deep partial ที่ไม่หาย หรือ burn กว้างอันตรายถึงชีวิต (p64)",
+"wrong": {
+"B": "ผิด — เวลาผ่านไป 24 ชม.ไม่ได้ทำให้แผลตื้นกลายเป็นข้อบ่งชี้ excision จะถูกถ้าแผลเป็น full thickness ชัดที่ขอบชัด ≤ 10%",
+"C": "ผิด — ไม่ตัดทุกแผลเพื่อกัน sepsis แผลตื้นกันติดเชื้อด้วย topical จะถูกถ้าเป็น burn ลึกกว้างอันตรายถึงชีวิต (application ข้อ 3)",
+"D": "ผิด — ต้นขาไม่ใช่ตำแหน่งพิเศษ (หน้า มือ เท้า อวัยวะเพศ perineum ข้อ) จะถูกถ้าแผลอยู่ที่เปลือกตาซึ่งเป็น deep partial with special problems",
+"E": "ผิด — partial thickness ส่วนใหญ่หายเอง ไม่ต้องตัดทุกราย จะถูกถ้าเป็น deep partial ปานกลางที่มีหย่อม full thickness (application ข้อ 2)"
+},
+"trap": "แนวปัจจุบันเน้น early excision อาจทำให้ตอบว่าควรตัด — แต่ superficial partial หายเองเสมอถ้ากันติดเชื้อ",
+"summary": [
+"Obviously partial → conservative (p54)",
+"Superficial 2° หายเอง 10–14 วัน ไม่มีแผลเป็น",
+"Early excision: full thickness / deep partial ปานกลาง / burn กว้างอันตราย (p64)",
+"Key ของ partial: กันติดเชื้อ + จัด environment"
+]
+},
+"145": {
+"interp": "เด็ก 9 ปี 30 kg burn 20% แพทย์ใช้สูตร 25 kcal/kg + 40 kcal/% → ถามแนวทางที่ถูก (ใช้ Davies)",
+"why": "สไลด์หน้า 74: <b>Davies formula — Child (up to 50% burns) = 60 kcal/kg + 35 kcal/% burn</b> · หน้า 73: Curreri (25 + 40) ใช้กับผู้ใหญ่<br>60 × 30 + 35 × 20 = 1,800 + 700 = <b>2,500 kcal/วัน</b> · ถ้าใช้ Curreri จะได้ 25 × 30 + 40 × 20 = 1,550 ต่ำไปเกือบ 1,000 kcal เพราะเด็กต้องการพลังงานต่อ kg สูงกว่า (เพื่อการเจริญเติบโต) · ชีทหน้า 31 ใช้ค่าเดียวกัน",
+"wrong": {
+"A": "ผิด — เด็ก burn ก็ hypermetabolic ต้องการพลังงานเพิ่ม จะถูกถ้าเด็กมีแค่ 1° ผิวแดงจากแดดที่ไม่ต้องเพิ่มพลังงาน",
+"C": "ผิด — Parkland เป็นสูตรสารน้ำ ไม่ใช่พลังงาน จะถูกถ้าโจทย์ถามปริมาณ LR ใน 24 ชม.แรกของเด็กคนนี้",
+"D": "ผิด — 25 kcal/kg อย่างเดียวไม่พอและเป็นค่าคงที่ของผู้ใหญ่ จะถูกถ้าโจทย์ถามความต้องการพื้นฐานของผู้ใหญ่ที่ไม่มี burn",
+"E": "ผิด — แพทย์ใช้สูตรผู้ใหญ่กับเด็ก ได้ 1,550 ต่ำเกินไป จะถูกถ้าผู้ป่วยเป็นผู้ใหญ่ 30 kg ที่ใช้ Curreri"
+},
+"trap": "สูตรผู้ใหญ่ (Curreri) ใช้กับเด็กจะได้ค่าต่ำเกิน — เด็กใช้ Davies 60/35",
+"summary": [
+"เด็ก (≤ 50% burn) → Davies 60 kcal/kg + 35 kcal/% (p74)",
+"ผู้ใหญ่ → Curreri 25 kcal/kg + 40 kcal/% (p73)",
+"30 kg 20% → 2,500 kcal (Davies) vs 1,550 (Curreri ผิด)",
+"Enteral feeding เร็ว"
+]
+},
+"146": {
+"interp": "ติดในลิฟต์ที่มีควัน 15 นาที CXR แรกรับปกติ → ถามว่า CXR ปกติตัด inhalation injury ได้ไหม",
+"why": "สไลด์หน้า 29 Diagnosis: History (closed space) · PE · <b>Investigation — Bronchoscopy · Ventilation scanning</b> (ไม่ใช่ CXR)<br>ความเสียหายจาก products of combustion ต่อหลอดลมและถุงลมต้องใช้เวลาหลายชั่วโมงถึงวันจึงเห็นในภาพรังสี CXR แรกรับจึงมักปกติแม้บาดเจ็บรุนแรง · ลิฟต์เป็นที่ปิด เสี่ยงสูง ต้องเฝ้าดู 24–48 ชม. ส่ง COHb และพิจารณา bronchoscopy (ชีทหน้า 12)",
+"wrong": {
+"A": "ผิด — bronchoscopy เป็นการตรวจหลักในการวินิจฉัย ไม่ได้ห้าม จะถูกถ้าโจทย์ถามการตรวจที่ไม่สะดวกในระยะเฉียบพลัน (xenon ventilation scan)",
+"C": "ผิด — CXR ปกติแรกรับไม่ตัดการบาดเจ็บของปอด จะถูกถ้าเป็น CXR ที่ทำซ้ำหลายวันแล้วยังปกติในผู้ป่วยไม่มีอาการ",
+"D": "ผิด — อยู่ในที่ปิดกับควัน 15 นาทีต้องเฝ้าดูอย่างน้อย 24–48 ชม. จะถูกถ้าเป็นการสัมผัสควันเล็กน้อยในที่โล่ง ไม่มีอาการและตรวจปกติ",
+"E": "ผิด — pulse oximetry อ่านหลอกใน CO และไม่บอกการบาดเจ็บของทางเดินหายใจ จะถูกถ้าไม่มี CO และใช้เฝ้า oxygenation ทั่วไปเท่านั้น"
+},
+"trap": "CXR ปกติ + SpO₂ ปกติ ทำให้รู้สึกปลอดภัย — inhalation injury แสดงภาพรังสีช้า ต้องอาศัยประวัติที่ปิด + bronchoscopy",
+"summary": [
+"Inhalation Dx: Hx closed space · PE · bronchoscopy, ventilation scan (p29)",
+"CXR แรกรับมักปกติ",
+"Pulse oximeter หลอกใน CO poisoning",
+"เฝ้าดู 24–48 ชม. (ชีท p12)"
+]
+},
+"147": {
+"interp": "deep partial ที่เปลือกตา ซึ่งที่อื่นรักษาแบบ conservative ได้ → ถามว่าทำไมต้องจัดการต่างออกไป",
+"why": "สไลด์หน้า 59: <b>d. Deep partial thickness burns with special problems</b> · ลายมือ: <b>ปล่อยหายเองได้ → ตาปิด(ไม่สนิท) ∴ อย่าปล่อย : ให้ graft แยกส่วน</b><br>deep partial หายเองได้แต่ช้าและหดรั้ง ในที่อื่นยอมรับได้ แต่เปลือกตาบางและต้องเคลื่อนไหวเพื่อปิดตา การหดทำให้ ectropion/lagophthalmos → corneal exposure เป็นแผลติดเชื้อจนเสียการมองเห็นได้ จึงต้อง graft เร็ว",
+"wrong": {
+"B": "ผิด — exposure อย่างเดียวยังเป็นการปล่อยหายเอง ซึ่งเกิด contracture จะถูกถ้าเป็นแผลตื้นส่วนอื่นของหน้า",
+"C": "ผิด — เปลือกตาถูกนับใน %TBSA เป็นส่วนของศีรษะ และต้องรักษา จะถูกถ้าโจทย์ถามว่า 1° ไม่นับใน %TBSA",
+"D": "ผิด — เปลือกตา graft ได้ (มักใช้ผิวบางจากหลังหู/เปลือกตาอีกข้าง) จะถูกถ้าโจทย์ถามบริเวณที่ graft ไม่ติด เช่น กระดูกเปลือยไม่มีเยื่อหุ้ม",
+"E": "ผิด — deep partial ทุกตำแหน่งหายพร้อมแผลเป็น ไม่ใช่ไม่มี จะถูกถ้าเป็น superficial partial ที่เปลือกตา"
+},
+"trap": "deep partial ที่อื่นหายเองได้ จึงคิดว่าเปลือกตาเหมือนกัน — ตำแหน่งที่การหดรั้งทำให้เสียหน้าที่คือ ‘special problems’",
+"summary": [
+"d. Deep partial with special problems → อย่าปล่อยหายเอง (p59)",
+"เปลือกตาหดรั้ง → ectropion → corneal exposure",
+"Graft แยกส่วน (aesthetic unit)",
+"ตำแหน่งพิเศษอื่นที่ต้องระวัง contracture: มือ ข้อ คอ"
+]
+},
+"148": {
+"interp": "partial thickness รอบแขนและมือทั้งวง → ถามวิธี conservative ที่เหมาะกว่า exposure (dressing)",
+"why": "สไลด์หน้า 62: exposure เหมาะกับ <b>a. single surface burns of trunk and limbs</b>, face, perineum · หน้า 63: <b>Treatment by dressings — mechanical barrier · absorb exudate · vehicle for antibacterial substances</b><br>แผลรอบแขนทั้งวงจะมีด้านที่นอนทับเตียงเสมอ เปิดให้แห้งไม่ได้ทุกด้าน exudate และการกดทับทำให้ติดเชื้อ จึงต้องพันผ้าที่ซับน้ำดีพร้อมยาฆ่าเชื้อ และยกแขนสูง · มือยังต้องขยับได้ระหว่างพันผ้า",
+"wrong": {
+"A": "ผิด — exposure to light เป็นหลักของ exposure treatment ที่ไม่เหมาะกับแผลรอบแขน จะถูกถ้าแผลอยู่ด้านเดียวของหลังหรือหน้า",
+"B": "ผิด — pressure garment ใช้หลังแผลปิด ไม่ใช่แผลเปิด partial thickness จะถูกถ้าแผลที่แขนหายแล้วและต้องกัน hypertrophic scar",
+"D": "ผิด — escharotomy ใช้กับ eschar (deep 2°/3°) ที่รัดรอบวง ไม่ใช่ partial thickness ที่ยืดหยุ่น จะถูกถ้าเป็น circumferential full thickness และนิ้วเย็นชา",
+"E": "ผิด — วางแขนเปิดบนเตียงทำให้ด้านที่ทับเปียกชื้นและปนเปื้อน จะถูกถ้าแผลอยู่ด้านเดียวที่ไม่สัมผัสเตียง"
+},
+"trap": "exposure ใช้กับ ‘single surface’ — แผลรอบวงมีด้านที่ทับเตียงเสมอ จึงต้อง dressing",
+"summary": [
+"Exposure: single surface, หน้า, perineum, แผลใหญ่ซับซ้อน (p62)",
+"Dressing: barrier, absorb exudate, vehicle for antibacterial (p63)",
+"แผลรอบแขน/มือ → dressing + ยกสูง",
+"Deep 2°/3° รอบวงที่รัด → escharotomy"
+]
+},
+"149": {
+"notes": "p21: Adjust infusion rate as necessary to keep urine output — Adults: 30-50 cc/hr · Children: 1.0 cc/Kg/Hr",
+"interp": "ทารก 10 kg burn 20% ปัสสาวะ 6 mL/hr → เทียบเป้า 1 mL/kg/hr (10 mL/hr) แล้วถามว่าต้องทำอะไร",
+"why": "สไลด์หน้า 21: <b>Adjust infusion rate as necessary to keep urine output — Children 1.0 cc/kg/hr</b><br>เป้าของทารก 10 kg = 10 mL/hr · ได้เพียง 6 mL/hr (0.6 mL/kg/hr) = ต่ำกว่าเป้า แปลว่าให้น้ำไม่พอ → <b>เพิ่มอัตราให้ LR</b> แล้วประเมินซ้ำทุกชั่วโมง · ชีทหน้า 6: เป้าเด็ก 1–1.5 mL/kg/hr · เด็กเล็กยังต้องให้ maintenance ที่มี dextrose เพิ่ม เพราะเสี่ยง hypoglycemia",
+"wrong": {
+"B": "ผิด — หยุดน้ำจะทำให้ burn shock รุนแรงขึ้น จะถูกถ้าโจทย์ถามสิ่งที่ห้ามทำในเด็กที่ UO ต่ำ",
+"C": "ผิด — ลดอัตราทำให้ UO ต่ำลงอีก จะถูกถ้า UO สูงเกินเป้ามาก เช่น 30 mL/hr ในทารก 10 kg",
+"D": "ผิด — คงอัตราเดิมไม่ได้เพราะ UO ต่ำกว่าเป้า จะถูกถ้า UO ราว 10–15 mL/hr (1–1.5 mL/kg/hr)",
+"E": "ผิด — furosemide ทำให้ volume ลดในภาวะ hypovolemia จะถูกถ้าเด็กมี fluid overload ชัดในระยะหลังที่ capillary integrity กลับมาแล้ว"
+},
+"trap": "เทียบกับเป้าผู้ใหญ่ 30 mL/hr ก็ต่ำ แต่เหตุผลจริงคือต่ำกว่า 1 mL/kg/hr ของเด็ก (10 mL/hr)",
+"summary": [
+"เป้า UO เด็ก 1 mL/kg/hr (p21) · ชีท 1–1.5 mL/kg/hr",
+"UO ต่ำกว่าเป้า → เพิ่มอัตรา LR",
+"เด็กเล็ก: เพิ่ม maintenance ที่มี dextrose",
+"ไม่ใช้ diuretic ในช่วง resuscitation"
+]
+},
+"150": {
+"interp": "burn 50% เสียน้ำจากแผลเปิดหลายสัปดาห์ → ถามวิธีที่ลดการเสียต่อเนื่องได้ดีที่สุด (ปิดแผลเร็ว)",
+"why": "สไลด์หน้า 2 (Ballingall 1833): ผู้ป่วยทรุดเพราะ <b>exhausted by a profuse discharge of matter from an extensive separating surface</b><br>ต้นเหตุคือพื้นผิวแผลเปิดกว้าง ทางแก้ที่ตรงจุดคือปิดแผลให้เร็วที่สุดด้วย early excision + skin graft (p50, p64) หรือ temporary coverage เช่น allograft ซึ่งลดการเสียน้ำและโปรตีน (ชีทหน้า 28) · ร่วมกับลดการติดเชื้อและ hypermetabolism",
+"wrong": {
+"A": "ผิด — รอ eschar หลุดเอง 2 เดือนทำให้แผลเปิดนาน เสียน้ำ โปรตีน และติดเชื้อมากขึ้น จะถูกถ้าเป็นแนวทาง conservative ดั้งเดิมของแผลผสมที่รอ 14–21 วัน (ไม่ใช่ 2 เดือน)",
+"B": "ผิด — จำกัดการกินทำให้ขาดสารน้ำและอาหาร ยิ่งแย่ จะถูกถ้าผู้ป่วยมี ileus ที่ต้องงดอาหารชั่วคราว",
+"C": "ผิด — diuretic ทำให้ขาดน้ำมากขึ้น ไม่ลดการรั่วจากแผล จะถูกถ้ามี fluid overload ชัดหลังผ่านช่วง resuscitation",
+"E": "ผิด — เปิดแผลให้แห้งยังไม่ปิดผิว เสียน้ำระเหยต่อเนื่อง จะถูกถ้าเป็นแผลตื้นที่หน้า/perineum ที่รักษาแบบ exposure"
+},
+"trap": "การเสียน้ำทำให้คิดถึงการปรับสารน้ำ — ต้นเหตุคือแผลเปิด ทางแก้คือปิดแผลเร็ว",
+"summary": [
+"แผลเปิดกว้าง = เสียน้ำ โปรตีน (p2)",
+"ปิดแผลเร็ว: early excision + graft (p50, p64)",
+"Temporary coverage (allograft, amnion, xenograft) ลดเสียน้ำและโปรตีน (ชีท p28)",
+"ร่วมกับโภชนาการโปรตีนสูง"
+]
+},
+"151": {
+"notes": "p77 Complications: Burn Wound Sepsis · Pulmonary Complications · Suppurative Thrombophlebitis · Gastrointestinal Complications · Orthopedic Complications",
+"interp": "burn 40% เกิดปอดอักเสบวันที่ 7 → ถามข้อความที่ถูก (pulmonary complications เป็นภาวะแทรกซ้อนสำคัญ)",
+"why": "สไลด์หน้า 77 Complications: Burn wound sepsis · <b>Pulmonary complications</b> · Suppurative thrombophlebitis · GI · Orthopedic<br>pneumonia เป็นการติดเชื้อที่พบบ่อยที่สุดใน burn แม้ไม่มี inhalation injury เพราะภูมิคุ้มกันถูกกด (p76) นอนนาน ใส่ท่อช่วยหายใจ และ sepsis จากแผล · ARDS เป็นอีกภาวะสำคัญ · ชีทหน้า 32: ภาวะแทรกซ้อนหลัก = ติดเชื้อ (แผล ปอด suppurative thrombophlebitis)",
+"wrong": {
+"A": "ผิด — pneumonia เกิดได้แม้ไม่มี inhalation injury คำว่า never ผิด จะถูกถ้าโจทย์ถามปัจจัยที่ ‘เพิ่ม’ ความเสี่ยงปอดอักเสบ (inhalation injury)",
+"C": "ผิด — burn กดภูมิคุ้มกัน ไม่ได้เสริม จะถูกถ้าโจทย์ถามการตอบสนองต่อวัคซีนในคนปกติ",
+"D": "ผิด — pneumonia เกิดได้ก่อนผ่าตัด ไม่จำกัดหลัง graft จะถูกถ้าโจทย์ถามภาวะแทรกซ้อนที่เกิดเฉพาะหลังผ่าตัด เช่น graft loss",
+"E": "ผิด — silver topical ใช้บนแผล ไม่ได้รักษาปอดอักเสบ ต้องใช้ systemic antibiotic จะถูกถ้าโจทย์ถามการกันเชื้อบนแผล burn"
+},
+"trap": "คิดว่า pneumonia เกิดเฉพาะคนที่สูดควัน — burn ใหญ่กดภูมิทั้งตัว ปอดอักเสบเกิดได้เสมอ",
+"summary": [
+"Complications: wound sepsis · pulmonary · suppurative thrombophlebitis · GI · orthopedic (p77)",
+"Pneumonia = infection ที่พบบ่อยที่สุดใน burn",
+"Immunosuppression ทุกระดับ (p76)",
+"รักษาด้วย systemic antibiotic ตามเชื้อ"
+]
+},
+"152": {
+"interp": "สารละลาย 0.5% ที่ทำให้ผ้าทำแผลและผิวเป็นสีดำ → ถามชื่อยา (silver nitrate)",
+"why": "สไลด์หน้า 65: Topical antibiotics — silver sulfadiazine · <b>Silver nitrate (0.5% solution)</b> · mafenide · หน้า 66: SSD = <b>nonstaining</b><br>silver nitrate ย้อมผิว ผ้า และสิ่งของเป็นสีน้ำตาลดำ (ชีทหน้า 29) · ข้อเสียอื่น: hypotonic → Na/Cl/K ต่ำ, methemoglobinemia, ต้องราดให้เปียกทุก 2 ชม., penetration ต่ำ → ปัจจุบันไม่นิยม",
+"wrong": {
+"A": "ผิด — mafenide ไม่ย้อมสีดำ เด่นที่ปวดและ metabolic acidosis จะถูกถ้าผู้ป่วยปวดแสบมากและหายใจเร็วจาก acidosis",
+"B": "ผิด — chlorhexidine ไม่ใช่ยาทาแผลไหม้ในสไลด์และไม่ทำให้ดำ จะถูกถ้าโจทย์ถามน้ำยาล้างมือ/เตรียมผิวก่อนผ่าตัด",
+"C": "ผิด — SSD เป็น nonstaining ครีมสีขาว จะถูกถ้าโจทย์ถามยาที่ไม่ย้อมสีและไม่ปวด",
+"E": "ผิด — povidone-iodine ย้อมสีน้ำตาลส้ม ไม่ใช่สารละลาย 0.5% ที่ทำให้ดำ จะถูกถ้าโจทย์ถามน้ำยาฆ่าเชื้อที่ทำให้ผิวเป็นสีน้ำตาลส้ม"
+},
+"trap": "silver ทั้งสองตัวเป็นยาเงิน — SSD ไม่ย้อมสี แต่ silver nitrate ย้อมดำ",
+"summary": [
+"Silver nitrate 0.5%: ย้อมดำ (ชีท p29)",
+"Hypotonic → Na/Cl/K ต่ำ · methemoglobinemia",
+"SSD 1%: nonstaining, minimal pain (p66)",
+"Mafenide: ซึม eschar ดีสุด ปวด acidosis (p67)"
+]
+},
+"153": {
+"interp": "พ่อตั้งเครื่องทำน้ำร้อนที่ 49°C เพื่อความปลอดภัยของลูก → ถามเหตุผลจากตาราง immersion time",
+"why": "สไลด์หน้า 8 Immersion time to produce full-thickness burns: <b>10 minutes → 120 °F</b> (≈ 49 °C) · ขณะที่ 158 °F (70 °C) ใช้เพียง 1 วินาที<br>ที่ 49 °C ต้องสัมผัสราว 10 นาทีจึงเกิด full thickness จึงมีเวลาพอที่ผู้ใหญ่จะช่วยเด็กออกได้ทัน · <b>นอกสไลด์:</b> แนวทางป้องกัน scald ในเด็กแนะนำตั้งเครื่องทำน้ำร้อนไม่เกิน ~49 °C (120 °F) · ชีทหน้า 2: ความลึกขึ้นกับอุณหภูมิ × เวลา",
+"wrong": {
+"A": "ผิด — น้ำร้อนก็ทำให้ full thickness ได้ (scald) ไม่ใช่แค่เปลวไฟ จะถูกถ้าโจทย์ถามว่า burn ชนิดใดเกิดจากเปลวไฟ (flame)",
+"C": "ผิด — 1 วินาทีคือเวลาที่ 158 °F (70 °C) ไม่ใช่ 49 °C จะถูกถ้าเครื่องทำน้ำร้อนตั้งไว้ที่ 70 °C",
+"D": "ผิด — ผิวเด็กบางกว่าผู้ใหญ่ ไหม้ลึกได้ง่ายกว่า จะถูกถ้าโจทย์ถามว่าทำไมผู้สูงอายุและเด็กเล็กไหม้ลึกง่าย (ผิวบาง)",
+"E": "ผิด — 49 °C ไหม้ได้ถ้าสัมผัสนาน (10 นาที) คำว่า cannot ผิด จะถูกถ้าน้ำอุ่นใกล้อุณหภูมิร่างกาย ~37–40 °C"
+},
+"trap": "‘ปลอดภัยกว่า’ ไม่ได้แปลว่าไหม้ไม่ได้ — 49 °C ยังไหม้ได้ใน 10 นาที แค่มีเวลาช่วยทัน",
+"summary": [
+"120 °F (49 °C) → full thickness ใน 10 นาที (p8)",
+"158 °F (70 °C) → 1 วินาที",
+"ตั้งเครื่องทำน้ำร้อนบ้านที่มีเด็กไม่เกิน ~49 °C",
+"Scald ขอบชัดสมมาตร → สงสัย abuse"
+]
+},
+"154": {
+"interp": "LR 2 mL/kg/% ใน 24 ชม.แรก + colloid วันที่ 2 → ถามชื่อสูตร (Modified Brooke)",
+"why": "สไลด์หน้า 20: <b>Modified Brooke — Lactated Ringer's 2 mL/kg/% burn</b> (ไม่มี colloid วันแรก) · second 24 hr: colloid 0.3–0.5 mL/kg/% + glucose in water ปรับตาม UO<br>เทียบ: Brooke = LR 1.5 + colloid 0.5 + D5W 2,000 วันแรก · Parkland = LR 4 mL/kg/% · Evans = NSS 1 + colloid 1 · <b>นอกสไลด์:</b> ABA 2024 แนะนำเริ่ม 2 mL/kg/% (ใกล้ Modified Brooke) แล้ว titrate ตาม UO",
+"wrong": {
+"A": "ผิด — Brooke มี colloid 0.5 mL/kg/% และ D5W 2,000 ตั้งแต่วันแรก LR 1.5 จะถูกถ้าสูตรเป็น LR 1.5 + colloid 0.5 ในวันแรก",
+"C": "ผิด — Parkland ใช้ LR 4 mL/kg/% ไม่ใช่ 2 จะถูกถ้าสูตรเป็น LR 4 mL/kg/% ครึ่งหนึ่งใน 8 ชม.แรก",
+"D": "ผิด — Evans ใช้ NSS 1 + colloid 1 mL/kg/% วันแรก จะถูกถ้าสูตรใช้ NSS และ colloid อย่างละ 1",
+"E": "ผิด — Modified hypertonic (MetroHealth) ใช้ LR + NaHCO₃ 50 mEq ใน 8 ชม.แรก จะถูกถ้าสารน้ำมี Na ราว 180 mEq/L ช่วงแรก"
+},
+"trap": "Brooke กับ Modified Brooke สับสนง่าย — Modified = LR 2 ไม่มี colloid วันแรก · Brooke = LR 1.5 + colloid 0.5",
+"summary": [
+"Modified Brooke: LR 2 mL/kg/% · colloid วันที่ 2 (p20)",
+"Brooke: LR 1.5 + colloid 0.5 + D5W 2,000",
+"Parkland: LR 4 · Evans: NSS 1 + colloid 1",
+"ABA 2024: เริ่ม 2 mL/kg/% แล้ว titrate"
+]
+},
+"155": {
+"interp": "full thickness 4% ที่หลังมือ → ถามการจัดการที่เหมาะ (excise เร็ว + graft)",
+"wrong": {
+"A": "ผิด — รอ eschar หลุด 6 สัปดาห์ที่มือทำให้ติดเชื้อและหดรั้ง เสียหน้าที่มือ จะถูกถ้าเป็นแนวทางเก่าสำหรับ full thickness เล็กที่ผิวยืดหยุ่น เช่น สะโพก",
+"B": "ผิด — SSD กันเชื้อแต่ไม่ทำให้ full thickness หาย จะถูกถ้าเป็น partial thickness ที่มือซึ่งหายเองได้",
+"C": "ผิด — exposure รอหายเองไม่ได้ผลกับ full thickness และมือต้องการผิวยืดหยุ่น จะถูกถ้าเป็นแผลตื้นที่หน้า",
+"E": "ผิด — ตัดมือเกินจำเป็น เนื้อลึกยังดี จะถูกถ้าเป็น electrical burn ที่กล้ามเนื้อและเส้นเอ็นมือตายทั้งหมด"
+},
+"trap": "แผลแค่ 4% ดูเล็ก — แต่ full thickness ที่มือเป็นตำแหน่งพิเศษ ต้องตัดและ graft เร็วกัน contracture",
+"summary": [
+"Full thickness → เอาผิวที่ตายออกเร็ว + skin graft (p50)",
+"มือ = ตำแหน่งพิเศษ (ABA) ต้องส่ง burn center",
+"Janzekovic: early tangential excision ได้ผลดีมากที่หลังมือ (ชีท p25)",
+"หลัง graft: splint ท่า intrinsic-plus + กายภาพเร็ว"
+]
+},
+"156": {
+"interp": "หลังเท้าไหม้ เห็นเส้นดำแตกแขนงใต้ผิวขาวใส ไม่ blanch → ถามว่าบ่งอะไรต่อการรักษา",
+"why": "ลายมือสไลด์หน้า 51: <b>Subdermal vein thrombosis → pathognomonic of full-thickness burn</b> (vein ใต้ dermis เกิด thrombosis → แปลว่า dermis เจ๊ง)<br>บริเวณนี้จึงเป็น full thickness ที่ไม่มี appendage เหลือ หายเองไม่ได้ (นอกจากหดจากขอบ) · ตามหน้า 50 ต้อง <b>get rid of destroyed skin as quickly as possible</b> แล้ว <b>skin grafting</b> · เท้าเป็นตำแหน่งพิเศษที่ควรส่ง burn center",
+"wrong": {
+"A": "ผิด — exposure รอหายเองไม่ได้ผลกับ full thickness จะถูกถ้าเป็นแผลตื้นด้านเดียวที่ลำตัว",
+"B": "ผิด — เส้นเลือดอุดตันใต้ผิวที่ไหม้เป็นผลของ burn ลึก ไม่ใช่ thrombophlebitis ที่ต้องให้ heparin จะถูกถ้าเส้นเลือดผิวที่ขาอักเสบแดงกดเจ็บโดยไม่มี burn",
+"C": "ผิด — full thickness ไม่หายเองใน 2 สัปดาห์ จะถูกถ้าเป็น superficial partial ที่มีตุ่มน้ำ",
+"E": "ผิด — 1° แค่ผิวแดง ไม่มีเส้นเลือดอุดตัน จะถูกถ้าเท้าแดงปวดเล็กน้อยหลังเดินบนพื้นร้อนสั้น ๆ"
+},
+"trap": "เส้นเลือดอุดตันชวนนึกถึงการให้ยาต้านการแข็งตัวของเลือด — ใน burn นี่คือ sign ของ full thickness ที่ต้องผ่าตัด",
+"summary": [
+"Thrombosed subdermal veins = pathognomonic full thickness (p51)",
+"Full thickness → excision + skin graft (p50)",
+"เท้าเป็นตำแหน่งพิเศษ (ABA)",
+"ลักษณะอื่น: ขาวแข็ง ไม่ปวด ไม่ blanch"
+]
+},
+"157": {
+"interp": "burn 50% → ถามการเปลี่ยนแปลงระดับเซลล์ที่เกิดแม้ในเซลล์ห่างจากแผล (Na ในเซลล์เพิ่ม → บวม)",
+"why": "สไลด์หน้า 13 (Baxter &amp; Shires 1968): <b>Burn size &gt; 30% TBSA → decrease in cell transmembrane potential · increase intracellular sodium concentration → cellular swelling → cell death</b><br>เกิดทั่วร่างกาย ไม่เฉพาะเซลล์ที่ถูกไฟ เพราะ Na⁺/K⁺-ATPase ทำงานลด Na และน้ำจึงเข้าเซลล์ · ชีทหน้า 5: เซลล์บวม (ถ้าให้น้ำไม่พอ) + บวมนอกเซลล์ → tissue oxygenation ลด → เนื้อขาดเลือด ติดเชื้อง่าย",
+"wrong": {
+"A": "ผิด — burn > 30% เปลี่ยนแปลงเซลล์ทั่วร่างกาย ไม่ใช่ไม่มีผล จะถูกถ้าเป็น burn เล็กไม่ถึง 30%",
+"C": "ผิด — การเปลี่ยนแปลงไม่จำกัดเฉพาะเซลล์ที่ไหม้และไม่ใช่การเสีย mitochondria จะถูกถ้าโจทย์ถาม zone of coagulation ที่เซลล์ตายทันที",
+"D": "ผิด — membrane potential ลดลง (depolarize) ไม่ใช่ hyperpolarize จะถูกถ้าโจทย์ถามภาวะ hypokalemia ที่ทำให้ hyperpolarization",
+"E": "ผิด — Na ในเซลล์เพิ่มและเซลล์บวม ไม่ใช่ลดและหด จะถูกถ้าโจทย์ถามผลของ hypertonic saline ที่ดึงน้ำออกจากเซลล์"
+},
+"trap": "‘ห่างจากแผล’ ทำให้คิดว่าไม่มีผล — burn ใหญ่เปลี่ยนแปลงเซลล์ทั่วร่างกาย",
+"summary": [
+"Burn > 30% → ↓ membrane potential + ↑ intracellular Na → cell swelling → death (p13)",
+"เกิดแม้ในเซลล์ที่ไม่ถูกไฟ",
+"Burn > 25% → capillary leak ทั้งตัว (p11)",
+"เหตุผลที่สูตรสมัยก่อนเน้น Na"
+]
+},
+"158": {
+"interp": "burn 55% ใกล้ชม.ที่ 12 ต้องการน้ำเพิ่มขึ้น → ถามว่าควรพิจารณา colloid เมื่อใด (ตอนนี้ ชม. 8–24)",
+"wrong": {
+"B": "ผิด — burn > 40–50% ไม่ต้องรอ 48 ชม. พิจารณาเริ่มได้ตั้งแต่ชม. 8–24 จะถูกถ้าเป็น burn ขนาดกลางที่ไม่มีปัจจัยเสี่ยง (ปกติเริ่มวันที่ 2)",
+"C": "ผิด — inhalation injury เป็นเหตุผล ‘เพิ่ม’ ให้เริ่ม colloid เร็ว ไม่ใช่ข้อห้าม จะถูกถ้าข้อความกลับเป็น ‘รวมถึงผู้ที่มี inhalation injury’",
+"D": "ผิด — หลัง 72 ชม.เป็นช่วง maintenance แล้ว จะถูกถ้าโจทย์ถามว่าวันที่ 3 เปลี่ยนเป็นอะไร (maintenance/enteral)",
+"E": "ผิด — UO สูงแปลว่าน้ำพอ ไม่ใช่ข้อบ่งชี้ colloid จะถูกถ้าโจทย์ถามสัญญาณให้ลดอัตรา crystalloid"
+},
+"summary": [
+"Burn > 40–50%, inhalation, โรคหัวใจ–ปอด → colloid เร็ว ชม. 8–24 (p22)",
+"ปกติเริ่ม 5% albumin วันที่ 2: 0.3–1.0 mL/kg/% ÷ 16",
+"ABA 2024: albumin ช่วยลดปริมาณน้ำ กัน fluid creep",
+"Albumin ให้คงที่ ไม่ปรับตาม UO"
+]
+}
+}
