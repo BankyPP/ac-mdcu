@@ -1,0 +1,165 @@
+{
+"MDCU72|RoA|34": {
+ "wrong": {
+  "A": "ข้อความนี้ \"ถูก\" (เป็น complication จริง): L→R shunt ขนาดใหญ่ (VSD, PDA) → pulmonary overcirculation + volume overload ของ LA/LV → congestive heart failure ตั้งแต่ช่วงขวบปีแรก (เหนื่อยตอนดูดนม เหงื่อออก โตช้า) · จะเป็นคำตอบถ้าโจทย์ถามภาวะแทรกซ้อนที่พบเร็วที่สุดของ VSD ขนาดใหญ่",
+  "B": "ข้อความนี้ \"ถูก\": jet ความเร็วสูงผ่าน defect (โดยเฉพาะ restrictive VSD, PDA) ทำ endothelium บาดเจ็บ → infective endocarditis/endarteritis ได้ตลอดชีวิตถ้ายังไม่ปิด · จะเป็นคำตอบถ้าโจทย์ถามว่า small VSD ที่ไม่มีอาการยังมีความเสี่ยงอะไรอยู่",
+  "D": "ข้อความนี้ \"ถูก\": pulmonary blood flow สูงนาน → pulmonary vascular remodeling → PVR สูงกว่า SVR → shunt กลับเป็น R→L (Eisenmenger syndrome) · จะเป็นคำตอบถ้าโจทย์ถามผลระยะยาวของ L→R shunt ที่ไม่ได้รับการปิด",
+  "E": "ข้อความนี้ \"ถูก\": เมื่อเกิด Eisenmenger → เลือดดำไหลลัด → central cyanosis, clubbing, polycythemia (PDA จะเป็น differential cyanosis ขาเขียวกว่ามือ) · จะเป็นคำตอบถ้าโจทย์ถามอาการที่บอกว่า shunt กลับทางแล้วและผ่าตัดปิดไม่ได้"
+ },
+ "trap": "ข้อ NOT: L→R shunt ทำให้ pulmonary artery \"โต/หนา\" (dilatation, PAH) ไม่ใช่ hypoplasia — hypoplasia ของ PA เป็นของ R→L lesion ที่เลือดไปปอดน้อย (TOF, pulmonary atresia) · ลายมือ P'Ing แก้ hypoplasia → hyperplasia เพื่อย้ำว่าตรงข้ามกัน · cyanosis ไม่ใช่ลักษณะแรกของ L→R แต่เป็น complication ระยะท้าย (Eisenmenger) จึงยังถือว่า \"ใช่\""
+},
+"MDCU72|RoA|11": {
+ "wrong": {
+  "A": "Alpha-blocker (tamsulosin) ลด tone ของ prostate/bladder neck รักษา LUTS จาก BPH แต่ในรายนี้ DRE คลำได้ nodule แข็ง = สงสัยมะเร็ง ต้องวินิจฉัยก่อน การให้ยารักษาอาการอย่างเดียวทำให้ delay diagnosis · จะถูกถ้า DRE เป็น smooth, rubbery, symmetric enlargement และ PSA เหมาะกับขนาดต่อม (BPH ล้วน)",
+  "B": "Combination alpha-blocker + 5-ARI (finasteride/dutasteride) ใช้ใน BPH ต่อมใหญ่ (>30–40 mL หรือ PSA >1.5) เพื่อลดความเสี่ยง retention/การผ่าตัด แต่ 5-ARI ลด PSA ราวครึ่งหนึ่ง อาจบดบังมะเร็ง · จะถูกถ้าเป็น BPH ต่อมใหญ่ที่ rule out มะเร็งแล้ว มีอาการปานกลาง–รุนแรง",
+  "C": "Antiandrogen/ADT เป็นการรักษามะเร็งต่อมลูกหมากระยะลุกลาม/แพร่กระจาย ต้องมีผลชิ้นเนื้อยืนยันก่อน ไม่ให้แบบ empirical · จะถูกถ้ามี tissue diagnosis แล้วเป็น metastatic (bone scan/PSMA PET บวก) หรือ locally advanced ร่วมกับ RT",
+  "E": "Radical prostatectomy เป็นการรักษาหายขาดของ localized prostate cancer ในผู้ที่ life expectancy >10 ปี แต่ยังไม่มี diagnosis/grade/stage จะผ่าตัดไม่ได้ · จะถูกถ้า biopsy ยืนยัน ISUP grade group 2–3 localized และผู้ป่วยแข็งแรง"
+ },
+ "why": "DRE ผิดปกติ (คลำได้ nodule แข็ง, asymmetry, ขอบไม่ชัด) เป็นข้อบ่งชี้ทำ prostate biopsy \"ด้วยตัวเอง\" ไม่ว่า PSA จะเท่าใด เพราะมะเร็งต่อมลูกหมากประมาณ 20–25% มี PSA < 4 ng/mL และมะเร็งเกิดใน peripheral zone ซึ่งเป็นส่วนที่คลำได้ทางทวารหนัก · แนวทางปัจจุบัน (EAU/AUA): ทำ mpMRI ก่อน แล้ว MRI-targeted + systematic biopsy (transperineal ลดติดเชื้อ) · คีย์ลายมือ P'Ing วง D \"ถ้า DRE ผิดปกติต้อง bx เลย ต้อง R/O CA\" · การรักษา LUTS ด้วยยาทำหลังจาก rule out มะเร็งแล้ว",
+ "trap": "อย่าให้ PSA 3.5 (ต่ำกว่า cut-off 4) หลอกว่าปลอดภัย — DRE ผิดปกติชนะ PSA · และอย่ารีบรักษา LUTS ตามอาการ (A/B) เพราะคำว่า hard nodule = มะเร็งจนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · 5-ARI ยังทำให้ PSA ลดลงครึ่งหนึ่ง แปลผลยากขึ้น",
+ "summary": [
+  "ข้อบ่งชี้ prostate biopsy: DRE ผิดปกติ (ไม่ขึ้นกับ PSA) หรือ PSA สูง/PSA velocity เร็ว/PSA density > 0.15",
+  "แนวทางปัจจุบัน: mpMRI (PI-RADS) ก่อน → targeted + systematic biopsy · transperineal ติดเชื้อน้อยกว่า transrectal",
+  "BPH: nodular hyperplasia ที่ transition zone (DRE นุ่ม rubbery) · มะเร็ง: peripheral zone (DRE แข็ง nodular)",
+  "ผล biopsy → Gleason/ISUP grade group + stage (PSMA PET/bone scan) → active surveillance / RP / RT / ADT"
+ ]
+},
+"MDCU72|RoA|17": {
+ "wrong": {
+  "A": "Brain abscess ที่ occipital lobe จะมีไข้ ปวดหัว และ focal sign ตามตำแหน่ง คือ homonymous hemianopia (ลานสายตาขาดครึ่งซีก) มักเป็นไม่กี่วัน–สัปดาห์ · รายนี้ไม่มีไข้ ไม่มี visual field defect และเป็นนาน 2 เดือน · จะถูกถ้ามีไข้ มีแหล่งติดเชื้อ (sinusitis, cyanotic heart disease) + hemianopia + ring-enhancing lesion",
+  "B": "Cerebellar tumor ทำ ↑ICP จาก obstructive hydrocephalus (กด 4th ventricle) ได้ แต่ต้องมี cerebellar sign เช่น ataxia, dysmetria, nystagmus, intention tremor ซึ่งโจทย์บอกชัดว่าไม่มี · จะถูกถ้าเดินเซ ทดสอบ finger-to-nose ผิดปกติ ร่วมกับปวดหัวตอนเช้าและอาเจียน",
+  "C": "Frontal meningioma โตช้า ทำบุคลิกเปลี่ยน disinhibition apathy ปัสสาวะราด หรือถ้าอยู่ olfactory groove จะ anosmia + Foster Kennedy syndrome (optic atrophy ข้างหนึ่ง papilledema อีกข้าง) · รายนี้ไม่มี focal/frontal sign · จะถูกถ้าผู้หญิงวัยกลางคนมีบุคลิกเปลี่ยน ดมกลิ่นไม่ได้ และ CT เห็น dural-based enhancing mass",
+  "D": "Ruptured AVM มาแบบเฉียบพลัน (thunderclap headache, ชัก, focal deficit จาก ICH/SAH) ไม่ใช่ปวดหัวค่อยเป็นค่อยไป 2 เดือน · จะถูกถ้าคนอายุน้อยปวดหัวรุนแรงทันที หมดสติหรือชัก และ CT เห็น lobar hemorrhage"
+ }
+},
+"MDCU72|RoA|89": {
+ "wrong": {
+  "A": "Vascular malformation (venous/arteriovenous malformation) เป็นคนละโรค encephalocele ไม่ได้เป็นความผิดปกติของหลอดเลือด จึงไม่ใช่พยาธิสภาพหลักหรืออันตรายหลักของ FEEM · จะถูกถ้าโจทย์เป็นก้อนสีแดง/ม่วงที่หน้าผากยุบตามแรงกดและโตขึ้นช่วงขวบปีแรก (infantile hemangioma) หรือ sinus pericranii",
+  "B": "Defect ของ frontal–ethmoid bone เป็น \"ตัวพยาธิสภาพ\" (ช่องที่เนื้อสมองยื่นออกมา) ไม่ใช่ \"อันตราย\" ของโรค — กระดูกที่ขาดไม่ได้ทำให้ผู้ป่วยแย่โดยตรง · จะถูกถ้าโจทย์ถามว่ากลไก/anatomy ของ frontoethmoidal encephalomeningocele คืออะไร",
+  "D": "↑ICP ไม่ใช่ลักษณะหลัก เพราะ defect เปิดอยู่ทำหน้าที่เป็นทางระบาย และสมองที่ยื่นออกไปไม่ได้เบียดในกะโหลก (hydrocephalus พบร่วมได้บางราย แต่ไม่ใช่อันตรายหลัก) · จะถูกถ้าเป็น posterior (occipital) encephalocele ขนาดใหญ่ร่วมกับ hydrocephalus หรือเนื้องอกในสมอง",
+  "E": "Premature suture closure = craniosynostosis ทำรูปกะโหลกผิดรูป (scaphocephaly, plagiocephaly) และอาจมี ↑ICP เป็นคนละโรคกับ encephalocele · จะถูกถ้าเด็กมีศีรษะยาวหน้า-หลัง/แบนข้างเดียว และคลำได้สันกระดูกตามแนว suture"
+ },
+ "trap": "อย่าเลือก B เพราะเห็นคำว่า frontal–ethmoid ตรงกับชื่อโรค — โจทย์ถาม \"อันตราย\" ไม่ใช่ \"พยาธิสภาพ\" · อันตรายจริงคือเนื้อสมองที่ยื่นออกมาถูกรัด/บาดเจ็บ/ขาดเลือด (incarceration) + CSF leak → meningitis · FEEM พบมากในไทย/เอเชียตะวันออกเฉียงใต้ อย่าสับสนกับ nasal glioma (ไม่มีทางติดต่อกับ subarachnoid space)"
+},
+"MDCU72|RoA|ไม่มีเลข 1": {
+ "wrong": {
+  "A": "Chronic urinary retention เกิดจาก detrusor underactivity/areflexia ในรอยโรค sacral cord (S2–S4), conus medullaris, cauda equina หรือ peripheral neuropathy (DM) — ลายมือ P'Ing: injury T12 ลงไป · จะถูกถ้าโจทย์เป็นเบาหวานนาน, cauda equina syndrome หรือหลังผ่าตัด APR/radical hysterectomy",
+  "C": "Recurrent UTI เป็นผลแทรกซ้อนของ neurogenic bladder ที่มี residual urine สูงหรือต้องสวนปัสสาวะ ไม่ใช่ \"ชนิด\" ของ bladder dysfunction ที่จำเพาะต่อ Parkinson · จะถูกถ้าโจทย์ถามภาวะแทรกซ้อนของ spinal cord injury ที่ใช้ CIC หรือ retention เรื้อรัง",
+  "D": "Stress incontinence เกิดจาก urethral hypermobility/intrinsic sphincter deficiency (คลอดลูกหลายคน วัยหมดประจำเดือน หลัง prostatectomy) ปัสสาวะเล็ดเวลาไอจาม ไม่ใช่กลไกจากสมอง · จะถูกถ้าผู้หญิงคลอดทางช่องคลอดหลายครั้ง ปัสสาวะเล็ดเวลาไอ/ยกของ",
+  "E": "Vesicoureteral reflux พบใน high-pressure bladder จาก DSD (suprasacral spinal cord injury, myelomeningocele) หรือ primary VUR ในเด็ก ไม่ใช่ลักษณะของ Parkinson ที่ bladder pressure ไม่สูงเรื้อรัง · จะถูกถ้าเด็ก spina bifida มี bladder ความดันสูง trabeculated + hydronephrosis"
+ },
+ "trap": "แบ่งตามตำแหน่งรอยโรค 3 ระดับ: suprapontine (Parkinson, stroke, dementia, frontal tumor) → OAB + sphincter ประสานงานปกติ · suprasacral spinal (SCI เหนือ T12, MS) → detrusor overactivity + DSD → ความดันสูง ไตเสีย · sacral/infrasacral → areflexic → retention · อย่าเลือก retention เพียงเพราะผู้ป่วย PD สูงอายุ (ถ้า retention ให้นึกถึง BPH หรือยา anticholinergic)"
+},
+"MDCU72|RoA|86@p31": {
+ "wrong": {
+  "A": "Simple interrupted เย็บง่าย ปรับ tension ทีละปม แต่ปมที่ขึ้นทั้งสองฝั่งดึงขอบแผลด้วยแรงตรง ๆ และรัด dermal plexus ทั้งสองขอบ ในแผลที่เลือดมาเลี้ยงน้อยเสี่ยงขอบตาย (ลายมือ: tension ↑) · จะถูกถ้าเป็นแผลทั่วไปเลือดเลี้ยงดี ต้องการระบายหนองระหว่างปม หรือแผลปนเปื้อน",
+  "B": "Vertical mattress (far-far-near-near) ให้ wound eversion ดีมากและลด dead space แต่รัดเนื้อเยื่อเป็นวงกว้างตั้งฉากกับขอบแผล ตัดเลือดที่มาเลี้ยงขอบ (ลายมือ: cut blood supply) · จะถูกถ้าแผลที่ขอบชอบม้วนเข้า (inversion) เช่น ฝ่ามือ หลังคอ ที่เลือดเลี้ยงดี",
+  "D": "Simple continuous เย็บเร็ว กระจาย tension แต่เส้นด้ายวิ่งต่อเนื่องรัดขอบแผลทั้งแนว ลายมือระบุว่าตัด blood supply มากสุด และถ้าขาดหนึ่งจุดจะคลายทั้งแนว · จะถูกถ้าแผลยาวตรง เลือดเลี้ยงดี tension ต่ำ ต้องการความเร็ว เช่น ปิดหนังศีรษะ",
+  "E": "Continuous locking (blanket stitch) ล็อกทุกปมให้ห้ามเลือดดีมาก แต่รัดเนื้อเยื่อแน่นที่สุด จึงยิ่งทำให้ขอบแผลขาดเลือด · จะถูกถ้าต้องการ hemostasis ของแผลที่เลือดออกมาก เช่น หนังศีรษะที่เลือดซึม หรือ anastomosis บางชนิด"
+ },
+ "trap": "อย่าเลือก vertical mattress เพราะจำว่า \"ดีที่สุดเรื่อง eversion\" — eversion ไม่ใช่ปัญหาในโจทย์ ปัญหาคือ blood supply · half-buried (tip stitch/three-point corner stitch) ด้ายผ่านเฉพาะ dermis ของขอบที่เปราะบาง ไม่ทะลุผิวหนังด้านนั้น จึงไม่รัด subdermal plexus · ยิ่งเย็บแบบต่อเนื่องหรือล็อก ยิ่งขาดเลือดมาก",
+ "summary": [
+  "Half-buried horizontal mattress: ใช้กับ flap tip/มุม V-Y/ขอบที่เลือดเลี้ยงน้อย เพราะไม่รัด dermal plexus ฝั่งนั้น",
+  "Vertical mattress: eversion ดี ลด dead space แต่รัดเลือดมาก · horizontal mattress: กระจาย tension ห้ามเลือดได้",
+  "Continuous: เร็วแต่ขาดหนึ่งจุดคลายทั้งแนว · Locking: ห้ามเลือดดีสุดแต่ขาดเลือดมากสุด",
+  "แผลเลือดเลี้ยงน้อย: debride ให้ดี ลด tension (undermine) เย็บหลวม ๆ หลีกเลี่ยงปมแน่น"
+ ]
+},
+"MDCU72|RoA|43": {
+ "wrong": {
+  "A": "Aortic arch (รวม great vessel origin) เป็นตำแหน่งบาดเจ็บที่พบได้แต่น้อยกว่า isthmus มาก เพราะส่วน arch ไม่มีจุดยึดตายตัวที่เกิด shearing force · จะถูกถ้าโจทย์ถามตำแหน่งบาดเจ็บของ innominate artery จาก compression ระหว่าง sternum–spine",
+  "B": "Mid descending aorta ถูกยึดกับ vertebra ด้วย intercostal artery แต่ไม่มีจุดเปลี่ยนจากส่วนเคลื่อนที่ได้เป็นส่วนยึดตายตัว จึงพบบาดเจ็บน้อย · จะถูกถ้าเป็น penetrating injury หรือ thoracic spine fracture ที่ชิ้นกระดูกทิ่มหลอดเลือด",
+  "C": "Ascending aorta บาดเจ็บได้ (ราว 5–10% ในศพ) จากแรงกดหน้าอกตรงและ torsion ของหัวใจ แต่ส่วนใหญ่เสียชีวิตที่เกิดเหตุจาก tamponade/exsanguination จึงพบน้อยในผู้ที่มาถึงโรงพยาบาล (ลายมือ: ร้อยละน้อย) · จะถูกถ้าโจทย์ถามตำแหน่งที่พบบ่อยใน autopsy series ร่วมกับ cardiac injury",
+  "D": "เหนือ diaphragm (aortic hiatus) มีจุดยึดเช่นกัน แต่พบบาดเจ็บน้อยกว่า isthmus มาก · จะถูกถ้าโจทย์บรรยาย severe deceleration ร่วมกับ diaphragmatic rupture/thoracolumbar fracture แล้ว CTA เห็น injury ที่ distal descending aorta"
+ },
+ "trap": "อย่าเลือก ascending aorta เพราะนึกถึง aortic dissection type A (ที่เป็น spontaneous ไม่ใช่ trauma) · blunt aortic injury = isthmus ซึ่งอยู่ distal ต่อ left subclavian artery ตรงที่ ligamentum arteriosum ยึด (ส่วน arch เคลื่อนที่ได้ ส่วน descending ยึดกับกระดูกสันหลัง → shear force ที่รอยต่อ)",
+ "summary": [
+  "Blunt thoracic aortic injury: ~90% ที่ isthmus (distal ต่อ left subclavian, ligamentum arteriosum) จากแรง deceleration",
+  "CXR: widened mediastinum > 8 cm, obscured aortic knob, left apical cap, trachea/NG tube เบี้ยวขวา, left main bronchus ถูกกดลง, left hemothorax",
+  "Dx: CT angiography chest (gold standard ปัจจุบัน) · ผู้ป่วยส่วนใหญ่ที่มีชีวิตมาถึงคือ contained rupture (pseudoaneurysm)",
+  "Rx: anti-impulse (β-blocker ให้ HR < 80, SBP < 100) → TEVAR เป็นหลักแทน open repair · จัดการ injury ที่อันตรายกว่า (bleeding ช่องท้อง/สมอง) ก่อน"
+ ]
+},
+"MDCU72|RoA|8": {
+ "interp": "โจทย์ให้เลือกข้อความที่ถูกเกี่ยวกับ RCC: ต้องรู้ว่า RCC มาจาก proximal tubule, ส่วนใหญ่ incidental, ดื้อเคมีบำบัด, ผ่าตัดได้โดยไม่ต้อง biopsy และ ESRD/acquired cystic kidney disease เป็น risk factor",
+ "wrong": {
+  "A": "Hematuria เป็นอาการของ RCC ได้ แต่ปัจจุบันอาการที่พบบ่อยที่สุดคือไม่มีอาการ (incidental จาก US/CT > 50%) · classic triad (hematuria, flank pain, mass) พบ < 10% และมักบ่งว่าเป็นระยะท้าย (ลายมือ: hematuria = too late, painless hematuria = TCC) · จะถูกถ้าโจทย์ถาม \"most common symptom\" ในยุคก่อนมี imaging หรือถามถึง urothelial carcinoma",
+  "B": "RCC (โดยเฉพาะ clear cell) ดื้อต่อ cytotoxic chemotherapy และ radiotherapy ค่อนข้างมาก (มี MDR pump) · การรักษา metastatic ใช้ immunotherapy (nivolumab, pembrolizumab) + TKI (axitinib, cabozantinib) · จะถูกถ้าโจทย์ถาม Wilms tumor หรือ testicular germ cell tumor ที่ chemosensitive สูง",
+  "C": "RCC มาจาก epithelium ของ proximal convoluted tubule (clear cell, papillary) / collecting duct (chromophobe, oncocytoma) ไม่ใช่ transitional epithelium · จะถูกถ้าโจทย์ถาม urothelial (transitional cell) carcinoma ของ renal pelvis/ureter ที่ทำ painless gross hematuria และ filling defect",
+  "E": "ไม่จำเป็นต้องมี tissue diagnosis ก่อนผ่าตัด — CT/MRI เห็น solid mass ที่ enhance (> 15–20 HU) หรือ Bosniak III–IV ก็ทำ partial/radical nephrectomy ได้เลย เพราะผล biopsy ส่วนใหญ่ไม่เปลี่ยนการรักษา · จะถูกถ้าจะทำ ablation/active surveillance, สงสัย lymphoma/metastasis/abscess หรือ metastatic disease ก่อนให้ systemic therapy"
+ },
+ "trap": "ESRD/dialysis นาน → acquired cystic kidney disease → RCC เพิ่มขึ้นหลายเท่า (ควร surveillance) · อย่าสับสน hematuria: painless gross hematuria ในผู้สูงอายุสูบบุหรี่ = urothelial (TCC) ก่อน · คีย์ลายมือ P'Ing เน้นว่า RCC ส่วนใหญ่ asymptomatic และไม่ต้อง biopsy ก่อนผ่าตัด",
+ "summary": [
+  "RCC risk: smoking, obesity, HT, ESRD/acquired cystic disease, VHL (clear cell, bilateral, อายุน้อย), tuberous sclerosis",
+  "อาการ: ส่วนใหญ่ incidental · triad < 10% · paraneoplastic: polycythemia (EPO), hypercalcemia (PTHrP), HT (renin), Stauffer syndrome",
+  "Dx: CT enhancement → partial nephrectomy (T1a) / radical nephrectomy · biopsy เฉพาะบางกรณี · ระวัง IVC tumor thrombus, left varicocele ไม่ยุบเมื่อนอน",
+  "Metastatic: immunotherapy + TKI · RCC ดื้อ chemo/RT · cytoreductive nephrectomy ในบางราย"
+ ],
+ "why": "RCC พบมากขึ้นในผู้ป่วย ESRD โดยเฉพาะที่ฟอกไตนาน > 3 ปี เพราะเกิด acquired cystic kidney disease (ACKD) ซึ่งเป็น precursor ของ RCC (ราว 3–7 เท่าของคนทั่วไป, ชนิด ACKD-associated RCC/papillary) · ข้ออื่นผิด: RCC ส่วนใหญ่ incidental ไม่ใช่ hematuria, ดื้อ chemotherapy, มาจาก proximal tubule ไม่ใช่ transitional epithelium และ enhancing renal mass บน CT ผ่าตัดได้เลยไม่ต้อง biopsy · คีย์ลายมือ P'Ing วง D และขีด A, E ไว้ชัด"
+},
+"MDCU72|RoA|1": {
+ "wrong": {
+  "B": "การทำ VCUG ซ้ำเป็นหัตถการที่ต้องสวนปัสสาวะ มีรังสี และเด็กเจ็บ เมื่อ VCUG ยืนยันว่าไม่มี reflux แล้วไม่จำเป็นต้องทำซ้ำ ติดตามด้วย US ไต/อาการ UTI และ DMSA ถ้าสงสัย scar (ลายมือ: F/U ด้วย U/S, DMSA) · จะถูกถ้ายังมี reflux เหลืออยู่ระหว่างให้ prophylaxis และต้องประเมินการหายเป็นระยะ (ทุก 12–24 เดือน)",
+  "C": "Endoscopic injection (Deflux/dextranomer-hyaluronic acid ใต้ ureteric orifice) เป็นการรักษา VUR ที่ยังมีอยู่ ในรายนี้ reflux หายแล้วจึงไม่มีอะไรให้แก้ · จะถูกถ้ามี breakthrough febrile UTI ระหว่าง prophylaxis ใน VUR grade II–IV หรือผู้ปกครองไม่ต้องการกินยานาน",
+  "D": "ไม่มีเหตุผลต้องให้ยาถึงอายุ 5 ขวบเมื่อ reflux หายแล้ว การให้ยานานเพิ่มเชื้อดื้อยาและผลข้างเคียงโดยไม่มีประโยชน์ (ลายมือ: ไม่ใช้ ATB > 2 yrs ถ้าดีขึ้นแล้ว) · จะถูกถ้า VUR ยังมีอยู่ และเด็กยังไม่ toilet trained หรือมี bladder-bowel dysfunction ร่วม",
+  "E": "Ureteric reimplantation (Cohen, Politano-Leadbetter) ใช้กับ VUR grade สูงที่ไม่หาย, breakthrough UTI ซ้ำ หรือมี new renal scar · ในรายนี้ reflux หายเอง ผ่าตัดจึงไม่มีข้อบ่งชี้ · จะถูกถ้า VUR grade IV–V ที่คงอยู่ร่วมกับ febrile UTI ซ้ำแม้ได้ prophylaxis หรือ DMSA พบ scar ใหม่"
+ },
+ "why": "VUR ในเด็กมีโอกาสหายเอง (spontaneous resolution) เมื่อ intravesical ureter ยาวขึ้นตามการเจริญเติบโต โดย grade ต่ำหายได้บ่อยกว่า grade สูง · เป้าหมายของ continuous antibiotic prophylaxis (CAP เช่น TMP-SMX, nitrofurantoin) คือป้องกัน febrile UTI และ renal scar ระหว่างรอให้ reflux หาย · เมื่อ VCUG ซ้ำไม่พบ reflux แล้ว และไม่มี UTI 2 ปี → หยุด prophylaxis ได้ แล้วติดตามอาการ UTI + US ไต (DMSA ถ้าสงสัย scar) · คีย์ลายมือ P'Ing วง A \"spontaneous resolution, prevent infection\"",
+ "trap": "อย่าเลือก D/B เพราะคิดว่า grade 4 รุนแรงต้องระวังมากไว้ก่อน — grade ที่ใช้ตัดสินคือ ณ ปัจจุบัน ซึ่ง VCUG ไม่มี reflux แล้ว · การผ่าตัด/endoscopic injection ใช้กับ reflux ที่ยังคงอยู่และมี breakthrough UTI เท่านั้น · ระวัง bladder-bowel dysfunction (ท้องผูก กลั้นปัสสาวะ) ที่ทำให้ UTI กลับมาแม้ reflux หาย"
+},
+"MDCU72|RoA|58": {
+ "wrong": {
+  "A": "ข้อความนี้ \"ถูก\": Fournier gangrene คือ necrotizing fasciitis ของ perineum, genitalia และ perianal เป็น polymicrobial (type I: aerobe + anaerobe) ลุกลามตาม fascial plane (Colles' → Scarpa's fascia) · จะเป็นคำตอบถ้าโจทย์ถามนิยาม",
+  "B": "ข้อความนี้ \"ถูก\": DM เป็น risk factor ที่พบบ่อยที่สุด (40–60%) ร่วมกับ alcoholism, immunosuppression, obesity, HIV · จะเป็นคำตอบถ้าโจทย์ถามโรคประจำตัวที่พบบ่อยที่สุดในผู้ป่วย Fournier",
+  "C": "ข้อความนี้ \"ถูก\": ถ้าเนื้อตายลามถึง anal sphincter หรือแผลใหญ่ใกล้ทวารปนเปื้อนอุจจาระตลอด → ทำ diverting colostomy เพื่อให้แผลหาย (ปัจจุบันบางที่ใช้ fecal management system แทน) · จะเป็นคำตอบถ้าโจทย์ถามการจัดการแผลที่ปนเปื้อนอุจจาระซ้ำ",
+  "D": "ข้อความนี้ \"ถูก\": ให้ empirical broad-spectrum antibiotic ทันที (เช่น piperacillin-tazobactam/carbapenem + clindamycin ยับยั้ง toxin ± vancomycin) พร้อม resuscitation และนำไป radical debridement ด่วน (ลายมือ: empiric ทันที) · จะเป็นคำตอบถ้าโจทย์ถามการรักษาเบื้องต้นที่ต้องทำพร้อมกัน"
+ },
+ "trap": "ข้อ wrong/EXCEPT: แหล่งที่พบบ่อยที่สุดคือ anorectal infection (perianal/ischiorectal abscess) รองลงมาคือ genitourinary (urethral stricture, การสวนปัสสาวะ) และผิวหนัง — anal cancer เป็นสาเหตุที่พบได้น้อย · อย่าสับสนกับข้อเดียวกันใน 71A เลข 89 · การรักษาหลักคือ debridement ไม่ใช่ยาอย่างเดียว",
+ "summary": [
+  "Fournier = necrotizing fasciitis ของ perineum/genitalia: polymicrobial, ลามเร็วตาม fascial plane, อัตราตาย 20–40%",
+  "Source: anorectal > genitourinary > skin · Risk: DM, alcohol, immunosuppression, obesity",
+  "Clue: ปวดมากเกินกว่าที่เห็น, crepitus, ผิวคล้ำ/bullae, septic shock · LRINEC score ช่วยได้แต่ห้าม delay การผ่าตัด",
+  "Rx: resuscitation + broad-spectrum ATB + radical debridement ซ้ำทุก 24–48 ชม. ± colostomy/suprapubic cystostomy · อัณฑะมักรอดเพราะเลือดมาจาก testicular artery"
+ ]
+},
+"MDCU72|RoA|38": {
+ "wrong": {
+  "A": "ข้อนี้ \"เหมาะสม\": IV morphine ระงับปวด ลด sympathetic surge ช่วยลด HR และ BP ซึ่งเป็นส่วนหนึ่งของการรักษา acute aortic syndrome (ลายมือ: pain control) · จะเป็นคำตอบถ้าโจทย์ถามสิ่งที่ควรให้ร่วมกับ β-blocker เพื่อลด shear stress",
+  "B": "ข้อนี้ \"เหมาะสม\": ECG และ cardiac enzyme ต้องทำเพื่อแยก ACS (เจ็บหน้าอกทะลุหลัง) และดูว่า dissection ลามเข้า coronary ostium (มักเป็น RCA → inferior STEMI) หรือไม่ (ลายมือ: R/O MI) · จะเป็นคำตอบถ้าโจทย์ถามสิ่งที่ต้องระวังก่อนให้ antiplatelet/thrombolysis",
+  "D": "ข้อนี้ \"เหมาะสม\": CTA ทั้ง aorta (chest–abdomen–pelvis) เป็น investigation หลักในผู้ป่วย hemodynamic stable เพื่อแยก Stanford A/B และดู malperfusion ของแขนง (ลายมือ: R/O aortic dissection) · จะเป็นคำตอบถ้าโจทย์ถาม investigation of choice ในผู้ป่วยที่ stable",
+  "E": "ข้อนี้ \"เหมาะสม\": echocardiography (TTE/TEE) ดู aortic root, flap, AR, pericardial effusion/tamponade ทำ bedside ได้ (TEE ใช้ในผู้ที่ unstable หรือไตเสีย) · จะเป็นคำตอบถ้าผู้ป่วย unstable ย้ายไป CT ไม่ได้"
+ },
+ "trap": "ทั้ง β-blocker และ nitroprusside ใช้ในการรักษา dissection แต่ \"ลำดับ\" สำคัญ: ต้องคุม HR ด้วย β-blocker (esmolol, labetalol) ก่อน ให้ HR < 60 แล้วจึงเพิ่ม vasodilator ถ้า SBP ยัง > 120 · ให้ vasodilator เป็นตัวแรกทำ reflex tachycardia เพิ่ม dP/dt → flap ฉีกต่อ · ข้อ least appropriate จึงเป็น C (ข้อเดียวกับ 73B CVT 2)",
+ "summary": [
+  "Aortic dissection: tearing chest/back pain, BP แขนสองข้างต่าง > 20 mmHg, pulse deficit, AR murmur, widened mediastinum",
+  "Anti-impulse therapy: IV β-blocker ก่อน (HR < 60, SBP 100–120) → เพิ่ม vasodilator (nitroprusside/nicardipine) + morphine",
+  "Stanford A (ascending) → emergency surgery · Stanford B → medical ± TEVAR ถ้ามี complication (malperfusion, rupture, ปวดไม่หาย)",
+  "Dx: CTA whole aorta (stable) / TEE (unstable) · ห้ามให้ thrombolysis/anticoagulant ก่อน rule out dissection"
+ ]
+},
+"MDCU72|RoA|88": {
+ "wrong": {
+  "A": "ข้อนี้ \"ใช่\" อาการของ ZMC fracture: zygomatic arch ที่หักยุบกด coronoid process/temporalis ทำให้อ้าปากไม่ได้ (trismus) · จะเป็นคำตอบถ้าโจทย์ถามว่ากระดูกส่วนใดหักแล้วกด coronoid process (isolated zygomatic arch fracture)",
+  "B": "ข้อนี้ \"ใช่\": ZMC fracture ลามถึง orbital floor/lateral wall → inferior rectus entrapment หรือ globe displacement → diplopia โดยเฉพาะมองขึ้น · จะเป็นคำตอบถ้าโจทย์ถาม blowout fracture ที่ต้องผ่าตัดด่วน (entrapment, oculocardiac reflex)",
+  "D": "ข้อนี้ \"ใช่\": periorbital ecchymosis + subconjunctival hemorrhage (ไม่เห็นขอบด้านหลัง) พบบ่อยใน ZMC fracture เพราะกระดูกหักรอบ orbit · จะเป็นคำตอบถ้าโจทย์ถาม sign ที่พบบ่อยที่สุดของ ZMC fracture",
+  "E": "ข้อนี้ \"ใช่\": fracture ผ่าน infraorbital foramen/canal → infraorbital nerve (V2) บาดเจ็บ → ชาแก้ม ปีกจมูก ริมฝีปากบน ฟันบนด้านนั้น · จะเป็นคำตอบถ้าโจทย์ถามเส้นประสาทที่บาดเจ็บบ่อยใน ZMC/orbital floor fracture"
+ },
+ "trap": "ข้อ NOT: crossbite/malocclusion บอก fracture ที่เกี่ยวกับ dental arch คือ mandible (โดยเฉพาะ condyle, parasymphysis) หรือ maxilla (Le Fort) — ZMC ไม่มีฟันอยู่บนกระดูกจึงไม่ทำ occlusion เปลี่ยน · trismus ใน ZMC มาจากการกด coronoid ไม่ใช่ occlusion · ข้อคล้าย 70B ไม่มีเลข 4",
+ "summary": [
+  "ZMC (tripod/tetrapod) fracture: แยกที่ frontozygomatic suture, zygomatic arch, infraorbital rim/orbital floor, zygomaticomaxillary buttress",
+  "อาการ: malar flattening, trismus, diplopia, enophthalmos, infraorbital paresthesia, periorbital ecchymosis, step-off ที่ขอบ orbit",
+  "Malocclusion/crossbite → mandible หรือ Le Fort fracture · Le Fort ทุกชนิดมี pterygoid plate fracture",
+  "Rx: displaced/ทำงานผิดปกติ → ORIF (2–3 point fixation) ภายใน 1–2 สัปดาห์ · entrapment + oculocardiac reflex → ผ่าตัดด่วน"
+ ]
+},
+"MDCU72|RoA|48": {
+ "wrong": {
+  "A": "Neoadjuvant chemotherapy ก่อน colectomy ยังไม่ใช่มาตรฐานใน colon cancer ทั่วไป (FOxTROT ทำใน T3–T4 แต่ยังเลือกเฉพาะราย) · ผ่าตัดก่อนเพื่อได้ pathologic staging ที่แน่นอน · จะถูกถ้าเป็น locally advanced T4b/bulky node ที่ resect ไม่ได้ หรือ dMMR ที่ใช้ neoadjuvant immunotherapy, หรือ colon cancer + resectable liver metastasis",
+  "B": "Neoadjuvant chemoradiation (long-course CRT) เป็นมาตรฐานของ \"rectal\" cancer stage II–III ระดับกลาง–ล่าง ไม่ใช่ colon · ascending colon เคลื่อนที่ได้และอยู่ใกล้ลำไส้เล็ก ฉายรังสีแล้ว toxicity สูง · จะถูกถ้าเป็น mid/low rectal cancer T3–4 หรือ N+ (ปัจจุบันนิยม total neoadjuvant therapy)",
+  "C": "Neoadjuvant short-course RT (5×5 Gy) ใช้ใน rectal cancer เพื่อลด local recurrence · colon ไม่ใช้ RT · จะถูกถ้าเป็น rectal cancer stage II–III ที่ใช้ short-course RT แล้วผ่าตัด TME (หรือ RAPIDO ร่วมกับ chemo)",
+  "D": "Postoperative RT ไม่มีบทบาทใน colon cancer ทั่วไป และการรักษาเสริมที่ขาดไปคือ chemotherapy สำหรับ node-positive · จะถูกถ้าเป็น rectal cancer ที่ไม่ได้ neoadjuvant แล้ว pathology ได้ T3–4/N+/CRM positive จึงให้ adjuvant CRT"
+ },
+ "why": "CT เห็นก้อนที่ ascending colon + pericolic lymph node → สงสัย stage III (N+) colon cancer ที่ resectable · มาตรฐานคือผ่าตัดก่อน: right hemicolectomy + complete mesocolic excision/ligation ของ ileocolic, right colic และ right branch ของ middle colic ที่ origin ให้ได้ lymph node ≥ 12 ต่อม · เมื่อ pathology ยืนยัน N+ → adjuvant chemotherapy (CAPOX 3 เดือนใน low-risk T1–3N1 / FOLFOX หรือ CAPOX 6 เดือนใน high-risk T4/N2) ลด recurrence และเพิ่ม survival · colon ไม่ใช้ RT · คีย์ลายมือ P'Ing วง 5 \"Rt hemicolectomy post op adj CMT · LN +ve = stage 3\" (ข้อเดียวกับ 73B Colo 2)",
+ "trap": "อย่าเอาแนวทาง rectal cancer (neoadjuvant CRT/short-course RT) มาใช้กับ colon — ตัดสินจากตำแหน่ง: rectum (≤ 12–15 cm จาก anal verge/ต่ำกว่า sacral promontory) ใช้ neoadjuvant, colon ผ่าตัดก่อน + adjuvant chemo · คีย์ในไฟล์เขียนเป็นเลข 5 = ช้อย E"
+}
+}

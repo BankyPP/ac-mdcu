@@ -1,0 +1,221 @@
+{
+"MDCU72|RoB|1": {
+ "wrong": {
+  "B": "Hinchey II = pelvic, intra-abdominal หรือ retroperitoneal abscess ที่อยู่ห่างจาก colon (distant abscess) ไม่ใช่ pericolic · จะถูกถ้า CT เห็น abscess ใน pouch of Douglas/pelvis ห่างจากลำไส้ที่อักเสบ (มัก > 4 cm ต้อง percutaneous drainage)",
+  "C": "Hinchey III = generalized purulent peritonitis (abscess แตกเข้าช่องท้อง ไม่มีรูทะลุติดต่อกับลำไส้แล้ว) ผู้ป่วยจะมี generalized peritonitis ซึ่งรายนี้ไม่มี · จะถูกถ้าท้องแข็งทั่วไป ผ่าตัดพบหนองขุ่นทั่วช่องท้องแต่ไม่มีอุจจาระ (อาจ laparoscopic lavage หรือ resection)",
+  "D": "Hinchey IV = generalized feculent peritonitis (free perforation อุจจาระรั่วเข้าช่องท้อง) อัตราตายสูงสุด ต้อง Hartmann's procedure · จะถูกถ้า septic shock + free air มาก ผ่าตัดเจออุจจาระในช่องท้อง",
+  "E": "ไม่มี Hinchey class V ใน original classification (มีแค่ I–IV) · ใน modified Hinchey (Wasvary) ก็มีแค่ 0, Ia, Ib, II, III, IV · จะถูกถ้าโจทย์ถามระบบอื่นที่มี 5 ระดับ เช่น AAST grading ของ diverticulitis (grade 1–5)"
+ },
+ "why": "Hinchey classification ของ complicated diverticulitis (original): I = pericolic/mesenteric abscess · II = pelvic/distant abscess · III = generalized purulent peritonitis · IV = generalized feculent peritonitis · รายนี้มี pericolic abscess ไม่มี peritonitis = Hinchey I · การรักษา: abscess < 3–4 cm → IV antibiotics · ≥ 4 cm → CT-guided percutaneous drainage + ATB → พิจารณา elective resection ภายหลัง · คีย์ลายมือ P'Ing วง A พร้อมตาราง Hinchey (ข้อเดียวกับ 73B Colo 6)",
+ "summary": [
+  "Original Hinchey: I pericolic abscess · II pelvic/distant abscess · III purulent peritonitis · IV feculent peritonitis",
+  "Modified Hinchey (CT era): 0 mild clinical, Ia confined pericolic inflammation/phlegmon, Ib pericolic abscess, II distant abscess, III, IV",
+  "I–II: IV ATB ± percutaneous drainage (abscess ≥ 3–4 cm) → colonoscopy หลัง 6–8 สัปดาห์เพื่อแยกมะเร็ง",
+  "III: laparoscopic lavage หรือ resection ± primary anastomosis/diverting ileostomy · IV: Hartmann's procedure"
+ ]
+},
+"MDCU72|RoB|2": {
+ "interp": "ข้อ NOT: เลือกข้อที่ไม่ใช่ข้อห้ามของ rubber band ligation — ข้อห้ามคือกลุ่มเสี่ยงเลือดออก (coagulopathy, anticoagulant) และเสี่ยง pelvic sepsis (HIV, immunocompromise) ส่วน anal sex ไม่ใช่",
+ "why": "Rubber band ligation เหมาะกับ internal hemorrhoid grade I–III ที่อยู่เหนือ dentate line · ข้อห้ามแบ่งเป็น: (1) เสี่ยงเลือดออกหลัง band หลุดวันที่ 7–10 — coagulopathy, anticoagulant/antiplatelet, portal hypertension · (2) เสี่ยงติดเชื้อรุนแรง/pelvic sepsis — HIV (โดยเฉพาะ CD4 ต่ำ), immunocompromised, neutropenia · anal sex ไม่ได้เป็นข้อห้าม (แค่แนะนำงดช่วงแผลหาย) · คีย์ลายมือ P'Ing วง E ✗ และ A–D ✓ (ข้อเดียวกับ 72A เลข 46)",
+ "wrong": {
+  "A": "ข้อนี้ \"เป็น\" ข้อห้ามจริง: coagulopathy (โรคตับ, ITP, hemophilia) ทำให้เลือดออกมากเมื่อเนื้อที่ถูกรัดตายและหลุดในวันที่ 7–10 · จะเป็นคำตอบถ้าโจทย์ถามว่าผู้ป่วยเกล็ดเลือดต่ำมีริดสีดวงเลือดออกควรเลือกวิธีใดแทน (conservative/แก้ coagulopathy ก่อน)",
+  "B": "ข้อนี้ \"เป็น\" ข้อห้าม: ผู้ที่กิน warfarin/DOAC/clopidogrel เสี่ยง delayed bleeding รุนแรงหลัง RBL ถ้าจำเป็นต้องทำต้องหยุดยาตามแนวทางก่อน/หลัง · จะเป็นคำตอบถ้าโจทย์ถามสาเหตุเลือดออกมากหลัง banding ราว 1 สัปดาห์ในผู้ป่วย AF",
+  "C": "ข้อนี้ \"เป็น\" ข้อห้าม (relative): HIV โดยเฉพาะ CD4 ต่ำ เสี่ยง pelvic sepsis และแผลหายช้า · จะเป็นคำตอบถ้าโจทย์ถามผู้ป่วย HIV ที่มีปวดทวาร ไข้ ปัสสาวะไม่ออกหลัง banding (pelvic sepsis — emergency)",
+  "D": "ข้อนี้ \"เป็น\" ข้อห้าม: immunocompromised (chemotherapy, transplant, steroid ขนาดสูง, DM คุมไม่ได้) เสี่ยง necrotizing infection/Fournier หลังรัด · จะเป็นคำตอบถ้าโจทย์ถามกลุ่มผู้ป่วยที่ควรเลี่ยงหัตถการที่ทำให้เนื้อตายที่ทวาร"
+ },
+ "trap": "ข้อ NOT ที่ช้อยดูน่ากลัวที่สุด (anal sex) กลับไม่ใช่ข้อห้าม · จำกลไกสองกลุ่ม: bleeding risk + sepsis risk · pelvic sepsis หลัง RBL มีอาการเตือน 3 อย่าง: ปวดมากขึ้น ไข้ ปัสสาวะไม่ออก → admit ให้ ATB ด่วน · ข้อนี้คล้าย 72A เลข 46 แต่ช้อยต่างกัน"
+},
+"MDCU72|RoB|3": {
+ "wrong": {
+  "A": "ข้อความนี้ \"ถูก\": Fournier gangrene = necrotizing fasciitis ของ perineum, scrotum/penis และ perianal (polymicrobial type I) ลามตาม Colles' fascia ขึ้นไป Scarpa's fascia ที่ผนังท้อง · จะเป็นคำตอบถ้าโจทย์ถามนิยามและกลุ่มเชื้อ",
+  "B": "ข้อความนี้ \"ถูก\": diabetes เป็น risk factor ที่พบบ่อยที่สุด (ราวครึ่งหนึ่ง) ร่วมกับ alcoholism, obesity, immunosuppression, SGLT2 inhibitor (มีรายงาน) · จะเป็นคำตอบถ้าโจทย์ถามยาเบาหวานที่ FDA เตือนว่าสัมพันธ์กับ Fournier",
+  "C": "ข้อความนี้ \"ถูก\": หัวใจของการรักษาคือ radical surgical debridement ตัดเนื้อตายจนถึงเนื้อดีที่เลือดออก และกลับไป second-look ทุก 24–48 ชม. · ยาอย่างเดียวไม่พอ · จะเป็นคำตอบถ้าโจทย์ถามการรักษาที่สำคัญที่สุด",
+  "D": "ข้อความนี้ \"ถูก\": ถ้าเนื้อตายรอบทวาร/sphincter หรือแผลปนเปื้อนอุจจาระตลอด อาจต้องทำ diverting colostomy (หรือ fecal management system) และ suprapubic cystostomy ถ้าเกี่ยวกับ urethra · จะเป็นคำตอบถ้าโจทย์ถามการจัดการแผล perianal ที่ปนเปื้อนซ้ำ"
+ },
+ "why": "ข้อ false: anal cancer เป็นสาเหตุที่พบน้อยของ Fournier gangrene · แหล่งที่พบบ่อยที่สุดคือ anorectal infection (perianal/ischiorectal abscess, ~30–50%) รองลงมาคือ genitourinary (urethral stricture, การสวน, การบาดเจ็บ) และผิวหนัง · ข้อ A–D ล้วนเป็นข้อความที่ถูก: นิยาม necrotizing fasciitis ของ perineum, DM เป็น risk factor บ่อย, ต้อง radical debridement และบางรายต้อง fecal diversion · คีย์ลายมือ P'Ing วง E ✗ \"anorectal infection\" · ไฟล์ช้อย A–D ว่าง จึงเติมตามเนื้อหาที่ตรงกับข้อ 72A เลข 58",
+ "trap": "ข้อนี้ถามข้อที่ \"false\" — ทุกช้อยอื่นถูกหมด · อย่าสับสนว่ามะเร็งรอบทวาร (ที่แตกเป็นแผล) เป็นต้นเหตุหลัก — ต้นเหตุหลักคือฝีรอบทวารที่รักษาช้า · อย่ารอผล LRINEC หรือ imaging ถ้าคลินิกชัด (ปวดเกินสัดส่วน crepitus ผิวคล้ำ) ให้ผ่าตัดเลย",
+ "summary": [
+  "Fournier: polymicrobial necrotizing fasciitis ของ perineum/genitalia · อัตราตาย 20–40%",
+  "Source: anorectal (มากสุด) > genitourinary > skin/trauma · risk: DM, alcohol, obesity, immunosuppression",
+  "Clinical: ปวดเกินสิ่งที่เห็น, edema, crepitus, ผิวดำ/bullae, ไข้, septic shock · CT เห็นแก๊สใน fascial plane",
+  "Rx: resuscitation + broad-spectrum ATB (คลุม anaerobe + clindamycin) + radical debridement ซ้ำ ± colostomy/cystostomy → reconstruction ภายหลัง"
+ ]
+},
+"MDCU72|RoB|4": {
+ "wrong": {
+  "B": "Colorectal cancer มักทำเลือดออกแบบเรื้อรังซ่อนเร้น (occult) → iron deficiency anemia หรือถ่ายเลือดปนเล็กน้อย ไม่ค่อยเป็น massive bleed · จะถูกถ้าผู้สูงอายุมี iron deficiency anemia/change in bowel habit หรือโจทย์ถามสาเหตุ LGIB เรื้อรังที่ต้องแยกเสมอ",
+  "C": "IBD (โดยเฉพาะ ulcerative colitis) ทำถ่ายเป็นมูกเลือดปนท้องเสียเรื้อรัง tenesmus แต่ massive hemorrhage พบไม่บ่อย (< 5%) · จะถูกถ้าผู้ป่วยอายุน้อยถ่ายเหลวมูกเลือดหลายสัปดาห์ร่วมกับปวดท้องเบ่ง",
+  "D": "Angiodysplasia เป็นสาเหตุ LGIB สำคัญอันดับรองในผู้สูงอายุ (cecum/ascending colon) มักเป็น bleeding เป็น ๆ หาย ๆ หยุดเอง สัมพันธ์กับ aortic stenosis (Heyde syndrome) และ CKD · จะถูกถ้าผู้สูงอายุมี AS + เลือดออกซ้ำ ๆ ไม่เจ็บ และ colonoscopy เห็น vascular ectasia",
+  "E": "Hemorrhoid เป็นสาเหตุที่พบบ่อยของถ่ายเลือดสดทั่วไป (เลือดหยดหลังอุจจาระ) แต่ปริมาณน้อย ไม่ใช่ massive LGIB ในผู้ใหญ่ (ยกเว้นมี portal hypertension/coagulopathy) · จะถูกถ้าโจทย์ถามสาเหตุที่พบบ่อยที่สุดของ \"hematochezia\" ทั่วไปในผู้ป่วยนอก"
+ },
+ "why": "Massive lower GI bleeding ในผู้ใหญ่ (โดยเฉพาะผู้สูงอายุ) สาเหตุที่พบบ่อยที่สุดคือ diverticular bleeding (~30–40%) — vasa recta ที่ยืดตัวไปตามโดม diverticulum ถูกทำลายแล้วแตก เลือดออกมาก ไม่เจ็บ มัก right colon แม้ diverticulum ส่วนใหญ่อยู่ sigmoid และ ~75–80% หยุดเอง · ลำดับรองคือ ischemic colitis, angiodysplasia, hemorrhoid, post-polypectomy, cancer, IBD · คีย์ลายมือ P'Ing วง A \"M/C lower GI bleed in adults\"",
+ "trap": "อย่าสับสน diverticulitis (ปวด ไข้ ไม่ค่อยเลือดออก) กับ diverticular bleeding (ไม่ปวด เลือดออกมาก) — เป็นคนละภาวะของ diverticular disease · ก่อนสรุปว่าเป็น LGIB ต้องแยก brisk UGIB ก่อน (hemodynamic unstable + hematochezia → ทำ EGD/NG aspirate) · ช้อย E ไฟล์ว่าง จึงเติม hemorrhoid",
+ "summary": [
+  "Acute LGIB ผู้ใหญ่: diverticulosis > ischemic colitis > angiodysplasia > hemorrhoid/post-polypectomy > cancer/IBD",
+  "Resuscitate ก่อน · unstable + hematochezia → แยก UGIB ด้วย EGD",
+  "Stable → colonoscopy ภายใน 24 ชม. (หลัง bowel prep) ทำ hemostasis ได้ · unstable/active bleeding → CTA → transcatheter embolization",
+  "ผ่าตัด (segmental colectomy ถ้า localize ได้, subtotal colectomy ถ้าไม่ได้) เมื่อเลือดไม่หยุด/ต้องให้เลือด > 6 units"
+ ]
+},
+"MDCU72|RoB|5": {
+ "wrong": {
+  "A": "ข้อนี้ \"เป็น\" ลักษณะ chronic fissure: sentinel pile (skin tag ที่ขอบล่างของ fissure) เกิดจาก edema/fibrosis เรื้อรัง · จะเป็นคำตอบถ้าโจทย์ถาม skin tag ที่ posterior midline ในผู้ป่วยถ่ายเจ็บนานหลายเดือน",
+  "B": "ข้อนี้ \"เป็น\" ลักษณะ chronic: ขอบแผลแข็งเป็น fibrosis/induration ยกขอบ ต่างจาก acute ที่ขอบบางเหมือนรอยฉีกกระดาษ · จะเป็นคำตอบถ้าโจทย์ถามสิ่งที่ตรวจพบแล้วบอกว่า fissure จะไม่หายด้วยการรักษาแบบ conservative ง่าย ๆ",
+  "C": "ข้อนี้ \"เป็น\" ลักษณะ/กลไกสำคัญ: internal anal sphincter hypertonia/spasm → ความดันขณะพักสูง → เลือดไปเลี้ยง posterior midline ลดลง (ischemia) แผลไม่หาย (ลายมือ: ทำให้ blood supply ไม่ดี) · จะเป็นคำตอบถ้าโจทย์ถามเป้าหมายของ GTN/diltiazem/botox/LIS",
+  "D": "ข้อนี้ \"เป็น\" ลักษณะ chronic: hypertrophied anal papilla ที่ขอบบน (dentate line) ร่วมกับ sentinel pile และ fissure เป็น triad · จะเป็นคำตอบถ้าโจทย์ถามก้อนเล็กที่ dentate line เหนือแผล fissure เรื้อรัง"
+ },
+ "trap": "นิยาม chronic anal fissure = นานเกิน 6–8 สัปดาห์ หรือมีลักษณะ chronicity (sentinel pile, hypertrophied papilla, ขอบ fibrotic, เห็น IAS fiber ที่ก้นแผล) · ระยะเวลาน้อยกว่า 2 สัปดาห์ = acute · ช้อย E ในไฟล์ว่างแต่มีวงที่ E จึงเติมเป็นลักษณะ acute · fissure ที่ไม่อยู่ midline (lateral) → คิดถึง Crohn, TB, HIV, syphilis, มะเร็ง"
+},
+"MDCU72|RoB|6": {
+ "interp": "ข้อนี้ถาม contraindication ของการปิด PDA: เมื่อมี severe pulmonary hypertension จน shunt เป็น R→L/bidirectional (Eisenmenger) ductus กลายเป็นทางระบายของ RV ปิดแล้ว RV failure",
+ "wrong": {
+  "A": "ทารกเกิดก่อนกำหนดที่ hemodynamically significant PDA และให้ยา (ibuprofen/indomethacin/paracetamol) แล้วไม่ปิดหรือมีข้อห้ามใช้ยา เป็น \"ข้อบ่งชี้\" ของ surgical ligation หรือ transcatheter closure · จะเป็นคำตอบถ้าโจทย์ถามทางเลือกหลังยาล้มเหลว 2 courses ในทารกที่ยังพึ่ง ventilator",
+  "B": "Heart failure จาก PDA ขนาดใหญ่ (L→R shunt มาก, LA/LV dilate, failure to thrive) เป็นข้อบ่งชี้ชัดเจนให้ปิดเร็ว ก่อนเกิด pulmonary vascular disease · จะเป็นคำตอบถ้าโจทย์ถามจังหวะผ่าตัดของ PDA ใหญ่ในทารกที่ยังไม่มี PAH",
+  "D": "PDA ที่ได้ยินเสียง (continuous machinery murmur) แม้ไม่มีอาการ ก็แนะนำให้ปิด (ส่วนใหญ่ transcatheter) เพื่อป้องกัน infective endarteritis และ volume overload ระยะยาว · จะเป็นคำตอบถ้าโจทย์ถามว่าเด็กไม่มีอาการแต่มี continuous murmur ควรทำอย่างไร (silent PDA ที่เห็นแค่ echo ยังถกเถียง)",
+  "E": "เคยเป็น endarteritis ที่ PDA แล้ว เป็นข้อบ่งชี้ให้ปิด (หลังรักษาการติดเชื้อหายแล้ว) เพื่อป้องกันเป็นซ้ำ · จะเป็นคำตอบถ้าโจทย์ถามว่าหลังรักษา PDA endarteritis ครบแล้วควรทำอะไรต่อ (ข้อห้ามคือ \"ขณะติดเชื้อรุนแรง/septic shock\" ไม่ใช่หลังหายแล้ว)"
+ },
+ "trap": "ไฟล์ไม่มีช้อยเลย ช้อยทั้งหมดแต่งตามข้อห้ามที่ P'Ing แปะไว้: severe PAH with predominant R→L หรือ bidirectional shunt, life-threatening infection/septic shock · กับดักคือ E — ประวัติ endarteritis เป็นข้อบ่งชี้ให้ปิด แต่ \"กำลังติดเชื้อรุนแรง\" เป็นข้อห้ามชั่วคราว · ก่อนปิดใน PAH ต้องทำ cardiac cath + vasoreactivity/test occlusion"
+},
+"MDCU72|RoB|7": {
+ "wrong": {
+  "B": "Incisional biopsy ทำเมื่อแผลในช่องปากไม่หายภายใน 2–3 สัปดาห์หลังกำจัดสาเหตุ หรือมี red flag (แข็ง ขอบนูนม้วน ไม่เจ็บ ผู้สูงอายุสูบบุหรี่/เคี้ยวหมาก) · แผล 7 วันในวัยรุ่นที่เจ็บและขอบเรียบยังไม่ถึงเกณฑ์ · จะถูกถ้าแผลเป็นมา 4 สัปดาห์ไม่หาย ขอบแข็ง หรือมี leukoplakia/erythroplakia",
+  "C": "Excisional biopsy ใช้กับรอยโรคขนาดเล็ก (< 1 cm) ที่สงสัยและตัดออกได้ทั้งก้อน เช่น mucocele, fibroma, papilloma · แผล aphthous ไม่จำเป็นต้องตัด · จะถูกถ้าเป็นก้อนเล็กชัดเจนที่ต้องการทั้ง diagnosis และ treatment",
+  "D": "Wide excision margin 0.5 cm เป็นการผ่าตัดรักษามะเร็ง (margin ไม่พอสำหรับ SCC ช่องปากที่ต้อง ≥ 1 cm macroscopic) และยังไม่มี tissue diagnosis · จะถูกถ้าโจทย์ถาม margin ของรอยโรค benign/premalignant บางชนิดหลัง biopsy ยืนยันแล้ว",
+  "E": "Wide excision margin 1 cm คือการรักษา oral SCC ที่ยืนยันด้วย biopsy แล้ว (± neck dissection) การทำโดยไม่มีผลชิ้นเนื้อเป็นการผ่าตัดเกินจำเป็นและทำให้เสียรูป/การทำงาน · จะถูกถ้า biopsy ยืนยัน SCC ที่ buccal mucosa resectable"
+ },
+ "why": "ชายอายุ 18 ปี แผลที่ buccal mucosa เจ็บ ขอบเรียบ เป็นมา 7 วัน = ลักษณะ benign (recurrent aphthous stomatitis หรือ traumatic ulcer) → สังเกตอาการ ให้ symptomatic treatment (topical steroid เช่น triamcinolone in orabase, ยาชาเฉพาะที่, น้ำยาบ้วนปาก) กำจัดสาเหตุระคายเคือง (ฟันคม/ฟันปลอม) แล้วนัดดูซ้ำ · แผลควรหายใน 2–3 สัปดาห์ ถ้าไม่หาย → biopsy · คีย์ลายมือ P'Ing วง A \"ควรหายใน 2–3 wks\" (ไฟล์ติด tag CVT แต่เนื้อหาเป็นช่องปาก ช้อยแปลจากภาษาไทย)",
+ "trap": "แผลในช่องปากที่ \"เจ็บ\" มักเป็น benign (aphthous, traumatic) ส่วนมะเร็งระยะแรกมัก \"ไม่เจ็บ\" แข็ง ขอบนูน · เกณฑ์ biopsy คือ > 2–3 สัปดาห์หลังกำจัดสาเหตุ ไม่ใช่ 1 สัปดาห์ · อย่าข้ามไปทำ wide excision ก่อนมี tissue diagnosis"
+},
+"MDCU72|RoB|8": {
+ "interp": "ถาม malignant tumor ที่พบบ่อยที่สุดของ parotid (ไม่ใช่ tumor ทั้งหมด): benign บ่อยสุด = pleomorphic adenoma แต่ malignant บ่อยสุด = mucoepidermoid carcinoma",
+ "why": "Mucoepidermoid carcinoma เป็นมะเร็งต่อมน้ำลายที่พบบ่อยที่สุดโดยรวม และพบมากที่สุดใน parotid (รวมทั้งมะเร็งต่อมน้ำลายในเด็ก) · ประกอบด้วย mucous-secreting cell + epidermoid (squamous) cell + intermediate cell · แบ่ง low/intermediate/high grade ตามสัดส่วน mucous cell (low grade มี mucous มาก พยากรณ์ดี) · มี MAML2 translocation · คีย์ลายมือ P'Ing วง A \"mucinous + squamous\" และเขียนเตือนว่า pleomorphic adenoma = benign mixed tumor (บ่อยสุดแต่เป็น benign)",
+ "wrong": {
+  "B": "Adenoid cystic carcinoma เป็นมะเร็งที่พบบ่อยที่สุดใน submandibular และ minor salivary gland (เพดานปาก) ไม่ใช่ parotid · ลักษณะเด่นคือ perineural invasion (ชา/ปวด, facial palsy) และแพร่ปอดช้าแต่กลับเป็นซ้ำระยะยาว · จะถูกถ้าโจทย์ถามมะเร็งบ่อยสุดของ submandibular/minor gland หรือมะเร็งที่ลามตามเส้นประสาท",
+  "C": "Acinic cell carcinoma เกิดใน parotid เกือบทั้งหมด low grade พบรองลงมา (บางตำราเป็นอันดับ 2–3) พบในหญิงอายุน้อย และอาจเป็นสองข้าง · จะถูกถ้าโจทย์ถามมะเร็งต่อมน้ำลายที่อาจเป็นสองข้างหรือมี serous acinar differentiation",
+  "D": "Carcinoma ex pleomorphic adenoma เกิดจาก pleomorphic adenoma ที่ทิ้งไว้นาน (หลายปี) แล้วกลายเป็นมะเร็ง (ความเสี่ยงเพิ่มตามเวลา ~1.5% ใน 5 ปี → ~10% ใน 15 ปี) อาการคือก้อนเก่าที่โตเร็ว/ปวด/หน้าเบี้ยว · จะถูกถ้าโจทย์บรรยายก้อน parotid ที่มีมา 15 ปีแล้วโตเร็วขึ้นพร้อม facial nerve palsy",
+  "E": "Adenocarcinoma NOS เป็นการวินิจฉัยเมื่อไม่เข้ากับชนิดจำเพาะอื่น พบได้แต่ไม่ใช่อันดับหนึ่ง · จะถูกถ้าโจทย์ถาม pathology ที่ไม่สามารถจัดกลุ่มเฉพาะได้หรือ salivary duct carcinoma (high grade คล้ายมะเร็งเต้านม)"
+ },
+ "trap": "อ่านคำถามให้ดี: \"most common tumor\" = pleomorphic adenoma (benign) · \"most common malignant\" = mucoepidermoid · ต่อมเล็ก/submandibular ยิ่งเล็กยิ่งมีโอกาสเป็นมะเร็งสูง (parotid ~20–25%, submandibular ~40–50%, minor ~70–80%) · ในชุดเดียวกันมีโจทย์ parotid อีกข้อ (เลข 25) ที่ช้อยต่างกัน",
+ "summary": [
+  "Salivary tumor: parotid พบมากสุด แต่ % malignant ต่ำสุด · ยิ่งต่อมเล็ก % malignant ยิ่งสูง",
+  "Benign: pleomorphic adenoma (บ่อยสุด, recurrence ถ้า enucleate) > Warthin tumor (ชายสูงอายุสูบบุหรี่, สองข้างได้, Tc-99m hot)",
+  "Malignant: mucoepidermoid (parotid, เด็ก) · adenoid cystic (submandibular/minor, perineural) · acinic cell",
+  "Workup: US/MRI + FNA (ไม่ทำ open biopsy) · Rx: superficial/total parotidectomy เก็บ facial nerve ± neck dissection/RT"
+ ]
+},
+"MDCU72|RoB|9": {
+ "wrong": {
+  "A": "ข้อนี้ \"อยู่\" ใน differential ของ anterior mediastinum จริง: thymoma เป็นก้อน anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ สัมพันธ์กับ myasthenia gravis · จะเป็นคำตอบถ้าโจทย์ถามก้อน anterior mediastinum ในผู้ใหญ่อายุ 40–60 ที่มี ptosis/diplopia",
+  "C": "ข้อนี้ \"อยู่\" ใน differential: lymphoma (Hodgkin nodular sclerosis ในหญิงสาว, primary mediastinal large B-cell) อยู่ได้ทั้ง anterior และ middle · จะเป็นคำตอบถ้าวัยรุ่น/หนุ่มสาวมี B symptoms, LN โตที่คอ และก้อน anterior mediastinum (ระวัง airway ตอนดมยา)",
+  "D": "ข้อนี้ \"อยู่\" ใน differential: seminoma เป็น germ cell tumor ชนิด extragonadal ที่พบมากใน anterior mediastinum ของชายหนุ่ม (β-hCG อาจสูงเล็กน้อย AFP ปกติ) · จะเป็นคำตอบถ้าชายอายุ 20–40 มีก้อน anterior mediastinum ใหญ่ เนื้อสม่ำเสมอ ไวต่อ chemo/RT",
+  "E": "ข้อนี้ \"อยู่\" ใน differential: teratoma (mature) เป็น germ cell tumor ที่พบบ่อยที่สุดของ mediastinum มีไขมัน/แคลเซียม/ฟันใน CT · จะเป็นคำตอบถ้า CT เห็นก้อน anterior mediastinum ที่มี fat-fluid level และ calcification"
+ },
+ "trap": "ข้อ NOT: pheochromocytoma/paraganglioma ในทรวงอกอยู่ที่ \"posterior\" mediastinum (paravertebral sympathetic chain) หรือ middle (aortopulmonary paraganglia) ไม่ใช่ anterior · ลายมือ P'Ing แบ่งชัด: anterior = thymoma, lymphoma, germ cell tumor, endocrine (thyroid/parathyroid) · middle = pericardial/bronchogenic cyst · posterior = neurogenic tumor/cyst, esophageal cyst · อย่าสับสน 'endocrine tumor' (thyroid/parathyroid ectopic) ใน anterior กับ pheochromocytoma",
+ "summary": [
+  "Anterior mediastinum \"4T\": thymoma, teratoma/germ cell (seminoma, NSGCT), thyroid (retrosternal goiter)/parathyroid, terrible lymphoma",
+  "Middle: bronchogenic cyst, pericardial cyst, lymphadenopathy (lymphoma, sarcoid, TB, metastasis)",
+  "Posterior: neurogenic tumor (schwannoma, neurofibroma ในผู้ใหญ่ · neuroblastoma/ganglioneuroma ในเด็ก), paraganglioma, esophageal duplication cyst",
+  "Workup anterior mass ชายหนุ่ม: AFP, β-hCG, LDH ก่อน biopsy · ระวัง airway collapse ตอนดมยาใน mass ใหญ่"
+ ]
+},
+"MDCU72|RoB|10": {
+ "wrong": {
+  "A": "Vitamin K ออกฤทธิ์ช้า (6–24 ชม.) ไม่ทันผ่าตัดเร่งด่วน และถ้าให้ขนาดสูง (10 mg) ใน mechanical valve จะทำให้ resistant ต่อ warfarin หลังผ่าตัด กลับมา anticoagulate ยาก เสี่ยง valve thrombosis (ลายมือ: A ✗ เสี่ยง valve clot) · จะถูกถ้าผ่าตัดไม่เร่งด่วน (elective ใน 24–48 ชม.) ใช้ vitamin K ขนาดต่ำ 1–2.5 mg oral ได้ หรือเป็นผู้ป่วยไม่มี mechanical valve",
+  "C": "หยุด warfarin รอ INR ลดเองใช้เวลา 4–5 วัน (half-life ~40 ชม.) appendicitis จะแตกเป็น perforation/peritonitis ระหว่างรอ · จะถูกถ้าเป็นการผ่าตัด elective (หยุด warfarin 5 วัน + bridging heparin ใน mechanical mitral valve/high risk)",
+  "D": "Antibiotics-only สำหรับ uncomplicated appendicitis เป็นทางเลือกที่มีหลักฐาน (CODA, APPAC) แต่ recurrence ~30–40% ใน 5 ปี ไม่ใช่มาตรฐานหลัก และผู้ป่วย anticoagulated ที่ต้องผ่าตัดซ้ำภายหลังก็ยิ่งเสี่ยง · จะถูกถ้าผู้ป่วยมีความเสี่ยงผ่าตัดสูงมาก/ปฏิเสธผ่าตัด และ CT ยืนยัน uncomplicated (ไม่มี appendicolith)",
+  "E": "PRC 4 units ไม่มีข้อบ่งชี้ เพราะผู้ป่วยไม่ได้เสียเลือดหรือซีด การให้เลือดเกินจำเป็นเสี่ยง TACO/TRALI และ FFP 6 units ก็มากเกินความต้องการ · จะถูกถ้าผู้ป่วย anticoagulated มี hemorrhagic shock จาก active bleeding (massive transfusion protocol)"
+ },
+ "why": "ผู้ป่วย mechanical valve ได้ warfarin INR 3.2 (ช่วงเป้าหมายของ mechanical valve ~2.5–3.5 — ลายมือ well-controlled = 2–3.5) มี acute appendicitis ซึ่งต้องผ่าตัดเร่งด่วน → reverse INR เร็วด้วย FFP (หรือ 4-factor PCC ซึ่งเร็วและปริมาณน้อยกว่า) แล้วผ่าตัด · หลีกเลี่ยง vitamin K ขนาดสูงเพราะจะทำให้ warfarin ไม่ได้ผลหลังผ่าตัดและเสี่ยง valve thrombosis · หลังผ่าตัดเริ่ม UFH/LMWH bridging เมื่อ hemostasis ดี แล้วกลับไป warfarin · คีย์ลายมือ P'Ing วง B (ข้อเดียวกับ 70A เลข 77)",
+ "trap": "อย่าเลือก vitamin K เพราะเป็นยา reverse warfarin ที่คุ้นที่สุด — ใน mechanical valve + ผ่าตัดด่วน ต้องการ \"เร็ว\" (FFP/PCC) และ \"ชั่วคราว\" (ไม่ทำ warfarin resistance) · INR 3.2 ใน mechanical valve ไม่ได้สูงผิดปกติ เป็นระดับที่ตั้งใจ"
+},
+"MDCU72|RoB|11": {
+ "wrong": {
+  "A": "Contrast CT (CT brain with contrast) ไม่ช่วยหา SAH เพราะ contrast ทำให้แยกเลือดใน subarachnoid ได้ยากขึ้น · สิ่งที่ใช้หลัง LP บวกคือ CTA (angiography) เพื่อหา aneurysm ไม่ใช่ contrast CT ธรรมดา · จะถูกถ้าโจทย์ถามการหา brain abscess/tumor ที่ ring-enhance",
+  "B": "Cerebral angiography (DSA/CTA) ใช้หาตำแหน่ง aneurysm \"หลัง\" ยืนยันว่ามี SAH แล้ว (CT บวก หรือ LP บวก) · ทำก่อนยืนยันจะเป็นหัตถการ invasive ที่ไม่จำเป็นในผู้ที่ไม่มี SAH · จะถูกถ้า CT หรือ LP ยืนยัน SAH แล้ว (CTA ก่อน, DSA เป็น gold standard)",
+  "D": "MRI spine ไม่เกี่ยวกับ thunderclap headache + neck stiffness ที่สงสัย intracranial aneurysm rupture · จะถูกถ้าสงสัย spinal AVM ที่ทำ SAH (ปวดหลังเฉียบพลันก่อนปวดหัว) หรือ spinal epidural abscess/hematoma",
+  "E": "Repeat CT หลัง 1 สัปดาห์ไม่มีประโยชน์ — sensitivity ของ CT ต่อ SAH ลดลงเรื่อย ๆ ตามเวลา (~50% ที่ 1 สัปดาห์) และ aneurysm อาจแตกซ้ำ (rebleed สูงสุดใน 24–72 ชม. อัตราตายสูง) ระหว่างรอ · จะถูกถ้าโจทย์ถามการติดตาม hydrocephalus/vasospasm หลังรักษา SAH แล้ว"
+ },
+ "why": "ชายสูงอายุปวดหัวรุนแรงเฉียบพลัน (thunderclap) + คอแข็ง = สงสัย SAH · Non-contrast CT sensitivity ~98–100% ถ้าทำภายใน 6 ชม. แต่ลดลงตามเวลา ถ้า CT ปกติต้องทำ lumbar puncture (ควรหลังเริ่มปวด ≥ 12 ชม. เพื่อให้เกิด xanthochromia จาก bilirubin) ดู RBC ที่ไม่ลดลงระหว่างหลอด 1→4 และ xanthochromia · ถ้า LP บวก → CTA/DSA หา aneurysm · คีย์ลายมือ P'Ing วง C \"xanthochromia\" (ข้อเดียวกับ 71A เลข 20)",
+ "trap": "อย่าข้ามไป angiography เพียงเพราะสงสัย aneurysm — ต้องยืนยัน SAH ก่อนด้วย CT → LP · traumatic tap แยกได้จาก RBC ที่ลดลงจากหลอดแรกถึงหลอดสุดท้ายและไม่มี xanthochromia · ช้อย D, E ไฟล์ว่างจึงเติม",
+ "summary": [
+  "Thunderclap headache → NCCT (sensitivity ~100% ใน 6 ชม.) → ปกติ → LP (≥ 12 ชม.: xanthochromia, RBC ไม่ลดลง)",
+  "LP บวก/CT บวก → CTA → DSA (gold standard) → coiling/clipping ภายใน 24–72 ชม.",
+  "Complication: rebleeding (สูงสุดวันแรก), vasospasm (วัน 4–14 → nimodipine), hydrocephalus (EVD), hyponatremia (SIADH/cerebral salt wasting)",
+  "Hunt-Hess/WFNS grading ใช้บอกพยากรณ์ · Fisher scale บอกโอกาส vasospasm"
+ ]
+},
+"MDCU72|RoB|12": {
+ "interp": "เลือก CSF profile ที่เข้ากับ bacterial meningitis: WBC สูงมาก (หลักร้อย–พัน, เด่น PMN) + glucose ต่ำ (< 40 หรือ CSF/serum < 0.4) + protein สูง",
+ "why": "Bacterial meningitis: CSF opening pressure สูง ขุ่น WBC มักหลายร้อยถึงหลายพัน (> 500, PMN เด่น) glucose ต่ำ (< 40 mg/dL หรือ CSF:serum ratio < 0.4 เพราะเชื้อและ WBC ใช้ glucose) protein สูง (> 100–200) · ช้อย B: WBC 500 + glucose 40 เข้ากับ bacterial มากที่สุด (RBC 10,000 อาจมาจาก traumatic tap ร่วม — ต้องปรับ WBC ~1 ต่อ RBC 500–1,000 ซึ่ง WBC 500 ยังสูงเกินกว่าที่ RBC อธิบายได้) · คีย์ลายมือ P'Ing วง B \"WBC > 500, glucose ↓\" พร้อมตาราง CSF (ข้อเดียวกับ 71A ไม่มีเลข 5)",
+ "wrong": {
+  "A": "WBC 5 และ glucose 60 อยู่ในเกณฑ์ปกติ (WBC ≤ 5 lymphocyte, glucose ~60% ของเลือด) ไม่ใช่ meningitis · จะถูกถ้าโจทย์ถาม CSF ปกติหรือ meningism จากสาเหตุอื่น (เช่นติดเชื้อที่อื่นแล้วคอแข็ง)",
+  "C": "WBC 50 เด่น lymphocyte + glucose ปกติ = aseptic/viral meningitis (enterovirus, HSV) · จะถูกถ้าโจทย์ถาม viral meningitis · ถ้า lymphocyte เด่นแต่ glucose ต่ำ + protein สูงมาก ต้องคิด TB/fungal (cryptococcus)",
+  "D": "WBC 0 + glucose 70 = CSF ปกติ ไม่มีการอักเสบ · จะถูกถ้าโจทย์ถาม CSF ของ idiopathic intracranial hypertension (ปกติทุกค่ายกเว้น opening pressure สูง) หรือ normal pressure hydrocephalus",
+  "E": "RBC 30,000 + WBC 10 + glucose ปกติ = traumatic tap หรือ SAH (WBC เพิ่มตามสัดส่วน RBC เท่านั้น) · จะถูกถ้าโจทย์ถาม SAH (ดู xanthochromia, RBC คงที่ทุกหลอด) หรือ traumatic tap (RBC ลดลงจากหลอด 1→4)"
+ },
+ "trap": "อย่าให้ RBC 10,000 ในช้อย B หลอกว่าเป็น traumatic tap/SAH — ต้องดูว่า WBC สูงเกินสัดส่วนของ RBC หรือไม่ (ปรับ 1 WBC ต่อ ~700 RBC → คาด WBC ~14 แต่ได้ 500) และ glucose ต่ำ ซึ่ง traumatic tap ไม่ทำ · ไฟล์มีช้อยเดียว ช้อยอื่นเติมให้ครบตามตาราง CSF",
+ "summary": [
+  "Bacterial: WBC สูง (PMN) > 500–1,000, glucose < 40 (ratio < 0.4), protein สูง > 100, gram stain/culture",
+  "Viral: WBC 10–300 lymphocyte, glucose ปกติ, protein ปกติ–สูงเล็กน้อย · TB/fungal: lymphocyte, glucose ต่ำ, protein สูงมาก",
+  "Traumatic tap: RBC ลดลงหลอด 1→4, WBC ตามสัดส่วน RBC, ไม่มี xanthochromia",
+  "สงสัย bacterial → ให้ empirical ATB (ceftriaxone ± vancomycin ± ampicillin ในผู้สูงอายุ) + dexamethasone ทันที ไม่ต้องรอ LP/CT"
+ ]
+},
+"MDCU72|RoB|13@p37": {
+ "wrong": {
+  "B": "Cushing reflex = hypertension + bradycardia + irregular respiration จาก ↑ICP ที่กด brainstem เป็นสัญญาณ herniation ใกล้ตาย ไม่ได้อธิบายว่าทำไมอ่อนแรงข้างเดียวกับรอยโรค · จะถูกถ้าโจทย์ถามสาเหตุของ BP สูงร่วมกับชีพจรช้าในผู้ป่วย head injury ที่ซึมลง",
+  "C": "Duret hemorrhage = เลือดออกเล็ก ๆ ใน midline pons/midbrain จาก perforating branch ของ basilar ฉีกขาดเมื่อ brainstem ถูกดันลงในการ transtentorial herniation มักทำ coma ลึกและเสียชีวิต · จะถูกถ้าโจทย์ถาม CT หลัง uncal herniation ที่เห็นเลือดตรงกลาง pons",
+  "D": "Tonsillar herniation = cerebellar tonsil ผ่าน foramen magnum กด medulla → หยุดหายใจ, cardiovascular collapse, คอแข็ง ไม่ได้ทำ hemiparesis ข้างเดียวกัน · จะถูกถ้าผู้ป่วยมีก้อนใน posterior fossa หรือทำ LP ในผู้ป่วย ↑ICP แล้วหยุดหายใจทันที",
+  "E": "Central diabetes insipidus เกิดจาก hypothalamus/pituitary stalk บาดเจ็บ ปัสสาวะมาก Na สูง เกิดในบาดเจ็บรุนแรงหรือ brain death ไม่เกี่ยวกับอาการอ่อนแรง · จะถูกถ้าโจทย์ถามสาเหตุ polyuria + hypernatremia ในผู้ป่วย severe TBI"
+ },
+ "trap": "Uncal herniation ปกติ: CN III ข้างรอยโรค (pupil โต) + hemiparesis ข้าง \"ตรงข้าม\" (กด cerebral peduncle ข้างเดียวกันที่ cross ทีหลัง) · Kernohan: midbrain ถูกดันไปกด peduncle ข้างตรงข้ามกับขอบ tentorium → hemiparesis ข้าง \"เดียวกัน\" = false localizing sign · ตำแหน่งรอยโรคให้ดูจากรูม่านตาที่โต (ขยายข้างเดียวกับก้อนเชื่อถือได้กว่า) · ไฟล์เขียน pupil 5 cm น่าจะ 5 mm"
+},
+"MDCU72|RoB|14": {
+ "wrong": {
+  "B": "Brain metastasis มักหลายก้อนที่ grey-white junction มี edema รอบมากเกินขนาดก้อน และพบในผู้สูงอายุที่มีมะเร็ง (ปอด เต้านม melanoma) ไม่มี scolex · จะถูกถ้าผู้ป่วยสูงอายุสูบบุหรี่ มีหลายก้อน ring/solid enhancement ที่ grey-white junction",
+  "C": "Tuberculoma เป็น ring-enhancing lesion มักมีน้อยก้อน ขนาดใหญ่กว่า (> 2 cm) ผนังหนาไม่สม่ำเสมอ T2 hypointense core อาจร่วมกับ basal meningitis/hydrocephalus ไม่มี scolex · จะถูกถ้าผู้ป่วยมีประวัติ TB ปอด ไข้เรื้อรัง และ CSF lymphocyte + protein สูง",
+  "D": "Toxoplasmosis เป็น ring-enhancing หลายก้อนที่ basal ganglia/corticomedullary junction ในผู้ป่วย HIV CD4 < 100 (eccentric target sign) · จะถูกถ้าผู้ป่วย AIDS มีไข้ สับสน hemiparesis และ toxoplasma IgG บวก",
+  "E": "Multiple sclerosis เป็น white matter plaque (periventricular Dawson fingers, juxtacortical, infratentorial, spinal cord) ไม่ใช่ cyst · มาด้วย optic neuritis, INO, sensory/motor deficit เป็น ๆ หาย ๆ · จะถูกถ้าหญิงสาวมีอาการทางระบบประสาทหลายตำแหน่งต่างเวลากัน และ CSF มี oligoclonal band"
+ },
+ "why": "คนอายุน้อยมาด้วยชัก + MRI เห็น cyst เล็กหลายก้อนกระจายในเนื้อสมอง (starry sky) และมีจุดข้างใน cyst (scolex = cyst with dot sign, pathognomonic) = neurocysticercosis จาก Taenia solium (กินไข่พยาธิจากอาหาร/มือปนเปื้อนอุจจาระคนที่มีพยาธิตัวตืด) · เป็นสาเหตุที่พบบ่อยที่สุดของ acquired epilepsy ในประเทศกำลังพัฒนา · ระยะ vesicular → colloidal (ring enhance + edema) → granular → calcified · Rx: antiepileptic + albendazole ± praziquantel + corticosteroid (ลดการอักเสบเมื่อ cyst ตาย) · คีย์ลายมือ P'Ing \"Cysticercosis\" (ข้อคล้าย 70C เลข 25)",
+ "trap": "Cyst with dot (scolex) เป็นลักษณะเฉพาะของ neurocysticercosis — ring-enhancing หลายก้อนอย่างเดียวยังต้องแยก TB, toxo, abscess, metastasis · ห้ามให้ albendazole ใน cysticercal encephalitis (cyst จำนวนมาก + edema รุนแรง) เพราะจะบวมมากขึ้น · ภาพในไฟล์เป็นภาพตัวอย่าง ช้อย B–E เติม",
+ "summary": [
+  "Neurocysticercosis: Taenia solium (กินไข่, fecal-oral) · สาเหตุบ่อยของ adult-onset seizure ในเขตร้อน",
+  "Imaging: cyst with dot (scolex), starry sky หลายก้อน, ระยะท้ายเป็น calcification",
+  "Rx: antiepileptic + albendazole (± praziquantel) + steroid · calcified อย่างเดียวไม่ต้องให้ antiparasitic",
+  "Intraventricular cyst → hydrocephalus → endoscopic removal/shunt · ตรวจตาหา ocular cyst ก่อนให้ยา"
+ ]
+},
+"MDCU72|RoB|15": {
+ "wrong": {
+  "B": "Epidural empyema อยู่ระหว่างกะโหลกกับ dura จึงเป็นรูป lentiform/biconvex ไม่ข้าม suture และ enhance ที่ dura ด้านใน อาการรุนแรงน้อยกว่า · จะถูกถ้าภาพเห็น collection รูปเลนส์ใต้กะโหลกหน้าผาก ร่วมกับ frontal osteomyelitis (Pott's puffy tumor)",
+  "C": "Chronic subdural hematoma เป็น crescentic collection เหมือนกันแต่ไม่มีไข้ ไม่มี rim enhancement เด่น พบในผู้สูงอายุหลังบาดเจ็บเล็กน้อย/ได้ยาละลายลิ่มเลือด · จะถูกถ้าผู้สูงอายุสับสนค่อยเป็นค่อยไปและ CT เห็น hypodense crescent โดยไม่มีไข้",
+  "D": "Meningioma เป็นก้อนเนื้อแข็ง (solid) ติด dura enhance สม่ำเสมอ มี dural tail ไม่ใช่ collection ของเหลวที่มีขอบ enhance และไม่สัมพันธ์กับไข้/sinusitis · จะถูกถ้าภาพเห็นก้อนกลม homogeneous enhancement ติด falx/convexity ในหญิงวัยกลางคน",
+  "E": "Brain abscess เป็นก้อน intra-axial (อยู่ในเนื้อสมอง) ขอบ enhance บางเรียบ มี edema รอบ และ DWI restriction ตรงกลาง ไม่ใช่ collection ตามผิวสมอง · จะถูกถ้าภาพเห็นก้อนกลมในเนื้อสมอง frontal lobe หลัง sinusitis/ฟันผุ"
+ },
+ "why": "ผู้ป่วยมีไข้ + sinusitis + contrast MRI เห็น crescentic extra-axial collection ตามผิวสมอง/interhemispheric fissure ข้าม suture ได้ ขอบ enhance และ DWI restriction = subdural empyema · เชื้อลามจาก frontal/ethmoid sinusitis ผ่าน emissary veins (thrombophlebitis) เข้า subdural space ซึ่งไม่มีสิ่งกั้น หนองจึงกระจายเร็ว → ชัก, focal deficit, ↑ICP, cortical vein thrombosis · Rx: emergency craniotomy drainage + IV antibiotics ระยะยาว + ผ่าตัด sinus · คีย์ลายมือ P'Ing วง A (ภาพเดียวกับที่ 73D แปะไว้ Neuro 3)",
+ "trap": "Subdural vs epidural: subdural = crescent ข้าม suture ไม่ข้าม falx/tentorium · epidural = lentiform ไม่ข้าม suture ข้าม falx ได้ · empyema vs chronic SDH: ไข้ + rim enhancement + DWI bright · ภาพในไฟล์เป็นภาพตัวอย่าง",
+ "summary": [
+  "Subdural empyema: วัยรุ่น/ชายหนุ่ม ตามหลัง sinusitis (มากสุด) หรือ otitis/หลังผ่าตัด · neurosurgical emergency",
+  "MRI + DWI ดีกว่า CT (CT อาจเห็นน้อยกว่าจริงในระยะแรก)",
+  "Rx: craniotomy (ดีกว่า burr hole เพราะหนองเป็น loculation) + ATB คลุม Streptococcus anginosus group, anaerobe, Staph 4–6 สัปดาห์ + antiepileptic",
+  "Intracranial complications ของ sinusitis: subdural/epidural empyema, brain abscess, meningitis, cavernous sinus thrombosis"
+ ]
+},
+"MDCU72|RoB|16": {
+ "wrong": {
+  "B": "Cerebellar infarction บน NCCT ระยะแรกจะ \"hypodense\" (หรือปกติในชั่วโมงแรก) ตามเขต PICA/SCA ไม่ใช่ hyperdense · อาการคล้ายกัน (vertigo, ataxia, อาเจียน) · จะถูกถ้า CT เห็นบริเวณ hypodense รูปลิ่มใน cerebellar hemisphere หรือ MRI DWI bright",
+  "C": "Medulloblastoma เป็นเนื้องอกในเด็ก (5–10 ปี) ที่ vermis/4th ventricle อาการค่อยเป็นค่อยไป (ปวดหัวตอนเช้า ataxia) CT เป็นก้อน hyperdense เล็กน้อยแบบ solid มี hydrocephalus ไม่ใช่เลือดออกเฉียบพลันในผู้สูงอายุ · จะถูกถ้าเด็กเดินเซหลายสัปดาห์และมีก้อน midline posterior fossa",
+  "D": "Hemangioblastoma เป็นเนื้องอกหลอดเลือดใน cerebellum ของผู้ใหญ่ (cyst + enhancing mural nodule) สัมพันธ์กับ VHL และ polycythemia · ไม่ใช่ hyperdense hemorrhage เฉียบพลัน · จะถูกถ้าภาพเห็น cyst ใหญ่ + nodule ที่ enhance และผู้ป่วยมี retinal angioma/RCC",
+  "E": "Pontine hemorrhage อยู่ที่ pons (midline brainstem) ไม่ใช่ cerebellum ทำ coma ลึกเร็ว pinpoint pupils quadriplegia hyperthermia พยากรณ์แย่มาก ไม่ผ่าตัด · จะถูกถ้าผู้ป่วยความดันสูงหมดสติทันทีพร้อม pinpoint pupils และ CT เห็นเลือดกลาง pons"
+ },
+ "why": "ผู้สูงอายุความดันสูง มีอาเจียนและเดินเซเฉียบพลัน (มัก occipital headache, vertigo, ยืนเดินไม่ได้) + NCCT เห็น hyperdense lesion ใน cerebellar hemisphere = hypertensive cerebellar hemorrhage (~10% ของ hypertensive ICH จาก superior cerebellar/PICA branches) · อันตรายคือกด brainstem และ 4th ventricle → obstructive hydrocephalus ซึมลงเร็ว · ข้อบ่งชี้ suboccipital craniectomy + evacuation: hematoma > 3 cm, กด brainstem, hydrocephalus หรือ neurological deterioration (AHA) · คีย์ลายมือ P'Ing วง A (ภาพเดียวกับ 73D Neuro 2)",
+ "trap": "เลือดสดบน NCCT = hyperdense (ขาว) · infarct = hypodense (ดำ) · ตำแหน่ง hypertensive ICH: putamen (มากสุด) > thalamus > lobar > pons > cerebellum · cerebellar hemorrhage เป็นตำแหน่งเดียวที่ผ่าตัดช่วยชีวิตได้ชัด อย่าใส่แค่ EVD อย่างเดียวเพราะเสี่ยง upward herniation",
+ "summary": [
+  "Hypertensive ICH ตำแหน่ง: putamen > thalamus > pons > cerebellum (lobar ในผู้สูงอายุคิด amyloid angiopathy)",
+  "Cerebellar hemorrhage: vertigo, อาเจียน, ataxia, เดินไม่ได้ · ระวัง brainstem compression + hydrocephalus",
+  "ผ่าตัด suboccipital decompression/evacuation เมื่อ > 3 cm, ซึมลง, กด brainstem หรือ hydrocephalus",
+  "Medical: ลด SBP เป้า ~140 mmHg, reverse anticoagulant, ยกหัวเตียง 30°, รักษา ↑ICP"
+ ]
+}
+}
