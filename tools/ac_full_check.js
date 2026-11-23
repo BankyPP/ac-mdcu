@@ -18,7 +18,6 @@ function problems(q){
 }
 const {QB}=load();const bad=[],cnt={};
 for(const q of QB){if(SET&&q.set!==SET)continue;if(!q.opts||!q.opts.length)continue;const b=problems(q);if(b.length){bad.push({k:q.set+'|'+(q.ro||'')+'|'+q.orig,page:q.page,b});b.forEach(x=>cnt[x]=(cnt[x]||0)+1);}}
-if(JS){console.log(JSON.stringify(bad));process.exit(0);}
-console.log(`${process.env.DIR||'data'}: ${QB.length} ข้อ · ขาด ${bad.length}`+(bad.length?' · แยกพาร์ท '+JSON.stringify(cnt):''));
-if(LIST)bad.forEach(x=>console.log('  '+x.k+' p'+x.page+': '+x.b.join(',')));
+if(JS)process.stdout.write(JSON.stringify(bad)+'\n');else{console.log(`${process.env.DIR||'data'}: ${QB.length} ข้อ · ขาด ${bad.length}`+(bad.length?' · แยกพาร์ท '+JSON.stringify(cnt):''));
+if(LIST)bad.forEach(x=>console.log('  '+x.k+' p'+x.page+': '+x.b.join(',')));}
 module.exports={problems};
