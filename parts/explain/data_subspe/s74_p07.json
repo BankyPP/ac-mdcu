@@ -1,0 +1,107 @@
+{
+"MDCU74|RoD|14": {
+"wrong": {
+"B": "ให้ครอบครัวพาไป burn center เองเสี่ยงที่เด็กจะไม่ถูกพาไปถึง หรือถูกทำร้ายซ้ำระหว่างทาง เพราะผู้ต้องสงสัยอยู่ในครอบครัว · จะถูกถ้าเป็นแผลไหม้ที่กลไกสอดคล้องกับประวัติ ไม่สงสัย abuse และแผลไม่ซับซ้อน (ซึ่งยังควรส่งต่อด้วยระบบของโรงพยาบาลถ้าเข้าเกณฑ์ burn center)",
+"C": "แจ้งตำรวจ/หน่วยคุ้มครองเด็กเป็นหน้าที่ตามกฎหมาย แต่การส่งเด็กกลับบ้านไม่ได้ปกป้องเด็ก และไม่ได้รักษาแผลไหม้ที่เท้าซึ่งเข้าเกณฑ์ burn center (P'Ing: แจ้งตำรวจ ✗) · จะถูกถ้าโจทย์ถามสิ่งที่ \"ต้องทำร่วม\" หลังรับเด็กไว้ในความคุ้มครองแล้ว (รายงานเจ้าหน้าที่/ทีม child protection)",
+"D": "รักษาแบบผู้ป่วยนอกไม่เหมาะ: แผลไหม้ที่เท้าทั้งสองข้าง (บริเวณสำคัญเชิงหน้าที่) เป็นเกณฑ์ส่ง burn center และเด็กที่สงสัยถูกทำร้ายต้องรับไว้เพื่อความปลอดภัย · จะถูกถ้าเป็น superficial burn เล็ก ๆ ที่ไม่อยู่บริเวณพิเศษ กลไกสอดคล้องประวัติ และบ้านปลอดภัย",
+"E": "ห้ามปล่อยเด็กกลับกับผู้ต้องสงสัยกระทำ (stepfather) เพราะเสี่ยงถูกทำร้ายซ้ำรุนแรงขึ้นหรือเสียชีวิต · จะถูกถ้าไม่มีสถานการณ์ใดเมื่อยังสงสัย abuse ที่ยังไม่ได้ประเมินโดยทีมคุ้มครองเด็ก"
+}
+},
+"MDCU74|RoD|15": {
+"wrong": {
+"B": "เจ็บหน้าอกจาก pericarditis ดีขึ้นเมื่อ \"นั่งโน้มตัวไปข้างหน้า\" และแย่ลงเมื่อนอนหงาย/หายใจลึก · จะถูกถ้าโจทย์ถามอาการเจ็บหน้าอกจาก musculoskeletal ที่ไม่สัมพันธ์กับท่า หรือท่าที่ทำให้ pericarditis แย่ลง",
+"C": "Pericardial friction rub มีได้ถึง 3 องค์ประกอบ (atrial systole, ventricular systole, early diastole) ฟังชัดที่ LLSB ตอนนั่งโน้มตัวหายใจออก ไม่ใช่เฉพาะ diastole · จะถูกถ้าโจทย์ถามเสียงที่มีองค์ประกอบ diastole อย่างเดียว เช่น diastolic murmur ของ AR",
+"D": "Colchicine เป็น first-line ร่วมกับ NSAID/aspirin (3 เดือน) ลดอาการและลด recurrence ~50% (COPE, ICAP) ไม่ใช่ข้อห้าม · จะถูกถ้าผู้ป่วยมี severe renal impairment หรือได้ยา strong CYP3A4/P-gp inhibitor ซึ่งต้องลดขนาด/เลี่ยง",
+"E": "ส่วนใหญ่ (80–90%) เป็น idiopathic/viral ไม่ใช่ bacterial (purulent pericarditis พบน้อย รุนแรง) · จะถูกถ้าโจทย์เป็นผู้ป่วยมีไข้สูงหลัง thoracic surgery/pneumonia แล้วเกิด purulent effusion"
+},
+"trap": "Acute pericarditis: เจ็บแหลม pleuritic ดีขึ้นเมื่อโน้มตัวไปข้างหน้า + friction rub + ECG diffuse concave ST elevation กับ PR depression (aVR กลับทิศ: PR elevation) + pericardial effusion (≥ 2 ใน 4 วินิจฉัยได้) · แยกจาก STEMI: ST elevation เฉพาะ territory, convex, มี reciprocal change, ไม่มี PR depression · ห้ามใช้ steroid เป็น first-line (เพิ่ม recurrence) · ไฟล์ไม่มีช้อย → Claude แต่งช้อยและเฉลย"
+},
+"MDCU74|RoD|16": {
+"wrong": {
+"B": "CT chest ใช้เมื่อ CXR/esophagogram ไม่ชัด หรือดูขอบเขต mediastinal collection/effusion เพื่อวางแผนผ่าตัด (P'Ing: B ✗ ถ้า CXR ไม่ชัด) ไม่ใช่ initial · จะถูกถ้า CXR ปกติแต่ยังสงสัยมาก หรือผู้ป่วยกลืนสารทึบรังสีไม่ได้",
+"C": "Upper endoscopy ไม่ใช่ initial เพราะการเป่าลมอาจขยายรอยแตกและทำให้ pneumomediastinum แย่ลง (ใช้ในบางศูนย์เพื่อประเมิน/ใส่ stent ในภายหลัง) · จะถูกถ้าโจทย์เป็น Mallory–Weiss tear ที่อาเจียนเป็นเลือดแต่ไม่มีลมรั่ว",
+"D": "Barium swallow ถ้ารั่วเข้า mediastinum/pleura ทำให้ mediastinitis รุนแรง จึงใช้ water-soluble (Gastrografin) ก่อน แล้วค่อย barium ถ้าผลลบแต่ยังสงสัย (barium sensitivity สูงกว่า) · จะถูกถ้า water-soluble esophagogram ผลลบแต่ยังสงสัย perforation",
+"E": "Echocardiography ใช้ประเมิน pericardial effusion/การทำงานของหัวใจ ไม่วินิจฉัย esophageal perforation · จะถูกถ้าโจทย์สงสัย cardiac tamponade หรือ acute MI ที่ทำให้เจ็บหน้าอก"
+},
+"trap": "ขั้นตอนใน Boerhaave: CXR (pneumomediastinum, subcutaneous emphysema, left pleural effusion/hydropneumothorax, V sign of Naclerio) เป็น initial → ยืนยันด้วย water-soluble contrast esophagogram หรือ CT chest with oral contrast · ถ้าเจาะ pleural fluid อาจเห็นเศษอาหาร pH ต่ำ amylase สูง · อย่าสับสนลำดับ: CT ไม่ใช่ initial ในข้อนี้ตาม P'Ing"
+},
+"MDCU74|RoD|17": {
+"wrong": {
+"A": "Stage I = T1–T2 N0 M0 (ก้อนยังไม่ทะลุ muscularis propria และไม่มีต่อมน้ำเหลือง) → ผ่าตัดอย่างเดียวแล้วติดตาม · ข้อนี้ pT3 และ N1b · จะถูกถ้า pathology เป็น pT2N0",
+"B": "Stage IIA = T3 N0 → ผ่าตัดแล้วติดตาม (พิจารณา adjuvant เฉพาะ high-risk features เช่น T4, < 12 nodes, LVI, obstruction/perforation) · ข้อนี้มีต่อมน้ำเหลืองบวก 3 ต่อม · จะถูกถ้าต่อมน้ำเหลืองทั้ง 18 ต่อมลบ",
+"D": "Stage ถูก (IIIB) แต่ colon cancer ไม่ให้ radiotherapy ประจำ (RT ใช้ใน rectal cancer เพราะ local recurrence ในอุ้งเชิงกรานสูง) · จะถูกถ้าเป็น mid/low rectal cancer stage III (ให้ chemoradiation, โดยมาก neoadjuvant)",
+"E": "Stage IV ต้องมี distant metastasis (M1: ตับ ปอด peritoneum) — CT ไม่พบ · จะถูกถ้า staging CT พบ liver metastasis หลายก้อนที่ผ่าตัดไม่ได้"
+}
+},
+"MDCU74|RoD|18": {
+"wrong": {
+"B": "Ascending aorta rupture เป็นตำแหน่งที่ 2 ของ BTAI แต่ผู้ป่วยมักเสียชีวิตที่เกิดเหตุจาก tamponade/coronary injury จึงพบน้อยในผู้ที่รอดมาถึง รพ. · จะถูกถ้าโจทย์ถามตำแหน่งที่พบบ่อยจากการชันสูตรผู้เสียชีวิตทันที",
+"C": "Proximal aortic arch/innominate artery origin บาดเจ็บได้รองลงมา (branch vessel avulsion) แต่พบน้อยกว่า isthmus มาก · จะถูกถ้าโจทย์ถาม blunt injury ของ innominate artery ที่ทำให้ชีพจรแขนขวาเบา",
+"D": "Abdominal aorta บาดเจ็บจาก blunt trauma พบน้อย (seat-belt injury ร่วมกับ Chance fracture และ bowel injury) · จะถูกถ้าโจทย์บอก seat-belt sign + lumbar spine fracture + ชีพจรขาเบา",
+"E": "Aortic root บาดเจ็บพบน้อยและผู้ป่วยมักเสียชีวิตทันที (อาจทำให้ AR หรือ coronary dissection) · จะถูกถ้าโจทย์ถามสาเหตุ acute AR หลังอุบัติเหตุหน้าอกรุนแรง (ซึ่งพบน้อยมาก)"
+},
+"trap": "Deceleration (รถชนประสานงา ตกจากที่สูง) → shear force สูงสุดที่ aortic isthmus ใต้ left subclavian ตรง ligamentum arteriosum (~90% ของผู้รอด) · CXR: widened mediastinum, loss of aortic knob, NG/trachea เบี่ยงขวา, left main bronchus ถูกกด, apical cap · ยืนยันด้วย CTA · Rx: anti-impulse (HR < 80, SBP < 100) → TEVAR · ข้อเดียวกับประเด็น 72D ไม่มีเลข 1"
+},
+"MDCU74|RoD|20": {
+"wrong": {
+"A": "Cystic fibrosis ทำให้ bronchiectasis แบบ diffuse สองข้าง (เด่นที่ upper lobe) การตัดปอดบางส่วนไม่ช่วย ทางเลือกสุดท้ายคือ bilateral lung transplantation · จะถูกถ้าโจทย์ถามบทบาทของ lung transplant ใน end-stage CF",
+"C": "Immunodeficiency (เช่น IgA/CVID/hypogammaglobulinemia) ทำให้ติดเชื้อซ้ำและ bronchiectasis แบบ diffuse รักษาด้วย IVIG + antibiotics ไม่ใช่ resection · จะถูกถ้าโจทย์ถามการรักษา bronchiectasis จาก CVID (IVIG replacement)",
+"D": "Alpha-1 antitrypsin deficiency ทำให้ panlobular emphysema ที่ lower lobe และ bronchiectasis แบบกระจาย (P'Ing: D ✗ COPD) ไม่เหมาะ resection · จะถูกถ้าโจทย์ถามสาเหตุ emphysema ในคนอายุน้อยที่ไม่สูบบุหรี่ (ร่วมกับโรคตับ)",
+"E": "มีช้อยที่ถูก — localized bronchiectasis เป็นข้อบ่งชี้ของการผ่าตัด · จะถูกถ้าทุกช้อยเป็นโรคแบบ diffuse ที่ไม่มีบทบาทของการผ่าตัด"
+},
+"trap": "Surgery (lobectomy/segmentectomy) ใน bronchiectasis มีบทบาทเฉพาะโรคที่ \"localized\" (เช่น หลัง TB, foreign body, post-obstructive) ที่มีอาการแม้รักษาด้วยยาเต็มที่: hemoptysis ซ้ำ/รุนแรง, ติดเชื้อซ้ำ, ฝีปอด — เพื่อตัดวงจร vicious cycle (infection → inflammation → airway damage → impaired clearance) ตามลายมือ P'Ing · โรค diffuse → medical + airway clearance, ระยะสุดท้าย transplant · hemoptysis มาก → bronchial artery embolization ก่อน"
+},
+"MDCU74|RoD|21": {
+"wrong": {
+"B": "Thymoma อยู่ anterior mediastinum (เป็น anterior tumor ที่พบบ่อยที่สุดในผู้ใหญ่) สัมพันธ์ myasthenia gravis · จะถูกถ้าก้อนอยู่หน้าหัวใจ/หลัง sternum ในผู้ใหญ่อายุ > 40 ปี",
+"C": "Teratoma/germ cell tumor อยู่ anterior mediastinum ในคนหนุ่มสาว (มีไขมัน หินปูน ฟัน) · จะถูกถ้าชายอายุ 20–30 ปีมีก้อนหน้าหัวใจที่มีไขมันและหินปูน",
+"D": "Lymphoma อยู่ anterior หรือ middle mediastinum ร่วมกับต่อมน้ำเหลืองที่อื่นและ B symptoms · จะถูกถ้าผู้ป่วยมีไข้ เหงื่อออกกลางคืน น้ำหนักลด และต่อมน้ำเหลืองคอโต",
+"E": "Bronchogenic cyst เป็น foregut cyst ที่พบบ่อยที่สุด อยู่ middle mediastinum (subcarinal/paratracheal) · จะถูกถ้าก้อนน้ำผนังบางใต้ carina พบโดยบังเอิญ"
+},
+"trap": "Posterior (paravertebral) mediastinum → neurogenic tumor (~75%): ผู้ใหญ่ส่วนใหญ่เป็น benign nerve sheath tumor (schwannoma/neurilemmoma > neurofibroma) · เด็กเป็น neuroblastoma/ganglioneuroblastoma (malignant บ่อยกว่า) · ต้องทำ MRI ดูว่าก้อนลามเข้า spinal canal (dumbbell tumor) ก่อนผ่าตัด · จำตำแหน่ง: anterior = 4T, middle = cysts/nodes, posterior = neurogenic"
+},
+"MDCU74|RoD|22": {
+"wrong": {
+"B": "Adjuvant chemoradiation ไม่จำเป็นทุกราย — ตัดสินตาม Masaoka–Koga stage และ WHO type/margin: stage I resect หมดไม่ต้อง adjuvant · stage II–III หรือ margin บวกพิจารณา RT · จะถูกถ้า pathology หลังผ่าตัดเป็น stage III invasive thymoma ที่ margin บวก",
+"C": "FNA/biopsy ทาง transthoracic ไม่แนะนำเมื่อภาพ + MG ชี้ thymoma ที่ resectable เพราะเสี่ยงเชื้อมะเร็งกระจายไปตามแนวเข็ม/pleura (capsule ถูกเจาะ) และเนื้อน้อยแยกชนิดยาก · จะถูกถ้าก้อนลุกลามผ่าตัดไม่ได้ หรือสงสัย lymphoma/germ cell tumor ที่รักษาด้วยเคมีบำบัด (ต้องมีชิ้นเนื้อก่อน)",
+"D": "Radiotherapy อย่างเดียวไม่ใช่การรักษาหลักของ resectable thymoma · จะถูกถ้าผู้ป่วยมี unresectable thymoma ที่ไม่เหมาะผ่าตัด หรือเป็น adjuvant หลัง incomplete resection",
+"E": "Pyridostigmine รักษาอาการ MG (acetylcholinesterase inhibitor) แต่ไม่ได้รักษาก้อน thymoma ซึ่งต้องผ่าตัดออก · จะถูกถ้าโจทย์ถามยาตัวแรกเพื่อคุมอาการ MG ก่อนผ่าตัด (ร่วมกับ optimize ด้วย IVIG/plasmapheresis ถ้าอาการมาก)"
+}
+},
+"MDCU74|RoD|23": {
+"wrong": {
+"B": "ข้อความนี้ \"เป็น\" เกณฑ์: protein > 3 g/dL (exudate) อยู่ในเกณฑ์วินิจฉัยตามสไลด์ · จะเป็นคำตอบ (ข้อ NOT) ถ้าโจทย์ให้ protein < 3 g/dL ซึ่งเข้ากับ transudate",
+"C": "ข้อความนี้ \"เป็น\" เกณฑ์: pH < 7 (บาง guideline ใช้ < 7.2 สำหรับ complicated effusion ที่ต้องระบาย) · จะเป็นคำตอบ (ข้อ NOT) ถ้าโจทย์ให้ pH > 7.2",
+"D": "ข้อความนี้ \"เป็น\" เกณฑ์: glucose < 40 mg/dL จากเชื้อและเม็ดเลือดขาวใช้กลูโคส · จะเป็นคำตอบ (ข้อ NOT) ถ้าโจทย์ให้ glucose ปกติใกล้ระดับในเลือด",
+"E": "ข้อความนี้ \"เป็น\" เกณฑ์: Gram stain หรือ culture บวก = empyema ตามนิยาม · จะเป็นคำตอบ (ข้อ NOT) ถ้าโจทย์ให้ Gram stain และ culture ลบ"
+},
+"trap": "ข้อ NOT ที่หลอกด้วยตัวเลข: เกณฑ์ WBC ตามสไลด์คือ > 15,000/mm³ ไม่ใช่ 10,000 (P'Ing: A ✗ > 15,000) · ชุดเกณฑ์ที่ต้องจำตามสไลด์: Gram stain/culture บวก, WBC > 15,000, protein > 3 g/dL, pH < 7, glucose < 40 mg/dL, LDH > 1,000 IU/L · หนองข้นจากการเจาะก็พอวินิจฉัยได้เลย"
+},
+"MDCU74|RoD|24": {
+"wrong": {
+"B": "Aortic stenosis ไม่สัมพันธ์กับ Marfan (สัมพันธ์กับ bicuspid valve, calcific degeneration ผู้สูงอายุ, rheumatic) · จะถูกถ้าโจทย์ถามลิ้นหัวใจที่ผิดปกติใน Turner syndrome (bicuspid AV → AS/AR) หรือ Williams syndrome (supravalvular AS)",
+"C": "Mitral stenosis เกือบทั้งหมดเกิดจาก rheumatic heart disease ไม่ใช่ connective tissue disorder · จะถูกถ้าโจทย์มีประวัติ rheumatic fever ร่วมกับ opening snap และ diastolic rumble",
+"D": "Mitral valve prolapse/MR พบบ่อยใน Marfan (~60–80% มี MVP) แต่ไม่ใช่ผลจาก aortic root dilatation ตามที่โจทย์ถาม · จะถูกถ้าโจทย์ถามความผิดปกติของลิ้นหัวใจที่พบบ่อยที่สุดใน Marfan โดยรวม (MVP)",
+"E": "Tricuspid regurgitation/prolapse พบได้แต่ไม่ใช่ลักษณะเด่นของ Marfan · จะถูกถ้าโจทย์เป็น Ebstein anomaly (ลูกแม่ที่ได้ lithium) หรือ endocarditis ในผู้ใช้ยาเสพติดฉีด"
+},
+"trap": "โจทย์ถามลิ้นที่ผิดปกติ \"จาก aortic root dilatation\" → AR (annulus ขยายจนลิ้นปิดไม่สนิท) · MVP พบบ่อยกว่าใน Marfan แต่เป็นปัญหาของลิ้น mitral เอง · Marfan (FBN1): ตัวสูง arachnodactyly, ectopia lentis (ขึ้นบน-ออกนอก), aortic root dilatation → dissection type A · ผ่าตัด root replacement เมื่อ ≥ 5 cm (≥ 4.5 cm ถ้ามีปัจจัยเสี่ยง) · ใช้ β-blocker/ARB ชะลอการขยาย"
+},
+"MDCU74|RoD|25": {
+"wrong": {
+"B": "Pyogenic brain abscess เห็นเป็น ring-enhancing lesion ผนังเรียบบาง มี restricted diffusion ตรงกลาง edema รอบ ๆ มักไม่กี่ก้อน ไม่มีจุด scolex และไม่มีหินปูนกระจาย · จะถูกถ้าผู้ป่วยมีไข้ ปวดศีรษะ มีแหล่งติดเชื้อ (sinusitis, otitis, IE, cyanotic CHD)",
+"C": "Tuberculoma เห็นเป็น ring/nodular enhancement (target sign) มักร่วมกับ basal meningeal enhancement, hydrocephalus · จะถูกถ้าผู้ป่วยมีไข้เรื้อรัง น้ำหนักลด CXR มี TB และ CN palsy",
+"D": "Toxoplasmosis เป็น multiple ring-enhancing lesions ที่ basal ganglia/corticomedullary junction ในผู้ป่วย AIDS (CD4 < 100) (eccentric target sign) · จะถูกถ้าผู้ป่วย HIV ที่ไม่ได้ ART มีไข้ ชัก สับสน",
+"E": "Metastasis มักหลายก้อนที่ gray–white junction มี edema มากเทียบขนาด ผู้ป่วยสูงอายุมีมะเร็งปฐมภูมิ (ปอด เต้านม melanoma) ไม่มี scolex · จะถูกถ้าผู้ป่วยสูงอายุสูบบุหรี่ มีก้อนในปอดร่วม"
+},
+"trap": "\"Cyst with dot\" (eccentric scolex) = vesicular stage ของ neurocysticercosis (Taenia solium) — ติดจากการกินไข่พยาธิ (fecal–oral, คนเลี้ยงหมู/อยู่ร่วมคนเป็นพยาธิตืดหมู) ไม่ใช่จากกินเนื้อหมูดิบ (นั่นทำให้เป็นพยาธิตัวตืดในลำไส้) · ระยะ: vesicular → colloidal (ring enhance + edema) → granular nodular → calcified (หินปูนจุด) · Rx: albendazole + steroid (ยกเว้น calcified ไม่ต้อง) + antiepileptic · ห้ามให้ anthelmintic ใน cysticercal encephalitis"
+},
+"MDCU74|RoD|26": {
+"wrong": {
+"B": "Meningioma ที่ CPA เป็น broad-based dural-attached มี dural tail ไม่ค่อยเข้า IAC (มุมกับ petrous bone ป้าน) อาจมีหินปูน · จะถูกถ้า MRI เห็นก้อน CPA ที่มี dural tail และไม่ลามเข้า IAC (เช่น 74C เลข 16)",
+"C": "Epidermoid cyst ที่ CPA ไม่ enhance เข้ารูปตามช่องว่าง (insinuating) DWI สว่าง (restricted diffusion) มักนำด้วย trigeminal neuralgia/hemifacial spasm · จะถูกถ้า MRI เห็นก้อนไม่ enhance ที่ DWI สว่าง",
+"D": "Glomus jugulare (paraganglioma) อยู่ jugular foramen → pulsatile tinnitus, conductive hearing loss, CN IX–XI palsy · MRI salt-and-pepper · จะถูกถ้าโจทย์บรรยายเสียงในหูเต้นตามชีพจรและก้อนแดงหลังแก้วหู",
+"E": "Trigeminal schwannoma นำด้วยอาการ CN V (ชา/ปวดใบหน้า) อยู่ Meckel cave อาจเป็นรูป dumbbell ข้าม middle–posterior fossa ไม่ใช่ IAC · จะถูกถ้าผู้ป่วยชาใบหน้าค่อย ๆ เป็นมากขึ้นโดยไม่มีหูตึง"
+},
+"trap": "Vestibular schwannoma (เกิดจาก vestibular division ของ CN VIII ภายใน IAC): หูตึงแบบ sensorineural ข้างเดียวค่อย ๆ เป็น + tinnitus + เสียการทรงตัว → ก้อนโตกด CN V (corneal reflex หายเป็นอาการแรก ๆ) และ cerebellum · MRI \"ice-cream cone\" ขยาย IAC · bilateral → NF2 · Rx: observe (ก้อนเล็ก), stereotactic radiosurgery (< 3 cm), microsurgery (ก้อนใหญ่) · ไฟล์จดแค่ชื่อโรค → Claude แต่งโจทย์"
+}
+}
