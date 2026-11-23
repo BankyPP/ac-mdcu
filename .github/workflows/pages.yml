@@ -20,7 +20,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment2.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -39,6 +39,14 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+      # 24 Nov 2026: deploy-pages often fails with 'No artifacts named "github-pages"' right after a successful upload
+      # (GitHub API lag). Retry once by itself after a short wait instead of needing a manual rerun.
       - if: steps.check.outputs.skip != '1'
         id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - if: steps.check.outputs.skip != '1' && steps.deployment.outcome == 'failure'
+        run: sleep 45
+      - if: steps.check.outputs.skip != '1' && steps.deployment.outcome == 'failure'
+        id: deployment2
         uses: actions/deploy-pages@v4
