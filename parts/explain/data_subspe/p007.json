@@ -1,0 +1,223 @@
+{
+"MDCU66|RoD|10": {
+ "wrong": {
+  "B": "Anticholinergic drugs (TCA, antihistamine, antispasmodic, antipsychotic) ลดการบีบตัวของลำไส้ → ท้องผูก เป็นสาเหตุที่ยืนยันแล้ว · จะเป็นคำตอบได้เฉพาะถ้าช้อยเป็นยาที่ทำให้ท้องเสีย เช่น metformin, misoprostol, colchicine",
+  "C": "Multiple sclerosis ทำให้ท้องผูกจาก autonomic/spinal cord involvement (พบ ~40–50%) · จะเป็นคำตอบถ้าช้อยเป็นโรคที่ทำให้ท้องเสีย เช่น hyperthyroidism, diabetic autonomic neuropathy (ท้องเสียกลางคืนได้)",
+  "D": "Hypothyroidism ลด GI motility → ท้องผูก (เป็นสาเหตุที่ต้องตรวจ TSH ในผู้ป่วยท้องผูกเรื้อรังที่มีอาการอื่นร่วม) · จะเป็นคำตอบถ้าช้อยเป็น hyperthyroidism",
+  "E": "Hypercalcemia ('bones, stones, groans, moans') ทำให้ท้องผูก ปวดท้อง คลื่นไส้ · จะเป็นคำตอบถ้าช้อยเป็น hypocalcemia ซึ่งไม่ทำให้ท้องผูก"
+ },
+ "summary": [
+  "Secondary constipation: ยา (opioid, anticholinergic, CCB เช่น verapamil, iron, calcium, aluminium antacid), metabolic (hypothyroid, hypercalcemia, hypokalemia, เบาหวาน), neurologic (Parkinson, MS, spinal cord injury, Hirschsprung), obstruction (CRC, stricture)",
+  "Parkinson disease: ท้องผูกพบ > 50% และเป็น prodromal symptom ก่อนอาการทางการเคลื่อนไหวได้หลายปี (autonomic dysfunction + ยา anticholinergic)",
+  "Red flags ต้อง colonoscopy: อายุ > 45–50 อาการเริ่มใหม่, เลือดออก, IDA, น้ำหนักลด, ประวัติครอบครัว CRC",
+  "Functional constipation: Rome IV · รักษา fiber, น้ำ, osmotic laxative (PEG) เป็นหลัก",
+  "⚠ คีย์ตอบ A (Parkinson) แต่ทุกช้อยเป็นสาเหตุท้องผูกได้จริง — recall น่าจะคลาดเคลื่อน ถ้าเจอในข้อสอบจริงให้อ่านช้อยใหม่ให้ดี"
+ ]
+},
+"MDCU66|RoD|11": {
+ "why": "เด็กเคยเป็น <b>febrile UTI</b> + US พบ <b>bilateral hydronephrosis + hydroureter</b> → การขยายทั้งท่อไตบ่งว่าปัญหาอยู่ที่ระดับกระเพาะปัสสาวะหรือต่ำกว่า: <b>vesicoureteral reflux (VUR)</b> (คีย์ลายมือ) หรือในเด็กชาย <b>posterior urethral valve (PUV)</b>, neurogenic bladder → ต้องทำ <b>VCUG (voiding cystourethrogram)</b> ซึ่งเป็น gold standard ในการวินิจฉัยและ <b>grade VUR (I–V)</b> และเห็น urethra ขณะปัสสาวะ (PUV) · ทำหลังรักษาการติดเชื้อหายแล้ว · AAP 2011: VCUG หลัง febrile UTI ครั้งแรกเมื่อ US ผิดปกติ (hydronephrosis, scarring) หรือเป็นซ้ำ · จากนั้นพิจารณา DMSA ดู renal scar",
+ "wrong": {
+  "B": "IVP ได้รังสีและ contrast ไม่บอก reflux (ต้องปัสสาวะให้เห็นการไหลย้อน) และไม่ใช้ในเด็กแล้ว (ลายมือ b: ไม่ทำแล้ว radiation) · จะถูกถ้าโจทย์ย้อนยุคถามการดูกายวิภาค pelvicalyceal ในผู้ใหญ่ที่ไม่มี CT",
+  "C": "CT abdomen รังสีสูงในเด็ก และไม่แสดง VUR · จะถูกถ้าสงสัย renal/perinephric abscess ที่ไม่ตอบสนองยา หรือบาดเจ็บช่องท้อง",
+  "D": "DMSA scan ดู <b>renal cortical scar</b>/acute pyelonephritis และ split function แต่บอก reflux ไม่ได้ จึงใช้อย่างเดียวไม่พอ · จะถูกถ้าโจทย์ถามการตรวจหา renal scarring หลัง febrile UTI (ทำ 4–6 เดือนหลังติดเชื้อ) หรือแนวทาง 'top-down'",
+  "E": "Bilateral hydroureteronephrosis หลัง febrile UTI ไม่ควรรอดู เสี่ยงติดเชื้อซ้ำ ไตเป็นแผลเป็น ความดันสูง ไตวาย · จะถูกถ้าเป็นเด็กที่ febrile UTI ครั้งแรกและ US ปกติ (AAP ไม่ต้อง VCUG)"
+ },
+ "summary": [
+  "VUR grading (VCUG): I ท่อไตไม่ขยาย · II ถึงไตไม่ขยาย · III ขยายเล็กน้อย · IV ขยายปานกลาง + calyces ทู่ · V ขยายมาก คดเคี้ยว",
+  "Low grade (I–II) ส่วนใหญ่หายเอง · high grade/ติดเชื้อซ้ำ → continuous antibiotic prophylaxis (RIVUR trial) ± surgery",
+  "ผ่าตัด: endoscopic injection (Deflux) หรือ ureteral reimplantation เมื่อ breakthrough UTI, high grade ไม่หาย, scar ใหม่",
+  "Bilateral HN + ผนัง bladder หนา + keyhole sign ในเด็กชาย → PUV → ใส่สายสวน + valve ablation",
+  "รักษา bladder/bowel dysfunction (ท้องผูก, กลั้นปัสสาวะ) ร่วมด้วยเสมอ"
+ ]
+},
+"MDCU66|RoD|12": {
+ "why": "<b>CSF</b> สร้างประมาณ <b>0.3–0.35 mL/นาที ≈ 450–500 mL/วัน</b> (คีย์ลายมือ: ~500 cc/day) ส่วนใหญ่ (~70–80%) จาก <b>choroid plexus</b> ใน lateral, 3rd, 4th ventricles ที่เหลือจาก ependyma/interstitial fluid · ปริมาตรรวมในระบบผู้ใหญ่ ~<b>125–150 mL</b> (ใน ventricle ~25 mL) → turnover ~3–4 รอบ/วัน · ทางเดิน: lateral ventricle → foramen of Monro → 3rd ventricle → aqueduct of Sylvius → 4th ventricle → foramina of Luschka (lateral) และ Magendie (median) → subarachnoid space → ดูดซึมที่ <b>arachnoid granulations</b> เข้า dural venous sinus · การสร้างค่อนข้างคงที่ไม่ขึ้นกับ ICP ส่วนการดูดซึมขึ้นกับความดัน",
+ "wrong": {
+  "A": "50 mL ต่ำเกินมาก — ใกล้กับปริมาตร CSF ในทารก/ใน ventricle มากกว่า · จะถูกถ้าโจทย์ถามปริมาตร CSF ในทารกแรกเกิด (~50 mL)",
+  "B": "150 mL คือ<b>ปริมาตรรวม</b>ของ CSF ในระบบผู้ใหญ่ ไม่ใช่ปริมาณที่สร้างต่อวัน · จะถูกถ้าโจทย์ถาม 'total CSF volume in adults'",
+  "C": "250 mL ต่ำกว่าอัตราการสร้างจริง (~0.35 mL/min × 1,440 นาที ≈ 500 mL) · จะถูกถ้าโจทย์ถามปริมาณที่สร้างในช่วงครึ่งวัน",
+  "D": "350 mL ยังต่ำกว่าค่ามาตรฐานที่ตำราใช้ (450–500 mL/วัน) · จะถูกถ้าโจทย์ใช้อัตรา 0.25 mL/min (ค่าต่ำในบางตำรา/ผู้สูงอายุ)"
+ },
+ "trap": "สับสน <b>production (~500 mL/วัน)</b> กับ <b>volume (~150 mL)</b> บ่อยที่สุด · EVD drainage ปกติอยู่ราว 10–20 mL/ชม. (สอดคล้องกับอัตราสร้าง ~20 mL/ชม.)",
+ "summary": [
+  "CSF production ~0.35 mL/min ≈ 450–500 mL/วัน · volume ~150 mL · turnover 3–4 รอบ/วัน",
+  "สร้างที่ choroid plexus (ส่วนใหญ่ lateral ventricles) · ดูดซึมที่ arachnoid granulations",
+  "Acetazolamide/furosemide ลดการสร้าง CSF ได้เล็กน้อย",
+  "Normal opening pressure (lateral decubitus): 6–20 cmH₂O",
+  "Choroid plexus papilloma → overproduction hydrocephalus"
+ ]
+},
+"MDCU66|RoD|13": {
+ "interp": "ซ้ำกับข้อ 1 ในชุดเดียวกัน (ช้อยเรียงต่างกัน) — <b>brain abscess</b> เป็น space-occupying lesion จึงถามข้อห้ามที่อาจทำให้เกิด herniation",
+ "why": "<b>Brain abscess</b> = ก้อนหนองที่มีผนัง + edema รอบ ๆ → mass effect + ICP สูง (คีย์ลายมือ: ↑ICP) → <b>ห้ามทำ lumbar puncture</b> เพราะการลดความดันใต้ foramen magnum ทำให้เกิด <b>transtentorial/tonsillar herniation</b> ได้ และ CSF มักไม่ช่วยวินิจฉัย (เชื้อขึ้นน้อย) อีกทั้งถ้าฝีแตกเข้า ventricle (ventriculitis) อันตรายสูง · การตรวจที่ควรทำ: <b>contrast CT หรือ MRI with DWI</b> (ring enhancement + DWI restriction), <b>hemoculture</b>, <b>echocardiogram</b> (หา IE/cyanotic CHD) และหาแหล่งติดเชื้อ (sinus, หู, ฟัน) · รักษา: stereotactic aspiration/excision + IV antibiotics 6–8 สัปดาห์",
+ "wrong": {
+  "B": "Echocardiogram หา infective endocarditis และ R→L shunt (cyanotic CHD) ซึ่งเป็นแหล่ง hematogenous ของ brain abscess · ไม่ใช่ข้อห้าม · จะเป็นตัวเลือกหลักถ้าโจทย์เป็นเด็ก TOF ที่มีปวดหัว ไข้ ชัก",
+  "C": "Hemoculture ช่วยหาเชื้อก่อนให้ยา (บวก ~10–30%) · ไม่ใช่ข้อห้าม · ไม่มีสถานการณ์ที่ห้ามเจาะ hemoculture",
+  "D": "Contrast CT ใช้วินิจฉัย (ring-enhancing lesion) · MRI ดีกว่าในการแยกจากก้อนเนื้องอก · จะเป็นข้อห้ามเฉพาะผู้ป่วยแพ้สารทึบรังสีรุนแรง/ไตวาย (ใช้ MRI หรือ non-contrast แทน)",
+  "E": "ผิดเพราะ LP เป็นข้อห้าม · จะถูกถ้าช้อยทั้งหมดเป็นการตรวจที่ทำได้"
+ },
+ "trap": "อย่าเห็นไข้ + ปวดหัวแล้วรีบเจาะ LP แบบ meningitis — ถ้ามี focal deficit, ชัก, papilledema, ซึม ต้อง <b>CT ก่อน</b> · ข้อนี้ออกซ้ำ 2 ครั้งในชุด 66 RoD",
+ "summary": [
+  "Brain abscess แหล่ง: contiguous (sinus, หู, ฟัน), hematogenous (IE, cyanotic CHD, lung), trauma/ผ่าตัด",
+  "MRI: ring enhancement + DWI restriction (แยกจาก necrotic tumor)",
+  "ห้าม LP · ให้ empiric: ceftriaxone + metronidazole (± vancomycin หลังบาดเจ็บ/ผ่าตัด)",
+  "Aspiration เมื่อ > 2.5 cm, mass effect, ใกล้ ventricle, ไม่ตอบสนองยา",
+  "ภาวะแทรกซ้อน: rupture into ventricle (ventriculitis — mortality สูง), herniation, ชัก"
+ ]
+},
+"MDCU66|RoD|14": {
+ "interp": "ข้อ <b>NOT</b> — ถามเกณฑ์ของ empyema ข้อไหนไม่ใช่ · ตัวเลข WBC ในช้อยต่ำกว่าที่สไลด์กำหนด (ลายมือ: 15,000)",
+ "why": "เกณฑ์ empyema/complicated parapneumonic effusion ตามสไลด์: <b>Gram stain/culture บวก</b>, หนอง, <b>pH < 7.2</b>, <b>glucose < 40–60 mg/dL</b>, <b>LDH > 1,000 IU/L</b>, <b>WBC > 15,000/µL</b> (ไม่ใช่ 10,000) และ protein > 3 g/dL (exudate) → ช้อย B ที่ใช้ WBC > 10,000 จึงไม่ตรงเกณฑ์ = คำตอบ · ข้อนี้ซ้ำกับ 66 RoB ข้อ 74",
+ "wrong": {
+  "A": "LDH > 1,000 IU/L บ่ง pleural inflammation รุนแรง (complicated parapneumonic) เป็นเกณฑ์ · จะเป็นคำตอบถ้าช้อยเขียน LDH < 200",
+  "C": "Gram stain บวก = หลักฐานตรงของ empyema · จะเป็นคำตอบไม่ได้",
+  "D": "Protein > 3 g/dL = exudate ตาม Light's criteria (empyema เป็น exudate เสมอ) · จะเป็นคำตอบถ้าช้อยเป็น protein < 3 (transudate)",
+  "E": "Glucose < 40 mg/dL บ่งเชื้อ/เซลล์ใช้ glucose มาก (complicated effusion) · จะเป็นคำตอบถ้าช้อยเขียน glucose > 100 (ปกติ)"
+ },
+ "trap": "ตัวเลขใกล้เคียงคือกับดัก — จำเกณฑ์ตามสไลด์: <b>WBC > 15,000, pH < 7.2, glucose < 60 (บางที่ < 40), LDH > 1,000</b>",
+ "summary": [
+  "Empyema: pus หรือ organism (direct) · pH/glucose/LDH/WBC (indirect)",
+  "Light's criteria: protein ratio > 0.5, LDH ratio > 0.6, LDH > 2/3 ULN → exudate",
+  "Complicated → ICD (± fibrinolytic) · organizing → VATS decortication",
+  "วัด pH ด้วย blood gas analyzer",
+  "ซ้ำ 66 RoB 74"
+ ]
+},
+"MDCU66|RoD|15": {
+ "interp": "ถามข้อบ่งชี้<b>ผ่าตัด</b> lung abscess — ส่วนใหญ่หายด้วยยา ผ่าตัดเฉพาะเมื่อ<b>ล้มเหลวจากยา</b>หรือมีภาวะแทรกซ้อนรุนแรง",
+ "why": "Lung abscess ~80–90% หายด้วยยาปฏิชีวนะนาน + postural drainage · ข้อบ่งชี้ผ่าตัด (lobectomy/segmentectomy) ตามสไลด์: <b>ไม่ตอบสนองยา</b> (ไข้ไม่ลด ก้อนไม่ยุบหลัง ~2 สัปดาห์ หรือหลัง 6 สัปดาห์ยังไม่ดีขึ้น) → คำตอบ A · อื่น ๆ: <b>massive hemoptysis</b> (ไม่ใช่ occasional — ลายมือ b: massive), abscess ขนาดใหญ่ > 6 cm, สงสัย <b>มะเร็ง</b> (cavitating carcinoma/obstructing tumor), empyema/BPF ที่ระบายแล้วไม่หาย · ปัจจุบันก่อนผ่าตัดมักลอง percutaneous/endobronchial drainage ก่อนในผู้ป่วยเสี่ยงสูง",
+ "wrong": {
+  "B": "ไอเป็นเลือดเล็กน้อยเป็นครั้งคราวพบได้บ่อยใน lung abscess และรักษาด้วยยา · ต้องเป็น <b>massive hemoptysis</b> (> 200–600 mL/24 ชม.) จึงเป็นข้อบ่งชี้ผ่าตัด/embolization · จะถูกถ้าช้อยเขียน massive/life-threatening hemoptysis",
+  "C": "Bronchopleural fistula/empyema จาก abscess แตก ต้อง<b>ใส่ ICD ระบายก่อน</b> ส่วนผ่าตัดเมื่อระบายแล้วไม่หาย · จะถูกถ้าโจทย์บอก BPF ที่ air leak ต่อเนื่องนานหลัง drainage",
+  "D": "Abscess เล็กหลายก้อนสองข้างในผู้ป่วยภูมิคุ้มกันต่ำมักเกิดจาก septic emboli/เชื้อรา รักษาด้วยยาและหาแหล่ง (เช่น tricuspid IE) การผ่าตัดไม่ช่วย · จะถูกถ้าโจทย์ถามสาเหตุ septic pulmonary emboli จาก IVDU",
+  "E": "ผิดเพราะ B, C, D ไม่ใช่ข้อบ่งชี้ผ่าตัดโดยตรง · จะถูกถ้าทุกช้อยเป็นข้อบ่งชี้จริง เช่น failure, massive hemoptysis, > 6 cm, สงสัย CA"
+ },
+ "trap": "คำขยายเล็ก ๆ ตัดสินคำตอบ: <b>'occasional' hemoptysis ≠ massive</b> · BPF ระบายก่อน ไม่ผ่าทันที · และอย่าลืม bronchoscopy ในผู้สูงอายุสูบบุหรี่เพื่อ R/O มะเร็งที่อุดหลอดลม",
+ "summary": [
+  "Medical: anaerobic coverage (ampicillin-sulbactam/clindamycin) 3–6 สัปดาห์ + postural drainage",
+  "Failure → CT-guided percutaneous drainage/endobronchial drainage → resection",
+  "Surgery: failure, massive hemoptysis, > 6 cm, R/O carcinoma, complicated empyema/BPF",
+  "ห้าม ICD เข้าไปใน abscess (เสี่ยง empyema/BPF)",
+  "Double-lumen tube ขณะผ่าตัด ป้องกันหนองไหลเข้าปอดอีกข้าง"
+ ]
+},
+"MDCU66|RoD|16": {
+ "interp": "ข้อ <b>NOT</b> — ถามสิ่งที่<b>ไม่ใช่</b> risk factor ของ bladder (urothelial) cancer ตามสไลด์ etiology",
+ "wrong": {
+  "A": "สูบบุหรี่เป็น risk factor ที่<b>สำคัญที่สุด</b> (~50% ของผู้ป่วย, เสี่ยง 2–4 เท่า) จากสาร aromatic amines ในควันบุหรี่ที่ขับทางปัสสาวะ · จะเป็นคำตอบไม่ได้",
+  "B": "พันธุกรรมเพิ่มความเสี่ยง (ประวัติครอบครัว, Lynch syndrome → upper tract urothelial carcinoma, NAT2 slow acetylator) · จะเป็นคำตอบถ้าช้อยเป็นสิ่งที่ไม่มีหลักฐาน เช่น coffee, artificial sweetener",
+  "D": "Cyclophosphamide (metabolite acrolein) เพิ่มทั้ง hemorrhagic cystitis และ bladder cancer · mesna ป้องกัน hemorrhagic cystitis · จะเป็นคำตอบไม่ได้",
+  "E": "Aromatic amines (benzidine, 2-naphthylamine) จากอุตสาหกรรมสีย้อม ยาง หนัง สี เป็น occupational risk factor คลาสสิก · จะเป็นคำตอบไม่ได้"
+ },
+ "summary": [
+  "Bladder cancer risk: smoking (สำคัญสุด), aromatic amines (สีย้อม ยาง หนัง), cyclophosphamide, pelvic radiation, aristolochic acid, arsenic ในน้ำดื่ม",
+  "SCC ของ bladder: Schistosoma haematobium, สายสวนคาเรื้อรัง, นิ่ว/ติดเชื้อเรื้อรัง",
+  "Adenocarcinoma: urachal remnant, bladder exstrophy",
+  "อาการ: painless gross hematuria → CT urography + cystoscopy",
+  "Coffee: หลักฐานไม่ชัด/ไม่ถือเป็น risk factor ตามสไลด์",
+  "NMIBC → TURBT ± intravesical BCG · MIBC → neoadjuvant cisplatin + radical cystectomy"
+ ]
+},
+"MDCU66|RoD|17": {
+ "why": "ผู้ป่วย <b>MR</b> ที่มีอาการ dyspnea/orthopnea และแม้ได้ยาแล้วดีขึ้นแต่ยัง<b>ทำงานไม่ได้</b> (= NYHA FC III; คีย์ลายมือ) → severe primary MR <b>ที่มีอาการ</b> เป็นข้อบ่งชี้ผ่าตัด Class I (ACC/AHA 2020) ไม่ว่า LV function เป็นอย่างไร (ถ้า LVEF > 30%) · การผ่าตัดลิ้น mitral: <b>repair</b> ดีกว่าถ้าทำได้ (degenerative MR — durable, ไม่ต้อง anticoagulant, LV function ดีกว่า) · <b>replacement</b> ถ้า repair ไม่ได้ (rheumatic, ลิ้นทำลายมาก) · ยาไม่ได้แก้ลิ้นรั่ว เป็นแค่ bridge (ยกเว้น secondary MR ที่ใช้ GDMT ก่อน)",
+ "wrong": {
+  "A": "เปลี่ยนยาไม่แก้ปัญหาลิ้นรั่วรุนแรงที่มีอาการ ทำให้ LV เสื่อมต่อจนผ่าตัดได้ผลแย่ลง · จะถูกถ้าเป็น <b>secondary (functional) MR</b> จาก LV dysfunction ที่ยังไม่ได้ GDMT เต็มที่ หรือผู้ป่วยเสี่ยงผ่าตัดสูงมาก",
+  "B": "PBMV เป็นการรักษา <b>mitral stenosis</b> และห้ามเมื่อ MR ≥ moderate เพราะจะทำให้รั่วมากขึ้น · จะถูกถ้าเป็น severe MS ที่ MR ≤ mild ลิ้นเหมาะ",
+  "C": "Open mitral commissurotomy แยก commissure ที่เชื่อมกันใน MS ไม่ช่วยลิ้นรั่ว · จะถูกถ้าเป็น MS ที่ทำ PBMV ไม่ได้ (LA thrombus) แต่ลิ้นยัง pliable",
+  "E": "ผิดเพราะ A, B, C ไม่ใช่การรักษา MR ที่มีอาการ · จะถูกถ้าช้อยทั้งหมดเป็นทางเลือกที่ใช้ได้กับ mixed MS ตาม stage"
+ },
+ "trap": "อย่าเลือก PBMV/commissurotomy เพียงเพราะเห็นโรคลิ้น mitral — ต้องดูว่าเป็น <b>stenosis (ขยาย)</b> หรือ <b>regurgitation (ซ่อม/เปลี่ยน)</b> · 'ได้ยาแล้วดีขึ้นบ้าง' ไม่ได้แปลว่าไม่ต้องผ่าตัด",
+ "summary": [
+  "Primary severe MR ผ่าตัดเมื่อ: มีอาการ (Class I) หรือไม่มีอาการแต่ LVEF ≤ 60% หรือ LVESD ≥ 40 mm",
+  "Repair > replace (degenerative MR, ศูนย์ที่มีประสบการณ์ success > 95%)",
+  "AF ใหม่หรือ pulmonary HT (PASP > 50) ในผู้ป่วยไม่มีอาการ → พิจารณาผ่าตัด",
+  "Secondary MR: GDMT + CRT ก่อน → TEER (MitraClip) ในรายที่เหมาะ (COAPT)",
+  "MS: PBMV/OMC/MVR · MR: repair/MVR"
+ ]
+},
+"MDCU66|RoD|20": {
+ "wrong": {
+  "A": "Ventricular septal rupture ก็ทำให้ new harsh holosystolic murmur หลัง MI แต่ดังที่สุดที่ <b>left lower sternal border</b> มัก<b>มี thrill</b> และมี O₂ step-up ใน RV (L→R shunt) · จะถูกถ้าโจทย์บอก murmur ที่ LSB + thrill + shock หลัง anterior MI",
+  "C": "Free wall rupture → hemopericardium → <b>cardiac tamponade</b> ทันที (Beck's triad, PEA) ไม่มี murmur ใหม่ · จะถูกถ้าโจทย์บอก หลัง MI 3–5 วัน ทรุดลงฉับพลัน ความดันต่ำ JVP สูง เสียงหัวใจเบา",
+  "D": "Pericarditis หลัง MI (early หรือ Dressler syndrome สัปดาห์–เดือนหลัง) ฟังได้ <b>pericardial friction rub</b> ไม่ใช่ systolic murmur ที่ apex · จะถูกถ้าโจทย์บอกเจ็บหน้าอกแบบ pleuritic ดีขึ้นเมื่อนั่งโน้มตัว ECG diffuse ST elevation",
+  "E": "Aortic dissection อาจทำให้ <b>diastolic murmur ของ AR</b> และอาจเกี่ยวกับ RCA ทำให้ inferior MI ได้ แต่ไม่ใช่ภาวะแทรกซ้อนหลัง MI · จะถูกถ้าโจทย์บอกเจ็บหน้าอกฉีกร้าวไปหลัง ชีพจร/BP แขนสองข้างต่างกัน"
+ },
+ "summary": [
+  "Mechanical complications of MI (มัก 2–7 วัน): papillary muscle rupture (acute MR), VSR, free wall rupture (tamponade), LV aneurysm (สัปดาห์ต่อมา)",
+  "Papillary muscle rupture: posteromedial (เลือดเดียวจาก PDA → inferior MI) บ่อยกว่า anterolateral (เลือดสองทาง)",
+  "Acute MR: flash pulmonary edema + cardiogenic shock · murmur อาจเบาเพราะ LA ไม่ขยาย",
+  "Echo แยกได้ทันที · ประคอง: afterload reduction, IABP/MCS → <b>emergency mitral valve surgery</b>",
+  "VSR: LSB murmur + thrill + O₂ step-up · free wall rupture: tamponade → emergency surgery"
+ ]
+},
+"MDCU66|RoD|21": {
+ "interp": "ถามว่าข้อไหนเป็น <b>complex fistula-in-ano</b> — complex หมายถึง fistula ที่ถ้าเปิด (fistulotomy) จะเสี่ยง incontinence สูง หรือมีลักษณะซับซ้อน/สาเหตุเฉพาะ",
+ "why": "ตาม ASCRS/สไลด์ <b>complex fistula</b> ได้แก่: <b>transsphincteric ที่ผ่านกล้ามเนื้อหูรูด > 30% (high)</b>, suprasphincteric, extrasphincteric, <b>anterior fistula ในผู้หญิง</b>, <b>หลายรู/หลายทาง (multiple tracts)</b>, <b>horseshoe/hemihorseshoe</b> (ลามรอบผ่าน deep postanal space), recurrent, ผู้ป่วยมี incontinence อยู่เดิม, <b>Crohn's disease</b>, ได้รับรังสี, มะเร็ง, HIV → ทุกช้อยจึงเป็น complex = E · ความสำคัญ: complex fistula <b>ห้าม fistulotomy ตรง ๆ</b> ต้องใช้วิธีรักษาหูรูด (sphincter-sparing): <b>seton</b> (draining/cutting), <b>LIFT</b>, <b>endorectal advancement flap</b>, fibrin glue/plug, VAAFT",
+ "wrong": {
+  "A": "High transsphincteric (ผ่าน external sphincter > 30%) เป็น complex จริง — fistulotomy จะตัดหูรูดมากจน incontinence · เป็นส่วนหนึ่งของคำตอบ E · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถาม fistula ที่ต้องใส่ seton แบบชัดเจนที่สุด",
+  "B": "Multiple openings/tracts เป็น complex เพราะยากต่อการหาทางเดินทั้งหมดและเสี่ยงกลับเป็นซ้ำ · เป็นส่วนหนึ่งของ E · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถามสิ่งที่ต้องทำ MRI ก่อนผ่าตัด",
+  "C": "Horseshoe/hemihorseshoe fistula ลามรอบ posterior ผ่าน deep postanal space จัดเป็น complex · เป็นส่วนหนึ่งของ E · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถามทางเดินที่ลามผ่าน deep postanal space (Hanley procedure)",
+  "D": "Fistula ใน Crohn's disease เป็น complex เสมอ (แผลหายยาก, หลายทาง, เสี่ยง incontinence) รักษาด้วย draining seton + ยา (anti-TNF) · เป็นส่วนหนึ่งของ E · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถาม fistula ที่ต้องใช้ยา biologic ร่วม"
+ },
+ "trap": "อย่าทำ fistulotomy ใน complex fistula — คำตอบ 'ผ่าเปิด' ถูกเฉพาะ <b>simple</b> (intersphincteric หรือ low transsphincteric < 30%, ไม่ใช่ anterior ในผู้หญิง) · Goodsall's rule: รูนอกด้านหน้า → ทางตรงเข้า · ด้านหลัง → โค้งไป posterior midline",
+ "summary": [
+  "Parks classification: intersphincteric (บ่อยสุด) > transsphincteric > suprasphincteric > extrasphincteric",
+  "Simple → fistulotomy (success > 90%)",
+  "Complex → seton, LIFT, advancement flap, plug/glue · MRI pelvis/endoanal US ประเมินทางเดิน",
+  "Crohn's perianal fistula: draining seton + anti-TNF (infliximab)",
+  "Goodsall's rule: anterior opening → radial · posterior → curved to posterior midline (ยกเว้นห่างขอบทวาร > 3 cm)"
+ ]
+},
+"MDCU66|RoD|22": {
+ "interp": "ภาพ <b>Crouzon syndrome</b> (craniosynostosis + midface hypoplasia + ตาโปน) — ถามสิ่งที่ต้อง<b>ประเมินเร่งด่วน</b> · คีย์ตอบ exposure keratitis (ลายมือ b: not sure)",
+ "why": "<b>Crouzon syndrome</b> (FGFR2, autosomal dominant): coronal ± อื่น ๆ craniosynostosis + <b>midface (maxillary) hypoplasia</b> + <b>เบ้าตาตื้น → exorbitism/proptosis</b> ชัดเจน (แขนขาปกติ ต่างจาก Apert) · ตาโปนมากจนปิดเปลือกตาไม่สนิท → <b>exposure keratitis</b>, corneal ulcer และ<b>ลูกตาหลุดออกนอกเบ้า (globe luxation)</b> ได้ → ต้องป้องกันกระจกตาทันที (คีย์ลายมือ: lubricant, taping, tarsorrhaphy) และในที่สุด monobloc/Le Fort III advancement · ⚠ ภาวะอื่นที่ต้องประเมินเช่นกัน: <b>ICP สูง</b> (multiple-suture synostosis, hydrocephalus, Chiari I) และ <b>airway obstruction</b> (midface hypoplasia → OSA) — ในการดูแลจริงต้องประเมินทั้งสาม คีย์ในไฟล์เลือก keratitis เป็นสิ่งที่เร่งด่วนที่สุดจากภาพที่เห็นตาโปนชัด",
+ "wrong": {
+  "A": "การพูดอาจได้รับผลจากเพดาน/ฟัน/การได้ยิน แต่ไม่เร่งด่วน ประเมินตามพัฒนาการ · จะถูกถ้าโจทย์เป็น cleft palate ที่มี velopharyngeal insufficiency",
+  "B": "ICP สูงพบได้บ่อยใน Crouzon (multisuture synostosis) และต้องประเมิน (fundoscopy หา papilledema, imaging) — ผู้จดเองไม่แน่ใจ (ลายมือ b not sure) แต่คีย์เลือก keratitis · จะถูกถ้าโจทย์ระบุอาการปวดหัว อาเจียน papilledema หรือ copper-beaten skull",
+  "D": "Airway obstruction จาก midface hypoplasia/choanal stenosis ทำให้ OSA ต้องประเมินโดยเฉพาะในทารก · จะถูกถ้าโจทย์บอกทารกหายใจลำบาก นอนกรน apnea",
+  "E": "Conductive hearing loss พบได้ใน Crouzon (external canal atresia) แต่ไม่เร่งด่วนเท่าตา · จะถูกถ้าโจทย์เป็น <b>Treacher Collins</b> ที่ถามความผิดปกติที่ต้องตรวจเป็นประจำ"
+ },
+ "trap": "สับสน syndrome จากภาพ: <b>Crouzon</b> (ตาโปนมาก แขนขาปกติ) vs <b>Apert</b> (+ syndactyly มือเท้าแบบ mitten) vs <b>Treacher Collins</b> (zygoma/mandible เล็ก ตาเอียงลง หูผิดรูป → hearing) · คำถามคล้ายกันแต่คำตอบต่าง (66 RoD 22 vs 23)",
+ "summary": [
+  "Crouzon: FGFR2, craniosynostosis + midface hypoplasia + proptosis, แขนขาปกติ",
+  "Apert: FGFR2, + complex syndactyly, ปัญญาอ่อนบ่อยกว่า · Pfeiffer: นิ้วโป้งมือเท้ากว้าง",
+  "ปัญหา: exposure keratitis/globe luxation, ICP สูง, airway obstruction/OSA, hearing loss, malocclusion",
+  "ผ่าตัด: cranial vault remodeling (ปีแรก), monobloc/Le Fort III advancement (midface + orbit)",
+  "Treacher Collins → conductive hearing loss เป็นสิ่งที่ต้องตรวจประจำ"
+ ]
+},
+"MDCU66|RoD|23": {
+ "interp": "ภาพ <b>Treacher Collins syndrome</b> — ถามความผิดปกติที่ต้อง<b>ตรวจประเมินเป็นประจำ</b> ซึ่งคือสิ่งที่พบบ่อยที่สุด",
+ "why": "<b>Treacher Collins syndrome</b> (TCOF1, AD; mandibulofacial dysostosis) ผิดปกติของ 1st–2nd branchial arches ทั้งสองข้าง: <b>zygoma/malar hypoplasia</b>, micrognathia, ตาเอียงลง (downslanting), <b>lower eyelid coloboma</b>, ขนตาล่างขาด, microtia/ไม่มีรูหู · <b>Conductive hearing loss ~50%</b> จาก external auditory canal atresia และ ossicle ผิดรูป → ต้องตรวจการได้ยินตั้งแต่แรกเกิดและติดตามเป็นประจำ ใส่ bone-conduction hearing aid ให้เร็วเพื่อพัฒนาการภาษา (สติปัญญาปกติ) · ปัญหาอื่น: airway obstruction ในทารก (micrognathia), feeding, cleft palate ~30%",
+ "wrong": {
+  "B": "Exposure keratitis เด่นใน <b>Crouzon</b> (exorbitism) · Treacher Collins มี lid coloboma ที่อาจทำให้ตาแห้งได้บ้างแต่ไม่ใช่สิ่งหลัก · จะถูกถ้าภาพเป็น Crouzon/Apert ตาโปน",
+  "C": "ICP สูงพบใน <b>craniosynostosis</b> (Crouzon, Apert, Pfeiffer) ไม่ใช่ Treacher Collins ที่กะโหลกปกติ · จะถูกถ้าภาพแสดงกะโหลกผิดรูปจาก suture ปิดเร็ว",
+  "D": "Cleft <b>palate</b> พบ ~30% ใน Treacher Collins แต่ cleft <b>lip</b> ไม่ใช่ลักษณะเด่น และไม่ใช่สิ่งที่ต้อง 'ประเมินประจำ' มากเท่า hearing · จะถูกถ้าโจทย์ถามความผิดปกติที่เห็นตั้งแต่แรกเกิดในกลุ่ม orofacial cleft",
+  "E": "Polydactyly ไม่ใช่ลักษณะของ Treacher Collins (แขนขาปกติ) · จะถูกถ้าโจทย์เป็น syndrome ที่มีนิ้วเกิน เช่น trisomy 13, Ellis-van Creveld, Bardet-Biedl"
+ },
+ "trap": "ซ้ำกับ 66 RoA ข้อ 69 · ระวังสับกับ Crouzon (ข้อ 22 ของชุดเดียวกัน) — <b>Treacher Collins = หู (hearing)</b>, <b>Crouzon = ตา (keratitis) + ICP</b>",
+ "summary": [
+  "Treacher Collins: TCOF1, bilateral symmetric, สติปัญญาปกติ",
+  "ลักษณะ: malar hypoplasia, micrognathia, downslanting eyes, lower lid coloboma, microtia",
+  "Conductive hearing loss ~50% → audiology ตั้งแต่ทารก + BAHA",
+  "Airway: อาจต้อง tracheostomy/mandibular distraction osteogenesis",
+  "Reconstruction: zygoma/orbit (bone graft), mandible distraction, ear reconstruction"
+ ]
+},
+"MDCU66|RoD|24": {
+ "wrong": {
+  "B": "Broad-spectrum antibiotics ใช้รักษา <b>diverticulitis</b> (อักเสบ/ติดเชื้อ) ไม่ช่วยหยุดเลือดจาก diverticular bleeding ซึ่งเป็นปัญหาของหลอดเลือด · จะถูกถ้าโจทย์เป็นปวด LLQ ไข้ WBC สูง CT เห็น diverticulitis (complicated/immunocompromised)",
+  "C": "Emergency colectomy ทำเมื่อเลือดออกไม่หยุดหลัง endoscopic/angiographic therapy ล้มเหลว, ต้องให้เลือดมาก (> 6 units/24 ชม.) หรือเลือดออกซ้ำรุนแรง · จะถูกถ้าโจทย์บอก unstable ต่อเนื่องแม้ embolization ไม่สำเร็จ",
+  "D": "Barium enema ไม่ช่วยหาตำแหน่งเลือดออก และ barium บดบังการทำ colonoscopy/angiography ภายหลัง · จะถูกถ้าโจทย์ย้อนยุคถามการวินิจฉัย diverticulosis ในผู้ป่วยไม่มีเลือดออก",
+  "E": "การสังเกตอย่างเดียวไม่พอ แม้เลือดหยุดเองบ่อย ~75–80% แต่ต้อง resuscitate และหาตำแหน่ง/หยุดเลือด (rebleed 20–40%) · จะถูกถ้าเลือดออกเล็กน้อย หยุดแล้ว ผู้ป่วย stable (Oakland score ต่ำ) — ส่อง colonoscopy แบบ elective ได้"
+ },
+ "summary": [
+  "Diverticular bleeding = จาก diverticulosis (ไม่เจ็บ เลือดออกมาก) ไม่ใช่ diverticulitis",
+  "Stable: resuscitate → bowel prep → colonoscopy ภายใน 24 ชม. → hemostasis (clip, epinephrine injection — ลายมือ, band ligation)",
+  "Unstable/เลือดออกมาก: R/O UGIB → CTA → angioembolization",
+  "Surgery: ล้มเหลวจาก endoscopy/IR · segmental colectomy (ทราบตำแหน่ง) หรือ subtotal colectomy (ไม่ทราบ)",
+  "Diverticulitis acute phase: ห้ามส่องกล้อง (เสี่ยงทะลุ) → colonoscopy 6–8 สัปดาห์หลังหายเพื่อ R/O มะเร็ง",
+  "⚠ recall เขียน 'diverticulitis' แต่ประเด็นคือ 'มีเลือดออก' → ตอบตามการจัดการ diverticular bleeding"
+ ]
+}
+}
