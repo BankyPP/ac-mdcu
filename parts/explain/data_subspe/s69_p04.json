@@ -1,0 +1,200 @@
+{
+"MDCU69|RoC|17": {
+ "wrong": {
+  "A": "อายุไม่ใช่ตัวกำหนด ปัจจุบันซ่อม TOF แบบ total correction ได้ตั้งแต่ทารก (มัก 3–6 เดือน) ถ้ากายวิภาคเหมาะ · จะถูกถ้าถามช่วงเวลาที่นิยมทำ elective repair หรือยุคก่อนที่รอให้โตก่อน",
+  "B": "VSD ใน TOF เป็น malalignment VSD ขนาดใหญ่ (non-restrictive) เกือบทุกราย จึงไม่ใช่ตัวแยกว่าจะ repair หรือ shunt · จะถูกถ้าถามองค์ประกอบของ TOF หรือการปิดด้วย patch ตอน total repair",
+  "C": "ความรุนแรงของ RVOT/pulmonary stenosis กำหนดระดับ cyanosis และ tet spell แต่การเลือก total repair vs shunt ดูว่า branch PA ใหญ่พอรับเลือดหลังซ่อมหรือไม่ · จะถูกถ้าถามสิ่งที่กำหนดความรุนแรงของอาการเขียว",
+  "E": "Aortic override เป็นองค์ประกอบทางกายวิภาค (aorta คร่อม VSD) ไม่ได้กำหนดชนิดการผ่าตัด · จะถูกถ้า override >50% จนแยกเป็น double outlet right ventricle"
+ },
+ "summary": [
+  "TOF: VSD + RVOT obstruction + overriding aorta + RVH · อาการ cyanosis, tet spell (ให้นั่งยองๆ/knee-chest, O₂, morphine, phenylephrine, β-blocker)",
+  "PA ใหญ่พอ (McGoon ratio ≥1.5–2, Nakata index ≥150 mm²/m²) → total correction (ปิด VSD + ขยาย RVOT ± transannular patch)",
+  "PA เล็ก/ทารกอาการหนักน้อยกว่าอายุที่เหมาะ → palliative modified Blalock-Taussig shunt (หรือ RVOT stent/PDA stent) ให้ PA โตก่อน",
+  "หลังซ่อมระยะยาว: pulmonary regurgitation → RV dilatation ต้องเปลี่ยน pulmonary valve ภายหลัง"
+ ]
+},
+"MDCU69|RoC|18": {
+ "wrong": {
+  "A": "ยาอย่างเดียว (diuretic, afterload reduction) บรรเทาอาการแต่ไม่แก้ลิ้นรั่วจากโครงสร้าง (flail leaflet) และ LV จะเสื่อมต่อ · จะถูกถ้าเป็น MR ไม่รุนแรง หรือผู้ป่วยเสี่ยงผ่าตัดสูงมาก (อาจพิจารณา TEER/MitraClip)",
+  "B": "PBMV (balloon valvotomy) ใช้รักษา rheumatic mitral stenosis ที่ลิ้นเหมาะ (Wilkins ≤8, ไม่มี MR ปานกลางขึ้นไป) และห้ามในกรณี MR รุนแรงเพราะทำให้รั่วมากขึ้น · จะถูกถ้าเป็น severe MS ที่มีอาการ ไม่มี LA thrombus",
+  "D": "MV replacement ใช้เมื่อซ่อมไม่ได้ (ลิ้นเสียมาก rheumatic, calcified) เพราะ repair รักษา subvalvular apparatus ไว้ LV function ดีกว่า ไม่ต้องกิน warfarin ตลอด และ survival ดีกว่า · จะถูกถ้าเป็น rheumatic MR ลิ้นแข็งหนาซ่อมไม่ได้",
+  "E": "None of the above ผิดเพราะมีการรักษาที่ถูกคือ MV repair · จะถูกถ้าทุกช้อยไม่ใช่การผ่าตัดที่เหมาะ"
+ },
+ "trap": "Severe MR ‘มีอาการ’ (แม้ NYHA II) = ข้อบ่งชี้ผ่าตัด ไม่ต้องรอ FC III–IV · degenerative MR จาก flail posterior leaflet ซ่อมได้สำเร็จ >95% จึงเลือก repair ก่อน replace · PBMV เป็นของ MS ไม่ใช่ MR",
+ "summary": [
+  "Primary (degenerative) severe MR: ผ่าตัดเมื่อมีอาการ หรือไม่มีอาการแต่ LVEF ≤60% / LVESD ≥40 mm / AF ใหม่ / PASP >50 mmHg",
+  "MV repair ดีกว่า replacement: รักษา LV geometry, ไม่ต้อง anticoagulant ตลอด, อัตรารอดดีกว่า · posterior leaflet prolapse ซ่อมง่ายที่สุด",
+  "ผู้ป่วยเสี่ยงผ่าตัดสูง: transcatheter edge-to-edge repair (TEER)",
+  "Rheumatic MS ลิ้นเหมาะ → PBMV · ลิ้นไม่เหมาะ/มี MR มาก → MVR"
+ ]
+},
+"MDCU69|RoC|21": {
+ "wrong": {
+  "A": "ข้อความถูก: Wilms tumor พยากรณ์ดีมาก overall survival >85–90% ด้วยผ่าตัด + chemotherapy ± RT (ผู้จดแก้ว่า ‘good’ — ช้อยเดิม ‘poor prognosis’ ถูกปรับเป็นข้อความถูก) · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าพยากรณ์แย่",
+  "B": "ข้อความถูก: พบมากช่วงอายุ ~2–5 ปี (peak 3–4 ปี) · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าพบมากในทารก <1 ปี (ซึ่งเป็น neuroblastoma/mesoblastic nephroma)",
+  "D": "ข้อความถูก: Denys-Drash syndrome (WT1 mutation: Wilms + nephropathy/ไตวาย + male pseudohermaphroditism) เพิ่มความเสี่ยง Wilms · ข้อนี้จะเป็นคำตอบถ้าแทนด้วยกลุ่มอาการที่ไม่เกี่ยว",
+  "E": "ข้อความถูก: WAGR (Wilms, Aniridia, Genitourinary anomaly, Range of developmental delay — deletion 11p13 WT1) เสี่ยง Wilms สูง · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าไม่สัมพันธ์กัน"
+ },
+ "summary": [
+  "Wilms: ก้อนท้องเรียบ ไม่ข้ามเส้นกลาง เด็กดูสบายดี อาจมี hematuria/ความดันสูง · CT: claw sign จากไต, ลามเข้า renal vein/IVC",
+  "Neuroblastoma: ก้อนแข็งขรุขระข้ามเส้นกลาง มี calcification ~85–90%, เด็กดูป่วย, VMA/HVA สูง, opsoclonus-myoclonus, raccoon eyes",
+  "Syndromes ของ Wilms: WAGR, Denys-Drash, Beckwith-Wiedemann (WT2, hemihypertrophy) → US คัดกรองทุก 3 เดือนถึง 7–8 ปี",
+  "รักษา: nephrectomy (COG) หรือ preoperative chemo (SIOP) + chemotherapy ตาม stage/histology (anaplasia พยากรณ์แย่)"
+ ]
+},
+"MDCU69|RoC|22": {
+ "wrong": {
+  "A": "Choledochojejunostomy (Roux-en-Y hepaticojejunostomy) ใช้หลังตัด choledochal cyst ไม่ใช่ biliary atresia ซึ่งท่อน้ำดีนอกตับเป็น fibrous cord ไม่มีรูต่อได้ ต้องทำ Kasai hepatoportoenterostomy (คีย์ลายมือแก้เป็น portoenterostomy) · จะถูกถ้าเป็น choledochal cyst type I",
+  "B": "CT ไม่ใช่การตรวจมาตรฐาน ใช้ US (triangular cord sign, gallbladder เล็ก/ไม่มี), HIDA scan (ไม่ขับลงลำไส้), และยืนยันด้วย intraoperative cholangiogram + liver biopsy · จะถูกถ้าถามการตรวจเพื่อดู choledochal cyst/กายวิภาคท่อน้ำดีในเด็กโต",
+  "D": "พยาธิวิทยาของ biliary atresia คือ bile ductular proliferation + bile plug + portal fibrosis (คีย์ลายมือแก้) ส่วน giant cell transformation + hepatocellular necrosis เด่นใน neonatal hepatitis · จะถูกถ้าโจทย์ถามพยาธิวิทยาของ idiopathic neonatal hepatitis",
+  "E": "ผิดเพราะแม้ทำ Kasai สำเร็จ ส่วนใหญ่ (~50–70%) ยังต้องปลูกถ่ายตับในที่สุดจาก progressive cirrhosis, cholangitis, portal hypertension · biliary atresia เป็นข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก · จะถูกถ้าเขียนว่า ‘ส่วนใหญ่ต้องปลูกถ่ายตับ’"
+ },
+ "summary": [
+  "Biliary atresia: ตัวเหลืองนาน >2 สัปดาห์ + อุจจาระซีด (acholic) + ปัสสาวะเข้ม + direct hyperbilirubinemia → ต้องรีบหาสาเหตุ",
+  "Kasai portoenterostomy ทำก่อนอายุ 60 วัน ได้ผลดีที่สุด (bile flow ดีกว่า) · ยิ่งช้ายิ่งแย่",
+  "หลัง Kasai: cholangitis บ่อย (ให้ prophylactic antibiotics), ursodeoxycholic acid, fat-soluble vitamins",
+  "Choledochal cyst: ตัด cyst + hepaticojejunostomy (เสี่ยงมะเร็งท่อน้ำดีถ้าเหลือ cyst)"
+ ]
+},
+"MDCU69|RoC|23": {
+ "wrong": {
+  "A": "Gastrojejunostomy bypass ข้าม duodenum ทั้งหมด เสี่ยง marginal ulcer และ blind loop ไม่ใช่การผ่าตัดมาตรฐานของ duodenal obstruction ในทารก · จะถูกถ้าเป็นผู้ใหญ่ gastric outlet obstruction จากมะเร็งที่ตัดไม่ได้",
+  "B": "Duodenojejunostomy ใช้ได้บางกรณีที่ duodenum ส่วนปลายเลื่อนมาต่อยาก แต่ duodenoduodenostomy เป็นมาตรฐานเพราะสรีรวิทยาใกล้ปกติกว่า · จะถูกถ้าอุดที่ D3–D4 ใกล้ ligament of Treitz",
+  "C": "Duodenoplasty/web excision (duodenotomy ตัด web) ใช้กับ duodenal web (windsock) ต้องระวัง ampulla · จะถูกถ้าการผ่าตัดพบ web ที่ชัดเจน ไม่ใช่ annular pancreas",
+  "D": "Ladd's procedure (ตัด Ladd's band, ขยาย mesentery, คลาย volvulus, appendectomy) ใช้เมื่อสาเหตุคือ malrotation · double bubble + distal air ต้องทำ upper GI study แยก malrotation ก่อน · จะถูกถ้า UGI เห็น DJ junction อยู่ขวาของกระดูกสันหลัง/corkscrew"
+ },
+ "summary": [
+  "Double bubble ไม่มีลมส่วนปลาย = duodenal atresia · มีลมส่วนปลาย = partial obstruction (stenosis, web, annular pancreas) หรือ malrotation ± volvulus",
+  "Double bubble + distal gas + อาเจียนน้ำดี → upper GI study เร่งด่วนเพื่อแยก midgut volvulus (emergency Ladd's)",
+  "Duodenal atresia/stenosis/annular pancreas → duodenoduodenostomy (diamond-shaped) — ห้ามตัด annular pancreas",
+  "Duodenal web → duodenotomy + excision web ระวัง ampulla"
+ ]
+},
+"MDCU69|RoC|24": {
+ "wrong": {
+  "B": "Barium enema อันตรายถ้ามีลำไส้ทะลุ/ขาดเลือด และไม่ใช่ขั้นแรก ปัจจุบันใช้ water-soluble contrast enema ถ้าต้องแยก pseudo-obstruction vs mechanical · จะถูกถ้าถามการตรวจยืนยันตำแหน่งอุดของ large bowel แบบเลือกเวลาในยุคก่อน CT",
+  "C": "CT abdomen ให้ข้อมูลตำแหน่ง/สาเหตุ/ภาวะขาดเลือดดีที่สุด และปัจจุบันมักทำเร็ว แต่ตามคีย์ขั้นแรกที่ส่งได้ทันทีคือ plain film ชุด acute abdomen · จะถูกถ้าถามการตรวจหาสาเหตุหลังยืนยัน obstruction หรือ plain film ไม่ชัด",
+  "D": "MRI ใช้เวลานานไม่เหมาะกับภาวะฉุกเฉิน · จะถูกถ้าเป็นหญิงตั้งครรภ์สงสัย appendicitis/obstruction ที่เลี่ยงรังสี",
+  "E": "Colonoscopy ไม่เหมาะเป็นการตรวจแรกในภาวะสงสัยลำไส้อุดตันเฉียบพลัน (เตรียมลำไส้ไม่ได้ เสี่ยงทะลุ) · จะถูกถ้าใช้ decompress sigmoid volvulus หรือ Ogilvie syndrome ที่ยืนยันแล้ว"
+ },
+ "summary": [
+  "ไม่ถ่าย ไม่ผายลม 3 วันในผู้สูงอายุ = สงสัย bowel obstruction → acute abdomen series (supine + upright abdomen + upright CXR หา free air)",
+  "Plain film: dilated loops, air-fluid levels, ตำแหน่ง (valvulae conniventes = small bowel · haustra = colon) · cecum >12 ซม. เสี่ยงทะลุ",
+  "CT ช่วยหาสาเหตุ ตำแหน่ง transition point และ ischemia",
+  "Large bowel obstruction ในผู้สูงอายุ: colorectal cancer พบบ่อยสุด ตามด้วย volvulus, diverticular stricture · PR ปกติไม่ตัดมะเร็งส่วนบน"
+ ]
+},
+"MDCU69|RoC|25": {
+ "wrong": {
+  "B": "Colorectal cancer ทำให้เลือดออกเรื้อรังซ่อนเร้น/ซีดมากกว่าเลือดออกปริมาณมากเฉียบพลัน จึงไม่ใช่สาเหตุที่พบบ่อยที่สุดของ LGIB · จะถูกถ้าถามสาเหตุของ iron deficiency anemia/ถ่ายมีเลือดปนเรื้อรังในผู้สูงอายุ",
+  "C": "IBD (UC) ทำให้ถ่ายเป็นมูกเลือด ท้องเสียเรื้อรัง ในคนอายุน้อย แต่เป็นสาเหตุส่วนน้อยของ LGIB โดยรวม · จะถูกถ้าโจทย์เป็นคนหนุ่มสาวถ่ายเหลวปนมูกเลือดเรื้อรัง",
+  "D": "Angiodysplasia เป็นสาเหตุรองลงมาในผู้สูงอายุ (ร่วมกับ aortic stenosis — Heyde syndrome, CKD) มักออกเป็นพักๆ จาก right colon · จะถูกถ้าถามสาเหตุ LGIB ที่พบร่วมกับ AS หรือเลือดออกซ้ำไม่ทราบสาเหตุใน right colon",
+  "E": "Hemorrhoids เป็นสาเหตุของเลือดสดหยดหลังถ่ายที่พบบ่อยในชุมชน แต่เลือดออกปริมาณน้อย มักไม่ใช่ acute major LGIB ที่ต้องนอนโรงพยาบาล · จะถูกถ้าถามสาเหตุเลือดสดหยดเคลือบอุจจาระในคนอายุน้อย"
+ },
+ "summary": [
+  "Acute LGIB ในผู้ใหญ่: diverticulosis (พบบ่อยที่สุด, ไม่เจ็บ เลือดออกมาก มักหยุดเอง, right colon เลือดออกมากกว่า) > angiodysplasia, ischemic colitis, hemorrhoids, cancer, post-polypectomy",
+  "Diverticulitis (อักเสบ) แทบไม่ทำให้เลือดออก — ผู้จดแก้คำเป็น diverticulosis",
+  "ประเมิน: resuscitate → ตัด UGIB (BUN/Cr สูง, NG) → colonoscopy ภายใน 24 ชม. หลังเตรียมลำไส้",
+  "ไม่เสถียร: CTA → angioembolization · ผ่าตัดเมื่อหาจุดไม่ได้/เลือดออกต่อเนื่อง"
+ ]
+},
+"MDCU69|RoC|26": {
+ "interp": "โจทย์ถามภาวะที่เป็น premalignant ของ colorectal cancer — FAP (APC mutation) เกิด adenoma นับร้อยถึงพัน เสี่ยงมะเร็งเกือบ 100% ถ้าไม่ผ่าตัด ส่วนช้อยอื่นเป็นการอักเสบ/ติดเชื้อ/hamartoma เดี่ยวที่ไม่เพิ่มความเสี่ยง",
+ "wrong": {
+  "A": "Pseudomembranous colitis เกิดจาก C. difficile หลังใช้ antibiotics (คีย์ลายมือ) เป็นการอักเสบเฉียบพลันที่หายได้ ไม่ใช่ภาวะก่อนมะเร็ง · จะถูกถ้าถามสาเหตุท้องเสียหลังให้ clindamycin/cephalosporin เห็น pseudomembrane",
+  "B": "Solitary juvenile polyp เป็น hamartoma เดี่ยวในเด็ก (เลือดออกไม่เจ็บ หลุดเองได้) ไม่เพิ่มความเสี่ยงมะเร็ง · จะถูกถ้าเป็น juvenile polyposis syndrome (≥5 polyp หรือมีประวัติครอบครัว SMAD4/BMPR1A) ซึ่งเพิ่มความเสี่ยง",
+  "D": "Amoebic colitis (E. histolytica) ทำให้ dysentery, flask-shaped ulcer, ameboma ที่เลียนแบบมะเร็งได้ แต่ไม่เพิ่มความเสี่ยงมะเร็ง · จะถูกถ้าถามโรคที่ทำให้ก้อนที่ cecum คล้ายมะเร็งในผู้ป่วยถ่ายมูกเลือด",
+  "E": "Thrombosed hemorrhoid เป็นลิ่มเลือดในหลอดเลือดทวารหนัก ปวดเฉียบพลัน ไม่สัมพันธ์กับมะเร็งลำไส้ · จะถูกถ้าโจทย์เป็นก้อนสีม่วงปวดมากที่ปากทวารหลังเบ่ง"
+ },
+ "summary": [
+  "Risk factor CRC: FAP (~100%), Lynch/HNPCC (MMR gene, ~50–80%), IBD นาน >8–10 ปี (UC > Crohn's), ประวัติครอบครัว, adenoma เดิม, อายุ, เนื้อแดง/แปรรูป, อ้วน, สูบบุหรี่",
+  "Adenoma–carcinoma sequence: APC → KRAS → p53 · villous, ขนาด >1 ซม., high-grade dysplasia เสี่ยงสูง",
+  "FAP: colonoscopy จากอายุ 10–12 ปี และ prophylactic proctocolectomy (มัก IPAA) · ตรวจ duodenal adenoma ด้วย",
+  "Hamartomatous polyposis ที่เพิ่มความเสี่ยง: Peutz-Jeghers, juvenile polyposis syndrome"
+ ]
+},
+"MDCU69|RoC|27": {
+ "wrong": {
+  "A": "Stool occult blood (gFOBT/FIT) เป็นวิธีคัดกรองที่ใช้ได้ ราคาถูก แต่ไวต่อ adenoma น้อยกว่าและถ้าผลบวกต้องส่องกล้องต่อ · จะถูกถ้าถามวิธีคัดกรองระดับประชากร (ไทยใช้ FIT ปีละครั้งในอายุ 50–70)",
+  "C": "CT colonography เป็นทางเลือก (ทุก 5 ปี) ไม่ต้อง sedate แต่ต้องเตรียมลำไส้ ได้รังสี ตัด polyp ไม่ได้ ผลบวกต้องส่องกล้อง · จะถูกถ้าผู้ป่วยส่องกล้องไม่สำเร็จ/ปฏิเสธ colonoscopy",
+  "D": "Barium enema ไวต่ำ ไม่แนะนำใช้คัดกรองแล้ว · จะถูกถ้าถามวิธีดูลำไส้ใหญ่ในยุคก่อนหรือในที่ไม่มีกล้องและ CT",
+  "E": "Flexible sigmoidoscopy (ทุก 5–10 ปี) เห็นเฉพาะ rectum ถึง descending colon พลาดมะเร็ง right colon · จะถูกถ้าถามวิธีที่ลดการตายจาก distal CRC ใน RCT หรือรวมกับ FIT"
+ },
+ "summary": [
+  "Colonoscopy ทุก 10 ปี = ‘gold standard’ เห็นลำไส้ทั้งหมดและตัด polyp ได้ในครั้งเดียว (ทั้งคัดกรองและป้องกัน)",
+  "ความเสี่ยงปกติ: เริ่มอายุ 45 ปี (ACS/USPSTF) ถึง 75 ปี · ทางเลือก: FIT ทุกปี, FIT-DNA ทุก 1–3 ปี, CTC หรือ sigmoidoscopy ทุก 5 ปี",
+  "ความเสี่ยงสูง (ญาติสายตรงเป็น CRC <60 ปี): เริ่ม 40 ปี หรือ 10 ปีก่อนอายุญาติที่เป็น ทุก 5 ปี",
+  "ทุกการตรวจที่ผลบวกต้องตามด้วย colonoscopy"
+ ]
+},
+"MDCU69|RoC|28": {
+ "wrong": {
+  "A": "เป็นลักษณะจริงของ chronic fissure: sentinel pile (skin tag ที่ขอบล่างของแผล) เป็นหนึ่งใน triad · ข้อนี้จะเป็นคำตอบถ้าเป็น acute fissure (แผลขอบเรียบ ยังไม่มี skin tag)",
+  "B": "เป็นลักษณะจริงของ chronic fissure: ขอบแผลแข็งเป็น fibrosis นูน มองเห็นใยของ internal sphincter ที่ก้นแผล · ข้อนี้จะเป็นคำตอบถ้าเป็นแผลสดเพิ่งเกิด <6 สัปดาห์",
+  "C": "เป็นลักษณะจริงของ chronic fissure: hypertrophied anal papilla ที่ขอบบน (dentate line) เป็นหนึ่งใน triad · ข้อนี้จะเป็นคำตอบถ้าเป็น acute fissure",
+  "D": "เป็นลักษณะจริงของ fissure: internal sphincter หดเกร็ง (resting pressure สูง) ทำให้เลือดไปเลี้ยงน้อย แผลไม่หาย และเป็นเป้าของการรักษา (GTN, diltiazem, botox, LIS) · ข้อนี้จะเป็นคำตอบถ้าโจทย์ถามสาเหตุของ fecal incontinence"
+ },
+ "summary": [
+  "Anal fissure: ปวดเหมือนมีดบาดขณะ/หลังถ่าย + เลือดสดเล็กน้อย · ส่วนใหญ่ posterior midline (รองลงมา anterior ในหญิง)",
+  "Chronic (>6–8 สัปดาห์): sentinel pile + hypertrophied papilla + เห็น internal sphincter fibers + ขอบแข็ง",
+  "รักษา: fiber/sitz bath → topical GTN หรือ diltiazem → botulinum toxin → lateral internal sphincterotomy (หายสูงสุด เสี่ยง incontinence เล็กน้อย)",
+  "Fissure นอกแนวกลาง/หลายแผล/ไม่เจ็บ → นึกถึง Crohn, HIV, TB, syphilis, มะเร็ง · ก้อนนิ่มบวมแดงกดเจ็บ = perianal abscess"
+ ]
+},
+"MDCU69|RoC|29": {
+ "wrong": {
+  "A": "ใช่ตามข้อบ่งชี้: มีไข้/systemic sign (SIRS, sepsis) บ่งว่าการติดเชื้อลุกลามเกินโพรงหนอง ต้องให้ antibiotics ร่วม I&D · ข้อนี้อย่างเดียวจะเป็นคำตอบถ้าช้อยอื่นไม่ใช่ข้อบ่งชี้",
+  "B": "ใช่ตามคีย์ (ติ๊ก): ischioanal abscess เป็นฝีลึกขนาดใหญ่ ลามข้ามด้านได้ (horseshoe) จึงมักให้ antibiotics ร่วม · ข้อนี้อย่างเดียวจะเป็นคำตอบถ้าโจทย์ถามเฉพาะชนิดตามตำแหน่งที่ลึก",
+  "C": "ใช่ตามข้อบ่งชี้: cellulitis รอบฝีบ่งการติดเชื้อในเนื้อเยื่อที่ I&D ระบายไม่ถึง · ข้อนี้อย่างเดียวจะเป็นคำตอบถ้าช้อยอื่นไม่ใช่ข้อบ่งชี้",
+  "D": "ใช่ตามข้อบ่งชี้: immunocompromised (DM, neutropenia, HIV, steroid, transplant) เสี่ยงลุกลามเป็น necrotizing infection · ข้อนี้อย่างเดียวจะเป็นคำตอบถ้าช้อยอื่นไม่ใช่ข้อบ่งชี้"
+ },
+ "summary": [
+  "การรักษาหลักของ anorectal abscess คือ drainage เสมอ ยาปฏิชีวนะเป็นตัวเสริม",
+  "ข้อบ่งชี้ให้ antibiotics (ASCRS): systemic sign/sepsis, cellulitis กว้าง, immunosuppression/DM, prosthetic valve/อุปกรณ์ฝังใน, ฝีลึกซับซ้อน",
+  "ชนิดตามตำแหน่ง: perianal (พบบ่อยสุด), ischioanal, intersphincteric, supralevator (ต้องดูทิศทางระบาย)",
+  "หลังระบาย ~30–50% เกิด fistula-in-ano · อาจให้ antibiotics หลังระบาย 7–10 วันเพื่อลดการเกิด fistula"
+ ]
+},
+"MDCU69|RoC|30": {
+ "wrong": {
+  "A": "Middle colic artery เป็นแขนงของ SMA เลี้ยง transverse colon (คีย์ลายมือ: A, B, D = SMA) · จะถูกถ้าโจทย์ถามแขนงของ SMA ที่ต้องตัดใน extended right hemicolectomy",
+  "B": "Right colic artery เป็นแขนงของ SMA เลี้ยง ascending colon (บางคนไม่มี แยกจาก ileocolic) · จะถูกถ้าโจทย์ถามหลอดเลือดที่ตัดใน right hemicolectomy",
+  "D": "Ileocolic artery เป็นแขนงปลายของ SMA เลี้ยง terminal ileum, cecum, appendix (appendicular artery) · จะถูกถ้าโจทย์ถามหลอดเลือดที่ต้องผูกใน right hemicolectomy/ต้นกำเนิด appendicular a.",
+  "E": "Wandering artery (arc of Riolan/meandering mesenteric artery) เป็น collateral เชื่อม SMA (middle colic) กับ IMA (left colic) ไม่ใช่แขนงโดยตรงของ IMA · จะถูกถ้าโจทย์ถามทางเลือดสำรองเมื่อ IMA หรือ SMA ตีบ"
+ },
+ "summary": [
+  "SMA: inferior pancreaticoduodenal, jejunal/ileal, middle colic, right colic, ileocolic — เลี้ยงลำไส้ถึง 2/3 ของ transverse colon",
+  "IMA: left colic, sigmoid arteries, superior rectal (hemorrhoidal) — เลี้ยง 1/3 ปลาย transverse ถึง upper rectum",
+  "Middle/inferior rectal มาจาก internal iliac/internal pudendal",
+  "Watershed: Griffiths point (splenic flexure) และ Sudeck point (rectosigmoid) → ischemic colitis เด่นตรงนี้ · collateral: marginal artery of Drummond, arc of Riolan"
+ ]
+},
+"MDCU69|RoC|31": {
+ "wrong": {
+  "A": "ข้อความถูก: หลัง endoscopic detorsion สำเร็จ ควรทำ elective sigmoidectomy ใน admission เดียวกันเพราะบิดซ้ำได้ถึง ~60% · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า detorsion แล้วไม่ต้องผ่าตัดเลย",
+  "B": "ข้อความถูก: plain film เห็น coffee bean (bent inner tube) sign ชี้ไปทางขวาบน · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าเห็น ‘target sign’ (intussusception)",
+  "D": "ข้อความถูก: พบบ่อยในผู้สูงอายุที่ติดเตียง/อยู่สถานดูแล มีท้องผูกเรื้อรัง โรคทางระบบประสาท ใช้ยาจิตเวช · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าพบบ่อยในทารก (นั่นคือ midgut volvulus)",
+  "E": "ข้อความถูก: sigmoid volvulus พบบ่อยที่สุดของ colonic volvulus (~60–75%) ตามด้วย cecal volvulus · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า cecal พบบ่อยกว่า"
+ },
+ "summary": [
+  "Sigmoid volvulus ไม่มี ischemia → endoscopic (flexible sigmoidoscopy) detorsion + rectal tube แล้ว elective sigmoidectomy",
+  "Emergency surgery เมื่อ: peritonitis, gangrene/ischemic mucosa เห็นในกล้อง, perforation, detorsion ไม่สำเร็จ → Hartmann's procedure",
+  "Cecal volvulus: ส่องกล้อง detorsion มักไม่ได้ → right hemicolectomy",
+  "ไม่ resect หลัง detorsion → recurrence ~60%"
+ ]
+},
+"MDCU69|RoC|32": {
+ "wrong": {
+  "A": "การเปิดเส้นเลือดเพื่อให้สารน้ำสำคัญใน burn ใหญ่ แต่เลือก peripheral IV ขนาดใหญ่ก่อน (subclavian ไม่ใช่ขั้นแรกบนรถ) และไม่แก้ภาวะที่คุกคามชีวิตเร็วที่สุดคือ CO poisoning · จะถูกถ้าถามการให้สารน้ำใน burn >20% TBSA หลังจัดการ airway/breathing แล้ว",
+  "B": "ปิดแผลด้วย gauze ชุบน้ำเกลือบริเวณกว้างทำให้ hypothermia ควรปิดด้วยผ้าสะอาดแห้ง · จะถูกถ้าเป็นการ cool burn ด้วยน้ำสะอาด (ไม่เย็นจัด) 20 นาทีเฉพาะบริเวณเล็กทันทีหลังเกิดเหตุ",
+  "D": "ยกหัวสูงช่วยลดบวมของใบหน้าและทางเดินหายใจ แต่ไม่ช่วยแก้ hypoxia ระดับเซลล์จาก CO ได้ทันที · จะถูกถ้าถามการดูแลเสริมหลังให้ O₂ และ airway ปลอดภัยแล้ว",
+  "E": "การประเมิน TBSA (rule of nines) ใช้คำนวณสารน้ำ (Parkland) ทำหลัง primary survey · จะถูกถ้าถามขั้นตอนหลัง ABC เพื่อวางแผน fluid resuscitation"
+ },
+ "summary": [
+  "ไฟไหม้ในที่ปิด + ซึม = CO poisoning (± cyanide) → 100% O₂ ทาง non-rebreather mask ทันที (ลด t½ ของ COHb จาก ~4–5 ชม. เหลือ ~60–90 นาที; hyperbaric ~20–30 นาที)",
+  "SpO₂ ปกติหลอกได้ใน CO poisoning → ตรวจ COHb ด้วย co-oximetry",
+  "Inhalation injury (เขม่าในปาก/จมูก ขนจมูกไหม้ เสียงแหบ stridor burn หน้า) → พิจารณาใส่ท่อช่วยหายใจเร็วก่อนบวม",
+  "Lactate สูงมากไม่สมกับภาวะ + ไม่ตอบ O₂ → สงสัย cyanide ให้ hydroxocobalamin"
+ ]
+}
+}

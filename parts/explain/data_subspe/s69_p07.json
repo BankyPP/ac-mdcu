@@ -1,0 +1,153 @@
+{
+"MDCU69|RoC|X11": {
+ "wrong": {
+  "B": "1,000 mL/hr ได้จากการคิดผิด เช่น เอา 4,500 มล. − 500 ไปแบ่ง 4 ชม. หรือไม่หักที่ให้ไปแล้ว · จะถูกถ้าเหลือเวลาครึ่งแรกเพียง 4 ชม. (มาถึงช้ากว่านี้)",
+  "C": "1,200 mL/hr สูงเกินการคำนวณ เสี่ยง fluid overload/compartment syndrome · จะถูกถ้า TBSA หรือน้ำหนักมากกว่านี้ (เช่น 4 × 80 × 45 = 14,400 → ครึ่งแรก 7,200 ให้ใน 6 ชม.)",
+  "D": "600 mL/hr ได้จากการแบ่ง 4,500 ÷ 8 ชม. ไปเลย (~560) โดยไม่ชดเชยที่ให้น้อยไปใน 3 ชม.แรก → under-resuscitation · จะถูกถ้าเริ่มให้ตรงเวลาตั้งแต่เกิดแผลและไม่มีส่วนขาด",
+  "E": "400 mL/hr ต่ำเกิน เสี่ยงไตวายและ burn shock · จะถูกถ้าเป็นอัตราช่วง 16 ชม.หลังของผู้ป่วยตัวเล็กกว่า (เช่น 4 × 40 × 40 = 6,400 → 3,200/16 = 200 ไม่ตรง) หรือเป็นการลดตาม urine output ที่มากเกิน"
+ },
+ "summary": [
+  "Rule of nines (ผู้ใหญ่): ศีรษะ 9, แขนข้างละ 9, ลำตัวหน้า 18, หลัง 18, ขาข้างละ 18, perineum 1 → แขนขวา 9 + หน้า 18 + หลัง 18 = 45%",
+  "Parkland 4 × 50 × 45 = 9,000 มล./24 ชม. → ครึ่งแรก 4,500 มล. ภายใน 8 ชม.นับจากเวลาเกิดแผล",
+  "มาช้า/ให้น้อยในช่วงแรก: ให้ส่วนที่เหลือของครึ่งแรกในเวลาที่เหลือ (4,500 − 500 = 4,000 ÷ 5 = 800 มล./ชม.)",
+  "ปรับตาม urine output 0.5 mL/kg/hr (ที่นี่ ~25 มล./ชม.) · ฝ่ามือผู้ป่วย (รวมนิ้ว) ≈ 1% TBSA ใช้กับแผลกระจาย"
+ ]
+},
+"MDCU69|RoC|X12": {
+ "interp": "แผลเรื้อรังที่ buccal mucosa (กระพุ้งแก้มด้านใน) = สงสัย oral SCC · โจทย์ถามปัจจัยเสี่ยงหลักของตำแหน่งนี้ ซึ่งคือการเคี้ยวหมาก/ยาสูบที่อมไว้ในกระพุ้งแก้ม",
+ "why": "<b>Oral SCC ที่ buccal mucosa</b> สัมพันธ์มากที่สุดกับการ<b>เคี้ยวหมาก (betel quid: ใบพลู + areca nut + ปูน ± ยาสูบ)</b> และยาสูบเคี้ยว เพราะผู้เคี้ยวอมไว้ในกระพุ้งแก้มนาน → เยื่อบุสัมผัสสารก่อมะเร็ง (arecoline, nitrosamine) + ด่างจากปูน ต่อเนื่อง<br>• พบมากในเอเชียใต้และตะวันออกเฉียงใต้ รวมผู้สูงอายุชนบทไทย<br>• รอยโรคก่อนมะเร็ง: oral submucous fibrosis, leukoplakia, erythroplakia<br>→ ตอบ <b>C</b> (ตรงคีย์ และแนวเดียวกับ RoA ข้อ 75)",
+ "wrong": {
+  "A": "รังสี UV เป็นปัจจัยหลักของมะเร็งริมฝีปากล่าง (vermilion ที่โดนแดด) ไม่ถึง buccal mucosa ด้านในช่องปาก · จะถูกถ้าแผลอยู่ริมฝีปากล่างในชาวนา/คนทำงานกลางแจ้ง",
+  "B": "การขาดสารอาหาร (เช่น เหล็ก — Plummer-Vinson, วิตามิน A) เพิ่มความเสี่ยงมะเร็งทางเดินอาหารส่วนบนบ้างแต่น้อย ไม่ใช่ปัจจัยหลักของ buccal SCC · จะถูกถ้าโจทย์เป็นหญิงซีดขาดเหล็ก กลืนลำบากจาก esophageal web (เสี่ยง postcricoid SCC)",
+  "D": "การสูบบุหรี่เพิ่มความเสี่ยงมะเร็งช่องปากโดยรวม เด่นที่ floor of mouth, ลิ้น, กล่องเสียง, ปอด แต่ตำแหน่งกระพุ้งแก้มสัมพันธ์กับการเคี้ยวมากกว่า · จะถูกถ้าแผลอยู่ floor of mouth/lateral tongue ในคนสูบบุหรี่จัด",
+  "E": "แอลกอฮอล์เป็นตัวเสริมฤทธิ์ยาสูบ (synergistic) และเสี่ยงมะเร็ง hypopharynx/esophagus แต่โดยลำพังไม่ใช่ปัจจัยเด่นของ buccal SCC · จะถูกถ้าถามปัจจัยที่เพิ่มความเสี่ยงแบบทวีคูณร่วมกับบุหรี่"
+ },
+ "trap": "ตำแหน่งของแผลบอกปัจจัยเสี่ยง: buccal/gingivobuccal sulcus = เคี้ยวหมาก · ริมฝีปากล่าง = UV · floor of mouth/ลิ้น = บุหรี่ + เหล้า · oropharynx (ต่อมทอนซิล โคนลิ้น) = HPV — อย่าตอบ ‘สูบบุหรี่’ แบบเหมารวม",
+ "summary": [
+  "Oral SCC risk factors: ยาสูบ (สูบ/เคี้ยว), แอลกอฮอล์, หมาก (betel quid/areca nut), HPV (oropharynx), ฟันคม/ฟันปลอมเสียดสี, ภูมิคุ้มกันต่ำ",
+  "Betel quid → buccal mucosa SCC และ oral submucous fibrosis (อ้าปากได้น้อย)",
+  "Premalignant: erythroplakia (เสี่ยงสูงสุด) > leukoplakia · แผลเรื้อรัง >2–3 สัปดาห์ต้อง biopsy",
+  "รักษา: wide excision ± neck dissection ± adjuvant (chemo)RT ตาม stage"
+ ]
+},
+"MDCU69|RoC|X13": {
+ "wrong": {
+  "B": "Citrate ‘เพิ่ม’ pH ปัสสาวะ (ถูก metabolize เป็น bicarbonate) ไม่ใช่ลด · ปัสสาวะเป็นกรดกลับส่งเสริม uric acid และ cystine stone · จะถูกถ้าโจทย์ถามยาที่ทำให้ปัสสาวะเป็นกรด (ซึ่งใช้ลด calcium phosphate/struvite)",
+  "C": "Citrate ‘ลด’ supersaturation ของ calcium oxalate/phosphate (ไปจับ calcium ในรูปละลายน้ำได้) และยับยั้ง crystal growth/aggregation · จะถูกถ้าโจทย์ถามผลของการขาดน้ำ/ดื่มน้ำน้อย ซึ่งเพิ่ม saturation",
+  "D": "Citrate ไม่เพิ่ม oxalate ในปัสสาวะ · ภาวะที่เพิ่ม urinary oxalate คือ enteric hyperoxaluria (malabsorption, short bowel, bariatric surgery) หรือกินผักโขม/วิตามินซีขนาดสูง · จะถูกถ้าถามสาเหตุ hyperoxaluria",
+  "E": "Citrate ทำให้ปัสสาวะเป็นด่าง ไม่ใช่กรด · จะถูกถ้าโจทย์ถาม ammonium chloride/methionine ที่ทำให้ปัสสาวะเป็นกรด"
+ }
+},
+"MDCU69|RoC|X14": {
+ "interp": "ทารก 6 เดือน (ช่วง peak 3–9 เดือน) ปวดท้องเกร็งเป็นพักๆ ชักขาขึ้น + เลือดแฝงในอุจจาระ = triad ของ intussusception · โจทย์ถามการวินิจฉัย",
+ "why": "<b>Intussusception</b>: ลำไส้ส่วนต้นมุดเข้าส่วนปลาย (ส่วนใหญ่ <b>ileocolic</b>) จาก lymphoid hyperplasia (Peyer's patch) หลังติดเชื้อไวรัสเป็น lead point<br>• อายุ: 3 เดือน–3 ปี, peak <b>3–9 เดือน</b> (คีย์ลายมือ)<br>• อาการ: ปวดเกร็งเป็นพักๆ (ร้อง ชักขาขึ้นอก) สลับเงียบ/ซึม + อาเจียน + เลือดในอุจจาระ (occult blood → currant jelly stool เมื่อเยื่อบุขาดเลือด) + คลำได้ก้อนรูปไส้กรอก<br>• วินิจฉัยด้วย US (target sign) แล้ว air/hydrostatic enema reduction<br>→ ตอบ <b>B</b>",
+ "wrong": {
+  "A": "นิ่วในไตพบน้อยมากในทารก 6 เดือน และให้ hematuria (เลือดในปัสสาวะ) ไม่ใช่เลือดในอุจจาระ · จะถูกถ้าเป็นเด็กโต/ผู้ใหญ่ปวดบิดสีข้างร้าวลงขาหนีบ ปัสสาวะมีเลือด",
+  "C": "Midgut malrotation with volvulus ส่วนใหญ่ <1 เดือน อาการเด่นอาเจียนน้ำดีเฉียบพลัน (เลือดในอุจจาระเป็นสัญญาณลำไส้ขาดเลือดแล้ว) ไม่ใช่ปวดเป็นพักๆ ชักขาแบบนี้ · จะถูกถ้าทารกแรกเกิดอาเจียนสีเขียวเฉียบพลัน",
+  "D": "Meckel diverticulum เลือดออกปริมาณมาก ‘ไม่เจ็บ’ (painless) เป็นเลือดแดงคล้ำในเด็ก <2 ปี ไม่ใช่ปวดเกร็งชักขา (เว้นแต่ Meckel เป็น lead point ของ intussusception) · จะถูกถ้าเด็กถ่ายเป็นเลือดมากจนซีดโดยไม่ปวดท้อง",
+  "E": "Appendicitis พบน้อยในทารก <1 ปี (มักมาช้าและแตกแล้ว) ปวดต่อเนื่องร่วมไข้ ไม่มีเลือดในอุจจาระ · จะถูกถ้าเด็กโตปวดรอบสะดือย้ายไปท้องน้อยขวา มีไข้ กดเจ็บ McBurney"
+ },
+ "summary": [
+  "Intussusception: สาเหตุลำไส้อุดตันที่พบบ่อยที่สุดในเด็ก 3 เดือน–3 ปี · ส่วนใหญ่ idiopathic ileocolic",
+  "อาการ classic triad (ปวดเป็นพัก + คลำก้อน + currant jelly) พบครบ <50% · ซึมผิดปกติอาจเป็นอาการเดียว",
+  "US: target/doughnut sign · รักษา air/hydrostatic enema reduction สำเร็จ ~80–90% (recurrence ~10%)",
+  "ผ่าตัดเมื่อ peritonitis, perforation, shock หรือ enema ไม่สำเร็จ · เด็ก >3 ปี/เป็นซ้ำ หา lead point (Meckel, polyp, lymphoma)"
+ ]
+},
+"MDCU69|RoC|X15": {
+ "wrong": {
+  "A": "STSG ไม่จำเป็นสำหรับ stage II (partial thickness) ซึ่งหายเองได้ด้วย re-epithelialization จาก adnexa ที่เหลือ และ graft ติดยากบริเวณรับน้ำหนัก · จะถูกถ้าเป็นแผลตื้นกว้างที่ไม่รับแรงกด (ไม่ใช่ ischial) หลัง debridement",
+  "B": "FTSG ไม่ใช้กับ pressure sore เพราะ bed ไม่ดีพอและแผล stage II หายเอง · จะถูกถ้าเป็นแผลเล็กใบหน้า/มือที่ต้องการผิวทนทานสีเข้ากัน",
+  "C": "Flap (เช่น gluteal/hamstring flap สำหรับ ischial) ใช้กับ stage III–IV ที่ลึกถึงไขมัน/กล้ามเนื้อ/กระดูก ไม่ใช่แผลตื้น · จะถูกถ้าเป็นแผลลึกเห็นกระดูก ischial tuberosity หรือมี osteomyelitis หลัง debridement",
+  "D": "การตัดแล้วเย็บตรงไม่เหมาะกับ stage II และแผลกดทับมักกลับเป็นซ้ำถ้าเย็บแนวรับแรง · จะถูกถ้าเป็นแผลเล็กที่ลึกแต่ปิดตรงได้โดยไม่ตึง (พบน้อย)"
+ }
+},
+"MDCU69|RoC|X16": {
+ "wrong": {
+  "A": "เป็น risk factor จริงและสำคัญที่สุด: บุหรี่เพิ่มความเสี่ยงมะเร็งกระเพาะปัสสาวะ 2–4 เท่า (~50% ของผู้ป่วย) จาก aromatic amines ที่ขับทางปัสสาวะ · ข้อนี้จะเป็นคำตอบถ้าโจทย์ถามสิ่งที่ไม่สัมพันธ์",
+  "C": "เป็น risk factor จริง: aniline dye/aromatic amines (β-naphthylamine, benzidine) จากอุตสาหกรรมสีย้อม ยาง หนัง สี — occupational bladder cancer · ข้อนี้จะเป็นคำตอบถ้าเป็นสารที่ไม่ใช่ aromatic amine",
+  "D": "เป็น risk factor จริง: cyclophosphamide ถูก metabolize เป็น acrolein ระคายกระเพาะ → hemorrhagic cystitis และเพิ่มความเสี่ยงมะเร็ง (ป้องกันด้วย mesna + ดื่มน้ำมาก) · ข้อนี้จะเป็นคำตอบถ้าเป็นยาเคมีที่ไม่ผ่านทางปัสสาวะ",
+  "E": "เป็น risk factor จริง: ประวัติครอบครัวและ Lynch syndrome (เด่นใน upper tract urothelial carcinoma) เพิ่มความเสี่ยง · ข้อนี้จะเป็นคำตอบถ้าโจทย์บอกว่าไม่มีปัจจัยพันธุกรรมใดเกี่ยวข้อง"
+ },
+ "summary": [
+  "Urothelial (TCC) bladder cancer: บุหรี่ (#1), aromatic amines (สีย้อม ยาง), cyclophosphamide, pioglitazone (ข้อมูลไม่แน่น), arsenic ในน้ำดื่ม, รังสีอุ้งเชิงกราน, aristolochic acid (UTUC)",
+  "SCC ของกระเพาะปัสสาวะ: Schistosoma haematobium, ใส่สายสวนเรื้อรัง, นิ่วเรื้อรัง · Adenocarcinoma: urachal remnant, bladder exstrophy",
+  "กาแฟไม่ใช่ปัจจัยเสี่ยงที่ยืนยัน (IARC จัดไม่ก่อมะเร็งกระเพาะปัสสาวะ)",
+  "อาการเด่น: painless gross hematuria ในผู้สูงอายุสูบบุหรี่ → cystoscopy + CT urography"
+ ]
+},
+"MDCU69|RoC|X17": {
+ "wrong": {
+  "A": "ข้อความถูก: ในทารกและเด็ก teratoma พบที่ sacrococcygeal มากที่สุด (ตามด้วย gonad, mediastinum, retroperitoneum) · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า ovary พบบ่อยที่สุดในทารก",
+  "C": "ข้อความถูก: SCT ขนาดใหญ่มีเลือดไหลผ่านมาก (high-output cardiac failure) → fetal hydrops พยากรณ์แย่มาก อาจต้อง fetal intervention · ข้อนี้จะเป็นคำตอบถ้าเขียนว่า hydrops ไม่สัมพันธ์กับพยากรณ์",
+  "D": "ข้อความถูก: การผ่าตัดต้องตัดก้อนพร้อมกระดูก coccyx ทั้งชิ้น เพราะเหลือ coccyx → กลับเป็นซ้ำ (และกลับมาเป็น malignant ได้) · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าไม่ต้องตัด coccyx",
+  "E": "ข้อความถูก: SCT ที่พบตั้งแต่แรกเกิดส่วนใหญ่เป็น benign (mature/immature) แต่ถ้าวินิจฉัยช้า (>2 เดือน) โอกาส malignant (yolk sac tumor) สูงขึ้นมาก · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าส่วนใหญ่เป็นมะเร็งแต่กำเนิด"
+ },
+ "trap": "AFP สูงตามสรีรวิทยาในทารกแรกเกิด (ลดลงจนถึงระดับผู้ใหญ่ราว 8–12 เดือน) และสูงใน yolk sac component จึงใช้ AFP ‘ตัวเดียว’ วินิจฉัย teratoma ไม่ได้ — ต้องเทียบกับค่าปกติตามอายุ และใช้ติดตามการกลับเป็นซ้ำหลังผ่าตัด",
+ "summary": [
+  "Sacrococcygeal teratoma: germ cell tumor ที่พบบ่อยที่สุดในทารกแรกเกิด หญิง > ชาย",
+  "Altman classification: I ภายนอกเป็นหลัก · II ภายนอก + ในเชิงกราน · III ภายนอกเล็ก ส่วนใหญ่ในอุ้งเชิงกราน/ช่องท้อง · IV อยู่ presacral ทั้งหมด (วินิจฉัยช้า malignant มาก)",
+  "รักษา: ผ่าตัดตัดก้อนพร้อม coccygectomy โดยเร็ว · ระวังเลือดออกมาก (ควบคุม median sacral artery)",
+  "ติดตาม AFP + PR exam ทุก 3 เดือนนาน 3 ปี (recurrence ~10–20% มักเป็น yolk sac tumor)"
+ ]
+},
+"MDCU69|RoC|X18": {
+ "wrong": {
+  "A": "Vascular study (CTA/DSA) ใช้หา AVM/aneurysm เป็นสาเหตุของเลือดออก (คีย์ลายมือ) เหมาะในคนอายุน้อยไม่มีความดันสูงหรือเลือดออกตำแหน่งไม่ตรง pattern แต่ในผู้ป่วยมะเร็งต้องหาก้อน metastasis ก่อน · จะถูกถ้าไม่มีประวัติมะเร็ง อายุน้อย และ CT เห็น SAH/lobar ICH",
+  "C": "CSF analysis ใช้หา SAH ที่ CT ไม่พบ (คีย์ลายมือ) หรือ carcinomatous meningitis แต่ห้าม LP เมื่อมีก้อนเลือด/mass effect (เสี่ยง herniation) · จะถูกถ้าปวดหัวเฉียบพลันแต่ CT ปกติ",
+  "D": "คุมความดันเป็นการรักษาเสริมของ ICH ทุกชนิด (เป้า SBP ~140 ใน spontaneous ICH) แต่ไม่ใช่ขั้นวินิจฉัยหาสาเหตุ · จะถูกถ้าถามการดูแลเบื้องต้นของ hypertensive ICH",
+  "E": "All of the above ผิดเพราะ A และ C ไม่ใช่ขั้นตอนถัดไปที่เหมาะสมในผู้ป่วยมะเร็ง และ C อาจอันตราย · จะถูกถ้าทุกช้อยเป็นขั้นตอนที่จำเป็นพร้อมกัน"
+ }
+},
+"MDCU69|RoC|X19": {
+ "wrong": {
+  "B": "Cerebral aqueduct (ระหว่าง third กับ fourth ventricle) เล็กมากและล้อมรอบด้วย midbrain ไม่ใช่ตำแหน่งวางสาย EVD · จะถูกถ้าโจทย์ถามตำแหน่งที่อุดบ่อยที่สุดใน obstructive hydrocephalus (aqueductal stenosis)",
+  "C": "Fourth ventricle อยู่ posterior fossa ไม่ใช่ปลายสาย ventriculostomy มาตรฐาน · จะถูกถ้าโจทย์ถาม fourth ventriculostomy/shunt ใน trapped fourth ventricle (พบน้อย)",
+  "D": "Subarachnoid space ใช้สำหรับ lumbar drain (เจาะที่หลังส่วนล่าง) ซึ่งห้ามใน obstructive hydrocephalus · จะถูกถ้าเป็น communicating hydrocephalus/NPH ที่ทำ lumbar drain trial หรือ lumboperitoneal shunt",
+  "E": "Cisterna magna (ใต้ cerebellum) ใช้เจาะ CSF แบบ cisternal puncture ในอดีต/สัตว์ทดลอง ไม่ใช่ EVD · จะถูกถ้าถามตำแหน่งเจาะ suboccipital puncture"
+ },
+ "summary": [
+  "EVD (external ventricular drain) ใส่ที่ Kocher's point (หน้าต่อ coronal suture ~1 ซม., ห่างเส้นกลาง ~2.5–3 ซม.) มักด้านขวา (non-dominant) ปลายสายอยู่ frontal horn ของ lateral ventricle ใกล้ foramen of Monro",
+  "ใช้ทั้งระบาย CSF (acute hydrocephalus, IVH) และวัด ICP (gold standard)",
+  "ภาวะแทรกซ้อน: ติดเชื้อ (ventriculitis), เลือดออก, วางผิดตำแหน่ง, overdrainage",
+  "ทางเลือกถาวร: VP shunt หรือ endoscopic third ventriculostomy (ETV เปิด floor of third ventricle ใน obstructive hydrocephalus)"
+ ]
+},
+"MDCU69|RoC|X20": {
+ "wrong": {
+  "A": "Pelvic exenteration (คีย์ไฟล์ 01.2 เลือกข้อนี้) ตัด rectum + bladder ทั้งหมด (± อวัยวะสืบพันธุ์) เกินจำเป็นเมื่อก้อนลุกแค่ dome ของกระเพาะซึ่งตัดบางส่วนได้โดยได้ margin ลบ · จะถูกถ้าก้อนลุก trigone/bladder neck หรือเป็น rectal cancer ลุกกว้างที่ต้องตัดกระเพาะทั้งหมด",
+  "B": "Pelvic exenteration + chemotherapy (คีย์ชุดแรกเลือกข้อนี้ ลายมือ for stage III) — chemo เป็น adjuvant ของ stage III จริง แต่ไม่ใช่เหตุผลที่ต้องตัดกระเพาะทั้งหมด การผ่าตัดยังเกินจำเป็นสำหรับ dome invasion · จะถูกถ้าก้อนลุก trigone และ node บวก",
+  "D": "Diverting colostomy อย่างเดียวเป็นการรักษาแบบประคับประคอง (ลำไส้อุดตัน/fistula) ในโรคที่ตัดไม่ได้หรือผู้ป่วยไม่พร้อม · จะถูกถ้ามี distant metastasis กว้างหรือสภาพผู้ป่วยไม่ไหวผ่าตัดใหญ่",
+  "E": "Chemotherapy อย่างเดียวไม่ใช่การรักษาให้หายขาดของ locally advanced colon cancer ที่ resect ได้ · จะถูกถ้ามี unresectable metastasis หรือใช้ neoadjuvant ใน T4b ก่อนผ่าตัด (FOxTROT)"
+ },
+ "summary": [
+  "Colon cancer T4b (ลุกอวัยวะข้างเคียง) → en bloc multivisceral resection ให้ได้ R0 — อย่าแยกก้อนออกจากอวัยวะที่ติด (อาจเป็นมะเร็งจริง ไม่ใช่แค่ inflammatory adhesion)",
+  "ลุก dome ของกระเพาะ → partial cystectomy · ลุก trigone/bladder neck → total cystectomy/pelvic exenteration",
+  "Sigmoid/rectosigmoid ติดกระเพาะ: anterior resection + en bloc partial cystectomy แล้ว adjuvant chemo ถ้า stage III/high-risk II",
+  "⚠ คีย์ชุดแรกตอบ B (pelvic exenteration + chemo) และคีย์ไฟล์ 01.2 ตอบ A — คำตอบปัจจุบันคือ C เพราะ dome invasion ทำ partial cystectomy ได้"
+ ]
+},
+"MDCU69|RoC|X21": {
+ "interp": "แผลฉีกขาดที่แก้มขวา ถ้าเย็บปิดผิวอย่างเดียวโดยไม่ explore — โครงสร้างที่เสี่ยงคือ parotid (Stensen) duct และ facial nerve branches · โจทย์ถามภาวะแทรกซ้อนที่ ‘ไม่’ คาดว่าจะเกิดจากแผลตำแหน่งนี้ ตามคีย์คือ drooling",
+ "wrong": {
+  "B": "เกิดได้: parotid (Stensen) duct วิ่งผ่านกลางแก้ม (แนว tragus ถึงกึ่งกลางริมฝีปากบน) ถ้าขาดแล้วไม่ซ่อม น้ำลายคั่งใต้ผิวเป็น sialocele (คีย์ลายมือ: sialocele = parotid duct) · ข้อนี้จะเป็นคำตอบถ้าแผลอยู่ต่ำกว่าแนว duct มาก",
+  "C": "เกิดได้: zygomatic branch ของ facial nerve เลี้ยง orbicularis oculi ถ้าขาด → ปิดตาไม่สนิท (lagophthalmos) · ข้อนี้จะเป็นคำตอบถ้าแผลอยู่ใกล้มุมปาก/medial ต่อ lateral canthus (แขนงเล็กต่อกันเองได้)",
+  "D": "เกิดได้: temporal (frontal) branch วิ่งเหนือ zygomatic arch ถ้าขาด → ยกคิ้วไม่ได้ คิ้วตก (brow ptosis) · ข้อนี้จะเป็นคำตอบถ้าแผลอยู่ต่ำที่แก้มส่วนล่างห่างจาก zygomatic arch",
+  "E": "เกิดได้: parotid duct/ต่อมขาดแล้วน้ำลายรั่วออกทางผิวหนัง = salivary (parotid) fistula · ข้อนี้จะเป็นคำตอบถ้าแผลไม่ผ่านแนว duct/ต่อม parotid"
+ }
+},
+"MDCU69|RoC|X22": {
+ "wrong": {
+  "A": "ผิดเพราะเนื้องอก benign ในกะโหลก (meningioma, schwannoma, craniopharyngioma) ก็ทำให้ตายได้จาก mass effect, ICP สูง, herniation หรือกดโครงสร้างสำคัญในพื้นที่ปิด · จะถูกถ้าเป็นเนื้องอก benign นอกกะโหลกที่ไม่กดอวัยวะสำคัญ",
+  "C": "ผิดเพราะมีเนื้องอกหลายชนิดรักษาหายหรือคุมได้ยาวนาน (meningioma ตัดหมด, pilocytic astrocytoma, germinoma, pituitary adenoma) และแม้ GBM การรักษาก็ยืดชีวิต/คุณภาพชีวิต · จะถูกถ้าพูดถึงการปฏิเสธการรักษาเชิงรุกใน DIPG ระยะท้ายบางกรณี (ยังมี RT ประคับประคอง)",
+  "D": "ผิดเพราะ primary brain tumor ที่ benign/non-malignant (meningioma, pituitary adenoma, schwannoma) รวมกันมากกว่า malignant (~2:1 ตาม CBTRUS) · จะถูกถ้านับ brain metastasis ซึ่งพบบ่อยที่สุดในสมองผู้ใหญ่โดยรวม",
+  "E": "ผิดเพราะ primary brain tumor แพร่กระจายนอก CNS น้อยมาก (BBB, ไม่มี lymphatics) · ที่แพร่ภายใน CNS ผ่าน CSF (drop metastasis) ได้คือ medulloblastoma, ependymoma, germinoma · จะถูกถ้าเขียนว่า ‘บางชนิดแพร่กระจายทาง CSF’"
+ },
+ "summary": [
+  "Primary brain tumor ที่พบบ่อยที่สุดในผู้ใหญ่: meningioma (benign ส่วนใหญ่) · malignant ที่พบบ่อยสุด: glioblastoma",
+  "เนื้องอกในสมองโดยรวมพบ brain metastasis มากที่สุด (ปอด, เต้านม, melanoma, ไต, ลำไส้)",
+  "Benign ก็ตายได้จากตำแหน่ง (‘benign histology, malignant location’) · หลายชนิดรักษาหายด้วยผ่าตัด ± RT",
+  "เด็ก: posterior fossa tumor เด่น (pilocytic astrocytoma, medulloblastoma, ependymoma)"
+ ]
+}
+}
