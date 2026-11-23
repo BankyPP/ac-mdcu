@@ -1,0 +1,168 @@
+{
+"57": {
+"interp": "ผู้ป่วยติดเตียง ผิวที่ sacrum ยังไม่แตกแต่แดงไม่จางนานเกิน 1 ชั่วโมงหลังเปลี่ยนท่า → ถามระยะของแผลกดทับ",
+"why": "สไลด์หน้า 60 (staging): <b>Stage I — skin intact but redden for more than 1 hour</b><br>ผิวยังไม่ขาด แต่รอยแดงที่ไม่จางหายภายใน 1 ชั่วโมงหลังเอาแรงกดออก (non-blanchable erythema) แสดงว่าเนื้อเยื่อเริ่มบาดเจ็บแล้ว เป็นระยะที่ยังย้อนกลับได้ถ้าลดแรงกดทันที · ระยะถัดไปคือ II (ผิวหลุดบางส่วน), III (ลงถึงชั้นใต้ผิว), IV (ถึงกระดูก/ข้อ) · ชีท p7 แบ่งระยะแบบเดียวกัน",
+"wrong": {
+"A": "ผิด — stage IV ต้องลึกถึงกระดูกหรือข้อ ผิวขาดแล้ว จะถูกถ้าแผลที่ sacrum เห็นกระดูกที่พื้นแผล",
+"C": "ผิด — unstageable คือแผลที่พื้นถูกปิดด้วย slough/eschar จนประเมินความลึกไม่ได้ จะถูกถ้าแผลมีสะเก็ดดำแข็งคลุมทั้งแผล",
+"D": "ผิด — stage III ผิวขาดเต็มชั้นลงถึง subcutaneous แต่ยังไม่ถึงกระดูก จะถูกถ้าแผลเป็นหลุมเห็นไขมันใต้ผิวแต่ไม่เห็นกล้ามเนื้อ/กระดูก",
+"E": "ผิด — stage II ผิวหลุดบางส่วน เป็นแผลถลอกตื้นหรือตุ่มน้ำ จะถูกถ้าผิวที่ sacrum เป็นแผลตื้นสีชมพูหรือมีตุ่มน้ำแตก"
+},
+"trap": "ผิวยังไม่แตกทำให้คิดว่ายังไม่ใช่แผลกดทับ — รอยแดงที่ไม่จางเกิน 1 ชั่วโมงคือ stage I แล้ว",
+"summary": ["Stage I: ผิว intact แต่แดงเกิน 1 ชั่วโมง (p60)", "Stage II: ผิวหลุดบางส่วน (partial thickness)", "Stage III: ผิวขาดเต็มชั้นถึง subcutaneous · Stage IV: ถึงกระดูก/ข้อ", "Stage I ยังย้อนกลับได้ถ้าลดแรงกดทันที"]
+},
+"58": {
+"interp": "แผลกดทับที่ sacrum เห็นกระดูกที่พื้นแผล → ถามระยะ",
+"why": "สไลด์หน้า 60: <b>Stage IV — Involvement of bone or joint</b><br>แผลที่ลึกจนเห็นหรือคลำได้กระดูก/ข้อ คือ stage IV ซึ่งเป็นระยะรุนแรงที่สุด เสี่ยง osteomyelitis และมักต้อง debride กระดูกที่ติดเชื้อและปิดแผลด้วย flap · ระยะ III ลึกถึงชั้นใต้ผิวแต่ยังไม่ถึงกระดูก · ชีท p7 แบ่งระยะเช่นเดียวกัน",
+"wrong": {
+"B": "ผิด — stage II เป็นแผลตื้นผิวหลุดบางส่วน ยังไม่ถึงไขมันใต้ผิว จะถูกถ้าแผลเป็นรอยถลอกตื้นหรือตุ่มน้ำ",
+"C": "ผิด — stage III ลึกถึง subcutaneous แต่ไม่เห็นกระดูก จะถูกถ้าแผลเป็นหลุมเห็นไขมันแต่ไม่ถึงกระดูก/ข้อ",
+"D": "ผิด — deep tissue injury คือผิวยังไม่ขาดแต่เป็นปื้นสีม่วงคล้ำจากเนื้อเยื่อลึกบาดเจ็บ จะถูกถ้าผิวยังไม่แตก แต่เป็นจ้ำม่วงเข้มหรือตุ่มเลือดเหนือปุ่มกระดูก",
+"E": "ผิด — stage I ผิวยังไม่ขาด แค่แดงไม่จาง จะถูกถ้าผิวที่ sacrum แดงนานเกิน 1 ชั่วโมงแต่ไม่มีแผล"
+},
+"trap": "อย่าสับสน stage III กับ IV — แยกกันที่เห็นกระดูก/ข้อหรือไม่",
+"summary": ["Stage IV = ถึงกระดูกหรือข้อ (p60)", "เสี่ยง osteomyelitis → ประเมินกระดูก", "แผลลึก → debride แล้วปิดด้วย flap", "การรักษาพื้นฐาน: ลดแรงกด + ดูแลแผล + โภชนาการ"]
+},
+"59": {
+"interp": "เชื้อ beta-hemolytic Streptococcus Lancefield group A ทำให้ผิวหนังติดเชื้อ → ถามชื่อเชื้อ",
+"wrong": {
+"A": "ผิด — pox virus เป็นไวรัส (เช่น molluscum contagiosum) ไม่ใช่ Streptococcus จะถูกถ้าโจทย์บรรยายตุ่มนูนมุกตรงกลางบุ๋มหลายเม็ด",
+"B": "ผิด — S. aureus เป็นแบคทีเรียผิวหนังอีกตัวในสไลด์ แต่เป็น Staphylococcus ไม่มี Lancefield group จะถูกถ้าโจทย์ถามเชื้อหลักของ folliculitis, furuncle, carbuncle",
+"C": "ผิด — HSV เป็นไวรัสทำให้ตุ่มน้ำเป็นกลุ่ม จะถูกถ้าโจทย์บรรยายตุ่มน้ำใสเป็นกลุ่มบนฐานแดงที่ริมฝีปากเป็นซ้ำ",
+"E": "ผิด — HPV ทำให้หูด ไม่ใช่ Streptococcus จะถูกถ้าโจทย์บรรยายหูดที่มือหรืออวัยวะเพศ"
+},
+"trap": "Group A beta-hemolytic Streptococcus = S. pyogenes — อย่าสับสนกับ S. aureus ซึ่งเป็นเชื้อเด่นของฝีและรูขุมขน",
+"summary": ["Bacterial skin infection (p61): S. aureus, S. pyogenes (beta-haemolytic group A)", "Viral: HPV, pox, herpes", "S. aureus → folliculitis, furuncle, carbuncle", "S. pyogenes → cellulitis, erysipelas, necrotizing fasciitis (type II)"]
+},
+"60": {
+"interp": "ตุ่มหนองเล็ก ๆ ไม่กี่เม็ดรอบรูขุมขนที่หนวด ไม่มีไข้ = folliculitis เล็กน้อย → ถามการจัดการ",
+"why": "สไลด์หน้า 62: <b>Folliculitis</b> · ลายมือ: <b>e.g. ที่หนวด, รักแร้ · เป็นน้อย ๆ อาจจะหายเอง · หลายเม็ด → oral dicloxacillin</b><br>folliculitis คือการติดเชื้อตื้น ๆ ที่รูขุมขน (ส่วนใหญ่ S. aureus) ถ้าเป็นไม่กี่เม็ดและไม่มีไข้ รักษาความสะอาดและสังเกตอาการก็หายเองได้ · ถ้าเป็นหลายเม็ดจึงให้ยากินคลุม S. aureus · ลุกลามเป็นฝี (furuncle) จึง I&amp;D",
+"wrong": {
+"A": "ผิด — ฉายแสงไม่มีบทบาทในการติดเชื้อผิวหนัง จะถูกถ้าเป็นมะเร็งผิวหนังที่ผ่าตัดไม่ได้",
+"B": "ผิด — wide debridement ใช้กับเนื้อตายลึก ไม่ใช่ตุ่มหนองตื้น จะถูกถ้าเป็น necrotizing fasciitis หรือ carbuncle ที่มีหลายโพรง",
+"C": "ผิด — vancomycin ทางหลอดเลือดสำหรับการติดเชื้อรุนแรง/MRSA จะถูกถ้ามี cellulitis รุนแรงมีไข้ sepsis หรือสงสัย MRSA ในโรงพยาบาล",
+"D": "ผิด — ตุ่มหนองตื้นเล็กไม่ต้องผ่าระบาย จะถูกถ้าลุกลามเป็น furuncle ที่เป็นฝีนูน fluctuant"
+},
+"trap": "เห็นหนองแล้วอยากผ่าระบาย — แต่ folliculitis เป็นการติดเชื้อตื้นที่รูขุมขน เป็นน้อยหายเองได้ ฝีจริง (furuncle) ค่อย I&D",
+"summary": ["Folliculitis = ติดเชื้อที่รูขุมขน (หนวด รักแร้) (ลายมือ p62)", "เป็นน้อย → หายเอง · หลายเม็ด → oral dicloxacillin", "Furuncle = ฝีที่รูขุมขน → I&D", "Carbuncle = หลาย furuncle ต่อกัน → debride"]
+},
+"61": {
+"interp": "ก้อนแดงเจ็บ 2 cm fluctuant มีหัวหนองตรงกลางที่รักแร้ = furuncle (ฝี) → ถามการรักษา",
+"why": "ลายมือหน้า 65: <b>Furuncle : abscess → I&amp;D</b><br>furuncle คือการติดเชื้อของรูขุมขนที่ลุกลามเป็นฝีหนองในชั้น dermis/subcutaneous เมื่อคลำได้ fluctuant แสดงว่ามีหนองเป็นโพรงแล้ว การรักษาหลักคือผ่าระบายหนอง ยาอย่างเดียวผ่านเข้าโพรงหนองไม่ได้ดี · <b>! ต่าง</b> ชีท p7 ให้ประคบน้ำอุ่นให้หนองไหล ± ยาปฏิชีวนะ ใช้กับฝีเล็กที่ยังไม่ fluctuant · ก้อน fluctuant ชัดจึง I&amp;D (IDSA 2014)",
+"wrong": {
+"A": "ผิด — ตัดผิวรักแร้กว้าง ๆ เกินกว่าเหตุสำหรับฝีเดียว จะถูกถ้าเป็น hidradenitis suppurativa เรื้อรังที่มี sinus tract หลายรูที่รักแร้",
+"B": "ผิด — steroid ทากดภูมิ ทำให้ติดเชื้อลุกลาม จะถูกถ้าเป็นผื่นแพ้สัมผัสที่รักแร้ซึ่งไม่ใช่การติดเชื้อ",
+"D": "ผิด — ฝีที่ fluctuant แล้วไม่ควรรอ จะถูกถ้าเป็น folliculitis ตุ่มเล็กไม่กี่เม็ดที่หายเองได้",
+"E": "ผิด — ยาอย่างเดียวเข้าโพรงหนองไม่ดี ต้องระบายก่อน จะถูกถ้าเป็นฝีเล็ก/ยังไม่มีหนองชัด หรือ cellulitis รอบ ๆ ที่ไม่มีโพรงหนอง"
+},
+"trap": "ชีทให้ประคบอุ่นได้ — ใช้กับฝีเล็กเริ่มต้น แต่ fluctuant 2 cm คือ abscess ต้อง I&D",
+"summary": ["Furuncle = abscess ที่รูขุมขน → I&D (ลายมือ p65)", "ฝีเล็กเริ่มต้น: ประคบอุ่น ± ยา (ชีท p7)", "เชื้อหลัก S. aureus", "Carbuncle (หลายโพรงต่อกัน) → debride"]
+},
+"62": {
+"interp": "ผู้ป่วยเบาหวาน ก้อนแข็งเจ็บใหญ่ที่ต้นคอ มีหลายรูระบายหนอง = carbuncle → ถามการผ่าตัดที่เหมาะสม",
+"why": "ลายมือหน้า 67: <b>Carbuncle = หลาย pockets ติดกัน → I&amp;D อาจไม่ครบทุก pockets → Debride skin เลย · หนองฝีฝักบัว</b> · หน้า 68 รูปหลายรูเปิด<br>carbuncle คือ furuncle หลายอันเชื่อมกันใต้ผิวเป็นโพรงหลายช่อง (มักที่ต้นคอ หลัง ในผู้ป่วยเบาหวาน) การกรีดเล็ก ๆ จุดเดียวระบายไม่ทั่วทุกโพรง จึงต้องตัดผิวและเนื้อเยื่อที่ติดเชื้อออก (debridement) ให้เปิดทุก pocket ร่วมกับยาปฏิชีวนะและคุมน้ำตาล",
+"wrong": {
+"A": "ผิด — ยาทาไม่ถึงโพรงหนองลึกหลายช่อง จะถูกถ้าเป็น impetigo ผิวตื้น ๆ",
+"B": "ผิด — carbuncle ในเบาหวานลุกลามได้ ต้องรักษา จะถูกถ้าเป็น folliculitis ไม่กี่เม็ดที่หายเอง",
+"C": "ผิด — กรีดจุดเดียวระบายไม่ครบทุก pocket จะถูกถ้าเป็น furuncle เดี่ยวมีโพรงเดียว",
+"E": "ผิด — ดูดด้วยเข็มเอาหนองข้นหลายโพรงออกไม่หมด จะถูกถ้าเป็นฝีโพรงเดียวขนาดเล็กในตำแหน่งที่ต้องการแผลเล็ก (เช่น เต้านม)"
+},
+"trap": "หลักฝี = I&D แต่ carbuncle มีหลาย pocket ติดกัน การกรีดจุดเดียวไม่พอ ต้อง debride",
+"summary": ["Carbuncle = หลาย furuncle เชื่อมกัน มีหลายรูเปิด (ฝีฝักบัว) (ลายมือ p67)", "Tx: debride skin และ pockets + ยาปฏิชีวนะ", "พบบ่อยที่ต้นคอ หลัง ในเบาหวาน", "Folliculitis → furuncle (I&D) → carbuncle (debride)"]
+},
+"63": {
+"interp": "เบาหวาน ปวดขารุนแรงเกินกว่ารอยที่เห็น มีไข้ ความดันต่ำ ผิวคล้ำมีตุ่มน้ำ ตอนผ่าตัด fascia แยกด้วยนิ้วง่าย → ถามการวินิจฉัยและการรักษา",
+"wrong": {
+"A": "ผิด — furuncle เป็นฝีที่รูขุมขน ไม่ทำให้ช็อกและ fascia ไม่แยกง่าย จะถูกถ้าเป็นก้อนแดงเจ็บ fluctuant มีหัวหนองโดยไม่มี sepsis",
+"B": "ผิด — DVT ทำให้ขาบวมปวด แต่ไม่มีตุ่มน้ำคล้ำ ช็อก และ fascia เปื่อย จะถูกถ้าขาบวมทั้งข้างหลังผ่าตัด/นอนนาน และ ultrasound พบลิ่มเลือด",
+"D": "ผิด — lymphedema เป็นการบวมเรื้อรังไม่เจ็บมาก ไม่มีไข้ช็อก จะถูกถ้าขาบวมเรื้อรังหลังเลาะต่อมน้ำเหลืองขาหนีบ",
+"E": "ผิด — cellulitis ไม่ทำให้ fascia เปื่อยแยกด้วยนิ้วและไม่ควรกลับบ้านเมื่อช็อก จะถูกถ้าเป็นผื่นแดงร้อนขอบไม่ชัด ไม่มี sepsis และอาการปวดสอดคล้องกับที่เห็น"
+},
+"trap": "ผิวภายนอกดูไม่มาก (แผลอาจไม่ใหญ่) แต่ปวดมากเกินสัดส่วน + sepsis = necrotizing fasciitis — finger test (fascia แยกง่าย) ยืนยัน",
+"summary": ["Necrotizing fasciitis: แผลอาจไม่ใหญ่ แต่มี sepsis กิน fascia ได้ไกล (ลายมือ p69)", "Pain out of proportion, bullae, ผิวคล้ำ, crepitus", "Tx: urgent radical debride (กรีดแล้วเอานิ้วเซาะ) + broad-spectrum antibiotics", "หลัง debride: dressing จนมี granulation → skin graft"]
+},
+"64": {
+"interp": "เบาหวาน ผิวถุงอัณฑะและฝีเย็บตายลุกลามเร็วร่วมกับ sepsis → ถามชื่อภาวะ",
+"why": "ลายมือหน้า 69: <b>ถ้าเป็นที่ perineum = Fournier gangrene</b><br>Fournier gangrene คือ necrotizing fasciitis บริเวณฝีเย็บ อวัยวะเพศ และรอบทวารหนัก มักเป็นเชื้อผสม (mixed organism) ในผู้ป่วยเบาหวาน ลุกลามเร็วตามชั้น fascia ทำให้ผิวตายและ sepsis · การรักษาเหมือน necrotizing fasciitis: debride ด่วน + ยาปฏิชีวนะครอบคลุมกว้าง (ชีท p8)",
+"wrong": {
+"B": "ผิด — pressure injury เกิดช้าที่ปุ่มกระดูกจากแรงกด ไม่ลามเร็วร่วม sepsis จะถูกถ้าผู้ป่วยติดเตียงมีแผลที่ sacrum ค่อย ๆ ลึก",
+"C": "ผิด — carbuncle เป็นฝีหลายโพรงที่ต้นคอ/หลัง ไม่ใช่ผิวฝีเย็บตายลุกลาม จะถูกถ้าโจทย์บรรยายก้อนแข็งมีหลายรูเปิดที่ต้นคอผู้ป่วยเบาหวาน",
+"D": "ผิด — hidradenitis เป็นฝีเรื้อรังเป็นซ้ำที่ apocrine gland (รักแร้ ขาหนีบ) ไม่ลามเร็ว จะถูกถ้ามีฝีเป็นซ้ำหลายปีมี sinus tract ที่รักแร้หรือ anogenital",
+"E": "ผิด — Marjolin's ulcer เป็นมะเร็งบนแผลเรื้อรังที่เกิดช้า จะถูกถ้ามีแผลบนแผลเป็นไฟไหม้เก่าที่เปลี่ยนเป็นขอบแข็ง"
+},
+"trap": "Hidradenitis ก็เกิดที่ anogenital — แต่การลุกลามเร็ว ผิวตาย และ sepsis = Fournier gangrene (necrotizing fasciitis ที่ perineum)",
+"summary": ["Fournier gangrene = necrotizing fasciitis ที่ perineum (ลายมือ p69)", "เสี่ยง: เบาหวาน · เชื้อผสม", "Tx: debride ด่วน + broad-spectrum antibiotics + resuscitation", "นอกสไลด์: อาจต้องทำ diverting colostomy ถ้าลามรอบทวาร"]
+},
+"65": {
+"interp": "necrotizing fasciitis ที่ขา ผิวด้านบนคล้ำตาย → ถามว่าทำไมผิวตายทั้งที่การติดเชื้ออยู่ที่ fascia",
+"why": "ลายมือหน้า 69 (แดง): <b>vss. เหนือ fascia พัง → perforator พัง → cut. ischemia → necrosis</b> · <b>ตัวส่ง vss มาเลี้ยง skin ข้างบน: ถ้าเจ๊ง = skin ข้างบนตายด้วย</b><br>เชื่อมกับหน้า 2: เส้นเลือดวิ่งเหนือ fascia แล้วแทงขึ้นเป็น perforator ไปเป็น plexus ของผิว เมื่อการติดเชื้อทำลายเส้นเลือดที่ชั้น fascia ผิวด้านบนจึงขาดเลือดตาม — ผิวคล้ำ ตุ่มน้ำ และชา เป็นอาการที่ตามมาทีหลัง",
+"wrong": {
+"A": "ผิด — ยาปฏิชีวนะไม่ได้ทำให้ผิวตาย จะถูกถ้าโจทย์ถามผื่นแพ้ยารุนแรง เช่น SJS/TEN ที่ผิวหลุดลอกหลังได้ยา",
+"B": "ผิด — ใน necrotizing fasciitis การติดเชื้อลามตาม fascia ก่อน ผิวตายตามจากขาดเลือด จะถูกถ้าเป็น cellulitis/erysipelas ที่เชื้ออยู่ในชั้นผิวโดยตรง",
+"D": "ผิด — การเสีย melanocyte ทำให้ผิวด่างขาว ไม่ใช่ผิวตาย จะถูกถ้าโจทย์ถามสาเหตุของ vitiligo",
+"E": "ผิด — DVT ทำให้ขาบวม ไม่ใช่กลไกหลักของผิวตายใน necrotizing fasciitis จะถูกถ้าเป็น phlegmasia cerulea dolens จาก DVT รุนแรงจนขาเขียวคล้ำ"
+},
+"trap": "ผิวตายดูเหมือนเชื้อลามขึ้นผิว แต่กลไกคือ perforator จากชั้นเหนือ fascia ถูกทำลาย → ผิวขาดเลือด",
+"summary": ["Vessels เหนือ fascia → perforator → plexus ผิว (p2)", "NF ทำลาย vessels เหนือ fascia → perforator พัง → cutaneous ischemia → necrosis (ลายมือ p69)", "ผิวที่ดูปกติอาจซ่อน fascia ที่เปื่อยกว้างกว่า", "Debride เอา skin ข้างบนที่ขาดเลือดออกด้วย"]
+},
+"66": {
+"interp": "ก้อนนุ่มสีผิวที่ลำตัว กดแล้วยุบลงไปในผิว มีหลายก้อน → ถามการวินิจฉัย",
+"why": "ลายมือหน้า 70: <b>neurofibroma — นุ่ม ๆ</b><br><b>นอกสไลด์:</b> neurofibroma เป็นก้อนนุ่มสีผิวหรือชมพูที่กดแล้วยุบลงไปในผิวได้ (<b>buttonhole sign</b>) เพราะเนื้องอกของเส้นประสาทใน dermis นุ่มและไม่มีผนังแข็ง · ถ้ามีหลายก้อนต้องนึกถึง neurofibromatosis type 1 แล้วหาเกณฑ์อื่น (café-au-lait, freckling — p72)",
+"wrong": {
+"A": "ผิด — keratoacanthoma เป็นก้อนโดมแข็งตรงกลางมีหลุม keratin โตเร็ว จะถูกถ้าโจทย์บรรยายก้อนเดี่ยวโตเร็วที่หน้าคนแก่",
+"B": "ผิด — lipoma อยู่ใต้ผิว โยกได้ ไม่ยุบลงไปในผิวเมื่อกด จะถูกถ้าโจทย์บรรยายก้อนนุ่ม lobulated ใต้ผิวขนาดหลายเซนติเมตร",
+"C": "ผิด — SK เป็น plaque แปะบนผิวสีน้ำตาลถึงดำ ไม่ใช่ก้อนนุ่มกดยุบ จะถูกถ้าโจทย์บรรยาย plaque stuck-on ที่แกะหลุด",
+"D": "ผิด — BCC เป็นก้อนมุกเงามี telangiectasia แข็งกว่า จะถูกถ้าโจทย์บรรยายก้อนมุกขอบม้วนที่หน้าคนสูงอายุ"
+},
+"trap": "ก้อนนุ่มสีผิวใต้ผิวคล้าย lipoma — แต่ก้อนที่อยู่ในผิวและกดแล้วยุบลง (buttonhole) = neurofibroma; หลายก้อนให้คิด NF1",
+"summary": ["Neurofibroma = ก้อนนุ่ม (ลายมือ p70) · กดยุบ (buttonhole sign)", "หลายก้อน → นึกถึง NF1", "NF1 criteria: café-au-lait ≥ 6, freckling, ญาติสายตรง ฯลฯ (p72)", "Lipoma อยู่ใต้ผิว โยกได้"]
+},
+"67": {
+"interp": "เด็ก 10 ปี มี café-au-lait > 5 mm 7 จุด + freckling ที่รักแร้ แม่มีก้อนนุ่มหลายก้อน → ถามการวินิจฉัย",
+"why": "สไลด์หน้า 72: <b>Diagnostic criteria (≥ 2 of the following)</b> — <b>six or more café-au-lait macules over 5 mm</b> ในเด็กก่อนวัยรุ่น · <b>freckling in the axillary or inguinal regions</b> · <b>a first-degree relative with NF1</b> (ร่วมกับเกณฑ์อื่น เช่น neurofibroma ≥ 2, optic glioma, Lisch nodules, bony lesion)<br>เด็กมีครบ 3 เกณฑ์ (café-au-lait 7 จุด, freckling รักแร้, แม่มี neurofibroma หลายก้อน) จึงวินิจฉัย NF1 · ชีท p14 กล่าวถึง neurofibroma เช่นกัน",
+"wrong": {
+"A": "ผิด — NF2 เด่นที่ bilateral vestibular schwannoma (เส้นประสาทหู) มี café-au-lait น้อย จะถูกถ้าโจทย์บรรยายผู้ใหญ่หูอื้อหูตึงสองข้างจาก acoustic neuroma",
+"C": "ผิด — xeroderma pigmentosum เป็นความผิดปกติการซ่อม DNA ไวต่อแดด มะเร็งผิวหนังตั้งแต่เด็ก จะถูกถ้าเด็กมีผิวไหม้แดดรุนแรง ฝ้ากระมาก และมะเร็งผิวหนังหลายจุด",
+"D": "ผิด — McCune–Albright มี café-au-lait ขอบขรุขระ (coast of Maine) ข้างเดียว + fibrous dysplasia + precocious puberty จะถูกถ้าเด็กหญิงมีประจำเดือนก่อนวัยและกระดูกผิดรูป",
+"E": "ผิด — tuberous sclerosis มี ash-leaf spot (ด่างขาว) angiofibroma ที่หน้า ชัก จะถูกถ้าเด็กมีด่างขาวรูปใบไม้ ชัก และตุ่มแดงที่แก้ม"
+},
+"trap": "Café-au-lait พบได้ในหลายโรค — ต้องนับเกณฑ์ ≥ 6 จุด > 5 mm (ก่อนวัยรุ่น) + freckling + ญาติ จึงเป็น NF1",
+"summary": ["NF1 criteria (≥ 2): café-au-lait ≥ 6 (> 5 mm ก่อนวัยรุ่น / > 15 mm หลังวัยรุ่น), freckling รักแร้/ขาหนีบ, ญาติสายตรงเป็น NF1 (p72)", "เกณฑ์อื่น: neurofibroma ≥ 2 หรือ plexiform 1, optic glioma, Lisch nodules ≥ 2, bony lesion", "Neurofibroma = ก้อนนุ่ม (p70)", "NF2 = central (vestibular schwannoma) chr 22"]
+},
+"68": {
+"interp": "หญิงเป็น NF1 พ่อแม่ไม่เป็น ถามเรื่องการถ่ายทอด → ถามรูปแบบพันธุกรรมและตำแหน่งยีน",
+"why": "สไลด์หน้า 72: <b>Mode of inheritance? AD (50%) · De novo (50%) · NF1 gene on chromosome 17</b> · ลายมือเทียบ: type 2 = central, chromosome 22<br>NF1 ถ่ายทอดแบบ autosomal dominant แต่ราวครึ่งหนึ่งเกิดจาก mutation ใหม่ (de novo) จึงอธิบายว่าทำไมพ่อแม่ไม่เป็น · ผู้ป่วยเองมีโอกาสส่งต่อให้ลูกแต่ละคน 50% ตามหลัก AD",
+"wrong": {
+"A": "ผิด — NF1 ถ่ายทอดได้ (AD 50%) แม้รายนี้จะเป็น de novo จะถูกถ้าโจทย์ถามถึงโรคที่ไม่ถ่ายทอด เช่น segmental (mosaic) NF ที่ไม่ส่งต่อทางเซลล์สืบพันธุ์",
+"C": "ผิด — NF1 เป็น AD ไม่ใช่ AR และยีนอยู่ chr 17 ไม่ใช่ 22 (22 คือ NF2) จะถูกถ้าโจทย์ถามตำแหน่งยีนของ NF2 (chr 22 แต่ก็เป็น AD)",
+"D": "ผิด — chromosome 13 deletion เกี่ยวกับ retinoblastoma (RB1) จะถูกถ้าโจทย์ถามเด็กที่มีจุดขาวในรูม่านตา (leukocoria) และ retinoblastoma",
+"E": "ผิด — NF1 ไม่ใช่ X-linked ชายหญิงเป็นเท่ากัน จะถูกถ้าโจทย์ถามโรคเช่น hemophilia หรือ Duchenne ที่เป็นในเพศชาย"
+},
+"trap": "พ่อแม่ไม่เป็นชวนให้คิดว่าเป็น recessive — NF1 เป็น AD แต่ ~50% เป็น de novo · chr 17 (NF1) vs chr 22 (NF2)",
+"summary": ["NF1: AD 50% · de novo 50% · ยีน NF1 บน chromosome 17 (p72)", "NF2: central (vestibular schwannoma) · chromosome 22", "ผู้ป่วย AD ส่งต่อให้ลูกแต่ละคน 50%", "NF1 ยีนสร้าง neurofibromin (tumor suppressor) — นอกสไลด์"]
+},
+"69": {
+"interp": "มีรูปรอยโรค 4 แบบ (แผลพื้นสกปรก, ก้อนสีขอบมัน, plaque ชมพูมี telangiectasia, ก้อนชมพูมีส่วนดำ) → ถามว่าอันไหนเป็น melanoma",
+"why": "ลายมือหน้า 73 (รูปเทียบ 4 แบบ): <b>squamous cell CA — base สกปรก · basal cell CA — ขอบมัน · basal cell CA nodular type — telangiectasia · malignant melanoma</b><br>ก้อนสีชมพูที่มีส่วนสีดำแทรก (สีไม่สม่ำเสมอ = color heterogeneity ตามเกณฑ์ ABCD) คือ melanoma · ส่วนแผลพื้นสกปรก = SCC, ก้อนสีขอบมัน = pigmented BCC, plaque ชมพูมี telangiectasia = nodular BCC",
+"wrong": {
+"A": "ผิด — plaque ชมพูมี telangiectasia คือ nodular BCC จะถูกถ้าโจทย์ถามว่ารูปไหนเป็น BCC ชนิด nodular",
+"C": "ผิด — ก้อนมีสีแต่ขอบมันเงาคือ pigmented BCC (Asian type) ไม่ใช่ melanoma จะถูกถ้าโจทย์ถามรูปที่เป็น BCC ชนิดมีสี",
+"D": "ผิด — แผลพื้นสกปรกคือ SCC จะถูกถ้าโจทย์ถามรูปที่เป็น squamous cell carcinoma",
+"E": "ผิด — มีรูปที่เป็น melanoma อยู่ (ก้อนชมพูมีส่วนดำ) จะถูกถ้าทั้งสี่รูปไม่มีรอยโรคที่มีสีไม่สม่ำเสมอเลย"
+},
+"trap": "ก้อนที่มีสีเข้ม (ช้อย C) ดูเหมือน melanoma ที่สุด แต่ขอบมันคือ pigmented BCC — melanoma คือก้อนที่สีไม่สม่ำเสมอ ชมพูปนดำ",
+"summary": ["SCC = base สกปรก (necrotic) · BCC = ขอบมัน (pearly)", "Nodular BCC = telangiectasia", "Melanoma = สีไม่สม่ำเสมอ (color heterogeneity) ขอบไม่เรียบ", "Pigmented BCC พบบ่อยในคนเอเชีย — แยกจาก melanoma ด้วยขอบมัน"]
+},
+"70": {
+"interp": "ทารก 4 เดือน รอยโรคเริ่มเห็นตอน 2 สัปดาห์ โตเร็วกว่าตัวเด็ก → ถามลักษณะที่แยก hemangioma จาก vascular malformation",
+"why": "ลายมือหน้า 17: <b>Haemangiomas = เป็นตั้งแต่เกิด/neonatal → โตเร็วมากในขวบปีแรก → หลังจากนั้นจะค่อย ๆ ฝ่อ</b> · <b>Vascular malformation = ค่อย ๆ โตตามตัว (ไม่มีช่วงโตเร็ว) → ไม่หายเอง</b><br>หน้า 18: rapid cellular proliferation over the first year · 90% involute · หน้า 19: malformation grow in proportion · never involute — ดังนั้นลักษณะที่แยกคือมีช่วงโตเร็วแล้วยุบ (proliferation → involution) ซึ่ง malformation ไม่มี",
+"wrong": {
+"B": "ผิด — never involute เป็นลักษณะของ vascular malformation ไม่ใช่ hemangioma จะถูกถ้าโจทย์ถามลักษณะเฉพาะของ malformation",
+"C": "ผิด — โตตามสัดส่วนร่างกายเป็นลักษณะของ malformation จะถูกถ้าโจทย์ถามว่าก้อนที่โตตามตัวตั้งแต่เกิดเป็นอะไร",
+"D": "ผิด — มีตั้งแต่เกิดแล้วไม่โตเลยไม่ใช่ทั้ง hemangioma และ malformation ทั่วไป จะถูกถ้าเป็น non-involuting congenital hemangioma (NICH) ที่มีตั้งแต่เกิดและไม่เปลี่ยนแปลง",
+"E": "ผิด — สีม่วงในผู้ใหญ่บ่งว่าเป็น venous malformation ไม่ใช่ลักษณะของ hemangioma จะถูกถ้าโจทย์ถามก้อนสีม่วงน้ำเงินกดยุบในผู้ใหญ่"
+},
+"trap": "สามช้อย (never involute, โตตามตัว, สีม่วงผู้ใหญ่) เป็นลักษณะของ malformation — ลักษณะที่แยก hemangioma คือ proliferation แล้ว involution",
+"summary": ["Hemangioma: ปรากฏหลังเกิดไม่นาน → โตเร็วขวบปีแรก → 90% involute (p17–18)", "Malformation: มีตั้งแต่เกิด โตตามตัว never involute (p19)", "Malformation แบ่ง high flow / low flow", "Hemangioma ตำแหน่งสำคัญ (ตา หู airway) → รักษา"]
+}
+}
