@@ -1,0 +1,186 @@
+{
+"MDCU71|RoA|2": {
+ "wrong": {
+  "B": "เป็นประโยชน์จริงของ 5ARI: ยับยั้งการเปลี่ยน testosterone เป็น DHT ทำให้ต่อมลูกหมากเล็กลง ~20–30% ใน 6–12 เดือน · ข้อนี้จะเป็นคำตอบถ้าเป็น α-blocker ซึ่งไม่ลดขนาดต่อม",
+  "C": "เป็นประโยชน์จริง: finasteride (type II) ลด DHT ในเลือด ~70%, dutasteride (type I+II) ลด >90% · ข้อนี้จะเป็นคำตอบถ้าเป็นยาที่ออกฤทธิ์ที่ α1 receptor",
+  "D": "เป็นประโยชน์จริง: 5ARI ลดความเสี่ยง acute urinary retention ระยะยาวราว 50% (MTOPS, PLESS) ในต่อมใหญ่ · ข้อนี้จะเป็นคำตอบถ้าเป็น α-blocker เดี่ยวที่ไม่ลด AUR ระยะยาว",
+  "E": "เป็นประโยชน์จริง: ลดความจำเป็นต้องผ่าตัด (TURP) ในระยะยาวในต่อมขนาดใหญ่ · ข้อนี้จะเป็นคำตอบถ้าต่อมเล็ก <30 มล. ที่ 5ARI ได้ผลน้อย"
+ },
+ "trap": "5ARI ออกฤทธิ์ช้า ต้องใช้ ~3–6 เดือนจึงเห็นอาการดีขึ้น (P'Ing: 6 เดือน จึงให้ α-blocker ร่วมช่วงแรก) · α-blocker ต่างหากที่ลดอาการเร็วในไม่กี่วัน · อีกกับดัก: 5ARI ลด PSA ลง ~50% ต้องคูณ 2 เวลาแปลผลคัดกรองมะเร็ง"
+},
+"MDCU71|RoA|9": {
+ "wrong": {
+  "A": "Urinalysis ไม่ช่วยในทารกที่สงสัย disorder of sex development/CAH (ไม่บอกภาวะเกลือแร่ที่อันตราย) · จะถูกถ้าสงสัยความผิดปกติของทางเดินปัสสาวะร่วม เช่น hypospadias + UTI",
+  "B": "Serum calcium ไม่เกี่ยวกับ CAH/DSD · จะถูกถ้าทารกชักจาก hypocalcemia (แม่เบาหวาน, DiGeorge, hypoparathyroidism)",
+  "C": "Creatinine ประเมินการทำงานของไต ไม่ใช่ประเด็นหลักในภาวะสงสัย adrenal crisis · จะถูกถ้าสงสัย posterior urethral valve หรือ renal anomaly ใน DSD บางชนิด",
+  "E": "CBC ไม่ช่วยวินิจฉัย CAH หรือบอกภาวะเกลือแร่ · จะถูกถ้าสงสัย sepsis/โลหิตจางในทารก"
+ },
+ "trap": "ทารก ‘เพศชาย’ ที่คลำอัณฑะไม่ได้ทั้งสองข้าง ± อวัยวะเพศเล็ก อาจเป็นเพศหญิง 46,XX ที่ virilized จาก CAH (21-hydroxylase deficiency) → เสี่ยง salt-wasting crisis (Na ต่ำ K สูง น้ำตาลต่ำ) ช่วง 1–3 สัปดาห์ ถึงตายได้ → ต้องตรวจ electrolytes + 17-OHP + karyotype ทันที"
+},
+"MDCU71|RoA|12": {
+ "wrong": {
+  "B": "Anatrophic nephrolithotomy (เปิดไตตามแนว avascular plane เอานิ่ว staghorn ออก) ใช้ในไตที่ยังทำงานดีเมื่อ PCNL ทำไม่ได้/ไม่สำเร็จ แต่ไตนี้ทำงานเพียง 5% การเก็บไตไม่มีประโยชน์ · จะถูกถ้าไตทำงานดีและไม่มีเครื่องมือ endourology",
+  "C": "PCNL เป็นการรักษาแรกของ staghorn ในไตที่ยังทำงาน แต่ไตฝ่อทำงาน 5% (non-functioning) เป็นแหล่งติดเชื้อ/ปวดเรื้อรัง การเอานิ่วออกไม่ทำให้ไตฟื้น (P'Ing) · จะถูกถ้าไตทำงาน >15–20%",
+  "D": "SWL ไม่เหมาะกับ staghorn (ก้อนใหญ่เต็มกรวยไต ต้องหลายครั้ง เศษนิ่วอุด steinstrasse) และไตนี้ไม่ทำงานแล้ว · จะถูกถ้าเป็นนิ่วไต <2 ซม. ในไตที่ทำงานดี",
+  "E": "Chemolysis ใช้ได้กับ uric acid stone (alkalinization) ไม่ใช่ struvite/calcium staghorn และไม่ช่วยไตที่เสียแล้ว · จะถูกถ้าเป็นนิ่ว uric acid โปร่งรังสีในไตที่ทำงาน"
+ },
+ "trap": "ก่อนเลือกวิธีเอานิ่ว staghorn ให้ดู split renal function (DMSA/MAG3) — ไตที่ทำงาน <10–15% ไม่คุ้มที่จะเก็บ เป็นแหล่ง UTI/sepsis/xanthogranulomatous pyelonephritis → nephrectomy (P'Ing: แก้ cause ไปไตก็ไม่กลับ) · staghorn ที่ไม่รักษาทำลายไตจนเสียหน้าที่"
+},
+"MDCU71|RoA|15": {
+ "why": "หญิงสูงอายุ 75 ปี <b>เจ็บหน้าอก + หอบเหนื่อย</b> + <b>systolic murmur ที่ right upper sternal border</b> (aortic area) = <b>aortic stenosis</b><br>• ผู้สูงอายุ: calcific/degenerative AS เป็นสาเหตุหลัก · อายุน้อยกว่า: bicuspid aortic valve, rheumatic<br>• Murmur: crescendo-decrescendo systolic ejection ที่ RUSB ร้าวไป carotid · AS รุนแรง: S2 เบา/paradoxical split, pulsus parvus et tardus<br>• อาการ triad: <b>angina, syncope, dyspnea (HF)</b> — เมื่อมีอาการแล้ว survival ลดลงมาก<br>→ ตอบ <b>A</b> (ตรงคีย์ P'Ing ที่แปะรูป auscultation areas)",
+ "wrong": {
+  "B": "Mitral stenosis ให้ mid-diastolic rumble + opening snap ที่ apex ไม่ใช่ systolic murmur ที่ RUSB · จะถูกถ้าเป็นหญิงวัยกลางคนประวัติ rheumatic fever หอบเหนื่อย AF ไอเป็นเลือด",
+  "C": "Pulmonary stenosis ให้ systolic ejection murmur ที่ ‘left’ upper sternal border (pulmonic area) พบในเด็ก/congenital (Noonan) · จะถูกถ้าเป็นเด็ก murmur ที่ LUSB มี ejection click ที่เบาลงตอนหายใจเข้า",
+  "D": "Mitral regurgitation ให้ holosystolic (pansystolic) murmur ที่ apex ร้าวไปรักแร้ · จะถูกถ้า murmur อยู่ apex ร้าวไปรักแร้ซ้าย",
+  "E": "Aortic regurgitation ให้ early diastolic decrescendo blowing murmur ที่ left sternal border (Erb's point) และ wide pulse pressure · จะถูกถ้า murmur เป็น diastolic ฟังชัดเมื่อนั่งโน้มตัวไปข้างหน้าหายใจออก"
+ },
+ "trap": "ตำแหน่งฟัง: RUSB = aortic (AS) · LUSB = pulmonic (PS, ASD flow) · LLSB = tricuspid/VSD · apex = mitral · ระวังว่า AS รุนแรงมาก murmur อาจเบาลง (CO ต่ำ) และ ‘เจ็บหน้าอก’ ในผู้สูงอายุไม่จำเป็นต้องเป็น CAD — AS ทำ angina ได้",
+ "summary": [
+  "AS: calcific degenerative ในผู้สูงอายุ, bicuspid valve (อายุ 50–70), rheumatic (ร่วม mitral)",
+  "อาการ: angina, syncope (exertional), HF · มีอาการแล้ว median survival 2–5 ปีถ้าไม่เปลี่ยนลิ้น",
+  "Severe AS: AVA <1.0 cm², mean gradient ≥40 mmHg, Vmax ≥4 m/s",
+  "Symptomatic severe AS หรือ LVEF <50% → AVR (SAVR) หรือ TAVI (ผู้สูงอายุ/เสี่ยงผ่าตัดสูง)"
+ ]
+},
+"MDCU71|RoA|20": {
+ "wrong": {
+  "A": "Contrast-enhanced CT ไม่เพิ่มความไวในการหาเลือดใน subarachnoid space (สีอาจบดบัง) และไม่ใช่ CTA ที่หา aneurysm · จะถูกถ้าโจทย์สงสัยก้อนเนื้องอก/abscess",
+  "B": "Cerebral angiography (DSA) ใช้หา aneurysm หลังยืนยัน SAH แล้ว (หรือ CTA) ไม่ใช่ขั้นถัดไปเมื่อ CT ปกติและยังไม่ยืนยันเลือดออก · จะถูกถ้า LP พบ xanthochromia หรือ CT เห็น SAH",
+  "D": "EEG ไม่ช่วยวินิจฉัย SAH · จะถูกถ้าสงสัย nonconvulsive status หรือชักที่ไม่ทราบสาเหตุ",
+  "E": "CT ซ้ำใน 1 สัปดาห์ช้าเกิน — เลือดจะจางหายจาก CT และ aneurysm แตกซ้ำได้ในช่วงนี้ (rebleed สูงสุดใน 24 ชม.แรก) · จะถูกถ้าติดตาม hydrocephalus/vasospasm ในผู้ป่วยที่รักษา aneurysm แล้ว"
+ },
+ "trap": "NCCT ภายใน 6 ชม. ไวเกือบ 100% แต่ความไวลดลงตามเวลา (~85–90% ที่ 24 ชม., ~50% ที่ 1 สัปดาห์) — CT ปกติไม่ตัด SAH (P'Ing: ยัง R/O SAH ไม่ได้) → LP หา xanthochromia/RBC ที่ไม่ลดลง (ควรทำ ≥12 ชม.หลังเริ่มปวด) หรือ CTA",
+ "summary": [
+  "Thunderclap headache (รุนแรงสุดถึงที่สุดภายใน 1 นาที) + คอแข็ง = สงสัย aneurysmal SAH",
+  "NCCT ก่อน → ถ้าลบ: LP (xanthochromia, RBC คงที่ทุก tube) หรือ CTA ตามแนวทาง",
+  "ยืนยัน SAH → CTA/DSA หา aneurysm → coil/clip ภายใน 24–72 ชม. + nimodipine",
+  "Ottawa SAH rule ช่วยคัดผู้ป่วยที่ต้อง workup"
+ ]
+},
+"MDCU71|RoA|25": {
+ "wrong": {
+  "A": "Metastasis พบในผู้ที่มีมะเร็งปฐมภูมิ ก้อนอยู่ gray-white junction บวมมาก ไม่ได้สัมพันธ์กับ HIV โดยตรง · จะถูกถ้าผู้ป่วยมีมะเร็งปอด/เต้านม/melanoma",
+  "B": "Brain abscess จากแบคทีเรียเป็นไปได้ใน DM แต่บริบท HIV + อาการกึ่งเฉียบพลัน 3 สัปดาห์ + focal deficit ชี้ toxoplasmosis มากที่สุด · จะถูกถ้าไม่มี HIV มีแหล่งติดเชื้อชัด (sinusitis, หู, ฟัน) ก้อนเดียว",
+  "D": "Cysticercosis พบในคนภูมิปกติจากถิ่นระบาด อาการเด่นคือชัก ภาพถุงน้ำมี scolex ไม่สัมพันธ์กับ HIV · จะถูกถ้าคนหนุ่มสาวชักครั้งแรก ภาพ starry sky",
+  "E": "Meningioma โตช้าหลายเดือน–ปี ติด dura ไม่สัมพันธ์กับ HIV และไม่ซึมลงเร็วใน 4 วัน · จะถูกถ้าหญิงวัยกลางคนอาการค่อยเป็นนานเป็นปี"
+ },
+ "trap": "HIV + ปวดหัวกึ่งเฉียบพลัน + ซึม + อ่อนแรงครึ่งซีก = toxoplasmosis ก่อน (CD4 <100) · คู่แยก: primary CNS lymphoma (EBV, ก้อนเดียว periventricular), PML (white matter ไม่ enhance), cryptococcal meningitis (ปวดหัว ICP สูง ไม่มี focal) · DM ร่วมด้วยเป็นตัวหลอกไปทาง abscess"
+},
+"MDCU71|RoA|29": {
+ "wrong": {
+  "A": "Vertigo พบได้ใน vestibular migraine และไม่ใช่ red flag โดยลำพัง · จะถูกถ้ามี vertigo ร่วม focal neurological deficit (ataxia, diplopia) หรือเฉียบพลันในผู้สูงอายุ (สงสัย posterior circulation stroke)",
+  "B": "Dizziness ไม่จำเพาะ พบบ่อยใน migraine และภาวะทั่วไป ไม่ใช่ red flag · จะถูกถ้าเป็นเป็นลมหมดสติ (syncope) ร่วมปวดหัวรุนแรงเฉียบพลัน",
+  "D": "Photophobia เป็นลักษณะทั่วไปของ migraine (ICHD criteria) ไม่ต้อง workup เพิ่ม · จะถูกถ้าร่วมไข้และคอแข็ง (meningitis/SAH)",
+  "E": "คลื่นไส้ร่วมปวดหัวเป็นเกณฑ์วินิจฉัย migraine · จะถูกถ้าอาเจียนรุนแรงตอนเช้าพร้อมปวดหัวที่แย่ลงเรื่อยๆ (ICP สูง)"
+ },
+ "trap": "ผู้ป่วยที่ถูกวินิจฉัย migraine แล้วก็ต้องตรวจตา (fundoscopy) — papilledema = ICP สูง (tumor, IIH ในหญิงอ้วนวัยเจริญพันธุ์, venous sinus thrombosis) → imaging (MRI + MRV) · อย่าโทษ migraine เมื่อลักษณะปวดเปลี่ยนไป",
+ "summary": [
+  "Red flags (SNOOP4): Systemic (ไข้ น้ำหนักลด มะเร็ง HIV), Neurologic deficit/papilledema, Onset sudden (thunderclap), Older (>50 ปีปวดใหม่), Pattern change, Positional, Precipitated by Valsalva, Pregnancy",
+  "Papilledema → ICP สูง → MRI/CT ± MRV แล้ว LP วัดความดัน (ถ้าไม่มี mass)",
+  "IIH: หญิงอ้วนวัยเจริญพันธุ์ ปวดหัว ตามัวชั่วขณะ CN VI palsy · รักษา acetazolamide ลดน้ำหนัก",
+  "Migraine: ปวดข้างเดียวตุบๆ 4–72 ชม. + คลื่นไส้/กลัวแสงเสียง ± aura"
+ ]
+},
+"MDCU71|RoA|30": {
+ "wrong": {
+  "B": "Dexamethasone ลด vasogenic edema รอบเนื้องอก แต่ควรให้หลังรู้ว่าเป็นอะไร เพราะถ้าเป็น lymphoma ก้อนยุบจนวินิจฉัยไม่ได้ ถ้าเป็น abscess กดภูมิ ถ้าเป็น infarct ไม่ช่วย (P'Ing: ลดบวมในกลุ่ม tumor) · จะถูกถ้ายืนยันว่าเป็น metastasis/glioma บวมมาก",
+  "C": "Mannitol ลด ICP ใช้ในรายรุนแรง (herniation, ใส่ท่อแล้ว) (P'Ing) ไม่ใช่ขั้นแรกในผู้ป่วยรู้สึกตัวที่ยังไม่รู้สาเหตุ · จะถูกถ้าผู้ป่วยซึมลงมี pupil โตข้างเดียว",
+  "D": "Cerebral angiography ใช้เมื่อสงสัย vascular malformation เช่น AVM (มักอายุน้อย มาด้วยชัก/เลือดออก) (P'Ing) ไม่ใช่ผู้สูงอายุที่มี hypodense lesion · จะถูกถ้าเป็นคนหนุ่มสาวมีเลือดออกในสมองไม่ทราบสาเหตุ",
+  "E": "LP ใช้เมื่อสงสัยติดเชื้อ (P'Ing) แต่ห้ามเมื่อมีก้อน/บวมใน hemisphere (เสี่ยง herniation) · จะถูกถ้าสงสัย meningitis และ CT ไม่มี mass effect"
+ },
+ "trap": "Hypodense lesion + edema ที่บอกชนิดไม่ได้บน NCCT อาจเป็น tumor, abscess หรือ subacute infarct — ต้อง ‘characterize’ ด้วย contrast CT/MRI ก่อน แล้วจึงเลือก steroid (tumor), antibiotics/drainage (abscess) หรือ stroke care (infarct) · ⚠ ไฟล์ไม่มีคีย์ ผู้จดดูภาพไม่ออก — Claude ตอบ A"
+},
+"MDCU71|RoA|31": {
+ "interp": "Parkland ในผู้ป่วย 60 kg 40% TBSA ที่ได้ครบครึ่งแรก (8 ชม.แรก) แล้ว → โจทย์ถามอัตราของครึ่งหลังที่ต้องให้ในอีก 16 ชม.",
+ "why": "คำนวณ <b>Parkland</b>: 4 × 60 × 40 = <b>9,600 mL/24 ชม.</b><br>• ครึ่งแรก 4,800 mL ใน 8 ชม.แรก (นับจากเวลาเกิดแผลไหม้) — ผู้ป่วยได้ครบแล้ว<br>• ครึ่งหลัง <b>4,800 mL ใน 16 ชม.</b> → 4,800 ÷ 16 = <b>300 mL/hr</b><br>• ปรับตาม urine output 0.5 mL/kg/hr (~30 mL/hr)<br>→ ตอบ <b>D</b> (ตรงลายมือ P'Ing) · ข้อเดียวกับ 69 RoC ข้อ 34",
+ "wrong": {
+  "A": "600 mL/hr คืออัตราช่วง 8 ชม.แรก (4,800 ÷ 8) ไม่ใช่ช่วง 16 ชม.หลัง · จะถูกถ้าโจทย์ถามอัตราที่ต้องให้ในช่วงแรก",
+  "B": "500 mL/hr ไม่ตรงกับการคำนวณใดของผู้ป่วยรายนี้ · จะถูกถ้าผู้ป่วยหนัก ~83 kg ไหม้ 40% แล้วถามอัตราครึ่งหลัง (13,300/2/16 ≈ 415) — ก็ยังไม่ตรง จึงเป็นตัวลวง",
+  "C": "400 mL/hr ไม่ตรงการคำนวณ (สูงเกิน) · จะถูกถ้าน้ำหนัก 80 kg ไหม้ 40% แล้วถามอัตราครึ่งหลัง (12,800/2/16 = 400)",
+  "E": "200 mL/hr ต่ำเกิน เสี่ยง under-resuscitation · จะถูกถ้าไหม้ ~27% หรือเป็นการลดอัตราลงเพราะ urine output เกินเป้ามาก"
+ },
+ "trap": "ครึ่งหลังให้ใน 16 ชม. ไม่ใช่ 8 ชม. — ข้อลวงคือคำตอบ 600 ซึ่งเป็นอัตราครึ่งแรก · ตัวเลขจาก Parkland เป็นเพียงจุดเริ่ม ต้องปรับตาม urine output จริงทุกชั่วโมง",
+ "summary": [
+  "Parkland: RL 4 mL × kg × %TBSA (2nd–3rd degree) ใน 24 ชม.แรก นับจากเวลาเกิดแผล",
+  "ครึ่งแรกใน 8 ชม. ครึ่งหลังใน 16 ชม. · มาช้าให้ส่วนที่ขาดในเวลาที่เหลือ",
+  "เป้า urine output: ผู้ใหญ่ 0.5 mL/kg/hr · เด็ก <30 kg 1 mL/kg/hr · electrical/myoglobinuria 1–1.5 mL/kg/hr",
+  "24 ชม.หลัง: colloid (albumin) + dextrose ตามความต้องการ · ระวัง fluid creep → abdominal/extremity compartment syndrome"
+ ]
+},
+"MDCU71|RoA|33": {
+ "wrong": {
+  "A": "ใบหูผิดรูปพบร่วมใน syndrome บางชนิด (Treacher Collins, hemifacial microsomia/Goldenhar) แต่ไม่ใช่ภาวะที่พบร่วมบ่อยที่สุดของ cleft lip and palate ทั่วไป · จะถูกถ้าภาพเป็นเด็กโหนกแก้มเล็ก ตาตก หูผิดรูปสองข้าง",
+  "C": "Eustachian tube ‘มีอยู่’ แต่ทำงานผิด เพราะกล้ามเนื้อ tensor veli palatini ที่เปิดท่อเกาะผิดตำแหน่งในเพดานโหว่ — ไม่ได้หายไป · จะถูกถ้าโจทย์ถามกลไกการเกิด OME (dysfunction ของ tensor veli palatini)",
+  "D": "การได้ยินลดลงในเด็กปากแหว่งเพดานโหว่ส่วนใหญ่เป็นชนิด conductive จากน้ำในหูชั้นกลาง ไม่ใช่ sensorineural · จะถูกถ้าเป็น syndromic cleft บางชนิด (Stickler, Waardenburg) ที่มี SNHL",
+  "E": "Macroglossia (ลิ้นโต) พบใน Beckwith-Wiedemann, hypothyroidism, Down syndrome ไม่ใช่ลักษณะร่วมของ cleft palate · ใน Pierre Robin กลับเป็นคางเล็ก (micrognathia) ลิ้นตก (glossoptosis) · จะถูกถ้าทารกลิ้นโตร่วม omphalocele และน้ำตาลต่ำ"
+ },
+ "trap": "Cleft palate ทำให้ tensor veli palatini เกาะผิดที่ → เปิด eustachian tube ไม่ได้ → otitis media with effusion พบเกือบทุกราย (>90%) → conductive hearing loss ส่งผลต่อพัฒนาการพูด · ต้องตรวจการได้ยินและมักใส่ ventilation tube ตอนผ่าตัดเพดาน · ⚠ ไฟล์ไม่มีคำตอบ Claude ตอบ B",
+ "summary": [
+  "Cleft palate: OME (eustachian tube dysfunction) → conductive hearing loss → ตรวจการได้ยิน/ใส่ tympanostomy tube",
+  "ปัญหาอื่น: ดูดนมไม่ได้แรง (ใช้ขวด/จุกพิเศษ), velopharyngeal insufficiency (เสียงขึ้นจมูก), ฟันและการสบฟัน",
+  "Timeline: lip ~3 เดือน → palate 9–18 เดือน → alveolar bone graft 9–11 ปี → orthognathic/rhinoplasty หลังโตเต็ม",
+  "ดูแลแบบสหสาขา: ศัลยแพทย์ตกแต่ง, ENT, ทันตกรรมจัดฟัน, ฝึกพูด, พันธุศาสตร์"
+ ]
+},
+"MDCU71|RoA|34": {
+ "wrong": {
+  "A": "Amblyopia (ตาขี้เกียจ) จาก strabismus/anisometropia พบได้ใน craniosynostosis syndrome และต้องรักษาในวัยเด็ก แต่ไม่ใช่ภาวะเร่งด่วนที่ทำให้สูญเสียตาในเวลาอันสั้น · จะถูกถ้าถามปัญหาการมองเห็นระยะยาวที่ต้องติดตาม",
+  "C": "Glaucoma ไม่ใช่ผลโดยตรงของ exorbitism (เบ้าตาตื้น) · จะถูกถ้าเป็นทารกตาโต น้ำตาไหล กลัวแสง กระจกตาขุ่น (congenital glaucoma)",
+  "D": "Cataract ไม่สัมพันธ์กับ exorbitism · จะถูกถ้าเป็นทารกที่แม่ติดหัดเยอรมัน/galactosemia เห็น leukocoria",
+  "E": "Retinal detachment ไม่ใช่ภาวะแทรกซ้อนเร่งด่วนของตาโปน · จะถูกถ้าเป็น Stickler syndrome (มี cleft palate + myopia สูง) หรือหลังบาดเจ็บ"
+ },
+ "trap": "Exorbitism (เบ้าตาตื้นจาก midface hypoplasia ใน Crouzon/Apert) ทำให้ปิดตาไม่สนิท กระจกตาแห้ง → exposure keratitis → corneal ulcer → ตาบอด และลูกตาอาจหลุดออกนอกหนังตา (globe luxation) → ต้องป้องกันกระจกตาด่วน (lubricant, tarsorrhaphy) ก่อนแก้กระดูก (P'Ing)"
+},
+"MDCU71|RoA|39": {
+ "why": "แผลลึกที่<b>กลางแก้ม</b> (middle third ของแนวจาก tragus ถึงกึ่งกลางริมฝีปากบน) ตรงกับแนวของ <b>parotid (Stensen) duct</b> ซึ่งวิ่งผ่านหน้ากล้ามเนื้อ masseter แล้วทะลุ buccinator ไปเปิดที่ตรงข้ามฟันกรามบนซี่ที่สอง<br>• แขนง <b>buccal ของ CN VII</b> วิ่งคู่ไปกับ duct จึงต้องตรวจทั้งสอง<br>• ถ้าพลาดไม่ซ่อม → sialocele, salivary fistula<br>• ตรวจโดยใส่สายเล็กหรือฉีด methylene blue/น้ำเกลือผ่านรูเปิดในปากแล้วดูการรั่วที่แผล<br>→ ตอบ <b>A</b> (ตรงคีย์ P'Ing)",
+ "wrong": {
+  "B": "Frontal (temporal) branch ของ CN VII วิ่งบนบริเวณขมับ (แนว Pitanguy: 0.5 ซม.ใต้ tragus ถึง 1.5 ซม.เหนือหางคิ้ว) ไม่ใช่กลางแก้ม · จะถูกถ้าแผลอยู่เหนือ zygomatic arch/ขมับ ผู้ป่วยยกคิ้วไม่ได้",
+  "C": "Marginal mandibular branch วิ่งตามขอบล่างของ mandible (อาจต่ำกว่าขอบ 1–2 ซม.) ไม่ใช่กลางแก้ม · จะถูกถ้าแผลอยู่ใต้ขอบขากรรไกร ผู้ป่วยมุมปากล่างตก ยิ้มเบี้ยว",
+  "D": "Infraorbital nerve (V2) ออกจาก infraorbital foramen ใต้ขอบล่างเบ้าตา ~1 ซม. ไม่ใช่กลางแก้ม (และเป็น sensory) · จะถูกถ้าแผลอยู่ใต้ตา ผู้ป่วยชาแก้มจมูกริมฝีปากบน",
+  "E": "Procerus muscle อยู่ระหว่างคิ้ว (glabella) ทำให้ย่นจมูกแนวขวาง ไม่ได้อยู่กลางแก้ม · จะถูกถ้าแผลอยู่ระหว่างคิ้วเหนือโคนจมูก"
+ },
+ "trap": "แผลแก้มลึก (หลัง anterior border ของ masseter) ต้อง explore ทั้ง parotid duct และ buccal branch ก่อนเย็บผิวเสมอ · ซ่อม duct ด้วย microsurgery บน stent (silastic) และซ่อมเส้นประสาทที่ขาดอยู่ ‘lateral ต่อ lateral canthus’ (medial ต่อนั้นแขนงเล็กต่อกันเองได้)"
+},
+"MDCU71|RoA|47": {
+ "wrong": {
+  "A": "Ladd procedure รักษา malrotation with midgut volvulus (อาเจียนน้ำดีในทารก) ไม่ใช่ intussusception · จะถูกถ้าทารก <1 เดือนอาเจียนสีเขียวเฉียบพลัน UGI เห็น corkscrew",
+  "C": "Diagnostic laparoscopy ไม่จำเป็นเมื่อการวินิจฉัยชัด (Dance sign + มูกเลือด + US target sign) และไม่มี peritonitis · จะถูกถ้า enema reduction ไม่สำเร็จ/ไม่แน่ใจว่า reduce ได้หมด ใช้กล้องช่วยดันกลับ",
+  "D": "Therapeutic laparotomy ใช้เมื่อมี peritonitis, perforation, shock หรือ enema reduction ล้มเหลว · จะถูกถ้าเด็กมีท้องแข็งกดเจ็บทั่ว ลมใต้กะบังลม หรือ reduction ไม่สำเร็จ 2–3 ครั้ง",
+  "E": "การสังเกตอาการทำให้ลำไส้ขาดเลือด ตาย และทะลุ · จะถูกถ้าเป็น small bowel–small bowel intussusception ชั่วคราวเล็กๆ (<2.5 ซม.) ที่พบโดยบังเอิญจาก US และหายเอง"
+ },
+ "trap": "Dance sign (RLQ ว่างเพราะ cecum ถูกดึงเข้าไป) + คลำก้อนรูปไส้กรอก + มูกเลือด = intussusception → การรักษาแรกคือ pneumatic/hydrostatic enema reduction ภายใต้ fluoroscopy/US (ไม่ใช่ผ่าตัด) ถ้าไม่มี peritonitis/perforation/shock",
+ "summary": [
+  "Intussusception: 3 เดือน–3 ปี (P'Ing: 2 เดือน–2 ปี peak 3–5 เดือน) · ส่วนใหญ่ ileocolic idiopathic",
+  "Triad: ปวดเกร็งเป็นพัก + currant jelly stool + คลำก้อน · US: doughnut/target, pseudokidney",
+  "Air/hydrostatic enema reduction สำเร็จ ~80–90% · recurrence ~10% (ส่วนใหญ่ใน 72 ชม.)",
+  "ข้อห้าม enema: peritonitis, perforation (free air), shock → ผ่าตัด"
+ ]
+},
+"MDCU71|RoA|57": {
+ "why": "ทารก 8 ชม. <b>น้ำลายไหลมาก</b> (กลืนไม่ลง = esophageal atresia) + <b>หายใจลำบากเล็กน้อย</b> (สำลักน้ำลายจาก upper pouch) + <b>ท้องไม่มีลมเลย</b> (gasless abdomen)<br>• ลมจะเข้ากระเพาะได้ต้องมีทางต่อระหว่างหลอดลมกับหลอดอาหารส่วนล่าง (distal TEF) — ไม่มีลมจึงแปลว่า<b>ไม่มี distal TEF</b><br>• = <b>Gross type A (isolated/pure EA)</b> ~7–8% (หรือ type B, EA + proximal TEF ~1–2% ซึ่งก็ gasless) · มักเป็น long gap<br>→ ตอบ <b>A</b> (ตรงลายมือ P'Ing) · ข้อคล้าย 70B เลข 36",
+ "wrong": {
+  "B": "EA + distal TEF (Gross C, ~85%) ลมจากหลอดลมผ่าน fistula ลงกระเพาะ → ท้องมีลม/อืด ไม่ใช่ gasless · จะถูกถ้า X-ray เห็น OG ขดใน upper pouch และมีลมในกระเพาะ/ลำไส้",
+  "C": "EA + proximal และ distal TEF (Gross D) มี distal fistula จึงมีลมในท้อง · จะถูกถ้ามีลมในท้องและส่องกล้องพบ fistula จาก upper pouch ด้วย",
+  "D": "H-type TEF (Gross E) ไม่มี atresia OG ผ่านลงกระเพาะได้ ท้องมีลมมาก (มักอืด) อาการสำลักขณะกิน มักวินิจฉัยช้า · จะถูกถ้าเด็กสำลักนม ปอดอักเสบซ้ำ OG ผ่านได้",
+  "E": "Congenital esophageal stenosis OG ผ่านได้บางส่วน และอาการกลืนลำบากมักเกิดเมื่อเริ่มอาหารข้น ไม่ใช่น้ำลายไหลมากในชั่วโมงแรก · จะถูกถ้าเด็ก 6–12 เดือนเริ่มอาหารบดแล้วอาเจียน/ติดคอ"
+ },
+ "trap": "ลมในท้องคือคำตัดสินว่ามี distal TEF หรือไม่: gasless = type A (หรือ B) → ช่องว่างยาว ต่อทันทีไม่ได้ → gastrostomy + Replogle + delayed primary anastomosis (6–12 สัปดาห์) · มีลม = type C/D → ผูก TEF + ต่อทันที"
+},
+"MDCU71|RoA|62": {
+ "interp": "หญิง 58 ปี ไอ ไข้ หอบ 2 สัปดาห์แย่ลง + right pleural effusion เจาะได้หนองข้นสีเขียว = empyema thoracis → โจทย์ถามการรักษาที่เหมาะสม (ระบายหนองด้วย ICD)",
+ "why": "<b>หนองจากการเจาะ = empyema thoracis</b> (P'Ing) → ต้อง<b>ระบาย</b>เสมอ ไม่ต้องรอผลเคมี<br>• ระยะนี้ (2 สัปดาห์, ยังเจาะได้หนองเป็นของเหลว) ระบายได้ด้วย <b>intercostal chest drain</b> (P'Ing: ยัง drain ด้วย ICD ได้) + IV antibiotics ครอบคลุม anaerobe<br>• ถ้ามี loculation → intrapleural tPA + DNase หรือ VATS · ถ้าเป็น organizing peel → decortication<br>• ข้อเดียวกับ 70C เลข 55 (คนละปี)<br>→ ตอบ <b>C</b>",
+ "wrong": {
+  "A": "Broad-spectrum antibiotics อย่างเดียวไม่พอ — ยาเข้าโพรงหนองไม่ดี หนองต้องระบาย · จะถูกถ้าเป็น simple parapneumonic effusion (น้ำใส pH ปกติ) ขนาดเล็ก",
+  "B": "Pigtail (small-bore) catheter ใช้ได้ผลหลายราย (โดยเฉพาะร่วม tPA/DNase หรือ image-guided ใน loculated collection) แต่หนองข้นมากอาจอุดสาย ตามคีย์เลือก ICD · จะถูกถ้าเป็น complicated effusion ไม่ข้นมาก หรือ loculation เดี่ยวที่ต้องใช้ภาพนำทาง",
+  "D": "Decortication ใช้เมื่อ ICD/fibrinolytic ล้มเหลว หรือเป็น organizing empyema (peel หนา, trapped lung) · จะถูกถ้าเจาะได้น้ำน้อยมาก CT เห็น pleural peel หนาและปอดขยายไม่ได้",
+  "E": "Lobectomy ไม่มีข้อบ่งชี้ใน empyema ทั่วไป · จะถูกถ้ามี lung abscess/bronchiectasis/มะเร็งที่เป็นต้นเหตุ หรือ destroyed lobe"
+ },
+ "trap": "หนองชัดเจน = ระบายทันที (ICD) + IV antibiotics · ยาอย่างเดียวหรือเจาะซ้ำไม่พอ · ไม่ดีขึ้นใน 5–7 วัน → CT หา loculation → fibrinolytic/VATS",
+ "summary": [
+  "Empyema stages: exudative → fibrinopurulent (loculation) → organizing (peel)",
+  "Stage I–II: ICD + IV antibiotics ± intrapleural tPA/DNase · ล้มเหลว → VATS debridement",
+  "Stage III: decortication · ผู้ป่วยไม่ไหว → Eloesser flap/open drainage",
+  "Antibiotics ครอบคลุม streptococci + anaerobes (ampicillin-sulbactam) รวม 2–6 สัปดาห์"
+ ]
+}
+}

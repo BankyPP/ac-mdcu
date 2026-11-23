@@ -1,0 +1,199 @@
+{
+"MDCU71|RoA|69": {
+ "interp": "เด็กมี wide fixed split S2 + systolic ejection murmur + RBBB → ลักษณะ classic ของ RV volume overload จาก atrial septal defect (ข้อเดียวกับ 70A เลข 90)",
+ "why": "<b>ASD</b> (L→R shunt ระดับ atrium) → <b>RV volume overload</b> (คีย์ลายมือ P'Ing):<br>• Flow ผ่าน pulmonary valve มาก → <b>relative PS</b> → systolic ejection murmur ที่ <b>left upper sternal border</b> (ไม่ใช่เสียงผ่านรูรั่ว)<br>• RV บีบนาน pulmonary valve ปิดช้า และ shunt ปรับตามการหายใจ → <b>S2 แยกกว้างคงที่ (fixed)</b><br>• RV dilatation → EKG <b>incomplete RBBB</b> + right axis deviation<br>• P'Ing แก้คำในไฟล์จาก systemic เป็น systolic<br>→ ตอบ <b>A</b>",
+ "wrong": {
+  "B": "VSD ให้ holosystolic murmur ที่ left lower sternal border S2 ไม่ fixed split · EKG LVH/biventricular · จะถูกถ้าเด็กมี pansystolic murmur ดังที่ LLSB ± thrill",
+  "C": "PDA ให้ continuous machinery murmur ใต้ไหปลาร้าซ้าย bounding pulse · จะถูกถ้าทารกคลอดก่อนกำหนด/แม่ติดหัดเยอรมัน มี machinery murmur",
+  "D": "Coarctation of aorta มี BP แขนสูงกว่าขา ชีพจร femoral เบา/ช้า systolic murmur ที่หลัง rib notching · จะถูกถ้าเด็กความดันสูงที่แขน ขาเย็น ชีพจรขาคลำเบา",
+  "E": "TOF มี cyanosis tet spell SEM จาก RVOT obstruction แต่ S2 เดี่ยว (P2 เบา) ไม่ใช่ wide fixed split · จะถูกถ้าเด็กเขียว นั่งยองๆ CXR boot-shaped"
+ },
+ "trap": "Murmur ของ ASD ไม่ได้มาจากรูรั่ว (ความดันสองห้องต่างกันน้อย) แต่จาก flow ผ่าน pulmonary valve — จึงอาจสับสนกับ PS · จุดชี้ขาดคือ S2 แยกกว้าง ‘คงที่’ ไม่เปลี่ยนตามการหายใจ + iRBBB",
+ "summary": [
+  "ASD: wide fixed split S2 + SEM ที่ LUSB ± mid-diastolic rumble ที่ LLSB (shunt ใหญ่) + iRBBB/RAD",
+  "Secundum (พบบ่อยสุด) → transcatheter device closure ถ้าขอบพอ · primum (left axis deviation, cleft mitral) และ sinus venosus → ผ่าตัด",
+  "ปิดเมื่อ RV dilatation หรือ Qp:Qs ≥1.5 ก่อนเกิด pulmonary vascular disease",
+  "ไม่ปิดในผู้ใหญ่: AF, paradoxical embolism, HF, Eisenmenger (ห้ามปิด)"
+ ]
+},
+"MDCU71|RoA|75": {
+ "interp": "หญิงสูงอายุ 70 ปี เจ็บหน้าอก หอบ + fine crepitation สองข้าง (pulmonary edema จาก left-sided HF) + systolic ejection murmur ที่ RUSB (aortic area) → aortic stenosis ที่มีอาการและหัวใจล้มเหลวแล้ว",
+ "wrong": {
+  "B": "Aortic regurgitation ให้ early diastolic blowing murmur ที่ left sternal border และ wide pulse pressure ไม่ใช่ systolic ejection ที่ RUSB · จะถูกถ้า murmur เป็น diastolic ฟังชัดเมื่อนั่งโน้มไปข้างหน้า",
+  "C": "Pulmonary stenosis ฟังที่ ‘left’ upper sternal border พบในเด็ก/congenital และไม่ทำ pulmonary edema (เป็นปัญหาหัวใจขวา) · จะถูกถ้าเด็ก murmur LUSB มี ejection click",
+  "D": "Pulmonary regurgitation ให้ diastolic murmur ที่ LUSB (Graham Steell ใน pulmonary hypertension) · จะถูกถ้าผู้ป่วยหลังซ่อม TOF หรือมี pulmonary hypertension รุนแรง",
+  "E": "Mitral stenosis ให้ mid-diastolic rumble + opening snap ที่ apex และทำ pulmonary congestion ได้ แต่ไม่ใช่ systolic murmur ที่ RUSB · จะถูกถ้าหญิงประวัติ rheumatic มี diastolic rumble ที่ apex AF"
+ },
+ "trap": "ไฟล์เขียน ‘pansystolic murmur’ (P'Ing ใส่ ?) ซึ่งจะชี้ไป MR — แต่ตำแหน่ง RUSB (aortic area) ในผู้สูงอายุ + เจ็บหน้าอก + HF = AS · AS ที่มีอาการ HF แล้วพยากรณ์แย่มาก (median survival ~2 ปี) ต้องเปลี่ยนลิ้นเร็ว",
+ "summary": [
+  "AS symptoms: Syncope, Angina, Dyspnea/HF (SAD) — HF พยากรณ์แย่สุด",
+  "Murmur: crescendo-decrescendo SEM ที่ RUSB ร้าวไป carotid · severe: S2 เบา, pulsus parvus et tardus, S4",
+  "Echo: AVA <1 cm², mean gradient ≥40 mmHg, Vmax ≥4 m/s = severe",
+  "Symptomatic severe AS → SAVR หรือ TAVI · ระวังยาลด preload/afterload มาก (nitrate, vasodilator) ทำความดันตก"
+ ]
+},
+"MDCU71|RoA|84": {
+ "wrong": {
+  "A": "Laxative + Proctosedyl (steroid/local anesthetic) เป็นการรักษาอาการของ acute fissure/hemorrhoid ไม่แก้ internal sphincter spasm ที่ทำให้ chronic fissure ไม่หาย (P'Ing: acute ใช้ stool softener, analgesic, sitz bath) · จะถูกถ้าเป็น acute fissure <6 สัปดาห์",
+  "C": "Lifestyle modification (fiber, น้ำ) เป็นพื้นฐานของทุกระยะ แต่ chronic fissure ที่มี fibrosis + sentinel pile ไม่หายด้วยวิธีนี้อย่างเดียว · จะถูกถ้าเป็น acute fissure ที่หายเองได้ใน 2–3 สัปดาห์",
+  "D": "Botulinum toxin ลด sphincter tone ได้ (chemical sphincterotomy) หาย ~60–80% แต่โอกาสหายน้อยกว่าและกลับเป็นซ้ำมากกว่าผ่าตัด (P'Ing) · จะถูกถ้าผู้ป่วยเสี่ยง incontinence หรือแนวทางที่ให้ยาก่อนผ่าตัด",
+  "E": "Nitroglycerin ointment เป็นการรักษาแรกของ chronic fissure ตาม ASCRS แต่หายเพียง ~50% และปวดหัวบ่อย (P'Ing: หายน้อยกว่า Sx) · จะถูกถ้าโจทย์ถาม first-line treatment ก่อนผ่าตัด"
+ }
+},
+"MDCU71|RoA|88": {
+ "interp": "โจทย์ EXCEPT: หาข้อที่ ‘ไม่สนับสนุน’ การทำ lateral internal sphincterotomy — LIS ใช้กับ chronic fissure ที่มี sphincter spasm/fibrosis/อาการต่อเนื่อง ส่วน acute fissure รักษาแบบ conservative",
+ "why": "<b>LIS</b> ลด resting pressure ของ internal anal sphincter ที่หดเกร็ง (ทำให้เลือดไปเลี้ยงแผลน้อย แผลไม่หาย) — ข้อบ่งชี้คือ <b>chronic fissure</b> ที่ยาไม่ได้ผล:<br>• ลักษณะ chronic: >6–8 สัปดาห์, fibrotic edge, sentinel pile, hypertrophied papilla, เห็นใย sphincter, sphincter spasm, อาการปวด/เลือดออกซ้ำ<br>• <b>Acute fissure</b> ส่วนใหญ่หายเองใน 2–3 สัปดาห์ด้วย fiber, stool softener, sitz bath, analgesic → ไม่ใช่ข้อบ่งชี้ผ่าตัด (P'Ing: กลไกหลักไม่ได้เกิดจาก tone สูงเรื้อรัง)<br>→ ตอบ <b>E</b>",
+ "wrong": {
+  "A": "สนับสนุน LIS: sphincter spasm (resting pressure สูง) คือกลไกที่ทำให้ fissure ไม่หาย และ LIS แก้ตรงจุดนี้ · ข้อนี้จะเป็นคำตอบถ้าความดัน sphincter ต่ำ (ห้าม LIS เพราะเสี่ยง incontinence)",
+  "B": "สนับสนุน LIS: fibrotic edge เป็นลักษณะ chronic fissure ที่ไม่หายด้วยการรักษาแบบอนุรักษ์ · ข้อนี้จะเป็นคำตอบถ้าเป็นแผลสดขอบนุ่ม",
+  "C": "สนับสนุน LIS: เลือดออกซ้ำ/ปวดต่อเนื่องแม้รักษาด้วยยา เป็นข้อบ่งชี้ผ่าตัด · ข้อนี้จะเป็นคำตอบถ้าเลือดออกครั้งเดียวแล้วหาย",
+  "D": "สนับสนุน LIS: เป็นนานกว่า 6 สัปดาห์ = chronic fissure · ข้อนี้จะเป็นคำตอบถ้าเพิ่งเป็นไม่กี่วัน"
+ },
+ "trap": "Acute fissure ไม่ผ่าตัด แม้ปวดมาก — ใช้ conservative ก่อนเสมอ · และแม้ chronic ก็ควรลอง medical therapy (GTN/diltiazem/botox) ก่อน LIS ตามแนวทาง ASCRS (ยกเว้นผู้ป่วยเลือกผ่าตัดหลังรับทราบ)",
+ "summary": [
+  "Acute fissure: fiber, stool softener, sitz bath, analgesic → หายส่วนใหญ่ใน 2–3 สัปดาห์",
+  "Chronic fissure (>6–8 สัปดาห์): topical GTN/diltiazem → botulinum toxin → LIS",
+  "LIS หาย >90% · ความเสี่ยงหลัก: minor incontinence (ลม/เปื้อน) โดยเฉพาะหญิงเคยคลอด",
+  "Fissure นอกแนวกลาง/หลายแผล → หา Crohn, TB, HIV, syphilis, มะเร็ง"
+ ]
+},
+"MDCU71|RoA|89": {
+ "wrong": {
+  "A": "ข้อความถูก: Fournier gangrene คือ necrotizing fasciitis ของ perineum, perianal และอวัยวะเพศ ลามตามชั้น fascia (Colles, Scarpa, Dartos) · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าเป็นการติดเชื้อตื้นที่ผิวหนังเท่านั้น",
+  "B": "ข้อความถูก: บางรายต้องทำ diverting colostomy เมื่อการติดเชื้อลุก/ต้องตัด external anal sphincter หรือแผลใหญ่ปนเปื้อนอุจจาระ (P'Ing) · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าทุกรายต้องทำ colostomy",
+  "D": "ข้อความถูก: ให้ broad-spectrum antibiotics empirical ทันที (ครอบคลุม gram-positive, gram-negative, anaerobe — เช่น piperacillin-tazobactam/carbapenem + vancomycin + clindamycin) ไม่ต้องรอผลเพาะเชื้อ · ข้อนี้จะเป็นคำตอบถ้าเขียนว่ารอผล culture ก่อน",
+  "E": "ข้อความถูก: radical/aggressive surgical debridement ฉุกเฉินและซ้ำทุก 24–48 ชม.จนเนื้อตายหมด เป็นหัวใจของการรักษา · ข้อนี้จะเป็นคำตอบถ้าเขียนว่าใช้ยาอย่างเดียวพอ"
+ },
+ "trap": "สาเหตุของ Fournier gangrene ที่พบบ่อยคือ ‘การติดเชื้อ’ จาก anorectal (perianal abscess, fistula) และ urogenital (urethral stricture, การใส่สาย, การบาดเจ็บ) หรือผิวหนัง — มะเร็งทวารหนักเป็นสาเหตุที่พบน้อย · ปัจจัยเสี่ยงหลัก: DM, ติดสุรา, ภูมิต่ำ",
+ "summary": [
+  "Fournier gangrene: polymicrobial necrotizing fasciitis ของ perineum/อวัยวะเพศ · DM, alcoholism, immunosuppression",
+  "อาการ: ปวดไม่สมกับที่เห็น, บวมแดง → ผิวคล้ำ, crepitus, กลิ่นเหม็น, sepsis · อัณฑะมักไม่เป็น (เลือดเลี้ยงจาก testicular artery)",
+  "รักษา: resuscitation + broad-spectrum antibiotics + emergency radical debridement ซ้ำ ± colostomy/suprapubic cystostomy",
+  "Mortality ~20–40% · หลังหายต้องปิดแผลด้วย graft/flap · FGSI ช่วยพยากรณ์"
+ ]
+},
+"MDCU71|RoA|ไม่มีเลข 1": {
+ "why": "Lung abscess 5 ซม. ที่ได้ IV antibiotics แล้ว 6 วันต่อมา <b>โพรง abscess หายไป</b> พร้อม <b>pleural effusion ใหม่</b> = abscess <b>แตกเข้าช่องเยื่อหุ้มปอด</b> (ไม่ใช่หายดี) → หนองไหลเข้า pleural space เกิด <b>empyema thoracis</b> ± pyopneumothorax/bronchopleural fistula (P'Ing)<br>• การรักษา: ระบายหนองด้วย <b>intercostal chest drain</b> ทันที + ให้ antibiotics ต่อ<br>• ถ้ามี BPF ใหญ่/air leak ไม่หยุด/empyema เรื้อรัง → พิจารณาผ่าตัดภายหลัง<br>→ ตอบ <b>A</b>",
+ "wrong": {
+  "B": "Open thoracostomy (Eloesser flap, rib resection) ใช้ใน chronic empyema ที่ผู้ป่วยไม่พร้อมผ่าตัดใหญ่ หรือ ICD ระบายไม่พอระยะยาว ไม่ใช่ขั้นแรกเมื่อเพิ่งแตก · จะถูกถ้าเป็น empyema เรื้อรังหลายเดือน mediastinum ติดแน่นแล้ว",
+  "C": "ให้ยาต่ออย่างเดียวไม่พอเพราะตอนนี้มีหนองในช่องเยื่อหุ้มปอดต้องระบาย และอาจมี pyopneumothorax · จะถูกถ้า abscess ยุบลงจริงโดยไม่มี effusion ใหม่ (ตอบสนองต่อยา)",
+  "D": "Segmentectomy ไม่ใช่ขั้นแรกในผู้ป่วยติดเชื้อรุนแรงที่ abscess แตก ควรระบายและคุมการติดเชื้อก่อน · จะถูกถ้าเป็น abscess เล็กเรื้อรังที่ไม่ตอบยา/สงสัยมะเร็งใน segment เดียว",
+  "E": "Lobectomy อาจจำเป็นภายหลังถ้ามี BPF ใหญ่, destroyed lobe, massive hemoptysis หรือ abscess ไม่ตอบยา แต่ขั้นแรกคือระบาย pleural space · จะถูกถ้า abscess ใหญ่ไม่ตอบยาหลายสัปดาห์โดยยังไม่แตก หรือ hemoptysis มาก"
+ },
+ "trap": "โพรง abscess ‘หายไป’ ใน 6 วันไม่ใช่การหายดี (abscess ยุบช้าเป็นสัปดาห์) — ร่วมกับ effusion ใหม่ = แตกเข้า pleura → empyema ต้อง ICD · ดู air-fluid level ใน pleural space (pyopneumothorax) และ air leak ต่อเนื่อง (BPF)"
+},
+"MDCU71|RoA|ไม่มีเลข 2": {
+ "interp": "โจทย์ถามเนื้องอก ‘มะเร็ง’ ของต่อม parotid ที่พบบ่อยที่สุด (ไม่ใช่เนื้องอกโดยรวม) → mucoepidermoid carcinoma · ระวังสับสนกับ pleomorphic adenoma ซึ่งเป็น benign ที่พบบ่อยที่สุด",
+ "why": "<b>Mucoepidermoid carcinoma</b> เป็นมะเร็งของต่อมน้ำลายที่พบบ่อยที่สุดโดยรวมและใน parotid (~30–35% ของมะเร็งต่อมน้ำลาย) และพบบ่อยที่สุดในเด็ก<br>• ประกอบด้วย mucous, epidermoid และ intermediate cells · แบ่ง low/intermediate/high grade (low grade พยากรณ์ดี)<br>• เนื้องอกต่อมน้ำลายโดยรวม: <b>pleomorphic adenoma</b> พบบ่อยที่สุด (benign) รองลงมา <b>Warthin tumor</b> (คีย์ลายมือ P'Ing)<br>• กฎ ‘ยิ่งต่อมเล็ก ยิ่งมีโอกาสเป็นมะเร็ง’: parotid ~20–25%, submandibular ~40–50%, minor/sublingual ~70–90%<br>→ ตอบ <b>C</b> (ตรงคีย์)",
+ "wrong": {
+  "A": "Adenocarcinoma NOS พบรองลงมาในกลุ่มมะเร็งต่อมน้ำลาย ไม่ใช่อันดับหนึ่ง · จะถูกถ้าโจทย์ถามมะเร็งที่วินิจฉัยเมื่อไม่เข้ากับชนิดจำเพาะอื่น",
+  "B": "Adenoid cystic carcinoma พบบ่อยที่สุดใน submandibular และ minor salivary gland เด่นเรื่อง perineural invasion (ปวด ชา facial palsy) และแพร่ไปปอดช้าๆ · จะถูกถ้าโจทย์เป็นก้อนเพดานปาก/ต่อมใต้คางที่ปวดหรือชา",
+  "D": "Pleomorphic adenoma เป็นเนื้องอก ‘benign’ ที่พบบ่อยที่สุดของต่อมน้ำลาย (P'Ing แก้จาก carcinoma เป็น adenoma) ไม่ใช่มะเร็ง แม้จะกลายเป็น carcinoma ex pleomorphic adenoma ได้ · จะถูกถ้าโจทย์ถามเนื้องอกต่อม parotid ที่พบบ่อยที่สุดโดยรวม",
+  "E": "Acinic cell carcinoma เกือบทั้งหมดเกิดใน parotid แต่พบน้อยกว่า mucoepidermoid · จะถูกถ้าโจทย์ถามมะเร็งที่อาจเป็นสองข้าง/พบในหญิงอายุน้อย low grade"
+ },
+ "summary": [
+  "Benign: pleomorphic adenoma (พบบ่อยสุด, ตัด superficial parotidectomy ห้าม enucleate เพราะกลับเป็นซ้ำ) > Warthin tumor (ชายสูงอายุสูบบุหรี่ สองข้างได้ Tc-99m ร้อน)",
+  "Malignant: mucoepidermoid (พบบ่อยสุด) > adenoid cystic (perineural, submandibular/minor gland) > acinic cell, adenocarcinoma",
+  "สัญญาณมะเร็ง: โตเร็ว ปวด facial nerve palsy ก้อนแข็งติดแน่น ต่อมน้ำเหลืองคอโต",
+  "วินิจฉัย FNA + US/MRI · รักษา parotidectomy (เก็บ facial nerve ถ้าไม่ลุก) ± neck dissection ± adjuvant RT"
+ ]
+},
+"MDCU71|RoA|ไม่มีเลข 3": {
+ "wrong": {
+  "A": "MRI orbit ใช้ประเมินการลุกลามเข้าเบ้าตา/perineural spread หลังรู้ผลชิ้นเนื้อว่าเป็นมะเร็งที่ลุกลามลึก ไม่ใช่ขั้นแรก · จะถูกถ้า biopsy เป็นมะเร็งและก้อนติดแน่น ตาเคลื่อนไหวผิดปกติ/ตาโปน",
+  "B": "CT orbit ประเมินการลุกกระดูกเบ้าตา ใช้หลังวินิจฉัยหรือเมื่อสงสัยลุกลามลึก · จะถูกถ้ามีอาการลูกตาโปน diplopia ร่วม",
+  "D": "Lower blepharoplasty เป็นการผ่าตัดเสริมความงามหนังตาล่าง ไม่ใช่การวินิจฉัย/รักษาก้อนที่สงสัยมะเร็ง · จะถูกถ้าผู้ป่วยมีถุงไขมันใต้ตาไม่มีก้อนผิดปกติ",
+  "E": "การสังเกตไม่เหมาะกับก้อนที่โตต่อเนื่อง 1 ปีในผู้สูงอายุ ซึ่งสงสัยมะเร็ง (BCC, sebaceous carcinoma, SCC) · จะถูกถ้าเป็น seborrheic keratosis/xanthelasma ชัดเจนที่ไม่เปลี่ยนแปลง"
+ },
+ "trap": "ก้อนหนังตาล่างที่โตช้าในผู้สูงอายุ = BCC (มะเร็งหนังตาที่พบบ่อยสุด ~90% ชอบหนังตาล่าง/medial canthus) จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ระวัง sebaceous carcinoma ที่หนังตาบน เลียนแบบ chalazion ซ้ำ/blepharitis ข้างเดียว → biopsy ก่อนวางแผนตัด",
+ "summary": [
+  "มะเร็งหนังตา: BCC (~90%, หนังตาล่าง) > SCC > sebaceous gland carcinoma (หนังตาบน, คนเอเชียพบมากขึ้น, ลุกลามรุนแรง) > melanoma",
+  "Biopsy ยืนยันก่อน แล้ว excision ควบคุมขอบ (Mohs หรือ frozen section) เพราะต้องเก็บเนื้อเยื่อให้มากที่สุด",
+  "Reconstruction ตามขนาด: <25–30% ปิดตรง · ใหญ่ขึ้นใช้ Tenzel/Mustarde flap, Hughes tarsoconjunctival flap",
+  "Medial canthus BCC เสี่ยงลุกเข้า orbit และ lacrimal system"
+ ]
+},
+"MDCU71|RoA|ไม่มีเลข 4": {
+ "wrong": {
+  "A": "Endoscopy อายุ 40 ทุก 10 ปีเป็นการคัดกรองคนความเสี่ยงปกติ/ประวัติครอบครัวน้อย ไม่พอสำหรับครอบครัวที่เข้า Amsterdam criteria (Lynch) · จะถูกถ้าเป็นญาติชั้นสองเป็นมะเร็งตอนอายุมาก",
+  "C": "FOBT ทุก 3 ปีไวต่ำมากและห่างเกินไปสำหรับ Lynch ที่ adenoma กลายเป็นมะเร็งได้ใน 1–3 ปี · จะถูกถ้าเป็นการคัดกรองระดับประชากรด้วย FIT-DNA ในคนความเสี่ยงปกติ",
+  "D": "FOBT + sigmoidoscopy ทุก 5 ปีเห็นแค่ลำไส้ส่วนซ้าย แต่มะเร็งใน Lynch มักอยู่ right colon · จะถูกถ้าเป็นแนวทางคัดกรองแบบเก่าในคนความเสี่ยงปกติ",
+  "E": "รักษาแค่ fissure ละเลยประวัติครอบครัวที่ชี้ Lynch (3 คน 2 รุ่น 1 คน <50) ซึ่งต้องเริ่ม surveillance ทันที · จะถูกถ้าไม่มีประวัติครอบครัวเลย และ fissure อธิบายอาการได้ครบ"
+ }
+},
+"MDCU71|RoA|ไม่มีเลข 5": {
+ "wrong": {
+  "A": "WBC 500 สูงแต่ glucose 60 ปกติ (ไม่ต่ำ) ร่วม RBC สูงมาก — เข้ากับ SAH/traumatic tap ที่มีปฏิกิริยาอักเสบหรือ viral meningitis มากกว่า bacterial · จะถูกถ้าเป็น SAH หลายวันที่เกิด chemical meningitis",
+  "C": "RBC 10,000 กับ WBC 10 (สัดส่วนตามเลือด ~1:1,000) glucose ปกติ = traumatic tap หรือ SAH ไม่มีการติดเชื้อ · จะถูกถ้าโจทย์ถาม CSF ของ traumatic tap",
+  "D": "Glucose 0 แต่ไม่มี WBC เลยขัดกับสรีรวิทยา (glucose ต่ำมากเกิดจากเชื้อ/เซลล์ใช้น้ำตาล) จึงเป็นตัวลวง · จะถูกถ้าเป็นการเก็บตัวอย่างผิดพลาด/ปล่อยไว้นาน",
+  "E": "CSF ไม่มีเซลล์และ glucose 0 ไม่สมเหตุผลทางสรีรวิทยา · จะถูกถ้าโจทย์ถามความผิดพลาดของการตรวจ"
+ },
+ "trap": "Bacterial meningitis: WBC สูง (>100–1,000, PMN เด่น) + glucose ต่ำ (<40 mg/dL หรือ CSF/blood ratio <0.4) + protein สูง + ความดันสูง ขุ่น · RBC ในช้อยเป็นตัวลวง (traumatic tap ร่วมได้) — ให้ดู WBC และ glucose เป็นหลัก"
+},
+"MDCU71|RoA|ไม่มีเลข 6": {
+ "why": "ทารกชาย imperforate anus มี<b>ขี้เทาออกทางท่อปัสสาวะ</b> = มี <b>rectourinary fistula</b> (rectourethral/rectovesical) = <b>high/intermediate anorectal malformation</b> (ลำไส้ตรงสิ้นสุดเหนือ levator)<br>• ไม่สามารถต่อทวารผ่านทางฝีเย็บได้ทันที → ทำ <b>diverting colostomy</b> (descending/sigmoid แบบแยกปลาย) ก่อน แล้วค่อย <b>PSARP</b> ภายหลัง ~2–3 เดือน (P'Ing) ปิด colostomy ทีหลัง<br>• ก่อนผ่าตัดรอ 24 ชม. ให้ขี้เทาเคลื่อน สังเกตฝีเย็บ/ปัสสาวะ และตรวจหา VACTERL (echo, US ไต/กระดูกสันหลัง)<br>→ ตอบ <b>C</b>",
+ "wrong": {
+  "A": "CT abdomen ไม่จำเป็นและได้รังสีมาก ไม่ช่วยตัดสินใจการผ่าตัดเบื้องต้น · จะถูกถ้าสงสัยความผิดปกติซับซ้อนอื่นร่วม (cloaca บางกรณีใช้ MRI/genitogram แทน)",
+  "B": "Prone cross-table lateral film ใช้เมื่อหลัง 24 ชม.ยังไม่มีเบาะแสบนฝีเย็บหรือปัสสาวะ เพื่อดูระยะลมในลำไส้ตรงถึงผิว (<1 ซม. → primary PSARP, >1 ซม. → colostomy) · ขี้เทาในปัสสาวะบอกแล้วว่าเป็น high type · จะถูกถ้าไม่มีขี้เทาในปัสสาวะและไม่เห็น fistula ที่ฝีเย็บ",
+  "D": "Primary PSARP โดยไม่มี colostomy ทำได้ในบางศูนย์ใน low/intermediate lesion แต่ rectourinary fistula ส่วนใหญ่ทำ colostomy ก่อนเพื่อความปลอดภัย · จะถูกถ้า cross-table lateral แสดงระยะ <1 ซม. ไม่มีความผิดปกติร่วมรุนแรง",
+  "E": "Anoplasty (cutback/minimal PSARP) ใช้กับ low lesion ที่มี perineal (cutaneous) fistula · จะถูกถ้าเห็นขี้เทาออกจากรูเล็กที่ฝีเย็บ/raphe ถุงอัณฑะ (bucket handle)"
+ },
+ "trap": "เบาะแสสำคัญในทารกชาย ARM: ขี้เทาในปัสสาวะ/ฟองอากาศในปัสสาวะ หรือก้นแบน (flat bottom) = high → colostomy ก่อน · เห็นขี้เทาที่ฝีเย็บ/ถุงอัณฑะ = low (perineal fistula) → anoplasty ได้เลย · ทารกหญิงส่วนใหญ่มี rectovestibular fistula"
+},
+"MDCU71|RoB|1": {
+ "wrong": {
+  "A": "ผิด: classic triad (hematuria, ปวดสีข้าง, คลำก้อน) พบ <10% · ปัจจุบัน >50% ของ RCC พบโดยบังเอิญจาก imaging (P'Ing) · hematuria พบเพียงส่วนหนึ่ง · จะถูกถ้าเขียนว่า ‘hematuria เป็นอาการที่พบบ่อยที่สุดของ RCC ที่มีอาการ’",
+  "C": "ผิด: RCC ดื้อต่อ cytotoxic chemotherapy และรังสี (P'Ing) · การรักษาโรคแพร่กระจายปัจจุบันคือ immune checkpoint inhibitor (nivolumab+ipilimumab, pembrolizumab) ± TKI (axitinib, cabozantinib) · จะถูกถ้าเปลี่ยนเป็น ‘immunotherapy/targeted therapy’",
+  "D": "ผิด: RCC (clear cell) เกิดจาก ‘proximal convoluted tubule’ ไม่ใช่ transitional epithelium (ซึ่งเป็นต้นกำเนิดของ urothelial carcinoma ของกรวยไต/ท่อไต) · จะถูกถ้าโจทย์ถามมะเร็งกรวยไต (UTUC)",
+  "E": "ผิด: RCC ค่อนข้างดื้อต่อ conventional RT · RT ใช้แบบ palliative (กระดูก สมอง) หรือ SBRT ขนาดสูง · จะถูกถ้าโจทย์ถาม seminoma ซึ่งไวต่อรังสีมาก"
+ },
+ "trap": "ESRD ที่ฟอกไตนาน → acquired cystic kidney disease → เสี่ยง RCC สูงขึ้นหลายเท่า (ต้องคัดกรองในผู้ฟอกไตนาน) · ปัจจัยเสี่ยงอื่น: สูบบุหรี่, อ้วน, ความดันสูง, VHL, tuberous sclerosis · อย่าจำ classic triad ว่าเป็นอาการนำหลัก"
+},
+"MDCU71|RoB|2": {
+ "wrong": {
+  "A": "เพิ่มความเสี่ยงจริงและแรงที่สุด: phimosis ทำให้ smegma คั่งและอักเสบเรื้อรังใต้หนังหุ้ม (เพิ่มความเสี่ยง ~10 เท่า) · ข้อนี้จะเป็นคำตอบถ้าเป็นผู้ที่ขลิบตั้งแต่เด็ก (ความเสี่ยงต่ำมาก)",
+  "C": "เพิ่มความเสี่ยงจริง: balanitis เรื้อรัง/lichen sclerosus (BXO) เป็นภาวะอักเสบเรื้อรังที่นำไปสู่มะเร็ง · ข้อนี้จะเป็นคำตอบถ้าเป็นการอักเสบเฉียบพลันครั้งเดียวที่หายสนิท",
+  "D": "เพิ่มความเสี่ยงจริง: สุขอนามัยไม่ดี smegma คั่ง เป็นปัจจัยร่วม (P'Ing) · ข้อนี้จะเป็นคำตอบถ้าดูแลความสะอาดดี",
+  "E": "เพิ่มความเสี่ยงจริง: HPV 16/18 พบใน ~30–50% ของ penile SCC (โดยเฉพาะชนิด basaloid/warty) · ข้อนี้จะเป็นคำตอบถ้าเป็น HPV 6/11 ที่ทำหูดหงอนไก่ (low risk)"
+ },
+ "trap": "Paraphimosis คือหนังหุ้มรูดค้างหลัง glans บวมรัด เป็นภาวะ ‘เฉียบพลัน’ ที่ต้องดันกลับ ไม่ใช่ภาวะอักเสบเรื้อรังที่ก่อมะเร็ง — ชื่อคล้าย phimosis จึงเป็นตัวหลอก",
+ "summary": [
+  "Penile SCC risks: phimosis (แรงสุด), smegma/สุขอนามัย, chronic balanitis/lichen sclerosus, HPV 16/18, สูบบุหรี่, PUVA",
+  "Neonatal circumcision ป้องกันได้ดี (ขลิบหลังโตป้องกันได้น้อยกว่า)",
+  "อาการ: ก้อน/แผลที่ glans/prepuce → incisional biopsy · แพร่ไป inguinal node ก่อน",
+  "Premalignant: penile intraepithelial neoplasia (erythroplasia of Queyrat, Bowen disease)"
+ ]
+},
+"MDCU71|RoB|30": {
+ "interp": "เนื้องอก pineal กด dorsal midbrain (pretectal area) → Parinaud syndrome · โจทย์ถามลักษณะรูม่านตา คือ light-near dissociation: หดเมื่อมองใกล้ แต่ไม่หดต่อแสง",
+ "wrong": {
+  "A": "หดทั้งเมื่อมองใกล้และต่อแสง = รูม่านตาปกติ ไม่มีความผิดปกติจาก pineal tumor · จะถูกถ้าโจทย์ถามการตอบสนองปกติของรูม่านตา",
+  "C": "รูม่านตาไม่ได้ ‘ขยาย’ เมื่อมองใกล้ (near response ปกติคือหด) · ข้อนี้ไม่ตรงกับกลุ่มอาการใด เป็นตัวลวง · จะถูกถ้าโจทย์ถามการตอบสนองเมื่อมองไกล",
+  "D": "ขยายเมื่อมองใกล้และไม่ตอบแสงไม่ตรงกับสรีรวิทยา (near response = หด) · จะถูกถ้าโจทย์ถาม CN III palsy ที่รูม่านตาขยายไม่ตอบทั้งแสงและการมองใกล้",
+  "E": "ไม่ขยายเมื่อมองใกล้แต่ตอบแสง — ไม่ใช่ pattern ของ Parinaud (ซึ่งกลับกันคือ near ✓ light ✗) · จะถูกถ้าโจทย์ถามภาวะที่ accommodation เสีย (เช่น ยา cycloplegic บางชนิด)"
+ },
+ "trap": "Light-near dissociation = ‘หดเมื่อมองใกล้ ไม่หดต่อแสง’ (P'Ing: light ✗ accom ✓) เพราะทาง pupillary light reflex ผ่าน pretectal nucleus (dorsal midbrain) ที่ถูกกด ส่วน near reflex วิ่งทาง ventral ไม่ถูกกด · พบใน Parinaud (pineal), Argyll Robertson (neurosyphilis), Adie pupil, DM",
+ "summary": [
+  "Parinaud syndrome: upgaze palsy, light-near dissociation, convergence-retraction nystagmus, lid retraction (Collier sign), setting-sun sign ในเด็ก",
+  "สาเหตุ: pineal tumor (germinoma ในชายวัยรุ่น), hydrocephalus, midbrain stroke, MS",
+  "Pineal tumor มักทำ obstructive hydrocephalus (กด aqueduct) → ETV/VP shunt · ส่ง β-hCG, AFP ในเลือด/CSF",
+  "Germinoma ไวต่อรังสีและเคมีบำบัดมาก"
+ ]
+},
+"MDCU71|RoB|31": {
+ "why": "<b>Anterior open bite</b> หลังบาดเจ็บ (ฟันหน้าบนล่างไม่สบกัน ฟันกรามชนก่อน) ร่วม <b>maxilla มั่นคง</b> (ไม่ใช่ Le Fort ที่ maxilla โยกได้) → สาเหตุที่เหลือคือ <b>mandible</b> โดยเฉพาะ <b>bilateral condylar/subcondylar fracture</b> ซึ่งทำให้ ramus สั้นลงสองข้าง ฟันกรามสบก่อน ฟันหน้าจึงเปิด (P'Ing: สงสัย mandible)<br>• Plain film ที่ดีที่สุดสำหรับ mandible ทั้งชิ้น (body, angle, ramus, condyle) = <b>panoramic (orthopantomogram)</b><br>• มาตรฐานปัจจุบัน: CT facial bone<br>→ ตอบ <b>E</b> · ข้อเดียวกับ 73B Plastic 2",
+ "wrong": {
+  "A": "Waters view ดู midface/maxilla/orbital floor/zygoma — ใช้เมื่อสงสัย Le Fort/ZMC แต่โจทย์บอก maxilla มั่นคง · จะถูกถ้า maxilla โยกได้ (Le Fort) หรือโหนกแก้มยุบ ชาแก้ม",
+  "B": "Towne view เห็น condyle ได้ (เป็นท่าเสริม) แต่ไม่เห็น mandible ทั้งชิ้นและไม่ใช่ท่าแรกที่ดีที่สุด · จะถูกถ้าโจทย์ถามท่าเสริมดู condylar neck โดยเฉพาะเมื่อ panoramic ไม่ชัด",
+  "C": "AP skull ไม่จำเพาะต่อ mandible ภาพซ้อนกับกระดูกสันหลังคอ · จะถูกถ้าโจทย์ถามการดูกะโหลกส่วน vault/frontal",
+  "D": "Lateral skull เห็น mandible สองข้างซ้อนกัน แปลผลยาก · จะถูกถ้าโจทย์ถามดู sella, frontal sinus หรือ Le Fort (pterygoid plate) บางส่วน"
+ },
+ "trap": "Malocclusion หลังบาดเจ็บ = กระดูกที่มีฟัน (maxilla หรือ mandible) หัก · Maxilla มั่นคง → ดู mandible · anterior open bite → bilateral condylar fracture หรือ Le Fort (maxilla เลื่อนลงหลัง) · lateral open bite/ คางเบี้ยว → unilateral condylar fracture (คางเบี้ยวไปข้างที่หัก)",
+ "summary": [
+  "Mandible fracture พบบ่อยที่ condyle, angle, body, symphysis · มักหัก ≥2 ตำแหน่ง (ring structure)",
+  "อาการ: malocclusion, ชาคาง (inferior alveolar nerve), trismus, step-off, sublingual hematoma",
+  "Imaging: panoramic + PA mandible (Towne เสริมดู condyle) หรือ CT facial bone (มาตรฐาน)",
+  "รักษา: maxillomandibular fixation (closed) หรือ ORIF ด้วย plate · condylar fracture ส่วนใหญ่รักษาแบบ closed + การฝึกอ้าปาก"
+ ]
+}
+}
