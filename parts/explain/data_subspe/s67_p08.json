@@ -1,0 +1,222 @@
+{
+"MDCU67|RoB|20": {
+ "wrong": {
+  "B": "CT whole abdomen เป็นการตรวจที่ดีที่สุดในการหาตำแหน่งและสาเหตุของ obstruction (มะเร็ง volvulus hernia) และภาวะแทรกซ้อน (ischemia) จึงเป็นขั้นถัดไป · คีย์เลือก plain film เป็นการตรวจแรก · จะถูกถ้าโจทย์ถามการตรวจที่ช่วยวางแผนผ่าตัด หรือ plain film ไม่ชัด",
+  "C": "Barium enema ห้ามใช้เมื่อสงสัย perforation/strangulation เพราะ barium ในช่องท้องทำให้ peritonitis รุนแรง · ถ้าต้องการ contrast enema ใช้ water-soluble contrast เพื่อแยก mechanical obstruction กับ pseudo-obstruction · จะถูกถ้าเป็น water-soluble enema ในรายที่สงสัย Ogilvie",
+  "D": "Colonoscopy ไม่ใช่การตรวจแรกในภาวะลำไส้อุดตันเฉียบพลัน เพราะการเป่าลมเพิ่มความดันในลำไส้ที่โป่งเสี่ยงทะลุ · มีบทบาทใน decompression ของ sigmoid volvulus/Ogilvie หรือวินิจฉัยหลังผู้ป่วย stable · จะถูกถ้าภาพ X-ray เป็น coffee bean sign",
+  "E": "MRI whole abdomen ใช้เวลานาน ไม่เหมาะกับภาวะฉุกเฉิน และไม่ได้ดีกว่า CT ในการหา obstruction · ใช้ในหญิงตั้งครรภ์หรือแพ้ contrast · จะถูกถ้าผู้ป่วยตั้งครรภ์ที่สงสัย small bowel obstruction"
+ },
+ "summary": [
+  "Acute abdomen series (supine + upright abdomen + upright CXR): small bowel = central, valvulae conniventes ข้ามเต็มลำไส้, > 3 cm · large bowel = peripheral, haustra ไม่ข้ามเต็ม, > 6 cm (cecum > 9 cm เสี่ยงทะลุ)",
+  "Large bowel obstruction ในผู้สูงอายุ: colorectal cancer (~60%) > volvulus > diverticular stricture · ต้องดู ileocecal valve competency (closed-loop obstruction เสี่ยง cecal perforation)",
+  "Acute colonic pseudo-obstruction (Ogilvie) พบในผู้สูงอายุที่นอนโรงพยาบาล/หลังผ่าตัด → แก้ electrolyte, หยุดยา opioid/anticholinergic, neostigmine, colonoscopic decompression"
+ ]
+},
+"MDCU67|RoB|23": {
+ "wrong": {
+  "A": "Colonoscopy ห้ามทำในระยะ acute (เสี่ยงทะลุ) · ทำหลังหาย 6–8 สัปดาห์เพื่อแยกมะเร็ง โดยเฉพาะ complicated diverticulitis หรือไม่เคยตรวจ colonoscopy ในช่วงอายุ screening · จะถูกถ้าโจทย์ถามการติดตามหลังรักษาหาย",
+  "C": "Sigmoidectomy ทำแบบเร่งด่วนเมื่อมี generalized peritonitis (Hinchey III–IV), obstruction, หรือไม่ดีขึ้นกับยาและ drainage · ผู้สูงอายุที่ไม่มีข้อบ่งชี้เหล่านี้ควรเริ่มด้วยยา · จะถูกถ้าโจทย์มี free air หรือ fecal peritonitis",
+  "D": "Barium enema ห้ามในระยะ acute เพราะเสี่ยงทะลุและ barium peritonitis · ปัจจุบัน CT with contrast เป็นมาตรฐานในการวินิจฉัย และ colonoscopy/CT colonography ใช้ภายหลัง · จะถูกถ้าโจทย์ถามการตรวจในอดีตที่เห็น diverticula หลังหายแล้ว",
+  "E": "การคุมปวดอย่างเดียวไม่พอในผู้สูงอายุ 80 ปีที่นอนโรงพยาบาลด้วย acute diverticulitis (กลุ่มเสี่ยง complication) · แม้ ASCRS ยอมให้ไม่ใช้ antibiotics ใน uncomplicated ที่แข็งแรง แต่ผู้สูงอายุ/มีโรคร่วมควรได้ยา · จะถูกถ้าเป็นคนอายุน้อยแข็งแรง uncomplicated บน CT"
+ },
+ "summary": [
+  "Acute diverticulitis: ปวดท้องน้อยซ้าย ไข้ WBC สูง · CT abdomen with contrast ยืนยันและแยก complicated (abscess, perforation, fistula, obstruction)",
+  "การรักษา: uncomplicated → OPD/IPD + antibiotics ครอบคลุม gram-negative + anaerobe (amoxicillin-clavulanate, ciprofloxacin + metronidazole) · abscess > 3–4 cm → percutaneous drainage · peritonitis → ผ่าตัด",
+  "ผู้สูงอายุ, immunocompromised, กินไม่ได้, ไม่มีคนดูแล → admit IV antibiotics · ติดตาม colonoscopy 6–8 สัปดาห์"
+ ]
+},
+"MDCU67|RoB|24": {
+ "why": "ข้อ EXCEPT — ต้องหาข้อความที่<b>ผิด</b>เกี่ยวกับ sigmoid volvulus:<br>• <b>Sigmoid volvulus เป็นชนิดที่พบบ่อยที่สุดของ colonic volvulus</b> (~60–90% แล้วแต่แหล่ง คีย์ลายมือเขียน ~90%) ตามด้วย cecal volvulus ~10–40% และ transverse/splenic flexure ที่พบน้อยมาก<br>• ดังนั้นข้อความ 'less than half of colonic volvulus' จึงผิด → ตอบ <b>E</b><br>• ข้อ A–D เป็นข้อเท็จจริงของ sigmoid volvulus: decompress ด้วย flexible sigmoidoscopy แล้ว elective sigmoidectomy, coffee bean sign, ผ่าฉุกเฉินเมื่อ reduce ไม่ได้/ischemia, พบในผู้สูงอายุติดเตียง<br>(ข้อเดียวกับปี 67 RoA ข้อ 22)",
+ "wrong": {
+  "A": "ข้อความนี้ถูก — หลัง endoscopic detorsion สำเร็จ (~70–90%) ต้องวางแผน elective sigmoidectomy ในแอดมิทเดียวกัน เพราะ recurrence สูงถึง 40–60% และการเป็นซ้ำมี mortality สูงกว่า (ASCRS)",
+  "B": "ข้อความนี้ถูก — plain film เห็น coffee bean/bent inner tube sign ที่ apex ชี้ไป RUQ, ไม่มีลมใน rectum · CT เห็น whirl sign ของ mesentery และ contrast enema เห็น bird's beak",
+  "C": "ข้อความนี้ถูก — ถ้า decompression ไม่สำเร็จ หรือมี peritonitis, free air, mucosa ดำ/ขาดเลือดจาก scope ต้องผ่าตัดฉุกเฉิน (sigmoidectomy มักเป็น Hartmann procedure)",
+  "D": "ข้อความนี้ถูก — sigmoid volvulus พบในผู้สูงอายุ ติดเตียง อยู่ในสถานดูแล มีโรคทางจิตเวช/ระบบประสาท (Parkinson) ท้องผูกเรื้อรัง ใช้ยา anticholinergic · sigmoid ยาวและ mesentery ฐานแคบ"
+ },
+ "trap": "ตัวเลขสัดส่วนในแต่ละตำราต่างกัน (60–90%) แต่ทุกแหล่งตรงกันว่า sigmoid > 50% · อย่าสลับกับ cecal volvulus ที่พบในคนอายุน้อยกว่าและห้าม endoscopic reduction",
+ "summary": [
+  "Sigmoid volvulus ที่ stable: resuscitate → flexible sigmoidoscopic detorsion + rectal tube → elective sigmoidectomy ในแอดมิทเดียวกันถ้าผู้ป่วยผ่าตัดได้",
+  "ผู้ป่วยเสี่ยงผ่าตัดสูงมาก: endoscopic decompression ซ้ำ หรือ percutaneous endoscopic colostomy (PEC) เป็นทางเลือก",
+  "Cecal volvulus: right hemicolectomy (primary anastomosis ถ้าสภาพเอื้อ) · cecal bascule เป็นการพับขึ้นด้านหน้าแทนการบิด"
+ ]
+},
+"MDCU67|RoB|30": {
+ "wrong": {
+  "A": "Middle colic artery เป็นแขนงของ SMA (คีย์ลายมือ: A–C จาก SMA) เลี้ยง transverse colon · เป็นหลอดเลือดที่ต้อง ligate ใน extended right/transverse colectomy · จะถูกถ้าโจทย์ถามแขนงของ SMA ที่เลี้ยง transverse colon",
+  "B": "Right colic artery เป็นแขนงของ SMA (บางครั้งแตกจาก ileocolic หรือ middle colic, ไม่มีในบางคน) เลี้ยง ascending colon · จะถูกถ้าโจทย์ถามหลอดเลือดที่ ligate ใน right hemicolectomy",
+  "C": "Ileocolic artery เป็นแขนงสุดท้ายของ SMA เลี้ยง terminal ileum, cecum, appendix (appendicular artery แตกจาก ileocolic) · จะถูกถ้าโจทย์ถามหลอดเลือดต้นทางของ appendicular artery",
+  "E": "Arc of Riolan (meandering mesenteric artery) เป็นหลอดเลือด collateral ใน mesentery ที่เชื่อม middle colic (SMA) กับ left colic (IMA) (คีย์ลายมือ: E middle ↔ left colic) ไม่ใช่แขนงโดยตรงของ IMA · โตขึ้นเมื่อ SMA หรือ IMA ตีบ · จะถูกถ้าโจทย์ถาม collateral ระหว่าง SMA กับ IMA"
+ },
+ "summary": [
+  "IMA (ระดับ L3) แตกแขนง: left colic artery → sigmoid arteries (2–4 เส้น) → superior rectal artery · เลี้ยง distal 1/3 transverse colon ถึง rectum ส่วนบน (hindgut)",
+  "SMA (ระดับ L1) แตกแขนง: inferior pancreaticoduodenal, jejunal/ileal, middle colic, right colic, ileocolic · เลี้ยง midgut ถึง 2/3 ของ transverse colon",
+  "Watershed areas: Griffiths point (splenic flexure, SMA–IMA) และ Sudeck point (rectosigmoid, sigmoid–superior rectal) → เสี่ยง ischemic colitis · marginal artery of Drummond วิ่งตามขอบ colon"
+ ]
+},
+"MDCU67|RoB|35": {
+ "interp": "โจทย์ถาม<b>ข้อบ่งชี้ผ่าตัด lung abscess</b> — เน้นว่าการรักษาหลักคือยา ผ่าตัดเมื่อยาล้มเหลวหรือมีภาวะแทรกซ้อนรุนแรง ช้อยที่มีคำขยายอ่อน ('occasional', 'small') คือตัวหลอก",
+ "why": "Lung abscess ~80–90% หายด้วย antibiotics + postural drainage · การผ่าตัดสงวนไว้สำหรับกรณีที่ยาไม่ได้ผลหรือมีภาวะแทรกซ้อน:<br>• <b>ไม่ตอบสนองต่อการรักษาด้วยยา (ไข้ไม่ลง ก้อนไม่เล็กลง) หลังประมาณ 2 สัปดาห์</b> ← คำตอบ<br>• ก้อนใหญ่ > 6 cm, persistent/enlarging cavity<br>• <b>Massive</b> hemoptysis (คีย์ลายมือ: D ต้อง massive)<br>• สงสัยมะเร็ง (cavitating carcinoma, obstructing tumor)<br>• Rupture เข้า pleura/empyema/BPF ที่ไม่หายหลังระบาย<br>→ ตอบ <b>A</b> (ตรงคีย์ลายมือ ขีด A + สไลด์ indication for surgery) · ข้อเดียวกับปี 67 RoA ข้อ 57",
+ "wrong": {
+  "B": "Bronchopleural fistula จาก abscess แตกเข้า pleura ทำให้ pyopneumothorax ต้องใส่ chest drain ระบาย pleural space ก่อน · ผ่าตัดเมื่อ fistula ไม่ปิดหรือ empyema ไม่หาย · บางตำรานับเป็นข้อบ่งชี้ แต่คีย์เลือก A · จะถูกถ้าระบุว่า BPF persistent หลังระบายแล้ว",
+  "C": "Multiple small bilateral abscesses ในผู้ป่วยภูมิคุ้มกันต่ำ มักมาจาก hematogenous spread (septic emboli) หรือ fungal infection รักษาด้วยยา ผ่าตัดไม่ช่วยและเสี่ยงสูง · จะถูกถ้าเป็นก้อนเดี่ยวขนาดใหญ่ที่ไม่ตอบสนองต่อยา",
+  "D": "Hemoptysis เล็กน้อยเป็นครั้งคราวพบบ่อยใน lung abscess และหายเมื่อรักษาการติดเชื้อ · ข้อบ่งชี้ผ่าตัดคือ massive hemoptysis (> 200–600 mL/24 ชม. หรือกระทบ airway/hemodynamics) · จะถูกถ้าคำว่า occasional เปลี่ยนเป็น massive",
+  "E": "All of the above ผิดเพราะ C และ D ไม่ใช่ข้อบ่งชี้ผ่าตัด · จะถูกเฉพาะถ้าทุกข้อเป็นข้อบ่งชี้"
+ },
+ "trap": "คำขยายเป็นตัวตัดสิน — hemoptysis ต้อง 'massive' ไม่ใช่ 'occasional' · และ abscess เล็กหลายจุดในภูมิต่ำไม่ใช่โรคที่แก้ด้วยการตัดปอด · ระวังการเจาะ/ใส่ drain ผ่าน pleura ที่ยังไม่ติดกัน",
+ "summary": [
+  "ก่อนผ่าตัด lung abscess: bronchoscopy หา endobronchial lesion และเก็บเชื้อ · CT ประเมินขนาด/ตำแหน่ง",
+  "ผ่าตัดที่ใช้: lobectomy (บ่อยสุด), segmentectomy · ใช้ double-lumen tube หรือ bronchial blocker ป้องกันหนองไหลเข้าปอดอีกข้าง",
+  "ผู้ป่วยไม่พร้อมผ่าตัด: CT-guided percutaneous catheter drainage หรือ endoscopic drainage เป็นทางเลือก"
+ ]
+},
+"MDCU67|RoB|36": {
+ "why": "<b>Lung abscess</b> ส่วนใหญ่เป็น primary abscess จาก <b>aspiration</b> ของเชื้อในช่องปาก (anaerobe, polymicrobial) ในผู้ที่ระดับความรู้สึกตัวลดลงหรือกลืนผิดปกติ (สุรา ชัก ดมยา stroke) ร่วมกับสุขภาพฟันไม่ดี<br>• สิ่งที่สำลักตกตามแรงโน้มถ่วงไปยัง <b>dependent segments</b>: ท่านอนหงาย → posterior segment ของ upper lobe และ superior segment ของ lower lobe<br>• <b>ปอดขวา</b>พบบ่อยกว่าเพราะ right main bronchus กว้าง สั้น ทำมุมตรงกว่า<br>→ ข้อ B ถูก (ตรงคีย์ลายมือ) · ข้ออื่นผิด: กลไกหลักไม่ใช่ hematogenous, foul sputum/hemoptysis พบบ่อย, เชื้อหลักคือ anaerobe ไม่ใช่ Staphylococcus (ข้อเดียวกับปี 67 RoA ข้อ 58)",
+ "wrong": {
+  "A": "Hematogenous seeding ไม่ใช่กลไกที่พบบ่อย (คีย์ลายมือ: A aspiration) · พบใน septic emboli จาก IV drug use/tricuspid endocarditis/infected catheter ซึ่งเป็น abscess หลายก้อนกระจายที่ส่วนปลายของปอดทั้งสองข้าง · จะถูกถ้าโจทย์เป็นผู้ใช้สารเสพติดทางหลอดเลือดที่มี murmur ใหม่",
+  "C": "ตรงข้ามกับความจริง — เสมหะเหม็นมาก (putrid sputum จาก anaerobe) และ hemoptysis พบบ่อยเมื่อ abscess ติดต่อกับหลอดลม · อาการมักค่อยเป็นค่อยไป ไข้ ไอ น้ำหนักลด · จะเป็นข้อถูกถ้าพูดถึง abscess ที่ยังไม่แตกเข้าหลอดลม",
+  "D": "เชื้อหลักคือ anaerobe จากช่องปาก (Peptostreptococcus, Prevotella, Bacteroides, Fusobacterium) ร่วมกับ streptococci (คีย์ลายมือ: D anaerobe) · S. aureus พบใน post-influenza/necrotizing pneumonia, septic emboli · จะถูกถ้าโจทย์เป็นปอดอักเสบหลังไข้หวัดใหญ่มี pneumatocele",
+  "E": "All of the above ผิดเพราะ A, C, D เป็นข้อความที่ผิด มีเพียง B ที่ถูก · จะถูกเฉพาะถ้าทุกข้อความเป็นจริง"
+ },
+ "trap": "ช้อย E ของข้อนี้คือ 'All of the above' (ต่างจากปี 67 RoA ข้อ 58 ที่ E เป็น None of the above) — อ่านช้อยท้ายให้ดี · และ 'dependent segment' ขึ้นกับท่าตอนสำลัก",
+ "summary": [
+  "ปัจจัยเสี่ยง aspiration lung abscess: alcoholism, ชัก, ดมยาสลบ, stroke/dysphagia, ใช้ยาเสพติด, periodontal disease · คนไม่มีฟันพบน้อย (anaerobe น้อย) ถ้าเจอให้สงสัย obstruction จากมะเร็ง",
+  "CXR/CT: cavity ผนังหนาไม่เรียบมี air-fluid level ใน dependent segment · แยกจาก cavitating SCC, TB, fungal (aspergilloma), septic emboli",
+  "รักษา: antibiotics ครอบคลุม anaerobe (ampicillin-sulbactam, clindamycin) 4–6 สัปดาห์หรือจน imaging ดีขึ้น + postural drainage"
+ ]
+},
+"MDCU67|RoB|38": {
+ "interp": "โจทย์ถาม<b>เนื้องอกใน anterior mediastinum ที่พบบ่อยที่สุด</b> (โดยนัยในผู้ใหญ่) — ใช้หลัก 4 T's และตัดช้อยที่อยู่ compartment อื่นออก",
+ "why": "<b>Anterior (prevascular) mediastinum</b> — เนื้องอกตามหลัก <b>4 T's</b>: thymoma, teratoma (germ cell tumor), thyroid (retrosternal), 'terrible' lymphoma<br>• ในผู้ใหญ่ <b>thymoma</b> พบบ่อยที่สุด (~40–50% ของ anterior mediastinal mass ตามสไลด์ในคีย์) อายุ 40–60 ปี ครึ่งหนึ่งไม่มีอาการ อีกส่วนมี myasthenia gravis หรืออาการกดเบียด<br>• ในเด็ก lymphoma พบบ่อยที่สุด<br>• Neurogenic tumor อยู่ posterior mediastinum (คีย์ลายมือ: E posterior)<br>→ ตอบ <b>A</b> (ตรงคีย์ลายมือ ขีด A) · ข้อเดียวกับปี 67 RoA ข้อ 49",
+ "wrong": {
+  "B": "Teratoma/germ cell tumor พบ ~15% ของ anterior mediastinal mass ในผู้ใหญ่ (ส่วนใหญ่ชายอายุน้อย) · mature teratoma มีไขมัน calcification ฟัน fat-fluid level บน CT · จะถูกถ้าโจทย์เป็นชายอายุ 20 ปีที่ CT เห็นก้อนมีไขมันและหินปูน",
+  "C": "Thyroid (retrosternal/substernal goiter) มักต่อเนื่องจาก thyroid ที่คอ จัดเป็นก้อนใน anterior/superior mediastinum ที่ไม่ใช่ primary mediastinal tumor · พบน้อยกว่า thymoma · จะถูกถ้าก้อนต่อเนื่องจากคอและ trachea ถูกเบียด",
+  "D": "Lymphoma (Hodgkin, primary mediastinal large B-cell, lymphoblastic) เป็นอันดับ 2 ในผู้ใหญ่ แต่เป็นอันดับ 1 ในเด็ก · จะถูกถ้าโจทย์ถามในเด็กหรือมี B symptoms และต่อมน้ำเหลืองที่อื่นโต",
+  "E": "Neurogenic tumor (schwannoma, neurofibroma, ganglioneuroma) อยู่ posterior (paravertebral) mediastinum และเป็นก้อนที่พบบ่อยที่สุดของ posterior compartment (คีย์ลายมือ: E posterior) · จะถูกถ้าโจทย์ถาม posterior mediastinal mass"
+ },
+ "trap": "อ่านว่าโจทย์ถามผู้ใหญ่หรือเด็ก — ผู้ใหญ่ thymoma, เด็ก lymphoma · และ 'mediastinal tumor ที่พบบ่อยที่สุดทั้งหมด' ในเด็กคือ neurogenic tumor (posterior) ไม่ใช่ anterior",
+ "summary": [
+  "ITMIG compartments: prevascular (anterior) · visceral (middle: trachea, esophagus, heart, lymph nodes) · paravertebral (posterior)",
+  "Anterior mass workup: CT chest with contrast, serum AFP/β-hCG (GCT), LDH, anti-AChR antibody · ประเมิน airway compression ก่อนดมยาสลบ",
+  "Thymoma resectable → total thymectomy โดยไม่ต้อง biopsy ก่อน · lymphoma → biopsy (ไม่ผ่าตัดเอาออก) · GCT → chemotherapy ตาม marker"
+ ]
+},
+"MDCU67|RoB|42": {
+ "why": "ข้อ EXCEPT — หาข้อความที่<b>ผิด</b>เรื่อง acute mediastinitis:<br>• Acute mediastinitis (จาก esophageal perforation, post-sternotomy, descending necrotizing จากคอ) เป็นการติดเชื้อในช่องว่างที่ปิด มีหนองและเนื้อตาย ยาไม่สามารถซึมเข้าได้เพียงพอ<br>• การรักษาต้อง <b>aggressive</b> (สไลด์ในคีย์): broad-spectrum antibiotics + <b>drainage + debridement</b> + จัดการต้นเหตุ (ซ่อม esophagus, เปิดแผล sternum, ระบายคอ)<br>• ดังนั้น 'antibiotics อย่างเดียวพอ' จึงผิด → ตอบ <b>A</b> (ตรงคีย์ลายมือ ขีด A) · ข้อ B–E ถูกทั้งหมด (ข้อเดียวกับปี 67 RoA ข้อ 59)",
+ "wrong": {
+  "B": "ข้อความนี้ถูก — drainage และ debridement เป็นหัวใจของการรักษา mediastinitis เอาหนอง/เนื้อตายออก ระบายผ่าน cervical incision, VATS/thoracotomy หรือเปิดแผล sternotomy ตามต้นเหตุ",
+  "C": "ข้อความนี้ถูก — ต้องจัดการต้นเหตุ เช่น ซ่อม/ระบาย esophageal perforation, ถอนฟันหรือระบาย deep neck abscess ใน descending necrotizing mediastinitis, เอา sternal wire/เนื้อกระดูกติดเชื้อออก",
+  "D": "ข้อความนี้ถูก — post-sternotomy mediastinitis เชื้อหลักคือ S. aureus (รวม MRSA) และ coagulase-negative staphylococci จากผิวหนัง · ป้องกันด้วย decolonization, คุมน้ำตาล, prophylactic antibiotics",
+  "E": "ข้อความนี้ถูก — descending necrotizing mediastinitis เริ่มจากการติดเชื้อที่คอ (odontogenic, peritonsillar, retropharyngeal) ลามลงตาม retropharyngeal/danger space/carotid sheath เข้าสู่ mediastinum"
+ },
+ "trap": "ช้อย B–E เป็นช้อยที่ Claude เติม (ไฟล์มีแค่ข้อ A) · ข้อเดียวกับ RoA ข้อ 59 — คำว่า 'alone' คือจุดที่ทำให้ข้อนี้ผิด",
+ "summary": [
+  "Acute mediastinitis: ไข้สูง เจ็บหน้าอก/หลัง sepsis · CT chest + neck เห็น fluid collection, gas, ไขมันใน mediastinum ขุ่น · อัตราตายสูงถ้าล่าช้า",
+  "Esophageal perforation: ภายใน 24 ชม. → primary repair + buttress + drainage · ช้า/สภาพไม่ดี → esophageal stent, diversion หรือ esophagectomy",
+  "Post-sternotomy mediastinitis: เปิดแผล debride → NPWT → ปิดด้วย pectoralis/omental flap · ปัจจัยเสี่ยง: เบาหวาน, อ้วน, bilateral IMA, COPD, ผ่าตัดซ้ำ"
+ ]
+},
+"MDCU67|RoB|43": {
+ "interp": "ข้อ EXCEPT — ค่าใดใน pleural fluid <b>ไม่ใช่เกณฑ์ empyema</b> · ช้อยอื่นเป็นตัวชี้วัด complicated parapneumonic effusion ทั้งหมด ข้อผิดอยู่ที่ตัวเลข WBC (เกณฑ์คือ > 15,000)",
+ "why": "เกณฑ์วินิจฉัย <b>empyema thoracis</b> ตามสไลด์ในคีย์ (ข้อใดข้อหนึ่ง):<br>• หนองจริงจากการเจาะ หรือ Gram stain/culture บวก<br>• <b>WBC > 15,000/mm³</b> (คีย์ลายมือเขียน 15,000 — ไม่ใช่ 10,000)<br>• <b>Protein > 3 g/dL</b><br>• <b>pH < 7.0</b> (BTS ใช้ < 7.2 เป็นเกณฑ์ใส่ chest drain)<br>• <b>Glucose < 40 mg/dL</b><br>• <b>LDH > 1,000 IU/L</b><br>→ ข้อที่ไม่ใช่เกณฑ์คือ <b>B. WBC > 10,000</b> (ตรงคีย์ลายมือ ขีด B) · ข้อเดียวกับปี 67 RoA ข้อ 51",
+ "wrong": {
+  "A": "ข้อความนี้เป็นเกณฑ์จริง — LDH > 1,000 IU/L สะท้อนการอักเสบรุนแรงและเซลล์แตกจำนวนมากใน pleural space (complicated parapneumonic effusion/empyema) ต้องระบาย",
+  "C": "ข้อความนี้เป็นเกณฑ์จริง — pH < 7.0 จาก lactic acid และ CO2 ที่เชื้อและเม็ดเลือดขาวสร้าง · เป็นตัวชี้วัดที่แม่นที่สุดว่าต้องใส่ chest drain (ต้องวัดด้วยเครื่อง blood gas ไม่ใช่ pH paper)",
+  "D": "ข้อความนี้เป็นเกณฑ์จริง — glucose < 40 mg/dL เพราะเชื้อและเม็ดเลือดขาวใช้กลูโคสไป · พบใน empyema และใน rheumatoid effusion, TB, malignancy ซึ่งต้องแยก",
+  "E": "ข้อความนี้เป็นเกณฑ์จริงตามสไลด์ — protein > 3 g/dL บ่งว่าเป็น exudate (ซึ่ง empyema เป็น exudate เสมอ) · ตัวเลขนี้ใช้เป็นเกณฑ์ร่วมในตำราศัลย์"
+ },
+ "trap": "ข้อนี้มีช้อย protein > 3 g/dL แทน Gram stain (ต่างจาก RoA ข้อ 51) แต่คำตอบเหมือนเดิม — ตัวหลอกคือ WBC 10,000 ซึ่งต่ำกว่าเกณฑ์ 15,000",
+ "summary": [
+  "Light's criteria (แยก exudate): pleural/serum protein > 0.5, pleural/serum LDH > 0.6, pleural LDH > 2/3 ULN ของ serum — ใช้คนละจุดประสงค์กับเกณฑ์ empyema",
+  "Empyema ระยะ exudative → fibrinopurulent → organizing · ระยะแรกระบายด้วย chest drain ได้ ระยะหลังต้อง VATS/decortication",
+  "BTS: ใส่ chest drain เมื่อ frank pus, Gram stain/culture บวก, pH < 7.2 · loculation → intrapleural tPA + DNase ก่อนพิจารณาผ่าตัด"
+ ]
+},
+"MDCU67|RoB|45": {
+ "interp": "โจทย์ถามการรักษาเสริมนอกจาก antibiotics ใน<b>lung abscess ระยะแรก</b> — ระยะแรกยังไม่ใช่เวลาทำ invasive procedure จึงต้องเลือกวิธีที่ช่วยให้หนองระบายผ่านหลอดลมเอง",
+ "why": "<b>Lung abscess ระยะแรก</b> รักษาด้วยยาเป็นหลัก เพราะ abscess ส่วนใหญ่ติดต่อกับหลอดลมและ<b>ระบายตัวเองได้</b>:<br>• Antibiotics ครอบคลุม anaerobe นาน 4–6 สัปดาห์หรือจนภาพรังสีดีขึ้น<br>• <b>Postural drainage + chest physiotherapy</b> จัดท่าให้ segment ที่เป็นอยู่สูงกว่าหลอดลมใหญ่ ช่วยให้หนองไหลออกทาง airway ← คำตอบ<br>• ~80–90% หายด้วยวิธีนี้<br>• Aspiration/percutaneous drainage และผ่าตัด ใช้เมื่อไม่ตอบสนองต่อยา · intercostal drainage ใช้กับ empyema ไม่ใช่ lung abscess<br>→ ตอบ <b>A</b> (ตรงคีย์ลายมือ ขีด A) · ข้อเดียวกับปี 67 RoA ข้อ 56",
+ "wrong": {
+  "B": "Abscess aspiration (CT-guided needle/catheter drainage) ใช้เมื่อไม่ตอบสนองต่อ antibiotics 1–2 สัปดาห์ ก้อนใหญ่ หรือผู้ป่วยเสี่ยงผ่าตัด · ไม่ใช่การรักษาระยะแรกเพราะเสี่ยง pneumothorax/empyema/BPF · จะถูกถ้าไข้ไม่ลงและก้อนโตขึ้นทั้งที่ให้ยาครบ",
+  "C": "Intercostal drainage (chest tube) ใช้ระบาย pleural space เช่น empyema, pyopneumothorax · การใส่สายเข้าไปใน lung abscess ผ่าน pleura ที่ปกติเสี่ยงทำให้ pleural space ติดเชื้อ · จะถูกถ้า abscess แตกเข้า pleura แล้ว",
+  "D": "Lobectomy ใช้เมื่อการรักษาด้วยยาล้มเหลว, massive hemoptysis, สงสัยมะเร็ง, หรือ chronic abscess · ไม่ทำในระยะแรก · จะถูกถ้าโจทย์บอกให้ยาครบแล้วยังมี cavity ใหญ่และเลือดออกมาก",
+  "E": "None of the above ผิดเพราะ postural drainage เป็นการรักษาเสริมที่แนะนำในระยะแรกจริง · จะถูกเฉพาะถ้าไม่มีช้อยใดเหมาะสม"
+ },
+ "trap": "อย่าเลือก chest tube เพราะคิดว่าเป็นหนองต้องระบายเสมอ — lung abscess อยู่ใน 'เนื้อปอด' ระบายทางหลอดลม ส่วน chest tube สำหรับหนองใน 'pleural space' (empyema)",
+ "summary": [
+  "Postural drainage: จัดท่าตามตำแหน่ง abscess เช่น superior segment ของ lower lobe → นอนคว่ำ · posterior segment ของ upper lobe → นอนตะแคงกึ่งคว่ำ ร่วมกับเคาะปอดและไอขับเสมหะ",
+  "ติดตาม: ไข้ควรลดใน 3–7 วัน, cavity อาจยังเห็นหลายสัปดาห์ · ถ้าไม่ดีขึ้น → bronchoscopy หาสาเหตุ (มะเร็ง สิ่งแปลกปลอม) และพิจารณา drainage",
+  "ข้อห้าม postural drainage: ผู้ป่วยไอไม่มีแรงจนเสี่ยงสำลักหนองเข้าปอดอีกข้าง, massive hemoptysis"
+ ]
+},
+"MDCU67|RoB|46": {
+ "why": "ผู้ป่วยไฟไหม้ใน<b>ที่ปิด (อพาร์ตเมนต์)</b> + burn ที่ใบหน้า คอ หน้าอก + <b>ขนจมูกไหม้</b> = สัญญาณชัดเจนของ <b>inhalation injury</b>:<br>• Thermal injury ของ upper airway ทำให้ airway บวมอย่างรวดเร็วใน 12–24 ชม. โดยเฉพาะหลังเริ่มให้สารน้ำ<br>• การใส่ท่อช่วยหายใจภายหลังเมื่อบวมแล้วยากมากหรือทำไม่ได้<br>• จึงต้อง <b>intubate early</b> (definitive airway) และให้ <b>100% O2</b> เพื่อรักษา CO poisoning ที่มักพบร่วม (ลด half-life ของ COHb)<br>→ ตอบ <b>A</b> (ตรงคีย์ลายมือ ขีด A) · แนวเดียวกับปี 67 RoA ข้อ 38",
+ "wrong": {
+  "B": "Bronchoscopy ใช้ยืนยันและประเมินความรุนแรงของ inhalation injury (soot, mucosal edema, ulceration) และช่วยดูดเสมหะ แต่ทำหลัง secure airway แล้ว ไม่ใช่การจัดการเบื้องต้น · จะถูกถ้าผู้ป่วยใส่ท่อแล้วอยู่ใน burn unit",
+  "C": "Chest escharotomy ทำเมื่อมี circumferential full-thickness burn ที่หน้าอกจนจำกัดการขยายตัวของทรวงอก (ventilation ยาก peak pressure สูง) · โจทย์เป็น burn ด้านหน้าและยังไม่มีปัญหาการหายใจจาก eschar · จะถูกถ้า burn รอบลำตัวและ ventilate ไม่ได้",
+  "D": "Oxygen mask (โดยเฉพาะ simple mask) ให้ FiO2 ไม่ถึง 100% และไม่ได้ป้องกัน airway obstruction จาก edema · ใช้ได้ในผู้ป่วยที่ไม่มีข้อบ่งชี้ intubation (ให้ non-rebreather 100%) · จะถูกถ้าไม่มีอาการ inhalation injury เช่น burn ที่ขาในที่โล่ง",
+  "E": "Oxygen saturation (pulse oximetry) หลอกใน CO poisoning เพราะ COHb ถูกอ่านเป็น oxyhemoglobin ทำให้ SpO2 ปกติแม้ขาดออกซิเจน · ต้องใช้ CO-oximetry · และการวัดไม่ใช่การรักษา · จะถูกถ้าคำถามคือ monitoring ในผู้ป่วยไม่มี smoke exposure"
+ },
+ "trap": "อย่ารอให้มีเสียงแหบ/stridor ก่อนจึงใส่ท่อ — ในไฟไหม้ที่ปิดพร้อม burn หน้าและขนจมูกไหม้ ต้องใส่ก่อนที่ airway บวม · และ SpO2 ปกติไม่ได้แปลว่าไม่มี CO poisoning",
+ "summary": [
+  "Inhalation injury 3 แบบ: thermal injury ของ upper airway (edema) · chemical injury ของ lower airway (smoke → bronchospasm, ARDS) · systemic toxicity (CO, cyanide)",
+  "ข้อบ่งชี้ early intubation (ATLS): stridor/เสียงแหบ, burn รอบคอ, deep facial burn, ระดับความรู้สึกตัวลด, หายใจลำบาก, burn > 40–50% TBSA, ต้อง transfer ไกล",
+  "CO poisoning: ปวดหัว คลื่นไส้ สับสน (ผิวแดงเชอร์รี่พบน้อย) · 100% O2 ลด half-life COHb จาก ~4–5 ชม. เหลือ ~1 ชม. · hyperbaric O2 ในรายรุนแรง"
+ ]
+},
+"MDCU67|RoB|47": {
+ "interp": "ใช้ <b>Parkland formula</b> คำนวณสารน้ำ แล้วหักที่ได้ไปแล้ว — จุดสำคัญคือ 8 ชม.แรกนับจาก<b>เวลาเกิด burn</b> ผ่านไปแล้ว 2 ชม. จึงเหลือเวลา 6 ชม.",
+ "why": "คำนวณตาม <b>Parkland formula</b> (คีย์ลายมือ):<br>• ปริมาณ 24 ชม.แรก = 4 mL × น้ำหนัก (kg) × %TBSA = 4 × 60 × 40 = <b>9,600 mL</b><br>• ครึ่งแรก (4,800 mL) ให้ใน <b>8 ชม.แรกนับจากเวลาเกิด burn</b><br>• ได้ไปแล้ว 1,200 mL ใน 2 ชม. → เหลือ 4,800 − 1,200 = <b>3,600 mL</b> ใน 8 − 2 = <b>6 ชม.</b><br>• อัตรา = 3,600 ÷ 6 = <b>600 mL/hr</b><br>→ ตอบ <b>B</b> (ตรงคีย์ลายมือ) · จากนั้น titrate ตาม urine output 0.5 mL/kg/hr (~30 mL/hr) · หมายเหตุ ATLS 10th เริ่มที่ 2 mL/kg/%TBSA ในผู้ใหญ่",
+ "wrong": {
+  "A": "500 mL/hr ได้ถ้าคิด 3,000 mL ใน 6 ชม. หรือหาร 3,600 ด้วยเวลาที่ผิด — น้อยกว่าที่คำนวณจาก Parkland เสี่ยง under-resuscitation (burn shock, AKI) · จะถูกถ้าน้ำหนักหรือ %TBSA น้อยกว่าโจทย์ เช่น 50 kg",
+  "C": "800 mL/hr ได้ถ้าหาร 4,800 ด้วย 6 ชม. โดยไม่หัก 1,200 mL ที่ได้ไปแล้ว · ทำให้ให้น้ำเกิน (fluid creep) · จะถูกถ้าผู้ป่วยยังไม่ได้สารน้ำเลยและเหลือ 6 ชม.",
+  "D": "1,000 mL/hr มากเกินไปมาก อาจได้จากการคิดผิดว่าต้องให้ 6,000 mL ใน 6 ชม. · เสี่ยง abdominal/extremity compartment syndrome และ pulmonary edema · จะถูกถ้าเป็นการคำนวณผิดหน่วยหรือ %TBSA สูงกว่ามาก",
+  "E": "1,200 mL/hr คือการให้เท่ากับที่ได้มาแล้วทั้งหมดในชั่วโมงเดียว ไม่สอดคล้องกับสูตร · เกินความต้องการหลายเท่า · ไม่ตรงกับสถานการณ์ใดของ Parkland ในผู้ป่วยรายนี้"
+ },
+ "summary": [
+  "Parkland: 4 mL/kg/%TBSA ของ Ringer lactate (นับเฉพาะ partial + full thickness) · ครึ่งแรกใน 8 ชม.นับจากเวลาเกิดเหตุ ครึ่งหลังใน 16 ชม. ถัดไป",
+  "ATLS 10th/ABLS: ผู้ใหญ่เริ่ม 2 mL/kg/%TBSA · เด็ก 3 mL + maintenance ที่มี glucose · electrical 4 mL · titrate ทุกชั่วโมงตาม UO (ผู้ใหญ่ 0.5, เด็ก 1, electrical 1–1.5 mL/kg/hr)",
+  "สูตรเป็นแค่จุดเริ่มต้น — ทั้ง under และ over-resuscitation อันตราย · ไม่ให้ colloid ใน 24 ชม.แรกตามมาตรฐานเดิม (บางศูนย์ใช้ albumin เป็น rescue เมื่อ fluid creep)"
+ ]
+},
+"MDCU67|RoB|48": {
+ "why": "<b>Full-thickness (third-degree) burn</b> คือการทำลาย<b>ผิวหนังทุกชั้น</b> (epidermis + dermis ทั้งหมด) ลงถึง subcutaneous fat:<br>• ลักษณะ: แข็ง เหนียวเหมือนหนัง (leathery) สีขาวซีด/น้ำตาล/ดำ ไม่ blanch เห็นหลอดเลือดอุดตัน<br>• <b>ไม่เจ็บ</b> เพราะปลายประสาทใน dermis ถูกทำลาย (คีย์ลายมือ: E ไม่เจ็บ)<br>• <b>ไม่หายเอง</b> เพราะไม่มี dermal appendage (hair follicle, sweat gland) เหลือให้ epithelium งอกใหม่ ยกเว้นจากขอบแผลเมื่อแผลเล็กมาก (คีย์ลายมือ: C, D ไม่หาย)<br>• ต้อง early excision + <b>skin graft</b> (คีย์ลายมือ: B จำเป็น)<br>→ ตอบ <b>A</b> (ตรงคีย์ลายมือ ขีด A)",
+ "wrong": {
+  "B": "ตรงข้ามกับความจริง — full-thickness burn ที่ขนาดเกินประมาณ 2–4 cm ต้อง excision + skin graft เพราะไม่มีเซลล์เหลือให้แผลหายเอง (คีย์ลายมือ: B จำเป็น) · จะถูกถ้าพูดถึง superficial หรือ superficial partial-thickness burn",
+  "C": "หายภายใน 7 วันเป็นลักษณะของ superficial (first-degree) burn เช่น แดดเผา ที่ผิวแดงเจ็บไม่มีตุ่มน้ำ ลอกแล้วหายไม่มีแผลเป็น · full-thickness ไม่หายเอง · จะถูกถ้าโจทย์ถาม superficial burn",
+  "D": "หายภายใน 14–21 วันเป็นลักษณะของ superficial partial-thickness (second-degree ตื้น) burn ที่มีตุ่มน้ำ แดงชื้น blanch และเจ็บมาก แผลเป็นน้อย · จะถูกถ้าโจทย์ถาม superficial partial-thickness burn",
+  "E": "เจ็บมากเวลาสัมผัสเป็นลักษณะของ partial-thickness burn (โดยเฉพาะ superficial partial) ที่ปลายประสาทยังอยู่และถูกเปิดออก · full-thickness ชาหรือไม่เจ็บ (แต่ขอบแผลที่เป็น partial อาจเจ็บ) · จะถูกถ้าโจทย์ถาม partial-thickness"
+ },
+ "trap": "ผู้ป่วย full-thickness burn อาจบ่นว่าเจ็บได้ เพราะบริเวณรอบๆ เป็น partial thickness — การทดสอบด้วยเข็ม (pinprick) ตรงกลางแผลจะไม่เจ็บ · deep partial-thickness ก็อาจต้อง graft เพราะหายช้า > 3 สัปดาห์และเกิด hypertrophic scar",
+ "summary": [
+  "Burn depth: superficial (epidermis, แดงเจ็บ ไม่มีตุ่มน้ำ หาย 3–7 วัน) · superficial partial (ตุ่มน้ำ ชื้น blanch เจ็บมาก หาย 2–3 สัปดาห์) · deep partial (ซีด/แดงเป็นจุด blanch ช้า เจ็บน้อยลง หาย > 3 สัปดาห์) · full thickness (leathery ไม่เจ็บ ไม่หาย)",
+  "Fourth-degree = ลึกถึง fascia กล้ามเนื้อ กระดูก (เช่น electrical burn) ต้อง debridement + flap",
+  "Full-thickness circumferential burn ที่แขนขา/ทรวงอก → escharotomy ป้องกัน compartment syndrome และ restrictive ventilation"
+ ]
+},
+"MDCU67|RoB|49": {
+ "wrong": {
+  "A": "FEEM (frontoethmoidal encephalomeningocele) เป็นก้อนนิ่มที่ nasal root/glabella ระหว่างตา ขนาดเปลี่ยนเมื่อร้อง (Furstenberg test บวก) ทำให้ telecanthus/hypertelorism ได้ พบบ่อยในเอเชียตะวันออกเฉียงใต้รวมไทย · โจทย์ระบุว่าไม่มีก้อน midline · จะถูกถ้ามีก้อนที่หว่างตา",
+  "C": "Craniosynostosis ทำให้รูปศีรษะผิดปกติตาม suture ที่ปิดเร็ว (scaphocephaly, trigonocephaly, plagiocephaly) · trigonocephaly (metopic) มักทำให้ hypotelorism (ตาชิดกัน) ไม่ใช่ตาห่าง · Apert/Crouzon มี hypertelorism ร่วมกับ exorbitism · จะถูกถ้าโจทย์เน้นรูปศีรษะผิดรูป",
+  "D": "Cleft lip เป็นความผิดปกติที่ริมฝีปากบน (unilateral/bilateral) ไม่ทำให้ hypertelorism · median cleft lip อาจพบร่วมกับ frontonasal dysplasia หรือ holoprosencephaly · จะถูกถ้าภาพเน้นรอยแยกที่ริมฝีปาก",
+  "E": "Treacher Collins syndrome มี malar/mandibular hypoplasia, downslanting palpebral fissures, lower lid coloboma, microtia · ระยะห่างตาไม่ได้กว้างผิดปกติและ nasal root ไม่กว้าง · จะถูกถ้าภาพเน้นโหนกแก้มแบนและคางเล็ก"
+ },
+ "summary": [
+  "Frontonasal dysplasia (median facial cleft, Tessier 0–14): hypertelorism, nasal root กว้างแบน, ปลายจมูกแยก (bifid nose), widow's peak, อาจมี median cleft lip และ cranium bifidum occultum",
+  "Hypertelorism (orbital) ต่างจาก telecanthus: hypertelorism = กระดูกเบ้าตาห่างจริง (interorbital distance) · telecanthus = medial canthus ห่างแต่เบ้าตาปกติ",
+  "รักษา hypertelorism รุนแรง: box osteotomy หรือ facial bipartition (อายุ ~5–8 ปี) ร่วมกับ nasal reconstruction"
+ ]
+},
+"MDCU67|RoB|58": {
+ "why": "<b>Z-plasty</b> คือการสลับ triangular flap 2 อันที่มี limb ยาวเท่ากันกับ central limb เพื่อ<b>เพิ่มความยาวตามแนว central limb</b> และเปลี่ยนทิศทางแผลเป็น<br>• Theoretical gain in length ขึ้นกับมุมของ flap (คีย์ลายมือ + ตาราง):<br>&nbsp;&nbsp;30° = 25% · 45° = 50% · <b>60° = 75%</b> · 75° = 100% · 90° = 120%<br>• มุม 60° เป็นมาตรฐานเพราะสมดุลระหว่างความยาวที่ได้กับแรงตึงด้านข้าง (มุมใหญ่ขึ้นได้ยาวมากขึ้นแต่ปิดยากและ flap ตึง)<br>• ความยาวที่ได้จริงมักน้อยกว่าทฤษฎีเพราะ skin elasticity<br>→ ตอบ <b>C. 75%</b> (ตรงคีย์ลายมือ ขีด C)",
+ "wrong": {
+  "A": "50% คือความยาวที่ได้จาก Z-plasty มุม 45° ไม่ใช่ 60° · มุม 45° flap ตึงน้อยกว่าแต่ได้ความยาวน้อยกว่า · จะถูกถ้าโจทย์ถาม Z-plasty มุม 45°",
+  "B": "60% ไม่ตรงกับค่า theoretical gain ของมุมใดในตารางมาตรฐาน (ตัวหลอกที่เอาตัวเลขมุมมาเป็นเปอร์เซ็นต์) · จะไม่ถูกในสถานการณ์มาตรฐาน",
+  "D": "90% ไม่ตรงกับค่ามาตรฐาน (อยู่ระหว่าง 75° = 100% และ 60° = 75%) · เป็นตัวหลอกที่ใกล้เคียง · จะไม่ถูกในตารางมาตรฐาน",
+  "E": "100% คือความยาวที่ได้จาก Z-plasty มุม 75° · มุมใหญ่ขึ้นทำให้ flap หมุนยากและเกิด dog-ear/ตึงมาก · จะถูกถ้าโจทย์ถาม Z-plasty มุม 75°"
+ },
+ "summary": [
+  "Z-plasty ใช้: release linear scar contracture (โดยเฉพาะข้ามข้อ, web space), เปลี่ยนทิศแผลเป็นให้อยู่ใน relaxed skin tension lines, แตกแผลเส้นตรงให้ดูน้อยลง, epicanthal fold",
+  "หลักการ: central limb วางตาม scar/แนวที่ต้องการยาว · limb ข้างยาวเท่า central limb · หลังสลับ flap แนว central limb ใหม่หมุน 90°",
+  "Multiple (serial) Z-plasty ใช้กับ scar ยาวเพื่อลดแรงตึงด้านข้าง · four-flap/five-flap (jumping man) ใช้ที่ web space ของนิ้ว"
+ ]
+}
+}
