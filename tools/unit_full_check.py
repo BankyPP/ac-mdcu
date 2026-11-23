@@ -18,6 +18,7 @@ python3 tools/unit_full_check.py --all          # ทุก data*/unit_*.js (ร
 import glob, json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+JUNK = re.compile(r"จะถูกถ้า\s*…|จะถูกถ้า\.\.\.|ไม่ใช่หลักในบทนี้")  # "จะถูกถ้า…ไม่ถูก" = ยังไม่ได้เขียนจริง
 TXT = lambda x: re.sub(r"<[^>]+>", "", str(x or "")).strip()
 
 
@@ -29,7 +30,7 @@ def problems(q):
     if len(TXT(q.get("why"))) < 150: bad.append("why")
     w = q.get("wrong")
     items = list(w.values()) if isinstance(w, dict) else list(w or [])
-    if len(items) < len(q.get("opts") or []) - 1 or any(len(TXT(x)) < 40 or "จะถูก" not in str(x) for x in items):
+    if len(items) < len(q.get("opts") or []) - 1 or any(len(TXT(x)) < 40 or "จะถูก" not in str(x) or JUNK.search(str(x)) for x in items):
         bad.append("wrong")
     if len(TXT(q.get("trap"))) < 25: bad.append("trap")
     if len(q.get("summary") or []) < 3: bad.append("summary")
