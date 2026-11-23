@@ -1,0 +1,193 @@
+{
+"MDCU67|RoD|15": {
+ "why": "ชายที่มีอาการ <b>urethritis หลังมีเพศสัมพันธ์</b> (ไปเที่ยวกลางคืน) → ต้องรักษา empiric ให้<b>ครอบคลุมทั้ง Neisseria gonorrhoeae และ Chlamydia trachomatis</b> เพราะพบร่วมกันบ่อยและแยกด้วยอาการไม่ได้ (คีย์ลายมือ):<br>• ตามคีย์ (แนวทางเดิม): ciprofloxacin (gonorrhea) + doxycycline (chlamydia)<br>• ⚠ <b>แนวทางปัจจุบัน (CDC 2021/WHO)</b>: gonorrhea ดื้อ fluoroquinolone สูงมาก (รวมในไทย) → ใช้ <b>ceftriaxone 500 mg IM ครั้งเดียว + doxycycline 100 mg bid 7 วัน</b><br>• หลักสำคัญที่ข้อนี้ทดสอบคือ 'dual coverage' — ช้อยอื่นใช้ยาเดี่ยวที่ครอบคลุมไม่ครบ<br>→ ตอบ <b>B</b> ตามคีย์ (ความมั่นใจปานกลางเพราะยาไม่ตรงแนวทางปัจจุบัน)",
+ "wrong": {
+  "A": "Ofloxacin อย่างเดียวครอบคลุม chlamydia ได้บ้าง (และเคยใช้กับ gonorrhea) แต่ gonorrhea ดื้อ quinolone สูงและการใช้ยาเดี่ยวไม่ครอบคลุมทั้งสองเชื้ออย่างมั่นใจ · จะถูกถ้าเป็น non-gonococcal urethritis ที่ยืนยันแล้วในพื้นที่ที่ใช้ ofloxacin 7 วัน",
+  "C": "Amoxicillin อย่างเดียว 7 วันไม่ครอบคลุม gonorrhea (ดื้อ penicillin จาก β-lactamase) และประสิทธิภาพต่อ chlamydia ในผู้ชายไม่ดีพอ · ใช้ใน chlamydia ในหญิงตั้งครรภ์บางแนวทาง · จะถูกถ้าโจทย์เป็น chlamydia ในหญิงตั้งครรภ์ที่แพ้ macrolide",
+  "D": "Nitrofurantoin ใช้รักษา uncomplicated cystitis (E. coli) เท่านั้น ไม่ครอบคลุมเชื้อ STI · จะถูกถ้าโจทย์เป็นหญิงแสบขัดปัสสาวะบ่อยไม่มีไข้",
+  "E": "Metronidazole ครั้งเดียว (2 g) รักษา Trichomonas vaginalis และ bacterial vaginosis · trichomonas เป็นสาเหตุ urethritis ในชายส่วนน้อย ใช้เมื่อ urethritis ไม่หายหลังรักษามาตรฐานหรือคู่นอนติด trichomonas · จะถูกถ้าโจทย์เป็น persistent urethritis ที่คู่ติด trichomonas"
+ },
+ "summary": [
+  "Urethritis ในชาย: discharge, dysuria, คันในท่อปัสสาวะ · วินิจฉัย: Gram stain (≥ 2 WBC/oil field, gram-negative intracellular diplococci = gonorrhea), first-void urine leukocyte esterase/≥ 10 WBC/HPF, NAAT",
+  "CDC 2021: gonorrhea → ceftriaxone 500 mg IM (1 g ถ้า ≥ 150 kg) · chlamydia → doxycycline 100 mg bid 7 วัน (ทางเลือก azithromycin 1 g) · test of cure สำหรับ pharyngeal gonorrhea",
+  "รักษาคู่นอนใน 60 วันที่ผ่านมา งดเพศสัมพันธ์ 7 วันหลังรักษาครบ ตรวจ HIV/syphilis และตรวจซ้ำที่ 3 เดือน (reinfection สูง)"
+ ]
+},
+"MDCU67|RoD|16": {
+ "interp": "หญิงที่<b>ปัสสาวะแสบขัดหลังมีเพศสัมพันธ์ทุกครั้ง</b> = postcoital (honeymoon) cystitis (คีย์ลายมือ) — โจทย์ถามการรักษา",
+ "wrong": {
+  "A": "งดเพศสัมพันธ์ 1 เดือนไม่ใช่การรักษามาตรฐานและไม่สามารถทำได้จริงในระยะยาว · การป้องกันที่ได้ผลคือปัสสาวะหลังมีเพศสัมพันธ์และ postcoital prophylaxis · จะถูกถ้าเป็นคำแนะนำชั่วคราวระหว่างรักษา STI",
+  "B": "Topical vaginal estrogen ลด recurrent UTI ในหญิงวัยหมดประจำเดือน (ฟื้นฟู lactobacilli ลด pH ช่องคลอด) · หญิง 40 ปีที่ยังมีประจำเดือนไม่ได้ประโยชน์ชัด · จะถูกถ้าเป็นหญิงวัยหมดประจำเดือนที่มี UTI ซ้ำ + atrophic vaginitis",
+  "D": "Bladder instillation (เช่น DMSO, heparin, hyaluronic acid) ใช้ใน interstitial cystitis/bladder pain syndrome ซึ่งปวดกระเพาะปัสสาวะเรื้อรัง ปัสสาวะไม่มีเชื้อ · จะถูกถ้า urine culture ลบซ้ำแต่ปวดท้องน้อยเรื้อรังเมื่อกระเพาะปัสสาวะเต็ม",
+  "E": "Cystoscopy ไม่จำเป็นใน recurrent uncomplicated UTI ในหญิง · ทำเมื่อมี hematuria ที่คงอยู่หลังรักษา, เชื้อแปลก (Proteus — สงสัยนิ่ว), ไม่ตอบสนองต่อยา, ประวัติผ่าตัด/ความผิดปกติทางเดินปัสสาวะ · จะถูกถ้ามี hematuria ไม่หายในผู้สูบบุหรี่"
+ },
+ "trap": "อย่าคิดว่าเป็น STI หรือ interstitial cystitis ทันที — การสัมพันธ์กับเพศสัมพันธ์ทุกครั้งเป็นกลไก mechanical ที่ดันเชื้อจาก periurethral area เข้าสู่กระเพาะปัสสาวะ · ควรส่ง urine culture ยืนยันอย่างน้อยหนึ่งครั้ง",
+ "summary": [
+  "Postcoital cystitis: เชื้อ (E. coli) จาก vaginal introitus/perineum เข้าท่อปัสสาวะสั้นของหญิงระหว่างมีเพศสัมพันธ์ · ปัจจัยเสี่ยงเพิ่ม: spermicide, diaphragm, คู่นอนใหม่",
+  "Recurrent UTI (≥ 2 ครั้ง/6 เดือน หรือ ≥ 3 ครั้ง/ปี ที่ culture ยืนยัน): ปัสสาวะหลังมีเพศสัมพันธ์, ดื่มน้ำมาก, เลี่ยง spermicide · postcoital single-dose prophylaxis (nitrofurantoin 50–100 mg, TMP-SMX) หรือ continuous low-dose prophylaxis",
+  "Non-antibiotic options: cranberry (หลักฐานปานกลาง), D-mannose, methenamine hippurate, vaginal estrogen ในวัยหมดประจำเดือน"
+ ]
+},
+"MDCU67|RoD|17": {
+ "interp": "ก้อน<b>แข็ง ไม่เจ็บ</b> ที่กระพุ้งแก้มขนาด 3 cm ร่วมกับ<b>ต่อมน้ำเหลืองที่คอโต</b> — ลักษณะของมะเร็งช่องปากที่แพร่ไปต่อมน้ำเหลือง โจทย์ถามผลชิ้นเนื้อที่น่าจะเป็น",
+ "why": "มะเร็งช่องปาก (oral cavity cancer) <b>~90% เป็น squamous cell carcinoma</b> (คีย์ลายมือ) เพราะช่องปากบุด้วย stratified squamous epithelium:<br>• ลักษณะ: ก้อน/แผลแข็ง ขอบนูน ไม่เจ็บในระยะแรก เลือดออกง่าย ไม่หาย<br>• แพร่ไปต่อมน้ำเหลืองที่คอ (level I–III) — ก้อนแข็งไม่เจ็บที่คอในผู้ใหญ่ = metastatic SCC จนกว่าจะพิสูจน์ได้ว่าไม่ใช่<br>• ปัจจัยเสี่ยง: บุหรี่ สุรา เคี้ยวหมาก (พบบ่อยที่ buccal mucosa ในผู้เคี้ยวหมาก), HPV (oropharynx มากกว่า)<br>• แม้ผู้ป่วยอายุน้อย (28 ปี) ก็ยังเป็น SCC มากที่สุด<br>→ ตอบ <b>B</b> (ตรงคีย์ลายมือ ขีด b)",
+ "wrong": {
+  "A": "Mucosal melanoma ของช่องปากพบน้อย (< 1–2% ของมะเร็งช่องปาก) มักที่ palate/gingiva เป็นรอยดำหรือก้อนสีคล้ำ พยากรณ์แย่ · จะถูกถ้าโจทย์บรรยายรอยโรคสีดำที่เพดานปาก",
+  "C": "Adenocarcinoma ในช่องปากมาจาก minor salivary gland (adenoid cystic, mucoepidermoid, polymorphous adenocarcinoma) พบบ่อยที่ palate ไม่ใช่ชนิดหลัก · จะถูกถ้าก้อนอยู่ใต้ mucosa ปกติที่ hard palate และมี perineural invasion",
+  "D": "Acute ulcer (aphthous/traumatic) เจ็บมาก หายเองใน 1–3 สัปดาห์ ไม่เป็นก้อนแข็ง และไม่ทำให้ต่อมน้ำเหลืองที่คอแข็งโต 2 cm · จะถูกถ้าเป็นแผลเจ็บที่เพิ่งเป็นไม่กี่วัน",
+  "E": "Fungal infection (oral candidiasis) เป็นฝ้าขาวขูดออกได้ มีฐานแดง พบในผู้ภูมิต่ำ/ใช้ steroid พ่น · ไม่ใช่ก้อนแข็ง · จะถูกถ้าโจทย์เป็นคราบขาวในปากผู้ป่วย HIV/เบาหวาน"
+ },
+ "summary": [
+  "Oral SCC: lateral tongue และ floor of mouth พบบ่อยในตะวันตก · buccal mucosa/gingivobuccal พบบ่อยในเอเชียที่เคี้ยวหมาก · premalignant: erythroplakia (เสี่ยงสูงสุด), leukoplakia, oral submucous fibrosis",
+  "Workup: incisional biopsy ของรอยโรค + FNA ต่อมที่คอ · CT/MRI head & neck, CT chest · ตรวจ panendoscopy หา synchronous primary",
+  "รักษา: wide excision (margin ~1 cm) + neck dissection (therapeutic เมื่อ N+, elective เมื่อ DOI > 3–4 mm) + reconstruction · adjuvant RT/CRT เมื่อ margin บวกหรือ extranodal extension"
+ ]
+},
+"MDCU67|RoD|18": {
+ "why": "<b>ก้อนในกระพุ้งแก้มที่โตขึ้นเรื่อยๆ และเลือดออกต่อเนื่อง</b> สงสัย <b>vascular lesion</b> (vascular malformation/AVM หรือ vascular tumor):<br>• <b>Angiography (catheter)</b> ทั้งวินิจฉัยและรักษา (คีย์ลายมือ: Dx + Tx) — เห็น feeding vessels, flow, nidus และทำ <b>embolization</b> หยุดเลือดได้ในครั้งเดียว<br>• Embolization ยังช่วยลดเลือดออกก่อนผ่าตัดตัดก้อน (pre-operative embolization 24–72 ชม.)<br>• ก่อนอื่นต้องป้องกัน airway และ resuscitate<br>→ ตอบ <b>D</b> (ตรงคีย์ลายมือ ขีด d) · แนวเดียวกับปี 67 RoC ข้อ 41",
+ "wrong": {
+  "A": "X-ray ไม่ให้ข้อมูลเกี่ยวกับหลอดเลือดหรือจุดเลือดออก (อาจเห็น phlebolith ใน venous malformation หรือกระดูกถูกกร่อน) และไม่รักษา · จะถูกถ้าโจทย์ถามการหาสิ่งแปลกปลอมหรือกระดูกหัก",
+  "B": "MRI ดีในการประเมินขอบเขตและชนิดของ vascular malformation (slow vs fast flow, ความสัมพันธ์กับเนื้อเยื่อ) แบบ elective แต่ใช้เวลานานและไม่หยุดเลือด · จะถูกถ้าผู้ป่วยไม่มีเลือดออกและต้องการวางแผนรักษา",
+  "C": "Ultrasound/Doppler ช่วยแยก flow ของก้อนผิวเผินได้ แต่ไม่เห็นหลอดเลือดลึกครบและไม่หยุดเลือด · จะถูกถ้าเป็นการตรวจคัดกรองแรกของก้อนนิ่มในเด็กที่สงสัย hemangioma/malformation",
+  "E": "Observation ไม่ได้ในผู้ป่วยที่เลือดออกต่อเนื่อง 2 ชม. และก้อนโตขึ้น เสี่ยงทั้ง airway และ hemorrhagic shock · จะถูกถ้าเป็นก้อนเล็กที่เลือดหยุดแล้วด้วยการกดและไม่มีอาการอื่น"
+ },
+ "trap": "อย่าลืมขั้นแรกจริงคือ airway และ resuscitation (เลือดในช่องปากไหลลงหลอดลมได้) · ช้อยนี้ถามการตรวจที่ทั้งวินิจฉัยและรักษา · ห้ามตัดชิ้นเนื้อก้อนที่สงสัย vascular lesion โดยไม่เตรียมห้ามเลือด",
+ "summary": [
+  "AVM ในช่องปาก/ขากรรไกร: อันตรายเมื่อถอนฟันในบริเวณนั้น (เลือดพุ่งรุนแรง) · ก้อนอุ่น เต้นตามชีพจร มี thrill/bruit",
+  "การจัดการเลือดออกในช่องปาก: ป้องกัน airway (intubation/tracheostomy), กดห้ามเลือด/packing, เลือด/สารน้ำ → angiography + embolization → surgical resection",
+  "Embolic agents: particles (PVA), coils, liquid embolics (Onyx, NBCA) · sclerotherapy สำหรับ venous malformation"
+ ]
+},
+"MDCU67|RoD|19": {
+ "interp": "โจทย์ถามวิธีที่ช่วย<b>ลดความดันในกะโหลก (ICP)</b> (ไม่มีรายละเอียดผู้ป่วย) — ช้อย A–C เป็นการรักษามาตรฐานใน tiered approach ทั้งหมด จึงตอบ All of the above",
+ "why": "การลด <b>ICP</b> ใช้แนวทางเป็นขั้น (tiered therapy — สไลด์ treatment of ICP ในคีย์):<br>• <b>General measures</b>: <b>หัวสูง 30°</b> คอตรง (ส่งเสริม venous drainage), หลีกเลี่ยงผ้า/เทปรัดคอ, ควบคุมไข้ ปวด ชัก, sedation, normocapnia, oxygenation<br>• <b>Osmotic therapy</b>: mannitol 0.25–1 g/kg หรือ hypertonic saline (3%, 7.5%, 23.4%)<br>• CSF drainage ผ่าน EVD<br>• Hyperventilation ระยะสั้น (PaCO2 30–35) เมื่อมี herniation<br>• <b>Surgery</b>: เอา mass/hematoma ออก, decompressive craniectomy<br>• Tier 3: barbiturate coma<br>ช้อย A, B, C ล้วนลด ICP → ตอบ <b>D</b> (ตรงคีย์ลายมือ ขีด d)",
+ "wrong": {
+  "A": "Head elevation 30° ลด ICP ได้จริง (ข้อนี้ถูก) โดยเพิ่ม venous outflow โดยไม่ลด CPP มากเกินไป เป็นมาตรการพื้นฐาน · แต่เป็นเพียงหนึ่งในหลายวิธี จึงเลือกเดี่ยวไม่ได้เมื่อมี All of the above",
+  "B": "Osmotic therapy (mannitol/hypertonic saline) ลด ICP ได้จริง (ข้อนี้ถูก) ดึงน้ำออกจากเนื้อสมองที่ BBB ปกติ และลด blood viscosity · ระวัง hypovolemia/ไตวายจาก mannitol, hypernatremia จาก hypertonic saline · เป็นเพียงหนึ่งในวิธีที่ถูก",
+  "C": "Surgery ลด ICP ได้จริง (ข้อนี้ถูก) — evacuation ของ hematoma/tumor, CSF diversion, decompressive craniectomy (DECRA, RESCUEicp) · เป็นเพียงหนึ่งในวิธีที่ถูก",
+  "E": "Therapeutic hypothermia ไม่แนะนำแบบ routine ใน TBI (Eurotherm3235 พบว่าผลแย่ลง/ไม่ดีขึ้น) · ควบคุมให้ normothermia และรักษาไข้ · จะถูกถ้าโจทย์ถามการดูแลหลัง cardiac arrest (targeted temperature management)"
+ },
+ "summary": [
+  "Monro-Kellie: กะโหลกปิด ปริมาตรสมอง + เลือด + CSF คงที่ · ICP ปกติ 5–15 mmHg · treatment threshold ใน TBI > 22 mmHg (BTF 4th)",
+  "CPP = MAP − ICP เป้า 60–70 mmHg · หลีกเลี่ยง hypotension (SBP < 100–110) และ hypoxia ซึ่งเป็น secondary brain injury",
+  "Cushing triad (ความดันสูง ชีพจรช้า หายใจไม่สม่ำเสมอ) บ่งว่า ICP สูงมากใกล้ herniation · CT: midline shift, basal cisterns ถูกกด, ventricle เล็ก"
+ ]
+},
+"MDCU67|RoD|20": {
+ "why": "<b>Marjolin ulcer</b> = มะเร็ง (ส่วนใหญ่เป็น <b>squamous cell carcinoma</b>) ที่เกิดใน<b>แผลเรื้อรังหรือแผลเป็น</b> โดยเฉพาะ <b>burn scar</b> หลังผ่านไปหลายสิบปี (latency เฉลี่ย ~30 ปี):<br>• ผู้ป่วยมีแผลเป็นไฟไหม้ 30 ปี แล้วเกิดแผลใหญ่ 10 cm ไม่หายนาน 6 เดือน — ลักษณะคลาสสิก<br>• แผลขอบนูนแข็งม้วน ฐานมีเนื้อยื่น เลือดออกง่าย มีกลิ่น<br>• Aggressive กว่า SCC ทั่วไป แพร่ไปต่อมน้ำเหลืองบ่อย<br>• ต้อง <b>biopsy หลายตำแหน่งที่ขอบแผล</b> → wide local excision (margin 2–4 cm) ± amputation/regional node dissection<br>• แม้ผู้ป่วยเป็นเบาหวาน ตำแหน่งและประวัติ burn scar ชี้ไปที่ Marjolin มากกว่า<br>→ ตอบ <b>C</b> (ตรงคีย์ลายมือ ขีด c)",
+ "wrong": {
+  "A": "Diabetic ulcer เกิดจาก neuropathy + ischemia + infection มักที่จุดรับน้ำหนัก (plantar metatarsal head, ส้นเท้า) · ผู้ป่วยมี DM แต่แผลเกิดบน burn scar เก่า 30 ปี ซึ่งเป็นตัวชี้ Marjolin · จะถูกถ้าแผลอยู่ที่ฝ่าเท้าใต้ metatarsal head ในผู้ป่วยเบาหวานที่ไม่มีประวัติ burn",
+  "B": "Neuropathic ulcer (mal perforans) เกิดที่จุดรับแรงกดของฝ่าเท้า ขอบมี callus หนา ไม่เจ็บ · ตำแหน่งบน burn scar และขนาดใหญ่ไม่หายนานเอียงไปทางมะเร็ง · จะถูกถ้าแผลกลม ลึก ล้อมด้วย callus ที่ใต้ metatarsal head",
+  "D": "Venous ulcer อยู่ gaiter area (เหนือ medial malleolus) ขอบไม่ชัด ตื้น มี hyperpigmentation, lipodermatosclerosis, varicose vein · จะถูกถ้าแผลอยู่ข้อเท้าด้านใน มีเส้นเลือดขอดและขาบวม",
+  "E": "Ischemic (arterial) ulcer อยู่ปลายนิ้ว/หลังเท้า ขอบชัดเหมือน punched-out ปวดมากโดยเฉพาะตอนกลางคืน ชีพจรเท้าเบา/คลำไม่ได้ ABI ต่ำ · จะถูกถ้าโจทย์ให้ชีพจรคลำไม่ได้และปวดขาเวลาเดิน"
+ },
+ "summary": [
+  "Marjolin ulcer: เกิดจาก burn scar (พบบ่อยที่สุด), chronic osteomyelitis sinus, venous ulcer, pressure ulcer, radiation scar, hidradenitis · histology ส่วนใหญ่เป็น SCC (well-differentiated), BCC/melanoma พบน้อย",
+  "แผลเรื้อรังที่ไม่หายภายใน 3 เดือน หรือเปลี่ยนลักษณะ (ขอบนูน เลือดออก โตเร็ว เจ็บ กลิ่น) → biopsy หลายจุดทั้งขอบและฐาน",
+  "รักษา: wide excision 2–4 cm (หรือ amputation ถ้าลุกกระดูก/ข้อ) + reconstruction (graft/flap) · ประเมิน regional node (SLNB หรือ lymphadenectomy ถ้าคลำได้)"
+ ]
+},
+"MDCU67|RoD|21": {
+ "interp": "โจทย์ถาม<b>รอยโรคผิวหนังที่เป็น premalignant</b> — ต้องแยกจากรอยโรค benign ที่ไม่กลายเป็นมะเร็ง",
+ "why": "<b>Actinic (solar) keratosis</b> เป็น premalignant lesion ของ <b>squamous cell carcinoma</b> (คีย์ลายมือ: → SCC):<br>• เกิดจาก UV สะสมในผิวที่โดนแดดเรื้อรัง (หน้า หลังมือ หนังศีรษะล้าน) ในคนผิวขาว/ผู้สูงอายุ<br>• ลักษณะ: ผื่นแดงหยาบสาก มีขุยติดแน่น (คลำได้ดีกว่ามองเห็น)<br>• แต่ละรอยโรคมีโอกาสกลายเป็น SCC ต่ำ (~0.1–1% ต่อปี) แต่ผู้ที่มีหลายรอยโรคมีความเสี่ยงสะสมสูง และเป็นตัวบ่งชี้ field cancerization<br>• Variant: actinic cheilitis ที่ริมฝีปากล่าง, cutaneous horn<br>→ ตอบ <b>B</b> (ตรงคีย์ลายมือ ขีด b) · ช้อยอื่นเป็น benign",
+ "wrong": {
+  "A": "Dermatofibroma เป็นก้อน fibrous benign ที่ผิวหนัง มักที่ขา dimple sign บวก (กดข้างๆ แล้วบุ๋มลง) อาจเกิดหลังแมลงกัด ไม่กลายเป็นมะเร็ง · จะถูกถ้าโจทย์ถามก้อนแข็งเล็กที่ขาที่บุ๋มเมื่อบีบ",
+  "C": "Capillary/infantile hemangioma เป็น benign vascular tumor ในทารก ยุบเองได้ ไม่กลายเป็นมะเร็ง · จะถูกถ้าโจทย์ถามก้อนแดงสดที่โตเร็วในทารกแล้วยุบ",
+  "D": "Seborrheic keratosis เป็น benign epidermal tumor ในผู้สูงอายุ ลักษณะ 'stuck-on' สีน้ำตาลดำ ผิวขรุขระมันๆ ไม่กลายเป็นมะเร็ง · ถ้าเกิดจำนวนมากอย่างรวดเร็ว (Leser-Trélat sign) อาจบ่งมะเร็งภายใน · จะถูกถ้าโจทย์ถามรอยโรค benign ที่พบบ่อยในผู้สูงอายุ",
+  "E": "Lipoma เป็นก้อนไขมัน benign นิ่ม เคลื่อนได้ ไม่เจ็บ · liposarcoma ไม่ได้เกิดจาก lipoma เดิม (ต้องสงสัยถ้าก้อน > 5 cm, ลึกใต้ fascia, โตเร็ว, แข็ง) · จะถูกถ้าโจทย์ถามก้อนนิ่มใต้ผิวที่หลัง"
+ },
+ "summary": [
+  "Premalignant skin lesions: actinic keratosis (→ SCC), Bowen disease/SCC in situ, leukoplakia/erythroplakia (mucosa), dysplastic nevus/congenital giant nevus (→ melanoma), xeroderma pigmentosum, chronic scar (Marjolin)",
+  "รักษา AK: cryotherapy (รอยโรคเดี่ยว) · field therapy สำหรับหลายรอยโรค: topical 5-FU, imiquimod, photodynamic therapy · ป้องกันแดด",
+  "AK ที่หนา เจ็บ โตเร็ว มีเลือดออก หรือดื้อต่อการรักษา → biopsy ตัด invasive SCC"
+ ]
+},
+"MDCU67|RoD|22": {
+ "why": "ผู้จดขีดทั้ง b และ d — Claude รวมเป็นช้อย E ('ทั้งสองข้อ'):<br>• <b>B ถูก</b>: biliary atresia ที่ไม่ได้รักษา → biliary cirrhosis, portal hypertension, liver failure → <b>เสียชีวิตส่วนใหญ่ภายในประมาณ 2 ปี</b><br>• <b>D ถูก</b>: เมื่อ Kasai ล้มเหลวหรือเกิดตับวาย/ภาวะแทรกซ้อนของ cirrhosis → <b>liver transplantation</b> (biliary atresia เป็นข้อบ่งชี้ transplant ที่พบบ่อยที่สุดในเด็ก)<br>• A ผิด: Kasai คือ <b>hepatic portoenterostomy</b> (ต่อ Roux-en-Y jejunum กับ porta hepatis หลังตัด fibrous cone) ไม่ใช่ choledochojejunostomy (คีย์ลายมือ: a portoenterostomy)<br>• C ผิด: ต้องทำ <b>ก่อน 2 เดือน (60 วัน)</b> ไม่ใช่ 6 เดือน (คีย์ลายมือ: c ก่อน 2 เดือน)<br>→ ตอบ <b>E</b> (Claude เฉลยตามลายมือที่ขีด b และ d · ความมั่นใจปานกลาง)",
+ "wrong": {
+  "A": "Kasai operation คือ hepatic portoenterostomy — ไม่มีท่อน้ำดีนอกตับให้ต่อ จึงตัด fibrous remnant ที่ porta hepatis แล้วต่อ jejunal Roux limb กับพื้นผิวนั้นให้น้ำดีไหลจากท่อจิ๋วในตับ · choledochojejunostomy/hepaticojejunostomy ใช้ใน choledochal cyst · จะถูกถ้าโจทย์เป็นการซ่อมหลังตัด choledochal cyst",
+  "B": "ข้อความนี้ถูก (ไม่รักษาเสียชีวิตภายใน ~2 ปี) แต่ไม่ครบ เพราะข้อ D ก็ถูกด้วย และช้อย E รวมทั้งสองข้อไว้ · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถามพยากรณ์โรคของ biliary atresia ที่ไม่ได้รักษา",
+  "C": "ต้องทำ Kasai ก่อนอายุ 60 วัน (2 เดือน) ผลการระบายน้ำดีจึงดี · ถ้าทำหลัง 90–100 วันผลแย่มากและบางสถาบันพิจารณา primary transplant แทน · จะถูกถ้าตัวเลขเป็น 2 เดือน",
+  "D": "ข้อความนี้ถูก (transplant เมื่อตับวาย) แต่ไม่ครบ เพราะข้อ B ก็ถูกด้วย และช้อย E รวมทั้งสองข้อ · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถามการรักษาเมื่อ Kasai ล้มเหลว"
+ },
+ "summary": [
+  "Biliary atresia: obliterative cholangiopathy ของท่อน้ำดีนอกตับ (ส่วนใหญ่ type III ถึง porta hepatis) · BASM (biliary atresia splenic malformation) มี polysplenia, situs inversus, preduodenal portal vein",
+  "ผลของ Kasai ขึ้นกับอายุตอนผ่าตัด, ประสบการณ์ศูนย์, การเกิด cholangitis · หลังผ่าตัดให้ ursodeoxycholic acid, antibiotics prophylaxis, fat-soluble vitamins",
+  "Kasai สำเร็จ = bilirubin กลับปกติภายใน 3 เดือน · native liver survival ~30–50% ที่ 10 ปี"
+ ]
+},
+"MDCU67|RoD|23": {
+ "wrong": {
+  "A": "Cystogastrostomy เป็น internal drainage (ต่อถุงกับกระเพาะ) ใช้กับ pancreatic pseudocyst · ใน choledochal cyst การทิ้งผนังถุงไว้เสี่ยง cholangiocarcinoma, cholangitis จาก reflux ของอาหาร · จะถูกถ้าโจทย์เป็น pancreatic pseudocyst ที่ติดผนังกระเพาะ",
+  "B": "Cystojejunostomy (internal drainage) เป็นวิธีเก่าที่เลิกใช้ เพราะผนังถุงที่เหลือยังเสี่ยงมะเร็งสูงและเกิด cholangitis/stone ซ้ำ · จะถูกถ้าโจทย์ถามวิธีในอดีตที่ไม่แนะนำแล้ว",
+  "D": "Transduodenal marsupialization/sphincteroplasty หรือ endoscopic unroofing ใช้กับ type III choledochal cyst (choledochocele) ที่โป่งเข้า duodenum · ไม่ใช่การรักษา type I · จะถูกถ้าโจทย์เป็น choledochocele",
+  "E": "Kasai operation (hepatic portoenterostomy) เป็นการรักษา biliary atresia ที่ไม่มีท่อน้ำดีนอกตับ · choledochal cyst มีท่อขยาย จึงตัดถุงแล้วทำ hepaticojejunostomy · จะถูกถ้าโจทย์เป็นทารกตัวเหลืองอุจจาระซีด US ไม่เห็น gallbladder"
+ },
+ "summary": [
+  "Todani classification: I (fusiform/cystic ของ CBD, ~80–90%) · II (diverticulum) · III (choledochocele) · IVa (intra + extrahepatic) · IVb (extrahepatic หลายถุง) · V (Caroli disease — intrahepatic)",
+  "สัมพันธ์กับ anomalous pancreaticobiliary junction (long common channel) → pancreatic juice reflux · อาการ: triad ปวดท้อง ตัวเหลือง ก้อน RUQ (เด็ก), cholangitis/pancreatitis (ผู้ใหญ่)",
+  "รักษา type I/IV: complete cyst excision + cholecystectomy + Roux-en-Y hepaticojejunostomy (หรือ hepaticoduodenostomy) · Caroli → segmental hepatectomy หรือ transplant · ความเสี่ยง cholangiocarcinoma เพิ่มตามอายุ"
+ ]
+},
+"MDCU67|RoD|24": {
+ "interp": "โจทย์ถามข้อความที่ถูกเกี่ยวกับ <b>chronic constrictive pericarditis</b> — ช้อยชุดเดียวกับข้อก่อนหน้าแต่ลำดับต่างกัน ต้องตรวจทุกข้อก่อนเลือก All of the above",
+ "why": "<b>Constrictive pericarditis</b>: pericardium หนา แข็ง จำกัดการ fill ของหัวใจ<br>• <b>CT/MRI เห็น pericardium หนา > 4 mm</b> ± calcification (CXR อาจเห็นหินปูนรอบหัวใจ โดยเฉพาะ TB) ← ข้อนี้ถูก<br>• อาการหลัก: เหนื่อย อ่อนเพลีย + right heart failure (JVP สูง, Kussmaul sign, ascites, edema) · ไม่ใช่ท้องโตเป็นอาการหลัก<br>• สาเหตุ: idiopathic/viral พบบ่อยที่สุด, หลังผ่าตัดหัวใจ, radiation, TB<br>• Pulsus paradoxus เป็นลักษณะของ tamponade<br>→ ตอบ <b>D</b> (ตรงคีย์ลายมือ ขีด d) · ข้อเดียวกับปี 67 RoA ข้อ 50 และ RoC ข้อ 52",
+ "wrong": {
+  "A": "Pulsus paradoxus เป็นลักษณะเด่นของ cardiac tamponade พบใน constrictive pericarditis เพียงส่วนน้อย และ AF ทำให้ประเมินได้ยาก ไม่ได้ทำให้พบบ่อยขึ้น · จะถูกถ้าโจทย์ถาม tamponade (Beck triad + pulsus paradoxus)",
+  "B": "ประวัติผ่าตัดหัวใจเป็นสาเหตุสำคัญในประเทศพัฒนาแล้ว แต่สาเหตุที่พบบ่อยที่สุดโดยรวมคือ idiopathic/viral และในประเทศกำลังพัฒนาคือ TB · จะถูกถ้าโจทย์ถามสาเหตุที่เพิ่มขึ้นในยุคการผ่าตัดหัวใจ",
+  "C": "ท้องโต (ascites, hepatomegaly) พบได้และอาจทำให้วินิจฉัยผิดเป็นโรคตับ แต่อาการที่พบบ่อยที่สุดคือเหนื่อยง่าย/อ่อนเพลีย · จะถูกถ้าโจทย์ถามอาการที่ทำให้สับสนกับ cirrhosis",
+  "E": "All of the above ผิดเพราะ A, B, C ไม่ถูกต้อง · จะถูกเฉพาะถ้าทุกข้อความเป็นจริง"
+ },
+ "trap": "ข้อนี้ซ้ำ 3 ครั้งในปี 67 โดยสลับลำดับช้อย — คำตอบคือข้อที่พูดถึง CT เห็น pericardium หนาเสมอ · ระวังคำว่า 'commonest' ในช้อยที่ผิด",
+ "summary": [
+  "Physical signs: JVP สูงมีลักษณะ prominent y descent (Friedreich sign), Kussmaul sign (JVP ไม่ลดหรือเพิ่มขณะหายใจเข้า), pericardial knock (early diastolic), hepatomegaly, ascites",
+  "Hemodynamics: equalization of diastolic pressures ทุกห้อง, dip-and-plateau (square root sign), discordance ของ LV/RV systolic pressure ขณะหายใจ",
+  "Transient constriction (หลังผ่าตัด/อักเสบ) อาจหายด้วย anti-inflammatory (NSAID, colchicine, steroid) ใน 2–3 เดือน ก่อนพิจารณา pericardiectomy"
+ ]
+},
+"MDCU67|RoD|25": {
+ "interp": "โจทย์ถาม<b>เกณฑ์วินิจฉัย empyema</b> — ต้องแยกเกณฑ์ที่จำเพาะออกจากลักษณะที่ไม่จำเพาะ (ความขุ่น, CRP) และเลือกช้อยที่รวมเกณฑ์ที่ถูกไว้ครบ",
+ "why": "เกณฑ์วินิจฉัย <b>empyema thoracis</b> (complicated parapneumonic effusion ที่ติดเชื้อ):<br>• หนองจริงจากการเจาะ<br>• <b>Gram stain หรือ culture บวก</b><br>• Biochemistry: <b>pH < 7.0–7.2</b>, glucose < 40 mg/dL, LDH > 1,000 IU/L<br>• ความขุ่นอย่างเดียวไม่จำเพาะ (chylothorax, cell count สูงก็ขุ่นได้) · CRP เป็นค่าในเลือดที่บอกการอักเสบทั่วไป ไม่ใช่เกณฑ์ของ pleural fluid<br>→ pH < 7 และ Gram stain บวกเป็นเกณฑ์ทั้งคู่ → ตอบ <b>E</b> (ตรงคีย์ลายมือ ขีด e) · แนวเดียวกับปี 67 RoA ข้อ 55",
+ "wrong": {
+  "A": "Pleural fluid ขุ่นไม่จำเพาะต่อ empyema — chylothorax (ขาวขุ่น triglyceride สูง), pseudochylothorax, exudate ที่เซลล์มากก็ขุ่นได้ · ต้องใช้ biochemistry/microbiology · จะถูกถ้าเป็นหนองข้นชัดเจน (frank pus) ซึ่งวินิจฉัยได้ทันที",
+  "B": "CRP เป็น marker การอักเสบในเลือด ใช้ติดตามการตอบสนองต่อการรักษา pleural infection แต่ไม่ใช่เกณฑ์วินิจฉัย empyema จาก pleural fluid · จะถูกถ้าโจทย์ถามการติดตามว่าการรักษาได้ผลหรือไม่",
+  "C": "pH < 7 เป็นเกณฑ์จริงและเป็นตัวชี้วัดที่ดีที่สุดว่าต้องใส่ chest drain แต่ไม่ใช่คำตอบเดี่ยวเพราะ Gram stain ก็ถูก และช้อย E รวมทั้งสองไว้ · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถามค่า biochemistry ที่แม่นที่สุด",
+  "D": "Gram stain บวกเป็นเกณฑ์จริง (ยืนยันการติดเชื้อใน pleural space) แต่ไม่ครบเพราะ pH ก็ถูก และช้อย E รวมไว้ · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถามหลักฐานที่ยืนยันว่ามีเชื้อ"
+ },
+ "trap": "ช้อย 'Both' ต้องตรวจว่าทั้งสองข้อที่รวมถูกจริง · ความขุ่นและ CRP เป็นตัวหลอกที่ฟังดูเกี่ยวข้องแต่ไม่ใช่เกณฑ์ · pH ต้องวัดด้วยเครื่อง blood gas ไม่ใช่ pH paper",
+ "summary": [
+  "Pleural fluid ที่ต้องส่งเมื่อสงสัย parapneumonic effusion: pH (blood gas), glucose, LDH, protein, cell count, Gram stain, culture (ใส่ขวด blood culture เพิ่ม yield)",
+  "เชื้อ community-acquired empyema: Streptococcus (S. milleri group, S. pneumoniae), anaerobe · hospital-acquired: S. aureus (MRSA), gram-negative",
+  "Antibiotics นาน 2–6 สัปดาห์ร่วมกับ drainage · ไม่ดีขึ้น → CT ดู loculation/ตำแหน่งสาย → intrapleural fibrinolytics หรือ VATS"
+ ]
+},
+"MDCU67|RoD|26": {
+ "why": "<b>Perianal abscess</b> ในผู้ป่วยที่<b>เบาหวานควบคุมไม่ได้ + ไข้ + cellulitis รอบก้อน</b>:<br>• การรักษาหลักคือ <b>incision & drainage</b> ทันที (คีย์ลายมือ: perianal abscess)<br>• ให้ <b>antibiotics ร่วม</b>เพราะมีข้อบ่งชี้ครบ: systemic sign (ไข้), cellulitis, ผู้ป่วยภูมิต่ำ (DM ควบคุมไม่ได้)<br>• คุมระดับน้ำตาลในเลือด และเฝ้าระวัง <b>necrotizing soft tissue infection (Fournier gangrene)</b> ซึ่งพบบ่อยในเบาหวาน — ปวดมากเกินกว่าที่เห็น ผิวคล้ำ crepitus ลามเร็ว ต้อง debride ด่วน<br>→ ตอบ <b>B</b> (ตรงคีย์ลายมือ ขีด b)",
+ "wrong": {
+  "A": "Antibiotics อย่างเดียวไม่สามารถรักษา abscess ได้ เพราะยาเข้าถึงหนองที่ถูกห่อหุ้มได้ไม่ดี · ฝีจะโตและลุกลาม (เสี่ยง Fournier ในเบาหวาน) · จะถูกถ้าเป็น cellulitis ที่ยังไม่มีหนองรวมตัว",
+  "C": "Needle aspiration + antibiotics ระบายไม่พอสำหรับ perianal abscess (หนองข้น มี loculation) และกลับเป็นซ้ำสูง · ใช้ได้ในบางตำแหน่ง เช่น breast abscess · จะถูกถ้าโจทย์เป็น breast abscess ขนาดเล็กในหญิงให้นมบุตร",
+  "D": "I&D อย่างเดียวเพียงพอสำหรับ perianal abscess ธรรมดาในคนแข็งแรง · ผู้ป่วยรายนี้มีไข้ cellulitis และ DM ควบคุมไม่ได้ จึงต้องเพิ่ม antibiotics · จะถูกถ้าเป็นฝีเล็กไม่มีไข้ในคนภูมิปกติ",
+  "E": "Observation อันตรายในผู้ป่วยเบาหวานที่มีไข้และ cellulitis เสี่ยง sepsis และ necrotizing infection ที่อัตราตายสูง · จะไม่ถูกในสถานการณ์ใดที่มีฝีรวมตัวแล้ว"
+ },
+ "summary": [
+  "I&D ของ perianal abscess: กรีดใกล้ anal verge ให้มากที่สุด (ถ้าเกิด fistula จะสั้น), ทำ cruciate/elliptical incision ให้ระบายได้ดี, อาจใส่ drain/packing · ไม่ควรหา internal opening แบบรุนแรง",
+  "Fournier gangrene: necrotizing fasciitis ของ perineum/scrotum (polymicrobial) · ปัจจัยเสี่ยง: เบาหวาน สุรา ภูมิต่ำ · รักษา: resuscitation + broad-spectrum antibiotics + radical debridement ซ้ำ ± diverting colostomy",
+  "ติดตามหลังระบาย: ~1/3 เกิด fistula-in-ano · ผู้ป่วยฝีซ้ำ/หลายจุดให้สงสัย Crohn disease, hidradenitis"
+ ]
+},
+"MDCU67|RoD|27": {
+ "why": "ข้อบ่งชี้ของ <b>preoperative (neoadjuvant) chemoradiotherapy</b> ใน rectal cancer ขึ้นกับ <b>stage จาก MRI pelvis</b> ไม่ใช่เพศหรือตำแหน่งอย่างเดียว:<br>• <b>Locally advanced rectal cancer</b>: <b>T3–T4 และ/หรือ node-positive (stage II–III)</b> ← คำตอบ<br>• โดยเฉพาะ CRM threatened/involved (< 1 mm), EMVI บวก, low rectal tumor ที่ต้องการลดขนาดเพื่อเก็บ sphincter<br>• ประโยชน์: ลด local recurrence (German CAO/ARO/AIO-94), downstaging, เพิ่มโอกาส R0 และ sphincter preservation<br>• ปัจจุบันนิยม <b>total neoadjuvant therapy (TNT)</b><br>→ ตอบ <b>D</b> (ตรงคีย์ลายมือ ขีด d)",
+ "wrong": {
+  "A": "เพศชายทำให้ผ่าตัดยากขึ้น (เชิงกรานแคบ) แต่ไม่ใช่ข้อบ่งชี้ neoadjuvant CRT · การตัดสินใจขึ้นกับ stage และ CRM · จะไม่ถูกในสถานการณ์ใดถ้าใช้เพศเป็นเกณฑ์เดี่ยว",
+  "B": "Low rectal cancer อย่างเดียวไม่ใช่ข้อบ่งชี้ — T1–T2 N0 ที่ส่วนล่างผ่าตัดได้เลย (TME/APR) · อย่างไรก็ตาม low rectal tumor ที่เป็น T3+ หรือ N+ ได้ประโยชน์จาก CRT ทั้งการคุมโรคและเพิ่มโอกาสเก็บ sphincter · จะถูกถ้าระบุว่าเป็น T3 หรือ N+ ด้วย",
+  "C": "Mid rectal cancer อย่างเดียวไม่ใช่ข้อบ่งชี้ — ต้องดู T/N stage · upper rectal cancer (> 10–12 cm) บางแนวทางจัดการคล้าย colon cancer · จะถูกถ้าระบุว่าเป็น T3 ที่ CRM ใกล้",
+  "E": "All of the above ผิดเพราะ A, B, C เป็นเกณฑ์ที่ไม่เพียงพอ · มีเพียง D ที่เป็นข้อบ่งชี้ตามหลักฐาน · จะถูกเฉพาะถ้าทุกข้อเป็นข้อบ่งชี้"
+ },
+ "trap": "อย่าเลือก low rectal cancer เพียงเพราะรู้ว่า CRT ช่วยเก็บ sphincter — เกณฑ์หลักคือ stage (T3–4, N+) · rectal cancer T1–T2 N0 ผ่าตัดได้เลยโดยไม่ต้อง CRT",
+ "summary": [
+  "Staging rectal cancer: MRI pelvis (T stage, N, CRM, EMVI, ระยะจาก anal verge) + CT chest/abdomen (metastasis) + CEA · ERUS ช่วยแยก T1 vs T2 สำหรับ local excision",
+  "Neoadjuvant options: long-course CRT (50.4 Gy + capecitabine/5-FU) · short-course RT (5 × 5 Gy) · TNT (RAPIDO, PRODIGE 23) ให้ chemotherapy ก่อนผ่าตัดทั้งหมด",
+  "ผ่าตัดหลัง neoadjuvant 6–12 สัปดาห์: total mesorectal excision (LAR หรือ APR) · clinical complete response อาจเลือก watch-and-wait ในศูนย์ที่ติดตามใกล้ชิด"
+ ]
+}
+}
