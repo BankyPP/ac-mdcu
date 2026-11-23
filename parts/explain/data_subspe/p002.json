@@ -1,0 +1,247 @@
+{
+"MDCU66|RoA|34": {
+ "why": "<b>Choroid plexus papilloma/carcinoma</b> พบบ่อยในเด็ก < 2 ปี อยู่ใน lateral ventricle (เด็ก) หรือ 4th ventricle (ผู้ใหญ่) ทำให้เกิด hydrocephalus จาก 2 กลไก: <b>สร้าง CSF มากเกิน</b> และก้อน/เลือดออก/โปรตีนสูงอุดทางเดินและการดูดซึม → การรักษาที่ดีที่สุดคือ <b>ผ่าตัดเอาก้อนออกทั้งหมด (gross total resection)</b> ซึ่งแก้ต้นเหตุ papilloma หายขาด และ hydrocephalus มักดีขึ้นโดยไม่ต้อง shunt ถาวร · ระหว่างรอผ่าตัดอาจใส่ EVD ชั่วคราวเพื่อคุม ICP (คีย์ลายมือ C: ICP, brain edema) · ข้อระวัง: ก้อนมีเลือดเลี้ยงมาก (choroidal arteries) ทารกเสียเลือดง่าย อาจต้อง preoperative embolization",
+ "wrong": {
+  "A": "Carbonic anhydrase inhibitor (acetazolamide) ลดการสร้าง CSF ได้เล็กน้อยและชั่วคราว ไม่พอสำหรับ hydrocephalus จากก้อน · จะถูกถ้าโจทย์เป็น idiopathic intracranial hypertension หรือใช้ประคับประคองระยะสั้นใน post-hemorrhagic hydrocephalus ในทารก",
+  "B": "LP ในก้อนใน ventricle ที่มี hydrocephalus เสี่ยง herniation ไม่ใช่การรักษา · จะถูกถ้าเป็น communicating hydrocephalus ที่ไม่มีก้อน หรือ NPH tap test",
+  "C": "EVD ระบาย CSF ลด ICP ได้เร็วแต่เป็นแค่ชั่วคราว (ติดเชื้อถ้าคาไว้นาน) ไม่แก้ก้อน · จะถูกถ้าโจทย์ถามการรักษาฉุกเฉินในผู้ป่วยที่ ICP สูงจนซึมมาก/herniation ก่อนผ่าตัดก้อน",
+  "D": "VP shunt ไม่แก้ต้นเหตุ ก้อนยังสร้าง CSF มากจน shunt รับไม่ไหว (ascites) และโปรตีน/เลือดอุด shunt ได้ · จะถูกถ้าหลังผ่าตัดก้อนออกแล้ว hydrocephalus ยังไม่หาย (persistent communicating hydrocephalus)"
+ },
+ "trap": "อย่าเลือก shunt เพียงเพราะเห็นคำว่า hydrocephalus — ถ้ามีก้อนเป็นต้นเหตุ ให้คิดว่า <b>เอาต้นเหตุออก</b> ก่อน · และก้อนนี้เลือดออกมาก เสี่ยง exsanguination ในทารก",
+ "summary": [
+  "Choroid plexus papilloma: WHO grade 1 · carcinoma: grade 3 (ต้อง chemo ± RT เสริม)",
+  "ตำแหน่ง: เด็ก → lateral ventricle (atrium) · ผู้ใหญ่ → 4th ventricle",
+  "Hydrocephalus จาก CSF overproduction + obstruction + ดูดซึมลดลง",
+  "รักษา: gross total resection (± EVD ก่อน/หลังผ่าตัด, ± preoperative embolization)",
+  "หลังผ่าตัดบางรายยังมี hydrocephalus → ค่อยใส่ VP shunt"
+ ]
+},
+"MDCU66|RoA|37": {
+ "interp": "CT ยืนยัน <b>SAH</b> แล้ว (ข้อ 36) — โจทย์ถามขั้นต่อไป ซึ่งคือหา <b>สาเหตุ</b> (ส่วนใหญ่ ruptured aneurysm) เพื่อรักษาก่อนเลือดออกซ้ำ ไม่ใช่ยืนยัน SAH ซ้ำ",
+ "why": "Spontaneous SAH ~85% มาจาก <b>ruptured saccular (berry) aneurysm</b> · เมื่อ CT ยืนยัน SAH ต้องหา aneurysm ด้วย <b>cerebral angiography</b> — CTA ทำได้เร็วเป็นขั้นแรก และ <b>DSA (digital subtraction angiography)</b> เป็น gold standard (คีย์ลายมือ: หา cause + Tx) เพราะทำ endovascular coiling ต่อได้ทันที · ต้อง secure aneurysm (coiling/clipping) ให้เร็ว (ภายใน 24–72 ชม.) เพราะ <b>rebleeding</b> สูงสุดใน 24 ชม.แรกและอัตราตายสูง · ระหว่างนั้นให้ nimodipine 21 วัน (ป้องกัน delayed cerebral ischemia จาก vasospasm), คุม BP (SBP < 160), รักษา hydrocephalus ด้วย EVD",
+ "wrong": {
+  "B": "MRI (FLAIR/SWI) ช่วยหา SAH ที่ CT ไม่ชัดหรือหาสาเหตุอื่น แต่ใช้เวลานาน ผู้ป่วยหนักทำยาก และไม่ใช่การตรวจหา aneurysm ที่ดีที่สุด · จะถูกถ้าเป็น SAH ที่ angiography ลบ 2 ครั้ง (หา spinal AVM, perimesencephalic pattern) หรือมาช้าหลายวันที่ CT ไม่เห็นเลือดแล้ว",
+  "C": "Contrast CT ธรรมดาไม่ใช่ CTA ไม่เห็น aneurysm ชัด และสารทึบรังสีอาจบดบังเลือด · จะถูกถ้าโจทย์ถาม CT ฉีดสีเพื่อหาก้อน/ฝีในสมอง ไม่ใช่ SAH",
+  "D": "ICP monitoring ใช้ในผู้ป่วย poor grade/hydrocephalus (มักใส่ EVD ทำหน้าที่วัดและระบาย) แต่ไม่ใช่การหาสาเหตุ · จะถูกถ้าโจทย์ถามการดูแลผู้ป่วย SAH ที่ซึมลงจาก acute hydrocephalus",
+  "E": "LP ใช้เมื่อสงสัย SAH แต่ <b>CT ลบ</b> (ดู xanthochromia หลัง 6–12 ชม.) — ข้อนี้ CT บวกแล้วจึงไม่จำเป็น (คีย์ลายมือ: E ถ้า CT −ve) · จะถูกถ้าโจทย์เป็น thunderclap headache ที่ CT ปกติ ทำหลัง 6 ชม.จากอาการ"
+ },
+ "trap": "ลำดับ: CT (ไว ~100% ใน 6 ชม.แรก) → ถ้าลบแต่สงสัย → LP → ถ้าบวก → angiography · อย่าเจาะ LP ซ้ำเมื่อ CT บวกแล้ว · thunderclap headache ('worst headache of life') + meningismus = SAH จนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
+ "summary": [
+  "SAH สาเหตุ: ruptured aneurysm ~85% (ACom > PCom > MCA), perimesencephalic ~10%, AVM, dissection",
+  "Grading: Hunt-Hess / WFNS · CT: modified Fisher (ทำนาย vasospasm)",
+  "Secure aneurysm เร็ว: endovascular coiling (ISAT) หรือ surgical clipping",
+  "Nimodipine 60 mg q4h × 21 วัน ป้องกัน delayed cerebral ischemia",
+  "ภาวะแทรกซ้อน: rebleeding (24 ชม.แรก), vasospasm (วันที่ 3–14), hydrocephalus, hyponatremia (SIADH/cerebral salt wasting), seizure"
+ ]
+},
+"MDCU66|RoA|43": {
+ "interp": "ถูกตีที่ขมับ สลบ 5 นาที → ตื่น → <b>3 ชม.ต่อมาซึมลง</b> (lucid interval) + <b>รูม่านตาข้างซ้าย (ข้างเดียวกับแผล) ขยายไม่ตอบสนอง</b> + decerebrate = ก้อนเลือดโตเร็วกด uncus → transtentorial herniation",
+ "why": "<b>Acute epidural hematoma (EDH)</b>: แรงกระแทกที่ temporal/frontotemporal ทำให้กะโหลกบริเวณ <b>pterion</b> แตกและฉีก <b>middle meningeal artery</b> (คีย์ลายมือ) → เลือดแดงสะสมระหว่างกะโหลกกับ dura โตเร็ว · Classic: สลบช่วงสั้น → <b>lucid interval</b> → ซึมลงอีกภายในชั่วโมง · ก้อนกด <b>uncus</b> ไปทับ <b>CN III ข้างเดียวกัน</b> (ipsilateral blown pupil — ซ้าย) และกด midbrain → decerebrate posturing (คีย์ลายมือ: midbrain, Lt CN III) · CT: <b>biconvex (lentiform) hyperdensity</b> ไม่ข้าม suture · รักษา: <b>emergency craniotomy + evacuation</b> (ข้อบ่งชี้ BTF: volume > 30 mL ไม่ว่า GCS, หรือ GCS < 9 + anisocoria) — ถ้าผ่าทันเวลาพยากรณ์ดีมาก",
+ "wrong": {
+  "A": "Chronic SDH เกิดหลังบาดเจ็บเล็กน้อยหลายสัปดาห์ในผู้สูงอายุ/ติดสุรา/กินยาต้านเลือด อาการค่อยเป็นค่อยไป (สับสน ปวดหัว อ่อนแรง) ไม่ใช่ภายใน 3 ชม. · จะถูกถ้าโจทย์เป็นผู้สูงอายุล้มเบา ๆ แล้วสับสนมากขึ้นใน 3–6 สัปดาห์ CT เห็น crescent hypodense",
+  "C": "Traumatic SAH พบได้บ่อยหลังบาดเจ็บแต่เลือดกระจายในร่องสมอง ไม่เป็นก้อนที่ทำให้เกิด herniation ข้างเดียวพร้อม lucid interval · จะถูกถ้าโจทย์เป็น thunderclap headache ไม่มีประวัติบาดเจ็บ หรือ CT เห็นเลือดใน sulci/basal cistern",
+  "D": "ICH จากบาดเจ็บ (contusion) มักไม่มี lucid interval ชัดและไม่สัมพันธ์กับกะโหลกแตกเหนือ middle meningeal artery · จะถูกถ้าผู้ป่วยความดันสูงมีอ่อนแรงครึ่งซีกเฉียบพลัน CT เห็นเลือดใน basal ganglia/thalamus",
+  "E": "IVH มักเกิดร่วมกับ ICH/SAH หรือทารกก่อนกำหนด ทำให้ hydrocephalus มากกว่ารูม่านตาข้างเดียวขยาย · จะถูกถ้าโจทย์เป็นทารกคลอดก่อนกำหนดน้ำหนักน้อยที่ซึม bulging fontanelle"
+ },
+ "trap": "Lucid interval พบแค่ราว 1/3 ของ EDH และพบใน SDH ได้ — ดูประกอบกับตำแหน่ง (temporal), ความเร็ว (ชม.) และ CT (biconvex) · รูม่านตาที่ขยายมักอยู่ <b>ข้างเดียวกับก้อน</b> ส่วนอ่อนแรงอยู่ฝั่งตรงข้าม (บางครั้งข้างเดียวกันจาก Kernohan notch phenomenon)",
+ "summary": [
+  "EDH: middle meningeal artery + กะโหลก temporal แตก · CT biconvex ไม่ข้าม suture line",
+  "Acute SDH: bridging veins · CT crescent ข้าม suture ได้ · มักมี brain injury ร่วม พยากรณ์แย่กว่า EDH",
+  "Uncal herniation: ipsilateral CN III palsy (pupil ขยาย) → contralateral hemiparesis → decerebrate → Cushing reflex",
+  "ผ่าตัด EDH เมื่อ > 30 mL, หนา > 15 mm, midline shift > 5 mm, หรือ GCS < 9 + anisocoria",
+  "ระหว่างรอผ่าตัด: ABC, หัวสูง 30°, hyperosmolar therapy (mannitol/hypertonic saline), hyperventilation ชั่วคราว"
+ ]
+},
+"MDCU66|RoA|X3": {
+ "interp": "ถามข้อห้ามทำ <b>LP</b> ใน hydrocephalus แต่ละแบบ — ต้องเลือกแบบ <b>obstructive (non-communicating)</b> ซึ่ง CSF ในโพรงสมองไม่เชื่อมกับช่องไขสันหลัง",
+ "why": "<b>Aqueductal stenosis</b> อุดทางเดิน CSF ที่ cerebral aqueduct (ระหว่าง 3rd–4th ventricle) = <b>obstructive hydrocephalus</b> (คีย์ลายมือ) → ความดันเหนือจุดอุดสูง ขณะที่ช่องไขสันหลังความดันต่ำกว่า การเจาะ LP ยิ่งเพิ่ม pressure gradient ระหว่างช่องเหนือและใต้ tentorium/foramen magnum → <b>herniation</b> (uncal/tonsillar) อันตรายถึงชีวิต จึงห้าม · ส่วน communicating hydrocephalus (meningitis, post-SAH, NPH) CSF เชื่อมถึงกันทั้งระบบ เจาะได้ และยังใช้วินิจฉัย/รักษาได้ · รักษา aqueductal stenosis ด้วย <b>endoscopic third ventriculostomy (ETV)</b> หรือ VP shunt",
+ "wrong": {
+  "A": "Communicating hydrocephalus มีปัญหาที่การดูดซึม CSF เชื่อมกันตลอด LP ทำได้ (บางครั้ง serial LP ใช้รักษาชั่วคราวในทารก post-hemorrhagic) · จะเป็นข้อห้ามถ้ามี coagulopathy/ติดเชื้อที่ตำแหน่งเจาะ",
+  "B": "Hydrocephalus หลัง SAH ระยะหลังเป็น communicating (เลือดอุด arachnoid granulation) ใส่ lumbar drain ได้ · จะเป็นข้อห้ามถ้าเป็นช่วงแรกที่ลิ่มเลือดอุดใน 4th ventricle/aqueduct (obstructive) — ต้องใช้ EVD",
+  "D": "Meningitis ทำให้เกิด communicating hydrocephalus และ LP จำเป็นเพื่อวินิจฉัยเชื้อ · จะเป็นข้อห้ามถ้า CT พบ abscess/empyema ที่มี mass effect หรือ obstructive pattern",
+  "E": "NPH เป็น communicating hydrocephalus ความดันปกติ ทำ large-volume tap test เพื่อทำนายผลการทำ shunt · จะเป็นข้อห้ามถ้า CT พบก้อน/ventricle อุดแทน"
+ },
+ "trap": "ข้อนี้ออกซ้ำหลายปี (ดู 66 RoA ข้อ 32) — จำหลัก: <b>obstructive = ห้าม LP</b> · คำว่า hydrocephalus ร่วมกับ meningitis/SAH/NPH ไม่ได้ห้าม LP เสมอไป",
+ "summary": [
+  "Obstructive: aqueductal stenosis, posterior fossa tumor, colloid cyst, Chiari II, Dandy-Walker, ลิ่มเลือดอุด",
+  "Communicating: meningitis, post-SAH/IVH ระยะหลัง, NPH, choroid plexus papilloma",
+  "CT แยก: obstructive → 4th ventricle ปกติ/เล็ก ส่วนเหนือจุดอุดโต · communicating → โตทั้ง 4 ventricle",
+  "ข้อห้าม LP อื่น: mass effect/midline shift, ICP สูงจากก้อน, coagulopathy, เกล็ดเลือด < 50,000, ติดเชื้อที่ผิวหนัง",
+  "Aqueductal stenosis → ETV (ไม่ต้องมีสายในตัว) หรือ VP shunt"
+ ]
+},
+"MDCU66|RoA|X4": {
+ "interp": "<b>Bitemporal hemianopia</b> = รอยโรคที่ <b>optic chiasm</b> (ใยประสาทจาก nasal retina ไขว้กัน) → ถามก้อนที่อยู่บริเวณ <b>sellar/suprasellar</b> (คีย์ลายมือ: sellar region)",
+ "why": "ก้อนใน sella ที่โตขึ้นด้านบน (suprasellar extension) จะกด optic chiasm จากด้านล่าง ทำลายใยประสาทจาก <b>nasal retina ทั้งสองข้าง</b> (ที่รับภาพลานสายตาด้าน temporal) → <b>bitemporal hemianopia</b> (เริ่มที่ superior temporal quadrant ก่อน) · <b>Prolactinoma</b> เป็น pituitary adenoma ที่พบบ่อยที่สุด macroadenoma (> 1 cm) กด chiasm ได้ + อาการ hyperprolactinemia (galactorrhea, amenorrhea, impotence, libido ลด) · รักษาด้วย <b>dopamine agonist (cabergoline)</b> เป็นอันดับแรกแม้มีลานสายตาผิดปกติ ก้อนมักยุบเร็ว · ก้อนอื่นที่ทำ bitemporal hemianopia: nonfunctioning adenoma, craniopharyngioma (เด็ก, calcified), suprasellar meningioma",
+ "wrong": {
+  "A": "Pinealoma กด tectal plate/superior colliculus → <b>Parinaud syndrome</b> (มองขึ้นไม่ได้, light-near dissociation, convergence-retraction nystagmus) + obstructive hydrocephalus จากกด aqueduct · จะถูกถ้าโจทย์ถามเด็กชายที่ upward gaze palsy + ปวดหัว",
+  "B": "Vestibular schwannoma อยู่ที่ cerebellopontine angle → unilateral sensorineural hearing loss, tinnitus, เวียนศีรษะ, CN V/VII · จะถูกถ้าโจทย์เป็นหูข้างเดียวดับค่อย ๆ หรือ bilateral ใน NF2",
+  "D": "Medulloblastoma เป็นก้อน posterior fossa (vermis) ในเด็ก → truncal ataxia + hydrocephalus (ปวดหัว อาเจียนตอนเช้า) ไม่กด chiasm · จะถูกถ้าโจทย์เป็นเด็กเดินเซ + อาการ ICP สูง",
+  "E": "Ganglioglioma ที่ frontal lobe ทำให้ชัก/บุคลิกเปลี่ยน ไม่เกี่ยวกับ visual pathway ส่วน chiasm · จะถูกถ้าโจทย์เป็นเด็ก/ผู้ใหญ่ตอนต้นมี chronic epilepsy ที่ดื้อยา (ganglioglioma ชอบอยู่ temporal lobe)"
+ },
+ "trap": "จำตำแหน่งรอยโรค → ลานสายตา: optic nerve = monocular blindness · <b>chiasm = bitemporal</b> · optic tract/LGN = contralateral homonymous hemianopia · Meyer's loop (temporal) = 'pie in the sky' · parietal = 'pie on the floor'",
+ "summary": [
+  "Pituitary adenoma: micro < 1 cm, macro ≥ 1 cm · prolactinoma พบบ่อยสุดใน functioning adenoma",
+  "Prolactinoma: cabergoline (first-line, รวม macroadenoma ที่กด chiasm) → ผ่าตัด transsphenoidal ถ้าไม่ตอบสนอง/แพ้ยา",
+  "Pituitary apoplexy: ปวดหัวฉับพลัน + ตามัว + ophthalmoplegia → steroid ด่วน ± decompression",
+  "Craniopharyngioma: เด็ก, calcified cystic suprasellar mass, bitemporal hemianopia + growth failure/DI",
+  "Pineal tumor → Parinaud syndrome · CPA tumor → hearing loss"
+ ]
+},
+"MDCU66|RoA|X5": {
+ "interp": "เลือดออกตำแหน่ง <b>medial ต่อ internal capsule ติดกับ 3rd ventricle</b> = ตำแหน่งของ <b>thalamus</b> (ต้องรู้ anatomy บน axial CT)",
+ "why": "บน axial CT ระดับ basal ganglia: <b>thalamus</b> อยู่ <b>medial ต่อ posterior limb of internal capsule</b> และเป็นผนังด้านข้างของ <b>3rd ventricle</b> · ส่วน putamen/globus pallidus (lentiform nucleus) อยู่ <b>lateral</b> ต่อ internal capsule · caudate head อยู่ข้าง frontal horn ของ lateral ventricle · Thalamic hemorrhage เป็น <b>hypertensive ICH</b> ที่พบบ่อยอันดับ 2 (รองจาก putamen) จาก lipohyalinosis/Charcot-Bouchard microaneurysm ของ thalamoperforating arteries · อาการ: hemisensory loss, hemiparesis (กด internal capsule), ตามองลงล่างและเข้าด้านใน ('peering at the nose'), ทะลุเข้า ventricle → IVH + hydrocephalus บ่อย · รักษา: คุม BP (เป้า SBP ~140), แก้ coagulopathy, EVD ถ้ามี hydrocephalus — ไม่ค่อยผ่าเอาก้อนออกเพราะอยู่ลึก",
+ "wrong": {
+  "B": "Basal ganglia (putamen) hemorrhage อยู่ <b>lateral</b> ต่อ internal capsule — ตำแหน่ง hypertensive ICH ที่พบบ่อยที่สุด อาการ hemiparesis, gaze deviation ไปข้างรอยโรค · จะถูกถ้าโจทย์บอกเลือดอยู่ lateral ต่อ internal capsule",
+  "C": "Caudate hemorrhage อยู่ข้าง frontal horn ของ lateral ventricle มักทะลุเข้า ventricle อาการคล้าย SAH (ปวดหัว คอแข็ง สับสน) · จะถูกถ้าโจทย์บอกเลือดติด frontal horn + IVH เด่น ต้องหา AVM/aneurysm ด้วย",
+  "D": "Lobar hemorrhage อยู่ที่ cortex/subcortical white matter มักมาจาก cerebral amyloid angiopathy (ผู้สูงอายุ), AVM, ก้อน · จะถูกถ้าโจทย์เป็นผู้สูงอายุ > 70 ปี เลือดออกบริเวณ lobar ซ้ำหลายครั้ง",
+  "E": "Pontine hemorrhage อยู่ที่ brainstem → โคม่าเร็ว, pinpoint pupils, quadriplegia, ไข้สูง · จะถูกถ้าโจทย์บอกโคม่าทันที + รูม่านตาเล็กมาก"
+ },
+ "trap": "ต้องจำว่า <b>internal capsule</b> เป็นเส้นแบ่ง: medial = thalamus (+caudate ด้านหน้า), lateral = putamen · ⚠ ไฟล์ไม่มีรูป CT — โจทย์จริงให้ดูภาพ จึงต้องอ่านตำแหน่งเองให้ได้",
+ "summary": [
+  "Hypertensive ICH: putamen (~35–50%) > thalamus (~10–15%) > lobar > cerebellum > pons",
+  "Cerebellar hemorrhage > 3 cm หรือกด brainstem/hydrocephalus → ผ่าตัด suboccipital decompression ด่วน",
+  "ICH: CTA หา spot sign/สาเหตุ · คุม SBP เป้า ~140 mmHg · reverse anticoagulant",
+  "ICH score: GCS, volume ≥ 30 mL, IVH, infratentorial, อายุ ≥ 80 — ทำนายอัตราตาย",
+  "Thalamic ICH + IVH + hydrocephalus → EVD"
+ ]
+},
+"MDCU66|RoA|X6": {
+ "why": "ตรวจทีละช้อย: (B) steroid ลด <b>vasogenic edema</b> (จาก blood–brain barrier รั่วรอบก้อน/metastasis) <b>ไม่ใช่ cytotoxic edema</b> (เซลล์บวมจากขาดเลือด เช่น stroke — steroid ไม่ช่วยและอาจแย่ลง) → ผิด · (C) ให้ <b>dexamethasone loading dose</b> (เช่น 10 mg IV) แล้วตามด้วย 4–16 mg/วัน แบ่งให้ แล้ว <b>taper</b> ลงเมื่อคุมอาการได้/หลังผ่าตัด ไม่ใช่เริ่มน้อยแล้วเพิ่ม → ผิด · (D) ใช้ได้และเป็นมาตรฐานในก้อนที่มีอาการจาก edema แม้มีผลข้างเคียง (hyperglycemia, ติดเชื้อ, myopathy, GI bleed) → ผิด · (E) จึงผิด · ⇒ <b>A ไม่มีข้อใดถูก</b> (ลายมือผู้จดแก้ B → vasogenic, C → loading dose ก่อน สอดคล้อง) · ไฟล์ไม่มีคีย์ชัด เฉลยโดย Claude ตาม ASCO-SNO-ASTRO 2019 guideline",
+ "wrong": {
+  "B": "ผิดเพราะ steroid ลด <b>vasogenic</b> ไม่ใช่ cytotoxic edema · ช้อยนี้จะถูกถ้าเปลี่ยนเป็น 'ลด vasogenic edema รอบ brain tumor/metastasis'",
+  "C": "ผิดเพราะเริ่มด้วย loading dose สูงก่อนแล้ว taper ลง (dexamethasone 10 mg IV → 4–16 mg/วัน) · จะถูกถ้าช้อยพูดถึงการ <b>หยุดยา</b> ซึ่งต้องค่อย ๆ ลดเพื่อเลี่ยง adrenal insufficiency/rebound edema",
+  "D": "ผิดเพราะ steroid เป็นมาตรฐานลดอาการจาก peritumoral edema และใช้ระยะสั้นค่อนข้างปลอดภัย · จะถูกบางส่วนถ้าสงสัย <b>primary CNS lymphoma</b> ซึ่งควรเลี่ยง steroid ก่อน biopsy (ก้อนยุบ วินิจฉัยไม่ได้) หรือก้อนไม่มีอาการ/ไม่มี edema",
+  "E": "ผิดเพราะ B, C, D ผิดทั้งหมด · จะถูกถ้าทุกช้อยเป็นข้อความจริง เช่น ลด vasogenic edema, ให้ loading แล้ว taper, ให้ PPI ร่วม"
+ },
+ "trap": "สับสน <b>vasogenic vs cytotoxic edema</b> บ่อยที่สุด — steroid ช่วย vasogenic (tumor, abscess) แต่ไม่ช่วย cytotoxic (ischemic stroke, TBI — CRASH trial พบ steroid ใน TBI เพิ่มอัตราตาย) · และอย่าให้ steroid ก่อน biopsy ถ้าสงสัย lymphoma",
+ "summary": [
+  "Dexamethasone เป็น steroid ที่ใช้ (mineralocorticoid ต่ำ, ผ่าน BBB ดี) · ออกฤทธิ์ภายในชั่วโมง ดีสุด 24–72 ชม.",
+  "ไม่มีอาการจาก edema → ไม่ต้องให้ steroid (ASCO-SNO-ASTRO 2019)",
+  "ให้ร่วม: PPI/H2 blocker, คุมน้ำตาล, พิจารณา PJP prophylaxis ถ้าใช้นาน",
+  "Steroid ห้าม/เลี่ยงใน TBI และ ischemic stroke",
+  "สงสัย CNS lymphoma → biopsy ก่อนให้ steroid"
+ ]
+},
+"MDCU66|RoA|X7": {
+ "interp": "ข้อความทั่วไปเรื่อง brain tumor — ประเด็นหลักคือ <b>กะโหลกเป็นพื้นที่ปิด (confined space)</b> ดังนั้นพฤติกรรมทางพยาธิวิทยา (benign/malignant) ไม่ได้ทำนายความอันตรายเสมอไป",
+ "why": "ตาม <b>Monro-Kellie doctrine</b> กะโหลกมีปริมาตรคงที่ (สมอง + เลือด + CSF) เมื่อมีก้อนเพิ่ม ร่างกายชดเชยได้จำกัดด้วยการเลื่อน CSF/เลือดดำออก พอเกินจุดชดเชย ICP จะพุ่งสูง → herniation และเสียชีวิตได้ ดังนั้น <b>benign tumor (เช่น meningioma, vestibular schwannoma, pituitary adenoma) ก็ทำให้ตายได้</b> ถ้าโตหรืออยู่ตำแหน่งสำคัญ (brainstem, ventricle อุด CSF) — ตรงกับคำตอบในไฟล์ (ขีด A) · ข้อความอื่นผิด: benign ที่มีอาการต้องผ่าตัด, primary brain tumor แทบไม่แพร่นอก CNS, ผู้ใหญ่ส่วนใหญ่เป็นก้อน supratentorial, metastasis พบบ่อยที่สุดในผู้ใหญ่",
+ "wrong": {
+  "B": "ผิด — benign tumor ที่มีอาการ โตขึ้น หรือกดโครงสร้างสำคัญต้องผ่าตัด (เช่น meningioma ที่ทำชัก/อ่อนแรง) · จะถูกถ้าแก้เป็น 'benign tumor ขนาดเล็กไม่มีอาการ (เช่น incidental meningioma) ติดตามด้วย MRI ได้'",
+  "C": "ผิด — primary brain tumor แพร่นอกกะโหลกน้อยมาก (ไม่มีระบบน้ำเหลืองในสมอง) ส่วนใหญ่ลามในที่ หรือผ่าน CSF (drop metastasis เช่น medulloblastoma, ependymoma) · จะถูกถ้าพูดถึงการแพร่ไปตามน้ำไขสันหลัง หรือหลังทำ VP shunt",
+  "D": "ผิด — ผู้ใหญ่ ~70% เป็น <b>supratentorial</b> ส่วนเด็ก (โดยเฉพาะ 4–11 ปี) ส่วนใหญ่เป็น infratentorial (medulloblastoma, pilocytic astrocytoma, ependymoma) · จะถูกถ้าช้อยพูดถึงเด็ก",
+  "E": "ผิด — brain metastasis เป็น intracranial tumor ที่พบบ่อยที่สุดในผู้ใหญ่ (จาก lung > breast > melanoma > RCC > colon) · จะถูกถ้าแก้เป็น 'metastasis พบน้อยในเด็ก'"
+ },
+ "trap": "อย่าเทียบ 'benign = ไม่อันตราย' แบบอวัยวะอื่น — ในสมอง <b>ตำแหน่ง</b> สำคัญพอ ๆ กับ histology · และอย่าลืมว่า intracranial tumor ที่พบบ่อยสุดในผู้ใหญ่คือ metastasis ไม่ใช่ glioblastoma",
+ "summary": [
+  "Monro-Kellie: ปริมาตรสมอง + เลือด + CSF คงที่ → ก้อนเล็ก ๆ ที่โตเร็วหรืออุด CSF ทำ ICP สูงได้",
+  "อาการ ICP สูง: ปวดหัวตอนเช้า, อาเจียน, papilledema, CN VI palsy, Cushing triad (late)",
+  "ผู้ใหญ่: metastasis > meningioma > glioblastoma (primary malignant ที่พบบ่อยสุด) · ส่วนใหญ่ supratentorial",
+  "เด็ก: pilocytic astrocytoma, medulloblastoma, ependymoma, craniopharyngioma · ส่วนใหญ่ infratentorial",
+  "Metastasis ที่สมอง: lung > breast > melanoma > RCC > colorectal · มักอยู่ grey-white junction หลายก้อน"
+ ]
+},
+"MDCU66|RoA|47": {
+ "why": "ก้อนในท้อง (abdominal mass) ใน<b>ทารกแรกเกิด</b> ส่วนใหญ่ (~2/3) มาจาก<b>ไต</b> และที่พบบ่อยที่สุดคือ <b>hydronephrosis</b> โดยสาเหตุหลักคือ <b>UPJ obstruction</b> (คีย์ลายมือ) — คลำได้ก้อนนุ่ม ผิวเรียบ ใต้ชายโครง ส่องไฟผ่านได้ อันดับ 2 คือ <b>multicystic dysplastic kidney (MCDK)</b> · ปัจจุบันส่วนใหญ่ตรวจพบตั้งแต่ antenatal US · ตรวจด้วย US → VCUG → MAG3 diuretic renogram · ส่วน neuroblastoma และ Wilms tumor เป็นก้อนของเด็กโตกว่า (neuroblastoma อายุ < 2 ปี, Wilms 2–5 ปี) พบน้อยในทารกแรกเกิด",
+ "wrong": {
+  "A": "Neuroblastoma เป็นก้อนมะเร็งในท้องที่พบบ่อยที่สุดในเด็ก < 1–2 ปี (เกิดจาก adrenal) ก้อนแข็งขรุขระข้ามเส้นกลาง มี calcification, catecholamine สูง แต่ในทารกแรกเกิดพบน้อยกว่า hydronephrosis · จะถูกถ้าโจทย์เป็นเด็ก 1–2 ปี ก้อนแข็งข้าม midline + raccoon eyes, opsoclonus-myoclonus",
+  "B": "Nephroblastoma (Wilms) พบอายุ 2–5 ปี ก้อนเรียบไม่ข้าม midline ผู้ปกครองคลำพบตอนอาบน้ำ ± hematuria, HT · จะถูกถ้าโจทย์เป็นเด็ก 3 ปี ก้อนในท้องข้างเดียวไม่ข้ามเส้นกลาง สุขภาพดี",
+  "D": "Polycystic kidney (ARPKD) ทำให้ไต<b>ทั้งสองข้าง</b>โตมาก + oligohydramnios/pulmonary hypoplasia + liver fibrosis · ก้อนข้างเดียวนึกถึง MCDK มากกว่า · จะถูกถ้าโจทย์บอกไตโตสองข้าง ทารกหายใจลำบากหลังคลอด",
+  "E": "Duplication cyst ของไต/ทางเดินอาหารพบน้อย · จะถูกถ้า US พบ cyst ผนังมีชั้นกล้ามเนื้อ/mucosa ติดลำไส้ (gut signature) ในทารกที่ปวดท้อง/อาเจียน"
+ },
+ "trap": "ทารกแรกเกิด = <b>hydronephrosis/MCDK</b> (ไม่ใช่มะเร็ง) · เด็กโตกว่า = neuroblastoma (< 2 ปี) และ Wilms (2–5 ปี) — อายุเป็นคำใบ้หลัก · MCDK ไม่มีหน้าที่ ส่วนใหญ่ฝ่อเอง",
+ "summary": [
+  "Neonatal abdominal mass: renal (~2/3) → hydronephrosis > MCDK > ARPKD · non-renal: ovarian cyst, mesenteric cyst, neuroblastoma",
+  "UPJ obstruction: ซ้ายบ่อยกว่าขวา, ชายบ่อยกว่าหญิง · รักษา pyeloplasty เมื่อ function < 40% หรือแย่ลง",
+  "MCDK: ไม่มีหน้าที่ ซีสต์ไม่ต่อกัน · ติดตาม US ส่วนใหญ่ฝ่อเอง · ระวัง VUR ข้างตรงข้าม",
+  "Neuroblastoma vs Wilms: NB ข้าม midline, calcification, encase หลอดเลือด, VMA/HVA สูง · Wilms ไม่ข้าม, ดันหลอดเลือด, claw sign",
+  "ห้ามคลำ Wilms tumor ซ้ำ ๆ แรง (เสี่ยงก้อนแตก upstage)"
+ ]
+},
+"MDCU66|RoA|55": {
+ "interp": "ข้อ <b>NOT</b> — ถามสิ่งที่ <b>ไม่ใช่</b> ภาวะแทรกซ้อนระยะยาวหลัง Kasai (hepatoportoenterostomy) ใน biliary atresia",
+ "wrong": {
+  "A": "Intrahepatic biliary cysts (bile lakes) เกิดได้หลัง Kasai จากท่อน้ำดีในตับขยายเป็นถุง ทำให้ cholangitis ซ้ำ ๆ → จึงเป็น complication จริง · จะเป็นคำตอบถ้าโจทย์ถามภาวะที่ไม่เกี่ยวกับ biliary atresia เช่น choledochal cyst ก่อนผ่าตัด",
+  "B": "Esophageal varices เป็นผลจาก portal hypertension ที่เกิดจาก fibrosis ของตับซึ่งดำเนินต่อแม้ Kasai สำเร็จ เลือดออกได้ → complication จริง · จะเป็นคำตอบถ้าโจทย์ถามสิ่งที่ป้องกันได้ด้วย Kasai ครบถ้วน (ซึ่งไม่ใช่)",
+  "C": "Portal hypertension พบในผู้ป่วยหลัง Kasai มากกว่าครึ่ง (splenomegaly, hypersplenism, varices) → complication จริง · จะเป็นคำตอบถ้าโจทย์ถามภาวะแทรกซ้อนระยะแรกหลังผ่าตัด (ระยะแรกคือ cholangitis)",
+  "D": "Chronic liver disease/biliary cirrhosis ดำเนินต่อในผู้ป่วยส่วนใหญ่ จนต้องเปลี่ยนตับในที่สุด (~50% ภายใน 2 ปี, ~70–80% ก่อนเป็นผู้ใหญ่) → complication จริง · จะเป็นคำตอบถ้าโจทย์ถามภาวะที่เกิดเฉพาะเมื่อ Kasai ล้มเหลวเท่านั้น"
+ },
+ "summary": [
+  "Biliary atresia: ทารก 2–8 สัปดาห์ ตัวเหลือง (direct bilirubin สูง) อุจจาระซีด ปัสสาวะเข้ม ตับโต",
+  "Workup: fractionated bilirubin → US (triangular cord sign, gallbladder เล็ก/ไม่มี) → HIDA (มีเข้าไม่มีออก) → liver biopsy → intraoperative cholangiogram",
+  "Kasai ได้ผลดีที่สุดถ้าทำก่อนอายุ 60 วัน",
+  "Complication หลัง Kasai: <b>cholangitis</b> (พบบ่อยสุด ระยะแรก), portal hypertension/varices, intrahepatic bile lakes, fat-soluble vitamin deficiency, hepatopulmonary syndrome/portopulmonary HT, cirrhosis",
+  "Biliary atresia เป็น indication ของการเปลี่ยนตับในเด็กที่พบบ่อยที่สุด",
+  "Hepatoblastoma สัมพันธ์กับ prematurity/น้ำหนักแรกเกิดน้อยมาก, Beckwith-Wiedemann, FAP — ไม่ใช่ complication ของ Kasai (HCC เกิดได้น้อยในตับแข็งระยะยาว)"
+ ]
+},
+"MDCU66|RoA|58": {
+ "interp": "ทารกอายุ <b>3–4 สัปดาห์</b> อาเจียน <b>พุ่ง</b> หลังกินนม <b>ไม่มีน้ำดี</b> (นมขาว) + คลำได้ <b>ก้อนเล็ก ๆ ใต้ชายโครงขวา (olive)</b> = คำใบ้ครบของ hypertrophic pyloric stenosis",
+ "why": "<b>Hypertrophic pyloric stenosis (HPS)</b>: กล้ามเนื้อ pylorus หนาตัวขึ้นหลังคลอด อุดทางออกกระเพาะ (ก่อน ampulla of Vater) → อาเจียน<b>พุ่ง ไม่มีน้ำดี</b> หลังกินนม ทารกยังหิวอยากกินต่อ · พบอายุ <b>2–8 สัปดาห์ (peak 3–5 สัปดาห์</b> — คีย์ลายมือ), ชาย > หญิง, ลูกคนแรก, ใช้ erythromycin ช่วงแรกเกิด · ตรวจ: คลำ <b>olive-shaped mass</b> ที่ epigastrium/RUQ, visible peristalsis · <b>US</b>: pyloric muscle หนา ≥ 3–4 mm, ยาว ≥ 15–17 mm · lab: <b>hypochloremic hypokalemic metabolic alkalosis</b> (paradoxical aciduria) · รักษา: <b>แก้น้ำ/electrolyte ก่อน</b> (ไม่ใช่การผ่าตัดฉุกเฉิน) จน Cl ≥ 100, HCO3 < 30 แล้ว <b>Ramstedt pyloromyotomy</b> (open/laparoscopic)",
+ "wrong": {
+  "A": "Cow milk protein allergy ทำให้อาเจียน/แหวะ ท้องเสีย มูกเลือดในอุจจาระ ผื่น น้ำหนักขึ้นไม่ดี แต่ไม่พุ่งแรงและไม่มีก้อน · จะถูกถ้าโจทย์เป็นทารกกินนมวัวมีถ่ายมูกเลือด ผื่นผิวหนัง อาการดีขึ้นเมื่องดนมวัว",
+  "B": "Overfeeding ทำให้แหวะ/อาเจียนไม่แรง น้ำหนักขึ้นดีหรือมากเกิน ไม่มีก้อน ไม่มี electrolyte ผิดปกติ · จะถูกถ้าโจทย์บอกปริมาณนมเกินความต้องการ เด็กน้ำหนักขึ้นเกินเกณฑ์",
+  "C": "Choledochal cyst ทำให้ triad: ปวดท้อง ตัวเหลือง ก้อนที่ RUQ (ก้อนใหญ่กว่า) ไม่ใช่อาเจียนพุ่งหลังกินนม · จะถูกถ้าโจทย์เป็นเด็กเหลือง + ก้อน RUQ + อุจจาระซีดเป็นช่วง ๆ US เห็น cyst ของท่อน้ำดี",
+  "D": "Duodenal atresia อาเจียนตั้งแต่ <b>วันแรก</b> หลังคลอด และส่วนใหญ่มี<b>น้ำดี</b> (อุดใต้ ampulla) + double bubble sign, สัมพันธ์ Down syndrome · จะถูกถ้าโจทย์เป็นทารกแรกเกิดอาเจียนเขียววันแรก มารดามี polyhydramnios"
+ },
+ "trap": "HPS <b>ไม่ใช่</b> surgical emergency — ต้องแก้ dehydration + metabolic alkalosis ก่อนดมยา (alkalosis ทำให้หยุดหายใจหลังผ่าตัด) · อาเจียนมีน้ำดี = อุดใต้ ampulla → นึกถึง malrotation/atresia ไม่ใช่ HPS",
+ "summary": [
+  "HPS: อายุ 2–8 สัปดาห์, ชาย 4:1, ลูกคนแรก, erythromycin/azithromycin ช่วงแรกเกิดเพิ่มความเสี่ยง",
+  "Lab: hypochloremic hypokalemic metabolic alkalosis + paradoxical aciduria",
+  "US: muscle thickness ≥ 3–4 mm, channel length ≥ 15–17 mm (target sign)",
+  "Resuscitate: NSS bolus → D5 ½NSS + KCl (หลังปัสสาวะออก) จน Cl ≥ 100, HCO3 < 30",
+  "Ramstedt pyloromyotomy · ภาวะแทรกซ้อน: mucosal perforation, incomplete myotomy"
+ ]
+},
+"MDCU66|RoA|60": {
+ "wrong": {
+  "A": "Pyloric stenosis อาเจียน<b>ไม่มีน้ำดี</b> (อุดเหนือ ampulla) อายุ 2–8 สัปดาห์ ค่อยเป็นค่อยไปไม่ฉับพลัน · จะถูกถ้าโจทย์เป็นทารก 3–5 สัปดาห์ อาเจียนพุ่งนมขาวหลังกิน คลำได้ olive",
+  "B": "Duodenal atresia อาการเริ่มตั้งแต่วันแรกหลังคลอด ไม่ใช่ทารก 3 เดือนที่ปกติมาก่อน · จะถูกถ้าโจทย์เป็นทารกแรกเกิดอาเจียนเขียว + double bubble + Down syndrome",
+  "C": "Intussusception พบ 3 เดือน–3 ปี (คีย์เดิมตอบ C) แต่อาการเด่นคือปวดท้องเป็นพัก ๆ ร้องกวน ชันเข่า ถ่ายมูกเลือด (currant jelly) อาเจียนช่วงแรกเป็นอาหาร มีน้ำดีเมื่ออุดนาน · จะถูกถ้าโจทย์มี colicky pain, sausage-shaped mass, currant jelly stool",
+  "D": "NEC พบในทารก<b>คลอดก่อนกำหนด</b> ช่วง 2–3 สัปดาห์แรกหลังเริ่มกินนม ท้องอืด ถ่ายเป็นเลือด pneumatosis intestinalis · จะถูกถ้าโจทย์เป็น preterm ใน NICU ท้องอืด feeding intolerance + bloody stool"
+ },
+ "summary": [
+  "<b>Bilious vomiting ในทารก = malrotation with midgut volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> (ลำไส้ทั้ง midgut ขาดเลือดได้ในไม่กี่ชั่วโมง)",
+  "Malrotation: ~75% แสดงอาการในเดือนแรก แต่เกิดได้ทุกอายุ",
+  "Investigation: <b>UGI contrast study</b> (gold standard) — DJ flexure อยู่ขวาของ midline/ต่ำกว่า pylorus, corkscrew sign · US: whirlpool sign, SMV อยู่ซ้ายของ SMA",
+  "Unstable/peritonitis → ผ่าตัดทันทีไม่ต้องรอ imaging",
+  "Ladd procedure: detorsion (ทวนเข็มนาฬิกา), แบ่ง Ladd bands, ขยาย mesentery, appendectomy, วาง small bowel ขวา colon ซ้าย",
+  "⚠ คีย์เดิมตอบ C (intussusception) แต่ทารกที่สบายดีมาด้วยอาเจียนมีน้ำดีฉับพลันต้องตอบ volvulus (สอดคล้องคีย์ปี 67 ข้อคล้ายกัน)"
+ ]
+},
+"MDCU66|RoA|X8": {
+ "interp": "เด็กมี <b>รูเปิดที่ผิวหนังข้างคอ มีมูกไหลออก</b> — มีรูเปิด = sinus/fistula (ไม่ใช่ cyst ที่เป็นก้อนปิด) + ข้างคอส่วนล่างหน้าต่อ SCM = second branchial cleft",
+ "why": "<b>Branchial cleft anomalies</b> เกิดจาก branchial apparatus ปิดไม่สมบูรณ์ · ชนิดที่พบบ่อยที่สุด (~90–95%) คือ <b>second branchial cleft</b> · แบ่งตามรูปแบบ: <b>cyst</b> = ไม่มีรูเปิด เป็นก้อนนุ่มที่ขอบหน้า SCM (มักแสดงในเด็กโต/ผู้ใหญ่หลังติดเชื้อทางเดินหายใจ) · <b>sinus</b> = มีรูเปิดทางเดียวที่ผิวหนัง (คีย์ลายมือ: sinus) · <b>fistula</b> = ต่อทั้งผิวหนังและ tonsillar fossa · รูเปิดของ 2nd cleft sinus อยู่ <b>ขอบหน้า SCM ช่วงล่าง 1/3</b> มีมูก/น้ำไหลออกตั้งแต่เด็ก · ทางเดินผ่าน<b>ระหว่าง internal และ external carotid</b> เหนือ CN XII ไปเปิดที่ tonsillar fossa · รักษา: <b>ผ่าตัดเอาทางเดิน (tract) ออกทั้งหมด</b> (stepladder incision) ช่วงที่ไม่อักเสบ ถ้าติดเชื้อให้ยาก่อน",
+ "wrong": {
+  "A": "First branchial cleft cyst อยู่ใกล้หู (preauricular/รอบ parotid, angle of mandible) สัมพันธ์กับ facial nerve และ external auditory canal ไม่มีรูเปิดที่คอ · จะถูกถ้าโจทย์เป็นก้อนหน้าใบหู/ใต้ติ่งหู ติดเชื้อซ้ำ ๆ",
+  "B": "First branchial cleft sinus เปิดบริเวณใต้มุมขากรรไกร/ใกล้หู หรือในช่องหู มีหนองไหลจากหู · จะถูกถ้าโจทย์บอกรูเปิดอยู่เหนือ hyoid ใต้มุมขากรรไกร และมี otorrhea",
+  "C": "Second branchial cleft cyst เป็นก้อนนุ่มขอบหน้า SCM <b>ไม่มีรูเปิด</b> ไม่มีมูกไหลที่ผิว · จะถูกถ้าโจทย์เป็นผู้ใหญ่ตอนต้นมีก้อนข้างคอโตขึ้นหลังเป็นหวัด",
+  "E": "Thyroglossal duct cyst อยู่<b>กลางคอ</b> ใกล้ hyoid <b>เลื่อนขึ้นเมื่อแลบลิ้น/กลืน</b> · จะถูกถ้าโจทย์เป็นก้อนกลางคอเคลื่อนตามการแลบลิ้น รักษาด้วย Sistrunk operation (ตัด hyoid กลางออกด้วย)"
+ },
+ "trap": "แยก <b>cyst (ไม่มีรู) / sinus (รูเดียว) / fistula (2 รู)</b> · และแยกตำแหน่ง: กลางคอ = thyroglossal / ข้างคอหน้า SCM = 2nd branchial / ใกล้หู = 1st branchial / ฐานคอซ้ายต่ำ = 3rd–4th (pyriform sinus, thyroiditis ซ้ำ)",
+ "summary": [
+  "2nd branchial cleft พบบ่อยที่สุด · รูเปิดขอบหน้า SCM ล่าง 1/3 · tract ผ่านระหว่าง ICA–ECA ไปเปิดที่ tonsillar fossa",
+  "1st cleft: ใกล้หู/parotid สัมพันธ์ facial nerve",
+  "3rd/4th: เปิดที่ pyriform sinus, abscess/suppurative thyroiditis ข้างซ้ายซ้ำ ๆ",
+  "รักษา: ผ่าตัดเอา tract ออกครบเมื่อไม่อักเสบ (ทำ I&D ซ้ำ ๆ ทำให้เป็นพังผืดผ่ายาก)",
+  "Thyroglossal duct cyst: กลางคอ เลื่อนตามลิ้น → Sistrunk procedure"
+ ]
+},
+"MDCU66|RoA|X9": {
+ "why": "ทารก 6 สัปดาห์ ตัวเหลือง + <b>อุจจาระซีด (acholic)</b> + ปัสสาวะเข้ม + ตับโต → สงสัย <b>cholestasis</b> (โดยเฉพาะ biliary atresia) · ขั้นแรกคือยืนยันว่าเป็น <b>conjugated (direct) hyperbilirubinemia</b> ด้วย <b>LFT/fractionated bilirubin</b> (direct > 1 mg/dL หรือ > 20% ของ total) พร้อม <b>US ตับและทางเดินน้ำดี</b> (คีย์ลายมือ: with US liver) — US ดู gallbladder เล็ก/ไม่มี, triangular cord sign, ตัด choledochal cyst · จากนั้น HIDA scan, liver biopsy และยืนยันด้วย intraoperative cholangiogram แล้วทำ <b>Kasai</b> ให้เร็วที่สุด (ก่อน 60 วัน) · ตามแนวทาง NASPGHAN: ทารกที่เหลืองเกิน 2 สัปดาห์ (ครบกำหนด) ต้องตรวจ fractionated bilirubin",
+ "wrong": {
+  "B": "Hepatobiliary scintigraphy (HIDA) ดูการขับสารออกสู่ลำไส้ ถ้าไม่ออกช่วยสนับสนุน biliary atresia แต่ไวสูงจำเพาะต่ำ และทำหลังยืนยัน conjugated hyperbilirubinemia และ US แล้ว · จะถูกถ้าโจทย์ถามการตรวจต่อหลัง US ที่ไม่ชัดเจน (มักให้ phenobarbital 3–5 วันก่อน)",
+  "C": "Doppler US ใช้ดู portal vein/hepatic artery (เช่นหลังเปลี่ยนตับหรือ portal hypertension) ไม่ใช่ขั้นแรกของ cholestasis · จะถูกถ้าโจทย์เป็นหลัง Kasai มีม้ามโต สงสัย portal hypertension หรือ portal vein thrombosis",
+  "D": "Liver biopsy มีความแม่นยำสูง (bile duct proliferation, bile plugs, portal fibrosis) แต่รุกล้ำ ทำหลังตรวจเลือดและภาพแล้ว · จะถูกถ้าโจทย์ถามการตรวจที่ช่วยวินิจฉัยได้แม่นยำที่สุดก่อนผ่าตัด",
+  "E": "MRCP ในทารกต้องดมยา และเห็นท่อน้ำดีเล็กมากได้ไม่ชัด ไม่ใช่มาตรฐาน · จะถูกถ้าโจทย์เป็นเด็กโต/ผู้ใหญ่ที่สงสัย choledochal cyst หรือนิ่วในท่อน้ำดี"
+ },
+ "trap": "อุจจาระซีด + ปัสสาวะเข้มในทารก = <b>direct</b> hyperbilirubinemia ซึ่ง<b>ไม่ใช่</b> breast milk jaundice/physiologic jaundice (indirect) · อย่ารอนานเพราะผล Kasai แย่ลงเรื่อย ๆ หลัง 60 วัน",
+ "summary": [
+  "ทารกเหลือง > 2 สัปดาห์ (ครบกำหนด) หรือ > 3 สัปดาห์ (กินนมแม่) → ตรวจ fractionated bilirubin",
+  "Direct > 1 mg/dL = cholestasis → US → HIDA → biopsy → intraoperative cholangiogram",
+  "สาเหตุ neonatal cholestasis: biliary atresia (สำคัญสุด), neonatal hepatitis, Alagille, α1-antitrypsin deficiency, PFIC, TPN, sepsis, hypothyroidism, galactosemia",
+  "Biliary atresia: Kasai ก่อน 60 วันให้ผลดีที่สุด",
+  "Stool color card ช่วยคัดกรองโดยผู้ปกครอง"
+ ]
+}
+}

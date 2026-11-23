@@ -1,0 +1,54 @@
+{
+ "MDCU66|RoB|39": {
+  "interp": "อุบัติเหตุใบหน้า + <b>เลือดออกมากทางปากและจมูก</b> + ความดันต่ำ → ถามสิ่งที่ต้องทำ<b>ก่อน</b> ตามลำดับ ATLS (A ก่อน C) แม้จะช็อกอยู่",
+  "why": "Maxillofacial trauma ที่มี <b>massive oronasal bleeding</b> เสี่ยงสำลักเลือดและ airway อุด (ร่วมกับกระดูกใบหน้าแตกทำให้ลิ้น/เพดานเลื่อนไปด้านหลัง) → ตาม <b>ATLS: Airway with C-spine protection มาก่อน</b> → ต้อง <b>secure airway ด้วย endotracheal intubation</b> (RSI, orotracheal; ห้าม nasotracheal ในสงสัย basal skull fracture/midface fracture) ถ้าใส่ไม่ได้ → surgical airway (cricothyroidotomy) · ตามด้วย circulation: IV fluid/เลือด, หยุดเลือดด้วย <b>anterior + posterior nasal packing</b> (Foley balloon), bite block/reduction ของ fracture ชั่วคราว และถ้ายังไม่หยุด → <b>angioembolization</b> (internal maxillary artery) หรือ ligation (สไลด์ emergency treatment facial fracture)",
+  "wrong": {
+   "A": "IV fluid จำเป็นเพราะช็อก แต่เป็นขั้น C ทำหลัง/พร้อมกับการ secure airway — ถ้า airway อุดด้วยเลือด ผู้ป่วยตายจาก hypoxia ก่อนช็อก · จะถูกถ้าโจทย์บอก airway ปลอดภัยแล้ว (ใส่ท่อแล้ว) และถามขั้นต่อไป",
+   "C": "Oxygen mask ไม่ปกป้อง airway จากการสำลักเลือด และเลือดจะอุดหน้ากาก · จะถูกถ้าผู้ป่วยรู้สึกตัวดี พูดได้ ไม่มีเลือดในทางเดินหายใจ และ airway patent",
+   "D": "Anterior nasal packing ช่วยหยุดเลือดจาก anterior septum แต่ massive bleeding จาก midface fracture มักมาจาก posterior (internal maxillary artery) ต้อง posterior pack ด้วย และทำหลัง secure airway · จะถูกถ้าเป็น anterior epistaxis (Kiesselbach plexus) ที่ airway ปกติ",
+   "E": "การผ่าตัดหยุดเลือดเป็นขั้นท้าย ๆ หลัง airway, resuscitation, packing และพิจารณา angioembolization · จะถูกถ้า packing + embolization ล้มเหลว หรือมีการบาดเจ็บอื่นที่ต้องผ่าตัดด่วน"
+  },
+  "trap": "เห็น hypotension แล้วรีบให้น้ำเกลือก่อน = ผิดลำดับ · ATLS: <b>A → B → C</b> เสมอ (ยกเว้น catastrophic external hemorrhage ในแขนขาที่ใช้ tourniquet ได้) · ห้าม nasotracheal intubation/NG tube ใน midface/basal skull fracture",
+  "summary": [
+   "Facial trauma emergency: airway (เลือด, ฟัน, ลิ้นตก, bilateral mandible fracture) และ hemorrhage",
+   "Airway: chin lift/jaw thrust, suction, RSI orotracheal intubation, cricothyroidotomy ถ้าใส่ไม่ได้",
+   "Hemorrhage: anterior + posterior packing (Foley catheter) → angioembolization ของ internal maxillary a.",
+   "Le Fort I/II/III: maxilla เคลื่อนได้ · Le Fort II/III เสี่ยง CSF rhinorrhea",
+   "ตรวจ C-spine เสมอใน facial trauma ที่รุนแรง"
+  ]
+ },
+ "MDCU66|RoB|5": {
+  "wrong": {
+   "A": "Pyloric stenosis อาเจียน<b>ไม่มีน้ำดี</b> (อุดเหนือ ampulla) อายุ 2–8 สัปดาห์ ค่อยเป็นค่อยไปไม่ฉับพลัน · จะถูกถ้าโจทย์เป็นทารก 3–5 สัปดาห์ อาเจียนพุ่งนมขาวหลังกิน คลำได้ olive",
+   "B": "Duodenal atresia อาการเริ่มตั้งแต่วันแรกหลังคลอด ไม่ใช่ทารก 3 เดือนที่ปกติมาก่อน · จะถูกถ้าโจทย์เป็นทารกแรกเกิดอาเจียนเขียว + double bubble + Down syndrome",
+   "C": "Intussusception พบ 3 เดือน–3 ปี (คีย์เดิมตอบ C) แต่อาการเด่นคือปวดท้องเป็นพัก ๆ ร้องกวน ชันเข่า ถ่ายมูกเลือด (currant jelly) อาเจียนช่วงแรกเป็นอาหาร มีน้ำดีเมื่ออุดนาน · จะถูกถ้าโจทย์มี colicky pain, sausage-shaped mass, currant jelly stool",
+   "E": "TE fistula (ชนิด C พบบ่อยสุด) แสดงตั้งแต่แรกเกิด: น้ำลายมาก ไอสำลัก เขียวเวลาดูดนม ใส่สาย OG ไม่ลง ไม่ใช่อาเจียนน้ำดีฉับพลันในทารก 3 เดือน · จะถูกถ้าเป็น H-type TEF ที่สำลักนม/ปอดอักเสบซ้ำ ๆ ในทารกโต"
+  },
+  "summary": [
+   "<b>Bilious vomiting ในทารก = malrotation with midgut volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> (ลำไส้ทั้ง midgut ขาดเลือดได้ในไม่กี่ชั่วโมง)",
+   "Malrotation: ~75% แสดงอาการในเดือนแรก แต่เกิดได้ทุกอายุ",
+   "Investigation: <b>UGI contrast study</b> (gold standard) — DJ flexure อยู่ขวาของ midline/ต่ำกว่า pylorus, corkscrew sign · US: whirlpool sign, SMV อยู่ซ้ายของ SMA",
+   "Unstable/peritonitis → ผ่าตัดทันทีไม่ต้องรอ imaging",
+   "Ladd procedure: detorsion (ทวนเข็มนาฬิกา), แบ่ง Ladd bands, ขยาย mesentery, appendectomy, วาง small bowel ขวา colon ซ้าย",
+   "⚠ คีย์เดิมขีด 3 (intussusception, peak 3–8 เดือน) แต่ทารกปกติมาก่อนที่อาเจียนมีน้ำดีฉับพลันต้องตอบ malrotation with midgut volvulus"
+  ]
+ },
+ "MDCU66|RoB|70": {
+  "why": "หญิงวัยกลางคนที่มี <b>MR รุนแรง + MS เล็กน้อย</b> (mixed mitral valve disease) = ลักษณะของ <b>rheumatic heart disease</b> (คีย์ลายมือ: rheumatic → replacement) — ลิ้นหนา หดรั้ง commissure เชื่อม chordae สั้นหนา จึง <b>ซ่อม (repair) ได้ยาก ผลระยะยาวไม่ดี</b> ต่างจาก degenerative MR (prolapse) ที่ repair ได้ดี → ทำ <b>mitral valve replacement (MVR)</b> · มี symptom (FC III) ชัดเจนจึงต้องผ่าตัด · <b>Severe TR</b> ส่วนใหญ่เป็น <b>functional</b> (annulus ขยายจาก pulmonary hypertension/RV dilatation) → ทำ <b>tricuspid annuloplasty (repair)</b> ร่วมด้วยขณะผ่าตัด left-sided valve (ACC/AHA 2020: Class I สำหรับ severe TR) — repair ดีกว่า replace เพราะ tricuspid prosthesis เสี่ยง thrombosis และ heart block",
+  "wrong": {
+   "A": "ยา (diuretic, rate control) บรรเทาอาการได้แต่ไม่แก้ลิ้นรั่วรุนแรงที่มีอาการ FC III โรคดำเนินต่อจน LV/RV เสื่อม · จะถูกถ้าโจทย์เป็นผู้ป่วยไม่มีอาการ LV ยังปกติ หรือเสี่ยงผ่าตัดสูงมาก",
+   "B": "Balloon valvotomy (PBMV) <b>ห้าม</b>เมื่อมี MR ≥ moderate เพราะขยายแล้ว MR ยิ่งรุนแรง และใช้รักษา MS เด่นเท่านั้น · จะถูกถ้าเป็น severe MS ที่ MR ≤ mild, ไม่มี LA thrombus, Wilkins ≤ 8",
+   "C": "Replace tricuspid ด้วยไม่จำเป็นในกรณี functional TR ที่ annulus ขยาย — repair (ring annuloplasty) ได้ผลดี ภาวะแทรกซ้อนน้อยกว่า · จะถูกถ้า tricuspid เป็น <b>organic disease</b> ลิ้นเสียหายรุนแรง (rheumatic TV, endocarditis ทำลายลิ้น, carcinoid) ที่ซ่อมไม่ได้",
+   "E": "Repair mitral ในลิ้น rheumatic ที่หนาและหดรั้งได้ผลระยะยาวไม่ดี reoperation สูง · จะถูกถ้าเป็น <b>degenerative MR</b> (mitral valve prolapse/flail leaflet) ซึ่ง repair เป็นมาตรฐาน (durable > 90%)"
+  },
+  "trap": "แยก <b>MR rheumatic → replace</b> กับ <b>MR degenerative (MVP) → repair</b> · TR ที่เกิดร่วมกับโรคลิ้นหัวใจซ้ายส่วนใหญ่เป็น functional → repair (annuloplasty) ไม่ใช่ replace · MR ปานกลางขึ้นไปห้าม PBMV",
+  "summary": [
+   "Rheumatic heart disease: mitral > aortic > tricuspid · mixed MS/MR พบบ่อย",
+   "MR indication ผ่าตัด: มีอาการ หรือไม่มีอาการแต่ LVEF ≤ 60% / LVESD ≥ 40 mm",
+   "Degenerative MR → repair · Rheumatic MR → มักต้อง replace",
+   "Functional TR: ทำ annuloplasty เมื่อ severe TR หรือ annulus ≥ 40 mm (≥ 21 mm/m²) ขณะผ่าตัด left-sided valve",
+   "Mechanical valve ต้อง warfarin ตลอดชีวิต (ห้าม DOAC) · bioprosthetic เสื่อมใน 10–15 ปี"
+  ],
+  "interp": "หญิง 44 ปี มี MR รุนแรง + MS เล็กน้อย (mixed mitral disease = rheumatic) + TR รุนแรง และมีอาการ (orthopnea) → ถามชนิดการผ่าตัดของลิ้นทั้งสอง"
+ }
+}
