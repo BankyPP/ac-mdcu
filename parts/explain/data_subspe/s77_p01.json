@@ -1,0 +1,97 @@
+{
+"MDCU77|RoA|Uro 4": {
+"wrong": {
+"B": "RNU with bladder cuff excision เป็นการรักษาหลักของ high-risk UTUC (hydronephrosis เป็น high-risk feature) — เป็นคำตอบของคีย์ไฟล์ 77A แต่ควรมีผลชิ้นเนื้อ/cytology ยืนยันก่อนตัดไตทั้งข้าง เพราะก้อนอาจไม่ใช่มะเร็ง หรือเป็น low-risk ที่เก็บไตได้ · จะถูกถ้าโจทย์บอกว่า biopsy เป็น high-grade UTUC แล้ว หรือ cytology บวก + CT ชัดเจนว่าเป็นก้อน invasive",
+"C": "Double-J stent แค่ระบายปัสสาวะ ใช้เมื่อไตทำงานลดลง/ติดเชื้อจากการอุดตัน ไม่ได้วินิจฉัยหรือรักษาก้อน · จะถูกถ้าผู้ป่วยมี infected hydronephrosis หรือ AKI จากการอุดตันที่ต้องระบายก่อน",
+"D": "Intravesical BCG ใช้กับ NMIBC ในกระเพาะปัสสาวะ ส่วน upper tract ใช้ BCG/mitomycin ผ่าน nephrostomy/ureteral catheter เฉพาะบางราย (CIS หรือ low-grade หลัง ablation) · จะถูกถ้าเป็น high-grade NMIBC ของกระเพาะปัสสาวะหลัง TURBT",
+"E": "การรอดู CT ซ้ำ 3 เดือนไม่เหมาะกับก้อนที่สงสัยมะเร็งร่วมกับ hydronephrosis · จะถูกถ้าเป็นรอยโรคที่ไม่ชัด (เช่น filling defect ที่น่าจะเป็นลิ่มเลือด/นิ่ว) และ cytology/ureteroscopy ลบ"
+},
+"trap": "ans ปัจจุบัน = A (ureteroscopy + biopsy) ต่างจากคีย์ไฟล์ 77A ที่ตอบ B (RNU) — เหตุผล: EAU แนะนำ diagnostic URS + biopsy เมื่อผลจะเปลี่ยนการรักษา (ตัดสิน kidney-sparing vs RNU) และไม่ควรตัดไตทั้งข้างโดยยังไม่มีหลักฐานทางพยาธิ · แต่ hydronephrosis เป็น high-risk feature ถ้ายืนยันมะเร็งแล้วการรักษาคือ RNU with bladder cuff"
+},
+"MDCU77|RoA|Uro 10": {
+"wrong": {
+"B": "ประสิทธิภาพระยะยาวในการลดการดำเนินโรค (AUR, ผ่าตัด) 5-ARI และ combination therapy ดีกว่า α-blocker เดี่ยว โดยเฉพาะต่อมใหญ่ (MTOPS, CombAT) · จะถูกถ้าโจทย์ถามข้อดีของ 5-ARI/combination ในต่อม > 30–40 mL",
+"C": "การลดขนาดต่อม (~20–30%) เป็นคุณสมบัติของ 5-ARI จากการลด DHT — α-blocker ไม่ลดขนาด · จะถูกถ้าโจทย์ถามข้อดีของ finasteride/dutasteride",
+"D": "การลดความเสี่ยง acute urinary retention เป็นข้อดีของ 5-ARI · จะถูกถ้าโจทย์ถามยาที่ลด AUR ระยะยาวในต่อมโต",
+"E": "การลดความจำเป็นต้องผ่าตัดในอนาคตเป็นข้อดีของ 5-ARI (ร่วมกับ combination) · จะถูกถ้าโจทย์ถามยาที่ชะลอ progression ของ BPH"
+}
+},
+"MDCU77|RoA|Uro 13": {
+"wrong": {
+"A": "เจาะ PSA ซ้ำทุก 6 เดือนทำให้วินิจฉัยช้า เหมาะเฉพาะ PSA ก้ำกึ่ง (เช่น 4–10) ที่อาจสูงชั่วคราวจาก prostatitis/สวนปัสสาวะ ซึ่งควรตรวจซ้ำยืนยันก่อน · จะถูกถ้า PSA สูงเล็กน้อยครั้งเดียวหลังมีปัจจัยกระตุ้น",
+"B": "PSA ทุกปี (หรือ 2 ปี) ใช้ติดตามในคนที่ PSA ปกติและตัดสินใจร่วมกันว่าจะคัดกรอง · จะถูกถ้า PSA < 4 ng/mL และ DRE ปกติ",
+"D": "TURP เป็นการรักษา BPH ที่มีอาการ/ภาวะแทรกซ้อน ไม่ใช่วิธีวินิจฉัยมะเร็ง (ส่วนใหญ่อยู่ peripheral zone ที่ TURP ไม่ได้ตัด) — คีย์ไฟล์เขียนว่า \"หรือช้อย D\" แต่ผู้ป่วยไม่มีอาการปัสสาวะ · จะถูกถ้าผู้ป่วยมี LUTS รุนแรง/retention จาก BPH และ biopsy ลบ",
+"E": "ADT ให้เมื่อยืนยันมะเร็งระยะลุกลาม/แพร่กระจาย ห้ามเริ่มโดยไม่มีชิ้นเนื้อ (ยกเว้นฉุกเฉิน spinal cord compression) · จะถูกถ้า biopsy ยืนยันและ bone scan พบ metastasis"
+}
+},
+"MDCU77|RoA|Plastic 2": {
+"wrong": {
+"B": "BCC เกิดใน Marjolin ulcer ได้แต่พบน้อยกว่า SCC มาก BCC ทั่วไปเป็นก้อนมุก (pearly) ขอบม้วน มีเส้นเลือดฝอย โตช้าบนผิวที่โดนแดด · จะถูกถ้าผู้สูงอายุมีก้อนมันวาวขอบนูนที่ข้างจมูก (rodent ulcer)",
+"C": "Amelanotic melanoma ใน burn scar พบน้อยมาก ลักษณะเป็นก้อนสีชมพูแดงไม่มีเม็ดสี · จะถูกถ้าก้อนชมพูโตเร็วที่ biopsy ย้อม S-100/HMB-45/Melan-A บวก",
+"D": "Hypertrophic scar นูนแดงอยู่ภายในขอบเขตแผลเดิม เกิดใน 6–8 สัปดาห์แรกหลังแผลหายและยุบลงได้เอง ไม่เป็นก้อนเน่าโตเร็ว · จะถูกถ้าแผลไหม้ที่เพิ่งหายเป็นแผลเป็นนูนแดงคันอยู่ในขอบเขตแผล",
+"E": "Keloid นูนเกินขอบแผลเดิม เป็นเนื้อพังผืดแข็งเรียบมันวาว ไม่เป็น fungating ulcer พบบ่อยที่ติ่งหู หน้าอก ไหล่ ในคนผิวเข้ม · จะถูกถ้าแผลเป็นนูนแข็งลามเกินขอบแผลเดิมหลังเจาะหู"
+}
+},
+"MDCU77|RoA|Plastic 3": {
+"wrong": {
+"B": "Capillary (infantile) hemangioma เป็น benign vascular tumor ในทารก โตช่วงแรกแล้วยุบเอง ไม่ใช่ premalignant · จะถูกถ้าโจทย์ถาม vascular tumor ที่พบบ่อยที่สุดในทารก (GLUT-1+)",
+"C": "Cystic hygroma = macrocystic lymphatic malformation ไม่ใช่ premalignant (สัมพันธ์ Turner/Down เมื่อพบก่อนคลอด) · จะถูกถ้าโจทย์ถามก้อนนิ่ม transilluminate ที่ posterior triangle ในทารก",
+"D": "Seborrheic keratosis เป็น benign \"stuck-on\" lesion สีน้ำตาลผิวขรุขระในผู้สูงอายุ ไม่กลายเป็นมะเร็ง (ถ้าขึ้นจำนวนมากอย่างรวดเร็ว = Leser–Trélat sign ของมะเร็งภายใน) · จะถูกถ้าโจทย์ถามรอยโรคที่เหมือนแปะอยู่บนผิวในผู้สูงอายุ",
+"E": "Lipoma เป็นก้อนไขมัน benign ไม่ใช่ premalignant (liposarcoma เกิดเป็นโรคใหม่ ไม่ได้มาจาก lipoma) · จะถูกถ้าโจทย์ถามก้อนนิ่มเคลื่อนได้ใต้ผิวหนังที่โตช้า"
+}
+},
+"MDCU77|RoA|Plastic 4": {
+"why": "Rule of nines ในผู้ใหญ่: ศีรษะ 9% · แขนแต่ละข้าง 9% · ขาแต่ละข้าง 18% (หน้า 9 + หลัง 9) · ลำตัวหน้า 18% · ลำตัวหลัง 18% · perineum 1% · ผู้ป่วยไหม้รอบวงแขน 1 ข้าง (9%) + ขา 1 ข้างทั้งหมด (18%) + ลำตัวด้านหน้า (18%) = 45% (คีย์ไฟล์ 77A คำนวณตรงกัน) · ใช้ตัวเลขนี้คำนวณ Parkland และใช้ตัดสินส่ง burn center (> 20% ในผู้ใหญ่) · ไม่นับ first-degree burn · circumferential burn ของแขนขาต้องเฝ้าระวัง compartment syndrome/escharotomy",
+"wrong": {
+"A": "36% = ลืมนับลำตัวด้านหน้า (9 + 18 + 9) หรือคิดขาเป็นแค่ 9% · จะถูกถ้าไหม้แขน 1 ข้าง ขา 1 ข้าง และศีรษะ (9 + 18 + 9)",
+"C": "54% = นับลำตัวเกิน (เช่น 9 + 18 + 27) หรือนับแขนสองข้าง · จะถูกถ้าไหม้แขนทั้งสองข้าง ขา 1 ข้าง และลำตัวด้านหน้า (18 + 18 + 18)",
+"D": "27% = นับแค่แขนกับขา ลืมลำตัวด้านหน้า · จะถูกถ้าไหม้เฉพาะแขน 1 ข้างและขา 1 ข้าง",
+"E": "63% = นับลำตัวทั้งหน้าและหลัง (36%) แทนเฉพาะด้านหน้า · จะถูกถ้าไหม้แขน 1 ข้าง ขา 1 ข้าง และลำตัวรอบวง (หน้า + หลัง)"
+}
+},
+"MDCU77|RoA|Plastic 5": {
+"interp": "ข้อ NOT: ถามว่าตัวเลือกใด \"ไม่ใช่\" ส่วนหนึ่งของเกณฑ์ ABCDE ที่ใช้ประเมินไฝ/รอยโรคสีเข้มว่าน่าสงสัย melanoma",
+"why": "ABCDE ของ melanoma: A Asymmetry (สองซีกไม่เหมือนกัน) · B Border irregularity (ขอบไม่เรียบ หยัก กระจาย) · C Color variegation (หลายสีในก้อนเดียว ดำ น้ำตาล แดง ขาว น้ำเงิน) · D Diameter > 6 mm (คีย์ไฟล์ 77A: D = diameter > 6 mm) · E Evolving (ขนาด รูปร่าง สี หรืออาการเปลี่ยน — สำคัญที่สุด) · \"Density\" ไม่ใช่เกณฑ์ · รอยโรคที่เข้าเกณฑ์ต้องทำ excisional biopsy ขอบ 1–3 mm (ไม่ทำ shave ที่ทำให้วัด Breslow ไม่ได้) · ในเด็กใช้ modified ABCD (Amelanotic, Bleeding/Bump, Color uniformity, De novo/any Diameter)",
+"wrong": {
+"A": "ข้อความนี้ \"เป็น\" เกณฑ์ A: asymmetry — ลากเส้นแบ่งครึ่งแล้วสองซีกไม่เหมือนกัน · จะเป็นคำตอบ (ข้อ NOT) ถ้าเขียนว่า \"Age\" แทน asymmetry",
+"B": "ข้อความนี้ \"เป็น\" เกณฑ์ B: border irregularity ขอบหยักไม่ชัด · จะเป็นคำตอบ (ข้อ NOT) ถ้าเขียนว่า \"Bleeding\" ในเกณฑ์ผู้ใหญ่ (ซึ่งอยู่ใน modified ABCD ของเด็ก)",
+"C": "ข้อความนี้ \"เป็น\" เกณฑ์ C: color variegation หลายสีในรอยโรคเดียว · จะเป็นคำตอบ (ข้อ NOT) ถ้าเขียนว่า \"Color uniformity\" (สีเดียวสม่ำเสมอ — เป็นเกณฑ์ของเด็กแบบ modified)",
+"E": "ข้อความนี้ \"เป็น\" เกณฑ์ E: evolving เปลี่ยนแปลงตามเวลา และเป็นสัญญาณที่สำคัญที่สุด · จะเป็นคำตอบ (ข้อ NOT) ถ้าเขียนว่า \"Elevation\" แทน evolving"
+}
+},
+"MDCU77|RoA|Plastic 6": {
+"wrong": {
+"B": "ขาดวิตามิน B1 ทำให้ beriberi/Wernicke encephalopathy ไม่ใช่ปัจจัยเสี่ยงมะเร็งช่องปาก (ภาวะขาดเหล็กใน Plummer–Vinson เป็นปัจจัยเสี่ยงมะเร็ง hypopharynx/หลอดอาหารส่วนบน) · จะถูกถ้าโจทย์ถามสาเหตุของ Wernicke encephalopathy ในผู้ติดสุรา",
+"C": "อาหารเส้นใยสูงไม่เพิ่มความเสี่ยงมะเร็ง (ผักผลไม้กลับเป็นปัจจัยป้องกัน) · จะถูกถ้าโจทย์ถามปัจจัยที่ลดความเสี่ยงมะเร็งลำไส้ใหญ่",
+"D": "Chronic hepatitis B เป็นปัจจัยเสี่ยงมะเร็งตับ (HCC) แม้ไม่มีตับแข็ง · จะถูกถ้าโจทย์ถามปัจจัยเสี่ยงของ hepatocellular carcinoma",
+"E": "H. pylori เป็นปัจจัยเสี่ยงมะเร็งกระเพาะอาหาร (non-cardia adenocarcinoma) และ gastric MALT lymphoma · จะถูกถ้าโจทย์ถามสาเหตุ MALT lymphoma ที่ตอบสนองต่อการกำจัดเชื้อ"
+}
+},
+"MDCU77|RoA|Colo 4": {
+"wrong": {
+"A": "Clot evacuation (incision) ลดปวดชั่วคราวแต่ลิ่มเลือดกลับมาเป็นซ้ำบ่อยและเลือดออกได้ — ถ้าจะผ่าในช่วง < 72 ชม.ควร excise ทั้งก้อน · ผู้ป่วยนี้ 4 วันและปวดดีขึ้นแล้ว · จะถูกถ้ามาภายใน 48–72 ชม.ปวดมาก (และทำแบบ excision ไม่ใช่ incision)",
+"C": "Urgent hemorrhoidectomy ไม่จำเป็นสำหรับ external thrombosis ที่ดีขึ้นแล้ว · จะถูกถ้าเป็น strangulated/gangrenous prolapsed internal hemorrhoid (grade IV ที่ดันกลับไม่ได้) หรือ grade III–IV มีอาการเรื้อรัง (elective)",
+"D": "Rubber band ligation ใช้กับ internal hemorrhoid grade I–III เหนือ dentate line ห้ามทำกับ external hemorrhoid (มี somatic sensation ปวดมาก) · จะถูกถ้าผู้ป่วยมี grade II internal hemorrhoid ที่เลือดออก",
+"E": "Lateral internal sphincterotomy รักษา chronic anal fissure ไม่ใช่ thrombosed hemorrhoid · จะถูกถ้าผู้ป่วยมี chronic posterior fissure ที่ล้มเหลวจากยา"
+}
+},
+"MDCU77|RoA|Colo 7": {
+"wrong": {
+"B": "Condyloma acuminata เกิดจาก HPV ติดต่อทางเพศสัมพันธ์ ไม่ใช่ผลของฝี · จะถูกถ้าโจทย์ถามสาเหตุของก้อนหูดรูปดอกกะหล่ำรอบทวารในผู้มีเพศสัมพันธ์ทางทวาร",
+"C": "Anal fissure เกิดจาก trauma ของ anoderm (อุจจาระแข็ง) ไม่ได้ตามมาจากฝี · จะถูกถ้าโจทย์ถามสาเหตุของแผลที่ posterior midline หลังท้องผูก",
+"D": "Pilonidal sinus อยู่ที่ร่องก้นเหนือ sacrococcygeal จากขนฝังผิวหนัง ไม่เกี่ยวกับ anal gland · จะถูกถ้าชายหนุ่มขนดกมีฝีที่ร่องก้นห่างจากทวาร",
+"E": "Rectal prolapse เกี่ยวกับการเบ่งถ่ายเรื้อรังและการพยุงอุ้งเชิงกรานไม่ดี (หญิงสูงอายุ, เด็กที่เป็น CF) ไม่ใช่ผลของฝี · จะถูกถ้าโจทย์ถามก้อนที่ยื่นจากทวารเป็นวงซ้อน (concentric folds) ในหญิงสูงอายุ"
+}
+},
+"MDCU77|RoA|Colo 9": {
+"interp": "ถามกลไกการเกิด perianal abscess — ที่สำคัญคือฝีรอบทวารส่วนใหญ่ไม่ได้มาจากผิวหนัง แต่มาจากต่อม anal gland ที่ dentate line อุดตันแล้วติดเชื้อ (cryptoglandular theory)"
+},
+"MDCU77|RoA|Colo 13": {
+"wrong": {
+"A": "Stimulant laxative (bisacodyl, senna) ทำให้ถ่ายเหลวบ่อยและปวดเบ่ง ไม่ใช่การรักษามาตรฐานของ fissure — ควรใช้ bulk-forming (psyllium) หรือ osmotic laxative เพื่อให้อุจจาระนุ่ม · จะถูกถ้าโจทย์ถามการรักษา opioid-induced constipation ระยะสั้น",
+"C": "Botulinum toxin ใช้กับ chronic fissure ที่ topical therapy ล้มเหลว หรือผู้ที่เสี่ยง incontinence และไม่อยากผ่าตัด · จะถูกถ้าเป็น chronic fissure > 8 สัปดาห์ที่ล้มเหลวจาก NTG/diltiazem",
+"D": "LIS เป็น gold standard ของ chronic fissure ที่ยาไม่ได้ผล ไม่ใช่ acute fissure 1 วัน · จะถูกถ้าเป็น chronic fissure มี sentinel tag และล้มเหลวจากยาทาแล้ว",
+"E": "Hemorrhoidectomy ไม่ใช่การรักษา fissure (และอาจทำให้ anal stenosis) · จะถูกถ้าผู้ป่วยมี grade III–IV internal hemorrhoid ที่มีอาการ"
+}
+}
+}
