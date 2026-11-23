@@ -1,0 +1,212 @@
+{
+"MDCU68|RoB|64": {
+ "wrong": {
+  "A": "LAR with coloanal anastomosis เอาแค่ rectum ออก ไม่ได้เอา bladder ที่ก้อนลุกลามออก → ขอบไม่ปลอดมะเร็ง (R1/R2) · จะถูกถ้าเป็น low rectal cancer ที่ยังไม่ลุกอวัยวะข้างเคียงและ sphincter ยังรักษาไว้ได้ (หลัง neoadjuvant)",
+  "B": "APR เอา rectum + anus ออกแต่ไม่ได้เอา bladder → ไม่ได้ R0 ในก้อน T4b · จะถูกถ้าเป็นมะเร็งไส้ตรงส่วนล่างที่ลุก sphincter/levator แต่ไม่ลุกอวัยวะใน pelvis อื่น",
+  "D": "เคมีบำบัดอย่างเดียวไม่หายขาด ใช้เป็น neoadjuvant (TNT) หรือในโรคที่แพร่กระจาย/ผ่าตัดไม่ได้ · จะถูกถ้าโจทย์มี distant metastasis ที่ผ่าไม่ได้ หรือผู้ป่วยไม่พร้อมผ่าตัด",
+  "E": "Local excision (TAMIS/TEM) ใช้เฉพาะ T1 ที่ความเสี่ยงต่ำ (ขนาด < 3 cm, well differentiated, ไม่มี LVI) · จะถูกถ้าเป็น early rectal cancer T1N0 ใกล้ทวาร"
+ },
+ "summary": [
+  "T4b rectal cancer (ลุก bladder/prostate/uterus/vagina/sacrum) → neoadjuvant CRT/TNT → en bloc multivisceral resection (R0)",
+  "Total pelvic exenteration: rectum + bladder + (ชาย: prostate, seminal vesicles · หญิง: uterus, vagina) + urinary diversion (ileal conduit) + colostomy",
+  "R0 resection เป็นปัจจัยพยากรณ์สำคัญที่สุด",
+  "Staging: MRI pelvis (CRM, T/N stage) + CT chest/abdomen + CEA",
+  "Watch-and-wait ใน complete clinical response หลัง TNT (ศูนย์ที่มีประสบการณ์)"
+ ]
+},
+"MDCU68|RoB|ไม่มีเลข 1": {
+ "why": "<b>Perianal abscess</b> ต้อง <b>incision and drainage</b> เสมอ (สไลด์ treatment) ไม่ว่ามีหรือไม่มี fluctuation เพราะยาปฏิชีวนะเข้าโพรงหนองไม่ได้ และหนองลุกลามไปช่องลึก (ischiorectal, supralevator) หรือเกิด necrotizing infection ได้ · ทำใกล้ขอบทวาร (ให้ fistula ที่อาจเกิดสั้น) · <b>ให้ยาปฏิชีวนะเพิ่ม</b>เมื่อมี <b>systemic sign (ไข้/sepsis), cellulitis รอบ ๆ</b>, ผู้ป่วยเบาหวาน/ภูมิคุ้มกันต่ำ, มีลิ้นหัวใจเทียม/โรคลิ้นหัวใจ (ASCRS) → ข้อนี้มีไข้ + cellulitis จึงตอบ I&D + antibiotics · หลังระบายราว 30–50% เกิด fistula-in-ano",
+ "wrong": {
+  "A": "ยาปฏิชีวนะอย่างเดียวไม่ได้ผลกับฝีที่เป็นโพรงหนอง และทำให้ลุกลาม · จะถูกถ้าเป็น cellulitis รอบทวารที่ยังไม่เป็นหนอง (ไม่มีโพรง) หรือ abscess เล็กมากในผู้ป่วย neutropenic ที่ยังไม่ fluctuant (ร่วมกับเฝ้าดูใกล้ชิด)",
+  "B": "I&D อย่างเดียวเพียงพอใน simple perianal abscess ผู้ป่วยแข็งแรง ไม่มีไข้หรือ cellulitis · จะถูกถ้าโจทย์ไม่มีไข้ ไม่มี cellulitis ไม่มีเบาหวาน/ภูมิคุ้มกันต่ำ",
+  "D": "การสังเกตอาการทำให้ฝีลุกลาม เสี่ยง Fournier's gangrene/sepsis · ไม่มีสถานการณ์ที่ควรเฝ้าดู perianal abscess ที่วินิจฉัยแล้ว",
+  "E": "Sitz bath เป็นการดูแลเสริมหลังระบายหนอง ไม่รักษาฝี · จะถูกถ้าโจทย์ถามการดูแลแผลหลัง I&D"
+ },
+ "trap": "อย่ารอ fluctuation — ฝีลึก (ischiorectal/intersphincteric/supralevator) อาจคลำไม่ได้ ใช้ EUA/CT/MRI · ห้ามให้ยาอย่างเดียวแทนการระบาย · ระวัง <b>Fournier's gangrene</b> ในเบาหวาน (ปวดมาก crepitus ผิวคล้ำ) → debridement ด่วน",
+ "summary": [
+  "Anorectal abscess: perianal (บ่อยสุด) > ischiorectal > intersphincteric > supralevator · จาก cryptoglandular infection",
+  "Treatment = drainage · ยาปฏิชีวนะเสริมเมื่อ sepsis/cellulitis/DM/immunocompromised/prosthetic valve",
+  "Horseshoe abscess (deep postanal space) → drainage + Hanley procedure",
+  "หลังระบาย fistula ~30–50% → นัดตรวจติดตาม",
+  "Recurrent/atypical → หา Crohn's disease, TB, HIV, malignancy"
+ ]
+},
+"MDCU68|RoB|75": {
+ "wrong": {
+  "A": "IIA = 2 กลุ่มขึ้นไปด้านเดียวของกระบังลม แต่<b>ไม่มี B symptoms</b> — ผู้ป่วยมี night sweats + น้ำหนักลด · จะถูกถ้าโจทย์ไม่มีไข้/เหงื่อกลางคืน/น้ำหนักลด",
+  "C": "IIIA = ต่อมน้ำเหลืองทั้งสองด้านของกระบังลม ไม่มี B symptoms · จะถูกถ้ามี inguinal/para-aortic nodes ร่วมกับต่อมที่คอ และไม่มี B symptoms",
+  "D": "IIIB = ทั้งสองด้านของกระบังลม + B symptoms · จะถูกถ้าโจทย์บอกต่อมน้ำเหลืองใต้กระบังลม (หรือม้าม) ร่วมด้วย",
+  "E": "IV = ลามอวัยวะนอกต่อมน้ำเหลืองแบบกระจาย (bone marrow, ตับ, ปอดหลายก้อน) — ⚠ คีย์อีกไฟล์ตอบ E แต่โจทย์ระบุ 'confined to one side of the diaphragm' จึงไม่ใช่ stage IV · จะถูกถ้ามี marrow/liver involvement"
+ },
+ "summary": [
+  "Ann Arbor/Lugano: I = 1 กลุ่ม · II = ≥ 2 กลุ่มด้านเดียว · III = สองด้าน · IV = extranodal กระจาย",
+  "B symptoms: ไข้ > 38°C, drenching night sweats, น้ำหนักลด > 10% ใน 6 เดือน",
+  "Mediastinum + cervical nodes = เหนือกระบังลมทั้งคู่ → stage II",
+  "Bulky (X): mediastinal mass ≥ 1/3 thoracic diameter หรือ ≥ 10 cm",
+  "⚠ คีย์ 2 ไฟล์ขัดกัน (B vs E) — ตอบ IIB ตามข้อมูลในโจทย์ · ซ้ำธีม 66 RoD 36"
+ ]
+},
+"MDCU68|RoB|78": {
+ "wrong": {
+  "A": "Conservative/เฝ้าดูใช้ได้เฉพาะ thyroid ใน mediastinum ที่<b>ไม่มีอาการ</b> และเป็น<b>เนื้อไทรอยด์ที่ทำงานแหล่งเดียว</b> (ตัดออกแล้วจะ hypothyroid ตลอดชีวิต — สไลด์ในคีย์) · จะถูกถ้าโจทย์ระบุว่าไม่มีอาการกดเบียดและเป็น functioning ectopic thyroid เพียงแห่งเดียว",
+  "B": "I-131 ก่อนผ่าตัดไม่ใช่มาตรฐาน — RAI ทำให้ต่อมบวมช่วงแรก อาจกด trachea ใน intrathoracic goiter และ goiter ใหญ่จับไอโอดีนไม่ดี · จะถูกถ้าโจทย์เป็น differentiated thyroid cancer หลัง total thyroidectomy (RAI remnant ablation หลังผ่าตัด ไม่ใช่ก่อน)",
+  "C": "I-131 อย่างเดียว (คีย์ชุดแรกตอบ C) ใช้เป็นทางเลือกเฉพาะผู้ป่วยที่เสี่ยงผ่าตัดสูงมาก หรือ ectopic functioning tissue ที่ไม่มีอาการ ผลลดขนาดก้อนได้น้อย · จะถูกถ้าโจทย์เป็นผู้สูงอายุโรคร่วมมากผ่าตัดไม่ได้ และ goiter เป็น toxic",
+  "D": "Thyroid hormone (levothyroxine suppression) ไม่ช่วยลดขนาด intrathoracic goiter ได้จริงและเสี่ยง subclinical hyperthyroidism · จะถูกถ้าโจทย์ถาม replacement หลังผ่าตัด/หลังตัด ectopic thyroid ทั้งหมด"
+ }
+},
+"MDCU68|RoB|79": {
+ "wrong": {
+  "A": "Heart failure เกิดจาก pulmonary overcirculation และ volume overload ของหัวใจ (VSD/PDA ใหญ่ อาการช่วงอายุ 4–8 สัปดาห์เมื่อ PVR ลด) · เป็น complication จริง · จะเป็นคำตอบไม่ได้",
+  "B": "Pulmonary hypertension เกิดจาก flow และความดันสูงในปอดเรื้อรัง → pulmonary vascular disease → Eisenmenger · เป็น complication จริง · จะเป็นคำตอบไม่ได้",
+  "D": "Infective endocarditis เสี่ยงจาก jet ของเลือดที่ทำลาย endothelium (VSD เล็กก็เสี่ยง) · เป็น complication จริง · จะเป็นคำตอบไม่ได้",
+  "E": "Cyanosis เกิดเมื่อ PVR สูงจน shunt <b>กลับทิศเป็น R→L (Eisenmenger syndrome)</b> (ลายมือ: cyanosis = reverse shunt) · เป็น late complication จริง · จะเป็นคำตอบไม่ได้"
+ },
+ "summary": [
+  "L→R shunts: VSD (บ่อยสุด), ASD, PDA, AVSD",
+  "Complications: CHF, failure to thrive, pulmonary HT → Eisenmenger (cyanosis, clubbing), IE, arrhythmia (ASD → AF), recurrent chest infection",
+  "Pulmonary artery hypoplasia พบใน lesion ที่ pulmonary blood flow ลด (TOF, pulmonary atresia) ไม่ใช่ L→R shunt ซึ่ง PA ขยาย",
+  "Eisenmenger = ข้อห้ามของการปิด shunt (เว้นบางราย) → พิจารณา heart-lung transplant",
+  "ปิด defect ก่อนเกิด irreversible pulmonary vascular disease"
+ ]
+},
+"MDCU68|RoB|81": {
+ "wrong": {
+  "A": "ยาไม่แก้ลิ้นรั่วจาก flail leaflet และไม่ชะลอ LV เสื่อมใน primary MR (afterload reduction ไม่ช่วยในผู้ป่วยความดันปกติ) · จะถูกถ้าผู้ป่วยไม่พร้อมผ่าตัด หรือเป็น secondary MR จาก LV dysfunction (GDMT ก่อน)",
+  "B": "PBMV ใช้ขยาย <b>mitral stenosis</b> และห้ามเมื่อมี MR ≥ moderate · จะถูกถ้าเป็น severe MS ลิ้นเหมาะ ไม่มี MR/LA clot",
+  "D": "MVR ใช้เมื่อซ่อมไม่ได้ (ลายมือ: replace → ถ้าซ่อมไม่ได้) เช่น rheumatic ลิ้นหดรั้ง/หนา, endocarditis ทำลายลิ้นมาก · degenerative posterior leaflet flail ซ่อมสำเร็จ > 95% และดีกว่าในด้าน survival/LV function/ไม่ต้อง anticoagulate · จะถูกถ้าเป็น rheumatic mixed MV disease",
+  "E": "Ross operation = ย้าย pulmonary valve ของผู้ป่วยเองไปแทน <b>aortic valve</b> แล้วใส่ homograft ที่ pulmonary — ใช้ในเด็ก/ผู้ใหญ่อายุน้อยที่มี aortic valve disease · จะถูกถ้าโจทย์เป็นวัยรุ่นมี severe aortic stenosis ที่ต้องการเลี่ยง anticoagulant"
+ },
+ "trap": "ดู<b>สาเหตุ</b>ของ MR: degenerative (prolapse/flail) → <b>repair</b> · rheumatic → มัก <b>replace</b> · และ FC II แต่ severe MR + flail ก็เป็นข้อบ่งชี้ผ่าตัดได้ (มีอาการ) โดยเฉพาะศูนย์ที่ repair ได้สำเร็จสูง",
+ "summary": [
+  "Primary severe MR: ผ่าตัดเมื่อมีอาการ หรือ LVEF ≤ 60%/LVESD ≥ 40 mm แม้ไม่มีอาการ",
+  "Repair > replace ใน degenerative MR (posterior leaflet: triangular/quadrangular resection หรือ neochordae + annuloplasty ring)",
+  "Rheumatic MR → มักต้อง MVR",
+  "TEER (MitraClip) ในผู้ป่วยเสี่ยงผ่าตัดสูง",
+  "Ross procedure = aortic valve disease ในคนอายุน้อย"
+ ]
+},
+"MDCU68|RoB|84": {
+ "wrong": {
+  "A": "ผิด — การลุกลามข้ามระนาบเนื้อเยื่อไปซี่โครง/ผนังอก (± sinus tract มี sulfur granules) เป็นลักษณะของ <b>actinomycosis</b> (ลายมือ 1 → actinomycosis) ไม่ใช่ histoplasmosis · จะถูกถ้าแก้เป็น 'rib involvement suggests actinomycosis'",
+  "B": "ผิด — aspergilloma ทำให้ไอเป็นเลือดใน <b>50–85%</b> (ลายมือ 2 → 50–85%) และอาจ massive ซึ่งเป็นข้อบ่งชี้ผ่าตัด/embolization · จะถูกถ้าแก้ตัวเลขเป็น 50–85%",
+  "C": "ผิด — mucormycosis เกิดใน <b>ผู้ป่วยภูมิคุ้มกันต่ำ/DKA</b>/deferoxamine/neutropenia ลุกลามหลอดเลือดเร็ว (rhino-orbito-cerebral, pulmonary) ต้อง amphotericin B + debridement · จะถูกถ้าแก้เป็น 'mainly affects immunocompromised or diabetic patients'",
+  "D": "ผิด — coccidioidomycosis ส่วนใหญ่เป็น pneumonia/nodule; cavity พบเพียง ~5% (ลายมือ 4 → ~5%) · จะถูกถ้าแก้เป็น 'cavitation occurs in about 5%'"
+ },
+ "summary": [
+  "Histoplasmosis: ขี้นก/ค้างคาว (ถ้ำ) · ส่วนใหญ่ asymptomatic/flu-like · calcified granuloma, mediastinal lymphadenitis/fibrosing mediastinitis · disseminated ใน HIV",
+  "Aspergilloma: fungus ball ในโพรงเดิม (TB) · air-crescent (Monod) sign · hemoptysis 50–85% → ผ่าตัด/embolization",
+  "Invasive aspergillosis: neutropenia · halo sign → voriconazole",
+  "Mucormycosis: DKA, immunocompromised · angioinvasive → amphotericin B + debridement",
+  "Actinomycosis: ข้าม tissue plane, sinus, sulfur granules → penicillin นาน"
+ ]
+},
+"MDCU68|RoB|86": {
+ "wrong": {
+  "A": "Bronchoscopy ไม่ช่วยในการวินิจฉัยหรือรักษา esophageal rupture · จะถูกถ้าโจทย์เป็นสิ่งแปลกปลอมในหลอดลม หรือสงสัย tracheobronchial injury",
+  "B": "Conservative (NPO, ยาปฏิชีวนะ, drainage) ใช้ได้เฉพาะ rupture ที่ <b>contained</b> (รั่วจำกัดใน mediastinum ไหลกลับเข้าหลอดอาหารได้) ไม่มี sepsis (Cameron criteria) · ข้อนี้มี pleural effusion = รั่วเข้าช่องอก (free perforation) → ต้องผ่าตัด · จะถูกถ้าเป็น iatrogenic perforation ขนาดเล็ก contained ไม่มีอาการ sepsis",
+  "D": "Pleurodesis ใช้กับ malignant effusion/recurrent pneumothorax ไม่ใช่ effusion จากหลอดอาหารแตก (ต้องระบาย + ซ่อมรูรั่ว) · จะถูกถ้าโจทย์เป็น recurrent malignant pleural effusion",
+  "E": "การให้กินทางปากในหลอดอาหารแตกจะทำให้อาหาร/เชื้อรั่วเข้าช่องอกมากขึ้น (mediastinitis, empyema) อัตราตายสูง · ไม่มีสถานการณ์ใดเหมาะในผู้ป่วยนี้"
+ },
+ "summary": [
+  "Boerhaave: อาเจียนรุนแรง → ผนังหลอดอาหารส่วนปลาย left posterolateral ฉีกทุกชั้น",
+  "Mackler triad: อาเจียน + เจ็บหน้าอกรุนแรง + subcutaneous emphysema",
+  "Imaging: CXR (pneumomediastinum, left effusion), water-soluble contrast esophagram หรือ CT with oral contrast",
+  "Pleural fluid: amylase สูง (salivary), pH ต่ำ, เศษอาหาร",
+  "Free perforation < 24 ชม. → primary repair (2 ชั้น) + buttress + drainage + broad-spectrum antibiotics/antifungal · ช้า/ซ่อมไม่ได้ → drainage, stent, esophageal exclusion/esophagectomy"
+ ]
+},
+"MDCU68|RoC|1": {
+ "wrong": {
+  "A": "Left homonymous hemianopia เกิดจากรอยโรคหลัง chiasm ฝั่ง<b>ขวา</b> (optic tract, optic radiation, occipital cortex) ไม่ใช่ pineal region · จะถูกถ้าโจทย์เป็น stroke ของ right PCA หรือก้อนที่ right occipital lobe",
+  "B": "ชักเกิดจากรอยโรคที่ <b>cortex</b> (supratentorial cortical tumor, low-grade glioma, metastasis) pineal tumor อยู่ลึกตรงกลางไม่ค่อยทำให้ชัก · จะถูกถ้าโจทย์เป็นก้อนที่ temporal/frontal lobe",
+  "C": "Ataxia เด่นในก้อนที่ <b>cerebellum</b> (medulloblastoma ที่ vermis → truncal ataxia, pilocytic astrocytoma ที่ hemisphere → limb ataxia) · pineal tumor ที่ใหญ่อาจกด cerebellum ได้บ้างแต่ไม่ใช่ลักษณะเด่น · จะถูกถ้าโจทย์เป็นเด็กเดินเซ + hydrocephalus จากก้อน posterior fossa",
+  "E": "Hemiparesis เกิดจากรอยโรคที่ motor cortex/internal capsule/brainstem ข้างใดข้างหนึ่ง · จะถูกถ้าโจทย์เป็นก้อน/เลือดออกที่ internal capsule หรือ frontal lobe"
+ },
+ "summary": [
+  "Parinaud (dorsal midbrain) syndrome: upgaze palsy, light-near dissociation, convergence-retraction nystagmus, eyelid retraction (Collier sign)",
+  "Pineal region tumors: germinoma (บ่อยสุด, ชายวัยรุ่น), pineoblastoma, pineocytoma, teratoma",
+  "Tumor markers (serum + CSF): β-hCG, AFP — germinoma ไวต่อ RT มาก",
+  "กด aqueduct → obstructive hydrocephalus → ETV/EVD",
+  "Germ cell tumor ใน CNS: pineal (ชาย) และ suprasellar (DI, precocious puberty)"
+ ]
+},
+"MDCU68|RoC|3": {
+ "wrong": {
+  "B": "GH-producing adenoma ทำให้ <b>acromegaly</b>/gigantism (มือเท้าโต คางยื่น) ไม่ใช่ลักษณะ cushingoid · จะถูกถ้าโจทย์ถามสาเหตุของ acromegaly",
+  "C": "Pineal tumor → Parinaud syndrome + hydrocephalus · ไม่หลั่ง ACTH · จะถูกถ้าโจทย์เป็นเด็กชายมองขึ้นไม่ได้",
+  "D": "Null cell/nonfunctioning pituitary adenoma ไม่หลั่งฮอร์โมน แสดงด้วย mass effect (bitemporal hemianopia, ปวดหัว) และ hypopituitarism · จะถูกถ้าโจทย์เป็นผู้ใหญ่ตามัวด้านข้างสองข้าง ฮอร์โมนต่ำ ก้อน macroadenoma",
+  "E": "Prolactinoma → galactorrhea, amenorrhea, impotence · จะถูกถ้าโจทย์เป็นหญิงขาดประจำเดือน มีน้ำนมไหล prolactin สูง"
+ },
+ "summary": [
+  "Cushing <b>disease</b> = ACTH pituitary adenoma (สาเหตุ endogenous ที่บ่อยที่สุด ~70%) · Cushing <b>syndrome</b> = cortisol เกินจากทุกสาเหตุ (iatrogenic บ่อยสุด)",
+  "Screen: 1-mg overnight DST, 24-hr UFC, late-night salivary cortisol",
+  "ACTH สูง/ปกติ → pituitary vs ectopic: high-dose DST/CRH test, MRI, IPSS",
+  "Cushing disease → transsphenoidal resection (microadenoma)",
+  "Nelson syndrome: หลัง bilateral adrenalectomy → corticotroph adenoma โต + hyperpigmentation"
+ ]
+},
+"MDCU68|RoC|4": {
+ "interp": "ถาม WHO grade ของ <b>glioblastoma</b> — มีช้อย grade 5 ที่ไม่มีอยู่จริงเป็นตัวหลอก (ลายมือ: grade 5 ไม่มี)",
+ "why": "<b>Glioblastoma</b> = diffuse astrocytic glioma <b>WHO CNS grade 4</b> (สูงสุดของระบบ grading ซึ่งมี 1–4 เท่านั้น) · WHO CNS5 (2021): glioblastoma = <b>IDH-wildtype</b> (astrocytoma ที่ IDH-mutant แยกเป็น 'astrocytoma, IDH-mutant, grade 2/3/4') · ลักษณะ histology: microvascular proliferation และ/หรือ necrosis (pseudopalisading) หรือมี molecular marker (TERT promoter mutation, EGFR amplification, +7/−10) · ลำดับ astrocytic: grade 1 = pilocytic astrocytoma (เด็ก, cerebellum, circumscribed) · grade 2 = diffuse astrocytoma · grade 3 = anaplastic · grade 4 = glioblastoma",
+ "wrong": {
+  "A": "Grade 1 = <b>pilocytic astrocytoma</b>: เด็ก, cerebellum/optic pathway, cystic + mural nodule, Rosenthal fibers, ผ่าตัดเอาออกหมดได้หายขาด · จะถูกถ้าโจทย์เป็นเด็กมีก้อน cystic ที่ cerebellum พร้อม enhancing nodule",
+  "B": "Grade 2 = diffuse (low-grade) astrocytoma: ผู้ใหญ่ตอนต้น ชัก ก้อนไม่ enhance แทรกซึม · จะถูกถ้าโจทย์เป็นผู้ใหญ่อายุ 30 มาด้วยชัก MRI เห็นก้อน T2/FLAIR bright ไม่ enhance",
+  "C": "Grade 3 = anaplastic astrocytoma: mitotic activity เพิ่มแต่ยังไม่มี necrosis/microvascular proliferation · จะถูกถ้าโจทย์ถาม astrocytoma ที่ malignant แต่ยังไม่ถึง GBM",
+  "E": "ไม่มี grade 5 ใน WHO grading ของ CNS tumor (สูงสุดคือ 4) · จะไม่ถูกในทุกกรณี — เป็นตัวหลอก"
+ },
+ "trap": "ช้อยที่ไม่มีอยู่จริง (grade 5) ใส่ไว้หลอกคนที่คิดว่า GBM 'ร้ายที่สุดจึงต้องเลขสูงสุด' · WHO CNS grade มี 1–4 (ตั้งแต่ 2021 ใช้เลขอารบิก)",
+ "summary": [
+  "WHO CNS grade: 1 (benign, circumscribed) → 4 (malignant สุด)",
+  "GBM: IDH-wildtype, grade 4 · ring enhancement, necrosis, ข้าม corpus callosum",
+  "Stupp protocol: maximal safe resection → RT 60 Gy + temozolomide → adjuvant temozolomide",
+  "MGMT promoter methylation → ตอบสนอง temozolomide ดีกว่า",
+  "Oligodendroglioma: IDH-mutant + 1p/19q codeletion, calcification, ชัก, พยากรณ์ดีกว่า"
+ ]
+},
+"MDCU68|RoC|6": {
+ "wrong": {
+  "A": "Venous angioma (developmental venous anomaly) เป็น normal variant ของการระบายเลือดดำ (caput medusae) เลือดออกน้อยมาก (< 0.5%/ปี) และห้ามผ่าตัดเอาออก (เสี่ยง venous infarct) · จะถูกถ้าโจทย์ถาม vascular lesion ที่เลือดออกน้อยที่สุด",
+  "C": "Thalamic (hypertensive) hemorrhage เกิดซ้ำได้แต่ราว 2–4%/ปีถ้าคุมความดันไม่ดี ต่ำกว่า aneurysm ที่ยังไม่ได้รักษา · จะถูกถ้าโจทย์ถาม ICH จากความดันสูงที่ป้องกันซ้ำด้วยการคุม BP",
+  "D": "Ruptured cavernous malformation (cavernoma) เลือดออกซ้ำสูงกว่าที่ยังไม่แตก (~4–20%/ปี โดยเฉพาะ brainstem) แต่ยังต่ำกว่า aneurysm ช่วงแรก · จะถูกถ้าโจทย์ถาม 'popcorn lesion' ที่ brainstem เลือดออกซ้ำ",
+  "E": "Ruptured AVM เลือดออกซ้ำ ~6–15% ในปีแรก (ลายมือ: E = อันดับ 2) แล้วลดลงเป็น ~2–4%/ปี · จะถูกถ้าโจทย์ถามอันดับรองลงมา หรือ vascular lesion ที่เลือดออกซ้ำแต่ช้ากว่า aneurysm"
+ },
+ "trap": "Rebleeding ของ aneurysm เสี่ยงสูงสุดใน<b>24 ชม.แรก (4–14%)</b> → ต้อง secure (coil/clip) ภายใน 24–72 ชม. และคุม SBP < 160 ระหว่างรอ · อย่าสับกับ AVM ที่เสี่ยงเลือดออกซ้ำต่ำกว่ามาก",
+ "summary": [
+  "Ruptured aneurysm (ไม่รักษา): rebleed ~20–30% ใน 2 สัปดาห์, ~50% ใน 6 เดือน · mortality จาก rebleed สูงมาก",
+  "Ruptured AVM: ~6–15% ปีแรก → 2–4%/ปี · Spetzler-Martin grading",
+  "Cavernoma: ไม่แตก ~0.5–1%/ปี · แตกแล้ว ~4–20%/ปี (brainstem สูง)",
+  "DVA: เลือดออกน้อยมาก ห้ามผ่าตัดเอาออก",
+  "SAH: nimodipine, secure aneurysm, EVD สำหรับ hydrocephalus"
+ ]
+},
+"MDCU68|RoC|19": {
+ "wrong": {
+  "B": "CT ได้รังสีสูงในเด็ก และไม่บอก drainage/split function · จะถูกถ้าสงสัยนิ่ว/ก้อน หรือบาดเจ็บช่องท้องในไตที่มี hydronephrosis เดิม",
+  "C": "Plain KUB ไม่ช่วยประเมิน hydronephrosis/obstruction (ดูได้แค่นิ่วทึบรังสี) · จะถูกถ้าโจทย์ถามการตรวจหานิ่วทึบรังสีเบื้องต้น",
+  "D": "Retrograde pyelography รุกล้ำ ต้องดมยา ใช้ระหว่างผ่าตัด pyeloplasty เพื่อดูท่อไตส่วนล่าง · จะถูกถ้าโจทย์ถามการตรวจขณะผ่าตัดเพื่อ R/O distal ureteral obstruction ร่วม",
+  "E": "VCUG ปกติแล้ว ไม่จำเป็นต้องทำซ้ำ (ได้รังสีและต้องสวน) · จะถูกถ้ามี febrile UTI ใหม่ที่สงสัย VUR ซึ่งเคยตรวจนานแล้ว"
+ },
+ "summary": [
+  "Antenatal HN → postnatal US (หลัง 48–72 ชม.) → VCUG → MAG3 diuretic renogram",
+  "UPJ obstruction = สาเหตุ congenital HN ที่พบบ่อยที่สุด",
+  "MAG3: split function + T½ drainage (> 20 นาที = obstruction)",
+  "Pyeloplasty: function < 40%, ลดลง > 10%, HN แย่ลง, มีอาการ (ปวด UTI นิ่ว)",
+  "ซ้ำธีม 66 RoA 18"
+ ]
+},
+"MDCU68|RoC|21": {
+ "wrong": {
+  "A": "CT ได้รังสี และไม่แม่นพอที่จะตัดว่าไม่มีอัณฑะในช่องท้อง (AUA ไม่แนะนำ imaging ก่อนส่ง) · จะถูกถ้าโจทย์เป็นผู้ใหญ่ที่สงสัยมะเร็งในอัณฑะที่ค้างในช่องท้อง (staging)",
+  "B": "MRI ไวไม่พอสำหรับอัณฑะในช่องท้อง เด็กต้องดมยา และผลลบก็ยังต้องผ่าตัดสำรวจ · จะถูกถ้าใช้เพื่อประเมินความผิดปกติร่วมใน DSD บางกรณี",
+  "D": "US ติดตามไม่เหมาะ — อายุ 3 ปีเลยเวลาผ่าตัด (≤ 18 เดือน) และ US หาอัณฑะในช่องท้องได้ไม่ดี · จะถูกถ้าเป็นทารก < 6 เดือนที่คลำได้ (ไม่ต้อง US เช่นกัน แต่ observe)",
+  "E": "Hormonal therapy (hCG/GnRH) ได้ผลต่ำ ไม่แนะนำ โดยเฉพาะ nonpalpable · จะถูกถ้าใช้ hCG stimulation test เพื่อดูว่ามี testicular tissue ใน bilateral nonpalpable testes"
+ },
+ "summary": [
+  "Nonpalpable testis (~20% ของ UDT): intra-abdominal, canalicular, หรือ vanished (nubbin)",
+  "EUA ก่อน → ถ้ายังคลำไม่ได้ → diagnostic laparoscopy",
+  "Laparoscopy: เห็น vessels+vas เข้า internal ring → explore groin · intra-abdominal → Fowler-Stephens (1 หรือ 2 stage) · blind-ending vessels → vanishing testis จบได้",
+  "Bilateral nonpalpable → R/O DSD/CAH ก่อน",
+  "Orchiopexy ภายใน 18 เดือน"
+ ]
+}
+}

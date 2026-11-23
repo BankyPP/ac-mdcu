@@ -1,0 +1,165 @@
+{
+"MDCU68|RoC|74": {
+ "wrong": {
+  "A": "Abscess > 6 cm เป็นข้อบ่งชี้ผ่าตัด เพราะโอกาสหายด้วยยาต่ำและเสี่ยงแตก/เลือดออก · จะเป็นคำตอบไม่ได้",
+  "B": "ไม่ดีขึ้นหลังยาเหมาะสม (~2 สัปดาห์) = medical failure เป็นข้อบ่งชี้ผ่าตัด (ปัจจุบันอาจลอง percutaneous/endobronchial drainage ก่อน) · ⚠ คีย์อีกไฟล์ตอบ B แต่ตามสไลด์ข้อนี้เป็นข้อบ่งชี้ · จะเป็นคำตอบไม่ได้ตามตำรา",
+  "C": "Massive hemoptysis เป็นข้อบ่งชี้ผ่าตัด/bronchial artery embolization ฉุกเฉิน · จะเป็นคำตอบถ้าช้อยเขียน 'occasional/minor hemoptysis'",
+  "E": "Abscess ที่คงอยู่/โตขึ้นแม้รักษา เป็นข้อบ่งชี้ผ่าตัด และต้อง R/O มะเร็ง (cavitating carcinoma) · จะเป็นคำตอบไม่ได้"
+ },
+ "summary": [
+  "Lung abscess → antibiotics 3–6 สัปดาห์ + postural drainage (หาย 80–90%)",
+  "Lobectomy: > 6 cm, medical failure, massive hemoptysis, persistent/enlarging, R/O carcinoma",
+  "แตกเข้าช่องเยื่อหุ้มปอด → empyema/pyopneumothorax → ICD ก่อน (ลายมือ: → ICD) ไม่ใช่ lobectomy ทันที",
+  "ห้ามใส่ ICD เข้าไปใน abscess ที่ยังไม่แตก",
+  "⚠ คีย์ 2 ไฟล์ขัดกัน (D vs B) — ตอบ D ตามสไลด์ indication for surgery"
+ ]
+},
+"MDCU68|RoC|89": {
+ "wrong": {
+  "A": "PEG 2–3 L ก่อน colonoscopy เป็นการเตรียมลำไส้มาตรฐานที่ปลอดภัย (iso-osmotic ไม่ดูดซึม ไม่เปลี่ยน electrolyte) แม้ผู้สูงอายุ/โรคไต · จะเป็นคำตอบไม่ได้",
+  "B": "PEG คืนก่อนผ่าตัดมะเร็งไส้ตรง เหมาะสม (ลายมือ PEG = ✓) · ปัจจุบันแนะนำ mechanical bowel prep <b>ร่วมกับ oral antibiotics</b> ก่อนผ่าตัดลำไส้ใหญ่ (ลด SSI/leak) · จะเป็นคำตอบไม่ได้",
+  "D": "Sodium phosphate ในหญิงอายุ 40 ปีสุขภาพดีใช้ได้ (ปริมาณน้อย ดื่มง่าย) ถ้าไม่มีโรคไต/หัวใจ/ยาที่เสี่ยง และดื่มน้ำเพียงพอ · จะเป็นคำตอบถ้าผู้ป่วยมี CKD, CHF, ascites, ใช้ ACEi/ARB/diuretic/NSAIDs",
+  "E": "ผิดเพราะมีข้อที่ไม่เหมาะ (C) · จะถูกถ้าทุกข้อเป็นการเตรียมลำไส้ที่เหมาะสม"
+ },
+ "trap": "Sodium phosphate ห้าม/เลี่ยงใน <b>ผู้สูงอายุ (> 55–60), CKD, HF, dehydration, ยา ACEi/ARB/diuretic/NSAIDs</b> เพราะเสี่ยง <b>acute phosphate nephropathy</b> (ไตวายถาวร), hyperphosphatemia, hypocalcemia, hypokalemia · ข้อ C คือหญิง 60 ปี → ไม่เหมาะ",
+ "summary": [
+  "PEG-electrolyte (2–4 L, split dose) = มาตรฐาน ปลอดภัยที่สุด",
+  "Sodium phosphate: ปริมาณน้อย แต่เสี่ยง phosphate nephropathy → ใช้เฉพาะคนอายุน้อยสุขภาพดี",
+  "Split-dose prep (ครึ่งหนึ่งคืนก่อน ครึ่งหนึ่งเช้าวันตรวจ) ให้ผลสะอาดที่สุด",
+  "ก่อนผ่าตัดลำไส้ใหญ่: MBP + oral antibiotics (neomycin + metronidazole/erythromycin) ลด SSI",
+  "ห้ามเตรียมลำไส้ใน obstruction/perforation/toxic megacolon"
+ ]
+},
+"MDCU68|RoD|1": {
+ "wrong": {
+  "A": "Ruptured cavernoma เลือดออกซ้ำ ~4–20%/ปี (สูงขึ้นที่ brainstem) แต่ยังต่ำกว่า aneurysm ช่วงแรก · จะถูกถ้าโจทย์ถาม 'popcorn' lesion ที่ brainstem ที่ต้องพิจารณาผ่าตัดหลังเลือดออกซ้ำ",
+  "B": "Hypertensive thalamic hemorrhage เกิดซ้ำได้ต่ำ (~2–4%/ปี) ป้องกันด้วยคุมความดัน · จะถูกถ้าโจทย์ถามสาเหตุ ICH ที่ป้องกันเลือดออกซ้ำด้วย BP control",
+  "C": "Pontine hemorrhage (hypertensive) อัตราตายสูงแต่เลือดออกซ้ำไม่บ่อย · จะถูกถ้าโจทย์ถาม ICH ที่โคม่าเร็ว pinpoint pupils",
+  "D": "Ruptured AVM เลือดออกซ้ำเป็นอันดับ 2 (ลายมือ D ที่ 2) ~6–15% ในปีแรกแล้วลดเหลือ 2–4%/ปี · จะถูกถ้าโจทย์ถามอันดับรองลงมาหรือถาม AVM โดยเฉพาะ"
+ },
+ "summary": [
+  "Rebleeding risk: ruptured aneurysm (สูงสุด — 24 ชม.แรก 4–14%, 2 สัปดาห์ 20–30%) > ruptured AVM > ruptured cavernoma > hypertensive ICH > DVA",
+  "Aneurysm: secure (coil/clip) เร็วภายใน 24–72 ชม. · ระหว่างรอ SBP < 160, ± tranexamic acid ระยะสั้น",
+  "AVM: Spetzler-Martin (size, eloquence, deep venous drainage) → microsurgery/SRS/embolization",
+  "Cavernoma: MRI SWI 'popcorn' · ผ่าตัดเมื่อเลือดออกซ้ำ/ชักดื้อยาในตำแหน่งที่เข้าถึงได้",
+  "ซ้ำ 68 RoC 6 (ช้อยเรียงต่าง)"
+ ]
+},
+"MDCU68|RoD|7": {
+ "wrong": {
+  "A": "Diplopia เกิดจากเส้นประสาทกลอกตา (CN III, IV, VI) ผิดปกติ — pituitary tumor ทำได้เมื่อลามเข้า cavernous sinus หรือ <b>pituitary apoplexy</b> แต่ไม่ใช่ visual <b>field</b> defect · จะถูกถ้าโจทย์เป็น apoplexy (ปวดหัวฉับพลัน + ophthalmoplegia) หรือถาม cavernous sinus invasion",
+  "B": "Right superior quadrantanopia ('pie in the sky') เกิดจาก Meyer's loop ใน <b>left temporal lobe</b> · จะถูกถ้าโจทย์เป็นก้อน/stroke ที่ left temporal lobe",
+  "D": "Binasal hemianopia พบน้อยมาก เกิดจากแรงกดด้านข้างของ chiasm ทั้งสองข้าง (เช่น ICA atherosclerosis/aneurysm สองข้าง) หรือ glaucoma · จะถูกถ้าโจทย์บอก ICA dolichoectasia สองข้างกด chiasm จากด้านข้าง",
+  "E": "Left homonymous hemianopia เกิดจากรอยโรคหลัง chiasm ฝั่งขวา (right optic tract/radiation/occipital) · จะถูกถ้าโจทย์เป็น right PCA stroke"
+ },
+ "summary": [
+  "Chiasm → bitemporal hemianopia · pituitary adenoma (จากล่าง) เริ่ม superior temporal · craniopharyngioma (จากบน) เริ่ม inferior temporal",
+  "Optic nerve → monocular loss · optic tract → contralateral homonymous hemianopia (incongruous)",
+  "Meyer's loop (temporal) → superior quadrantanopia · parietal → inferior quadrantanopia",
+  "Occipital → homonymous hemianopia with macular sparing",
+  "Pituitary apoplexy: ปวดหัวฉับพลัน + ตามัว + ophthalmoplegia → steroid + พิจารณา decompression"
+ ]
+},
+"MDCU68|RoD|12": {
+ "wrong": {
+  "A": "'Chronic' epidural hematoma พบน้อยมาก (EDH ส่วนใหญ่เป็นเลือดแดงเกิดเฉียบพลัน) และไม่ทำให้ uncal herniation เร็วแบบนี้ · จะถูกถ้าโจทย์บอกเด็กโต/ผู้ใหญ่ปวดหัวเรื้อรังหลังบาดเจ็บหลายวันจาก venous EDH ขนาดเล็ก",
+  "C": "Acute SDH ก็ทำให้ ipsilateral blown pupil + contralateral posturing ได้ และ<b>พบบ่อยกว่า EDH</b>ใน severe TBI — โจทย์ไม่มีภาพ CT จึงแยกยาก แต่คีย์เลือก EDH · จะถูกถ้า CT เป็น crescent-shaped hyperdensity ข้าม suture หรือผู้สูงอายุ/ติดสุรา/กินยาต้านเลือด",
+  "D": "SAH จากบาดเจ็บไม่ทำ mass effect ข้างเดียวจน uncal herniation · จะถูกถ้าโจทย์บอกปวดหัวรุนแรง คอแข็ง CT เห็นเลือดใน sulci/cisterns",
+  "E": "IVH ทำให้ hydrocephalus มากกว่าอาการข้างเดียว · จะถูกถ้าโจทย์เป็นทารกคลอดก่อนกำหนดหรือ ICH ที่ทะลุเข้า ventricle"
+ },
+ "summary": [
+  "Ipsilateral dilated pupil (CN III) + contralateral motor sign = uncal herniation จาก mass ข้างที่รูม่านตาขยาย",
+  "EDH: middle meningeal artery, biconvex, lucid interval, กะโหลก temporal แตก",
+  "SDH: bridging veins, crescent, บ่อยกว่าใน severe TBI, brain injury ร่วม",
+  "ต้องยืนยันด้วย CT ก่อนผ่าตัด · ระหว่างรอ: hyperosmolar therapy, หัวสูง, hyperventilation ชั่วคราว",
+  "⚠ recall ไม่มีภาพ CT/lucid interval — ความมั่นใจต่ำ (ซ้ำธีม 68 RoB 26–27)"
+ ]
+},
+"MDCU68|RoD|13": {
+ "interp": "ต่อจากข้อก่อน — คีย์ตอบ <b>Kernohan notch phenomenon</b> แต่ข้อมูลที่จดไว้ (pupil ซ้าย + posturing ขวา) เป็น localizing ปกติ · recall น่าจะคลาดเคลื่อน โจทย์จริงน่าจะเป็นอ่อนแรง<b>ข้างเดียวกับ</b> pupil ที่ขยาย",
+ "summary": [
+  "Kernohan notch: mass ดัน midbrain ไปกด <b>contralateral</b> cerebral peduncle กับขอบ tentorium → อ่อนแรง/posturing <b>ข้างเดียวกับ mass</b> (false localizing sign)",
+  "Uncal herniation ปกติ: ipsilateral CN III palsy + contralateral hemiparesis",
+  "ใช้รูม่านตาที่ขยายบอกข้างของก้อนแม่นกว่าข้างที่อ่อนแรง → ยืนยันด้วย CT",
+  "Duret hemorrhage: เลือดออกใน brainstem จาก herniation (late, poor prognosis)",
+  "Cushing triad: HT + bradycardia + irregular respiration",
+  "⚠ ตามที่ recall เขียนไว้ไม่ใช่ Kernohan — ตอบตามคีย์ (B) ซ้ำธีม 68 RoB 28"
+ ]
+},
+"MDCU68|RoD|5": {
+ "wrong": {
+  "A": "NPH เป็น communicating hydrocephalus ความดันปกติ — <b>large-volume tap test</b> ใช้ทำนายผล shunt จึงไม่ใช่ข้อห้าม · จะเป็นข้อห้ามถ้า CT พบก้อน/obstructive pattern",
+  "B": "Hydrocephalus หลัง bacterial meningitis เป็น communicating (ลายมือ B: CSF absorption) LP ทำได้ · จะเป็นข้อห้ามถ้ามี abscess/subdural empyema ที่มี mass effect",
+  "C": "Hydrocephalus หลัง SAH ส่วนใหญ่เป็น communicating (ลายมือ C) · lumbar drain ใช้ได้ในบางกรณี · จะเป็นข้อห้ามถ้าเป็นระยะแรกที่ลิ่มเลือดอุดใน ventricle (obstructive) — ต้องใช้ EVD",
+  "E": "Communicating hydrocephalus ในผู้ใหญ่ CSF เชื่อมกันตลอด LP ทำได้ · ⚠ คีย์อีกไฟล์ตอบ E แต่ไม่ถูกตามหลัก · จะเป็นข้อห้ามถ้ามี coagulopathy/ติดเชื้อที่ผิวหนังตำแหน่งเจาะ"
+ },
+ "summary": [
+  "Obstructive (aqueductal stenosis, tumor, colloid cyst) → ห้าม LP",
+  "Communicating (meningitis, SAH, NPH) → LP ทำได้",
+  "CT ก่อน LP เมื่อ: focal deficit, papilledema, ซึม, ชักใหม่, immunocompromised, อายุ > 60",
+  "Aqueductal stenosis → ETV หรือ VP shunt",
+  "⚠ คีย์ 2 ไฟล์ขัดกัน (D vs E) — ตอบ D ตามหลัก · ซ้ำ 66 RoA 32/X3"
+ ]
+},
+"MDCU68|RoD|17": {
+ "wrong": {
+  "A": "ยาปฏิชีวนะไม่แก้ปัญหาหนังหุ้มปลายรัดที่ทำให้ glans ขาดเลือด (paraphimosis เป็นปัญหาเชิงกล) · จะถูกถ้าโจทย์เป็น balanoposthitis (หนังหุ้มปลายอักเสบติดเชื้อ แดง มีหนอง)",
+  "C": "Dorsal slit ทำเมื่อ<b>ดันกลับไม่สำเร็จ</b> (ลายมือ: 2nd dorsal slit) ภายใต้ยาชา · จะถูกถ้าโจทย์บอกพยายาม manual reduction แล้วล้มเหลว หรือ glans เริ่มเขียวคล้ำ",
+  "D": "Emergency circumcision ไม่ใช่ขั้นแรก — ทำในเนื้อเยื่อบวมมาก ผลไม่ดี · ทำแบบ <b>elective</b> หลังยุบบวมเพื่อกันเป็นซ้ำ · จะถูกถ้าเนื้อหนังหุ้มปลายตาย/ติดเชื้อ หรือดันกลับไม่ได้และ dorsal slit ไม่พอ",
+  "E": "การรอดูทำให้ glans ขาดเลือด เนื้อตาย · paraphimosis เป็น urologic emergency · ไม่มีสถานการณ์ที่ควรรอดู"
+ },
+ "trap": "<b>Paraphimosis</b> = หนังหุ้มปลายรูดลง<b>ค้างหลัง glans</b> กลับไม่ได้ → รัด → glans บวม ขาดเลือด (emergency) · <b>Phimosis</b> = รูดหนังหุ้มปลายลง<b>ไม่ได้</b> (ไม่ฉุกเฉิน ยกเว้นปัสสาวะไม่ออก) · iatrogenic: ลืมรูดกลับหลังใส่สายสวน/ตรวจ",
+ "summary": [
+  "Paraphimosis: analgesia (penile block) → ลดบวม (กดบีบ 5–10 นาที, น้ำตาล/ice, เข็มเจาะหลายรู) → manual reduction (ดัน glans เข้า ดึงหนังขึ้น)",
+  "ล้มเหลว → dorsal slit · ต่อด้วย elective circumcision",
+  "Phimosis ในเด็ก < 3 ปีเป็นปกติ (physiologic) · pathologic → topical steroid → circumcision",
+  "สาเหตุ paraphimosis: iatrogenic (สายสวน), เพศสัมพันธ์, piercing",
+  "ป้องกัน: รูดหนังหุ้มปลายกลับทุกครั้งหลังใส่สาย Foley/ทำความสะอาด"
+ ]
+},
+"MDCU68|RoD|22": {
+ "wrong": {
+  "A": "Cystoscopy ดู urethra/bladder ใช้ก่อนผ่าตัด BPH หรือ hematuria ไม่ช่วยวินิจฉัย prostate cancer · จะถูกถ้าโจทย์มี hematuria หรือวางแผน TURP แล้ว",
+  "B": "TURP ทันทีไม่เหมาะ — ยังต้อง R/O มะเร็ง (PSA 8) และ LUTS ปานกลางควรลองยาก่อนถ้าไม่มีภาวะแทรกซ้อน · จะถูกถ้า biopsy ลบแล้วผู้ป่วยมี refractory retention/ภาวะแทรกซ้อนของ BPH",
+  "D": "Uroflowmetry อย่างเดียวประเมิน obstruction แต่ไม่ตอบคำถามเรื่อง PSA ที่สูง · ⚠ ช้อยเดิมเป็น MRI ซึ่งปัจจุบันทำก่อน biopsy ได้ Claude เปลี่ยนเพื่อให้มีคำตอบเดียว · จะถูกถ้า PSA ปกติและกำลังประเมิน BPH",
+  "E": "ตรวจ PSA ซ้ำใน 5 ปีเหมาะกับ PSA ปกติต่ำ ไม่ใช่ PSA 8 · จะถูกถ้า PSA < 1–2 ในชายอายุ 60 (ความเสี่ยงต่ำ)"
+ },
+ "summary": [
+  "PSA > 4 (ยืนยันซ้ำ) หรือ DRE ผิดปกติ → mpMRI → biopsy (targeted + systematic)",
+  "PSA density (PSA/prostate volume) > 0.15 สนับสนุนมะเร็ง · free/total PSA < 10–25% สนับสนุนมะเร็ง",
+  "BPH ทำให้ PSA สูงได้ แต่ต้อง R/O มะเร็งก่อนรักษา BPH แบบผ่าตัด",
+  "BPH: alpha-blocker ± 5-ARI → TURP/HoLEP เมื่อล้มเหลวหรือมีภาวะแทรกซ้อน",
+  "ซ้ำธีม 68 RoB 37"
+ ]
+},
+"MDCU68|RoD|23": {
+ "wrong": {
+  "B": "5-ARI + alpha-blocker เป็นยารักษา BPH ที่ยังไม่มีภาวะแทรกซ้อน แต่ผู้ป่วยมี <b>chronic retention + bilateral hydronephrosis</b> (upper tract damage) = ข้อบ่งชี้ผ่าตัด ยาไม่พอ · จะถูกถ้าเป็น LUTS ปานกลาง–รุนแรง ต่อมใหญ่ ไม่มี retention/hydronephrosis",
+  "C": "Retrograde ureterogram ไม่จำเป็น — hydronephrosis เกิดจาก bladder outlet obstruction (ต่อมลูกหมาก) ไม่ใช่ท่อไตอุด · จะถูกถ้าสงสัย ureteral obstruction จากนิ่ว/ก้อนที่ต้องดูชัด",
+  "D": "Bilateral PCN ใช้เมื่อ obstruction อยู่ระดับท่อไต หรือระบายทางท่อปัสสาวะไม่ได้ · ที่นี่อุดที่ bladder outlet ใส่ Foley ก็ระบายไตทั้งสองข้างได้ · จะถูกถ้าใส่ Foley/suprapubic แล้ว hydronephrosis ไม่ดีขึ้น หรือ obstruction ที่ท่อไต",
+  "E": "การเฝ้าดูทำให้ไตเสื่อมต่อ (obstructive uropathy) · ไม่เหมาะเมื่อมี hydronephrosis สองข้าง"
+ },
+ "summary": [
+  "Chronic urinary retention + overflow incontinence (ฉี่เล็ดเมื่อไอจาม/ตลอดเวลา) + bilateral hydronephrosis = high-pressure chronic retention",
+  "ใส่ Foley ระบาย → ติดตาม creatinine และ <b>post-obstructive diuresis</b> (ปัสสาวะ > 200 mL/hr) + electrolyte",
+  "Indications ผ่าตัด BPH: refractory retention, renal insufficiency/hydronephrosis, recurrent UTI, bladder stones, recurrent hematuria, ล้มเหลวจากยา",
+  "TURP (< 80 mL), HoLEP (ทุกขนาด), open/robotic simple prostatectomy (> 80–100 mL)",
+  "PSA สูงได้จาก retention/สายสวน → แปลผลหลังระบาย ± ประเมินมะเร็ง"
+ ]
+},
+"MDCU68|RoD|38": {
+ "wrong": {
+  "A": "ผิด — primary spontaneous pneumothorax พบในชาย<b>หนุ่ม</b> (20–30 ปี) สูงผอม สูบบุหรี่ จาก apical blebs (ลายมือ A = young) · secondary พบในผู้สูงอายุที่มีโรคปอด (COPD) · จะถูกถ้าแก้เป็น 'tall thin young men'",
+  "C": "ผิด — catamenial pneumothorax (thoracic endometriosis) เกิด<b>ภายใน 72 ชม.หลังเริ่มมีประจำเดือน</b> ส่วนใหญ่ข้างขวา และมักไม่ได้กินยาคุม (ลายมือ C) · จะถูกถ้าแก้เป็น 'within 72 h of onset of menses, right side'",
+  "D": "ผิด — hemopneumothorax พบเพียง ~5–10% ของ spontaneous pneumothorax (ลายมือ D 5–10%) จากหลอดเลือดใน adhesion ฉีก · จะถูกถ้าแก้ตัวเลขเป็น 5–10%",
+  "E": "ผิดตามคีย์/สไลด์ — การป้องกันการเป็นซ้ำใช้ VATS bullectomy + <b>pleurodesis</b> (mechanical abrasion/talc) เป็นหลัก; pleurectomy ใช้น้อยกว่า (ลายมือ E <) · จะถูกถ้าโจทย์ถามวิธีที่ recurrence ต่ำสุด (pleurectomy ~1% แต่ morbidity มากกว่า)"
+ },
+ "summary": [
+  "PSP: หนุ่มสูงผอมสูบบุหรี่, apical blebs · SSP: COPD, CF, TB, PJP, มะเร็ง, LAM, catamenial",
+  "Osteosarcoma lung metastasis (subpleural) เป็นสาเหตุ malignant ที่พบบ่อยสุดของ pneumothorax ในเด็ก → หา mets",
+  "PSP เล็ก ไม่มีอาการ → observe/O₂ · ใหญ่/มีอาการ → needle aspiration หรือ small-bore drain",
+  "Surgery (VATS bullectomy + pleurodesis): เป็นซ้ำ, ข้างตรงข้าม, bilateral, air leak > 5 วัน, hemopneumothorax, อาชีพเสี่ยง (นักบิน นักดำน้ำ)",
+  "Tension pneumothorax → needle decompression (5th ICS anterior axillary line ในผู้ใหญ่, ATLS 10th) → ICD"
+ ]
+}
+}

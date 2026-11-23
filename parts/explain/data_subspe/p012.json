@@ -1,0 +1,218 @@
+{
+"MDCU68|RoC|22": {
+ "interp": "ชาย 65 ปี <b>ไม่มีอาการทางเดินปัสสาวะ</b> แต่ DRE พบ <b>hard nodule</b> + PSA 6.5 → ประเด็นคือ R/O prostate cancer (ลายมือ) ไม่ใช่รักษา BPH",
+ "wrong": {
+  "A": "Uroflowmetry วัดความแรงการปัสสาวะใช้ประเมิน bladder outlet obstruction ใน LUTS/BPH ไม่ช่วยวินิจฉัยมะเร็ง และผู้ป่วยไม่มี LUTS · จะถูกถ้าโจทย์เป็น LUTS จาก BPH ที่ต้องการประเมินก่อนผ่าตัด (Qmax < 10 mL/s)",
+  "B": "Cystourethroscopy ดู urethra/bladder (หาก้อน bladder, stricture) ไม่ได้วินิจฉัย prostate cancer · จะถูกถ้าโจทย์เป็น hematuria ต้อง R/O bladder cancer หรือวางแผน TURP",
+  "C": "Bone scan ใช้ <b>staging</b> หลังวินิจฉัยมะเร็งแล้ว (PSA > 20, Gleason ≥ 8, T3–4 หรือมีปวดกระดูก) ไม่ใช่ขั้นแรก · จะถูกถ้า biopsy ยืนยัน high-risk prostate cancer แล้ว",
+  "E": "การติดตามทุกปีไม่เหมาะเมื่อ DRE พบก้อนแข็ง — DRE ผิดปกติเป็นข้อบ่งชี้ biopsy แม้ PSA ปกติ · จะถูกถ้า DRE ปกติ PSA ปกติ และเป็นการคัดกรองตามรอบ (shared decision)"
+ },
+ "summary": [
+  "Indication prostate biopsy: DRE ผิดปกติ (nodule, induration) หรือ PSA สูง (ยืนยันซ้ำ)",
+  "ปัจจุบัน (EAU): mpMRI (PI-RADS) ก่อน biopsy → targeted + systematic biopsy (transperineal ติดเชื้อน้อยกว่า TRUS)",
+  "Gleason/ISUP grade group 1–5 · staging: PSMA-PET/CT หรือ CT + bone scan ใน intermediate–high risk",
+  "Localized: active surveillance (low risk), radical prostatectomy, RT ± ADT",
+  "Metastatic: ADT + ARPI (abiraterone, enzalutamide) ± docetaxel"
+ ]
+},
+"MDCU68|RoC|24": {
+ "wrong": {
+  "A": "การทำ IVP + cystoscopy ซ้ำทุก 3 เดือนได้รังสีและรุกล้ำโดยไม่จำเป็น และ IVP ไวน้อยกว่า CTU · จะถูกถ้าโจทย์เป็นการติดตามหลังรักษา NMIBC (cystoscopy ทุก 3 เดือนปีแรก)",
+  "B": "การติดตาม UA ทุก 3–6 เดือนเหมาะหลัง workup ครบและ<b>ปกติ</b>แล้ว — ข้อนี้ upper tract ยังตรวจด้วย IVP ซึ่งไวไม่พอ (พลาด small renal mass/UTUC) · จะถูกถ้าทำ CTU + cystoscopy แล้วปกติ",
+  "C": "Retrograde pyelogram รุกล้ำ ใช้เมื่อทำ CTU ไม่ได้ (แพ้ contrast/ไตเสื่อม) หรือ CTU พบ filling defect ที่ต้องดูชัด/เก็บ cytology · จะถูกถ้าผู้ป่วยแพ้สารทึบรังสีหรือ eGFR ต่ำมาก",
+  "E": "การติดตามอย่างเดียวโดยไม่ได้ตรวจ upper tract ด้วยวิธีที่ไวพอ อาจพลาดมะเร็ง · จะถูกถ้า workup เหมาะสมครบแล้วและปกติ หรือผู้ป่วยความเสี่ยงต่ำมากที่ microscopic hematuria หายไปเมื่อตรวจซ้ำ"
+ },
+ "summary": [
+  "Hematuria workup: upper tract (CT urography) + lower tract (cystoscopy)",
+  "AUA 2020 microhematuria: แบ่งความเสี่ยง (อายุ, เพศ, บุหรี่, จำนวน RBC) — low risk อาจ repeat UA, intermediate → US + cystoscopy, high → CTU + cystoscopy",
+  "Gross hematuria → CTU + cystoscopy เสมอ",
+  "แพ้ contrast/ไตเสื่อม → MR urography หรือ non-contrast CT + retrograde pyelography",
+  "Workup ปกติแต่ยังมี hematuria → ติดตาม UA ประจำ · ถ้ามี proteinuria/dysmorphic RBC/casts → glomerular → nephrology"
+ ]
+},
+"MDCU68|RoC|37": {
+ "interp": "ข้อ <b>NOT</b> correct เรื่อง skin graft — ให้หาข้อความผิด ซึ่งเกี่ยวกับการหายของ<b>แผล donor ของ FTSG</b>",
+ "wrong": {
+  "A": "ถูก — STSG เอาเพียงบางส่วนของ dermis ไป จึงยังมี adnexa (hair follicles, sweat glands) เหลือ → epithelium งอกขึ้นมาปิด donor เองใน 10–14 วัน · จะเป็นข้อผิดถ้าแก้เป็น 'STSG donor needs primary closure'",
+  "B": "ถูก — graft ไม่มีเลือดเลี้ยงของตัวเอง ต้องติดบนพื้นที่มีเลือดเลี้ยง (granulation, muscle, periosteum, paratenon) · ติดไม่ได้บน bare bone/tendon/cartilage/radiated bed · จะเป็นข้อผิดถ้าแก้เป็น 'grafts take on exposed bone without periosteum'",
+  "D": "ถูก — FTSG หดตัวทุติยภูมิ (secondary contraction) <b>น้อยกว่า</b> STSG (เพราะ dermis หนากว่า) แต่หดตัวทันทีหลังตัด (primary contraction) มากกว่า · ใช้ในใบหน้า มือ ข้อพับ · จะเป็นข้อผิดถ้าแก้เป็น 'FTSG contracts more'",
+  "E": "ถูก — hematoma/seroma เป็นสาเหตุ graft ไม่ติดที่พบบ่อยที่สุด (แยก graft ออกจากพื้นแผล) ตามด้วย shear และติดเชื้อ · จะเป็นข้อผิดถ้าแก้เป็น 'infection is the commonest cause'"
+ },
+ "summary": [
+  "Graft take: plasmatic imbibition (0–48 ชม.) → inosculation (48–72 ชม.) → revascularization (~5 วัน)",
+  "Failure: hematoma/seroma (บ่อยสุด) > shear > infection (Strep β-hemolytic > 10⁵ CFU/g) > poor bed",
+  "STSG: ติดง่าย, donor หายเอง, หดตัวมาก, สีผิวไม่เข้า · FTSG: หดน้อย, สีและผิวดีกว่า, donor ต้องเย็บปิด",
+  "FTSG donor: หลังหู, เหนือไหปลาร้า, ขาหนีบ, เปลือกตาบน",
+  "Bolster/tie-over dressing ป้องกัน hematoma และ shear"
+ ]
+},
+"MDCU68|RoC|39": {
+ "wrong": {
+  "A": "Craniosynostosis คือ suture ปิดก่อนกำหนด ทำให้รูปกะโหลกผิด (scaphocephaly, plagiocephaly, trigonocephaly) ไม่มีก้อนยื่นที่โคนจมูก · จะถูกถ้าภาพแสดงศีรษะยาวแคบ (sagittal) หรือหน้าผากเป็นสัน (metopic)",
+  "B": "Craniofacial cleft (Tessier) เป็นรอยแยกผ่านใบหน้า/กะโหลกตามตำแหน่งตัวเลข 0–14 ไม่ใช่ก้อนเนื้อสมองยื่น · จะถูกถ้าภาพเป็นรอยแยกผ่าน orbit/แก้ม",
+  "D": "Frontonasal dysplasia: hypertelorism, จมูกกว้างแบน ปลายจมูกแยก (bifid nose), widow's peak ไม่มีถุงเนื้อสมองยื่นออกมา · จะถูกถ้าภาพแสดงจมูกแบนกว้างแยกกลาง + ตาห่าง โดยไม่มีก้อน",
+  "E": "Treacher Collins: zygoma/mandible เล็ก ตาเอียงลง lid coloboma microtia · จะถูกถ้าภาพแสดงใบหน้าส่วนล่าง-ข้างเล็ก หูผิดรูป"
+ },
+ "summary": [
+  "FEEM (frontoethmoidal encephalomeningocele): ถุงยื่นจาก defect ที่ foramen caecum ออกมาบริเวณ nasion/glabella/medial canthus",
+  "พบบ่อยในไทยและเอเชียตะวันออกเฉียงใต้ · subtypes: nasofrontal, nasoethmoidal, naso-orbital",
+  "ลักษณะ: ก้อนนุ่มที่โคนจมูก โตเมื่อร้อง/เบ่ง (Furstenberg sign), telecanthus/hypertelorism",
+  "ห้าม biopsy/เจาะก้อนกลางจมูกในเด็ก (เสี่ยง CSF leak/meningitis) → CT + MRI ก่อน",
+  "ผ่าตัด: ปิด dural/skull defect (intracranial) + แก้ไขรูปใบหน้า (extracranial)",
+  "DDx ก้อนกลางจมูกเด็ก: dermoid, glioma (nasal glial heterotopia), encephalocele"
+ ]
+},
+"MDCU68|RoC|41": {
+ "why": "<b>Wide local excision margin ของ melanoma</b> กำหนดตาม <b>Breslow thickness</b> (NCCN/AJCC 8th): <b>in situ</b> 0.5–1 cm · <b>≤ 1 mm</b> 1 cm · <b>1.01–2 mm</b> 1–2 cm · <b>> 2 mm</b> 2 cm · โจทย์ (ตามลายมือ: 2 mm → 2 cm) จึงตอบ 2 cm · พร้อมทำ <b>sentinel lymph node biopsy</b> เมื่อ thickness ≥ 0.8 mm (T1b ขึ้นไป) หรือ < 0.8 mm ที่มี ulceration · margin ที่กว้างเกิน 2 cm ไม่เพิ่ม survival · เปรียบเทียบ (ลายมือ): 0.5 cm ≈ BCC (4–5 mm), 1 cm ≈ SCC high-risk (6 mm–1 cm)",
+ "wrong": {
+  "A": "0.5 cm (4–5 mm) เหมาะกับ <b>BCC</b> low-risk หรือ melanoma in situ (0.5–1 cm) ไม่พอสำหรับ invasive melanoma หนา 2 mm (local recurrence สูง) · จะถูกถ้าเป็น melanoma in situ หรือ BCC low-risk",
+  "B": "1 cm เหมาะกับ melanoma ≤ 1 mm (และพอได้ใน 1–2 mm ตามความเหมาะสมของตำแหน่ง) หรือ SCC high-risk (ลายมือ B → SCC) · จะถูกถ้าโจทย์บอก Breslow ≤ 1 mm",
+  "D": "Modified neck dissection ทำเมื่อ<b>มีต่อมน้ำเหลืองคลำได้/ยืนยันว่ามีมะเร็ง</b> (clinically positive nodes) ไม่ใช่การรักษารอยโรคปฐมภูมิ · ปัจจุบัน SLNB บวกมักติดตามด้วย US แทน completion dissection (MSLT-II) · จะถูกถ้าโจทย์บอกคลำต่อมน้ำเหลืองที่คอได้และ FNA ยืนยัน",
+  "E": "Lymph node biopsy (SLNB) เป็นการ staging ทำ<b>ร่วม</b>กับ wide excision ไม่ใช่การรักษารอยโรคปฐมภูมิ · จะถูกถ้าโจทย์ถาม 'staging procedure' ของ melanoma หนา ≥ 0.8 mm ที่คลำต่อมไม่ได้"
+ },
+ "summary": [
+  "Melanoma margin: in situ 0.5–1 cm · ≤ 1 mm 1 cm · 1–2 mm 1–2 cm · > 2 mm 2 cm",
+  "Breslow thickness = ปัจจัยพยากรณ์สำคัญที่สุดของ primary · ulceration, mitotic rate ด้วย",
+  "SLNB: ≥ 0.8 mm หรือ < 0.8 mm + ulceration",
+  "Biopsy รอยโรคสงสัย: excisional biopsy margin 1–3 mm (ไม่ใช่ shave)",
+  "ABCDE: Asymmetry, Border, Color, Diameter > 6 mm, Evolving · acral lentiginous พบบ่อยในคนเอเชีย (ฝ่าเท้า ใต้เล็บ)",
+  "⚠ โจทย์ Q40 ไม่อยู่ในไฟล์ — Claude สมมติ melanoma หนา ~2 mm ตามลายมือ"
+ ]
+},
+"MDCU68|RoC|42": {
+ "wrong": {
+  "B": "Admit ทำ X-ray ซ้ำ ๆ ไม่จำเป็นในเด็กไม่มีอาการที่เหรียญอยู่ในกระเพาะแล้ว (ส่วนใหญ่ผ่านออกเองใน 4–6 วัน) · จะถูกถ้ามีอาการปวดท้อง อาเจียน เลือดออก หรือเป็นวัตถุอันตราย (หลายแม่เหล็ก, ของแหลมยาว)",
+  "C": "Gastroscopic removal ใช้เมื่อเหรียญ<b>ค้างใน esophagus</b> (เอาออกภายใน 24 ชม., ทันทีถ้ามีอาการ), เหรียญค้างในกระเพาะนาน > 2–4 สัปดาห์, วัตถุยาว > 5–6 cm/แหลม, button battery ในกระเพาะที่มีอาการ, หลายแม่เหล็ก · จะถูกถ้า X-ray เห็นเหรียญที่ esophagus หรือค้างในกระเพาะนาน",
+  "D": "การดื่มน้ำมาก ๆ ไม่ได้ช่วยให้ออกเร็วขึ้นอย่างมีหลักฐาน กินอาหารปกติก็พอ · จะถูกไม่ได้ในฐานะการรักษาหลัก (ห้ามให้ยาระบาย/อาหารพิเศษโดยไม่จำเป็น)",
+  "E": "การทำให้อาเจียนห้ามใน foreign body ingestion (เสี่ยงสำลัก วัตถุติดหลอดอาหาร) · ไม่มีสถานการณ์ที่เหมาะ (รวมถึง ipecac ซึ่งเลิกใช้แล้ว)"
+ },
+ "summary": [
+  "เหรียญใน esophagus: ระดับ cricopharyngeus บ่อยสุด · มองหน้าตรง X-ray เห็นแผ่นกลม (trachea เห็นด้านข้าง) → endoscopic removal ภายใน 24 ชม.",
+  "เหรียญในกระเพาะ ไม่มีอาการ → กลับบ้าน สังเกตอุจจาระ ± X-ray ถ้าไม่ออก 2–4 สัปดาห์",
+  "<b>Button battery ใน esophagus = emergency</b> (เผาไหม้ใน 2 ชม.) · double-ring/halo sign · ให้น้ำผึ้งระหว่างรอถ้า < 12 ชม. และ > 1 ปี",
+  "แม่เหล็กหลายชิ้น → ดึงดูดผ่านผนังลำไส้ → perforation/fistula → เอาออก",
+  "วัตถุแหลม/ยาว > 5–6 cm → endoscopic removal"
+ ]
+},
+"MDCU68|RoC|51": {
+ "wrong": {
+  "B": "มาช้ากว่า 48 ชม. ลดโอกาส reduction สำเร็จและเพิ่มความเสี่ยงลำไส้ขาดเลือด แต่<b>ไม่ใช่ข้อห้าม</b> ถ้าไม่มี peritonitis/perforation/ช็อก · จะถูกถ้าโจทย์ถามปัจจัยที่ลดความสำเร็จของ enema",
+  "C": "อายุ > 3 ปีไม่ใช่ข้อห้าม แต่ต้องหา <b>pathologic lead point</b> (Meckel, polyp, lymphoma, HSP) — อาจลอง enema ได้แล้วตรวจหา lead point · จะถูกถ้าโจทย์ถามข้อบ่งชี้ในการหา lead point",
+  "D": "Recurrence หลัง pneumatic reduction (~10%) ไม่ใช่ข้อห้าม — enema ซ้ำได้ สำเร็จสูง · จะถูกถ้าโจทย์ถามว่าการเป็นซ้ำหลายครั้งต้องหา lead point/พิจารณาผ่าตัด",
+  "E": "Intussusception ซ้ำหลังผ่าตัด (เช่น postoperative small bowel intussusception) มักเป็น ileo-ileal ที่ enema เข้าไม่ถึง และอาจมีพังผืด — โดยทั่วไปต้องผ่าตัด/ประเมินแยก แต่ในบริบทข้อสอบไม่ใช่ข้อห้ามคลาสสิกเท่า perforation · จะถูกถ้าโจทย์ถาม postoperative intussusception (ileo-ileal) ที่ enema ไม่ได้ผล"
+ },
+ "summary": [
+  "Absolute contraindications ของ enema reduction: perforation (free air), peritonitis, hemodynamic instability/ช็อก",
+  "Air enema (pneumatic) ≥ hydrostatic · สำเร็จ ~80–90% · perforation < 1%",
+  "เตรียม: resuscitation, NG, ศัลยแพทย์พร้อม, เตรียมเจาะลม (needle decompression) ถ้าเกิด tension pneumoperitoneum",
+  "ล้มเหลว/ข้อห้าม → laparotomy/laparoscopy: manual reduction (บีบดันจากปลาย ไม่ดึง) ± resection",
+  "Recurrence ~10% → enema ซ้ำได้ · หลายครั้ง/อายุมาก → หา lead point"
+ ]
+},
+"MDCU68|RoC|53": {
+ "wrong": {
+  "B": "ติดกับ cord โดย<b>ไม่มีถุง</b>เป็นลักษณะของ <b>gastroschisis</b> (defect อยู่ด้านขวาของ cord ที่ปกติ ลำไส้ไม่มีถุงหุ้ม) · omphalocele มีถุงและ cord เกาะบนถุง · จะถูกถ้าโจทย์ถามลักษณะของ gastroschisis",
+  "C": "Omphalocele พยากรณ์<b>แย่กว่า</b> (ลายมือ C แย่กว่า) เพราะมี associated anomalies 50–80% (cardiac, chromosomal — trisomy 13/18/21, Beckwith-Wiedemann, pentalogy of Cantrell) · gastroschisis anomaly ร่วมน้อย (ยกเว้น intestinal atresia ~10%) survival > 90% · จะถูกถ้าช้อยเป็น gastroschisis",
+  "D": "Omphalocele ที่ถุงยังไม่แตก<b>ไม่ต้องปิดฉุกเฉิน</b> (ถุงปกป้องลำไส้) — ประเมิน anomaly ก่อน, giant omphalocele ใช้ 'paint and wait' (silver sulfadiazine/povidone ให้ epithelialize) · gastroschisis ลำไส้โผล่ต้องคลุม/ใส่ silo และปิดเร็ว · จะถูกถ้าเป็น gastroschisis หรือ omphalocele ที่ถุงแตก",
+  "E": "ทารก SGA, มารดาอายุน้อย (< 20 ปี), สูบบุหรี่/ยาเสพติด เป็นลักษณะของ <b>gastroschisis</b> · omphalocele สัมพันธ์มารดาอายุมากและ Beckwith-Wiedemann (ตัวใหญ่ LGA, macroglossia, hypoglycemia) · จะถูกถ้าช้อยเป็น gastroschisis"
+ },
+ "summary": [
+  "Omphalocele: midline, มีถุง (amnion + peritoneum), cord บนถุง, มีตับ ± ลำไส้, anomaly 50–80%",
+  "Gastroschisis: ขวาของ cord, ไม่มีถุง, ลำไส้หนาบวม (exposure ต่อน้ำคร่ำ), anomaly น้อย (atresia ~10%)",
+  "Gastroschisis: คลุมลำไส้ด้วย plastic, ให้น้ำ, ป้องกัน hypothermia → primary closure หรือ silo แล้วค่อยปิด",
+  "Omphalocele: echo, karyotype, หา hypoglycemia (BWS) · ขนาดเล็กปิด primary · giant → paint and wait",
+  "Prognosis: gastroschisis ขึ้นกับสภาพลำไส้ · omphalocele ขึ้นกับ anomaly ร่วม"
+ ]
+},
+"MDCU68|RoC|54": {
+ "wrong": {
+  "A": "Ileostomy ใช้ใน <b>total colonic aganglionosis</b> หรือ long-segment ก่อน definitive surgery, หรือ enterocolitis รุนแรง · ไม่ใช่สำหรับ rectosigmoid · จะถูกถ้าโจทย์เป็น Hirschsprung ที่ลามถึงทั้ง colon",
+  "B": "Transverse colectomy ไม่ได้เอา aganglionic rectum ออก — aganglionosis เริ่มจาก internal sphincter ขึ้นไปต่อเนื่อง จึงต้องเอา rectum ส่วนที่ไม่มี ganglion ออก · จะถูกไม่ได้ในการรักษา Hirschsprung",
+  "D": "Sigmoidectomy อย่างเดียวทิ้ง aganglionic rectum ไว้ → ยังอุดตันอยู่ · จะถูกถ้าโจทย์เป็น sigmoid volvulus ในผู้สูงอายุ",
+  "E": "Rectal irrigation (washout) เป็น <b>initial/bridging management</b> (ลายมือ E = initial Mx) ลดลำไส้โป่งและป้องกัน enterocolitis ระหว่างรอผ่าตัด · ไม่ใช่ definitive · จะถูกถ้าโจทย์ถามการจัดการแรกหลังวินิจฉัย หรือ Hirschsprung-associated enterocolitis"
+ },
+ "summary": [
+  "Hirschsprung: ไม่มี ganglion cells (Meissner & Auerbach) จาก internal sphincter ขึ้นไปต่อเนื่อง · rectosigmoid ~75–80%",
+  "อาการ: ไม่ถ่าย meconium ใน 48 ชม., ท้องอืด, อาเจียนน้ำดี, explosive stool หลัง DRE (blast sign)",
+  "วินิจฉัย: rectal suction biopsy (gold standard) · contrast enema: transition zone, rectosigmoid index < 1",
+  "Definitive: transanal endorectal pull-through (Soave) / Swenson / Duhamel · ทำ leveling biopsy ยืนยัน ganglion cells ที่ขอบ",
+  "Hirschsprung-associated enterocolitis: ไข้ ท้องอืด ถ่ายเหลวเหม็น → irrigation + IV antibiotics (เกิดได้ทั้งก่อนและหลังผ่าตัด)"
+ ]
+},
+"MDCU68|RoC|56": {
+ "wrong": {
+  "A": "Parotid (infantile) hemangioma พบบ่อยมากในทารก ลักษณะก้อนนุ่ม อาจมีผิวสีปกติหรืออมฟ้า (deep hemangioma) โตเร็วในขวบปีแรก — เป็น DDx สำคัญที่โจทย์นี้ใกล้เคียงมาก แต่คีย์ตอบ first branchial cleft cyst · จะถูกถ้าโจทย์บอกก้อนโตเร็วหลังคลอด อุ่น สีอมฟ้า/แดง หรือ US เห็น high-flow vascular mass",
+  "C": "Suppurative lymphadenitis เจ็บ บวมแดงร้อน มีไข้ มักหลังติดเชื้อทางเดินหายใจ/ผิวหนัง · ก้อนนี้ไม่เจ็บ ผิวปกติ · จะถูกถ้าโจทย์เป็นเด็กมีไข้ ก้อนที่คอแดงร้อนกดเจ็บ fluctuation",
+  "D": "Cystic hygroma (macrocystic lymphatic malformation) มักอยู่ที่ <b>posterior triangle ของคอ</b>/รักแร้ นุ่ม ส่องไฟผ่าน มีตั้งแต่เกิด · ไม่ใช่ตำแหน่งหน้าหู · จะถูกถ้าโจทย์บอกก้อนนุ่มขนาดใหญ่ที่ด้านหลังคอ transillumination บวก",
+  "E": "Pleomorphic adenoma เป็นเนื้องอก parotid ที่พบบ่อยที่สุดใน<b>ผู้ใหญ่</b> (30–50 ปี) ก้อนแข็งโตช้า แทบไม่พบในทารก · จะถูกถ้าโจทย์เป็นผู้ใหญ่มีก้อนแข็งโตช้าหน้าหู"
+ },
+ "summary": [
+  "First branchial cleft anomaly: Work type I (ectoderm, ใกล้ EAC) / type II (ecto+mesoderm, ใกล้ angle of mandible, สัมพันธ์ facial nerve)",
+  "ตำแหน่ง: หน้า/ใต้ติ่งหู, parotid region, อาจเปิดใน EAC (otorrhea)",
+  "Excision ต้อง identify facial nerve (superficial parotidectomy approach)",
+  "DDx ก้อน parotid ในทารก: infantile hemangioma (บ่อยสุด), lymphatic malformation, first branchial cleft anomaly",
+  "ผู้ใหญ่: pleomorphic adenoma > Warthin tumor"
+ ]
+},
+"MDCU68|RoC|63": {
+ "wrong": {
+  "A": "การเฝ้าดูไม่เหมาะเพราะผู้ป่วย<b>มีอาการหอบเหนื่อย</b>จากก้อนกดเบียด · จะถูกถ้าก้อนเล็ก ไม่มีอาการ และเป็นเนื้อไทรอยด์ที่ทำงานแหล่งเดียว",
+  "B": "Iodine (RAI) ablation ลดขนาดก้อนได้ช้าและน้อย และทำให้บวมกด airway ช่วงแรก ไม่เหมาะกับผู้ป่วยที่มีอาการกด · จะถูกถ้าผู้ป่วยเสี่ยงผ่าตัดสูงมาก และก้อนเป็น hyperfunctioning",
+  "C": "RAI ก่อนผ่าตัดไม่มีประโยชน์และเสี่ยงบวม · จะถูกไม่ได้ในการรักษา ectopic/intrathoracic thyroid · (RAI ใช้หลัง total thyroidectomy ใน differentiated thyroid cancer)",
+  "E": "Levothyroxine suppression ไม่ลดขนาดก้อนที่กดเบียดได้จริง · จะถูกถ้าใช้เป็น <b>replacement หลังผ่าตัด</b> เมื่อก้อนที่เอาออกเป็นเนื้อไทรอยด์ที่ทำงานแหล่งเดียว (I-131 scan ไม่เห็น uptake ที่คอ)"
+ }
+},
+"MDCU68|RoC|65": {
+ "interp": "ใน <b>tetralogy of Fallot</b> ปัจจัยหลักที่ตัดสินว่าจะ<b>ผ่าตัดแก้ไขทั้งหมด</b>เลยหรือทำ <b>palliative shunt</b> ก่อน (ลายมือ: PA เล็ก → mBTS, ใหญ่ → total correction)",
+ "why": "TOF: VSD + RVOT obstruction (pulmonary stenosis) + overriding aorta + RVH · ปัจจัยที่กำหนดว่าทำ <b>complete (total) repair</b> (ปิด VSD + แก้ RVOT ± transannular patch) ได้หรือไม่ คือ <b>ขนาดของ pulmonary arteries (branch PA)</b> — ถ้า PA ใหญ่พอ (เช่น McGoon ratio > 1.2–1.5, Nakata index > 150 mm²/m²) ปอดรับเลือดจาก RV หลังแก้ได้ → complete repair (มักอายุ 3–6 เดือน) · ถ้า <b>PA hypoplastic</b> หรือทารกเล็ก/อาการหนัก → ทำ <b>modified Blalock-Taussig shunt</b> (subclavian → PA) หรือ RVOT stent/PDA stent เพื่อเพิ่ม pulmonary flow ให้ PA โตก่อน แล้วค่อย complete repair",
+ "wrong": {
+  "A": "VSD ใน TOF เป็น malalignment VSD ขนาดใหญ่เกือบทุกราย ขนาดจึงไม่ใช่ตัวตัดสิน · จะถูกถ้าโจทย์เป็น isolated VSD ที่ขนาดและ Qp:Qs กำหนดการผ่าตัด",
+  "C": "ความรุนแรงของ PS กำหนด<b>ระดับ cyanosis</b>และความเร่งด่วน แต่ไม่ได้บอกว่าแก้ทั้งหมดได้หรือไม่ (การแก้ RVOT ทำได้ทั้ง infundibular resection/patch) · จะถูกถ้าโจทย์ถามปัจจัยที่กำหนดความรุนแรงของอาการ/cyanosis",
+  "D": "Degree of overriding aorta ไม่ใช่ปัจจัยตัดสิน (ถ้า override > 50% อาจถือเป็น DORV แต่ยังซ่อมได้) · จะถูกถ้าโจทย์ถามการแยก TOF กับ DORV",
+  "E": "อายุมีผล (ทารกเล็กมาก/premature อาจทำ palliation ก่อน) แต่ปัจจุบันหลายศูนย์ทำ complete repair ในทารกเล็กได้ — กายวิภาคของ PA สำคัญกว่า · จะถูกถ้าโจทย์ถามช่วงอายุมาตรฐานของ elective repair (3–6 เดือน)"
+ },
+ "trap": "อย่าเลือก 'ความรุนแรงของ PS' เพราะดูเกี่ยวข้อง — คำถามคือ <b>ผ่าแก้ได้หรือไม่</b> ซึ่งขึ้นกับ <b>ขนาด PA</b> · TOF spell: knee-chest, O₂, morphine, fluid, phenylephrine, β-blocker",
+ "summary": [
+  "TOF: VSD, RVOT obstruction, overriding aorta, RVH · cyanotic CHD ที่พบบ่อยที่สุดหลังขวบปีแรก",
+  "CXR: boot-shaped heart, pulmonary oligemia · ECG: RVH, RAD",
+  "Complete repair: ปิด VSD + RVOT reconstruction (± transannular patch) อายุ 3–6 เดือน",
+  "PA hypoplastic/ทารกเล็ก → modified BT shunt หรือ ductal/RVOT stent ก่อน",
+  "Long-term: pulmonary regurgitation → PVR, arrhythmia, RV dilatation",
+  "ซ้ำธีม 69 RoC"
+ ]
+},
+"MDCU68|RoC|71": {
+ "why": "<b>Boerhaave syndrome</b> = full-thickness rupture ของหลอดอาหารจากความดันสูงขณะอาเจียน มักที่ <b>distal esophagus ด้าน left posterolateral</b> · อาการ: อาเจียนแล้วเจ็บหน้าอก/หลังรุนแรง (Mackler triad: vomiting + chest pain + subcutaneous emphysema), pneumomediastinum, left pleural effusion, sepsis เร็ว · เป็น <b>surgical emergency</b> (อัตราตายเพิ่มชัดเมื่อเกิน 24 ชม.) → NPO, IV broad-spectrum antibiotics + antifungal, resuscitation แล้ว <b>emergency primary repair ภายใน 24 ชม.</b> (ลายมือ) ซ่อม 2 ชั้นหลังเปิด myotomy ให้เห็นขอบ mucosa + buttress (pleural/intercostal flap) + ระบายช่องอก · มาช้า/เนื้อเยื่อเปื่อย → esophageal exclusion/diversion, T-tube, stent, หรือ esophagectomy",
+ "wrong": {
+  "A": "Esophagoscopy (โดยเฉพาะ rigid) และการเป่าลมอาจทำให้รอยรั่วขยาย/pneumothorax · การวินิจฉัยใช้ water-soluble contrast esophagram หรือ CT with oral contrast · จะถูกถ้าโจทย์ถามการวินิจฉัยในบางศูนย์ (flexible endoscopy ระวังแรงลม) หรือการใส่ stent ในรายเลือกสรร",
+  "C": "Conservative อย่างเดียวใช้ได้เฉพาะ rupture ที่ contained ในผู้ป่วยไม่มี sepsis (Cameron criteria) · Boerhaave ที่มี pneumomediastinum/effusion ส่วนใหญ่เป็น free rupture → ต้องผ่าตัด · จะถูกถ้าเป็น iatrogenic perforation ขนาดเล็ก contained ไม่มีอาการ",
+  "D": "รอ 1 สัปดาห์แล้วซ่อมทำให้ mediastinitis/sepsis รุนแรง อัตราตายสูงมาก · ไม่มีสถานการณ์ที่ควรรอใน free rupture",
+  "E": "Esophageal dilatation ใช้รักษา stricture/achalasia — ในหลอดอาหารแตกยิ่งทำให้รั่วมากขึ้น · จะถูกถ้าโจทย์เป็น peptic stricture หรือ achalasia (pneumatic dilatation ซึ่งเองก็เป็นสาเหตุของ perforation)"
+ },
+ "trap": "อาเจียน + เจ็บหน้าอก มักถูกวินิจฉัยผิดเป็น MI/pancreatitis/PUD perforation — ดู <b>subcutaneous emphysema, pneumomediastinum, left effusion</b> · pleural fluid amylase สูง (salivary) pH ต่ำ มีเศษอาหาร",
+ "summary": [
+  "Boerhaave: distal left posterolateral esophagus · full thickness (ต่างจาก Mallory-Weiss ที่ฉีกแค่ mucosa ที่ GE junction → hematemesis)",
+  "Mackler triad: vomiting, chest pain, subcutaneous emphysema",
+  "Dx: CXR, contrast esophagram (water-soluble ก่อน), CT",
+  "< 24 ชม. → primary repair + buttress + drainage · > 24 ชม./ซ่อมไม่ได้ → exclusion/esophagectomy/stent",
+  "ร่วม: NPO, broad-spectrum antibiotics + antifungal, nutrition (jejunostomy/TPN)"
+ ]
+},
+"MDCU68|RoC|72": {
+ "why": "เกณฑ์ empyema/complicated parapneumonic effusion ตามตำราศัลยศาสตร์: มีหนอง, Gram stain/culture บวก, <b>pH &lt; 7.2</b>, <b>glucose &lt; 40–60 mg/dL</b>, <b>LDH &gt; 1,000 IU/L</b>, <b>WBC &gt; 15,000/µL</b>, <b>protein &gt; 3 g/dL</b> (exudate) · ช้อย A–D ทั้งหมดเป็นเกณฑ์ (คีย์ติ๊ก A–D) → คำตอบของข้อ NOT คือ E 'ทุกข้อเป็นเกณฑ์' (โจทย์ออกแบบให้ไม่มีข้อที่ไม่ใช่) · ข้อเดียวกับปี 69 RoA",
+ "wrong": {
+  "A": "WBC > 15,000/µL เป็นเกณฑ์ตามสไลด์ · จะเป็นคำตอบถ้าช้อยเขียน WBC > 10,000 (ตัวเลขผิดตามสไลด์ — 66 RoB 74)",
+  "B": "Protein > 3 g/dL = exudate (Light's criteria) empyema เป็น exudate · จะเป็นคำตอบถ้าช้อยเขียน protein < 3",
+  "C": "LDH > 1,000 IU/L บ่ง complicated effusion · จะเป็นคำตอบถ้าช้อยเขียน LDH ต่ำ",
+  "D": "Glucose < 40 mg/dL บ่งเชื้อ/เซลล์ใช้ glucose มาก · จะเป็นคำตอบถ้าช้อยเขียน glucose > 100"
+ },
+ "trap": "ข้อ NOT ที่คำตอบคือ 'ทุกข้อเป็นเกณฑ์' — ต้องตรวจทุกตัวเลขให้ตรงสไลด์ ถ้าตรงหมดจึงเลือก E · เทียบกับ 66 RoB 74/RoD 14 ที่ใส่ WBC > 10,000 เป็นตัวหลอก",
+ "summary": [
+  "Empyema: pus หรือ organism (direct) · complicated: pH < 7.2, glucose < 60, LDH > 1,000",
+  "Light's criteria: protein ratio > 0.5, LDH ratio > 0.6, LDH > 2/3 ULN",
+  "Complicated → ICD ± intrapleural tPA/DNase · organizing → VATS decortication",
+  "วัด pH ด้วย blood gas analyzer",
+  "ซ้ำ 69 RoA · เทียบ 66 RoB 74"
+ ]
+}
+}

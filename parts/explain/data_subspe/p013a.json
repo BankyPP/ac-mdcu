@@ -1,0 +1,36 @@
+{
+ "MDCU68|RoD|36": {
+  "wrong": {
+   "A": "ยาไม่แก้ลิ้นรั่วจาก flail leaflet และไม่ชะลอ LV เสื่อมใน primary MR (afterload reduction ไม่ช่วยในผู้ป่วยความดันปกติ) · จะถูกถ้าผู้ป่วยไม่พร้อมผ่าตัด หรือเป็น secondary MR จาก LV dysfunction (GDMT ก่อน)",
+   "B": "PBMV ใช้ขยาย <b>mitral stenosis</b> และห้ามเมื่อมี MR ≥ moderate · จะถูกถ้าเป็น severe MS ลิ้นเหมาะ ไม่มี MR/LA clot",
+   "D": "MVR ใช้เมื่อซ่อมไม่ได้ (ลายมือ: replace → ถ้าซ่อมไม่ได้) เช่น rheumatic ลิ้นหดรั้ง/หนา, endocarditis ทำลายลิ้นมาก · degenerative posterior leaflet flail ซ่อมสำเร็จ > 95% และดีกว่าในด้าน survival/LV function/ไม่ต้อง anticoagulate · จะถูกถ้าเป็น rheumatic mixed MV disease",
+   "E": "รอจนอาการถึง FC IV ทำให้ LV เสื่อม (LVEF ลด, LVESD โต) อย่างไม่ย้อนกลับ ผลผ่าตัดและ survival แย่ลง — แนวทางให้ผ่าตัดเมื่อมีอาการหรือมีสัญญาณ LV เริ่มเสื่อม · จะถูกไม่ได้ในทุกกรณีของ severe primary MR ที่ผ่าตัดได้"
+  },
+  "trap": "ดู<b>สาเหตุ</b>ของ MR: degenerative (prolapse/flail) → <b>repair</b> · rheumatic → มัก <b>replace</b> · และ FC II แต่ severe MR + flail ก็เป็นข้อบ่งชี้ผ่าตัดได้ (มีอาการ) โดยเฉพาะศูนย์ที่ repair ได้สำเร็จสูง",
+  "summary": [
+   "Primary severe MR: ผ่าตัดเมื่อมีอาการ หรือ LVEF ≤ 60%/LVESD ≥ 40 mm แม้ไม่มีอาการ",
+   "Repair > replace ใน degenerative MR (posterior leaflet: triangular/quadrangular resection หรือ neochordae + annuloplasty ring)",
+   "Rheumatic MR → มักต้อง MVR",
+   "TEER (MitraClip) ในผู้ป่วยเสี่ยงผ่าตัดสูง",
+   "Ross procedure = aortic valve disease ในคนอายุน้อย",
+   "ซ้ำ 68 RoB 81 (ลายมือ: FC2 → repair · D = FC3/acute MR)"
+  ]
+ },
+ "MDCU68|RoD|34": {
+  "wrong": {
+   "A": "Heart failure เกิดจาก pulmonary overcirculation และ volume overload ของหัวใจ (VSD/PDA ใหญ่ อาการช่วงอายุ 4–8 สัปดาห์เมื่อ PVR ลด) · เป็น complication จริง · จะเป็นคำตอบไม่ได้",
+   "B": "Pulmonary hypertension เกิดจาก flow และความดันสูงในปอดเรื้อรัง → pulmonary vascular disease → Eisenmenger · เป็น complication จริง · จะเป็นคำตอบไม่ได้",
+   "D": "Reversal of shunt (R→L) เกิดเมื่อ pulmonary vascular resistance สูงกว่า systemic = Eisenmenger syndrome · เป็น complication จริง · จะเป็นคำตอบไม่ได้",
+   "E": "Cyanosis เกิดเมื่อ PVR สูงจน shunt <b>กลับทิศเป็น R→L (Eisenmenger syndrome)</b> (ลายมือ: cyanosis = reverse shunt) · เป็น late complication จริง · จะเป็นคำตอบไม่ได้"
+  },
+  "trap": "อย่าสับสนผล L→R shunt (PA <b>โต</b>, overcirculation) กับ R→L obstructive lesion (TOF, pulmonary atresia → PA <b>เล็ก</b>) · เมื่อเกิด Eisenmenger แล้วการปิด shunt ห้ามทำ (inoperable)",
+  "summary": [
+   "L→R shunts: VSD (บ่อยสุด), ASD, PDA, AVSD",
+   "Complications: CHF, failure to thrive, pulmonary HT → Eisenmenger (cyanosis, clubbing), IE, arrhythmia (ASD → AF), recurrent chest infection",
+   "Pulmonary artery hypoplasia พบใน lesion ที่ pulmonary blood flow ลด (TOF, pulmonary atresia) ไม่ใช่ L→R shunt ซึ่ง PA ขยาย",
+   "Eisenmenger = ข้อห้ามของการปิด shunt (เว้นบางราย) → พิจารณา heart-lung transplant",
+   "ปิด defect ก่อนเกิด irreversible pulmonary vascular disease",
+   "ซ้ำ 68 RoB 79"
+  ]
+ }
+}
