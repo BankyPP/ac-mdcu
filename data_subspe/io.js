@@ -5,7 +5,8 @@
    html ใช้ {{IMG:key}} แทนรูป; class ที่ใช้ได้: box, imp, hw, chip r/b/g, ref, flow/n/ar, warn, mn, fig/cap, iointro, iofix (N: ข้อที่แก้จากโน้ต), iook
    R01 First Aid for Sx OSCEs (types:["OSCE"] = เห็นเฉพาะแท็บ OSCE, 22 พ.ย. 2026): แยกหน้าตามหัวข้อ OSCE ของวอร์ด — R01-0 ภาพรวม+สรุปทั้งบท · H1–H3 History taking · I1–I3 Imaging (+Pathology & staging) · P1–P4 Procedure · E1–E3 Physical examination · S1–S3 Spot Diagnosis · T1–T2 Instruments & devices · U1 Suture materials · รูป img/subr01_*
    R02 OSCE-MEQs Synopsis (types:["OSCE"], 22 พ.ย. 2026): ส่วนสรุป p3–21 → R02-0 ภาพรวม+ดัชนีข้อสอบ p22–199 · P1 · U1 · T1–T2 · H1 · E1–E2 · I1–I3 · S1–S7 · รูป img/subr02_* (ภาพหน้าสรุป เบลอใบหน้า)
-   R03 Surgical instruments & Suture materials (types:["OSCE"], 22 พ.ย. 2026): รวม 5 ไฟล์ A–E → R03-0 ภาพรวม+สรุปทั้งบท+จุดต่าง · U1–U4 Suture materials · T1–T4 Instruments & devices · P1 Procedure · รูป img/subr03_* */
+   R03 Surgical instruments & Suture materials (types:["OSCE"], 22 พ.ย. 2026): รวม 5 ไฟล์ A–E → R03-0 ภาพรวม+สรุปทั้งบท+จุดต่าง · U1–U4 Suture materials · T1–T4 Instruments & devices · P1 Procedure · รูป img/subr03_*
+   N โน้ตวอร์ด Subspe Sx (23 พ.ย. 2026): N07 CVT → N-cpb · N-nodule · N-lungdx · N-calung · N-meta · N-onco-thx (topic Cardiothoracic surgery) */
 W.IO={
 "docs": [
 {
@@ -1796,6 +1797,327 @@ W.IO={
 {
 "t": "Gould CV, et al. Guideline for Prevention of Catheter-Associated Urinary Tract Infections 2009. CDC/HICPAC (updated 2019)",
 "u": "https://www.cdc.gov/infection-control/hcp/cauti/"
+}
+]
+}
+]
+},
+{
+"code": "N",
+"kind": "N",
+"title": "โน้ตวอร์ด Subspe Sx",
+"src": "โน้ตที่จดจากวอร์ดทุกครั้ง รวมและแบ่งตามเรื่อง (ไม่แบ่งตามวัน/เลขโน้ต) · N07 ส่ง 23 พ.ย. 2026 (CVT: สอนใน OR — hypothermic circulatory arrest, cardioplegia · bedside teaching lung nodule/CA lung — โน้ต part 1, 3 + ถอดเสียง part 2) = สิ่งที่พี่ resident สอนในวอร์ด · ตรวจทุกข้อ แก้จุดที่ผิด เติมเนื้อหาที่ปี 4 ควรรู้ พร้อม reference",
+"upd": "2026-11-23",
+"pages": [
+{
+"id": "N-cpb",
+"title": "ผ่าตัดหัวใจใน OR: cardiopulmonary bypass · cardioplegia (K → diastolic arrest, Ca → systolic arrest) · hypothermic circulatory arrest",
+"from": "จาก N07",
+"topics": [
+"Cardiothoracic surgery"
+],
+"rev": 1,
+"upd": "2026-11-23",
+"html": "<div class=\"iointro\">สอนใน OR CVT: การผ่าตัดในหัวใจ/aorta ส่วนใหญ่ต้องการ<b>หัวใจหยุดนิ่งและไม่มีเลือด</b> → ใช้ <b>cardiopulmonary bypass (CPB, heart–lung machine)</b> ทำหน้าที่แทนหัวใจและปอด + <b>cardioplegia</b> หยุดหัวใจ · ถ้าต้องหยุดการไหลเวียน<b>ทั้งตัว</b> (เช่น ผ่าตัด aortic arch ที่ clamp ไม่ได้) → <b>hypothermic circulatory arrest</b> {{R:1}}</div><div class=\"box\"><h3>1. CPB ทำงานอย่างไร (พื้นฐานก่อนเข้าใจ cardioplegia)</h3><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ลำดับ: <b>heparin เต็มขนาด</b> (~300–400 U/kg ให้ ACT สูงพอ โดยทั่วไป &gt;400–480 วินาที) → ใส่ <b>venous cannula</b> (RA หรือ SVC+IVC) ระบายเลือดออก → reservoir → pump → <b>oxygenator + heat exchanger</b> (คุมอุณหภูมิ) → <b>arterial cannula</b> คืนเลือดที่ ascending aorta (หรือ axillary/femoral) → <b>aortic cross-clamp</b> ระหว่าง coronary ostia กับ arterial cannula → ฉีด <b>cardioplegia</b> เข้า aortic root (<b>antegrade</b>) และ/หรือ coronary sinus (<b>retrograde</b> — ช่วยเมื่อ coronary ตีบมากหรือมี AR) → หัวใจหยุด · จบ: เอา clamp ออก → เลือดกลับเข้า coronary (reperfusion) ล้าง cardioplegia ออก หัวใจเริ่มเต้น → wean off CPB → <b>protamine</b> แก้ heparin {{R:1}}</div></div><div class=\"box\"><h3>2. Cardioplegia — K สูง → หยุดใน diastole</h3><p>โน้ต: “Cardioplegia solution → ให้ K → diastolic arrest (ถ้า hyperCa → systolic arrest)” ✓ ถูกทั้งสองส่วน {{R:2}}</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>ทำไม K สูงจึงหยุดใน diastole</b>: K นอกเซลล์สูง (~15–30 mmol/L แล้วแต่สูตร) → resting membrane potential ยกขึ้น (<b>depolarize</b> เหลือราว −50 mV) → fast Na channel ค้างในสภาพ inactivated → <b>เกิด action potential ไม่ได้</b> → กล้ามเนื้อหยุดในท่า<b>คลายตัว</b> = <b>depolarized (hyperkalemic) diastolic arrest</b> {{R:2}}{{R:3}} · ข้อดี: กล้ามเนื้อคลาย สนามผ่าตัดนิ่ง ไม่มีเลือด และหัวใจที่หยุด + เย็น ใช้ O<sub>2</sub> ลดลงกว่า 90% เทียบกับหัวใจที่เต้นอยู่ {{R:1}}</div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>Ca สูง → systolic arrest (“stone heart”)</b>: Ca เข้าเซลล์มาก → actin–myosin จับค้าง → กล้ามเนื้อหดเกร็งค้าง (contracture) ใช้พลังงานและทำลายเซลล์ → สูตร cardioplegia จึงมี <b>Ca ต่ำ</b> และมักใส่ <b>Mg</b> (ต้าน Ca) · แต่ Ca เป็นศูนย์เลยก็ไม่ดี (calcium paradox ตอน reperfusion) · ความเสี่ยงของ K arrest เองคือ Na/Ca ค่อย ๆ สะสมในเซลล์ระหว่างที่ membrane depolarize ค้าง → จึงมีงานพัฒนาสูตร “polarized arrest” [[hypoCa]]{{R:4}}{{R:3}}</div><table><tr><th>ชนิด</th><th>ลักษณะ</th></tr><tr><td><b>Crystalloid</b> (เช่น St Thomas)</td><td>K สูง แบบ extracellular · ให้ซ้ำเป็นระยะ</td></tr><tr><td><b>Blood cardioplegia</b></td><td>เลือดผู้ป่วยผสม crystalloid (มัก 4:1) → มี O<sub>2</sub>, buffer · ให้ซ้ำทุก ~15–20 นาที · เย็น (cold) หรืออุ่น (warm)</td></tr><tr><td><b>del Nido</b></td><td>เลือด 1 : crystalloid 4 · มี K, Mg, <b>lidocaine</b> (กั้น Na channel), bicarbonate · <b>ให้ครั้งเดียวอยู่ได้นาน</b> ~60–90 นาที · เริ่มจากเด็ก ใช้ในผู้ใหญ่มากขึ้น</td></tr><tr><td><b>HTK (Custodiol/Bretschneider)</b></td><td>ชนิด <b>intracellular</b>: Na และ Ca ต่ำมาก → ไม่มี Na gradient พอให้เกิด action potential · ครั้งเดียวอยู่ได้นาน</td></tr></table><p style=\"font-size:13px\">ตาราง {{R:2}}{{R:3}}{{R:4}}</p></div><div class=\"box\"><h3>3. Hypothermic circulatory arrest (HCA)</h3><div class=\"nfind\"><span class=\"iofind\">🔎 หาต่อให้</span> <span class=\"iowas\">โน้ตมีแค่: “Hypothermic circulatory arrest คือ…”</span><div><b>คือ</b> การใช้ CPB ทำให้ร่างกาย (โดยเฉพาะ<b>สมอง</b>) เย็นลงจนเมตาบอลิซึมลดพอที่จะ<b>ปิดปั๊ม หยุดการไหลเวียนทั้งตัวได้ชั่วคราว</b> → ได้สนามผ่าตัดไม่มีเลือดในที่ที่ clamp ไม่ได้ {{R:5}} · <b>ใช้เมื่อ</b>: ผ่าตัด <b>aortic arch</b> (aneurysm, <b>Stanford type A dissection</b> ที่ต้องทำ hemiarch/total arch), ผ่าตัดหัวใจแต่กำเนิดซับซ้อนในทารก, pulmonary thromboendarterectomy {{R:1}}<br><b>หลักการ</b>: อุณหภูมิลดลง 10 °C เมตาบอลิซึมลด ~50% · ที่อุณหภูมิกายปกติ สมองทนขาดเลือดได้ไม่กี่นาที แต่ที่ <b>deep hypothermia</b> ทนได้ราว <b>30–40 นาที</b> {{R:5}}{{R:1}}<table><tr><th>ระดับ (Yan consensus 2013, วัด nasopharyngeal)</th><th>อุณหภูมิ</th></tr><tr><td>Profound</td><td>≤14 °C</td></tr><tr><td><b>Deep</b> (DHCA แบบคลาสสิก)</td><td>14.1–20 °C</td></tr><tr><td>Moderate</td><td>20.1–28 °C</td></tr><tr><td>Mild</td><td>28.1–34 °C</td></tr></table><b>ป้องกันสมองเพิ่ม</b>: <b>selective antegrade cerebral perfusion</b> (ส่งเลือดเข้าสมองผ่าน right axillary/innominate ± left carotid ระหว่าง arrest) → ใช้แค่ moderate hypothermia และยืดเวลาได้ · <b>retrograde cerebral perfusion</b> ผ่าน SVC · ติดตาม EEG (electrocerebral silence), NIRS {{R:5}}{{R:1}}<br><b>ผลแทรกซ้อน</b>: stroke, cognitive dysfunction, <b>coagulopathy/เลือดออก</b> (เกล็ดเลือดและ coagulation factor ทำงานแย่เมื่อเย็น), ใช้เวลานานในการทำให้เย็น/อุ่นกลับ · ห้ามอุ่นเร็วหรือเกิน 37 °C {{R:1}}</div></div></div>",
+"refs": [
+{
+"t": "Townsend CM, et al. <i>Sabiston Textbook of Surgery</i>, 22nd ed. Elsevier; 2025 — บท Lung (neoplasms), Mediastinum, Acquired heart disease / cardiopulmonary bypass (ฉบับล่าสุด)."
+},
+{
+"t": "Tadi P, et al. <i>Cardioplegia</i>. StatPearls (updated 24 Jul 2023).",
+"u": "https://www.ncbi.nlm.nih.gov/books/NBK554463/"
+},
+{
+"t": "Longacre M, Ibla JC, Yuki K. Physiology of cardiac arrest with del Nido cardioplegia. 2025 (PMC12007908).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12007908/"
+},
+{
+"t": "Cardioplegia between evolution and revolution: from depolarized to polarized cardiac arrest in adult cardiac surgery. 2021 (PMC8509840).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8509840/"
+},
+{
+"t": "Yan TD, et al. Consensus on hypothermia in aortic arch surgery. <i>Ann Cardiothorac Surg</i> 2013;2(2):163–8 (ยังเป็น consensus ที่ใช้อ้างอิงการแบ่งระดับอุณหภูมิ).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3741830/"
+}
+]
+},
+{
+"id": "N-nodule",
+"title": "Lung nodule vs mass: ซักประวัติ (ความเสี่ยง, อาการ TB, ฟิล์มเก่า + doubling time) · ตรวจร่างกาย (node) · ลักษณะ CXR/CT · ความน่าจะเป็นมะเร็ง (Mayo) · แนวทางตาม probability",
+"from": "จาก N07",
+"topics": [
+"Cardiothoracic surgery"
+],
+"rev": 1,
+"upd": "2026-11-23",
+"html": "<div class=\"iointro\">Bedside teaching (เคส: ชาย 67 ปี ถือฟิล์มมามีก้อน 2 cm ill-defined ที่ right upper lung field · check-up ทุกปี ปีก่อนไม่มี · บุหรี่ 20 pack-year เลิก 5 ปี · เคยผ่าตัดมะเร็งลำไส้ 1 ปีก่อน) · ลำดับคิด: <b>นี่คือ nodule หรือ mass</b> → <b>ความน่าจะเป็นมะเร็งเท่าไร</b> (ประวัติ + ฟิล์มเก่า + ลักษณะภาพ) → <b>เลือก</b> ติดตาม / หาชิ้นเนื้อ / ผ่าตัด {{R:1}}</div><div class=\"box\"><h3>1. Nodule vs mass</h3><p><b>Nodule</b> = ก้อนกลม <b>≤3 cm</b> ล้อมด้วยเนื้อปอด · <b>Mass</b> = <b>&gt;3 cm</b> ✓ → mass ส่วนใหญ่เป็นมะเร็ง จึง<b>ต้อง investigate จนได้ definite diagnosis</b> ✓ ไม่ใช้วิธีนัดดูเฉย ๆ {{R:2}}</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ยิ่งใหญ่ยิ่งเสี่ยง: ก้อน 2–5 mm เป็นมะเร็ง ~1% แต่ก้อน <b>&gt;20 mm ~80%</b> · แบ่งชนิดบน CT: <b>solid</b> vs <b>subsolid</b> (pure ground-glass, part-solid — part-solid ที่ส่วน solid ≥6 mm น่าสงสัยมาก) {{R:2}}{{R:3}}</div><p>โน้ต: “โรคที่ปอด → TB, CA, pneumonia” ✓ (3 กลุ่มหลักที่ต้องแยกเสมอ)</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> DDx ของ nodule ให้ครบ: <b>มะเร็ง</b> (primary lung cancer, <b>metastasis</b>, carcinoid) · <b>ติดเชื้อ/อักเสบ</b> (TB/tuberculoma, เชื้อรา, round pneumonia, abscess, granuloma) · <b>benign tumor</b> (<b>hamartoma</b> = benign ที่พบบ่อยสุด) · <b>อื่น ๆ</b>: AVM, infarct, hematoma/contusion, rounded atelectasis, intrapulmonary LN, น้ำใน fissure {{R:4}}{{R:2}}</div></div><div class=\"box\"><h3>2. ซักประวัติ — อาการ</h3><p>สงสัย <b>pneumonia</b> → ต้องมีอาการเฉียบพลัน ไข้ ไอ หอบ · เดินมาสบาย ๆ ไม่เหนื่อยเลย → pneumonia น้อยลง ✓ · <b>TB</b> = chronic infection เป็นไปได้ ✓ → ถามอาการเรื้อรัง: <b>ไอเรื้อรัง, hemoptysis, ไข้ (ต่ำ ๆ), night sweat, น้ำหนักลด</b> ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ถามเพิ่มสำหรับ TB: สัมผัสผู้ป่วย TB, เคยรักษา TB, HIV/ภูมิคุ้มกันต่ำ/DM/ยากดภูมิ · ไอเกิน 2 สัปดาห์ในประเทศไทยต้องนึกถึง TB เสมอ · อาการที่บอก<b>มะเร็งลุกลาม</b>: เสียงแหบ, ปวดกระดูก, ปวดศีรษะ/อ่อนแรง, หน้าบวมแขนบวม (SVC), ปวดไหล่ร้าวแขน {{R:4}}</div></div><div class=\"box\"><h3>3. ซักประวัติ — ความเสี่ยงมะเร็ง</h3><p>อายุ · <b>บุหรี่</b> (pack-year, เลิกมานานเท่าไร, ควันบุหรี่มือสอง) · ประวัติครอบครัว · อาชีพ · <b>เคยเป็นมะเร็งมาก่อน</b> · โรคปอดเดิม (COPD, pulmonary fibrosis)</p><p><b>ครอบครัวเป็นมะเร็งปอดหลายคน (ปู่ ลุง พ่อ) = genetic ไหม</b>: มะเร็งปอดยังไม่มี hereditary syndrome ที่ชัดเจนแบบมะเร็งลำไส้/รังไข่ ✓ · คนในบ้านเดียวกันสูบบุหรี่ด้วยกัน = <b>share environment</b> ✓ · syndrome ที่ถามถึงต้องเป็นมะเร็งที่จำเพาะกับ syndrome เช่น <b>Lynch</b>: colon, endometrium, ovary ✓ · breast ไม่อยู่ใน Lynch ✓ (breast–ovary = <b>HBOC/BRCA</b>)</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>Lynch spectrum</b> ครบ: colorectal, <b>endometrium</b> (นอกลำไส้ที่พบบ่อยสุด), ovary, stomach, small bowel, urothelial (ureter/renal pelvis), hepatobiliary, pancreas, brain (glioblastoma), sebaceous skin tumor (Muir–Torre) {{R:5}} · ประวัติญาติสายตรงเป็นมะเร็งปอดยังเพิ่มความเสี่ยง ~1.8 เท่า แม้ปรับเรื่องบุหรี่แล้ว {{R:6}} และมี germline ที่พบน้อยมาก (เช่น Li–Fraumeni/TP53, germline EGFR T790M) {{R:4}}</div><p><b>อาชีพ</b>: ในไทยไม่ค่อยเจอ แต่ต้องถาม · <b>Silicosis</b> = ฝุ่นทราย/ซิลิกาเข้าไปใน lung parenchyma → มักเห็นเป็นปื้น/nodule หลายจุดที่ upper zone มากกว่าก้อนเดี่ยว ✓</p><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> <b>Asbestos</b> ทำให้เกิดได้ทั้ง <b>mesothelioma</b> และ <b>lung carcinoma</b> — และจำนวนมะเร็งปอดจาก asbestos <b>มากกว่า</b> mesothelioma · เสริมฤทธิ์กับบุหรี่แบบคูณ (multiplicative) · ไม่จำเป็นต้องมี asbestosis ก่อน · <b>asbestosis</b> = พังผืดในปอด (ไม่ใช่ชื่อมะเร็ง) · mesothelioma มาด้วย pleural thickening/effusion ไม่ใช่ก้อน 2 cm ใน RUL ✓<br><span class=\"iowas\">เดิมจดว่า: “Asbestosis มักจะเป็นมะเร็งปอดแบบไหน Mesothelioma … ไม่น่าจะนะ”</span> <span class=\"iowhy\">— ข้อสรุปว่า “ก้อน 2 cm ใน RUL ไม่น่าเป็น mesothelioma” ถูก แต่ asbestos ก็ยังเป็น risk ของ lung carcinoma ในเคสนี้ได้ {{R:7}}</span></div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> สารก่อมะเร็งปอดจากอาชีพ/สิ่งแวดล้อมอื่น: <b>radon</b> (สาเหตุอันดับ 2 รองจากบุหรี่), crystalline <b>silica</b> (IARC group 1) {{R:8}}, arsenic, chromium, nickel, beryllium, cadmium, ไอเสียดีเซล, coal tar {{R:4}}</div><p><b>เคยเป็นมะเร็งมาก่อน</b> ✓ ถามให้ครบ: เป็นเมื่อไร (<b>disease-free interval</b> — 15 ปีก่อน → metastasis unlikely แทง primary ✓; 1 ปีก่อน → บอกไม่ได้), ผ่าที่ไหน, <b>stage</b>, ได้คีโม/ฉายแสงไหม, ตอนนี้ยังรักษาอยู่ไหม, ผล scope/CEA ล่าสุด ✓ — เช่น stage ต้น ไม่มี node ให้คีโมครบ CEA ปกติ ต่างจาก stage III ยังให้คีโมอยู่</p></div><div class=\"box\"><h3>4. ★ ถามว่า “เคยถ่ายฟิล์มมาก่อนไหม” (สำคัญมาก)</h3><p>ฟิล์มเก่าบอก<b>อัตราการโต</b> → แยกโรคได้ ✓ · ถามด้วยว่าฟิล์มที่ถือมาถ่ายเมื่อไร</p><table><tr><th>Scenario</th><th>คิดถึง</th><th>เหตุผล</th></tr><tr><td>1. ปีก่อนไม่มี ปีนี้มี</td><td><b>มะเร็ง</b></td><td>ก้อนที่โตจากมองไม่เห็นจนเห็นได้ในหลัก<b>เดือน</b> (3–12 เดือน) เข้ากับ tumor doubling time ของมะเร็ง ✓</td></tr><tr><td>2. เห็นทุกปี 5 ปี ขนาดเท่าเดิม</td><td><b>benign</b></td><td>solid nodule ที่คงที่ ≥2 ปี ถือว่า benign ✓ เพราะมะเร็งไม่ควรโตช้าขนาดนั้น ✓</td></tr><tr><td>3. 1–2 เดือนก่อน (ถ่ายตอนรถล้ม) ไม่มี</td><td><b>acute</b>: infection/pneumonia (หลักสัปดาห์), <b>hematoma/contusion</b> (มีประวัติอุบัติเหตุ, หลักสัปดาห์), น้ำ (หลักวัน)</td><td>โตเร็วเกินกว่าจะเป็นมะเร็ง ✓</td></tr></table><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>ตัวเลข doubling time</b>: solid มะเร็งส่วนใหญ่มี volume doubling time <b>~20–400 วัน</b> · &lt;20 วัน มักเป็นติดเชื้อ/อักเสบ · &gt;400 วัน (BTS ใช้ &gt;600 วัน) มักเป็น benign {{R:2}}{{R:9}} · ระวัง: <b>ปริมาตรเพิ่ม 2 เท่า เส้นผ่านศูนย์กลางเพิ่มแค่ ~26%</b> (เช่น 10 → 12.6 mm) จึงดูด้วยตาง่าย ๆ ว่า “ไม่โต” ได้</div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>ข้อยกเว้นของกฎ 2 ปี</b>: ใช้กับ <b>solid nodule</b> เท่านั้น · <b>ground-glass/part-solid</b> (มักเป็น adenocarcinoma ระยะต้นที่โตช้ามาก) ต้องติดตาม<b>ถึง 5 ปี</b> (Fleischner 2017) {{R:3}}</div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>“มาไวไปไว” ที่เป็นน้ำ</b> ที่พี่เล่า (คนไข้ underlying heart เห็นเงาเหมือนก้อนขอบไม่ชัด ให้ยาขับน้ำแล้วหาย) = <b>vanishing (phantom) tumor</b> คือน้ำที่ขังใน interlobar fissure จาก heart failure · มักอยู่ที่ minor fissure ขวา รูปเลนส์/รี หายภายในวันถึงสัปดาห์หลังรักษา HF {{R:4}}</div></div><div class=\"box\"><h3>5. ตรวจร่างกาย</h3><p>ก้อน 2 cm ที่ปอดขวาบน <b>ไม่ควรตรวจเจอ physical sign ที่ปอด</b> ✓ (ไม่มี decreased breath sound) · ที่สำคัญที่สุดคือ<b>คลำต่อมน้ำเหลือง</b> โดยเฉพาะ <b>คอ/supraclavicular</b> ✓ — ก้อนเล็กก็มี node ได้ ก้อนใหญ่ก็ node negative ได้ ✓</p><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> Supraclavicular/scalene node (station 1) = <b>N3</b> เสมอ (ไม่ว่าข้างไหน) → อย่างน้อย stage <b>IIIB</b> = ผ่าตัดไม่ได้ · และเป็นจุด biopsy ที่ดีที่สุด เพราะเจาะง่าย (US-guided FNA) และได้ทั้ง diagnosis + <b>stage สูงสุด</b>ในครั้งเดียว<br><span class=\"iowas\">เดิมจดว่า: “ถ้าเจอ neck node โต supraclavicular โต biopsy เจอปุ๊บ อันนี้คือเป็น N2 N3 เลย”</span> <span class=\"iowhy\">— N2 = mediastinal ข้างเดียวกันเท่านั้น ไม่รวม node ที่คอ {{R:10}}{{R:11}}</span></div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ตรวจหาอย่างอื่นด้วย: <b>clubbing</b>/hypertrophic pulmonary osteoarthropathy, <b>Horner syndrome</b> + กล้ามเนื้อมือลีบ (Pancoast), <b>SVC syndrome</b> (หน้าบวม เส้นเลือดดำโป่งที่อก), เสียงแหบ (left recurrent laryngeal nerve), pleural effusion, ตับโต, กดเจ็บกระดูก, neuro deficit, paraneoplastic {{R:4}}</div></div><div class=\"box\"><h3>6. ดู CXR/CT — ลักษณะที่ชวนคิดว่ามะเร็ง</h3><p><b>Benign</b>: ขอบเรียบ กลม ขอบเขตชัด ✓ · <b>Malignant</b>: <b>ขอบไม่เรียบ ill-defined, irregular, spiculated</b> ✓ — cancer มาจากคำว่า “ปู” (karkinos) ขาปู = การแทรกซึม (infiltration) ✓</p><p>แต่<b>ขอบเรียบไม่ได้ rule out มะเร็ง</b> ✓ เพราะ <b>metastasis</b> มักกลมเรียบ ✓ (ส่วน primary มัก spiculated) → ต้องดูร่วมกับ natural history เช่น ขอบชัด + 2 ปีไม่โต จึงค่อนข้างสบายใจ ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>Calcification แบบ benign</b>: diffuse, central, laminated (granuloma/TB เก่า), <b>popcorn</b> (= <b>hamartoma</b>, มักมี<b>ไขมัน</b>ในก้อนด้วย) · แบบ eccentric/stippled ไม่ช่วยตัดมะเร็ง · <b>lobulated</b> = ก้อนโตไม่เท่ากันแต่ละด้าน ความเสี่ยงอยู่กลาง ๆ (hamartoma ก็ lobulated ได้) · ลักษณะอื่นที่เพิ่มความเสี่ยง: ขนาดใหญ่, <b>upper lobe</b>, pleural retraction, part-solid · metastasis: <b>หลายก้อน กลม ชิดขอบปอด (subpleural) และ lower lobe</b> {{R:4}}{{R:3}}{{R:2}}</div><p><b>Right upper lung field ≠ right upper lobe</b> ✓ — film PA/AP ท่าเดียวบอก lobe ไม่ได้ชัด ต้องมี <b>lateral</b> หรือ CT ✓ (ปัจจุบันข้ามไป CT)</p><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> ใน lateral view <b>superior segment ของ RLL</b> ขึ้นไปสูงจนอยู่ระดับเดียวกับ<b>ส่วนล่างของ posterior segment ของ RUL</b> → บน PA เงาที่ “upper/mid zone” อาจเป็น lower lobe ก็ได้ · RUL มี 3 segment: <b>apical, posterior, anterior</b><br><span class=\"iowas\">เดิมจดว่า: “superior segment ของ right lower lobe อาจจะขึ้นไปอยู่ใกล้กับ lower part ของ basal segment ของ right upper lobe”</span> <span class=\"iowhy\">— basal segments (anterior/lateral/posterior/medial basal) เป็นของ lower lobe — upper lobe ไม่มี basal segment {{R:4}}</span></div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ช่วยระบุตำแหน่งบน PA ได้บางส่วนด้วย <b>silhouette sign</b>: ลบขอบหัวใจขวา = RML · ลบขอบ hemidiaphragm = lower lobe · ลบขอบ ascending aorta = RUL (anterior segment)</div><p><b>สั่งอะไรต่อ</b>: ถ้าฟิล์มเก่ากว่า 3 เดือน อาจ <b>repeat CXR (PA + lateral)</b> เป็น baseline ของวันที่มาพบ ✓ + <b>CT chest</b> ✓ (CT = มาตรฐานในการ characterize nodule ที่เห็นใน CXR) {{R:1}} · CT ดู <b>จำนวน</b> (CXR เห็น 1 CT อาจเห็น 7–8) <b>ตำแหน่ง ลักษณะ</b> ✓ + node + adrenal (ดูหน้า CA lung)</p><div class=\"nres\">💬 เหตุผลของพี่ที่ยังสั่ง CXR ทั้งที่จะ CT อยู่แล้ว: CT ทำได้แค่ทุก 3–6 เดือน แต่ CXR ทำได้ทุกครั้งที่มา follow-up → มี reference ปัจจุบันที่เทียบ “investigation ชนิดเดียวกัน” ได้ ✓ (หลักการเทียบ modality เดียวกันถูก — แต่ guideline ติดตามหลังผ่าตัดปัจจุบันใช้ CT เป็นหลัก ดูหน้า CA lung)</div></div><div class=\"box\"><h3>7. ความน่าจะเป็นมะเร็ง (pretest probability) — มีสมการคำนวณ</h3><div class=\"nfind\"><span class=\"iofind\">🔎 หาต่อให้</span> <span class=\"iowas\">โน้ตมีแค่: “ปี 2008 … มีกี่ parameter … อายุ smoking spiculation upper lobe location แล้วก็ previous colorectal cancer”</span><div>ตัวแปรที่เพื่อนเปิดเจอคือ <b>Mayo Clinic model</b> (Swensen, <b>1997</b>) — 6 ตัว: <b>อายุ, เคยสูบบุหรี่, เคยเป็นมะเร็งนอกทรวงอกที่วินิจฉัย &gt;5 ปีก่อน, เส้นผ่านศูนย์กลาง, spiculation, upper lobe</b> · ปี 2008 น่าจะเป็นงาน <b>validation</b> ที่เทียบ Mayo กับ VA model {{R:12}}{{R:13}}<br>คำนวณเคสนี้ (67 ปี, อดีตผู้สูบ, 20 mm, spiculated, upper lobe) = <b>~72%</b> — ตรงกับตัวเลขที่ได้ในวอร์ด · <b>ระวัง</b>: ข้อ “มะเร็งเดิม” นับเฉพาะที่วินิจฉัย <b>&gt;5 ปี</b> และงานต้นฉบับ<b>ไม่รวม</b>คนที่เป็นมะเร็งภายใน 5 ปี → คนนี้ผ่าตัด CRC มา 1 ปี ตัวแปรนี้จึงเป็น 0 และ model ใช้ได้ไม่เต็มที่ (โอกาสเป็น metastasis ไม่ได้อยู่ในสมการ) {{R:12}}<br>model อื่น: <b>Brock (PanCan)</b> สำหรับ nodule จาก CT screening · <b>Herder</b> = Mayo + ผล PET {{R:1}}</div></div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>ACCP 2013</b> (solid nodule &gt;8 mm) ใช้ probability เลือกทาง: <b>&lt;5%</b> → ติดตามด้วย CT · <b>5–65%</b> → <b>PET</b> ± biopsy แบบไม่ผ่าตัด · <b>&gt;65%</b> → <b>surgical diagnosis</b> (ผ่าตัดเลยหลัง staging ครบ) — เคสนี้ 72% → ผ่าตัดเพื่อวินิจฉัย/รักษาได้ {{R:1}}</div><p>ตกลงจะทำอะไร (เช่น 70% ถ้าเป็นพ่อจะผ่าตัดเลยไหม / คนไข้บอก 30% ไม่ใช่มะเร็งไม่เอา): ก่อนตัดสินใจทั้งหมด ต้อง<b>หาชิ้นเนื้อ</b> ✓ และไม่ปล่อยไปเฉย ๆ — ดูหน้า Tissue diagnosis</p></div><div class=\"box\"><h3>8. เคสนี้เข้าเกณฑ์ screening ไหม</h3><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>USPSTF 2021</b>: LDCT ทุกปี ในคนอายุ <b>50–80 ปี</b> สูบ <b>≥20 pack-year</b> ที่ยังสูบหรือ<b>เลิกไม่เกิน 15 ปี</b> → ชาย 67 ปี 20 pack-year เลิก 5 ปี <b>เข้าเกณฑ์</b> (ก้อนนี้อาจเจอได้จาก screening) {{R:14}}</div></div>",
+"refs": [
+{
+"t": "Gould MK, et al. Evaluation of individuals with pulmonary nodules: when is it lung cancer? ACCP guidelines 3rd ed. <i>Chest</i> 2013;143(5 Suppl):e93S–e120S (ฉบับล่าสุดของ CHEST เรื่องนี้).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3749714/"
+},
+{
+"t": "Evaluation of the solitary pulmonary nodule. <i>Am Fam Physician</i> 2015;92(12):1084–91.",
+"u": "https://www.aafp.org/afp/2015/1215/p1084"
+},
+{
+"t": "MacMahon H, et al. Guidelines for management of incidental pulmonary nodules detected on CT images: Fleischner Society 2017. <i>Radiology</i> 2017;284:228–43 (สรุปที่ Radiopaedia).",
+"u": "https://radiopaedia.org/articles/13541"
+},
+{
+"t": "Townsend CM, et al. <i>Sabiston Textbook of Surgery</i>, 22nd ed. Elsevier; 2025 — บท Lung (neoplasms), Mediastinum, Acquired heart disease / cardiopulmonary bypass (ฉบับล่าสุด)."
+},
+{
+"t": "NCCN Guidelines. <i>Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric</i> (2025) — มะเร็งในกลุ่ม Lynch syndrome."
+},
+{
+"t": "Matakidou A, Eisen T, Houlston RS. Systematic review of the relationship between family history and lung cancer risk. <i>Br J Cancer</i> 2005;93:825–33."
+},
+{
+"t": "Klebe S, et al. Asbestos, smoking and lung cancer: an update. <i>Int J Environ Res Public Health</i> 2020;17:258.",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6982078/"
+},
+{
+"t": "IARC Monographs Vol. 100C (2012). Silica dust, crystalline — Group 1 carcinogen (lung)."
+},
+{
+"t": "Callister MEJ, et al. British Thoracic Society guidelines for the investigation and management of pulmonary nodules. <i>Thorax</i> 2015;70(Suppl 2):ii1–54 (สรุปที่ Radiopaedia).",
+"u": "https://radiopaedia.org/articles/47016"
+},
+{
+"t": "Rami-Porta R, et al. IASLC Lung Cancer Staging Project: proposals for revision of the TNM stage groups in the 9th edition. <i>J Thorac Oncol</i> 2024;19:1007–27 (ใช้จริงตั้งแต่ 1 ม.ค. 2025).",
+"u": "https://pubmed.ncbi.nlm.nih.gov/38447919/"
+},
+{
+"t": "NICE NG122. <i>Lung cancer: diagnosis and management</i> — Diagnosis and staging (2019, updated 2024).",
+"u": "https://www.nice.org.uk/guidance/ng122/chapter/Diagnosis-and-staging"
+},
+{
+"t": "Swensen SJ, et al. The probability of malignancy in solitary pulmonary nodules (Mayo Clinic model). <i>Arch Intern Med</i> 1997;157:849–55 · เครื่องคิดเลข MDCalc.",
+"u": "https://www.mdcalc.com/calc/4057/solitary-pulmonary-nodule-spn-malignancy-risk-score-mayo-clinic-model"
+},
+{
+"t": "Schultz EM, et al. Validation of two models to estimate the probability of malignancy in patients with solitary pulmonary nodules (Mayo vs VA model). <i>Thorax</i> 2008;63:335–41.",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2882437/"
+},
+{
+"t": "US Preventive Services Task Force. Screening for lung cancer: recommendation statement. <i>JAMA</i> 2021;325:962–70 (ฉบับปัจจุบัน).",
+"u": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening"
+}
+]
+},
+{
+"id": "N-lungdx",
+"title": "ได้ชิ้นเนื้อจาก lung nodule: sputum cytology · bronchoscopy vs CT-guided TTNB · ผล biopsy 4 แบบ (inconclusive ทำอะไรต่อ) · adeno = primary หรือ CRC met (IHC: TTF-1) · PET-CT (SUV)",
+"from": "จาก N07",
+"topics": [
+"Cardiothoracic surgery"
+],
+"rev": 1,
+"upd": "2026-11-23",
+"html": "<div class=\"iointro\">ห้ามให้ <b>คีโม/ฉายแสง</b> โดย<b>ยังไม่มีหลักฐานทางพยาธิ</b>ว่าเป็นมะเร็ง ✓ (harmful treatment) → ต้อง<b>ได้ชิ้นเนื้อ</b> ✓ · เลือกวิธีตามตำแหน่งก้อน และถ้ามี node โต ให้เจาะ node (ได้ทั้ง diagnosis และ stage) {{R:1}}{{R:2}}</div><div class=\"box\"><h3>1. Sputum cytology</h3><p>ทำได้ (สมัยก่อน) ✓ — เจอง่ายถ้าก้อนอยู่ใกล้ bronchus/trachea หรือเป็น endobronchial lesion · ก้อนที่อยู่ส่วนปลาย โอกาสเจอน้อย ✓</p><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> ความไวขึ้นกับตำแหน่ง: ภาพรวม ~<b>66%</b>, ก้อน<b>ส่วนกลาง</b>สูงกว่า (~70%) และก้อน<b>ส่วนปลาย</b>ต่ำกว่า (~50% และต่ำกว่านี้มากถ้าก้อนเล็ก) · ใช้ในคนที่สงสัย central tumor และทำหัตถการอื่นไม่ไหว<br><span class=\"iowas\">เดิมจดว่า: “อาจจะ yield 10%”</span> <span class=\"iowhy\">— 10% อาจใกล้ความจริงสำหรับ nodule เล็ก ๆ ที่ส่วนปลายแบบเคสนี้ แต่ไม่ใช่ yield โดยรวม {{R:1}}</span></div><p><b>เจอ malignant cell ในเสมหะ ≠ มะเร็งปอดเสมอ</b> ✓ — บอกว่ามีมะเร็ง<b>ที่ใดที่หนึ่งตลอดทางเดินหายใจ–ทางเดินอาหารส่วนบน</b> (คนสูบบุหรี่มีมะเร็งหลายตำแหน่งได้ เช่น CA nasopharynx/head–neck + CA lung) ✓ → หลักฐานอ่อน ต้องหา tissue ต่อ</p></div><div class=\"box\"><h3>2. Bronchoscopy vs CT-guided transthoracic needle biopsy (TTNB)</h3><p>เลือกตามว่าก้อน<b>ใกล้ฝั่งไหน</b> ✓ · อยู่ <b>medial/ใกล้ airway</b> และ trace bronchus ไปถึงก้อนได้บน CT (“bronchus sign”) → <b>bronchoscopy</b> ✓ · อยู่ <b>periphery</b> ติด chest wall trace ไม่ถึง → <b>transthoracic</b> ✓</p><table><tr><th></th><th>Bronchoscopy</th><th>CT-guided TTNB</th></tr><tr><td>เหมาะกับ</td><td>ก้อนส่วนกลาง, endobronchial · <b>EBUS-TBNA</b> เจาะ mediastinal/hilar node ได้ในครั้งเดียว (ได้ stage)</td><td>ก้อนส่วนปลาย · yield สูง (~90%)</td></tr><tr><td>ข้อเสีย</td><td>ก้อนส่วนปลาย<b>อาจเจาะไม่โดน</b> ✓ (yield ต่ำกว่า; ปัจจุบันมี radial EBUS/navigation ช่วย)</td><td><b>pneumothorax</b> ✓ ~15–26% (ใส่ chest tube ~4–7%), เลือดออก/hemoptysis, (พบน้อย) air embolism</td></tr></table><p style=\"font-size:13px\">ตาราง {{R:1}}{{R:3}}{{R:4}}</p></div><div class=\"box\"><h3>3. ผล biopsy ออกมาได้ 4 แบบ</h3><ol><li><b>Malignant</b> (เป็นมะเร็ง)</li><li><b>Suspicious</b> for malignancy — ถือว่าสงสัยมะเร็งต่อ</li><li><b>Inconclusive / nondiagnostic</b> = “ไม่ได้บอกว่าไม่ใช่มะเร็ง แต่ก็ไม่เจออะไร” ✓</li><li><b>Other diagnosis</b> เช่น granuloma + Langhans giant cell (TB), lymphoma → รักษาตามโรคนั้น ✓</li></ol><p><b>Inconclusive ในก้อน spiculated ทำอะไรได้บ้าง</b> ✓: บอกคนไข้ตามจริงว่าหมอสงสัยมะเร็งสูงแต่ชิ้นเนื้อยังไม่ยืนยัน แล้วให้ option —</p><ol><li><b>ติดตาม</b> (ถ้าคนไข้ไม่เอาอะไรเลย) — ต้องยอมรับความเสี่ยงว่าถ้าเป็นมะเร็งแล้วโต stage จะเปลี่ยน · นัด CT <b>ไม่ช้ากว่า 3 เดือน</b> ✓</li><li><b>Biopsy ซ้ำ</b> ✓</li><li><b>PET-CT</b> ✓</li><li><b>Wedge resection</b> = ตัดทั้งก้อน (excisional) แต่ยังไม่ตัดทั้งกลีบ ✓ — ได้ทั้ง diagnosis และอาจเป็นการรักษาไปในตัว</li></ol><p>❌ <b>คีโม/ฉายแสงทันที</b> = ผิด ✓ เพราะยังไม่เคย document ว่าเป็นมะเร็ง · ❌ ตัดทั้งกลีบทันทีโดยไม่มีหลักฐานเลย ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> Nondiagnostic ≠ benign: TTNB มี false negative ~20–30% → ACCP แนะนำว่าถ้า probability สูง (&gt;65%) ผลลบจากเข็ม<b>ไม่ควร</b>ทำให้หยุด ให้ไป <b>surgical diagnosis</b> {{R:5}}{{R:1}} · ข้อยกเว้นเดียวที่รักษาโดยไม่มีชิ้นเนื้อได้: คนที่<b>ผ่าตัดไม่ได้</b> + เจาะไม่ได้/เสี่ยงมาก + probability สูง หลังทีม MDT ตกลง → <b>SBRT</b> {{R:6}}</div></div><div class=\"box\"><h3>4. ได้ adenocarcinoma = มะเร็งปอดใช่ไหม</h3><p>ส่องกล้องไปเจาะที่ก้อนในเนื้อปอดได้ adenocarcinoma → เป็น<b>มะเร็งที่ปอดแน่</b> (ไม่ benign แล้ว) แต่<b>ยังบอกไม่ได้ว่า primary lung หรือ colorectal lung metastasis</b> ✓ เพราะ CRC ก็เป็น adeno ✓ → ต้อง<b>ย้อมพิเศษ IHC</b> ✓ (ไม่ใช่ tumor marker ในเลือด และไม่ใช่ PET)</p><table><tr><th>Marker</th><th>Primary lung adeno</th><th>Colorectal met</th></tr><tr><td><b>TTF-1</b> (Thyroid Transcription Factor-1 ✓)</td><td>+</td><td>− (ส่วนใหญ่)</td></tr><tr><td>Napsin A</td><td>+</td><td>−</td></tr><tr><td>CK7</td><td>+</td><td>−</td></tr><tr><td>CK20</td><td>−</td><td>+</td></tr><tr><td>CDX2, SATB2</td><td>−</td><td>+</td></tr></table><p style=\"font-size:13px\">ตาราง {{R:7}}{{R:8}}</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>ทำไมใช้ marker ของไทรอยด์</b>: TTF-1 เป็น transcription factor ที่เซลล์<b>ไทรอยด์และเยื่อบุปอด</b> (type II pneumocyte) ใช้ตอนพัฒนา → พบทั้งใน thyroid ca และ lung adeno · <b>กับดัก</b>: lung adeno ชนิด <b>mucinous</b> มัก TTF-1 ลบ และ CRC บางรายย้อม TTF-1 บวกได้ → ใช้ panel หลายตัว + เทียบกับชิ้นเนื้อ CRC เดิม + molecular (เช่น KRAS) ไม่มี marker ตัวเดียวที่แยกได้ 100% {{R:7}}{{R:8}} · ผลนี้<b>เปลี่ยนแผนการรักษา</b>ทั้งหมด ✓ (primary → lobectomy + LND; met → wedge พอ — ดูหน้า metastasectomy)</div></div><div class=\"box\"><h3>5. PET-CT</h3><p>หลักการ ✓: เซลล์มะเร็งแบ่งตัวเร็ว ใช้กลูโคสมาก → ดูด <b>FDG</b> (น้ำตาลติดฉลาก) ไว้ · ค่าเป็น <b>SUV (standardized uptake value)</b> = ความเข้มในก้อนเทียบกับค่าเฉลี่ยถ้ากระจายเท่ากันทั้งตัว (ราว ๆ “กี่เท่า”) ✓ · <b>PET บวก = มี metabolism สูง ≠ มะเร็งเสมอ</b> ✓ (active TB ก็ขึ้น ✓) · SUV ยิ่งสูง (10–20) ยิ่ง suggestive ✓ · ส่ง whole-body แล้วขึ้นที่ bone, adrenal, สมอง → น่าจะใช่มะเร็ง ✓ แต่ไม่มีอะไร 100% ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> FDG เข้าเซลล์ทาง GLUT → ถูก hexokinase เติม phosphate เป็น FDG-6-P แล้ว<b>ติดอยู่ในเซลล์</b> (ไปต่อใน glycolysis ไม่ได้) · มักใช้ SUVmax <b>&gt;2.5</b> เป็นจุดสงสัย · <b>False positive</b>: ติดเชื้อ/อักเสบ (TB, เชื้อรา, sarcoidosis, abscess, หลังฉายแสง) · <b>False negative</b>: ก้อน <b>&lt;8–10 mm</b>, ground-glass/AIS/MIA, <b>carcinoid</b>, mucinous adeno, น้ำตาลในเลือดสูง {{R:5}}{{R:9}}</div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ใช้ PET ใน 2 บทบาท: (1) <b>characterize</b> nodule probability กลาง (5–65%) (2) <b>staging</b> คนที่จะรักษาหายขาด (node, distant met — ใช้แทน bone scan) · node ที่ PET บวกยังต้อง<b>ยืนยันด้วยชิ้นเนื้อ</b> (EBUS/mediastinoscopy) ก่อนตัดสิทธิ์ผ่าตัด · <b>สมองดูด้วย PET ไม่ดี</b> (สมองดูดน้ำตาลเยอะอยู่แล้ว) → ต้อง <b>MRI brain</b> แยก {{R:5}}{{R:6}}{{R:2}}</div></div>",
+"refs": [
+{
+"t": "Rivera MP, et al. Establishing the diagnosis of lung cancer. ACCP guidelines 3rd ed. <i>Chest</i> 2013;143(5 Suppl):e142S–e165S."
+},
+{
+"t": "NICE NG122. <i>Lung cancer: diagnosis and management</i> — Diagnosis and staging (2019, updated 2024).",
+"u": "https://www.nice.org.uk/guidance/ng122/chapter/Diagnosis-and-staging"
+},
+{
+"t": "Huo YR, et al. Pneumothorax rates in CT-guided lung biopsies: a comprehensive systematic review and meta-analysis (pneumothorax 25.9%, chest drain 6.9%). <i>Br J Radiol</i> 2020;93:20190866.",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7362905/"
+},
+{
+"t": "Review: complications of transthoracic needle lung biopsy (any pneumothorax 15–25%, ต้องใส่ chest tube 4–6%) — PMC3601755.",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3601755/"
+},
+{
+"t": "Gould MK, et al. Evaluation of individuals with pulmonary nodules: when is it lung cancer? ACCP guidelines 3rd ed. <i>Chest</i> 2013;143(5 Suppl):e93S–e120S (ฉบับล่าสุดของ CHEST เรื่องนี้).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3749714/"
+},
+{
+"t": "NCCN Clinical Practice Guidelines in Oncology. <i>Non-Small Cell Lung Cancer</i>, Version 4.2026 (เม.ย. 2026).",
+"u": "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1450"
+},
+{
+"t": "Aberrant TTF-1 expression in metastatic colorectal adenocarcinoma mimicking primary lung cancer: case report and review of diagnostic pitfalls. <i>Diagn Pathol</i> 2025 (ตาราง IHC lung vs colorectal).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12764080/"
+},
+{
+"t": "Comparison of GI markers (CDX2, CK20, SATB2, CDH17 ฯลฯ) vs TTF-1/CK7 in primary lung cancer vs pulmonary metastases. <i>Virchows Arch</i> 2023.",
+"u": "https://link.springer.com/article/10.1007/s00428-023-03583-w"
+},
+{
+"t": "Townsend CM, et al. <i>Sabiston Textbook of Surgery</i>, 22nd ed. Elsevier; 2025 — บท Lung (neoplasms), Mediastinum, Acquired heart disease / cardiopulmonary bypass (ฉบับล่าสุด)."
+}
+]
+},
+{
+"id": "N-calung",
+"title": "CA lung (NSCLC): squamous vs adeno · อาการ (location > size) · TNM 9th (N1/N2/N3) · staging workup (CT รวม adrenal, MRI brain) · common mets · ผ่าตัด lobectomy + systematic LND · VATS vs thoracotomy · neoadjuvant/adjuvant/targeted · follow-up",
+"from": "จาก N07",
+"topics": [
+"Cardiothoracic surgery"
+],
+"rev": 1,
+"upd": "2026-11-23",
+"html": "<div class=\"iointro\">มะเร็งปอดแบ่งเป็น <b>NSCLC ~85%</b> (adenocarcinoma, squamous cell, large cell) และ <b>SCLC ~15%</b> · การรักษาขึ้นกับ <b>stage (TNM)</b> + <b>biomarker</b> · ระยะที่ผ่าตัดได้ ผ่าตัดเป็นหลัก {{R:1}}{{R:2}}</div><div class=\"box\"><h3>1. Squamous vs adenocarcinoma</h3><p>แต่ก่อน <b>squamous cell</b> พบมากที่สุด เพราะบุหรี่ ✓ — squamous อยู่<b>ส่วนกลาง ใกล้ airway</b> ควันกระทบ epithelium ของหลอดลมใหญ่ที่อยู่ proximal ✓</p><div class=\"nfind\"><span class=\"iofind\">🔎 หาต่อให้</span> <span class=\"iowas\">โน้ตมีแค่: “ตอนนี้ adeno ไปไกล หรือไรวะฟังไม่ทัน”</span><div>ปัจจุบัน <b>adenocarcinoma พบมากที่สุด</b> และมักอยู่<b>ส่วนปลาย (peripheral)</b> — เหตุผลที่อธิบายกันบ่อย: บุหรี่ก้นกรอง/low-tar ทำให้สูดลึกขึ้น สารก่อมะเร็งไปถึงส่วนปลาย · adeno ยังเป็นชนิดหลักใน<b>คนไม่สูบบุหรี่ ผู้หญิง และคนเอเชีย</b> ซึ่งมี <b>EGFR mutation</b> บ่อย (เอเชีย ~50% ของ adeno) {{R:1}}{{R:3}}</div></div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ลักษณะเด่นอื่น: <b>squamous</b> — central, cavitation, hypercalcemia (PTHrP) · <b>SCLC</b> — central, โตและกระจายเร็ว, paraneoplastic (SIADH, Cushing/ACTH, Lambert–Eaton) ส่วนใหญ่ไม่ผ่าตัด (ยกเว้นระยะต้นมาก T1–2N0) {{R:1}}{{R:2}}</div></div><div class=\"box\"><h3>2. อาการ — ตำแหน่งสำคัญกว่าขนาด</h3><p>อาการ: ไอ, เหนื่อย · lung nodule ที่เจอบ่อยสุดมาจาก <b>abnormal CXR (incidental)</b> ✓</p><p><b>Mass volume ไม่สำคัญเท่า location</b> ✓ — ก้อนเล็กปกติไม่ควรเหนื่อย แต่ถ้าไปกด <b>bronchus</b> (ตีบ → atelectasis/post-obstructive pneumonia), <b>phrenic nerve</b> (กะบังลมอัมพาต), <b>diaphragm</b> ก็เหนื่อยได้ ✓ · ก้อนเล็กแต่ advance ไป <b>pleural cavity → pleural effusion</b> ได้ ✓ (malignant effusion = M1a)</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ถ้านับมะเร็งปอดทั้งหมด (ไม่ใช่เฉพาะ nodule) ส่วนใหญ่มาด้วย<b>อาการ</b>และระยะลุกลามแล้ว — อาการที่พบบ่อยสุดคือ <b>ไอ</b> · อาการตามตำแหน่งอื่น: <b>left recurrent laryngeal nerve</b> → เสียงแหบ · <b>Pancoast (superior sulcus)</b> → ปวดไหล่ร้าวแขน (C8–T1) + Horner · <b>SVC syndrome</b> · pericardial effusion/tamponade {{R:1}}</div></div><div class=\"box\"><h3>3. TNM 9th edition (IASLC, ใช้ตั้งแต่ 1 ม.ค. 2025)</h3><table><tr><th>T</th><th></th></tr><tr><td>T1a / T1b / T1c</td><td>≤1 / &gt;1–2 / &gt;2–3 cm · <b>ก้อน 2 cm = T1b</b> ✓</td></tr><tr><td>T2a / T2b</td><td>&gt;3–4 / &gt;4–5 cm (หรือ main bronchus, visceral pleura, atelectasis ถึง hilum)</td></tr><tr><td>T3</td><td>&gt;5–7 cm หรือลาม chest wall/phrenic nerve/parietal pericardium หรือ nodule แยกใน<b>กลีบเดียวกัน</b></td></tr><tr><td>T4</td><td>&gt;7 cm หรือลาม mediastinum, หัวใจ, great vessels, trachea/carina, esophagus, vertebra, diaphragm หรือ nodule แยกใน<b>กลีบอื่นข้างเดียวกัน</b></td></tr></table><table><tr><th>N</th><th>ดูว่ามีกี่ node และอยู่ฝั่งไหน ✓</th></tr><tr><td>N1</td><td>peribronchial / hilar / intrapulmonary <b>ข้างเดียวกัน</b> (station 10–14)</td></tr><tr><td>N2</td><td>mediastinal/subcarinal <b>ข้างเดียวกัน</b> — node ที่มีชื่อตามอวัยวะ ✓: paratracheal (2,4), subaortic/paraaortic (5,6), <b>subcarinal (7)</b>, paraesophageal (8), pulmonary ligament (9) · <b>ใหม่ใน 9th</b>: <b>N2a</b> = station เดียว, <b>N2b</b> = หลาย station</td></tr><tr><td>N3</td><td>mediastinal/hilar <b>ฝั่งตรงข้าม</b> หรือ <b>scalene/supraclavicular</b> ข้างไหนก็ได้</td></tr></table><table><tr><th>M</th><th></th></tr><tr><td>M1a</td><td>nodule ที่ปอดอีกข้าง, pleural/pericardial nodule หรือ malignant effusion</td></tr><tr><td>M1b</td><td>met นอกทรวงอก 1 ก้อนใน 1 อวัยวะ</td></tr><tr><td>M1c1 / M1c2 (ใหม่)</td><td>หลายก้อนใน<b>ระบบอวัยวะเดียว</b> / ใน<b>หลายระบบ</b></td></tr></table><p style=\"font-size:13px\">ตาราง {{R:4}}{{R:5}}</p><p>ทาง surgery: <b>N0 กับ N1 อยู่ฝั่ง resectable</b> · <b>N2–N3 อีกฝั่ง</b> ✓ (N1 แย่กว่า N0 แต่ยังผ่าตัดได้ ✓)</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ตัวอย่าง stage ที่เปลี่ยนใน 9th: <b>T1N1 = IIA</b> (8th = IIB) · T1N2a = IIB · T1N2b = IIIA · N3 ใด ๆ = IIIB–IIIC · M1a/M1b = IVA · M1c = IVB {{R:6}}{{R:4}} — เคสที่พี่ยกตัวอย่าง <b>T1b N1 M0</b> = <b>IIA</b> ✓ (ตาม 9th)</div></div><div class=\"box\"><h3>4. Staging workup</h3><p>สงสัย CA lung แล้วสั่ง “CT chest” เฉย ๆ <b>ไม่ครบ</b> ✓ — ต้องเขียนขอเป็น <b>CT staging for lung cancer</b> เพื่อให้รังสีแพทย์<b>รวม adrenal</b> มาให้ ✓ · <b>สมองต้องทำแยก</b> ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> มาตรฐาน: <b>CT chest with contrast รวม upper abdomen (ตับ + adrenal)</b> และ lower neck (NICE) · <b>PET-CT</b> ในคนที่จะรักษาหายขาด · <b>MRI brain</b> ใน stage II–IV (stage IB พิจารณา) · CT บอก node โตเมื่อ <b>short axis ≥10 mm</b> ✓ {{R:2}}{{R:7}}</div><p>เกณฑ์ node โต 1 vs 1.5 cm = เรื่อง diagnostic test ✓: cut-off สูง (1.5) → <b>sensitivity ต่ำลง</b> (node 1.2 cm ที่เป็นมะเร็งถูกนับลบ) แต่ <b>specificity สูงขึ้น</b> ✓ · ปัจจุบันใช้ ~1 cm ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>เมื่อไรต้องเจาะ mediastinal node ก่อนผ่าตัด</b> (EBUS-TBNA/EUS ± mediastinoscopy): node โตบน CT หรือ PET บวก, ก้อนอยู่ส่วนกลาง, ก้อน &gt;3 cm, หรือมี N1 · ถ้าก้อน <b>≤3 cm ส่วนปลาย</b> node ไม่โตและ PET ไม่ขึ้น → ผ่าตัดเลยพร้อม systematic nodal dissection ได้ (เคสนี้เข้าข่าย) {{R:8}}</div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>ประเมินว่าปอดทนการผ่าตัดไหม</b>: FEV<sub>1</sub> + DLCO → คำนวณ predicted postoperative (ppo) · ppoFEV<sub>1</sub> และ ppoDLCO <b>&gt;60%</b> → เสี่ยงต่ำ ผ่าได้ · 30–60% → stair climb/shuttle walk · <b>&lt;30%</b> → CPET (VO<sub>2</sub>max &lt;10 mL/kg/min เสี่ยงสูง) · เกณฑ์เก่าแบบง่าย: <b>FEV<sub>1</sub> &gt;1.5 L ทำ lobectomy</b>, &gt;2 L ทำ pneumonectomy ได้ {{R:9}}{{R:1}}</div></div><div class=\"box\"><h3>5. Common metastasis ของ CA lung</h3><p>Met ไป <b>สมอง</b> บ่อย ✓ · <b>adrenal</b> = ตำแหน่งที่ค่อนข้าง “unique” ของมะเร็งปอด (CA colon/breast ไม่ค่อยไป) ✓ · pleura เป็นไปได้ ✓</p><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> ตำแหน่งที่พบบ่อย: <b>NSCLC</b> — สมอง ~29%, กระดูก ~25%, adrenal ~15%, <b>ตับ ~13%</b> · <b>SCLC</b> — <b>ตับ ~33%</b> (บ่อยสุด), สมอง ~30%, กระดูก ~27%, adrenal ~10% · ใน adeno กระดูกพบบ่อยสุดในบางชุดข้อมูล (~39%)<br><span class=\"iowas\">เดิมจดว่า: “ส่วนใหญ่ met ไป solid organ เราไปไหน ไม่ใช่ liver … liver ก็ไม่ว่ะ”</span> <span class=\"iowhy\">— ตับเป็น 1 ใน 5 ตำแหน่งหลักของ lung cancer met (โดยเฉพาะ SCLC และมีพยากรณ์โรคแย่สุด) {{R:10}}{{R:11}}</span></div><div class=\"nres\">💬 พี่: “bone met ส่วนใหญ่ผมเจอเป็นพวก ribs” — ประสบการณ์ส่วนตัว · ข้อมูลทั่วไป: กระดูกที่ met บ่อยสุดโดยรวมคือ<b>กระดูกสันหลัง</b> (โดยเฉพาะ thoracic/lumbar) ตามด้วย pelvis, ซี่โครง, femur — นักเรียนที่ตอบ “spine” จึงไม่ผิดถ้าหมายถึง vertebral bone met {{R:1}}</div></div><div class=\"box\"><h3>6. ผ่าตัด — operation of choice ของ resectable NSCLC</h3><p>ก้อน 2 cm, node negative, ไม่มี met → <b>lobectomy + mediastinal lymph node dissection</b> ✓ · <b>core value = ตัดปอดออกทั้ง unit</b> (กลีบ + ทางน้ำเหลืองของมัน) <b>พร้อมเลาะ node</b> ✓ · <b>VATS/open = แค่ access</b> (แผลเล็กหรือใหญ่) ไม่ใช่ชื่อ operation ✓ — เหมือน CA breast ที่ตอบ MRM + axillary dissection</p><p><b>Sampling 5 node vs เลาะหมด 10 node</b> ✓: stage ของโรคจริงไม่เปลี่ยน แต่<b>ความแม่นของ staging</b>ต่างกัน — คนเลาะน้อยอาจได้ N0 ทั้งที่จริงเป็น N1/N2 (understaging) → อดได้ adjuvant → survival อาจเปลี่ยน ✓ (stage migration)</p><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> <b>Sentinel node ≠ sampling</b> · <b>sentinel node biopsy</b> = หา node แรกที่รับน้ำเหลืองจากก้อนด้วยสี/สารรังสี แล้วตรวจเฉพาะ node นั้น (มาตรฐานใน breast/melanoma; ใน lung ยังเป็นงานวิจัย ✓ ไม่แพร่หลาย) · <b>sampling</b> = หยิบ node ตัวแทนจาก station ต่าง ๆ · <b>systematic nodal dissection</b> = เลาะเนื้อเยื่อและ node ทั้งหมดใน station ที่กำหนด<br><span class=\"iowas\">เดิมจดว่า: “Node มีตั้งแต่ node sampling หรือที่เรียกว่า sentinel และหรือ systematic node dissection”</span> <span class=\"iowhy\">— เป็น 3 วิธีที่ต่างกัน {{R:12}}{{R:1}}</span></div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>ESTS</b>: แนะนำ <b>systematic nodal dissection ทุกราย</b> — อย่างน้อย <b>3 mediastinal station ต้องรวม subcarinal (7) เสมอ</b> + hilar/intrapulmonary node (รวม ≥6 node) · lobe-specific dissection ยอมรับในก้อน peripheral squamous T1 ที่ hilar/interlobar node ลบใน frozen section {{R:12}} · มาตรฐานคุณภาพ CoC (US): ≥1 N1 station + <b>3 N2 station</b> {{R:13}}</div><p>Drainage ตามกลีบ ✓: <b>RUL → paratracheal (2R, 4R) + subcarinal</b> · <b>RLL → paraesophageal, inferior pulmonary ligament (8, 9) + subcarinal</b> · แต่มี <b>skip metastasis</b> ✓ (ข้าม N1 ไป N2 หรือข้ามขึ้นบน) → จึงเลาะแบบ systematic ให้ได้มากที่สุด ✓</p><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> “Wedge ผิด” ใช้กับมาตรฐานเดิม — ปัจจุบัน <b>sublobar resection</b> (segmentectomy ดีกว่า wedge) <b>ไม่ด้อยกว่า lobectomy</b> ใน <b>ก้อน peripheral ≤2 cm ที่ยืนยัน node ลบระหว่างผ่าตัด</b>: <b>JCOG0802</b> (2022, segmentectomy, 5-yr OS 94.3% vs 91.1%) และ <b>CALGB 140503</b> (2023, wedge/segment, DFS/OS ไม่ต่าง) · ยังต้องทำ <b>node dissection</b> เสมอ · ก้อนใหญ่กว่านี้/ส่วนกลาง/node บวก → lobectomy ยังเป็นมาตรฐาน<br><span class=\"iowas\">เดิมจดว่า: “ที่คุณตอบคำตอบแรกว่า wedge ผิด ผิดเลย”</span> <span class=\"iowhy\">— เคสนี้ก้อน 2 cm ส่วนปลาย ถ้า frozen section node ลบ ทำ sublobar ได้ตามหลักฐานใหม่ — คำตอบที่ปลอดภัยในข้อสอบที่ไม่ได้ให้ข้อมูลนี้ยังคือ lobectomy + LND {{R:14}}{{R:15}}{{R:2}}</span></div><p><b>ผู้ป่วยสูงอายุมาก</b> (เช่น 89 ปี) ปฏิเสธ completion lobectomy → <b>ยอมได้</b> ✓ เพราะสิ่งที่ทำเพิ่มคือลดโอกาส recurrence แต่คาดว่าจะเสียชีวิตจากสาเหตุอื่นก่อน ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ทางเลือกในคนผ่าตัดไม่ไหว (medically inoperable) ระยะต้น: <b>SBRT</b> (stereotactic body radiotherapy) {{R:2}}</div></div><div class=\"box\"><h3>7. Thoracotomy vs VATS</h3><p>ผ่าตัดปอดสมัยก่อน = <b>thoracotomy</b> (แผลใหญ่ เอามือ/เครื่องมือเข้าไป) · ปัจจุบัน = แผล ~4 cm ส่องกล้องเข้าไป ใช้ <b>stapler</b> ตัดปอด <b>ไม่ต้องตัดซี่โครง แค่เปิดช่อง</b> ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> Posterolateral thoracotomy เข้าทาง<b>ช่องซี่โครง</b> (มัก ICS 5) แล้วใช้ rib spreader ถ่างซี่โครง (บางครั้งตัด/ตัดบางส่วนของซี่โครง) → ปวดมาก · <b>VATS</b> (1–3 port + utility incision ~3–4 cm) / <b>RATS</b> (หุ่นยนต์) ไม่ถ่างซี่โครง · RCT <b>VIOLET</b> (2022): VATS lobectomy ฟื้นตัวเร็วกว่า ภาวะแทรกซ้อนน้อยกว่า ผลทางมะเร็งไม่ด้อยกว่า {{R:16}}{{R:1}}</div></div><div class=\"box\"><h3>8. N2 แล้วทำอะไร · การรักษาเสริม · targeted therapy</h3><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> N2 บวก = stage III → <b>ทีม MDT</b>: N2 station เดียว/ผ่าตัดได้ → <b>neoadjuvant</b> (ให้<b>ก่อน</b>ผ่าตัด) <b>chemo + immunotherapy</b> แล้วผ่าตัด (CheckMate 816, KEYNOTE-671) · N2 หลาย station/bulky หรือ <b>N3</b> → <b>definitive concurrent chemoradiation</b> แล้วตามด้วย durvalumab (EGFR+ → osimertinib)<br><span class=\"iowas\">เดิมจดว่า: “ถ้า N พวกนี้ positive แปลว่าคนนั้น beyond surgery หรือจำเป็นจะต้องไปให้ adjuvant chemo เลยก่อน ส่งไปให้ onco”</span> <span class=\"iowhy\">— ยาที่ให้ “ก่อน” ผ่าตัดเรียก neoadjuvant · adjuvant = หลังผ่าตัด · และ N2 บางกลุ่มยังกลับมาผ่าตัดได้ {{R:17}}{{R:18}}{{R:2}}</span></div><p>หลังผ่าตัด → ส่ง onco ✓ · ปัจจุบัน adjuvant <b>ไม่จำเป็นต้องเป็นคีโมอย่างเดียวแล้ว</b> มีทั้ง targeted therapy, immunotherapy ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> Adjuvant หลังผ่าตัด stage <b>II–IIIA</b> (และ IB ก้อน ≥4 cm): cisplatin-based chemo · <b>EGFR+</b> → <b>osimertinib</b> 3 ปี (ADAURA — เพิ่ม OS) · <b>ALK+</b> → <b>alectinib</b> 2 ปี (ALINA) · PD-L1 บวก → atezolizumab/pembrolizumab · จึงต้องตรวจ <b>EGFR, ALK, PD-L1</b> ในชิ้นเนื้อที่ผ่าตัด {{R:19}}{{R:2}}</div><div class=\"nres\">💬 พี่: targeted therapy “มาแรงมาก ดีจริง” คนไข้บางคนผ่าตัดไม่ได้ นึกว่าจะเสียชีวิตในปีถัดไป ได้ targeted 5 ปียังวิ่งเล่นได้ — ข้อมูลรองรับ (stage IV): EGFR+ ได้ osimertinib ตั้งแต่แรก median OS <b>38.6 เดือน</b> (FLAURA) · ALK+ ได้ alectinib <b>5-yr OS 62.5%</b> (ALEX) — ดีกว่าคีโมเดิมมาก แต่ใช้ได้เฉพาะคนที่มี driver mutation {{R:20}}</div></div><div class=\"box\"><h3>9. Follow-up หลังรักษาหายขาด</h3><p>Recurrence ส่วนใหญ่เกิดใน <b>2 ปีแรก</b> ✓ → นัดถี่ในช่วงนั้น แล้วห่างขึ้น ✓</p><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> <b>CT chest ทุก 6 เดือน × 2 ปี</b> (NCCN: 2–3 ปี) แล้ว <b>LDCT ปีละครั้งต่อไป</b> เพื่อหา<b>มะเร็งปอดก้อนที่สอง (second primary)</b> · ASCO: CT เป็น modality ที่ดีที่สุด, <b>ไม่ใช้ PET</b> และไม่ทำ MRI brain routine ใน NSCLC<br><span class=\"iowas\">เดิมจดว่า: “ภายใน 2 ปีแรกเราจะนัดถี่ ทุก 3-4 เดือน ฟิล์ม X-ray … ครบ 1 ปี CT … นัดห่างขึ้นเป็น 6 เดือน … ครบ 5 ปี … เกิน 5 ปี เราก็มักจะถือว่า cancer-free”</span> <span class=\"iowhy\">— แนวทางปัจจุบันใช้ CT เป็นหลัก (CXR ไวไม่พอ) และไม่หยุดที่ 5 ปี เพราะความเสี่ยงมะเร็งก้อนใหม่ยังสูงต่อเนื่อง — แต่ละโรงพยาบาลอาจใช้ CXR ระหว่างนัดเพิ่มได้ {{R:21}}{{R:2}}</span></div></div>",
+"refs": [
+{
+"t": "Townsend CM, et al. <i>Sabiston Textbook of Surgery</i>, 22nd ed. Elsevier; 2025 — บท Lung (neoplasms), Mediastinum, Acquired heart disease / cardiopulmonary bypass (ฉบับล่าสุด)."
+},
+{
+"t": "NCCN Clinical Practice Guidelines in Oncology. <i>Non-Small Cell Lung Cancer</i>, Version 4.2026 (เม.ย. 2026).",
+"u": "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1450"
+},
+{
+"t": "Shi Y, et al. EGFR mutation frequency in Asian patients with advanced lung adenocarcinoma (PIONEER). <i>J Thorac Oncol</i> 2014;9:154–62."
+},
+{
+"t": "Rami-Porta R, et al. IASLC Lung Cancer Staging Project: proposals for revision of the TNM stage groups in the 9th edition. <i>J Thorac Oncol</i> 2024;19:1007–27 (ใช้จริงตั้งแต่ 1 ม.ค. 2025).",
+"u": "https://pubmed.ncbi.nlm.nih.gov/38447919/"
+},
+{
+"t": "Radiopaedia. Lung cancer staging — IASLC 9th edition (revised 27 Apr 2026).",
+"u": "https://radiopaedia.org/articles/lung-cancer-staging-iaslc-9th-edition"
+},
+{
+"t": "ERS: ตาราง stage group TNM 9th เทียบ 8th edition (T1N1 → IIA; T1N2a → IIB; T1N2b → IIIA).",
+"u": "https://publications.ersnet.org/ers-lookup/tab-link/TB1/687979"
+},
+{
+"t": "NICE NG122. <i>Lung cancer: diagnosis and management</i> — Diagnosis and staging (2019, updated 2024).",
+"u": "https://www.nice.org.uk/guidance/ng122/chapter/Diagnosis-and-staging"
+},
+{
+"t": "De Leyn P, et al. Revised ESTS guidelines for preoperative mediastinal lymph node staging for NSCLC. <i>Eur J Cardiothorac Surg</i> 2014;45:787–98.",
+"u": "https://core.ac.uk/download/85217117.pdf"
+},
+{
+"t": "Brunelli A, et al. Physiologic evaluation of the patient with lung cancer being considered for resectional surgery. ACCP guidelines 3rd ed. <i>Chest</i> 2013;143(5 Suppl):e166S–e190S."
+},
+{
+"t": "Meta-analysis of 115 studies: metastatic sites, risk factors and survival in NSCLC vs SCLC. 2025 (PMC12254191).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12254191/"
+},
+{
+"t": "Riihimäki M, et al. Metastatic sites and survival in lung cancer. <i>Lung Cancer</i> 2014;86:78–84.",
+"u": "https://scholars.mssm.edu/en/publications/metastatic-sites-and-survival-in-lung-cancer-2/"
+},
+{
+"t": "Lardinois D, et al. ESTS guidelines for intraoperative lymph node staging in NSCLC. <i>Eur J Cardiothorac Surg</i> 2006;30:787–92.",
+"u": "https://doc.rero.ch/record/292862?ln=en"
+},
+{
+"t": "Magouliotis DE, et al. Optimizing lymph node staging in NSCLC surgery: evidence, guidelines and quality (CoC: ≥1 N1 + 3 N2 stations). <i>J Clin Med</i> 2026;15:831.",
+"u": "https://www.mdpi.com/2077-0383/15/2/831"
+},
+{
+"t": "Saji H, et al. Segmentectomy versus lobectomy in small-sized peripheral NSCLC (JCOG0802/WJOG4607L). <i>Lancet</i> 2022;399:1607–17.",
+"u": "https://pubmed.ncbi.nlm.nih.gov/35461558/"
+},
+{
+"t": "Altorki N, et al. Lobar or sublobar resection for peripheral stage IA NSCLC (CALGB 140503). <i>N Engl J Med</i> 2023;388:489–98.",
+"u": "https://pubmed.ncbi.nlm.nih.gov/36780674/"
+},
+{
+"t": "Lim E, et al. VATS versus open lobectomy for lung cancer (VIOLET): a multicentre RCT. <i>Lancet Oncol</i> 2022;23:1534–44."
+},
+{
+"t": "Forde PM, et al. Neoadjuvant nivolumab plus chemotherapy in resectable lung cancer (CheckMate 816). <i>N Engl J Med</i> 2022;386:1973–85 · Wakelee H, et al. Perioperative pembrolizumab (KEYNOTE-671). <i>N Engl J Med</i> 2023;389:491–503."
+},
+{
+"t": "Antonia SJ, et al. Durvalumab after chemoradiotherapy in stage III NSCLC (PACIFIC). <i>N Engl J Med</i> 2017;377:1919–29 · Lu S, et al. Osimertinib after chemoradiotherapy in EGFR-mutated stage III NSCLC (LAURA). <i>N Engl J Med</i> 2024;391:585–97."
+},
+{
+"t": "Tsuboi M, et al. Overall survival with osimertinib in resected EGFR-mutated NSCLC (ADAURA). <i>N Engl J Med</i> 2023;389:137–47 · Wu YL, et al. Alectinib in resected ALK-positive NSCLC (ALINA). <i>N Engl J Med</i> 2024;390:1265–76."
+},
+{
+"t": "Ramalingam SS, et al. Overall survival with osimertinib in untreated EGFR-mutated advanced NSCLC (FLAURA). <i>N Engl J Med</i> 2020;382:41–50 · Mok T, et al. Updated OS of alectinib vs crizotinib (ALEX, 5-yr OS 62.5%). <i>Ann Oncol</i> 2020;31:1056–64."
+},
+{
+"t": "Schneider BJ, et al. Lung cancer surveillance after definitive curative-intent therapy: ASCO guideline. <i>J Clin Oncol</i> 2020;38:753–66.",
+"u": "https://pubmed.ncbi.nlm.nih.gov/31829901/"
+}
+]
+},
+{
+"id": "N-meta",
+"title": "Lung metastasis & pulmonary metastasectomy: met vs primary · CRC lung met (wedge พอ ไม่เลาะ node) · เกณฑ์ผ่าตัด (primary คุมได้, ตัดได้หมด, ปอดเหลือพอ) · ลำดับ wedge → patho · sarcoma lung met",
+"from": "จาก N07",
+"topics": [
+"Cardiothoracic surgery"
+],
+"rev": 1,
+"upd": "2026-11-23",
+"html": "<div class=\"iointro\">เคส: เคยผ่าตัด CRC 1 ปีก่อน มีก้อนเดียวที่ปอด → อาจเป็น <b>CRC lung metastasis</b> หรือ <b>second primary lung cancer</b> — การรักษาต่างกันมาก จึงต้องแยกให้ได้ {{R:1}}</div><div class=\"box\"><h3>1. Met หรือ primary</h3><p>CT เจอ<b>ก้อนเดียว</b> → บอกไม่ได้ ✓ · เจอ <b>5 จุด</b> → คิดถึง met ✓ (ไม่น่ามี 5 primary) · met มักกลมเรียบ, primary มัก spiculated ✓ · met มักวิ่งไป<b>ส่วนปลาย (periphery)</b> ✓ เพราะเซลล์มาทางเลือดแล้วติดที่หลอดเลือดเส้นเล็กสุดตอนเป็นก้อนระดับเซลล์ ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> Met ทางเลือด (hematogenous) จึงมัก<b>หลายก้อน, subpleural, lower lobe</b> (เลือดไปเยอะ) · ปัจจัยที่ช่วยแยก: <b>disease-free interval</b> ยิ่งนานยิ่งน่าเป็น primary, histology/IHC (TTF-1 vs CDX2/SATB2), ระดับ CEA, ลักษณะบน CT {{R:1}}{{R:2}}</div></div><div class=\"box\"><h3>2. ลำดับเมื่อ biopsy ไม่ได้คำตอบ: wedge ก่อน แล้วดู patho</h3><p>ทำ <b>wedge resection</b> ก้อน 2 cm (ถ้า technically ทำได้) ✓ → ได้ทั้งก้อนไปย้อมพิเศษ:</p><div class=\"flow\"><span class=\"n\">Wedge (+ frozen section)</span><span class=\"ar\">→</span><span class=\"n\">CRC met → wedge <b>พอแล้ว</b> จบ ✓</span><span class=\"ar\">/</span><span class=\"n r\">Second primary lung → <b>completion lobectomy + LND</b> ✓</span></div><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ในทางปฏิบัติมักส่ง <b>frozen section</b> ระหว่างผ่าตัด → ถ้าเป็น primary lung cancer ทำ <b>lobectomy + node dissection ต่อในการดมยาครั้งเดียวกัน</b> ไม่ต้องรอผ่าครั้งที่สอง (ถ้า frozen ไม่ชัดค่อยรอ final patho) {{R:1}}{{R:3}}</div></div><div class=\"box\"><h3>3. ทำไม CRC lung met ทำแค่ wedge และไม่เลาะ node</h3><ul><li>Primary CA lung ใช้ lobectomy + LND เพราะ (1) ต้องตัดทั้ง unit (2) <b>กระจายทาง lymphatic</b> ✓</li><li>CRC มาปอดทาง <b>hematogenous</b> → การเลาะ node ไม่มีประโยชน์ทางการรักษา ✓</li><li>ต้องการแค่ <b>wide excision with adequate margin</b> ✓ → <b>wedge</b> (หรือ segmentectomy) · <b>lobectomy เฉพาะเมื่อจำเป็น</b> เช่น ก้อนอยู่ central ใกล้ hilum wedge ไม่ได้ ✓ — ถ้า wedge ได้ อย่าเสียเนื้อปอดฟรี ✓ (ตอบ lobectomy ได้ครึ่งคะแนน, ตอบ chemo ได้ 0)</li></ul><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> ตอบคำถามเพื่อนเรื่อง “met แล้วกระจายต่อทาง lymphatic ได้ไหม”: เกิดได้บ้าง (พบ thoracic node บวกในผู้ป่วยส่วนน้อย และบอก<b>พยากรณ์โรคแย่</b>) แต่การเลาะ node <b>ไม่ได้เพิ่ม survival</b> จึงไม่ใช่ส่วนหนึ่งของการรักษามาตรฐาน · บางสถาบันทำ <b>node sampling</b> เพื่อบอก prognosis {{R:1}}</div></div><div class=\"box\"><h3>4. เกณฑ์ผ่าตัด metastasis ที่ปอด/ตับ (CRC)</h3><p>CRC + lung met = <b>stage IV</b> — <b>อย่าบอกคนไข้ว่า “ระยะสุดท้าย”</b> ✓ เพราะยังรักษาหายขาดได้บางราย</p><ol><li><b>Primary คุมได้</b> (ตัดหมดแล้ว, CT ท้องไม่มี node/recurrence, scope ปกติ) ✓</li><li><b>Met ทุกจุดตัดออกได้หมด</b> (ทั้งตับและปอด — ศัลยแพทย์ตับและปอดต้อง sign ว่าตัดได้ทั้งคู่ ถ้ามีจุดเดียวที่ตัดไม่ได้ → ไม่ตัด) ✓</li><li><b>เนื้อปอด/ตับเหลือพอ</b> (lung reserve) ✓</li><li>คนไข้ทนผ่าตัดได้</li></ol><p><b>จำนวนก้อนสำคัญ แต่ไม่สำคัญที่สุด</b> ✓ — 5 ก้อนแต่อยู่ hilum ต้องตัดหลายกลีบ 2 ข้าง (ไม่ได้) vs 10 ก้อนอยู่ใน RUL กลีบเดียว ทำ lobectomy กลีบเดียวจบ (ได้) ✓ · ยิ่งเยอะยิ่งยาก ✓ · ตัดได้หมด → survival ดีกว่าไม่ตัดและดีกว่าคีโมอย่างเดียว ✓ · ตับ 18 ก้อน (ตัดไม่ได้) → เลิก แม้ปอดมีก้อนเดียว ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>ข้อมูล</b>: International Registry of Lung Metastases (5,206 ราย) — ตัดได้หมด <b>5-yr survival 36%</b> (ตัดไม่หมด 13%) · ดีขึ้นเมื่อ <b>disease-free interval ≥36 เดือน</b> และ<b>ก้อนเดียว</b> (43% vs ≥4 ก้อน 27%) {{R:4}} · RCT <b>PulMiCC</b> (CRC, 93 ราย, หยุดก่อนเพราะรับคนไข้ได้น้อย): 5-yr survival ~38% vs กลุ่มติดตาม ~29% → กลุ่มไม่ผ่าตัด<b>รอดดีกว่าที่เคยเชื่อ</b> ประโยชน์จริงอาจน้อยกว่าที่คิด {{R:5}} · แต่ ESMO 2023 ยังให้ผ่าตัด/local ablative (SBRT, RFA) เป็นทางเลือกในโรคที่จำกัดอยู่ที่ตับ/ปอด โดยทีม MDT {{R:6}}{{R:7}}</div></div><div class=\"box\"><h3>5. Met จากมะเร็งอื่น (เช่น sarcoma)</h3><p>หลักการเหมือนกัน ✓: primary คุมได้ แล้วตัดก้อนที่ปอด · sarcoma กระจายทางเลือด ✓ · บ่อยครั้งตัดหมด 2 จุด แล้ว 6 เดือนขึ้นมาใหม่อีกหลายจุด ✓</p><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> Sarcoma ที่ met <b>เฉพาะปอด</b> → <b>metastasectomy เป็นการรักษามาตรฐาน</b> (โดยเฉพาะ osteosarcoma/soft-tissue sarcoma) และ<b>ผ่าซ้ำได้</b>เมื่อขึ้นใหม่ · Registry: 5-yr survival หลังตัดหมด — germ cell 68%, epithelial 37%, <b>sarcoma 31%</b>, melanoma 21% · sarcoma กลับเป็นซ้ำที่ปอดเป็นส่วนใหญ่ (66%) จึงยังรักษาเฉพาะที่ได้ต่อ<br><span class=\"iowas\">เดิมจดว่า: “sarcoma … very very poor prognosis ถ้าเป็น sarcoma มา lung”</span> <span class=\"iowhy\">— กลับเป็นซ้ำบ่อยจริง แต่ผลรอดชีวิตหลังตัดไม่ได้แย่กว่า epithelial cancer มาก — แย่สุดคือ melanoma {{R:4}}{{R:8}}</span></div></div>",
+"refs": [
+{
+"t": "Townsend CM, et al. <i>Sabiston Textbook of Surgery</i>, 22nd ed. Elsevier; 2025 — บท Lung (neoplasms), Mediastinum, Acquired heart disease / cardiopulmonary bypass (ฉบับล่าสุด)."
+},
+{
+"t": "Aberrant TTF-1 expression in metastatic colorectal adenocarcinoma mimicking primary lung cancer: case report and review of diagnostic pitfalls. <i>Diagn Pathol</i> 2025 (ตาราง IHC lung vs colorectal).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12764080/"
+},
+{
+"t": "Gould MK, et al. Evaluation of individuals with pulmonary nodules: when is it lung cancer? ACCP guidelines 3rd ed. <i>Chest</i> 2013;143(5 Suppl):e93S–e120S (ฉบับล่าสุดของ CHEST เรื่องนี้).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3749714/"
+},
+{
+"t": "Pastorino U, et al. (International Registry of Lung Metastases). Long-term results of lung metastasectomy: prognostic analyses based on 5206 cases. <i>J Thorac Cardiovasc Surg</i> 1997;113:37–49.",
+"u": "https://pubmed.ncbi.nlm.nih.gov/9011700/"
+},
+{
+"t": "Milosevic M, et al. Pulmonary Metastasectomy in Colorectal Cancer (PulMiCC): updated analysis of 93 randomized patients. <i>Colorectal Dis</i> 2020 · Treasure T, et al. <i>Trials</i> 2019;20:718.",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7611567/"
+},
+{
+"t": "Cervantes A, et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline. <i>Ann Oncol</i> 2023;34:10–32 (+ living guideline updates).",
+"u": "https://www.esmo.org/guidelines/gastrointestinal-cancers/metastatic-colorectal-cancer"
+},
+{
+"t": "Miller ED, et al. Oligometastatic colorectal cancer: definitions and patient selection for local therapies. <i>J Gastrointest Cancer</i> 2023;54:1116–27.",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10352468/"
+},
+{
+"t": "สรุปผล International Registry of Lung Metastases แยกตามชนิดมะเร็ง (5-yr survival: germ cell 68%, epithelial 37%, sarcoma 31%, melanoma 21%; sarcoma กลับเป็นซ้ำที่ปอด 66%).",
+"u": "https://www.clinician.com/articles/59750-surgery-for-pulmonary-metastases-a-comprehensive-database"
+}
+]
+},
+{
+"id": "N-onco-thx",
+"title": "หลักการรักษา solid tumor: ผ่าตัดก่อนไหม · มะเร็งที่ตอบสนองต่อคีโมดีมาก — mediastinal germ cell tumor (AFP/β-hCG ไม่ต้อง biopsy) · anterior mediastinal mass",
+"from": "จาก N07",
+"topics": [
+"Cardiothoracic surgery"
+],
+"rev": 1,
+"upd": "2026-11-23",
+"html": "<div class=\"iointro\">หลักทั่วไป: <b>solid tumor</b> ถ้าผ่าตัดได้ → ผ่าตัดเป็นหลัก ✓ (ไม่นับ lymphoma/leukemia ที่เป็นโรคของเลือด/ต่อมน้ำเหลือง → ให้คีโม ✓) · มี solid tumor บางกลุ่มเท่านั้นที่ตอบสนองต่อคีโมดีมาก ✓ {{R:1}}</div><div class=\"box\"><h3>1. “Solid tumor ต้อง surgery ก่อนเสมอ” — ปัจจุบันมีข้อยกเว้นเยอะ</h3><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> หลัก “ผ่าตัดได้ = ผ่าตัด” ยังใช้ได้ แต่<b>ลำดับ</b>ไม่ได้ผ่าก่อนเสมอ: หลายมะเร็งให้ <b>neoadjuvant ก่อนผ่าตัด</b> เป็นมาตรฐาน — rectal cancer ระยะลุกลามเฉพาะที่, esophageal, gastric (perioperative), breast (HER2+/triple-negative), <b>NSCLC stage II–III</b> (chemo-immunotherapy), pancreas borderline · และบาง solid tumor ใช้<b>การรักษาอื่นเป็นหลัก</b>ไม่ผ่าตัด: <b>germ cell tumor</b>, gestational choriocarcinoma, SCLC (เกือบทั้งหมด), nasopharyngeal ca (ฉายแสง), anal SCC (chemoradiation)<br><span class=\"iowas\">เดิมจดว่า: “เป็น solid tumor ต้อง surgery ก่อนเสมอ ถ้า surgery ได้”</span> <span class=\"iowhy\">— พี่ยกข้อยกเว้นไว้แล้วบางส่วน (germ cell) — ข้อยกเว้นในปัจจุบันกว้างกว่านั้น {{R:2}}{{R:3}}{{R:1}}</span></div></div><div class=\"box\"><h3>2. Mediastinal germ cell tumor</h3><p>Solid tumor ที่วินิจฉัยแล้ว<b>ไม่ต้องผ่าตัดก่อน คีโมดีมาก</b> = <b>germ cell tumor</b> ✓ (มะเร็งไข่/อัณฑะ และ mediastinal germ cell tumor) · <b>ไม่ต้อง biopsy</b> ✓ — CT สงสัย (anterior mediastinal mass ในชายหนุ่ม) + <b>tumor marker AFP, β-hCG</b> สูงเป็นพันเป็นหมื่น ✓ → ให้คีโม แล้วก้อนฝ่อ ✓ · ก้อนพวกนี้ infiltrate ล้อมหลอดเลือดใหญ่ ✓</p><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>แยกชนิดด้วย marker</b>: <b>AFP สูง = มีส่วน nonseminoma</b> (yolk sac/embryonal) เสมอ — pure seminoma <b>AFP ไม่ขึ้น</b> (β-hCG ขึ้นได้เล็กน้อย) · β-hCG สูงมาก → choriocarcinoma component · <b>mature teratoma</b> = marker ปกติ → <b>ผ่าตัด</b> (ดื้อคีโม) · marker ปกติต้อง biopsy ก่อน (แยก lymphoma, thymoma, seminoma) {{R:4}}{{R:5}}</div><div class=\"nfix\"><span class=\"iofix\">✎ แก้</span> Mediastinal <b>NSGCT</b>: คีโม (BEP ×4 หรือ <b>VIP</b> — มักเลี่ยง bleomycin เพราะพิษต่อปอดก่อนผ่าตัดใหญ่ในทรวงอก) → เมื่อ marker กลับปกติ <b>ผ่าตัดก้อนที่เหลือ (post-chemotherapy residual mass resection) เป็นมาตรฐาน</b> เพราะก้อนที่เหลืออาจเป็น teratoma หรือเซลล์มะเร็งที่ยังมีชีวิต · <b>seminoma</b>: คีโมอย่างเดียวพอ ไม่ต้องผ่าตัด · mediastinal NSGCT จัดเป็น <b>poor prognosis</b> (IGCCCG) เสมอ<br><span class=\"iowas\">เดิมจดว่า: “เสร็จแล้วผมให้คีโม แล้วมันฝ่อเหี่ยวแห้ง ไม่ต้องผ่า ผ่าไม่ได้ด้วย”</span> <span class=\"iowhy\">— ข้อที่ว่าไม่ต้อง biopsy และเริ่มด้วยคีโมถูก แต่ NSGCT ส่วนใหญ่ยังต้องผ่าตัดก้อนที่เหลือหลังคีโม {{R:6}}{{R:4}}{{R:5}}</span></div></div><div class=\"box\"><h3>3. Anterior mediastinal mass — 4T</h3><div class=\"nadd\"><span class=\"ioadd\">＋ เพิ่ม</span> <b>Thymoma</b> (พบบ่อยสุดในผู้ใหญ่ · สัมพันธ์ <b>myasthenia gravis</b> → ผ่าตัด thymectomy) · <b>Teratoma/germ cell tumor</b> · <b>“Terrible” lymphoma</b> · <b>Thyroid</b> (retrosternal goiter) · ก้อนที่ mediastinum ส่วนกลาง: bronchogenic cyst, lymph node · ส่วนหลัง: neurogenic tumor {{R:1}}</div></div>",
+"refs": [
+{
+"t": "Townsend CM, et al. <i>Sabiston Textbook of Surgery</i>, 22nd ed. Elsevier; 2025 — บท Lung (neoplasms), Mediastinum, Acquired heart disease / cardiopulmonary bypass (ฉบับล่าสุด)."
+},
+{
+"t": "NCCN Clinical Practice Guidelines in Oncology. <i>Non-Small Cell Lung Cancer</i>, Version 4.2026 (เม.ย. 2026).",
+"u": "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1450"
+},
+{
+"t": "Forde PM, et al. Neoadjuvant nivolumab plus chemotherapy in resectable lung cancer (CheckMate 816). <i>N Engl J Med</i> 2022;386:1973–85 · Wakelee H, et al. Perioperative pembrolizumab (KEYNOTE-671). <i>N Engl J Med</i> 2023;389:491–503."
+},
+{
+"t": "Mediastinal surgery: modern treatment of primary germ cell tumor of the mediastinum. <i>J Vis Surg</i> (AME).",
+"u": "https://jovs.amegroups.org/article/view/20134/html"
+},
+{
+"t": "Extragonadal germ cell tumors — review. <i>memo</i> 2023 (AFP/β-hCG สูง = ยืนยัน GCT ไม่ต้อง biopsy; mediastinal NSGCT = IGCCCG poor prognosis).",
+"u": "https://link.springer.com/10.1007/s12254-023-00941-x"
+},
+{
+"t": "Primary mediastinal yolk sac tumor treated with platinum-based chemotherapy and extended resection. <i>Thorac Cancer</i> 2018;9:491–4 (มาตรฐาน = chemo + ผ่าตัด residual mass).",
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5879052/"
 }
 ]
 }
