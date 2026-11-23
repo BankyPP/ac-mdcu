@@ -1,0 +1,785 @@
+{
+ "code": "L23",
+ "questions": 200,
+ "points": {
+  "P1": {
+   "pages": [
+    3,
+    4
+   ],
+   "level": "M",
+   "desc": "mortality สัมพันธ์ %TBSA และอายุ (40 yo 40% → 20%; 6 yo 60% → 70%)",
+   "asked": [
+    1,
+    2,
+    189
+   ]
+  },
+  "P2": {
+   "pages": [
+    2
+   ],
+   "level": "m",
+   "desc": "Ballingall: ผู้ป่วยทรุดจากการเสียสารน้ำ/exudate จากผิวที่หลุดลอก",
+   "asked": [
+    3,
+    186
+   ]
+  },
+  "P3": {
+   "pages": [
+    7
+   ],
+   "level": "M",
+   "desc": "thermal 90% · scald = น้ำร้อน · flame = ไฟไหม้ · flash = ประกายไฟ สั้น ไม่ค่อยรุนแรง · electrical/chemical/irradiation",
+   "asked": [
+    4,
+    5,
+    6,
+    152
+   ]
+  },
+  "P4": {
+   "pages": [
+    7
+   ],
+   "level": "M",
+   "desc": "pre-hospital: ดับไฟ → ล้างน้ำสะอาด ซับแห้ง → ผ้าแห้งอุ่นคลุม · ผ้าเปียก → hypothermia",
+   "asked": [
+    7,
+    8,
+    9,
+    153
+   ]
+  },
+  "P5": {
+   "pages": [
+    8
+   ],
+   "level": "M",
+   "desc": "immersion time: 158°F 1 s … 120°F 10 min · temp ไม่สูงแต่นานก็ลึก",
+   "asked": [
+    10,
+    11,
+    12,
+    190
+   ]
+  },
+  "P6": {
+   "pages": [
+    9,
+    38
+   ],
+   "level": "M",
+   "desc": "partial = dermis เหลือ (2°) · full = dermis หมด (3°) · 1° = epidermis",
+   "asked": [
+    13,
+    14,
+    15,
+    170
+   ]
+  },
+  "P7": {
+   "pages": [
+    39
+   ],
+   "level": "M",
+   "desc": "keratinocyte reservoir ใน skin appendages ใน dermis → regenerate",
+   "asked": [
+    16,
+    17,
+    18,
+    171
+   ]
+  },
+  "P8": {
+   "pages": [
+    11
+   ],
+   "level": "M",
+   "desc": "> 25% TBSA capillary leak ทั้ง burned + unburned (cytokine) → CO↓ → organ failure",
+   "asked": [
+    19,
+    20,
+    21,
+    154
+   ]
+  },
+  "P9": {
+   "pages": [
+    11
+   ],
+   "level": "m",
+   "desc": "การทดลองหนู ≥ 25% ซึมแล้วตาย",
+   "asked": [
+    22
+   ]
+  },
+  "P10": {
+   "pages": [
+    12
+   ],
+   "level": "M",
+   "desc": "max edema small 8–12 h · major 12–24 h · peak ~8 h",
+   "asked": [
+    23,
+    24,
+    25,
+    169
+   ]
+  },
+  "P11": {
+   "pages": [
+    13
+   ],
+   "level": "m",
+   "desc": "Baxter > 30%: ↓ membrane potential ↑ intracellular Na → swelling → death",
+   "asked": [
+    26,
+    195
+   ]
+  },
+  "P12": {
+   "pages": [
+    14
+   ],
+   "level": "M",
+   "desc": "burn shock = 3rd space loss = hypovolemic shock · %TBSA บอกความเสี่ยง",
+   "asked": [
+    27,
+    28,
+    29,
+    200
+   ]
+  },
+  "P13": {
+   "pages": [
+    14
+   ],
+   "level": "M",
+   "desc": "admit/refer adult > 10% · child ทุกราย",
+   "asked": [
+    30,
+    31,
+    32,
+    155
+   ]
+  },
+  "P14": {
+   "pages": [
+    15
+   ],
+   "level": "M",
+   "desc": "rule of palm ฝ่ามือผู้ป่วย 0.8–1% ใช้กับ burn กระจาย",
+   "asked": [
+    33,
+    34,
+    35,
+    184
+   ]
+  },
+  "P15": {
+   "pages": [
+    15,
+    16,
+    17
+   ],
+   "level": "M",
+   "desc": "rule of nines ค่าแต่ละส่วน · มัก overestimate",
+   "asked": [
+    36,
+    37,
+    38,
+    39
+   ]
+  },
+  "P16": {
+   "pages": [
+    15,
+    18
+   ],
+   "level": "M",
+   "desc": "Lund & Browder ละเอียด ใช้ burn unit/เด็ก · head 19% (0–1 ปี) → 7% adult",
+   "asked": [
+    40,
+    41,
+    42,
+    156
+   ]
+  },
+  "P17": {
+   "pages": [
+    19,
+    20
+   ],
+   "level": "m",
+   "desc": "ชนิดสารน้ำ + สูตรอื่น (Evans, Brooke, modified Brooke, hypertonic)",
+   "asked": [
+    43,
+    191
+   ]
+  },
+  "P18": {
+   "pages": [
+    20,
+    21
+   ],
+   "level": "M",
+   "desc": "Parkland LR 4 mL/kg/%TBSA (Acetar)",
+   "asked": [
+    44,
+    45,
+    46,
+    47
+   ]
+  },
+  "P19": {
+   "pages": [
+    21
+   ],
+   "level": "M",
+   "desc": "½ ใน 8 ชม.แรกนับจากเวลาเกิด · มาช้าหักเวลา · ½ ใน 16 ชม.",
+   "asked": [
+    48,
+    49,
+    50,
+    157
+   ]
+  },
+  "P20": {
+   "pages": [
+    21
+   ],
+   "level": "M",
+   "desc": "UO adult 30–50 mL/h · child 1 mL/kg/h",
+   "asked": [
+    51,
+    52,
+    53,
+    185
+   ]
+  },
+  "P21": {
+   "pages": [
+    22
+   ],
+   "level": "M",
+   "desc": "day 2 D5W + 5% albumin 0.3–1.0 mL/kg/%/16 ต่อชม. ไม่ปรับตาม UO · day 3 maintenance/enteral",
+   "asked": [
+    54,
+    55,
+    56,
+    158
+   ]
+  },
+  "P22": {
+   "pages": [
+    22
+   ],
+   "level": "m",
+   "desc": "burn > 40–50%/inhalation/cardiorespiratory → colloid เร็ว hour 8–24 · หลัง 24 ชม. titrate ตาม V/S UO",
+   "asked": [
+    57,
+    196
+   ]
+  },
+  "P23": {
+   "pages": [
+    23,
+    24,
+    29
+   ],
+   "level": "M",
+   "desc": "inhalation clues: closed space, facial burn, singed hair, carbonaceous sputum, นั่งตัวตรง/agitate",
+   "asked": [
+    58,
+    59,
+    60,
+    177
+   ]
+  },
+  "P24": {
+   "pages": [
+    24,
+    25,
+    35
+   ],
+   "level": "M",
+   "desc": "upper airway บวมหลัง resuscitate → intubate ก่อนบวม · บวมสุด 2–3 วัน off tube ~2 wk",
+   "asked": [
+    61,
+    62,
+    63
+   ]
+  },
+  "P25": {
+   "pages": [
+    25
+   ],
+   "level": "M",
+   "desc": "3 กลไก CO / direct thermal (upper) / products of combustion (เขม่า ทำลายปอด supportive)",
+   "asked": [
+    64,
+    65,
+    192
+   ]
+  },
+  "P26": {
+   "pages": [
+    26
+   ],
+   "level": "M",
+   "desc": "CO affinity 210× · COHb สีแดง pulse ox อ่านปกติ · impair O2 utilization",
+   "asked": [
+    66,
+    67,
+    68,
+    159
+   ]
+  },
+  "P27": {
+   "pages": [
+    27
+   ],
+   "level": "M",
+   "desc": "COHb level vs symptoms",
+   "asked": [
+    69,
+    70,
+    71,
+    160
+   ]
+  },
+  "P28": {
+   "pages": [
+    28,
+    29
+   ],
+   "level": "M",
+   "desc": "Dx: Hx closed space, PE, bronchoscopy, ventilation scan",
+   "asked": [
+    72,
+    73,
+    74,
+    176
+   ]
+  },
+  "P29": {
+   "pages": [
+    30
+   ],
+   "level": "M",
+   "desc": "Tx: ETT, 100% O2, PPV+PEEP, pulmonary toilet/bronchoscopy, Swan-Ganz",
+   "asked": [
+    75,
+    76,
+    77,
+    161
+   ]
+  },
+  "P30": {
+   "pages": [
+    31
+   ],
+   "level": "M",
+   "desc": "COHb t½ 240 min RA → 30–40 min FiO2 1.0 · closed space + GCS < 8 → 100% O2 mask with bag",
+   "asked": [
+    78,
+    79,
+    80
+   ]
+  },
+  "P31": {
+   "pages": [
+    33,
+    34
+   ],
+   "level": "M",
+   "desc": "triage ABC (A inhalation? B O2 if CO C Parkland) + รายการ emergent mgmt",
+   "asked": [
+    81,
+    82,
+    83,
+    183
+   ]
+  },
+  "P32": {
+   "pages": [
+    34
+   ],
+   "level": "m",
+   "desc": "tetanus prevention",
+   "asked": [
+    84,
+    197
+   ]
+  },
+  "P33": {
+   "pages": [
+    36
+   ],
+   "level": "M",
+   "desc": "escharotomy for circumferential burns กัน compartment syndrome",
+   "asked": [
+    85,
+    86,
+    87,
+    172
+   ]
+  },
+  "P34": {
+   "pages": [
+    40,
+    41
+   ],
+   "level": "M",
+   "desc": "partial heal spontaneously if infection prevented · superficial no scar · deep severe scarring",
+   "asked": [
+    88,
+    89,
+    90
+   ]
+  },
+  "P35": {
+   "pages": [
+    42,
+    46
+   ],
+   "level": "m",
+   "desc": "flash = superficial microscopic scar · deep partial → hypertrophic scar",
+   "asked": [
+    91,
+    92
+   ]
+  },
+  "P36": {
+   "pages": [
+    49
+   ],
+   "level": "M",
+   "desc": "full thickness no epithelial elements · แผลเล็ก contraction/2° healing · ใหญ่ graft · scar/contracture",
+   "asked": [
+    93,
+    94,
+    162,
+    178
+   ]
+  },
+  "P37": {
+   "pages": [
+    50
+   ],
+   "level": "M",
+   "desc": "full thickness: excise destroyed skin early + skin graft",
+   "asked": [
+    95,
+    96,
+    193
+   ]
+  },
+  "P38": {
+   "pages": [
+    51
+   ],
+   "level": "M",
+   "desc": "subdermal vein thrombosis = pathognomonic full thickness",
+   "asked": [
+    97,
+    98,
+    194
+   ]
+  },
+  "P39": {
+   "pages": [
+    53,
+    54,
+    55
+   ],
+   "level": "M",
+   "desc": "type a obviously partial → conservative · type b obviously full → early excision + graft",
+   "asked": [
+    99,
+    100,
+    163
+   ]
+  },
+  "P40": {
+   "pages": [
+    53,
+    56,
+    57
+   ],
+   "level": "M",
+   "desc": "type c mixed → conservative 14–21 d → removal of slough → STSG",
+   "asked": [
+    101,
+    102,
+    103,
+    180
+   ]
+  },
+  "P41": {
+   "pages": [
+    59
+   ],
+   "level": "M",
+   "desc": "type d deep partial special (eyelid) → ไม่ปล่อย graft แยกส่วน (ectropion)",
+   "asked": [
+    104,
+    105,
+    179
+   ]
+  },
+  "P42": {
+   "pages": [
+    60,
+    61,
+    62
+   ],
+   "level": "M",
+   "desc": "exposure treatment: dry cool light · face, perineum, single surface, extensive",
+   "asked": [
+    106,
+    107,
+    108,
+    164
+   ]
+  },
+  "P43": {
+   "pages": [
+    63
+   ],
+   "level": "M",
+   "desc": "dressing: barrier, absorb exudate, vehicle for antibacterial",
+   "asked": [
+    109,
+    110,
+    181,
+    198
+   ]
+  },
+  "P44": {
+   "pages": [
+    64
+   ],
+   "level": "M",
+   "desc": "early excision: full thickness ≤ 10% clear edge · moderate deep partial · extensive life-threatening",
+   "asked": [
+    111,
+    112,
+    113,
+    173
+   ]
+  },
+  "P45": {
+   "pages": [
+    65,
+    66
+   ],
+   "level": "M",
+   "desc": "SSD broad painless nonstaining intermediate · pseudoeschar, leukopenia · q12–24h",
+   "asked": [
+    114,
+    115,
+    116,
+    165
+   ]
+  },
+  "P46": {
+   "pages": [
+    67
+   ],
+   "level": "M",
+   "desc": "mafenide best eschar/cartilage penetration · painful · CA inhibitor → hyperchloremic metabolic acidosis",
+   "asked": [
+    117,
+    118,
+    119,
+    182
+   ]
+  },
+  "P47": {
+   "pages": [
+    65
+   ],
+   "level": "m",
+   "desc": "silver nitrate 0.5% staining, electrolyte loss",
+   "asked": [
+    120,
+    188
+   ]
+  },
+  "P48": {
+   "pages": [
+    68,
+    70
+   ],
+   "level": "m",
+   "desc": "infection sites · septic patient management",
+   "asked": [
+    121,
+    122
+   ]
+  },
+  "P49": {
+   "pages": [
+    69
+   ],
+   "level": "M",
+   "desc": "quantitative > 10^5 org/g · histology subeschar invasion",
+   "asked": [
+    123,
+    124,
+    125,
+    174
+   ]
+  },
+  "P50": {
+   "pages": [
+    73
+   ],
+   "level": "M",
+   "desc": "Curreri adult 25 kcal/kg + 40 kcal/%",
+   "asked": [
+    126,
+    127,
+    128,
+    175
+   ]
+  },
+  "P51": {
+   "pages": [
+    74
+   ],
+   "level": "M",
+   "desc": "Davies child (≤ 50%) 60 kcal/kg + 35 kcal/%",
+   "asked": [
+    129,
+    130,
+    131
+   ]
+  },
+  "P52": {
+   "pages": [
+    76
+   ],
+   "level": "m",
+   "desc": "immunosuppression: barrier, non-specific (vascular cellular humoral), specific",
+   "asked": [
+    132,
+    187
+   ]
+  },
+  "P53": {
+   "pages": [
+    77
+   ],
+   "level": "m",
+   "desc": "complications: sepsis, pulmonary, suppurative thrombophlebitis, GI, orthopedic",
+   "asked": [
+    133,
+    134
+   ]
+  },
+  "P54": {
+   "pages": [
+    78
+   ],
+   "level": "M",
+   "desc": "pain: morphine IV ideal · PCA < 10 days · chronic methadone 5–10 mg q8h not prn",
+   "asked": [
+    135,
+    136,
+    137,
+    166
+   ]
+  },
+  "P55": {
+   "pages": [
+    79
+   ],
+   "level": "M",
+   "desc": "rehab: active, passive, immobilization, pressure garment",
+   "asked": [
+    138,
+    139,
+    140,
+    199
+   ]
+  },
+  "P56": {
+   "pages": [
+    79
+   ],
+   "level": "m",
+   "desc": "ฝรั่ง scar น้อยแก่เร็ว · ไทย scar เยอะ",
+   "asked": [
+    141
+   ]
+  },
+  "P57": {
+   "pages": [
+    5,
+    81,
+    83
+   ],
+   "level": "M",
+   "desc": "contracture ~3 mo หลังรักษา → pressure garment ตลอด อาจ 2 ปี ถอดตอนอาบน้ำ",
+   "asked": [
+    142,
+    143,
+    144,
+    167
+   ]
+  },
+  "P58": {
+   "pages": [
+    85
+   ],
+   "level": "M",
+   "desc": "pressure garment ช่วย healing/maturation scar ใส่ทั้งวัน ≥ 1–2 ปี",
+   "asked": [
+    145,
+    146,
+    147,
+    168
+   ]
+  },
+  "P59": {
+   "pages": [
+    87,
+    88,
+    90
+   ],
+   "level": "m",
+   "desc": "nasal stent, neck collar · garment ทำให้เกิดแผล → ถอดจนหายค่อยใส่",
+   "asked": [
+    148,
+    149
+   ]
+  },
+  "P60": {
+   "pages": [
+    93,
+    94
+   ],
+   "level": "m",
+   "desc": "scar จาก infection แย่ → QoL · เด็กใส่ garment ทั้งตัว เจาะช่องอวัยวะเพศ",
+   "asked": [
+    150,
+    151
+   ]
+  }
+ },
+ "report": {
+  "over_or_under": [],
+  "pages_without_question": [],
+  "answer_distribution": {
+   "A": 40,
+   "B": 40,
+   "C": 40,
+   "D": 40,
+   "E": 40
+  }
+ }
+}
