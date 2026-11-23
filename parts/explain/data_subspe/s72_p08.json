@@ -1,0 +1,123 @@
+{
+"MDCU72|RoD|59": {
+"wrong": {
+"B": "ข้อความนี้ \"ถูก\" (เป็นสาเหตุที่พบบ่อยจริง): anal fissure เป็นสาเหตุ LGIB ที่พบบ่อยที่สุดในทารก — มีเลือดสดติดผิวอุจจาระหรือผ้าอ้อม เด็กดูดี มักสัมพันธ์กับอุจจาระแข็ง ตรวจพบรอยแยกที่ขอบทวารตำแหน่ง 6 หรือ 12 นาฬิกา · จะเป็นคำตอบถ้าโจทย์ถามสาเหตุ LGIB ที่พบบ่อยที่สุดในทารกที่ well-appearing",
+"C": "ข้อความนี้ \"ถูก\": NEC เป็นสาเหตุ LGIB สำคัญของทารกแรกเกิด โดยเฉพาะ preterm ที่เริ่มกินนม — ท้องอืด feeding intolerance ถ่ายเป็นเลือด ภาพ X-ray มี pneumatosis intestinalis / portal venous gas · จะเป็นคำตอบถ้าโจทย์ถามสาเหตุ LGIB ใน preterm ที่ท้องอืดและ X-ray มี pneumatosis",
+"D": "ข้อความนี้ \"ถูก\": swallowed maternal blood (กลืนเลือดแม่ระหว่างคลอดหรือจากหัวนมแตก) พบบ่อยในวันแรก ๆ ทารกดูปกติ แยกด้วย Apt–Downey test (HbF ทนด่าง ยังสีชมพู · HbA ของแม่เปลี่ยนเป็นสีน้ำตาล) · จะเป็นคำตอบถ้าโจทย์ถามสาเหตุเลือดออกในทารกอายุ 1–2 วันที่ดูดีและ Apt test บอกว่าเป็นเลือดแม่",
+"E": "ข้อความนี้ \"ถูก\": midgut volvulus จาก malrotation พบในช่วงทารกแรกเกิด อาเจียน bilious ร่วมกับถ่ายเป็นเลือด (mucosal ischemia) = surgical emergency ต้องทำ UGI study ด่วนหรือผ่าตัด Ladd procedure · จะเป็นคำตอบถ้าโจทย์ถามสาเหตุ LGIB ร่วมกับ bilious vomiting ที่อันตรายที่สุดในทารกแรกเกิด"
+},
+"trap": "ข้อ NOT: ทุกช้อยเป็นสาเหตุ LGIB ในเด็กได้ แต่ต้องจับ \"ช่วงอายุ\" — juvenile polyp เป็นสาเหตุ painless rectal bleeding ที่พบบ่อยที่สุดในเด็ก 2–8 ปี ไม่ใช่ทารกแรกเกิด (คีย์ลายมือ P'Ing วง A) · อย่าตัด midgut volvulus ทิ้งเพราะคิดว่าเป็น obstruction อย่างเดียว — เลือดออกบอกว่าลำไส้เริ่มขาดเลือดแล้ว",
+"summary": [
+"Neonate (0–1 เดือน): swallowed maternal blood (Apt test), anal fissure, NEC, malrotation with midgut volvulus, Hirschsprung enterocolitis, cow's milk protein allergy",
+"Infant–toddler: anal fissure, intussusception (currant-jelly stool), Meckel diverticulum (painless massive bleed, Tc-99m pertechnetate scan), milk protein allergy",
+"School age 2–8 ปี: juvenile polyp (painless, bright red, อาจ prolapse) · วัยรุ่น: IBD, infectious colitis, hemorrhoid",
+"ทารกที่ดูไม่สบาย/ท้องอืด/bilious vomiting + เลือดออก → คิด NEC หรือ volvulus ก่อน (surgical emergency)"
+]
+},
+"MDCU72|RoD|60": {
+"wrong": {
+"A": "ข้อความนี้ \"ถูก\": prognosis ของ neuroblastoma ขึ้นกับ risk group ของ COG/INRG = อายุตอนวินิจฉัย (< 18 เดือนดีกว่า), stage (INRGSS L1/L2/M/MS), histology (Shimada) และชีววิทยาของก้อน (MYCN amplification, ploidy, 11q aberration) · ไฟล์เดิมเขียนว่า \"good prognosis\" ซึ่ง P'Ing ใส่ ? เพราะกำกวม (high-risk survival ~50%) Claude จึงปรับเป็นข้อความที่ถูก · จะเป็นคำตอบ (ข้อผิด) ถ้าเขียนว่า prognosis ดีเสมอทุกราย",
+"C": "ข้อความนี้ \"ถูก\": neuroblastoma เป็น extracranial solid tumor ที่พบบ่อยที่สุดในเด็ก อายุ median ~17–18 เดือน ~90% วินิจฉัยก่อน 5 ปี (ลายมือ: < 2 y/o) · จะเป็นคำตอบ (ข้อผิด) ถ้าเขียนว่าพบมากในวัยรุ่นหรือผู้ใหญ่",
+"D": "ข้อความนี้ \"ถูก\": ความดันสูงพบได้ ~15–25% จาก catecholamine ที่ก้อนสร้าง หรือก้อนกด renal artery → renin สูง (ลายมือ P'Ing) · ต่างจาก Wilms ที่ HT เกิดจาก renin ของก้อนเอง · จะเป็นคำตอบ (ข้อผิด) ถ้าเขียนว่า neuroblastoma ไม่ทำให้ความดันสูงเลย",
+"E": "ข้อความนี้ \"ถูก\": การรักษาแบบ multimodal ตาม risk group — low risk ผ่าตัดอย่างเดียวหรือเฝ้าดู · intermediate ผ่าตัด + chemo · high risk = induction chemo → surgery → high-dose chemo + autologous stem cell transplant → RT → anti-GD2 immunotherapy (dinutuximab) + isotretinoin · จะเป็นคำตอบ (ข้อผิด) ถ้าเขียนว่าผ่าตัดอย่างเดียวพอทุกราย"
+},
+"trap": "ข้อนี้ถามข้อ \"ผิด\": lung metastasis เป็นลักษณะของ Wilms tumor ไม่ใช่ neuroblastoma (ลายมือ P'Ing: lung = Wilms) — neuroblastoma กระจายไป bone, bone marrow, liver, skin (blueberry muffin), periorbital (raccoon eyes) · ช้อยมีคำว่า bone และ liver ที่ถูกอยู่ด้วย ทำให้อ่านผ่าน ๆ แล้วคิดว่าถูกทั้งข้อ",
+"summary": [
+"Neuroblastoma vs Wilms: NB ข้ามแนวกลาง มี calcification บ่อย เด็กดูป่วย urine VMA/HVA สูง · Wilms ไม่ข้ามแนวกลาง เด็กดูดี มีไตเป็นต้นกำเนิด (claw sign)",
+"Metastasis: NB → bone, marrow, liver, skin, orbit (raccoon eyes) · Wilms → lung (ส่วนใหญ่), liver",
+"Paraneoplastic NB: opsoclonus–myoclonus–ataxia, watery diarrhea (VIP), Horner syndrome จาก cervical/thoracic primary",
+"Poor prognosis: อายุ > 18 เดือน, MYCN amplification, stage M, unfavorable histology · Stage MS (< 18 เดือน กระจาย skin/liver/marrow น้อย) อาจหายเองได้"
+]
+},
+"MDCU72|RoD|65": {
+"why": "โจทย์เป็นภาพของ subarachnoid hemorrhage: ปวดศีรษะรุนแรงเฉียบพลัน (thunderclap / \"worst headache of life\") จนญาติต้องพามา · non-contrast CT มี sensitivity ~98–100% ถ้าทำภายใน 6 ชั่วโมง แต่ลดลงเรื่อย ๆ (~85–90% ที่ 24 ชม. และต่ำลงอีกหลังจากนั้น) · ดังนั้นถ้า CT ปกติแต่ยังสงสัย SAH ต้องทำ lumbar puncture เพื่อหา RBC ที่ไม่ลดลงระหว่างหลอดที่ 1→4 และ xanthochromia (bilirubin จากการแตกของ RBC ใช้เวลา ~6–12 ชม. หลัง bleed จึงควรเจาะหลัง 12 ชม.) (คีย์ลายมือ P'Ing วง A: xanthochromia, dx SAH) · ถ้า LP บวก → CTA/DSA หา aneurysm",
+"wrong": {
+"B": "CT with contrast ไม่ช่วยหา SAH — contrast ใน cistern/sulci อาจทำให้แยกเลือดยากขึ้น และใช้หาก้อน/ฝีมากกว่า · ในทางปฏิบัติสิ่งที่ใกล้เคียงคือ CT angiography หา aneurysm · จะถูกถ้าโจทย์สงสัย brain tumor/abscess (ปวดศีรษะเรื้อรัง มี focal deficit) หรือถามขั้นต่อไปหลัง LP พบเลือด (CTA)",
+"C": "EEG ใช้ประเมินชัก/encephalopathy ไม่ได้ใช้วินิจฉัยเลือดออกใต้เยื่อหุ้มสมอง · จะถูกถ้าผู้ป่วยมีอาการชักซ้ำ สงสัย non-convulsive status epilepticus หรือซึมไม่ฟื้นโดยไม่มีสาเหตุโครงสร้าง",
+"D": "Skull radiograph ดูได้แค่กระดูก (fracture) ไม่เห็นเลือดในสมอง · ไม่มีบทบาทในการประเมิน SAH แล้ว · จะถูกถ้าเป็นการคัดกรอง skull fracture ในเด็กเล็กที่สงสัย non-accidental injury (skeletal survey) หรือในที่ไม่มี CT",
+"E": "ปล่อยกลับบ้านพร้อมยาแก้ปวดอันตรายมาก เพราะ sentinel bleed ที่พลาดไปมีโอกาส rebleed สูงในวันแรก ๆ (mortality สูงมาก) · จะถูกถ้าเป็น primary headache (migraine/tension) ที่ไม่มี red flag: ไม่ใช่ thunderclap, ตรวจร่างกายปกติ, อาการเหมือนครั้งก่อน ๆ"
+},
+"trap": "CT ปกติ ≠ ตัด SAH ได้ โดยเฉพาะถ้ามาช้ากว่า 6 ชม. (ผู้ป่วยตื่นมาปวดตอนเช้า → ไม่รู้เวลาเริ่มชัด) · ข้อคล้ายกับ 71A เลข 20 / 72B เลข 11 · ถ้า CT ภายใน 6 ชม. ด้วยเครื่อง modern อ่านโดย neuroradiologist ปกติ บาง guideline ยอมให้ไม่ต้อง LP (Ottawa SAH rule) แต่ข้อสอบตอบ LP",
+"summary": [
+"Ottawa SAH rule (thunderclap, alert, > 15 ปี): อายุ ≥ 40, neck pain/stiffness, witnessed LOC, onset during exertion, thunderclap (peak ทันที), neck flexion จำกัด → ต้องตรวจต่อ",
+"ลำดับ: NCCT → (ปกติแต่ยังสงสัย) LP หา xanthochromia/RBC ไม่ลดลง → (บวก) CTA หรือ DSA หา aneurysm",
+"Xanthochromia ต้องรอ ≥ 12 ชม. หลังเริ่มปวด · traumatic tap: RBC ลดลงจากหลอดแรกไปหลอดสุดท้าย และไม่มี xanthochromia",
+"Rx aneurysmal SAH: คุม SBP < 160, nimodipine 60 mg q4h 21 วัน (ป้องกัน delayed cerebral ischemia), secure aneurysm (coiling/clipping) เร็วที่สุด"
+]
+},
+"MDCU72|RoD|67": {
+"why": "ภาพเป็น brain tumor (ปวดศีรษะ 1 เดือน + อ่อนแรงซีกซ้ายแบบ subacute) ที่มี mass effect กด ventricle ร่วมกับ peritumoral edema ซึ่งเป็น vasogenic edema (blood–brain barrier รั่วจากหลอดเลือดของก้อน) · dexamethasone (เช่น 10 mg IV loading → 4 mg q6h) ลดการรั่วของ BBB ลดบวมได้ชัดภายใน 6–24 ชม. และใช้ต่อเนื่องจนผ่าตัด ทำให้อาการ focal deficit/ปวดศีรษะดีขึ้นเร็ว · P'Ing วง A (vasogenic edema) แต่ ✓ B ด้วยเพราะ mannitol ลดบวมได้ทั้ง vasogenic และ cytotoxic edema — แต่ไม่ใช่ยาหลักในข้อนี้เพราะผู้ป่วยไม่มีภาวะ herniation",
+"wrong": {
+"B": "Mannitol เป็น osmotic diuretic ดึงน้ำออกจากเนื้อสมอง ลด ICP ได้เร็วภายในไม่กี่นาที แต่ผลชั่วคราว ใช้ซ้ำนานไม่ได้ (rebound, ไตวาย, hypovolemia) และไม่ได้แก้ที่ BBB รั่วรอบก้อน (P'Ing ✓ ว่าลดบวมได้ทั้ง 2 แบบ แต่วง A) · จะถูกถ้าผู้ป่วยมี impending herniation (ซึม, pupil โต, Cushing triad) หรือ cytotoxic edema จาก TBI/large infarct ที่ต้องลด ICP ด่วน",
+"C": "Phenytoin เป็นยากันชัก ไม่ลดบวม · ใน brain tumor ที่ไม่เคยชักไม่แนะนำให้ prophylaxis ระยะยาว (อาจให้ช่วงผ่าตัดแล้วหยุด) และ phenytoin เป็น enzyme inducer ลดระดับ dexamethasone/chemo · จะถูกถ้าผู้ป่วยมาด้วยอาการชัก (ปัจจุบันนิยม levetiracetam มากกว่า)",
+"D": "Nimodipine เป็น calcium channel blocker ใช้ป้องกัน delayed cerebral ischemia จาก vasospasm หลัง aneurysmal SAH (60 mg q4h 21 วัน) ไม่ลดบวมรอบก้อน · จะถูกถ้าโจทย์เป็น SAH จาก aneurysm แตก",
+"E": "Furosemide ลดบวมในสมองได้น้อยมากเมื่อใช้เดี่ยว ๆ บางครั้งใช้เสริม mannitol แต่ไม่ใช่ยาหลัก · จะถูกถ้าโจทย์เป็นภาวะน้ำเกิน/pulmonary edema หรือถามยาเสริมให้ mannitol ออกฤทธิ์นานขึ้น"
+}
+},
+"MDCU72|RoD|74": {
+"interp": "โจทย์ถาม red flag ในผู้ป่วยที่เคยวินิจฉัย migraine — อาการไหนบอกว่าไม่ใช่ primary headache ธรรมดา ต้องส่ง imaging (มีโรคโครงสร้าง/ICP สูง)",
+"why": "Papilledema = optic disc บวมจาก intracranial pressure สูงที่เป็นมาระยะหนึ่ง (โดยทั่วไปต้องใช้เวลาหลายวัน — ลายมือ P'Ing: chronic ICP↑ > 7 days) บอกว่ามี secondary cause เช่น brain tumor, idiopathic intracranial hypertension, cerebral venous sinus thrombosis, hydrocephalus จึงเป็น red flag ตาม SNOOP4 (P = papilledema) ที่ต้องทำ neuroimaging (MRI/CT ± MRV) ทันทีก่อนจะทำ LP · migraine ไม่ทำให้ papilledema",
+"wrong": {
+"A": "Vertigo พบได้ใน migraine (vestibular migraine, migraine with brainstem aura) จึงไม่ใช่ red flag เดี่ยว ๆ · จะถูกถ้า vertigo มาพร้อม neurological deficit อื่น (diplopia, dysarthria, ataxia, ใหม่และไม่เคยเป็น) สงสัย posterior circulation stroke หรือ cerebellar mass",
+"B": "Dizziness/มึนงงเป็นอาการร่วมที่พบบ่อยใน migraine และไม่จำเพาะ · จะถูกถ้ามี syncope ร่วมกับปวดศีรษะ thunderclap (สงสัย SAH) หรือมี orthostatic symptoms จาก CSF leak",
+"D": "Photophobia เป็นเกณฑ์วินิจฉัยของ migraine (ICHD-3: photophobia + phonophobia) จึงสนับสนุน migraine ไม่ใช่ red flag · จะถูกถ้าโจทย์ถามอาการที่เข้าเกณฑ์ migraine without aura (หรือ photophobia ร่วมไข้และคอแข็ง → meningitis)",
+"E": "คลื่นไส้เป็นเกณฑ์วินิจฉัยของ migraine เช่นกัน · จะถูกถ้าโจทย์ถามเกณฑ์ ICHD-3 ของ migraine (nausea และ/หรือ vomiting) หรือถ้าอาเจียนพุ่งตอนเช้าและแย่ลงเรื่อย ๆ ร่วมกับปวดศีรษะตอนตื่น (คิด ICP สูง)"
+},
+"trap": "ช้อย A, B, D, E เป็นอาการที่พบใน migraine ได้ทั้งหมด (photophobia และ nausea อยู่ในเกณฑ์วินิจฉัยด้วย) เลยอาจลังเล — ต้องหาสิ่งที่ migraine \"ไม่ทำ\" คือ papilledema ซึ่งเป็น objective sign ของ ICP สูง · ข้อเดียวกับ 71A เลข 29",
+"summary": [
+"SNOOP4 red flags: Systemic symptoms/disease (ไข้, cancer, HIV), Neurologic deficit/confusion, Onset sudden (thunderclap), Older (> 50 ปี เริ่มใหม่), Pattern change/Positional/Precipitated by Valsalva/Papilledema/Progressive",
+"Papilledema: optic disc บวมทั้งสองข้าง จาก ICP สูง → ทำ imaging ก่อน LP เสมอ (เสี่ยง herniation ถ้ามี mass)",
+"IIH: หญิงอ้วนวัยเจริญพันธุ์ ปวดศีรษะ + papilledema + imaging ปกติ + opening pressure สูง → acetazolamide, ลดน้ำหนัก",
+"Migraine (ICHD-3): ≥ 5 ครั้ง นาน 4–72 ชม. มี ≥ 2 ใน unilateral/pulsating/moderate–severe/แย่ลงเมื่อออกแรง + (nausea/vomiting หรือ photophobia+phonophobia)"
+]
+},
+"MDCU72|RoD|78": {
+"wrong": {
+"B": "Frontal (temporal) branch วิ่งข้าม zygomatic arch ตามแนว Pitanguy line (0.5 cm ใต้ tragus → 1.5 cm เหนือ lateral eyebrow) ไปเลี้ยง frontalis — แผลกลางแก้มไม่ผ่าน · บาดเจ็บแล้วเลิกคิ้วไม่ได้ และมี cross-innervation น้อย ฟื้นยาก · จะถูกถ้าแผลอยู่บริเวณขมับ/เหนือ zygomatic arch",
+"C": "Marginal mandibular branch วิ่งตามขอบล่างของ mandible (อาจต่ำกว่าขอบ 1–2 cm ด้านหลังต่อ facial artery) เลี้ยงกล้ามเนื้อมุมปากล่าง (depressor anguli oris) — บาดเจ็บทำให้มุมปากล่างไม่ลงเวลายิ้ม · จะถูกถ้าแผลอยู่บริเวณขอบล่างกราม หรือการผ่าตัด submandibular gland/neck dissection",
+"D": "Cervical branch ลงไปเลี้ยง platysma บริเวณคอ — บาดเจ็บแล้วอาการน้อยมาก · จะถูกถ้าแผลอยู่บริเวณคอใต้มุมกราม",
+"E": "Posterior auricular branch แยกออกใกล้ stylomastoid foramen ไปเลี้ยงกล้ามเนื้อหลังหูและ occipitalis — อยู่ห่างจากแก้มมาก · จะถูกถ้าแผลลึกบริเวณหลังหู/mastoid"
+},
+"trap": "แผลแก้มที่ตัดแนว parotid duct (เส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน — duct อยู่ 1/3 กลาง) ต้องคิดถึงทั้ง buccal branch และ parotid duct เสมอ · buccal branch มี cross-innervation มาก บาดเจ็บส่วนปลาย (anterior ต่อ lateral canthus) มักฟื้นได้เอง แต่ถ้าอยู่หลัง lateral canthus line ต้อง explore ซ่อมภายใน 72 ชม. (ยังกระตุ้นปลายประสาทได้) · ไฟล์จดแค่หัวข้อ \"Buccal branch injury\" → Claude แต่งโจทย์",
+"summary": [
+"Facial nerve 5 branches (To Zanzibar By Motor Car): temporal, zygomatic, buccal, marginal mandibular, cervical",
+"Parotid duct (Stensen): แนว tragus → กึ่งกลางริมฝีปากบน เปิดตรงฟันกรามบนซี่ที่ 2 · ทดสอบโดยใส่ cannula ทางปาก ฉีด saline/methylene blue ดูรั่ว → ซ่อมบน stent",
+"ซ่อมเส้นประสาท: แผลอยู่ posterior ต่อ lateral canthus line → explore + primary neurorrhaphy ภายใน 72 ชม. (ใช้ nerve stimulator ได้) · anterior → มักฟื้นเอง",
+"Frontal และ marginal mandibular branch มี cross-innervation น้อยที่สุด จึงเสียหายถาวรได้บ่อยกว่า"
+]
+},
+"MDCU72|RoD|79": {
+"interp": "โจทย์ให้คำนวณ Parkland ช่วง 8 ชม.แรก โดย \"หักน้ำที่ได้ก่อนถึงโรงพยาบาล\" และใช้ \"เวลาที่เหลือ\" นับจากเวลาเกิดแผลไหม — 70 kg, 50% TBSA, ได้แล้ว 2 L ใน 1 ชม.",
+"why": "Parkland formula: 4 mL × kg × %TBSA ใน 24 ชม. = 4 × 70 × 50 = 14,000 mL · ครึ่งแรก 7,000 mL ให้ใน 8 ชม.แรกนับจาก \"เวลาที่เกิดแผลไหม\" (ไม่ใช่เวลามาถึง รพ.) · ผ่านไปแล้ว 1 ชม. ได้ไปแล้ว 2,000 mL → เหลือ 7,000 − 2,000 = 5,000 mL ใน 7 ชม. ที่เหลือ = 5,000 ÷ 7 ≈ 714 mL/h (ลายมือ P'Ing คำนวณตรงกัน) · ครึ่งหลัง 7,000 mL ใน 16 ชม.ถัดไป (~438 mL/h) · ตัวเลขนี้เป็นแค่จุดเริ่ม ต้อง titrate ตาม urine output 0.5 mL/kg/h (~35 mL/h) ในผู้ใหญ่",
+"wrong": {
+"A": "500 mL/h ≈ 7,000 ÷ 14 หรือคิดเหมือนกระจายเท่ากันตลอด (เช่น 14,000 − 2,000 = 12,000 ÷ 24 = 500) — ลืมว่าครึ่งแรกต้องให้ใน 8 ชม. ทำให้ให้น้ำน้อยไปช่วงแรก · จะถูกถ้าโจทย์ถามอัตราเฉลี่ยตลอด 24 ชม. หลังหักน้ำที่ได้ไปแล้ว",
+"B": "625 mL/h = 5,000 ÷ 8 — หักน้ำที่ได้แล้วถูกต้อง แต่ลืมว่าเวลาเริ่มนับจากตอนเกิดแผลไหม จึงเหลือแค่ 7 ชม. ไม่ใช่ 8 ชม. · จะถูกถ้าผู้ป่วยได้น้ำ 2 L แล้วแต่ยังอยู่ในชั่วโมงที่ 0 (มาถึงทันทีหลังเกิดเหตุ) ซึ่งเป็นไปไม่ได้จริง",
+"D": "875 mL/h = 7,000 ÷ 8 — ไม่หักน้ำ 2 L ที่ได้ไปแล้ว และไม่หักเวลาที่ผ่านไป → ให้น้ำเกิน เสี่ยง fluid creep (abdominal compartment syndrome, pulmonary edema) · จะถูกถ้าผู้ป่วยมาถึงทันทีหลังไฟไหม้และยังไม่ได้น้ำเลย",
+"E": "1,000 mL/h ไม่ตรงกับสูตรใด ๆ (ประมาณ 7,000 ÷ 7 ไม่หักน้ำที่ได้แล้ว) → เกินไปมาก · จะถูกถ้าคิดแค่ว่าต้องให้ครึ่งแรกใน 7 ชม. ที่เหลือโดยไม่สนใจน้ำที่ได้มาแล้ว ซึ่งเป็นการคำนวณที่ผิด"
+},
+"trap": "กับดัก 2 ชั้น: (1) ต้องหักน้ำที่ได้ก่อนมา รพ. (2) 8 ชม.แรกนับจาก \"เวลาที่เกิดแผลไหม\" ไม่ใช่เวลามาถึง → เหลือ 7 ชม. · ถ้าลืมข้อ 2 จะได้ 625 ถ้าลืมทั้ง 2 จะได้ 875 · ไฟล์เดิมไม่มีช้อย (มีแค่ลายมือคำนวณ) → Claude แต่งช้อย",
+"summary": [
+"Parkland: 4 mL/kg/%TBSA (LR) ใน 24 ชม. · ½ ใน 8 ชม.แรกนับจากเวลาไหม · ½ ใน 16 ชม.ถัดไป · ไม่นับ 1st degree burn",
+"ABA 2018: เริ่มที่ 2 mL/kg/%TBSA ในผู้ใหญ่ (ลด over-resuscitation), 3 mL ในเด็ก, 4 mL ใน electrical burn · เด็ก < 30 kg ให้ maintenance ที่มี dextrose เพิ่ม",
+"Titrate ตาม urine output: ผู้ใหญ่ 0.5 mL/kg/h · เด็ก 1 mL/kg/h · electrical/myoglobinuria 1–1.5 mL/kg/h",
+"ข้อบ่งชี้ formal fluid resuscitation: ผู้ใหญ่ ≥ 20% TBSA, เด็ก ≥ 10–15% TBSA"
+]
+},
+"MDCU72|RoD|ไม่มีเลข 1": {
+"interp": "โจทย์ถามตำแหน่งที่ blunt traumatic aortic injury (BTAI) จาก deceleration (รถชน) เกิดบ่อยที่สุด — คือจุดที่ aorta ถูกยึดอยู่กับที่ต่อจากส่วนที่เคลื่อนได้",
+"why": "Aortic isthmus = ส่วนของ descending aorta ใต้ต่อ left subclavian artery ตรงจุดเกาะของ ligamentum arteriosum · ตอน deceleration ส่วน arch/heart ยังเคลื่อนไปข้างหน้า แต่ descending aorta ถูกยึดกับกระดูกสันหลัง (และ ligamentum arteriosum) จึงเกิดแรงเฉือน (shear) สูงสุดที่ isthmus → พบ ~80–90% ของผู้ป่วยที่รอดมาถึงโรงพยาบาล (คีย์ลายมือ P'Ing วง E) · ส่วนใหญ่ตายที่เกิดเหตุ ผู้ที่รอดมาได้มักมี contained hematoma (pseudoaneurysm)",
+"wrong": {
+"A": "Aortic arch บาดเจ็บได้แต่น้อย (ส่วนใหญ่เป็น branch vessel avulsion เช่น innominate artery) เพราะ arch เคลื่อนไปพร้อมกับหัวใจ ไม่ใช่จุดยึด · จะถูกถ้าโจทย์ถามตำแหน่งที่พบรองลงมาในบางชุดข้อมูล หรือถามการบาดเจ็บ innominate artery จาก blunt trauma",
+"B": "Mid descending aorta ยึดกับกระดูกสันหลังตลอดแนว จึงไม่ค่อยเกิดแรงเฉือน · บาดเจ็บได้จาก penetrating trauma หรือกระดูกสันหลังหัก · จะถูกถ้าโจทย์เป็นบาดแผลทะลุบริเวณหลังอก หรือ thoracic spine fracture-dislocation",
+"C": "Ascending aorta (ใกล้ aortic root) เป็นตำแหน่งที่ 2 ของ BTAI แต่ผู้ป่วยมักเสียชีวิตที่เกิดเหตุ (cardiac tamponade, coronary involvement) จึงพบในผู้ที่มาถึง รพ. น้อย · จะถูกถ้าโจทย์ถามตำแหน่งที่พบบ่อยจากการชันสูตรในผู้เสียชีวิตทันที หรือ aortic dissection type A (ไม่ใช่ trauma)",
+"D": "Aorta เหนือ diaphragm (distal descending ที่ hiatus) บาดเจ็บได้น้อย เป็นจุดยึดรองแต่แรงเฉือนน้อยกว่า isthmus มาก · จะถูกถ้าโจทย์ถามตำแหน่งยึดรองของ thoracic aorta (aortic hiatus) หรือ injury ร่วมกับ diaphragmatic rupture"
+},
+"trap": "อย่าสับสน traumatic aortic injury (isthmus) กับ aortic dissection ที่ไม่ใช่ trauma (type A เริ่มที่ ascending aorta, type B เริ่มหลัง left subclavian) · ช้อยเรียงไม่เหมือนข้อ 28 ในชุดเดียวกัน (เลขต่างกันจึงแยกข้อ) · CXR ปกติไม่ตัด BTAI — ถ้ากลไกเข้าได้ต้อง CTA chest",
+"summary": [
+"กลไก: rapid deceleration (รถชน > ~50 km/h, ตกจากที่สูง) → shear ที่ isthmus (ligamentum arteriosum) ~80–90%",
+"CXR clues: widened mediastinum > 8 cm, loss of aortic knob, NG tube เบี่ยงไปขวา, trachea เบี่ยงขวา, left main bronchus ถูกกดลง, apical cap, left hemothorax, 1st/2nd rib fracture",
+"วินิจฉัย: CTA chest (มาตรฐาน) · TEE ถ้า unstable ไม่สามารถไป CT",
+"Rx: anti-impulse therapy (esmolol, HR < 80, SBP < 100) ลด shear → TEVAR เป็นการรักษาหลัก (ดีกว่า open repair) · grade 1 (intimal tear) อาจเฝ้าดูได้"
+]
+}
+}

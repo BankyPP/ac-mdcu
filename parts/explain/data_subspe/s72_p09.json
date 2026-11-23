@@ -1,0 +1,126 @@
+{
+"MDCU72|RoD|ไม่มีเลข 2": {
+"interp": "ข้อ NOT: ถามว่าลักษณะใด \"ไม่\" พบใน cardiac tamponade — tamponade บีบให้หัวใจคลายตัวรับเลือดไม่ได้ (obstructive shock) เป็นภาพแบบ right-sided congestion + low output ไม่ใช่ left heart failure ที่มีน้ำท่วมปอด",
+"wrong": {
+"A": "ข้อความนี้ \"พบ\" จริง: ของเหลวในเยื่อหุ้มหัวใจกดห้องหัวใจ → diastolic filling ลด → stroke volume และ cardiac output ลด → systemic hypotension (หนึ่งใน Beck triad) · จะเป็นคำตอบ (ข้อ NOT) ถ้าโจทย์ถาม chronic pericardial effusion ที่สะสมช้า ๆ ซึ่งความดันยังปกติได้",
+"B": "ข้อความนี้ \"พบ\" จริง: stroke volume ลด → ร่างกายชดเชยด้วยการเพิ่มอัตราการเต้นหัวใจ (sinus tachycardia จาก hypotension — ลายมือ P'Ing) เป็นสิ่งที่พบเกือบทุกราย · จะเป็นคำตอบ (ข้อ NOT) ถ้าผู้ป่วยได้ beta-blocker หรือเป็น hypothyroidism/uremia ที่ HR ไม่เร็วขึ้น",
+"D": "ข้อความนี้ \"พบ\" จริง: low-voltage QRS เกิดจากน้ำรอบหัวใจลดการนำไฟฟ้า และ electrical alternans (QRS สูงต่ำสลับจากหัวใจแกว่งในน้ำ) จำเพาะต่อ large effusion · จะเป็นคำตอบ (ข้อ NOT) ถ้าเป็น tamponade จาก clot เล็ก ๆ เฉพาะที่หลังผ่าตัดหัวใจ (loculated) ซึ่ง ECG อาจไม่เปลี่ยน",
+"E": "ข้อความนี้ \"พบ\" จริง: pulsus paradoxus = SBP ลด > 10 mmHg ตอนหายใจเข้า เพราะหายใจเข้า venous return เข้าหัวใจขวาเพิ่ม septum ดันไปทางซ้าย (ventricular interdependence) ใน pericardium ที่ขยายไม่ได้ → LV filling ลด · จะเป็นคำตอบ (ข้อ NOT) ถ้ามี ASD, severe AR หรือ LV hypertrophy มาก ซึ่งทำให้ไม่เกิด pulsus paradoxus"
+},
+"summary": [
+"Beck triad: hypotension + JVD (distended neck veins) + muffled heart sounds · ร่วมกับ tachycardia, pulsus paradoxus, Kussmaul sign (พบน้อยกว่าใน constrictive)",
+"ECG: low voltage, electrical alternans · CXR: water-bottle heart ถ้าน้ำสะสมช้า (acute อาจหัวใจไม่โต) และปอดใส",
+"Echo: RA collapse ช่วง systole, RV diastolic collapse, IVC plethora (ไม่ยุบตามการหายใจ) · Hemodynamic: diastolic pressures equalize (RA ≈ RVEDP ≈ PCWP)",
+"Rx: fluid bolus ชั่วคราว, หลีกเลี่ยง positive-pressure ventilation และ diuretic · pericardiocentesis/pericardial window · trauma → thoracotomy"
+]
+},
+"MDCU72|RoD|ไม่มีเลข 3": {
+"wrong": {
+"A": "Interaortocaval nodes เป็น primary landing zone หลักของ \"right\" testicular tumor (ลายมือ P'Ing: right) เพราะ right gonadal vein เทเข้า IVC โดยตรง น้ำเหลืองตามไปที่ระดับ L1–L2 ระหว่าง aorta กับ IVC · จะเป็นคำตอบถ้าโจทย์ถามตำแหน่งต่อมน้ำเหลืองแรกที่พบบ่อยที่สุดของมะเร็งอัณฑะข้างขวา",
+"B": "Paracaval (precaval/retrocaval) nodes เป็น primary drainage ของ right testis ร่วมกับ interaortocaval · จะเป็นคำตอบถ้าโจทย์ถามกลุ่มต่อมน้ำเหลืองที่อยู่ใน template ของ right modified RPLND",
+"C": "Common iliac nodes เป็นตำแหน่งที่กระจายต่อได้ (secondary/retrograde spread เมื่อมี bulky retroperitoneal disease หรือ lymphatic obstruction) และอยู่ใน template ด้านล่างของ RPLND จึงถือว่าอยู่ในแนว drainage ของอัณฑะ ไม่ใช่สิ่งที่ \"ไม่เกี่ยว\" แบบ inguinal · คีย์ P'Ing เลือกข้อนี้ (วง C แต่มี ? หน้าข้อ) · จะเป็นคำตอบถ้าโจทย์ถามเฉพาะ \"primary landing zone\" แบบเข้มงวด (ไม่รวม secondary) โดยไม่มีช้อย inguinal",
+"D": "Para-aortic (left para-aortic/preaortic) nodes เป็น primary landing zone ของ \"left\" testicular tumor (ลายมือ P'Ing: left) เพราะ left gonadal vein เทเข้า left renal vein น้ำเหลืองจึงไปรอบ aorta ใต้ left renal vein · จะเป็นคำตอบถ้าโจทย์ถามตำแหน่งต่อมน้ำเหลืองแรกของมะเร็งอัณฑะข้างซ้าย"
+},
+"trap": "ans ปัจจุบัน = E inguinal ซึ่งต่างจากคีย์ลายมือ P'Ing (วง C common iliac และ P'Ing ใส่ ? ไว้หน้าข้อ แสดงว่าไม่มั่นใจ) · เหตุผล: อัณฑะเกิดจาก retroperitoneum แล้วเคลื่อนลงมา น้ำเหลืองจึงวิ่งตาม gonadal vessels ขึ้นไปที่ retroperitoneal nodes ระดับไต · inguinal nodes รับน้ำเหลืองจาก \"ผิวหนัง scrotum\" (ลายมือ P'Ing: E ✓ scrotum) จะเกี่ยวกับอัณฑะก็ต่อเมื่อมี scrotal violation (เช่น ผ่าตัด/เจาะทาง scrotum, ทำ trans-scrotal orchiectomy) หรือ tumor ลุกลามถึง scrotal skin",
+"summary": [
+"Testis drainage: ตาม gonadal vessels → right: interaortocaval > paracaval (L1–L2) · left: para-aortic ใต้ left renal vein · cross-over พบจาก right ไป left ได้บ่อยกว่า left ไป right",
+"Scrotum/penis skin → superficial inguinal nodes · scrotal violation ทำให้มะเร็งอัณฑะกระจายไป inguinal ได้ → ห้ามทำ trans-scrotal biopsy/orchiectomy",
+"Testicular mass → US + tumor markers (AFP, β-hCG, LDH) → radical inguinal orchiectomy (ผูก spermatic cord ระดับ internal ring) → CT A/P + chest เพื่อ staging",
+"Seminoma: β-hCG อาจสูงเล็กน้อย AFP ปกติเสมอ ไวต่อ RT/chemo · NSGCT: AFP สูงได้ (yolk sac) → RPLND มีบทบาทมากกว่า"
+]
+},
+"MDCU72|RoD|ไม่มีเลข 4": {
+"wrong": {
+"A": "Stage I = intact skin มี non-blanchable erythema (กดแล้วไม่ซีด) ยังไม่มีแผลเปิด (ลายมือ P'Ing: I = แดง) · ในคนผิวคล้ำอาจเห็นเป็นสีเข้มขึ้น อุ่น/แข็งกว่ารอบข้าง · จะเป็นคำตอบถ้าโจทย์บรรยายผิวหนังยังไม่แตกแต่แดงไม่ซีดเมื่อกด",
+"C": "Stage III = full-thickness skin loss เห็น subcutaneous fat อาจมี granulation tissue, epibole, undermining/tunneling แต่ยังไม่เห็น fascia/muscle/tendon/bone (ลายมือ P'Ing เขียน III = muscle ซึ่งต่างจาก NPIAP) · จะเป็นคำตอบถ้าแผลลึกถึงชั้นไขมัน",
+"D": "Stage IV = full-thickness skin และ tissue loss เห็นหรือคลำได้ถึง fascia, muscle, tendon, ligament, cartilage หรือกระดูก (ลายมือ P'Ing: IV = bone/joint) เสี่ยง osteomyelitis · จะเป็นคำตอบถ้าแผลเห็นกระดูก sacrum หรือเส้นเอ็น",
+"E": "Unstageable = full-thickness loss ที่พื้นแผลถูกปิดด้วย slough หรือ eschar จนประเมินความลึกไม่ได้ (เมื่อ debride แล้วมักเป็น stage III/IV) · stable dry eschar ที่ส้นเท้าไม่ควรลอกออก · จะเป็นคำตอบถ้าโจทย์บอกว่าพื้นแผลถูกปิดด้วยเนื้อตายสีดำ/เหลืองทั้งหมด"
+},
+"summary": [
+"NPIAP 2016: Stage 1 non-blanchable erythema ผิวไม่แตก · Stage 2 partial thickness เห็น dermis สีชมพู/แดงชื้น หรือตุ่มน้ำใส · Stage 3 ถึงไขมัน · Stage 4 ถึง fascia/muscle/tendon/bone",
+"Unstageable: slough/eschar ปิดพื้นแผล · Deep tissue pressure injury (DTPI): ผิวสีม่วง/น้ำตาลเข้มที่กดไม่ซีด หรือตุ่มเลือด จากเนื้อเยื่อลึกเสียหาย",
+"Stage 2 ห้ามรวมกับ moisture-associated skin damage (IAD), skin tear, medical adhesive injury — กลไกต่างกัน",
+"Prevention: พลิกตัวทุก 2 ชม., support surface, Braden scale, คุมความชื้น, โภชนาการ · Rx stage 3–4: debridement, NPWT, flap (เช่น gluteal rotation flap สำหรับ sacral sore)"
+]
+},
+"MDCU72|RoD|ไม่มีเลข 5": {
+"why": "ก้อนถุงน้ำที่ด้านข้างคอ (โดยเฉพาะ posterior triangle — ลายมือ P'Ing) ในเด็ก ผิวด้านบนปกติ นิ่ม กดยุบได้บ้าง ส่องไฟทะลุ (transilluminate) = lymphatic malformation (cystic hygroma) ซึ่งเป็น slow-flow vascular malformation ตามการจำแนก ISSVA · มักเห็นตั้งแต่เกิดหรือก่อน 2 ปี โตตามตัวเด็ก อาจโตเร็วเมื่อมีเลือดออกในถุงหรือติดเชื้อ (URI) · ก้อนใหญ่ที่คออาจกดทางเดินหายใจ · วินิจฉัยด้วย US/MRI (macrocystic vs microcystic) · Rx: sclerotherapy (doxycycline, OK-432, bleomycin) สำหรับ macrocystic, ผ่าตัด, sirolimus ใน complex lesion",
+"wrong": {
+"A": "Dermoid cyst เป็นถุงน้ำจาก ectoderm ที่ติดค้างตามแนวรอยต่อของตัวอ่อน พบที่ \"midline\" (คอแนวกลาง, sternum) หรือ lateral brow, หน้าผาก, หนังศีรษะ (ลายมือ P'Ing) เนื้อแน่นกว่า ไม่ transilluminate เพราะมีไขมัน/ขน/keratin · จะถูกถ้าก้อนอยู่แนวกลางคอหรือหางคิ้วด้านนอก",
+"C": "AVM เป็น fast-flow malformation ก้อนอุ่น เต้นตามชีพจร คลำ thrill ได้ยิน bruit ผิวด้านบนแดง/ม่วง ไม่ใช่ถุงน้ำใสที่ผิวปกติ · จะถูกถ้าก้อนอุ่น เต้น มี thrill และโตขึ้นช่วงวัยรุ่น/ตั้งครรภ์",
+"D": "Venolymphatic malformation เป็นแบบผสม (combined) มีส่วน venous ที่ผิวคล้ำ/สีน้ำเงิน กดยุบ โตขึ้นเมื่อก้มหน้าหรือเบ่ง มีก้อนหินปูน (phlebolith) · จะถูกถ้าก้อนมีสีน้ำเงินบางส่วนร่วมกับถุงน้ำ และขนาดเปลี่ยนตามท่า",
+"E": "Infantile hemangioma เป็น vascular tumor (ไม่ใช่ malformation) มักไม่เห็นตอนเกิด โตเร็วช่วง 1–6 เดือนแล้วยุบเองหลัง 1 ปี ผิวบนเป็นสีแดงสด (strawberry) ถ้าอยู่ลึกเป็นสีน้ำเงิน · GLUT-1 positive · จะถูกถ้าทารกมีก้อนแดงสดที่โตเร็วในช่วงไม่กี่เดือนแรก (Rx propranolol)"
+},
+"trap": "\"ผิวปกติ + ถุงน้ำ + ด้านข้างคอ\" = lymphatic malformation · ตำแหน่งแยกโรคสำคัญ: midline → thyroglossal duct cyst (ขยับตามการกลืน/แลบลิ้น) หรือ dermoid · ขอบหน้า SCM → branchial cleft cyst (2nd) ซึ่งมักโผล่ในเด็กโต/ผู้ใหญ่ตอนติดเชื้อ · posterior triangle → cystic hygroma · ข้อเดียวกับ 73D Ped 1",
+"summary": [
+"Pediatric neck mass: midline → thyroglossal duct cyst, dermoid · anterior triangle (ขอบหน้า SCM) → 2nd branchial cleft cyst · posterior triangle → lymphatic malformation",
+"ISSVA: vascular tumor (infantile hemangioma — โตแล้วยุบ, GLUT-1+) vs vascular malformation (โตตามตัว ไม่ยุบ: capillary, venous, lymphatic, AVM)",
+"Lymphatic malformation: macrocystic transilluminate → sclerotherapy (doxycycline, OK-432, bleomycin) · microcystic → ผ่าตัด/sirolimus · ภาวะแทรกซ้อน: airway compression, ติดเชื้อ, เลือดออกในถุง",
+"Cystic hygroma ที่พบก่อนคลอดสัมพันธ์กับ Turner syndrome, Down syndrome → ตรวจ karyotype"
+]
+},
+"MDCU72|RoD|ไม่มีเลข 6": {
+"interp": "ข้อ NOT: ถามยาปฏิชีวนะที่ \"ผ่าน BBB ได้ไม่พอ\" แม้มี meningeal inflammation จึงใช้รักษา meningitis แบบให้ทางหลอดเลือดดำไม่ได้",
+"why": "Aminoglycosides (gentamicin, amikacin) เป็นโมเลกุลมีขั้ว (polar, hydrophilic) ละลายในไขมันได้น้อย จึงผ่าน BBB ได้ไม่ดี ระดับใน CSF ต่ำแม้มีการอักเสบ — ใน meningitis จึงใช้ IV ไม่ได้ผล (เคยต้องให้ทาง intrathecal/intraventricular) และ CSF ยังมีสภาพเป็นกรดทำให้ฤทธิ์ลดลงอีก (คีย์ลายมือ P'Ing วง E · กลุ่มที่ผ่านไม่ดีอื่น ๆ: erythromycin, tetracycline, clindamycin, cefazolin/1st-gen cephalosporin)",
+"wrong": {
+"A": "Amoxicillin/ampicillin ผ่าน BBB ได้ดีเมื่อเยื่อหุ้มสมองอักเสบ (meningeal inflammation ทำให้ tight junction หลวม — ลายมือ P'Ing) จึงใช้ขนาดสูงรักษา Listeria meningitis ได้ · จะถูกถ้าโจทย์ถามยาที่ผ่าน BBB ได้ \"เฉพาะเมื่อมีการอักเสบ\" (เพราะในภาวะปกติระดับใน CSF ต่ำ)",
+"B": "Chloramphenicol ละลายในไขมันดี ผ่าน BBB ได้ดีแม้ไม่มีการอักเสบ (ลายมือ P'Ing: good level) เคยใช้รักษา meningitis ในผู้แพ้ penicillin แต่มีพิษ (aplastic anemia, gray baby syndrome) · จะถูกถ้าโจทย์ถามยาที่ผ่าน BBB ได้ดีโดยไม่ต้องอาศัยการอักเสบ",
+"C": "Vancomycin โมเลกุลใหญ่ ผ่าน BBB ได้เมื่อเยื่อหุ้มอักเสบ (ลายมือ P'Ing) ใช้เป็นส่วนหนึ่งของ empirical regimen สำหรับ penicillin-resistant pneumococcus (ห้ามใช้ dexamethasone นานจนลดการผ่าน) · จะถูกถ้าโจทย์ถามยาเสริม ceftriaxone ในการรักษา bacterial meningitis เบื้องต้น",
+"D": "Ceftriaxone (3rd-gen cephalosporin) ผ่าน BBB ได้ดีเมื่อมีการอักเสบ เป็น backbone ของ empirical therapy ใน community-acquired bacterial meningitis (2 g IV q12h) · จะถูกถ้าโจทย์ถามยาตัวแรกในการรักษา meningitis จาก S. pneumoniae/N. meningitidis"
+},
+"trap": "ยาส่วนใหญ่ (penicillin, ceftriaxone, vancomycin) ผ่าน BBB \"ได้เมื่อมีการอักเสบ\" จึงอย่าเลือกเพียงเพราะคิดว่าโดยปกติผ่านไม่ได้ · cephalosporin 1st gen (cefazolin) ผ่านไม่ดี แต่ 3rd gen (ceftriaxone, cefotaxime) และ 4th gen (cefepime) ผ่านได้ · ช้อย D ในไฟล์ว่าง → เติม · ข้อเดียวกับ 70C เลข 24",
+"summary": [
+"ผ่าน BBB ดีแม้ไม่อักเสบ: chloramphenicol, metronidazole, rifampin, fluoroquinolone, TMP-SMX, linezolid, isoniazid",
+"ผ่านเมื่ออักเสบ: penicillin/ampicillin, ceftriaxone/cefotaxime, cefepime, meropenem, vancomycin",
+"ผ่านไม่ดี: aminoglycoside, 1st/2nd-gen cephalosporin (cefazolin, cefuroxime ไม่ควรใช้), clindamycin, erythromycin, tetracycline",
+"Empirical adult bacterial meningitis: ceftriaxone + vancomycin (+ ampicillin ถ้า > 50 ปี/ภูมิต่ำ คลุม Listeria) + dexamethasone ก่อนหรือพร้อมยาฆ่าเชื้อโดสแรก"
+]
+},
+"MDCU72|RoD|ไม่มีเลข 7": {
+"wrong": {
+"B": "Hearing loss พบบ่อยใน syndromic craniosynostosis (conductive จาก middle ear effusion/ossicular anomaly) แต่ดูแลด้วยการตรวจคัดกรองและติดตาม (tympanostomy tube, hearing aid) ตลอดการเติบโต ไม่ใช่สิ่งที่กำหนดให้แก้ในวัยเรียนโดยเฉพาะ (ลายมือ P'Ing: ทำตลอด) · จะถูกถ้าโจทย์ถามสิ่งที่ต้องประเมินและติดตามต่อเนื่องตั้งแต่แรกเกิด",
+"C": "Elective midface advancement (เพื่อรูปลักษณ์/การสบฟัน) ควรรอหลังกระดูกหน้าโตเต็มที่ (ลายมือ P'Ing: after 18 y/o) เพราะถ้าทำเร็ว midface ยังโตไม่ทันจะต้องผ่าตัดซ้ำ — ทำเร็วเฉพาะเมื่อมี airway obstruction หรือ exorbitism รุนแรง · จะถูกถ้าโจทย์ถามเวลาทำ Le Fort III/midface advancement ในผู้ป่วยที่ไม่มีปัญหาทางเดินหายใจ (หลัง skeletal maturity)",
+"D": "Speech therapy ทำตลอดตั้งแต่เด็กเล็กตามพัฒนาการ (ลายมือ P'Ing: ทำตลอด) โดยเฉพาะใน Apert ที่มี cleft palate ได้ · จะถูกถ้าโจทย์ถาม multidisciplinary care ที่ต้องเริ่มตั้งแต่ช่วงก่อนวัยเรียนและทำต่อเนื่อง",
+"E": "Strabismus พบได้ (exotropia, V-pattern จาก extraocular muscle anomaly/orbit ตื้น) แก้ด้วยแว่น/ผ่าตัดกล้ามเนื้อตาตามจักษุแพทย์ ไม่ใช่ประเด็นหลักที่ต้องแก้ทางศัลยกรรมโครงหน้าในวัยเรียน · จะถูกถ้าโจทย์ถามภาวะทางตาที่ต้องให้จักษุแพทย์ดูแลเพื่อป้องกัน amblyopia (ซึ่งต้องทำเร็วก่อน 7 ปี)"
+},
+"trap": "ใน syndromic craniosynostosis (Crouzon, Apert, Pfeiffer) midface hypoplasia ทำให้ทางเดินหายใจส่วนบนแคบ → OSA/airway obstruction จึงต้องทำ midface advancement เร็ว (วัยเรียนหรือเร็วกว่านั้น ด้วย distraction) ไม่รอโตเต็มที่ ขณะที่ elective midface advancement รอหลังโต · P'Ing มี ? หน้าข้อ · ไฟล์ไม่มีภาพ เติมช้อย E",
+"summary": [
+"Timeline syndromic craniosynostosis: cranial vault remodeling/release < 1 ปี (ป้องกัน ICP สูง) · posterior vault distraction ทำได้ช่วงทารก · midface advancement (Le Fort III / monobloc) วัยเรียนถ้ามี airway obstruction หรือ exorbitism · elective/orthognathic หลัง skeletal maturity",
+"Crouzon: FGFR2, midface hypoplasia, exorbitism, แขนขาปกติ · Apert: FGFR2, syndactyly ของมือและเท้า (mitten hand), cleft palate, intellectual disability บ่อยกว่า · Pfeiffer: broad thumb/big toe",
+"Multidisciplinary ตลอดชีวิต: ICP monitoring (fundoscopy), hearing, speech, dental/orthodontic, ophthalmology (exposure keratopathy, strabismus), sleep study",
+"Nonsyndromic single suture: sagittal (scaphocephaly) พบบ่อยสุด · metopic (trigonocephaly) · unicoronal (anterior plagiocephaly) · ผ่าตัดช่วง 3–12 เดือน"
+]
+},
+"MDCU72|RoD|ไม่มีเลข 8": {
+"why": "Fingertip injury ที่ defect ≤ 1 cm² (0.9 × 0.9 cm ≈ 0.8 cm²) และ \"ไม่มีกระดูกโผล่\" (ลายมือ P'Ing: < 1 cm + no bony exposure) → healing by secondary intention ด้วยการทำแผลชุ่มชื้น (moist dressing/occlusive) แผลหายใน ~3–4 สัปดาห์ ได้ผลดีที่สุดทั้งด้าน sensation (ไม่มีรอยแผลเย็บ เนื้อหดเข้ามาเป็นผิวที่มีประสาทรับความรู้สึกเดิม), รูปร่างปลายนิ้ว และไม่ต้องผ่าตัด · ผลลัพธ์ดีเทียบเท่าหรือดีกว่า graft/flap โดยเฉพาะในเด็ก",
+"wrong": {
+"A": "Primary suture ใช้ไม่ได้ เพราะเป็น avulsion ที่เนื้อหายไป ดึงขอบมาเย็บจะตึง ปลายนิ้วผิดรูป ขาดเลือด และเจ็บ · จะถูกถ้าเป็นแผลฉีกขาด (laceration) ธรรมดาที่ไม่มีเนื้อหาย ขอบชนกันได้โดยไม่ตึง",
+"B": "Local flap (V-Y advancement — Atasoy/Kutler, cross-finger, thenar flap) ใช้เมื่อมีกระดูกโผล่หรือ defect ใหญ่ ต้องการปกคลุมกระดูกและรักษาความยาวนิ้ว · ข้อนี้ไม่มีกระดูกโผล่จึงไม่จำเป็น (72C เลข 54 คีย์ V-Y flap ในโจทย์คล้ายกัน) · จะถูกถ้า defect > 1 cm² หรือมี distal phalanx โผล่และอยากรักษาความยาวนิ้ว (dorsal oblique → V-Y · volar oblique → cross-finger/thenar)",
+"C": "Skin graft (FTSG จาก hypothenar/ข้อมือ) ทำได้ใน defect ใหญ่ที่ไม่มีกระดูกโผล่ แต่ได้ sensation และความทนทานด้อยกว่า secondary intention ใน defect เล็ก และต้องมีแผลที่ donor site · จะถูกถ้า defect ใหญ่ > 1.5–2 cm² ไม่มีกระดูกโผล่ และผู้ป่วยต้องการให้แผลปิดเร็ว",
+"D": "Revision amputation (ตัดกระดูกให้สั้นลงแล้วเย็บปิดปลาย) ทำให้นิ้วสั้นลงโดยไม่จำเป็น ใช้เมื่อกระดูกโผล่มากและผู้ป่วยไม่ต้องการ flap/ต้องการกลับไปทำงานเร็ว หรือ nail bed เสียหายมาก · จะถูกถ้าเป็น amputation ระดับ proximal ต่อ nail bed กลางที่ไม่ replant ได้ หรือผู้ป่วยแรงงานที่ขอให้หายเร็วที่สุด"
+},
+"trap": "คำสำคัญ = ขนาด < 1 cm² และ \"ไม่มีกระดูกโผล่\" → secondary intention · ถ้ามีกระดูกโผล่ค่อยคิด flap/revision amputation · ข้อนี้ขัดกับ 72C เลข 54 ที่คีย์ V-Y flap ในโจทย์คล้ายกัน (ข้อนั้นอาจมีกระดูกโผล่หรือ defect ใหญ่กว่า) — ยึดแนวทางปัจจุบันตามคีย์ข้อนี้",
+"summary": [
+"Fingertip defect ≤ 1 cm² ไม่มีกระดูกโผล่ → secondary intention (moist dressing) ผลดีที่สุด",
+"Defect ใหญ่ ไม่มีกระดูกโผล่ → secondary intention ได้หรือ FTSG · มีกระดูกโผล่ → V-Y (Atasoy volar, Kutler lateral) สำหรับ dorsal oblique/transverse · cross-finger/thenar flap สำหรับ volar oblique · หรือ revision amputation",
+"Nail bed: subungual hematoma > 50% ไม่จำเป็นต้องถอดเล็บถ้าเล็บติดดี · nail bed laceration → ซ่อมด้วย 6-0/7-0 absorbable หรือ tissue glue แล้ววางเล็บกลับเป็น splint",
+"เด็ก < 6 ปีปลายนิ้วขาดแบบ composite graft มีโอกาสติดดีกว่าผู้ใหญ่ · ให้ tetanus prophylaxis เสมอ"
+]
+},
+"MDCU72|RoD|ไม่มีเลข 9": {
+"why": "Post-MI day 2–7 hemodynamically stable แล้วเกิดหอบเหนื่อยเฉียบพลันร่วมกับ pansystolic murmur ที่ apex (ร้าวไป axilla) = acute mitral regurgitation จาก papillary muscle rupture (คีย์ลายมือ P'Ing วง A: MR) · มักเป็น posteromedial papillary muscle เพราะได้เลือดจาก PDA เส้นเดียว (inferior MI) ขณะที่ anterolateral ได้เลือด 2 เส้น (LAD + LCx) · LA ที่ไม่เคยขยายรับปริมาตรเฉียบพลันไม่ได้ → acute pulmonary edema, cardiogenic shock · murmur อาจเบาเพราะความดัน LA สูงเร็ว · วินิจฉัยด้วย echo → ผ่าตัดเปลี่ยน/ซ่อมลิ้นด่วน (bridge ด้วย afterload reduction/IABP)",
+"wrong": {
+"B": "Free wall rupture เกิดได้ช่วง 3–14 วันเช่นกัน แต่ทำให้เลือดเข้า pericardium → cardiac tamponade (ลายมือ P'Ing): hypotension กะทันหัน, JVD, PEA arrest ไม่มี murmur ใหม่ · จะถูกถ้าโจทย์บอกว่าผู้ป่วยหญิงสูงอายุ first MI ทรุดลงเร็ว ความดันตก คอโป่ง เสียงหัวใจเบา",
+"C": "Ventricular septal rupture ให้ harsh pansystolic murmur เช่นกัน แต่ได้ยินชัดที่ left lower sternal border และมักคลำ thrill ได้ (ลายมือ P'Ing: VSD pansystolic @ LSB) · มี left-to-right shunt → O₂ step-up ใน RV จากการทำ right heart catheterization · จะถูกถ้า murmur อยู่ที่ LSB มี thrill และผู้ป่วยมีภาวะ right heart failure",
+"D": "Reperfusion syndrome/injury เกิดทันทีหลังเปิดหลอดเลือด (ชั่วโมงแรก) เช่น reperfusion arrhythmia (AIVR), myocardial stunning — ไม่ทำให้เกิด murmur ใหม่ในวันที่ 3 · จะถูกถ้าโจทย์บอกว่าเกิด arrhythmia/ความดันต่ำทันทีหลังทำ PCI หรือให้ thrombolytic",
+"E": "Dressler syndrome = autoimmune pericarditis หลัง MI 2–10 สัปดาห์ ไข้ เจ็บหน้าอกแบบ pleuritic มี pericardial friction rub (ไม่ใช่ pansystolic murmur) · จะถูกถ้าโจทย์บอกผู้ป่วยหลัง MI หลายสัปดาห์มีไข้ เจ็บอกดีขึ้นเมื่อโน้มตัวไปข้างหน้า มี friction rub และ diffuse ST elevation"
+},
+"trap": "Papillary muscle rupture และ VSR ให้ pansystolic murmur ใหม่ช่วงวันเดียวกันทั้งคู่ — แยกด้วยตำแหน่ง: apex (ร้าวไป axilla) = MR · LSB + thrill = VSR · free wall rupture ไม่มี murmur แต่เป็น tamponade · ข้อเดียวกับ 73B CVT 5 · เติมช้อย E",
+"summary": [
+"Post-MI complications timeline: 0–24 ชม. VF/arrhythmia, cardiogenic shock · 1–3 วัน early pericarditis (friction rub) · 3–14 วัน mechanical: free wall rupture, VSR, papillary muscle rupture · 2–10 สัปดาห์ Dressler, LV aneurysm (persistent ST elevation), LV thrombus",
+"Papillary muscle rupture: posteromedial (PDA เส้นเดียว, inferior MI) > anterolateral · acute pulmonary edema · Rx: nitroprusside/IABP แล้ว MV replacement ด่วน",
+"VSR: murmur LSB + thrill, O₂ step-up RA→RV · Rx: IABP/MCS → surgical/percutaneous closure",
+"Free wall rupture: tamponade, PEA · เสี่ยงในหญิงสูงอายุ first MI, late thrombolysis · Rx: pericardiocentesis เป็นสะพาน → ผ่าตัดด่วน"
+]
+}
+}
