@@ -1,0 +1,273 @@
+{
+"MDCU66|RoA|X19": {
+ "interp": "โจทย์ถาม <b>ทางเลือกการรักษา MS ที่ไม่มี MR ร่วม</b> — คำว่า 'without MR' คือคำใบ้ว่า valve ยังเหมาะกับการขยาย (PBMV/commissurotomy) ได้ ไม่ได้ถามว่าทำอะไรก่อน จึงตอบรวมทุกวิธีที่ใช้ได้ตาม stage",
+ "why": "การรักษา <b>mitral stenosis</b> แบ่งตามอาการ (NYHA FC) และลักษณะลิ้น:<br>• <b>ยา</b> (คีย์ลายมือ: diuretic, digitalis) — diuretic ลด pulmonary congestion, rate control (β-blocker/non-DHP CCB/digoxin) ยืด diastolic filling time, <b>anticoagulation (warfarin)</b> เมื่อมี AF/LA thrombus/เคย embolism · ยาคุมอาการแต่ไม่แก้ลิ้นตีบ<br>• <b>PBMV</b> (percutaneous balloon mitral valvotomy) — first choice ของ severe MS (MVA ≤ 1.5 cm²) ที่มีอาการ ถ้า valve morphology เหมาะ (Wilkins score ≤ 8), <b>ไม่มี LA thrombus และ MR ไม่เกิน mild</b> → นี่คือเหตุที่โจทย์ระบุ 'without MR'<br>• <b>Open mitral commissurotomy (OMC)</b> — ผ่าตัดเปิดแยก commissure เมื่อทำ PBMV ไม่ได้แต่ลิ้นยังซ่อมได้ (คีย์ลายมือ: FC III)<br>• <b>Mitral valve replacement (MVR)</b> — ลิ้นแข็ง/calcified มาก, Wilkins สูง หรือมี MR ปานกลาง–รุนแรง (คีย์ลายมือ: FC III)<br>→ ทุกวิธีเป็นการรักษา MS ได้ตาม stage จึงตอบ <b>E. All of the above</b> (ตรงคีย์ลายมือ ขีด E)",
+ "wrong": {
+  "A": "ยา (diuretic, rate control, anticoagulant) เป็นการรักษาจริงของ MS แต่ควบคุมแค่อาการ ไม่เปิดลิ้น — เป็นเพียงหนึ่งในทางเลือก จึงไม่ครบ · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถามการรักษา MS ที่ยังไม่มีอาการ/mild หรือถามการรักษา AF ที่เกิดร่วม",
+  "B": "PBMV เป็น first choice ของ severe symptomatic MS ที่ลิ้นเหมาะและไม่มี MR/LA thrombus แต่ไม่ใช่วิธีเดียว · จะเป็นคำตอบเดี่ยวถ้าโจทย์ถาม 'treatment of choice' ใน severe MS, Wilkins ≤ 8, ไม่มี LA clot",
+  "C": "MVR ใช้ได้จริงเมื่อลิ้น calcified มาก/Wilkins สูง หรือมี MR ร่วม แต่โจทย์ถามทุกทางเลือก · จะเป็นคำตอบเดี่ยวถ้าโจทย์เป็น MS + moderate–severe MR หรือลิ้นแข็ง calcified ทำ PBMV/OMC ไม่ได้",
+  "D": "OMC ใช้แยก commissure แบบผ่าตัดเปิดเมื่อทำ PBMV ไม่ได้ (เช่นมี LA thrombus) แต่ลิ้นยังซ่อมได้ — เป็นแค่หนึ่งในทางเลือก · จะเป็นคำตอบเดี่ยวถ้าโจทย์บอกมี LA thrombus ที่ไม่หายหลัง anticoagulate แต่ลิ้นยัง pliable"
+ },
+ "trap": "อย่าเลือกข้อเดี่ยวเพราะเห็นว่าเป็น 'ตัวหลัก' (เช่น PBMV) — โจทย์ถาม 'treatment options' แบบรวม · และจำว่า PBMV <b>ห้าม</b>เมื่อมี LA thrombus หรือ MR ≥ moderate · MS + AF ต้องได้ <b>warfarin</b> (ไม่ใช้ DOAC ใน rheumatic MS ระดับ moderate–severe)",
+ "summary": [
+  "Severe MS = MVA ≤ 1.5 cm² (very severe ≤ 1.0 cm²) · สาเหตุส่วนใหญ่ rheumatic heart disease",
+  "อาการ: dyspnea, orthopnea, hemoptysis, AF + systemic embolism · ฟังได้ loud S1, opening snap, mid-diastolic rumble ที่ apex",
+  "ยา: diuretic + rate control + warfarin เมื่อมี AF/LA thrombus/embolism (DOAC ไม่ใช้ใน rheumatic MS)",
+  "Severe symptomatic MS + Wilkins ≤ 8 + ไม่มี LA thrombus + MR ≤ mild → <b>PBMV</b> (first choice)",
+  "ทำ PBMV ไม่ได้ → ผ่าตัด: OMC ถ้าลิ้นยังซ่อมได้ / <b>MVR</b> ถ้าลิ้น calcified มากหรือมี MR ปานกลาง–รุนแรง",
+  "คีย์ลายมือในไฟล์: A diuretic, digitalis · B PBMV · C, D ใช้เมื่อ FC III"
+ ]
+},
+"MDCU66|RoA|1": {
+ "wrong": {
+  "B": "Rubber band ligation ใช้กับ internal hemorrhoid grade I–III ที่ไม่มีภาวะแทรกซ้อน ห้ามรัดก้อนที่ thrombosed/strangulated เพราะปวดมากและเสี่ยงเนื้อตาย/ติดเชื้อ · จะถูกถ้าเป็น grade II–III ที่เลือดออก ไม่มี thrombosis",
+  "C": "Sclerotherapy ฉีดยาให้ก้อนฝ่อ ใช้กับ grade I–II เลือดออกเป็นหลัก ไม่ช่วยก้อนที่ยื่นค้างและมีลิ่มเลือด · จะถูกถ้าเป็น grade I–II bleeding hemorrhoid โดยเฉพาะผู้ป่วยกินยาต้านเกล็ดเลือด",
+  "D": "Warm sitz bath เป็นแค่การรักษาประคับประคองลดปวด/บวม ไม่แก้ก้อน prolapse ที่ thrombosed · จะถูกถ้าเป็น thrombosed external hemorrhoid ที่มาหลัง 72 ชม. (ปวดเริ่มลด) หรือเป็นการรักษาเสริมหลังผ่าตัด",
+  "E": "Flavonoid (เช่น micronized purified flavonoid fraction) ลดอาการเลือดออก/บวมใน hemorrhoid ทั่วไป แต่ใช้อย่างเดียวไม่พอสำหรับ complicated hemorrhoid · จะถูกถ้าเป็น grade I–II ที่เพิ่งเริ่มมีอาการ ใช้ร่วมกับ fiber"
+ },
+ "summary": [
+  "Internal hemorrhoid grading (Goligher): I ไม่ยื่น · II ยื่นแล้วกลับเอง · III ต้องดันกลับ · IV ดันไม่กลับ/ยื่นค้าง",
+  "Grade I–II (± III): fiber + น้ำ + office procedure (RBL ดีที่สุด, sclerotherapy, infrared coagulation)",
+  "Grade III–IV, mixed, ล้มเหลวจาก office procedure หรือ <b>complicated (thrombosed/strangulated/gangrenous)</b> → excisional hemorrhoidectomy",
+  "Thrombosed <b>external</b> hemorrhoid: มาภายใน 72 ชม. → excision ของก้อน (ไม่ใช่ incision & drainage) · หลัง 72 ชม. → conservative",
+  "ห้าม rubber band ก้อนที่ thrombosed และห้ามรัดใกล้ dentate line (ปวดมาก)"
+ ]
+},
+"MDCU66|RoA|2": {
+ "interp": "โจทย์ถาม <b>standard screening test</b> ของมะเร็งลำไส้ใหญ่ (คนไม่มีอาการ ความเสี่ยงปกติ) — ต้องเลือกวิธีที่เป็น gold standard ทั้งหาและตัด polyp ได้ ไม่ใช่ tumor marker",
+ "why": "<b>Colonoscopy</b> เป็น gold standard ของ CRC screening: เห็นลำไส้ใหญ่ทั้งหมด ตัดชิ้นเนื้อและตัด polyp (adenoma → ป้องกันมะเร็ง) ได้ในครั้งเดียว ทำทุก 10 ปีในคนความเสี่ยงปกติ เริ่มอายุ 45 ปี (USMSTF/ACS 2018–2021) · การตรวจอุจจาระ (FIT/FOBT ทุกปี) เป็นทางเลือกที่ถูกและไม่รุกล้ำ ใช้ในโครงการระดับประชากร แต่ถ้าบวกต้องส่ง colonoscopy ต่อ · CEA ไม่ใช้คัดกรองเพราะไม่ไวและไม่จำเพาะ ใช้ติดตามหลังรักษามะเร็งเท่านั้น",
+ "wrong": {
+  "A": "CEA เป็น tumor marker ที่ไวต่ำในมะเร็งระยะแรกและสูงได้จากสูบบุหรี่ ตับอักเสบ IBD — ไม่ใช้ screening · จะถูกถ้าโจทย์ถามการติดตามหลังผ่าตัด CRC (CEA ทุก 3–6 เดือน) หรือ prognostic marker ก่อนผ่าตัด",
+  "B": "Stool occult blood (gFOBT/FIT) เป็น screening ที่ใช้ได้จริง แต่เป็น 'ทางเลือก' ที่ต้องตรวจทุกปี และผลบวกต้องส่ง colonoscopy ต่อ จึงไม่ใช่ standard/gold standard · จะถูกถ้าโจทย์ถาม screening ระดับประชากรที่คุ้มค่าที่สุดหรือผู้ป่วยปฏิเสธ colonoscopy",
+  "D": "CT abdomen ใช้ staging มะเร็งที่วินิจฉัยแล้ว (ดู liver/lung metastasis, nodes) ไม่ใช่ screening เพราะไม่เห็น polyp เล็กและได้รังสี · จะถูกถ้าโจทย์ถาม staging หลัง biopsy ยืนยัน CRC",
+  "E": "Plain abdominal film ไม่เห็นก้อนในลำไส้ ใช้ดู obstruction/free air · จะถูกถ้าโจทย์เป็นผู้ป่วย CRC มาด้วย large bowel obstruction แล้วถามการตรวจเบื้องต้น"
+ },
+ "summary": [
+  "Average risk: เริ่ม screening อายุ 45 ปี (USMSTF/ACS) ถึง 75 ปี · 76–85 ปีพิจารณารายคน",
+  "ทางเลือก: colonoscopy ทุก 10 ปี · FIT ทุกปี · CT colonography หรือ flexible sigmoidoscopy ทุก 5 ปี · multitarget stool DNA ทุก 1–3 ปี",
+  "ผลตรวจอุจจาระ/CTC ผิดปกติ → ต้อง colonoscopy เสมอ",
+  "High risk (ญาติสายตรงเป็น CRC/advanced adenoma) → colonoscopy เริ่มอายุ 40 หรือ 10 ปีก่อนอายุญาติที่เป็น ทุก 5 ปี",
+  "CEA ใช้ติดตามหลังรักษา ไม่ใช่คัดกรอง"
+ ]
+},
+"MDCU66|RoA|3": {
+ "why": "<b>Chronic anal fissure</b> (> 6–8 สัปดาห์ หรือมี sentinel pile, hypertrophied papilla, เห็น internal sphincter fibers) เกิดจาก internal anal sphincter หดเกร็ง → เลือดเลี้ยง posterior midline ลดลง แผลไม่หาย · การรักษาลดแรงตึงของ sphincter: แนวทาง ASCRS ให้ลอง <b>medical/chemical sphincterotomy</b> ก่อนได้ (topical nitroglycerin หรือ CCB เช่น diltiazem/nifedipine, botulinum toxin) แต่การรักษาที่ <b>definitive และหายสูงสุด (> 90–95%) คือ lateral internal sphincterotomy (LIS)</b> ซึ่งไฟล์เขียนคำตอบไว้ว่า LIS · ข้อเสียคือ minor incontinence (ส่วนใหญ่ต่อลม) จึงระวังในผู้หญิงหลายท้อง/sphincter อ่อนแอ · anal dilatation แบบไม่ควบคุมเลิกใช้เพราะ incontinence สูง",
+ "wrong": {
+  "B": "Bulk-forming laxative (fiber) + น้ำ เป็น first-line ของ <b>acute</b> fissure (หายได้ราวครึ่งหนึ่ง) แต่ใช้อย่างเดียวใน chronic fissure ไม่พอ · จะถูกถ้าโจทย์เป็น acute anal fissure (< 6 สัปดาห์ ขอบแผลเรียบ ไม่มี sentinel tag)",
+  "C": "Sitz bath ช่วยคลายกล้ามเนื้อและลดปวดเป็นการรักษาเสริม ใช้อย่างเดียวรักษา chronic fissure ไม่หาย · จะถูกถ้าโจทย์ถามการดูแลตัวเองเบื้องต้นของ acute fissure ร่วมกับ fiber",
+  "D": "Fissurectomy + anal dilatation: dilatation แบบไม่ควบคุม (Lord's) ทำให้ sphincter ฉีกขาดไม่สม่ำเสมอ incontinence สูง จึงไม่แนะนำแล้ว · จะถูกถ้าโจทย์ถามวิธีเสริมในผู้ป่วยที่มี sphincter อ่อนแอ (fissurectomy + botox) แทน LIS",
+  "E": "Hemorrhoidectomy รักษาริดสีดวง ไม่ได้แก้การหดเกร็งของ internal sphincter และอาจทำให้แผล fissure แย่ลง · จะถูกถ้าโจทย์เป็น grade III–IV hemorrhoid ที่ไม่มี fissure"
+ },
+ "summary": [
+  "Fissure ส่วนใหญ่อยู่ <b>posterior midline</b> (รองลงมา anterior ในผู้หญิง) · อาการ: ปวดแสบมากขณะ/หลังถ่าย + เลือดสดเล็กน้อย",
+  "Acute (< 6 สัปดาห์): fiber, น้ำ, sitz bath, topical anesthetic ± NTG/CCB",
+  "Chronic: chemical sphincterotomy (NTG — ปวดหัวบ่อย, diltiazem — ผลข้างเคียงน้อยกว่า, botox) → ไม่หาย → <b>LIS</b> (healing > 90%)",
+  "Fissure นอก midline/หลายแผล/ไม่เจ็บ → หา secondary cause: Crohn's, TB, HIV, syphilis, มะเร็ง",
+  "LIS เสี่ยง minor incontinence → ระวังในผู้หญิงหลังคลอด ผู้สูงอายุ เคยผ่าตัดทวารหนัก"
+ ]
+},
+"MDCU66|RoA|5": {
+ "interp": "โจทย์ถามภาวะที่ <b>เพิ่มความเสี่ยง colorectal cancer</b> — ต้องเลือกภาวะ premalignant/hereditary syndrome ไม่ใช่ลำไส้อักเสบติดเชื้อหรือ polyp ที่ไม่ใช่ adenoma",
+ "why": "<b>Familial adenomatous polyposis (FAP)</b> เป็น autosomal dominant จาก germline mutation ของ <b>APC gene</b> มี adenomatous polyp หลายร้อยถึงหลายพันก้อนตั้งแต่วัยรุ่น และ <b>เกือบ 100% กลายเป็นมะเร็งภายในอายุ 40 ปีถ้าไม่ผ่าตัด</b> → จึงต้องทำ prophylactic proctocolectomy (หรือ total colectomy + IRA ถ้า rectum มี polyp น้อย) · สไลด์ risk factors (คีย์ในไฟล์): อายุ, ประวัติครอบครัว, hereditary syndromes (FAP, Lynch/HNPCC), IBD (UC/Crohn's colitis นาน > 8 ปี), adenoma, อาหารเนื้อแดง/แปรรูป, อ้วน, สูบบุหรี่",
+ "wrong": {
+  "A": "Pseudomembranous colitis เป็นลำไส้อักเสบเฉียบพลันจาก C. difficile toxin หลังได้ยาปฏิชีวนะ ไม่เพิ่ม CRC · จะถูกถ้าโจทย์ถามภาวะแทรกซ้อนจากยาปฏิชีวนะ (clindamycin, cephalosporin) หรือสาเหตุ toxic megacolon",
+  "B": "Solitary juvenile polyp เป็น hamartoma ในเด็ก (มักเลือดออกไม่เจ็บ/หลุดเอง) ไม่ใช่ premalignant · จะถูกถ้าเป็น juvenile polyposis syndrome (polyp ≥ 5 ก้อน, SMAD4/BMPR1A) ซึ่งเพิ่มความเสี่ยงมะเร็ง",
+  "D": "Amoebic colitis (Entamoeba histolytica) ทำให้ท้องเสียเป็นมูกเลือด แผล flask-shaped และ amoeboma แต่ไม่เพิ่ม CRC · จะถูกถ้าโจทย์ถาม DDx ของก้อนที่ cecum ที่หายด้วย metronidazole หรือสาเหตุ liver abscess",
+  "E": "Thrombosed hemorrhoid เป็นภาวะของหลอดเลือดที่ทวารหนัก ไม่เกี่ยวกับมะเร็ง · จะถูกถ้าโจทย์ถามสาเหตุปวดก้อนที่ขอบทวารแบบเฉียบพลัน — แต่ต้องระวังว่าเลือดออกทางทวารในผู้สูงอายุยังต้อง R/O CRC"
+ },
+ "trap": "อย่าสับสน <b>juvenile polyp เดี่ยว</b> (hamartoma ไม่เพิ่มมะเร็ง) กับ <b>juvenile polyposis syndrome</b> (เพิ่ม) · และ IBD ที่เพิ่มความเสี่ยงคือ UC/Crohn's colitis ไม่ใช่ infectious colitis",
+ "summary": [
+  "FAP: APC mutation, AD, polyp > 100 ก้อน, มะเร็ง ~100% → prophylactic colectomy ช่วงอายุ 15–25 ปี",
+  "FAP variants: Gardner (osteoma, desmoid, epidermoid cyst), Turcot (medulloblastoma) · extracolonic: duodenal/periampullary cancer, CHRPE",
+  "Lynch (HNPCC): mismatch repair gene, right-sided CRC, endometrial cancer · Amsterdam criteria 3-2-1",
+  "IBD: UC/Crohn's colitis > 8 ปี → surveillance colonoscopy ทุก 1–3 ปี",
+  "Hamartomatous syndromes ที่เพิ่มมะเร็ง: Peutz-Jeghers (STK11), juvenile polyposis"
+ ]
+},
+"MDCU66|RoA|7": {
+ "interp": "ข้อ <b>EXCEPT</b> — ต้องหาข้อความที่ผิดเกี่ยวกับ sigmoid volvulus · ช้อย E บอกว่า 'น้อยกว่าครึ่งของ colonic volvulus' ซึ่งขัดกับความจริงที่ sigmoid เป็นตำแหน่งที่พบบ่อยที่สุด",
+ "why": "<b>Sigmoid volvulus</b> คิดเป็นราว <b>60–75% ของ colonic volvulus</b> (คีย์ลายมือเขียน 90%) รองลงมาคือ cecal volvulus (20–40%) และ transverse (พบน้อย) → ช้อย E ที่ว่า < 50% จึง <b>ผิด</b> = คำตอบ · ส่วนข้ออื่นถูกหมด: พบในผู้สูงอายุติดเตียง/ในสถานพักฟื้น ท้องผูกเรื้อรัง ใช้ยาจิตเวช, plain film เห็น <b>coffee bean / bent inner tube sign</b> ชี้ไป RUQ, ถ้าไม่มี peritonitis/ischemia → <b>endoscopic detorsion</b> (flexible sigmoidoscopy) + rectal tube แล้วทำ <b>elective sigmoidectomy ใน admission เดียวกัน</b> เพราะ recurrence > 50%, ถ้ามี ischemia/perforation หรือ reduce ไม่ได้ → ผ่าตัดฉุกเฉิน (Hartmann procedure)",
+ "wrong": {
+  "A": "ข้อความถูก: หลัง endoscopic detorsion สำเร็จต้องตามด้วย elective sigmoidectomy เพราะเป็นซ้ำได้ > 50% · จะเป็นคำตอบ (ข้อผิด) ก็ต่อเมื่อช้อยบอกว่า detorsion อย่างเดียวพอโดยไม่ต้องผ่าตัดต่อ",
+  "B": "ข้อความถูก: coffee bean sign (sigmoid ที่โป่งมากรูปเมล็ดกาแฟ ชี้ไป RUQ) เป็น sign คลาสสิกใน acute abdomen series · จะเป็นข้อผิดถ้าช้อยอ้างว่า coffee bean sign เป็นของ cecal volvulus (cecal ชี้ไป LUQ)",
+  "C": "ข้อความถูก: reduce ไม่ได้ หรือมี peritonitis/ischemia/perforation ต้องผ่าตัดฉุกเฉิน (Hartmann's procedure ถ้าลำไส้ตาย) · จะเป็นข้อผิดถ้าช้อยแนะนำให้ส่องกล้อง reduce ทั้งที่มี peritonitis",
+  "D": "ข้อความถูก: sigmoid volvulus พบมากในผู้สูงอายุ ติดเตียง มีโรคทางระบบประสาท/จิตเวช ท้องผูกเรื้อรัง · จะเป็นข้อผิดถ้าช้อยบอกว่าพบมากในหญิงอายุน้อย (ซึ่งเป็นลักษณะของ cecal volvulus มากกว่า)"
+ },
+ "trap": "ข้อ EXCEPT ต้องอ่านช้อยทีละข้อว่าจริงหรือไม่ · อย่าสลับ <b>sigmoid</b> (พบบ่อยสุด, ผู้สูงอายุ, coffee bean ชี้ RUQ, ส่องกล้อง reduce ได้) กับ <b>cecal</b> (อายุน้อยกว่า, ชี้ LUQ, ส่องกล้องไม่ได้ → ผ่าตัด right hemicolectomy)",
+ "summary": [
+  "Colonic volvulus: sigmoid ~60–75% > cecal 20–40% > transverse < 5%",
+  "อาการ: ท้องอืดมากเฉียบพลัน ปวดท้อง ไม่ถ่าย ไม่ผายลม · X-ray: coffee bean sign · CT: whirl sign",
+  "ไม่มี ischemia → endoscopic detorsion + rectal tube → elective sigmoidectomy ใน admission เดียวกัน",
+  "Ischemia/perforation/reduce ไม่ได้ → emergency laparotomy: Hartmann procedure",
+  "Cecal volvulus: ส่องกล้อง reduce ไม่ได้ผล → right hemicolectomy"
+ ]
+},
+"MDCU66|RoA|12": {
+ "interp": "โจทย์ถาม 'most appropriate colon cancer screening' — คีย์ในไฟล์ตอบ colonoscopy (gold standard) แม้ในระดับประชากรจริงหลายประเทศรวมทั้งไทยใช้ FIT เป็นด่านแรก",
+ "why": "ตามคีย์ (ขีด C): <b>colonoscopy</b> เป็น gold standard ของการคัดกรอง CRC เพราะเห็นลำไส้ใหญ่ทั้งหมด ตัด polyp (ป้องกันมะเร็ง) และตัดชิ้นเนื้อได้ในครั้งเดียว ความไวสูงสุดทั้งต่อมะเร็งและ advanced adenoma ทำทุก 10 ปีในคนความเสี่ยงปกติเริ่มอายุ 45 ปี (USMSTF) · ⚠ ในมุมสาธารณสุข/ทรัพยากรจำกัด (เช่นโครงการคัดกรองมะเร็งลำไส้ของไทย) ใช้ <b>FIT</b> ทุกปีเป็นด่านแรกเพราะถูกและคนยอมรับมากกว่า แล้วส่ง colonoscopy เมื่อผลบวก — ถ้าโจทย์เน้น 'population/cost-effective' อาจตอบ D ได้ จึงความมั่นใจปานกลาง",
+ "wrong": {
+  "A": "Barium enema (double contrast) ไวต่ำกว่า colonoscopy ต่อ polyp เล็ก และตัดชิ้นเนื้อไม่ได้ จึงเลิกใช้คัดกรองแล้ว · จะถูกถ้าโจทย์ถามภาพคลาสสิก 'apple core lesion' หรือการตรวจในสถานที่ไม่มี colonoscopy/CT",
+  "B": "Serum CEA ไม่ไวในมะเร็งระยะแรกและไม่จำเพาะ ไม่ใช้คัดกรอง · จะถูกถ้าโจทย์ถามการติดตามการกลับเป็นซ้ำหลังผ่าตัด CRC",
+  "D": "Stool occult blood (FIT) เป็น screening ระดับประชากรที่คุ้มค่าและใช้ในโครงการของไทย แต่ไม่ใช่ gold standard และผลบวกต้องส่ง colonoscopy ต่อ · จะถูกถ้าโจทย์เน้น 'population-based / mass screening / cost-effective'",
+  "E": "CT colonography เป็นทางเลือกทุก 5 ปีสำหรับผู้ที่ไม่ทำ colonoscopy แต่ได้รังสี ต้องเตรียมลำไส้เหมือนกัน และพบ polyp ก็ต้องส่องกล้องต่อ · จะถูกถ้าโจทย์เป็นผู้ป่วยที่ทำ colonoscopy ไม่ครบ (incomplete colonoscopy) หรือเสี่ยงสูงต่อการส่องกล้อง"
+ },
+ "summary": [
+  "Gold standard: colonoscopy ทุก 10 ปี (เริ่ม 45 ปีในคนความเสี่ยงปกติ)",
+  "Population/mass screening: FIT ทุกปี → ผลบวกส่ง colonoscopy (โครงการคัดกรองของไทยใช้ FIT)",
+  "ทางเลือกอื่น: CT colonography/flexible sigmoidoscopy ทุก 5 ปี, stool DNA ทุก 1–3 ปี",
+  "CEA และ barium enema ไม่ใช้คัดกรอง",
+  "อ่านโจทย์ให้ดีว่าถาม 'ดีที่สุดรายบุคคล' หรือ 'คุ้มค่าระดับประชากร'"
+ ]
+},
+"MDCU66|RoA|X2": {
+ "wrong": {
+  "A": "FAP ที่ไม่ได้พบแพทย์ 10 ปี เสี่ยงมะเร็งเกือบ 100% ต้องพบ colorectal surgeon เพื่อ colonoscopy และวางแผน prophylactic colectomy โดยด่วน → เหมาะที่สุดที่จะส่ง ไม่ใช่น้อยที่สุด · จะเป็นคำตอบถ้าโจทย์ถาม 'ใครเร่งด่วนที่สุดที่ต้องพบ'",
+  "C": "หญิง 68 ปีถ่ายดำ/ลำเล็กลง = change in bowel habit + เลือดออกในทางเดินอาหาร ต้อง R/O มะเร็งลำไส้ใหญ่ (คีย์ลายมือ C: bowel habit change) จึงควรพบ · จะเป็นคำตอบถ้าโจทย์ถามอาการเตือน (red flag) ที่ต้องส่ง colonoscopy",
+  "D": "ผู้ที่เคยมี adenoma ถึงกำหนด surveillance colonoscopy ต้องได้ส่องกล้องตามนัด จึงควรพบแพทย์ (colorectal surgeon หรือ gastroenterologist) · จะเป็นคำตอบถ้าโจทย์ถามกำหนด surveillance หลังตัด adenoma",
+  "E": "อายุ 60 ปีมี iron-deficiency anemia ใหม่ต้อง R/O right-sided colon cancer ด้วย colonoscopy (± EGD) จึงควรพบ · จะเป็นคำตอบถ้าโจทย์ถามการตรวจที่จำเป็นในผู้สูงอายุ IDA ไม่ทราบสาเหตุ"
+ },
+ "trap": "โจทย์ถาม '<b>least</b> appropriate' (กลับด้าน) · คีย์มองว่า UC ส่วนใหญ่รักษาด้วยยาโดย gastroenterologist แต่จำไว้ว่า UC ต้องพบศัลยแพทย์เมื่อ: ดื้อยา, toxic megacolon, perforation, เลือดออกมาก, dysplasia/มะเร็ง",
+ "summary": [
+  "FAP: ต้องได้ colonoscopy ประจำและ prophylactic colectomy — ห้ามขาดการติดตาม",
+  "Red flags ที่ต้องส่ง colonoscopy: change in bowel habit, เลือดออก/ถ่ายดำ, IDA ในผู้สูงอายุ, น้ำหนักลด, ก้อนในท้อง",
+  "UC: first-line เป็นยา (5-ASA, steroid, immunomodulator, biologic) โดย gastroenterologist",
+  "UC indication ผ่าตัด: medically refractory, toxic megacolon, perforation, massive bleeding, dysplasia/CA → restorative proctocolectomy + IPAA",
+  "Surveillance หลังตัด adenoma: 3–10 ปีตามจำนวน/ขนาด/histology"
+ ]
+},
+"MDCU66|RoA|16": {
+ "why": "<b>Undescended testis (cryptorchidism)</b> ในทารกครบกำหนด อัณฑะยังลงเองได้ในช่วง <b>3–6 เดือนแรก</b> (ช่วง mini-puberty ที่ testosterone สูง) หลังจากนั้นโอกาสลงเองต่ำมาก → ทารกอายุ 1 เดือนที่คลำได้อัณฑะใน inguinal canal ให้ <b>observe และนัดตรวจซ้ำ</b> · AUA 2014/EAU: ถ้ายังไม่ลงที่อายุ 6 เดือน (corrected age) ให้ส่งศัลยแพทย์และทำ <b>orchiopexy ภายใน 18 เดือน</b> (ดีที่สุด 6–12 เดือน; คีย์ลายมือ timing 6–18 mo) เพื่อรักษา spermatogenesis และให้คลำตรวจมะเร็งได้ · <b>ไม่แนะนำ hormonal therapy</b> (hCG/GnRH) เพราะได้ผลต่ำและอาจทำลาย germ cell",
+ "wrong": {
+  "A": "Beta-hCG กระตุ้นให้อัณฑะลงได้น้อย (< 20%) มักกลับขึ้นซ้ำ และอาจกระทบ germ cell — AUA/EAU ไม่แนะนำ · จะถูกถ้าโจทย์ถาม hCG stimulation test เพื่อดูว่ามี testicular tissue ในเด็ก bilateral nonpalpable testes",
+  "B": "Orchiopexy ทำเมื่ออายุ ≥ 6 เดือนแล้วอัณฑะยังไม่ลง ที่ 1 เดือนยังเร็วเกินเพราะอาจลงเองได้ · จะถูกถ้าเด็กอายุ 6–18 เดือนแล้วอัณฑะยังอยู่ใน inguinal canal",
+  "C": "Orchiectomy ทำเมื่ออัณฑะฝ่อ/ไม่มีหน้าที่ หรือ UDT หลังวัยหนุ่มที่ดึงลงไม่ได้ (เสี่ยงมะเร็ง) · จะถูกถ้าพบ atrophic/nubbin testis ระหว่างผ่าตัด หรือ UDT ข้างเดียวในชายหลัง puberty",
+  "D": "Testosterone injection ไม่ใช่การรักษา UDT และทำให้เกิด virilization ก่อนวัย · จะถูกถ้าโจทย์ถามการเตรียมผ่าตัด hypospadias ที่ penis เล็ก (preoperative testosterone)"
+ },
+ "trap": "อย่ารีบผ่าตัดในทารก < 6 เดือน (ยังลงเองได้) แต่ก็อย่ารอเกิน 18 เดือน · ระวัง <b>retractile testis</b> (ดึงลงถุงได้และค้างอยู่) ไม่ต้องผ่าตัดแต่ติดตามทุกปี · bilateral nonpalpable + hypospadias → ต้อง R/O DSD/CAH",
+ "summary": [
+  "Palpable UDT (inguinal) → open inguinal orchiopexy · nonpalpable → diagnostic laparoscopy",
+  "ไม่ต้องทำ US/CT/MRI ก่อนส่งศัลยแพทย์ (AUA) — คลำตรวจโดยผู้เชี่ยวชาญดีกว่า",
+  "Orchiopexy ภายใน 18 เดือน ลดความเสี่ยง infertility; ความเสี่ยงมะเร็งยังสูงกว่าคนทั่วไปเล็กน้อยแต่คลำตรวจได้",
+  "ภาวะแทรกซ้อน UDT: infertility, testicular cancer (seminoma), torsion, inguinal hernia (patent processus vaginalis)",
+  "Bilateral nonpalpable testes ในทารกแรกเกิด → ตรวจ karyotype, 17-OHP, electrolytes (R/O CAH ใน 46,XX)"
+ ]
+},
+"MDCU66|RoA|17": {
+ "interp": "ทารกแรกเกิดมี clitoromegaly + labioscrotal fusion = <b>ambiguous genitalia (DSD)</b> — โจทย์ถามขั้นแรกของการดูแล ซึ่งคือหาสาเหตุ/ภาวะฉุกเฉิน ไม่ใช่ผ่าตัด",
+ "why": "Ambiguous genitalia ในทารกที่คลำไม่พบอัณฑะ สาเหตุที่พบบ่อยที่สุดคือ <b>46,XX DSD จาก congenital adrenal hyperplasia (21-hydroxylase deficiency)</b> ซึ่งราว 2 ใน 3 เป็น <b>salt-wasting</b> → hyponatremia, hyperkalemia, hypovolemic shock ช่วงอายุ 1–3 สัปดาห์ ถึงตายได้ (คีย์ลายมือ: R/O CAH) · จึงต้องทำ <b>karyotype (หรือ FISH SRY)</b>, <b>electrolytes</b> ติดตามต่อเนื่อง, 17-OHP, glucose และ pelvic US (หามดลูก) ก่อน · ยังไม่ควรกำหนดเพศและยังไม่ผ่าตัดจนกว่าทีม DSD (กุมารต่อมไร้ท่อ ศัลยแพทย์ จิตแพทย์ พันธุศาสตร์) และครอบครัวตัดสินใจร่วมกัน",
+ "wrong": {
+  "A": "ทา steroid ที่อวัยวะเพศไม่มีบทบาทใน DSD — CAH ต้องใช้ <b>hydrocortisone ชนิดกิน</b> (± fludrocortisone + เกลือ) หลังวินิจฉัย · จะถูกถ้าโจทย์เป็น labial adhesion ในเด็กหญิง (ใช้ estrogen cream) หรือ phimosis (topical steroid)",
+  "C": "ผ่าตัด clitoris ทันทีโดยยังไม่รู้ karyotype/สาเหตุ เสี่ยงกำหนดเพศผิดและพลาด salt-wasting crisis · จะถูกถ้าวินิจฉัย CAH แล้ว ทีม DSD และครอบครัวตกลงทำ feminizing genitoplasty (ปัจจุบันมักชะลอหรือให้เด็กมีส่วนร่วม)",
+  "D": "การกำหนดเวลาผ่าตัดเป็นเรื่องหลังวินิจฉัย ไม่ใช่ขั้นแรก · จะถูกถ้าโจทย์บอกว่าวินิจฉัย 46,XX CAH คุม electrolyte ได้แล้ว และถามช่วงเวลาผ่าตัดแก้ไข",
+  "E": "เช่นเดียวกัน ยังไม่ควรวางแผนผ่าตัดก่อนรู้สาเหตุ · จะถูกถ้าโจทย์อยู่ในขั้นวางแผนผ่าตัดหลังวินิจฉัยและกำหนดเพศเรียบร้อยแล้ว"
+ },
+ "trap": "ภาวะฉุกเฉินที่ซ่อนอยู่คือ <b>salt-wasting adrenal crisis</b> — electrolyte อาจปกติในวันแรก ๆ แล้วผิดปกติช่วงสัปดาห์ที่ 1–3 · อย่ากำหนดเพศหรือผ่าตัดก่อน workup",
+ "summary": [
+  "Ambiguous genitalia = medical/psychosocial emergency → ทีม DSD",
+  "Workup: karyotype/SRY, electrolytes ซ้ำ, glucose, 17-OHP, testosterone/DHT, AMH, pelvic US",
+  "46,XX DSD ที่พบบ่อยที่สุด = CAH (21-OH deficiency): 17-OHP สูง ± salt wasting",
+  "รักษา CAH: hydrocortisone + fludrocortisone + NaCl ในทารก · stress dose เมื่อเจ็บป่วย",
+  "คลำได้ gonad ใน labioscrotal fold → มักมี testis (46,XY DSD หรือ ovotesticular DSD)"
+ ]
+},
+"MDCU66|RoA|18": {
+ "why": "แนวทาง <b>antenatal hydronephrosis</b>: postnatal US (หลัง 48 ชม.) ยืนยัน hydronephrosis → <b>VCUG</b> หา vesicoureteral reflux และ posterior urethral valve → ถ้า <b>VCUG ปกติ</b> สาเหตุที่น่าจะเป็นที่สุดคือ <b>UPJ obstruction</b> → ส่ง <b>diuretic renal scan (MAG3 ร่วมกับ furosemide)</b> ซึ่งบอก <b>split renal function</b> และ drainage curve (T½ > 20 นาที = obstructive) ได้โดยไม่ต้องสวนและรังสีน้อย (คีย์ในไฟล์อ้างสไลด์ postnatal evaluation) · ข้อบ่งชี้ pyeloplasty: split function < 40% หรือลดลง > 10% ในการติดตาม, hydronephrosis มากขึ้น, มีอาการ (ปวด, ติดเชื้อ, นิ่ว)",
+ "wrong": {
+  "A": "IVP ต้องใช้ contrast และรังสี ในทารกไตยังทำงานไม่เต็มที่ ภาพไม่ชัด และไม่ได้ค่า split function/drainage แบบเป็นตัวเลข จึงเลิกใช้ · จะถูกถ้าโจทย์ย้อนยุค/ไม่มี nuclear medicine และต้องการดูกายวิภาค pelvicalyceal",
+  "C": "CT ได้รังสีสูงในเด็ก ให้กายวิภาคแต่ไม่ได้ค่า drainage function ไม่ใช่มาตรฐานของ hydronephrosis ในเด็ก · จะถูกถ้าโจทย์เป็น blunt abdominal trauma ในเด็กที่มี hydronephrosis เดิม หรือสงสัยนิ่ว/ก้อน",
+  "D": "MR urography ให้ทั้งกายวิภาคและ function ได้ดี แต่ต้องดมยาสลบในทารก ราคาสูง ใช้เป็นทางเลือกเมื่อกายวิภาคซับซ้อน · จะถูกถ้าเป็น duplex kidney/ectopic ureter ที่ renal scan แปลผลยาก",
+  "E": "Cystoscopy + retrograde pyelography รุกล้ำ ต้องดมยา ใช้ดูท่อไตส่วนล่างระหว่างผ่าตัด ไม่ใช่การตรวจวินิจฉัยขั้นแรก · จะถูกถ้าโจทย์ถามการตรวจระหว่างผ่าตัด pyeloplasty เพื่อ R/O distal ureteral obstruction ร่วม"
+ },
+ "trap": "อย่าทำ US ใน 48 ชม.แรกหลังคลอด (ทารกขาดน้ำ ผลต่ำกว่าจริง) · และ diuretic renogram ควรทำหลังอายุ 4–6 สัปดาห์ เมื่อไตทำงานเต็มที่ · hydronephrosis ทั้ง 2 ข้างในเด็กชาย → นึกถึง <b>PUV</b> ก่อน (VCUG สำคัญที่สุด)",
+ "summary": [
+  "Antenatal HN → postnatal US (หลัง 48 ชม. และซ้ำที่ 4–6 สัปดาห์) → VCUG (หา VUR/PUV) → MAG3 diuretic renogram",
+  "UPJ obstruction = สาเหตุของ congenital HN ที่พบบ่อยที่สุด (ชายมากกว่าหญิง, ซ้ายมากกว่าขวา)",
+  "MAG3: split function + drainage (T½ > 20 นาที = obstruction)",
+  "Pyeloplasty (Anderson-Hynes dismembered) เมื่อ function < 40%/ลดลง > 10%, HN แย่ลง, มีอาการ",
+  "Bilateral HN + thick bladder ในเด็กชาย → posterior urethral valve → VCUG + ใส่สายสวนทันที"
+ ]
+},
+"MDCU66|RoA|21": {
+ "wrong": {
+  "B": "CT KUB แบบไม่ฉีดสี (คีย์เดิมในไฟล์) ดีสำหรับหานิ่ว แต่ไม่เห็น urothelial tumor ในไต/ท่อไตชัด และไม่ได้ตรวจกระเพาะปัสสาวะ — ยังต้อง cystoscopy อยู่ดี · จะถูกถ้าโจทย์เป็นปวดบั้นเอวร้าวมาขาหนีบ + microscopic hematuria สงสัย ureteric stone",
+  "C": "ไม่มีอาการติดเชื้อ (ไม่แสบขัด ไม่ปัสสาวะบ่อย WBC ปกติ) การให้ยาปฏิชีวนะจะทำให้พลาดมะเร็ง · จะถูกถ้าเป็นหญิงอายุน้อยมี hemorrhagic cystitis (แสบขัด + pyuria) — แต่ถ้า hematuria ไม่หายหลังรักษายังต้อง workup",
+  "D": "Gross hematuria แม้หยุดแล้วก็เป็นสัญญาณมะเร็งทางเดินปัสสาวะในผู้สูงอายุสูบบุหรี่ (ความเสี่ยงมะเร็ง > 10%) การไม่ตรวจอันตรายมาก · ไม่มีสถานการณ์ใน gross hematuria ผู้ใหญ่ที่ไม่ต้องตรวจ ยกเว้นพิสูจน์สาเหตุชัดแล้ว (เช่นมีรอยฟกช้ำจากการบาดเจ็บที่ตรวจครบแล้ว)",
+  "E": "Urine cytology ไวต่ำโดยเฉพาะมะเร็ง low grade ใช้เสริมเท่านั้น ไม่แทน imaging + cystoscopy · จะถูกถ้าโจทย์ถามการตรวจเสริมเมื่อสงสัย carcinoma in situ (high-grade) หรือ upper tract tumor"
+ },
+ "summary": [
+  "Gross hematuria ในผู้ใหญ่ = ต้องตรวจทั้ง upper tract (CT urography) และ lower tract (cystoscopy) เสมอ",
+  "ปัจจัยเสี่ยง urothelial carcinoma: สูบบุหรี่ (สำคัญสุด), อายุ > 50, aromatic amine/สีย้อม, cyclophosphamide, aristolochic acid, pelvic radiation",
+  "Painless intermittent gross hematuria = classic ของ bladder cancer — การที่เลือดหยุดไม่ตัดมะเร็ง",
+  "CT urography ห้าม/ทำไม่ได้ (ไตเสื่อม/แพ้ contrast) → MR urography หรือ US + retrograde pyelography",
+  "Non-contrast CT KUB = การตรวจนิ่ว ไม่ใช่ workup มะเร็ง",
+  "⚠ คีย์ในไฟล์เดิมตอบ B แต่ลายมือเขียน R/O malignancy → CT urography + cystoscopy จึงตอบ A"
+ ]
+},
+"MDCU66|RoA|30": {
+ "why": "หญิงอายุน้อย ไม่ตั้งครรภ์ มี dysuria, frequency, urgency, ปวดหน่วงท้องน้อย ไม่มีไข้/ปวดหลัง + pyuria = <b>acute uncomplicated cystitis</b> (คีย์ลายมือ acute cystitis) → รักษาด้วย <b>ยาปฏิชีวนะแบบสั้น</b>: nitrofurantoin 5 วัน, TMP-SMX 3 วัน (ถ้าเชื้อดื้อในพื้นที่ < 20%), fosfomycin 3 g ครั้งเดียว (IDSA 2010/EAU) · fluoroquinolone สำรองไว้เพราะผลข้างเคียงและการดื้อยา · ไม่ต้องทำ imaging หรือ urine culture ในรายไม่ซับซ้อน · แนะนำดื่มน้ำมาก ไม่กลั้นปัสสาวะ ปัสสาวะหลังมีเพศสัมพันธ์",
+ "wrong": {
+  "A": "ดื่มน้ำมากช่วยได้และอาจหายเองในบางราย แต่ใช้อย่างเดียวหายช้าและเสี่ยงลามเป็น pyelonephritis — มาตรฐานยังเป็นยาปฏิชีวนะ · จะถูกถ้าโจทย์เป็นคำแนะนำป้องกัน recurrent UTI หรือ asymptomatic bacteriuria (ไม่ต้องรักษา)",
+  "C": "ไม่มีไข้ ยาลดไข้ไม่ได้รักษาการติดเชื้อ · จะถูกถ้าเป็นการรักษาตามอาการเสริมใน pyelonephritis ที่มีไข้สูง ร่วมกับยาปฏิชีวนะ",
+  "D": "Bladder training (ฝึกกลั้นยืดเวลา) ใช้ใน overactive bladder/urge incontinence การกลั้นปัสสาวะตอนติดเชื้อยิ่งให้เชื้อเพิ่มจำนวน · จะถูกถ้าโจทย์เป็น OAB ที่ UA ปกติ",
+  "E": "นอนพักไม่รักษาการติดเชื้อ · จะถูกถ้าเป็นคำแนะนำทั่วไปเสริมการรักษาในผู้ป่วยที่อ่อนเพลีย เช่น pyelonephritis"
+ },
+ "trap": "มีไข้/ปวดบั้นเอว/CVA tenderness = <b>pyelonephritis</b> ต้องให้ยานานกว่า (FQ 7 วัน หรือ ceftriaxone) และส่ง culture · ผู้ชาย ตั้งครรภ์ เด็ก มีสาย/ความผิดปกติทางเดินปัสสาวะ = complicated UTI ไม่ใช้ short course",
+ "summary": [
+  "Uncomplicated cystitis: nitrofurantoin 100 mg bid × 5 วัน / TMP-SMX DS bid × 3 วัน / fosfomycin 3 g ครั้งเดียว",
+  "ไม่ต้อง urine culture หรือ imaging ในหญิงไม่ตั้งครรภ์ที่เป็นครั้งแรก",
+  "เชื้อที่พบบ่อย: E. coli > Staph saprophyticus (หญิงวัยเจริญพันธุ์) > Klebsiella, Proteus",
+  "Recurrent UTI (≥ 2 ครั้ง/6 เดือน หรือ ≥ 3 ครั้ง/ปี): ป้องกันด้วยดื่มน้ำ, postcoital prophylaxis, vaginal estrogen ในหญิงวัยหมดประจำเดือน",
+  "Pyelonephritis: ไข้ + ปวดบั้นเอว → culture + ยานานขึ้น · ถ้าไม่ดีขึ้นใน 48–72 ชม. → imaging หา obstruction/abscess"
+ ]
+},
+"MDCU66|RoA|31": {
+ "wrong": {
+  "B": "Aqueductal stenosis อุดทางเดิน CSF ระหว่าง 3rd กับ 4th ventricle → <b>obstructive (non-communicating)</b> hydrocephalus เห็น lateral + 3rd ventricle โตแต่ 4th ปกติ · จะถูกถ้าโจทย์ถามสาเหตุ obstructive hydrocephalus ที่พบบ่อยในทารก (รักษาด้วย ETV ได้ดี)",
+  "C": "Periventricular/intraventricular tumor กดหรืออุดทางเดิน CSF ในระบบ ventricle → obstructive · จะถูกถ้าโจทย์ถาม hydrocephalus จาก posterior fossa tumor หรือ pineal tumor ที่กด aqueduct",
+  "D": "ลิ่มเลือดอุดที่ aqueduct เป็นการอุดในระบบ ventricle → obstructive (ระยะแรกหลัง IVH) · จะถูกถ้าโจทย์ถาม hydrocephalus ระยะแรกหลัง intraventricular hemorrhage ที่ลิ่มเลือดอุด aqueduct",
+  "E": "Colloid cyst อยู่ที่ foramen of Monro อุดทางออกของ lateral ventricles → obstructive อาจปวดหัวรุนแรงตามท่าและตายเฉียบพลันได้ · จะถูกถ้าโจทย์ถามก้อนที่ 3rd ventricle ทำให้ lateral ventricles โตทั้งสองข้าง"
+ },
+ "trap": "สาเหตุเดียวกันอาจเป็นได้ทั้งสองแบบตามระยะ เช่น <b>IVH/SAH/meningitis</b> ระยะแรกลิ่มเลือดหรือหนองอาจอุดในระบบ ventricle (obstructive) แต่ระยะหลังเกิดพังผืดที่ arachnoid granulation (communicating) — ต้องดูคำใบ้ในโจทย์ (คีย์ลายมือ: B, C obstructive)",
+ "summary": [
+  "Communicating: CSF ไหลผ่าน ventricles ได้ แต่ดูดซึมที่ arachnoid granulation ไม่ได้ → ventricles โตทั้ง 4 ตัว (รวม 4th)",
+  "สาเหตุ communicating: meningitis (TB/bacterial), SAH, post-IVH ระยะหลัง, NPH, choroid plexus papilloma (สร้างมากเกิน)",
+  "Obstructive: aqueductal stenosis, tumor (posterior fossa, pineal), colloid cyst, Dandy-Walker, Chiari II, ลิ่มเลือดอุด",
+  "LP ห้ามใน obstructive (เสี่ยง herniation) · ทำได้ใน communicating (เป็นการรักษาด้วยใน NPH tap test)",
+  "รักษา: obstructive → ETV หรือ VP shunt · communicating → VP shunt"
+ ]
+},
+"MDCU66|RoA|32": {
+ "interp": "โจทย์ถามข้อห้ามทำ <b>lumbar puncture</b> — ให้หาว่า hydrocephalus แบบไหนเป็น <b>obstructive</b> เพราะการลดความดันด้านล่างจะทำให้เกิด pressure gradient และสมองเคลื่อน (herniation)",
+ "why": "<b>Aqueductal stenosis</b> อุดทางเดิน CSF ระหว่าง 3rd และ 4th ventricle = <b>obstructive (non-communicating) hydrocephalus</b> → ความดันเหนือจุดอุดสูงแต่ช่องไขสันหลังไม่ได้เชื่อมกับความดันนั้น การเจาะ LP ลดความดันด้านล่าง ทำให้เกิด <b>transtentorial/tonsillar herniation</b> ได้ จึงเป็นข้อห้าม · ส่วนช้อยอื่นเป็น communicating hydrocephalus ซึ่ง CSF เชื่อมถึงกันทั้งระบบ เจาะได้ (และใช้วินิจฉัย/รักษาได้ เช่น NPH tap test, เอา CSF ตรวจ TB meningitis) · หลักทั่วไป: ก่อนเจาะ LP ในผู้ที่มีอาการ ICP สูง/ก้อน/อาการทางระบบประสาทเฉพาะที่ ต้องทำ CT ก่อน",
+ "wrong": {
+  "A": "NPH เป็น communicating hydrocephalus (ความดันปกติ) การเจาะ <b>large-volume tap test</b> (เอาออก 30–50 mL) ใช้ทำนายผลการทำ shunt ด้วยซ้ำ · จะเป็นข้อห้ามก็ต่อเมื่อพบก้อนหรือ obstructive pattern ใน CT",
+  "B": "Communicating hydrocephalus มี CSF เชื่อมกันตลอด เจาะ LP ได้ (บางครั้งใช้ serial LP ชั่วคราว) · จะเป็นข้อห้ามถ้ามีข้อห้ามอื่นร่วม เช่น เลือดออกง่าย/เกล็ดเลือดต่ำ หรือติดเชื้อที่ผิวหนังตำแหน่งเจาะ",
+  "D": "TB meningitis ทำให้เกิด communicating hydrocephalus จากหนองข้นอุดที่ basal cistern/arachnoid granulation และ LP จำเป็นเพื่อวินิจฉัย (CSF lymphocyte, protein สูง, glucose ต่ำ, ADA, GeneXpert) · จะเป็นข้อห้ามถ้า CT พบ tuberculoma ขนาดใหญ่ที่ทำให้ midline shift",
+  "E": "Hydrocephalus หลัง SAH ส่วนใหญ่เป็น communicating และอาจทำ lumbar drain ได้ · จะเป็นข้อห้ามถ้าเป็นระยะแรกที่มี intraventricular clot อุด หรือมี hematoma ในเนื้อสมองที่ทำให้ mass effect"
+ },
+ "trap": "ข้อห้าม LP ที่ต้องจำ: <b>obstructive hydrocephalus, mass lesion/midline shift, ICP สูงจากก้อน</b>, coagulopathy/เกล็ดเลือดต่ำ, ติดเชื้อที่ตำแหน่งเจาะ · ภาวะที่มีคำว่า hydrocephalus ไม่ได้ห้าม LP ทุกอัน",
+ "summary": [
+  "ทำ CT ก่อน LP เมื่อ: อายุ > 60, immunocompromised, เคยมีโรค CNS, ชัก, papilledema, ซึม, focal neuro deficit",
+  "Obstructive hydrocephalus → ห้าม LP → รักษาด้วย EVD/ETV/VP shunt",
+  "Communicating hydrocephalus → LP ได้ (NPH tap test: เดินดีขึ้นหลังเอา CSF ออก ทำนายผล shunt)",
+  "NPH triad: gait apraxia (magnetic gait), urinary incontinence, dementia — 'wet, wobbly, wacky'",
+  "Aqueductal stenosis: lateral + 3rd ventricle โต, 4th ปกติ · รักษา ETV ได้ผลดี"
+ ]
+},
+"MDCU66|RoA|33": {
+ "wrong": {
+  "A": "Macrocephaly (head circumference โตเร็วข้ามเส้น percentile) เป็นอาการหลักของ hydrocephalus ในทารกเพราะ sutures ยังไม่ปิด กะโหลกขยายตามได้ · จะเป็นคำตอบถ้าโจทย์เป็นเด็กโต/ผู้ใหญ่ที่ sutures ปิดแล้ว ซึ่งหัวไม่โต",
+  "B": "Dilated scalp veins พบบ่อยจากความดันในกะโหลกสูงทำให้เลือดดำไหลออกทางหลอดเลือดดำผิวหนังศีรษะ (คีย์เดิมในไฟล์ขีด B แต่ไม่ถูกต้อง) · จะเป็นคำตอบถ้าโจทย์ถามอาการที่ไม่จำเพาะต่อ hydrocephalus เช่นพบในทารกปกติที่ผิวบาง",
+  "C": "Sunset eyes (ตาเหลือบลง เห็นตาขาวเหนือ iris) เกิดจาก 3rd ventricle/suprapineal recess กด tectal plate (Parinaud syndrome) พบได้ใน hydrocephalus ทารก · จะเป็นคำตอบถ้าโจทย์ถามอาการที่พบน้อยในระยะแรก/hydrocephalus เล็กน้อย",
+  "E": "Poor feeding, อาเจียน, irritability, ซึม เป็นอาการ ICP สูงที่พบได้ในทารก · จะเป็นคำตอบถ้าโจทย์ถามอาการเฉพาะเจาะจง (specific sign) เพราะ poor feeding ไม่จำเพาะ"
+ },
+ "trap": "คีย์ในไฟล์ขีด B (scalp veins) แต่ทุกตำราว่า scalp veins โป่งพบได้บ่อย ส่วน <b>papilledema พบน้อยในทารก</b> เพราะกะโหลกยังขยายได้ ความดันจึงไม่สูงพอ — ระวังจำผิดตามคีย์เดิม · ในเด็กโต/ผู้ใหญ่กลับกัน: papilledema พบบ่อย หัวไม่โต",
+ "summary": [
+  "Infant hydrocephalus: หัวโตเร็ว, anterior fontanelle โป่งตึง, sutures แยก, scalp veins โป่ง, sunset eyes, Macewen sign (cracked pot)",
+  "อาการ ICP สูงไม่จำเพาะ: อาเจียน ซึม งอแง กินไม่ดี · late: bradycardia, hypertension, apnea (Cushing)",
+  "เด็กโต/ผู้ใหญ่: ปวดหัวตอนเช้า อาเจียน papilledema, CN VI palsy",
+  "ตรวจ: cranial US (fontanelle ยังเปิด) → CT/MRI",
+  "รักษา: VP shunt (ภาวะแทรกซ้อน: shunt obstruction, infection, over-drainage) หรือ ETV ใน obstructive"
+ ]
+}
+}
