@@ -16,8 +16,8 @@ function problems(q){
   const s=q.summary||[];if(s.length<3||s.map(T).join("").length<90)b.push('summary');
   return b;
 }
-const {QB}=load();const bad=[],cnt={};
-for(const q of QB){if(SET&&q.set!==SET)continue;if(!q.opts||!q.opts.length)continue;const b=problems(q);if(b.length){bad.push({k:q.set+'|'+(q.ro||'')+'|'+q.orig,page:q.page,b});b.forEach(x=>cnt[x]=(cnt[x]||0)+1);}}
+const {QB}=load();const bad=[],cnt={},oc={};
+for(const q of QB){const kp=q.set+'|'+(q.ro||'')+'|'+q.orig+'@'+q.page,n=oc[kp]=(oc[kp]||0)+1;if(SET&&q.set!==SET)continue;if(!q.opts||!q.opts.length)continue;const b=problems(q);if(b.length){bad.push({k:q.set+'|'+(q.ro||'')+'|'+q.orig,page:q.page,n,b});b.forEach(x=>cnt[x]=(cnt[x]||0)+1);}}
 if(JS)process.stdout.write(JSON.stringify(bad)+'\n');else{console.log(`${process.env.DIR||'data'}: ${QB.length} ข้อ · ขาด ${bad.length}`+(bad.length?' · แยกพาร์ท '+JSON.stringify(cnt):''));
-if(LIST)bad.forEach(x=>console.log('  '+x.k+' p'+x.page+': '+x.b.join(',')));}
+if(LIST)bad.forEach(x=>console.log('  '+x.k+' p'+x.page+(x.n>1?'#'+x.n:'')+': '+x.b.join(',')));}
 module.exports={problems};
