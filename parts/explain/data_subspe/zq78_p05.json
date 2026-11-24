@@ -1,0 +1,131 @@
+{
+ "MDCU78|RoB|24": {
+  "why": "VUR ในเด็กส่วนใหญ่เริ่มด้วยการรักษาแบบไม่ผ่าตัด เพราะ reflux มีโอกาสหายเองเมื่อโต (เกรดต่ำหายมากกว่าเกรดสูง) · <b>continuous antibiotic prophylaxis (CAP)</b> ขนาดต่ำวันละครั้ง (TMP-SMX หรือ nitrofurantoin) ลด febrile UTI ซ้ำได้ราวครึ่งหนึ่ง (RIVUR) ร่วมกับรักษา bladder–bowel dysfunction (ท้องผูก กลั้นปัสสาวะ) และติดตามด้วย VCUG/DMSA · ผ่าตัด (ureteric reimplantation หรือ endoscopic injection) เมื่อมี <b>breakthrough febrile UTI ขณะได้ prophylaxis</b>, renal scarring ใหม่หรือแย่ลง, ผู้ปกครองให้ยาไม่ได้ หรือ reflux เกรดสูงที่ไม่หายเมื่อโต — ตรงกับเหตุผลในไฟล์ Key 78B · เด็กรายนี้ยังไม่ได้บอกว่าเคยได้ prophylaxis จึงเริ่ม CAP ก่อน",
+  "wrong": {
+   "A": "Observation อย่างเดียว (ไม่ให้ยาป้องกัน รักษาเมื่อติดเชื้อ) ใช้ได้กับ VUR เกรดต่ำ (I–II) ที่ไม่มีอาการหรือติดเชื้อครั้งเดียวในเด็กโต — ไม่เหมาะกับ grade IV ที่ติดเชื้อซ้ำและเสี่ยงไตเป็นแผลเป็น; จะถูกถ้าโจทย์เป็นเด็ก 6 ปี VUR grade I พบโดยบังเอิญ ไม่เคยมีไข้จาก UTI",
+   "C": "Endoscopic injection (dextranomer/hyaluronic acid) เป็นทางเลือกเมื่อมีข้อบ่งชี้ผ่าตัด รุกล้ำน้อย แต่สำเร็จในเกรดสูงน้อยกว่า (grade IV ราว 60–70%) — จะถูกถ้าโจทย์ให้เด็กมี breakthrough febrile UTI ขณะได้ CAP และผู้ปกครองเลือกวิธีรุกล้ำน้อย",
+   "D": "Ureteric reimplantation สำเร็จสูงสุด (~95–98%) แต่ใช้เมื่อ CAP ล้มเหลว (breakthrough infection), scarring ใหม่ หรือ reflux เกรดสูงที่ไม่หาย และโจทย์ไม่ได้บอกว่าเป็นสองข้าง — จะถูกถ้าโจทย์ให้เด็ก grade IV สองข้างมีไข้จาก UTI ซ้ำ 2 ครั้งทั้งที่กิน prophylaxis อยู่",
+   "E": "Nephrectomy ใช้เมื่อไตข้างที่ reflux แทบไม่ทำงาน (split function < 10% บน DMSA) และเป็นแหล่งติดเชื้อซ้ำหรือทำให้ความดันสูง — จะถูกถ้าโจทย์ให้ DMSA ไตซ้ายทำงาน 5% เป็นแผลเป็นทั้งไต และติดเชื้อซ้ำ"
+  },
+  "trap": "เห็น grade IV แล้วเลือกผ่าตัดทันที — ข้อบ่งชี้ผ่าตัดหลักคือ breakthrough febrile UTI ขณะได้ prophylaxis หรือ scarring ใหม่ ไม่ใช่เกรดอย่างเดียว · โจทย์ไม่บอกว่าเคยได้ยาป้องกัน จึงเริ่ม CAP ก่อน",
+  "summary": [
+   "VUR grade I–V จาก VCUG: I เข้าท่อไต · II ถึงไตไม่ขยาย · III ขยายเล็กน้อย · IV ท่อไตและไตขยายปานกลาง calyx ทู่ · V ขยายมาก ท่อไตคดเคี้ยว",
+   "VCUG = มาตรฐานวินิจฉัยและแบ่งเกรด · DMSA scan ประเมิน renal scarring · ultrasound คัดกรอง hydronephrosis",
+   "CAP: TMP-SMX หรือ nitrofurantoin ขนาดต่ำก่อนนอน (ทารก < 2 เดือนใช้ cephalexin/amoxicillin) ร่วมกับรักษา bladder–bowel dysfunction",
+   "ข้อบ่งชี้ผ่าตัด: breakthrough febrile UTI ขณะได้ CAP, scarring ใหม่/แย่ลง, ให้ยาไม่ได้, เกรดสูงที่ไม่หายเมื่อโต",
+   "Open reimplantation (Cohen, Lich-Gregoir) สำเร็จ ~95–98% · endoscopic injection ~70–80% (ต่ำลงในเกรดสูง)",
+   "เกรดต่ำหายเองบ่อย เกรด IV–V หายเองน้อย · ภาวะแทรกซ้อนระยะยาว: reflux nephropathy, hypertension, CKD"
+  ],
+  "variants": [
+   "เด็ก grade III VUR มีไข้จาก UTI 2 ครั้งทั้งที่กิน prophylaxis อยู่ → ผ่าตัด (ureteric reimplantation หรือ endoscopic injection)",
+   "การตรวจใดดีที่สุดในการหา renal scarring ในเด็กที่มี VUR → DMSA scan",
+   "ทารก 1 เดือน VUR grade IV จาก antenatal hydronephrosis ยาป้องกันที่เหมาะ → amoxicillin หรือ cephalexin (เลี่ยง TMP-SMX ใน < 2 เดือน)",
+   "เด็ก 7 ปี VUR grade II ติดเชื้อบ่อย กลั้นปัสสาวะ ท้องผูกเรื้อรัง → รักษา bladder–bowel dysfunction ร่วมกับ CAP"
+  ]
+ },
+ "MDCU78|RoB|25": {
+  "interp": "เด็ก 4 ปี ปวดท้องเป็นซ้ำ ตัวเหลือง กดเจ็บและคลำได้ก้อนที่ RUQ bilirubin สูง = classic triad (ปวดท้อง + เหลือง + ก้อน) ของ choledochal cyst — ถามการวินิจฉัย",
+  "wrong": {
+   "A": "Neonatal (idiopathic) hepatitis เป็นสาเหตุ cholestasis ในทารกช่วงเดือนแรก ไม่ใช่เด็ก 4 ปีที่มีก้อนคลำได้ — จะถูกถ้าโจทย์เป็นทารก 6 สัปดาห์เหลือง direct hyperbilirubinemia อุจจาระสีปกติหรือซีดเป็นพัก ๆ และ biopsy พบ giant cell hepatitis",
+   "C": "Alpha-1 antitrypsin deficiency ทำให้ neonatal cholestasis และตับแข็งในเด็ก (ร่วมกับ emphysema ในผู้ใหญ่) ไม่ทำให้ก้อน RUQ หรือปวดท้องเป็นพัก ๆ — จะถูกถ้าโจทย์เป็นทารกเหลือง ตับโต และระดับ alpha-1 antitrypsin ในเลือดต่ำ (PiZZ)",
+   "D": "Acute viral hepatitis (เช่น HAV) มาด้วยไข้ อ่อนเพลีย เหลือง ตับโตกดเจ็บ transaminase สูงมาก หายได้และไม่เป็นซ้ำ ๆ ไม่มีก้อนแยกจากตับ — จะถูกถ้าโจทย์ให้เด็กมีไข้ คลื่นไส้ เหลือง ALT > 1,000 U/L และมีคนในบ้านป่วยเหมือนกัน",
+   "E": "Cholelithiasis ในเด็กพบน้อย มักสัมพันธ์กับ hemolytic disease (thalassemia, hereditary spherocytosis), TPN หรือ ceftriaxone ทำให้ปวด RUQ ได้แต่ไม่ทำให้คลำได้ก้อน — จะถูกถ้าโจทย์เป็นเด็ก thalassemia ปวดท้องขวาบนหลังกินอาหารมัน และ US พบนิ่วในถุงน้ำดี"
+  },
+  "trap": "เด็กโตที่มีปวดท้อง + เหลือง + ก้อน RUQ = choledochal cyst (triad ครบพบแค่ราว 20% แต่เป็นภาพคลาสสิกของข้อสอบ) · ทารกเหลือง + อุจจาระซีดโดยไม่มีก้อน = biliary atresia · และการรักษาต้องตัดถุงออก ไม่ใช่ต่อถุงเข้าลำไส้",
+  "summary": [
+   "Choledochal cyst: ท่อน้ำดีขยายแต่กำเนิด สัมพันธ์กับ pancreaticobiliary maljunction (long common channel → น้ำย่อยตับอ่อนไหลย้อนเข้าท่อน้ำดี) · พบในเอเชียมาก หญิง > ชาย",
+   "Todani: I fusiform/cystic CBD (บ่อยสุด) · II diverticulum · III choledochocele · IVa ทั้งในและนอกตับ · V Caroli disease (ในตับอย่างเดียว)",
+   "การตรวจ: ultrasound → MRCP (เห็นกายวิภาคท่อและ common channel)",
+   "ภาวะแทรกซ้อน: cholangitis, pancreatitis, นิ่ว, ถุงแตก, cholangiocarcinoma (เสี่ยงเพิ่มตามอายุ)",
+   "รักษา type I/IV: ตัดถุงออกทั้งหมด + Roux-en-Y hepaticojejunostomy · type III: endoscopic sphincterotomy · type V: hepatectomy หรือ liver transplant",
+   "ห้ามทำ internal drainage (cystenterostomy) เพราะยังเสี่ยงมะเร็งในผนังถุงและ cholangitis"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — triad ปวดท้อง เหลือง และก้อน RUQ ในเด็กเป็นภาพคลาสสิกของ choledochal cyst และไม่มีช้อยอื่นที่ทำให้คลำได้ก้อน; ต้นฉบับพิมพ์ครบ 5 ช้อย",
+  "variants": [
+   "ทำไมรักษา choledochal cyst ด้วยการตัดถุงออกแทน cystoduodenostomy → ผนังถุงที่เหลือเสี่ยง cholangiocarcinoma และ cholangitis ซ้ำ",
+   "Todani type ใดคือ Caroli disease → type V (ท่อน้ำดีในตับขยายเป็นถุงหลายตำแหน่ง)",
+   "เด็กหญิง 5 ปี ปวดท้องเป็นพัก ๆ amylase สูง MRCP พบ CBD ขยายเป็นถุงและ common channel ยาว → choledochal cyst ทำ cyst excision + Roux-en-Y hepaticojejunostomy",
+   "ทารก 6 สัปดาห์ เหลือง อุจจาระสีซีด ไม่มีก้อน US ไม่พบท่อน้ำดีขยาย → biliary atresia"
+  ]
+ },
+ "MDCU78|RoB|26": {
+  "interp": "ทารกแรกเกิดมี defect ผนังหน้าท้องแนวกลางที่ฐานสายสะดือ อวัยวะรวมถึงตับออกมาในถุงที่มีเยื่อคลุม = omphalocele (ต่างจาก gastroschisis ที่ไม่มีถุงและอยู่ขวาของสายสะดือ) — ถามกลุ่มอาการที่สัมพันธ์มากที่สุด<b>ในช้อยที่ให้</b>",
+  "summary": [
+   "Omphalocele: แนวกลางผ่าน umbilical ring มีถุง (amnion + peritoneum) ตับออกได้ · ความผิดปกติร่วมสูง 50–70% (หัวใจ 30–50%, โครโมโซมราว 30%)",
+   "โครโมโซมที่สัมพันธ์: trisomy 18 และ 13 มากที่สุด รองลงมา trisomy 21 · syndrome: Beckwith–Wiedemann (macroglossia, hypoglycemia, organomegaly, hemihypertrophy), pentalogy of Cantrell, OEIS",
+   "Gastroschisis: ขวาของสายสะดือ ไม่มีถุง ลำไส้บวมแข็งจากสัมผัสน้ำคร่ำ ความผิดปกติร่วมน้อย (ยกเว้น intestinal atresia) แม่อายุน้อย",
+   "Omphalocele ต้องตรวจ karyotype, echocardiogram และ glucose (BWS)",
+   "ดูแลแรกคลอด: คลุมด้วยวัสดุชื้นปลอดเชื้อหรือถุงพลาสติก, NG decompression, IV fluid, รักษาอุณหภูมิ, ให้นอนตะแคงไม่ให้ลำไส้พับ",
+   "Omphalocele เล็ก → ปิดผนังหน้าท้องทันที · giant → paint and wait (ทายาฆ่าเชื้อให้ถุงกลายเป็นผิวหนัง) แล้วซ่อมภายหลัง · gastroschisis → primary closure หรือ silo แล้วค่อยปิด"
+  ],
+  "variants": [
+   "ทารก omphalocele มีลิ้นใหญ่ น้ำตาลในเลือดต่ำ ตัวโตกว่าปกติ → Beckwith–Wiedemann syndrome",
+   "Gastroschisis ต่างจาก omphalocele อย่างไรในตำแหน่งและสิ่งที่คลุม → gastroschisis อยู่ขวาของสายสะดือและไม่มีถุงคลุม",
+   "ทารก gastroschisis หลังคลอด การดูแลแรก → คลุมลำไส้ด้วยถุงพลาสติกปลอดเชื้อ, NG tube, IV fluid, รักษาอุณหภูมิ",
+   "ทารก giant omphalocele ร่วมกับ pulmonary hypoplasia ปิดผนังหน้าท้องทันทีไม่ได้ → paint and wait แล้วซ่อมภายหลัง"
+  ]
+ },
+ "MDCU78|RoB|27": {
+  "interp": "ถามความรู้ตรง: inguinal hernia ในเด็กเกือบทั้งหมดเป็นชนิด indirect — สาเหตุหลักคืออะไร (ต่างจากผู้ใหญ่ที่มี direct hernia จากผนังด้านหลังอ่อนแอ)",
+  "trap": "ใช้กลไกของผู้ใหญ่กับเด็ก — เด็กเป็น indirect hernia จาก patent processus vaginalis (ผ่าตัดแค่ high ligation ของถุง ไม่ต้องซ่อมผนัง) ส่วนผู้ใหญ่ direct hernia มาจาก transversalis fascia อ่อนแอ · ความดันในท้องสูงเป็นแค่ปัจจัยเสริม",
+  "summary": [
+   "Processus vaginalis: ถุง peritoneum ที่ลงมากับอัณฑะ ปกติปิดหลังคลอด · เปิดกว้าง = indirect inguinal hernia · เปิดแคบ = communicating hydrocele",
+   "Pediatric inguinal hernia: indirect เกือบทั้งหมด, ขวา > ซ้าย, ชาย:หญิง ราว 6:1, พบมากในทารกคลอดก่อนกำหนด",
+   "Incarceration สูงสุดในขวบปีแรก → manual reduction (ให้ยาระงับปวด/ยานอน) แล้วผ่าตัดภายใน 24–48 ชม.เมื่อบวมยุบ · ดันไม่เข้าหรือมี strangulation → ผ่าตัดด่วน",
+   "ผ่าตัด: herniotomy (high ligation ของถุง) ไม่ต้องทำ herniorrhaphy · ทำแบบ elective เร็วหลังวินิจฉัย ไม่รอให้หายเอง",
+   "เด็กหญิงที่มี inguinal hernia สองข้าง หรือคลำได้ก้อนคล้าย gonad ในถุง → ระวัง complete androgen insensitivity syndrome (46,XY)",
+   "Communicating hydrocele ในทารกมักปิดเองใน 1–2 ปี ผ่าตัดถ้ายังไม่หาย หรือขนาดเปลี่ยนแปลงตลอด"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง — patent processus vaginalis เป็นสาเหตุของ indirect inguinal hernia ในเด็กตามตำรามาตรฐาน; ต้นฉบับพิมพ์ครบ 5 ช้อย ช้อยอื่นเป็นกลไกของผู้ใหญ่หรือปัจจัยเสริม",
+  "variants": [
+   "ทารก 2 เดือน incarcerated inguinal hernia ดันกลับได้สำเร็จ ควรผ่าตัดเมื่อไร → ภายใน 24–48 ชม.เมื่อบวมยุบ",
+   "เด็กที่ดูเป็นหญิงมี inguinal hernia สองข้าง พบ gonad ในถุง → complete androgen insensitivity syndrome ส่ง karyotype",
+   "ทารก 6 เดือน ถุงอัณฑะบวมใส ขนาดเปลี่ยนตามเวลา เช้าเล็กเย็นใหญ่ → communicating hydrocele ติดตาม ผ่าตัดถ้าไม่หายใน 1–2 ปี",
+   "ชาย 70 ปี ไอเรื้อรัง ก้อนที่ขาหนีบโป่งตรงๆ ผ่าน Hesselbach triangle → direct inguinal hernia จาก transversalis fascia อ่อนแอ"
+  ]
+ },
+ "MDCU78|RoB|28": {
+  "interp": "ชาย 30 ปี อัณฑะโตไม่เจ็บมาหลายสัปดาห์ คลำได้ก้อนแข็งไม่กดเจ็บ — ข้อ <b>NOT</b>: ถามภาวะที่<b>ไม่น่าเป็น</b> differential diagnosis ของก้อนถุงอัณฑะที่ไม่เจ็บ",
+  "wrong": {
+   "A": "Testicular tumor เป็น differential อันดับแรกของก้อนแข็งไม่เจ็บในชายอายุ 15–35 ปี ต้องตัดออกก่อนเสมอ — จะถูก (เป็นคำตอบของข้อ NOT) ถ้าโจทย์เป็นเด็กชายปวดอัณฑะรุนแรงทันทีร่วมกับอาเจียน ซึ่งต้องคิดถึง torsion ก่อน",
+   "B": "Hydrocele ทำให้ถุงอัณฑะโตไม่เจ็บ ส่องไฟผ่านได้ (transilluminate) แต่น้ำอาจบังก้อนมะเร็งด้านใน จึงต้องทำ ultrasound — จะถูก (เป็นคำตอบของข้อ NOT) ถ้าโจทย์ระบุว่าก้อนคลำแยกจากอัณฑะไม่ได้ เนื้อแข็ง และส่องไฟไม่ผ่าน ซึ่งไม่เข้ากับถุงน้ำ",
+   "C": "Spermatocele/epididymal cyst เป็นก้อนน้ำไม่เจ็บอยู่เหนือหรือหลังอัณฑะ แยกจากอัณฑะได้ ส่องไฟผ่าน — จะถูก (เป็นคำตอบของข้อ NOT) ถ้าโจทย์ระบุว่าก้อนอยู่ในเนื้ออัณฑะเอง ไม่ได้อยู่ที่ epididymis",
+   "D": "Varicocele เป็นหลอดเลือดดำขอดคลำได้เหมือนถุงหนอน (bag of worms) ไม่เจ็บหรือหน่วง ๆ ส่วนใหญ่ข้างซ้าย โตขึ้นเวลายืนหรือเบ่ง — จะถูก (เป็นคำตอบของข้อ NOT) ถ้าโจทย์ระบุว่าก้อนแข็งเป็นเนื้อเดียวและขนาดไม่เปลี่ยนตามท่า"
+  },
+  "trap": "ข้อ NOT — มองหาภาวะที่<b>เจ็บ</b>: epididymo-orchitis มาด้วยปวด บวมแดง ไข้ และอาการทางเดินปัสสาวะ จึงไม่เข้ากับก้อนไม่เจ็บ · อีกจุดคืออย่าคิดว่าก้อนไม่เจ็บเป็นเรื่องไม่อันตราย — ก้อนแข็งไม่เจ็บในชายอายุน้อยคือมะเร็งอัณฑะจนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
+  "summary": [
+   "Painless scrotal mass: testicular tumor (ต้องแยกก่อน), hydrocele, spermatocele/epididymal cyst, varicocele, inguinal hernia",
+   "Painful scrotum: testicular torsion (emergency), epididymo-orchitis, torsion of appendix testis (blue dot sign), trauma",
+   "Testicular cancer: ชาย 15–35 ปี ก้อนแข็งไม่เจ็บ · 95% germ cell tumor (seminoma, NSGCT) · ปัจจัยเสี่ยง cryptorchidism",
+   "Work-up: scrotal ultrasound → tumor markers (AFP, β-hCG, LDH) → radical inguinal orchiectomy → CT staging · ห้าม biopsy หรือผ่าตัดผ่านถุงอัณฑะ",
+   "Tumor markers: seminoma AFP ปกติเสมอ (β-hCG สูงเล็กน้อยได้) · AFP สูง = NSGCT (yolk sac) · β-hCG สูงมาก = choriocarcinoma",
+   "Hydrocele ในผู้ใหญ่ที่เกิดขึ้นใหม่ → ultrasound หามะเร็งหรือการอักเสบที่ซ่อนอยู่"
+  ],
+  "variants": [
+   "ชายหนุ่มก้อนแข็งไม่เจ็บที่อัณฑะ AFP สูง หลัง ultrasound ทำอะไรต่อ → radical inguinal orchiectomy",
+   "ทำไมห้าม biopsy ผ่านถุงอัณฑะเมื่อสงสัยมะเร็งอัณฑะ → เปลี่ยนทางระบายน้ำเหลืองไปที่ขาหนีบ เสี่ยงแพร่กระจายและกลับเป็นซ้ำเฉพาะที่",
+   "ชาย 25 ปี ปวดอัณฑะซ้ายค่อย ๆ เป็น 2 วัน มีไข้ ปัสสาวะแสบ ยกอัณฑะแล้วปวดลดลง → epididymo-orchitis",
+   "ชาย 20 ปี ก้อนหลอดเลือดขอดข้างซ้ายเหมือนถุงหนอน ยุบเมื่อนอน → varicocele"
+  ]
+ },
+ "MDCU78|RoB|29": {
+  "interp": "ทารก 4 สัปดาห์ อาเจียนพุ่งไม่มีน้ำดีหลังกินนม เป็นมากขึ้นเรื่อย ๆ คลำได้ก้อนรูปมะกอกที่ลิ้นปี่ = infantile hypertrophic pyloric stenosis — ถามความผิดปกติของ electrolyte และ acid–base ที่พบ",
+  "why": "ทารกอาเจียนเอาน้ำย่อยกระเพาะ (HCl) ออกไปเรื่อย ๆ โดยไม่เสียน้ำย่อยลำไส้ที่เป็นด่าง → เสีย H⁺ และ Cl⁻ → <b>hypochloremic metabolic alkalosis</b> · ร่วมกับขาดน้ำ → aldosterone เพิ่ม → ไตดูด Na⁺ กลับแลกกับขับ K⁺ และ H⁺ → <b>hypokalemia</b> และ <b>paradoxical aciduria</b> (ปัสสาวะเป็นกรดทั้งที่เลือดเป็นด่าง) · การหายใจชดเชยด้วย hypoventilation · ต้องแก้สารน้ำและ electrolyte ก่อนผ่าตัดเสมอ (pyloric stenosis ไม่ใช่ surgical emergency): ให้สารน้ำที่มี NaCl และเติม KCl เมื่อปัสสาวะออก จน Cl⁻ ≥ 100 และ HCO₃⁻ < 30 mmol/L เพื่อลด postoperative apnea จาก alkalosis แล้วทำ pyloromyotomy (Ramstedt)",
+  "trap": "สับสนชนิดของ acid–base — อาเจียนเสียกรดจากกระเพาะ = metabolic alkalosis ที่ Cl⁻ และ K⁺ ต่ำ (ช้อย C) · ท้องเสียเสีย HCO₃⁻ = hyperchloremic metabolic acidosis · และอย่ารีบผ่าตัดก่อนแก้ alkalosis",
+  "summary": [
+   "IHPS: อายุ 2–8 สัปดาห์ (สูงสุด 3–6 สัปดาห์) ชาย > หญิง ลูกคนแรก ได้ erythromycin/azithromycin ช่วงแรกเกิด",
+   "อาการ: อาเจียนพุ่งไม่มีน้ำดีหลังกิน หิวหลังอาเจียน (hungry vomiter) น้ำหนักลด เห็น gastric peristalsis คลำได้ olive mass",
+   "Ultrasound (การตรวจหลัก): pyloric muscle thickness ≥ 3–4 mm, pyloric length ≥ 15–18 mm · UGI study เห็น string sign",
+   "Lab: hypochloremic hypokalemic metabolic alkalosis + paradoxical aciduria",
+   "Resuscitate ก่อน: สารน้ำที่มี NaCl + dextrose แล้วเติม KCl เมื่อปัสสาวะออก จน Cl⁻ ≥ 100 และ HCO₃⁻ < 30 → pyloromyotomy (open หรือ laparoscopic)",
+   "อาเจียนมีน้ำดีในทารกเป็นอีกโรคหนึ่ง (malrotation with volvulus) ซึ่งเป็น surgical emergency"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — อาเจียนพุ่งไม่มีน้ำดีกับ olive mass คือ IHPS และ electrolyte แบบ hypochloremic hypokalemic metabolic alkalosis เป็นภาพคลาสสิก; ต้นฉบับพิมพ์ครบ 5 ช้อย",
+  "variants": [
+   "ทารก IHPS Cl⁻ 85 และ HCO₃⁻ 34 mmol/L ก่อนผ่าตัดต้องทำอะไร → ให้สารน้ำที่มี NaCl (+ KCl เมื่อปัสสาวะออก) แก้จน Cl⁻ ≥ 100 และ HCO₃⁻ < 30",
+   "Ultrasound วัดค่าใดยืนยัน pyloric stenosis → pyloric muscle thickness ≥ 3–4 mm และ length ≥ 15–18 mm",
+   "ทารก 3 สัปดาห์ อาเจียนน้ำดีสีเขียวทันที ท้องไม่อืด → malrotation with midgut volvulus ทำ UGI study ด่วน",
+   "ทำไมทารก IHPS ปัสสาวะเป็นกรดทั้งที่เลือดเป็นด่าง → ขาดน้ำกระตุ้น aldosterone ไตดูด Na⁺ แลกกับขับ H⁺ และ K⁺ (paradoxical aciduria)"
+  ]
+ }
+}
