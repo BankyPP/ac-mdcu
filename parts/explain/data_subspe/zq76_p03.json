@@ -17,7 +17,7 @@
    "Kasai portoenterostomy (ตัด fibrous remnant ที่ porta hepatis + Roux-en-Y jejunum) ก่อน 60 วันน้ำดีไหลดีกว่า ราวครึ่งหนึ่งตัวเหลืองหาย · ภาวะแทรกซ้อน: cholangitis (บ่อยสุดในปีแรก), portal hypertension",
    "Kasai ล้มเหลว → liver transplantation (BA เป็นข้อบ่งชี้ transplant ที่พบบ่อยสุดในเด็ก)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A ลายมือ triangular cord sign positive → IOC) มั่นใจสูง · ต้นฉบับมีช้อย 2 ตัว (B = ต่อตับกับ jejunum) เราเติม C–E และไม่มีภาพ US ในไฟล์",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A ลายมือ triangular cord sign positive → IOC) มั่นใจสูง",
   "variants": [
    "ทารกหลัง Kasai 1 เดือน มีไข้ อุจจาระกลับมาซีด bilirubin ขึ้น → ascending cholangitis → IV antibiotics",
    "ทารก 5 เดือนเพิ่งมาด้วยตัวเหลือง ตับแข็ง ม้ามโต ascites → BA มาช้า → ประเมิน liver transplantation",
@@ -50,26 +50,24 @@
  },
  "MDCU76|RoA|23": {
   "interp": "ผู้ป่วย triple-vessel disease จะทำ CABG → ถามการต่อ graft ที่ patency ระยะยาวดีที่สุดและเพิ่มการรอดชีวิต = การจับคู่ conduit ที่ดีที่สุดกับเส้นเลือดที่สำคัญที่สุด",
-  "why": "LIMA (left internal mammary artery) มี endothelium ที่สร้าง nitric oxide/prostacyclin ได้ดีและต้าน atherosclerosis จึง patency ระยะยาวสูงที่สุดในบรรดา conduit · LAD เลี้ยงกล้ามเนื้อหัวใจส่วนใหญ่ของ left ventricle จึงควรได้ conduit ที่ดีที่สุด · การศึกษาคลาสสิก (Loop 1986) พบว่า LIMA–LAD เพิ่ม survival เทียบกับ SVG–LAD → เป็นมาตรฐานของ CABG ทุกราย (class I) ส่วนเส้นอื่นใช้ SVG, radial artery หรือ RIMA ตามเหมาะสม",
+  "why": "LIMA (left internal mammary artery) มี endothelium ที่สร้าง nitric oxide/prostacyclin ได้ดีและต้าน atherosclerosis จึง patency ระยะยาวสูงที่สุดในบรรดา conduit · LAD เลี้ยงกล้ามเนื้อหัวใจส่วนใหญ่ของ left ventricle จึงควรได้ conduit ที่ดีที่สุด · การศึกษาคลาสสิก (Loop 1986) พบว่า LIMA–LAD เพิ่ม survival เทียบกับ SVG–LAD → เป็นมาตรฐานในทุกรายที่ต้อง bypass LAD (class I) ส่วนเส้นอื่นใช้ SVG, radial artery หรือ RIMA ตามเหมาะสม",
   "wrong": {
-   "B": "LIMA ต่อ circumflex (OM) ทำได้ (เช่น ใช้ RIMA–LAD + LIMA–OM ใน bilateral IMA) แต่เสียประโยชน์สูงสุดที่ควรให้กับ LAD ซึ่งเลี้ยงกล้ามเนื้อหัวใจมากที่สุด · จะถูกถ้า LAD ไม่มีรอยตีบที่ต้อง bypass หรือใช้ bilateral IMA",
+   "B": "LIMA ต่อ circumflex (OM) ทำได้ แต่เสียประโยชน์สูงสุดที่ควรให้กับ LAD ซึ่งเลี้ยงกล้ามเนื้อหัวใจมากที่สุด; จะถูกถ้า LAD ไม่มีรอยตีบที่ต้อง bypass หรือในการใช้ bilateral IMA ที่ให้ RIMA ไป LAD และ LIMA ไป OM",
    "C": "SVG ต่อ LAD ใช้ได้แต่ patency ระยะยาวต่ำกว่า LIMA มาก (vein graft disease) และไม่ได้เพิ่ม survival เท่า; จะถูกถ้า LIMA ใช้ไม่ได้ เช่น subclavian artery ซ้ายตีบ หรือผ่าตัดฉุกเฉินในผู้ป่วยไม่คงที่",
    "D": "Radial artery เป็น arterial conduit ที่สองที่ดี (patency ดีกว่า SVG เมื่อเส้นเป้าหมายตีบรุนแรง) แต่ไม่ใช่ graft ที่พิสูจน์ survival benefit สูงสุด; จะถูกถ้าผู้ป่วยอายุน้อย RCA ตีบ > 90% ต้องการ arterial conduit ที่สองหลังใช้ LIMA–LAD แล้ว",
    "E": "SVG ต่อ RCA ใช้ทั่วไปแต่ patency ต่ำกว่า arterial graft; จะถูกถ้าผู้ป่วยสูงอายุ 80 ปี ต้องการผ่าตัดสั้น ต่อ RCA หลังใช้ LIMA–LAD แล้ว (SVG ยังเป็น conduit ที่ใช้บ่อยที่สุดสำหรับเส้นอื่น)"
   },
-  "trap": "ไม่จำว่า target สำคัญที่สุดคือ LAD หรือคิดว่า radial artery ดีพอกันเพราะเป็น arterial conduit — survival benefit ที่พิสูจน์ชัดคือ LIMA–LAD",
+  "trap": "ไม่จำว่า target สำคัญที่สุดคือ LAD — conduit ที่ดีที่สุด (LIMA) ต้องไปเส้นที่สำคัญที่สุด",
   "summary": [
    "CABG indications: left main disease, triple vessel (โดยเฉพาะ LVEF ต่ำ/เบาหวาน), 2-vessel with proximal LAD",
    "Patency ที่ 10 ปี: LIMA–LAD > 90% · radial artery ราว 80–90% (เมื่อเป้าหมายตีบรุนแรง) · SVG ราว 50–60%",
    "Conduit อื่น: RIMA, radial artery (ทำ Allen test ก่อน), great saphenous vein",
-   "SYNTAX score ช่วยเลือก CABG vs PCI",
-   "เบาหวาน + multivessel → CABG ดีกว่า PCI (FREEDOM trial)",
    "LIMA ใช้แบบ in situ (คงต้นทางจาก subclavian) → ต้องแน่ใจว่า subclavian ซ้ายไม่ตีบ · bilateral IMA เพิ่มโอกาส sternal wound infection ในเบาหวาน/อ้วน (เลาะแบบ skeletonized ช่วยลด)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A) มั่นใจสูง — LIMA–LAD เป็นคำแนะนำ class I ทั้ง ESC/EACTS และ ACC/AHA · ต้นฉบับมีช้อย 2 ตัว เราเติม C–E",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A) มั่นใจสูง — LIMA–LAD เป็นคำแนะนำ class I ทั้ง ESC/EACTS และ ACC/AHA",
   "variants": [
    "หลัง CABG (LIMA–LAD) ผู้ป่วยเจ็บหน้าอกเวลาใช้แขนซ้าย ความดันแขนซ้ายต่ำกว่าขวา 30 mmHg → coronary-subclavian steal → ขยาย subclavian artery ซ้าย (stent)",
-   "ผู้ป่วย left main ตีบ 70% ร่วม multivessel SYNTAX score 35 → CABG ดีกว่า PCI",
+   "ผู้ป่วย 55 ปี ทำ LIMA–LAD แล้ว OM ตีบ 85% ต้องการ conduit ที่สอง → radial artery (ทำ Allen test ก่อน)",
    "ผู้ป่วยเคยฉายรังสีที่ทรวงอกซ้ายรักษามะเร็งเต้านม → LIMA อาจเสียหาย → ประเมินก่อนใช้ หรือใช้ RIMA/SVG ต่อ LAD"
   ]
  },
@@ -91,7 +89,7 @@
    "Workup: echo, karyotype, glucose (BWS)",
    "Tx: primary closure หรือ staged (silo/paint-and-wait สำหรับ giant omphalocele)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A ลายมือ trisomy 13, 18, 21 · Beckwith-Wiedemann · pentalogy of Cantrell · exstrophy of cloaca) มั่นใจสูง · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A ลายมือ trisomy 13, 18, 21 · Beckwith-Wiedemann · pentalogy of Cantrell · exstrophy of cloaca) มั่นใจสูง",
   "variants": [
    "ทารกมี omphalocele ร่วม macroglossia น้ำตาลต่ำซ้ำ ๆ → Beckwith–Wiedemann → ให้ glucose ป้องกันสมองเสียหาย + คัดกรอง Wilms/hepatoblastoma",
    "ทารกมี omphalocele ที่ epigastrium ร่วม sternum แยก หัวใจอยู่นอกทรวงอก → pentalogy of Cantrell",
@@ -116,7 +114,7 @@
    "DSD แบ่งตาม karyotype: 46,XX DSD (CAH พบบ่อยสุด, androgen จากแม่) · 46,XY DSD (androgen insensitivity, 5α-reductase deficiency, gonadal dysgenesis) · sex chromosome DSD (45,X/46,XY mixed gonadal dysgenesis, ovotesticular)",
    "DSD workup: karyotype/SRY, pelvic USG, 17-OHP, testosterone/DHT, LH/FSH, AMH · อย่าเพิ่งกำหนดเพศจนกว่าทีมประเมินเสร็จ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A วง A + 17-OHP ↑) มั่นใจสูง · ต้นฉบับมีช้อยเดียว เราเติม B–E โดยเลี่ยง karyotype ที่ต้องส่งเช่นกัน จึงถามว่า \"most urgent\"",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A วง A + 17-OHP ↑) มั่นใจสูง",
   "variants": [
    "ทารกชาย 10 วัน อวัยวะเพศปกติ อาเจียน น้ำหนักลด Na 122 K 7.2 → salt-wasting CAH → NSS bolus + hydrocortisone stress dose",
    "ทารก 46,XY อวัยวะเพศภายนอกเป็นหญิง คลำ gonad ได้ที่ขาหนีบ ไม่มีมดลูก → complete androgen insensitivity syndrome",
@@ -164,7 +162,7 @@
    "Marker: MGMT promoter methylation ตอบสนอง temozolomide ดีกว่า · IDH-mutant astrocytoma (WHO 2021 แยกจาก GBM) พยากรณ์ดีกว่ามาก",
    "Median survival ราว 15 เดือนแม้รักษาเต็มที่ · immune checkpoint inhibitor phase 3 ใน GBM ไม่สำเร็จ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A เขียน spot dx, ต้นฉบับเขียน \"รูปนี้เป๊ะ\") มั่นใจสูง — ลักษณะภาพอ้างตามคำบรรยายที่บันทึกไว้ · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A เขียน spot dx, ต้นฉบับเขียน \"รูปนี้เป๊ะ\") มั่นใจสูง — ลักษณะภาพอ้างตามคำบรรยายที่บันทึกไว้",
   "variants": [
    "ชาย 60 ปีอ่อนแรงซีกขวา 1 เดือน MRI พบก้อนผนังหนาไม่เรียบลามข้าม corpus callosum (butterfly) → GBM ที่ตัดออกไม่ได้ → stereotactic biopsy แล้ว RT + temozolomide",
    "หลังผ่าตัด GBM ได้ RT + temozolomide ครบ 2 เดือน MRI ก้อนดูโตขึ้นแต่ไม่มีอาการ → อาจเป็น pseudoprogression → ติดตาม MRI (perfusion) ก่อนสรุปว่าโรคลุกลาม",
@@ -173,22 +171,21 @@
  },
  "MDCU76|RoA|28": {
   "interp": "ข้อ NOT: ถามว่าภาวะใด \"ไม่ใช่\" ข้อห้ามหรือข้อควรระวังของการฉีด iodinated contrast ใน CT — ช้อยอื่นอยู่ในสไลด์ที่แปะในคีย์ (ตั้งครรภ์, เคยแพ้รุนแรง, hyperthyroidism) และไตเสื่อม",
-  "why": "Hematuria เป็นข้อบ่งชี้ของ CT with contrast (CT urography หาสาเหตุจากไต ท่อไต และมะเร็ง urothelium) ไม่ใช่ข้อห้าม → D เป็นคำตอบ · ข้อควรระวังของ iodinated contrast: (1) เคยมีปฏิกิริยาปานกลาง–รุนแรง เสี่ยงเกิดซ้ำ (2) ไตเสื่อมรุนแรงหรือ AKI เสี่ยง contrast-associated AKI (ลายมือ: กลัว AKI) (3) hyperthyroidism ที่มีอาการ — iodine กระตุ้น thyroid storm และทำให้ radioiodine scan/therapy ใช้ไม่ได้หลายสัปดาห์ (4) ตั้งครรภ์ — กังวลรังสีมากกว่าตัวสาร · ทั้งหมดเป็นการชั่งประโยชน์–ความเสี่ยงมากกว่าห้ามเด็ดขาด",
+  "why": "Hematuria เป็นข้อบ่งชี้ของ CT with contrast (CT urography หาสาเหตุจากไต ท่อไต และมะเร็ง urothelium) ไม่ใช่ข้อห้าม และไม่ได้บอกว่าไตเสื่อม → D เป็นคำตอบ · ช้อยอื่นเป็น precaution ซึ่งเป็นการชั่งประโยชน์–ความเสี่ยง ไม่ใช่ข้อห้ามเด็ดขาด",
   "wrong": {
    "A": "เป็นข้อควรระวัง (อยู่ในสไลด์): ตั้งครรภ์ — เลี่ยงรังสีถ้าใช้ US/MRI แทนได้ แต่ทำได้เมื่อจำเป็น; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็นหญิงหลังคลอดที่ให้นมลูก — ไม่ต้องหยุดให้นมหลังฉีดสี",
    "B": "เป็นข้อควรระวังสำคัญ: เคย anaphylaxis/ปฏิกิริยารุนแรงต่อ contrast → เลี่ยงหรือใช้ imaging อื่น ถ้าจำเป็นให้ premedication + เปลี่ยนชนิดสาร; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเคยแพ้แค่อาหารทะเลหรือ povidone-iodine — ไม่ใช่ข้อห้ามและไม่ต้อง premedication",
-   "C": "เป็นข้อควรระวัง: Cr 3.2 (eGFR < 30) เสี่ยง contrast-associated AKI ต้องชั่งประโยชน์ ให้สารน้ำ ใช้ปริมาณน้อยที่สุด; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยไตวายระยะสุดท้ายที่ไม่มีปัสสาวะและฟอกเลือดอยู่แล้ว — ไม่มีไตเหลือให้เสีย",
-   "E": "เป็นข้อควรระวัง (อยู่ในสไลด์): symptomatic hyperthyroidism — iodine กระตุ้น thyroid storm และรบกวน radioiodine ภายใน 6 สัปดาห์; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น hypothyroidism ที่กิน levothyroxine อยู่"
+   "C": "เป็นข้อควรระวัง: Cr 3.2 (มักได้ eGFR < 30) เสี่ยง contrast-associated AKI ต้องชั่งประโยชน์ ให้สารน้ำ ใช้ปริมาณน้อยที่สุด; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยไตวายระยะสุดท้ายที่ไม่มีปัสสาวะและฟอกเลือดอยู่แล้ว — ไม่มีไตเหลือให้เสีย",
+   "E": "เป็นข้อควรระวัง (อยู่ในสไลด์): symptomatic hyperthyroidism — iodine อาจกระตุ้น iodine-induced thyrotoxicosis (ส่วนน้อยถึง storm) และรบกวน radioiodine ภายใน 6 สัปดาห์; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น hypothyroidism ที่กิน levothyroxine อยู่"
   },
   "trap": "คิดว่ามีเลือดในปัสสาวะแล้วฉีดสีไม่ได้ หรือเหมาว่า hematuria = ไตเสื่อม — hematuria ไม่ได้บอกว่าไตเสื่อม และเป็นเหตุผลที่ต้องทำ CT urography",
   "summary": [
-   "ข้อควรระวัง iodinated contrast (ACR): เคยแพ้ปานกลาง–รุนแรง, eGFR < 30 หรือ AKI, hyperthyroidism ที่มีอาการ/ภายใน 6 สัปดาห์ก่อน radioiodine, ตั้งครรภ์ · metformin: eGFR < 30 หรือ AKI → หยุด 48 ชม.หลังฉีด เช็คไตก่อนกลับมาใช้",
-   "Premedication สำหรับคนเคยแพ้ปานกลาง: prednisolone + antihistamine",
+   "ข้อควรระวัง iodinated contrast (ACR): เคยแพ้ปานกลาง–รุนแรง, eGFR < 30 หรือ AKI, hyperthyroidism ที่มีอาการ/ภายใน 6 สัปดาห์ก่อน radioiodine, ตั้งครรภ์",
+   "Premedication เมื่อเคยมี allergic-like reaction ต่อ contrast กลุ่มเดียวกัน: prednisolone + antihistamine",
    "ป้องกัน CA-AKI: IV hydration (NSS), ใช้สารน้อยที่สุด",
-   "Hematuria workup: CT urography + cystoscopy",
-   "Gadolinium (MRI) ใน eGFR <30 เสี่ยง nephrogenic systemic fibrosis"
+   "Hematuria workup: CT urography + cystoscopy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ Key 76A แปะสไลด์ Contraindications and Precautions) มั่นใจสูง · ต้นฉบับมีช้อย 4 ตัว เราเติม E จากสไลด์ในคีย์",
+  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ Key 76A แปะสไลด์ Contraindications and Precautions) มั่นใจสูง",
   "variants": [
    "ผู้ป่วยเคยผื่นลมพิษหลังฉีดสีครั้งก่อน ต้องทำ CT ซ้ำ → premedication (prednisolone + antihistamine) และพิจารณาเปลี่ยนชนิดสาร",
    "ผู้ป่วยเบาหวานกิน metformin eGFR 25 ต้องทำ CT with contrast → หยุด metformin 48 ชม.หลังฉีด เช็ค creatinine ก่อนกลับมาใช้",
@@ -206,7 +203,7 @@
    "Hamartomatous polyposis: Peutz–Jeghers (STK11) · juvenile polyposis (SMAD4, BMPR1A) · PTEN hamartoma/Cowden (PTEN)",
    "FAP variants: Gardner (+ osteoma, epidermoid cyst, desmoid) · Turcot (+ medulloblastoma ใน FAP; glioma ใน Lynch)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A เขียน FAP) มั่นใจสูง · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A เขียน FAP) มั่นใจสูง",
   "variants": [
    "พี่น้อง 3 คนมี adenoma 30–50 ก้อน แต่พ่อแม่ส่องกล้องปกติ → MUTYH-associated polyposis (autosomal recessive)",
    "ชายมี adenoma หลายร้อยก้อน ร่วม osteoma ที่ขากรรไกรและ epidermoid cyst หลายตำแหน่ง → Gardner syndrome (APC)",
@@ -223,7 +220,7 @@
    "E": "Carbuncle = furuncle หลายอันรวมกันมีหลายหัวหนอง มักที่ท้ายทอย/หลัง ในเบาหวาน เชื้อ S. aureus; จะถูกถ้าชายเบาหวานมีก้อนอักเสบใหญ่ที่ต้นคอด้านหลังมีหัวหนองหลายหัว"
   },
   "trap": "ตอบ infected sebaceous cyst เพราะเห็นรูแล้วคิดว่าเป็น punctum — cyst มี punctum เดียวบนตัวก้อน ส่วน pilonidal มี pits หลายรูเรียงแนวกลางร่องก้น และฝีมักโผล่เยื้องด้านข้างของ pits",
-  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A วงคำว่า \"มีรู\" เขียน punctate lesion) มั่นใจสูง — รูปในไฟล์โจทย์มีคำบรรยายใต้ภาพที่บอกคำตอบ จึงครอปออก · ต้นฉบับมีช้อย 2 ตัว เราเติม C–E",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A วงคำว่า \"มีรู\" เขียน punctate lesion) มั่นใจสูง — รูปในไฟล์โจทย์มีคำบรรยายใต้ภาพที่บอกคำตอบ จึงครอปออก",
   "variants": [
    "ฝี pilonidal ระบายแล้วเป็นซ้ำ 3 ครั้งในปีเดียว มี sinus หลายรูแนวกลาง → excision + off-midline closure (Karydakis/cleft lift)",
    "ชายขับรถทั้งวันมี pits แนวกลางร่องก้นแต่ไม่มีอาการ → ไม่ต้องผ่าตัด แนะนำกำจัดขนและรักษาความสะอาด",
