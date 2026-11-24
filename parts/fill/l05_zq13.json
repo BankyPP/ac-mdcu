@@ -1,0 +1,105 @@
+{
+"145": {
+"interp": "แผลลึกมี<b>ช่องเซาะใต้ผิว (tunnel)</b> exudate ปานกลาง ไม่ติดเชื้อ — ถามกลุ่ม dressing",
+"why": "ภาพถ่ายจอหน้า 41 (Dressing choices for various types of wounds): <b>Deep/Tunneling Wounds → Alginates, Hydrofibers, Hydrogels, PMDs</b><br>โพรงหรือ tunnel ต้อง pack ให้ถึงก้น (หน้า 39) — alginate/hydrofiber เป็นเส้นใยหรือแบบเชือกที่สอดเข้าโพรงได้และดูดซับ exudate · hydrogel ใช้เมื่อโพรงค่อนข้างแห้ง",
+"wrong": {
+"A": "จะถูกถ้าเป็นแผลตื้น (ตาราง: superficial wounds → films, hydrocolloids)",
+"B": "จะถูกถ้าแผลติดเชื้อ (infected wounds → silver, iodide, antibiotic dressings)",
+"C": "ไม่มีสถานการณ์ใดที่ก๊อซแห้งเป็นตัวเลือกที่ดีที่สุดสำหรับ tunnel — ก๊อซแห้งดูดแผลแห้ง ติดแผล และเศษใยอาจค้างในโพรง",
+"E": "จะถูกถ้าเป็นแผล granulation ที่ไม่ลึก (granulating wounds → hydrocolloids, foams)"
+},
+"trap": "แผ่น dressing (film, hydrocolloid, foam) ปิดได้แค่ผิว — แผลลึกมี tunnel ต้องใช้วัสดุที่<b>สอดเข้าโพรง</b>ได้",
+"summary": [
+"ตาราง dressing choices (หน้า 41): Superficial → films, hydrocolloids · Eschar → hydrogels, hydrocolloids · Exudative → alginates, hydrofibers, foams · Granulating → hydrocolloids, foams · Sloughing → enzymatic/protease-lowering, hydrogels, hydrocolloids · Deep/Tunneling → alginates, hydrofibers, hydrogels · Infected → silver, iodide, antibiotic dressings"
+],
+"variants": [
+"<b>นอกสไลด์:</b> สอด alginate แบบเชือกเข้า tunnel ตอนเปลี่ยนแผลต้องระวังอะไร → ดึงออกให้ครบทุกชิ้น ไม่ให้ค้างในโพรง และ pack หลวม ๆ"
+]
+},
+"146": {
+"interp": "แผลมี slough สีเหลือง (fibrin) คลุมพื้น drainage น้อย ไม่ติดเชื้อ — ถาม dressing",
+"why": "ภาพถ่ายจอหน้า 41: <b>Sloughing Wounds → Protease-lowering or enzymatic dressings, Hydrogels, Hydrocolloids</b> · ลายมือ: <b>\"ช่วย debride\"</b><br>slough เป็นเนื้อตายนุ่มที่ต้องเอาออก — enzymatic dressing ย่อย slough โดยตรง · hydrogel เติมความชื้นให้ร่างกายย่อยเอง (autolytic) เหมาะกับแผลที่ drainage น้อย",
+"wrong": {
+"B": "จะถูกถ้าเป็นแผลตื้นที่สะอาด (superficial wounds → films, hydrocolloids)",
+"C": "จะถูกถ้าแผลมี exudate มาก (exudative wounds → alginates, hydrofibers, foams)",
+"D": "จะถูกถ้าแผลติดเชื้อ",
+"E": "จะถูกถ้าพื้นแผลเป็น granulation สะอาด (granulating wounds → hydrocolloids, foams)"
+},
+"trap": "hydrocolloid อยู่ในแถว sloughing ด้วย แต่ช้อยที่จับคู่ hydrocolloid กับ film หรือ foam คือแถวของแผลแบบอื่น — ดูทั้งคู่ในช้อย",
+"summary": [
+"slough (เหลือง นุ่ม) กับ eschar (ดำ แข็ง แห้ง) เป็นเนื้อตายทั้งคู่ — ทั้งสองแถวใช้ dressing ที่ช่วย debride (hydrogel, hydrocolloid) · slough เพิ่ม enzymatic dressing"
+],
+"variants": [
+"<b>นอกสไลด์:</b> slough หนาที่ไม่ลดลงหลังใช้ hydrogel ไปราว 1–2 สัปดาห์ ควรทำอย่างไร → ทำ sharp debridement ร่วมด้วย"
+]
+},
+"147": {
+"interp": "defect หลังมือ 6 × 8 cm หลังไฟไหม้ — ส่วนใหญ่ granulation ดี แต่<b>มีเอ็นเปลือยไม่มี paratenon บางส่วน</b> — ถามแผนที่เหมาะสม",
+"why": "ลายมือหน้า 37: <b>\"graft ไม่ได้, bare bone / bare tendon, bony prominence\"</b> (ขึ้นไป local flap) · สไลด์หน้า 21: composite graft <b>No more than 1 cm in size</b><br>แผลเดียวกันมีพื้นสองแบบ จึงเลือกวิธีตามพื้นแต่ละส่วน: เอ็นเปลือยที่ไม่มี paratenon → flap · ส่วนที่ granulation ดี → skin graft",
+"wrong": {
+"A": "จะถูกถ้าพื้นแผลทั้งหมดเป็น granulation ดี หรือเอ็นยังมี paratenon คลุมอยู่",
+"B": "จะถูกถ้าแผลหลังมือเล็กพอที่ขอบดึงชนกันได้โดยไม่รั้งการกำมือ",
+"C": "ไม่มีสถานการณ์ใดที่แผลหลังมือกว้างและมีเอ็นเปลือยควรปล่อยหายเอง เพราะเอ็นที่ไม่มี paratenon จะแห้งตาย และแผลหดรั้งทำให้มือติด",
+"D": "ไม่มีสถานการณ์ใดที่ composite graft คลุม defect 6 × 8 cm ได้ เพราะ composite graft รอดได้ไม่เกิน 1 cm (สไลด์หน้า 21)"
+},
+"trap": "ไม่ต้องเลือกวิธีเดียวทั้งแผล — แผลที่มีพื้นหลายแบบใช้หลายวิธีร่วมกัน",
+"summary": [
+"แผลเดียวเลือกได้หลายวิธีตามพื้นแต่ละส่วน → ใช้ flap เฉพาะจุดที่จำเป็น (flap เล็กลง donor เสียน้อยลง)",
+"<b>นอกสไลด์:</b> graft บนหลังมือนิยมแบบแผ่น (sheet) ไม่ mesh เพื่อลดการหดรั้งและให้ดูดี"
+],
+"variants": [
+"<b>นอกสไลด์:</b> หลังคลุมเอ็นด้วย flap และ graft ส่วนที่เหลือ ควรจัดมือหลังผ่าตัดอย่างไร → ใส่ splint ในท่ากันข้อยึด (safe position) จน graft ติด"
+]
+},
+"148": {
+"interp": "ไฝ 6 mm ที่แก้ม ต้องการแผลเห็นน้อยที่สุด — ถามแผนที่ถูกทั้งรูปแผล ความยาว และทิศ",
+"why": "ลายมือหน้า 7: <b>\"กว้าง : ยาว ถึงเย็บได้เส้นแนวตรง e.g. ก้อน 0.5 cm → แผล ~2 cm\"</b> · ลายมือหน้า 5: RSTL <b>\"= ตำแหน่งที่มีแรงตึงที่ดึงขอบแผลน้อยสุด → แผลสวย\"</b><br>ตัดเป็นรูปรีที่ยาวพอ ปิดแล้วได้เส้นตรงไม่มี dog ear · วางแกนยาวขนาน RSTL ให้แรงดึงขอบแผลน้อยที่สุด → ไฝ 6 mm จึงได้แผลราว 2 cm ตาม RSTL",
+"wrong": {
+"B": "ไม่มีสถานการณ์ใดที่ purse-string ให้แผลเห็นน้อยที่สุดบนแก้ม เพราะดึงผิวรอบแผลย่นเป็นวงและแผลเป็นไม่เป็นเส้น",
+"C": "ไม่มีสถานการณ์ใดที่แผนนี้ถูก เพราะผิดสองข้อ: ยาวเท่ารอยโรคจึงปิดแล้วเกิด dog ear และขวาง RSTL แรงดึงถ่างแผล",
+"D": "<b>นอกสไลด์:</b> จะถูกถ้ารอยโรคชิดขอบเปลือกตาล่าง — วางแผลตั้งฉากกับขอบเปลือกตา (แม้ขวาง RSTL) เพื่อไม่ดึงเปลือกตาลง",
+"E": "ไม่มีสถานการณ์ใดที่ไฝ 6 mm บนแก้มต้องใช้ graft เพราะเย็บตรงได้ — graft สีและเนื้อสัมผัสต่างจากผิวรอบ เห็นชัดกว่า"
+},
+"trap": "ต้องถูกทั้งสองข้อ: ยาวพอ (~2 cm ไม่ใช่ 6 mm) <b>และ</b>ขนาน RSTL — ช้อย C ผิดทั้งคู่ ช้อย D ถูกข้อเดียว",
+"summary": [
+"<b>นอกสไลด์:</b> ellipse มาตรฐานยาวราว 3–4 เท่าของความกว้าง มุมปลายราว 30° — สั้นกว่านี้ปลายแผลนูนเป็น dog ear"
+],
+"variants": [
+"ตัด ellipse ที่แก้มสั้นเกินไป ปิดแล้วจะเกิดอะไร และแก้อย่างไร → dog ear ที่ปลายแผล แก้โดยตัดต่อปลายให้แผลยาวขึ้นตามแนว RSTL"
+]
+},
+"149": {
+"interp": "แผลสะอาด 5 cm ที่ปลายแขน ต้องการแผลเป็นเส้นบาง<b>และไม่มีรอยไหม</b> — ถามวิธีปิด",
+"why": "ลายมือหน้า 9: deep dermal <b>\"hold ค.แข็งแรงของแผล at least 4 wk (ใช้ absorbable suture) e.g. Vicryl, Monocryl\"</b> · สไลด์หน้า 13: subcuticular <b>No stitch marks</b><br>สองความต้องการ → สองชั้น: deep dermal รับแรงตึงไว้นานพอที่แผลเป็นจะไม่ถ่างกว้าง (แผลบาง) · subcuticular จัดขอบโดยไม่มีไหมผ่านผิว (ไม่มีรอยไหม)",
+"wrong": {
+"A": "ไม่มีสถานการณ์ใดที่วิธีนี้ตอบทั้งสองความต้องการ เพราะไหมผิวชั้นเดียวไม่มีชั้นรับแรง และค้าง 14 วันทิ้งรอยเข็ม",
+"C": "ไม่มีสถานการณ์ใดที่วิธีนี้ไม่มีรอยไหม เพราะ vertical mattress มีรูเข็มผ่านผิวหลายจุด และค้าง 10 วันยิ่งทิ้งรอย",
+"D": "จะถูกถ้าแผลตื้นมาก แรงตึงน้อย — skin tape อย่างเดียวพอเมื่อไม่ต้องการชั้นรับแรง (สไลด์: tape require good dermal stitches ในแผลที่ลึกถึง dermis)",
+"E": "ไม่มีสถานการณ์ใดที่ staple ไม่ทิ้งรอย — staple ทิ้งรอยจุด และค้าง 3 สัปดาห์ยิ่งชัด"
+},
+"trap": "ช้อย D ไม่มีรอยไหมเหมือนกัน แต่ขาดชั้นรับแรง — แผลยาว 5 cm ที่ปลายแขนจะถ่างกว้าง",
+"summary": [
+"ความต้องการ → ชั้นที่เลือก: แผลเป็นบาง = ลดแรงตึงด้วย deep dermal (ไหมละลาย) · ไม่มีรอยไหม = ไม่มีไหมผ่านผิว (subcuticular, tape, glue)"
+],
+"variants": [
+"แผลเดียวกัน ผู้ป่วยไม่ห่วงรอยไหม แต่ขอบแผลม้วนเข้าไม่ evert ไหมผิวแบบใดช่วยได้ → vertical mattress (ตัดไหมเร็วเพื่อลดรอย)"
+]
+},
+"150": {
+"interp": "แผลรั้ง 3 cm ข้ามข้อพับศอก ทำ Z-plasty 60° (central limb ตามแนวแผล) — ถามความยาวตามแนวแผลเดิมหลังผ่าตัด",
+"why": "สไลด์หน้า 32: <b>60–60 → 75%</b> · สไลด์หน้า 31: <b>Lengthen the central limb of the flap</b><br>ความยาวใหม่ = 3 × 1.75 = <b>5.25 cm</b>",
+"wrong": {
+"A": "จะถูกถ้าใช้ Z-plasty มุม 30° (3 × 1.25 = 3.75 cm)",
+"C": "จะถูกถ้าใช้ Z-plasty มุม 75° (3 × 2 = 6 cm)",
+"D": "ไม่มีสถานการณ์ใดในตารางที่ได้ 7.5 cm จากแผล 3 cm เพราะต้องยืด 150% ซึ่งเกินมุม 90° (120%)",
+"E": "ไม่มีสถานการณ์ใดที่ Z-plasty ทำให้แผลสั้นลง — 2.25 cm คือส่วนที่เพิ่ม (75% ของ 3 cm) ไม่ใช่ความยาวใหม่"
+},
+"trap": "ส่วนที่เพิ่ม (2.25 cm) กับความยาวใหม่ (5.25 cm) — ต้องบวกความยาวเดิม",
+"summary": [
+"ความยาวใหม่ = ความยาวเดิมของ central limb × 1.75 (Z-plasty 60°)"
+],
+"variants": [
+"<b>นอกสไลด์:</b> หลัง Z-plasty 60° ศอกยังเหยียดไม่สุด ต้องการความยาวเพิ่มอีก ทำอย่างไร → เพิ่ม Z-plasty ต่อกันหลายตัว หรือเติมผิวด้วย graft/flap ถ้าผิวด้านข้างไม่พอ"
+]
+}
+}
