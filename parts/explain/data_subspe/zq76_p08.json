@@ -24,23 +24,22 @@
  },
  "MDCU76|RoD|13": {
   "interp": "ทารกชายอายุ 3 ชม. ไม่มีรูทวาร ยังไม่เห็น meconium ที่ perineum หรือในปัสสาวะ ไม่เห็น fistula · ถามการจัดการ \"ตอนนี้\" (ช่วงชั่วโมงแรก)",
-  "why": "ในชั่วโมงแรก ๆ ความดันในลำไส้ยังไม่พอดัน meconium ผ่าน fistula เล็กออกมาให้เห็น และลมยังลงไม่ถึง rectum → ตัดสินชนิดยังไม่ได้ · แนวทางคือรอ 16–24 ชม.: งดนม ให้สารน้ำ ใส่สายระบายกระเพาะ ตรวจหาความผิดปกติร่วม แล้วตรวจ perineum และปัสสาวะซ้ำ (ลายมือในคีย์: รอดูว่า meconium จะออกมาทางไหน) · เห็น perineal fistula → anoplasty · meconium ในปัสสาวะ → colostomy · ไม่เห็นอะไรเลยที่ 24 ชม. → prone cross-table lateral radiograph",
+  "why": "ในชั่วโมงแรก ๆ ความดันในลำไส้ยังไม่พอดัน meconium ผ่าน fistula เล็กออกมาให้เห็น และลมยังลงไม่ถึง rectum → ตัดสินชนิดยังไม่ได้ · แนวทางคือรอ 16–24 ชม.: งดนม ให้สารน้ำ ใส่สายระบายกระเพาะ ตรวจหาความผิดปกติร่วม แล้วตรวจ perineum และปัสสาวะซ้ำ (ลายมือในคีย์: รอดูว่า meconium จะออกมาทางไหน)",
   "wrong": {
    "A": "Cross-table lateral film ตอน 3 ชม. ลมยังไม่ถึงปลาย rectum ทำให้เห็นถุงลำไส้สูงกว่าความจริง; จะถูกถ้าทารกอายุ 24 ชม. แล้วยังไม่เห็น meconium ที่ perineum หรือในปัสสาวะ",
    "C": "Colostomy ตัดสินหลังรู้ชนิด ยังเร็วไปตอน 3 ชม.; จะถูกถ้าทารกชายมี meconium ปนในปัสสาวะ (rectourinary fistula)",
-   "D": "PSARP/anoplasty ทำเมื่อรู้ชนิดแล้วว่าเป็นชนิดต่ำ; จะถูกถ้าทารกชายมี meconium ออกที่ perineum ตามแนว raphe ชัดเจน (perineal fistula) → anoplasty ในช่วงแรกเกิด",
+   "D": "PSARP เป็นการผ่าตัดแก้ไขหลักของ ARM แต่ทำหลังรู้ชนิดแล้วเท่านั้น (ชนิดต่ำทำได้ช่วงแรกเกิด ชนิดสูงทำหลัง colostomy); จะถูกถ้าทารกที่ทำ colostomy ไว้แล้ว 1–2 เดือน distal colostogram เห็น rectourethral fistula",
    "E": "CT ไม่ใช่การตรวจมาตรฐานของ ARM ในทารก ให้รังสีมากและไม่เปลี่ยนการตัดสินใจ; ไม่มีสถานการณ์ใดที่ CT ช่องท้องเป็นการตรวจแรกของทารก ARM เพราะการตรวจร่างกายซ้ำ ultrasound และ cross-table film ให้ข้อมูลพอ"
   },
-  "trap": "สั่ง cross-table film หรือ invertogram ทันทีหลังคลอด — ภาพที่ถ่ายเร็วเกินไปจะหลอกว่าถุงลำไส้อยู่สูง",
+  "trap": "สั่ง cross-table film หรือ invertogram ทันทีหลังคลอด",
   "summary": [
    "ระหว่างรอ 24 ชม.: งดนม, IV fluid, ใส่ OG/NG, ตรวจหา VACTERL (echo, ultrasound ไตและกระเพาะปัสสาวะ, ภาพกระดูกสันหลังและ sacrum, ultrasound ไขสันหลัง) · ความผิดปกติทางเดินปัสสาวะพบราวครึ่ง",
-   "ทารกชาย: perineal fistula → anoplasty · meconium ในปัสสาวะ (rectourethral/rectovesical) → colostomy → PSARP ภายหลัง",
-   "ทารกหญิง: perineal/vestibular fistula (ส่วนใหญ่) → anoplasty หรือ colostomy ตามความชำนาญ · มีรูเปิดรูเดียว (cloaca) → colostomy + ระบาย hydrocolpos/ทางเดินปัสสาวะ"
+   "ที่ 24 ชม.: เห็น perineal fistula → anoplasty · meconium ในปัสสาวะ → colostomy · ไม่เห็นอะไรเลย → prone cross-table lateral: rectum ห่างผิวหนังไม่เกิน 1 cm → PSARP/anoplasty ได้เลย · เกิน 1 cm หรือมีความผิดปกติร่วมรุนแรง → colostomy แล้ว PSARP ภายหลัง",
+   "ทารกหญิง: perineal fistula → anoplasty · vestibular fistula → PSARP แบบจำกัด (ทำเลยหรือ colostomy ก่อนตามความชำนาญ) · รูเปิดรูเดียว (cloaca) → colostomy + ระบาย hydrocolpos/ทางเดินปัสสาวะ"
   ],
   "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 76D ลายมือ รอดูว่า meconium จะออกมาทางไหน) มั่นใจสูง",
   "variants": [
-   "ทารกชายมี meconium เป็นแนวใต้ผิวหนังตาม raphe ลงไปถึง scrotum → perineal fistula → anoplasty",
-   "ทารกหญิงมีรูเปิดรูเดียวที่ perineum ท้องน้อยมีก้อน → cloaca ร่วม hydrocolpos → colostomy + ระบาย hydrocolpos",
+   "ทารกหญิงมี meconium ออกที่ vestibule นอก hymen → vestibular fistula → PSARP แบบจำกัด",
    "ทารก ARM อัลตราซาวนด์พบไตข้างเดียวและ hydronephrosis อีกข้าง → ประเมินทางเดินปัสสาวะเพิ่ม (VCUG) ก่อนผ่าตัดใหญ่"
   ]
  },
@@ -166,12 +165,12 @@
   "summary": [
    "คัดกรองความเสี่ยงเฉลี่ย: เริ่ม 45 ปี (USPSTF 2021) ถึง 75 ปี · ไทยใช้ FIT อายุ 50–70 ปี",
    "ทางเลือก: FIT ทุกปี · gFOBT ทุกปี · FIT-DNA ทุก 1–3 ปี · colonoscopy ทุก 10 ปี · CT colonography หรือ flexible sigmoidoscopy ทุก 5 ปี · การตรวจที่ไม่ใช่ colonoscopy ถ้าบวก → colonoscopy",
-   "ญาติสายตรงเป็นมะเร็งลำไส้ใหญ่ก่อน 60 ปี → colonoscopy เริ่ม 40 ปีหรือ 10 ปีก่อนอายุที่ญาติเป็น ทุก 5 ปี",
+   "ญาติสายตรงเป็นมะเร็งลำไส้ใหญ่ก่อน 60 ปี → colonoscopy เริ่มอายุ 40 ปีหรือ 10 ปีก่อนอายุที่ญาติเป็น (แล้วแต่อย่างใดถึงก่อน) ทุก 5 ปี",
    "Iron deficiency anemia ในชายหรือหญิงหมดประจำเดือน → EGD + colonoscopy"
   ],
   "variants": [
    "ชาย 60 ปี FIT บวก colonoscopy ปกติ ไม่ซีด ไม่มีอาการ → ไม่ต้อง EGD กลับไปคัดกรองตามรอบ (colonoscopy อีก 10 ปี)",
-   "หญิงหมดประจำเดือนซีด ferritin ต่ำ → EGD + colonoscopy",
+   "Colonoscopy คัดกรองพบ tubular adenoma < 10 mm 2 ก้อน ตัดหมด → colonoscopy ซ้ำใน 7–10 ปี",
    "ชายอายุ 40 ปีที่พ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 48 → colonoscopy ตอนนี้ แล้วทุก 5 ปี"
   ]
  },
