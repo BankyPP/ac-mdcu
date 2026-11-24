@@ -4,10 +4,14 @@
 // คู่มือเต็ม: project doc kit/มาตรฐานเฉลย.md
 const T=x=>String(x||'').replace(/<[^>]+>/g,'').replace(/&gt;/g,'>').replace(/&lt;/g,'<').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
 const LT='ABCDEFGH';
-const MIN={interp:100,why:350,wrong:100,trap:120,sumN:5,sum:600,bullet:15,opinion:80,varN:3,variants:250,variant:50};
+const MINL={interp:100,why:350,wrong:100,trap:120,sumN:5,sum:600,bullet:15,opinion:80,varN:3,variants:250,variant:50};
+// ผู้ใช้สั่ง 24 พ.ย. 2026 15:3x: "มีเกณฑ์มันไม่ใช่เรื่อง … ขอให้ทำแบบ Gen Sx" → gate (build) ไม่มีขั้นต่ำความยาวแล้ว
+//   เช็คแค่ช่องไม่ว่าง + ทุกช้อยผิดมี "จะถูกถ้า/ไม่มีสถานการณ์" + ไม่ซ้ำ + บอกคีย์เดิมเมื่อ ans ≠ คีย์ · MIN ยังใช้แค่ ac_full_check (นับข้อเก่าที่บาง)
+const GATE={interp:1,why:1,wrong:1,trap:1,sumN:1,sum:1,bullet:1,opinion:1,varN:1,variants:1,variant:1};
 const txt=v=>T(typeof v==='string'?v:JSON.stringify(v));
 // คืนรายการปัญหา [{f:ฟิลด์, m:เหตุผล}] · ว่าง = ผ่าน
-function issues(q){
+function issues(q,opt){
+  const MIN=opt&&opt.gate?GATE:MINL;
   const out=[],add=(f,m)=>out.push({f,m}),n=(q.opts||[]).length;
   const ansTxt=n?T(q.opts[q.ans]):'';
   // ตีความโจทย์
@@ -43,4 +47,4 @@ function issues(q){
   return out;
 }
 const fields=q=>[...new Set(issues(q).map(x=>x.f))];
-module.exports={issues,fields,MIN,T};
+module.exports={issues,fields,MIN:MINL,GATE,T};

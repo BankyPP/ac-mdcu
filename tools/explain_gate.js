@@ -13,7 +13,7 @@ const oc={},hit=new Map();
 for(const q of QB){const b=q.set+'|'+(q.ro||'')+'|'+q.orig,bp=b+'@p'+q.page,n=oc[bp]=(oc[bp]||0)+1;
   for(const k of [bp+'#'+n,bp,b])if(keys.has(k)){if(!hit.has(k))hit.set(k,[]);hit.get(k).push(q);break;}}
 const missing=[...keys].filter(k=>!hit.has(k));
-const bad=[];for(const [k,qs] of hit)for(const q of qs){const is=issues(q);if(is.length)bad.push([k,is]);}
+const bad=[];for(const [k,qs] of hit)for(const q of qs){const is=issues(q,{gate:true});if(is.length)bad.push([k,is]);}
 if(missing.length)console.log('❌ key ไม่ตรงข้อใด: '+missing.join(' · '));
 if(bad.length){console.log(`❌ gate ${slug}: ${bad.length} ข้อในแพตช์ zq* ยังไม่ผ่านมาตรฐาน (kit/มาตรฐานเฉลย.md) — แก้ก่อน build/push`);
   bad.slice(0,40).forEach(([k,is])=>console.log('  '+k+' → '+is.map(x=>x.f+': '+x.m).join(' · ')));process.exit(1);}
