@@ -142,5 +142,148 @@
    "ทารกหลังทำ modified BTT shunt 2 วัน เขียวลงทันที ฟังไม่ได้ยินเสียง continuous murmur ของ shunt → shunt อุดตัน: heparin และเปิด shunt ด่วน (ผ่าตัดหรือสวน)",
    "ผู้ใหญ่ที่ผ่าตัด TOF ด้วย transannular patch ตอนเด็ก เหนื่อยง่ายขึ้น RV โตมาก → ลิ้นพัลโมนารีรั่วรุนแรง: pulmonary valve replacement (ผ่าตัดหรือทางสายสวน)"
   ]
+ },
+ "MDCU77|RoC|CVT 8": {
+  "interp": "ชายอายุ 40 ปีสูบบุหรี่ หอบและแน่นหน้าอกทันที CXR (ตามที่บันทึกไว้) เป็น pneumothorax ขนาดใหญ่ — spontaneous pneumothorax ที่มีอาการ ถามการรักษาเริ่มต้น ระหว่างเจาะดูดกับใส่สายระบาย",
+  "why": "Pneumothorax ที่ใหญ่และ<b>มีอาการหอบ</b> ต้องเอาลมออกให้ปอดขยาย · <b>intercostal chest drainage</b> ทำให้ปอดขยายได้แน่นอนที่สุดและรับลมที่ยังรั่วต่อได้ จึงเป็นคำตอบที่อาจารย์ในไฟล์คีย์เลือก · ผู้สูบบุหรี่อาจมี emphysema หรือ bulla แฝงอยู่ ถ้าเป็น secondary pneumothorax ยิ่งต้องใส่สายและรับไว้ในโรงพยาบาล · แนวทาง BTS 2023 สำหรับ primary pneumothorax ที่มีอาการแต่ไม่มีปัจจัยเสี่ยงสูงให้เลือกได้ทั้ง conservative, ambulatory device หรือ needle aspiration ตามความต้องการของผู้ป่วย ข้อนี้จึงมีความไม่แน่นอนอยู่บ้าง",
+  "wrong": {
+   "A": "Needle aspiration เป็นทางเลือกหนึ่งของ primary spontaneous pneumothorax ที่มีอาการตาม BTS 2023 ใส่ง่ายเจ็บน้อย แต่สำเร็จน้อยกว่าสายระบายและต้องทำซ้ำบ่อย · จะถูกถ้าชายหนุ่มผอมสูงไม่มีโรคปอดและไม่มีปัจจัยเสี่ยงสูง มีอาการเล็กน้อย และต้องการเลี่ยงการใส่สาย",
+   "C": "Observation + O₂ ใช้กับ PTX ขนาดเล็ก (&lt; 2 cm ที่ระดับ hilum) ไม่มีอาการ · จะถูกถ้าผู้ป่วย primary PTX เล็กไม่มีอาการหอบ",
+   "D": "VATS bullectomy + pleurodesis ใช้เมื่อเป็นซ้ำ ข้างตรงข้าม air leak > 3–5 วัน หรืออาชีพเสี่ยง (นักบิน นักดำน้ำ) ไม่ใช่การรักษาเฉียบพลันครั้งแรก · จะถูกถ้าผู้ป่วยมี air leak ต่อเนื่องหลังใส่ ICD 5 วัน",
+   "E": "จำหน่ายกลับบ้านไม่ได้ในผู้ที่หอบเหนื่อยและ PTX ขนาดใหญ่ · จะถูกถ้า PTX เล็กไม่มีอาการและติดตามได้ใกล้ชิด"
+  },
+  "trap": "ตอบ observation เพราะจำว่า BTS 2023 ให้รักษาแบบ conservative ได้แม้ pneumothorax ใหญ่ — ใช้กับผู้ที่ไม่มีอาการหรืออาการน้อย ผู้ป่วยรายนี้หอบ · และอย่าสับสน needle aspiration (ดูดลมใน pneumothorax ธรรมดา) กับ needle decompression ใน tension pneumothorax",
+  "summary": [
+   "Primary = ไม่มีโรคปอด (ชายผอมสูงสูบบุหรี่ มี bleb ที่ยอดปอด) · secondary = มีโรคปอด (COPD, TB, cystic lung disease, มะเร็ง) อาการรุนแรงกว่าแม้ขนาดเล็ก",
+   "BTS 2023 ตัดสินจากอาการและปัจจัยเสี่ยงมากกว่าขนาด: ปัจจัยเสี่ยงสูง (สัญญาณชีพไม่คงที่ ขาดออกซิเจนมาก สองข้าง มีเลือดร่วม อายุ ≥ 50 + สูบบุหรี่มาก โรคปอดเดิม) → chest drain · primary มีอาการ → conservative, ambulatory device หรือ needle aspiration · ไม่มีอาการ → conservative แม้ขนาดใหญ่",
+   "วัดขนาดใน CXR: BTS ใช้ระยะขอบปอดถึงผนังอกที่ระดับ hilum ≥ 2 cm = ใหญ่ · ACCP ใช้ระยะที่ยอดปอด ≥ 3 cm",
+   "ใส่สายใน safe triangle (ขอบ pectoralis major, ขอบ latissimus dorsi, แนวระดับหัวนม/ช่องซี่โครงที่ 5) · สายเล็ก ≤ 14 Fr ใช้กับลมได้ · ห้ามหนีบสายที่ยังมีฟองลมออก",
+   "ป้องกันเป็นซ้ำ: เลิกบุหรี่ · ผ่าตัด VATS เมื่อลมรั่วนานเกิน 3–5 วัน เป็นซ้ำ เป็นสองข้าง หรืออาชีพเสี่ยง (นักบิน นักดำน้ำ) · งดดำน้ำลึกถ้าไม่ได้ผ่าตัด"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง · ไฟล์ Key 77C เขียน \"A/B?\" พร้อมบันทึกว่าอาจารย์ตอบ ICD เพราะ pneumothorax ใหญ่ · ถ้ายึด BTS 2023 อย่างเดียว needle aspiration ก็เป็นทางเลือกที่ยอมรับได้ใน primary pneumothorax ที่ไม่มีปัจจัยเสี่ยงสูง · ต้นฉบับมีช้อย 2 ตัว (A เขียนว่า \"Thoracocentesis\") เราเติม C–E",
+  "variants": [
+   "ผู้ป่วย COPD อายุ 65 ปี pneumothorax ขนาด 1.5 cm หอบมาก → secondary pneumothorax: ใส่ chest drain และรับไว้ในโรงพยาบาล แม้ขนาดเล็ก",
+   "หลังใส่สายระบาย pneumothorax ใหญ่ที่เป็นมาหลายวัน ปอดขยายแล้วผู้ป่วยไอและหอบมากขึ้น CXR เห็นปอดข้างนั้นฝ้าทั้งข้าง → re-expansion pulmonary edema: ให้ออกซิเจนประคับประคอง",
+   "หญิงอายุ 30 ปีเป็น pneumothorax ขวาซ้ำหลายครั้งในช่วงมีประจำเดือน → catamenial pneumothorax (endometriosis ที่กะบังลม): VATS ร่วมกับยาฮอร์โมน"
+  ]
+ },
+ "MDCU77|RoC|CVT 9": {
+  "interp": "ติดเชื้อในช่องเยื่อหุ้มปอดมา 6 สัปดาห์ CT เห็นหนองเป็นช่องและเยื่อหุ้มปอดหนาเป็น peel เจาะได้หนองข้นไม่กี่หยด = organizing (chronic) empyema ที่ปอดถูกรัด — ถามการรักษา",
+  "why": "Empyema 3 ระยะ: (1) exudative (น้ำใส ไหลอิสระ) → (2) fibrinopurulent (หนอง loculation, glucose/pH ต่ำ) → (3) organizing (หลัง ~3–6 สัปดาห์ fibroblast สร้าง peel หนาห่อปอด → trapped lung, fibrothorax) · ผู้ป่วยติดเชื้อ 6 สัปดาห์ CT เห็น thick peel + loculated collection เจาะได้หนองข้นไม่กี่หยด = organizing stage → ต้องทำ decortication (VATS หรือ open thoracotomy) ลอก peel ออกให้ปอดขยาย และระบายหนอง ร่วมกับ antibiotics (คีย์ไฟล์ 77C ตอบ A) · ระยะ 2 ใช้ chest drain ± intrapleural tPA/DNase ก่อน",
+  "wrong": {
+   "B": "เจาะซ้ำได้หนองไม่กี่หยดเหมือนเดิมเพราะหนองข้นและแบ่งเป็นช่อง ไม่แก้ peel ที่รัดปอด · จะถูกถ้าเป็น parapneumonic effusion ระยะแรกที่ยังเป็นน้ำใสไหลอิสระ",
+   "C": "Antibiotics อย่างเดียวไม่พอเมื่อมี loculation และ peel — ยาเข้าไม่ถึง และปอดไม่ขยาย · จะถูกถ้าเป็น uncomplicated parapneumonic effusion ขนาดเล็ก",
+   "D": "Chemical pleurodesis ใช้กับ malignant effusion/PTX ซ้ำ ห้ามในช่องที่ติดเชื้อ (และปอดที่ขยายไม่ได้ pleurodesis ไม่ได้ผล) · จะถูกถ้าโจทย์เป็น recurrent malignant pleural effusion ที่ปอดขยายได้",
+   "E": "การเฝ้าดูทำให้ติดเชื้อเรื้อรัง ปอดถูกรัดจนเป็น fibrothorax เสียหน้าที่ถาวร · ไม่มีสถานการณ์ใดที่เฝ้าดูอย่างเดียวเหมาะกับ organizing empyema ที่ยังติดเชื้อ — แม้ผ่าตัดใหญ่ไม่ได้ ก็ยังต้องระบายด้วย open window thoracostomy (Eloesser flap)"
+  },
+  "trap": "ใส่สายหรือเจาะซ้ำเพราะคิดว่าระบายหนองให้หมดก็พอ — ระยะ organizing ปัญหาหลักคือ peel ที่รัดปอดจนขยายไม่ได้ ต้องลอกออก · ต่างจากระยะ fibrinopurulent ที่ยังใช้สายระบายร่วมกับยาละลาย fibrin ได้",
+  "summary": [
+   "ระยะเวลาโดยประมาณ: exudative ไม่กี่วันแรก · fibrinopurulent ราว 1–3 สัปดาห์ · organizing ราว 3–6 สัปดาห์ขึ้นไป เมื่อ fibroblast สร้าง peel ห่อปอด (trapped lung)",
+   "Fibrinopurulent: chest drain + tPA 10 mg ร่วมกับ DNase 5 mg ทางสาย วันละ 2 ครั้ง 3 วัน (MIST-2 ลดเงาในช่องอกและการส่งผ่าตัด) หรือ VATS ระยะแรกในรายที่เหมาะ",
+   "Decortication: ลอก peel ที่ผิวปอดออกให้ปอดขยาย พร้อมล้างหนอง ทำผ่าน VATS ได้ถ้า peel ไม่หนามาก ไม่งั้น thoracotomy · ข้อบ่งชี้: organizing empyema ที่ยังติดเชื้อ หรือปอดไม่ขยายและมีอาการ",
+   "ผ่าตัดใหญ่ไม่ได้: open window thoracostomy (Eloesser flap) ให้หนองไหลออกเรื่อย ๆ · ห้ามทำ pleurodesis ในช่องที่ติดเชื้อ",
+   "Fibrothorax ที่หายติดเชื้อแล้วแต่ไม่มีอาการ ไม่ต้องลอก peel · เยื่อหุ้มปอดหนาจาก TB บางรายดีขึ้นเองหลังได้ยาครบ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง–สูง (ไฟล์ Key 77C ตอบ A) · ผู้จดจดแค่คำว่า \"Decorticate\" เราแต่งประวัติและช้อยทั้งหมด · ข้อ RoB CVT 1 ของชุดนี้ถาม post-traumatic empyema และการแยกจาก lung abscess",
+  "variants": [
+   "ผู้ป่วย empyema มีหนองเป็นช่อง ใส่สายระบายแล้ว 3 วันยังมีไข้ หนองค้าง → intrapleural tPA + DNase (MIST-2) หรือ VATS",
+   "เด็ก 4 ขวบ empyema หลังปอดบวม US เห็นผนังกั้นเป็นช่อง → chest drain + urokinase ทางสาย หรือ VATS ได้ผลใกล้เคียงกัน",
+   "ผู้ป่วยเยื่อหุ้มปอดหนาเป็นหินปูนข้างเดียวจาก TB pleurisy เก่า ไม่มีไข้ เหนื่อยเล็กน้อย → fibrothorax ไม่ติดเชื้อ: ติดตาม ไม่ต้องรีบ decortication"
+  ]
+ },
+ "MDCU77|RoC|CVT 10": {
+  "interp": "Severe MR ที่มีอาการ จาก flail posterior mitral leaflet (chordae ขาด) = primary (degenerative) MR — ถามการรักษา ประเด็นคือซ่อมกับเปลี่ยนลิ้น",
+  "why": "Severe primary MR ที่มีอาการมีข้อบ่งชี้ผ่าตัด และเมื่อทำได้ <b>ซ่อมลิ้นดีกว่าเปลี่ยน</b> — เก็บ chordae และ papillary muscle ไว้ทำให้ LV บีบตัวดีกว่า อัตราตายต่ำกว่า ไม่ต้องกินยาต้านการแข็งตัวตลอดชีวิต และติดเชื้อลิ้นน้อยกว่า · ลิ้นแผ่นหลังที่ flail จาก myxomatous degeneration (Carpentier type II) เป็นรอยโรคที่<b>ซ่อมง่ายและสำเร็จสูงที่สุด</b> ด้วยการตัดส่วนที่ flail หรือใส่ neochordae ร่วมกับ annuloplasty ring",
+  "wrong": {
+   "B": "Mitral valve replacement ใช้เมื่อซ่อมไม่ได้ (rheumatic รุนแรง, calcification มาก, infective endocarditis ทำลายลิ้นมาก) — degenerative flail posterior leaflet ซ่อมสำเร็จ > 95% ในศูนย์ที่ชำนาญและผลระยะยาวดีกว่า · จะถูกถ้าลิ้นเป็น rheumatic ที่หนาแข็งมี calcification",
+   "C": "ยาไม่เปลี่ยนการดำเนินโรคของ severe primary (degenerative) MR ที่มีอาการ (ACE inhibitor/diuretic แค่บรรเทา) · จะถูกถ้าเป็น secondary (functional) MR จาก LV dysfunction ที่ต้องเริ่ม GDMT ก่อน",
+   "D": "TAVI เป็นการเปลี่ยนลิ้น aortic ทางสายสวน (สำหรับ aortic stenosis) ไม่ใช่ลิ้น mitral · จะถูกถ้าผู้สูงอายุ severe AS ที่เสี่ยงผ่าตัดสูง (ส่วน mitral ทางสายสวนคือ TEER/MitraClip)",
+   "E": "Heart transplantation สำหรับ end-stage heart failure ที่การรักษาอื่นล้มเหลว · จะถูกถ้าผู้ป่วย EF &lt; 20% NYHA IV แม้ได้ยาและ device เต็มที่"
+  },
+  "trap": "เลือกเปลี่ยนลิ้นเพราะคำว่า flail ฟังดูเสียหายมาก — flail posterior leaflet กลับซ่อมง่ายที่สุด · และอย่าคิดว่ายาช่วยใน primary MR ยาแค่บรรเทาอาการระหว่างรอผ่าตัด",
+  "summary": [
+   "Carpentier classification: I ลิ้นขยับปกติ (annulus ขยาย ลิ้นทะลุ) · II ขยับมากเกิน (prolapse, flail) · IIIa ขยับจำกัดทั้งช่วงบีบและคลาย (rheumatic) · IIIb จำกัดช่วงบีบ (ischemic/functional — LV ขยายดึงลิ้น)",
+   "เทคนิคซ่อม: ตัดส่วนที่ flail (triangular/quadrangular resection) หรือใส่ neochordae (PTFE) + annuloplasty ring ทุกราย · ซ่อมสำเร็จสูงมากใน posterior leaflet แต่ยากขึ้นใน anterior leaflet, bileaflet (Barlow) และลิ้นที่มีหินปูน → ส่งศูนย์ที่ซ่อมลิ้นจำนวนมาก",
+   "Flail posterior leaflet ทำให้ jet ของ MR พุ่งไปทางตรงข้าม (ด้านหน้า/ผนังกั้นห้อง) · AF ใหม่หรือ pulmonary hypertension บอกว่าโรคก้าวหน้า",
+   "TEE ระหว่างผ่าตัดประเมินผลซ่อมทุกราย: MR ที่เหลือ และ systolic anterior motion (SAM) ของ anterior leaflet ที่อุด LVOT",
+   "ข้อบ่งชี้ผ่าตัดในผู้ไม่มีอาการ (LVEF, LVESD) และ TEER ในผู้เสี่ยงผ่าตัดสูง ดูข้อ RoA CVT 2 ของชุดนี้"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง (ไฟล์ Key 77C ตอบ A) · ผู้จดจดไว้แค่คำตอบ เราแต่งช้อย B–E · ข้อ RoA CVT 2 ของชุดนี้ก็ตอบ mitral valve repair ใน severe MR",
+  "variants": [
+   "ผู้ป่วย MVP ทั้งสองแผ่น (Barlow) ลิ้นหนาย้วยมาก severe MR มีอาการ → ส่งศูนย์ที่ซ่อมลิ้นจำนวนมาก (ซ่อมยากกว่า posterior flail)",
+   "ผู้ป่วยอายุ 86 ปี frail severe degenerative MR ความเสี่ยงผ่าตัดสูงมาก กายวิภาคเหมาะ → transcatheter edge-to-edge repair",
+   "หลังซ่อมลิ้น mitral TEE เห็น anterior leaflet ถูกดึงเข้า LVOT ความดันตก → SAM: ให้สารน้ำ เพิ่ม afterload หยุด inotrope ถ้าไม่ดีขึ้นแก้ไขการซ่อม"
+  ]
+ },
+ "MDCU77|RoC|Ped 1": {
+  "why": "ภาพ ERCP (ตามที่บันทึกไว้) เห็น<b>ท่อน้ำดีนอกตับโป่งเป็นถุง</b>ร่วมกับ<b>ท่อตับอ่อนมาร่วมกับท่อน้ำดีเป็นท่อร่วมยาว</b> (anomalous pancreaticobiliary junction, APBJ) = choledochal cyst (Todani type I ซึ่งพบบ่อยที่สุด) · APBJ อยู่นอกการควบคุมของ sphincter of Oddi น้ำย่อยตับอ่อนจึงไหลย้อนเข้าท่อน้ำดี ทำให้อักเสบและโป่ง · เด็กมาด้วยปวดท้องเป็นพัก ๆ ดีซ่าน หรือตับอ่อนอักเสบ · ต้องผ่าตัดเพราะเสี่ยง cholangitis นิ่ว ตับอ่อนอักเสบ และมะเร็งท่อน้ำดี",
+  "wrong": {
+   "B": "Biliary atresia เป็นท่อน้ำดีอุดตันจาก fibrosis ในทารก &lt; 3 เดือน (ตัวเหลือง อุจจาระซีด) ไม่เห็นท่อน้ำดีนอกตับโป่ง · จะถูกถ้าทารก 6 สัปดาห์ตัวเหลือง อุจจาระซีด และ US เห็น triangular cord sign",
+   "C": "Caroli disease = ท่อน้ำดี \"ในตับ\" โป่งเป็นถุงหลายอัน (Todani type V) สัมพันธ์ congenital hepatic fibrosis/ARPKD · จะถูกถ้า MRCP เห็น saccular dilatation หลายจุดของท่อน้ำดีในตับ (central dot sign)",
+   "D": "Pancreatic pseudocyst อยู่ที่ตับอ่อน ไม่ต่อกับท่อน้ำดี เกิดหลัง pancreatitis/trauma ≥ 4 สัปดาห์ · จะถูกถ้าเด็กถูกกระแทกท้อง (handlebar injury) แล้วมีก้อนน้ำที่ตับอ่อนหลายสัปดาห์ต่อมา",
+   "E": "Gallbladder duplication พบน้อยมาก เป็นถุงน้ำดีสองถุงที่ท่อน้ำดีปกติ ไม่ทำให้ท่อน้ำดีนอกตับโป่ง · จะถูกถ้า US ช่องท้องเห็นถุงน้ำดีสองถุงแยกกันในผู้ป่วยที่ไม่มีอาการ"
+  },
+  "trap": "เห็นท่อน้ำดีโป่งแล้วตอบ Caroli — Caroli โป่งเฉพาะท่อในตับ ภาพนี้โป่งนอกตับ · หรือตอบ biliary atresia เพราะเด็กตัวเหลือง — atresia ท่อตีบตันไม่โป่ง และเป็นในทารกอายุไม่กี่เดือน",
+  "summary": [
+   "Todani: I ท่อน้ำดีนอกตับโป่งรูปกระสวย/ถุง (พบบ่อยสุด) · II diverticulum · III choledochocele (ส่วนท้ายใน duodenum) · IVa ทั้งในและนอกตับ · IVb นอกตับหลายถุง · V Caroli (ในตับอย่างเดียว)",
+   "APBJ: ท่อร่วมยาวผิดปกติ (มักเกิน 8–15 mm) → น้ำย่อยตับอ่อนไหลย้อน amylase ในน้ำดีสูง · APBJ ที่ท่อน้ำดีไม่โป่งก็ยังเสี่ยงมะเร็งถุงน้ำดี",
+   "อาการ: ทารก/เด็กเล็ก — ดีซ่าน คลำได้ก้อน · เด็กโต/ผู้ใหญ่ — ปวดท้องเป็นพัก ๆ ตับอ่อนอักเสบ cholangitis · triad ปวด เหลือง ก้อน พบครบแค่ส่วนน้อย",
+   "ภาพ: US เป็นอันดับแรก → MRCP (ไม่รุกล้ำ เห็น APBJ) · ERCP เมื่อต้องรักษาผ่านกล้อง · ถุงใต้ตับที่เห็นตั้งแต่ในครรภ์ต้องแยกจาก cystic biliary atresia ซึ่งต้องผ่าตัดเร็ว",
+   "รักษา: ตัดถุงออกทั้งหมด + Roux-en-Y hepaticojejunostomy (type I, IV) · ไม่ต่อถุงกับลำไส้ (cystenterostomy) เพราะเยื่อบุที่เหลือกลายเป็นมะเร็งและ cholangitis ซ้ำ · type III → endoscopic sphincterotomy · type V → ตัดตับส่วนนั้นหรือปลูกถ่ายตับ · หลังตัดยังมีความเสี่ยงมะเร็งเล็กน้อย ติดตามระยะยาว"
+  ],
+  "opinion": "ไฟล์ Key 77C ช่องคำตอบว่าง — ตอบ A ความมั่นใจสูง จากภาพ ERCP (ตามที่บันทึกไว้) ที่ท่อน้ำดีนอกตับโป่งร่วมกับท่อร่วมยาว · ต้นฉบับมีแค่ภาพที่ปิดชื่อไว้กับคำว่า \"Dx\" เราแต่งโจทย์และช้อยทั้งหมด",
+  "variants": [
+   "ผู้ใหญ่เคยผ่าตัดต่อ choledochal cyst กับ duodenum ตอนเด็ก มี cholangitis ซ้ำ ๆ → ตัดถุงที่เหลือ + Roux-en-Y hepaticojejunostomy (เสี่ยงมะเร็งในถุงเดิม)",
+   "US ตอนตั้งครรภ์เห็นถุงน้ำใต้ตับ หลังคลอดทารกตัวเหลือง อุจจาระซีด → ต้องแยก cystic biliary atresia ด่วน (ผ่าตัดภายในไม่กี่สัปดาห์) จาก choledochal cyst",
+   "เด็ก 5 ขวบตับอ่อนอักเสบซ้ำ MRCP เห็นท่อร่วมยาวแต่ท่อน้ำดีไม่โป่ง → APBJ ไม่มีถุงโป่ง: ผ่าตัดถุงน้ำดีป้องกันมะเร็ง (การตัดท่อน้ำดีร่วมยังถกเถียง)"
+  ]
+ },
+ "MDCU77|RoC|Ped 2": {
+  "interp": "ทารก 3 สัปดาห์ที่เคยกินดี อาเจียนน้ำดี \"ทันที\" — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ซึ่งต้องคิดถึงก่อนเพราะอันตรายที่สุด คือ malrotation with midgut volvulus",
+  "why": "อาเจียนเป็น<b>น้ำดี</b>แปลว่าอุดตันต่ำกว่า ampulla of Vater · ทารกที่เคยปกติแล้วเกิดขึ้นทันที → <b>midgut volvulus</b> บน malrotation เป็นอันดับแรกจนพิสูจน์ได้ว่าไม่ใช่ เพราะลำไส้เล็กบิดรอบ SMA ทำให้ลำไส้ทั้ง midgut ขาดเลือดได้ในไม่กี่ชั่วโมง · โรคอื่นในช้อยไม่เข้า: pyloric stenosis และ reflux อาเจียนไม่มีน้ำดี · duodenal atresia มีอาการตั้งแต่วันแรก · NEC เป็นทารกคลอดก่อนกำหนดที่ท้องอืดถ่ายเป็นเลือด",
+  "wrong": {
+   "B": "HPS อาเจียนพุ่ง \"ไม่มีน้ำดี\" (อุดที่ pylorus เหนือ ampulla) อายุ 3–6 สัปดาห์ หิวตลอด · จะถูกถ้าทารกอาเจียนพุ่งเป็นนมไม่มีสีเขียวและคลำได้ olive",
+   "C": "Duodenal atresia อาเจียน (มักมีน้ำดี) ตั้งแต่วันแรก ๆ หลังคลอด ไม่ใช่ทารกที่กินดีมา 3 สัปดาห์ · จะถูกถ้าทารกที่แม่มีน้ำคร่ำมาก อาเจียนน้ำดีตั้งแต่มื้อแรก และ X-ray เป็น double bubble ไม่มีลมในลำไส้ส่วนปลาย",
+   "D": "GER ทำให้แหวะนมหรืออาเจียนที่ไม่มีน้ำดี ทารกดูดี น้ำหนักขึ้นปกติ ไม่เกิดทันทีแบบนี้ · จะถูกถ้าทารกแหวะนมหลังกินเป็นประจำโดยไม่มีน้ำดีและไม่มีอาการอื่น",
+   "E": "NEC พบในทารกคลอดก่อนกำหนดที่เริ่มกินนม ท้องอืด ถ่ายเป็นเลือด pneumatosis · จะถูกถ้าทารก preterm 30 สัปดาห์มีท้องอืดและถ่ายเป็นเลือด"
+  },
+  "trap": "เห็นอายุ 3 สัปดาห์แล้วนึกถึง pyloric stenosis เพราะอายุตรง — HPS อาเจียนไม่มีน้ำดีเพราะอุดเหนือ ampulla · คำว่า \"เคยกินดี\" + \"ทันที\" + \"น้ำดี\" ต้องคิด volvulus · ภาพรังสีช่องท้องปกติก็ไม่ตัด volvulus",
+  "summary": [
+   "น้ำดีในอาเจียน = อุดตันต่ำกว่า ampulla (ส่วนที่สองของ duodenum ลงไป) · สีเขียวเข้มหรือเขียวมรกต ไม่ใช่สีเหลือง · ทารกอาเจียนน้ำดีถือเป็นภาวะทางศัลยกรรมจนพิสูจน์ได้ว่าไม่ใช่",
+   "แยกตามเวลาเริ่ม: วันแรก ๆ → duodenal/jejunoileal atresia, meconium ileus, Hirschsprung · ทารกที่เคยปกติแล้วเกิดทันที → volvulus",
+   "X-ray ช่องท้อง: double bubble ไม่มีลมส่วนปลาย → duodenal atresia · double bubble มีลมส่วนปลาย → ต้องคิด volvulus, duodenal web/stenosis · triple bubble → jejunal atresia · ลำไส้โป่งหลายห่วง → ileal atresia, meconium ileus, Hirschsprung (ทำ contrast enema)",
+   "ดูแลทันที: งดนม ใส่ NG ระบาย ให้สารน้ำทางหลอดเลือดและแก้เกลือแร่ ปรึกษาศัลยแพทย์เด็ก · สัญญาณชีพคงที่ → UGI study ด่วน · ช็อกหรือท้องแข็ง → ผ่าตัด",
+   "Duodenal atresia: ร่วม Down syndrome ราวหนึ่งในสาม หัวใจพิการ annular pancreas · ผ่าตัด duodenoduodenostomy หลังเตรียมผู้ป่วย ไม่ด่วนเท่า volvulus"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง (ไฟล์ Key 77C ตอบ A) · ผู้จดจดไว้แค่คำตอบ เราแต่งช้อยและเติมอายุ 3 สัปดาห์ · ภาพ UGI และ Ladd procedure ดูข้อ RoA Ped 8 และ RoB Ped 1 ของชุดนี้",
+  "variants": [
+   "ทารกอายุ 2 วัน X-ray เป็น double bubble แต่มีลมในลำไส้ส่วนปลายเล็กน้อย → ไม่ใช่ atresia สมบูรณ์ ต้องทำ UGI ด่วนแยก volvulus กับ duodenal web",
+   "ทารกแรกเกิดท้องอืดมาก อาเจียนน้ำดี ไม่ถ่ายขี้เทา X-ray ลำไส้โป่งหลายห่วง → contrast enema เห็น microcolon: ileal atresia หรือ meconium ileus",
+   "ทารก 3 สัปดาห์อาเจียนน้ำดี แพทย์ให้ยากระตุ้นการบีบตัวของกระเพาะแล้วนัดดูอาการ → ไม่ถูก: ต้องงดนม ใส่ NG ให้สารน้ำ และปรึกษาศัลยแพทย์ทันที"
+  ]
+ },
+ "MDCU77|RoC|Ped 3": {
+  "interp": "ถามข้อความที่ถูกเกี่ยวกับ gastroschisis — ช้อยที่เหลือเป็นลักษณะของ omphalocele ทั้งหมด ต้องแยกสองโรคให้ได้ และรู้ว่าความผิดปกติร่วมของ gastroschisis อยู่ที่ลำไส้เอง",
+  "why": "Gastroschisis คือผนังหน้าท้องเป็นรูทางขวาของสายสะดือ ลำไส้ออกมาลอยในน้ำคร่ำโดย<b>ไม่มีถุงหุ้ม</b> · ส่วนใหญ่เป็นความผิดปกติเดี่ยว ๆ ไม่ค่อยมีความผิดปกติของอวัยวะอื่นหรือโครโมโซม แต่<b>ลำไส้เองเสียหายได้</b>: รูที่แคบรัดหลอดเลือดลำไส้หรือลำไส้บิดในครรภ์ ทำให้เกิด <b>intestinal atresia</b> ราว 10–15% · ช้อยอื่น (ความผิดปกติร่วมมาก ตับออกมาด้วย มีถุงหุ้ม สัมพันธ์ Beckwith–Wiedemann) เป็นลักษณะของ omphalocele",
+  "wrong": {
+   "A": "Associated anomalies มาก (หัวใจ โครโมโซม BWS) เป็นลักษณะของ omphalocele — gastroschisis ส่วนใหญ่ isolated (ยกเว้น intestinal atresia) · จะถูกถ้าภาพเป็น omphalocele ที่มีถุงหุ้มอยู่ที่ฐานสายสะดือ",
+   "C": "ตับยื่นออกมาเป็นลักษณะของ giant omphalocele — gastroschisis มักมีแค่ลำไส้ ± กระเพาะ · จะถูกถ้าเป็น omphalocele ขนาด > 5 cm ที่มีตับในถุง",
+   "D": "ถุงหุ้ม (amnion + peritoneum) เป็นของ omphalocele — gastroschisis ลำไส้ลอยในน้ำคร่ำโดยไม่มีถุง จึงบวมหนามี fibrin peel · จะถูกถ้าภาพเป็น omphalocele",
+   "E": "Beckwith–Wiedemann syndrome (macroglossia, neonatal hypoglycemia, hemihypertrophy, เสี่ยง Wilms/hepatoblastoma) สัมพันธ์กับ omphalocele · จะถูกถ้าทารกมี omphalocele ร่วมกับลิ้นโตและน้ำตาลต่ำ"
+  },
+  "trap": "จำลักษณะสองโรคสลับกัน · หรืออ่าน \"gastroschisis ไม่มีความผิดปกติร่วม\" แล้วคิดว่าไม่มีอะไรเลย — ความผิดปกติที่พบคือของลำไส้เอง (atresia ลำไส้ตาย ลำไส้สั้น) ไม่ใช่ของอวัยวะอื่น",
+  "summary": [
+   "Atresia ใน gastroschisis เกิดจากเลือดเลี้ยงลำไส้ถูกรัดที่รูผนังท้องหรือ volvulus ในครรภ์ ทำให้เป็น complex gastroschisis (ข้อ RoB Ped 8 ของชุดนี้)",
+   "พบ atresia ตอนแรกเกิด: ลำไส้บวมมี peel ต่อยาก → ปิดหน้าท้องก่อน แล้วต่อลำไส้ภายหลังราว 4–6 สัปดาห์เมื่อการอักเสบลด · ลำไส้สภาพดีพอ → ต่อในครั้งแรกได้",
+   "Jejunoileal atresia (Grosfeld): I web · II แถบพังผืด · IIIa ขาดจากกันพร้อม mesentery รูปตัว V · IIIb apple-peel (ลำไส้ส่วนปลายพันรอบหลอดเลือดเส้นเดียว) · IV หลายจุด — เกิดจากหลอดเลือดอุดตันในครรภ์ ต่างจาก duodenal atresia ที่เกิดจากท่อไม่กลวงกลับ",
+   "Embryology: omphalocele = ลำไส้ที่ออกไปในสายสะดือช่วงสัปดาห์ที่ 6–10 ไม่กลับเข้าช่องท้อง จึงมีถุง (amnion + peritoneum) · gastroschisis = ผนังหน้าท้องข้างขวาของสะดือไม่ปิด จึงไม่มีถุง",
+   "พยากรณ์: gastroschisis รอดกว่า 90% ขึ้นกับสภาพลำไส้ · omphalocele ขึ้นกับความผิดปกติร่วม (หัวใจ โครโมโซม) · การดูแลแรกเกิดและการปิดหน้าท้องดูข้อ RoA Ped 10 ของชุดนี้"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ไฟล์ Key 77C ตอบ B) · ต้นฉบับบอกว่าข้อสอบให้ภาพ gastroschisis แต่ไม่มีภาพในไฟล์ เราจึงแก้โจทย์ให้ระบุโรคแทน \"is shown\" · ผู้จดบันทึกว่าช้อยอื่นเป็นลักษณะ omphalocele เราแต่ง D, E ตามนั้น",
+  "variants": [
+   "ระหว่างดันลำไส้ gastroschisis กลับ พบ jejunal atresia ลำไส้บวมมี peel หนา → ปิดหน้าท้องก่อน แล้วต่อลำไส้ภายหลังราว 4–6 สัปดาห์",
+   "ทารกแรกเกิดอาเจียนน้ำดี ผ่าตัดพบลำไส้ส่วนปลายพันเป็นเกลียวรอบหลอดเลือดเส้นเดียว → apple-peel atresia (type IIIb): เสี่ยง short bowel",
+   "ทารก gastroschisis ที่ห้องคลอด ลำไส้ตรงขอบรูคล้ำดำ ขอบรูรัดแน่น → ขยายรูผนังท้องทันทีเพื่อคืนเลือดเลี้ยงลำไส้"
+  ]
  }
 }
