@@ -123,5 +123,133 @@
    "เด็กกลืนแม่เหล็ก 2 ชิ้น X-ray เห็นอยู่ในกระเพาะ → ส่องกล้องเอาออก",
    "เด็กกลืนเหรียญอยู่ในกระเพาะ 4 สัปดาห์แล้วยังไม่ออก ไม่มีอาการ → ส่องกล้องเอาออก"
   ]
+ },
+ "MDCU78|RoB|60": {
+  "interp": "เด็ก 5 ปี scald burn 8% TBSA ชนิด partial thickness ที่หน้าและคอ ไม่มีอาการของ inhalation injury และสัญญาณชีพปกติ → ขนาดไม่ถึงเกณฑ์ให้สารน้ำ IV ตามสูตร แต่ตำแหน่งหน้า/คอเป็นบริเวณพิเศษ → ถามการดูแลที่เหมาะสม",
+  "why": "ขนาด 8% (&lt; 10%) ในเด็กที่ดื่มน้ำได้ ไม่ต้อง formal IV resuscitation · แต่<b>ไฟไหม้ที่หน้า คอ มือ เท้า อวัยวะเพศ perineum และข้อใหญ่</b>เป็นเกณฑ์ส่งต่อ/admit ตาม ABA แม้ขนาดเล็ก เพราะ: หน้าและคอบวมได้มากใน 24–48 ชม. ต้องเฝ้าระวังทางเดินหายใจ, ต้องตรวจตา (fluorescein) และดูแลแผลให้ได้ผลด้านความสวยงามและการใช้งาน, เด็กต้องการยาแก้ปวดและสารน้ำ/อาหารเพียงพอ · ดูแล: ทำความสะอาดแผล ทา antibiotic ointment แบบเปิดที่หน้า, ยาแก้ปวด, ยกหัวสูง, tetanus ตามประวัติ · ทุกรายที่เป็นเด็กต้องดูว่าลักษณะแผลเข้ากับประวัติหรือไม่ (child abuse: แผลแช่น้ำร้อนขอบคม เป็นรูปถุงมือ/ถุงเท้า เว้นรอยพับ)",
+  "wrong": {
+   "B": "IV resuscitation ตามสูตรใช้เมื่อ burn ขนาดใหญ่ (เด็กราว ≥ 10–15% TBSA, ผู้ใหญ่ ≥ 20%) และในเด็กใช้ 3 mL/kg/%TBSA ร่วมกับ maintenance fluid ที่มี dextrose ไม่ใช่ Parkland 4 mL — 8% ที่ดื่มได้ไม่ต้องให้; จะถูกถ้าเด็ก 5 ปี scald burn 20% TBSA partial thickness ที่ลำตัวและแขน",
+   "C": "ไฟไหม้ที่หน้าและคอในเด็กเป็นเกณฑ์ admit/ส่งต่อ เพราะบวมทางเดินหายใจได้ ต้องดูแลแผลและตา และประเมิน abuse — ให้กลับบ้านไม่ปลอดภัย; จะถูกถ้าเด็กมี superficial partial thickness 2% ที่ปลายแขน ไม่ใช่บริเวณพิเศษ ผู้ปกครองดูแลแผลได้ และประวัติเข้ากับแผล",
+   "D": "Early excision and grafting ใช้กับ deep partial หรือ full thickness ที่ไม่น่าหายเองภายใน 3 สัปดาห์ (ทำภายในราว 3–7 วัน) — partial thickness ที่หน้าซึ่งเลือดเลี้ยงดีส่วนใหญ่หายเอง; จะถูกถ้าเป็น full-thickness burn 8% ที่ลำตัว ผิวขาวซีดแข็ง ไม่เจ็บ",
+   "E": "Escharotomy ใช้กับ circumferential full-thickness burn ที่แขนขา อก หรือคอ ซึ่ง eschar แข็งรัดจนขาดเลือดส่วนปลายหรือหายใจไม่ได้ — partial thickness ไม่มี eschar แข็งรัด; จะถูกถ้า full-thickness burn รอบอกทั้งวง ผู้ป่วยหายใจตื้นลง peak airway pressure สูงขึ้น"
+  },
+  "trap": "คิดว่า burn เล็กกว่า 10% ไม่ต้อง admit — ขนาดเป็นเกณฑ์เรื่องให้สารน้ำ แต่ตำแหน่ง (หน้า คอ มือ เท้า อวัยวะเพศ ข้อใหญ่) ความลึก (full thickness) inhalation injury ไฟฟ้า สารเคมี และสงสัย abuse เป็นเกณฑ์ admit/ส่งต่อแยกกัน · เด็กคำนวณ TBSA ด้วย Lund–Browder (ศีรษะสัดส่วนใหญ่กว่าผู้ใหญ่) ไม่ใช่ rule of nines ของผู้ใหญ่",
+  "summary": [
+   "ความลึก: superficial (แดง ไม่พอง ไม่นับใน TBSA) · superficial partial (พอง ชมพู เจ็บมาก หายใน 2–3 สัปดาห์) · deep partial (ซีดเป็นจ้ำ เจ็บน้อยลง หายเกิน 3 สัปดาห์ ต้อง graft) · full thickness (ขาวหรือน้ำตาลแข็ง ไม่เจ็บ)",
+   "TBSA ในเด็ก: Lund–Browder (ทารกศีรษะราว 18–19% ขาแต่ละข้างน้อยกว่าผู้ใหญ่) · แผลเล็กใช้ฝ่ามือรวมนิ้วของผู้ป่วย ≈ 1%",
+   "เกณฑ์ส่งต่อ burn center (ABA 2022): partial thickness ≥ 10% · full thickness ทุกขนาด · หน้า มือ เท้า อวัยวะเพศ perineum ข้อใหญ่ · inhalation injury · ไฟฟ้าแรงสูง ≥ 1,000 V · สารเคมีทุกราย · เด็กที่สงสัย abuse",
+   "สารน้ำ: ผู้ใหญ่เริ่ม 2 mL/kg/%TBSA (ATLS/ABA) · เด็ก 3 mL/kg/%TBSA + maintenance ที่มี dextrose ในเด็กเล็ก · ปรับตามปัสสาวะ (ผู้ใหญ่ 0.5 · เด็ก ≤ 30 kg 1 mL/kg/ชม.)",
+   "Child abuse: แผลแช่น้ำร้อนขอบคมสม่ำเสมอ รูปถุงมือ/ถุงเท้า เว้นรอยพับ ก้นและฝ่าเท้า · แผลบุหรี่กลม ๆ · ประวัติไม่เข้ากับแผลหรือมาช้า",
+   "Burn ที่หน้า: ตรวจตาด้วย fluorescein · ล้างและทา ointment แบบเปิด · ยกหัวสูงลดบวม · ระวังหู (chondritis)"
+  ],
+  "opinion": "ไม่มีแถวของข้อนี้ในไฟล์ Key 78B — เฉลยโดยผม ตอบ A ความมั่นใจปานกลาง–สูง; ต้นฉบับจดไว้แค่เด็ก burn 8% ที่ศีรษะและคอ เราจึงระบุ partial thickness และไม่มี inhalation injury ให้ชัด ถ้าข้อสอบจริงมีเสียงแหบ/เขม่าในปาก คำตอบจะเปลี่ยนเป็นการดูแลทางเดินหายใจ (intubation)",
+  "variants": [
+   "เด็ก 4 ปี scald burn 20% TBSA partial thickness → IV fluid 3 mL/kg/%TBSA + maintenance dextrose, ปัสสาวะเป้า 1 mL/kg/ชม.",
+   "ผู้ป่วยไฟไหม้ในห้องปิด เสียงแหบ ขนจมูกไหม้ มีเขม่าในปาก → ใส่ท่อช่วยหายใจแต่เนิ่น ๆ",
+   "เด็ก 2 ปีแผลน้ำร้อนลวกที่เท้าทั้งสองข้างเป็นรูปถุงเท้าขอบคม เว้นฝ่าเท้า → สงสัย child abuse: admit และแจ้งทีมคุ้มครองเด็ก",
+   "Full-thickness burn รอบแขนทั้งวง นิ้วซีดเย็น capillary refill ช้า → escharotomy"
+  ]
+ },
+ "MDCU78|RoB|61": {
+  "interp": "ถามกลไกหลักที่ cardioplegia ทำให้หัวใจหยุดเต้นระหว่าง CABG บน cardiopulmonary bypass — สารละลายที่ให้เข้าทาง aortic root เพื่อให้หัวใจหยุดนิ่งในระยะคลายตัว (diastole) และลดการใช้พลังงานของกล้ามเนื้อหัวใจ",
+  "trap": "สับสนว่าโพแทสเซียมสูงทำให้ hyperpolarize — ที่ถูกคือ <b>K⁺ สูง → depolarize</b> (membrane potential บวกขึ้น) จน Na⁺ channel ถูก inactivate จึงหยุดใน diastole · ความเย็นช่วยลดการใช้ O<sub>2</sub> แต่ไม่ใช่กลไกหลักที่หยุดหัวใจ · calcium ต้องต่ำ ไม่ใช่สูง",
+  "summary": [
+   "เป้าหมาย cardioplegia: หัวใจหยุดนิ่งในสนามผ่าตัดไร้เลือด + ปกป้องกล้ามเนื้อหัวใจระหว่าง aortic cross-clamp (ischemia)",
+   "กลไก: K⁺ สูง (ราว 15–30 mEq/L) → depolarized arrest ใน diastole · Mg²⁺ ช่วยกั้น Ca²⁺ · hypothermia ลด O<sub>2</sub> consumption · buffer ลด acidosis",
+   "ชนิด: crystalloid (St. Thomas), blood cardioplegia (ส่ง O<sub>2</sub> ได้), del Nido (ให้ครั้งเดียวได้นาน นิยมในเด็กและผู้ใหญ่บางกลุ่ม)",
+   "ทางให้: antegrade ทาง aortic root/coronary ostia · retrograde ทาง coronary sinus (ช่วยเมื่อ coronary ตีบมากหรือ aortic regurgitation)",
+   "หลังเอา cross-clamp ออก: reperfusion injury จาก Ca²⁺ overload และ free radicals · ภาวะ myocardial stunning ต้องใช้ inotrope ชั่วคราวได้"
+  ],
+  "opinion": "ไม่มีแถวของข้อนี้ในไฟล์ Key 78B — เฉลยโดยผม ตอบ A ความมั่นใจสูง; ต้นฉบับจดแค่ cardioplegia action เราจึงแต่งช้อยให้ทดสอบกลไก K⁺ สูง depolarized diastolic arrest ซึ่งเป็นความรู้มาตรฐาน",
+  "variants": [
+   "Cardioplegia ส่วนใหญ่ทำให้หัวใจหยุดในระยะใด → diastole (depolarized arrest จาก K⁺ สูง)",
+   "ผู้ป่วยมี aortic regurgitation รุนแรงขณะผ่าตัด ให้ cardioplegia ทาง aortic root ไม่ได้ผล → ให้ retrograde ทาง coronary sinus หรือเข้า coronary ostia โดยตรง",
+   "ข้อดีของ blood cardioplegia เมื่อเทียบกับ crystalloid → ส่ง O<sub>2</sub> และ buffer ให้กล้ามเนื้อหัวใจได้ดีกว่า",
+   "หลังเอา aortic cross-clamp ออก หัวใจบีบตัวอ่อนชั่วคราวทั้งที่ไม่มีกล้ามเนื้อตาย → myocardial stunning"
+  ]
+ },
+ "MDCU78|RoB|62": {
+  "interp": "ผู้ป่วยปวดศีรษะรุนแรงทันทีเมื่อ 10 วันก่อน CT ปกติ จะเจาะ LP หา xanthochromia → ถามว่าหลัง SAH ตรวจพบ xanthochromia ได้น่าเชื่อถือนานประมาณเท่าใด (ตอบได้ว่า 10 วันยังอยู่ในช่วงที่ LP มีประโยชน์)",
+  "why": "Xanthochromia คือ CSF สีเหลืองจาก oxyhemoglobin และ bilirubin ที่เกิดจากการสลายเม็ดเลือดแดงใน subarachnoid space · bilirubin ต้องใช้เวลาสร้างราว 12 ชม. จึงควรเจาะ LP หลังเริ่มปวด ≥ 12 ชม. · หลังจากนั้นตรวจพบได้ในเกือบทุกรายนานราว <b>2 สัปดาห์</b> แล้วค่อย ๆ หาย (3 สัปดาห์ราว 70%, 4 สัปดาห์ราว 40%) · วิธีที่ไวที่สุดคือ spectrophotometry ดูด้วยตาไวน้อยกว่า · ใช้แยก SAH จริงจาก traumatic tap: traumatic tap เม็ดเลือดแดงลดลงจากหลอดแรกถึงหลอดสุดท้ายและไม่มี xanthochromia · เมื่อยืนยัน SAH แล้วต้องหา aneurysm ด้วย CTA/DSA",
+  "wrong": {
+   "A": "24 ชม.สั้นเกินไป — ช่วงนี้เพิ่งเริ่มตรวจพบ (xanthochromia เกิดหลัง ~6–12 ชม. เมื่อ RBC แตกเป็น oxyhemoglobin/bilirubin) ไม่ใช่ขีดจำกัดบน · จะถูกถ้าโจทย์ถามเวลาที่ควรรอก่อนเจาะ LP (≥ 12 ชม.หลังเริ่มปวด)",
+   "B": "3 วันยังตรวจพบได้แน่นอน (ระดับสูงสุดช่วง 1 สัปดาห์แรก) แต่ไม่ใช่ขีดจำกัด · จะถูกถ้าโจทย์ถามช่วงเวลาที่ xanthochromia ตรวจพบได้ชัดที่สุด (ภายในไม่กี่วันแรก)",
+   "D": "6 สัปดาห์เกินช่วงที่เชื่อถือได้ — หลัง SAH ราว 3 สัปดาห์ยังพบ xanthochromia ราว 70% และ 4 สัปดาห์เหลือราว 40% · ไม่มีสถานการณ์ใดที่ใช้ 6 สัปดาห์เป็นช่วงที่ตรวจพบได้แน่นอน เพราะผลลบในช่วงนี้ตัด SAH ไม่ได้ ต้องใช้ CTA/MRA หา aneurysm แทน",
+   "E": "3 เดือน bilirubin ใน CSF หายไปนานแล้ว — ไม่มีสถานการณ์ใดที่ xanthochromia ยังเชื่อถือได้ที่ 3 เดือน ถ้าสงสัย SAH ที่เกิดนานแล้วให้หา aneurysm ด้วย CTA/MRA (หรือ DSA) โดยตรง"
+  },
+  "trap": "สับสนเวลาเริ่มกับเวลาหาย — xanthochromia <b>เริ่ม</b>ตรวจพบราว 12 ชม. (จึงไม่ควรเจาะเร็วกว่านั้น) และ<b>อยู่</b>ได้น่าเชื่อถือราว 2 สัปดาห์ · ส่วน CT ไวที่สุดในวันแรก (ภายใน 6 ชม. เกือบ 100%) แล้วลดลงเรื่อย ๆ เหลือราว 50% ที่ 1 สัปดาห์ จึงต้องพึ่ง LP เมื่อมาช้า",
+  "summary": [
+   "Thunderclap headache (ปวดสุดภายใน 1 นาที) → CT ไม่ฉีดสี: ภายใน 6 ชม. บนเครื่องรุ่นใหม่ในผู้ป่วยที่ตรวจระบบประสาทปกติ ผลลบเกือบตัด SAH ได้",
+   "CT ปกติแต่มาช้ากว่า 6 ชม. → LP (หลังปวด ≥ 12 ชม.) หา xanthochromia หรือ CTA หา aneurysm",
+   "Xanthochromia: เริ่มราว 12 ชม. · พบเกือบทุกรายถึงราว 2 สัปดาห์ · 3 สัปดาห์ราว 70% · 4 สัปดาห์ราว 40% · spectrophotometry ไวที่สุด",
+   "Traumatic tap: RBC ลดลงจากหลอด 1 → 4 · ไม่มี xanthochromia · SAH จริง: RBC ใกล้เคียงกันทุกหลอด + xanthochromia",
+   "Ottawa SAH rule: อายุ ≥ 40 ปี, ปวดคอ/คอแข็ง, หมดสติ, เริ่มขณะออกแรง, thunderclap, งอคอได้จำกัด → ต้องสืบค้นต่อ",
+   "ยืนยัน SAH → CTA (หรือ DSA) หา aneurysm → coiling/clipping ภายใน 24–72 ชม. · nimodipine ป้องกัน delayed cerebral ischemia"
+  ],
+  "variants": [
+   "ผู้ป่วยปวดศีรษะ thunderclap 3 ชม. ตรวจระบบประสาทปกติ CT ปกติ (เครื่องรุ่นใหม่) → SAH แทบตัดได้ ไม่จำเป็นต้อง LP",
+   "ผู้ป่วยปวดศีรษะทันที 2 ชม. ก่อน CT ปกติ ต้องการ LP หา xanthochromia ควรเจาะเมื่อใด → ≥ 12 ชม. หลังเริ่มปวด",
+   "LP พบ RBC หลอดแรก 8,000 หลอดที่สี่ 200 ไม่มี xanthochromia → traumatic tap",
+   "ผู้ป่วยปวดศีรษะทันทีเมื่อ 5 สัปดาห์ก่อน สงสัย sentinel bleed → CTA หา aneurysm (LP เชื่อถือไม่ได้แล้ว)"
+  ]
+ },
+ "MDCU78|RoC|1": {
+  "wrong": {
+   "B": "ใน malrotation ไม่มีแถบจาก sigmoid colon ไปผนังเชิงกราน การอุดตันอยู่ที่ duodenum ไม่ใช่ rectum — ไม่มีสถานการณ์ใดที่แถบลักษณะนี้เป็นส่วนของพยาธิสภาพ malrotation เพราะความผิดปกติเกิดจาก cecum ที่หมุนไม่ครบและค้างอยู่ด้านบนขวา",
+   "C": "แถบจาก ileum ไปสะดือคือ vitelline (omphalomesenteric) duct remnant ที่ทำให้ลำไส้บิดรอบแถบหรืออุดตันได้ แต่ไม่ใช่ Ladd's band และไม่ทำให้ DJ junction อยู่ขวา; จะถูกถ้าเด็กมีลำไส้เล็กอุดตัน ผ่าตัดพบแถบพังผืดจากปลาย Meckel diverticulum ไปติดสะดือและลำไส้บิดรอบแถบ",
+   "D": "Duodenal web เป็นการอุดตันภายในรู (intrinsic) อาจยืดเป็นถุง windsock ไม่ใช่แถบภายนอก และ DJ junction อยู่ตำแหน่งปกติ; จะถูกถ้าทารก Down syndrome อาเจียน UGI เห็นลำไส้ duodenum โป่งเป็นถุงยื่นลงไป (windsock) และ DJ junction อยู่ซ้ายปกติ",
+   "E": "Annular pancreas คือวงเนื้อตับอ่อนรอบ duodenum ส่วนที่ 2 จาก ventral bud หมุนผิด ทำให้ double bubble ได้ แต่ไม่ใช่แถบ peritoneum; จะถูกถ้าทารกมี double bubble ผ่าตัดพบเนื้อตับอ่อนเป็นวงรอบ D2 (รักษาด้วย duodenoduodenostomy ห้ามตัดวงตับอ่อน)"
+  },
+  "trap": "จำว่า Ladd's band ไปจาก cecum ไป<b>ผนังหน้าท้องด้านขวา/ใต้ตับ</b> พาดผ่าน<b>หน้า duodenum</b> — อุดตันจากภายนอก ส่วนอันตรายจริงของ malrotation คือ midgut volvulus จาก mesentery ฐานแคบ ไม่ใช่ตัวแถบ · การอุดตัน duodenum ในทารกมีทั้งจากภายนอก (Ladd's band, annular pancreas) และภายใน (atresia, web)",
+  "summary": [
+   "Malrotation: ลำไส้หมุนไม่ครบ 270° ทวนเข็มนาฬิการอบ SMA → cecum ค้างที่บนขวา · DJ junction อยู่ขวาของแนวกลาง · mesentery ฐานแคบ → เสี่ยง midgut volvulus",
+   "อาการ: ทารกอาเจียนน้ำดี (ส่วนใหญ่ในเดือนแรก) · volvulus → ลำไส้ขาดเลือด ถ่ายเป็นเลือด ช็อก · เด็กโตอาจปวดท้องเป็นพัก ๆ เรื้อรัง",
+   "UGI contrast = มาตรฐานวินิจฉัย: DJ junction อยู่ขวาหรือต่ำกว่า pylorus · volvulus = corkscrew · US: SMV อยู่ซ้ายของ SMA, whirlpool sign",
+   "Ladd procedure: detorsion (หมุนทวนเข็มนาฬิกา) · ตัด Ladd's bands · ขยายฐาน mesentery · appendectomy · วางลำไส้เล็กด้านขวา ลำไส้ใหญ่ด้านซ้าย",
+   "ทารกอาเจียนน้ำดี = สงสัย malrotation with volvulus จนกว่าจะพิสูจน์ได้ → UGI ด่วน · ถ้ามีช็อก/peritonitis → ผ่าตัดทันที"
+  ],
+  "opinion": "ไฟล์ Key 78C ช่องนี้ว่าง ผู้จดใส่ช้อยไว้ตัวเดียว (cecum to lateral abdominal wall cause duodenal obstruction) — ผมตอบ A ความมั่นใจสูง เพราะเป็นนิยามของ Ladd's band ตรงตัว; เคสและช้อยอื่นแต่งเพิ่ม",
+  "variants": [
+   "ทารก 3 วันอาเจียนน้ำดี UGI เห็น corkscrew ของ duodenum/jejunum → malrotation with midgut volvulus: Ladd procedure ด่วน",
+   "ระหว่างผ่าตัด Ladd procedure ต้องหมุนลำไส้คืนทิศใด → ทวนเข็มนาฬิกา (counterclockwise)",
+   "ทำไมต้องตัด appendix ใน Ladd procedure → appendix จะอยู่ด้านซ้ายหลังผ่าตัด ถ้าอักเสบภายหลังวินิจฉัยยาก",
+   "Ultrasound ทารกอาเจียนน้ำดี เห็น SMV อยู่ทางซ้ายของ SMA และ whirlpool sign → malrotation with volvulus"
+  ]
+ },
+ "MDCU78|RoC|2": {
+  "why": "ICH จากความดันสูงที่ basal ganglia ขนาดเล็ก ไม่มี mass effect ไม่มี hydrocephalus GCS 14 → ภาวะที่แก้ไขได้และสำคัญที่สุดคือ<b>ความดันสูงมากซึ่งทำให้ก้อนเลือดขยาย</b> (hematoma expansion เกิดบ่อยในชั่วโมงแรก ๆ และสัมพันธ์กับผลเสีย) · AHA/ASA 2022: ICH ที่ SBP 150–220 mmHg ลดลงเป้า 140 (ช่วง 130–150) ภายในราว 1 ชม. ปลอดภัยและอาจช่วยเรื่อง functional outcome (INTERACT2, ATACH-2) · ใช้ IV nicardipine, clevidipine หรือ labetalol แบบ titrate ให้ค่าคงที่ ไม่แกว่ง · <b>หลีกเลี่ยงลด SBP ต่ำกว่า 130</b> (ไตบาดเจ็บ ไม่ได้ประโยชน์) · ผู้ป่วยรายนี้ SBP 220 ก็ใช้หลักเดียวกันแต่ลดอย่างระมัดระวัง · ร่วมกับแก้ coagulopathy, รับไว้ใน stroke unit/ICU, คุมไข้ น้ำตาล และให้ยากันชักเมื่อชักเท่านั้น · ก้อนเล็กไม่มี mass effect ไม่ต้องผ่าตัด",
+  "trap": "คิดว่า ICH ต้องปรึกษาผ่าตัดทุกราย — ก้อนเล็กที่ basal ganglia ไม่มี mass effect หรือ hydrocephalus รักษาด้วยการคุมความดัน · ตรงข้ามกับ ischemic stroke ที่ปล่อยความดันสูงได้ถึง 220/120 (หรือ 185/110 ถ้าจะให้ alteplase) · และอย่าลดความดันมากจน SBP &lt; 130",
+  "summary": [
+   "ICH ปฐมภูมิ: ความดันสูง (basal ganglia/putamen, thalamus, pons, cerebellum) · cerebral amyloid angiopathy (lobar ในผู้สูงอายุ) · ยาต้านการแข็งตัวของเลือด",
+   "ความดัน (AHA/ASA 2022): SBP 150–220 → เป้า 140 (130–150) ภายใน 1 ชม. ด้วยยาฉีด titrate · หลีกเลี่ยง &lt; 130 · ลดอย่างนุ่มนวลไม่แกว่ง",
+   "แก้ coagulopathy: warfarin → 4-factor PCC + vitamin K · dabigatran → idarucizumab · factor Xa inhibitor → andexanet alfa หรือ PCC · ไม่ให้เกล็ดเลือดในผู้กิน antiplatelet ที่ไม่ผ่าตัด",
+   "ผ่าตัด: cerebellar hemorrhage &gt; 3 cm หรือกดก้านสมอง/hydrocephalus → ผ่าตัดด่วน · hydrocephalus → EVD · supratentorial ICH ที่แย่ลงจาก mass effect → พิจารณาผ่าตัดช่วยชีวิต",
+   "ICH score (GCS, ปริมาตร ≥ 30 mL, IVH, infratentorial, อายุ ≥ 80) ใช้พยากรณ์ · ปริมาตรคิดด้วย ABC/2",
+   "ไม่ให้ยากันชักป้องกัน · คุมน้ำตาลและไข้ · ป้องกัน DVT ด้วย intermittent pneumatic compression ตั้งแต่วันแรก"
+  ],
+  "variants": [
+   "ICH ที่ putamen ขนาดเล็ก SBP 190 GCS 15 → IV nicardipine ลด SBP เป้า 140",
+   "ผู้ป่วยกิน warfarin INR 3.5 มี ICH → 4-factor PCC + vitamin K IV",
+   "Cerebellar hemorrhage 4 cm ผู้ป่วยซึมลง CT เห็น 4th ventricle ถูกกด → suboccipital craniectomy ระบายก้อนเลือดด่วน",
+   "Ischemic stroke 2 ชม. BP 200/110 จะให้ alteplase → ลด BP ให้ต่ำกว่า 185/110 ก่อนให้ยา"
+  ]
+ },
+ "MDCU78|RoC|3": {
+  "why": "ก้อนเลือดใหญ่ที่ basal ganglia ขวา + midline shift + GCS ลดเหลือ 9 + รูม่านตาขวาโต = <b>ICP สูงจน uncal herniation กำลังเกิด</b> ซึ่งทำให้เสียชีวิตได้ในไม่กี่ชั่วโมง · สิ่งที่เร่งด่วนที่สุดคือลด ICP ชั่วคราวเพื่อซื้อเวลา: ยกหัวสูง 30°, ใส่ท่อช่วยหายใจ (GCS ≤ 8 หรือป้องกันทางเดินหายใจไม่ได้), hyperventilation ระยะสั้น (PaCO<sub>2</sub> 30–35) และ <b>osmotherapy ด้วย mannitol 0.5–1 g/kg</b> หรือ hypertonic saline · พร้อมกันนั้นปรึกษาศัลยแพทย์ระบบประสาทเพื่อพิจารณาผ่าตัด (clot evacuation/decompressive craniectomy) เป็นการช่วยชีวิต · การลดความดันยังต้องทำควบคู่ แต่ต้องระวังไม่ให้ CPP ตกในขณะที่ ICP สูง จึงไม่ใช่สิ่งที่เร่งด่วนที่สุดในข้อนี้",
+  "trap": "ข้อนี้ต่างจากข้อก่อน (78C เลข 2) ที่ก้อนเล็ก — เมื่อมีสัญญาณ herniation (ซึมลง รูม่านตาไม่เท่ากัน midline shift) ต้องลด ICP ก่อน · dexamethasone ไม่ได้ผลกับ edema จากเลือดออกหรือบาดเจ็บ (ใช้กับ vasogenic edema ของเนื้องอก) · ห้าม LP เมื่อมี mass effect",
+  "summary": [
+   "สัญญาณ ICP สูง/herniation: ซึมลง รูม่านตาโตข้างเดียวกับก้อน อ่อนแรงซีกตรงข้าม Cushing triad (ความดันสูง หัวใจช้า หายใจผิดปกติ)",
+   "ลด ICP เบื้องต้น: หัวสูง 30° คอตรง · ใส่ท่อช่วยหายใจ · sedation · hyperventilation ระยะสั้น PaCO<sub>2</sub> 30–35 · mannitol 0.5–1 g/kg หรือ hypertonic saline",
+   "Mannitol: osmotic diuresis ต้องให้สารน้ำทดแทน ระวังความดันต่ำ ติดตาม serum osmolality · hypertonic saline เหมาะเมื่อความดันต่ำหรือขาดน้ำ",
+   "เป้า: CPP = MAP − ICP ราว 60–70 mmHg · ICP &lt; 22 mmHg",
+   "Steroid ไม่ใช้ใน ICH หรือ TBI (CRASH trial: เพิ่มการเสียชีวิต) · ใช้กับ edema รอบเนื้องอกหรือ abscess",
+   "ผ่าตัดใน supratentorial ICH ที่แย่ลงจาก mass effect → clot evacuation หรือ decompressive craniectomy เพื่อช่วยชีวิต"
+  ],
+  "variants": [
+   "ผู้ป่วย TBI GCS ลดลง รูม่านตาซ้ายโต CT acute SDH ซ้าย shift 10 mm → mannitol + intubation ระหว่างเตรียมผ่าตัดด่วน",
+   "ผู้ป่วย ICP สูง ความดัน 85/50 ควรเลือก osmotherapy ใด → hypertonic saline (mannitol ทำให้ความดันต่ำลง)",
+   "ผู้ป่วย glioblastoma บวมรอบก้อนมาก ซึมลง → dexamethasone",
+   "ผู้ป่วยก้อนเลือดในสมองใหญ่ GCS 7 → ใส่ท่อช่วยหายใจและลด ICP แล้วปรึกษาผ่าตัด"
+  ]
  }
 }
