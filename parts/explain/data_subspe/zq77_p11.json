@@ -1,0 +1,289 @@
+{
+ "MDCU77|RoB|CVT 10": {
+  "why": "CXR (ผู้จดบอกว่าเป็นรูปเดียวกับที่สอบ) เป็นก้อนใน anterior mediastinum และ I-131 scan จับที่ก้อนในอกแต่<b>ไม่จับที่คอ</b> → เนื้อไทรอยด์ในช่องอกที่ไม่ต่อกับต่อมที่คอ = <b>primary (ectopic) intrathoracic goiter</b> ซึ่งได้เลือดจากหลอดเลือดในช่องอก · ผู้ป่วยมี stridor = ก้อนกดหลอดลม → ต้อง<b>ผ่าตัดเอาออก</b> · ก้อนไม่ต่อกับคอจึงดึงขึ้นทางแผลที่คอไม่ได้ ต้องเปิดทาง <b>median sternotomy</b> (± thoracotomy ถ้าลงไป posterior mediastinum) · ยาและ RAI ลดขนาดช้าเกินไปสำหรับทางเดินหายใจที่ถูกกด",
+  "wrong": {
+   "A": "การเฝ้าดูอันตรายเมื่อมี stridor (ทางเดินหายใจถูกกด) · จะถูกถ้าเป็น substernal goiter ขนาดเล็กไม่มีอาการกด และ function ปกติ",
+   "B": "Levothyroxine กดการสร้าง TSH ไม่ลดขนาด nodular goiter ก้อนใหญ่ในผู้สูงอายุ และเสี่ยง AF กับกระดูกพรุน; จะถูกถ้าผู้ป่วยหลังผ่าตัดเอาไทรอยด์ออกทั้งหมด ต้องให้ levothyroxine ทดแทน",
+   "C": "Radioactive iodine ลดขนาดได้ ~30–50% ใน 1 ปี แต่ช้าและอาจบวมช่วงแรกทำให้ airway แย่ลง ใช้กับผู้ที่ผ่าตัดไม่ได้ · จะถูกถ้าผู้ป่วยสูงอายุมีโรคร่วมมากจนผ่าตัดไม่ได้ และไม่มีอาการกด airway รุนแรง",
+   "D": "Neoadjuvant chemoradiation ใช้กับมะเร็งลุกลามเฉพาะที่บางชนิด ไม่ใช่ goiter ที่เป็นเนื้อไทรอยด์ธรรมดา; จะถูกถ้าผู้ป่วยมะเร็งหลอดอาหารส่วนกลางระยะลุกลามเฉพาะที่ที่ยังผ่าตัดได้ (CROSS)"
+  },
+  "trap": "เห็นก้อนจับ I-131 แล้วเลือก radioiodine — RAI ลดขนาดช้าเป็นเดือนและช่วงแรกอาจบวมจนทางเดินหายใจแย่ลง ผู้ป่วยที่มี stridor ต้องผ่าตัด · อีกกับดักคือคิดว่าเอาออกทางคอได้ทุกราย ทั้งที่ก้อนที่ไม่ต่อกับคอต้องเปิดกระดูกอก",
+  "summary": [
+   "Retrosternal goiter ส่วนใหญ่ต่อลงมาจากต่อมที่คอ ได้เลือดจาก inferior thyroid artery → เอาออกทางคอได้เกือบทั้งหมด",
+   "Primary (ectopic) intrathoracic goiter พบน้อย ไม่ต่อกับต่อมที่คอ ได้เลือดจากหลอดเลือดในช่องอก → radioiodine scan จับในอกแต่ไม่จับที่คอ → sternotomy",
+   "ข้อบ่งชี้ sternotomy: ก้อนไม่ต่อกับคอ ลงลึกต่ำกว่า aortic arch หรือไป posterior mediastinum ก้อนใหญ่กว่าช่องเปิดทรวงอก สงสัยมะเร็งลุกลาม ผ่าตัดซ้ำ",
+   "อาการกด: หายใจลำบากหรือ stridor เวลานอนราบ กลืนลำบาก SVC syndrome · Pemberton sign = ยกแขนสองข้างเหนือศีรษะแล้วหน้าแดงคล้ำ คอโป่ง",
+   "ก้อนใน anterior mediastinum (4T): thymoma, teratoma/germ cell, lymphoma, thyroid · CT ช่วยแยก — ไทรอยด์ความหนาแน่นสูง (มีไอโอดีน) มักมีหินปูน",
+   "ดมยาในก้อนใหญ่กดหลอดลม: ใส่ท่อช่วยหายใจขณะยังหายใจเอง (fiberoptic) เตรียม rigid bronchoscope และ ECMO สำรองในรายรุนแรง"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจปานกลาง-สูง (ไฟล์ Key 77B: anterior mediastinal mass + I-131 → ectopic thyroid ขนาดใหญ่ มี stridor ต้องผ่า) · ภาพเป็นรูปเดียวกับข้อ CVT 3 ของชุด AC 77A · ช้อย E ต้นฉบับเขียนว่า \"Immediate surgery with median sternotomy and thoracotomy\" เราย่อ",
+  "variants": [
+   "หญิงคอโตมานาน CT พบไทรอยด์ต่อลงไปหลังกระดูกอกถึงระดับ aortic arch กลืนลำบาก → total thyroidectomy ทางคอ (ส่วนใหญ่ไม่ต้องเปิดกระดูกอก)",
+   "ผู้ป่วยคอโต ยกแขนสองข้างขึ้นเหนือศีรษะแล้วหน้าแดงคล้ำ หายใจลำบาก → Pemberton sign บ่งการกดที่ช่องเปิดทรวงอก: ผ่าตัด",
+   "หลังผ่าตัด goiter ใหญ่ที่กดหลอดลมนาน ถอดท่อช่วยหายใจแล้วหายใจเสียงดัง หลอดลมยุบเวลาหายใจเข้า → tracheomalacia: ใส่ท่อกลับ ± tracheostomy หรือ stent"
+  ]
+ },
+ "MDCU77|RoC|Colo 1": {
+  "interp": "หญิง 70 ปี เหนื่อยเพลีย 4 เดือน ซีด + คลำก้อนที่ท้องขวาล่าง → ผู้สูงอายุซีดเรื้อรังร่วมกับก้อน RLQ = มะเร็งลำไส้ใหญ่ข้างขวาจนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
+  "why": "มะเร็งลำไส้ใหญ่ข้างขวา (cecum, ascending) ลำไส้กว้างและอุจจาระยังเหลว ก้อนจึงโตได้มากโดยไม่อุดตัน มาด้วย<b>เลือดออกซ่อนเร้นเรื้อรัง → ซีดจากขาดธาตุเหล็ก</b> อ่อนเพลีย น้ำหนักลด และคลำก้อนได้ที่ท้องขวา · ต่างจากข้างซ้ายที่ลำไส้แคบและอุจจาระแข็ง มาด้วยการขับถ่ายเปลี่ยน อุจจาระลำเล็ก อุดตัน หรือถ่ายเลือดปน · ผู้สูงอายุที่ซีดจากขาดธาตุเหล็กต้องส่องกล้องทั้งทางเดินอาหารส่วนบนและลำไส้ใหญ่",
+  "wrong": {
+   "B": "Sigmoid cancer อยู่ซ้ายล่าง ลำไส้แคบ มาด้วยการขับถ่ายเปลี่ยน ปวดบีบ ถ่ายเป็นเลือดปน หรือลำไส้อุดตัน; จะถูกถ้าชายอายุ 65 ปีท้องผูกสลับท้องเสีย อุจจาระลำเล็กลง ถ่ายมีเลือดปนมา 2 เดือน",
+   "C": "Crohn's ที่ terminal ileum ทำก้อน (phlegmon) ที่ RLQ ได้ แต่มักพบในคนอายุน้อย มีปวดท้องเรื้อรัง ท้องเสีย น้ำหนักลด ฝีรอบทวาร; จะถูกถ้าชายอายุ 22 ปีปวดท้องขวาล่างเป็นพัก ๆ ท้องเสีย 6 เดือน มีรูฝีข้างทวาร คลำก้อนกดเจ็บที่ RLQ",
+   "D": "Mucocele ของไส้ติ่งพบน้อย มักพบโดยบังเอิญหรือปวด RLQ ไม่ทำให้ซีดจากเลือดออก; จะถูกถ้า CT บังเอิญพบถุงน้ำรูปไส้กรอกผนังมีหินปูนตรงตำแหน่งไส้ติ่ง (ผ่าตัดระวังอย่าให้แตก — pseudomyxoma peritonei)",
+   "E": "Ovarian tumor เป็นก้อนในอุ้งเชิงกรานหรือท้องน้อย ไม่ทำให้ซีดจากเสียเลือดในทางเดินอาหาร; จะถูกถ้าหญิงวัยหมดประจำเดือนท้องอืด อิ่มเร็ว ท้องมาน คลำก้อนในอุ้งเชิงกราน CA-125 สูง"
+  },
+  "trap": "ให้ธาตุเหล็กรักษาอาการซีดในผู้สูงอายุโดยไม่หาสาเหตุ — iron deficiency ในผู้ชายหรือหญิงวัยหมดประจำเดือนคือเลือดออกในทางเดินอาหารจนกว่าจะพิสูจน์ได้ว่าไม่ใช่ และมะเร็งลำไส้ขวามักไม่มีอาการลำไส้ให้เห็น",
+  "summary": [
+   "อาการตามตำแหน่ง: ขวา = ซีดจากขาดเหล็ก อ่อนเพลีย ก้อน · ซ้าย = ขับถ่ายเปลี่ยน อุจจาระลำเล็ก อุดตัน เลือดปน · rectum = เลือดสด ถ่ายไม่สุด (tenesmus)",
+   "ผู้สูงอายุ iron deficiency anemia → ส่องกล้องทั้ง upper GI และ colonoscopy (BSG 2021) · ถ้าปกติ พิจารณา capsule endoscopy และตรวจ celiac",
+   "Workup: colonoscopy + biopsy (หาก้อนที่สองราว 3–5%) · CT ทรวงอก ช่องท้อง อุ้งเชิงกราน · CEA ก่อนผ่าตัด",
+   "รักษา: right hemicolectomy + เลาะต่อมน้ำเหลือง ileocolic/right colic (≥ 12 ต่อม) · stage III → adjuvant chemotherapy",
+   "มะเร็งข้างขวาพบ MSI-high/dMMR และ BRAF mutation บ่อยกว่า · ตรวจ MMR ทุกรายเพื่อคัดกรอง Lynch syndrome"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ผู้จดใส่คำตอบไว้ว่า Rt side colon CA ผมเห็นด้วย ความมั่นใจสูง · ต้นฉบับจดว่าให้ภาพท้องมาแต่ไม่มีรูปในไฟล์ เราแต่งช้อยทั้งหมด",
+  "variants": [
+   "ชายอายุ 65 ปีซีด ferritin ต่ำ ส่องกระเพาะปกติ → colonoscopy",
+   "ผล colonoscopy เป็นมะเร็ง cecum ที่ dMMR ผู้ป่วยอายุ 45 ปี พ่อเป็นมะเร็งลำไส้และน้าเป็นมะเร็งมดลูก → ตรวจ germline หา Lynch syndrome",
+   "มะเร็ง ascending colon อุดตันจนลำไส้โป่ง ผู้ป่วยคงที่ → right hemicolectomy ต่อลำไส้ได้ทันทีในครั้งเดียว"
+  ]
+ },
+ "MDCU77|RoC|Colo 2": {
+  "interp": "ข้อ <b>NOT</b> — ถาม fistula in ano ชนิดที่<b>ไม่</b>จัดเป็น complex (คือ simple) ซึ่งทำ fistulotomy ได้โดยไม่เสี่ยงกลั้นไม่อยู่",
+  "why": "Fistula แบ่งเป็น simple กับ complex ตามความเสี่ยงต่อหูรูดถ้าผ่าเปิด · <b>Low intersphincteric fistula</b> วิ่งอยู่ระหว่างหูรูดชั้นในและชั้นนอก ไม่ผ่าน external sphincter การเปิดทางเดิน (fistulotomy) ตัดแค่ internal sphincter ส่วนล่าง กลั้นได้ปกติเกือบทุกราย จึงเป็น <b>simple</b> · ส่วน complex คือทางเดินที่ผ่านหูรูดภายนอกมาก (> 30%) อยู่สูง หรือผู้ป่วยมีปัจจัยที่ทำให้กลั้นไม่อยู่ง่ายหรือแผลหายยาก (ASCRS 2022)",
+  "wrong": {
+   "B": "High transsphincteric ผ่าน external sphincter มากกว่าราว 30% ผ่าเปิดแล้วเสี่ยงกลั้นไม่อยู่ จึงเป็น complex; ไม่มีสถานการณ์ใดที่จัด high transsphincteric เป็น simple เพราะนิยามของ high คือผ่านหูรูดส่วนใหญ่",
+   "C": "Suprasphincteric วิ่งขึ้นใน intersphincteric plane ข้ามเหนือ puborectalis แล้วลงผ่าน levator ออกผิวหนัง โอบหูรูดทั้งหมด; ไม่มีสถานการณ์ใดที่ suprasphincteric fistula จัดเป็น simple",
+   "D": "Extrasphincteric วิ่งจาก rectum เหนือ levator ออกผิวหนังโดยไม่ผ่านหูรูด มักเกิดจาก Crohn's การบาดเจ็บ หรือฝีในอุ้งเชิงกราน ต้องแก้ต้นเหตุ; ไม่มีสถานการณ์ใดที่ extrasphincteric fistula จัดเป็น simple",
+   "E": "Anterior fistula ในผู้หญิง external sphincter ด้านหน้าสั้นและอาจบาดเจ็บจากการคลอดมาก่อน ผ่าเปิดแล้วกลั้นไม่อยู่ง่าย จึงจัดเป็น complex แม้ทางเดินจะต่ำ; ไม่มีสถานการณ์ใดตาม ASCRS ที่ anterior fistula ในผู้หญิงจัดเป็น simple — fistulotomy ต้องเลี่ยงหรือทำด้วยความระวัง"
+  },
+  "trap": "เห็นคำว่า sphincter ในชื่อ intersphincteric แล้วคิดว่าซับซ้อน — intersphincteric ไม่ผ่าน external sphincter จึงง่ายที่สุด · ตรงข้าม anterior fistula ในผู้หญิงแม้ต่ำก็จัดเป็น complex",
+  "summary": [
+   "Simple: intersphincteric หรือ low transsphincteric (ผ่าน external sphincter < 30%) ไม่มีปัจจัยเสี่ยงอื่น → fistulotomy หายราว 90% ขึ้นไป",
+   "Complex: ผ่าน external sphincter > 30%, suprasphincteric, extrasphincteric, horseshoe, anterior ในหญิง, หลายทาง, เป็นซ้ำ, Crohn's, หลังฉายแสง, มะเร็ง, กลั้นไม่ค่อยอยู่เดิม",
+   "วิธีเก็บหูรูดสำหรับ complex: loose seton (ระบาย) · LIFT · endorectal advancement flap (กลั้นไม่อยู่ราว 7–13%) · plug/glue (หายต่ำ) · cutting seton ไม่นับเป็นวิธีเก็บหูรูด",
+   "ประเมินก่อนผ่า complex หรือเป็นซ้ำ: MRI pelvis หรือ endoanal US · ตรวจหา Crohn's เมื่อหลายรูหรือเป็นซ้ำ",
+   "Horseshoe fistula: ทางเดินโอบรอบทวารผ่าน deep postanal space → ระบาย deep postanal space + seton"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ผู้จดใส่คำตอบไว้ว่า intersphincteric type ผมเห็นด้วย ความมั่นใจสูง · ต้นฉบับจดคำถามและคำตอบอย่างเดียว เราแต่งช้อยทั้งหมด · RoA Colo 8 ของชุดนี้ถามการผ่าตัดที่เสี่ยงหูรูดที่สุด",
+  "variants": [
+   "ชายมี low transsphincteric fistula ผ่าน external sphincter ราว 1/5 กลั้นปกติ ไม่มีโรคร่วม → fistulotomy",
+   "ผู้ป่วยหลังฉายแสงมะเร็งต่อมลูกหมาก มี fistula ต่ำแต่หูรูดอ่อนแรงอยู่เดิม → complex: เลี่ยง fistulotomy ใช้ loose seton หรือวิธีเก็บหูรูด",
+   "ผู้ป่วยมีรูเปิดหลายรูทั้งสองข้างของก้น ทางเดินโอบไปด้านหลังทวาร → horseshoe fistula: MRI แล้วระบาย deep postanal space + seton"
+  ]
+ },
+ "MDCU77|RoC|Colo 3": {
+  "interp": "มะเร็ง sigmoid 4 cm + ต่อมน้ำเหลืองรอบลำไส้บวก + ไม่มีการกระจายไกล = colon cancer <b>stage III</b> → ถามการรักษาที่เหมาะสม",
+  "why": "มะเร็ง sigmoid เป็น colon cancer (ไม่ใช่ rectum) การรักษามาตรฐานคือ<b>ผ่าตัดแบบ oncologic</b> ก่อน: sigmoidectomy ผูกหลอดเลือดที่ต้นทาง (inferior mesenteric/sigmoid vessels) ขอบลำไส้ราว 5 cm และเลาะต่อมน้ำเหลืองใน mesentery ให้ได้ ≥ 12 ต่อม · เมื่อพยาธิยืนยันต่อมน้ำเหลืองบวก (stage III) ให้ <b>adjuvant chemotherapy</b> (CAPOX หรือ FOLFOX) ซึ่งลดการกลับเป็นซ้ำและเพิ่มการรอดชีวิต · CAPOX 3 เดือนพอในความเสี่ยงต่ำ (T1–3 N1) และ 6 เดือนในความเสี่ยงสูง (T4 หรือ N2) ตาม IDEA · ไม่ใช้รังสีรักษาก่อนผ่าตัดแบบ rectal cancer",
+  "wrong": {
+   "B": "Neoadjuvant chemoradiation ใช้กับ locally advanced \"rectal\" cancer (กลาง–ล่าง) ไม่ใช่ sigmoid colon (colon cancer ไม่ใช้ RT ประจำ; ยกเว้น T4b บางรายใช้ neoadjuvant chemo) · จะถูกถ้าก้อนอยู่ mid/low rectum stage II–III",
+   "C": "Endoscopic mucosal resection ใช้เฉพาะ polyp/early cancer (Tis–T1 low-risk ที่ไม่ลึกเกิน submucosa ชั้นตื้น) — ข้อนี้มีต่อมน้ำเหลืองบวกแล้ว · จะถูกถ้าเป็น adenoma หรือ intramucosal carcinoma ขนาดเล็กที่ไม่มี lymph node",
+   "D": "Palliative systemic chemo อย่างเดียวใช้กับ metastatic disease ที่ผ่าไม่ได้ · จะถูกถ้ามี liver/lung metastasis หลายตำแหน่งที่ไม่สามารถผ่าตัดได้",
+   "E": "Diverting colostomy อย่างเดียวแก้การอุดตันแต่ไม่ได้รักษามะเร็ง · จะถูกถ้าก้อนอุดตันในผู้ป่วยระยะสุดท้ายที่ผ่าตัดเอาก้อนออกไม่ได้"
+  },
+  "trap": "นำแนวทาง rectal cancer (neoadjuvant chemoradiation) มาใช้กับ sigmoid — sigmoid เป็น colon: ผ่าก่อนแล้วให้เคมีเสริม · เส้นแบ่งคือ rectum เริ่มที่ระดับ sigmoid take-off บน MRI (ราว 15 cm จากขอบทวาร)",
+  "summary": [
+   "Staging colon cancer: I (T1–2 N0) · II (T3–4 N0) · III (N+) · IV (M1)",
+   "Adjuvant: stage III ทุกราย · stage II ความเสี่ยงสูง (T4 ทะลุ อุดตัน ต่อมน้ำเหลือง < 12 LVI/PNI ขอบไม่ปลอดภัย) พิจารณา · stage II dMMR ไม่ให้ 5-FU เดี่ยว",
+   "IDEA: CAPOX 3 เดือนไม่ด้อยกว่า 6 เดือนใน T1–3 N1 และชาปลายประสาทจาก oxaliplatin น้อยกว่า",
+   "Neoadjuvant ใน colon cancer: พิจารณาเคมีบำบัดก่อนผ่าเฉพาะ T4b ที่ลุกลามอวัยวะข้างเคียง (FOxTROT) · ลุกกระเพาะปัสสาวะ → ตัด en bloc พร้อม partial cystectomy",
+   "ติดตามหลังรักษา: CEA ทุก 3–6 เดือนใน 2 ปีแรก · CT ทุก 6–12 เดือนจนครบ 5 ปี · colonoscopy ที่ 1 ปี",
+   "การผ่าตัดผ่านกล้อง (laparoscopic) ให้ผลทางมะเร็งเท่าผ่าเปิด แต่ฟื้นตัวเร็วกว่า · ต่อลำไส้ได้ในครั้งเดียวเมื่อไม่มีการอุดตันหรือทะลุ"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ผู้จดจำได้แค่ \"sigmoidectomy with something\" ผมตอบ A ความมั่นใจสูง (มาตรฐานของ stage III colon cancer)",
+  "variants": [
+   "หลัง sigmoidectomy พยาธิเป็น T3N0 เลาะต่อมน้ำเหลืองได้ 8 ต่อม → stage II ความเสี่ยงสูง (ต่อม < 12): พิจารณาเคมีบำบัดเสริม",
+   "มะเร็ง sigmoid ลุกลามติดกระเพาะปัสสาวะ ไม่มีการกระจาย → ตัด sigmoid แบบ en bloc พร้อม partial cystectomy",
+   "มะเร็ง sigmoid อุดตันลำไส้เฉียบพลันในผู้สูงอายุ ลำไส้โป่ง → Hartmann's procedure หรือใส่ stent เป็นสะพานไปผ่าตัด"
+  ]
+ },
+ "MDCU77|RoC|Colo 4": {
+  "interp": "ทารก 48 ชม. ยังไม่ถ่ายขี้เทา ตรวจทวารแล้วอุจจาระพุ่งออกเหม็นมาก (squirt sign) = Hirschsprung disease (± เริ่มมี enterocolitis) → ถามขั้นต่อไปเพื่อยืนยัน",
+  "why": "Hirschsprung disease ยืนยันด้วย <b>rectal suction biopsy</b> เหนือ dentate line ที่ไม่พบ ganglion cell และ calretinin ติดสีลบ ทำข้างเตียงได้โดยไม่ต้องดมยา · contrast enema ช่วยหาตำแหน่ง transition zone แต่ไม่ยืนยันโรค · อุจจาระที่เหม็นมากเป็นสัญญาณเตือน Hirschsprung-associated enterocolitis ถ้ามีไข้ ท้องอืด ซึม ต้องให้สารน้ำ ยาปฏิชีวนะ และสวนล้างลำไส้ร่วมไปด้วย · การผ่าตัด pull-through ทำหลังยืนยันด้วยชิ้นเนื้อแล้วเท่านั้น",
+  "wrong": {
+   "A": "LFT ไม่เกี่ยวกับภาวะทารกไม่ถ่ายขี้เทา; จะถูกถ้าทารกอายุ 3 สัปดาห์ตัวเหลืองต่อเนื่อง อุจจาระสีซีด ปัสสาวะเข้ม (neonatal cholestasis — ตรวจ direct bilirubin และตับ)",
+   "C": "Barium swallow ดูหลอดอาหารและกระเพาะ ไม่ได้ดูลำไส้ใหญ่ส่วนปลาย (การตรวจภาพที่ช่วยคือ contrast enema); จะถูกถ้าทารกสำลักนมและไอทุกครั้งที่ดูด ภาพรังสีทรวงอกมีปอดอักเสบซ้ำ สงสัย H-type tracheoesophageal fistula",
+   "D": "Exploratory laparotomy ไม่ใช่ขั้นแรก — pull-through ทำหลังยืนยันด้วย biopsy (ผ่าตัดด่วนเฉพาะ perforation/enterocolitis รุนแรง) · จะถูกถ้าทารกท้องอืดมากมี free air หรือ peritonitis",
+   "E": "Sweat chloride test ใช้วินิจฉัย cystic fibrosis (meconium ileus: ทารกไม่ถ่ายขี้เทา X-ray soap-bubble/microcolon) — ภาพทางคลินิกนี้ (explosive stool หลัง PR) เข้ากับ Hirschsprung · จะถูกถ้า contrast enema เห็น microcolon และ meconium pellets ใน terminal ileum"
+  },
+  "trap": "ส่งตรวจที่ไม่เกี่ยว (LFT) หรือรีบผ่าตัดโดยไม่มีชิ้นเนื้อยืนยัน · และอย่าลืมว่าอุจจาระเหม็นพุ่งอาจเป็นจุดเริ่มของ enterocolitis ซึ่งเป็นสาเหตุตายหลักของโรคนี้",
+  "summary": [
+   "ทารกครบกำหนดไม่ถ่ายขี้เทาใน 48 ชม. → คิดถึง Hirschsprung, meconium ileus (cystic fibrosis), meconium plug, small left colon (แม่เป็นเบาหวาน), anorectal malformation, hypothyroidism, ยาที่แม่ได้ (magnesium, opioid)",
+   "ตรวจก่อนเสมอ: ดูตำแหน่งรูทวาร · ตรวจทวาร (squirt sign) · ภาพรังสีช่องท้อง · contrast enema",
+   "Rectal suction biopsy: ไม่มี ganglion cell, nerve trunk หนา, acetylcholinesterase เพิ่ม, calretinin ลบ · ตัดที่ราว 1–3 cm เหนือ dentate line (ต่ำกว่านั้นปกติก็ไม่มี ganglion)",
+   "Enterocolitis: ไข้ ท้องอืด ถ่ายเหลวเหม็นมาก ซึม → NPO สารน้ำ ยาปฏิชีวนะครอบคลุม anaerobe สวนล้าง rectum · เกิดได้ทั้งก่อนและหลังผ่าตัด",
+   "Total colonic aganglionosis (ราว 5–10%): contrast enema อาจดูปกติหรือลำไส้ใหญ่เล็กทั้งเส้น ต้อง leveling biopsy ระหว่างผ่าตัด"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ตอบ B ความมั่นใจสูง · ต้นฉบับมีช้อย 2 ตัว (LFT, rectal biopsy) เราเติม C–E · RoA Ped 5 ของชุดนี้ถามเรื่องเดียวกันหลังทำ contrast enema",
+  "variants": [
+   "ทารกไม่ถ่ายขี้เทา ตรวจพบไม่มีรูทวารปกติ มีขี้เทาปนออกมากับปัสสาวะ → anorectal malformation ชนิดสูง (rectourethral fistula): colostomy ก่อน",
+   "ทารกไม่ถ่ายขี้เทา ตัวเหลืองนาน ลิ้นโต สะดือจุ่น กระหม่อมกว้าง → congenital hypothyroidism: ตรวจ TSH/FT4",
+   "ทารก Hirschsprung ที่ biopsy ยืนยันแล้ว รอผ่าตัด ไข้ ท้องอืดมาก ถ่ายเหลวเหม็น ซึม → enterocolitis: NPO สารน้ำ ยาปฏิชีวนะ สวนล้าง rectum ด้วยน้ำเกลือ"
+  ]
+ },
+ "MDCU77|RoC|Colo 5": {
+  "interp": "ข้อ <b>NOT</b> — มะเร็ง rectum ลุกลามเฉพาะที่ → ถามการตรวจที่<b>ไม่</b>อยู่ใน staging เบื้องต้นตามปกติ (ก่อนตัดสินใจรักษา)",
+  "why": "Staging มาตรฐานของ rectal cancer: complete colonoscopy + biopsy, MRI pelvis (local staging), CT chest/abdomen/pelvis (distant), CEA · PET-CT \"ไม่ใช่ routine\" — ใช้เมื่อผล CT ก้ำกึ่ง, ก่อนผ่าตัด metastasectomy เพื่อหาโรคที่ซ่อนอยู่, CEA สูงแต่ CT ไม่พบ หรือผู้ป่วยแพ้ contrast (NCCN) · จึงเป็นคำตอบของข้อ NOT · ประเด็นสำคัญของ staging rectal cancer คือ MRI บอก CRM, EMVI และระยะจากหูรูด ซึ่งกำหนดว่าจะให้การรักษาก่อนผ่าตัดหรือไม่ — PET-CT ให้ข้อมูลเหล่านี้ไม่ได้",
+  "wrong": {
+   "A": "MRI pelvis เป็นหัวใจของ local staging (T stage, ระยะห่างจาก mesorectal fascia, EMVI, ต่อมน้ำเหลือง, ระยะจากหูรูด) ใช้ตัดสิน neoadjuvant therapy; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็นมะเร็ง sigmoid หรือ colon ข้างขวาที่ไม่ต้องทำ MRI pelvis",
+   "B": "CT ช่องท้องหาการกระจายไปตับเป็นส่วนของ staging ทุกราย; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น polyp ที่ตัดผ่านกล้องแล้วผลเป็น adenoma ไม่มีมะเร็งลุกลาม",
+   "C": "CT ทรวงอกหาการกระจายไปปอด (rectum ส่วนล่างระบายเลือดเข้า systemic vein จึงไปปอดได้โดยไม่ผ่านตับ); ไม่มีสถานการณ์ใดที่ rectal cancer ลุกลามเฉพาะที่ไม่ต้องตรวจหาการกระจายไปปอด",
+   "E": "Colonoscopy ตลอดลำไส้ใหญ่จำเป็นเพื่อยืนยันชิ้นเนื้อและหามะเร็งหรือ polyp ก้อนที่สอง (synchronous ราว 3–5%); จะถูก (เป็นคำตอบของข้อ NOT) ถ้าก้อนอุดตันจนกล้องผ่านไม่ได้ — ใช้ CT colonography แทนหรือส่องหลังผ่าตัด 3–6 เดือน"
+  },
+  "trap": "คิดว่า PET-CT ต้องทำทุกรายเพราะเห็นทั้งตัว — มาตรฐานคือ CT ร่วมกับ MRI pelvis · PET-CT ใช้แก้ปัญหาเมื่อผลก้ำกึ่ง และไม่บอก T stage หรือ CRM ที่ใช้ตัดสินการรักษา",
+  "summary": [
+   "Staging rectal cancer: colonoscopy + biopsy · MRI pelvis · CT ทรวงอก ช่องท้อง อุ้งเชิงกราน · CEA · endorectal US ช่วยแยก T1 กับ T2 ในก้อนเล็ก",
+   "MRI: CRM ถูกคุกคาม (≤ 1 mm จาก mesorectal fascia), T4, EMVI บวก, ต่อมน้ำเหลืองหลายต่อม → การรักษาก่อนผ่าตัด (chemoradiation หรือ total neoadjuvant therapy)",
+   "PET-CT ไม่ใช่ routine (NCCN): ใช้เมื่อรอยโรคใน CT ก้ำกึ่ง CEA สูงแต่ CT ไม่พบ ก่อนผ่าตัดเอา metastasis ออก หรือแพ้สารทึบรังสี",
+   "รอยโรคตับที่ CT ไม่ชัด → MRI ตับ (ดีกว่า PET-CT สำหรับรอยโรคเล็ก)",
+   "ระยะจากขอบทวารและหูรูด (MRI + ตรวจทวาร + rigid proctoscopy) กำหนดว่าเก็บหูรูดได้หรือต้อง abdominoperineal resection"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ตอบ D ความมั่นใจสูง · ช้อยครบ 5 ตัวตามต้นฉบับ (B \"CTWA\" = CT whole abdomen)",
+  "variants": [
+   "MRI พบก้อน rectum ห่าง mesorectal fascia 1 mm → CRM ถูกคุกคาม: ให้การรักษาก่อนผ่าตัด",
+   "ผู้ป่วยมะเร็ง rectum CT พบรอยโรคตับ 8 mm ไม่ชัดว่าเป็น cyst หรือ metastasis → MRI ตับ",
+   "หลังผ่าตัดมะเร็ง rectum 2 ปี CEA สูงขึ้นต่อเนื่องแต่ CT ปกติ → PET-CT หาการกลับเป็นซ้ำ"
+  ]
+ },
+ "MDCU77|RoC|Colo 6": {
+  "why": "ภาพที่เข้ากับโรคนี้คือห่วงลำไส้ใหญ่ห่วงเดียวโป่งมากรูปโค้งคล้ายยางในรถพับ (bent inner tube) หรือเมล็ดกาแฟ ไม่มี haustra ยอดชี้ขึ้นไปทางขวาบน จุดบิดอยู่ในอุ้งเชิงกรานซ้าย = <b>sigmoid volvulus</b> · เข้ากับผู้ป่วยสูงอายุติดเตียงที่ท้องผูกเรื้อรัง (sigmoid ยาวแต่ฐาน mesentery แคบ) · CT ยืนยันได้ (whirl sign, bird's beak) ถ้าภาพธรรมดาไม่ชัด · ไม่มี peritonitis → ส่องกล้องคลายเกลียวแล้วผ่าตัดในการนอนครั้งเดียวกัน (รายละเอียดการรักษาอยู่ในข้อ RoA Colo 2 และ RoB Colo 2 ของชุดนี้)",
+  "wrong": {
+   "A": "SBO เห็นลำไส้เล็กโป่งหลายห่วงอยู่กลางท้อง มี valvulae conniventes พาดเต็มความกว้าง ระดับลมน้ำแบบขั้นบันได ลำไส้ใหญ่ว่าง; จะถูกถ้าผู้ป่วยเคยผ่าตัดช่องท้อง อาเจียน ปวดบีบรอบสะดือ ภาพเห็นลำไส้เล็กโป่งหลายห่วงแบบขั้นบันได",
+   "C": "Cecal volvulus เกิดในคนอายุน้อยกว่า ห่วงโป่งเริ่มจากท้องขวาล่างชี้ไปซ้ายบน ลำไส้ใหญ่ส่วนปลายว่าง; จะถูกถ้าหญิงอายุ 40 ปีที่เคยผ่าตัดในอุ้งเชิงกราน ปวดท้องบีบ ภาพเห็นห่วงโป่งรูปไตจากขวาล่างไปซ้ายบน",
+   "D": "Acute colonic pseudo-obstruction (Ogilvie) ลำไส้ใหญ่โป่งต่อเนื่องตั้งแต่ cecum ถึง rectum โดยไม่มีจุดบิดหรือจุดตีบ cecum มักโป่งมากที่สุด; จะถูกถ้าผู้ป่วยติดเชื้อในกระแสเลือดนอน ICU ได้ opioid ท้องอืดมาก ภาพเห็นลำไส้ใหญ่โป่งทั้งเส้นมีลมถึง rectum",
+   "E": "Toxic megacolon คือ colon (มักเป็น transverse) โป่ง > 6 cm ร่วมกับ colitis รุนแรงและอาการพิษทั่วร่างกาย; จะถูกถ้าผู้ป่วย ulcerative colitis ถ่ายเป็นเลือดวันละ 10 ครั้ง ไข้สูง ชีพจร 120 ภาพเห็น transverse colon โป่ง 8 cm"
+  },
+  "trap": "เห็นลำไส้โป่งแล้วตอบ SBO โดยไม่ดูว่าห่วงที่โป่งเป็นลำไส้ใหญ่ (อยู่รอบนอก ห่วงเดียวใหญ่มาก ไม่มี valvulae) · และแยก sigmoid (ยอดชี้ขวาบน) กับ cecal volvulus (ยอดชี้ซ้ายบน) จากทิศของห่วง",
+  "summary": [
+   "ลำไส้เล็ก vs ใหญ่ในภาพรังสี: เล็ก = อยู่กลาง หลายห่วง valvulae conniventes พาดเต็มความกว้าง · ใหญ่ = อยู่รอบนอก haustra พาดไม่เต็ม",
+   "กฎ 3-6-9: ผิดปกติเมื่อลำไส้เล็ก > 3 cm · colon > 6 cm · cecum > 9 cm (cecum > 12 cm เสี่ยงทะลุ)",
+   "Sigmoid volvulus: coffee bean/bent inner tube ไม่มี haustra ยอดชี้ขวาบน · contrast enema (water-soluble) เห็น bird's beak · CT whirl sign",
+   "Ogilvie: ลำไส้ใหญ่โป่งทั้งเส้นมีลมถึง rectum ไม่มีจุดบิด · toxic megacolon: colon > 6 cm + colitis + อาการพิษทั่วร่างกาย",
+   "ลำไส้ใหญ่อุดตันที่ลิ้น ileocecal ปิดสนิท (closed loop) → cecum โป่งเร็ว เสี่ยงทะลุ ต้องรีบแก้ · ลิ้นรั่วได้ → ลำไส้เล็กโป่งร่วมด้วย"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ตอบ B ความมั่นใจสูง · ต้นฉบับจดแค่รูปและช้อย 2 ตัว (SBO, sigmoid volvulus) เราเติม C–E และประวัติผู้ป่วยติดเตียง · ชุดนี้มี sigmoid volvulus อีก 2 ข้อ (RoA Colo 2, RoB Colo 2) ที่ถามการรักษา",
+  "variants": [
+   "ผู้ป่วยมะเร็ง sigmoid อุดตัน ลิ้น ileocecal ปิดสนิท ภาพเห็น cecum โป่ง 12 cm กดเจ็บท้องขวาล่าง → closed-loop obstruction ใกล้ทะลุ: ผ่าตัดด่วน",
+   "ผู้ป่วยหลังผ่าตัดสะโพกได้ opioid ลำไส้ใหญ่โป่งทั้งเส้น cecum 11 cm ไม่มีจุดบิด แก้เกลือแร่และหยุดยาแล้วไม่ดีขึ้น → Ogilvie: neostigmine IV (ติดตาม ECG)",
+   "ผู้ป่วยเคยผ่าตัดไส้ติ่ง ท้องอืด ภาพเห็นลำไส้เล็กโป่ง > 3 cm หลายห่วงตรงกลาง ลำไส้ใหญ่ไม่มีลม → adhesive SBO: NG decompression + water-soluble contrast challenge"
+  ]
+ },
+ "MDCU77|RoC|Colo 7": {
+  "interp": "ข้อ <b>NOT</b> — ถามภาพรังสีที่<b>ไม่ใช่</b> sign ของลมอิสระในช่องท้อง (pneumoperitoneum) — ต้องแยกลมนอกลำไส้กับลมในผนังลำไส้",
+  "why": "Pneumatosis intestinalis = ลม \"ในผนัง\" ลำไส้ (เห็นเป็นฟองหรือเส้นโค้งในผนัง) ไม่ใช่ลมอิสระในช่องท้อง — พบใน NEC (ทารก), mesenteric ischemia, หรือ benign pneumatosis (COPD, steroid) · ถ้ามี pneumatosis ร่วมกับ portal venous gas ในผู้ใหญ่ต้องคิดถึง bowel ischemia · signs ของ pneumoperitoneum: free air ใต้กะบังลม (upright CXR), Rigler/double wall, football, falciform ligament, triangle sign, cupola sign",
+  "wrong": {
+   "A": "Double bowel wall sign (= Rigler sign) เห็นผนังลำไส้ทั้งด้านในและด้านนอกเพราะมีลมทั้งสองข้าง เป็น sign ของลมอิสระในท่านอนหงาย; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าภาพเห็นผนังสองด้านเพียงเพราะห่วงลำไส้ที่มีลมเบียดชิดกัน (pseudo-Rigler) และ CT ไม่มีลมอิสระ",
+   "B": "Football sign คือลมจำนวนมากกลางช่องท้องเป็นวงรีในท่านอนหงาย มักพบในทารกที่ลำไส้ทะลุ (เช่น NEC); ไม่มีสถานการณ์ใดที่ football sign แท้ไม่ได้บ่งลมอิสระในช่องท้อง",
+   "C": "Rigler sign เป็น sign เดียวกับ double bowel wall (ต้นฉบับใส่ทั้งสองช้อย); ไม่มีสถานการณ์ใดที่ Rigler sign แท้ไม่ได้บ่งลมอิสระ — ระวังสับสนกับ Rigler triad ของ gallstone ileus ซึ่งเป็นคนละเรื่อง",
+   "E": "Falciform ligament sign คือลมรอบ falciform ligament ทำให้เห็นเส้นตรงแนวดิ่งที่ท้องขวาบน เป็น sign ของลมอิสระจำนวนมาก; ไม่มีสถานการณ์ใดที่ falciform ligament ซึ่งเห็นได้จากลมรอบ ๆ ไม่บ่ง pneumoperitoneum"
+  },
+  "trap": "สับสนลม<b>ในผนัง</b>ลำไส้ (pneumatosis) กับลม<b>อิสระ</b>ในช่องท้อง — pneumatosis ไม่ได้แปลว่าทะลุ แต่บอกว่าผนังลำไส้เสียหายหรือขาดเลือด · และ double bowel wall กับ Rigler คือ sign เดียวกัน",
+  "summary": [
+   "ท่าที่ดีที่สุด: CXR ท่ายืน (ลมใต้กะบังลมเห็นได้แม้ 1–2 mL ถ้านั่งหรือยืนราว 10 นาทีก่อนถ่าย) · ยืนไม่ได้ → left lateral decubitus (ลมอยู่ระหว่างตับกับผนังท้อง) · CT ไวที่สุด",
+   "Signs ในท่านอนหงาย: Rigler (double wall) · football (ลมมากรูปวงรี มักในทารก) · falciform ligament · triangle sign (ลมสามเหลี่ยมระหว่างห่วงลำไส้) · cupola sign (ลมใต้ central tendon ของกะบังลม)",
+   "Pseudo-pneumoperitoneum: Chilaiditi sign (colon แทรกระหว่างตับกับกะบังลม เห็น haustra) · pseudo-Rigler (ห่วงลำไส้เบียดกัน) → ยืนยันด้วย decubitus หรือ CT",
+   "Pneumatosis intestinalis: ลมในผนังลำไส้เป็นฟองหรือเส้น · ทารก = NEC · ผู้ใหญ่ร่วม portal venous gas, lactate สูง, ปวดท้องมาก = ลำไส้ขาดเลือด ต้องผ่าตัด · ไม่มีอาการ (COPD, steroid, หลังส่องกล้อง) = benign เฝ้าดู",
+   "ลมอิสระหลังผ่าตัดเปิดหน้าท้องพบได้ปกติหลายวัน (ผ่านกล้องหายเร็วกว่า) — ต้องดูอาการร่วม"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ตอบ D ความมั่นใจสูง · ต้นฉบับมีช้อย 4 ตัว (A double bowel wall กับ C Rigler คือ sign เดียวกัน) เราเติม E",
+  "variants": [
+   "ผู้ป่วย COPD ไม่มีอาการ CT บังเอิญพบฟองลมในผนัง colon ท้องนิ่ม lactate ปกติ → benign pneumatosis: เฝ้าดู ไม่ต้องผ่าตัด",
+   "ผู้สูงอายุ AF ปวดท้องมากแต่ตรวจท้องนิ่ม CT พบลมในผนังลำไส้เล็กและลมใน portal vein → mesenteric ischemia ที่ลำไส้ตาย: ผ่าตัดด่วน",
+   "ผู้ป่วยปวดท้องรุนแรงยืนไม่ได้ สงสัยแผลกระเพาะทะลุ → ถ่ายภาพท่า left lateral decubitus หรือ CT หาลมอิสระ"
+  ]
+ },
+ "MDCU77|RoC|Colo 8": {
+  "interp": "มะเร็ง upper rectum อุดตันเกือบสมบูรณ์ + metastasis ตับหลายก้อนทั้งสองกลีบ (ผ่าเอาออกไม่ได้) = stage IV ที่มีภาวะเร่งด่วนคือลำไส้อุดตัน → ถามการรักษาที่เหมาะสม",
+  "why": "Stage IV (bilobar unresectable liver metastasis) + ลำไส้อุดตันเกือบสมบูรณ์จากก้อนใน upper rectum → ต้องแก้การอุดตันก่อนแล้วเริ่ม systemic chemo เร็วที่สุด · colorectal stent (SEMS) เป็นทางเลือกที่ invasive น้อย ทำให้เริ่ม chemo ได้เร็วกว่าผ่าตัด · ถ้าใส่ stent ไม่ได้ → diverting colostomy/loop ileostomy แทน · ห้ามใส่ stent ในก้อนที่อยู่ต่ำใกล้ anal verge (&lt; 5 cm) เพราะปวด tenesmus และกลั้นไม่ได้ · ระวัง bevacizumab เพิ่มความเสี่ยง stent perforation",
+  "wrong": {
+   "A": "ตัดก้อนหลักทันทีในผู้ป่วยที่มี unresectable bilobar liver metastasis ไม่ช่วย survival ชัดเจน (SYNCHRONOUS, JCOG1007) มี morbidity และทำให้เลื่อน chemo · จะถูกถ้าก้อนทะลุ/เลือดออกรุนแรงที่ stent แก้ไม่ได้ หรือ metastasis ผ่าออกได้ทั้งหมด",
+   "C": "Systemic chemotherapy ก่อนโดยไม่แก้การอุดตันไม่ได้ — ผู้ป่วยถ่ายไม่ออก เสี่ยงลำไส้ทะลุ · จะถูกถ้าไม่มีอาการอุดตันและ liver metastasis อาจผ่าได้หลัง downsizing (conversion chemotherapy)",
+   "D": "Radiotherapy อย่างเดียวไม่แก้อุดตันเฉียบพลัน (ใช้คุมเลือดออก/ปวดจากก้อนใน pelvis) · จะถูกถ้าผู้ป่วยระยะท้ายมีปวด/เลือดออกจากก้อน rectum ที่ไม่อุดตัน",
+   "E": "ผ่าตับก่อน (liver-first approach) ใช้เมื่อ metastasis ผ่าได้และก้อนหลักไม่มีอาการ — ข้อนี้ลำไส้อุดตันและ mets ทั้งสองกลีบ · จะถูกถ้า liver metastasis ผ่าได้และก้อนหลัก asymptomatic ใน rectum ที่ต้องได้ chemoradiation"
+  },
+  "trap": "รีบตัดก้อนหลักเพราะเห็นว่าเป็นต้นเหตุการอุดตัน — ใน stage IV ที่ตับผ่าไม่ได้ เป้าหมายคือแก้อุดตันด้วยวิธีที่บาดเจ็บน้อยแล้วเริ่มยาเร็วที่สุด · อีกกับดักคือใส่ stent ในก้อนที่อยู่ต่ำใกล้หูรูดซึ่งทำให้ปวดและกลั้นไม่อยู่",
+  "summary": [
+   "Malignant large bowel obstruction: แก้อุดตันก่อน (stent หรือ stoma) → การรักษาหลัก · stage IV ที่ผ่าไม่ได้ stent ได้ผลใกล้เคียง stoma และเริ่มยาได้เร็วกว่า",
+   "ข้อห้าม stent: ก้อนต่ำ < 5 cm จากขอบทวาร, ลำไส้ทะลุหรือ peritonitis, อุดตันหลายจุด · ภาวะแทรกซ้อน: ทะลุ (เสี่ยงขึ้นกับ bevacizumab) stent เลื่อน อุดซ้ำ",
+   "Stent เป็น bridge to surgery ในรายที่จะผ่าตัดหายขาด ลดการทำ stoma แต่ต้องชั่งความเสี่ยงทะลุ (ESGE 2020)",
+   "Liver metastasis ผ่าได้หรืออาจผ่าได้หลังยาลดขนาด (conversion) → resect · อยู่รอด 5 ปีราว 40%",
+   "ยา: FOLFOX/FOLFIRI ± anti-EGFR (RAS/BRAF wild-type ก้อนข้างซ้าย) หรือ bevacizumab · dMMR/MSI-high → immunotherapy (pembrolizumab) เป็นทางเลือกแรก"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ตอบ B ความมั่นใจปานกลาง · บางสถาบันเลือก diverting stoma แทน stent ซึ่งก็ยอมรับได้ ในช้อยที่ให้ B เหมาะที่สุด · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E และตำแหน่ง upper rectum",
+  "variants": [
+   "มะเร็ง rectum ห่างขอบทวาร 3 cm อุดตัน มี metastasis ปอดหลายก้อน → diverting loop colostomy (ไม่ใส่ stent ในก้อนต่ำ) แล้วเริ่มยา",
+   "ผู้ป่วยใส่ stent ลำไส้ใหญ่แล้ว 2 สัปดาห์ ได้ bevacizumab เกิดปวดท้องทั้งท้องเฉียบพลัน ไข้ ท้องแข็ง → ลำไส้ทะลุ: ผ่าตัดฉุกเฉิน",
+   "มะเร็ง sigmoid ไม่อุดตัน มี metastasis ตับ 2 ก้อนในกลีบเดียวที่ผ่าออกได้ → ผ่าตัดเอาทั้งก้อนหลักและก้อนตับ (พร้อมกันหรือเป็นขั้น) + เคมีบำบัด"
+  ]
+ },
+ "MDCU77|RoC|Colo 9": {
+  "interp": "ถามกายวิภาค <b>root of the small bowel mesentery</b> — จุดเริ่ม จุดสิ้นสุด และทิศทาง ซึ่งเป็นพื้นฐานของ malrotation/volvulus และการเลาะลำไส้",
+  "why": "Root of the mesentery ยาวราว 15 cm วิ่ง<b>เฉียงจากซ้ายบนลงขวาล่าง</b>: เริ่มที่ duodenojejunal flexure (ด้านซ้ายของ L2) ลงไปสิ้นสุดที่ ileocecal junction ระดับ right sacroiliac joint · ระหว่างทางข้าม duodenum ส่วนที่ 3, aorta, IVC, right ureter และ right psoas · ภายในมี superior mesenteric artery และ vein · ฐานที่กว้างนี้ยึดลำไส้เล็กไม่ให้บิด — ใน malrotation ฐานแคบจึงเสี่ยง midgut volvulus",
+  "wrong": {
+   "B": "Pylorus ถึง ileocecal valve ไม่ใช่แนวของ root เพราะ duodenum ส่วนใหญ่อยู่หลังเยื่อบุช่องท้องและไม่มี mesentery; ไม่มีสถานการณ์ใดที่ root of mesentery เริ่มที่ pylorus",
+   "C": "Ligament of Treitz เป็นจุดเริ่มที่ถูก แต่ root วิ่งลงไปทาง right sacroiliac joint ไม่ใช่ซ้าย; จะถูกถ้าศัลยแพทย์กำลังเลาะ sigmoid mesocolon ซึ่ง root เป็นรูปตัว V คว่ำที่ left iliac fossa (ระวัง left ureter ที่ยอดตัว V)",
+   "D": "ระดับและทิศผิด — root เริ่มด้านซ้ายของ L2 แล้วลงขวา ไม่ใช่เริ่มขวาของ L1 ไปซ้าย; ไม่มีสถานการณ์ใดที่ root of small bowel mesentery วิ่งจากขวาไปซ้าย",
+   "E": "Celiac trunk ออกจาก aorta ระดับ T12 เลี้ยง foregut ไม่ใช่แนวของ mesentery และ sigmoid มี mesocolon ของตัวเอง; ไม่มีสถานการณ์ใดที่ root of mesentery วิ่งจาก celiac trunk ถึง sigmoid"
+  },
+  "trap": "จำทิศสลับว่า root วิ่งลงซ้าย (สับกับ sigmoid mesocolon ที่อยู่ซ้าย) — root of mesentery เริ่มซ้ายบนที่ DJ flexure แล้ว<b>ลงขวา</b>ไปที่ ileocecal junction",
+  "summary": [
+   "Root of mesentery: DJ flexure (ซ้ายของ L2) → ileocecal junction/right SI joint ยาวราว 15 cm · ข้าม D3, aorta, IVC, right ureter, right psoas",
+   "Malrotation: DJ junction อยู่ขวาของกระดูกสันหลัง cecum อยู่สูง root แคบ → midgut volvulus · Ladd procedure: ตัด Ladd bands กางฐาน mesentery ให้กว้าง ตัดไส้ติ่ง วางลำไส้เล็กทางขวา ลำไส้ใหญ่ทางซ้าย",
+   "Sigmoid mesocolon: root รูปตัว V คว่ำที่ left iliac fossa ยอดตัว V อยู่หน้า left ureter และจุดแยกของ common iliac artery",
+   "Transverse mesocolon: วิ่งขวางหน้า duodenum ส่วนที่ 2 และตับอ่อน แบ่งช่องท้องเป็น supracolic กับ infracolic compartment",
+   "SMA กับ aorta คร่อม duodenum ส่วนที่ 3 → มุมแคบ (< 25°) เกิด SMA syndrome · ลำไส้เล็กมุดเข้าช่องข้าง DJ flexure ได้ในไส้เลื่อนภายใน (paraduodenal hernia)"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ตอบ A ความมั่นใจสูง · ต้นฉบับจดแค่คำถาม ไม่มีช้อย เราแต่งช้อยทั้งหมด",
+  "variants": [
+   "ทารกอาเจียนน้ำดี UGI study เห็น DJ junction อยู่ขวาของกระดูกสันหลังและ duodenum บิดเป็นเกลียว (corkscrew) → midgut volvulus: ผ่าตัดด่วน Ladd procedure",
+   "ระหว่างผ่าตัดเลาะ right colon ต้องระวังโครงสร้างใดที่อยู่หลัง root of mesentery → right ureter, IVC และ duodenum ส่วนที่ 3",
+   "ผู้ป่วยปวดท้องเป็นพัก CT เห็นห่วงลำไส้เล็กกองรวมเป็นถุงอยู่ซ้ายของ DJ flexure → left paraduodenal hernia: ผ่าตัดดึงลำไส้กลับและปิดช่อง"
+  ]
+ },
+ "MDCU77|RoC|Colo 10": {
+  "why": "ญาติเป็นมะเร็งลำไส้ 3 คน (พี่ชาย 40 ลุง 50 หลาน 27) ต่อเนื่องหลายรุ่น และมีคนเป็นก่อนอายุ 50 = เข้าเกณฑ์ <b>Amsterdam II</b> → สงสัย <b>Lynch syndrome</b> · ต้องส่ง genetic counseling และตรวจยีน แต่ระหว่างนั้น<b>เริ่ม colonoscopy ทันที</b> เพราะเกณฑ์คือเริ่มอายุ 20–25 ปี หรือ 2–5 ปีก่อนอายุญาติที่เป็นเร็วที่สุด (ญาติเป็นตอน 27 ผู้ป่วยอายุ 22 จึงถึงเวลาแล้ว) แล้วส่องซ้ำทุก 1–2 ปี เพราะมะเร็งใน Lynch โตจาก adenoma เร็ว · แผลที่ทวารเป็นแค่โอกาสที่ผู้ป่วยมาพบแพทย์",
+  "wrong": {
+   "A": "การปลอบใจไม่เหมาะเมื่อมีประวัติครอบครัวมะเร็งลำไส้ 3 คน 2 รุ่น และอายุน้อย (เข้าเกณฑ์ Amsterdam II) — fissure ไม่ได้เกี่ยวแต่ต้องใช้โอกาสนี้คัดกรอง · จะถูกถ้าผู้ป่วยไม่มีประวัติครอบครัวเสี่ยงและมาด้วย acute fissure เท่านั้น",
+   "C": "เริ่ม colonoscopy ที่อายุ 40 (หรือ 10 ปีก่อนอายุญาติที่เป็น) ทุก 5 ปี เป็นแนวทางเมื่อมีญาติสายตรง 1 คนเป็นมะเร็ง &lt; 60 ปี — ช้าเกินไปสำหรับ Lynch ที่ต้องเริ่ม 20–25 ปีและส่องทุก 1–2 ปี · จะถูกถ้าพ่อเป็นมะเร็งลำไส้ตอนอายุ 50 ปีคนเดียว",
+   "D": "FIT ปีละครั้งตั้งแต่ 45 ปีใช้กับ average risk เท่านั้น · จะถูกถ้าผู้ป่วยไม่มีประวัติครอบครัวและไม่มีอาการ อายุ 45–75 ปี",
+   "E": "ควรส่ง genetic counseling และตรวจยีนทันที ไม่ใช่รอถึงอายุ 40 เพราะผลตรวจยีนเปลี่ยนการคัดกรองของทั้งผู้ป่วยและญาติ; ไม่มีสถานการณ์ใดที่ควรเลื่อน genetic counseling ไปถึงอายุ 40 ในครอบครัวที่เข้าเกณฑ์ Lynch"
+  },
+  "trap": "ใช้แนวทางประวัติครอบครัวทั่วไป (เริ่มอายุ 40 ทุก 5 ปี) กับครอบครัว Lynch — Lynch ต้องเริ่มเร็วและส่องถี่ทุก 1–2 ปี · และอย่าปล่อยผ่านประวัติครอบครัวเพราะผู้ป่วยมาด้วยเรื่องอื่น",
+  "summary": [
+   "Amsterdam II (3-2-1): ญาติ ≥ 3 คนเป็นมะเร็งกลุ่ม Lynch (ลำไส้ใหญ่ เยื่อบุโพรงมดลูก ลำไส้เล็ก ท่อไต/กรวยไต) · ≥ 2 รุ่นต่อเนื่อง · ≥ 1 คนอายุ < 50 · ตัด FAP ออก",
+   "การตรวจ: ตรวจ MMR (IHC) หรือ MSI ในก้อนมะเร็งลำไส้ทุกราย · ผิดปกติ → ตรวจ germline (MLH1, MSH2, MSH6, PMS2, EPCAM) · MLH1 หายร่วม BRAF V600E มักเป็น sporadic",
+   "Surveillance Lynch: colonoscopy ทุก 1–2 ปี เริ่ม 20–25 ปี (MLH1/MSH2) ช้ากว่าใน MSH6/PMS2 · ผู้หญิงพิจารณาตัดมดลูกและรังไข่เมื่อมีบุตรครบ",
+   "ประวัติครอบครัวทั่วไป: ญาติสายตรง 1 คนเป็นก่อน 60 ปีหรือ 2 คนอายุใดก็ได้ → colonoscopy อายุ 40 หรือ 10 ปีก่อนอายุญาติที่เป็นเร็วสุด ทุก 5 ปี",
+   "Lynch ที่เป็นมะเร็งลำไส้: พิจารณาตัดลำไส้ใหญ่กว้างกว่าปกติ (subtotal colectomy) ในคนอายุน้อย · aspirin ลดความเสี่ยงมะเร็ง (CAPP2)"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ตอบ B ความมั่นใจปานกลาง-สูง · ต้นฉบับช้อย B เขียนว่า \"Colonoscope as soon as possible q 5 yr\" ซึ่งทุก 5 ปีห่างเกินไปสำหรับ Lynch เราจึงปรับเป็น regular surveillance",
+  "variants": [
+   "หญิงอายุ 35 ปีพบ pathogenic variant ใน MSH2 มีบุตรครบแล้ว → colonoscopy ทุก 1–2 ปี + พิจารณาตัดมดลูกและรังไข่เพื่อลดความเสี่ยง",
+   "ก้อนมะเร็งลำไส้ของชายอายุ 70 ปี IHC MLH1 หาย และพบ BRAF V600E → น่าจะเป็น sporadic (MLH1 promoter methylation) ไม่ต้องตรวจ germline",
+   "ชายอายุ 30 ปีในครอบครัว Lynch ตรวจแล้วไม่พบ variant ที่ญาติมี → ความเสี่ยงเท่าคนทั่วไป: คัดกรองตามอายุปกติ"
+  ]
+ },
+ "MDCU77|RoC|Colo 11": {
+  "interp": "ปวดทวารเวลาถ่ายและปวดตุบ ๆ หลังถ่าย 3 เดือน + ภาพเป็น chronic anal fissure + ยาทา 8 สัปดาห์ไม่ได้ผล → ถามการรักษาขั้นต่อไป",
+  "why": "Chronic anal fissure (> 6–8 สัปดาห์) เกิดจากหูรูดชั้นในตึงตัวสูง เลือดไปเลี้ยงขอบแผลที่ posterior midline น้อย แผลจึงไม่หาย · เมื่อยาคลายหูรูด (diltiazem/nifedipine หรือ NTG) ไม่ได้ผล การรักษามาตรฐานคือ <b>lateral internal sphincterotomy (LIS)</b> ตัดหูรูดชั้นในด้านข้างบางส่วนเพื่อลดความตึง แผลหายมากกว่า 90% และเป็นซ้ำน้อยที่สุดในทุกวิธี แลกกับความเสี่ยงกลั้นลมหรืออุจจาระเหลวไม่อยู่เล็กน้อย · Botulinum toxin เป็นทางเลือกก่อน LIS โดยเฉพาะในผู้ที่เสี่ยงกลั้นไม่อยู่",
+  "wrong": {
+   "B": "Fistulotomy ± seton รักษา fistula-in-ano (มี external/internal opening) ไม่ใช่ fissure · จะถูกถ้าผู้ป่วยมีหนองไหลซึมจากรูข้างทวารเรื้อรังหลังเคยเป็นฝี",
+   "C": "Excisional hemorrhoidectomy ไม่ใช่การรักษา fissure (sentinel tag ไม่ใช่ริดสีดวง) · จะถูกถ้าเป็น grade III–IV internal hemorrhoid ที่มีอาการ",
+   "D": "ขยายทวารด้วยมือแบบแรง (Lord's) ทำหูรูดฉีกหลายจุดแบบควบคุมไม่ได้ กลั้นไม่อยู่สูง จึงเลิกใช้แล้ว; ไม่มีสถานการณ์ใดที่แนะนำ forceful anal dilatation ในปัจจุบัน — ถ้าต้องการขยายใช้ pneumatic balloon dilatation ที่ควบคุมแรงได้",
+   "E": "Incision and drainage ใช้กับ perianal abscess · จะถูกถ้ามีก้อนบวมแดงร้อนเจ็บ fluctuant ข้างทวารร่วมกับไข้"
+  },
+  "trap": "เลือกขยายทวารด้วยมือแบบแรงเพราะคิดว่าได้ผลแบบเดียวกัน — การยืดที่ควบคุมไม่ได้ทำหูรูดฉีกหลายจุดและกลั้นไม่อยู่สูงกว่า LIS จึงเลิกใช้ · และ sentinel tag ไม่ใช่ริดสีดวงที่ต้องตัด",
+  "summary": [
+   "LIS: หาย > 90% เป็นซ้ำน้อยสุด · กลั้นลมไม่อยู่เล็กน้อยพบได้บ้างและส่วนใหญ่ดีขึ้น · ทำแบบเปิดหรือปิดได้ผลใกล้กัน",
+   "Botulinum toxin: ฉีดหูรูดชั้นใน ไม่เสียการกลั้น แต่หายน้อยกว่าและเป็นซ้ำมากกว่า LIS · เหมาะกับผู้เสี่ยงกลั้นไม่อยู่",
+   "Fissure ที่ไม่ตรงลักษณะ (นอกแนวกลาง ไม่เจ็บ หลายแผล) → ตรวจใต้ยาสลบ + ชิ้นเนื้อก่อนผ่าตัด",
+   "แยกอาการปวดทวาร: fissure = ปวดแสบขณะและหลังถ่าย มีเลือดสดติดกระดาษ · thrombosed external hemorrhoid = ก้อนม่วงกดเจ็บที่ขอบทวาร · perianal abscess = ปวดตุบตลอด บวมแดง ไข้ · proctalgia fugax = ปวดแปลบสั้น ๆ ตอนกลางคืน · levator ani syndrome = ปวดตื้อนาน กด levator เจ็บ",
+   "Sentinel tag ไม่ต้องตัดเว้นแต่รบกวนการทำความสะอาด (ตัดพร้อม LIS ได้)"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 77C ไม่มีส่วน Colorectal) — ผู้จดใส่คำตอบไว้ว่า LIS ผมเห็นด้วย ความมั่นใจสูง · ต้นฉบับจดว่าให้ภาพ chronic anal fissure แต่ไม่มีรูปในไฟล์ และมีช้อยเดียว เราแต่ง B–E · ชุดนี้มี anal fissure อีก 2 ข้อ (RoA Colo 13, RoB Colo 6)",
+  "variants": [
+   "หลัง LIS 2 สัปดาห์ ผู้ป่วยกลั้นลมไม่ค่อยอยู่ → ส่วนใหญ่ดีขึ้นเองใน 2–3 เดือน ฝึกขมิบก้นหรือ biofeedback",
+   "ชายอายุ 40 ปีปวดแปลบที่ทวารตอนกลางคืนเป็นไม่กี่วินาทีแล้วหาย นาน ๆ ครั้ง ตรวจร่างกายปกติ → proctalgia fugax: อธิบายให้สบายใจ",
+   "หญิงปวดตื้อในทวารนานหลายชั่วโมง ไม่สัมพันธ์กับการถ่าย ตรวจทวารกดกล้ามเนื้อ levator ani แล้วเจ็บ → levator ani syndrome: นวด แช่น้ำอุ่น biofeedback"
+  ]
+ }
+}
