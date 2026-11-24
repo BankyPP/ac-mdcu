@@ -72,23 +72,23 @@
   ]
  },
  "MDCU77|RoC|CVT 5": {
-  "interp": "Dissection เริ่มที่ ascending aorta ลามถึง iliac (Stanford A / DeBakey I) — ข้อ LEAST ถามภาวะแทรกซ้อนที่พบน้อยที่สุดในบรรดาช้อย ทุกช้อยเกิดได้จริง ต้องเทียบความถี่ ไม่ใช่ความรุนแรง",
+  "interp": "Dissection เริ่มที่ ascending aorta ลามถึง iliac (Stanford A / DeBakey I) — ข้อ LEAST ถามภาวะแทรกซ้อนที่พบน้อยที่สุดในบรรดาช้อย ทุกช้อยเกิดได้จริง ต้องเทียบความถี่",
   "why": "DeBakey I ครอบคลุมตั้งแต่ root ถึงแขนงในท้อง จึงเกิดภาวะแทรกซ้อนได้ทุกระบบ · ที่พบบ่อยคือ <b>tamponade</b> (เลือดรั่วเข้าเยื่อหุ้มหัวใจจาก ascending aorta — เป็นสาเหตุตายสำคัญของ type A) และ <b>AKI</b> (renal malperfusion ร่วมกับความดันต่ำและสารทึบรังสี) · stroke และ MI จาก flap ลามเข้าแขนงที่ arch และ coronary ostium พบรองลงมา · <b>mesenteric (bowel) ischemia พบน้อยที่สุด</b> ในรายการนี้ แต่ตายสูงมากเมื่อเกิด · MI กับ bowel ischemia ความถี่ใกล้กัน ข้อนี้จึงไม่ง่าย",
   "wrong": {
-   "A": "MI เกิดเมื่อ flap ลามเข้าหรือปิด coronary ostium (มักขวา) ทำ inferior STEMI ได้ พบบ่อยใกล้เคียงหรือมากกว่า bowel ischemia เล็กน้อย · จะถูก (เป็นคำตอบของข้อ LEAST) ถ้า dissection เป็น type B ที่ไม่เกี่ยวกับ aortic root",
-   "C": "Stroke เกิดเมื่อ dissection ลามเข้า innominate/carotid หรือจากความดันต่ำ พบบ่อยกว่า bowel ischemia · จะถูก (เป็นคำตอบของข้อ LEAST) ถ้า dissection เป็น type B ที่เริ่มหลัง left subclavian ไม่เกี่ยวกับแขนงที่ arch",
-   "D": "Tamponade พบบ่อยที่สุดภาวะหนึ่งใน type A และเป็นสาเหตุตายสำคัญ — คีย์ไฟล์ 77C ตอบข้อนี้ว่าพบน้อยที่สุด · จะถูก (เป็นคำตอบของข้อ LEAST) ถ้า dissection เป็น type B (descending อย่างเดียว) ซึ่งไม่ทำให้เลือดเข้าเยื่อหุ้มหัวใจ",
+   "A": "MI เกิดเมื่อ flap ลามเข้าหรือปิด coronary ostium (มักขวา) ทำ inferior STEMI ได้ พบบ่อยใกล้เคียงหรือมากกว่า bowel ischemia เล็กน้อย · จะถูก (เป็นคำตอบของข้อ LEAST) ถ้า dissection จำกัดอยู่ใน descending thoracic aorta (type B) ซึ่งไม่ถึง coronary ostium",
+   "C": "Stroke เกิดเมื่อ dissection ลามเข้า innominate/carotid หรือจากความดันต่ำ พบบ่อยกว่า bowel ischemia · จะถูก (เป็นคำตอบของข้อ LEAST) ถ้า dissection เริ่มใต้ renal artery ลงถึง iliac (ไม่เกี่ยวแขนงที่ arch)",
+   "D": "Tamponade เกิดจากเลือดรั่วจาก ascending aorta เข้าเยื่อหุ้มหัวใจ พบบ่อยที่สุดภาวะหนึ่งใน type A และเป็นสาเหตุตายสำคัญ · จะถูก (เป็นคำตอบของข้อ LEAST) ถ้าเป็น penetrating aortic ulcer หรือ dissection ที่ abdominal aorta ซึ่งอยู่ห่างจากเยื่อหุ้มหัวใจ",
    "E": "AKI พบบ่อยใน DeBakey I จาก flap ลามถึง renal artery ร่วมกับความดันต่ำและสารทึบรังสี · จะถูก (เป็นคำตอบของข้อ LEAST) ถ้า dissection จำกัดอยู่ใน ascending aorta (DeBakey II) และไม่มีช็อก"
   },
   "trap": "จำว่า tamponade ร้ายแรงที่สุดแล้วตอบว่าพบน้อย (แบบคีย์ไฟล์ 77C ที่ตอบ D) — ร้ายแรงไม่ได้แปลว่าพบน้อย tamponade เป็นสาเหตุตายที่พบบ่อยของ type A · ภาวะที่พบน้อยแต่ตายสูงคือ mesenteric ischemia",
   "summary": [
    "ความถี่โดยประมาณใน type A (IRAD): tamponade ราว 15–19% · AKI ราว 10–20% · stroke ราว 5–10% · MI ราว 5–7% · mesenteric ischemia ราว 4–5% — ตัวเลขต่างกันตามการศึกษา",
    "กลไก malperfusion: dynamic — flap ปิดปากแขนงเป็นพัก ๆ แก้ได้เมื่อซ่อม aorta หรือ fenestration · static — dissection ลามเข้าแขนงจนตีบตัน ต้องใส่ stent หรือ bypass แขนงนั้น",
-   "Penn classification: a ไม่มี malperfusion · b malperfusion เฉพาะที่ · c ช็อก/ทั่วร่างกาย · bc ทั้งสองอย่าง — พยากรณ์แย่ลงตามลำดับ",
+   "หลักรักษา: type A ผ่าตัดด่วน · ระหว่างรอผ่าตัดและใน type B ให้ beta-blocker ทางหลอดเลือดดำ เป้า HR < 60 และ SBP 100–120 mmHg · type B ที่มี malperfusion แตก หรือปวดไม่หยุด (complicated) → TEVAR (รายละเอียดข้อ RoB CVT 4–5 ของชุดนี้)",
    "Mesenteric malperfusion: ปวดท้องมากเกินกว่าที่ตรวจพบ lactate สูง อัตราตายเกินครึ่ง · บางศูนย์เปิดเลือดเลี้ยงลำไส้ด้วย endovascular ก่อนซ่อม aorta",
    "Spinal cord ischemia: ขาสองข้างอ่อนแรงทันทีจาก intercostal/lumbar artery ถูกปิด (anterior spinal artery syndrome) · AKI และขาขาดเลือดจาก renal/iliac malperfusion"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ D (tamponade) ของไฟล์ Key 77C — ตอบ B bowel ischemia ตามข้อมูล IRAD ที่ tamponade ใน type A พบราว 15–19% (Gilon 2009, IRAD 2025) ขณะที่ mesenteric ischemia ราว 4–5% · MI พบน้อยใกล้เคียงกัน จึงความมั่นใจปานกลาง · ต้นฉบับมีช้อย 4 ตัว เราเติม E",
+  "opinion": "ไม่เห็นด้วยกับคีย์ D (tamponade) ของไฟล์ Key 77C — ตอบ B bowel ischemia ตามข้อมูล IRAD ที่ tamponade ใน type A พบราว 15–19% (Gilon 2009, Evangelista 2018) ขณะที่ mesenteric ischemia ราว 4–5% · MI พบน้อยใกล้เคียงกัน จึงความมั่นใจปานกลาง",
   "variants": [
    "ผู้ป่วย type A dissection ปวดท้องรุนแรงแต่ท้องนุ่ม lactate 8 mmol/L → mesenteric malperfusion: CTA ดู SMA และวางแผนเปิดเลือดเลี้ยงลำไส้ร่วมกับซ่อม aorta",
    "ผู้ป่วย type A dissection ขาขวาเย็น คลำชีพจร femoral ขวาไม่ได้ → limb malperfusion: ผ่าตัด aorta มักแก้ได้ ถ้าไม่ดีขึ้นทำ femoro-femoral bypass หรือ stent",
@@ -145,22 +145,22 @@
  },
  "MDCU77|RoC|CVT 8": {
   "interp": "ชายอายุ 40 ปีสูบบุหรี่ หอบและแน่นหน้าอกทันที CXR (ตามที่บันทึกไว้) เป็น pneumothorax ขนาดใหญ่ — spontaneous pneumothorax ที่มีอาการ ถามการรักษาเริ่มต้น ระหว่างเจาะดูดกับใส่สายระบาย",
-  "why": "Pneumothorax ที่ใหญ่และ<b>มีอาการหอบ</b> ต้องเอาลมออกให้ปอดขยาย · <b>intercostal chest drainage</b> ทำให้ปอดขยายได้แน่นอนที่สุดและรับลมที่ยังรั่วต่อได้ จึงเป็นคำตอบที่อาจารย์ในไฟล์คีย์เลือก · ผู้สูบบุหรี่อาจมี emphysema หรือ bulla แฝงอยู่ ถ้าเป็น secondary pneumothorax ยิ่งต้องใส่สายและรับไว้ในโรงพยาบาล · แนวทาง BTS 2023 สำหรับ primary pneumothorax ที่มีอาการแต่ไม่มีปัจจัยเสี่ยงสูงให้เลือกได้ทั้ง conservative, ambulatory device หรือ needle aspiration ตามความต้องการของผู้ป่วย ข้อนี้จึงมีความไม่แน่นอนอยู่บ้าง",
+  "why": "Pneumothorax ที่ใหญ่และ<b>มีอาการหอบ</b> ต้องเอาลมออกให้ปอดขยาย · <b>intercostal chest drainage</b> ทำให้ปอดขยายได้แน่นอนที่สุดและรับลมที่ยังรั่วต่อได้ จึงเป็นคำตอบที่อาจารย์ในไฟล์คีย์เลือก (ตรงกับแนวทาง ACCP ที่ให้ใส่สายใน primary pneumothorax ขนาดใหญ่) · ผู้สูบบุหรี่อาจมี emphysema หรือ bulla แฝงอยู่ ถ้าเป็น secondary pneumothorax ยิ่งต้องใส่สายและรับไว้ในโรงพยาบาล · ข้อนี้มีความไม่แน่นอน เพราะแนวทาง BTS ให้ needle aspiration เป็นทางเลือกใน primary pneumothorax ที่มีอาการ",
   "wrong": {
    "A": "Needle aspiration เป็นทางเลือกหนึ่งของ primary spontaneous pneumothorax ที่มีอาการตาม BTS 2023 ใส่ง่ายเจ็บน้อย แต่สำเร็จน้อยกว่าสายระบายและต้องทำซ้ำบ่อย · จะถูกถ้าชายหนุ่มผอมสูงไม่มีโรคปอดและไม่มีปัจจัยเสี่ยงสูง มีอาการเล็กน้อย และต้องการเลี่ยงการใส่สาย",
-   "C": "Observation + O₂ ใช้กับ PTX ขนาดเล็ก (&lt; 2 cm ที่ระดับ hilum) ไม่มีอาการ · จะถูกถ้าผู้ป่วย primary PTX เล็กไม่มีอาการหอบ",
+   "C": "Observation + O<sub>2</sub> ใช้กับ primary pneumothorax ที่ไม่มีอาการหรืออาการน้อย (BTS 2023 ใช้ได้แม้ขนาดใหญ่) แต่ผู้ป่วยรายนี้หอบ · จะถูกถ้าชายหนุ่มผอมสูง primary pneumothorax ไม่มีอาการหอบ สัญญาณชีพปกติ",
    "D": "VATS bullectomy + pleurodesis ใช้เมื่อเป็นซ้ำ ข้างตรงข้าม air leak > 3–5 วัน หรืออาชีพเสี่ยง (นักบิน นักดำน้ำ) ไม่ใช่การรักษาเฉียบพลันครั้งแรก · จะถูกถ้าผู้ป่วยมี air leak ต่อเนื่องหลังใส่ ICD 5 วัน",
-   "E": "จำหน่ายกลับบ้านไม่ได้ในผู้ที่หอบเหนื่อยและ PTX ขนาดใหญ่ · จะถูกถ้า PTX เล็กไม่มีอาการและติดตามได้ใกล้ชิด"
+   "E": "จำหน่ายกลับบ้านโดยไม่เอาลมออกไม่ได้ในผู้ที่หอบและ pneumothorax ใหญ่ · จะถูกถ้าผู้ป่วย primary pneumothorax ใส่ ambulatory device แล้วอาการดี และนัดติดตามที่ OPD ภายใน 24–48 ชม."
   },
   "trap": "ตอบ observation เพราะจำว่า BTS 2023 ให้รักษาแบบ conservative ได้แม้ pneumothorax ใหญ่ — ใช้กับผู้ที่ไม่มีอาการหรืออาการน้อย ผู้ป่วยรายนี้หอบ · และอย่าสับสน needle aspiration (ดูดลมใน pneumothorax ธรรมดา) กับ needle decompression ใน tension pneumothorax",
   "summary": [
    "Primary = ไม่มีโรคปอด (ชายผอมสูงสูบบุหรี่ มี bleb ที่ยอดปอด) · secondary = มีโรคปอด (COPD, TB, cystic lung disease, มะเร็ง) อาการรุนแรงกว่าแม้ขนาดเล็ก",
    "BTS 2023 ตัดสินจากอาการและปัจจัยเสี่ยงมากกว่าขนาด: ปัจจัยเสี่ยงสูง (สัญญาณชีพไม่คงที่ ขาดออกซิเจนมาก สองข้าง มีเลือดร่วม อายุ ≥ 50 + สูบบุหรี่มาก โรคปอดเดิม) → chest drain · primary มีอาการ → conservative, ambulatory device หรือ needle aspiration · ไม่มีอาการ → conservative แม้ขนาดใหญ่",
-   "วัดขนาดใน CXR: BTS ใช้ระยะขอบปอดถึงผนังอกที่ระดับ hilum ≥ 2 cm = ใหญ่ · ACCP ใช้ระยะที่ยอดปอด ≥ 3 cm",
-   "ใส่สายใน safe triangle (ขอบ pectoralis major, ขอบ latissimus dorsi, แนวระดับหัวนม/ช่องซี่โครงที่ 5) · สายเล็ก ≤ 14 Fr ใช้กับลมได้ · ห้ามหนีบสายที่ยังมีฟองลมออก",
+   "Tension pneumothorax: หอบมาก ความดันตก หลอดเลือดคอโป่ง หลอดลมเบี้ยว → needle decompression ช่องซี่โครง 4–5 แนว mid-axillary ในผู้ใหญ่ (ATLS 10th ขึ้นไป) หรือ finger thoracostomy แล้วใส่ ICD โดยไม่รอ CXR",
+   "ใส่สายใน safe triangle (ขอบ pectoralis major, ขอบ latissimus dorsi, แนวช่องซี่โครงที่ 5) · สายเล็ก ≤ 14 Fr ใช้กับลมได้ · needle aspiration ไม่สำเร็จ → ใส่สายระบาย · ห้ามหนีบสายที่ยังมีฟองลมออก",
    "ป้องกันเป็นซ้ำ: เลิกบุหรี่ · ผ่าตัด VATS เมื่อลมรั่วนานเกิน 3–5 วัน เป็นซ้ำ เป็นสองข้าง หรืออาชีพเสี่ยง (นักบิน นักดำน้ำ) · งดดำน้ำลึกถ้าไม่ได้ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง · ไฟล์ Key 77C เขียน \"A/B?\" พร้อมบันทึกว่าอาจารย์ตอบ ICD เพราะ pneumothorax ใหญ่ · ถ้ายึด BTS 2023 อย่างเดียว needle aspiration ก็เป็นทางเลือกที่ยอมรับได้ใน primary pneumothorax ที่ไม่มีปัจจัยเสี่ยงสูง · ต้นฉบับมีช้อย 2 ตัว (A เขียนว่า \"Thoracocentesis\") เราเติม C–E",
+  "opinion": "ตอบ B ตามอาจารย์ในไฟล์คีย์ ความมั่นใจต่ำ–ปานกลาง · ไฟล์ Key 77C เขียน \"A/B?\" พร้อมบันทึกว่าอาจารย์ตอบ ICD เพราะ pneumothorax ใหญ่ ซึ่งตรงกับ ACCP · แต่ผู้ป่วยอายุ < 50 ไม่เข้าเกณฑ์เสี่ยงสูงของ BTS 2023 ถ้ายึด BTS ช้อย A (needle aspiration) จะตรงกว่า",
   "variants": [
    "ผู้ป่วย COPD อายุ 65 ปี pneumothorax ขนาด 1.5 cm หอบมาก → secondary pneumothorax: ใส่ chest drain และรับไว้ในโรงพยาบาล แม้ขนาดเล็ก",
    "หลังใส่สายระบาย pneumothorax ใหญ่ที่เป็นมาหลายวัน ปอดขยายแล้วผู้ป่วยไอและหอบมากขึ้น CXR เห็นปอดข้างนั้นฝ้าทั้งข้าง → re-expansion pulmonary edema: ให้ออกซิเจนประคับประคอง",
@@ -240,7 +240,7 @@
  },
  "MDCU77|RoC|Ped 2": {
   "interp": "ทารก 3 สัปดาห์ที่เคยกินดี อาเจียนน้ำดี \"ทันที\" — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ซึ่งต้องคิดถึงก่อนเพราะอันตรายที่สุด คือ malrotation with midgut volvulus",
-  "why": "อาเจียนเป็น<b>น้ำดี</b>แปลว่าอุดตันต่ำกว่า ampulla of Vater · ทารกที่เคยปกติแล้วเกิดขึ้นทันที → <b>midgut volvulus</b> บน malrotation เป็นอันดับแรกจนพิสูจน์ได้ว่าไม่ใช่ เพราะลำไส้เล็กบิดรอบ SMA ทำให้ลำไส้ทั้ง midgut ขาดเลือดได้ในไม่กี่ชั่วโมง · โรคอื่นในช้อยไม่เข้า: pyloric stenosis และ reflux อาเจียนไม่มีน้ำดี · duodenal atresia มีอาการตั้งแต่วันแรก · NEC เป็นทารกคลอดก่อนกำหนดที่ท้องอืดถ่ายเป็นเลือด",
+  "why": "อาเจียนเป็น<b>น้ำดี</b>แปลว่าอุดตันต่ำกว่า ampulla of Vater · ทารกที่เคยปกติแล้วเกิดขึ้นทันที → <b>midgut volvulus</b> บน malrotation เป็นอันดับแรกจนพิสูจน์ได้ว่าไม่ใช่ เพราะลำไส้เล็กบิดรอบ SMA ทำให้ลำไส้ทั้ง midgut ขาดเลือดได้ในไม่กี่ชั่วโมง · จึงต้องงดนม ใส่ NG และทำ UGI study ด่วน (หรือผ่าตัดทันทีถ้าช็อก) · โรคอื่นในช้อยไม่เข้ากับทั้งอาเจียนน้ำดีและการเกิดทันทีหลังกินดีมา 3 สัปดาห์",
   "wrong": {
    "B": "HPS อาเจียนพุ่ง \"ไม่มีน้ำดี\" (อุดที่ pylorus เหนือ ampulla) อายุ 3–6 สัปดาห์ หิวตลอด · จะถูกถ้าทารกอาเจียนพุ่งเป็นนมไม่มีสีเขียวและคลำได้ olive",
    "C": "Duodenal atresia อาเจียน (มักมีน้ำดี) ตั้งแต่วันแรก ๆ หลังคลอด ไม่ใช่ทารกที่กินดีมา 3 สัปดาห์ · จะถูกถ้าทารกที่แม่มีน้ำคร่ำมาก อาเจียนน้ำดีตั้งแต่มื้อแรก และ X-ray เป็น double bubble ไม่มีลมในลำไส้ส่วนปลาย",
@@ -252,12 +252,12 @@
    "น้ำดีในอาเจียน = อุดตันต่ำกว่า ampulla (ส่วนที่สองของ duodenum ลงไป) · สีเขียวเข้มหรือเขียวมรกต ไม่ใช่สีเหลือง · ทารกอาเจียนน้ำดีถือเป็นภาวะทางศัลยกรรมจนพิสูจน์ได้ว่าไม่ใช่",
    "แยกตามเวลาเริ่ม: วันแรก ๆ → duodenal/jejunoileal atresia, meconium ileus, Hirschsprung · ทารกที่เคยปกติแล้วเกิดทันที → volvulus",
    "X-ray ช่องท้อง: double bubble ไม่มีลมส่วนปลาย → duodenal atresia · double bubble มีลมส่วนปลาย → ต้องคิด volvulus, duodenal web/stenosis · triple bubble → jejunal atresia · ลำไส้โป่งหลายห่วง → ileal atresia, meconium ileus, Hirschsprung (ทำ contrast enema)",
-   "ดูแลทันที: งดนม ใส่ NG ระบาย ให้สารน้ำทางหลอดเลือดและแก้เกลือแร่ ปรึกษาศัลยแพทย์เด็ก · สัญญาณชีพคงที่ → UGI study ด่วน · ช็อกหรือท้องแข็ง → ผ่าตัด",
+   "ดูแลทันที: งดนม ใส่ NG ระบาย ให้สารน้ำและแก้เกลือแร่ ปรึกษาศัลยแพทย์เด็ก · สัญญาณชีพคงที่ → UGI study ด่วน: DJ junction อยู่ขวาของแนวกลางหรือต่ำกว่า pylorus, duodenum บิดเป็นเกลียว (corkscrew) · ช็อกหรือท้องแข็ง → ผ่าตัด",
    "Duodenal atresia: ร่วม Down syndrome ราวหนึ่งในสาม หัวใจพิการ annular pancreas · ผ่าตัด duodenoduodenostomy หลังเตรียมผู้ป่วย ไม่ด่วนเท่า volvulus"
   ],
   "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง (ไฟล์ Key 77C ตอบ A) · ผู้จดจดไว้แค่คำตอบ เราแต่งช้อยและเติมอายุ 3 สัปดาห์ · ภาพ UGI และ Ladd procedure ดูข้อ RoA Ped 8 และ RoB Ped 1 ของชุดนี้",
   "variants": [
-   "ทารกอายุ 2 วัน X-ray เป็น double bubble แต่มีลมในลำไส้ส่วนปลายเล็กน้อย → ไม่ใช่ atresia สมบูรณ์ ต้องทำ UGI ด่วนแยก volvulus กับ duodenal web",
+   "ทารก 3 สัปดาห์อาเจียนน้ำดี UGI เห็น duodenum บิดเป็นเกลียวและ DJ junction อยู่ขวาของกระดูกสันหลัง → midgut volvulus: Ladd procedure ด่วน",
    "ทารกแรกเกิดท้องอืดมาก อาเจียนน้ำดี ไม่ถ่ายขี้เทา X-ray ลำไส้โป่งหลายห่วง → contrast enema เห็น microcolon: ileal atresia หรือ meconium ileus",
    "ทารก 3 สัปดาห์อาเจียนน้ำดี แพทย์ให้ยากระตุ้นการบีบตัวของกระเพาะแล้วนัดดูอาการ → ไม่ถูก: ต้องงดนม ใส่ NG ให้สารน้ำ และปรึกษาศัลยแพทย์ทันที"
   ]
