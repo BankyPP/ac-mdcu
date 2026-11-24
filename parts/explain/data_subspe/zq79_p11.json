@@ -1,0 +1,185 @@
+{
+ "MDCU79|RoD|Ped 6": {
+  "wrong": {
+   "B": "Turner (45,X) สัมพันธ์กับ cystic hygroma/nuchal edema ในครรภ์, coarctation of aorta, bicuspid aortic valve, horseshoe kidney ไม่ใช่ omphalocele; จะถูกถ้าโจทย์ถามกลุ่มอาการที่สัมพันธ์กับ cystic hygroma ที่คอซึ่งตรวจพบในครรภ์ หรือเด็กหญิงตัวเตี้ยมี webbed neck",
+   "C": "Noonan syndrome (PTPN11): pulmonary valve stenosis, hypertrophic cardiomyopathy, webbed neck, ตัวเตี้ย, cryptorchidism ไม่สัมพันธ์กับ omphalocele; จะถูกถ้าโจทย์เป็นเด็กชายหน้าตาคล้าย Turner มี pulmonary stenosis และ karyotype ปกติ",
+   "D": "Marfan syndrome (FBN1): ตัวสูง แขนขายาว aortic root dilatation, lens subluxation ขึ้นบน เป็นความผิดปกติของ connective tissue ไม่ใช่ผนังหน้าท้อง; จะถูกถ้าโจทย์เป็นวัยรุ่นตัวสูงผอม เลนส์ตาเคลื่อน มี aortic root โป่ง",
+   "E": "Williams syndrome (7q11.23 deletion): supravalvular aortic stenosis, hypercalcemia ในทารก, elfin face, นิสัยร่าเริงเข้ากับคนง่าย ไม่สัมพันธ์กับ omphalocele; จะถูกถ้าโจทย์เป็นเด็กหน้าตาแบบ elfin มี supravalvular AS และแคลเซียมสูง"
+  },
+  "trap": "สับสน omphalocele กับ gastroschisis — omphalocele อยู่กลางสะดือ มีถุงหุ้ม สายสะดือเกาะที่ถุง และมี anomaly ร่วมสูง ส่วน gastroschisis อยู่ด้านขวาของสะดือ ไม่มีถุง พบในแม่อายุน้อย anomaly ร่วมน้อย; trisomy ที่สัมพันธ์มากที่สุดคือ 18 และ 13 แต่ในช้อยมีแค่ Down จึงเลือกตัวที่สัมพันธ์จริงในช้อย"
+ },
+ "MDCU79|RoD|Ped 7": {
+  "wrong": {
+   "A": "Varicocele เป็นเส้นเลือดดำ pampiniform plexus ขดคลำได้เหมือนถุงหนอน มักข้างซ้าย ยุบเมื่อนอน ใหญ่ขึ้นเมื่อยืนหรือเบ่ง ไม่ส่องไฟผ่าน พบในวัยรุ่นมากกว่า; จะถูกถ้าโจทย์เป็นวัยรุ่นชายมีก้อนนุ่มเหนืออัณฑะซ้าย คลำเหมือนถุงหนอน ยุบเมื่อนอน",
+   "B": "Communicating hydrocele: processus vaginalis ยังเปิด น้ำไหลไปมากับช่องท้อง ขนาดเปลี่ยนในวัน (เล็กตอนเช้า ใหญ่ตอนเย็นหรือตอนร้อง) บีบแล้วค่อย ๆ ยุบ แต่โจทย์บอกว่าไม่เล็กลงทั้งตอนนอนและตอนบีบ; จะถูกถ้าแม่เล่าว่าก้อนเล็กตอนตื่นนอนและใหญ่ขึ้นตอนเย็น",
+   "D": "Inguinal hernia: ลำไส้หรือ omentum ลงมาในถุงอัณฑะ ดันกลับได้ คลำขอบบนของก้อนไม่ได้ ส่วนใหญ่ไม่ส่องไฟผ่าน (ทารกบางรายผนังลำไส้บางอาจส่องผ่านได้); จะถูกถ้าโจทย์เป็นก้อนที่ขาหนีบลงถุงอัณฑะ โผล่ตอนร้องไห้ ดันกลับเข้าไปได้",
+   "E": "Testicular tumor เป็นก้อนแข็งในเนื้ออัณฑะ ไม่เจ็บ ไม่ส่องไฟผ่าน (อาจมี reactive hydrocele ร่วม) ในเด็กเล็กมักเป็น yolk sac tumor (AFP สูง) หรือ teratoma; จะถูกถ้าโจทย์เป็นก้อนแข็งในอัณฑะที่ส่องไฟไม่ผ่านและ AFP สูง"
+  },
+  "trap": "ส่องไฟผ่านบอกแค่ว่าเป็นน้ำ แต่ไม่ได้แยก communicating กับ non-communicating — ตัวแยกคือขนาดเปลี่ยนตามท่าหรือบีบยุบได้หรือไม่ ซึ่งโจทย์บอกว่าไม่เล็กลง; ระวังทารกที่มี hernia บางรายส่องไฟผ่านได้ ต้องดูว่าคลำขอบบนของก้อนได้ไหม (hydrocele คลำได้ hernia คลำไม่ได้)",
+  "summary": [
+   "Hydrocele = น้ำใน tunica vaginalis · communicating (processus vaginalis เปิด ขนาดเปลี่ยน) vs non-communicating (ขนาดคงที่)",
+   "Transillumination บวก: hydrocele, spermatocele/epididymal cyst · ลบ: hernia (ส่วนใหญ่), tumor, hematocele, varicocele",
+   "Non-communicating hydrocele ในทารก → observe ส่วนใหญ่หายเองภายใน 1–2 ปี · communicating, ไม่หายหลัง 1–2 ปี หรือโตขึ้นเรื่อย ๆ → ผ่าตัดผ่าน inguinal (ligation of patent processus vaginalis) ไม่ผ่าทาง scrotum (EAU 2024)",
+   "Hydrocele ที่เกิดใหม่ในเด็กโตหรือผู้ใหญ่ → US หาสาเหตุ (tumor, torsion, epididymitis, trauma) · ผู้ใหญ่ที่มีอาการ → hydrocelectomy ผ่านถุงอัณฑะ (Jaboulay/Lord)",
+   "Hydrocele of the cord: ก้อนตามแนว spermatic cord แยกจากอัณฑะ คลำขอบบนได้",
+   "Varicocele: ข้างซ้ายบ่อย (left gonadal vein เข้า renal vein มุมฉาก) · ข้างขวาข้างเดียวหรือไม่ยุบเมื่อนอน → หาก้อนในช่องท้อง"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — ส่องไฟผ่านร่วมกับขนาดไม่เปลี่ยนแม้นอนหรือบีบ คือ non-communicating hydrocele; ต้นฉบับมีช้อยแค่ 3 ตัว เราเติม inguinal hernia และ testicular tumor เป็นตัวลวง ไม่กระทบคำตอบ"
+ },
+ "MDCU79|RoD|Ped 8": {
+  "trap": "สลับเวลาซ่อม cleft lip (ราว 3 เดือน ตาม rule of 10s) กับ cleft palate (ราว 9–18 เดือน ส่วนใหญ่ประมาณ 1 ปี) — หลักคิดคือซ่อมเพดานให้เสร็จก่อนเด็กเริ่มพูดเป็นคำ แต่ไม่เร็วเกินจนรบกวนการเจริญของ maxilla; ช้อย 6 เดือนเป็นตัวหลอกเพราะบางสถาบันทำเร็ว แต่คำตอบมาตรฐานคือราว 1 ปี",
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — ACPA และตำราส่วนใหญ่แนะนำ palatoplasty ช่วง 9–18 เดือน ซึ่ง 1 ปีอยู่กลางช่วง และสอดคล้องกับข้อสอบชุด 79C ที่ตอบ 9–12 เดือน; ต้นฉบับมีช้อย 4 ตัว เราเติม 5 ปีเป็นตัวลวง",
+  "variants": [
+   "ทารก cleft lip อายุ 10 สัปดาห์ น้ำหนัก 5 kg Hb 11 g/dL สุขภาพดี — ผ่าตัดซ่อมปากได้หรือยัง → ได้ ผ่าน rule of 10s",
+   "เด็ก 9 ปี เคยซ่อม cleft lip และ palate แล้ว ยังมีรูที่ alveolar ridge ฟันเขี้ยวยังไม่ขึ้น — ทำอะไรต่อ → alveolar bone graft (ก่อน canine ขึ้น)",
+   "ทารกแรกเกิดคางเล็ก ลิ้นตกไปด้านหลัง หายใจลำบากเวลานอนหงาย มี cleft palate รูปตัว U — กลุ่มอาการและการจัดการแรก → Pierre Robin sequence นอนคว่ำหรือตะแคง ± nasopharyngeal airway"
+  ]
+ },
+ "MDCU79|RoD|Ped 9": {
+  "wrong": {
+   "B": "Duodenal atresia: อาเจียนมีน้ำดี (ส่วนใหญ่อุดใต้ ampulla) ตั้งแต่วันแรกหลังคลอด AXR เห็น double bubble มักมี Down syndrome ไม่มีก้อน olive และไม่ได้เริ่มที่อายุหลายสัปดาห์; จะถูกถ้าโจทย์เป็นทารก Down อาเจียนน้ำดีวันแรก แม่มี polyhydramnios",
+   "C": "GERD ในทารกเป็นการแหวะนมไม่พุ่งแรง น้ำหนักขึ้นดี ไม่มีก้อนที่ท้อง ส่วนใหญ่หายเองเมื่ออายุราว 12 เดือน; จะถูกถ้าโจทย์เป็นทารกแหวะนมหลังกินบ่อย ๆ แต่โตดี ร่าเริง ไม่ขาดน้ำ (happy spitter)",
+   "D": "Malrotation with midgut volvulus: อาเจียนมีน้ำดีเฉียบพลัน เป็นภาวะฉุกเฉินเสี่ยงลำไส้ตายทั้งหมด วินิจฉัยด้วย upper GI study ไม่มี olive; จะถูกถ้าโจทย์เป็นทารกที่เคยปกติแล้วอาเจียนเขียวทันที",
+   "E": "Annular pancreas ทำให้ duodenal obstruction อาเจียน (มักมีน้ำดี) และ double bubble ตั้งแต่แรกเกิด ไม่มี olive; จะถูกถ้าโจทย์ถามสาเหตุของ double bubble ที่ตับอ่อนหุ้มรอบ duodenum ส่วนที่สอง"
+  },
+  "trap": "อาเจียนไม่มีน้ำดีบอกว่าอุดเหนือ ampulla — ตัวลวงในช้อยเกือบทั้งหมดเป็นโรคที่อาเจียนมีน้ำดี; กับดักที่ข้อสอบชอบถามต่อคือ HPS ไม่ใช่ surgical emergency ต้องแก้ hypochloremic hypokalemic metabolic alkalosis ก่อนผ่าตัด เพราะ alkalosis ทำให้หยุดหายใจหลังดมยาสลบได้",
+  "summary": [
+   "HPS: กล้ามเนื้อ pylorus หนาตัว → gastric outlet obstruction · อายุ 2–8 สัปดาห์ (บ่อย 3–6), ชาย 4:1, บุตรคนแรก, ได้ erythromycin/azithromycin ช่วงแรกเกิด",
+   "อาการ: อาเจียนพุ่งไม่มีน้ำดีหลังกิน หิวอยากกินต่อ (hungry vomiter), เห็น gastric peristalsis จากซ้ายไปขวา, คลำ olive ที่ epigastrium/RUQ ตอนท้องว่าง",
+   "Lab: hypochloremic hypokalemic metabolic alkalosis + paradoxical aciduria (ไตเก็บ Na แลก H+ เมื่อขาดน้ำมาก)",
+   "US (ทางเลือกแรก): pyloric muscle thickness ≥3–4 mm, channel length ≥15–17 mm · upper GI study: string sign",
+   "Resuscitate: NSS bolus → D5 ½NSS + KCl เมื่อปัสสาวะออก จน Cl ≥100 และ HCO3 <30 แล้วจึงผ่าตัด",
+   "Ramstedt pyloromyotomy (เปิดหรือ laparoscopic) · complication: mucosal perforation, incomplete myotomy · อาเจียนช่วงแรกหลังผ่าตัดพบได้บ่อย",
+   "ข้อสอบชุด 79C Subspe มีเรื่อง HPS (initial management = IV fluid + electrolyte)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — อาเจียนไม่มีน้ำดี หิวกินดี และคลำได้ olive เป็นภาพคลาสสิกของ HPS ช้อยที่เหลือเป็นโรคอาเจียนน้ำดีหรือไม่มีก้อน; ข้อนี้ต่อกับชุด 79C ที่ถามการจัดการขั้นแรกของ HPS ควรจำคู่กัน"
+ },
+ "MDCU79|RoD|Ped 10": {
+  "trap": "เห็น currant jelly stool แล้วรีบเลือกผ่าตัด — ทารกที่ stable ไม่มี peritonitis ต้องเริ่มด้วย image-guided enema reduction ซึ่งสำเร็จราว 80–90%; ต้องเช็กข้อห้ามก่อนเสมอ (peritonitis, free air, shock ที่แก้ไม่ได้) และอย่าเลือก barium enema เพราะปัจจุบันใช้ US วินิจฉัยและใช้ air/saline รักษา",
+  "summary": [
+   "Intussusception: พบบ่อยสุดอายุ 6–36 เดือน · ileocolic ~90% · เด็กเล็กส่วนใหญ่ idiopathic (lymphoid hyperplasia ของ Peyer's patch หลังติดเชื้อไวรัส)",
+   "อาการ: ปวดท้องเป็นพัก ๆ ร้องขาดตัวงอเข่า สลับซึม, อาเจียน, currant jelly stool (อาการช้า มีครบ triad <50%), คลำได้ sausage-shaped mass, RLQ ว่าง (Dance sign)",
+   "US (ทางเลือกแรก, sensitivity ~98%): target/doughnut sign ภาพตัดขวาง, pseudokidney ภาพตามยาว",
+   "รักษา: resuscitation + air หรือ hydrostatic enema reduction ภายใต้ fluoroscopy/US สำเร็จ ~80–90%, perforation ~1% · ลองซ้ำได้ถ้าครั้งแรกลดได้บางส่วนและผู้ป่วย stable",
+   "ข้อห้ามของ enema → laparotomy: peritonitis, perforation (free air), shock ที่แก้ไม่ได้ · ผ่าตัด manual reduction โดยบีบดันจากปลาย (ไม่ดึง) ± resection ถ้าลำไส้ตาย",
+   "เป็นซ้ำ ~10% ทำ enema ซ้ำได้ · เด็กโต >3–5 ปีหรือเป็นซ้ำหลายครั้ง → หา pathologic lead point (Meckel, polyp, lymphoma, HSP) · ผู้ใหญ่ส่วนใหญ่มี lead point เป็นเนื้องอก → resection",
+   "ดูข้อ 180 (PJS polyp เป็น lead point)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ทารก stable ไม่มี peritonitis ข้อสอบต้องการ nonoperative reduction ด้วย air enema; ต้นฉบับบอกวินิจฉัยมาในโจทย์แล้ว ข้อนี้จึงถามการจัดการล้วน ๆ",
+  "variants": [
+   "เด็ก 10 เดือน intussusception ซึมลง ไข้สูง หน้าท้องแข็งกดเจ็บทั่ว AXR เห็น free air — ทำอะไร → resuscitation, IV antibiotics แล้ว emergency laparotomy ห้ามทำ enema",
+   "เด็ก 6 ปี intussusception เป็นซ้ำเป็นครั้งที่ 3 — ต้องหาอะไรเพิ่ม → pathologic lead point เช่น Meckel diverticulum, polyp, lymphoma",
+   "ทารก 8 เดือน ทำ air enema ครั้งแรกลดได้บางส่วน ยัง stable ไม่มี peritonitis — ทำอะไรต่อ → ลอง enema ซ้ำ (delayed repeat) ก่อนพิจารณาผ่าตัด"
+  ]
+ },
+ "MDCU79|RoD|Ped 11": {
+  "summary": [
+   "Rule of 2s: ~2% ของประชากร, ~2 ฟุตจาก ileocecal valve, ยาว ~2 นิ้ว, มีอาการส่วนใหญ่ก่อนอายุ 2 ปี, เนื้อเยื่อ ectopic 2 ชนิด (gastric บ่อยสุด, pancreatic), ชาย:หญิง ~2:1",
+   "เป็น true diverticulum (ครบทุกชั้น) จาก vitelline (omphalomesenteric) duct ที่ปิดไม่สมบูรณ์ อยู่ด้าน antimesenteric ของ ileum",
+   "อาการ: painless rectal bleeding ปริมาณมากสีแดงคล้ำในเด็ก (จากแผลที่ ileum ข้าง ๆ ที่โดนกรดจาก ectopic gastric mucosa), obstruction (intussusception, volvulus รอบ fibrous band), diverticulitis (เลียน appendicitis), Littre hernia",
+   "Meckel scan (Tc-99m pertechnetate): จับ gastric mucosa → focal hot spot ที่ RLQ ขึ้นพร้อมกระเพาะ · sensitivity ในเด็ก ~85–90% เพิ่มได้ด้วย H2 blocker/pentagastrin/glucagon",
+   "ผลลบแต่ยังสงสัยมาก → ทำ scan ซ้ำ, CT angiography/tagged RBC scan ถ้าเลือดออกมาก, หรือ diagnostic laparoscopy",
+   "รักษา symptomatic: diverticulectomy หรือ segmental ileal resection (ถ้าแผลอยู่ที่ ileum ฐานกว้าง หรือคลำได้ก้อน) · incidental ในเด็กมักตัด ผู้ใหญ่พิจารณาตามความเสี่ยง",
+   "ดูข้อ 205 (intussusception)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — Meckel diverticulum ที่มี ectopic gastric mucosa จับ pertechnetate เห็นเป็นจุดร้อนเฉพาะที่ RLQ ตรงตำแหน่ง distal ileum; ช้อยอื่นเป็นภาพปกติหรือไม่เข้ากับเนื้อเยื่อกระเพาะ ข้อสังเกตคือ Meckel ที่ไม่มี gastric mucosa ให้ผลลบได้"
+ },
+ "MDCU79|RoD|Ped 12": {
+  "wrong": {
+   "A": "Neuroblastoma มาจาก adrenal/sympathetic chain เด็กดูป่วย ซีด น้ำหนักลด ก้อนแข็งขรุขระข้าม midline มี calcification บ่อย catecholamine ในปัสสาวะ (VMA/HVA) สูง อาจมี raccoon eyes, opsoclonus-myoclonus, ถ่ายเหลวจาก VIP — โจทย์บอกก้อนอยู่ในไต ไม่ข้าม midline ไม่มีถ่ายเหลว; จะถูกถ้าโจทย์เป็นเด็ก 2 ปีดูป่วย ตาช้ำรอบเบ้า ก้อนท้องแข็งข้ามเส้นกลาง",
+   "C": "Congenital mesoblastic nephroma เป็น renal tumor ที่พบบ่อยที่สุดในทารกอายุน้อยกว่า 3 เดือน (มักเห็นตั้งแต่ US ในครรภ์) รักษาด้วย nephrectomy อย่างเดียว เด็กในโจทย์โตพอที่แม่คลำพบเองตอนอาบน้ำ; จะถูกถ้าโจทย์เป็นทารกอายุ 1 เดือนมีก้อนไตข้างเดียว",
+   "D": "UPJ obstruction ทำให้ hydronephrosis — US เห็นกรวยไตและ calyces โป่งเป็นน้ำ ไม่ใช่ solid mass ในเนื้อไต อาจปวดเป็นพัก ๆ หลังดื่มน้ำมาก; จะถูกถ้าโจทย์ให้ US เห็นกรวยไตโป่งน้ำโดยท่อไตไม่โป่ง หรือทารกที่ตรวจพบไตบวมน้ำตั้งแต่ในครรภ์",
+   "E": "Hepatoblastoma เป็นก้อนที่ตับ (RUQ) ในเด็กอายุน้อยกว่า 3 ปี AFP สูงมาก สัมพันธ์กับ Beckwith-Wiedemann, FAP, คลอดน้ำหนักตัวน้อยมาก — โจทย์บอกก้อนอยู่ในไต; จะถูกถ้าโจทย์เป็นเด็ก 1 ปีมีก้อนที่ตับและ AFP สูงหลายพัน"
+  },
+  "trap": "Wilms กับ neuroblastoma เป็นคู่ที่ถูกถามแยกบ่อยที่สุด — แยกด้วยตำแหน่ง (ไต vs adrenal), ข้าม midline หรือไม่, เด็กดูดีหรือป่วย และอาการ paraneoplastic; คำว่าไม่มีถ่ายเหลวในโจทย์ตั้งใจตัด neuroblastoma ที่หลั่ง VIP ส่วนความดันสูงพบได้ทั้งสองโรค (Wilms จาก renin, neuroblastoma จาก catecholamine) จึงใช้แยกไม่ได้",
+  "summary": [
+   "Wilms tumor (nephroblastoma): renal tumor ที่พบบ่อยที่สุดในเด็ก อายุ 2–5 ปี · เด็กดูแข็งแรง ก้อนท้องเรียบ ไม่ข้าม midline · HT ~25% (renin), hematuria ~25%",
+   "Wilms vs neuroblastoma: ไต vs adrenal/sympathetic chain · เรียบ vs ขรุขระ · ไม่ข้าม vs ข้าม midline · ดูดี vs ป่วย · calcification น้อย vs บ่อย · claw sign จากไต vs ดันหรือหุ้มหลอดเลือด",
+   "Syndromes: WAGR (WT1 deletion 11p13), Denys-Drash (WT1 mutation, nephropathy, DSD), Beckwith-Wiedemann (11p15), hemihypertrophy → คัดกรองด้วย US ทุก 3 เดือนจนอายุราว 7 ปี",
+   "Workup: US → CT/MRI ช่องท้อง + CT chest (lung metastasis บ่อยสุด), Doppler ดู tumor thrombus ใน renal vein/IVC · ห้ามคลำแรงซ้ำ ๆ (เสี่ยงแตก upstage)",
+   "รักษา: COG → upfront nephrectomy (ไม่ biopsy ผ่านผิวหนังก่อนตัด) + chemotherapy (vincristine, dactinomycin ± doxorubicin) ± RT · SIOP → neoadjuvant chemotherapy ก่อนผ่าตัด",
+   "Favorable histology survival >90% · anaplasia = unfavorable · bilateral (stage V) → nephron-sparing",
+   "Mesoblastic nephroma: ทารก <3 เดือน → nephrectomy อย่างเดียว"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — ก้อนในไต ไม่ข้าม midline ความดันสูง เด็กดูไม่ป่วย และไม่มีถ่ายเหลว ตรงกับ Wilms tumor; รูป US ในไฟล์ที่ก้อนอยู่ในไตยืนยันอีกชั้น"
+ },
+ "MDCU79|RoD|Ped 13": {
+  "wrong": {
+   "A": "Thyroglossal duct cyst อยู่กลางคอ (midline) ใกล้ hyoid เลื่อนขึ้นเมื่อกลืนหรือแลบลิ้น พบบ่อยในเด็กก่อนวัยเรียน ผ่าตัดด้วย Sistrunk procedure ไม่ใช่ก้อนด้านข้างคอ; จะถูกถ้าโจทย์เป็นเด็ก 5 ปีมีก้อนกลางคอที่เลื่อนขึ้นเมื่อแลบลิ้น",
+   "C": "Second branchial cleft cyst อยู่ด้านข้างคอตามขอบหน้าของ SCM มักพบในเด็กโตหรือผู้ใหญ่ตอนต้น เป็นก้อนเดี่ยว บวมเจ็บเมื่อติดเชื้อทางเดินหายใจ ไม่ใช่ก้อนใหญ่ multicystic ส่องไฟผ่านในทารก; จะถูกถ้าโจทย์เป็นวัยรุ่นมีก้อนนุ่มหน้าต่อ SCM ที่โตขึ้นหลังเป็นหวัด",
+   "D": "Dermoid cyst มักอยู่ midline (submental หรือใกล้ hyoid) เคลื่อนตามผิวหนัง ไม่เลื่อนตามการกลืน ภายในเป็น keratin จึงไม่ส่องไฟผ่าน; จะถูกถ้าโจทย์เป็นเด็กมีก้อนกลางคอใต้คางที่ไม่เลื่อนเมื่อแลบลิ้น",
+   "E": "Reactive lymphadenitis เป็นสาเหตุก้อนที่คอเด็กที่พบบ่อยที่สุดโดยรวม แต่ก้อนแข็ง เจ็บ มักหลายก้อน มีไข้หรือติดเชื้อนำมา ไม่ส่องไฟ; จะถูกถ้าโจทย์เป็นเด็กเจ็บคอมีไข้ แล้วคลำได้ต่อมน้ำเหลืองโตกดเจ็บหลายต่อม"
+  },
+  "trap": "แยก neck mass เด็กด้วยตำแหน่งก่อนเสมอ — midline = thyroglossal duct cyst (เลื่อนตามลิ้น), dermoid · ด้านข้างตามขอบหน้า SCM = branchial cleft cyst · posterior triangle ในทารก ก้อนใหญ่นุ่มส่องไฟผ่าน = cystic hygroma; branchial กับ hygroma อยู่ด้านข้างทั้งคู่ ตัวแยกคืออายุ ขนาด และลักษณะ multicystic",
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — ก้อนใหญ่ multicystic ด้านข้างคอในทารก และรูปในไฟล์ส่องไฟเรืองแสง ตรงกับ cystic hygroma (macrocystic lymphatic malformation); ช้อยอื่นตำแหน่งหรือลักษณะก้อนไม่เข้ากัน"
+ },
+ "MDCU79|RoD|Ped 14": {
+  "wrong": {
+   "A": "Cervical collar ไม่แก้ SCM ที่หดสั้น ซึ่งต้องยืดไม่ใช่ตรึง; อุปกรณ์อย่าง TOT collar ใช้เสริมได้ในทารกบางรายที่ยังเอียงศีรษะหลังทำกายภาพสม่ำเสมอ แต่ไม่ใช่การรักษาเริ่มต้น; จะถูกถ้าโจทย์ถามอุปกรณ์เสริมในทารกอายุเกิน 4 เดือนที่ยังเอียงศีรษะแม้ทำกายภาพแล้ว",
+   "C": "SCM release ทำเมื่อทำกายภาพสม่ำเสมอ 6–12 เดือนแล้วไม่ดีขึ้น เหลือ rotation deficit >15° หรือมาช้าหลังอายุ 1 ปีที่มี fibrous band แน่น ไม่ใช่ขั้นแรกในทารก; จะถูกถ้าโจทย์เป็นเด็ก 2 ปีทำกายภาพมาตลอดแต่ยังเอียงคอ หมุนคอขาดไป 20° และหน้าเริ่มไม่สมมาตร",
+   "D": "CT cervical spine ไม่ใช่ routine เพราะรังสีสูงในทารก ถ้าสงสัยสาเหตุจากกระดูก (Klippel-Feil, hemivertebra) ใช้ X-ray ก่อน ถ้าสงสัยสาเหตุทางระบบประสาท (posterior fossa tumor) ใช้ MRI; จะถูกถ้าโจทย์เป็นเด็กโตคอเอียงปวดหลังอุบัติเหตุหรือหลังติดเชื้อคอ ที่สงสัย atlantoaxial rotatory subluxation",
+   "E": "Botulinum toxin ฉีดเข้า SCM เป็นทางเลือกเสริมในรายที่ไม่ตอบสนองต่อกายภาพ ก่อนตัดสินใจผ่าตัด ไม่ใช่การรักษาแรก; จะถูกถ้าโจทย์ถามทางเลือกก่อนผ่าตัดในเด็กที่ทำกายภาพ 6 เดือนแล้วยังไม่ดีขึ้น"
+  },
+  "summary": [
+   "Congenital muscular torticollis: SCM หดสั้น/fibrosis (สัมพันธ์ breech, คลอดยาก, ท่าในครรภ์) ± คลำได้ sternomastoid tumor ช่วง 2–4 สัปดาห์ · ศีรษะเอียงไปข้างที่เป็น หน้าหันไปข้างตรงข้าม",
+   "ตรวจร่วม: developmental dysplasia of the hip, plagiocephaly · US ยืนยันการหนาตัวของ SCM ได้",
+   "Physical therapy เป็นการรักษาแรก (APTA CPG): passive stretching, active ROM, จัดท่านอนและวางของเล่นให้หันไปข้างที่ตึง, สอนพ่อแม่ทำที่บ้าน — เริ่มก่อน 3 เดือนได้ผลดีมากและใช้เวลาสั้นกว่า",
+   "ไม่ดีขึ้นหลัง 6–12 เดือน หรือเหลือ deficit >15° → พิจารณา botulinum toxin หรือ SCM release (มักทำอายุ 1–4 ปี)",
+   "DDx non-muscular: ocular torticollis (CN IV palsy — ปิดตาข้างหนึ่งแล้วหายเอียง), Klippel-Feil, Sandifer syndrome (GERD), benign paroxysmal torticollis, posterior fossa tumor",
+   "Acquired ในเด็กโต: Grisel syndrome/atlantoaxial rotatory subluxation (หลังติดเชื้อคอหรือผ่าตัดทอนซิล), retropharyngeal abscess, trauma → ต้องหาสาเหตุ ไม่ใช่ทำกายภาพ"
+  ]
+ },
+ "MDCU79|RoD|Ped 15": {
+  "wrong": {
+   "B": "IV antibiotics ไม่ใช่การรักษาหลักของ duodenal atresia ซึ่งเป็นการอุดตันทางกล ไม่ได้ติดเชื้อ ให้เป็น prophylaxis ก่อนผ่าตัดเท่านั้น; จะถูกถ้าทารกมีไข้ ซึม และภาพเข้ากับ sepsis หรือ NEC ที่ต้องให้ antibiotic เป็นหลัก",
+   "C": "Duodenoduodenostomy (diamond-shaped) คือการผ่าตัด definitive แต่ไม่ใช่ขั้นแรก ต้อง decompress resuscitate แก้ electrolyte และตรวจหาความผิดปกติร่วม (echo) ก่อน แล้วผ่าตัดแบบ semi-elective; จะถูกถ้าโจทย์ถามการผ่าตัดแก้ไขหลังทารก stable แล้ว",
+   "D": "Contrast enema ใช้ประเมิน distal obstruction (Hirschsprung, meconium ileus, ileal/colonic atresia) — double bubble ที่ไม่มีแก๊สส่วนปลายบอกตำแหน่งอุดที่ duodenum ชัดแล้ว; จะถูกถ้า AXR เห็นลำไส้โป่งหลายห่วงทั่วท้องและขี้เทาไม่ออก",
+   "E": "Observation และให้กินนมต่ออันตราย เป็นการอุดตันสมบูรณ์ ทารกจะอาเจียน สำลัก และเสียน้ำกับ electrolyte; ไม่มีสถานการณ์ใดที่ทารกอาเจียนน้ำดีแล้วควรให้กินนมต่อโดยไม่หาสาเหตุ"
+  },
+  "trap": "เห็น double bubble แล้วรีบตอบผ่าตัด แต่โจทย์ถาม next management ซึ่งคือ NG decompression + IV fluid ก่อนเสมอ; อีกจุดสำคัญคือดูแก๊สในลำไส้ส่วนปลาย — ไม่มีเลย = duodenal atresia ผ่าตัดแบบ semi-elective ได้ แต่ถ้ามีแก๊สส่วนปลายร่วมกับอาเจียนน้ำดี ต้องแยก malrotation with midgut volvulus ด่วนด้วย upper GI study เพราะลำไส้อาจตายภายในไม่กี่ชั่วโมง",
+  "summary": [
+   "Double bubble: duodenal atresia/stenosis/web, annular pancreas, malrotation (Ladd's bands) — ไม่มีแก๊สส่วนปลาย = atresia สมบูรณ์",
+   "Duodenal atresia: failure of recanalization · polyhydramnios, Down syndrome (~30%), อาเจียนน้ำดีวันแรก (อุดใต้ ampulla ส่วนใหญ่), ท้องแฟบ ไม่อืด",
+   "ความผิดปกติร่วม: cardiac (ตรวจ echo ก่อนผ่าตัด), annular pancreas, malrotation, VACTERL",
+   "ขั้นแรก: NPO + NG/OG decompression + IV fluid/electrolyte → duodenoduodenostomy (diamond-shaped) แบบ semi-elective",
+   "Bilious vomiting ในทารก = surgical until proven otherwise → upper GI study หา malrotation · volvulus → Ladd's procedure (detorsion ทวนเข็ม, ตัด Ladd's bands, ขยาย mesentery, appendectomy)",
+   "Jejunoileal atresia: vascular accident ในครรภ์, ลำไส้เล็กโป่งหลายห่วง, microcolon · Esophageal atresia: น้ำลายมาก ใส่ NG ไม่ผ่าน · gasless abdomen = ไม่มี TEF",
+   "ดูข้อ 198 (NEC), 75 (HPS non-bilious)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ทารกวันแรกอาเจียนน้ำดีกับภาพ double bubble (ต้นฉบับจดไว้) เข้ากับ duodenal atresia; โจทย์ถามขั้นต่อไป จึงเป็น decompression และ resuscitation ก่อนผ่าตัด"
+ },
+ "MDCU79|RoD|Ped 16": {
+  "summary": [
+   "Hypospadias (~1 ใน 200–300 ทารกชาย): รูเปิดท่อปัสสาวะด้าน ventral + chordee (องคชาตโค้งลง) + dorsal hooded prepuce",
+   "แบ่งตามตำแหน่ง: distal (glanular, coronal, subcoronal — ส่วนใหญ่), middle (penile), proximal (penoscrotal, scrotal, perineal)",
+   "ความผิดปกติร่วม: undescended testis (~5–10%), inguinal hernia, enlarged prostatic utricle (proximal)",
+   "Hypospadias + undescended testis ข้างใดข้างหนึ่งหรือสองข้าง หรือ proximal hypospadias → สงสัย DSD → karyotype, 17-OHP, electrolytes (46,XX CAH ที่ virilized อันตรายจาก salt-wasting)",
+   "ห้าม circumcision ในทารก hypospadias (ต้องเก็บหนังหุ้มไว้ซ่อม) · ไม่ต้องทำ upper tract imaging routine ใน isolated distal hypospadias",
+   "ผ่าตัดซ่อมอายุ 6–18 เดือน (EAU) เช่น TIP urethroplasty — เป้าหมาย: องคชาตตรง รูเปิดที่ปลาย ยืนปัสสาวะได้",
+   "Epispadias: dorsal meatus สัมพันธ์ bladder exstrophy, incontinence · ดูข้อ 145, 146 (UDT), 83 (DSD/CAH)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ventral meatus + chordee + dorsal hood คือ hypospadias และสิ่งที่ต้องตรวจทุกรายคือคลำหา undescended testis ซึ่งถ้าพบร่วมกันต้องคิดถึง DSD; ช้อยอื่นไม่ได้สัมพันธ์เฉพาะกับ hypospadias",
+  "variants": [
+   "ทารกชายแรกเกิดรูเปิดท่อปัสสาวะอยู่ที่ penoscrotal junction คลำอัณฑะไม่ได้ทั้งสองข้าง — ส่งตรวจอะไรก่อน → karyotype, 17-OHP, electrolytes (สงสัย DSD/CAH)",
+   "พ่อแม่ทารก distal hypospadias ขอให้ขลิบหนังหุ้มปลายก่อนกลับบ้าน — ตอบอย่างไร → ห้าม ต้องเก็บหนังหุ้มไว้ใช้ซ่อม",
+   "ทารก distal hypospadias สุขภาพดี — อายุที่เหมาะในการผ่าตัดซ่อม → ประมาณ 6–18 เดือน"
+  ]
+ },
+ "MDCU79|RoD|Ped 17": {
+  "summary": [
+   "CAH 21-hydroxylase deficiency (~95% ของ CAH): autosomal recessive, CYP21A2 · classic salt-wasting (~75% ของ classic), classic simple virilizing, nonclassic",
+   "กลไก: ขาด cortisol และ aldosterone → ACTH สูง → precursor (17-OHP) ถูกเปลี่ยนเป็น androgen → ทารกหญิง 46,XX virilized (clitoromegaly, labioscrotal fusion คล้าย hypospadias + gonad คลำไม่ได้เพราะเป็นรังไข่)",
+   "Salt-wasting crisis อายุ 1–3 สัปดาห์: hyponatremia, hyperkalemia, metabolic acidosis, hypoglycemia, ขาดน้ำ ช็อก · ทารกชายมักวินิจฉัยช้าเพราะอวัยวะเพศปกติ",
+   "วินิจฉัย: 17-OHP สูง (newborn screening), electrolytes, karyotype, US pelvis (เห็นมดลูก)",
+   "รักษา: hydrocortisone + fludrocortisone + NaCl ในทารก · crisis → NSS bolus + IV hydrocortisone stress dose + แก้ hypoglycemia/hyperkalemia · stress dose เวลาเจ็บป่วย",
+   "CAH อื่น: 11β-hydroxylase → virilization + HT + hypokalemia · 17α-hydroxylase → HT + hypokalemia + undervirilized male/ไม่มี puberty",
+   "DSD workup ทำโดยทีมสหสาขา ไม่รีบกำหนดเพศก่อนได้ผล · ดูข้อ 146, 211"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — ambiguous genitalia ที่คลำ gonad ไม่ได้ เมื่อสงสัย CAH ชนิดที่พบบ่อยที่สุดคือ salt-wasting 21-hydroxylase deficiency ซึ่งให้ hyponatremia ร่วมกับ hyperkalemia; ช้อยไม่มี hyperkalemia ให้เลือก จึงตอบ hyponatremia",
+  "variants": [
+   "ทารกอายุ 2 สัปดาห์ อาเจียน ซึม กินไม่ได้ Na 125, K 7.0, glucose 40 อวัยวะเพศไม่ชัดเจน — ภาวะและการรักษาด่วน → salt-wasting adrenal crisis: NSS bolus + IV hydrocortisone + แก้น้ำตาล",
+   "เด็กหญิง virilized ร่วมกับความดันสูงและ K ต่ำ — CAH ชนิดใด → 11β-hydroxylase deficiency (DOC เกิน)",
+   "การตรวจคัดกรองทารกแรกเกิดสำหรับ CAH ใช้อะไร → 17-hydroxyprogesterone (17-OHP)"
+  ]
+ }
+}
