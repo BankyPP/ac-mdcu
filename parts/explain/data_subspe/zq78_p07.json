@@ -1,0 +1,270 @@
+{
+ "MDCU78|RoB|42": {
+  "wrong": {
+   "B": "Infantile hemangioma เป็น vascular tumor ไม่มีหรือเห็นเพียงจุดเล็กตอนเกิด แล้วโตเร็วในเดือนแรก ๆ (โตเกือบเต็มที่ราว 5 เดือน) ก่อนยุบลงช้า ๆ GLUT-1 บวก — ไม่ใช่ปานที่มีตั้งแต่เกิดและโตตามตัว; จะถูกถ้าทารก 2 เดือนมีก้อนแดงสดนูนที่เพิ่งขึ้นหลังคลอดและโตเร็ว",
+   "C": "PHACE syndrome คือ infantile hemangioma แบบ segmental ขนาดใหญ่ที่หน้า ร่วมกับ Posterior fossa anomaly, Arterial anomaly, Cardiac (coarctation), Eye anomaly — ตัวปานเป็น hemangioma ไม่ใช่ port-wine stain; จะถูกถ้าทารกมี hemangioma แผ่นใหญ่ครึ่งหน้า ร่วมกับ coarctation และ Dandy–Walker malformation",
+   "D": "Klippel–Trenaunay syndrome คือ capillary–lymphatic–venous malformation ที่แขนขาร่วมกับแขนขาข้างนั้นโตเกิน ไม่ใช่ปานที่หน้าร่วมกับชัก; จะถูกถ้าเด็กมีปานแดงที่ขาข้างหนึ่ง เส้นเลือดดำขอด และขาข้างนั้นยาวโตกว่าอีกข้าง",
+   "E": "NF1 มีปานสีน้ำตาลกาแฟใส่นม (café-au-lait) ไม่ใช่ปานแดง ร่วมกับกระที่รักแร้/ขาหนีบ neurofibroma Lisch nodule optic glioma; จะถูกถ้าเด็กมี café-au-lait ≥ 6 จุด (ขนาด &gt; 5 mm ก่อนวัยรุ่น) และกระที่รักแร้"
+  },
+  "trap": "เห็นปานแดงในเด็กแล้วตอบ hemangioma — ให้ดูประวัติ: มีตั้งแต่เกิดและโตตามตัว = vascular malformation (port-wine stain) · เล็กหรือไม่มีตอนเกิด โตเร็วแล้วยุบ = hemangioma · port-wine stain บริเวณหน้าผาก/V1 + ชัก = Sturge–Weber",
+  "summary": [
+   "ISSVA: vascular tumor (infantile hemangioma — โตเร็วแล้วยุบ) vs vascular malformation (capillary, venous, lymphatic, AVM — มีตั้งแต่เกิด โตตามตัว ไม่ยุบ)",
+   "Port-wine stain (capillary malformation): สีชมพูแดงตั้งแต่เกิด เข้มและหนาขึ้นตามอายุ อาจนูนเป็นตุ่ม · รักษาด้วย pulsed dye laser เริ่มเร็วได้ผลดีกว่า",
+   "Sturge–Weber: somatic GNAQ mutation · port-wine stain หน้าผาก/V1 + leptomeningeal angiomatosis ข้างเดียวกัน (ชัก, hemiparesis, พัฒนาการช้า, tram-track calcification) + glaucoma",
+   "Port-wine stain ที่หน้าผาก/V1 → ส่ง MRI brain with contrast และตรวจตา (วัด IOP) เป็นระยะ",
+   "รักษา SWS: ยากันชัก (± low-dose aspirin), รักษา glaucoma, laser ปาน · ชักดื้อยาอาจทำ hemispherectomy",
+   "Infantile hemangioma: GLUT-1 บวก · ส่วนใหญ่สังเกตอาการ · เสี่ยงสูง (ใกล้ตา ทางเดินหายใจ แผล segmental ใหญ่) → propranolol"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 78B) ความมั่นใจปานกลาง–สูง — ต้นฉบับมีแค่รูปปานแดงที่แก้มและช้อยเดียว เราเติมประวัติชักให้ Sturge–Weber เป็นคำตอบเดียว; ถ้าข้อสอบจริงไม่มีอาการชัก คำตอบที่เข้ากับรูปปานที่มีตั้งแต่เกิดก็ยังเป็นกลุ่ม capillary malformation ไม่ใช่ hemangioma",
+  "variants": [
+   "ทารก 3 เดือน ก้อนแดงสดนูนที่แก้มเพิ่งขึ้นหลังคลอด 2 สัปดาห์ และโตเร็ว ไม่ใกล้ตา → infantile hemangioma: สังเกตอาการ (propranolol ถ้าเสี่ยงสูง)",
+   "ทารกมีปานแดงตั้งแต่เกิดที่หน้าผากและหนังตาบนข้างขวา การตรวจที่ควรทำ → MRI brain with contrast + ตรวจตาวัด IOP (คัดกรอง Sturge–Weber)",
+   "เด็กมีปานแดงที่ขาซ้าย เส้นเลือดดำขอด ขาซ้ายยาวกว่าขวา 2 cm → Klippel–Trenaunay syndrome",
+   "ทารกมี hemangioma แผ่นใหญ่ครึ่งหน้า → ตรวจ PHACE: MRI/MRA สมองและคอ, echo, ตรวจตา ก่อนให้ propranolol"
+  ]
+ },
+ "MDCU78|RoB|43": {
+  "interp": "แผลมีดบาดที่แขน 4 cm สะอาด เกิดมา 2 ชม. ขอบแผลเลือดเลี้ยงดี ไม่มีเนื้อเยื่อหาย และตรวจเส้นประสาท หลอดเลือด เอ็นปกติ → ถามวิธีปิดแผล ซึ่งเป็นแผลที่ปิดได้ทันที",
+  "why": "แผลสะอาด เกิดไม่นาน ขอบแผลดี ไม่มี tissue loss → <b>irrigation + debridement เนื้อตายเล็กน้อย + primary closure</b> ภายใต้ local anesthesia · ขั้นตอน: ตรวจ tendon, nerve, vessel ส่วนปลายก่อนฉีดยาชา → ล้างด้วยน้ำเกลือหรือน้ำประปาสะอาดปริมาณมาก → ตัดเนื้อตาย/สิ่งแปลกปลอม → เย็บปิดชั้นต่อชั้นไม่ให้ตึง · แผลสะอาดที่แขนขาเย็บปิดได้ภายในราว 12–18 ชม. (หน้าและหนังศีรษะเลือดเลี้ยงดีปิดได้นานกว่า) · ให้ tetanus prophylaxis ตามประวัติวัคซีน · ไม่ต้องให้ antibiotic ในแผลสะอาดทั่วไป",
+  "wrong": {
+   "B": "Healing by secondary intention ปล่อยแผลเปิดให้ granulation ปิดเอง ใช้กับแผลติดเชื้อ ฝีที่เปิดระบาย หรือแผลถลอกตื้น ๆ — แผลสะอาดขอบดีปล่อยเปิดจะหายช้าและเป็นแผลเป็นมาก; จะถูกถ้าเป็นแผลฝีที่ก้นหลังผ่าเปิดระบายหนอง",
+   "C": "Delayed primary closure (ล้างแล้วปล่อยเปิด 3–5 วันจึงเย็บ) ใช้กับแผลปนเปื้อนมาก เช่น แผลถูกบด แผลปนดิน แผลสัตว์กัดนอกบริเวณหน้า หรือมาช้า; จะถูกถ้าแผลที่ขาจากเครื่องจักรฟาร์มปนดินมาก มาหลังเกิดเหตุ 20 ชม.",
+   "D": "Split-thickness skin graft ใช้เมื่อเนื้อเยื่อหายจนเย็บขอบเข้าหากันไม่ได้ และพื้นแผลมีเลือดเลี้ยงดี (กล้ามเนื้อ fascia granulation); จะถูกถ้าผิวหนังที่แขนหลุดหายเป็นแผ่น 8 × 10 cm เหลือพื้นกล้ามเนื้อดี",
+   "E": "Local flap ใช้เมื่อมีเนื้อหายและพื้นแผลเป็นโครงสร้างที่ graft ไม่ติด เช่น เอ็นที่ไม่มี paratenon กระดูกที่ไม่มี periosteum หรือมีเส้นประสาท/หลอดเลือด/implant โผล่; จะถูกถ้าแผลที่หลังมือมีผิวหนังหายจนเห็นเอ็นเหยียดนิ้วที่ไม่มี paratenon"
+  },
+  "trap": "คิดว่าแผลต้องรอให้แน่ใจว่าไม่ติดเชื้อก่อนจึงเย็บ — แผลสะอาดที่เพิ่งเกิดและขอบดีเย็บปิดได้ทันทีหลังล้าง · delayed primary closure สงวนไว้สำหรับแผลปนเปื้อนมาก · graft/flap ใช้เมื่อมีเนื้อหายเท่านั้น (reconstructive ladder)",
+  "summary": [
+   "การปิดแผล: primary (เย็บทันที) · delayed primary (ล้างแล้วรอ 3–5 วันจึงเย็บ — แผลปนเปื้อนมาก) · secondary intention (ปล่อยหายเอง — แผลติดเชื้อ ฝี แผลตื้น)",
+   "Reconstructive ladder: secondary intention → primary closure → skin graft → local flap → regional flap → free flap — เลือกขั้นที่ง่ายที่สุดที่ได้ผล",
+   "ก่อนเย็บ: ตรวจ distal neurovascular และเอ็นทีละเส้น · ล้างด้วยน้ำเกลือ/น้ำประปาปริมาณมาก · ตัดเนื้อตายและสิ่งแปลกปลอม",
+   "Tetanus: แผลสะอาดเล็ก → Td/Tdap ถ้าวัคซีน &lt; 3 เข็ม/ไม่ทราบ หรือเข็มล่าสุด &gt; 10 ปี · แผลสกปรก → Td/Tdap ถ้าเข็มล่าสุด &gt; 5 ปี และให้ TIG ถ้าวัคซีน &lt; 3 เข็มหรือไม่ทราบ",
+   "แผลสัตว์/คนกัดที่มือ: ล้างมาก ไม่เย็บปิด ให้ amoxicillin–clavulanate · แผลกัดที่หน้าเย็บปิดได้หลังล้างดี",
+   "ตัดไหม: หน้า 5 วัน · หนังศีรษะ แขน ลำตัว 7–10 วัน · ขา ข้อ ฝ่ามือฝ่าเท้า 10–14 วัน"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 78B) ความมั่นใจสูง — ต้นฉบับจดไว้แค่ว่าแผล 4 cm ที่แขน เลือดเลี้ยงดี เราจึงเติมรายละเอียดว่าแผลสะอาดและมาเร็ว ซึ่งเป็นเงื่อนไขของ primary closure",
+  "variants": [
+   "แผลสุนัขกัดที่มือ 6 ชม. → ล้างแผลมาก ไม่เย็บปิด ให้ amoxicillin–clavulanate + rabies/tetanus prophylaxis ตามข้อบ่งชี้",
+   "แผลสกปรกปนดิน ผู้ป่วยได้วัคซีนบาดทะยักครบ เข็มล่าสุด 7 ปีก่อน → ให้ Td/Tdap 1 เข็ม ไม่ต้องให้ TIG",
+   "แผลถูกเครื่องจักรบดที่ขา ปนดินมาก มาหลังเกิดเหตุ 20 ชม. → ล้าง debride แล้ว delayed primary closure",
+   "แผลที่หลังมือ ผิวหนังหายจนเห็นเอ็นเหยียดนิ้วที่ไม่มี paratenon → local flap"
+  ]
+ },
+ "MDCU78|RoB|44": {
+  "interp": "ทารกเขียวตั้งแต่หลังคลอดไม่นาน เขียวมากขึ้นเวลากิน + เสียง S2 เดี่ยวดัง + ไม่มี murmur ชัด → cyanotic congenital heart disease ที่ไม่มีเสียงฟู่ ซึ่งลักษณะเข้ากับ D-transposition of the great arteries มากที่สุด",
+  "why": "<b>D-TGA</b>: aorta ออกจาก RV pulmonary artery ออกจาก LV → ระบบไหลเวียนสองวงขนานกัน เลือดดำวนกลับเข้าร่างกาย ทารกรอดได้เพราะมีจุดผสมเลือด (PFO/ASD, PDA, VSD) · เขียวมากในชั่วโมง–วันแรก ไม่ค่อยหอบ ให้ออกซิเจนแล้วไม่ดีขึ้น (hyperoxia test ไม่ผ่าน) · S2 เดี่ยวดังเพราะ aorta อยู่หน้าใกล้ผนังอก · ถ้า septum ปิด มักไม่มี murmur · CXR: egg on a string (mediastinum แคบ) ปอดเลือดมากปกติหรือเพิ่ม · รักษา: <b>PGE1</b> ให้ ductus เปิด → balloon atrial septostomy (Rashkind) ถ้ายังผสมเลือดไม่พอ → <b>arterial switch (Jatene)</b> ภายใน 2–3 สัปดาห์แรกก่อน LV อ่อนแรงจากแรงดันต่ำ",
+  "wrong": {
+   "B": "TOF เขียวมากน้อยตาม RVOT obstruction มักเขียวช้ากว่า TGA มี harsh ejection systolic murmur ที่ LUSB จาก RVOT (S2 เดี่ยวได้เช่นกัน) CXR boot-shaped ปอดเลือดน้อย; จะถูกถ้าทารกเขียวไม่มาก ฟังได้ harsh SEM ที่ LUSB และ CXR เป็นรูปรองเท้าบูทปอดดำ",
+   "C": "VSD เดี่ยวเป็น left-to-right shunt ไม่เขียว มี holosystolic murmur ที่ LLSB และอาการหัวใจล้มเหลวเมื่ออายุ 1–2 เดือน; จะถูกถ้าทารก 2 เดือนเหนื่อยตอนดูดนม เหงื่อออก น้ำหนักไม่ขึ้น ร่วมกับ holosystolic murmur ที่ LLSB",
+   "D": "Choanal atresia สองข้างทำให้ทารก (ซึ่งหายใจทางจมูกเป็นหลัก) เขียวขณะกินนมหรือหลับ และ<b>หายเขียวเมื่อร้อง</b>เพราะได้หายใจทางปาก ใส่สายผ่านจมูกไม่ได้ เสียงหัวใจปกติ; จะถูกถ้าทารกเขียวเวลาดูดนมแต่ชมพูขึ้นเมื่อร้อง และใส่สาย 6 Fr ผ่านจมูกไม่ได้ทั้งสองข้าง",
+   "E": "PPHN พบในทารกครบกำหนดหรือเกินกำหนดที่สำลักขี้เทา asphyxia sepsis หรือ CDH มีหอบ และ SpO<sub>2</sub> มือขวาสูงกว่าเท้า (right-to-left shunt ผ่าน PDA) echo โครงสร้างหัวใจปกติ; จะถูกถ้าทารกสำลักขี้เทา SpO<sub>2</sub> มือขวา 95% เท้า 80% echo ไม่พบหัวใจพิการ"
+  },
+  "trap": "ต้นฉบับจดอาการ \"ร้องไห้แล้วหายเขียว\" ซึ่งเป็นลักษณะเฉพาะของ choanal atresia (paradoxical cyanosis) ไม่ใช่ TGA — ถ้าข้อสอบจริงให้อาการนี้และไม่มีเสียงหัวใจผิดปกติ ให้ตอบ choanal atresia · เขียวที่ไม่ดีขึ้นด้วยออกซิเจน + S2 เดี่ยวดังโดยไม่มี murmur ชี้ TGA · ไม่มี murmur ไม่ได้แปลว่าหัวใจปกติ",
+  "summary": [
+   "ทารกเขียว: แยก cardiac vs respiratory ด้วย hyperoxia test (O<sub>2</sub> 100% แล้ว PaO<sub>2</sub> ยัง &lt; 100 mmHg ชี้ cyanotic CHD) + pre/post-ductal SpO<sub>2</sub> + echo",
+   "Cyanotic CHD ที่เขียวในวันแรก: TGA (บ่อยสุดในทารกแรกเกิด), pulmonary atresia, critical PS, TAPVR ชนิดอุดตัน · TOF บ่อยสุดในเด็กโต",
+   "TGA: S2 เดี่ยวดัง · ไม่มี murmur ถ้า septum ปิด · egg on a string · PGE1 → septostomy → arterial switch ใน 2–3 สัปดาห์แรก",
+   "Duct-dependent pulmonary circulation (pulmonary atresia, critical PS, TOF รุนแรง) และ TGA ต้อง PGE1 ทันทีเมื่อสงสัย (ระวัง apnea)",
+   "Choanal atresia: เขียวขณะกิน/หลับ หายเมื่อร้อง · ใส่สายผ่านจมูกไม่ได้ · CT ยืนยัน · ใส่ oral airway/McGovern nipple แล้วผ่าตัดเปิดทางจมูก · ร่วม CHARGE syndrome",
+   "PPHN: ทารกครบกำหนด/เกินกำหนด สำลักขี้เทา · SpO<sub>2</sub> มือขวา &gt; เท้า · รักษาด้วย O<sub>2</sub>, ventilation, inhaled NO"
+  ],
+  "opinion": "ไฟล์ Key 78B ช่องนี้ว่าง ผู้จดใส่ช้อยไว้ตัวเดียวคือ TGA — ผมตอบ A ความมั่นใจปานกลาง; โจทย์ที่จดมามีทั้งอาการของ TGA (S2 เดี่ยว) และ choanal atresia (ร้องแล้วหายเขียว) ปนกัน เราจึงเขียนโจทย์ให้เข้ากับ TGA ตามที่ผู้จดเลือก และใส่ choanal atresia เป็นช้อยลวงพร้อมอธิบายจุดแยก",
+  "variants": [
+   "ทารกเขียวเวลาดูดนม ชมพูขึ้นเมื่อร้อง ใส่สายผ่านจมูกไม่ได้ → bilateral choanal atresia: oral airway แล้วผ่าตัด",
+   "ทารก D-TGA septum ปิด SpO<sub>2</sub> 60% ยาตัวแรก → PGE1 (alprostadil) ให้ ductus เปิด",
+   "ทารก D-TGA ได้ PGE1 แล้ว SpO<sub>2</sub> ยัง 55% echo เห็น PFO เล็ก → balloon atrial septostomy",
+   "ทารกสำลักขี้เทา SpO<sub>2</sub> มือขวา 95% เท้า 82% echo หัวใจปกติ → PPHN"
+  ]
+ },
+ "MDCU78|RoB|45": {
+  "why": "ทารก 2 เดือนมีอาการหัวใจล้มเหลว (ดูดนมนาน เหงื่อออกตอนดูด น้ำหนักไม่ขึ้น หายใจเร็ว ตับโต) ร่วมกับ harsh holosystolic murmur ที่ LLSB = <b>large VSD</b> · กลไก: แรกเกิด pulmonary vascular resistance ยังสูง shunt จึงน้อย → PVR ลดลงช่วง 4–8 สัปดาห์ → left-to-right shunt เพิ่ม → เลือดไปปอดมากและ LA/LV รับปริมาตรเกิน · VSD เป็น CHD ที่พบบ่อยที่สุด · ยืนยันด้วย echo · รักษา large VSD: diuretic (furosemide) ± ACEI และเพิ่มพลังงานในนม แล้วผ่าตัดปิดด้วย patch ภายในราว 3–6 เดือนถ้าโตไม่ดีหรือคุม HF ไม่ได้ ก่อนเกิด pulmonary vascular disease (Eisenmenger) · VSD เล็ก (muscular, perimembranous) ปิดเองได้บ่อย",
+  "trap": "คิดว่า murmur ดังแปลว่ารูใหญ่ — ความดังสะท้อนความต่างแรงดัน รูเล็กดังมาก (maladie de Roger) รูใหญ่ความดันสองห้องใกล้กันจนเสียงเบาได้ · ให้ดูอาการหัวใจล้มเหลวและอายุที่เริ่ม (4–8 สัปดาห์) · แยกตามเสียง: holosystolic LLSB = VSD · ejection LUSB + fixed split S2 = ASD · continuous ใต้ไหปลาร้าซ้าย = PDA",
+  "summary": [
+   "VSD: perimembranous บ่อยที่สุด · muscular ปิดเองบ่อย · VSD เล็กมักไม่มีอาการ เสียงดัง",
+   "Large VSD: HF เริ่มอายุ 4–8 สัปดาห์เมื่อ PVR ลด · CXR หัวใจโต ปอดเลือดมาก · ECG LVH หรือ biventricular hypertrophy",
+   "รักษา large VSD: furosemide ± ACEI + นมพลังงานสูง → ผ่าตัด patch closure ใน 3–6 เดือนถ้าโตไม่ดี/HF ไม่ดีขึ้น หรือ pulmonary hypertension",
+   "ปล่อยไว้นาน → pulmonary vascular disease → shunt กลับทาง (Eisenmenger) เขียว ผ่าตัดปิดไม่ได้แล้ว",
+   "ASD: มักไม่มีอาการในวัยทารก · ejection murmur LUSB + fixed split S2 · PDA: continuous machinery murmur + bounding pulse · preterm ใช้ indomethacin/ibuprofen/paracetamol",
+   "Coarctation: ชีพจรขาเบา/ช้ากว่าแขน BP แขนสูงกว่าขา · ทารกช็อกเมื่อ ductus ปิด (สัปดาห์ที่ 1–2) → PGE1"
+  ],
+  "opinion": "ไฟล์ Key 78B ช่องนี้ว่าง (ต้นฉบับมีแค่ช้อย VSD กับ ASD) — เฉลยโดยผม ตอบ A ความมั่นใจสูงตามเคสที่แต่ง; ข้อสอบจริงน่าจะถามแยก VSD กับ ASD ซึ่งจุดแยกคือตำแหน่งเสียงฟู่ ชนิดเสียง และอายุที่มีอาการ",
+  "variants": [
+   "ทารก 2 เดือน large VSD หัวใจล้มเหลว น้ำหนักไม่ขึ้นทั้งที่ได้ furosemide → ผ่าตัดปิด VSD",
+   "เด็ก 5 ปี ไม่มีอาการ ejection systolic murmur ที่ LUSB + fixed split S2 → ASD (secundum)",
+   "ทารก preterm 28 สัปดาห์ continuous murmur ใต้ไหปลาร้าซ้าย bounding pulse → PDA: indomethacin/ibuprofen/paracetamol",
+   "เด็ก VSD ไม่ได้รักษาจนอายุ 15 ปี เริ่มเขียวและนิ้วปุ้ม → Eisenmenger syndrome (ปิด VSD ไม่ได้แล้ว)"
+  ]
+ },
+ "MDCU78|RoB|46": {
+  "wrong": {
+   "B": "Pituitary adenoma อยู่ที่ sella กด optic chiasm → bitemporal hemianopia และมีอาการฮอร์โมน (prolactinoma, acromegaly, Cushing) ไม่กด dorsal midbrain จึงไม่เกิด Parinaud; จะถูกถ้าผู้ป่วยมี bitemporal hemianopia ร่วมกับ amenorrhea–galactorrhea และ prolactin สูง",
+   "C": "Craniopharyngioma เป็นก้อน suprasellar มีถุงน้ำและหินปูน ในเด็กมาด้วยตัวเตี้ย โตช้า เบาจืด ลานสายตาผิดปกติ ไม่มี β-hCG สูง; จะถูกถ้าเด็ก 8 ปีตัวเตี้ย ปัสสาวะมาก ลานสายตาแคบสองข้างขมับ CT เห็นก้อน suprasellar มีหินปูน",
+   "D": "Medulloblastoma เป็นเนื้องอก posterior fossa แนวกลาง (vermis) ในเด็ก มาด้วยเดินเซ อาเจียนตอนเช้า hydrocephalus ไม่มี Parinaud และไม่มี tumor marker; จะถูกถ้าเด็ก 6 ปีเดินเซ truncal ataxia อาเจียนตอนเช้า MRI เห็นก้อนที่ 4th ventricle",
+   "E": "Vestibular schwannoma อยู่ที่ CPA ในผู้ใหญ่ มาด้วยหูตึงข้างเดียว tinnitus ไม่ใช่ Parinaud; จะถูกถ้าผู้ใหญ่หูตึงข้างเดียวค่อยเป็นค่อยไป MRI เห็นก้อนขยาย internal auditory canal"
+  },
+  "trap": "เห็นวัยรุ่นปวดศีรษะอาเจียนแล้วนึกถึง medulloblastoma — แต่อาการมองขึ้นไม่ได้ + light–near dissociation คือ Parinaud ซึ่งบอกตำแหน่ง pineal/dorsal midbrain · tumor marker (β-hCG, AFP) ช่วยวินิจฉัย germ cell tumor ได้บางรายโดยไม่ต้องตัดชิ้นเนื้อ",
+  "summary": [
+   "Parinaud (dorsal midbrain) syndrome: มองขึ้นไม่ได้ · light–near dissociation · convergence–retraction nystagmus · หนังตาบนดึงขึ้น (Collier sign)",
+   "เนื้องอก pineal region: germ cell tumor (germinoma บ่อยสุด, วัยรุ่นชาย, เอเชีย) · pineal parenchymal (pineocytoma, pineoblastoma) · glioma",
+   "Tumor marker ใน serum และ CSF: β-hCG สูงเล็กน้อยพบใน germinoma บางราย สูงมากชี้ choriocarcinoma · AFP สูงชี้ yolk sac tumor (nongerminomatous GCT)",
+   "แก้ hydrocephalus: endoscopic third ventriculostomy — ได้ทั้งระบาย CSF เก็บ CSF ตรวจ marker และตัดชิ้นเนื้อ",
+   "Germinoma ไวต่อรังสีและยาเคมีมาก: chemotherapy + radiotherapy อัตราหายมากกว่า 90% · NGGCT พยากรณ์แย่กว่า ต้องรักษาเข้มกว่า"
+  ],
+  "variants": [
+   "วัยรุ่นชายมองขึ้นไม่ได้ ไม่มีอาการปวดศีรษะ MRI เห็นก้อน pineal β-hCG และ AFP ปกติ → ต้องได้ชิ้นเนื้อ (endoscopic biopsy)",
+   "เด็ก pineal tumor ร่วม hydrocephalus การผ่าตัดแรกที่ช่วยทั้งรักษาและวินิจฉัย → endoscopic third ventriculostomy + biopsy",
+   "ผู้ป่วย pineal mass AFP ใน CSF สูงมาก → yolk sac tumor (nongerminomatous germ cell tumor)",
+   "ผู้ป่วย pituitary macroadenoma ลานสายตาผิดปกติแบบใด → bitemporal hemianopia"
+  ]
+ },
+ "MDCU78|RoB|47": {
+  "interp": "ก้อนใต้ผิวหนังที่ท้ายทอย/หลังคอ นิ่ม เคลื่อนได้ ไม่เจ็บ โตช้าหลายปี ขนาด 4 cm (ไม่เกิน 5 cm) = ลักษณะ benign lipoma · ผู้ป่วยกังวลเรื่องความสวยงามและอยากเอาออก → ถามการรักษา",
+  "why": "Lipoma ที่ไม่มีอาการสังเกตอาการได้ แต่ข้อบ่งชี้ตัดออกได้แก่ ผู้ป่วยต้องการเพราะความสวยงาม มีอาการ (เจ็บ กดเส้นประสาท) โตเร็ว หรือสงสัยมะเร็ง · ก้อนนี้มีลักษณะ benign ครบ (นิ่ม เคลื่อนได้ โตช้า &lt; 5 cm อยู่ใต้ผิวหนัง) จึงทำ <b>simple surgical excision</b> ภายใต้ local anesthesia: ลอกออกตามเปลือก (capsule) ให้หมดเพื่อลดการเกิดซ้ำ แล้วส่งชิ้นเนื้อตรวจ · ถ้ามีสัญญาณเตือน (ขนาด &gt; 5 cm, อยู่ใต้ fascia, โตเร็ว, แข็งหรือยึดติด) ต้องทำ MRI และ core needle biopsy ก่อน เพราะอาจเป็น liposarcoma ซึ่งต้องผ่าตัดแบบอื่น",
+  "trap": "ก้อนเนื้อเยื่ออ่อนที่ใหญ่กว่า 5 cm อยู่ลึกใต้ fascia หรือโตเร็ว อย่าคิดว่าเป็น lipoma ธรรมดาแล้วตัดออกเลย — ต้อง MRI + core biopsy ก่อน เพราะการตัดแบบลอกก้อนในมะเร็ง (unplanned excision) ทำให้ต้องผ่าตัดกว้างซ้ำ · ก้อนที่ชัดว่าเป็น lipoma ไม่ต้องตัดกว้าง",
+  "summary": [
+   "Lipoma: เนื้องอกไขมันที่พบบ่อยที่สุด นิ่ม เคลื่อนได้ ไม่เจ็บ โตช้า มักที่ลำตัว คอ ไหล่ แขน",
+   "สัญญาณเตือน soft tissue sarcoma: &gt; 5 cm · อยู่ใต้ fascia · โตเร็ว · เจ็บ · แข็งหรือยึดติด · กลับเป็นซ้ำหลังตัด → MRI + core needle biopsy ก่อนผ่าตัด",
+   "ข้อบ่งชี้ตัด lipoma: ความสวยงาม · มีอาการ · โตขึ้น · วินิจฉัยไม่แน่ชัด — simple excision ตาม capsule ส่งชิ้นเนื้อ",
+   "Liposarcoma: atypical lipomatous tumor/well-differentiated ที่ขา ช่องท้องหลัง (retroperitoneum) · รักษาด้วย wide excision ± radiotherapy",
+   "ก้อนใต้ผิวหนังอื่น: epidermoid cyst (มีรูตรงกลาง punctum ติดผิวหนัง อักเสบได้) · ฝี (แดงร้อนเจ็บ fluctuant → I&D) · keloid (ฉีด steroid)"
+  ],
+  "variants": [
+   "ก้อนที่ต้นขา 8 cm อยู่ใต้ fascia โตเร็ว 3 เดือน → MRI + core needle biopsy (สงสัย soft tissue sarcoma)",
+   "ก้อนที่หลัง 2 cm ติดผิวหนัง มีรูตรงกลาง บีบมีเนื้อขาวเหม็น → epidermoid cyst: ตัดออกทั้งถุงเมื่อไม่อักเสบ",
+   "ก้อนที่หลังบวมแดงร้อนเจ็บ fluctuant → incision and drainage",
+   "ผล biopsy ก้อนต้นขาเป็น liposarcoma → wide excision ± radiotherapy"
+  ]
+ },
+ "MDCU78|RoB|48": {
+  "interp": "ผู้ป่วย chronic otitis media + ไข้ ปวดศีรษะ + อ่อนแรงซีกซ้ายใหม่ (focal deficit) 5 วัน → สงสัย otogenic brain abscess · ถามการตรวจที่ดีที่สุด ซึ่งต้องเห็นก้อนและแยก abscess จากเนื้องอกได้ โดยไม่ทำให้ผู้ป่วยเสี่ยง herniation",
+  "summary": [
+   "ต้นเหตุ brain abscess: ลามจากที่ใกล้ (หู/mastoid → temporal lobe, cerebellum · sinus/ฟัน → frontal lobe) · ผ่านกระแสเลือด (endocarditis, cyanotic CHD, ฝีในปอด) มักหลายก้อน · หลังผ่าตัด/บาดเจ็บศีรษะ",
+   "อาการ: ปวดศีรษะ (บ่อยสุด) · ไข้พบเพียงราวครึ่งหนึ่ง · focal deficit · ชัก · ซึม/ICP สูง",
+   "ภาพ: contrast MRI + DWI = ดีที่สุด (ring enhancement ผนังบางเรียบ + restricted diffusion ตรงกลาง) · CT with contrast ใช้เมื่อไม่มี MRI · ห้าม LP",
+   "รักษา: aspiration/excision เมื่อก้อน &gt; 2.5 cm หรือมี mass effect (ได้เชื้อมาเพาะด้วย) + IV antibiotics 6–8 สัปดาห์ · ยาเริ่มต้น community-acquired: ceftriaxone/cefotaxime + metronidazole (หลังผ่าตัด/บาดเจ็บเพิ่ม vancomycin)",
+   "รักษาต้นเหตุร่วม: mastoidectomy ใน otogenic · หา endocarditis ถ้าหลายก้อน · ติดตาม MRI จนก้อนยุบ"
+  ],
+  "opinion": "ไฟล์ Key 78B ช่องนี้ว่าง — เฉลยโดยผม ตอบ A ความมั่นใจสูง; ต้นฉบับจดไว้แค่ว่าถามการตรวจ brain abscess เราจึงแต่งเคส otogenic ที่มี focal deficit ซึ่งทำให้ LP เป็นข้อห้ามชัด",
+  "variants": [
+   "MRI ก้อนในสมองมี ring enhancement ผนังบางเรียบ และ DWI สว่างตรงกลาง → brain abscess (ไม่ใช่ necrotic tumor)",
+   "ผู้ป่วย brain abscess 3.5 cm ที่ temporal lobe มี midline shift → stereotactic aspiration + IV antibiotics 6–8 สัปดาห์",
+   "เด็ก TOF ไม่ได้ผ่าตัด ไข้ ปวดศีรษะ ชักครั้งแรก → สงสัย brain abscess: contrast MRI ห้าม LP",
+   "ผู้ป่วยปวดศีรษะ ไข้ คอแข็ง ไม่มี focal deficit ไม่มี papilledema รู้สึกตัวดี → LP ได้เลย (bacterial meningitis)"
+  ]
+ },
+ "MDCU78|RoB|49": {
+  "interp": "Melanoma ที่น่อง Breslow 1.5 mm ไม่มี ulceration = T2a ไม่คลำพบต่อมน้ำเหลือง (cN0) หลังตัดชิ้นเนื้อเพื่อวินิจฉัยแล้ว → ถามการรักษาขั้นต่อไป ซึ่งได้แก่การตัดขอบเพิ่มและการ staging ต่อมน้ำเหลือง",
+  "why": "หลัง excisional biopsy ยืนยัน melanoma ต้องทำ <b>wide local excision</b> ตามความหนา: T2 (1.01–2.0 mm) margin <b>1–2 cm</b> ลึกถึง fascia · และทำ <b>sentinel lymph node biopsy (SLNB)</b> ในครั้งเดียวกัน เพราะความหนา &gt; 0.8 mm (T1b ขึ้นไป) มีโอกาสแพร่ไปต่อมน้ำเหลืองพอที่ผลจะเปลี่ยนการพยากรณ์และการรักษา · SLN บวก: ปัจจุบันไม่ต้องเลาะต่อมน้ำเหลืองต่อทุกราย (MSLT-II, DeCOG-SLT ไม่ช่วยให้รอดชีวิตนานขึ้น) ใช้ติดตามด้วย ultrasound และพิจารณา adjuvant anti-PD-1 หรือ dabrafenib + trametinib (ถ้า BRAF V600) · SLN ลบ = stage IB ติดตามตรวจผิวหนังและต่อมน้ำเหลือง",
+  "wrong": {
+   "B": "Margin 0.5 cm เหมาะกับ melanoma in situ เท่านั้น (0.5–1 cm) — melanoma ลุกลามหนา 1.5 mm ต้อง margin 1–2 cm และขาด SLNB; จะถูกถ้าผล pathology เป็น melanoma in situ ที่ยังไม่ทะลุชั้น basement membrane",
+   "C": "Elective lymph node dissection ในผู้ที่คลำไม่พบต่อมน้ำเหลืองเลิกทำแล้ว เพราะไม่ช่วยให้รอดชีวิตนานขึ้นและมีภาวะแทรกซ้อน (lymphedema) จึงใช้ SLNB แทน; จะถูกถ้าคลำพบต่อมน้ำเหลืองขาหนีบโตและ FNA ยืนยัน melanoma (therapeutic lymphadenectomy — ปัจจุบันพิจารณา neoadjuvant immunotherapy ก่อน)",
+   "D": "Radiotherapy ไม่ใช่การรักษาหลักของ primary melanoma ใช้เสริมในบางกรณี เช่น desmoplastic melanoma ที่ขอบแคบ หรือรอยโรคที่ผ่าตัดไม่ได้; จะถูกถ้าผู้สูงอายุมี lentigo maligna แผ่นกว้างที่หน้าซึ่งผ่าตัดไม่ได้หรือไม่ยอมผ่าตัด",
+   "E": "Observation ก่อนตัดขอบเพิ่มทำให้เสี่ยงกลับเป็นซ้ำเฉพาะที่และพลาด staging ต่อมน้ำเหลือง; จะถูกถ้าโจทย์ถามการติดตามหลังรักษา melanoma stage I ครบแล้ว (ตรวจผิวหนังและต่อมน้ำเหลืองทุก 3–12 เดือน)"
+  },
+  "trap": "นึกถึงการเลาะต่อมน้ำเหลืองแบบเดิม — ปัจจุบันไม่ทำ elective dissection และแม้ SLN บวกก็ไม่ต้องเลาะทุกราย · margin ขึ้นกับ Breslow ไม่ใช่ขนาดก้อน · SLNB ต้องทำพร้อม wide excision เพราะถ้าตัดกว้างก่อน ทางเดินน้ำเหลืองจะเปลี่ยนจนหาต่อมเฝ้าระวังไม่แม่น",
+  "summary": [
+   "Biopsy: excisional ขอบ 1–3 mm (เลี่ยง shave ที่ตัดไม่ถึงฐาน) · ความหนา Breslow เป็นตัวพยากรณ์สำคัญที่สุดของ primary",
+   "Margin: in situ 0.5–1 cm · ≤ 1 mm 1 cm · 1.01–2 mm 1–2 cm · &gt; 2 mm 2 cm",
+   "SLNB: แนะนำเมื่อ T1b ขึ้นไป (&gt; 0.8 mm หรือมี ulceration) · ทำพร้อม wide excision · SLN บวก → ultrasound ติดตาม + adjuvant therapy แทน completion dissection",
+   "AJCC 8: T1 ≤ 1 mm (a &lt; 0.8 ไม่มีแผล) · T2 1.01–2 · T3 2.01–4 · T4 &gt; 4 mm · a/b = ไม่มี/มี ulceration · ไม่ใช้ mitotic rate ในการแบ่ง T แล้ว",
+   "Adjuvant: stage III → anti-PD-1 (nivolumab, pembrolizumab) หรือ dabrafenib + trametinib (BRAF V600) · stage IIB–IIC → anti-PD-1 เป็นทางเลือก",
+   "ชนิด: superficial spreading บ่อยที่สุดในคนผิวขาว · acral lentiginous (ฝ่ามือ ฝ่าเท้า ใต้เล็บ) พบสัดส่วนสูงในคนเอเชียรวมถึงไทย · nodular โตเร็ว · lentigo maligna ที่หน้าผู้สูงอายุ"
+  ],
+  "opinion": "ไฟล์ Key 78B ช่องนี้ว่าง — เฉลยโดยผม ตอบ A ความมั่นใจสูงตาม NCCN; ต้นฉบับจดไว้แค่ melanoma management เราจึงแต่งเคสความหนา 1.5 mm (ต่างจากข้อ melanoma 2.5 mm ใน 78A) เพื่อทดสอบทั้ง margin และข้อบ่งชี้ SLNB",
+  "variants": [
+   "Melanoma หนา 0.5 mm ไม่มี ulceration → wide excision margin 1 cm โดยทั่วไปไม่ต้อง SLNB (T1a)",
+   "Melanoma หนา 2.5 mm มี ulceration → wide excision margin 2 cm + SLNB",
+   "Melanoma ที่ฝ่าเท้าในผู้ป่วยไทย ชนิดที่พบบ่อย → acral lentiginous melanoma",
+   "SLNB พบ micrometastasis 1 ต่อม → ไม่ต้อง completion dissection ทุกราย: ultrasound ติดตาม + adjuvant anti-PD-1"
+  ]
+ },
+ "MDCU78|RoB|50": {
+  "interp": "เด็กมีรูเล็กหน้าใบหูตั้งแต่เกิด (preauricular pit/sinus) ติดเชื้อบวมเจ็บแล้ว 2 ครั้งในปีนี้ ขณะนี้ไม่อักเสบ → ถามการรักษา definitive ของ preauricular sinus ที่ติดเชื้อซ้ำ",
+  "wrong": {
+   "B": "I&D ใช้เฉพาะตอนมีฝีระหว่างติดเชื้อ ไม่ใช่การรักษา definitive และแผลเป็นทำให้ผ่าตัดเอา tract ออกยากขึ้น · จะถูกถ้าขณะนี้มีฝีเป็นหนองที่ไม่ตอบสนองต่อยา",
+   "C": "Antibiotic prophylaxis ระยะยาวไม่กำจัดทางเดินที่บุด้วย epithelium จึงกลับมาติดเชื้อซ้ำเมื่อหยุดยา และเสี่ยงเชื้อดื้อยา — ไม่มีสถานการณ์ใดที่ prophylaxis ระยะยาวเป็นการรักษามาตรฐานของ preauricular sinus เพราะการผ่าตัดเอาทางเดินออกทั้งหมดรักษาให้หายขาดได้",
+   "D": "Observation เหมาะกับ preauricular pit ที่ไม่เคยติดเชื้อ — ข้อนี้ติดเชื้อมา 2 ครั้งในปีนี้ · จะถูกถ้าเด็กมีรูหน้าหูที่ไม่มีอาการเลย",
+   "E": "Sclerotherapy ใช้รักษา lymphatic/venous malformation โดยทำให้ผนังถุงน้ำหรือหลอดเลือดผิดปกติตีบตัน ไม่ได้ผลกับ sinus tract ที่บุด้วย epithelium; จะถูกถ้าเด็กมีก้อนนุ่มหยุ่นใสที่คอ ultrasound เป็นถุงน้ำหลายช่องขนาดใหญ่ (macrocystic lymphatic malformation)"
+  },
+  "trap": "เลือก I&D เพราะเคยบวมเป็นฝี — I&D ใช้เฉพาะตอนเป็นฝี และเป็นการรักษาชั่วคราว · การรักษาที่หายขาดคือผ่าตัดเอาทางเดินออกทั้งหมด ทำตอนไม่อักเสบ · ตัดไม่หมดกลับเป็นซ้ำสูง (ทางเดินแตกแขนงและติดกระดูกอ่อนใบหู)",
+  "summary": [
+   "Preauricular sinus: ความผิดปกติแต่กำเนิดจากการเชื่อมกันไม่สมบูรณ์ของ hillocks of His (1st/2nd branchial arch) · รูที่ขอบหน้าของ helix · มักข้างเดียว มีประวัติครอบครัวได้",
+   "ไม่มีอาการ → สังเกตอาการ ไม่ต้องผ่าตัด · ติดเชื้อ (มักเป็น S. aureus) → antibiotic ± เจาะดูด/I&D ถ้าเป็นฝี",
+   "ติดเชื้อซ้ำ/มีสารคัดหลั่งเรื้อรัง → complete excision ช่วงไม่อักเสบ ตัดทางเดินพร้อมกระดูกอ่อนส่วนที่ติด (supra-auricular approach ลดการกลับเป็นซ้ำ)",
+   "ตรวจการได้ยินในเด็กที่มีรูหน้าหู · ultrasound ไตเมื่อมีความผิดปกติอื่นร่วม ประวัติครอบครัวหูหนวก/ไตผิดปกติ หรือแม่เป็นเบาหวานขณะตั้งครรภ์",
+   "Branchio-oto-renal syndrome: preauricular pit + branchial cleft fistula/cyst + hearing loss + ไตผิดปกติ (EYA1)",
+   "แยกจาก first branchial cleft anomaly: รูหรือก้อนใต้ใบหู/มุมขากรรไกร ทางเดินใกล้ facial nerve และ external auditory canal"
+  ],
+  "opinion": "ไฟล์ Key 78B ช่องนี้ว่าง — เฉลยโดยผม ตอบ A ความมั่นใจสูง; เราเติมคำว่า currently not inflamed เพื่อให้เป็นช่วงที่เหมาะกับการผ่าตัดเอาทางเดินออก",
+  "variants": [
+   "เด็กมีรูหน้าหูตั้งแต่เกิด ไม่เคยมีอาการ → สังเกตอาการ ไม่ต้องผ่าตัด",
+   "เด็กรูหน้าหูบวมแดงเจ็บมีฝี fluctuant → antibiotic + เจาะดูด/I&D แล้วผ่าตัดเอาทางเดินออกเมื่อหายอักเสบ",
+   "เด็กมีรูหน้าหูสองข้าง รูที่คอด้านข้าง และหูตึง → branchio-oto-renal syndrome: ultrasound ไต + ตรวจการได้ยิน",
+   "เด็กมีก้อนติดเชื้อซ้ำใต้ใบหูใกล้มุมขากรรไกร มีรูเปิดในช่องหู → first branchial cleft anomaly (ระวัง facial nerve ขณะผ่าตัด)"
+  ]
+ },
+ "MDCU78|RoB|51": {
+  "interp": "ผู้ป่วยอุบัติเหตุรถยนต์ หัวใจเต้นเร็ว SpO<sub>2</sub> 92% เสียงหายใจขวาเบา CXR เป็น pneumothorax ขวาขนาดใหญ่ + เลือดในช่องเยื่อหุ้มปอดเล็กน้อย ไม่มี mediastinal shift และความดันยังปกติ → traumatic hemopneumothorax ที่มีอาการแต่ยังไม่ใช่ tension → ถามการรักษา",
+  "wrong": {
+   "A": "Observation ใช้กับ occult pneumothorax (เห็นเฉพาะใน CT) ขนาดเล็กในผู้ป่วยที่หายใจดี ไม่ต้องใช้เครื่องช่วยหายใจ — ข้อนี้ PTX ใหญ่ มีอาการ และมีเลือดร่วม; จะถูกถ้าผู้ป่วยอุบัติเหตุ SpO<sub>2</sub> ปกติ CXR ปกติ แต่ CT ท้องเห็น pneumothorax บาง ๆ ด้านหน้า และไม่ต้องดมยาสลบ",
+   "B": "Oxygen อย่างเดียว (± สังเกตอาการ) ใช้กับ pneumothorax ขนาดเล็กที่อาการน้อย ไม่ช่วยระบายลมหรือเลือดในรายที่ใหญ่และมีอาการ; จะถูกถ้าเป็น primary spontaneous pneumothorax ขนาดเล็กในชายหนุ่มผอมสูง หายใจไม่เหนื่อย",
+   "D": "Needle aspiration ใช้กับ primary spontaneous pneumothorax ที่มีอาการ หรือใช้ decompress tension pneumothorax ชั่วคราว ไม่ระบายเลือด และในบาดเจ็บมีลมรั่วต่อเนื่องได้ ต้องใส่สายระบาย; จะถูกถ้าชายหนุ่ม primary spontaneous pneumothorax ขนาดใหญ่ หายใจเหนื่อย ไม่มีโรคปอดเดิม",
+   "E": "Emergency thoracotomy ใช้เมื่อเลือดออกในช่องอกมาก: ใส่สายแล้วได้เลือด ≥ 1,500 mL ทันที หรือ ≥ 200 mL/ชม. นาน 2–4 ชม. หรือต้องให้เลือดต่อเนื่อง; จะถูกถ้าใส่ chest tube แล้วได้เลือดทันที 1,700 mL และความดันยังต่ำ"
+  },
+  "trap": "เห็นหัวใจเต้นเร็วแล้วรีบเลือกทำ needle decompression หรือ thoracotomy — tension pneumothorax ต้องมีความดันต่ำ/หลอดเลือดดำคอโป่ง/หลอดลมเบี้ยว ซึ่งไม่มีในข้อนี้ · traumatic PTX ที่มีอาการหรือมีเลือดร่วม = chest tube · needle aspiration ใช้กับ spontaneous PTX ไม่ใช่ trauma",
+  "summary": [
+   "Tension pneumothorax = วินิจฉัยทางคลินิก (หายใจลำบาก ความดันต่ำ หลอดเลือดดำคอโป่ง หลอดลมเบี้ยว) → needle/finger decompression ทันทีที่ ICS 4–5 แนว mid-axillary (ผู้ใหญ่) แล้วใส่ chest tube",
+   "Traumatic PTX ที่มีอาการ ขนาดใหญ่ มีเลือดร่วม หรือต้องใช้เครื่องช่วยหายใจ/ส่งต่อทางอากาศ → chest tube · occult PTX เล็กในรายที่ stable → สังเกตอาการ + CXR ซ้ำ",
+   "ตำแหน่งใส่ chest tube: triangle of safety (ICS 4–5 หน้าต่อ mid-axillary line ขอบ pectoralis major และ latissimus dorsi)",
+   "Massive hemothorax: ≥ 1,500 mL ทันที หรือ ≥ 200 mL/ชม. นาน 2–4 ชม. หรือต้องให้เลือดต่อเนื่อง → thoracotomy",
+   "Open pneumothorax → ปิดแผลด้วย dressing ยึด 3 ด้าน แล้วใส่ chest tube ห่างจากแผล",
+   "Retained hemothorax หลังใส่สาย → VATS ภายใน 3–7 วัน ลดโอกาส empyema และ fibrothorax"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 78B) ความมั่นใจปานกลาง–สูง — ไม่เห็นฟิล์มจริง แต่ต้นฉบับบอกว่าอุบัติเหตุรถยนต์ มีหัวใจเต้นเร็ว และช้อยเดิมมีแค่ observe, O<sub>2</sub>, thoracostomy ซึ่ง thoracostomy เป็นการรักษามาตรฐานของ traumatic PTX ที่มีอาการ",
+  "variants": [
+   "ผู้ป่วยอุบัติเหตุ ความดันต่ำ หลอดเลือดดำคอโป่ง เสียงหายใจขวาหาย หลอดลมเบี้ยวไปซ้าย → needle/finger decompression ทันที แล้วใส่ chest tube",
+   "ใส่ chest tube ผู้ป่วย hemothorax ได้เลือดทันที 1,600 mL → thoracotomy",
+   "ผู้ป่วยอุบัติเหตุ stable CT ท้องเห็น pneumothorax บาง ๆ ด้านหน้า ไม่ต้องดมยาสลบ → สังเกตอาการ + CXR ซ้ำ",
+   "แผลถูกแทงที่อก มีลมดูดเข้าออกที่แผล → dressing ยึด 3 ด้าน แล้วใส่ chest tube"
+  ]
+ },
+ "MDCU78|RoB|52": {
+  "interp": "หญิงตั้งครรภ์มี asymptomatic bacteriuria (E. coli &gt; 10<sup>5</sup> CFU/mL) รักษาด้วยยากินครบ 7 วันแล้ว แต่เพาะเชื้อซ้ำยังพบเชื้อ (persistent ASB) ยังไม่มีอาการ → ถามขั้นต่อไป",
+  "why": "ASB ในหญิงตั้งครรภ์ต้องรักษาทุกราย เพราะการตั้งครรภ์ทำให้ท่อไตขยายและปัสสาวะค้าง ถ้าไม่รักษาเกิด pyelonephritis ราว 20–35% (รักษาแล้วเหลือราว 1–4%) และสัมพันธ์กับ preterm birth/ทารกน้ำหนักน้อย · หลังรักษาต้องเพาะเชื้อซ้ำ (test of cure) · ถ้ายังพบเชื้อแต่ไม่มีอาการ → <b>ให้ยากินอีกคอร์สตามผลความไวของเชื้อ</b> · ถ้ากลับเป็นซ้ำอีกหลังคอร์สที่สอง → suppressive therapy จนคลอด (nitrofurantoin หรือ cephalexin ก่อนนอน) และเพาะเชื้อเป็นระยะ · IV antibiotics ใช้เมื่อเป็น pyelonephritis เท่านั้น",
+  "trap": "คิดว่ารักษาครั้งแรกไม่หายต้องเพิ่มเป็นยาฉีดหรือหาความผิดปกติทางเดินปัสสาวะ — ผู้ป่วยยังไม่มีอาการจึงยังเป็น ASB ให้ยากินคอร์สใหม่ตามผลความไว · และอย่าเหมาว่า ASB ทุกกลุ่มต้องรักษา: นอกการตั้งครรภ์และก่อนผ่าตัดทางเดินปัสสาวะไม่ต้องรักษา",
+  "summary": [
+   "คัดกรอง ASB ด้วย urine culture ในหญิงตั้งครรภ์ทุกรายตั้งแต่ฝากครรภ์ครั้งแรก (ราว 12–16 สัปดาห์) · เกณฑ์ ≥ 10<sup>5</sup> CFU/mL",
+   "ยาที่ใช้: cephalexin, amoxicillin–clavulanate, nitrofurantoin, fosfomycin ตามผลความไว 5–7 วัน (fosfomycin ครั้งเดียว) · เลี่ยง fluoroquinolone · TMP-SMX เลี่ยงไตรมาสแรกและใกล้คลอด · nitrofurantoin เลี่ยงใกล้คลอด",
+   "Test of cure หลังรักษา 1–2 สัปดาห์ · ยังพบเชื้อ → คอร์สใหม่ตามผลความไว · เป็นซ้ำ → suppressive therapy จนคลอด",
+   "GBS ในปัสสาวะไม่ว่าจำนวนเท่าใดระหว่างตั้งครรภ์ → รักษาตอนนั้น และให้ intrapartum prophylaxis โดยไม่ต้อง swab ซ้ำ",
+   "Pyelonephritis ในครรภ์ (ไข้ หนาวสั่น ปวดหลัง กดเจ็บ CVA) → admit + IV antibiotics (ceftriaxone) · ไม่ดีขึ้นใน 48–72 ชม. → ultrasound หานิ่วหรือฝี",
+   "ASB ไม่ต้องรักษา: หญิงไม่ตั้งครรภ์ ผู้สูงอายุ เบาหวาน ผู้ใส่สายสวน · ต้องรักษา: ตั้งครรภ์ และก่อนผ่าตัดทางเดินปัสสาวะที่มีเลือดออกเยื่อบุ (เช่น TURP)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 78B) ความมั่นใจสูง — สอดคล้องกับ ACOG และ IDSA 2019 ที่ให้รักษา ASB ในครรภ์และเพาะเชื้อซ้ำ ถ้ายังพบเชื้อให้คอร์สใหม่ตามผลความไว",
+  "variants": [
+   "หญิงตั้งครรภ์ 32 สัปดาห์ ไข้ หนาวสั่น ปวดหลังขวา กดเจ็บ CVA → admit + IV ceftriaxone (acute pyelonephritis)",
+   "หญิงตั้งครรภ์ ASB รักษาสองคอร์สแล้วกลับมาพบเชื้ออีก → suppressive therapy (nitrofurantoin หรือ cephalexin ก่อนนอน) จนคลอด",
+   "หญิงตั้งครรภ์ 14 สัปดาห์ urine culture พบ GBS 10<sup>4</sup> CFU/mL → รักษาตอนนี้ + intrapartum GBS prophylaxis",
+   "หญิงอายุ 75 ปี ไม่มีอาการ urine culture พบ E. coli &gt; 10<sup>5</sup> → ไม่ต้องรักษา"
+  ]
+ },
+ "MDCU78|RoB|53": {
+  "interp": "ชายอายุ 60 ปี สูบบุหรี่ ไอเรื้อรัง CXR พบก้อนที่ยอดปอดขวา (ลูกศร) → ความเสี่ยงมะเร็งปอดสูง ถามขั้นต่อไปหลังพบก้อนจาก CXR ซึ่งคือการตรวจลักษณะและ staging ไม่ใช่ผ่าตัดหรือรอดู",
+  "why": "ก้อนในปอดที่พบจาก CXR ในผู้ความเสี่ยงสูง → <b>CT chest with contrast (รวม upper abdomen ถึง adrenal)</b> เป็นขั้นต่อไปเสมอ เพื่อดูขนาด ขอบ (spiculated) ลักษณะ solid/subsolid หินปูน ต่อมน้ำเหลือง mediastinum และการลุกลามผนังทรวงอก · ก้อนที่ยอดปอด (Pancoast/superior sulcus tumor) ต้องดูการลุกลาม brachial plexus, subclavian vessels, กระดูกสันหลัง (มักทำ MRI ร่วม) · จากนั้น PET–CT และได้ชิ้นเนื้อ (CT-guided biopsy, bronchoscopy/EBUS) เพื่อวินิจฉัยและ staging ก่อนวางแผนรักษา",
+  "trap": "เห็นก้อนชัดแล้วตอบ lobectomy ทันที — ต้องได้ CT, staging และชิ้นเนื้อก่อน และ Pancoast tumor มักให้ neoadjuvant chemoradiation ก่อนผ่าตัด · อย่าติดตามก้อนในผู้สูบบุหรี่ด้วย CXR · sputum culture ใช้เมื่อสงสัย TB ไม่ใช่ขั้นตอนหลักของก้อนสงสัยมะเร็ง",
+  "summary": [
+   "ก้อนจาก CXR → CT chest with contrast · ปัจจัยชี้มะเร็ง: อายุมาก สูบบุหรี่ ก้อนใหญ่ ขอบ spiculated อยู่ upper lobe โตขึ้น · ปัจจัยชี้ไม่ร้าย: หินปูนแบบ popcorn/laminated/central/diffuse ขนาดคงที่ ≥ 2 ปี (solid)",
+   "Solid nodule (Fleischner, ความเสี่ยงสูง): &lt; 6 mm → CT ซ้ำ 12 เดือนได้ · 6–8 mm → CT 6–12 เดือน · &gt; 8 mm → พิจารณา CT 3 เดือน, PET–CT หรือ biopsy",
+   "Staging NSCLC: CT chest/upper abdomen → PET–CT → mediastinal staging (EBUS-TBNA) → MRI brain ในระยะที่สูงขึ้น",
+   "Pancoast tumor: ปวดไหล่/แขนตาม C8–T1, Horner syndrome, กล้ามเนื้อมือลีบ · รักษา: neoadjuvant chemoradiation → ผ่าตัด",
+   "ผ่าตัด (lobectomy + lymph node dissection) ใน NSCLC stage I–II และบาง IIIA ที่สมรรถภาพปอดพอ (FEV<sub>1</sub>, DLCO)",
+   "คัดกรองมะเร็งปอด: low-dose CT ทุกปี อายุ 50–80 ปี สูบบุหรี่ ≥ 20 pack-years ที่ยังสูบหรือเลิกไม่เกิน 15 ปี (USPSTF 2021)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 78B) ความมั่นใจสูง — ต้นฉบับถามว่าเจอก้อนจาก CXR แล้วทำอะไรต่อ ช้อยเดิม 3 ตัว เราเติมประวัติสูบบุหรี่และไอเรื้อรังให้ชัดว่าเป็นก้อนเสี่ยงมะเร็ง; CT chest เป็นขั้นต่อไปมาตรฐาน",
+  "variants": [
+   "CT พบ solid nodule 4 mm ในผู้ไม่เคยสูบบุหรี่ ความเสี่ยงต่ำ → ไม่ต้องติดตาม (Fleischner)",
+   "ผู้สูบบุหรี่ปวดไหล่ร้าวลงแขนด้านใน หนังตาตก รูม่านตาเล็กข้างเดียวกัน CXR ก้อนที่ยอดปอด → Pancoast tumor: CT + MRI แล้ว neoadjuvant chemoradiation ก่อนผ่าตัด",
+   "ชายอายุ 65 ปี สูบบุหรี่ 30 pack-years ยังสูบอยู่ ไม่มีอาการ → คัดกรองด้วย low-dose CT ทุกปี",
+   "CT เห็นก้อน 2.5 cm ขอบ spiculated ที่ upper lobe ขวา ไม่มีต่อมน้ำเหลืองโต → PET–CT + ชิ้นเนื้อเพื่อวินิจฉัยและ staging"
+  ]
+ }
+}
