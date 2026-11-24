@@ -133,5 +133,153 @@
    "Type B dissection แล้วเกิดไตวายเฉียบพลันและขาซ้ายเย็นชีพจรหาย → TEVAR",
    "ชายสูงผอม แขนขายาว เลนส์ตาเคลื่อน เจ็บหน้าอกร้าวหลังทันที → สงสัย aortic dissection ใน Marfan syndrome: CTA ด่วน"
   ]
+ },
+ "MDCU77|RoA|CVT 7": {
+  "interp": "Massive hemoptysis ที่หาตำแหน่งได้แล้วว่ามาจากรอยโรคใน right upper lobe และ<b>หยุดเลือดได้ชั่วคราวแล้ว</b> → ถามการรักษาที่ทำให้หายขาด (definitive) ไม่ใช่การห้ามเลือดเฉพาะหน้า",
+  "why": "ลำดับการดูแล massive hemoptysis: (1) airway และ resuscitation — ผู้ป่วยตายจากเลือดท่วมทางเดินหายใจมากกว่าเสียเลือด ให้นอนตะแคงเอาข้างที่เลือดออกลง ใส่ท่อช่วยหายใจขนาดใหญ่ (≥ 8.0) หรือแยกปอดข้างดี (2) หาตำแหน่ง: CTA chest ± bronchoscopy (3) ห้ามเลือด: bronchial artery embolization (BAE) เป็น first-line เพราะเลือดราว 90% มาจาก bronchial artery ที่ความดันสูง หรือห้ามเลือดผ่าน bronchoscopy (4) <b>definitive</b>: เมื่อรอยโรคจำกัดอยู่กลีบเดียวและผู้ป่วยมีสมรรถภาพปอดพอ → ผ่าตัดเอารอยโรคออก (lobectomy) เพราะ BAE เลือดออกซ้ำได้ราว 10–50% · ข้อนี้คุมเลือดได้แล้วและรอยโรคอยู่ RUL กลีบเดียว จึงตอบ right upper lobectomy (ถ้าเป็นมะเร็งปอดก็เป็นการผ่าตัดรักษามะเร็งไปพร้อมกัน) · การผ่าตัดขณะเลือดยังออกมากมีอัตราตายสูง จึงควรห้ามเลือดให้คงที่ก่อนแล้วผ่าแบบ semi-elective",
+  "wrong": {
+   "B": "ยาปฏิชีวนะรักษาการติดเชื้อที่ทำให้เลือดออก (bronchiectasis กำเริบ, ฝีในปอด) แต่ไม่ได้เอารอยโรคที่เป็นต้นเหตุออก เลือดจึงออกซ้ำได้; จะถูกถ้าเป็นไอเป็นเลือดปริมาณน้อยจาก bronchiectasis กำเริบหรือหลอดลมอักเสบ ในผู้ป่วยที่ hemodynamics และ oxygenation ปกติ",
+   "C": "BAE เป็นวิธีห้ามเลือดอันดับแรกและได้ผลทันทีราว 70–90% แต่เลือดออกซ้ำสูง (ยิ่งใน aspergilloma และ TB) จึงเป็นการรักษาชั่วคราวในผู้ที่ผ่าตัดได้; จะถูกถ้าเลือดยังออกอยู่ หรือผู้ป่วยผ่าตัดไม่ได้ (สมรรถภาพปอดไม่พอ รอยโรคกระจายทั้งสองข้าง เช่น bronchiectasis ทั่วปอด)",
+   "D": "Rigid bronchoscopy ดูดเลือด เปิดทางเดินหายใจ และใส่บอลลูนอุดหลอดลมกลีบที่เลือดออกเพื่อกันไม่ให้เลือดไหลไปปอดอีกข้าง — เป็นการประคองชั่วคราว; จะถูกถ้าเลือดยังออกมากจนทางเดินหายใจคุมไม่ได้ ต้องกั้นเลือดระหว่างรอ BAE หรือผ่าตัด",
+   "E": "Tranexamic acid (IV หรือพ่นละออง) เป็นยาเสริมที่ลดปริมาณเลือดได้บ้าง ไม่หยุดเลือดจาก bronchial artery ที่ความดันสูงและไม่แก้รอยโรค; จะถูกถ้าเป็นไอเป็นเลือดปริมาณน้อย–ปานกลางที่ใช้เป็นยาเสริมระหว่างหาสาเหตุ"
+  },
+  "trap": "เลือก BAE เพราะจำว่าเป็น first-line ของ massive hemoptysis — แต่ first-line คือการห้ามเลือดตอนเลือดยังออก ส่วนโจทย์ถาม definitive หลังคุมเลือดได้แล้วในรอยโรคกลีบเดียว คำตอบจึงเป็นการผ่าตัด",
+  "summary": [
+   "Massive hemoptysis: ไม่มีตัวเลขเดียว (มักใช้ > 100–600 mL/24 ชม.) — นิยามที่ใช้จริงคือปริมาณใดก็ตามที่ทำให้หายใจลำบาก/ขาดออกซิเจนหรือ hemodynamics ไม่คงที่ · ตายจาก asphyxia",
+   "สาเหตุที่พบบ่อยในไทย: TB และ post-TB bronchiectasis, aspergilloma ในโพรงเก่า, bronchiectasis, มะเร็งปอด · ที่ต้องแยกคือ diffuse alveolar hemorrhage จาก vasculitis ซึ่งรักษาด้วยยากดภูมิ ไม่ใช่การผ่าตัด",
+   "ขั้นแรก: นอนตะแคงข้างที่เลือดออกลง · ใส่ท่อขนาดใหญ่เพื่อส่องกล้องดูดเลือดได้ หรือ selective intubation ปอดข้างดี/double-lumen tube · แก้ coagulopathy",
+   "หาตำแหน่ง: CTA chest (เห็นรอยโรคและ bronchial artery) · bronchoscopy ช่วยทั้งหาตำแหน่งและห้ามเลือด (cold saline, epinephrine, บอลลูน)",
+   "BAE: first-line ห้ามเลือด สำเร็จราว 70–90% · เลือดออกซ้ำ 10–50% · ภาวะแทรกซ้อนสำคัญคือ spinal cord ischemia จากอุด anterior spinal artery โดยไม่ตั้งใจ",
+   "ผ่าตัด (lobectomy/segmentectomy) เมื่อ: รอยโรคจำกัดเฉพาะที่ ปอดเหลือพอ — aspergilloma (BAE ได้ผลไม่ทน), มะเร็งปอดที่ผ่าได้, AVM/บาดเจ็บ, BAE ล้มเหลว · ทำหลังเลือดคงที่ดีกว่าผ่าขณะเลือดออก"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง–สูง · ไฟล์ Key 77A ตอบ A ว่า \"น่าจะ Lung CA\" แล้วมี \"????\" แสดงว่าคนเฉลยเองก็ไม่แน่ใจ · ต้นฉบับมีช้อยแค่ 2 ตัว เราเติมว่าคุมเลือดได้ชั่วคราวแล้วและเติมช้อย C–E ให้คำว่า definitive ชี้ไปที่การผ่าตัดชัดขึ้น — ถ้าข้อสอบจริงไม่บอกว่าเลือดหยุดแล้ว คำตอบอาจเป็น BAE",
+  "variants": [
+   "ผู้ป่วย post-TB มี aspergilloma ในโพรงที่ right upper lobe ไอเป็นเลือดซ้ำหลังทำ BAE ไป 2 ครั้ง FEV1 ดี → lobectomy",
+   "ไอเป็นเลือด 400 mL ใน 2 ชม. ทราบว่าเลือดมาจากปอดซ้าย SpO<sub>2</sub> ลดลง → นอนตะแคงซ้ายลง ใส่ท่อช่วยหายใจ (แยกปอดขวาที่ดีไว้) แล้วส่ง CTA/BAE",
+   "ไอเป็นเลือดร่วมกับปัสสาวะเป็นเลือดและไตวายเร็ว CT เห็น ground-glass ทั้งสองข้าง → diffuse alveolar hemorrhage จาก vasculitis: steroid + ยากดภูมิ ± plasma exchange"
+  ]
+ },
+ "MDCU77|RoA|CVT 8": {
+  "interp": "Systolic murmur ดัง grade IV ที่ <b>right upper sternal border</b> (aortic area) ร่วมกับ <b>S2 หาย</b> → ลิ้น aortic แข็งจนปิดไม่มีเสียง A2 = severe calcific aortic stenosis",
+  "why": "AS ให้ ejection (crescendo–decrescendo) systolic murmur ดังสุดที่ RUSB ร้าวไปคอ (carotid) · ใน calcific AS ที่รุนแรง ลิ้นหนาแข็งขยับไม่ได้ → A2 เบาหรือหายไป (single หรือ absent S2) ซึ่งเป็นสัญญาณบอกความรุนแรงที่เชื่อได้ ร่วมกับ pulsus parvus et tardus (ชีพจรเล็กและมาช้า) และ murmur ที่ peak ช้า (late-peaking) · ความดังของ murmur ไม่ได้บอกความรุนแรงเสมอ (ถ้า LV แย่ murmur จะเบาลง) · ช้อยอื่นเป็น holosystolic/late systolic murmur ที่ apex หรือ LLSB หรือ murmur ที่ LUSB ซึ่งไม่ทำให้ S2 หาย",
+  "wrong": {
+   "B": "Pulmonic stenosis ฟังชัดที่ left upper sternal border มี ejection click P2 เบาและ split กว้าง พบในเด็ก (congenital, Noonan) · จะถูกถ้า systolic murmur อยู่ที่ LUSB ในเด็กร่วมกับ ejection click ที่เบาลงตอนหายใจเข้า",
+   "C": "Mitral regurgitation ให้ holosystolic murmur ที่ apex ร้าวไป axilla และ S2 ไม่หาย · จะถูกถ้า murmur อยู่ที่ apex ร้าวรักแร้ ร่วมกับ LA โต/AF",
+   "D": "Tricuspid regurgitation ให้ holosystolic murmur ที่ left lower sternal border ดังขึ้นเมื่อหายใจเข้า (Carvallo sign) · จะถูกถ้าผู้ป่วยมี JVD large v wave และตับเต้นได้",
+   "E": "MVP ให้ mid-systolic click + late systolic murmur ที่ apex (ยืน/Valsalva ทำให้ click มาเร็วขึ้น) · จะถูกถ้าหญิงสาวผอมมี mid-systolic click ที่ apex"
+  },
+  "trap": "จำตำแหน่งฟังสลับ: aortic area = RUSB ส่วน pulmonic = LUSB · ทั้ง AS และ PS เป็น ejection murmur แต่ PS ทำให้ P2 เบาร่วมกับ S2 แยกกว้าง ส่วน severe AS ทำให้ A2 หายจน S2 เหลือเสียงเดียวหรือไม่มีเลย",
+  "summary": [
+   "ฟังตรวจ AS: ejection systolic murmur ที่ RUSB ร้าวไป carotid · S2 เดี่ยว/หาย หรือ paradoxical splitting · S4 · pulsus parvus et tardus · ยก LV แรง (LVH)",
+   "สาเหตุ: calcific degenerative (ผู้สูงอายุ > 70 ปี) · bicuspid aortic valve (อายุ 50–60 ปี มี ejection click ได้) · rheumatic (มักเป็นร่วมกับลิ้น mitral)",
+   "Severe AS (echo): Vmax ≥ 4 m/s · mean gradient ≥ 40 mmHg · AVA ≤ 1.0 cm²",
+   "อาการ: angina, syncope ตอนออกแรง, heart failure — เมื่อเริ่มมีอาการ ถ้าไม่เปลี่ยนลิ้นจะอยู่ได้เฉลี่ยราว 5, 3, 2 ปีตามลำดับ",
+   "รักษา: เปลี่ยนลิ้นเมื่อ severe AS ที่มีอาการ หรือไม่มีอาการแต่ LVEF < 50% · ไม่มียาที่ชะลอโรค · ESC/EACTS 2025 แนะนำ TAVI ในอายุ ≥ 70 ปี (2021 ใช้ ≥ 75) ส่วนอายุน้อยหรือ bicuspid ที่ผ่าตัดได้เสี่ยงต่ำใช้ SAVR",
+   "ระวังใน severe AS: ยาขยายหลอดเลือด (nitrate) และการขาดน้ำทำให้ความดันตกได้เพราะ cardiac output ตายตัว"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง (ไฟล์ Key 77A ตอบ AS) · ตำแหน่ง RUSB ร่วมกับ S2 หายชี้ AS ชัด ไม่มีช้อยอื่นที่ทำให้ S2 หาย",
+  "variants": [
+   "ชายอายุ 78 ปี เป็นลมตอนออกแรง echo AVA 0.7 cm² mean gradient 50 mmHg → severe symptomatic AS: เปลี่ยนลิ้น (TAVI ในวัยนี้)",
+   "ชายอายุ 22 ปี วูบตอนออกกำลัง systolic murmur ที่ LLSB ดังขึ้นตอน Valsalva/ยืน เบาลงตอนนั่งยอง → hypertrophic obstructive cardiomyopathy",
+   "ชายอายุ 50 ปี ejection click ตามด้วย ejection systolic murmur ที่ RUSB echo ลิ้น aortic สองแฉก → bicuspid aortic valve (ตรวจหา aortopathy และ coarctation ร่วม)"
+  ]
+ },
+ "MDCU77|RoA|CVT 9": {
+  "interp": "มีอาการคล้าย heart failure ร่วมกับ BP ต่ำ 100/60, คอโป่ง (JVD) และเสียงหัวใจเบา (distant) = <b>Beck's triad</b> → cardiac tamponade",
+  "why": "น้ำหรือเลือดในช่องเยื่อหุ้มหัวใจเพิ่มความดันในช่องนั้นจนเกินความดันห้องหัวใจขวาช่วง diastole → RA/RV ถูกกดจนเลือดไหลกลับเข้าหัวใจไม่ได้ (venous return ลด) → stroke volume ลด ความดันต่ำ, เลือดคั่งในระบบดำ (JVD) และน้ำที่ล้อมหัวใจทำให้เสียงหัวใจเบา · อาการเข้าได้ร่วม: pulsus paradoxus (SBP ลด > 10 mmHg ตอนหายใจเข้า), หัวใจเต้นเร็ว, ปอดไม่มี crepitation (ต่างจาก LV failure) · ECG: low voltage, electrical alternans · ยืนยันด้วย echo: pericardial effusion + RA collapse ช่วง systole/RV collapse ช่วง diastole, IVC โป่งไม่ยุบ · การรักษาคือระบายน้ำออก (pericardiocentesis นำด้วย echo หรือ pericardial window) ระหว่างรอให้สารน้ำประคอง preload",
+  "wrong": {
+   "B": "Acute pericarditis เจ็บอกแหลม ดีขึ้นเมื่อนั่งโน้มตัวไปหน้า ฟังได้ friction rub ECG ST ยกทั่วไปร่วมกับ PR depression — ความดันและ JVP ปกติถ้าไม่มีน้ำมาก; จะถูกถ้าชายหนุ่มหลังไข้หวัดมีเจ็บอกแบบนี้ แต่ความดันปกติ คอไม่โป่ง",
+   "C": "MI ทำให้ cardiogenic shock ได้ แต่มักมีเจ็บอก ECG/troponin เปลี่ยน และ LV failure มีน้ำท่วมปอด เสียงหัวใจไม่เบาแบบนี้; จะถูกถ้าเป็น inferior STEMI ที่ความดันต่ำ คอโป่ง แต่ปอดใส (RV infarction — ให้สารน้ำ เลี่ยง nitrate)",
+   "D": "Tension pneumothorax ก็มีความดันต่ำและคอโป่ง แต่เด่นที่ปอดข้างหนึ่งเสียงหายใจหาย เคาะโปร่ง หลอดลมเบี้ยวไปข้างตรงข้าม; จะถูกถ้าผู้ป่วยบาดเจ็บหรือใช้เครื่องช่วยหายใจแล้วความดันตกพร้อมเสียงหายใจข้างหนึ่งหาย",
+   "E": "PE รุนแรงทำให้ความดันต่ำและคอโป่งได้จาก RV ล้มเหลวเฉียบพลัน แต่เด่นที่หอบเหนื่อยทันทีและ SpO<sub>2</sub> ต่ำ เสียงหัวใจไม่เบา; จะถูกถ้าผู้ป่วยหลังผ่าตัดนอนนาน เหนื่อยทันที ออกซิเจนต่ำ ขาบวมข้างเดียว"
+  },
+  "trap": "ภาวะที่ทำให้ \"ความดันต่ำ + คอโป่ง\" มีหลายอย่าง (tamponade, tension pneumothorax, RV infarction, massive PE) — ตัวแยกของ tamponade คือเสียงหัวใจเบา + pulsus paradoxus โดยเสียงหายใจสองข้างเท่ากันและปอดใส",
+  "summary": [
+   "Beck's triad: hypotension + JVD + muffled heart sounds — ครบทั้ง 3 ข้อพบไม่บ่อย (มักใน tamponade เฉียบพลันจากบาดเจ็บ) · tachycardia และ pulsus paradoxus พบบ่อยกว่า",
+   "ความเร็วสำคัญกว่าปริมาณ: เลือด 150–200 mL ที่เข้าเร็วทำ tamponade ได้ ส่วนน้ำที่สะสมช้าเป็นลิตรอาจยังไม่มีอาการ",
+   "สาเหตุ: บาดเจ็บทะลุบริเวณ cardiac box · มะเร็ง · uremia · TB (ไทยพบบ่อย) · หลังผ่าตัด/สวนหัวใจ · aortic dissection type A · free wall rupture หลัง MI",
+   "รักษา medical tamponade: pericardiocentesis ใต้ echo (ทาง subxiphoid) หรือ pericardial window ถ้าน้ำเป็นซ้ำ/ข้น · ประคองด้วยสารน้ำ เลี่ยงยาขับปัสสาวะ ยาขยายหลอดเลือด และ positive pressure ventilation",
+   "Tamponade จากบาดเจ็บ ผ่าตัดหัวใจ dissection หรือ free wall rupture → ผ่าตัด (sternotomy/thoracotomy) · เจาะระบายเป็นแค่การซื้อเวลา"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง (ไฟล์ Key 77A: Beck triad = cardiac tamponade) · ต้นฉบับจดว่าโจทย์ยาวและมีช้อย 3 ตัว เราเติม D, E ซึ่งเป็นตัวลวงที่ทำให้ความดันต่ำและคอโป่งเหมือนกัน",
+  "variants": [
+   "ชายถูกแทงที่หน้าอกซ้ายข้างกระดูกอก BP 80/50 คอโป่ง FAST เห็นน้ำในเยื่อหุ้มหัวใจ → ผ่าตัดเปิดหัวใจ (sternotomy/thoracotomy) ไม่ใช่แค่เจาะระบาย",
+   "หญิงมะเร็งปอด เหนื่อยมากขึ้น ECG low voltage + electrical alternans echo เห็นน้ำรอบหัวใจและ RV ยุบช่วง diastole → pericardiocentesis นำด้วย echo",
+   "หลังผ่าตัดหัวใจ 1 วัน ความดันตก CVP สูง สายระบายช่องอกที่เคยออกมากหยุดออกทันที → tamponade จากลิ่มเลือด: re-exploration"
+  ]
+ },
+ "MDCU77|RoA|CVT 10": {
+  "interp": "ผู้ป่วยบาดเจ็บ ถ่าย CXR ท่านอน — ไฟล์คีย์อ่านภาพว่าเป็น massive pleural effusion/hemothorax → ถามการจัดการ hemothorax ในผู้ป่วยบาดเจ็บ",
+  "why": "Hemothorax จากการบาดเจ็บที่เห็นบน CXR → ใส่สายระบายทรวงอก (tube thoracostomy/ICD) ซึ่งทำได้ทั้ง (1) ระบายเลือดให้ปอดขยาย แก้การหายใจ (2) วัดปริมาณเลือดเพื่อตัดสินว่าต้องผ่าตัดหรือไม่ และ (3) ป้องกันเลือดค้างจนเป็นหนองหรือพังผืด · ใส่ที่ safe triangle (ICS 4–5 ระหว่าง anterior และ mid-axillary line) เหนือขอบบนซี่โครง · ท่อขนาดใหญ่ 28–32 Fr เป็นมาตรฐานเดิม ปัจจุบันใช้ small-bore (~14 Fr) ได้ในผู้ป่วยคงที่ · ผ่าตัด thoracotomy เมื่อเลือดออกทันที ≥ 1,500 mL, ออกต่อเนื่อง > 200 mL/ชม. 2–4 ชม. หรือต้องให้เลือดต่อเนื่อง (ATLS) · ใน supine CXR เลือดกระจายไปด้านหลังจึงไม่เห็นระดับน้ำ เห็นเป็นปอดข้างนั้นขาวจางทั้งข้าง",
+  "wrong": {
+   "B": "ยาปฏิชีวนะไม่ได้เอาเลือดออกจากช่องปอด (ให้ป้องกันระยะสั้นตอนใส่สายใน penetrating injury ได้); จะถูกถ้าเป็น parapneumonic effusion แบบ uncomplicated (น้ำน้อย pH > 7.2 ไม่มีเชื้อ) ในผู้ป่วยปอดอักเสบที่ไม่มีการบาดเจ็บ",
+   "C": "Needle thoracostomy ปล่อยลมใน tension pneumothorax ไม่ระบายเลือด; จะถูกถ้าผู้ป่วยบาดเจ็บความดันตก คอโป่ง เสียงหายใจข้างหนึ่งหาย เคาะโปร่ง — ทำทันทีไม่ต้องรอ CXR แล้วตามด้วย ICD",
+   "D": "Thoracotomy ฉุกเฉินไม่ใช่ขั้นแรก ต้องใส่ ICD ก่อนเพื่อรู้ปริมาณเลือด; จะถูกถ้าใส่ ICD แล้วเลือดออกทันที ≥ 1,500 mL หรือ > 200 mL/ชม. นาน 2–4 ชม. หรือหัวใจหยุดเต้นจากบาดเจ็บทะลุทรวงอก (resuscitative thoracotomy)",
+   "E": "เฝ้าดูไม่เหมาะกับ hemothorax ที่เห็นบน CXR เพราะเลือดค้างจะกลายเป็น empyema หรือ fibrothorax; จะถูกถ้าเป็น hemothorax เล็กที่เห็นแค่ใน CT (occult, ราว < 300 mL) ในผู้ป่วยคงที่"
+  },
+  "trap": "เห็นผู้ป่วยบาดเจ็บทรวงอกแล้วเลือก needle thoracostomy ทุกราย — needle ใช้กับ tension pneumothorax (วินิจฉัยทางคลินิก ไม่รอฟิล์ม) ส่วน CXR ที่ปอดขาวทั้งข้างคือเลือด ต้องใช้ ICD",
+  "summary": [
+   "Supine CXR ใน hemothorax: ไม่มี meniscus เพราะเลือดกระจายด้านหลัง → ปอดข้างนั้นขาวจางทั้งข้าง (เลือด 200–300 mL อาจมองไม่เห็น) · eFAST ช่วยวินิจฉัยได้เร็ว",
+   "Massive hemothorax (ATLS): เลือด ≥ 1,500 mL ทันที หรือ ≥ 1/3 ของ blood volume ร่วมกับ shock → ให้เลือด + ICD + เตรียม thoracotomy",
+   "ข้อบ่งชี้ thoracotomy: ≥ 1,500 mL ทันที · > 200 mL/ชม. 2–4 ชม. · ต้องให้เลือดต่อเนื่อง · hemodynamics ไม่ดีขึ้น",
+   "ICD: safe triangle (ICS 4–5, anterior ถึง mid-axillary line) เหนือขอบบนซี่โครงเพื่อเลี่ยงเส้นเลือดใต้ซี่โครง",
+   "Retained hemothorax หลังใส่ ICD → VATS ภายในราว 3–7 วัน ก่อนเป็นพังผืด/หนอง",
+   "Tension pneumothorax: needle decompression ผู้ใหญ่ที่ ICS 4–5 หน้าต่อ mid-axillary line (เด็กใช้ ICS 2 mid-clavicular) แล้วใส่ ICD"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง · ไฟล์ Key 77A อ่านภาพว่า massive pleural effusion/hemothorax และตอบ ICD อ้าง ATLS 11e (ผมไม่ได้เปิดดูภาพเอง) · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E · ในคีย์เขียนว่า \"trauma ใส่ ICD ทุกคน\" ซึ่งไม่จริงทั้งหมด — hemothorax/pneumothorax เล็กที่เห็นแค่ใน CT เฝ้าดูได้",
+  "variants": [
+   "ใส่ ICD รักษา hemothorax ไป 5 วัน CXR ยังมีเลือดค้างราว 1/3 ของช่องปอด → VATS เอาลิ่มเลือดออก",
+   "ผู้ป่วยบาดเจ็บ supine CXR เห็น costophrenic angle ข้างหนึ่งลึกและดำผิดปกติ (deep sulcus sign) → pneumothorax: ใส่ ICD",
+   "รถชนความเร็วสูง CXR mediastinum กว้าง > 8 cm ขอบ aortic knob ไม่ชัด → CTA chest หา blunt aortic injury"
+  ]
+ },
+ "MDCU77|RoA|Ped 1": {
+  "interp": "Thyroglossal duct cyst ติดเชื้อ ถามว่าเชื้อเข้ามาทางไหน → ต้องรู้ embryology ว่าท่อนี้เริ่มจาก foramen cecum ที่โคนลิ้นซึ่งเปิดเข้าช่องปาก",
+  "why": "ต่อมไทรอยด์เริ่มเจริญที่ foramen cecum (โคนลิ้น) แล้วเคลื่อนลงมาตามแนวกลางคอผ่านหน้า/ผ่าน hyoid bone ทิ้งเป็น thyroglossal duct ซึ่งปกติจะฝ่อไปราวสัปดาห์ที่ 8–10 · ถ้าท่อไม่ฝ่อจะเป็นถุงน้ำกลางคอ และท่อที่ค้างยังเชื่อมกับช่องปากทาง foramen cecum เชื้อจากช่องปากจึงขึ้นมาติดเชื้อในถุงได้ โดยเฉพาะหลังติดเชื้อทางเดินหายใจส่วนบน · ด้วยเหตุนี้การผ่าตัดจึงต้องเป็น <b>Sistrunk procedure</b>: ตัดถุง + ส่วนกลางของ hyoid + แกนเนื้อเยื่อตามท่อขึ้นไปถึงโคนลิ้น ถ้าตัดแค่ถุงจะเหลือท่อและเป็นซ้ำสูง",
+  "wrong": {
+   "A": "Tract ที่เปิดเข้า piriform sinus คือ 3rd/4th branchial pouch sinus (มักข้างซ้าย) ทำให้ฝีคอส่วนล่างหรือ suppurative thyroiditis ซ้ำ ๆ; จะถูกถ้าเด็กมีฝีที่คอซ้ายส่วนล่างติดกับต่อมไทรอยด์เป็นซ้ำหลายครั้ง",
+   "C": "Thyroglossal cyst ไม่ได้ติดเชื้อทางกระแสเลือดจากฟัน; การติดเชื้อจากฟันที่ไปทางกระแสเลือดจะถูกถ้าเด็กโรคหัวใจพิการแต่กำเนิดที่ฟันผุมากเป็น infective endocarditis หรือฝีในสมองจาก viridans streptococci",
+   "D": "Tract ที่เชื่อมกับรูหูชั้นนอกคือ 1st branchial cleft anomaly อยู่ใกล้ parotid และ facial nerve; จะถูกถ้าเด็กมีหนองไหลจากรูหูร่วมกับก้อนใต้ใบหู/มุมกรามที่อักเสบซ้ำ",
+   "E": "ต่อมน้ำเหลืองที่อักเสบจาก tonsillitis อยู่ด้านข้างคอ (jugulodigastric) ไม่ได้ลามเข้าถุงกลางคอ; จะถูกถ้าเด็กมีไข้ เจ็บคอ ต่อมทอนซิลบวม และต่อมน้ำเหลืองใต้มุมกรามโตกดเจ็บ"
+  },
+  "trap": "จำ tract ของ branchial anomalies (ข้างคอ: รูหู, tonsillar fossa, piriform sinus) ปนกับ thyroglossal (กลางคอ: foramen cecum) — ให้แยกจากตำแหน่งก้อนก่อนว่าอยู่กลางคอหรือข้างคอ",
+  "summary": [
+   "Thyroglossal duct cyst: ก้อนกลางคอที่พบบ่อยสุดในเด็ก มักอยู่ระดับ hyoid · ขยับขึ้นเมื่อแลบลิ้นหรือกลืน",
+   "ก่อนผ่าตัด: US คอยืนยันว่ามีต่อมไทรอยด์ปกติในตำแหน่ง — ถ้าก้อนเป็น ectopic thyroid ที่เป็นเนื้อไทรอยด์เดียว ตัดออกจะเกิด hypothyroidism",
+   "ติดเชื้อ: ให้ยาปฏิชีวนะครอบคลุมเชื้อในช่องปาก ถ้าเป็นฝีใช้เข็มดูดดีกว่าผ่าระบาย (ผ่าระบายทำให้เป็นซ้ำมากขึ้น) แล้วทำ Sistrunk หลังอักเสบสงบ",
+   "Sistrunk เป็นซ้ำราว 3–5% เทียบกับตัดถุงอย่างเดียวราว 30–50% · การติดเชื้อมาก่อนผ่าตัดเพิ่มโอกาสเป็นซ้ำ",
+   "มะเร็งในถุงพบราว 1% ส่วนใหญ่เป็น papillary carcinoma",
+   "Dermoid cyst ก็อยู่กลางคอได้ แต่ไม่ขยับตามการแลบลิ้น · branchial cleft cyst อยู่ข้างคอหน้า SCM (2nd cleft พบบ่อยสุด)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ไฟล์ Key 77A: thyroglossal duct ลงมาจาก foramen cecum) · ต้นฉบับมีช้อย 2 ตัวเป็นภาษาไทย เราแปลและเติม C–E เป็น tract ของ branchial anomalies และทางลามอื่น",
+  "variants": [
+   "เด็กมีก้อนกลางคอเหนือ thyroid cartilage ไม่ขยับเมื่อแลบลิ้น เจาะได้เนื้อคล้ายไขมันสีเหลือง → dermoid cyst: ตัดออกอย่างเดียว",
+   "เด็กเคยตัดถุง thyroglossal ออกอย่างเดียว ต่อมาก้อนเป็นซ้ำที่เดิม → Sistrunk procedure (ตัดกลาง hyoid + ท่อถึงโคนลิ้น)",
+   "ทารกกลืนลำบาก ส่องเห็นก้อนสีแดงที่โคนลิ้น US ไม่พบต่อมไทรอยด์ที่คอ → lingual thyroid: ตรวจ TSH/scan ก่อน อย่าตัดออก"
+  ]
+ },
+ "MDCU77|RoA|Ped 2": {
+  "interp": "ไฟล์คีย์อ่านภาพใบหน้าเด็กว่าเป็น Treacher Collins syndrome → ถามปัญหาที่พบร่วมและต้องคัดกรองตั้งแต่วัยทารก",
+  "why": "Treacher Collins syndrome (mandibulofacial dysostosis; ส่วนใหญ่ TCOF1, autosomal dominant ราว 60% เป็น de novo) เป็นความผิดปกติของ pharyngeal arch ที่ 1–2 สองข้างสมมาตร: ตาเฉียงลง, หนังตาล่างแหว่ง (coloboma), โหนกแก้มแบน, คางเล็ก, ใบหูผิดรูป · <b>conductive hearing loss</b> พบราวครึ่งหนึ่งจากรูหูตีบ/ตัน และกระดูกหูชั้นกลางผิดรูป จึงต้องตรวจการได้ยินตั้งแต่แรกเกิด (ABR) และให้เครื่องช่วยฟังแบบนำเสียงทางกระดูกตั้งแต่ไม่กี่เดือน เพื่อไม่ให้พัฒนาการพูดและภาษาช้า · สติปัญญาปกติ · ปัญหาเร่งด่วนอีกอย่างในวัยทารกคือทางเดินหายใจอุดกั้นจากคางเล็ก",
+  "wrong": {
+   "B": "Malocclusion (class II, open bite) พบจริงจากขากรรไกรล่างเล็ก แต่ไม่ใช่สิ่งที่ต้องคัดกรองในวัยทารก แก้ด้วยจัดฟันและผ่าตัดขากรรไกรเมื่อโต; จะถูกถ้าเป็นวัยรุ่น TCS ที่กระดูกหยุดโตแล้วมาวางแผนผ่าตัดขากรรไกร",
+   "C": "โรคหัวใจพิการแต่กำเนิดไม่ใช่ลักษณะของ TCS; จะถูกถ้าทารกมีเพดานโหว่ แคลเซียมต่ำ และหน้าตาแบบ 22q11 deletion (DiGeorge) ซึ่งต้องทำ echo หา conotruncal defect",
+   "D": "Hypothyroidism ไม่สัมพันธ์กับ TCS; จะถูกถ้าเป็นทารก Down syndrome ซึ่งต้องตรวจไทรอยด์ตอนแรกเกิด 6 เดือน 12 เดือน และทุกปี",
+   "E": "เด็ก TCS สติปัญญาปกติ — ที่ดูช้าเพราะหูไม่ได้ยินหรือหน้าตาทำให้ถูกเข้าใจผิด; จะถูกถ้าเด็กมีกะโหลกปิดก่อนกำหนดร่วมกับนิ้วมือนิ้วเท้าติดกัน (Apert syndrome) ซึ่งพบพัฒนาการช้าได้"
+  },
+  "trap": "เห็นใบหน้าผิดรูปแล้วนึกว่าต้องมีสติปัญญาบกพร่อง — TCS สติปัญญาปกติ สิ่งที่ทำให้พัฒนาการช้าคือการได้ยินที่ไม่ได้แก้ จึงต้องคัดกรองการได้ยินตั้งแต่แรกเกิด",
+  "summary": [
+   "ลักษณะ TCS (สองข้างสมมาตร): ตาเฉียงลง · หนังตาล่างแหว่ง ขนตาล่างด้านในหาย · zygoma/malar แบน · micrognathia · microtia/รูหูตีบ · เพดานโหว่ราว 1/3",
+   "ทางเดินหายใจ: คางเล็ก ลิ้นตกไปด้านหลัง → นอนคว่ำ/ตะแคง · ใส่ท่อทางจมูก · mandibular distraction หรือ tracheostomy ในรายรุนแรง",
+   "การได้ยิน: conductive ราวครึ่งหนึ่ง → ABR แรกเกิด + bone-conduction hearing aid ตั้งแต่เล็ก (ผ่าตัดเปิดรูหูมักได้ผลไม่ดี)",
+   "ตา: coloboma ทำให้กระจกตาแห้ง/แผล → น้ำตาเทียม ปิดตา ซ่อมหนังตา",
+   "แยกโรคคล้ายกัน: Pierre Robin sequence (micrognathia + glossoptosis + เพดานโหว่รูปตัว U) · hemifacial microsomia/Goldenhar (ข้างเดียว ไม่สมมาตร ± epibulbar dermoid, ความผิดปกติของกระดูกสันหลัง)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง–สูง · ไฟล์ Key 77A อ่านภาพว่า Treacher Collins แล้วตอบ hearing loss (ผมไม่ได้เปิดดูภาพเอง) · ต้นฉบับมีช้อย 2 ตัว เราปรับคำถามเป็นสิ่งที่ต้องคัดกรองในวัยทารกและเติม C–E ทำให้ hearing loss ชัดกว่า malocclusion",
+  "variants": [
+   "ทารกแรกเกิดคางเล็ก ลิ้นตกไปด้านหลัง เพดานโหว่รูปตัว U หายใจติดขัดตอนนอนหงาย → Pierre Robin sequence: จัดท่านอนคว่ำ/ตะแคงก่อน",
+   "เด็กมีใบหูเล็กข้างเดียว ขากรรไกรล่างข้างเดียวกันเล็ก และมีก้อนเนื้อขาวที่ขอบตาดำ → Goldenhar syndrome (oculo-auriculo-vertebral spectrum): ตรวจกระดูกสันหลังด้วย",
+   "เด็ก Treacher Collins มีหนังตาล่างแหว่ง ตาแดงระคายเคือง → ป้องกันกระจกตาด้วยน้ำตาเทียมก่อน แล้วซ่อมหนังตาภายหลัง"
+  ]
  }
 }
