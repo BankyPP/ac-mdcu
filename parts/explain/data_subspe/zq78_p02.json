@@ -1,0 +1,271 @@
+{
+ "MDCU78|RoD|Colorectal tumor 2": {
+  "opinion": "เห็นด้วยกับคีย์ A มั่นใจสูง — ไฟล์เฉลยอ้างตำราตรงประเด็น: มะเร็งฝั่งขวามาด้วย iron deficiency anemia จากเลือดออกเรื้อรังโดยไม่ค่อยเปลี่ยน bowel habit ส่วนฝั่งซ้ายมาด้วยอาการอุดตันและอุจจาระลำเล็ก; ช้อย C–E แต่งเพิ่มแต่ไม่มีตัวใดอธิบายน้ำหนักลด + FOBT บวก + ซีด ได้ครบ ในชีวิตจริงผู้ป่วยรายนี้ต้องได้ colonoscopy + EGD เสมอ"
+ },
+ "MDCU78|RoD|Colorectal tumor 4": {
+  "wrong": {
+   "B": "การเลื่อน colonoscopy ไปทำก่อนอายุ 60 ทำให้ผู้ป่วยเสียโอกาสคัดกรองไปอีกหลายปี ทั้งที่เลยเกณฑ์เริ่มต้น (45 ปี) มาแล้ว — จะถูกถ้าผู้ป่วยเคยทำ colonoscopy ปกติเมื่ออายุ 50 ปี ครั้งถัดไปจึงเป็นอายุ 60 ปี",
+   "C": "การรอให้มีอาการไม่ใช่การคัดกรอง — จุดประสงค์ของ screening คือหา adenoma หรือมะเร็งระยะต้นตอนที่ยังไม่มีอาการ; ถ้ามีอาการ (เลือดออก ซีด bowel habit เปลี่ยน) ถือเป็น diagnostic colonoscopy ไม่ใช่ screening — จะถูก (คือส่อง colonoscopy เพราะมีอาการ) ถ้าโจทย์ให้ผู้ป่วยมาด้วยถ่ายเป็นเลือด ซีดจากขาดธาตุเหล็ก หรือ bowel habit เปลี่ยน",
+   "D": "อายุ 75 ปีคือ<b>จุดสิ้นสุด</b>ของการคัดกรองแบบ routine ไม่ใช่จุดเริ่มต้น — จะถูกถ้าถามว่าควรหยุดคัดกรองเมื่อไรในคนที่ผลปกติมาตลอด",
+   "E": "CEA มี sensitivity และ specificity ต่ำในมะเร็งระยะต้น (สูงได้ในคนสูบบุหรี่ ตับอักเสบ) จึง<b>ไม่ใช้คัดกรอง</b> — ใช้ติดตามหลังรักษาและประเมิน prognosis; จะถูกถ้าถามการติดตามหลังผ่าตัดมะเร็งลำไส้ใหญ่"
+  }
+ },
+ "MDCU78|RoA|1": {
+  "interp": "Excisional biopsy ยืนยัน melanoma ที่แขน Breslow 2.5 mm = T3 (2.01–4.0 mm) ยังไม่มีข้อมูลการแพร่กระจาย — ถามขั้นต่อไปของการรักษา primary ซึ่งคือ wide local excision โดย margin กำหนดจากความหนา",
+  "why": "Wide local excision เป็นการรักษาหลักของ primary cutaneous melanoma และ margin ขึ้นกับ Breslow thickness (NCCN Melanoma 2024): in situ 0.5–1 cm · ≤1.0 mm 1 cm · 1.01–2.0 mm 1–2 cm · >2.0 mm 2 cm — ความหนา 2.5 mm จึงต้อง <b>margin 2 cm</b> ตัดลึกถึงชั้น muscle fascia (ไม่ต้องเอา fascia) · margin ที่กว้างกว่า 2 cm ไม่เพิ่ม survival · ในชีวิตจริงต้องทำ <b>sentinel lymph node biopsy</b> ในการผ่าตัดเดียวกัน (แนะนำเมื่อ >0.8 mm หรือ T1b ขึ้นไป) เพื่อ staging และเลือกผู้ป่วยที่ได้ adjuvant therapy — แต่ไม่มีในช้อย",
+  "wrong": {
+   "B": "Margin 1 cm ใช้กับ melanoma ≤1.0 mm (T1) และเลือกได้ในช่วง 1.01–2.0 mm (T2) เมื่อตำแหน่งทำให้ตัดกว้างยาก — ที่ 2.5 mm margin 1 cm แคบเกิน เพิ่ม local recurrence; จะถูกถ้าโจทย์ให้ Breslow 0.6–1.0 mm",
+   "C": "Chemotherapy แบบเดิม (dacarbazine) ตอบสนองต่ำและไม่ใช้รักษา localized melanoma แล้ว; systemic therapy ปัจจุบันคือ anti-PD-1 หรือ BRAF/MEK inhibitor ซึ่งให้แบบ adjuvant หลังผ่าตัดใน stage IIB–III หรือรักษา stage IV — จะถูก (ในความหมาย systemic therapy) ถ้าโจทย์เป็น melanoma ที่แพร่กระจายไปปอดหรือตับและผ่าตัดไม่ได้",
+   "D": "Melanoma ค่อนข้าง radioresistant จึงไม่ใช้ RT เป็นการรักษาหลักของ primary; ใช้เสริมใน desmoplastic melanoma ที่ margin แคบ, หลังเลาะต่อมน้ำเหลืองที่เสี่ยงกลับเป็นซ้ำสูงบางราย หรือ palliative (brain/bone metastasis) — จะถูกถ้าโจทย์เป็น brain metastasis จาก melanoma ที่ต้องทำ stereotactic radiosurgery",
+   "E": "Mohs micrographic surgery ใช้กับ melanoma in situ ชนิด lentigo maligna บนใบหน้าที่ต้องประหยัดเนื้อเยื่อ (และนิยมใน BCC/SCC) — ไม่ใช่มาตรฐานของ invasive melanoma 2.5 mm ที่แขนซึ่งตัด 2 cm ได้ไม่ยาก; จะถูกถ้าโจทย์เป็น lentigo maligna ที่จมูกหรือแก้ม"
+  },
+  "trap": "จำ margin สลับกัน — จุดตัดคือความหนา: ≤1 mm → 1 cm, 1–2 mm → 1–2 cm, >2 mm → 2 cm (ไม่มีกรณีใดเกิน 2 cm) · และอย่าลืมว่า SLNB เป็นส่วนหนึ่งของการผ่าตัดเมื่อ >0.8 mm แม้ช้อยจะไม่มี",
+  "summary": [
+   "Breslow thickness = ปัจจัยพยากรณ์สำคัญที่สุดของ primary melanoma และกำหนด T stage (AJCC 8): T1 ≤1.0 · T2 1.01–2.0 · T3 2.01–4.0 · T4 >4.0 mm · a/b ตาม ulceration",
+   "Biopsy ที่ดีที่สุดเมื่อสงสัย melanoma = excisional biopsy margin 1–3 mm ตามแนวแขนขา เพื่อวัดความหนาได้ครบ (ห้าม shave ตื้น)",
+   "Wide local excision margin: in situ 0.5–1 cm · ≤1 mm 1 cm · 1–2 mm 1–2 cm · >2 mm 2 cm ลึกถึง fascia",
+   "SLNB เมื่อ >0.8 mm หรือมี ulceration (T1b ขึ้นไป); SLN บวก → ปัจจุบันติดตามด้วย ultrasound แทน completion lymph node dissection (MSLT-II, DeCOG-SLT)",
+   "Adjuvant: anti-PD-1 (pembrolizumab, nivolumab) ใน stage IIB–IV ที่ผ่าตัดหมด · dabrafenib + trametinib ใน stage III ที่มี BRAF V600",
+   "ABCDE: Asymmetry, Border ไม่เรียบ, Color หลายสี, Diameter >6 mm, Evolving — ชนิดที่พบบ่อยในคนเอเชียคือ acral lentiginous (ฝ่ามือ ฝ่าเท้า ใต้เล็บ)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 78A ให้เหตุผลว่า wide excision ตาม Breslow ซึ่งตรงกับ NCCN; ในชีวิตจริงต้องทำ SLNB ร่วมด้วย แต่ไม่มีในช้อย จึงยังเป็นคำตอบที่ดีที่สุด",
+  "variants": [
+   "ชาย 45 ปี melanoma ที่หลัง Breslow 0.6 mm ไม่มี ulceration หลัง excisional biopsy → wide local excision margin 1 cm (ไม่ต้องทำ SLNB)",
+   "หญิง 50 ปี melanoma ที่ต้นขา Breslow 4.5 mm มี ulceration คลำต่อมน้ำเหลืองขาหนีบไม่ได้ → wide excision margin 2 cm + sentinel lymph node biopsy",
+   "ชาย 60 ปี ก้อนดำใต้เล็บหัวแม่เท้า แถบดำลามถึงผิวรอบเล็บ (Hutchinson sign) → acral lentiginous melanoma ทำ biopsy ของ nail matrix",
+   "หลังผ่าตัด melanoma stage IIIB ที่ตัดหมดแล้ว → adjuvant anti-PD-1 1 ปี (หรือ BRAF/MEK inhibitor ถ้ามี BRAF V600)"
+  ]
+ },
+ "MDCU78|RoA|2": {
+  "interp": "ผู้ใหญ่ 50 kg ไหม้ระดับสองจากน้ำมันร้อน คิด TBSA ด้วย Rule of 9: แขนขวาทั้งแขน 9% + ลำตัวหน้า 18% + ลำตัวหลัง 18% = 45% · ได้ Ringer's lactate มาแล้ว 500 mL ใน 3 ชม.แรก — ถามอัตราที่ต้องให้ในอีก 5 ชม.ที่เหลือของ 8 ชม.แรกตาม Parkland",
+  "why": "Parkland = 4 mL × น้ำหนัก (kg) × %TBSA (นับเฉพาะ partial และ full thickness) = 4 × 50 × 45 = 9,000 mL ใน 24 ชม. · ครึ่งแรก 4,500 mL ให้ภายใน 8 ชม.แรก<b>นับจากเวลาที่ถูกไหม้</b> ไม่ใช่เวลาที่มาถึง · หักที่ได้ไปแล้ว 500 mL → เหลือ 4,000 mL · เวลาที่เหลือ 8 − 3 = 5 ชม. → <b>800 mL/ชม.</b> · อีก 4,500 mL ให้ใน 16 ชม.ถัดไป · สูตรเป็นแค่จุดเริ่ม แล้วปรับตาม urine output เป้า 0.5 mL/kg/ชม. (≈ 25–50 mL/ชม. ในรายนี้)",
+  "wrong": {
+   "A": "500 mL/ชม. ได้จากการเอา 4,000 mL หาร 8 ชม.เต็ม คือลืมว่าเสียเวลาไป 3 ชม.แล้ว → ให้น้อยไป เสี่ยง burn shock และไตวาย; จะถูกถ้าผู้ป่วยรายเดียวกันมาถึง รพ.ทันทีหลังเกิดเหตุและได้น้ำมาแล้ว 500 mL (4,000 ÷ 8)",
+   "C": "1,000 mL/ชม. มากกว่าที่สูตรกำหนด 25% ในรายนี้; จะถูกถ้าผู้ป่วยรายเดียวกันมาถึงช้ากว่านี้คือ 4 ชม.หลังเกิดเหตุ (4,000 ÷ 4 ชม.ที่เหลือ)",
+   "D": "1,200 mL/ชม. ไม่ตรงกับการคำนวณที่ถูกของโจทย์นี้ ให้เกินราว 50% — ไม่มีสถานการณ์ใดในผู้ป่วยรายนี้ที่สูตรให้ค่านี้ และให้มากเกินเสี่ยง fluid creep",
+   "E": "1,500 mL/ชม. ได้จากการหาร 4,500 ด้วย 3 ชม.ที่ผ่านไปแล้วและไม่หักน้ำที่ได้ — มากเกินเกือบเท่าตัว เสี่ยง abdominal compartment syndrome และ pulmonary edema; ไม่มีสถานการณ์ใดในโจทย์นี้ที่ถูก"
+  },
+  "trap": "ลืมว่า 8 ชม.แรกนับจากเวลาเกิดแผล — ต้องหักทั้งเวลาเดินทางและปริมาณน้ำที่ได้มาแล้ว · นับ second degree ทั้งหมดใน TBSA แต่ไม่นับ first degree · ถ้าใช้สูตร ATLS ปัจจุบัน (2 mL/kg/%TBSA) จะได้ 350 mL/ชม. ซึ่งไม่มีในช้อย แสดงว่าโจทย์ต้องการ Parkland 4 mL",
+  "summary": [
+   "Rule of 9 ผู้ใหญ่: ศีรษะคอ 9 · แขนข้างละ 9 · ลำตัวหน้า 18 · ลำตัวหลัง 18 · ขาข้างละ 18 · perineum 1 · ฝ่ามือผู้ป่วยรวมนิ้ว ≈ 1% · เด็กใช้ Lund–Browder (ศีรษะใหญ่กว่า)",
+   "ให้ IV resuscitation เมื่อ partial/full thickness ≥ 20% TBSA ในผู้ใหญ่ หรือ ≥ 10–15% ในเด็ก",
+   "Parkland 4 mL/kg/%TBSA ใน 24 ชม. ครึ่งแรกใน 8 ชม.แรกนับจากเวลาไหม้ · ATLS/ABA ปัจจุบันเริ่มที่ 2 mL/kg/% ในผู้ใหญ่ thermal burn, 3 mL ในเด็ก, 4 mL ใน electrical burn",
+   "ใช้ Ringer's lactate (เด็กเล็กเพิ่ม maintenance ที่มี dextrose) · titrate ตาม urine output: ผู้ใหญ่ 0.5 mL/kg/ชม. · เด็ก < 30 kg 1 mL/kg/ชม. · high-voltage electrical ที่ปัสสาวะสีเข้ม 1–1.5 mL/kg/ชม.",
+   "ให้มากเกิน (fluid creep) → abdominal/extremity compartment syndrome, pulmonary edema · ให้น้อย → burn shock, AKI",
+   "ส่งต่อ burn center (ABA 2022): partial thickness ≥ 10%, full thickness ทุกขนาด, ใบหน้า มือ เท้า อวัยวะเพศ ข้อใหญ่, electrical ≥ 1,000 V, chemical, inhalation injury"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — วิธีคิดในไฟล์ Key 78A (9+18+18 ×4 ×50 ÷2 = 4,500 → หัก 500 → ÷5 = 800) ตรงกับ Parkland พอดี; ถ้าใช้สูตร ATLS ปัจจุบันที่เริ่ม 2 mL/kg/% จะได้ 350 mL/ชม. ซึ่งไม่มีในช้อย จึงชัดว่าข้อสอบใช้ Parkland",
+  "variants": [
+   "ชาย 70 kg ไหม้ partial thickness 30% มาถึง รพ. 2 ชม.หลังเกิดเหตุ ยังไม่ได้น้ำ ใช้ Parkland → 4,200 mL ใน 6 ชม. = 700 mL/ชม.",
+   "ระหว่าง resuscitate ผู้ป่วยไฟไหม้ 60 kg urine output 15 mL/ชม. → เพิ่มอัตราสารน้ำ 20–30% (เป้า 30 mL/ชม.) ไม่ให้ furosemide",
+   "ชายถูกไฟฟ้าแรงสูงช็อต ปัสสาวะสีโค้ก → เพิ่มสารน้ำให้ urine output 1–1.5 mL/kg/ชม. จนปัสสาวะใส (myoglobinuria)"
+  ]
+ },
+ "MDCU78|RoA|3": {
+  "interp": "ผู้สูงอายุมี triad ที่ค่อย ๆ แย่ลงใน 6 เดือน คือเดินผิดปกติ + ปัสสาวะกลั้นไม่อยู่ + ความจำ/ความคิดถดถอย ร่วมกับ MRI ที่ ventricles โตไม่สมส่วนกับ sulci → normal pressure hydrocephalus; ถามการวินิจฉัย",
+  "why": "Normal pressure hydrocephalus (Hakim triad \"wet, wobbly, wacky\") เป็น communicating hydrocephalus ในผู้สูงอายุ ความดัน CSF ปกติหรือสูงเล็กน้อย · อาการที่<b>มาก่อนและเด่นที่สุดคือการเดิน</b>: magnetic gait (ก้าวสั้น เท้าติดพื้น ฐานกว้าง หมุนตัวลำบาก) ตามด้วย urinary urgency/incontinence และ dementia แบบ subcortical (ช้า สมาธิและ executive function เสีย) · MRI: ventriculomegaly (Evans index > 0.3) ไม่สมส่วนกับ sulci, DESH (sulci ที่ convexity ด้านบนแคบ แต่ Sylvian fissure กว้าง), callosal angle แคบ · ยืนยันด้วย CSF tap test (ระบาย 30–50 mL) หรือ extended lumbar drainage แล้วดูการเดินดีขึ้น → รักษาด้วย VP shunt (programmable valve) — เป็น dementia ที่แก้ไขได้",
+  "wrong": {
+   "A": "Alzheimer disease เริ่มด้วย episodic memory loss เด่น การเดินและปัสสาวะผิดปกติมาในระยะท้าย MRI เห็น hippocampal/medial temporal atrophy และ ventricles โตตามสัดส่วนของ sulci ที่กว้าง (ex vacuo) — จะถูกถ้าโจทย์ให้ลืมเรื่องใหม่เด่นมาหลายปี เดินปกติ และ MRI มี hippocampal atrophy",
+   "B": "Vascular dementia มี vascular risk factors อาการแย่ลงเป็นขั้น (stepwise) และ focal neurological signs MRI เห็น infarcts หลายตำแหน่งหรือ white matter disease กว้าง; อาจมี gait ผิดปกติได้แต่ ventricles ไม่โตไม่สมส่วน — จะถูกถ้าโจทย์ให้ประวัติ stroke หลายครั้งและ MRI มี multiple lacunar infarcts",
+   "C": "Parkinson disease มี resting tremor, rigidity, bradykinesia ไม่สมมาตร ตอบสนองต่อ levodopa; dementia มาช้าหลายปี และ MRI ปกติ — จะถูกถ้าโจทย์ให้มือสั่นขณะพักข้างเดียว แข็งเกร็ง และดีขึ้นด้วย levodopa",
+   "E": "Suprapontine urinary dysfunction เป็นแค่กลไกของ urge incontinence (detrusor overactivity) จากรอยโรคเหนือ pons ไม่ใช่การวินิจฉัยที่อธิบาย triad และภาพ MRI — จะถูกถ้าโจทย์ถามชนิดของ bladder dysfunction หลัง stroke หรือใน NPH"
+  },
+  "trap": "เห็น dementia ในผู้สูงอายุแล้วตอบ Alzheimer — ต้องดูว่าอะไรมาก่อน: ถ้าการเดินผิดปกติเด่นและมาก่อนความจำ ร่วมกับปัสสาวะกลั้นไม่อยู่ ให้นึกถึง NPH ซึ่งเป็น dementia ที่ผ่าตัดแก้ได้ · ventricles โตใน Alzheimer เป็นแบบ ex vacuo (sulci กว้างด้วย) ส่วน NPH ventricles โตไม่สมส่วนกับ sulci",
+  "summary": [
+   "NPH triad: gait (มาก่อน เด่นสุด และตอบสนองต่อ shunt ดีที่สุด) → urinary urgency/incontinence → cognitive แบบ subcortical (ตอบสนองต่อ shunt น้อยสุด)",
+   "สาเหตุ: idiopathic ในผู้สูงอายุ หรือ secondary หลัง SAH, meningitis, head injury (มักอายุน้อยกว่าและตอบสนองต่อ shunt ดีกว่า)",
+   "Imaging: Evans index > 0.3, ventricles โตไม่สมส่วนกับ sulci, DESH, callosal angle < 90°, periventricular hyperintensity",
+   "ยืนยัน/ทำนายผล shunt: CSF tap test 30–50 mL หรือ extended lumbar drainage 2–3 วัน ดูการเดินดีขึ้น (เช่น timed up-and-go)",
+   "รักษา: VP shunt (programmable valve) หรือ lumboperitoneal shunt · ภาวะแทรกซ้อน: over-drainage/subdural hematoma, shunt infection, shunt obstruction",
+   "แยกจาก Alzheimer (memory เด่น, hippocampal atrophy) · vascular dementia (stepwise, infarcts) · Parkinson (tremor, ดีขึ้นด้วย levodopa)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — triad ครบและค่อย ๆ เป็นใน 6 เดือน ร่วมกับ MRI ในไฟล์ที่เห็น ventricles โต เป็นภาพคลาสสิกของ NPH; ไฟล์ Key 78A ตอบ D โดยไม่มีเหตุผล แต่ไม่มีช้อยอื่นอธิบายได้ครบ",
+  "variants": [
+   "ชาย 72 ปี สงสัย NPH จะทำนายว่าผ่าตัด shunt แล้วดีขึ้นหรือไม่ด้วยการตรวจใด → CSF tap test 30–50 mL แล้วดูการเดินดีขึ้น",
+   "อาการใดของ NPH ตอบสนองต่อ VP shunt ดีที่สุด → การเดินผิดปกติ (gait)",
+   "หญิง 68 ปี หลัง VP shunt 3 สัปดาห์ ปวดศีรษะมากขึ้นเวลานั่ง CT พบ bilateral subdural hematoma บาง ๆ → over-drainage ปรับ valve ให้ระบายน้อยลง",
+   "หญิง 75 ปี ลืมเรื่องใหม่ 3 ปี เดินปกติ MRI มี hippocampal atrophy ventricles โตพร้อม sulci กว้าง → Alzheimer disease"
+  ]
+ },
+ "MDCU78|RoA|4": {
+  "interp": "ชายอายุน้อยเพิ่งรักษาวัณโรคปอดครบ ไอเป็นเลือดจำนวนมากทันที หายใจเร็ว 24/min แต่ความดันยังดี → massive hemoptysis จากรอยโรคหลัง TB; ถาม initial management — ผู้ป่วย massive hemoptysis เสียชีวิตจากสำลักเลือด (asphyxia) มากกว่าเสียเลือด",
+  "why": "หลักการ massive hemoptysis เรียงตามลำดับ: (1) <b>ABC — protect airway + oxygen</b>: นอนตะแคงให้ข้างที่เลือดออกอยู่ด้านล่าง (bleeding side down) เพื่อไม่ให้เลือดไหลเข้าปอดข้างดี ถ้าหายใจไม่พอหรือเลือดออกต่อเนื่องใส่ ET tube ขนาดใหญ่ (≥ 8) เพื่อให้ส่อง bronchoscope และดูดเลือดได้ หรือใส่เข้าหลอดลมข้างดี เปิด IV ส่ง CBC, coagulation, G/M แก้ coagulopathy · (2) หาตำแหน่ง: CXR, CTA chest (เห็นทั้งรอยโรคและ bronchial arteries) ± bronchoscopy · (3) หยุดเลือด: bronchial artery embolization เป็น definitive ลำดับแรก · (4) ผ่าตัดเมื่อ BAE ล้มเหลวหรือรอยโรคเฉพาะที่ เช่น aspergilloma — ผู้ป่วยรายนี้ยัง stable จึงเริ่มที่ airway และ O2 ก่อนส่งตรวจอื่น",
+  "wrong": {
+   "A": "Antibiotics ใช้เมื่อมีการติดเชื้อร่วม เช่น bronchiectasis กำเริบ แต่ไม่หยุดเลือดและไม่ใช่สิ่งแรกเมื่อทางเดินหายใจกำลังถูกคุกคาม — จะถูกถ้าโจทย์เป็นไอมีเลือดปนเสมหะเล็กน้อย ร่วมกับไข้และเสมหะเป็นหนองในผู้ป่วย bronchiectasis",
+   "C": "Bronchoscopy ใช้หาตำแหน่งและหยุดเลือดเฉพาะที่ (cold saline, epinephrine, balloon tamponade) แต่ทำหลังจาก airway ปลอดภัยแล้ว และมักทำผ่าน ET tube — จะถูกถ้าผู้ป่วยใส่ท่อช่วยหายใจแล้ว ยังไม่รู้ว่าเลือดออกจากปอดข้างไหน",
+   "D": "Bronchial artery embolization เป็น definitive treatment ที่ใช้บ่อยที่สุด (หยุดเลือดได้ทันทีราว 70–90%) แต่ทำหลัง stabilize airway และหาตำแหน่งแล้ว — จะถูกถ้าโจทย์ถามการรักษาเพื่อหยุดเลือดหลังใส่ท่อช่วยหายใจและ CTA พบ bronchial artery ขยายใหญ่",
+   "E": "Emergency lobectomy ขณะเลือดออกมี mortality สูง สงวนไว้เมื่อ BAE ล้มเหลวหรือทำไม่ได้ หรือรอยโรคเฉพาะที่ที่ BAE คุมได้ไม่ดี — จะถูกถ้าโจทย์เป็น aspergilloma ในโพรง TB เก่าที่เลือดออกซ้ำหลัง BAE และสมรรถภาพปอดพอ"
+  },
+  "trap": "เห็นประวัติ TB แล้วรีบเลือกยา หรือเห็นว่า BAE คือการรักษาที่ได้ผลแล้วเลือกเลย — โจทย์ถาม initial management ซึ่งคือ airway และ O2 เสมอ เพราะคนไข้เสียชีวิตจากสำลักเลือด (เลือดเพียง 100–200 mL ก็เต็ม dead space ของหลอดลมได้)",
+  "summary": [
+   "Massive hemoptysis: นิยามตามปริมาณหลากหลาย (≥ 100–600 mL/24 ชม.) ที่สำคัญคือ life-threatening = ทางเดินหายใจถูกคุกคาม หรือ hemodynamic ไม่ stable",
+   "เลือดส่วนใหญ่ (~90%) มาจาก bronchial arteries (ความดันระบบ) ไม่ใช่ pulmonary artery",
+   "สาเหตุบ่อย: bronchiectasis, TB และรอยโรคหลัง TB (Rasmussen aneurysm, cavity), aspergilloma, lung cancer",
+   "ขั้นที่ 1: airway + O2, bleeding side down, ET tube ขนาดใหญ่หรือ selective intubation ข้างดี, IV + G/M, แก้ coagulopathy, อาจให้ tranexamic acid",
+   "ขั้นที่ 2: หาตำแหน่งด้วย CXR + CTA chest ± bronchoscopy",
+   "ขั้นที่ 3: BAE (เลือดออกซ้ำได้ 10–30%) → ผ่าตัดถ้า BAE ล้มเหลว หรือ aspergilloma/รอยโรคเฉพาะที่"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — โจทย์ถาม initial management ของ massive hemoptysis ซึ่งคือ airway และ O2; ต้นฉบับมีช้อยแค่ 3 ตัว (A–C) การเติม BAE และ lobectomy ไม่เปลี่ยนคำตอบเพราะทั้งสองเป็นขั้นหลังจาก stabilize แล้ว",
+  "variants": [
+   "ผู้ป่วย aspergilloma ไอเลือดมาก ใส่ท่อช่วยหายใจแล้ว CTA พบ right bronchial artery ขยายใหญ่ → bronchial artery embolization",
+   "ผู้ป่วยไอเลือดมากจากปอดซ้าย รอส่องกล้อง ควรจัดท่าใด → นอนตะแคงซ้ายลง (ข้างที่เลือดออกอยู่ล่าง)",
+   "หลัง BAE 2 วัน ผู้ป่วยขาอ่อนแรงทั้งสองข้างและชาระดับอก → spinal cord ischemia จาก embolization เข้า anterior spinal artery",
+   "ชาย 40 ปี ไอเลือดปนเสมหะเล็กน้อย 1 สัปดาห์ สัญญาณชีพปกติ → CXR และ CT chest หาสาเหตุแบบผู้ป่วยนอก ไม่ต้องใส่ท่อ"
+  ]
+ },
+ "MDCU78|RoA|5": {
+  "interp": "ชายสูงอายุเจ็บหน้าอก ภาพ coronary angiogram ในไฟล์เป็น left coronary ที่เห็นรอยตีบใน LAD — ถาม regional wall motion abnormality บน echocardiogram ที่ตรงกับ territory ของหลอดเลือดที่ตีบ",
+  "why": "Echo จะเห็นผนังส่วนที่ขาดเลือดบีบตัวลดลง (hypokinesia) ตาม territory ของหลอดเลือด: <b>LAD</b> เลี้ยง anterior wall, anterior 2/3 ของ interventricular septum (ผ่าน septal perforators) และ <b>apex</b> (LAD มักวนรอบ apex) · LCx เลี้ยง lateral/posterolateral wall · RCA (right dominant ~85%) เลี้ยง inferior wall, inferior 1/3 ของ septum (ผ่าน PDA) และ RV — ไฟล์ Key 78A ให้เหตุผลว่า \"LAD ตีบ = เลี้ยง anterior wall, septum, apex\" ช้อยที่ครอบคลุม territory ของ LAD ได้ครบที่สุดคือ anterior septum และ apex · ECG ที่สอดคล้องคือ ST/Q ใน V1–V4",
+  "wrong": {
+   "A": "Lateral wall เป็น territory ของ LCx (obtuse marginal) หรือ diagonal branch ของ LAD (ECG I, aVL, V5–V6) — จะถูกถ้า angiogram แสดงรอยตีบที่ LCx หรือ obtuse marginal",
+   "B": "Anterior wall อยู่ใน territory ของ LAD จริงแต่<b>ไม่ครบ</b> — LAD ที่ตีบส่วนต้นทำให้ septum และ apex ผิดปกติด้วย ช้อย C จึงตรงกว่า; จะถูกถ้ารอยตีบอยู่ที่ diagonal branch ซึ่งเลี้ยงเฉพาะ anterolateral wall",
+   "D": "Inferior wall เป็น territory ของ RCA (หรือ LCx ใน left dominant) ECG II, III, aVF — จะถูกถ้า angiogram แสดง RCA อุดตัน",
+   "E": "Inferior (posterior) 1/3 ของ septum เลี้ยงโดย posterior descending artery ซึ่งมาจาก RCA ใน right dominant — จะถูกถ้ารอยโรคอยู่ที่ RCA ส่วนปลายหรือ PDA"
+  },
+  "trap": "ช้อย B กับ C ใกล้กัน — B ถูกครึ่งเดียว ข้อสอบต้องการ septum + apex ซึ่งเป็นลักษณะเฉพาะของ LAD · และอย่าสับ septum ส่วนหน้า (LAD) กับส่วนล่าง (RCA ผ่าน PDA)",
+  "summary": [
+   "LAD: anterior wall, anterior 2/3 septum, apex · ECG V1–V4 (septal V1–V2, anterior V3–V4) · proximal LAD occlusion = widow-maker",
+   "LCx: lateral/posterolateral wall · ECG I, aVL, V5–V6 · posterior MI เห็น ST depression V1–V3 (ยืนยันด้วย V7–V9)",
+   "RCA (right dominant ~85%): inferior wall, inferior 1/3 septum, RV, SA node (~60%), AV node (~90%) · ECG II, III, aVF; RV infarct ดู V4R · ระวัง bradycardia/AV block",
+   "Dominance กำหนดจากว่า PDA มาจาก RCA หรือ LCx",
+   "Echo: regional wall motion abnormality บอก territory ของหลอดเลือดที่ตีบ และใช้ดูภาวะแทรกซ้อน (LV thrombus ที่ apex, VSD, papillary muscle rupture)",
+   "CABG: LIMA → LAD เป็น graft มาตรฐาน (patency > 90% ที่ 10 ปี) ดีกว่า saphenous vein graft"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจปานกลาง-สูง — ภาพในไฟล์เป็นรูปประกอบ (มีลายน้ำ) ที่เห็น LAD เด่น และคีย์ให้เหตุผลชัดว่า LAD เลี้ยง anterior wall, septum และ apex; ช้อย B ไม่ผิดแต่ไม่ครบ ความไม่แน่นอนอยู่ที่ภาพซึ่งไม่ใช่ภาพจริงของข้อสอบ",
+  "variants": [
+   "ผู้ป่วยเจ็บหน้าอก ECG มี ST elevation ใน II, III, aVF → RCA อุดตัน (inferior wall MI)",
+   "Echo พบ lateral wall hypokinesia ECG ST elevation ใน I, aVL, V5–V6 → LCx",
+   "ผู้ป่วย inferior MI ความดันต่ำ JVP สูง ปอดใส → RV infarction ตรวจ V4R ให้สารน้ำ หลีกเลี่ยง nitrate",
+   "หลัง anterior MI จาก LAD 2 สัปดาห์ echo พบก้อนใน LV apex → LV thrombus ให้ anticoagulant"
+  ]
+ },
+ "MDCU78|RoA|6": {
+  "interp": "ทารก 1 เดือนเหลืองตั้งแต่ 2 สัปดาห์ อุจจาระซีด direct hyperbilirubinemia ultrasound เห็น gallbladder เล็กไม่บีบตัว triangular cord sign ท่อน้ำดีไม่ขยาย และ intraoperative cholangiogram ยืนยัน → biliary atresia; ถามการรักษา",
+  "why": "Biliary atresia เป็น progressive obliterative cholangiopathy ของท่อน้ำดีนอกตับ ถ้าไม่รักษาเกิด biliary cirrhosis และเสียชีวิตใน 2 ปี · การรักษาแรกคือ <b>Kasai hepatoportoenterostomy</b>: ตัด fibrous remnant ที่ porta hepatis ออกจนเห็นท่อน้ำดีเล็ก ๆ ที่ยังเปิด แล้วต่อ Roux-en-Y jejunal limb เข้ากับ porta hepatis ให้น้ำดีไหลลงลำไส้ · ผลดีที่สุดเมื่อทำ<b>ก่อนอายุ 60 วัน</b> (ยิ่งเร็วยิ่งดี) ทารก 1 เดือนรายนี้จึงเหมาะที่สุด · หลังผ่าตัดราวครึ่งหนึ่งตัวเหลืองหาย แต่ส่วนใหญ่ยังต้องเปลี่ยนตับในที่สุด · liver transplantation ใช้เมื่อ Kasai ล้มเหลวหรือมาช้าจน decompensated cirrhosis",
+  "wrong": {
+   "B": "Primary liver transplantation (ไม่ทำ Kasai ก่อน) ใช้เมื่อมาช้ามาก (มักอายุ > 100–120 วัน) พร้อม cirrhosis และ decompensation หรือหลัง Kasai ล้มเหลว — ไม่ใช่ทารก 1 เดือนที่ยังทำ Kasai ได้; จะถูกถ้าโจทย์เป็นเด็ก 5 เดือน มีน้ำในท้อง ม้ามโต และ cirrhosis แล้ว",
+   "C": "UDCA และ phenobarbital เป็นยาช่วยการไหลของน้ำดี ไม่แก้ท่อน้ำดีที่อุดตัน ใช้เป็นยาเสริมหลัง Kasai (ร่วมกับ fat-soluble vitamins และยาปฏิชีวนะป้องกัน cholangitis) — จะถูกถ้าโจทย์ถามการดูแลหลังผ่าตัด Kasai",
+   "D": "Cholecystectomy ไม่ช่วย เพราะปัญหาคือท่อน้ำดีนอกตับทั้งระบบถูกปิดด้วย fibrous tissue ไม่ใช่ที่ gallbladder — ไม่มีสถานการณ์ใดที่ cholecystectomy เป็นการรักษา biliary atresia",
+   "E": "Cyst excision + Roux-en-Y hepaticojejunostomy เป็นการรักษา choledochal cyst ซึ่ง ultrasound จะเห็น cystic dilatation ของ common bile duct (ตรงข้ามกับรายนี้ที่ท่อไม่ขยาย) — จะถูกถ้าโจทย์ให้ทารกเหลืองและ US พบถุงน้ำที่ CBD"
+  },
+  "trap": "ทารกเหลืองเกิน 2 สัปดาห์ถือว่าไม่ใช่ physiologic jaundice ต้องตรวจ direct bilirubin เสมอ และดูสีอุจจาระ — biliary atresia ต้องผ่าก่อน 60 วัน การรอดูหรือให้ยาไปก่อนทำให้เสียโอกาส · แยกจาก choledochal cyst ด้วย ultrasound (ท่อขยายเป็นถุง vs ท่อไม่ขยาย + triangular cord)",
+  "summary": [
+   "ทารกเหลืองนานกว่า 14 วัน (term) → ตรวจ total และ direct bilirubin; cholestasis = direct bilirubin > 1.0 mg/dL (NASPGHAN/ESPGHAN 2017)",
+   "Biliary atresia: อุจจาระสีซีด (ใช้ stool color card), ปัสสาวะสีเข้ม, ตับโต · เด็กมักดูแข็งแรงดีในช่วงแรก",
+   "Ultrasound: gallbladder เล็กหรือไม่มี/ไม่บีบตัว, triangular cord sign, ท่อน้ำดีไม่ขยาย · hepatobiliary scintigraphy: uptake ดีแต่ไม่มี excretion ลงลำไส้ · ยืนยันด้วย intraoperative cholangiogram",
+   "Kasai portoenterostomy ให้ผลดีที่สุดก่อน 60 วัน · ภาวะแทรกซ้อนหลังผ่าตัด: cholangitis (บ่อยสุด ไข้ + เหลืองซ้ำ), portal hypertension, ขาด fat-soluble vitamins",
+   "Biliary atresia เป็นข้อบ่งชี้ liver transplantation ในเด็กที่พบบ่อยที่สุด",
+   "Choledochal cyst: ปวดท้อง + เหลือง + ก้อน · US เห็น CBD ขยายเป็นถุง · รักษาด้วย cyst excision + Roux-en-Y hepaticojejunostomy (เสี่ยงมะเร็งถ้าทิ้งไว้)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ต้นฉบับจดผล ultrasound ไม่ได้และมีช้อยแค่ Kasai เราเติมผลตรวจให้ชัดว่าเป็น biliary atresia ที่ยืนยันแล้ว; ในข้อสอบจริงอาจถามขั้นต่อไปเป็น intraoperative cholangiogram ก็ได้ แต่เมื่อยืนยันแล้ว Kasai เป็นคำตอบเดียว",
+  "variants": [
+   "ทารก 6 สัปดาห์ อุจจาระซีด direct bilirubin 4 mg/dL US พบ triangular cord sign การตรวจใดยืนยันการวินิจฉัย → intraoperative cholangiogram",
+   "เด็ก 4 เดือนหลัง Kasai มีไข้ ตัวเหลืองขึ้นอีก อุจจาระซีดลง → ascending cholangitis ให้ยาปฏิชีวนะทางหลอดเลือด",
+   "ทารก 3 สัปดาห์ เหลือง อุจจาระสีปกติ กินนมแม่ total bilirubin 12 mg/dL direct 0.5 mg/dL → breast milk jaundice ให้นมแม่ต่อ",
+   "เด็ก 3 ปี ปวดท้อง เหลือง คลำได้ก้อนใต้ชายโครงขวา US พบ CBD ขยายเป็นถุง → choledochal cyst ทำ cyst excision + Roux-en-Y hepaticojejunostomy"
+  ]
+ },
+ "MDCU78|RoA|7": {
+  "interp": "ระหว่าง craniotomy มีเลือดออกจากหลอดเลือดเล็กบนผิวสมอง (cortical surface) — ถามวิธีห้ามเลือดที่แม่นยำและไม่ทำลายเนื้อสมองรอบข้าง",
+  "why": "<b>Bipolar electrocautery</b>: กระแสไฟฟ้าไหลระหว่างปลาย forceps สองข้างเท่านั้น ความร้อนจำกัดอยู่ที่เนื้อเยื่อที่คีบ ไม่กระจายไปเนื้อสมองหรือเส้นประสาทรอบข้าง จึงเป็นเครื่องมือห้ามเลือดหลักใน neurosurgery และ microsurgery · ใช้ร่วมกับ irrigation (น้ำเกลือหยดที่ปลาย) ไม่ให้เนื้อเยื่อติดปลาย forceps · วิธีห้ามเลือดอื่นในการผ่าตัดสมองเลือกตามแหล่งเลือด: ผิวสมองที่ซึมกว้าง → hemostatic agents (Gelfoam, Surgicel, thrombin) + cottonoid กด · ขอบกะโหลก (diploë) → bone wax · ขอบ dura/epidural → tack-up suture · scalp → Raney clips · หลอดเลือดใหญ่หรือ aneurysm → clip",
+  "wrong": {
+   "B": "Suture ligation ทำไม่ได้กับหลอดเลือดเล็กบนผิวสมองที่บอบบาง เข็มจะฉีกเนื้อสมอง — ใช้กับ dura (dural tack-up เพื่อกัน epidural hematoma) หรือหลอดเลือดขนาดกลางนอกสมอง; จะถูกถ้าโจทย์ถามการป้องกันเลือดออกใต้ dura หลังเปิดกะโหลก",
+   "C": "Monopolar ให้กระแสผ่านตัวผู้ป่วยไปยัง grounding pad ความร้อนและกระแสกระจาย ทำลายเนื้อสมองและเส้นประสาทรอบข้าง — ใช้ได้กับ scalp, กล้ามเนื้อ และ pericranium ระหว่างเปิดแผล แต่ไม่ใช้บนผิวสมอง; จะถูกถ้าโจทย์ถามการห้ามเลือดจากกล้ามเนื้อ temporalis ขณะเปิดแผล",
+   "D": "Vascular clamp ใช้กับหลอดเลือดใหญ่ที่ต้องหยุดเลือดชั่วคราวเพื่อเย็บซ่อม ใช้ไม่ได้กับหลอดเลือดเล็กบนผิวสมอง — จะถูก (ในรูป temporary clip) ถ้าโจทย์เป็นการผ่าตัด aneurysm ที่ต้องหนีบ parent artery ชั่วคราว",
+   "E": "Tourniquet ใช้หยุดเลือดชั่วคราวที่แขนขา ไม่เกี่ยวกับการผ่าตัดสมอง — จะถูกถ้าโจทย์เป็นบาดแผลที่ขามีเลือดพุ่งที่กดไม่หยุด (หรือการผ่าตัดมือเพื่อให้ bloodless field)"
+  },
+  "trap": "คิดว่าจี้ไฟฟ้าแบบไหนก็ได้ — monopolar ใช้ได้กับ scalp แต่ห้ามใช้บนสมองหรือใกล้เส้นประสาท · และอย่าสับ bone wax (ใช้กับกระดูก) กับการห้ามเลือดบนเนื้อสมอง",
+  "summary": [
+   "Bipolar: กระแสอยู่ระหว่างปลาย forceps สองข้าง จำกัดพื้นที่ ใช้ใน neurosurgery, ใกล้เส้นประสาท, microsurgery, งานมือ และผู้ป่วยที่มี pacemaker",
+   "Monopolar: กระแสผ่านตัวผู้ป่วยไป return electrode (grounding pad) — ระวัง burn ที่ pad ที่ติดไม่ดี, รบกวน pacemaker/ICD, ห้ามใช้กับอวัยวะที่มีก้านเล็ก (เช่น penis, นิ้ว) เพราะความร้อนสะสม",
+   "Hemostasis ในการผ่าตัดสมอง: bipolar · hemostatic agents (Gelfoam, Surgicel, thrombin) + cottonoid กด · bone wax ที่ diploë · dural tack-up suture · Raney clips ที่ scalp",
+   "Bone wax ใช้อุดรูเลือดออกในกระดูก — ใส่มากเกินขัดขวางการเชื่อมกระดูกและเพิ่มการติดเชื้อ",
+   "Hemostatic agents ต้องเอาส่วนเกินออกเมื่ออยู่ใกล้ไขสันหลังหรือรูของกระดูก เพราะบวมน้ำแล้วกดเส้นประสาทได้"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ต้นฉบับถามสั้น ๆ ว่าใช้อะไรหยุดเลือดในห้องผ่าตัดประสาท มีช้อย bipolar กับ suture เราเติมว่าเลือดออกจากผิวสมองเพื่อให้ bone wax หรือ hemostatic agent ไม่เป็นคำตอบ; bipolar เป็นคำตอบมาตรฐาน",
+  "variants": [
+   "ระหว่าง craniotomy มีเลือดซึมจากขอบกระดูกกะโหลกที่ตัด → bone wax",
+   "ทำไมใช้ bipolar แทน monopolar ใกล้เนื้อสมองหรือเส้นประสาท → กระแสจำกัดระหว่างปลาย forceps ความร้อนไม่กระจายทำลายเนื้อเยื่อรอบข้าง",
+   "เปิดแผล scalp แล้วเลือดออกมากจากขอบแผล → ใส่ Raney clips ที่ขอบ scalp",
+   "หลังเอาก้อนออก มีเลือดซึมกว้าง ๆ จากผนังโพรงในเนื้อสมอง → hemostatic agent (Surgicel/Gelfoam) + cottonoid กดเบา ๆ"
+  ]
+ },
+ "MDCU78|RoA|8": {
+  "interp": "หญิง 30 ปี ขาดประจำเดือน 8 เดือน + มีน้ำนมไหล + ปวดศีรษะ + ตามัวด้านนอกทั้งสองข้าง (bitemporal hemianopia) ตั้งครรภ์ลบ prolactin สูงมาก → macroprolactinoma ที่กด optic chiasm; ถามการวินิจฉัย",
+  "why": "Prolactinoma เป็น functioning pituitary adenoma ที่พบบ่อยที่สุด · prolactin สูงยับยั้ง GnRH → amenorrhea, infertility, galactorrhea ในหญิง; ED และ libido ลดในชาย · ก้อนใหญ่ (macroadenoma ≥ 1 cm) โตขึ้นด้านบนกด <b>optic chiasm</b> ส่วนกลางซึ่งเป็นเส้นใยที่ข้ามมาจาก nasal retina ของทั้งสองตา → สูญเสียลานสายตาด้านนอก (bitemporal hemianopia) ร่วมกับปวดศีรษะ · ระดับ prolactin สัมพันธ์กับขนาดก้อน (macroadenoma มัก > 200 ng/mL) · วินิจฉัยด้วย MRI pituitary · การรักษาแรกคือ dopamine agonist (cabergoline) แม้เป็น macroadenoma ที่มีลานสายตาผิดปกติ ก้อนมักยุบและตาดีขึ้นในไม่กี่สัปดาห์",
+  "wrong": {
+   "B": "Pineal tumor (germinoma, pineoblastoma) อยู่หลัง third ventricle กด tectum → Parinaud syndrome (มองขึ้นไม่ได้, light-near dissociation) และ obstructive hydrocephalus ไม่ทำให้ prolactin สูง — จะถูกถ้าโจทย์เป็นเด็กชายวัยรุ่นปวดศีรษะ มองขึ้นไม่ได้ และ hydrocephalus",
+   "C": "Vestibular schwannoma อยู่ที่ cerebellopontine angle ทำให้หูดับข้างเดียวแบบ sensorineural, tinnitus และเสียการทรงตัว ก้อนใหญ่กด CN V, VII — จะถูกถ้าโจทย์ให้หูข้างเดียวค่อย ๆ ได้ยินลดลงร่วมกับ tinnitus (ถ้าเป็นสองข้างนึกถึง NF2)",
+   "D": "Convexity meningioma เป็นก้อนนอกเนื้อสมองที่ผิวด้านบน ทำให้ชักหรือ focal deficit ตามตำแหน่ง ไม่เกี่ยวกับฮอร์โมนหรือ chiasm — จะถูกถ้าโจทย์เป็นหญิงวัยกลางคนชักครั้งแรก MRI พบก้อน dural-based enhance สม่ำเสมอพร้อม dural tail",
+   "E": "Medulloblastoma เป็นเนื้องอก posterior fossa (vermis) ที่พบบ่อยในเด็ก ทำให้ truncal ataxia และ hydrocephalus (ปวดศีรษะตอนเช้า อาเจียน) — จะถูกถ้าโจทย์เป็นเด็ก 6 ปีเดินเซและอาเจียนตอนเช้า"
+  },
+  "trap": "เห็น prolactin สูงแล้วสรุปว่า prolactinoma ทันที — ต้องตัดสาเหตุอื่นก่อน: ตั้งครรภ์, ยา dopamine antagonist (antipsychotics, metoclopramide, domperidone), primary hypothyroidism, CKD และ stalk effect จากก้อนอื่นที่กดก้าน (prolactin มักไม่เกิน 100–150 ng/mL) · และเมื่อเป็น prolactinoma แม้มีลานสายตาผิดปกติ การรักษาแรกยังคือยา ไม่ใช่ผ่าตัด",
+  "summary": [
+   "Hyperprolactinemia: หญิง amenorrhea + galactorrhea + มีบุตรยาก (มาเร็ว ก้อนมักเล็ก) · ชาย ED + libido ลด (มาช้า ก้อนมักใหญ่และกดตา)",
+   "สาเหตุ: pregnancy, ยา dopamine antagonist, primary hypothyroidism (TRH กระตุ้น), CKD, prolactinoma, stalk compression",
+   "Prolactinoma: prolactin สัมพันธ์กับขนาด (macroadenoma มัก > 200 ng/mL) · ก้อนใหญ่แต่ prolactin ต่ำแบบไม่สมส่วนอาจเป็น hook effect ต้องเจือจางวัดซ้ำ",
+   "Mass effect: bitemporal hemianopia, ปวดศีรษะ, hypopituitarism, CN III/IV/VI จากการลามเข้า cavernous sinus",
+   "รักษา: cabergoline first-line แม้ macroadenoma · transsphenoidal surgery เมื่อดื้อยา ทนยาไม่ได้ หรือ pituitary apoplexy ที่ตามัวลงเร็ว",
+   "Pituitary apoplexy: ปวดศีรษะรุนแรงทันที + ตามัว/ophthalmoplegia + ความดันต่ำ → hydrocortisone ทันที แล้วพิจารณาผ่าตัดลดความดัน"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ต้นฉบับจดโจทย์ไม่ครบและมีช้อยแค่ 2 ตัว เราเติมอายุ อาการตา และ prolactin ให้ตอบได้ข้อเดียว; amenorrhea + galactorrhea เพียงอย่างเดียวก็ชี้ไป pituitary อยู่แล้ว",
+  "variants": [
+   "หญิง 28 ปี macroprolactinoma 2.5 cm มี bitemporal hemianopia → cabergoline เป็นการรักษาแรก",
+   "ชายที่มี pituitary adenoma ขนาดใหญ่ ปวดศีรษะรุนแรงทันที ตามัว หนังตาตก ความดันต่ำ → pituitary apoplexy ให้ hydrocortisone ทันที",
+   "หญิง 35 ปี กินยา risperidone มี galactorrhea prolactin 70 ng/mL MRI ปกติ → hyperprolactinemia จากยา",
+   "หญิง 30 ปี ขาดประจำเดือน prolactin สูงเล็กน้อย ขี้หนาว ท้องผูก TSH สูง → primary hypothyroidism ให้ levothyroxine"
+  ]
+ },
+ "MDCU78|RoA|9": {
+  "interp": "ชายเป็น WHO grade 2 (low-grade) glioma — ตาม WHO CNS5 คือ astrocytoma IDH-mutant หรือ oligodendroglioma IDH-mutant 1p/19q-codeleted; ถามการรักษาหลักลำดับแรก",
+  "why": "Low-grade glioma เป็นก้อนแบบ diffuse infiltrative ที่โตช้าแต่ในที่สุดเปลี่ยนเป็น high grade · การรักษาหลักคือ <b>maximal safe resection</b> (ไฟล์ Key 78A) — ตัดให้มากที่สุดโดยไม่ทำให้เกิด neurological deficit ใหม่ เพราะ extent of resection สัมพันธ์กับ survival ที่ยาวขึ้นและลดโอกาส malignant transformation; ได้ชิ้นเนื้อสำหรับ molecular diagnosis ด้วย · ใช้ awake craniotomy และ brain mapping เมื่อก้อนใกล้ eloquent area · หลังผ่าตัดเลือกตามความเสี่ยง: high risk (อายุ ≥ 40 ปี หรือตัดไม่หมด) → RT + chemotherapy (PCV หรือ temozolomide) ซึ่งเพิ่ม survival (RTOG 9802) · low risk (อายุน้อย ตัดหมด) → ติดตามด้วย MRI · vorasidenib (IDH inhibitor, INDIGO 2023, FDA 2024) ใช้ชะลอ RT/chemo ใน grade 2 IDH-mutant ที่เหลือก้อนหลังผ่าตัด",
+  "wrong": {
+   "B": "Radiotherapy เป็น adjuvant หลังผ่าตัดในกลุ่ม high risk (ร่วมกับ chemotherapy) ไม่ใช่การรักษาลำดับแรกเมื่อผ่าตัดได้ — จะถูกถ้าโจทย์ถามการรักษาเสริมหลังผ่าตัดในผู้ป่วยอายุ 50 ปีที่ตัดได้ไม่หมด",
+   "C": "Chemotherapy (PCV หรือ temozolomide) ให้ร่วมกับหรือหลัง RT ในกลุ่ม high risk ไม่ใช้เดี่ยวเป็นการรักษาแรก — จะถูกถ้าโจทย์เป็น oligodendroglioma 1p/19q-codeleted หลังผ่าตัดในกลุ่ม high risk (RT + PCV)",
+   "D": "Palliative care อย่างเดียวใช้กับโรคระยะลุกลามที่รักษาไม่ได้หรือ performance status แย่มาก ไม่ใช่ low-grade glioma ที่มีพยากรณ์โรคยาวหลายปี — จะถูกถ้าโจทย์เป็นผู้สูงอายุที่มี glioblastoma กลับเป็นซ้ำและนอนติดเตียง",
+   "E": "Stereotactic biopsy อย่างเดียวใช้เมื่อก้อนอยู่ลึกหรือกระจายจนผ่าตัดไม่ได้ (thalamus, brainstem, gliomatosis) — ถ้าผ่าตัดได้ควร resection เพราะ biopsy ให้ชิ้นเนื้อน้อยและอาจ under-grade; จะถูกถ้าโจทย์เป็นก้อนที่ thalamus หรือ brainstem"
+  },
+  "trap": "คิดว่า low grade โตช้าจึง \"รอดู\" หรือให้ RT ก่อน — มาตรฐานปัจจุบันคือผ่าตัดเร็วและมากที่สุดเท่าที่ปลอดภัย แล้วค่อยเลือก adjuvant ตามความเสี่ยงและ molecular",
+  "summary": [
+   "WHO CNS5 (2021) จัดกลุ่มด้วย molecular: IDH, 1p/19q, ATRX, CDKN2A/B · grade เขียนเป็นเลขอารบิก (grade 2, 3, 4)",
+   "Low-grade glioma มักพบในผู้ใหญ่อายุน้อย 30–40 ปี อาการนำบ่อยคือชัก",
+   "MRI: ก้อน T2/FLAIR hyperintense ไม่ค่อย enhance — เริ่ม enhance ใหม่ = อาจเปลี่ยนเป็น high grade",
+   "รักษา: maximal safe resection → high risk (อายุ ≥ 40 หรือตัดไม่หมด) RT + PCV/temozolomide · low risk ติดตาม MRI · vorasidenib ใน grade 2 IDH-mutant ที่เหลือก้อน",
+   "Oligodendroglioma (1p/19q-codeleted) พยากรณ์ดีที่สุดและตอบสนองต่อ chemotherapy ดี",
+   "Glioblastoma (IDH-wildtype grade 4): maximal safe resection + RT 60 Gy + temozolomide พร้อมและหลัง RT (Stupp) · median survival ราว 15 เดือน"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 78A ให้เหตุผลว่า maximal safe resection ตรงกับ NCCN และ EANO 2021; ช้อย RT/chemotherapy เป็นการรักษาเสริมหลังผ่าตัด ไม่ใช่ลำดับแรก",
+  "variants": [
+   "ชาย 45 ปี oligodendroglioma IDH-mutant 1p/19q-codeleted grade 2 ตัดได้ไม่หมด → RT + PCV",
+   "หลัง maximal safe resection ของ glioblastoma การรักษาต่อมาตรฐานคือ → RT 60 Gy + concurrent และ adjuvant temozolomide (Stupp)",
+   "ชาย 28 ปี ชักครั้งแรก MRI พบก้อน T2 hyperintense ไม่ enhance ที่ frontal lobe ใกล้ Broca area → awake craniotomy + brain mapping เพื่อตัดให้มากที่สุดอย่างปลอดภัย",
+   "หญิง 60 ปี ก้อนที่ thalamus แบบ infiltrative ผ่าตัดไม่ได้ → stereotactic biopsy เพื่อวินิจฉัยและดู molecular"
+  ]
+ },
+ "MDCU78|RoA|10": {
+  "interp": "ทารกอายุ 2 ชั่วโมงเขียวมากแต่ไม่หอบ (เขียวไม่สมกับอาการหายใจ = นึกถึง cyanotic heart disease) ร่วมกับ CXR ที่หัวใจรูปไข่นอนตะแคงและ superior mediastinum แคบ (egg on a string) → transposition of the great arteries",
+  "why": "D-TGA: aorta ออกจาก RV และ pulmonary artery ออกจาก LV → ระบบไหลเวียนสองวงขนานกัน เลือดดำวนกลับไปร่างกาย รอดได้ด้วยการผสมเลือดผ่าน PFO/ASD, PDA หรือ VSD เท่านั้น · จึงเขียวมากตั้งแต่ชั่วโมงแรกโดยไม่ค่อยหอบ และเขียวมากขึ้นเมื่อ PDA เริ่มปิด · CXR: <b>egg on a string</b> — หัวใจรูปไข่ + great arteries วางหน้าหลังกัน และ thymus ฝ่อจาก stress ทำให้ superior mediastinum แคบ pulmonary vascularity ปกติหรือเพิ่ม · รักษาเร่งด่วน: PGE1 คง PDA ± balloon atrial septostomy (Rashkind) ถ้า mixing ไม่พอ → arterial switch operation (Jatene) ภายใน 2–3 สัปดาห์แรก",
+  "wrong": {
+   "A": "Truncus arteriosus มีหลอดเลือดใหญ่เส้นเดียว + VSD เลือดไปปอดมาก จึงเขียวไม่มากแต่มี heart failure ในไม่กี่สัปดาห์ CXR หัวใจโต pulmonary vascularity เพิ่ม ± right aortic arch (สัมพันธ์กับ DiGeorge) — จะถูกถ้าโจทย์เป็นทารก 3 สัปดาห์เหนื่อยหอบ เขียวเล็กน้อย bounding pulse และมี hypocalcemia",
+   "B": "Tetralogy of Fallot: CXR หัวใจรูปรองเท้าบูท (boot-shaped) + ปอดดำ (oligemia) · มักเขียวช้ากว่า (หลายสัปดาห์–เดือน) และมี tet spell — จะถูกถ้าโจทย์เป็นเด็ก 4 เดือนเขียวเป็นพัก ๆ ขณะร้องและ CXR boot-shaped",
+   "D": "TAPVR: ชนิด supracardiac ในเด็กโตเห็น snowman sign ส่วนชนิด obstructed (infracardiac) ในทารกแรกเกิดหัวใจเล็กแต่ปอดคั่งเลือดรุนแรงและหอบมาก — จะถูกถ้าโจทย์ให้ทารกเขียวร่วมกับหายใจหอบมากและ CXR มี pulmonary venous congestion โดยหัวใจไม่โต",
+   "E": "Pneumopericardium เห็นแถบอากาศล้อมรอบเงาหัวใจ (halo) มักเกิดในทารกที่ใช้เครื่องช่วยหายใจแรงดันบวก อาจทำให้ tamponade — จะถูกถ้าโจทย์เป็นทารกคลอดก่อนกำหนดที่ใส่เครื่องช่วยหายใจแล้วความดันตกทันทีและ CXR มีอากาศล้อมหัวใจ"
+  },
+  "trap": "ทารกเขียวมากแต่ไม่หอบในวันแรก = cyanotic CHD ที่พึ่ง PDA (นึกถึง TGA ก่อน) → เริ่ม PGE1 ทันทีไม่ต้องรอ echo · อย่าสับ CXR signs: egg on string (TGA) · boot (TOF) · snowman (supracardiac TAPVR) · box-shaped (Ebstein)",
+  "summary": [
+   "Cyanotic CHD (5T): TGA (บ่อยสุดในทารกแรกเกิด), TOF (บ่อยสุดโดยรวม), Truncus arteriosus, TAPVR, Tricuspid atresia",
+   "CXR signs: egg on a string = TGA · boot-shaped + oligemia = TOF · snowman = supracardiac TAPVR · box-shaped หัวใจใหญ่มาก = Ebstein anomaly",
+   "Hyperoxia test: PaO2 ยังต่ำกว่า 100–150 mmHg เมื่อให้ O2 100% → cyanotic heart disease (ปอดมักขึ้นเกิน 150)",
+   "Duct-dependent lesion ในทารกเขียว → PGE1 ทันที (ผลข้างเคียง apnea, ไข้, ความดันต่ำ)",
+   "TGA: PGE1 + balloon atrial septostomy ถ้า mixing ไม่พอ → arterial switch (Jatene) ภายใน 2–3 สัปดาห์ ก่อน LV จะอ่อนลงจากการทำงานกับความดันต่ำ",
+   "TOF: tet spell ให้ knee-chest, O2, morphine, IV fluid, phenylephrine · total repair อายุราว 3–6 เดือน (BT shunt เป็น palliative)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — ไฟล์ Key 78A ให้เหตุผล egg on a string และภาพเฉลยในไฟล์ระบายเงาหัวใจเป็นรูปไข่ชัดเจน ร่วมกับเขียวตั้งแต่ชั่วโมงแรกโดยไม่หอบ เข้ากับ TGA ที่สุด",
+  "variants": [
+   "ทารกที่สงสัย TGA ได้ PGE1 แล้วยัง SpO2 50% และ echo พบ atrial septum เปิดแคบ → balloon atrial septostomy (Rashkind)",
+   "เด็กชาย 4 เดือน เขียวเป็นพัก ๆ ขณะร้อง CXR หัวใจรูปรองเท้าบูทและปอดดำ → tetralogy of Fallot",
+   "ทารก 1 วัน เขียวและหอบมาก CXR หัวใจขนาดปกติแต่ปอดคั่งเลือดรุนแรง echo พบ pulmonary veins ลงไปใต้กะบังลม → obstructed infracardiac TAPVR ผ่าตัดด่วน",
+   "ทารก D-TGA หลังได้ PGE1 และ septostomy แล้ว stable → arterial switch operation ภายใน 2–3 สัปดาห์แรก"
+  ]
+ }
+}
