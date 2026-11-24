@@ -56,9 +56,9 @@
    "B": "TOF เขียวมากน้อยตาม RVOT obstruction มักเขียวช้ากว่า TGA มี harsh ejection systolic murmur ที่ LUSB จาก RVOT (S2 เดี่ยวได้เช่นกัน) CXR boot-shaped ปอดเลือดน้อย; จะถูกถ้าทารกเขียวไม่มาก ฟังได้ harsh SEM ที่ LUSB และ CXR เป็นรูปรองเท้าบูทปอดดำ",
    "C": "VSD เดี่ยวเป็น left-to-right shunt ไม่เขียว มี holosystolic murmur ที่ LLSB และอาการหัวใจล้มเหลวเมื่ออายุ 1–2 เดือน; จะถูกถ้าทารก 2 เดือนเหนื่อยตอนดูดนม เหงื่อออก น้ำหนักไม่ขึ้น ร่วมกับ holosystolic murmur ที่ LLSB",
    "D": "Choanal atresia สองข้างทำให้ทารก (ซึ่งหายใจทางจมูกเป็นหลัก) เขียวขณะกินนมหรือหลับ และ<b>หายเขียวเมื่อร้อง</b>เพราะได้หายใจทางปาก ใส่สายผ่านจมูกไม่ได้ เสียงหัวใจปกติ; จะถูกถ้าทารกเขียวเวลาดูดนมแต่ชมพูขึ้นเมื่อร้อง และใส่สาย 6 Fr ผ่านจมูกไม่ได้ทั้งสองข้าง",
-   "E": "PPHN พบในทารกครบกำหนดหรือเกินกำหนดที่สำลักขี้เทา asphyxia sepsis หรือ CDH มีหอบ และ SpO<sub>2</sub> มือขวาสูงกว่าเท้า (right-to-left shunt ผ่าน PDA) echo โครงสร้างหัวใจปกติ; จะถูกถ้าทารกสำลักขี้เทา SpO<sub>2</sub> มือขวา 95% เท้า 80% echo ไม่พบหัวใจพิการ"
+   "E": "PPHN ก็เขียวมากขึ้นเวลากวน มี S2 เดี่ยวดัง (P2 ดัง) และไม่มี murmur ได้เหมือน TGA — แยกด้วยปัจจัยเสี่ยง (ทารกครบ/เกินกำหนด สำลักขี้เทา asphyxia sepsis CDH) หายใจหอบชัด SpO<sub>2</sub> มือขวาสูงกว่าเท้า (right-to-left ผ่าน PDA) CXR ปอดเลือดน้อยหรือมีโรคปอด และ echo โครงสร้างหัวใจปกติ; จะถูกถ้าทารกสำลักขี้เทา SpO<sub>2</sub> มือขวา 95% เท้า 80% echo ไม่พบหัวใจพิการ"
   },
-  "trap": "ต้นฉบับจดอาการ \"ร้องไห้แล้วหายเขียว\" ซึ่งเป็นลักษณะเฉพาะของ choanal atresia (paradoxical cyanosis) ไม่ใช่ TGA — ถ้าข้อสอบจริงให้อาการนี้และไม่มีเสียงหัวใจผิดปกติ ให้ตอบ choanal atresia · เขียวที่ไม่ดีขึ้นด้วยออกซิเจน + S2 เดี่ยวดังโดยไม่มี murmur ชี้ TGA · ไม่มี murmur ไม่ได้แปลว่าหัวใจปกติ",
+  "trap": "ร้องแล้ว<b>หาย</b>เขียว = choanal atresia (paradoxical cyanosis จากทางเดินหายใจ) · ร้องหรือกินแล้วเขียว<b>มากขึ้น</b>และให้ออกซิเจนไม่ดีขึ้น = สาเหตุจากหัวใจ · ไม่มี murmur ไม่ได้แปลว่าหัวใจปกติ — TGA ที่ septum ปิดมักไม่มีเสียงฟู่ · PPHN ก็มี S2 ดังไม่มี murmur ได้ ต้องแยกด้วย pre/post-ductal SpO<sub>2</sub> และ echo",
   "summary": [
    "ทารกเขียว: แยก cardiac vs respiratory ด้วย hyperoxia test (O<sub>2</sub> 100% แล้ว PaO<sub>2</sub> ยัง &lt; 100 mmHg ชี้ cyanotic CHD) + pre/post-ductal SpO<sub>2</sub> + echo",
    "Cyanotic CHD ที่เขียวในวันแรก: TGA (บ่อยสุดในทารกแรกเกิด), pulmonary atresia, critical PS, TAPVR ชนิดอุดตัน · TOF บ่อยสุดในเด็กโต",
@@ -153,19 +153,19 @@
  },
  "MDCU78|RoB|49": {
   "interp": "Melanoma ที่น่อง Breslow 1.5 mm ไม่มี ulceration = T2a ไม่คลำพบต่อมน้ำเหลือง (cN0) หลังตัดชิ้นเนื้อเพื่อวินิจฉัยแล้ว → ถามการรักษาขั้นต่อไป ซึ่งได้แก่การตัดขอบเพิ่มและการ staging ต่อมน้ำเหลือง",
-  "why": "หลัง excisional biopsy ยืนยัน melanoma ต้องทำ <b>wide local excision</b> ตามความหนา: T2 (1.01–2.0 mm) margin <b>1–2 cm</b> ลึกถึง fascia · และทำ <b>sentinel lymph node biopsy (SLNB)</b> ในครั้งเดียวกัน เพราะความหนา &gt; 0.8 mm (T1b ขึ้นไป) มีโอกาสแพร่ไปต่อมน้ำเหลืองพอที่ผลจะเปลี่ยนการพยากรณ์และการรักษา · SLN บวก: ปัจจุบันไม่ต้องเลาะต่อมน้ำเหลืองต่อทุกราย (MSLT-II, DeCOG-SLT ไม่ช่วยให้รอดชีวิตนานขึ้น) ใช้ติดตามด้วย ultrasound และพิจารณา adjuvant anti-PD-1 หรือ dabrafenib + trametinib (ถ้า BRAF V600) · SLN ลบ = stage IB ติดตามตรวจผิวหนังและต่อมน้ำเหลือง",
+  "why": "หลัง excisional biopsy ยืนยัน melanoma ต้องทำ <b>wide local excision</b> ตามความหนา: T2 (1.01–2.0 mm) margin <b>1–2 cm</b> ลึกถึง fascia · และทำ <b>sentinel lymph node biopsy (SLNB)</b> ในครั้งเดียวกัน เพราะความหนา &gt; 1 mm มีโอกาสแพร่ไปต่อมน้ำเหลืองพอที่ผลจะเปลี่ยนการพยากรณ์และการรักษา (NCCN: T2a ขึ้นไป offer SLNB · T1b ให้พิจารณา) · ผล SLN ใช้ staging และตัดสินเรื่อง adjuvant therapy (ดู summary) · SLN ลบ = stage IB ติดตามตรวจผิวหนังและต่อมน้ำเหลือง",
   "wrong": {
    "B": "Margin 0.5 cm เหมาะกับ melanoma in situ เท่านั้น (0.5–1 cm) — melanoma ลุกลามหนา 1.5 mm ต้อง margin 1–2 cm และขาด SLNB; จะถูกถ้าผล pathology เป็น melanoma in situ ที่ยังไม่ทะลุชั้น basement membrane",
    "C": "Elective lymph node dissection ในผู้ที่คลำไม่พบต่อมน้ำเหลืองเลิกทำแล้ว เพราะไม่ช่วยให้รอดชีวิตนานขึ้นและมีภาวะแทรกซ้อน (lymphedema) จึงใช้ SLNB แทน; จะถูกถ้าคลำพบต่อมน้ำเหลืองขาหนีบโตและ FNA ยืนยัน melanoma (therapeutic lymphadenectomy — ปัจจุบันพิจารณา neoadjuvant immunotherapy ก่อน)",
    "D": "Radiotherapy ไม่ใช่การรักษาหลักของ primary melanoma ใช้เสริมในบางกรณี เช่น desmoplastic melanoma ที่ขอบแคบ หรือรอยโรคที่ผ่าตัดไม่ได้; จะถูกถ้าผู้สูงอายุมี lentigo maligna แผ่นกว้างที่หน้าซึ่งผ่าตัดไม่ได้หรือไม่ยอมผ่าตัด",
    "E": "Observation ก่อนตัดขอบเพิ่มทำให้เสี่ยงกลับเป็นซ้ำเฉพาะที่และพลาด staging ต่อมน้ำเหลือง; จะถูกถ้าโจทย์ถามการติดตามหลังรักษา melanoma stage I ครบแล้ว (ตรวจผิวหนังและต่อมน้ำเหลืองทุก 3–12 เดือน)"
   },
-  "trap": "นึกถึงการเลาะต่อมน้ำเหลืองแบบเดิม — ปัจจุบันไม่ทำ elective dissection และแม้ SLN บวกก็ไม่ต้องเลาะทุกราย · margin ขึ้นกับ Breslow ไม่ใช่ขนาดก้อน · SLNB ต้องทำพร้อม wide excision เพราะถ้าตัดกว้างก่อน ทางเดินน้ำเหลืองจะเปลี่ยนจนหาต่อมเฝ้าระวังไม่แม่น",
+  "trap": "นึกถึงการเลาะต่อมน้ำเหลืองแบบเดิม — ปัจจุบันไม่ทำ elective dissection ในผู้ที่คลำไม่พบต่อม · margin ขึ้นกับ Breslow ไม่ใช่ขนาดก้อน · SLNB ต้องทำพร้อม wide excision เพราะถ้าตัดกว้างก่อน ทางเดินน้ำเหลืองจะเปลี่ยนจนหาต่อมเฝ้าระวังไม่แม่น",
   "summary": [
    "Biopsy: excisional ขอบ 1–3 mm (เลี่ยง shave ที่ตัดไม่ถึงฐาน) · ความหนา Breslow เป็นตัวพยากรณ์สำคัญที่สุดของ primary",
    "Margin: in situ 0.5–1 cm · ≤ 1 mm 1 cm · 1.01–2 mm 1–2 cm · &gt; 2 mm 2 cm",
-   "SLNB: แนะนำเมื่อ T1b ขึ้นไป (&gt; 0.8 mm หรือมี ulceration) · ทำพร้อม wide excision · SLN บวก → ultrasound ติดตาม + adjuvant therapy แทน completion dissection",
-   "AJCC 8: T1 ≤ 1 mm (a &lt; 0.8 ไม่มีแผล) · T2 1.01–2 · T3 2.01–4 · T4 &gt; 4 mm · a/b = ไม่มี/มี ulceration · ไม่ใช้ mitotic rate ในการแบ่ง T แล้ว",
+   "SLNB (NCCN): &gt; 1 mm (T2a ขึ้นไป) → offer · T1b (0.8–1.0 mm หรือ &lt; 0.8 mm มี ulceration) → พิจารณา/คุยกับผู้ป่วย · ทำพร้อม wide excision · SLN บวก → ไม่ต้อง completion dissection ทุกราย (MSLT-II, DeCOG-SLT) ใช้ ultrasound ติดตาม ± adjuvant therapy",
+   "AJCC 8: T1 ≤ 1 mm (T1a &lt; 0.8 mm ไม่มีแผล · T1b 0.8–1.0 mm หรือ &lt; 0.8 mm มีแผล) · T2 1.01–2 · T3 2.01–4 · T4 &gt; 4 mm · a/b = ไม่มี/มี ulceration · ไม่ใช้ mitotic rate แบ่ง T แล้ว",
    "Adjuvant: stage III → anti-PD-1 (nivolumab, pembrolizumab) หรือ dabrafenib + trametinib (BRAF V600) · stage IIB–IIC → anti-PD-1 เป็นทางเลือก",
    "ชนิด: superficial spreading บ่อยที่สุดในคนผิวขาว · acral lentiginous (ฝ่ามือ ฝ่าเท้า ใต้เล็บ) พบสัดส่วนสูงในคนเอเชียรวมถึงไทย · nodular โตเร็ว · lentigo maligna ที่หน้าผู้สูงอายุ"
   ],
@@ -174,7 +174,7 @@
    "Melanoma หนา 0.5 mm ไม่มี ulceration → wide excision margin 1 cm โดยทั่วไปไม่ต้อง SLNB (T1a)",
    "Melanoma หนา 2.5 mm มี ulceration → wide excision margin 2 cm + SLNB",
    "Melanoma ที่ฝ่าเท้าในผู้ป่วยไทย ชนิดที่พบบ่อย → acral lentiginous melanoma",
-   "SLNB พบ micrometastasis 1 ต่อม → ไม่ต้อง completion dissection ทุกราย: ultrasound ติดตาม + adjuvant anti-PD-1"
+   "SLNB พบ micrometastasis 1 ต่อม → ไม่ต้อง completion dissection ทุกราย: ultrasound ติดตาม + พิจารณา adjuvant anti-PD-1 (stage IIIA ได้ประโยชน์น้อย ติดตามอย่างเดียวก็เป็นทางเลือก)"
   ]
  },
  "MDCU78|RoB|50": {
@@ -228,14 +228,14 @@
   ]
  },
  "MDCU78|RoB|52": {
-  "interp": "หญิงตั้งครรภ์มี asymptomatic bacteriuria (E. coli &gt; 10<sup>5</sup> CFU/mL) รักษาด้วยยากินครบ 7 วันแล้ว แต่เพาะเชื้อซ้ำยังพบเชื้อ (persistent ASB) ยังไม่มีอาการ → ถามขั้นต่อไป",
+  "interp": "หญิงตั้งครรภ์มี asymptomatic bacteriuria (E. coli &gt; 10⁵ CFU/mL) รักษาด้วยยากินครบ 7 วันแล้ว แต่เพาะเชื้อซ้ำยังพบเชื้อ (persistent ASB) ยังไม่มีอาการ → ถามขั้นต่อไป",
   "why": "ASB ในหญิงตั้งครรภ์ต้องรักษาทุกราย เพราะการตั้งครรภ์ทำให้ท่อไตขยายและปัสสาวะค้าง ถ้าไม่รักษาเกิด pyelonephritis ราว 20–35% (รักษาแล้วเหลือราว 1–4%) และสัมพันธ์กับ preterm birth/ทารกน้ำหนักน้อย · หลังรักษาต้องเพาะเชื้อซ้ำ (test of cure) · ถ้ายังพบเชื้อแต่ไม่มีอาการ → <b>ให้ยากินอีกคอร์สตามผลความไวของเชื้อ</b> · ถ้ากลับเป็นซ้ำอีกหลังคอร์สที่สอง → suppressive therapy จนคลอด (nitrofurantoin หรือ cephalexin ก่อนนอน) และเพาะเชื้อเป็นระยะ · IV antibiotics ใช้เมื่อเป็น pyelonephritis เท่านั้น",
-  "trap": "คิดว่ารักษาครั้งแรกไม่หายต้องเพิ่มเป็นยาฉีดหรือหาความผิดปกติทางเดินปัสสาวะ — ผู้ป่วยยังไม่มีอาการจึงยังเป็น ASB ให้ยากินคอร์สใหม่ตามผลความไว · และอย่าเหมาว่า ASB ทุกกลุ่มต้องรักษา: นอกการตั้งครรภ์และก่อนผ่าตัดทางเดินปัสสาวะไม่ต้องรักษา",
+  "trap": "คิดว่ารักษาครั้งแรกไม่หายต้องเพิ่มเป็นยาฉีดหรือหาความผิดปกติทางเดินปัสสาวะ — ผู้ป่วยยังไม่มีอาการจึงยังเป็น ASB ให้ยากินคอร์สใหม่ตามผลความไว · และอย่าเหมาว่า ASB ทุกกลุ่มต้องรักษา: ยกเว้นการตั้งครรภ์และก่อนผ่าตัดทางเดินปัสสาวะ กลุ่มอื่นไม่ต้องรักษา",
   "summary": [
-   "คัดกรอง ASB ด้วย urine culture ในหญิงตั้งครรภ์ทุกรายตั้งแต่ฝากครรภ์ครั้งแรก (ราว 12–16 สัปดาห์) · เกณฑ์ ≥ 10<sup>5</sup> CFU/mL",
-   "ยาที่ใช้: cephalexin, amoxicillin–clavulanate, nitrofurantoin, fosfomycin ตามผลความไว 5–7 วัน (fosfomycin ครั้งเดียว) · เลี่ยง fluoroquinolone · TMP-SMX เลี่ยงไตรมาสแรกและใกล้คลอด · nitrofurantoin เลี่ยงใกล้คลอด",
+   "คัดกรอง ASB ด้วย urine culture ในหญิงตั้งครรภ์ทุกรายตั้งแต่ฝากครรภ์ครั้งแรก (ราว 12–16 สัปดาห์) · เกณฑ์ ≥ 10⁵ CFU/mL",
+   "ยาที่ใช้: cephalexin, amoxicillin–clavulanate, nitrofurantoin, fosfomycin ตามผลความไว 5–7 วัน (fosfomycin ครั้งเดียว) · เลี่ยง fluoroquinolone · TMP-SMX และ nitrofurantoin เลี่ยงไตรมาสแรก (ถ้ามียาอื่น) และใกล้คลอด",
    "Test of cure หลังรักษา 1–2 สัปดาห์ · ยังพบเชื้อ → คอร์สใหม่ตามผลความไว · เป็นซ้ำ → suppressive therapy จนคลอด",
-   "GBS ในปัสสาวะไม่ว่าจำนวนเท่าใดระหว่างตั้งครรภ์ → รักษาตอนนั้น และให้ intrapartum prophylaxis โดยไม่ต้อง swab ซ้ำ",
+   "GBS ในปัสสาวะ: ≥ 10⁵ CFU/mL หรือมีอาการ → รักษาตอนนั้น · ต่ำกว่านั้นไม่มีอาการไม่ต้องรักษาตอนตรวจพบ · ไม่ว่าจำนวนเท่าใดต้องให้ intrapartum prophylaxis โดยไม่ต้อง swab ซ้ำ (ACOG 2020)",
    "Pyelonephritis ในครรภ์ (ไข้ หนาวสั่น ปวดหลัง กดเจ็บ CVA) → admit + IV antibiotics (ceftriaxone) · ไม่ดีขึ้นใน 48–72 ชม. → ultrasound หานิ่วหรือฝี",
    "ASB ไม่ต้องรักษา: หญิงไม่ตั้งครรภ์ ผู้สูงอายุ เบาหวาน ผู้ใส่สายสวน · ต้องรักษา: ตั้งครรภ์ และก่อนผ่าตัดทางเดินปัสสาวะที่มีเลือดออกเยื่อบุ (เช่น TURP)"
   ],
@@ -243,8 +243,8 @@
   "variants": [
    "หญิงตั้งครรภ์ 32 สัปดาห์ ไข้ หนาวสั่น ปวดหลังขวา กดเจ็บ CVA → admit + IV ceftriaxone (acute pyelonephritis)",
    "หญิงตั้งครรภ์ ASB รักษาสองคอร์สแล้วกลับมาพบเชื้ออีก → suppressive therapy (nitrofurantoin หรือ cephalexin ก่อนนอน) จนคลอด",
-   "หญิงตั้งครรภ์ 14 สัปดาห์ urine culture พบ GBS 10<sup>4</sup> CFU/mL → รักษาตอนนี้ + intrapartum GBS prophylaxis",
-   "หญิงอายุ 75 ปี ไม่มีอาการ urine culture พบ E. coli &gt; 10<sup>5</sup> → ไม่ต้องรักษา"
+   "หญิงตั้งครรภ์ 14 สัปดาห์ urine culture พบ GBS 10⁴ CFU/mL ไม่มีอาการ → ไม่ต้องรักษาตอนนี้ ให้ intrapartum GBS prophylaxis ตอนคลอด",
+   "หญิงอายุ 75 ปี ไม่มีอาการ urine culture พบ E. coli &gt; 10⁵ CFU/mL → ไม่ต้องรักษา"
   ]
  },
  "MDCU78|RoB|53": {
