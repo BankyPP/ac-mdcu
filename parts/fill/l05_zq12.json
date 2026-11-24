@@ -22,12 +22,12 @@
 "wrong": {
 "A": "ไม่มีสถานการณ์ใดที่ alginate ยึดตัวเองได้ เพราะสไลด์ระบุว่า require secondary dressing",
 "B": "ไม่มีสถานการณ์ใดที่ต้องเป่าให้ alginate แห้ง เพราะหน้าที่ของมันคือดูด exudate แล้วเป็นเจลชื้นบนแผล",
-"D": "ไม่มีสถานการณ์ใดที่เติม hydrogel ในโพรงที่ exudate มาก เพราะแผลเปียกอยู่แล้ว hydrogel ยิ่งเพิ่มน้ำและดูดซับได้น้อย",
-"E": "ไม่มีสถานการณ์ใดที่ต้องเอา alginate ออกใน 1 ชั่วโมง เพราะยังดูด exudate ได้อีกนาน — เปลี่ยนตามปริมาณ exudate"
+"D": "ไม่มีสถานการณ์ใดที่ต้องเติม hydrogel ร่วมกับ alginate เพราะแผลที่แห้งจนต้องเติมความชื้นก็ไม่ควรใช้ alginate ตั้งแต่แรก (สไลด์หน้า 40: do not use on dry or low exudative wound)",
+"E": "ไม่มีสถานการณ์ใดที่ต้องเอา alginate ออกใน 1 ชั่วโมง เพราะยังดูด exudate ได้อีกนาน — <b>นอกสไลด์:</b> เปลี่ยนตามปริมาณ exudate"
 },
 "trap": "alginate ดูดซับดีแต่ทำงานเป็นชั้นในเท่านั้น — อย่าลืม secondary dressing",
 "summary": [
-"Alginate/hydrofiber (หน้า 40): ดูดซับดี → แผล exudate มาก/โพรง · ห้ามใช้กับแผลแห้ง · ต้องมี secondary dressing · อาจทำผิวรอบแผลเปื่อย"
+"absorptive dressing สำหรับแผล draining (ตารางหน้า 41) มี gauze, alginate/hydrofiber, foam, hydrocolloid — ในกลุ่มนี้ alginate/hydrofiber ต้องมี secondary dressing และห้ามใช้กับแผลแห้ง"
 ],
 "variants": [
 "alginate ที่ตัดใหญ่เกินขอบแผลไปวางทับผิวรอบแผล เสี่ยงอะไร → ผิวรอบแผลเปื่อย (periwound erosion)"
@@ -106,12 +106,13 @@
 "why": "ภาพถ่ายจอหน้า 40 (Transparent film): <b>No absorptive capacity · Caution on patients with fragile skin</b><br>skin tear มีน้ำเหลืองซึม (weeping) film ดูดซับไม่ได้ น้ำจะขังใต้แผ่น · film ยึดผิวด้วยกาว ตอนลอกจะดึงผิวบางให้ฉีกเพิ่ม — สองเหตุผลตรงกับสองลักษณะของผู้ป่วย",
 "wrong": {
 "A": "ไม่มีสถานการณ์ใดที่ film ทึบหรือดูดซับมาก — film ใสและไม่ดูดซับ ตรงข้ามทั้งสองข้อ",
-"C": "ไม่มีสถานการณ์ใดที่ film ให้เชื้อผ่านหรือติดผิวแผลแบบก๊อซ — film กันเชื้อ ปัญหาของมันคือกาวที่ติดผิวรอบแผล",
+"C": "ไม่มีสถานการณ์ใดที่ film ให้เชื้อผ่านหรือติดผิวแผลแบบก๊อซ — สไลด์ระบุว่า film กันเชื้อ (preventing bacterial colonization)",
 "D": "ไม่มีสถานการณ์ใดที่ film ต้องมี secondary dressing — ข้อเสียคู่นี้เป็นของ alginate/hydrofiber",
 "E": "ไม่มีสถานการณ์ใดที่ film เป็นพิษต่อเซลล์หรือแพงเป็นข้อเสียหลัก — cytotoxic เป็นของ silver/iodine และแพงเป็นของ composite dressing"
 },
 "trap": "ตอบให้ครบทั้งสองลักษณะในโจทย์: weeping → no absorptive capacity · thin, fragile skin → caution on fragile skin",
 "summary": [
+"Transparent film (หน้า 40): no absorptive capacity · caution on fragile skin → ใช้กับแผลตื้นที่ exudate น้อยหรือไม่มี",
 "<b>นอกสไลด์:</b> skin tear/ผิวบาง: ใช้ชั้นสัมผัสแผลที่ไม่ติด (silicone หรือ impregnated gauze) + ชั้นดูดซับตามน้ำซึม แล้วยึดด้วยผ้าพันแทนเทปกาว"
 ],
 "variants": [
@@ -173,9 +174,9 @@
 "interp": "แผลไม่ติดเชื้อ พื้น granulation สะอาด <b>drainage มาก</b> — ถามเป้าหมายและชนิด dressing",
 "why": "ภาพถ่ายจอหน้า 41 (Management approach for non-infected wounds) ช่อง Draining × Granular: <b>Goal is to protect granulation tissue and periwound area · Use absorptive dressings: gauze, alginates/hydrofibers, semi-permeable foams, or hydrocolloids</b><br>granulation ที่ดีแล้วต้องการแค่การปกป้อง — ดูด drainage ไม่ให้ขังจนผิวรอบแผลเปื่อย",
 "wrong": {
-"A": "จะถูกถ้าแผลมี slough หรือเนื้อตายแห้งและ drainage น้อย ที่ต้องการ autolytic debridement",
-"B": "จะถูกถ้าแผลไม่มี drainage และปกคลุมด้วย eschar แห้ง",
-"D": "ไม่มีสถานการณ์ใดที่แผลเปิด drainage มากควรปล่อยแห้งไม่ปิดอะไร — ขัดกับหน้าที่ทั้งสามข้อของ dressing",
+"A": "จะถูกถ้าแผลไม่ติดเชื้อ พื้นเป็น slough เหลืองนุ่ม drainage น้อย ต้องการ autolytic debridement",
+"B": "จะถูกถ้าแผลไม่ติดเชื้อ ไม่มี drainage และมี eschar ดำแข็งแห้งคลุม (film กักความชื้นให้ eschar นุ่ม)",
+"D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลผ่าตัดที่เย็บปิดสนิทและผิวเชื่อมกันแล้ว ซึ่งไม่ต้องปิดแผลอีก",
 "E": "จะถูกถ้าแผลติดเชื้อ (ตาราง: infected wounds → silver, iodide, antibiotic dressings)"
 },
 "trap": "ตาราง 2×2 อ่านสองแกน: drainage (มี/ไม่มี) × พื้นแผล (granular/necrotic) — ข้อนี้ Draining × Granular",
@@ -183,7 +184,7 @@
 "ตาราง non-infected wounds (หน้า 41): <b>Draining + Granular</b> ปกป้อง granulation และผิวรอบแผล → absorptive (gauze, alginate/hydrofiber, foam, hydrocolloid) · <b>Draining + Necrotic</b> debride ดูด drainage ป้องกันการติดเชื้อ → gauze, alginate/hydrofiber · <b>Non-draining + Granular</b> ให้แผลหายต่อ สมดุลความชื้น → impregnated gauze, film, hydrogel · <b>Non-draining + Necrotic</b> debride อย่างระวัง ทำ eschar นุ่ม → impregnated gauze, film, hydrogel, hydrocolloid"
 ],
 "variants": [
-"แผลไม่ติดเชื้อ พื้นเป็นเนื้อตาย drainage มาก เป้าหมายของ dressing คืออะไร → debride ดูด drainage ปกป้องผิวรอบแผล และเฝ้าระวังการติดเชื้อ"
+"แผลไม่ติดเชื้อ พื้นเป็นเนื้อตาย drainage มาก เป้าหมายและ dressing คืออะไร → debride ดูด drainage ป้องกันการติดเชื้อ (gauze, alginate/hydrofiber)"
 ]
 },
 "144": {
