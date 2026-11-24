@@ -8,7 +8,10 @@ python3 tools/unit_full_check.py --all          # ทุก data*/unit_*.js (ร
 ทุกข้อต้องมี:
   notes    สไลด์/ลายมือเขียนไว้ว่า (ยกคำจากไฟล์)          ≥ 30 ตัวอักษร
   kimg     รูปหน้าที่อ้าง                                   ≥ 1
-  (ยกเกณฑ์ 24 พ.ย. 2026 ตาม kit/มาตรฐานเฉลย.md — เท่าข้อสอบเก่า Gen Sx)
+  ผู้ใช้สั่ง 24 พ.ย. 2026 15:3x ("มีเกณฑ์มันไม่ใช่เรื่อง … ขอให้ทำแบบ Gen Sx") → ไม่มีขั้นต่ำความยาวแล้ว
+  เช็คโครงสร้างเท่านั้น แบบเดียวกับ tools/explain_quality.js GATE (commit 5a2b7ea):
+  ทุกช่องไม่ว่าง · ทุกช้อยผิดมี "จะถูก…/จะเป็นคำตอบ…/ไม่มีสถานการณ์…" · ช้อย/bullet ไม่ซ้ำกัน
+  ตัวเลขข้างล่าง (MIN เดิม) ใช้แค่ --thin = รายงานข้อเก่าที่บางเพื่อหางานที่เหลือ ไม่ใช่เกณฑ์ push
   interp   ตีความโจทย์: คำใบ้ใน stem → โจทย์ถามอะไร         ≥ 100 ตัวอักษร
   why      ทำไมข้อถูกถูก + อ้างไฟล์/หน้า                     ≥ 350 ตัวอักษร (ไม่นับแท็ก HTML)
   wrong    ทุกช้อยผิด: ทำไมผิด + "จะถูกถ้า…" ไม่ซ้ำกัน       ทุกข้อ ≥ 100 ตัวอักษร
@@ -24,22 +27,27 @@ JUNK = re.compile(r"จะถูกถ้า\s*…|จะถูกถ้า\.\.\
 TXT = lambda x: re.sub(r"<[^>]+>", "", str(x or "")).strip()
 
 
+MINL = dict(interp=100, why=350, wrong=100, trap=120, sumN=5, sum=600, bullet=15, varN=3, variants=250)
+GATE = dict(interp=1, why=1, wrong=1, trap=1, sumN=1, sum=1, bullet=1, varN=1, variants=1)
+THIN = "--thin" in sys.argv
+
+
 def problems(q):
-    # เกณฑ์กลาง 24 พ.ย. 2026 (kit/มาตรฐานเฉลย.md · เท่าข้อสอบเก่า Gen Sx ยกเว้น opinion ที่ Unit ไม่มีคีย์ให้เห็นแย้ง)
+    M = MINL if THIN else GATE
     bad = []
-    if len(TXT(q.get("notes"))) < 30: bad.append("notes")
+    if len(TXT(q.get("notes"))) < (30 if THIN else 1): bad.append("notes")
     if not q.get("kimg"): bad.append("kimg")
-    if len(TXT(q.get("interp"))) < 100: bad.append("interp")
-    if len(TXT(q.get("why"))) < 350: bad.append("why")
+    if len(TXT(q.get("interp"))) < M["interp"]: bad.append("interp")
+    if len(TXT(q.get("why"))) < M["why"]: bad.append("why")
     w = q.get("wrong")
     items = list(w.values()) if isinstance(w, dict) else list(w or [])
-    if len(items) < len(q.get("opts") or []) - 1 or any(len(TXT(x)) < 100 or not re.search("จะถูก|จะเป็นคำตอบ|ไม่มีสถานการณ์", str(x)) or JUNK.search(str(x)) for x in items) or len(set(map(TXT, items))) < len(items):
+    if len(items) < len(q.get("opts") or []) - 1 or any(len(TXT(x)) < M["wrong"] or not re.search("จะถูก|จะเป็นคำตอบ|ไม่มีสถานการณ์", str(x)) or JUNK.search(str(x)) for x in items) or len(set(map(TXT, items))) < len(items):
         bad.append("wrong")
-    if len(TXT(q.get("trap"))) < 120: bad.append("trap")
+    if len(TXT(q.get("trap"))) < M["trap"]: bad.append("trap")
     s = [TXT(x) for x in (q.get("summary") or [])]
-    if len(s) < 5 or len("".join(s)) < 600 or any(len(x) < 15 for x in s): bad.append("summary")
+    if len(s) < M["sumN"] or len("".join(s)) < M["sum"] or any(len(x) < M["bullet"] for x in s) or len(set(s)) < len(s): bad.append("summary")
     v = [TXT(x if isinstance(x, str) else json.dumps(x, ensure_ascii=False)) for x in (q.get("variants") or [])]
-    if len(v) < 3 or len("".join(v)) < 250: bad.append("variants")
+    if len(v) < M["varN"] or len("".join(v)) < M["variants"] or len(set(v)) < len(v): bad.append("variants")
     if not TXT(q.get("src")): bad.append("src")
     return bad
 
@@ -61,7 +69,7 @@ def check(path):
 
 
 if __name__ == "__main__":
-    args = sys.argv[1:]
+    args = [a for a in sys.argv[1:] if a != "--thin"]
     files = sorted(glob.glob(os.path.join(ROOT, "data*/unit_*.js"))) if args == ["--all"] else args
     total = sum(check(f) for f in files)
-    if args != ["--all"]: sys.exit(1 if total else 0)
+    if args != ["--all"] and not THIN: sys.exit(1 if total else 0)
