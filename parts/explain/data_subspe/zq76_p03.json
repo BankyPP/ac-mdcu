@@ -1,0 +1,153 @@
+{
+ "MDCU76|RoA|21": {
+  "interp": "ทารก 2 เดือน ตัวเหลืองนาน อุจจาระซีด (acholic) + US ไม่เห็นถุงน้ำดี → สงสัย biliary atresia (BA) อย่างมาก · ถาม next step = ยืนยันการวินิจฉัยก่อนทำ Kasai ไม่ใช่ทำ Kasai ทันทีหรือรอ",
+  "why": "BA = ท่อน้ำดีนอกตับอักเสบตีบตันแบบลุกลาม ทำให้ตับแข็งภายในไม่กี่เดือนถ้าไม่ผ่าตัด · direct hyperbilirubinemia + อุจจาระซีด + US ไม่เห็นถุงน้ำดี (หรือถุงเล็กผิดรูป, triangular cord sign) ชวนให้คิดถึง BA แต่ไม่มีการตรวจก่อนผ่าตัดใดยืนยันได้แน่นอน · ต้องยืนยันด้วย intraoperative cholangiography (gold standard): ฉีดสารทึบรังสีเข้าถุงน้ำดีที่เหลือ ถ้าสารไม่ผ่านขึ้นตับหรือลงลำไส้ = BA แล้วทำ Kasai portoenterostomy ต่อในผ่าตัดเดียวกัน · ถ้าสารผ่านดี (เช่น Alagille, neonatal hepatitis) จะไม่ตัด porta hepatis โดยไม่จำเป็น · เวลาสำคัญ: Kasai ก่อนอายุราว 60 วันน้ำดีไหลดีกว่า ทารกรายนี้อายุ 2 เดือนแล้วจึงต้องรีบ (ลายมือคีย์: triangular cord positive → IOC)",
+  "wrong": {
+   "B": "Kasai โดยไม่ยืนยัน anatomy ก่อนไม่ถูกต้อง — IOC ทำในการผ่าตัดเดียวกันเพื่อยืนยันว่าท่อน้ำดีอุดตันจริงก่อนตัด porta hepatis (ป้องกันผ่าตัดผิดในโรคอื่น เช่น Alagille, neonatal hepatitis) · จะถูกถ้า IOC ยืนยัน biliary atresia แล้ว",
+   "C": "Liver transplantation ใช้เมื่อ Kasai ล้มเหลว หรือมาช้าจนเป็นตับแข็ง decompensated; จะถูกถ้าหลัง Kasai 3 เดือนน้ำดีไม่ไหล bilirubin ยังสูง ตัวเหลืองไม่ลด",
+   "D": "UDCA เป็นยาเสริมหลัง Kasai (ช่วยให้น้ำดีไหล) ไม่ใช่การรักษาหลักและไม่แก้ท่อน้ำดีที่ตีบตัน; จะถูกถ้าทารกหลัง Kasai ที่น้ำดีเริ่มไหล ใช้ร่วมกับยาปฏิชีวนะป้องกัน cholangitis และวิตามินที่ละลายในไขมัน",
+   "E": "การรอทำให้ตับแข็งเร็วขึ้น ผล Kasai แย่ลงทุกสัปดาห์ (ดีที่สุดก่อน 45–60 วัน) · จะถูกถ้าทารกตัวเหลืองแบบ unconjugated ที่อุจจาระสีปกติ (breast milk jaundice)"
+  },
+  "trap": "กระโดดไปทำ Kasai (ช้อย B ต้นฉบับ = ต่อตับกับ jejunum) โดยไม่ยืนยันกายวิภาคก่อน หรือรอดูเพราะคิดว่าเป็นตัวเหลืองธรรมดา — ตัวเหลืองเกิน 2 สัปดาห์ร่วมอุจจาระซีดต้องคิดถึง cholestasis ทุกราย",
+  "summary": [
+   "Biliary atresia: ท่อน้ำดีนอกตับอักเสบตีบตัน · direct hyperbilirubinemia + acholic stool + hepatomegaly ในทารก 2–8 สัปดาห์",
+   "ชนิด: type I ตันที่ common bile duct · II ที่ hepatic duct · III ตันถึง porta hepatis (ราว 90%) · บางรายร่วม polysplenia/situs anomaly (BASM)",
+   "USG: gallbladder ไม่เห็น/เล็กผิดรูป, triangular cord sign · HIDA: มีสาร uptake แต่ไม่ลงลำไส้",
+   "ยืนยัน: intraoperative cholangiogram ± liver biopsy",
+   "Kasai portoenterostomy (ตัด fibrous remnant ที่ porta hepatis + Roux-en-Y jejunum) ก่อน 60 วันน้ำดีไหลดีกว่า ราวครึ่งหนึ่งตัวเหลืองหาย · ภาวะแทรกซ้อน: cholangitis (บ่อยสุดในปีแรก), portal hypertension",
+   "Kasai ล้มเหลว → liver transplantation (BA เป็นข้อบ่งชี้ transplant ที่พบบ่อยสุดในเด็ก)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A ลายมือ triangular cord sign positive → IOC) มั่นใจสูง · ต้นฉบับมีช้อย 2 ตัว (B = ต่อตับกับ jejunum) เราเติม C–E และไม่มีภาพ US ในไฟล์",
+  "variants": [
+   "ทารกหลัง Kasai 1 เดือน มีไข้ อุจจาระกลับมาซีด bilirubin ขึ้น → ascending cholangitis → IV antibiotics",
+   "ทารก 5 เดือนเพิ่งมาด้วยตัวเหลือง ตับแข็ง ม้ามโต ascites → BA มาช้า → ประเมิน liver transplantation",
+   "ทารก cholestasis หน้าผากกว้าง คางแหลม มี murmur ของ peripheral pulmonary stenosis และ butterfly vertebrae → Alagille syndrome — ท่อน้ำดีเล็กแต่เปิด ไม่ทำ Kasai"
+  ]
+ },
+ "MDCU76|RoA|22": {
+  "interp": "เด็กมีใบหน้าผิดปกติสองข้างสมมาตร: ตาเฉียงลง coloboma ของหนังตาล่าง ขนตาล่างด้านในหาย โหนกแก้มเล็ก คางเล็ก หูผิดรูป สติปัญญาปกติ → spot diagnosis ของ mandibulofacial dysostosis",
+  "why": "Treacher Collins syndrome (mandibulofacial dysostosis) ถ่ายทอดแบบ autosomal dominant ส่วนใหญ่จาก TCOF1 (ราวครึ่งเป็น de novo) — การเจริญของ 1st/2nd pharyngeal arch ผิดปกติสองข้างสมมาตร · ลักษณะเด่น: ตาเฉียงลง (antimongoloid slant), coloboma ของหนังตาล่างส่วนนอกร่วมขนตาล่างด้านในหาย, zygoma/malar hypoplasia (แก้มแบน), micrognathia, microtia ± conductive hearing loss, cleft palate บางราย · สติปัญญาปกติ · ความผิดปกติที่สองข้างเท่ากันแยกจาก hemifacial microsomia ที่เป็นข้างเดียว",
+  "wrong": {
+   "B": "Pierre Robin sequence: micrognathia → glossoptosis → ทางเดินหายใจอุด ± U-shaped cleft palate ไม่มี coloboma หรือ zygoma hypoplasia; จะถูกถ้าทารกแรกเกิดคางเล็ก ลิ้นตกไปด้านหลัง หายใจลำบากเวลานอนหงาย มีเพดานโหว่รูปตัว U",
+   "C": "Hemifacial microsomia เป็นข้างเดียวไม่สมมาตร (ramus ขากรรไกรสั้น หูเล็กข้างเดียว); จะถูกถ้าเด็กหูเล็กและขากรรไกรเล็กข้างเดียว มุมปากเบี้ยว ± epibulbar dermoid และ vertebral anomaly (Goldenhar)",
+   "D": "Crouzon syndrome: craniosynostosis หลายรอยต่อ + midface hypoplasia + ตาโปน มือเท้าปกติ; จะถูกถ้าเด็กหัวรูปผิดปกติ ตาโปนมาก กลางหน้าแบน มือเท้าปกติ",
+   "E": "Apert syndrome: craniosynostosis (มัก coronal) + midface hypoplasia + syndactyly ของมือเท้าแบบกระดูกเชื่อม อาจมีพัฒนาการช้า; จะถูกถ้าเด็กหัวสูง ตาโปน และนิ้วมือนิ้วเท้าติดกันทั้งหมด (mitten hand)"
+  },
+  "trap": "สับสนกับ hemifacial microsomia — ดูว่าสองข้างสมมาตร (Treacher Collins) หรือข้างเดียว · micrognathia มีทั้ง Pierre Robin และ Treacher Collins แต่ coloboma + zygoma hypoplasia เป็นของ Treacher Collins",
+  "summary": [
+   "Treacher Collins: AD (TCOF1 ส่วนใหญ่; POLR1C/D) ราวครึ่งเป็น de novo · สองข้างสมมาตร · สติปัญญาปกติ · expressivity ต่างกันมากในครอบครัวเดียวกัน",
+   "Signs: antimongoloid slant, lower eyelid coloboma, absent medial lower lashes, zygomatic hypoplasia, micrognathia, microtia, conductive hearing loss",
+   "ปัญหาเร่งด่วน: airway (micrognathia, choanal ตีบ) — จัดท่า nasopharyngeal airway → mandibular distraction หรือ tracheostomy · ตรวจการได้ยินตั้งแต่แรกเกิด (bone conduction hearing aid)",
+   "ลำดับผ่าตัดโดยทีม: airway (แรกเกิด) → cleft palate (ราว 1 ปี) → ซ่อมหู/microtia ด้วยกระดูกอ่อนซี่โครง (วัยเรียน) → zygoma/orbit reconstruction → orthognathic surgery หลังโตเต็มที่",
+   "DDx: hemifacial microsomia (ข้างเดียว), Nager syndrome (+ limb anomaly)"
+  ],
+  "opinion": "ต้นฉบับจดแค่ \"Spot dx รูป treacher collins\" ไม่มีรูปและช้อย — ไฟล์ Key 76A แปะรูป Common Signs in Treacher Collins syndrome · เราบรรยายลักษณะใน stem และแต่งช้อย ตอบ A มั่นใจสูง",
+  "variants": [
+   "ทารกแรกเกิด Treacher Collins ออกซิเจนต่ำเวลานอนหงาย → จัดท่านอนตะแคง/คว่ำ + nasopharyngeal airway ถ้าไม่พอ → mandibular distraction หรือ tracheostomy",
+   "เด็ก Treacher Collins อายุ 1 ปีพูดช้า → ตรวจการได้ยิน (conductive hearing loss จากหูชั้นกลางผิดรูป) → bone conduction hearing aid",
+   "พ่อมีตาเฉียงลงและโหนกแก้มเล็กเล็กน้อย ลูกเป็น Treacher Collins ชัดเจน → AD ที่ expressivity ต่างกัน ลูกคนต่อไปเสี่ยง 50%"
+  ]
+ },
+ "MDCU76|RoA|23": {
+  "interp": "ผู้ป่วย triple-vessel disease จะทำ CABG → ถามการต่อ graft ที่ patency ระยะยาวดีที่สุดและเพิ่มการรอดชีวิต = การจับคู่ conduit ที่ดีที่สุดกับเส้นเลือดที่สำคัญที่สุด",
+  "why": "LIMA (left internal mammary artery) มี endothelium ที่สร้าง nitric oxide/prostacyclin ได้ดีและต้าน atherosclerosis จึง patency ระยะยาวสูงที่สุดในบรรดา conduit · LAD เลี้ยงกล้ามเนื้อหัวใจส่วนใหญ่ของ left ventricle จึงควรได้ conduit ที่ดีที่สุด · การศึกษาคลาสสิก (Loop 1986) พบว่า LIMA–LAD เพิ่ม survival เทียบกับ SVG–LAD → เป็นมาตรฐานของ CABG ทุกราย (class I) ส่วนเส้นอื่นใช้ SVG, radial artery หรือ RIMA ตามเหมาะสม",
+  "wrong": {
+   "B": "LIMA ต่อ circumflex (OM) ทำได้ (เช่น ใช้ RIMA–LAD + LIMA–OM ใน bilateral IMA) แต่เสียประโยชน์สูงสุดที่ควรให้กับ LAD ซึ่งเลี้ยงกล้ามเนื้อหัวใจมากที่สุด · จะถูกถ้า LAD ไม่มีรอยตีบที่ต้อง bypass หรือใช้ bilateral IMA",
+   "C": "SVG ต่อ LAD ใช้ได้แต่ patency ระยะยาวต่ำกว่า LIMA มาก (vein graft disease) และไม่ได้เพิ่ม survival เท่า; จะถูกถ้า LIMA ใช้ไม่ได้ เช่น subclavian artery ซ้ายตีบ หรือผ่าตัดฉุกเฉินในผู้ป่วยไม่คงที่",
+   "D": "Radial artery เป็น arterial conduit ที่สองที่ดี (patency ดีกว่า SVG เมื่อเส้นเป้าหมายตีบรุนแรง) แต่ไม่ใช่ graft ที่พิสูจน์ survival benefit สูงสุด; จะถูกถ้าผู้ป่วยอายุน้อย RCA ตีบ > 90% ต้องการ arterial conduit ที่สองหลังใช้ LIMA–LAD แล้ว",
+   "E": "SVG ต่อ RCA ใช้ทั่วไปแต่ patency ต่ำกว่า arterial graft; จะถูกถ้าผู้ป่วยสูงอายุ 80 ปี ต้องการผ่าตัดสั้น ต่อ RCA หลังใช้ LIMA–LAD แล้ว (SVG ยังเป็น conduit ที่ใช้บ่อยที่สุดสำหรับเส้นอื่น)"
+  },
+  "trap": "ไม่จำว่า target สำคัญที่สุดคือ LAD หรือคิดว่า radial artery ดีพอกันเพราะเป็น arterial conduit — survival benefit ที่พิสูจน์ชัดคือ LIMA–LAD",
+  "summary": [
+   "CABG indications: left main disease, triple vessel (โดยเฉพาะ LVEF ต่ำ/เบาหวาน), 2-vessel with proximal LAD",
+   "Patency ที่ 10 ปี: LIMA–LAD > 90% · radial artery ราว 80–90% (เมื่อเป้าหมายตีบรุนแรง) · SVG ราว 50–60%",
+   "Conduit อื่น: RIMA, radial artery (ทำ Allen test ก่อน), great saphenous vein",
+   "SYNTAX score ช่วยเลือก CABG vs PCI",
+   "เบาหวาน + multivessel → CABG ดีกว่า PCI (FREEDOM trial)",
+   "LIMA ใช้แบบ in situ (คงต้นทางจาก subclavian) → ต้องแน่ใจว่า subclavian ซ้ายไม่ตีบ · bilateral IMA เพิ่มโอกาส sternal wound infection ในเบาหวาน/อ้วน (เลาะแบบ skeletonized ช่วยลด)",
+   "หลังผ่าตัด: aspirin ตลอดชีวิต + statin ขนาดสูง ลด graft failure · ภาวะแทรกซ้อนที่พบบ่อย: AF หลังผ่าตัด (ราว 20–40%), stroke, sternal wound infection"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A) มั่นใจสูง — LIMA–LAD เป็นคำแนะนำ class I ทั้ง ESC/EACTS และ ACC/AHA · ต้นฉบับมีช้อย 2 ตัว เราเติม C–E",
+  "variants": [
+   "หลัง CABG (LIMA–LAD) ผู้ป่วยเจ็บหน้าอกเวลาใช้แขนซ้าย ความดันแขนซ้ายต่ำกว่าขวา 30 mmHg → coronary-subclavian steal → ขยาย subclavian artery ซ้าย (stent)",
+   "ผู้ป่วย left main ตีบ 70% ร่วม multivessel SYNTAX score 35 → CABG ดีกว่า PCI",
+   "ผู้ป่วยเคยฉายรังสีที่ทรวงอกซ้ายรักษามะเร็งเต้านม → LIMA อาจเสียหาย → ประเมินก่อนใช้ หรือใช้ RIMA/SVG ต่อ LAD"
+  ]
+ },
+ "MDCU76|RoA|24": {
+  "interp": "ถามกลุ่มอาการที่สัมพันธ์กับ omphalocele — ต่างจาก gastroschisis ตรงที่ omphalocele มีความผิดปกติร่วมสูง (โครโมโซม หัวใจ กลุ่มอาการ) ต้องเลือกช้อยที่อยู่ในกลุ่มนี้",
+  "why": "Omphalocele เกิดจากลำไส้ที่ออกไปนอกช่องท้องตามปกติช่วงสัปดาห์ที่ 6–10 ไม่กลับเข้าช่องท้อง และผนังหน้าท้องที่สะดือปิดไม่สมบูรณ์ → ไส้ออกตรงสะดือ มีถุง (amnion + peritoneum) คลุม · เป็นความผิดปกติของ embryogenesis ช่วงต้น จึงมักมีความผิดปกติร่วม (ราวครึ่งถึงสองในสาม): chromosomal anomaly — trisomy 13, 18, 21 (ถุงเล็กที่มีแค่ลำไส้สัมพันธ์กับโครโมโซมมากกว่าถุงที่มีตับ), Beckwith–Wiedemann syndrome, pentalogy of Cantrell, cloacal exstrophy และหัวใจพิการ · ในช้อยมีแค่ Down syndrome (trisomy 21) ที่อยู่ในกลุ่มนี้ ส่วนกลุ่มอาการอื่นไม่สัมพันธ์กับผนังหน้าท้องผิดปกติ",
+  "wrong": {
+   "B": "Noonan syndrome (PTPN11, AD): pulmonary valve stenosis, hypertrophic cardiomyopathy, คอเป็นแผง ตัวเตี้ย ไม่สัมพันธ์กับ omphalocele; จะถูกถ้าเด็กชายตัวเตี้ย คอเป็นแผง อัณฑะไม่ลง ร่วม pulmonary stenosis",
+   "C": "Turner syndrome (45,X): cystic hygroma/หลังมือเท้าบวมในทารก, coarctation, bicuspid aortic valve, horseshoe kidney ไม่สัมพันธ์กับ omphalocele; จะถูกถ้าทารกหญิงหลังมือเท้าบวม คอเป็นแผง และมี coarctation of aorta",
+   "D": "DiGeorge syndrome (22q11.2 deletion): conotruncal heart defect (truncus, interrupted arch, TOF), hypocalcemia, thymus เล็ก ไม่สัมพันธ์กับ omphalocele; จะถูกถ้าทารกที่มี interrupted aortic arch ชักจาก hypocalcemia",
+   "E": "Marfan syndrome (FBN1): aortic root โต เลนส์ตาเคลื่อนขึ้นบน แขนขายาว ไม่สัมพันธ์กับผนังหน้าท้อง; จะถูกถ้าวัยรุ่นรูปร่างสูงผอม แขนขายาว เลนส์ตาเคลื่อน และ aortic root โต"
+  },
+  "trap": "จำแต่ trisomy 13/18 แล้วลังเลกับ trisomy 21 — omphalocele สัมพันธ์กับทั้งสาม · อีกจุดคือสับสนกับ gastroschisis ซึ่งความผิดปกติร่วมที่สำคัญคือ intestinal atresia ไม่ใช่ chromosomal",
+  "summary": [
+   "Omphalocele: ไส้ออกตรง umbilicus มีถุงคลุม (amnion + peritoneum) cord ติดที่ถุง",
+   "Associated: trisomy 13/18/21, Beckwith-Wiedemann, pentalogy of Cantrell (sternal cleft, ectopia cordis, anterior diaphragmatic hernia, cardiac defect, epigastric omphalocele), cloacal exstrophy",
+   "Gastroschisis: ขวาของ cord ไม่มีถุง associated anomaly น้อย (intestinal atresia)",
+   "Beckwith–Wiedemann: macroglossia, macrosomia, hemihypertrophy, neonatal hypoglycemia → เสี่ยง Wilms tumor/hepatoblastoma ต้อง US ท้อง + AFP คัดกรองเป็นระยะ",
+   "Workup: echo, karyotype, glucose (BWS)",
+   "Tx: primary closure หรือ staged (silo/paint-and-wait สำหรับ giant omphalocele)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A ลายมือ trisomy 13, 18, 21 · Beckwith-Wiedemann · pentalogy of Cantrell · exstrophy of cloaca) มั่นใจสูง · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "variants": [
+   "ทารกมี omphalocele ร่วม macroglossia น้ำตาลต่ำซ้ำ ๆ → Beckwith–Wiedemann → ให้ glucose ป้องกันสมองเสียหาย + คัดกรอง Wilms/hepatoblastoma",
+   "ทารกมี omphalocele ที่ epigastrium ร่วม sternum แยก หัวใจอยู่นอกทรวงอก → pentalogy of Cantrell",
+   "Giant omphalocele มีตับอยู่ในถุง ปิดผนังไม่ได้ → paint-and-wait (ทายาให้ถุงตกสะเก็ดและผิวหนังงอกคลุม) แล้วซ่อม ventral hernia ภายหลัง"
+  ]
+ },
+ "MDCU76|RoA|25": {
+  "interp": "ทารกแรกเกิดเพศกำกวม → ถามการตรวจที่ \"เร่งด่วนที่สุด\": สาเหตุที่พบบ่อยที่สุดคือ congenital adrenal hyperplasia ซึ่งชนิดเสียเกลือทำให้ช็อกถึงตายได้ใน 1–2 สัปดาห์แรก จึงต้องตรวจสิ่งที่คุกคามชีวิตก่อนการหาสาเหตุ",
+  "why": "สาเหตุที่พบบ่อยที่สุดของ ambiguous genitalia ในทารกคือ CAH จาก 21-hydroxylase deficiency (ทารก 46,XX ที่ถูก virilize) · การขาดเอนไซม์ทำให้ cortisol และ aldosterone ต่ำ สารตั้งต้น (17-OHP) ถูกเปลี่ยนเป็น androgen มากเกิน · ราว 3/4 เป็นชนิด salt-wasting → hyponatremia, hyperkalemia, hypoglycemia, hypovolemic shock ราววันที่ 7–14 (ลายมือคีย์: กลัว hypovolemia, shock) · จึงต้องตรวจ electrolytes (และ glucose) ทันทีและติดตามซ้ำในสัปดาห์แรก ควบคู่ส่ง 17-OHP, karyotype/SRY และ pelvic US เพื่อหาสาเหตุ — karyotype สำคัญต่อการวินิจฉัยแต่ไม่ช่วยชีวิตเฉพาะหน้า",
+  "wrong": {
+   "B": "TFT ไม่เกี่ยวกับเพศกำกวมเร่งด่วน (congenital hypothyroidism คัดกรองด้วย TSH ทารกทุกคนอยู่แล้ว) · จะถูกถ้าทารกตัวเหลืองนาน ลิ้นใหญ่ สะดือจุ่น",
+   "C": "CT มีรังสีสูง และในทารก US เห็นมดลูก gonad และ adrenal ได้ดีกว่า; จะถูกถ้าเด็กโตมี virilization เร็วจากก้อนที่ต่อมหมวกไต (adrenocortical tumor) ที่ต้องประเมินก่อนผ่าตัด",
+   "D": "Calcium ไม่ช่วยวินิจฉัยหรือดูแลเพศกำกวม และ CAH ไม่ทำให้ calcium ผิดปกติ; จะถูกถ้าทารกชักจาก hypocalcemia (DiGeorge, ลูกแม่เบาหวาน, ทารกคลอดก่อนกำหนด)",
+   "E": "Gonadal biopsy ทำภายหลังในบางราย (ovotesticular DSD, gonadal dysgenesis) ไม่ใช่เร่งด่วน · จะถูกถ้า karyotype/hormone ไม่ชัดและต้องการพิสูจน์ชนิดเนื้อเยื่อ gonad"
+  },
+  "trap": "ตอบ karyotype หรือ imaging เพราะคิดว่าเป็นคำถามหาสาเหตุ — \"most urgent\" คือภาวะที่ทำให้ทารกเสียชีวิตก่อน: salt-wasting crisis · และทารกชายที่เป็น CAH อวัยวะเพศดูปกติ จึงพลาดได้จนกว่าจะช็อก (การคัดกรอง 17-OHP แรกเกิดช่วยจับได้)",
+  "summary": [
+   "21-hydroxylase deficiency: cortisol + aldosterone ↓, androgen ↑ (17-OHP สะสม)",
+   "46,XX virilized · ชายดูปกติแต่ salt-wasting crisis วันที่ 7–14",
+   "Lab: Na ↓, K ↑, glucose ↓, 17-OHP ↑↑",
+   "รักษา: hydrocortisone + fludrocortisone + NaCl · crisis: NSS + stress-dose hydrocortisone",
+   "DSD แบ่งตาม karyotype: 46,XX DSD (CAH พบบ่อยสุด, androgen จากแม่) · 46,XY DSD (androgen insensitivity, 5α-reductase deficiency, gonadal dysgenesis) · sex chromosome DSD (45,X/46,XY mixed gonadal dysgenesis, ovotesticular)",
+   "DSD workup: karyotype/SRY, pelvic USG, 17-OHP, testosterone/DHT, LH/FSH, AMH · อย่าเพิ่งกำหนดเพศจนกว่าทีมประเมินเสร็จ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A วง A + 17-OHP ↑) มั่นใจสูง · ต้นฉบับมีช้อยเดียว เราเติม B–E โดยเลี่ยง karyotype ที่ต้องส่งเช่นกัน จึงถามว่า \"most urgent\"",
+  "variants": [
+   "ทารกชาย 10 วัน อวัยวะเพศปกติ อาเจียน น้ำหนักลด Na 122 K 7.2 → salt-wasting CAH → NSS bolus + hydrocortisone stress dose",
+   "ทารก 46,XY อวัยวะเพศภายนอกเป็นหญิง คลำ gonad ได้ที่ขาหนีบ ไม่มีมดลูก → complete androgen insensitivity syndrome",
+   "ทารกเพศกำกวม คลำ gonad ไม่ได้ทั้งสองข้าง → ถือว่าอาจเป็น 46,XX CAH จนกว่าจะพิสูจน์ได้ ห้ามสรุปว่าอัณฑะไม่ลงสองข้าง"
+  ]
+ },
+ "MDCU76|RoA|26": {
+  "interp": "ผู้ป่วยก้อนใหญ่ supratentorial เกิดรูม่านตาขยาย + อ่อนแรงครึ่งซีกข้างเดียวกับก้อน แล้วหมดสติ → อาการอ่อนแรงอยู่ผิดข้างจากที่คาด จึงเป็น false-localizing sign ของ uncal herniation · ถามชื่อปรากฏการณ์",
+  "why": "Uncal (transtentorial) herniation ปกติ: uncus ของ temporal lobe เคลื่อนผ่านขอบ tentorium กด CN III ข้างเดียวกัน (parasympathetic fiber อยู่ด้านนอก → รูม่านตาขยายก่อน) และกด cerebral peduncle ข้างเดียวกัน ซึ่ง corticospinal tract ยังไม่ไขว้ → อ่อนแรงข้ามข้าง · Kernohan phenomenon: ก้อนดัน midbrain เคลื่อนไปทางตรงข้ามจน cerebral peduncle ข้างตรงข้ามถูกกดกับขอบ tentorium (Kernohan's notch) → อ่อนแรงข้างเดียวกับก้อน ทำให้ระบุข้างผิดได้ · ในทางปฏิบัติรูม่านตาที่ขยายบอกข้างของก้อนได้แม่นกว่า hemiparesis",
+  "wrong": {
+   "B": "Cushing reflex (triad) = ความดันสูง + ชีพจรช้า + หายใจผิดปกติ จาก ICP สูงระยะท้าย ไม่ใช่อาการบอกข้าง; จะถูกถ้าผู้ป่วยบาดเจ็บศีรษะซึมลง BP 190/100 ชีพจร 48 หายใจไม่สม่ำเสมอ",
+   "C": "Central transtentorial herniation: diencephalon เคลื่อนลงตรง ๆ จากสมองบวมทั่วไปหรือก้อนสองข้าง เริ่มจากซึม รูม่านตาเล็กแล้วค้างกลาง ไม่มีอาการข้างเดียวเด่น; จะถูกถ้าผู้ป่วย hydrocephalus/สมองบวมทั่วไป ซึมลงเรื่อย ๆ รูม่านตาเล็กสองข้าง หายใจแบบ Cheyne–Stokes",
+   "D": "Duret hemorrhage = เลือดออกเป็นจุด/เส้นใน midbrain–pons จากแขนง basilar ฉีกเมื่อ brainstem ถูกดันลง เป็นผลระยะท้าย ไม่ใช่ชื่อ false-localizing sign; จะถูกถ้า CT หลังผู้ป่วย herniation พบเลือดออกแนวกลางใน pons",
+   "E": "Brown-Séquard = ไขสันหลังขาดครึ่งซีก: อ่อนแรงและเสีย proprioception ข้างเดียวกัน เสียความรู้สึกเจ็บ/อุณหภูมิข้ามข้าง ไม่ใช่โรคของสมอง; จะถูกถ้าผู้ป่วยถูกแทงที่หลังแล้วขาขวาอ่อนแรง ขาซ้ายไม่รู้สึกเจ็บ"
+  },
+  "trap": "จำสลับข้าง: uncal herniation ทั่วไปอ่อนแรงข้ามข้าง · Kernohan คือข้อยกเว้นที่อ่อนแรงข้างเดียวกัน — ตัดสินข้างของก้อนจากรูม่านตาที่ขยาย ไม่ใช่จากข้างที่อ่อนแรง",
+  "summary": [
+   "Uncal herniation: CN III ข้างเดียวกัน (pupil โตตอบสนองช้า → fixed) + อ่อนแรงข้ามข้าง + ซึมลง · รูม่านตาบอกข้างของก้อนได้ถูกราว 80–90%",
+   "Kernohan: hemiparesis ข้างเดียวกับ lesion (false localizing)",
+   "Herniation อื่น: subfalcine (ACA infarct), central, tonsillar (respiratory arrest), upward",
+   "Cushing triad บอก ICP สูงระยะท้าย",
+   "รักษาด่วน: หัวสูง 30°, hyperventilation ชั่วคราว, mannitol/hypertonic saline, ผ่าตัดเอาก้อน/เลือดออก",
+   "อาการเตือนก่อน herniation: ซึมลง GCS ลด ปวดศีรษะอาเจียนมาก รูม่านตาไม่เท่ากัน · ห้ามเจาะหลังในผู้ป่วยก้อนที่มี mass effect เพราะเร่ง herniation",
+   "เป้าหมายใน TBI รุนแรง (BTF 4th): ICP < 22 mmHg · CPP ราว 60–70 mmHg · hyperventilation ใช้ชั่วคราวระหว่างรอผ่าตัด (PaCO2 ต่ำมากทำให้สมองขาดเลือด)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A ลายมือ uncus → ipsilateral fixed dilated pupil, ipsilateral hemiparesis, coma) มั่นใจสูง · ต้นฉบับจดว่า \"ให้อาการของ kernohan phenomenon มา\" ไม่ได้จดอาการและมีช้อยเดียว เราเขียนอาการใน stem และเติม B–E",
+  "variants": [
+   "ผู้ป่วย acute SDH ซ้ายซึมลง รูม่านตาซ้ายขยาย แขนขาขวาอ่อนแรง → uncal herniation ทั่วไป → hyperosmolar therapy + craniotomy ด่วน",
+   "ผู้ป่วยก้อนที่ cerebellum ซึมลงทันทีแล้วหยุดหายใจ → tonsillar herniation กด medulla",
+   "ผู้ป่วยก้อน frontal ขวาขนาดใหญ่ เกิดขาซ้ายอ่อนแรงมากขึ้น CT พบ cingulate gyrus เคลื่อนใต้ falx → subfalcine herniation กด anterior cerebral artery"
+  ]
+ }
+}
