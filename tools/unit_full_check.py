@@ -8,11 +8,13 @@ python3 tools/unit_full_check.py --all          # ทุก data*/unit_*.js (ร
 ทุกข้อต้องมี:
   notes    สไลด์/ลายมือเขียนไว้ว่า (ยกคำจากไฟล์)          ≥ 30 ตัวอักษร
   kimg     รูปหน้าที่อ้าง                                   ≥ 1
-  interp   ตีความโจทย์: คำใบ้ใน stem → โจทย์ถามอะไร         ≥ 25 ตัวอักษร
-  why      ทำไมข้อถูกถูก + อ้างไฟล์/หน้า                     ≥ 150 ตัวอักษร (ไม่นับแท็ก HTML)
-  wrong    ทุกช้อยผิด: ทำไมผิด + "จะถูกถ้า…"                 ทุกข้อ ≥ 40 ตัวอักษร
-  trap     จุดหลอก/จุดที่สับสนบ่อย                          ≥ 25 ตัวอักษร
-  summary  สรุปความรู้จากข้อนี้                             ≥ 3 bullet
+  (ยกเกณฑ์ 24 พ.ย. 2026 ตาม kit/มาตรฐานเฉลย.md — เท่าข้อสอบเก่า Gen Sx)
+  interp   ตีความโจทย์: คำใบ้ใน stem → โจทย์ถามอะไร         ≥ 100 ตัวอักษร
+  why      ทำไมข้อถูกถูก + อ้างไฟล์/หน้า                     ≥ 350 ตัวอักษร (ไม่นับแท็ก HTML)
+  wrong    ทุกช้อยผิด: ทำไมผิด + "จะถูกถ้า…" ไม่ซ้ำกัน       ทุกข้อ ≥ 100 ตัวอักษร
+  trap     จุดหลอก/จุดที่สับสนบ่อย + วิธีแยก                 ≥ 120 ตัวอักษร
+  summary  สรุปความรู้รอบประเด็น                            ≥ 5 bullet รวม ≥ 600 (bullet ละ ≥ 15)
+  variants โจทย์แบบใหม่ที่อาจออก                            ≥ 3 ข้อ รวม ≥ 250
   src      ที่มา (บท · ไฟล์/หน้า · สัญลักษณ์ · ตัวพิมพ์/ลายมือ)
 """
 import glob, json, os, re, subprocess, sys
@@ -23,17 +25,21 @@ TXT = lambda x: re.sub(r"<[^>]+>", "", str(x or "")).strip()
 
 
 def problems(q):
+    # เกณฑ์กลาง 24 พ.ย. 2026 (kit/มาตรฐานเฉลย.md · เท่าข้อสอบเก่า Gen Sx ยกเว้น opinion ที่ Unit ไม่มีคีย์ให้เห็นแย้ง)
     bad = []
     if len(TXT(q.get("notes"))) < 30: bad.append("notes")
     if not q.get("kimg"): bad.append("kimg")
-    if len(TXT(q.get("interp"))) < 25: bad.append("interp")
-    if len(TXT(q.get("why"))) < 150: bad.append("why")
+    if len(TXT(q.get("interp"))) < 100: bad.append("interp")
+    if len(TXT(q.get("why"))) < 350: bad.append("why")
     w = q.get("wrong")
     items = list(w.values()) if isinstance(w, dict) else list(w or [])
-    if len(items) < len(q.get("opts") or []) - 1 or any(len(TXT(x)) < 40 or "จะถูก" not in str(x) or JUNK.search(str(x)) for x in items):
+    if len(items) < len(q.get("opts") or []) - 1 or any(len(TXT(x)) < 100 or not re.search("จะถูก|จะเป็นคำตอบ|ไม่มีสถานการณ์", str(x)) or JUNK.search(str(x)) for x in items) or len(set(map(TXT, items))) < len(items):
         bad.append("wrong")
-    if len(TXT(q.get("trap"))) < 25: bad.append("trap")
-    if len(q.get("summary") or []) < 3: bad.append("summary")
+    if len(TXT(q.get("trap"))) < 120: bad.append("trap")
+    s = [TXT(x) for x in (q.get("summary") or [])]
+    if len(s) < 5 or len("".join(s)) < 600 or any(len(x) < 15 for x in s): bad.append("summary")
+    v = [TXT(x if isinstance(x, str) else json.dumps(x, ensure_ascii=False)) for x in (q.get("variants") or [])]
+    if len(v) < 3 or len("".join(v)) < 250: bad.append("variants")
     if not TXT(q.get("src")): bad.append("src")
     return bad
 
