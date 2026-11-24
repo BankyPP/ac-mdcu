@@ -1,0 +1,268 @@
+{
+ "MDCU76|RoD|12": {
+  "interp": "ฝีที่ไตขวาอยู่ติดกับ ascending colon ที่ติดเชื้อรุนแรง · ถามเส้นทางที่เชื้อลามมาที่ไตตามการแบ่ง route ของการติดเชื้อทางเดินปัสสาวะในตำรา",
+  "why": "ตำรา urology แบ่งทางเข้าของเชื้อสู่ทางเดินปัสสาวะเป็น 3 ทาง: ascending (พบบ่อยที่สุด), hematogenous (พบน้อย) และ lymphatic (พบน้อยมาก) · ทาง lymphatic คือเชื้อจากอวัยวะข้างเคียงที่ติดเชื้อรุนแรง เช่น ลำไส้ใหญ่ หรือฝีหลังเยื่อบุช่องท้อง ลามผ่านท่อน้ำเหลืองมาที่ไต ซึ่งตำราจัด \"direct extension จากอวัยวะข้างเคียง\" ไว้ในกลุ่มนี้ (ลายมือในคีย์: severe bowel infection) · ลำไส้ ascending colon ที่ติดเชื้อรุนแรงอยู่ติดไตขวาจึงตรงกับ lymphatic route",
+  "wrong": {
+   "A": "Vascular คือเชื้อมากับกระแสเลือด (ความหมายเดียวกับ hematogenous) มักเกิดฝีในเนื้อไตหลายจุดโดยไม่มีอวัยวะข้างเคียงติดเชื้อ; จะถูกถ้าผู้ป่วยติดยาเสพติดชนิดฉีดหรือมีฝีที่ผิวหนังจาก S. aureus แล้วเกิดฝีในเนื้อไตหลายจุด (renal carbuncle) ทั้งที่ทางเดินปัสสาวะปกติ",
+   "C": "Direct contamination ไม่ใช่ชื่อ route ในการแบ่งของตำรา (การลามจากอวัยวะข้างเคียงถูกจัดไว้ใน lymphatic); จะถูกถ้าเป็นการนำเชื้อเข้าไตโดยตรงจากหัตถการ เช่น ไข้และฝีที่ไตหลังใส่ percutaneous nephrostomy",
+   "D": "Hematogenous พบน้อย มักเป็น S. aureus หรือ Candida ที่มากับเลือด ไม่ได้ลามจากลำไส้ข้างเคียง; จะถูกถ้าผู้ป่วยติดยาเสพติดชนิดฉีดหรือมีฝีที่ผิวหนังจาก S. aureus แล้วเกิดฝีในเนื้อไตหลายจุด (renal carbuncle) ทั้งที่ทางเดินปัสสาวะปกติ",
+   "E": "Transcoelomic คือการกระจายของมะเร็งผ่านช่องเยื่อบุช่องท้อง ไม่ใช่ทางติดเชื้อของทางเดินปัสสาวะ; ไม่มีสถานการณ์ใดที่การติดเชื้อไตใช้ route นี้ เพราะเป็นคำที่ใช้กับการกระจายของมะเร็ง (เช่น มะเร็งรังไข่ไปเยื่อบุช่องท้อง)"
+  },
+  "trap": "เลือก direct contamination ตามความรู้สึก — ข้อนี้ถามตามการแบ่ง route ในตำรา ซึ่งจัดการลามจากอวัยวะข้างเคียงไว้ใน lymphatic",
+  "summary": [
+   "Ascending (พบบ่อยที่สุด): เชื้อลำไส้ (E. coli) → perineum → urethra → bladder → ท่อไต → ไต",
+   "Hematogenous: S. aureus, Candida, TB → renal cortical abscess/carbuncle (มักทางเดินปัสสาวะปกติ)",
+   "Lymphatic: จากลำไส้ติดเชื้อรุนแรงหรือฝีหลังเยื่อบุช่องท้องข้างเคียง",
+   "Renal abscess: < 3 cm → ยาปฏิชีวนะ · 3–5 cm → ยา ± ระบาย · > 5 cm หรือไม่ดีขึ้น → percutaneous drainage · perinephric abscess ส่วนใหญ่ต้องระบาย"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ 2 ความมั่นใจปานกลาง — ช้อย direct contamination ฟังดูถูกตามสามัญสำนึก แต่ตำรา Campbell-Walsh จัดการลามจากอวัยวะข้างเคียงไว้ใน lymphatic route",
+  "variants": [
+   "หญิงเบาหวานไข้ไม่ลงหลังยาปฏิชีวนะ 72 ชม. CT พบฝีในไต 6 cm → percutaneous drainage + ยาปฏิชีวนะต่อ",
+   "ชายไข้ ปวดเอว CT พบ perinephric abscess ร่วมนิ่วอุดท่อไต → ระบายฝีและแก้การอุดตัน (stent หรือ PCN)",
+   "ผู้ป่วย Crohn ที่ terminal ileum มีฝีหลังเยื่อบุช่องท้องลามติด psoas และไตขวา → ระบายฝี แล้วผ่าตัดลำไส้ส่วนที่เป็นต้นเหตุ"
+  ]
+ },
+ "MDCU76|RoD|13": {
+  "interp": "ทารกชายอายุ 3 ชม. ไม่มีรูทวาร ยังไม่เห็น meconium ที่ perineum หรือในปัสสาวะ ไม่เห็น fistula · ถามการจัดการ \"ตอนนี้\" (ช่วงชั่วโมงแรก)",
+  "why": "ในชั่วโมงแรก ๆ ความดันในลำไส้ยังไม่พอดัน meconium ผ่าน fistula เล็กออกมาให้เห็น และลมยังลงไม่ถึง rectum → ตัดสินชนิดยังไม่ได้ · แนวทางคือรอ 16–24 ชม.: งดนม ให้สารน้ำ ใส่สายระบายกระเพาะ ตรวจหาความผิดปกติร่วม แล้วตรวจ perineum และปัสสาวะซ้ำ (ลายมือในคีย์: รอดูว่า meconium จะออกมาทางไหน) · เห็น perineal fistula → anoplasty · meconium ในปัสสาวะ → colostomy · ไม่เห็นอะไรเลยที่ 24 ชม. → prone cross-table lateral radiograph",
+  "wrong": {
+   "A": "Cross-table lateral film ตอน 3 ชม. ลมยังไม่ถึงปลาย rectum ทำให้เห็นถุงลำไส้สูงกว่าความจริง; จะถูกถ้าทารกอายุ 24 ชม. แล้วยังไม่เห็น meconium ที่ perineum หรือในปัสสาวะ",
+   "C": "Colostomy ตัดสินหลังรู้ชนิด ยังเร็วไปตอน 3 ชม.; จะถูกถ้าทารกชายมี meconium ปนในปัสสาวะ (rectourinary fistula)",
+   "D": "PSARP/anoplasty ทำเมื่อรู้ชนิดแล้วว่าเป็นชนิดต่ำ; จะถูกถ้าทารกชายมี meconium ออกที่ perineum ตามแนว raphe ชัดเจน (perineal fistula) → anoplasty ในช่วงแรกเกิด",
+   "E": "CT ไม่ใช่การตรวจมาตรฐานของ ARM ในทารก ให้รังสีมากและไม่เปลี่ยนการตัดสินใจ; ไม่มีสถานการณ์ใดที่ CT ช่องท้องเป็นการตรวจแรกของทารก ARM เพราะการตรวจร่างกายซ้ำ ultrasound และ cross-table film ให้ข้อมูลพอ"
+  },
+  "trap": "สั่ง cross-table film หรือ invertogram ทันทีหลังคลอด — ภาพที่ถ่ายเร็วเกินไปจะหลอกว่าถุงลำไส้อยู่สูง",
+  "summary": [
+   "ระหว่างรอ 24 ชม.: งดนม, IV fluid, ใส่ OG/NG, ตรวจหา VACTERL (echo, ultrasound ไตและกระเพาะปัสสาวะ, ภาพกระดูกสันหลังและ sacrum, ultrasound ไขสันหลัง) · ความผิดปกติทางเดินปัสสาวะพบราวครึ่ง",
+   "ทารกชาย: perineal fistula → anoplasty · meconium ในปัสสาวะ (rectourethral/rectovesical) → colostomy → PSARP ภายหลัง",
+   "ทารกหญิง: perineal/vestibular fistula (ส่วนใหญ่) → anoplasty หรือ colostomy ตามความชำนาญ · มีรูเปิดรูเดียว (cloaca) → colostomy + ระบาย hydrocolpos/ทางเดินปัสสาวะ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 76D ลายมือ รอดูว่า meconium จะออกมาทางไหน) มั่นใจสูง",
+  "variants": [
+   "ทารกชายมี meconium เป็นแนวใต้ผิวหนังตาม raphe ลงไปถึง scrotum → perineal fistula → anoplasty",
+   "ทารกหญิงมีรูเปิดรูเดียวที่ perineum ท้องน้อยมีก้อน → cloaca ร่วม hydrocolpos → colostomy + ระบาย hydrocolpos",
+   "ทารก ARM อัลตราซาวนด์พบไตข้างเดียวและ hydronephrosis อีกข้าง → ประเมินทางเดินปัสสาวะเพิ่ม (VCUG) ก่อนผ่าตัดใหญ่"
+  ]
+ },
+ "MDCU76|RoD|14": {
+  "interp": "ภาพ prone cross-table lateral ของทารก ARM · ถามเส้นอ้างอิงบนภาพรังสีที่ใช้แบ่ง high กับ low",
+  "why": "ARM แบ่ง high/low ตามว่าปลายถุง rectum อยู่เหนือหรือผ่านกล้ามเนื้อ levator ani (puborectalis sling) ซึ่งมองไม่เห็นบนภาพรังสี จึงใช้ pubococcygeal (PC) line แทนระดับ levator (ลายมือในคีย์: pubococcygeal, puborectalis) · ลมในถุง rectum อยู่เหนือ PC line = high · อยู่ใต้ PC line และห่างผิวหนัง < 1 cm = low · ระหว่าง PC line กับ I line = intermediate",
+  "wrong": {
+   "A": "ปลาย coccyx เป็นจุดปลายข้างหนึ่งของ PC line ไม่ใช่เส้นอ้างอิงทั้งเส้น; ไม่มีสถานการณ์ใดที่ใช้ปลาย coccyx เพียงจุดเดียวแบ่ง high/low เพราะต้องใช้เส้นเทียบระดับ levator",
+   "B": "Levator ani เป็นโครงสร้างจริงที่ใช้แบ่ง แต่บนภาพรังสีมองไม่เห็น จึงใช้ PC line แทน; จะถูกถ้าแบ่งชนิดระหว่างผ่าตัด PSARP หรือดูจาก MRI ซึ่งเห็นกล้ามเนื้อโดยตรง",
+   "C": "I line (ischial line) ขนาน PC line ผ่านจุดต่ำสุดของ ischium ใช้แยก intermediate กับ low; จะถูกถ้าต้องการแยกว่าถุง rectum ที่อยู่ใต้ PC line แล้วเป็น intermediate หรือ low",
+   "E": "Sacrum ใช้ประเมิน sacral ratio และความผิดปกติของกระดูกสันหลัง ไม่ใช้แบ่ง high/low; จะถูกถ้าต้องการพยากรณ์การกลั้นอุจจาระหลังผ่าตัด"
+  },
+  "trap": "Levator ani กับ PC line หมายถึงระดับเดียวกัน — ข้อนี้ระบุว่าใช้ภาพรังสี จึงตอบเส้นบนภาพ",
+  "summary": [
+   "PC line: จากขอบบน pubic symphysis ถึง sacrococcygeal junction · I line: ขนาน PC line ผ่านจุดต่ำสุดของ ischium",
+   "Wingspread (high/intermediate/low) เป็นการแบ่งเดิม · Krickenbeck (ปัจจุบัน) แบ่งตามชนิด fistula: perineal, rectourethral (bulbar/prostatic), rectovesical (bladder neck), vestibular, cloaca, no fistula",
+   "Sacral ratio < 0.4 → พยากรณ์การกลั้นไม่ดี · ตรวจ tethered cord ร่วม"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ Key 76D ลายมือ pubococcygeal, high/low เทียบ PC line) มั่นใจปานกลาง — ถ้าโจทย์จริงไม่ได้ระบุว่าใช้ภาพรังสี levator ani ก็ถูก",
+  "variants": [
+   "ทารกชาย 24 ชม. cross-table พบลมในถุง rectum ห่างผิวหนัง 2 cm เหนือ PC line → high → colostomy แล้ว PSARP ภายหลัง",
+   "ทารกชาย 24 ชม. ไม่มี fistula ลมในถุง rectum ห่างผิวหนัง < 1 cm ไม่มีความผิดปกติร่วมที่สำคัญ → PSARP โดยไม่ต้อง colostomy",
+   "เด็ก ARM sacral ratio 0.3 → พยากรณ์การกลั้นอุจจาระไม่ดี วางแผน bowel management program"
+  ]
+ },
+ "MDCU76|RoD|15@p4#2": {
+  "interp": "ผู้สูงอายุปวดท้อง ท้องอืด ไม่ผายลมไม่ถ่าย (obstipation) · ภาพในข้อ (ตามที่บันทึกไว้) AXR ลำไส้ใหญ่โป่งเป็นห่วงใหญ่รูปตัว U กลับหัวจาก pelvis ขึ้นไปใต้กะบังลมซ้าย · ถามการวินิจฉัยเบื้องต้น",
+  "why": "Sigmoid colon ที่ยาวและ mesentery แคบบิดรอบแกนของตัวเอง เกิด closed-loop obstruction ห่วงที่บิดโป่งมากเป็นรูปตัว U กลับหัว (coffee bean sign — ลายมือในคีย์) ชี้จาก pelvis ขึ้นไปซ้ายบน · พบในผู้สูงอายุ ท้องผูกเรื้อรัง ติดเตียง โรคทางระบบประสาท/จิตเวช",
+  "wrong": {
+   "B": "Midgut volvulus เกิดจาก malrotation พบในทารกเป็นส่วนใหญ่ อาการเด่นคืออาเจียนน้ำดี; จะถูกถ้าทารกอายุ 3 วันอาเจียนน้ำดีทันที ท้องไม่อืด",
+   "C": "Fecal impaction เห็นก้อนอุจจาระอัดใน rectum ไม่ใช่ห่วงลำไส้โป่งรูปตัว U; จะถูกถ้าผู้สูงอายุติดเตียงท้องผูก ตรวจทางทวารพบอุจจาระแข็งอัดแน่น มีอุจจาระเหลวซึมรอบ (overflow)",
+   "D": "Cecal volvulus ห่วงโป่งเริ่มจากท้องขวาล่างชี้ไปซ้ายบน มี haustra และลำไส้เล็กโป่งร่วม; จะถูกถ้าผู้ป่วยอายุน้อยกว่า ภาพห่วงลำไส้รูปเมล็ดกาแฟเริ่มจาก RLQ ร่วมลำไส้เล็กโป่ง ไม่มีลมใน colon ส่วนปลาย",
+   "E": "Toxic megacolon คือ colon (มัก transverse) โป่ง > 6 cm ร่วมอาการพิษทั่วตัวใน colitis; จะถูกถ้าผู้ป่วย ulcerative colitis หรือ C. difficile มีไข้สูง ชีพจรเร็ว ท้องอืด transverse colon กว้าง 8 cm"
+  },
+  "trap": "สับสน sigmoid กับ cecal volvulus — ดูจุดเริ่มของห่วง (pelvis ซ้าย vs RLQ) haustra และลำไส้เล็กที่โป่งร่วม",
+  "summary": [
+   "ตรวจเพิ่ม: CT เห็น whirl sign ของ mesentery และ bird-beak · contrast enema เห็น bird-beak (ไม่ทำถ้าสงสัยลำไส้ตาย)",
+   "ไม่มี peritonitis/ลำไส้ตาย → ส่องกล้อง (sigmoidoscopy) คลายบิด + ใส่ rectal tube",
+   "หลังคลายบิดสำเร็จ เป็นซ้ำได้มาก → sigmoidectomy แบบ elective ในการนอนโรงพยาบาลครั้งเดียวกันถ้าผู้ป่วยพร้อม",
+   "ลำไส้ตาย/ทะลุ/peritonitis หรือคลายบิดไม่สำเร็จ → ผ่าตัด (Hartmann procedure ถ้าไม่คงที่)",
+   "Cecal volvulus: ส่องกล้องคลายมักไม่สำเร็จ → right hemicolectomy"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76D ลายมือ coffee bean sign และรูป sigmoid volvulus) มั่นใจสูง",
+  "variants": [
+   "Sigmoid volvulus มีไข้ กดเจ็บปล่อยเจ็บ ส่องกล้องเห็นเยื่อบุสีดำ → ไม่คลายบิดด้วยกล้อง ผ่าตัด Hartmann procedure",
+   "Sigmoid volvulus ไม่มี peritonitis → sigmoidoscopic detorsion + rectal tube แล้ววางแผน sigmoidectomy ก่อนกลับบ้าน",
+   "ผู้ป่วยติดเตียงสภาพไม่พร้อมผ่าตัด เป็น sigmoid volvulus ซ้ำหลายครั้ง → คลายด้วยกล้อง ± percutaneous endoscopic colostomy"
+  ]
+ },
+ "MDCU76|RoD|16": {
+  "interp": "Sigmoid diverticulitis มีไข้ กดเจ็บเฉพาะที่ ไม่มี rebound CT พบฝีข้างลำไส้ (pericolic) 5 cm · ถาม Hinchey stage (แบ่งตามตำแหน่งของหนอง ไม่ใช่ขนาด)",
+  "wrong": {
+   "B": "Hinchey II = ฝีที่อยู่ห่างจากลำไส้ (pelvic, intra-abdominal, retroperitoneal); จะถูกถ้า CT พบฝีใน pelvis หรือหลังเยื่อบุช่องท้องที่แยกห่างจาก sigmoid",
+   "C": "Hinchey III = purulent peritonitis; จะถูกถ้าผู้ป่วยกดเจ็บปล่อยเจ็บทั่วท้อง CT มีลมและน้ำอิสระ ผ่าตัดพบหนองทั่วช่องท้องโดยไม่มีอุจจาระ",
+   "D": "Hinchey IV = fecal peritonitis; จะถูกถ้าผ่าตัดพบอุจจาระในช่องท้องจาก sigmoid ที่ทะลุเปิด ผู้ป่วยช็อก",
+   "E": "Hinchey มีแค่ stage 0 ถึง IV; ไม่มีสถานการณ์ใดที่เป็น Hinchey V เพราะการแบ่งไม่มี stage นี้"
+  },
+  "trap": "ใช้ขนาด > 4 cm ตัดสิน stage ตามตารางบางแหล่ง (คีย์เองวง II) — Hinchey แบ่งตามตำแหน่ง ขนาดใช้ตัดสินว่าจะระบายหรือไม่",
+  "summary": [
+   "Modified Hinchey: 0 = อาการน้อย · Ia = pericolic phlegmon · Ib = pericolic abscess · II = distant abscess (pelvic/retroperitoneal) · III = purulent peritonitis · IV = fecal peritonitis",
+   "การรักษาตาม stage: Ia → ยาปฏิชีวนะ · Ib/II → ยา ± percutaneous drainage ตามขนาด · III → laparoscopic lavage หรือ sigmoidectomy (primary anastomosis ± diverting ileostomy ในรายคงที่ หรือ Hartmann) · IV → sigmoidectomy โดยทั่วไปเป็น Hartmann procedure"
+  ],
+  "variants": [
+   "Diverticulitis มี purulent peritonitis ผู้ป่วยคงที่ → sigmoidectomy + primary anastomosis ± diverting ileostomy (หรือ Hartmann)",
+   "Diverticulitis ผู้ป่วยช็อก ผ่าตัดพบอุจจาระในช่องท้อง → Hinchey IV → Hartmann procedure",
+   "CT พบฝี 6 cm ใน pelvis แยกห่างจาก sigmoid → Hinchey II"
+  ]
+ },
+ "MDCU76|RoD|17": {
+  "interp": "ชายสูงอายุปวดท้องซ้ายล่างร่วมไข้ 38°C สัญญาณชีพคงที่ กดเจ็บเฉพาะที่ ไม่มีก้อน · ถามการวินิจฉัย",
+  "why": "ปวด LLQ + ไข้ + กดเจ็บเฉพาะที่ในผู้สูงอายุ = sigmoid diverticulitis (\"appendicitis ข้างซ้าย\") เพราะ diverticula ในคนสูงอายุมักอยู่ที่ sigmoid · ผู้ป่วยคงที่ ไม่มีก้อน ไม่มี peritonitis จึงน่าจะเป็นชนิดไม่มีภาวะแทรกซ้อน (uncomplicated) · ยืนยันและแยกภาวะแทรกซ้อนด้วย CT ฉีดสี",
+  "wrong": {
+   "B": "มะเร็ง sigmoid มักเปลี่ยนนิสัยการขับถ่าย ถ่ายเป็นเลือด น้ำหนักลด ซีด ไม่ใช่ไข้และปวดเฉียบพลัน; จะถูกถ้าชาย 70 ปีถ่ายลำเล็กลง มีเลือดปน น้ำหนักลด 5 kg ใน 3 เดือน",
+   "C": "Ischemic colitis ปวดท้องเฉียบพลันแล้วถ่ายเป็นเลือดปนภายใน 24 ชม. ไข้ไม่เด่น; จะถูกถ้าผู้สูงอายุหลังความดันต่ำจากผ่าตัดหัวใจ ปวดท้องซ้ายแล้วถ่ายเป็นเลือดปนมูก",
+   "D": "Ureteric colic ปวดบิดเป็นพัก ๆ ร้าวลงขาหนีบ ปัสสาวะมีเลือด ไม่มีไข้ถ้าไม่ติดเชื้อ; จะถูกถ้าชายปวดบิดสีข้างซ้ายร้าวลงอัณฑะ กระสับกระส่าย ปัสสาวะมีเม็ดเลือดแดง",
+   "E": "Appendicitis ปวดรอบสะดือย้ายมา RLQ ไม่ใช่ LLQ; จะถูกถ้าผู้ป่วยปวดรอบสะดือแล้วย้ายมาท้องขวาล่าง กดเจ็บที่ McBurney point"
+  },
+  "trap": "ตอบมะเร็งเพราะผู้ป่วยสูงอายุ — อาการเฉียบพลันร่วมไข้เข้ากับ diverticulitis แต่ต้องส่องกล้องตัดมะเร็งหลังหายอักเสบ",
+  "summary": [
+   "Uncomplicated diverticulitis (ไม่มีฝี ทะลุ fistula อุดตัน): รักษาแบบผู้ป่วยนอกได้ถ้ากินได้ ปวดคุมได้ ภูมิคุ้มกันปกติ · ยาปฏิชีวนะใช้แบบเลือก (ASCRS/AGA ล่าสุด) — ให้ในผู้มีภูมิคุ้มกันต่ำ โรคร่วมมาก อาการรุนแรง หรือ CRP สูง",
+   "รับไว้ในโรงพยาบาลเมื่อกินไม่ได้ ปวดมาก อายุมากโรคร่วมมาก ภูมิคุ้มกันต่ำ หรือมีภาวะแทรกซ้อน",
+   "Colonoscopy หลังหายอักเสบ 6–8 สัปดาห์ ถ้ายังไม่เคยส่องที่มีคุณภาพเร็ว ๆ นี้ หรือเป็น complicated",
+   "Elective sigmoidectomy ตัดสินรายบุคคลตามความรุนแรงและผลต่อคุณภาพชีวิต ไม่ใช่นับจำนวนครั้ง · ในเอเชีย diverticulitis ด้านขวาพบได้บ่อย (ปวด RLQ คล้าย appendicitis)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76D ลายมือ diverticulitis?) มั่นใจสูง",
+  "variants": [
+   "หญิงภูมิคุ้มกันปกติ ปวด LLQ ไข้ต่ำ CT เป็น uncomplicated diverticulitis กินได้ → รักษาแบบผู้ป่วยนอก ยาปฏิชีวนะตามความจำเป็น",
+   "ผู้ป่วยกิน prednisolone ขนาดสูงหลังปลูกถ่ายไต เป็น diverticulitis → รับไว้ให้ IV antibiotics และติดตามใกล้ชิด",
+   "หายจาก diverticulitis ครั้งที่ 2 ไม่เคยส่องกล้องลำไส้ → colonoscopy 6–8 สัปดาห์ต่อมา"
+  ]
+ },
+ "MDCU76|RoD|18": {
+  "interp": "ถ่ายเป็นเลือดมา 3 เดือน (> 8 สัปดาห์) ปวดตุบหลังถ่าย ตรวจพบ skin tag และแผลลึกที่ทวาร = chronic anal fissure · ถามการรักษาที่เหมาะที่สุด",
+  "why": "เป็นนานเกิน 8 สัปดาห์ (ลายมือในคีย์: > 8 wk) ร่วม sentinel skin tag และแผลลึก = chronic anal fissure ซึ่งเกิดจากหูรูดชั้นในเกร็งตัวสูง เลือดเลี้ยงก้นแผลลดลงจึงไม่หาย · การรักษาที่แก้ต้นเหตุได้ถาวรคือลดแรงตึงของหูรูดชั้นใน · LIS ได้ผลหายสูงที่สุดและกลับเป็นซ้ำน้อยที่สุด คีย์จึงเลือกข้อนี้ (algorithm ในคีย์: ยา → Botox → LIS เมื่อปวด/เลือดออกต่อหรือยาไม่ได้ผล) · แนวทาง ASCRS ยังให้เริ่ม topical CCB/nitrate ก่อนได้ แต่ LIS เสนอเป็นการรักษาแรกในรายที่เหมาะสมได้",
+  "wrong": {
+   "A": "การปรับพฤติกรรม (fiber, ดื่มน้ำ, sitz bath) เป็นพื้นฐานทุกราย แต่ไม่พอรักษา chronic fissure; จะถูก (เป็นการรักษาหลัก) ถ้าเป็น acute fissure ที่เพิ่งเป็น 1 สัปดาห์ ไม่มี skin tag",
+   "B": "Botulinum toxin เป็น chemical sphincterotomy ชั่วคราว หายน้อยกว่าและกลับเป็นซ้ำมากกว่า LIS; จะถูกถ้าผู้ป่วยหญิงหลังคลอดที่มีหูรูดบาดเจ็บ หรือเสี่ยงกลั้นอุจจาระไม่อยู่ ยาทาไม่ได้ผล",
+   "C": "Topical nitrate ลดแรงหูรูดชั่วคราว หายราวครึ่งหนึ่งใน chronic fissure และปวดศีรษะบ่อย; จะถูกถ้าผู้ป่วย chronic fissure ที่ยังไม่เคยรักษาด้วยยาเลยและต้องการลองยาก่อนผ่าตัด",
+   "E": "ยาระบายช่วยให้อุจจาระนิ่ม ลดการฉีกซ้ำ แต่ไม่แก้หูรูดเกร็ง; จะถูกถ้าเด็กเล็กท้องผูกมี fissure เฉียบพลันจากอุจจาระแข็ง"
+  },
+  "trap": "ช้อยหลายตัวเป็นขั้นตอนตาม algorithm — ความเป็น chronic (> 8 สัปดาห์ + skin tag + แผลลึก) และคำถามว่า \"เหมาะที่สุด\" ทำให้ตอบ LIS",
+  "summary": [
+   "Acute (< 6–8 สัปดาห์) vs chronic: chronic มี sentinel pile, hypertrophied papilla, เห็นใยหูรูดชั้นในที่ก้นแผล",
+   "อัตราหาย: LIS > 90% · topical nitrate/CCB ราวครึ่งถึงสองในสาม · Botox อยู่ระหว่างกลาง",
+   "ภาวะแทรกซ้อนของ LIS: กลั้นลม/อุจจาระไม่อยู่เล็กน้อย ส่วนใหญ่ชั่วคราว"
+  ],
+  "variants": [
+   "Chronic fissure ทา diltiazem ครบ 8 สัปดาห์ไม่หาย ไม่มีปัจจัยเสี่ยงกลั้นไม่อยู่ → LIS",
+   "Chronic fissure หายหลังฉีด Botox แล้วกลับเป็นซ้ำใน 6 เดือน → LIS",
+   "หลัง LIS 2 สัปดาห์กลั้นลมไม่ค่อยอยู่ → ส่วนใหญ่ดีขึ้นเอง ฝึกกล้ามเนื้ออุ้งเชิงกรานและติดตาม"
+  ]
+ },
+ "MDCU76|RoD|19": {
+  "interp": "ชาย 50 ปีไม่มีอาการ ตรวจสุขภาพประจำปีพบ fecal occult blood บวก · ถามการจัดการ",
+  "why": "ผลตรวจคัดกรองมะเร็งลำไส้ที่ไม่ใช่ colonoscopy (FOBT/FIT) ถ้าบวกต้องตามด้วย colonoscopy เสมอ ไม่ใช่ตรวจอุจจาระซ้ำ เพราะผลลบครั้งถัดไปไม่ได้ลบล้างผลบวก และเลือดจากมะเร็ง/polyp ออกเป็นพัก ๆ · ในช้อยมีแค่ \"EGD + colonoscopy\" ที่มี colonoscopy จึงเป็นคำตอบ · EGD เพิ่มเมื่อมีข้อบ่งชี้ เช่น iron deficiency anemia หรืออาการทางเดินอาหารส่วนบน (guaiac FOBT ตรวจจับเลือดจากทางเดินอาหารส่วนบนได้ ส่วน FIT จำเพาะต่อลำไส้ใหญ่มากกว่าเพราะ globin ถูกย่อยระหว่างทาง)",
+  "wrong": {
+   "B": "ทำ FOBT ซ้ำทั้งที่ผลบวกคือการพลาดมะเร็ง; จะถูกถ้าผลตรวจ FIT ปีนี้ \"ลบ\" ในผู้ที่ความเสี่ยงเฉลี่ย → ตรวจ FIT ซ้ำปีหน้า",
+   "C": "รอ 3 เดือนโดยไม่ส่องกล้องทำให้วินิจฉัยช้า; ไม่มีสถานการณ์ใดที่ผล FOBT บวกควรนัดดูเฉย ๆ เพราะต้องส่องกล้องตามทุกราย",
+   "D": "CT colonography เป็นทางเลือกคัดกรองทุก 5 ปี ไม่ใช่การตามผล FOBT บวก (ถ้าพบรอยโรคยังต้องส่องกล้องอยู่ดี); จะถูกถ้า CT colonography ครั้งก่อนปกติในผู้ความเสี่ยงเฉลี่ย → ทำซ้ำในอีก 5 ปี",
+   "E": "CEA ไม่ไวและไม่จำเพาะพอสำหรับคัดกรองหรือวินิจฉัย; จะถูกถ้าใช้ติดตามหลังผ่าตัดมะเร็งลำไส้ใหญ่ระยะ II–III เพื่อหาการกลับเป็นซ้ำ"
+  },
+  "trap": "เลือกตรวจซ้ำเพราะคิดว่าอาจเป็นผลบวกลวง — FOBT/FIT บวกต้อง colonoscopy เสมอ",
+  "summary": [
+   "คัดกรองความเสี่ยงเฉลี่ย: เริ่ม 45 ปี (USPSTF 2021) ถึง 75 ปี · ไทยใช้ FIT อายุ 50–70 ปี",
+   "ทางเลือก: FIT ทุกปี · gFOBT ทุกปี · FIT-DNA ทุก 1–3 ปี · colonoscopy ทุก 10 ปี · CT colonography หรือ flexible sigmoidoscopy ทุก 5 ปี · การตรวจที่ไม่ใช่ colonoscopy ถ้าบวก → colonoscopy",
+   "ญาติสายตรงเป็นมะเร็งลำไส้ใหญ่ก่อน 60 ปี → colonoscopy เริ่ม 40 ปีหรือ 10 ปีก่อนอายุที่ญาติเป็น ทุก 5 ปี",
+   "Iron deficiency anemia ในชายหรือหญิงหมดประจำเดือน → EGD + colonoscopy"
+  ],
+  "variants": [
+   "ชาย 60 ปี FIT บวก colonoscopy ปกติ ไม่ซีด ไม่มีอาการ → ไม่ต้อง EGD กลับไปคัดกรองตามรอบ (colonoscopy อีก 10 ปี)",
+   "หญิงหมดประจำเดือนซีด ferritin ต่ำ → EGD + colonoscopy",
+   "ชายอายุ 40 ปีที่พ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 48 → colonoscopy ตอนนี้ แล้วทุก 5 ปี"
+  ]
+ },
+ "MDCU76|RoD|20": {
+  "interp": "ทารกอาเจียนพุ่ง ไม่มีน้ำดี เป็นนมที่ยังไม่ย่อย ราว 30 นาทีหลังกิน คลำได้ก้อนรูปไข่ที่ท้องขวาบน · ถามการวินิจฉัย",
+  "why": "กล้ามเนื้อ pylorus หนาตัวจนอุดทางออกกระเพาะ → อาเจียนพุ่งแรงหลังกินไม่นาน ไม่มีน้ำดีเพราะการอุดอยู่เหนือ ampulla of Vater ทารกยังหิวอยากกินต่อ และคลำได้ pylorus ที่หนาเป็นก้อนรูปมะกอก (olive) ที่ RUQ/epigastrium = hypertrophic pyloric stenosis (ลายมือในคีย์: HPS) · พบอายุ 2–8 สัปดาห์ ชายมากกว่าหญิง",
+  "wrong": {
+   "B": "Overfeeding ทำให้แหวะนมปริมาณน้อยหลังกินมาก ไม่พุ่ง ไม่มีก้อน น้ำหนักขึ้นดี; จะถูกถ้าทารกน้ำหนักขึ้นดีมาก แหวะนมเล็กน้อยหลังกินนมผงปริมาณมากกว่าที่ควร ตรวจร่างกายปกติ",
+   "C": "Choledochal cyst มีตัวเหลือง ปวดท้อง ก้อน RUQ ไม่ใช่อาเจียนพุ่งหลังกินนม; จะถูกถ้าเด็ก 3 ขวบตัวเหลืองเป็นพัก ๆ ปวดท้อง คลำได้ก้อนท้องขวาบน ultrasound พบถุงน้ำต่อกับท่อน้ำดี",
+   "D": "Duodenal atresia อาเจียน (ส่วนใหญ่มีน้ำดี) ตั้งแต่วันแรก ไม่มีก้อน ภาพรังสี double bubble; จะถูกถ้าทารกแรกเกิด Down syndrome อาเจียนตั้งแต่มื้อแรก AXR เป็น double bubble ไม่มีลมส่วนปลาย",
+   "E": "Malrotation with midgut volvulus อาเจียนน้ำดีเฉียบพลัน เป็นภาวะฉุกเฉิน; จะถูกถ้าทารกที่เคยกินดีอยู่ ๆ อาเจียนน้ำดีสีเขียว ท้องอาจแฟบ UGI series พบ DJ junction ผิดตำแหน่ง"
+  },
+  "trap": "สับสนการอุดเหนือ ampulla (ไม่มีน้ำดี เช่น HPS) กับใต้ ampulla (มีน้ำดี เช่น malrotation, atresia ส่วนใหญ่) — ดูสีอาเจียนก่อน",
+  "summary": [
+   "ปัจจัยเสี่ยง: ชาย (ราว 4:1), ลูกคนแรก, ได้ erythromycin/azithromycin ช่วง 2 สัปดาห์แรก",
+   "Ultrasound: กล้ามเนื้อ pylorus หนา ≥ 3–4 mm ยาว ≥ 15–17 mm",
+   "Lab: hypochloremic hypokalemic metabolic alkalosis (paradoxical aciduria ในรายรุนแรง)",
+   "ไม่ใช่ผ่าตัดฉุกเฉิน: แก้สารน้ำและเกลือแร่ก่อน (D5 ½NSS + KCl) จน Cl ราว ≥ 100 mEq/L และ HCO₃ < 30 → Ramstedt pyloromyotomy (open หรือ laparoscopic)",
+   "ภาวะแทรกซ้อน: เยื่อบุทะลุ, ตัดกล้ามเนื้อไม่พอ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76D ลายมือ HPS) มั่นใจสูง",
+  "variants": [
+   "ทารกอาเจียนพุ่งมา 5 วัน ซึม Cl 85 HCO₃ 38 → แก้สารน้ำและเกลือแร่ก่อน แล้วจึง pyloromyotomy",
+   "ทารกได้ erythromycin ช่วงสัปดาห์แรก ต่อมาอาเจียนพุ่ง → นึกถึง HPS → ultrasound",
+   "หลัง pyloromyotomy วันแรกอาเจียนเล็กน้อย → พบได้บ่อย ให้นมต่อ ไม่ต้องผ่าซ้ำ"
+  ]
+ },
+ "MDCU76|RoD|21": {
+  "interp": "ก้อนยื่นจากทวารขณะถ่าย แรก ๆ กลับเข้าเอง ตอนนี้ต้องใช้มือดัน · ภาพในข้อ (ตามที่บันทึกไว้) ก้อนแดงยื่นเป็นทรงกระบอก มีรอยพับเป็นวงซ้อนกัน (concentric folds) · ถามการวินิจฉัย (ประวัติเหมือน hemorrhoid grade 3 จึงต้องใช้ลักษณะภาพแยก)",
+  "why": "ลักษณะที่ชี้ขาดคือรอยพับเป็นวงซ้อนกันรอบเส้นรอบวง (concentric/circular folds) ซึ่งเกิดจากผนัง rectum ทั้งชั้นยื่นออกมา = full-thickness rectal prolapse (ลายมือในคีย์: ดูภาพให้ออก) · ถ้าเป็น prolapsed hemorrhoids หรือ mucosal prolapse จะเห็นรอยพับตามแนวรัศมี (radial) แยกเป็นกลีบตามตำแหน่ง",
+  "wrong": {
+   "B": "Internal hemorrhoid ที่ยื่นมีร่องตามแนวรัศมีแยกเป็นกลีบ (มักที่ 3, 7, 11 นาฬิกา) ไม่ใช่วงซ้อน; จะถูกถ้าก้อนที่ยื่นเป็นกลีบแยก ร่องตามแนวรัศมี มีเลือดสดหยดหลังถ่าย",
+   "C": "Polyp เป็นก้อนเดี่ยวมีก้าน ไม่ใช่ทรงกระบอกรอบเส้นรอบวง; จะถูกถ้าเด็กมีก้อนกลมสีแดงเข้มมีก้านยื่นออกมาตอนถ่ายร่วมเลือดออกไม่เจ็บ (juvenile polyp)",
+   "D": "Hypertrophied anal papilla เป็นติ่งเล็กสีขาวที่ dentate line มักร่วม chronic fissure; จะถูกถ้าผู้ป่วย chronic fissure มีติ่งเนื้อเล็กแข็งยื่นออกมาที่ขอบแผลด้านบน",
+   "E": "Skin tag เป็นผิวหนังส่วนเกินที่ขอบทวารภายนอก ไม่ยื่นเข้าออกตามการถ่าย; จะถูกถ้ามีติ่งผิวหนังนิ่มที่ขอบทวารตลอดเวลา หลังเคยมี thrombosed external hemorrhoid"
+  },
+  "trap": "ตอบ hemorrhoid เพราะประวัติ \"ต้องดันกลับ\" เหมือน grade 3 — ต้องดูรอยพับ: วงซ้อน = rectal prolapse · รัศมี = hemorrhoid",
+  "summary": [
+   "Rectal prolapse: พบมากในหญิงสูงอายุ ท้องผูก เบ่งเรื้อรัง อุ้งเชิงกรานหย่อน · มักร่วมกลั้นอุจจาระไม่อยู่",
+   "ตรวจ: ให้นั่งเบ่งบนโถส้วมเพื่อเห็นการยื่นจริง · colonoscopy หารอยโรคนำ · ประเมินท้องผูก/การกลั้น (defecography, anal manometry ตามความจำเป็น)",
+   "ผ่าตัด: ผู้ป่วยแข็งแรง → abdominal approach (laparoscopic ventral mesh rectopexy หรือ resection rectopexy) กลับเป็นซ้ำน้อยกว่า · ผู้ป่วยเสี่ยงสูง → perineal approach (Delorme, Altemeier)",
+   "เด็กเล็ก: มักสัมพันธ์ท้องผูก/ท้องเสีย ส่วนใหญ่หายเองเมื่อแก้สาเหตุ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76D ลายมือ ดูภาพให้ออก และแปะรูป circular vs radial folds) มั่นใจสูง",
+  "variants": [
+   "หญิง 85 ปีโรคหัวใจรุนแรง rectal prolapse ยาว 5 cm → perineal approach (Delorme หรือ Altemeier)",
+   "หญิง 50 ปีแข็งแรง ท้องผูกเรื้อรัง rectal prolapse → laparoscopic ventral mesh rectopexy",
+   "เด็ก 2 ขวบมีลำไส้ยื่นออกตอนเบ่ง เป็นซ้ำร่วมท้องเสียเรื้อรังและน้ำหนักไม่ขึ้น → แก้สาเหตุและตรวจ sweat test (cystic fibrosis)"
+  ]
+ },
+ "MDCU76|RoD|22": {
+  "wrong": {
+   "B": "Ultrasound เป็นการตรวจภาพถัดไปทันทีหลังยืนยันว่าเป็น cholestasis (ดู gallbladder, triangular cord sign, choledochal cyst) มักส่งต่อเนื่องเร็ว แต่ขั้นแรกต้องรู้ก่อนว่าเป็น direct hyperbilirubinemia; จะถูกถ้าทารก 2 เดือนที่ผล fractionated bilirubin ยืนยันแล้วว่า direct bilirubin 4 mg/dL",
+   "C": "MRCP ในทารกเล็กความละเอียดจำกัด ต้องดมยา ไม่ใช่ขั้นแรก; จะถูกถ้าเด็กโตมีตัวเหลืองเป็นพัก ๆ สงสัย choledochal cyst และต้องการดูกายวิภาคท่อน้ำดีก่อนผ่าตัด",
+   "D": "Transient elastography ใช้ประเมินพังผืดในตับเรื้อรัง ไม่ใช่การวินิจฉัยสาเหตุ cholestasis; จะถูกถ้าใช้ติดตามความแข็งของตับในเด็กหลังผ่าตัด Kasai หลายปี",
+   "E": "Liver biopsy ทำเมื่อ ultrasound/HIDA ยังแยกสาเหตุไม่ได้ ไม่ใช่ขั้นแรก; จะถูกถ้าทารก cholestasis ที่ ultrasound เห็น gallbladder ปกติ HIDA ไม่ชัด ต้องแยก biliary atresia กับ neonatal hepatitis/โรคทางเมตาบอลิก"
+  },
+  "interp": "ทารก 2 เดือนตัวเหลือง อุจจาระซีด ปัสสาวะเข้ม ตับโต (อาการของ cholestasis) · ถามการตรวจ \"แรก\"",
+  "why": "อุจจาระซีดและปัสสาวะเข้มบ่งว่าเป็น conjugated bilirubin แต่การจัดการทุกอย่างถัดไปต้องเริ่มจากยืนยันด้วยตัวเลข: LFT/fractionated bilirubin (direct bilirubin > 1 mg/dL = cholestasis) · เมื่อยืนยันแล้วจึง ultrasound และตรวจต่อตามลำดับ (ลายมือในคีย์: S&S → LFT → US → triangular cord sign บวก → IOC · ลบและอายุ < 60 วัน → DISIDA) · ทารกอายุ 2 เดือนต้องเร่งหา biliary atresia เพราะผลผ่าตัดดีกว่าเมื่อทำเร็ว",
+  "trap": "ข้ามไปทำ imaging หรือหัตถการก่อนยืนยันว่าเป็น direct hyperbilirubinemia — ในทางปฏิบัติ LFT และ ultrasound มักส่งในวันเดียวกัน แต่ LFT คือขั้นแรก",
+  "summary": [
+   "ทารกตัวเหลือง > 2 สัปดาห์ (ครบกำหนด) หรือ > 3 สัปดาห์ (ก่อนกำหนด) → ตรวจ total และ direct bilirubin · direct > 1.0 mg/dL = cholestasis ต้อง workup ด่วน",
+   "สาเหตุ: biliary atresia, choledochal cyst, ติดเชื้อ (TORCH, UTI/sepsis), metabolic (galactosemia, α1-antitrypsin deficiency), Alagille syndrome, hypothyroidism, TPN",
+   "ลำดับตรวจ: LFT + coagulation (ให้ vitamin K ถ้า INR สูง) → ultrasound → HIDA ± liver biopsy → intraoperative cholangiogram เมื่อยังสงสัย biliary atresia"
+  ],
+  "variants": [
+   "ทารก 3 สัปดาห์ตัวเหลือง อุจจาระสีเหลืองปกติ กินนมแม่ direct bilirubin 0.6 mg/dL → breast milk jaundice → ติดตาม",
+   "ทารกตัวเหลือง อุจจาระซีด ultrasound พบถุงน้ำต่อกับท่อน้ำดีนอกตับ → choledochal cyst → ผ่าตัดตัดถุงน้ำ + hepaticojejunostomy",
+   "ทารก cholestasis ร่วมต้อกระจก ปัสสาวะมี reducing substance → galactosemia → งดนมที่มี lactose/galactose"
+  ]
+ },
+ "MDCU76|RoD|23": {
+  "interp": "ภาพในข้อ (ตามที่บันทึกไว้) หน้าเด็ก: ตาเฉียงลง โหนกแก้มแบน คางเล็ก ใบหูผิดรูป → Treacher Collins syndrome (ลายมือในคีย์) · ถามปัญหาที่เด็กน่าจะมีมากที่สุด",
+  "why": "Treacher Collins เป็นความผิดปกติของการเจริญของ pharyngeal arch ที่ 1 และ 2 สองข้าง (ลายมือในคีย์) · arch เหล่านี้สร้างกระดูกโหนกแก้ม ขากรรไกร ใบหู ช่องหูชั้นนอก และกระดูกหูชั้นกลาง (malleus, incus จาก arch 1 · stapes จาก arch 2) จึงมีหูผิดรูป ช่องหูตีบ/ตัน และกระดูกหูชั้นกลางผิดรูป → conductive hearing loss สองข้างพบได้ราวครึ่ง ซึ่งกระทบพัฒนาการพูดถ้าไม่แก้ · ส่วนสมองไม่เกี่ยว สติปัญญาปกติ",
+  "wrong": {
+   "B": "Malocclusion (open bite) เกิดได้จากขากรรไกรล่างเล็ก แต่ไม่ใช่ปัญหาที่เด่นและกระทบชีวิตเด็กมากเท่าการได้ยิน; จะถูกถ้าเด็กมี hemifacial microsomia ที่ขากรรไกรข้างหนึ่งเล็กจนฟันสบเบี้ยว",
+   "C": "Treacher Collins สติปัญญาปกติ (การพูดช้ามาจากการได้ยิน ไม่ใช่สติปัญญา); จะถูกถ้าเด็กมีหน้าตาแบบ Down syndrome (ตาเฉียงขึ้น ลิ้นยื่น ร่องฝ่ามือเส้นเดียว)",
+   "D": "ไม่สัมพันธ์กับอาการชักเพราะสมองปกติ; จะถูกถ้าเด็กมีปานแดงไวน์ที่หน้าผากข้างเดียวร่วมหินปูนที่ผิวสมอง (Sturge–Weber syndrome)",
+   "E": "Treacher Collins มี coloboma ที่เปลือกตาล่าง ไม่ใช่ optic atrophy; จะถูกถ้าเด็ก syndromic craniosynostosis มีความดันในกะโหลกสูงนานจน papilledema กลายเป็น optic atrophy"
+  },
+  "trap": "เลือก malocclusion เพราะเห็นคางเล็ก หรือ intellectual disability เพราะหน้าตาผิดปกติ — ปัญหาหลักคือการได้ยินและทางเดินหายใจ ส่วนสติปัญญาปกติ",
+  "summary": [
+   "Pharyngeal arch 1: maxilla, zygoma, mandible, malleus, incus, ส่วนหนึ่งของใบหู · arch 2: stapes, styloid, hyoid ส่วนบน, กล้ามเนื้อใบหน้า",
+   "Hearing loss ใน Treacher Collins เป็นชนิด conductive (หูชั้นนอก/กลาง) หูชั้นในปกติ → ตรวจ ABR ตั้งแต่แรกเกิด",
+   "แก้ไข: bone conduction hearing aid (softband ตั้งแต่ทารก → bone-anchored ภายหลัง) ได้ผลดีกว่าการผ่าตัดสร้างช่องหู/หูชั้นกลาง · ซ่อมใบหูวัยเรียน"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76D ลายมือ Treacher Collins, 1st & 2nd branchial arch defect) มั่นใจสูง",
+  "variants": [
+   "ทารก Treacher Collins ช่องหูตันสองข้าง ABR เป็น conductive loss 60 dB → bone conduction hearing aid แบบ softband ตั้งแต่ไม่กี่เดือน",
+   "เด็กมีหน้าข้างเดียวเล็ก หูข้างนั้นผิดรูป ร่วมก้อนเนื้อสีขาวที่ตาขาว → hemifacial microsomia/Goldenhar (arch 1–2 ข้างเดียว)",
+   "ทารกมี microtia ข้างเดียว หูอีกข้างได้ยินปกติ → ตรวจ ABR ยืนยันหูข้างดี ติดตามพัฒนาการพูด"
+  ]
+ }
+}
