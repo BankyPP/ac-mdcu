@@ -1,0 +1,91 @@
+{
+ "MDCU76|RoD|72": {
+  "interp": "Gross hematuria ไม่เจ็บ CT พบก้อนในกระเพาะปัสสาวะ cystoscopy เห็นก้อน papillary ฐานกว้าง (sessile) · ถามขั้นต่อไป",
+  "why": "ก้อนในกระเพาะปัสสาวะต้องรู้ทั้งชนิดเนื้อเยื่อและความลึก (ลุกถึง muscularis propria หรือไม่) ก่อนเลือกการรักษา · TURBT ให้ทั้งการวินิจฉัย staging และการรักษาในครั้งเดียว: ตัดก้อนออกให้หมดที่เห็นได้และต้องได้ชั้น detrusor muscle ในชิ้นเนื้อ (ลายมือในคีย์: TURBT → ส่งพยาธิ ถ้าลุก muscularis propria ค่อยตัดกระเพาะปัสสาวะ) · ก้อนฐานกว้างมีโอกาสลุกลึกกว่า จึงยิ่งต้องได้ชิ้นเนื้อลึก",
+  "wrong": {
+   "A": "Cold-cup biopsy ได้ชิ้นเล็กตื้น บอกความลึกไม่ได้ และ cystogram ไม่ช่วย staging; จะถูก (cold-cup biopsy) ถ้าเป็นการติดตามหลังรักษาแล้วพบรอยแดงเล็กแบนที่ต้องการแค่ยืนยันว่าเป็น CIS หรือไม่",
+   "C": "Radical cystectomy ทำเมื่อรู้แล้วว่าลุก muscularis propria (T2–T4a) ไม่ใช่ก่อนมีชิ้นเนื้อ (ลายมือในคีย์: C: T2, 3, 4); จะถูกถ้า TURBT พบ urothelial carcinoma ลุก muscularis propria ไม่มีการกระจาย หลังได้ neoadjuvant cisplatin-based chemotherapy",
+   "D": "BCG ให้หลัง TURBT ใน non-muscle-invasive ความเสี่ยงกลาง–สูง ไม่ใช่แทนการตัดก้อน; จะถูกถ้า TURBT แล้วพยาธิเป็น T1 high grade และ re-TURBT ไม่พบลุกกล้ามเนื้อ",
+   "E": "Systemic chemotherapy ใช้ก่อน cystectomy ใน muscle-invasive หรือในโรคที่กระจาย; จะถูกถ้ามะเร็งกระเพาะปัสสาวะกระจายไปปอดและกระดูก"
+  },
+  "trap": "กระโดดไป cystectomy เพราะก้อนดูใหญ่ หรือให้ BCG โดยไม่ตัดก้อน — ทุกก้อนต้องผ่าน TURBT ก่อนเพื่อรู้ stage",
+  "summary": [
+   "Painless gross hematuria ในผู้ใหญ่ = มะเร็งทางเดินปัสสาวะจนกว่าจะพิสูจน์ได้ว่าไม่ใช่ → CT urography + cystoscopy + cytology",
+   "TURBT ที่ดี: ตัดก้อนหมด ได้ detrusor muscle, ตรวจ bimanual ใต้การดมยา, บันทึกขนาด/จำนวน/ตำแหน่ง",
+   "Muscle-invasive (T2–T4a N0): neoadjuvant cisplatin-based chemotherapy (ปัจจุบันอาจร่วม durvalumab ตาม NIAGARA) → radical cystectomy + urinary diversion · ทางเลือกเก็บกระเพาะปัสสาวะ: TURBT สูงสุด + chemoradiation ในรายเลือก"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 76D ลายมือ TURBT ส่งพยาธิ ถ้าลุก muscularis propria ค่อยตัด bladder) มั่นใจสูง",
+  "variants": [
+   "TURBT ชิ้นเนื้อไม่มีชั้นกล้ามเนื้อ พยาธิเป็น high grade → re-TURBT ภายใน 2–6 สัปดาห์",
+   "TURBT พบลุก muscularis propria (T2) ไม่มีการกระจาย ไตทำงานดี → neoadjuvant cisplatin-based chemotherapy แล้ว radical cystectomy"
+  ]
+ },
+ "MDCU76|RoD|73": {
+  "interp": "ถามยาทาเฉพาะที่ที่ใช้กันทั่วไปกับแผลไหม้ระดับสอง (partial thickness)",
+  "why": "Silver sulfadiazine เป็นยาทาแผลไหม้ที่ใช้มานานที่สุด ครีมฆ่าเชื้อได้กว้าง (gram-positive, gram-negative รวม Pseudomonas และเชื้อรา) ทาไม่เจ็บ ช่วยให้แผลชุ่มชื้นและลดการติดเชื้อที่แผล · ปัจจุบัน partial thickness ตื้นนิยมใช้ dressing ที่มีเงิน/ไม่ต้องเปลี่ยนบ่อยมากขึ้น เพราะ SSD ต้องเปลี่ยนทุกวันและอาจทำให้แผลหายช้าลง แต่ในข้อนี้ SSD เป็นคำตอบมาตรฐาน",
+  "wrong": {
+   "B": "Povidone-iodine ฆ่าเชื้อได้แต่เป็นพิษต่อเซลล์ที่กำลังซ่อมแผล ทาแล้วเจ็บ และดูดซึม iodine ได้เมื่อแผลกว้าง; จะถูกถ้าใช้เตรียมผิวหนังก่อนผ่าตัดหรือก่อนเจาะ",
+   "C": "Hydrogen peroxide ทำลายเนื้อเยื่อที่กำลังซ่อม ไม่ใช้ทาแผลไหม้; จะถูกถ้าใช้ล้างเลือดที่แห้งติดผิวหนังรอบแผลเล็กน้อยเป็นครั้งคราว",
+   "D": "Gentian violet เป็นสีย้อมฆ่าเชื้อบางชนิด ไม่ใช่ยามาตรฐานของแผลไหม้; จะถูกถ้าใช้ทาเชื้อรา candida ในปากหรือผิวหนังในบางพื้นที่ที่ไม่มียาอื่น",
+   "E": "แอลกอฮอล์ทำลายเนื้อเยื่อ เจ็บมาก ทำให้แผลลึกขึ้น; จะถูกถ้าใช้เช็ดผิวหนังปกติก่อนฉีดยา"
+  },
+  "trap": "เลือก povidone-iodine เพราะคุ้นว่าเป็นยาฆ่าเชื้อแผลทั่วไป — แผลไหม้ใช้ยาที่ไม่ทำลายเนื้อเยื่อที่กำลังซ่อม",
+  "summary": [
+   "SSD: ผลข้างเคียง leukopenia ชั่วคราว (มักหายเองไม่ต้องหยุดยา) · ห้ามในผู้แพ้ sulfa, หญิงใกล้คลอด, ทารกแรกเกิด (kernicterus) · ไม่ใช้ที่ใบหน้า (ผิวคล้ำ) ใช้ bacitracin/ointment แทน",
+   "Mafenide acetate: ซึมผ่าน eschar ได้ดี (เหมาะใบหู/กระดูกอ่อน, แผลลึก) แต่ทาเจ็บและเกิด metabolic acidosis (ยับยั้ง carbonic anhydrase)",
+   "Silver nitrate: ทำให้ผิวดำ เกลือแร่เสีย (Na, K ต่ำ) · dressing ที่มีเงิน: เปลี่ยนห่าง ลดความเจ็บ",
+   "แผลลึก (deep partial/full thickness) ยาทาเป็นแค่การป้องกันติดเชื้อ การรักษาหลักคือตัดเนื้อตายและปลูกผิวหนังแต่เนิ่น ๆ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76D) มั่นใจสูง",
+  "variants": [
+   "แผลไหม้ลึกที่ใบหูมีกระดูกอ่อนโผล่ → mafenide acetate (ซึมผ่าน eschar ป้องกัน chondritis)",
+   "ผู้ป่วยทา SSD วันที่ 3 WBC ลดเป็น 3,000 → leukopenia ชั่วคราวจาก SSD → ติดตาม ส่วนใหญ่ไม่ต้องหยุดยา",
+   "หญิงตั้งครรภ์ใกล้คลอดมีแผลไหม้ partial thickness → เลี่ยง SSD ใช้ dressing ที่มีเงินหรือ ointment อื่น"
+  ]
+ },
+ "MDCU76|RoD|74": {
+  "interp": "ปวดศีรษะรุนแรงเฉียบพลันร่วมคอแข็ง ไม่มีอาการทางประสาทเฉพาะที่ (สงสัย SAH) CT ไม่ฉีดสีทำ 12 ชม.หลังเริ่มปวดผลปกติ · ถามขั้นต่อไป",
+  "why": "CT ไม่ฉีดสีไวต่อ SAH เกือบทั้งหมดเฉพาะเมื่อทำภายใน 6 ชม. แรก หลังจากนั้นความไวลดลงเพราะเลือดถูกชะล้าง · CT ที่ 12 ชม. ปกติจึงยังตัด SAH ไม่ได้ (ลายมือในคีย์: SAH) → เจาะหลังดู RBC ที่ไม่ลดลงในหลอดที่ 1→4 และ xanthochromia (ที่ 12 ชม. ขึ้นไปเชื่อถือได้แล้ว) · ถ้า LP บวก → CTA หา aneurysm",
+  "wrong": {
+   "A": "CT ฉีดสีไม่ช่วยหาเลือดใน subarachnoid ที่ CT ธรรมดาไม่เห็น (การฉีดสีดูหลอดเลือดต้องเป็น CTA); จะถูก (ในรูป CTA) ถ้า LP พบ xanthochromia แล้วต้องหา aneurysm",
+   "C": "ปล่อยกลับบ้านทั้งที่ยังตัด SAH ไม่ได้ เสี่ยงเลือดออกซ้ำถึงตาย; จะถูกถ้าผู้ป่วยปวดศีรษะแบบเดิมที่เป็นประจำ (migraine) ไม่ใช่ thunderclap ตรวจร่างกายปกติ",
+   "D": "EEG ไม่ใช่การวินิจฉัย SAH; จะถูกถ้าผู้ป่วยหมดสติเป็นพักซ้ำ ๆ สงสัย non-convulsive status epilepticus",
+   "E": "ภาพกะโหลกไม่เห็นเลือดในสมอง; จะถูกถ้าใช้ดูกะโหลกยุบหรือร้าวจากบาดแผลถูกตีในที่ที่ไม่มี CT"
+  },
+  "trap": "CT ปกติแล้วปล่อยกลับ — เวลาที่ทำ CT สำคัญ เกิน 6 ชม. ต้องเจาะหลังต่อ",
+  "summary": [
+   "Thunderclap headache (ปวดสูงสุดในไม่กี่วินาที–1 นาที) → CT ไม่ฉีดสีทันที",
+   "CT ภายใน 6 ชม. ด้วยเครื่องรุ่นใหม่อ่านโดยรังสีแพทย์ผลปกติ → ตัด SAH ได้ · หลัง 6 ชม. ผลปกติ → LP (หลังเริ่มปวด ≥ 12 ชม.) หรือ CTA ตามบริบท",
+   "LP ที่บ่ง SAH: RBC สูงไม่ลดลงในหลอดหลัง ร่วม xanthochromia · traumatic tap: RBC ลดลงตามหลอด ไม่มี xanthochromia",
+   "Ottawa SAH rule ช่วยคัดผู้ที่ปวดศีรษะเฉียบพลันที่ไม่ต้องตรวจต่อ (ใช้ในผู้ที่รู้ตัวดี ไม่มีอาการทางประสาทใหม่)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 76D ลายมือ SAH) มั่นใจสูง",
+  "variants": [
+   "LP พบ RBC 5,000 คงที่ทุกหลอดและ xanthochromia → SAH → CTA หา aneurysm แล้วรักษา (coil/clip)",
+   "ผู้ป่วยกิน anticoagulant ที่เจาะหลังไม่ได้ CT ที่ 10 ชม.ปกติ ยังสงสัย SAH → CTA"
+  ]
+ },
+ "MDCU76|RoD|75": {
+  "interp": "ปวดศีรษะและ bitemporal hemianopia · ภาพในข้อ (ตามที่บันทึกไว้) MRI sagittal T1 ก้อนใน sella turcica ยื่นขึ้นเหนือ sella · ถามการวินิจฉัย",
+  "why": "ก้อนที่เกิดในโพรง sella แล้วโตขึ้นด้านบนกด optic chiasm จากด้านล่าง ทำให้เสียลานสายตาด้านข้างทั้งสองข้าง = pituitary macroadenoma (ลายมือในคีย์: pituitary adenoma · transsphenoidal) · ตัวชี้คือก้อนมีจุดเริ่มในตัว sella (sella ขยาย) ต่างจากก้อนเหนือ sella ที่มีหินปูน (craniopharyngioma) หรือก้อนที่เกาะเยื่อหุ้มสมองด้านหน้า (meningioma)",
+  "wrong": {
+   "B": "Craniopharyngioma อยู่เหนือ sella (suprasellar) เป็นถุงน้ำมีหินปูน พบมากในเด็ก; จะถูกถ้าเด็ก 8 ขวบตัวเตี้ย ปวดศีรษะ ตามัว CT พบก้อนถุงน้ำมีหินปูนเหนือ sella",
+   "C": "Meningioma ที่ tuberculum sellae เกาะเยื่อหุ้มสมองด้านหน้าของ sella เห็น dural tail ต่อมใต้สมองแยกจากก้อนได้; จะถูกถ้าหญิงวัยกลางคนตามัวข้างหนึ่งค่อยเป็นค่อยไป MRI เห็นก้อน enhance เท่ากันมี dural tail เหนือ sella ต่อมใต้สมองปกติ",
+   "D": "Pineal germinoma อยู่หลังสมองส่วนกลาง ทำให้มองขึ้นไม่ได้ (Parinaud) และ hydrocephalus; จะถูกถ้าวัยรุ่นชายมองขึ้นไม่ได้ ปวดศีรษะตอนเช้า MRI มีก้อนที่ pineal region",
+   "E": "Vestibular schwannoma อยู่ CP angle ทำให้หูเสื่อมข้างเดียว ไม่เกี่ยวกับ chiasm; จะถูกถ้าผู้ป่วยหูอื้อข้างเดียวค่อยเป็นค่อยไป MRI พบก้อนลามเข้า internal auditory canal"
+  },
+  "trap": "สับสนกับ craniopharyngioma ที่ทำ bitemporal hemianopia ได้เหมือนกัน — ดูอายุ หินปูน และจุดเริ่มของก้อน (ใน sella vs เหนือ sella)",
+  "summary": [
+   "Pituitary adenoma: micro < 1 cm · macro ≥ 1 cm · ประเมินฮอร์โมนทุกแกน (prolactin, GH/IGF-1, ACTH/cortisol, TSH/T4, LH/FSH) และลานสายตา",
+   "Nonfunctioning macroadenoma กด chiasm → transsphenoidal surgery (ลายมือในคีย์) · prolactinoma → ยาก่อน (ข้อ RoD 30 ของชุดนี้)",
+   "Prolactin สูงเล็กน้อยในก้อนใหญ่ไม่หลั่งฮอร์โมน = stalk effect",
+   "Pituitary apoplexy: ปวดศีรษะทันทีรุนแรง ตามัว ตากลอกผิดปกติ ช็อก → steroid ทันที ± ผ่าตัดลดแรงกดด่วน"
+  ],
+  "opinion": "ต้นฉบับไม่มีช้อย คีย์เขียนว่า pituitary adenoma และ transsphenoidal — มั่นใจสูง",
+  "variants": [
+   "ผู้ป่วยมี pituitary macroadenoma ปวดศีรษะทันทีรุนแรง ตามัวลง หนังตาตก ความดันต่ำ → pituitary apoplexy → hydrocortisone ทันที + ประเมินผ่าตัดด่วน",
+   "หลัง transsphenoidal surgery วันที่ 1 ปัสสาวะออก 400 mL/ชม. Na สูงขึ้น → diabetes insipidus → desmopressin",
+   "ผู้ป่วยมือเท้าโต คางยื่น IGF-1 สูง → GH-secreting adenoma (acromegaly) → transsphenoidal surgery"
+  ]
+ }
+}
