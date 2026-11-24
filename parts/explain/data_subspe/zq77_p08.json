@@ -143,5 +143,154 @@
    "ทารก gastroschisis ที่รูปิดแคบรัดลำไส้จนตายไปส่วนใหญ่ตั้งแต่ในครรภ์ (closing gastroschisis) → short bowel syndrome: TPN นาน + โปรแกรมฟื้นฟูลำไส้",
    "ทารก gastroschisis หลังปิดหน้าท้อง 3 สัปดาห์ เริ่มกินนมแล้วท้องอืด ถ่ายเป็นเลือด ภาพรังสีเห็นลมในผนังลำไส้ → NEC: งดนม ยาปฏิชีวนะ"
   ]
+ },
+ "MDCU77|RoB|Ped 9": {
+  "interp": "ทารก 6 เดือน ร้องเป็นพัก ๆ ขาหดเข้าท้อง ถ่ายมีเลือด คลำได้ก้อนที่ท้องขวาบน = intussusception (ileocolic) → ถามการตรวจที่เหมาะที่สุดเพื่อยืนยันก่อนตัดสินใจทำ enema reduction",
+  "why": "ทารก 6 เดือน (ช่วงพบบ่อย 3 เดือน–3 ปี) ร้องกวนเป็นพัก ๆ ขาหดเข้าท้อง ถ่ายมีเลือด คลำได้ก้อนรูปไส้กรอกที่ RUQ = intussusception · <b>ultrasonography</b> เป็นการตรวจแรกที่เลือก: ความไวและความจำเพาะราว 98–100% เห็น target/doughnut sign (ภาพตัดขวาง) และ pseudokidney sign (ภาพตามยาว) ไม่มีรังสี ทำข้างเตียงได้ และยังดู lead point, น้ำในช่องท้อง และเลือดไปเลี้ยงลำไส้ส่วนที่ซ้อนได้ · ถ้า US ยืนยันและไม่มีข้อห้าม → แก้ภาวะขาดน้ำก่อน แล้วทำ air หรือ hydrostatic enema reduction ภายใต้ fluoroscopy หรือ US",
+  "wrong": {
+   "A": "ภาพรังสีช่องท้องธรรมดาไม่ไวพอ อาจปกติหรือเห็นแค่เงาก้อนและลมน้อยในท้องขวาล่าง ใช้ยืนยันหรือแยกโรคไม่ได้; จะถูกถ้าทารกที่สงสัยลำไส้ซ้อนมีไข้ ท้องแข็งทั้งท้อง ต้องการดู free air ก่อนตัดสินใจว่าทำ enema ได้หรือไม่",
+   "C": "CT มีรังสีสูง ทารกต้องให้ยานอนหลับ และไม่จำเป็นเมื่อ US วินิจฉัยได้; จะถูกถ้าเป็นผู้ใหญ่ปวดท้องเป็นพัก ๆ สงสัยลำไส้ซ้อนซึ่งในผู้ใหญ่ส่วนใหญ่มีเนื้องอกเป็นหัวนำ",
+   "D": "Colonoscopy ไม่ใช่วิธีวินิจฉัยลำไส้ซ้อนในทารก ต้องดมยาและเสี่ยงทะลุในลำไส้ที่บวมขาดเลือด; จะถูกถ้าเด็ก 4 ขวบถ่ายเลือดสดเป็นครั้ง ๆ ไม่ปวดท้อง สงสัย juvenile polyp (ส่องแล้วตัดได้เลย)",
+   "E": "UGI contrast study ใช้หา malrotation/midgut volvulus (ดูตำแหน่ง duodenojejunal junction) ไม่เห็นลำไส้ซ้อนที่ ileocolic; จะถูกถ้าทารกที่เคยสบายดีอาเจียนเป็นน้ำดีสีเขียวกะทันหัน ต้องรีบหา malrotation with volvulus"
+  },
+  "trap": "ทารกถ่ายเป็นเลือดร่วมกับอาการลำไส้อุดตัน แล้วส่ง plain film หรือ CT ก่อน — US แม่นกว่าและไม่มีรังสี · plain film ใช้เฉพาะสงสัยทะลุ ส่วน contrast/air enema ปัจจุบันใช้เป็นการรักษามากกว่าการวินิจฉัย",
+  "summary": [
+   "Triad ปวดบีบเป็นพัก + อาเจียน + currant jelly stool พบไม่ถึงครึ่ง · ทารกบางรายมาด้วยซึมอย่างเดียว · คลำก้อนรูปไส้กรอกที่ RUQ และท้องขวาล่างว่าง (Dance sign)",
+   "US: target/doughnut sign (ตัดขวาง) · pseudokidney sign (ตามยาว) · Doppler ไม่มีเลือดไปเลี้ยงหรือมีน้ำติดอยู่ระหว่างชั้นลำไส้ = โอกาส reduction สำเร็จลดลง",
+   "Ileoileal intussusception สั้น (< 3.5 cm) ไม่มีอาการอุดตัน มักหายเองชั่วคราว → ติดตามด้วย US ซ้ำ ไม่ต้อง enema",
+   "Plain film: ไม่ไว ใช้หา free air/ลำไส้อุดตันเมื่อสงสัยทะลุ · CT: ผู้ใหญ่หรือรายที่สงสัยเนื้องอกเป็นหัวนำ",
+   "ความแม่นของ US ขึ้นกับผู้ทำ · ถ้า US ไม่ชัดแต่สงสัยมาก → contrast/air enema ได้ทั้งวินิจฉัยและรักษาในครั้งเดียว",
+   "หลังยืนยัน: สารน้ำ → enema reduction · ห้ามทำเมื่อ peritonitis, free air, ช็อกที่แก้ไม่ได้ → ผ่าตัด"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ไฟล์ Key 77B: Dx intussusception → Ix US) · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E · ข้อ RoA Ped 13 ของชุดนี้ถามการวินิจฉัยโรคเดียวกัน ส่วนข้อนี้ถามการตรวจยืนยัน",
+  "variants": [
+   "เด็ก 4 ขวบ มีจ้ำเลือดนูนที่ขาและก้น ปวดข้อ ต่อมาปวดท้องบีบเป็นพักและถ่ายมีเลือด → สงสัยลำไส้ซ้อนจาก HSP (มักเป็น ileoileal): ส่ง US ท้อง",
+   "ทารก 6 สัปดาห์ อาเจียนพุ่งไม่มีน้ำดีหลังกินนมทุกมื้อ หิวตลอด คลำได้ก้อนรูปมะกอกเหนือสะดือ → hypertrophic pyloric stenosis: US วัดความหนากล้ามเนื้อ pylorus",
+   "ทารก 10 เดือน US ยืนยันลำไส้ซ้อน air enema ครั้งแรกไม่สำเร็จแต่ลำไส้ขยับได้บางส่วน สัญญาณชีพคงที่ → delayed repeat enema หลังรอ 30 นาทีได้ ถ้าไม่สำเร็จจึงผ่าตัด"
+  ]
+ },
+ "MDCU77|RoB|Neuro 1": {
+  "interp": "ปวดศีรษะ 1 เดือนแล้วแย่ลง + focal deficit + ภาพเป็นก้อนในสมองที่มี edema รอบมาก → อาการเกิดจาก vasogenic edema และ mass effect · ถามการรักษาเบื้องต้นก่อนการรักษาหลัก (ผ่าตัด/ฉายแสง)",
+  "why": "Edema รอบเนื้องอก (primary หรือ metastasis) เป็น <b>vasogenic edema</b> จาก blood–brain barrier รั่ว · <b>corticosteroid (dexamethasone)</b> ลดการรั่วของหลอดเลือด ลด edema และ mass effect ทำให้ปวดศีรษะและ focal deficit ดีขึ้นภายใน 24–72 ชม. จึงเป็นการรักษาเบื้องต้นก่อนผ่าตัดหรือฉายแสง · ความดัน 160/100 ในผู้ป่วยปวดศีรษะที่ ICP สูงเป็นการตอบสนองของร่างกาย ไม่ใช่ปัญหาหลักที่ต้องแก้ก่อน",
+  "wrong": {
+   "A": "Hyperventilation ลด PaCO₂ ทำหลอดเลือดสมองหดตัว ลด ICP ได้เร็วแต่ชั่วคราวและเสี่ยงสมองขาดเลือด ไม่ได้แก้ edema; จะถูกถ้าผู้ป่วยรายนี้ซึมลงเร็ว pupil ข้างหนึ่งโต (กำลัง herniation) — ใช้เป็นสะพานระหว่างรอ osmotherapy และผ่าตัด",
+   "B": "ยากันชักให้เมื่อมีอาการชักแล้ว ผู้ป่วยเนื้องอกสมองที่ไม่เคยชักไม่แนะนำให้ยาป้องกัน และยาไม่ลด edema; จะถูกถ้าผู้ป่วยเนื้องอกสมองมาด้วยชักเกร็งกระตุกทั้งตัว (เลือก levetiracetam ซึ่งไม่ทำปฏิกิริยากับยาเคมีบำบัด)",
+   "D": "ความดันที่สูงในผู้ป่วย ICP สูงช่วยคง cerebral perfusion pressure (CPP = MAP − ICP) การลดความดันมากทำให้สมองขาดเลือดเพิ่ม; จะถูกถ้าผู้ป่วยความดันสูงมีเลือดออกในเนื้อสมอง (คุม SBP ราว 140 mmHg) หรือความดันสูงวิกฤตร่วมกับ hypertensive encephalopathy",
+   "E": "LP ในผู้ป่วยที่มีก้อนในสมองและ mass effect เสี่ยง herniation (ความดันในช่องไขสันหลังลดลงเร็วกว่าในกะโหลก) และไม่ได้รักษาอะไร; จะถูกถ้าผู้ป่วยมีไข้ คอแข็ง ซึม CT สมองไม่มีก้อน (สงสัย meningitis)"
+  },
+  "trap": "เห็น BP 160/100 แล้วรีบลดความดัน — ความดันที่สูงเป็นการตอบสนองต่อ ICP สูงและปวด ลดลงจะทำ CPP ตก · ปัญหาหลักคือ edema รอบก้อน ซึ่ง steroid ลดได้ตรงจุด",
+  "summary": [
+   "Vasogenic edema (เนื้องอก ฝีในสมอง) อยู่ใน white matter รูปนิ้วมือ ตอบสนองต่อ steroid · cytotoxic edema (infarct, บาดเจ็บสมอง) ไม่ตอบสนอง",
+   "Dexamethasone (CNS guideline 2019): อาการน้อย 4–8 mg/วัน · อาการมากหรือมี mass effect ≥ 16 mg/วัน แบ่งให้ · ไม่มีอาการจาก edema ไม่ต้องให้ · ลดขนาดเมื่อดีขึ้นเพื่อเลี่ยงผลข้างเคียง (น้ำตาลสูง กล้ามเนื้อต้นแขนต้นขาอ่อนแรง ติดเชื้อ)",
+   "สงสัย primary CNS lymphoma (ก้อนลึกรอบ ventricle เข้าสีสม่ำเสมอ ภูมิคุ้มกันต่ำ) → biopsy ก่อนให้ steroid ถ้าอาการไม่วิกฤต เพราะ steroid ทำให้ก้อนยุบจนชิ้นเนื้อไม่ได้ผล",
+   "ICP สูงเฉียบพลัน/herniation: หัวสูง 30° · mannitol หรือ hypertonic saline · hyperventilation ชั่วคราว (PaCO₂ 30–35) · ผ่าตัดลดก้อน",
+   "ยากันชัก (ASCO/SNO 2021): ให้เมื่อชักแล้ว (levetiracetam) · ไม่ให้ป้องกันในผู้ไม่เคยชัก · ให้หลังผ่าตัดในผู้ไม่เคยชักได้แล้วหยุดหลังสัปดาห์แรก",
+   "ผู้ใหญ่ที่มีก้อนในสมอง: metastasis พบบ่อยกว่า primary — หาต้นกำเนิด (ปอด เต้านม melanoma ไต ลำไส้ใหญ่)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง (ไฟล์ Key 77B: brain tumor → steroid ลด vasogenic edema) · ต้นฉบับจดว่าให้รูป brain tumor มาแต่ไม่มีรูปในไฟล์ เราบรรยายภาพไว้ในโจทย์และเติมช้อย E",
+  "variants": [
+   "ผู้ป่วยมะเร็งปอด MRI พบ metastasis ก้อนเดียวในสมองขนาด 1.5 cm ไม่มี edema ไม่มีอาการ → ไม่ต้องให้ steroid: stereotactic radiosurgery",
+   "ผู้ป่วยบาดเจ็บศีรษะ CT มี contusion และสมองบวมรอบ ๆ → ไม่ให้ steroid (CRASH trial: ตายมากขึ้น) ดูแล ICP ด้วยวิธีอื่น",
+   "ผู้ป่วยมีไข้ ปวดศีรษะ CT เห็นก้อนผนังบางเรียบเข้าสีเป็นวงแหวน MRI DWI จำกัดการแพร่ในก้อน → brain abscess: เจาะดูดหนอง + ยาปฏิชีวนะ"
+  ]
+ },
+ "MDCU77|RoB|Neuro 2": {
+  "interp": "ถูกกระแทกศีรษะขวา (สงสัยก้อนเลือดฝั่งขวา) + pupil ขวาโต 5 mm ไม่ตอบสนอง (CN III ข้างเดียวกันถูกกด) + decerebrate posturing (midbrain ถูกกด) → ถามชนิดของ herniation",
+  "why": "ก้อนเลือดหรือสมองบวมด้านขวาดัน <b>uncus</b> (ส่วนในของ temporal lobe) ผ่านขอบ tentorium ลงมา กดโครงสร้างตามลำดับ: (1) <b>CN III ข้างเดียวกัน</b> — เส้นใย parasympathetic อยู่ผิวนอกของเส้นประสาทจึงถูกกดก่อน pupil ข้างเดียวกันโตและไม่ตอบสนองต่อแสง (2) cerebral peduncle ข้างเดียวกัน → อ่อนแรงซีกตรงข้าม (3) midbrain → ซึมลง posturing จาก decorticate เป็น decerebrate · pupil ซ้ายที่ยังตอบสนองช้า ๆ บอกว่าภาพยังเริ่มจากข้างเดียว ไม่ใช่ central herniation ที่ pupil สองข้างเปลี่ยนพร้อมกัน · เป็นภาวะฉุกเฉิน ต้องลด ICP ทันทีแล้ว CT และผ่าตัดเอาก้อนออก",
+  "wrong": {
+   "A": "Central herniation: diencephalon และ midbrain เลื่อนลงตรงกลางจากสมองบวมทั้งสองข้างหรือก้อนที่อยู่กลาง — pupil เล็กสองข้างก่อนแล้วค่อยกลางค้างพร้อมกัน ซึมลง หายใจแบบ Cheyne–Stokes ไม่มี pupil โตข้างเดียวตั้งแต่ต้น; จะถูกถ้าผู้ป่วยสมองบวมทั่วทั้งสองซีกหลังหัวใจหยุดเต้น ซึมลงเรื่อย ๆ pupil เล็กสองข้างเท่ากัน แล้วเกิด decorticate posturing",
+   "C": "Subfalcine herniation: cingulate gyrus เลื่อนใต้ falx (เห็นเป็น midline shift บน CT พบบ่อยที่สุด) อาจกด anterior cerebral artery → ขาอ่อนแรงซีกตรงข้าม ไม่มี pupil เปลี่ยนหรือ posturing; จะถูกถ้าผู้ป่วย subdural hematoma ข้างเดียวรู้สึกตัวดี pupil ปกติ CT เห็น midline shift 8 mm",
+   "D": "Tonsillar herniation: cerebellar tonsils ลงผ่าน foramen magnum กด medulla → หยุดหายใจ ความดันแกว่ง หัวใจหยุดเต้น ไม่ใช่ pupil โตข้างเดียว; จะถูกถ้าผู้ป่วยเลือดออกใน cerebellum ขนาดใหญ่ ปวดท้ายทอย อาเจียน แล้วหยุดหายใจทันที",
+   "E": "Upward transtentorial herniation: ก้อนใน posterior fossa ดัน cerebellum ขึ้นผ่าน tentorial notch กด midbrain จากด้านล่าง — ตาเหลือบขึ้นไม่ได้ ซึมลง pupil เล็ก; จะถูกถ้าผู้ป่วยก้อนใน cerebellum ที่มี hydrocephalus ใส่ EVD แล้วระบายน้ำ CSF เร็วเกินจนซึมลงทันที"
+  },
+  "trap": "เห็น posturing และ pupil อีกข้างตอบสนองช้าแล้วคิดว่าเป็น central herniation — ตัวแยกคือ pupil โตข้างเดียวด้านเดียวกับรอยโรค (CN III) = uncal · central เริ่มจาก pupil เล็กสองข้างเท่ากัน",
+  "summary": [
+   "ชนิด herniation: subfalcine (cingulate ใต้ falx, พบบ่อยสุด) · uncal/lateral transtentorial · central transtentorial · upward (จาก posterior fossa) · tonsillar (foramen magnum) · transcalvarial (ผ่านรูกะโหลกที่เปิด)",
+   "Uncal: pupil โตข้างเดียวกับรอยโรค → อ่อนแรงซีกตรงข้าม → ซึม/posturing · กด posterior cerebral artery ข้างเดียวกัน → occipital infarct ตามมา",
+   "Kernohan notch: peduncle ฝั่งตรงข้ามถูกกดกับขอบ tentorium → อ่อนแรงข้างเดียวกับรอยโรค (false localizing) — ข้างของ pupil ที่โตบอกตำแหน่งรอยโรคได้แม่นกว่า",
+   "Central: pupil เล็กสองข้าง → กลางค้าง, decorticate → decerebrate, Cheyne–Stokes · ดึงหลอดเลือดแขนง basilar ขาด → Duret hemorrhage ใน pons",
+   "Tonsillar: กด medulla → หยุดหายใจ · Cushing triad (ความดันสูง ชีพจรช้า หายใจผิดปกติ) บอกว่า ICP สูงใกล้ herniation",
+   "รักษาเบื้องต้น: หัวสูง 30° · ใส่ท่อช่วยหายใจ · mannitol 0.25–1 g/kg หรือ hypertonic saline · hyperventilation ชั่วคราว (PaCO₂ 30–35) เป็นสะพาน · CT แล้วผ่าตัดเอาก้อนออก/decompressive craniectomy"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ไฟล์ Key 77B: CN III ข้างเดียวกัน + อ่อนแรงซีกตรงข้าม = uncal herniation) · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E · ชุดเดียวกันมี RoC Neuro 2 ถามเรื่องเดียวกันโดยมีช้อย Kernohan",
+  "variants": [
+   "เด็กถูกตีศีรษะขวา รู้สึกตัวดีช่วงหนึ่งแล้วซึมลง pupil ขวาโต CT เห็นก้อนเลือดรูปเลนส์ใต้กะโหลกขวา → epidural hematoma กำลัง uncal herniation: ผ่าตัดเอาก้อนออกด่วน",
+   "ผู้ป่วยบาดเจ็บศีรษะ ซึมลง ความดัน 190/100 ชีพจร 48 หายใจไม่สม่ำเสมอ → Cushing reflex จาก ICP สูงมาก: ห้ามลดความดัน ลด ICP แล้วผ่าตัด",
+   "ผู้ป่วยที่รอดจาก uncal herniation ด้านซ้าย ต่อมาตามองไม่เห็นซีกขวาของลานสายตาทั้งสองตา → occipital infarct จาก posterior cerebral artery ซ้ายถูกกด"
+  ]
+ },
+ "MDCU77|RoB|Neuro 3": {
+  "interp": "ปวดศีรษะรุนแรงทันที (thunderclap) + ภาพในข้อ (ตามที่บันทึกไว้) เป็น CT ไม่ฉีดสีเห็นเลือด hyperdense ใน sulci และ fissure หลายตำแหน่ง = subarachnoid hemorrhage → เห็นเลือดแล้ว ถามขั้นต่อไปคือหาต้นเหตุ",
+  "why": "SAH ที่ไม่ได้เกิดจากอุบัติเหตุราว 85% มาจาก <b>aneurysm แตก</b> · เมื่อ CT ยืนยันเลือดแล้ว ขั้นต่อไปคือ <b>CT angiography</b> หา aneurysm ทำต่อได้ทันทีในห้อง CT และวางแผน coiling หรือ clipping ได้ · ถ้า CTA ไม่พบแต่ยังสงสัยสูง → DSA ซึ่งเป็นมาตรฐาน · aneurysm ที่แตกต้อง secure เร็วที่สุดเพราะ rebleeding ช่วงแรกมีอัตราตายสูง จึงต้องรู้ตำแหน่งและรูปร่าง aneurysm ก่อนตัดสินใจทุกอย่าง",
+  "wrong": {
+   "A": "Corticosteroid ไม่ลด vasospasm และไม่ช่วยผลการรักษาใน SAH; จะถูกถ้าผู้ป่วยปวดศีรษะมา 1 เดือน มี focal deficit และ CT เห็นก้อนในสมองที่มี edema รอบมาก (vasogenic edema จากเนื้องอก)",
+   "C": "LP ใช้เมื่อ CT ไม่พบเลือดแต่ยังสงสัย SAH (หา xanthochromia) — รายนี้ CT เห็นเลือดแล้วจึงไม่ช่วย และอันตรายถ้ามี hematoma หรือ hydrocephalus; จะถูกถ้าผู้ป่วยปวดศีรษะทันทีรุนแรงมา 10 ชม. CT ไม่ฉีดสีปกติ",
+   "D": "ยาต้านการแข็งตัวของเลือดห้ามใน SAH จาก aneurysm ที่ยังไม่ secure เพราะเพิ่ม rebleeding; จะถูกถ้าหญิงหลังคลอดปวดศีรษะมากขึ้นเรื่อย ๆ ชัก MR venography พบ superior sagittal sinus อุดตัน (cerebral venous thrombosis — ให้ heparin แม้มีเลือดออกในสมองร่วม)",
+   "E": "Mannitol ลด ICP ใช้เมื่อมีสัญญาณ ICP สูงหรือ herniation ไม่ใช่ขั้นแรกของการหาสาเหตุ; จะถูกถ้าผู้ป่วย SAH ที่มีก้อนเลือดใหญ่ใน temporal lobe ซึมลงเร็ว pupil ข้างหนึ่งโต ระหว่างเตรียมผ่าตัด"
+  },
+  "trap": "เห็นช้อย LP แล้วนึกถึงลำดับ \"CT แล้ว LP\" ของปวดศีรษะ thunderclap — LP ใช้เฉพาะเมื่อ CT ปกติ · เมื่อ CT เห็นเลือดแล้ว คำถามเปลี่ยนเป็น \"เลือดมาจากไหน\" → CTA",
+  "summary": [
+   "อาการ: ปวดศีรษะรุนแรงที่สุดทันที (ถึงจุดสูงสุดใน < 1 นาที) คอแข็ง อาเจียน ซึม · บางรายมี sentinel headache ก่อนหน้า",
+   "CT ไม่ฉีดสีภายใน 6 ชม. แทบไม่พลาด · หลัง 6 ชม. ความไวลดลง → LP หา xanthochromia (ทำหลังเริ่มปวด ≥ 12 ชม.) หรือ CTA",
+   "หาต้นเหตุ: CTA → DSA ถ้า CTA ลบแต่สงสัยสูง · SAH รอบ midbrain (perimesencephalic) ที่ CTA ปกติ มักไม่ใช่ aneurysm พยากรณ์ดี",
+   "Grading: Hunt–Hess / WFNS (อาการ) · modified Fisher (ปริมาณเลือดบน CT ทำนาย vasospasm)",
+   "รักษา (AHA/ASA 2023): secure aneurysm ด้วย coiling หรือ clipping ภายใน 24 ชม. ถ้าทำได้ · nimodipine 60 mg ทุก 4 ชม. 21 วัน (ลด poor outcome) · คุม SBP < 160 ก่อน secure · euvolemia",
+   "ภาวะแทรกซ้อน: rebleeding (24 ชม.แรก) · hydrocephalus (EVD) · vasospasm/delayed cerebral ischemia วันที่ 3–14 · hyponatremia (SIADH หรือ cerebral salt wasting)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ไฟล์ Key 77B: SAH → vascular study = CTA) · ผู้จดบอกว่ารูปในไฟล์เป็นคนละรูปกับที่สอบ แต่ทั้งโจทย์และคีย์ตรงกับ SAH · ต้นฉบับมีช้อย 4 ตัว เราเติม E",
+  "variants": [
+   "ผู้ป่วย SAH มีหนังตาตกและ pupil ข้างเดียวกันโต → CN III palsy จาก posterior communicating artery aneurysm กด: CTA แล้ว secure aneurysm ด่วน",
+   "ผู้ป่วย SAH วันแรก ซึมลงทีละน้อย CT ซ้ำเห็น temporal horns โต → acute hydrocephalus: ใส่ external ventricular drain",
+   "ผู้ป่วย SAH วันที่ 5 โซเดียม 126 ปัสสาวะออกมาก ความดันต่ำ → cerebral salt wasting: ให้ NaCl และสารน้ำ ห้ามจำกัดน้ำ"
+  ]
+ },
+ "MDCU77|RoB|Neuro 4": {
+  "interp": "ผู้ป่วยความดันสูง ชาและอ่อนแรงซีกตรงข้ามทันที + ภาพในข้อ (ตามที่บันทึกไว้) เป็น CT ไม่ฉีดสีเห็นก้อนเลือด hyperdense ติดผนัง third ventricle ด้านซ้าย มีเลือดใน ventricle ร่วม → ถามตำแหน่งต้นเหตุของเลือดออก",
+  "why": "<b>Thalamus</b> อยู่ด้านข้างของ third ventricle และอยู่ medial ต่อ posterior limb ของ internal capsule · ก้อนเลือดที่ติดผนัง third ventricle จึงเป็น thalamic hemorrhage ซึ่งเป็นตำแหน่งพบบ่อยอันดับสองของ hypertensive ICH (หลอดเลือด thalamoperforating เสื่อมจากความดันสูง) · อาการเด่นคือ <b>ชาซีกตรงข้าม</b> เพราะ thalamus เป็นสถานีถ่ายทอดความรู้สึก ± อ่อนแรงถ้ากด internal capsule และอาการตา (เหลือบขึ้นไม่ได้ ตามองลงและเข้าใน) · เพราะติด ventricle จึงแตกเข้า ventricle บ่อย (เลือดใน ventricle ในภาพ) และเสี่ยง obstructive hydrocephalus",
+  "wrong": {
+   "A": "Putaminal (basal ganglia) hemorrhage พบบ่อยที่สุด อยู่ lateral ต่อ internal capsule ไม่ติด third ventricle อาการเด่นเป็นอ่อนแรงซีกตรงข้ามมากกว่าชา และตาเหลือบไปทางรอยโรค; จะถูกถ้าผู้ป่วยความดันสูงแขนขาขวาอ่อนแรงทันที ตาเหลือบไปทางซ้าย CT เห็นก้อนเลือดด้านนอก internal capsule ซ้าย",
+   "C": "Secondary IVH คือเลือดที่ล้นเข้า ventricle จากก้อนในเนื้อสมอง มีในภาพจริงแต่เป็นผลที่ตามมา ไม่ใช่ตำแหน่งต้นเหตุ; จะถูกถ้าผู้ป่วย thalamic hemorrhage ที่เดิมก้อนอยู่ในเนื้อสมองอย่างเดียว ซึมลงแล้ว CT ซ้ำเห็นเลือดล้นเข้า lateral ventricles — ภาวะที่เกิดใหม่คือ secondary IVH",
+   "D": "Lobar hemorrhage อยู่ใน cortex/subcortical white matter ใกล้ผิวสมอง มักจาก amyloid angiopathy ในผู้สูงอายุหรือ AVM ในคนอายุน้อย; จะถูกถ้าผู้ป่วยอายุ 78 ปี ความจำเสื่อม ชักและแขนอ่อนแรง CT เห็นก้อนเลือดที่ frontal lobe ใกล้ผิวสมอง",
+   "E": "Cerebellar hemorrhage อยู่ใน posterior fossa มาด้วยเวียนศีรษะ อาเจียน เดินเซ แขนขาไม่อ่อนแรง; จะถูกถ้าผู้ป่วยความดันสูงปวดท้ายทอย อาเจียนมาก ยืนเดินไม่ได้ ตากระตุก โดยแขนขามีแรงปกติ"
+  },
+  "trap": "เห็นเลือดใน ventricle แล้วตอบ secondary IVH หรือเห็นเลือดใน deep grey matter แล้วตอบ basal ganglia ทันที — ดูว่าก้อนอยู่ข้างไหนของ internal capsule: medial ติด third ventricle = thalamus · lateral = putamen",
+  "summary": [
+   "อาการตามตำแหน่ง hypertensive ICH: putamen = อ่อนแรงซีกตรงข้าม ตาเหลือบไปทางรอยโรค · thalamus = ชาซีกตรงข้าม ตามองลง-เข้าใน · pons = โคม่าเร็ว pupil เล็กเท่าเข็มหมุด อ่อนแรงทั้งสี่ · cerebellum = เวียน อาเจียน เดินเซ",
+   "กายวิภาคบน CT: thalamus ติดผนัง third ventricle อยู่ medial ต่อ posterior limb ของ internal capsule · putamen อยู่ lateral ต่อ internal capsule · caudate ติด frontal horn ของ lateral ventricle",
+   "Thalamic ICH แตกเข้า ventricle บ่อย → obstructive hydrocephalus (ซึมลง temporal horns โต) → external ventricular drain",
+   "การผ่าตัดเอาก้อนออกไม่ช่วยใน ICH ลึกอย่าง thalamus · ผ่าเมื่อ cerebellar ICH > 3 cm หรือกด brainstem/มี hydrocephalus",
+   "ดูแลทั่วไป: คุม SBP ราว 140 mmHg (AHA 2022) · แก้ coagulopathy · ICH ในคนอายุน้อยหรือไม่มีความดันสูง → หาหลอดเลือดผิดปกติ (CTA)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ไฟล์ Key 77B: thalamic hemorrhage ข้าง 3rd ventricle) · ต้นฉบับจดแค่ \"ให้อาการมา ถาม Diagnosis\" ช้อย 3 ตัว เราเติมอาการในโจทย์และช้อย D, E · คู่กับ RoA Neuro 2 ที่ภาพเป็น basal ganglia hemorrhage",
+  "variants": [
+   "ผู้ป่วยความดันสูง โคม่าทันที pupil เล็กเท่าเข็มหมุดสองข้าง หายใจผิดปกติ อ่อนแรงทั้งสี่ → pontine hemorrhage: ดูแลประคับประคอง ไม่ผ่าตัด",
+   "ผู้ป่วย cerebellar hemorrhage 4 cm ซึมลง CT เห็น fourth ventricle ถูกกด → suboccipital craniectomy เอาก้อนออก (ไม่ใช่ใส่ EVD อย่างเดียว)",
+   "ผู้ป่วยหลัง thalamic hemorrhage 3 เดือน ปวดแสบร้อนรุนแรงซีกที่เคยชา → thalamic pain syndrome (Dejerine–Roussy): ยากลุ่ม neuropathic pain เช่น amitriptyline หรือ gabapentinoid"
+  ]
+ },
+ "MDCU77|RoB|Neuro 5": {
+  "interp": "หญิง 25 ปี ปวดศีรษะเป็นซ้ำ รักษาแบบ migraine มา 1 ปี → ถามสิ่งตรวจพบที่เป็น <b>red flag</b> ซึ่งบอกว่าอาจไม่ใช่ migraine และต้องตรวจเพิ่ม",
+  "why": "<b>Papilledema</b> = ขั้วประสาทตาบวมจาก ICP สูง เป็นสิ่งตรวจพบที่ migraine ไม่มีทางทำให้เกิด จึงต้องหาสาเหตุของ ICP สูง: ก้อนในสมอง, cerebral venous thrombosis, hydrocephalus หรือ idiopathic intracranial hypertension (IIH) · ลำดับคือ MRI สมอง + MR venography ก่อน แล้วค่อย LP วัด opening pressure เมื่อไม่มีก้อน · หญิงวัยเจริญพันธุ์ปวดศีรษะเรื้อรัง (ยิ่งถ้าอ้วนหรือน้ำหนักขึ้น) ต้องนึกถึง IIH ซึ่งทำให้ตาบอดถาวรได้ถ้าไม่รักษา · ช้อยอื่นเป็นอาการที่พบร่วมกับ migraine ได้ตามปกติ",
+  "wrong": {
+   "A": "Dizziness เป็นอาการไม่จำเพาะ พบร่วม migraine ได้บ่อย ไม่ใช่ red flag เดี่ยว · จะถูกถ้าเวียนศีรษะร่วมกับ focal neurological deficit หรือ syncope หลัง thunderclap headache",
+   "B": "Vertigo พบใน vestibular migraine และ migraine with brainstem aura · จะถูกถ้า vertigo เกิดใหม่ร่วมกับ diplopia, dysarthria, ataxia (สงสัย posterior circulation stroke/cerebellar mass)",
+   "D": "Photophobia เป็นอาการตามเกณฑ์วินิจฉัย migraine (ICHD-3) ไม่ใช่ red flag · จะถูกถ้า photophobia ร่วมกับไข้และคอแข็ง (สงสัย meningitis)",
+   "E": "Nausea เป็นอาการตามเกณฑ์ migraine เช่นกัน · จะถูกถ้าอาเจียนพุ่งตอนเช้าร่วมกับปวดศีรษะที่แย่ลงเรื่อย ๆ (ICP สูง)"
+  },
+  "trap": "ทุกช้อยที่เหลือเป็นอาการตามเกณฑ์ migraine (nausea, photophobia) หรือพบร่วมได้ (vertigo, dizziness) — red flag ต้องเป็นสิ่งที่ migraine ไม่มี เช่น papilledema, focal deficit ที่ไม่หาย, ปวดแบบใหม่หรือเปลี่ยนรูปแบบ",
+  "summary": [
+   "Red flags (SNOOP4): Systemic (ไข้ น้ำหนักลด มะเร็ง HIV) · Neurologic deficit/papilledema/ชัก · Onset ทันที (thunderclap) · Older > 50 ปีปวดแบบใหม่ · Pattern เปลี่ยน · Positional · Precipitated by Valsalva · Progressive",
+   "Papilledema → MRI สมอง + MRV ก่อน LP (กัน herniation ถ้ามีก้อน และหา venous sinus thrombosis)",
+   "IIH (modified Dandy): papilledema + opening pressure ≥ 25 cmH₂O + CSF ปกติ + imaging ไม่มีก้อนหรือหลอดเลือดดำอุดตัน · อาการ: ตามัววูบเมื่อลุก เห็นภาพซ้อน (CN VI) เสียงหวีดในหูตามชีพจร",
+   "รักษา IIH: ลดน้ำหนัก + acetazolamide · ตามัวลงเร็ว → optic nerve sheath fenestration หรือ CSF shunt/venous sinus stenting",
+   "Migraine (ICHD-3): ≥ 5 ครั้ง นาน 4–72 ชม. มี 2 ใน 4 (ข้างเดียว ตุบ ๆ ปานกลาง–มาก แย่ลงเมื่อเคลื่อนไหว) + คลื่นไส้/อาเจียน หรือกลัวแสงและเสียง",
+   "หญิงตั้งครรภ์ หลังคลอด หรือกินยาคุมกำเนิด ปวดศีรษะ + papilledema ต้องนึกถึง cerebral venous thrombosis"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง (ไฟล์ Key 77B: sign of increased ICP) · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "variants": [
+   "หญิงอ้วน 28 ปี ปวดศีรษะ ตามัววูบเมื่อลุก เห็นภาพซ้อน papilledema สองข้าง MRI/MRV ปกติ opening pressure 32 cmH₂O → IIH: ลดน้ำหนัก + acetazolamide",
+   "ชาย 68 ปี ปวดขมับข้างเดียวแบบใหม่ เคี้ยวแล้วปวดกราม ESR สูง → giant cell arteritis: ให้ steroid ทันที แล้ว biopsy หลอดเลือดขมับ",
+   "หญิง 35 ปี ปวดศีรษะเกือบทุกวันมา 4 เดือน กินยาแก้ปวดเกือบทุกวัน ตรวจร่างกายปกติ → medication overuse headache: หยุดยาที่ใช้เกิน + เริ่มยาป้องกัน"
+  ]
  }
 }
