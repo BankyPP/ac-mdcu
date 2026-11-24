@@ -73,7 +73,7 @@
  },
  "MDCU77|RoA|Uro 3": {
   "interp": "TURBT พบ urothelial carcinoma ลุกถึง muscularis propria = T2 (muscle-invasive bladder cancer, MIBC) ยังไม่แพร่กระจาย → ถามการรักษาหลักที่หวังหายขาด",
-  "why": "MIBC ที่ยังไม่แพร่กระจาย (cT2–T4a N0 M0) การรักษามาตรฐานคือ <b>radical cystectomy</b> + pelvic lymph node dissection + urinary diversion โดยให้ neoadjuvant cisplatin-based chemotherapy ก่อนผ่าตัดในผู้ที่รับ cisplatin ได้ (เพิ่มการอยู่รอด 5 ปีราว 5% แบบสัมบูรณ์) · ปัจจุบันการศึกษา NIAGARA ให้ durvalumab ร่วมกับ gemcitabine–cisplatin ทั้งก่อนและหลังผ่าตัดได้ผลดีขึ้น · ทางเลือกเก็บกระเพาะปัสสาวะคือ trimodality therapy (maximal TURBT + chemoradiation) ในผู้ป่วยที่เลือกได้ · ส่วนการรักษาเฉพาะที่ (ฉีดยาเข้ากระเพาะปัสสาวะ, TURBT อย่างเดียว) ใช้กับ NMIBC เท่านั้น",
+  "why": "MIBC ที่ยังไม่แพร่กระจาย (cT2–T4a N0 M0) การรักษามาตรฐานคือ <b>radical cystectomy</b> + pelvic lymph node dissection + urinary diversion โดยให้ neoadjuvant cisplatin-based chemotherapy ก่อนผ่าตัดในผู้ที่รับ cisplatin ได้ (เพิ่มการอยู่รอด 5 ปีราว 5% แบบสัมบูรณ์) · ปัจจุบันการศึกษา NIAGARA ให้ durvalumab ร่วมกับ gemcitabine–cisplatin ก่อนผ่าตัด แล้วให้ durvalumab อย่างเดียวต่อหลังผ่าตัด ได้ผลดีขึ้น · ผู้ที่รับ cisplatin ไม่ได้ทำ cystectomy ได้เลยโดยไม่ต้องรอ neoadjuvant · ทางเลือกเก็บกระเพาะปัสสาวะคือ trimodality therapy (maximal TURBT + chemoradiation) ในผู้ป่วยที่เลือกได้ · ส่วนการรักษาเฉพาะที่ (ฉีดยาเข้ากระเพาะปัสสาวะ, TURBT อย่างเดียว) ใช้กับ NMIBC เท่านั้น",
   "wrong": {
    "B": "TURBT ซ้ำอย่างเดียวคุมโรคที่ลุกถึงกล้ามเนื้อไม่ได้ ใช้เพื่อ staging ใหม่ใน NMIBC; จะถูกถ้าผล TURBT เป็น high-grade T1 หรือชิ้นเนื้อไม่มีชั้นกล้ามเนื้อให้ประเมิน (re-TURBT ใน 2–6 สัปดาห์)",
    "C": "Intravesical BCG ออกฤทธิ์เฉพาะผิวด้านใน ใช้กับ NMIBC ความเสี่ยงปานกลาง–สูง ไม่ได้ผลกับก้อนที่ลุกถึงกล้ามเนื้อ; จะถูกถ้าผู้ป่วยเป็น carcinoma in situ หรือ high-grade T1 หลัง re-TURBT ที่เอาออกหมดแล้ว",
@@ -88,11 +88,11 @@
    "ไม่ผ่าตัดหรือต้องการเก็บกระเพาะปัสสาวะ: trimodality therapy เหมาะกับก้อนเดี่ยว T2 ไม่มี hydronephrosis ไม่มี CIS กว้าง",
    "ปัจจัยเสี่ยง: สูบบุหรี่ (สำคัญสุด) · aromatic amines (สีย้อม ยาง) · cyclophosphamide · Schistosoma (SCC) · อาการเด่น painless gross hematuria"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 77A) ความมั่นใจสูง — ต้นฉบับจดไว้แค่ช้อย A จึงแต่ง B–E และเติม \"no metastasis\" ใน stem · ในทางปฏิบัติต้องให้ neoadjuvant chemotherapy ก่อนผ่าตัดถ้ารับ cisplatin ได้",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 77A) ความมั่นใจสูง — ต้นฉบับจดไว้แค่ช้อย A จึงแต่ง B–E และเติม \"no metastasis\" ใน stem",
   "variants": [
-   "TURBT ได้ high-grade T1 ชิ้นเนื้อไม่มีชั้นกล้ามเนื้อ → re-TURBT ใน 2–6 สัปดาห์",
-   "Carcinoma in situ ของกระเพาะปัสสาวะ → intravesical BCG induction + maintenance",
-   "MIBC cT2N0 ไตทำงานปกติ ร่างกายแข็งแรง → neoadjuvant cisplatin-based chemotherapy แล้ว radical cystectomy + PLND"
+   "Carcinoma in situ ของกระเพาะปัสสาวะ ทั้งที่ได้ BCG ครบแล้วยังเป็นซ้ำ (BCG-unresponsive) → radical cystectomy",
+   "MIBC cT2N0 ไตทำงานปกติ ร่างกายแข็งแรง → neoadjuvant cisplatin-based chemotherapy (± durvalumab) แล้ว radical cystectomy + PLND",
+   "ชายอายุ 75 ปีเป็น MIBC ก้อนเดียว ไม่มี hydronephrosis ไม่ต้องการตัดกระเพาะปัสสาวะ → trimodality therapy (maximal TURBT + chemoradiation)"
   ]
  },
  "MDCU77|RoA|Uro 4": {
@@ -160,14 +160,14 @@
  },
  "MDCU77|RoA|Uro 7": {
   "interp": "Renal colic จากนิ่ว 5 mm ที่ distal ureter ไม่มีไข้ ไตปกติ คุมปวดได้ = ไม่มีข้อบ่งชี้ระบายด่วนหรือเอานิ่วออกทันที → ถามการรักษาเบื้องต้นที่เหมาะสม",
-  "why": "นิ่วท่อไตขนาดเล็ก (≤ 5 mm) ที่ distal ureter หลุดเองได้ราว 70–80% · เมื่อไม่มีไข้/ติดเชื้อ ไตทำงานดี ไตไม่ได้มีข้างเดียว และคุมปวดได้ จึงใช้ <b>observation/medical expulsive therapy (MET)</b>: ยาแก้ปวด (NSAID เป็นยาแรก) + alpha-blocker (tamsulosin) ซึ่งคลาย smooth muscle ของท่อไตส่วนปลาย ทำให้นิ่วหลุดเร็วขึ้นและปวดน้อยลง (EAU แนะนำสำหรับนิ่ว distal > 5 mm, AUA สำหรับ distal ≤ 10 mm) แล้วติดตามด้วยภาพถ่ายรังสีภายใน 4–6 สัปดาห์ · ถ้านิ่วไม่หลุด ปวดซ้ำ ติดเชื้อ หรือไตทำงานลดลง → เอานิ่วออกด้วย ureteroscopy หรือ ESWL",
+  "why": "นิ่วท่อไตขนาดเล็ก (≤ 5 mm) ที่ distal ureter หลุดเองได้ราว 70–80% · เมื่อไม่มีไข้/ติดเชื้อ ไตทำงานดี ไตไม่ได้มีข้างเดียว และคุมปวดได้ จึงใช้ <b>observation/medical expulsive therapy (MET)</b>: ยาแก้ปวด (NSAID เป็นยาแรก) + alpha-blocker (tamsulosin) ซึ่งคลาย smooth muscle ของท่อไตส่วนปลาย · AUA ให้ MET สำหรับนิ่ว distal ≤ 10 mm ส่วน EAU ถือว่านิ่ว ≤ 5 mm สังเกตอาการกับยาแก้ปวดก็พอ และใช้ alpha-blocker เมื่อ > 5 mm — ทั้งสองแนวทางไม่ทำหัตถการในรายนี้ จึงตอบ A · การดื่มน้ำมากเกินปกติ (forced hydration) ไม่ได้ช่วยให้นิ่วหลุด · ติดตามด้วยภาพถ่ายรังสีภายใน 4–6 สัปดาห์",
   "wrong": {
-   "B": "Beta-blocker ไม่มีผลขยายท่อไต ยาที่ช่วยขับนิ่วคือ alpha-blocker และการติดตามต้องดูด้วยภาพถ่ายรังสีว่านิ่วหลุดหรือไม่ ไม่ใช่ดูแค่อาการ เพราะนิ่วอุดตันโดยไม่ปวดทำให้ไตเสียได้; ไม่มีสถานการณ์ใดที่ beta-blocker ใช้ช่วยขับนิ่วท่อไต",
+   "B": "Beta-blocker ไม่มีผลขยายท่อไต ยาที่ช่วยขับนิ่วคือ alpha-blocker และการติดตามนิ่วที่ยังไม่หลุดต้องดูด้วยภาพ ไม่ใช่ดูแค่อาการ เพราะนิ่วอุดตันโดยไม่ปวดทำให้ไตเสียได้; จะถูกถ้าผู้ป่วยเห็นนิ่วหลุดออกมาในปัสสาวะแล้วและหายปวด ซึ่งติดตามทางคลินิกพอ (beta-blocker เป็นแค่ยาประจำตัวเดิม)",
    "C": "ESWL เป็นการเอานิ่วออกที่ไม่รุกล้ำมาก แต่ยังไม่จำเป็นในนิ่วเล็กที่มีโอกาสหลุดเองสูง; จะถูกถ้านิ่ว 8 mm ที่ proximal ureter หรือ MET ครบ 4–6 สัปดาห์แล้วนิ่วไม่ขยับ และผู้ป่วยต้องการเลี่ยงการส่องกล้อง",
    "D": "Ureteroscopy ให้ผลหายจากนิ่วสูงสุดในนิ่วท่อไตส่วนปลาย แต่เป็นหัตถการที่ยังไม่จำเป็นในรายนี้; จะถูกถ้านิ่ว distal ureter > 10 mm, MET ล้มเหลว, ปวดคุมไม่ได้ หรือผู้ป่วยต้องการหายเร็ว (เช่น นักบิน)",
    "E": "PCNL ใช้กับนิ่วในไตขนาดใหญ่ ไม่ใช่นิ่วท่อไตส่วนปลาย; จะถูกถ้าเป็นนิ่วที่ renal pelvis > 2 cm หรือ staghorn stone"
   },
-  "trap": "สับสน alpha-blocker (tamsulosin ช่วยขับนิ่ว) กับ beta-blocker (ไม่มีบทบาท) · อีกจุดคือรีบเลือกหัตถการทั้งที่นิ่วเล็ก ไม่มีไข้ ไตดี — ต้องดูข้อบ่งชี้ระบายด่วนก่อนทุกครั้ง",
+  "trap": "สับสน alpha-blocker (tamsulosin ช่วยขับนิ่ว) กับ beta-blocker · อีกจุดคือรีบเลือกหัตถการทั้งที่นิ่วเล็ก ไม่มีไข้ ไตดี — ดูข้อบ่งชี้ระบายด่วนก่อนทุกครั้ง",
   "summary": [
    "ยาแก้ปวด renal colic: NSAID (diclofenac, ibuprofen) เป็นยาแรกถ้าไตปกติ · paracetamol เป็นทางเลือก · opioid เมื่อยาแรกไม่พอ (EAU)",
    "โอกาสหลุดเองขึ้นกับขนาดและตำแหน่ง: ≤ 4–5 mm ส่วนใหญ่หลุด · 5–10 mm โอกาสลดลงมาก · distal ดีกว่า proximal",
@@ -175,11 +175,11 @@
    "ระบายด่วน (DJ stent หรือ nephrostomy) ก่อนเอานิ่วออก: ไตอุดตันร่วมกับติดเชื้อ/sepsis · ไตข้างเดียวหรืออุดตันสองข้าง · AKI · ปวดคุมไม่ได้ — ไตอุดตันที่ติดเชื้อห้ามส่องเอานิ่วออกทันที",
    "เอานิ่วท่อไตออก: นิ่ว > 10 mm หรือไม่หลุดใน 4–6 สัปดาห์ → ureteroscopy (หลักสำหรับ distal) หรือ ESWL"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 77A ตอบ A แบบไม่แน่ใจ (\"ให้ A เป็น initial Mx ก่อน ถ้าไม่หายก็ C\") ซึ่งสอดคล้องกับแนวทาง EAU/AUA · ต้นฉบับไม่บอกขนาดนิ่ว เราเติม 5 mm และช้อย D, E",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — แต่ส่วนที่ไฟล์ Key 77A เขียนว่า \"ถ้าไม่หายก็ C ถ้าใหญ่กว่า 2 cm\" ไม่ตรงแนวทาง: นิ่วท่อไตที่ไม่หลุดใช้ ureteroscopy หรือ ESWL ส่วนนิ่วในไต > 2 cm ใช้ PCNL · ต้นฉบับไม่บอกขนาดนิ่ว เราเติม 5 mm และช้อย D, E",
   "variants": [
    "นิ่ว 6 mm ที่ proximal ureter ไข้ 39°C ไตบวมน้ำ → ระบายด่วนด้วย DJ stent หรือ percutaneous nephrostomy + ยาปฏิชีวนะ (เอานิ่วออกทีหลัง)",
-   "Tamsulosin 6 สัปดาห์ นิ่ว 7 mm ที่ distal ureter ยังไม่หลุด → ureteroscopic lithotripsy",
-   "ผู้ป่วยไตข้างเดียวปวดสีข้าง ปัสสาวะไม่ออก creatinine สูงขึ้น CT เห็นนิ่วอุดท่อไต → ระบายด่วน"
+   "หญิงตั้งครรภ์ 20 สัปดาห์ปวดสีข้างร้าวลงขาหนีบ → อัลตราซาวนด์ (เลี่ยง CT) ยาแก้ปวด paracetamol เลี่ยง NSAID ถ้าต้องระบายใช้ DJ stent หรือ nephrostomy",
+   "ชายปวดสีข้างซ้ำ KUB ไม่เห็นนิ่ว CT เห็นนิ่ว 4 mm ที่ distal ureter ปัสสาวะ pH 5 → นิ่ว uric acid: สังเกตอาการ + ทำให้ปัสสาวะด่าง"
   ]
  },
  "MDCU77|RoA|Uro 8": {
@@ -263,7 +263,7 @@
    "D": "การตัดไตทำเมื่อไตเสียการทำงานหรือการรักษาอื่นล้มเหลว ไม่ใช่การรักษาแรกของฝีที่เจาะระบายได้; จะถูกถ้าเป็น xanthogranulomatous pyelonephritis ที่ไตไม่ทำงาน หรือ emphysematous pyelonephritis ที่แย่ลงแม้ระบายแล้ว",
    "E": "DJ stent ระบายระบบรวบรวมปัสสาวะที่อุดตัน ไม่ได้ระบายหนองที่อยู่ในเนื้อไต; จะถูกถ้าผู้ป่วย pyelonephritis มีนิ่วอุดท่อไตจนไตบวมน้ำติดเชื้อ (obstructed infected kidney)"
   },
-  "trap": "ให้ยาปฏิชีวนะอย่างเดียวเพราะคิดว่าเป็นแค่ pyelonephritis — ต้องดูขนาดฝีในโจทย์ (6 cm) · อีกกับดักคือสับสนการระบายเนื้อไต (percutaneous drainage) กับการระบายท่อไต (DJ stent)",
+  "trap": "สับสนการระบายเนื้อไต (percutaneous drainage ของฝี) กับการระบายท่อไต (DJ stent) · และให้ยาปฏิชีวนะอย่างเดียวเพราะคิดว่าเป็นแค่ pyelonephritis โดยไม่ดูขนาดฝี",
   "summary": [
    "ปัจจัยเสี่ยง: เบาหวาน, นิ่ว/ทางเดินปัสสาวะอุดตัน, VUR, ตั้งครรภ์ · ฝีที่ cortex จากกระแสเลือด (S. aureus) พบในผู้ใช้ยาเสพติดฉีด หรือมีการติดเชื้อผิวหนัง",
    "สงสัยเมื่อ pyelonephritis ไม่ดีขึ้นหลังยา 48–72 ชม. → CT ฉีดสี: ก้อนความหนาแน่นต่ำ ขอบจับสี ± ไขมันรอบไตอักเสบ",
@@ -274,7 +274,7 @@
   ],
   "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 77A: รูป = renal abscess → PCD) ความมั่นใจปานกลาง–สูง — ต้นฉบับไม่บอกขนาด เราเติม 6 cm ให้ตอบได้ข้อเดียว · ช้อย E เติมเอง",
   "variants": [
-   "หญิงเบาหวาน pyelonephritis CT เห็นฝีในไต 2 cm อาการดีขึ้นในวันที่ 2 → ยาปฏิชีวนะทางหลอดเลือดต่อ ไม่ต้องระบาย",
+   "ผู้ป่วย pyelonephritis ได้ยาฉีดมา 72 ชม. ยังมีไข้สูง → CT ฉีดสีหาฝีในไตหรือการอุดตัน",
    "ผู้ป่วยเบาหวาน septic shock CT เห็นก๊าซในเนื้อไต → emphysematous pyelonephritis: ยา + ระบาย ถ้าไม่ดีขึ้นตัดไต",
    "ผู้ป่วยใช้ยาเสพติดฉีด ไข้ ปวดสีข้าง ปัสสาวะปกติ CT เห็นฝีที่ cortex → renal cortical abscess จาก S. aureus ในกระแสเลือด"
   ]
