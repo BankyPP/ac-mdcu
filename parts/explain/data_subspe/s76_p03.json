@@ -1,0 +1,108 @@
+{
+"MDCU76|RoC|Colo 1": {
+"wrong": {
+"A": "ข้อนี้ \"เป็น\" ส่วนของแผนมาตรฐาน: wedge/parenchymal-sparing resection ของ CRLM ที่ตัดได้ (margin R0) ทำพร้อมกับผ่าตัดลำไส้ได้ (synchronous) ในรายที่เหมาะสม · จะเป็นคำตอบ (ข้อ NOT) ถ้า liver metastasis หลายก้อนสองกลีบที่ตัดไม่ได้",
+"C": "ข้อนี้ \"เป็น\" มาตรฐาน: right hemicolectomy + ผูกหลอดเลือดที่ต้นกำเนิด (ileocolic, right colic, right branch ของ middle colic) เพื่อเก็บต่อมน้ำเหลืองครบ (CME/central vascular ligation) · จะเป็นคำตอบ (ข้อ NOT) ถ้าเป็นการผ่าตัด palliative bypass",
+"D": "ข้อนี้ \"เป็น\" มาตรฐาน: เก็บต่อมน้ำเหลือง ≥ 12 ต่อมเพื่อ staging ที่ถูกต้อง (< 12 = high-risk feature ใน stage II) · จะเป็นคำตอบ (ข้อ NOT) ถ้าเป็น local excision ของ early rectal cancer",
+"E": "ข้อนี้ \"เป็น\" มาตรฐาน: อวัยวะ/เนื้อเยื่อที่ก้อนลุกติด (omentum) ต้องตัด en bloc เพื่อ R0 (ห้ามแยกเลาะเพราะอาจเป็นมะเร็งลุกลามจริง) · จะเป็นคำตอบ (ข้อ NOT) ถ้าเป็นการติดจากการอักเสบที่พิสูจน์แล้ว"
+}
+},
+"MDCU76|RoC|Colo 2": {
+"wrong": {
+"A": "ข้อนี้ \"ทำ\": IV fluid จำเป็นและต้องการมากกว่าปกติ (~2–3 เท่าของ maintenance) เพราะเสียน้ำและความร้อนจากลำไส้ที่เปิดอยู่ · จะเป็นคำตอบ (ข้อ NOT) ถ้าเป็น intact omphalocele เล็กที่ไม่เสียน้ำมาก",
+"B": "ข้อนี้ \"ทำ\": IV antibiotics ป้องกันการติดเชื้อจากลำไส้ที่ไม่มีถุงคลุม · จะเป็นคำตอบ (ข้อ NOT) ถ้าไม่มีสถานการณ์ใดใน gastroschisis",
+"C": "ข้อนี้ \"ทำ\": OG/NG decompression ลดลมในลำไส้ ช่วยให้ดันกลับได้ง่ายและลด aspiration · จะเป็นคำตอบ (ข้อ NOT) ถ้าเป็นทารกปกติที่ไม่มีลำไส้อุดตัน",
+"E": "ข้อนี้ \"ทำ\": คลุมลำไส้ด้วยพลาสติก/bowel bag (หรือผ้าชุบน้ำเกลืออุ่นแล้วคลุมพลาสติก) กันความร้อนและน้ำระเหย จัดทารกนอนตะแคงขวาไม่ให้ mesentery บิด · จะเป็นคำตอบ (ข้อ NOT) ถ้าเขียนว่าคลุมด้วยผ้าก๊อซแห้ง"
+},
+"why": "Gastroschisis ในห้องคลอด: คลุมลำไส้ (plastic wrap/bowel bag), วางทารกตะแคงขวาประคองลำไส้ไม่ให้บิด/ขาดเลือด, OG decompression, IV fluid ปริมาณมาก + antibiotics, รักษาอุณหภูมิ แล้วส่งศัลยแพทย์เด็ก · \"ห้ามดันลำไส้กลับทันทีที่ข้างเตียงในห้องคลอด\" เพราะลำไส้บวมหนา ช่องท้องเล็ก → abdominal compartment syndrome, ลำไส้ขาดเลือด, ventilation แย่ · การดันกลับทำอย่างค่อยเป็นค่อยไป (spring-loaded silo ลดทุกวัน) หรือ primary closure ในห้องผ่าตัดเมื่อทำได้โดยความดันช่องท้องไม่สูง"
+},
+"MDCU76|RoC|Colo 4": {
+"wrong": {
+"A": "Pelvic exenteration (total หรือ posterior) เป็นการผ่าตัดเพื่อให้ได้ R0 ในก้อนที่ยังติดอวัยวะ \"หลัง\" neoadjuvant therapy — ไม่ใช่ขั้นแรก · จะถูกถ้าหลัง CRT แล้ว MRI ยังเห็นก้อนลุก prostate/seminal vesicle",
+"C": "ยังรักษาหายขาดได้ (ไม่มี distant metastasis) ไม่ใช่ palliative · จะถูกถ้ามี metastasis หลายตำแหน่งที่ผ่าไม่ได้และผู้ป่วยสภาพไม่ดี",
+"D": "LAR อย่างเดียวไม่ได้ R0 เพราะก้อนติด prostate/seminal vesicle (cT4b) · จะถูกถ้าเป็น upper rectal cancer T1–3 ที่ CRM ไม่เสี่ยง",
+"E": "Transanal local excision ใช้เฉพาะ cT1N0 เล็ก low-risk · จะถูกถ้าก้อน T1 ขนาด < 3 cm ใน low rectum ที่ไม่มีลักษณะเสี่ยง"
+}
+},
+"MDCU76|RoC|Colo 6": {
+"wrong": {
+"B": "Tubulovillous adenoma มีส่วน villous 25–75% ความเสี่ยงมะเร็งปานกลาง (ระหว่าง tubular กับ villous) · จะถูกถ้าโจทย์ถาม adenoma ที่ความเสี่ยงอยู่ระดับกลาง",
+"C": "Tubular adenoma พบบ่อยที่สุด (65–80%) ความเสี่ยงต่ำสุดในกลุ่ม adenoma (ขึ้นกับขนาด > 1 cm และ high-grade dysplasia) · จะถูกถ้าโจทย์ถาม adenoma ที่พบบ่อยที่สุด",
+"D": "Inflammatory (pseudo)polyp เป็น regenerating mucosa ใน IBD ไม่ใช่ neoplasm ไม่กลายเป็นมะเร็งเอง (แต่ IBD เพิ่มความเสี่ยงมะเร็งจาก dysplasia) · จะถูกถ้าผู้ป่วย UC เรื้อรังมี polyp หลายตัวที่ biopsy เป็น inflammatory",
+"E": "Hyperplastic polyp ขนาดเล็กใน rectosigmoid แทบไม่กลายเป็นมะเร็ง (ต่างจาก sessile serrated lesion ที่ right colon ซึ่งเป็น premalignant) · จะถูกถ้าโจทย์ถาม polyp ที่พบบ่อยและความเสี่ยงต่ำที่สุด"
+}
+},
+"MDCU76|RoC|Ped 1": {
+"interp": "ถามวิธีกิน folic acid ที่ถูกต้องเพื่อป้องกัน neural tube defect — neural tube ปิดภายในวันที่ 28 หลังปฏิสนธิ (มักก่อนรู้ว่าตั้งครรภ์) จึงต้องเริ่มก่อนตั้งครรภ์",
+"wrong": {
+"A": "เริ่มหลังยืนยันการตั้งครรภ์มักช้าเกินไป เพราะ neural tube ปิดภายใน 4 สัปดาห์หลังปฏิสนธิ (ราว 6 สัปดาห์หลัง LMP) · จะถูกถ้าเป็นการตั้งครรภ์ที่ไม่ได้วางแผน (ยังควรเริ่มทันทีที่ทราบ แม้ไม่ใช่ทางที่ดีที่สุด)",
+"C": "1 เดือนหลัง LMP = neural tube กำลังปิด ช้าไปสำหรับการป้องกันเต็มที่ · จะถูกถ้าไม่มีสถานการณ์ใดที่แนะนำเวลานี้",
+"D": "2 เดือนหลัง LMP neural tube ปิดแล้ว ไม่ป้องกัน NTD · จะถูกถ้าไม่มีสถานการณ์ใด",
+"E": "ไตรมาส 2–3 ไม่ป้องกัน NTD (folic acid ช่วงนี้ใช้ป้องกัน megaloblastic anemia) · จะถูกถ้าโจทย์ถามการเสริม folate เพื่อป้องกันโลหิตจางในครรภ์"
+}
+},
+"MDCU76|RoC|Ped 4": {
+"interp": "ทารก 4 เดือนแข็งแรง umbilical hernia ดันกลับได้ fascial defect 1 cm — ส่วนใหญ่ (> 80–90%) ปิดเองได้ภายใน 4–5 ปี และไม่ค่อย incarcerate (ต่างจาก inguinal hernia)",
+"wrong": {
+"A": "TFT ไม่ใช่ routine — hypothyroidism สัมพันธ์กับ umbilical hernia (รวม Down syndrome, Beckwith–Wiedemann) แต่ตรวจเมื่อมีอาการอื่น (ตัวเหลืองนาน ลิ้นใหญ่ ซึม ท้องผูก) · จะถูกถ้าทารกมี umbilical hernia ร่วมกับลักษณะของ congenital hypothyroidism",
+"B": "ผ่าตัดทันทีไม่จำเป็นในทารกที่ไม่มีภาวะแทรกซ้อน · จะถูกถ้าเกิด incarceration/strangulation (พบน้อย) หรือผิวหนังบางจะแตก",
+"D": "Coin strapping (เอาเหรียญกดแล้วพันเทป) ไม่ช่วยให้ปิดเร็วขึ้นและทำให้ผิวหนังระคายเคือง/ติดเชื้อ · จะถูกถ้าไม่มีสถานการณ์ใดแนะนำ",
+"E": "อายุ 1 ปียังปิดเองได้อีกมาก ไม่ควรรีบผ่า · จะถูกถ้าทารกมี incarceration ซ้ำ หรือ defect ใหญ่มาก (> 1.5–2 cm) บางแนวทางผ่าเร็วขึ้น (อายุ 2 ปี)"
+}
+},
+"MDCU76|RoC|CVT 1": {
+"wrong": {
+"A": "Surgical ligation ใช้เมื่อยาปิด ductus ล้มเหลว (indomethacin 2 courses) หรือมีข้อห้าม (NEC, เลือดออก, ไตวาย, platelet ต่ำ) · จะถูกถ้าทารก preterm ที่มี NEC ร่วมกับ hemodynamically significant PDA",
+"C": "Aspirin ไม่ใช้ในทารก (เสี่ยง Reye syndrome และไม่ใช่ยามาตรฐานปิด ductus) · จะถูกถ้าโจทย์ถามยาที่ใช้ใน Kawasaki disease",
+"D": "PGE1 ทำให้ ductus \"เปิด\" — ใช้ใน ductal-dependent CHD (TGA, critical coarctation, pulmonary atresia, HLHS) ตรงข้ามกับที่ต้องการ · จะถูกถ้าทารกแรกเกิดเขียวมาก/ช็อกเมื่อ ductus ปิด",
+"E": "Digoxin ไม่ช่วยปิด ductus และไม่ใช่การรักษามาตรฐานของ PDA ใน preterm · จะถูกถ้าโจทย์ถามยาคุม ventricular rate ใน SVT/AF บางกรณี"
+}
+},
+"MDCU76|RoC|CVT 5": {
+"interp": "ถามว่าลักษณะใดของ NSCLC ที่ทำให้ \"ผ่าตัดไม่ได้\" — ต้องแยก T3/T4 ที่ยังตัดได้ (ลุก chest wall, parietal pleura, pericardium) ออกจาก M1a (malignant pleural/pericardial effusion) ซึ่งเป็น stage IV",
+"wrong": {
+"A": "Parietal pericardium invasion = T3 ยังตัด en bloc ได้ · จะถูกถ้าเป็น \"malignant pericardial effusion\" (M1a) ซึ่งผ่าไม่ได้",
+"B": "Parietal pleura/chest wall invasion = T3 ตัด en bloc ได้ (ลายมือ: parietal pleura = T3) · จะถูกถ้าโจทย์ถามว่าก้อนลุกถึงตำแหน่งใดที่ยังผ่าตัดได้",
+"D": "Ipsilateral hilar lymph node (N1) ยังผ่าตัดได้ ตามด้วย adjuvant chemo · จะถูกถ้าเป็น contralateral mediastinal/supraclavicular node (N3) ซึ่งผ่าไม่ได้",
+"E": "ก้อน 5 cm = T2b (> 4–5 cm) ผ่าตัดได้ · จะถูกถ้าก้อนลุก mediastinum, หัวใจ, great vessels, trachea, esophagus หรือ carina (T4 ที่มักผ่าไม่ได้)"
+}
+},
+"MDCU76|RoC|CVT 6": {
+"interp": "ผู้ป่วยอาเจียนและสำลักระหว่างผ่าตัดแล้วเกิด pneumonia ใน 2–3 วัน = aspiration pneumonia — ถามเชื้อที่เป็นสาเหตุ (เชื้อจาก oropharynx/กระเพาะ เป็นแบบผสม)",
+"wrong": {
+"B": "Gram-positive aerobes อย่างเดียว (Strep, Staph) ไม่ครอบคลุม anaerobes และ gram-negative ที่มากับการสำลัก · จะถูกถ้าโจทย์เป็น community-acquired pneumonia ทั่วไป (S. pneumoniae)",
+"C": "Gram-negative anaerobes อย่างเดียว (Bacteroides, Fusobacterium) ไม่ครบ — aspiration ในโรงพยาบาลมี aerobes (gram-negative bacilli, S. aureus) ร่วมด้วย · จะถูกถ้าโจทย์ถามเชื้อหลักใน lung abscess จากฟันผุ",
+"D": "Fungus ไม่ใช่สาเหตุของ aspiration pneumonia ทั่วไป · จะถูกถ้าผู้ป่วย neutropenia นานแล้วเกิด invasive aspergillosis",
+"E": "Atypical organisms (Mycoplasma, Legionella, Chlamydophila) เป็น community-acquired ไม่สัมพันธ์กับการสำลัก · จะถูกถ้าคนหนุ่มมีไข้ ไอแห้ง CXR infiltrate มากกว่าอาการ (walking pneumonia)"
+},
+"trap": "แยก aspiration pneumonitis (chemical จากกรด เกิดภายในชั่วโมง ไม่ต้องให้ยาฆ่าเชื้อเสมอ) กับ aspiration pneumonia (ติดเชื้อตามมาใน 1–3 วัน) · hospital-acquired aspiration → mixed aerobes + anaerobes รวม gram-negative bacilli และ S. aureus → ให้ยาครอบคลุมกว้าง (เช่น piperacillin-tazobactam) · ตำแหน่งปอดที่บ่อย: right lower lobe superior segment/right upper lobe posterior segment ตามท่า"
+},
+"MDCU76|RoC|Plastic 1": {
+"interp": "รอยโรคบนใบหน้าที่มีขอบนูนมันวาวเหมือนไข่มุก (pearly rolled border) + เส้นเลือดฝอยบนผิว แม้มีสีเข้ม (pigmented variant) = basal cell carcinoma"
+},
+"MDCU76|RoC|Plastic 2": {
+"wrong": {
+"B": "Zygomatic branch เลี้ยง orbicularis oculi → หลับตาไม่สนิท (เลิกคิ้วได้) อยู่ต่ำกว่าหน้าผาก · จะถูกถ้าผู้ป่วยหลับตาไม่สนิทหลังแผลที่โหนกแก้ม",
+"C": "Supraorbital nerve เป็น sensory (V1) บาดเจ็บแล้วหน้าผากชา ไม่ทำให้เลิกคิ้วไม่ได้ · จะถูกถ้าผู้ป่วยชาหน้าผากและหนังศีรษะส่วนหน้าแต่ขยับคิ้วได้",
+"D": "Oculomotor nerve (CN III) บาดเจ็บ → ptosis, ตาเหล่ลงออก, pupil โต — ไม่เกี่ยวกับการเลิกคิ้ว (frontalis) · จะถูกถ้าผู้ป่วยหนังตาตกตาลืมไม่ขึ้นและรูม่านตาขยายหลังบาดเจ็บศีรษะ",
+"E": "Buccal branch → อ่อนแรงในการเป่าแก้ม/ยิ้มยกริมฝีปากบน · จะถูกถ้าแผลกลางแก้มแล้วยิ้มเบี้ยว"
+}
+},
+"MDCU76|RoC|Plastic 3": {
+"wrong": {
+"A": "ทางเชื่อมกับ piriform sinus = 3rd/4th branchial pouch anomaly ทำให้ฝีคอด้านซ้ายส่วนล่าง/recurrent suppurative thyroiditis · จะถูกถ้าเด็กมีฝีที่ต่อมไทรอยด์ซ้ายซ้ำ ๆ",
+"C": "การติดเชื้อทางเลือดจากต่อมไทรอยด์ไม่ใช่ต้นเหตุของการติดเชื้อใน TGDC · จะถูกถ้าไม่มีสถานการณ์ใด",
+"D": "Parotid อยู่ด้านข้างใบหน้า ไม่เกี่ยวกับก้อนแนวกลางคอ · จะถูกถ้าโจทย์ถามการติดเชื้อของ 1st branchial cleft anomaly ใกล้ parotid",
+"E": "Lymphatic spread จาก tonsil ทำให้ reactive/suppurative lymphadenitis ด้านข้างคอ ไม่ใช่ทางหลักของ TGDC · จะถูกถ้าเด็กมีต่อมน้ำเหลือง jugulodigastric โตกดเจ็บหลังต่อมทอนซิลอักเสบ"
+}
+},
+"MDCU76|RoC|Plastic 5": {
+"interp": "แผลฉีกเป็นแฉกมุมฉาก (V-shaped flap) — ปลายแฉกได้เลือดเลี้ยงน้อยที่สุด จึงถามวิธีเย็บมุมที่ไม่รัดหลอดเลือดปลาย flap (corner stitch)",
+"wrong": {
+"B": "Simple interrupted ที่ปลายมุมเจาะผ่านผิวและรัดหลอดเลือดปลาย flap → ปลายขาดเลือด/ตาย · จะถูกถ้าใช้เย็บด้านข้างของ flap ที่ไม่ใช่ปลาย",
+"C": "Continuous over-and-over ไม่เหมาะกับมุม ปรับความตึงแต่ละจุดไม่ได้ และรัดตลอดแนว · จะถูกถ้าแผลยาวตรงที่ตึงน้อยต้องการเย็บเร็ว",
+"D": "Subcuticular ใช้กับแผลตรงตึงน้อยเพื่อความสวยงาม ไม่ออกแบบมาเพื่อปลาย flap · จะถูกถ้าเป็นแผลผ่าตัดตรงบนใบหน้า",
+"E": "Vertical mattress ช่วย eversion แต่ผ่าน dermis สองชั้นบีบปลาย flap · จะถูกถ้าขอบแผลตรงที่ม้วนเข้าและเลือดเลี้ยงดี"
+}
+}
+}
