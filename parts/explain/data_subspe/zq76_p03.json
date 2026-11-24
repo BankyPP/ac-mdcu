@@ -146,5 +146,128 @@
    "ผู้ป่วยก้อนที่ cerebellum ซึมลงทันทีแล้วหยุดหายใจ → tonsillar herniation กด medulla",
    "ผู้ป่วยก้อน frontal ขวาขนาดใหญ่ เกิดขาซ้ายอ่อนแรงมากขึ้น CT พบ cingulate gyrus เคลื่อนใต้ falx → subfalcine herniation กด anterior cerebral artery"
   ]
+ },
+ "MDCU76|RoA|27": {
+  "interp": "ผู้ใหญ่ซึมลงค่อยเป็นค่อยไปหลายเดือน ภาพในข้อ (ตามที่บันทึกไว้) เป็น CT with contrast พบก้อนในเนื้อสมองซีกซ้าย ผนัง enhance หนาไม่สม่ำเสมอ ตรงกลางเนื้อตาย มี edema และ mass effect → spot diagnosis ของเนื้องอกสมองชนิดร้าย",
+  "why": "ก้อน intra-axial ใน cerebral hemisphere ของผู้ใหญ่ที่มี irregular thick ring enhancement + central necrosis + edema/mass effect เป็นภาพคลาสสิกของ glioblastoma (IDH-wildtype, CNS WHO grade 4 ตาม WHO 2021) — เนื้องอกสมองปฐมภูมิชนิดร้ายที่พบบ่อยที่สุดในผู้ใหญ่ โตเร็ว อาการเป็นสัปดาห์ถึงเดือน (ปวดศีรษะ ซึม บุคลิกเปลี่ยน ชัก อ่อนแรง) · necrosis เกิดเพราะก้อนโตเร็วเกินเลือดที่เลี้ยง ส่วน enhancement เกิดจาก BBB ที่เสียในหลอดเลือดใหม่ของก้อน · ช้อยอื่นเป็นเนื้องอกของเด็ก ของ ventricle/sella หรือของเยื่อหุ้มสมอง ซึ่งตำแหน่งและลักษณะไม่ตรง",
+  "wrong": {
+   "B": "Ependymoma เกิดจากเซลล์บุ ventricle: เด็กมักอยู่ 4th ventricle (hydrocephalus) ผู้ใหญ่มักอยู่ spinal cord; จะถูกถ้าเด็ก 4 ขวบอาเจียน เดินเซ MRI พบก้อนใน 4th ventricle ยื่นออกทาง foramen of Luschka/Magendie",
+   "C": "Meningioma เป็น extra-axial ติด dura enhance เข้มสม่ำเสมอ มี dural tail อาจมี calcification กดสมองจากภายนอก โตช้า; จะถูกถ้าหญิงวัยกลางคนชัก CT พบก้อนกลมขอบเรียบติด falx enhance สม่ำเสมอพร้อม dural tail",
+   "D": "Pilocytic astrocytoma (WHO grade 1) พบในเด็ก มักที่ cerebellum เป็น cyst + enhancing mural nodule; จะถูกถ้าเด็ก 8 ขวบเดินเซ MRI พบ cyst ใน cerebellum ที่มี nodule จับสารทึบรังสี",
+   "E": "Craniopharyngioma อยู่ suprasellar มี cyst + calcification มักในเด็ก กด optic chiasm/hypothalamus; จะถูกถ้าเด็กตัวเตี้ย ตามัวแบบ bitemporal hemianopia CT พบก้อน suprasellar มีหินปูนและถุงน้ำ"
+  },
+  "trap": "สับสนกับ brain abscess ซึ่งก็ ring-enhancing — abscess ผนังบางเรียบ มีไข้/แหล่งติดเชื้อ DWI ในโพรง restrict · GBM ผนังหนาไม่สม่ำเสมอ ไม่มีไข้ อาการค่อยเป็นค่อยไป · ก้อนในผู้ใหญ่อย่าลืม metastasis (มักหลายก้อน มีประวัติมะเร็ง)",
+  "summary": [
+   "GBM: primary malignant brain tumor ที่พบบ่อยที่สุดในผู้ใหญ่ (อายุ 45–70)",
+   "Imaging: irregular ring enhancement, central necrosis, edema, ข้าม corpus callosum ได้ (butterfly glioma)",
+   "Tx (Stupp): maximal safe resection → RT 60 Gy + temozolomide → adjuvant temozolomide · dexamethasone ลด edema ก่อนผ่าตัด · ก้อนที่ตัดไม่ได้ (ลึก/ข้าม corpus callosum) → biopsy แล้วรักษาต่อ",
+   "Marker: MGMT promoter methylation ตอบสนอง temozolomide ดีกว่า · IDH-mutant astrocytoma (WHO 2021 แยกจาก GBM) พยากรณ์ดีกว่ามาก",
+   "Median survival ราว 15 เดือนแม้รักษาเต็มที่ · immune checkpoint inhibitor phase 3 ใน GBM ไม่สำเร็จ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A เขียน spot dx, ต้นฉบับเขียน \"รูปนี้เป๊ะ\") มั่นใจสูง — ลักษณะภาพอ้างตามคำบรรยายที่บันทึกไว้ · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "variants": [
+   "ชาย 60 ปีอ่อนแรงซีกขวา 1 เดือน MRI พบก้อนผนังหนาไม่เรียบลามข้าม corpus callosum (butterfly) → GBM ที่ตัดออกไม่ได้ → stereotactic biopsy แล้ว RT + temozolomide",
+   "หลังผ่าตัด GBM ได้ RT + temozolomide ครบ 2 เดือน MRI ก้อนดูโตขึ้นแต่ไม่มีอาการ → อาจเป็น pseudoprogression → ติดตาม MRI (perfusion) ก่อนสรุปว่าโรคลุกลาม",
+   "ผู้ใหญ่ชักครั้งแรก MRI พบก้อนไม่ enhance ที่ frontal ผลชิ้นเนื้อ IDH-mutant astrocytoma grade 2 → พยากรณ์ดีกว่า GBM มาก · หลังผ่าตัดพิจารณา vorasidenib (INDIGO)"
+  ]
+ },
+ "MDCU76|RoA|28": {
+  "interp": "ข้อ NOT: ถามว่าภาวะใด \"ไม่ใช่\" ข้อห้ามหรือข้อควรระวังของการฉีด iodinated contrast ใน CT — ช้อยอื่นอยู่ในสไลด์ที่แปะในคีย์ (ตั้งครรภ์, เคยแพ้รุนแรง, hyperthyroidism) และไตเสื่อม",
+  "why": "Hematuria เป็นข้อบ่งชี้ของ CT with contrast (CT urography หาสาเหตุจากไต ท่อไต และมะเร็ง urothelium) ไม่ใช่ข้อห้าม → D เป็นคำตอบ · ข้อควรระวังของ iodinated contrast: (1) เคยมีปฏิกิริยาปานกลาง–รุนแรง เสี่ยงเกิดซ้ำ (2) ไตเสื่อมรุนแรงหรือ AKI เสี่ยง contrast-associated AKI (ลายมือ: กลัว AKI) (3) hyperthyroidism ที่มีอาการ — iodine กระตุ้น thyroid storm และทำให้ radioiodine scan/therapy ใช้ไม่ได้หลายสัปดาห์ (4) ตั้งครรภ์ — กังวลรังสีมากกว่าตัวสาร · ทั้งหมดเป็นการชั่งประโยชน์–ความเสี่ยงมากกว่าห้ามเด็ดขาด",
+  "wrong": {
+   "A": "เป็นข้อควรระวัง (อยู่ในสไลด์): ตั้งครรภ์ — เลี่ยงรังสีถ้าใช้ US/MRI แทนได้ แต่ทำได้เมื่อจำเป็น; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็นหญิงหลังคลอดที่ให้นมลูก — ไม่ต้องหยุดให้นมหลังฉีดสี",
+   "B": "เป็นข้อควรระวังสำคัญ: เคย anaphylaxis/ปฏิกิริยารุนแรงต่อ contrast → เลี่ยงหรือใช้ imaging อื่น ถ้าจำเป็นให้ premedication + เปลี่ยนชนิดสาร; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเคยแพ้แค่อาหารทะเลหรือ povidone-iodine — ไม่ใช่ข้อห้ามและไม่ต้อง premedication",
+   "C": "เป็นข้อควรระวัง: Cr 3.2 (eGFR < 30) เสี่ยง contrast-associated AKI ต้องชั่งประโยชน์ ให้สารน้ำ ใช้ปริมาณน้อยที่สุด; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยไตวายระยะสุดท้ายที่ไม่มีปัสสาวะและฟอกเลือดอยู่แล้ว — ไม่มีไตเหลือให้เสีย",
+   "E": "เป็นข้อควรระวัง (อยู่ในสไลด์): symptomatic hyperthyroidism — iodine กระตุ้น thyroid storm และรบกวน radioiodine ภายใน 6 สัปดาห์; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น hypothyroidism ที่กิน levothyroxine อยู่"
+  },
+  "trap": "คิดว่ามีเลือดในปัสสาวะแล้วฉีดสีไม่ได้ หรือเหมาว่า hematuria = ไตเสื่อม — hematuria ไม่ได้บอกว่าไตเสื่อม และเป็นเหตุผลที่ต้องทำ CT urography",
+  "summary": [
+   "ข้อควรระวัง iodinated contrast (ACR): เคยแพ้ปานกลาง–รุนแรง, eGFR < 30 หรือ AKI, hyperthyroidism ที่มีอาการ/ภายใน 6 สัปดาห์ก่อน radioiodine, ตั้งครรภ์ · metformin: eGFR < 30 หรือ AKI → หยุด 48 ชม.หลังฉีด เช็คไตก่อนกลับมาใช้",
+   "Premedication สำหรับคนเคยแพ้ปานกลาง: prednisolone + antihistamine",
+   "ป้องกัน CA-AKI: IV hydration (NSS), ใช้สารน้อยที่สุด",
+   "Hematuria workup: CT urography + cystoscopy",
+   "Gadolinium (MRI) ใน eGFR <30 เสี่ยง nephrogenic systemic fibrosis"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ Key 76A แปะสไลด์ Contraindications and Precautions) มั่นใจสูง · ต้นฉบับมีช้อย 4 ตัว เราเติม E จากสไลด์ในคีย์",
+  "variants": [
+   "ผู้ป่วยเคยผื่นลมพิษหลังฉีดสีครั้งก่อน ต้องทำ CT ซ้ำ → premedication (prednisolone + antihistamine) และพิจารณาเปลี่ยนชนิดสาร",
+   "ผู้ป่วยเบาหวานกิน metformin eGFR 25 ต้องทำ CT with contrast → หยุด metformin 48 ชม.หลังฉีด เช็ค creatinine ก่อนกลับมาใช้",
+   "ผู้ป่วย Graves ที่นัดกลืน radioiodine เดือนหน้า ต้องตรวจก้อนที่ปอด → CT ไม่ฉีดสี หรือเลื่อนการฉีดสี ปรึกษารังสีแพทย์"
+  ]
+ },
+ "MDCU76|RoA|29": {
+  "interp": "Colonoscopy พบ adenomatous polyp หลายร้อยก้อนทั่ว colon = familial adenomatous polyposis (FAP) → ถามยีนที่กลายพันธุ์",
+  "why": "FAP เกิดจาก germline mutation ของ APC (5q21) ถ่ายทอดแบบ autosomal dominant · APC เป็น tumor suppressor ที่คุมการสลาย β-catenin ใน Wnt pathway — เมื่อเสียทั้งสองอัลลีล β-catenin สะสมในนิวเคลียส เซลล์เยื่อบุลำไส้แบ่งตัวไม่หยุดจนเกิด adenoma (APC เป็นขั้นแรกของ adenoma–carcinoma sequence ทั้งในโรคพันธุกรรมและมะเร็งลำไส้ทั่วไป) · ผู้ที่มี germline mutation เสียไปแล้วหนึ่งอัลลีลในทุกเซลล์ รอแค่ second hit จึงเกิด adenoma นับร้อยถึงพันตั้งแต่วัยรุ่น · ยีนอื่นในช้อยทำให้มะเร็งคนละกลุ่มและไม่ทำให้มี polyp จำนวนมาก",
+  "trap": "สับสน FAP กับ Lynch เพราะเป็น hereditary CRC ทั้งคู่ — ตัวแยกคือจำนวน polyp: หลายร้อยก้อน = APC · polyp น้อยแต่มะเร็งมาเร็ว ร่วม endometrial cancer = MMR genes",
+  "summary": [
+   "Classic FAP: APC, AD, adenoma ≥ 100 · ราว 1/4 เป็น de novo · ไม่ผ่าตัดเป็นมะเร็งเกือบทุกราย",
+   "Attenuated FAP: APC 10–99 ก้อน มักซีกขวา อายุมากกว่า · MUTYH-associated polyposis: autosomal recessive (base-excision repair) 10–100 ก้อน พ่อแม่ไม่เป็น",
+   "Lynch syndrome: MMR genes (MLH1, MSH2, MSH6, PMS2, EPCAM) → microsatellite instability · polyp น้อย มะเร็งเร็ว ซีกขวา + endometrial, ovarian, gastric, urinary tract · คัดกรองก้อนด้วย MMR IHC/MSI",
+   "Hamartomatous polyposis: Peutz–Jeghers (STK11) · juvenile polyposis (SMAD4, BMPR1A) · PTEN hamartoma/Cowden (PTEN)",
+   "FAP variants: Gardner (+ osteoma, epidermoid cyst, desmoid) · Turcot (+ medulloblastoma ใน FAP; glioma ใน Lynch)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A เขียน FAP) มั่นใจสูง · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "variants": [
+   "พี่น้อง 3 คนมี adenoma 30–50 ก้อน แต่พ่อแม่ส่องกล้องปกติ → MUTYH-associated polyposis (autosomal recessive)",
+   "ชายมี adenoma หลายร้อยก้อน ร่วม osteoma ที่ขากรรไกรและ epidermoid cyst หลายตำแหน่ง → Gardner syndrome (APC)",
+   "เด็กมีฝ้ากระสีเข้มที่ริมฝีปาก ปวดท้องจาก intussusception เพราะ hamartomatous polyp ในลำไส้เล็ก → Peutz–Jeghers syndrome (STK11)"
+  ]
+ },
+ "MDCU76|RoA|30": {
+  "interp": "ชายหนุ่มมีก้อนแดง กดเจ็บ fluctuant ที่ร่องก้นแนวกลาง (natal cleft) ร่วมรูเล็ก ๆ แนวกลางใกล้ ๆ (midline pits) → ตำแหน่ง + pits เป็นลักษณะเฉพาะของ pilonidal disease ที่กลายเป็นฝี",
+  "why": "Pilonidal disease เป็นโรคที่เกิดภายหลัง: ขนที่หลุดถูกแรงเสียดสีและแรงดูดในร่องก้นดันแทงเข้ารูขุมขนที่ขยาย (midline pits) → foreign body reaction → sinus และฝี · สิ่งที่ทำให้วินิจฉัยได้คือตำแหน่งแนวกลางของร่องก้นบริเวณ sacrococcyx + pits แนวกลาง (คีย์วงคำว่า \"มีรู\") ในชายหนุ่มที่ขนดก อ้วน นั่งนาน · ฝีเฉียบพลันรักษาด้วย incision and drainage แล้วผ่าตัด definitive ภายหลังถ้าเป็นซ้ำ · ช้อยอื่นเป็นฝีหรือก้อนอักเสบของผิวหนังที่ตำแหน่งหรือรูปแบบไม่ตรง",
+  "wrong": {
+   "B": "Epidermoid (sebaceous) cyst ติดเชื้อ: ก้อนกลมใต้ผิวมี punctum เดี่ยวบนก้อน เกิดที่ไหนก็ได้ ไม่สัมพันธ์กับ pits แนวกลาง; จะถูกถ้าก้อนกลมที่หลังส่วนบนโตช้ามาหลายปี มีรูดำตรงกลาง แล้วเพิ่งแดงเจ็บ",
+   "C": "Perianal abscess อยู่ชิดขอบทวาร มาจาก anal gland ไม่ใช่ที่ sacrococcyx; จะถูกถ้าก้อน fluctuant อยู่ข้างรูทวารห่างเพียง 1–2 cm",
+   "D": "Hidradenitis suppurativa เป็นโรคเรื้อรังของรูขุมขนบริเวณ apocrine หลายจุด (รักแร้ ขาหนีบ ใต้ราวนม ก้น) มี sinus tract และแผลเป็นแบบเชือก; จะถูกถ้าหญิงอ้วนมีตุ่มหนองเป็น ๆ หาย ๆ ที่รักแร้และขาหนีบสองข้างมาหลายปี",
+   "E": "Carbuncle = furuncle หลายอันรวมกันมีหลายหัวหนอง มักที่ท้ายทอย/หลัง ในเบาหวาน เชื้อ S. aureus; จะถูกถ้าชายเบาหวานมีก้อนอักเสบใหญ่ที่ต้นคอด้านหลังมีหัวหนองหลายหัว"
+  },
+  "trap": "ตอบ infected sebaceous cyst เพราะเห็นรูแล้วคิดว่าเป็น punctum — cyst มี punctum เดียวบนตัวก้อน ส่วน pilonidal มี pits หลายรูเรียงแนวกลางร่องก้น และฝีมักโผล่เยื้องด้านข้างของ pits",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A วงคำว่า \"มีรู\" เขียน punctate lesion) มั่นใจสูง — รูปในไฟล์โจทย์มีคำบรรยายใต้ภาพที่บอกคำตอบ จึงครอปออก · ต้นฉบับมีช้อย 2 ตัว เราเติม C–E",
+  "variants": [
+   "ฝี pilonidal ระบายแล้วเป็นซ้ำ 3 ครั้งในปีเดียว มี sinus หลายรูแนวกลาง → excision + off-midline closure (Karydakis/cleft lift)",
+   "ชายขับรถทั้งวันมี pits แนวกลางร่องก้นแต่ไม่มีอาการ → ไม่ต้องผ่าตัด แนะนำกำจัดขนและรักษาความสะอาด",
+   "ทารกแรกเกิดมีรูบุ๋มเหนือร่องก้นสูงจากทวารเกิน 2.5 cm ร่วมขนกระจุกหรือปานแดง → สงสัย spinal dysraphism → US/MRI กระดูกสันหลัง (ไม่ใช่ pilonidal)"
+  ]
+ },
+ "MDCU76|RoC|Neuro 1": {
+  "interp": "ชาย 20 ปีจากชนบท ชักทั้งตัวครั้งแรก CT พบ cyst เล็กหลายอัน แต่ละอันมีจุดทึบเยื้องศูนย์ (cyst with dot) edema น้อย → ลักษณะเฉพาะของ neurocysticercosis ระยะ vesicular · ถามการวินิจฉัย",
+  "why": "จุดทึบเยื้องศูนย์ในถุงน้ำคือ scolex ของตัวอ่อน Taenia solium (cyst with dot sign) — เป็นลักษณะที่วินิจฉัย neurocysticercosis ได้เลย (absolute criterion ของ Del Brutto) · คนติดจากการกินไข่พยาธิตัวตืดหมูที่ปนเปื้อน (fecal–oral จากผู้ที่มีพยาธิตัวเต็มวัยในลำไส้) ไม่ใช่จากกินหมูดิบโดยตรง → ตัวอ่อนไปฝังในสมอง · ระยะ vesicular ตัวอ่อนยังมีชีวิต ร่างกายยังไม่อักเสบ edema จึงน้อย · neurocysticercosis เป็นสาเหตุอันดับต้นของ acquired epilepsy ในประเทศกำลังพัฒนา โดยเฉพาะคนอายุน้อยในชนบทที่ชักครั้งแรก",
+  "wrong": {
+   "B": "Tuberculoma: ก้อน ring/nodular enhancement ผนังหนา อาจมี target sign มักร่วม basal meningitis หรือ TB ที่อื่น ไม่มี scolex; จะถูกถ้าผู้ป่วยไข้ต่ำ ๆ น้ำหนักลด ไอเรื้อรัง CT พบก้อน enhance หลายก้อนร่วม basal enhancement",
+   "C": "Toxoplasmosis: ring-enhancing หลายก้อนที่ basal ganglia/รอยต่อ gray–white ในผู้ป่วยภูมิคุ้มกันต่ำ; จะถูกถ้าผู้ป่วย HIV CD4 50 มีไข้ สับสน อ่อนแรงครึ่งซีก",
+   "D": "Metastasis: ก้อน enhance ที่รอยต่อ gray–white edema มากเทียบกับขนาด มีประวัติมะเร็ง ไม่ใช่ cyst ที่มี scolex; จะถูกถ้าผู้สูงอายุสูบบุหรี่มีก้อนที่ปอดและก้อนสมองหลายก้อน edema มาก",
+   "E": "Pyogenic abscess: ring-enhancing ผนังบางเรียบ edema มาก DWI restrict มีไข้และแหล่งติดเชื้อ; จะถูกถ้าวัยรุ่นเป็น frontal sinusitis มีไข้ ปวดศีรษะ และก้อน ring-enhancing ผนังบางที่ frontal lobe"
+  },
+  "trap": "เห็นหลายก้อนในสมองแล้วตอบ metastasis — คำใบ้ชี้ขาดคือ \"จุดในถุงน้ำ\" (scolex) + edema น้อย + คนหนุ่มจากชนบทที่ชักครั้งแรก · ระยะ calcified เป็นจุดหินปูนเล็กหลายจุดในเนื้อสมอง อย่าสับสนกับหินปูนรอบ ventricle ของ tuberous sclerosis",
+  "summary": [
+   "Neurocysticercosis: กินไข่ T. solium (fecal–oral) → cysticerci ในสมอง",
+   "ระยะ: vesicular (cyst + scolex) → colloidal (ring enhance + edema) → granular nodular → calcified (จุดหินปูน)",
+   "อาการ: seizure (มากสุด), hydrocephalus จาก intraventricular cyst",
+   "ยืนยันเพิ่ม: serology (EITB) · ตรวจจอประสาทตาก่อนให้ยาฆ่าพยาธิ (ถ้ามี cyst ในตา ยาทำให้อักเสบจนตาบอดได้)",
+   "รักษา: AED, albendazole ± praziquantel + corticosteroid (parenchymal viable cysts) · calcified แล้วไม่ต้องให้ยาฆ่าพยาธิ",
+   "Intraventricular cyst + hydrocephalus → endoscopic removal / shunt"
+  ],
+  "opinion": "ไม่มีคีย์ (ไฟล์ Key 76C ไม่ได้ทำเครื่องหมาย; ต้นฉบับจดว่า \"ให้รูป cysticercosis\") — เราแต่งโจทย์และช้อยทั้งหมด บรรยายภาพเป็น cyst with dot ตอบ A มั่นใจสูง",
+  "variants": [
+   "ผู้ป่วย NCC เริ่ม albendazole ได้ 3 วัน ปวดศีรษะและชักมากขึ้น → ปฏิกิริยาอักเสบเมื่อพยาธิตาย → ให้ corticosteroid ร่วมกับยาฆ่าพยาธิเสมอ",
+   "ผู้ป่วยมี cysticerci หลายร้อยตัวทั่วสมองร่วมสมองบวมทั่วไป (cysticercal encephalitis) → ห้ามให้ยาฆ่าพยาธิ ให้ steroid/ยาลดสมองบวมก่อน",
+   "หญิงปวดศีรษะ อาเจียน ตามัว CT พบ ventricle โตจาก cyst ใน 4th ventricle → ระบาย CSF/ส่องกล้องเอา cyst ออกก่อนพิจารณายาฆ่าพยาธิ"
+  ]
+ },
+ "MDCU76|RoC|Neuro 2": {
+  "wrong": {
+   "A": "ผ่านได้เมื่อ meninges อักเสบ ใช้ขนาดสูงได้ (เช่น penicillin G ใน meningococcal meningitis, neurosyphilis); จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเชื้อเป็น pneumococcus ที่ดื้อ penicillin (MIC สูง) ซึ่ง penicillin ใช้ไม่ได้",
+   "B": "ผ่านได้เมื่อ meninges อักเสบ เป็นยาหลักใน empiric therapy (คลุม pneumococcus ดื้อยา, MRSA); จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น vancomycin ชนิดกิน ซึ่งไม่ดูดซึมจากลำไส้ ใช้ได้แค่ C. difficile",
+   "C": "Fosfomycin โมเลกุลเล็ก ผ่าน CSF ได้ดีพอ ใช้เป็นยาเสริมในเชื้อดื้อยา; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น fosfomycin ชนิดกินครั้งเดียวสำหรับ cystitis ซึ่งระดับในเลือดและ CSF ไม่พอ",
+   "D": "Chloramphenicol ละลายในไขมัน ผ่าน CSF ได้ดีแม้ meninges ปกติ (ใช้น้อยลงเพราะ aplastic anemia); จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยเป็นทารกแรกเกิด — เสี่ยง gray baby syndrome"
+  },
+  "trap": "เลือก vancomycin เพราะจำได้ว่าผ่าน BBB ไม่ดีเมื่อ meninges ปกติ — แต่เมื่ออักเสบผ่านได้พอและเป็นยาหลักใน empiric regimen · aminoglycoside ผ่านไม่พอแม้อักเสบ ถ้าจำเป็นต้องให้เข้า ventricle โดยตรง",
+  "opinion": "เห็นด้วยกับคีย์ E (ไฟล์ Key 76C กากบาทแดงที่ e) มั่นใจสูง · ต้นฉบับเขียนว่า \"ตรงแอค เปลี่ยนช้อยส์เฉยๆ\"",
+  "variants": [
+   "VP shunt infection จาก gram-negative ดื้อยา ให้ยาทางหลอดเลือดแล้วไม่ดีขึ้น → ถอด shunt + ให้ aminoglycoside/colistin เข้า ventricle ร่วม",
+   "หญิงตั้งครรภ์เป็น Listeria meningitis → ampicillin เป็นหลัก (± gentamicin เพื่อ synergy — aminoglycoside เป็นยาเสริม ไม่ใช่ยาเดี่ยว)",
+   "ผู้ป่วย meningitis ได้ dexamethasone ร่วม vancomycin → steroid ลดการอักเสบอาจลดการผ่าน BBB ของ vancomycin → ให้ขนาดเพียงพอ และเพิ่ม rifampicin ในเชื้อดื้อ ceftriaxone"
+  ]
  }
 }
