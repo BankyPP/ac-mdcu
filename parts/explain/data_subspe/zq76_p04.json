@@ -1,0 +1,133 @@
+{
+ "MDCU76|RoC|Neuro 3": {
+  "interp": "นับ GCS จากคำบรรยาย 3 ส่วน: ลืมตาเมื่อถูกทำให้เจ็บ + พูดเป็นคำแต่ไม่เข้าเรื่อง + ชักแขนหนีความเจ็บ → รวมคะแนน",
+  "trap": "สับสน V3 (inappropriate words — เป็นคำแต่ไม่เข้าเรื่อง) กับ V2 (incomprehensible sounds — เสียงไม่เป็นคำ) และ M4 (withdraw หนี) กับ M5 (localize ปัดมาที่จุดเจ็บ)/M3 (งอแขนเกร็งผิดปกติ) — ต่างกัน 1 แต้มเปลี่ยนระดับความรุนแรงได้ (8 vs 9)",
+  "summary": [
+   "Eye: 4 spontaneous, 3 to sound, 2 to pressure, 1 none",
+   "Verbal: 5 oriented, 4 confused, 3 words, 2 sounds, 1 none",
+   "Motor: 6 obeys, 5 localizes, 4 normal flexion/withdraw, 3 abnormal flexion (decorticate), 2 extension (decerebrate), 1 none",
+   "Head injury: mild 13–15, moderate 9–12, severe 3–8 · GCS ≤8 → intubate",
+   "ใส่ท่อช่วยหายใจ verbal ให้ VT (ไม่นับ)"
+  ],
+  "variants": [
+   "ผู้ป่วยไม่ลืมตาแม้ถูกกด ส่งเสียงอืออา แขนงอเกร็งเข้าหาตัวเมื่อกด → E1 V2 M3 = 6 (severe)",
+   "ผู้ป่วยลืมตาเมื่อเรียก พูดได้แต่สับสนวันเวลา ทำตามสั่งได้ → E3 V4 M6 = 13 (mild)",
+   "ผู้ป่วยใส่ท่อช่วยหายใจ ลืมตาเมื่อกด ปัดมือมาที่จุดกด → E2 VT M5 (รายงานเป็น 7T)"
+  ]
+ },
+ "MDCU76|RoC|Neuro 4": {
+  "why": "เมื่อ RBC ใน CSF แตก hemoglobin ถูกเปลี่ยนเป็น oxyhemoglobin (สีชมพู–ส้ม) และ bilirubin (สีเหลือง ต้องใช้เอนไซม์ heme oxygenase ในเยื่อหุ้มสมอง จึงใช้เวลาหลายชั่วโมง) → xanthochromia เริ่มเห็นราว 6–12 ชม. และคงอยู่ราว 2 สัปดาห์ (ส่วนน้อยถึง 3–4 สัปดาห์) · ใช้แยก SAH จริงจาก traumatic tap ซึ่ง RBC ยังไม่ทันแตกจึงไม่มีสีเหลือง · จึงทำ LP หลังเริ่มปวดอย่างน้อย 12 ชม. เมื่อ CT ปกติแต่ยังสงสัย SAH",
+  "wrong": {
+   "A": "3 วันสั้นเกินไป — ช่วงนี้ xanthochromia ยังเข้มชัด; จะถูกถ้าเป็นช่วงที่เสี่ยงเลือดออกซ้ำ (rebleeding) สูงสุดก่อนรักษา aneurysm คือภายใน 72 ชม.แรก (มากที่สุดใน 24 ชม.)",
+   "B": "7 วันยังพบแน่นอนแต่ไม่ใช่ระยะที่หายไป; จะถูกถ้าเป็นช่วงที่ cerebral vasospasm พบมากที่สุด (ราววันที่ 7 ในช่วงเสี่ยงวันที่ 4–14)",
+   "D": "30 วันนานกว่าที่พบโดยทั่วไป ส่วนน้อยยังพบได้ถึง 3–4 สัปดาห์เท่านั้น; ไม่มีสถานการณ์ใดที่ใช้ 30 วันเป็นระยะคงอยู่มาตรฐาน",
+   "E": "60 วัน bilirubin ถูกกำจัดหมดแล้ว; ไม่มีสถานการณ์ใดที่ยังพบ xanthochromia จาก SAH ครั้งเดียวได้นานขนาดนี้"
+  },
+  "trap": "สับสนเวลาเริ่มเห็น (ราว 12 ชม.) กับเวลาที่คงอยู่ (ราว 2 สัปดาห์) · หรือจำช่วง vasospasm (วันที่ 4–14) ปนกัน",
+  "summary": [
+   "SAH: thunderclap headache · CT non-contrast sensitivity ~100% ใน 6 ชม. แรก แล้วลดลง",
+   "CT ปกติแต่สงสัย → LP หลัง 12 ชม. ดู xanthochromia + RBC ไม่ลดลงใน tube 1→4",
+   "Traumatic tap: RBC ลดลงจาก tube 1 → 4 และไม่มี xanthochromia (ตรวจด้วย spectrophotometry ไวกว่าดูด้วยตา)",
+   "Hunt–Hess / WFNS grading · Fisher scale ทำนาย vasospasm",
+   "Mx: secure aneurysm (coil/clip) เร็ว, nimodipine, ระวัง rebleeding, vasospasm (วันที่ 4–14), hydrocephalus, hyponatremia"
+  ],
+  "variants": [
+   "ผู้ป่วย thunderclap headache 2 ชม. CT ทำภายใน 6 ชม.ด้วยเครื่องรุ่นใหม่ อ่านโดยรังสีแพทย์ผลปกติ → ตัด SAH ได้ ไม่ต้อง LP",
+   "ผู้ป่วยปวดศีรษะรุนแรงทันทีเมื่อ 5 วันก่อน CT ปกติ → LP พบ xanthochromia → CTA หา aneurysm",
+   "SAH จาก aneurysm แตก วันที่ 7 ซึมลงและอ่อนแรงใหม่ → delayed cerebral ischemia จาก vasospasm → CTA/TCD และรักษาตามแนวทาง"
+  ]
+ },
+ "MDCU76|RoC|Neuro 5": {
+  "interp": "ถามค่า CSF ที่เข้ากับ bacterial meningitis มากที่สุด — ช้อยเป็นตัวเลขเดี่ยว ต้องรู้ค่าปกติและทิศทางที่เปลี่ยนในแบคทีเรีย: glucose ↓↓ protein ↑↑ WBC ↑↑ (neutrophil) opening pressure ↑",
+  "why": "แบคทีเรียและเม็ดเลือดขาวใช้ glucose ร่วมกับการขนส่ง glucose ข้าม BBB เสีย → CSF glucose ต่ำมาก (< 40 mg/dL หรือ CSF/serum < 0.4) ซึ่งจำเพาะต่อแบคทีเรีย (TB/เชื้อราก็ต่ำได้แต่ไม่ใช่ภาพเฉียบพลันแบบนี้) · glucose 3 mg/dL จึงเข้ากับ bacterial meningitis ชัดที่สุด · ช้อยอื่นเป็นค่าปกติหรือต่ำกว่าปกติ: protein 4 ต่ำกว่าปกติ, WBC 5 ปกติ, opening pressure 10 ปกติ, neutrophil 50% ไม่เด่นพอและไม่ได้บอกจำนวนเซลล์",
+  "wrong": {
+   "B": "Protein 4 mg/dL ต่ำกว่าปกติ (ปกติ 15–45) ส่วน bacterial meningitis protein สูงมาก; ไม่มีสถานการณ์ใดที่ protein ต่ำขนาดนี้บ่ง bacterial meningitis เพราะการอักเสบทำให้ BBB รั่วและ protein สูงเสมอ",
+   "C": "Neutrophil 50% ไม่เด่นพอ (bacterial มัก > 80%) และไม่ได้บอกจำนวนเซลล์; จะถูกถ้าเป็นระยะแรก (< 24–48 ชม.) ของ viral meningitis หรือ bacterial meningitis ที่ได้ยามาก่อน ซึ่ง neutrophil อาจไม่เด่น",
+   "D": "WBC 5 cells/mm³ = ค่าปกติ; จะถูกถ้าเป็น cryptococcal meningitis ในผู้ป่วย HIV CD4 ต่ำมาก ที่เซลล์อักเสบน้อยแต่ opening pressure สูง",
+   "E": "Opening pressure 10 cmH₂O ปกติ (10–20) ส่วน bacterial มักสูง; จะถูกถ้าเป็น viral meningitis ซึ่งความดันมักปกติหรือสูงเล็กน้อย"
+  },
+  "trap": "อ่านตัวเลขโดยไม่เทียบค่าปกติ — protein 4 และ WBC 5 ดูเหมือนผิดปกติแต่จริง ๆ ต่ำหรือปกติ · neutrophil เด่นได้ในระยะแรกของ viral จึงไม่จำเพาะเท่า glucose ต่ำมาก",
+  "summary": [
+   "ปกติ: WBC <5 (lymphocyte), protein 15–45 mg/dL, glucose 50–80 (≈⅔ serum), OP 10–20 cmH₂O",
+   "Bacterial: WBC 1,000–5,000 PMN, protein ↑↑, glucose ↓↓",
+   "Viral: WBC 10–500 lymphocyte, protein ปกติ/สูงเล็กน้อย, glucose ปกติ",
+   "TB/fungal: lymphocyte, protein ↑↑, glucose ↓, OP สูง (crypto)",
+   "CT ก่อน LP ถ้ามี focal deficit, papilledema, ภูมิต่ำ, seizure ใหม่, GCS <10"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C ติ๊ก a, ที่ WBC เขียน > 1000–2000) มั่นใจสูง · ต้นฉบับมีช้อย 4 ตัว เราเติม E และเปลี่ยนหน่วย WBC จาก cell/HPF เป็น cells/mm³",
+  "variants": [
+   "CSF: WBC 150 lymphocyte เด่น protein 60 glucose ปกติ → viral meningitis",
+   "CSF: lymphocyte เด่น protein 250 glucose 25 opening pressure สูง ร่วม basal enhancement ใน CT → TB meningitis",
+   "ผู้ป่วยสงสัย meningitis มี papilledema และอ่อนแรงครึ่งซีก → เจาะเลือดเพาะเชื้อ ให้ยาปฏิชีวนะ + dexamethasone ทันที แล้วค่อย CT ก่อน LP"
+  ]
+ },
+ "MDCU76|RoC|Neuro 6": {
+  "interp": "ผู้ป่วยมี light–near dissociation (รูม่านตาไม่หดต่อแสงแต่หดเมื่อมองใกล้) + ปวดศีรษะตอนเช้า + เดินเซ → กลุ่มอาการ dorsal midbrain (Parinaud) ร่วม ICP สูงจาก hydrocephalus → ก้อนบริเวณ pineal",
+  "wrong": {
+   "B": "Ependymoma ของ 4th ventricle (มักในเด็ก) ทำให้ hydrocephalus + ataxia + อาเจียนได้ แต่ไม่กด pretectum จึงไม่มี light–near dissociation; จะถูกถ้าเด็กอาเจียนตอนเช้า เดินเซ ตาปกติ MRI พบก้อนใน 4th ventricle",
+   "C": "Vestibular schwannoma อยู่ที่ cerebellopontine angle: หูตึงข้างเดียว tinnitus เสียการทรงตัว ก้อนใหญ่กด CN V/VII; จะถูกถ้าผู้ใหญ่หูตึงข้างเดียวค่อยเป็นค่อยไป หน้าชาข้างเดียวกัน MRI พบก้อนที่ internal acoustic canal",
+   "D": "Pituitary macroadenoma กด optic chiasm → bitemporal hemianopia + ฮอร์โมนผิดปกติ ไม่ทำ Parinaud; จะถูกถ้าผู้ใหญ่ตามัวด้านข้างสองข้าง ร่วมประจำเดือนขาดหรือน้ำนมไหล",
+   "E": "Brainstem glioma (DIPG) ในเด็ก: เส้นประสาทสมองหลายเส้น (VI, VII) + long tract signs + ataxia อาการเร็วในไม่กี่สัปดาห์; จะถูกถ้าเด็ก 6 ขวบตาเหล่เข้าใน หน้าเบี้ยว เดินเซ อ่อนแรงครึ่งซีก MRI พบ pons โตทั่วไป"
+  },
+  "trap": "เห็น ataxia + ICP สูงแล้วตอบ posterior fossa tumor โดยไม่ดูอาการตา — light–near dissociation ชี้ dorsal midbrain (pretectum) ซึ่งก้อนที่กดบริเวณนี้บ่อยคือ pineal region tumor · light–near dissociation อีกสาเหตุคือ Argyll Robertson pupil (neurosyphilis) ซึ่งรูม่านตาเล็กไม่เท่ากัน",
+  "summary": [
+   "Parinaud: upgaze palsy, light–near dissociation, convergence-retraction nystagmus, eyelid retraction (Collier sign)",
+   "Pineal tumors: germinoma (มากสุด, ไวต่อรังสี), teratoma, pineoblastoma, pineocytoma",
+   "Tumor markers: AFP, β-hCG ใน serum/CSF",
+   "Hydrocephalus → ETV (+ biopsy) หรือ VP shunt",
+   "Germinoma → radiotherapy ± chemo · ชนิดอื่น → resection"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C ลายมือ ICP↑, Parinaud syndrome, กด superior cerebellar peduncle) มั่นใจสูง · ต้นฉบับมีช้อย 2 ตัว เราเติม C–E",
+  "variants": [
+   "วัยรุ่นชายมองขึ้นไม่ได้ ปัสสาวะมาก (diabetes insipidus) MRI พบก้อนที่ pineal และ suprasellar พร้อมกัน β-hCG สูงเล็กน้อย AFP ปกติ → germinoma → radiotherapy ± chemo ไม่ต้องผ่าตัดเอาออก",
+   "ผู้ป่วยก้อน pineal มี hydrocephalus ซึมลง → endoscopic third ventriculostomy พร้อมเก็บ CSF ส่ง marker/cytology และ biopsy",
+   "ก้อน pineal AFP สูงมาก → nongerminomatous germ cell tumor (เช่น yolk sac tumor) → chemotherapy ก่อนแล้วผ่าตัดส่วนที่เหลือ"
+  ]
+ },
+ "MDCU76|RoC|Neuro 7": {
+  "interp": "ผู้ใหญ่อายุน้อยชัก CT ไม่ฉีดสีพบรอยโรคมีหินปูนที่ frontal lobe ร่วมเงาเส้นคดเคี้ยวสงสัยหลอดเลือดผิดปกติ → ถามการตรวจขั้นต่อไปที่ให้ข้อมูลทั้งเนื้อสมองและหลอดเลือด",
+  "why": "CT ไม่ฉีดสีบอกได้แค่ว่ามีหินปูน/เลือด แต่แยกชนิดรอยโรคไม่ได้ · รอยโรคมีหินปูนที่ frontal lobe ในคนชักมีได้หลายอย่าง: AVM (หินปูนที่ผนังหลอดเลือด เส้นคดเคี้ยว), cavernous malformation (popcorn + hemosiderin), oligodendroglioma (หินปูนหยาบ) · MRI ร่วม MRA ให้ข้อมูลครบในครั้งเดียวโดยไม่มีรังสี: เห็นเนื้อสมองรอบ ๆ, flow void/nidus, feeding artery และ draining vein, SWI/GRE เห็น hemosiderin ของ cavernoma · ถ้าเป็น AVM ค่อยยืนยันและวางแผนด้วย DSA (gold standard)",
+  "wrong": {
+   "B": "CT with contrast เห็นหลอดเลือด enhance ได้ แต่ด้อยกว่า MRI ในการดูเนื้อสมอง/cavernoma (hemosiderin) และ MRA ดู nidus/feeders โดยไม่ต้องใช้ iodine · จะถูกถ้าไม่มี MRI หรือผู้ป่วยมีข้อห้าม MRI (pacemaker บางรุ่น)",
+   "C": "Skull radiograph ไม่มีประโยชน์ในการประเมินรอยโรคในเนื้อสมอง; จะถูกถ้าเป็นส่วนหนึ่งของ skeletal survey ในทารกที่สงสัยถูกทำร้าย (ดูกะโหลกร้าวร่วมกระดูกส่วนอื่น)",
+   "D": "EEG ช่วยประเมินจุดกำเนิดชักแต่ไม่บอกชนิดรอยโรค; จะถูกถ้าผู้ป่วยชักที่ MRI ปกติ และต้องหาจุดกำเนิดชักก่อนผ่าตัด epilepsy",
+   "E": "Biopsy ไม่ทำในรอยโรคหลอดเลือด เสี่ยงเลือดออกรุนแรง · จะถูกถ้าภาพเป็นก้อนเนื้อตันสงสัยเนื้องอกที่ต้องการวินิจฉัยทางพยาธิ"
+  },
+  "trap": "ตอบ CT with contrast เพราะคิดว่าต้องดูการ enhance — ใช้ได้เมื่อไม่มี MRI แต่ด้อยกว่าในการดูเนื้อสมองและ cavernoma · และอย่าตอบ biopsy ในรอยโรคที่สงสัยหลอดเลือด",
+  "summary": [
+   "Intracranial calcification DDx: oligodendroglioma (frontal, coarse calcification), AVM, cavernoma, craniopharyngioma, meningioma, infection (TB, cysticercosis, toxoplasma), Sturge-Weber",
+   "MRI ดีที่สุดสำหรับเนื้อเยื่อสมอง · SWI/GRE ไวต่อหินปูนและเลือดเก่า",
+   "Vascular malformation → MRA/CTA → DSA (gold standard)",
+   "Oligodendroglioma: frontal lobe, calcification ~70–90%, 1p/19q codeletion"
+  ],
+  "variants": [
+   "MRI พบรอยโรคกลมขอบเป็นวงดำ (hemosiderin rim) ไส้เป็นจุดหลายสีแบบ popcorn angiogram ปกติ → cavernous malformation → ผ่าตัดเมื่อชักคุมยากหรือเลือดออกซ้ำในตำแหน่งที่เข้าถึงได้",
+   "ผู้ใหญ่ชักเรื้อรัง MRI พบก้อนที่ frontal มีหินปูนหยาบ enhance เล็กน้อย → oligodendroglioma → ผ่าตัด + ตรวจ IDH และ 1p/19q codeletion",
+   "เด็กมีปานแดงไวน์ที่หน้าผากข้างเดียว ชัก CT มีหินปูนรูปรางรถไฟตามผิวสมองข้างเดียวกัน → Sturge–Weber syndrome"
+  ]
+ },
+ "MDCU76|RoC|Neuro 8": {
+  "interp": "ภาพในข้อ (ตามที่บันทึกไว้) เป็น CTA และ cerebral angiography หลังรักษา มีลูกศรชี้ตำแหน่ง clip/coil ที่หลอดเลือดแถว circle of Willis → ผู้ป่วยรักษา berry aneurysm มาแล้ว · ถามว่าก่อนรักษามาด้วยภาวะอะไร",
+  "why": "Berry (saccular) aneurysm อยู่ที่จุดแยกของหลอดเลือดใน circle of Willis ซึ่งลอยอยู่ใน subarachnoid space · เมื่อแตก เลือดจึงออกใน subarachnoid space → aneurysmal SAH (ปวดศีรษะรุนแรงทันทีที่สุดในชีวิต คอแข็ง อาจหมดสติ) · non-traumatic SAH ราว 85% มาจาก aneurysm แตก และการทำ clip หรือ coil เป็นการรักษาเพื่อกันเลือดออกซ้ำหลัง SAH · ภาพหลังรักษา aneurysm จึงบ่งว่าก่อนรักษาผู้ป่วยมาด้วย SAH (เลือดอาจลามเข้า ventricle ได้ แต่ภาวะหลักคือ SAH)",
+  "wrong": {
+   "A": "Primary IVH = เลือดออกในโพรงสมองโดยตรงโดยไม่มีเลือดในเนื้อสมอง พบน้อย (เช่น จาก moyamoya หรือ AVM ของ choroid plexus); จะถูกถ้าผู้ป่วยหนุ่มปวดศีรษะทันที CT พบเลือดในโพรงสมองล้วน angiogram พบ moyamoya",
+   "B": "Secondary IVH = เลือดจากเนื้อสมองหรือ SAH ลามเข้า ventricle — เกิดร่วมกับ aneurysm ได้ แต่ภาวะหลักของ aneurysm แตกคือ SAH; จะถูกถ้าผู้ป่วยความดันสูงมี thalamic hemorrhage ที่แตกเข้า 3rd ventricle",
+   "D": "EDH เกิดจากการบาดเจ็บศีรษะ มักฉีก middle meningeal artery ร่วมกะโหลก temporal ร้าว ไม่เกี่ยวกับ aneurysm; จะถูกถ้าวัยรุ่นถูกตีศีรษะ หมดสติชั่วครู่แล้วตื่นดี (lucid interval) ต่อมาซึมลง CT พบเลือดรูปเลนส์นูน",
+   "E": "Hypertensive putaminal hemorrhage มาจาก lenticulostriate arteries (Charcot–Bouchard microaneurysm) ไม่ใช่ berry aneurysm และไม่ได้รักษาด้วย clip/coil; จะถูกถ้าผู้สูงอายุความดันสูงอ่อนแรงครึ่งซีกทันที CT พบเลือดที่ putamen"
+  },
+  "trap": "เห็นเลือดในโพรงสมองในบางรายแล้วตอบ IVH — aneurysm แตกเข้า ventricle ได้ (เช่น AComm) แต่ภาวะหลักยังเป็น SAH · ภาพหลังรักษาที่เห็น clip/coil ที่ circle of Willis ให้นึกถึง aneurysm ก่อนเสมอ",
+  "summary": [
+   "Saccular aneurysm: ที่แยกของหลอดเลือดใน circle of Willis · พบบ่อย AComm, PComm, MCA bifurcation",
+   "Risk: HT, smoking, ADPKD, Ehlers-Danlos, Marfan, ประวัติครอบครัว",
+   "PComm aneurysm → CN III palsy (pupil โต)",
+   "รักษา: endovascular coiling หรือ microsurgical clipping ภายใน 24–72 ชม.",
+   "หลัง SAH: nimodipine 21 วัน, เฝ้าระวัง vasospasm, hydrocephalus, hyponatremia"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76C ลายมือ Berry aneurysm) มั่นใจปานกลาง — อ้างภาพตามคำบรรยายที่บันทึกไว้ว่าเป็นภาพหลังทำ clip/coil · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "variants": [
+   "หญิงปวดศีรษะรุนแรงที่สุดในชีวิตทันทีขณะยกของ คอแข็ง CT พบเลือดใน basal cisterns → aneurysmal SAH → CTA หา aneurysm แล้ว coil/clip เร็ว",
+   "ผู้ป่วย ADPKD มีพี่น้อง 2 คนเคยเป็น SAH → คัดกรอง aneurysm ด้วย MRA",
+   "หลัง SAH วันที่ 3 ซึมลง CT พบ ventricle โต → acute hydrocephalus → EVD"
+  ]
+ }
+}
