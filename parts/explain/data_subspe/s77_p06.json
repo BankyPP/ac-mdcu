@@ -1,0 +1,103 @@
+{
+"MDCU77|RoC|Plastic 4": {
+"wrong": {
+"A": "975 mL/h × 8 ชม. ไม่ตรงทั้งปริมาณและเวลา (ยังนับ 8 ชม.จากเวลามาถึงแทนเวลาเกิดเหตุ) · จะถูกถ้าไม่มีสถานการณ์ใดตามข้อมูลโจทย์นี้",
+"C": "1,050 mL/h × 6 ชม. = 6,300 mL ถูกปริมาณครึ่งแรก แต่เวลาที่เหลือผิด (ผ่านไป 4 ชม.ต้องเหลือ 4 ชม. ไม่ใช่ 6) · จะถูกถ้าผู้ป่วยมาถึง 2 ชม.หลังเกิดเหตุโดยยังไม่ได้น้ำ",
+"D": "525 mL/h = 12,600 ÷ 24 กระจายเท่ากันทั้งวัน ผิดหลัก Parkland ที่ให้ครึ่งแรกใน 8 ชม.แรก · จะถูกถ้าโจทย์ถามอัตราเฉลี่ยทั้ง 24 ชม. (ไม่ใช่วิธีให้จริง)",
+"E": "263 mL/h ≈ 6,300 ÷ 24 ต่ำเกินมาก เสี่ยง burn shock/AKI · จะถูกถ้าไม่มีสถานการณ์ใดตามข้อมูลโจทย์นี้"
+}
+},
+"MDCU77|RoC|Plastic 5": {
+"wrong": {
+"B": "Pierre Robin sequence: micrognathia + glossoptosis + U-shaped cleft palate ทำให้หายใจลำบาก ไม่มี malar hypoplasia/ตาเฉียงลง/ใบหูผิดรูป · จะถูกถ้าทารกคางเล็กมาก ลิ้นตกไปด้านหลังหายใจลำบากตอนนอนหงาย",
+"C": "Crouzon syndrome: craniosynostosis (coronal), exorbitism (ตาโปน), midface hypoplasia, แขนขาปกติ · จะถูกถ้าทารกกะโหลกผิดรูป ตาโปน และมือเท้าปกติ",
+"D": "Apert syndrome: craniosynostosis + syndactyly ของมือเท้า (mitten hand), midface hypoplasia, cleft palate · จะถูกถ้าทารกมีนิ้วมือนิ้วเท้าติดกันทั้งหมดร่วมกับกะโหลกผิดรูป",
+"E": "Down syndrome: upslanting palpebral fissures, epicanthal folds, flat facial profile, ลิ้นใหญ่ hypotonia, single palmar crease · จะถูกถ้าทารกมีตาเฉียงขึ้น ตัวอ่อนปวกเปียก และร่องฝ่ามือเส้นเดียว"
+}
+},
+"MDCU77|RoC|Plastic 6": {
+"wrong": {
+"B": "Eustachian tube ไม่ได้ตัน (atresia) แต่ทำงานผิดปกติจาก tensor veli palatini และ levator veli palatini ที่เกาะผิดที่ในเพดานแหว่ง · จะถูกถ้าไม่มีสถานการณ์ใดที่ cleft palate ทำให้ Eustachian tube atresia",
+"C": "Choanal atresia เป็นความผิดปกติแยก (สัมพันธ์ CHARGE syndrome) ไม่ใช่ผลของ cleft · จะถูกถ้าทารกเขียวตอนดูดนมแต่ดีขึ้นตอนร้อง และใส่สายผ่านจมูกไม่ได้",
+"D": "Congenital hypothyroidism ไม่สัมพันธ์กับ cleft lip/palate · จะถูกถ้าทารกตัวเหลืองนาน ลิ้นใหญ่ สะดือจุ่น ซึม (ตรวจ TSH คัดกรอง)",
+"E": "Esophageal atresia ไม่สัมพันธ์โดยตรงกับ cleft lip/palate (อยู่ในกลุ่ม VACTERL) · จะถูกถ้าทารกน้ำลายฟูมปาก สำลักทุกครั้งที่กิน และใส่ OG tube ไม่ผ่าน"
+},
+"why": "Cleft palate ทำให้กล้ามเนื้อ tensor veli palatini และ levator veli palatini เกาะผิดตำแหน่ง → เปิด Eustachian tube ไม่ได้ → middle ear ventilation ไม่ดี → otitis media with effusion พบเกือบทุกราย (> 90%) ในเด็ก cleft palate · เสี่ยง conductive hearing loss ที่กระทบการพัฒนาภาษา จึงต้องตรวจการได้ยินและมักใส่ ventilation tube (บ่อยครั้งพร้อมผ่าตัด lip/palate) · คีย์ไฟล์ 77C ตอบ A? (ไม่แน่ใจ) — ยืนยันตามตำราว่า A ถูก"
+},
+"MDCU77|RoC|Plastic 7": {
+"wrong": {
+"B": "Zygomatic arch อยู่ใบหน้าส่วนกลาง ประเมินด้วย submentovertex (jug-handle) view หรือ CT ทำให้อ้าปากลำบาก (กด coronoid) · จะถูกถ้าผู้ป่วยถูกต่อยที่โหนกแก้มข้าง ๆ แล้วเห็นรอยบุ๋มเหนือ arch",
+"C": "Le Fort I = maxilla หักแนวนอนเหนือรากฟันบน (ขยับเพดานแข็ง+ฟันบนได้) ไม่ใช่ mandible · จะถูกถ้าโยกฟันบนแล้วเพดานแข็งทั้งแผ่นเคลื่อนตาม",
+"D": "Nasal bone fracture ไม่เห็นใน panoramic radiograph (ดูด้วยการตรวจร่างกาย/lateral nasal view/CT) · จะถูกถ้าผู้ป่วยถูกต่อยจมูกแล้วจมูกเบี้ยวเลือดกำเดาไหล",
+"E": "TMJ dislocation = condyle หลุดไปหน้า articular eminence อ้าปากค้างปิดไม่ได้ ไม่ใช่รอยแตก · จะถูกถ้าผู้ป่วยหาวกว้างแล้วปิดปากไม่ได้ (reduce ด้วยการกดฟันกรามลงแล้วดันไปข้างหลัง)"
+}
+},
+"MDCU77|RoC|Plastic 8": {
+"why": "Maximum dose ของ lidocaine plain (ไม่มี adrenaline) = 4.5 mg/kg (บางตำราใช้ 5 mg/kg, สูงสุด 300 mg) · เด็ก 40 kg × 4.5 = 180 mg · 1% lidocaine = 10 mg/mL → 18 mL (คีย์ไฟล์ 77C ตอบ B) · ถ้ามี adrenaline = 7 mg/kg → 280 mg = 28 mL · หมายเหตุ: ข้อ 77B Plastic 10 (เด็ก 40 kg เช่นกัน) คีย์ใช้ 5 mg/kg จึงได้ 20 mL — ทั้งสองค่าอยู่ในช่วงที่ตำรายอมรับ ให้ดูตัวเลือกที่มี · อาการ LAST: ชารอบปาก หูอื้อ รสโลหะ → ชัก → arrhythmia/cardiac arrest รักษาด้วย 20% lipid emulsion",
+"wrong": {
+"A": "12 mL = 120 mg (3 mg/kg) ต่ำกว่า maximum dose · จะถูกถ้าโจทย์ถามขนาดอนุรักษ์ในทารก/ผู้ที่มีโรคตับ (ลดขนาดลง)",
+"C": "28 mL = 280 mg (7 mg/kg) คือ max ของ lidocaine \"with\" adrenaline · จะถูกถ้าโจทย์ถามขนาดสูงสุดของ 1% lidocaine with epinephrine ในเด็ก 40 kg",
+"D": "40 mL = 400 mg (10 mg/kg) เกินขนาด เสี่ยง LAST (ชัก หัวใจหยุดเต้น) · จะถูกถ้าไม่มีสถานการณ์ใด (ยกเว้น tumescent anesthesia ที่เจือจางมาก)",
+"E": "8 mL = 80 mg (2 mg/kg) ต่ำมาก · จะถูกถ้าโจทย์ถามขนาดของ bupivacaine ที่ max ~2–2.5 mg/kg (ถ้าเป็น 0.5% bupivacaine = ~16–20 mL)"
+}
+},
+"MDCU77|RoC|Plastic 9": {
+"wrong": {
+"B": "Joint aspiration ช่วยวินิจฉัย septic arthritis แต่ไม่พอรักษา fight bite ที่ปนเปื้อนเชื้อในปาก (Eikenella, Strep, Staph, anaerobes) ลงข้อ/เอ็น · จะถูกถ้าสงสัย septic arthritis ของข้อใหญ่ที่ไม่มีแผลและต้องการเพาะเชื้อก่อนรักษา",
+"C": "Splint + ยกสูงอย่างเดียวไม่พอเมื่อมีอาการติดเชื้อในข้อแล้ว (บวมแดง ขยับไม่ได้) — คีย์ไฟล์ 77C ตอบข้อนี้ · จะถูกถ้าเป็นการดูแลร่วมหลังผ่าตัดล้างข้อ หรือแผล bite ตื้นที่มาทันทีไม่มีอาการติดเชื้อ (ร่วมกับยา amoxicillin-clavulanate)",
+"D": "ยากินแล้วนัด 1 สัปดาห์ช้าเกินไป ข้อ MCP จะถูกทำลาย (septic arthritis, osteomyelitis, tendon sheath infection) · จะถูกถ้าเป็นแผลกัดตื้นที่ไม่ถึงข้อ มาเร็ว ไม่มีอาการติดเชื้อ (prophylactic amoxicillin-clavulanate 3–5 วัน)",
+"E": "ห้ามเย็บปิดแผล bite (เชื้อในปากจำนวนมาก ปิดแล้วเกิดฝี) · จะถูกถ้าเป็นแผลฉีกขาดสะอาดจากของมีคมที่มาภายใน 6–8 ชม."
+},
+"trap": "ans ปัจจุบัน = A (surgical exploration + irrigation) ต่างจากคีย์ไฟล์ 77C ที่ตอบ C (splint + elevation) · เหตุผล: fight bite (clenched-fist injury) ที่ MCP วันรุ่งขึ้นมีบวมแดงขยับไม่ได้ = septic arthritis/extensor tendon infection → ต้องผ่าตัดเปิดล้างข้อในห้องผ่าตัด + IV ampicillin-sulbactam · แผลเล็กที่ข้อนิ้วชอบถูกมองข้าม และตอนนิ้วเหยียดแผลผิวจะเลื่อนปิดรอยทะลุข้อ"
+},
+"MDCU77|RoC|Plastic 10": {
+"wrong": {
+"A": "Simple interrupted ทำ eversion ได้บ้างถ้าเย็บให้ฐานกว้างกว่าปาก (flask-shaped) แต่น้อยกว่า vertical mattress ในขอบที่ม้วนเข้า · จะถูกถ้าเป็นแผลทั่วไปที่ขอบชนกันพอดีไม่ม้วน",
+"C": "Horizontal mattress ใช้กระจาย tension/ห้ามเลือด evert ได้รองลงมา แต่เสี่ยงขอบแผลขาดเลือด · จะถูกถ้าแผลตึงมาก (ฝ่ามือ/ฝ่าเท้า) หรือต้องการห้ามเลือดที่ผิว",
+"D": "Running subcuticular ให้แผลเป็นสวยไม่มีรอยเข็ม แต่ไม่ evert มาก · จะถูกถ้าเป็นแผลผ่าตัดสะอาดที่ขอบไม่ม้วนและตึงน้อย",
+"E": "Figure-of-eight ใช้ห้ามเลือดจากจุดเลือดออก หรือปิด fascia/เนื้อเยื่อลึก · จะถูกถ้าโจทย์ถามการห้ามเลือดจาก vessel ที่หดตัวลึกในเนื้อเยื่อ"
+}
+},
+"MDCU77|RoC|Plastic 11": {
+"wrong": {
+"B": "Simple interrupted ผ่านปลาย flap บีบหลอดเลือดที่ปลายซึ่งเลือดเลี้ยงน้อยที่สุด เสี่ยงปลาย flap ตาย · จะถูกถ้าใช้ที่ด้านข้างของ flap (ไม่ใช่ที่ปลาย)",
+"C": "Vertical mattress ที่ปลาย flap ผ่าน dermis สองชั้นรัดแน่น ขาดเลือดมากขึ้น · จะถูกถ้าใช้ที่ขอบแผลตรงที่ต้องการ eversion และเลือดเลี้ยงดี",
+"D": "Figure-of-eight รัดเนื้อเยื่อแน่น ใช้ห้ามเลือด ไม่เหมาะกับปลาย flap · จะถูกถ้าต้องการห้ามเลือดจากจุดเลือดออก",
+"E": "Running locked suture รัดมาก ใช้ห้ามเลือด (เช่น หนังศีรษะ) · จะถูกถ้าแผลหนังศีรษะเลือดออกมากที่ต้องเย็บห้ามเลือด"
+}
+},
+"MDCU77|RoC|Plastic 12": {
+"wrong": {
+"A": "ผ้าชุบน้ำเย็นช่วยลดความร้อนในแผลเล็ก (cooling 20 นาทีภายใน 3 ชม.) แต่ไม่ใช่ลำดับแรกเมื่อเสี่ยง airway/CO poisoning และใช้กับพื้นที่กว้างเสี่ยง hypothermia · จะถูกถ้าเป็นแผลไหม้เล็กที่มือจากน้ำร้อนโดยไม่มีปัญหา airway",
+"B": "Central line ไม่ใช่ลำดับแรก — ใส่ peripheral IV ขนาดใหญ่ 2 เส้น (ผ่านผิวที่ไม่ไหม้ถ้าทำได้) หลังจัดการ airway · จะถูกถ้าหา peripheral access ไม่ได้ (ใช้ IO/central line)",
+"C": "คำนวณ TBSA อยู่ใน secondary survey หลังจัดการ ABC · จะถูกถ้าผู้ป่วย airway ปลอดภัยแล้วและต้องการคำนวณ Parkland",
+"E": "ให้จิบน้ำไม่เหมาะ — ผู้ป่วยอาจต้อง intubate และ major burn มี ileus · การยกศีรษะสูงช่วยลด airway edema แต่ไม่ใช่สิ่งแรก · จะถูกถ้าเป็นแผลไหม้เล็กที่ไม่มีภาวะเสี่ยงและรักษาแบบผู้ป่วยนอก"
+},
+"trap": "ไฟไหม้บ้าน + แผลที่ใบหน้า/คอ = เสี่ยง inhalation injury และ CO/cyanide poisoning → ABC ก่อนเสมอ: 100% O₂ ทาง non-rebreather (ลด half-life ของ COHb จาก ~4–5 ชม.เหลือ ~1 ชม.) และประเมินว่าต้อง intubate เร็ว (เสียงแหบ stridor ขนจมูกไหม้ เขม่าในปาก burn รอบปาก) · SpO₂ ปกติไม่ตัด CO poisoning · อย่าเริ่มที่การทำแผลหรือคำนวณ TBSA"
+},
+"MDCU77|RoC|Plastic 13": {
+"interp": "เด็กมีรอยโรคที่สงสัย nevus sebaceous of Jadassohn (แผ่นสีเหลืองส้มผิวมันไม่มีผมที่หนังศีรษะตั้งแต่เกิด) → ถามการจัดการขั้นถัดไปตามคีย์ (ตัดออกทั้งหมด)",
+"wrong": {
+"A": "Observation เป็นทางเลือกที่ยอมรับได้ในแนวทางปัจจุบันบางแบบ (มะเร็งพบน้อย ส่วนใหญ่เป็น benign tumor เช่น trichoblastoma) แต่คีย์ไฟล์ 77C ตอบ excision · จะถูกถ้าโจทย์ถามทางเลือกในเด็กเล็กที่รอยโรคไม่เปลี่ยนแปลงและผู้ปกครองไม่ต้องการผ่าตัด",
+"B": "ยาทา (retinoid, steroid) ไม่ได้รักษา nevus sebaceous · จะถูกถ้าโจทย์ถามการรักษา seborrheic dermatitis ที่หนังศีรษะ",
+"C": "Incisional biopsy ไม่ได้เอารอยโรคออก และวินิจฉัยทางคลินิกได้ · จะถูกถ้ารอยโรคใหญ่มากและมีบางส่วนโตเป็นก้อนผิดปกติที่ต้องการชิ้นเนื้อก่อนวางแผน",
+"E": "Laser ไม่ถึงต่อมไขมันในชั้นลึก กลับเป็นซ้ำ และไม่ได้ชิ้นเนื้อ · จะถูกถ้าโจทย์ถามการรักษา port-wine stain"
+}
+},
+"MDCU77|RoC|Ped 1": {
+"wrong": {
+"B": "Biliary atresia เป็นท่อน้ำดีอุดตันจาก fibrosis ในทารก < 3 เดือน (ตัวเหลือง อุจจาระซีด) ไม่เห็นท่อน้ำดีนอกตับโป่ง · จะถูกถ้าทารก 6 สัปดาห์ตัวเหลือง อุจจาระซีด และ US เห็น triangular cord sign",
+"C": "Caroli disease = ท่อน้ำดี \"ในตับ\" โป่งเป็นถุงหลายอัน (Todani type V) สัมพันธ์ congenital hepatic fibrosis/ARPKD · จะถูกถ้า MRCP เห็น saccular dilatation หลายจุดของท่อน้ำดีในตับ (central dot sign)",
+"D": "Pancreatic pseudocyst อยู่ที่ตับอ่อน ไม่ต่อกับท่อน้ำดี เกิดหลัง pancreatitis/trauma ≥ 4 สัปดาห์ · จะถูกถ้าเด็กถูกกระแทกท้อง (handlebar injury) แล้วมีก้อนน้ำที่ตับอ่อนหลายสัปดาห์ต่อมา",
+"E": "Gallbladder duplication พบน้อยมาก ไม่ทำให้ท่อน้ำดีนอกตับโป่ง · จะถูกถ้า US เห็นถุงน้ำดีสองถุงแยกกัน"
+}
+},
+"MDCU77|RoC|Ped 2": {
+"wrong": {
+"B": "HPS อาเจียนพุ่ง \"ไม่มีน้ำดี\" (อุดที่ pylorus เหนือ ampulla) อายุ 3–6 สัปดาห์ หิวตลอด · จะถูกถ้าทารกอาเจียนพุ่งเป็นนมไม่มีสีเขียวและคลำได้ olive",
+"C": "Duodenal atresia อาเจียน (มักมีน้ำดี) ตั้งแต่วันแรกหลังคลอด ไม่ใช่ทารกที่ดีมา 3 สัปดาห์ · X-ray double bubble · จะถูกถ้าทารก Down syndrome อาเจียนน้ำดีตั้งแต่มื้อแรก",
+"D": "GER อาเจียน/แหวะนมไม่มีน้ำดี ทารกดูดี น้ำหนักขึ้น · จะถูกถ้าทารกแหวะนมหลังกินโดยไม่มีอาการอื่น",
+"E": "NEC พบในทารกคลอดก่อนกำหนดที่เริ่มกินนม ท้องอืด ถ่ายเป็นเลือด pneumatosis · จะถูกถ้าทารก preterm 30 สัปดาห์มีท้องอืดและถ่ายเป็นเลือด"
+}
+}
+}
