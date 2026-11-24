@@ -8,12 +8,12 @@
    "D": "Pericarditis เจ็บแหลม ดีขึ้นเมื่อนั่งโน้มตัวไปข้างหน้า มี friction rub ไม่ใช่ diastolic murmur; จะถูกถ้าชายหนุ่มหลังเป็นหวัดเจ็บหน้าอกแหลมดีขึ้นเมื่อโน้มตัว ECG ST ยกทุก lead ร่วม PR depression",
    "E": "Boerhaave syndrome มีอาเจียนรุนแรงนำมาก่อน แล้วเจ็บหน้าอก มีลมใต้ผิวหนัง; จะถูกถ้าชายดื่มเหล้าอาเจียนแรงแล้วเจ็บหน้าอกทันที คลำได้ลมใต้ผิวหนังที่คอ CXR มี pneumomediastinum"
   },
-  "trap": "รักษาแบบ ACS (ให้ antiplatelet/thrombolytic) โดยไม่คิดถึง dissection — dissection ที่ลาม RCA ทำให้ ECG เป็น inferior STEMI ได้ · และอย่าให้ vasodilator ก่อน β-blocker เพราะ reflex tachycardia เพิ่มแรงเฉือนต่อผนัง",
+  "trap": "รักษาแบบ ACS (ให้ antiplatelet/thrombolytic) โดยไม่คิดถึง dissection — dissection ที่ลาม RCA ทำให้ ECG เป็น inferior STEMI ได้",
   "summary": [
    "Stanford A = มี ascending aorta (DeBakey I, II) → ผ่าตัดฉุกเฉิน · Stanford B = ไม่มี ascending (DeBakey III) → ยา; complicated (malperfusion, rupture, ปวด/ความดันคุมไม่ได้) → TEVAR",
    "วินิจฉัย: CTA ถ้าคงที่ · TEE/TTE ข้างเตียงถ้าไม่คงที่",
    "ยาเริ่มต้น: IV β-blocker (esmolol, labetalol) เป้า HR < 60, SBP < 120 mmHg แล้วจึงเพิ่ม vasodilator ถ้ายังสูง + ยาแก้ปวด",
-   "ภาวะแทรกซ้อนของ type A: AR, tamponade, MI (มัก RCA), stroke, malperfusion ของไต ลำไส้ ขา"
+   "ภาวะแทรกซ้อนของ type A: AR, tamponade, MI, stroke, malperfusion ของไต ลำไส้ ขา"
   ],
   "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C) มั่นใจสูง",
   "variants": [
@@ -74,13 +74,13 @@
    "A": "การลุก parietal pericardium = T3 ตัดออกพร้อมปอดได้ (ลายมือในคีย์: ถ้า pericardium ออกมาด้วยเป็น T3); จะถูกถ้าเป็น malignant pericardial effusion ซึ่งเป็น M1a",
    "B": "การลุก parietal pleura = T3 ตัด en bloc ได้ (ลายมือในคีย์: parietal pleura = T3); จะถูกถ้าพบก้อนมะเร็งกระจายเป็นเม็ดบนเยื่อหุ้มปอดหลายจุดขณะส่องกล้อง (pleural metastasis = M1a)",
    "D": "ต่อมน้ำเหลือง hilar ข้างเดียวกัน = N1 ผ่าตัดได้แล้วให้ adjuvant; จะถูกถ้าพบต่อมน้ำเหลือง mediastinum ฝั่งตรงข้ามหรือ supraclavicular (N3)",
-   "E": "ก้อน 5 cm = T2b ผ่าตัดได้; จะถูกถ้ามี metastasis นอกทรวงอกหลายตำแหน่ง เช่น สมองหลายก้อนร่วมต่อมหมวกไต (M1c)"
+   "E": "ก้อน 5 cm = T2b ผ่าตัดได้; ไม่มีสถานการณ์ใดที่ขนาดก้อนอย่างเดียวเป็นข้อห้ามผ่าตัด เพราะแม้ > 7 cm (T4) ถ้า N0–1 ยังเป็น stage IIIA ที่ผ่าตัดได้"
   },
   "trap": "คิดว่าลามถึง pleura/pericardium แล้วผ่าตัดไม่ได้ — การลุกโดยตรงเข้า parietal pleura/pericardium เป็น T3 ตัดได้ แต่น้ำหรือก้อนที่กระจายในช่องเยื่อหุ้มเป็น M1a",
   "summary": [
-   "T (TNM 8th): T2b > 4–5 cm · T3 > 5–7 cm หรือลุก chest wall/parietal pleura, phrenic nerve, parietal pericardium, ก้อนแยกในกลีบเดียวกัน · T4 > 7 cm หรือลุก diaphragm, mediastinum, หัวใจ, great vessels, trachea, carina, esophagus, กระดูกสันหลัง, recurrent laryngeal nerve, ก้อนแยกต่างกลีบข้างเดียวกัน",
+   "T (TNM 8th; ฉบับ 9th ปี 2024 ใช้ T และ M1a เหมือนเดิม): T2b > 4–5 cm · T3 > 5–7 cm หรือลุก chest wall/parietal pleura, phrenic nerve, parietal pericardium, ก้อนแยกในกลีบเดียวกัน · T4 > 7 cm หรือลุก diaphragm, mediastinum, หัวใจ, great vessels, trachea, carina, esophagus, กระดูกสันหลัง, recurrent laryngeal nerve, ก้อนแยกต่างกลีบข้างเดียวกัน",
    "M1a: pleural/pericardial nodule หรือ malignant effusion, ก้อนในปอดฝั่งตรงข้าม · M1b: metastasis นอกทรวงอกจุดเดียว · M1c: หลายจุด",
-   "น้ำในช่องเยื่อหุ้มปอดของผู้ป่วยมะเร็งปอดที่ตรวจ cytology หลายครั้งไม่พบมะเร็ง ไม่มีเลือด และเป็น transudate → ไม่นับเป็น M1a · ถ้ายังสงสัยทำ thoracoscopy ก่อนตัดสินว่าผ่าตัดไม่ได้",
+   "Effusion ในผู้ป่วยมะเร็งปอดไม่นับ M1a ถ้า cytology ลบหลายครั้ง ไม่มีเลือด และเป็น transudate",
    "โดยทั่วไปไม่ผ่าตัดใน N3 และ M1 · ผ่าตัดได้ใน stage I–II และบาง IIIA"
   ],
   "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76C ลายมือ M1 ที่ c และแปะ TNM 8th) มั่นใจสูง",
@@ -243,23 +243,22 @@
  },
  "MDCU76|RoC|Plastic 7": {
   "interp": "ถามว่าผู้ป่วยรายใดควรส่งต่อ burn center · ต้องรู้เกณฑ์ส่งต่อซึ่งพิจารณาทั้งความลึก ขนาด ตำแหน่ง และชนิดของ burn",
-  "why": "ผู้ป่วยรายนี้เข้าเกณฑ์ส่งต่อทันทีของ ABA 2022 สองข้อ: full-thickness burn (ทุกขนาด) และ burn ลึกที่ใบหน้า ซึ่งต้องการการผ่าตัดและการฟื้นฟูเฉพาะทางเพื่อหน้าที่และรูปลักษณ์ · ช้อยอื่นเป็นแผลตื้นขนาดเล็กที่ไม่ใช่ตำแหน่งพิเศษ ดูแลแบบผู้ป่วยนอกได้",
+  "why": "ผู้ป่วยรายนี้เข้าเกณฑ์ส่งต่อทันทีของ ABA 2022 สองข้อ: full-thickness burn (ทุกขนาด) และ burn ลึกที่ใบหน้า ซึ่งต้องการการผ่าตัดและการฟื้นฟูเฉพาะทางเพื่อหน้าที่และรูปลักษณ์ · ช้อยอื่นเป็นแผลตื้นขนาดเล็กที่ไม่ใช่ตำแหน่งพิเศษ ไม่เข้าเกณฑ์ส่งต่อทันที (บางรายแค่ปรึกษา)",
   "wrong": {
    "B": "Superficial partial thickness 5% ที่แขนไม่เข้าเกณฑ์ส่งต่อทันที (partial thickness ต้อง ≥ 10%); จะถูกถ้าเป็นผู้ใหญ่ที่มี partial thickness burn 15% TBSA ที่ลำตัวและแขน",
-   "C": "Partial thickness 5% ที่ขาในเด็ก 10 ขวบตาม ABA 2022 เป็นระดับปรึกษา burn center (เด็ก ≤ 14 ปีหรือ < 30 kg อาจได้ประโยชน์จากการส่งต่อ) แต่ไม่ใช่เกณฑ์ส่งต่อทันทีแบบช้อย A; จะถูกถ้าเด็กมีน้ำร้อนลวกที่เท้าหรือฝีเย็บ (ตำแหน่งพิเศษ)",
+   "C": "Superficial partial thickness 5% ที่ขาในเด็ก 10 ขวบตาม ABA 2022 เป็นระดับปรึกษา burn center (เด็ก ≤ 14 ปีหรือ < 30 kg อาจได้ประโยชน์จากการส่งต่อ) แต่ไม่ใช่เกณฑ์ส่งต่อทันทีแบบช้อย A; จะถูกถ้าเป็น deep partial thickness ที่เท้าหรือฝีเย็บ หรือแผลน้ำร้อนลวกรูปถุงเท้าขอบเรียบสมมาตรสองข้าง (สงสัยถูกทำร้าย)",
    "D": "Superficial partial thickness 3% ที่ต้นขาเล็กและตื้น ดูแลแผลเองได้; จะถูกถ้าแผล 3% นี้เป็น deep partial thickness ที่ข้อเข่า (ข้อใหญ่)",
-   "E": "Superficial (first-degree) burn เช่น sunburn ไม่นับใน TBSA และไม่ต้องส่งต่อ; จะถูกถ้าเป็นผู้ป่วยไฟฟ้าแรงสูงช็อตมีแผลเข้าออกเล็กที่มือและเท้า (electrical ≥ 1,000 V)"
+   "E": "Superficial (first-degree) burn เช่น sunburn ไม่นับใน TBSA และหายเองใน 3–7 วัน; ไม่มีสถานการณ์ใดที่ superficial burn อย่างเดียวต้องส่งต่อ burn center"
   },
   "trap": "คิดว่าต้องมี TBSA มากจึงส่งต่อ — full thickness ทุกขนาด และ burn ลึกที่ใบหน้า มือ เท้า อวัยวะเพศ ฝีเย็บ ข้อใหญ่ ส่งต่อได้แม้ TBSA น้อย",
   "summary": [
    "ABA 2022 ส่งต่อทันที: full thickness ทุกขนาด · partial thickness ≥ 10% TBSA · deep partial/full thickness ที่ใบหน้า มือ เท้า อวัยวะเพศ ฝีเย็บ ข้อใหญ่ · electrical ≥ 1,000 V/ฟ้าผ่า · chemical · inhalation injury · burn ร่วม trauma/โรคประจำตัวที่มีผล",
    "ABA 2022 แนะนำให้ปรึกษา: partial thickness < 10%, แผลที่อาจลึก, electrical < 1,000 V · เด็ก ≤ 14 ปีหรือ < 30 kg อาจได้ประโยชน์จากการส่งต่อ",
-   "เกณฑ์เดิม (ที่ลายมือในคีย์เขียน): partial + full > 20% ในผู้ใหญ่, > 10% ในอายุ < 10 หรือ > 50 ปี, full thickness > 5%",
-   "Superficial (first-degree) ไม่นับ TBSA · ใบหน้าอย่างเดียวไม่ถึง 7% TBSA (ศีรษะและคอทั้งหมดราว 9%)"
+   "เกณฑ์เดิม (ที่ลายมือในคีย์เขียน): partial + full > 20% ในผู้ใหญ่, > 10% ในอายุ < 10 หรือ > 50 ปี, full thickness > 5%"
   ],
   "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C ลายมือเกณฑ์ส่งต่อแบบเดิม) มั่นใจสูง — ช้อย B–E แต่งใหม่เพราะต้นฉบับจดไม่ครบ",
   "variants": [
-   "ผู้ป่วยถูกน้ำร้อนลวกที่ฝ่ามือทั้งสองข้างเป็น deep partial thickness 2% TBSA → ส่ง burn center (มือ)",
+   "ผู้ใหญ่ partial thickness burn 12% TBSA ที่ลำตัว ไม่มีตำแหน่งพิเศษ → ส่ง burn center (≥ 10%)",
    "คนงานถูกกรดกัดที่แขน 3% TBSA → ล้างน้ำปริมาณมากทันทีแล้วส่ง burn center (chemical burn)",
    "ผู้ป่วยไฟไหม้ในห้องปิด เสียงแหบ ขนจมูกไหม้ เสมหะมีเขม่า → สงสัย inhalation injury → ใส่ท่อช่วยหายใจเร็วและส่ง burn center"
   ]
