@@ -1,0 +1,147 @@
+{
+ "MDCU78|RoD|23": {
+  "interp": "ชายผู้ติดเชื้อ HIV CD4 &lt; 100 มีไข้และปวดศีรษะแบบกึ่งเฉียบพลัน 2 สัปดาห์ คอแข็งเล็กน้อย ไม่มี focal deficit และ CT ปกติ → meningitis จากเชื้อฉวยโอกาส (ไม่ใช่ก้อนในสมอง) ถามเชื้อที่เป็นไปได้มากที่สุด",
+  "wrong": {
+   "A": "Toxoplasmosis เป็นก้อนในสมอง (encephalitis) มาด้วยอ่อนแรงครึ่งซีก ชัก สับสน ภาพเห็น ring-enhancing หลายก้อนที่ basal ganglia/grey–white junction — CT จะไม่ปกติ; จะถูกถ้าผู้ป่วย HIV CD4 &lt; 100 มีไข้ อ่อนแรงครึ่งซีก และ CT/MRI เห็น ring-enhancing หลายก้อนที่ basal ganglia (anti-Toxoplasma IgG บวก)",
+   "C": "Taenia solium ทำให้ neurocysticercosis ซึ่งไม่ใช่เชื้อฉวยโอกาสของ HIV มักมาด้วยชักและภาพถุงน้ำมี scolex ไม่ใช่ meningitis ที่ CT ปกติ; จะถูกถ้าผู้ป่วยชักครั้งแรก CT เห็นถุงน้ำเล็กหลายก้อนที่มีจุดตรงกลางและหินปูน",
+   "D": "JC virus ทำให้ PML: อ่อนแรง พูดลำบาก หรือตามัวครึ่งซีกค่อย ๆ เป็นหลายสัปดาห์ ไม่มีไข้ ไม่มีคอแข็ง; จะถูกถ้าผู้ป่วย HIV CD4 ต่ำ มีอาการทางระบบประสาทเฉพาะที่ค่อยเป็นค่อยไป MRI เห็นรอยโรค white matter ไม่ enhance ไม่มี mass effect",
+   "E": "Pneumococcal meningitis เป็นเฉียบพลันรุนแรงภายใน 1–2 วัน ไข้สูง คอแข็งชัด ซึมเร็ว ไม่ใช่ปวดศีรษะกึ่งเฉียบพลัน 2 สัปดาห์; จะถูกถ้าผู้ป่วยไข้สูง ปวดศีรษะ คอแข็ง ซึมลงภายใน 24 ชม. CSF เม็ดเลือดขาว neutrophil เด่น glucose ต่ำมาก"
+  },
+  "trap": "คิดว่า meningitis ต้องคอแข็งชัดและเฉียบพลัน — cryptococcal meningitis มักกึ่งเฉียบพลัน อาการเยื่อหุ้มสมองอักเสบน้อย แต่ <b>ICP สูงมาก</b> (opening pressure สูง) · HIV + ไข้ + ปวดศีรษะ: CT ปกติ/ไม่มี focal deficit → crypto · มีก้อน ring-enhancing + focal deficit → toxo · focal deficit ค่อยเป็นไม่มีไข้ → PML",
+  "summary": [
+   "Cryptococcal meningitis: เชื้อฉวยโอกาสในระบบประสาทที่พบบ่อยที่สุดในผู้ป่วย HIV ในไทย · CD4 &lt; 100 · ปวดศีรษะ ไข้ กึ่งเฉียบพลัน คอแข็งน้อย ตามัว/CN VI palsy จาก ICP สูง",
+   "วินิจฉัย: LP วัด opening pressure (มักสูง) · CSF CrAg (ไวที่สุด) · India ink · เพาะเชื้อ · serum CrAg ใช้คัดกรอง",
+   "รักษา (WHO 2022): induction ด้วย liposomal amphotericin B ขนาดสูงครั้งเดียว + flucytosine และ fluconazole 14 วัน (หรือ amphotericin B 1 สัปดาห์ + flucytosine) → consolidation fluconazole 800 mg 8 สัปดาห์ → maintenance 200 mg จน CD4 ฟื้น",
+   "ICP สูง: therapeutic LP ซ้ำ (เมื่อ opening pressure ≥ 25 cmH<sub>2</sub>O หรือมีอาการ) · ไม่ใช้ steroid, acetazolamide, mannitol",
+   "เริ่ม ART หลังเริ่มยาฆ่าเชื้อราราว 4–6 สัปดาห์ (เริ่มเร็วเกินเพิ่มการเสียชีวิตจาก IRIS — COAT trial)",
+   "CD4 &lt; 100: คัดกรอง serum CrAg → บวกแต่ไม่มีอาการ → LP และให้ fluconazole แบบ pre-emptive"
+  ],
+  "variants": [
+   "ผู้ป่วย HIV CD4 40 ไข้ ชัก อ่อนแรงซีกขวา MRI ring-enhancing หลายก้อนที่ basal ganglia → toxoplasmosis: pyrimethamine + sulfadiazine + leucovorin",
+   "ผู้ป่วย cryptococcal meningitis opening pressure 35 cmH<sub>2</sub>O ปวดศีรษะมาก → therapeutic LP ซ้ำจนความดันลดลง",
+   "ผู้ป่วย cryptococcal meningitis เพิ่งเริ่ม amphotericin B ควรเริ่ม ART เมื่อใด → หลังราว 4–6 สัปดาห์",
+   "ผู้ป่วย HIV CD4 60 ไม่มีอาการ serum CrAg บวก → LP แยก meningitis แล้วให้ fluconazole แบบ pre-emptive"
+  ]
+ },
+ "MDCU78|RoD|24": {
+  "interp": "ชายอายุ 80 ปีปวดศีรษะรุนแรงทันทีถึงจุดสูงสุดใน 1 นาที (thunderclap) เมื่อ 12 ชม.ก่อน ตรวจระบบประสาทปกติ CT ไม่ฉีดสีปกติ → ยังตัด SAH ไม่ได้เพราะทำ CT หลัง 6 ชม. ถามขั้นต่อไป",
+  "why": "Thunderclap headache ต้องหา <b>SAH</b> ก่อนเสมอ · CT ไม่ฉีดสีภายใน 6 ชม.หลังเริ่มปวดไวเกือบ 100% แต่หลังจากนั้นความไวลดลงเรื่อย ๆ (เลือดถูกชะล้าง) · รายนี้ทำ CT ที่ 12 ชม. ผลปกติจึงตัด SAH ไม่ได้ → <b>lumbar puncture</b> หา xanthochromia และนับเม็ดเลือดแดงหลอดแรกเทียบหลอดสุดท้าย · เวลา 12 ชม.เหมาะพอดีเพราะ bilirubin ต้องใช้ราว 12 ชม.จึงตรวจพบ · CTA เป็นทางเลือกแทน LP ได้ (แต่จะเจอ aneurysm เล็กที่ยังไม่แตกได้ราว 2–3%) · ถ้า LP บวก → CTA/DSA หา aneurysm แล้วรักษา",
+  "wrong": {
+   "B": "MRI (FLAIR, SWI) ไวต่อเลือดเก่าและช่วยหาสาเหตุอื่นของ thunderclap ได้ แต่ไม่ใช่ขั้นมาตรฐานถัดไปเมื่อ CT ลบ; จะถูกถ้าผู้ป่วยมาหลังเริ่มปวดหลายวันและทำ LP ไม่ได้ (เช่นกินยาต้านการแข็งตัวของเลือด) หรือสงสัย cerebral venous thrombosis (ทำ MRV)",
+   "C": "ESR ใช้เมื่อสงสัย giant cell arteritis ซึ่งปวดศีรษะใหม่แบบค่อยเป็นค่อยไป ไม่ใช่ปวดทันที; จะถูกถ้าผู้สูงอายุปวดขมับข้างเดียวมาหลายสัปดาห์ เจ็บกรามเวลาเคี้ยว และตามัวชั่วคราว",
+   "D": "ให้กลับบ้านเสี่ยงพลาด SAH ซึ่งเลือดออกซ้ำได้ในวันแรก ๆ และเสียชีวิตสูง — ไม่มีสถานการณ์ใดที่ปวดศีรษะ thunderclap ที่ CT ปกติหลัง 6 ชม. ควรได้แค่ยาแก้ปวดโดยไม่ตรวจต่อ เพราะยังต้องทำ LP หรือ CTA เพื่อตัด SAH",
+   "E": "CT ซ้ำยิ่งช้ายิ่งไวน้อยลง ไม่ช่วยตัด SAH; จะถูกถ้าผู้ป่วยมี ICH ที่ยืนยันแล้วและต้องติดตามการขยายของก้อนเลือด หรืออาการแย่ลงหลัง CT ครั้งแรก"
+  },
+  "trap": "CT ปกติไม่ได้แปลว่าไม่มี SAH ถ้าทำหลัง 6 ชม. · ห้ามรีบ LP ก่อน 12 ชม. (xanthochromia ยังไม่เกิด) — รายนี้ 12 ชม. พอดี · ผู้สูงอายุปวดศีรษะใหม่ให้นึกถึง GCA ด้วย แต่ลักษณะ thunderclap ชี้ไปทางเลือดออก",
+  "summary": [
+   "Thunderclap headache: ปวดสุดภายใน 1 นาที → หา SAH ก่อน · สาเหตุอื่น: RCVS, cerebral venous thrombosis, cervical artery dissection, pituitary apoplexy, ICH",
+   "Ottawa SAH rule (ผู้ป่วยปวดศีรษะรุนแรง ตรวจระบบประสาทปกติ): อายุ ≥ 40 ปี · ปวด/แข็งคอ · หมดสติ · เริ่มขณะออกแรง · thunderclap · งอคอได้จำกัด — มีข้อใดข้อหนึ่งต้องสืบค้น SAH",
+   "CT ไม่ฉีดสี: ภายใน 6 ชม. ไวเกือบ 100% · หลัง 6 ชม. ความไวลดลง (ราว 50% ที่ 1 สัปดาห์)",
+   "CT ลบหลัง 6 ชม. → LP (≥ 12 ชม.หลังเริ่มปวด) หา xanthochromia หรือ CTA หา aneurysm",
+   "Xanthochromia พบได้ถึงราว 2 สัปดาห์ · traumatic tap RBC ลดลงจากหลอดแรกถึงหลอดสุดท้ายและไม่มี xanthochromia · ดูข้อ 78B เลข 62",
+   "ยืนยัน SAH → CTA/DSA → coiling หรือ clipping เร็ว (ภายใน 24–72 ชม.) · nimodipine · คุม SBP &lt; 160 ก่อนรักษา aneurysm"
+  ],
+  "variants": [
+   "ผู้ป่วยปวดศีรษะ thunderclap 3 ชม. ตรวจระบบประสาทปกติ CT ปกติ → SAH แทบตัดได้",
+   "LP ผู้ป่วย thunderclap พบ xanthochromia → CTA หรือ DSA หา aneurysm",
+   "หญิงหลังคลอดปวดศีรษะ thunderclap ซ้ำหลายครั้ง CT/LP ปกติ CTA เห็นหลอดเลือดตีบสลับขยายหลายตำแหน่ง → RCVS",
+   "ผู้ป่วย SAH จาก aneurysm ยาที่ให้ทุกรายเพื่อลด delayed cerebral ischemia → nimodipine"
+  ]
+ },
+ "MDCU78|RoD|25": {
+  "why": "ATLS แบ่งความรุนแรงของการบาดเจ็บศีรษะตาม GCS หลัง resuscitation: <b>mild 13–15 · moderate 9–12 · severe 3–8</b> → GCS 9 = moderate · ผู้ป่วยกลุ่ม moderate ต้องทำ CT สมองทุกราย รับไว้สังเกตอาการทางระบบประสาทและ GCS ซ้ำบ่อย (ราว 10–20% แย่ลงเป็น severe) ทำ CT ซ้ำเมื่ออาการแย่ลง และป้องกัน secondary brain injury (หลีกเลี่ยง hypoxia และ hypotension) · GCS 9 ยังไม่ถึงเกณฑ์ใส่ท่อช่วยหายใจตาม GCS แต่ต้องเฝ้าระวังทางเดินหายใจใกล้ชิด · ประเมิน GCS ให้ถูกต้องเมื่อไม่มี hypoxia/hypotension และไม่มีฤทธิ์ยา/สุรา",
+  "wrong": {
+   "A": "Mild head injury คือ GCS 13–15 — GCS 9 ต่ำกว่ามาก; จะถูกถ้าผู้ป่วยหลังอุบัติเหตุ GCS 14 สับสนเล็กน้อย",
+   "C": "Severe head injury คือ GCS 3–8 ซึ่งต้อง secure airway — GCS 9 ยังไม่ถึงเกณฑ์; จะถูกถ้าผู้ป่วย GCS 8 หรือต่ำกว่า เช่น ลืมตาเมื่อเจ็บ ส่งเสียงไม่เป็นคำ และดึงแขนหนี (E2V2M4)",
+   "D": "Minimal head injury (บางระบบใช้) คือ GCS 15 ไม่หมดสติ ไม่มีความจำเสื่อม; จะถูกถ้าผู้ป่วย GCS 15 ไม่หมดสติ ไม่มีความจำเสื่อมหลังเกิดเหตุ",
+   "E": "การแบ่งความรุนแรงตาม GCS ทำได้จากการตรวจร่างกายโดยไม่ต้องรอ CT (CT ใช้หาชนิดรอยโรค); จะถูกถ้าผู้ป่วยได้ยาสลบ/ยานอนหลับหรือเมาสุรามากจนประเมิน GCS ที่แท้จริงไม่ได้จนกว่าฤทธิ์ยาหมด"
+  },
+  "trap": "สับสนขอบเขต 8 กับ 9 — GCS 8 = severe (≤ 8 intubate) · GCS 9 = moderate · และต้องประเมินหลังแก้ hypoxia/hypotension เพราะสมองขาดออกซิเจนทำให้ GCS ต่ำเกินจริง",
+  "summary": [
+   "ความรุนแรง TBI (ATLS): mild GCS 13–15 · moderate 9–12 · severe 3–8",
+   "Moderate TBI: CT ทุกราย · admit · GCS/pupil ซ้ำบ่อย · CT ซ้ำเมื่อแย่ลง · ราว 10–20% แย่ลง",
+   "Severe TBI: intubate · ป้องกัน hypoxia (SpO<sub>2</sub> &gt; 94%) และ hypotension (SBP ≥ 100–110 ตามอายุ) · ปรึกษาประสาทศัลยแพทย์ · พิจารณา ICP monitoring",
+   "ICP monitoring (BTF): severe TBI ที่ CT ผิดปกติ หรือ CT ปกติแต่มีปัจจัยเสี่ยง · เป้า ICP &lt; 22 mmHg และ CPP 60–70 mmHg",
+   "Mild TBI: ใช้ Canadian CT head rule (GCS &lt; 15 ที่ 2 ชม., สงสัยกะโหลกแตก, อาเจียน ≥ 2 ครั้ง, อายุ ≥ 65 ปี) ตัดสินทำ CT · กินยาต้านการแข็งตัวของเลือดทำ CT ต่ำ",
+   "GCS ประเมินหลัง resuscitation ไม่มีฤทธิ์ยา · รายงานแยกส่วน E-V-M"
+  ],
+  "opinion": "ไม่มีไฟล์เฉลย 78D — เฉลยโดยผม ตอบ B ความมั่นใจสูง; ต้นฉบับจดแค่ GCS 9 และช้อย mild/moderate/severe ซึ่งตอบได้ตรงจากเกณฑ์ ATLS",
+  "variants": [
+   "ผู้ป่วยบาดเจ็บศีรษะ GCS 12 → moderate: CT สมอง admit สังเกตอาการทางระบบประสาท",
+   "ผู้ป่วยบาดเจ็บศีรษะ GCS 7 → severe: ใส่ท่อช่วยหายใจ ป้องกัน hypoxia/hypotension",
+   "ผู้ป่วยอายุ 70 ปีล้มศีรษะกระแทก GCS 15 หมดสติสั้น ๆ → ทำ CT สมอง (อายุ ≥ 65 ปี ตาม Canadian CT head rule)",
+   "ผู้ป่วยบาดเจ็บศีรษะ ความดัน 70/40 SpO<sub>2</sub> 85% GCS 8 → แก้ hypoxia/hypotension ก่อนแล้วประเมิน GCS ซ้ำ"
+  ]
+ },
+ "MDCU78|RoD|41": {
+  "interp": "ถามกายวิภาคหลอดเลือดหัวใจ: จับคู่หลอดเลือดหลักกับแขนงให้ถูกทั้งสามคู่ ในหัวใจแบบ right dominant (PDA มาจาก RCA)",
+  "why": "แขนงหลัก: <b>LAD</b> → diagonal (ผนัง anterolateral) และ septal perforators (2/3 หน้าของ septum) · <b>LCx</b> → obtuse marginal (ผนัง lateral) · <b>RCA</b> → conus, SA nodal (ราว 60%), acute marginal (ผนัง RV) และใน right dominance ให้ <b>PDA และ posterolateral branch</b> · dominance กำหนดจากว่า PDA มาจากหลอดเลือดใด: right ราว 70–85%, left (จาก LCx) ราว 5–10%, co-dominant ที่เหลือ · ช้อย B ถูกครบทั้งสามคู่ (LAD–diagonal, LCx–OM, RCA–posterolateral)",
+  "wrong": {
+   "A": "LAD–obtuse marginal และ LCx–diagonal สลับกัน (OM มาจาก LCx, diagonal มาจาก LAD) แม้คู่ RCA–PDA จะถูกใน right dominance — ไม่มีสถานการณ์ใดที่ obtuse marginal มาจาก LAD เพราะชื่อแขนงตั้งตามหลอดเลือดต้นทาง",
+   "C": "สลับคู่ LAD กับ LCx เหมือนช้อย A แม้ RCA–posterolateral จะถูก — ไม่มีสถานการณ์ใดที่ diagonal มาจาก LCx เพราะ diagonal คือแขนงของ LAD ที่ไปผนัง anterolateral",
+   "D": "PDA ไม่ได้มาจาก LAD (LAD ชนิด wraparound เลี้ยงปลายผนังล่างได้แต่ไม่ใช่ PDA) และ acute marginal เป็นแขนงของ RCA ที่เลี้ยง RV ไม่ใช่ LCx — ไม่มีสถานการณ์ใดที่ acute marginal มาจาก LCx",
+   "E": "คู่ LCx–PDA ถูกได้ใน left-dominant circulation (ราว 5–10%) แต่โจทย์กำหนด right dominance และ obtuse marginal ไม่เคยมาจาก RCA — ไม่มีสถานการณ์ใดที่ทั้งสามคู่ในช้อยนี้ถูกพร้อมกัน"
+  },
+  "trap": "จำชื่อแขนงคู่กับหลอดเลือดต้นทาง: <b>D</b>iagonal–LA<b>D</b> · <b>O</b>btuse marginal–circumfle<b>x</b> (ผนังข้าง) · <b>A</b>cute marginal–RCA (ขอบขวาคม) · PDA ขึ้นกับ dominance ไม่ได้ตายตัว — ถ้าโจทย์ไม่บอก ให้ถือว่า right dominant",
+  "summary": [
+   "LAD: diagonal + septal perforators → ผนัง anterior, anterolateral, 2/3 หน้าของ septum, apex · ECG V1–V4",
+   "LCx: obtuse marginal → ผนัง lateral · ECG I, aVL, V5–V6 · ใน left dominance ให้ PDA ด้วย",
+   "RCA: conus, SA nodal, acute marginal (RV), PDA + posterolateral (right dominance) → ผนัง inferior, RV, 1/3 หลังของ septum · ECG II, III, aVF · RV infarct ดู V4R",
+   "SA node: RCA ราว 60% · AV node: จาก dominant artery (RCA ราว 80–90%) → inferior MI มักมี bradycardia/AV block",
+   "Inferior MI + ความดันต่ำ ปอดใส JVP สูง → RV infarct: ให้สารน้ำ เลี่ยง nitrate",
+   "CABG: LIMA → LAD ให้ patency ดีที่สุด (มากกว่า 90% ที่ 10 ปี) · saphenous vein graft อุดตันได้มากกว่าในระยะยาว"
+  ],
+  "opinion": "ไม่มีไฟล์เฉลย 78D — เฉลยโดยผม ตอบ B ความมั่นใจสูง; ต้นฉบับใช้รูปแบบ \"LAD : OM\" เราเขียนเป็นคำแทนเครื่องหมายและกำหนด right dominance ในโจทย์ให้คำตอบมีข้อเดียว",
+  "variants": [
+   "ผู้ป่วย STEMI ที่ II, III, aVF ร่วมกับ complete heart block → RCA อุดตัน (AV nodal artery มาจาก RCA)",
+   "ผู้ป่วยเจ็บหน้าอก ECG ST ยกที่ V1–V4 หลอดเลือดที่อุดตัน → LAD (ผนัง anterior)",
+   "ผู้ป่วย inferior MI ความดันต่ำ ปอดใส JVP สูง ST ยกที่ V4R → RV infarct: ให้สารน้ำ เลี่ยง nitrate",
+   "การทำ CABG หลอดเลือดที่ควรใช้ต่อกับ LAD → left internal mammary artery (LIMA)"
+  ]
+ },
+ "MDCU78|RoD|42": {
+  "wrong": {
+   "A": "ก้อน spiculated 3.5 cm ในผู้สูบบุหรี่จัดมีโอกาสมะเร็งสูงมาก การปลอบใจและติดตามด้วย CXR ทำให้มะเร็งลุกลามเกินระยะผ่าตัดได้ — ไม่มีสถานการณ์ใดที่ติดตามก้อนลักษณะนี้ด้วย CXR เพราะ CXR ไม่ไวพอและก้อนมีลักษณะมะเร็งชัด",
+   "B": "Antibiotics แล้ว CT ซ้ำใช้เมื่อภาพเข้ากับการติดเชื้อ (ไข้ ไอเสมหะ consolidation) ไม่ใช่ก้อน spiculated ที่ PET บวกเฉพาะที่; จะถูกถ้าผู้ป่วยไข้ ไอเสมหะ CXR เป็น consolidation ใหม่ แล้วนัด CT ซ้ำหลังรักษาเพื่อดูว่ามีก้อนซ่อนอยู่หรือไม่",
+   "C": "Bronchoscopy with lavage ได้ผลต่ำในก้อนส่วนปลาย และผลลบไม่ตัดมะเร็ง — ผู้ที่ผ่าตัดได้และโอกาสมะเร็งสูงไปผ่าตัดเพื่อวินิจฉัยและรักษาพร้อมกันได้; จะถูกถ้าก้อนอยู่ central ในหลอดลมใหญ่ หรือผู้ป่วยผ่าตัดไม่ได้และต้องได้ชิ้นเนื้อก่อน SBRT/chemoradiation",
+   "E": "Chemotherapy อย่างเดียวไม่ใช่การรักษา NSCLC ระยะต้นที่ผ่าตัดได้ ยาใช้เป็น adjuvant/neoadjuvant ร่วมกับผ่าตัดหรือในระยะลุกลาม; จะถูก (ใกล้เคียง) ถ้าเป็น small cell lung cancer ระยะ extensive ซึ่งรักษาด้วย platinum–etoposide ร่วมกับ immunotherapy"
+  },
+  "trap": "คิดว่าต้องได้ชิ้นเนื้อก่อนผ่าตัดทุกราย — ก้อนโอกาสมะเร็งสูงในผู้ที่ผ่าตัดได้และ staging ไม่พบการลุกลาม ไปผ่าตัดได้เลย (frozen section ระหว่างผ่าตัด) · ก้อน 3.5 cm ใหญ่เกินเกณฑ์ segmentectomy (≤ 2 cm ส่วนปลาย) จึงทำ lobectomy · ต้องเลาะหรือเก็บตัวอย่างต่อมน้ำเหลือง mediastinum เสมอเพื่อ staging",
+  "summary": [
+   "ประเมินโอกาสมะเร็งของก้อน: อายุ สูบบุหรี่ ขนาด ขอบ spiculated upper lobe โตขึ้น PET บวก · โอกาสสูงและผ่าตัดได้ → ผ่าตัดเลย · ปานกลาง → PET/biopsy · ต่ำ → CT ติดตาม",
+   "Staging: CT chest/upper abdomen → PET–CT → EBUS-TBNA เมื่อต่อมน้ำเหลืองโต/PET บวก/ก้อนกลางหรือ &gt; 3 cm → MRI brain ในระยะที่สูงขึ้น",
+   "T: T1 ≤ 3 cm · T2a &gt; 3–4 cm · T2b &gt; 4–5 cm · T3 &gt; 5–7 cm · T4 &gt; 7 cm (AJCC 8) · ก้อนนี้ T2a N0 M0 = stage IB",
+   "Stage I–II ผ่าตัดได้: lobectomy + mediastinal lymph node dissection/sampling · segmentectomy ในก้อนส่วนปลาย ≤ 2 cm (JCOG0802, CALGB 140503) · ผ่าตัดไม่ได้ → SBRT",
+   "เสริมหลังผ่าตัด: EGFR บวก stage IB–IIIA → osimertinib (ADAURA) · stage II–IIIA → chemotherapy ± immunotherapy · ก่อนผ่าตัด neoadjuvant chemo-immunotherapy ในระยะ II–IIIA (CheckMate 816)",
+   "ประเมินก่อนผ่าตัด: FEV<sub>1</sub> และ DLCO ทำนายหลังผ่าตัด &gt; 60% ผ่าตัดได้ ต่ำกว่านั้นทำ exercise test"
+  ],
+  "variants": [
+   "ก้อน 1.8 cm ส่วนปลายของปอด ไม่มีต่อมน้ำเหลือง → segmentectomy หรือ lobectomy + lymph node sampling",
+   "ผู้ป่วย NSCLC stage I แต่ FEV<sub>1</sub> ต่ำมาก ผ่าตัดไม่ได้ → stereotactic body radiotherapy (SBRT)",
+   "หลังผ่าตัด lobectomy พบ adenocarcinoma stage IIA EGFR exon 19 deletion → adjuvant osimertinib",
+   "PET–CT พบต่อมน้ำเหลือง mediastinum ข้างเดียวกันจับสารสูง → EBUS-TBNA ยืนยันก่อนวางแผนรักษา"
+  ]
+ },
+ "MDCU78|RoD|43": {
+  "wrong": {
+   "B": "VSD ให้ holosystolic murmur ที่ LLSB (ยิ่งรูเล็กยิ่งดัง) ไม่มี fixed split S2 · VSD ใหญ่มีอาการหัวใจล้มเหลวที่อายุ 1–2 เดือน; จะถูกถ้าทารก 2 เดือนฟังได้ harsh holosystolic murmur ที่ LLSB",
+   "C": "PDA ให้ continuous machinery murmur ใต้ไหปลาร้าซ้าย ชีพจรเต้นแรง pulse pressure กว้าง ไม่ใช่ ejection murmur กับ fixed split S2; จะถูกถ้าทารกมี continuous murmur ใต้ไหปลาร้าซ้ายและ bounding pulse",
+   "D": "TOF มี harsh ejection murmur จาก RVOT obstruction แต่ S2 เดี่ยว (P2 เบา) และมักเขียว ไม่ใช่ fixed split; จะถูกถ้าทารกเขียวเวลาร้อง ฟังได้ harsh SEM ที่ LUSB S2 เดี่ยว",
+   "E": "Coarctation ฟังได้ murmur ที่หลังระหว่างสะบัก ชีพจรขาเบาและช้ากว่าแขน ความดันแขนสูงกว่าขา ไม่มี fixed split S2; จะถูกถ้าทารกคลำ femoral pulse ได้เบามากเทียบกับ radial และความดันแขนขวาสูงกว่าขา 25 mmHg"
+  },
+  "trap": "คิดว่า murmur ของ ASD เกิดจากเลือดไหลผ่านรู — ความดันระหว่าง atrium ต่างกันน้อยจึงไม่มีเสียงจากรู เสียงที่ได้ยินคือ <b>pulmonary flow murmur</b> (ejection ที่ LUSB) และจุดเด่นที่ต้องจับคือ <b>wide fixed split S2</b> · ทารกเล็กที่มี murmur เบาที่ upper sternal border ร้าวไปรักแร้/หลังอาจเป็น peripheral pulmonary stenosis ซึ่งเป็น innocent murmur และหายใน 6 เดือน",
+  "summary": [
+   "ASD: left-to-right ระดับ atrium → RV volume overload · ejection murmur ที่ LUSB + wide fixed split S2 ± mid-diastolic rumble ที่ LLSB (tricuspid flow) ถ้า shunt มาก",
+   "ชนิด: secundum (บ่อยสุด ปิดด้วย device ได้) · primum (ส่วนหนึ่งของ AVSD พบใน Down syndrome ต้องผ่าตัด) · sinus venosus (มักร่วม PAPVR ต้องผ่าตัด)",
+   "มักไม่มีอาการในวัยเด็ก · ECG: right axis deviation, RBBB ไม่สมบูรณ์ (primum: left axis) · echo ยืนยัน",
+   "Secundum &lt; 5 mm มักปิดเองในขวบปีแรก · รูใหญ่หรือ RV โต → ปิดด้วย device หรือผ่าตัดช่วงอายุ 2–5 ปี · ไม่ปิดในผู้ใหญ่ → AF, RV failure, paradoxical embolism, pulmonary hypertension",
+   "Innocent murmur ในทารก: peripheral pulmonary stenosis (เบา ร้าวไปรักแร้/หลัง หายใน 6 เดือน) · เด็กโต: Still's murmur (เสียงดนตรีที่ LLSB) · venous hum (ต่อเนื่องใต้ไหปลาร้า หายเมื่อนอน)"
+  ],
+  "variants": [
+   "เด็ก 4 ปีไม่มีอาการ ejection murmur ที่ LUSB + fixed split S2 echo secundum ASD 15 mm RV โต → ปิดด้วย device ทางสายสวน",
+   "ทารก Down syndrome ECG left axis deviation echo มีรูที่ atrium ส่วนล่างต่อกับ ventricle → atrioventricular septal defect: ผ่าตัด",
+   "ทารก 1 เดือน murmur เบาที่ upper sternal border ร้าวไปรักแร้และหลัง โตดี → peripheral pulmonary stenosis (innocent) ติดตามจนหาย",
+   "ผู้ใหญ่ ASD ไม่เคยปิดมาด้วย stroke หลังเบ่ง → paradoxical embolism ผ่าน ASD"
+  ]
+ }
+}
