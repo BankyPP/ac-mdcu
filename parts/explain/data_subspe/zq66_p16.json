@@ -1,0 +1,169 @@
+{
+ "MDCU66|RoD|35": {
+  "interp": "ถามตัวเลขพื้นฐานทางสรีรวิทยาประสาทศัลยศาสตร์: <b>อัตราการสร้าง</b> CSF ต่อวัน (production) ไม่ใช่<b>ปริมาตร</b> CSF ที่มีอยู่ในระบบ (volume) · คำนวณจากอัตราสร้าง ~0.3–0.35 mL/นาที × 1,440 นาที ≈ 450–500 mL/วัน (คีย์ลายมือ: ~500 cc/day) → ช้อยที่ใกล้ที่สุดคือ 450 mL · ตัวลวงสำคัญคือ 150 mL ซึ่งเป็นปริมาตรรวม · เป็นโจทย์เดียวกับ RoD ข้อ 12 ในชุดเดียวกัน (ช้อยเรียงเหมือนกัน)",
+  "why": "<b>CSF</b> สร้างประมาณ <b>0.3–0.35 mL/นาที ≈ 450–500 mL/วัน</b> (คีย์ลายมือ: ~500 cc/day) ส่วนใหญ่ (~70–80%) จาก <b>choroid plexus</b> ใน lateral, 3rd, 4th ventricles ที่เหลือจาก ependyma/interstitial fluid · ปริมาตรรวมในระบบผู้ใหญ่ ~<b>125–150 mL</b> (ใน ventricle ~25 mL) → turnover ~3–4 รอบ/วัน · ทางเดิน: lateral ventricle → foramen of Monro → 3rd ventricle → aqueduct of Sylvius → 4th ventricle → foramina of Luschka (lateral) และ Magendie (median) → subarachnoid space → ดูดซึมที่ <b>arachnoid granulations</b> เข้า dural venous sinus · การสร้างค่อนข้างคงที่ไม่ขึ้นกับ ICP ส่วนการดูดซึมขึ้นกับความดัน",
+  "wrong": {
+   "A": "50 mL ต่ำเกินมาก — ใกล้กับปริมาตร CSF ในทารก/ใน ventricle มากกว่า · จะถูกถ้าโจทย์ถามปริมาตร CSF ในทารกแรกเกิด (~50 mL)",
+   "B": "150 mL คือ<b>ปริมาตรรวม</b>ของ CSF ในระบบผู้ใหญ่ ไม่ใช่ปริมาณที่สร้างต่อวัน · จะถูกถ้าโจทย์ถาม 'total CSF volume in adults'",
+   "C": "250 mL ต่ำกว่าอัตราการสร้างจริง (~0.35 mL/min × 1,440 นาที ≈ 500 mL) · จะถูกถ้าโจทย์ถามปริมาณที่สร้างในช่วงครึ่งวัน",
+   "D": "350 mL ยังต่ำกว่าค่ามาตรฐานที่ตำราใช้ (450–500 mL/วัน) · จะถูกถ้าโจทย์ใช้อัตรา 0.25 mL/min (ค่าต่ำในบางตำรา/ผู้สูงอายุ)"
+  },
+  "trap": "กับดัก: สับสน <b>production</b> (~450–500 mL/วัน) กับ <b>volume</b> (~125–150 mL) ซึ่งช้อย 150 mL ใส่มาล่อ · อีกตัวลวงคือ 50 mL (ปริมาตรในทารก/ใน ventricles) · ใช้ตัวเลขนี้ในงานจริง: EVD ระบายเฉลี่ย ~10–20 mL/ชม. ใกล้อัตราสร้าง (~20 mL/ชม.) ถ้าระบายมากกว่านี้มากให้สงสัย overdrainage หรือ CSF leak · ข้อนี้ออกซ้ำสองครั้งในชุด 66 RoD (ข้อ 12 และ 35)",
+  "summary": [
+   "CSF production ~0.3–0.35 mL/นาที (~20 mL/ชม.) ≈ 450–500 mL/วัน · ปริมาตรรวมผู้ใหญ่ ~125–150 mL (ใน ventricles ~25 mL, ที่เหลือใน subarachnoid space สมองและไขสันหลัง) · turnover 3–4 รอบ/วัน · ทารกแรกเกิดปริมาตร ~50 mL",
+   "แหล่งสร้าง: choroid plexus ~70–80% (lateral ventricle มากที่สุด รองลงมา 3rd และ 4th ventricle) ผ่าน Na⁺/K⁺-ATPase และ carbonic anhydrase · ที่เหลือจาก ependyma และ brain interstitial fluid · การสร้างค่อนข้างคงที่ ไม่ลดลงแม้ ICP สูง (จนกว่า ICP สูงมาก)",
+   "ทางเดิน: lateral ventricle → foramen of Monro → 3rd ventricle → cerebral aqueduct (of Sylvius) → 4th ventricle → foramina of Luschka (2 ข้าง) + Magendie (กลาง) → cisterna magna/subarachnoid space → ดูดซึมที่ arachnoid granulations เข้า superior sagittal sinus (ขึ้นกับ pressure gradient) และผ่าน glymphatic/lymphatic ทางเส้นประสาทสมอง",
+   "Hydrocephalus: obstructive/non-communicating (อุดในระบบ ventricle เช่น aqueductal stenosis, ก้อนใน posterior fossa) vs communicating (ดูดซึมไม่ได้หลัง SAH/meningitis, NPH) · overproduction จาก choroid plexus papilloma พบน้อย · รักษาด้วย EVD ในภาวะเฉียบพลัน, VP shunt หรือ endoscopic third ventriculostomy (ETV) ใน obstructive",
+   "EVD: ตั้งระดับ drip chamber ราว 10–20 cmH₂O เหนือ tragus (foramen of Monro) · ระบายเฉลี่ย ~10–20 mL/ชม. (ใกล้อัตราสร้าง) · ระบายเร็วเกินเสี่ยง subdural hematoma/upward herniation · ภาวะแทรกซ้อน ventriculitis",
+   "ค่าปกติ: opening pressure (lateral decubitus) 6–20 cmH₂O · protein 15–45 mg/dL · glucose ~60% ของ serum · เซลล์ < 5/µL (lymphocyte) · ยาลดการสร้าง CSF: acetazolamide (ใช้ใน idiopathic intracranial hypertension), furosemide ผลน้อย"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ E (ขีด E) ความมั่นใจสูง — ตรงกับ RoD ข้อ 12 ที่ลายมือเขียน ~500 cc/day และตำราประสาทศัลยศาสตร์ (Greenberg) ใช้อัตรา ~0.35 mL/นาที · ช้อยห่างกันทีละ 100 mL จึงไม่มีปัญหาการปัดเศษ · จุดสังเกต: ข้อนี้ซ้ำสองครั้งในชุดเดียวกันทุกตัวอักษร แสดงว่าเป็นตัวเลขที่อาจารย์เน้น ควรเปลี่ยนข้อหนึ่งเป็นการประยุกต์ เช่นปริมาณ EVD output ที่คาดหวังต่อวัน",
+  "variants": [
+   "ผู้สูงอายุเดินลำบากแบบเท้าติดพื้น ปัสสาวะราด หลงลืม CT ventricles โตไม่สัมพันธ์กับ sulci → การตรวจช่วยตัดสินใจ shunt (คำตอบ: normal pressure hydrocephalus — high-volume LP tap test 30–50 mL ดูการเดินดีขึ้น)",
+   "ผู้ป่วยก้อนใน posterior fossa อุด 4th ventricle มี lateral และ 3rd ventricle โต 4th ventricle ไม่โต → ชนิดของ hydrocephalus และการรักษาชั่วคราว (คำตอบ: obstructive/non-communicating — EVD หรือ ETV ก่อนผ่าตัดก้อน ห้าม LP)",
+   "ผู้ป่วยใส่ EVD 3 วัน ระบาย CSF ได้เพียง 20 mL/วัน ทั้งที่ระดับ drip chamber ถูกต้อง CT ventricles โตขึ้น → ปัญหาที่ต้องนึกถึง (คำตอบ: สายอุดตัน/ปลายสายเคลื่อน — ตรวจ waveform, flush โดยแพทย์อย่างปลอดเชื้อ หรือเปลี่ยนสาย)",
+   "ผู้ป่วย idiopathic intracranial hypertension หญิงอ้วน ปวดหัว papilledema MRI ปกติ opening pressure 35 cmH₂O → ยาที่ลดการสร้าง CSF (คำตอบ: acetazolamide ร่วมกับลดน้ำหนัก)"
+  ]
+ },
+ "MDCU66|RoD|36": {
+  "summary": [
+   "ตัวต่อท้าย E ต่างจาก stage IV: E = ลามเข้าอวัยวะนอกต่อมน้ำเหลืองแบบ<b>ต่อเนื่อง</b>จากต่อมน้ำเหลืองที่เป็นโรค หรือ extranodal เดี่ยว (เช่น mediastinal mass ลามเข้าปอด/เยื่อหุ้มหัวใจ = IIE) · stage IV = extranodal แบบ<b>ไม่ต่อเนื่อง</b>หรือกระจาย (ไขกระดูก, ตับ, ปอดหลายก้อน) · ไม่ใช้ E ใน stage IV และ Lugano ไม่ใช้ E ในผู้ที่เป็น stage III",
+   "ปัจจัยพยากรณ์ early-stage Hodgkin (แบ่ง favorable/unfavorable): EORTC — bulky mediastinum, อายุ ≥ 50, ESR สูง (≥ 50 ไม่มี B หรือ ≥ 30 มี B), ≥ 4 nodal areas · GHSG — bulky mediastinum, extranodal disease, ESR สูง, ≥ 3 nodal areas · advanced HL ใช้ IPS (Hasenclever) 7 ข้อ: albumin < 4, Hb < 10.5, ชาย, อายุ ≥ 45, stage IV, WBC ≥ 15,000, lymphocyte < 600",
+   "Bulky disease: Hodgkin — mediastinal mass > 1/3 ของความกว้างทรวงอกบน CT หรือก้อนเดี่ยว ≥ 10 cm · DLBCL ใช้ 6–10 cm ตามโปรโตคอล · Lugano เลิกใช้ตัวต่อท้าย X แต่บันทึกขนาดก้อนใหญ่สุดไว้ เพราะเปลี่ยนการรักษา (stage II bulky Hodgkin มักรักษาแบบ advanced หรือเพิ่ม RT)",
+   "Staging work-up: excisional/core biopsy ต่อมน้ำเหลือง (FNA ไม่พอ) · PET-CT สำหรับ FDG-avid lymphoma (Hodgkin, DLBCL) ใช้ staging และประเมินการตอบสนองด้วย Deauville 5-point scale · bone marrow biopsy ไม่จำเป็นใน Hodgkin และ DLBCL ที่ทำ PET-CT แล้ว · CBC, LDH, ESR (Hodgkin), HIV/HBV/HCV, echo ก่อนให้ anthracycline",
+   "Anterior mediastinal mass ในผู้ใหญ่อายุน้อย: Hodgkin (nodular sclerosis), primary mediastinal large B-cell lymphoma, T-lymphoblastic lymphoma, germ cell tumor, thymoma · ก้อนใหญ่เสี่ยง airway/SVC compression ระหว่างดมยาสลบ — ให้ biopsy ใต้ยาชาเฉพาะที่ (supraclavicular node, CT-guided) และหลีกเลี่ยง general anesthesia/neuromuscular blocker ถ้าทำได้",
+   "การรักษา Hodgkin โดยย่อ: early favorable → ABVD 2–4 รอบ ± involved-site RT (PET-adapted) · early unfavorable/bulky → ABVD 4 รอบ + RT หรือ PET-adapted · advanced (III–IV) → <b>nivolumab-AVD</b> (SWOG S1826, NCCN แนะนำ), brentuximab-AVD, หรือ BrECADD (GHSG HD21 แทน BEACOPP ในยุโรป) · interim PET ลบหลัง ABVD 2 รอบ ตัด bleomycin ได้ (RATHL) · ผลข้างเคียงระยะยาว: bleomycin lung toxicity, anthracycline cardiomyopathy, มะเร็งทุติยภูมิ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B (ขีด B) ความมั่นใจสูง — mediastinal mass + right supraclavicular node อยู่เหนือกระบังลมทั้งคู่ = ≥ 2 บริเวณด้านเดียว (stage II) และมี B symptoms → IIB ตาม Lugano 2014 · จุดกำกวม: (1) โจทย์ไม่ระบุชนิด lymphoma — ถ้าเป็น non-Hodgkin ตาม Lugano จะไม่ใช้ตัวต่อท้าย A/B ทำให้ช้อยเหลือแค่ \"II\" (2) คำว่า \"ill-defined\" อาจหมายถึงลามเข้าปอด/เยื่อหุ้มหัวใจโดยตรง (IIBE ยังเป็น stage II ไม่ใช่ IV) (3) ก้อนใหญ่ควรบอกว่า bulky หรือไม่เพราะเปลี่ยนการรักษา · ควรเพิ่ม \"Hodgkin lymphoma\" และ \"PET-CT shows no disease below the diaphragm\" ในโจทย์",
+  "variants": [
+   "ชาย 25 ปี Hodgkin lymphoma มีต่อมน้ำเหลืองที่คอซ้ายและ para-aortic ไม่มีไข้ น้ำหนักคงที่ → stage (คำตอบ: IIIA — ทั้งสองด้านของกระบังลม ไม่มี B symptoms)",
+   "หญิง 30 ปี Hodgkin มีต่อมน้ำเหลืองที่คอ + PET-CT จับที่ไขกระดูกหลายตำแหน่ง มีเหงื่อออกกลางคืน → stage (คำตอบ: IVB — ไขกระดูกเป็น extranodal แบบกระจาย)",
+   "ชาย 22 ปี ก้อนใน anterior mediastinum ใหญ่มาก หายใจลำบากเวลานอนราบ หน้าบวม ต้องการชิ้นเนื้อ → วิธีที่ปลอดภัยที่สุด (คำตอบ: biopsy ต่อมน้ำเหลืองนอกทรวงอกหรือ CT-guided core biopsy ใต้ยาชาเฉพาะที่ หลีกเลี่ยง general anesthesia)",
+   "ผู้ป่วย Hodgkin หลังให้ ABVD 2 รอบ ทำ PET-CT ได้ Deauville score 2 → ความหมาย (คำตอบ: complete metabolic response — interim PET ลบ พิจารณาลดการรักษา เช่น ตัด bleomycin)"
+  ],
+  "trap": "กับดักรายช้อย: (1) เลือก C/D เพราะเห็นคำว่า \"<b>right</b>\" supraclavicular ร่วมกับก้อนกลางทรวงอก แล้วสับสน \"ทั้งซ้ายและขวา\" กับ \"ทั้งสองด้านของ<b>กระบังลม</b>\" — stage III ต้องมีต่อมน้ำเหลืองใต้กระบังลม (para-aortic, mesenteric, inguinal, ม้าม) ซึ่งโจทย์ไม่มี (2) เลือก E เพราะคิดว่า \"ill-defined\" แปลว่าลุกลามเข้าอวัยวะ — การลามเข้าเนื้อเยื่อข้างเคียงโดยตรงคือตัวต่อท้าย E (IIBE) ยังเป็น stage II ไม่ใช่ IV (3) เลือก A เพราะมองข้าม B symptoms ในโจทย์ (4) เลือก C/D/E เพราะคิดว่าก้อนใหญ่ต้อง upstage — ขนาดใหญ่คือ bulky ซึ่งเปลี่ยนการรักษาแต่ไม่เปลี่ยน stage"
+ },
+ "MDCU66|RoD|37": {
+  "summary": [
+   "Recurrent aphthous stomatitis: พบ ~20% ของประชากร เริ่มวัยเด็ก–วัยรุ่น · minor (~80%, < 1 cm, หายใน 7–14 วันไม่เป็นแผลเป็น) · major (> 1 cm, ลึก, หาย 2–6 สัปดาห์ เป็นแผลเป็น) · herpetiform (แผลเล็ก 1–3 mm จำนวนมาก)",
+   "ลักษณะ: แผลกลม/รี ขอบแดงเรียบ พื้นเหลืองเทา เจ็บมาก บน non-keratinized mucosa (ด้านในริมฝีปาก กระพุ้งแก้ม ใต้ลิ้น พื้นปาก) · ต่างจาก herpes simplex ซ้ำที่เกิดบน keratinized mucosa (เพดานแข็ง เหงือก) เป็นตุ่มน้ำกลุ่ม",
+   "การรักษา: ส่วนใหญ่หายเอง · topical corticosteroid (triamcinolone in orabase), น้ำยาบ้วนปาก chlorhexidine, ยาชาเฉพาะที่ · major/ถี่ → systemic (colchicine, prednisolone สั้น ๆ)",
+   "หาสาเหตุร่วมเมื่อเป็นบ่อย/รุนแรง: ขาด iron, B12, folate · celiac disease, IBD (Crohn's) · Behçet disease (แผลปากซ้ำ ≥ 3 ครั้ง/ปี + แผลอวัยวะเพศ, uveitis, ผื่น, pathergy) · HIV · ยา (NSAID, nicorandil)",
+   "Red flags ที่ต้อง biopsy: แผลไม่หายใน 2–3 สัปดาห์ (หลังเอาสาเหตุกระตุ้นออก), ไม่เจ็บ, ขอบนูนแข็ง/induration, ติดลึก, เลือดออกง่าย, มี leukoplakia/erythroplakia ร่วม, ต่อมน้ำเหลืองคอโต, อายุมาก + บุหรี่/สุรา/หมาก",
+   "Traumatic ulcer: หาสาเหตุ (ฟันคม ฟันปลอม กัดโดนลิ้น) แก้ไขแล้วควรหายใน 2 สัปดาห์ ถ้าไม่หายต้อง biopsy",
+   "Oral SCC เมื่อยืนยันแล้ว: wide excision margin ~1 cm (เป้า pathological margin ≥ 5 mm) ± neck dissection ตาม depth of invasion ± adjuvant RT"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ขีด A + ลายมือ aphthous · หายเอง 2–3 wk) ความมั่นใจสูง — ชายอายุ 18 ปี แผลเจ็บมากเป็นมาเพียง 7 วัน เข้ากับ aphthous ulcer ที่ให้ติดตามและรักษาตามอาการก่อน biopsy ถ้าไม่หายใน 2–3 สัปดาห์ และตรงกับ 66 RoC ข้อ 5 · จุดกำกวม: แผลขนาด 1–1.5 cm เข้าเกณฑ์ major aphthous ซึ่งอาจนาน 2–6 สัปดาห์ ถ้าครบ 3 สัปดาห์ยังไม่หายก็ต้อง biopsy ตามกฎ และ \"follow up\" ควรรวม topical steroid/ยาชาเฉพาะที่ด้วย · ช้อยภาษาไทยเดิมแปลมา ควรเขียนช้อย A เป็น \"symptomatic treatment and re-evaluate in 2 weeks\"",
+  "variants": [
+   "ชาย 65 ปี สูบบุหรี่ เคี้ยวหมาก แผลที่กระพุ้งแก้ม 1.5 cm ขอบนูนแข็ง ไม่ค่อยเจ็บ เป็นมา 5 สัปดาห์ → incisional biopsy เพื่อ R/O oral SCC",
+   "หญิง 25 ปี แผลในปากเป็นซ้ำปีละหลายครั้ง มีแผลที่อวัยวะเพศและตาแดงมัว pathergy test บวก → Behçet disease; ส่งอายุรแพทย์และจักษุแพทย์",
+   "ชาย 40 ปี แผลที่ขอบลิ้นตรงกับฟันกรามที่แตกคม เจ็บ เป็นมา 10 วัน → traumatic ulcer; แก้ฟันคม นัดดูซ้ำ 2 สัปดาห์ ถ้าไม่หายต้อง biopsy",
+   "หญิง 20 ปี แผลในปากเล็ก ๆ หลายสิบแผลเจ็บมาก เป็น ๆ หาย ๆ ตรวจพบ ferritin ต่ำ → herpetiform aphthous ulcer ร่วมกับขาดธาตุเหล็ก; ให้ iron และ topical steroid/chlorhexidine"
+  ]
+ },
+ "MDCU66|RoD|38": {
+  "interp": "คำถามตรง: ก้อนใน <b>anterior</b> (prevascular) mediastinum ที่<b>พบบ่อยที่สุด</b> · ต้องนึกถึงการแบ่งช่องของ mediastinum ก่อน (anterior/middle/posterior) แล้วนึกรายการ 4T ของช่องหน้า — thymoma, teratoma/germ cell tumor, thyroid, \"terrible\" lymphoma · โจทย์ไม่ระบุอายุ จึงตอบตามผู้ใหญ่ซึ่งคือ thymoma (คีย์ขีด A + สไลด์ thymoma) · ช้อย E (neurogenic tumor) เป็นตัวลวงของช่อง posterior",
+  "summary": [
+   "การแบ่ง mediastinum (ITMIG): prevascular/anterior (thymus, lymph node, ไขมัน) · visceral/middle (หัวใจ, หลอดเลือดใหญ่, trachea, esophagus, lymph node) · paravertebral/posterior (sympathetic chain, nerve root) — ใช้ CT แบ่งตำแหน่งแล้วคิด DDx",
+   "Anterior mediastinal mass: thymoma (ผู้ใหญ่ 40–60 ปี บ่อยสุด), lymphoma (เด็ก/วัยรุ่น/ผู้ใหญ่ตอนต้น), germ cell tumor (ชายอายุน้อย: teratoma, seminoma, NSGCT), retrosternal goiter, thymic cyst/hyperplasia · Middle: lymphadenopathy, bronchogenic/pericardial cyst · Posterior: neurogenic tumor (ผู้ใหญ่ schwannoma, เด็ก neuroblastoma)",
+   "Thymoma: ช้าและ indolent แต่ลามเฉพาะที่ได้ · WHO histology A, AB, B1–B3 (B3 ร้ายที่สุด) และ thymic carcinoma (type C) · staging Masaoka-Koga หรือ TNM 8th (IASLC/ITMIG) · paraneoplastic: myasthenia gravis (~30–50%), pure red cell aplasia, hypogammaglobulinemia (Good syndrome)",
+   "Work-up: CT chest with contrast (± MRI แยก thymic hyperplasia/cyst) · AFP, β-hCG ในชายอายุน้อย · LDH · anti-AChR antibody ในทุกราย (ป้องกัน myasthenic crisis หลังดมยา) · ก้อนที่ภาพเข้าได้กับ thymoma และผ่าตัดได้ → ผ่าตัดเลยไม่ต้อง biopsy ก่อน (เลี่ยงการเจาะผ่าน capsule) · สงสัย lymphoma/ผ่าไม่ได้ → core biopsy",
+   "รักษา thymoma: complete en-bloc thymectomy (median sternotomy, VATS หรือ robotic) เป็นปัจจัยพยากรณ์ที่สำคัญที่สุด · adjuvant RT ใน stage III/ตัดไม่หมด (พิจารณาใน stage II type B3) · advanced/unresectable → induction chemotherapy (cisplatin-based) แล้วประเมินผ่าตัด",
+   "Myasthenia gravis กับ thymus: ~10–15% ของผู้ป่วย MG มี thymoma (ต้องผ่าตัดทุกราย) · MG ชนิด AChR-antibody บวก generalized ไม่มี thymoma อายุ 18–65 ปี → thymectomy ช่วยลดอาการและขนาดยา steroid (MGTX trial) · เตรียมผ่าตัดให้อาการ MG คงที่ (IVIG/plasmapheresis ถ้าจำเป็น)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ขีด A + สไลด์ thymoma) ความมั่นใจปานกลาง–สูง — ในผู้ใหญ่ thymoma เป็นก้อน anterior mediastinum ที่พบบ่อยที่สุดตามตำราศัลยศาสตร์ทรวงอก (Sabiston, Shields) และสไลด์ในคีย์ · จุดกำกวม: (1) โจทย์ไม่ระบุอายุ — ในเด็กคำตอบคือ lymphoma และบางการศึกษารวมทุกอายุพบ lymphoma ใกล้เคียงหรือมากกว่า thymoma (2) ช้อย C \"thyroid\" ถ้านับ retrosternal goiter ที่ต่อจากคอบางตำราจัดเป็นก้อน mediastinum ที่พบบ่อยด้วย · ควรเพิ่ม \"in adults\" ในโจทย์",
+  "variants": [
+   "หญิง 50 ปี หนังตาตก มองเห็นภาพซ้อนตอนเย็น CT พบก้อน 4 cm ขอบเรียบใน anterior mediastinum → การตรวจก่อนผ่าตัดที่สำคัญและการรักษา (คำตอบ: thymoma + myasthenia gravis — anti-AChR, ทำให้ MG คงที่ แล้ว complete thymectomy)",
+   "ชาย 24 ปี ก้อนใหญ่ใน anterior mediastinum AFP 2,500 ng/mL β-hCG สูง → การวินิจฉัยและการรักษาแรก (คำตอบ: nonseminomatous germ cell tumor — cisplatin-based chemotherapy ก่อน แล้วผ่าตัดก้อนที่เหลือ)",
+   "ชาย 40 ปี ไม่มีอาการ CT พบก้อนกลมขอบเรียบใน posterior mediastinum ติด paravertebral → การวินิจฉัยที่น่าเป็น (คำตอบ: neurogenic tumor เช่น schwannoma — MRI ดูการลามเข้า spinal canal ก่อนผ่าตัด)",
+   "หญิง 45 ปี มี AChR-antibody generalized MG ไม่มี thymoma บน CT → ควรทำ thymectomy หรือไม่ (คำตอบ: ควรพิจารณา — MGTX trial แสดงว่าลดอาการและการใช้ steroid)"
+  ]
+ },
+ "MDCU66|RoD|39": {
+  "summary": [
+   "การติดเชื้อผิวหนังเรียงตามความลึก: impetigo (epidermis) → folliculitis (รูขุมขนส่วนตื้น) → furuncle (ฝีรอบรูขุมขนเดียว ลึกถึง dermis) → carbuncle (หลาย furuncle รวมกัน ลึกถึง subcutaneous มีหลายรู) · erysipelas (upper dermis + lymphatics) → cellulitis (deep dermis + subcutaneous) → necrotizing fasciitis (fascia)",
+   "Folliculitis: S. aureus บ่อยที่สุด · hot tub folliculitis (Pseudomonas, หลังแช่อ่าง/สระที่คลอรีนไม่พอ, หายเอง) · gram-negative folliculitis (ผู้ใช้ยาปฏิชีวนะรักษาสิวนาน) · Malassezia (คันมาก หลัง/อก — ยาต้านเชื้อรา) · pseudofolliculitis barbae (ขนคุดจากการโกน ไม่ใช่การติดเชื้อ) · eosinophilic folliculitis (HIV)",
+   "รักษา folliculitis: หลีกเลี่ยงการโกน/เสียดสี, ล้างด้วย chlorhexidine/benzoyl peroxide, ประคบอุ่น, topical mupirocin หรือ clindamycin · เป็นมาก/เป็นซ้ำ → ยากิน (cephalexin, dicloxacillin; MRSA → TMP-SMX/doxycycline) และพิจารณา decolonization (mupirocin ในจมูก)",
+   "Purulent SSTI (IDSA 2014): furuncle/carbuncle/abscess → incision and drainage เป็นหลัก · ให้ยาปฏิชีวนะเพิ่มเมื่อมี SIRS, cellulitis รอบกว้าง, ภูมิคุ้มกันต่ำ, ฝีหลายตำแหน่ง, ผู้ป่วยเด็กเล็ก/สูงอายุ หรือ I&D ไม่ได้ผล · carbuncle ในผู้ป่วยเบาหวานมักต้อง I&D + ยาฉีด",
+   "Impetigo: non-bullous (S. aureus/S. pyogenes, สะเก็ดสีน้ำผึ้งรอบปากจมูก) · bullous (S. aureus exfoliative toxin) · รอยโรคน้อย → topical mupirocin/retapamulin · กว้าง/ระบาด → ยากิน (cephalexin) · ภาวะแทรกซ้อน post-streptococcal glomerulonephritis (ไม่ใช่ rheumatic fever)",
+   "Non-purulent SSTI: erysipelas (ขอบนูนชัด S. pyogenes → penicillin) · cellulitis (ขอบไม่ชัด → cephalexin/cefazolin) · red flags ของ necrotizing soft tissue infection: ปวดเกินกว่าที่เห็น, บวมตึงเกินขอบแดง, bullae, crepitus, hypotension, LRINEC score สูง → surgical debridement ด่วน + broad-spectrum + clindamycin"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ขีด C + ตาราง infection of skin) ความมั่นใจสูง — ตุ่มหนองเล็กจำนวนมากที่รูขุมขนเป็นลักษณะของ folliculitis ตามตารางในคีย์ ต่างจาก furuncle/carbuncle ที่เป็นก้อนลึก impetigo ที่มีสะเก็ดสีน้ำผึ้ง และ erysipelas ที่เป็นผื่นแดงขอบชัด · จุดกำกวม: (1) ไม่มีภาพในไฟล์ — ถ้าตุ่มหนองไม่ได้อยู่ที่รูขุมขน (เช่น pustular psoriasis, acneiform eruption, varicella ระยะตุ่มหนอง) คำตอบจะต่างไป (2) ช้อย E ผู้จดจำไม่ได้ Claude เติม erysipelas · ควรระบุในโจทย์ว่า \"perifollicular pustules with central hair\"",
+  "variants": [
+   "ชาย 30 ปี หลังแช่อ่างน้ำร้อนที่รีสอร์ต 2 วัน มีตุ่มแดงคันและตุ่มหนองเล็กกระจายบริเวณลำตัวที่ถูกชุดว่ายน้ำ → เชื้อและการรักษา (คำตอบ: hot tub folliculitis จาก Pseudomonas aeruginosa — มักหายเองใน 7–10 วัน)",
+   "ผู้ป่วยเบาหวานคุมไม่ดี มีก้อนแดงร้อนขนาด 6 cm ที่ท้ายทอย มีหลายรูหนอง ไข้ 38.8 °C → การรักษา (คำตอบ: carbuncle — incision and drainage + ยาปฏิชีวนะ systemic ครอบคลุม S. aureus/MRSA และคุมน้ำตาล)",
+   "เด็ก 5 ปี มีแผลตกสะเก็ดสีเหลืองทองรอบจมูกและปาก 3–4 จุด → การรักษา (คำตอบ: non-bullous impetigo — topical mupirocin; ติดตามปัสสาวะเป็นเลือด/บวมจาก PSGN)",
+   "ชาย 55 ปี ขาแดงบวมหลังมีแผลเล็ก ปวดมากผิดสัดส่วน มีตุ่มน้ำสีม่วงและ crepitus ความดันต่ำ → การจัดการ (คำตอบ: necrotizing fasciitis — resuscitation, broad-spectrum + clindamycin และ surgical debridement ด่วน)"
+  ]
+ },
+ "MDCU66|RoD|40": {
+  "interp": "คำใบ้: หญิงอายุ 20 ปี + <b>ไข้สูงหนาวสั่น</b> (systemic infection) + <b>CVA tenderness</b> (ไต) + <b>ปวดไม่หายด้วยยาแก้ปวด</b> (อาการรุนแรง) → acute pyelonephritis ที่ควรรับไว้ในโรงพยาบาล (คีย์ลายมือ: acute pyelonephritis) · โจทย์ถามการดูแล ซึ่งมีช้อย \"all of the above\" ต้องดูว่าแต่ละช้อยเป็นส่วนหนึ่งของการดูแลที่เหมาะสมหรือไม่ · ลายมือติดดาวที่ b = IV antibiotics สำคัญที่สุด",
+  "wrong": {
+   "A": "การนอนพักเป็นการดูแลประคับประคองที่เหมาะกับผู้ป่วยไข้สูงอ่อนเพลีย และเป็นส่วนหนึ่งของคำตอบ E แต่ไม่รักษาการติดเชื้อ จึงเลือกเป็นคำตอบเดี่ยวไม่ได้ · จะถูก (เป็นการจัดการหลัก) ถ้าผู้ป่วยเป็นไข้เลือดออก dengue ระยะไข้ที่ยังไม่มีสัญญาณเตือน ซึ่งคำแนะนำหลักคือพัก ดื่มน้ำ และเฝ้าระวังช่วงไข้ลด",
+   "B": "IV antibiotics เป็นการรักษาหลักที่สำคัญที่สุด (ลายมือติดดาว b) แต่โจทย์มี \"all of the above\" และช้อยอื่นก็เป็นการดูแลที่เหมาะสมในผู้ป่วยที่ไข้สูงปวดมาก · จะถูก (เป็นคำตอบเดี่ยว) ถ้าคำถามเป็น \"most important/definitive treatment\" ของ pyelonephritis ที่ต้องรับไว้ในโรงพยาบาล ซึ่งคือยาปฏิชีวนะทางหลอดเลือด เช่น ceftriaxone",
+   "C": "Antipyretic/analgesic ช่วยลดไข้และปวดตามอาการ เป็นส่วนหนึ่งของ E · ควรเลือก paracetamol มากกว่า NSAIDs ในผู้ป่วยขาดน้ำหรือไตทำงานลด · จะถูก (เป็นการจัดการหลัก) ถ้าผู้ป่วยเป็นไข้หวัดใหญ่ที่อาการไม่รุนแรงในคนหนุ่มสาวสุขภาพดี ซึ่งรักษาตามอาการด้วย paracetamol เป็นหลัก",
+   "D": "IV fluid จำเป็นเมื่อไข้สูง อาเจียน รับประทานไม่ได้ หรือมี sepsis และเป็นส่วนหนึ่งของ E · จะถูก (เป็นสิ่งแรกที่ต้องให้) ถ้าผู้ป่วย pyelonephritis มาด้วย septic shock (ความดันต่ำ lactate สูง) ซึ่งต้องให้ crystalloid 30 mL/kg ภายใน 3 ชม. พร้อมยาปฏิชีวนะภายใน 1 ชม."
+  },
+  "trap": "กับดัก: (1) เลือก B ข้อเดียวเพราะเป็นการรักษาที่สำคัญที่สุด (ลายมือติดดาว) — แต่คำถามคือ \"how should she be managed\" และมี all of the above ที่ทุกข้อเป็นการดูแลจริง (2) เลือก C เพราะโจทย์เน้นว่าปวดไม่หายด้วยยาแก้ปวด จึงคิดว่าปัญหาคือยาแก้ปวดไม่พอ — ความจริงคืออาการรุนแรงที่บอกว่าต้องรับไว้และให้ยาปฏิชีวนะทางหลอดเลือด (3) ตัดช้อย A หรือ D ออกเพราะคิดว่าไม่ใช่ \"การรักษา\" จริง จึงไม่กล้าเลือก E — โจทย์ถามการดูแลทั้งหมด และผู้ป่วยไข้สูงปวดมากจำเป็นต้องได้ทั้งสารน้ำและการพัก",
+  "summary": [
+   "Acute pyelonephritis: ไข้ หนาวสั่น ปวดเอว CVA tenderness คลื่นไส้อาเจียน ± อาการ cystitis · UA: pyuria, bacteriuria, WBC cast (บ่งการติดเชื้อที่ไต) · ส่ง urine culture ทุกราย (ต่างจาก uncomplicated cystitis) · เชื้อ: E. coli ~75–95%, Klebsiella, Proteus, Enterococcus",
+   "Outpatient ได้เมื่อ: ไม่ตั้งครรภ์ อาการไม่รุนแรง รับประทานได้ ไม่มี sepsis/obstruction · ยากิน: FQ (ciprofloxacin 7 วันหรือ levofloxacin 5 วัน) เมื่อเชื้อในพื้นที่ดื้อ FQ < 10% ถ้าดื้อ > 10% ให้ ceftriaxone 1 g IV 1 ครั้งเพิ่มก่อนยากิน · TMP-SMX เมื่อทราบว่าเชื้อไว รวม 7 วัน · ในไทยเชื้อดื้อ FQ และ ESBL สูง จึงมักใช้ ceftriaxone เป็นยา empiric และปรับตาม culture",
+   "ข้อบ่งชี้ admit: sepsis/shock, อาเจียนรับประทานไม่ได้, ปวดคุมไม่ได้, ตั้งครรภ์, สงสัย obstruction/นิ่ว, ภูมิคุ้มกันต่ำ, ไตข้างเดียว, ไม่ตอบสนองการรักษาแบบผู้ป่วยนอก · IDSA 2025 cUTI: empiric IV ตามความรุนแรงและความเสี่ยงเชื้อดื้อ (ceftriaxone; เสี่ยง ESBL/sepsis → carbapenem) · ไม่แนะนำ aminoglycoside เป็นยาหลัก · เปลี่ยนยากินเมื่อดีขึ้น รวม FQ 5–7 วัน หรือยาอื่น 7 วัน",
+   "Imaging: ไม่จำเป็นในหญิงที่อาการตอบสนองดี · ทำ (US หรือ CT) เมื่อไข้ไม่ลด 48–72 ชม., sepsis, สงสัยนิ่ว/อุดกั้น, ชาย, เป็นซ้ำ, เบาหวาน · CT with contrast ดีที่สุดในการหา abscess, emphysematous pyelonephritis (ก๊าซในเนื้อไต — เบาหวาน, E. coli)",
+   "Obstructed infected kidney (pyonephrosis): ภาวะฉุกเฉินทางระบบปัสสาวะ → ระบายด่วนด้วย ureteral stent หรือ percutaneous nephrostomy ร่วมกับยา · ห้ามรักษานิ่วแบบ definitive ขณะติดเชื้อ · renal abscess > 3–5 cm → percutaneous drainage",
+   "กลุ่มพิเศษ: หญิงตั้งครรภ์ (admit, IV β-lactam เช่น ceftriaxone หรือ ampicillin + gentamicin, หลีกเลี่ยง FQ, คัดกรองและรักษา asymptomatic bacteriuria ทุกราย) · ชาย (ถือเป็น complicated UTI ประเมิน prostatitis/obstruction) · เป็นซ้ำ → หาความผิดปกติทางกายวิภาค"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ E (ขีด e + ลายมือ acute pyelonephritis · b *) ความมั่นใจปานกลาง–สูง — ผู้ป่วย pyelonephritis ที่ไข้สูงและปวดจนยาแก้ปวดไม่หายควรรับไว้รักษาด้วย IV antibiotics ร่วมกับการดูแลประคับประคองทั้ง IV fluid, ยาลดไข้ และการพัก ตามแนวทาง IDSA/EAU · ลายมือติดดาวที่ b สอดคล้องว่ายาปฏิชีวนะสำคัญที่สุด · จุดกำกวม: \"bed rest\" ไม่ใช่การรักษาที่มีหลักฐานและโจทย์ไม่บอกภาวะขาดน้ำที่ทำให้ IV fluid จำเป็น ผู้ตอบที่ยึดหลักฐานอาจเลือก B · ควรเปลี่ยนคำถามเป็น \"most important treatment\" หรือใส่ \"vomiting, unable to eat\" เพื่อให้ E ถูกชัด",
+  "variants": [
+   "หญิง 28 ปี ไข้ 38.3 °C ปวดเอวขวา CVA tenderness รับประทานได้ ไม่อาเจียน ไม่ตั้งครรภ์ → การรักษา (คำตอบ: outpatient — ciprofloxacin 7 วัน ± ceftriaxone 1 g IV 1 ครั้งก่อน ส่ง urine culture)",
+   "หญิงตั้งครรภ์ 24 สัปดาห์ ไข้หนาวสั่น ปวดเอวซ้าย → การจัดการ (คำตอบ: admit, IV ceftriaxone, หลีกเลี่ยง FQ; หลังหายพิจารณา suppressive therapy ตลอดการตั้งครรภ์)",
+   "ชาย 55 ปี เบาหวาน ไข้สูง ปวดเอว ได้ยา 72 ชม. ไม่ดีขึ้น CT พบก๊าซในเนื้อไตซ้าย → การวินิจฉัยและการรักษา (คำตอบ: emphysematous pyelonephritis — IV antibiotics + percutaneous drainage; ไม่ดีขึ้นทำ nephrectomy)",
+   "หญิง 40 ปี ไข้สูง septic shock CT มีนิ่วอุดท่อไตขวาส่วนบนและ hydronephrosis → การรักษาเร่งด่วน (คำตอบ: decompression ด้วย ureteral stent หรือ percutaneous nephrostomy + IV antibiotics; รักษานิ่วภายหลัง)"
+  ],
+  "why": "หญิงสาวไข้สูงหนาวสั่น + CVA tenderness = acute pyelonephritis (คีย์ลายมือ) ที่มีอาการทั้งตัวและปวดมากจนยาแก้ปวดไม่หาย → ควรรับไว้รักษาและให้การดูแลครบ: <b>IV antibiotics</b> (สำคัญที่สุด — ลายมือติดดาว b) โดยส่ง UA + urine culture (± hemoculture) ก่อนให้ยา · IDSA 2025 complicated UTI guideline (รวม pyelonephritis): empiric IV เช่น ceftriaxone (บริบทไทยที่เชื้อดื้อ FQ/ESBL สูงใช้ ceftriaxone หรือ carbapenem ตามความเสี่ยง ESBL) · ไม่แนะนำ aminoglycoside เป็นยา empiric หลักแล้ว · เปลี่ยนเป็นยากินเมื่อดีขึ้น · ระยะเวลารวม: FQ 5–7 วัน หรือยาอื่น 7 วันเมื่อตอบสนองดี (รวมกรณี bacteremia) · ร่วมกับ IV fluid เมื่อไข้สูง อาเจียน ขาดน้ำ, antipyretic/analgesic และการพัก → ช้อยทั้งหมดเป็นส่วนหนึ่งของการดูแล = E"
+ },
+ "MDCU66|RoD|41": {
+  "trap": "กับดัก: (1) nitrite บวกมี specificity สูงจนดูเหมือนยืนยัน แต่เป็นแค่การคัดกรอง และลบได้ในเชื้อที่ไม่ reduce nitrate (Enterococcus, S. saprophyticus, Pseudomonas) หรือปัสสาวะค้างในกระเพาะไม่ถึง 4 ชม. (2) ตัวเลข 10⁵ CFU/mL เป็นเกณฑ์คลาสสิกจาก clean-catch และใช้นิยาม asymptomatic bacteriuria — ในหญิงที่มีอาการ cystitis ≥ 10³ ก็มีนัยสำคัญ, catheter specimen ที่มีอาการ (CAUTI) ≥ 10³, suprapubic aspiration เชื้อขึ้นเท่าใดก็ได้, เด็กเก็บจากสายสวน ≥ 50,000 (AAP) (3) culture ขึ้นเชื้อหลายชนิดจำนวนน้อยมักเป็นการปนเปื้อน",
+  "summary": [
+   "การวินิจฉัย UTI = อาการ + หลักฐานการอักเสบ (pyuria) + เชื้อ (culture) · culture ให้ทั้งการยืนยัน ชนิดเชื้อ และความไวต่อยา · ไม่จำเป็นต้องส่งใน uncomplicated cystitis ในหญิงที่อาการชัด แต่ต้องส่งใน pyelonephritis, complicated UTI, ชาย, ตั้งครรภ์, เป็นซ้ำ/ล้มเหลวจากการรักษา, ก่อนหัตถการทางระบบปัสสาวะ",
+   "เกณฑ์จำนวนเชื้อตามวิธีเก็บ: clean-catch midstream ≥ 10⁵ CFU/mL (คลาสสิก) · หญิงมีอาการ cystitis ≥ 10³ · catheter specimen มีอาการ ≥ 10³ · suprapubic aspiration ทุกจำนวน · เด็กจากสายสวน ≥ 50,000 + pyuria (AAP 2011) · การเก็บจากถุงปัสสาวะในเด็กใช้คัดกรองได้แต่ยืนยันไม่ได้",
+   "Dipstick: leukocyte esterase (sensitivity ~75–90%) + nitrite (specificity > 90% แต่ sensitivity ต่ำ) · ทั้งสองลบในผู้ป่วยความเสี่ยงต่ำช่วยตัด UTI ได้ดี · microscopy: pyuria ≥ 10 WBC/µL หรือ > 5–10/HPF, bacteria, WBC cast (pyelonephritis)",
+   "Asymptomatic bacteriuria (IDSA 2019): หญิง ≥ 10⁵ ของเชื้อเดียวกัน 2 ครั้ง · ชาย 1 ครั้ง · <b>ไม่ต้องรักษา</b> ในผู้สูงอายุ เบาหวาน ใส่สายสวน spinal cord injury · ต้องคัดกรองและรักษาเฉพาะหญิงตั้งครรภ์ และก่อนหัตถการทางระบบปัสสาวะที่มีเลือดออกเยื่อบุ (เช่น TURP)",
+   "Sterile pyuria (pyuria แต่ culture ปกติ): ได้ยาปฏิชีวนะมาก่อน, urethritis จาก chlamydia/gonorrhea, genitourinary TB, นิ่ว, interstitial nephritis, เนื้องอก, Kawasaki ในเด็ก, contamination จากช่องคลอด",
+   "การเก็บตัวอย่างที่ถูกต้อง: midstream clean-catch ส่งตรวจภายใน 1–2 ชม. หรือแช่เย็น (เชื้อเพิ่มจำนวนทำให้ผลบวกลวง) · ผู้ป่วยใส่สายสวนค้างนานให้เปลี่ยนสายก่อนเก็บ · เก็บก่อนให้ยาปฏิชีวนะเสมอ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ขีด C) ความมั่นใจสูง — urine culture ≥ 10⁵ CFU/mL เป็นเกณฑ์ยืนยันคลาสสิกตามตำราและ IDSA ส่วน pyuria, nitrite, leukocyte esterase และความขุ่นเป็นเพียงการคัดกรองทางอ้อม · จุดกำกวม: (1) เกณฑ์ 10⁵ เป็นเกณฑ์ของ asymptomatic bacteriuria — ในผู้ที่มีอาการใช้ค่าต่ำกว่าได้ ถ้าข้อสอบใหม่ถามหญิงที่มีอาการและ culture 10⁴ อย่าตัดว่าไม่ใช่ UTI (2) ไฟล์มี 3 ช้อย Claude เติม D–E · ควรเขียนช้อยให้ระบุวิธีเก็บ เช่น \"clean-catch midstream culture ≥ 10⁵ CFU/mL of a single organism\"",
+  "variants": [
+   "หญิง 25 ปี แสบขัดปัสสาวะบ่อย 2 วัน urine culture ขึ้น E. coli 10⁴ CFU/mL → แปลผลอย่างไร (คำตอบ: เข้ากับ acute cystitis — ในหญิงที่มีอาการ ≥ 10³ CFU/mL มีนัยสำคัญ)",
+   "ชาย 78 ปี ใส่สายสวนค้าง ไม่มีไข้ ไม่มีอาการ ปัสสาวะขุ่น culture ขึ้น Klebsiella 10⁵ → การจัดการ (คำตอบ: asymptomatic bacteriuria — ไม่ต้องให้ยาปฏิชีวนะ; ทบทวนความจำเป็นของสายสวน)",
+   "หญิงตั้งครรภ์ 12 สัปดาห์ ไม่มีอาการ urine culture คัดกรองขึ้น E. coli 10⁵ สองครั้ง → การจัดการ (คำตอบ: รักษาด้วยยาที่ปลอดภัย เช่น cephalexin/amoxicillin-clavulanate ตามผลความไว และตรวจซ้ำ)",
+   "ผู้ป่วยมี pyuria ต่อเนื่อง culture ปกติหลายครั้ง ไข้ต่ำ ๆ น้ำหนักลด มีประวัติวัณโรคปอด → การตรวจที่ต้องส่ง (คำตอบ: urine AFB/TB culture หรือ PCR ตอนเช้า 3 วัน — genitourinary TB)"
+  ]
+ },
+ "MDCU66|RoD|42": {
+  "interp": "ถามผู้ป่วยไฟไหม้ที่ต้อง<b>ส่งเข้า burn unit/burn center</b> · ต้องพิจารณาสามมิติ: (1) ความลึก — superficial (1st degree) ไม่นับ %TBSA, partial thickness, full thickness (3rd degree) (2) ขนาด %TBSA (3) ตำแหน่งพิเศษ — ใบหน้า มือ เท้า อวัยวะเพศ perineum ข้อใหญ่ · ช้อย A เป็นทั้ง full thickness และอยู่ที่ใบหน้า จึงเข้าเกณฑ์สองด้าน ส่วนช้อยอื่นตื้นหรือเล็กและไม่ใช่ตำแหน่งพิเศษ",
+  "why": "ตาม <b>ABA Guidelines for Burn Patient Referral (2022)</b> กลุ่มที่ต้อง<b>ปรึกษาทันทีและพิจารณาส่งต่อ</b> burn center ได้แก่: <b>full-thickness burn ทุกขนาด</b>, partial-thickness ≥ 10% TBSA, <b>deep partial หรือ full-thickness ที่ใบหน้า มือ อวัยวะเพศ เท้า perineum หรือเหนือข้อ</b>, high-voltage electrical (≥ 1,000 V) และฟ้าผ่า, chemical burn ทุกราย, inhalation injury, โรคร่วม/บาดเจ็บร่วม, ปวดคุมไม่ได้ · กลุ่ม \"แนะนำให้ปรึกษา\": partial thickness < 10% และแผลที่อาจลึกทุกขนาด, low-voltage electrical · ช้อย A เป็น <b>full thickness</b> และอยู่ที่<b>ใบหน้า</b> จึงเข้าเกณฑ์ส่งต่อทันทีทั้งสองข้อ (คีย์ขีด A) — ต้อง early excision + skin graft, ประเมิน airway/inhalation injury, ดูแลตา หู ปาก และผลด้านการทำงาน/ความงามระยะยาว · ช้อยอื่นเป็นแผลตื้น (1st degree และ sunburn ไม่นับ %TBSA) หรือ partial thickness เล็กนอกตำแหน่งพิเศษ ซึ่งดูแลแบบผู้ป่วยนอกได้",
+  "wrong": {
+   "B": "First-degree (superficial) burn มีแค่ผิวแดงเจ็บ ไม่มีตุ่มพอง <b>ไม่นับใน %TBSA</b> หายเองใน 3–7 วันโดยไม่เป็นแผลเป็น จึงไม่ต้องส่ง burn unit แม้กินพื้นที่ 10% · จะถูกถ้าแผลที่หลังเป็น partial thickness (มีตุ่มพอง ฐานแดงชื้น) กว้าง ≥ 10% TBSA ซึ่งเข้าเกณฑ์ ABA 2022 ต้องปรึกษาและพิจารณาส่งต่อ",
+   "C": "Second-degree burn 2% ที่แขนท่อนล่างเป็นแผลขนาดเล็ก ไม่ใช่ตำแหน่งพิเศษ ไม่รอบแขน ดูแลแผลแบบผู้ป่วยนอกด้วย dressing และนัดดูแผลได้ · จะถูกถ้าแผล deep partial thickness นี้อยู่ที่<b>มือ</b>หรือข้อศอก/ข้อมือ หรือไหม้รอบแขน (circumferential) จนเสี่ยง compartment syndrome ซึ่งต้องส่ง burn center",
+   "D": "Sunburn ที่ไหล่ส่วนใหญ่เป็น superficial burn รักษาด้วยยาแก้ปวด ครีมให้ความชุ่มชื้น หลบแดด · จะถูกถ้าเป็น sunburn กว้างหลายส่วนของร่างกายที่มีตุ่มพองจำนวนมาก (partial thickness ≥ 10% TBSA) ร่วมกับขาดน้ำหรือ heat illness ซึ่งต้องรับไว้ในโรงพยาบาล",
+   "E": "Superficial burn 3% ที่ต้นขาไม่นับ %TBSA และหายเองได้ จึงไม่ต้องส่ง burn unit · จะถูกถ้าแผลลึกถึง full thickness (ผิวขาวซีดหรือน้ำตาลแข็ง ไม่เจ็บ กดไม่ซีด) ไม่ว่าขนาดเท่าใด หรือลามถึงอวัยวะเพศ/perineum ซึ่งเข้าเกณฑ์ส่งต่อ"
+  },
+  "summary": [
+   "ความลึกของแผลไหม้: superficial (epidermis — แดง เจ็บ ไม่มีตุ่มพอง หาย 3–7 วัน) · superficial partial (ตุ่มพอง ฐานแดงชื้น เจ็บมาก กดซีด หาย 2–3 สัปดาห์) · deep partial (ซีดกว่า กดซีดช้า ความรู้สึกลด > 3 สัปดาห์ มักต้อง graft) · full thickness (ขาว/น้ำตาลแข็งเหมือนหนัง ไม่เจ็บ ไม่หายเอง ต้อง excision + graft)",
+   "การประเมิน %TBSA: Rule of nines ในผู้ใหญ่ (ศีรษะ 9, แขนข้างละ 9, ขาข้างละ 18, ลำตัวหน้า 18 หลัง 18, perineum 1) · Lund-Browder chart แม่นยำกว่าโดยเฉพาะเด็ก (ศีรษะใหญ่ขาเล็ก) · ฝ่ามือผู้ป่วยรวมนิ้ว ≈ 1% · ไม่นับ superficial burn",
+   "เทียบเกณฑ์ส่งต่อแต่ละระบบ: ABA 2022 (สหรัฐฯ) แบ่งเป็น \"ปรึกษาทันที + พิจารณาส่งต่อ\" กับ \"แนะนำให้ปรึกษา\" และเน้น telemedicine ให้ burn center ช่วยตัดสินใจ · EMSB/ANZBA (ออสเตรเลีย–นิวซีแลนด์) ใช้ burn > 10% TBSA ในผู้ใหญ่ (> 5% ในเด็ก; นับทุกความลึกยกเว้น superficial) และ full thickness > 5% · แผลไฟฟ้าแรงดันต่ำ (< 1,000 V) ให้ปรึกษาและนัดติดตามเรื่องอาการล่าช้า/ต้อกระจก",
+   "Facial burn: ประเมิน airway ก่อนเสมอ (ขนจมูก/คิ้วไหม้, เขม่าในปาก, เสียงแหบ, stridor) — ใส่ท่อช่วยหายใจเร็วถ้ามีสัญญาณ · ตรวจกระจกตาด้วย fluorescein · ไหม้ที่หูระวัง chondritis (ยาทาที่เข้ากระดูกอ่อนได้ เช่น mafenide, เลี่ยงหมอนกดทับ) · ไหม้ลึกที่เปลือกตาเสี่ยง ectropion",
+   "การดูแลแผลเล็กแบบผู้ป่วยนอก: ล้างด้วยน้ำสะอาด/น้ำเกลือ, ทำลายตุ่มพองใหญ่หรือที่แตกแล้ว, dressing ที่ให้ความชุ่มชื้น (silver dressing, hydrocolloid, petrolatum gauze), ยาแก้ปวด, tetanus prophylaxis, นัดดูแผล 48–72 ชม. · ไม่ให้ยาปฏิชีวนะป้องกัน",
+   "Full-thickness burn: early excision ภายใน 3–7 วัน + split-thickness skin graft (ใบหน้า/มือใช้ sheet graft หรือ full-thickness graft เพื่อความงามและลดการหดรั้ง) · circumferential full thickness ที่แขนขา/ลำตัว → escharotomy เมื่อเลือดไหลเวียนส่วนปลายลดหรือหายใจลำบาก"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ขีด A) ความมั่นใจสูง — full-thickness burn ที่ใบหน้าเข้าเกณฑ์ส่ง burn center ตาม ABA 2022 ทั้งด้านความลึก (full thickness ทุกขนาด) และตำแหน่ง (deep burn ที่ใบหน้า) · ช้อยอื่นเป็นแผลตื้นที่ไม่นับ %TBSA หรือ partial thickness เล็กนอกตำแหน่งพิเศษ · จุดกำกวม: (1) ไฟล์มีช้อยเดียว Claude เติม B–E ทั้งหมด (2) \"5% of face\" กำกวมว่าเป็น 5% TBSA หรือ 5% ของพื้นที่หน้า แต่ไม่เปลี่ยนคำตอบเพราะ full thickness ส่งทุกขนาด · ควรเขียนเป็น \"full-thickness burn involving the face\"",
+  "variants": [
+   "ชาย 40 ปี น้ำร้อนลวกที่หน้าอกและท้อง มีตุ่มพอง ฐานแดงชื้น ประเมินได้ 12% TBSA → ต้องส่ง burn center หรือไม่ (คำตอบ: ต้องปรึกษาทันทีและพิจารณาส่งต่อ — partial thickness ≥ 10% TBSA ตาม ABA 2022)",
+   "ช่างไฟฟ้าถูกไฟฟ้าแรงสูง มีแผลเข้าที่มือขวาและแผลออกที่เท้า แผลผิวหนังเล็กมาก → การจัดการ (คำตอบ: ส่ง burn center ทุกราย, ECG/cardiac monitoring, ตรวจ CK/myoglobinuria, ระวัง compartment syndrome; ใช้สูตรสารน้ำ 4 mL/kg/%TBSA)",
+   "เด็ก 3 ปี น้ำร้อนลวกที่ก้นและฝ่าเท้าทั้งสองข้างเป็นขอบเขตชัดเรียบเหมือนถุงเท้า ประวัติไม่สอดคล้อง → สิ่งที่ต้องคิดและทำ (คำตอบ: สงสัยการทารุณกรรม (immersion burn) — รับไว้, ส่ง burn center และแจ้งทีมคุ้มครองเด็ก)",
+   "หญิง 30 ปี ไฟไหม้ full thickness รอบแขนขวาทั้งท่อน 6 ชม.ต่อมามือเย็น capillary refill ช้า → การรักษาเร่งด่วน (คำตอบ: escharotomy ตามแนว mid-medial/mid-lateral ของแขน)"
+  ],
+  "trap": "กับดัก: (1) เลือก B เพราะเห็นตัวเลข 10% แล้วนับ first-degree burn เข้าไปใน %TBSA จนคิดว่าเข้าเกณฑ์ partial thickness ≥ 10% — superficial burn ไม่นับ TBSA (2) มองว่า \"5%\" ในช้อย A เป็นแผลเล็กกว่า 10% จึงไม่ต้องส่ง — แต่ ABA ส่งต่อ full thickness <b>ทุกขนาด</b> และแผลลึกที่ใบหน้าเป็นตำแหน่งพิเศษ (3) เลือก C เพราะเห็นว่าเป็น second-degree จึงคิดว่าลึกกว่าช้อยอื่น — แต่ partial thickness 2% ที่แขนท่อนล่างเล็กและไม่ใช่ตำแหน่งพิเศษ · ⚠ เกณฑ์ ≥ 5% full thickness เป็นของ EMSB/ANZBA ไม่ใช่ ABA"
+ }
+}
