@@ -1,0 +1,279 @@
+{
+ "MDCU76|RoA|47": {
+  "interp": "คนอายุ 25 ปีมี adenomatous polyp หลายร้อยก้อนทั่วลำไส้ใหญ่ = familial adenomatous polyposis (FAP) โรคพันธุกรรม autosomal dominant · โจทย์ถาม \"คำแนะนำที่สำคัญที่สุด\" — ต้องมองไปถึงญาติสายตรงที่มีโอกาสได้ยีนเดียวกัน 50% ไม่ใช่แค่ตัวผู้ป่วย",
+  "why": "FAP เกิดจาก germline APC mutation (5q21) ถ่ายทอดแบบ autosomal dominant penetrance เกือบ 100% → ถ้าไม่ผ่าตัดเป็นมะเร็งลำไส้ใหญ่เกือบทุกราย (อายุเฉลี่ยราว 39 ปี) · ญาติสายตรง (พ่อแม่ พี่น้อง ลูก) มีโอกาสได้ยีนนี้ 50% → genetic counseling แล้วตรวจ APC ในผู้ป่วยก่อน เมื่อรู้ตำแหน่ง mutation จึงตรวจเฉพาะจุดนั้นในญาติ (cascade testing) · ญาติที่เป็นพาหะหรือยังไม่ได้ตรวจยีนต้องส่องกล้องทุกปีตั้งแต่อายุ 10–15 ปี (NCCN) เพื่อผ่าตัดก่อนเป็นมะเร็ง ส่วนญาติที่ผลลบคัดกรองแบบคนทั่วไป · ตัวผู้ป่วยต้องวางแผน prophylactic colectomy อยู่แล้ว แต่คำแนะนำที่ป้องกันมะเร็งได้ทั้งครอบครัวคือการตรวจยีนญาติ จึงสำคัญที่สุดในบรรดาช้อย",
+  "wrong": {
+   "B": "Colonoscopy ซ้ำใน 10 ปีเป็น interval ของคน average risk ที่ส่องแล้วปกติ — ใน FAP ผู้ป่วยต้องวางแผน colectomy และระหว่างนั้นต้องส่องทุกปี การรอ 10 ปีคือปล่อยให้เป็นมะเร็ง; จะถูกถ้าเป็นคนอายุ 50 ปี average risk ที่ส่อง colonoscopy คัดกรองแล้วปกติ",
+   "C": "การดูแลจิตใจเป็นส่วนหนึ่งของ genetic counseling เพราะผลตรวจยีนกระทบทั้งครอบครัว แต่ไม่ได้ป้องกันมะเร็งในผู้ป่วยหรือญาติ; จะถูก (เป็นเรื่องที่ต้องทำก่อน) ถ้าญาติที่ผลตรวจเป็นพาหะมีภาวะซึมเศร้าหรือวิตกกังวลรุนแรงจนปฏิเสธการส่องกล้องและการผ่าตัด",
+   "D": "อาหารกากน้อยไม่มีหลักฐานว่าลดจำนวน polyp หรือมะเร็งใน FAP; จะถูกถ้าผู้ป่วยมีลำไส้ตีบ (เช่น stricture จาก Crohn หรือหลังผ่าตัด) ที่ต้องลดกากเพื่อกันอุดตัน หรือเป็นช่วงเตรียมลำไส้ก่อนส่องกล้อง",
+   "E": "Aspirin/NSAID ลดจำนวน polyp ได้บ้างแต่ไม่ได้ป้องกันมะเร็งใน FAP และใช้แทน colectomy ไม่ได้; จะถูกถ้าเป็นผู้ป่วย Lynch syndrome ที่ถามยาป้องกันมะเร็งลำไส้ (CAPP2: aspirin ลดมะเร็งลำไส้ในระยะยาว)"
+  },
+  "trap": "มองแค่ตัวผู้ป่วยแล้วเลือกส่องกล้องติดตามหรือยาป้องกันเหมือน sporadic adenoma — polyp หลายร้อยก้อนในคนอายุ 25 คือโรคพันธุกรรม คำแนะนำที่ขาดไม่ได้คือ counseling และตรวจยีนญาติสายตรง ซึ่งยังไม่มีอาการแต่มีโอกาสเป็น 50%",
+  "summary": [
+   "Classic FAP: adenoma ≥100 (มักหลายร้อยถึงหลายพัน) เริ่มวัยรุ่น; APC gene autosomal dominant ราว 1 ใน 4 เป็น de novo; CRC เกือบ 100% อายุเฉลี่ยราว 39 ปีถ้าไม่ผ่าตัด; attenuated FAP มี 10–99 ก้อน มักอยู่ด้านขวาและอายุมากกว่า",
+   "Polyposis ที่ adenoma สะสม ≥ 10 ก้อน → genetic counseling + multigene panel (APC และ MUTYH ซึ่งเป็น autosomal recessive มี 10–100 ก้อน)",
+   "ญาติ: ตรวจ APC mutation ที่รู้แล้วในครอบครัว · พาหะหรือยังไม่ได้ตรวจ → colonoscopy ทุกปี เริ่มอายุ 10–15 ปี (NCCN) · ผลลบ → คัดกรองแบบ average risk",
+   "ผ่าตัด: total proctocolectomy with IPAA (rectum มี polyp มาก) หรือ total colectomy with ileorectal anastomosis (rectal polyp น้อย ต้องส่องติดตาม rectum ทุก 6–12 เดือน); มักทำช่วงปลายวัยรุ่นถึงต้นวัย 20 หรือเร็วกว่าถ้ามี high-grade dysplasia",
+   "Extracolonic: duodenal และ periampullary adenoma (ส่องกล้อง side-viewing เริ่มอายุ 20–25 ปี จัด Spigelman stage), desmoid tumor (สาเหตุตายสำคัญหลัง colectomy), fundic gland polyps, papillary thyroid CA (cribriform-morular variant), hepatoblastoma ในเด็ก, CHRPE; Gardner = + osteoma และ epidermoid cyst; Turcot = + medulloblastoma"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key AC GenSx 76A) มั่นใจสูงในบริบท FAP — ต้นฉบับบอกแค่ 'adenomatous polyp' ซึ่งถ้าเป็น adenoma 1–2 ก้อนในคนทั่วไป คำตอบจะเป็น polypectomy + ส่องติดตามตาม interval ไม่ใช่ตรวจยีนครอบครัว จึงเติมอายุ 25 ปีและ polyp หลายร้อยก้อนตามที่รุ่นพี่เขียนว่า FAP; ช้อย B ต้นฉบับ 'Discuss' ไม่ชัด จึงแปลงเป็น interval ของ average risk",
+  "variants": [
+   "ลูกอายุ 12 ปีของผู้ป่วย FAP ที่รู้ APC mutation แล้ว ตรวจพบ mutation เดียวกัน → colonoscopy ทุกปีเริ่มตอนนี้ แล้ววางแผน colectomy ตามจำนวน/ขนาด polyp",
+   "ผู้ป่วย FAP หลัง total colectomy + IRA 3 ปี คลำได้ก้อนแข็งในผนังหน้าท้อง โตช้า → desmoid tumor (สาเหตุตายสำคัญหลัง colectomy)",
+   "ผู้ป่วย FAP อายุ 25 ปี นอกจากลำไส้ใหญ่ต้องส่องอะไร → upper endoscopy แบบ side-viewing ดู duodenal/periampullary adenoma (จัด Spigelman stage)"
+  ]
+ },
+ "MDCU76|RoA|71": {
+  "interp": "Sigmoid diverticulitis มี pericolic abscess 4 cm (Hinchey I) ผู้ป่วย stable ไม่มี generalized peritonitis → ถามขั้นต่อไป: ขนาดฝีเป็นตัวตัดสินว่าให้ยาอย่างเดียวหรือต้องระบาย ส่วนการผ่าตัดเก็บไว้เมื่อมี peritonitis หรือรักษาแบบไม่ผ่าตัดล้มเหลว",
+  "wrong": {
+   "A": "Sigmoidectomy with primary anastomosis (± diverting ileostomy) ใช้ในผ่าตัดฉุกเฉินเมื่อมี peritonitis ในผู้ป่วยที่สภาพดี หรือผ่าตัด elective หลังฝีหาย — ไม่ใช่ขั้นแรกของฝีที่ระบายผ่านผิวหนังได้; จะถูกถ้ามี generalized purulent peritonitis (Hinchey III) แต่สัญญาณชีพคงที่ ไม่มีโรคร่วมรุนแรง",
+   "B": "Hartmann procedure (sigmoidectomy + end colostomy) ใช้ในผู้ป่วยหนัก ไม่คงที่ ภูมิคุ้มกันต่ำ หรือ feculent peritonitis; จะถูกถ้าผู้ป่วยมี free air + feculent peritonitis + shock (Hinchey IV)",
+   "C": "IV antibiotics อย่างเดียว (คีย์เดิม) เหมาะกับฝีเล็ก (< 3 cm ตาม ASCRS; WSES 2020 ใช้จุดตัด 4–5 cm) หรือฝีที่อยู่ในตำแหน่งที่เข็มเข้าไม่ได้; จะถูกถ้าฝีรอบลำไส้ขนาด 2 cm หรือมีแค่ลมเล็กน้อยรอบลำไส้",
+   "E": "Diverting loop colostomy ไม่ได้เอา source of sepsis (ลำไส้ส่วนที่อักเสบ) ออก — เป็นขั้นแรกของ 3-stage operation ในอดีต ปัจจุบันไม่ใช้รักษา diverticulitis; จะถูกถ้าเป็นมะเร็ง sigmoid อุดตันในผู้ป่วยที่ไม่พร้อมผ่าตัดใหญ่ ต้องเบี่ยงอุจจาระชั่วคราว"
+  },
+  "summary": [
+   "Hinchey: I pericolic abscess, II pelvic/distant abscess, III generalized purulent peritonitis, IV feculent peritonitis",
+   "Abscess &lt; 3 cm → IV antibiotics; ≥ 3 cm → percutaneous drainage + antibiotics (ASCRS 2020); WSES 2020 ใช้ 4–5 cm",
+   "PCD ล้มเหลว (ไข้ไม่ลง ฝีไม่ยุบใน 48–72 ชม. หลังเช็คตำแหน่งสาย) หรือฝีที่เข็มเข้าไม่ได้และไม่ตอบสนองต่อยา → ผ่าตัด resection ± stoma",
+   "Generalized peritonitis: Hinchey III stable → resection + primary anastomosis ± diverting ileostomy หรือ Hartmann; Hinchey IV/unstable → Hartmann procedure (laparoscopic lavage ไม่แนะนำเป็นมาตรฐาน)",
+   "หลังหายจาก complicated diverticulitis → colonoscopy (exclude มะเร็ง) ราว 6–8 สัปดาห์; พิจารณา elective sigmoidectomy โดยเฉพาะหลัง abscess"
+  ],
+  "variants": [
+   "ใส่ PCD ระบายฝี 5 cm ได้ 3 วัน ไข้ยังสูง CT ฝียังโตเท่าเดิม ไม่มี peritonitis → ตรวจ/ปรับสายระบาย ถ้ายังล้มเหลว → sigmoidectomy",
+   "ฝี 6 cm อยู่ลึกใน pelvis มีลำไส้เล็กบัง เข็มเข้าไม่ได้ ผู้ป่วย stable → IV antibiotics ก่อน ถ้าไม่ดีขึ้น → ผ่าตัด",
+   "6 สัปดาห์หลังฝีหาย ผู้ป่วยอายุ 55 ปีไม่เคยส่องกล้อง → colonoscopy เพื่อแยกมะเร็ง แล้วคุยเรื่อง elective sigmoidectomy"
+  ]
+ },
+ "MDCU76|RoD|45@p10": {
+  "why": "Diverticulosis พบมากขึ้นตามอายุ (ราวครึ่งหนึ่งของคนอายุ 60 ปีขึ้นไปในตะวันตก) และอยู่ที่ sigmoid มากที่สุดเพราะเป็นส่วนที่แคบและความดันในลำไส้สูง → diverticulum อุดตันแล้วเกิด micro-perforation → peridiverticular inflammation · อาการ: ปวด LLQ ต่อเนื่องหลายวัน ไข้ต่ำ กดเจ็บเฉพาะที่ ± คลำได้ก้อน การขับถ่ายเปลี่ยน WBC/CRP สูง — จึงได้ชื่อว่า \"left-sided appendicitis\" · ยืนยันและแบ่ง uncomplicated/complicated ด้วย CT abdomen with IV contrast (ผนังหนา fat stranding ดู abscess/free air) · ในบรรดาช้อย มีแค่ diverticulitis ที่อธิบายได้ทั้งอายุ ตำแหน่ง และไข้",
+  "summary": [
+   "Diverticulum ของลำไส้ใหญ่เป็น false (pulsion) diverticulum — mucosa/submucosa ดันผ่านจุดอ่อนที่ vasa recta ทะลุผนัง · ปัจจัยเสี่ยง: อายุ อาหารกากน้อย อ้วน สูบบุหรี่ NSAID",
+   "Sigmoid diverticulitis: ปวด LLQ ไข้ กดเจ็บเฉพาะที่ ± ก้อน WBC/CRP สูง · ภาวะแทรกซ้อน: abscess, perforation/peritonitis, fistula (colovesical พบบ่อยสุด → pneumaturia, fecaluria), stricture/obstruction",
+   "CT abdomen with IV contrast (ไวและจำเพาะ > 90%) = การตรวจหลัก ใช้ยืนยันและแบ่ง uncomplicated/complicated · ไม่ส่องกล้องหรือสวนแป้งในช่วงอักเสบเฉียบพลัน (เสี่ยงทะลุ)",
+   "โรคที่ต้องแยกเมื่อปวด LLQ ในผู้สูงอายุ: colon cancer ที่ทะลุ/อุดตัน, ischemic colitis (ปวดเฉียบพลัน + ถ่ายเป็นเลือด), ureteric colic, incarcerated hernia, โรคของรังไข่ในผู้หญิง",
+   "หลังหายจาก complicated diverticulitis หรือยังไม่เคยส่องกล้อง → colonoscopy ราว 6–8 สัปดาห์เพื่อแยกมะเร็ง · การรักษาตามความรุนแรง (Hinchey, ขนาดฝี) ดูข้อ RoD 16 และ RoA 71 ของชุดนี้"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76D) มั่นใจปานกลางถึงสูง — ต้นฉบับมีแค่ \"ยายปวด Lt. iliac fossa\" และจดช้อยมาช้อยเดียว เราเติมไข้ต่ำและกดเจ็บเฉพาะที่ และแต่ง B–E เอง; ในภาพนี้ diverticulitis เป็นอันดับแรก แต่ถ้าโจทย์จริงมีน้ำหนักลดหรือซีด ต้องคิดถึง colon cancer ร่วมด้วย",
+  "variants": [
+   "หญิง 75 ปี มีโรคหัวใจ ปวด LLQ เฉียบพลันหลังความดันต่ำ ตามด้วยถ่ายเป็นเลือดปนมูก → ischemic colitis → CT แล้ว colonoscopy",
+   "ชาย 65 ปีเคยเป็น diverticulitis ปัสสาวะมีลมและเศษอุจจาระ → colovesical fistula → CT แล้วผ่าตัด sigmoid resection + ซ่อม bladder",
+   "ชาย 70 ปี ปวด LLQ ไข้ ร่วมน้ำหนักลด ซีด CT ผนัง sigmoid หนาเป็นช่วงสั้นมีต่อมน้ำเหลืองโต → สงสัยมะเร็ง sigmoid ที่ทะลุ → colonoscopy + biopsy เมื่ออาการสงบ"
+  ]
+ },
+ "MDCU76|RoD|54@p11#1": {
+  "interp": "ชายปวดรอบทวารเฉียบพลัน 2 วัน + ก้อนกดเจ็บ fluctuant ข้างทวารด้านซ้าย = perianal abscess (ชนิดตื้นที่พบบ่อยที่สุด) → ถามการรักษาหลัก: หนองที่เป็นโพรงต้องระบาย ยาหรือการรอไม่พอ",
+  "wrong": {
+   "A": "Excisional biopsy ใช้กับก้อนที่สงสัยเนื้องอก — ก้อน fluctuant กดเจ็บเฉียบพลันคือหนอง การตัดทั้งก้อนผิดหลักและทำแผลใหญ่เกินจำเป็น; จะถูกถ้าเป็นก้อนรอบทวารขนาดเล็ก แข็ง ไม่เจ็บ โตช้า สงสัยเนื้องอก (เช่น anal margin SCC < 2 cm ที่ตัดได้ทั้งก้อน)",
+   "C": "Antibiotics อย่างเดียวไม่พอเพราะยาเข้าโพรงหนองไม่ได้ — ต้องระบายก่อน ยาเป็นแค่ส่วนเสริมในกลุ่มเสี่ยง; จะถูกถ้ามีแค่ cellulitis รอบทวารโดยไม่มีโพรงหนอง (ไม่ fluctuant และ US ไม่พบ collection)",
+   "D": "Sitz bath ช่วยบรรเทาหลังระบายหนอง แต่การรอสังเกตทำให้หนองลามไป ischiorectal/supralevator space หรือเกิด necrotizing infection โดยเฉพาะผู้ป่วยเบาหวาน; จะถูกถ้าเป็น thrombosed external hemorrhoid ที่มาหลัง 72 ชม. ซึ่งอาการปวดกำลังลดลง",
+   "E": "Primary fistulotomy ไม่ใช่การรักษาประจำของฝี — การค้นหา internal opening แรง ๆ ในภาวะอักเสบเสี่ยงทำทางปลอมและทำลายหูรูด; จะถูกถ้าระหว่างระบายหนองพบ internal opening ชัดเจนของ simple low fistula (subcutaneous/low intersphincteric) โดยศัลยแพทย์ที่ชำนาญ ในผู้ป่วยหูรูดดี"
+  },
+  "trap": "รอให้ก้อนนิ่มหรือให้ยาไปก่อนเพราะคิดว่าเป็นแค่การอักเสบ — ก้อน fluctuant คือมีโพรงหนองแล้ว ต้องระบายวันนั้น และถ้าปวดมาก มีไข้ แต่ไม่เห็นก้อนภายนอก อย่าสรุปว่าไม่มีฝี (อาจเป็นฝีลึก)",
+  "summary": [
+   "Cryptoglandular theory: anal gland ที่ dentate line อุดตัน → abscess → ราว 1/3 กลายเป็น fistula-in-ano",
+   "ชนิดตามตำแหน่ง: perianal (พบบ่อยสุด), ischiorectal, intersphincteric, supralevator; ส่วนลึกอาจคลำได้ทาง DRE หรือต้องใช้ CT/MRI/EUS",
+   "รักษา: I&D ทันที ผ่าใกล้ขอบทวาร; ischiorectal/ลึก ทำใน OR; supralevator ต้องดูต้นกำเนิดก่อนว่าระบายทางไหน",
+   "Antibiotics เสริมเมื่อ: cellulitis ลุกลาม, systemic sepsis, immunosuppression, DM, prosthetic valve/joint",
+   "อาการปวดทวารรุนแรงไม่มีก้อนภายนอก + ไข้ → นึกถึง intersphincteric/supralevator abscess → EUA/imaging",
+   "หลัง I&D: ไม่ต้อง pack แน่น (packing ไม่ลดการกลับเป็นซ้ำแต่ปวดมากขึ้น) · sitz bath ยาระบาย ยาแก้ปวด · มีหนองซึมเรื้อรังหรือกลับเป็นซ้ำ → นึกถึง fistula-in-ano หรือ Crohn disease"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 76D) มั่นใจสูง — anorectal abscess ต้อง I&D ทันที ยาอย่างเดียวไม่พอ (ASCRS 2022) ส่วน primary fistulotomy ทำได้เฉพาะเมื่อเห็น simple low fistula ชัดระหว่างระบาย ไม่ใช่ทำเป็นประจำเพราะเสี่ยงกลั้นอุจจาระไม่อยู่",
+  "variants": [
+   "ชายเบาหวานปวดทวารมาก มีไข้ ไม่มีก้อนภายนอก DRE กดเจ็บเหนือ anorectal ring → supralevator/intersphincteric abscess → CT/MRI + drainage",
+   "ผู้ป่วย neutropenia หลังเคมีบำบัด ปวดรอบทวาร กดเจ็บแต่ไม่ fluctuant → broad-spectrum antibiotics + imaging หา collection แล้วระบายเมื่อพบโพรงหนอง",
+   "ผู้ป่วย DM perianal abscess ลุกลามเป็นผิวหนังดำ crepitus ที่ perineum → Fournier gangrene → radical debridement"
+  ]
+ },
+ "MDCU76|RoA|1": {
+  "interp": "หลัง TURBT พยาธิพบ urothelial carcinoma ลุก lamina propria แต่ไม่ถึง muscularis propria = pT1 → ยังเป็น non-muscle invasive bladder cancer (NMIBC) แต่จัดเป็น high risk · ถามการรักษาเสริมหลัง TURBT ไม่ใช่การผ่าตัดเอากระเพาะปัสสาวะออก",
+  "why": "เส้นแบ่งของมะเร็งกระเพาะปัสสาวะคือ muscularis propria (detrusor): Ta/T1/CIS = NMIBC ส่วน ≥ T2 = MIBC · T1 มักเป็น high grade กลับเป็นซ้ำบ่อยและลุกลามเป็น MIBC ได้ → จัดเป็น high-risk NMIBC (AUA/EAU) · แนวทาง: re-TURBT ใน 2–6 สัปดาห์ (T1 มักมีเนื้องอกหลงเหลือหรือ understage) แล้วให้ intravesical BCG — induction สัปดาห์ละครั้ง 6 ครั้ง เริ่มหลัง TURBT ราว 2–4 สัปดาห์ ตามด้วย maintenance 1–3 ปี · BCG เป็นภูมิคุ้มกันบำบัดที่ลดทั้ง recurrence และ progression ได้ดีกว่า intravesical chemotherapy จึงเป็นมาตรฐานของ high-risk NMIBC ที่ยังเก็บกระเพาะปัสสาวะไว้ได้",
+  "wrong": {
+   "A": "Observation อย่างเดียวไม่เหมาะกับ T1 ซึ่งกลับเป็นซ้ำและลุกลามเป็น MIBC ได้สูงถ้าไม่ได้ยาเสริม; จะถูกถ้าผลพยาธิเป็น inverted papilloma (เนื้องอกไม่ร้าย) ที่ตัดออกหมดแล้ว",
+   "B": "Cystoscopy ที่ 3 เดือนต้องทำทุกราย (ที่ resident ไฮไลต์) แต่เป็นการติดตามที่ทำคู่กับ BCG ไม่ใช่การรักษาแทน; จะถูกถ้าเป็น low-risk NMIBC (Ta low grade ก้อนเดียว < 3 cm) ที่ตัดหมดและได้ single immediate intravesical chemotherapy แล้ว",
+   "D": "PET-CT ไม่ใช่ staging มาตรฐานของ NMIBC — สิ่งที่ต้องตรวจเพิ่มคือ upper tract ด้วย CT urography; จะถูกถ้าเป็น MIBC (≥ T2) ที่ CT สงสัยต่อมน้ำเหลืองหรือการแพร่กระจาย และต้องการข้อมูลก่อนตัดสินใจ cystectomy",
+   "E": "Radical cystectomy ใช้ใน MIBC หรือ NMIBC ความเสี่ยงสูงมาก — ยังไม่ใช่ขั้นแรกของ T1 ทั่วไปที่เก็บกระเพาะปัสสาวะได้; จะถูกถ้า T1 high grade กลับเป็นซ้ำหลังได้ BCG ครบ (BCG-unresponsive) หรือ T1 ร่วมกับ CIS, lymphovascular invasion หรือ variant histology"
+  },
+  "trap": "คำว่า \"invading\" ชวนให้คิดว่าเป็น invasive แล้วตอบ cystectomy — เส้นแบ่ง MIBC คือ muscularis propria ไม่ใช่ lamina propria · อีกกับดักคือนัดส่องกล้อง 3 เดือน (ที่ resident ไฮไลต์) ซึ่งต้องทำจริงแต่ไม่ครบ T1 ต้องได้ BCG",
+  "summary": [
+   "TNM: Ta papillary ไม่ลุก · Tis (CIS) flat high grade · T1 ลุก lamina propria · T2 ลุก muscularis propria · T3 perivesical fat · T4 อวัยวะข้างเคียง — Ta/T1/CIS = NMIBC (ราว 75% ของผู้ป่วยใหม่)",
+   "Risk ย่อ: low = Ta low grade ก้อนเดียว < 3 cm · intermediate = ระหว่างกลาง (เช่น Ta low grade หลายก้อนหรือกลับเป็นซ้ำ) · high = T1 high grade, CIS, Ta high grade ที่ก้อนใหญ่/หลายก้อน · very high = T1 HG ร่วม CIS, LVI, variant histology",
+   "การรักษาหลัง TURBT ตาม risk: low → single immediate intravesical chemotherapy (mitomycin C/gemcitabine ภายใน 24 ชม.) · intermediate → chemotherapy หรือ BCG induction ± maintenance 1 ปี · high → BCG induction + maintenance 1–3 ปี",
+   "re-TURBT 2–6 สัปดาห์: T1 ทุกราย หรือชิ้นเนื้อไม่มี detrusor muscle (ยกเว้น Ta low grade/CIS เดี่ยว)",
+   "BCG ข้อห้ามเด็ดขาด: ภายใน 2 สัปดาห์หลัง TURBT, gross hematuria, traumatic catheterization, UTI มีอาการ · ภูมิคุ้มกันบกพร่องเป็นข้อห้ามสัมพัทธ์ · BCG-unresponsive high risk → radical cystectomy (ผู้ไม่ผ่าตัดมียาทางเลือก เช่น pembrolizumab)",
+   "ติดตาม: cystoscopy ที่ 3 เดือนทุกราย แล้วถี่ตาม risk · high risk ตรวจ upper tract เป็นระยะ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76A) มั่นใจสูง — pT1 เป็น high-risk NMIBC มาตรฐานคือ re-TURBT แล้ว BCG; ช้อย B ที่ resident ไฮไลต์ว่า \"ไม่เคยมี staging แต่ f/u 3 mo\" ถูกในแง่ว่าต้องส่องกล้องที่ 3 เดือนจริง แต่เป็นการติดตามคู่กับ BCG · ข้อนี้ไม่มีช้อย re-TURBT ถ้ามีควรเลือกเป็นขั้นแรกก่อน BCG",
+  "variants": [
+   "TURBT พบ T1 high grade แต่ชิ้นเนื้อไม่มี detrusor muscle → re-TURBT ใน 2–6 สัปดาห์ก่อนให้ BCG",
+   "ระหว่างนัดใส่ BCG ครั้งที่ 3 ผู้ป่วยมีไข้ ปัสสาวะแสบขัด → งดใส่ BCG รักษา UTI ก่อน (UTI ที่มีอาการเป็นข้อห้ามเด็ดขาด)",
+   "TURBT พบ urothelial carcinoma ลุกถึง detrusor (T2) ไม่มีต่อมน้ำเหลืองหรือแพร่กระจาย → neoadjuvant cisplatin-based chemotherapy + radical cystectomy"
+  ]
+ },
+ "MDCU76|RoA|2": {
+  "interp": "Penile SCC well-differentiated pT2N0M0 (T2 = ลุก corpus spongiosum) ที่กินทั้ง glans และ shaft ลามมาถึง 3 cm จาก mons pubis → ถามการผ่าตัดก้อนหลัก: ตัวตัดสินคือความยาวตอที่เหลือหลังเว้นขอบ ไม่ใช่ grade หรือ N",
+  "why": "หลักผ่าตัด penile SCC: ตัดให้ขอบปลอดเนื้องอก (แนวทางเดิมเว้น 2 cm ตามลายมือในคีย์ ปัจจุบัน EAU-ASCO ยอมรับขอบไม่กี่มิลลิเมตรถ้า frozen section ลบ) และตอที่เหลือต้องยาวพอให้ยืนปัสสาวะไปข้างหน้าได้ (ราว 2–3 cm ขึ้นไป) · ก้อนลามมาตาม shaft ห่างโคนเพียง 3 cm → ถ้าเว้นขอบตามหลัก ตอจะเหลือไม่พอให้ยืนปัสสาวะและเสี่ยงขอบบวก → total penectomy + perineal urethrostomy (ปัสสาวะท่านั่ง) · ส่วน N0 และ well-differentiated ไม่ได้เปลี่ยนขนาดการตัดก้อนหลัก แต่ใช้วางแผนเรื่อง inguinal lymph node",
+  "wrong": {
+   "A": "Partial penectomy ใช้เมื่อก้อนอยู่ที่ glans/ปลาย shaft และหลังเว้นขอบยังเหลือตอพอยืนปัสสาวะ — ข้อนี้ก้อนลามมาใกล้โคน ตอจะสั้นเกินและเสี่ยงขอบบวก; จะถูกถ้าก้อน T2 อยู่ที่ glans และปลาย shaft ห่างโคนเกิน 5–6 cm",
+   "C": "Laser ablation (CO2/Nd:YAG) เป็น penile-sparing สำหรับ PeIN, Ta และ T1 ขนาดเล็กที่ผิว — ทำลายได้ไม่ลึกพอสำหรับ T2 ที่ลุก corpus spongiosum; จะถูกถ้าเป็นก้อน T1a เล็กที่ glans ในผู้ป่วยที่ต้องการเก็บอวัยวะและมาติดตามได้สม่ำเสมอ",
+   "D": "Imiquimod (หรือ 5-FU ทาเฉพาะที่) ใช้กับรอยโรคตื้นที่ยังไม่ลุกผ่าน basement membrane เท่านั้น; จะถูกถ้า biopsy เป็น penile intraepithelial neoplasia (PeIN/CIS) ที่ glans เช่นแผ่นแดงมันวาว (erythroplasia of Queyrat)",
+   "E": "Circumcision อย่างเดียวพอเฉพาะก้อนที่จำกัดอยู่ที่หนังหุ้มปลาย; จะถูกถ้าก้อน T1 เล็กอยู่ที่ prepuce เท่านั้นและขอบตัดลบ"
+  },
+  "trap": "เห็น N0 และ well-differentiated แล้วเลือกผ่าตัดเล็ก — grade และต่อมน้ำเหลืองใช้ตัดสินเรื่อง inguinal LN ไม่ใช่ขนาดการตัดก้อน · ตัวตัดสินคือตำแหน่ง: ก้อนลามมาใกล้โคนจนตัดแล้วตอไม่พอ → total",
+  "summary": [
+   "Penile cancer: > 95% เป็น SCC · ปัจจัยเสี่ยง: ไม่ขลิบ/phimosis (สำคัญสุด), HPV 16/18, สูบบุหรี่, lichen sclerosus, สุขอนามัยไม่ดี · การขลิบในวัยเด็กลดความเสี่ยงชัดเจน",
+   "T (AJCC 8 ย่อ): Tis/PeIN · Ta · T1 ลุก lamina propria (T1a/T1b แยกด้วย LVI, perineural invasion, grade) · T2 corpus spongiosum · T3 corpora cavernosa · T4 อวัยวะข้างเคียง",
+   "ผ่าตัดก้อนหลัก: prepuce → circumcision · PeIN/Ta/T1 เล็ก → penile-sparing (ทา 5-FU/imiquimod, laser, glans resurfacing) · T2 ที่จำกัดใน glans → glansectomy · ก้อนที่ปลาย shaft → partial penectomy · ก้อนลามใกล้โคน/ตอไม่พอ → total penectomy + perineal urethrostomy",
+   "ต่อมน้ำเหลือง: ระบายไป inguinal ก่อนแล้ว pelvic · cN0 + pT1b ขึ้นไป (รวม T2 ข้อนี้) → invasive LN staging (DSNB หรือ modified inguinal LND) · cN0 + Tis/Ta/T1a → เฝ้าติดตาม",
+   "ต่อมน้ำเหลืองคลำได้ → biopsy ยืนยัน แล้ว radical inguinal LND · ต่อมใหญ่ติดแน่น → neoadjuvant chemotherapy (TIP) ก่อนผ่าตัด · ≥ 2 ต่อมหรือ extranodal extension → พิจารณา pelvic LND และยาเสริม"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 76A, resident ยืนยัน) มั่นใจปานกลาง — คำตอบขึ้นกับระยะก้อนถึงโคน 3 cm ที่โจทย์ให้ ซึ่งถ้าเว้นขอบ 2 cm ตามลายมือในคีย์ ตอจะเหลือไม่พอ; แนวทางปัจจุบันที่ยอมรับขอบแคบร่วม frozen section อาจทำ partial penectomy ได้ในบางราย แต่สำหรับข้อสอบ ก้อนลามใกล้โคน = total penectomy · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "variants": [
+   "ชาย 60 ปี ก้อน SCC 1.5 cm ที่ glans pT1b cN0 → glansectomy หรือ partial penectomy + invasive inguinal LN staging (DSNB)",
+   "หลัง penectomy 6 เดือน คลำได้ต่อมน้ำเหลืองขาหนีบโต 1 ต่อมเคลื่อนที่ได้ → FNA/biopsy; บวก → radical inguinal LND",
+   "ชาย 70 ปีมี phimosis เปิดหนังหุ้มไม่ได้ มีเลือดและหนองซึมจากใต้หนังหุ้มและคลำได้ก้อน → dorsal slit/circumcision เพื่อดูก้อนและ biopsy"
+  ]
+ },
+ "MDCU76|RoA|3": {
+  "interp": "แผลถลอก 4×4 cm ที่แก้มจากรถล้ม มีเศษถนนฝังอยู่ → ถามการดูแลแผล: ต้องเอาสิ่งสกปรกที่ฝังออกให้หมด (กัน traumatic tattoo) แล้วทำให้แผลชุ่มเพื่อให้ผิวงอกเร็ว ไม่ใช่แค่ล้าง",
+  "why": "แผลถลอกเสียผิวชั้น epidermis ถึง dermis ตื้น หายเองด้วย re-epithelialization จาก adnexa (รูขุมขน ต่อมเหงื่อ) จึงไม่ต้องเย็บ · ปัญหาหลักคือเศษหิน ดิน ยางมะตอยที่ฝังใน dermis: ถ้าไม่ขัดออกภายใน 24–48 ชม.แรก ผิวจะงอกปิดทับกลายเป็น traumatic (accidental) tattoo ถาวร ซึ่งแก้ภายหลังยาก และบนใบหน้าเสียโฉมมาก → ฉีดยาชาแล้วขัดด้วยแปรง/ผ้าก๊อซ ± คีบเศษออกทีละชิ้น · จากนั้นทา antibiotic ointment (เช่น Terramycin ตามลายมือในคีย์) หรือปิด tulle ให้แผลชุ่ม เพราะแผลชุ่มผิวงอกเร็วกว่าแผลแห้งตกสะเก็ด และไม่ติดผ้าก๊อซ",
+  "wrong": {
+   "A": "Irrigation + moist gauze ทำให้แผลชุ่มได้ แต่การล้างน้ำเกลือเอาเศษที่ฝังในผิวออกไม่หมด → traumatic tattoo บนใบหน้า; จะถูกถ้าเป็นแผลถลอกสะอาดไม่มีสิ่งสกปรกฝัง เช่น หกล้มบนพื้นในบ้าน",
+   "B": "Silver sulfadiazine (SSD) เป็นยาทาแผลไหม้ ทิ้งคราบสีเทา (pseudoeschar) ทำให้ประเมินแผลยาก ไม่เหมาะกับใบหน้า และการล้างอย่างเดียวไม่เอาสิ่งที่ฝังออก; จะถูกถ้าเป็นแผลไหม้ deep partial thickness จากน้ำร้อนที่ลำตัวในผู้ใหญ่",
+   "D": "ขัดถูถูกครึ่งหนึ่ง แต่ SSD ไม่ได้ช่วยให้แผลถลอกหายเร็วกว่า ointment ทั่วไป ทิ้งคราบสีบนหน้า และเลี่ยงในผู้แพ้ซัลฟา หญิงตั้งครรภ์ใกล้คลอด ทารก < 2 เดือน; จะถูกถ้าเป็นแผลไหม้จากท่อไอเสียรถจักรยานยนต์ที่น่องซึ่งเปื้อนดินทรายจากการล้ม (ขัดล้างแล้วทา SSD)",
+   "E": "แผลถลอกไม่มีขอบแผลให้เย็บ หายเองด้วย re-epithelialization และการเย็บปิดทับสิ่งสกปรกเสี่ยงติดเชื้อ; จะถูกถ้าเป็นแผลฉีกขาด (laceration) ที่แก้มขอบเรียบชนกันได้ หลังล้างแผลสะอาดแล้ว"
+  },
+  "trap": "คิดว่าแผลตื้นแค่ล้างก็พอ — สิ่งที่ทำให้หน้าเสียโฉมถาวรคือเศษสีดำที่ฝังอยู่ ไม่ใช่ตัวแผลถลอก ต้องขัดออกตั้งแต่การทำแผลครั้งแรก · และ SSD ที่คุ้นจากแผลไหม้ไม่ใช่ยาประจำของแผลถลอก",
+  "summary": [
+   "แผลถลอก (abrasion) = เสีย epidermis ± dermis ตื้น หายด้วย re-epithelialization จาก adnexa ใน 1–2 สัปดาห์ ไม่ต้องเย็บ · ถ้าลึกถึง dermis ลึกหรือกว้างมากอาจเป็นแผลเป็น",
+   "ขั้นตอน: ยาชาเฉพาะที่ → ล้างน้ำเกลือ → ขัดด้วยแปรง/ก๊อซ ± คีบเศษ (ภายใน 24–48 ชม.) → ointment หรือ tulle/dressing ไม่ติดแผล ปิดให้ชุ่ม",
+   "ไม่ใช้ผ้าก๊อซแห้งแปะตรงแผล — ติดแผลแล้วดึง epithelium ที่งอกใหม่หลุด · ไม่ปล่อยให้แห้งตกสะเก็ดหนา (หายช้ากว่าแผลชุ่ม)",
+   "บาดทะยัก: แผลสกปรก → Td ถ้าเข็มล่าสุดเกิน 5 ปี · ไม่ครบ 3 เข็มหรือไม่ทราบประวัติ → Td + TIG",
+   "หลังหาย: ผิวใหม่ไวต่อแดด → กันแดดหลายเดือนลด post-inflammatory hyperpigmentation · tattoo ที่เกิดแล้วแก้ด้วย Q-switched laser, dermabrasion หรือตัดออก"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76A ลายมือ \"Terramycin\") มั่นใจสูง — ลายมือในคีย์เน้น 2 เรื่องตรงกับหลัก: เอาเศษออกกัน accidental tattoo และทำแผลให้ชุ่มไม่ใช้ก๊อซแห้ง · ช้อย D ขัดถูถูกแต่ SSD ไม่ใช่ยาของแผลถลอกบนหน้า · ต้นฉบับมีช้อย 4 ตัว เราเติม E",
+  "variants": [
+   "รถล้มมา 3 สัปดาห์ แผลถลอกที่หน้าผากหายแล้วแต่มีจุดสีดำฝังใต้ผิว → traumatic tattoo → Q-switched laser หรือ dermabrasion",
+   "แผลถลอกสกปรกที่เข่าจากล้มบนถนน ผู้ป่วยไม่เคยได้วัคซีนบาดทะยักครบ 3 เข็ม → ขัดล้างแผล + Td + TIG",
+   "ญาติทำแผลถลอกด้วยผ้าก๊อซแห้ง วันรุ่งขึ้นดึงออกแล้วเลือดซึม ปวดมาก → เปลี่ยนเป็น ointment + dressing ไม่ติดแผล ให้แผลชุ่ม"
+  ]
+ },
+ "MDCU76|RoA|4": {
+  "interp": "ทารก 3 วัน อาเจียนน้ำดี ท้องอืด ถ่ายมีเลือด + Doppler พบ SMA–SMV สลับตำแหน่ง = malrotation ที่สงสัย midgut volvulus ลำไส้เริ่มขาดเลือด → ถาม next step ซึ่งคีย์ตอบขั้นแรกคือดูแลลำไส้อุดตัน/resuscitation ระหว่างเตรียมผ่าตัด",
+  "why": "Bilious vomiting ในทารก = malrotation with midgut volvulus จนกว่าจะพิสูจน์ว่าไม่ใช่ · ปกติ SMV อยู่ขวาของ SMA — ถ้าสลับ (SMV อยู่ซ้าย/หน้า) บ่ง malrotation และ whirlpool sign บ่ง volvulus · ถ่ายเป็นเลือด + ท้องอืดบ่งว่าลำไส้เริ่มขาดเลือด ต้อง Ladd procedure ฉุกเฉิน · ระหว่างนั้นทารกที่อาเจียนและท้องอืดต้องได้: NPO, IV fluid + แก้ electrolyte, NG decompression (ลดอาเจียน/สำลัก ลดลำไส้โป่ง), Foley ติดตามปัสสาวะ, antibiotics คลุม gram-negative + anaerobe — คีย์เลือก NG decompression เป็น \"next step\" ตามลายมือ initial management · ทุกอย่างทำพร้อมกันอย่างรวดเร็วโดยไม่เลื่อนเวลาผ่าตัด",
+  "wrong": {
+   "A": "UGI series (ไม่ใช่ barium swallow + follow-through) เป็น gold standard วินิจฉัย malrotation ในเด็กที่ stable — รายนี้ USG (SMA–SMV กลับข้าง) ยืนยันแล้วและอาการหนัก มีเลือดออก ห้ามเสียเวลา · จะถูกถ้าทารกอาเจียนน้ำดีแต่ stable ไม่มีสัญญาณขาดเลือด และยังไม่ได้วินิจฉัย",
+   "B": "Barium enema ใช้วินิจฉัย/ดันลำไส้ใน intussusception หรือดู Hirschsprung ไม่ใช่ volvulus; จะถูกถ้าเด็ก 1 ขวบมี intussusception ที่ US ยืนยัน ไม่มี peritonitis ช็อก หรือลมรั่ว (ปัจจุบันนิยม air/hydrostatic reduction)",
+   "D": "CT ไม่จำเป็นและทำให้ผ่าตัดช้า; จะถูกถ้าเป็นเด็กโต/ผู้ใหญ่ที่ปวดท้องเรื้อรังสงสัย malrotation ที่ภาพอื่นไม่ชัด",
+   "E": "Exploratory laparotomy (Ladd procedure) เป็นการรักษาหลักที่ต้องทำเร็ว แต่ต้อง resuscitate + NG decompress + แก้ electrolyte + ให้ยาปฏิชีวนะพร้อมกันก่อนเข้าห้องผ่าตัด (คีย์เลือกขั้นแรก); จะถูกถ้าทารกรายเดียวกันได้ IV fluid ใส่ NG และให้ยาแล้ว — ขั้นถัดไปคือผ่าตัดทันที"
+  },
+  "trap": "C และ E ถูกตามลำดับเวลา — E คือการรักษาที่ต้องทำโดยไม่ช้า แต่ \"next step\" ในคีย์หมายถึงสิ่งแรกที่ทำทันทีเมื่อวินิจฉัย · อีกกับดักคือส่ง imaging เพิ่ม (UGI, CT) ทั้งที่ US ยืนยันแล้วและมีสัญญาณขาดเลือด",
+  "summary": [
+   "Bilious vomiting ในทารก = malrotation with midgut volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · มีอาการในเดือนแรกราวครึ่งหนึ่ง ราว 90% ภายใน 1 ปี",
+   "UGI study: duodenojejunal junction อยู่ขวาของ midline/ต่ำกว่า pylorus, corkscrew sign; volvulus = bird-beak · USG: whirlpool sign, SMV อยู่ซ้าย/หน้า SMA",
+   "ฟิล์มท้องปกติไม่ตัด malrotation/volvulus ระยะแรก · แยกจากสาเหตุอื่นของ bilious vomiting: duodenal/jejunal atresia (double bubble/triple bubble), annular pancreas, NEC, Hirschsprung, meconium ileus",
+   "Initial: NPO, IV fluid + แก้ electrolyte, NG decompression, Foley, ATB (gram-negative + anaerobe)",
+   "Ladd procedure: detorse ทวนเข็มนาฬิกา, ตัด Ladd bands, กาง mesentery, appendectomy, วาง small bowel ขวา colon ซ้าย",
+   "ลำไส้ไม่แน่ใจว่าตาย → second-look 24–48 ชม."
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76A) มั่นใจปานกลาง — ลายมือในคีย์ระบุ initial management = treat gut obstruction (IV fluid, NG, Foley, ATB) จึงเลือก NG decompression; แต่ในทารกที่มีเลือดออก (สงสัยลำไส้ขาดเลือด) Ladd procedure ต้องตามทันที ถ้าข้อสอบให้ทั้ง resuscitation และ laparotomy ให้ดูถ้อยคำว่าถามขั้นแรกหรือการรักษาหลัก",
+  "variants": [
+   "ระหว่าง Ladd procedure คลายลำไส้แล้ว ลำไส้ส่วนหนึ่งยังสีคล้ำไม่แน่ใจว่าตาย → ไม่ตัดลำไส้มาก ปิดท้องแล้วทำ second-look ใน 24–48 ชม.",
+   "เด็ก 6 ขวบปวดท้องเป็นพัก ๆ อาเจียนเป็นครั้งคราวมานาน UGI พบ DJ junction อยู่ขวาของ midline → malrotation → Ladd procedure แบบ elective เพื่อกัน volvulus",
+   "ทารกแรกเกิดมี Down syndrome อาเจียนน้ำดีตั้งแต่วันแรก ท้องไม่อืด ฟิล์มเป็น double bubble ไม่มีลมส่วนปลาย → duodenal atresia → duodenoduodenostomy"
+  ]
+ },
+ "MDCU76|RoA|5": {
+  "interp": "ถามคู่เชื้อที่พบบ่อยที่สุดของ empyema thoracis — empyema ส่วนใหญ่เป็น parapneumonic จึงเป็นเชื้อของ community-acquired pneumonia ที่ลามลง pleura (คีย์อ้าง Schwartz)",
+  "why": "Empyema (หนองใน pleural space) ราว 2 ใน 3 ตามหลัง pneumonia · Schwartz: pneumococci และ staphylococci ยังเป็นเชื้อที่พบบ่อยที่สุด แต่ gram-negative aerobes และ anaerobes พบมากขึ้น · เชื้อขึ้นกับบริบท: community-acquired → S. pneumoniae, Streptococcus milleri group, S. aureus · hospital-acquired/หลังผ่าตัดอกหรือ trauma → S. aureus (รวม MRSA) และ gram-negative · aspiration → anaerobes ปน · pleural fluid culture ไม่ขึ้นได้ราวครึ่งหนึ่ง (มักได้ยามาก่อน) จึงส่ง blood culture ร่วม และให้ยาคลุม anaerobe ใน community-acquired empyema แม้เพาะไม่ขึ้น",
+  "wrong": {
+   "B": "Klebsiella และ H. influenzae ทำให้ pneumonia/empyema ได้ (Klebsiella ในผู้ติดสุรา/เบาหวาน) แต่ไม่ใช่สาเหตุหลัก · จะถูกถ้าผู้ติดสุราเรื้อรังมี lobar pneumonia ที่ upper lobe (currant-jelly sputum) แล้วเป็น empyema",
+   "C": "Anaerobes (Bacteroides, Peptostreptococcus) พบมากขึ้นใน empyema จาก aspiration (ฟันผุ ติดสุรา หมดสติ) แต่ไม่ใช่คู่ที่พบบ่อยที่สุดตาม Schwartz · จะถูกถ้าผู้ป่วยติดสุราหลังหมดสติมี lung abscess แล้วแตกเป็น empyema มีกลิ่นเหม็น",
+   "D": "Gram-negative (Pseudomonas, E. coli) พบใน hospital-acquired/ventilator-associated และหลังผ่าตัด · จะถูกถ้าผู้ป่วยใส่ท่อช่วยหายใจนานใน ICU แล้วเกิด empyema",
+   "E": "Acinetobacter และ Enterococcus เป็นเชื้อ nosocomial ไม่ใช่สาเหตุหลักของ empyema ทั่วไป · จะถูกถ้าผู้ป่วยหลังผ่าตัดทรวงอกใน ICU เกิดการติดเชื้อดื้อยา"
+  },
+  "trap": "จำ lung abscess/aspiration แล้วตอบ anaerobe หรือจำการติดเชื้อในโรงพยาบาลแล้วตอบ gram-negative — คำถาม \"most common\" ที่ไม่มีบริบทพิเศษ ให้คิดถึง parapneumonic ซึ่งเป็นเชื้อของ CAP",
+  "summary": [
+   "Empyema = หนองใน pleural space · สาเหตุ: parapneumonic มากสุด รองลงมาคือหลังผ่าตัดอก trauma esophageal perforation subphrenic abscess",
+   "3 ระยะ: exudative (วันแรก ๆ น้ำใส) → fibrinopurulent (ราว 1–2 สัปดาห์ มี loculation) → organizing (≥ 3 สัปดาห์ เกิด peel ปอดขยายไม่ได้)",
+   "ต้องใส่สายระบาย (BTS 2023): หนองชัด, gram stain/culture บวก, pH ≤ 7.2 · pH 7.21–7.39 ดู LDH ≥ 900 + ปัจจัยเสริม (glucose ≤ 72 mg/dL, น้ำมาก, septation, pleural enhancement) · ไม่มี pH ใช้ glucose < 60 mg/dL",
+   "ยา: community-acquired → aminopenicillin + β-lactamase inhibitor (คลุม anaerobe) · hospital-acquired → คลุม MRSA + gram-negative รวม Pseudomonas ± anaerobe · เลี่ยง aminoglycoside (เข้า pleura และทำงานในหนองที่เป็นกรดได้ไม่ดี)",
+   "รักษาตามระยะ: drainage + ยา → loculated/ระบายไม่ดี → intrapleural tPA + DNase (MIST2) หรือ VATS debridement → organizing peel ปอดไม่ขยาย → decortication"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76A อ้าง Schwartz 11th) มั่นใจสูงสำหรับข้อสอบ — ตำราศัลยศาสตร์ยังให้ pneumococcus + staphylococcus เป็นคู่ที่พบบ่อยที่สุด แม้การศึกษา MIST1 จากอังกฤษพบ Streptococcus milleri group และ anaerobe บ่อยใน community-acquired · ช้อย E ต้นฉบับจดไม่ครบ เราเติม Enterococcus",
+  "variants": [
+   "Parapneumonic effusion เจาะได้น้ำขุ่นไม่เป็นหนอง pH 7.1 → ใส่ chest drain (pH ≤ 7.2)",
+   "Empyema หลัง pneumonia เพาะเชื้อไม่ขึ้นเพราะได้ยามาก่อน → ยังให้ยาคลุมเชื้อ CAP + anaerobe เช่น amoxicillin-clavulanate",
+   "Empyema มา 4 สัปดาห์ ใส่สายแล้วปอดไม่ขยาย CT มี pleural peel หนา → VATS/open decortication"
+  ]
+ },
+ "MDCU76|RoA|6": {
+  "interp": "ผู้ป่วย myasthenia gravis (MG) ที่ CXR ไม่พบก้อนใน mediastinum — ข้อ NOT ถามการรักษาที่ไม่ใช้กับผู้ป่วยรายนี้ · ช้อยอื่นทั้งหมดเป็นการรักษา MG จริง",
+  "why": "การรักษา MG มี 3 แกน: (1) ลดอาการ: cholinesterase inhibitor (pyridostigmine) เพิ่ม ACh ที่ neuromuscular junction (2) immunotherapy: corticosteroid แล้วตามด้วย steroid-sparing agent (azathioprine, mycophenolate, tacrolimus) (3) thymectomy: MGTX trial (2016) แสดงว่าใน generalized AChR-antibody positive MG อายุ 18–65 ปี การตัด thymus แม้ไม่มี thymoma ลดอาการและความต้องการ steroid · Radiation therapy ไม่ได้รักษา MG — ใช้กับ thymoma ที่ลุกลาม/ตัดไม่หมดหรือตัดไม่ได้ ผู้ป่วยรายนี้ไม่มีก้อนจึงไม่มีเป้าให้ฉาย → C เป็นคำตอบของข้อ NOT · หมายเหตุ CXR ปกติไม่ได้ตัด thymoma เล็ก ผู้ป่วย MG ทุกรายต้องทำ CT/MRI chest",
+  "wrong": {
+   "A": "ใช้จริง: pyridostigmine เป็นยาแรกที่ลดอาการ; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยอยู่ใน cholinergic crisis หลังได้ยาเกินขนาด (น้ำลายและเสมหะมาก ม่านตาเล็ก ท้องเสีย อ่อนแรง) ซึ่งต้องหยุดยา",
+   "B": "ใช้จริง: prednisolone เป็น immunotherapy หลัก (เริ่มขนาดต่ำแล้วค่อยเพิ่มเพราะช่วงแรกอาจอ่อนแรงลงชั่วคราว); จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยเบาหวานคุมไม่ได้ร่วมกระดูกพรุนรุนแรง ที่แพทย์เลือก steroid-sparing agent หรือ biologic แทน",
+   "D": "ใช้จริง: azathioprine, mycophenolate, tacrolimus, rituximab เป็น steroid-sparing agent; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น ocular MG อาการน้อยที่คุมได้ด้วย pyridostigmine อย่างเดียว",
+   "E": "ใช้จริง: thymectomy ได้ประโยชน์แม้ไม่มี thymoma ใน generalized AChR-antibody positive MG อายุ 18–65 ปี (MGTX); จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น MuSK-antibody positive MG ซึ่ง thymectomy ไม่ได้ประโยชน์"
+  },
+  "trap": "คิดว่า thymectomy ทำเฉพาะเมื่อมี thymoma แล้วตอบ E — MGTX แสดงประโยชน์ใน non-thymomatous generalized AChR+ MG · ส่วน radiation ฟังดูเกี่ยวกับ thymus แต่เป็นการรักษาเนื้องอก ไม่ใช่การรักษา MG",
+  "summary": [
+   "MG: autoantibody ต่อ AChR (ราว 85%), MuSK หรือ LRP4 · อ่อนแรงเมื่อใช้งานซ้ำ ดีขึ้นเมื่อพัก ptosis diplopia · ocular อย่างเดียวราว 15%",
+   "MG ราว 10–15% มี thymoma · thymoma ราว 30–50% มี MG → ผู้ป่วย MG ทุกรายทำ CT/MRI chest",
+   "รักษา: pyridostigmine → steroid ± steroid-sparing → IVIG/plasma exchange ใน crisis หรือเตรียมผ่าตัด · biologic (eculizumab, efgartigimod) ในรายดื้อ",
+   "Thymectomy: ทุกรายที่มี thymoma · non-thymomatous generalized AChR+ อายุ 18–65 ปี · ไม่ทำใน MuSK+ · ก่อนผ่าตัดคุมอาการให้ดี",
+   "ยาที่ทำให้ MG กำเริบ: aminoglycoside, fluoroquinolone, macrolide, magnesium, β-blocker, neuromuscular blocker",
+   "Radiation: adjuvant หลังผ่าตัด thymoma ที่ลุกลาม (Masaoka III–IV) หรือขอบตัดบวก · thymoma ที่ตัดไม่ได้ใช้ chemo ± RT"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76A) มั่นใจสูง — การฉายรังสีไม่ใช่การรักษา MG ส่วน A, B, D, E เป็นการรักษามาตรฐาน (ลายมือในคีย์ก็ติ๊ก steroid และ thymectomy) · ในชีวิตจริง CXR ไม่เห็นก้อนยังไม่พอบอกว่าไม่มี thymoma ต้องทำ CT chest",
+  "variants": [
+   "หญิง 30 ปี generalized MG AChR+ CT chest ไม่มี thymoma อาการคุมได้ไม่ดีด้วย pyridostigmine → thymectomy ร่วม immunotherapy",
+   "ผู้ป่วย MG หายใจลำบาก ไอไม่มีแรง FVC ลดลงเรื่อย ๆ → myasthenic crisis → ใส่ท่อช่วยหายใจตามข้อบ่งชี้ + IVIG หรือ plasma exchange",
+   "ผู้ป่วย MG เป็น UTI แพทย์จะสั่ง ciprofloxacin หรือ gentamicin → เลี่ยง เพราะทำให้ MG กำเริบ เลือกยากลุ่มอื่น"
+  ]
+ },
+ "MDCU76|RoA|7": {
+  "interp": "ทารก < 1 ปี มีก้อนแข็งใน SCM + หัวแบน (plagiocephaly) แต่ยังไม่มี hemifacial hypoplasia = congenital muscular torticollis จาก fibromatosis colli → ถามการรักษาเริ่มต้น",
+  "why": "Fibromatosis colli = fibrosis ของกล้ามเนื้อ SCM ในทารก (สัมพันธ์กับท่าในครรภ์/คลอดยาก) คลำได้ก้อนแข็งใน SCM ช่วง 2–4 สัปดาห์แรก ศีรษะเอียงเข้าข้างก้อน คางหันไปด้านตรงข้าม · วินิจฉัยทางคลินิก + US (SCM หนาตัวแบบ fusiform ไม่มีก้อนแยก) ไม่ต้อง biopsy หรือ CT · หายเองได้: physiotherapy (passive stretching จัดท่า กระตุ้นให้หันไปด้านตึง) ได้ผลมากกว่า 90% โดยเฉพาะถ้าเริ่มก่อนอายุ 3–6 เดือน ก้อนมักยุบในหลายเดือน · ผ่าตัด release เมื่อทำกายภาพเต็มที่ 6–12 เดือนแล้วยังหมุนคอได้จำกัด หรือเริ่มมี hemifacial hypoplasia · โจทย์ระบุว่ายังไม่มี hemifacial hypoplasia จึงเริ่มด้วยการสังเกต + physiotherapy (คีย์: 1 ปี)",
+  "wrong": {
+   "A": "Surgical release ของ SCM ทำเมื่อ physiotherapy ล้มเหลว ยังหมุนคอได้จำกัด > 15° หรือมี facial asymmetry; จะถูกถ้าเด็ก 18 เดือนยังคอเอียงแม้ทำกายภาพเต็มที่และใบหน้าไม่สมมาตร",
+   "B": "ไม่ต้อง biopsy — ก้อนที่อยู่ใน SCM ของทารกวินิจฉัยด้วยคลินิกและ US; จะถูกถ้าก้อนที่คอในทารกโตเร็ว แข็ง ไม่อยู่ใน SCM (สงสัย neuroblastoma หรือ rhabdomyosarcoma)",
+   "D": "CT มีรังสีและไม่ได้ข้อมูลเพิ่มจาก US; จะถูกถ้าเด็กมีไข้ เจ็บคอ คอแข็งเอียง กลืนลำบาก สงสัย retropharyngeal abscess ที่ต้องดูขอบเขตก่อนระบาย",
+   "E": "Botulinum toxin เป็นทางเลือกเสริมในรายดื้อต่อ physiotherapy ไม่ใช่ขั้นแรก; จะถูกถ้าทารกทำกายภาพ 6 เดือนแล้วยังไม่ดีขึ้นและครอบครัวต้องการเลี่ยงผ่าตัด"
+  },
+  "trap": "คิดว่าก้อนในคอทารกต้อง biopsy หรือ imaging ละเอียด — ก้อนใน SCM ร่วมคอเอียงในทารกอายุไม่กี่สัปดาห์คือ fibromatosis colli หายเองเกือบทั้งหมด · หรือเห็น plagiocephaly แล้วรีบผ่าตัด — ข้อบ่งชี้ผ่าตัดดูที่กายภาพล้มเหลวหรือ hemifacial hypoplasia",
+  "summary": [
+   "Congenital muscular torticollis: สาเหตุคอเอียงที่พบบ่อยที่สุดในทารก · fibrosis ของ SCM สัมพันธ์กับท่าในครรภ์/คลอดยาก (ท่าก้น ใช้คีม) · บางรายคลำได้ก้อน (fibromatosis colli) มักข้างขวา",
+   "อาการ: ศีรษะเอียงเข้าข้างที่เป็น คางหันไปด้านตรงข้าม · ปล่อยนานเกิด plagiocephaly และ hemifacial hypoplasia",
+   "ตรวจ: US = imaging แรก · X-ray คอเมื่อสงสัยกระดูกผิดปกติ · แยกสาเหตุอื่นของคอเอียง: กระดูกคอผิดปกติ (Klippel-Feil), ocular (superior oblique palsy), ฝีที่คอ, posterior fossa tumor, Sandifer syndrome (GERD)",
+   "รักษา: physiotherapy (stretching + จัดท่า + tummy time) เริ่มเร็วได้ผลดีที่สุด > 90% · TOT collar เป็นอุปกรณ์เสริมได้ · botulinum toxin เสริมในรายดื้อ",
+   "ผ่าตัด (SCM release/lengthening ปลายเดียวหรือสองปลาย) เมื่อทำกายภาพ 6–12 เดือนแล้ว ROM ยังจำกัด > 15° มีแถบตึงใน SCM หรือ hemifacial hypoplasia · อายุที่ทำบ่อยราว 1–4 ปี"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76A ลายมือ +physiotherapy 1 year, Dx fibromatosis colli) มั่นใจสูง — โจทย์บอกชัดว่ายังไม่มี hemifacial hypoplasia จึงยังไม่ถึงข้อบ่งชี้ผ่าตัด · ต้นฉบับมีช้อย 3 ตัว เราเติม D, E และเติม \"with physiotherapy\" ใน C ตามคีย์",
+  "variants": [
+   "ทารก 3 สัปดาห์ คลอดท่าก้น คอเอียงขวา คลำก้อนแข็งใน SCM ขวา → US ยืนยัน แล้วสอนพ่อแม่ stretching + จัดท่า",
+   "ทารกคอเอียง ไม่มีก้อนใน SCM คอหมุนได้เต็ม แต่เอียงหัวชัดเวลาจ้องมอง → นึกถึง ocular torticollis (superior oblique palsy) ส่งตรวจตา",
+   "ทารก 2 เดือนคอเอียงและหลังแอ่นเป็นพัก ๆ หลังกินนม ร่วมแหวะนมบ่อย → Sandifer syndrome (GERD)"
+  ]
+ },
+ "MDCU76|RoA|8": {
+  "wrong": {
+   "B": "Uroflowmetry + PVR ใช้ประเมิน LUTS/bladder outlet obstruction จาก BPH (Qmax ต่ำ PVR สูง) แต่ไม่ช่วยหามะเร็ง ซึ่งต้องจัดการก่อนเมื่อ PSA สูง; จะถูกถ้าชาย LUTS IPSS 22 ที่ PSA ปกติตามอายุและ DRE เรียบ ก่อนวางแผนรักษา BPH",
+   "C": "TRUS-guided systematic biopsy คือคำตอบของคีย์ (แนวทางเดิม) — ปัจจุบันทำ MRI ก่อนเพื่อเลือกว่าใครต้อง biopsy และ target รอยโรค ลด biopsy ที่ไม่จำเป็นและการพบมะเร็งที่ไม่สำคัญ; จะถูกถ้าโรงพยาบาลไม่มี MRI หรือผู้ป่วยทำ MRI ไม่ได้ (เช่น มีโลหะ/อุปกรณ์ที่ไม่รองรับ MRI)",
+   "D": "Bone scan เป็น staging หลังยืนยันมะเร็งในกลุ่ม unfavorable intermediate/high risk — ยังไม่ได้วินิจฉัยมะเร็ง; จะถูกถ้า biopsy ยืนยัน adenocarcinoma ISUP grade 4 PSA 30 แล้วต้องหาการแพร่กระจาย (หรือใช้ PSMA PET)",
+   "E": "รอ 12 เดือนนานเกินไปสำหรับ PSA 8 — EAU ให้ตรวจ PSA ซ้ำภายในไม่กี่สัปดาห์ในชายไม่มีอาการ PSA 3–10 เพราะค่าแกว่งได้ แล้วตรวจต่อ; จะถูกถ้าชาย 55 ปี PSA 1.5 ng/mL DRE ปกติ ที่ตัดสินใจคัดกรองต่อเนื่อง (ตรวจซ้ำตามระยะ)"
+  },
+  "trap": "ตอบ TRUS biopsy ตามคีย์/แนวทางเดิม — ปัจจุบัน mpMRI มาก่อน biopsy · หรือเห็น IPSS 22 แล้วหลงไปประเมิน LUTS ด้วย uroflowmetry ทั้งที่ PSA 8 ต้องหามะเร็งก่อน",
+  "summary": [
+   "PSA ขึ้นได้จาก: มะเร็ง, BPH, prostatitis/UTI, urinary retention, ใส่ Foley/cystoscopy, หลังหลั่งน้ำอสุจิ, ปั่นจักรยานนาน · 5-ARI ลด PSA ราวครึ่งหลัง 6 เดือน (คูณ 2 ก่อนแปลผล)",
+   "PSA ผิดปกติ (โดยทั่วไป > 4 ng/mL หรือสูงเกินค่าตามอายุ) หรือ DRE คลำได้ nodule แข็ง → ตรวจ PSA ซ้ำในรายไม่มีอาการ แล้วเข้าสู่การหามะเร็ง",
+   "Pre-biopsy mpMRI → PI-RADS 1–5 · PI-RADS ≥ 3 → targeted ± systematic biopsy · PI-RADS 1–2 + ความเสี่ยงต่ำ (เช่น PSA density < 0.15–0.20) อาจเลี่ยง biopsy และติดตาม PSA",
+   "Biopsy: transperineal ติดเชื้อน้อยกว่า transrectal (EAU แนะนำ) · ภาวะแทรกซ้อน: hematuria, hematospermia, ติดเชื้อ/sepsis, ปัสสาวะไม่ออก",
+   "หลังยืนยันมะเร็ง: จัด risk (PSA, ISUP grade, T) → staging ด้วย bone scan/CT หรือ PSMA PET ในกลุ่ม unfavorable intermediate/high risk · การรักษาตามระยะดูข้อ RoD 64 ของชุดนี้"
+  ],
+  "variants": [
+   "ชาย 65 ปี PSA 7 ng/mL MRI ได้ PI-RADS 2 PSA density 0.08 → อาจไม่ biopsy ติดตาม PSA ร่วมตัดสินใจกับผู้ป่วย",
+   "ชายกิน finasteride มา 1 ปี PSA 3 ng/mL → แปลผลเป็นราว 6 ng/mL ต้องประเมินมะเร็งต่อ",
+   "ชาย PSA 9 ng/mL เพิ่งใส่ Foley เพราะปัสสาวะไม่ออกเมื่อ 3 วันก่อน → รอหลายสัปดาห์แล้วตรวจ PSA ซ้ำก่อนตัดสินใจ"
+  ]
+ }
+}
