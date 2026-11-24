@@ -52,15 +52,24 @@
   "wrong": {
    "B": "Teratoma เป็น germ cell tumor ที่ AFP/hCG ปกติได้ (mature teratoma) แต่มักโตช้าไม่ค่อยทำให้ SVC syndrome · ชนิดร้าย (NSGCT) มี AFP/hCG สูง; จะถูกถ้าชายหนุ่มไม่มีอาการ CT เห็นก้อน anterior mediastinum มีไขมัน หินปูน หรือฟันอยู่ภายใน",
    "C": "Thymoma เป็นก้อน anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ แต่พบอายุ 40–60 ปี โตช้า SVC syndrome พบน้อยกว่า (คีย์ให้เป็นอันดับรอง); จะถูกถ้าผู้ป่วยอายุ 50 ปีมีหนังตาตกและอ่อนแรงเมื่อใช้งาน (myasthenia gravis) ร่วมกับก้อน anterior mediastinum",
-   "D": "Retrosternal/ectopic thyroid อยู่ superior mediastinum ต่อเนื่องจากคอ โตช้ามาก ทำให้หลอดลมเบี้ยวมากกว่า SVC syndrome; จะถูกถ้าหญิงสูงอายุมีคอพอกนาน CT เห็นก้อนต่อเนื่องจากต่อมไทรอยด์ลงไปหลังกระดูกอก",
+   "D": "ก้อนไทรอยด์ใน mediastinum ส่วนใหญ่คือ retrosternal goiter ที่ต่อลงมาจากคอ ส่วน ectopic thyroid แท้ไม่ต่อกับต่อมที่คอและพบน้อยมาก ทั้งคู่โตช้า มักกดหลอดลมมากกว่าทำ SVC syndrome; จะถูกถ้าก้อน anterosuperior mediastinum ที่ไม่ต่อกับต่อมไทรอยด์ที่คอ และ radioiodine scan จับสารที่ก้อน",
    "E": "Bronchogenic cyst มักอยู่ middle mediastinum ใกล้ carina เป็นถุงน้ำผิวเรียบ ไม่ใช่ก้อนโตเร็วใน anterior mediastinum; จะถูกถ้าคนหนุ่มสาวไม่มีอาการ CT เห็นถุงน้ำกลมผนังบางใต้ carina"
   },
-  "trap": "ตอบ thymoma เพราะเป็นก้อน anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ โดยไม่ใช้อายุ 36 ปี และอาการ SVC syndrome ที่บอกว่าก้อนโตเร็ว · marker ปกติตัด NSGCT ออก แต่ไม่ตัด lymphoma และ seminoma",
+  "trap": "ตอบ thymoma เพราะเป็นก้อน anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ โดยไม่ใช้อายุ 36 ปี และอาการ SVC syndrome ที่บอกว่าก้อนโตเร็ว",
   "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 77A: \"A > C, D\" และ \"รูปนี้คือ lymphoma\") ความมั่นใจปานกลาง–สูง · ต้นฉบับยืนยันว่าเป็นรูปเดียวกับข้อสอบ ช้อย E เราเติมเอง",
   "variants": [
    "ชายอายุ 25 ปีก้อน anterior mediastinum AFP 800 ng/mL → non-seminomatous germ cell tumor: cisplatin-based chemotherapy แล้วผ่าตัดก้อนที่เหลือ",
-   "หญิงอายุ 50 ปีหนังตาตก อ่อนแรงเมื่อใช้งาน มีก้อน anterior mediastinum → thymoma: thymectomy (คุม myasthenia ก่อนผ่า)",
-   "เด็กมีก้อน anterior mediastinum ใหญ่ นอนราบแล้วหายใจไม่ออก → ระวังทางเดินหายใจถูกกดเมื่อดมยา: biopsy ใต้ยาชาเฉพาะที่ หรือเจาะต่อมน้ำเหลืองที่อื่น"
+   "เด็ก 2 ขวบมีก้อนใน posterior mediastinum มีหินปูน ร่วมกับ urine VMA/HVA สูง → neuroblastoma",
+   "ชายอายุ 30 ปีก้อน anterior mediastinum β-hCG สูงเล็กน้อย AFP ปกติ ชิ้นเนื้อเป็น seminoma → cisplatin-based chemotherapy (ไวต่อรังสีและยาเคมี)"
+  ],
+  "why": "Anterior mediastinal mass แยก \"4 T\": thymoma, teratoma/germ cell, terrible lymphoma, thyroid · <b>Lymphoma</b> (Hodgkin, primary mediastinal large B-cell, lymphoblastic) โตเร็ว เป็นสาเหตุมะเร็งที่ทำให้ <b>SVC syndrome</b> บ่อยรองจาก lung cancer และพบในคนอายุน้อย · ผู้ป่วยเป็นหญิงและ AFP/β-hCG ปกติ ทำให้ germ cell tumor ชนิดร้าย (เกือบทั้งหมดพบในชาย) ไม่น่าเป็น · thymoma พบอายุมากกว่าและโตช้า",
+  "summary": [
+   "Mediastinum compartments: anterior (4T: thymoma, teratoma/GCT, lymphoma, thyroid) · middle (lymph nodes, bronchogenic/pericardial cyst) · posterior (neurogenic tumor — พบบ่อยสุดในเด็ก)",
+   "SVC syndrome: บวมหน้า แขน เส้นเลือดที่อกโป่ง ปวดหัว เป็นมากเมื่อก้มหรือนอน · สาเหตุมะเร็ง: lung cancer (SCLC) &gt; NHL",
+   "ประเมิน: CT chest with contrast, tumor markers (AFP, β-hCG, LDH), biopsy (CT-guided core หรือ mediastinoscopy/Chamberlain)",
+   "SVC syndrome ที่สงสัย lymphoma: อย่าให้ steroid หรือฉายแสงก่อน biopsy เพราะทำให้วินิจฉัยไม่ได้ ยกเว้นทางเดินหายใจวิกฤต (ใส่ stent ใน SVC ได้)",
+   "ระวังดมยาสลบในก้อน anterior mediastinum ขนาดใหญ่ (airway collapse) → biopsy ใต้ยาชาเฉพาะที่ได้ถ้าทำได้",
+   "Lymphoma → chemotherapy (ไม่ผ่าตัด) · thymoma → thymectomy · seminoma → chemo/RT · NSGCT → chemo + resect residual"
   ]
  },
  "MDCU77|RoA|CVT 4": {
@@ -136,26 +145,26 @@
  },
  "MDCU77|RoA|CVT 7": {
   "interp": "Massive hemoptysis ที่หาตำแหน่งได้แล้วว่ามาจากรอยโรคใน right upper lobe และ<b>หยุดเลือดได้ชั่วคราวแล้ว</b> → ถามการรักษาที่ทำให้หายขาด (definitive) ไม่ใช่การห้ามเลือดเฉพาะหน้า",
-  "why": "ลำดับการดูแล massive hemoptysis: (1) airway และ resuscitation — ผู้ป่วยตายจากเลือดท่วมทางเดินหายใจมากกว่าเสียเลือด ให้นอนตะแคงเอาข้างที่เลือดออกลง ใส่ท่อช่วยหายใจขนาดใหญ่ (≥ 8.0) หรือแยกปอดข้างดี (2) หาตำแหน่ง: CTA chest ± bronchoscopy (3) ห้ามเลือด: bronchial artery embolization (BAE) เป็น first-line เพราะเลือดราว 90% มาจาก bronchial artery ที่ความดันสูง หรือห้ามเลือดผ่าน bronchoscopy (4) <b>definitive</b>: เมื่อรอยโรคจำกัดอยู่กลีบเดียวและผู้ป่วยมีสมรรถภาพปอดพอ → ผ่าตัดเอารอยโรคออก (lobectomy) เพราะ BAE เลือดออกซ้ำได้ราว 10–50% · ข้อนี้คุมเลือดได้แล้วและรอยโรคอยู่ RUL กลีบเดียว จึงตอบ right upper lobectomy (ถ้าเป็นมะเร็งปอดก็เป็นการผ่าตัดรักษามะเร็งไปพร้อมกัน) · การผ่าตัดขณะเลือดยังออกมากมีอัตราตายสูง จึงควรห้ามเลือดให้คงที่ก่อนแล้วผ่าแบบ semi-elective",
+  "why": "ใน massive hemoptysis การห้ามเลือด (BAE หรือผ่านกล้อง) เป็นแค่การคุมชั่วคราว เพราะรอยโรคที่เป็นต้นเหตุยังอยู่และเลือดออกซ้ำได้บ่อย · การรักษาที่หายขาด (<b>definitive</b>) คือ<b>ผ่าตัดเอารอยโรคออก</b> เมื่อรอยโรคจำกัดอยู่กลีบเดียวและสมรรถภาพปอดพอ · ข้อนี้คุมเลือดได้แล้ว และรอยโรคอยู่ right upper lobe กลีบเดียว จึงทำ right upper lobectomy แบบ semi-elective หลังผู้ป่วยคงที่ (ถ้าเป็นมะเร็งปอดก็เป็นการผ่าตัดรักษามะเร็งไปพร้อมกัน)",
   "wrong": {
    "B": "ยาปฏิชีวนะรักษาการติดเชื้อที่ทำให้เลือดออก (bronchiectasis กำเริบ, ฝีในปอด) แต่ไม่ได้เอารอยโรคที่เป็นต้นเหตุออก เลือดจึงออกซ้ำได้; จะถูกถ้าเป็นไอเป็นเลือดปริมาณน้อยจาก bronchiectasis กำเริบหรือหลอดลมอักเสบ ในผู้ป่วยที่ hemodynamics และ oxygenation ปกติ",
-   "C": "BAE เป็นวิธีห้ามเลือดอันดับแรกและได้ผลทันทีราว 70–90% แต่เลือดออกซ้ำสูง (ยิ่งใน aspergilloma และ TB) จึงเป็นการรักษาชั่วคราวในผู้ที่ผ่าตัดได้; จะถูกถ้าเลือดยังออกอยู่ หรือผู้ป่วยผ่าตัดไม่ได้ (สมรรถภาพปอดไม่พอ รอยโรคกระจายทั้งสองข้าง เช่น bronchiectasis ทั่วปอด)",
+   "C": "BAE เป็นวิธีห้ามเลือดอันดับแรกเมื่อเลือดยังออก แต่รอยโรคยังอยู่ จึงเป็นการรักษาชั่วคราวในผู้ที่ผ่าตัดได้; จะถูกถ้าเลือดยังออกอยู่ หรือผู้ป่วยผ่าตัดไม่ได้ (สมรรถภาพปอดไม่พอ รอยโรคกระจายทั้งสองข้าง เช่น bronchiectasis ทั่วปอด)",
    "D": "Rigid bronchoscopy ดูดเลือด เปิดทางเดินหายใจ และใส่บอลลูนอุดหลอดลมกลีบที่เลือดออกเพื่อกันไม่ให้เลือดไหลไปปอดอีกข้าง — เป็นการประคองชั่วคราว; จะถูกถ้าเลือดยังออกมากจนทางเดินหายใจคุมไม่ได้ ต้องกั้นเลือดระหว่างรอ BAE หรือผ่าตัด",
    "E": "Tranexamic acid (IV หรือพ่นละออง) เป็นยาเสริมที่ลดปริมาณเลือดได้บ้าง ไม่หยุดเลือดจาก bronchial artery ที่ความดันสูงและไม่แก้รอยโรค; จะถูกถ้าเป็นไอเป็นเลือดปริมาณน้อย–ปานกลางที่ใช้เป็นยาเสริมระหว่างหาสาเหตุ"
   },
-  "trap": "เลือก BAE เพราะจำว่าเป็น first-line ของ massive hemoptysis — แต่ first-line คือการห้ามเลือดตอนเลือดยังออก ส่วนโจทย์ถาม definitive หลังคุมเลือดได้แล้วในรอยโรคกลีบเดียว คำตอบจึงเป็นการผ่าตัด",
+  "trap": "จำได้ว่า BAE เป็น first-line ของ massive hemoptysis จึงเลือก C — แต่คำถามใช้คำว่า definitive และบอกว่าเลือดหยุดแล้ว คำตอบจึงเป็นการผ่าตัด",
   "summary": [
    "Massive hemoptysis: ไม่มีตัวเลขเดียว (มักใช้ > 100–600 mL/24 ชม.) — นิยามที่ใช้จริงคือปริมาณใดก็ตามที่ทำให้หายใจลำบาก/ขาดออกซิเจนหรือ hemodynamics ไม่คงที่ · ตายจาก asphyxia",
-   "สาเหตุที่พบบ่อยในไทย: TB และ post-TB bronchiectasis, aspergilloma ในโพรงเก่า, bronchiectasis, มะเร็งปอด · ที่ต้องแยกคือ diffuse alveolar hemorrhage จาก vasculitis ซึ่งรักษาด้วยยากดภูมิ ไม่ใช่การผ่าตัด",
+   "สาเหตุที่พบบ่อยในไทย: TB และ post-TB bronchiectasis, aspergilloma ในโพรงเก่า, bronchiectasis, มะเร็งปอด",
    "ขั้นแรก: นอนตะแคงข้างที่เลือดออกลง · ใส่ท่อขนาดใหญ่เพื่อส่องกล้องดูดเลือดได้ หรือ selective intubation ปอดข้างดี/double-lumen tube · แก้ coagulopathy",
    "หาตำแหน่ง: CTA chest (เห็นรอยโรคและ bronchial artery) · bronchoscopy ช่วยทั้งหาตำแหน่งและห้ามเลือด (cold saline, epinephrine, บอลลูน)",
    "BAE: first-line ห้ามเลือด สำเร็จราว 70–90% · เลือดออกซ้ำ 10–50% · ภาวะแทรกซ้อนสำคัญคือ spinal cord ischemia จากอุด anterior spinal artery โดยไม่ตั้งใจ",
-   "ผ่าตัด (lobectomy/segmentectomy) เมื่อ: รอยโรคจำกัดเฉพาะที่ ปอดเหลือพอ — aspergilloma (BAE ได้ผลไม่ทน), มะเร็งปอดที่ผ่าได้, AVM/บาดเจ็บ, BAE ล้มเหลว · ทำหลังเลือดคงที่ดีกว่าผ่าขณะเลือดออก"
+   "ผ่าตัด (lobectomy/segmentectomy) เมื่อรอยโรคจำกัดเฉพาะที่และปอดเหลือพอ: aspergilloma, มะเร็งปอดที่ผ่าได้, AVM/บาดเจ็บ หรือ BAE ล้มเหลว · ผ่าหลังเลือดคงที่ดีกว่าผ่าขณะเลือดออก (อัตราตายสูง)"
   ],
   "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง–สูง · ไฟล์ Key 77A ตอบ A ว่า \"น่าจะ Lung CA\" แล้วมี \"????\" แสดงว่าคนเฉลยเองก็ไม่แน่ใจ · ต้นฉบับมีช้อยแค่ 2 ตัว เราเติมว่าคุมเลือดได้ชั่วคราวแล้วและเติมช้อย C–E ให้คำว่า definitive ชี้ไปที่การผ่าตัดชัดขึ้น — ถ้าข้อสอบจริงไม่บอกว่าเลือดหยุดแล้ว คำตอบอาจเป็น BAE",
   "variants": [
    "ผู้ป่วย post-TB มี aspergilloma ในโพรงที่ right upper lobe ไอเป็นเลือดซ้ำหลังทำ BAE ไป 2 ครั้ง FEV1 ดี → lobectomy",
-   "ไอเป็นเลือด 400 mL ใน 2 ชม. ทราบว่าเลือดมาจากปอดซ้าย SpO<sub>2</sub> ลดลง → นอนตะแคงซ้ายลง ใส่ท่อช่วยหายใจ (แยกปอดขวาที่ดีไว้) แล้วส่ง CTA/BAE",
+   "ผู้ป่วยเจาะคอ (tracheostomy) มา 2 สัปดาห์ มีเลือดซึมนำมาก่อนแล้วเลือดสดพุ่งออกทางท่อ → tracheo-innominate artery fistula: เป่า cuff ให้แน่น/ใช้นิ้วกดผ่านรูเจาะคอ แล้วผ่าตัดด่วน",
    "ไอเป็นเลือดร่วมกับปัสสาวะเป็นเลือดและไตวายเร็ว CT เห็น ground-glass ทั้งสองข้าง → diffuse alveolar hemorrhage จาก vasculitis: steroid + ยากดภูมิ ± plasma exchange"
   ]
  },

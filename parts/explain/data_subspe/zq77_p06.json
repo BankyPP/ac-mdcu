@@ -50,12 +50,12 @@
  },
  "MDCU77|RoA|Ped 5": {
   "interp": "ทารกถ่ายขี้เทาช้า contrast enema เห็น rectum แคบและ sigmoid โป่ง (transition zone) → สงสัย Hirschsprung disease ถามขั้นต่อไปเพื่อยืนยันการวินิจฉัย",
-  "why": "Hirschsprung = ไม่มี ganglion cell ในลำไส้ส่วนปลาย (เริ่มที่ internal sphincter ขึ้นไปต่อเนื่อง) จาก neural crest เคลื่อนลงมาไม่ครบ ลำไส้ส่วนนั้นจึงบีบตัวไม่เป็นและหดค้าง ส่วนต้นที่ปกติโป่งขึ้น · contrast enema ช่วยบอกตำแหน่ง transition zone และวางแผนผ่าตัด แต่ไม่ได้ยืนยันโรค (ทารกแรกเกิดอาจยังไม่เห็น transition zone) · การวินิจฉัยยืนยันคือ<b>rectal suction biopsy</b> เหนือ dentate line อย่างน้อย 1–2 cm: ไม่มี ganglion cell, nerve trunk หนา, acetylcholinesterase เพิ่ม, calretinin ติดสีลบ · เมื่อยืนยันแล้ว: ล้างลำไส้ (rectal irrigation) ลดลำไส้โป่ง แล้วทำ pull-through (ส่วนใหญ่ transanal endorectal/Soave, หรือ Duhamel, Swenson)",
+  "why": "Hirschsprung = ไม่มี ganglion cell ในลำไส้ส่วนปลาย (เริ่มที่ internal sphincter ขึ้นไปต่อเนื่อง) จาก neural crest เคลื่อนลงมาไม่ครบ ลำไส้ส่วนนั้นจึงบีบตัวไม่เป็นและหดค้าง ส่วนต้นที่ปกติโป่งขึ้น · contrast enema ช่วยบอกตำแหน่ง transition zone และวางแผนผ่าตัด แต่ไม่ได้ยืนยันโรค (ทารกแรกเกิดอาจยังไม่เห็น transition zone) · การวินิจฉัยยืนยันคือ <b>rectal suction biopsy</b> เหนือ dentate line อย่างน้อย 1–2 cm: ไม่มี ganglion cell, nerve trunk หนา, acetylcholinesterase เพิ่ม, calretinin ติดสีลบ",
   "wrong": {
    "B": "US ช่องท้องไม่บอกว่ามี ganglion cell หรือไม่ จึงไม่ช่วยวินิจฉัย Hirschsprung; จะถูกถ้าเด็ก 8 เดือนปวดท้องร้องเป็นพัก ๆ ถ่ายมูกปนเลือด คลำได้ก้อนรูปไส้กรอก → US หา intussusception",
    "C": "MRI กระดูกสันหลังใช้หา tethered cord/spinal dysraphism ในเด็กท้องผูกที่มีอาการทางระบบประสาทหรือรอยผิดปกติที่หลัง; จะถูกถ้าเด็กท้องผูกมีขนกระจุกหรือรอยบุ๋มที่หลังส่วนล่าง ขาอ่อนแรง และปัสสาวะผิดปกติร่วม",
    "D": "ไม่ควรทำ colostomy โดยไม่มีผลชิ้นเนื้อ เพราะต้องรู้ว่าลำไส้ตรงที่เปิดมี ganglion cell (leveling biopsy) ไม่งั้นทวารเทียมจะทำงานไม่ได้; colostomy โดยไม่ต้อง biopsy จะถูกถ้าทารกไม่มีรูทวาร (anorectal malformation ชนิดสูง เช่น มีขี้เทาออกทางปัสสาวะ)",
-   "E": "ไม่มีสถานการณ์ใดที่ควรรอทำ enema ซ้ำอีก 1 เดือนในทารกที่สงสัย Hirschsprung เพราะระหว่างรอเสี่ยง Hirschsprung-associated enterocolitis ซึ่งเป็นสาเหตุตายหลัก และภาพ enema ซ้ำก็ยังยืนยันโรคไม่ได้ — ภาพที่ดูปกติก็ไม่ตัดโรค ต้อง biopsy"
+   "E": "รอทำ enema ซ้ำอีก 1 เดือนไม่ได้เพิ่มการวินิจฉัย (ภาพที่ดูปกติก็ไม่ตัดโรค) และระหว่างรอเสี่ยง Hirschsprung-associated enterocolitis ซึ่งเป็นสาเหตุตายหลัก; จะถูกถ้าทารกหายจาก NEC ด้วยการรักษาทางยาแล้ว นัดทำ contrast enema ราว 4–6 สัปดาห์ต่อมาเพื่อหาลำไส้ตีบ"
   },
   "trap": "ถือว่า contrast enema ที่เห็น transition zone คือการวินิจฉัยแล้วไปผ่าตัดเลย — enema บอกตำแหน่ง แต่การยืนยันโรคคือ rectal biopsy ที่ไม่พบ ganglion cell",
   "summary": [
@@ -63,12 +63,12 @@
    "ชายมากกว่าราว 4 เท่า · short segment (rectosigmoid) ราว 80% · สัมพันธ์ Down syndrome, RET mutation (MEN2A)",
    "วินิจฉัย: rectal suction biopsy = gold standard · anorectal manometry ไม่มี rectoanal inhibitory reflex (ใช้ในเด็กโต) · contrast enema: transition zone, สารทึบค้างนานเกิน 24 ชม.",
    "Hirschsprung-associated enterocolitis: ไข้ ท้องอืด ถ่ายเหลวเหม็นมาก เกิดได้ทั้งก่อนและหลังผ่าตัด → NPO, IV fluid, ยาปฏิชีวนะ (ครอบคลุม anaerobe), rectal irrigation",
-   "รักษา: rectal irrigation ระหว่างรอ → primary transanal pull-through · ทำ colostomy ก่อน (พร้อม leveling biopsy) เมื่อ enterocolitis รุนแรง ลำไส้โป่งมาก หรือ long-segment"
+   "รักษา: rectal irrigation ระหว่างรอ → primary transanal pull-through (Soave; หรือ Duhamel, Swenson) · ทำ colostomy ก่อน (พร้อม leveling biopsy) เมื่อ enterocolitis รุนแรง ลำไส้โป่งมาก หรือ long-segment"
   ],
   "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง (ไฟล์ Key 77A: น่าจะ Hirschsprung ต้อง confirm ด้วย rectal biopsy) · ต้นฉบับใช้คำว่า barium enema และมีช้อย 3 ตัว เราเติม D, E",
   "variants": [
-   "ทารก 2 สัปดาห์ที่วินิจฉัย Hirschsprung แล้วรอผ่าตัด มีไข้ ท้องอืด ถ่ายเหลวเหม็นมาก → enterocolitis: NPO, IV fluid, ยาปฏิชีวนะ, rectal irrigation",
-   "ชิ้นเนื้อ rectal suction biopsy ไม่พบ ganglion cell และ calretinin ติดสีลบ → ยืนยัน Hirschsprung: วางแผน transanal pull-through",
+   "เด็ก 4 ขวบท้องผูก มีอุจจาระเล็ดเปื้อนกางเกง ถ่ายขี้เทาได้ปกติหลังคลอด ตรวจทวารพบอุจจาระก้อนใหญ่เต็ม rectum → functional constipation: ล้างอุจจาระค้าง + ยาระบาย ไม่ต้อง biopsy",
+   "ทารกท้องอืดไม่ถ่ายขี้เทา contrast enema เห็นลำไส้ใหญ่เล็กทั้งเส้น (microcolon) และขี้เทาเป็นก้อนอุดที่ terminal ileum → meconium ileus: Gastrografin enema + ตรวจหา cystic fibrosis",
    "เด็ก Hirschsprung ที่ตรวจพบ RET mutation → ตรวจคัดกรอง MEN2A (calcitonin, US ไทรอยด์) ในผู้ป่วยและครอบครัว"
   ]
  },
@@ -147,25 +147,25 @@
  },
  "MDCU77|RoA|Ped 9": {
   "interp": "ข้อ <b>NOT</b> — ถามว่าอาการใด<b>ไม่ใช่</b>อาการตามปกติของ omphalomesenteric (vitelline) duct remnant ซึ่งรวม Meckel diverticulum, ท่อเปิดถึงสะดือ (patent duct), sinus/cyst/polyp ที่สะดือ และ fibrous band จากลำไส้ถึงสะดือ",
-  "why": "ท่อ vitelline เชื่อมลำไส้กับถุงไข่แดงและควรปิดหายไปราวสัปดาห์ที่ 5–9 ของการตั้งครรภ์ ส่วนที่เหลือค้างให้อาการตามชนิด: (1) <b>เลือดออก</b>ทางทวารแบบไม่เจ็บ ปริมาณมาก สีแดงคล้ำ — gastric mucosa ใน Meckel หลั่งกรดจนเกิดแผลที่ ileum ข้างเคียง (อาการที่พบบ่อยสุดในเด็ก) (2) <b>ลำไส้อุดตัน</b> — ลำไส้บิดรอบ band, Meckel เป็นหัวนำให้ลำไส้ซ้อน, ไส้เลื่อนผ่าน band (พบบ่อยสุดในผู้ใหญ่) (3) <b>ปวดท้อง</b> — Meckel diverticulitis คล้ายไส้ติ่งอักเสบ (4) <b>ของไหลออกสะดือ</b> — อุจจาระ/น้ำลำไส้ไหลจาก patent duct หรือเยื่อแดงที่สะดือ (umbilical polyp) · <b>Failure to thrive ไม่ใช่อาการปกติ</b> เพราะลำไส้ส่วนใหญ่ยังดูดซึมได้ปกติ เลือดออกมักเป็นครั้ง ๆ มากกว่าจะเรื้อรังจนโตช้า",
+  "why": "ท่อ vitelline เชื่อมลำไส้กับถุงไข่แดงและควรปิดหายไปราวสัปดาห์ที่ 5–9 ของการตั้งครรภ์ ส่วนที่เหลือค้างให้อาการตามชนิด: (1) <b>เลือดออก</b>ทางทวารแบบไม่เจ็บ ปริมาณมาก สีแดงคล้ำ — gastric mucosa ใน Meckel หลั่งกรดจนเกิดแผลที่ ileum ข้างเคียง (อาการที่พบบ่อยสุดในเด็ก) (2) <b>ลำไส้อุดตัน</b> — ลำไส้บิดรอบ band, Meckel เป็นหัวนำให้ลำไส้ซ้อน, ไส้เลื่อนผ่าน band (พบบ่อยสุดในผู้ใหญ่) (3) <b>ปวดท้อง</b> — Meckel diverticulitis คล้ายไส้ติ่งอักเสบ (4) <b>ของไหลออกสะดือ</b> — อุจจาระ/น้ำลำไส้ไหลจาก patent duct หรือเยื่อแดงที่สะดือ (umbilical polyp) · <b>Failure to thrive ไม่ใช่อาการปกติ</b> เพราะลำไส้ส่วนใหญ่ยังดูดซึมได้ปกติ",
   "wrong": {
    "A": "ปวดท้องเป็นอาการจริงจาก Meckel diverticulitis (ปวดรอบสะดือหรือท้องน้อยขวาคล้ายไส้ติ่ง) หรือจากลำไส้อุดตัน/ซ้อน; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าถามเฉพาะ Meckel ที่มีเลือดออกจากแผลของ gastric mucosa ซึ่งมักเลือดออกโดยไม่ปวดท้อง",
    "B": "เลือดออกทางทวารไม่เจ็บเป็นอาการที่พบบ่อยที่สุดในเด็ก อายุ < 5 ปี; จะถูก (เป็นคำตอบของข้อ NOT) ถ้า remnant เป็น fibrous band ล้วนที่ไม่มีเยื่อบุ ซึ่งทำให้ลำไส้อุดตันได้แต่ไม่ทำให้เลือดออก",
    "D": "ของไหลหรืออุจจาระออกจากสะดือเกิดจาก patent omphalomesenteric duct หรือ umbilical sinus/polyp; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น Meckel diverticulum ที่ปลายลอยอิสระไม่ต่อกับสะดือ ซึ่งไม่มีอาการที่สะดือเลย",
    "E": "ลำไส้อุดตันจาก volvulus รอบ band, intussusception หรือ internal hernia เป็นอาการที่พบบ่อยสุดในผู้ใหญ่; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเป็น umbilical polyp หรือ sinus ที่อยู่เฉพาะที่สะดือ ไม่มีส่วนเชื่อมกับลำไส้"
   },
-  "trap": "คิดว่าเลือดออกเรื้อรังจาก Meckel จะทำให้เด็กโตช้า — เลือดออกมักเป็นครั้งเดียวปริมาณมาก (ซีดเฉียบพลัน) ไม่ได้ทำให้ขาดสารอาหารจนน้ำหนักไม่ขึ้น",
+  "trap": "คิดว่าเลือดออกจาก Meckel ทำให้เด็กโตช้า — เลือดออกเป็นครั้ง ๆ อาจซีดจากขาดธาตุเหล็ก แต่ไม่ทำให้ขาดสารอาหารจนน้ำหนักไม่ขึ้น",
   "summary": [
    "Meckel diverticulum rule of 2s: พบ 2% ประชากร · ห่าง ileocecal valve ราว 2 ฟุต · ยาวราว 2 นิ้ว · มักมีอาการก่อน 2 ขวบ · ectopic tissue 2 ชนิด (gastric พบบ่อยสุด, pancreatic) · ชายมากกว่าราว 2 เท่า",
-   "เป็น true diverticulum (มีครบทุกชั้น) อยู่ที่ antimesenteric border ของ ileum · เลือดออกเกิดจากแผลที่ ileum ข้างเคียง ไม่ใช่ที่ตัว diverticulum",
+   "เป็น true diverticulum (มีครบทุกชั้น) อยู่ที่ antimesenteric border ของ ileum · ectopic pancreatic tissue อาจเป็นหัวนำให้ลำไส้ซ้อน",
    "เลือดออกในเด็ก → Meckel scan (Tc-99m pertechnetate จับ gastric mucosa) · ผลลบแต่ยังสงสัย → CTA/ส่องกล้องลำไส้เล็ก/laparoscopy",
    "ผ่าตัดเมื่อมีอาการ: diverticulectomy · ถ้าแผลอยู่ที่ ileum หรือฐานกว้าง/อักเสบ → segmental ileal resection",
    "เนื้อเยื่อแดงที่สะดือในเด็ก (umbilical polyp) อาจเป็น remnant ที่ลึกลงไปถึงลำไส้ — ต้องหา tract ก่อนตัดหรือจี้"
   ],
   "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง (ไฟล์ Key 77A: \"อันอื่นได้หมด\") · ช้อยครบ 5 ตัวตามต้นฉบับ",
   "variants": [
-   "เด็ก 2 ขวบถ่ายเลือดสีแดงคล้ำปริมาณมาก ไม่ปวดท้อง ซีดลง → Meckel diverticulum: Meckel scan (Tc-99m pertechnetate)",
-   "ทารก 3 สัปดาห์มีของเหลวสีเหลืองกลิ่นอุจจาระไหลจากสะดือตลอด → patent omphalomesenteric duct: ผ่าตัดตัดท่อออกถึงลำไส้",
+   "ชายอายุ 30 ปีผ่าตัดไส้ติ่งพบ Meckel diverticulum ยาว 3 cm คลำได้เนื้อแข็งที่ฐาน → พิจารณาตัดออก (ปัจจัยเสี่ยงเกิดอาการ: ชาย อายุ < 50 ปี ยาว > 2 cm มี ectopic tissue)",
+   "ก่อนทำ Meckel scan ในเด็กที่ถ่ายเลือด ให้ยาอะไรเพิ่มความไวของการตรวจ → H2 blocker (เช่น famotidine) ลดการหลั่งสารออกจาก gastric mucosa",
    "เด็ก 8 ขวบปวดท้องน้อยขวา ไข้ ผ่าตัดพบไส้ติ่งปกติ → ตรวจ ileum ย้อนขึ้นไปราว 60 cm หา Meckel diverticulitis"
   ]
  },
@@ -267,7 +267,7 @@
  },
  "MDCU77|RoB|Uro 1": {
   "interp": "นิ่วที่แตกกิ่งเต็ม renal pelvis และ calyces (staghorn calculus) ถามองค์ประกอบที่พบบ่อยที่สุด → ส่วนใหญ่เป็นนิ่วจากการติดเชื้อ (struvite)",
-  "why": "Staghorn ส่วนใหญ่เป็น <b>struvite (magnesium ammonium phosphate)</b> ปนกับ carbonate apatite · เกิดจากปัสสาวะติดเชื้อแบคทีเรียที่สร้าง urease (Proteus มากที่สุด, Klebsiella, Pseudomonas, Providencia) ซึ่งย่อย urea เป็นแอมโมเนีย → ปัสสาวะเป็นด่าง (pH > 7.2) ทำให้ magnesium ammonium phosphate ตกผลึกเร็วจนเต็มระบบท่อไต · พบในหญิงที่ติดเชื้อซ้ำ ผู้ใส่สายสวนค้าง neurogenic bladder และ urinary diversion · นิ่วมีเชื้ออยู่ข้างใน ยาฆ่าเชื้ออย่างเดียวกำจัดไม่ได้ จึงต้องเอานิ่วออกให้หมด (PCNL เป็นวิธีหลักตาม EAU/AUA) ร่วมกับยาตามผลเพาะเชื้อ · ถ้าไม่รักษา ไตจะเสียและเกิด sepsis ซ้ำ",
+  "why": "Staghorn ส่วนใหญ่เป็น <b>struvite (magnesium ammonium phosphate)</b> ปนกับ carbonate apatite · เกิดจากปัสสาวะติดเชื้อแบคทีเรียที่สร้าง urease (เช่น Proteus) ซึ่งย่อย urea เป็นแอมโมเนีย → ปัสสาวะเป็นด่าง (pH > 7.2) ทำให้ magnesium ammonium phosphate ตกผลึกเร็วจนเต็มระบบท่อไต · พบในหญิงที่ติดเชื้อซ้ำ ผู้ใส่สายสวนค้าง neurogenic bladder และ urinary diversion · นิ่วมีเชื้ออยู่ข้างใน ยาฆ่าเชื้ออย่างเดียวกำจัดไม่ได้ จึงต้องเอานิ่วออกให้หมด (PCNL เป็นวิธีหลักตาม EAU/AUA) ร่วมกับยาตามผลเพาะเชื้อ",
   "wrong": {
    "A": "Calcium oxalate (monohydrate) เป็นนิ่วที่พบบ่อยที่สุดโดยรวม และทำ staghorn ได้บ้าง แต่ไม่ใช่ส่วนใหญ่ของ staghorn; จะถูกถ้าชายวัยทำงานปวดเอวร้าวลงขาหนีบ พบนิ่วทึบรังสีขนาด 6 mm ในท่อไต (นิ่วชนิดที่พบบ่อยสุด)",
    "C": "Uric acid ทำ staghorn ได้แต่น้อยกว่า และไม่เห็นในฟิล์ม KUB (radiolucent) เกิดในปัสสาวะเป็นกรด pH < 5.5; จะถูกถ้าผู้ป่วยเกาต์หรือหลังให้ยาเคมีบำบัด (tumor lysis) มีนิ่วที่ไม่เห็นใน KUB แต่เห็นใน CT",
@@ -282,11 +282,11 @@
    "ไตไม่ทำงานแล้ว (split function ใน DMSA ต่ำมาก) ร่วมกับติดเชื้อซ้ำ → nephrectomy",
    "Staghorn ที่ไม่รักษา: ไตเสื่อม pyonephrosis, sepsis, xanthogranulomatous pyelonephritis · ป้องกันซ้ำด้วยแก้ปัจจัยเสี่ยง (สายสวน การระบายปัสสาวะ) และ acetohydroxamic acid ในบางราย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ไฟล์ Key 77B ตอบ B) · ต้นฉบับจดแค่หัวข้อ \"Staghorn stone\" กับช้อย 2 ตัว เราแต่งคำถามและเติม C–E",
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ไฟล์ Key 77B ตอบ B) · การศึกษาหลัง ๆ พบ staghorn จากนิ่ว metabolic (แคลเซียม) มากขึ้น แต่คำตอบมาตรฐานของข้อสอบยังเป็น struvite · ต้นฉบับจดแค่หัวข้อ \"Staghorn stone\" กับช้อย 2 ตัว เราแต่งคำถามและเติม C–E",
   "variants": [
-   "หญิงติดเชื้อทางเดินปัสสาวะซ้ำ CT พบนิ่วแตกกิ่งเต็ม renal pelvis และ calyces ซ้าย ไตยังทำงานดี → PCNL ให้หมดนิ่ว + ยาตามผลเพาะเชื้อ",
+   "ผู้ป่วย staghorn มีไข้สูง ความดันต่ำ ไตข้างนั้นบวมน้ำ → urosepsis จากการอุดตัน: ระบายก่อน (nephrostomy) + ยาปฏิชีวนะ แล้วค่อย PCNL เมื่อหายติดเชื้อ",
    "ผู้ป่วยอัมพาตใส่สายสวนค้าง ปัสสาวะ pH 8 กลิ่นแอมโมเนีย เพาะเชื้อพบแบคทีเรียแกรมลบที่เคลื่อนที่แผ่ทั่วจานเพาะ → Proteus mirabilis (สร้าง urease)",
-   "staghorn ที่ไม่ได้รักษานาน DMSA ไตข้างนั้นทำงาน 5% มีไข้ติดเชื้อซ้ำ → nephrectomy"
+   "ผู้ป่วย Crohn ที่ตัดลำไส้เล็กส่วนปลายออกไปมาก เป็นนิ่วซ้ำ → enteric hyperoxaluria: นิ่ว calcium oxalate (ไขมันจับแคลเซียมในลำไส้ oxalate จึงถูกดูดซึมมาก)"
   ]
  }
 }
