@@ -99,7 +99,7 @@
   "trap": "เห็นประวัติ TB แล้วรีบเลือกยา หรือเห็นว่า BAE คือการรักษาที่ได้ผลแล้วเลือกเลย — โจทย์ถาม initial management ซึ่งคือ airway และ O2 เสมอ เพราะคนไข้เสียชีวิตจากสำลักเลือด (เลือดเพียง 100–200 mL ก็เต็ม dead space ของหลอดลมได้)",
   "summary": [
    "Massive hemoptysis: นิยามตามปริมาณหลากหลาย (≥ 100–600 mL/24 ชม.) ที่สำคัญคือ life-threatening = ทางเดินหายใจถูกคุกคาม หรือ hemodynamic ไม่ stable",
-   "เลือดส่วนใหญ่ (~90%) มาจาก bronchial arteries (ความดันระบบ) ไม่ใช่ pulmonary artery",
+   "เลือดส่วนใหญ่ (~90%) มาจาก bronchial arteries (ความดันระบบ) — ข้อยกเว้นคือ Rasmussen aneurysm ในโพรง TB ซึ่งมาจากแขนงของ pulmonary artery",
    "สาเหตุบ่อย: bronchiectasis, TB และรอยโรคหลัง TB (Rasmussen aneurysm, cavity), aspergilloma, lung cancer",
    "ขั้นที่ 1: airway + O2, bleeding side down, ET tube ขนาดใหญ่หรือ selective intubation ข้างดี, IV + G/M, แก้ coagulopathy, อาจให้ tranexamic acid",
    "ขั้นที่ 2: หาตำแหน่งด้วย CXR + CTA chest ± bronchoscopy",
@@ -109,8 +109,7 @@
   "variants": [
    "ผู้ป่วย aspergilloma ไอเลือดมาก ใส่ท่อช่วยหายใจแล้ว CTA พบ right bronchial artery ขยายใหญ่ → bronchial artery embolization",
    "ผู้ป่วยไอเลือดมากจากปอดซ้าย รอส่องกล้อง ควรจัดท่าใด → นอนตะแคงซ้ายลง (ข้างที่เลือดออกอยู่ล่าง)",
-   "หลัง BAE 2 วัน ผู้ป่วยขาอ่อนแรงทั้งสองข้างและชาระดับอก → spinal cord ischemia จาก embolization เข้า anterior spinal artery",
-   "ชาย 40 ปี ไอเลือดปนเสมหะเล็กน้อย 1 สัปดาห์ สัญญาณชีพปกติ → CXR และ CT chest หาสาเหตุแบบผู้ป่วยนอก ไม่ต้องใส่ท่อ"
+   "หลัง BAE 2 วัน ผู้ป่วยขาอ่อนแรงทั้งสองข้างและชาระดับอก → spinal cord ischemia จาก embolization เข้า anterior spinal artery"
   ]
  },
  "MDCU78|RoA|5": {
@@ -218,7 +217,7 @@
  },
  "MDCU78|RoA|9": {
   "interp": "ชายเป็น WHO grade 2 (low-grade) glioma — ตาม WHO CNS5 คือ astrocytoma IDH-mutant หรือ oligodendroglioma IDH-mutant 1p/19q-codeleted; ถามการรักษาหลักลำดับแรก",
-  "why": "Low-grade glioma เป็นก้อนแบบ diffuse infiltrative ที่โตช้าแต่ในที่สุดเปลี่ยนเป็น high grade · การรักษาหลักคือ <b>maximal safe resection</b> (ไฟล์ Key 78A) — ตัดให้มากที่สุดโดยไม่ทำให้เกิด neurological deficit ใหม่ เพราะ extent of resection สัมพันธ์กับ survival ที่ยาวขึ้นและลดโอกาส malignant transformation; ได้ชิ้นเนื้อสำหรับ molecular diagnosis ด้วย · ใช้ awake craniotomy และ brain mapping เมื่อก้อนใกล้ eloquent area · หลังผ่าตัดเลือกตามความเสี่ยง: high risk (อายุ ≥ 40 ปี หรือตัดไม่หมด) → RT + chemotherapy (PCV หรือ temozolomide) ซึ่งเพิ่ม survival (RTOG 9802) · low risk (อายุน้อย ตัดหมด) → ติดตามด้วย MRI · vorasidenib (IDH inhibitor, INDIGO 2023, FDA 2024) ใช้ชะลอ RT/chemo ใน grade 2 IDH-mutant ที่เหลือก้อนหลังผ่าตัด",
+  "why": "Low-grade glioma เป็นก้อนแบบ diffuse infiltrative ที่โตช้าแต่ในที่สุดเปลี่ยนเป็น high grade · การรักษาหลักคือ <b>maximal safe resection</b> — ตัดให้มากที่สุดโดยไม่ทำให้เกิด neurological deficit ใหม่ เพราะ extent of resection สัมพันธ์กับ survival ที่ยาวขึ้นและลดโอกาส malignant transformation; ได้ชิ้นเนื้อสำหรับ molecular diagnosis ด้วย · ใช้ awake craniotomy และ brain mapping เมื่อก้อนใกล้ eloquent area · หลังผ่าตัดเลือกตามความเสี่ยง: high risk (อายุ ≥ 40 ปี หรือตัดไม่หมด) → RT + chemotherapy (PCV หรือ temozolomide) ซึ่งเพิ่ม survival (RTOG 9802) · low risk (อายุน้อย ตัดหมด) → ติดตามด้วย MRI · vorasidenib (IDH inhibitor, INDIGO 2023, FDA 2024) ใช้ชะลอ RT/chemo ใน grade 2 IDH-mutant ที่เหลือก้อนหลังผ่าตัด",
   "wrong": {
    "B": "Radiotherapy เป็น adjuvant หลังผ่าตัดในกลุ่ม high risk (ร่วมกับ chemotherapy) ไม่ใช่การรักษาลำดับแรกเมื่อผ่าตัดได้ — จะถูกถ้าโจทย์ถามการรักษาเสริมหลังผ่าตัดในผู้ป่วยอายุ 50 ปีที่ตัดได้ไม่หมด",
    "C": "Chemotherapy (PCV หรือ temozolomide) ให้ร่วมกับหรือหลัง RT ในกลุ่ม high risk ไม่ใช้เดี่ยวเป็นการรักษาแรก — จะถูกถ้าโจทย์เป็น oligodendroglioma 1p/19q-codeleted หลังผ่าตัดในกลุ่ม high risk (RT + PCV)",
@@ -230,14 +229,13 @@
    "WHO CNS5 (2021) จัดกลุ่มด้วย molecular: IDH, 1p/19q, ATRX, CDKN2A/B · grade เขียนเป็นเลขอารบิก (grade 2, 3, 4)",
    "Low-grade glioma มักพบในผู้ใหญ่อายุน้อย 30–40 ปี อาการนำบ่อยคือชัก",
    "MRI: ก้อน T2/FLAIR hyperintense ไม่ค่อย enhance — เริ่ม enhance ใหม่ = อาจเปลี่ยนเป็น high grade",
-   "รักษา: maximal safe resection → high risk (อายุ ≥ 40 หรือตัดไม่หมด) RT + PCV/temozolomide · low risk ติดตาม MRI · vorasidenib ใน grade 2 IDH-mutant ที่เหลือก้อน",
+   "รักษา: maximal safe resection → high risk (อายุ ≥ 40 หรือตัดไม่หมด) RT + PCV/temozolomide · low risk ติดตาม MRI",
    "Oligodendroglioma (1p/19q-codeleted) พยากรณ์ดีที่สุดและตอบสนองต่อ chemotherapy ดี",
    "Glioblastoma (IDH-wildtype grade 4): maximal safe resection + RT 60 Gy + temozolomide พร้อมและหลัง RT (Stupp) · median survival ราว 15 เดือน"
   ],
   "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ไฟล์ Key 78A ให้เหตุผลว่า maximal safe resection ตรงกับ NCCN และ EANO 2021; ช้อย RT/chemotherapy เป็นการรักษาเสริมหลังผ่าตัด ไม่ใช่ลำดับแรก",
   "variants": [
    "ชาย 45 ปี oligodendroglioma IDH-mutant 1p/19q-codeleted grade 2 ตัดได้ไม่หมด → RT + PCV",
-   "หลัง maximal safe resection ของ glioblastoma การรักษาต่อมาตรฐานคือ → RT 60 Gy + concurrent และ adjuvant temozolomide (Stupp)",
    "ชาย 28 ปี ชักครั้งแรก MRI พบก้อน T2 hyperintense ไม่ enhance ที่ frontal lobe ใกล้ Broca area → awake craniotomy + brain mapping เพื่อตัดให้มากที่สุดอย่างปลอดภัย",
    "หญิง 60 ปี ก้อนที่ thalamus แบบ infiltrative ผ่าตัดไม่ได้ → stereotactic biopsy เพื่อวินิจฉัยและดู molecular"
   ]

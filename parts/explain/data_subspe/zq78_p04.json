@@ -1,0 +1,304 @@
+{
+ "MDCU78|RoB|12": {
+  "interp": "หญิง 35 ปี กล้ามเนื้ออ่อนแรงที่แย่ลงตอนเย็นและดีขึ้นเมื่อพัก ร่วมกับหนังตาตกและเห็นภาพซ้อน = myasthenia gravis · CXR (PA + lateral) มีก้อนใน anterior mediastinum → ถามว่าก้อนน่าจะเป็นอะไร",
+  "why": "<b>Thymoma</b> เป็นเนื้องอกของ anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ (มักอายุ 40–60 ปี) และสัมพันธ์กับ paraneoplastic syndrome โดยเฉพาะ <b>myasthenia gravis</b>: ผู้ป่วย thymoma ราว 30–50% มี MG และผู้ป่วย MG ราว 10–15% มี thymoma · paraneoplastic อื่น: pure red cell aplasia, hypogammaglobulinemia (Good syndrome) · ผู้ป่วย MG ทุกรายต้องทำ CT chest หา thymoma · รักษา: complete thymectomy (ผ่าตัด sternotomy หรือ VATS/robotic) โดยคุมอาการ MG ให้ดีก่อนผ่าตัดด้วย pyridostigmine ± IVIG/plasmapheresis เพื่อลด myasthenic crisis หลังผ่าตัด · adjuvant RT ตามระยะ (Masaoka-Koga) และ WHO type",
+  "wrong": {
+   "A": "Lymphoma (โดยเฉพาะ Hodgkin ชนิด nodular sclerosis ในหญิงอายุน้อย) อยู่ anterior mediastinum ได้ แต่มาด้วย B symptoms (ไข้ เหงื่อออกกลางคืน น้ำหนักลด) และต่อมน้ำเหลืองโตที่อื่น ไม่สัมพันธ์กับ MG — จะถูกถ้าโจทย์ให้หญิง 25 ปีมีไข้ เหงื่อออกกลางคืน ต่อมน้ำเหลืองที่คอโต และก้อนใหญ่ที่ anterior mediastinum",
+   "B": "Bronchogenic cyst เป็น foregut cyst มักอยู่ middle mediastinum ใต้หรือข้าง carina ส่วนใหญ่ไม่มีอาการ ไม่สัมพันธ์กับ MG — จะถูกถ้าโจทย์เป็นก้อนน้ำผนังบางใต้ carina บน CT ในคนไม่มีอาการ",
+   "C": "Teratoma/germ cell tumor อยู่ anterior mediastinum ในคนอายุน้อย (มักชาย) CT มีไขมัน หินปูน หรือฟัน ไม่สัมพันธ์กับ MG — จะถูกถ้าโจทย์เป็นชายหนุ่มมีก้อนที่มีไขมันและหินปูนปนกัน หรือ AFP/β-hCG สูง (nonseminomatous germ cell tumor)",
+   "E": "Neurogenic tumor อยู่ posterior mediastinum ชิดกระดูกสันหลัง ไม่สัมพันธ์กับ MG — จะถูกถ้าภาพ lateral เห็นก้อนซ้อนแนวกระดูกสันหลังในคนที่ไม่มีอาการ (ดูข้อ RoB 11)"
+  },
+  "trap": "เห็นก้อนใน anterior mediastinum แล้วท่อง 4T แต่ไม่ใช้ประวัติ — fatigable weakness + ptosis + diplopia คือ MG ซึ่งชี้ไปที่ thymoma ชัดที่สุด · lymphoma และ teratoma อยู่ anterior เหมือนกันแต่ไม่มี MG",
+  "summary": [
+   "Anterior mediastinum 4T: thymoma (บ่อยสุดในผู้ใหญ่), teratoma/germ cell tumor, thyroid (retrosternal goiter), \"terrible\" lymphoma",
+   "MG: antibody ต่อ AChR (~85%) หรือ MuSK · อ่อนแรงแบบ fatigable เริ่มที่ตา (ptosis, diplopia) แล้วลามทั่วตัว",
+   "วินิจฉัย MG: AChR antibody, ice pack test, repetitive nerve stimulation (decrement), single-fiber EMG · CT chest หา thymoma ทุกราย",
+   "Thymoma: ผ่าตัด complete thymectomy ทุกราย · staging Masaoka-Koga · WHO type A, AB, B1–B3 และ thymic carcinoma",
+   "Thymectomy ใน MG ที่ไม่มี thymoma: generalized AChR-positive อายุ 18–65 ปี ช่วยลดอาการและยา (MGTX trial)",
+   "ยาที่ทำให้ MG แย่ลง: aminoglycosides, fluoroquinolones, macrolides, magnesium, beta-blockers"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — ประวัติเป็น MG ชัดเจน (ผู้จดทำตัวหนาที่ ptosis และ diplopia) และรูป CXR ในไฟล์มีลูกศรชี้ก้อนด้านหน้า; ทุกช้อยที่เหลือไม่สัมพันธ์กับ MG",
+  "variants": [
+   "ผู้ป่วย thymoma ที่มีอาการ MG ทั่วตัว นัดผ่าตัด thymectomy ก่อนผ่าตัดควรทำอะไร → คุมอาการ MG ให้คงที่ (pyridostigmine ± IVIG หรือ plasmapheresis)",
+   "Paraneoplastic syndrome ทางโลหิตวิทยาที่สัมพันธ์กับ thymoma → pure red cell aplasia",
+   "ผู้ป่วย MG ได้ gentamicin รักษาการติดเชื้อแล้วหายใจลำบาก อ่อนแรงมากขึ้น → myasthenic crisis จากยา ใส่ท่อช่วยหายใจ + IVIG หรือ plasmapheresis",
+   "หญิง 30 ปี generalized MG AChR-positive CT ไม่พบ thymoma → thymectomy ช่วยลดอาการและการใช้ steroid (MGTX)"
+  ]
+ },
+ "MDCU78|RoB|13": {
+  "interp": "ยา antiplatelet ที่ให้ก่อน CABG และคงไว้ได้ถึงวันผ่าตัด คือ aspirin (โจทย์ใช้คำว่ายับยั้ง \"non-endothelial pathway\" ของการกระตุ้นเกล็ดเลือด หมายถึงทางที่เกิดในเกล็ดเลือดเองคือ thromboxane A2) — ถามกลไกออกฤทธิ์โดยตรงของยา",
+  "why": "Aspirin <b>acetylate COX-1 แบบ irreversible</b> ในเกล็ดเลือด → เกล็ดเลือดสร้าง thromboxane A2 ไม่ได้ จึงลดการกระตุ้นและการเกาะกลุ่ม · เกล็ดเลือดไม่มี nucleus สร้างเอนไซม์ใหม่ไม่ได้ ผลจึงอยู่ตลอดอายุเกล็ดเลือด 7–10 วัน · การลด TXA2 (ช้อย A) เป็นผลที่ตามมาจากการยับยั้ง COX — กลไกตรงของยาคือ COX จึงเป็นคำตอบที่ดีกว่า ตรงกับคีย์ในไฟล์ \"B>A\" · ก่อน CABG ให้ aspirin ต่อได้ (ลด graft occlusion และ ischemic events) แต่หยุด P2Y12 inhibitor: clopidogrel 5 วัน, ticagrelor 3–5 วัน, prasugrel 7 วัน เพื่อลดเลือดออก",
+  "wrong": {
+   "A": "ลดการสร้าง thromboxane A2 เป็นผลที่ตามมาจากการยับยั้ง COX ไม่ใช่กลไกตรงของยา จึงถูกบางส่วน (คีย์ในไฟล์ให้ B มากกว่า A) — จะถูกถ้าโจทย์ถามว่ายานี้ลดการสร้างสารใดในเกล็ดเลือด หรือในช้อยไม่มี COX inhibition",
+   "C": "ยับยั้ง vitamin K–dependent clotting factors (II, VII, IX, X) คือ warfarin ซึ่งเป็น anticoagulant ไม่ใช่ antiplatelet และต้องหยุดก่อนผ่าตัด — จะถูกถ้าโจทย์ถามกลไกของยาที่ผู้ป่วย mechanical valve ต้องกินตลอดชีวิต",
+   "D": "กระตุ้น antithrombin III คือ heparin/LMWH ซึ่งเป็น anticoagulant ไม่ได้ออกฤทธิ์ที่เกล็ดเลือดโดยตรง — จะถูกถ้าโจทย์ถามกลไกของยาที่ให้ระหว่าง cardiopulmonary bypass (ย้อนฤทธิ์ด้วย protamine)",
+   "E": "Blockade of P2Y12 (ADP receptor) คือ clopidogrel, prasugrel, ticagrelor ซึ่งเป็น antiplatelet ที่ต้องหยุดก่อน elective CABG เพราะเพิ่มเลือดออก — จะถูกถ้าโจทย์ถามกลไกของยาตัวที่สองใน DAPT หลังใส่ stent"
+  },
+  "trap": "ช้อย A กับ B ถูกทั้งคู่ในแง่หนึ่ง — B คือกลไกตรง (ยับยั้ง COX แบบ irreversible) ส่วน A คือผลที่ตามมา · และจำว่าก่อน CABG aspirin ไม่ต้องหยุด แต่ P2Y12 inhibitor ต้องหยุด",
+  "summary": [
+   "Aspirin: irreversible COX-1 → ↓TXA2 · ผลอยู่ 7–10 วัน (ตลอดอายุเกล็ดเลือด)",
+   "Clopidogrel, prasugrel: irreversible P2Y12 (ADP receptor) blocker · ticagrelor: reversible P2Y12 · clopidogrel เป็น prodrug ผ่าน CYP2C19",
+   "GP IIb/IIIa inhibitors (abciximab, eptifibatide, tirofiban): ยับยั้ง final common pathway ของการเกาะกลุ่ม",
+   "ก่อน elective CABG: ให้ aspirin ต่อ · หยุด clopidogrel 5 วัน, ticagrelor 3–5 วัน, prasugrel 7 วัน",
+   "Anticoagulant: warfarin ยับยั้ง vitamin K–dependent factors II, VII, IX, X และ protein C, S · heparin กระตุ้น antithrombin",
+   "หลัง CABG: เริ่ม aspirin ภายใน 6–24 ชม. และให้ต่อตลอดชีวิต",
+   "ต้อง CABG ด่วนขณะได้ P2Y12 inhibitor: หยุดยาอย่างน้อย 24 ชม.ถ้าทำได้ · เลือดออกมากหลังผ่าตัดให้ platelet transfusion (ticagrelor ยังจับเกล็ดเลือดที่ให้ใหม่ได้ช่วงแรก)"
+  ],
+  "variants": [
+   "ผู้ป่วยกิน ticagrelor นัดทำ elective CABG ควรหยุดยาก่อนกี่วัน → 3–5 วัน (คง aspirin ไว้)",
+   "ทำไมผลของ aspirin ต่อเกล็ดเลือดอยู่ได้ 7–10 วัน → ยับยั้ง COX แบบ irreversible และเกล็ดเลือดไม่มี nucleus สร้างเอนไซม์ใหม่ไม่ได้",
+   "ผู้ป่วยกิน clopidogrel แต่ยังเกิด stent thrombosis ตรวจพบ CYP2C19 loss-of-function → เปลี่ยนเป็น ticagrelor หรือ prasugrel",
+   "ผู้ป่วยได้ heparin แล้วเกล็ดเลือดลดลงครึ่งหนึ่งในวันที่ 6 พร้อม thrombosis → HIT หยุด heparin ทั้งหมด ให้ argatroban หรือ fondaparinux"
+  ]
+ },
+ "MDCU78|RoB|14": {
+  "interp": "ชาย 65 ปี เจ็บหน้าอกฉีกขาดร้าวไปหลังทันที CTA พบ aortic dissection เริ่มหลัง left subclavian artery ไม่เกี่ยว ascending aorta = <b>Stanford type B</b> และไม่มี rupture หรือ malperfusion = uncomplicated — ถามการรักษาเริ่มต้น",
+  "trap": "เห็น aortic dissection แล้วเลือกผ่าตัดทันที — ต้องแยกก่อนว่า ascending aorta เกี่ยวหรือไม่: type A = ผ่าตัดด่วน · type B ที่ uncomplicated = ยา (beta-blocker ก่อน) · และห้ามให้ thrombolysis หรือ anticoagulant แม้อาการคล้าย MI",
+  "summary": [
+   "Stanford A (ascending ± ส่วนอื่น) → emergency surgery (ถ้าไม่ผ่าตัด mortality เพิ่มราว 1–2% ต่อชั่วโมงในวันแรก)",
+   "Stanford B (เริ่มหลัง left subclavian) → uncomplicated: ยา · complicated (malperfusion, rupture, ปวดไม่หยุด, HT คุมไม่ได้, ขยายเร็ว): TEVAR",
+   "Anti-impulse therapy: IV beta-blocker ก่อน (esmolol/labetalol) เป้า HR < 60 และ SBP 100–120 mmHg แล้วค่อยเพิ่ม vasodilator (nicardipine/nitroprusside) + opioid แก้ปวด",
+   "CTA เป็นการตรวจหลักในผู้ป่วย stable · TEE ในผู้ป่วย unstable ที่ย้ายไม่ได้",
+   "Risk factors: hypertension (บ่อยสุด), Marfan/Ehlers-Danlos/Loeys-Dietz, bicuspid aortic valve, cocaine, ตั้งครรภ์, หลังผ่าตัดหัวใจ",
+   "Uncomplicated type B ระยะยาว: คุม BP, ติดตาม CTA, พิจารณา TEVAR ในรายที่มีลักษณะเสี่ยงสูง (aorta กว้างมาก, false lumen ใหญ่)"
+  ],
+  "variants": [
+   "ผู้ป่วย type B dissection ปวดท้องมากขึ้น lactate สูง CTA เห็น SMA ได้เลือดจาก false lumen ที่ตีบ → complicated type B ทำ TEVAR",
+   "ทำไมต้องให้ beta-blocker ก่อน vasodilator ใน acute aortic dissection → ป้องกัน reflex tachycardia ที่เพิ่มแรงเฉือนต่อผนัง aorta",
+   "ผู้ป่วยเจ็บหน้าอกร้าวไปหลัง มี diastolic murmur ใหม่ CTA เห็น flap ใน ascending aorta → type A ผ่าตัดด่วน",
+   "ผู้ป่วยเจ็บหน้าอก ECG มี ST elevation ใน II, III, aVF แต่ชีพจรแขนสองข้างไม่เท่ากันและ mediastinum กว้าง → สงสัย dissection ห้ามให้ thrombolysis ทำ CTA"
+  ]
+ },
+ "MDCU78|RoB|15": {
+  "interp": "CT angiography เห็น intimal flap แบ่ง aorta เป็น true และ false lumen = aortic dissection (ต่อเนื่องจากเคสข้อก่อน) — ข้อ <b>NOT</b>: ถามภาวะที่<b>ไม่ใช่</b>สาเหตุการตายของ aortic dissection",
+  "why": "สาเหตุการตายของ aortic dissection มาจาก 3 กลไก: (1) <b>rupture</b> → hemopericardium/cardiac tamponade (สาเหตุตายสำคัญที่สุดของ type A) หรือ hemothorax (2) <b>ลิ้น aortic รั่วเฉียบพลัน</b> จาก root ขยายหรือ flap ทำให้ลิ้นเสียการพยุง → heart failure (3) <b>malperfusion</b> เมื่อ flap หรือ false lumen อุดแขนง: coronary (มัก RCA) → MI · carotid/innominate → stroke · mesenteric → bowel ischemia · renal → AKI · แขนขาขาดเลือด · spinal → paraplegia · <b>Pulmonary embolism</b> เป็นลิ่มเลือดจากระบบหลอดเลือดดำ (DVT) ไม่ใช่ภาวะแทรกซ้อนของ dissection ซึ่งเป็นโรคของระบบหลอดเลือดแดง จึงเป็นคำตอบของข้อ NOT",
+  "wrong": {
+   "A": "Stroke เป็นสาเหตุตายได้จริงเมื่อ dissection ลามเข้า innominate หรือ carotid artery หรือความดันต่ำจาก tamponade — จะถูก (เป็นคำตอบของข้อ NOT) ถ้าโรคในโจทย์เป็น infrarenal abdominal aortic aneurysm แตก ซึ่งไม่เกี่ยวกับหลอดเลือดไปสมอง",
+   "B": "Bowel ischemia จาก mesenteric malperfusion เป็นภาวะแทรกซ้อนที่อัตราตายสูงมาก (มักวินิจฉัยช้า) — จะถูก (เป็นคำตอบของข้อ NOT) ถ้าโรคในโจทย์เป็น type A dissection ที่จำกัดอยู่แค่ ascending aorta (DeBakey II) ซึ่งไม่ลามถึงแขนงในท้อง",
+   "C": "MI เกิดเมื่อ flap อุด coronary ostium (ส่วนใหญ่ RCA) — อันตรายเพราะถูกวินิจฉัยเป็น STEMI แล้วได้ thrombolysis — จะถูก (เป็นคำตอบของข้อ NOT) ถ้าโรคในโจทย์เป็น type B dissection ที่ไม่เกี่ยวกับ aortic root",
+   "D": "Acute aortic regurgitation จาก root ขยายหรือ flap ห้อยผ่านลิ้น ทำให้ pulmonary edema และ cardiogenic shock — พบใน type A เกือบครึ่ง; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าโรคในโจทย์เป็น type B dissection"
+  },
+  "trap": "ข้อ NOT — ต้องหาภาวะที่ไม่เกี่ยว · PE เป็นโรคของระบบหลอดเลือดดำ ส่วนภาวะแทรกซ้อนของ dissection มาจาก rupture, AR และการอุดแขนงของ aorta (coronary, carotid, mesenteric, renal, spinal, limb)",
+  "summary": [
+   "Rupture → tamponade/hemothorax = สาเหตุตายที่สำคัญที่สุดของ type A",
+   "Malperfusion: coronary (MI, มัก RCA), cerebral (stroke), spinal (paraplegia), mesenteric (bowel ischemia), renal (AKI), limb ischemia",
+   "Acute AR: diastolic murmur ใหม่, pulse pressure กว้าง, pulmonary edema",
+   "Type A ที่มี pericardial effusion + ความดันต่ำ → ไปห้องผ่าตัดทันที เลี่ยง pericardiocentesis เพราะความดันที่ดีขึ้นทำให้เลือดออกมากขึ้น (ถ้าจำเป็นระบายทีละน้อย)",
+   "ลักษณะที่ชวนสงสัย dissection: เจ็บฉีกร้าวไปหลังทันที, ชีพจรหรือ BP แขนสองข้างต่างกัน, mediastinum กว้าง, neurological deficit ร่วม",
+   "Inferior STEMI ร่วมกับเจ็บร้าวไปหลังหรือชีพจรไม่เท่ากัน → คิดถึง dissection ก่อนให้ thrombolysis"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง — รูปในไฟล์มีคำอธิบาย true/false lumen ชัดว่าเป็น aortic dissection และช้อย A–D เป็นภาวะแทรกซ้อนที่ทำให้ตายได้ทั้งหมด ส่วน PE เป็นโรคหลอดเลือดดำที่ไม่เกี่ยวข้อง",
+  "variants": [
+   "ผู้ป่วย acute type A dissection มี ST elevation ใน II, III, aVF หลอดเลือดใดถูกอุดบ่อยที่สุด → right coronary artery",
+   "ผู้ป่วย type A dissection มี pericardial effusion ร่วมกับความดันต่ำ การรักษาที่แท้จริงคือ → ผ่าตัดเปลี่ยน ascending aorta ด่วน",
+   "ผู้ป่วย type B dissection หลังผ่าตัด TEVAR ขาอ่อนแรงทั้งสองข้าง → spinal cord ischemia ระบาย CSF (lumbar drain) และเพิ่ม MAP",
+   "ผู้ป่วย dissection มีเสียง diastolic murmur ใหม่ เหนื่อยหอบ ปอดมีน้ำ → acute aortic regurgitation"
+  ]
+ },
+ "MDCU78|RoB|16": {
+  "interp": "ชายอายุน้อยปวดสีข้างขวาร้าวลงขาหนีบรุนแรงทันที คลื่นไส้ กระสับกระส่าย = renal colic · แต่<b>แพ้ NSAIDs รุนแรง</b> → ถามยาแก้ปวดที่เหมาะที่สุดเมื่อใช้ยาลำดับแรกไม่ได้",
+  "why": "Renal colic: ยาลำดับแรกคือ <b>NSAIDs</b> (diclofenac, ketorolac, ibuprofen) ซึ่งลดการสร้าง prostaglandin → ลดความดันใน renal pelvis และการบีบเกร็งของท่อไต ได้ผลเท่าหรือดีกว่า opioid และต้องใช้ยาแก้ปวดเสริมน้อยกว่า (EAU) · paracetamol ทางหลอดเลือดใช้แทนได้ · เมื่อ<b>ห้ามใช้ NSAIDs</b> (แพ้, CKD/AKI, GI bleeding, ตั้งครรภ์ไตรมาส 3) → ใช้ <b>opioid</b> เช่น morphine หรือ fentanyl ทางหลอดเลือด (ร่วมกับยาแก้อาเจียน) · ช้อย A–C เป็น NSAIDs ทั้งหมดจึงห้ามในผู้ป่วยรายนี้ · หลังคุมปวดได้ส่ง NCCT KUB หาขนาดและตำแหน่งนิ่ว",
+  "wrong": {
+   "A": "Ibuprofen เป็น NSAID ห้ามใช้ในผู้ที่แพ้ NSAID รุนแรง · จะถูกถ้าผู้ป่วยไม่มีข้อห้าม NSAID และปวดไม่มากรักษาแบบผู้ป่วยนอก",
+   "B": "Ketorolac เป็น NSAID ชนิดฉีด ได้ผลดีมากใน renal colic แต่ห้ามในผู้แพ้ NSAID · จะถูกถ้าผู้ป่วยปวดรุนแรงที่ ER โดยไม่มีข้อห้าม NSAID",
+   "C": "Diclofenac เป็น NSAID ที่ใช้บ่อยที่สุดใน renal colic (first-line ตาม EAU) แต่ห้ามในผู้แพ้ · จะถูกถ้าผู้ป่วยไม่มีประวัติแพ้ NSAID ไตปกติ",
+   "E": "Antispasmodic (hyoscine butylbromide) อย่างเดียวไม่ได้ผลดีกว่า placebo ในการลดปวด renal colic จึงไม่แนะนำเป็นยาเดี่ยว · จะถูกถ้าโจทย์ถามยาแก้ปวดเกร็งท้องจาก intestinal colic (ไม่ใช่ renal colic)"
+  },
+  "trap": "ท่องว่า NSAIDs เป็น first-line ของ renal colic แล้วเลือกโดยไม่อ่านว่าผู้ป่วยแพ้ — ช้อย A, B, C เป็น NSAIDs ทั้งหมด (ketorolac และ diclofenac ก็เป็น NSAID) · antispasmodic อย่างเดียวไม่ช่วยลดปวด renal colic",
+  "summary": [
+   "Renal colic analgesia: NSAIDs first-line (หรือ IV paracetamol) → opioid เมื่อห้าม NSAIDs (แพ้, CKD/AKI, GI bleeding, ตั้งครรภ์ไตรมาส 3) หรือปวดไม่หาย",
+   "Antispasmodic (hyoscine) อย่างเดียวไม่ช่วยลดปวด renal colic",
+   "Imaging: NCCT KUB (sensitivity สูงสุด) · ultrasound ในหญิงตั้งครรภ์และเด็ก",
+   "Medical expulsive therapy: alpha-blocker (tamsulosin) สำหรับนิ่วท่อไตส่วนล่างขนาด 5–10 mm · นิ่ว ≤ 5 mm ส่วนใหญ่หลุดเอง",
+   "Emergency decompression (DJ stent หรือ PCN) เมื่อนิ่วอุดตันร่วมกับติดเชื้อ/sepsis, AKI, ไตข้างเดียว หรือปวดคุมไม่ได้",
+   "Definitive: ESWL, ureteroscopy (URS), PCNL ตามขนาดและตำแหน่งนิ่ว",
+   "ร่วมกับยาแก้อาเจียน · การให้สารน้ำปริมาณมากเพื่อดันนิ่วไม่ช่วยให้นิ่วหลุดหรือลดปวด"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — โจทย์บอกชัดว่าแพ้ NSAIDs และช้อย A–C เป็น NSAIDs ทั้งหมด; ต้นฉบับช้อย E เป็น \"xxx\" (ผู้จดจำไม่ได้) เราแต่ง hyoscine อย่างเดียวซึ่งไม่ได้ผลใน renal colic จึงไม่เปลี่ยนคำตอบ",
+  "variants": [
+   "ชายนิ่วท่อไตส่วนปลาย 4 mm ปวดคุมได้ ยาใดช่วยให้นิ่วหลุดเร็วขึ้น → tamsulosin (alpha-blocker)",
+   "ผู้ป่วยนิ่วอุดท่อไต มีไข้ ความดันต่ำ → infected obstructed kidney ใส่ DJ stent หรือ PCN ด่วน + IV antibiotics",
+   "หญิงตั้งครรภ์ 32 สัปดาห์ ปวดสีข้างแบบ renal colic ยาแก้ปวดที่เหมาะ → paracetamol หรือ opioid (เลี่ยง NSAIDs ในไตรมาส 3)",
+   "ผู้ป่วย renal colic ไม่มีข้อห้าม ยาแก้ปวดลำดับแรก → NSAID เช่น diclofenac หรือ ketorolac ฉีด"
+  ]
+ },
+ "MDCU78|RoB|17": {
+  "interp": "ชายปวดสีข้างร้าวลงขาหนีบ (renal colic) มี microscopic hematuria และพบ<b>ผลึกรูปหกเหลี่ยม</b> (hexagonal) ในปัสสาวะ — ถามชนิดของนิ่วจากรูปร่างผลึก",
+  "why": "ผลึกหกเหลี่ยมแบนคล้ายวง benzene เป็นลักษณะเฉพาะของ <b>cystine</b> (pathognomonic) · cystinuria เป็นโรคพันธุกรรม autosomal recessive ที่ proximal tubule ดูดกลับ dibasic amino acids ไม่ได้ (COLA: cystine, ornithine, lysine, arginine) cystine ละลายน้ำได้น้อยในปัสสาวะกรดจึงตกเป็นนิ่ว · มักเริ่มเป็นในวัยเด็กถึงผู้ใหญ่ตอนต้น นิ่วเป็นซ้ำและเป็นสองข้าง · ตรวจคัดกรองด้วย sodium cyanide–nitroprusside test (สีม่วงแดง) และวัด cystine ในปัสสาวะ 24 ชม. · นิ่วทึบรังสีเล็กน้อยแบบ ground glass · รักษา: ดื่มน้ำมาก (ปัสสาวะ > 3 L/วัน), ทำปัสสาวะเป็นด่าง pH > 7.5 ด้วย potassium citrate, ลดเกลือ, ถ้าไม่พอใช้ thiol drugs (tiopronin, D-penicillamine)",
+  "wrong": {
+   "A": "Uric acid stone: ผลึกรูป rhomboid หรือ rosette เหลืองส้ม เกิดในปัสสาวะกรด (pH < 5.5) นิ่วโปร่งรังสีบน plain film แต่เห็นใน CT — จะถูกถ้าโจทย์เป็นผู้ป่วย gout หรือหลังให้เคมีบำบัด (tumor lysis) KUB ไม่เห็นนิ่วแต่ CT เห็น",
+   "B": "Calcium oxalate เป็นนิ่วที่พบบ่อยที่สุด (70–80%) ผลึก dihydrate รูปซองจดหมาย (envelope/bipyramidal) monohydrate รูป dumbbell หรือเข็ม — จะถูกถ้าโจทย์ให้ผลึกรูปซองจดหมาย หรือผู้ป่วยหลังผ่าตัดลำไส้/Crohn disease (enteric hyperoxaluria) หรือกิน ethylene glycol",
+   "C": "Struvite (magnesium ammonium phosphate) ผลึกรูปฝาโลงศพ (coffin-lid) เกิดจากเชื้อที่สร้าง urease (Proteus, Klebsiella) ปัสสาวะเป็นด่าง มักเป็น staghorn calculus — จะถูกถ้าโจทย์ให้หญิงติดเชื้อทางเดินปัสสาวะซ้ำ ปัสสาวะ pH 8 และนิ่วเขากวาง",
+   "E": "Calcium phosphate (brushite/apatite) ผลึกรูปลิ่มหรือแท่งปริซึม หรือ amorphous เกิดในปัสสาวะด่าง สัมพันธ์กับ distal renal tubular acidosis และ primary hyperparathyroidism — จะถูกถ้าโจทย์เป็นผู้ป่วย distal RTA (metabolic acidosis, ปัสสาวะ pH > 5.5) ที่มีนิ่วและ nephrocalcinosis"
+  },
+  "trap": "จำรูปผลึกสลับกัน — hexagon = cystine · coffin lid = struvite · envelope = calcium oxalate dihydrate · rhomboid/rosette = uric acid · และนิ่ว cystine มักเริ่มในคนอายุน้อย ผู้ป่วย 52 ปีในโจทย์จึงไม่ทั่วไป แต่ผลึกหกเหลี่ยมเป็น pathognomonic",
+  "summary": [
+   "Calcium oxalate 70–80%: envelope (dihydrate) หรือ dumbbell (monohydrate) · ทึบรังสี",
+   "Struvite: เชื้อสร้าง urease (Proteus, Klebsiella) ปัสสาวะด่าง coffin-lid crystals staghorn → ต้องเอานิ่วออกหมด (PCNL) + รักษาการติดเชื้อ",
+   "Uric acid: ปัสสาวะกรด โปร่งรังสีบน plain film แต่เห็นใน CT · รักษาด้วยทำปัสสาวะเป็นด่าง ± allopurinol (ละลายได้)",
+   "Cystine: hexagonal crystals, AR, เริ่มอายุน้อย เป็นซ้ำ · ทำปัสสาวะด่าง pH > 7.5 + ดื่มน้ำมาก ± tiopronin",
+   "Calcium phosphate: ปัสสาวะด่าง, distal RTA, hyperparathyroidism",
+   "นิ่วที่ไม่เห็นแม้ใน CT: indinavir (ยาต้าน HIV)",
+   "ป้องกันนิ่วทั่วไป: ดื่มน้ำให้ปัสสาวะ > 2–2.5 L/วัน ลดเกลือและโปรตีนจากสัตว์ กินแคลเซียมปกติ (การงดแคลเซียมทำให้ oxalate ดูดซึมมากขึ้น)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — ผลึกหกเหลี่ยมเป็นลักษณะเฉพาะของ cystine แม้อายุ 52 ปีจะไม่ใช่วัยที่พบบ่อย; ต้นฉบับมีช้อย 4 ตัว เราเติม calcium phosphate ซึ่งผลึกรูปร่างต่างกันชัด",
+  "variants": [
+   "ผู้ป่วยนิ่วเขากวาง ติดเชื้อ Proteus ซ้ำ ปัสสาวะ pH 8 ผลึกที่พบคือ → coffin-lid (struvite)",
+   "นิ่วชนิดใดโปร่งรังสีบน plain KUB แต่เห็นใน non-contrast CT → uric acid stone",
+   "เด็กชาย 12 ปีเป็นนิ่วซ้ำสองข้าง พี่ชายเป็นเหมือนกัน cyanide-nitroprusside test บวก → cystinuria",
+   "ผู้ป่วยหลังผ่าตัดตัดลำไส้เล็กส่วนปลายออก เป็นนิ่วซ้ำ → calcium oxalate จาก enteric hyperoxaluria"
+  ]
+ },
+ "MDCU78|RoB|18": {
+  "interp": "ชาย 67 ปี LUTS ทั้ง storage (frequency, nocturia) และ voiding (ปัสสาวะไม่พุ่ง ถ่ายไม่สุด) IPSS 22 = อาการรุนแรง (20–35) · DRE ต่อมโตเล็กน้อยผิวเรียบ PSA 1 ng/mL ไม่สงสัยมะเร็ง และไม่มีภาวะแทรกซ้อน → BPH ที่อาการรบกวน ถามการรักษาที่เหมาะ",
+  "why": "BPH ที่อาการรบกวน (IPSS ≥ 8) และ<b>ยังไม่มีข้อบ่งชี้ผ่าตัด</b> → เริ่มยา · <b>alpha-1 blocker</b> (tamsulosin, alfuzosin, silodosin) เป็นยาลำดับแรก คลายกล้ามเนื้อเรียบที่คอกระเพาะปัสสาวะและต่อมลูกหมาก ออกฤทธิ์ภายในไม่กี่วัน ลดอาการราว 30–40% ใช้ได้ไม่ว่าต่อมจะโตแค่ไหน · 5-alpha reductase inhibitor ลดขนาดต่อมแต่ต้องใช้ 6 เดือนจึงเห็นผล และได้ประโยชน์เมื่อต่อมโต > 30–40 mL หรือ PSA > 1.5 ng/mL — ต่อมโตเล็กน้อย PSA 1 จึงไม่ใช่ตัวเลือกแรก · IPSS สูงอย่างเดียวไม่ใช่ข้อบ่งชี้ผ่าตัด ผ่าตัดเมื่อยาไม่ได้ผลหรือมีภาวะแทรกซ้อน",
+  "wrong": {
+   "A": "Watchful waiting (ปรับพฤติกรรม ลดน้ำก่อนนอน ลดกาแฟ/แอลกอฮอล์ และติดตาม) ใช้กับอาการน้อย IPSS 0–7 หรืออาการไม่รบกวนชีวิต — IPSS 22 ควรได้ยา; จะถูกถ้าโจทย์ให้ IPSS 6 และผู้ป่วยไม่รำคาญอาการ",
+   "C": "5-ARI (finasteride, dutasteride) ลดขนาดต่อม 20–30% ลดความเสี่ยง urinary retention และการผ่าตัดในระยะยาว แต่ออกฤทธิ์ช้าและได้ผลน้อยในต่อมเล็ก — จะถูก (มักให้ร่วมกับ alpha-blocker) ถ้าโจทย์ให้ต่อมโต > 40 mL หรือ PSA > 1.5 ng/mL",
+   "D": "TURP ใช้เมื่อยาไม่ได้ผลหรือมีข้อบ่งชี้: retention ซ้ำหรือถอดสายไม่ได้, UTI ซ้ำ, นิ่วในกระเพาะปัสสาวะ, gross hematuria ซ้ำจากต่อม, ไตเสื่อมหรือ hydronephrosis จาก BPH, bladder diverticulum — จะถูกถ้าโจทย์ให้ผู้ป่วยปัสสาวะไม่ออกซ้ำหลังถอดสายทั้งที่กิน alpha-blocker แล้ว",
+   "E": "Radical prostatectomy เป็นการรักษามะเร็งต่อมลูกหมากระยะจำกัด ไม่ใช่ BPH — DRE ผิวเรียบและ PSA 1 ไม่สงสัยมะเร็ง; จะถูกถ้าโจทย์เป็นชาย 62 ปี biopsy พบ localized prostate cancer ความเสี่ยงปานกลางและคาดชีวิต > 10 ปี"
+  },
+  "trap": "เห็น IPSS 22 (severe) แล้วเลือกผ่าตัด — คะแนนอาการไม่ใช่ข้อบ่งชี้ผ่าตัด ต้องลองยาก่อนถ้าไม่มีภาวะแทรกซ้อน · และ 5-ARI ไม่ใช่ยาแรกเมื่อต่อมเล็กและ PSA ต่ำ",
+  "summary": [
+   "IPSS: 0–7 mild · 8–19 moderate · 20–35 severe — ใช้บอกความรุนแรงและติดตามผลการรักษา",
+   "Alpha-blocker: ออกฤทธิ์เร็ว · ผลข้างเคียง orthostatic hypotension, retrograde ejaculation, intraoperative floppy iris syndrome (แจ้งก่อนผ่าตัดต้อกระจก)",
+   "5-ARI: ลดขนาดต่อม 20–30% ลดความเสี่ยง retention/ผ่าตัด · ลด PSA ราว 50% (ต้องคูณ 2 เมื่อแปลผล) · ต้องใช้ 6 เดือน",
+   "Combination (alpha-blocker + 5-ARI) ในต่อมโตและอาการปานกลาง–รุนแรง (MTOPS, CombAT) · storage symptoms เด่นเพิ่ม antimuscarinic หรือ beta-3 agonist ได้",
+   "ข้อบ่งชี้ผ่าตัด: refractory retention, UTI ซ้ำ, นิ่วในกระเพาะปัสสาวะ, hematuria ซ้ำ, ไตเสื่อม/hydronephrosis, ยาไม่ได้ผล",
+   "ผ่าตัด: TURP (มาตรฐานต่อม 30–80 mL) · HoLEP หรือ simple prostatectomy ในต่อมใหญ่มาก"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — อาการรบกวนมากแต่ไม่มีภาวะแทรกซ้อน ต่อมเล็กและ PSA ต่ำ ยาลำดับแรกตาม AUA/EAU คือ alpha-blocker; ต้นฉบับพิมพ์ครบ 5 ช้อย",
+  "variants": [
+   "ชาย BPH กิน tamsulosin อยู่ ต่อมโต 70 mL อาการยังมาก → เพิ่ม 5-ARI (finasteride หรือ dutasteride)",
+   "ภาวะแทรกซ้อนใดของ BPH เป็นข้อบ่งชี้ผ่าตัด → urinary retention ที่ถอดสายไม่ได้ซ้ำ, ไตเสื่อมหรือ hydronephrosis, นิ่วในกระเพาะปัสสาวะ, UTI หรือ hematuria ซ้ำ",
+   "ชาย 70 ปี กิน tamsulosin นัดผ่าตัดต้อกระจก ต้องแจ้งจักษุแพทย์เรื่องใด → intraoperative floppy iris syndrome",
+   "ชาย 72 ปี กิน finasteride มา 1 ปี PSA 2.5 ng/mL → แปลผลเป็นราว 5 ng/mL (คูณ 2) พิจารณาตรวจเพิ่ม"
+  ]
+ },
+ "MDCU78|RoB|19": {
+  "interp": "ชาย 65 ปี hematuria ไม่เจ็บ TURBT แล้วผลเป็น high-grade non–muscle-invasive bladder cancer (Ta/T1 high grade) — จัดเป็นกลุ่มความเสี่ยงสูงที่จะกลับเป็นซ้ำและลุกลาม ถามการรักษาต่อหลัง TURBT",
+  "why": "NMIBC ที่เป็น <b>high grade</b> (โดยเฉพาะ T1 HG, CIS หรือ Ta HG ก้อนใหญ่/หลายก้อน/กลับซ้ำ) เป็นกลุ่ม high risk → (1) ทำ <b>re-TURBT ภายใน 2–6 สัปดาห์</b> ถ้าเป็น T1 หรือตัดไม่หมด/ชิ้นเนื้อไม่มี detrusor muscle (2) <b>intravesical BCG</b>: induction สัปดาห์ละครั้ง 6 สัปดาห์ แล้ว maintenance 1–3 ปี — เป็นการรักษาเดียวที่ลดทั้ง recurrence และ <b>progression</b> ไปเป็น muscle-invasive · intravesical chemotherapy (mitomycin C) ลด recurrence แต่ไม่ลด progression จึงใช้ในกลุ่มเสี่ยงต่ำ–ปานกลาง · radical cystectomy สำหรับ very high risk หรือ BCG-unresponsive · ข้อห้าม BCG เด็ดขาด: ภายใน 2 สัปดาห์หลัง TURBT, gross hematuria, traumatic catheterization, UTI ที่มีอาการ",
+  "wrong": {
+   "A": "Observation + cystoscopy follow-up ใช้กับ low-risk NMIBC (low-grade Ta เดี่ยวเล็ก &lt; 3 cm) หลังได้ single post-op intravesical chemo · high-grade เสี่ยง progression สูง · จะถูกถ้า pathology เป็น low-grade Ta ก้อนเดียว",
+   "B": "Intravesical mitomycin C ใช้ใน low/intermediate-risk NMIBC (single instillation หรือ course) — ใน high-grade BCG ลด progression ได้ดีกว่า · จะถูกถ้าเป็น intermediate-risk NMIBC (low-grade หลายก้อน/กลับเป็นซ้ำ) หรือขาดแคลน BCG",
+   "D": "Radical cystectomy ใช้ใน MIBC (≥ T2), very high-risk NMIBC (T1 HG + CIS, variant histology, LVI) หรือ BCG-unresponsive · จะถูกถ้าก้อนลุกลามถึง detrusor muscle หรือกลับเป็นซ้ำ high-grade หลัง BCG ครบ",
+   "E": "External beam RT ไม่ใช่การรักษามาตรฐานของ NMIBC (ใช้ใน trimodality bladder preservation ของ MIBC) · จะถูกถ้าผู้ป่วย MIBC ที่ไม่เหมาะผ่าตัดและเลือก bladder-sparing (TURBT + chemoradiation)"
+  },
+  "trap": "ใช้ mitomycin C เพราะเป็นยาที่หยอดหลัง TURBT ทันที — single immediate instillation ใช้ในกลุ่มเสี่ยงต่ำ ส่วน high grade ต้อง BCG ซึ่งลด progression · และ high grade NMIBC ยังไม่ใช่ข้อบ่งชี้ cystectomy ถ้าไม่ลุกลามถึงกล้ามเนื้อหรือไม่มีลักษณะ very high risk",
+  "summary": [
+   "Painless gross hematuria ในผู้สูงอายุหรือคนสูบบุหรี่ → cystoscopy + CT urography",
+   "TURBT ต้องได้ detrusor muscle ในชิ้นเนื้อเพื่อ staging · NMIBC = Ta, T1, CIS · MIBC = ≥ T2",
+   "Low risk (Ta low grade ก้อนเดียว < 3 cm): TURBT + single immediate chemo instillation แล้วส่องกล้องติดตาม",
+   "Intermediate risk: + intravesical chemotherapy course หรือ BCG 1 ปี",
+   "High risk (T1 HG, CIS, Ta HG ที่มีปัจจัยเสี่ยง): re-TURBT (ถ้า T1/ไม่มีกล้ามเนื้อ) + BCG induction + maintenance 1–3 ปี · very high risk/BCG-unresponsive → radical cystectomy",
+   "MIBC (T2–T4a): neoadjuvant cisplatin-based chemotherapy + radical cystectomy + urinary diversion หรือ trimodality bladder preservation"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — high-grade NMIBC เป็นข้อบ่งชี้มาตรฐานของ BCG ตาม AUA/EAU; ในชีวิตจริงถ้าเป็น T1 ต้อง re-TURBT ก่อนเริ่ม BCG ซึ่งไม่มีในช้อย และ Ta HG ก้อนเล็กเดี่ยวบางเกณฑ์จัดเป็นความเสี่ยงปานกลาง แต่ไม่เปลี่ยนคำตอบในช้อยที่มี",
+  "variants": [
+   "หลัง TURBT ผลชิ้นเนื้อพบมะเร็งลุกลามถึง detrusor muscle (T2) → neoadjuvant cisplatin-based chemotherapy + radical cystectomy",
+   "บทบาทของ single immediate instillation ของ chemotherapy หลัง TURBT → ลด recurrence ใน NMIBC ความเสี่ยงต่ำ (ไม่ลด progression)",
+   "ผู้ป่วย NMIBC T1 HG ผล TURBT ครั้งแรกไม่มีกล้ามเนื้อในชิ้นเนื้อ → re-TURBT ภายใน 2–6 สัปดาห์",
+   "ผู้ป่วย high-grade NMIBC กลับเป็นซ้ำ high grade ภายใน 6 เดือนหลังได้ BCG ครบ → BCG-unresponsive พิจารณา radical cystectomy"
+  ]
+ },
+ "MDCU78|RoB|20": {
+  "interp": "ชาย 60 ปี CT พบ renal cystic lesion ที่มีผนังกั้นหนาที่ enhance และมีเนื้อตันที่ enhance = Bosniak IV (complex cyst ที่เสี่ยงมะเร็งสูง) — ถามการจัดการ",
+  "why": "<b>Bosniak classification</b> (2019) ใช้ CT/MRI ที่มี contrast จัดความเสี่ยงมะเร็งของ renal cyst: I simple cyst · II minimally complex (benign) · IIF ต้องติดตาม · <b>III</b> ผนังหรือ septa หนาหรือขรุขระที่ enhance (มะเร็งราวครึ่งหนึ่ง) · <b>IV</b> มี enhancing soft-tissue nodule (มะเร็งราว 90%) · การ<b>enhance</b> แปลว่ามีเลือดเลี้ยง = เนื้อเยื่อที่มีชีวิต ไม่ใช่แค่ของเหลว จึงเป็น cystic renal cell carcinoma จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ → ผ่าตัดเอาก้อนออก โดยเลือก <b>partial nephrectomy</b> ถ้าทำได้ (nephron-sparing) · ผู้สูงอายุหรือโรคร่วมมากพิจารณา active surveillance ได้ · ตรงกับคีย์ \"Complicated renal cyst\"",
+  "wrong": {
+   "A": "Observation ด้วย ultrasound ใช้กับ Bosniak I–II (ไม่ต้องติดตาม) และ IIF (ติดตามด้วย CT/MRI ไม่ใช่ US) — ก้อนที่มีเนื้อตัน enhance เสี่ยงมะเร็งสูง; จะถูกถ้าโจทย์เป็น simple cyst ผนังบางไม่มี septa ไม่ enhance (ซึ่งไม่ต้องติดตามเลย) หรือ Bosniak III–IV ในผู้ป่วยสูงอายุที่โรคร่วมมาก (active surveillance ด้วย CT/MRI)",
+   "B": "Percutaneous aspiration ไม่ช่วยวินิจฉัย cystic RCC (cytology มัก false negative) และเสี่ยง tumor seeding — จะถูกถ้าโจทย์เป็น simple cyst ขนาดใหญ่ที่กดทับจนปวดหรืออุดตัน (aspiration + sclerotherapy)",
+   "C": "Antibiotics ใช้กับ infected cyst หรือ renal abscess ซึ่งมาด้วยไข้ ปวด เม็ดเลือดขาวสูง และ CT เห็นของเหลวมีผนังหนาร่วมกับการอักเสบรอบ ๆ — จะถูกถ้าโจทย์ให้ไข้สูง กดเจ็บ และ pyuria ร่วมกับ cystic lesion",
+   "E": "Percutaneous drainage ใช้กับ renal abscess ขนาดใหญ่หรือ infected cyst ที่ยาไม่ได้ผล ไม่ใช่ cystic neoplasm ซึ่งการเจาะเสี่ยง seeding — จะถูกถ้าโจทย์เป็น renal abscess ขนาด 6 cm ที่มีไข้"
+  },
+  "trap": "เห็นคำว่า cyst แล้วคิดว่าไม่ร้าย — ต้องดูว่ามี enhancement หรือไม่: ผนัง/septa หนาที่ enhance หรือมีเนื้อตัน enhance = Bosniak III–IV ต้องผ่าตัด · ไม่เจาะดูดหรือ biopsy เพราะไม่ช่วยและเสี่ยง seeding",
+  "summary": [
+   "จัด Bosniak ต้องใช้ CT หรือ MRI แบบมี contrast หลาย phase · ultrasound บอกได้แค่ simple cyst ถ้าซับซ้อนต้องส่ง CT/MRI ต่อ · ไม่เจาะดูดหรือ biopsy cystic lesion",
+   "Bosniak I–II: benign ไม่ต้องติดตาม",
+   "Bosniak IIF: ติดตาม CT/MRI ราว 6 เดือน, 12 เดือน แล้วรายปีถึง 5 ปี",
+   "Bosniak III (~50% มะเร็ง) และ IV (~90%): ผ่าตัดแบบ nephron-sparing หรือ active surveillance ในผู้สูงอายุ/โรคร่วมมาก",
+   "Small renal mass < 4 cm (T1a): partial nephrectomy มาตรฐาน · thermal ablation หรือ active surveillance ในรายที่เสี่ยงผ่าตัด",
+   "RCC: classic triad (ปวดสีข้าง, hematuria, ก้อน) พบเพียงราว 10% · ส่วนใหญ่พบโดยบังเอิญจาก imaging",
+   "Paraneoplastic ของ RCC: polycythemia (EPO), hypercalcemia (PTHrP), hypertension (renin), Stauffer syndrome"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — ไฟล์ Key 78B ให้เหตุผลว่าเป็น complicated renal cyst; ต้นฉบับบอกแค่ cystic lesion ที่ enhance เราเติมลักษณะ septa หนาและเนื้อตันให้ชัดว่าเป็น Bosniak IV ซึ่งการผ่าตัดเป็นคำตอบเดียว",
+  "variants": [
+   "Renal cyst มี septa บางเส้นผมไม่กี่เส้น ไม่มี enhancement ที่วัดได้ → Bosniak II ไม่ต้องติดตาม",
+   "ก้อน renal mass ที่ enhance ขนาด 3 cm ในผู้ป่วยสุขภาพดี → partial nephrectomy",
+   "ชาย 82 ปี โรคหัวใจรุนแรง พบ Bosniak III ขนาด 2 cm → active surveillance ด้วย CT/MRI",
+   "ชาย 55 ปี hematuria Hb 19 g/dL CT พบก้อนที่ไตขวา → RCC ที่มี paraneoplastic polycythemia จาก EPO"
+  ]
+ },
+ "MDCU78|RoB|21": {
+  "interp": "หญิง 45 ปี ไข้ ปวดสีข้าง อ่อนเพลีย CT พบ renal abscess 3.5 cm และ hemodynamically stable — ถามการรักษา<b>เริ่มต้น</b> ซึ่งขึ้นกับขนาดก้อนและสภาพผู้ป่วย",
+  "why": "Renal (intrarenal) abscess เลือกการรักษาตามขนาด: <b>< 3 cm → IV antibiotics</b> อย่างเดียวมักหาย · <b>3–5 cm ในผู้ป่วยที่ stable และภูมิปกติ → เริ่ม IV antibiotics</b> แล้วประเมินใน 48–72 ชม. ถ้าไข้ไม่ลงหรือก้อนโต → percutaneous drainage (บางแนวทางระบายเลยในกลุ่มนี้) · <b>> 5 cm</b>, ไม่ตอบสนองต่อยา, immunocompromised หรือ sepsis → percutaneous drainage + antibiotics · ผู้ป่วยรายนี้ 3.5 cm และ stable จึงเริ่มด้วย IV antibiotics ตามคีย์ · สาเหตุส่วนใหญ่เป็น ascending infection จาก E. coli/gram-negative (มักร่วมกับนิ่วหรือการอุดตัน) ส่วนแบบ hematogenous มักเป็น S. aureus · ต้องหาและแก้ปัจจัย เช่น obstruction, เบาหวาน และติดตาม imaging จนก้อนยุบ",
+  "wrong": {
+   "A": "Oral antibiotics ไม่พอในระยะแรกของ abscess ที่มีไข้ เพราะต้องได้ระดับยาสูงเข้าไปในก้อน เริ่มด้วยยาทางหลอดเลือดก่อนแล้วค่อยเปลี่ยนเป็นยากินเมื่อไข้ลง — จะถูกถ้าโจทย์ถามการรักษาต่อหลังได้ IV antibiotics จนไข้ลงและก้อนยุบแล้ว",
+   "C": "Percutaneous drainage ใช้เมื่อก้อน > 5 cm, ไม่ตอบสนองต่อ IV antibiotics 48–72 ชม., ผู้ป่วยภูมิคุ้มกันต่ำ หรือ perinephric abscess — จะถูกถ้าโจทย์ให้ก้อน 7 cm หรือยังไข้สูงหลังให้ยา 3 วัน",
+   "D": "Nephrectomy ใช้เมื่อไตเสียหายทั้งหมดหรือไม่ทำงาน (เช่น xanthogranulomatous pyelonephritis, pyonephrosis ในไตที่ไม่ทำงาน) หรือการรักษาอื่นล้มเหลวทั้งหมด — จะถูกถ้าโจทย์เป็นไตที่ไม่ทำงานจากนิ่วเขากวางและติดเชื้อเรื้อรัง",
+   "E": "Open surgical drainage สงวนไว้เมื่อ percutaneous drainage ล้มเหลว หรือหนองเป็นช่องหลายช่องที่ระบายผ่านผิวหนังไม่ได้ — จะถูกถ้าโจทย์ให้ multiloculated perinephric abscess ที่ระบายด้วยสายแล้วไม่ดีขึ้น"
+  },
+  "trap": "เห็นคำว่า abscess แล้วคิดว่าต้องระบายทุกราย — renal abscess ขนาดเล็กถึงปานกลางในผู้ป่วยที่ stable เริ่มด้วย IV antibiotics ได้ ระบายเมื่อก้อน > 5 cm หรือไม่ตอบสนองต่อยา · perinephric abscess ต่างกัน มักต้องระบาย",
+  "summary": [
+   "อาการ: ไข้ หนาวสั่น ปวดสีข้าง · urine culture อาจปกติในแบบ hematogenous · CT with contrast เป็นการตรวจหลัก (ultrasound ใช้ติดตาม)",
+   "Renal abscess < 3 cm: IV antibiotics",
+   "3–5 cm: IV antibiotics แล้วประเมิน 48–72 ชม. · ระบายถ้าไม่ดีขึ้น ภูมิต่ำ หรือ sepsis",
+   "> 5 cm: percutaneous drainage + IV antibiotics",
+   "Perinephric abscess (หนองรอบไตใน Gerota fascia): มักต้องระบาย",
+   "ยาเริ่มต้นครอบคลุม gram-negative (เช่น ceftriaxone) และเพิ่มยาต้าน S. aureus ถ้าสงสัย hematogenous แล้วปรับตาม culture จากเลือด ปัสสาวะ หรือหนอง",
+   "เชื้อ: ascending (E. coli, gram-negative, มีนิ่ว/อุดตัน) · hematogenous (S. aureus จากผิวหนัง หรือ IV drug use)",
+   "หาและแก้ปัจจัย: นิ่ว การอุดตัน เบาหวาน · CT ซ้ำเมื่อไม่ดีขึ้นและติดตามจนก้อนยุบ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจปานกลาง-สูง — ขนาด 3.5 cm ในผู้ป่วย stable อยู่ในกลุ่มที่เริ่ม IV antibiotics ได้ แต่ช่วง 3–5 cm แนวทางต่างกันเล็กน้อย บางสถาบันระบายเลย เราเติมคำว่า initial ใน stem ให้ชัดว่าถามขั้นแรก",
+  "variants": [
+   "ผู้ป่วย renal abscess 7 cm ให้ IV antibiotics มา 48 ชม. ยังไข้สูง → percutaneous drainage",
+   "Renal abscess จากการแพร่ทางกระแสเลือดในผู้ใช้ยาเสพติดทางหลอดเลือด เชื้อที่พบบ่อยคือ → Staphylococcus aureus",
+   "ผู้ป่วย renal abscess 2 cm ไข้ลงหลัง IV ceftriaxone 4 วัน → เปลี่ยนเป็นยากินให้ครบ และ imaging ติดตาม",
+   "ผู้ป่วยเบาหวาน ไข้ ปวดสีข้าง CT พบหนองรอบไตใน Gerota fascia → perinephric abscess ระบายด้วยสาย + IV antibiotics"
+  ]
+ },
+ "MDCU78|RoB|22": {
+  "interp": "ถามความรู้ตรง: มะเร็งกระเพาะปัสสาวะชนิดใดสัมพันธ์มากที่สุดกับการติดเชื้อและการระคายเคืองเรื้อรัง — กลไกคือเยื่อบุถูกระคายนานจนเปลี่ยนเป็น squamous metaplasia แล้วกลายเป็นมะเร็ง",
+  "why": "<b>Squamous cell carcinoma</b> ของกระเพาะปัสสาวะเกิดจากการอักเสบหรือระคายเคืองเรื้อรัง → urothelium เปลี่ยนเป็น squamous metaplasia (keratinizing) → dysplasia → SCC · ปัจจัยเสี่ยง: <b>schistosomiasis</b> (S. haematobium — สาเหตุหลักในอียิปต์และแอฟริกา), คาสายสวนปัสสาวะนาน (ผู้ป่วย spinal cord injury), UTI ซ้ำ, นิ่วในกระเพาะปัสสาวะ, bladder diverticulum · มักพบเมื่อลุกลามแล้วและพยากรณ์ไม่ดี · urothelial (transitional cell) carcinoma พบบ่อยที่สุด (~90%) แต่สัมพันธ์กับบุหรี่และสารเคมีมากกว่าการติดเชื้อ",
+  "wrong": {
+   "B": "Urothelial (transitional cell) carcinoma พบบ่อยที่สุด (~90%) ปัจจัยเสี่ยงสำคัญที่สุดคือบุหรี่ รองลงมาคือ aromatic amines (อุตสาหกรรมสีย้อม ยาง), cyclophosphamide, การฉายรังสีที่อุ้งเชิงกราน — จะถูกถ้าโจทย์ถามมะเร็งกระเพาะปัสสาวะที่สัมพันธ์กับการสูบบุหรี่หรือการทำงานในโรงงานสีย้อม",
+   "C": "Adenocarcinoma ของกระเพาะปัสสาวะสัมพันธ์กับ urachal remnant (ก้อนที่ dome), bladder exstrophy และ cystitis glandularis — จะถูกถ้าโจทย์เป็นก้อนที่ยอดกระเพาะปัสสาวะร่วมกับปัสสาวะมีมูก หรือผู้ป่วยที่เคยเป็น bladder exstrophy",
+   "D": "Small cell carcinoma เป็น neuroendocrine tumor ที่ลุกลามเร็ว พบน้อยมาก ไม่สัมพันธ์กับการติดเชื้อเรื้อรัง — จะถูกถ้าโจทย์ถามชนิดที่ลุกลามเร็วที่สุดและรักษาด้วย chemotherapy ก่อนเป็นหลักแบบ small cell lung cancer",
+   "E": "Sarcoma ของกระเพาะปัสสาวะพบน้อย: ผู้ใหญ่เป็น leiomyosarcoma (เสี่ยงขึ้นหลัง cyclophosphamide หรือฉายรังสี) เด็กเป็น embryonal rhabdomyosarcoma (sarcoma botryoides) — จะถูกถ้าโจทย์เป็นเด็กเล็กมีก้อนคล้ายพวงองุ่นยื่นออกจากท่อปัสสาวะหรือช่องคลอด"
+  },
+  "trap": "ตอบ transitional cell เพราะพบบ่อยที่สุด — โจทย์ถามความสัมพันธ์กับการติดเชื้อและระคายเคืองเรื้อรัง ซึ่งเป็น squamous cell (schistosomiasis, สายสวนคาไว้นาน, นิ่ว) · บุหรี่ = urothelial · urachus = adenocarcinoma",
+  "summary": [
+   "Urothelial carcinoma (~90%): บุหรี่สำคัญที่สุด, aromatic amines, cyclophosphamide, ฉายรังสี, aristolochic acid",
+   "SCC: schistosomiasis, สายสวนคาไว้นาน (spinal cord injury), UTI ซ้ำ, นิ่ว, diverticulum — มักพบเมื่อลุกลามแล้ว",
+   "Schistosoma haematobium: ไข่พยาธิฝังในผนังกระเพาะปัสสาวะเกิด granuloma หินปูนที่ผนัง และ squamous metaplasia · SCC รักษาหลักด้วย radical cystectomy (ตอบสนองต่อ chemotherapy/RT น้อยกว่า urothelial)",
+   "Adenocarcinoma: urachal remnant (dome), bladder exstrophy, cystitis glandularis",
+   "เด็ก: embryonal rhabdomyosarcoma (sarcoma botryoides)",
+   "Hematuria ไม่เจ็บในผู้ใหญ่ = มะเร็งทางเดินปัสสาวะจนกว่าจะพิสูจน์ว่าไม่ใช่ → cystoscopy + CT urography",
+   "ผู้ป่วยที่คาสายสวนนานหรือ spinal cord injury: hematuria ใหม่ต้องส่องกล้อง"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — การติดเชื้อและระคายเคืองเรื้อรังทำให้เกิด squamous metaplasia ซึ่งนำไปสู่ SCC เป็นความรู้มาตรฐาน; ต้นฉบับพิมพ์ครบ 5 ช้อย",
+  "variants": [
+   "ชาย spinal cord injury คาสายสวนปัสสาวะมา 15 ปี มี hematuria → เสี่ยง squamous cell carcinoma ของกระเพาะปัสสาวะ ส่อง cystoscopy",
+   "ก้อนที่ยอด (dome) ของกระเพาะปัสสาวะในผู้ที่มี urachal remnant ปัสสาวะมีมูก → adenocarcinoma",
+   "ชายทำงานโรงงานสีย้อม สูบบุหรี่ 30 pack-years hematuria ไม่เจ็บ → urothelial carcinoma",
+   "ชายจากอียิปต์ มีประวัติ schistosomiasis hematuria → squamous cell carcinoma"
+  ]
+ },
+ "MDCU78|RoB|23": {
+  "interp": "เด็กชาย 15 เดือน อัณฑะไม่ลงถุงทั้งสองข้าง คลำได้ที่ขาหนีบและดึงลงถุงไม่ได้ (ไม่ใช่ retractile testis) · อายุเลย 6 เดือนแล้วจึงไม่ลงเอง → ถามการจัดการ",
+  "summary": [
+   "UDT พบราว 3% ในทารกครบกำหนด และ 30% ในทารกคลอดก่อนกำหนด · ส่วนใหญ่ลงเองภายในอายุ 6 เดือน (corrected) หลังจากนั้นไม่ลงเองอีก",
+   "Orchiopexy ช่วงอายุ 6–18 เดือน (AUA, EAU) เพื่อรักษาการสร้างอสุจิและให้คลำตรวจมะเร็งได้",
+   "Palpable → inguinal orchiopexy (bilateral ทำครั้งเดียวได้) · nonpalpable → EUA + diagnostic laparoscopy (Fowler-Stephens ถ้าอยู่สูง)",
+   "ไม่ต้อง ultrasound ก่อนส่งต่อหรือผ่าตัด · ไม่ใช้ hormonal therapy เป็นการรักษาหลัก",
+   "Bilateral nonpalpable หรือ UDT ร่วมกับ hypospadias → ตรวจหา DSD (karyotype, 17-OHP) โดยเฉพาะ 46,XX CAH",
+   "ความเสี่ยงระยะยาว: มีบุตรยาก (โดยเฉพาะสองข้าง), มะเร็งอัณฑะ (seminoma) สูงขึ้นราว 2–8 เท่า, torsion, inguinal hernia · ผ่าตัดก่อนวัยรุ่นลดความเสี่ยงมะเร็ง"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — อายุ 15 เดือนอยู่ในช่วงที่ AUA/EAU แนะนำให้ผ่าตัด และคลำได้ทั้งสองข้างจึงทำ inguinal orchiopexy พร้อมกันได้; เราเติม \"not manipulable into the scrotum\" เพื่อแยกจาก retractile testis ซึ่งไม่ต้องผ่าตัด",
+  "variants": [
+   "เด็ก 1 ปี คลำอัณฑะข้างซ้ายไม่ได้ทั้งในถุงและขาหนีบ → examination under anesthesia + diagnostic laparoscopy",
+   "ทารกแรกเกิด คลำอัณฑะไม่ได้ทั้งสองข้างร่วมกับ hypospadias → ต้องตรวจหา DSD (karyotype, 17-OHP) โดยเฉพาะ CAH",
+   "เด็ก 4 ปี อัณฑะอยู่ขาหนีบเวลาตกใจหรืออากาศเย็น ดึงลงถุงได้และค้างอยู่ → retractile testis ติดตามปีละครั้ง",
+   "ทารก 3 เดือน อัณฑะข้างขวาคลำได้ที่ขาหนีบ → รอดูถึงอายุ 6 เดือน ถ้าไม่ลงส่งผ่าตัด"
+  ]
+ }
+}
