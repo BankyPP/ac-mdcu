@@ -17,6 +17,6 @@ for(const q of L.slice(FROM,FROM+N)){
   console.log('STEM: '+T(q.stem));
   (q.opts||[]).forEach((o,i)=>console.log(' '+LT[i]+(i===q.ans?'*':' ')+' '+T(o)));
   console.log('KEY: '+T(q.key)+(q.gray?'\nGRAY: '+T(q.gray):'')+(q.notes?'\nNOTES: '+T(q.notes):'')+(q.guide?'\nGUIDE: '+T(q.guide):''));
-  console.log('OPINION: '+T(q.opinion).slice(0,400));
+  console.log('NOW opinion: '+T(q.opinion)+'\nNOW variants: '+JSON.stringify((q.variants||[]).map(x=>T(typeof x==='string'?x:JSON.stringify(x)))));
   console.log('NOW interp: '+T(q.interp)+'\nNOW why: '+T(q.why)+'\nNOW wrong: '+JSON.stringify(q.wrong)+'\nNOW trap: '+T(q.trap)+'\nNOW summary: '+JSON.stringify((q.summary||[]).map(T)));
 }
