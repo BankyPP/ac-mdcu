@@ -31,6 +31,11 @@ def build(slug):
           ) % (slug, json.dumps(ex, ensure_ascii=False, separators=(",", ":")))
     open(os.path.join(ROOT, d, "explain.js"), "w", encoding="utf-8").write(js)
     print(f"{d}/explain.js: {len(ex)} ข้อ")
+    # ตัวกันคุณภาพ (24 พ.ย. 2026): แพตช์ zq* ต้องผ่าน tools/explain_quality.js ทุกข้อ ไม่งั้นหยุด
+    import subprocess
+    r = subprocess.run(["node", os.path.join(ROOT, "tools/explain_gate.js"), slug], env={**os.environ, "DIR": d}, capture_output=True, text=True)
+    print(r.stdout.rstrip() or r.stderr.rstrip())
+    if r.returncode: sys.exit(f"❌ {slug}: gate ไม่ผ่าน — ห้าม build/push จนกว่าจะแก้แพตช์ zq*")
 
 slugs = sys.argv[1:] or sorted(os.path.basename(p) for p in glob.glob(os.path.join(ROOT, "parts/explain/*")) if os.path.isdir(p))
 for s in slugs: build(s)
