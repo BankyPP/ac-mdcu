@@ -1,0 +1,137 @@
+{
+ "MDCU77|RoA|CVT 1": {
+  "interp": "ถามกลไกที่ cardioplegia มาตรฐานซึ่งมีโพแทสเซียมสูงหยุดหัวใจระหว่างผ่าตัด — หัวใจหยุดในสภาพเยื่อหุ้มเซลล์ depolarize ค้าง และหยุดในระยะคลายตัว (diastole)",
+  "why": "สารละลาย cardioplegia ที่มี K⁺ สูง (ราว 15–30 mEq/L) ทำให้ resting membrane potential สูงขึ้นจากราว −90 เป็นราว −50 mV · ที่ศักย์นี้ fast Na⁺ channel ถูก inactivate จึงไม่เกิด action potential และกล้ามเนื้อไม่หดตัว หัวใจหยุดนิ่งในสภาพ<b>คลายตัว (diastolic arrest) แบบ depolarized</b> · การหยุดในระยะคลายตัวลดการใช้ออกซิเจนลงราว 90% เมื่อร่วมกับการทำให้เย็นยิ่งลดลงอีก ทำให้ผ่าตัดในหัวใจที่นิ่งและไม่มีเลือดได้ระหว่าง aortic cross-clamp โดยกล้ามเนื้อหัวใจเสียหายน้อยที่สุด",
+  "wrong": {
+   "B": "Repolarized (polarized/hyperpolarized) arrest คือหยุดหัวใจโดยคงศักย์ไว้ใกล้ค่าพัก ซึ่งทำได้ด้วยสารคนละกลุ่ม ไม่ใช่ K⁺ สูง; จะถูกถ้าใช้ cardioplegia ชนิด polarizing เช่น adenosine + lidocaine หรือสาร K-channel opener",
+   "C": "Systolic arrest หรือ ischemic contracture (\"stone heart\") คือกล้ามเนื้อหดเกร็งค้างจาก Ca²⁺ ล้นและ ATP หมด เป็นภาวะอันตรายที่ cardioplegia ตั้งใจป้องกัน; จะถูกถ้าหัวใจขาดเลือดนานระหว่าง cross-clamp โดยไม่ได้ให้ cardioplegia หรือให้ไม่พอ",
+   "D": "VF ยังใช้ออกซิเจนมากกว่าการหยุดในระยะคลายตัวและเป็นสิ่งที่ต้องเลี่ยงระหว่างหัวใจขาดเลือด; จะถูกถ้าเป็นช่วงปล่อย cross-clamp แล้วหัวใจอุ่นกลับ (reperfusion VF ที่ต้อง defibrillate) หรือเทคนิค hypothermic fibrillatory arrest ที่ใช้เฉพาะบางการผ่าตัด",
+   "E": "Complete heart block ไม่ใช่กลไกที่ cardioplegia ใช้หยุดหัวใจ; จะถูกถ้าเป็นภาวะหลังผ่าตัดเปลี่ยนลิ้น aortic หรือปิด VSD ที่ไหมเย็บโดนระบบนำไฟฟ้า (AV node/His) จนต้องใส่ pacemaker"
+  },
+  "trap": "คิดว่า K⁺ สูงทำให้เซลล์ hyperpolarize — ที่ถูกคือ depolarize ค้างจน Na⁺ channel ปิด · อีกจุดคือสับสนกับ hyperkalemia ในร่างกายซึ่งทำให้หัวใจหยุดแบบอันตราย ต่างจาก cardioplegia ที่ให้เฉพาะ coronary ระหว่าง cross-clamp",
+  "summary": [
+   "ส่วนประกอบ: K⁺ สูง (หยุดหัวใจ) · Mg²⁺ (ลด Ca²⁺ เข้าเซลล์) · buffer · ± เลือด (blood cardioplegia นำออกซิเจนได้) · ความเย็น 4–10°C",
+   "เส้นทาง: antegrade ทาง aortic root หรือรูเปิด coronary โดยตรง · retrograde ทาง coronary sinus (ช่วยเมื่อมี coronary ตีบมากหรือลิ้น aortic รั่ว)",
+   "ให้ซ้ำทุกราว 15–20 นาที · del Nido cardioplegia ให้ครั้งเดียวอยู่ได้ราว 60–90 นาที",
+   "Cardiopulmonary bypass: เลือดดำจาก right atrium/vena cava → oxygenator → กลับเข้า aorta · aortic cross-clamp แยกหัวใจออกจากวงจร",
+   "ป้องกันกล้ามเนื้อหัวใจ = หยุดหัวใจเร็ว + เย็น + venting ไม่ให้หัวใจโป่ง · ภาวะแทรกซ้อน: myocardial stunning, low cardiac output, หัวใจเต้นผิดจังหวะ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 77A: \"hyperK → depolarized standstill and diastolic standstill\") ความมั่นใจสูง · ต้นฉบับแยก depolarized กับ diastolic เป็นคนละบรรทัด เรารวมเป็นช้อย A และเติม C–E",
+  "variants": [
+   "ทำไมต้องทำให้หัวใจเย็นร่วมกับ cardioplegia → ลด metabolic rate เพิ่มเวลาที่หัวใจทนการขาดเลือดได้",
+   "ผู้ป่วยลิ้น aortic รั่วรุนแรงผ่าตัดลิ้น ให้ cardioplegia ทาง aortic root ไม่ได้ผล → ให้ทางรูเปิด coronary โดยตรงหรือ retrograde ทาง coronary sinus",
+   "ปล่อย aortic cross-clamp แล้วหัวใจเต้นเป็น VF → defibrillation ภายในทรวงอก"
+  ]
+ },
+ "MDCU77|RoA|CVT 2": {
+  "interp": "อาการหัวใจล้มเหลว 2 สัปดาห์ + เสียง pansystolic ที่ apex + echo เป็น severe MR โดย EF 70% → ถามว่า severe MR ที่<b>มีอาการแล้ว</b>ต้องผ่าตัดหรือไม่ แม้ EF ยังดี",
+  "why": "ACC/AHA 2020 (และ ESC): severe primary (degenerative) MR ที่<b>มีอาการ</b>เป็นข้อบ่งชี้ผ่าตัด class I โดยไม่ต้องรอให้ EF ลด · ใน MR ค่า EF ดูสูงเกินจริงเพราะเลือดส่วนหนึ่งไหลย้อนเข้า LA ที่ความดันต่ำ จึงถือว่า EF ≤ 60% คือ LV เริ่มเสียแล้ว · <b>Mitral valve repair</b> ดีกว่าเปลี่ยนลิ้นเมื่อซ่อมได้ (ลิ้นหย่อน/chordae ขาด): อยู่รอดดีกว่า รักษารูปร่างหน้าที่ LV และไม่ต้องกิน anticoagulant ตลอดชีวิต · อาการเพียง 2 สัปดาห์อาจเป็น chordae ขาดเฉียบพลัน ซึ่งยิ่งต้องผ่าตัด",
+  "wrong": {
+   "A": "ยาขับปัสสาวะและยาลด afterload ช่วยอาการชั่วคราว แต่ไม่แก้ลิ้นที่รั่วและไม่หยุด LV เสื่อมใน primary MR; จะถูกถ้าเป็น secondary MR จาก dilated cardiomyopathy EF 30% ซึ่งเริ่มด้วย guideline-directed medical therapy ก่อนพิจารณาหัตถการ",
+   "C": "การปลูกถ่ายหัวใจใช้กับหัวใจล้มเหลวระยะสุดท้ายที่รักษาอย่างอื่นไม่ได้ ผู้ป่วยรายนี้ EF ดี ซ่อมลิ้นได้; จะถูกถ้าผู้ป่วย EF 15% อาการ NYHA IV แม้ใช้ยาเต็มที่และไม่มีลิ้นหรือหลอดเลือดที่แก้ได้",
+   "D": "PCI แก้หลอดเลือดหัวใจตีบ ไม่ได้ซ่อม primary MR; จะถูกถ้า MR เกิดจาก papillary muscle ขาดเลือดชั่วคราวใน inferior MI ที่มีหลอดเลือดตีบเหมาะกับ PCI (ischemic MR ที่ดีขึ้นหลังเปิดหลอดเลือด)",
+   "E": "การรอดู 1 ปีใช้กับ severe MR ที่ไม่มีอาการและ LV ยังดี ไม่ใช่รายที่มีอาการแล้ว; จะถูกถ้าผู้ป่วยไม่มีอาการ EF > 60% LVESD < 40 mm ไม่มี AF หรือความดันปอดสูง (ติดตาม echo ทุก 6–12 เดือน)"
+  },
+  "trap": "เห็น EF 70% แล้วคิดว่าหัวใจยังดีจึงรักษาด้วยยา — ใน MR ต้องถือ EF ≤ 60% ว่าผิดปกติ และอาการเพียงอย่างเดียวก็เป็นข้อบ่งชี้ผ่าตัดแล้ว",
+  "summary": [
+   "เสียง MR: holosystolic ที่ apex ร้าวไปรักแร้ · MVP มี mid-systolic click นำ",
+   "ข้อบ่งชี้ผ่าตัด severe primary MR (ACC/AHA 2020): มีอาการ · ไม่มีอาการแต่ LVEF ≤ 60% หรือ LVESD ≥ 40 mm · พิจารณาเมื่อ AF ใหม่, PASP > 50 mmHg, หรือ LV โตขึ้นเรื่อย ๆ ในศูนย์ที่ซ่อมสำเร็จสูง",
+   "Primary MR (ตัวลิ้นผิด: degenerative, rheumatic, endocarditis) ผ่าตัดเป็นหลัก · secondary MR (LV/LA ขยาย) รักษาโรคหัวใจก่อน แล้วพิจารณา transcatheter edge-to-edge repair",
+   "Transcatheter edge-to-edge repair (MitraClip) สำหรับ primary MR ที่เสี่ยงผ่าตัดสูง",
+   "Acute severe MR (papillary muscle ขาดหลัง MI, chordae ขาด, endocarditis): pulmonary edema ทันที ช็อก เสียง murmur อาจเบาสั้น → ยาลด afterload/IABP แล้วผ่าตัดด่วน"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 77A: \"MR EF ดีแต่มีอาการแล้ว ถ้าลิ้นซ่อมได้ก็ซ่อม\") ความมั่นใจสูง · ต้นฉบับบอกแค่ murmur กับ EF เราเติม \"severe MR\" และช้อย C–E",
+  "variants": [
+   "ชายไม่มีอาการ severe degenerative MR LVEF 55% LVESD 42 mm → mitral valve repair",
+   "5 วันหลัง inferior MI เกิด pulmonary edema ทันที มีเสียง holosystolic ใหม่ที่ apex → papillary muscle rupture: ผ่าตัดด่วน",
+   "Dilated cardiomyopathy EF 25% มี moderate-severe secondary MR ยังมีอาการแม้ใช้ยาเต็มที่ → พิจารณา transcatheter edge-to-edge repair"
+  ]
+ },
+ "MDCU77|RoA|CVT 3": {
+  "interp": "หญิงอายุ 36 ปีมี SVC syndrome (หน้าและแขนบวม หลอดเลือดดำที่หน้าอกโป่ง หายใจลำบาก) + CXR เป็นก้อน anterior mediastinum + AFP/β-hCG ปกติ → ถามชนิดก้อนที่น่าจะเป็นที่สุด",
+  "wrong": {
+   "B": "Teratoma เป็น germ cell tumor ที่ AFP/hCG ปกติได้ (mature teratoma) แต่มักโตช้าไม่ค่อยทำให้ SVC syndrome · ชนิดร้าย (NSGCT) มี AFP/hCG สูง; จะถูกถ้าชายหนุ่มไม่มีอาการ CT เห็นก้อน anterior mediastinum มีไขมัน หินปูน หรือฟันอยู่ภายใน",
+   "C": "Thymoma เป็นก้อน anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ แต่พบอายุ 40–60 ปี โตช้า SVC syndrome พบน้อยกว่า (คีย์ให้เป็นอันดับรอง); จะถูกถ้าผู้ป่วยอายุ 50 ปีมีหนังตาตกและอ่อนแรงเมื่อใช้งาน (myasthenia gravis) ร่วมกับก้อน anterior mediastinum",
+   "D": "Retrosternal/ectopic thyroid อยู่ superior mediastinum ต่อเนื่องจากคอ โตช้ามาก ทำให้หลอดลมเบี้ยวมากกว่า SVC syndrome; จะถูกถ้าหญิงสูงอายุมีคอพอกนาน CT เห็นก้อนต่อเนื่องจากต่อมไทรอยด์ลงไปหลังกระดูกอก",
+   "E": "Bronchogenic cyst มักอยู่ middle mediastinum ใกล้ carina เป็นถุงน้ำผิวเรียบ ไม่ใช่ก้อนโตเร็วใน anterior mediastinum; จะถูกถ้าคนหนุ่มสาวไม่มีอาการ CT เห็นถุงน้ำกลมผนังบางใต้ carina"
+  },
+  "trap": "ตอบ thymoma เพราะเป็นก้อน anterior mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ โดยไม่ใช้อายุ 36 ปี และอาการ SVC syndrome ที่บอกว่าก้อนโตเร็ว · marker ปกติตัด NSGCT ออก แต่ไม่ตัด lymphoma และ seminoma",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 77A: \"A > C, D\" และ \"รูปนี้คือ lymphoma\") ความมั่นใจปานกลาง–สูง · ต้นฉบับยืนยันว่าเป็นรูปเดียวกับข้อสอบ ช้อย E เราเติมเอง",
+  "variants": [
+   "ชายอายุ 25 ปีก้อน anterior mediastinum AFP 800 ng/mL → non-seminomatous germ cell tumor: cisplatin-based chemotherapy แล้วผ่าตัดก้อนที่เหลือ",
+   "หญิงอายุ 50 ปีหนังตาตก อ่อนแรงเมื่อใช้งาน มีก้อน anterior mediastinum → thymoma: thymectomy (คุม myasthenia ก่อนผ่า)",
+   "เด็กมีก้อน anterior mediastinum ใหญ่ นอนราบแล้วหายใจไม่ออก → ระวังทางเดินหายใจถูกกดเมื่อดมยา: biopsy ใต้ยาชาเฉพาะที่ หรือเจาะต่อมน้ำเหลืองที่อื่น"
+  ]
+ },
+ "MDCU77|RoA|CVT 4": {
+  "interp": "ข้อ LEAST: ภาพ CXR (ในไฟล์เป็น right paratracheal + bilateral hilar lymphadenopathy) → ถามว่าโรคใด<b>น่าจะเป็นน้อยที่สุด</b> · ช้อยที่เกิดต่อมน้ำเหลือง/ก้อนในช่องอกส่วนหน้าหรือกลางได้จึงเป็นช้อยผิด",
+  "wrong": {
+   "B": "Thymoma อยู่ anterior mediastinum และบนภาพ PA อาจซ้อนกับขั้วปอดได้ จึงยังอยู่ในการวินิจฉัยแยกโรค; จะถูก (เป็นคำตอบของข้อ LEAST) ถ้าภาพเป็นก้อนกลมที่ร่องข้างกระดูกสันหลังด้านหลังในเด็ก ซึ่ง thymoma ไม่เกิดตรงนั้น",
+   "C": "Thyroid carcinoma แพร่ไปต่อมน้ำเหลือง paratracheal/mediastinum ได้ และคอพอกลงไปหลังกระดูกอกได้ จึงยังเป็นไปได้; จะถูก (เป็นคำตอบของข้อ LEAST) ถ้าภาพเป็นต่อมน้ำเหลืองที่ขั้วปอดสองข้างสมมาตรในหญิงสาวที่มี erythema nodosum ซึ่งชี้ sarcoidosis ชัด",
+   "D": "Sarcoidosis คือภาพคลาสสิกของ bilateral hilar + right paratracheal lymphadenopathy (1-2-3 หรือ Garland sign) จึงน่าจะเป็นที่สุด; จะถูก (เป็นคำตอบของข้อ LEAST) ถ้าภาพเป็นก้อนเดี่ยวข้างเดียวใน anterior mediastinum ของผู้ป่วย myasthenia gravis",
+   "E": "Lymphoma ทำให้ต่อมน้ำเหลือง mediastinum/hilum โตได้บ่อย มักไม่สมมาตรและมี anterior mediastinum ร่วม; จะถูก (เป็นคำตอบของข้อ LEAST) ถ้าภาพเป็นถุงน้ำผนังบางที่ใต้ carina ในคนไม่มีอาการ (bronchogenic cyst)"
+  },
+  "trap": "อ่านคำถามเป็น \"most likely\" แล้วเลือก sarcoidosis — โจทย์ถาม least likely · และจำตำแหน่ง: pheochromocytoma/paraganglioma ในช่องอกอยู่ posterior mediastinum ข้างกระดูกสันหลัง ไม่ใช่ขั้วปอด",
+  "summary": [
+   "Bilateral hilar lymphadenopathy: sarcoidosis (สมมาตร + right paratracheal ผู้ป่วยดูดี) · lymphoma · TB · มะเร็งแพร่กระจาย · silicosis (หินปูนเป็นเปลือกไข่)",
+   "Sarcoidosis: Löfgren syndrome = erythema nodosum + ข้ออักเสบ + bilateral hilar lymphadenopathy (พยากรณ์ดี) · ยืนยันด้วย EBUS-TBNA เห็น non-caseating granuloma",
+   "Posterior mediastinum: neurogenic tumor (schwannoma, neurofibroma · เด็ก: neuroblastoma, ganglioneuroma) · paraganglioma · โรคหลอดอาหาร · Bochdalek hernia",
+   "อ่าน CXR: hilum overlay sign (ยังเห็นหลอดเลือดขั้วปอดผ่านก้อน = ก้อนไม่ได้อยู่ที่ hilum) · cervicothoracic sign (ขอบก้อนเห็นเหนือกระดูกไหปลาร้า = อยู่ด้านหลัง) · lateral film ช่วยแยกช่อง",
+   "ขั้นต่อไปของ mediastinal mass ทุกชนิด: CT chest ฉีดสี ± tumor markers แล้วจึงเลือกวิธีเอาชิ้นเนื้อ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจต่ำ — ไฟล์ Key 77A เขียน \"A? งง\" · ภาพในไฟล์ (LearningRadiology) เป็น bilateral hilar + right paratracheal lymphadenopathy ซึ่งเข้ากับ sarcoidosis/lymphoma ส่วน pheochromocytoma/paraganglioma พบน้อยและอยู่ posterior mediastinum · รูปอาจไม่ใช่รูปข้อสอบจริง ต้นฉบับมีช้อย 3 ตัว เราเติม D, E",
+  "variants": [
+   "หญิงอายุ 30 ปีมี erythema nodosum ปวดข้อ CXR เป็น bilateral hilar lymphadenopathy → Löfgren syndrome (sarcoidosis)",
+   "เด็ก 4 ขวบมีก้อน posterior mediastinum มีหินปูน catecholamine ในปัสสาวะสูง → neuroblastoma",
+   "ผู้ป่วยความดันสูงเป็นพัก ๆ ใจสั่น เหงื่อออก ต่อมหมวกไตปกติ CT เห็นก้อนข้างกระดูกสันหลังในช่องอก → extra-adrenal paraganglioma"
+  ]
+ },
+ "MDCU77|RoA|CVT 5": {
+  "interp": "ข้อ LEAST: เปรียบเทียบผู้ป่วยหลอดเลือดหัวใจตีบ 5 ราย ว่ารายใด<b>เหมาะกับ CABG น้อยที่สุด</b> — ดูทั้งความซับซ้อนของรอยโรค (SYNTAX score) และความเสี่ยงผ่าตัด",
+  "why": "ผู้ป่วย 80 ปีที่มี COPD และ CKD มี<b>ความเสี่ยงผ่าตัดสูง</b> (STS/EuroSCORE II สูง: การหย่าเครื่องช่วยหายใจ ไตวาย การฟื้นตัว) ส่วน <b>SYNTAX score ต่ำ</b> แปลว่ารอยโรคไม่ซับซ้อน ซึ่ง PCI ให้ผลใกล้เคียง CABG · ประโยชน์ระยะยาวของ CABG จึงไม่คุ้มความเสี่ยง Heart Team มักเลือก PCI · ตรงข้ามกับช้อยอื่นที่ CABG ได้ประโยชน์ชัด: เบาหวาน + multivessel (FREEDOM), left main/3-vessel ที่ซับซ้อน, หัวใจบีบตัวลดจากขาดเลือด (STICH) และต้องผ่าตัดลิ้นหัวใจร่วม",
+  "wrong": {
+   "A": "Proximal LAD ตีบ 70% เป็นรอยโรคหลอดเดียว ทำได้ทั้ง PCI และ CABG (LIMA → LAD อยู่ได้นานมาก) จึงยังเป็นผู้ที่ทำ CABG ได้; จะถูก (เป็นคำตอบของข้อ LEAST) ถ้าผู้ป่วยไม่มีอาการและ FFR ของรอยตีบ > 0.80 (ไม่ทำให้ขาดเลือด) ซึ่งไม่ต้อง revascularize เลย",
+   "B": "3-vessel disease + LV บีบตัวลดจากขาดเลือด ได้ประโยชน์จาก CABG ลดการตายระยะยาว (STICH/STICHES); จะถูก (เป็นคำตอบของข้อ LEAST) ถ้าไม่มีกล้ามเนื้อหัวใจที่มีชีวิตเหลือและหลอดเลือดปลายทางเล็กเกินจะต่อ (poor targets) ซึ่งควรไปทางปลูกถ่ายหัวใจ/LVAD",
+   "C": "3-vessel disease + MR ที่ต้องแก้ ทำ CABG ร่วมกับผ่าตัดลิ้น mitral ได้ในครั้งเดียว จึงเหมาะกับการผ่าตัด; จะถูก (เป็นคำตอบของข้อ LEAST) ถ้าผู้ป่วย 70 ปีอ่อนแอมาก (frail) และมีมะเร็งระยะแพร่กระจายที่คาดชีวิตไม่ถึงปี",
+   "E": "เบาหวาน + left main และ 3-vessel disease เป็นกลุ่มที่ CABG ดีกว่า PCI ชัดเจน (FREEDOM, SYNTAX); จะถูก (เป็นคำตอบของข้อ LEAST) ถ้าผู้ป่วยเพิ่งมี stroke ใหญ่ หรือมีโรคปอดรุนแรงจนดมยาไม่ได้"
+  },
+  "trap": "คิดว่า 3-vessel disease ทุกรายต้อง CABG โดยไม่ดูความเสี่ยงผ่าตัดและความซับซ้อนของรอยโรค — SYNTAX ต่ำ + เสี่ยงผ่าตัดสูง = PCI",
+  "summary": [
+   "CABG ดีกว่า PCI: left main ที่ SYNTAX สูง · 3-vessel disease SYNTAX ≥ 23 · multivessel + เบาหวาน · ischemic cardiomyopathy EF ≤ 35% · ต้องผ่าตัดหัวใจอื่นร่วม",
+   "PCI เหมาะ: รอยโรค 1–2 หลอด หรือ SYNTAX ต่ำ · ความเสี่ยงผ่าตัดสูง (อายุมาก โรคปอด ไต frailty) · STEMI (primary PCI)",
+   "Heart Team ใช้ร่วมกัน: SYNTAX score (ความซับซ้อนรอยโรค) + STS/EuroSCORE II (ความเสี่ยงผ่าตัด) + ความต้องการผู้ป่วย",
+   "Conduit: LIMA → LAD (เปิดได้ > 90% ที่ 10 ปี) · radial artery ดีกว่า saphenous vein ในระยะยาว · saphenous vein เปิดได้ราวครึ่งที่ 10 ปี",
+   "ภาวะแทรกซ้อน CABG: AF (ราว 30%) · stroke · แผลกระดูกอกติดเชื้อ (เบาหวาน อ้วน ใช้ IMA สองข้าง) · AKI"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ Key 77A: \"แก่ low SYNTAX score น่าจะทำ PCI ได้\") ความมั่นใจสูง · ช้อย E เราเติมเอง",
+  "variants": [
+   "ชายเบาหวานอายุ 58 ปี 3-vessel disease SYNTAX 32 → CABG",
+   "หลัง CABG 2 วันผู้ป่วยใจสั่น ECG เป็น AF ความดันปกติ → คุมอัตราการเต้นด้วย beta-blocker ± amiodarone (AF หลัง CABG พบราว 30%)",
+   "ผู้ป่วยหญิงอ้วน เบาหวาน หลัง CABG ใช้ IMA สองข้าง 10 วัน แผลกระดูกอกมีหนอง กระดูกขยับ → deep sternal wound infection (mediastinitis): debridement + ยาปฏิชีวนะ"
+  ]
+ },
+ "MDCU77|RoA|CVT 6": {
+  "interp": "เจ็บหน้าอกรุนแรงร้าวทะลุหลัง (10/10) + CT aorta เห็น dissection ที่ ascending aorta = aortic dissection <b>Stanford type A</b> → ถามการรักษาหลัก",
+  "why": "Type A dissection (เกี่ยวกับ ascending aorta) มีอัตราตายราว 1–2% ต่อชั่วโมงในช่วง 48 ชม. แรกจากการแตกเข้าเยื่อหุ้มหัวใจ (tamponade), ลิ้น aortic รั่วเฉียบพลัน, การปิดรูเปิด coronary และ malperfusion · จึงต้อง<b>ผ่าตัดเปิดฉุกเฉิน</b> เปลี่ยน ascending aorta (± arch/ลิ้น) · ระหว่างเตรียมผ่าตัดให้ยาแก้ปวด (opioid) และ anti-impulse therapy: IV beta-blocker (esmolol, labetalol) ก่อน ตามด้วย vasodilator ถ้าความดันยังสูง เป้า HR ราว 60 และ SBP 100–120 mmHg (ESC 2024) · beta-blocker เป็นแค่การรักษาประคองระหว่างรอ ไม่ใช่การรักษาหลักของ type A",
+  "wrong": {
+   "B": "ยาแก้ปวดแล้วเฝ้าดูไม่ควบคุมแรงเฉือนต่อผนัง aorta และไม่แก้ type A ที่ตายเร็ว; ไม่มีสถานการณ์ใดที่ aortic dissection รักษาด้วยยาแก้ปวดอย่างเดียว — แม้ type B ที่ไม่มีภาวะแทรกซ้อนก็ต้องคุมชีพจรและความดันด้วยยา",
+   "C": "Beta-blocker เป็นการรักษาเริ่มต้นทั้ง type A และ B แต่ใน type A ต้องผ่าตัดด่วนร่วมด้วยเสมอ; จะถูกถ้าเป็น type B (เริ่มหลัง left subclavian artery) ที่ไม่มี malperfusion ไม่แตก และคุมปวดกับความดันได้",
+   "D": "TEVAR ใส่ stent graft ปิดรูฉีกใน descending aorta ยังไม่ใช่การรักษามาตรฐานของ ascending aorta; จะถูกถ้าเป็น complicated type B (ขาหรือไตขาดเลือด, แตก, ปวด/ความดันคุมไม่ได้)",
+   "E": "ยาละลายลิ่มเลือดห้ามใช้เด็ดขาด ทำให้เลือดออกจาก aorta ที่ฉีกจนตายได้ (dissection ที่ลาม coronary ขวาเลียนแบบ inferior STEMI ได้); จะถูกถ้าเป็น STEMI ที่ไม่มีลักษณะ dissection มาภายใน 12 ชม. และไม่สามารถทำ primary PCI ได้ทันเวลา"
+  },
+  "trap": "เห็น ST elevation (dissection ลาม coronary ขวา) แล้วให้ยาละลายลิ่มเลือดหรือยาต้านการแข็งตัว — ก่อนให้ต้องคิดถึง dissection ในผู้ที่เจ็บร้าวทะลุหลัง ความดันแขนสองข้างต่างกัน หรือ mediastinum กว้าง",
+  "summary": [
+   "Stanford A = ascending aorta (± arch/descending) → ผ่าตัดด่วน · Stanford B = เริ่มหลัง left subclavian → ยา (uncomplicated) / TEVAR (complicated) · DeBakey I ascending + descending · II ascending เท่านั้น · III descending",
+   "อาการ: เจ็บฉีกร้าวหลังทันที · ความดันแขนสองข้างต่าง > 20 mmHg · ชีพจรหาย · เสียง AR ใหม่ · อาการทางระบบประสาท · CXR mediastinum กว้าง",
+   "วินิจฉัย: CTA ในผู้ป่วยคงที่ · TEE (หรือ bedside echo ดู tamponade/AR) ในผู้ป่วยไม่คงที่",
+   "Tamponade จาก type A: ไปผ่าตัดเลย การเจาะระบายเยื่อหุ้มหัวใจอาจทำให้ความดันพุ่งแล้วแตกซ้ำ (ถ้าจำเป็นระบายทีละน้อย)",
+   "ปัจจัยเสี่ยง: ความดันสูง (สำคัญสุด) · Marfan/connective tissue disease · bicuspid aortic valve · cocaine/methamphetamine · ตั้งครรภ์ · หลังผ่าตัด/สวนหัวใจ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 77A: \"aortic dissection type A → emergency surgery\" และเขียนว่า IV beta-blocker เป็น initial management) ความมั่นใจสูง · ช้อย D, E เราเติมเอง",
+  "variants": [
+   "ชายความดันสูง dissection เริ่มหลัง left subclavian artery ปวดคุมได้ ไม่มี malperfusion → IV beta-blocker + vasodilator คุม HR/SBP (type B uncomplicated)",
+   "Type B dissection แล้วเกิดไตวายเฉียบพลันและขาซ้ายเย็นชีพจรหาย → TEVAR",
+   "ชายสูงผอม แขนขายาว เลนส์ตาเคลื่อน เจ็บหน้าอกร้าวหลังทันที → สงสัย aortic dissection ใน Marfan syndrome: CTA ด่วน"
+  ]
+ }
+}
