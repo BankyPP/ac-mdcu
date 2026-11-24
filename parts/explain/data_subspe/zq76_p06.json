@@ -1,0 +1,267 @@
+{
+ "MDCU76|RoC|CVT 2": {
+  "interp": "ชายความดันสูงเจ็บหน้าอกรุนแรงเฉียบพลันแบบฉีก ร้าวไปหลัง BP 190/60 (pulse pressure กว้าง) และได้ยิน diastolic murmur ใหม่ · ถามการวินิจฉัย",
+  "why": "เจ็บแบบฉีกรุนแรงทันทีตั้งแต่เริ่ม ร้าวไปหลัง ในคนความดันสูง = acute aortic dissection · เลือดเซาะผนังชั้น media ถ้าลามถึง aortic root ทำให้ลิ้น aortic ปิดไม่สนิท → acute aortic regurgitation → diastolic murmur ใหม่และ pulse pressure กว้าง ซึ่งเป็นตัวบอกว่าเป็น ascending aorta (Stanford A) · อาการอื่นที่ช่วย: ชีพจรหรือความดันสองแขนต่างกัน, อาการทางสมอง, ขาดเลือดอวัยวะ, tamponade",
+  "wrong": {
+   "B": "MI เจ็บแน่นเหมือนถูกกดทับ ค่อย ๆ มากขึ้น ร้าวกราม/แขนซ้าย ไม่ได้ฉีกไปหลัง ไม่มี AR murmur ใหม่; จะถูกถ้าชายเบาหวานเจ็บแน่นหน้าอกร้าวแขนซ้าย เหงื่อแตก ECG ST ยกที่ V1–V4 ชีพจรสองแขนเท่ากัน",
+   "C": "PE เด่นที่หอบเฉียบพลัน ออกซิเจนต่ำ เจ็บแปลบเวลาหายใจ ความดันไม่สูงแบบนี้; จะถูกถ้าหญิงหลังผ่าตัดสะโพกหอบทันที SpO2 85% HR 120 ขาบวมข้างเดียว",
+   "D": "Pericarditis เจ็บแหลม ดีขึ้นเมื่อนั่งโน้มตัวไปข้างหน้า มี friction rub ไม่ใช่ diastolic murmur; จะถูกถ้าชายหนุ่มหลังเป็นหวัดเจ็บหน้าอกแหลมดีขึ้นเมื่อโน้มตัว ECG ST ยกทุก lead ร่วม PR depression",
+   "E": "Boerhaave syndrome มีอาเจียนรุนแรงนำมาก่อน แล้วเจ็บหน้าอก มีลมใต้ผิวหนัง; จะถูกถ้าชายดื่มเหล้าอาเจียนแรงแล้วเจ็บหน้าอกทันที คลำได้ลมใต้ผิวหนังที่คอ CXR มี pneumomediastinum"
+  },
+  "trap": "รักษาแบบ ACS (ให้ antiplatelet/thrombolytic) โดยไม่คิดถึง dissection — dissection ที่ลาม RCA ทำให้ ECG เป็น inferior STEMI ได้ · และอย่าให้ vasodilator ก่อน β-blocker เพราะ reflex tachycardia เพิ่มแรงเฉือนต่อผนัง",
+  "summary": [
+   "Stanford A = มี ascending aorta (DeBakey I, II) → ผ่าตัดฉุกเฉิน · Stanford B = ไม่มี ascending (DeBakey III) → ยา; complicated (malperfusion, rupture, ปวด/ความดันคุมไม่ได้) → TEVAR",
+   "วินิจฉัย: CTA ถ้าคงที่ · TEE/TTE ข้างเตียงถ้าไม่คงที่",
+   "ยาเริ่มต้น: IV β-blocker (esmolol, labetalol) เป้า HR < 60, SBP < 120 mmHg แล้วจึงเพิ่ม vasodilator ถ้ายังสูง + ยาแก้ปวด",
+   "ภาวะแทรกซ้อนของ type A: AR, tamponade, MI (มัก RCA), stroke, malperfusion ของไต ลำไส้ ขา"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C) มั่นใจสูง",
+  "variants": [
+   "Dissection type A ร่วม tamponade ความดันตก → ผ่าตัดฉุกเฉินทันที (ไม่เจาะระบายเลือดเต็มที่ก่อนผ่าตัด เพราะความดันกลับขึ้นแล้วเลือดออกเพิ่ม)",
+   "Dissection type B ปวดท้องมากขึ้น lactate สูง CT พบ superior mesenteric artery ถูก flap ปิด → complicated type B → TEVAR",
+   "ผู้ป่วยเจ็บหน้าอกร้าวหลัง ECG ST ยก II, III, aVF ชีพจรแขนซ้ายเบา → สงสัย dissection ลาม RCA → CTA ก่อนให้ยาละลายลิ่มเลือด"
+  ]
+ },
+ "MDCU76|RoC|CVT 3": {
+  "interp": "หญิงผู้ใหญ่ไม่มีอาการ · ภาพในข้อ (ตามที่บันทึกไว้) CXR PA/lateral มีก้อนขอบเรียบหลายก้อนบริเวณ paravertebral สองข้างใน posterior mediastinum · ถามการวินิจฉัย",
+  "why": "ก้อนใน posterior mediastinum (paravertebral) ในผู้ใหญ่ส่วนใหญ่เป็น neurogenic tumor ของ nerve sheath (schwannoma, neurofibroma) ที่เกิดจาก intercostal nerve หรือรากประสาท · ภาพนี้มี \"หลายก้อนสองข้าง\" ซึ่งเข้ากับ neurofibromas ใน neurofibromatosis type 1 (ลายมือในคีย์: nodule หลาย ๆ = neurofibromatosis) · ควรหา café-au-lait spots และ cutaneous neurofibroma ร่วม · schwannoma พบบ่อยกว่าในผู้ใหญ่แต่ส่วนใหญ่เป็นก้อนเดียว",
+  "wrong": {
+   "A": "Neurilemmoma (schwannoma) เป็น nerve sheath tumor ที่พบบ่อยที่สุดใน posterior mediastinum ของผู้ใหญ่ แต่มักก้อนเดียว ไม่สัมพันธ์กับ NF1; จะถูกถ้าผู้ใหญ่ไม่มีอาการ ไม่มีรอยโรคผิวหนัง พบก้อนเดียวขอบเรียบที่ paravertebral",
+   "C": "Paraganglioma (pheochromocytoma นอกต่อมหมวกไต) ใน posterior mediastinum พบน้อยและมักมีอาการจาก catecholamine; จะถูกถ้าผู้ป่วยความดันสูงเป็นพัก ๆ ใจสั่น เหงื่อออก มีก้อน paravertebral และ plasma metanephrine สูง",
+   "D": "Esophageal duplication cyst เป็นถุงน้ำก้อนเดียวติดผนังหลอดอาหาร; จะถูกถ้าผู้ป่วยกลืนลำบาก CT พบถุงน้ำผนังบางติดหลอดอาหารส่วนล่าง",
+   "E": "Bronchogenic cyst มักอยู่ middle mediastinum ใกล้ carina เป็นก้อนเดียว; จะถูกถ้าผู้ป่วยไอ CT พบถุงน้ำกลมขอบเรียบใต้ carina (subcarinal)"
+  },
+  "trap": "ตอบ schwannoma เพราะจำว่าพบบ่อยที่สุด โดยไม่ดูว่าภาพมีหลายก้อนสองข้าง",
+  "summary": [
+   "Posterior mediastinum: neurogenic tumor มากที่สุด — ผู้ใหญ่เป็น nerve sheath (schwannoma > neurofibroma) · เด็กเป็น sympathetic ganglion (neuroblastoma, ganglioneuroblastoma, ganglioneuroma)",
+   "NF1: café-au-lait ≥ 6 จุด, freckling ที่รักแร้/ขาหนีบ, neurofibroma ≥ 2 หรือ plexiform 1, Lisch nodules, optic glioma · neurofibroma ใน NF1 กลายเป็น malignant peripheral nerve sheath tumor ได้ (ตลอดชีวิตราว 10%) — สงสัยเมื่อปวดมากขึ้นหรือโตเร็ว",
+   "ก้อนที่ลามผ่าน neural foramen เข้า spinal canal (dumbbell tumor) → MRI ก่อนผ่าตัด และผ่าตัดร่วมกับศัลยแพทย์ประสาท",
+   "รักษา: ผ่าตัดเอาออก (มักใช้ VATS) ก้อนไม่ร้ายมีอาการหรือโตขึ้น"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 76C ลายมือ nodule หลาย ๆ = neurofibromatosis) มั่นใจปานกลาง — ถ้าเป็นก้อนเดียว schwannoma จะพบบ่อยกว่า",
+  "variants": [
+   "ผู้ป่วย NF1 ก้อน neurofibroma ในทรวงอกโตเร็วและปวดมากขึ้น → สงสัย MPNST → PET/biopsy แล้วผ่าตัด",
+   "เด็ก 2 ขวบมีก้อน posterior mediastinum มีหินปูน urine VMA/HVA สูง → neuroblastoma",
+   "ก้อน paravertebral ลามผ่าน neural foramen เข้า spinal canal → MRI ก่อนผ่าตัด"
+  ]
+ },
+ "MDCU76|RoC|CVT 4": {
+  "interp": "Lung abscess ที่ upper lobe · ถามว่าข้อใดเป็นข้อบ่งชี้ผ่าตัด (ช้อยอื่นเป็นเกณฑ์ที่เร็วเกินหรือไม่ใช่ข้อบ่งชี้)",
+  "why": "Lung abscess ส่วนใหญ่ (ราว 80–90%) หายด้วยยาปฏิชีวนะนานหลายสัปดาห์ร่วมการระบายเสมหะ เพราะหนองระบายออกทางหลอดลมเองได้ · การผ่าตัดเก็บไว้สำหรับภาวะที่ยาช่วยไม่ได้: massive hemoptysis (เสียชีวิตจากเลือดท่วมปอด), ไม่ตอบสนองต่อยาหลังให้นานพอ (ลายมือในคีย์: 2 สัปดาห์), ก้อนใหญ่ > 6 cm (ลายมือในคีย์), สงสัยมะเร็ง, ภาวะแทรกซ้อน (empyema, bronchopleural fistula) · ช้อยอื่นเป็นเกณฑ์ที่เร็วหรือเล็กเกินไป",
+  "wrong": {
+   "B": "ไข้ยังไม่ลงใน 3 วันแรกเป็นเรื่องปกติของ lung abscess ที่ยาต้องใช้เวลา; จะถูก (เป็นข้อบ่งชี้) ถ้าผู้ป่วยได้ยาปฏิชีวนะที่เหมาะสมครบราว 2 สัปดาห์แล้วยังไข้สูง sepsis และก้อนไม่ยุบ",
+   "C": "1 สัปดาห์สั้นเกินไปที่จะบอกว่ายาล้มเหลว ก้อนมักยุบช้ากว่าอาการ; จะถูกถ้าก้อนไม่ยุบหลังให้ยานานหลายสัปดาห์ร่วมผนัง cavity หนาไม่สม่ำเสมอในชายสูบบุหรี่ สงสัย cavitating carcinoma",
+   "D": "3 cm ไม่ใช่ขนาดที่บ่งชี้ผ่าตัด; จะถูกถ้าก้อนใหญ่ > 6 cm ซึ่งโอกาสหายด้วยยาน้อย",
+   "E": "การติดต่อกับหลอดลม (เห็น air-fluid level) คือทางระบายหนองตามธรรมชาติ ช่วยให้หาย; ไม่มีสถานการณ์ใดที่การติดต่อกับหลอดลมเองเป็นข้อบ่งชี้ผ่าตัด — ต่างจาก bronchopleural fistula ที่หนองทะลุเข้าช่องเยื่อหุ้มปอด"
+  },
+  "trap": "ตัดสินว่ายาล้มเหลวเร็วเกินไป — lung abscess ต้องให้ยานานพอก่อนเรียกว่าไม่ตอบสนอง",
+  "summary": [
+   "รักษาหลัก: ยาปฏิชีวนะคลุม anaerobe (ampicillin–sulbactam, amoxicillin–clavulanate, clindamycin) ให้จนภาพรังสีดีขึ้นมาก มักนานหลายสัปดาห์ + กายภาพระบายเสมหะ",
+   "Bronchoscopy เมื่อลักษณะไม่เข้ากับ aspiration (ไม่มีฟัน ไม่มีปัจจัยสำลัก อายุมาก สูบบุหรี่) หรือไม่ดีขึ้น เพื่อหามะเร็ง/สิ่งแปลกปลอมอุดหลอดลม",
+   "ระบายหนอง: percutaneous (CT-guided) หรือผ่านกล้องในผู้ที่ไม่พร้อมผ่าตัด",
+   "ผ่าตัด (มักเป็น lobectomy): massive hemoptysis, ไม่ตอบสนองต่อยา, ก้อน > 6 cm, สงสัยมะเร็ง, empyema/bronchopleural fistula"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C ลายมือ hemoptysis เป็น indication of surgery, ช้อย C เขียน 2 wk, ช้อย D เขียน > 6 cm) มั่นใจปานกลาง–สูง — เติม massive และระยะเวลาใน stem/ช้อยให้มีคำตอบเดียว",
+  "variants": [
+   "ผู้ป่วยไม่มีฟันเลย ไม่มีประวัติสำลัก มี lung abscess → bronchoscopy หามะเร็งอุดหลอดลม",
+   "Lung abscess 8 cm ไม่ดีขึ้นด้วยยา ผู้ป่วยสภาพไม่พร้อมผ่าตัด → percutaneous drainage ภายใต้ CT",
+   "Lung abscess แตกเข้าช่องเยื่อหุ้มปอดเป็น pyopneumothorax → ใส่สายระบายทรวงอก ± ผ่าตัด"
+  ]
+ },
+ "MDCU76|RoC|CVT 5": {
+  "why": "Malignant pleural effusion = M1a (stage IVA) คือมะเร็งกระจายในช่องเยื่อหุ้มปอดแล้ว การตัดปอดไม่ทำให้หาย จึงเป็นข้อห้ามผ่าตัด รักษาด้วย systemic therapy ± ระบายน้ำ/pleurodesis · ส่วนการลุก parietal pleura, chest wall, phrenic nerve หรือ parietal pericardium = T3 ตัด en bloc ได้ (ลายมือในคีย์) · hilar node = N1 และก้อน 5 cm = T2b ยังผ่าตัดได้",
+  "wrong": {
+   "A": "การลุก parietal pericardium = T3 ตัดออกพร้อมปอดได้ (ลายมือในคีย์: ถ้า pericardium ออกมาด้วยเป็น T3); จะถูกถ้าเป็น malignant pericardial effusion ซึ่งเป็น M1a",
+   "B": "การลุก parietal pleura = T3 ตัด en bloc ได้ (ลายมือในคีย์: parietal pleura = T3); จะถูกถ้าพบก้อนมะเร็งกระจายเป็นเม็ดบนเยื่อหุ้มปอดหลายจุดขณะส่องกล้อง (pleural metastasis = M1a)",
+   "D": "ต่อมน้ำเหลือง hilar ข้างเดียวกัน = N1 ผ่าตัดได้แล้วให้ adjuvant; จะถูกถ้าพบต่อมน้ำเหลือง mediastinum ฝั่งตรงข้ามหรือ supraclavicular (N3)",
+   "E": "ก้อน 5 cm = T2b ผ่าตัดได้; จะถูกถ้ามี metastasis นอกทรวงอกหลายตำแหน่ง เช่น สมองหลายก้อนร่วมต่อมหมวกไต (M1c)"
+  },
+  "trap": "คิดว่าลามถึง pleura/pericardium แล้วผ่าตัดไม่ได้ — การลุกโดยตรงเข้า parietal pleura/pericardium เป็น T3 ตัดได้ แต่น้ำหรือก้อนที่กระจายในช่องเยื่อหุ้มเป็น M1a",
+  "summary": [
+   "T (TNM 8th): T2b > 4–5 cm · T3 > 5–7 cm หรือลุก chest wall/parietal pleura, phrenic nerve, parietal pericardium, ก้อนแยกในกลีบเดียวกัน · T4 > 7 cm หรือลุก diaphragm, mediastinum, หัวใจ, great vessels, trachea, carina, esophagus, กระดูกสันหลัง, recurrent laryngeal nerve, ก้อนแยกต่างกลีบข้างเดียวกัน",
+   "M1a: pleural/pericardial nodule หรือ malignant effusion, ก้อนในปอดฝั่งตรงข้าม · M1b: metastasis นอกทรวงอกจุดเดียว · M1c: หลายจุด",
+   "น้ำในช่องเยื่อหุ้มปอดของผู้ป่วยมะเร็งปอดที่ตรวจ cytology หลายครั้งไม่พบมะเร็ง ไม่มีเลือด และเป็น transudate → ไม่นับเป็น M1a · ถ้ายังสงสัยทำ thoracoscopy ก่อนตัดสินว่าผ่าตัดไม่ได้",
+   "โดยทั่วไปไม่ผ่าตัดใน N3 และ M1 · ผ่าตัดได้ใน stage I–II และบาง IIIA"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76C ลายมือ M1 ที่ c และแปะ TNM 8th) มั่นใจสูง",
+  "variants": [
+   "ผู้ป่วย NSCLC มี pleural effusion ข้างเดียวกัน cytology ลบ 2 ครั้ง → thoracoscopy ดูเยื่อหุ้มปอดก่อนตัดสินว่าผ่าตัดไม่ได้",
+   "ก้อน NSCLC 4 cm ลุก phrenic nerve ไม่มีต่อมน้ำเหลืองโต → T3N0 → lobectomy + ตัด phrenic nerve en bloc",
+   "มะเร็งที่ยอดปอดลุก chest wall ด้านบน มีปวดไหล่และ Horner syndrome (Pancoast tumor) → induction CRT แล้วผ่าตัด en bloc"
+  ]
+ },
+ "MDCU76|RoC|CVT 6": {
+  "wrong": {
+   "B": "Gram-positive aerobe อย่างเดียว (Streptococcus, Staphylococcus) ไม่คลุม anaerobe และ gram-negative bacilli ที่มากับการสำลักในโรงพยาบาล; จะถูกถ้าผู้ป่วยหลังไข้หวัดใหญ่เกิด necrotizing pneumonia มีโพรงหลายจุดจาก S. aureus",
+   "C": "Gram-negative anaerobe อย่างเดียว (Bacteroides, Fusobacterium) ไม่ครบ เพราะการสำลักนำเชื้อ aerobe มาด้วย; จะถูกถ้าวัยรุ่นหลังคออักเสบมีไข้สูง internal jugular vein อักเสบ และ septic emboli หลายจุดที่ปอด (Lemierre syndrome จาก Fusobacterium necrophorum)",
+   "D": "เชื้อราไม่ใช่สาเหตุของ aspiration pneumonia; จะถูกถ้าผู้ป่วย neutropenia นานหลังเคมีบำบัด มีไข้ไม่ลงด้วยยาปฏิชีวนะ CT ปอดพบก้อนมี halo sign (invasive aspergillosis)",
+   "E": "Atypical organisms (Mycoplasma, Legionella, Chlamydophila) เป็นเชื้อ community-acquired ไม่สัมพันธ์กับการสำลัก; จะถูกถ้าวัยรุ่นไข้ต่ำ ไอแห้งนาน CXR มี infiltrate มากกว่าอาการ (walking pneumonia)"
+  },
+  "why": "การสำลักเนื้อหาในกระเพาะและช่องปากนำเชื้อประจำถิ่นของ oropharynx เข้าปอด ซึ่งมีทั้ง aerobe (streptococci) และ anaerobe (Peptostreptococcus, Prevotella, Fusobacterium) · ผู้ป่วยในโรงพยาบาลที่อยู่นานหรือได้ยาปฏิชีวนะ มี gram-negative bacilli และ S. aureus อาศัยในช่องปากเพิ่ม → aspiration pneumonia ที่เกิดในโรงพยาบาลจึงเป็นเชื้อผสม aerobe + anaerobe (ลายมือในคีย์: aspiration pneumonia)",
+  "trap": "แยก aspiration pneumonitis (สารเคมีจากกรด เกิดภายในชั่วโมง ไม่ต้องให้ยาฆ่าเชื้อทุกราย) กับ aspiration pneumonia (ติดเชื้อตามมาใน 1–3 วัน ต้องให้ยา) ให้ได้",
+  "summary": [
+   "Aspiration pneumonitis (Mendelson) = ปอดอักเสบจากกรดในกระเพาะ เกิดใน 1–2 ชม. · aspiration pneumonia = ติดเชื้อหลังสำลัก",
+   "ตำแหน่ง: นอนหงาย → posterior segment ของ upper lobe, superior segment ของ lower lobe · ยืน/นั่ง → basal segments · ปอดขวามากกว่าซ้าย",
+   "ยา: community → ampicillin–sulbactam หรือ amoxicillin–clavulanate · ในโรงพยาบาล → คลุม gram-negative (เช่น piperacillin–tazobactam) ± MRSA ตามความเสี่ยง",
+   "ป้องกันระหว่างผ่าตัด: งดน้ำงดอาหารก่อนผ่าตัด, rapid sequence induction ในผู้ที่เสี่ยงสำลัก",
+   "ภาวะแทรกซ้อน: lung abscess, empyema"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C ลายมือ aspiration pneumonia) มั่นใจสูง",
+  "variants": [
+   "ผู้ป่วยสำลักน้ำย่อยขณะดมยา SpO2 ตกภายใน 1 ชม. CXR มี infiltrate → aspiration pneumonitis → ดูดเสมหะ ให้ออกซิเจน/PEEP ยังไม่ต้องให้ยาปฏิชีวนะทันทีและไม่ให้ steroid",
+   "ผู้ป่วย stroke กลืนลำบาก ไข้ ไอ infiltrate ที่ superior segment ของ right lower lobe → aspiration pneumonia → ampicillin–sulbactam",
+   "ผู้ป่วยใส่ท่อช่วยหายใจใน ICU 7 วัน มีไข้ เสมหะเพิ่ม infiltrate ใหม่ → VAP → ยาคลุม Pseudomonas ± MRSA ตามข้อมูลเชื้อของโรงพยาบาล"
+  ]
+ },
+ "MDCU76|RoC|Plastic 1": {
+  "why": "ขอบนูนมันวาวเหมือนไข่มุก (pearly rolled border) และเส้นเลือดฝอยบนผิว (telangiectasia) เป็นลักษณะเฉพาะของ basal cell carcinoma (ลายมือในคีย์: elevated lesion, pearly, rodent ulcer, telangiectasis) · คนเอเชียพบ pigmented BCC บ่อย จึงมีสีน้ำตาลดำได้ แต่ขอบ pearly ยังอยู่ · BCC โตช้า แทบไม่แพร่กระจาย แต่กัดทำลายเนื้อเยื่อรอบ ๆ (rodent ulcer) โดยเฉพาะบนใบหน้า",
+  "wrong": {
+   "A": "Melanoma มีสีไม่สม่ำเสมอ ขอบไม่เรียบ โตเร็ว (ABCDE) ไม่มีขอบ pearly หรือ telangiectasia; จะถูกถ้าคนไทยมีไฝที่ส้นเท้า สีดำปนน้ำตาลไม่สม่ำเสมอ ขอบไม่เรียบ ขนาดโตขึ้นเร็ว (acral lentiginous melanoma)",
+   "B": "SCC เป็นก้อนหรือแผลแข็ง ผิวมีสะเก็ดหนา (hyperkeratotic) โตเร็วกว่า BCC และแพร่ไปต่อมน้ำเหลืองได้; จะถูกถ้าเกษตรกรสูงอายุมีแผลขอบแข็งผิวเป็นสะเก็ดหนาที่ริมฝีปากล่าง เลือดออกง่าย คลำได้ต่อมน้ำเหลืองใต้คาง",
+   "D": "Seborrheic keratosis เป็นตุ่มไม่ร้าย ผิวขรุขระเหมือนเอาขี้ผึ้งมาแปะ (stuck-on) มี horn cyst ไม่มีขอบ pearly; จะถูกถ้าผู้สูงอายุมีตุ่มสีน้ำตาลผิวขรุขระหลายตุ่มที่ลำตัว ดูเหมือนแปะติดผิว",
+   "E": "Keratoacanthoma เป็นก้อนรูปโดมโตเร็วมากในไม่กี่สัปดาห์ มีจุก keratin ตรงกลาง; จะถูกถ้าผู้สูงอายุมีก้อนรูปโดมที่หลังมือโตเร็วใน 6 สัปดาห์ ตรงกลางเป็นแอ่งมี keratin อุด (รักษาโดยตัดออกเหมือน SCC)"
+  },
+  "trap": "เห็นคำว่า pigmented/hyperpigmented แล้วตอบ melanoma — ให้ดูขอบ pearly และ telangiectasia ซึ่งเป็นของ BCC",
+  "summary": [
+   "BCC = มะเร็งผิวหนังที่พบบ่อยที่สุด · อยู่ในบริเวณโดนแดด โดยเฉพาะ H-zone ของใบหน้า",
+   "ปัจจัยเสี่ยง: UV, ผิวขาว, รังสี, arsenic, ภูมิคุ้มกันต่ำ, xeroderma pigmentosum, Gorlin syndrome",
+   "ชนิด: nodular (พบบ่อยสุด), superficial, pigmented, morpheaform/infiltrative (ขอบไม่ชัด กลับเป็นซ้ำสูง)",
+   "High risk: อยู่ที่ H-zone, ขนาดใหญ่, ชนิด morpheaform/infiltrative, perineural invasion, กลับเป็นซ้ำ, ภูมิคุ้มกันต่ำ",
+   "รักษา: biopsy ยืนยัน → low risk ตัดขอบ 4 mm · high risk → Mohs surgery · superficial เล็ก → imiquimod/5-FU หรือ curettage · ผ่าตัดไม่ได้ → radiotherapy · advanced → hedgehog inhibitor (vismodegib)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ Key 76C ลายมือ BCC = elevated lesion, pearly skin, rodent ulcer, telangiectasis) มั่นใจสูง",
+  "variants": [
+   "BCC ชนิด morpheaform ที่ปีกจมูก ขอบไม่ชัด → Mohs surgery",
+   "ผู้ป่วยอายุ 25 ปีมี BCC หลายตำแหน่ง ร่วม jaw cyst และหลุมเล็ก ๆ ที่ฝ่ามือ → Gorlin syndrome (PTCH1)",
+   "Superficial BCC เล็กที่ลำตัว ผู้ป่วยไม่อยากผ่าตัด → imiquimod ทา"
+  ]
+ },
+ "MDCU76|RoC|Plastic 2": {
+  "wrong": {
+   "B": "Zygomatic branch เลี้ยง orbicularis oculi อยู่ต่ำกว่าหน้าผาก บาดเจ็บแล้วหลับตาไม่สนิทแต่เลิกคิ้วได้; จะถูกถ้าผู้ป่วยมีแผลลึกที่โหนกแก้มแล้วหลับตาข้างนั้นไม่สนิท",
+   "C": "Supraorbital nerve เป็นประสาทรับความรู้สึก (V1) บาดเจ็บแล้วหน้าผากและหนังศีรษะส่วนหน้าชา ไม่ทำให้กล้ามเนื้ออ่อนแรง; จะถูกถ้าผู้ป่วยมีแผลเหนือคิ้วส่วนกลาง ชาหน้าผากถึงหนังศีรษะ แต่ยักคิ้วได้ปกติ",
+   "D": "Oculomotor nerve (CN III) เลี้ยง levator palpebrae และกล้ามเนื้อตา บาดเจ็บแล้วหนังตาตก ตาเหล่ลงออก รูม่านตาขยาย ไม่เกี่ยวกับ frontalis; จะถูกถ้าผู้ป่วยหลังบาดเจ็บศีรษะหนังตาตกลืมตาไม่ขึ้นและรูม่านตาขยายข้างเดียว",
+   "E": "Buccal branch เลี้ยงกล้ามเนื้อรอบปากและแก้ม บาดเจ็บแล้วเป่าแก้ม/ยิ้มยกริมฝีปากบนไม่ได้; จะถูกถ้าแผลลึกกลางแก้มแล้วยิ้มเบี้ยว ยกริมฝีปากบนข้างนั้นไม่ได้"
+  },
+  "interp": "แผลลึกที่หน้าผากด้านข้างลามไปทางขมับ หลังบาดเจ็บยักคิ้วข้างนั้นไม่ได้ · ถามโครงสร้างที่บาดเจ็บ (ต้องรู้ว่าแขนงใดเลี้ยง frontalis และวิ่งผ่านตรงไหน)",
+  "why": "การยักคิ้วและย่นหน้าผากใช้กล้ามเนื้อ frontalis ซึ่งเลี้ยงโดย frontal (temporal) branch ของ facial nerve · แขนงนี้ออกจากขอบบนของ parotid ข้ามโหนก zygomatic arch แล้ววิ่งตื้นใต้ผิวหนังผ่านขมับและหน้าผากด้านข้าง ตามแนว Pitanguy line (จาก 0.5 cm ใต้ tragus ไป 1.5 cm เหนือหางคิ้ว) จึงบาดเจ็บง่ายจากแผลตรงตำแหน่งนี้ · ผลคือยักคิ้วไม่ได้ หน้าผากไม่ย่น คิ้วตก",
+  "trap": "ตอบ supraorbital nerve เพราะอยู่ที่หน้าผากเหมือนกัน — supraorbital เป็นประสาทรับความรู้สึก ทำให้ชา ไม่ทำให้ขยับไม่ได้",
+  "summary": [
+   "Facial nerve 5 แขนง: temporal (frontal), zygomatic, buccal, marginal mandibular, cervical · ตรวจการทำงานทุกแขนงก่อนฉีดยาชาในแผลที่ใบหน้าเสมอ",
+   "แผลที่อยู่ lateral ต่อเส้นแนวดิ่งผ่าน lateral canthus แล้วมีอ่อนแรง → สำรวจและต่อเส้นประสาทแบบ microsurgery ภายใน 72 ชม. (ปลายเส้นยังกระตุ้นด้วยเครื่องได้) · medial ต่อเส้นนี้แขนงปลายเชื่อมกันมาก มักฟื้นเอง",
+   "frontal branch และ marginal mandibular branch เชื่อมกับแขนงอื่นน้อย บาดเจ็บแล้วฟื้นเองยากกว่าแขนงอื่น"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C) มั่นใจสูง",
+  "variants": [
+   "แผลลึกที่แก้มบนแนวเส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน มีน้ำใสไหลออกจากแผล → parotid (Stensen) duct injury → ซ่อมท่อบน stent",
+   "แผลใต้มุมขากรรไกรแล้วมุมปากข้างนั้นตกไม่ขยับเวลายิ้ม → marginal mandibular branch",
+   "แผลที่หน้าผากส่วนกลาง (medial ต่อแนว lateral canthus) แล้วอ่อนแรงเล็กน้อย → เย็บแผลแล้วติดตาม มักฟื้นเอง"
+  ]
+ },
+ "MDCU76|RoC|Plastic 3": {
+  "wrong": {
+   "A": "ทางเชื่อมกับ piriform sinus เป็นของ 3rd/4th branchial pouch anomaly ไม่ใช่ thyroglossal duct; จะถูกถ้าเด็กมีฝีคอด้านซ้ายส่วนล่างหรือ acute suppurative thyroiditis ด้านซ้ายเป็นซ้ำ ๆ",
+   "C": "ต่อมไทรอยด์ปกติไม่ใช่แหล่งเชื้อ เชื้อจึงไม่ได้มาทางเลือดจากต่อม; ไม่มีสถานการณ์ใดที่ thyroglossal duct cyst ติดเชื้อทางนี้เป็นหลัก",
+   "D": "Parotid อยู่ด้านข้างใบหน้า ห่างจากก้อนแนวกลางคอ; จะถูกถ้าผู้สูงอายุขาดน้ำมี parotitis เป็นหนอง แล้วฝีลามลงคอด้านข้าง",
+   "E": "การติดเชื้อทางน้ำเหลืองจากทอนซิลทำให้ต่อมน้ำเหลืองด้านข้างคออักเสบ ไม่ใช่ทางหลักของ TGDC; จะถูกถ้าเด็กมีต่อมน้ำเหลือง jugulodigastric โตกดเจ็บหลังทอนซิลอักเสบ"
+  },
+  "interp": "ถามกลไกที่ thyroglossal duct cyst ติดเชื้อ — ต้องรู้แนวท่อตามการเคลื่อนลงของต่อมไทรอยด์ตอนเป็นตัวอ่อน",
+  "why": "ต่อมไทรอยด์เริ่มที่ foramen cecum (โคนลิ้น) แล้วเคลื่อนลงมาตามแนวกลางคอผ่านหน้าหรือผ่าน hyoid ทิ้งท่อ thyroglossal duct ไว้ ซึ่งปกติจะสลายไป · ถ้าเหลือเป็นถุงน้ำ ท่อที่ยังติดต่อกับ foramen cecum ทำให้เชื้อในช่องปากเข้ามาได้ จึงมักอักเสบตามหลังการติดเชื้อทางเดินหายใจส่วนบน",
+  "trap": "สับสนกับ branchial pouch anomaly ที่ติดต่อกับ piriform sinus — TGDC อยู่แนวกลางและติดต่อกับ foramen cecum ส่วน 3rd/4th pouch อยู่ด้านข้าง (ส่วนใหญ่ซ้าย)",
+  "summary": [
+   "TGDC: ก้อนแนวกลางคอระดับ hyoid ที่พบบ่อยที่สุดในเด็ก ขยับขึ้นเมื่อแลบลิ้นหรือกลืน",
+   "TGDC อักเสบ: ยาปฏิชีวนะคลุมเชื้อในช่องปากก่อน เลี่ยงการกรีดระบาย (ถ้าจำเป็นใช้เข็มดูด) เพราะการกรีดทำให้เกิดรูทะลุผิวหนังและกลับเป็นซ้ำมากขึ้น → ผ่าตัดเมื่อการอักเสบหายแล้ว",
+   "Sistrunk procedure: ตัด cyst + ส่วนกลางของ hyoid + ท่อจนถึงโคนลิ้น · กลับเป็นซ้ำสูงขึ้นถ้าเคยติดเชื้อหรือเคยกรีดระบาย",
+   "3rd/4th branchial pouch sinus: เริ่มที่ piriform fossa → ฝีคอซ้ายล่าง/suppurative thyroiditis ซ้ำ ๆ → ส่องกล้องจี้ปิดรูหรือผ่าตัด"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ Key 76C) มั่นใจสูง",
+  "variants": [
+   "เด็ก TGDC บวมแดงกดเจ็บหลังเป็นหวัด → ยาปฏิชีวนะจนหายอักเสบ แล้วนัดผ่าตัด Sistrunk",
+   "หลังกรีดระบายฝีที่คอแนวกลางมีรูน้ำใสไหลซ้ำ → thyroglossal fistula → Sistrunk ร่วมตัดรูที่ผิวหนัง",
+   "ผู้ใหญ่มี TGDC ที่มีก้อนแข็งในผนังและจุดหินปูน → สงสัย papillary carcinoma ใน TGDC → FNA"
+  ]
+ },
+ "MDCU76|RoC|Plastic 4": {
+  "interp": "เด็กเล็กมีก้อนใหญ่นุ่ม ไม่เจ็บ กดยุบได้ ที่แก้มล่างลามลงคอตั้งแต่ทารก ส่องไฟผ่านสว่าง (transillumination) · ถามการวินิจฉัย",
+  "why": "ก้อนนุ่มกดยุบได้ ส่องไฟผ่าน (เป็นน้ำเหลืองใส) มีตั้งแต่เกิดหรือขวบปีแรก = cystic hygroma (macrocystic lymphatic malformation) · เป็นความผิดปกติของท่อน้ำเหลืองที่ไม่ต่อกับระบบหลัก โตตามตัวเด็กและไม่ยุบเอง · พบที่คอ (posterior triangle) มากที่สุด ลามขึ้นแก้ม ใต้ลิ้น หรือลงทรวงอกได้ ถุงอาจโตทันทีเมื่อติดเชื้อหรือเลือดออกในถุงจนกดทางเดินหายใจ",
+  "wrong": {
+   "B": "1st branchial cleft cyst อยู่ใกล้หู (หน้าหู ใต้ติ่งหู มุมขากรรไกร) สัมพันธ์กับช่องหูและ facial nerve เป็นถุงเดียวที่มักอักเสบซ้ำ; จะถูกถ้าเด็กมีถุงใต้ติ่งหูที่เป็นฝีซ้ำ ๆ และมีหนองไหลออกทางรูหู",
+   "C": "Infantile hemangioma เป็นก้อนแดงหรือม่วง ไม่มีหรือเล็กตอนเกิด โตเร็วในไม่กี่เดือนแรกแล้วค่อยยุบ ไม่ส่องไฟผ่าน; จะถูกถ้าทารก 3 เดือนมีก้อนแดงสดนูนที่แก้มซึ่งตอนเกิดเห็นเป็นแค่จุดแดง แล้วโตเร็ว",
+   "D": "Pleomorphic adenoma เป็นก้อนแข็งโตช้าใน parotid ของผู้ใหญ่ ไม่ส่องไฟผ่าน; จะถูกถ้าหญิง 40 ปีมีก้อนแข็งไม่เจ็บหน้าหูโตช้ามาหลายปี facial nerve ปกติ",
+   "E": "Dermoid cyst เป็นก้อนแน่น ยืดหยุ่น มีเนื้อ keratin ไม่ส่องไฟผ่าน มักอยู่แนวกลางหรือหางคิ้ว; จะถูกถ้าเด็กมีก้อนกลมแน่นที่หางคิ้วด้านนอกตั้งแต่เกิด ไม่เจ็บ ไม่กดยุบ"
+  },
+  "trap": "เห็นก้อนแถวแก้มแล้วตอบ branchial cleft cyst หรือ hemangioma — ให้ใช้ transillumination, กดยุบได้ และมีตั้งแต่เกิดแยก",
+  "summary": [
+   "Lymphatic malformation (ISSVA): macrocystic (cystic hygroma) vs microcystic vs mixed · เป็น vascular malformation ไม่ยุบเอง ต่างจาก hemangioma ที่เป็นเนื้องอกและยุบเอง",
+   "ส่วนใหญ่พบก่อนอายุ 2 ปี · คอ (posterior triangle) มากสุด รองลงมาคือรักแร้",
+   "ภาวะแทรกซ้อน: ติดเชื้อหรือเลือดออกในถุงทำให้โตทันที กดทางเดินหายใจ/การกลืน",
+   "ตรวจ: ultrasound หรือ MRI ดูขอบเขต · รักษา: sclerotherapy (OK-432, doxycycline, bleomycin) ได้ผลดีใน macrocystic · ผ่าตัดเมื่อก้อนเฉพาะที่ · sirolimus ในรายซับซ้อน/microcystic"
+  ],
+  "variants": [
+   "เด็กมี cystic hygroma ที่คอ โตขึ้นทันทีหลังเป็นหวัด หายใจเสียงดัง → ติดเชื้อ/เลือดออกในถุง → ดูแลทางเดินหายใจก่อน แล้วยาปฏิชีวนะ",
+   "Macrocystic lymphatic malformation ที่คอโดยไม่มีภาวะแทรกซ้อน → sclerotherapy (OK-432/doxycycline/bleomycin)",
+   "อัลตราซาวนด์ครรภ์พบถุงน้ำใหญ่ที่ท้ายทอยทารก (nuchal cystic hygroma) → ตรวจโครโมโซม (Turner, trisomy 21)"
+  ]
+ },
+ "MDCU76|RoC|Plastic 5": {
+  "why": "ปลายของ flap มุมแหลมหรือมุมฉากได้เลือดเลี้ยงน้อยที่สุด (เลือดมาจากฐาน flap) · ถ้าเย็บแบบที่เข็มทะลุผิวหนังปลาย flap แล้วรัด จะบีบหลอดเลือดฝอยจนปลายตาย · half-buried horizontal mattress (corner/tip stitch) ร้อยเข็มผ่านชั้น dermis ของปลาย flap ในแนวราบโดยไม่ทะลุผิวหนังด้านบน แล้วออกที่ผิวด้านตรงข้าม → ดึงปลายเข้ามุมได้พอดี ไม่รัดหลอดเลือดปลาย และไม่มีรอยเข็มบนปลาย flap (ตามสไลด์ที่แปะในคีย์)",
+  "trap": "เลือก simple interrupted เพราะเป็นมาตรฐาน — ที่ปลาย flap เข็มที่ทะลุผิวและรัดจะทำให้ปลายตาย",
+  "summary": [
+   "Flap laceration: ประเมินเลือดเลี้ยงปลาย flap (สี, capillary refill) · flap ที่ฐานกว้างและได้รับเลือดดีวางกลับได้ · ส่วนที่ตายแล้วตัดทิ้ง",
+   "Corner stitch: เข้าเข็มที่ผิวด้านหนึ่ง → ผ่านชั้น dermis ของปลาย flap ในแนวราบ → ออกผิวด้านตรงข้ามในระดับเดียวกัน แล้วเย็บด้านข้างตามปกติ · ใช้ได้กับ stellate laceration ทุกแฉก",
+   "ลดแรงตึงที่ปลาย flap: เย็บด้านข้างก่อนให้ปลายเข้าที่โดยไม่ตึง"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C แปะสไลด์ half-buried suture) มั่นใจสูง",
+  "variants": [
+   "ผู้สูงอายุแผลฉีกเป็น flap ผิวบางที่หน้าแข้ง (pretibial flap) → วางกลับแล้วใช้ adhesive strip ไม่เย็บแน่น",
+   "Flap มุมแหลมฐานแคบ 3 วันหลังเย็บ ปลายดำแห้ง → ตัดส่วนที่ตายออก ปล่อยให้หายเองหรือปิดด้วย graft",
+   "แผลรูปดาวหลายแฉก (stellate laceration) ที่หน้าผาก → corner stitch รวบปลายทุกแฉกเข้าตรงกลาง"
+  ]
+ },
+ "MDCU76|RoC|Plastic 6": {
+  "interp": "ทารกแรกเกิดมี facial cleft รุนแรง · ถามปัญหาที่ต้องจัดการเร่งด่วนที่สุด (ลำดับความสำคัญแรกคลอด)",
+  "why": "ทารกที่มีความผิดปกติของใบหน้ารุนแรงอาจมีทางเดินหายใจอุดกั้น (ลิ้นตกไปด้านหลัง ขากรรไกรเล็ก โครงสร้างโพรงจมูก/คอหอยผิดรูป) จึงต้องประเมินและเปิดทางเดินหายใจก่อนตามหลัก ABC · ถัดมาคือการให้นม · ข้อสังเกตจากลายมือในคีย์: ถ้า cleft ผ่านเปลือกตา/เบ้าตา (Tessier cleft) จนตาปิดไม่สนิท corneal exposure เป็นเรื่องเร่งด่วนที่ต้องป้องกันกระจกตาทันที — แต่ในช้อยที่มีให้ airway มาก่อน",
+  "wrong": {
+   "B": "การให้นมสำคัญรองจากทางเดินหายใจ; จะถูกถ้าทารกปากแหว่งเพดานโหว่ทั่วไปที่หายใจปกติ — ปัญหาแรกคือดูดนมไม่ได้ ใช้จุกนมพิเศษหรือขวดบีบ ให้นมท่าตั้ง",
+   "C": "การได้ยินประเมินภายหลัง; จะถูกถ้าเด็ก cleft palate อายุ 2 ปีหูอื้อ พูดช้า ตรวจพบ otitis media with effusion → ใส่ท่อ ventilation",
+   "D": "การพูดดูแลหลังซ่อมเพดาน; จะถูกถ้าเด็กอายุ 4 ปีหลังซ่อมเพดานพูดเสียงขึ้นจมูก (velopharyngeal insufficiency) → speech therapy ± pharyngoplasty",
+   "E": "ความสวยงามไม่เร่งด่วน; ไม่มีสถานการณ์ใดที่ความสวยงามมาก่อนการหายใจ การกิน หรือการปกป้องกระจกตา"
+  },
+  "trap": "ตอบ feeding เพราะเป็นปัญหาที่พบบ่อยที่สุดในปากแหว่งเพดานโหว่ — ในความผิดปกติรุนแรง airway มาก่อนเสมอ",
+  "summary": [
+   "ลำดับแรกคลอด: airway → feeding → ป้องกันกระจกตาถ้า cleft ผ่านเปลือกตา → ประเมินความผิดปกติร่วม",
+   "Pierre Robin sequence (micrognathia, glossoptosis, cleft palate): ทางเดินหายใจอุดกั้น → นอนคว่ำ, nasopharyngeal airway, mandibular distraction/tongue–lip adhesion ถ้าไม่ดีขึ้น",
+   "ซ่อมปากแหว่ง: rule of 10s (อายุ 10 สัปดาห์, น้ำหนัก 10 lb, Hb 10 g/dL) · ซ่อมเพดานโหว่ 9–12 เดือน ก่อนเริ่มพูด",
+   "ดูแลแบบทีมสหสาขา: ศัลยแพทย์ตกแต่ง, หู คอ จมูก, การได้ยิน, การพูด, ทันตกรรมจัดฟัน"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C) มั่นใจปานกลาง — ลายมือในคีย์เตือนว่าถ้า cleft เกี่ยวกับเปลือกตา corneal exposure จะเร่งด่วนกว่า ซึ่งขึ้นกับตำแหน่ง cleft",
+  "variants": [
+   "ทารก Pierre Robin หายใจลำบาก หน้าอกบุ๋มเมื่อนอนหงาย → นอนคว่ำ ± nasopharyngeal airway",
+   "ทารกมี Tessier cleft ผ่านเปลือกตาล่าง ตาปิดไม่สนิท → หยอดน้ำตาเทียม ป้ายยา ปิดตา ± tarsorrhaphy ป้องกัน exposure keratopathy",
+   "ทารกปากแหว่งอายุ 10 สัปดาห์ น้ำหนัก 5 kg Hb 11 g/dL → ผ่าตัดซ่อมปากได้"
+  ]
+ },
+ "MDCU76|RoC|Plastic 7": {
+  "interp": "ถามว่าผู้ป่วยรายใดควรส่งต่อ burn center · ต้องรู้เกณฑ์ส่งต่อซึ่งพิจารณาทั้งความลึก ขนาด ตำแหน่ง และชนิดของ burn",
+  "why": "ผู้ป่วยรายนี้เข้าเกณฑ์ส่งต่อทันทีของ ABA 2022 สองข้อ: full-thickness burn (ทุกขนาด) และ burn ลึกที่ใบหน้า ซึ่งต้องการการผ่าตัดและการฟื้นฟูเฉพาะทางเพื่อหน้าที่และรูปลักษณ์ · ช้อยอื่นเป็นแผลตื้นขนาดเล็กที่ไม่ใช่ตำแหน่งพิเศษ ดูแลแบบผู้ป่วยนอกได้",
+  "wrong": {
+   "B": "Superficial partial thickness 5% ที่แขนไม่เข้าเกณฑ์ส่งต่อทันที (partial thickness ต้อง ≥ 10%); จะถูกถ้าเป็นผู้ใหญ่ที่มี partial thickness burn 15% TBSA ที่ลำตัวและแขน",
+   "C": "Partial thickness 5% ที่ขาในเด็ก 10 ขวบตาม ABA 2022 เป็นระดับปรึกษา burn center (เด็ก ≤ 14 ปีหรือ < 30 kg อาจได้ประโยชน์จากการส่งต่อ) แต่ไม่ใช่เกณฑ์ส่งต่อทันทีแบบช้อย A; จะถูกถ้าเด็กมีน้ำร้อนลวกที่เท้าหรือฝีเย็บ (ตำแหน่งพิเศษ)",
+   "D": "Superficial partial thickness 3% ที่ต้นขาเล็กและตื้น ดูแลแผลเองได้; จะถูกถ้าแผล 3% นี้เป็น deep partial thickness ที่ข้อเข่า (ข้อใหญ่)",
+   "E": "Superficial (first-degree) burn เช่น sunburn ไม่นับใน TBSA และไม่ต้องส่งต่อ; จะถูกถ้าเป็นผู้ป่วยไฟฟ้าแรงสูงช็อตมีแผลเข้าออกเล็กที่มือและเท้า (electrical ≥ 1,000 V)"
+  },
+  "trap": "คิดว่าต้องมี TBSA มากจึงส่งต่อ — full thickness ทุกขนาด และ burn ลึกที่ใบหน้า มือ เท้า อวัยวะเพศ ฝีเย็บ ข้อใหญ่ ส่งต่อได้แม้ TBSA น้อย",
+  "summary": [
+   "ABA 2022 ส่งต่อทันที: full thickness ทุกขนาด · partial thickness ≥ 10% TBSA · deep partial/full thickness ที่ใบหน้า มือ เท้า อวัยวะเพศ ฝีเย็บ ข้อใหญ่ · electrical ≥ 1,000 V/ฟ้าผ่า · chemical · inhalation injury · burn ร่วม trauma/โรคประจำตัวที่มีผล",
+   "ABA 2022 แนะนำให้ปรึกษา: partial thickness < 10%, แผลที่อาจลึก, electrical < 1,000 V · เด็ก ≤ 14 ปีหรือ < 30 kg อาจได้ประโยชน์จากการส่งต่อ",
+   "เกณฑ์เดิม (ที่ลายมือในคีย์เขียน): partial + full > 20% ในผู้ใหญ่, > 10% ในอายุ < 10 หรือ > 50 ปี, full thickness > 5%",
+   "Superficial (first-degree) ไม่นับ TBSA · ใบหน้าอย่างเดียวไม่ถึง 7% TBSA (ศีรษะและคอทั้งหมดราว 9%)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C ลายมือเกณฑ์ส่งต่อแบบเดิม) มั่นใจสูง — ช้อย B–E แต่งใหม่เพราะต้นฉบับจดไม่ครบ",
+  "variants": [
+   "ผู้ป่วยถูกน้ำร้อนลวกที่ฝ่ามือทั้งสองข้างเป็น deep partial thickness 2% TBSA → ส่ง burn center (มือ)",
+   "คนงานถูกกรดกัดที่แขน 3% TBSA → ล้างน้ำปริมาณมากทันทีแล้วส่ง burn center (chemical burn)",
+   "ผู้ป่วยไฟไหม้ในห้องปิด เสียงแหบ ขนจมูกไหม้ เสมหะมีเขม่า → สงสัย inhalation injury → ใส่ท่อช่วยหายใจเร็วและส่ง burn center"
+  ]
+ }
+}
