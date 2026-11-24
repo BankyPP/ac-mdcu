@@ -1,0 +1,94 @@
+{
+ "MDCU78|RoD|82": {
+  "interp": "หญิงอายุ 50 ปี ไข้ หนาวสั่น ปวดสีข้าง ให้ IV antibiotics หลายวันไม่ดีขึ้น CT พบ renal abscess 6 cm สัญญาณชีพคงที่ → ฝีใหญ่กว่า 5 cm ที่ไม่ตอบสนองต่อยา ถามการรักษา",
+  "why": "Renal abscess รักษาตามขนาดและการตอบสนอง: <b>&lt; 3 cm</b> → IV antibiotics อย่างเดียวมักหาย · <b>3–5 cm</b> → antibiotics แล้วระบายถ้าไม่ดีขึ้นใน 48–72 ชม. · <b>&gt; 5 cm หรือไม่ตอบสนองต่อยา</b> → <b>percutaneous drainage</b> (นำทางด้วย US/CT) ร่วมกับ antibiotics เป็นทางเลือกแรก เพราะรุกล้ำน้อยและได้หนองไปเพาะเชื้อ · รายนี้ 6 cm และยังไข้หลังได้ยาหลายวัน จึงต้องระบาย · open drainage/nephrectomy สงวนไว้เมื่อระบายทางผิวหนังล้มเหลวหรือไตเสียหน้าที่ · หาต้นเหตุร่วม: นิ่วหรือการอุดตัน (แก้ด้วย stent/PCN), เบาหวาน, ติดเชื้อทางกระแสเลือด (S. aureus)",
+  "wrong": {
+   "B": "Open surgical drainage รุกล้ำกว่าและสงวนไว้เมื่อระบายทางผิวหนังไม่ได้ผล; จะถูกถ้าใส่สายระบายทางผิวหนังแล้วยังไข้ หนองข้นหลายช่อง หรือ perinephric abscess ลามกว้างจนสายระบายไม่ทั่ว",
+   "C": "ให้ antibiotics ต่ออย่างเดียวใช้กับฝีเล็กที่ตอบสนองดี — ฝี 6 cm ที่ยังไข้หลังได้ยาหลายวันต้องระบาย; จะถูกถ้าฝีขนาด 2 cm และไข้ลดลงภายใน 48–72 ชม.หลังเริ่มยา",
+   "D": "Nephrectomy ใช้เมื่อไตข้างนั้นเสียหน้าที่หรือการติดเชื้อรุนแรงที่รักษาวิธีอื่นไม่ได้; จะถูกถ้าไตข้างนั้นไม่ทำงานจาก xanthogranulomatous pyelonephritis ร่วมกับ staghorn stone หรือ emphysematous pyelonephritis รุนแรงที่ระบายแล้วไม่ดีขึ้น",
+   "E": "Ureteral stent ระบายปัสสาวะที่อุดตันในระบบทางเดินปัสสาวะ ไม่ได้ระบายฝีในเนื้อไต; จะถูกถ้าผู้ป่วยไข้จาก pyelonephritis ร่วมกับนิ่วอุดท่อไตและไตบวมน้ำ (obstructed infected kidney ต้อง decompression ด่วนด้วย DJ stent หรือ PCN)"
+  },
+  "trap": "สับสน \"ระบายฝี\" กับ \"ระบายการอุดตัน\" — ฝีในเนื้อไตระบายด้วย percutaneous drainage ส่วนไตอุดตันติดเชื้อระบายด้วย DJ stent หรือ PCN · ขนาด 5 cm เป็นเกณฑ์จำ: เล็กกว่า 3 ยาอย่างเดียว ใหญ่กว่า 5 ระบาย",
+  "summary": [
+   "สาเหตุ renal abscess: ติดเชื้อขึ้นจากทางเดินปัสสาวะ (E. coli, Klebsiella — มักมีนิ่ว/อุดตัน/เบาหวาน) หรือผ่านกระแสเลือด (S. aureus — ผู้ใช้ยาเสพติดฉีด, ฝีที่ผิวหนัง)",
+   "อาการ: ไข้ หนาวสั่น ปวดสีข้าง (อาจเป็นมาหลายสัปดาห์) · urine culture อาจลบในแบบผ่านกระแสเลือด · CT with contrast วินิจฉัยดีที่สุด",
+   "รักษาตามขนาด: &lt; 3 cm antibiotics · 3–5 cm antibiotics ± drainage · &gt; 5 cm หรือไม่ตอบสนอง → percutaneous drainage + antibiotics · ให้ยารวมหลายสัปดาห์ตามการตอบสนองและ CT ซ้ำ",
+   "Perinephric abscess: มักต้องระบายเสมอ · ล้มเหลว → open drainage",
+   "Obstructed infected kidney (นิ่วอุด + ไข้) = ภาวะเร่งด่วน → DJ stent หรือ PCN ก่อน แล้วรักษานิ่วภายหลัง",
+   "Emphysematous pyelonephritis/pyelitis ในเบาหวาน: ดูข้อ 78D เลข 83"
+  ],
+  "opinion": "ไม่มีไฟล์เฉลย 78D — เฉลยโดยผม ตอบ A ความมั่นใจสูง; ต้นฉบับช้อย A เขียนว่า PCN ซึ่งเราตีความว่าหมายถึงการระบายทางผิวหนัง (percutaneous drainage) ตามบริบทฝีขนาดใหญ่ที่ไม่ตอบสนองต่อยา",
+  "variants": [
+   "ผู้ป่วยเบาหวาน renal abscess 2 cm ไข้ลดลงหลังให้ IV antibiotics 48 ชม. → ให้ antibiotics ต่อ ไม่ต้องระบาย",
+   "ผู้ป่วยไข้สูง ปวดสีข้าง CT นิ่วอุดท่อไตส่วนต้น ไตบวมน้ำ → DJ stent หรือ PCN ด่วน + antibiotics",
+   "ผู้ใช้ยาเสพติดฉีดมีไข้ ปวดสีข้าง urine culture ลบ CT ฝีในไต → สงสัย S. aureus ผ่านกระแสเลือด (เพาะเชื้อในเลือด หา endocarditis)",
+   "ระบาย perinephric abscess ทางผิวหนังแล้วยังไข้ CT เห็นหนองหลายช่อง → open surgical drainage"
+  ]
+ },
+ "MDCU78|RoD|83": {
+  "trap": "แยกให้ออกว่าแก๊สอยู่ที่ใด: <b>ใน collecting system เท่านั้น</b> (pelvis, calyces) = emphysematous pyelitis พยากรณ์ดี · <b>ในเนื้อไต</b> ± รอบไต = emphysematous pyelonephritis รุนแรงกว่ามาก · แก๊สใน collecting system ต้องแยกจากลมที่เข้าไปหลังใส่เครื่องมือ (cystoscopy, สายสวน, fistula)",
+  "summary": [
+   "Emphysematous pyelitis: แก๊สจำกัดใน collecting system (Huang–Tseng class 1) · รักษาด้วย antibiotics + แก้การอุดตัน (DJ stent/PCN) · พยากรณ์ดี",
+   "Emphysematous pyelonephritis: necrotizing infection มีแก๊สในเนื้อไต ± รอบไต · ผู้ป่วยเบาหวานราว 90–95% · E. coli, Klebsiella · มักมีการอุดตันร่วม",
+   "Huang–Tseng: 1 แก๊สใน collecting system · 2 ในเนื้อไต · 3A ลามรอบไต (perinephric) · 3B ลามถึง pararenal · 4 ทั้งสองข้างหรือไตข้างเดียว",
+   "รักษา EPN: antibiotics + คุมน้ำตาล + percutaneous drainage/แก้อุดตัน · class 3–4 ที่มีปัจจัยเสี่ยง ≥ 2 (เกล็ดเลือดต่ำ, AKI, ซึม, ช็อก) หรือระบายแล้วไม่ดีขึ้น → nephrectomy",
+   "Xanthogranulomatous pyelonephritis: อักเสบเรื้อรัง ร่วม staghorn stone ไตโตไม่ทำงาน ภาพ bear paw sign → nephrectomy"
+  ],
+  "variants": [
+   "ผู้ป่วยเบาหวาน ไข้ ช็อก CT เห็นแก๊สในเนื้อไตลามรอบไต เกล็ดเลือดต่ำ AKI → emphysematous pyelonephritis class 3: resuscitate + antibiotics + drainage พิจารณา nephrectomy",
+   "ผู้ป่วยเบาหวาน CT เห็นแก๊สใน calyces และท่อไตขยายจากนิ่ว → emphysematous pyelitis: antibiotics + DJ stent",
+   "CT เห็นไตโตไม่ทำงาน มี staghorn stone และโพรงหลายโพรงรูปอุ้งเท้าหมี → xanthogranulomatous pyelonephritis: nephrectomy",
+   "หลังทำ cystoscopy CT เห็นลมใน bladder และ collecting system ผู้ป่วยไม่มีไข้ → ลมจากการใส่เครื่องมือ ไม่ใช่การติดเชื้อ"
+  ]
+ },
+ "MDCU78|RoD|84": {
+  "interp": "เด็ก 4 ปี VUR grade IV ได้ continuous antibiotic prophylaxis มา 3 ปีโดยไม่มีการติดเชื้อแทรก วันนี้ VCUG ซ้ำปกติ = reflux หายแล้ว → ถามการดูแลต่อ",
+  "why": "VUR จำนวนมากหายเองเมื่อเด็กโตขึ้น เพราะท่อไตส่วนที่ลอดในผนังกระเพาะปัสสาวะยาวขึ้นจนกลไกลิ้นปิดดีขึ้น (เกรดต่ำหายบ่อยกว่า แต่เกรด IV ก็หายได้) · เมื่อ <b>VCUG ปกติ = reflux หายแล้ว</b> → <b>หยุด antibiotic prophylaxis</b> ได้ เพราะเป้าหมายของยาคือกันการติดเชื้อขึ้นไตระหว่างรอ reflux หาย · หลังหยุดยาให้ผู้ปกครองรู้อาการไข้จาก UTI และตรวจปัสสาวะ/เพาะเชื้อเมื่อมีไข้ไม่ทราบสาเหตุ รักษา bladder–bowel dysfunction (ท้องผูก กลั้นปัสสาวะ) ถ้ามี · ไม่ต้องผ่าตัดเพราะไม่มี reflux แล้ว",
+  "wrong": {
+   "B": "VCUG ซ้ำใน 3 เดือนไม่จำเป็นเมื่อผลปกติแล้ว และเป็นการตรวจที่มีรังสีและต้องสวนปัสสาวะ; จะถูกถ้า VCUG ครั้งนี้ยังพบ reflux ซึ่งจะติดตามด้วย VCUG ซ้ำราวทุก 12–24 เดือนระหว่างให้ยาป้องกัน",
+   "C": "Ureteric reimplantation ใช้กับ reflux ที่ยังคงอยู่และมีข้อบ่งชี้ ไม่ใช่เมื่อ reflux หายแล้ว; จะถูกถ้าเด็กยังมี reflux grade IV และมีไข้จาก UTI ซ้ำทั้งที่กินยาป้องกันอยู่",
+   "D": "Endoscopic injection ใช้รักษา reflux ที่ยังคงอยู่ (ได้ผลดีในเกรดต่ำ–กลาง); จะถูกถ้าเด็ก reflux grade III ที่ยังไม่หาย มี breakthrough febrile UTI และผู้ปกครองเลือกวิธีรุกล้ำน้อย",
+   "E": "ให้ยาป้องกันต่อจนเข้าวัยรุ่นไม่มีประโยชน์เมื่อ reflux หายแล้ว และเพิ่มเชื้อดื้อยา — ไม่มีสถานการณ์ใดที่ต้องให้ prophylaxis ต่อหลัง VCUG ยืนยันว่า reflux หายแล้วในเด็กที่ไม่มีการติดเชื้อแทรก"
+  },
+  "trap": "คิดว่า VUR เกรดสูงต้องผ่าตัดเสมอหรือต้องกินยาจนโต — ตัดสินจากสถานะปัจจุบัน: reflux หายแล้วหยุดยา · ข้อบ่งชี้ผ่าตัดคือ breakthrough febrile UTI ขณะกินยา, scarring ใหม่ หรือ reflux เกรดสูงที่ไม่หาย ไม่ใช่เกรดอย่างเดียว",
+  "summary": [
+   "VUR หายเองเมื่อโต: เกรดต่ำ (I–III) หายบ่อย · เกรด IV–V หายน้อยกว่า · VCUG ติดตามราวทุก 12–24 เดือน",
+   "Continuous antibiotic prophylaxis: TMP-SMX หรือ nitrofurantoin ขนาดต่ำก่อนนอน · ลด febrile UTI ซ้ำ (RIVUR) · หยุดเมื่อ reflux หาย หรือเด็กโตและไม่มี UTI ในเด็กที่ควบคุมการขับถ่ายได้แล้ว",
+   "ข้อบ่งชี้ผ่าตัด: breakthrough febrile UTI ขณะกินยา · renal scarring ใหม่/แย่ลง · reflux เกรดสูงที่ไม่หาย · ให้ยาไม่ได้",
+   "ทางเลือกผ่าตัด: ureteric reimplantation (สำเร็จราว 95–98%) · endoscopic injection (ราว 70–80% ต่ำลงในเกรดสูง)",
+   "Bladder–bowel dysfunction ทำให้ reflux หายช้าและ UTI ซ้ำ → แก้ท้องผูก ฝึกปัสสาวะตามเวลา · ดูข้อ 78B เลข 24"
+  ],
+  "opinion": "ไม่มีไฟล์เฉลย 78D — เฉลยโดยผม ตอบ A ความมั่นใจสูง; ต้นฉบับจดว่า VCUG ปกติหลังกินยา 3 ปี เราเติม without breakthrough infection เพื่อให้ไม่มีข้อบ่งชี้อื่น",
+  "variants": [
+   "เด็ก VUR grade III กินยาป้องกันอยู่แต่มีไข้จาก UTI 2 ครั้ง → ผ่าตัด (endoscopic injection หรือ reimplantation)",
+   "เด็ก VUR grade II กินยาป้องกัน 1 ปี VCUG ยังพบ reflux ไม่มีการติดเชื้อแทรก → ให้ยาต่อและ VCUG ซ้ำใน 12–24 เดือน",
+   "เด็ก 6 ปี UTI ซ้ำ ท้องผูกเรื้อรัง กลั้นปัสสาวะ → รักษา bladder–bowel dysfunction ร่วม",
+   "เด็กหยุดยาป้องกันหลัง reflux หาย มีไข้สูงไม่ทราบสาเหตุ → ตรวจปัสสาวะและเพาะเชื้อ"
+  ]
+ },
+ "MDCU78|RoD|85": {
+  "interp": "ข้อ LEAST likely: urothelial (transitional cell) carcinoma เกิดได้ทุกที่ที่บุด้วย urothelium → หาตำแหน่งที่<b>ไม่น่าเกิด</b>ที่สุด คือตำแหน่งที่เยื่อบุส่วนใหญ่ไม่ใช่ urothelium",
+  "why": "Urothelium บุตั้งแต่ <b>calyx → renal pelvis → ureter → bladder → prostatic urethra</b> · มะเร็ง urothelial จึงเกิดได้ทุกตำแหน่งนี้ โดย bladder พบมากที่สุด (ราว 90–95%) และ upper tract ราว 5–10% (pelvicalyceal มากกว่า ureter) · <b>Urethra</b> ส่วนปลาย (ในชายตั้งแต่ penile urethra และในหญิงเกือบทั้งเส้น) บุด้วย squamous epithelium มะเร็ง urethra ปฐมภูมิจึงพบน้อยมาก (น้อยกว่า 1% ของมะเร็งทางเดินปัสสาวะ) และส่วนใหญ่เป็น squamous cell carcinoma ไม่ใช่ urothelial · จึงเป็นตำแหน่งที่ TCC เกิดน้อยที่สุดในช้อย",
+  "wrong": {
+   "A": "Calyx บุด้วย urothelium จึงเกิด upper tract urothelial carcinoma ได้ (รวมใน pelvicalyceal tumor ซึ่งพบมากกว่า ureter) — ไม่มีสถานการณ์ใดที่ calyx เป็นตำแหน่งที่ TCC เกิดน้อยที่สุดในช้อยนี้ เพราะเป็นเยื่อบุชนิดเดียวกับ bladder",
+   "B": "Renal pelvis เป็นตำแหน่งที่พบบ่อยที่สุดของ upper tract urothelial carcinoma — ไม่มีสถานการณ์ใดที่ renal pelvis เป็นคำตอบของข้อนี้ เพราะบุด้วย urothelium และสัมผัสสารก่อมะเร็งในปัสสาวะ",
+   "C": "Ureter เกิด urothelial carcinoma ได้ (ส่วนปลายบ่อยกว่าส่วนต้น) พบน้อยกว่า renal pelvis แต่ยังมากกว่า urethra มาก — ไม่มีสถานการณ์ใดที่ ureter เป็นตำแหน่งที่ TCC เกิดน้อยที่สุดเมื่อเทียบกับ urethra",
+   "D": "Bladder เป็นตำแหน่งที่พบ urothelial carcinoma มากที่สุด (ราว 90–95%) เพราะพื้นที่มากและสัมผัสสารก่อมะเร็งในปัสสาวะนานที่สุด — ไม่มีสถานการณ์ใดที่ bladder เป็นคำตอบของข้อ LEAST likely นี้"
+  },
+  "trap": "ข้อนี้ถามกลับด้าน — อย่าตอบตำแหน่งที่พบบ่อยที่สุด · ใช้หลักชนิดเยื่อบุ: ที่ไหนเป็น urothelium เกิด TCC ได้ · urethra ส่วนปลายเป็น squamous จึงเกิด SCC มากกว่า · ใน upper tract ระหว่าง pelvis กับ ureter ให้จำว่า pelvis พบมากกว่า",
+  "summary": [
+   "Urothelial carcinoma: bladder ราว 90–95% · upper tract ราว 5–10% (renal pelvis/calyx มากกว่า ureter ราว 2 เท่า) · urethra ปฐมภูมิน้อยกว่า 1%",
+   "ปัจจัยเสี่ยง: สูบบุหรี่ (สำคัญที่สุด) · aromatic amines (สีย้อม ยาง) · cyclophosphamide · phenacetin · aristolochic acid · Lynch syndrome (เพิ่มเฉพาะ upper tract)",
+   "ชนิดอื่นของมะเร็งกระเพาะปัสสาวะ: squamous cell (schistosomiasis, สายสวนคาเรื้อรัง, นิ่ว) · adenocarcinoma (urachal remnant ที่ยอดกระเพาะ, bladder exstrophy)",
+   "Upper tract urothelial carcinoma: ต้องติดตาม cystoscopy เพราะกลับเป็นซ้ำใน bladder ราว 20–50% · รักษามาตรฐาน radical nephroureterectomy + bladder cuff",
+   "มะเร็ง urethra: หญิงส่วนใหญ่ SCC ที่ส่วนปลาย · ชาย SCC ที่ bulbomembranous · prostatic urethra เป็น urothelial"
+  ],
+  "opinion": "ไม่มีไฟล์เฉลย 78D — เฉลยโดยผม ตอบ E ความมั่นใจปานกลาง–สูง; ช้อยตรงกับต้นฉบับครบ 5 ตัว และ urethra เป็นตำแหน่งเดียวที่เยื่อบุส่วนใหญ่ไม่ใช่ urothelium",
+  "variants": [
+   "ผู้ป่วยสูบบุหรี่ ปัสสาวะเป็นเลือดไม่เจ็บ อายุ 65 ปี → cystoscopy + CT urography หา urothelial carcinoma",
+   "ผู้ป่วยติดเชื้อพยาธิใบไม้เลือด (Schistosoma haematobium) เรื้อรัง มะเร็งกระเพาะปัสสาวะที่สัมพันธ์ → squamous cell carcinoma",
+   "ผู้ป่วย Lynch syndrome มีเลือดในปัสสาวะ CT เห็นก้อนใน renal pelvis → upper tract urothelial carcinoma: radical nephroureterectomy + bladder cuff",
+   "หลังผ่าตัด upper tract urothelial carcinoma ต้องติดตามอะไร → cystoscopy เป็นระยะ (มะเร็งกลับมาที่ bladder บ่อย)"
+  ]
+ }
+}
