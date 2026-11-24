@@ -129,5 +129,69 @@
    "ผู้ป่วย ADPKD มีพี่น้อง 2 คนเคยเป็น SAH → คัดกรอง aneurysm ด้วย MRA",
    "หลัง SAH วันที่ 3 ซึมลง CT พบ ventricle โต → acute hydrocephalus → EVD"
   ]
+ },
+ "MDCU76|RoC|Uro 1": {
+  "interp": "ชายมี LUTS รุนแรง (IPSS 22) DRE ต่อมโตเล็กน้อย เรียบ ยืดหยุ่น PSA 1 (ต่อมไม่ใหญ่ ไม่สงสัยมะเร็ง) → BPH ที่ยังไม่มีภาวะแทรกซ้อน · ถามการรักษาเริ่มต้น",
+  "why": "IPSS 22 = อาการรุนแรงและผู้ป่วยรำคาญ จึงควรรักษาด้วยยา ไม่ใช่เฝ้าดู · ยังไม่มีข้อบ่งชี้ผ่าตัด (retention, ติดเชื้อซ้ำ, นิ่ว, hematuria ซ้ำ, ไตเสื่อมจากการอุดกั้น) · alpha-1 blocker (tamsulosin, alfuzosin, doxazosin) คลายกล้ามเนื้อเรียบที่ bladder neck และต่อมลูกหมาก ได้ผลเร็วในไม่กี่วันถึง 1–2 สัปดาห์ และได้ผลทุกขนาดต่อม จึงเป็นยาแรก · ต่อมโตเล็กน้อยร่วม PSA 1 (< 1.5) บ่งว่าต่อมเล็ก (< 40 mL) ซึ่ง 5-ARI ได้ผลน้อย",
+  "wrong": {
+   "B": "5-ARI (finasteride/dutasteride) ลดขนาดต่อมโดยยับยั้ง DHT ได้ผลช้า (3–6 เดือน) และได้ผลเฉพาะต่อมใหญ่; จะถูก (มักร่วมกับ alpha-blocker) ถ้าต่อม > 40 mL หรือ PSA > 1.5 ที่มีอาการปานกลาง–มาก เพื่อลดความเสี่ยง retention และการผ่าตัด",
+   "C": "TURP ใช้เมื่อยาไม่ได้ผลหรือมีภาวะแทรกซ้อน ไม่ใช่ขั้นแรก; จะถูกถ้าผู้ป่วย BPH ปัสสาวะไม่ออกซ้ำหลังถอดสายแม้ได้ alpha-blocker หรือมีนิ่วในกระเพาะปัสสาวะ",
+   "D": "Watchful waiting ใช้กับอาการน้อย (IPSS ≤ 7) หรืออาการปานกลางที่ไม่รบกวน; จะถูกถ้าชาย IPSS 6 ไม่รำคาญ ไม่มีภาวะแทรกซ้อน — ให้คำแนะนำลดน้ำก่อนนอน ลดกาแฟ/แอลกอฮอล์",
+   "E": "Anticholinergic เดี่ยวใช้ใน storage symptom เด่น (overactive bladder) ไม่ใช่ขั้นแรกของการอุดกั้น และเสี่ยง retention ถ้า PVR สูง; จะถูก (เป็นยาเสริมหลัง alpha-blocker) ถ้ายังปัสสาวะบ่อย กลั้นไม่ได้ ตื่นกลางคืน ทั้งที่ PVR ต่ำ"
+  },
+  "trap": "ให้ 5-ARI ทั้งที่ต่อมเล็ก หรือคิดว่าอาการรุนแรงต้องผ่าตัดเลย — คะแนนอาการไม่ใช่ข้อบ่งชี้ผ่าตัด ต้องลองยาก่อน ยกเว้นมีภาวะแทรกซ้อน",
+  "summary": [
+   "IPSS: 0–7 mild, 8–19 moderate, 20–35 severe",
+   "ประเมินเริ่มต้น: IPSS, DRE, urinalysis, PSA (เมื่อผลจะเปลี่ยนการจัดการ), PVR/uroflow ตามความจำเป็น · แยก urethral stricture, neurogenic bladder, nocturnal polyuria",
+   "Alpha-blocker: first-line ทุกขนาดต่อม ได้ผลเร็ว · SE: orthostatic hypotension, floppy iris syndrome",
+   "5-ARI (finasteride/dutasteride): ต่อม >40 mL ลดขนาด ~25% ลด PSA ครึ่งหนึ่ง ลดความเสี่ยง retention/surgery",
+   "Combination: ต่อมใหญ่ + อาการปานกลาง–มาก",
+   "ข้อบ่งชี้ผ่าตัด: refractory retention, recurrent UTI/hematuria, bladder stone, renal insufficiency จาก BPO"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C) มั่นใจสูง · ต้นฉบับมีช้อย 2 ตัว เราเติม C–E",
+  "variants": [
+   "ชาย 70 ปี IPSS 20 ต่อม 70 mL PSA 4 (ประเมินแล้วไม่พบมะเร็ง) → alpha-blocker + 5-ARI",
+   "ชายกิน tamsulosin มีนัดผ่าตัดต้อกระจก → แจ้งจักษุแพทย์ล่วงหน้า (intraoperative floppy iris syndrome)",
+   "ชาย BPH กินยาแก้หวัดที่มี pseudoephedrine แล้วปัสสาวะไม่ออก → ใส่สายสวน + alpha-blocker แล้ว trial without catheter"
+  ]
+ },
+ "MDCU76|RoC|Uro 2": {
+  "interp": "ชาย LUTS (IPSS 22) PSA 8 ng/mL → PSA ผิดปกติต้องหามะเร็ง · โจทย์ระบุ \"ตามแนวทางปัจจุบัน\" ถามขั้นต่อไปก่อนเจาะชิ้นเนื้อ",
+  "why": "PSA 8 ng/mL ผิดปกติ ต้องหามะเร็งต่อมลูกหมาก · แนวทางปัจจุบัน (EAU, AUA/SUO 2023) ให้ทำ multiparametric MRI ก่อนตัดสินใจ biopsy: MRI ชี้ตำแหน่งรอยโรคเพื่อทำ targeted biopsy และช่วยให้บางรายที่ MRI ปกติเลี่ยง biopsy ได้ → พบมะเร็งที่มีนัยสำคัญมากขึ้นและลดการพบมะเร็งที่ไม่สำคัญ (overdiagnosis) · IPSS 22 บอกว่ามี LUTS ซึ่งรักษาร่วมได้ แต่ไม่เปลี่ยนว่าต้องหามะเร็งก่อน",
+  "wrong": {
+   "B": "Biopsy ทันทีโดยไม่ทำ MRI เป็นแนวทางเดิม — pre-biopsy MRI ลด biopsy ที่ไม่จำเป็นและเพิ่มการพบมะเร็งที่มีนัยสำคัญด้วย targeted biopsy; จะถูกถ้าผู้ป่วยมีข้อห้าม MRI หรือพื้นที่นั้นทำ MRI ไม่ได้",
+   "C": "ให้ α-blocker แล้วรอ PSA ซ้ำ 1 ปีทำให้วินิจฉัยมะเร็งช้า (IPSS 22 = อาการรุนแรง ควรรักษา LUTS ร่วมด้วย แต่ไม่ใช่แทนการตรวจ PSA ที่สูง) · จะถูกถ้า PSA ปกติและผู้ป่วยมีแค่ LUTS จาก BPH",
+   "D": "Bone scan ทำหลังยืนยันมะเร็งและมีความเสี่ยงสูง (PSA > 20, Gleason ≥ 8) หรือปวดกระดูก · จะถูกถ้า biopsy ยืนยัน high-risk prostate cancer",
+   "E": "Radical prostatectomy โดยยังไม่มีชิ้นเนื้อยืนยันไม่ได้ · จะถูกถ้า biopsy ยืนยัน localized intermediate/high-risk cancer ในผู้ที่คาดว่ามีชีวิต > 10 ปี"
+  },
+  "trap": "ตอบ biopsy ทันทีตามแนวทางเดิม — โจทย์เดียวกันใน RoA 8 ของชุดนี้คีย์ 76A ตอบ TRUS biopsy แต่คีย์ 76C ตอบ MRI ซึ่งตรงกับแนวทางปัจจุบัน · หรือรักษาแค่ LUTS แล้วนัดดู PSA ทีหลัง",
+  "summary": [
+   "เหตุผลของ MRI ก่อน biopsy (PRECISION 2018): targeted biopsy พบมะเร็งที่มีนัยสำคัญ (ISUP ≥ 2) มากกว่า พบมะเร็งไม่สำคัญ (ISUP 1) น้อยกว่า systematic TRUS biopsy และเลี่ยง biopsy ได้ราว 1/4",
+   "PI-RADS: 1–2 โอกาสมะเร็งสำคัญต่ำ · 3 ก้ำกึ่ง (ใช้ PSA density ช่วยตัดสิน) · 4–5 สูง → targeted ± systematic biopsy",
+   "PSA density = PSA ÷ ปริมาตรต่อม (จาก MRI) · ≥ 0.15–0.20 ng/mL/cc เพิ่มโอกาสมะเร็งสำคัญ",
+   "ISUP grade group: 1 = Gleason 3+3 · 2 = 3+4 · 3 = 4+3 · 4 = 8 · 5 = 9–10 · ISUP 1 ส่วนใหญ่ low risk → active surveillance",
+   "Staging (bone scan/CT หรือ PSMA PET) เฉพาะหลังยืนยันมะเร็งในกลุ่ม unfavorable intermediate/high risk"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C) มั่นใจสูง — ตรงกับ EAU และ AUA/SUO 2023 · โจทย์เดียวกันใน RoA 8 คีย์ 76A ตอบ TRUS biopsy (แนวทางเดิม) · ต้นฉบับมีช้อย 2 ตัว เราเติม C–E และเติม \"without prior imaging\" ในช้อย B",
+  "variants": [
+   "MRI ได้ PI-RADS 5 ที่ peripheral zone → targeted + systematic biopsy",
+   "MRI ได้ PI-RADS 3 แต่ PSA density 0.25 → ควร biopsy (density สูงเพิ่มโอกาสมะเร็งสำคัญ)",
+   "Biopsy เป็น ISUP 1 (Gleason 3+3) ปริมาณน้อย PSA 6 → low risk → active surveillance"
+  ]
+ },
+ "MDCU76|RoC|Uro 3": {
+  "wrong": {
+   "B": "Pyelonephritis: ไข้สูง ปวดสีข้าง กดเจ็บ CVA ไม่มีลมในผนังกระเพาะปัสสาวะ; จะถูกถ้าหญิงไข้สูงหนาวสั่น ปวดเอว CVA tenderness CT ไตบวม enhance ไม่สม่ำเสมอ ไม่มีลม",
+   "C": "Interstitial cystitis/bladder pain syndrome: ปวดกระเพาะปัสสาวะเรื้อรังเมื่อปัสสาวะเต็ม ปัสสาวะบ่อย เพาะเชื้อลบ ไม่มีลม; จะถูกถ้าหญิงวัยกลางคนปวดท้องน้อยเรื้อรังเกิน 6 สัปดาห์ ดีขึ้นหลังปัสสาวะ เพาะเชื้อลบซ้ำ ๆ cystoscopy พบ Hunner lesion",
+   "D": "TB cystitis: sterile pyuria กระเพาะปัสสาวะหดเล็ก (thimble bladder) เรื้อรัง มักร่วม TB ไต/ท่อไตตีบ; จะถูกถ้าผู้ป่วยปัสสาวะบ่อยมาก มีหนองในปัสสาวะแต่เพาะเชื้อธรรมดาไม่ขึ้น CT พบท่อไตตีบเป็นช่วงและกระเพาะปัสสาวะเล็ก",
+   "E": "Bladder diverticulum = ถุงยื่นจากผนัง (มักจากการอุดกั้นทางออก) มีปัสสาวะค้าง ติดเชื้อ/นิ่วได้ แต่ไม่ใช่ลมในผนัง; จะถูกถ้าชายสูงอายุ BPH ปัสสาวะสองจังหวะ CT พบถุงยื่นจากผนังกระเพาะปัสสาวะด้านข้าง"
+  },
+  "trap": "สับสนลมในโพรงกระเพาะปัสสาวะ (จากใส่สายสวน/cystoscopy หรือ colovesical fistula) กับลมในผนัง — แนวลมเป็นลูกปัดโค้งตามผนังคือ emphysematous cystitis · และต้องดูไตเสมอว่าไม่มี emphysematous pyelonephritis ร่วม ซึ่งรุนแรงกว่ามาก",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ Key 76C เขียน air around bladder) มั่นใจสูง · ต้นฉบับมีช้อย 2 ตัว เราเติม C–E และเติมผู้ป่วยเบาหวานใน stem",
+  "variants": [
+   "หญิงเบาหวานไข้สูง ช็อก CT พบลมในเนื้อไตและรอบไต → emphysematous pyelonephritis → resuscitate + ยาปฏิชีวนะ + ระบาย (PCD/stent) → nephrectomy ถ้าไม่ดีขึ้น",
+   "ผู้ป่วยเพิ่งใส่สายสวนปัสสาวะ CT พบลมเล็กน้อยในโพรงกระเพาะปัสสาวะ ผนังปกติ ไม่มีอาการ → ลมจากการใส่เครื่องมือ ไม่ต้องรักษา",
+   "หญิงเบาหวาน emphysematous cystitis รักษาด้วยยาและสายสวนแล้วยังแย่ลง ผนังกระเพาะปัสสาวะเนื้อตาย → ผ่าตัด debridement/cystectomy (พบน้อย)"
+  ]
  }
 }
