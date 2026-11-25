@@ -1,155 +1,136 @@
 {
  "MDCU66|RoD|43": {
-  "interp": "คำใบ้: ชาย 25 ปี + ปวดบิดเป็นพัก ๆ ไม่หาย (colicky) + คลื่นไส้อาเจียน + KUB เห็นนิ่วท่อไตซ้าย + microscopic hematuria → <b>renal colic จาก ureteric stone</b> · ข้อ NOT ถามการจัดการที่<b>ไม่เหมาะ</b> ตามคีย์ — ทุกช้อยใช้ได้ในบางสถานการณ์ แต่คีย์ยึดหลักลำดับยาแก้ปวด: NSAIDs เป็น first-line (ลายมือ B, D first-line) และ opioid ไม่ใช่ทางเลือกแรก จึงขีด C",
-  "why": "ตาม <b>EAU Urolithiasis Guidelines</b> (ฉบับล่าสุด) ยาแก้ปวดลำดับแรกของ renal colic คือ <b>NSAIDs</b> (diclofenac, ibuprofen, ketorolac รวม metamizole; strong recommendation) เพราะลดการสังเคราะห์ prostaglandin → ลด renal pelvic pressure, ureteral spasm และการอักเสบ — RCT และ Cochrane review พบว่าปวดลดได้ดีกว่าหรือเท่ากับ opioid โดย<b>ต้องการยาเสริมน้อยกว่าและอาเจียนน้อยกว่า</b> · EAU ให้ paracetamol (metamizole) อยู่ในกลุ่มยาแรกเช่นกัน โดยพิจารณา cardiovascular risk ก่อนใช้ diclofenac/ibuprofen · <b>opioids</b> (hydromorphone, pentazocine, tramadol) เป็น<b>ทางเลือกที่สอง</b> (weak) ใช้เมื่อ NSAIDs ห้ามหรือไม่ได้ผล และทำให้คลื่นไส้อาเจียนมากขึ้น — ผู้ป่วยรายนี้อาเจียนอยู่แล้ว · คีย์จึงถือว่า IV opioid เป็นตัวเลือกที่ \"ไม่เหมาะ\" ที่สุดในบรรดาช้อย (คีย์ขีด C + ลายมือ B, D first-line) · ช้อยอื่น: IV fluid แก้ภาวะขาดน้ำจากอาเจียน (ไม่ใช่ forced hydration), antiemetic สำหรับอาเจียน, COX-2 inhibitor เป็น NSAID เช่นกัน",
+  "interp": "ข้อ NOT — ชายหนุ่ม renal colic จากนิ่วท่อไตซ้าย ปวดต่อเนื่อง คลื่นไส้อาเจียน · ถามการรักษาที่ \"ไม่เหมาะ\" ตามคีย์ (คีย์ถือว่า opioid ไม่ใช่ยาลำดับแรก)",
+  "why": "<b>ลายมือ: B, D first-line · C ดีกว่า?</b><br><b>นอกสไลด์:</b> EAU: NSAIDs เป็นยาแก้ปวดลำดับแรกของ renal colic (ลดการบวมและความดันในท่อไต ใช้ยาเสริมน้อยกว่า) · opioid เป็นยาลำดับสอง เพราะคลื่นไส้อาเจียนมากขึ้นและต้องให้ซ้ำบ่อยกว่า — จึงเป็นช้อยที่ \"เหมาะน้อยที่สุด\" ไม่ใช่ข้อห้าม",
   "wrong": {
-   "A": "ข้อความนี้เหมาะ: IV fluid ใช้แก้ภาวะขาดน้ำจากอาเจียนและรับประทานไม่ได้ · การให้น้ำปริมาณมากเพื่อ \"ไล่นิ่ว\" (forced hydration/diuresis) ไม่ช่วยให้นิ่วหลุดและอาจทำให้ปวดมากขึ้น · จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยไม่ขาดน้ำ รับประทานได้ แต่แพทย์สั่ง IV fluid ปริมาณมากด้วยจุดประสงค์ขับนิ่ว หรือผู้ป่วยมี heart failure ที่เสี่ยงน้ำเกิน",
-   "B": "ข้อความนี้เหมาะ: IV NSAIDs (ketorolac, diclofenac) เป็น first-line ของ renal colic (ลายมือ B first-line) ลดปวดและ ureteral spasm ได้ดี อาเจียนน้อยกว่า opioid · จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยมี CKD/eGFR < 30, AKI จากนิ่วอุดไตข้างเดียวที่ทำงาน, peptic ulcer ที่มีเลือดออก หรือตั้งครรภ์ไตรมาสสาม ซึ่ง NSAIDs เป็นข้อห้าม",
-   "D": "ข้อความนี้ถือว่าเหมาะตามคีย์: COX-2 inhibitor (etoricoxib, celecoxib) เป็น NSAID ที่ลดผลข้างเคียงทางเดินอาหาร (ลายมือ D first-line) · แต่ในผู้ป่วยที่อาเจียนอยู่การให้ทางปากด้อยกว่าทางหลอดเลือด (ถ้าต้องการ COX-2 แบบฉีดใช้ parecoxib) · จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยอาเจียนมากจนรับประทานยาไม่ได้เลย หรือมีโรคหลอดเลือดหัวใจ/หลัง CABG ซึ่ง COX-2 inhibitor เพิ่มความเสี่ยง cardiovascular",
-   "E": "ข้อความนี้เหมาะ: antiemetic (metoclopramide, ondansetron) จำเป็นในผู้ป่วยคลื่นไส้อาเจียนจาก renal colic และช่วยให้รับประทานยาได้ · จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยมี long QT syndrome หรือได้ยาอื่นที่ยืด QT อยู่ ซึ่งห้ามใช้ ondansetron/domperidone และมีประวัติ dystonia จาก metoclopramide — ต้องเลี่ยงยากลุ่มนี้ทั้งหมด"
+   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่เหมาะ) ถ้าให้สารน้ำปริมาณมากเพื่อหวังดันนิ่วให้หลุด (forced hydration) ซึ่งไม่ช่วยขับนิ่วและอาจทำให้ปวดมากขึ้น",
+   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่เหมาะ) ถ้าผู้ป่วยมีไตเสื่อม (eGFR ต่ำ) หรือมีเลือดออกในทางเดินอาหาร",
+   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่เหมาะ) ถ้าผู้ป่วยมีโรคหลอดเลือดหัวใจหรือเคยเป็นอัมพาตจากหลอดเลือดสมอง — COX-2 inhibitor เพิ่มความเสี่ยงหลอดเลือดอุดตัน",
+   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่เหมาะ) ถ้าผู้ป่วยไม่มีคลื่นไส้อาเจียนเลย — ให้ยาแก้อาเจียนโดยไม่มีข้อบ่งชี้"
   },
-  "trap": "กับดัก: (1) คิดว่า opioid คือยาแก้ปวดที่แรงที่สุดจึงเหมาะที่สุดใน renal colic — ตามหลักฐาน NSAIDs ได้ผลเท่าหรือดีกว่าและอาเจียนน้อยกว่า (2) เลือก D เพราะเป็นยากินในคนที่อาเจียน — คีย์ถือว่าเป็น NSAID first-line (ลายมือ) (3) เลือก A เพราะสับสนกับ forced hydration ที่ไม่แนะนำ — IV fluid เพื่อแก้ขาดน้ำยังเหมาะ · ⚠ ในความเป็นจริง opioid ไม่ได้ \"ห้าม\" ใช้เป็นยาสำรองได้ ข้อนี้วัดลำดับความเหมาะสมมากกว่าข้อห้ามจริง",
+  "trap": "ช้อยที่ดูไม่ใช่ยาแก้ปวด (สารน้ำ ยาแก้อาเจียน) เป็นการดูแลที่เหมาะกับผู้ป่วยที่อาเจียน — ข้อนี้ต้องหายาที่ไม่ใช่ลำดับแรก",
   "summary": [
-   "ข้อห้าม/ข้อระวัง NSAIDs ใน renal colic: eGFR < 30 หรือ AKI, ไตข้างเดียวที่ถูกอุด, เลือดออกทางเดินอาหาร/peptic ulcer, ตั้งครรภ์ไตรมาสสาม, โรคหัวใจและหลอดเลือดที่เสี่ยงสูง (โดยเฉพาะ COX-2 inhibitor), แพ้ aspirin/NSAIDs · antispasmodic (hyoscine) ไม่ช่วยเสริมการคุมปวด · metoclopramide ใช้แก้อาเจียน",
-   "Imaging: non-contrast CT (low-dose) เป็นมาตรฐานใน renal colic (ไวและจำเพาะ > 95%) · US เป็นด่านแรกในเด็ก หญิงตั้งครรภ์ และใช้ติดตาม hydronephrosis · KUB ใช้ติดตามนิ่วทึบรังสี (uric acid มองไม่เห็น)",
-   "โอกาสนิ่วหลุดเอง: < 5 mm ~70–90% · 5–10 mm ~50% · > 10 mm น้อย · ส่วนปลาย (distal ureter) หลุดง่ายกว่าส่วนต้น · medical expulsive therapy: tamsulosin สำหรับนิ่ว distal ureter > 5 mm ติดตาม 4–6 สัปดาห์",
-   "ข้อบ่งชี้ด่วนให้ระบาย (decompress) ด้วย ureteral stent หรือ percutaneous nephrostomy: obstructed kidney + ติดเชื้อ/sepsis (ห้ามทำ definitive stone removal ขณะติดเชื้อ), AKI/anuria, ไตข้างเดียวหรือนิ่วอุดสองข้าง, ปวดหรืออาเจียนที่คุมด้วยยาไม่ได้",
-   "Active stone removal: ureteroscopy (URS) เป็นหลักสำหรับนิ่วท่อไตทุกตำแหน่ง · ESWL สำหรับนิ่วท่อไตส่วนต้นขนาดไม่ใหญ่ · PCNL สำหรับนิ่วไตใหญ่ > 2 cm/staghorn · พิจารณาเมื่อนิ่ว > 10 mm, ไม่หลุดใน 4–6 สัปดาห์, ปวดซ้ำ",
-   "ป้องกันกลับเป็นซ้ำ: ดื่มน้ำให้ปัสสาวะ > 2–2.5 L/วัน, ลดเกลือและโปรตีนจากสัตว์, ไม่ลดแคลเซียมในอาหาร · วิเคราะห์ชนิดนิ่ว · ผู้เสี่ยงสูงตรวจ 24-hour urine (calcium, oxalate, citrate, uric acid)"
+   "<b>นอกสไลด์:</b> EAU renal colic: NSAIDs (รวม metamizole) ลำดับแรก → paracetamol → opioid เป็นลำดับสอง · นิ่วท่อไตส่วนปลายมากกว่า 5 mm พิจารณา alpha-blocker ช่วยขับนิ่ว (MET)",
+   "<b>นอกสไลด์:</b> ระบายไตหรือเอานิ่วออกด่วนเมื่อ: ติดเชื้อร่วมกับการอุดกั้น · ไตข้างเดียวหรืออุดสองข้าง · ไตวายเฉียบพลัน · ปวดคุมด้วยยาไม่ได้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ขีด C + ลายมือ B, D first-line · C ดีกว่า?) ความมั่นใจปานกลาง — ตาม EAU NSAIDs เป็นยาแรก (strong) และ opioid เป็นยาลำดับสอง (weak) ที่เพิ่มคลื่นไส้อาเจียน จึงเหมาะน้อยที่สุดในบรรดาช้อยเมื่อตอบตามลำดับความเหมาะสม · จุดกำกวม: (1) ทุกช้อยใช้ได้จริงในทางคลินิก opioid ไม่ใช่ข้อห้าม ผู้เฉลยเองเขียน \"C ดีกว่า?\" สะท้อนความไม่แน่ใจ (2) ช้อย D เป็นยากินในผู้ป่วยที่กำลังอาเจียน ซึ่งมีเหตุผลรองรับจริงว่าไม่เหมาะ ถ้าข้อสอบจริงยอมรับ D ด้วยก็ไม่แปลก (ยกเว้นให้ parecoxib ทางหลอดเลือด) · ควรเปลี่ยนคำถามเป็น \"What is the first-line analgesic?\" (คำตอบ IV NSAIDs) จะวัดหลักการเดียวกันโดยไม่กำกวม",
+  "opinion": "ตามคีย์ C · มั่นใจปานกลาง — ทุกช้อยใช้ได้จริง opioid เป็นแค่ยาลำดับสอง ไม่ใช่ข้อห้าม",
   "variants": [
-   "ชาย 40 ปี ปวดเอวร้าวลงขาหนีบ CT พบนิ่ว 4 mm ที่ distal ureter ไม่มีไข้ ไตทำงานปกติ ปวดคุมได้ด้วยยา → การจัดการ (คำตอบ: NSAIDs + ติดตาม ± tamsulosin; โอกาสหลุดเองสูง)",
-   "หญิง 35 ปี นิ่วท่อไต 7 mm hydronephrosis ไข้ 39 °C ความดันต่ำ → การรักษาเร่งด่วน (คำตอบ: decompress ด้วย ureteral stent หรือ PCN + IV antibiotics; เอานิ่วออกหลังหายติดเชื้อ)",
-   "ผู้ป่วย CKD eGFR 25 มี renal colic จากนิ่วท่อไต → ยาแก้ปวดที่เหมาะ (คำตอบ: หลีกเลี่ยง NSAIDs — ใช้ paracetamol IV และ opioid เป็นยาเสริม)",
-   "หญิงตั้งครรภ์ 20 สัปดาห์ ปวดเอวขวาแบบ colic → imaging แรก (คำตอบ: ultrasound; ถ้าไม่ชัดใช้ MRI non-contrast หรือ low-dose CT ในบางราย)"
+   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ 32 สัปดาห์ ปวดแบบ renal colic → paracetamol (เลี่ยง NSAIDs ในไตรมาสสาม) ปวดมากใช้ opioid ระยะสั้น",
+   "<b>นอกสไลด์:</b> นิ่วท่อไต 4 mm ปวดคุมได้ด้วยยากิน ไม่มีไข้ ไตทำงานปกติ → ยาแก้ปวดกลับบ้าน รอนิ่วหลุดเองและนัดตรวจภาพซ้ำ"
   ]
  },
  "MDCU66|RoD|44": {
+  "interp": "ข้อ NOT — ถามเชื้อที่ \"ไม่\" ทำให้เกิดนิ่ว struvite (magnesium ammonium phosphate) · กุญแจคือเชื้อสร้าง urease หรือไม่",
+  "why": "<b>ลายมือ: ไม่มี urease enz.</b><br><b>นอกสไลด์:</b> นิ่ว struvite เกิดเมื่อเชื้อมี urease ย่อย urea เป็น ammonia → ปัสสาวะเป็นด่าง magnesium ammonium phosphate จึงตกผลึก · E. coli ไม่สร้าง urease จึงไม่ทำให้เกิดนิ่วชนิดนี้ แม้เป็นเชื้อ UTI ที่พบบ่อยที่สุด",
   "wrong": {
-   "A": "ข้อความนี้ถูก: Klebsiella (โดยเฉพาะ K. pneumoniae) สร้าง urease ได้และเป็นสาเหตุของ struvite stone ที่พบรองลงมาจาก Proteus · จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเชื้อ Klebsiella ที่ก่อโรคในผู้ป่วยรายนั้นเป็นสายพันธุ์ที่ทดสอบ urease ลบ ซึ่งพบได้ส่วนน้อย ปัสสาวะไม่เป็นด่างและนิ่วที่วิเคราะห์ได้เป็น calcium oxalate",
-   "B": "ข้อความนี้ถูก: Proteus mirabilis เป็นเชื้อที่ทำให้ struvite บ่อยที่สุด เพราะ urease แรงมากทำให้ปัสสาวะด่างเร็ว (คำตอบของ 66 RoD ข้อ 5 ที่ถามกลับด้าน) · จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยติดเชื้อ Proteus เพียงชั่วคราวหลังนิ่ว calcium oxalate ที่เป็นอยู่เดิม แล้วนิ่วที่วิเคราะห์ได้ไม่มี struvite — เชื้อเป็นผลตามมา ไม่ใช่สาเหตุของนิ่ว",
-   "D": "ข้อความนี้ถูก: Pseudomonas aeruginosa สร้าง urease ได้ ทำ struvite ได้โดยเฉพาะผู้ป่วยใส่สายสวนค้าง neurogenic bladder หรือ urinary diversion · ⚠ ช้อยเดิมในไฟล์เป็น Streptococcus (urease ลบ) Claude เปลี่ยนเพื่อให้มีคำตอบเดียว · จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเชื้อเป็น Enterococcus หรือ Streptococcus จากสายสวนค้าง ซึ่งไม่สร้าง urease",
-   "E": "ข้อความนี้ถูก: Staphylococcus บางชนิด (S. saprophyticus ในหญิงวัยเจริญพันธุ์, S. aureus บางสายพันธุ์) สร้าง urease และทำให้เกิด struvite ได้ แม้พบน้อย · จะถูก (เป็นคำตอบของข้อ NOT) ถ้าเชื้อที่เพาะได้เป็น coagulase-negative staphylococci ที่ปนเปื้อนจากผิวหนังขณะเก็บปัสสาวะ ไม่ได้เป็นเชื้อก่อโรคจริงและไม่เกี่ยวกับนิ่ว"
+   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"Klebsiella เป็นสาเหตุนิ่ว struvite\" ผิด เพราะ Klebsiella ส่วนใหญ่สร้าง urease ได้",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"Proteus เป็นสาเหตุนิ่ว struvite\" ผิด เพราะ Proteus สร้าง urease แรงที่สุดและเป็นสาเหตุอันดับหนึ่ง",
+   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นเชื้อที่ไม่ทำให้เกิดนิ่ว) ถ้าเป็น Pseudomonas สายพันธุ์ที่ไม่สร้าง urease — ความสามารถนี้ต่างกันตามสายพันธุ์",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"Staphylococcus เป็นสาเหตุนิ่ว struvite\" ผิด เพราะ S. aureus และ S. saprophyticus สร้าง urease ได้"
   },
-  "trap": "กับดัก: (1) E. coli เป็นเชื้อ UTI ที่พบบ่อยที่สุด จึงหลงคิดว่าต้องเกี่ยวกับนิ่วติดเชื้อ — แต่ไม่สร้าง urease (ลายมือ: ไม่มี urease enz.) (2) Pseudomonas และ Staphylococcus ฟังดูไม่เกี่ยวกับนิ่ว แต่สร้าง urease ได้ · จำกลุ่ม urease-negative ที่ออกบ่อย: E. coli, Enterococcus, Streptococcus · ข้อนี้เป็นคู่กับ 66 RoD ข้อ 5 ที่ถามกลับด้าน (เชื้อบ่อยที่สุด = Proteus)",
+  "trap": "Staphylococcus และ Pseudomonas ดูไม่ใช่เชื้อนิ่ว แต่สร้าง urease ได้ — ตัดสินจาก urease ไม่ใช่จากความถี่ที่เป็นเชื้อ UTI",
   "summary": [
-   "ชนิดนิ่วไต: calcium oxalate ~70–80% (ทึบรังสี, ผลึก dumbbell/envelope) · calcium phosphate (ปัสสาวะด่าง, RTA type 1, hyperparathyroidism) · uric acid 5–10% (ไม่ทึบรังสีบน KUB, pH < 5.5, gout/tumor lysis, ละลายได้ด้วย alkalinization) · struvite 10–15% (infection stone) · cystine 1–2% (autosomal recessive, ผลึก hexagonal, เริ่มเป็นตั้งแต่เด็ก)",
-   "กลไก struvite: เชื้อสร้าง urease → urea → NH₃ + CO₂ → ปัสสาวะด่าง pH > 7.2 + ammonium สูง → magnesium ammonium phosphate (struvite) + carbonate apatite ตกผลึก · ผลึกในปัสสาวะรูป coffin-lid · เชื้ออยู่ในเนื้อนิ่ว ยาปฏิชีวนะเข้าไม่ถึง",
-   "เชื้อสร้าง urease: Proteus mirabilis (บ่อยที่สุด) > Klebsiella, Pseudomonas, Providencia, Morganella, Serratia, Staphylococcus (S. saprophyticus/aureus), Ureaplasma urealyticum · E. coli และ Enterococcus ไม่สร้าง urease",
-   "กลุ่มเสี่ยง: หญิง (UTI บ่อย), ใส่สายสวนค้าง, neurogenic bladder/spinal cord injury, urinary diversion, ภาวะอุดกั้นทางเดินปัสสาวะ · มักโตเร็วเป็น staghorn เต็ม renal pelvis และ calyces อาการน้อยแต่ UTI ซ้ำ",
-   "รักษา staghorn (AUA 2016/EAU): PCNL เป็นทางเลือกแรก มุ่ง stone-free สมบูรณ์เพราะเศษนิ่วเป็นแหล่งเชื้อ · ESWL เดี่ยวไม่เหมาะกับ staghorn · ไตไม่ทำงาน (< 10–15% split function) → nephrectomy · ยาปฏิชีวนะตาม culture ของนิ่ว/ปัสสาวะ ก่อนและหลังผ่าตัด",
-   "ป้องกันกลับซ้ำ: เอานิ่วออกให้หมด, รักษา/ป้องกัน UTI, แก้ภาวะอุดกั้น · acetohydroxamic acid (urease inhibitor) ใช้เสริมในรายเอานิ่วออกไม่หมด แต่ผลข้างเคียงมาก (DVT, ปวดหัว, teratogenic)",
-   "ไม่รักษา staghorn → ไตเสื่อม, urosepsis, perinephric abscess, xanthogranulomatous pyelonephritis (มักร่วมกับ Proteus + staghorn, CT เห็น bear paw sign)"
+   "<b>นอกสไลด์:</b> นิ่ว struvite: ปัสสาวะเป็นด่าง (pH มากกว่าราว 7.2) + เชื้อสร้าง urease · มักโตเร็วเป็น staghorn · ยายับยั้ง urease (acetohydroxamic acid) ใช้เสริมเมื่อเอานิ่วออกไม่หมด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ขีด C + ลายมือ ไม่มี urease enz.) ความมั่นใจสูง — E. coli ไม่สร้าง urease จึงไม่ทำให้เกิด struvite ตาม Campbell-Walsh และ AUA ส่วนเชื้ออื่นในช้อยสร้าง urease ได้ · จุดกำกวม: ช้อย D ในไฟล์เดิมเป็น Streptococcus ซึ่งก็ urease ลบ ทำให้มีสองคำตอบ Claude เปลี่ยนเป็น Pseudomonas เพื่อให้มีคำตอบเดียว ถ้าข้อสอบจริงยังมี Streptococcus ต้องเลือกข้อที่ \"คลาสสิกที่สุด\" คือ E. coli · ควรแก้ช้อยในข้อสอบให้มี urease-negative เพียงตัวเดียว",
+  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
   "variants": [
-   "ผู้ป่วย spinal cord injury ใส่สายสวนค้าง urine culture ขึ้น Enterococcus faecalis CT ไม่มีนิ่ว → เชื้อนี้ทำให้เกิด struvite หรือไม่ (คำตอบ: ไม่ — Enterococcus ไม่สร้าง urease)",
-   "หญิง 55 ปี staghorn stone ซ้าย urine pH 7.8 → การรักษาที่ทำให้หายขาด (คำตอบ: PCNL ให้ stone-free + ยาปฏิชีวนะตาม culture ของนิ่ว)",
-   "ผู้ป่วยเอานิ่ว struvite ออกไม่หมด ติดเชื้อ Proteus ซ้ำ ผ่าตัดซ้ำไม่ได้ → ยาที่ยับยั้ง urease และข้อควรระวัง (คำตอบ: acetohydroxamic acid — ผลข้างเคียง DVT, ปวดหัว, ห้ามในหญิงตั้งครรภ์)",
-   "หญิง 22 ปี แสบขัดหลังมีเพศสัมพันธ์ culture ขึ้น gram-positive coccus novobiocin-resistant → เชื้อ (คำตอบ: Staphylococcus saprophyticus — สาเหตุ cystitis อันดับสองในหญิงวัยเจริญพันธุ์ และสร้าง urease)"
+   "<b>นอกสไลด์:</b> นิ่ว struvite แต่เพาะเชื้อปัสสาวะแบบปกติไม่ขึ้น → นึกถึงเชื้อสร้าง urease ที่เพาะยาก (Ureaplasma urealyticum, Corynebacterium urealyticum)",
+   "<b>นอกสไลด์:</b> เพาะเชื้อปัสสาวะได้ E. coli แต่ CT เห็นนิ่ว staghorn → ยังต้องสงสัยเชื้อสร้าง urease ที่ซ่อนในนิ่ว: ส่งเพาะเชื้อจากชิ้นนิ่วตอนเอาออก"
   ]
  },
  "MDCU66|RoD|45": {
-  "interp": "คำใบ้จากภาพ <b>ใบหน้าและมือ</b>: หน้าผากโหนก คางยื่น ฟันห่าง จมูก/ริมฝีปากหนา มือใหญ่หนา → acromegaly (GH เกินในผู้ใหญ่หลัง epiphysis ปิด) · โจทย์ถามสาเหตุ ซึ่งเกือบทั้งหมดคือ GH-secreting pituitary adenoma · ช้อยอื่นเป็นเนื้องอกในกะโหลกที่ไม่หลั่ง GH หรือหลั่งฮอร์โมนอื่น · เป็นโจทย์ชุดเดียวกับ RoD ข้อ 27 (ช้อยเรียงต่าง)",
+  "interp": "ภาพใบหน้าและมือแบบ acromegaly · ถามสาเหตุ (โจทย์คล้าย RoD 27)",
+  "why": "<b>คีย์: ขีด D</b><br><b>นอกสไลด์:</b> acromegaly เกือบทั้งหมดเกิดจาก pituitary adenoma ที่หลั่ง GH → IGF-1 สูง → กระดูกใบหน้า มือ เท้า และเนื้อเยื่ออ่อนหนาขึ้น",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ใหญ่ที่ปัสสาวะมาก (เบาจืด) ตามัวด้านข้างสองข้าง และภาพเห็นก้อนถุงน้ำมีหินปูนเหนือ sella",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ glioblastoma ทำให้ใบหน้าและมือเปลี่ยนแบบ acromegaly เพราะเป็นเนื้องอกของเซลล์เกลียในเนื้อสมองที่ไม่สร้างฮอร์โมน",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าภาพเป็นชายเต้านมโต ความต้องการทางเพศลด ร่วมตามัวจากก้อนต่อมใต้สมองขนาดใหญ่",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นหญิงหน้ากลมแดง ผิวบางช้ำง่าย ความดันและน้ำตาลสูง ACTH สูง และ MRI พบ microadenoma"
+  },
+  "trap": "ทั้ง prolactinoma และ GH adenoma เป็นก้อนต่อมใต้สมองเหมือนกัน — อาการถูกกำหนดโดยชนิดฮอร์โมนที่หลั่ง ไม่ใช่ตำแหน่งก้อน",
   "summary": [
-   "Acromegaly: GH เกินในผู้ใหญ่ (epiphysis ปิดแล้ว) → กระดูกหนาและเนื้อเยื่ออ่อนโต · gigantism: GH เกินในเด็กก่อน epiphysis ปิด → สูงผิดปกติ · > 95% จาก somatotroph adenoma (ส่วนใหญ่ macroadenoma ตอนวินิจฉัยเพราะอาการค่อยเป็นค่อยไป วินิจฉัยช้าเฉลี่ย 5–10 ปี) · พบน้อย: ectopic GHRH (carcinoid ของปอด/ตับอ่อน), MEN1, McCune-Albright, Carney complex",
-   "อาการ: frontal bossing, prognathism ฟันห่าง malocclusion, จมูก ลิ้น ริมฝีปากโต, มือเท้าโต (ใส่แหวน/รองเท้าเดิมไม่ได้), ผิวหนาเหงื่อมาก skin tags, carpal tunnel syndrome, arthropathy, เสียงทุ้ม · mass effect: ปวดหัว bitemporal hemianopia, hypopituitarism, hyperprolactinemia ร่วม (co-secreting/stalk effect)",
-   "วินิจฉัย (Endocrine Society 2014, Pituitary Society 2021): IGF-1 สูงตามอายุและเพศเป็นการคัดกรอง → ยืนยันด้วย OGTT 75 g: GH nadir ไม่ลดต่ำกว่า 1 µg/L (assay ไวสูง < 0.4 µg/L) · random GH ใช้ไม่ได้เพราะหลั่งเป็นช่วง → MRI pituitary with gadolinium · ตรวจลานสายตาและการทำงานต่อมใต้สมองส่วนอื่น",
-   "รักษา: transsphenoidal surgery เป็น first-line (microadenoma หายขาด ~80–90%, macroadenoma ~40–50%) · ยาเมื่อผ่าไม่หมด/ผ่าไม่ได้: somatostatin receptor ligand (octreotide LAR, lanreotide, pasireotide), GH receptor antagonist pegvisomant (ลด IGF-1 ไม่ลดขนาดก้อน), cabergoline ในรายที่ IGF-1 สูงไม่มาก · radiotherapy/stereotactic radiosurgery เป็นลำดับท้าย",
-   "ภาวะแทรกซ้อนและการคัดกรอง: cardiomyopathy/LVH (สาเหตุตายสำคัญ), hypertension, เบาหวาน/insulin resistance, OSA, colon polyps/colorectal cancer (colonoscopy ตอนวินิจฉัย), thyroid nodules · อัตราตายกลับใกล้คนทั่วไปเมื่อคุม IGF-1 ปกติและ GH ต่ำ",
-   "Pituitary adenoma อื่น: prolactinoma บ่อยที่สุด (รักษาด้วย cabergoline เป็นหลักแม้ก้อนใหญ่) · nonfunctioning (mass effect) · corticotroph → Cushing disease · thyrotroph พบน้อย · pituitary apoplexy: ปวดหัวฉับพลัน ตามัว ophthalmoplegia → hydrocortisone ทันที"
+   "<b>นอกสไลด์:</b> ภาวะแทรกซ้อนของ acromegaly ที่ต้องตรวจเมื่อวินิจฉัย: หัวใจโต/ความดันสูง · เบาหวาน · หยุดหายใจขณะหลับ · ติ่งเนื้อลำไส้ใหญ่ (ส่องกล้อง) · ข้อเสื่อม carpal tunnel — คุม GH/IGF-1 ไม่ได้อัตราตายสูงขึ้น"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D (ขีด D) ความมั่นใจสูง — ลักษณะใบหน้าและมือแบบ acromegaly เกิดจาก GH-secreting pituitary adenoma > 95% ตามตำรา และตรงกับ RoD ข้อ 27 ในชุดเดียวกัน · จุดกำกวม: (1) ไม่มีภาพในไฟล์ (2) ไฟล์มี 4 ช้อย Claude เติม ACTH-secreting adenoma เป็นช้อย E · การออกซ้ำสองครั้งในชุดเดียวบ่งว่าอาจารย์เน้น ควรเปลี่ยนข้อหนึ่งเป็นการตรวจยืนยัน (OGTT) หรือการรักษา (transsphenoidal surgery)",
+  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
   "variants": [
-   "ชาย 45 ปี ใส่แหวนไม่ได้ เหงื่อออกมาก ฟันห่าง IGF-1 สูง → การตรวจยืนยัน (คำตอบ: OGTT 75 g — GH ไม่ถูกกดต่ำกว่า 1 µg/L แล้ว MRI pituitary)",
-   "ผู้ป่วย acromegaly ผ่าตัด transsphenoidal แล้ว IGF-1 ยังสูง MRI มีก้อนเหลือใน cavernous sinus → การรักษาต่อ (คำตอบ: somatostatin receptor ligand เช่น octreotide LAR/lanreotide; ไม่ตอบสนองเพิ่ม pegvisomant)",
-   "ผู้ป่วย pituitary macroadenoma ปวดหัวรุนแรงฉับพลัน ตามัวสองข้าง ตาเหล่ ความดันต่ำ → การจัดการแรก (คำตอบ: pituitary apoplexy — hydrocortisone IV ทันที แล้วพิจารณาผ่าตัด decompression)",
-   "เด็กชาย 12 ปี สูงกว่าเพื่อนมาก มือเท้าใหญ่ IGF-1 สูง → การวินิจฉัย (คำตอบ: pituitary gigantism — GH เกินก่อน epiphysis ปิด; ตรวจหา AIP mutation/McCune-Albright)"
+   "<b>นอกสไลด์:</b> ผู้ป่วย acromegaly ปวดศีรษะ ตามัวด้านข้าง MRI เป็น macroadenoma → ผ่าตัดผ่านทางจมูก (transsphenoidal) เป็นการรักษาแรก",
+   "<b>นอกสไลด์:</b> หลังผ่าตัด IGF-1 ยังสูง ก้อนเหลือใน cavernous sinus → somatostatin analog (octreotide, lanreotide) หรือ pegvisomant"
   ]
  },
  "MDCU66|RoD|46": {
-  "trap": "กับดัก: (1) คำว่า \"polyp\" ใน solitary juvenile polyp ทำให้คิดว่าเป็น premalignant — แต่ juvenile polyp เดี่ยวในเด็กเป็น hamartoma ที่ไม่เพิ่มความเสี่ยง ต่างจาก <b>juvenile polyposis syndrome</b> (≥ 5 polyps ใน colorectum, polyps ทั่วทางเดินอาหาร หรือมีประวัติครอบครัว; SMAD4/BMPR1A) ซึ่งเสี่ยงมะเร็ง ~40–50% (2) amoeboma ที่ cecum ดูเหมือนมะเร็งบนภาพ/กล้อง แต่หายด้วย metronidazole (3) colitis เรื้อรังที่เพิ่มความเสี่ยงคือ IBD ไม่ใช่ colitis ติดเชื้อเฉียบพลันอย่าง C. difficile (ลายมือ C)",
-  "summary": [
-   "ปัจจัยเสี่ยง CRC: อายุ ≥ 45–50 ปี, ประวัติ adenoma/CRC ของตนเอง, ญาติสายตรงเป็น CRC/advanced adenoma, IBD (UC, Crohn's colitis), hereditary syndromes, อ้วน, เบาหวาน, เนื้อแดง/เนื้อแปรรูป, สูบบุหรี่, แอลกอฮอล์, ไม่ออกกำลังกาย · ปัจจัยป้องกัน: ใยอาหาร, ออกกำลังกาย, aspirin (ใน Lynch และบางกลุ่ม)",
-   "Adenomatous polyposis: FAP (APC, AD, > 100 adenomas, มะเร็งเกือบ 100% ภายใน 40–50 ปี; extracolonic — duodenal/periampullary cancer, desmoid, CHRPE, osteoma) · attenuated FAP (< 100 polyps, right-sided, อายุมากกว่า) · MUTYH-associated polyposis (autosomal recessive)",
-   "FAP management: sigmoidoscopy/colonoscopy ทุกปีจากอายุ 10–12 → prophylactic surgery ช่วงอายุ ~15–25 ปี (total proctocolectomy + IPAA ถ้า rectum มี polyps มาก หรือ colectomy + IRA ถ้า rectum มีน้อย แล้วส่องติดตาม) · EGD ติดตาม duodenum ตาม Spigelman stage · extracolonic อื่น: papillary thyroid cancer (cribriform-morular), hepatoblastoma ในเด็ก, Turcot (medulloblastoma)",
-   "Lynch syndrome (MLH1, MSH2, MSH6, PMS2, EPCAM): สาเหตุ hereditary CRC ที่พบบ่อยที่สุด · right-sided, อายุน้อย, มะเร็งอื่น (endometrium, ovary, กระเพาะ, upper tract urothelial) · คัดกรองชิ้นเนื้อ CRC ทุกรายด้วย MMR IHC/MSI · colonoscopy ทุก 1–2 ปีจากอายุ 20–25 (MLH1/MSH2/EPCAM) หรือ 30–35 (MSH6/PMS2)",
-   "Hamartomatous polyposis: Peutz-Jeghers (STK11; mucocutaneous pigmentation; มะเร็งหลายอวัยวะ) · juvenile polyposis syndrome (SMAD4 — อาจมี HHT, BMPR1A) · PTEN hamartoma tumor syndrome (Cowden) · แตกต่างจาก solitary juvenile polyp ในเด็ก (เลือดออกไม่เจ็บ polyp หลุด — ไม่ต้องติดตามแบบ syndrome)",
-   "IBD กับ CRC: ความเสี่ยงขึ้นกับระยะเวลา (> 8 ปี), ขอบเขต (pancolitis > left-sided, proctitis ไม่เพิ่ม), ความรุนแรงของการอักเสบ, PSC, ประวัติครอบครัว · surveillance colonoscopy ด้วย chromoendoscopy ตั้งแต่ 8 ปีหลังเริ่มอาการ ยกเว้นมี PSC ให้ส่องทุกปีตั้งแต่วินิจฉัย"
-  ],
-  "opinion": "เห็นด้วยกับคีย์ A (ขีด A + ลายมือ C C. difficile) ความมั่นใจสูง — FAP เป็นภาวะที่เพิ่มความเสี่ยง CRC สูงที่สุดและชัดเจนที่สุดในช้อย ตามตำราและแนวทาง ACG/NCCN · จุดกำกวม: ช้อย B ในไฟล์เดิมเขียน \"juvenile polyposis\" ซึ่งเพิ่มความเสี่ยงจริง ทำให้มีสองคำตอบ Claude จึงเปลี่ยนเป็น solitary juvenile polyp — ถ้าข้อสอบจริงยังเป็น juvenile polyposis ให้เลือกข้อที่เสี่ยงสูงสุดคือ FAP · ควรเปลี่ยนคำถามเป็น \"Which carries the highest risk\" หรือแก้ช้อย B ในข้อสอบ",
-  "variants": [
-   "เด็กชาย 5 ปี ถ่ายเป็นเลือดสดไม่เจ็บ colonoscopy พบ polyp มีก้านเดียวที่ rectosigmoid ผลชิ้นเนื้อ juvenile (hamartomatous) polyp → การติดตาม (คำตอบ: ตัดออกแล้วไม่ต้อง surveillance ถ้าไม่มี polyp อื่นหรือประวัติครอบครัว)",
-   "ชาย 35 ปี เป็นมะเร็งลำไส้ใหญ่ด้านขวา แม่เป็นมะเร็งเยื่อบุโพรงมดลูกตอน 45 ปี ชิ้นเนื้อ loss of MSH2/MSH6 → การวินิจฉัยและการดูแลญาติ (คำตอบ: Lynch syndrome — germline testing, colonoscopy ญาติทุก 1–2 ปีจากอายุ 20–25)",
-   "ชาย 22 ปี FAP ผ่าตัด colectomy + IRA แล้ว → การติดตามที่สำคัญ (คำตอบ: ส่องดู rectal remnant ทุก 6–12 เดือน และ EGD ดู duodenal/periampullary adenoma; ระวัง desmoid tumor)",
-   "ผู้ป่วยมีก้อนที่ cecum บน colonoscopy ประวัติท้องเสียมูกเลือด อาศัยในพื้นที่ระบาด serology Entamoeba บวก → การวินิจฉัยและการรักษา (คำตอบ: amoeboma — metronidazole แล้วตามด้วย luminal agent; ก้อนยุบหาย)"
-  ],
-  "why": "FAP (APC gene, autosomal dominant) มี adenomatous polyp หลายร้อยถึงหลายพันก้อนเริ่มช่วงวัยรุ่น และเกือบ 100% เป็นมะเร็งภายในอายุ 40–50 ปี (อายุเฉลี่ยที่เป็นมะเร็ง ~39 ปี) ถ้าไม่ผ่าตัด → ต้อง prophylactic (procto)colectomy · เป็นช้อยเดียวที่เป็น premalignant condition จริง (คีย์ขีด A) ส่วนช้อยอื่นเป็น hamartoma เดี่ยวในเด็ก, colitis ติดเชื้อเฉียบพลัน (ลายมือ C: C. difficile), การติดเชื้อปรสิต และโรคหลอดเลือดที่ทวาร ซึ่งไม่เพิ่มความเสี่ยงมะเร็ง",
+  "interp": "ถามภาวะที่เพิ่มความเสี่ยงมะเร็งลำไส้ใหญ่ (โจทย์เดียวกับ RoA 5 ช้อยเรียงต่าง)",
+  "why": "<b>ลายมือ: C = C. difficile</b><br><b>นอกสไลด์:</b> FAP (APC mutation) มี adenoma นับร้อยถึงพันติ่ง ถ้าไม่ผ่าตัดเป็นมะเร็งเกือบทุกราย · ช้อยอื่นเป็นการอักเสบหรือรอยโรคที่ไม่ใช่ neoplasia",
   "wrong": {
-   "B": "Solitary juvenile polyp เป็น hamartoma เดี่ยวในเด็ก ไม่ใช่ premalignant · ⚠ ช้อยเดิมในไฟล์เขียน juvenile polyposis (≥ 5 polyps, SMAD4/BMPR1A) ซึ่ง<b>เพิ่ม</b>ความเสี่ยงจริง Claude จึงเปลี่ยนเพื่อให้มีคำตอบเดียว · จะถูกถ้าเด็กมี juvenile polyps ≥ 5 ก้อนในลำไส้ใหญ่ หรือมีประวัติครอบครัว juvenile polyposis syndrome ซึ่งเสี่ยงมะเร็ง ~40–50%",
-   "C": "Pseudomembranous colitis (C. difficile — ลายมือ C) เป็นการอักเสบเฉียบพลันหลังยาปฏิชีวนะ ไม่เพิ่ม CRC · จะถูกถ้าโจทย์ถามสาเหตุท้องเสียหลังได้ clindamycin/cephalosporin",
-   "D": "Amoebic colitis ทำให้ท้องเสียมูกเลือด แผล flask-shaped อาจเกิด amoeboma (ก้อนคล้ายมะเร็งที่ cecum) แต่ไม่เพิ่มความเสี่ยงมะเร็ง · จะถูกถ้าโจทย์ถาม DDx ก้อนที่ cecum ที่หายด้วย metronidazole",
-   "E": "Thrombosed hemorrhoid เป็นปัญหาหลอดเลือดบริเวณทวารหนัก ไม่เกี่ยวกับมะเร็ง · จะถูกถ้าโจทย์ถามสาเหตุปวดก้อนที่ขอบทวารเฉียบพลัน"
-  }
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ solitary juvenile polyp เพิ่มความเสี่ยงมะเร็ง เพราะเป็น hamartoma ติ่งเดียวที่มักหลุดเองหรือตัดออกจบ ไม่มีการกลายพันธุ์ที่ทำให้เกิด neoplasia",
+   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ C. difficile colitis เพิ่มความเสี่ยงมะเร็ง เพราะ toxin ทำลายเยื่อบุเฉียบพลันแล้วฟื้นตัว ไม่มีการอักเสบเรื้อรังนานปีที่นำไปสู่ dysplasia",
+   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ amoebic colitis เพิ่มความเสี่ยงมะเร็ง เพราะเป็นการติดเชื้อที่หายด้วยยา (แม้ก้อน amoeboma จะดูเหมือนมะเร็งได้)",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ริดสีดวงเพิ่มความเสี่ยงมะเร็งลำไส้ใหญ่ เพราะเป็นกลุ่มหลอดเลือดที่ทวารหนัก ไม่ใช่เยื่อบุลำไส้ใหญ่"
+  },
+  "trap": "ติ่งเนื้อที่ไม่ใช่ adenoma ส่วนใหญ่ (hamartoma ติ่งเดียว, inflammatory polyp, hyperplastic polyp เล็กใน rectum) ไม่เพิ่มมะเร็ง — ดูชนิดทางพยาธิ ไม่ใช่แค่ว่ามีติ่ง",
+  "summary": [
+   "<b>นอกสไลด์:</b> FAP: APC (autosomal dominant) · มะเร็งเกือบทุกรายถ้าไม่ผ่าตัด อายุเฉลี่ยราว 39 ปี · attenuated FAP ติ่งน้อยกว่า 100 เป็นช้ากว่า · MUTYH-associated polyposis ถ่ายทอดแบบ autosomal recessive"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> ผู้ป่วย FAP หลังตัดลำไส้ใหญ่แล้ว → ยังต้องส่องกล้องกระเพาะและลำไส้เล็กส่วนต้นด้วยกล้องมองด้านข้าง เฝ้าระวัง adenoma ที่ ampulla",
+   "<b>นอกสไลด์:</b> ผู้ป่วย FAP หลังผ่าตัด มีก้อนแข็งในผนังหน้าท้องโตช้า → desmoid tumor"
+  ]
  },
  "MDCU66|RoD|47": {
+  "interp": "เลือดออกในโพรงสมอง (IVH) อุดทางไหลของ CSF → hydrocephalus + สัญญาณ herniation · ถามวิธีลด ICP ที่ดีที่สุด",
+  "why": "<b>คีย์: ขีด D</b><br><b>นอกสไลด์:</b> ICP สูงจาก CSF คั่ง (obstructive hydrocephalus) → ใส่สายระบายเข้าโพรงสมอง (EVD) แก้ตรงสาเหตุและเร็วที่สุด และวัด ICP ได้พร้อมกัน · AHA/ASA 2022 แนะนำ EVD ใน IVH ร่วม hydrocephalus ที่ระดับความรู้สึกตัวลดลง",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hyperventilation เป็นวิธีลด ICP ที่ดีที่สุด เพราะได้ผลชั่วคราว และหลอดเลือดสมองหดจนสมองขาดเลือด — ใช้เป็นสะพานสั้น ๆ ระหว่างรอการรักษาที่แก้ต้นเหตุ",
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าสมองบวมทั่วไปหลังบาดเจ็บศีรษะ โพรงสมองเล็กจนใส่สายระบายไม่ได้",
+   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การยกหัวเตียงเป็นวิธีลด ICP ที่ดีที่สุด เพราะลดได้เล็กน้อย เป็นการดูแลพื้นฐานที่ทำร่วมกับวิธีอื่นเสมอ",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น communicating hydrocephalus หลัง SAH ที่ไม่มีก้อนกดเบียดและไม่มีการอุดในระบบโพรงสมอง"
+  },
+  "trap": "ระบาย CSF จากด้านล่าง (lumbar drain/LP) ห้ามใน obstructive hydrocephalus หรือเมื่อมีสัญญาณ herniation เพราะสมองจะเคลื่อนลง",
   "summary": [
-   "ICP ปกติ 5–15 mmHg · treatment threshold > 22 mmHg (BTF 4th ed 2016 สำหรับ TBI) · CPP = MAP − ICP เป้า 60–70 mmHg · Monro-Kellie doctrine: ปริมาตรในกะโหลก = สมอง + เลือด + CSF คงที่ เมื่อเพิ่มอย่างหนึ่ง อีกอย่างต้องลด จนชดเชยไม่ได้ ICP จึงพุ่ง",
-   "Tiered management ของ ICP สูง: tier 0 — หัวสูง 30° คอตรง, sedation/analgesia, normothermia, normocapnia, Na ปกติ · tier 1 — hyperosmolar (mannitol 0.25–1 g/kg หรือ hypertonic saline), CSF drainage ผ่าน EVD · tier 2 — mild hypocapnia (PaCO₂ 32–35), neuromuscular blockade · tier 3 — barbiturate coma, hypothermia, decompressive craniectomy",
-   "EVD (ventriculostomy): ใส่ผ่าน Kocher's point (หน้า coronal suture ~1 cm, mid-pupillary line ~2.5–3 cm จาก midline) เข้า frontal horn ของ lateral ventricle ข้าง non-dominant · ทั้งวัด ICP (gold standard) และรักษา · ภาวะแทรกซ้อน: ventriculitis (~5–10%), เลือดออกตามแนวสาย, overdrainage",
-   "IVH: เกิดได้จาก hypertensive ICH แตกเข้า ventricle, aneurysmal SAH, AVM, coagulopathy · hydrocephalus ใน IVH เพิ่มอัตราตาย · EVD ± intraventricular alteplase ช่วยล้างเลือด (CLEAR III: ลดอัตราตายแต่ผลการทำงานไม่ต่าง) · ICH ใน cerebellum > 3 cm หรือกดก้านสมอง/hydrocephalus → suboccipital craniectomy",
-   "Lumbar puncture/lumbar drain ห้ามใน obstructive (non-communicating) hydrocephalus และ mass effect เพราะทำให้เกิด tonsillar herniation · ใช้ได้ใน communicating hydrocephalus ที่ไม่มี mass effect (เช่น NPH tap test, หลัง SAH บางราย)",
-   "สัญญาณ herniation: uncal — รูม่านตาข้างเดียวกันขยาย ไม่ตอบสนองแสง (CN III) + อ่อนแรงข้างตรงข้าม · central — ซึมลง Cheyne-Stokes → decerebrate · Cushing triad (HT, bradycardia, irregular respiration) เป็นสัญญาณท้าย · ระหว่างรอผ่าตัดใช้ mannitol/HTS และ hyperventilation ระยะสั้นเป็น bridge"
+   "<b>นอกสไลด์:</b> ลด ICP เป็นขั้น: ยกหัวเตียง 30° คอตรง ระงับปวดและให้ยานอนหลับ คุม CO₂ ปกติ รักษาไข้ → ระบาย CSF (EVD) → osmotherapy (mannitol, hypertonic saline) → hyperventilation ชั่วคราว → barbiturate หรือ decompressive craniectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D (ขีด D) ความมั่นใจสูง — ICP สูงจาก acute obstructive hydrocephalus ใน IVH แก้ได้ตรงสาเหตุและเร็วที่สุดด้วย EVD ตามแนวทาง AHA/ASA spontaneous ICH 2022 ซึ่งแนะนำ EVD ในผู้ป่วย IVH + hydrocephalus ที่ระดับความรู้สึกตัวลดลง · มาตรการอื่นในช้อยเป็นเพียงการลด ICP ชั่วคราว · จุดกำกวม: (1) ในผู้ป่วยที่กำลัง herniate การให้ mannitol/hyperventilation ต้องทำทันทีระหว่างเตรียม EVD ถ้าคำถามถามว่า \"ทำอะไรก่อน\" คำตอบอาจต่าง (2) ไฟล์มี 4 ช้อย Claude เติม lumbar drain · ควรเขียนคำถามว่า \"most definitive method\"",
+  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
   "variants": [
-   "ผู้ป่วย hypertensive ICH ที่ cerebellum ขนาด 4 cm ซึมลง CT กด 4th ventricle และมี hydrocephalus → การรักษา (คำตอบ: suboccipital craniectomy เอาก้อนเลือดออก ± EVD)",
-   "ผู้ป่วย TBI ใส่ ICP monitor ได้ ICP 28 mmHg แม้หัวสูง sedation และ mannitol แล้ว ไม่มี mass lesion ที่ผ่าตัดได้ → ขั้นต่อไป (คำตอบ: เพิ่ม CSF drainage ถ้ามี EVD, hypertonic saline, พิจารณา barbiturate หรือ decompressive craniectomy)",
-   "ผู้ป่วยใส่ EVD 7 วัน ไข้ CSF จากสาย WBC สูง glucose ต่ำ Gram stain พบ gram-positive cocci → การวินิจฉัยและการรักษา (คำตอบ: EVD-associated ventriculitis — vancomycin + cefepime/meropenem และเปลี่ยนสาย)",
-   "ผู้ป่วยซึม รูม่านตาขวาขยายไม่ตอบสนองแสง แขนขาซ้ายอ่อนแรง CT มี acute subdural hematoma ขวา → กลไกและการรักษา (คำตอบ: uncal herniation — mannitol/hyperventilation ระยะสั้นระหว่างเตรียม emergency craniotomy)"
+   "<b>นอกสไลด์:</b> cerebellar hemorrhage ขนาดใหญ่กดก้านสมองร่วม hydrocephalus ซึมลง → ผ่าตัดเอาก้อนเลือดออก ไม่ใช้ EVD อย่างเดียว",
+   "<b>นอกสไลด์:</b> ใส่ EVD ใน IVH แล้วสายอุดซ้ำจากลิ่มเลือด → พิจารณาให้ alteplase ทางสายเพื่อละลายลิ่มเลือดในโพรงสมอง"
   ]
  },
  "MDCU66|RoD|48": {
+  "interp": "ชายอายุ 78 ปี แผลใต้ตาโตช้า 1 ปี ชิ้นเนื้อเป็น BCC · ตำแหน่งใต้ตาอยู่ใน H-zone ของใบหน้า = BCC ความเสี่ยงสูง · ถามการรักษา",
+  "why": "<b>ลายมือ: C = BCC · D = SCC (ขอบตามชนิด)</b><br><b>นอกสไลด์:</b> BCC ใกล้ตาเป็นความเสี่ยงสูง (ลามใต้ผิวกว้างกว่าที่เห็นและเนื้อเยื่อให้ตัดน้อย) → Mohs surgery ตรวจขอบได้ครบทุกด้านระหว่างผ่าตัด หายขาดสูงสุดและเก็บเนื้อเยื่อปกติได้มากที่สุด",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้ายังไม่ได้ชิ้นเนื้อ และก้อนเล็กอยู่ในบริเวณที่ผิวหนังหย่อนพอ (เช่นลำตัว) — ตัดออกทั้งก้อนเพื่อทั้งวินิจฉัยและรักษา",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การตัดแบบ wide excision ขอบ 1 mm เพียงพอสำหรับมะเร็งผิวหนัง เพราะการตัดแบบดั้งเดิมตรวจขอบได้เพียงบางส่วน ขอบแคบขนาดนี้เหลือมะเร็งสูง",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น BCC ความเสี่ยงต่ำ (ก้อนเล็ก ขอบชัด ชนิด nodular) ที่ลำตัว — ขอบราว 4 mm",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น melanoma ความหนาไม่เกิน 1 mm — ขอบ 1 cm"
+  },
+  "trap": "BCC โตช้าและแทบไม่แพร่กระจาย แต่ไม่ได้แปลว่าตัดขอบแคบได้ทุกที่ — ใกล้ตา จมูก ริมฝีปาก ลามใต้ผิวกว้างและกลับเป็นซ้ำสูง ต้องตรวจขอบให้ครบ",
   "summary": [
-   "BCC: มะเร็งผิวหนังที่พบบ่อยที่สุด เกิดจาก UV (intermittent intense exposure), ผิวขาว, รังสี, arsenic, immunosuppression, Gorlin syndrome (PTCH1) · โตช้า แพร่กระจายน้อยมาก (< 0.1%) แต่ลุกลามเฉพาะที่ทำลายเนื้อเยื่อ (rodent ulcer) · ชนิด: nodular (บ่อยสุด — pearly, telangiectasia, rolled border), superficial (ลำตัว แผ่นแดง), morpheaform/infiltrative (ขอบไม่ชัด ก้าวร้าว), pigmented (คล้าย melanoma)",
-   "High-risk BCC (NCCN): ตำแหน่ง H-zone ของใบหน้า (รอบตา เปลือกตา จมูก ริมฝีปาก หู ขมับ คาง) รวมมือ เท้า อวัยวะเพศ ไม่ว่าขนาดใด · ลำตัว/แขนขา ≥ 2 cm · ขอบไม่ชัด, recurrent, immunosuppression, เคยได้รังสีบริเวณนั้น, perineural invasion, ชนิด aggressive (morpheaform, infiltrative, micronodular, basosquamous)",
-   "การรักษา: low-risk → standard excision margin 4 mm (หาย ~95%) หรือ curettage and electrodesiccation ในที่ไม่มีขน · high-risk → Mohs micrographic surgery (ตรวจขอบ 100% ระหว่างผ่าตัด, หายขาด ~99% สำหรับ primary, ~94% สำหรับ recurrent, เก็บเนื้อเยื่อปกติมากที่สุด) หรือ excision with complete circumferential peripheral and deep margin assessment (CCPDMA)",
-   "ทางเลือกเมื่อผ่าตัดไม่ได้: radiotherapy (ผู้สูงอายุ > 60 ปีที่ผ่าตัดไม่เหมาะ) · superficial BCC → imiquimod, 5-FU, photodynamic therapy, cryotherapy · locally advanced/metastatic → hedgehog pathway inhibitor (vismodegib, sonidegib) → ดื้อยาใช้ cemiplimab (anti-PD-1)",
-   "เทียบมะเร็งผิวหนังอื่น: cutaneous SCC low-risk margin 4–6 mm, high-risk ใช้ Mohs/CCPDMA หรือ ≥ 6 mm และเสี่ยงแพร่ไปต่อมน้ำเหลืองมากกว่า BCC · melanoma ใช้ margin ตามความหนา Breslow (in situ 0.5–1 cm, ≤ 1 mm 1 cm, 1–2 mm 1–2 cm, > 2 mm 2 cm) ไม่ใช้ Mohs เป็นมาตรฐานยกเว้น lentigo maligna บางราย",
-   "BCC รอบตา: ระวังลามเข้า orbit/lacrimal system (โดยเฉพาะ medial canthus) — ถ้ามีตาโปน การกลอกตาจำกัด หรือ diplopia ต้องทำ CT/MRI · ซ่อมเปลือกตาหลังตัดต้องรักษา lid margin และการปิดตาเพื่อป้องกัน exposure keratopathy · ติดตามผิวหนังทุกปีเพราะ ~40% เกิด BCC ใหม่ใน 5 ปี"
+   "<b>นอกสไลด์:</b> BCC ความเสี่ยงสูง (NCCN): ตำแหน่ง H-zone (กลางใบหน้า เปลือกตา จมูก ริมฝีปาก หู) · ก้อน ≥ 2 cm ที่ลำตัวหรือแขนขา · ขอบไม่ชัด · เป็นซ้ำ · ภูมิคุ้มกันต่ำ · ชนิด infiltrative/morpheaform · ลามเส้นประสาท · เคยฉายรังสี → Mohs · ความเสี่ยงต่ำ → ตัดขอบราว 4 mm"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E (ขีด E + ลายมือ C BCC · D SCC) ความมั่นใจสูง — BCC ใต้ตาอยู่ใน H-zone ซึ่งจัดเป็น high-risk ตาม NCCN และ AAD 2018 แนะนำ Mohs surgery เป็นการรักษาที่ดีที่สุดเพราะหายขาดสูงสุดและเก็บเนื้อเยื่อเปลือกตาได้มากที่สุด · ลายมือของผู้เฉลยชี้ว่า margin 0.5 cm เป็นของ BCC low-risk และ 1 cm เป็นของ SCC ซึ่งถูกต้อง · จุดกำกวม: ในบริบทไทยหลายโรงพยาบาลไม่มี Mohs การรักษามาตรฐานรองคือ excision + frozen section/CCPDMA ถ้าข้อสอบถาม \"in a hospital without Mohs\" คำตอบจะต่าง · ไม่ต้องแก้โจทย์",
+  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
   "variants": [
-   "ชาย 60 ปี มีแผ่นแดงขอบชัดเป็นขุยที่หลัง 1.5 cm ชิ้นเนื้อเป็น superficial BCC → ทางเลือกการรักษา (คำตอบ: standard excision 4 mm หรือ curettage/electrodesiccation หรือ imiquimod/5-FU)",
-   "หญิง 70 ปี ก้อนสีดำมันวาวที่ข้างจมูก ขอบนูนเป็นมุก มีหลอดเลือดฝอย → การวินิจฉัยที่ต้องแยก (คำตอบ: pigmented BCC — ต้องแยกจาก melanoma ด้วย biopsy)",
-   "ผู้ป่วย BCC ขนาดใหญ่ลามเข้า orbit ผ่าตัดไม่ได้และปฏิเสธการควักลูกตา → ยาที่ใช้ (คำตอบ: hedgehog inhibitor — vismodegib หรือ sonidegib; ผลข้างเคียงตะคริว ผมร่วง รับรสผิดปกติ)",
-   "ชาย 75 ปี มีแผลที่หูเป็นมา 6 เดือน ขอบแข็ง โตเร็ว ชิ้นเนื้อเป็น well-differentiated SCC ขนาด 2.5 cm → การรักษา (คำตอบ: Mohs surgery หรือ excision ≥ 6 mm พร้อมตรวจขอบครบ และตรวจต่อมน้ำเหลือง parotid/คอ)"
+   "<b>นอกสไลด์:</b> BCC ใต้ตาในผู้สูงอายุที่ผ่าตัดไม่ได้หรือปฏิเสธผ่าตัด → ฉายรังสี",
+   "<b>นอกสไลด์:</b> BCC ลุกลามเฉพาะที่จนผ่าตัดหรือฉายรังสีไม่ได้ → hedgehog pathway inhibitor (vismodegib, sonidegib)"
   ]
  },
  "MDCU66|RoD|49": {
-  "summary": [
-   "Mitral stenosis: เกือบทั้งหมดจาก rheumatic heart disease (หญิง > ชาย, ประเทศกำลังพัฒนารวมไทย) · ปกติ MVA 4–6 cm² · severe (ACC/AHA 2020) = MVA ≤ 1.5 cm² และ/หรือ diastolic pressure half-time ≥ 150 ms (mean gradient มักราว 5–10 mmHg แต่ขึ้นกับ HR จึงไม่ใช้เป็นเกณฑ์) · อาการเหนื่อยแย่ลงเมื่อหัวใจเต้นเร็ว (ออกกำลัง, AF, ตั้งครรภ์, ไข้)",
-   "ข้อบ่งชี้ intervention (ACC/AHA 2020): severe rheumatic MS ที่มีอาการ (stage D) → PBMV (Class 1) ถ้า valve morphology เหมาะ, MR น้อยกว่า moderate และไม่มี LA thrombus · ไม่มีอาการแต่ PASP > 50 mmHg → PBMV สมเหตุสมผล (2a) · AF เกิดใหม่ → พิจารณา (2b) · ทำ TEE ก่อนทุกรายหา LA appendage thrombus",
-   "Wilkins score (4–16): leaflet mobility, leaflet thickening, valve calcification, subvalvular thickening ข้อละ 1–4 · ≤ 8 = เหมาะกับ PBMV (ผลดี restenosis ต่ำ) · > 8 ผลด้อยลง มักพิจารณาผ่าตัด (MVR) แต่ยังทำ PBMV ได้ในผู้ที่เสี่ยงผ่าตัดสูง · commissural calcification ก็ทำนายผลไม่ดี",
-   "เทียบวิธี: PBMV ได้ผลทันทีเทียบเท่า open commissurotomy ไม่ต้องเปิดอก ทำซ้ำได้ เหมาะกับหญิงอายุน้อย/ตั้งครรภ์ (ทำได้ในไตรมาสสองถ้าจำเป็น) · open commissurotomy เมื่อ PBMV ทำไม่ได้แต่ลิ้นยังดี · MVR เมื่อ calcification มาก, MR ร่วม, Wilkins สูง หรือ PBMV ล้มเหลว",
-   "ภาวะแทรกซ้อนของ PBMV: severe MR (~2–10%) ต้องผ่าตัด, systemic embolism, cardiac tamponade, ASD ที่ตำแหน่งเจาะ (iatrogenic, ส่วนใหญ่ปิดเอง) · restenosis ใน 5–10 ปี ทำซ้ำได้ถ้าลิ้นยังเหมาะ",
-   "ยาใน MS: diuretic ลดอาการคั่ง, beta-blocker/non-dihydropyridine CCB ลดอัตราหัวใจยืดเวลา diastolic filling · anticoagulant (warfarin — DOAC ไม่แนะนำใน rheumatic MS ที่มี AF ตาม INVICTUS) เมื่อมี AF, LA thrombus หรือ embolism · secondary prophylaxis ของ rheumatic fever ด้วย benzathine penicillin"
-  ],
-  "opinion": "เห็นด้วยกับคีย์ B (ขีด B + ลายมือ C/I PBMV: MV score > 8, clot, MR) ความมั่นใจสูง — หญิงอายุน้อยที่มี MS แบบมีอาการแม้ได้ยา ไม่มี LA thrombus และไม่มี MR คือผู้ป่วยที่เหมาะกับ PBMV ที่สุดตาม ACC/AHA 2020 Class I และลายมือของผู้เฉลยระบุสิ่งที่ต้องดูก่อนทำ PBMV (Wilkins > 8 เป็นข้อห้ามแบบ relative ส่วน clot และ MR เป็นข้อห้ามจริง) · จุดกำกวม: โจทย์ไม่บอก MVA หรือ Wilkins score ต้องอนุมานว่าลิ้นเหมาะจากอายุและการไม่มี MR · ช้อยภาษาไทยเดิมแปลมา โดยเฉพาะช้อย D \"repair if balloon fails\" มี PBMV อยู่ในตัว ความหมายขึ้นกับถ้อยคำต้นฉบับ · ควรเพิ่ม \"MVA 0.9 cm², Wilkins score 7\" ในโจทย์",
-  "variants": [
-   "หญิง 28 ปี ตั้งครรภ์ 22 สัปดาห์ severe MS (MVA 0.8 cm²) เหนื่อย NYHA III แม้ได้ beta-blocker และ diuretic Wilkins 7 ไม่มี LA thrombus → การรักษา (คำตอบ: PBMV ระหว่างตั้งครรภ์ไตรมาสสองโดยลดการได้รับรังสี)",
-   "หญิง 50 ปี severe MS Wilkins score 12 ลิ้น calcify มาก MR moderate → การรักษา (คำตอบ: mitral valve replacement)",
-   "หญิง 40 ปี severe MS มี AF TEE พบ thrombus ใน LA appendage → การจัดการก่อน PBMV (คำตอบ: warfarin 2–3 เดือนแล้ว TEE ซ้ำ ถ้ายังมี thrombus พิจารณาผ่าตัด)",
-   "ผู้ป่วยหลัง PBMV ไม่กี่ชั่วโมง เหนื่อยหอบฉับพลัน pulmonary edema ความดันต่ำ echo พบ severe MR จาก leaflet tear → การจัดการ (คำตอบ: ประคองด้วยยาลด afterload/MCS แล้ว mitral valve replacement ด่วน)"
-  ],
-  "why": "<b>Severe symptomatic mitral stenosis</b> (NYHA FC III ทั้งที่ได้ยา) ต้องได้ intervention · <b>PBMV (percutaneous balloon mitral valvotomy)</b> เป็น <b>first choice</b> (ACC/AHA 2020 Class I) เมื่อ valve morphology เหมาะ และไม่มีข้อห้าม — ข้อห้ามของ PBMV (ลายมือ): <b>Wilkins (MV) score > 8, LA thrombus, MR ≥ moderate</b> (และ calcification มาก/bicommissural fusion) · โจทย์บอกไม่มี clot ไม่มี MR ในหญิงอายุน้อย (ลิ้นมักยัง pliable) → PBMV · ผลลัพธ์ดีเทียบเท่า open commissurotomy โดยไม่ต้องผ่าตัดเปิด และทำซ้ำได้",
+  "interp": "หญิงอายุ 35 ปี mitral stenosis มีอาการ ยาช่วยบ้างแต่ยังทำงานไม่ได้ · echo ไม่มีลิ่มเลือดใน LA ไม่มี MR · ถามขั้นต่อไป",
+  "why": "<b>ลายมือ: C/I PBMV: MV score &gt;8, clot, MR</b><br><b>นอกสไลด์:</b> ผู้ป่วยไม่มีข้อห้ามทั้งลิ่มเลือดและลิ้นรั่ว อายุน้อย (ลิ้นมักยังยืดหยุ่น) และยังมีอาการแม้ได้ยา → PBMV เป็นการรักษาแรก (ACC/AHA Class I) ไม่ต้องผ่าตัดเปิดอก",
   "wrong": {
-   "A": "ปรับยาอย่างเดียวไม่พอ — ผู้ป่วยมีอาการ FC III แม้ได้ยา และยาไม่แก้ลิ้นตีบ · จะถูกถ้าเป็นหญิงตั้งครรภ์ที่มี MS แต่คุมอาการได้ดีด้วย beta-blocker + diuretic (NYHA I–II) หรือ MS ระดับ mild–moderate ที่อาการน้อย ซึ่งยังรักษาด้วยยาและติดตาม echo",
-   "C": "Valve replacement ใช้เมื่อลิ้นไม่เหมาะกับ PBMV/repair เพราะต้องผ่าตัดเปิดอกและ anticoagulant ตลอดชีวิต (mechanical) · จะถูกถ้า echo พบ MR ≥ moderate หรือ Wilkins > 8 ร่วมกับ calcification มากของลิ้นและ commissure ในผู้ป่วยที่ผ่าตัดได้",
-   "D": "การวางแผน 'repair ถ้า balloon ล้มเหลว' ไม่ใช่การรักษาขั้นต่อไปตอนนี้ — ต้องทำ PBMV ก่อน ถ้าล้มเหลว/เกิด MR รุนแรงจึงพิจารณาผ่าตัด · จะถูกถ้าโจทย์บอกทำ PBMV แล้วไม่สำเร็จ",
-   "E": "Open commissurotomy ใช้เมื่อทำ PBMV ไม่ได้ (เช่น มี LA thrombus ที่ไม่หาย) แต่ลิ้นยังซ่อมได้ — รุกล้ำกว่าในกรณีที่ PBMV ทำได้ · จะถูกถ้าโจทย์บอกมี LA clot ไม่สลายหลัง anticoagulate หรือในพื้นที่ทรัพยากรจำกัดที่ไม่มี cath lab ซึ่ง closed/open commissurotomy ยังเป็นทางเลือก"
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น MS ที่ยังไม่รุนแรง อาการเกิดเฉพาะตอนหัวใจเต้นเร็ว → beta-blocker ยืดเวลา diastole ให้เลือดผ่านลิ้นได้มากขึ้น",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าลิ้นมีหินปูนหนาแน่นถึง commissure และเส้นเอ็นยึดลิ้นหดสั้น หรือมี MR ปานกลางขึ้นไปร่วม",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเคยทำ PBMV แล้วไม่สำเร็จ และลิ้นยังยืดหยุ่นหินปูนน้อย ในศูนย์ที่ซ่อมลิ้นรูมาติกได้",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าอยู่ในโรงพยาบาลที่ไม่มีบริการ PBMV แต่มีศัลยแพทย์หัวใจ และลิ้นยังยืดหยุ่นดี"
   },
-  "trap": "กับดักรายช้อย: (1) เลือก A เพราะโจทย์บอก \"improved slightly\" จึงคิดว่าปรับยาต่อได้ — ยาลดอาการคั่งแต่ไม่แก้การตีบเชิงกล ผู้ป่วยยังทำงานไม่ได้ (FC III) = ต้อง intervention (2) เลือก C หรือ E เพราะคิดว่าการผ่าตัดเปิดเป็น definitive กว่า — ในลิ้นที่เหมาะ PBMV ได้ผลเทียบเท่า open commissurotomy โดยไม่ต้องเปิดอก และเลี่ยง anticoagulant ตลอดชีวิตของลิ้นเทียม (3) เลือก D เพราะอ่านว่าเป็นแผนที่ครอบคลุม PBMV ไว้แล้ว — คำถามคือขั้นต่อไปตอนนี้ · คำใบ้ \"no LA clot, no MR\" คือโจทย์กำลังบอกว่าไม่มีข้อห้ามหลักของ PBMV"
+  "trap": "อาการดีขึ้นด้วยยาบ้างไม่ได้แปลว่าให้ปรับยาต่อ — MS ที่ยังทำงานไม่ได้ (NYHA III) คือข้อบ่งชี้หัตถการ เพราะยาไม่ได้ขยายลิ้น",
+  "summary": [
+   "<b>นอกสไลด์:</b> ก่อน PBMV ทำ TEE ดูลิ่มเลือดใน LA appendage ทุกราย · ภาวะแทรกซ้อน: ลิ่มเลือดหลุดไปสมอง · รูรั่วผนังกั้นห้องบนจากการเจาะผ่าน · tamponade"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ไตรมาสสองเป็น severe MS ยังเหนื่อยมากแม้ได้ beta-blocker และยาขับปัสสาวะ ลิ้นเหมาะ → PBMV ระหว่างตั้งครรภ์ได้ (ป้องกันรังสีให้ทารก)",
+   "<b>นอกสไลด์:</b> หลัง PBMV หลายปี ลิ้นกลับตีบซ้ำ แต่ลิ้นยังยืดหยุ่นและไม่มี MR → ทำ PBMV ซ้ำได้"
+  ]
  }
 }
