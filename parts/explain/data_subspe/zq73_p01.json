@@ -1,0 +1,234 @@
+{
+ "MDCU73|RoB|22": {
+  "interp": "ข้อ NOT: rectal cancer เพิ่งวินิจฉัย ถามการตรวจที่ <b>ไม่</b> อยู่ใน staging ประจำ",
+  "why": "ลายมือในคีย์: <b>กากบาท E</b> · <b>A ✓ investigate lung metastasis</b> · <b>B ✓ investigate liver metastasis</b> · <b>D ✓ benefit in large rectal tumor</b> · Schwartz: colonoscopy หา synchronous tumor (ถึงราว 5%) · CT chest/abdomen/pelvis หา distant metastasis · endorectal US หรือ MRI ประเมิน T และ N<br><b>นอกสไลด์:</b> Colorectal cancer แพร่ไปกระดูกน้อย bone scan จึงทำเฉพาะเมื่อมีอาการปวดกระดูกหรือ ALP สูง · ปัจจุบัน MRI pelvis ทำทุกรายของ rectal cancer เพื่อดู T, N, ขอบ mesorectal fascia (CRM) และ EMVI ซึ่งใช้ตัดสินว่าต้องให้ neoadjuvant หรือไม่",
+  "wrong": {
+   "A": "ลายมือ: ใช้หา lung metastasis · ไม่มีสถานการณ์ใดที่ CT chest ไม่อยู่ใน staging ของ rectal cancer เพราะเลือดจาก rectum ส่วนล่างไหลเข้า IVC ไปปอดได้โดยไม่ผ่านตับ ปอดจึงเป็นตำแหน่งแพร่กระจายที่ต้องดูทุกราย",
+   "B": "ลายมือ: ใช้หา liver metastasis · ไม่มีสถานการณ์ใดที่ CT abdomen ไม่อยู่ใน staging เพราะตับเป็นตำแหน่งแพร่กระจายที่พบบ่อยที่สุดของ colorectal cancer",
+   "C": "<b>นอกสไลด์:</b> ต้องดูลำไส้ใหญ่ทั้งหมดหา synchronous tumor · จะถูก (ไม่ทำก่อนผ่าตัด) ถ้าก้อนอุดตันจนกล้องผ่านไม่ได้ — ใช้ CT colonography แทน หรือส่อง colonoscopy ทั้งลำไส้ภายในราว 3–6 เดือนหลังผ่าตัด",
+   "D": "ลายมือ: มีประโยชน์ในก้อนใหญ่ · <b>นอกสไลด์:</b> จะถูก (ไม่ใช้ MRI เป็นหลัก) ถ้าก้อนเล็กระยะแรกที่วางแผนตัดเฉพาะที่ผ่านทวาร — endorectal US แยกชั้นผนัง (T1 กับ T2) ได้ดีกว่า"
+  },
+  "trap": "ต้นฉบับช้อย C เป็น PET scan ซึ่งไม่ใช่ routine เหมือน bone scan (ลายมือเขียน 'only if metastasis is suspected…') จึงเปลี่ยนช้อย C ให้เหลือคำตอบเดียว",
+  "summary": [
+   "<b>นอกสไลด์:</b> Staging ประจำของ rectal cancer: ตรวจทวาร + rigid proctoscopy (ระยะจาก anal verge) · biopsy · colonoscopy ทั้งลำไส้ · CT chest/abdomen/pelvis · MRI pelvis · CEA ก่อนผ่าตัด",
+   "PET ไม่ใช่ routine — ใช้เมื่อรอยโรคใน CT กำกวม หรือก่อนผ่าตัดใหญ่ที่เสี่ยงสูง (pelvic exenteration, sacrectomy) ตาม Schwartz"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ E · ตรงกับลายมือและ Schwartz · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> Rectal cancer ร่วมปวดหลังมากขึ้นตอนกลางคืน ALP สูง → bone scan (หรือ MRI กระดูกสันหลัง) ตามอาการ",
+   "<b>นอกสไลด์:</b> Staging CT พบรอยโรคในตับ 1 ซม. แยกไม่ได้ว่าเป็น cyst หรือ metastasis → MRI ตับ"
+  ]
+ },
+ "MDCU73|RoB|24": {
+  "interp": "มะเร็ง squamous cell ของ anal canal → ถามไวรัสที่สัมพันธ์มากที่สุด",
+  "why": "ผู้จดเขียน <b>จำ</b> ไว้ที่ข้อนี้ · ตาราง First Aid (โรคในผู้ติดเชื้อ HIV): <b>HPV — squamous cell carcinoma ที่ตำแหน่งที่มีเพศสัมพันธ์ (anus, cervix, oropharynx)</b><br><b>นอกสไลด์:</b> HPV ชนิดเสี่ยงสูง (ส่วนใหญ่ type 16) พบในเกือบทุกราย · E6 จับ p53 และ E7 จับ Rb ทำให้เซลล์แบ่งตัวไม่หยุด · รอยโรคตั้งต้นคือ anal intraepithelial neoplasia (AIN) แบบเดียวกับ CIN ของปากมดลูก",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> EBV ก่อ nasopharyngeal carcinoma, Burkitt และ Hodgkin lymphoma · จะถูกถ้าผู้ป่วยเป็น nasopharyngeal carcinoma ชนิด undifferentiated (คอโต เลือดกำเดา หูอื้อข้างเดียว)",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ HSV-2 เป็นไวรัสที่สัมพันธ์กับมะเร็งมากที่สุด เพราะ HSV ไม่ใช่ไวรัสก่อมะเร็ง — ก่อแผลตุ่มน้ำที่อวัยวะเพศซึ่งหายแล้วกลับเป็นซ้ำ",
+   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ VZV เป็นไวรัสก่อมะเร็ง เพราะก่อเพียงอีสุกอีใสและงูสวัด",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ HIV เป็นไวรัสที่สัมพันธ์กับมะเร็งชนิดหนึ่งมากที่สุด เพราะ HIV ไม่ก่อมะเร็งโดยตรง แต่ทำให้ภูมิคุ้มกันต่ำจนไวรัสก่อมะเร็งตัวอื่นคงอยู่ (HPV → anal SCC, HHV-8 → Kaposi, EBV → lymphoma)"
+  },
+  "trap": "HIV เพิ่มความเสี่ยง anal SCC หลายเท่า แต่เป็นปัจจัยเสริม — ตัวก่อมะเร็งคือ HPV",
+  "summary": [
+   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยง anal SCC: anal receptive intercourse · MSM · HIV · ภูมิคุ้มกันต่ำหลังปลูกถ่ายอวัยวะ · เคยมีรอยโรค HPV ที่ปากมดลูก/ช่องคลอด/ปากช่องคลอด · สูบบุหรี่"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C · ตรงกับตารางที่ผู้จดแปะ · มั่นใจสูงมาก",
+  "variants": [
+   "<b>นอกสไลด์:</b> Anal canal SCC 3 ซม. ต่อม inguinal บวก ไม่มีการแพร่กระจาย → chemoradiation (5-FU + mitomycin, Nigro) ไม่ใช่ abdominoperineal resection · APR เก็บไว้เมื่อโรคเหลือหรือกลับเป็นซ้ำ",
+   "<b>นอกสไลด์:</b> ชายไม่สูบบุหรี่ มี SCC ที่ tonsil ย้อม p16 บวก → HPV-associated oropharyngeal cancer พยากรณ์ดีกว่ากลุ่มที่เกิดจากบุหรี่"
+  ]
+ },
+ "MDCU73|RoC|37": {
+  "interp": "หญิง 75 ปีถ่ายเลือดสด 2 ครั้ง HR 96 BP 100/60 (เริ่มไม่คงที่) → ถาม <b>initial</b> management",
+  "why": "ลายมือในคีย์ตอบ <b>A — to R/O UGIB even stable vital signs</b> และช้อย E <b>✗ after exclude UGIB</b> (ลำดับตัด UGIB ก่อนส่องกล้องตรงกับเรา แต่ไม่ใช่ขั้นแรก)<br><b>นอกสไลด์:</b> ขั้นแรกของเลือดออกทางเดินอาหารทุกแบบคือประเมินและ resuscitate: เปิด IV เข็มใหญ่ 2 เส้น ให้ crystalloid ส่ง CBC, coagulation, group & match · ผู้ป่วยสูงอายุ HR เกือบ 100 และ BP 100/60 ต้องได้สารน้ำก่อนหัตถการวินิจฉัยใด ๆ (ACG 2023 LGIB: ประเมินและ resuscitate ก่อน)",
+  "wrong": {
+   "A": "ลายมือคีย์: ใช้ตัด UGIB · <b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยส่งต่อมาพร้อม IV เข็มใหญ่ 2 เส้นที่ให้สารน้ำอยู่แล้ว และถ่ายเลือดแดงมากจนช็อก — เลือดออกจากทางเดินอาหารส่วนบนที่เร็วมากทำให้ถ่ายเป็นเลือดแดงได้ จึงตัด UGIB ด้วย NG aspirate หรือ EGD ก่อน colonoscopy",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Foley เป็นขั้นแรกของเลือดออกทางเดินอาหาร เพราะเป็นเครื่องมือติดตามผลการให้สารน้ำ (urine output) ซึ่งต้องมีเส้นให้สารน้ำก่อนเสมอ",
+   "D": "<b>นอกสไลด์:</b> สายยาวและเล็กของ central line ไหลช้ากว่า peripheral เข็มใหญ่ · จะถูกถ้าผู้ป่วยช็อกและเปิดเส้นส่วนปลายไม่ได้หลายครั้ง (ทางเลือกคือ intraosseous หรือ central line)",
+   "E": "ลายมือคีย์: ทำหลังตัด UGIB · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ colonoscopy เป็นขั้นแรก เพราะต้องประเมิน resuscitate และเตรียมลำไส้ก่อนส่องเสมอ"
+  },
+  "trap": "คีย์เดิมตอบ A (NG tube) — NG ใช้ตัด UGIB แต่ทำหลังเปิดเส้น · คำว่า initial ในเลือดออกทางเดินอาหาร = resuscitation เสมอ แม้ยังไม่ช็อก",
+  "summary": [
+   "<b>นอกสไลด์:</b> ลำดับ LGIB: resuscitate → ตัด UGIB เมื่อช็อก/BUN:Cr สูง/มีประวัติแผลกระเพาะ → คงที่: colonoscopy หลังเตรียมลำไส้ระหว่างนอนโรงพยาบาล · ไม่คงที่แม้ให้สารน้ำ: CTA → embolization",
+   "<b>นอกสไลด์:</b> Shock index (HR/SBP) > 1 = ไม่คงที่ — ผู้ป่วยนี้ราว 0.96 ใกล้เกณฑ์"
+  ],
+  "opinion": "ไม่เห็นด้วยกับคีย์ A — ขั้นแรกคือเปิดเส้นเข็มใหญ่และ resuscitate · NG ทำภายหลังเมื่อสงสัย UGIB · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> ผู้ป่วย LGIB ไม่มีโรคหัวใจ คงที่หลังให้สารน้ำ Hb 7.5 g/dL → ยังไม่ต้องให้เลือด (เกณฑ์ราว 7 g/dL; มีโรคหัวใจหลอดเลือดราว 8)",
+   "<b>นอกสไลด์:</b> ชาย 80 ปีกิน warfarin ถ่ายเลือดสดจน BP ตก INR 4 → resuscitate พร้อมแก้ฤทธิ์ยา (vitamin K + PCC) ไม่รอผล INR ก่อนส่องกล้อง"
+  ]
+ },
+ "MDCU73|RoC|83": {
+  "interp": "ผ่าตัด colon cancer มา 4 ปี ติดตามแล้วพบก้อน solid ใหม่หลายก้อนในตับ → ถามการวินิจฉัย",
+  "why": "ลายมือ: <b>C ✓ appear after curative treatment</b> · <b>B ✗ appear during primary tumor</b><br><b>นอกสไลด์:</b> เลือดจาก colon ไหลเข้า portal vein ตับจึงเป็นตำแหน่งแพร่กระจายที่พบบ่อยที่สุด · ผู้ป่วยมีมะเร็งเดิมและพบก้อนใหม่หลายก้อนหลังรักษาหายไปแล้ว = metastasis ที่เกิดตามหลัง (metachronous)",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยตับแข็งจาก HBV มีก้อนที่ enhance ช่วง arterial แล้ว washout ช่วง portal venous (HCC วินิจฉัยด้วยภาพได้)",
+   "B": "ลายมือ: พบพร้อม primary · จะถูกถ้าก้อนในตับพบตั้งแต่ CT staging ก่อนหรือขณะผ่าตัด colon",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยดื่มสุราเรื้อรัง CT เห็นผิวตับขรุขระ caudate lobe โต ม้ามโต และ ascites",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้า CT เห็นก้อนผนังบาง ความหนาแน่นเท่าน้ำ ไม่ enhance หลายก้อน — พบโดยบังเอิญบ่อยในผู้สูงอายุ"
+  },
+  "trap": "โจทย์ใช้คำว่า solid และ new ในผู้ที่มีมะเร็งเดิม → metastasis มาก่อน HCC · ตัวแยก synchronous กับ metachronous คือเวลาที่พบเทียบกับ primary",
+  "summary": [
+   "<b>นอกสไลด์:</b> Liver metastasis จาก colorectal cancer ที่ตัดออกได้หมดยังหายขาดได้ส่วนหนึ่ง · ประเมินการผ่าตัดจาก: ตัดได้หมดพร้อมขอบ · ตับที่เหลือพอ · โรคนอกตับควบคุมได้"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C · ตรงกับลายมือ · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> ผู้ป่วยนี้มีก้อน 3 ก้อนในตับกลีบขวา ไม่มีโรคที่อื่น ตับที่เหลือพอ → hepatectomy ร่วมกับ chemotherapy",
+   "<b>นอกสไลด์:</b> 3 ปีหลังผ่าตัด rectal cancer ส่วนล่าง พบก้อนหลายก้อนในปอดแต่ตับปกติ → metachronous lung metastases (rectum ส่วนล่างระบายเข้า IVC)"
+  ]
+ },
+ "MDCU73|RoC|86": {
+  "interp": "Colon cancer ที่มี liver metastases → ถาม tumor marker ที่ใช้ติดตามโรค",
+  "why": "สไลด์ Tumor Markers: <b>CEA in colon cancer — monitoring during treatment, monitoring metastatic colorectal cancer, levels correlate with stage, indicate recurrence</b> · ลายมือ <b>liver metabolize CEA</b> · <b>liver damage impair CEA clearance</b> · smokers มีค่าสูงกว่า<br><b>นอกสไลด์:</b> CEA ใช้ติดตามการตอบสนองต่อ chemotherapy และหาการกลับเป็นซ้ำ ไม่ใช้คัดกรองหรือวินิจฉัย",
+  "wrong": {
+   "A": "ลายมือ: tumor marker ของ CCA · จะถูกถ้าผู้ป่วยเป็น cholangiocarcinoma หรือ pancreatic adenocarcinoma ที่ค่าสูงก่อนรักษา",
+   "C": "ลายมือ: ใช้กับ HCC · จะถูกถ้าก้อนในตับเป็น HCC ในผู้ป่วยตับแข็ง",
+   "D": "ลายมือ: GIST · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ c-kit เป็น marker ที่ส่งเลือดติดตามโรค เพราะเป็นโปรตีนบนผิวเซลล์ที่ย้อมจากชิ้นเนื้อ (IHC ยืนยัน GIST) — GIST ติดตามด้วย CT",
+   "E": "ลายมือ: CA ovary · จะถูกถ้าผู้ป่วยเป็น epithelial ovarian cancer"
+  },
+  "trap": "เห็นคำว่าตับแล้วเลือก AFP — AFP สูงในมะเร็งตับปฐมภูมิ ไม่ใช่มะเร็งที่แพร่มาที่ตับ",
+  "summary": [
+   "<b>นอกสไลด์:</b> CEA: ส่งก่อนผ่าตัดเป็นค่าตั้งต้น · หลังผ่าตัดหายขาด stage II–III ตรวจทุก 3–6 เดือนในช่วง 2 ปีแรกแล้วห่างขึ้นจนครบ 5 ปี (NCCN) · ค่าที่สูงขึ้นต่อเนื่องต้องหาตำแหน่งด้วย CT"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ B · ตรงกับสไลด์และลายมือทุกช้อย · มั่นใจสูงมาก",
+  "variants": [
+   "<b>นอกสไลด์:</b> CEA ก่อนผ่าตัดสูง หลังผ่าตัด 6 สัปดาห์ไม่ลดลง → สงสัยโรคเหลือค้างหรือแพร่กระจาย ทำ CT",
+   "ผู้ป่วยสูบบุหรี่ หลังผ่าตัด CEA สูงเล็กน้อยคงที่ CT ปกติ → ตรวจซ้ำและแปลผลร่วมกับภาพ (บุหรี่ทำให้ CEA สูงได้ — ตามสไลด์)"
+  ]
+ },
+ "MDCU73|RoB|Colo 1": {
+  "interp": "ข้อ NOT: ข้อใด <b>ไม่ใช่</b> ข้อบ่งชี้ที่หนักแน่นของ lateral internal sphincterotomy (LIS)",
+  "why": "P'Ing วง <b>E ✗ acute (&lt;6 wk) รักษาเองได้/conservative</b> · <b>A–D ✓ for chronic anal fissure</b><br><b>นอกสไลด์:</b> Acute fissure ส่วนใหญ่หายด้วยใยอาหาร ยาระบาย แช่น้ำอุ่น · LIS สงวนไว้สำหรับ chronic fissure (หูรูดเกร็ง ขอบแข็ง เป็นนานเกิน 6–8 สัปดาห์) ที่ยาคลายหูรูดไม่ได้ผล",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> หูรูดเกร็งคือกลไกที่ทำให้แผลขาดเลือดและ LIS แก้ตรงจุด · จะถูก (ไม่ใช่ข้อบ่งชี้ที่หนักแน่น) ถ้าผู้ป่วยกลั้นอุจจาระไม่อยู่อยู่ก่อนแล้ว — ใช้ botox หรือ advancement flap แทนการตัดหูรูด",
+   "B": "<b>นอกสไลด์:</b> ปวดนานเกิน 6 สัปดาห์ = chronic · จะถูกถ้า fissure เกิดจาก Crohn disease — รักษาโรค Crohn ด้วยยา เลี่ยงการตัดหูรูด",
+   "C": "<b>นอกสไลด์:</b> ยาคลายหูรูดล้มเหลวคือจุดที่ต้องผ่าตัด · จะถูกถ้าแผลอยู่ด้านข้างทวารหรือมีหลายแผล — ต้องตัดชิ้นเนื้อหาสาเหตุอื่น (TB, HIV, มะเร็ง) ก่อน",
+   "D": "<b>นอกสไลด์:</b> ขอบแผลแข็งเป็นลักษณะ chronic · จะถูกถ้าเป็นหญิงหลังคลอดที่ manometry พบหูรูดความดันต่ำ — ใช้ advancement flap แทน"
+  },
+  "trap": "คำว่า strong indication = ลักษณะ chronic + ยาไม่ได้ผล · acute fissure ปวดมากแค่ไหนก็ยังเริ่มรักษาด้วยวิธี conservative",
+  "summary": [
+   "<b>นอกสไลด์:</b> ลำดับรักษา chronic fissure: ใยอาหาร แช่น้ำอุ่น → ยาทา GTN หรือ diltiazem ราว 6–8 สัปดาห์ → botox หรือ LIS · LIS หายสูงสุดแต่เสี่ยงกลั้นลม/อุจจาระเหลวไม่อยู่เล็กน้อย"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ E — ตรงกับลายมือ P'Ing · มั่นใจสูงมาก",
+  "variants": [
+   "<b>นอกสไลด์:</b> ผู้ป่วย chronic fissure ใช้ GTN แล้วปวดศีรษะมากจนหยุดยา → เปลี่ยนเป็น diltiazem ทา (ปวดศีรษะน้อยกว่า)",
+   "<b>นอกสไลด์:</b> ชายมี fissure ที่ posterior midline เจ็บมากจนตรวจทวารไม่ได้ → ไม่ต้องฝืนตรวจ ดูด้วยการแหวกก้นก็วินิจฉัยได้"
+  ]
+ },
+ "MDCU73|RoB|Colo 2": {
+  "interp": "Ascending colon cancer มีต่อม pericolic โต ไม่มี distant metastasis → ถามการรักษา",
+  "why": "P'Ing วง <b>E — Rt hemicolectomy, post op adj CMT</b><br><b>นอกสไลด์:</b> มะเร็ง colon ที่ผ่าตัดได้ → ผ่าตัดก่อน (right hemicolectomy พร้อมเลาะ mesentery ตามหลอดเลือด) แล้วให้ adjuvant chemotherapy เมื่อพยาธิเป็น stage III · ต่างจาก rectum ที่ให้การรักษาก่อนผ่าตัด",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าก้อน colon ลุกลามเฉพาะที่มาก (T4b) จนคาดว่าตัดออกไม่หมด — ให้ neoadjuvant chemotherapy ให้ก้อนยุบก่อน",
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น rectal cancer ส่วนล่างระยะ T3–T4 หรือต่อมบวก ที่ MRI เห็นก้อนชิด mesorectal fascia — long-course chemoradiation ก่อน TME",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น rectal cancer ส่วนกลาง T3 ขอบ mesorectal fascia ยังห่าง ในผู้สูงอายุที่ไม่เหมาะกับ chemotherapy — short-course RT 5×5 Gy ก่อนผ่าตัด",
+   "D": "<b>นอกสไลด์:</b> Colon ขยับได้ ฉายแสงแล้วลำไส้เล็กรอบ ๆ เสียหาย · จะถูกถ้าก้อน ascending colon ติดผนังหลังช่องท้อง ตัดแล้วขอบ retroperitoneum ยังมีมะเร็ง — พิจารณาฉายแสงเฉพาะที่ (ใช้น้อย)"
+  },
+  "trap": "อย่าเอาหลัก rectal cancer (ให้รังสีก่อนผ่าตัด) มาใช้กับ colon",
+  "summary": [
+   "<b>นอกสไลด์:</b> Colon cancer: ผ่าตัดก่อน → adjuvant chemotherapy (FOLFOX/CAPOX) ใน stage III และ stage II กลุ่มเสี่ยงสูง",
+   "<b>นอกสไลด์:</b> Right hemicolectomy ตัด ileocolic, right colic และแขนงขวาของ middle colic"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ E — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> Ascending colon cancer ทำให้ลำไส้อุดตันสมบูรณ์ ผู้ป่วยคงที่ → right hemicolectomy + ต่อลำไส้ได้ในครั้งเดียว",
+   "<b>นอกสไลด์:</b> หลังผ่าตัดพยาธิเป็น pT3N0 แต่ได้ต่อมน้ำเหลืองเพียง 8 ต่อม → stage II เสี่ยงสูง (ต่อมไม่ถึง 12) พิจารณา adjuvant chemotherapy"
+  ]
+ },
+ "MDCU73|RoB|Colo 3": {
+  "interp": "Sigmoid cancer ลุกอวัยวะข้างเคียง pericolic node บวก 2 ต่อม inguinal node บวก 2 ต่อม ก้อนในตับเป็น FNH → ถาม TNM",
+  "why": "ลายมือในคีย์: <b>T4N2M0 stage 3</b> (นับ inguinal เป็น regional) — เราไม่ใช้<br><b>นอกสไลด์:</b> AJCC 8th: ลุกอวัยวะข้างเคียง = <b>T4b</b> · regional node ของ sigmoid คือ pericolic และตามหลอดเลือด sigmoid/IMA บวก 2 ต่อม = <b>N1b</b> · inguinal ไม่ใช่ regional node ของ colon จึงเป็นการแพร่กระจาย 1 ตำแหน่ง = <b>M1a</b> · FNH เป็นก้อนไม่ร้ายไม่นับ → T4bN1bM1a (stage IVA)",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้ามีเพียง pericolic node บวก 2 ต่อม ไม่มี inguinal node",
+   "B": "<b>นอกสไลด์:</b> (ตรงกับคีย์เดิม) จะถูกถ้า pericolic/mesenteric node บวก 4 ต่อม ไม่มีต่อมนอก regional",
+   "D": "<b>นอกสไลด์:</b> T4a = ทะลุ visceral peritoneum แต่ไม่ลุกอวัยวะ · จะถูกถ้าก้อนทะลุ serosa ไม่ติดอวัยวะใด pericolic node บวก 2 ต่อม ไม่มีต่อมนอก regional",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนทะลุ muscularis propria ถึงไขมันรอบลำไส้ regional node บวก 5 ต่อม และแพร่ทั้งตับและปอด (≥ 2 อวัยวะ = M1b)"
+  },
+  "trap": "คีย์เดิมนับ inguinal รวมเป็น N2 · ต่อมนอก regional ของ colon (inguinal, external iliac) นับเป็น M ไม่ใช่ N · ก้อนในตับต้องดูผลชิ้นเนื้อ FNH ไม่นับ",
+  "summary": [
+   "<b>นอกสไลด์:</b> N1a 1 ต่อม · N1b 2–3 · N2a 4–6 · N2b ≥ 7 · M1a 1 อวัยวะ/ตำแหน่ง · M1b ≥ 2 · M1c เยื่อบุช่องท้อง"
+  ],
+  "opinion": "ไม่เห็นด้วยกับคีย์ (T4N2M0) — inguinal node ไม่ใช่ regional ของ sigmoid จึงเป็น M1a · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> ก้อน colon ไม่มีต่อมบวกเลย แต่มีก้อนเนื้องอกแยกอยู่ในไขมัน mesentery (tumor deposit) → N1c",
+   "<b>นอกสไลด์:</b> ก้อน colon T3 มีแต่ peritoneal nodule หลายจุด ตับและปอดปกติ → M1c (stage IVC)"
+  ]
+ },
+ "MDCU73|RoB|Colo 4": {
+  "interp": "ปวดก้นและทวาร มีไข้ ตรวจทวารคลำก้อนร้อน กดเจ็บ fluctuant ข้างต่อมลูกหมาก <b>เหนือ anorectal ring</b> = supralevator abscess → ถามการจัดการ",
+  "why": "ผู้จดจดแค่โจทย์ (P'Ing มี ? หน้าข้อ)<br><b>นอกสไลด์:</b> ฝีรอบทวารทุกชนิดต้องระบายหนอง ยาปฏิชีวนะอย่างเดียวเข้าโพรงหนองไม่ได้ · supralevator abscess ต้องรู้ต้นกำเนิดก่อนเลือกทางระบาย: มาจาก intersphincteric → ระบายผ่านผนัง rectum · มาจาก ischiorectal → ระบายผ่านผิวหนัง · ระบายผิดทางทำให้เกิด extrasphincteric fistula",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น cellulitis รอบทวารที่ยังไม่มีโพรงหนอง (ไม่ fluctuant)",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น thrombosed external hemorrhoid ที่เป็นมาเกิน 72 ชม. — ก้อนเริ่มยุบ รักษาตามอาการ",
+   "D": "<b>นอกสไลด์:</b> ระยะฝีเฉียบพลันหา internal opening ยากและเสี่ยงตัดหูรูดเกิน · จะถูกถ้าเป็น low intersphincteric fistula ที่มีหนองซึมเรื้อรังหลังฝีหายแล้ว",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น internal hemorrhoid grade II เลือดออกซ้ำแม้ปรับอาหารแล้ว"
+  },
+  "trap": "ฝีที่คลำได้จากในทวารเหนือ anorectal ring มองไม่เห็นจากผิวหนัง อย่ารอให้ fluctuant ที่ผิว · ทางระบายขึ้นกับต้นกำเนิด",
+  "summary": [
+   "<b>นอกสไลด์:</b> ฝีรอบทวารพบบ่อย: perianal > ischiorectal > intersphincteric > supralevator · หลังระบายราว 1 ใน 3 กลายเป็น fistula",
+   "<b>นอกสไลด์:</b> ให้ยาปฏิชีวนะร่วมเมื่อมี cellulitis กว้าง ภูมิคุ้มกันต่ำ เบาหวาน ลิ้นหัวใจเทียม หรือ sepsis"
+  ],
+  "opinion": "คีย์ในไฟล์ไม่มีคำตอบ — ตอบ A ตามหลักฝีต้องระบาย · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> ผู้ป่วยเบาหวานมีฝีรอบทวาร ผิวหนังดำคล้ำ คลำมี crepitus ไข้สูง → Fournier gangrene: ผ่าตัด debride ด่วน + ยาปฏิชีวนะครอบคลุม",
+   "<b>นอกสไลด์:</b> ฝี ischiorectal สองข้างเชื่อมกันทางด้านหลังทวาร (horseshoe) → ระบายที่ deep postanal space"
+  ]
+ },
+ "MDCU73|RoB|Colo 5": {
+  "interp": "ผู้สูงอายุเลือดออกทางทวารมาก ทันที <b>ไม่ปวด</b> → ถามสาเหตุที่น่าจะเป็นที่สุด",
+  "why": "P'Ing แปะข้อสอบเดิม: massive bleeding per rectum → <b>diverticulosis</b><br><b>นอกสไลด์:</b> Diverticular bleeding เป็นสาเหตุที่พบบ่อยที่สุดของ lower GI bleeding เฉียบพลันปริมาณมากในผู้สูงอายุ · vasa recta ที่ถูกยืดบนโดม diverticulum แตก จึงออกมากแต่ไม่ปวด และส่วนใหญ่หยุดเอง",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุมี CKD หรือ aortic stenosis ซีดจากเลือดออกเป็นพัก ๆ ปริมาณน้อย colonoscopy เห็นรอยหลอดเลือดแดงแผ่ที่ cecum",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุซีดจากขาดเหล็ก ถ่ายเปลี่ยนนิสัย น้ำหนักลด มีเลือดปนอุจจาระเล็กน้อยเรื้อรัง",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุโรคหลอดเลือดหรือหลังความดันตก ปวดท้องซ้ายเฉียบพลันก่อนแล้วถ่ายเป็นเลือดปนอุจจาระปริมาณไม่มาก",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่มีเลือดแดงสดหยดหลังถ่ายหรือติดกระดาษชำระ ปริมาณน้อย ไม่ซีด"
+  },
+  "trap": "ต้องเป็น diverticulosis (ไม่อักเสบ) — diverticulitis แทบไม่ทำให้เลือดออกมาก · ถ้าช็อกต้องนึกถึง UGIB ที่ออกเร็วด้วย",
+  "summary": [
+   "<b>นอกสไลด์:</b> แยกสาเหตุ LGIB ในผู้สูงอายุจากลักษณะเลือดออก: มากทันทีไม่ปวด = diverticulum · พัก ๆ น้อย ซีด = angiodysplasia · ปวดก่อนแล้วเลือดปน = ischemic colitis · เรื้อรังซีดขาดเหล็ก = มะเร็ง"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ (diverticulosis) · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> Colonoscopy เห็นเลือดออกจาก diverticulum ตำแหน่งเดียวขณะส่อง → หยุดเลือดผ่านกล้อง (clip)",
+   "<b>นอกสไลด์:</b> เลือดออกจาก diverticulum ซ้ำหลายครั้งจากตำแหน่งเดิมที่ระบุได้ → segmental colectomy"
+  ]
+ },
+ "MDCU73|RoB|Colo 6": {
+  "interp": "Sigmoid diverticulitis มี <b>pericolic abscess เล็ก</b> → ถามระยะตาม Hinchey ดั้งเดิม",
+  "why": "P'Ing เขียน <b>Class I</b><br><b>นอกสไลด์:</b> Original Hinchey ใช้กับ diverticulitis ที่มีฝีหรือทะลุ แบ่งตามตำแหน่งการปนเปื้อน ไม่ใช้ขนาด: <b>I</b> pericolic abscess · <b>II</b> ฝีใน pelvis/retroperitoneum/ห่างจากลำไส้ · <b>III</b> purulent peritonitis · <b>IV</b> fecal peritonitis",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้า CT เห็นฝีในอุ้งเชิงกรานแยกห่างจากผนังลำไส้",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าฝีแตกเป็นหนองทั่วช่องท้อง ผู้ป่วยมี generalized peritonitis",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผ่าตัดพบอุจจาระในช่องท้องจากลำไส้ทะลุเปิด",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น uncomplicated diverticulitis (ผนังหนา ไขมันรอบอักเสบ ไม่มีฝีหรือทะลุ) — Hinchey ดั้งเดิมไม่มีระยะนี้ ฉบับ modified จึงเพิ่ม 0 และ Ia"
+  },
+  "trap": "Hinchey ไม่ใช้ขนาดฝี — pericolic abscess ทุกขนาดเป็น I (ใน modified เป็น Ib) · ขนาดใช้ตัดสินว่าจะเจาะระบายหรือไม่",
+  "summary": [
+   "<b>นอกสไลด์:</b> Hinchey I–II = ฝีโดยไม่มี peritonitis ทั่วท้อง (รักษาด้วยยาปฏิชีวนะ ± เจาะระบาย) · III–IV = peritonitis ทั่วท้อง ต้องผ่าตัดฉุกเฉิน"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ (Class I) · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> Hinchey IV ผู้ป่วย septic shock → ตัด sigmoid แบบ Hartmann (ไม่ต่อลำไส้)",
+   "<b>นอกสไลด์:</b> Hinchey III ผู้ป่วยอายุน้อยคงที่ → ตัด sigmoid ต่อลำไส้ ± diverting ileostomy เป็นทางเลือกแทน Hartmann"
+  ]
+ },
+ "MDCU73|RoB|CVT 1": {
+  "interp": "เด็กมี wide fixed split S2 + systolic ejection murmur ที่ LUSB + RBBB → ถามการวินิจฉัย",
+  "why": "P'Ing วง A: <b>ASD L→R shunt → RV volume overload → flow murmur, fixed split S2, EKG incomplete RBBB</b><br><b>นอกสไลด์:</b> Murmur ไม่ได้เกิดจากรูรั่วโดยตรง แต่เกิดจากเลือดไหลผ่าน pulmonic valve มากขึ้น · S2 แยกกว้างคงที่เพราะเลือดจาก shunt ทำให้ปริมาตร RV เท่ากันทั้งหายใจเข้าและออก",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กมี holosystolic murmur ดังที่ left lower sternal border ± thrill",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกคลอดก่อนกำหนดมี continuous machinery murmur ใต้ไหปลาร้าซ้าย ชีพจรแรง pulse pressure กว้าง",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กเขียว นั่งยอง ๆ หลังวิ่ง S2 เดี่ยว CXR เป็น boot-shaped heart",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กความดันแขนสูง ชีพจรที่ขาหนีบเบาและช้ากว่าที่ข้อมือ"
+  },
+  "trap": "ไฟล์ต้นฉบับเขียน pansystolic (ซึ่งชี้ VSD) — ตัวชี้ ASD คือ fixed split S2 + RBBB จึงปรับเป็น systolic ejection",
+  "summary": [
+   "<b>นอกสไลด์:</b> ASD secundum พบบ่อยที่สุด · ปิดเมื่อ RV โตหรือ Qp:Qs ≥ 1.5 · secundum ที่ขอบพอใช้ device ทางสายสวน · primum และ sinus venosus ต้องผ่าตัด"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A — ตรงกับลายมือ P'Ing · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> เด็กดาวน์มี fixed split S2 แต่ ECG เป็น left axis deviation → ostium primum ASD (AV septal defect) ต้องผ่าตัด",
+   "<b>นอกสไลด์:</b> หญิง 40 ปีมี AF ครั้งแรก ตรวจพบ fixed split S2 → ASD ที่ไม่เคยวินิจฉัย (shunt นานทำให้ atrium โต)"
+  ]
+ }
+}
