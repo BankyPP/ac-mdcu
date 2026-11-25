@@ -56,7 +56,9 @@
    "C": "Cushing triad = HT + bradycardia + irregular respiration — บอก ICP สูงมาก ไม่ใช่อาการบอกข้าง",
    "D": "Duret hemorrhage = เลือดออกในก้านสมอง (pons/midbrain) หลัง descending transtentorial herniation",
    "E": "Battle sign = ecchymosis หลังหู จาก basilar skull fracture"
-  }
+  },
+  "stem": "Same patient as the previous question, but repeat examination now shows the decorticate posturing on the LEFT side, the same side as the dilated left pupil; CT confirms a left-sided hematoma. What is this phenomenon called?",
+  "notes": "⚠ ไฟล์มีช้อย 2 ข้อ → Claude เติม C–E · recall เดิม (pupil ซ้าย + posturing ขวา) เป็น contralateral ปกติ ไม่ใช่ Kernohan → แก้ stem ให้ posturing อยู่ข้างเดียวกับ pupil/ก้อน ตามคีย์ (25 พ.ย. 2026)"
  },
  "MDCU68|RoD|5": {
   "opinion": "ตรวจคีย์ (21 พ.ย. 2026): เห็นด้วยกับคีย์ลายมือ D · คีย์ไฟล์ 01.2 ตอบ E ผิด — คำตอบ D aqueductal stenosis · ตาม Greenberg Handbook of Neurosurgery 10e: obstructive (non-communicating) hydrocephalus เป็น contraindication ของ LP เพราะ pressure gradient → herniation · communicating hydrocephalus (NPH, post-meningitis, post-SAH) ทำ LP ได้ (NPH ใช้ tap test) · ความมั่นใจสูง"
