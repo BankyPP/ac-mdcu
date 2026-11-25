@@ -1,184 +1,158 @@
 {
  "MDCU79|RoD|Uro 6": {
+  "interp": "ปวดบิดเอวซ้ายร้าวลงขาหนีบ กดเจ็บ CVA ซ้าย + ภาพ KUB · ถามการวินิจฉัย",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A left mid ureteric stone</b><br><b>นอกสไลด์:</b> ภาพมีเงาทึบรูปรีข้างกระดูกสันหลังด้านซ้ายบนแนวท่อไต (ระดับ transverse process ของ L3) ร่วมอาการ renal colic → นิ่วท่อไตซ้าย",
   "wrong": {
-   "B": "UPJ obstruction คือการตีบที่รอยต่อ renal pelvis กับ ureter (ส่วนใหญ่แต่กำเนิด หรือมี crossing lower pole vessel) ทำให้ renal pelvis โป่งแต่ ureter ไม่โป่ง — ไม่มีเงาทึบรังสีบน KUB และไม่อธิบายเงานิ่วตามแนวท่อไต; จะถูกถ้าชายอายุ 25 ปีปวดเอวซ้ายเป็นพัก ๆ ทุกครั้งที่ดื่มเบียร์มาก (Dietl crisis) US เห็น hydronephrosis โดยท่อไตไม่โป่ง และ MAG3 diuretic renogram มีลักษณะอุดกั้น",
-   "C": "Phlebolith คือหินปูนในหลอดเลือดดำ pelvis เห็นเป็นเงากลมขอบเรียบมีจุดใสตรงกลาง อยู่ต่ำใน pelvis ใต้ระดับ ischial spine และอยู่ด้านข้างนอกแนวท่อไต ไม่ทำให้ปวด — จึงไม่ใช่ทั้งตำแหน่งและอาการในโจทย์; จะถูกถ้าผู้ป่วยไม่มีอาการทางเดินปัสสาวะ ถ่าย KUB ด้วยเหตุอื่นแล้วพบเงากลมหลายจุดเหนือ pelvic floor และ CT ยืนยันว่าอยู่ในหลอดเลือดดำ ไม่ใช่ใน ureter",
-   "D": "Calcified mesenteric lymph node เป็นหินปูนจากการอักเสบเก่า (เช่น TB) เห็นเป็นเงาขอบขรุขระคล้ายดอกกะหล่ำ และเปลี่ยนตำแหน่งได้ในฟิล์มต่างท่าหรือต่างเวลาเพราะ mesentery เคลื่อนได้ — ไม่ทำให้ renal colic หรือ CVA tenderness; จะถูกถ้าเงานั้นอยู่ทางขวาของช่องท้องส่วนกลาง เปลี่ยนตำแหน่งระหว่างท่ายืนกับนอน และ CT ไม่พบนิ่วในทางเดินปัสสาวะ",
-   "E": "Staghorn calculus เป็นนิ่วที่เต็ม renal pelvis และแตกแขนงเข้า calyces อย่างน้อย 2 กลุ่ม รูปร่างคล้ายเขากวางอยู่ในเงาไต ส่วนใหญ่เป็น struvite จากเชื้อสร้าง urease และมักไม่มี renal colic เพราะนิ่วไม่เคลื่อนที่ — โจทย์มีอาการ colic ร้าวลงขาหนีบซึ่งบ่งว่านิ่วอยู่ในท่อไต; จะถูกถ้าหญิงมี UTI จาก Proteus ซ้ำหลายครั้ง ปวดเอวตื้อ ๆ และ KUB เห็นเงาทึบขนาดใหญ่เต็มเงาไตซ้าย"
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าปวดเอวเป็นพัก ๆ หลังดื่มน้ำมาก ภาพเห็นไตบวมน้ำโดยท่อไตไม่ขยายและไม่มีนิ่ว",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเงากลมเล็กมีจุดโปร่งตรงกลาง อยู่ในอุ้งเชิงกรานต่ำกว่าแนวท่อไต ในผู้ที่ไม่มีอาการ",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเงาทึบรูปไม่เรียบหลายจุดที่ย้ายตำแหน่งได้ระหว่างภาพต่างท่า ในผู้ที่เคยเป็นวัณโรคและไม่มีอาการทางปัสสาวะ",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเงาทึบเป็นรูปเขากวางเต็ม renal pelvis และแตกแขนงเข้า calyces"
   },
-  "trap": "ช้อย E ล่อเพราะเห็นเงาทึบฝั่งซ้ายแล้วนึกถึงนิ่วในไต แต่ staghorn อยู่ในเงาไตและไม่ทำให้ colic ร้าวลงขาหนีบ · ช้อย C ล่อเพราะ phlebolith เป็นเงาทึบที่สับสนกับนิ่วท่อไตส่วนปลายบ่อยที่สุด — ให้ดูว่าอยู่ใต้ ischial spine มีจุดใสตรงกลาง และไม่อยู่บนแนวท่อไต · ช้อย B ล่อเพราะมี flank pain และ hydronephrosis ได้เหมือนกัน แต่ไม่มีเงาทึบ · เรื่องตำแหน่ง: ภาพในไฟล์เป็นภาพใกล้เคียงที่ผู้จดหามาแทน เงานิ่วอยู่ระดับ L3 ซึ่งตามนิยามคือ upper ureter (เหนือขอบบน sacroiliac joint) ส่วน mid ureter คือส่วนที่ทับ sacrum — ถ้าข้อสอบจริงมีทั้ง upper และ mid ต้องใช้ SI joint เป็นหลักแบ่ง",
+  "trap": "เงาทึบบนแนวท่อไตไม่ใช่นิ่วเสมอ (phlebolith ต่อมน้ำเหลือง นิ่วในไตที่ซ้อนทับ) — ยืนยันด้วย non-contrast CT",
   "summary": [
-   "แบ่งท่อไตบนภาพรังสี: upper/proximal = UPJ ถึงขอบบนของ sacroiliac joint · middle = ส่วนที่ทับกระดูก sacrum · lower/distal = ใต้ขอบล่าง SI joint ถึง UVJ (EAU ใช้แบ่งเพื่อเลือก ESWL หรือ URS)",
-   "จุดแคบตามธรรมชาติที่นิ่วติด: UPJ, จุดที่ท่อไตข้าม iliac vessels ที่ pelvic brim, UVJ (แคบที่สุดและเป็นตำแหน่งติดบ่อยที่สุด)",
-   "ความทึบรังสี: calcium oxalate/phosphate ทึบชัด · struvite ทึบปานกลาง · cystine ทึบน้อย (ground-glass) · uric acid, xanthine, indinavir ไม่ทึบบน KUB แต่เห็นใน CT (ยกเว้น indinavir)",
-   "Non-contrast CT KUB เป็นการตรวจมาตรฐาน (sensitivity และ specificity ~95–98%) · หญิงตั้งครรภ์และเด็กเริ่มที่ ultrasound · KUB ใช้ติดตามนิ่วที่ทึบรังสี",
-   "เงาที่สับสนกับนิ่วบน KUB: phlebolith, calcified mesenteric node, costal cartilage, vascular calcification, เม็ดยา/อุจจาระ, ถุงน้ำดีที่มีนิ่ว (ขวาบน)",
-   "การรักษาตามขนาด: ≤ 5 mm หลุดเองราว 70–90% · distal ureter 5–10 mm ให้ MET (tamsulosin) · > 10 mm หรือไม่หลุดใน 4–6 สัปดาห์ หรือปวดดื้อยา → URS หรือ ESWL",
-   "ยาแก้ปวด renal colic ตัวแรกคือ NSAIDs (เช่น diclofenac) หรือ paracetamol/metamizole ตาม EAU · opioid เป็นยาลำดับสอง · มีไข้ร่วมกับการอุดกั้นต้องระบายก่อนเสมอ"
+   "<b>นอกสไลด์:</b> แนวท่อไตบน KUB: ปลาย transverse process ของกระดูกสันหลังส่วนเอว → ข้าม sacroiliac joint → โค้งออกด้านข้างในอุ้งเชิงกรานแล้วเข้าหากระเพาะปัสสาวะ · ส่วนต้นอยู่เหนือ SI joint ส่วนกลางทับ SI joint ส่วนปลายต่ำกว่า",
+   "<b>นอกสไลด์:</b> จุดที่นิ่วติดบ่อย: รอยต่อ pelvis–ท่อไต (UPJ) · จุดข้ามหลอดเลือด iliac · รอยต่อท่อไต–กระเพาะปัสสาวะ (UVJ แคบที่สุด)"
   ],
+  "opinion": "เห็นด้วยกับคีย์ A ว่าเป็นนิ่วท่อไตซ้าย · มั่นใจสูงเรื่องโรค — เงาในภาพอยู่เหนือ SI joint จึงเข้ากับท่อไตส่วนต้นมากกว่าส่วนกลาง",
   "variants": [
-   "ผู้ป่วย renal colic ด้านขวา KUB ไม่เห็นเงาทึบ แต่ non-contrast CT พบนิ่ว 7 mm ที่ UVJ และ urine pH 5.0 → นึกถึง uric acid stone ซึ่งละลายได้ด้วย potassium citrate ให้ pH 6.5–7.0",
-   "หญิงตั้งครรภ์ 24 สัปดาห์ ปวดบิดเอวขวาร้าวลงขาหนีบ ปัสสาวะมีเลือด ไม่มีไข้ → ส่ง ultrasound KUB เป็นการตรวจแรก (เลี่ยง CT) และให้ paracetamol แก้ปวด",
-   "ชายอายุ 35 ปี renal colic CT พบนิ่ว 4 mm ที่ distal ureter ไม่มีไข้ creatinine ปกติ → ยาแก้ปวด NSAIDs ดื่มน้ำพอ แล้วติดตามว่านิ่วหลุดภายใน 4–6 สัปดาห์ (โอกาสหลุดเองสูง)"
-  ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ว่าเป็นนิ่วท่อไตซ้าย ความมั่นใจเรื่องโรค ~95% แต่ความมั่นใจเรื่องตำแหน่ง \"mid ureter\" เพียง ~60% · เหตุผล: อาการ renal colic ร้าวลงขาหนีบร่วมกับเงาทึบบนแนวท่อไตซ้ายยืนยันนิ่วท่อไต ช้อยอื่นไม่อธิบายทั้งอาการและภาพ · จุดกำกวม: (1) ผู้จดบอกว่ารูปเป็นภาพที่หามาใกล้เคียง และในรูปที่มีเงานิ่วอยู่ระดับ L3 เหนือ SI joint ซึ่งตามนิยามคือ upper ureter (2) ต้นฉบับมีช้อยแค่ 2 ตัว ช้อย B–E เติมขึ้นใหม่ จึงไม่มีช้อย upper ureteric stone ให้สับสน · ถ้าแก้โจทย์ ควรใช้รูปจริงหรือบรรยายตำแหน่งเงาเทียบกับ SI joint ใน stem"
+   "<b>นอกสไลด์:</b> ปวดแบบ renal colic แต่ KUB ไม่เห็นเงา ปัสสาวะเป็นกรด เป็นเกาต์ → นิ่ว uric acid (โปร่งรังสี): non-contrast CT เห็นได้",
+   "<b>นอกสไลด์:</b> นิ่วติดที่ UVJ ปวดร่วมปัสสาวะบ่อย แสบ ปวดเบ่ง → อาการระคายกระเพาะปัสสาวะ อย่าวินิจฉัยเป็น cystitis"
+  ]
  },
  "MDCU79|RoD|Uro 7": {
+  "interp": "เนื้องอกกระเพาะปัสสาวะตัดผ่านกล้องหมดแล้ว ผล high-grade urothelial carcinoma ไม่ลุกกล้ามเนื้อ (NMIBC ความเสี่ยงสูง) · ถามการรักษาต่อ",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B partial cystectomy — เราตอบ A</b><br><b>นอกสไลด์:</b> NMIBC ชนิด high grade กลับเป็นซ้ำและลุกกล้ามเนื้อได้บ่อย → ให้ BCG เข้ากระเพาะปัสสาวะ (induction แล้ว maintenance) เป็นการรักษามาตรฐาน (EAU NMIBC)",
   "wrong": {
-   "B": "Partial cystectomy เป็นการผ่าตัดสำหรับ <b>muscle-invasive</b> disease ที่คัดเลือกมาก ไม่มีบทบาทใน NMIBC เพราะมะเร็ง urothelium เกิดได้ทั่วกระเพาะ (field change) การตัดเฉพาะส่วนไม่ลดการกลับเป็นซ้ำ — นี่คือช้อยที่เฉลยอย่างย่อตอบ; จะถูกถ้าผู้ป่วย cT2 ก้อนเดียวที่ dome ของกระเพาะปัสสาวะ ไม่มี CIS ที่อื่น ตัดได้ขอบ 2 cm และความจุกระเพาะที่เหลือพอ (หรือก้อนในถุง bladder diverticulum)",
-   "C": "Radical cystectomy ทันทีให้ผลควบคุมโรคดีแต่แลกกับการเสียกระเพาะปัสสาวะและต้องทำ urinary diversion — ใน high-grade NMIBC ทั่วไป BCG ให้ผลดีพอจึงเป็นทางแรก; จะถูกถ้าเป็น very high-risk NMIBC เช่น T1 high grade ร่วมกับ CIS ในกระเพาะและ prostatic urethra มี lymphovascular invasion หรือเป็น micropapillary variant หรือเป็น BCG-unresponsive disease",
-   "D": "Cisplatin-based chemotherapy เป็น systemic therapy สำหรับโรคที่ลุกลามถึงกล้ามเนื้อหรือแพร่กระจาย ไม่ใช่สำหรับ NMIBC ที่ยังอยู่ในชั้นเยื่อบุ และไม่ลดการกลับเป็นซ้ำในกระเพาะ; จะถูกถ้าผู้ป่วยผลพยาธิ cT2–T4a N0 M0 eGFR ≥ 60 สภาพร่างกายดี → neoadjuvant gemcitabine-cisplatin หรือ dd-MVAC ก่อน radical cystectomy (เพิ่ม overall survival ราว 5–8%) และปัจจุบันมีทางเลือก perioperative durvalumab ร่วมกับ gemcitabine-cisplatin ตาม NIAGARA trial",
-   "E": "Surveillance cystoscopy อย่างเดียวหลัง TURBT พอเฉพาะ low-risk NMIBC เท่านั้น — high-grade มีโอกาส progression เป็น muscle-invasive ราว 10–20% ใน 5 ปีถ้าไม่ได้ adjuvant therapy; จะถูกถ้าเป็น primary Ta low-grade ก้อนเดียวขนาด < 3 cm ไม่มี CIS ที่ได้ single immediate intravesical chemotherapy ไปแล้วตั้งแต่วันผ่าตัด และขั้นต่อไปคือนัดส่องกล้องที่ 3 เดือนโดยไม่ต้องให้ยาเพิ่ม"
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งลุกกล้ามเนื้อก้อนเดียวที่ dome ของกระเพาะปัสสาวะ ไม่มี CIS ห่างคอกระเพาะ หรือเป็น urachal adenocarcinoma",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น NMIBC ความเสี่ยงสูงมาก เช่น T1 high grade ร่วม CIS หลายก้อนหรือก้อนใหญ่ มี lymphovascular invasion หรือชนิด variant histology",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งลุกกล้ามเนื้อ (T2) — เคมีบำบัดกลุ่ม cisplatin ก่อน radical cystectomy",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น low-grade Ta ก้อนเดี่ยวเล็ก (ความเสี่ยงต่ำ) หลังให้ยาเคมีเข้ากระเพาะครั้งเดียวหลังผ่าตัด"
   },
-  "trap": "เฉลยอย่างย่อท้ายไฟล์ 79D ตอบ B partial cystectomy ซึ่งขัดกับ EAU NMIBC 2025 และ AUA/SUO 2024 — ฉบับนี้ตอบ A intravesical BCG induction + maintenance · กับดักที่ทำให้เลือก B: คำว่า \"high grade\" ทำให้รู้สึกว่าต้องผ่าตัดเอากระเพาะส่วนนั้นออก แต่โจทย์บอกว่า \"without muscle invasion\" และมะเร็งชนิดนี้เกิดทั่วเยื่อบุ · กับดักที่ทำให้เลือก C: high grade = อันตราย จึงตัดทั้งหมด แต่ cystectomy สงวนไว้ให้ very high risk หรือ BCG ล้มเหลว · กับดักที่ทำให้เลือก D: จำว่ามะเร็งกระเพาะปัสสาวะใช้ cisplatin โดยไม่แยก NMIBC กับ MIBC · ช้อย A ต้นฉบับเขียน \"Immediate intravesical BCG\" ซึ่งผิดถ้าอ่านตามตัว เพราะ BCG ห้ามให้ทันทีหลัง TURBT (รอแผลหาย 2–4 สัปดาห์) ฉบับนี้จึงปรับถ้อยคำ",
-  "variants": [
-   "ผลพยาธิหลัง TURBT ครั้งแรกเป็น T1 high grade แต่ชิ้นเนื้อไม่มี detrusor muscle → re-TURBT ภายใน 2–6 สัปดาห์ก่อนเริ่ม BCG เพราะพบมะเร็งตกค้างได้ราว 30–50% และโอกาสที่จริง ๆ เป็น T2 สูงขึ้นมากเมื่อไม่มีกล้ามเนื้อในชิ้นเนื้อ",
-   "ผู้ป่วยปลูกถ่ายไตกินยากดภูมิคุ้มกัน ผล TURBT เป็น Ta high grade หลายก้อน → BCG เป็นข้อห้ามสัมพัทธ์เพราะเสี่ยง systemic BCG infection ใช้ intravesical gemcitabine-docetaxel หรือ mitomycin C แทน และติดตามด้วย cystoscopy ใกล้ชิด",
-   "ผู้ป่วยได้ intravesical BCG แล้วมีไข้สูงเกิน 39.5°C นานกว่า 48 ชม. หนาวสั่น ความดันต่ำ → สงสัย systemic BCG infection หยุด BCG และให้ isoniazid + rifampicin + ethambutol ± steroid"
-  ],
-  "interp": "ผู้ป่วยก้อนในกระเพาะปัสสาวะ ทำ TURBT ครบแล้ว ผลเป็น <b>high-grade</b> urothelial carcinoma ที่<b>ไม่ลุกลามถึงกล้ามเนื้อ</b> (NMIBC) → ถามการรักษาเสริมหลัง TURBT · ต้องจัด risk group: T1 high grade หรือ CIS = high risk · Ta high grade ขึ้นกับขนาด จำนวนก้อน และ risk factor (ก้อนเดียวเล็กอาจเป็น intermediate) · ทั้ง intermediate และ high risk ได้ประโยชน์จาก BCG ส่วน muscle-invasive จะเปลี่ยนเป็นอีกแนวทางหนึ่งทั้งหมด",
-  "why": "BCG ที่ใส่เข้ากระเพาะปัสสาวะกระตุ้นปฏิกิริยาภูมิคุ้มกันเฉพาะที่ (T cell, cytokine) ทำลายเซลล์มะเร็งที่เหลือและ CIS ที่มองไม่เห็น เป็นการรักษาเสริมเพียงอย่างเดียวที่ลดทั้ง<b>การกลับเป็นซ้ำ</b>และ<b>การลุกลามเป็น muscle-invasive</b> ใน high-grade NMIBC (intravesical chemotherapy ลดได้แค่การกลับเป็นซ้ำ) · EAU NMIBC 2025 และ AUA/SUO 2024: high-risk NMIBC (T1 HG, CIS, และ Ta HG ที่มีปัจจัยเสี่ยงตามเกณฑ์ของแต่ละแนวทาง) → re-TURBT ใน 2–6 สัปดาห์ถ้าเป็น T1 หรือชิ้นเนื้อไม่มี detrusor muscle → BCG induction สัปดาห์ละครั้ง 6 สัปดาห์ แล้ว maintenance (SWOG schedule) นาน 1–3 ปี · เริ่ม BCG เมื่อแผลหายราว 2–4 สัปดาห์หลัง TURBT ไม่ให้ทันทีหรือเมื่อมี gross hematuria เพราะเสี่ยง systemic BCG infection · ส่วน radical cystectomy สงวนไว้ให้ very high risk หรือ BCG-unresponsive · เฉลยอย่างย่อในไฟล์ตอบ B แต่ฉบับนี้ตอบ A ตาม guideline (ดู trap และ opinion)",
+  "trap": "จะบอกว่า \"ไม่ลุกกล้ามเนื้อ\" ได้ ชิ้นเนื้อต้องมีกล้ามเนื้อ detrusor — T1 high grade หรือชิ้นเนื้อไม่มีกล้ามเนื้อต้องตัดซ้ำ (re-TURBT) ใน 2–6 สัปดาห์ก่อนให้ BCG",
   "summary": [
-   "Urothelial carcinoma ราว 90% ของมะเร็งกระเพาะปัสสาวะ · ปัจจัยเสี่ยง: บุหรี่ (สำคัญสุด), aromatic amines จากงานสีย้อมและยาง, cyclophosphamide, ฉายรังสีอุ้งเชิงกราน · squamous cell carcinoma สัมพันธ์กับ schistosomiasis และสายสวนคาเรื้อรัง",
-   "ราว 75% ตอนวินิจฉัยเป็น NMIBC (Ta ~70%, T1 ~20%, CIS ~10%) · CIS เป็นรอยโรคแบนที่ high grade เสมอ มักมาด้วย irritative voiding symptoms และ urine cytology บวก",
-   "EAU risk groups (ตั้งแต่ 2021): low = Ta LG ก้อนเดียวเล็กไม่มีปัจจัยเสี่ยง · high = T1 HG, CIS, หรือ Ta HG ที่มีปัจจัยเสี่ยง ≥ 2 ข้อ (อายุ > 70, หลายก้อน, ก้อน ≥ 3 cm) · intermediate = กลุ่มที่เหลือ · very high = T1 HG ร่วม CIS ใน prostatic urethra, LVI, variant histology ฯลฯ · AUA/SUO 2024 ใช้เกณฑ์ต่างเล็กน้อย (เช่น Ta HG ก้อนเดียว ≤ 3 cm = intermediate)",
-   "ข้อห้ามแบบเด็ดขาดของ intravesical BCG: ภายใน 2 สัปดาห์หลัง TURBT, gross hematuria, การใส่สายที่บาดเจ็บ, UTI ที่มีอาการ · ข้อห้ามสัมพัทธ์: ภูมิคุ้มกันบกพร่อง (เช่นหลังปลูกถ่ายอวัยวะ, ได้ยากดภูมิ) ซึ่งต้องชั่งประโยชน์กับความเสี่ยง · ผลข้างเคียงพบบ่อยคือ cystitis และไข้ต่ำ ๆ ใน 48 ชม.",
-   "ช่วงขาดแคลน BCG: ให้ high-risk ได้ก่อน ลดขนาด (1/3 dose) หรือลดรอบ maintenance · ใช้ intravesical gemcitabine-docetaxel หรือ mitomycin C แทนใน intermediate risk",
-   "Surveillance หลังรักษา NMIBC: cystoscopy ครั้งแรกที่ 3 เดือน (ผลนี้ทำนายโรคได้ดี) · high risk ส่องทุก 3 เดือนใน 2 ปีแรก แล้วทุก 6 เดือนจนครบ 5 ปี แล้วปีละครั้ง ร่วมกับ urine cytology และ CT urography ประเมิน upper tract เป็นระยะ",
-   "MIBC (≥ T2): neoadjuvant cisplatin-based chemotherapy + radical cystectomy + pelvic lymphadenectomy + urinary diversion (ileal conduit หรือ neobladder) หรือ trimodality therapy (TURBT สูงสุด + chemoradiation) เพื่อเก็บกระเพาะในผู้ป่วยที่คัดเลือก"
+   "<b>นอกสไลด์:</b> BCG: induction สัปดาห์ละครั้ง 6 ครั้ง แล้ว maintenance 1–3 ปี (ความเสี่ยงสูง 3 ปี) · ข้อห้ามเด็ดขาด: ภายใน 2 สัปดาห์หลัง TURBT, ปัสสาวะเป็นเลือดมองเห็น, สวนสายแล้วบาดเจ็บ, UTI ที่มีอาการ"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ B (partial cystectomy ในเฉลยอย่างย่อท้ายไฟล์โจทย์ 79D หน้า 36) — คง A intravesical BCG induction + maintenance ความมั่นใจสูง ~90% · เหตุผล: partial cystectomy ไม่มีที่ใช้ใน NMIBC ตาม EAU NMIBC 2025 และ AUA/SUO 2024 คีย์น่าจะจดผิดหรือสับสนกับโจทย์ MIBC ก้อนเดียวที่ dome · จุดกำกวม: (1) ช้อยต้นฉบับเขียน \"Immediate intravesical BCG\" ซึ่งถ้าอ่านตามตัวผิด เพราะ BCG ห้ามให้ทันทีหลัง TURBT ฉบับนี้จึงตัดคำว่า immediate ออก (2) โจทย์ไม่บอกว่าเป็น Ta, T1 หรือ CIS ถ้าเป็น T1 ขั้นถัดไปจริงคือ re-TURBT ซึ่งไม่มีในช้อย (3) ถ้าเป็น Ta HG ก้อนเดียวเล็ก บางแนวทางจัดเป็น intermediate ซึ่งยังใช้ BCG ได้ คำตอบจึงไม่เปลี่ยน · ถ้าแก้โจทย์ควรระบุ \"T1 high grade, muscle present in the specimen, re-resection negative\" เพื่อให้ BCG เป็นคำตอบเดียวชัด"
+  "opinion": "ไม่เห็นด้วยกับคีย์ B (เฉลยย่อหน้า 36) — partial cystectomy ไม่ใช้กับ NMIBC · ตอบ A · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> ได้ BCG ครบแล้ว 6 เดือนกลับเป็น high grade ซ้ำ (BCG-unresponsive) → radical cystectomy",
+   "<b>นอกสไลด์:</b> หลังให้ BCG มีไข้สูงหนาวสั่นไม่ดีขึ้นใน 48 ชม. → BCG sepsis: หยุด BCG ให้ยาวัณโรคร่วมกับ steroid"
+  ]
  },
  "MDCU79|RoD|Uro 8": {
+  "interp": "ปัสสาวะเป็นเลือดเป็นพัก ๆ น้ำหนักลด + ก้อนเนื้อทึบในไตและภาพ CT · ถามการวินิจฉัย",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A RCC</b><br><b>นอกสไลด์:</b> CT ฉีดสีเห็นก้อนที่ไตขวา (ลูกศร) จับสีไม่สม่ำเสมอ ตรงกลางเป็นเนื้อตายสีจาง → renal cell carcinoma (ชนิด clear cell มีหลอดเลือดมาก)",
   "wrong": {
-   "B": "Urothelial carcinoma ของ renal pelvis เกิดในเยื่อบุ collecting system เห็นเป็น filling defect ใน excretory phase ของ CT urography หรือก้อนในไซนัสไตที่ enhance น้อยและรักษารูปร่างไต (ไม่ดันไตโป่งออก) — โจทย์เป็น solid mass ในเนื้อไต; จะถูกถ้าชายสูบบุหรี่จัดมี gross hematuria CT urography เห็น filling defect ใน renal pelvis urine cytology พบ high-grade cells และ ureteroscopic biopsy ยืนยัน",
-   "C": "Angiomyolipoma เป็นก้อน benign ที่มี macroscopic fat (HU ติดลบ เช่น −30 ถึง −100) ในก้อน สัมพันธ์กับ tuberous sclerosis และเสี่ยงเลือดออกเองเมื่อ > 4 cm — ก้อนในโจทย์เป็น solid ที่ไม่มีไขมันร่วมกับน้ำหนักลด; จะถูกถ้าหญิงวัยกลางคนไม่มีอาการ ถ่าย CT ด้วยเหตุอื่นพบก้อน 2 cm ในไตที่มีบริเวณ HU −50 ชัดเจน (ติดตามด้วย imaging ได้)",
-   "D": "Complicated renal cyst เป็น cystic lesion ที่มีผนังหนา septa หรือหินปูน (Bosniak II–IV) — โจทย์ระบุว่าเป็น solid mass ซึ่งต่างโดยพื้นฐาน; จะถูกถ้า CT พบถุงน้ำในไตที่มี septa บางไม่กี่เส้นและหินปูนเล็กน้อยที่ผนัง ไม่ enhance ชัด (Bosniak II) ในผู้ป่วยที่ไม่มีอาการ ซึ่งไม่ต้องติดตามหรือผ่าตัด",
-   "E": "Xanthogranulomatous pyelonephritis เป็นการติดเชื้อเรื้อรังที่ทำลายเนื้อไตจนเต็มไปด้วย lipid-laden macrophage มักมี staghorn stone ไตโตไม่ทำงาน และ calyces โป่งรอบนิ่ว (bear-paw sign) — อาการเด่นคือ UTI เรื้อรัง ไข้ ไม่ใช่ solid enhancing tumor; จะถูกถ้าหญิงอายุ 50 ปี UTI จาก Proteus ซ้ำหลายปี ไข้ต่ำ ๆ น้ำหนักลด CT เห็นไตซ้ายโต staghorn stone และ calyces โป่งหลายช่อง"
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่ใน renal pelvis เห็นเป็นรอยบกพร่องของสารทึบรังสีใน CT urography โดยเนื้อไตยังรูปร่างปกติ",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนมีไขมัน (ค่า HU ติดลบ) ในหญิงหรือผู้ป่วย tuberous sclerosis",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นถุงน้ำผนังบาง มี septum หรือหินปูนเล็กน้อย ไม่มีส่วนเนื้อที่จับสี",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นหญิงวัยกลางคนติดเชื้อทางเดินปัสสาวะเรื้อรังร่วมนิ่ว staghorn ไตโตไม่ทำงาน มีโพรงหลายโพรงรอบนิ่ว"
   },
-  "trap": "ช้อย B ล่อเพราะ gross hematuria ทำให้นึกถึงมะเร็ง urothelium ก่อน — ให้ดูตำแหน่งก้อน: เนื้อไต (parenchyma) ที่ดันรูปไตโป่ง = RCC ส่วนก้อนใน collecting system ที่เป็น filling defect = urothelial · ช้อย E ล่อเพราะ XGP ทำให้น้ำหนักลดและดูเหมือนก้อนเนื้องอกได้ (\"great imitator\") แต่ต้องมีประวัติติดเชื้อเรื้อรังและ staghorn · ช้อย C ล่อคนที่จำว่า AML ทำให้เลือดออกในไต — แยกด้วยไขมันในก้อน · ช้อย D ล่อถ้าไม่ได้สังเกตคำว่า solid · โจทย์นี้ผู้จดบอกว่ารูปในไฟล์ตรงกับข้อสอบจริง จึงควรเปิดดูรูปประกอบ",
+  "trap": "triad ปัสสาวะเป็นเลือด–ก้อนที่เอว–ปวดเอว พบครบเพียงส่วนน้อย — RCC ส่วนใหญ่พบโดยบังเอิญจากการตรวจภาพ",
   "summary": [
-   "Renal cell carcinoma ราว 2–3% ของมะเร็งผู้ใหญ่ · ชนิด: clear cell ~75% (VHL gene, enhance แรงแบบ heterogeneous), papillary ~10–15% (enhance น้อย), chromophobe ~5% (พยากรณ์ดี) · ส่วนใหญ่พบโดยบังเอิญจาก imaging",
-   "ปัจจัยเสี่ยง: บุหรี่, อ้วน, ความดันสูง, ESRD/acquired cystic kidney disease, von Hippel–Lindau (clear cell หลายก้อนทั้งสองข้างในคนอายุน้อย), tuberous sclerosis, BHD syndrome",
-   "Paraneoplastic: polycythemia (EPO), hypercalcemia (PTHrP), ความดันสูง (renin), Stauffer syndrome (LFT ผิดปกติโดยไม่มี liver metastasis), ไข้ น้ำหนักลด · left varicocele ที่ไม่ยุบเมื่อนอนบ่งว่ามี tumor thrombus ใน left renal vein",
-   "CT 3–4 phase: solid mass ที่ enhance ≥ 15–20 HU โดยไม่มี macroscopic fat ถือเป็น RCC จนกว่าพิสูจน์ได้ · ดู tumor thrombus ใน renal vein/IVC และ staging ด้วย CT chest · ส่วนใหญ่ไม่ต้อง biopsy ก่อนผ่าตัด (biopsy ใช้ก่อน ablation/surveillance หรือสงสัย lymphoma/metastasis)",
-   "Localized: T1a (≤ 4 cm) → partial nephrectomy มาตรฐาน · T1b–T2 → partial ถ้าทำได้ หรือ radical nephrectomy · T3 ที่มี IVC thrombus → radical nephrectomy + thrombectomy · ผู้สูงอายุโรคร่วมมากก้อนเล็ก → active surveillance หรือ ablation",
-   "Metastatic: ปอด (cannonball), กระดูก (osteolytic), ตับ, สมอง · ดื้อเคมีบำบัดและรังสีแบบเดิม → immunotherapy combination (เช่น pembrolizumab + axitinib, nivolumab + ipilimumab) ตาม IMDC risk · adjuvant pembrolizumab ในราย high risk หลังผ่าตัด"
+   "<b>นอกสไลด์:</b> RCC: clear cell พบมากสุด (จับสีมากช่วงหลอดเลือดแดง ข้างในเนื้อตายหรือเลือดออก) · ลามเข้า renal vein และ IVC ได้ · paraneoplastic: เม็ดเลือดแดงมาก (EPO), แคลเซียมสูง (PTHrP), ความดันสูง (renin), ตับทำงานผิดปกติโดยไม่มีการแพร่กระจาย (Stauffer)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูง ~90% — solid mass ในเนื้อไตร่วมกับ hematuria และน้ำหนักลด เป็นภาพของ RCC ที่ชัดที่สุด และผู้จดยืนยันว่ารูปในไฟล์ตรงกับข้อสอบจริง · จุดกำกวม: stem บอกเพียง \"solid renal mass\" แต่ไม่บอกว่ามีไขมันหรือไม่ และไม่บอก phase ของ CT ทำให้ผู้สอบต้องพึ่งรูปอย่างเดียว ถ้ารูปไม่ชัด ช้อย B ก็ยังเป็นไปได้ · ถ้าแก้โจทย์ ควรเติมว่า \"heterogeneously enhancing mass arising from the renal cortex without fat\" เพื่อให้แยกจาก AML และ urothelial carcinoma ได้จากตัวโจทย์",
+  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "หญิงอายุ 35 ปี tuberous sclerosis CT ไตทั้งสองข้างมีก้อนที่มีไขมันหลายก้อน ใหญ่สุด 6 cm ไม่มีอาการ → angiomyolipoma ที่เสี่ยงเลือดออก ให้ everolimus หรือ selective arterial embolization ป้องกัน",
-   "ชายอายุ 82 ปี โรคหัวใจและปอดรุนแรง CT พบ solid renal mass 2.5 cm โดยบังเอิญ → active surveillance (ทางเลือก biopsy แล้ว thermal ablation) เพราะก้อนเล็กโตช้าและความเสี่ยงจากผ่าตัดสูงกว่า",
-   "ชายอายุ 58 ปี RCC ข้างขวา 9 cm CT เห็น tumor thrombus ใน IVC ถึงระดับใต้ตับ ไม่มี metastasis → radical nephrectomy ร่วมกับ IVC thrombectomy (ยังผ่าตัดหายขาดได้)"
+   "<b>นอกสไลด์:</b> ชายมีก้อนไตซ้ายร่วม varicocele ซ้ายเกิดใหม่ที่ไม่ยุบเมื่อนอนราบ → ก้อนลามอุด left renal vein",
+   "<b>นอกสไลด์:</b> ก้อนไตหลายก้อนทั้งสองข้าง ร่วม hemangioblastoma ในสมองน้อยและจอตา → von Hippel–Lindau syndrome"
   ]
  },
  "MDCU79|RoD|Uro 9": {
-  "why": "Neisseria gonorrhoeae เป็น gram-negative diplococcus รูปเมล็ดถั่วคู่ที่ถูก neutrophil กินเข้าไป — ในชายที่มีอาการ urethritis การเห็น <b>gram-negative intracellular diplococci</b> ใน PMN จาก urethral discharge มี sensitivity ราว 90–95% และ specificity > 95% จึงวินิจฉัยได้ทันทีที่ข้างเตียง · ภาพคลินิกเข้ากันทั้งหมด: ระยะฟักตัวสั้น 2–7 วัน หนองข้นเหลืองเขียวปริมาณมาก ปัสสาวะแสบ (ต่างจาก non-gonococcal urethritis ที่ฟักตัวนานกว่าและหนองใส) · ยืนยันและตรวจ co-infection ด้วย NAAT จากปัสสาวะ first-void · รักษาตาม CDC STI Guidelines 2021: ceftriaxone 500 mg IM ครั้งเดียว (น้ำหนัก ≥ 150 kg ให้ 1 g) และถ้ายังไม่ได้ตัด chlamydia ให้ doxycycline 100 mg วันละ 2 ครั้ง 7 วันร่วมด้วย (เพราะพบร่วมกันบ่อย) · งดเพศสัมพันธ์ 7 วันหลังรักษาและจนคู่นอนได้รับการรักษา · ตรวจ HIV และ syphilis · ตรวจซ้ำที่ 3 เดือน (reinfection สูง) · ตรงกับคีย์ A ในเฉลยอย่างย่อหน้า 36",
+  "interp": "ชายหนุ่มมีหนองจากท่อปัสสาวะและแสบขัด 3 วันหลังมีเพศสัมพันธ์ไม่ป้องกัน · Gram stain พบ gram-negative diplococci · ถามการวินิจฉัย",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Gonococcal urethritis</b><br><b>นอกสไลด์:</b> gram-negative diplococci (มักอยู่ในเม็ดเลือดขาว) ในหนองจากท่อปัสสาวะของชายที่มีอาการ = หนองใน (Neisseria gonorrhoeae) ไวและจำเพาะสูงในชาย · ระยะฟักตัวสั้นและหนองข้นมากก็เข้ากัน",
   "wrong": {
-   "B": "Chlamydia trachomatis เป็นสาเหตุที่พบบ่อยที่สุดของ non-gonococcal urethritis แต่เป็น obligate intracellular bacteria ที่ไม่ติดสี Gram จึงเห็นเพียง PMN ไม่เห็นเชื้อ หนองมักใสและน้อย ระยะฟักตัว 1–3 สัปดาห์ — ไม่ตรงกับภาพ diplococci ในโจทย์; จะถูกถ้าชายมีหนองใสเล็กน้อยกับแสบขัดเล็กน้อย Gram stain พบ WBC ≥ 2 ต่อ oil immersion field แต่ไม่พบ diplococci และ NAAT ปัสสาวะ first-void ให้ผลบวก C. trachomatis",
-   "C": "Ureaplasma urealyticum เป็น mycoplasma ที่ไม่มีผนังเซลล์ ไม่ติดสี Gram และพบเป็นเชื้อประจำถิ่นในทางเดินปัสสาวะของคนปกติจำนวนมาก บทบาทในการก่อ NGU ยังไม่ชัด CDC ไม่แนะนำให้ตรวจเป็นประจำ; จะถูก (ในฐานะสาเหตุที่เป็นไปได้) ถ้าชายมี NGU เรื้อรังที่ตรวจ NAAT ของ gonorrhea, chlamydia, M. genitalium และ trichomonas ลบทั้งหมด แต่ PCR พบ U. urealyticum ปริมาณสูง",
-   "D": "Trichomonas vaginalis เป็น protozoa มีแส้ วินิจฉัยด้วย wet mount (เห็นตัวเคลื่อนที่) หรือ NAAT ไม่ใช่ diplococci และในชายส่วนใหญ่ไม่มีอาการหรือมี urethritis เล็กน้อย; จะถูกถ้าชายเป็นคู่นอนของหญิงที่มีตกขาวเขียวเป็นฟองกลิ่นเหม็นและ strawberry cervix แล้ว NAAT ของชายให้ผลบวก T. vaginalis → metronidazole 2 g ครั้งเดียว (CDC 2021 สำหรับผู้ชาย)",
-   "E": "Acute bacterial prostatitis เป็นการติดเชื้อเนื้อต่อมลูกหมาก ส่วนใหญ่จาก E. coli และ enteric gram-negative bacilli มาด้วยไข้สูงหนาวสั่น ปวด perineum ปัสสาวะลำบากหรือ retention ไม่ใช่หนองไหลจาก urethra; จะถูกถ้าชายอายุ 55 ปีมีไข้ 39.5°C หนาวสั่น ปวดฝีเย็บ ปัสสาวะไม่ออก DRE พบต่อมบวมกดเจ็บมาก (ห้ามนวดต่อม) และ urine culture ขึ้น E. coli"
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าน้ำใสหรือขุ่นเล็กน้อย อาการค่อยเป็นค่อยไป Gram stain มีเม็ดเลือดขาวแต่ไม่พบ diplococci และ NAAT chlamydia บวก",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น nongonococcal urethritis ที่ NAAT gonorrhea และ chlamydia ลบ และตรวจพบ Ureaplasma urealyticum จำนวนมาก",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าคู่นอนหญิงมีตกขาวเป็นฟองสีเขียวเหลือง และ NAAT หรือ wet mount พบ trichomonad",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามีไข้หนาวสั่น ปวดฝีเย็บ ปัสสาวะลำบาก และต่อมลูกหมากบวมกดเจ็บมาก"
   },
-  "trap": "ช้อย B ดึงดูดเพราะ chlamydia เป็น STI ที่พบบ่อยที่สุดและมักมาร่วมกับ gonorrhea — แต่ Gram stain จะไม่เห็นเชื้อ ถ้าเห็น diplococci ให้ตอบ gonococcal เสมอ (และรักษา chlamydia ร่วมเพราะพบร่วมได้ราว 20–40%) · ช้อย E ล่อเพราะมีอาการปัสสาวะแสบ แต่ prostatitis ไม่มีหนองจาก urethra และมีไข้สูงกับต่อมกดเจ็บ · ช้อย D ล่อเพราะ trichomonas เป็นเชื้อ STI แต่เป็น protozoa · จุดที่ควรระวังอีกจุด: ยาตาม guideline เดิมคือ ceftriaxone 250 mg + azithromycin 1 g แต่ CDC 2021 เปลี่ยนเป็น ceftriaxone 500 mg และใช้ doxycycline แทน azithromycin เพราะเชื้อดื้อ azithromycin เพิ่มขึ้น",
+  "trap": "Gram stain พบ diplococci ในชายมีอาการวินิจฉัยได้เลย แต่ Gram stain ลบในหญิง (ปากมดลูก) ไม่ได้ตัดหนองใน — ต้องใช้ NAAT",
   "summary": [
-   "Urethritis ในชายแบ่งเป็น gonococcal (GU) และ non-gonococcal (NGU): GU ฟักตัว 2–7 วัน หนองข้นมาก · NGU ฟักตัว 1–3 สัปดาห์ หนองใสน้อย สาเหตุ chlamydia (~15–40%), M. genitalium (~15–25%), trichomonas, adenovirus, HSV",
-   "เกณฑ์วินิจฉัย urethritis (CDC 2021): มีหนองจาก urethra หรือ Gram stain WBC ≥ 2 ต่อ oil field หรือ first-void urine leukocyte esterase บวก หรือ ≥ 10 WBC/HPF · ทุกรายส่ง NAAT GC และ CT",
-   "การรักษา: gonorrhea → ceftriaxone 500 mg IM ครั้งเดียว · chlamydia → doxycycline 100 mg bid 7 วัน (azithromycin 1 g เป็นทางเลือก เช่นในหญิงตั้งครรภ์) · M. genitalium → doxycycline 7 วันตามด้วย moxifloxacin 7 วัน",
-   "Pharyngeal gonorrhea ต้อง test of cure 7–14 วันหลังรักษา · urogenital ไม่ต้อง test of cure แต่ตรวจซ้ำที่ 3 เดือนเพราะ reinfection สูง · NAAT ซ้ำเร็วกว่า 3 สัปดาห์ให้ผลบวกจาก DNA ที่ตายแล้วได้",
-   "ภาวะแทรกซ้อน: epididymitis (ชายอายุ < 35 ปีจาก GC/CT → ceftriaxone + doxycycline 10 วัน · insertive anal sex เพิ่ม enteric organisms → ceftriaxone + levofloxacin), urethral stricture ระยะยาว, disseminated gonococcal infection (arthritis-dermatitis, tenosynovitis)",
-   "ในหญิง gonorrhea และ chlamydia มักไม่มีอาการ แต่ทำให้ PID, ectopic pregnancy และมีบุตรยาก — จึงต้องแจ้งและรักษาคู่นอนในช่วง 60 วันก่อนมีอาการ (expedited partner therapy ถ้ากฎหมายอนุญาต)",
-   "ทุกรายที่เป็น STI ตรวจ HIV, syphilis, hepatitis B และพิจารณา HIV PrEP ในผู้ที่มีความเสี่ยงต่อเนื่อง"
+   "<b>นอกสไลด์:</b> urethritis: หนองใน — ระยะฟักตัวสั้น (2–7 วัน) หนองข้นมาก · nongonococcal (chlamydia, Mycoplasma genitalium, Trichomonas) — ระยะฟักตัวนานกว่า น้ำใสหรือขุ่นเล็กน้อย · ทุกรายส่ง NAAT ทั้ง gonorrhea และ chlamydia"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูงมาก ~98% — gram-negative diplococci ใน urethral discharge ของชายที่มีอาการเป็น pathognomonic ของ gonorrhea · จุดที่โจทย์อาจปรับ: stem ไม่ได้ระบุว่าเป็น \"intracellular\" diplococci ซึ่งเป็นรายละเอียดที่ทำให้ specificity สูง (diplococci นอกเซลล์อาจเป็น Neisseria ประจำถิ่นได้ในตัวอย่างจากหญิงหรือคอ) · ถ้าต้องการให้ข้อนี้ยากขึ้น ควรถามการรักษาแทนการวินิจฉัย เพราะจะวัดได้ว่ารู้ CDC 2021 ที่เปลี่ยนขนาด ceftriaxone และเลิกใช้ azithromycin เป็นยาคู่หรือไม่"
+  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> ทารกอายุ 3 วัน ตาบวมแดง หนองไหลมาก → gonococcal ophthalmia neonatorum: ceftriaxone",
+   "<b>นอกสไลด์:</b> หญิงคู่นอนของผู้ป่วยหนองใน ปวดท้องน้อย ไข้ โยกปากมดลูกเจ็บ → pelvic inflammatory disease"
+  ]
  },
  "MDCU79|RoD|Uro 10": {
-  "interp": "หญิงอายุ 58 ปี + <b>เบาหวาน</b> (ปัจจัยเสี่ยงหลัก เพราะน้ำตาลในเนื้อเยื่อสูงเป็นอาหารให้เชื้อหมักเกิดแก๊ส) + ไข้สูง ปวดสีข้าง = acute pyelonephritis ที่รุนแรง · CT พบ <b>แก๊สอยู่ในเนื้อไต (renal parenchyma)</b> ซึ่งเป็นคำสำคัญที่สุดของโจทย์ เพราะตำแหน่งของแก๊สเป็นตัวแยกชื่อโรคกลุ่ม emphysematous infection → ถามการวินิจฉัย",
+  "interp": "หญิงเบาหวานไข้สูง ปวดเอว CT พบลมในเนื้อไต · ถามการวินิจฉัย",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Emphysematous pyelonephritis</b><br><b>นอกสไลด์:</b> ลมใน \"เนื้อไต\" จากเชื้อที่สร้างก๊าซ (E. coli, Klebsiella) ในผู้ป่วยเบาหวานที่คุมน้ำตาลไม่ดี = emphysematous pyelonephritis ซึ่งเป็นการติดเชื้อเนื้อตายรุนแรง",
   "wrong": {
-   "B": "Emphysematous pyelitis คือแก๊สอยู่เฉพาะใน collecting system (renal pelvis และ calyces) ไม่เข้าเนื้อไต มักเกิดร่วมกับการอุดกั้นจากนิ่ว และพยากรณ์ดีกว่า EPN มาก (Huang–Tseng class 1) — โจทย์ระบุว่าแก๊สอยู่ในเนื้อไต; จะถูกถ้าผู้ป่วยเบาหวานมีไข้ร่วมกับนิ่วอุดท่อไต และ CT เห็นระดับแก๊สใน renal pelvis ที่โป่ง แต่เนื้อไตรอบ ๆ ไม่มีแก๊ส → ระบายด้วย DJ stent หรือ PCN ร่วม antibiotic",
-   "C": "Emphysematous cystitis คือแก๊สในผนังหรือในโพรงกระเพาะปัสสาวะ อาการเด่นเป็นปวดท้องน้อย ปัสสาวะขุ่นหรือเป็นเลือด และ pneumaturia ไม่ใช่ปวดสีข้างกับแก๊สในไต; จะถูกถ้าหญิงสูงอายุเบาหวานคุมไม่ดีปวดท้องน้อย ปัสสาวะมีลมออก KUB เห็นแก๊สเป็นวงล้อมรอบเงากระเพาะปัสสาวะ → antibiotic + คาสายสวนระบาย ส่วนใหญ่ไม่ต้องผ่าตัด",
-   "D": "Xanthogranulomatous pyelonephritis เป็น chronic granulomatous infection ที่เนื้อไตถูกแทนด้วย lipid-laden (foamy) macrophage มักมี staghorn stone ไตโตไม่ทำงาน ดำเนินโรคเป็นเดือน — ไม่มีแก๊สกระจายในเนื้อไตแบบเฉียบพลัน; จะถูกถ้าหญิงวัยกลางคนมี UTI จาก Proteus ซ้ำหลายปี น้ำหนักลด ซีด CT เห็นไตโต staghorn และ calyces โป่งรอบนิ่ว (bear-paw sign) ซึ่งรักษาด้วย nephrectomy",
-   "E": "Renal abscess เป็นโพรงหนองขอบเขตชัดที่ผนัง enhance (rim enhancement) ในเนื้อไต มักเกิดจาก pyelonephritis ที่ไม่ตอบยาหรือแพร่ทางเลือดจาก S. aureus — แก๊สอาจพบได้บ้างแต่อยู่ในโพรง ไม่ใช่กระจายแทรกเนื้อไต; จะถูกถ้าผู้ป่วยไข้ไม่ลงหลัง IV antibiotic 72 ชม. แล้ว CT เห็นโพรงน้ำ 5 cm ขอบ enhance ในเนื้อไต → percutaneous drainage ร่วม antibiotic"
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าลมอยู่เฉพาะในระบบเก็บปัสสาวะ (pelvicalyceal system) ไม่อยู่ในเนื้อไต",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าลมอยู่ในผนังและในโพรงกระเพาะปัสสาวะ โดยไตปกติ",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าไตโตไม่ทำงานจากการติดเชื้อเรื้อรังรอบนิ่ว staghorn มีโพรงหลายโพรงแต่ไม่มีลม",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้า CT เห็นโพรงน้ำขอบจับสีในเนื้อไตโดยไม่มีลม ในผู้ป่วยที่ไข้ไม่ลงหลังรักษา pyelonephritis"
   },
-  "trap": "หัวใจของข้อนี้คือ \"แก๊สอยู่ที่ไหน\" — ช้อย B (pyelitis) ล่อเพราะชื่อคล้ายและเป็นแก๊สในไตเหมือนกัน แต่แก๊สอยู่แค่ใน collecting system · ช้อย C (cystitis) ล่อคนที่ได้ยินคำว่า emphysematous แล้วนึกถึงชนิดที่พบบ่อยที่สุด (emphysematous cystitis พบบ่อยกว่า EPN) · ช้อย E ล่อเพราะ renal abscess ก็มีแก๊สได้ — แยกด้วยลักษณะเป็นโพรงขอบชัดกับ rim enhancement · ช้อย D ล่อเพราะผู้ป่วยหญิงวัยกลางคนเหมือนโปรไฟล์ XGP แต่ XGP เป็นโรคเรื้อรังที่ไม่มีแก๊ส · จำแบบสั้น: parenchyma = pyelonephritis, collecting system = pyelitis, bladder = cystitis",
+  "trap": "อาการตอนแรกคล้าย pyelonephritis ธรรมดา — ผู้ป่วยเบาหวานที่ไม่ดีขึ้นใน 48–72 ชม. ต้อง CT หาลม ฝี หรือการอุดกั้น",
   "summary": [
-   "Emphysematous pyelonephritis (EPN): พบในหญิงมากกว่าชายราว 6 เท่า อายุเฉลี่ย 50–60 ปี · ปัจจัยเสี่ยงนอกจากเบาหวาน: การอุดกั้น (นิ่ว papillary necrosis), ภูมิคุ้มกันต่ำ, polycystic kidney · ข้างซ้ายพบบ่อยกว่าเล็กน้อย",
-   "KUB เห็นแก๊สเป็นจุดหรือเป็นเส้นตามรูปไตได้ราว 1 ใน 3 · ultrasound เห็นเงาสะท้อนแรงพร้อม dirty shadowing แต่แยกยาก · CT non-contrast หรือ contrast เป็นการตรวจหลัก",
-   "CT เป็นการตรวจหลักในการวินิจฉัยและจัดกลุ่ม · Huang–Tseng 2000: class 1 แก๊สใน collecting system · 2 แก๊สในเนื้อไตไม่ลามออก · 3A ลามถึง perinephric space · 3B ลามถึง pararenal space · 4 เป็นทั้งสองข้างหรือในไตข้างเดียว",
-   "ปัจจัยพยากรณ์แย่: thrombocytopenia, AKI, ความรู้สึกตัวเปลี่ยน, shock · class 1–2 และ class 3–4 ที่มีปัจจัยเสี่ยงน้อยกว่า 2 ข้อ → IV antibiotic + percutaneous catheter drainage (± ระบายการอุดกั้น) · class 3–4 ที่มีปัจจัยเสี่ยง ≥ 2 ข้อหรือระบายไม่ได้ผล → nephrectomy",
-   "การดูแลร่วม: resuscitation ตาม sepsis bundle, คุมน้ำตาลด้วย insulin, IV antibiotic ครอบคลุม gram-negative (ceftriaxone หรือ carbapenem ถ้าเสี่ยง ESBL), แก้การอุดกั้นถ้ามี · อัตราตายรวมลดจากราว 40% (ยุค nephrectomy ทุกราย) เหลือราว 10–20% ด้วยการรักษาแบบ drainage",
-   "Emphysematous cystitis พบบ่อยกว่า EPN และพยากรณ์ดี รักษาด้วย antibiotic + bladder drainage ส่วนใหญ่ไม่ต้องผ่าตัด · ต้องแยกจาก colovesical fistula (diverticulitis, มะเร็ง) ที่ทำให้ pneumaturia เช่นกัน"
+   "<b>นอกสไลด์:</b> Huang–Tseng: class 1 ลมในระบบเก็บปัสสาวะ · 2 ลมในเนื้อไต · 3 ลมลามรอบไต (3A perinephric, 3B pararenal) · 4 เป็นสองข้างหรือในไตข้างเดียว",
+   "<b>นอกสไลด์:</b> รักษา: คุมน้ำตาล ยาฉีด และระบาย (PCN หรือ DJ ถ้าอุดกั้น) — ส่วนใหญ่ไม่ต้องตัดไต"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูงมาก ~98% — ผู้จดระบุว่า \"ตรง AC\" และคำว่า gas ใน renal parenchyma ในผู้ป่วยเบาหวานเป็นนิยามของ EPN โดยตรง · จุดที่ควรรู้: ไฟล์ไม่มีรูป CT จริง (เขียนเป็นข้อความแทน) ถ้าข้อสอบจริงให้รูปมา ต้องดูว่าแก๊สอยู่ในเนื้อไตหรือเฉพาะใน pelvis เพราะเป็นตัวแยก A กับ B · ถ้าแก้โจทย์ให้วัดความเข้าใจมากขึ้น ควรถามการรักษาตาม Huang–Tseng class หรือให้ข้อมูล platelet และระดับความรู้สึกตัวเพื่อเลือกระหว่าง drainage กับ nephrectomy",
+  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "หญิงเบาหวาน septic shock เกล็ดเลือด 60,000 creatinine 3.2 สับสน CT พบแก๊สในเนื้อไตซ้ายลามถึง pararenal space (class 3B) ใส่ percutaneous drainage แล้ว 24 ชม. อาการยังแย่ลง → emergency nephrectomy",
-   "ชายเบาหวานไข้สูงปวดเอวขวา CT พบแก๊สในเนื้อไตขวา (class 2) ร่วมกับนิ่วอุดท่อไตส่วนบน ไม่มี shock → IV antibiotic + คุมน้ำตาล + ระบายด้วย DJ stent หรือ PCN และ percutaneous drainage ถ้ามี gas/fluid collection",
-   "หญิงเบาหวานไข้สูง KUB เห็นเงาแก๊สเป็นจุดกระจายตามรูปไตซ้าย ขั้นต่อไป → CT abdomen เพื่อยืนยัน EPN และจัด class ก่อนวางแผนการรักษา (KUB บอกตำแหน่งและการลุกลามไม่ได้แม่น)"
-  ],
-  "why": "EPN คือ necrotizing infection ของเนื้อไตที่มีแก๊สเกิดในเนื้อเยื่อ เกิดจากเชื้อ facultative anaerobe (E. coli พบบ่อยสุด รองลงมา Klebsiella) หมัก glucose ในเนื้อไตที่ขาดเลือดจาก diabetic microangiopathy ได้ CO2 และ H2 ที่ระบายออกไม่ได้ — ราว 90–95% ของผู้ป่วยเป็นเบาหวานคุมไม่ดี ที่เหลือมีการอุดกั้นทางเดินปัสสาวะ · ภาพในโจทย์ครบทั้ง host (หญิงเบาหวาน) อาการ (ไข้สูง ปวดสีข้าง) และ imaging ที่เป็นนิยาม (แก๊สใน<b>เนื้อไต</b>) · CT เป็นการตรวจที่ใช้ทั้งวินิจฉัยและจัด class ตาม Huang–Tseng เพื่อเลือกการรักษา (รายละเอียดใน summary) · หลักรักษาคือ resuscitation + IV antibiotic + คุมน้ำตาล + ระบายด้วย percutaneous drainage และแก้การอุดกั้น โดยสงวน nephrectomy ไว้ให้รายรุนแรงหรือไม่ตอบสนอง ซึ่งลดอัตราตายจากยุคที่ผ่าตัดทุกรายได้มาก · ตรงกับคีย์ A ในเฉลยอย่างย่อหน้า 36"
+   "<b>นอกสไลด์:</b> emphysematous pyelonephritis ช็อก เกล็ดเลือดต่ำ ไตวาย ซึม แม้ได้ยาและระบายแล้วยังแย่ลง → nephrectomy ฉุกเฉิน",
+   "<b>นอกสไลด์:</b> emphysematous pyelonephritis class 1 ไม่มีการอุดกั้น อาการคงที่ → ยาฉีดและคุมน้ำตาลอย่างเดียวพอ"
+  ]
  },
  "MDCU79|RoD|Uro 11": {
-  "interp": "โจทย์ถาม<b>กลไกระดับเคมี</b>ที่ citrate ป้องกันนิ่ว ไม่ได้ถามข้อบ่งชี้ของยา · ต้องรู้ว่านิ่วที่พบบ่อยที่สุดคือ calcium oxalate ซึ่งเกิดเมื่อ ionized calcium กับ oxalate ในปัสสาวะอิ่มตัวเกิน (supersaturation) → สารที่ลดนิ่วได้ต้องลด calcium อิสระ ลด oxalate หรือยับยั้งการตกผลึก · citrate เป็น anion ที่จับ cation (calcium) จึงตัดช้อยที่ให้ citrate จับ anion ตัวอื่นออกได้",
+  "interp": "ถามกลไกที่ citrate ลดการเกิดนิ่วทางเดินปัสสาวะ",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Form complex with calcium</b><br><b>นอกสไลด์:</b> citrate จับ calcium เป็น complex ที่ละลายน้ำ → calcium อิสระในปัสสาวะลดลง การอิ่มตัวของ calcium oxalate และ calcium phosphate จึงลด · citrate ยังยับยั้งการโตและเกาะกลุ่มของผลึกด้วย",
   "wrong": {
-   "B": "Citrate และ oxalate เป็น anion ทั้งคู่ จึงไม่จับกันเป็น complex — สิ่งที่จับ oxalate ในลำไส้คือ calcium ในอาหาร (เกิด calcium oxalate ที่ไม่ดูดซึมและขับออกทางอุจจาระ) ไม่มีสถานการณ์ใดที่ citrate ลดนิ่วด้วยการจับ oxalate เพราะประจุเหมือนกันผลักกัน และนี่คือเหตุผลที่ผู้ป่วยนิ่ว calcium oxalate ไม่ควรงด calcium ในอาหาร",
-   "C": "Citrate ไม่ได้เพิ่มการขับ oxalate และการขับ oxalate มากขึ้นกลับเป็น<b>สาเหตุ</b>ของนิ่ว (hyperoxaluria) ไม่ใช่การป้องกัน — ไม่มีสถานการณ์ใดที่การเพิ่ม urinary oxalate ลดนิ่ว ตรงกันข้าม enteric hyperoxaluria หลัง Roux-en-Y gastric bypass หรือ short bowel และ primary hyperoxaluria เป็นสาเหตุนิ่ว calcium oxalate ซ้ำ ซึ่งรักษาด้วยการลด oxalate ในอาหารและให้ calcium พร้อมมื้อ",
-   "D": "Chloride เป็น anion ที่ไม่มีบทบาทใน stone inhibition และ citrate ซึ่งเป็น anion เช่นกันก็ไม่ได้จับ chloride — ไม่มีสถานการณ์ใดที่กลไกนี้ใช้ได้ ข้อที่เกี่ยวข้องทางคลินิกคือ potassium chloride แก้ hypokalemia ได้แต่ไม่เพิ่ม urinary citrate เหมือน potassium citrate จึงใช้ทดแทนกันไม่ได้ในผู้ป่วยนิ่วที่มี hypocitraturia",
-   "E": "Potassium citrate ที่กินเข้าไปถูกตับเปลี่ยนเป็น bicarbonate จึง<b>เพิ่ม</b> urine pH (ทำให้เป็นด่าง) ไม่ได้ลด — ไม่มีสถานการณ์ใดที่ citrate ทำให้ปัสสาวะเป็นกรด และการที่ pH สูงขึ้นนี้เองที่ใช้ละลาย uric acid stone (เป้า pH 6.0–6.5) และ cystine stone (pH > 7.0) ส่วนข้อควรระวังคือ pH ที่สูงเกินไปเพิ่มความเสี่ยงนิ่ว calcium phosphate"
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate จับ oxalate เพราะทั้งคู่เป็นประจุลบ — สารที่จับ oxalate คือ calcium ในลำไส้และ magnesium ในปัสสาวะ",
+   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การเพิ่มการขับ oxalate ช่วยลดนิ่ว เพราะ oxalate ในปัสสาวะที่สูงขึ้นยิ่งเพิ่มการตกผลึก calcium oxalate",
+   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate จับ chloride เพราะเป็นประจุลบเหมือนกัน และ chloride ไม่เกี่ยวกับการตกผลึกนิ่ว",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"citrate ลด pH ปัสสาวะ\" ถูก เพราะ citrate ถูกเผาผลาญเป็น bicarbonate ทำให้ปัสสาวะเป็นด่าง"
   },
-  "trap": "ช้อย B ดึงดูดเพราะคิดว่า \"นิ่วเป็น calcium oxalate ดังนั้นสารป้องกันน่าจะจับ oxalate\" — แต่ citrate เป็น anion จับได้เฉพาะ cation อย่าง calcium · ช้อย E ดึงดูดคนที่สับสนชื่อ \"citric acid\" กับฤทธิ์ของยา potassium citrate ซึ่งความจริงทำให้ปัสสาวะเป็นด่าง · ช้อย C ล่อคนที่คิดว่าการขับสารก่อนิ่วออกมากขึ้นเป็นเรื่องดี ทั้งที่ oxalate ในปัสสาวะยิ่งสูงยิ่งเสี่ยง · วิธีแยก: จำว่า citrate มีสองบทบาท คือ (1) จับ calcium เป็น soluble complex ลด supersaturation และยับยั้ง crystal growth/aggregation โดยตรง (2) ฤทธิ์ alkalinization จาก metabolism เป็น bicarbonate",
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูง ~95% — การจับ calcium เป็น soluble complex เป็นกลไกหลักที่ตำรา (Campbell-Walsh-Wein, EAU Urolithiasis) อธิบาย · จุดกำกวม: citrate ยังมีกลไกอื่นที่สำคัญคือยับยั้ง crystal growth และ aggregation โดยตรง และฤทธิ์ทำให้ปัสสาวะเป็นด่างซึ่งใช้ใน uric acid stone ถ้าโจทย์ถามว่า \"potassium citrate ช่วย uric acid stone อย่างไร\" คำตอบจะเปลี่ยนเป็นการเพิ่ม pH · ช้อย C ต้นฉบับเป็นภาษาไทย \"ขับ oxalate\" ซึ่งกำกวมว่าเพิ่มหรือลด ฉบับนี้แปลเป็น \"increases oxalate excretion\" เพื่อให้ผิดชัด",
+  "trap": "ปัสสาวะด่างจาก potassium citrate ช่วยละลาย uric acid และ cystine แต่ด่างเกินไปเพิ่มการตกผลึก calcium phosphate — ต้องติดตาม pH ปัสสาวะ",
+  "summary": [
+   "<b>นอกสไลด์:</b> สารยับยั้งนิ่วในปัสสาวะ: citrate, magnesium · สารส่งเสริม: calcium, oxalate, uric acid และปริมาตรปัสสาวะน้อย",
+   "<b>นอกสไลด์:</b> hypocitraturia รักษาด้วย potassium citrate (ไม่ใช้ sodium citrate เพราะ sodium เพิ่มการขับ calcium)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "ผู้ป่วยนิ่ว calcium phosphate ซ้ำ มี hyperchloremic normal anion gap metabolic acidosis hypokalemia และ urine pH 6.8 แม้เลือดเป็นกรด → distal (type 1) RTA ซึ่งทำให้ hypocitraturia รักษาด้วย potassium citrate",
-   "ผู้ป่วยโรคเกาต์มีนิ่ว uric acid 8 mm ในไต urine pH 5.0 ไม่มีการอุดกั้นหรือติดเชื้อ → potassium citrate ให้ urine pH 6.0–6.5 เพื่อละลายนิ่ว (oral chemolysis) ร่วมกับดื่มน้ำมาก",
-   "หญิงเป็นนิ่ว calcium oxalate ซ้ำ ถามว่าควรงดนมหรือไม่ → ไม่ควรงด ให้กิน calcium จากอาหารปกติ 1,000–1,200 mg/วันพร้อมมื้อ เพราะ calcium จับ oxalate ในลำไส้ ลดการดูดซึม oxalate"
+   "<b>นอกสไลด์:</b> หญิงนิ่วซ้ำ ปัสสาวะ pH สูงตลอด เลือดเป็นกรด K ต่ำ citrate ในปัสสาวะต่ำมาก → distal renal tubular acidosis: potassium citrate",
+   "<b>นอกสไลด์:</b> นิ่ว uric acid 1 cm ในไต ไม่อุดกั้น → ทำปัสสาวะเป็นด่าง (pH ราว 6.5–7) ด้วย potassium citrate ละลายนิ่วได้"
   ]
  },
  "MDCU79|RoD|Uro 12": {
+  "interp": "ปัสสาวะหยุดกลางสายทันที แล้วไหลต่อได้เมื่อเปลี่ยนท่า · ถามสาเหตุ",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Bladder calculi</b><br><b>นอกสไลด์:</b> นิ่วในกระเพาะปัสสาวะกลิ้งมาอุดคอกระเพาะขณะปัสสาวะเหมือนลูกบอลปิดรู → สายปัสสาวะหยุดทันที เปลี่ยนท่าแล้วนิ่วกลิ้งออกจึงไหลต่อ",
   "wrong": {
-   "B": "Urethral stricture ทำให้ลำปัสสาวะเล็ก แยกสาย ต้องเบ่ง และปัสสาวะไม่สุดแบบ<b>คงที่ทุกครั้ง</b> เพราะจุดตีบเป็นโครงสร้างถาวร การเปลี่ยนท่าไม่ช่วย — ต่างจากการหยุดกะทันหันแล้วดีขึ้นด้วยท่าในโจทย์; จะถูกถ้าชายเคยตกคร่อมของแข็ง (straddle injury) หรือเคยใส่สายสวนนาน ลำปัสสาวะเล็กลงเรื่อย ๆ uroflowmetry เป็นกราฟราบแบบ plateau และ retrograde urethrography เห็นจุดตีบที่ bulbar urethra",
-   "C": "Overactive bladder เป็นกลุ่มอาการ storage: urgency เป็นอาการหลัก ± urge incontinence ร่วมกับ frequency และ nocturia โดยไม่มีการติดเชื้อหรือโรคอื่น — ไม่ทำให้ลำปัสสาวะสะดุดกลางสาย; จะถูกถ้าหญิงอายุ 60 ปีปวดปัสสาวะรีบจนกลั้นไม่อยู่ ปัสสาวะวันละ 12 ครั้ง ตื่นมาปัสสาวะ 3 ครั้ง urinalysis ปกติ PVR น้อย → behavioral therapy แล้ว antimuscarinic หรือ mirabegron",
-   "D": "Detrusor underactivity คือกล้ามเนื้อกระเพาะปัสสาวะบีบตัวอ่อนหรือสั้นเกินไป ทำให้ลำอ่อน ต้องเบ่งช่วย ปัสสาวะเป็นช่วง ๆ ตลอดการปัสสาวะ และเหลือค้างมาก — ไม่ได้หยุดทันทีแล้วกลับมาไหลได้เมื่อเปลี่ยนท่า; จะถูกถ้าผู้ป่วยเบาหวานมานาน 20 ปีมี peripheral neuropathy ต้องเบ่งปัสสาวะ PVR 400 mL และ urodynamics พบ detrusor pressure ต่ำร่วมกับ Qmax ต่ำ (ต้องทำ clean intermittent catheterization)",
-   "E": "Stress urinary incontinence คือปัสสาวะเล็ดเมื่อความดันในช่องท้องเพิ่ม (ไอ จาม หัวเราะ ยกของ) จาก urethral hypermobility หรือ intrinsic sphincter deficiency — เป็นปัญหาการกลั้น ไม่ใช่อาการขณะปัสสาวะ; จะถูกถ้าหญิงคลอดทางช่องคลอดมา 3 ครั้ง ปัสสาวะเล็ดทุกครั้งที่ไอหรือกระโดด cough stress test บวก → pelvic floor muscle training ก่อน แล้วพิจารณา midurethral sling"
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าสายปัสสาวะเล็กลงเรื่อย ๆ ต่อเนื่อง (ไม่หยุดกลางคัน) ในชายที่เคยบาดเจ็บฝีเย็บ เคยใส่สายสวน หรือเป็นหนองใน",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าปวดปัสสาวะรีบด่วน ปัสสาวะบ่อย ตื่นปัสสาวะกลางคืน โดยไม่มีการติดเชื้อหรือการอุดกั้น",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าต้องเบ่ง สายปัสสาวะอ่อนตลอด เหลือค้างมากโดยไม่มีการอุดกั้น เช่นในผู้เป็นเบาหวานมานาน",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าปัสสาวะเล็ดเวลาไอ จาม หรือยกของ ในหญิงที่คลอดบุตรหลายครั้ง"
   },
-  "trap": "ช้อย B และ D ดึงดูดเพราะเป็นสาเหตุของ voiding symptom เหมือนกัน และคำว่า \"intermittent stream\" ทำให้นึกถึง BOO หรือกล้ามเนื้ออ่อนแรง — คำที่แยกได้คือ \"stops suddenly\" (หยุดกะทันหัน) กับ \"improves with a change of posture\" (ดีขึ้นเมื่อเปลี่ยนท่า) ซึ่งบอกว่ามีวัตถุที่เคลื่อนที่ได้ไปอุด bladder neck แบบ ball-valve · ช้อย C ล่อเพราะอาการทางเดินปัสสาวะส่วนล่างทั่วไปมักถูกเหมารวมเป็น OAB แต่ OAB เป็น storage symptom · ในผู้ใหญ่ที่มีนิ่วกระเพาะปัสสาวะต้องหาสาเหตุเบื้องหลังเสมอ (BPH, stricture, neurogenic bladder) เพราะนิ่วมักเป็นผลตามมา",
+  "trap": "BPH ทำให้สายอ่อนและปัสสาวะไม่สุด แต่ไม่หยุดทันทีแล้วกลับมาเมื่อเปลี่ยนท่า — อาการแบบนี้ต้องนึกถึงนิ่ว",
   "summary": [
-   "LUTS แบ่ง 3 กลุ่ม: storage (frequency, urgency, nocturia, incontinence) · voiding (ลำอ่อน แยกสาย intermittency เบ่ง hesitancy) · post-micturition (ปัสสาวะไม่สุด หยดท้าย) — ใช้จำกัดวงสาเหตุ",
-   "Bladder stone ในผู้ใหญ่ส่วนใหญ่เป็น secondary: bladder outlet obstruction (BPH พบบ่อยสุด), neurogenic bladder, สายสวนคาหรือสิ่งแปลกปลอม, UTI เรื้อรัง (struvite), augmented bladder · ส่วนใหญ่เป็น uric acid หรือ calcium oxalate",
-   "Bladder stone ในเด็กเป็น endemic stone พบในภาคอีสานและประเทศกำลังพัฒนา สัมพันธ์กับอาหารโปรตีนและ phosphate ต่ำ ชนิด ammonium acid urate หรือ calcium oxalate",
-   "อาการ: interrupted stream ที่ดีขึ้นเมื่อเปลี่ยนท่า, ปวดร้าวไปปลายองคชาตหรือฝีเย็บตอนท้ายปัสสาวะ, terminal hematuria, UTI ซ้ำ, เด็กดึงหรือขยี้องคชาต · บางรายพบโดยบังเอิญ",
-   "Investigation: KUB (ส่วนใหญ่ทึบรังสี ยกเว้น uric acid), ultrasound (เงาสะท้อนแสงที่เคลื่อนตามท่า + acoustic shadow), cystoscopy ใช้ยืนยันและรักษาพร้อมกัน, ประเมินสาเหตุ (PVR, uroflowmetry, ขนาดต่อมลูกหมาก)",
-   "การรักษา: transurethral cystolitholapaxy (laser หรือ pneumatic) เป็นหลัก · นิ่วใหญ่หรือเด็กเล็ก → percutaneous suprapubic cystolitholapaxy · นิ่วใหญ่มาก → open cystolithotomy · ต้องแก้ BOO ร่วม (เช่น TURP พร้อมกัน) ไม่งั้นเป็นซ้ำ"
+   "<b>นอกสไลด์:</b> อาการนิ่วกระเพาะปัสสาวะ: สายหยุดกลางคันแล้วไหลต่อเมื่อเปลี่ยนท่า · ปวดร้าวไปปลายองคชาตตอนท้ายการปัสสาวะ · ปัสสาวะเป็นเลือดตอนท้าย · ติดเชื้อซ้ำ · ยืนยันด้วย US/CT หรือ cystoscopy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูง ~95% — อาการปัสสาวะหยุดกลางสายแล้วไหลต่อได้เมื่อเปลี่ยนท่าเป็น classic sign ของ bladder stone ในตำราทุกเล่ม · จุดกำกวม: โจทย์ต้นฉบับเป็นภาษาไทยและไม่ระบุอายุ เพศ หรือโรคร่วม ถ้าเป็นชายสูงอายุ คำตอบที่ครบคือ bladder stone ที่เกิดจาก BPH ซึ่งผู้สอบควรคิดต่อ · ถ้าแก้โจทย์ ควรเติมอายุ เพศ และอาการร่วมอย่างปวดร้าวปลายองคชาตหรือ terminal hematuria เพื่อให้ภาพชัดขึ้น และอาจถามต่อว่าต้องรักษาอะไรร่วมกับการเอานิ่วออก",
+  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "เด็กชายอายุ 5 ปีจากภาคอีสาน ปัสสาวะสะดุดกลางสาย ร้องไห้และดึงองคชาตเวลาปัสสาวะ ปัสสาวะมีเลือดตอนท้าย → bladder stone (endemic) ยืนยันด้วย KUB หรือ ultrasound",
-   "ชายอายุ 70 ปี BPH ต่อม 80 mL PVR 150 mL ultrasound พบนิ่วในกระเพาะปัสสาวะ 2.5 cm → cystolitholapaxy ร่วมกับ TURP (หรือ HoLEP) ในครั้งเดียว เพื่อแก้สาเหตุไม่ให้นิ่วเป็นซ้ำ",
-   "ผู้ป่วยอัมพาตครึ่งล่างคาสายสวนปัสสาวะถาวร 3 ปี สายตันบ่อยและมี UTI จาก Proteus ซ้ำ → สงสัย struvite bladder stone ส่ง KUB/ultrasound แล้วเอานิ่วออกและพิจารณาเปลี่ยนเป็น intermittent catheterization"
+   "<b>นอกสไลด์:</b> เด็กชายร้องเจ็บและดึงปลายองคชาตขณะปัสสาวะ สายปัสสาวะหยุดกลางคัน → นิ่วกระเพาะปัสสาวะในเด็ก",
+   "<b>นอกสไลด์:</b> หญิงมีนิ่วกระเพาะปัสสาวะโดยไม่มีการอุดกั้น เคยผ่าตัดกลั้นปัสสาวะ → หาสิ่งแปลกปลอม (ไหมเย็บหรือเทปผ่าตัดที่ทะลุเข้ากระเพาะ)"
   ]
  },
  "MDCU79|RoD|Uro 13": {
+  "interp": "ชายสูบบุหรี่จัด อายุ 66 ปี ก้อน 3 cm ในท่อไตส่วนต้น (upper tract urothelial carcinoma) ไม่แพร่กระจาย ไตอีกข้างปกติ · ถามการรักษา",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A RNU with bladder cuff excision</b><br><b>นอกสไลด์:</b> ก้อน ≥ 2 cm จัดเป็น UTUC ความเสี่ยงสูง และไตอีกข้างปกติ → ตัดไต ท่อไตทั้งเส้น และท่อไตส่วนในผนังกระเพาะปัสสาวะ (bladder cuff)",
   "wrong": {
-   "B": "Ureteroscopic laser ablation เป็นการรักษาแบบ kidney-sparing ที่ควรใช้ใน <b>low-risk</b> UTUC เท่านั้น (ก้อนเดียว < 2 cm, cytology หรือ biopsy low grade, ไม่มี invasion บน CT) — ก้อน 3 cm เป็น high risk ถ้าใช้ ablation จะเหลือโรคและพลาด staging; จะถูกถ้าผู้ป่วยมีไตสองข้างปกติ แต่ ureteroscopy พบก้อน papillary ก้อนเดียวขนาด 1 cm ใน renal pelvis ชิ้นเนื้อ low grade และ CT ไม่เห็นการลุกลาม (ทำ elective kidney-sparing พร้อมนัดส่องซ้ำใกล้ชิด)",
-   "C": "Segmental ureterectomy เก็บไตไว้ได้ แต่เหมาะกับก้อนที่ distal ureter ซึ่งตัดแล้วต่อท่อไตเข้ากระเพาะใหม่ (ureteral reimplantation) ได้ ส่วนก้อน upper ureter 3 cm ที่เป็น high risk การตัดเป็นท่อนเสี่ยงโรคเหลือและกลับเป็นซ้ำในท่อไตส่วนที่เหลือ; จะถูกถ้าผู้ป่วยมีก้อน high grade ขนาด 2.5 cm ที่ distal ureter ใกล้ UVJ ในผู้ที่ต้องการรักษาไตไว้ → distal ureterectomy + ureteroneocystostomy ร่วม lymphadenectomy",
-   "D": "Intravesical BCG ใส่เข้ากระเพาะปัสสาวะจึงไม่สัมผัสก้อนในท่อไตส่วนบน และก้อนขนาด 3 cm ต้องตัดออก ไม่ใช่รักษาด้วยยาเฉพาะที่; จะถูก (ในความหมายของการให้ BCG กับ upper tract) ถ้าผู้ป่วยไตข้างเดียวมี carcinoma in situ ของ renal pelvis ที่ไม่มีก้อน → ให้ BCG ผ่านสาย nephrostomy หรือ ureteral catheter เพื่อเก็บไตไว้",
-   "E": "Observation และ CT ซ้ำไม่เหมาะกับมะเร็ง high-risk ที่ยังผ่าตัดหายขาดได้ ไม่มี metastasis และไตอีกข้างปกติ — การรอทำให้โรคลุกลามเกิน muscle-invasive ซึ่งพยากรณ์แย่ลงมาก; จะถูกถ้าผู้ป่วยอายุ 92 ปี ติดเตียง ECOG 4 มีโรคหัวใจและปอดรุนแรง คาดชีวิตไม่กี่เดือน และเลือก comfort care โดยรักษาเฉพาะอาการ (เช่น เลือดออกด้วย embolization ถ้าจำเป็น)"
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนความเสี่ยงต่ำ (เดี่ยว เล็กกว่า 2 cm low grade CT ไม่เห็นการลุก) ที่ส่องกล้องเห็นได้ทั้งก้อน",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนความเสี่ยงต่ำในท่อไตส่วนต้นหรือกลางที่ส่องกล้องเอาออกไม่ได้ ในผู้ป่วยที่มีไตข้างเดียว",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น carcinoma in situ ของทางเดินปัสสาวะส่วนบนในผู้ป่วยที่ต้องเก็บไต — ให้ BCG ผ่านสายเข้าท่อไต",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ป่วยระยะท้ายที่อายุคาดเฉลี่ยสั้นมาก สภาพร่างกายไม่ไหวทั้งผ่าตัดและส่องกล้อง"
   },
-  "trap": "ช้อย B ดึงดูดเพราะเป็น minimally invasive และรักษาไตไว้ — แต่ต้องดูขนาดก่อน ก้อน ≥ 2 cm คือ high risk ตาม EAU UTUC 2024 ต้อง radical nephroureterectomy · ช้อย C ล่อเพราะเป็นการผ่าตัดที่เก็บไตไว้เหมือนกัน แต่ใช้กับก้อนที่ distal ureter · ช้อย D ล่อคนที่จำว่า urothelial carcinoma รักษาด้วย BCG โดยไม่แยกว่าก้อนอยู่ในกระเพาะหรือท่อไต · ในช้อย A ต้องสังเกตคำว่า \"with bladder cuff excision\" ถ้าตัดท่อไตไม่ถึง ureteric orifice ตอท่อไตที่เหลือจะเป็นที่เกิดมะเร็งซ้ำบ่อย และ \"contralateral kidney functions normally\" เป็นคำใบ้ว่าตัดไตข้างนี้ออกได้โดยไม่ต้องกังวลไตวาย",
+  "trap": "ต้องตัดท่อไตส่วนที่อยู่ในผนังกระเพาะปัสสาวะด้วย — ทิ้งท่อไตส่วนปลายไว้ มะเร็งกลับเป็นซ้ำที่ตอท่อไตสูง",
   "summary": [
-   "UTUC คิดเป็น 5–10% ของ urothelial carcinoma · renal pelvis พบมากกว่า ureter ราว 2 เท่า · ตอนวินิจฉัยราว 60% เป็น invasive แล้ว (ต่างจากมะเร็งกระเพาะปัสสาวะที่ส่วนใหญ่เป็น NMIBC)",
-   "ปัจจัยเสี่ยง: บุหรี่ (สำคัญสุด), aromatic amines จากงานอุตสาหกรรม, aristolochic acid (Balkan endemic nephropathy, สมุนไพรจีนบางชนิด), phenacetin, Lynch syndrome (ราว 5–10% ของ UTUC — ถามประวัติครอบครัวมะเร็งลำไส้และมดลูก)",
-   "อาการ: gross หรือ microscopic hematuria ~70–80%, flank pain จากลิ่มเลือดหรือการอุดกั้น · CT urography (excretory phase) เห็น filling defect · ยืนยันด้วย ureteroscopy + biopsy + selective urine cytology · ส่องกระเพาะปัสสาวะทุกรายเพราะพบร่วมได้ราว 17%",
-   "EAU risk stratification: low risk = ก้อนเดียว < 2 cm, cytology/biopsy low grade, ไม่มี invasion บน CT → kidney-sparing (ureteroscopic ablation, segmental ureterectomy) · high risk = ก้อน ≥ 2 cm, high grade, multifocal, hydronephrosis, invasion บน CT, variant histology, เคยทำ radical cystectomy → RNU + bladder cuff",
-   "หลัง RNU ให้ single postoperative intravesical chemotherapy (mitomycin C หรือ pirarubicin) ลด bladder recurrence (เกิดในกระเพาะปัสสาวะได้ 22–47%) · pT2–T4 หรือ N+ → adjuvant platinum-based chemotherapy (POUT trial ใช้ gemcitabine-cisplatin เมื่อ GFR ≥ 50 หรือ carboplatin เมื่อ 30–49) · adjuvant nivolumab (CheckMate 274) อนุมัติใน urothelial carcinoma รวม แต่ subgroup UTUC ยังไม่เห็นประโยชน์ชัด",
-   "Surveillance หลังรักษา: cystoscopy เป็นระยะตลอดเพราะ field change ทั่ว urothelium · CT urography ติดตามไตอีกข้างและช่องท้อง · kidney-sparing ต้องส่อง ureteroscopy ซ้ำใกล้ชิดเพราะ recurrence ในท่อไตสูง"
+   "<b>นอกสไลด์:</b> EAU UTUC ความเสี่ยงสูง: ไตบวมน้ำ · ก้อน ≥ 2 cm · high grade · หลายตำแหน่ง · CT เห็นการลุก · เคยตัดกระเพาะปัสสาวะจากมะเร็ง high grade → RNU + bladder cuff",
+   "<b>นอกสไลด์:</b> หลัง RNU: ให้ยาเคมีเข้ากระเพาะปัสสาวะครั้งเดียว (ลดการกลับเป็นซ้ำในกระเพาะ) และติดตามด้วย cystoscopy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูง ~95% — ก้อน 3 cm (≥ 2 cm) ในคนสูบบุหรี่จัด ไม่มี metastasis และไตอีกข้างปกติ เป็นข้อบ่งชี้ RNU + bladder cuff ตาม EAU UTUC 2024 ชัดเจน · จุดกำกวม: โจทย์บอกเพียงขนาดก้อนจาก imaging ไม่ได้บอกผล biopsy หรือ cytology และไม่บอก GFR ในชีวิตจริงต้องยืนยันชนิดด้วย ureteroscopic biopsy ก่อน และถ้า GFR ดีพอควรพิจารณา neoadjuvant chemotherapy เพราะหลังตัดไตออก GFR มักลดจนให้ cisplatin ไม่ได้ · ถ้าแก้โจทย์ ควรใส่ผล biopsy high grade เพื่อให้ risk stratification ครบ",
+  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "หลัง radical nephroureterectomy ผลพยาธิ UTUC pT3 N0 high grade eGFR 55 → adjuvant gemcitabine-cisplatin 4 รอบตาม POUT trial (GFR ≥ 50 ใช้ cisplatin ได้) เพิ่ม disease-free survival",
-   "ชายอายุ 70 ปีไตข้างเดียว (เคยบริจาคไต) มี UTUC ก้อนเดียว 1.5 cm ที่ renal pelvis ชิ้นเนื้อ high grade → imperative case: พิจารณา kidney-sparing (ureteroscopic หรือ percutaneous ablation) ร่วม surveillance ใกล้ชิด แม้จะเป็น high risk เพราะการตัดไตทำให้ต้องฟอกไต",
-   "ชายอายุ 45 ปี เป็น UTUC ที่ renal pelvis มีพ่อเป็นมะเร็งลำไส้ใหญ่อายุ 48 ปี และน้าเป็นมะเร็งเยื่อบุโพรงมดลูก → นึกถึง Lynch syndrome ส่งตรวจ MMR/MSI ในชิ้นเนื้อและ germline testing"
-  ],
-  "why": "ก้อน upper ureter ขนาด 3 cm ในคนสูบบุหรี่จัด = upper tract urothelial carcinoma (UTUC) ที่เข้าเกณฑ์ <b>high risk</b> ตั้งแต่ขนาด (≥ 2 cm) อย่างเดียว · UTUC มีผนังท่อไตและ renal pelvis บางมาก (กล้ามเนื้อบาง ไม่มี submucosa หนาแบบกระเพาะ) ก้อนจึงลุกลามทะลุผนังได้เร็ว และการตัดเฉพาะส่วนหรือเผาผ่านกล้องในก้อนใหญ่มักเหลือโรคและ under-stage · มาตรฐานคือ radical nephroureterectomy (open, laparoscopic หรือ robotic) ที่เอาไต ท่อไตทั้งเส้น และ <b>bladder cuff</b> รอบ ureteric orifice ออกเป็นชิ้นเดียว เพราะ urothelium ทั้งเส้นมี field change และตอท่อไตที่เหลือ (intramural ureter) เป็นตำแหน่งกลับเป็นซ้ำบ่อย ร่วมกับ lymphadenectomy ใน muscle-invasive disease · คำใบ้ \"contralateral kidney functions normally\" บอกว่าตัดไตข้างนี้ได้โดยไม่ต้องกังวลไตวาย และ \"no distant metastasis\" บอกว่ายังผ่าตัดเพื่อหายขาดได้ (EAU UTUC 2024) · ตรงกับคีย์ A ในเฉลยอย่างย่อหน้า 36",
-  "interp": "ชายสูบบุหรี่จัด (ปัจจัยเสี่ยงหลักของ urothelial carcinoma) มีก้อน <b>3 cm ที่ upper ureter</b> = upper tract urothelial carcinoma ที่ขนาด ≥ 2 cm จัดเป็น high risk · คำใบ้อีกสองข้อ: <b>ไม่มี distant metastasis</b> (ยังผ่าตัดเพื่อหายขาดได้) และ<b>ไตอีกข้างทำงานปกติ</b> (ไม่ใช่ imperative case อย่างไตข้างเดียวหรือ CKD ที่บังคับให้เลือก kidney-sparing) → ถามการรักษามาตรฐาน"
+   "<b>นอกสไลด์:</b> หลัง RNU ผลชิ้นเนื้อ pT3N0 ไตที่เหลือทำงานดี → เคมีบำบัดกลุ่ม platinum เสริมหลังผ่าตัด",
+   "<b>นอกสไลด์:</b> ผู้ป่วยกินสมุนไพรที่มี aristolochic acid มานาน มีก้อนในท่อไตทั้งสองข้าง → UTUC จาก aristolochic acid nephropathy"
+  ]
  }
 }
