@@ -78,12 +78,12 @@
   "interp": "ทารกท้องอืด ภาพรังสี sigmoid ขยาย transition zone ที่ rectum (Hirschsprung) → ผลชิ้นเนื้อ rectum",
   "why": "P'Ing วง D · ลายมือ <b>Hirschsprung disease</b><br><b>นอกสไลด์:</b> ไม่มี ganglion cell ใน submucosal และ myenteric plexus ของลำไส้ส่วนปลาย · เส้นใยประสาท cholinergic จากนอกลำไส้หนาตัวขึ้น ย้อม acetylcholinesterase (AChE) เข้มขึ้น",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผลนี้เข้ากับ Hirschsprung เพราะโรคเริ่มที่ rectum แล้วต่อเนื่องขึ้นไป rectum จึงไม่มี ganglion เสมอ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผลนี้ถูก เพราะชิ้นเนื้อเก็บที่ rectum ไม่ใช่ sigmoid และ Hirschsprung คือ ganglion หายไป ไม่ใช่ผิดรูป",
+   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ชิ้นเนื้อจาก rectum บอกจำนวน ganglion ของ sigmoid ได้ เพราะ suction biopsy เก็บเฉพาะ submucosa ของ rectum เหนือ dentate line",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Hirschsprung มี ganglion ผิดรูป เพราะโรคคือ ganglion หายไป",
    "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น total colonic aganglionosis — AChE อาจไม่เพิ่ม",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ AChE ลดลงใน Hirschsprung เพราะเส้นใยประสาทที่หนาตัวทำให้ย้อมได้มากขึ้นหรือปกติ ไม่ลดลง"
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ AChE ลดลงเพราะขาด ganglion เพราะใยประสาท cholinergic ที่ย้อมติดมาจากนอกลำไส้ (extrinsic) ไม่ได้มาจาก ganglion — ส่วนใหญ่จึงเพิ่มขึ้น"
   },
-  "trap": "ไม่มี ganglion แต่มีเส้นประสาทหนาและ AChE สูง — สองอย่างคู่กัน",
+  "trap": "คิดว่าไม่มีปมประสาทแล้ว AChE ต้องลดตาม (E) หรือจำแค่ว่าไม่มี ganglion แล้วเลือก C",
   "summary": [
    "<b>นอกสไลด์:</b> Calretinin ย้อมไม่ติดในส่วนที่ไม่มี ganglion ช่วยยืนยันเมื่อ AChE กำกวม"
   ],
@@ -97,19 +97,19 @@
   "interp": "หญิง 45 ปีภาพซ้อนและหนังตาตก (myasthenia gravis) CXR มีก้อน anterior mediastinum (thymoma) → การรักษา",
   "why": "ลายมือในคีย์: <b>MG, thymoma</b> + แปะข้อสอบเดิม <b>Thymomectomy + biopsy if malignant start CMT RT</b> — ไฟล์ไม่มีช้อย จึงแต่งช้อย<br><b>นอกสไลด์:</b> Thymoma ที่ตัดได้ → thymectomy (median sternotomy หรือส่องกล้อง) · ต้องคุมอาการ MG ให้คงที่ก่อน (pyridostigmine, IVIG หรือ plasmapheresis เมื่ออ่อนแรงมาก) เพื่อกัน myasthenic crisis หลังผ่าตัด",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผ่าตัด thymoma ออกแล้วพบขอบผ่าตัดมีมะเร็ง — ให้รังสีเสริม",
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น thymoma ที่เคยผ่าตัดแล้วกลับเป็นซ้ำเฉพาะที่ และตัดซ้ำไม่ได้ — ฉายรังสีอย่างเดียว",
    "C": "<b>นอกสไลด์:</b> จะถูกถ้า thymoma แพร่ไปเยื่อหุ้มปอดหลายจุดหรืออวัยวะไกลจนตัดไม่ได้",
    "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น MG ชนิดอาการเฉพาะตา ไม่มี thymoma และ pyridostigmine คุมไม่ได้",
    "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยโรคร่วมมากผ่าตัดไม่ได้ — เจาะชิ้นเนื้อยืนยันแล้วฉายรังสีเป็นการรักษาหลัก"
   },
-  "trap": "ก้อนที่ภาพเป็น thymoma ชัดและตัดได้ไม่ต้องเจาะชิ้นเนื้อก่อน (เสี่ยงเปิด capsule)",
+  "trap": "หลัง CT chest ยืนยันว่าเป็น thymoma ที่ตัดได้ ไม่ต้องเจาะชิ้นเนื้อก่อน (เสี่ยงเปิด capsule)",
   "summary": [
    "<b>นอกสไลด์:</b> Thymectomy ช่วยผู้ป่วย MG ชนิดทั่วร่างกายที่มี anti-AChR แม้ไม่มี thymoma"
   ],
   "opinion": "ไฟล์ไม่มีช้อย — แต่งช้อยตามลายมือในคีย์ (thymectomy) · มั่นใจสูง",
   "variants": [
    "<b>นอกสไลด์:</b> หลัง thymectomy ผู้ป่วยหายใจเหนื่อย กลืนลำบาก → myasthenic crisis: ใส่ท่อ + IVIG หรือ plasmapheresis",
-   "<b>นอกสไลด์:</b> ผู้ป่วย MG ได้ aminoglycoside แล้วอ่อนแรงมากขึ้น → ยาที่ทำให้ MG กำเริบ เปลี่ยนยา"
+   "<b>นอกสไลด์:</b> ผู้ป่วย MG ที่จะทำ thymectomy → รอบผ่าตัดเลี่ยง aminoglycoside และใช้ยาหย่อนกล้ามเนื้อน้อยที่สุดโดยติดตามด้วย nerve stimulator"
   ]
  },
  "MDCU72|RoA|49": {
@@ -123,11 +123,12 @@
   },
   "trap": "ต่างจาก colon: internal iliac นับเป็น N ของ rectum (ใน colon ต่อมนอก regional = M) · ก้อนตับต้องดูผลชิ้นเนื้อ",
   "summary": [
-   "<b>นอกสไลด์:</b> Regional node ของ rectum: mesorectal · ตาม superior rectal/IMA · internal iliac · presacral/lateral sacral — external iliac และ inguinal เป็น M1"
+   "<b>นอกสไลด์:</b> Regional node ของ rectum: mesorectal · ตาม superior rectal/IMA · internal iliac · presacral/lateral sacral — external iliac และ inguinal เป็น M1",
+   "<b>นอกสไลด์:</b> N1a = 1 ต่อม · N1b = 2–3 · N2a = 4–6 · N2b ≥ 7"
   ],
   "opinion": "เห็นด้วยกับคีย์ E — ตรงกับลายมือ P'Ing · มั่นใจสูง",
   "variants": [
-   "<b>นอกสไลด์:</b> Rectal cancer ที่ต่อม external iliac บวก → M1a (ไม่ใช่ regional)",
+   "<b>นอกสไลด์:</b> ต่อม mesorectal ไม่บวกเลย แต่มีก้อนมะเร็งแยกอยู่ในไขมัน mesorectum → N1c",
    "<b>นอกสไลด์:</b> Low rectal cancer ลุกกล้ามเนื้อ levator → T4b"
   ]
  },
@@ -189,12 +190,12 @@
  },
  "MDCU72|RoA|53": {
   "interp": "ชายติดเตียง ปวดท้องน้อย มี <b>peritonitis เฉพาะที่</b> AXR เป็น coffee-bean loop (sigmoid volvulus) → การจัดการ",
-  "why": "P'Ing วง B: <b>มี peritonitis = immediate Sx</b> · <b>C ✗ ทำตอนไม่มี alarm signs (peritonitis, perforation)</b> · ลายมือ <b>sigmoid volvulus</b> + algorithm<br><b>นอกสไลด์:</b> Peritonitis แปลว่าลำไส้อาจขาดเลือดหรือทะลุแล้ว การคลายด้วยกล้องไม่ปลอดภัย ต้องผ่าตัดเปิดหน้าท้อง (มักตัด sigmoid แบบ Hartmann ถ้าลำไส้ตาย)",
+  "why": "P'Ing วง B: <b>มี peritonitis = immediate Sx</b> · <b>C ✗ ทำตอนไม่มี alarm signs (peritonitis, perforation)</b> · ลายมือ <b>sigmoid volvulus</b> + algorithm<br><b>นอกสไลด์:</b> Peritonitis แปลว่าลำไส้อาจขาดเลือดหรือทะลุแล้ว การคลายด้วยกล้องไม่ปลอดภัย ต้องผ่าตัดเปิดหน้าท้อง",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น colonic pseudo-obstruction (Ogilvie) ในผู้สูงอายุ ไม่มี peritonitis ลำไส้ไม่ขยายมากเกิน",
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น colonic pseudo-obstruction (Ogilvie) ในผู้สูงอายุ ไม่มี peritonitis cecum ไม่ขยายเกินราว 12 cm",
    "C": "P'Ing ✗ ใช้เมื่อไม่มี alarm signs · จะถูกถ้า sigmoid volvulus ไม่มี peritonitis หรือสัญญาณลำไส้ขาดเลือด",
    "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยคงที่ไม่มี peritonitis แต่ภาพธรรมดากำกวม — contrast enema เห็น bird's beak (ปัจจุบันนิยม CT)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ rectal tube อย่างเดียวเป็นการรักษา sigmoid volvulus เพราะใช้ค้างไว้หลังคลายด้วยกล้องเพื่อกันบิดซ้ำเท่านั้น"
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ rectal tube อย่างเดียวเป็นการรักษาครบ เพราะต่อให้คลายได้ก็บิดซ้ำสูง ต้องตามด้วยตัด sigmoid (หรือผ่าตัดด่วนถ้ามี peritonitis)"
   },
   "trap": "Coffee-bean บนภาพทำให้นึกถึงการคลายด้วยกล้อง — แต่ peritonitis ตัดทางเลือกนี้ออก",
   "summary": [
