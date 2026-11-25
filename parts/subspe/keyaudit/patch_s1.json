@@ -61,5 +61,17 @@
  "MDCU68|RoC|39": {
   "stem": "A child had a soft, skin-covered midline mass at the nasal root (glabella) since birth that enlarged when crying, with widened intercanthal distance (telecanthus); the mass was surgically repaired. (The original question showed a postoperative photo, which is not in the file.) What is the diagnosis?",
   "notes": "⚠ ไม่มีรูปในไฟล์ · โจทย์ต้นฉบับเขียนว่า \"รูป FEEM ที่ผ่าแก้แล้ว\" (บอกคำตอบในโจทย์) → แก้ stem เป็นลักษณะทางคลินิกของ FEEM แทน (25 พ.ย. 2026)"
+ },
+ "MDCU67|RoA|31": {
+  "stem": "A patient has a deep laceration of the mid-cheek, crossing the line from the tragus to the midpoint of the upper lip, between the ear and the corner of the mouth. Which structure is injured?",
+  "notes": "⚠ ช้อย E เดิม P... muscle → Claude ใส่ platysma · ไม่มีรูปในไฟล์ → แก้ stem บรรยายตำแหน่งแผลแทน \"at the site shown\" (25 พ.ย. 2026)"
+ },
+ "MDCU67|RoA|32": {
+  "stem": "A girl has downslanting palpebral fissures, notching (coloboma) of the lower eyelids, flat cheekbones (malar hypoplasia), a small lower jaw and small, malformed external ears (Treacher Collins syndrome). What is the most associated functional deficit important for routine evaluation?",
+  "notes": "⚠ ไฟล์มีช้อย 4 ข้อ → Claude เติม E · รูปเด็กในไฟล์ถูกเบลอ · ไม่มีรูปในเว็บ → แก้ stem บรรยายลักษณะใบหน้าแทน \"A photo … is shown\" (25 พ.ย. 2026)"
+ },
+ "MDCU67|RoC|37": {
+  "stem": "A girl has downslanting palpebral fissures, notching (coloboma) of the lower eyelids, flat cheekbones (malar hypoplasia), a small lower jaw and small, malformed external ears (Treacher Collins syndrome). What is the most associated functional deficit important for routine evaluation?",
+  "notes": "⚠ ไฟล์มีช้อย 3 ข้อ → Claude เติม D–E · รูปเด็กถูกเบลอ · ไม่มีรูปในเว็บ → แก้ stem บรรยายลักษณะใบหน้าแทน \"A photo … is shown\" (25 พ.ย. 2026)"
  }
 }
