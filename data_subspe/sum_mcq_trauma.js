@@ -50,7 +50,7 @@ SUMM.push({
       "หลัง trauma <b>left hemiparesis + pupil ซ้าย 5 mm non-reactive</b> ปรากฏการณ์ชื่ออะไร → Kernohan (ตัวลวง Arnold, Kellie, Kennedy, Monro phenomenon)",
       "ถูกตีศีรษะขวาด้วยเหล็ก สลบ 5 นาที ตื่นดี มาถึง รพ. ซึม E1M4Vt pupil ขวา non-reactive + decorticate แขนขาขวา → Kernohan (ตัวลวง Foster Kennedy)",
       "supratentorial mass ใหญ่ เกิด pupil โต + hemiparesis ข้างเดียวกับรอยโรค แล้ว coma ถามชื่อ false-localizing sign → Kernohan (ตัวลวง Cushing reflex, central herniation, Duret, Brown-Séquard)",
-      "MDCU68 RoD ถามต่อจากเคส pupil ซ้ายโต + posturing ขวา ว่าปรากฏการณ์นี้ชื่ออะไร → คลังตอบ Kernohan (ช้อยไม่มี uncal herniation)"
+      "เคสเดิม (ตีศีรษะซ้าย pupil ซ้ายโต) ตรวจซ้ำพบ decorticate posturing ซ้าย ข้างเดียวกับ pupil CT ยืนยัน hematoma ซ้าย → <b>Kernohan notch phenomenon</b> (ตัวลวง Monro-Kellie doctrine, Cushing triad, Duret hemorrhage, Battle sign)"
      ],
      "pattern": [
       "<b>Kernohan notch phenomenon</b>: ก้อนเหนือ tentorium ดัน midbrain ไปอีกฝั่ง → <b>cerebral peduncle ฝั่งตรงข้ามก้อน</b> ถูกกดกับขอบ tentorium (Kernohan's notch) → อ่อนแรง / posturing <b>ข้างเดียวกับก้อน</b> = <b>false localizing sign</b>",
@@ -445,7 +445,7 @@ SUMM.push({
       "แผลลึกหน้าผากด้านข้าง / ขมับเหนือ zygomatic arch ยักคิ้วหรือย่นหน้าผากข้างนั้นไม่ได้ → <b>frontal (temporal) branch</b> (ตัวลวง zygomatic branch, buccal branch, supraorbital nerve, oculomotor nerve)",
       "แผลลึกกลางแก้มหน้าต่อ masseter ยิ้ม / ยกริมฝีปากบนไม่ได้ แต่หลับตาและย่นหน้าผากได้ → <b>buccal branch</b> (ตัวลวง frontal, marginal mandibular, infraorbital nerve, procerus)",
       "แผลฟันจากใกล้ขมับถึงใกล้คาง ข้อใด<b>ไม่</b>น่าพบ → <b>ptosis ของหนังตาบน</b> (ตัวลวง sialocele, lagophthalmos, drooling, brow ptosis)",
-      "รูปแผลแก้มขวา ถ้าเย็บ simple suture อย่างเดียว ภาวะใด<b>ไม่</b>คาดว่าจะเกิด → <b>drooling</b> (ตัวลวง sialocele, lagophthalmos, brow ptosis, salivary fistula)"
+      "แผลลึกแก้มขวาจากขมับถึงกลางแก้ม ถ้าเย็บ simple suture อย่างเดียว ภาวะใด<b>ไม่</b>คาดว่าจะเกิด → <b>drooling</b> (ตัวลวง sialocele, lagophthalmos, brow ptosis, salivary fistula)"
      ],
      "pattern": [
       "แขนง CN VII: <b>temporal / frontal</b> → frontalis (ยักคิ้ว ย่นหน้าผาก) เสีย = brow ptosis; <b>zygomatic</b> → orbicularis oculi (หลับตา) เสีย = lagophthalmos; <b>buccal</b> → zygomaticus / levator labii / buccinator (ยิ้ม ยกริมฝีปากบน อาหารค้างกระพุ้งแก้ม); <b>marginal mandibular</b> → depressor anguli oris (มุมปากตก น้ำลายไหล — drooling); <b>cervical</b> → platysma",

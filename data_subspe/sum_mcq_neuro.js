@@ -880,7 +880,7 @@ SUMM.push({
      "trend": "ให้ภาพหรือคำบรรยาย CT ว่าก้อนอยู่ medial ต่อ internal capsule ข้าง third ventricle แล้วถามตำแหน่ง — ข้อเดิมซ้ำหลายรุ่น",
      "asked": [
       "BP สูง CT เลือด <b>medial ต่อ internal capsule ติด third ventricle</b> → <b>thalamic hemorrhage</b> (ตัวลวง basal ganglia, caudate, MCA territory, pontine)",
-      "Hypertensive มี contralateral sensory loss + weakness + CT → thalamic hemorrhage",
+      "Hypertensive ชาและอ่อนแรงครึ่งซีกขวาทันที + CT → thalamic hemorrhage",
       "CT basal ganglia hematoma ที่แตกเข้า ventricle → <b>basal ganglia hemorrhage</b> (รอยโรคหลัก ไม่ใช่ secondary IVH)",
       "หญิง 71 ปี BP 200/120 หมดสติทันที CT → <b>basal ganglia + intraventricular hemorrhage</b>",
       "ชาย 40 ปี CT basal ganglia hematoma → สาเหตุที่พบบ่อยที่สุด → <b>essential hypertension</b> (ตัวลวง AVM, aneurysm, CAA, hemorrhagic transformation)",
@@ -1247,7 +1247,7 @@ SUMM.push({
       "นอกจาก hematoma อะไรเพิ่ม ICP → <b>hypercapnia</b> (ตัวลวง hyperventilation, head up 30°, mannitol, sedation)",
       "วิธีลด ICP ที่ดีสุดในผู้ป่วยนี้ (head up, osmotic, surgery) → <b>all of the above</b>",
       "ซึมฉับพลัน CT IVH + hydrocephalus + herniation sign → ลด ICP ดีสุด → <b>ventricular drainage (EVD)</b> (ตัวลวง hyperventilation, mannitol, head up, lumbar drain)",
-      "Ventriculostomy (รูป) ปลายสายอยู่ที่ใด → <b>lateral ventricle</b>",
+      "Ventriculostomy รักษา hydrocephalus ปลายสายอยู่ที่ใด → <b>lateral ventricle</b>",
       "ICH ใหญ่ เสียชีวิต 2 ชม. ต่อมา → สาเหตุตาย → <b>tonsillar herniation</b>"
      ],
      "pattern": [

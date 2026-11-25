@@ -354,12 +354,12 @@ SUMM.push({
      "title": "เกณฑ์ส่ง burn center",
      "trend": "ให้ผู้ป่วยหลายแบบแล้วเลือกรายที่ควรส่งมากที่สุด (คำตอบ full-thickness ที่ใบหน้า)",
      "asked": [
-      "รายใดมีข้อบ่งชี้ส่ง burn unit ชัดที่สุด → <b>ผู้ใหญ่ full-thickness ที่ใบหน้า 7% TBSA</b> (ตัวลวง superficial partial อก 5%, เด็ก 10 ปี blister ที่เท้า 5%, superficial หลัง 7%, deep partial แขน 3%)",
-      "รายใดควรส่ง burn center → <b>ผู้ใหญ่ full-thickness ที่ใบหน้า 7%</b> (ตัวลวง superficial partial แขน 5%, เด็ก 10 ปี scald ขา 5%, superficial partial ต้นขา 3%, sunburn หลัง 4%)"
+      "รายใดมีข้อบ่งชี้ส่ง burn unit ชัดที่สุด → <b>ผู้ใหญ่ full-thickness ที่ใบหน้าและคอ 7% TBSA</b> (ตัวลวง superficial partial อก 5%, เด็ก 10 ปี blister ที่เท้า 5%, superficial หลัง 7%, deep partial แขน 3%)",
+      "รายใดควรส่ง burn center → <b>ผู้ใหญ่ full-thickness ที่ใบหน้าและหนังศีรษะ 7%</b> (ตัวลวง superficial partial แขน 5%, เด็ก 10 ปี scald ขา 5%, superficial partial ต้นขา 3%, sunburn หลัง 4%)"
      ],
      "pattern": [
       "<b>ABA Guidelines for Burn Patient Referral (2022 — ฉบับปัจจุบัน)</b> — ปรึกษาทันทีและพิจารณาส่งต่อ: <b>full-thickness ทุกขนาด</b>; partial thickness ≥ 10% TBSA; deep partial / full thickness ที่ <b>หน้า มือ อวัยวะเพศ เท้า perineum หรือข้อ</b>; มีโรคร่วม / trauma ร่วม; ปวดคุมไม่ได้; <b>inhalation injury ทุกราย</b>; chemical ทุกราย; high-voltage (≥ 1,000 V) / ฟ้าผ่า; เด็ก ≤ 14 ปีหรือ < 30 kg ได้ประโยชน์จากการส่ง (รวม non-accidental trauma)",
-      "ช้อยที่ชัดที่สุดคือรายที่เข้าหลายเกณฑ์พร้อมกัน — full thickness + ใบหน้า",
+      "ช้อยที่ชัดที่สุดคือรายที่เข้าหลายเกณฑ์พร้อมกัน — full thickness + ใบหน้า · ใบหน้าอย่างเดียวไม่ถึง 7% TBSA (ศีรษะและคอทั้งหมดราว 9%) คลังจึงเขียนช้อยเป็นใบหน้า + คอ / หนังศีรษะ",
       "เกณฑ์รุ่นเก่าที่คีย์ลายมือเขียน: 2nd + 3rd degree > 20% ผู้ใหญ่, > 10% ในเด็กหรือผู้สูงอายุ, third degree > 5%, บริเวณที่มีผลต่อ function / cosmetics"
      ],
      "pearls": [
