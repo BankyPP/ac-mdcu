@@ -83,5 +83,16 @@
    "Low-grade gliomas can progress to a higher grade"
   ],
   "notes": "⚠ ไฟล์มีช้อย 4 ข้อ → Claude เติม E · ช้อยภาษาไทย → แปล · ช้อย E ที่เติมเดิม (metastasis พบบ่อยที่สุด) ซ้ำกับข้อ 73 → เปลี่ยนเป็นเรื่อง low-grade glioma (25 พ.ย. 2026)"
+ },
+ "MDCU67|RoA|41": {
+  "stem": "Which patient most clearly needs transfer to a burn center for further care?",
+  "opts": [
+   "37-year-old woman, 7% full-thickness (third-degree) burn of the face and neck",
+   "55-year-old woman, 2% superficial partial-thickness burn of the right thigh",
+   "18-year-old man, 1% deep partial-thickness burn of the left thigh",
+   "25-year-old woman, 5% superficial partial-thickness burn of the back",
+   "30-year-old man, 3% superficial burn of the arm"
+  ],
+  "notes": "⚠ ตามเกณฑ์ ABA ข้อ B, C, D (มี third-degree) ก็เข้าเกณฑ์ · คีย์เลือก A ที่ชัดที่สุด · ไฟล์มีช้อย 4 ข้อ → Claude เติม E · แก้โจทย์ 25 พ.ย. 2026 (ผู้ใช้สั่ง \"แก้โจทย์ เอาที่คิดว่าถูกที่สุด\"): ต้นฉบับ A = 7% third degree burn at face, B = 2% third degree burn at right thigh, C = 1% full thickness skin burn at left thigh, D = 5% second and third degree burn at back — ตาม ABA 2022 full thickness ทุกขนาดต้องส่งต่อ ทำให้ B, C, D เข้าเกณฑ์ด้วย และใบหน้าอย่างเดียวไม่ถึง 7% TBSA → แก้ A เป็นใบหน้าและคอ และแก้ B–D เป็นแผลที่ไม่ใช่ full thickness ที่ตำแหน่งทั่วไป &lt; 10% ให้ A เป็นคำตอบเดียว"
  }
 }

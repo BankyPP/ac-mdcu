@@ -581,7 +581,7 @@ SUMM.push({
      "title": "เกณฑ์ส่ง burn center / admit burn unit",
      "trend": "ให้ผู้ป่วย 5 แบบแล้วเลือกรายที่ต้องส่ง (คำตอบ third-degree ที่ใบหน้า)",
      "asked": [
-      "ผู้ป่วยรายใดควรส่ง burn center → <b>หญิง 37 ปี third-degree 7% ที่ใบหน้า</b> (ตัวลวง third-degree 2% ต้นขา, full-thickness 1% ต้นขา, mixed 5% หลัง, superficial 3% แขน)",
+      "ผู้ป่วยรายใดต้องส่ง burn center ชัดที่สุด → <b>หญิง 37 ปี full-thickness 7% ที่ใบหน้าและคอ</b> (ตัวลวง superficial partial 2% ต้นขา, deep partial 1% ต้นขา, superficial partial 5% หลัง, superficial 3% แขน)",
       "รายใดควร admit burn unit → <b>third-degree 5% ที่ใบหน้า</b> (ตัวลวง first-degree 10% หลัง, second-degree 2% แขน, sunburn ไหล่, superficial 3% ต้นขา)"
      ],
      "pattern": [
@@ -589,7 +589,7 @@ SUMM.push({
       "First-degree (superficial) ไม่นับใน TBSA และไม่ใช่เกณฑ์ส่งต่อ"
      ],
      "pearls": [
-      "MDCU67 RoA: ตามเกณฑ์ ABA ปัจจุบัน full-thickness ทุกขนาด (ช้อยต้นขา 1–2%) ก็เข้าเกณฑ์ปรึกษา / ส่งต่อ — เลือกช้อยที่ชัดที่สุด = full thickness + ใบหน้า (คีย์ลายมือเขียน > 5%)"
+      "MDCU67 RoA: ต้นฉบับช้อยอื่นก็มีแผล third-degree / full-thickness (ต้นขา 1–2%, หลัง 5%) ซึ่งเข้าเกณฑ์ ABA ปัจจุบันด้วย และใบหน้าอย่างเดียวไม่ถึง 7% — คลังแก้ช้อยให้ A (full thickness ใบหน้าและคอ) เป็นคำตอบเดียว (คีย์ลายมือเขียน > 5%)"
      ],
      "members": [
       "MDCU67|RoA|41",
