@@ -5,7 +5,7 @@
  "MDCU78|RoD|Colorectal tumor 4": {
   "wrong": {
    "B": "การเลื่อน colonoscopy ไปทำก่อนอายุ 60 ทำให้ผู้ป่วยเสียโอกาสคัดกรองไปอีกหลายปี ทั้งที่เลยเกณฑ์เริ่มต้น (45 ปี) มาแล้ว — จะถูกถ้าผู้ป่วยเคยทำ colonoscopy ปกติเมื่ออายุ 50 ปี ครั้งถัดไปจึงเป็นอายุ 60 ปี",
-   "C": "การรอให้มีอาการไม่ใช่การคัดกรอง — จุดประสงค์ของ screening คือหา adenoma หรือมะเร็งระยะต้นตอนที่ยังไม่มีอาการ; ถ้ามีอาการ (เลือดออก ซีด bowel habit เปลี่ยน) ถือเป็น diagnostic colonoscopy ไม่ใช่ screening — จะถูก (คือส่อง colonoscopy เพราะมีอาการ) ถ้าโจทย์ให้ผู้ป่วยมาด้วยถ่ายเป็นเลือด ซีดจากขาดธาตุเหล็ก หรือ bowel habit เปลี่ยน",
+   "C": "การรอให้มีอาการไม่ใช่การคัดกรอง — จุดประสงค์ของ screening คือหา adenoma หรือมะเร็งระยะต้นตอนที่ยังไม่มีอาการ; ถ้ามีอาการ (เลือดออก ซีด bowel habit เปลี่ยน) ถือเป็น diagnostic colonoscopy ไม่ใช่ screening — จะถูก (คือส่อง colonoscopy เพราะมีอาการ) ถ้าผู้ป่วยมาด้วยถ่ายเป็นเลือด ซีดจากขาดธาตุเหล็ก หรือ bowel habit เปลี่ยน",
    "D": "อายุ 75 ปีคือ<b>จุดสิ้นสุด</b>ของการคัดกรองแบบ routine ไม่ใช่จุดเริ่มต้น — จะถูกถ้าถามว่าควรหยุดคัดกรองเมื่อไรในคนที่ผลปกติมาตลอด",
    "E": "CEA มี sensitivity และ specificity ต่ำในมะเร็งระยะต้น (สูงได้ในคนสูบบุหรี่ ตับอักเสบ) จึง<b>ไม่ใช้คัดกรอง</b> — ใช้ติดตามหลังรักษาและประเมิน prognosis; จะถูกถ้าถามการติดตามหลังผ่าตัดมะเร็งลำไส้ใหญ่"
   }
@@ -14,10 +14,10 @@
   "interp": "Excisional biopsy ยืนยัน melanoma ที่แขน Breslow 2.5 mm = T3 (2.01–4.0 mm) ยังไม่มีข้อมูลการแพร่กระจาย — ถามขั้นต่อไปของการรักษา primary ซึ่งคือ wide local excision โดย margin กำหนดจากความหนา",
   "why": "Wide local excision เป็นการรักษาหลักของ primary cutaneous melanoma และ margin ขึ้นกับ Breslow thickness (NCCN Melanoma 2024): in situ 0.5–1 cm · ≤1.0 mm 1 cm · 1.01–2.0 mm 1–2 cm · >2.0 mm 2 cm — ความหนา 2.5 mm จึงต้อง <b>margin 2 cm</b> ตัดลึกถึงชั้น muscle fascia (ไม่ต้องเอา fascia) · margin ที่กว้างกว่า 2 cm ไม่เพิ่ม survival · ในชีวิตจริงต้องทำ <b>sentinel lymph node biopsy</b> ในการผ่าตัดเดียวกัน (แนะนำเมื่อ >0.8 mm หรือ T1b ขึ้นไป) เพื่อ staging และเลือกผู้ป่วยที่ได้ adjuvant therapy — แต่ไม่มีในช้อย",
   "wrong": {
-   "B": "Margin 1 cm ใช้กับ melanoma ≤1.0 mm (T1) และเลือกได้ในช่วง 1.01–2.0 mm (T2) เมื่อตำแหน่งทำให้ตัดกว้างยาก — ที่ 2.5 mm margin 1 cm แคบเกิน เพิ่ม local recurrence; จะถูกถ้าโจทย์ให้ Breslow 0.6–1.0 mm",
-   "C": "Chemotherapy แบบเดิม (dacarbazine) ตอบสนองต่ำและไม่ใช้รักษา localized melanoma แล้ว; systemic therapy ปัจจุบันคือ anti-PD-1 หรือ BRAF/MEK inhibitor ซึ่งให้แบบ adjuvant หลังผ่าตัดใน stage IIB–III หรือรักษา stage IV — จะถูก (ในความหมาย systemic therapy) ถ้าโจทย์เป็น melanoma ที่แพร่กระจายไปปอดหรือตับและผ่าตัดไม่ได้",
-   "D": "Melanoma ค่อนข้าง radioresistant จึงไม่ใช้ RT เป็นการรักษาหลักของ primary; ใช้เสริมใน desmoplastic melanoma ที่ margin แคบ, หลังเลาะต่อมน้ำเหลืองที่เสี่ยงกลับเป็นซ้ำสูงบางราย หรือ palliative (brain/bone metastasis) — จะถูกถ้าโจทย์เป็น brain metastasis จาก melanoma ที่ต้องทำ stereotactic radiosurgery",
-   "E": "Mohs micrographic surgery ใช้กับ melanoma in situ ชนิด lentigo maligna บนใบหน้าที่ต้องประหยัดเนื้อเยื่อ (และนิยมใน BCC/SCC) — ไม่ใช่มาตรฐานของ invasive melanoma 2.5 mm ที่แขนซึ่งตัด 2 cm ได้ไม่ยาก; จะถูกถ้าโจทย์เป็น lentigo maligna ที่จมูกหรือแก้ม"
+   "B": "Margin 1 cm ใช้กับ melanoma ≤1.0 mm (T1) และเลือกได้ในช่วง 1.01–2.0 mm (T2) เมื่อตำแหน่งทำให้ตัดกว้างยาก — ที่ 2.5 mm margin 1 cm แคบเกิน เพิ่ม local recurrence; จะถูกถ้า Breslow 0.6–1.0 mm",
+   "C": "Chemotherapy แบบเดิม (dacarbazine) ตอบสนองต่ำและไม่ใช้รักษา localized melanoma แล้ว; systemic therapy ปัจจุบันคือ anti-PD-1 หรือ BRAF/MEK inhibitor ซึ่งให้แบบ adjuvant หลังผ่าตัดใน stage IIB–III หรือรักษา stage IV — จะถูก (ในความหมาย systemic therapy) ถ้าเป็น melanoma ที่แพร่กระจายไปปอดหรือตับและผ่าตัดไม่ได้",
+   "D": "Melanoma ค่อนข้าง radioresistant จึงไม่ใช้ RT เป็นการรักษาหลักของ primary; ใช้เสริมใน desmoplastic melanoma ที่ margin แคบ, หลังเลาะต่อมน้ำเหลืองที่เสี่ยงกลับเป็นซ้ำสูงบางราย หรือ palliative (brain/bone metastasis) — จะถูกถ้าเป็น brain metastasis จาก melanoma ที่ต้องทำ stereotactic radiosurgery",
+   "E": "Mohs micrographic surgery ใช้กับ melanoma in situ ชนิด lentigo maligna บนใบหน้าที่ต้องประหยัดเนื้อเยื่อ (และนิยมใน BCC/SCC) — ไม่ใช่มาตรฐานของ invasive melanoma 2.5 mm ที่แขนซึ่งตัด 2 cm ได้ไม่ยาก; จะถูกถ้าเป็น lentigo maligna ที่จมูกหรือแก้ม"
   },
   "trap": "จำ margin สลับกัน — จุดตัดคือความหนา: ≤1 mm → 1 cm, 1–2 mm → 1–2 cm, >2 mm → 2 cm (ไม่มีกรณีใดเกิน 2 cm) · และอย่าลืมว่า SLNB เป็นส่วนหนึ่งของการผ่าตัดเมื่อ >0.8 mm แม้ช้อยจะไม่มี",
   "summary": [
@@ -65,10 +65,10 @@
   "interp": "ผู้สูงอายุมี triad ที่ค่อย ๆ แย่ลงใน 6 เดือน คือเดินผิดปกติ + ปัสสาวะกลั้นไม่อยู่ + ความจำ/ความคิดถดถอย ร่วมกับ MRI ที่ ventricles โตไม่สมส่วนกับ sulci → normal pressure hydrocephalus; ถามการวินิจฉัย",
   "why": "Normal pressure hydrocephalus (Hakim triad \"wet, wobbly, wacky\") เป็น communicating hydrocephalus ในผู้สูงอายุ ความดัน CSF ปกติหรือสูงเล็กน้อย · อาการที่<b>มาก่อนและเด่นที่สุดคือการเดิน</b>: magnetic gait (ก้าวสั้น เท้าติดพื้น ฐานกว้าง หมุนตัวลำบาก) ตามด้วย urinary urgency/incontinence และ dementia แบบ subcortical (ช้า สมาธิและ executive function เสีย) · MRI: ventriculomegaly (Evans index > 0.3) ไม่สมส่วนกับ sulci, DESH (sulci ที่ convexity ด้านบนแคบ แต่ Sylvian fissure กว้าง), callosal angle แคบ · ยืนยันด้วย CSF tap test (ระบาย 30–50 mL) หรือ extended lumbar drainage แล้วดูการเดินดีขึ้น → รักษาด้วย VP shunt (programmable valve) — เป็น dementia ที่แก้ไขได้",
   "wrong": {
-   "A": "Alzheimer disease เริ่มด้วย episodic memory loss เด่น การเดินและปัสสาวะผิดปกติมาในระยะท้าย MRI เห็น hippocampal/medial temporal atrophy และ ventricles โตตามสัดส่วนของ sulci ที่กว้าง (ex vacuo) — จะถูกถ้าโจทย์ให้ลืมเรื่องใหม่เด่นมาหลายปี เดินปกติ และ MRI มี hippocampal atrophy",
-   "B": "Vascular dementia มี vascular risk factors อาการแย่ลงเป็นขั้น (stepwise) และ focal neurological signs MRI เห็น infarcts หลายตำแหน่งหรือ white matter disease กว้าง; อาจมี gait ผิดปกติได้แต่ ventricles ไม่โตไม่สมส่วน — จะถูกถ้าโจทย์ให้ประวัติ stroke หลายครั้งและ MRI มี multiple lacunar infarcts",
-   "C": "Parkinson disease มี resting tremor, rigidity, bradykinesia ไม่สมมาตร ตอบสนองต่อ levodopa; dementia มาช้าหลายปี และ MRI ปกติ — จะถูกถ้าโจทย์ให้มือสั่นขณะพักข้างเดียว แข็งเกร็ง และดีขึ้นด้วย levodopa",
-   "E": "Suprapontine urinary dysfunction เป็นแค่กลไกของ urge incontinence (detrusor overactivity) จากรอยโรคเหนือ pons ไม่ใช่การวินิจฉัยที่อธิบาย triad และภาพ MRI — จะถูกถ้าโจทย์ถามชนิดของ bladder dysfunction หลัง stroke หรือใน NPH"
+   "A": "Alzheimer disease เริ่มด้วย episodic memory loss เด่น การเดินและปัสสาวะผิดปกติมาในระยะท้าย MRI เห็น hippocampal/medial temporal atrophy และ ventricles โตตามสัดส่วนของ sulci ที่กว้าง (ex vacuo) — จะถูกถ้าลืมเรื่องใหม่เด่นมาหลายปี เดินปกติ และ MRI มี hippocampal atrophy",
+   "B": "Vascular dementia มี vascular risk factors อาการแย่ลงเป็นขั้น (stepwise) และ focal neurological signs MRI เห็น infarcts หลายตำแหน่งหรือ white matter disease กว้าง; อาจมี gait ผิดปกติได้แต่ ventricles ไม่โตไม่สมส่วน — จะถูกถ้ามีประวัติ stroke หลายครั้งและ MRI มี multiple lacunar infarcts",
+   "C": "Parkinson disease มี resting tremor, rigidity, bradykinesia ไม่สมมาตร ตอบสนองต่อ levodopa; dementia มาช้าหลายปี และ MRI ปกติ — จะถูกถ้ามือสั่นขณะพักข้างเดียว แข็งเกร็ง และดีขึ้นด้วย levodopa",
+   "E": "ไม่มีสถานการณ์ใดที่ suprapontine urinary dysfunction เป็นการวินิจฉัยโรค เพราะเป็นเพียงกลไกของปัสสาวะกลั้นไม่อยู่ (detrusor overactivity จากรอยโรคเหนือ pons) ซึ่งเกิดได้ในหลายโรครวมทั้ง NPH เอง จึงอธิบายการเดินผิดปกติ สมองเสื่อม และภาพ MRI ไม่ได้"
   },
   "trap": "เห็น dementia ในผู้สูงอายุแล้วตอบ Alzheimer — ต้องดูว่าอะไรมาก่อน: ถ้าการเดินผิดปกติเด่นและมาก่อนความจำ ร่วมกับปัสสาวะกลั้นไม่อยู่ ให้นึกถึง NPH ซึ่งเป็น dementia ที่ผ่าตัดแก้ได้ · ventricles โตใน Alzheimer เป็นแบบ ex vacuo (sulci กว้างด้วย) ส่วน NPH ventricles โตไม่สมส่วนกับ sulci",
   "summary": [
@@ -91,10 +91,10 @@
   "interp": "ชายอายุน้อยเพิ่งรักษาวัณโรคปอดครบ ไอเป็นเลือดจำนวนมากทันที หายใจเร็ว 24/min แต่ความดันยังดี → massive hemoptysis จากรอยโรคหลัง TB; ถาม initial management — ผู้ป่วย massive hemoptysis เสียชีวิตจากสำลักเลือด (asphyxia) มากกว่าเสียเลือด",
   "why": "หลักการ massive hemoptysis เรียงตามลำดับ: (1) <b>ABC — protect airway + oxygen</b>: นอนตะแคงให้ข้างที่เลือดออกอยู่ด้านล่าง (bleeding side down) เพื่อไม่ให้เลือดไหลเข้าปอดข้างดี ถ้าหายใจไม่พอหรือเลือดออกต่อเนื่องใส่ ET tube ขนาดใหญ่ (≥ 8) เพื่อให้ส่อง bronchoscope และดูดเลือดได้ หรือใส่เข้าหลอดลมข้างดี เปิด IV ส่ง CBC, coagulation, G/M แก้ coagulopathy · (2) หาตำแหน่ง: CXR, CTA chest (เห็นทั้งรอยโรคและ bronchial arteries) ± bronchoscopy · (3) หยุดเลือด: bronchial artery embolization เป็น definitive ลำดับแรก · (4) ผ่าตัดเมื่อ BAE ล้มเหลวหรือรอยโรคเฉพาะที่ เช่น aspergilloma — ผู้ป่วยรายนี้ยัง stable จึงเริ่มที่ airway และ O2 ก่อนส่งตรวจอื่น",
   "wrong": {
-   "A": "Antibiotics ใช้เมื่อมีการติดเชื้อร่วม เช่น bronchiectasis กำเริบ แต่ไม่หยุดเลือดและไม่ใช่สิ่งแรกเมื่อทางเดินหายใจกำลังถูกคุกคาม — จะถูกถ้าโจทย์เป็นไอมีเลือดปนเสมหะเล็กน้อย ร่วมกับไข้และเสมหะเป็นหนองในผู้ป่วย bronchiectasis",
+   "A": "Antibiotics ใช้เมื่อมีการติดเชื้อร่วม เช่น bronchiectasis กำเริบ แต่ไม่หยุดเลือดและไม่ใช่สิ่งแรกเมื่อทางเดินหายใจกำลังถูกคุกคาม — จะถูกถ้าเป็นไอมีเลือดปนเสมหะเล็กน้อย ร่วมกับไข้และเสมหะเป็นหนองในผู้ป่วย bronchiectasis",
    "C": "Bronchoscopy ใช้หาตำแหน่งและหยุดเลือดเฉพาะที่ (cold saline, epinephrine, balloon tamponade) แต่ทำหลังจาก airway ปลอดภัยแล้ว และมักทำผ่าน ET tube — จะถูกถ้าผู้ป่วยใส่ท่อช่วยหายใจแล้ว ยังไม่รู้ว่าเลือดออกจากปอดข้างไหน",
-   "D": "Bronchial artery embolization เป็น definitive treatment ที่ใช้บ่อยที่สุด (หยุดเลือดได้ทันทีราว 70–90%) แต่ทำหลัง stabilize airway และหาตำแหน่งแล้ว — จะถูกถ้าโจทย์ถามการรักษาเพื่อหยุดเลือดหลังใส่ท่อช่วยหายใจและ CTA พบ bronchial artery ขยายใหญ่",
-   "E": "Emergency lobectomy ขณะเลือดออกมี mortality สูง สงวนไว้เมื่อ BAE ล้มเหลวหรือทำไม่ได้ หรือรอยโรคเฉพาะที่ที่ BAE คุมได้ไม่ดี — จะถูกถ้าโจทย์เป็น aspergilloma ในโพรง TB เก่าที่เลือดออกซ้ำหลัง BAE และสมรรถภาพปอดพอ"
+   "D": "Bronchial artery embolization เป็นวิธีหยุดเลือดที่ใช้บ่อยที่สุด (หยุดเลือดได้ทันทีราว 70–90%) — ไม่มีสถานการณ์ใดที่ BAE มาก่อนการป้องกันทางเดินหายใจในไอเลือดปริมาณมาก เพราะผู้ป่วยเสียชีวิตจากเลือดท่วมทางเดินหายใจ (asphyxia) มากกว่าจากการเสียเลือด",
+   "E": "Emergency lobectomy ขณะเลือดออกมี mortality สูง สงวนไว้เมื่อ BAE ล้มเหลวหรือทำไม่ได้ หรือรอยโรคเฉพาะที่ที่ BAE คุมได้ไม่ดี — จะถูกถ้าเป็น aspergilloma ในโพรง TB เก่าที่เลือดออกซ้ำหลัง BAE และสมรรถภาพปอดพอ"
   },
   "trap": "เห็นประวัติ TB แล้วรีบเลือกยา หรือเห็นว่า BAE คือการรักษาที่ได้ผลแล้วเลือกเลย — โจทย์ถาม initial management ซึ่งคือ airway และ O2 เสมอ เพราะคนไข้เสียชีวิตจากสำลักเลือด (เลือดเพียง 100–200 mL ก็เต็ม dead space ของหลอดลมได้)",
   "summary": [
@@ -142,10 +142,10 @@
   "interp": "ทารก 1 เดือนเหลืองตั้งแต่ 2 สัปดาห์ อุจจาระซีด direct hyperbilirubinemia ultrasound เห็น gallbladder เล็กไม่บีบตัว triangular cord sign ท่อน้ำดีไม่ขยาย และ intraoperative cholangiogram ยืนยัน → biliary atresia; ถามการรักษา",
   "why": "Biliary atresia เป็น progressive obliterative cholangiopathy ของท่อน้ำดีนอกตับ ถ้าไม่รักษาเกิด biliary cirrhosis และเสียชีวิตใน 2 ปี · การรักษาแรกคือ <b>Kasai hepatoportoenterostomy</b>: ตัด fibrous remnant ที่ porta hepatis ออกจนเห็นท่อน้ำดีเล็ก ๆ ที่ยังเปิด แล้วต่อ Roux-en-Y jejunal limb เข้ากับ porta hepatis ให้น้ำดีไหลลงลำไส้ · ผลดีที่สุดเมื่อทำ<b>ก่อนอายุ 60 วัน</b> (ยิ่งเร็วยิ่งดี) ทารก 1 เดือนรายนี้จึงเหมาะที่สุด · หลังผ่าตัดราวครึ่งหนึ่งตัวเหลืองหาย แต่ส่วนใหญ่ยังต้องเปลี่ยนตับในที่สุด · liver transplantation ใช้เมื่อ Kasai ล้มเหลวหรือมาช้าจน decompensated cirrhosis",
   "wrong": {
-   "B": "Primary liver transplantation (ไม่ทำ Kasai ก่อน) ใช้เมื่อมาช้ามาก (มักอายุ > 100–120 วัน) พร้อม cirrhosis และ decompensation หรือหลัง Kasai ล้มเหลว — ไม่ใช่ทารก 1 เดือนที่ยังทำ Kasai ได้; จะถูกถ้าโจทย์เป็นเด็ก 5 เดือน มีน้ำในท้อง ม้ามโต และ cirrhosis แล้ว",
-   "C": "UDCA และ phenobarbital เป็นยาช่วยการไหลของน้ำดี ไม่แก้ท่อน้ำดีที่อุดตัน ใช้เป็นยาเสริมหลัง Kasai (ร่วมกับ fat-soluble vitamins และยาปฏิชีวนะป้องกัน cholangitis) — จะถูกถ้าโจทย์ถามการดูแลหลังผ่าตัด Kasai",
+   "B": "Primary liver transplantation (ไม่ทำ Kasai ก่อน) ใช้เมื่อมาช้ามาก (มักอายุ > 100–120 วัน) พร้อม cirrhosis และ decompensation หรือหลัง Kasai ล้มเหลว — ไม่ใช่ทารก 1 เดือนที่ยังทำ Kasai ได้; จะถูกถ้าเป็นเด็ก 5 เดือน มีน้ำในท้อง ม้ามโต และ cirrhosis แล้ว",
+   "C": "ไม่มีสถานการณ์ใดที่ UDCA + phenobarbital เป็นการรักษาหลักของ biliary atresia เพราะยาช่วยการไหลของน้ำดีแต่แก้ท่อน้ำดีนอกตับที่ตีบตันไม่ได้ — ใช้เป็นยาเสริมหลัง Kasai (ร่วมวิตามินที่ละลายในไขมันและยาป้องกัน cholangitis)",
    "D": "Cholecystectomy ไม่ช่วย เพราะปัญหาคือท่อน้ำดีนอกตับทั้งระบบถูกปิดด้วย fibrous tissue ไม่ใช่ที่ gallbladder — ไม่มีสถานการณ์ใดที่ cholecystectomy เป็นการรักษา biliary atresia",
-   "E": "Cyst excision + Roux-en-Y hepaticojejunostomy เป็นการรักษา choledochal cyst ซึ่ง ultrasound จะเห็น cystic dilatation ของ common bile duct (ตรงข้ามกับรายนี้ที่ท่อไม่ขยาย) — จะถูกถ้าโจทย์ให้ทารกเหลืองและ US พบถุงน้ำที่ CBD"
+   "E": "Cyst excision + Roux-en-Y hepaticojejunostomy เป็นการรักษา choledochal cyst ซึ่ง ultrasound จะเห็น cystic dilatation ของ common bile duct (ตรงข้ามกับรายนี้ที่ท่อไม่ขยาย) — จะถูกถ้าทารกเหลืองและ US พบถุงน้ำที่ CBD"
   },
   "trap": "ทารกเหลืองเกิน 2 สัปดาห์ถือว่าไม่ใช่ physiologic jaundice ต้องตรวจ direct bilirubin เสมอ และดูสีอุจจาระ — biliary atresia ต้องผ่าก่อน 60 วัน การรอดูหรือให้ยาไปก่อนทำให้เสียโอกาส · แยกจาก choledochal cyst ด้วย ultrasound (ท่อขยายเป็นถุง vs ท่อไม่ขยาย + triangular cord)",
   "summary": [
@@ -168,10 +168,10 @@
   "interp": "ระหว่าง craniotomy มีเลือดออกจากหลอดเลือดเล็กบนผิวสมอง (cortical surface) — ถามวิธีห้ามเลือดที่แม่นยำและไม่ทำลายเนื้อสมองรอบข้าง",
   "why": "<b>Bipolar electrocautery</b>: กระแสไฟฟ้าไหลระหว่างปลาย forceps สองข้างเท่านั้น ความร้อนจำกัดอยู่ที่เนื้อเยื่อที่คีบ ไม่กระจายไปเนื้อสมองหรือเส้นประสาทรอบข้าง จึงเป็นเครื่องมือห้ามเลือดหลักใน neurosurgery และ microsurgery · ใช้ร่วมกับ irrigation (น้ำเกลือหยดที่ปลาย) ไม่ให้เนื้อเยื่อติดปลาย forceps · วิธีห้ามเลือดอื่นในการผ่าตัดสมองเลือกตามแหล่งเลือด: ผิวสมองที่ซึมกว้าง → hemostatic agents (Gelfoam, Surgicel, thrombin) + cottonoid กด · ขอบกะโหลก (diploë) → bone wax · ขอบ dura/epidural → tack-up suture · scalp → Raney clips · หลอดเลือดใหญ่หรือ aneurysm → clip",
   "wrong": {
-   "B": "Suture ligation ทำไม่ได้กับหลอดเลือดเล็กบนผิวสมองที่บอบบาง เข็มจะฉีกเนื้อสมอง — ใช้กับ dura (dural tack-up เพื่อกัน epidural hematoma) หรือหลอดเลือดขนาดกลางนอกสมอง; จะถูกถ้าโจทย์ถามการป้องกันเลือดออกใต้ dura หลังเปิดกะโหลก",
-   "C": "Monopolar ให้กระแสผ่านตัวผู้ป่วยไปยัง grounding pad ความร้อนและกระแสกระจาย ทำลายเนื้อสมองและเส้นประสาทรอบข้าง — ใช้ได้กับ scalp, กล้ามเนื้อ และ pericranium ระหว่างเปิดแผล แต่ไม่ใช้บนผิวสมอง; จะถูกถ้าโจทย์ถามการห้ามเลือดจากกล้ามเนื้อ temporalis ขณะเปิดแผล",
-   "D": "Vascular clamp ใช้กับหลอดเลือดใหญ่ที่ต้องหยุดเลือดชั่วคราวเพื่อเย็บซ่อม ใช้ไม่ได้กับหลอดเลือดเล็กบนผิวสมอง — จะถูก (ในรูป temporary clip) ถ้าโจทย์เป็นการผ่าตัด aneurysm ที่ต้องหนีบ parent artery ชั่วคราว",
-   "E": "Tourniquet ใช้หยุดเลือดชั่วคราวที่แขนขา ไม่เกี่ยวกับการผ่าตัดสมอง — จะถูกถ้าโจทย์เป็นบาดแผลที่ขามีเลือดพุ่งที่กดไม่หยุด (หรือการผ่าตัดมือเพื่อให้ bloodless field)"
+   "B": "ไม่มีสถานการณ์ใดที่การเย็บผูกเป็นวิธีห้ามเลือดจากหลอดเลือดเล็กบนผิวสมอง เพราะหลอดเลือดและเนื้อสมองบอบบาง เข็มและไหมจะฉีกเนื้อสมอง — การเย็บใช้กับ dura (dural tack-up กัน epidural hematoma) หรือหลอดเลือดขนาดกลางนอกเนื้อสมอง",
+   "C": "ไม่มีสถานการณ์ใดที่ monopolar ใช้ห้ามเลือดบนผิวสมอง เพราะกระแสผ่านตัวผู้ป่วยไปยังแผ่น grounding ความร้อนและกระแสกระจายทำลายเนื้อสมองและเส้นประสาทรอบข้าง — ใช้กับหนังศีรษะ กล้ามเนื้อ และ pericranium ระหว่างเปิดแผล",
+   "D": "Vascular clamp ใช้กับหลอดเลือดใหญ่ที่ต้องหยุดเลือดชั่วคราวเพื่อเย็บซ่อม — ไม่มีสถานการณ์ใดที่ vascular clamp ใช้ห้ามเลือดจากหลอดเลือดเล็กบนผิวสมอง เพราะหนีบหลอดเลือดขนาดนี้ไม่ได้และบดเนื้อสมอง (ในสมองใช้ temporary clip เฉพาะหนีบหลอดเลือดแดงใหญ่ชั่วคราว เช่นระหว่างผ่าตัด aneurysm)",
+   "E": "ไม่มีสถานการณ์ใดที่ tourniquet ใช้ห้ามเลือดระหว่างผ่าตัดสมอง เพราะใช้รัดได้เฉพาะแขนขาเพื่อหยุดเลือดชั่วคราว"
   },
   "trap": "คิดว่าจี้ไฟฟ้าแบบไหนก็ได้ — monopolar ใช้ได้กับ scalp แต่ห้ามใช้บนสมองหรือใกล้เส้นประสาท · และอย่าสับ bone wax (ใช้กับกระดูก) กับการห้ามเลือดบนเนื้อสมอง",
   "summary": [
@@ -193,10 +193,10 @@
   "interp": "หญิง 30 ปี ขาดประจำเดือน 8 เดือน + มีน้ำนมไหล + ปวดศีรษะ + ตามัวด้านนอกทั้งสองข้าง (bitemporal hemianopia) ตั้งครรภ์ลบ prolactin สูงมาก → macroprolactinoma ที่กด optic chiasm; ถามการวินิจฉัย",
   "why": "Prolactinoma เป็น functioning pituitary adenoma ที่พบบ่อยที่สุด · prolactin สูงยับยั้ง GnRH → amenorrhea, infertility, galactorrhea ในหญิง; ED และ libido ลดในชาย · ก้อนใหญ่ (macroadenoma ≥ 1 cm) โตขึ้นด้านบนกด <b>optic chiasm</b> ส่วนกลางซึ่งเป็นเส้นใยที่ข้ามมาจาก nasal retina ของทั้งสองตา → สูญเสียลานสายตาด้านนอก (bitemporal hemianopia) ร่วมกับปวดศีรษะ · ระดับ prolactin สัมพันธ์กับขนาดก้อน (macroadenoma มัก > 200 ng/mL) · วินิจฉัยด้วย MRI pituitary · การรักษาแรกคือ dopamine agonist (cabergoline) แม้เป็น macroadenoma ที่มีลานสายตาผิดปกติ ก้อนมักยุบและตาดีขึ้นในไม่กี่สัปดาห์",
   "wrong": {
-   "B": "Pineal tumor (germinoma, pineoblastoma) อยู่หลัง third ventricle กด tectum → Parinaud syndrome (มองขึ้นไม่ได้, light-near dissociation) และ obstructive hydrocephalus ไม่ทำให้ prolactin สูง — จะถูกถ้าโจทย์เป็นเด็กชายวัยรุ่นปวดศีรษะ มองขึ้นไม่ได้ และ hydrocephalus",
-   "C": "Vestibular schwannoma อยู่ที่ cerebellopontine angle ทำให้หูดับข้างเดียวแบบ sensorineural, tinnitus และเสียการทรงตัว ก้อนใหญ่กด CN V, VII — จะถูกถ้าโจทย์ให้หูข้างเดียวค่อย ๆ ได้ยินลดลงร่วมกับ tinnitus (ถ้าเป็นสองข้างนึกถึง NF2)",
-   "D": "Convexity meningioma เป็นก้อนนอกเนื้อสมองที่ผิวด้านบน ทำให้ชักหรือ focal deficit ตามตำแหน่ง ไม่เกี่ยวกับฮอร์โมนหรือ chiasm — จะถูกถ้าโจทย์เป็นหญิงวัยกลางคนชักครั้งแรก MRI พบก้อน dural-based enhance สม่ำเสมอพร้อม dural tail",
-   "E": "Medulloblastoma เป็นเนื้องอก posterior fossa (vermis) ที่พบบ่อยในเด็ก ทำให้ truncal ataxia และ hydrocephalus (ปวดศีรษะตอนเช้า อาเจียน) — จะถูกถ้าโจทย์เป็นเด็ก 6 ปีเดินเซและอาเจียนตอนเช้า"
+   "B": "Pineal tumor (germinoma, pineoblastoma) อยู่หลัง third ventricle กด tectum → Parinaud syndrome (มองขึ้นไม่ได้, light-near dissociation) และ obstructive hydrocephalus ไม่ทำให้ prolactin สูง — จะถูกถ้าเป็นเด็กชายวัยรุ่นปวดศีรษะ มองขึ้นไม่ได้ และ hydrocephalus",
+   "C": "Vestibular schwannoma อยู่ที่ cerebellopontine angle ทำให้หูดับข้างเดียวแบบ sensorineural, tinnitus และเสียการทรงตัว ก้อนใหญ่กด CN V, VII — จะถูกถ้าหูข้างเดียวค่อย ๆ ได้ยินลดลงร่วมกับ tinnitus (ถ้าเป็นสองข้างนึกถึง NF2)",
+   "D": "Convexity meningioma เป็นก้อนนอกเนื้อสมองที่ผิวด้านบน ทำให้ชักหรือ focal deficit ตามตำแหน่ง ไม่เกี่ยวกับฮอร์โมนหรือ chiasm — จะถูกถ้าเป็นหญิงวัยกลางคนชักครั้งแรก MRI พบก้อน dural-based enhance สม่ำเสมอพร้อม dural tail",
+   "E": "Medulloblastoma เป็นเนื้องอก posterior fossa (vermis) ที่พบบ่อยในเด็ก ทำให้ truncal ataxia และ hydrocephalus (ปวดศีรษะตอนเช้า อาเจียน) — จะถูกถ้าเป็นเด็ก 6 ปีเดินเซและอาเจียนตอนเช้า"
   },
   "trap": "เห็น prolactin สูงแล้วสรุปว่า prolactinoma ทันที — ต้องตัดสาเหตุอื่นก่อน: ตั้งครรภ์, ยา dopamine antagonist (antipsychotics, metoclopramide, domperidone), primary hypothyroidism, CKD และ stalk effect จากก้อนอื่นที่กดก้าน (prolactin มักไม่เกิน 100–150 ng/mL) · และเมื่อเป็น prolactinoma แม้มีลานสายตาผิดปกติ การรักษาแรกยังคือยา ไม่ใช่ผ่าตัด",
   "summary": [
@@ -219,10 +219,10 @@
   "interp": "ชายเป็น WHO grade 2 (low-grade) glioma — ตาม WHO CNS5 คือ astrocytoma IDH-mutant หรือ oligodendroglioma IDH-mutant 1p/19q-codeleted; ถามการรักษาหลักลำดับแรก",
   "why": "Low-grade glioma เป็นก้อนแบบ diffuse infiltrative ที่โตช้าแต่ในที่สุดเปลี่ยนเป็น high grade · การรักษาหลักคือ <b>maximal safe resection</b> — ตัดให้มากที่สุดโดยไม่ทำให้เกิด neurological deficit ใหม่ เพราะ extent of resection สัมพันธ์กับ survival ที่ยาวขึ้นและลดโอกาส malignant transformation; ได้ชิ้นเนื้อสำหรับ molecular diagnosis ด้วย · ใช้ awake craniotomy และ brain mapping เมื่อก้อนใกล้ eloquent area · หลังผ่าตัดเลือกตามความเสี่ยง: high risk (อายุ ≥ 40 ปี หรือตัดไม่หมด) → RT + chemotherapy (PCV หรือ temozolomide) ซึ่งเพิ่ม survival (RTOG 9802) · low risk (อายุน้อย ตัดหมด) → ติดตามด้วย MRI · vorasidenib (IDH inhibitor, INDIGO 2023, FDA 2024) ใช้ชะลอ RT/chemo ใน grade 2 IDH-mutant ที่เหลือก้อนหลังผ่าตัด",
   "wrong": {
-   "B": "Radiotherapy เป็น adjuvant หลังผ่าตัดในกลุ่ม high risk (ร่วมกับ chemotherapy) ไม่ใช่การรักษาลำดับแรกเมื่อผ่าตัดได้ — จะถูกถ้าโจทย์ถามการรักษาเสริมหลังผ่าตัดในผู้ป่วยอายุ 50 ปีที่ตัดได้ไม่หมด",
-   "C": "Chemotherapy (PCV หรือ temozolomide) ให้ร่วมกับหรือหลัง RT ในกลุ่ม high risk ไม่ใช้เดี่ยวเป็นการรักษาแรก — จะถูกถ้าโจทย์เป็น oligodendroglioma 1p/19q-codeleted หลังผ่าตัดในกลุ่ม high risk (RT + PCV)",
-   "D": "Palliative care อย่างเดียวใช้กับโรคระยะลุกลามที่รักษาไม่ได้หรือ performance status แย่มาก ไม่ใช่ low-grade glioma ที่มีพยากรณ์โรคยาวหลายปี — จะถูกถ้าโจทย์เป็นผู้สูงอายุที่มี glioblastoma กลับเป็นซ้ำและนอนติดเตียง",
-   "E": "Stereotactic biopsy อย่างเดียวใช้เมื่อก้อนอยู่ลึกหรือกระจายจนผ่าตัดไม่ได้ (thalamus, brainstem, gliomatosis) — ถ้าผ่าตัดได้ควร resection เพราะ biopsy ให้ชิ้นเนื้อน้อยและอาจ under-grade; จะถูกถ้าโจทย์เป็นก้อนที่ thalamus หรือ brainstem"
+   "B": "Radiotherapy (มักร่วม chemotherapy) เป็นการรักษาเสริมหลังผ่าตัดในกลุ่มเสี่ยงสูง ไม่ใช่การรักษาแรกเมื่อผ่าตัดได้ — จะถูกถ้าก้อน grade II แทรกลึกในตำแหน่งที่ผ่าตัดไม่ได้ (เช่น ก้านสมอง) ได้ชิ้นเนื้อยืนยันแล้ว และมีอาการหรือโตขึ้น",
+   "C": "Chemotherapy (PCV หรือ temozolomide) ให้ร่วมกับหรือหลัง RT ในกลุ่ม high risk ไม่ใช้เดี่ยวเป็นการรักษาแรก — จะถูกถ้าเป็น oligodendroglioma 1p/19q-codeleted หลังผ่าตัดในกลุ่ม high risk (RT + PCV)",
+   "D": "Palliative care อย่างเดียวใช้กับโรคระยะลุกลามที่รักษาไม่ได้หรือ performance status แย่มาก ไม่ใช่ low-grade glioma ที่มีพยากรณ์โรคยาวหลายปี — จะถูกถ้าเป็นผู้สูงอายุที่มี glioblastoma กลับเป็นซ้ำและนอนติดเตียง",
+   "E": "Stereotactic biopsy อย่างเดียวใช้เมื่อก้อนอยู่ลึกหรือกระจายจนผ่าตัดไม่ได้ (thalamus, brainstem, gliomatosis) — ถ้าผ่าตัดได้ควร resection เพราะ biopsy ให้ชิ้นเนื้อน้อยและอาจ under-grade; จะถูกถ้าเป็นก้อนแทรกลึกที่ thalamus หรือ brainstem ที่ยังไม่มีชิ้นเนื้อ ต้องการการวินิจฉัยและ molecular ก่อนวางแผนรักษา"
   },
   "trap": "คิดว่า low grade โตช้าจึง \"รอดู\" หรือให้ RT ก่อน — มาตรฐานปัจจุบันคือผ่าตัดเร็วและมากที่สุดเท่าที่ปลอดภัย แล้วค่อยเลือก adjuvant ตามความเสี่ยงและ molecular",
   "summary": [
@@ -244,10 +244,10 @@
   "interp": "ทารกอายุ 2 ชั่วโมงเขียวมากแต่ไม่หอบ (เขียวไม่สมกับอาการหายใจ = นึกถึง cyanotic heart disease) ร่วมกับ CXR ที่หัวใจรูปไข่นอนตะแคงและ superior mediastinum แคบ (egg on a string) → transposition of the great arteries",
   "why": "D-TGA: aorta ออกจาก RV และ pulmonary artery ออกจาก LV → ระบบไหลเวียนสองวงขนานกัน เลือดดำวนกลับไปร่างกาย รอดได้ด้วยการผสมเลือดผ่าน PFO/ASD, PDA หรือ VSD เท่านั้น · จึงเขียวมากตั้งแต่ชั่วโมงแรกโดยไม่ค่อยหอบ และเขียวมากขึ้นเมื่อ PDA เริ่มปิด · CXR: <b>egg on a string</b> — หัวใจรูปไข่ + great arteries วางหน้าหลังกัน และ thymus ฝ่อจาก stress ทำให้ superior mediastinum แคบ pulmonary vascularity ปกติหรือเพิ่ม · รักษาเร่งด่วน: PGE1 คง PDA ± balloon atrial septostomy (Rashkind) ถ้า mixing ไม่พอ → arterial switch operation (Jatene) ภายใน 2–3 สัปดาห์แรก",
   "wrong": {
-   "A": "Truncus arteriosus มีหลอดเลือดใหญ่เส้นเดียว + VSD เลือดไปปอดมาก จึงเขียวไม่มากแต่มี heart failure ในไม่กี่สัปดาห์ CXR หัวใจโต pulmonary vascularity เพิ่ม ± right aortic arch (สัมพันธ์กับ DiGeorge) — จะถูกถ้าโจทย์เป็นทารก 3 สัปดาห์เหนื่อยหอบ เขียวเล็กน้อย bounding pulse และมี hypocalcemia",
-   "B": "Tetralogy of Fallot: CXR หัวใจรูปรองเท้าบูท (boot-shaped) + ปอดดำ (oligemia) · มักเขียวช้ากว่า (หลายสัปดาห์–เดือน) และมี tet spell — จะถูกถ้าโจทย์เป็นเด็ก 4 เดือนเขียวเป็นพัก ๆ ขณะร้องและ CXR boot-shaped",
-   "D": "TAPVR: ชนิด supracardiac ในเด็กโตเห็น snowman sign ส่วนชนิด obstructed (infracardiac) ในทารกแรกเกิดหัวใจเล็กแต่ปอดคั่งเลือดรุนแรงและหอบมาก — จะถูกถ้าโจทย์ให้ทารกเขียวร่วมกับหายใจหอบมากและ CXR มี pulmonary venous congestion โดยหัวใจไม่โต",
-   "E": "Pneumopericardium เห็นแถบอากาศล้อมรอบเงาหัวใจ (halo) มักเกิดในทารกที่ใช้เครื่องช่วยหายใจแรงดันบวก อาจทำให้ tamponade — จะถูกถ้าโจทย์เป็นทารกคลอดก่อนกำหนดที่ใส่เครื่องช่วยหายใจแล้วความดันตกทันทีและ CXR มีอากาศล้อมหัวใจ"
+   "A": "Truncus arteriosus มีหลอดเลือดใหญ่เส้นเดียว + VSD เลือดไปปอดมาก จึงเขียวไม่มากแต่มี heart failure ในไม่กี่สัปดาห์ CXR หัวใจโต pulmonary vascularity เพิ่ม ± right aortic arch (สัมพันธ์กับ DiGeorge) — จะถูกถ้าเป็นทารก 3 สัปดาห์เหนื่อยหอบ เขียวเล็กน้อย bounding pulse และมี hypocalcemia",
+   "B": "Tetralogy of Fallot: CXR หัวใจรูปรองเท้าบูท (boot-shaped) + ปอดดำ (oligemia) · มักเขียวช้ากว่า (หลายสัปดาห์–เดือน) และมี tet spell — จะถูกถ้าเป็นเด็ก 4 เดือนเขียวเป็นพัก ๆ ขณะร้องและ CXR boot-shaped",
+   "D": "TAPVR: ชนิด supracardiac ในเด็กโตเห็น snowman sign ส่วนชนิด obstructed (infracardiac) ในทารกแรกเกิดหัวใจเล็กแต่ปอดคั่งเลือดรุนแรงและหอบมาก — จะถูกถ้าทารกเขียวร่วมกับหายใจหอบมากและ CXR มี pulmonary venous congestion โดยหัวใจไม่โต",
+   "E": "Pneumopericardium เห็นแถบอากาศล้อมรอบเงาหัวใจ (halo) มักเกิดในทารกที่ใช้เครื่องช่วยหายใจแรงดันบวก อาจทำให้ tamponade — จะถูกถ้าเป็นทารกคลอดก่อนกำหนดที่ใส่เครื่องช่วยหายใจแล้วความดันตกทันทีและ CXR มีอากาศล้อมหัวใจ"
   },
   "trap": "ทารกเขียวมากแต่ไม่หอบในวันแรก = cyanotic CHD ที่พึ่ง PDA (นึกถึง TGA ก่อน) → เริ่ม PGE1 ทันทีไม่ต้องรอ echo · อย่าสับ CXR signs: egg on string (TGA) · boot (TOF) · snowman (supracardiac TAPVR) · box-shaped (Ebstein)",
   "summary": [
