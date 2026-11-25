@@ -27,28 +27,23 @@
  },
  "MDCU78|RoB|13": {
   "interp": "ยา antiplatelet ที่ให้ก่อน CABG และคงไว้ได้ถึงวันผ่าตัด คือ aspirin (โจทย์ใช้คำว่ายับยั้ง \"non-endothelial pathway\" ของการกระตุ้นเกล็ดเลือด หมายถึงทางที่เกิดในเกล็ดเลือดเองคือ thromboxane A2) — ถามกลไกออกฤทธิ์โดยตรงของยา",
-  "why": "Aspirin <b>acetylate COX-1 แบบ irreversible</b> ในเกล็ดเลือด → เกล็ดเลือดสร้าง thromboxane A2 ไม่ได้ จึงลดการกระตุ้นและการเกาะกลุ่ม · เกล็ดเลือดไม่มี nucleus สร้างเอนไซม์ใหม่ไม่ได้ ผลจึงอยู่ตลอดอายุเกล็ดเลือด 7–10 วัน · การลด TXA2 (ช้อย A) เป็นผลที่ตามมาจากการยับยั้ง COX — กลไกตรงของยาคือ COX จึงเป็นคำตอบที่ดีกว่า ตรงกับคีย์ในไฟล์ \"B>A\" · ก่อน CABG ให้ aspirin ต่อได้ (ลด graft occlusion และ ischemic events) แต่หยุด P2Y12 inhibitor: clopidogrel 5 วัน, ticagrelor 3–5 วัน, prasugrel 7 วัน เพื่อลดเลือดออก",
+  "why": "Aspirin <b>acetylate COX-1 แบบ irreversible</b> ในเกล็ดเลือด → เกล็ดเลือดสร้าง thromboxane A2 ไม่ได้ จึงลดการกระตุ้นและการเกาะกลุ่ม · คีย์ในไฟล์เขียน \"B&gt;A\": การลด TXA2 เป็นผลปลายทาง กลไกตรงคือ COX",
   "wrong": {
    "A": "การลดการสร้าง thromboxane A2 เป็นผลปลายทางของการยับยั้ง COX-1 ไม่ใช่กลไกตรงของ aspirin — จะถูกถ้ายาที่ให้คือ thromboxane synthase inhibitor (เช่น ozagrel) ซึ่งยับยั้งการสร้าง TXA2 โดยตรงโดยไม่ยับยั้ง COX",
-   "C": "ยับยั้ง vitamin K–dependent clotting factors (II, VII, IX, X) คือ warfarin ซึ่งเป็น anticoagulant ไม่ใช่ antiplatelet — จะถูกถ้ายาที่ให้คือ warfarin ในผู้ป่วยลิ้นหัวใจเทียมชนิดโลหะที่ต้องกินตลอดชีวิต",
-   "D": "กระตุ้น antithrombin III คือ heparin/LMWH ซึ่งเป็น anticoagulant ไม่ได้ออกฤทธิ์ที่เกล็ดเลือดโดยตรง — จะถูกถ้ายาที่ให้คือ heparin ระหว่าง cardiopulmonary bypass (ย้อนฤทธิ์ด้วย protamine)",
-   "E": "ยับยั้ง P2Y12 (ADP receptor) คือ clopidogrel, prasugrel, ticagrelor ซึ่งต้องหยุดก่อน elective CABG เพราะเพิ่มเลือดออก — จะถูกถ้ายาที่ให้คือยาตัวที่สองของ DAPT หลังใส่ coronary stent"
+   "C": "ยับยั้ง vitamin K–dependent clotting factors (II, VII, IX, X) คือ warfarin — ไม่มีสถานการณ์ใดที่ข้อความนี้อธิบายกลไกของยาต้านเกล็ดเลือด เพราะ warfarin เป็น anticoagulant ที่ลดการสร้างปัจจัยการแข็งตัวในตับ ไม่ได้ออกฤทธิ์ที่เกล็ดเลือด",
+   "D": "กระตุ้น antithrombin III คือ heparin/LMWH — ไม่มีสถานการณ์ใดที่ข้อความนี้อธิบายกลไกของยาต้านเกล็ดเลือด เพราะ heparin เร่ง antithrombin ยับยั้ง thrombin และ factor Xa ในพลาสมา ไม่ได้ยับยั้งเกล็ดเลือด",
+   "E": "ยับยั้ง P2Y12 (ADP receptor) คือ clopidogrel, prasugrel, ticagrelor — จะถูกถ้ายาที่ได้ก่อน CABG คือ clopidogrel หรือ ticagrelor ที่เริ่มให้ตอนเป็น ACS แล้วจึงตัดสินใจผ่าตัด"
   },
-  "trap": "ช้อย A กับ B ถูกทั้งคู่ในแง่หนึ่ง — B คือกลไกตรง (ยับยั้ง COX แบบ irreversible) ส่วน A คือผลที่ตามมา · และจำว่าก่อน CABG aspirin ไม่ต้องหยุด แต่ P2Y12 inhibitor ต้องหยุด",
+  "trap": "เลือก A เพราะรู้ว่า aspirin ลด TXA2 — นั่นเป็นผลปลายทาง กลไกตรงของยาคือ acetylate COX-1 แบบ irreversible",
   "summary": [
-   "Aspirin: irreversible COX-1 → ↓TXA2 · ผลอยู่ 7–10 วัน (ตลอดอายุเกล็ดเลือด)",
+   "Aspirin: irreversible COX-1 → ↓TXA2 · ผลอยู่ 7–10 วัน (ตลอดอายุเกล็ดเลือด เพราะเกล็ดเลือดไม่มี nucleus สร้างเอนไซม์ใหม่ไม่ได้)",
    "Clopidogrel, prasugrel: irreversible P2Y12 (ADP receptor) blocker · ticagrelor: reversible P2Y12 · clopidogrel เป็น prodrug ผ่าน CYP2C19",
    "GP IIb/IIIa inhibitors (abciximab, eptifibatide, tirofiban): ยับยั้ง final common pathway ของการเกาะกลุ่ม",
-   "ก่อน elective CABG: ให้ aspirin ต่อ · หยุด clopidogrel 5 วัน, ticagrelor 3–5 วัน, prasugrel 7 วัน",
-   "Anticoagulant: warfarin ยับยั้ง vitamin K–dependent factors II, VII, IX, X และ protein C, S · heparin กระตุ้น antithrombin",
-   "หลัง CABG: เริ่ม aspirin ภายใน 6–24 ชม. และให้ต่อตลอดชีวิต",
-   "ต้อง CABG ด่วนขณะได้ P2Y12 inhibitor: หยุดยาอย่างน้อย 24 ชม.ถ้าทำได้ · เลือดออกมากหลังผ่าตัดให้ platelet transfusion (ticagrelor ยังจับเกล็ดเลือดที่ให้ใหม่ได้ช่วงแรก)"
+   "ก่อน elective CABG: ให้ aspirin ต่อ · หยุด clopidogrel 5 วัน, ticagrelor 3–5 วัน, prasugrel 7 วัน"
   ],
   "variants": [
-   "ผู้ป่วยกิน ticagrelor นัดทำ elective CABG ควรหยุดยาก่อนกี่วัน → 3–5 วัน (คง aspirin ไว้)",
-   "ทำไมผลของ aspirin ต่อเกล็ดเลือดอยู่ได้ 7–10 วัน → ยับยั้ง COX แบบ irreversible และเกล็ดเลือดไม่มี nucleus สร้างเอนไซม์ใหม่ไม่ได้",
    "ผู้ป่วยกิน clopidogrel แต่ยังเกิด stent thrombosis ตรวจพบ CYP2C19 loss-of-function → เปลี่ยนเป็น ticagrelor หรือ prasugrel",
-   "ผู้ป่วยได้ heparin แล้วเกล็ดเลือดลดลงครึ่งหนึ่งในวันที่ 6 พร้อม thrombosis → HIT หยุด heparin ทั้งหมด ให้ argatroban หรือ fondaparinux"
+   "ผู้ป่วยโรคหลอดเลือดหัวใจที่แพ้ aspirin (หอบหืดกำเริบหลังกิน) ต้องใช้ยาต้านเกล็ดเลือดเดี่ยวระยะยาว → clopidogrel"
   ]
  },
  "MDCU78|RoB|14": {
