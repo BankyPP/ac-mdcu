@@ -1,99 +1,97 @@
 {
  "MDCU66|RoC|1": {
-  "interp": "คำใบ้: ชาย 20 ปี เป็น <b>leukemia</b> + ได้ <b>เคมีบำบัดมา 10 วัน</b> (อยู่ในช่วง nadir: neutropenia + thrombocytopenia) + prolapsed thrombosed internal hemorrhoid → โจทย์ถามว่าเมื่อบริบทผู้ป่วยภูมิคุ้มกันต่ำและเลือดออกง่าย การรักษาที่เหมาะคืออะไร ไม่ใช่การรักษาริดสีดวงที่มีภาวะแทรกซ้อนในคนปกติ",
-  "summary": [
-   "Chemotherapy nadir: ANC ต่ำสุดราววันที่ 7–14 หลังให้ยา และฟื้นราววันที่ 21–28 · ANC < 500/µL (severe neutropenia) เสี่ยงติดเชื้อรุนแรง · เกล็ดเลือดต่ำเสี่ยงเลือดออกจากหัตถการ",
-   "Anorectal disease ในผู้ป่วย neutropenic พบ ~5–10% (perianal infection, abscess, fissure, hemorrhoid) · อาการอาจไม่ชัดเพราะไม่มี neutrophil สร้างหนอง → เห็นแค่ปวด แดง กดเจ็บ ไข้",
-   "การรักษาเบื้องต้น: conservative — warm sitz bath, stool softener/ยาระบาย, ยาแก้ปวด/topical anesthetic, broad-spectrum antibiotics ครอบคลุม gram-negative + anaerobe (เช่น piperacillin–tazobactam) เมื่อมีไข้หรือสงสัยติดเชื้อ, G-CSF ตามข้อบ่งชี้, ให้เกล็ดเลือดถ้าเลือดออก",
-   "ผ่าตัด/ระบายเมื่อ: มี abscess ที่ fluctuant หรือเห็นจาก CT/MRI, necrotizing soft tissue infection (Fournier), ไม่ดีขึ้นจากยา, เลือดออกที่คุมไม่ได้ · ถ้ารอได้ให้รอ count ฟื้น",
-   "ข้อห้ามใน neutropenia: digital rectal exam ซ้ำ ๆ, สวนทวาร, rectal suppository/thermometer, rubber band ligation (เสี่ยง pelvic sepsis) และ elective anorectal surgery",
-   "ในคนภูมิคุ้มกันปกติ: prolapsed thrombosed internal hemorrhoid → excisional hemorrhoidectomy · thrombosed external hemorrhoid < 72 ชม. → excision ของก้อน · > 72 ชม. → conservative",
-   "Neutropenic enterocolitis (typhlitis): ไข้ ปวดท้องขวาล่าง ท้องเสียในช่วง nadir CT เห็นผนัง cecum หนา → bowel rest, ยาครอบคลุม gram-negative/anaerobe, ผ่าตัดเมื่อ perforation หรือเลือดออกไม่หยุด"
-  ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง — ผู้ป่วยอยู่ในช่วง nadir ของเคมีบำบัด การทำหัตถการที่ทวารเสี่ยง perianal sepsis และเลือดออก ตามลายมือในคีย์ 'immunocompromised, bleeding tendency · C C/I in CMT' จึงรักษาแบบประคับประคองก่อน · จุดกำกวม: ช้อย E 'warm sitz bath and medication' ไม่ได้ระบุยาปฏิชีวนะ ถ้าผู้ป่วยมีไข้ (febrile neutropenia) ต้องให้ยาปฏิชีวนะ IV ด้วย · ช้อย E ไม่มีในไฟล์เดิม ผู้จดเติมด้วยลายมือ · ข้อนี้ดีเพราะทดสอบว่าการรักษาที่ถูกในคนปกติกลายเป็นผิดเมื่อบริบทเปลี่ยน",
-  "variants": [
-   "ผู้ป่วย AML หลังเคมีบำบัด 12 วัน ANC 200 ไข้ 38.8°C ปวดรอบทวาร ผิวแดงกดเจ็บไม่มี fluctuation → febrile neutropenia กับ perianal infection; piperacillin–tazobactam IV, sitz bath, stool softener, CT/MRI ถ้าไม่ดีขึ้น",
-   "ผู้ป่วย lymphoma หลังเคมีบำบัด ปวดทวารมากขึ้นเร็ว ผิวรอบทวารดำคล้ำ มี crepitus → necrotizing perianal infection (Fournier); ผ่าตัด debridement ด่วนแม้ neutropenic",
-   "ผู้ป่วย leukemia ช่วง nadir ไข้ ปวดท้องขวาล่าง ท้องเสีย CT ผนัง cecum หนา → neutropenic enterocolitis; bowel rest + ยาครอบคลุม gram-negative/anaerobe",
-   "ผู้ป่วย leukemia ที่ count ฟื้นแล้วหลังจบเคมีบำบัด ยังมี grade III hemorrhoid เลือดออกซ้ำ → ทำ elective hemorrhoidectomy ได้ในช่วงที่ ANC และเกล็ดเลือดปกติ"
-  ],
+  "interp": "ริดสีดวงยื่นค้างมีลิ่มเลือด แต่ผู้ป่วยอยู่ช่วงเม็ดเลือดต่ำหลังเคมีบำบัด (ภูมิต่ำ เลือดออกง่าย) → ถามการดูแลที่ปลอดภัย",
+  "why": "<b>ลายมือเติม E warm sitz bath + med · immunocompromised, bleeding tendency · C C/I in CMT</b><br><b>นอกสไลด์:</b> ช่วง nadir (neutropenia + thrombocytopenia) หัตถการที่ทวารเสี่ยงติดเชื้อรุนแรงรอบทวารและเลือดออก → ประคับประคอง: แช่น้ำอุ่น ยาแก้ปวด ยาระบาย ยาทาลดบวม เฝ้าระวังไข้ — ผ่าตัดเมื่อเม็ดเลือดฟื้น หรือเมื่อมีเนื้อตาย/ฝี",
   "wrong": {
-   "A": "Incision & drainage เป็นการรักษาของ perianal abscess ส่วน thrombosed external hemorrhoid ที่ไม่เกิน 72 ชม. ในคนปกติใช้การตัดก้อนออกทั้งก้อน (การกรีดเอาลิ่มเลือดออกอย่างเดียวกลับเป็นซ้ำบ่อย) · ในผู้ป่วย neutropenic การกรีดทำให้แผลไม่หายและติดเชื้อลุกลาม · จะถูกถ้าผู้ป่วยมี perianal abscess ที่ fluctuant ชัด (แม้ neutropenic ก็ต้องระบาย) หรือคนภูมิคุ้มกันปกติมี perianal abscess",
-   "B": "Hemorrhoidectomy เป็นการรักษา complicated/prolapsed thrombosed internal hemorrhoid ในคนปกติ แต่ในช่วง nadir หลังเคมีบำบัด (neutropenia + thrombocytopenia) เสี่ยง perianal sepsis แผลไม่หาย และเลือดออก · จะถูกถ้าผู้ป่วยภูมิคุ้มกันปกติ หรือรอจน count ฟื้นแล้วยังมีอาการ",
-   "C": "Rubber band ligation ห้ามในผู้ป่วยได้เคมีบำบัด/neutropenic (คีย์ลายมือ: C C/I in CMT) เพราะเสี่ยง pelvic sepsis และห้ามรัดก้อนที่ thrombosed เพราะปวดมาก · จะถูกถ้าเป็น grade II–III ที่ไม่มีภาวะแทรกซ้อนในผู้ป่วยภูมิคุ้มกันปกติ",
-   "D": "Stapled hemorrhoidopexy เหมาะกับ grade III ที่ prolapse รอบวงและดันกลับเข้าได้ (บาง grade IV ที่ดันกลับได้) ไม่เหมาะกับก้อนที่ thrombosed และมีความเสี่ยง pelvic sepsis อยู่แล้ว ยิ่งไม่ควรทำใน neutropenia · จะถูกถ้าเป็นผู้ป่วยทั่วไปที่ prolapse รอบวงไม่มี thrombosis และต้องการลดความปวดหลังผ่าตัด"
-  }
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นฝีรอบทวารที่เป็นหนองชัด — แม้เม็ดเลือดขาวต่ำ ฝีที่เป็นหนองก็ต้องระบาย",
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเม็ดเลือดปกติ ไม่ได้อยู่ช่วงเคมีบำบัด มีริดสีดวงยื่นค้างมีลิ่มเลือด",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าคนสุขภาพดีมีริดสีดวง grade II–III เลือดออก ไม่มีลิ่มเลือด และไม่มีภาวะภูมิคุ้มกันต่ำ",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าริดสีดวง grade III–IV ยื่นเป็นวงรอบ ไม่มีลิ่มเลือดหรือเนื้อตาย ในผู้ป่วยที่ต้องการเจ็บหลังผ่าตัดน้อย"
+  },
+  "trap": "รอยโรคแบบเดียวกันในคนปกติรักษาด้วย hemorrhoidectomy — ตัวเปลี่ยนคำตอบคือเม็ดเลือดต่ำหลังเคมี ไม่ใช่ลักษณะริดสีดวง",
+  "summary": [
+   "<b>นอกสไลด์:</b> ผู้ป่วย neutropenia ที่มีปัญหาทวาร: เลี่ยงตรวจทางทวาร สวน เหน็บยา · ไข้หรือปวดรอบทวารมากขึ้น → ยาปฏิชีวนะฉีดคลุม gram-negative/anaerobe + CT หาฝี"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> ผู้ป่วยตับแข็ง INR 2.5 เกล็ดเลือด 40,000 มีริดสีดวงเลือดออก → แก้ภาวะเลือดออกง่ายและแยก anorectal varices ก่อนทำหัตถการ",
+   "<b>นอกสไลด์:</b> ผู้ป่วยกิน warfarin มีริดสีดวง grade II เลือดออกซ้ำ → เลี่ยงการรัดหนังยาง (เลือดออกเมื่อปมหลุด) ใช้ยาและใยอาหาร หรือหยุดยาชั่วคราวตามความเสี่ยงก่อนทำ"
+  ]
  },
  "MDCU66|RoC|2": {
-  "interp": "ข้อยกเว้น (<b>EXCEPT</b>): หาสิ่งที่ <b>ไม่ใช่</b> อาการของ zygoma (ZMC) fracture · ช้อย A–D เป็นผลจากโครงสร้างรอบ zygoma (arch กด coronoid → trismus, orbit → diplopia/ecchymosis, infraorbital nerve → ชา) ส่วน lingual crossbite เป็นความผิดปกติของการสบฟันซึ่งต้องเกิดจากกระดูกที่ถือฟัน",
+  "interp": "ข้อ EXCEPT — หาสิ่งที่ \"ไม่ใช่\" อาการของ zygoma หัก (ข้อนี้เก็บมุมกายวิภาคที่อธิบายแต่ละอาการ)",
+  "why": "<b>คีย์: E · ติ๊ก A–D</b><br><b>นอกสไลด์:</b> crossbite = ฟันบนสบอยู่ด้านในของฟันล่าง เป็นการสบฟันผิดแนวขวาง ต้องมีกระดูกที่ถือฟันเคลื่อน (maxilla หรือ mandible) — zygoma ไม่ถือฟัน",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ zygomatic arch ที่ยุบลงกด coronoid process และ temporalis ทำให้อ้าปากไม่ได้",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ zygoma เป็นผนังด้านข้างและส่วนหนึ่งของพื้นเบ้าตา หักแล้วกล้ามเนื้อตาติดหรือลูกตาเลื่อนระดับ",
+   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะเลือดจากรอยหักที่ขอบเบ้าตาซึมเข้าเนื้อเยื่อหลวมรอบตา",
+   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ infraorbital nerve วิ่งผ่านพื้นเบ้าตาและ foramen ใกล้ zygomaticomaxillary suture ซึ่งเป็นแนวหักบ่อย"
+  },
+  "trap": "ZMC หักรุนแรงร่วม LeFort อาจมีสบฟันผิดได้ — แต่เกิดจาก maxilla ที่หักร่วม ไม่ใช่ zygoma เอง",
   "summary": [
-   "ZMC (tetrapod) fracture: frontozygomatic suture, infraorbital rim + orbital floor, zygomaticomaxillary buttress, zygomatic arch · เกิดจากแรงกระแทกตรงโหนกแก้ม (ต่อย, อุบัติเหตุรถ)",
-   "อาการแสดง: malar flattening (ชัดหลังยุบบวม), periorbital ecchymosis + lateral subconjunctival hemorrhage, infraorbital nerve paresthesia (พบบ่อยที่สุด), trismus, diplopia, enophthalmos, step-off ที่ขอบ orbit, epistaxis ข้างเดียว",
-   "Crossbite คือฟันบนสบอยู่ด้านในต่อฟันล่าง (lingual/palatal crossbite) หรือกลับกัน · open bite, deviation, premature contact ล้วนเป็นความผิดปกติของการสบฟันที่เกิดจาก maxilla (Le Fort, palatal/alveolar fracture) หรือ mandible",
-   "Palatal (sagittal) fracture ร่วมกับ Le Fort ทำให้ maxilla แยกออกด้านข้าง → crossbite · ต้องแก้ด้วย ORIF ที่เพดาน/MMF",
-   "Imaging: CT maxillofacial เป็นมาตรฐาน · Waters view (midface), submentovertex (arch) · ตรวจตาเสมอ (visual acuity, ocular motility, retrobulbar hematoma)",
-   "ORIF ของ ZMC เมื่อเคลื่อนจนผิดรูป, trismus, diplopia/entrapment, enophthalmos · ทำภายใน 1–2 สัปดาห์หลังยุบบวม · ไม่เคลื่อน → conservative + sinus precaution (ห้ามสั่งน้ำมูก)"
+   "<b>นอกสไลด์:</b> ZMC ยึดกับกะโหลก 4 จุด: frontozygomatic, zygomaticomaxillary (ขอบเบ้าตาล่าง/buttress), zygomaticotemporal (arch), zygomaticosphenoid · คลำได้ขั้นบันไดที่ขอบเบ้าตาล่างและ FZ suture"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง — trismus, diplopia, periorbital ecchymosis และชา infraorbital เป็นอาการของ ZMC fracture (คีย์ติ๊ก A–D ไว้) ส่วน crossbite เป็นปัญหาการสบฟันที่ต้องมาจาก maxilla/mandible · จุดกำกวมเล็กน้อย: ZMC ที่เคลื่อนมากร่วมกับ maxilla (Le Fort III) อาจมีการสบฟันผิดได้ แต่ในกรณีแยกเดี่ยวไม่มี · ข้อนี้ซ้ำธีมกับ 66 RoB ข้อ 38 (malocclusion) แสดงว่าเป็นหลักที่เน้น",
+  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
   "variants": [
-   "ผู้ป่วยถูกตีที่หน้า maxilla ขยับได้ทั้งชิ้นพร้อมเพดาน ฟันบนสบเลยด้านในต่อฟันล่างข้างหนึ่ง CT พบ sagittal palatal fracture ร่วม Le Fort I → crossbite จาก maxillary/palatal fracture; ORIF + MMF",
-   "ผู้ป่วย ZMC fracture อ้าปากได้เพียง 1 นิ้วมือ → กลไก trismus (คำตอบ: zygomatic arch ยุบกด coronoid process และ temporalis)",
-   "ผู้ป่วยหลัง ZMC fracture 3 สัปดาห์ ยุบบวมแล้ว ตาข้างนั้นจมลึกกว่าอีกข้าง 3 mm → enophthalmos จาก orbital volume เพิ่ม; ผ่าตัดซ่อม orbital floor/ZMC",
-   "ผู้ป่วย ZMC fracture ตามัวลง ตาโปนแข็ง ปวดมาก → retrobulbar hematoma; lateral canthotomy + cantholysis ทันที"
+   "<b>นอกสไลด์:</b> CT พบ ZMC หักเคลื่อนตรง FZ suture ขอบเบ้าตาล่าง และ zygomatic buttress → ORIF ยึดหลายจุด",
+   "<b>นอกสไลด์:</b> ถูกต่อยตา ภาพซ้อนเมื่อมองขึ้น พื้นเบ้าตาแตกแต่ขอบเบ้าตาไม่หัก → pure orbital blowout fracture (ไม่ใช่ ZMC)"
   ]
  },
  "MDCU66|RoC|3": {
+  "interp": "ถามกลไกที่ citrate ป้องกันนิ่วซ้ำ",
+  "why": "<b>ลายมือ: จับ Ca²⁺ → ไม่ให้จับ oxalate</b><br><b>นอกสไลด์:</b> citrate จับแคลเซียมเป็น complex ที่ละลายน้ำได้ → แคลเซียมอิสระที่จะจับ oxalate/phosphate ลดลง และยังยับยั้งการรวมตัวของผลึก",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate ป้องกันนิ่วด้วยการลด chloride ในปัสสาวะ เพราะ chloride ไม่ใช่ส่วนประกอบของนิ่วและ citrate ไม่ได้ควบคุมการขับ chloride",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate ลดการขับ oxalate เพราะ oxalate ในปัสสาวะขึ้นกับอาหารและการดูดซึมที่ลำไส้",
+   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate จับ oxalate เพราะทั้งคู่เป็นประจุลบ citrate จับไอออนบวกคือแคลเซียม",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate จับ phosphate เพราะ phosphate เป็นประจุลบเช่นกัน — citrate ลดนิ่ว calcium phosphate ด้วยการแย่งจับแคลเซียม"
+  },
+  "trap": "citrate กับ oxalate ฟังเหมือนคู่ที่จับกัน — ประจุลบจับประจุลบไม่ได้",
   "summary": [
-   "ชนิดนิ่ว: calcium oxalate (~70–80%) > calcium phosphate > uric acid (~5–10%, radiolucent ใน plain film) > struvite (infection stone) > cystine (hexagonal crystals) · ในไทย พบนิ่วไตบ่อยในภาคอีสาน (hypocitraturia, hypokalemia, ดื่มน้ำน้อย)",
-   "Stone inhibitors ในปัสสาวะ: citrate (สำคัญที่สุด), magnesium, Tamm–Horsfall protein, nephrocalcin, pyrophosphate · promoters: calcium, oxalate, uric acid, ปัสสาวะเข้มข้น, pH ผิดปกติ",
-   "กลไก citrate: จับ calcium เป็น soluble calcium citrate → ลด supersaturation ของ calcium oxalate/phosphate · ยับยั้ง nucleation, growth, aggregation ของผลึก · potassium citrate ทำให้ปัสสาวะเป็นด่าง (ช่วย uric acid และ cystine)",
-   "Hypocitraturia (< 320 mg/วัน): distal RTA (type 1), chronic diarrhea (acidosis), hypokalemia (รวม thiazide), อาหารโปรตีนสัตว์สูง, ออกกำลังกายหนัก/ขาดน้ำ · รักษา potassium citrate 30–60 mEq/วัน",
-   "Metabolic workup (นิ่วเป็นซ้ำ/ความเสี่ยงสูง): 24-hr urine volume, calcium, oxalate, citrate, uric acid, sodium, creatinine, pH + serum Ca, PTH, uric acid + วิเคราะห์ชนิดนิ่ว",
-   "การป้องกันตามความผิดปกติ: ทุกราย ดื่มน้ำให้ปัสสาวะ ≥ 2–2.5 L/วัน, ลดเกลือ, ลดโปรตีนสัตว์, กินแคลเซียมปกติ 1,000–1,200 mg/วัน ร่วมมื้ออาหาร · hypercalciuria → thiazide · hyperoxaluria → ลด oxalate/รักษาสาเหตุลำไส้ · hyperuricosuria → allopurinol · uric acid stone → alkalinize ให้ pH 6.0–6.5",
-   "Struvite: เชื้อสร้าง urease (Proteus, Klebsiella) → ammonia → pH สูง → magnesium ammonium phosphate → staghorn · ต้องเอานิ่วออกทั้งหมด (PCNL) + รักษาการติดเชื้อ"
+   "<b>นอกสไลด์:</b> hypocitraturia: distal RTA, ท้องเสียเรื้อรัง, hypokalemia, อาหารโปรตีนสัตว์สูง · รักษาด้วย potassium citrate (เพิ่ม citrate และทำปัสสาวะเป็นด่าง)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — กลไกหลักของ citrate คือจับ calcium เป็น complex ที่ละลายได้ ทำให้ calcium ไม่จับ oxalate ตามลายมือในคีย์ และตำรา Campbell–Walsh · จุดกำกวม: citrate มีกลไกอื่นด้วย (ยับยั้งการเกาะกลุ่มของผลึกโดยตรง, ทำให้ปัสสาวะเป็นด่าง) ถ้าข้อสอบมีช้อย 'inhibits crystal aggregation' หรือ 'alkalinizes urine' จะถูกด้วย · ในบรรดาช้อยที่มี C เป็นข้อเดียวที่ถูก",
+  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
   "variants": [
-   "หญิง 35 ปี นิ่ว calcium oxalate ซ้ำ ท้องเสียเรื้อรังหลังผ่าตัดลำไส้เล็ก 24-hr urine citrate ต่ำ oxalate สูง → enteric hyperoxaluria + hypocitraturia; ดื่มน้ำมาก ลดไขมันและ oxalate กิน calcium ร่วมมื้อ potassium citrate",
-   "ชาย 50 ปี gout นิ่วที่มองไม่เห็นใน KUB แต่เห็นใน CT ปัสสาวะ pH 5.0 → uric acid stone; potassium citrate ให้ pH 6.0–6.5 (ละลายนิ่วได้) ± allopurinol",
-   "หญิง 30 ปี นิ่วซ้ำ hypokalemia non-anion gap metabolic acidosis ปัสสาวะ pH > 6 nephrocalcinosis → distal RTA; potassium citrate",
-   "ผู้ป่วยนิ่ว calcium ซ้ำ 24-hr urine calcium สูงอย่างเดียว serum Ca และ PTH ปกติ → idiopathic hypercalciuria; thiazide + ลดเกลือ (ไม่จำกัดแคลเซียมในอาหาร)"
+   "<b>นอกสไลด์:</b> นิ่ว calcium oxalate ซ้ำ ปัสสาวะ 24 ชม. citrate ต่ำ → potassium citrate + ดื่มน้ำให้ปัสสาวะ > 2.5 L/วัน",
+   "<b>นอกสไลด์:</b> ได้ potassium citrate แล้ว pH ปัสสาวะเกิน 7 ตลอด → เสี่ยงนิ่ว calcium phosphate ปรับลดขนาด"
   ]
  },
  "MDCU66|RoC|4": {
+  "interp": "ภาพวาด moon face, buffalo hump, อ้วนลำตัว, แขนขาลีบ, ลายแตกสีม่วง → ลักษณะของ cortisol เกิน",
+  "why": "<b>คีย์: A</b><br><b>นอกสไลด์:</b> cortisol เกินทำให้ไขมันกระจายมาที่ใบหน้า ต้นคอ ลำตัว แต่สลายกล้ามเนื้อแขนขา · ผิวบางและ collagen เสีย → striae กว้างสีม่วง ช้ำง่าย",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าภาพเป็นผู้ใหญ่หน้าผากและคางยื่น ฟันห่าง จมูกและริมฝีปากหนา มือเท้าใหญ่",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กหรือวัยรุ่นตัวสูงผิดปกติเร็วกว่าเพื่อนมาก (GH เกินก่อน epiphysis ปิด)",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าอ้วนทั่วทั้งตัวรวมแขนขา ลายแตกสีขาว/ชมพูจาง ไม่มีกล้ามเนื้อต้นแขนขาลีบ",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าภาพเป็นวัยรุ่นมองขึ้นไม่ได้ รูม่านตาไม่หดต่อแสงแต่หดเมื่อมองใกล้ (ก้อนบริเวณ pineal)"
+  },
+  "trap": "อ้วนธรรมดามีลายแตกได้ — แยกด้วยลายแตกสีม่วงกว้าง กล้ามเนื้อต้นแขนขาอ่อนแรง/ลีบ และช้ำง่าย",
   "summary": [
-   "Cushing syndrome = ภาวะ glucocorticoid เกินเรื้อรัง · สาเหตุพบบ่อยสุด: exogenous glucocorticoid (ยาฉีด/กิน/ทา/สูด, ยาลูกกลอน ยาชุด ยาสมุนไพรปน steroid ในไทย)",
-   "Endogenous: ACTH-dependent ~80% — Cushing disease (pituitary corticotroph adenoma ~70%), ectopic ACTH (small cell lung cancer, carcinoid) · ACTH-independent ~20% — adrenal adenoma, adrenal carcinoma, bilateral adrenal hyperplasia",
-   "Features ที่จำเพาะ: proximal myopathy, ช้ำง่าย ผิวบาง, purple striae กว้าง > 1 cm, facial plethora · features ทั่วไป: moon face, buffalo hump, supraclavicular fat pad, central obesity, HT, เบาหวาน, osteoporosis, ประจำเดือนผิดปกติ, ซึมเศร้า, ติดเชื้อง่าย",
-   "Screening (Endocrine Society): 1-mg overnight dexamethasone suppression test (cortisol เช้า > 1.8 µg/dL = ไม่ถูกกด), 24-hr urine free cortisol, late-night salivary cortisol · ต้องผิดปกติอย่างน้อย 2 การทดสอบ",
-   "แยกสาเหตุ: plasma ACTH ต่ำ → adrenal → CT adrenal · ACTH ปกติ/สูง → MRI pituitary (adenoma > 6 mm สนับสนุน Cushing disease) ± high-dose DST, CRH/desmopressin test, inferior petrosal sinus sampling (IPSS) แยก pituitary จาก ectopic",
-   "รักษา: Cushing disease → transsphenoidal adenomectomy · adrenal adenoma → laparoscopic adrenalectomy · ectopic → ตัดก้อนต้นเหตุ · ผ่าตัดไม่ได้ → ยา (ketoconazole, metyrapone, osilodrostat) หรือ bilateral adrenalectomy (เสี่ยง Nelson syndrome)",
-   "หลังผ่าตัดเอาต้นเหตุออก HPA axis ถูกกดนาน 6–18 เดือน ต้องให้ hydrocortisone replacement และ stress dose · iatrogenic Cushing ต้อง taper steroid ช้า ๆ ห้ามหยุดทันที (adrenal crisis)"
+   "<b>นอกสไลด์:</b> คัดกรอง: 24-hr urine free cortisol, late-night salivary cortisol, overnight 1-mg dexamethasone suppression · หาสาเหตุ: ACTH ต่ำ = ต่อมหมวกไต · ACTH ปกติ/สูง = pituitary (Cushing disease) หรือ ectopic · สาเหตุบ่อยที่สุดคือ steroid จากภายนอก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — moon face, buffalo hump, central obesity กับแขนขาลีบและ purple striae คือภาพคลาสสิกของ Cushing syndrome ทุกตำรา ช้อยอื่นมีลักษณะต่างชัด · จุดกำกวม: ข้อสอบจริงเป็นภาพวาด ไม่มีในไฟล์ จึงอาศัยคำบรรยายของผู้จด · ในศัลยกรรม subspecialty ข้อนี้น่าจะนำไปสู่คำถามต่อเรื่องแยกสาเหตุและการผ่าตัด (transsphenoidal vs adrenalectomy) ซึ่งควรเตรียมไว้",
+  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง (ไม่มีภาพในไฟล์ อาศัยคำบรรยาย)",
   "variants": [
-   "หญิง 35 ปี ลักษณะ cushingoid ไม่เคยใช้ steroid cortisol ไม่ถูกกดด้วย 1-mg DST plasma ACTH ต่ำ CT พบก้อน adrenal ซ้าย 3 cm → adrenal adenoma; laparoscopic adrenalectomy + hydrocortisone หลังผ่าตัด",
-   "ชาย 60 ปี สูบบุหรี่ hypokalemia รุนแรง HT อ่อนแรง น้ำหนักลด ACTH สูงมาก → ectopic ACTH จาก small cell lung cancer",
-   "หญิง 40 ปี cushingoid ACTH สูงเล็กน้อย MRI pituitary พบ microadenoma 5 mm → ทำ IPSS ยืนยันว่า ACTH มาจาก pituitary ก่อน transsphenoidal surgery",
-   "ผู้ป่วยกินยาลูกกลอนแก้ปวดข้อมานาน 2 ปี หน้ากลม หยุดยาเองทันที 3 วันต่อมาอ่อนเพลีย ความดันต่ำ Na ต่ำ → adrenal crisis จาก iatrogenic adrenal suppression; hydrocortisone IV + NSS"
+   "<b>นอกสไลด์:</b> Cushing ACTH สูง MRI พบ pituitary microadenoma → transsphenoidal surgery",
+   "<b>นอกสไลด์:</b> ชายสูบบุหรี่ ACTH สูงมาก K ต่ำ ความดันสูง อาการมาเร็ว → ectopic ACTH (เช่น small cell lung cancer)"
   ]
  },
  "MDCU66|RoC|5": {
+  "interp": "ชาย 18 ปี แผลในปากขอบเรียบ 1 cm เจ็บ เป็นมา 7 วัน → ลักษณะ aphthous ulcer ไม่ใช่มะเร็ง → ถามการดูแล (ข้อนี้เก็บมุมแยกชนิดแผลจากลักษณะ)",
+  "why": "<b>ลายมือ: aphthous ulcer 2–3 wk</b><br><b>นอกสไลด์:</b> aphthous: แผลกลมขอบแดงพื้นเหลือง เจ็บมาก ในคนอายุน้อย หายเองใน 1–2 สัปดาห์ (แผลใหญ่ > 1 cm อาจนานกว่า) → ดูแลตามอาการ (steroid/ยาชาทาเฉพาะที่) แล้วนัดดู ถ้าไม่หายเกิน 2–3 สัปดาห์จึงตัดชิ้นเนื้อ",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุสูบบุหรี่/เคี้ยวหมาก มีแผลขนาดใหญ่ไม่หายเกิน 2–3 สัปดาห์ ขอบนูนแข็ง ไม่ค่อยเจ็บ",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้ารอยโรคที่สงสัยมีขนาดเล็ก (เช่นปื้นขาวหรือแดงไม่กี่ mm) ตัดออกทั้งหมดได้โดยไม่เสียหน้าที่",
+   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ขอบ 0.5 cm เป็นขอบผ่าตัดมาตรฐานของมะเร็งช่องปาก เพราะเนื้องอกลามใต้เยื่อบุเกินขอบที่มองเห็น ต้องใช้ขอบทางคลินิกราว 1 cm",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าชิ้นเนื้อยืนยัน SCC ช่องปากระยะต้นแล้ว → ผ่าตัดขอบทางคลินิกราว 1 cm"
+  },
+  "trap": "ลักษณะบอกชนิดแผล: เจ็บมาก ขอบเรียบ อายุน้อย เป็นไม่นาน = aphthous · มะเร็งมักไม่ค่อยเจ็บ ขอบนูนแข็ง ผู้สูงอายุ เป็นเรื้อรัง",
   "summary": [
-   "Recurrent aphthous stomatitis: พบ ~20% ของประชากร เริ่มวัยเด็ก–วัยรุ่น · minor (~80%, < 1 cm, หายใน 7–14 วันไม่เป็นแผลเป็น) · major (> 1 cm, ลึก, หาย 2–6 สัปดาห์ เป็นแผลเป็น) · herpetiform (แผลเล็ก 1–3 mm จำนวนมาก)",
-   "ลักษณะ: แผลกลม/รี ขอบแดงเรียบ พื้นเหลืองเทา เจ็บมาก บน non-keratinized mucosa (ด้านในริมฝีปาก กระพุ้งแก้ม ใต้ลิ้น พื้นปาก) · ต่างจาก herpes simplex ซ้ำที่เกิดบน keratinized mucosa (เพดานแข็ง เหงือก) เป็นตุ่มน้ำกลุ่ม",
-   "การรักษา: ส่วนใหญ่หายเอง · topical corticosteroid (triamcinolone in orabase), น้ำยาบ้วนปาก chlorhexidine, ยาชาเฉพาะที่ · major/ถี่ → systemic (colchicine, prednisolone สั้น ๆ)",
-   "หาสาเหตุร่วมเมื่อเป็นบ่อย/รุนแรง: ขาด iron, B12, folate · celiac disease, IBD (Crohn's) · Behçet disease (แผลปากซ้ำ ≥ 3 ครั้ง/ปี + แผลอวัยวะเพศ, uveitis, ผื่น, pathergy) · HIV · ยา (NSAID, nicorandil)",
-   "Red flags ที่ต้อง biopsy: แผลไม่หายใน 2–3 สัปดาห์ (หลังเอาสาเหตุกระตุ้นออก), ไม่เจ็บ, ขอบนูนแข็ง/induration, ติดลึก, เลือดออกง่าย, มี leukoplakia/erythroplakia ร่วม, ต่อมน้ำเหลืองคอโต, อายุมาก + บุหรี่/สุรา/หมาก",
-   "Traumatic ulcer: หาสาเหตุ (ฟันคม ฟันปลอม กัดโดนลิ้น) แก้ไขแล้วควรหายใน 2 สัปดาห์ ถ้าไม่หายต้อง biopsy",
-   "Oral SCC เมื่อยืนยันแล้ว: wide excision margin ~1 cm (เป้า pathological margin ≥ 5 mm) ± neck dissection ตาม depth of invasion ± adjuvant RT"
+   "<b>นอกสไลด์:</b> แผลในปากที่ต้องตัดชิ้นเนื้อ: ไม่หายเกิน 2–3 สัปดาห์หลังเอาสาเหตุออก, ขอบนูนแข็ง/ติดแน่น, มีปื้นขาว–แดงร่วม, ต่อมน้ำเหลืองคอโต"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ชายอายุน้อย แผล 1 cm ขอบเรียบ เจ็บ เป็นมาเพียง 7 วัน เข้ากับ aphthous ulcer ตามลายมือ 'aphthous ulcer 2–3 wk' ซึ่งหมายถึงให้สังเกตอาการ และ biopsy ถ้าไม่หายใน 2–3 สัปดาห์ · จุดกำกวม: แผล 1 cm อยู่ที่รอยต่อ minor/major aphthae ซึ่งอาจใช้เวลานานกว่า 2 สัปดาห์ และควรให้ topical steroid ร่วมด้วย ไม่ใช่ observe เฉย ๆ · ช้อยภาษาไทยเดิมแปลมา ถ้าช้อย A เขียนว่า 'observe with symptomatic treatment and re-evaluate in 2 weeks' จะสมบูรณ์กว่า",
+  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
   "variants": [
-   "ชาย 65 ปี สูบบุหรี่ เคี้ยวหมาก แผลที่กระพุ้งแก้ม 1.5 cm ขอบนูนแข็ง ไม่ค่อยเจ็บ เป็นมา 5 สัปดาห์ → incisional biopsy เพื่อ R/O oral SCC",
-   "หญิง 25 ปี แผลในปากเป็นซ้ำปีละหลายครั้ง มีแผลที่อวัยวะเพศและตาแดงมัว pathergy test บวก → Behçet disease; ส่งอายุรแพทย์และจักษุแพทย์",
-   "ชาย 40 ปี แผลที่ขอบลิ้นตรงกับฟันกรามที่แตกคม เจ็บ เป็นมา 10 วัน → traumatic ulcer; แก้ฟันคม นัดดูซ้ำ 2 สัปดาห์ ถ้าไม่หายต้อง biopsy",
-   "หญิง 20 ปี แผลในปากเล็ก ๆ หลายสิบแผลเจ็บมาก เป็น ๆ หาย ๆ ตรวจพบ ferritin ต่ำ → herpetiform aphthous ulcer ร่วมกับขาดธาตุเหล็ก; ให้ iron และ topical steroid/chlorhexidine"
+   "<b>นอกสไลด์:</b> แผลที่ขอบลิ้นตรงฟันคม → กรอฟัน/แก้ฟันปลอม แล้วนัดดู 2 สัปดาห์ ไม่หายจึง biopsy",
+   "<b>นอกสไลด์:</b> เด็กไข้ แผลเล็กหลายแผลเป็นกลุ่มที่เหงือกและเพดานแข็ง → herpetic gingivostomatitis (aphthous ไม่ขึ้นที่เยื่อบุติดกระดูก)"
   ]
  }
 }

@@ -1,101 +1,97 @@
 {
  "MDCU66|RoC|6": {
-  "interp": "คำใบ้: <b>malocclusion</b> (การสบฟันผิดปกติ) เกิดได้เฉพาะเมื่อกระดูกที่ <b>ถือฟัน</b> (maxilla หรือ mandible) หักหรือเคลื่อน → โจทย์ให้เลือกกระดูกในรายการที่เป็นกระดูกถือฟัน ซึ่งมีเพียง mandibular parasymphysis · ช้อยอื่นเป็นกระดูกใบหน้าที่ไม่มีฟัน",
+  "interp": "ถามกระดูกที่หักแล้วทำให้สบฟันผิด → ต้องเป็นกระดูกที่ถือฟัน (maxilla, mandible)",
+  "why": "<b>ลายมือ: mandible, maxilla</b><br><b>นอกสไลด์:</b> parasymphysis อยู่ระหว่าง canine กับ symphysis หักแล้วชิ้นกระดูกถูกกล้ามเนื้อดึงคนละทิศ → ฟันเป็นขั้นบันได สบฟันผิด มักมีเลือดคั่งใต้ลิ้นและชาริมฝีปากล่าง (mental n.)",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ zygoma หักเดี่ยวทำให้สบฟันผิด เพราะ zygoma ไม่ได้ถือฟัน",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่กระดูกจมูกหักเดี่ยวทำให้สบฟันผิด เพราะอยู่ห่างจากฟันและไม่เกี่ยวกับการเคลื่อนของขากรรไกร",
+   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ orbital blowout ทำให้สบฟันผิด เพราะเป็นการแตกของพื้นเบ้าตาบาง ๆ จากแรงดันในเบ้าตา ไม่เกี่ยวกับกระดูกที่ถือฟัน",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ NOE หักเดี่ยวทำให้สบฟันผิด เพราะเป็นกระดูกกลางใบหน้าส่วนบน (จมูก–หัวตา–ethmoid) อาการเด่นคือหัวตาห่างและดั้งจมูกแบน"
+  },
+  "trap": "mandible เป็นวงแหวน มักหักสองตำแหน่ง — เจอ parasymphysis ต้องหา condyle/angle อีกข้างเสมอ",
   "summary": [
-   "Malocclusion = กระดูกถือฟันหัก: maxilla (Le Fort I–III, alveolar process, palatal/sagittal fracture) หรือ mandible (ทุกตำแหน่งรวม condyle) · zygoma, nasal, orbital floor, NOE ไม่ถือฟัน",
-   "Mandible เป็นวงแหวนกระดูก มักหัก ≥ 2 ตำแหน่ง (~50%) เช่น parasymphysis ข้างหนึ่ง + angle/condyle อีกข้าง · ตำแหน่งที่พบบ่อย: condyle (~30%), angle (~25%), body, symphysis/parasymphysis",
-   "อาการแสดง mandible fracture: malocclusion, step-off ในแนวฟัน, ฟันโยก/หัก, sublingual hematoma (sign ที่ไวมาก), ชาริมฝีปากล่างและคาง (inferior alveolar nerve), trismus, ปวดเมื่อขยับขากรรไกร",
-   "Condylar fracture: ข้างเดียว → คางเบี้ยวไปข้างที่หักเมื่ออ้าปาก + premature contact ฟันกรามข้างนั้น + open bite ข้างตรงข้าม · สองข้าง → anterior open bite · มักรักษาแบบ closed (MMF สั้น ๆ + ฝึกขยับ)",
-   "Imaging: panoramic (OPG) + PA mandible หรือ CT (ดีที่สุดสำหรับ condyle และ multiple fractures)",
-   "รักษา: fracture ที่ผ่านเบ้าฟันเป็น open fracture → ยาปฏิชีวนะ · ไม่เคลื่อน → soft diet ± MMF · เคลื่อน → ORIF ด้วย miniplate ตาม Champy's lines (load-sharing) หรือ reconstruction plate (load-bearing) · เป้าหมายคือคืนการสบฟันเดิม",
-   "Bilateral parasymphyseal fracture ('Andy Gump') → ส่วนหน้าของ mandible ถูกกล้ามเนื้อ genioglossus ดึงไปด้านหลัง ลิ้นตก airway อุด → ต้องดึงไปด้านหน้า/secure airway ก่อน"
+   "<b>นอกสไลด์:</b> ตำแหน่ง mandible หักบ่อย: condyle, angle, body, parasymphysis · ตรวจ panoramic/CT · รักษา: ORIF ด้วย plate หรือ MMF โดยมีเป้าหลักคือการสบฟัน · หักเปิดผ่านเบ้าฟันให้ยาปฏิชีวนะ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — malocclusion ต้องเกิดจากกระดูกที่ถือฟัน ตามลายมือคีย์ 'mandible, maxilla' และในช้อยมีเพียง mandibular parasymphysis · ไม่มีจุดกำกวมในเนื้อหา · ข้อนี้เป็นด้านกลับของ 66 RoB ข้อ 38 และ RoC ข้อ 2 (ถามว่า zygoma ไม่ทำให้ malocclusion/crossbite) แสดงว่าอาจารย์เน้นหลักนี้มาก",
+  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
   "variants": [
-   "ชายถูกต่อยที่คาง ฟันหน้าล่างมีขั้นบันได มีเลือดคั่งใต้ลิ้น ชาริมฝีปากล่างซ้าย → mandibular body/parasymphysis fracture; panoramic/CT แล้ว ORIF + ยาปฏิชีวนะ",
-   "ชายล้มคางกระแทก อ้าปากแล้วคางเบี้ยวไปทางขวา ฟันกรามขวาสบชนก่อน ฟันซ้ายสบไม่ถึง → right condylar fracture; ส่วนใหญ่รักษา closed ด้วย MMF ระยะสั้นและฝึกขยับ",
-   "ผู้บาดเจ็บ parasymphysis หักทั้งสองข้าง หายใจมีเสียงครืดเมื่อนอนหงาย → ลิ้นตกจากส่วนหน้าของ mandible เลื่อนไปด้านหลัง; ดึงส่วนหน้าไปด้านหน้า/จัดท่า และเตรียม definitive airway",
-   "ผู้ป่วยหลังอุบัติเหตุใบหน้า จมูกแบน หัวตาห่าง น้ำใสไหลจากจมูก การสบฟันปกติ → NOE fracture; ตรวจ CSF leak และซ่อม medial canthal tendon"
+   "<b>นอกสไลด์:</b> condyle หักข้างเดียว อ้าปากแล้วคางเบี้ยวไปข้างที่หัก สบฟันยังพอได้ → ส่วนใหญ่รักษาแบบปิด (MMF ช่วงสั้น + บริหารขากรรไกร)",
+   "<b>นอกสไลด์:</b> ถูกต่อย ฟันบนทั้งแถวโยกได้พร้อมเพดาน สบฟันเปิดด้านหน้า → LeFort I"
   ]
  },
  "MDCU66|RoC|7": {
+  "interp": "ผู้ป่วยไฟไหม้มีรอยไหม้ที่หน้า รออยู่ที่ห้องฉุกเฉิน → ถามสิ่งที่ควรทำที่สุด (ลำดับ ABC ก่อนเรื่องแผล)",
+  "why": "<b>ลายมือ: CO half-life 4 hr → 30 min on O₂</b><br><b>นอกสไลด์:</b> ไฟไหม้ต้องคิดถึงพิษ CO และ inhalation injury ก่อนเสมอ — ออกซิเจนความเข้มข้นสูงทำได้ทันที แก้ภาวะพร่องออกซิเจนและลด half-life ของ COHb หลายเท่า",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยไหม้กว้างช็อก แทงเส้นส่วนปลายผ่านผิวที่ไม่ไหม้ไม่ได้หลายครั้ง",
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าน้ำร้อนลวกขาในที่โล่ง ไม่มีควัน รู้สึกตัวดี ทางเดินหายใจและการหายใจปกติ → ประเมิน %TBSA เพื่อวางแผนสารน้ำ",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าแผลไหม้เล็กเพิ่งเกิด → ลดความร้อนด้วยน้ำสะอาดอุณหภูมิห้องหรือผ้าชุบน้ำเกลือ ลดปวดและความลึกของแผล",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าไหม้ลึกเต็มความหนารอบลำตัว แรงดันช่วยหายใจสูงขึ้นเรื่อย ๆ และ CO2 คั่ง"
+  },
+  "trap": "ประเมิน %TBSA ดูเป็นงานแรกของผู้ป่วยไฟไหม้ แต่อยู่หลัง ABC — ผู้ป่วยที่ \"รอ\" ใน ER ก็ต้องได้ออกซิเจนตั้งแต่แรก",
   "summary": [
-   "Burn primary survey (ATLS/ABLS): หยุดกระบวนการไหม้ (ถอดเสื้อผ้า เครื่องประดับ ล้างสารเคมี) → Airway + C-spine → Breathing (100% O₂, escharotomy อก) → Circulation (IV ขนาดใหญ่ 2 เส้น) → Disability → Exposure + ป้องกัน hypothermia",
-   "สงสัย inhalation injury: ไฟไหม้ในที่ปิด, ไหม้ใบหน้า/คอ, ขนจมูก/คิ้วไหม้, เขม่าในปาก/จมูก, เสมหะดำ, เสียงแหบ, stridor, ซึม · ให้ 100% O₂ (non-rebreather 10–15 L/min) ทันทีทุกราย และเฝ้าดู airway ใกล้ชิด intubate เร็วเมื่อมีข้อบ่งชี้",
-   "CO poisoning: SpO₂ ปกติหลอก ต้องวัด COHb ด้วย co-oximetry · COHb half-life: room air ~4–5 ชม. → 100% O₂ ~60–90 นาที → HBO ~20–30 นาที · HBO พิจารณาเมื่อ COHb > 25%, หมดสติ, neurologic deficit, ตั้งครรภ์ (> 15–20%), myocardial ischemia",
-   "Cyanide (ไฟไหม้พลาสติก/ฟองน้ำ): lactate > 8 mmol/L, acidosis ที่ไม่ดีขึ้นด้วย O₂ → hydroxocobalamin 5 g IV",
-   "การประเมิน %TBSA (rule of 9s ผู้ใหญ่, Lund–Browder เด็ก, ฝ่ามือรวมนิ้ว ≈ 1%) ทำใน secondary survey หลัง ABC · ไม่นับ superficial burn",
-   "First aid ของแผล: cool running water 15–20°C นาน 20 นาที ภายใน 3 ชม. ลดความลึกของแผล · ห้ามน้ำแข็ง · แผลกว้างหลัง cooling คลุมด้วยผ้าสะอาดแห้งหรือ plastic wrap ให้ความอบอุ่น ห้ามผ้าเปียกบนพื้นที่กว้าง (hypothermia)"
+   "<b>นอกสไลด์:</b> half-life ของ COHb: อากาศราว 4–5 ชม. · ออกซิเจน 100% ราว 1 ชม. · hyperbaric ราว 20–30 นาที (ตัวเลข 30 นาทีในลายมือคือของ hyperbaric) · ให้ออกซิเจนจน COHb ปกติและอาการหาย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจปานกลาง–สูง — ผู้ป่วยไฟไหม้ที่มีรอยไหม้ใบหน้าต้องคิดถึง inhalation injury/CO poisoning และให้ high-flow O₂ ทันทีตามลำดับ ABC ก่อนประเมิน %TBSA ตามลายมือคีย์เรื่อง CO half-life · จุดกำกวม: (1) ตัวเลขในลายมือ '4 hr → 30 min on O₂' ต่างจากตำราปัจจุบันที่ใช้ ~60–90 นาทีสำหรับ 100% O₂ (30 นาทีใกล้ค่า HBO) (2) 'mask 10 L/min' ควรเป็น non-rebreather mask with reservoir จึงได้ FiO₂ ใกล้ 100% · ถ้ามีสัญญาณ airway เสี่ยง คำตอบที่ดีที่สุดจะเป็น intubation ซึ่งไม่มีในช้อย",
+  "opinion": "เห็นด้วยกับคีย์ C · ตัวเลขในลายมือเป็นของ hyperbaric · มั่นใจปานกลาง–สูง",
   "variants": [
-   "ผู้ป่วยไฟไหม้บ้าน ปวดหัว คลื่นไส้ สับสน SpO₂ 99% COHb 30% → ให้ 100% O₂ ทาง non-rebreather และพิจารณา hyperbaric oxygen",
-   "ผู้ป่วยแผลไหม้ใบหน้าลึก เสียงแหบมากขึ้นใน 1 ชม. มี stridor → endotracheal intubation ทันทีก่อน airway บวมจนใส่ไม่ได้",
-   "เด็ก 3 ปี น้ำร้อนลวกที่หน้าอกและแขน 15% ผู้ปกครองเอาผ้าชุบน้ำเย็นคลุมตลอดทางมาโรงพยาบาล 1 ชม. ตัวเย็นสั่น → hypothermia; ถอดผ้าเปียก คลุมผ้าแห้ง ให้ความอบอุ่น",
-   "ผู้ป่วยไฟไหม้ในที่ปิด หลังได้ O₂ แล้วยังซึม lactate 12 mmol/L metabolic acidosis → cyanide toxicity; hydroxocobalamin 5 g IV"
+   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ติดในห้องไฟไหม้ COHb 15% ปวดหัว → ออกซิเจน 100% นานกว่าปกติ พิจารณา hyperbaric (Hb ทารกจับ CO แน่นกว่า)",
+   "<b>นอกสไลด์:</b> ผู้ป่วยพิษ CO หมดสติช่วงหนึ่ง อาการหายแล้ว 3 สัปดาห์ต่อมาความจำแย่ พฤติกรรมเปลี่ยน → delayed neurologic sequelae"
   ]
  },
  "MDCU66|RoC|8": {
-  "interp": "คำใบ้: ชายอายุ 20 กว่า + อาการปัจจุบันเป็น <b>acute anal fissure</b> (ปวดและเลือดออกทางทวาร ไม่มี bowel habit เปลี่ยน — อาการไม่ได้ชี้มะเร็ง) แต่ซ่อน <b>ประวัติครอบครัว</b>: ญาติ 3 คนเป็นมะเร็งลำไส้ใหญ่ที่อายุ 25, 30, 40 ปี → เข้าเกณฑ์ Amsterdam (Lynch syndrome/HNPCC) · โจทย์ถามคำแนะนำการคัดกรองมะเร็งลำไส้ใหญ่ ไม่ได้ถามการรักษา fissure",
-  "why": "ญาติ 3 คนเป็น CRC และ 2 คนอายุน้อยกว่า 50 ปี เข้ากับ Amsterdam II criteria (3-2-1: ≥ 3 ญาติเป็นมะเร็งกลุ่ม Lynch โดย 1 คนเป็นญาติสายตรงของอีก 2 คน, ≥ 2 รุ่นติดกัน, ≥ 1 คนวินิจฉัยก่อนอายุ 50, ตัด FAP แล้ว) → สงสัย Lynch syndrome (germline mismatch repair gene: MLH1, MSH2, MSH6, PMS2, EPCAM) ซึ่ง lifetime CRC risk 20–80% และ adenoma กลายเป็นมะเร็งเร็วมาก (~2–3 ปี เทียบ ~10 ปีในคนทั่วไป) · แนวทาง NCCN/ACG/USMSTF: colonoscopy ทุก 1–2 ปี เริ่มอายุ 20–25 ปี (หรือ 2–5 ปีก่อนอายุญาติที่เป็นน้อยที่สุดถ้าก่อน 25) → ผู้ป่วยอายุ 20 กว่าแล้วและญาติเป็นตั้งแต่ 25 ปี จึงต้องเริ่มทันที (คีย์ลายมือ: HNPCC q1–2 yr) · ร่วมกับส่ง genetic counseling และ germline testing (ถ้าทราบ mutation ในครอบครัวตรวจเฉพาะจุด) · acute fissure รักษาตามปกติ (fiber, sitz bath, topical) แยกจากเรื่องคัดกรอง · ลายมือคีย์อีกส่วน '1st degree < 60 → 10 ปีก่อน' คือเกณฑ์ของครอบครัวทั่วไปที่ไม่ใช่ Lynch",
+  "interp": "ชายวัย 20 ญาติเป็นมะเร็งลำไส้ใหญ่ 3 คนตอนอายุ 25, 30, 40 → เข้าได้กับ Lynch (HNPCC) · อาการทวารเป็น acute fissure ซึ่งไม่เกี่ยว → ถามการคัดกรอง",
+  "why": "<b>ลายมือ: 1st degree &lt;60 → 10 ปีก่อน · HNPCC q1–2 yr</b><br><b>นอกสไลด์:</b> Lynch: adenoma กลายเป็นมะเร็งเร็ว → colonoscopy เริ่มอายุ 20–25 ปี (หรือ 2–5 ปีก่อนญาติที่เป็นเร็วสุด) ทุก 1–2 ปี — ผู้ป่วยถึงเกณฑ์แล้วจึงส่องเลย",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าพ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 55 ปี (ญาติสายตรงหนึ่งคนอายุ &lt; 60) และไม่เข้าเกณฑ์กลุ่มอาการทางพันธุกรรม",
+   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การตรวจเลือดในอุจจาระปีละ 2 ครั้งเป็นการคัดกรองที่แนะนำ เพราะ FIT ใช้ทุก 1–2 ปีในคนความเสี่ยงทั่วไป และไม่ใช้แทน colonoscopy ในกลุ่มเสี่ยงสูง",
+   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ rigid sigmoidoscopy ใช้คัดกรองมะเร็งลำไส้ใหญ่ เพราะเห็นได้แค่ rectum ส่วนปลาย",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ barium enema เป็นการคัดกรองในปัจจุบัน เพราะพลาดติ่งเนื้อเล็กและไม่ตัดติ่งเนื้อได้"
+  },
+  "trap": "acute fissure อธิบายเลือดออกได้จึงคิดว่าไม่ต้องส่อง — แต่ประวัติครอบครัวเป็นเหตุให้ส่องอยู่แล้ว · กฎ \"ญาติที่เป็นเร็วสุดลบ 10 ปี\" ใช้กับครอบครัวเสี่ยงทั่วไป ไม่ใช่ Lynch",
   "summary": [
-   "การคัดกรองตามระดับความเสี่ยง: average risk → เริ่ม 45 ปี (colonoscopy ทุก 10 ปี หรือ FIT ทุกปี) · ญาติสายตรง 1 คนเป็น CRC/advanced adenoma ก่อน 60 หรือ ≥ 2 คน → colonoscopy เริ่ม 40 ปีหรือ 10 ปีก่อนอายุญาติที่เป็นน้อยสุด ทุก 5 ปี",
-   "Lynch syndrome: autosomal dominant, MMR gene (MLH1, MSH2 พบมากสุด) · CRC มักอยู่ right colon, mucinous/poorly differentiated, tumor-infiltrating lymphocytes, MSI-high · ทุก CRC ควรตรวจ MMR IHC/MSI (universal tumor screening)",
-   "Surveillance Lynch: colonoscopy ทุก 1–2 ปี เริ่ม 20–25 ปี (MLH1/MSH2) · เริ่ม 30–35 ปีสำหรับ MSH6/PMS2 · aspirin ลดความเสี่ยง CRC (CAPP2)",
-   "มะเร็งอื่นใน Lynch: endometrium (lifetime สูงถึง 40–60% ใน MSH2/MLH1 — สำคัญที่สุดในหญิง), ovary, stomach, small bowel, upper tract urothelial (ureter/renal pelvis), pancreas, biliary, brain (Turcot), sebaceous tumor (Muir–Torre) · หญิงพิจารณา prophylactic hysterectomy + BSO หลังมีบุตรครบ",
-   "ผ่าตัด CRC ใน Lynch: พิจารณา subtotal/total colectomy แทน segmental เพราะ metachronous cancer สูง",
-   "แยกจาก FAP: FAP มี polyp > 100 ก้อน (APC) · attenuated FAP 10–100 ก้อน · MUTYH polyposis (autosomal recessive) · Lynch มี polyp ไม่มาก ('non-polyposis')"
+   "<b>นอกสไลด์:</b> Amsterdam II (3-2-1): ญาติ ≥ 3 คนเป็นมะเร็งกลุ่ม Lynch (หนึ่งเป็นญาติสายตรงของอีกสอง) · ≥ 2 รุ่นต่อเนื่อง · ≥ 1 คนอายุ &lt; 50 · ตัด FAP · เข้าเกณฑ์ → ส่งปรึกษาพันธุกรรม ตรวจ germline ในญาติที่เป็นมะเร็งก่อน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — ประวัติครอบครัวเข้ากับ Amsterdam criteria และแนวทาง NCCN/ACG แนะนำ colonoscopy ทุก 1–2 ปีเริ่มอายุ 20–25 ปีใน Lynch ซึ่งผู้ป่วยถึงเกณฑ์แล้ว ตรงกับลายมือ 'HNPCC q1–2 yr' · จุดกำกวม: โจทย์ไม่ได้บอกว่าญาติทั้ง 3 คนสัมพันธ์กันอย่างไรและกี่รุ่น ซึ่งเป็นส่วนของ Amsterdam · ข้อนี้ดีเพราะ 'ซ่อน' คำถามจริง (การคัดกรอง) ไว้หลังอาการที่ไม่เกี่ยว (acute fissure) และคำแนะนำควรรวม genetic counseling ด้วยซึ่งไม่มีในช้อย",
+  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง (โจทย์ไม่ระบุความสัมพันธ์ของญาติ)",
   "variants": [
-   "หญิง 45 ปี เพิ่งผ่าตัด CRC ด้านขวา ผลชิ้นเนื้อ MSH2/MSH6 หายไปใน IHC มารดาเป็นมะเร็งเยื่อบุโพรงมดลูก → Lynch syndrome; germline testing, colonoscopy ทุก 1–2 ปี และพิจารณา prophylactic hysterectomy + BSO",
-   "ชาย 35 ปี บิดาเป็น CRC อายุ 52 ปี ไม่มีญาติอื่นเป็นมะเร็ง → เริ่ม colonoscopy อายุ 40 ปี (หรือ 10 ปีก่อน 52 = 42 ปี เลือกอายุที่น้อยกว่า) ทุก 5 ปี",
-   "ชาย 18 ปี มารดาเป็น FAP → การคัดกรอง (คำตอบ: ตรวจ APC mutation ถ้าบวกหรือไม่ได้ตรวจ ทำ sigmoidoscopy/colonoscopy ทุกปีตั้งแต่อายุ 10–12 ปี)",
-   "ผู้ป่วย Lynch syndrome อายุ 40 ปี ตรวจพบ CRC ที่ transverse colon → พิจารณา subtotal colectomy + ileorectal anastomosis แทน segmental colectomy เพราะความเสี่ยงมะเร็งใหม่สูง"
+   "<b>นอกสไลด์:</b> หญิงจากครอบครัว Lynch → นอกจาก colonoscopy ต้องดูแลความเสี่ยงมะเร็งเยื่อบุโพรงมดลูก/รังไข่ และพิจารณาตัดมดลูกรังไข่เมื่อมีบุตรครบ",
+   "<b>นอกสไลด์:</b> ญาติในครอบครัว Lynch ตรวจ germline ไม่พบ mutation ที่ครอบครัวมี → คัดกรองแบบคนความเสี่ยงทั่วไป"
   ]
  },
  "MDCU66|RoC|9": {
+  "interp": "ผู้ใช้รถเข็น (นั่งนาน) → ถามตำแหน่งแผลกดทับที่พบบ่อยที่สุด",
+  "why": "<b>ลายมือ: sitting · supine → sacral area</b><br><b>นอกสไลด์:</b> นั่งตัวตรงน้ำหนักลงที่ ischial tuberosity สองข้าง → ผู้ใช้รถเข็น (เช่นอัมพาตครึ่งล่าง) เป็นแผลกดทับที่นี่มากที่สุด · นอนหงายเป็นที่ sacrum/coccyx",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยนอนตะแคงเป็นส่วนใหญ่ (เช่นนอนตะแคงตลอดเพราะเจ็บหลัง)",
+   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ perineum เป็นตำแหน่งแผลกดทับที่พบบ่อยที่สุด เพราะเป็นเนื้อเยื่ออ่อนที่ไม่มีปุ่มกระดูกรับน้ำหนักโดยตรง",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยนอนหงายติดเตียงนาน โดยเฉพาะมีขาขาดเลือดหรือเบาหวาน",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกหรือเด็กเล็กนอนหงายนานใน ICU (ศีรษะใหญ่เมื่อเทียบกับตัว)"
+  },
+  "trap": "sacrum เป็นตำแหน่งบ่อยที่สุดโดยรวม (ผู้ป่วยติดเตียง) จึงชวนตอบ — ตำแหน่งขึ้นกับท่าที่รับน้ำหนัก · นั่งหลังค่อม/ไถลลง น้ำหนักย้ายไป sacrum/coccyx",
   "summary": [
-   "ตำแหน่งแผลกดทับตามท่า: นั่ง (รถเข็น) → ischial tuberosity > sacrum/coccyx (นั่งไถล) · นอนหงาย → sacrum (พบบ่อยที่สุดโดยรวม) > heel > occiput (ทารก) > scapula > elbow · ตะแคง → greater trochanter, lateral malleolus, ear",
-   "กลไก: แรงกดเกิน capillary closing pressure (~32 mmHg) นานต่อเนื่อง + shear + friction + ความชื้น → ischemia · กล้ามเนื้อทนขาดเลือดน้อยกว่าผิวหนัง → แผลเป็นรูปกรวย ผิวเล็กแต่ข้างในใหญ่ (iceberg/cone)",
-   "NPIAP staging: 1 ผิวแดงกดไม่จาง · 2 partial thickness (ตุ่มน้ำ/แผลตื้น) · 3 full thickness ถึงไขมัน · 4 ถึงกล้ามเนื้อ/เอ็น/กระดูก · unstageable (มี slough/eschar ปิด) · deep tissue pressure injury (ม่วงคล้ำ ผิวยังไม่แตก)",
-   "ป้องกัน: เปลี่ยนท่าทุก 2 ชม. (ติดเตียง), ผู้ใช้รถเข็นยกตัว/เอนตัวทุก 15–30 นาที, เบาะ/ที่นอนลดแรงกด, หัวเตียงไม่เกิน 30°, โภชนาการ, ผิวแห้ง, ประเมินความเสี่ยงด้วย Braden scale",
-   "รักษา stage 3–4: ลดแรงกด, debride เนื้อตาย, คุมการติดเชื้อ (osteomyelitis → bone biopsy + ยานาน), NPWT, แก้ภาวะทุพโภชนาการ, คุม spasticity/ปัสสาวะอุจจาระ · flap reconstruction เมื่อผู้ป่วยพร้อม: ischial → posterior thigh (hamstring/inferior gluteal thigh) flap · sacral → gluteus maximus rotation/advancement flap · trochanteric → tensor fascia lata flap",
-   "Marjolin ulcer: SCC ที่เกิดในแผลเรื้อรัง/แผลกดทับเรื้อรังหลายปี → biopsy เมื่อแผลเปลี่ยนลักษณะ ขอบนูน เลือดออก โตเร็ว"
+   "<b>นอกสไลด์:</b> ป้องกันในผู้ใช้รถเข็น: เบาะกระจายแรงกด ยกตัว/เอนตัวลดแรงกดทุกราว 15–30 นาที ตรวจผิวทุกวัน · แผล ischial ระยะ 4 ซ่อมด้วย flap หลังคุมการติดเชื้อกระดูก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ผู้ใช้รถเข็นรับน้ำหนักที่ ischial tuberosity ขณะนั่ง ตามลายมือคีย์ 'sitting · supine → sacral area' และตำรา Grabb and Smith · จุดกำกวม: ถ้าผู้ป่วยนั่งไถลลงหรือหลังค่อม แรงกดจะย้ายไป sacrum/coccyx และถ้าโจทย์ไม่ระบุท่าคำตอบจะเป็น sacrum · ช้อย E (occiput) Claude เติมเพราะไฟล์มี 4 ช้อย",
+  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
   "variants": [
-   "ผู้ป่วยอัมพาตครึ่งล่างนั่งรถเข็นทั้งวัน แผลลึกถึงกระดูกที่ก้นข้างขวา ตรวจพบกระดูกโผล่ → stage 4 ischial pressure injury; debridement, ประเมิน osteomyelitis แล้ว posterior thigh flap",
-   "ผู้ป่วยติดเตียงนอนหงายตลอดหลัง stroke มีรอยแดงที่กดแล้วไม่จางบริเวณก้นกบ → stage 1 sacral pressure injury; พลิกตัวทุก 2 ชม. ใช้ที่นอนลดแรงกด",
-   "ผู้ป่วยแผลกดทับที่ sacrum มา 15 ปี ระยะหลังแผลโตเร็ว ขอบนูนแข็ง เลือดออกง่าย → สงสัย Marjolin ulcer; biopsy หลายตำแหน่ง",
-   "ผู้ป่วยนอนตะแคงซ้ายตลอดเพราะเจ็บสะโพกขวา มีแผลลึกด้านข้างสะโพกซ้าย → greater trochanteric pressure injury; reconstruct ด้วย tensor fascia lata flap หลัง debridement"
+   "<b>นอกสไลด์:</b> แผลกดทับ ischial ซ่อมด้วย flap แล้วกลับมาเป็นซ้ำ → ทบทวนเบาะ การยกตัว ภาวะเกร็ง และโภชนาการก่อนผ่าตัดซ้ำ",
+   "<b>นอกสไลด์:</b> แผลกดทับลึกถึงกระดูก ischium ไข้ ESR สูง MRI กระดูกบวม → osteomyelitis: ตัดชิ้นกระดูกเพาะเชื้อ ยาปฏิชีวนะ และ debride ก่อน flap"
   ]
  },
  "MDCU66|RoC|10": {
-  "interp": "คำใบ้: ชาย 24 ปี (พระสงฆ์) + ไข้เป็น ๆ หาย ๆ + ปวดบั้นเอวขวาร้าวลงท้องน้อย (นิ่วในท่อไต) + แสบขัด + <b>right hydronephrosis</b> (มีการอุดตัน) + UA มีเม็ดเลือดแดงและเม็ดเลือดขาวมาก → <b>complicated UTI/pyelonephritis</b> ร่วมกับ obstruction (เพศชาย + มีการอุดตัน) · โจทย์ถามยาปฏิชีวนะ empirical ที่เหมาะ · ในบริบทไทยต้องนึกถึงโรคที่ต้องแยกด้วย: genitourinary TB (sterile pyuria, hematuria, ureteric stricture ทำให้ hydronephrosis ในชายอายุน้อย) และ melioidosis (renal/prostatic abscess)",
-  "why": "Complicated UTI คือการติดเชื้อในผู้ที่มีปัจจัยทำให้รักษายากหรือเสี่ยงล้มเหลว: เพศชาย, obstruction (นิ่ว hydronephrosis), สายสวน, ตั้งครรภ์, ภูมิคุ้มกันต่ำ, ความผิดปกติทางเดินปัสสาวะ (คีย์ลายมือ: complicated UTI) · เชื้อหลักเป็น gram-negative enteric bacilli (E. coli, Klebsiella, Proteus) และ Enterococcus · empiric parenteral therapy ที่แนะนำ (EAU 2024/IDSA): aminoglycoside (gentamicin 5–7 mg/kg วันละครั้ง) ± ampicillin, 3rd-generation cephalosporin (ceftriaxone), fluoroquinolone (ถ้าอัตราดื้อในพื้นที่ < 10% และไม่เคยใช้), สงวน carbapenem สำหรับผู้เสี่ยง ESBL หรือ septic shock · ในช้อยมีเพียง gentamicin ที่ครอบคลุม gram-negative และเหมาะเป็น empirical · สิ่งสำคัญพอ ๆ กับยาคือ <b>infected obstructed kidney ต้องระบายด่วน</b> (ureteric stent หรือ percutaneous nephrostomy) เพราะยาเข้าไม่ถึงระบบที่อุดและเสี่ยง urosepsis · เก็บ urine culture และ hemoculture ก่อนให้ยา แล้วปรับตามผล รวม 7–14 วัน · รักษานิ่วแบบ definitive เมื่อหายติดเชื้อแล้ว",
-  "trap": "กับดักหลักคือคิดแค่เรื่องยาแล้วลืมว่า <b>infected obstructed kidney เป็น urologic emergency</b> ต้องระบาย (stent/PCN) ร่วมกับยาเสมอ ห้ามรอดูผลยาอย่างเดียว และห้ามทำ ureteroscopy เอานิ่วออกตอนติดเชื้อ · อีกจุดคือเลือก meropenem เพราะ 'ครอบคลุมกว้าง' — ควรสงวนไว้สำหรับผู้เสี่ยง ESBL/septic shock · co-trimoxazole ใช้ใน cystitis ไม่เหมาะ empiric ใน complicated pyelonephritis ในไทยที่เชื้อดื้อสูง · gentamicin ต้องระวัง nephrotoxicity ในผู้ป่วยไตอุด ให้วันละครั้งและติดตาม creatinine",
-  "summary": [
-   "Complicated UTI: เพศชาย, obstruction (นิ่ว, BPH, stricture), สายสวน/stent, ตั้งครรภ์, เบาหวานคุมไม่ได้, immunocompromised, CKD, ไตปลูกถ่าย (renal transplant), ความผิดปกติโครงสร้าง · เชื้อหลากหลายและดื้อยามากกว่า",
-   "Empiric parenteral (EAU 2024): amoxicillin + aminoglycoside, 2nd-gen cephalosporin + aminoglycoside, หรือ IV 3rd-gen cephalosporin เดี่ยว · fluoroquinolone เฉพาะเมื่ออัตราดื้อ < 10% และไม่ได้ใช้ใน 6 เดือน · carbapenem/piperacillin–tazobactam เมื่อเสี่ยง ESBL หรือ septic shock",
-   "Obstructed infected kidney (ไข้ + hydronephrosis + นิ่ว): ระบายด่วนด้วย retrograde ureteric (JJ) stent หรือ percutaneous nephrostomy (ผลเท่ากัน เลือกตามความพร้อมและสภาพผู้ป่วย) + ยาปฏิชีวนะ → รักษานิ่ว definitive หลังหายติดเชื้อ (2–3 สัปดาห์)",
-   "Investigation: urine culture + hemoculture ก่อนให้ยา, CBC, creatinine, lactate · imaging: US ไตหรือ non-contrast CT KUB (ยืนยันนิ่วและ obstruction) · ไม่ดีขึ้นใน 48–72 ชม. → CT หา abscess/emphysematous pyelonephritis",
-   "Gentamicin: once-daily dosing 5–7 mg/kg ลด nephrotoxicity · ติดตาม creatinine และระดับยา · หลีกเลี่ยงใน AKI ที่รุนแรง ตั้งครรภ์ หรือใช้ร่วมกับยาที่เป็นพิษต่อไต",
-   "Emphysematous pyelonephritis: เบาหวานคุมไม่ได้ CT เห็นแก๊สในเนื้อไต → ยา + ระบาย ± nephrectomy · renal/perinephric abscess > 3–5 cm → percutaneous drainage",
-   "DDx ในไทยของชายอายุน้อยไข้เรื้อรัง + pyuria + hydronephrosis: genitourinary TB (sterile pyuria, urine AFB/TB-PCR, ureteric stricture, calcification) · melioidosis (Burkholderia pseudomallei: renal/prostatic abscess, เบาหวาน, ชาวนา — ceftazidime/meropenem แล้ว co-trimoxazole 3–6 เดือน)"
-  ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจปานกลาง — ในบรรดาช้อย gentamicin เป็นยาเดียวที่เหมาะเป็น empirical ของ complicated UTI ตามลายมือคีย์และ EAU 2024 ส่วนช้อยอื่นไม่ครอบคลุมเชื้อหรือกว้างเกินจำเป็น · จุดกำกวม: (1) ในเวชปฏิบัติไทยมักเริ่ม ceftriaxone ซึ่งไม่มีในช้อย (2) ถ้าผู้ป่วยมีภาวะ sepsis หรือเสี่ยง ESBL meropenem ก็เหมาะ (3) คำตอบที่สำคัญที่สุดของผู้ป่วยรายนี้จริง ๆ คือการระบายไตที่อุด ซึ่งโจทย์ไม่ได้ถาม · ควรเพิ่มคำถามต่อว่า 'ทำอะไรร่วมด้วย' เพื่อวัดเรื่อง decompression · บริบท 'พระสงฆ์ ไข้เป็น ๆ หาย ๆ' ในไทยควรทำให้นึกถึง genitourinary TB และ melioidosis ด้วย ถ้า culture ปกติแต่ pyuria ยังอยู่ (sterile pyuria) ต้องส่ง urine AFB/TB-PCR",
-  "variants": [
-   "ชาย 50 ปี ไข้หนาวสั่น ความดัน 80/50 ปวดบั้นเอวซ้าย CT พบนิ่วท่อไตซ้าย 8 mm + hydronephrosis → septic shock จาก obstructed infected kidney; resuscitate, ยาปฏิชีวนะกว้าง (meropenem ถ้าเสี่ยง ESBL), ระบายด่วนด้วย JJ stent หรือ PCN",
-   "หญิงเบาหวานคุมไม่ได้ ไข้สูง ปวดบั้นเอว CT เห็นแก๊สในเนื้อไตขวา → emphysematous pyelonephritis; ยาปฏิชีวนะ IV + คุมน้ำตาล + percutaneous drainage ± nephrectomy",
-   "ชายผู้ป่วยหลังใส่ JJ stent ระบายไตที่ติดเชื้อ 3 สัปดาห์ หายไข้แล้ว → ขั้นต่อไป (คำตอบ: รักษานิ่ว definitive เช่น ureteroscopy + laser lithotripsy แล้วเอา stent ออก)",
-   "ผู้ป่วย complicated UTI ได้ gentamicin มา 4 วัน creatinine จาก 1.0 เพิ่มเป็น 2.1 → aminoglycoside nephrotoxicity; หยุดหรือเปลี่ยนเป็น ceftriaxone ตามผล culture และติดตามการได้ยิน"
-  ],
+  "interp": "ชายหนุ่ม ไข้เป็นพัก ปวดเอวขวาร้าวท้องน้อย แสบขัด + hydronephrosis ขวา + pyuria → การติดเชื้อทางเดินปัสสาวะส่วนบนร่วมการอุดกั้น (complicated UTI) → ถามยาที่เลือกจากช้อย",
+  "why": "<b>ลายมือ: complicated UTI</b><br><b>นอกสไลด์:</b> เชื้อหลักเป็น gram-negative (E. coli, Klebsiella) · aminoglycoside ความเข้มข้นในปัสสาวะและเนื้อไตสูง ครอบคลุม gram-negative ดี จึงใช้เป็นยา empirical ได้ (ระวังพิษต่อไตและหู ใช้ช่วงสั้น) · ไตบวมน้ำร่วมไข้ต้องหาและระบายการอุดกั้นด้วย",
   "wrong": {
-   "A": "Penicillin ไม่ครอบคลุม gram-negative enteric bacilli (E. coli, Klebsiella, Proteus) ซึ่งเป็นเชื้อหลักของ complicated UTI จึงใช้เป็น empirical ไม่ได้ · จะถูกถ้า urine culture ได้ Enterococcus faecalis ที่ไวต่อ ampicillin (ใช้ ampicillin/amoxicillin เป็น targeted therapy)",
-   "B": "Meropenem ครอบคลุมกว้างมาก แต่ควรสงวนไว้สำหรับผู้เสี่ยง ESBL, septic shock หรือเคยติดเชื้อดื้อยา เพื่อลดการดื้อยา · จะถูกถ้า culture เป็น ESBL-producing Enterobacterales หรือผู้ป่วย septic shock ที่เสี่ยงเชื้อดื้อ หรือสงสัย melioidosis ระยะรุนแรง (meropenem/ceftazidime เป็นยาในระยะ intensive)",
-   "D": "Metronidazole ครอบคลุม anaerobic bacteria และ protozoa (Trichomonas, Entamoeba) ไม่ครอบคลุมเชื้อ UTI ทั่วไป · จะถูกถ้าโจทย์เป็น trichomoniasis, amoebic liver abscess หรือ intra-abdominal infection ที่ต้องครอบคลุม anaerobe ร่วมกับยาอื่น (ส่วน C. difficile ปัจจุบัน IDSA 2021 ให้ fidaxomicin/vancomycin เป็นยาแรก)",
-   "E": "Co-trimoxazole ใช้ใน uncomplicated cystitis ได้เมื่ออัตราดื้อในพื้นที่ < 20% แต่ในไทยเชื้อดื้อสูงและไม่เหมาะเป็น empirical ของ complicated pyelonephritis ที่มี obstruction · จะถูกถ้ามีผล culture ยืนยันว่าไว ใช้เป็น oral step-down หรือเป็นยาระยะ eradication ของ melioidosis หลังจบระยะ intensive"
-  }
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเพาะเชื้อปัสสาวะได้ Enterococcus faecalis ที่ไวต่อยา → ampicillin (กลุ่ม penicillin)",
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย complicated UTI ช็อก หรือเสี่ยงเชื้อ ESBL (เคยติดเชื้อดื้อยา เพิ่งได้ยากว้างหรือนอน รพ. นาน)",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าแสบขัด/ตกขาวจาก Trichomonas vaginalis → metronidazole รักษาทั้งคู่นอน",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผลเพาะเชื้อไวต่อ TMP-SMX และอาการดีขึ้น → เปลี่ยนเป็นยากินให้ครบ"
+  },
+  "trap": "ผู้ป่วยหนุ่มแสบขัดชวนคิด cystitis ธรรมดา — ไข้ ปวดเอว และไตบวมน้ำบอกว่าติดเชื้อเกินกระเพาะปัสสาวะร่วมการอุดกั้น ยากินระยะสั้นไม่พอ",
+  "summary": [
+   "<b>นอกสไลด์:</b> complicated UTI: เพาะเชื้อปัสสาวะ (± เลือด) ก่อนให้ยา · empirical ตามความรุนแรงและเชื้อดื้อในพื้นที่ (ceftriaxone, aminoglycoside; ช็อก/เสี่ยง ESBL → carbapenem) · ปรับตามผลเพาะเชื้อ รวมราว 7–14 วันตามการตอบสนอง · หาและแก้การอุดกั้น"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (ในช้อยที่มี) · เวชปฏิบัติไทยมักเริ่ม ceftriaxone · มั่นใจปานกลาง",
+  "variants": [
+   "<b>นอกสไลด์:</b> ได้ gentamicin แล้ว creatinine ขึ้นวันที่ 4 ผลเพาะเชื้อไว ceftriaxone → เปลี่ยนยา หยุด aminoglycoside",
+   "<b>นอกสไลด์:</b> ผู้ป่วยแพ้ทั้ง aminoglycoside และ cephalosporin ไม่มีความเสี่ยงเชื้อดื้อ → fluoroquinolone เมื่อเชื้อดื้อในพื้นที่ต่ำ"
+  ]
  }
 }
