@@ -1,0 +1,110 @@
+{
+ "MDCU75|RoD|Neuro 2": {
+  "interp": "ถามกลไกหลักที่ระบบประสาทส่วนกลางใช้ป้องกันการติดเชื้อ",
+  "why": "สไลด์ CNS defensive mechanism ในคีย์ (Maimai & Ig): <b>anatomical barrier</b> และ immunological response · ลายมือ: B, C = immune response ส่วนรอง<br><b>นอกสไลด์:</b> สมองถูกหุ้มด้วยหนังศีรษะ กะโหลก เยื่อหุ้มสมอง และ blood-brain barrier / blood-CSF barrier ที่ tight junction กั้นเชื้อจากเลือด · ภายใน CSF มีภูมิคุ้มกัน (complement, immunoglobulin, เม็ดเลือดขาว) น้อยมาก เมื่อเชื้อผ่านด่านเข้าไปได้จึงลุกลามเร็ว",
+  "wrong": {
+   "B": "ลายมือในคีย์: immune response ส่วนรอง · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ complement เป็นกลไกป้องกันหลักของ CNS เพราะระดับใน CSF ต่ำมากเทียบกับในเลือด",
+   "C": "ลายมือในคีย์: immune response ส่วนรอง · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ PMN เป็นด่านป้องกันหลัก เพราะ CSF ปกติแทบไม่มีเม็ดเลือดขาว PMN ถูกเรียกเข้ามาหลังเชื้อผ่าน barrier แล้ว",
+   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ IgA ใน CSF เป็นกลไกหลัก เพราะ IgA ทำงานที่ผิวเยื่อบุ (เช่น nasopharynx) ส่วน CSF มี immunoglobulin น้อยมาก",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ต่อมน้ำเหลืองในสมองเป็นด่านป้องกัน เพราะเนื้อสมองไม่มีต่อมน้ำเหลือง น้ำเหลืองระบายผ่าน meningeal lymphatics ไป deep cervical nodes"
+  },
+  "trap": "ช้อย complement/PMN ฟังดูเป็นภูมิคุ้มกันที่ถูก — แต่ CNS แทบไม่มีภูมิคุ้มกันภายใน จึงพึ่ง barrier เป็นหลัก",
+  "summary": [
+   "สไลด์ในคีย์: CNS defensive mechanism = anatomical barrier + immunological response",
+   "<b>นอกสไลด์:</b> Barriers: หนังศีรษะ, กะโหลก/กระดูกสันหลัง, dura, BBB (endothelium ที่มี tight junction), blood-CSF barrier (choroid plexus)",
+   "<b>นอกสไลด์:</b> เชื้อเข้าได้ 3 ทาง: ทางเลือด, ลามจากข้างเคียง (sinus, หูชั้นกลาง, mastoid, ฟัน), ทางตรง (บาดแผลทะลุ, ผ่าตัด, CSF รั่ว)",
+   "<b>นอกสไลด์:</b> เมื่อเยื่อหุ้มสมองอักเสบ BBB เปิดมากขึ้น ยาหลายชนิดจึงเข้า CSF ได้ดีขึ้นในช่วงนั้น"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (Maimai & Ig) ตามสไลด์ในคีย์ · ความมั่นใจสูง",
+  "variants": [
+   "หลังกะโหลกฐานหักเป็นเยื่อหุ้มสมองอักเสบจาก pneumococcus ซ้ำหลายครั้ง → หารอยรั่ว CSF แล้วซ่อม",
+   "ผู้ป่วยเป็นเยื่อหุ้มสมองอักเสบจาก meningococcus ซ้ำ → ตรวจหาการขาด terminal complement (C5–C9)"
+  ]
+ },
+ "MDCU75|RoD|Neuro 3": {
+  "interp": "ระหว่างผ่าตัดเปิดกะโหลก ถามวิธีห้ามเลือดจากหลอดเลือดเล็กบนผิวสมองที่ใช้บ่อยที่สุด",
+  "why": "ลายมือในคีย์ (Maimai & Ig) วิธีห้ามเลือดใน neurosurgery: cottonoid, bone wax, Surgicel, Gelfoam, Raney clip, <b>bipolar electrocauterization</b><br><b>นอกสไลด์:</b> Bipolar ปล่อยกระแสผ่านเฉพาะเนื้อเยื่อที่อยู่ระหว่างปลายคีมสองข้าง ความร้อนไม่กระจาย จึงจี้หลอดเลือดเล็กบนผิวสมองได้โดยไม่ทำลายเนื้อสมองและเส้นประสาทรอบ ๆ",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> Monopolar กระแสวิ่งผ่านเนื้อเยื่อไปแผ่นสายดิน ความร้อนกระจาย ห้ามใช้ใกล้เนื้อสมอง · จะถูกถ้าห้ามเลือดจากหลอดเลือดเล็กในกล้ามเนื้อ temporalis ระหว่างเปิดแผล ห่างจากเนื้อสมอง",
+   "C": "Raney clip อยู่ในลายมือคีย์ · <b>นอกสไลด์:</b> จะถูกถ้าเป็นเลือดออกจากขอบหนังศีรษะที่เพิ่งกรีด — หนีบขอบแผลด้วย Raney clip",
+   "D": "<b>นอกสไลด์:</b> การผูกใช้กับหลอดเลือดที่ใหญ่พอจะคล้องไหม ไม่เหมาะกับหลอดเลือดเล็กบนผิวสมอง · จะถูกถ้าเป็นแขนงหลอดเลือดขนาดกลางใน mesentery ระหว่างผ่าตัดช่องท้อง",
+   "E": "<b>นอกสไลด์:</b> การเย็บใช้ซ่อมผนังหลอดเลือดที่ต้องเก็บไว้ · จะถูกถ้าหลอดเลือดแดงใหญ่มีรูฉีกด้านข้างและต้องคงการไหลของเลือด — เย็บซ่อมผนัง"
+  },
+  "trap": "คิดว่าจี้ไฟฟ้าแบบใดก็ได้ — ใกล้เนื้อสมองใช้ bipolar เท่านั้น",
+  "summary": [
+   "ลายมือในคีย์: cottonoid, bone wax, Surgicel, Gelfoam, Raney clip, bipolar",
+   "<b>นอกสไลด์:</b> หลักห้ามเลือดในสมอง: ล้างน้ำ + กดเบา ๆ ด้วย cottonoid · ซึมทั่วใช้สารห้ามเลือด (oxidized cellulose, gelatin sponge) · ขอบกระดูกใช้ bone wax · หนังศีรษะใช้ Raney clip",
+   "<b>นอกสไลด์:</b> ใกล้เส้นประสาทหรือเนื้อสมองสำคัญ ใช้ bipolar กำลังต่ำร่วมกับน้ำหยด กันเนื้อเยื่อติดปลายคีม"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (Maimai & Ig) · ความมั่นใจสูง",
+  "variants": [
+   "ระหว่างเปิดกะโหลกใกล้ superior sagittal sinus มีเลือดดำออกมาก ETCO2 ลดลงทันที → venous air embolism: กดแผล ราดน้ำเกลือ ปรับให้ศีรษะต่ำลง",
+   "ผู้ป่วยกิน clopidogrel นัดผ่าตัดเนื้องอกสมอง → หยุดยาก่อนผ่าตัดตามความเสี่ยงของโรคหัวใจ"
+  ]
+ },
+ "MDCU75|RoD|Neuro 4": {
+  "interp": "ชาย 45 ปี หน้าหยาบ มือเท้าโต IGF-1 สูง = acromegaly · ถามเนื้องอกที่เป็นสาเหตุ",
+  "why": "สไลด์ Pituitary Tumors ในคีย์ (Maimai & Ig): อาการจาก vision, endocrine, increased ICP · <b>acromegaly</b><br><b>นอกสไลด์:</b> GH เกินในผู้ใหญ่ (หลังกระดูกปิด) ทำให้กระดูกและเนื้อเยื่ออ่อนโตตามขวาง → acromegaly · สาเหตุเกือบทั้งหมดคือ GH-secreting pituitary adenoma ซึ่งมักใหญ่ (macroadenoma) เพราะวินิจฉัยช้า",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> Craniopharyngioma กดต่อมใต้สมองจนฮอร์โมนต่ำ ไม่ได้ทำให้ GH เกิน · จะถูกถ้าเด็กตัวเตี้ย ตามัวด้านข้างสองข้าง ปัสสาวะมาก CT เห็นก้อนเหนือ sella มีหินปูนและถุงน้ำ",
+   "C": "<b>นอกสไลด์:</b> Meningioma ไม่สร้างฮอร์โมน · จะถูกถ้าหญิงวัยกลางคนชักครั้งแรก MRI เห็นก้อนติดเยื่อหุ้มสมองมี dural tail",
+   "D": "<b>นอกสไลด์:</b> เนื้องอก pineal ไม่สร้าง GH · จะถูกถ้าเด็กชายเข้าสู่วัยหนุ่มก่อนวัยจาก β-hCG ของ germinoma บริเวณ pineal",
+   "E": "<b>นอกสไลด์:</b> Ectopic GHRH เป็นสาเหตุที่พบน้อยมาก · จะถูกถ้าผู้ป่วย acromegaly ที่ MRI เห็นต่อมใต้สมองโตทั่วไม่มีก้อน และพบก้อน carcinoid ในปอดหรือตับอ่อน GHRH ในเลือดสูง"
+  },
+  "trap": "สับสน craniopharyngioma (ฮอร์โมนต่ำ) กับ pituitary adenoma ที่สร้างฮอร์โมน",
+  "summary": [
+   "<b>นอกสไลด์:</b> วินิจฉัย: IGF-1 สูง → ยืนยันด้วย GH ไม่ถูกกดหลัง OGTT → MRI ต่อมใต้สมอง · ตรวจลานสายตา (bitemporal hemianopia) และฮอร์โมนอื่น",
+   "<b>นอกสไลด์:</b> รักษา: ผ่าตัดผ่าน transsphenoidal เป็นหลัก · ยา (somatostatin analog, pegvisomant, cabergoline) เมื่อผ่าตัดไม่หมด/ผ่าไม่ได้ · ฉายรังสีเป็นทางสุดท้าย",
+   "<b>นอกสไลด์:</b> ภาวะแทรกซ้อน: กล้ามเนื้อหัวใจโต, ความดันสูง, เบาหวาน, OSA, ข้อเสื่อม, carpal tunnel",
+   "<b>นอกสไลด์:</b> ต่างจาก prolactinoma ที่ใช้ยา (cabergoline) เป็นการรักษาแรกโดยทั่วไป"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (Maimai & Ig) · โจทย์และช้อยแต่งจากที่จดมาแค่ช้อยเดียว · ความมั่นใจสูง",
+  "variants": [
+   "หลังผ่าตัด GH adenoma IGF-1 ยังสูง → somatostatin analog",
+   "ผู้ป่วย acromegaly → ส่องกล้องลำไส้ใหญ่คัดกรอง เพราะเสี่ยง polyp และมะเร็งลำไส้ใหญ่"
+  ]
+ },
+ "MDCU75|RoD|Neuro 5": {
+  "interp": "สมองบวมรอบก้อนมะเร็งแพร่กระจาย · ถามชนิดของการบวมและ dexamethasone ช่วยหรือไม่",
+  "why": "ลายมือในคีย์ (Maimai & Ig) บนสไลด์ Metastasis: <b>tumor edema = vasogenic</b><br><b>นอกสไลด์:</b> หลอดเลือดในก้อนมะเร็งไม่มี tight junction ที่สมบูรณ์ (BBB รั่ว) น้ำและโปรตีนจึงซึมออกไปตาม white matter · dexamethasone ลดการรั่วของหลอดเลือด สมองบวมยุบและอาการดีขึ้นภายในไม่กี่วัน",
+  "wrong": {
+   "A": "<b>นอกสไลด์:</b> ข้อความนี้ถูกสำหรับการบวมอีกแบบ · จะถูกถ้าเป็นสมองบวมจาก ischemic stroke ขนาดใหญ่ — เซลล์บวมเพราะปั๊มไอออนล้มเหลว steroid ไม่ช่วย",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ steroid ได้ผลกับ cytotoxic edema เพราะปัญหาอยู่ที่เซลล์ขาดพลังงาน ไม่ใช่หลอดเลือดรั่ว",
+   "C": "<b>นอกสไลด์:</b> Vasogenic จากเนื้องอกตอบสนองต่อ steroid ดี · จะถูกถ้าเป็นสมองบวมรอบก้อนเลือดใน ICH — steroid ไม่ได้ผลและเพิ่มภาวะแทรกซ้อน",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ steroid เป็นการรักษา interstitial edema เพราะเกิดจาก CSF ซึมผ่าน ependyma ใน hydrocephalus แก้ด้วยการระบาย CSF"
+  },
+  "trap": "จำว่า 'steroid ไม่ช่วยสมองบวม' แบบรวม ๆ (ซึ่งจริงสำหรับ TBI/stroke/ICH) — สมองบวมจากเนื้องอกและฝีเป็น vasogenic ที่ steroid ช่วย",
+  "summary": [
+   "<b>นอกสไลด์:</b> Vasogenic: BBB รั่ว อยู่ใน white matter เป็นนิ้วมือ (เนื้องอก ฝี) → steroid ช่วย · cytotoxic: เซลล์บวม ทั้ง gray และ white (stroke, ขาดออกซิเจน) → ไม่ช่วย · interstitial: รอบ ventricle จาก hydrocephalus → ระบาย CSF",
+   "<b>นอกสไลด์:</b> Dexamethasone เลือกเพราะฤทธิ์ mineralocorticoid ต่ำ · ใช้ขนาดต่ำสุดที่คุมอาการแล้วค่อย ๆ ลด",
+   "<b>นอกสไลด์:</b> ผลข้างเคียง: น้ำตาลสูง, แผลในกระเพาะ, กล้ามเนื้ออ่อนแรง, ติดเชื้อ (รวม PCP เมื่อใช้นาน)"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ D (Maimai & Ig) · ความมั่นใจสูง",
+  "variants": [
+   "มะเร็งแพร่กระจายในสมองก้อนเล็ก สมองบวมน้อย ไม่มีอาการ → ไม่ต้องให้ steroid (Congress of Neurological Surgeons 2019)",
+   "สงสัย primary CNS lymphoma → เลี่ยง steroid ก่อนตัดชิ้นเนื้อ เพราะก้อนยุบจนชิ้นเนื้อไม่ได้ผล"
+  ]
+ },
+ "MDCU75|RoD|Neuro 6": {
+  "interp": "เด็กชาย 14 ปี ปวดศีรษะ มองขึ้นไม่ได้ รูม่านตาตอบสนองต่อการมองใกล้แต่ไม่ตอบสนองต่อแสง (Parinaud) · ถามเนื้องอกที่เป็นสาเหตุบ่อยที่สุด",
+  "why": "สไลด์ Pineal region tumors ในคีย์ (Maimai & Ig): <b>วัยรุ่น · Parinaud — upward gaze palsy, light-near dissociation</b><br><b>นอกสไลด์:</b> ก้อนบริเวณ pineal กด tectal plate ของ dorsal midbrain (ศูนย์มองขึ้นและวงจรรีเฟล็กซ์แสงของรูม่านตา) และกด aqueduct ทำให้ hydrocephalus ปวดศีรษะ",
+  "wrong": {
+   "B": "<b>นอกสไลด์:</b> Glioblastoma เป็นเนื้องอกของผู้ใหญ่สูงอายุ · จะถูกถ้าชาย 65 ปี แขนขาอ่อนแรงซีกเดียวมากขึ้นใน 2 เดือน MRI ก้อนขอบเรืองมีเนื้อตายข้ามไปสองซีกผ่าน corpus callosum",
+   "C": "<b>นอกสไลด์:</b> Vestibular schwannoma อยู่ที่ cerebellopontine angle · จะถูกถ้าผู้ใหญ่หูอื้อ ได้ยินลดลงข้างเดียวเรื้อรัง มีเสียงในหู",
+   "D": "<b>นอกสไลด์:</b> Meningioma พบในผู้หญิงวัยกลางคน · จะถูกถ้าหญิง 50 ปี ปวดศีรษะ ขาอ่อนแรงสองข้างจากก้อนติด falx (parasagittal)",
+   "E": "<b>นอกสไลด์:</b> Medulloblastoma อยู่ที่ vermis/ventricle ที่ 4 · จะถูกถ้าเด็ก 6 ปีเดินเซ อาเจียนตอนเช้า MRI ก้อนกลางสมองน้อย"
+  },
+  "trap": "จำสัญญาณ Parinaud ไม่ได้ — มองขึ้นไม่ได้ + light-near dissociation = dorsal midbrain = ก้อน pineal",
+  "summary": [
+   "<b>นอกสไลด์:</b> Parinaud (dorsal midbrain) syndrome: มองขึ้นไม่ได้, light-near dissociation, convergence-retraction nystagmus, หนังตาบนรั้ง (Collier sign)",
+   "<b>นอกสไลด์:</b> เนื้องอก pineal: germinoma พบบ่อยสุด (วัยรุ่นชาย) · nongerminomatous germ cell tumor · pineoblastoma/pineocytoma",
+   "<b>นอกสไลด์:</b> ตรวจ AFP และ β-hCG ในเลือดและ CSF ก่อนผ่าตัด · germinoma ไวต่อรังสี/เคมีมาก จึงตัดชิ้นเนื้อ (มักผ่านกล้อง) แทนการผ่าตัดใหญ่",
+   "<b>นอกสไลด์:</b> Hydrocephalus จากกด aqueduct → endoscopic third ventriculostomy หรือ shunt"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ A (Maimai & Ig) ตามสไลด์ในคีย์ · ความมั่นใจสูง",
+  "variants": [
+   "วัยรุ่นชาย Parinaud AFP ในเลือดและ CSF สูงมาก → nongerminomatous germ cell tumor เริ่มเคมีบำบัดได้โดยไม่ต้องตัดชิ้นเนื้อ",
+   "วัยรุ่นมีก้อนที่ pineal ร่วมกับปัสสาวะมากกระหายน้ำ (diabetes insipidus) → germinoma สองตำแหน่ง (pineal + suprasellar)"
+  ]
+ }
+}
