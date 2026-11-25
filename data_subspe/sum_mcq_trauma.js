@@ -582,7 +582,7 @@ SUMM.push({
      "trend": "ให้ผู้ป่วย 5 แบบแล้วเลือกรายที่ต้องส่ง (คำตอบ third-degree ที่ใบหน้า)",
      "asked": [
       "ผู้ป่วยรายใดต้องส่ง burn center ชัดที่สุด → <b>หญิง 37 ปี full-thickness 7% ที่ใบหน้าและคอ</b> (ตัวลวง superficial partial 2% ต้นขา, deep partial 1% ต้นขา, superficial partial 5% หลัง, superficial 3% แขน)",
-      "รายใดควร admit burn unit → <b>third-degree 5% ที่ใบหน้า</b> (ตัวลวง first-degree 10% หลัง, second-degree 2% แขน, sunburn ไหล่, superficial 3% ต้นขา)"
+      "รายใดควร admit burn unit → <b>third-degree 5% ที่ใบหน้าและคอ</b> (ตัวลวง first-degree 10% หลัง, second-degree 2% แขน, sunburn ไหล่, superficial 3% ต้นขา)"
      ],
      "pattern": [
       "<b>ABA Guidelines for Burn Patient Referral (2022 — ฉบับปัจจุบัน)</b> — ปรึกษาทันทีและพิจารณาส่งต่อ: <b>full-thickness ทุกขนาด</b>; partial thickness ≥ 10% TBSA; deep partial / full thickness ที่ <b>หน้า มือ อวัยวะเพศ เท้า perineum หรือข้อ</b>; มีโรคร่วมหรือ trauma ร่วม; ปวดคุมไม่ได้; inhalation injury ทุกราย; chemical ทุกราย; high-voltage (≥ 1,000 V) / ฟ้าผ่า; เด็ก ≤ 14 ปีหรือ < 30 kg ได้ประโยชน์จากการส่ง",
