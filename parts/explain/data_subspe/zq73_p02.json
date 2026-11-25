@@ -99,8 +99,8 @@
   "why": "P'Ing วง <b>C ✓ lobectomy 1 lobe ได้</b> · <b>A ✗ &gt; 0.6 wedge resection ได้</b> · <b>D ✗ pneumonectomy ได้</b><br><b>นอกสไลด์:</b> เกณฑ์คลาสสิก (BTS): FEV1 &gt; 1.5 L ทำ lobectomy ได้โดยไม่ต้องทดสอบเพิ่ม · ต่ำกว่านี้ต้องคำนวณค่าหลังผ่าตัดที่คาด (ppoFEV1, ppoDLCO) ต่อ",
   "wrong": {
    "A": "P'Ing: ราว 0.6 L พอสำหรับ wedge เท่านั้น · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 0.5 L เป็นเกณฑ์ lobectomy โดยไม่ทดสอบเพิ่ม เพราะค่าที่ต่ำกว่า 1.5 L ต้องประเมิน ppoFEV1/DLCO ต่อเสมอ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 1 L เป็นเกณฑ์ lobectomy โดยไม่ทดสอบเพิ่ม เพราะค่าที่ต่ำกว่า 1.5 L ต้องประเมิน ppoFEV1/DLCO ต่อเสมอ",
-   "D": "P'Ing: เกณฑ์ pneumonectomy · จะถูกถ้าก้อนอยู่กลางปอดจนต้องทำ pneumonectomy",
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 1 L เป็นเกณฑ์ lobectomy โดยไม่ทดสอบเพิ่ม เพราะต่ำกว่า 1.5 L ต้องประเมินต่อ",
+   "D": "P'Ing: เกณฑ์ pneumonectomy · <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 2 L เป็นจุดตัดของ lobectomy เพราะเป็นเกณฑ์ของ pneumonectomy — ทำ lobectomy ได้แต่สูงเกินจุดตัด",
    "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 2.5 L เป็นค่าเกณฑ์ เพราะเกณฑ์สูงสุดคือ pneumonectomy ที่ 2 L — ค่านี้ผ่าตัดได้แต่ไม่ใช่จุดตัด"
   },
   "trap": "โจทย์ถามจุดตัด — 2 และ 2.5 L ก็ผ่าตัดได้ แต่เป็นค่าที่สูงเกินเกณฑ์ · อย่าสลับเกณฑ์ lobectomy (1.5) กับ pneumonectomy (2)",
@@ -156,7 +156,7 @@
   "wrong": {
    "A": "<b>นอกสไลด์:</b> Ceftriaxone เป็นยาหลัก · จะถูก (ใช้ไม่ได้) ถ้าเป็นทารกแรกเกิดตัวเหลืองหรือต้องได้สารน้ำที่มีแคลเซียม — ใช้ cefotaxime แทน",
    "B": "<b>นอกสไลด์:</b> Penicillin G ใช้ได้เมื่อเชื้อไว · จะถูกถ้า pneumococcus ดื้อ penicillin (MIC สูง)",
-   "C": "<b>นอกสไลด์:</b> Cefotaxime ผ่าน CSF ดี · จะถูกถ้าเชื้อเป็น Listeria — cephalosporin ทุกตัวไม่ครอบคลุม ต้องใช้ ampicillin",
+   "C": "<b>นอกสไลด์:</b> Cefotaxime ผ่าน CSF ดี · จะถูกถ้าเชื้อเป็น Listeria — cephalosporin (cefotaxime/ceftriaxone) ไม่ครอบคลุม ต้องใช้ ampicillin",
    "D": "<b>นอกสไลด์:</b> Vancomycin ใช้ร่วมเพื่อครอบคลุม pneumococcus ดื้อยา · จะถูกถ้าเชื้อเป็น gram-negative (เช่น N. meningitidis, H. influenzae) — vancomycin ไม่มีฤทธิ์"
   },
   "trap": "ในทารกแรกเกิด gentamicin ใช้เสริมร่วม ampicillin ได้ แต่ใช้เป็นยาหลักรักษา meningitis เดี่ยว ๆ ไม่ได้",
@@ -165,7 +165,6 @@
   ],
   "opinion": "เห็นด้วยกับคีย์ E — ตรงกับที่ P'Ing จด · มั่นใจสูง",
   "variants": [
-   "<b>นอกสไลด์:</b> สงสัย meningitis แต่ซึมมาก ชัก มี papilledema ต้อง CT ก่อนเจาะหลัง → เจาะเลือดเพาะเชื้อ ให้ยาปฏิชีวนะ + dexamethasone ก่อน แล้วค่อย CT",
    "<b>นอกสไลด์:</b> Meningitis หลังผ่าตัดสมองหรือใส่ shunt → vancomycin + cefepime หรือ meropenem (ครอบคลุม Pseudomonas และ Staphylococcus)"
   ]
  },
