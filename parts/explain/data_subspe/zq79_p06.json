@@ -1,192 +1,156 @@
 {
  "MDCU79|RoD|CVT 2": {
-  "interp": "โจทย์แบบ <b>NOT</b>: ให้หาสิ่งที่ \"ไม่ใช้\" เป็น conduit ของ coronary artery bypass grafting · ช้อย A–D เป็นหลอดเลือดแดงของผู้ป่วยเอง (autologous arterial conduits) ที่ตำแหน่งต่างกัน ส่วนช้อย E เป็นหลอดเลือดเทียม (synthetic) · ต้องรู้ว่า coronary artery มีขนาดเล็ก (1.5–2.5 mm) และ conduit ต้องคงความเปิดได้นานโดยไม่อุดตัน ซึ่งเป็นเงื่อนไขที่ตัดสินว่าวัสดุชนิดใดใช้ได้",
+  "interp": "ข้อ NOT — ถามสิ่งที่ \"ไม่ใช้\" เป็นหลอดเลือดสำหรับทำ CABG",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: E PTFE graft</b><br><b>นอกสไลด์:</b> หลอดเลือดเทียม (PTFE, Dacron) อุดตันเร็วเมื่อต่อกับหลอดเลือดขนาดเล็กที่เลือดไหลช้าอย่าง coronary จึงไม่ใช้ใน CABG · ใช้กับหลอดเลือดใหญ่ (aorta, iliac) หรือเส้นฟอกไต",
   "wrong": {
-   "A": "Left internal mammary artery เป็น conduit มาตรฐานที่ดีที่สุด ต่อแบบ in situ เข้า LAD (patency ราว 90% ที่ 10 ปี) และเป็น graft เดียวที่พิสูจน์ว่าเพิ่ม survival จึงใช้จริงแน่นอน; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยมี left subclavian artery stenosis ที่ต้นทาง (ความดันแขนซ้ายต่ำกว่าขวาเกิน 20 mmHg) ซึ่งทำให้ in-situ LIMA ส่งเลือดไม่พอและเกิด coronary-subclavian steal จึงต้องเลี่ยงหรือแก้ subclavian ก่อน",
-   "B": "Right internal mammary artery ใช้ทำ bilateral IMA grafting (มักต่อเข้า LCx หรือ RCA) ซึ่งมีข้อมูลว่าเพิ่ม long-term survival ในผู้ป่วยที่คัดเลือก จึงเป็น conduit ที่ใช้จริง; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยเป็นเบาหวานคุมไม่ดี อ้วนมาก และเป็น COPD รุนแรง เพราะการเลาะ IMA ทั้งสองข้างลดเลือดไปเลี้ยงกระดูก sternum เพิ่มความเสี่ยง deep sternal wound infection ศัลยแพทย์จึงใช้ LIMA ข้างเดียว",
-   "C": "Radial artery เป็น arterial conduit ตัวที่สองที่นิยม (RADIAL meta-analysis พบ patency และ event-free survival ดีกว่า saphenous vein) ใช้ต่อกับเส้นที่ตีบรุนแรง จึงใช้จริง; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยตรวจ modified Allen test หรือ Doppler แล้วพบว่า ulnar artery ส่งเลือดไปเลี้ยงมือได้ไม่พอ เพราะการเอา radial artery ออกจะทำให้มือขาดเลือด",
-   "D": "Right gastroepiploic artery เป็น arterial conduit จากช่องท้องที่ใช้ต่อแบบ in situ เข้าแขนงด้าน inferior (PDA) ปัจจุบันใช้น้อยลงแต่ยังเป็น conduit ที่ยอมรับ; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วยเคยผ่าตัด distal gastrectomy หรือมีแผนผ่าตัดช่องท้องส่วนบนในอนาคต เพราะหลอดเลือดอาจถูกตัดไปแล้วหรือการผ่าตัดครั้งหน้าจะเสี่ยงทำลาย graft"
+   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นหลอดเลือดที่ใช้ไม่ได้) ถ้า left subclavian artery ตีบที่ต้นทาง หรือเคยฉายรังสีทรวงอกจนหลอดเลือดเสียหาย",
+   "B": "<b>นอกสไลด์:</b> จะถูก (ใช้ไม่ได้) ถ้าเป็นผู้ป่วยเบาหวานอ้วนมาก ที่การใช้ internal mammary ทั้งสองข้างเสี่ยงแผลกระดูกอกติดเชื้อ",
+   "C": "<b>นอกสไลด์:</b> จะถูก (ใช้ไม่ได้) ถ้า Allen test ผิดปกติ (มือพึ่งเลือดจาก radial) หรือผู้ป่วยไตวายที่ต้องเก็บหลอดเลือดแขนไว้ทำเส้นฟอกไต",
+   "D": "<b>นอกสไลด์:</b> จะถูก (ใช้ไม่ได้) ถ้าเคยผ่าตัดกระเพาะอาหารจนหลอดเลือดนี้ถูกตัด"
   },
-  "trap": "ช้อย D ดึงดูดมากที่สุด เพราะหลอดเลือดในช่องท้องฟังดูไม่น่าเกี่ยวกับหัวใจ แต่ right gastroepiploic artery เป็น arterial conduit ที่ใช้จริงมานาน · ช้อย B ล่อคนที่รู้แค่ \"LIMA ต่อ LAD\" แล้วคิดว่าข้างขวาไม่ใช้ · ช้อย C ล่อคนที่จำว่า radial artery หดเกร็งง่าย (spasm) จึงคิดว่าใช้ไม่ได้ ทั้งที่ใช้ได้โดยให้ยาป้องกัน spasm · ช้อย E ล่อเพราะ PTFE เป็นหลอดเลือดเทียมที่ศัลยแพทย์หลอดเลือดใช้บ่อย แต่ใช้ได้กับหลอดเลือดใหญ่ ไม่ใช่ coronary ขนาดเล็ก",
+  "trap": "great saphenous vein ไม่อยู่ในช้อยแต่เป็น conduit ที่ใช้บ่อยที่สุดคู่กับ LIMA — ช้อยที่ให้ไม่ได้ครบทุกชนิด",
   "summary": [
-   "Patency ระยะยาวโดยประมาณ: LIMA–LAD ราว 90% ที่ 10 ปี · radial artery ราว 80–90% ที่ 5 ปี · saphenous vein graft ราว 50–60% ที่ 10 ปี (vein graft disease จาก intimal hyperplasia และ atherosclerosis)",
-   "Great saphenous vein ยังเป็น conduit ที่ใช้บ่อยรองจาก LIMA เพราะยาวพอต่อหลายเส้น · เลาะได้แบบเปิดหรือ endoscopic vein harvest (แผลเล็ก ติดเชื้อน้อยกว่า)",
-   "Radial artery: ตรวจ modified Allen test ก่อนเลาะ · ใช้กับเส้นที่ตีบ ≥ 70–90% เพื่อเลี่ยง competitive flow · ให้ calcium channel blocker หรือ nitrate ป้องกัน spasm หลังผ่าตัด",
-   "ข้อบ่งชี้ CABG (ACC/AHA/SCAI 2021): left main disease ที่ซับซ้อน, multivessel CAD ในเบาหวาน (FREEDOM: CABG ดีกว่า PCI), 3-vessel ที่ SYNTAX score สูง, LV dysfunction ร่วม multivessel disease, PCI ล้มเหลวหรือทำไม่ได้",
-   "ภาวะแทรกซ้อนหลัง CABG: postoperative AF ราว 20–40% (มักวันที่ 2–4), stroke, perioperative MI, AKI, deep sternal wound infection/mediastinitis (เสี่ยงในเบาหวาน อ้วน bilateral IMA), vasoplegia",
-   "หลอดเลือดเทียม: Dacron ใช้กับ aorta และ iliac · PTFE ใช้กับ peripheral bypass เหนือเข่า, AV graft สำหรับฟอกไต, modified Blalock–Thomas–Taussig shunt ในเด็ก — ต้องเป็นหลอดเลือดขนาด ≥ 4–6 mm ที่เลือดไหลแรงพอ"
+   "<b>นอกสไลด์:</b> conduit ของ CABG: LIMA → LAD เปิดนานที่สุด (ราว 90% ที่ 10 ปี) จึงเป็นมาตรฐาน · arterial อื่น: RIMA, radial · vein: great saphenous (อุดตันมากขึ้นเมื่อเวลาผ่านไป)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูงมาก ~98% — synthetic graft อุดตันเร็วเมื่อใช้ต่อกับหลอดเลือดขนาดเล็กอย่าง coronary จึงไม่ใช้ใน CABG ส่วนช้อยอื่นเป็น arterial conduit ที่ตำรายอมรับทั้งหมด · จุดกำกวมเล็กน้อย: ในอดีตเคยมีรายงานใช้ PTFE ต่อ coronary ในผู้ป่วยที่ไม่มี conduit เหลือเลย (redo หลายครั้ง) แต่ผลแย่มากและไม่ใช่การใช้ตามมาตรฐาน · right gastroepiploic ใช้น้อยลงมากในปัจจุบัน ถ้าแก้โจทย์ อาจเพิ่ม great saphenous vein เป็นช้อยแทนเพื่อทดสอบว่ารู้ว่าเป็น conduit ที่ใช้บ่อย",
+  "opinion": "เห็นด้วยกับคีย์ E (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "ชายอายุ 62 ปี เบาหวาน 3-vessel disease ทำ CABG ควรต่อ conduit ใดเข้า LAD → in-situ LIMA (patency ระยะยาวดีที่สุดและเพิ่ม survival)",
-   "หลังผ่าตัด CABG ด้วย radial artery graft ควรให้ยาใดป้องกันการหดเกร็งของ graft ในช่วงแรก → calcium channel blocker (เช่น diltiazem หรือ amlodipine) หรือ nitrate",
-   "ทารกแรกเกิด pulmonary atresia ทำ modified Blalock–Thomas–Taussig shunt ใช้วัสดุใดต่อจาก subclavian artery ไป pulmonary artery → PTFE graft ขนาด 3.5–4 mm (ต่างจาก CABG ที่ใช้ synthetic ไม่ได้)"
+   "<b>นอกสไลด์:</b> ใช้ radial artery ต่อกับ coronary ที่ตีบไม่มาก → เลือดไหลแข่งกันจน graft อุดง่าย: ใช้ arterial graft กับรอยตีบรุนแรง",
+   "<b>นอกสไลด์:</b> หลัง CABG ที่ใช้ LIMA เจ็บหน้าอกเวลาใช้แขนซ้าย ความดันแขนซ้ายต่ำกว่าขวามาก → subclavian ตีบดึงเลือดจาก LIMA (coronary-subclavian steal)"
   ]
  },
  "MDCU79|RoD|CVT 3": {
+  "interp": "หลังหัตถการส่องกล้องผ่านปากและคอหอย ปวดคอและหน้าอก มีลมใต้ผิวหนัง ภาพมีลมในเนื้อเยื่อคอและ mediastinum · ถามการวินิจฉัย",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Esophageal perforation</b><br><b>นอกสไลด์:</b> หัตถการผ่านปาก (ส่องกล้อง ขยายหลอดอาหาร ใส่ท่อ) เป็นสาเหตุที่พบบ่อยที่สุดของหลอดอาหารทะลุ · ทะลุส่วนคอทำให้ปวดคอ ลมใต้ผิวหนังที่คอ และลมลงไปใน mediastinum",
   "wrong": {
-   "B": "Mallory–Weiss tear เป็นแผลฉีกตามยาวเฉพาะชั้น mucosa บริเวณ GE junction จากการอาเจียนรุนแรง อาการเด่นคืออาเจียนเป็นเลือดสด ไม่ทะลุทุกชั้นจึงไม่มีลมรั่วออกนอกหลอดอาหาร; จะถูกถ้าชายดื่มสุราอาเจียนหลายครั้งแล้วอาเจียนเป็นเลือดสดครึ่งแก้ว ความดันปกติ ไม่มีเจ็บหน้าอกหรือ crepitus และ endoscopy เห็นแผลฉีกตามยาวที่ GE junction ซึ่งหยุดเลือดเองแล้ว",
-   "C": "Boerhaave syndrome เป็น full-thickness rupture ที่เกิด<b>เอง</b>จากความดันในหลอดอาหารสูงขึ้นทันทีขณะอาเจียน ไม่ได้เกิดหลังใส่เครื่องมือ และมักฉีกที่ distal esophagus ด้านซ้ายหลัง — โจทย์มีประวัติหัตถการชัดเจน; จะถูกถ้าชายวัยกลางคนกินอาหารและสุรามากแล้วอาเจียนแรง ตามด้วยเจ็บหน้าอกรุนแรงทันที มี subcutaneous emphysema และ CXR พบ left pleural effusion กับ pneumomediastinum โดยไม่เคยทำหัตถการใด",
-   "D": "Esophageal variceal rupture ทำให้อาเจียนเป็นเลือดปริมาณมากจนช็อกในผู้ป่วยตับแข็ง portal hypertension ไม่มีการทะลุของผนังหลอดอาหารจึงไม่มีลมใน mediastinum; จะถูกถ้าผู้ป่วยตับแข็งจาก HBV มีม้ามโต ascites อาเจียนเลือดสดปริมาณมาก ความดัน 85/50 → resuscitate, vasoactive drug (terlipressin หรือ octreotide), ceftriaxone และ endoscopic band ligation ภายใน 12 ชม.",
-   "E": "Tension pneumothorax ทำให้ความดันต่ำ หลอดลมเบี้ยว เสียงหายใจหายข้างหนึ่งและเคาะโปร่ง ลมอยู่ใน pleural space ไม่ใช่ใน soft tissue ของคอและ mediastinum และไม่เกี่ยวกับหัตถการทางปาก; จะถูกถ้าผู้ป่วยที่ใส่เครื่องช่วยหายใจแรงดันบวกในไอซียู airway pressure สูงขึ้นทันที ความดันตก SpO2 ลด และเสียงหายใจข้างขวาหายไปหลังใส่ central line ทาง subclavian"
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าอาเจียนรุนแรงหลายครั้ง (เช่นหลังดื่มสุรา) แล้วอาเจียนเป็นเลือด โดยไม่มีลมใต้ผิวหรือใน mediastinum",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเกิดหลังอาเจียนรุนแรงโดยไม่มีหัตถการ — ปวดหน้าอกรุนแรง ลมใน mediastinum ร่วมน้ำในช่องอกซ้าย",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยตับแข็งอาเจียนเป็นเลือดปริมาณมากและความดันต่ำ",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าความดันต่ำ หลอดลมเบี้ยว เสียงหายใจหายข้างเดียวและเคาะโปร่ง"
   },
-  "trap": "ช้อย C ดึงดูดที่สุดเพราะ Boerhaave ก็เป็น esophageal rupture ที่ทำให้ลมใน mediastinum เหมือนกัน — แยกด้วยประวัติ: หลังใส่เครื่องมือ = iatrogenic perforation · หลังอาเจียนแรงโดยไม่มีหัตถการ = Boerhaave (ทั้งสองคือ perforation แต่ข้อสอบถามสาเหตุที่ตรงกับประวัติ) · ช้อย B ล่อเพราะเกิดที่หลอดอาหารและมักตามการอาเจียน แต่เป็นแค่ mucosa ไม่มีลมรั่ว · ช้อย E ล่อเพราะ subcutaneous emphysema พบได้ใน pneumothorax แต่โจทย์ระบุลมในคอและ mediastinum หลังหัตถการทางปาก ไม่มี tracheal deviation",
+  "trap": "ลมใต้ผิวหนังที่คอหลังส่องกล้องหรือใส่ท่อเป็นสัญญาณสำคัญ — CXR ปกติไม่ได้ตัดออก ต้องยืนยันด้วย CT หรือกลืนสารทึบรังสีชนิดละลายน้ำ",
   "summary": [
-   "ตำแหน่งที่ทะลุตามสาเหตุ: iatrogenic (ราว 60% ของทั้งหมด) มักที่ cervical esophagus เหนือ cricopharyngeus (Killian triangle) หรือตำแหน่งที่ตีบ/ทำ dilatation · Boerhaave ที่ distal esophagus ด้านซ้ายหลัง · foreign body ที่จุดแคบตามธรรมชาติ",
-   "Cervical perforation มีอาการปวดคอ กลืนเจ็บ crepitus ที่คอ และค่อนข้างไม่รุนแรงเพราะ fascia จำกัดการลาม · thoracic perforation ทำให้ mediastinitis, sepsis และ pleural effusion อย่างรวดเร็ว · abdominal perforation ทำให้ peritonitis",
-   "อาการและภาพรังสีชวนสงสัย: Mackler triad (อาเจียน เจ็บหน้าอก subcutaneous emphysema) ใน Boerhaave · Hamman sign (เสียงกรอบแกรบตามจังหวะหัวใจ) · CXR: pneumomediastinum, V sign of Naclerio, left hydropneumothorax",
-   "Pittsburgh perforation severity score รวม อายุ > 75, หัวใจเต้นเร็ว, WBC สูง, pleural effusion, ไข้, non-contained leak, respiratory compromise, เวลาวินิจฉัย > 24 ชม., มะเร็ง, hypotension — คะแนนต่ำเลือกรักษาแบบอนุรักษ์ได้ คะแนนสูงมักต้องผ่าตัด",
-   "ทางเลือกการรักษาแบบ endoscopic: clip (รูเล็ก), covered self-expanding stent, endoscopic vacuum therapy (EndoVAC) ร่วมกับระบายของเหลวทางผิวหนัง — ใช้มากขึ้นในรูทะลุจากหัตถการที่วินิจฉัยเร็ว",
-   "อัตราตายรวมราว 10–20% และสูงขึ้นมากเมื่อวินิจฉัยหลัง 24 ชม. · Boerhaave อัตราตายสูงกว่า iatrogenic เพราะเชื้อและอาหารจากกระเพาะรั่วเข้าช่องอกปริมาณมากและมักวินิจฉัยช้า"
+   "<b>นอกสไลด์:</b> หลอดอาหารทะลุ: สาเหตุ — หัตถการ (มากที่สุด) > อาเจียนรุนแรง (Boerhaave) > สิ่งแปลกปลอม บาดเจ็บ · รักษา: งดน้ำงดอาหาร ยาปฏิชีวนะกว้าง · รูเล็ก จำกัดที่ ไม่มี sepsis → ประคับประคองหรือใส่ stent · รั่วเข้าช่องอกมีการปนเปื้อน → ผ่าตัดซ่อมเร็ว"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูง ~95% — ประวัติหัตถการผ่านปากและคอ ตามด้วยปวดคอหน้าอก subcutaneous emphysema และลมใน mediastinum คือ iatrogenic esophageal perforation · จุดกำกวม: (1) ไฟล์ไม่มีรูปจริง เขียนเป็นข้อความแทน (2) ในทางศัพท์ Boerhaave ก็เป็น esophageal perforation ชนิดหนึ่ง ช้อย A จึงครอบคลุมกว่า แต่ประวัติหัตถการทำให้ A เป็นคำตอบที่ตรงที่สุด (3) ต้นฉบับช้อย C มีวงเล็บ \"Boerhaave syndrome\" ซึ่งตัดออกตามกติกา · ถ้าแก้โจทย์ ควรระบุชนิดหัตถการ เช่น \"rigid esophagoscopy for foreign body removal\" ให้ภาพชัดขึ้น",
+  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "ผู้ป่วยสงสัยหลอดอาหารทะลุหลังส่องกล้อง ความดันปกติ ควรตรวจยืนยันอย่างไร → CT chest with oral water-soluble contrast หรือ water-soluble contrast esophagogram (ถ้าลบให้ตาม barium) ไม่ใช้ barium ก่อน",
-   "หลังทำ rigid esophagoscopy เอาก้างปลาออก ผู้ป่วยปวดคอ กลืนเจ็บ contrast study พบรูรั่วเล็กที่ cervical esophagus แบบ contained ไม่มีไข้ → NPO, IV antibiotic, PPI, ให้อาหารทางสายหรือหลอดเลือด และระบายที่คอถ้ามี abscess",
-   "ผู้ป่วย thoracic esophageal perforation วินิจฉัยหลัง 48 ชม. มี mediastinitis และ septic shock เนื้อเยื่อรอบรูเปื่อยมาก → ผ่าตัดระบาย mediastinum และ pleural space ร่วมกับ esophageal exclusion/diversion หรือ esophagectomy ในรายที่ซ่อมไม่ได้"
+   "<b>นอกสไลด์:</b> หลังกลืนก้างปลา ปวดคอ ไข้ ลมใต้ผิวหนังที่คอ → หลอดอาหารทะลุจากสิ่งแปลกปลอม: CT แล้วส่องกล้องเอาออก",
+   "<b>นอกสไลด์:</b> หลอดอาหารส่วนปลายทะลุหลังขยายด้วยบอลลูนในผู้ป่วย achalasia → ผ่าตัดซ่อมร่วมกับ myotomy"
   ]
  },
  "MDCU79|RoD|CVT 4": {
+  "interp": "ตรวจสุขภาพพบก้อนกลม 2–3 cm ที่ปอดกลีบบนขวา ไม่มีอาการ IGRA บวก ได้ยาวัณโรค 3 เดือนแล้วก้อนขนาดเท่าเดิมแต่ขอบขรุขระขึ้น · ถามขั้นต่อไป",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: D Surgical removal of the lesion</b><br><b>นอกสไลด์:</b> ก้อนที่ไม่ตอบสนองต่อยาวัณโรคและขอบแย่ลง → ต้องคิดถึงมะเร็งปอดและต้องได้ชิ้นเนื้อ · ก้อนเดียวรอบนอกในผู้ป่วยแข็งแรง ผ่าตัดเอาออกได้ทั้งวินิจฉัยและรักษา",
   "wrong": {
-   "A": "ให้ยาวัณโรคต่ออีก 3 เดือนเป็นการรักษาต่อโดยไม่มีหลักฐานว่าเป็นวัณโรค ทั้งที่ก้อนไม่เล็กลงและขอบแย่ลง ทำให้วินิจฉัยมะเร็งช้าและผู้ป่วยได้ยาที่มีพิษต่อตับโดยไม่จำเป็น; จะถูกถ้าผู้ป่วยไอเรื้อรัง มีไข้ เสมหะ GeneXpert MTB/RIF บวกและไม่ดื้อ rifampicin ได้ยา 2HRZE ครบ 2 เดือนแล้วอาการดีขึ้น → ให้ continuation phase HR ต่ออีก 4 เดือนจนครบ 6 เดือน",
-   "B": "Second-line regimen ใช้กับวัณโรคดื้อยาที่ยืนยันด้วย molecular test หรือ drug susceptibility testing เท่านั้น — ผู้ป่วยรายนี้ไม่เคยพิสูจน์ว่าเป็นวัณโรคเลย การไม่ตอบสนองต่อยาจึงชี้ว่าอาจไม่ใช่วัณโรค มากกว่าจะเป็นเชื้อดื้อยา; จะถูกถ้าเสมหะ GeneXpert ตรวจพบ M. tuberculosis ที่ดื้อ rifampicin → ส่ง DST เพิ่มและให้ regimen สำหรับ RR/MDR-TB เช่น BPaLM 6 เดือนตาม WHO",
-   "C": "CT-guided drainage ใช้ระบายหนองหรือของเหลว เช่น lung abscess หรือ empyema แต่ก้อนนี้เป็น solid mass จึงไม่มีอะไรให้ระบาย (ถ้าต้องการชิ้นเนื้อ จะเป็น CT-guided biopsy ซึ่งเป็นคนละหัตถการ); จะถูกถ้าผู้ป่วย lung abscess ขนาด 7 cm มี air-fluid level ติดผนังทรวงอก ได้ antibiotic มา 2 สัปดาห์แล้วยังไข้สูงและก้อนไม่เล็กลง",
-   "E": "การนัด CT ซ้ำใน 12 เดือนเหมาะกับ nodule ขนาดเล็กที่ความเสี่ยงมะเร็งต่ำ — ก้อน 2–3 cm ที่ขอบไม่เรียบมากขึ้นมีความเสี่ยงมะเร็งสูง การรอ 12 เดือนอาจทำให้มะเร็งระยะต้นลุกลามจนผ่าตัดไม่ได้; จะถูกถ้าหญิงอายุ 35 ปีไม่สูบบุหรี่ CT พบ solid nodule ขอบเรียบขนาด 7 mm ก้อนเดียว (Fleischner 2017: ความเสี่ยงต่ำ ขนาด 6–8 mm → CT ซ้ำใน 6–12 เดือน)"
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นวัณโรคปอดที่ยืนยันด้วยเชื้อ (เสมหะ GeneXpert หรือเพาะเชื้อบวก) และภาพดีขึ้นตามการรักษา — ให้ยาจนครบ",
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเพาะเชื้อยืนยันวัณโรคดื้อยาจากการทดสอบความไว",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นฝีในปอดขนาดใหญ่ชิดผนังอกที่ไม่ดีขึ้นด้วยยา",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนเล็ก (6–8 mm) ขอบเรียบในผู้ที่ความเสี่ยงต่ำ"
   },
-  "trap": "ช้อย A ดึงดูดเพราะในประเทศที่วัณโรคชุกเราคุ้นกับการลองรักษาวัณโรคไปก่อน แต่ก้อนที่ไม่ตอบยาและขอบแย่ลงคือสัญญาณให้หยุดคิดว่าเป็นวัณโรค · ช้อย B ล่อเพราะคิดว่า \"ไม่ตอบยา = ดื้อยา\" ทั้งที่ยังไม่เคยพิสูจน์ว่าเป็นวัณโรค · ช้อย C ล่อเพราะสับสนคำว่า drainage กับ biopsy · กับดักใหญ่อยู่ใน stem: TST ลบแต่ IGRA บวก ทำให้รู้สึกว่า \"ยืนยันวัณโรคแล้ว\" แต่ IGRA บอกเพียงว่าเคยติดเชื้อ (latent TB infection ซึ่งพบได้ในคนไทยจำนวนมาก) ไม่ได้บอกว่าก้อนในปอดเป็นวัณโรค",
+  "trap": "IGRA บวกบอกแค่เคยติดเชื้อวัณโรค (latent) ไม่ได้บอกว่าก้อนนี้เป็นวัณโรค — ในไทยผู้ใหญ่จำนวนมาก IGRA บวก",
   "summary": [
-   "ประเมินความน่าจะเป็นมะเร็งของ pulmonary nodule ด้วย clinical risk (อายุ สูบบุหรี่ ประวัติมะเร็ง) ร่วมกับลักษณะภาพ หรือใช้ model เช่น Brock (PanCan) หรือ Mayo Clinic · ACCP 2013 แบ่ง < 5%, 5–65%, > 65% เพื่อเลือกติดตาม ตรวจเพิ่ม หรือผ่าตัด",
-   "PET-CT ช่วยใน solid nodule ≥ 8 mm ที่ความเสี่ยงปานกลาง · ผลบวกปลอมพบบ่อยในวัณโรค เชื้อรา และ granuloma (โดยเฉพาะในไทย) · ผลลบปลอมใน adenocarcinoma ที่โตช้า carcinoid และก้อนเล็ก",
-   "Tuberculoma เป็นก้อนกลมขอบเรียบมักมี calcification และ satellite lesion อยู่นิ่งไม่โต · การหดตัวช้าหลังรักษาวัณโรคพบได้ แต่ขอบที่ไม่เรียบมากขึ้นหรือโตขึ้นไม่เข้ากับ tuberculoma",
-   "Subsolid nodule (ground-glass หรือ part-solid) ตาม Fleischner 2017 ติดตามนานกว่า solid (ถึง 5 ปี) เพราะ adenocarcinoma spectrum โตช้า · part-solid ที่ส่วน solid ≥ 6 mm มีความเสี่ยงสูงขึ้น",
-   "Lung cancer screening: low-dose CT ทุกปีในอายุ 50–80 ปีที่สูบบุหรี่ ≥ 20 pack-years และยังสูบหรือเลิกไม่เกิน 15 ปี (USPSTF 2021) · ใช้ Lung-RADS ในการแปลผล",
-   "Latent TB infection (IGRA หรือ TST บวกโดยไม่มีโรค): ให้ยาป้องกันในกลุ่มเสี่ยงสูง เช่น 3HP (rifapentine + isoniazid สัปดาห์ละครั้ง 12 ครั้ง), 4R หรือ 6–9H หลังตัดวัณโรคระยะ active ออกแล้ว",
-   "Surgical resection ของก้อนที่สงสัยมะเร็ง: ทำ wedge resection ส่ง frozen section ก่อน ถ้าเป็น non-small cell lung cancer ทำ lobectomy หรือ segmentectomy (JCOG0802, CALGB 140503 สำหรับก้อน ≤ 2 cm peripheral) ร่วมกับ mediastinal lymph node dissection หรือ sampling"
+   "<b>นอกสไลด์:</b> ก้อนปอด solid ≥ 8 mm ที่ความน่าจะเป็นมะเร็งปานกลางถึงสูง → PET-CT, ชิ้นเนื้อ หรือผ่าตัด · ก้อนรอบนอกที่สงสัยมาก ผู้ป่วยแข็งแรง → ผ่าตัดเอาออกโดยไม่ต้องเจาะก่อน (ตรวจชิ้นเนื้อระหว่างผ่าตัด แล้วทำ lobectomy ถ้าเป็นมะเร็ง)",
+   "<b>นอกสไลด์:</b> ลักษณะสงสัยมะเร็ง: ขอบ spiculated โตขึ้น ขนาดใหญ่ อายุมาก สูบบุหรี่"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D (เฉลยอย่างย่อหน้า 36) ความมั่นใจปานกลางถึงสูง ~80% — ก้อน 2–3 cm ที่ไม่ตอบยาวัณโรคและขอบแย่ลงต้องได้คำวินิจฉัยจากชิ้นเนื้อ และในผู้ป่วยที่แข็งแรงก้อนเดียว การผ่าตัดเอาออกให้ทั้งการวินิจฉัยและการรักษา · จุดกำกวม: (1) แนวทางหลายแห่งจะทำ PET-CT และ CT-guided biopsy หรือ bronchoscopy ก่อนผ่าตัด โดยเฉพาะในพื้นที่ที่วัณโรคและเชื้อราชุก เพื่อเลี่ยงผ่าตัดก้อน benign ถ้ามีช้อย biopsy อยู่ด้วยจะเลือกยากขึ้น (2) ความผิดพลาดตั้งต้นของเคสคือให้ยาวัณโรคโดยไม่มีหลักฐาน ซึ่งโจทย์ตั้งใจให้เห็น · ถ้าแก้โจทย์ ควรระบุว่าผู้ป่วยสูบบุหรี่และ PET-CT มี uptake สูง เพื่อให้การผ่าตัดเป็นคำตอบเดียวชัด",
+  "opinion": "เห็นด้วยกับคีย์ D (เฉลยย่อ) · มั่นใจปานกลาง–สูง",
   "variants": [
-   "ชายอายุ 40 ปีไม่สูบบุหรี่ ไม่มีประวัติมะเร็ง CT พบ solid nodule ขนาด 5 mm ขอบเรียบ → ความเสี่ยงต่ำ ขนาด < 6 mm ไม่ต้องติดตามตาม Fleischner 2017",
-   "หญิงอายุ 50 ปี CT พบก้อนปอด 1.5 cm ขอบเรียบมี popcorn calcification และไขมันในก้อน → pulmonary hamartoma ซึ่งเป็น benign ไม่ต้องผ่าตัดถ้าไม่มีอาการ",
-   "ชายอายุ 70 ปีสูบบุหรี่ ก้อนปอด peripheral 2 cm ขอบ spiculated แต่ FEV1 30% ของค่าคาดและผ่าตัดไม่ได้ → CT-guided biopsy เพื่อยืนยันมะเร็ง แล้วรักษาด้วย stereotactic body radiotherapy"
+   "<b>นอกสไลด์:</b> ก้อนปอด 1.5 cm มีหินปูนแบบ popcorn ขนาดคงที่ 2 ปี → hamartoma ไม่ต้องผ่าตัด",
+   "<b>นอกสไลด์:</b> ก้อนปอด 2.5 cm ในผู้ป่วย COPD รุนแรงที่ผ่าตัดเสี่ยงสูง → CT-guided biopsy แล้วฉายรังสีแบบ SBRT ถ้าเป็นมะเร็ง"
   ]
  },
  "MDCU79|RoD|CVT 5": {
-  "why": "VSD ทำให้มีรูระหว่าง LV กับ RV · ความดันใน LV สูงกว่า RV มากตลอดช่วง systole เลือดจึงไหลผ่านรูตั้งแต่ต้นจนจบ systole ได้ยินเป็น <b>harsh holosystolic (pansystolic) murmur ที่ left lower sternal border</b> มักคลำได้ thrill · ยิ่งรูเล็ก เสียงยิ่งดัง (เพราะความดันต่างกันมาก) · เด็กไม่เขียวเพราะเลือดไหลจากซ้ายไปขวา (L→R shunt) เลือดแดงไม่ได้ปนเลือดดำ · ถ้ารูใหญ่ เลือดไปปอดมากเกิน (pulmonary overcirculation) ทำให้หัวใจซีกซ้ายทำงานหนัก → เหนื่อยหอบ เหงื่อออกขณะดูดนม โตช้า ปอดติดเชื้อบ่อย และมักเริ่มมีอาการช่วงอายุ 6–8 สัปดาห์เมื่อ pulmonary vascular resistance ลดลงตามธรรมชาติ · VSD เป็นโรคหัวใจพิการแต่กำเนิดที่พบบ่อยที่สุด (ราว 30–40%) · ถ้ารูใหญ่ไม่ได้รักษา ความดันในปอดสูงถาวรจน shunt กลับทิศเป็น R→L และเขียว (Eisenmenger) · ข้อมูลในโจทย์ (holosystolic ที่ LLSB + ไม่เขียว + เหนื่อย) ตรงกับ VSD ที่มี shunt ขนาดกลางถึงใหญ่ ตรงกับคีย์ B ในเฉลยอย่างย่อหน้า 36",
+  "interp": "เด็กไม่เขียวแต่เหนื่อย ได้ยินเสียงฟู่ holosystolic ที่ขอบซ้ายกระดูกอกส่วนล่าง · ถามการวินิจฉัย",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B VSD</b><br><b>นอกสไลด์:</b> เลือดพุ่งจากห้องล่างซ้ายไปขวาผ่านรูตลอด systole → เสียงฟู่ holosystolic ที่ขอบซ้ายกระดูกอกส่วนล่าง · ไม่เขียว (shunt ซ้ายไปขวา) แต่เหนื่อยจากเลือดไปปอดมาก (VSD ขนาดกลางถึงใหญ่)",
   "wrong": {
-   "A": "ASD ทำให้เลือดไหลจาก LA ไป RA ด้วยความดันต่างกันน้อยจึงไม่เกิดเสียงที่รู เสียงที่ได้ยินมาจากเลือดปริมาณมากผ่าน pulmonary valve เป็น ejection systolic murmur ที่ left <b>upper</b> sternal border ร่วมกับ wide fixed split S2 และเด็กส่วนใหญ่ไม่มีอาการ; จะถูกถ้าเด็กอายุ 6 ปีไม่มีอาการ ตรวจสุขภาพพบ soft ejection systolic murmur ที่ LUSB, S2 แยกกว้างคงที่ไม่เปลี่ยนตามการหายใจ และ ECG มี incomplete RBBB",
-   "C": "Tetralogy of Fallot เป็น cyanotic heart disease (VSD + overriding aorta + RVOT obstruction + RVH) เลือดดำไหลผ่าน VSD ไป aorta จึงเขียว murmur เป็น ejection systolic จาก RVOT ไม่ใช่ holosystolic; จะถูกถ้าเด็กอายุ 2 ปีเขียวมากขึ้นเวลาร้องไห้ (tet spell) ชอบนั่งยอง ๆ หลังวิ่ง และ CXR เป็นหัวใจรูปรองเท้าบูต (boot-shaped) กับปอดเลือดน้อย",
-   "D": "Pulmonary stenosis เป็น acyanotic obstructive lesion ที่ให้ ejection systolic murmur ที่ LUSB และเด็กส่วนใหญ่ไม่เหนื่อยถ้าตีบไม่มาก — ไม่ใช่ holosystolic ที่ LLSB; จะถูกถ้าเด็กอายุ 4 ปีไม่มีอาการ ได้ยิน ejection click ที่เบาลงเมื่อหายใจเข้าตามด้วย ejection systolic murmur ที่ LUSB และ echo พบลิ้น pulmonary แบบ doming ที่ตีบ (valvar PS) → balloon pulmonary valvuloplasty ถ้า gradient สูง",
-   "E": "PDA ทำให้เลือดไหลจาก aorta ไป pulmonary artery ตลอดทั้ง systole และ diastole จึงเป็น continuous \"machinery\" murmur ที่ใต้ไหปลาร้าซ้าย ร่วมกับชีพจรแรง (bounding) และ pulse pressure กว้าง; จะถูกถ้าทารกคลอดก่อนกำหนด 28 สัปดาห์ อายุ 5 วัน มี continuous murmur ใต้ไหปลาร้าซ้าย ชีพจรแรง และต้องการออกซิเจนมากขึ้น → ibuprofen, indomethacin หรือ paracetamol"
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าได้ยินเสียงฟู่ ejection systolic เบา ๆ ที่ขอบซ้ายกระดูกอกส่วนบน ร่วม S2 แยกกว้างคงที่ (fixed splitting)",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กเขียว มีอาการเขียวเป็นพัก ๆ นั่งยอง ๆ บ่อย และได้ยินเสียงฟู่ ejection ที่ขอบซ้ายส่วนบน",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าได้ยิน ejection click ตามด้วยเสียงฟู่ ejection systolic ที่ขอบซ้ายส่วนบนร้าวไปหลัง โดยไม่เขียว",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าได้ยินเสียงฟู่ต่อเนื่องแบบเสียงเครื่องจักรใต้ไหปลาร้าซ้าย ชีพจรกระแทก"
   },
-  "trap": "ช้อย A ดึงดูดเพราะ ASD เป็น acyanotic L→R shunt เหมือน VSD — แยกด้วยตำแหน่ง (upper vs lower sternal border) ชนิดเสียง (ejection vs holosystolic) และ S2 (fixed split) · ช้อย C ล่อเพราะ TOF มี VSD อยู่ในตัว แต่โจทย์บอกว่าไม่เขียว · ช้อย D ล่อเพราะไม่เขียวเหมือนกัน แต่เสียงเป็น ejection · ช้อย E ล่อเพราะ PDA ทำให้เหนื่อยได้เหมือนกัน แต่เสียงเป็น continuous",
+  "trap": "VSD ยิ่งเล็กเสียงยิ่งดัง (เลือดพุ่งแรงผ่านรูเล็ก) — VSD ใหญ่เสียงอาจไม่ดังแต่อาการหัวใจล้มเหลวมากกว่า",
   "summary": [
-   "Congenital heart disease แบ่ง: acyanotic L→R shunt (VSD, ASD, PDA, AVSD) · acyanotic obstructive (PS, AS, coarctation of aorta) · cyanotic \"5T\" (Tetralogy, Transposition, Truncus arteriosus, Total anomalous pulmonary venous return, Tricuspid atresia)",
-   "ชนิดของ VSD: perimembranous พบบ่อยสุด (~70–80%) · muscular (~15–20% ปิดเองบ่อย) · outlet/subarterial (doubly committed พบมากในคนเอเชีย เสี่ยง aortic cusp prolapse และ AR) · inlet (พบใน AVSD และ Down syndrome)",
-   "VSD เล็ก (restrictive) ราว 30–50% ปิดเองในขวบปีแรก ๆ โดยเฉพาะ muscular · ไม่มีอาการ ติดตามได้ · ไม่ต้องจำกัดกิจกรรม",
-   "ข้อบ่งชี้ปิด VSD: CHF หรือโตช้าที่ไม่ตอบสนองต่อยา (diuretic, ACEI), pulmonary hypertension ที่ยังกลับได้, Qp:Qs ≥ 2, AR จาก cusp prolapse, เคยเป็น infective endocarditis · ปิดด้วยผ่าตัด patch ผ่าน cardiopulmonary bypass หรือ device ใน muscular VSD บางราย",
-   "Eisenmenger syndrome: pulmonary vascular disease ถาวรจน shunt กลับเป็น R→L เขียว นิ้วปุ้ม polycythemia — เป็นข้อห้ามการปิดรู รักษาด้วย pulmonary vasodilator และพิจารณา heart-lung transplant · ห้ามตั้งครรภ์ (อัตราตายสูง)",
-   "อาการหัวใจวายในทารก: หอบเร็ว เหงื่อออกขณะดูดนม ดูดนมนานและหยุดพักบ่อย น้ำหนักขึ้นน้อย ตับโต — ต่างจากผู้ใหญ่ที่บวมขาและนอนราบไม่ได้"
+   "<b>นอกสไลด์:</b> VSD: perimembranous พบมากที่สุด · รูเล็กส่วนใหญ่ปิดเอง · รูใหญ่ที่มีหัวใจล้มเหลว เลี้ยงไม่โต หรือความดันปอดสูง → ปิดในขวบปีแรก ก่อนเกิด Eisenmenger"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูงมาก ~97% — holosystolic murmur ที่ LLSB ในเด็กที่ไม่เขียวแต่เหนื่อย เป็นภาพคลาสสิกของ VSD ขนาดกลางถึงใหญ่ · จุดกำกวม: (1) ไม่บอกอายุ ถ้าเป็นทารกแรกเกิดไม่กี่วัน murmur ของ VSD อาจยังไม่ได้ยินเพราะ PVR ยังสูง (2) tricuspid regurgitation ก็ให้ holosystolic murmur ที่ LLSB ได้ แต่ไม่อยู่ในช้อย · ต้นฉบับใช้ตัวย่อ \"TTOF\" และ \"PD\" ซึ่งแปลเป็น TOF และ PDA · ถ้าแก้โจทย์ ควรใส่อายุและอาการโตช้า เพื่อให้ภาพ heart failure จาก shunt ชัดขึ้น",
+  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "เด็กอายุ 1 ปี ไม่มีอาการ โตดี ได้ยิน harsh holosystolic murmur ดังมากที่ LLSB echo พบ muscular VSD ขนาด 2 mm → restrictive VSD ติดตามได้ มีโอกาสปิดเอง ไม่ต้องผ่าตัด",
-   "ทารกอายุ 3 เดือน large perimembranous VSD หอบ เหงื่อออกตอนดูดนม น้ำหนักต่ำกว่า 3rd percentile แม้ได้ furosemide และ captopril → ผ่าตัดปิด VSD ด้วย patch",
-   "ผู้ใหญ่อายุ 30 ปีมี VSD ที่ไม่เคยรักษา ตอนนี้เขียว นิ้วปุ้ม Hct 65% murmur เดิมเบาลง → Eisenmenger syndrome ห้ามปิดรู รักษาด้วย pulmonary vasodilator"
+   "<b>นอกสไลด์:</b> VSD ใหญ่ที่ไม่ได้รักษา ต่อมาเขียว นิ้วปุ้ม เสียงฟู่เบาลง → Eisenmenger syndrome (ปิดรูไม่ได้แล้ว)",
+   "<b>นอกสไลด์:</b> ทารกอายุ 2 วัน VSD ใหญ่ยังไม่ได้ยินเสียงฟู่ → ความดันปอดยังสูงหลังคลอด เสียงฟู่จะชัดเมื่อความดันปอดลดลงในไม่กี่สัปดาห์"
   ]
  },
  "MDCU79|RoD|CVT 6": {
-  "why": "Pulmonary atresia ทำให้เลือดออกจาก RV ไปปอดไม่ได้ เลือดไปปอดได้ทางเดียวคือย้อนจาก aorta ผ่าน ductus arteriosus (ductal-dependent pulmonary circulation) · ductus จะหดปิดตามธรรมชาติในไม่กี่วันหลังคลอด ทารกจะเขียวรุนแรงและเสียชีวิต จึงต้องให้ prostaglandin E1 (alprostadil) คง ductus ไว้ชั่วคราว ซึ่งโจทย์บอกว่าให้แล้ว · ขั้นต่อไปต้องสร้าง<b>ทางเลือดไปปอดที่ถาวรกว่า</b>: modified Blalock–Thomas–Taussig shunt ใช้ PTFE graft ต่อจาก subclavian หรือ innominate artery ไปยัง pulmonary artery ข้างเดียวกัน เลือดจากระบบไหลเข้าปอดได้แทน ductus (ทางเลือกปัจจุบันคือใส่ stent ใน ductus ผ่านสายสวน) · เป็น palliation จนเด็กโตพอสำหรับการซ่อมขั้นต่อไปตามกายวิภาค: ถ้า RV ใช้งานได้ทำ biventricular repair ถ้าไม่ได้ไปทาง single-ventricle (bidirectional Glenn แล้ว Fontan) · ชื่อ \"Thomas\" ถูกเพิ่มในชื่อ shunt เพื่อให้เกียรติ Vivien Thomas ผู้ร่วมพัฒนา · ตรงกับคีย์ A ในเฉลยอย่างย่อหน้า 36",
+  "interp": "ทารกแรกเกิด pulmonary atresia เลือดไปปอดต้องพึ่ง ductus ได้ PGE1 แล้ว · ถามการผ่าตัดประคับประคอง",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A BT shunt</b><br><b>นอกสไลด์:</b> PGE1 คง duct ไว้ได้ชั่วคราว ต้องสร้างทางเลือดไปปอดที่แน่นอน → modified BTT shunt (ท่อเทียมจากหลอดเลือดแดงทั่วร่างกายไป pulmonary artery) หรือใส่ stent ใน duct · การรักษาจริงทำภายหลังตามขนาดของ RV",
   "wrong": {
-   "B": "Senning procedure เป็น atrial switch ที่ใช้ผนัง atrium ของผู้ป่วยเองสร้าง baffle เบนเลือดดำไป LV และเลือดแดงไป RV ใช้แก้ transposition ไม่ได้เพิ่มเลือดไปปอด; จะถูกถ้าเด็กเป็น congenitally corrected TGA ที่ทำ double switch operation (Senning ร่วมกับ arterial switch) เพื่อให้ LV กลับมาเป็นห้องที่สูบเลือดไปทั่วร่างกาย",
-   "C": "Mustard procedure เป็น atrial switch อีกแบบที่ใช้ pericardium หรือวัสดุเทียมทำ baffle ใช้แก้ TGA ในยุคก่อน arterial switch แพร่หลาย ไม่ได้แก้ปัญหาเลือดไปปอดไม่พอ; จะถูกถ้าโจทย์เป็นผู้ใหญ่อายุ 45 ปีที่เกิดด้วย TGA ผ่าตัดในยุค 1970–1980 และตอนนี้มี systemic RV failure หรือ baffle obstruction ซึ่งเป็นภาวะแทรกซ้อนระยะยาวของการผ่าตัดเดิม",
-   "D": "Pulmonary artery banding รัด pulmonary artery ให้แคบเพื่อ<b>ลด</b>เลือดไปปอด ซึ่งตรงข้ามกับสิ่งที่ทารก pulmonary atresia ต้องการ; จะถูกถ้าทารกมี AVSD หรือ VSD หลายรูขนาดใหญ่ หัวใจวายและปอดเลือดมากเกิน แต่ยังผ่าตัดซ่อมทั้งหมดไม่ได้ จึงรัด PA ไว้ป้องกัน pulmonary vascular disease ก่อนซ่อมภายหลัง",
-   "E": "Arterial switch (Jatene) สลับ aorta กับ pulmonary artery กลับที่ถูกต้องพร้อมย้าย coronary artery เป็น definitive repair ของ TGA ไม่เกี่ยวกับการเพิ่มเลือดไปปอด; จะถูกถ้าทารกแรกเกิดเป็น d-TGA intact ventricular septum ที่ทำ balloon atrial septostomy แล้ว และอยู่ในช่วง 2–3 สัปดาห์แรกที่ LV ยังแข็งแรงพอรับความดันระบบ"
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น congenitally corrected TGA ที่ทำ double switch (atrial switch แบบ Senning ร่วมกับ arterial switch)",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารก TGA ที่ทำ arterial switch ไม่ได้ ในศูนย์ที่ใช้ atrial switch แบบใช้แผ่นเยื่อหุ้มหัวใจกั้นทางเลือด",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าทารกมีเลือดไปปอดมากเกินจนหัวใจล้มเหลว (เช่น single ventricle ที่ทางออกไปปอดไม่ตีบ) — รัดหลอดเลือดแดงปอดลดเลือด",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารก TGA ที่ผนังกั้นห้องล่างสมบูรณ์ในสัปดาห์แรกหลังคลอด"
   },
-  "trap": "ช้อย D เป็นกับดักหลัก เพราะทั้ง BT shunt และ PA banding เป็น palliative operation ที่ทำในทารกและฟังคล้ายกัน แต่ทำตรงข้ามกัน: BT shunt <b>เพิ่ม</b>เลือดไปปอด (ใช้เมื่อเลือดไปปอดน้อย) · PA banding <b>ลด</b>เลือดไปปอด (ใช้เมื่อเลือดไปปอดมากเกิน) · ช้อย B, C, E ล่อคนที่จำชื่อการผ่าตัดหัวใจเด็กได้แต่จำไม่ได้ว่าใช้กับโรคอะไร — ทั้งสามเป็นการผ่าตัดของ transposition · คำใบ้ในโจทย์คือ \"ductal-dependent pulmonary blood flow\" ซึ่งบอกปัญหาตรง ๆ ว่าเลือดไปปอดไม่พอ",
+  "trap": "BTT shunt กับ PA banding เป็นการผ่าตัดประคับประคองที่กลับทิศกัน — shunt เพิ่มเลือดไปปอด (โรคที่เลือดไปปอดน้อย เขียว) banding ลดเลือดไปปอด (โรคที่เลือดไปปอดมาก หัวใจล้มเหลว)",
   "summary": [
-   "Ductal-dependent pulmonary circulation: pulmonary atresia (มีหรือไม่มี VSD), critical pulmonary stenosis, tricuspid atresia ที่ PS รุนแรง, TOF รุนแรง, Ebstein anomaly รุนแรง — อาการเด่นคือเขียวมากเมื่อ ductus ปิด",
-   "Ductal-dependent systemic circulation: hypoplastic left heart syndrome, critical aortic stenosis, interrupted aortic arch, critical coarctation — อาการเด่นคือช็อก ชีพจรขาเบา acidosis เมื่อ ductus ปิด (มักวันที่ 3–7)",
-   "Prostaglandin E1 (alprostadil) ใช้ได้ทั้งสองกลุ่ม · ผลข้างเคียงที่ต้องเตรียมรับ: apnea (พบได้ราว 10–12% โดยเฉพาะทารกน้ำหนักน้อยและขนาดยาสูง), ไข้, ความดันต่ำ, ผื่นแดง",
-   "ภาวะแทรกซ้อนของ BT shunt: shunt อุดตัน (ออกซิเจนตกฉับพลัน ไม่ได้ยินเสียง continuous murmur ของ shunt → heparin และไปห้องผ่าตัดหรือสายสวนด่วน), เลือดไปปอดมากเกิน, pulmonary artery ตีบบริเวณรอยต่อ · ให้ aspirin หลังผ่าตัด",
-   "Single-ventricle pathway: palliation ในทารก (BT shunt, ductal stent, PA banding หรือ Norwood ใน HLHS) → bidirectional Glenn (SVC ต่อ PA) อายุราว 4–6 เดือน → Fontan (IVC ต่อ PA) อายุราว 2–4 ปี",
-   "Transposition of the great arteries: ทารกเขียวมากตั้งแต่แรกเกิด → PGE1 + balloon atrial septostomy ถ้า septum ไม่มีรูพอ → arterial switch ใน 2–3 สัปดาห์แรก · atrial switch (Senning, Mustard) ปัจจุบันใช้น้อยมาก"
+   "<b>นอกสไลด์:</b> palliation ตามสรีรวิทยา: เลือดไปปอดน้อย → systemic-to-pulmonary shunt หรือ ductal stent · เลือดไปปอดมาก → PA banding · เลือดสองวงจรไม่ผสม (TGA) → balloon atrial septostomy · ทางเดินเดียว (single ventricle) → Glenn ราว 4–6 เดือน แล้ว Fontan ราว 2–4 ปี"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูงมาก ~97% — pulmonary atresia ที่อาศัย ductus ต้องสร้างทางเลือดไปปอดถาวร และ BT shunt เป็นคำตอบคลาสสิก · จุดกำกวม: ปัจจุบันหลายศูนย์เลือก ductal stenting ผ่านสายสวนแทน BT shunt ในทารกที่กายวิภาค ductus เหมาะ และถ้า RV กับลิ้นมีโครงสร้างพอ อาจทำ radiofrequency perforation ของ pulmonary valve แทน — ไม่อยู่ในช้อย แต่ควรรู้ · ถ้าแก้โจทย์ อาจเปลี่ยนชื่อช้อยเป็น \"modified Blalock–Thomas–Taussig shunt\" ให้ตรงกับสิ่งที่ทำจริง",
+  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "ทารกอายุ 3 สัปดาห์หลังทำ modified BT shunt ออกซิเจนตกจาก 82% เป็น 55% ทันที ฟังไม่ได้ยิน continuous murmur ของ shunt → สงสัย shunt thrombosis ให้ heparin และส่งไปเปิด shunt ด่วน (สายสวนหรือผ่าตัด)",
-   "ทารก tricuspid atresia ได้ BT shunt ตอนแรกเกิด ตอนนี้อายุ 5 เดือน ออกซิเจนเริ่มต่ำลงตามการเติบโต → bidirectional Glenn (ต่อ SVC เข้า pulmonary artery) และเอา shunt ออก",
-   "ทารกได้ PGE1 เพื่อคง ductus แล้วหยุดหายใจเป็นพัก ๆ → apnea เป็นผลข้างเคียงของ PGE1 ต้องเตรียมใส่ท่อช่วยหายใจ (ไม่หยุดยาเพราะทารกยังต้องพึ่ง ductus)"
+   "<b>นอกสไลด์:</b> หลังทำ BTT shunt หายใจเร็ว ชีพจรกระแทก ความดัน diastolic ต่ำ ปัสสาวะลด → shunt ใหญ่เกิน เลือดไปปอดมากเกิน",
+   "<b>นอกสไลด์:</b> หลังทำ BTT shunt → ให้ aspirin ป้องกัน shunt อุดตัน"
   ]
  },
  "MDCU79|RoD|CVT 7": {
+  "interp": "ข้อ NOT — ถามผู้ป่วยที่ \"ไม่ต้อง\" ให้ยาป้องกัน infective endocarditis ก่อนทำฟันที่ยุ่งกับเหงือก",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A ASD repair เรียบร้อยแล้ว no defect</b><br><b>นอกสไลด์:</b> AHA 2021 ให้ยาป้องกันเฉพาะกลุ่มเสี่ยงสูงสุด · ความผิดปกติแต่กำเนิดที่ซ่อมสมบูรณ์ด้วยวัสดุเทียมให้ยาเฉพาะ 6 เดือนแรก — ASD ที่ซ่อมมา 5 ปีไม่มีรูเหลือจึงไม่ต้อง",
   "wrong": {
-   "B": "TAVR ใส่ลิ้นหัวใจเทียมผ่านสายสวน ซึ่งนับเป็น prosthetic valve เหมือนการผ่าตัดเปลี่ยนลิ้น (AHA 2021 และ ESC 2023 ระบุชัด) จัดอยู่ในกลุ่ม highest risk และการติดเชื้อบนลิ้นเทียมมีอัตราตายสูง — ไม่มีสถานการณ์ใดที่ผู้ป่วยที่มีลิ้น TAVR จะไม่ต้องให้ prophylaxis ก่อนหัตถการฟันที่ทำให้เหงือกเลือดออก เพราะวัสดุเทียมในกระแสเลือดอยู่ถาวรไม่ว่าจะใส่มานานเท่าใด",
-   "C": "TOF ที่ได้แค่ BT shunt คือ cyanotic CHD ที่ซ่อมแบบ palliative และมีวัสดุเทียม (PTFE shunt) อยู่ในระบบไหลเวียน จัดเป็น highest risk ต้องให้ prophylaxis; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วย TOF ได้ total repair ไปแล้วนานกว่า 6 เดือน ไม่มี residual shunt หรือ regurgitation ข้าง patch และไม่ได้ใส่ pulmonary valve เทียม ซึ่งไม่อยู่ในกลุ่มที่ต้องให้แล้ว",
-   "D": "Mitral valve repair ที่ใส่ annuloplasty ring ถือว่ามี prosthetic material ที่ใช้ซ่อมลิ้น ซึ่ง AHA 2021 และ ESC 2023 จัดเป็น highest risk เหมือนลิ้นเทียม; จะถูก (เป็นคำตอบของข้อ NOT) ถ้าผู้ป่วย rheumatic mitral stenosis ได้ percutaneous balloon mitral valvuloplasty (ไม่มีวัสดุเทียมในหัวใจ) ซึ่งไม่ต้องให้ prophylaxis ก่อนทำฟัน",
-   "E": "Aortic valve replacement ทั้ง mechanical และ bioprosthetic เป็น prosthetic valve จัดเป็น highest risk ต้องให้ prophylaxis (ช้อยนี้มาจากแถว CVT 12 ที่ผู้จดอีกคนบันทึก); จะถูก (เป็นคำตอบของข้อ NOT) ถ้าหัตถการเป็นแค่การถ่ายภาพรังสีฟัน ฉีดยาชาผ่านเนื้อเยื่อปกติ หรือปรับเครื่องมือจัดฟัน ซึ่งไม่ทำให้เหงือกหรือเยื่อบุฉีกขาด จึงไม่ต้องให้ prophylaxis แม้มีลิ้นเทียม"
+   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผู้ป่วยลิ้นหัวใจเทียมแบบใส่ผ่านสายสวน (TAVR) ไม่ต้องให้ยาป้องกันก่อนทำฟันที่ยุ่งกับเหงือก เพราะนับเป็นลิ้นเทียม และ endocarditis หลัง TAVR อันตรายเท่าลิ้นที่ผ่าตัดใส่",
+   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่ต้องให้) ถ้า TOF ได้ซ่อมสมบูรณ์มานานกว่า 6 เดือนโดยไม่มีรอยรั่วเหลือ",
+   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผู้ป่วยซ่อมลิ้นด้วยวงแหวนเทียม (annuloplasty ring) ไม่ต้องให้ยาป้องกัน เพราะวัสดุเทียมที่ใช้ซ่อมลิ้นเป็นที่เกาะของเชื้อตลอดไป",
+   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผู้ป่วยลิ้นเทียมจากการผ่าตัดไม่ต้องให้ยาป้องกัน เพราะลิ้นเทียมทุกชนิดไม่ว่าใส่มานานเท่าใดเป็นกลุ่มเสี่ยงสูงสุดและพยากรณ์แย่เมื่อติดเชื้อ"
   },
-  "trap": "ช้อย A ถูกมองข้ามได้ง่ายเพราะ \"เคยผ่าตัดหัวใจ\" ฟังดูเสี่ยง — แต่ ASD ที่ซ่อมสมบูรณ์เกิน 6 เดือนโดยไม่มี residual defect ไม่อยู่ในกลุ่ม highest risk (ช่วง 6 เดือนแรกคือช่วงที่วัสดุยังไม่ถูกเยื่อบุคลุม) · ช้อย B ล่อคนที่คิดว่า TAVR ใส่ผ่านสายสวนจึงไม่นับเป็นลิ้นเทียม · ช้อย C ล่อคนที่คิดว่า \"ได้ผ่าตัดแล้ว\" แปลว่าปลอดภัย แต่ shunt เป็นแค่ palliation และผู้ป่วยยังเขียว · ช้อย D ล่อคนที่แยก \"repair\" กับ \"replacement\" แล้วคิดว่า repair ไม่เสี่ยง ทั้งที่ annuloplasty ring เป็นวัสดุเทียม · ช้อย E ล่อคนที่อ่านว่า \"2 ปีมาแล้ว\" แล้วคิดว่าพ้น 6 เดือนเหมือน ASD — แต่เกณฑ์ 6 เดือนใช้กับ CHD ที่ซ่อมสมบูรณ์เท่านั้น ส่วนลิ้นเทียมเสี่ยงตลอดชีวิตไม่ว่าใส่มานานเท่าใด",
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูง ~95% — ตาม AHA 2021 และ ESC 2023 ASD ที่ซ่อมสมบูรณ์มา 5 ปีโดยไม่มี residual ไม่ต้องให้ prophylaxis ขณะที่ช้อยอื่นมีวัสดุเทียมหรือเป็น palliated cyanotic CHD · จุดกำกวม: (1) โจทย์ไม่บอกว่าซ่อม ASD ด้วยการเย็บตรงหรือใช้ patch แต่ไม่ว่าแบบใดก็ไม่ต้องให้หลัง 6 เดือนถ้าไม่มี residual (2) ไฟล์มีสองแถว (CVT 7 และ CVT 12) ที่เป็นโจทย์เดียวกัน จึงรวมช้อยเป็นข้อเดียว คีย์มีเฉพาะ CVT 7 · ถ้าแก้โจทย์ ควรระบุชนิดหัตถการฟันให้ชัด เช่น \"tooth extraction\" เพื่อไม่ให้ผู้สอบลังเลเรื่องหัตถการที่ไม่เสี่ยง",
-  "why": "Infective endocarditis เกิดเมื่อเชื้อในเลือด (bacteremia ชั่วคราวจากเหงือก) ไปเกาะบน endothelium ที่เสียหายหรือบนวัสดุเทียมที่ยังไม่มีเยื่อบุคลุม — วัสดุเทียมทุกชนิด (ลิ้นเทียม, ring, patch, shunt) เป็นพื้นผิวที่เชื้อเกาะง่ายและการติดเชื้อบนวัสดุรักษายาก อัตราตายสูง · หลังผ่าตัดใส่ patch หรือ device เยื่อบุ (endothelium) จะค่อย ๆ คลุมผิววัสดุจนเสร็จราว 6 เดือน จึงนับ 6 เดือนเป็นช่วงเสี่ยง · AHA 2021 และ ESC 2023 จึงให้ prophylaxis ก่อนหัตถการฟันที่ทำให้เหงือกหรือเยื่อบุฉีก เฉพาะกลุ่ม highest risk ที่การติดเชื้อจะร้ายแรงที่สุด ได้แก่ ผู้มีลิ้นเทียมหรือวัสดุซ่อมลิ้น (รวม TAVR และ annuloplasty ring), เคยเป็น IE, cyanotic CHD ที่ยังไม่ซ่อมหรือซ่อมแบบ palliative (shunt, conduit), CHD ที่ซ่อมด้วยวัสดุภายใน 6 เดือน หรือมี residual defect ข้างวัสดุ · ASD ที่ซ่อมสมบูรณ์มา 5 ปีโดยไม่มี residual defect ผ่านช่วงเสี่ยงแล้วและไม่มีพื้นผิวผิดปกติเหลือ จึงไม่ต้องให้ · ตรงกับคีย์ A ในเฉลยอย่างย่อหน้า 36",
+  "trap": "ทำฟันที่ไม่ยุ่งกับเหงือก (ฉีดยาชาผ่านเนื้อปกติ ถ่ายภาพรังสีฟัน) ไม่ต้องให้ยาแม้ในกลุ่มเสี่ยงสูง",
   "summary": [
-   "เหตุผลที่ guideline ปัจจุบันจำกัด prophylaxis เฉพาะ highest risk: bacteremia จากกิจวัตร (แปรงฟัน เคี้ยวอาหาร) เกิดบ่อยกว่าจากการทำฟันมาก การให้ยาก่อนทำฟันทุกรายจึงป้องกัน IE ได้น้อย แต่เพิ่มเชื้อดื้อยาและการแพ้ยา · สุขภาพช่องปากที่ดีและพบทันตแพทย์สม่ำเสมอสำคัญกว่า",
-   "หัตถการฟันที่ต้องให้ในกลุ่ม highest risk: ถอนฟัน ขูดหินปูนใต้เหงือก รักษารากฟัน ผ่าตัดในช่องปาก — ไม่ต้องให้เมื่อฉีดยาชาผ่านเนื้อเยื่อปกติ ถ่ายภาพรังสี ใส่/ปรับเครื่องมือจัดฟัน ฟันน้ำนมหลุด หรือริมฝีปากบาดเจ็บ",
-   "หัตถการนอกช่องปาก: ไม่แนะนำ prophylaxis เป็นประจำสำหรับ GI endoscopy, colonoscopy, cystoscopy หรือ TEE · ESC 2023 แนะนำให้พิจารณาก่อนผ่าตัดใส่ลิ้นหรืออุปกรณ์ฝังในหัวใจ (CIED) โดยครอบคลุม Staphylococcus",
-   "กลุ่มที่ไม่ต้องให้แม้มีโรคหัวใจ: mitral valve prolapse, rheumatic heart disease ที่ไม่มีวัสดุเทียม, bicuspid aortic valve, hypertrophic cardiomyopathy, pacemaker หรือ ICD (สำหรับการทำฟัน), CHD ที่ซ่อมสมบูรณ์เกิน 6 เดือน",
-   "ESC 2023 เพิ่มกลุ่ม highest risk: ผู้ใส่ ventricular assist device และพิจารณาในผู้ทำ transcatheter mitral/tricuspid repair · heart transplant ที่มี valvulopathy อยู่ในรายการของ AHA",
-   "ยา: amoxicillin 2 g กิน (เด็ก 50 mg/kg) 30–60 นาทีก่อนทำ · แพ้ penicillin ใช้ azithromycin หรือ clarithromycin 500 mg หรือ doxycycline 100 mg · AHA 2021 ไม่แนะนำ clindamycin แล้วเพราะสัมพันธ์กับ C. difficile"
+   "<b>นอกสไลด์:</b> AHA 2021 กลุ่มที่ให้ยาป้องกัน: ลิ้นเทียม (รวม TAVR) หรือวัสดุเทียมที่ใช้ซ่อมลิ้น · เคยเป็น IE · โรคหัวใจเขียวแต่กำเนิดที่ยังไม่ซ่อม (รวมที่ทำ shunt/conduit) · ซ่อมด้วยวัสดุเทียมภายใน 6 เดือน · ซ่อมแล้วมีรอยรั่วเหลือข้างวัสดุเทียม · ปลูกถ่ายหัวใจที่มีลิ้นผิดปกติ",
+   "<b>นอกสไลด์:</b> ยา: amoxicillin 2 g กิน 30–60 นาทีก่อนทำ (เด็ก 50 mg/kg) · แพ้ penicillin → azithromycin, clarithromycin หรือ doxycycline (ไม่ใช้ clindamycin แล้ว)"
   ],
+  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "ผู้ป่วยปิด ASD ด้วย device ผ่านสายสวนเมื่อ 2 เดือนก่อน นัดถอนฟันคุด → ต้องให้ prophylaxis เพราะยังอยู่ใน 6 เดือนแรกที่ device ยังไม่ถูกเยื่อบุคลุมสมบูรณ์",
-   "ผู้ป่วยมีลิ้น aortic เทียมชนิด mechanical จะส่องกล้อง colonoscopy และตัด polyp → ไม่ต้องให้ prophylaxis เพื่อป้องกัน IE (แต่ต้องวางแผนจัดการ warfarin ก่อนตัด polyp)",
-   "ผู้ป่วยปลูกถ่ายหัวใจมา 3 ปี echo พบลิ้น tricuspid รั่วรุนแรงจากลิ้นเสื่อม นัดขูดหินปูนใต้เหงือก → ต้องให้ prophylaxis (heart transplant ที่มี valvulopathy อยู่ในกลุ่ม highest risk ตาม AHA)"
+   "<b>นอกสไลด์:</b> ปิด VSD ด้วย patch มา 3 เดือน จะถอนฟัน → ให้ยาป้องกัน (ยังอยู่ใน 6 เดือนหลังใส่วัสดุเทียม)",
+   "<b>นอกสไลด์:</b> mitral valve prolapse มี MR ไม่มีวัสดุเทียม จะขูดหินปูน → ไม่ต้องให้ยาป้องกัน"
   ]
  },
  "MDCU79|RoD|CVT 8": {
+  "interp": "อุบัติเหตุ ช็อก (80/70) SpO₂ ต่ำ หลอดลมเบี้ยวไปซ้าย เสียงหายใจขวาลดและเคาะโปร่ง → tension pneumothorax ขวา · ถามขั้นต่อไป",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: C Needle decompression</b><br><b>นอกสไลด์:</b> tension pneumothorax วินิจฉัยจากอาการ (ช็อกแบบอุดกั้น pulse pressure แคบ) → ลดแรงดันทันทีด้วยเข็ม ไม่ต้องรอภาพรังสี แล้วใส่สายระบายทรวงอกตามมา",
   "wrong": {
-   "A": "Tension pneumothorax เป็นการวินิจฉัยทางคลินิก การส่ง CXR ในผู้ป่วยที่ความดัน 80/70 และ SpO2 82% ทำให้เสียเวลาจนหัวใจหยุดเต้นได้; จะถูกถ้าผู้ป่วยล้มจากที่สูงเจ็บหน้าอกขวา ความดันและออกซิเจนปกติ เสียงหายใจขวาลดเล็กน้อยไม่มี tracheal deviation → CXR หรือ eFAST ก่อนตัดสินใจใส่ท่อระบาย",
-   "B": "การใส่ intercostal chest drain เป็นการรักษา definitive ที่ต้องทำ<b>ตาม</b>หลังการลดแรงดัน การผ่าผิวหนังและเลาะใส่ท่อใช้เวลานานกว่าการแทงเข็มในผู้ป่วยที่ใกล้หัวใจหยุด (ATLS 11th ยอมรับ finger thoracostomy ตามด้วยท่อทันทีถ้าทำได้เร็ว); จะถูกถ้าผู้ป่วยอุบัติเหตุความดันปกติ SpO2 95% CXR พบ hemothorax ข้างขวาปานกลาง → ใส่ chest drain ที่ 5th ICS หน้าต่อ midaxillary line",
-   "D": "IV fluid ไม่แก้สาเหตุของช็อก ซึ่งเป็น obstructive shock จากความดันในช่องอกกด vena cava ทำให้เลือดกลับเข้าหัวใจไม่ได้ (pulse pressure แคบ 80/70 เข้ากับภาวะนี้) ให้น้ำเท่าไรก็ไม่ดีขึ้นจนกว่าจะลดแรงดัน; จะถูกถ้าผู้ป่วยถูกแทงท้อง ความดัน 80/50 เสียงหายใจสองข้างปกติ FAST พบเลือดใน Morison pouch → ให้เลือดแบบ balanced transfusion และนำเข้าห้องผ่าตัด",
-   "E": "การใส่ท่อช่วยหายใจและให้ positive-pressure ventilation ก่อนลดแรงดัน จะดันลมเข้า pleural space เพิ่มขึ้นอย่างรวดเร็ว และยานำสลบลดความดันซ้ำเติม ทำให้หัวใจหยุดเต้นได้; จะถูกถ้าผู้ป่วยบาดเจ็บศีรษะ GCS 7 หายใจเองไม่พอ ไม่มีหลักฐาน pneumothorax (หรือใส่ chest drain แล้ว) → RSI พร้อม in-line stabilization"
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัย pneumothorax ในผู้ป่วยที่สัญญาณชีพคงที่และหายใจได้ดี",
+   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น hemothorax หรือ pneumothorax ที่ไม่มีภาวะ tension",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าช็อกจากเสียเลือดโดยไม่มีสัญญาณ tension — ให้เลือดเร็วและจำกัด crystalloid",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าหายใจล้มเหลวหรือ GCS ≤ 8 โดยไม่มี pneumothorax"
   },
-  "trap": "ช้อย A ดึงดูดคนที่ต้องการภาพยืนยันก่อนทำหัตถการ แต่ tension pneumothorax ห้ามรอ CXR · ช้อย B ดึงดูดมากเพราะ chest drain เป็นการรักษาที่ถูกต้องและสุดท้ายต้องทำ แต่ในผู้ป่วยใกล้หัวใจหยุด ขั้นที่เร็วที่สุดมาก่อน · ช้อย D ล่อเพราะความดันต่ำในผู้ป่วยอุบัติเหตุมักหมายถึงเสียเลือด แต่ pulse pressure ที่แคบมากร่วมกับ hyperresonance บอกว่าเป็น obstructive shock · ช้อย E ล่อเพราะ SpO2 82% ทำให้อยากใส่ท่อ แต่ PPV ทำให้ tension แย่ลงทันที · ทิศทางสำคัญ: หลอดลม<b>เบี้ยวไปซ้าย</b> = ถูกดันจากความดันข้าง<b>ขวา</b> ซึ่งตรงกับเสียงหายใจลดและเคาะโปร่งข้างขวา",
-  "opinion": "เห็นด้วยกับคีย์ C (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูง ~95% — ภาพครบของ right tension pneumothorax ในผู้ป่วยช็อก ต้องลดแรงดันทันที · จุดกำกวม: (1) ATLS 11th แนะนำตำแหน่ง needle decompression ในผู้ใหญ่ที่ 4th–5th ICS หน้าต่อ midaxillary line และยอมรับ finger thoracostomy เป็นทางเลือก ถ้าข้อสอบมีช้อย finger thoracostomy ด้วยจะต้องเลือกตามอุปกรณ์และทักษะ (2) ความดัน 80/70 ตามต้นฉบับมี pulse pressure แคบ ซึ่งเข้ากับ obstructive shock จึงคงไว้ · ถ้าแก้โจทย์ ควรเพิ่ม distended neck veins เพื่อแยกจาก hemorrhagic shock ได้ชัดขึ้น",
-  "variants": [
-   "แทงเข็ม decompression ที่ 2nd ICS midclavicular line ในชายร่างใหญ่ผนังอกหนาแล้วไม่ดีขึ้น → เข็มอาจไม่ถึง pleural space ทำ finger thoracostomy ที่ 4th–5th ICS หน้าต่อ midaxillary line แล้วใส่ chest drain",
-   "ผู้ป่วยถูกแทงหน้าอกซ้าย ความดันต่ำ หลอดเลือดดำที่คอโป่ง เสียงหัวใจเบา เสียงหายใจสองข้างปกติ → cardiac tamponade ยืนยันด้วย FAST แล้ว pericardiocentesis หรือผ่าตัดเปิดเยื่อหุ้มหัวใจ",
-   "ใส่ chest drain ข้างขวาแล้วได้เลือดออกทันที 1,600 mL และยังออกต่อเนื่อง 250 mL/ชม. → massive hemothorax ต้องทำ thoracotomy"
-  ],
+  "trap": "หลอดลมเบี้ยวเป็นอาการท้าย ๆ — ช็อก หายใจลำบาก เสียงหายใจลดและเคาะโปร่งข้างเดียวก็พอให้ลดแรงดันได้เลย",
   "summary": [
-   "Tension pneumothorax: respiratory distress, hypotension, tachycardia, tracheal deviation (late sign), distended neck veins, absent breath sounds, hyperresonance",
-   "ตำแหน่งเข็มกับผนังอก: ผู้ใหญ่ส่วนใหญ่ผนังอกที่ 2nd ICS midclavicular line หนากว่าความยาวเข็ม 5 cm (ล้มเหลวบ่อย) จึงใช้ 4th–5th ICS หน้าต่อ midaxillary line และเข็มยาว 8 cm · เด็กยังใช้ 2nd ICS midclavicular line ได้",
-   "ICD ตำแหน่ง: 4th–5th ICS ระหว่าง anterior–midaxillary line (triangle of safety) เหนือขอบบนของซี่โครง",
-   "Massive hemothorax: >1,500 mL ทันทีหรือ >200 mL/ชม. 2–4 ชม. → thoracotomy",
-   "Open pneumothorax: 3-sided dressing แล้ว ICD แยกตำแหน่ง",
-   "Primary survey life-threatening chest: airway obstruction, tension PTX, open PTX, massive hemothorax, flail chest, cardiac tamponade"
+   "<b>นอกสไลด์:</b> ATLS: ผู้ใหญ่เจาะที่ช่องซี่โครง 4–5 หน้าต่อแนว midaxillary (ผนังอกบางกว่าช่องที่ 2) · เด็กใช้ช่องที่ 2 แนวกลางไหปลาร้า · finger thoracostomy เป็นทางเลือก · ตามด้วยใส่สายระบายทรวงอกเสมอ"
+  ],
+  "opinion": "เห็นด้วยกับคีย์ C (เฉลยย่อ) · มั่นใจสูง",
+  "variants": [
+   "<b>นอกสไลด์:</b> เจาะเข็มแล้วอาการไม่ดีขึ้น → เข็มสั้นไม่ถึงช่องเยื่อหุ้มปอดหรืออุดตัน: finger thoracostomy",
+   "<b>นอกสไลด์:</b> ผู้ป่วยใส่เครื่องช่วยหายใจ แรงดันทางเดินหายใจพุ่งขึ้นและความดันโลหิตตกทันที → tension pneumothorax จากแรงดันบวก"
   ]
  },
  "MDCU79|RoD|CVT 9": {
-  "why": "อาการครบ triad ของ severe aortic stenosis (เหนื่อยเวลาออกแรง หน้ามืดหมดสติ เจ็บหน้าอก) เมื่อมีอาการแล้วโดยไม่รักษา อัตรารอดเฉลี่ยเหลือเพียง 2–5 ปี จึงเป็นข้อบ่งชี้ class I ให้เปลี่ยนลิ้น (ACC/AHA 2020) · ยาไม่ช่วยชะลอโรค · การเลือก TAVR หรือ SAVR พิจารณาจาก อายุและอายุคาดเฉลี่ย, ความเสี่ยงการผ่าตัด (STS score), frailty, กายวิภาคของลิ้นและหลอดเลือดที่จะใส่สาย, และความจำเป็นต้องผ่าตัดหัวใจอย่างอื่นร่วม · ACC/AHA 2020: อายุ > 80 ปีหรืออายุคาดเฉลี่ย < 10 ปี เลือก transfemoral TAVR · ESC/EACTS (ฉบับ 2021 ใช้อายุ ≥ 75 ปี และฉบับ 2025 ลดลงเป็น ≥ 70 ปี) · ผู้ป่วยอายุ 95 ปีจึงเหมาะกับ TAVR ที่สุด และ coronary angiography ไม่พบโรคหลอดเลือดหัวใจ จึงไม่มีเหตุผลต้องผ่าตัดเปิดเพื่อทำ CABG ร่วม · TAVR ลดอัตราตายและอาการได้ชัดแม้ในผู้ป่วยสูงอายุมาก (PARTNER 1B ในผู้ป่วยผ่าตัดไม่ได้) · ตรงกับคีย์ B ในเฉลยอย่างย่อหน้า 36",
+  "interp": "ผู้ป่วยอายุ 95 ปี เหนื่อย เป็นลม เจ็บหน้าอก + severe aortic stenosis ไม่มี coronary ตีบ · ถามการรักษา",
+  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B TAVR</b><br><b>นอกสไลด์:</b> AS รุนแรงที่มีอาการ (เหนื่อย เป็นลม เจ็บอก) ต้องเปลี่ยนลิ้น เพราะถ้าไม่ทำอัตราตายสูงมาก · ผู้สูงอายุมาก → เปลี่ยนลิ้นผ่านสายสวน (TAVR) ดีกว่าผ่าตัดเปิด",
   "wrong": {
-   "A": "Surgical AVR เป็นมาตรฐานในผู้ป่วยอายุน้อยหรือมีเหตุให้ต้องผ่าตัดเปิด แต่ในอายุ 95 ปีความเสี่ยงจากการเปิดหน้าอกและ cardiopulmonary bypass สูงมาก และไม่มี CAD ที่ต้องทำร่วม; จะถูกถ้าชายอายุ 55 ปีมี bicuspid aortic valve severe AS มีอาการ และ ascending aorta โป่ง 5.2 cm → SAVR ร่วมกับเปลี่ยน ascending aorta (TAVR แก้หลอดเลือดโป่งไม่ได้และลิ้นจะต้องอยู่อีกหลายสิบปี)",
-   "C": "Mitral valve replacement แก้ลิ้น mitral ซึ่งไม่ใช่ลิ้นที่เสียในโจทย์ (echo บอก severe AS และอาการ triad เป็นของ AS); จะถูกถ้าหญิงอายุ 45 ปี rheumatic severe MS มีอาการ ลิ้นหนาแข็งมีหินปูนมาก Wilkins score 12 และมี MR ปานกลางร่วม ซึ่งไม่เหมาะกับ balloon valvuloplasty",
-   "D": "Transcatheter mitral valve replacement เป็นการใส่ลิ้น mitral ผ่านสายสวนในผู้ป่วย mitral valve disease ที่ผ่าตัดเปิดเสี่ยงสูง — ไม่ใช่ลิ้นที่ผิดปกติในโจทย์; จะถูกถ้าหญิงอายุ 82 ปีเคยเปลี่ยนลิ้น mitral ชนิด bioprosthetic เมื่อ 12 ปีก่อน ตอนนี้ลิ้นเสื่อมจนเกิด severe MR และหัวใจวาย STS score สูงมาก → transcatheter mitral valve-in-valve",
-   "E": "Balloon aortic valvuloplasty ขยายลิ้นได้ชั่วคราวแต่ตีบซ้ำภายใน 6–12 เดือน และไม่เพิ่มอัตรารอดระยะยาว ใช้เป็นสะพานเท่านั้น; จะถูกถ้าผู้ป่วย severe AS อยู่ในภาวะ cardiogenic shock ที่ยังทำ TAVR ไม่ได้ทันที หรือต้องผ่าตัดอวัยวะอื่นแบบเร่งด่วน → BAV เป็น bridge to TAVR หรือ SAVR"
+   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยอายุน้อยกว่า 65 ปีความเสี่ยงผ่าตัดต่ำ หรือมีโรคที่ต้องผ่าตัดพร้อมกัน (เช่น coronary ตีบหลายเส้นต้องทำ CABG)",
+   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น mitral stenosis รูมาติกรุนแรงที่ลิ้นมีหินปูนมาก ไม่เหมาะกับ PBMV",
+   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นลิ้น mitral เทียมชนิดเนื้อเยื่อที่เสื่อม ในผู้ป่วยที่เสี่ยงผ่าตัดซ้ำสูง (valve-in-valve)",
+   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยทำ TAVR และผ่าตัดไม่ได้ และต้องการบรรเทาอาการชั่วคราว"
   },
-  "trap": "ช้อย A ดึงดูดเพราะ SAVR เป็น gold standard ดั้งเดิม แต่ต้องดูอายุ 95 ปีซึ่งชี้ไปที่ TAVR อย่างชัดเจน · ช้อย E ล่อคนที่คิดว่าผู้สูงอายุมากควรทำแค่หัตถการน้อยที่สุด แต่ BAV ไม่ทน · ช้อย C และ D ล่อคนที่อ่านช้อยเร็วแล้วเห็นคำว่า replacement หรือ transcatheter โดยไม่ดูว่าเป็นลิ้น mitral · กับดักทางความคิดคือ \"อายุ 95 ไม่ควรรักษา\" — TAVR ลดอัตราตายและอาการได้มากแม้ในผู้สูงอายุ ถ้าไม่มี frailty รุนแรงหรือโรคร่วมที่ทำให้อายุคาดเฉลี่ยสั้นกว่า 1 ปี · ประโยค \"coronary angiography shows no significant stenosis\" มีไว้ตัดเหตุผลที่ต้องผ่าตัดเปิดเพื่อทำ CABG ร่วม",
+  "trap": "อายุมากไม่ได้แปลว่าไม่ควรทำ — ประเมินความเปราะบางและคุณภาพชีวิต ถ้าคาดว่าอยู่ได้เกิน 1 ปีและอาการดีขึ้นได้ TAVR ช่วยทั้งอาการและอายุ",
   "summary": [
-   "เกณฑ์ severe AS บน echo: peak velocity ≥ 4 m/s, mean gradient ≥ 40 mmHg, AVA ≤ 1.0 cm² (indexed ≤ 0.6 cm²/m²) · very severe: velocity ≥ 5 m/s หรือ gradient ≥ 60 mmHg",
-   "Low-flow low-gradient AS (LVEF < 50%, AVA เล็กแต่ gradient ต่ำ): ทำ dobutamine stress echo แยก true severe AS กับ pseudo-severe · ถ้า LVEF ปกติแต่ low-flow (paradoxical) ใช้ CT calcium score ช่วยยืนยัน",
-   "ข้อบ่งชี้ AVR นอกจากมีอาการ: severe AS ไม่มีอาการแต่ LVEF < 50%, very severe AS, exercise test ผิดปกติ, BNP สูงขึ้นมาก หรือกำลังผ่าตัดหัวใจอื่น · EARLY TAVR (2024) พบว่าการทำ TAVR เร็วในผู้ไม่มีอาการลด composite outcome เทียบกับการเฝ้าติดตาม และ ESC/EACTS 2025 ให้พิจารณา intervention เร็วในรายความเสี่ยงต่ำ",
-   "ภาวะแทรกซ้อนของ TAVR: conduction disturbance ที่ต้องใส่ permanent pacemaker (ราว 5–20% แล้วแต่ชนิดลิ้น), paravalvular leak, stroke, vascular complication ที่ขาหนีบ, coronary obstruction, valve thrombosis",
-   "การดูแลผู้ป่วย severe AS ระหว่างรอ: หลีกเลี่ยง vasodilator แรง nitrate และการขาดน้ำ (preload-dependent) · ระวังยาสลบที่ลด afterload · คุมความดันสูงด้วยความระมัดระวัง",
-   "Heyde syndrome: severe AS ร่วมกับเลือดออกในทางเดินอาหารจาก angiodysplasia เพราะ von Willebrand factor ถูกทำลายจากแรงเฉือนที่ลิ้นตีบ — ดีขึ้นหลังเปลี่ยนลิ้น"
+   "<b>นอกสไลด์:</b> AS รุนแรง: valve area ≤ 1.0 cm², mean gradient ≥ 40 mmHg หรือ Vmax ≥ 4 m/s · ACC/AHA 2020: อายุมากกว่า 80 ปี → TAVR · 65–80 ปีตัดสินร่วมกัน · น้อยกว่า 65 ปี → ผ่าตัดเปลี่ยนลิ้น (ESC/EACTS 2025 ใช้อายุ 70 ปีเป็นเกณฑ์ TAVI)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยอย่างย่อหน้า 36) ความมั่นใจสูง ~95% — symptomatic severe AS ในผู้ป่วยอายุ 95 ปีที่ไม่มี CAD ร่วม คือ indication ชัดของ TAVR ตามทั้ง ACC/AHA และ ESC/EACTS · จุดกำกวม: (1) โจทย์ไม่บอก frailty, สภาพสมอง หรือโรคร่วม ถ้าผู้ป่วยติดเตียงหรือมีอายุคาดเฉลี่ยน้อยกว่า 1 ปี การรักษาแบบประคับประคองอาจเหมาะกว่า (2) ไม่บอกว่าหลอดเลือดที่ขาหนีบใส่สายได้หรือไม่ ซึ่งมีผลต่อการเลือกทาง transfemoral · ต้นฉบับมีช้อยเพียง 4 ตัว ฉบับนี้เติม balloon valvuloplasty · ถ้าแก้โจทย์ ควรเพิ่มว่าผู้ป่วยยังช่วยเหลือตัวเองได้ดี เพื่อให้ TAVR เป็นคำตอบเดียวชัดเจน",
+  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจสูง",
   "variants": [
-   "หญิงอายุ 78 ปีไม่มีอาการ echo พบ severe AS (velocity 4.3 m/s) และ LVEF ลดลงเหลือ 45% → ข้อบ่งชี้เปลี่ยนลิ้นแม้ไม่มีอาการ (LVEF < 50%)",
-   "ชายอายุ 75 ปีเหนื่อยง่าย echo: AVA 0.8 cm² แต่ mean gradient 25 mmHg LVEF 30% → low-flow low-gradient AS ทำ dobutamine stress echo เพื่อแยก true severe AS ก่อนตัดสินใจเปลี่ยนลิ้น",
-   "ชายอายุ 72 ปี severe AS มีอาการ CT พบลิ้นเป็น bicuspid ที่มีหินปูนหนาไม่สมมาตร → ยังทำ TAVR ได้ในรายที่กายวิภาคเหมาะ แต่เสี่ยง paravalvular leak และลิ้นขยายไม่เต็มมากกว่า tricuspid valve ต้องวางแผนด้วย CT อย่างละเอียด"
+   "<b>นอกสไลด์:</b> AS รุนแรงที่ยังไม่มีอาการ แต่ LVEF ต่ำกว่า 50% → เปลี่ยนลิ้น",
+   "<b>นอกสไลด์:</b> หลัง TAVR หัวใจเต้นช้าลงมาก ECG เป็น complete heart block → ใส่ pacemaker (ภาวะแทรกซ้อนที่พบบ่อย)"
   ]
  }
 }
