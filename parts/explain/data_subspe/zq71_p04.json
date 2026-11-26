@@ -1,222 +1,399 @@
 {
  "MDCU71|RoB|42": {
-  "interp": "แผลที่ลิ้นไม่เจ็บ 1 × 2 cm ร่วมต่อมน้ำเหลืองคอยึดติด → สงสัย SCC ของลิ้นลามต่อมน้ำเหลือง ถามวิธีตรวจต่อมน้ำเหลือง",
-  "why": "<b>P'Ing กากบาท B</b><br><b>นอกสไลด์:</b> US บอกลักษณะต่อมที่น่าสงสัย (กลม ไม่มี hilum เนื้อตายตรงกลาง) และนำเข็มเจาะได้แม่น · FNA ได้เซลล์ยืนยันว่ามะเร็งลามโดยไม่ผ่าเปิดคอ — การผ่าตัดเอาต่อมออกตรวจก่อนทำให้มะเร็งกระจายในคอและการผ่าตัด neck dissection ภายหลังยากขึ้น",
+  "interp": "ผู้ป่วย<b>แผลที่ลิ้น 1 × 2 cm ไม่เจ็บ</b> คลำได้<b>ต่อมน้ำเหลืองที่คอติดแน่นกับผิว</b> → ถามวิธีตรวจต่อมน้ำเหลือง",
+  "why": "แผลที่ลิ้นเรื้อรังไม่เจ็บ = สงสัย <b>squamous cell carcinoma ของช่องปาก</b> · ต่อมน้ำเหลืองที่คอโตแข็ง ติดผิว = สงสัยมะเร็งกระจาย → ตรวจด้วย <b>ultrasound ร่วมกับเจาะดูดเซลล์ (US-guided FNA)</b> ซึ่งไว แม่นยำ รุกล้ำน้อย และ<b>ไม่ทำ open/ excisional biopsy ของต่อมที่คอก่อน</b> (เสี่ยงเซลล์มะเร็งฝัง ทำให้การผ่าตัด neck dissection ยากขึ้น) · ร่วมกับ biopsy แผลที่ลิ้น และ CT/ MRI คอ + ภาพทรวงอก เพื่อ staging · ไฟล์ P'Ing กากบาท <b>B. Ultrasound</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ภาพรังสีธรรมดาใช้ตรวจต่อมน้ำเหลืองที่คอ เพราะเห็นได้แค่เงากระดูกและหินปูน ไม่บอกโครงสร้างภายในของต่อมและไม่ได้เซลล์",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่ใต้ขากรรไกรแล้วต้องแยกว่าเป็นต่อม submandibular หรือต่อมน้ำเหลือง — คลำสองมือ (นิ้วในพื้นปาก + มือนอก) ต่อมน้ำลายคลำได้จากทั้งสองด้าน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าได้ผลชิ้นเนื้อมะเร็งแล้ว ต้องการดูความลึกของก้อนที่ลิ้นและขอบเขตต่อมน้ำเหลืองเพื่อวางแผนผ่าตัด (staging)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนที่คอเต้นตามชีพจรตรงจุดแยก carotid ขยับซ้ายขวาได้แต่ขึ้นลงไม่ได้ (carotid body tumor) — ห้ามเจาะ ใช้ภาพหลอดเลือด และฉีดอุดก่อนผ่าตัดในบางราย"
+   "A": "ภาพรังสีธรรมดาไม่เห็นรายละเอียดต่อมน้ำเหลือง · จะถูกถ้าคำถามถามการตรวจหามะเร็งกระจายไปปอด (CXR) ในการ staging",
+   "C": "Bimanual palpation ใช้คลำพื้นปากและต่อมน้ำลาย submandibular ไม่ใช่วิธีตรวจต่อมน้ำเหลืองที่โต · จะถูกถ้าคำถามถามการตรวจร่างกายก้อนที่พื้นปาก/ นิ่วต่อม submandibular",
+   "D": "MRI ใช้ประเมินขนาดก้อนที่ลิ้นและความลึก (staging) แต่ไม่ให้ผลเซลล์ของต่อม · จะถูกถ้าคำถามถามการประเมิน depth of invasion ของก้อนที่ลิ้นก่อนผ่าตัด",
+   "E": "Angiogram ไม่มีบทบาทในต่อมน้ำเหลืองที่สงสัยมะเร็ง · จะถูกถ้าก้อนที่คอเต้นตามชีพจร สงสัย carotid body tumor (ห้ามเจาะ)"
   },
-  "trap": "ต่อมน้ำเหลืองคอในผู้ใหญ่ที่สงสัยมะเร็ง ห้ามผ่าตัดเอาออกตรวจเป็นขั้นแรก — ต้อง FNA ก่อน",
+  "trap": "ตัดต่อมน้ำเหลืองที่คอออกตรวจเลย — ต่อมคอที่สงสัยมะเร็งใช้ US + FNA ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> FNA ไม่ได้ผลหรือไม่พอ → core needle biopsy · ผ่าเปิดตรวจเฉพาะเมื่อเจาะแล้วยังไม่ได้คำตอบ และพร้อมทำ neck dissection ในคราวเดียว · ตัดชิ้นเนื้อจากแผลที่ลิ้นด้วยเพื่อยืนยันก้อนปฐมภูมิ"
+   "แผลในปากไม่หาย &gt; 2–3 สัปดาห์ → biopsy",
+   "ต่อมน้ำเหลืองคอสงสัยมะเร็ง → US-guided FNA (ไม่ excision ก่อน)",
+   "Staging: CT/ MRI คอ + CT ทรวงอก ± PET",
+   "มะเร็งลิ้นกระจาย level I–III ก่อน",
+   "Depth of invasion &gt; 4 mm → elective neck dissection",
+   "ปัจจัยเสี่ยง: บุหรี่ สุรา หมาก HPV (oropharynx)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับกากบาท B ในไฟล์ · เว็บเขียนเป็น ultrasound with FNA ให้ครบตามมาตรฐาน",
+  "mnemonic": "<b>'ต่อมคอสงสัยมะเร็ง = Ultrasound + Needle (ไม่ผ่าออก)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers v.2025 — Cancer of the oral cavity",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 55 ปีต่อมน้ำเหลืองคอโต ตรวจหูคอจมูกไม่พบก้อน FNA เป็น SCC → PET-CT แล้วส่องตรวจใต้ยาสลบ ตัดทอนซิลและเนื้อฐานลิ้นหาก้อนปฐมภูมิ (unknown primary)"
+   "ชายสูบบุหรี่แผลขอบลิ้นไม่หาย 1 เดือน → biopsy แผล",
+   "ต่อมน้ำเหลืองคอแข็ง FNA พบ SCC ไม่ทราบต้นกำเนิด → panendoscopy + PET",
+   "ก้อนที่คอเต้นตามชีพจรที่ carotid bifurcation → carotid body tumor (ห้ามเจาะ)"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 27 — ตัวพิมพ์: <b>Plastic 42. แผลที่ลิ้น 1*2 cm ไม่เจ็บ คลำได้ต่อมน้ำเหลืองที่คอ fixedกับผิว ควร investigate ต่อมน้ำเหลืองยังไง — A.X ray B.Ultrasound C.Bimanual palpation D.MRI E.Angiogram</b><br>ลายมือ: กากบาท B<br>ไฮไลต์: ไม่มี<br>ที่ปรับในเว็บ: B เขียนเป็น ultrasound with FNA",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 27",
+  "kimg": [
+   "fsp_p27",
+   "kp71b_42"
   ]
  },
  "MDCU71|RoB|51": {
-  "interp": "ทารกชาย imperforate anus มีขี้เทาในปัสสาวะ → รูต่อลำไส้ตรง–ทางเดินปัสสาวะ ถามสิ่งที่ต้องทำ",
-  "why": "<b>P'Ing กากบาท 2 colostomy · high type ARM + rectourethral fistula</b><br><b>นอกสไลด์:</b> รูต่อ rectourinary ในทารกชายแก้ด้วยการผ่าตัดเป็นขั้น: colostomy ก่อน แล้วฉีดสารทึบทางปลายลำไส้ส่วนล่าง (distal colostogram) หาระดับรูต่อ ก่อนทำ PSARP",
+  "interp": "ทารกชาย<b>ไม่มีรูทวาร</b> พบ<b>ขี้เทาในปัสสาวะ</b> → ถามการรักษา",
+  "why": "ขี้เทาในปัสสาวะ = <b>rectourinary (rectourethral/ rectovesical) fistula</b> = ARM <b>ชนิดสูง</b> → <b>colostomy ก่อน</b> (divided sigmoid) แล้วทำ PSARP ภายหลัง 2–3 เดือน และปิด colostomy ทีหลัง · ข้อนี้ซ้ำกับข้อไม่มีเลข 6 ของ 71A · ไฟล์ P'Ing กากบาท 2 ลายมือ <b>\"high type ARM\"</b> และแปะสไลด์ Case 8 (ARM) พร้อมลายมือ rectourethral fistula และตำรา \"ถ้าพบขี้เทาในปัสสาวะแสดงว่าความผิดรูปนั้นอยู่ค่อนข้างสูงและมี fistula กับทางเดินปัสสาวะ จะต้องทำ colostomy ก่อน\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าทารกชายมีขี้เทาออกจากรูเล็กที่ฝีเย็บ หรือเห็นแนวขี้เทาใต้ผิวตามรอยต่อถุงอัณฑะ (รูต่อระดับต่ำ)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกหญิงมีรูเปิดของลำไส้ที่ vestibule ด้านหลังช่องคลอด — ผ่าตัด PSARP แบบจำกัดโดยไม่ต้อง colostomy ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าทารก Down syndrome ไม่มีรูเปิดที่ฝีเย็บและไม่มีขี้เทาในปัสสาวะ (ARM ไม่มีรูต่อพบบ่อยในกลุ่มนี้) — ถ่ายภาพท่าคว่ำเมื่อครบ 24 ชม.",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกมีทวารปกติ แต่ไม่ถ่ายขี้เทาใน 48 ชม. ท้องอืด สวนแล้วขี้เทาพุ่ง (สงสัย Hirschsprung) — ล้างลำไส้ระหว่างรอตัดชิ้นเนื้อและผ่าตัด"
+   "A": "Anoplasty ใช้กับชนิดต่ำ (perineal fistula) · จะถูกถ้าทารกมีขี้เทาออกที่ฝีเย็บ/ raphe ของถุงอัณฑะ",
+   "C": "Primary PSARP แรกเกิดใช้กับบางชนิดที่ลำไส้ห่างผิว &lt; 1 cm ไม่ใช่ rectourinary fistula ตามมาตรฐาน · จะถูกถ้าฟิล์ม cross-table พบลำไส้ห่างผิว &lt; 1 cm ทารกแข็งแรง",
+   "D": "Cross-table lateral ใช้เมื่อไม่เห็น fistula หลัง 24 ชม. ส่วนนี้มีขี้เทาในปัสสาวะบอกชนิดแล้ว · จะถูกถ้าทารกไม่มีรูทวาร ไม่มีขี้เทาออกทางใดหลัง 24 ชม.",
+   "E": "สวนล้างทวารไม่มีบทบาทใน ARM · จะถูกถ้าทารก Hirschsprung ท้องอืด ต้องสวนล้างลำไส้ก่อนผ่าตัด"
   },
-  "trap": "ขี้เทาในปัสสาวะเห็นได้ช้า ต้องกรองปัสสาวะผ่านผ้าก๊อซดูทุกครั้ง ก่อนสรุปว่าไม่มีรูต่อ",
+  "trap": "ทำ anoplasty เหมือนชนิดต่ำ — ขี้เทาในปัสสาวะ = ชนิดสูง ต้อง colostomy",
   "summary": [
-   "<b>นอกสไลด์:</b> รูต่อในทารกชายเรียงจากต่ำไปสูง: rectobulbar (พบบ่อยที่สุด) → rectoprostatic → rectobladder neck (พยากรณ์การกลั้นแย่สุด) · ใช้ colostomy แบบแยกปลาย (divided descending colostomy) เพื่อไม่ให้อุจจาระไหลลงปลายล่างเข้าทางเดินปัสสาวะ"
+   "ARM ชาย: perineal fistula (ต่ำ) · rectourethral bulbar/ prostatic · rectovesical (สูงสุด)",
+   "ขี้เทาในปัสสาวะ → colostomy → PSARP 2–3 เดือน",
+   "Perineal fistula → anoplasty แรกเกิด",
+   "ไม่เห็นหลัง 24 ชม. → prone cross-table lateral",
+   "ตรวจ VACTERL",
+   "ภาวะแทรกซ้อนระยะยาว: ท้องผูก กลั้นอุจจาระไม่อยู่"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — เป็นโจทย์เดียวกับ RoA ไม่มีเลข 6 ของชุดนี้ · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับกากบาท 2 และลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'ขี้เทาในฉี่ = ทวารเทียมก่อน'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Anorectal malformations; Levitt MA, Peña A. Anorectal malformations (Orphanet J Rare Dis 2007;2:33)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง colostomy ฉีดสารทึบทางปลายล่างเห็นรูต่อที่คอกระเพาะปัสสาวะ → รูต่อระดับสูงสุด ต้องส่องกล้องท้องช่วยเลาะลำไส้ (laparoscopic-assisted) ร่วมกับ PSARP"
+   "ทารกชายขี้เทาออกที่ฝีเย็บ → anoplasty",
+   "ทารกชายไม่มีรูทวาร 24 ชม.ไม่เห็นขี้เทา cross-table ห่าง 2 cm → colostomy",
+   "ทารกหญิงขี้เทาออกที่ vestibule → vestibular fistula"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 27 — ตัวพิมพ์: <b>Ped 51. เจอ meconium ในฉี่ ต้องทำอะไร — 1.anoplasty 2.colostomy 3.psarp</b><br>ลายมือ: \"high type ARM\" เหนือ meconium · กากบาท 2<br>ไฮไลต์: กากบาท 2 (เขียว) · \"ต้องทำอะไร\" (เขียว) · ขีดเส้นใต้ \"meconium ในฉี่\"<br>รูปที่แปะ: ตำรา \"ถ้าพบขี้เทาในปัสสาวะแสดงว่าความผิดรูปนั้นอยู่ค่อนข้างสูงและมี fistula กับทางเดินปัสสาวะ จะต้องทำ colostomy ก่อนแล้วค่อยมาทำ anorectoplasty ภายหลัง (2-3 เดือน)\" · สไลด์ Case 8 (ภาพฝีเย็บทารก Diagnosis? Treatment?) พร้อมลายมือเล็กเรื่อง rectourethral fistula และตาราง MAJOR CLINICAL GROUPS/ RARE REGIONAL VARIANTS<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 27",
+  "kimg": [
+   "fsp_p27",
+   "kp71b_51"
   ]
  },
  "MDCU71|RoB|74": {
-  "interp": "acute aortic syndrome ชนิดไหนตอบสนองต่อการรักษาด้วยยามากกว่า → dissection ที่ไม่เกี่ยว ascending aorta และไม่มีภาวะแทรกซ้อน",
-  "why": "<b>P'Ing กากบาท A · = Stanford B · B Stanford A · D, E complications of aortic dissection · isolated descending dissection treated medically</b><br><b>นอกสไลด์:</b> type B ที่ไม่มีภาวะแทรกซ้อนรักษาด้วยยาลดชีพจรและความดัน (ลดแรงเฉือนที่ผนัง) ได้ผลดีพอ ๆ กับผ่าตัดในระยะแรก",
+  "interp": "ถามผู้ป่วย <b>acute aortic syndrome</b> รายใด<b>น่าจะตอบสนองต่อการรักษาด้วยยา</b>",
+  "why": "Dissection ที่จำกัดอยู่ที่ <b>descending aorta (Stanford B)</b> และ<b>ไม่มีภาวะแทรกซ้อน</b> (uncomplicated) รักษาด้วยยาเป็นหลัก: <b>ลดชีพจร (&lt; 60) ด้วย IV beta-blocker แล้วลดความดัน (SBP 100–120)</b> + แก้ปวด · ส่วน <b>Stanford A</b> (เกี่ยวกับ ascending aorta รวม intramural hematoma ที่ ascending) → <b>ผ่าตัดฉุกเฉิน</b> · Type B ที่<b>มีภาวะแทรกซ้อน</b> (malperfusion, rupture/ hemothorax, ขยายเร็ว, ปวด/ ความดันคุมไม่ได้) → TEVAR · ไฟล์ P'Ing กากบาท A ลายมือ <b>\"= Stanford B\"</b> ที่ B \"Stanford A\" ที่ D, E <b>\"Complications of aortic dissection\"</b> และแปะตำรา \"Patients with isolated descending thoracic and abdominal aortic dissection are typically treated medically, unless complications requiring surgery develop\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น IMH ของ ascending aorta ที่บางไม่ถึงราว 1 cm aorta กว้างไม่ถึง 5 cm ไม่มี ulcer-like projection หรือน้ำในเยื่อหุ้มหัวใจ ในผู้สูงอายุเสี่ยงผ่าตัดสูง — บางศูนย์ในเอเชียรักษาด้วยยาและ CT ติดตามใกล้ชิด",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ dissection ที่มีเลือดในช่องปอดปริมาณมากตอบสนองต่อยา เพราะคือการแตกทะลุ ต้องซ่อมด่วน (TEVAR หรือผ่าตัด)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ true lumen ที่ถูกบีบแฟบจนอวัยวะขาดเลือดตอบสนองต่อยา เพราะต้องเปิดทางให้เลือดเข้า true lumen ด้วย TEVAR หรือ fenestration — การลดความดันอาจทำให้เลือดไปเลี้ยงแย่ลง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ไตขาดเลือดจนมีอาการหรือไตวายจาก dissection จัดเป็นแบบไม่มีภาวะแทรกซ้อน เพราะนิยามของ complicated type B รวม end-organ malperfusion ซึ่งต้องเปิดทางเลือดด้วยหัตถการ"
+   "B": "IMH ที่ ascending aorta = Stanford A ต้องผ่าตัด (ลายมือ \"Stanford A\") · จะถูกถ้า IMH อยู่ที่ descending aorta อย่างเดียวไม่มีภาวะแทรกซ้อน (รักษาด้วยยา)",
+   "C": "น้ำ/ เลือดในช่องเยื่อหุ้มปอดปริมาณมากบ่งว่าหลอดเลือดรั่ว (rupture) ต้องผ่าตัด/ TEVAR ด่วน · จะถูกถ้าเป็นน้ำเล็กน้อยจากการอักเสบรอบหลอดเลือดที่คงที่",
+   "D": "Malperfusion + true lumen ตีบมาก = complicated dissection ต้อง TEVAR (ลายมือ \"Complications of aortic dissection\") · จะถูกถ้าคำถามถามข้อบ่งชี้ของ TEVAR ใน type B",
+   "E": "ไตขาดเลือดเป็น malperfusion = complicated (ลายมือ \"Complications of aortic dissection\") · จะถูกถ้าคำถามถามภาวะแทรกซ้อนที่ต้องทำ endovascular ใน type B"
   },
-  "trap": "IMH ฟังดูเบากว่า dissection — แต่ IMH ของ ascending aorta โดยทั่วไปรักษาแบบ type A (ผ่าตัด) เพราะลุกลามเป็น dissection หรือแตกได้",
+  "trap": "คิดว่า IMH รักษาด้วยยาเสมอ — IMH ที่ ascending aorta = type A ต้องผ่าตัด",
   "summary": [
-   "<b>นอกสไลด์:</b> Stanford A → ผ่าตัดด่วน · Stanford B ไม่มีภาวะแทรกซ้อน → ยา · complicated type B (แตก/ใกล้แตก อวัยวะขาดเลือด ปวดหรือความดันสูงที่คุมไม่ได้ aorta ขยายเร็ว) → TEVAR"
+   "Stanford A (ascending) → ผ่าตัดฉุกเฉิน",
+   "Stanford B uncomplicated → ยา: HR &lt; 60 · SBP 100–120 (IV esmolol/ labetalol ก่อน vasodilator)",
+   "Complicated B: malperfusion · rupture · ขยายเร็ว · ปวด/ ความดันคุมไม่ได้ → TEVAR",
+   "Acute aortic syndrome: dissection · IMH · PAU",
+   "CTA = การตรวจหลัก · ไม่คงที่ → TEE",
+   "ภาวะแทรกซ้อน A: AR · tamponade · coronary · stroke"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับกากบาท A และลายมือ/ ตำราในไฟล์ · ช้อย C ต้นฉบับจำไม่ครบ (\"... with pleural effusion\") จึงเขียนเป็น dissection with large hemothorax",
+  "mnemonic": "<b>'A (Ascending) = ผ่า · B (Beyond) ไม่แทรกซ้อน = ยา (Beta-blocker)'</b>",
+  "guide": "2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease (Circulation 2022;146:e334); 2024 ESC Guidelines for the Management of Peripheral Arterial and Aortic Diseases",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย type B ไม่มีภาวะแทรกซ้อนแต่เป็นหอบหืดรุนแรง ใช้ β-blocker ไม่ได้ → ใช้ non-dihydropyridine CCB (diltiazem/verapamil) ลดชีพจร",
-   "<b>นอกสไลด์:</b> type B ไม่มีภาวะแทรกซ้อน แต่ aorta กว้างเกิน 4 cm และ false lumen ใหญ่ → เสี่ยงขยายในระยะยาว พิจารณา TEVAR ในระยะ subacute"
+   "dissection ascending aorta + AR + tamponade → ผ่าตัดฉุกเฉิน",
+   "type B ปวดหลัง ขาซ้ายขาดเลือด → TEVAR",
+   "type B uncomplicated → IV esmolol แล้ว nicardipine คุม SBP 100–120"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 27 — ตัวพิมพ์: <b>CVT 74. acute aortic syndrome which patient is more likely to respond to medical treatment? — A. Intimal flapping จาก descending aorta ถึง iliac artery B. Intramural hematoma at ascending aorta C. ... with pleural effusion D. Malperfusion with very narrowing true lumen E. poor renal perfusion</b><br>ลายมือ: \"= aortic dissection and its variants\" · \"= Stanford B\" ท้ายคำถาม · B \"Stanford A\" · D, E \"Complications of aortic dissection\" (แดง) · กากบาท A<br>ไฮไลต์: กากบาท A (ชมพู) · \"which patient\" (ชมพู) · ขีดเส้นใต้แดง \"descending aorta\" \"respond to medical treatment\"<br>รูปที่แปะ: ตำรา \"Regardless of which system is used, patients with isolated ascending aortic dissection usually undergo emergent operation, as do patients with dissection involving both the ascending and descending thoracic segments. Patients with isolated descending thoracic and abdominal aortic dissection are typically treated medically, unless complications requiring surgery develop.\" (ไฮไลต์เหลือง)<br>ที่ปรับในเว็บ: ช้อย C ไม่ครบ → dissection with large hemothorax",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 27",
+  "kimg": [
+   "fsp_p27",
+   "kp71b_74"
   ]
  },
  "MDCU71|RoB|77": {
-  "interp": "หญิง 40 ปีเลือดออกทางทวารเป็นพัก 3 เดือน การขับถ่ายเปลี่ยนจากวันละครั้งเป็นวันละ 3 ครั้ง ตรวจทวารพบแค่ skin tag → ถามการจัดการ",
-  "why": "<b>P'Ing กากบาท 1 (lifestyle) · 3 ครั้ง/วันอยู่ใน normal range ∴ no bowel habit change · จะคิดถึง common anorectal diseases ได้เมื่อ 1. no bowel habit change 2. PR เจอ presentation ที่อธิบายอาการ</b> — ข้อนี้ตอบ E<br><b>นอกสไลด์:</b> การขับถ่ายเปลี่ยนจากนิสัยเดิมนานหลายเดือนคือ change in bowel habit แม้ยังอยู่ในช่วงปกติของประชากร และ skin tag ไม่ทำให้เลือดออก จึงยังไม่มีสาเหตุที่อธิบายเลือดออก → ต้องส่องกล้องลำไส้ใหญ่",
+  "interp": "หญิง 40 ปี <b>เลือดออกทางทวารเป็น ๆ หาย ๆ 3 เดือน</b> ไม่มี constitutional symptoms ถ่าย<b>จากวันละ 1 ครั้งเป็นวันละ 3 ครั้ง</b> ไม่มีประวัติครอบครัว ตรวจทางทวารพบแค่ <b>small skin tag</b> → ถามการจัดการ",
+  "why": "หลักคิด: จะสรุปว่าเลือดออกมาจากโรคทวารที่พบบ่อยได้เมื่อ (1) <b>ไม่มีการเปลี่ยนแปลงการขับถ่าย</b> และ (2) <b>ตรวจพบรอยโรคที่อธิบายอาการได้</b> · ข้อนี้ความถี่ 3 ครั้ง/วันยังอยู่ในช่วงปกติ แต่<b>สิ่งที่ตรวจพบคือ skin tag ซึ่งไม่ใช่แหล่งเลือดออก</b> และเลือดออกเป็นพักนาน 3 เดือนร่วมกับความถี่ที่เปลี่ยน → ยังไม่มีคำอธิบายของเลือดออก จึงควร<b>ส่องกล้องลำไส้ใหญ่ (colonoscopy)</b> เพื่อหาสาเหตุ · ไฟล์ P'Ing กากบาท <b>1. life style modification</b> โดยให้เหตุผลว่า <b>\"อยู่ใน normal range ∴ no bowel habit change\"</b> และติ๊ก ✓ ทั้งสองข้อ ซึ่งไม่ตรงกับคำตอบนี้",
   "wrong": {
-   "A": "P'Ing: คิดถึงโรคทวารหนักธรรมดาได้เมื่อการขับถ่ายไม่เปลี่ยนและตรวจพบสาเหตุที่อธิบายอาการ — จะถูกถ้าการขับถ่ายคงเดิม และส่องทวารพบริดสีดวงหรือ fissure ที่อธิบายเลือดออกได้ในผู้ป่วยอายุน้อยไม่มีสัญญาณอันตราย",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นริดสีดวงภายในระยะ 3–4 ที่มีอาการ หรือรักษาแบบอื่นไม่ได้ผล หลังตัดสาเหตุอื่นของเลือดออกแล้ว",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าส่องกล้องลำไส้ใหญ่ไม่ได้หรือไม่ครบ (ลำไส้ตีบจนกล้องผ่านไม่ได้) และไม่มี CT colonography",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าปวดท้องร่วมไข้ สงสัย diverticulitis หรือฝีในช่องท้อง หรือใช้ staging มะเร็งที่ยืนยันแล้ว"
+   "A": "ปรับพฤติกรรมเหมาะเมื่อพบแหล่งเลือดออกที่อธิบายได้ (เช่น ริดสีดวงเลือดออก fissure) และไม่มีอาการเตือน (คีย์ในไฟล์ตอบข้อนี้) · จะถูกถ้าตรวจพบริดสีดวงภายในมีเลือดออก ความถี่การถ่ายไม่เปลี่ยน",
+   "B": "ไม่มีข้อบ่งชี้ตัดริดสีดวงเพราะไม่พบริดสีดวงที่ต้องผ่าตัด · จะถูกถ้าพบริดสีดวงระดับ 4 ดันกลับไม่ได้",
+   "C": "Barium enema ถูกแทนที่ด้วย colonoscopy (ดูได้และตัดชิ้นเนื้อได้) · จะถูกถ้าผู้ป่วยส่องกล้องไม่ได้และไม่มี CT colonography",
+   "D": "CT ช่องท้องไม่ไวต่อรอยโรคเยื่อบุลำไส้ · จะถูกถ้าต้องการ staging หลังวินิจฉัยมะเร็งแล้ว"
   },
-  "trap": "skin tag ดูเหมือนสาเหตุ แต่ไม่ทำให้เลือดออก · คีย์เดิม (A) ถือว่าวันละ 3 ครั้งยังปกติ — สิ่งที่ต้องดูคือ \"การเปลี่ยน\" จากเดิม ไม่ใช่ตัวเลขเทียบช่วงปกติ",
+  "trap": "ใช้แค่เกณฑ์ความถี่การถ่าย — ยังต้องดูว่าสิ่งที่ตรวจพบอธิบายเลือดออกได้หรือไม่ (skin tag ไม่ทำให้เลือดออก) · คีย์ในไฟล์ตอบ A",
   "summary": [
-   "<b>นอกสไลด์:</b> change in bowel habit วัดเทียบกับนิสัยเดิมของผู้ป่วยคนนั้น (ถี่ขึ้น เหลวขึ้น ผูกสลับเหลว ลำอุจจาระเล็กลง) ที่เป็นต่อเนื่องหลายสัปดาห์ · มะเร็งลำไส้ใหญ่ในคนอายุน้อยกว่า 50 ปีพบเพิ่มขึ้น อายุจึงไม่ใช่เหตุให้ข้ามการส่องกล้อง"
+   "เลือดออกทางทวารอธิบายด้วยโรคทวารได้เมื่อ: ไม่มีการเปลี่ยนการขับถ่าย + ตรวจพบแหล่งเลือดออก",
+   "ความถี่ปกติ: 3 ครั้ง/สัปดาห์ – 3 ครั้ง/วัน",
+   "Skin tag ไม่ใช่แหล่งเลือดออก",
+   "อาการเตือน: อายุ ≥ 45–50 · การขับถ่ายเปลี่ยน · ซีด · น้ำหนักลด · ประวัติครอบครัว",
+   "ไม่พบแหล่งเลือดออก → colonoscopy",
+   "Anoscopy ช่วยหาริดสีดวงภายใน/ fissure"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (A) — ตอบ E: เลือดออกร่วมการขับถ่ายที่เปลี่ยนจากเดิม และสิ่งที่ตรวจพบ (skin tag) ไม่อธิบายเลือดออก · มั่นใจปานกลางค่อนข้างสูง (โจทย์คู่กับ RoB 78 ตั้งใจให้ข้อนี้เป็นโรคทวารธรรมดา)",
+  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (1 life style modification) — ตอบ E ความมั่นใจปานกลาง เพราะ skin tag ไม่อธิบายเลือดออกเป็นพักนาน 3 เดือน และความถี่การถ่ายเปลี่ยนจากเดิม จึงยังไม่ผ่านเกณฑ์ข้อ 2 ที่ P'Ing ใช้เอง · เทียบกับข้อ 78 ซึ่งมีอาการเตือนชัดกว่า · ต้นฉบับมีช้อยเพียง 1 และ 5 จึงเติม B–D",
+  "mnemonic": "<b>'เลือดออกทางก้น: เจอแหล่งเลือด + การถ่ายไม่เปลี่ยน → รักษาทวาร · ไม่เจอแหล่งเลือด → ส่องกล้อง'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024;67:614); ACG Clinical Guideline: Management of Acute Lower GI Bleeding (Am J Gastroenterol 2023;118:208)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยรายเดียวกันแต่ตรวจพบ fissure ด้านหลังที่อธิบายเลือดออกได้ → ยังต้องส่องกล้อง เพราะการขับถ่ายที่เปลี่ยนไปเป็นสัญญาณอันตรายแยกต่างหาก"
+   "หญิง 30 ปีเลือดสดหยดหลังถ่าย anoscopy เห็นริดสีดวงเลือดออก → ใยอาหาร/ RBL",
+   "หญิง 40 ปีถ่าย 7 ครั้ง/วัน น้ำหนักลด ก้อนในทวาร → colonoscopy + biopsy",
+   "ชาย 55 ปีเลือดออกทางทวาร ไม่เคยคัดกรอง → colonoscopy"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 28 — ตัวพิมพ์: <b>Colo 77.หญิงอายุ 40 ปี CC: bleeding per rectalเป็นๆหายๆ มา 3เดือนไม่มีconstitutional symptoms frequency เปลี่ยนจาก 1ครั้ง/วันเป็น3ครั้ง/วัน ไม่มีประวัติโรคมะเร็งลำไส้ในครอบครัวไม่มีconstitutional symptoms PRพบว่ามีsmall skin tag Q:ควรmanagement อย่างไร — 1.life style modification 2. 3. 4. 5.Colonoscope</b><br>ลายมือ: วง \"3ครั้ง/วัน\" + \"อยู่ใน normal range ∴ no bowel habit change\" + ช่วงปกติ \"3-3 ครั้ง/วัน · ♂ ≥ 3 วัน/สัปดาห์, ♀ ≥ 2 ครั้ง/สัปดาห์\" · \"จะคิดถึง common anorectal diseases ได้เมื่อ ① no bowel habit change ✓ ② PR เจอ presentation ที่อธิบายอาการ ✓\" · กากบาท 1<br>ไฮไลต์: กากบาท 1 (ม่วง) · \"Q:ควรmanagement อย่างไร\" (ม่วง) · ขีดเส้นใต้ \"40 ปี\" \"bleeding per rectalเป็นๆหายๆ มา 3เดือน\" \"frequency เปลี่ยนจาก\" \"PRพบว่ามีsmall skin tag\"<br>ที่ปรับในเว็บ: เว็บตอบ E ต่างจากคีย์ (1) · ช้อย 2–4 ว่าง → เติม B–D",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 28",
+  "kimg": [
+   "fsp_p28",
+   "kp71b_77"
   ]
  },
  "MDCU71|RoB|78": {
-  "interp": "หญิง 40 ปีถ่ายลำบาก 3 เดือน น้ำหนักลด 5 kg ถ่ายวันละ 7 ครั้ง คลำได้ก้อนนูนในช่องทวารที่คลำขอบบนไม่ถึง → สงสัยมะเร็งลำไส้ตรง ถามการจัดการ",
-  "why": "<b>P'Ing กากบาท 5 · 7 ครั้ง/วัน ไม่อยู่ใน normal range ∴ มี bowel habit change</b><br><b>นอกสไลด์:</b> ก้อนที่คลำขอบบนไม่ถึงร่วมน้ำหนักลดและถ่ายบ่อย (tenesmus, เบ่งไม่สุด) คือมะเร็งลำไส้ตรงจนกว่าจะพิสูจน์ได้ → ส่องกล้องตัดชิ้นเนื้อยืนยันก่อนวางแผนรักษา",
+  "interp": "หญิง 40 ปี <b>ถ่ายลำบาก 3 เดือน น้ำหนักลด 5 kg</b> ถ่าย<b>จากวันละ 1 เป็น 7 ครั้ง</b> ตรวจทางทวารพบ skin tag และ<b>ก้อนนูนใน anal canal คลำไม่ถึงขอบบน</b> → ถามการจัดการ",
+  "why": "มี<b>อาการเตือน</b>: การขับถ่ายเปลี่ยนชัด (7 ครั้ง/วัน — tenesmus/ incomplete evacuation), <b>น้ำหนักลด</b>, ถ่ายลำบาก และ<b>คลำได้ก้อนในทวารที่คลำไม่ถึงขอบบน</b> = สงสัย <b>มะเร็งทวารหนัก/ ลำไส้ส่วนปลาย</b> → <b>colonoscopy + biopsy</b> (ดูทั้งลำไส้ หา synchronous lesion) แล้ว staging (MRI pelvis, CT ทรวงอก-ท้อง, CEA) · ไฟล์ P'Ing กากบาท 5 ลายมือ <b>\"ไม่อยู่ใน normal range ∴ มี bowel habit change\"</b> และ \"① no bowel habit change ✗ ② PR เจอ presentation ที่อธิบายอาการ ✓\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าท้องผูกเรื้อรังจากกินใยอาหารน้อย ถ่ายแข็งต้องเบ่ง น้ำหนักไม่ลด และตรวจทวารไม่พบก้อน",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนที่ยื่นเป็นริดสีดวงภายในระยะ 3–4 นุ่ม ขอบบนคลำได้ ไม่มีน้ำหนักลด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นริดสีดวงภายในระยะ 1–3 ที่เลือดออกไม่หายด้วยใยอาหาร",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าคันรอบทวารจากผื่นผิวหนังอักเสบ (eczema/สัมผัสสารระคายเคือง) — ทา steroid อ่อนระยะสั้น"
+   "A": "ปรับพฤติกรรมไม่เหมาะเมื่อมีอาการเตือนและคลำได้ก้อน · จะถูกถ้าหญิงท้องผูกเรื้อรังไม่มีอาการเตือน ตรวจทวารปกติ",
+   "B": "Hemorrhoidectomy ไม่ใช่การรักษาก้อนที่สงสัยมะเร็ง (ต้องได้ชิ้นเนื้อก่อน) · จะถูกถ้าเป็นริดสีดวงระดับ 4 ไม่มีอาการเตือน",
+   "C": "Rubber band ligation ใช้กับริดสีดวงภายในระดับ 1–3 · จะถูกถ้าเลือดออกจากริดสีดวงระดับ 2 หลังส่องกล้องแล้วปกติ",
+   "D": "Topical steroid ใช้ลดอาการริดสีดวง/ ผื่น ไม่ใช่ก้อนที่สงสัยมะเร็ง · จะถูกถ้าคันรอบทวารจากผื่นแพ้"
   },
-  "trap": "ก้อนนูนในช่องทวารคล้ายริดสีดวงยื่น — แต่ริดสีดวงคลำขอบบนได้และไม่ทำให้น้ำหนักลด",
+  "trap": "เห็น skin tag แล้วคิดว่าเป็นโรคทวารธรรมดา — การขับถ่ายเปลี่ยนชัด + น้ำหนักลด + ก้อนในทวาร = มะเร็งจนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
   "summary": [
-   "<b>นอกสไลด์:</b> หลังได้ผลชิ้นเนื้อมะเร็งลำไส้ตรง: MRI เชิงกราน (ความลึก ต่อมน้ำเหลือง ระยะถึงขอบตัด mesorectum และถึงหูรูด) + CT ทรวงอก/ท้อง + CEA → ใช้ตัดสินว่าต้องรักษาก่อนผ่าตัดหรือไม่"
+   "อาการเตือน: การขับถ่ายเปลี่ยน · น้ำหนักลด · ซีด · ก้อน · ถ่ายไม่สุด",
+   "ก้อนในทวาร → colonoscopy + biopsy",
+   "Staging มะเร็งทวารหนัก: MRI pelvis · CT C/A/P · CEA",
+   "Locally advanced rectal cancer → neoadjuvant (TNT) → TME",
+   "มะเร็ง anal canal (SCC) → chemoradiation",
+   "Colonoscopy หา synchronous lesion (~3–5%)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับกากบาท 5 และลายมือในไฟล์ · ต้นฉบับช้อย 2–4 ว่าง จึงเติม B–D",
+  "mnemonic": "<b>'การถ่ายเปลี่ยน + น้ำหนักลด + ก้อน = ส่อง + ตัดชิ้นเนื้อ'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Rectal Cancer v.2025; ASCRS Clinical Practice Guidelines for the Management of Rectal Cancer (Dis Colon Rectum 2023;66:1)",
   "variants": [
-   "<b>นอกสไลด์:</b> MRI พบก้อนลำไส้ตรงห่างขอบทวาร 4 cm ระยะ T3 N1 → โดยทั่วไปให้การรักษาก่อนผ่าตัด (neoadjuvant) แล้วจึงผ่าตัด"
+   "ชาย 60 ปีถ่ายไม่สุด อุจจาระลำเล็ก น้ำหนักลด → colonoscopy + biopsy",
+   "biopsy rectal adenocarcinoma 6 cm จากทวาร → MRI pelvis staging",
+   "หญิง 40 ปีเลือดสดจากริดสีดวง การถ่ายไม่เปลี่ยน → ใยอาหาร"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 28 — ตัวพิมพ์: <b>Colo 78.หญิงอายุ 40 ปี CC: difficulty in defacation มา 3เดือน น้ำหนักลดไป5kg ใน3เดือนจากการที่ไม่อยากทานอาหาร frequency เปลี่ยนจาก 1ครั้ง/วันเป็น7ครั้ง/วัน(หรือเป็น 7วันครั้งมั้งไม่แน่ใจ) ไม่มีประวัติโรคมะเร็งลำไส้ในครอบครัว PRพบว่ามีsmall skin tag มีbulgingในanal canal ไม่สามารถ get above mass ได้ Q:ควรmanagement อย่างไร — 1.life style modification 2. 3. 4. 5.Colonoscope</b><br>ลายมือ: วง \"7ครั้ง/วัน\" + \"ไม่อยู่ใน normal range ∴ มี bowel habit change\" + ช่วงปกติ \"3-3 ครั้ง/วัน · ♂ ≥ 3 วัน/สัปดาห์, ♀ ≥ 2 ครั้ง/สัปดาห์\" · \"จะคิดถึง common anorectal diseases ได้เมื่อ ① no bowel habit change ✗ ② PR เจอ presentation ที่อธิบายอาการ ✓\" · กากบาท 5<br>ไฮไลต์: กากบาท 5 (ม่วง) · \"Q:ควรmanagement อย่างไร\" (ม่วง) · ขีดเส้นใต้ \"difficulty in defacation มา 3เดือน น้ำหนักลดไป5kg\" \"frequency เปลี่ยนจาก 1ครั้ง/วันเป็น7ครั้ง/วัน\" \"PRพบว่ามีsmall skin tag มีbulgingในanal canal ไม่สามารถ get above mass ได้\"<br>ที่ปรับในเว็บ: ช้อย 2–4 ว่าง → เติม B–D · E เขียนเป็น colonoscopy with biopsy",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 28",
+  "kimg": [
+   "fsp_p28",
+   "kp71b_78"
   ]
  },
  "MDCU71|RoB|84": {
-  "interp": "มะเร็ง SCC ของ anal canal ขนาด 2 × 3 cm ยึดติดหูรูด (ยืนยันจากชิ้นเนื้อ) → ถามการรักษาที่เหมาะสม",
-  "why": "<b>P'Ing กากบาท 1 APR · fixation to the sphincter → APR</b> — ข้อนี้ตอบ C<br><b>นอกสไลด์:</b> SCC ของ anal canal ตอบสนองต่อรังสีร่วมเคมีบำบัดดีมาก (Nigro: รังสี + 5-FU หรือ capecitabine + mitomycin) หายได้ส่วนใหญ่โดยเก็บหูรูดไว้ แม้ก้อนยึดหูรูด · APR เก็บไว้สำหรับก้อนที่เหลือหรือกลับเป็นซ้ำ",
+  "interp": "ก้อนขนาด 2 × 3 cm <b>ติดกับหูรูดทวาร</b> ผลชิ้นเนื้อเป็น <b>well-differentiated squamous cell carcinoma ของ anal canal</b> → ถามการรักษา",
+  "why": "<b>มะเร็ง anal canal ชนิด SCC</b> (สัมพันธ์กับ HPV) รักษามาตรฐานด้วย <b>chemoradiation (Nigro protocol: 5-FU/ capecitabine + mitomycin C ร่วมกับรังสี)</b> ซึ่งหายขาดได้ ~70–80% และ<b>เก็บหูรูดไว้ได้</b> แม้ก้อนติดหูรูด · <b>APR สงวนไว้</b>สำหรับโรคที่เหลือหลัง chemoradiation (ประเมินถึง 26 สัปดาห์) หรือกลับเป็นซ้ำ · local excision ใช้กับ anal margin ขนาดเล็ก (T1 ≤ 2 cm) แยกตัวดี · ต่างจาก adenocarcinoma ของ rectum ที่ใช้ผ่าตัด TME · ไฟล์ P'Ing กากบาท <b>1. APR</b> และแปะสไลด์ \"Surgical options — fixation to the sphincter : APR\" ซึ่ง<b>ไม่ตรงกับคำตอบนี้</b> (สไลด์นั้นเป็นของมะเร็ง rectum ชนิด adenocarcinoma)",
   "wrong": {
-   "A": "P'Ing: fixation to the sphincter → APR — <b>นอกสไลด์:</b> จะถูกถ้ามะเร็งยังเหลือหรือกลับเป็นซ้ำเฉพาะที่หลังได้ chemoradiation ครบและติดตามจนยืนยันแล้ว (salvage APR)",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การตัดต่อลำไส้แบบเก็บหูรูดเป็นการรักษามะเร็ง anal canal เพราะมะเร็งอยู่ในส่วนที่ต้องตัดทิ้งเอง ถ้าต้องผ่าตัดจึงต้องเอาหูรูดออกทั้งหมด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น SCC ที่ขอบทวาร (anal margin) ขนาดเล็กราว 2 cm ลงมา well-differentiated ไม่ลุกหูรูดและไม่มีต่อมน้ำเหลือง — ตัดเฉพาะที่โดยเว้นขอบพอ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การฝังแร่อย่างเดียวเป็นการรักษาหลักของมะเร็ง anal canal เพราะต้องฉายครอบคลุมต่อมน้ำเหลืองเชิงกรานและขาหนีบร่วมเคมีบำบัด ฝังแร่ใช้แค่เพิ่มขนาดรังสีเฉพาะจุด"
+   "A": "APR ใช้กับ SCC ที่เหลือ/ กลับเป็นซ้ำหลัง chemoradiation หรือ adenocarcinoma ของ rectum ส่วนล่างที่ติดหูรูด (คีย์ในไฟล์ตอบข้อนี้) · จะถูกถ้า anal SCC ยังเหลือก้อนหลัง chemoradiation ครบ 26 สัปดาห์ หรือ rectal adenocarcinoma ลุกลามหูรูด",
+   "B": "LAR with coloanal anastomosis เป็นการผ่าตัดเก็บหูรูดของ rectal adenocarcinoma · จะถูกถ้ามะเร็ง rectum ส่วนล่าง (adenocarcinoma) ห่างหูรูดพอหลัง neoadjuvant",
+   "D": "Wide local excision ใช้กับ anal margin SCC ขนาดเล็ก ≤ 2 cm ไม่ลุกลามหูรูด · จะถูกถ้า SCC ที่ขอบทวาร (perianal skin) 1.5 cm แยกตัวดี ต่อมน้ำเหลืองไม่โต",
+   "E": "Brachytherapy อย่างเดียวไม่ใช่มาตรฐาน · จะถูกถ้าใช้เป็น boost เสริมหลัง external beam ในบางสถาบัน"
   },
-  "trap": "\"fixed to the anal sphincter\" ชวนให้ตอบ APR (คีย์ในไฟล์) ตามหลักมะเร็งลำไส้ตรง — แต่ SCC ของ anal canal ใช้ chemoradiation เป็นการรักษาแรก",
+  "trap": "ใช้หลักของ rectal adenocarcinoma (ติดหูรูด → APR) กับ anal SCC — anal SCC รักษาด้วย chemoradiation ก่อนเสมอ · คีย์ในไฟล์ตอบ APR",
   "summary": [
-   "<b>นอกสไลด์:</b> ส่วนที่ต่ำกว่า dentate line ลามไปต่อมน้ำเหลืองขาหนีบ ส่วนที่เหนือกว่าลามไป perirectal/internal iliac จึงต้องตรวจขาหนีบทุกราย · ปัจจัยเสี่ยง: HPV, HIV, ภูมิคุ้มกันต่ำ, anal intercourse"
+   "Anal canal SCC: HPV · HIV · ภูมิต่ำ · receptive anal intercourse",
+   "มาตรฐาน: chemoradiation (5-FU/ capecitabine + mitomycin + RT) — Nigro",
+   "ประเมินผลถึง 26 สัปดาห์ (ก้อนยุบช้า)",
+   "เหลือ/ กลับเป็นซ้ำ → salvage APR",
+   "Anal margin T1 ≤ 2 cm แยกตัวดี → local excision",
+   "ต่อมน้ำเหลืองขาหนีบ → รวมในลำรังสี"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (A APR) — ตอบ C: chemoradiation เป็นการรักษามาตรฐานแรกของ SCC ของ anal canal ที่ไม่แพร่กระจาย · มั่นใจสูง",
+  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (1 APR) — ตอบ C chemoradiation ความมั่นใจสูง เพราะ anal canal SCC รักษามาตรฐานด้วย chemoradiation แม้ก้อนติดหูรูด (NCCN/ ESMO) APR สงวนไว้สำหรับ salvage · สไลด์ที่ P'Ing แปะเป็นหลักการของ rectal adenocarcinoma",
+  "mnemonic": "<b>'Anal SCC = ฉายแสง + เคมี (Nigro) · APR ไว้กู้ภัย'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Anal Carcinoma v.2025; ESMO–ESSO–ESTRO Clinical Practice Guidelines for Anal Cancer (Ann Oncol 2021;32:1087)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง chemoradiation 8 สัปดาห์ ก้อนยังเหลือแต่เล็กลงเรื่อย ๆ → ติดตามต่อจนราว 26 สัปดาห์ก่อนตัดสินว่าเหลือ ไม่รีบ APR (ก้อนยุบช้า)"
+   "anal SCC 4 cm ต่อมน้ำเหลืองขาหนีบบวก → chemoradiation รวมขาหนีบ",
+   "หลัง chemoradiation 26 สัปดาห์ยังมีก้อน biopsy บวก → salvage APR",
+   "rectal adenocarcinoma 2 cm จากขอบทวาร ลุกลามหูรูดหลัง neoadjuvant → APR"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 28 — ตัวพิมพ์: <b>Colo 84. Tumor sized 2*3 cm fixed to anal sphincter. Post-op pathological diagnosis is found to be well-differentiated squamous cell carcinoma. What is the appropriate management? — 1.Abdominoperitoneal resection 2.Lower anterior resection with coloanal anastomosis 3.Chemoradiation 4.Wide excision with free margins 5.Brachytherapy</b><br>ลายมือ: กากบาท 1<br>ไฮไลต์: กากบาท 1 (ม่วง) · \"What is the appropriate management?\" (ม่วง) · ขีดเส้นใต้ \"Tumor sized 2*3 cm fixed to anal sphincter\" \"well-differentiated squamous cell carcinoma\"<br>รูปที่แปะ: สไลด์ Surgical options — Depends on the location of tumor and sphincter involvement (rectal examination) · Fixation to the sphincter : APR · Palpable, no fixation : LAR or Coloanal · Not palpable : LAR, AR (ลายมือเล็ก)<br>ที่ปรับในเว็บ: เว็บตอบ 3 ต่างจากคีย์ (1)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 28",
+  "kimg": [
+   "fsp_p28",
+   "kp71b_84"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 1": {
-  "interp": "ข้อใดเป็นข้อห้ามของ IVP (ฉีดสารทึบรังสีทางหลอดเลือดแล้วถ่ายภาพไต–ท่อไต)",
-  "why": "<b>P'Ing กากบาท A · Excretory urography contraindication: abnormal renal function GFR &lt; 45 mL/min/1.73 m²</b><br><b>นอกสไลด์:</b> สารทึบรังสีขับออกทางไต — ไตเสื่อมเสี่ยงไตวายเฉียบพลันจากสารทึบรังสี และไตที่ทำงานน้อยขับสารได้ไม่พอให้เห็นภาพ",
+  "interp": "ถาม<b>ข้อห้าม</b>ของการทำ intravenous pyelography (IVP/ excretory urography)",
+  "why": "IVP ใช้<b>สารทึบรังสีชนิดไอโอดีนทางหลอดเลือด</b> ซึ่งขับทางไต → ข้อห้าม/ ข้อควรระวังสำคัญคือ<b>การทำงานของไตบกพร่อง</b> (เสี่ยง contrast-associated AKI และภาพไม่ชัดเพราะไตขับสีได้น้อย) · Cr 2 mg/dL มัก eGFR &lt; 45 · ข้อห้ามอื่น: แพ้สารทึบรังสี, ตั้งครรภ์, myeloma, ระวัง metformin · ข้อบ่งชี้ (ไม่ใช่ข้อห้าม): ปัสสาวะเป็นเลือด, ปวดบิดท่อไต, ประเมินทางเดินปัสสาวะส่วนบนในมะเร็งกระเพาะปัสสาวะ · ไฟล์ P'Ing กากบาท A และแปะสไลด์ <b>\"Excretory Urography (ExU) — Contraindication: Abnormal renal function : GFR &lt; 45 ml/min/1.73 m²\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อาการปวดนิ่วท่อไตเป็นข้อห้าม IVP เพราะ IVP เคยเป็นการตรวจมาตรฐานหาตำแหน่งนิ่วและการอุดตันก่อนยุค CT",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ปัสสาวะเป็นเลือดเป็นข้อห้าม IVP เพราะปัสสาวะเป็นเลือดคือข้อบ่งชี้ให้ตรวจทางเดินปัสสาวะส่วนบน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การสงสัยเนื้องอกเยื่อบุทางเดินปัสสาวะเป็นข้อห้าม IVP เพราะการตรวจนี้ใช้หารอยเว้า (filling defect) ในกรวยไตและท่อไต — ปัจจุบันใช้ CT urography แทน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ไตข้างเดียวเป็นข้อห้ามโดยตัวมันเอง เพราะความเสี่ยงจากสารทึบรังสีขึ้นกับ GFR ไม่ใช่จำนวนไต"
+   "B": "ปวดบิดท่อไตเป็นข้อบ่งชี้ (สไลด์ \"Hematuria: painless or painful (ureteric colic)\") · จะถูกถ้าคำถามถามข้อบ่งชี้ของ IVP ในยุคก่อน NCCT",
+   "C": "Hematuria เป็นข้อบ่งชี้ ไม่ใช่ข้อห้าม (สไลด์ Indications) · จะถูกถ้าคำถามถามข้อบ่งชี้ของ excretory urography",
+   "D": "ประเมินทางเดินส่วนบนในมะเร็ง urothelial เป็นข้อบ่งชี้ (สไลด์ \"Evaluation upper urinary tract in case of urothelial cancer of urinary bladder\") · จะถูกถ้าคำถามถามข้อบ่งชี้",
+   "E": "ไตข้างเดียวที่ทำงานปกติไม่ใช่ข้อห้าม (แต่ต้องระวังการทำงานของไต) · จะถูกถ้าไตข้างเดียวนั้นมี eGFR &lt; 30"
   },
-  "trap": "creatinine 2 mg/dL ดูไม่สูงมาก — แต่ส่วนใหญ่เท่ากับ GFR ต่ำกว่าเกณฑ์ (ยิ่งในผู้สูงอายุ ผู้หญิง คนตัวเล็ก) ต้องแปลงเป็น eGFR เสมอ",
+  "trap": "คิดว่าเลือดออกหรือไตข้างเดียวเป็นข้อห้าม — ข้อห้ามหลักคือไตทำงานไม่ดีและแพ้สารทึบรังสี",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อห้าม/ข้อควรระวังของสารทึบรังสีไอโอดีน: GFR ต่ำ · เคยแพ้สารทึบรังสีรุนแรง · metformin ให้หยุดเมื่อ eGFR ต่ำมากหรือมีไตวายเฉียบพลัน"
+   "IVP ข้อห้าม: ไตเสื่อม (eGFR &lt; 45) · แพ้สารทึบรังสี · ตั้งครรภ์",
+   "ระวัง: metformin · myeloma · ขาดน้ำ",
+   "ข้อบ่งชี้เดิม: hematuria · renal colic · ประเมิน upper tract",
+   "ปัจจุบันแทนด้วย CT urography/ NCCT (นิ่ว)",
+   "เตรียม: NPO · ยาระบาย",
+   "ไตเสื่อม → MR urography (ระวัง gadolinium) / RPG + US"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับกากบาท A และสไลด์ในไฟล์ · ต้นฉบับช้อย B, D ว่าง จึงเติมจากข้อบ่งชี้ในสไลด์",
+  "mnemonic": "<b>'ฉีดสีขับทางไต = ไตต้องดี (eGFR ≥ 45)'</b>",
+  "guide": "ACR Manual on Contrast Media (2024); ESUR Guidelines on Contrast Agents v.10",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยไตเสื่อม GFR 25 สงสัยก้อนในกรวยไต → ส่องกล้องฉีดสารทึบเข้าท่อไตย้อนขึ้นไป (retrograde pyelography) สารแทบไม่เข้ากระแสเลือด",
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ปวดสีข้างสงสัยนิ่ว → US ไตเป็นอันดับแรก เลี่ยงรังสี"
+   "ผู้ป่วย eGFR 25 hematuria → MR urography/ RPG + US",
+   "ผู้ป่วยแพ้สารทึบรังสีรุนแรง → หลีกเลี่ยง หรือ premedication",
+   "สงสัยนิ่วท่อไต → NCCT ไม่ฉีดสี"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 28 — ตัวพิมพ์: <b>Uro xx.Contraindication ของ IVP — A. Serum Cr = 2 B. C. Active hematuria D. E. Single functioning kidney</b><br>ลายมือ: กากบาท A<br>ไฮไลต์: กากบาท A (ฟ้า) · \"Contraindication\" (ฟ้า) · ขีดเส้นใต้ \"IVP\"<br>รูปที่แปะ: สไลด์ Excretory Urography (ExU) — Indications: Hematuria (painless or painful (ureteric colic), microscopic or macroscopic (gross)) · Abdominal pain : with abnormal urination · Evaluation upper urinary tract in case of urothelial cancer of urinary bladder · สไลด์ Excretory Urography (ExU) — Contraindication: Abnormal renal function : GFR &lt; 45 ml/min/1.73 m² · Patient preparation: NPO AMN, Laxative drugs<br>ที่ปรับในเว็บ: ช้อย B, D ว่าง → เติม ureteric colic และ suspected urothelial tumor",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 28",
+  "kimg": [
+   "fsp_p28",
+   "kp71b_x1"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 2": {
-  "interp": "รอยโรคผิวหนังใดเป็นรอยโรคก่อนมะเร็ง",
-  "why": "<b>P'Ing กากบาท 2 · actinic keratosis, Bowen's disease → SCC · nevus sebaceous of Jadassohn → basal cell CA</b><br><b>นอกสไลด์:</b> solar (actinic) keratosis เป็นผื่นสากเป็นขุยบนผิวที่ถูกแดดนาน เซลล์ผิดปกติในชั้น epidermis บางส่วนกลายเป็น SCC",
+  "interp": "ถามรอยโรคผิวหนังที่เป็น <b>premalignant lesion</b>",
+  "why": "<b>Solar (actinic) keratosis</b> = ผื่นแดงหยาบมีขุยบนผิวที่โดนแดดเรื้อรัง (หน้า หลังมือ หนังศีรษะล้าน) เป็น<b>รอยโรคก่อนมะเร็งของ squamous cell carcinoma</b> · รอยโรคก่อนมะเร็งอื่น: <b>Bowen's disease</b> (SCC in situ) → SCC, <b>nevus sebaceous of Jadassohn</b> → BCC, lichen sclerosus, leukoplakia, แผลเป็นไฟไหม้เรื้อรัง (Marjolin) · รักษา AK: cryotherapy, 5-FU/ imiquimod ทา, photodynamic therapy · ไฟล์ P'Ing กากบาท 2 ลายมือ <b>\"= Actinic keratosis\"</b> และแผนผัง <b>\"Premalignant lesion — Actinic keratosis, Bowen's disease → SCC · Nevus sebaceous of Jadassohn → Basal cell CA\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"syringoma เป็นรอยโรคก่อนมะเร็ง\" เป็นจริง เพราะเป็นเนื้องอกไม่ร้ายของท่อต่อมเหงื่อ (ตุ่มเล็กสีเนื้อใต้ตา)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"seborrheic keratosis เป็นรอยโรคก่อนมะเร็ง\" เป็นจริง เพราะตัวรอยโรคไม่ร้าย — การขึ้นจำนวนมากทันที (Leser–Trélat sign) เป็นเครื่องหมายของมะเร็งภายใน ไม่ใช่การกลายเป็นมะเร็ง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นไฝแต่กำเนิดขนาดใหญ่ (คาดว่าโตเป็น 20 cm ขึ้นไปในผู้ใหญ่) ซึ่งเสี่ยงกลายเป็น melanoma",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"dermatofibroma เป็นรอยโรคก่อนมะเร็ง\" เป็นจริง เพราะเป็นพังผืดไม่ร้ายจากการบาดเจ็บเล็ก ๆ (บุ๋มเมื่อบีบ) — DFSP เป็นมะเร็งอีกโรคหนึ่ง ไม่ได้กลายมาจากมัน"
+   "A": "Syringoma เป็นเนื้องอกไม่ร้ายของต่อมเหงื่อ ตุ่มเล็กสีเนื้อรอบตา · จะถูกถ้าคำถามถามตุ่มเล็กสีเนื้อหลายตุ่มที่เปลือกตาล่างในหญิง",
+   "C": "Seborrheic keratosis เป็นก้อนไม่ร้าย \"แปะติด\" สีน้ำตาล-ดำ ผิวขรุขระ · จะถูกถ้าคำถามถามรอยโรคไม่ร้ายที่พบบ่อยในผู้สูงอายุ (แต่ขึ้นทันทีจำนวนมาก = Leser-Trélat บ่งมะเร็งภายใน)",
+   "D": "Compound nevus เป็นไฝไม่ร้าย (ไฝ dysplastic/ congenital ขนาดใหญ่จึงเสี่ยง melanoma) · จะถูกถ้าคำถามถาม giant congenital melanocytic nevus ซึ่งเสี่ยง melanoma",
+   "E": "Dermatofibroma เป็นตุ่มแข็งไม่ร้ายที่ขา กดแล้วบุ๋ม (dimple sign) · จะถูกถ้าคำถามถามตุ่มแข็งที่ขากดแล้วบุ๋มหลังแมลงกัด"
   },
-  "trap": "seborrheic keratosis กับ solar keratosis ชื่อคล้ายกัน — seborrheic = ตุ่มนูนแปะบนผิวเหมือนขี้ผึ้ง (ไม่ร้าย) · solar = ผื่นสากบนผิวที่ถูกแดด (ก่อนมะเร็ง)",
+  "trap": "สับสน seborrheic keratosis กับ actinic (solar) keratosis — solar/ actinic เท่านั้นที่เป็นก่อนมะเร็ง",
   "summary": [
-   "<b>นอกสไลด์:</b> actinic keratosis โอกาสกลายต่อรอยต่ำแต่มักมีหลายรอย → รักษาด้วยจี้เย็น หรือยาทา 5-FU/imiquimod และป้องกันแดด · Bowen's disease คือ SCC in situ"
+   "Actinic keratosis → SCC (premalignant)",
+   "Bowen's disease = SCC in situ",
+   "Nevus sebaceous of Jadassohn → BCC (และเนื้องอกอื่น)",
+   "Marjolin ulcer: SCC ในแผลเป็นเรื้อรัง",
+   "Giant congenital nevus/ dysplastic nevus → melanoma",
+   "Seborrheic keratosis ไม่ร้าย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับกากบาท 2 และลายมือในไฟล์ · ต้นฉบับช้อย 3, 5 ว่าง จึงเติม C, E",
+  "mnemonic": "<b>'Actinic = แดดเผา → SCC · Jadassohn → BCC'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Squamous Cell Skin Cancer v.2025; British Association of Dermatologists Guidelines for the Management of Actinic Keratosis 2017",
   "variants": [
-   "<b>นอกสไลด์:</b> actinic keratosis ที่หลังมือเริ่มหนาขึ้น เจ็บ โตเร็ว มีแผล → ตัดชิ้นเนื้อหา SCC"
+   "ชาวนาสูงอายุ ผื่นแดงมีขุยหยาบที่หน้าหลายจุด → actinic keratosis → cryotherapy",
+   "เด็กมีปื้นสีเหลืองไม่มีผมที่หนังศีรษะ → nevus sebaceous → พิจารณาตัดออก",
+   "ผู้สูงอายุ seborrheic keratosis ขึ้นจำนวนมากทันที → หามะเร็งภายใน (Leser-Trélat)"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 28 — ตัวพิมพ์: <b>Plastic xx.อะไรเป็น Premalignant lesion — 1.Xyringoma 2.Solar keratosis 3. 4.compound nervus 5. (Ans Solar keratosis)</b><br>ลายมือ: 2 \"= Actinic keratosis\" · แผนผัง \"Premalignant lesion — Actinic keratosis, Bowen's disease → SCC · Nervus sebaceous of Jadassohn → Basal cell CA\" · กากบาท 2<br>ไฮไลต์: กากบาท 2 (ฟ้า) · \"อะไร\" (ฟ้า) · ขีดเส้นใต้ \"Premalignant lesion\"<br>ที่ปรับในเว็บ: ช้อย 3, 5 ว่าง → เติม seborrheic keratosis และ dermatofibroma",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 28",
+  "kimg": [
+   "fsp_p28",
+   "kp71b_x2"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 3": {
-  "interp": "ผู้ป่วยเบาหวานเคยมีแผลไฟไหม้ที่ส้นเท้าเมื่อ 30 ปีก่อน หายแล้ว ตอนนี้มีแผลไม่หายเกิดในแผลเป็นเดิม → สงสัยอะไร",
-  "why": "<b>P'Ing กากบาท A · malignant lesion</b><br><b>นอกสไลด์:</b> Marjolin ulcer คือมะเร็ง (ส่วนใหญ่ SCC) ที่เกิดในแผลเป็นไฟไหม้หรือแผลเรื้อรังหลังผ่านไปหลายสิบปี — แผลใหม่ในแผลเป็นเก่าที่ไม่หายต้องคิดถึงก่อนแม้ผู้ป่วยเป็นเบาหวาน",
+  "interp": "ผู้ป่วยเบาหวาน เคยมี<b>แผลที่ส้นเท้า 30 ปีก่อน หายแล้ว</b> ตอนนี้มี<b>แผลไม่หายเกิดบนแผลเป็นเดิม</b> → ถามว่าสงสัยอะไร",
+  "why": "แผลเรื้อรังที่<b>เกิดบนแผลเป็นเก่า</b> (โดยเฉพาะแผลไฟไหม้/ แผลเรื้อรัง) หลังหลายปี–หลายสิบปี = <b>Marjolin ulcer</b> — มะเร็งผิวหนังที่เกิดในแผลเป็นเรื้อรัง ส่วนใหญ่เป็น <b>squamous cell carcinoma</b> (รุนแรง กระจายต่อมน้ำเหลืองบ่อยกว่า SCC ทั่วไป) · ลักษณะ: แผลไม่หาย ขอบนูนม้วน ก้นแผลเป็นเม็ด มีกลิ่น เลือดออกง่าย · ต้อง <b>biopsy (ขอบแผลหลายจุด)</b> แล้วตัดกว้าง ± ต่อมน้ำเหลือง · ไฟล์ P'Ing กากบาท A ลายมือ <b>\"→ malignant lesion\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าแผลอยู่ที่จุดรับน้ำหนัก (ใต้ฝ่าเท้าตรงหัวกระดูก metatarsal) ขอบหนาด้าน ไม่เจ็บ ชาเป็นแบบถุงเท้า และไม่มีประวัติแผลเป็นเดิม",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าแผลตื้นขอบไม่เรียบเหนือตาตุ่มด้านใน ร่วมขาบวม ผิวคล้ำแข็ง และเส้นเลือดขอด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยติดเตียง แผลที่ส้นเกิดภายในไม่กี่วันถึงสัปดาห์จากการกดทับ เริ่มจากผิวแดงที่กดแล้วไม่จาง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยโรคลำไส้อักเสบหรือข้ออักเสบรูมาตอยด์มีแผลลุกลามเร็ว เจ็บมาก ขอบม่วงเซาะใต้ขอบ และแย่ลงหลังตัดเนื้อ (pathergy)"
+   "B": "แผลเบาหวานจากปลายประสาทเสื่อมเกิดที่จุดรับน้ำหนัก (หัวกระดูกฝ่าเท้า ส้น) ได้ แต่การเกิดบนแผลเป็นเก่า 30 ปีต้องคิดถึงมะเร็งก่อน · จะถูกถ้าผู้ป่วยเบาหวานชาเท้า แผลใหม่ที่หัวกระดูกฝ่าเท้า ขอบหนา ไม่เจ็บ",
+   "C": "แผลหลอดเลือดดำเกิดที่ข้อเท้าด้านใน (gaiter area) มีผิวคล้ำ บวม เส้นเลือดขอด · จะถูกถ้าผู้ป่วยเส้นเลือดขอด ขาบวม ผิวคล้ำ แผลตื้นที่ตาตุ่มใน",
+   "D": "แผลกดทับเกิดที่ปุ่มกระดูกในผู้ติดเตียง · จะถูกถ้าผู้ป่วยอัมพาตติดเตียงมีแผลที่ส้นเท้าและก้นกบ",
+   "E": "Pyoderma gangrenosum แผลลุกลามเร็ว ขอบม่วงเซาะ สัมพันธ์กับ IBD (pathergy) · จะถูกถ้าผู้ป่วย UC มีแผลลุกลามเร็วขอบม่วงหลังเข็มตำ"
   },
-  "trap": "เบาหวานทำให้นึกถึงแผลเบาหวาน — ตัวชี้คือแผลเกิดในแผลเป็นไฟไหม้เก่าหลายสิบปี",
+  "trap": "คิดว่าเป็นแผลเบาหวานธรรมดา — แผลบนแผลเป็นเก่าหลายสิบปี = Marjolin ulcer ต้อง biopsy",
   "summary": [
-   "<b>นอกสไลด์:</b> ลักษณะชวนสงสัย: แผลในแผลเป็นเก่าที่ไม่หาย ขอบนูนแข็ง ม้วนออก เนื้อนูนเลือดออกง่าย กลิ่นเหม็น → ตัดชิ้นเนื้อหลายจุด (ขอบและกลางแผล) · รักษาด้วยตัดกว้าง ตรวจต่อมน้ำเหลืองที่ระบาย (ลุกลามมากกว่า SCC ทั่วไป)"
+   "Marjolin ulcer: มะเร็งในแผลเป็น/ แผลเรื้อรัง (ไฟไหม้, osteomyelitis, แผลกดทับ)",
+   "ส่วนใหญ่ SCC · ระยะแฝงเฉลี่ยหลายสิบปี",
+   "แผลเรื้อรังไม่หาย/ เปลี่ยนลักษณะ → biopsy หลายจุด",
+   "รักษา: wide excision (2 cm) ± lymph node evaluation",
+   "รุนแรงกว่า SCC ทั่วไป · กระจายต่อมน้ำเหลืองบ่อย",
+   "ป้องกัน: ปิดแผลไฟไหม้ลึกด้วย graft แต่เนิ่น"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับกากบาท A และลายมือในไฟล์ · ต้นฉบับมี 2 ช้อย จึงเติม C, D, E",
+  "mnemonic": "<b>'แผลใหม่บนแผลเป็นเก่า = Marjolin (มะเร็งแอบในแผลเป็น)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Squamous Cell Skin Cancer v.2025; Grabb and Smith's Plastic Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยกระดูกอักเสบเรื้อรังมีหนองไหลจากรูที่ขามา 20 ปี เริ่มมีเนื้อนูนเลือดออกง่ายที่ปากรู → Marjolin ulcer ตัดชิ้นเนื้อ"
+   "แผลเป็นไฟไหม้ที่ขาตั้งแต่เด็ก 40 ปีต่อมาเป็นแผลไม่หาย → biopsy (SCC)",
+   "แผลเรื้อรังจาก chronic osteomyelitis มีก้อนเนื้องอกที่รูหนอง → Marjolin ulcer",
+   "ผู้ป่วยเบาหวานแผลที่หัวกระดูกฝ่าเท้าใหม่ → offloading + ทำแผล"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 28 — ตัวพิมพ์: <b>Plastic xx.Pt. DM เคยมีแผล DM ที่ตีน 30 yr ago หายละ ละคราวนี้มีแผลมาบนแผลเป็นที่ตีน ถามว่าสงสัยอะไร — A. Majorlin ulcer B. DM ulcer</b><br>ลายมือ: A \"→ malignant lesion\" · กากบาท A<br>ไฮไลต์: กากบาท A (ฟ้า) · \"ถามว่าสงสัยอะไร\" (ฟ้า) · ขีดเส้นใต้แดง \"Pt. DM\" \"แผล DM ที่ตีน\" \"มีแผลมาบนแผลเป็นที่ตีน\"<br>ที่ปรับในเว็บ: ต้นฉบับมี 2 ช้อย → เติม C, D, E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 28",
+  "kimg": [
+   "fsp_p28",
+   "kp71b_x3"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 4": {
-  "interp": "ข้อ LEAST: ภาพใดพบน้อยที่สุดใน acute aortic syndrome → หาสิ่งที่ไม่ใช่ลักษณะหรือภาวะแทรกซ้อนของโรค",
-  "why": "<b>P'Ing ไม่กากบาท (highlight D) · แปะตาราง anatomic complications of aortic dissection — A–D เกิดได้ทั้งหมด</b> · ช้อย E เติมภายหลัง<br><b>นอกสไลด์:</b> ลมในช่องท้องไม่ใช่ลักษณะของโรค aorta — จะเห็นก็ต่อเมื่อลำไส้ขาดเลือดจากแขนง mesenteric ถูกอุดจนทะลุในระยะท้าย",
+  "interp": "ภาพของ <b>acute aortic syndrome</b> ถามสิ่งที่<b>ไม่น่าจะพบ</b>",
+  "why": "Acute aortic syndrome (dissection, IMH, PAU) ทำให้พบในภาพได้: <b>intimal flap</b> (ลักษณะเด่นของ dissection), <b>branch-vessel malperfusion</b> (coronary, carotid, mesenteric, renal, iliac), <b>pericardial effusion/ tamponade</b> (type A แตกเข้าถุงหุ้มหัวใจ), <b>pleural effusion/ hemothorax</b> (การอักเสบ หรือรั่ว) · ส่วน<b>ลมอิสระในช่องท้อง (pneumoperitoneum)</b> เป็นลักษณะของกระเพาะ/ ลำไส้ทะลุ ไม่ใช่ผลของ aortic syndrome (แม้ mesenteric malperfusion จะทำให้ลำไส้ขาดเลือดได้ ก็พบในระยะท้ายมาก) · ไฟล์<b>ไม่มีคีย์</b> P'Ing ไฮไลต์ช้อย D และแปะ <b>ตาราง Anatomic complications of aortic dissection and their associated symptoms and signs</b> ซึ่งแสดงว่า A–D เกิดได้ทั้งหมด ช้อย E ต้นฉบับว่าง",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ intimal flap พบน้อยกว่าลมในช่องท้องใน acute aortic syndrome เพราะ flap คือรอยโรคหลักของ dissection ซึ่งเป็นสัดส่วนส่วนใหญ่ของ acute aortic syndrome",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อวัยวะขาดเลือดจากแขนงหลอดเลือดพบน้อยกว่าลมในช่องท้อง เพราะการที่ false lumen กดหรือแผ่นผนังปิดปากแขนง (ไต ลำไส้ ขา) เป็นภาวะแทรกซ้อนที่พบบ่อย",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่น้ำในเยื่อหุ้มหัวใจพบน้อยกว่าลมในช่องท้อง เพราะ type A รั่วเลือดเข้าเยื่อหุ้มหัวใจได้บ่อยและเป็นสาเหตุตายสำคัญ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่น้ำในช่องเยื่อหุ้มปอดพบน้อยกว่าลมในช่องท้อง เพราะเกิดได้ทั้งจากการอักเสบของผนัง aorta (มักฝั่งซ้าย) และจากการรั่ว"
+   "A": "Intimal flap เป็นลักษณะหลักของ dissection บน CTA · จะถูกถ้าคำถามถามสิ่งที่ไม่พบใน intramural hematoma (IMH ไม่มี flap/ ไม่มี entry tear)",
+   "B": "Malperfusion พบได้ (ตารางในไฟล์: coronary, cerebral, spinal, mesenteric, renal, limb) · จะถูกถ้าคำถามถาม dissection ที่จำกัดเฉพาะ ascending aorta ไม่ลามแขนง",
+   "C": "Pericardial effusion พบใน type A (tamponade) · จะถูกถ้าคำถามถาม type B ที่จำกัดใต้ subclavian artery",
+   "D": "Pleural effusion พบได้ (อักเสบหรือ hemothorax) — ช้อยที่ P'Ing ไฮไลต์ · จะถูกถ้าคำถามถามสิ่งที่พบน้อยใน dissection ที่จำกัดเฉพาะช่องท้อง"
   },
-  "trap": "ช้อย A–D ทุกตัวเกิดได้จริงตามตารางในคีย์ (คีย์ไม่มีคำตอบ highlight แค่ D) — อย่าเลือก pleural effusion เพราะคิดว่าเป็นอวัยวะไกล",
+  "trap": "เลือก pleural effusion เพราะคิดว่าไม่เกี่ยว — effusion พบได้ทั้งเยื่อหุ้มปอดและเยื่อหุ้มหัวใจ · ไฟล์ไม่มีคีย์ ช้อย E ต้นฉบับว่าง",
   "summary": [
-   "<b>นอกสไลด์:</b> CTA aorta ตั้งแต่ทรวงอกถึงเชิงกราน = การตรวจหลัก (ผู้ป่วยไม่คงที่ใช้ TEE ข้างเตียง) · type A: ดูน้ำในเยื่อหุ้มหัวใจ (tamponade ราว 15–19%), AR, หลอดเลือดหัวใจถูกลาม"
+   "CTA: intimal flap · true/ false lumen · entry tear",
+   "Type A: AR · tamponade · coronary · stroke",
+   "Malperfusion: mesenteric · renal · limb · spinal",
+   "Pleural effusion: อักเสบ (ซ้าย) หรือ hemothorax (rupture)",
+   "IMH: ผนังหนารูปจันทร์เสี้ยว ไม่มี flap",
+   "PAU: แผลทะลุ intima ใน atherosclerosis"
   ],
-  "opinion": "คีย์ไม่มีคำตอบ (highlight D และตารางของ P'Ing แสดงว่า A–D เกิดได้) — ตอบ E ซึ่งเติมเพิ่ม: ลมในช่องท้องไม่ใช่ลักษณะของโรค · มั่นใจสูง",
+  "opinion": "ตอบ E ความมั่นใจปานกลาง-สูง — ไฟล์ไม่มีคีย์ (P'Ing ไฮไลต์ D แต่แปะตารางที่แสดงว่า A–D เกิดได้ทั้งหมด) ช้อย E ต้นฉบับว่าง จึงเติมสิ่งที่ไม่ใช่ผลของ aortic syndrome",
+  "mnemonic": "<b>'Aortic syndrome: flap · ขาดเลือดตามแขนง · น้ำรอบหัวใจ/ ปอด — ไม่ใช่ลมในท้อง'</b>",
+  "guide": "2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease (Circulation 2022;146:e334)",
   "variants": [
-   "<b>นอกสไลด์:</b> CT เห็นแผลคล้ายปล่องยื่นทะลุชั้น intima ออกนอกผนัง aorta ในผนังที่มี atheroma มาก → penetrating atherosclerotic ulcer",
-   "<b>นอกสไลด์:</b> CT เห็นผนัง aorta หนาเป็นรูปจันทร์เสี้ยว ไม่มี flap ไม่มีสารทึบในผนัง → intramural hematoma"
+   "dissection type A + ความดันต่ำ JVP สูง → tamponade → ผ่าตัดด่วน (ไม่เจาะระบาย)",
+   "dissection type B ปวดท้อง lactate สูง → mesenteric malperfusion → TEVAR",
+   "CT ผนัง aorta หนารูปจันทร์เสี้ยว ไม่มี flap → intramural hematoma"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 28–29 — ตัวพิมพ์: <b>CVT xx.Acute aortic syndrome เอาไป imaging ไม่น่าจะเจออะไร — A. Flapping intima B. Malperfusion C. Pericardial effusion D. Pleural effusion E.</b><br>ลายมือ: \"= Aortic dissection and its variants (IMH, PAU)\" · ไม่มีกากบาท<br>ไฮไลต์: \"เอาไป imaging ไม่น่าจะเจออะไร\" (ชมพู) · \"D. Pleural effusion\" (ชมพู) · ขีดเส้นใต้แดง \"Acute aortic syndrome\"<br>รูปที่แปะ: ตาราง Anatomic complications of aortic dissection and their associated symptoms and signs — aortic valve insufficiency (dyspnea, murmur, pulmonary rales, shock) · coronary malperfusion (chest pain, nausea/vomiting, shock, ischemic changes on ECG, elevated cardiac enzymes) · pericardial tamponade (dyspnea, jugular venous distention, pulsus paradoxus, muffled cardiac tones, shock, low-voltage ECG) · subclavian or iliofemoral artery malperfusion (cold, painful extremity, extremity sensory and motor deficits, peripheral pulse deficit) · carotid artery malperfusion (syncope, focal neurologic deficit, carotid pulse deficit, coma) · spinal malperfusion (paraplegia, incontinence) · mesenteric malperfusion (nausea/vomiting …)<br>ที่ปรับในเว็บ: ไม่มีคีย์ · ช้อย E ว่าง → เติม pneumoperitoneum",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 28",
+  "kimg": [
+   "fsp_p28",
+   "kp71b_x4a",
+   "kp71b_x4b"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 5": {
-  "interp": "TURBT ได้มะเร็งกระเพาะปัสสาวะลุกถึงชั้นกล้ามเนื้อ (MIBC) ยังไม่แพร่กระจาย → ถามการรักษาขั้นต่อไป",
-  "why": "<b>P'Ing ไม่กากบาท · ลายมือ = radical cystectomy · ไม่ invade muscle → TURBT/fulguration ± intravesical CMT · invade muscle → radical cystectomy ± adjuvant CMT · metastasis → palliative Tx</b><br><b>นอกสไลด์:</b> มาตรฐานปัจจุบันคือเคมีบำบัดกลุ่ม cisplatin ก่อนผ่าตัด (neoadjuvant) แล้ว radical cystectomy + เลาะต่อมน้ำเหลืองเชิงกราน + ทำทางเดินปัสสาวะใหม่ — เคมีก่อนผ่าตัดเพิ่มอัตรารอดเมื่อเทียบกับผ่าตัดอย่างเดียว",
+  "interp": "TURBT พบ<b>มะเร็งกระเพาะปัสสาวะลุกลามถึงชั้นกล้ามเนื้อ (MIBC)</b> ไม่มีการกระจาย → ถามการรักษาต่อ",
+  "why": "<b>Muscle-invasive bladder cancer (≥ T2) ไม่กระจาย</b> → มาตรฐานคือ <b>neoadjuvant cisplatin-based chemotherapy</b> (เช่น ddMVAC, gemcitabine-cisplatin) ตามด้วย <b>radical cystectomy + pelvic lymph node dissection</b> และ urinary diversion (เพิ่มอัตรารอดราว 5–8%) · ทางเลือกเก็บกระเพาะปัสสาวะ (trimodal therapy: TURBT สูงสุด + chemoradiation) ในผู้ป่วยคัดเลือก · การรักษาในกระเพาะปัสสาวะ (BCG/ intravesical chemo) ใช้กับ <b>non-muscle-invasive</b> เท่านั้น · ไฟล์ P'Ing ลายมือ <b>\"= radical cystectomy\"</b> และแผนผัง <b>\"Bladder cancer → ไม่ invade muscle → TUR BT / fulguration ± intravesical CMT · invade muscle → radical cystectomy ± adjuvant CMT · metastasis → palliative Tx\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าชิ้นเนื้อจาก TURBT ครั้งแรกไม่มีชั้นกล้ามเนื้อหรือตัดก้อนไม่หมด จนยังบอกระยะไม่ได้ → ทำ TURBT ซ้ำในราว 2–6 สัปดาห์",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งไม่ลุกกล้ามเนื้อความเสี่ยงต่ำ (Ta low grade ก้อนเดียวเล็ก) — ใส่ยาเคมีเข้ากระเพาะครั้งเดียวภายใน 24 ชม.หลัง TURBT",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น CIS หรือ T1 high grade ที่ทำ TURBT ซ้ำแล้วไม่พบการลุกกล้ามเนื้อ → BCG เข้ากระเพาะแบบ induction + maintenance",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเนื้องอก Ta low grade ขนาดเล็กที่กลับเป็นซ้ำในผู้สูงอายุ — เฝ้าระวังด้วยส่องกล้องเป็นระยะได้"
+   "A": "Re-TURBT ใช้ใน NMIBC ที่ตัดไม่หมด/ ไม่มีกล้ามเนื้อในชิ้นเนื้อ/ T1 high grade · จะถูกถ้าผล TURBT เป็น T1 high grade หรือไม่มีชั้นกล้ามเนื้อในชิ้นเนื้อ",
+   "B": "Intravesical chemo (เช่น mitomycin ครั้งเดียวหลัง TURBT) ใช้กับ NMIBC ความเสี่ยงต่ำ · จะถูกถ้าเป็น Ta low grade ก้อนเดี่ยวเล็ก",
+   "C": "BCG ใช้กับ NMIBC ความเสี่ยงปานกลาง-สูง/ CIS ไม่ได้ผลใน MIBC · จะถูกถ้าเป็น T1 high grade หรือ carcinoma in situ",
+   "E": "สังเกตอาการและส่องกล้องซ้ำทำให้มะเร็งลุกลามกระจาย · จะถูกถ้าเป็น NMIBC ความเสี่ยงต่ำหลังรักษาแล้ว (ส่องติดตาม)"
   },
-  "trap": "ยาเข้ากระเพาะ (ยาเคมี/BCG) เป็นของมะเร็งไม่ลุกกล้ามเนื้อเท่านั้น · ลายมือคีย์เขียน cystectomy ± adjuvant แต่ปัจจุบันให้เคมีก่อนผ่าตัดในผู้ที่ให้ cisplatin ได้",
+  "trap": "ใช้ BCG กับมะเร็งที่ลุกลามกล้ามเนื้อ — BCG สำหรับ NMIBC เท่านั้น",
   "summary": [
-   "<b>นอกสไลด์:</b> ให้ cisplatin ไม่ได้ (ไตเสื่อม สภาพร่างกายไม่ดี หัวใจล้มเหลว ประสาทหู/ปลายประสาทเสีย) → ผ่าตัดเลย · แนวโน้มใหม่: ให้ immunotherapy ร่วมเคมีก่อนผ่าตัดแล้วให้ต่อหลังผ่าตัด (เช่น durvalumab ร่วม gemcitabine–cisplatin)"
+   "NMIBC (Ta, T1, CIS): TURBT ± intravesical chemo/ BCG",
+   "T1 high grade/ ไม่มีกล้ามเนื้อในชิ้นเนื้อ → re-TURBT",
+   "MIBC (≥ T2): neoadjuvant cisplatin chemo → radical cystectomy + PLND",
+   "ทางเลือก: trimodal therapy (TURBT + chemoradiation)",
+   "Cisplatin-ineligible → cystectomy ตรง ± adjuvant (nivolumab)",
+   "กระจาย → systemic therapy (enfortumab vedotin + pembrolizumab)"
   ],
-  "opinion": "เห็นด้วยกับทิศทางของคีย์ (radical cystectomy) — แต่ลำดับมาตรฐานคือเคมีก่อนผ่าตัด จึงตอบ D · มั่นใจสูง",
+  "opinion": "ตอบ D ความมั่นใจสูง — ตรงกับลายมือ \"= radical cystectomy\" ในไฟล์ โดยเพิ่ม neoadjuvant chemotherapy ตามมาตรฐานปัจจุบัน (ลายมือเขียน ± adjuvant CMT) · ต้นฉบับช้อย D, E ว่าง จึงเติม",
+  "mnemonic": "<b>'Bladder: ไม่ถึงกล้าม = ขูด + BCG · ถึงกล้าม = เคมีก่อน + ตัดกระเพาะ'</b>",
+  "guide": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer 2024; AUA/ ASCO/ SUO Guideline: Treatment of Non-Metastatic Muscle-Invasive Bladder Cancer (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย MIBC ไม่ต้องการหรือผ่าตัดไม่ได้ ก้อนเดียว ไม่มีไตบวมน้ำ ไม่มี CIS → เก็บกระเพาะด้วย trimodality (TURBT ให้หมดที่สุด + รังสีร่วมเคมี)"
+   "TURBT พบ T1 high grade ไม่มีกล้ามเนื้อในชิ้นเนื้อ → re-TURBT",
+   "TURBT พบ CIS → intravesical BCG induction + maintenance",
+   "MIBC ผู้ป่วยไม่อยากตัดกระเพาะ → trimodal therapy"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 29 — ตัวพิมพ์: <b>Uro xx.เป็น bladder cancer invade ถึง muscle ทำ tur bt แล้ว ทำไรต่อ — A.tur bt อีกรอบ B intravesicle chemo C.intravesicle BCG D E</b><br>ลายมือ: \"= radical cystectomy\" (แดง) · แผนผัง \"Bladder cancer → ไม่ invade muscle → TUR BT / fulguration ± intravesical CMT · invade muscle → radical cystectomy ± adjuvant CMT · metastasis → palliative Tx\" · ไม่มีกากบาท<br>ไฮไลต์: \"ทำไรต่อ\" (ฟ้า) · ขีดเส้นใต้ \"bladder cancer\" \"invade ถึง muscle\"<br>ที่ปรับในเว็บ: ช้อย D, E ว่าง → เติม chemotherapy then cystectomy และ observation",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 29",
+  "kimg": [
+   "fsp_p29",
+   "kp71b_x5"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 6@p29": {
-  "interp": "เด็กมีไส้เลื่อนขาหนีบชนิด indirect ที่ดันกลับได้ → ข้อความใดถูกต้อง",
-  "why": "<b>P'Ing กากบาท 1 ✓ · 2 ✗ Rt > Lt, ♂ > ♀ · 4 ✗ ในเด็ก → herniotomy · 5 ✗ IHH ในเด็กถือเป็น urgent condition</b><br><b>นอกสไลด์:</b> ไส้เลื่อนขาหนีบในเด็กเกือบทั้งหมดเป็น indirect จาก processus vaginalis ไม่ปิด ส่วนใหญ่ดันกลับได้ · ผ่าตัดผูกถุงที่คอ (high ligation) โดยไม่ต้องเสริมผนังหน้าท้อง",
+  "interp": "เด็กมีอาการเข้าได้กับ <b>reducible indirect inguinal hernia</b> ถามข้อที่ถูกต้อง",
+  "why": "ไส้เลื่อนขาหนีบในเด็กเกือบทั้งหมดเป็น <b>indirect</b> จาก processus vaginalis ไม่ปิด · <b>ส่วนใหญ่ดันกลับได้ (reducible)</b> · พบ<b>ขวามากกว่าซ้าย</b> (~60%, testis ขวาลงช้ากว่า) · <b>ชายมากกว่าหญิง</b> (~6–8 : 1) · รักษาด้วย <b>herniotomy (high ligation ของถุงไส้เลื่อน) ไม่ใช้ mesh</b> · ควร<b>ผ่าตัดเร็วหลังวินิจฉัย</b> (ทารกโดยเฉพาะ &lt; 1 ปีเสี่ยง incarceration สูง) ไม่ต้องรอ · ไฟล์ P'Ing กากบาท 1 ✓ และลายมือ 2 <b>\"✗ Rt &gt; Lt, ♂ &gt; ♀\"</b> 4 <b>\"✗ ในเด็ก ⇒ herniotomy\"</b> 5 <b>\"✗ IHH ในเด็กถือเป็น urgent condition\"</b>",
   "wrong": {
-   "B": "P'Ing: Rt > Lt — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะอัณฑะขวาลงถุงช้ากว่า processus vaginalis ข้างขวาจึงปิดช้ากว่า ไส้เลื่อนข้างขวาพบมากกว่า",
-   "C": "P'Ing: ♂ > ♀ — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะ processus vaginalis ตามอัณฑะลงถุงในเพศชาย เด็กชายจึงเป็นมากกว่าหลายเท่า",
-   "D": "P'Ing: ในเด็ก → herniotomy — <b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเป็นผู้ใหญ่ ซึ่งการซ่อมไส้เลื่อนขาหนีบมาตรฐานใช้ตาข่าย (Lichtenstein หรือส่องกล้อง)",
-   "E": "P'Ing: IHH ในเด็กถือเป็น urgent condition — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ไส้เลื่อนขาหนีบในเด็กควรรอ 2 ปี เพราะไม่ปิดเองและเสี่ยงติดคาสูงสุดในขวบปีแรก"
+   "B": "ขวาพบบ่อยกว่าซ้าย (ลายมือ \"Rt &gt; Lt\") · จะถูกถ้าคำถามถามด้านที่พบบ่อยของ varicocele (ซ้าย)",
+   "C": "ชายพบมากกว่าหญิงมาก (ลายมือ \"♂ &gt; ♀\") · จะถูกถ้าคำถามถาม femoral hernia ซึ่งพบในหญิงมากกว่า",
+   "D": "เด็กใช้ herniotomy ไม่ใช้ mesh (ลายมือ \"ในเด็ก ⇒ herniotomy\") · จะถูกถ้าเป็นไส้เลื่อนขาหนีบในผู้ใหญ่ (Lichtenstein/ laparoscopic mesh repair)",
+   "E": "ไม่ควรรอ 2 ปี ไส้เลื่อนในเด็กไม่หายเองและเสี่ยงติดค้าง (ลายมือ \"IHH ในเด็กถือเป็น urgent condition\") · จะถูกถ้าเป็นสะดือจุ่น (umbilical hernia) ซึ่งรอให้ปิดเองถึงอายุ 4–5 ปี"
   },
-  "trap": "สับสนกับ hydrocele ในทารกที่รอให้ปิดเองได้ถึงราว 1–2 ปี — ไส้เลื่อนต้องผ่าตัดเมื่อวินิจฉัย",
+  "trap": "สับสนกับสะดือจุ่นที่รอได้ — ไส้เลื่อนขาหนีบในเด็กต้องผ่าตัดเร็ว",
   "summary": [
-   "<b>นอกสไลด์:</b> ไส้เลื่อนติดคา → ให้ยาแก้ปวด/ยาสงบ แล้วดันกลับ (taxis) ส่วนใหญ่สำเร็จ ผ่าตัดใน 24–48 ชม.เมื่อบวมยุบ · ดันไม่ได้หรือมีลำไส้ขาดเลือด → ผ่าตัดด่วน"
+   "เด็ก: indirect · processus vaginalis ไม่ปิด",
+   "ขวา &gt; ซ้าย · ชาย &gt; หญิง · คลอดก่อนกำหนดพบบ่อย",
+   "รักษา: herniotomy (high ligation) ไม่ใช้ mesh",
+   "ผ่าตัดเร็วหลังวินิจฉัย (ทารกเสี่ยง incarceration)",
+   "Incarcerated → manual reduction (sedation) แล้วผ่าตัดใน 24–48 ชม.",
+   "Umbilical hernia เด็ก: รอปิดเองถึง 4–5 ปี"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับกากบาท 1 ✓ และลายมือในไฟล์ · ต้นฉบับช้อย 3 ว่าง จึงเติม C",
+  "mnemonic": "<b>'ไส้เลื่อนเด็ก: ขวา ชาย ดันได้ → ผูกถุง (ไม่ mesh) ผ่าเร็ว'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Inguinal hernias and hydroceles; AAP Section on Surgery: Assessment and Management of Inguinal Hernia in Infants (Pediatrics 2012;130:768)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กหญิงมีก้อนแข็งเล็กเคลื่อนได้ที่ขาหนีบ ดันไม่ยุบ ไม่เจ็บ → รังไข่ในถุงไส้เลื่อน ผ่าตัดเร็ว (เสี่ยงบิดขาดเลือด) และถ้าพบอัณฑะในถุงให้นึกถึง androgen insensitivity",
-   "<b>นอกสไลด์:</b> ทารกเกิดก่อนกำหนดมีไส้เลื่อนขาหนีบ → ผ่าตัดก่อนกลับบ้านหรือไม่นานหลังจากนั้น (ติดคาบ่อย) และเฝ้าระวังหยุดหายใจหลังดมยา"
+   "ทารกคลอดก่อนกำหนดไส้เลื่อนขาหนีบ → ผ่าตัดก่อนกลับบ้าน/ เร็วที่สุด",
+   "เด็ก 2 ปีไส้เลื่อนติดค้าง ดันกลับได้ภายใต้ sedation → ผ่าตัดใน 24–48 ชม.",
+   "เด็ก 2 ปีสะดือจุ่น 1 cm → รอถึง 4–5 ปี"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 29 — ตัวพิมพ์: <b>Ped xx.ผู้ป่วยเด็กให้อาการ~reducible.indirect inguinal herniaถามว่าข้อใดถูกต้องเกี่ยวกับโรคที่เด็กเป็น — 1.ส่วนใหญ่มักเป็นreducible 2.ส่วนใหญ่เป็นข้างซ้ายมากกว่าขวา 3. 4.มักแก้ไขโดยใช้mesh 5.elective surgery ถ้าเป็นมานานกว่า2ปี(มั้ง)</b><br>ลายมือ: กากบาท 1 + ✓ · 2 ✗ \"Rt &gt; Lt, ♂ &gt; ♀\" · 4 ✗ \"ในเด็ก ⇒ herniotomy\" · 5 ✗ \"IHH ในเด็กถือเป็น urgent condition\" (แดง)<br>ไฮไลต์: กากบาท 1 (เขียว) · \"ถามว่าข้อใดถูกต้องเกี่ยวกับโรคที่เด็กเป็น\" (เขียว) · ขีดเส้นใต้แดง \"ข้างซ้ายมากกว่าขวา\" \"มักแก้ไขโดยใช้mesh\" \"elective\"<br>ที่ปรับในเว็บ: ช้อย 3 ว่าง → เติม C",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 29",
+  "kimg": [
+   "fsp_p29",
+   "kp71b_x6"
   ]
  }
 }

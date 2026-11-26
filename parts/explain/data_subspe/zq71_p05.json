@@ -1,75 +1,134 @@
 {
  "MDCU71|RoB|ไม่มีเลข 7": {
-  "interp": "ส่องกล้องคัดกรองพบติ่งเนื้อที่ ascending colon ตัดออกแล้วผลเป็น adenocarcinoma well-differentiated อยู่ในติ่งเนื้อ ขอบตัดปลอดมะเร็ง → malignant polyp ลักษณะดี ถามการจัดการต่อ",
-  "why": "<b>P'Ing กากบาท 5 · q 3–6 m · adequate endoscopic resection</b><br><b>นอกสไลด์:</b> malignant polyp ที่ลักษณะเสี่ยงต่ำ (well/moderately differentiated ไม่มีมะเร็งในท่อน้ำเหลือง/หลอดเลือด ขอบตัดปลอด ตัดได้ชิ้นเดียว) โอกาสลามต่อมน้ำเหลืองต่ำมาก การตัดผ่านกล้องจึงรักษาหายแล้ว → ส่องกล้องติดตาม",
+  "interp": "ส่องกล้องคัดกรองพบ polyp ที่ ascending colon ตัดออกแล้วผลเป็น <b>well-differentiated adenocarcinoma จำกัดใน polyp ขอบตัดปลอดภัย</b> → ถามการจัดการต่อ",
+  "why": "<b>Malignant polyp</b> (มะเร็งลุกลามถึง submucosa ใน polyp) ที่มี<b>ลักษณะดี (favorable)</b>: well/ moderately differentiated, <b>ขอบตัดปลอดภัย (&gt; 1–2 mm)</b>, ไม่มี lymphovascular invasion, ไม่มี tumor budding สูง, ตัดออกเป็นชิ้นเดียว (en bloc) → ความเสี่ยงต่อมน้ำเหลืองต่ำ (&lt; 1–2%) จึง<b>ติดตามด้วย colonoscopy</b> (ซ้ำที่ตำแหน่งเดิมใน 3–6 เดือน) โดยไม่ต้องผ่าตัด · ลักษณะไม่ดี (poorly differentiated, LVI, margin บวก/ &lt; 1 mm, ตัดเป็นชิ้น ๆ, sessile ลุกลามลึก) → <b>oncologic colectomy</b> (right hemicolectomy) · ไฟล์ P'Ing กากบาท 5 ลายมือ <b>\"adequate endoscopic resection\"</b> และ <b>\"q 3-6 m\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผลชิ้นเนื้อมีลักษณะเสี่ยง: poorly differentiated, มะเร็งในท่อน้ำเหลือง/หลอดเลือด, ขอบตัดใกล้หรือมีมะเร็ง, tumor budding มาก หรือตัดเป็นหลายชิ้นจนประเมินขอบไม่ได้ → ผ่าตัดลำไส้พร้อมต่อมน้ำเหลือง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น FAP ที่มีติ่งเนื้อนับร้อยใน colon แต่ใน rectum มีน้อย → ตัด colon ทั้งหมดแล้วต่อลำไส้เล็กกับ rectum",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็ง colon ด้านซ้ายอุดตัน ลำไส้ด้านต้นโป่งมากจน cecum ขาดเลือดหรือใกล้แตก → ตัด colon เกือบทั้งหมดในการผ่าตัดเดียว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผ่าตัดลำไส้แล้วพบมะเร็งลามต่อมน้ำเหลือง (stage III) → เคมีบำบัดหลังผ่าตัด (FOLFOX หรือ CAPOX)"
+   "A": "Right hemicolectomy ใช้เมื่อ malignant polyp มีลักษณะไม่ดี · จะถูกถ้าผลชิ้นเนื้อเป็น poorly differentiated มี lymphovascular invasion หรือขอบตัดบวก",
+   "B": "Total colectomy ใช้ใน FAP/ Lynch ที่มีมะเร็ง หรือมะเร็งหลายตำแหน่ง · จะถูกถ้าผู้ป่วย FAP มี polyp นับร้อยและพบมะเร็ง",
+   "C": "Subtotal colectomy ใช้ในมะเร็งหลายตำแหน่ง/ ลำไส้ใหญ่อุดตันที่ต้นลำไส้โป่งขาดเลือด · จะถูกถ้ามีมะเร็งทั้ง cecum และ sigmoid",
+   "D": "เคมีบำบัดเสริมใช้ใน stage III (ต่อมน้ำเหลืองบวก) ไม่ใช่ malignant polyp ที่ตัดหมด · จะถูกถ้าผ่าตัด colectomy แล้วพบต่อมน้ำเหลืองบวก"
   },
-  "trap": "คำว่า adenocarcinoma ชวนให้ผ่าตัดทันที — สิ่งที่ตัดสินคือลักษณะเสี่ยงในชิ้นเนื้อ ไม่ใช่การที่มีมะเร็ง · สักตำแหน่ง (tattoo) ไว้เสมอเผื่อต้องผ่าตัด",
+  "trap": "เห็นคำว่ามะเร็งแล้วผ่าตัดลำไส้ — malignant polyp ลักษณะดีที่ตัดหมดติดตามด้วยกล้องได้",
   "summary": [
-   "<b>P'Ing: ส่องกล้องติดตามใน 3–6 เดือนหลังตัดได้เพียงพอ</b>",
-   "<b>นอกสไลด์:</b> ลักษณะดีที่ยอมให้ติดตามได้: differentiation ดี/ปานกลาง · ไม่ลุกท่อน้ำเหลือง/หลอดเลือด · ขอบตัดปลอดมะเร็ง (ราว ≥ 1 mm) · tumor budding ต่ำ · ตัดได้ชิ้นเดียว — ขาดข้อใดข้อหนึ่งให้พิจารณาผ่าตัด"
+   "Malignant polyp ลักษณะดี: well/ mod diff · margin &gt; 1–2 mm · ไม่มี LVI · budding ต่ำ · en bloc",
+   "ลักษณะดี → colonoscopy ซ้ำ 3–6 เดือน",
+   "ลักษณะไม่ดี → oncologic colectomy",
+   "Haggitt level 4 (pedunculated) / sm3 (sessile) → เสี่ยงต่อมน้ำเหลืองสูง",
+   "Tattoo ตำแหน่ง polyp ไว้เสมอ",
+   "Piecemeal resection ประเมินขอบไม่ได้ → พิจารณาผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับกากบาท 5 และลายมือในไฟล์ · ต้นฉบับช้อย 4 ว่าง จึงเติม adjuvant chemotherapy",
+  "mnemonic": "<b>'Polyp ร้ายลักษณะดี + ขอบสะอาด = ส่องตามดู (ไม่ผ่า)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025 — Pedunculated or sessile polyp (adenoma) with invasive cancer; US Multi-Society Task Force: Endoscopic Removal of Colorectal Lesions (Gastroenterology 2020;158:1095)",
   "variants": [
-   "<b>นอกสไลด์:</b> ติ่งเนื้อที่ตัดออกพบ high-grade dysplasia หรือมะเร็งอยู่แค่ชั้น mucosa (ไม่ลุก submucosa) ตัดหมด → ไม่มีโอกาสลามต่อมน้ำเหลือง ติดตามแบบ advanced adenoma"
+   "polypectomy พบ adenocarcinoma poorly differentiated + LVI → right hemicolectomy",
+   "polyp 3 cm ตัดเป็นชิ้น ๆ พบมะเร็ง ประเมินขอบไม่ได้ → colectomy",
+   "malignant polyp ลักษณะดี → colonoscopy ซ้ำ 3–6 เดือน"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 29 — ตัวพิมพ์: <b>xx.หญิงอายุ ......มาทำscreening colonoscopyเจอpolypตรงascending colon->ทำpolypectomy->อ่านผลpathoเป็นcancer(tubular adenocarcinomaมั้ง) with free margin Q:managementต้องไปคือ — 1.Right colectomy 2.Total colectomy 3.subtotal colectomy 4..... 5.close F/U woth colonoscope</b><br>ลายมือ: \"adequate endoscopic resection\" ใต้ with free margin · 5 \"q 3-6 m\" · กากบาท 5<br>ไฮไลต์: กากบาท 5 (ม่วง) · \"Q:managementต้องไปคือ\" (ม่วง) · ขีดเส้นใต้ \"ทำscreening colonoscopyเจอpolyp\" \"ผลpathoเป็นcancer(tubular adenocarcinomaมั้ง) with free margin\"<br>ที่ปรับในเว็บ: ช้อย 4 ว่าง → เติม adjuvant chemotherapy",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 29",
+  "kimg": [
+   "fsp_p29",
+   "kp71b_x7"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 8": {
-  "interp": "ชายสูงอายุ COPD สมรรถภาพปอดอุดกั้นรุนแรง มีก้อน 2 cm ที่ปอดขวาบน → ผ่าตัดเสี่ยงสูง ต้องได้การวินิจฉัยก่อนวางแผน ถามการจัดการ",
-  "why": "<b>P'Ing กากบาท 1</b><br><b>นอกสไลด์:</b> ก้อนปอด 2 cm ในผู้สูงอายุที่สูบบุหรี่ (COPD) เสี่ยงมะเร็งสูง · สมรรถภาพปอดแย่มากทำให้ตัด lobe ไม่ได้ ต้องได้ชิ้นเนื้อด้วยวิธีที่ไม่ต้องผ่าตัด แล้วรักษาด้วยวิธีที่ไม่ตัดปอด (เช่น SBRT)",
+  "interp": "ชายสูงอายุ <b>COPD</b> CXR พบ <b>nodule 2 cm ที่ RUL</b> PFT เป็น <b>severe obstruction</b> → ถามการจัดการ",
+  "why": "Nodule 2 cm ในผู้สูงอายุสูบบุหรี่/ COPD = <b>ความเสี่ยงมะเร็งสูง</b> แต่ผู้ป่วยมี<b>สมรรถภาพปอดแย่มาก</b> → ต้อง<b>ได้การวินิจฉัยทางพยาธิวิทยาด้วยวิธีที่รุกล้ำน้อย</b> (bronchoscopy/ navigational bronchoscopy/ EBUS หรือ CT-guided biopsy สำหรับก้อนรอบนอก) ร่วมกับ CT/ PET staging และประเมินความพร้อมผ่าตัด (ppoFEV1, DLCO, exercise test) ก่อนเลือกการรักษา (ผ่าตัด sublobar หรือ SBRT) · ข้อนี้คล้ายข้อไม่มีเลข 9 ของ 70B · ไฟล์ P'Ing กากบาท <b>1. bronchoscopic with biopsy</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าสมรรถภาพปอดก้ำกึ่ง (ทนตัด lobe ไม่ได้แต่ทนตัดบางส่วนได้) ก้อนอยู่รอบนอก ≤ 2 cm — ตัด wedge ผ่านกล้องได้ทั้งวินิจฉัยและรักษาในครั้งเดียว",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนรอบนอกที่ต้องตัด แต่ช่องปอดมีพังผืดแน่นจากเคยผ่าตัดหรือติดเชื้อจนส่องกล้องไม่ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าสมรรถภาพปอดดี (ppoFEV1 และ ppoDLCO > 60%) ก้อนน่าสงสัยมะเร็งระยะต้น ไม่มีต่อมน้ำเหลืองโต — ผ่าตัดได้เลยโดยไม่ต้องเจาะก่อน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนมีหินปูนแบบไม่ร้าย (ทั่วทั้งก้อน ตรงกลาง เป็นชั้น หรือแบบ popcorn) หรือก้อน solid ขนาดคงที่เกิน 2 ปี"
+   "B": "VATS wedge เป็นได้ทั้งวินิจฉัยและรักษาก้อนรอบนอกในผู้ที่ปอดพอ แต่ผู้ป่วย severe COPD เสี่ยงสูง ควรได้ชิ้นเนื้อด้วยวิธีที่รุกล้ำน้อยก่อน · จะถูกถ้าก้อนรอบนอก 1.5 cm เจาะไม่ได้ ผู้ป่วย ppoFEV1 &gt; 40%",
+   "C": "Open wedge รุกล้ำมากกว่า VATS ในผู้ป่วยปอดแย่ · จะถูกถ้าคำถามถามการผ่าตัด metastasectomy ก้อนรอบนอกที่ VATS ทำไม่ได้",
+   "D": "Lobectomy ต้องมีปอดเหลือพอ (ppoFEV1/ DLCO &gt; 40–60%) และควรมีการวินิจฉัยก่อน · จะถูกถ้าชิ้นเนื้อยืนยัน NSCLC stage I ผู้ป่วย FEV1 2.2 L DLCO ปกติ",
+   "E": "ก้อน 2 cm ในผู้สูบบุหรี่ไม่ควรเฝ้าดูเฉย ๆ · จะถูกถ้า nodule &lt; 6 mm ในผู้เสี่ยงต่ำ (Fleischner: ไม่ต้องติดตาม)"
   },
-  "trap": "ก้อนน่าสงสัยมะเร็งทำให้อยากผ่าตัด — แต่ COPD รุนแรงทำให้ตัดปอดไม่ได้ คำถามจึงกลายเป็น \"จะได้การวินิจฉัยอย่างไร\"",
+  "trap": "รีบตัดก้อนเพราะสงสัยมะเร็ง — ปอดแย่มาก ต้องวินิจฉัยและประเมินก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> ก้อนรอบนอกเจาะได้ทาง bronchoscopy แบบนำทาง (navigation/radial EBUS) หรือเจาะผ่านผิวหนังใต้ CT (ใน COPD รุนแรงระวังลมรั่วในช่องปอด) · ยืนยันมะเร็งระยะต้นในผู้ผ่าตัดไม่ได้ → SBRT"
+   "Nodule &gt; 8 mm ความเสี่ยงสูง → ชิ้นเนื้อ/ PET/ ผ่าตัด",
+   "Central → bronchoscopy/ EBUS · peripheral → CT-guided/ navigational",
+   "ประเมินผ่าตัด: ppoFEV1 · ppoDLCO · exercise (VO2max)",
+   "ผ่าตัดไม่ได้ → SBRT (ควบคุมเฉพาะที่ &gt; 90%)",
+   "Fleischner: &lt; 6 mm เสี่ยงต่ำไม่ต้องติดตาม",
+   "Ground-glass nodule → ติดตามนานกว่า"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลางค่อนข้างสูง (ก้อนรอบนอกบางที่เลือกเจาะผ่านผิวหนังแทน)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับกากบาท 1 ในไฟล์ (ก้อนรอบนอกอาจเลือก CT-guided biopsy แทน) · ต้นฉบับช้อย 5 ว่าง จึงเติม observation",
+  "mnemonic": "<b>'ก้อนปอด + ปอดแย่ = ได้ชิ้นเนื้อก่อน ค่อยเลือกผ่า/ ฉายแสง'</b>",
+  "guide": "ACCP Evaluation of Individuals With Pulmonary Nodules (Chest 2013;143:e93S); NCCN Non-Small Cell Lung Cancer v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนปอด 2 cm ร่วมต่อมน้ำเหลืองใน mediastinum โต → EBUS-TBNA เจาะต่อมได้ทั้งวินิจฉัยและ staging ในคราวเดียว"
+   "NSCLC stage I ppoFEV1 25% → SBRT",
+   "nodule 5 mm ผู้ไม่สูบบุหรี่ → ไม่ต้องติดตาม (Fleischner)",
+   "ก้อนกลางปอดใกล้หลอดลมใหญ่ → bronchoscopy/ EBUS biopsy"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 29 — ตัวพิมพ์: <b>CVT xx.ผู้ป่วยชายแก่เป็นCOPB ทำCXRเจอlung nodule@RULขนาด 2cm ผู้ป่วยทำ pulmonary function test ผลเป็นsevere obstructive pulmonary disease Q: Management อย่างไร — 1.bronchoscopic with biopsy 2.VAT with wedge excision 3.open wedge excision 4.lobectomy 5.</b><br>ลายมือ: กากบาท 1<br>ไฮไลต์: กากบาท 1 (ชมพู) · \"Q: Management อย่างไร\" (ชมพู) · ขีดเส้นใต้แดง \"ชายแก่เป็นCOPB\" \"lung nodule@RUL\"<br>ที่ปรับในเว็บ: ช้อย 5 ว่าง → เติม observation",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 29",
+  "kimg": [
+   "fsp_p29",
+   "kp71b_x8"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 9": {
-  "interp": "ข้อ NOT: ตำแหน่งใดไม่ใช่ตำแหน่งที่พบบ่อยของเลือดออกในเนื้อสมองที่เกิดเอง (spontaneous ICH)",
-  "why": "<b>P'Ing กากบาท 5 · ตำแหน่ง ICH: basal ganglia 40%, lobar 30%, thalamus 15%, cerebellum 10%, brainstem 5%</b><br><b>นอกสไลด์:</b> ICH คือเลือดออกในเนื้อสมอง · subarachnoid space อยู่นอกเนื้อสมอง เลือดออกตรงนั้นเป็นอีกโรคหนึ่ง (SAH ส่วนใหญ่จาก aneurysm) — ICH ลามเข้า ventricle หรือ subarachnoid ได้แต่ไม่ได้เริ่มที่นั่น",
+  "interp": "ถามตำแหน่งที่<b>ไม่ใช่</b> common site ของ <b>spontaneous intracerebral hemorrhage</b>",
+  "why": "ICH คือเลือดออก<b>ในเนื้อสมอง</b> · ตำแหน่งที่พบบ่อย (hypertensive ICH จาก lipohyalinosis ของ perforating arteries): <b>basal ganglia/ internal capsule ~40%</b> (putamen มากสุด), <b>lobar ~30%</b> (ผู้สูงอายุ — cerebral amyloid angiopathy), <b>thalamus ~15%</b>, <b>cerebellum ~10%</b>, <b>brainstem (pons) ~5%</b> · <b>Subarachnoid space</b> ไม่ใช่เนื้อสมอง เลือดออกที่นั่นคือ <b>SAH</b> (ส่วนใหญ่จาก aneurysm) จึงไม่ใช่ตำแหน่งของ ICH · ไฟล์ P'Ing กากบาท 5 และแปะตาราง<b>ตำแหน่งเลือดออกในเนื้อสมอง</b>: Basal ganglia/ internal capsule 40, Lobar 30, Thalamus 15, Cerebellum 10, Brain stem 5",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"lobar เป็นตำแหน่งที่พบบ่อยของ ICH\" ผิด เพราะเป็นตำแหน่งอันดับสองและเป็นตำแหน่งหลักของ cerebral amyloid angiopathy ในผู้สูงอายุ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"thalamus เป็นตำแหน่งที่พบบ่อยของ ICH\" ผิด เพราะเลี้ยงด้วยแขนงเจาะลึก (thalamoperforators) ที่เสื่อมจากความดันสูง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"cerebellum เป็นตำแหน่งที่พบบ่อยของ ICH\" ผิด เพราะเป็นหนึ่งในตำแหน่ง hypertensive ICH คลาสสิก (บริเวณ dentate nucleus)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"pons เป็นตำแหน่งที่พบบ่อยของ ICH\" ผิด เพราะเป็นตำแหน่งคลาสสิกของ hypertensive ICH จากแขนงเจาะของ basilar artery ที่เสื่อมจากความดันสูง"
+   "A": "Lobar พบ ~30% (amyloid angiopathy ในผู้สูงอายุ, AVM ในคนหนุ่มสาว) · จะถูกถ้าคำถามถามตำแหน่งที่พบบ่อยที่สุดของ hypertensive ICH แล้วช้อยเป็น lobar (คำตอบคือ putamen)",
+   "B": "Thalamus พบ ~15% · จะถูกถ้าคำถามถามตำแหน่ง ICH ที่ทำให้ชาครึ่งซีกและตามองลงล่าง",
+   "C": "Cerebellum พบ ~10% · จะถูกถ้าคำถามถามตำแหน่ง ICH ที่มักต้องผ่าตัดเอาออกเมื่อ &gt; 3 cm",
+   "D": "Pons พบ ~5% · จะถูกถ้าคำถามถามตำแหน่ง ICH ที่ทำให้ pinpoint pupils และ coma ทันที"
   },
-  "trap": "SAH ก็เป็นเลือดออกในกะโหลกที่เกิดเองได้ จึงดูเหมือนเป็นตำแหน่งหนึ่ง — แต่โจทย์ถาม intracerebral (ในเนื้อสมอง)",
+  "trap": "รวม SAH เป็น ICH — subarachnoid space อยู่นอกเนื้อสมอง",
   "summary": [
-   "<b>นอกสไลด์:</b> สาเหตุตามตำแหน่ง: ตำแหน่งลึก (basal ganglia, thalamus, pons, cerebellum) = ความดันสูง · lobar ในผู้สูงอายุ = cerebral amyloid angiopathy · อายุน้อยหรือตำแหน่งไม่เข้ากับความดันสูง → หาเหตุอื่น (AVM, เนื้องอก, หลอดเลือดดำอุดตัน, ยาเสพติด) ด้วย CTA/MRI"
+   "ICH: basal ganglia 40% · lobar 30% · thalamus 15% · cerebellum 10% · brainstem 5%",
+   "Hypertensive: putamen > thalamus > pons > cerebellum",
+   "Lobar ผู้สูงอายุ: cerebral amyloid angiopathy",
+   "คนหนุ่มสาว: AVM · cavernoma · ยาเสพติด",
+   "SAH: aneurysm (~85%)",
+   "ICH score: GCS · volume ≥ 30 mL · IVH · infratentorial · อายุ ≥ 80"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับกากบาท 5 และตารางในไฟล์",
+  "mnemonic": "<b>'ICH ในเนื้อสมอง: Putamen > Lobar > Thalamus > Cerebellum > Pons · SAH อยู่นอกเนื้อสมอง'</b>",
+  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง 78 ปีความดันปกติ เลือดออก lobar เป็นครั้งที่ 2 MRI เห็นจุดเลือดออกเล็ก ๆ ที่ผิวสมองหลายจุด → cerebral amyloid angiopathy เลี่ยงยาต้านเกล็ดเลือด/ต้านการแข็งตัวเท่าที่เลี่ยงได้"
+   "ผู้สูงอายุไม่มีความดันสูง เลือดออก lobar ซ้ำ microbleeds → cerebral amyloid angiopathy",
+   "ผู้ป่วยความดันสูง อ่อนแรงซีกซ้าย ตาเหลือบขวา → right putaminal hemorrhage",
+   "ปวดหัวรุนแรงทันที เลือดใน basal cisterns → aneurysmal SAH"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 29 — ตัวพิมพ์: <b>Neuro xx.ตำแหน่งไหนไม่ใช่common siteที่จะเกิดintracerebral hemorrhage — 1.lobar 2.thalamus 3.cerebellum 4.pons 5.subarachnoid</b><br>ลายมือ: กากบาท 5<br>ไฮไลต์: กากบาท 5 (ชมพู) · \"ตำแหน่งไหนไม่ใช่common site\" (ชมพู) · ขีดเส้นใต้แดง \"ไม่ใช่\" \"intracerebral hemorrhage\"<br>รูปที่แปะ: ตาราง ตำแหน่งที่พบบ่อยของเลือดออกในเนื้อสมอง — Basal ganglia* และ internal capsule 40 · Lobar 30 · Thalamus 15 · Cerebellum 10 · Brain stem 5 (*ประกอบด้วย globus pallidus, putamen, caudate nucleus)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 29",
+  "kimg": [
+   "fsp_p29",
+   "kp71b_x9"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 10": {
-  "interp": "ค่า CSF ตัวเดียวที่ชี้ไปทางเยื่อหุ้มสมองอักเสบจากแบคทีเรียมากที่สุด",
-  "why": "<b>P'Ing กากบาท 5 + ตาราง CSF profile</b><br><b>นอกสไลด์:</b> แบคทีเรียและ neutrophil ใช้น้ำตาล ร่วมกับการขนส่งน้ำตาลเข้า CSF ลดลง → น้ำตาลต่ำมาก เป็นค่าที่จำเพาะที่สุดในบรรดาช้อย (viral มีน้ำตาลปกติ)",
+  "interp": "ถามผล CSF ที่<b>บ่งชี้ bacterial meningitis มากที่สุด</b>",
+  "why": "ลักษณะ CSF ที่จำเพาะต่อ bacterial meningitis ที่สุดคือ<b>น้ำตาลต่ำมาก</b> (&lt; 40 mg/dL หรือ CSF/ serum &lt; 0.4) ร่วมกับ WBC สูงมาก (&gt; 1,000) PMN เด่น (&gt; 80%) โปรตีนสูง (&gt; 100–200) และความดันเปิดสูง · ค่าในช้อยอื่นเป็นค่าที่ไม่จำเพาะหรือเกือบปกติ · ข้อนี้คล้ายข้อไม่มีเลข 5 ของ 71A · ไฟล์ P'Ing กากบาท 5 และแปะตาราง <b>CSF profile in infectious meningitis</b> (Bacterial: Turbid/ pus · pressure ↑↑↑ · protein ↑↑ · sugar ↓↓↓ · WBC &gt; 100 PMN)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"เม็ดเลือดขาว 50 เซลล์ใน CSF บ่งแบคทีเรียโดยเฉพาะ\" เป็นจริง เพราะระดับนี้พบทั่วไปใน viral, TB, เชื้อรา และการอักเสบที่ไม่ติดเชื้อ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"neutrophil 50% ยืนยัน bacterial\" เป็นจริง เพราะ viral meningitis ในช่วง 1–2 วันแรกก็มี neutrophil เด่นได้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ความดันเปิดปกติชี้ไปทาง bacterial\" เป็นจริง เพราะความดันปกติไม่บ่งโรคใด ส่วน bacterial มักทำให้ความดันสูงจากสมองบวม",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"โปรตีน 50 mg/dL บ่ง bacterial\" เป็นจริง เพราะสูงกว่าค่าปกติ (ผู้ใหญ่ราว ≤ 45) เพียงเล็กน้อย ส่วน bacterial มักสูงเป็นหลักร้อย"
+   "A": "WBC 50 สูงเล็กน้อย เข้ากับไวรัส/ TB/ เชื้อราได้ ไม่จำเพาะ · จะถูกถ้าคำถามถามผล CSF ของ viral meningitis (WBC &lt; 500 lymphocyte น้ำตาลปกติ)",
+   "B": "Neutrophil 50% ไม่เด่นพอ (bacterial มัก &gt; 80%) และพบในไวรัสระยะแรกได้ · จะถูกถ้าคำถามถาม viral meningitis ระยะแรก (&lt; 24–48 ชม.) ที่ PMN ยังเด่น",
+   "C": "ความดันปกติไม่ใช่ลักษณะของ bacterial ที่ความดันสูง · จะถูกถ้าคำถามถามผลที่ช่วยแยกไวรัส (ความดันปกติ/ สูงเล็กน้อย)",
+   "D": "โปรตีน 50 mg/dL สูงเพียงเล็กน้อย (ปกติ 15–45) ไม่จำเพาะ · จะถูกถ้าคำถามถาม CSF ของไวรัสที่โปรตีนสูงเล็กน้อย"
   },
-  "trap": "น้ำตาลต่ำไม่ได้เป็นของ bacterial อย่างเดียว — TB, เชื้อรา, มะเร็งลามเยื่อหุ้มสมองก็ต่ำได้ (แต่อาการค่อยเป็นค่อยไป TB/เชื้อราเซลล์เด่นเป็น lymphocyte มะเร็งพบเซลล์มะเร็งปน)",
+  "trap": "เลือก neutrophil เพราะคิดว่า PMN = แบคทีเรีย — 50% ไม่เด่นพอ น้ำตาลต่ำมากจำเพาะกว่า",
   "summary": [
-   "<b>นอกสไลด์:</b> แปลน้ำตาลใน CSF เทียบกับน้ำตาลในเลือดที่เจาะพร้อมกันเสมอ: อัตราส่วน ≤ 0.4 ชี้ bacterial · lactate ใน CSF สูงช่วยแยก bacterial จาก viral (ใช้ได้ดีหลังผ่าตัดสมองด้วย) แต่ลดลงหลังได้ยา"
+   "Bacterial: WBC &gt; 1,000 PMN &gt; 80% · น้ำตาล ↓↓ (CSF/ serum &lt; 0.4) · โปรตีน ↑↑",
+   "Viral: WBC &lt; 500 lymphocyte · น้ำตาลปกติ",
+   "TB: lymphocyte · โปรตีน ↑↑↑ · น้ำตาล ↓↓",
+   "Fungal (crypto): ความดัน ↑↑↑ · CrAg",
+   "ให้ ATB ทันที ไม่ต้องรอ LP ถ้ามีข้อบ่งชี้ CT ก่อน",
+   "Dexamethasone ก่อน/ พร้อม ATB ครั้งแรก (pneumococcus)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับกากบาท 5 และตารางในไฟล์ · ต้นฉบับช้อย 3 ว่าง จึงเติม normal opening pressure",
+  "mnemonic": "<b>'Bacterial meningitis = แบคทีเรียกินน้ำตาล (glucose ต่ำมาก)'</b>",
+  "guide": "IDSA Practice Guidelines for the Management of Bacterial Meningitis (Clin Infect Dis 2004;39:1267); ESCMID Guideline: Acute Bacterial Meningitis (Clin Microbiol Infect 2016;22:S37)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยเบาหวานน้ำตาลในเลือด 400 mg/dL น้ำตาลใน CSF 90 mg/dL → อัตราส่วนราว 0.23 = ต่ำ บ่ง bacterial แม้ตัวเลขดูปกติ"
+   "CSF WBC 2,000 PMN 90% น้ำตาล 15 → bacterial meningitis → ceftriaxone + vancomycin + dexamethasone",
+   "CSF WBC 150 lymphocyte น้ำตาลปกติ → viral meningitis",
+   "CSF lymphocyte โปรตีน 400 น้ำตาล 25 → TB meningitis"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 29 — ตัวพิมพ์: <b>Neuro xx.ผลLPข้อน่าจะเป็น bacterial meningitisมาที่สุด — 1.WBC 50 cell/ml 2.Neutrophil 50% 3. 4.Protein&gt;5mg 5.Glucose&lt;3 mg</b><br>ลายมือ: กากบาท 5<br>ไฮไลต์: กากบาท 5 (ชมพู) · \"ผลLP\" (ชมพู) · ขีดเส้นใต้ \"bacterial meningitis\"<br>รูปที่แปะ: ตาราง CSF profile in infectious meningitis — Bacterial: Turbid/pus, ↑↑↑, ↑↑, ↓↓↓, &gt;100 (PMN) (กรอบส้ม) · Viral/aseptic: Clear, Normal/↑, Normal/↑, Normal, &lt;500 (mono) · TB: Web, ↑ or ↑↑, ↑↑↑, ↓↓↓, 100-500 (mono&gt;PMN) · Crypto: Web, ↑↑↑, ↑, ↓↓, 40-400 (mono&gt;PMN) · Eosinophilic: Coconut, Vary, ↑↑, Normal or ↓, Vary (Eo ≥10% or 10 cells)<br>ที่ปรับในเว็บ: ช้อย 3 ว่าง → เติม normal opening pressure · ค่าในช้อยเขียนเป็นหน่วยมาตรฐาน",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 29",
+  "kimg": [
+   "fsp_p29",
+   "kp71b_x10"
   ]
  }
 }
