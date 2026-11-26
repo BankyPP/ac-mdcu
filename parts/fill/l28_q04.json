@@ -1,0 +1,442 @@
+{
+ "31": {
+  "stem": "A 2.7-kg newborn with uncovered bowel protruding to the right of the umbilical cord has had the bowel wrapped in warm saline-soaked gauze and a plastic bag, and an intravenous dextrose-containing infusion is running. Oxygen saturation is 96% on room air. Transfer to a surgical center will take 2 hours. Which additional measure is most important now?",
+  "opts": [
+   "Begin breast milk feeds to prevent hypoglycemia",
+   "Provide bag-mask ventilation to improve oxygen saturation",
+   "Obtain a chromosomal microarray before transfer",
+   "Administer intravenous furosemide to reduce bowel edema",
+   "Insert an orogastric tube and place it on suction"
+  ],
+  "ans": 4,
+  "interp": "ทารก gastroschisis ห่อลำไส้และให้สารน้ำแล้ว ออกซิเจนปกติ รอส่งต่อ 2 ชั่วโมง → ถามสิ่งที่ต้องทำเพิ่ม ต้องรู้ส่วนที่เหลือของ initial management คือ OG decompression",
+  "why": "ทารกกลืนลมและลำไส้ที่เปิดอยู่บีบตัวไม่ดี ทำให้<b>กระเพาะและลำไส้โป่ง</b>ทั้งในและนอกช่องท้อง — ลำไส้ที่โป่งบวมทำให้<b>ลดกลับเข้าช่องท้องยาก</b> ความดันในช่องท้องสูงตอนปิด หลอดเลือดที่ขอบรูถูกกด และเสี่ยง<b>อาเจียนสำลัก</b> · การใส่ <b>orogastric (OG) tube ต่อ suction/ ระบายเป็นระยะ</b>จึงเป็นส่วนหนึ่งของการดูแลแรกรับ (ทารกหายใจทางจมูกเป็นหลักจึงนิยมใส่ทางปาก) ร่วมกับ<b>งดน้ำงดอาหาร</b> IV fluid ที่มี dextrose คุมอุณหภูมิ และ empirical ATB · ถ้าต้องช่วยหายใจให้<b>ใส่ท่อช่วยหายใจ</b> เลี่ยง bag-mask นาน ๆ เพราะลมเข้ากระเพาะ · สไลด์หน้า 11: <b>Initial management • IV access and fluid resuscitation • OG decompression • Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag) • Empirical ATB</b>",
+  "wrong": {
+   "A": "ทารก gastroschisis ต้องงดอาหารทางปากจนลำไส้พร้อม (มักหลังปิดผนังท้องและลำไส้เริ่มทำงาน) ให้ dextrose ทางหลอดเลือดกันน้ำตาลต่ำ · จะถูกถ้าทารกครบกำหนดปกติที่มีน้ำตาลต่ำเล็กน้อยและไม่มีข้อห้ามกินนม",
+   "B": "Bag-mask ventilation ดันลมเข้ากระเพาะและลำไส้ ทำให้โป่งมากขึ้น และ SpO2 96% ไม่มีข้อบ่งชี้ · จะถูกถ้าทารกแรกเกิดหยุดหายใจหรือหัวใจเต้น &lt;100 ครั้ง/นาทีหลังกระตุ้น (ตาม NRP) — ในทารก gastroschisis ที่ต้องช่วยหายใจนานควรใส่ท่อช่วยหายใจ",
+   "C": "Chromosomal microarray ไม่จำเป็นเป็น routine ใน gastroschisis เพราะโครโมโซมผิดปกติพบน้อย และไม่ควรถ่วงการส่งต่อ · จะถูกถ้าทารก omphalocele ที่มีลักษณะ dysmorphic หลายอย่าง หลังอาการคงที่แล้ว",
+   "D": "ลำไส้บวมใน gastroschisis เกิดจากสัมผัสน้ำคร่ำและขอบรูรัด ไม่ใช่น้ำเกินในร่างกาย — furosemide ทำให้ขาดน้ำมากขึ้นในทารกที่เสียน้ำอยู่แล้ว · จะถูกถ้าทารกมีน้ำเกินร่วมกับ pulmonary edema จากหัวใจล้มเหลว"
+  },
+  "trap": "คิดว่าห่อลำไส้และให้น้ำแล้วถือว่าครบ — ลืม OG decompression ซึ่งช่วยให้ลดลำไส้กลับได้ง่าย กันสำลัก และลดการกดหลอดเลือด",
+  "summary": [
+   "OG decompression: ลดกระเพาะ/ ลำไส้โป่ง → ลดลำไส้กลับง่ายขึ้น ความดันในช่องท้องต่ำลง กันอาเจียนสำลัก",
+   "Initial management ครบชุด: IV access + fluid · OG decompression · ห่อผ้าชุ่ม NSS อุ่น + พลาสติก · empirical ATB · ตรวจหา atresia/ anomaly",
+   "งดอาหารทางปาก ให้ IV dextrose กันน้ำตาลต่ำ",
+   "ต้องช่วยหายใจ → ใส่ท่อช่วยหายใจ เลี่ยง bag-mask นาน (ลมเข้าลำไส้)",
+   "คุมอุณหภูมิ ตะแคงขวา ประคองลำไส้ไม่ให้พับ",
+   "ส่งต่อศูนย์ศัลยกรรมเด็กโดยไม่ถ่วงด้วยการตรวจที่ไม่จำเป็น"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — สไลด์หน้า 11 ระบุ OG decompression เป็นข้อที่สองของ initial management · คำแนะนำเลี่ยง bag-mask และใส่ท่อช่วยหายใจเมื่อจำเป็นมาจากตำรา (Holcomb) สไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'ห่อแล้ว ให้น้ำแล้ว อย่าลืมดูด (OG)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60)",
+  "variants": [
+   "ทารก gastroschisis ที่หายใจช้าลงต้องช่วยหายใจระหว่างส่งต่อ → ใส่ท่อช่วยหายใจแทน bag-mask ต่อเนื่อง",
+   "ทารก omphalocele ถุงสมบูรณ์รอผ่าตัด → ใส่ OG ระบายเช่นกัน เพื่อไม่ให้ลำไส้ในถุงโป่งและถุงตึง",
+   "ทารก gastroschisis หลังใส่ OG ได้น้ำดีออกต่อเนื่องปริมาณมาก → นึกถึงลำไส้อุดตันร่วม เช่น atresia"
+  ],
+  "notes": "สไลด์หน้า 11 — ตัวพิมพ์: <b>Initial management</b> · <b>• IV access and fluid resuscitation • OG decompression • Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag) • Empirical ATB • Thorough examinations to find out intestinal atresia/ associated anomalies</b><br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p11"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 11 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "32": {
+  "stem": "A newborn with uncovered, exposed bowel awaits surgical closure. Which antibiotic approach is appropriate now?",
+  "opts": [
+   "Empirical intravenous broad-spectrum antibiotics",
+   "No antibiotics unless fever develops",
+   "Oral nonabsorbable antibiotics",
+   "Topical antibiotic ointment on the bowel",
+   "Antibiotics only after a blood culture turns positive"
+  ],
+  "ans": 0,
+  "interp": "ทารกลำไส้เปิด (gastroschisis) รอผ่าตัดปิด → ถามการให้ยาปฏิชีวนะ ต้องรู้ว่า initial management มี empirical ATB",
+  "why": "ลำไส้ที่เปิดโล่งเป็นช่องทางให้เชื้อเข้า ทั้งระหว่างคลอด การจับต้อง และการผ่าตัด — ทารกจึงได้ <b>empirical IV broad-spectrum antibiotics</b> ตั้งแต่แรกรับ โดยทั่วไปคือ <b>ampicillin + gentamicin</b> (ครอบคลุมเชื้อจากช่องคลอดและทางเดินอาหาร) ต่อเนื่องช่วงรอบผ่าตัด และหยุดเมื่อปิดผนังท้องแล้วไม่มีหลักฐานติดเชื้อ (ระยะเวลาต่างกันตามศูนย์) · ทารกแรกเกิดมักไม่มีไข้แม้ติดเชื้อ จึงรอไข้ไม่ได้ · ยาทาบนลำไส้ระคายเคืองและไม่ได้ผล · สไลด์หน้า 11: <b>Initial management • … • Empirical ATB • …</b>",
+  "wrong": {
+   "B": "ทารกแรกเกิดที่ติดเชื้อมักไม่มีไข้ — อาจตัวเย็น ซึม หายใจลำบากแทน และลำไส้เปิดเสี่ยงติดเชื้อตั้งแต่แรก · จะถูกถ้าทารกครบกำหนดปกติที่แม่ไม่มีปัจจัยเสี่ยงติดเชื้อ ซึ่งไม่ต้องให้ยาปฏิชีวนะ",
+   "C": "ยาทางปากให้ไม่ได้เพราะทารกต้องงดอาหารและลำไส้ยังไม่ทำงาน และยาไม่ดูดซึมไม่ป้องกันการติดเชื้อที่ผิวลำไส้หรือในกระแสเลือด · จะถูกถ้าเป็นการเตรียมลำไส้ใหญ่ก่อนผ่าตัดลำไส้แบบ elective ในเด็กโต",
+   "D": "ยาทาบนลำไส้ระคายเคืองเยื่อบุและไม่ได้ป้องกันการติดเชื้อในกระแสเลือด · ยาทาใช้กับถุง omphalocele ในการรักษาแบบ escharification · จะถูกถ้าทารก giant omphalocele ถุงสมบูรณ์ที่เลือกทา silver sulfadiazine บนถุง",
+   "E": "รอผลเพาะเชื้อ (24–48 ชั่วโมง) ช้าเกินไปในทารกที่ลำไส้เปิด · จะถูกถ้าทารกที่เริ่มยาแบบ empirical แล้ว ต้องการปรับยาให้ตรงเชื้อหลังผลเพาะเชื้อขึ้น"
+  },
+  "trap": "คิดว่าไม่มีไข้ = ไม่ต้องให้ยา หรือคิดว่ายาทาเฉพาะที่พอ — ลำไส้เปิดในทารกแรกเกิดต้องได้ IV ATB ตั้งแต่แรก",
+  "summary": [
+   "ลำไส้เปิด → empirical IV broad-spectrum ATB ตั้งแต่แรกรับ (มัก ampicillin + gentamicin)",
+   "ต่อเนื่องช่วงรอบผ่าตัด หยุดเมื่อปิดแล้วไม่มีหลักฐานติดเชื้อ (ระยะเวลาต่างตามศูนย์)",
+   "ทารกแรกเกิดติดเชื้อมักไม่มีไข้ — ตัวเย็น ซึม หายใจลำบาก น้ำตาลผิดปกติ",
+   "ห้ามยาทาบนลำไส้ · ยาทาใช้กับถุง omphalocele ใน escharification",
+   "ร่วมกับ IV fluid · OG decompression · ห่อผ้าชุ่ม + พลาสติก",
+   "ปรับยาตามผลเพาะเชื้อเมื่อมี"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — สไลด์หน้า 11 ระบุ Empirical ATB · ชนิดยา (ampicillin + gentamicin) และระยะเวลาเป็นแนวปฏิบัติทั่วไปจากตำรา (Holcomb) สไลด์ไม่ได้ระบุ และแต่ละศูนย์ใช้ระยะเวลาต่างกัน",
+  "mnemonic": "<b>'ไส้เปิด = เปิดเส้น ให้ยา (IV ATB)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric surgery",
+  "variants": [
+   "ทารก gastroschisis หลังปิดผนังท้อง 5 วัน ไม่มีไข้ แผลดี ผลเพาะเชื้อไม่ขึ้น → หยุดยาปฏิชีวนะ",
+   "ทารก gastroschisis มีสาย central line ให้ PN มาหลายสัปดาห์ แล้วไข้ ตัวเย็นสลับ → central line–associated bloodstream infection เพาะเชื้อแล้วให้ยาครอบคลุม staphylococcus",
+   "ทารก giant omphalocele ถุงสมบูรณ์ รักษาแบบทายา → ทา silver sulfadiazine บนถุง ไม่จำเป็นต้องให้ IV ATB ยาวตลอด"
+  ],
+  "notes": "สไลด์หน้า 11 — ตัวพิมพ์: <b>Initial management</b> · <b>• IV access and fluid resuscitation • OG decompression • Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag) • Empirical ATB • Thorough examinations to find out intestinal atresia/ associated anomalies</b><br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p11"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 11 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "33": {
+  "stem": "A 2.5-kg newborn with gastroschisis is brought to the operating room for closure. The herniated small bowel and colon are thickened, covered by a fibrinous peel, and matted together. Which evaluation is most important before the bowel is returned to the abdomen?",
+  "opts": [
+   "Contrast enema to assess the caliber of the colon before closure",
+   "Abdominal ultrasound to screen for associated renal anomalies",
+   "Echocardiography to exclude a septal defect before anesthesia",
+   "Inspection of the entire bowel for atresia or perforation",
+   "Karyotype to exclude a chromosomal abnormality"
+  ],
+  "ans": 3,
+  "interp": "ทารก gastroschisis อยู่ในห้องผ่าตัด ลำไส้หนามี peel ติดกัน → ถามการประเมินที่สำคัญที่สุดก่อนดันลำไส้กลับ ต้องรู้ว่า anomaly สำคัญของ gastroschisis คือ intestinal atresia/ perforation",
+  "why": "ปัญหาร่วมที่สำคัญที่สุดของ gastroschisis อยู่<b>ที่ลำไส้เอง</b>: <b>intestinal atresia</b> (ราว 10–15%) <b>perforation, necrosis, volvulus</b> — จึงต้อง<b>ตรวจลำไส้ทุกส่วนที่ออกมาอย่างละเอียด</b> (และตั้งแต่แรกรับ) ก่อนดันกลับ ถ้าพลาด atresia ทารกจะอาเจียนน้ำดี กินไม่ได้หลังปิด · แต่ peel ที่หนาและลำไส้ติดกันอาจ<b>บัง atresia</b> ได้ ห้ามเลาะ peel แรง ๆ เพราะลำไส้ฉีก · เมื่อพบ atresia: ลำไส้ดีพอ → ต่อทันที · อักเสบหนา → ปิดผนังท้องก่อน แล้วกลับมาต่อราว 3–6 สัปดาห์ หรือทำ stoma · ตรวจหา malrotation ด้วย (พบเสมอเพราะลำไส้ไม่ได้หมุนตามปกติ) · การตรวจหัวใจ ไต หรือโครโมโซมไม่จำเป็นเป็น routine เพราะ anomaly นอกลำไส้ &lt;10% · สไลด์หน้า 11: <b>Thorough examinations to find out intestinal atresia/ associated anomalies</b>",
+  "wrong": {
+   "A": "Contrast enema ดู microcolon หรือหาระดับอุดตันในทารกที่ลำไส้อยู่ในท้อง ไม่จำเป็นก่อนปิด gastroschisis เพราะเห็นลำไส้โดยตรงอยู่แล้ว · จะถูกถ้าทารก gastroschisis หลังปิดแล้วกินไม่ได้หลายสัปดาห์ สงสัย atresia ส่วน colon ที่ไม่เห็นตอนผ่าตัด",
+   "B": "ความผิดปกติของไตพบไม่บ่อยใน gastroschisis ไม่ใช่สิ่งที่ต้องทำก่อนดันลำไส้กลับ · จะถูกถ้าทารก omphalocele ที่สงสัย OEIS หรือ Beckwith-Wiedemann (ไตโต) ต้อง USG ไต",
+   "C": "หัวใจพิการพบน้อยใน gastroschisis จึงไม่ต้อง echo ก่อนดมยาเป็น routine · จะถูกถ้าทารก omphalocele หรือทารกที่ฟังได้ murmur หรือเขียวก่อนผ่าตัด",
+   "E": "โครโมโซมผิดปกติพบน้อยใน gastroschisis และไม่เปลี่ยนการผ่าตัดตอนนี้ · จะถูกถ้าทารก omphalocele ที่มีลักษณะ trisomy 18 หรือ 13"
+  },
+  "trap": "นึกถึง 'หา anomaly ร่วม' แบบ omphalocele (หัวใจ ไต โครโมโซม) — ใน gastroschisis anomaly ที่ต้องหาคือของลำไส้: atresia/ perforation/ necrosis",
+  "summary": [
+   "Gastroschisis: ตรวจลำไส้ทุกส่วนหา atresia (10–15%) · perforation · necrosis · volvulus ก่อนดันกลับ",
+   "Peel หนาอาจบัง atresia — ห้ามเลาะแรง ลำไส้ฉีกง่าย",
+   "พบ atresia: ลำไส้ดี → ต่อทันที · อักเสบหนา → ปิดก่อน ต่อลำไส้ราว 3–6 สัปดาห์ หรือทำ stoma",
+   "Malrotation/ non-rotation พบเสมอใน gastroschisis",
+   "Anomaly นอกลำไส้ &lt;10% → echo/ ไต/ โครโมโซม ไม่ทำ routine",
+   "Atresia ที่พลาด → หลังปิดอาเจียนน้ำดี กินไม่ได้ → contrast study"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — สไลด์หน้า 11 ระบุ Thorough examinations to find out intestinal atresia/ associated anomalies · รายละเอียดการจัดการ atresia (ต่อทันทีหรือรอ 3–6 สัปดาห์) มาจากตำรา (Holcomb) และ ERNICA 2024 สไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'Gastroschisis: หา anomaly ให้หาในไส้ (ไล่ไส้ทุกเส้น)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60)",
+  "variants": [
+   "ระหว่างปิด gastroschisis พบ jejunal atresia ลำไส้อักเสบหนามาก → ปิดผนังท้องก่อน กลับมาต่อลำไส้ภายหลังหลายสัปดาห์",
+   "ระหว่างปิด gastroschisis พบรูทะลุเล็กที่ ileum ลำไส้รอบ ๆ ดี → เย็บซ่อมหรือตัดต่อทันที",
+   "ทารก gastroschisis หลังปิด 3 สัปดาห์อาเจียนน้ำดี ท้องอืด → contrast study หา atresia ที่พลาด"
+  ],
+  "notes": "สไลด์หน้า 11 — ตัวพิมพ์: <b>Initial management</b> · <b>• IV access and fluid resuscitation • OG decompression • Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag) • Empirical ATB • Thorough examinations to find out intestinal atresia/ associated anomalies</b><br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p11"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 11 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "34": {
+  "stem": "A 4.6-kg newborn has a membrane-covered umbilical sac and a large protruding tongue. Which bedside test is most urgent?",
+  "opts": [
+   "Serum ionized calcium level",
+   "Thyroid stimulating hormone",
+   "Plain abdominal radiograph",
+   "Cranial ultrasound screening",
+   "Point-of-care blood glucose"
+  ],
+  "ans": 4,
+  "interp": "ทารกตัวโต (4.6 kg) มี omphalocele และลิ้นโต = สงสัย Beckwith-Wiedemann syndrome → ถามการตรวจข้างเตียงที่เร่งด่วนที่สุด ต้องรู้ว่า BWS มี hyperinsulinism → น้ำตาลต่ำ",
+  "why": "<b>Beckwith-Wiedemann syndrome (BWS)</b> เป็น anomaly ร่วมสำคัญของ omphalocele: <b>macrosomia · macroglossia · omphalocele</b> ร่วมกับอวัยวะโต (hemihypertrophy, ไตโต ตับโต) — ทารกราวครึ่งหนึ่งมี <b>hyperinsulinism</b> ทำให้<b>น้ำตาลในเลือดต่ำ</b>ตั้งแต่ชั่วโมงแรก ๆ ซึ่งถ้าไม่ตรวจและแก้จะเกิดชักและสมองเสียหายถาวร จึงต้อง<b>ตรวจน้ำตาลข้างเตียงทันทีและซ้ำ</b> ให้ IV dextrose ตามระดับ · ระยะยาว BWS เสี่ยง embryonal tumor (Wilms, hepatoblastoma) ต้องคัดกรองด้วย USG ท้องและ AFP เป็นระยะ · ลิ้นโตอาจอุดทางหายใจและทำให้ใส่ท่อยาก · ทั้งหมดนี้คือ 'การตรวจหา associated anomalies' ที่ต้องทำตั้งแต่แรกรับ · สไลด์หน้า 11: <b>Thorough examinations to find out intestinal atresia/ associated anomalies</b>",
+  "wrong": {
+   "A": "แคลเซียมต่ำพบในทารกแม่เป็นเบาหวาน คลอดก่อนกำหนด หรือ DiGeorge (22q11) ไม่ใช่ปัญหาเฉียบพลันหลักของ BWS · จะถูกถ้าทารกมีหัวใจพิการ conotruncal ร่วมเพดานโหว่และกระตุก ตรวจ calcium",
+   "B": "Hypothyroidism แต่กำเนิดก็ทำให้ลิ้นโตได้ แต่ทารกมักไม่ตัวโต ไม่สัมพันธ์กับ omphalocele และตรวจได้จากการคัดกรองทารกแรกเกิดตามปกติ ไม่เร่งด่วนข้างเตียง · จะถูกถ้าทารกอายุ 3 สัปดาห์ ลิ้นโต ตัวเหลืองนาน ท้องผูก สะดือจุ่น กระหม่อมหลังกว้าง",
+   "C": "ฟิล์มท้องไม่ช่วยประเมินปัญหาเร่งด่วนของทารกนี้ — ถุงสมบูรณ์ เห็นอวัยวะได้อยู่แล้ว · จะถูกถ้าทารกท้องอืดอาเจียนน้ำดี สงสัยลำไส้อุดตัน",
+   "D": "Cranial US ใช้คัดกรองเลือดออกในสมองของทารกคลอดก่อนกำหนดมาก ไม่ใช่การตรวจเร่งด่วนของ BWS · จะถูกถ้าทารกอายุครรภ์ 27 สัปดาห์ในวันที่ 3–7"
+  },
+  "trap": "เห็นถุงที่สะดือแล้วคิดแต่เรื่องผ่าตัด — ทารกตัวโต ลิ้นโต + omphalocele = BWS ซึ่งอันตรายเฉียบพลันคือน้ำตาลต่ำ",
+  "summary": [
+   "Omphalocele + macroglossia + macrosomia = Beckwith-Wiedemann → ตรวจน้ำตาลข้างเตียงทันทีและซ้ำ",
+   "BWS: hyperinsulinism (น้ำตาลต่ำ) · hemihypertrophy · ไต/ ตับโต · ear creases/ pits",
+   "ระยะยาว: เสี่ยง Wilms tumor และ hepatoblastoma → USG ท้องทุก 3 เดือนถึงราว 7 ปี + AFP ช่วงแรก",
+   "ลิ้นโต → ทางหายใจอุดกั้น/ ใส่ท่อยาก เตรียมพร้อมตอนดมยา",
+   "กลไกพันธุกรรม: ความผิดปกติของ imprinting ที่ 11p15",
+   "Omphalocele ทุกราย: echo · โครโมโซม · ตรวจหาลักษณะ BWS ตั้งแต่แรกรับ"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — สไลด์หน้า 11 ให้ตรวจหา associated anomalies แต่ไม่ได้ระบุ BWS หรือน้ำตาลต่ำตรง ๆ ข้อนี้จึงใช้ความรู้จากตำรา (Holcomb) และแนวทางคัดกรองมะเร็งของ BWS (international consensus 2018) ซึ่งอยู่ในหัวข้อนี้",
+  "mnemonic": "<b>'BWS = Big baby · Big tongue · Belly wall defect · Blood sugar ต่ำ'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; Brioude F et al. Expert consensus document: Beckwith-Wiedemann syndrome spectrum (Nat Rev Endocrinol 2018;14:229–249)",
+  "variants": [
+   "ทารก omphalocele ลิ้นโต น้ำตาลต่ำซ้ำ ๆ แม้ให้ dextrose 10% ปริมาณสูง → hyperinsulinism ให้ glucose rate สูง พิจารณา diazoxide",
+   "เด็กอายุ 3 ปีที่เป็น BWS คลำได้ก้อนในท้องด้านข้าง → Wilms tumor",
+   "ทารก omphalocele ลิ้นโตจนอุดทางหายใจขณะหลับ → จัดท่านอนคว่ำ/ ตะแคง ประเมินทางหายใจ อาจต้องผ่าตัดลดลิ้นภายหลัง"
+  ],
+  "notes": "สไลด์หน้า 11 — ตัวพิมพ์: <b>Initial management</b> · <b>• IV access and fluid resuscitation • OG decompression • Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag) • Empirical ATB • Thorough examinations to find out intestinal atresia/ associated anomalies</b><br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p11"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 11 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "35": {
+  "stem": "A 2.8-kg newborn with gastroschisis undergoes attempted primary closure. After the bowel is reduced and the fascia approximated, peak inspiratory pressure rises from 18 to 32 cm H2O, the lower limbs become mottled, and bladder pressure is 24 mmHg. What is the most appropriate next step?",
+  "opts": [
+   "Complete the fascial closure and increase ventilator pressures",
+   "Complete the closure and give a fluid bolus for poor perfusion",
+   "Resect part of the bowel to allow closure",
+   "Paralyze the infant and complete the closure",
+   "Reopen and place a silo for staged reduction"
+  ],
+  "ans": 4,
+  "interp": "ลองปิด gastroschisis แบบ primary แล้ว ความดันช่วยหายใจสูงขึ้นมาก ขาลาย ความดันกระเพาะปัสสาวะ 24 mmHg = abdominal compartment syndrome → ถามขั้นต่อไป · จุดหลอก: สไลด์ให้ immediate closure แต่ทำได้เฉพาะเมื่อไม่ตึง",
+  "why": "ทารก gastroschisis มีช่องท้องเล็กกว่าปกติ การดันลำไส้ที่บวมกลับทั้งหมดในครั้งเดียวทำให้<b>ความดันในช่องท้องสูง (abdominal compartment syndrome)</b>: กระบังลมถูกดัน → <b>peak inspiratory pressure สูง</b> · IVC ถูกกด → เลือดไหลกลับลดลง <b>ขาลาย/ เขียว</b> ปัสสาวะน้อย · ลำไส้และไตขาดเลือด → NEC, ลำไส้ตาย · เกณฑ์ที่ใช้คือ <b>bladder (intravesical) pressure &gt;20 mmHg</b> หรือ peak inspiratory pressure เพิ่มมาก (&gt;25–30 cm H2O) → <b>ห้ามฝืนปิด</b> ต้องเปิดออกแล้วใส่ <b>silo</b> ค่อยลดลำไส้ทีละน้อยใน 3–7 วันแล้วปิด (delayed closure) · ERNICA 2024: silo กับ primary closure ผลใกล้เคียงกัน — เลือก primary เมื่อปิดได้ไม่ตึง · สไลด์หน้า 12 ให้ทั้ง <b>Immediate closure/ primary repair</b> และ <b>Silo assisted/delayed closure with serial reduction over a few days</b>",
+  "wrong": {
+   "A": "เพิ่มความดันเครื่องช่วยหายใจไม่แก้สาเหตุ (ความดันในช่องท้อง) และ IVC ที่ถูกกดยังทำให้ขาและไตขาดเลือด ลำไส้ขาดเลือดต่อเนื่อง · จะถูกถ้าทารกหลังปิดที่ความดันกระเพาะปัสสาวะปกติ แต่ปอดแฟบจาก atelectasis ต้องเพิ่ม PEEP",
+   "B": "ขาลายเกิดจาก IVC ถูกกดทับ ไม่ใช่ขาดน้ำ การให้น้ำเพิ่มทำให้ลำไส้บวมมากขึ้นและความดันในช่องท้องสูงขึ้นอีก · จะถูกถ้าทารก gastroschisis ก่อนผ่าตัดที่ชีพจรเร็ว CRT ช้า ปัสสาวะน้อย จากการเสียน้ำผ่านลำไส้",
+   "C": "ตัดลำไส้ที่ยังดีเพื่อให้ปิดได้ทำให้เสี่ยง short bowel syndrome โดยไม่จำเป็น — ลำไส้บวมจะยุบลงเองใน silo · จะถูกถ้าพบลำไส้ส่วนที่ตายจริง (necrosis) หรือ atresia ที่ต้องตัดออก",
+   "D": "Paralysis ช่วยคลายกล้ามเนื้อผนังท้องได้บ้างและบางศูนย์ใช้หลังปิดช่วงสั้น แต่เมื่อความดันกระเพาะปัสสาวะ &gt;20 mmHg ร่วมกับ PIP สูงและขาลายแล้ว การฝืนปิดยังเสี่ยงลำไส้และไตขาดเลือด · จะถูกถ้าการปิดตึงเล็กน้อย ความดันกระเพาะปัสสาวะ 12–15 mmHg และใช้ช่วยให้หายใจสบายช่วงแรกหลังผ่าตัด"
+  },
+  "trap": "สไลด์เขียน 'Immediate closure' จึงพยายามปิดให้ได้ทุกราย — สัญญาณ compartment syndrome (PIP ↑, ขาลาย, bladder pressure &gt;20) คือเกณฑ์ให้เปลี่ยนเป็น silo ทันที",
+  "summary": [
+   "Primary closure ได้เมื่อไม่ตึง · bladder pressure &gt;20 mmHg หรือ PIP สูงมาก → เปลี่ยนเป็น silo",
+   "Abdominal compartment syndrome: PIP ↑ · ขาลาย/ เขียว (IVC ถูกกด) · ปัสสาวะน้อย · ลำไส้/ ไตขาดเลือด",
+   "Silo: ค่อยบีบลดลำไส้ทุกวัน ปิดได้ใน 3–7 วัน (delayed closure)",
+   "ERNICA 2024: silo ≈ primary closure ในผลลัพธ์ · sutureless closure เป็นทางเลือกที่ลดการดมยา",
+   "ห้ามแก้ด้วยการให้น้ำเพิ่มหรือตัดลำไส้ที่ยังดี",
+   "หลังปิด: เฝ้าความดันกระเพาะปัสสาวะ ปัสสาวะ สีขา และความดันช่วยหายใจ"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — สไลด์หน้า 12 ให้ silo assisted/ delayed closure เป็นทางเลือก แต่ไม่ได้เขียนเกณฑ์เปลี่ยนจาก primary · เกณฑ์ความดันกระเพาะปัสสาวะ &gt;20 mmHg และ PIP มาจากตำรา (Holcomb) ตัวเลขตัดแต่ละศูนย์ต่างกันเล็กน้อย",
+  "mnemonic": "<b>'ปิดแล้วปอดอึด ขาลาย กระเพาะปัสสาวะ &gt;20 = เปิด ใส่ silo'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60)",
+  "variants": [
+   "ทารก gastroschisis ลดลำไส้แล้วความดันกระเพาะปัสสาวะ 10 mmHg PIP ไม่เปลี่ยน → ปิดแบบ primary ได้",
+   "ทารก gastroschisis ปิดแบบ primary ไปแล้ว 12 ชั่วโมงต่อมาปัสสาวะไม่ออก ท้องตึง ขาเย็น → เปิดแผลออกใส่ silo",
+   "ทารก gastroschisis ลำไส้บวมมาก ทีมเลือกใส่ preformed silo ที่ข้างเตียงตั้งแต่แรกโดยไม่ลองปิด → ทางเลือกที่ยอมรับได้ ผลใกล้เคียง primary"
+  ],
+  "notes": "สไลด์หน้า 12 — ตัวพิมพ์: <b>Surgical management</b> · <b>Gastroschisis: • Immediate closure/ primary repair • Silo assisted/delayed closure with serial reduction over a few days</b><br>รูปในสไลด์หน้า 12: ภาพวาดขั้นตอน primary repair + ภาพหลังปิดแผลที่สะดือ · ภาพ silo ลำไส้ในถุงพลาสติก ค่อย ๆ บีบลงจนปิดได้<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p12"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 12 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "36": {
+  "stem": "A newborn with gastroschisis has a spring-loaded silo placed at the bedside. Over what period is closure usually completed?",
+  "opts": [
+   "Within the first six hours",
+   "Within twenty-four hours",
+   "Over several days",
+   "Over four to six weeks",
+   "After six months of age"
+  ],
+  "ans": 2,
+  "interp": "ทารก gastroschisis ใส่ silo ข้างเตียง → ถามระยะเวลาที่มักปิดผนังท้องได้ ต้องรู้หลัก serial reduction ของ silo",
+  "why": "<b>Silo</b> คือถุงซิลิโคนที่มีวงสปริงฐาน (preformed, spring-loaded) ใส่ลงในรูโดยไม่ต้องเย็บ ลำไส้อยู่ในถุงที่แขวนตั้งเหนือทารก แล้ว<b>บีบลดลำไส้ลงช่องท้องทีละน้อยวันละ 1–2 ครั้ง</b> (serial reduction) ให้ลำไส้ยุบบวมและช่องท้องค่อย ๆ ขยายรับ โดยเฝ้าความดันช่วยหายใจ ปัสสาวะ และสีลำไส้ · เมื่อลำไส้ลงหมด (มัก<b>ราว 3–7 วัน</b>) จึงเอา silo ออกแล้วปิดรู ด้วยการเย็บ fascia หรือแบบ sutureless · ถ้านานเกิน ~2 สัปดาห์เสี่ยงติดเชื้อและ silo หลุด · สไลด์หน้า 12: <b>Silo assisted/delayed closure with serial reduction over a few days</b>",
+  "wrong": {
+   "A": "ภายใน 6 ชั่วโมงคือกรอบของการปิดแบบ immediate/ primary ที่ทำได้เมื่อลำไส้ลดกลับได้ไม่ตึง ไม่ใช่ silo · จะถูกถ้าถามเวลาที่นิยมปิด gastroschisis แบบ primary หลังคลอดในศูนย์ที่พร้อม",
+   "B": "24 ชั่วโมงเร็วเกินไปสำหรับ silo — ลำไส้ที่บวมจนต้องใช้ silo ต้องใช้เวลาหลายวันให้ยุบ การบีบเร็วเกินทำให้ลำไส้ขาดเลือดและความดันในช่องท้องสูง · จะถูกถ้าถามช่วงเวลาที่ต้องตรวจสีลำไส้ใน silo ครั้งแรกหลังใส่ (ทุกไม่กี่ชั่วโมง)",
+   "D": "4–6 สัปดาห์นานเกิน — silo ที่ค้างนานเสี่ยงติดเชื้อ หลุด และ fascia หดตัว · ช่วง 3–6 สัปดาห์คือเวลาที่กลับไปต่อ atresia ภายหลัง · จะถูกถ้าถามเวลาที่ต่อลำไส้ atresia ใน gastroschisis ที่ลำไส้อักเสบหนาตอนแรก",
+   "E": "อายุ 6 เดือนขึ้นไปคือเวลาที่ซ่อม ventral hernia หลังรักษา giant omphalocele แบบ escharification หรือซ่อม umbilical hernia ที่เหลือหลัง sutureless closure ถ้าไม่ปิดเอง · จะถูกถ้าเด็กเคยรักษา giant omphalocele ด้วยการทายา เหลือไส้เลื่อนผนังท้อง"
+  },
+  "trap": "สับสนระยะเวลาระหว่างวิธีต่าง ๆ — primary = ทันที · silo = หลายวัน (3–7) · ต่อ atresia = 3–6 สัปดาห์ · ventral hernia หลัง escharification = เป็นปีภายหลัง",
+  "summary": [
+   "Silo: ถุงสปริงใส่รูโดยไม่เย็บ แขวนตั้ง บีบลดลำไส้วันละ 1–2 ครั้ง → ปิดได้ใน ~3–7 วัน",
+   "เฝ้า: สีลำไส้ในถุง · PIP · ปัสสาวะ · ความดันกระเพาะปัสสาวะ",
+   "บีบเร็วเกิน → ลำไส้ขาดเลือด/ compartment syndrome · ค้างนาน &gt;2 สัปดาห์ → ติดเชื้อ silo หลุด",
+   "ปิดหลัง silo: เย็บ fascia หรือ sutureless (ใช้สายสะดือ/ แผ่นปิด)",
+   "Primary closure ทันทีเมื่อไม่ตึง · ERNICA 2024: ผลสองวิธีใกล้เคียงกัน",
+   "ระยะเวลาอื่น: ต่อ atresia 3–6 สัปดาห์ · ซ่อม ventral hernia หลัง escharification เป็นปีภายหลัง"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับสไลด์หน้า 12 'serial reduction over a few days' · ตัวเลข 3–7 วันมาจากตำรา (Holcomb) ซึ่งสอดคล้องกับคำว่า a few days",
+  "mnemonic": "<b>'Silo = Slow (ไม่กี่วัน) · Primary = Prompt (ทันที)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60)",
+  "variants": [
+   "ทารกใส่ silo วันที่ 2 ลำไส้ในถุงเปลี่ยนเป็นสีม่วงหลังบีบลง → คลายการบีบ บีบลงช้าลง",
+   "ทารกใส่ silo วันที่ 5 ลำไส้ลงช่องท้องหมดแล้ว → เอา silo ออก ปิดรูแบบ sutureless หรือเย็บ fascia",
+   "ทารกใส่ silo 3 สัปดาห์ยังลดลำไส้ได้น้อย ขอบ silo แดงมีหนอง → ติดเชื้อ ต้องเปลี่ยนแนวทาง เช่น ปิดด้วยวัสดุชั่วคราว"
+  ],
+  "notes": "สไลด์หน้า 12 — ตัวพิมพ์: <b>Surgical management</b> · <b>Gastroschisis: • Immediate closure/ primary repair • Silo assisted/delayed closure with serial reduction over a few days</b><br>รูปในสไลด์หน้า 12: ภาพวาดขั้นตอน primary repair + ภาพหลังปิดแผลที่สะดือ · ภาพ silo ลำไส้ในถุงพลาสติก ค่อย ๆ บีบลงจนปิดได้<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p12"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 12 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "37": {
+  "stem": "A 3.0-kg newborn with gastroschisis has easily reducible bowel. At the bedside without general anesthesia, the bowel is reduced and the defect is covered with the preserved umbilical cord and an occlusive dressing, without fascial sutures. Which statement about this approach is most accurate?",
+  "opts": [
+   "It is contraindicated because the defect is left unsutured",
+   "It requires conversion to fascial closure within 48 hours",
+   "It is an accepted closure method with comparable outcomes",
+   "It is reserved for omphalocele rather than gastroschisis",
+   "It eliminates the need for subsequent parenteral nutrition"
+  ],
+  "ans": 2,
+  "interp": "ทารก gastroschisis ลำไส้ลดกลับง่าย ปิดรูด้วยสายสะดือและแผ่นปิดโดยไม่เย็บ fascia ไม่ดมยา = sutureless closure → ถามข้อความที่ถูกต้อง · จุดหลอก: สไลด์เขียนแค่ primary repair กับ silo คนจึงคิดว่าการไม่เย็บเป็นวิธีที่ผิด",
+  "why": "<b>Sutureless closure</b> (plastic closure) คือดันลำไส้กลับ แล้วใช้<b>สายสะดือของทารกเองหรือแผ่นปิดชนิด occlusive คลุมรู</b>ปล่อยให้รูหดและผิวหนังปิดเองในราว 1–3 สัปดาห์ ทำได้ทั้งเป็น primary closure ข้างเตียงโดย<b>ไม่ต้องดมยาสลบ</b> หรือหลังลดลำไส้ด้วย silo · ERNICA 2024 แนะนำว่าเป็น<b>ทางเลือกที่ยอมรับได้</b> ผลด้านการอยู่รอด ระยะเวลาเริ่มกินนม และระยะนอนโรงพยาบาลใกล้เคียงการเย็บ fascia ลดการดมยาและใช้เครื่องช่วยหายใจ แต่มี<b>umbilical hernia</b> เหลือบ่อยกว่า ซึ่งส่วนใหญ่ปิดเองหรือซ่อมภายหลัง · ทุกวิธียังต้องรอลำไส้ทำงานและอาจต้องใช้ PN ช่วงแรก · สไลด์หน้า 12 <b>Gastroschisis: • Immediate closure/ primary repair • Silo assisted/delayed closure with serial reduction over a few days</b> — sutureless เป็นรูปแบบหนึ่งของการปิดเหล่านี้",
+  "wrong": {
+   "A": "รูที่ไม่เย็บไม่ใช่ข้อห้าม — สายสะดือ/ แผ่นปิดคลุมจนรูหดและผิวหนังปิดเอง เป็นวิธีที่มีหลักฐานรองรับ · จะถูกถ้าลำไส้ลดกลับไม่ได้ทั้งหมดหรือรูกว้างมากจนแผ่นปิดคลุมไม่ได้ ซึ่งต้องใช้ silo ก่อน",
+   "B": "Sutureless closure ไม่ต้องเปลี่ยนเป็นการเย็บ fascia ตามกำหนด — รูปิดเองในไม่กี่สัปดาห์ ที่อาจต้องผ่าตัดภายหลังคือ umbilical hernia ที่ไม่ปิดเอง · จะถูกถ้าถามสิ่งที่อาจต้องซ่อมภายหลัง (umbilical hernia ที่ยังไม่ปิดเมื่ออายุราว 4–5 ปี)",
+   "D": "Omphalocele ใช้ primary repair, staged closure หรือ escharification — sutureless โดยใช้สายสะดือคลุมรูพัฒนามาเพื่อ gastroschisis ที่รูเล็กข้างสายสะดือ · จะถูกถ้าถามวิธีที่ใช้กับ giant omphalocele ที่ผ่าตัดไม่ได้ (escharification)",
+   "E": "ไม่มีวิธีปิดใดที่ทำให้ไม่ต้องใช้ PN — ลำไส้ gastroschisis บีบตัวช้าในช่วงแรกทุกราย ต้องใช้ PN จนกินนมได้เต็มที่ · ไม่มีสถานการณ์ใดที่เลือกวิธีปิดเพื่อหวังว่าจะไม่ต้องใช้ PN เลย"
+  },
+  "trap": "จำสไลด์ว่ามีแค่ 'primary repair' กับ 'silo' แล้วคิดว่าไม่เย็บ = ผิดหลัก — sutureless เป็นรูปแบบหนึ่งของการปิดที่ ERNICA ยอมรับ ข้อเสียหลักคือ umbilical hernia",
+  "summary": [
+   "Sutureless closure: ดันลำไส้กลับ ใช้สายสะดือ/ แผ่นปิด occlusive คลุมรู ไม่เย็บ fascia · ทำข้างเตียงได้ไม่ต้องดมยา",
+   "ERNICA 2024: ยอมรับได้ ผลใกล้เคียงการเย็บ · ลดการดมยาและเวลาใช้เครื่องช่วยหายใจ",
+   "ข้อเสีย: umbilical hernia บ่อยกว่า (ส่วนใหญ่ปิดเอง)",
+   "ทำได้ทั้งเป็น primary หรือหลังลดลำไส้ด้วย silo",
+   "ทุกวิธียังต้อง PN ช่วงแรกจนลำไส้ทำงาน · ERNICA ตั้งเป้าเริ่มนมภายใน 14 วัน",
+   "ข้อห้าม: ลำไส้ลดไม่ได้หมด · รูกว้างมาก · ต้องจัดการ atresia/ perforation ในห้องผ่าตัด"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง-สูง — สไลด์หน้า 12 ไม่ได้กล่าวถึง sutureless ตรง ๆ แต่ ERNICA 2024 ให้เป็นทางเลือกที่ผลใกล้เคียงกัน (หลักฐานส่วนใหญ่เป็น cohort และ meta-analysis ไม่ใช่ RCT ขนาดใหญ่) จึงเป็นความรู้เกินสไลด์ที่อยู่ในหัวข้อการปิด gastroschisis",
+  "mnemonic": "<b>'ไม่เย็บก็ปิดได้ — แต่ระวังสะดือจุ่น (umbilical hernia)'</b>",
+  "guide": "ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects",
+  "variants": [
+   "ทารกเคยทำ sutureless closure ตอนแรกเกิด อายุ 2 ปีมีสะดือจุ่นนุ่ม ดันกลับได้ → umbilical hernia เฝ้าดูได้",
+   "ทารก gastroschisis ใส่ silo ลดลำไส้หมดในวันที่ 4 → เอา silo ออกแล้วปิดแบบ sutureless ข้างเตียงได้",
+   "ทารก gastroschisis มี perforation ที่ต้องซ่อม → ปิดในห้องผ่าตัดภายใต้การดมยา ไม่ใช้ sutureless ข้างเตียง"
+  ],
+  "notes": "สไลด์หน้า 12 — ตัวพิมพ์: <b>Surgical management</b> · <b>Gastroschisis: • Immediate closure/ primary repair • Silo assisted/delayed closure with serial reduction over a few days</b><br>รูปในสไลด์หน้า 12: ภาพวาดขั้นตอน primary repair + ภาพหลังปิดแผลที่สะดือ · ภาพ silo ลำไส้ในถุงพลาสติก ค่อย ๆ บีบลงจนปิดได้<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p12"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 12 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "38": {
+  "stem": "A 3.3-kg newborn has a 2.5-cm membrane-covered defect at the umbilicus containing loops of small bowel only. Echocardiography, karyotype, and blood glucose are normal, and he is breathing comfortably on day 2 of life. Which method of repair is most appropriate?",
+  "opts": [
+   "Primary fascial closure in one operation",
+   "Escharification with delayed hernia repair",
+   "Staged closure with a silo",
+   "Observation until the defect closes spontaneously",
+   "Skin flap closure leaving a ventral hernia"
+  ],
+  "ans": 0,
+  "interp": "omphalocele เล็ก (2.5 cm มีแค่ลำไส้) ประเมิน anomaly ปกติ หายใจดี → ถามวิธีปิดที่เหมาะ ต้องรู้ว่าเลือกวิธีปิด omphalocele ตามขนาดและสภาพทารก",
+  "why": "การเลือกวิธีปิด omphalocele ขึ้นกับ<b>ขนาดรู ตับในถุง และสภาพทารก (ปอด หัวใจ)</b>: <b>omphalocele เล็ก (&lt;~4–5 cm ไม่มีตับ)</b> ในทารกที่แข็งแรง → <b>primary repair</b>: ตัดถุงออก ดันอวัยวะกลับ ดูการหมุนของลำไส้ แล้วเย็บ fascia และผิวหนังในครั้งเดียว · <b>ก้อนใหญ่</b>ที่ปิดทันทีไม่ได้ → <b>staged closure</b> (silo/ mesh ค่อยลด) · <b>giant</b> หรือทารกป่วยหนัก/ ปอดไม่ดี → <b>escharification</b> แล้วซ่อม ventral hernia ภายหลัง · การผ่าตัดไม่เร่งด่วนเมื่อถุงสมบูรณ์ ทำเมื่อประเมิน anomaly เสร็จและทารกพร้อม · omphalocele ไม่ปิดเอง (ต่างจาก umbilical hernia) · สไลด์หน้า 13 <b>Omphalocele: • Immediate closure/ primary repair • Staged Closure • Escharification (\"Paint and Wait\")</b>",
+  "wrong": {
+   "B": "Escharification ใช้กับ giant omphalocele หรือทารกที่ผ่าตัดใหญ่ไม่ได้ (ปอดไม่ดี หัวใจพิการรุนแรง) — ใช้เวลานานหลายเดือนและเหลือ ventral hernia ไม่คุ้มในก้อนเล็กที่ปิดได้ครั้งเดียว · จะถูกถ้าทารกมี omphalocele 9 cm มีตับทั้งหมดในถุงและต้องใช้เครื่องช่วยหายใจ",
+   "C": "Staged closure ใช้เมื่อช่องท้องเล็กเกินจะรับอวัยวะทั้งหมดในครั้งเดียว (ก้อนใหญ่มีตับ) · จะถูกถ้าทารกมี omphalocele 6 cm มีตับบางส่วน หายใจได้ดี แต่ลองดันกลับแล้วตึงเกิน",
+   "D": "Omphalocele เป็นรูที่ fascia ไม่ปิดและมีอวัยวะอยู่ในถุง — ไม่ปิดเอง ต่างจาก umbilical hernia ที่มีผิวหนังคลุมและปิดเองได้ส่วนใหญ่ · จะถูกถ้าทารกอายุ 1 เดือนมีก้อนนุ่มที่สะดือผิวหนังปกติคลุม ดันกลับได้",
+   "E": "ปิดเฉพาะผิวหนัง (skin flap) แล้วเหลือ ventral hernia เป็นทางเลือกเมื่อ fascia ปิดไม่ได้โดยไม่ตึง ไม่ใช่ในก้อน 2.5 cm ที่เย็บ fascia ได้ · จะถูกถ้าทารก omphalocele ขนาดกลางที่ fascia ดึงมาชนกันไม่ได้แต่ผิวหนังรอบ ๆ ยืดคลุมได้"
+  },
+  "trap": "จำสามวิธีในสไลด์แต่ไม่รู้ว่าเลือกอย่างไร — ก้อนเล็ก ทารกแข็งแรง = primary · ก้อนใหญ่ = staged · giant หรือทารกป่วยหนัก = escharification",
+  "summary": [
+   "เลือกวิธีปิด omphalocele ตาม ขนาดรู · ตับในถุง · ปอด/ หัวใจของทารก",
+   "เล็ก (&lt;~4–5 cm ไม่มีตับ) + ทารกพร้อม → primary repair: ตัดถุง ดันกลับ ดู malrotation เย็บ fascia + ผิวหนัง",
+   "ใหญ่ ปิดทันทีตึงเกิน → staged closure (silo/ mesh ค่อยลด)",
+   "Giant หรือทารกป่วยหนัก → escharification ('paint and wait') → ventral hernia ซ่อมภายหลัง",
+   "ถุงสมบูรณ์ = ไม่เร่งด่วน ผ่าเมื่อประเมิน anomaly เสร็จ",
+   "Omphalocele ไม่ปิดเอง · umbilical hernia (ผิวหนังคลุม) ปิดเองได้"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — สไลด์หน้า 13 ให้ primary repair เป็นวิธีแรก แต่ไม่ได้เขียนเกณฑ์เลือก · เกณฑ์ขนาดและสภาพทารกมาจากตำรา (Holcomb) ตัวเลขตัดขนาดต่างกันเล็กน้อยตามแหล่ง",
+  "mnemonic": "<b>'เล็ก = ปิดเลย · ใหญ่ = ปิดเป็นขั้น · ยักษ์/ ป่วย = ทารอ'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric surgery",
+  "variants": [
+   "ทารก omphalocele 6 cm มีตับบางส่วน หายใจดี ดันกลับแล้วตึง → staged closure",
+   "ทารก omphalocele 3 cm ระหว่าง primary repair พบลำไส้หมุนผิดปกติ (malrotation) → ทำ Ladd procedure พร้อมกัน",
+   "ทารก omphalocele ขนาดกลางที่ fascia ชนกันไม่ได้แต่ผิวหนังยืดคลุมได้ → skin flap closure แล้วซ่อม ventral hernia ภายหลัง"
+  ],
+  "notes": "สไลด์หน้า 13 — ตัวพิมพ์: <b>Surgical management</b> · <b>Omphalocele: • Immediate closure/ primary repair • Staged Closure • Escharification (\"Paint and Wait\")</b><br>รูปในสไลด์หน้า 13: ภาพ primary repair 3 ขั้น · ภาพ giant omphalocele ที่ถุงกลายเป็นสะเก็ด (eschar) และภาพเด็กโตที่มี ventral hernia หลังรักษา<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p13"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 13 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "39": {
+  "stem": "A newborn with a giant omphalocele undergoes topical sac painting therapy. What is its expected result?",
+  "opts": [
+   "Spontaneous closure of the fascial defect",
+   "Return of the viscera into the abdomen within days",
+   "Epithelialization over the sac leaving a ventral hernia",
+   "Conversion of the sac to a fibrous peel requiring excision",
+   "Complete abdominal wall reconstitution without surgery"
+  ],
+  "ans": 2,
+  "interp": "ทารก giant omphalocele รักษาด้วยการทายาบนถุง (escharification) → ถามผลลัพธ์ที่คาดหวัง ต้องรู้กลไกของ 'paint and wait'",
+  "why": "<b>Escharification ('paint and wait')</b> คือ<b>ทายาฆ่าเชื้อบนถุงที่สมบูรณ์</b> (ปัจจุบันนิยม <b>silver sulfadiazine</b> · povidone-iodine และ silver nitrate ใช้ได้แต่ระวังพิษ iodine/ ปรอทในอดีต) ทุกวัน ถุงจะแห้งแข็งเป็น<b>สะเก็ด (eschar)</b> แล้ว<b>ผิวหนังจากขอบค่อย ๆ งอกคลุม (epithelialization)</b> ใช้เวลาหลายสัปดาห์ถึงหลายเดือน · ผลคือทารกมี<b>ผิวหนังคลุมแต่ fascia ยังเป็นรู = ventral hernia ขนาดใหญ่</b> ซึ่งช่องท้องจะค่อย ๆ ขยายตามการเติบโต แล้วจึง<b>ซ่อม ventral hernia</b> ภายหลัง (มักช่วงอายุ 1–5 ปี) · ข้อดีคือเลี่ยงการผ่าตัดใหญ่ในทารกที่ปอด/ หัวใจไม่พร้อม และเริ่มกินนมได้เร็ว · สไลด์หน้า 13 <b>Escharification (\"Paint and Wait\")</b> และรูปทารกที่ถุงกลายเป็นสะเก็ดกับเด็กโตที่มี ventral hernia",
+  "wrong": {
+   "A": "Fascia ไม่ปิดเองจากการทายา — ยาทำให้ผิวหนังงอกคลุมเท่านั้น รูของ fascia ยังอยู่เป็น ventral hernia · จะถูกถ้าถามผลของ umbilical hernia ในเด็กเล็ก ซึ่ง umbilical ring มักปิดเองภายในอายุ 4–5 ปี",
+   "B": "การทายาไม่ได้ทำให้อวัยวะกลับเข้าช่องท้องเร็ว — อวัยวะค่อย ๆ เข้าเมื่อช่องท้องโตขึ้นเป็นเดือนถึงปี · การลดลำไส้ภายในไม่กี่วันคือหลักของ silo · จะถูกถ้าถามผลที่คาดหวังของ silo ใน gastroschisis",
+   "D": "Fibrous peel เป็นลักษณะของลำไส้ gastroschisis ที่สัมผัสน้ำคร่ำ ไม่ใช่ผลของการทายาบนถุง omphalocele และ eschar ไม่ต้องตัดออก — หลุดเองเมื่อผิวงอกใต้ · จะถูกถ้าถามสาเหตุที่ลำไส้ gastroschisis หนาแข็งเป็นแผ่นคลุมตอนแรกเกิด",
+   "E": "ผนังท้องไม่กลับเป็นปกติเองทั้งหมด — ยังต้องผ่าตัดซ่อม ventral hernia ภายหลังเกือบทุกราย · ไม่มีสถานการณ์ใดที่ escharification ของ giant omphalocele ให้ผนังท้องสมบูรณ์โดยไม่ต้องผ่าตัดเลย เพราะ fascia ไม่งอกมาเชื่อมกันเอง"
+  },
+  "trap": "นึกว่า 'paint and wait' รอจนทุกอย่างหายเอง — สิ่งที่หายคือผิวหนังคลุม ส่วน fascia ยังเป็นรู ต้องซ่อม ventral hernia ภายหลังเสมอ",
+  "summary": [
+   "Escharification: ทายาบนถุงสมบูรณ์ → eschar → ผิวหนังงอกคลุม → เหลือ ventral hernia → ซ่อมภายหลัง (มักอายุ 1–5 ปี)",
+   "ยาที่ใช้: silver sulfadiazine (นิยม) · povidone-iodine (ระวัง hypothyroidism) · silver nitrate",
+   "ข้อบ่งชี้: giant omphalocele · ปอดไม่พัฒนา · หัวใจพิการรุนแรง · ทารกป่วยหนัก/ คลอดก่อนกำหนดมาก",
+   "ข้อดี: เลี่ยงผ่าตัดใหญ่ช่วงแรก เริ่มกินนมได้เร็ว · ข้อเสีย: ใช้เวลานาน เสี่ยงถุงแตก/ ติดเชื้อ",
+   "ช่องท้องค่อยขยายตามการเติบโต อวัยวะค่อยกลับเข้า",
+   "อาจใช้ผ้ายืดพันกดถุงช่วยดันอวัยวะลงช้า ๆ ร่วมด้วย"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — สไลด์หน้า 13 ให้ชื่อวิธีและรูปเด็กโตที่มี ventral hernia หลังรักษา ตรงกับคำตอบ · ชนิดยาและช่วงอายุที่ซ่อมมาจากตำรา (Holcomb) สไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'Paint → Scab → Skin → Hernia → Repair'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric surgery",
+  "variants": [
+   "ทารก giant omphalocele ทา povidone-iodine ทุกวัน 3 สัปดาห์แล้ว TSH สูง → hypothyroidism จาก iodine เปลี่ยนเป็น silver sulfadiazine",
+   "เด็กอายุ 2 ปีที่เคยรักษา giant omphalocele ด้วยการทายา มีผนังท้องโป่งกว้างผิวหนังคลุม → ventral hernia นัดผ่าตัดซ่อม",
+   "ทารก giant omphalocele ระหว่างทายามีถุงฉีกและลำไส้โผล่ → คลุมชุ่มและพิจารณาผ่าตัดเร่งด่วน"
+  ],
+  "notes": "สไลด์หน้า 13 — ตัวพิมพ์: <b>Surgical management</b> · <b>Omphalocele: • Immediate closure/ primary repair • Staged Closure • Escharification (\"Paint and Wait\")</b><br>รูปในสไลด์หน้า 13: ภาพ primary repair 3 ขั้น · ภาพ giant omphalocele ที่ถุงกลายเป็นสะเก็ด (eschar) และภาพเด็กโตที่มี ventral hernia หลังรักษา<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p13"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 13 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "40": {
+  "stem": "A 2.9-kg term newborn has a 9-cm membrane-covered defect at the umbilicus containing nearly all of the liver and much of the bowel. His chest is narrow, he requires mechanical ventilation with high pressures, and echocardiography shows only a small patent foramen ovale. Which initial management of the abdominal wall defect is most appropriate?",
+  "opts": [
+   "Topical escharification of the intact sac",
+   "Immediate primary fascial closure",
+   "Emergency silo placement and daily reduction",
+   "Excision of the sac with skin flap coverage",
+   "Fascial closure after paralysis and high-frequency ventilation"
+  ],
+  "ans": 0,
+  "interp": "giant omphalocele (9 cm มีตับเกือบทั้งหมด) ทารกอกแคบ ต้องใช้เครื่องช่วยหายใจความดันสูง (pulmonary hypoplasia) หัวใจปกติ → ถามการจัดการผนังท้องเบื้องต้น ต้องรู้ข้อบ่งชี้ของ escharification",
+  "why": "<b>Giant omphalocele</b> (รู &gt;5 cm หรือมีตับส่วนใหญ่ในถุง) มีช่องท้องเล็กมากเพราะอวัยวะไม่เคยอยู่ข้างใน และมัก<b>ปอดไม่พัฒนา (pulmonary hypoplasia)</b> อกแคบ — การดันตับและลำไส้กลับในช่วงแรกจะดันกระบังลมขึ้น ทำให้หายใจแย่ลง บีบ IVC และหลอดเลือดดำตับบิด · ทารกที่ปอดไม่ดีจึงเหมาะกับ<b>escharification ('paint and wait')</b>: ทายาบนถุงสมบูรณ์ให้ผิวงอกคลุม ประคับประคองการหายใจจนปอดดีขึ้น แล้วซ่อม ventral hernia ภายหลังเมื่อช่องท้องโตพอ · ปัจจัยที่ตัดสินคือปอด ไม่ใช่หัวใจเท่านั้น · สไลด์หน้า 13 <b>Omphalocele: • Immediate closure/ primary repair • Staged Closure • Escharification (\"Paint and Wait\")</b> และรูป giant omphalocele ที่ถุงกลายเป็นสะเก็ด",
+  "wrong": {
+   "B": "Primary closure ของ giant omphalocele ดันกระบังลมขึ้นในทารกที่ปอดไม่ดีอยู่แล้ว ทำให้ช่วยหายใจไม่ได้ IVC ถูกกด และตับบิดขั้ว · จะถูกถ้าทารกมี omphalocele 3 cm มีแค่ลำไส้ หายใจเองได้ดี",
+   "C": "Staged closure ด้วย silo ยังต้องผ่าตัดดมยาและค่อยดันอวัยวะลงทุกวัน ซึ่งเพิ่มความดันในช่องท้องในทารกที่หายใจด้วยความดันสูง · จะถูกถ้าทารก omphalocele 6–7 cm ที่ปอดดี ดันกลับครั้งเดียวไม่ได้แต่ทนการลดทีละน้อยได้",
+   "D": "ตัดถุงแล้วคลุมด้วยผิวหนังยังเป็นการผ่าตัดใหญ่ในทารกที่ไม่พร้อม และ giant omphalocele ผิวหนังรอบ ๆ มักไม่พอคลุมตับทั้งก้อน · จะถูกถ้าทารก omphalocele ขนาดกลางที่ปอดดี fascia ชนกันไม่ได้แต่ผิวหนังยืดคลุมได้",
+   "E": "Paralysis และ HFOV ไม่ได้ทำให้ช่องท้องรับตับทั้งก้อนได้ การปิด fascia ยังดันกระบังลมและกด IVC · จะถูกถ้า (ส่วน HFOV) ทารกที่ปอดไม่พัฒนาต้องการกลยุทธ์ช่วยหายใจแบบ lung-protective ระหว่างรักษาแบบ escharification"
+  },
+  "trap": "หัวใจปกติแล้วคิดว่าผ่าตัดปิดได้ — สำหรับ giant omphalocele ตัวตัดสินที่สำคัญคือปอด (pulmonary hypoplasia) และขนาดช่องท้อง ไม่ใช่หัวใจอย่างเดียว",
+  "summary": [
+   "Giant omphalocele + pulmonary hypoplasia → escharification ทายาบนถุง ประคับประคองการหายใจ",
+   "Giant = รู &gt;5 cm หรือตับส่วนใหญ่ในถุง · ช่องท้องเล็ก · อกแคบ · ปอดไม่พัฒนา",
+   "ดันกลับเร็ว → กระบังลมถูกดัน · IVC ถูกกด · หลอดเลือดดำตับบิด",
+   "ข้อบ่งชี้ escharification อื่น: หัวใจพิการรุนแรง · คลอดก่อนกำหนดมาก · ทารกป่วยหนัก",
+   "ระยะยาว: ผิวงอกคลุม → ventral hernia → ซ่อมเมื่อช่องท้องโตพอ (มักอายุ 1–5 ปี)",
+   "Pulmonary hypoplasia เป็นปัจจัยพยากรณ์สำคัญของ giant omphalocele ที่ไม่มี anomaly อื่น"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — สไลด์หน้า 13 ให้ escharification เป็นหนึ่งในสามวิธี และรูปแสดง giant omphalocele ที่รักษาด้วยวิธีนี้ · ข้อบ่งชี้เรื่อง pulmonary hypoplasia มาจากตำรา (Holcomb) สไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'ยักษ์ + ปอดแฟบ = ทาแล้วรอ'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; Sabiston Textbook of Surgery 21st ed. (2022) — Pediatric surgery",
+  "variants": [
+   "ทารก giant omphalocele ปอดดี หัวใจปกติ น้ำหนัก 3.5 kg → staged closure หรือ escharification ตามความถนัดของศูนย์",
+   "ทารก giant omphalocele รักษาแบบทายา 4 เดือน ผิวงอกคลุมหมด หายใจดี → พันผ้ายืดกดถุงค่อย ๆ ช่วยดันอวัยวะลง รอซ่อม ventral hernia",
+   "ทารกคลอดก่อนกำหนด 29 สัปดาห์มี omphalocele 6 cm ต้องใช้เครื่องช่วยหายใจ → escharification ก่อน"
+  ],
+  "notes": "สไลด์หน้า 13 — ตัวพิมพ์: <b>Surgical management</b> · <b>Omphalocele: • Immediate closure/ primary repair • Staged Closure • Escharification (\"Paint and Wait\")</b><br>รูปในสไลด์หน้า 13: ภาพ primary repair 3 ขั้น · ภาพ giant omphalocele ที่ถุงกลายเป็นสะเก็ด (eschar) และภาพเด็กโตที่มี ventral hernia หลังรักษา<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p13"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 13 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ }
+}
