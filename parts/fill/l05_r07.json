@@ -1,0 +1,449 @@
+{
+ "61": {
+  "stem": "A 34-year-old man has a split-thickness graft harvested from the anterior thigh. He asks whether the donor site will need stitches or another graft. What is the correct answer and the reason?",
+  "opts": [
+   "It needs direct suturing because all dermis was removed",
+   "It needs another graft because no epithelium remains",
+   "It needs a local flap because the bed lacks blood supply",
+   "It heals on its own from the remaining dermis and adnexa",
+   "It heals only if left completely dry"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 19 — ตัวพิมพ์: <b>Split thickness skin graft</b> · <b>Epidermis + part of dermis · Donor site: spontaneous healing · Less primary contraction · Intense secondary contraction</b><br>รูปในสไลด์หน้า 19: รูปขวา: ภาพตัดขวางผิวหนัง ป้าย <b>Epidermis (5%) · Dermis (95%) · 100% · Subcutaneous tissue</b> · ระดับความหนาของ <b>Split-thickness skin graft</b> 3 ระดับ <b>Thin · Medium · Thick</b> (ตัดผ่านบางส่วนของ dermis) และ <b>Full-thickness skin graft</b> ตัดถึงฐาน dermis · ป้าย <b>Sebaceous gland · Hair follicle · Sweat gland</b> อยู่ลึกใน dermis ใต้ระดับ split-thickness<br>ลายมือ/ไฮไลต์หน้า 19: ไม่มีลายมือ · ไม่มีไฮไลต์<br>สไลด์หน้า 20 — ตัวพิมพ์: <b>Full thickness skin grafting</b> · <b>Epidermis + entire dermis · Donor-: primary closure or grafting · More primary contraction · Less secondary contraction</b><br>รูปในสไลด์หน้า 20: รูปขวา: ผู้สูงอายุมีแผลที่ปลายจมูก วาง graft แล้วเย็บรอบ ปลายไหมยาวหลายเส้นปล่อยไว้ (รูปซ้าย) → ผูกไขว้มัดก้อนสำลีกดบน graft (รูปขวา tie-over) · inset ล่างขวา: ภาพตัดขวางป้าย <b>Cotton</b> (บน) · <b>Nonadherent gauze</b> · <b>Skin graft</b> (ล่าง)<br>ลายมือ/ไฮไลต์หน้า 20: ลายมือท้าย More primary contraction: <b>\"~50%\"</b> · ไม่มีไฮไลต์<br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p19",
+   "l05_p20"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 19, 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + รูป",
+  "tags": [
+   "Plastic",
+   "Burn"
+  ],
+  "interp": "ชายตัด split-thickness graft จากต้นขาด้านหน้า ถามว่าที่ donor ต้องเย็บหรือต้องปลูกผิวซ้ำไหม → ถามการหายของ donor STSG และเหตุผล · จุดหลอก: ช้อยผสมเหตุผลของ FTSG",
+  "why": "STSG ตัด epidermis กับ dermis <b>เพียงบางส่วน</b> · dermis ส่วนล่างที่เหลือที่ donor ยังมี<b>รากขน ต่อม sebaceous และต่อมเหงื่อ</b> ซึ่งบุด้วยเซลล์ผิว (adnexa) → เซลล์งอกขึ้นมาจากแต่ละรูและจากขอบแผล ปิดผิวได้เอง (<b>spontaneous healing</b>) ในราว 1–2 สัปดาห์ (บางหายเร็วกว่า หนาหายช้ากว่า) · ช่วยด้วย dressing ที่ชุ่มชื้นพอเหมาะ · ต่างจาก FTSG ที่เอา dermis ไปทั้งหมด ไม่เหลือ adnexa จึงต้องเย็บปิดหรือปลูกผิว · สไลด์หน้า 19 <b>Donor site: spontaneous healing</b>",
+  "wrong": {
+   "A": "STSG ไม่ได้เอา dermis ไปทั้งหมด นั่นคือ FTSG · จะถูกถ้าหญิงตัด full-thickness graft จากเหนือไหปลาร้าเพื่อซ่อมปลายจมูก → donor ต้องเย็บปิดตรง",
+   "B": "ยังเหลือเซลล์ผิวใน adnexa ของ dermis ส่วนล่าง ไม่ต้องปลูกผิวซ้ำ · จะถูกถ้าชายตัด full-thickness graft ขนาดใหญ่จากขาหนีบจนเย็บปิด donor ไม่ได้ → ต้องปลูก STSG บน donor",
+   "C": "donor STSG มี dermis ที่เลือดเลี้ยงดี ไม่ต้องใช้ flap · จะถูกถ้าชายมีแผลที่หน้าแข้งเห็นกระดูกไม่มีเยื่อหุ้ม graft ไม่ติด → ต้องใช้ local flap",
+   "E": "แผลหายเร็วในสภาพชุ่มชื้นพอเหมาะ ไม่ใช่แห้งสนิท แผลแห้งเกิดสะเก็ดและหายช้า · ไม่มีสถานการณ์ใดที่ donor STSG หายได้เฉพาะเมื่อแห้งสนิท"
+  },
+  "trap": "A และ B เป็นการดูแล donor ของ FTSG — ถ้าสลับ split กับ full จะตอบผิดทันที",
+  "summary": [
+   "<b>STSG donor: spontaneous healing</b> — เซลล์งอกจาก adnexa (รากขน ต่อม) ใน dermis ที่เหลือ",
+   "<b>FTSG donor: primary closure or grafting</b> (หน้า 20)",
+   "STSG = epidermis + part of dermis · FTSG = epidermis + entire dermis",
+   "รูปหน้า 19: sebaceous gland, hair follicle, sweat gland อยู่ลึกใน dermis ใต้ระดับที่ตัด STSG",
+   "donor บางหายเร็วกว่าและตัดซ้ำได้ · donor หนาหายช้ากว่าและเป็นแผลเป็นมากกว่า",
+   "ดูแล donor ให้ชุ่มชื้นพอเหมาะ หายเร็วกว่าแผลแห้ง"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตัวพิมพ์หน้า 19–20 ตรงกัน · ตำราระบุ donor STSG หายใน 7–21 วันตามความหนา และแนะนำ dressing ที่รักษาความชุ่มชื้นเพื่อลดเวลาหายและความเจ็บ",
+  "mnemonic": "<b>'Split เหลือราก งอกเอง · Full ไม่เหลือ ต้องเย็บ'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "เด็กแผลไฟไหม้ต้องตัด STSG หลายรอบ → ตัดซ้ำจาก donor เดิมได้หลังหายราว 2 สัปดาห์",
+   "ชายสูงอายุผิวบางตัด STSG แบบหนา → donor หายช้าและเสี่ยงกลายเป็นแผลเรื้อรัง ควรตัดบาง",
+   "หญิง donor STSG ที่ต้นขาเจ็บมากและแห้งเป็นสะเก็ด → เปลี่ยนเป็น dressing ที่ชุ่มชื้น"
+  ]
+ },
+ "62": {
+  "stem": "A 68-year-old woman has a full-thickness graft taken from above the clavicle. How is the donor site managed?",
+  "opts": [
+   "Primary closure or grafting",
+   "Leave it to heal spontaneously",
+   "Apply only a hydrogel dressing",
+   "Cover it with a composite graft",
+   "Transfer a free flap into it"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Full thickness skin grafting</b> · <b>Epidermis + entire dermis · Donor-: primary closure or grafting · More primary contraction · Less secondary contraction</b><br>รูปในสไลด์หน้า 20: รูปขวา: ผู้สูงอายุมีแผลที่ปลายจมูก วาง graft แล้วเย็บรอบ ปลายไหมยาวหลายเส้นปล่อยไว้ (รูปซ้าย) → ผูกไขว้มัดก้อนสำลีกดบน graft (รูปขวา tie-over) · inset ล่างขวา: ภาพตัดขวางป้าย <b>Cotton</b> (บน) · <b>Nonadherent gauze</b> · <b>Skin graft</b> (ล่าง)<br>ลายมือ/ไฮไลต์หน้า 20: ลายมือท้าย More primary contraction: <b>\"~50%\"</b> · ไม่มีไฮไลต์<br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p20"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + รูป",
+  "tags": [
+   "Plastic",
+   "Onco"
+  ],
+  "interp": "หญิงตัด full-thickness graft จากเหนือไหปลาร้า → ถามการดูแลแผลที่ donor",
+  "why": "FTSG เอา<b>epidermis + dermis ทั้งหมด</b> ไป ที่ donor จึงไม่เหลือ adnexa ให้เซลล์งอกขึ้นมา หายเองไม่ได้ (หรือหายช้ามากเป็นแผลเป็น) · ต้อง<b>เย็บปิดตรง (primary closure)</b> ซึ่งทำได้เพราะเลือก donor ที่ผิวหย่อนพอ เช่น เหนือไหปลาร้า หลังหู ขาหนีบ เปลือกตาบน · ถ้า donor ใหญ่จนเย็บไม่ได้ ให้<b>ปลูก STSG</b> ปิด donor · ผิวเหนือไหปลาร้าและหลังหูสีและเนื้อใกล้หน้า จึงนิยมใช้ซ่อมหน้า · สไลด์หน้า 20 <b>Donor-: primary closure or grafting</b>",
+  "wrong": {
+   "B": "ปล่อยหายเองใช้กับ donor ของ STSG ที่ยังเหลือ dermis · จะถูกถ้าชายตัด split-thickness graft จากต้นขา → donor หายเองจาก adnexa",
+   "C": "hydrogel อย่างเดียวไม่ได้ปิดแผลที่ไม่มี dermis เหลือ · จะถูกถ้าชายมีแผลตื้นที่มีเนื้อตายเล็กน้อยและ exudate น้อย ใช้ hydrogel เพิ่มความชุ่มชื้นและช่วยละลายเนื้อตาย",
+   "D": "composite graft ใช้ซ่อม defect เล็กที่ต้องการกระดูกอ่อน ไม่ใช่ปิด donor · จะถูกถ้าชายมี defect ที่ขอบปีกจมูกไม่เกิน 1 cm ใช้ชิ้นผิวพร้อมกระดูกอ่อนจากหูมาซ่อม",
+   "E": "free flap ใหญ่เกินจำเป็นสำหรับ donor ที่เย็บได้ · จะถูกถ้าหญิงตัดเต้านมแล้วต้องการสร้างเต้านมใหม่ด้วยผิวและไขมันหน้าท้องที่ต่อหลอดเลือด (DIEP)"
+  },
+  "trap": "B (หายเอง) คือ donor ของ STSG — FTSG ไม่เหลือ dermis จึงหายเองไม่ได้",
+  "summary": [
+   "<b>FTSG</b> = Epidermis + entire dermis · <b>Donor-: primary closure or grafting</b>",
+   "ไม่เหลือ adnexa ที่ donor → หายเองไม่ได้",
+   "donor ที่นิยม: หลังหู เหนือไหปลาร้า เปลือกตาบน ขาหนีบ — ผิวหย่อน เย็บปิดได้",
+   "<b>More primary contraction</b> (~50% ตามลายมือ) · <b>Less secondary contraction</b>",
+   "รูปหน้า 20: เย็บ graft แล้วผูกไหมยาวไขว้มัดก้อนสำลีกด (tie-over)",
+   "ผิวเหนือไหปลาร้าและหลังหู สีและเนื้อใกล้หน้า"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตัวพิมพ์หน้า 20 ตรงตัว · ตำราเลือก donor FTSG ตามสีและเนื้อที่ใกล้บริเวณที่ซ่อม (หลังหู เหนือไหปลาร้าสำหรับหน้า) และปิด donor แบบตรง ตรงกัน",
+  "mnemonic": "<b>'Full เอาหมด ต้องเย็บปิด'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "ชายตัด FTSG จากขาหนีบเพื่อซ่อมฝ่ามือ → เย็บ donor ปิดตามแนวรอยพับขาหนีบ",
+   "หญิงตัด FTSG จากเปลือกตาบนซ่อมเปลือกตาล่าง → donor ปิดตามรอยพับตา ได้ผลแบบตาสองชั้น",
+   "ชาย donor FTSG ใหญ่เกินจนเย็บปิดไม่ได้ → ปลูก STSG ปิด donor"
+  ]
+ },
+ "63": {
+  "stem": "A 9-year-old girl had a large split-thickness graft placed over the front of the elbow after a burn. Months later the graft has shrunk and pulls the elbow into flexion. Which property of this graft explains this?",
+  "opts": [
+   "Intense primary contraction",
+   "Lack of epidermis in the graft",
+   "Excess dermis compared with a full-thickness graft",
+   "Intense secondary contraction",
+   "Composite tissue larger than 1 cm"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 19 — ตัวพิมพ์: <b>Split thickness skin graft</b> · <b>Epidermis + part of dermis · Donor site: spontaneous healing · Less primary contraction · Intense secondary contraction</b><br>รูปในสไลด์หน้า 19: รูปขวา: ภาพตัดขวางผิวหนัง ป้าย <b>Epidermis (5%) · Dermis (95%) · 100% · Subcutaneous tissue</b> · ระดับความหนาของ <b>Split-thickness skin graft</b> 3 ระดับ <b>Thin · Medium · Thick</b> (ตัดผ่านบางส่วนของ dermis) และ <b>Full-thickness skin graft</b> ตัดถึงฐาน dermis · ป้าย <b>Sebaceous gland · Hair follicle · Sweat gland</b> อยู่ลึกใน dermis ใต้ระดับ split-thickness<br>ลายมือ/ไฮไลต์หน้า 19: ไม่มีลายมือ · ไม่มีไฮไลต์<br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p19"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 19 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป",
+  "tags": [
+   "Plastic",
+   "Burn"
+  ],
+  "interp": "เด็กหญิงไฟไหม้ ปลูก STSG ใหญ่ที่ข้อพับศอก หลายเดือนต่อมา graft หดตัวดึงศอกให้งอ → ถามคุณสมบัติของ graft ที่อธิบายเรื่องนี้",
+  "why": "การหดตัวของ graft มี 2 ช่วง: <b>primary contraction</b> = หดทันทีหลังตัดจากแรงยืดหยุ่นของ elastin ใน dermis (มี dermis มากหดมาก) · <b>secondary contraction</b> = หดช้าหลัง graft ติดแล้ว จาก myofibroblast ในเนื้อแผลด้านล่าง · dermis ที่หนาช่วย<b>ยับยั้ง</b>การหดแบบนี้ · STSG มี dermis น้อย จึง<b>หดรองมาก</b> โดยเฉพาะ graft บางบนข้อพับ → ดึงข้อให้งอ (contracture) · ป้องกันด้วยการเลือก graft หนาหรือ FTSG บนข้อพับ ใส่ splint และกายภาพ · สไลด์หน้า 19 <b>Less primary contraction</b> · <b>Intense secondary contraction</b>",
+  "wrong": {
+   "A": "STSG หดช่วงแรกน้อย และการหดช่วงแรกเกิดทันทีหลังตัด ไม่ใช่หลายเดือน · จะถูกถ้าชายเห็น full-thickness graft ที่เพิ่งตัดจากหลังหูหดเล็กลงทันทีบนถาด",
+   "B": "STSG มี epidermis เสมอ · ไม่มีสถานการณ์ใดที่ skin graft ไม่มี epidermis แล้วยังติดเป็นผิว",
+   "C": "STSG มี dermis น้อยกว่า FTSG ไม่ใช่มากกว่า · ไม่มีสถานการณ์ใดที่ STSG มี dermis มากกว่า full-thickness graft",
+   "E": "composite graft คือผิวพร้อมเนื้อเยื่ออื่น ขนาดไม่เกิน 1 cm ไม่ใช่ STSG ขนาดใหญ่ · จะถูกถ้าชายใส่ composite graft จากหูขนาด 1.5 cm แล้ว graft ตายเพราะเลือดเข้าไม่ถึงกลาง"
+  },
+  "trap": "A กับ D ต่างกันแค่ primary/secondary — STSG หดช่วงแรกน้อย แต่หดช่วงหลังมาก (ตรงข้ามกับ FTSG)",
+  "summary": [
+   "<b>STSG</b>: <b>Less primary contraction · Intense secondary contraction</b>",
+   "<b>FTSG</b> (หน้า 20): More primary contraction · Less secondary contraction",
+   "Primary = หดทันทีหลังตัด (elastin ใน dermis) · Secondary = หดหลัง graft ติด (myofibroblast)",
+   "dermis หนายับยั้ง secondary contraction → graft หนาหดรองน้อยกว่า",
+   "STSG = epidermis + part of dermis (thin · medium · thick)",
+   "ข้อพับหลังไฟไหม้: เลือก graft หนาหรือ FTSG + splint + กายภาพ เพื่อลด contracture"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตัวพิมพ์หน้า 19 ตรงตัว · ตำราอธิบายกลไก secondary contraction จาก myofibroblast และการที่ dermis ยับยั้งการหดตรงกัน",
+  "mnemonic": "<b>'Split: หดทีหลังเยอะ · Full: หดทันทีเยอะ'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "เด็กไฟไหม้ที่ข้อพับเข่า ปลูก STSG บาง → ใส่ splint ให้เข่าเหยียดหลายเดือน",
+   "หญิงปลูก FTSG ที่ฝ่ามือ → หดรองน้อย มือกางได้ดีกว่า STSG",
+   "ชายมีแผลเป็นหดรั้งที่คอหลังปลูก STSG → ปลดรั้งแล้วปิดด้วย graft หนาหรือ flap"
+  ]
+ },
+ "64": {
+  "stem": "A 66-year-old man has a 2 × 2 cm full-thickness graft harvested from behind the ear. Immediately after harvest, the graft visibly shrinks before it is placed on the defect. About how much does this type of graft shrink at this stage?",
+  "opts": [
+   "About 5%",
+   "About 10%",
+   "About 25%",
+   "About 50%",
+   "About 95%"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Full thickness skin grafting</b> · <b>Epidermis + entire dermis · Donor-: primary closure or grafting · More primary contraction · Less secondary contraction</b><br>รูปในสไลด์หน้า 20: รูปขวา: ผู้สูงอายุมีแผลที่ปลายจมูก วาง graft แล้วเย็บรอบ ปลายไหมยาวหลายเส้นปล่อยไว้ (รูปซ้าย) → ผูกไขว้มัดก้อนสำลีกดบน graft (รูปขวา tie-over) · inset ล่างขวา: ภาพตัดขวางป้าย <b>Cotton</b> (บน) · <b>Nonadherent gauze</b> · <b>Skin graft</b> (ล่าง)<br>ลายมือ/ไฮไลต์หน้า 20: ลายมือท้าย More primary contraction: <b>\"~50%\"</b> · ไม่มีไฮไลต์<br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p20"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + รูป",
+  "tags": [
+   "Plastic"
+  ],
+  "interp": "ชายตัด FTSG ขนาด 2 × 2 cm จากหลังหู ทันทีหลังตัด graft หดเล็กลงก่อนวางบนแผล → ถามว่า graft ชนิดนี้หดช่วงแรกราวเท่าไร",
+  "why": "การหดที่เห็น<b>ทันทีหลังตัด</b>คือ <b>primary contraction</b> เกิดจาก elastin ใน dermis ดึงกลับ · FTSG มี <b>dermis ทั้งหมด</b> จึงหดช่วงแรก<b>มาก</b> ลายมือเขียนไว้ราว <b>50%</b> · STSG มี dermis น้อย หดช่วงแรกน้อยกว่า · การหดช่วงแรกเป็นแรงยืดหยุ่น เมื่อเย็บ graft ลงบนแผลแล้วดึงให้ตึงพอดีจะยืดกลับได้เกือบเต็ม · สไลด์หน้า 20 <b>More primary contraction</b> · ลายมือ <b>\"~50%\"</b>",
+  "wrong": {
+   "A": "5% คือสัดส่วนความหนาของ epidermis ในรูปหน้า 19 ไม่ใช่การหด · ไม่มีสถานการณ์ใดที่ใช้ 5% เป็นค่าหดช่วงแรกของ FTSG ตามที่สอน",
+   "B": "10% ใกล้ค่าหดช่วงแรกของ STSG บาง ไม่ใช่ FTSG · จะถูกถ้าชายตัด split-thickness graft บางแล้ว graft หดลงเล็กน้อยทันทีหลังตัด",
+   "C": "25% ต่ำกว่าที่สอนสำหรับ FTSG · ไม่มีสถานการณ์ใดที่ลายมือหน้า 20 ใช้ 25% สำหรับ FTSG",
+   "E": "95% คือสัดส่วนความหนาของ dermis ไม่ใช่การหด · ไม่มีสถานการณ์ใดที่ graft หดเหลือแค่ 5% ของขนาดเดิม"
+  },
+  "trap": "5% และ 95% เป็นตัวเลขจริงในบท (ความหนา epidermis/dermis หน้า 19) — คนละเรื่องกับการหดของ graft",
+  "summary": [
+   "<b>FTSG</b>: <b>More primary contraction ~50%</b> (ลายมือหน้า 20) · <b>Less secondary contraction</b>",
+   "Primary contraction = หดทันทีหลังตัด จาก elastin ใน dermis",
+   "มี dermis มาก → หดช่วงแรกมาก แต่หดช่วงหลังน้อย",
+   "FTSG = epidermis + entire dermis · donor: primary closure or grafting",
+   "การหดช่วงแรกยืดกลับได้เมื่อเย็บ graft ให้ตึงพอดีบนแผล"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลาง — ตรงลายมือ \"~50%\" หน้า 20 · ตำราส่วนใหญ่ให้ primary contraction ของ FTSG ราว 40% ของพื้นที่ และ STSG ราว 10–20% ตามความหนา — ลายมือปัดเป็นราวครึ่ง ซึ่งยังเป็นช้อยที่ใกล้ที่สุด",
+  "mnemonic": "<b>'Full หดทันทีครึ่งหนึ่ง'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "หญิงตัด STSG บาง → หดทันทีหลังตัดน้อย แต่ระวังหดรองหลังติด",
+   "ชาย FTSG ที่ตัดแล้ววางบนถาดดูเล็กลง → เย็บลงแผลดึงให้ตึงพอดี graft ยืดกลับได้",
+   "เด็กต้องการ graft ที่หดรองน้อยที่ฝ่ามือ → FTSG แม้จะหดช่วงแรกมาก"
+  ]
+ },
+ "65": {
+  "stem": "A 70-year-old woman needs a full-thickness graft to cover a 2 cm × 2 cm defect on the nasal tip. Assuming the graft's area shrinks by about half immediately after harvest, roughly what graft size should be harvested?",
+  "opts": [
+   "About 1 cm²",
+   "About 2 cm²",
+   "About 4 cm²",
+   "About 8 cm²",
+   "About 16 cm²"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Full thickness skin grafting</b> · <b>Epidermis + entire dermis · Donor-: primary closure or grafting · More primary contraction · Less secondary contraction</b><br>รูปในสไลด์หน้า 20: รูปขวา: ผู้สูงอายุมีแผลที่ปลายจมูก วาง graft แล้วเย็บรอบ ปลายไหมยาวหลายเส้นปล่อยไว้ (รูปซ้าย) → ผูกไขว้มัดก้อนสำลีกดบน graft (รูปขวา tie-over) · inset ล่างขวา: ภาพตัดขวางป้าย <b>Cotton</b> (บน) · <b>Nonadherent gauze</b> · <b>Skin graft</b> (ล่าง)<br>ลายมือ/ไฮไลต์หน้า 20: ลายมือท้าย More primary contraction: <b>\"~50%\"</b> · ไม่มีไฮไลต์<br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p20"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + รูป",
+  "tags": [
+   "Plastic",
+   "Onco"
+  ],
+  "interp": "หญิงต้อง FTSG ปิด defect 2 × 2 cm (4 cm²) ที่ปลายจมูก โจทย์กำหนดให้พื้นที่ graft หดลงราวครึ่งหนึ่งทันทีหลังตัด → ถามขนาดที่ต้องตัด · จุดหลอก: คิดเป็นความยาวด้านแทนพื้นที่ หรือลืมว่าหดครึ่ง",
+  "why": "defect = 2 × 2 = <b>4 cm²</b> · ถ้าพื้นที่หลังตัดเหลือ<b>ราวครึ่งหนึ่ง</b> ต้องตัดให้ได้พื้นที่ราว 4 ÷ 0.5 = <b>8 cm²</b> จึงจะเหลือพอปิด 4 cm² · ใช้ตัวเลข ~50% จากลายมือ (FTSG more primary contraction) · ในทางปฏิบัติ การหดช่วงแรกเป็นแรงยืดหยุ่นที่ยืดกลับได้เมื่อเย็บ graft ให้ตึงพอดี ศัลยแพทย์จึงมักวาดแม่แบบเท่ากับ defect หรือใหญ่กว่าเล็กน้อย — ข้อนี้เป็นการคำนวณตามสมมติฐานที่โจทย์กำหนด · สไลด์หน้า 20 <b>More primary contraction</b> · ลายมือ <b>\"~50%\"</b>",
+  "wrong": {
+   "A": "1 cm² เล็กกว่า defect ด้วยซ้ำ · ไม่มีสถานการณ์ใดที่ graft 1 cm² ปิด defect 4 cm² ได้",
+   "B": "2 cm² คือความยาวด้านของ defect (2 cm) ที่ถูกอ่านเป็นพื้นที่ · ไม่มีสถานการณ์ใดที่ graft 2 cm² ปิด defect 4 cm² ได้",
+   "C": "4 cm² เท่ากับ defect โดยไม่เผื่อการหดตามสมมติฐาน · จะถูกถ้าศัลยแพทย์วาดแม่แบบเท่าขนาด defect แล้วเย็บ graft ให้ตึงพอดีเพื่อยืดกลับ (โดยไม่ได้กำหนดให้คิดการหดครึ่งหนึ่ง)",
+   "E": "16 cm² คือการคิดให้ด้านยาวเป็นสองเท่า (4 × 4) ซึ่งทำให้พื้นที่เพิ่ม 4 เท่า · ไม่มีสถานการณ์ใดตามสมมติฐานหดครึ่งหนึ่งที่ต้องตัดถึง 16 cm²"
+  },
+  "trap": "E มาจากการเพิ่มด้านเป็นสองเท่า (พื้นที่ ×4) — สมมติฐานบอกว่า \"พื้นที่\" หดครึ่ง จึงคูณพื้นที่ด้วย 2 เท่านั้น",
+  "summary": [
+   "FTSG: <b>More primary contraction ~50%</b> (ลายมือหน้า 20)",
+   "คำนวณ: defect 4 cm² ÷ 0.5 = graft 8 cm²",
+   "ระวังหน่วย: คูณพื้นที่ ไม่ใช่คูณด้าน (ด้าน ×2 = พื้นที่ ×4)",
+   "การหดช่วงแรกยืดกลับได้เมื่อเย็บให้ตึงพอดี → ทางปฏิบัติวาดแม่แบบเท่าหรือใหญ่กว่า defect เล็กน้อย",
+   "FTSG ที่ปลายจมูก: สีและเนื้อดี หดรองน้อย · donor หลังหู เหนือไหปลาร้า"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลาง — ถูกต้องตามการคำนวณภายใต้สมมติฐานในโจทย์และลายมือ ~50% · แต่ในทางคลินิก ตำรา (Grabb and Smith) ระบุว่า primary contraction ของ FTSG (ราว 40%) เป็นแรงยืดหยุ่นที่ยืดกลับเมื่อเย็บ graft ลง จึงไม่ได้ตัดใหญ่เป็นสองเท่าจริง — ใช้ข้อนี้ฝึกคำนวณ ไม่ใช่กฎการตัด graft",
+  "mnemonic": "<b>'หดครึ่ง → ตัดสองเท่าของ \"พื้นที่\" ไม่ใช่ของด้าน'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "defect 3 × 3 cm สมมติว่า graft หดครึ่ง → ตัดราว 18 cm²",
+   "defect 1 × 2 cm สมมติว่า graft หดครึ่ง → ตัดราว 4 cm²",
+   "ชาย FTSG ที่เย็บแล้วตึงมากจนขอบซีด → graft เล็กเกิน ต้องเผื่อขนาดมากขึ้น"
+  ]
+ },
+ "66": {
+  "stem": "A 55-year-old woman's lower eyelid defect is covered with upper-eyelid skin including all of the dermis. Which graft is this?",
+  "opts": [
+   "Split-thickness skin graft",
+   "Composite graft",
+   "Random pattern flap",
+   "Full-thickness skin graft",
+   "Fasciocutaneous flap"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Full thickness skin grafting</b> · <b>Epidermis + entire dermis · Donor-: primary closure or grafting · More primary contraction · Less secondary contraction</b><br>รูปในสไลด์หน้า 20: รูปขวา: ผู้สูงอายุมีแผลที่ปลายจมูก วาง graft แล้วเย็บรอบ ปลายไหมยาวหลายเส้นปล่อยไว้ (รูปซ้าย) → ผูกไขว้มัดก้อนสำลีกดบน graft (รูปขวา tie-over) · inset ล่างขวา: ภาพตัดขวางป้าย <b>Cotton</b> (บน) · <b>Nonadherent gauze</b> · <b>Skin graft</b> (ล่าง)<br>ลายมือ/ไฮไลต์หน้า 20: ลายมือท้าย More primary contraction: <b>\"~50%\"</b> · ไม่มีไฮไลต์<br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p20"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + รูป",
+  "tags": [
+   "Plastic",
+   "Onco"
+  ],
+  "interp": "หญิงมี defect ที่เปลือกตาล่าง ปิดด้วยผิวจากเปลือกตาบนที่เอา dermis ไปทั้งหมด → ถามชนิดของ graft",
+  "why": "graft ที่มี <b>epidermis + dermis ทั้งหมด</b> = <b>full-thickness skin graft (FTSG)</b> · ไม่มีหลอดเลือดของตัวเอง (ต่างจาก flap) อาศัยเลือดจากพื้นแผล · ผิวเปลือกตาบนเป็น donor ที่ดีที่สุดสำหรับเปลือกตาล่าง เพราะบางเหมือนกันและสีเข้ากัน · FTSG หดรองน้อย จึงลดความเสี่ยงเปลือกตาล่างถูกดึงลงจนปลิ้น (ectropion) ซึ่งเป็นปัญหาของ STSG · donor ที่เปลือกตาบนเย็บปิดตามรอยพับตา · สไลด์หน้า 20 <b>Full thickness skin grafting</b> · <b>Epidermis + entire dermis</b>",
+  "wrong": {
+   "A": "STSG เอา dermis แค่บางส่วน · จะถูกถ้าชายมีแผลไฟไหม้กว้างที่ขา ปลูกผิวที่ตัดด้วย dermatome ระดับบาง",
+   "B": "composite graft มีเนื้อเยื่ออื่นนอกจากผิว เช่น กระดูกอ่อน · จะถูกถ้าหญิงมี defect ที่ขอบปีกจมูก 8 mm ใช้ชิ้นผิวพร้อมกระดูกอ่อนจากหู",
+   "C": "random flap ยังติดกับฐานและมีเลือดจาก dermal-subdermal plexus ไม่ใช่ชิ้นที่ตัดขาดแล้วย้าย · จะถูกถ้าชายมีแผลที่แก้มปิดด้วยผิวข้างเคียงที่ยกเป็นแผ่นแต่ยังติดฐาน",
+   "E": "fasciocutaneous flap มีผิวพร้อม fascia และยังมีเลือดเลี้ยง · จะถูกถ้าหญิงมีแผลที่ขาส่วนล่างปิดด้วยแผ่นผิวพร้อม fascia ที่หมุนมาจากข้างเคียง"
+  },
+  "trap": "C และ E เป็น flap (มีเลือดเลี้ยงของตัวเอง) — ผิวที่ตัดขาดแล้วย้ายเป็น graft เสมอ ไม่ว่าจะหนาแค่ไหน",
+  "summary": [
+   "<b>FTSG</b> = <b>Epidermis + entire dermis</b>",
+   "Donor-: primary closure or grafting · More primary contraction (~50%) · Less secondary contraction",
+   "Graft = ตัดขาด อาศัยเลือดจากพื้นแผล · Flap = มีเลือดเลี้ยงของตัวเอง",
+   "เปลือกตาบนเป็น donor ที่ดีสำหรับเปลือกตาล่าง (บาง สีเข้ากัน)",
+   "FTSG หดรองน้อย → ลดเปลือกตาล่างปลิ้น (ectropion)",
+   "รูปหน้า 20: tie-over bolster — cotton / nonadherent gauze / skin graft"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — นิยามตรงตัวพิมพ์หน้า 20 · ตำรา oculoplastic ใช้ FTSG จากเปลือกตาบน หลังหู หรือเหนือไหปลาร้าซ่อมเปลือกตาล่างเพื่อเลี่ยง ectropion ตรงกัน",
+  "mnemonic": "<b>'ตัดขาด + dermis ครบ = Full'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "ชายตัดมะเร็งที่ปลายจมูก ปิดด้วยผิวหลังหูทั้งชั้น → FTSG",
+   "เด็กฝ่ามือไฟไหม้ ปิดด้วยผิวขาหนีบทั้งชั้น → FTSG หดรองน้อย",
+   "หญิงเปลือกตาล่างปลิ้นหลังปลูก STSG → แก้ด้วยปลดรั้งแล้วปิดด้วย FTSG"
+  ]
+ },
+ "67": {
+  "stem": "A 62-year-old man needs skin cover for a 2-cm defect on the nasal tip after excision. The surgeon prefers a graft that will shrink little after it has healed on the nose. Which graft best meets this aim?",
+  "opts": [
+   "Thin split-thickness skin graft",
+   "Full-thickness skin graft",
+   "Medium split-thickness skin graft",
+   "Thick split-thickness skin graft",
+   "Epidermal graft without dermis"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 19 — ตัวพิมพ์: <b>Split thickness skin graft</b> · <b>Epidermis + part of dermis · Donor site: spontaneous healing · Less primary contraction · Intense secondary contraction</b><br>รูปในสไลด์หน้า 19: รูปขวา: ภาพตัดขวางผิวหนัง ป้าย <b>Epidermis (5%) · Dermis (95%) · 100% · Subcutaneous tissue</b> · ระดับความหนาของ <b>Split-thickness skin graft</b> 3 ระดับ <b>Thin · Medium · Thick</b> (ตัดผ่านบางส่วนของ dermis) และ <b>Full-thickness skin graft</b> ตัดถึงฐาน dermis · ป้าย <b>Sebaceous gland · Hair follicle · Sweat gland</b> อยู่ลึกใน dermis ใต้ระดับ split-thickness<br>ลายมือ/ไฮไลต์หน้า 19: ไม่มีลายมือ · ไม่มีไฮไลต์<br>สไลด์หน้า 20 — ตัวพิมพ์: <b>Full thickness skin grafting</b> · <b>Epidermis + entire dermis · Donor-: primary closure or grafting · More primary contraction · Less secondary contraction</b><br>รูปในสไลด์หน้า 20: รูปขวา: ผู้สูงอายุมีแผลที่ปลายจมูก วาง graft แล้วเย็บรอบ ปลายไหมยาวหลายเส้นปล่อยไว้ (รูปซ้าย) → ผูกไขว้มัดก้อนสำลีกดบน graft (รูปขวา tie-over) · inset ล่างขวา: ภาพตัดขวางป้าย <b>Cotton</b> (บน) · <b>Nonadherent gauze</b> · <b>Skin graft</b> (ล่าง)<br>ลายมือ/ไฮไลต์หน้า 20: ลายมือท้าย More primary contraction: <b>\"~50%\"</b> · ไม่มีไฮไลต์<br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p19",
+   "l05_p20"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 19, 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + รูป",
+  "tags": [
+   "Plastic",
+   "Onco"
+  ],
+  "interp": "ชายต้องปิด defect 2 cm ที่ปลายจมูก ศัลยแพทย์ต้องการ graft ที่หดน้อยหลังติดแล้ว → ถาม graft ที่เหมาะที่สุด",
+  "why": "ความต้องการคือ \"หดน้อย<b>หลังติดแล้ว</b>\" = <b>secondary contraction น้อย</b> · secondary contraction ถูกยับยั้งด้วย dermis — ยิ่ง graft มี dermis มากยิ่งหดรองน้อย · <b>FTSG</b> มี dermis ครบ จึงหดรองน้อยที่สุด (Less secondary contraction) · ยังได้สีและเนื้อใกล้ผิวหน้าถ้าใช้ donor หลังหูหรือเหนือไหปลาร้า · STSG ทุกความหนาหดรองมากกว่า (บางยิ่งหดมาก) → ปลายจมูกจะถูกดึงเบี้ยวหรือรูจมูกยกขึ้น · สไลด์หน้า 20 <b>Less secondary contraction</b>",
+  "wrong": {
+   "A": "STSG บางมี dermis น้อยที่สุด หดรองมากที่สุด · จะถูกถ้าชายมีแผลไฟไหม้กว้างที่หลัง ต้องการ graft ที่ติดง่ายและ donor หายเร็ว",
+   "C": "STSG ระดับกลางยังหดรองมากกว่า FTSG · จะถูกถ้าหญิงมีแผลกว้างที่ต้นขาหลังตัดเนื้อตาย ต้องการ graft ที่ติดดีและหดพอรับได้",
+   "D": "STSG หนาหดรองน้อยกว่าแบบบาง แต่ยังมากกว่า FTSG · จะถูกถ้าชายมีแผลกว้างที่หลังมือซึ่งใหญ่เกินกว่าจะหา donor FTSG ได้ จึงเลือก STSG หนาแทน",
+   "E": "graft ที่ไม่มี dermis ไม่ทนและหดมาก ไม่ใช้ปิดแผลที่ปลายจมูก · ไม่มีสถานการณ์ใดที่ graft ไม่มี dermis ถูกเลือกเพื่อให้หดรองน้อย"
+  },
+  "trap": "อย่าสลับ primary กับ secondary — FTSG หดทันทีมาก แต่หดหลังติดน้อย ซึ่งคือสิ่งที่โจทย์ต้องการ",
+  "summary": [
+   "<b>FTSG: Less secondary contraction</b> · More primary contraction (~50%)",
+   "<b>STSG: Intense secondary contraction</b> · Less primary contraction",
+   "dermis ยับยั้ง secondary contraction → ยิ่ง dermis มากยิ่งหดรองน้อย (FTSG < thick < medium < thin)",
+   "ปลายจมูกและหน้า: FTSG ให้สีและเนื้อดี หดรองน้อย",
+   "STSG thin / medium / thick = epidermis + part of dermis (รูปหน้า 19)"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตัวพิมพ์หน้า 19–20 ตรงกัน · ตำรายืนยันลำดับการหดรอง FTSG น้อยที่สุด และนิยม FTSG สำหรับหน้า",
+  "mnemonic": "<b>'อยากให้หดหลังติดน้อย → dermis ต้องเต็ม (Full)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "หญิงตัด BCC ที่ข้างจมูก 1.5 cm → FTSG จากหลังหู สีเข้ากัน",
+   "ชายแผลไฟไหม้กว้าง 30% ของร่างกาย → STSG บางเพราะต้องการพื้นที่มากและ donor หายเร็ว",
+   "เด็กปลูก STSG ที่ปลายจมูกแล้วรูจมูกถูกดึงขึ้นหลายเดือนต่อมา → หดรองจาก STSG"
+  ]
+ },
+ "68": {
+  "stem": "A 73-year-old man has a full-thickness graft sutured onto a nasal tip defect, and the sutures around it are left with long tails as shown. What is the next step with these long tails?",
+  "opts": [
+   "Tie them over a bolster to press the graft",
+   "Cut them short and leave the graft exposed",
+   "Use them to pull the graft off on day 2",
+   "Tie them to create a Z-plasty",
+   "Leave them long to mark the subunits"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Full thickness skin grafting</b> · <b>Epidermis + entire dermis · Donor-: primary closure or grafting · More primary contraction · Less secondary contraction</b><br>รูปในสไลด์หน้า 20: รูปขวา: ผู้สูงอายุมีแผลที่ปลายจมูก วาง graft แล้วเย็บรอบ ปลายไหมยาวหลายเส้นปล่อยไว้ (รูปซ้าย) → ผูกไขว้มัดก้อนสำลีกดบน graft (รูปขวา tie-over) · inset ล่างขวา: ภาพตัดขวางป้าย <b>Cotton</b> (บน) · <b>Nonadherent gauze</b> · <b>Skin graft</b> (ล่าง)<br>ลายมือ/ไฮไลต์หน้า 20: ลายมือท้าย More primary contraction: <b>\"~50%\"</b> · ไม่มีไฮไลต์<br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p20"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + รูป",
+  "tags": [
+   "Plastic",
+   "Onco"
+  ],
+  "interp": "ชายเย็บ FTSG ที่ปลายจมูก ปล่อยปลายไหมรอบ graft ยาวไว้ตามรูป → ถามขั้นต่อไปกับปลายไหมเหล่านี้",
+  "why": "graft ไม่มีหลอดเลือดของตัวเอง ต้อง<b>แนบสนิทกับพื้นแผล</b>ในช่วงแรกเพื่อดูดซึมสารอาหาร (imbibition) และให้หลอดเลือดจากพื้นแผลเชื่อมเข้า (ราววันที่ 3–5) · เลือดคั่ง น้ำเหลืองขัง หรือการเลื่อนไถลใต้ graft เป็นสาเหตุหลักที่ graft ไม่ติด · จึงใช้ปลายไหมยาว<b>ผูกไขว้มัดก้อนสำลี (tie-over bolster)</b> กดให้ graft แนบและไม่เลื่อน · ชั้นจากบนลงล่าง: <b>cotton · nonadherent gauze · skin graft</b> · เปิด bolster ราว 5–7 วัน · สไลด์หน้า 20 ป้ายในรูป <b>Cotton</b> · <b>Nonadherent gauze</b> · <b>Skin graft</b>",
+  "wrong": {
+   "B": "ตัดไหมสั้นแล้วเปิด graft ไว้ไม่มีอะไรกด เสี่ยงเลือดคั่งและเลื่อน · จะถูกถ้าชายมี graft เล็กมากบนพื้นแผลราบที่ขยับไม่ได้ ศัลยแพทย์เลือกใช้ dressing ธรรมดาแทน bolster",
+   "C": "การดึง graft ออกวันที่ 2 คือทำลาย graft ที่กำลังเริ่มติด · ไม่มีสถานการณ์ใดที่ใช้ไหมรอบ graft ดึง graft ออกในวันที่ 2",
+   "D": "Z-plasty เป็นการตัดย้าย flap สองชิ้น ไม่เกี่ยวกับปลายไหม · จะถูกถ้าหญิงมีแผลเป็นหดรั้งแนวตรงที่ข้อพับนิ้ว แล้วศัลยแพทย์ตัดเป็นรูป Z",
+   "E": "ปลายไหมไม่ได้ใช้บอก subunit · ไม่มีสถานการณ์ใดที่ปล่อยปลายไหมยาวไว้เพื่อบอกขอบ subunit"
+  },
+  "trap": "ปลายไหมที่ยาวผิดปกติไม่ใช่ความสะเพร่า — ตั้งใจเหลือไว้ผูก bolster",
+  "summary": [
+   "รูปหน้า 20: เย็บ graft ปล่อยปลายไหมยาว → <b>ผูกไขว้มัดก้อนสำลีกด (tie-over bolster)</b>",
+   "ชั้นจากบนลงล่าง: <b>Cotton · Nonadherent gauze · Skin graft</b>",
+   "graft ติดด้วย imbibition (วันแรก ๆ) แล้ว inosculation และหลอดเลือดงอกเข้า (ราววันที่ 3–5)",
+   "สาเหตุ graft ไม่ติด: เลือดคั่ง น้ำเหลืองขัง การเลื่อนไถล (shear) การติดเชื้อ",
+   "FTSG = epidermis + entire dermis · More primary contraction · Less secondary contraction",
+   "เปิด bolster ราว 5–7 วัน"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — รูปหน้า 20 แสดงขั้นตอนนี้ตรงตัว · ตำราระบุกลไกการติดของ graft และบทบาทของ tie-over bolster ในการป้องกันเลือดคั่งและแรงเฉือน ตรงกัน",
+  "mnemonic": "<b>'ไหมยาวไว้ผูกหมอน — กด graft ให้แนบ'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "หญิงปลูก graft ที่หลังมือซึ่งขยับบ่อย → bolster + เฝือกจำกัดการขยับ",
+   "ชายเปิด bolster วันที่ 5 พบ graft ซีดมีเลือดคั่งใต้บางส่วน → เจาะระบายเลือดออกแล้วกดต่อ",
+   "เด็กปลูก STSG กว้างที่ต้นขา → ใช้แผ่นกดหรือ negative pressure แทน bolster"
+  ],
+  "img": "l05_q68"
+ },
+ "69": {
+  "stem": "A 58-year-old woman has a tie-over bolster over a cheek graft. Which layer lies directly on the graft?",
+  "opts": [
+   "Cotton",
+   "Transparent film",
+   "Nonadherent gauze",
+   "Alginate",
+   "Plain dry gauze that sticks"
+  ],
+  "ans": 2,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Full thickness skin grafting</b> · <b>Epidermis + entire dermis · Donor-: primary closure or grafting · More primary contraction · Less secondary contraction</b><br>รูปในสไลด์หน้า 20: รูปขวา: ผู้สูงอายุมีแผลที่ปลายจมูก วาง graft แล้วเย็บรอบ ปลายไหมยาวหลายเส้นปล่อยไว้ (รูปซ้าย) → ผูกไขว้มัดก้อนสำลีกดบน graft (รูปขวา tie-over) · inset ล่างขวา: ภาพตัดขวางป้าย <b>Cotton</b> (บน) · <b>Nonadherent gauze</b> · <b>Skin graft</b> (ล่าง)<br>ลายมือ/ไฮไลต์หน้า 20: ลายมือท้าย More primary contraction: <b>\"~50%\"</b> · ไม่มีไฮไลต์<br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p20"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + รูป",
+  "tags": [
+   "Plastic"
+  ],
+  "interp": "หญิงมี tie-over bolster บน graft ที่แก้ม → ถามชั้นที่อยู่ติดกับ graft โดยตรง",
+  "why": "bolster เรียงจากบนลงล่าง: <b>cotton</b> (ก้อนสำลีที่ให้แรงกด) → <b>nonadherent gauze</b> → <b>skin graft</b> · ชั้นที่แตะ graft ต้อง<b>ไม่ติดแผล</b> (เช่น ผ้าก๊อซชุบวาสลีนหรือ paraffin) เพื่อไม่ให้ graft ที่เพิ่งติดหลุดออกมาตอนเปิด bolster · ก้อนสำลีอยู่ด้านบนเพื่อกระจายแรงกดให้ graft แนบทั่วแผ่น · สไลด์หน้า 20 inset ป้าย <b>Nonadherent gauze</b>",
+  "wrong": {
+   "A": "สำลีอยู่ชั้นบนสุดให้แรงกด ถ้าวางบน graft โดยตรงใยสำลีจะติด graft · ไม่มีสถานการณ์ใดที่วางสำลีแตะ skin graft โดยตรงใน tie-over bolster",
+   "B": "film ใสไม่ใช่ชั้นใน bolster ตามรูป · จะถูกถ้าชายมีแผลถลอกตื้นที่แขน exudate น้อย ปิดด้วย film ใสให้ดูแผลได้",
+   "D": "alginate ดูดซับ exudate มาก ไม่ใช่ชั้นแตะ graft ใน bolster · จะถูกถ้าหญิงมีแผลลึกเป็นโพรงที่มีน้ำเหลืองมาก ต้องใช้ alginate อัดโพรงและดูดซับ",
+   "E": "ผ้าก๊อซแห้งที่ติดแผลจะดึง graft หลุดตอนเปิด · ไม่มีสถานการณ์ใดที่ตั้งใจวางผ้าก๊อซแห้งที่ติดแผลบน skin graft"
+  },
+  "trap": "A (cotton) อยู่ในรูปจริงแต่เป็นชั้นบนสุด — ชั้นที่แตะ graft คือ nonadherent gauze",
+  "summary": [
+   "Tie-over bolster: <b>Cotton (บน) · Nonadherent gauze · Skin graft (ล่าง)</b>",
+   "ชั้นแตะ graft ต้องไม่ติดแผล → ไม่ดึง graft ตอนเปิด",
+   "สำลีด้านบนกระจายแรงกดให้ graft แนบทั่ว",
+   "ใช้ปลายไหมยาวรอบ graft ผูกไขว้มัด bolster",
+   "เป้า: กันเลือดคั่ง น้ำเหลืองขัง และการเลื่อนไถลใต้ graft"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ป้าย inset หน้า 20 ตรงตัว · ตำรามักใช้ผ้าก๊อซชุบวาสลีนหรือ xeroform เป็นชั้นสัมผัส graft ตรงกับหลัก nonadherent",
+  "mnemonic": "<b>'สำลีบน ก๊อซไม่ติดกลาง graft ล่าง'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "ชายเปิด bolster แล้ว graft ติดผ้าก๊อซหลุดออกมาบางส่วน → ชั้นสัมผัสไม่ใช่ nonadherent",
+   "หญิงปลูก graft ที่หนังศีรษะ → bolster แบบเดียวกัน ผูกไหมไขว้กด",
+   "เด็กปลูก graft แผ่นใหญ่ที่หลัง → ใช้ผ้าก๊อซไม่ติดแผล + แผ่นกดหรือ negative pressure"
+  ]
+ },
+ "70": {
+  "stem": "A 60-year-old woman has a full-thickness defect of the nasal ala after cancer excision. The image shows the defect and the tissue harvested to repair it. What is the most likely donor site of this graft?",
+  "opts": [
+   "The groin",
+   "The forehead",
+   "The ear",
+   "The anterior thigh",
+   "The lower abdomen"
+  ],
+  "ans": 2,
+  "notes": "สไลด์หน้า 21 — ตัวพิมพ์: <b>Composite graft</b> · <b>Contain more tissue than just skin · No more than 1 cm in size</b><br>รูปในสไลด์หน้า 21: รูปถ่ายขวา A–F (ใบหน้าเบลอ): A แผลขาดที่ขอบปีกจมูก · B ชิ้น graft รูปจันทร์เสี้ยวจากหู วางบนไม้บรรทัด · C ใส่ graft เข้าช่องปีกจมูก ใช้ forceps จับ · D เย็บเสร็จ มีท่อค้ำรูจมูก · E หน้าตรงหลังแผลหาย · F มุมใต้จมูกหลังหาย ขอบปีกจมูกต่อเนื่อง<br>ลายมือ/ไฮไลต์หน้า 21: ไฮไลต์เหลือง \"No more than 1 cm\" · ลายมือบนสุดเหนือรูป: <b>\"ใช้บ่อยกับ defect ที่ปีกจมูก : ตัดส่วนหนึ่งของหูมาเย็บเป็น graft\"</b> · ใต้ size: <b>\"∵ blood supply เข้ามาจากขอบแผลได้ถึงแค่ 0.5 cm ใน 1 wk (ก่อน graft ตาย)\"</b> + วาดวงกลม ลูกศร <b>\"0.5 → ← 0.5\"</b> จากสองขอบเข้าหากลาง · ลายมือบนรูป D: <b>\"blood supply เข้าทางขอบแผล\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p21"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 21 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic",
+   "Onco"
+  ],
+  "interp": "หญิงตัดมะเร็งที่ปีกจมูก เหลือ defect ทะลุทั้งชั้น รูปแสดง defect และชิ้นเนื้อที่ตัดมาซ่อม (composite graft) → ถามแหล่ง donor",
+  "why": "defect ที่<b>ปีกจมูกทั้งชั้น</b> ต้องการทั้งผิวด้านนอก โครงกระดูกอ่อน และเยื่อบุด้านใน · <b>composite graft</b> = ชิ้นเนื้อที่มีมากกว่าผิว (ผิว + กระดูกอ่อน + ผิวอีกด้าน) — แหล่งที่มีโครงสร้างนี้ใกล้เคียงปีกจมูกคือ<b>ใบหู</b> (ขอบหูหรือแอ่งหู) ซึ่งตัดแล้วเย็บปิดได้ · ขนาด<b>ไม่เกิน 1 cm</b> เพราะเลือดเข้ามาจากขอบแผลได้แค่ราว 0.5 cm ใน 1 สัปดาห์ จากแต่ละขอบ ชิ้นใหญ่กว่านี้ตรงกลางจะตาย · รูป B แสดงชิ้นรูปจันทร์เสี้ยววางบนไม้บรรทัด · สไลด์หน้า 21 ลายมือ <b>\"ใช้บ่อยกับ defect ที่ปีกจมูก : ตัดส่วนหนึ่งของหูมาเย็บเป็น graft\"</b>",
+  "wrong": {
+   "A": "ขาหนีบให้ผิวทั้งชั้นสำหรับ FTSG ไม่มีกระดูกอ่อน · จะถูกถ้าเด็กมีแผลไฟไหม้ที่ฝ่ามือ ปิดด้วย FTSG จากขาหนีบ",
+   "B": "หน้าผากใช้ทำ flap (regional) ไม่ใช่ graft · จะถูกถ้าชายมี defect ใหญ่ทั้งปลายจมูก ใช้ forehead flap ที่ยังมีก้านเลือด",
+   "D": "ต้นขาด้านหน้าใช้ตัด STSG ไม่มีกระดูกอ่อน · จะถูกถ้าหญิงมีแผลกว้างที่ขา ปลูก STSG จากต้นขา",
+   "E": "หน้าท้องส่วนล่างให้ผิวและไขมันสำหรับ flap ใหญ่ เช่น สร้างเต้านม · จะถูกถ้าหญิงสร้างเต้านมใหม่หลังตัดเต้านม ด้วยผิวและไขมันหน้าท้องที่ต่อหลอดเลือด"
+  },
+  "trap": "ทุกช้อยเป็น donor จริงของการซ่อมแบบอื่น — มีแค่ใบหูที่ให้ผิวพร้อมกระดูกอ่อนขนาดเล็กที่เข้ากับปีกจมูก",
+  "summary": [
+   "<b>Composite graft</b>: Contain more tissue than just skin · <b>No more than 1 cm in size</b>",
+   "ลายมือ: ใช้บ่อยกับ defect ที่ปีกจมูก : ตัดส่วนหนึ่งของหูมาเย็บเป็น graft",
+   "เหตุผล 1 cm: blood supply เข้ามาจากขอบแผลได้แค่ 0.5 cm ใน 1 wk (ก่อน graft ตาย) — 0.5 จากแต่ละขอบ",
+   "รูป A–F: defect ขอบปีกจมูก → ชิ้นจากหู → ใส่ลงช่อง → เย็บและใส่ท่อค้ำรูจมูก → หาย",
+   "ลายมือบนรูป D: blood supply เข้าทางขอบแผล"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ลายมือหน้า 21 ระบุตรงตัว · ตำราใช้ composite graft จากใบหูซ่อมขอบปีกจมูกและ columella โดยจำกัดขนาดราว 1–1.5 cm ตรงกัน",
+  "mnemonic": "<b>'ปีกจมูกขาด เอาหูมาแปะ — ไม่เกินหนึ่งเซน'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic principles; Neligan Plastic Surgery 5th ed. (2023) Vol. 1 — Skin grafts",
+  "variants": [
+   "ชาย defect ที่ columella 6 mm → composite graft จากหู",
+   "หญิง defect ที่ปีกจมูก 2 cm ทั้งชั้น → ใหญ่เกิน composite graft ใช้ flap แทน",
+   "เด็กหลัง composite graft วันที่ 2 graft ซีดเขียว → พบได้ระยะแรก รอดูการชมพูขึ้นในหลายวัน"
+  ],
+  "img": "l05_q70"
+ }
+}
