@@ -39,7 +39,7 @@ PG={
    "รูปขวา: ไหมเส้นเดียววิ่งในชั้น dermis ใต้ผิว สลับตักฝั่งซ้าย-ขวาไปตามแนวแผล เห็นเป็นเส้นประใต้ผิว ปลายไหมโผล่ออกที่หัวและท้ายแผล ไม่มีรอยไหมบนผิว",
    "ไฮไลต์เหลือง \"Subcuticular suture\", \"Need precise approximation\", \"No stitch marks\" · ลายมือเหนือ: <b>\"┌ ใช้ absorbable (นิยมกว่า) / non-absorbable แล้วมาดึงออกทีหลัง\"</b> · ท้าย: <b>\"~ สอยผ้า ฝังไว้ใต้ผิวหนัง\"</b> · ใต้: <b>\"ไม่ต้องตัดไหม\"</b> · วงกลมน้ำเงินบนรูป + ลายมือ: <b>\"เย็บ dermoepidermal junction · ใช้ไหม 1 เส้นตลอดแผล → ต้องตักให้ได้ level เดียวตลอด ไม่งั้นจะเห็นเป็นคลื่นที่ขอบแผล\"</b>"),
 14:("<b>Half- buried suture</b> — <b>Minimize suture marks</b> · <b>Preserve blood supply at the tip</b>",
-   "รูปขวา: แผลรูปตัว V มีปลาย flap แหลม · ไหมเข้าที่ผิวฝั่งฐาน วิ่งใต้ผิว (เส้นประ) ผ่านชั้น dermis ของปลาย flap ในแนวนอน แล้วย้อนกลับออกผิวฝั่งเดิม — ผิวของปลาย flap ไม่มีรูเข็ม",
+   "รูปขวา: แผลรูปตัว V มีปลาย flap แหลม · ไหมเข้าที่ผิวฝั่งฐาน วิ่งใต้ผิว (เส้นประ) ผ่านชั้น dermis ของปลาย flap ในแนวนอน แล้วย้อนกลับออกผิวฝั่งเดิม — ผิวของปลาย flap ไม่มีรูเข็ม · มีไหมแบบนี้หลายเข็ม (วงเส้นประ) ตามขอบ flap",
    "ไฮไลต์เหลือง \"Half- buried suture\" และ \"Preserve blood supply at the tip\" (Minimize suture marks ไม่ไฮไลต์) · ลายมือท้าย Half-buried suture: <b>\"→ คล้าย Horizontal mattress\"</b> · <b>\"control eversion\"</b> · ลูกศรจาก the tip: <b>\"ฝั่งที่ blood supply ไม่ดี e.g. มุมแหลม, tissue trauma เยอะ = ตัก dermis : ไม่ cut blood supply ที่ขึ้นมา epidermis\"</b> (ไฮไลต์ม่วงที่ \"มุมแหลม\") · <b>\"ใช้กับแผลรูป V / ปากฉลาม\"</b> (ไฮไลต์ม่วง)"),
 15:("<b>Continuous over and over</b> — <b>Hard to control eversion</b> · <b>Compromise blood supply</b>",
    "รูปขวา: ไหมเส้นเดียวเย็บพันข้ามแผลต่อเนื่องเป็นเกลียวตลอดแนว ใต้ผิวเห็นวงไหมรัดเนื้อเยื่อทุกช่วง",
