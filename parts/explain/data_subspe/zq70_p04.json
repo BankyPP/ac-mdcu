@@ -1,232 +1,399 @@
 {
  "MDCU70|RoB|59": {
-  "interp": "หญิง 62 ปี อ่อนแรงซีกซ้ายที่แย่ลงช้า ๆ นาน 15 เดือน + papilledema → ก้อนโตช้าในซีกสมองขวาที่กด motor cortex/corticospinal tract และทำให้ความดันในกะโหลกสูงเรื้อรัง → ถามการวินิจฉัยที่น่าจะเป็นที่สุด",
-  "why": "<b>คีย์: tumor ที่ผิวสมอง (convexity) กด Rt. corticospinal tract → left hemiparesis + chronic increased ICP · metastasis ต้องมีประวัติมะเร็งปฐมภูมิ</b><br><b>นอกสไลด์:</b> meningioma เป็นเนื้องอกปฐมภูมิในกะโหลกที่พบบ่อยที่สุด พบมากในหญิงวัยกลางคน–สูงอายุ โตช้าเป็นเดือน–ปี สมองจึงปรับตัวได้จนก้อนใหญ่ก่อนมีอาการ · ตำแหน่ง convexity อยู่เหนือ motor cortex จึงให้อ่อนแรงซีกตรงข้ามที่ค่อย ๆ เพิ่ม ร่วม papilledema",
+  "interp": "หญิง 62 ปี <b>อ่อนแรงซีกซ้ายค่อยเป็นค่อยไป 15 เดือน</b> ตรวจพบ left hemiparesis + <b>papilledema</b> → ถามวินิจฉัย",
+  "why": "อ่อนแรงซีกซ้าย = รอยโรคที่ <b>corticospinal tract/ motor cortex ซีกขวา</b> · ดำเนินโรค<b>ช้ามาก (15 เดือน)</b> + papilledema (ความดันในกะโหลกสูงเรื้อรัง) = ก้อนโตช้านอกเนื้อสมองที่ผิวสมอง → <b>convexity meningioma</b> (พบบ่อยในหญิงวัยกลางคน–สูงอายุ) · MRI: ก้อน extra-axial enhance สม่ำเสมอ มี dural tail · รักษา: ผ่าตัดเอาออกทั้งก้อนพร้อมเยื่อหุ้มสมองที่เกาะ (Simpson grade I) · ไฟล์ P'Ing วง C ลายมือ <b>\"✓ tumor @ brain surface\"</b> \"Rt. corticospinal tract\" \"chronic increased ICP\" และที่ D \"x ต้องมี Hx of 1° cancer\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> pituitary tumor อยู่ใน sella กด optic chiasm และรบกวนฮอร์โมน ไม่ให้อ่อนแรงครึ่งซีก · จะถูกถ้าผู้ป่วยตามัวด้านข้างสองข้างค่อยเป็นค่อยไป ร่วมประจำเดือนขาด/น้ำนมไหล หรือมือเท้าโต",
-   "B": "<b>นอกสไลด์:</b> pineal tumor อยู่หลัง third ventricle กด tectum และ aqueduct พบในเด็ก/ชายหนุ่ม · จะถูกถ้าชายวัยรุ่นปวดศีรษะ อาเจียน papilledema ร่วมกลอกตาขึ้นไม่ได้ (Parinaud)",
-   "D": "<b>นอกสไลด์:</b> metastasis โตเร็วเป็นสัปดาห์ มักหลายก้อน และต้องมีมะเร็งปฐมภูมิ · จะถูกถ้าผู้ป่วยมะเร็งปอดหรือเต้านมมีอ่อนแรงครึ่งซีกที่แย่ลงภายในไม่กี่สัปดาห์",
-   "E": "<b>นอกสไลด์:</b> vestibular schwannoma อยู่ที่ cerebellopontine angle อาการนำคือหูข้างเดียว · จะถูกถ้าผู้ป่วยหูข้างเดียวค่อย ๆ ไม่ได้ยินร่วมเสียงในหูและเดินเซนานหลายปี"
+   "A": "ก้อนต่อมใต้สมองกด optic chiasm → bitemporal hemianopia ± ฮอร์โมนผิดปกติ ไม่ทำให้อ่อนแรงครึ่งซีก (ลายมือ ✗) · จะถูกถ้าหญิงตามัวด้านข้างทั้งสองตา ประจำเดือนขาด น้ำนมไหล",
+   "B": "Pinealoma กด tectum → Parinaud syndrome + hydrocephalus ไม่ทำให้อ่อนแรงครึ่งซีก (ลายมือ ✗) · จะถูกถ้าวัยรุ่นชายปวดหัว มองขึ้นไม่ได้ เข้าสู่วัยรุ่นเร็ว",
+   "D": "มะเร็งกระจายมาสมองต้องมีประวัติมะเร็งปฐมภูมิ และอาการมักดำเนินเร็วกว่า (สัปดาห์–เดือน) มีสมองบวมมาก (ลายมือ \"x ต้องมี Hx of 1° cancer\") · จะถูกถ้าผู้ป่วยมะเร็งปอดอ่อนแรงซีกเดียว 3 สัปดาห์ MRI ก้อนหลายก้อนที่รอยต่อเนื้อเทา-ขาว",
+   "E": "Vestibular schwannoma ทำให้หูไม่ได้ยินข้างเดียว เสียงในหู เซ ไม่ทำให้อ่อนแรงครึ่งซีก (ลายมือ ✗) · จะถูกถ้าผู้ป่วยหูซ้ายได้ยินลดลงค่อยเป็น tinnitus MRI ก้อนที่ CPA"
   },
-  "trap": "metastasis ก็พบบ่อยในผู้สูงอายุและให้อ่อนแรงครึ่งซีกได้ แต่ 15 เดือนโดยไม่มีประวัติมะเร็งชี้ไปที่ก้อนโตช้า · อาการซีกซ้าย = ก้อนซีกขวา",
+  "trap": "ตอบ metastasis เพราะผู้ป่วยสูงอายุ — ไม่มีประวัติมะเร็ง และดำเนินโรคช้ามาก ชี้ก้อนโตช้าอย่าง meningioma",
   "summary": [
-   "<b>นอกสไลด์:</b> meningioma พบในหญิงมากกว่าชายราว 2 เท่า ปัจจัยเสี่ยง: เคยฉายรังสีศีรษะ, NF2 (หลายก้อน) · ส่วนใหญ่เป็น WHO grade 1"
+   "Meningioma: ก้อนในกะโหลกปฐมภูมิพบบ่อยที่สุด · หญิงวัยกลางคน",
+   "MRI: extra-axial · enhance สม่ำเสมอ · dural tail · หินปูน",
+   "Convexity: อ่อนแรง/ ชัก ตามตำแหน่ง · ICP สูงเรื้อรัง (papilledema)",
+   "ไม่มีอาการ ก้อนเล็ก → เฝ้าดู MRI",
+   "มีอาการ → ผ่าตัด (Simpson grade) ± radiosurgery",
+   "Metastasis: ประวัติมะเร็ง · หลายก้อน · grey-white junction · บวมมาก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C ✓ และลายมือในไฟล์",
+  "mnemonic": "<b>'ช้า + ผิวสมอง + หญิง = Meningioma'</b>",
+  "guide": "EANO Guideline on the Diagnosis and Management of Meningiomas (Neuro Oncol 2021;23:1821)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง 55 ปี ชักครั้งแรก ขาขวาอ่อนแรงมากกว่าแขนช้า ๆ 1 ปี → parasagittal/falx meningioma (กดส่วนขาของ motor cortex ที่อยู่ด้านใน)",
-   "<b>นอกสไลด์:</b> หญิง 50 ปี ได้กลิ่นลดลง บุคลิกเปลี่ยน ตาข้างหนึ่งฝ่อ อีกข้าง papilledema → olfactory groove meningioma (Foster Kennedy)"
+   "หญิง 55 ปีชักครั้งแรก MRI ก้อน extra-axial มี dural tail → meningioma",
+   "ผู้ป่วยมะเร็งเต้านม ปวดหัว อ่อนแรง MRI หลายก้อน → brain metastasis",
+   "ผู้ป่วยไม่มีอาการ MRI พบ meningioma 1 cm โดยบังเอิญ → เฝ้าดู MRI ซ้ำ"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 9 — ตัวพิมพ์: <b>59. A 62-year old woman complained of progressive weakness of left side for 15 months. Physical examination revealed left hemiparesis and papilledema. What is the most likely diagnosis in this patient? — A. Pituitary tumor B. Pinealoma C. Convexity meningioma D. Cerebral metastasis E. Vestibular schwannoma</b><br>ลายมือ: \"Rt. corticospinal tract\" ใต้ hemiparesis · \"chronic increased ICP\" ใต้ papilledema · A ✗ · B ✗ · C \"✓\" + \"tumor @ brain surface\" · D \"x ต้องมี Hx of 1° cancer\" · E ✗ (แดง)<br>ไฮไลต์: วง C · \"progressive weakness of left side for 15 months\" \"left hemiparesis and papilledema\"",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 9",
+  "kimg": [
+   "fsp_p9",
+   "kp70b_59"
   ]
  },
  "MDCU70|RoB|61": {
-  "interp": "ชาย 70 ปี เจ็บหน้าอกเฉียบพลัน → ข้อ LEAST: หาโรคที่ \"ไม่น่า\" เป็นสาเหตุมากที่สุด",
-  "why": "<b>คีย์: MS มักมาด้วย heart failure — dyspnea on exertion, ไอเป็นเลือด, pulmonary congestion → orthopnea · AS ในผู้สูงอายุ (sclerotic) ให้ syncope, angina, dyspnea · pneumothorax ในผู้สูงอายุ = secondary spontaneous</b><br><b>นอกสไลด์:</b> MS เป็นผลเรื้อรังของ RHD ความดัน LA สูงทำให้อาการเด่นเป็นเหนื่อย ใจสั่นจาก AF และ embolism เจ็บหน้าอกพบส่วนน้อยและไม่ใช่อาการเฉียบพลัน อีกทั้ง MS ในชาย 70 ปีพบน้อยกว่าโรคอื่นในช้อยมาก",
+  "interp": "ชาย 70 ปี <b>เจ็บหน้าอกเฉียบพลัน</b> → ถามโรคที่<b>มีโอกาสน้อยที่สุด</b>",
+  "why": "<b>Mitral stenosis</b> แทบไม่ทำให้เจ็บหน้าอกเฉียบพลัน อาการหลักคือ<b>หัวใจล้มเหลวด้านซ้าย/ ปอดคั่งเลือด</b>: เหนื่อยเวลาออกแรง นอนราบไม่ได้ ไอเป็นเลือด AF และลิ่มเลือดอุดตัน · ส่วนตัวเลือกอื่นทำให้เจ็บหน้าอกได้ในผู้สูงอายุ: AMI, aortic dissection, <b>aortic stenosis</b> (triad: angina, syncope, dyspnea — AS จากหินปูนพบบ่อยในผู้สูงอายุ) และ <b>secondary spontaneous pneumothorax</b> (COPD) · ไฟล์ P'Ing วง D ลายมือ <b>\"x มักมาด้วย HF, S&amp;S: dyspnea on exertion, ไอเลือด, pulmonary congestion → orthopnea\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ AMI เป็นสาเหตุของเจ็บหน้าอกเฉียบพลันน้อยกว่า MS เพราะเจ็บหน้าอกเป็นอาการนำหลักของ AMI และชายสูงอายุเป็นกลุ่มเสี่ยงสูงสุด",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ type A aortic dissection เป็นสาเหตุของเจ็บหน้าอกเฉียบพลันน้อยกว่า MS เพราะ dissection ราว 9 ใน 10 รายมาด้วยเจ็บหน้าอก/หลังรุนแรงทันที และพบมากในผู้สูงอายุความดันสูง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ AS เป็นสาเหตุของเจ็บหน้าอกน้อยกว่า MS เพราะ angina เป็นหนึ่งในสามอาการหลักของ AS (กล้ามเนื้อหัวใจหนาต้องการออกซิเจนเกิน) และ AS เป็นโรคลิ้นของผู้สูงอายุ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pneumothorax เป็นสาเหตุของเจ็บหน้าอกเฉียบพลันน้อยกว่า MS เพราะเจ็บแปลบทันทีร่วมเหนื่อยเป็นอาการนำที่พบบ่อยที่สุดของ pneumothorax ทั้ง primary และ secondary"
+   "A": "AMI เป็นสาเหตุเจ็บหน้าอกเฉียบพลันที่สำคัญที่สุดในผู้สูงอายุ (ลายมือ ✓) · จะถูกถ้าคำถามถามโรคที่<b>มีโอกาสมากที่สุด</b>ในชายสูงอายุเบาหวาน เจ็บแน่นหน้าอกร้าวไปแขนซ้าย",
+   "B": "Type A dissection เจ็บฉีกร้าวทะลุหลัง ชีพจร/ ความดันแขนสองข้างต่างกัน (ลายมือ ✓) · จะถูกถ้าคำถามถามสาเหตุเจ็บหน้าอกในผู้ป่วยความดันสูง เจ็บทันทีร้าวไปหลัง mediastinum กว้าง",
+   "C": "AS จากหินปูนพบบ่อยในผู้สูงอายุ ทำให้ angina ได้ (ลายมือ \"✓ sclerotic aortic stenosis ในผู้สูงอายุ / Syncope Angina Dyspnea\") · จะถูกถ้าคำถามถามโรคลิ้นหัวใจที่ทำให้เจ็บหน้าอกและหน้ามืดเวลาออกแรงในผู้สูงอายุ",
+   "E": "Secondary spontaneous pneumothorax พบในผู้สูงอายุที่มีโรคปอด เจ็บหน้าอกเฉียบพลัน หอบ (ลายมือ \"✓ 2° spontaneous pneumothorax\") · จะถูกถ้าชาย COPD เจ็บหน้าอกทันที หายใจเสียงลดข้างเดียว เคาะโปร่ง"
   },
-  "trap": "AS กับ MS ชื่อคล้ายกัน — AS เป็นโรคผู้สูงอายุที่ให้ angina ส่วน MS เป็นโรคจาก RHD ที่มาด้วยเหนื่อย · อย่าคิดว่า pneumothorax เป็นแค่โรคคนหนุ่ม ผู้สูงอายุสูบบุหรี่/COPD เกิด secondary pneumothorax ได้",
+  "trap": "คิดว่าโรคลิ้นหัวใจทุกชนิดไม่ทำให้เจ็บหน้าอก — AS ทำให้ angina ได้ แต่ MS ไม่",
   "summary": [
-   "<b>นอกสไลด์:</b> เจ็บหน้าอกเฉียบพลันที่ต้องแยกทันที: ACS, aortic dissection, PE, tension pneumothorax, tamponade, esophageal rupture → ECG ภายใน 10 นาที + troponin + CXR"
+   "เจ็บหน้าอกเฉียบพลันคุกคามชีวิต: ACS · aortic dissection · PE · tension pneumothorax · tamponade · esophageal rupture",
+   "AS: Syncope Angina Dyspnea (SAD) · ผู้สูงอายุ = หินปูน · ผู้ใหญ่ตอนต้น = bicuspid",
+   "MS: RHD · เหนื่อย orthopnea hemoptysis AF · mid-diastolic rumble ที่ apex",
+   "Secondary spontaneous pneumothorax: COPD อายุ > 50",
+   "Type A dissection → ผ่าตัดด่วน",
+   "Type B ไม่ซับซ้อน → ยาคุมความดัน/ ชีพจร"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับวง D และลายมือในไฟล์",
+  "mnemonic": "<b>'MS = เหนื่อย (Shortness) ไม่ใช่ เจ็บ · AS = SAD (Syncope Angina Dyspnea)'</b>",
+  "guide": "2021 AHA/ACC Guideline for the Evaluation and Diagnosis of Chest Pain (Circulation 2021;144:e368); 2020 ACC/AHA Guideline for the Management of Valvular Heart Disease",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 70 ปีความดันสูง เจ็บหน้าอกฉีกทะลุหลังทันที BP แขนขวา 170/90 ซ้าย 120/70 → นึกถึง aortic dissection ก่อน งดยาต้านเกล็ดเลือด/ละลายลิ่มเลือดจนกว่าจะตัดออกด้วย CTA",
-   "<b>นอกสไลด์:</b> หญิง 35 ปี RHD เหนื่อยเวลาออกแรง นอนราบไม่ได้ ไอเป็นเลือด ใจสั่นจาก AF → อาการนำของ MS (ไม่ใช่เจ็บหน้าอก)"
+   "ชาย 75 ปีหน้ามืดเวลาออกแรง crescendo-decrescendo murmur ที่ RUSB → AS",
+   "หญิง 35 ปี AF ไอเป็นเลือด mid-diastolic rumble ที่ apex → MS จาก RHD",
+   "ชาย 65 ปี COPD เจ็บหน้าอกทันที หายใจเสียงลดซ้าย → secondary spontaneous pneumothorax"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 9 — ตัวพิมพ์: <b>61. 70 yo male present with acute chest pain. What is the least likely dx? — A. Acute MI B. Acute Aortic dissection type A C. Aortic stenosis D. Mitral stenosis E. Spontaneous pneumothorax</b><br>ลายมือ: A ✓ · B ✓ · C \"✓ sclerotic aortic stenosis ใน elderly / Syncope Angina Dyspnea\" · D \"x มักมาด้วย HF, S&amp;S: dyspnea on exertion, ไอเลือด, pulmonary congestion → orthopnea\" (แดง) · E \"✓ 2° spontaneous pneumothorax\"<br>ไฮไลต์: วง D (ชมพู) · \"70 yo\" \"acute chest pain\" · \"least likely dx\" (ชมพู)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 9",
+  "kimg": [
+   "fsp_p9",
+   "kp70b_61"
   ]
  },
  "MDCU70|RoB|68": {
-  "interp": "ผู้ป่วยลิ้น aortic เทียม (กิน warfarin) ถูกรถชน BP 90/60 + hemoperitoneum มาก + INR 3.0 → hemorrhagic shock ร่วม coagulopathy จากยา → ถามการจัดการที่เหมาะที่สุด",
-  "why": "<b>คีย์ (ตาราง INR): severe bleeding → admit, stop drug, FFP</b><br><b>นอกสไลด์:</b> ผู้ป่วยช็อกจากเลือดออกต้องได้ทั้งเลือด (PRC) เพื่อพาออกซิเจน และ FFP เพื่อแก้ฤทธิ์ warfarin เริ่มตั้งแต่ห้องฉุกเฉินแล้วไปห้องผ่าตัดห้ามเลือดโดยไม่รอ INR กลับปกติ · ในเลือดออกที่คุกคามชีวิตต้องแก้ฤทธิ์ยาแม้มีลิ้นเทียม เพราะความเสี่ยงลิ่มเลือดที่ลิ้นในช่วงสั้นต่ำกว่าความเสี่ยงตายจากเลือดออก",
+  "interp": "ชาย 50 ปี <b>เปลี่ยนลิ้น aortic 10 ปีก่อน</b> (กิน warfarin) อุบัติเหตุรถรุนแรง <b>BP 90/60</b> US พบ<b>เลือดในช่องท้องปริมาณมาก</b> INR 3.0 → ถามการจัดการ",
+  "why": "ผู้ป่วยอยู่ใน<b>ภาวะช็อกจากเลือดออก</b> (hemoperitoneum มาก + ความดันต่ำ) ร่วมกับ<b>ฤทธิ์ warfarin</b> → ต้อง (1) <b>resuscitate ด้วยเลือด</b>ตามหลัก damage control (PRC + FFP ± เกล็ดเลือด สัดส่วนใกล้ 1:1:1 ลดการให้ crystalloid) (2) <b>แก้ฤทธิ์ warfarin ทันที</b> ด้วย FFP หรือดีกว่าคือ <b>4F-PCC</b> + vitamin K IV และ (3) <b>นำเข้าห้องผ่าตัดเร็วที่สุด</b>โดยไม่รอ INR ปกติ · ลิ้นโลหะไม่ใช่ข้อห้ามในการแก้ฤทธิ์ยาเมื่อเลือดออกคุกคามชีวิต · ช้อย D ครอบคลุมทั้งการให้เลือดแก้ช็อกและแก้ coagulopathy จึงตอบ D · ไฟล์ P'Ing วง A และแปะตาราง <b>\"Severe bleeding → admit, stop drug, FFP\"</b>",
   "wrong": {
-   "A": "คีย์ P'Ing — <b>นอกสไลด์:</b> FFP แก้ INR ได้แต่ผู้ป่วยช็อกต้องได้ RBC ด้วย · จะถูกถ้าผู้ป่วยลิ้นเทียมกิน warfarin สัญญาณชีพคงที่ ไม่ซีด แต่ต้องผ่าตัดด่วนในไม่กี่ชั่วโมง (เช่นไส้ติ่งอักเสบ) และไม่มี PCC",
-   "B": "<b>นอกสไลด์:</b> vitamin K ทำให้ INR ลดในราว 6–24 ชม. ไม่ทันเลือดออกที่ต้องผ่าตัดทันที · จะถูกถ้าผู้ป่วยกิน warfarin INR 3 สัญญาณชีพคงที่ ต้องทำ laparotomy ภายใน 24–48 ชม. → vitamin K ขนาดต่ำ แล้วผ่าตัดเมื่อ INR &lt; 1.5",
-   "C": "<b>นอกสไลด์:</b> ผ่าตัดโดยไม่แก้ฤทธิ์ยาทำให้ห้ามเลือดไม่ได้ · จะถูกถ้าผู้ป่วยกิน warfarin INR 1.4 สัญญาณชีพคงที่ มีลำไส้ทะลุต้องผ่าตัด → laparotomy ได้เลยโดยไม่ต้องให้ FFP (INR &lt; 1.5 ผ่าตัดได้)",
-   "E": "<b>นอกสไลด์:</b> INR แก้ได้ในไม่กี่นาทีถึงชั่วโมงด้วย PCC/FFP ส่วนเลือดออกในช่องท้องที่ช็อกหยุดได้ด้วยการผ่าตัดเท่านั้น · จะถูกถ้าผู้ป่วยนัดผ่าตัดไส้เลื่อนแบบ elective เช้าวันผ่าตัด INR 3.0 เพราะลืมหยุด warfarin → งดผ่าตัดวันนั้น หยุดยาแล้วนัดใหม่"
+   "A": "ให้ FFP ก่อนผ่าตัดถูกต้องเรื่องแก้ coagulopathy แต่ผู้ป่วยช็อกจากเสียเลือดยังต้องให้ PRC ด้วย (คีย์ในไฟล์ตอบข้อนี้) · จะถูกถ้าความดันปกติ เลือดออกไม่มาก ต้องผ่าตัดเร่งด่วนในผู้ที่ INR สูง",
+   "B": "Vitamin K ออกฤทธิ์ช้า 6–24 ชม. ไม่ทันในเลือดออกคุกคามชีวิต (ใช้เสริม PCC/ FFP เท่านั้น) · จะถูกถ้า INR 5 ไม่มีเลือดออก นัดผ่าตัดในอีก 1–2 วัน",
+   "C": "ผ่าตัดทันทีโดยไม่แก้ INR ทำให้เลือดออกไม่หยุดในห้องผ่าตัด · จะถูกถ้าผู้ป่วยไม่ได้กินยาต้านการแข็งตัวของเลือด INR ปกติ ช็อกจากเลือดออกในท้อง (ไปห้องผ่าตัดทันที)",
+   "E": "INR สูงไม่ใช่ข้อห้ามผ่าตัด การไม่ผ่าตัดในช็อกจากเลือดออกในท้องทำให้เสียชีวิต · จะถูกถ้าผู้ป่วยความดันคงที่ CT พบตับฉีกขาดระดับต่ำ ไม่มี contrast blush (nonoperative management)"
   },
-  "trap": "เห็น INR 3.0 แล้วคิดแค่แก้ฤทธิ์ยา (FFP อย่างเดียว) ลืมว่า BP 90/60 + hemoperitoneum = ช็อก ต้องให้ PRC ร่วม · กลัวแก้ฤทธิ์ยาเพราะมีลิ้นเทียมจนเลือกไม่แก้ (C/E)",
+  "trap": "แก้ INR อย่างเดียวแล้วลืมว่าผู้ป่วยช็อกจากเสียเลือด — ต้องให้ทั้ง PRC + FFP/ PCC แล้วไปห้องผ่าตัด · คีย์ในไฟล์ตอบ A",
   "summary": [
-   "<b>นอกสไลด์:</b> warfarin + เลือดออกคุกคามชีวิต: หยุดยา + 4F-PCC (ออกฤทธิ์ในไม่กี่นาที) + vitamin K 5–10 mg IV ช้า ๆ · ไม่มี PCC ใช้ FFP ราว 10–15 mL/kg · ร่วม massive transfusion (PRC:FFP:platelet ราว 1:1:1) + tranexamic acid 1 g ภายใน 3 ชม.หลังบาดเจ็บ และไม่เลื่อนการผ่าตัด",
-   "<b>นอกสไลด์:</b> หลังห้ามเลือดได้แน่นอน เริ่ม heparin ใหม่ก่อน แล้วต่อ warfarin ตามเป้า INR ของลิ้น"
+   "ช็อกจากเลือดออก: damage control resuscitation · PRC:FFP:PLT ≈ 1:1:1",
+   "เลือดออกคุกคามชีวิตขณะกิน warfarin: 4F-PCC + vitamin K 5–10 mg IV (FFP ถ้าไม่มี PCC)",
+   "ไม่รอ INR ปกติก่อนผ่าตัดในผู้ป่วยไม่คงที่",
+   "INR 4–9 ไม่มีเลือดออก: หยุดยา 1–2 มื้อ ± vitamin K กินขนาดต่ำ",
+   "INR > 9 ไม่มีเลือดออก: หยุดยา + vitamin K กิน",
+   "ลิ้นโลหะ: เริ่ม heparin ใหม่เมื่อเลือดหยุดแน่นอน"
   ],
-  "opinion": "ไม่ตรงกับคีย์ P'Ing (A) — เลือก D เพราะผู้ป่วยช็อกต้องให้เลือดร่วมกับแก้ฤทธิ์ยา (สอดคล้องกับ 73B CVT 8) · มั่นใจปานกลาง–สูง (ถ้าโจทย์จริงไม่มีช้อย D คีย์ A ก็ตอบได้)",
+  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (A) — ตอบ D ความมั่นใจปานกลาง-สูง เพราะผู้ป่วยมีความดันต่ำจาก hemoperitoneum มาก ต้องให้ PRC ร่วมกับ FFP (หลัก damage control resuscitation ของ ATLS) แล้วผ่าตัด · A ไม่ผิดเรื่องแก้ INR แต่ไม่ครอบคลุมการแก้ช็อก · ปัจจุบันแนวทาง ACC 2020 แนะนำ 4F-PCC มากกว่า FFP",
+  "mnemonic": "<b>'ช็อก + warfarin = เลือด (PRC) + Factor (FFP/ PCC) + ห้องผ่าตัด'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (ACS 2018) — Shock; 2020 ACC Expert Consensus Decision Pathway on Management of Bleeding in Patients on Oral Anticoagulants (J Am Coll Cardiol 2020;76:594)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยลิ้นเทียม INR 4.5 ล้มศีรษะกระแทก GCS 13 CT พบ acute SDH หนา 12 mm midline shift → PCC + vitamin K IV ทันที แล้วผ่าตัดเปิดกะโหลก",
-   "<b>นอกสไลด์:</b> ผู้ป่วยกิน dabigatran ถูกรถชน ช็อก + hemoperitoneum → idarucizumab ร่วม massive transfusion แล้ว laparotomy"
+   "ผู้ป่วยกิน warfarin INR 3.5 เลือดออกในสมอง → 4F-PCC + vitamin K IV",
+   "ผู้ป่วยบาดเจ็บช็อก FAST บวก ไม่ได้กินยา → resuscitate ด้วยเลือด + ผ่าตัดทันที",
+   "ผู้ป่วยลิ้นโลหะ INR 6 ไม่มีเลือดออก → หยุดยาชั่วคราว ± vitamin K กินขนาดต่ำ"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 9–10 — ตัวพิมพ์: <b>68. Which is the most appropriate management of 50-year-old man who had aortic valve replacement 10 years ago, but unfortunately had a severe car accident this morning? His blood pressure is 90/60 mmHg. Ultrasonogram showed massive hemoperitoneum. His INR is 3.0 at ER. — A. FFP given before Explore-Laparotomy B. Vitamin K given before Explore-Laparotomy C. Explore-Laparotomy as soon as possible without INR correction D. 4 units of PRC and 4 units of FFP given immediately at ER before Explore-Laparotomy E. No any surgical treatment due to his INR</b><br>ลายมือ: B ขีดฆ่า \"Vitamin K\" · C ขีดฆ่า \"INR\" · E ✗ (แดง)<br>ไฮไลต์: วง A · \"50-year-old man\" \"aortic valve replacement 10 years ago\" \"blood pressure is 90/60 mmHg\" \"massive hemoperitoneum\"<br>รูปที่แปะ: กรอบเหลือง \"INR 4-9 w/o bleeding → opd case, stop drug · INR &gt;9 w/o bleeding → admit, stop drug, recontinue by decreasing dose 10-20% · Mild bleeding → admit, stop drug, recontinue by decreasing dose 10-20% · Severe bleeding → admit, stop drug, FFP\" · ตารางเล็กหน้า 10 (อ่านไม่ได้)<br>ที่ปรับในเว็บ: เว็บตอบ D ต่างจากคีย์ (A)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 9",
+  "kimg": [
+   "fsp_p9",
+   "kp70b_68a",
+   "kp70b_68b"
   ]
  },
  "MDCU70|RoB|83": {
-  "interp": "ญาติเป็นมะเร็งลำไส้ใหญ่อายุน้อย (25, 40, 50) เข้ากับ Lynch → ถามการเฝ้าระวังสำหรับญาติอายุ 20 ปี",
-  "why": "<b>คีย์: gastroscope + colonoscope as soon as possible แล้วซ้ำทุก 1–2 ปี</b><br><b>นอกสไลด์:</b> Lynch (MMR gene ผิดปกติแต่กำเนิด) adenoma กลายเป็นมะเร็งเร็วกว่าคนทั่วไปมาก จึงส่องลำไส้ทุก 1–2 ปีเริ่มอายุ 20–25 ปี (MLH1/MSH2) · มะเร็งกระเพาะและลำไส้เล็กส่วนต้นก็เพิ่มขึ้น จึงส่องกระเพาะร่วม",
+  "interp": "ผู้ป่วยอายุ 20 ปี ญาติเป็นมะเร็งลำไส้ใหญ่ที่อายุ 25, 40, 50 ปี (เข้าได้กับ <b>Lynch syndrome</b>) → ถามคำแนะนำ",
+  "why": "ญาติ ≥ 3 คนเป็นมะเร็งลำไส้ หนึ่งในนั้นอายุ &lt; 50 ปี (Amsterdam criteria) = สงสัย <b>Lynch syndrome (HNPCC)</b> · ควรส่งตรวจพันธุกรรม (MMR genes) และ<b>ส่อง colonoscopy เริ่มอายุ 20–25 ปี (หรือ 2–5 ปีก่อนอายุญาติที่เป็นเร็วที่สุด) ซ้ำทุก 1–2 ปี</b> เพราะ adenoma ใน Lynch กลายเป็นมะเร็งเร็ว (accelerated carcinogenesis) · พิจารณา<b>ส่องกระเพาะ (EGD)</b> เพื่อเฝ้าระวังมะเร็งกระเพาะ/ ลำไส้เล็กส่วนต้น · ญาติเป็นเร็วสุดที่ 25 ปี จึงควรเริ่มตอนนี้ · ไฟล์ P'Ing ติ๊ก ✓ ที่ <b>\"gastroscope and colonoscope as soon as possible then 1-2year\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> เป็นการคัดกรองคนความเสี่ยงทั่วไป · จะถูกถ้าคนอายุ 45 ปี ไม่มีอาการ ไม่มีประวัติครอบครัวหรือโรคลำไส้อักเสบ → เริ่ม colonoscopy (ซ้ำทุก 10 ปีถ้าปกติ)",
-   "C": "<b>นอกสไลด์:</b> เป็นเกณฑ์ครอบครัวเสี่ยงทั่วไปที่ไม่ใช่ Lynch · จะถูกถ้าคนอายุ 40 ปีที่พ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 55 ปี และครอบครัวไม่เข้าเกณฑ์ Lynch",
-   "D": "<b>นอกสไลด์:</b> FOBT/FIT ใช้กับคนความเสี่ยงทั่วไปเท่านั้น และ Lynch เป็นมะเร็งก่อน 50 ได้ · จะถูกถ้าคนอายุ 50 ปีความเสี่ยงทั่วไปที่ไม่ยอมส่องกล้อง → คัดกรองด้วยอุจจาระเป็นรอบตามโครงการ",
-   "E": "<b>นอกสไลด์:</b> Lynch มี polyp ไม่มากและส่องตัดได้ จึงไม่ตัดลำไส้ป้องกัน · จะถูกถ้าคนอายุ 20 ปีเป็น FAP มี adenoma หลายร้อยตัว → proctocolectomy"
+   "B": "เริ่มที่ 45 ปีเป็นการคัดกรองคนเสี่ยงปกติ · จะถูกถ้าผู้ป่วยไม่มีประวัติครอบครัว ไม่มีอาการ (USPSTF 2021)",
+   "C": "เริ่ม 40 ปี ทุก 5 ปี เป็นแนวทางสำหรับญาติสายตรง 1 คนเป็นมะเร็งอายุ ≥ 60 ปี หรือ advanced adenoma · จะถูกถ้าพ่อเป็นมะเร็งลำไส้ตอนอายุ 65 ปี",
+   "D": "FOBT ปีละครั้งเริ่ม 50 ปีเป็นการคัดกรองคนเสี่ยงปกติแบบไทย · จะถูกถ้าชายไทยอายุ 50 ปี ไม่มีประวัติครอบครัวหรืออาการ",
+   "E": "ตัดลำไส้ใหญ่ป้องกันเป็นแนวทางของ FAP ไม่ใช่ Lynch ที่ไม่มีมะเร็ง (Lynch เฝ้าระวังด้วยการส่องกล้อง) · จะถูกถ้าวัยรุ่นมี polyp นับร้อยตลอดลำไส้ใหญ่ APC mutation (FAP)"
   },
-  "trap": "ใช้กฎครอบครัวเสี่ยงทั่วไป (เริ่ม 40 ปีหรือก่อนญาติ 10 ปี ซ้ำทุก 5 ปี) กับ Lynch → ส่องห่างเกินไป · สับสนกับ FAP ที่ตัดลำไส้ป้องกัน",
+  "trap": "ใช้เกณฑ์คัดกรองคนเสี่ยงปกติ (45–50 ปี) กับครอบครัวที่เป็นมะเร็งเร็วหลายคน",
   "summary": [
-   "<b>นอกสไลด์:</b> ครอบครัวที่สงสัย Lynch: ส่งปรึกษาพันธุกรรม — ตรวจ germline ในญาติที่เป็นมะเร็งก่อน (หรือ MMR IHC/MSI ในชิ้นเนื้อ) แล้วตรวจ mutation นั้นในผู้ป่วย · ถ้าไม่พบ mutation ที่ครอบครัวมี กลับไปคัดกรองตามประวัติครอบครัว",
-   "<b>นอกสไลด์:</b> มะเร็งนอกลำไส้ที่พบบ่อยที่สุดของ Lynch คือ endometrium → หญิงพิจารณาตัดมดลูกและรังไข่เมื่อมีบุตรครบ"
+   "Amsterdam II: ≥ 3 ญาติ · ≥ 2 รุ่นติดกัน · ≥ 1 คนอายุ &lt; 50 · ตัด FAP",
+   "Lynch: colonoscopy เริ่ม 20–25 ปี ทุก 1–2 ปี",
+   "เฝ้าระวัง EGD (มะเร็งกระเพาะ/ ลำไส้เล็ก) · มะเร็งเยื่อบุโพรงมดลูก/ รังไข่ในหญิง",
+   "FAP: sigmoidoscopy/ colonoscopy ตั้งแต่ 10–12 ปี → prophylactic colectomy",
+   "ญาติสายตรงเป็นมะเร็ง &lt; 60 ปี: เริ่ม 40 ปี หรือ 10 ปีก่อน ทุก 5 ปี",
+   "คนเสี่ยงปกติ: 45 ปี (สหรัฐฯ) / 50 ปี (ไทย)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ส่องลำไส้ตอนนี้ทุก 1–2 ปีตรงแนวทาง NCCN · gastroscopy ตามแนวทางเริ่มราว 30–40 ปี แต่ส่องพร้อมกันตอนนี้ยอมรับได้ในประเทศที่มะเร็งกระเพาะพบบ่อย และเป็นช้อยที่ดีที่สุด · มั่นใจสูง",
+  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับช้อยที่ผู้จดจำได้และ P'Ing ติ๊ก ✓ ในไฟล์ · ช้อยอื่นจำไม่ได้ จึงแต่งเพิ่ม",
+  "mnemonic": "<b>'Lynch = ส่องเร็ว (20–25) ส่องถี่ (1–2 ปี) ส่องทั้งบนและล่าง'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric v.2025; ACG Clinical Guideline: Hereditary GI Cancer Syndromes (Am J Gastroenterol 2015;110:223)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 30 ปี ตรวจพบ MSH6 ญาติเป็นมะเร็งตอนอายุ 55 ปี → เริ่มส่องลำไส้ราว 30–35 ปี ทุก 1–3 ปี (MSH6/PMS2 เริ่มช้ากว่า MLH1/MSH2)",
-   "<b>นอกสไลด์:</b> เด็กอายุ 16 ปี ญาติเป็นมะเร็งลำไส้ตอนอายุ 21 ปี (Lynch MLH1) → เริ่มส่องก่อนอายุญาติที่เป็นเร็วสุด 2–5 ปี คือราว 16–19 ปี"
+   "หญิงมี MLH1 mutation → colonoscopy ทุก 1–2 ปี + พิจารณาตัดมดลูก/ รังไข่หลังมีบุตรครบ",
+   "วัยรุ่น 14 ปี polyp > 100 ตัว → FAP → prophylactic colectomy",
+   "ชาย 40 ปี พ่อเป็นมะเร็งลำไส้ตอน 48 → colonoscopy ตอนนี้ ทุก 5 ปี"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 10 — ตัวพิมพ์: <b>83. ผู้ช่วยอายุ20มี family members diagnosed with CA colon at age 25. 40. 50. What would you advise? ช้อยมีหลากหลายว่าควรส่องกล้องอายุเท่าไหร่จำได้ว่ามี gastroscope and colonoscope as soon as possible then 1-2year</b><br>ลายมือ: ✓ ท้าย \"gastroscope and colonoscope as soon as possible then 1-2year\"<br>ไฮไลต์: \"family members diagnosed with CA colon at age 25. 40. 50\" · \"gastroscope and colonoscope as soon as possible then 1-2year\"<br>ที่ปรับในเว็บ: ช้อยจำได้ 1 ข้อ → แต่งช้อยอื่นเพิ่ม",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 10",
+  "kimg": [
+   "fsp_p10",
+   "kp70b_83"
   ]
  },
  "MDCU70|RoB|84": {
-  "interp": "หลัง LAR มะเร็งไส้ตรง (โดยนัย stage II–III) → ข้อ \"wrong\" หาแผนติดตามที่ผิด",
-  "why": "<b>คีย์: ตาราง follow-up 0–2 ปีทุก 3 เดือน, 2–5 ปีทุก 6 เดือน, > 5 ปีทุก 1 ปี · colonoscopy ปีที่ 1, 3, 5</b><br><b>นอกสไลด์:</b> colonoscopy หลังผ่าตัดไม่ได้หาแค่ recurrence แต่หา metachronous cancer/adenoma ในลำไส้ที่เหลือซึ่งเสี่ยงไปตลอด จึงหยุดหลังปีแรกไม่ได้",
+  "interp": "ผู้ป่วยมะเร็งทวารหนัก<b>หลังผ่าตัด LAR</b> ถามแผนติดตามข้อใด<b>ผิด</b>",
+  "why": "การติดตามหลังผ่าตัดมะเร็งลำไส้ใหญ่/ ทวารหนัก (stage II–III) 5 ปี: ซักประวัติตรวจร่างกาย + <b>CEA ทุก 3–6 เดือนใน 2 ปีแรก แล้วทุก 6 เดือนจนครบ 5 ปี</b> · <b>CT ทรวงอก/ ท้อง/ เชิงกราน ทุก 6–12 เดือน</b> · <b>colonoscopy ที่ 1 ปี → ถ้าปกติ ซ้ำที่ 3 ปี → แล้วทุก 5 ปี</b> (ถ้าไม่ได้ส่องครบก่อนผ่าตัด ส่องภายใน 3–6 เดือน) · มะเร็งทวารหนักอาจส่อง proctoscopy/ sigmoidoscopy ดูรอยต่อเป็นระยะ · ดังนั้น \"ส่องลำไส้แค่ปีที่ 1 แล้วหยุด\" ผิด · ไฟล์ P'Ing วง E ✗ และแปะ <b>\"colonoscope ปีที่ 1,3,5\"</b>",
   "wrong": {
-   "A": "P'Ing ✓ (แก้ช่วงเวลา) — <b>นอกสไลด์:</b> จะเป็นคำตอบ (เป็นแผนที่ผิด) ถ้าผู้ป่วยเป็น stage I (pT1–2N0) ซึ่งแนวทางไม่แนะนำ CEA และ CT ตามรอบ ติดตามด้วย colonoscopy เป็นหลัก",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะการซักประวัติตรวจร่างกายทุก 3–6 เดือนในช่วงแรกเป็นพื้นฐานของการติดตามทุกระยะ (recurrence ส่วนใหญ่เกิดใน 2–3 ปีแรก)",
-   "C": "<b>นอกสไลด์:</b> จะเป็นคำตอบ (เป็นแผนที่ผิด) ถ้าผู้ป่วยสูงอายุมีโรคร่วมมากจนรับการผ่าตัดหรือเคมีบำบัดซ้ำไม่ได้ — การหา recurrence ที่ไม่มีอาการไม่เปลี่ยนการรักษา",
-   "D": "<b>นอกสไลด์:</b> จะเป็นคำตอบ (เป็นแผนที่ผิด) ถ้าผู้ป่วยทำ APR (ตัดไส้ตรงและทวารหนักออก มี colostomy ถาวร) เพราะไม่มีรอยต่อในไส้ตรงให้ส่องดู"
+   "A": "ถูก — CEA ทุก 3 เดือนใน 2 ปีแรก แล้วทุก 6 เดือนถึง 5 ปี (P'Ing แก้ \"every 3\" เป็น \"6\" ในช่วงหลัง) · จะถูกถ้าช้อยบอกว่าไม่ต้องตรวจ CEA หลังผ่าตัด",
+   "B": "ถูก — ซักประวัติตรวจร่างกายทุก 3–6 เดือนใน 2 ปีแรก · จะถูกถ้าช้อยบอกว่านัดตรวจครั้งเดียวที่ 5 ปี",
+   "C": "ถูก — CT ทรวงอก/ ท้อง/ เชิงกราน ทุก 6–12 เดือนถึง 5 ปี (มองหาการกระจายตับ ปอด) · จะถูกถ้าช้อยบอกว่าใช้ PET-CT ทุก 3 เดือนเป็นประจำ",
+   "D": "ถูก — มะเร็งทวารหนักที่เก็บหูรูดไว้อาจส่อง proctoscopy ดูรอยต่อเพื่อหาการกลับเป็นซ้ำเฉพาะที่ · จะถูกถ้าช้อยบอกว่าการส่องดูรอยต่อไม่มีประโยชน์ในมะเร็งทวารหนักเลย"
   },
-  "trap": "ตัวเลขช้อย A–D เป็นช่วงที่ยอมรับได้ (3–6, 6–12 เดือน) อย่าตัดเพราะไม่ตรงตารางที่จำ — จุดที่ผิดคือ \"only… then stop\" · proctoscopy ดู anastomosis ไม่ได้แทน colonoscopy",
+  "trap": "คิดว่าส่องกล้องครั้งเดียวพอ — ต้องส่องที่ 1, 3 ปี แล้วทุก 5 ปี (หา metachronous cancer/ polyp)",
   "summary": [
-   "<b>นอกสไลด์:</b> colonoscopy หลังผ่าตัด: 1 ปี → ถ้าปกติ 3 ปี → ทุก 5 ปี · ถ้าพบ advanced adenoma ส่องซ้ำใน 1 ปี"
+   "H&amp;P + CEA: ทุก 3–6 เดือน × 2 ปี → ทุก 6 เดือนถึง 5 ปี",
+   "CT C/A/P: ทุก 6–12 เดือน × 5 ปี",
+   "Colonoscopy: 1 ปี → 3 ปี → ทุก 5 ปี",
+   "ไม่ได้ส่องครบก่อนผ่าตัด (อุดตัน) → ส่องภายใน 3–6 เดือน",
+   "เฝ้าระวัง: ตับ ปอด เยื่อบุช่องท้อง กระดูก และเฉพาะที่",
+   "CEA สูงขึ้น → CT/ PET หาตำแหน่งกลับเป็นซ้ำ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง (ช้อย B–D เติมจากแนวทาง)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับวง E ✗ และสรุปที่แปะในไฟล์ · ต้นฉบับช้อย B–D ไม่ครบ จึงเติมตามแนวทาง NCCN",
+  "mnemonic": "<b>'ส่องลำไส้หลังผ่ามะเร็ง: 1-3-5 (แล้วทุก 5 ปี)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Rectal Cancer v.2025 — Surveillance; ASCRS Clinical Practice Guidelines for the Surveillance and Survivorship Care of Patients After Curative Treatment of Colon and Rectal Cancer (Dis Colon Rectum 2021;64:517)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยหลัง LAR 18 เดือน CEA จาก 2 ขึ้นเป็น 15 ng/mL CT พบก้อนเดียวที่ตับ 3 cm → ผ่าตัดตับ (recurrence ที่ตับก้อนเดียวยังหายขาดได้)",
-   "<b>นอกสไลด์:</b> มะเร็ง sigmoid อุดตันผ่าตัดฉุกเฉิน ก่อนผ่าตัดส่องกล้องผ่านก้อนไม่ได้ → colonoscopy ภายใน 3–6 เดือนหลังผ่าตัด"
+   "หลังผ่าตัดมะเร็งลำไส้ 18 เดือน CEA สูงขึ้น → CT C/A/P ± PET หาการกลับเป็นซ้ำ",
+   "colonoscopy ที่ 1 ปีปกติ → นัดซ้ำที่ 3 ปี",
+   "ผ่าตัดฉุกเฉินจากลำไส้อุดตัน ไม่ได้ส่องก่อน → colonoscopy ภายใน 3–6 เดือน"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 10 — ตัวพิมพ์: <b>84. Rectal cancer s/p LAR Which of the following is wrong in follow up? — A. CEA every 3 month in first 2 year and then every 3 month until 5 years B. C. Ultrasound abdomen every..... D. ....... every 6 month E. Colonoscopy until 1 year</b><br>ลายมือ: A ขีดฆ่า \"3\" (ช่วงหลัง) แก้เป็น \"6\" + ✓ · E ✗ (แดง)<br>ไฮไลต์: วง E (ชมพู) · \"Rectal cancer\" \"LAR\" · \"wrong in follow up\" (ชมพู)<br>รูปที่แปะ: สไลด์ Follow up — 0-2 years: every 3 months · 2-5 years: every 6 months · &gt; 5 years: every year · CEA LEVEL · LIVER US/CT · LUNG X-RAY/CT · COLONOSCOPY (พร้อมลายมือเล็ก) · ภาพวาดท่าผ่าตัด · สรุป follow-up — 0-2 yr ทุกๆ 3 เดือน · 2-5 yr ทุกๆ 6 เดือน · &gt;5 yr ทุกๆ 1 ปี · ต้องเฝ้าระวัง local + distant recurrence ที่ liver, lung, carcinomatosis, bone, breast · ติดตามด้วย CEA level, liver CT/US, lung X-ray/CT, colonoscope ปีที่ 1,3,5<br>ที่ปรับในเว็บ: ช้อย B–D ไม่ครบ → เติมตามแนวทาง",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 10",
+  "kimg": [
+   "fsp_p10",
+   "kp70b_84"
   ]
  },
  "MDCU70|RoB|ไม่มีเลข 1": {
-  "interp": "ถามค่าคงที่: ความยาวที่ได้ทางทฤษฎีของ Z-plasty มุม 60°",
-  "why": "<b>คีย์ตาราง: 30° = 25% · 45° = 50% · 60° = 75% · 75° = 100% · 90° = 120%</b><br><b>นอกสไลด์:</b> 60° เป็นมุมมาตรฐานเพราะสมดุลระหว่างความยาวที่ได้กับแรงตึงด้านข้าง มุมกว้างกว่านี้ได้ยาวขึ้นแต่ flap หมุนเข้าที่ยากและผิวข้าง ๆ ตึงมาก",
+  "interp": "Z-plasty มุม <b>60°</b> ได้ความยาวเพิ่มทางทฤษฎีเท่าใด",
+  "why": "Z-plasty สลับ flap สามเหลี่ยม 2 ชิ้นเพื่อ<b>เพิ่มความยาวตามแนวแขนกลาง (central limb)</b> และ<b>เปลี่ยนทิศแผลเป็น</b> 90° · ความยาวที่เพิ่มขึ้นตามมุม: <b>30° = 25% · 45° = 50% · 60° = 75% · 75° = 100% · 90° = 120%</b> · <b>60° เป็นมุมมาตรฐาน</b> เพราะได้ความยาวมากโดยยังหมุน flap ได้ไม่ตึงเกิน (มุมกว้างกว่านี้ตึงมาก) · ความยาวจริงมักน้อยกว่าทฤษฎีเพราะความยืดหยุ่นของผิว · ใช้แก้แผลเป็นหดรั้ง (contracture) ตามข้อพับ · ไฟล์ P'Ing วง C ✓ และแปะตาราง <b>\"Z-PLASTY, ANGLES, AND THEORETICAL GAIN\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Z-plasty 60° ได้ความยาวทางทฤษฎี 25% เพราะความยาวที่ได้ขึ้นกับมุมอย่างเดียว และ 25% เป็นค่าของมุม 30°",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Z-plasty 60° ได้ความยาวทางทฤษฎี 50% เพราะค่านี้เป็นของมุม 45° ซึ่งแคบกว่า",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Z-plasty 60° ได้ความยาวทางทฤษฎี 100% เพราะต้องใช้มุม 75° จึงได้เท่าตัว",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Z-plasty 60° ได้ความยาวทางทฤษฎี 120% เพราะเป็นค่าของมุม 90° ซึ่งเป็นมุมกว้างสุดในตาราง"
+   "A": "25% เป็นของมุม 30° (ลายมือ \"x 30°\") · จะถูกถ้าคำถามถาม Z-plasty มุม 30°",
+   "B": "50% เป็นของมุม 45° (ลายมือ \"x 45°\") · จะถูกถ้าคำถามถาม Z-plasty มุม 45°",
+   "D": "100% เป็นของมุม 75° (ลายมือ \"x 75°\") · จะถูกถ้าคำถามถาม Z-plasty มุม 75°",
+   "E": "120% เป็นของมุม 90° · จะถูกถ้าคำถามถาม Z-plasty มุม 90°"
   },
-  "trap": "จำสลับคู่ตัวเลข: 75% คือมุม 60° ไม่ใช่มุม 75° (มุม 75° = 100%) · ความยาวที่ได้จริงน้อยกว่าทางทฤษฎีเพราะผิวหนังยืดได้ไม่เท่ากันทุกที่",
+  "trap": "จำตัวเลขสลับ — 60° = 75% (เพิ่มทีละ 15° ได้เพิ่มราว 25%)",
   "summary": [
-   "<b>นอกสไลด์:</b> Z-plasty ใช้ (1) เพิ่มความยาวตามแนวแผลเป็นที่หดรั้ง (2) หมุนทิศแผลเป็นราว 90° ให้อยู่ในแนว RSTL (3) แตกแผลเป็นตรงยาว · แขนทั้งสามยาวเท่ากัน แขนกลางวางตามแนวแผลเป็นที่หดรั้ง"
+   "30° → 25% · 45° → 50% · 60° → 75% · 75° → 100% · 90° → 120%",
+   "มุมมาตรฐาน 60°",
+   "ประโยชน์: ยืดความยาว · เปลี่ยนทิศแผลเป็น · แตกแผลเป็นตรงยาว",
+   "ใช้แก้ scar contracture ตามข้อพับ ซอกนิ้ว",
+   "ความยาวจริงน้อยกว่าทฤษฎี",
+   "แขนทั้งสามต้องยาวเท่ากัน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C ✓ และตารางในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Z-plasty: มุม +15° → ยาว +25% (30=25 ... 60=75 ... 90=120)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2019) — Z-plasty; Neligan Plastic Surgery 5th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลเป็นหดรั้งยาว 4 cm ทำ Z-plasty 60° ชุดเดียว → ความยาวทางทฤษฎีราว 7 cm (4 × 1.75)",
-   "<b>นอกสไลด์:</b> แผลเป็นหดรั้งยาวมาก ผิวด้านข้างตึง ทำ Z ใหญ่ชุดเดียวไม่ได้ → multiple Z-plasty ต่อกันหลายชุด (ได้ความยาวรวมใกล้เคียงกัน แต่ตึงด้านข้างน้อยกว่า)"
+   "แผลเป็นหดรั้งที่ข้อพับศอก → Z-plasty 60°",
+   "แผลเป็นตรงยาวผ่านเส้นแรงตึงผิว → Z-plasty หลายอัน (multiple Z) เปลี่ยนทิศ",
+   "ต้องการความยาวเพิ่ม 100% → Z-plasty มุม 75°"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 10 — ตัวพิมพ์: <b>Xx. เย็บ z-plasty มุม60องศา จะได้ theoritical length gain เพิ่มเท่าไร — A. 25% B. 50% C. 75% D. 100%</b><br>ลายมือ: A \"x 30°\" · B \"x 45°\" · C ✓ · D \"x 75°\" (แดง)<br>ไฮไลต์: วง C · \"z-plasty มุม60องศา\" \"theoritical length gain เพิ่มเท่าไร\"<br>รูปที่แปะ: สไลด์ Z-plasty — Lengthen the central limb of the flap · Change the scar direction (พร้อมลายมือเล็กและภาพ) · ตาราง Z-PLASTY, ANGLES, AND THEORETICAL GAIN — 30-30: 25 · 45-45: 50 · 60-60: 75 · 75-75: 100 · 90-90: 120<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E 120%",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 10",
+  "kimg": [
+   "fsp_p10",
+   "kp70b_x1"
   ]
  },
  "MDCU70|RoB|ไม่มีเลข 2": {
-  "interp": "ชาย 40 ปี COPD เป็น pneumothorax ครั้งที่สอง (secondary spontaneous) ใส่สายแล้ว → ถามการรักษาที่ป้องกันการเป็นซ้ำ (definitive)",
-  "why": "<b>คีย์: ป้องกัน recurrence → blebectomy with pleurodesis (tetracycline) · ควรทำเลย ไม่รอ</b><br><b>นอกสไลด์:</b> SSP เป็นซ้ำเป็นข้อบ่งชี้ทำหัตถการป้องกัน ปอดสำรองน้อยทำให้การเป็นซ้ำอาจถึงชีวิต จึงทำใน admission เดียวกัน · VATS ตัด bulla + pleurodesis (ขัดเยื่อหุ้มปอด/pleurectomy หรือ talc) ทำให้เป็นซ้ำน้อยที่สุด",
+  "interp": "ชาย 40 ปีมี <b>COPD</b> เป็น pneumothorax <b>ครั้งที่ 2</b> ใส่ chest tube แล้ว → ถาม definitive treatment",
+  "why": "Pneumothorax ในผู้มีโรคปอดเดิม (COPD) = <b>secondary spontaneous pneumothorax</b> ซึ่งอันตรายกว่าและกลับเป็นซ้ำสูง · เป็นซ้ำแล้ว → ต้อง<b>ป้องกันการกลับเป็นซ้ำ (definitive)</b> ในการรักษาครั้งนี้: <b>VATS bullectomy/ blebectomy + pleurodesis</b> (mechanical/ pleurectomy) ซึ่งได้ผลดีที่สุด (กลับเป็นซ้ำ &lt; 5%) · ถ้าผ่าตัดไม่ได้ ให้ chemical pleurodesis ผ่าน chest tube (talc, tetracycline/ doxycycline) · ข้อบ่งชี้ผ่าตัดอื่น: ลมรั่วนาน &gt; 5–7 วัน, สองข้าง, อาชีพเสี่ยง (นักบิน นักดำน้ำ) · ไฟล์ P'Ing วง B ลายมือ <b>\"✓ ป้องกัน recurrence : blebectomy with pleurodesis\"</b> \"2° spontaneous pneumothorax\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ suction อย่างเดียวเป็นการรักษาที่ป้องกันการเป็นซ้ำ เพราะการดูดเพียงช่วยให้ปอดขยายจนรูรั่วปิดชั่วคราว ไม่ได้ตัด bulla หรือทำให้เยื่อหุ้มปอดติดกัน",
-   "C": "P'Ing ✗ ควรทำเลย — <b>นอกสไลด์:</b> จะถูกถ้าชายหนุ่มเป็น PSP ครั้งแรก ปอดขยายดีและถอดสายแล้ว แต่เป็นนักบินอาชีพ → นัดผ่าตัดป้องกันแบบ elective ก่อนกลับไปทำงาน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าชายหนุ่มไม่มีโรคปอดเป็น PSP ครั้งแรก มีอาการ → needle aspiration อย่างเดียวพอสำหรับครั้งนั้น ไม่ต้องใส่สาย",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้า PSP ครั้งแรกที่ใส่สายแล้วปอดขยายเต็ม ไม่มี air leak → ถอดสายแล้วนัดติดตาม ไม่ต้องผ่าตัด"
+   "A": "ดูดลมต่อเนื่องอย่างเดียวไม่ป้องกันการกลับเป็นซ้ำ (ลายมือ ✗) · จะถูกถ้าใส่ chest tube แล้วปอดยังขยายไม่เต็มในวันแรก (ต่อ suction ช่วยให้ปอดขยาย)",
+   "C": "นัดผ่าตัดทีหลังทำให้เสี่ยงเป็นซ้ำระหว่างรอ ควรทำในการนอนโรงพยาบาลครั้งนี้ (ลายมือ \"x ควรทำเลย\") · จะถูกถ้าผู้ป่วย primary spontaneous pneumothorax ครั้งแรกหายดีแล้ว และกำลังจะไปทำอาชีพเสี่ยง (นักบิน)",
+   "D": "Needle aspiration เป็นการรักษาเบื้องต้นของ primary pneumothorax ขนาดเล็ก/ ปานกลาง ไม่ใช่ definitive · จะถูกถ้าวัยรุ่นผอมสูงไม่มีโรคปอด pneumothorax ครั้งแรก เหนื่อยเล็กน้อย",
+   "E": "สังเกตอาการหลังเอาท่อออกไม่ป้องกันการกลับเป็นซ้ำในผู้ที่เป็นซ้ำ · จะถูกถ้าเป็น primary spontaneous pneumothorax ครั้งแรกขนาดเล็ก ไม่มีอาการ"
   },
-  "trap": "ใช้แนวคิดของ PSP (รอดู/ทำครั้งที่สอง) กับ COPD · เข้าใจว่าต้องรอให้ฟื้นหลายเดือนก่อนผ่าตัด — SSP เป็นซ้ำต้องทำเลย",
+  "trap": "ใส่ท่อแล้วถือว่าจบ — secondary และเป็นซ้ำ ต้องทำ definitive (bullectomy + pleurodesis) เลย",
   "summary": [
-   "<b>นอกสไลด์:</b> SSP ต่างจาก PSP: อาการหนักกว่าขนาดลม, aspiration ได้ผลน้อยจึงมักใส่สาย, admit ทุกราย, เป็นซ้ำบ่อย"
+   "Primary SP: ผู้ชายผอมสูง สูบบุหรี่ ไม่มีโรคปอด",
+   "Secondary SP: COPD, TB, cystic fibrosis · อายุมากกว่า อันตรายกว่า",
+   "ครั้งแรกใน secondary/ เป็นซ้ำ → พิจารณา definitive",
+   "Definitive: VATS bullectomy + pleurodesis/ pleurectomy",
+   "ผ่าตัดไม่ได้ → chemical pleurodesis (talc, doxycycline)",
+   "ลมรั่ว &gt; 5–7 วัน → ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง B และลายมือในไฟล์ · ช้อยต้นฉบับ \"pleurodesis with tetracyclin\" เขียนเป็น bullectomy with pleurodesis ตามลายมือ และเติม D, E",
+  "mnemonic": "<b>'Pneumothorax ซ้ำ/ secondary = ตัด bleb + ทำให้เยื่อหุ้มติด (pleurodesis)'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1) — Spontaneous pneumothorax",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย COPD รุนแรง ดมยาสลบผ่าตัดไม่ได้ เป็น SSP ซ้ำ → chemical pleurodesis (talc slurry หรือเลือดตัวเอง) ผ่านสายระบายทรวงอก",
-   "<b>นอกสไลด์:</b> SSP ครั้งแรกจาก COPD ใส่สายแล้ว air leak ยังมีวันที่ 5 → ปรึกษาศัลยแพทย์ทรวงอกเพื่อผ่าตัด"
+   "วัยรุ่นผอมสูง pneumothorax ครั้งแรก 2 cm เหนื่อยน้อย → observe/ needle aspiration",
+   "pneumothorax ใส่ท่อ 7 วันยังมีลมรั่ว → VATS",
+   "ผู้ป่วย COPD รุนแรงผ่าตัดไม่ได้ pneumothorax ซ้ำ → chemical pleurodesis (talc)"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 10 — ตัวพิมพ์: <b>Xx. ผช40ปี มี underlying COPD ตอนนี้มี pneumothorax เคยเป็นมาก่อนหน้านี้ละครั้งนึง หลังจากใส่ chest tube ละ อะไรเป็นdefinitive treatment — A. Continuous suction B. Pleurodesis with tetracyclin C. นัดมาตัดblebทีหลัง</b><br>ลายมือ: \"2° spontaneous pneumothorax\" · A ✗ · B \"✓ ป้องกัน recurrence : blebectomy with pleurodesis\" · C \"x ควรทำเลย\" (แดง)<br>ไฮไลต์: วง B · \"underlying COPD\" \"pneumothorax\" \"เคยเป็นมาก่อนหน้านี้ละครั้งนึง\" · \"definitive treatment\" (เหลือง)<br>ที่ปรับในเว็บ: B เขียนเป็น bullectomy with pleurodesis · ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 10",
+  "kimg": [
+   "fsp_p10",
+   "kp70b_x2"
   ]
  },
  "MDCU70|RoB|ไม่มีเลข 3": {
-  "interp": "สงสัย maxilla หัก → ถามท่า plain film ที่ดีที่สุด",
-  "why": "<b>คีย์ (ลายมือ): investigation — film skull PA, lateral, Waters, Caldwell · CT facial bone</b><br><b>นอกสไลด์:</b> Waters (occipitomental) ถ่ายให้คางยกขึ้นราว 37° ทำให้ petrous ridge ตกลงต่ำกว่า maxillary sinus จึงเห็น maxillary sinus, ขอบเบ้าตาล่าง, zygoma ชัดไม่ซ้อนฐานกะโหลก · เลือดหรือระดับน้ำ-อากาศใน maxillary sinus เป็นเงื่อนงำว่ามีกระดูกหัก",
+  "interp": "ถามภาพรังสีธรรมดาท่าใด<b>ดีที่สุด</b>สำหรับสงสัย <b>maxillary fracture</b>",
+  "why": "<b>Waters view (occipitomental)</b> ถ่ายโดยเงยคางให้กระดูก petrous ลงไปใต้ maxillary sinus จึงเห็น <b>ใบหน้าส่วนกลาง</b> (maxilla, maxillary sinus, zygoma, orbital floor/ rim, nasal bone) ชัดที่สุด · เห็น air-fluid level/ เลือดใน maxillary sinus · ปัจจุบัน<b>มาตรฐานคือ CT facial bone</b> (วางแผนผ่าตัด) · รักษา: ORIF + MMF/ IMF ให้ฟันสบกันดี · ไฟล์ P'Ing วง C และแปะสไลด์ <b>\"Investigation · Film skull : PA, Lateral, Water, Caldwel · CT facial bone\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> AP/PA skull เห็น maxilla ซ้อนกับฐานกะโหลก · จะถูกถ้าสงสัยกะโหลกส่วน vault หักในที่ที่ไม่มี CT (ถ่ายร่วม lateral)",
-   "B": "<b>นอกสไลด์:</b> Towne ถ่ายก้มคางลงเห็นท้ายทอยและ condyle ของ mandible · จะถูกถ้าสงสัย condyle ของ mandible หักหลังคางกระแทก ปวดหน้าหู อ้าปากแล้วคางเบี้ยว",
-   "D": "<b>นอกสไลด์:</b> panoramic เห็น mandible ทั้งชิ้นและรากฟัน · จะถูกถ้าถูกต่อยขากรรไกรล่าง ฟันสบผิด ฟันโยก สงสัย mandible หักหลายตำแหน่ง",
-   "E": "<b>นอกสไลด์:</b> lateral skull เห็นโครงหน้าซ้อนกันสองข้าง · จะถูกถ้าสงสัยฐานกะโหลกหักในที่ที่ไม่มี CT แล้วมองหาระดับน้ำ-อากาศใน sphenoid sinus"
+   "A": "ท่า AP ซ้อนทับกระดูกฐานกะโหลกบน maxillary sinus เห็นใบหน้าส่วนกลางไม่ชัด · จะถูกถ้าถามท่าพื้นฐานของ skull series ในบาดเจ็บศีรษะทั่วไป",
+   "B": "Towne view ดู occipital bone และ condyle ของ mandible · จะถูกถ้าสงสัยกระดูก condyle ของขากรรไกรล่างหักหลังล้มคางกระแทก",
+   "D": "Panoramic (OPG) ดู mandible ทั้งชิ้นและฟัน · จะถูกถ้าสงสัย mandibular fracture ฟันสบไม่ลง ชาริมฝีปากล่าง",
+   "E": "Lateral skull ดูกะโหลกด้านข้าง sella ไม่เหมาะกับ maxilla · จะถูกถ้าดู depressed skull fracture ด้านข้างหรือขนาด sella turcica"
   },
-  "trap": "Caldwell ก็เป็นท่าหน้า แต่เห็น frontal/ethmoid sinus และขอบเบ้าตาด้านข้าง ไม่ใช่ maxilla · ปัจจุบัน CT facial bone เป็นมาตรฐาน plain film ใช้เมื่อไม่มี CT",
+  "trap": "เลือก panoramic เพราะเกี่ยวกับฟัน — panoramic ดู mandible ส่วน maxilla ใช้ Waters",
   "summary": [
-   "<b>นอกสไลด์:</b> อาการชี้ maxilla หัก: ใบหน้าส่วนกลางขยับได้เมื่อจับฟันบนโยก, ฟันสบผิด (anterior open bite), หน้ายาวแบน (dish face), เลือดกำเดา · Le Fort I แนวเหนือฟัน, II รูปพีระมิดผ่านจมูก, III แยกใบหน้าออกจากกะโหลก"
+   "Maxilla/ midface/ zygoma/ orbital floor → Waters view",
+   "Frontal sinus/ orbit → Caldwell view",
+   "Zygomatic arch → submentovertex (jug-handle)",
+   "Mandible → panoramic (OPG) · condyle → Towne",
+   "มาตรฐานปัจจุบัน: CT facial bone",
+   "รักษา: ORIF + MMF/ IMF ให้ฟันสบ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C และสไลด์ที่แปะในไฟล์",
+  "mnemonic": "<b>'Waters = ใบหน้ากลาง (เงยคางเหมือนดื่มน้ำ — water)'</b>",
+  "guide": "Fonseca's Oral and Maxillofacial Trauma 4th ed. (2013); ATLS Advanced Trauma Life Support 10th ed. (ACS 2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังอุบัติเหตุ Waters view เห็นขอบเบ้าตาล่างขาดและ maxillary sinus ซ้ายทึบ → สงสัย ZMC/orbital floor หัก ส่ง CT facial bone"
+   "สงสัยโหนกแก้มยุบ (zygomatic arch) → submentovertex view/ CT",
+   "ล้มคางกระแทก ฟันสบไม่ลง → panoramic view",
+   "บาดเจ็บใบหน้าวางแผนผ่าตัด → CT facial bone 3D"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 10 — ตัวพิมพ์: <b>Xx. Maxillary fracture — A. AP B. Towne's view C. Water's view D. Panoramic view E. lateral skull</b><br>ลายมือ: ไม่มีที่ช้อย<br>ไฮไลต์: วง C · \"Maxillary fracture\"<br>รูปที่แปะ: สไลด์ MAXILLARY FRACTURE — Investigation: Film skull : PA, Lateral, Water (ลายมือ \"เหมือนเงยหน้ากินน้ำ\" \"ใช้ดู midface : maxilla, zygoma, nasal bone\"), Caldwel · CT facial bone → standard → ช่วยในการผ่าตัด · รักษาโดย ORIF, MMF (maxillo-mandibular fixation) fix ให้ฟันสบกันดี or IMF (intermaxillary fixation) · Treatment ORIF and MMF (จัดให้เข้าที่) พร้อมภาพ Skull Waters View",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 10",
+  "kimg": [
+   "fsp_p10",
+   "kp70b_x3"
   ]
  },
  "MDCU70|RoB|ไม่มีเลข 4": {
-  "interp": "ข้อ NOT: หาอาการที่ \"ไม่ใช่\" ลักษณะของ zygoma หักอย่างเดียว",
-  "why": "<b>คีย์: malocclusion เป็นของ mandibular & maxillary fracture</b><br><b>นอกสไลด์:</b> zygoma ไม่มีฟัน หักอย่างเดียวจึงไม่ทำให้ฟันสบผิด ถ้าผู้ป่วยบาดเจ็บโหนกแก้มแล้วฟันสบผิด ต้องหา maxilla (Le Fort) หรือ mandible หักร่วม",
+  "interp": "ถามอาการที่<b>ไม่ใช่</b>ลักษณะของ <b>zygomatic fracture</b> (กระดูกโหนกแก้ม)",
+  "why": "Zygomatic (ZMC) fracture: <b>periorbital ecchymosis</b>, subconjunctival hemorrhage, <b>ชาบริเวณ infraorbital nerve</b> (แก้ม ริมฝีปากบน ปีกจมูก), <b>โหนกแก้มแบน (malar flattening)</b>, เห็นภาพซ้อน/ กลอกตาจำกัด, enophthalmos, ตาเอียงลง (antimongoloid slant) และ<b>อ้าปากได้จำกัด (trismus)</b> จากกระดูก arch ยุบกด coronoid process · <b>ฟันสบผิด (malocclusion)</b> ไม่ใช่ลักษณะของ zygoma หักอย่างเดียว เพราะ zygoma ไม่มีฟัน — พบใน <b>maxillary (Le Fort) และ mandibular fracture</b> · ไฟล์ P'Ing วง C ลายมือ <b>\"x mandibular &amp; maxillary fracture\"</b> และแปะสไลด์ FRACTURE ZYGOMA",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ periorbital ecchymosis ไม่ใช่ลักษณะของ zygoma หัก เพราะ zygoma เป็นผนังด้านข้างและพื้นของเบ้าตา เลือดจากรอยหักจึงซึมรอบตาแทบทุกราย",
-   "B": "P'Ing ✓ lock jaw — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ trismus ไม่ใช่ลักษณะของ zygoma หัก เพราะ zygomatic arch ที่ยุบลงไปกด coronoid process และกล้ามเนื้อ temporalis ทำให้อ้าปากไม่ได้",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ชาใต้ตาไม่ใช่ลักษณะของ zygoma หัก เพราะรอยหักผ่านพื้นเบ้าตาและ infraorbital foramen ซึ่งเป็นทางของ infraorbital nerve (V2)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่โหนกแก้มแบนไม่ใช่ลักษณะของ zygoma หัก เพราะตัว zygoma ที่ยุบเข้าในคือสิ่งที่ทำให้โหนกแก้มแบน (อาจถูกบวมบังในวันแรก)"
+   "A": "พบได้ — จ้ำเลือดรอบตาเป็นอาการเด่น (ลายมือ ✓) · จะถูกถ้าคำถามถามอาการของ nasal bone fracture อย่างเดียว (ไม่มีรอบตาช้ำทั้งวง)",
+   "B": "พบได้ — arch ยุบกด coronoid process/ temporalis ทำให้อ้าปากไม่ได้ (ลายมือ \"✓ lock jaw\") · จะถูกถ้าคำถามถามอาการของ orbital blowout fracture อย่างเดียว",
+   "D": "พบได้ — แนวหักผ่าน infraorbital foramen (ลายมือ ✓) · จะถูกถ้าคำถามถามอาการของ zygomatic arch fracture เดี่ยว ๆ (มักไม่ชา)",
+   "E": "พบได้ — โหนกแก้มยุบแบนเมื่อมองจากด้านบน · จะถูกถ้าคำถามถามอาการของ mandibular fracture"
   },
-  "trap": "trismus (อ้าปากไม่ได้) ทำให้ดูเหมือนฟันสบไม่ได้ แต่ฟันยังสบตรงกันเมื่อหุบ · โหนกแก้มแบนอาจถูกบวมบัง ต้องดูจากด้านบนศีรษะ",
+  "trap": "เห็น trismus แล้วคิดว่าต้องเป็นขากรรไกรหัก — zygoma ยุบกด coronoid ทำให้อ้าปากไม่ได้ แต่ฟันยังสบปกติ",
   "summary": [
-   "<b>นอกสไลด์:</b> ZMC หัก: ผ่าตัดยึดเมื่อเคลื่อนจนหน้าผิดรูป อ้าปากไม่ได้ หรือมีปัญหาตา (ภาพซ้อน ตาจม) · ไม่เคลื่อนรักษาประคับประคอง"
+   "ZMC fracture: ช้ำรอบตา · ชา infraorbital · โหนกแก้มแบน · trismus",
+   "ตา: diplopia · limit EOM · enophthalmos · antimongoloid slant",
+   "Malocclusion → maxillary (Le Fort) หรือ mandibular fracture",
+   "ภาพ: Waters/ submentovertex · มาตรฐาน CT",
+   "เคลื่อนน้อย ไม่มีอาการ → รักษาแบบอนุรักษ์",
+   "เคลื่อน/ diplopia/ trismus → ORIF"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C และลายมือในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Zygoma ไม่มีฟัน → ฟันสบผิดไม่ใช่ zygoma'</b>",
+  "guide": "Fonseca's Oral and Maxillofacial Trauma 4th ed. (2013); AO Surgery Reference — CMF: Zygomatic complex fractures",
   "variants": [
-   "<b>นอกสไลด์:</b> ถูกต่อยโหนกแก้ม อ้าปากได้ 1 cm ภาพ submentovertex เห็น zygomatic arch ยุบเป็นรูปตัว V → arch หักอย่างเดียว ยกกลับด้วย Gillies approach",
-   "<b>นอกสไลด์:</b> หลังกระแทกโหนกแก้ม เลือดออกใต้เยื่อบุตาขาวด้านข้างที่มองไม่เห็นขอบด้านหลัง → บ่งว่ามีผนังเบ้าตาหักร่วม"
+   "ชกที่แก้ม ชาริมฝีปากบน ช้ำรอบตา → ZMC fracture",
+   "ฟันสบเปิดด้านหน้า กระดูกเพดานขยับได้ → Le Fort I/ II",
+   "ชาริมฝีปากล่าง ฟันสบผิด → mandibular fracture"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 10 — ตัวพิมพ์: <b>Xx. Zygomatic fracture ไม่มีอะไร — A. periorbital ecchymosis B. trismus C. malocclusion D. Numbness along infraorbital nerve area</b><br>ลายมือ: \"โหนกแก้ม\" เหนือ Zygomatic · A ✓ · B \"✓ lock jaw\" · C \"x mandibular &amp; maxillary fracture\" (แดง) · D ✓<br>ไฮไลต์: วง C (ชมพู) · \"Zygomatic fracture\" · \"ไม่มีอะไร\" (ชมพู)<br>รูปที่แปะ: สไลด์ FRACTURE ZYGOMA — Sign&amp;symptom: Periorbital ecchymosis, edema, subconjunctival hemorrhage · Numbness along infraorbital nerve area · Diplopia · Limit EOM · Limit mouth opening · Malar displacement · Enophthalmos · Antimongoloid slant (พร้อมภาพ Zygomatic fx)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 10",
+  "kimg": [
+   "fsp_p10",
+   "kp70b_x4"
   ]
  },
  "MDCU70|RoB|ไม่มีเลข 5": {
-  "interp": "ผู้ป่วยอายุน้อย มี mid-diastolic rumbling murmur ที่ apex = เสียงลิ้น mitral ตีบ → ถามสาเหตุที่น่าจะเป็นที่สุด",
-  "why": "<b>คีย์: ราว 95% ของ MS เกิดจาก RHD · ลายมือ MDR = mitral/tricuspid stenosis</b><br><b>นอกสไลด์:</b> MDR ที่ apex คือเลือดไหลผ่านลิ้น mitral ที่ตีบในช่วง diastole ฟังด้วย bell ท่านอนตะแคงซ้าย มี loud S1 และ opening snap นำ · ในคนอายุน้อยในประเทศที่ RHD ยังพบบ่อย RHD เป็นสาเหตุแทบทั้งหมด",
+  "interp": "ผู้ป่วยอายุน้อย ฟังได้ <b>mid-diastolic rumbling murmur ที่ apex</b> → ถามวินิจฉัย",
+  "why": "Diastolic rumbling murmur ที่ apex (มี opening snap, ดังขึ้นท่านอนตะแคงซ้าย) = <b>mitral stenosis</b> · <b>~95% ของ MS เกิดจาก rheumatic heart disease</b> (ลิ้นหนา commissure ติดกัน) โดยเฉพาะในประเทศกำลังพัฒนา · อาการ: เหนื่อยเวลาออกแรง orthopnea ไอเป็นเลือด AF · รักษา: percutaneous balloon mitral valvotomy ถ้าลิ้นเหมาะ, ไม่เหมาะ → ผ่าตัดเปลี่ยนลิ้น · ไฟล์ P'Ing วง D ลายมือ <b>\"✓ 95% of MS เกิดจาก RHD\"</b> \"mitral / tricuspid stenosis\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> IE ทำลายลิ้นให้รั่ว ไม่ใช่ตีบ · จะถูกถ้าผู้ป่วยไข้ มี pansystolic murmur ใหม่ที่ apex ร้าวไปรักแร้ และ echo พบ vegetation ที่ลิ้น mitral",
-   "B": "<b>นอกสไลด์:</b> IE ของลิ้น aortic ทำให้ AR · จะถูกถ้าผู้ป่วยไข้ ชีพจรเต้นแรงตกเร็ว pulse pressure กว้าง มี early diastolic murmur ที่ขอบซ้ายกระดูกอก",
-   "C": "<b>นอกสไลด์:</b> IE ลิ้น tricuspid ให้ murmur รั่วที่ขอบซ้ายล่างกระดูกอก · จะถูกถ้าผู้ใช้ยาเสพติดฉีดเข้าเส้น ไข้ ไอ ภาพปอดมีก้อนหลายจุด (septic emboli) murmur ดังขึ้นเวลาหายใจเข้า",
-   "E": "<b>นอกสไลด์:</b> RHD ของลิ้น aortic ให้เสียงที่ฐานหัวใจ ไม่ใช่ apex และมักเป็นร่วมกับ mitral · จะถูกถ้าผู้ป่วย RHD มี early diastolic murmur ที่ขอบซ้ายกระดูกอกร่วม pulse pressure กว้าง"
+   "A": "IE ของ mitral ทำลายลิ้นให้รั่ว → <b>pansystolic</b> murmur (MR) ไม่ใช่ diastolic rumble · จะถูกถ้าผู้ป่วยไข้ เสียงฟู่ pansystolic ใหม่ที่ apex",
+   "B": "IE ของ aortic → AR: early diastolic decrescendo ที่ขอบอกซ้าย (อาจมี Austin Flint ที่ apex ได้แต่ไม่ใช่ลักษณะหลัก) · จะถูกถ้าผู้ป่วยไข้ ชีพจรแรง pulse pressure กว้าง early diastolic blowing murmur",
+   "C": "IE ของ tricuspid → TR: holosystolic ที่ LLSB ดังขึ้นเวลาหายใจเข้า · จะถูกถ้าผู้ใช้ยาเสพติดฉีด ไข้ ฝีในปอดหลายจุด",
+   "E": "RHD ของ aortic มักเป็น AR (early diastolic decrescendo ที่ LSB) · จะถูกถ้าเสียงฟู่เป็น early diastolic blowing ที่ขอบอกซ้ายในผู้ป่วยมีประวัติ rheumatic fever"
   },
-  "trap": "AR รุนแรงทำให้เกิด Austin Flint murmur (MDR ที่ apex) ได้ แต่ไม่มี opening snap/loud S1 และมี early diastolic murmur นำ · คำว่า \"acute\" ถูกตัดออกจากโจทย์เพราะ MS เป็นผลเรื้อรังของ RHD",
+  "trap": "เห็นเสียงฟู่แล้วคิดถึง endocarditis — diastolic rumble ที่ apex = MS ซึ่งเกือบทั้งหมดมาจาก RHD",
   "summary": [
-   "<b>นอกสไลด์:</b> severe MS = MVA ≤ 1.5 cm² · มีอาการและลิ้นเหมาะ (ไม่มีลิ่มเลือดใน LA, MR ไม่เกินเล็กน้อย) → balloon valvotomy (PMBC) ก่อนผ่าตัด",
-   "<b>นอกสไลด์:</b> MS ร่วม AF → anticoagulation ด้วย warfarin (DOAC ไม่ใช้ใน rheumatic MS ปานกลาง–รุนแรง)"
+   "MS: opening snap + mid-diastolic rumble ที่ apex (ตะแคงซ้าย bell)",
+   "~95% จาก RHD",
+   "อาการ: DOE · orthopnea · hemoptysis · AF · stroke",
+   "AF + MS → anticoagulant (warfarin)",
+   "PBMV ถ้าลิ้นเหมาะ · ไม่เหมาะ → MVR",
+   "Diastolic rumble ที่ LLSB ดังขึ้นเวลาหายใจเข้า = TS"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับวง D ✓ และลายมือในไฟล์ · ต้นฉบับเขียน \"acute\" rheumatic heart disease แต่ MS เป็นผลระยะยาว (chronic RHD) จึงตัดคำว่า acute",
+  "mnemonic": "<b>'Rumble ที่ apex = MS = Rheumatic (95%)'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72); World Heart Federation Criteria for Echocardiographic Diagnosis of RHD (Nat Rev Cardiol 2012;9:297)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ 28 สัปดาห์ เหนื่อยมากขึ้น ฟังได้ opening snap + MDR ที่ apex → rheumatic MS (ตั้งครรภ์เพิ่มปริมาณเลือดและชีพจรจนอาการแย่) เริ่ม β-blocker",
-   "<b>นอกสไลด์:</b> เด็ก 10 ปี ไข้ ข้ออักเสบย้ายที่ ฟังได้ MDR สั้น ๆ ที่ apex ร่วม pansystolic murmur → Carey Coombs murmur ของ acute rheumatic carditis (ลิ้นอักเสบ ยังไม่ใช่ MS)"
+   "หญิง 30 ปี AF ไอเป็นเลือด opening snap → MS → พิจารณา PBMV",
+   "ผู้ป่วยไข้ pansystolic murmur ใหม่ที่ apex → IE ของ mitral (MR)",
+   "early diastolic blowing murmur ที่ LSB ชีพจรแรง → AR"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 10 — ตัวพิมพ์: <b>Xx. ......Diastolic rumbling murmur......Dx. — A. Infective endocarditis of mitral valve B. Infective endocarditis of aortic valve C. Infective endocarditis of .... D. Acute rheumatic heart disease of mitral valve E. Acute rheumatic heart disease of aortic valve</b><br>ลายมือ: \"mitral / tricuspid stenosis\" เหนือ Diastolic rumbling · D \"✓ 95% of MS เกิดจาก RHD\"<br>ไฮไลต์: วง D · \"Diastolic rumbling murmur\"<br>รูปที่แปะ: แผนภาพ \"Approach to heart murmurs by description — Systolic or diastolic murmur?\" (ภาพเล็ก)<br>ที่ปรับในเว็บ: stem ไม่ครบ → ระบุ apex และผู้ป่วยอายุน้อย · ช้อย C ไม่ครบ → tricuspid · ตัดคำว่า acute",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 10",
+  "kimg": [
+   "fsp_p10",
+   "kp70b_x5"
   ]
  },
  "MDCU70|RoB|ไม่มีเลข 6": {
-  "interp": "ข้อ NOT: เด็กโรคหัวใจรายใดที่ \"ไม่เขียว\"",
-  "why": "<b>คีย์: left → right shunt = acyanotic</b><br><b>นอกสไลด์:</b> ASD เลือดไหลจาก LA ไป RA (ความดัน LA สูงกว่า และ RV ยืดหยุ่นกว่า) เลือดแดงไปเพิ่มฝั่งปอด จึงไม่เขียว · จะเขียวเมื่อความดันปอดสูงจนกลับทิศ (Eisenmenger — ดูข้อ RoA 90 ของชุดนี้)",
+  "interp": "ถามเด็กที่มีโรคหัวใจชนิด<b>ไม่เขียว</b>",
+  "why": "<b>ASD</b> เป็น <b>left → right shunt</b> เลือดแดงไหลไปฝั่งขวา ไม่มีเลือดดำเข้าสู่ระบบ จึง<b>ไม่เขียว (acyanotic)</b> (เว้นแต่ปล่อยจนเกิด Eisenmenger) · ตัวเลือกอื่นมี right → left shunt หรือเลือดดำผสม: <b>VSD + PS</b> (เท่ากับ TOF physiology), <b>DORV</b>, <b>TGA with VSD</b>, <b>TOF</b> · ไฟล์ P'Ing วง B ลายมือ <b>\"✓ left → right shunt = acyanotic\"</b> และที่ A \"x TOF\"",
   "wrong": {
-   "A": "P'Ing: = TOF — <b>นอกสไลด์:</b> จะถูก (เป็นเด็กที่ไม่เขียว) ถ้า VSD ร่วม valvar PS เพียงเล็กน้อยโดยไม่มี aorta คร่อม — ความดัน RV ยังต่ำกว่า LV เลือดจึงไหลซ้ายไปขวา",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นเด็กที่ไม่เขียว) ถ้าเป็น DORV แบบ subaortic VSD ไม่มี PS → อาการเหมือน VSD ใหญ่ (หัวใจล้มเหลว ไม่เขียว)",
-   "D": "<b>นอกสไลด์:</b> D-TGA เลือดดำจาก RV ออก aorta โดยตรง VSD ช่วยแค่ผสมเลือด · จะถูก (เป็นเด็กที่ไม่เขียว) ถ้าเป็น congenitally corrected TGA (L-TGA) ร่วม VSD ไม่มี PS → เลือดไหลซ้ายไปขวาแบบ VSD",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นเด็กที่ไม่เขียว) ถ้าเป็นทารก TOF ที่ RVOT ตีบน้อย (pink TOF) — ต่อมา infundibulum หนาขึ้นจะเริ่มเขียว"
+   "A": "VSD + pulmonary stenosis ทำให้เลือดดำไหลผ่าน VSD ไปซ้าย (physiology แบบ TOF) → เขียว (ลายมือ \"x TOF\") · จะถูกถ้าเป็น VSD อย่างเดียว (L→R ไม่เขียว)",
+   "C": "DORV ส่วนใหญ่มีเลือดผสม → เขียว (ขึ้นกับตำแหน่ง VSD) · จะถูกถ้าคำถามถามโรคหัวใจเขียวที่ aorta และ pulmonary artery ออกจาก RV ทั้งคู่",
+   "D": "TGA: aorta ออกจาก RV เลือดดำไปทั่วร่าง → เขียวมากตั้งแต่แรกเกิด VSD ช่วยผสมเลือดแต่ยังเขียว · จะถูกถ้าทารกแรกเกิดเขียวมาก CXR egg on a string",
+   "E": "TOF เขียว (VSD + overriding aorta + RVOT obstruction + RVH) มี tet spell · จะถูกถ้าเด็กเขียวเวลาร้อง นั่งยอง CXR boot-shaped heart"
   },
-  "trap": "เห็น DORV/TOF/VSD + PS แล้วลังเลเพราะบางแบบไม่เขียวได้ — แต่ทั้งหมดจัดอยู่ในกลุ่มเขียว ส่วน ASD เป็นโรค acyanotic (L→R) โดยกำเนิด และเขียวเฉพาะเมื่อเกิด Eisenmenger",
+  "trap": "คิดว่าโรคที่มี VSD ไม่เขียวเสมอ — VSD + PS ทำให้ shunt กลับเป็นขวาไปซ้าย",
   "summary": [
-   "<b>นอกสไลด์:</b> เขียว (5T + อื่น): TOF, TGA, truncus arteriosus, TAPVR, tricuspid atresia, Ebstein, pulmonary atresia, HLHS · ไม่เขียว: VSD, ASD, PDA, AVSD, coarctation, AS, PS"
+   "Acyanotic (L→R): ASD · VSD · PDA · AVSD",
+   "Acyanotic obstructive: coarctation · AS · PS",
+   "Cyanotic 5T: TOF · TGA · Truncus · TAPVR · Tricuspid atresia",
+   "อื่น: DORV · Ebstein · HLHS · pulmonary atresia",
+   "L→R นาน → pulmonary HT → Eisenmenger (กลับเป็นเขียว)",
+   "เขียวแรกเกิดไม่ดีขึ้นด้วย O2 (hyperoxia test) → cyanotic CHD"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง B ✓ และลายมือในไฟล์",
+  "mnemonic": "<b>'ไม่เขียว = รู L→R (ASD, VSD, PDA) · เขียว = 5T'</b>",
+  "guide": "Moss and Adams' Heart Disease in Infants, Children, and Adolescents 10th ed. (2021); Nelson Textbook of Pediatrics 22nd ed. (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 2 เดือน หายใจเร็ว ดูดนมเหนื่อย เหงื่อออก ไม่เขียว pansystolic murmur ขอบซ้ายล่างกระดูกอก → VSD ใหญ่ (หัวใจล้มเหลวจาก L→R shunt)",
-   "<b>นอกสไลด์:</b> ทารก 3 วัน เขียวทั้งตัว ไม่มี murmur CXR หัวใจรูปไข่ (egg on a string) → TGA: PGE1 ± balloon atrial septostomy"
+   "ทารกแรกเกิดเขียวมาก CXR egg on a string → TGA → PGE1 + balloon atrial septostomy",
+   "ทารก VSD ใหญ่ เหนื่อยเวลาดูดนม ไม่เขียว → L→R shunt",
+   "ผู้ใหญ่ ASD ไม่ได้รักษา เริ่มเขียว นิ้วปุ้ม → Eisenmenger"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 11 — ตัวพิมพ์: <b>Xx.เด็กคนไหนไม่เขียว — A. VSD with PS B. ASD C. DORV D. TGA with VSD E. TOF</b><br>ลายมือ: A \"x TOF\" (แดง) · B \"✓ left → right shunt = acyanotic\"<br>ไฮไลต์: วง B · \"เด็กคนไหนไม่เขียว\"",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 11",
+  "kimg": [
+   "fsp_p11",
+   "kp70b_x6"
   ]
  },
  "MDCU70|RoB|ไม่มีเลข 7": {
-  "interp": "ข้อ NOT: ข้อความเรื่อง brain abscess ที่ \"ไม่จริง\" — ช้อยส่วนใหญ่เป็นแหล่งต้นเหตุ",
-  "why": "<b>คีย์: fever พบราว 50% (ไม่ใช่ usually) · A, B = direct spreading · C = เลือดไม่ผ่านปอดที่ช่วยกรองเชื้อ · D ✓</b><br><b>นอกสไลด์:</b> triad ปวดศีรษะ ไข้ neuro deficit พบครบเพียงส่วนน้อย อาการที่พบบ่อยที่สุดคือปวดศีรษะ ไม่มีไข้หรือ WBC ปกติจึงตัดฝีในสมองไม่ได้",
+  "interp": "ถามข้อ<b>ไม่จริง</b>เกี่ยวกับ <b>brain abscess</b>",
+  "why": "Brain abscess เกิดจาก: (1) <b>ลามโดยตรง</b>จากการติดเชื้อข้างเคียง — <b>sinusitis</b> (frontal lobe), <b>otitis media/ mastoiditis</b> (temporal lobe, cerebellum) · (2) <b>ทางกระแสเลือด</b> — lung abscess, bronchiectasis, IE และ<b>โรคหัวใจที่มี right-to-left shunt</b> (cyanotic CHD) เพราะเลือดไม่ผ่านปอดซึ่งช่วยกรองเชื้อ · (3) <b>บาดเจ็บทะลุ/ กะโหลกแตก/ หลังผ่าตัดสมอง</b> · อาการที่พบบ่อยที่สุดคือ<b>ปวดหัว</b> (~70%) ส่วน<b>ไข้พบเพียงราวครึ่งหนึ่ง</b> และ triad ปวดหัว ไข้ อาการทางประสาทพบครบเพียง ~20% → \"มักมีไข้\" จึงไม่จริง · ไฟล์ P'Ing วง E ลายมือ <b>\"x fever 25%\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ frontal/ethmoid sinusitis ลามผ่านกระดูกหรือหลอดเลือดดำเข้าสมองโดยตรง ทำให้เกิดฝีที่ frontal lobe",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะหูชั้นกลาง/mastoid อักเสบลามผ่าน tegmen tympani เข้า temporal lobe หรือ cerebellum",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ shunt ขวาไปซ้าย (เช่นหัวใจพิการแต่กำเนิดชนิดเขียว) ส่งเชื้อจากเลือดดำเข้าสมองโดยไม่ผ่านการกรองของปอด",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะกะโหลกแตกเปิด/บาดแผลทะลุพาเชื้อจากผิวหนังเข้าเนื้อสมองโดยตรง (มัก S. aureus)"
+   "A": "จริง — sinusitis ลามโดยตรงเข้า frontal lobe (ลายมือ \"direct spreading\") · จะถูกถ้าช้อยบอกว่า sinusitis ไม่เพิ่มความเสี่ยง",
+   "B": "จริง — otitis media/ mastoiditis ลามเข้า temporal lobe/ cerebellum (ลายมือ \"direct spreading\") · จะถูกถ้าช้อยบอกว่าหูอักเสบลามได้แต่ meningitis ไม่เกิดฝี",
+   "C": "จริง — right-to-left shunt ทำให้เชื้อในเลือดดำไม่ผ่านปอดที่ช่วยกำจัดเชื้อ (ลายมือ \"✓ ไม่ผ่าน lung ที่ช่วยกำจัดเชื้อ\") · จะถูกถ้าช้อยบอกว่า left-to-right shunt (ASD/ VSD ไม่เขียว) เพิ่มความเสี่ยง",
+   "D": "จริง — กะโหลกแตก/ บาดเจ็บทะลุนำเชื้อเข้าโดยตรง (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าการบาดเจ็บศีรษะไม่เกี่ยวกับฝีในสมอง"
   },
-  "trap": "คิดว่าฝีต้องมีไข้เหมือนฝีที่อื่น — สมองไม่มีระบบน้ำเหลือง ฝีมีแคปซูลห่อ อาการเด่นจึงเป็นก้อนกดเบียด (ปวดศีรษะ อาการทางระบบประสาท) มากกว่าไข้",
+  "trap": "คิดว่าฝีต้องมีไข้ — ฝีในสมองอยู่ในโพรงหุ้มแคปซูล ไข้พบเพียงราวครึ่งหนึ่ง อาการเด่นคือปวดหัว",
   "summary": [
-   "<b>นอกสไลด์:</b> ภาพ: ring enhancement ขอบบางเรียบ ด้านติด ventricle บางกว่า · DWI จำกัดการแพร่ตรงกลาง (หนองข้น) ช่วยแยกจากก้อนมะเร็งที่ตรงกลางเป็นเนื้อตาย · ไม่เจาะหลังเพราะเสี่ยง herniation และได้ผลเพาะเชื้อน้อย"
+   "สาเหตุ: ลามจาก sinus/ หู/ ฟัน · กระแสเลือด · บาดเจ็บ/ ผ่าตัด",
+   "Cyanotic CHD (R→L shunt) เพิ่มความเสี่ยง",
+   "อาการ: ปวดหัว (~70%) · ไข้ (~50%) · focal deficit (~50%) · triad ~20%",
+   "MRI: ring-enhancing · DWI restriction (แยกจากเนื้องอกตาย)",
+   "รักษา: aspiration/ excision + ATB 6–8 สัปดาห์",
+   "ห้ามเจาะหลังเมื่อสงสัยฝี (เสี่ยงสมองเคลื่อน)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับวง E และลายมือในไฟล์ · ลายมือระบุไข้ 25% ส่วน systematic review (Brouwer 2014) พบไข้ ~53% ซึ่งยังสนับสนุนว่า \"มักมีไข้\" ไม่จริง",
+  "mnemonic": "<b>'ฝีในสมอง: ปวดหัวแน่ ไข้แค่ครึ่ง'</b>",
+  "guide": "Brouwer MC et al. Clinical characteristics and outcome of brain abscess: systematic review and meta-analysis (Neurology 2014;82:806); ESCMID Guideline: Diagnosis and Treatment of Brain Abscess (Clin Microbiol Infect 2024;30:66)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย HHT เลือดกำเดาไหลบ่อย เป็นฝีในสมองโดยไม่มีหัวใจพิการ → หา pulmonary AVM ด้วย CT ทรวงอก/echo ฉีดฟองอากาศ แล้วอุด",
-   "<b>นอกสไลด์:</b> ปวดศีรษะมากขึ้น 2 สัปดาห์หลังถอนฟันกรามที่อักเสบ ไม่มีไข้ → ฝีในสมองจากฟัน (มัก frontal lobe เชื้อ streptococcus/anaerobe)"
+   "เด็ก TOF ปวดหัว ชัก MRI ring-enhancing lesion → brain abscess",
+   "หูน้ำหนวกเรื้อรัง ปวดหัว เดินเซ → cerebellar abscess",
+   "ring-enhancing lesion DWI restriction ในโพรง → ฝี (ไม่ใช่ GBM ที่ตาย)"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 11 — ตัวพิมพ์: <b>Xx. ข้อไหนไม่จริงเกี่ยวกับbrain abscess — A. ถ้า sinusitis จะเกิดbrain abscessได้มากกว่าคนปกติ B. ถ้า otitis media จะเกิดbrain abscessได้มากกว่าคนปกติ C. right to left shunt จะเกิดbrain abscessได้มากกว่าคนปกติ D. เคยมี skull fracture / injury จะเกิดbrain abscessได้มากกว่าคนปกติ E. brain abscessมักจะมีไข้</b><br>ลายมือ: A ✓ · B ✓ · ปีกกา A–B \"direct spreading\" · C \"✓ ไม่ผ่าน lung ที่ช่วยกำจัดเชื้อ\" · D ✓ · E \"x fever 25%\" (แดง)<br>ไฮไลต์: วง E (ชมพู) · \"ข้อไหนไม่จริง\" (ชมพู) · \"brain abscess\"<br>รูปที่แปะ: สไลด์ CNS Infection — Brain Abscess: Direct spreading · Hemotogenous (lung abscess, bronchiectasis, IE) · Trauma · Congenital heart disease (พร้อมลายมือเล็ก)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 11",
+  "kimg": [
+   "fsp_p11",
+   "kp70b_x7"
   ]
  }
 }
