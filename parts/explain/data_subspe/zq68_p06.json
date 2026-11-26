@@ -1,136 +1,240 @@
 {
  "MDCU68|RoD|34": {
-  "interp": "ข้อ NOT — หาสิ่งที่ \"ไม่ใช่\" ภาวะแทรกซ้อนระยะยาวของโรคที่ shunt ซ้ายไปขวา (VSD, PDA, ASD)",
-  "why": "<b>คีย์: ขีด C + ติ๊ก A, B, D, E</b><br><b>นอกสไลด์:</b> shunt ซ้ายไปขวาทำให้เลือดไปปอด \"มาก\" หลอดเลือดแดงปอดจึงโตขยาย ไม่ใช่เล็กลง — pulmonary artery hypoplasia เป็นลักษณะของโรคที่เลือดไปปอดน้อยแต่กำเนิด (TOF, pulmonary atresia)",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>ภาวะแทรกซ้อนระยะยาวของ <b>left-to-right shunt</b>",
+  "why": "Left-to-right shunt (ASD, VSD, PDA) → เลือดไปปอดมากเกิน → หลอดเลือดแดงปอด<b>โต/ หนาตัว</b> ไม่ใช่เล็กลง · ภาวะแทรกซ้อน: <b>หัวใจล้มเหลว</b>, <b>infective endocarditis</b>, pulmonary hypertension และระยะท้าย <b>Eisenmenger</b> (shunt กลับเป็นขวาไปซ้าย → <b>เขียว</b>) · <b>Pulmonary artery hypoplasia</b> เป็นของโรคที่เลือดไปปอดน้อย (TOF, pulmonary atresia) · ไฟล์ขีด C ติ๊ก ✓ ที่ A, B, D, E และแก้คำ hyp<b>o</b>plasia เป็น hyp<b>er</b>plasia",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"หัวใจล้มเหลวเป็นภาวะแทรกซ้อนของ L→R shunt\" ผิด เพราะเลือดที่วนกลับเข้าปอดเพิ่มภาระปริมาตรให้หัวใจ (VSD/PDA ที่ห้องซ้าย ASD ที่ห้องขวา)",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"infective endocarditis เป็นภาวะแทรกซ้อนของ L→R shunt\" ผิด เพราะกระแสเลือดที่พุ่งแรงผ่านรูเล็ก (VSD เล็ก, PDA) กระแทกผนังจนเป็นจุดให้เชื้อเกาะ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"shunt กลับทิศเป็นภาวะแทรกซ้อนของ L→R shunt\" ผิด เพราะความต้านทานปอดที่สูงถาวรจนเกินความดันฝั่งซ้ายทำให้เลือดไหลจากขวาไปซ้าย (Eisenmenger)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"เขียวเป็นภาวะแทรกซ้อนระยะยาวของ L→R shunt\" ผิด เพราะเมื่อ shunt กลับทิศ เลือดดำจะผ่านเข้าระบบไหลเวียนทั่วร่างกายโดยตรง"
+   "A": "เกิดได้ — หัวใจล้มเหลวจาก volume overload (ลายมือ ✓) · จะถูกถ้าคำถามถามภาวะที่ไม่เกิดใน ASD เล็กมาก",
+   "B": "เกิดได้ — IE โดยเฉพาะ VSD/ PDA (ลายมือ ✓) · จะถูกถ้าคำถามถาม ASD secundum ที่เสี่ยง IE ต่ำมาก",
+   "D": "เกิดได้ — Eisenmenger: shunt กลับทิศ (ลายมือ ✓) · จะถูกถ้าคำถามถามภาวะที่เกิดตั้งแต่แรกเกิด",
+   "E": "เกิดได้ — เขียวจาก Eisenmenger (ลายมือ ✓) · จะถูกถ้าคำถามถามอาการระยะแรกของ L→R shunt (ไม่เขียว)"
   },
-  "trap": "สับสนคำว่า hypoplasia กับการเปลี่ยนแปลงของหลอดเลือดปอดใน Eisenmenger — ที่หนาตัวและตีบคือหลอดเลือดเล็กปลายทาง (ผนังกล้ามเนื้อหนา intima เป็นพังผืด) ส่วนหลอดเลือดแดงปอดใหญ่กลับโป่งขยาย",
+  "trap": "คิดว่า L→R shunt ไม่ทำให้เขียวเลย — ระยะท้ายเขียวได้ (Eisenmenger)",
   "summary": [
-   "<b>นอกสไลด์:</b> ปิดรูก่อนหลอดเลือดปอดเสียถาวร: VSD ใหญ่ที่หัวใจล้มเหลวหรือความดันปอดสูง → ผ่าตัดในขวบปีแรก · ASD ที่ RV โตหรือ Qp:Qs ≥ 1.5 → ปิดช่วงก่อนวัยเรียน (หรือเมื่อพบในผู้ใหญ่ถ้ายังไม่มีความดันปอดสูงถาวร) · ประเมินว่าปิดได้ไหมด้วยการสวนหัวใจวัด PVR: PVRi ต่ำกว่าราว 4 WU·m² ปิดได้ · สูงมากหรือ shunt กลับทิศแล้ว (Eisenmenger) ห้ามปิด"
+   "L→R shunt: ASD · VSD · PDA · AVSD",
+   "เลือดไปปอดมาก → HF · pulmonary HT · ปอดติดเชื้อบ่อย",
+   "Eisenmenger: R→L → เขียว · ห้ามปิดรู",
+   "PA hypoplasia: โรคที่เลือดไปปอดน้อย (TOF)",
+   "IE: VSD/ PDA เสี่ยงกว่า ASD",
+   "ปิดรูก่อน pulmonary vascular disease ถาวร"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง — โจทย์เดียวกับ RoB 79 ของชุดนี้",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และเครื่องหมาย ✓",
+  "mnemonic": "<b>'L→R = ปอดได้เลือดมาก → PA ใหญ่ (ไม่ใช่เล็ก)'</b>",
+  "guide": "AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease (Circulation 2019;139:e698)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 3 ขวบ VSD ใหญ่ไม่เคยรักษา สวนหัวใจพบ PVR สูง แต่ลดลงชัดเมื่อให้ O2/nitric oxide (ยังตอบสนอง) → ยังปิดรูได้",
-   "<b>นอกสไลด์:</b> หญิง Eisenmenger จาก VSD อยากตั้งครรภ์ → ไม่แนะนำให้ตั้งครรภ์ (ตายสูง) ไม่ปิดรู ให้ยาขยายหลอดเลือดปอด · ปลูกถ่ายปอด/หัวใจเป็นทางสุดท้าย"
+   "ผู้ใหญ่ ASD ไม่ได้รักษา เริ่มเขียว → Eisenmenger",
+   "VSD เล็ก ฟันผุ ไข้นาน → IE",
+   "ทารก TOF เขียว CXR เลือดไปปอดน้อย → PA เล็ก"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 89 — ตัวพิมพ์: <b>34. Which is not long-term complication of left-to-right shunt diseases? — A. Heart failure B. IE C. Hypoplasia of pulmonary artery D. Reverse shunt through defect E. Cyanosis</b><br>ลายมือ: ✓ ที่ A, B, D, E · ขีด C + แก้ \"hypo\" เป็น \"hyper\"<br>ไฮไลต์: \"not long-term complication\" \"left-to-right shunt diseases\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 70: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 89",
+  "kimg": [
+   "fsk_p89",
+   "kp68d_34",
+   "k2p_70"
   ]
  },
  "MDCU68|RoD|36": {
-  "interp": "หญิง 44 ปี severe primary MR จาก flail posterior leaflet มีอาการ (FC II) → ข้อบ่งชี้ผ่าตัดมีแล้ว · มุมของข้อนี้คือเลือกซ่อมหรือเปลี่ยนลิ้น",
-  "why": "<b>ลายมือ: FC II → repair · D (replacement) จดคู่กับ FC III/acute MR</b><br><b>นอกสไลด์:</b> severe primary MR ที่มีอาการต้องผ่าตัด และลิ้นเสื่อมแบบ flail/prolapse ของ posterior leaflet ซ่อมได้สำเร็จสูงมากในศูนย์ที่ชำนาญ — การซ่อมเก็บลิ้นและเส้นยึด (chordae) ของผู้ป่วยไว้ LV ทำงานดีกว่า อัตราตายต่ำกว่า และไม่ต้องกิน warfarin ตลอดชีวิต",
+  "interp": "หญิง 44 ปี หอบ <b>FC II</b> <b>severe MR จาก flail posterior mitral leaflet</b> → ถามการจัดการ",
+  "why": "Severe primary MR ที่มีอาการ → ผ่าตัด · <b>Mitral valve repair</b> ดีกว่า replacement (อัตราตายต่ำ รักษาการทำงาน LV ไม่ต้องกินยาต้านการแข็งตัวตลอด) — posterior leaflet flail ซ่อมสำเร็จสูง · ตามตำราที่แปะในไฟล์: ผ่าตัด<b>ซ่อมเมื่อ FC II ขึ้นไป</b> (ถ้าซ่อมได้) · <b>เปลี่ยนลิ้นเมื่อ FC III ขึ้นไป</b> · ไฟล์ขีด C ลายมือ C <b>\"FC 2\"</b> · D <b>\"FC ≥ 3, acute MR\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น secondary (functional) MR จาก LV เสีย — รักษาหัวใจล้มเหลวด้วยยาเต็มที่ก่อน (ACEI/ARNI, β-blocker, MRA ± CRT)",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ PBMV รักษา MR เพราะการขยายลิ้นด้วยบอลลูนทำให้รั่วมากขึ้น — PBMV ใช้กับ mitral stenosis และห้ามเมื่อ MR เกิน mild",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าลิ้นเสียจาก rheumatic (หนา แข็ง มีหินปูน) หรือติดเชื้อทำลายเนื้อลิ้นมากจนซ่อมไม่ได้",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ควรรอจน FC IV ใน severe primary MR เพราะถึงระยะนั้น LV มักเสียถาวรและผลผ่าตัดแย่ลง"
+   "A": "ยาไม่เปลี่ยนการดำเนินโรค primary MR รุนแรงที่มีอาการ · จะถูกถ้าเป็น secondary (functional) MR จาก cardiomyopathy",
+   "B": "PBMV ใช้กับ mitral stenosis · จะถูกถ้าหญิง rheumatic MS ลิ้นยืดหยุ่น ไม่มี MR",
+   "D": "Replacement ใช้เมื่อซ่อมไม่ได้ หรือ FC III ขึ้นไป/ acute MR (ลายมือ) · จะถูกถ้าลิ้นหนาหินปูนมาก (rheumatic) ซ่อมไม่ได้",
+   "E": "ห้ามรอจน FC IV พยากรณ์แย่ LV เสื่อมถาวร · จะถูกถ้าคำถามถามสิ่งที่ไม่ควรทำ"
   },
-  "trap": "คิดว่า MR รุนแรงต้องเปลี่ยนลิ้นเสมอ (เลือก D) — ลิ้นเสื่อมของ posterior leaflet ซ่อมสำเร็จได้มากกว่า 90–95% ในศูนย์ที่ชำนาญ และให้ผลระยะยาวดีกว่าการเปลี่ยน",
+  "trap": "คิดว่า FC II ยังไม่ต้องผ่าตัด — severe MR ที่ซ่อมได้ควรซ่อมเร็ว",
   "summary": [
-   "<b>นอกสไลด์:</b> ซ่อมยากง่ายตามชนิด: posterior leaflet prolapse/flail ง่ายที่สุด → anterior หรือสองแผ่น ยากขึ้น → rheumatic หินปูนมาก มักต้องเปลี่ยน · ถ้าโอกาสซ่อมสำเร็จต่ำ ส่งศูนย์ที่ชำนาญหรือวางแผนเปลี่ยนลิ้นโดยเก็บเส้นยึดไว้"
+   "Severe primary MR + อาการ → ผ่าตัด",
+   "ไม่มีอาการ: LVEF ≤ 60% / LVESD ≥ 40 mm / AF ใหม่ / PASP &gt; 50 → ผ่าตัด",
+   "Repair &gt; replacement",
+   "Posterior leaflet ซ่อมง่ายที่สุด",
+   "Acute MR → ผ่าตัดด่วน",
+   "Secondary MR → GDMT ± TEER"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง — โจทย์เดียวกับ RoB 81 ของชุดนี้",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และตำราที่แปะ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'MR ซ่อมได้ = Repair ตั้งแต่ FC II'</b>",
+  "guide": "ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72); ESC/EACTS Guidelines for Valvular Heart Disease 2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 60 ปี MI 5 วันก่อน หอบเฉียบพลัน ได้ยินเสียงฟู่ใหม่ ปอดบวมน้ำ → papillary muscle ฉีก: ผ่าตัดด่วน ส่วนใหญ่ต้องเปลี่ยนลิ้น",
-   "<b>นอกสไลด์:</b> หญิง 30 ปีที่อยากตั้งครรภ์ต้องเปลี่ยนลิ้น mitral → เลือกลิ้นเนื้อเยื่อ (bioprosthetic) เลี่ยง warfarin ที่ทำให้ทารกพิการ แต่ลิ้นเสื่อมเร็วต้องผ่าซ้ำภายหลัง"
+   "severe MR ไม่มีอาการ LVESD 45 mm → repair",
+   "หลัง MI หอบเฉียบพลัน papillary rupture → ผ่าตัดด่วน",
+   "rheumatic MR ลิ้นหินปูนมาก FC III → MVR"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 89 — ตัวพิมพ์: <b>36. A 44 year-old lady presented with dyspnea FC 2. She was diagnosed severe MR caused by flail of posterior mitral leaflet. What is the proper management? — A. medication B. PBMV C. Mitral valve repair D. Mitral valve replace</b><br>ลายมือ: ขีด C + \"FC 2\" · D \"FC ≥ 3, acute MR\"<br>ไฮไลต์: \"44 year-old lady\" \"dyspnea FC 2\" \"diagnosed severe MR\" \"flail of posterior mitral leaflet\" \"management\" · C (เหลือง)<br>รูปที่แปะ: ตำราไทยข้อบ่งชี้ผ่าตัดลิ้นไมตรัล — \"Chronic MR — ผู้ป่วยที่มีอาการ F.C. II ขึ้นไปในกรณีที่คาดว่าสามารถผ่าตัดซ่อมลิ้นหัวใจ (mitral valve repair) ได้ และ F.C. III ขึ้นไปในกรณีที่การผ่าตัดต้องทำ valve replacement (MVR)\" (ชุดเดียวกับข้อ B81)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 70: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 89",
+  "kimg": [
+   "fsk_p89",
+   "kp68d_36",
+   "k2p_70"
   ]
  },
  "MDCU68|RoD|38": {
-  "interp": "หาข้อความที่ถูกเรื่อง spontaneous pneumothorax · ช้อยผิดแต่ละตัวคลาดที่ตัวเลขหรือรายละเอียดเล็กน้อย",
-  "why": "<b>ลายมือ: A = young · C ภายใน 72 ชม.หลังเริ่มมีประจำเดือน · D 5–10% · E &lt;</b><br><b>นอกสไลด์:</b> osteosarcoma แพร่ไปปอดเป็นก้อนใต้เยื่อหุ้มปอดที่ตายตรงกลางแล้วแตกเป็นโพรง ลมจึงรั่ว — เป็นมะเร็งที่ทำให้ secondary pneumothorax ในเด็กบ่อยที่สุด และ pneumothorax อาจเป็นอาการแรกของการกลับเป็นซ้ำ",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>spontaneous pneumothorax</b>",
+  "why": "<b>Osteosarcoma</b> เป็นมะเร็งที่ทำให้เกิด <b>secondary spontaneous pneumothorax ในเด็กบ่อยที่สุด</b> — lung metastasis ชนิด cavitary/ subpleural แตกเข้าเยื่อหุ้มปอด (อาจเกิดหลังเคมีบำบัด) · ข้ออื่นผิด: PSP พบในชาย<b>หนุ่ม</b> สูงผอม (ไม่ใช่ผู้สูงอายุ), catamenial pneumothorax เกิด<b>ภายใน 72 ชม.หลังเริ่มมีประจำเดือน</b> (ยาคุมกลับลดการเกิด), hemothorax ร่วมพบเพียง <b>~5–10%</b>, pleurodesis เป็นหลักในการป้องกันการกลับเป็นซ้ำ · ไฟล์ขีด B แก้ลายมือ: A \"older\" → <b>\"young\"</b> · C \"end\" → <b>\"mid\" (= ช่วง mens มา)</b> · D 20% → <b>\"5–10%\"</b> · E ขีดฆ่า \"than\" และแปะสไลด์ <b>BTS guideline 2010, SSP (catamenial), Surgery</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"PSP พบเป็นปกติในผู้สูงอายุรูปร่างสูงผอม\" เป็นจริง เพราะ PSP พบมากในวัยรุ่นถึงราว 30 ปี — ในผู้สูงอายุ ลมรั่วส่วนใหญ่มาจากโรคปอดเดิมเช่น COPD (secondary)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะ catamenial pneumothorax เกิดภายในราว 72 ชม.หลังเริ่มมีประจำเดือน และยาฮอร์โมนกดประจำเดือนเป็นการรักษาเพื่อกันซ้ำ ไม่ใช่สิ่งกระตุ้น",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"hemothorax พบราว 20%\" เป็นจริง เพราะ hemopneumothorax พบเพียงราว 5% (ลายมือ 5–10%) จากพังผืดที่มีหลอดเลือดขาดตอนปอดยุบ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเป็นซ้ำหลังทำ pleurodesis มาแล้ว (การเชื่อมเยื่อหุ้มปอดล้มเหลว) — pleurectomy ให้อัตราเป็นซ้ำต่ำที่สุด"
+   "A": "ผิด — PSP พบในชายอายุน้อย สูง ผอม สูบบุหรี่ (ลายมือแก้เป็น young) · จะถูกถ้าช้อยบอกว่า PSP พบในชายหนุ่มสูงผอม",
+   "C": "ผิด — catamenial pneumothorax เกิดภายใน 72 ชม.หลังเริ่มมีประจำเดือน จาก thoracic endometriosis ยาคุมกำเนิด/ hormonal therapy ใช้ป้องกัน (ลายมือแก้ end → mid) · จะถูกถ้าช้อยบอกว่าเกิดช่วงมีประจำเดือนในหญิงที่ไม่ได้กินยาคุม",
+   "D": "ผิด — hemothorax ร่วมพบ ~5–10% (ลายมือแก้เป็น 5–10%) · จะถูกถ้าช้อยระบุตัวเลข 5–10%",
+   "E": "ผิด — pleurodesis เป็นหลักในการป้องกันการกลับเป็นซ้ำ (pleurectomy เป็นวิธีหนึ่งของ surgical pleurodesis ที่ได้ผลดี แต่ข้อความ \"preferred over pleurodesis\" ไม่ถูก) · จะถูกถ้าช้อยบอกว่า parietal pleurectomy กลับเป็นซ้ำต่ำ (~0.4%)"
   },
-  "trap": "คิดว่ามะเร็งเด็กที่ทำให้ลมรั่วต้องเป็นชนิดที่พบบ่อยอย่าง lymphoma หรือ Wilms — ที่ทำให้ลมรั่วคือชนิดที่แพร่เป็นก้อนใต้เยื่อหุ้มปอดแล้วตายตรงกลาง ซึ่ง osteosarcoma เด่นที่สุด",
+  "trap": "จำผิดว่า PSP พบในผู้สูงอายุ หรือ catamenial เกิดตอนสิ้นรอบเดือน — PSP คนหนุ่ม · catamenial ภายใน 72 ชม.หลังประจำเดือนมา",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ผ่าตัด (VATS ตัด bleb + pleurodesis หรือ pleurectomy): เป็นซ้ำข้างเดิม · เป็นครั้งแรกอีกข้าง · สองข้างพร้อมกัน · ลมรั่วไม่หยุดราว 5–7 วัน · hemopneumothorax · อาชีพเสี่ยงเช่นนักบินและนักดำน้ำ",
-   "<b>นอกสไลด์:</b> secondary pneumothorax ในผู้ใหญ่ สาเหตุอันดับหนึ่งคือ COPD ตามด้วย cystic fibrosis, TB, PCP และมะเร็ง"
+   "PSP: ชายหนุ่ม สูงผอม สูบบุหรี่ · subpleural blebs",
+   "SSP: COPD (ผู้ใหญ่) · osteosarcoma metastasis (เด็ก) · TB · PCP",
+   "Catamenial: ภายใน 72 ชม.หลังเริ่มมีประจำเดือน (thoracic endometriosis)",
+   "Hemothorax ร่วม ~5–10%",
+   "BTS: ผ่าตัดเมื่อเป็นซ้ำข้างเดิม · เป็นข้างตรงข้ามครั้งแรก · สองข้างพร้อมกัน · air leak &gt; 5–7 วัน · อาชีพเสี่ยง (นักบิน นักดำน้ำ) · ตั้งครรภ์",
+   "Surgery: bullectomy + pleurodesis (pleurectomy/ abrasion)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และการแก้ลายมือทุกช้อย",
+  "mnemonic": "<b>'Pneumothorax: Primary = Pole (สูงผอมหนุ่ม) · เด็ก SSP = Osteosarcoma'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); BTS Pleural Disease Guideline 2010 — Management of spontaneous pneumothorax",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV CD4 ต่ำ ไอแห้ง เหนื่อยมากขึ้นเรื่อย ๆ แล้วเจ็บอกทันที ภาพพบ pneumothorax → นึกถึง Pneumocystis pneumonia เป็นต้นเหตุ",
-   "<b>นอกสไลด์:</b> ชายผอมสูง 20 ปี เจ็บอกทันที ภาพพบลมรั่วขอบเล็ก แต่หอบเหนื่อยมาก → ระบายลมตามอาการ (BTS 2023 ตัดสินจากอาการและปัจจัยเสี่ยง ไม่ใช่ขนาด)"
+   "เด็กมะเร็งกระดูก osteosarcoma หอบเฉียบพลัน → pneumothorax จาก lung mets",
+   "หญิง 30 ปี pneumothorax ขวาซ้ำทุกเดือนช่วงมีประจำเดือน → catamenial → VATS + hormonal",
+   "นักบิน PSP ครั้งแรก → VATS bullectomy + pleurodesis"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 89 — ตัวพิมพ์: <b>38. Which of the following is TRUE regarding spontaneous pneumothorax? — A. Primary spontaneous pneumothorax typically occurs in tall, thin, older adult. B. Osteosarcoma is the most common malignant tumor that causes secondary spontaneous pneumothorax in children. C. Catamenial pneumothorax usually occurs during the end of menstrual cycle in patient taking contraceptives. D. Hemothorax occur 20% of patient with spontaneous pneumothorax. E. Pleurectomy is preferred than pleurodesis in patient with recurrent pneumothorax</b><br>ลายมือ: A ขีดฆ่า \"older\" + \"young\" · ขีด B · C ขีดฆ่า \"end\" + \"mid\" \"= ช่วง mens มา\" · D ขีดฆ่า \"20\" + \"5-10%\" · E ขีดฆ่า \"than\"<br>ไฮไลต์: \"TRUE regarding spontaneous pneumothorax\" · B (เหลือง)<br>รูปที่แปะ: ① Management of spontaneous pneumothorax: BTS guideline 2010 — Indications for surgical advice: Second ipsilateral pneumothorax · First contralateral pneumothorax · Synchronous bilateral spontaneous pneumothorax · Persistent air leak (despite 5–7 days of chest tube drainage) · failure of lung re-expansion · Spontaneous haemothorax · Professions at risk (eg, pilots, divers) · Pregnancy ② SSP — Catamenial pneumothorax (CP) is defined as a recurrent pneumothorax occurring within 72 hours of the onset of menstruation · Thoracic endometriosis syndrome (TES): CP, catamenial hemothorax, catamenial hemoptysis, lung nodules ③ Surgery — Surgical procedure: 1. Bullectomy 2. Surgical pleurodesis: parietal pleurectomy recurrence 0.4% · pleural abrasion recurrence 2.3% ④ Pleurodesis alone is more effective than blebectomy alone · Talc pleurodesis by medical thoracoscopy are similar to those of pleurodesis plus bleb excision · Pleurodesis is the cornerstone of preventing recurrence<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 70: ขีด B (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 89",
+  "kimg": [
+   "fsk_p89",
+   "kp68d_38",
+   "k2p_70"
   ]
  },
  "MDCU68|RoD|39": {
-  "interp": "หาข้อความที่ถูกเรื่องเชื้อราในปอด · ช้อยครอบคลุม histoplasma, cryptococcus, aspergilloma และ coccidioides",
-  "why": "<b>คีย์: ขีด A</b><br><b>นอกสไลด์:</b> histoplasma อยู่ในดินที่มีมูลค้างคาวหรือนก (ถ้ำ เล้าไก่) — สูดสปอร์เข้าไปแล้วคนภูมิปกติส่วนใหญ่ไม่มีอาการหรือเป็นไข้ ไอ ปวดเมื่อยแบบไข้หวัดแล้วหายเอง · ได้สปอร์ปริมาณมากจึงเป็นปอดอักเสบกระจายทั้งสองข้าง",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับการติดเชื้อราที่ปอด",
+  "why": "<b>Histoplasma capsulatum</b> (มูลนก/ ค้างคาว) — สูดสปอร์แล้วส่วนใหญ่ไม่มีอาการ หรือเป็น<b>อาการคล้ายไข้หวัดใหญ่ (flu-like)</b> หายเอง · ข้ออื่นผิด: การลุกลามซี่โครงชี้ <b>actinomycosis</b>, cryptococcal meningitis หลังผ่าตัดปอดพบน้อย (ลายมือแก้ 50% เป็น 10%), aspergilloma ไอเป็นเลือด<b>บ่อย (~50–85%)</b>, coccidioidomycosis มีโพรงเรื้อรังเพียงส่วนน้อย (~5%) · ไฟล์ขีด A ลายมือขีดฆ่า \"Ri\" ที่ B และแก้ C 50 → <b>\"10%\"</b> (โจทย์ชุดเดียวกับข้อ B84)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การลุกลามซี่โครงชี้ไปที่ histoplasmosis เพราะ histoplasma ไม่ทะลุข้ามเยื่อหุ้มปอดสู่ผนังอก — ลักษณะนี้ชวนนึกถึง actinomycosis (หรือ nocardia, blastomycosis)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ครึ่งหนึ่งเป็น cryptococcal meningitis แม้ตัดปอดแล้ว\" เป็นจริง เพราะ cryptococcosis ที่ปอดในคนภูมิปกติส่วนใหญ่จำกัดอยู่ที่ปอด (ลายมือ: ราว 10%) — ผู้ภูมิต่ำหรือมีอาการทางสมองต้องเจาะหลังหา meningitis",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ไอเป็นเลือดพบไม่ถึง 10% ใน aspergilloma\" เป็นจริง เพราะไอเป็นเลือดเป็นอาการหลักของ aspergilloma",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"coccidioidomycosis มักเป็นโพรงเรื้อรัง\" เป็นจริง เพราะการติดเชื้อส่วนใหญ่ไม่มีอาการหรือเป็นไข้หวัดหายเอง (valley fever) โพรงเกิดเพียงส่วนน้อย"
+   "B": "ผิด — ซี่โครง/ ผนังทรวงอกถูกลุกลามชี้ actinomycosis (ลายมือขีดฆ่า \"Ri\") · จะถูกถ้าช้อยบอกว่าชี้ actinomycosis",
+   "C": "ผิด — cryptococcal meningitis หลังผ่าตัดปอดพบน้อย (ลายมือแก้เป็น 10%) · จะถูกถ้าช้อยบอกว่าผู้ป่วย AIDS ที่มี pulmonary cryptococcosis ต้องเจาะหลังหา meningitis",
+   "D": "ผิด — aspergilloma ไอเป็นเลือดบ่อย (~50–85%) · จะถูกถ้าช้อยบอกว่าไอเป็นเลือดเป็นอาการเด่นของ aspergilloma",
+   "E": "ผิด — coccidioidomycosis ส่วนใหญ่เป็น pneumonia/ nodule โพรงเรื้อรังพบส่วนน้อย · จะถูกถ้าช้อยบอกว่าโพรงผนังบางพบได้ใน cocci ส่วนน้อย"
   },
-  "trap": "หินปูนเป็นจุดกลม ๆ ในปอดและต่อมน้ำเหลืองขั้วปอดหลังติด histoplasma ที่หายแล้ว ถูกตีเป็นมะเร็งหรือวัณโรค — หินปูนแบบตรงกลาง เป็นชั้น หรือทั้งก้อนเป็นลักษณะไม่ร้าย",
+  "trap": "คิดว่าการลุกลามซี่โครงเป็นเชื้อรา — เป็น actinomycosis",
   "summary": [
-   "<b>นอกสไลด์:</b> เชื้อราประจำถิ่น (endemic): histoplasma (ลุ่มแม่น้ำ Ohio–Mississippi และพบในเอเชียรวมไทย), coccidioides (ทะเลทรายตะวันตกเฉียงใต้ของสหรัฐ), blastomyces · ภูมิปกติอาการน้อยหายเอง ไม่ต้องให้ยา · รุนแรง เรื้อรัง หรือภูมิต่ำ → ยาต้านเชื้อรา · ผ่าตัดเฉพาะภาวะแทรกซ้อนหรือก้อนที่แยกมะเร็งไม่ได้"
+   "Histoplasmosis: มูลนก/ ค้างคาว · flu-like · หินปูนในปอด/ ม้าม",
+   "Aspergilloma: fungus ball ในโพรงเดิม · ไอเลือดบ่อย",
+   "Actinomycosis: ทะลุผนังทรวงอก · sulfur granules",
+   "Cryptococcus: ผู้ภูมิต่ำ → ปอด + meningitis",
+   "Mucormycosis: DKA/ neutropenia · ลุกลามหลอดเลือด",
+   "Aspergilloma ไอเลือดมาก → embolization/ ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ตรงกันทั้งสองไฟล์) ความมั่นใจปานกลาง — โจทย์เดียวกับ RoB 84 ของชุดนี้",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'Histo = flu-like จากมูลค้างคาว · ซี่โครงทะลุ = Actinomyces'</b>",
+  "guide": "IDSA Clinical Practice Guidelines for Histoplasmosis (Clin Infect Dis 2007;45:807); IDSA Practice Guidelines for Aspergillosis (Clin Infect Dis 2016;63:e1)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV CD4 ต่ำ ไข้เรื้อรัง ตับม้ามโต แผลในปาก เม็ดเลือดต่ำทุกชนิด → disseminated histoplasmosis: liposomal amphotericin B แล้วต่อด้วย itraconazole",
-   "<b>นอกสไลด์:</b> ผู้ป่วยไอออกมาเป็นก้อนแข็งเหมือนหิน ไอเป็นเลือดเล็กน้อย → broncholithiasis จากต่อมน้ำเหลืองหินปูนกร่อนเข้าหลอดลม (หลัง histoplasma/TB): ส่องกล้องหรือผ่าตัดเมื่อเลือดออกหรืออุดตัน"
+   "นักสำรวจถ้ำค้างคาวไข้ ไอ → acute histoplasmosis",
+   "ผู้ป่วยเคยเป็น TB ไอเป็นเลือด air-crescent → aspergilloma",
+   "ก้อนผนังทรวงอกมีรูหนองไหล sulfur granules → actinomycosis → penicillin"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 89–90 — ตัวพิมพ์: <b>39. Which one is true about fungal lung infection? — A. Flu-like symptom พบได้มากใน inhaled histoplasma spore B. Rib involvement strongly suggest histoplasmosis C. 50 percent จะพบ cryptococcal meningitis แม้ทำ lung resectionแล้ว D. Below10percent ของคนติดเชื้อAspergillus มี hemoptysis E. Coccidio.. มักมี chronic lung cavitation.</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · ขีด A · B ขีดฆ่า \"Ri\" · C ขีดฆ่า \"50\" + \"10%\"<br>ไฮไลต์: \"true about fungal lung infection\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 70: ขีด A (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 89",
+  "kimg": [
+   "fsk_p89",
+   "kp68d_39",
+   "k2p_70"
   ]
  },
  "MDCU68|RoD|51": {
-  "interp": "เทียบความเสี่ยงมะเร็งลำไส้ใหญ่ของผู้ป่วยแต่ละคน → หาคนที่เสี่ยงสูงสุด",
-  "why": "<b>คีย์: ขีด C</b><br><b>นอกสไลด์:</b> adenoma นับร้อยตัวในคนอายุ 25 ปี = familial adenomatous polyposis (ยีน APC) — ถ้าไม่ตัดลำไส้ใหญ่ เกือบทุกรายเป็นมะเร็ง อายุเฉลี่ยราว 39 ปี",
+  "interp": "ถามว่าใคร<b>เสี่ยงมะเร็งลำไส้ใหญ่มากที่สุด</b>",
+  "why": "ชาย 25 ปี ส่องกล้องพบ <b>tubular adenoma นับร้อย</b> = <b>familial adenomatous polyposis (FAP)</b> (APC mutation) → เป็นมะเร็งลำไส้ใหญ่<b>เกือบ 100%</b> ภายในอายุ ~40 ปีถ้าไม่ตัดลำไส้ใหญ่ → prophylactic proctocolectomy · ไฟล์ขีด C",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ท้องผูก 1 สัปดาห์อย่างเดียวทำให้ชาย 55 ปีเป็นกลุ่มเสี่ยงสูง เพราะเป็นอาการชั่วคราวที่พบบ่อย ความเสี่ยงของเขาเท่าประชากรทั่วไปตามอายุ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่มะเร็งรังไข่ในพี่สาวคนเดียวทำให้ความเสี่ยงมะเร็งลำไส้ใหญ่สูงสุด เพราะมะเร็งรังไข่ในญาติหนึ่งคนไม่ใช่ปัจจัยเสี่ยงมะเร็งลำไส้ใหญ่ ความเสี่ยงเท่าหญิงทั่วไปวัยเดียวกัน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ anal fissure เพิ่มความเสี่ยงมะเร็งลำไส้ใหญ่ เพราะเป็นแผลฉีกของเยื่อบุทวาร ไม่ใช่รอยโรคก่อนมะเร็ง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ไม่มีใครเสี่ยงสูงกว่าคนอื่น\" เป็นจริง เพราะ FAP แบบ classic มีโอกาสเป็นมะเร็งเกือบแน่นอนถ้าไม่ผ่าตัด"
+   "A": "ท้องผูก 1 สัปดาห์ในชาย 55 ปีไม่ใช่ปัจจัยเสี่ยงสูง (แต่ถ้าเปลี่ยนนิสัยการขับถ่ายเรื้อรังควรส่องกล้อง) · จะถูกถ้าชาย 55 ปีถ่ายเปลี่ยนนิสัยต่อเนื่อง ซีด น้ำหนักลด",
+   "B": "พี่สาวเป็นมะเร็งรังไข่เพิ่มความเสี่ยงบ้าง (ถ้าเป็น Lynch/ BRCA) แต่น้อยกว่า FAP มาก · จะถูกถ้าญาติหลายคนเป็นมะเร็งลำไส้ใหญ่ มดลูก รังไข่ อายุน้อย (Lynch)",
+   "D": "อาการคล้าย anal fissure ในหญิง 25 ปีไม่เพิ่มความเสี่ยงมะเร็ง · จะถูกถ้าคำถามถามสาเหตุถ่ายเจ็บมีเลือดสดหยด",
+   "E": "มีคำตอบที่ถูก (C) · จะถูกถ้าทุกคนเสี่ยงต่ำ"
   },
-  "trap": "polyp แต่ละตัวเป็น tubular adenoma ธรรมดา จึงคิดว่าไม่อันตราย — ทีละตัวเสี่ยงต่ำ แต่จำนวนนับร้อยทำให้โอกาสที่สักตัวกลายเป็นมะเร็งแทบแน่นอน",
+  "trap": "ใช้อายุมากเป็นเกณฑ์ — ชายอายุน้อยที่มี polyp นับร้อย (FAP) เสี่ยงสูงสุด",
   "summary": [
-   "<b>นอกสไลด์:</b> ความเสี่ยงมะเร็งลำไส้ใหญ่ตลอดชีวิต: FAP แบบ classic เกือบ 100% · Lynch ราว 10–50% แล้วแต่ยีน (MLH1/MSH2 สูงกว่า MSH6/PMS2) · ญาติสายตรงเป็น 1 คน ราว 2 เท่าของประชากรทั่วไป · ประชากรทั่วไปราว 4–5%"
+   "FAP: APC · adenoma &gt; 100 · มะเร็งเกือบ 100%",
+   "Attenuated FAP: 10–100 polyps · มะเร็งช้ากว่า",
+   "Lynch: MMR · ลำไส้ใหญ่ขวา · มดลูก รังไข่",
+   "IBD &gt; 8 ปี เพิ่มความเสี่ยง",
+   "ญาติสายตรงเป็นมะเร็ง &lt; 60 ปี → ส่องกล้องที่ 40 ปี",
+   "FAP: colonoscopy เริ่ม 10–12 ปี → proctocolectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์",
+  "mnemonic": "<b>'Polyp นับร้อย = FAP = มะเร็งแน่'</b>",
+  "guide": "ACG Clinical Guideline: Hereditary GI Cancer Syndromes (Am J Gastroenterol 2015;110:223); NCCN Genetic/Familial High-Risk Assessment: Colorectal v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย FAP หลังตัดลำไส้ใหญ่แล้ว → ส่องกล้องดูกระเพาะและ duodenum (กล้องมองด้านข้าง) เป็นระยะ หา duodenal/ampullary adenoma ซึ่งเป็นมะเร็งสาเหตุตายอันดับต้นหลังตัดลำไส้",
-   "<b>นอกสไลด์:</b> ชาย 50 ปีส่องกล้องพบ adenoma 30 ตัว → สงสัย attenuated FAP หรือ MUTYH-associated polyposis: ส่งตรวจยีน APC และ MUTYH"
+   "วัยรุ่น polyp นับร้อย APC บวก → proctocolectomy + IPAA",
+   "ญาติหลายรุ่นเป็นมะเร็งลำไส้ขวา/ มดลูกอายุน้อย → Lynch → MMR testing",
+   "FAP + osteoma + desmoid → Gardner syndrome"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 90 — หัวกระดาษ: AC Subspe Surgery Rotate 4 MDCU 68 · ตัวพิมพ์: <b>51. คนไหนมีความเสี่ยง CA colon มากสุด — A. male 55 hard stool 1 week B. female 45 พี่สาวเป็น CA ovary C. male 25 scope .เจอ polyp เป็นร้อย diag tubular adenoma D. female 25 อาการเหมือน anal fissure E. None of above</b><br>ลายมือ: ขีด C<br>ไฮไลต์: \"เสี่ยง CA colon มากสุด\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 71: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 90",
+  "kimg": [
+   "fsk_p90",
+   "kp68d_51",
+   "k2p_71"
   ]
  },
  "MDCU68|RoD|53": {
-  "interp": "มะเร็งลำไส้ใหญ่หลังผ่าตัด 1 ปี พบก้อนตับ 1.5 cm ก้อนเดียว (metachronous liver metastasis) → ถามการรักษา",
-  "why": "<b>ลายมือ: A = ห้าม (seeding) · B ≤ 3 cm?</b><br><b>นอกสไลด์:</b> มะเร็งลำไส้ใหญ่ที่แพร่ตับจำกัดและผ่าตัดเอาออกได้หมด เป็นกรณีที่ผ่าตัดแล้วหายขาดได้ รอดชีวิต 5 ปีราว 40–50% — การตัดตับจึงเป็นมาตรฐาน",
+  "interp": "ชายสูงอายุมะเร็งลำไส้ใหญ่ ผ่าตัด left colectomy แล้ว 1 ปีต่อมาพบ<b>ก้อนที่ตับ 1.5 cm</b> → ถามการจัดการ",
+  "why": "มะเร็งลำไส้ใหญ่กระจายไปตับที่<b>ผ่าตัดเอาออกได้ (resectable)</b> → <b>liver resection</b> เป็นการรักษาที่หวังผลหายขาดได้ (รอด 5 ปี ~40–50%) ร่วมกับเคมีบำบัด (perioperative FOLFOX) · ต้อง staging (CT ทรวงอก/ ท้อง ± PET/ MRI ตับ) ตัดการกระจายที่อื่น · <b>ไม่ควร biopsy/ FNA</b> ก้อนที่ลักษณะเข้ากับ metastasis และจะผ่าตัดอยู่แล้ว (เสี่ยง needle-tract seeding) · RFA/ microwave ablation เป็นทางเลือกสำหรับก้อนเล็ก (≤ 3 cm) ที่ผ่าตัดไม่ได้ · ไฟล์ขีด C ลายมือ A <b>\"→ Dx ว่า metas.\"</b> · B <b>\"≤ 3 cm ?\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าภาพก้อนตับไม่ชัดว่าเป็น metastasis และผลชิ้นเนื้อจะเปลี่ยนการรักษา (เช่นผ่าตัดไม่ได้ ต้องยืนยันก่อนให้ยา) — ก้อนที่ภาพชัดและผ่าตัดได้ไม่เจาะเพราะเสี่ยงเซลล์หว่านตามทางเข็ม",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเสี่ยงผ่าตัดสูงหรือก้อน ≤ 3 cm อยู่ลึกจนต้องตัดตับมาก — thermal ablation ได้ผลใกล้เคียงการผ่าตัดในก้อนขนาดนี้",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ cryotherapy เป็นทางเลือกปัจจุบันสำหรับมะเร็งแพร่ตับ เพราะภาวะแทรกซ้อนสูง (cryoshock เลือดออก) จึงถูกแทนด้วย RFA/microwave",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็งแพร่ตับหลายก้อน ผ่าตัดหรือ ablation ไม่ได้ และดื้อต่อยาเคมี — radioembolization (Y-90) หรือ chemoembolization เป็นการรักษาเฉพาะที่"
+   "A": "FNA ไม่จำเป็นเมื่อภาพเข้ากับ metastasis และจะผ่าตัด เสี่ยง seeding (ลายมือ \"→ Dx ว่า metas.\") · จะถูกถ้าก้อนลักษณะไม่ชัดเจน ต้องแยกจากโรคอื่นและไม่ได้วางแผนผ่าตัด",
+   "B": "RFA เป็นทางเลือกสำหรับก้อน ≤ 3 cm ที่ผ่าตัดไม่ได้/ ร่วมกับผ่าตัด (ลายมือ \"≤ 3 cm ?\") · จะถูกถ้าผู้ป่วยโรคร่วมมากผ่าตัดไม่ได้ ก้อนเล็กลึกในตับ",
+   "D": "Cryotherapy ไม่ใช่มาตรฐานปัจจุบัน · จะถูกถ้าคำถามถามวิธี ablation ในอดีต",
+   "E": "Embolization (TACE/ TARE) ใช้ในรอยโรคกระจายผ่าตัดไม่ได้ · จะถูกถ้าคำถามถามการรักษา HCC ระยะกลาง (BCLC B)"
   },
-  "trap": "คิดว่ามะเร็งแพร่กระจาย = stage IV จึงให้เคมีประคับประคองอย่างเดียว — มะเร็งลำไส้ใหญ่ที่แพร่ตับจำกัดเป็นข้อยกเว้นที่ผ่าตัดหายขาดได้",
+  "trap": "คิดว่ามะเร็งกระจายไปตับ = ระยะ 4 รักษาไม่หาย — colorectal liver mets ที่ผ่าตัดได้หายขาดได้",
   "summary": [
-   "<b>นอกสไลด์:</b> เกณฑ์ผ่าตัดได้: เอาก้อนออกหมด (R0) โดยเหลือตับอย่างน้อย 2 segment ที่ติดกันพร้อมเลือดเข้าออกและท่อน้ำดี · future liver remnant ≥ 20–25% (ได้เคมีมาก ≥ 30%, ตับแข็ง ≥ 40%) · ไม่มีโรคนอกตับที่คุมไม่ได้ (CT อก-ท้อง ± PET, MRI ตับก่อนผ่าตัด)"
+   "CRLM resectable → hepatectomy ± perioperative chemo",
+   "เกณฑ์: ตัดได้หมด (R0) + เหลือตับเพียงพอ (FLR ≥ 20–30%) + ไม่มีโรคนอกตับที่ควบคุมไม่ได้",
+   "Ablation (RFA/ MWA): ก้อน ≤ 3 cm ผ่าตัดไม่ได้",
+   "ไม่ biopsy ก่อนผ่าตัด (seeding)",
+   "ติดตาม CEA + CT หลังผ่าตัดมะเร็งลำไส้ใหญ่",
+   "Unresectable → systemic chemo ± targeted → ประเมินใหม่ (conversion)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง — ก้อน ≤ 3 cm งานวิจัยใหม่พบ ablation ไม่ด้อยกว่า แต่ผ่าตัดยังเป็นคำตอบมาตรฐาน",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์",
+  "mnemonic": "<b>'Colon mets ตับ ผ่าได้ = ผ่า (หายได้)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Colon Cancer v.3.2025 — Metastatic disease; ESMO Metastatic Colorectal Cancer Guideline (Ann Oncol 2023;34:10)",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนแพร่ตับหลายก้อนทั้งสองกลีบ คำนวณ future liver remnant ได้ 15% → portal vein embolization ให้ตับส่วนที่จะเหลือโตก่อน หรือผ่าตัดตับสองขั้น",
-   "<b>นอกสไลด์:</b> พบก้อนตับ 1.5 cm พร้อมกับมะเร็ง sigmoid ตั้งแต่วินิจฉัย (synchronous) → ผ่าตัดลำไส้และตับพร้อมกันหรือแยกครั้งตามความซับซ้อนของทั้งสองส่วน"
+   "CRC + ก้อนตับ 3 ก้อนในกลีบขวา ตัดได้ → hepatectomy + FOLFOX",
+   "CRC + ก้อนตับ 1 cm ผู้ป่วยหัวใจล้มเหลว → RFA",
+   "CRC + ก้อนตับทั่วทั้งสองกลีบ → systemic chemo ± bevacizumab"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 90 — ตัวพิมพ์: <b>53. Old man CA Colon s/p left colectomy. 1 year later found liver nodule 1.5 cm — A. FNA B. RFA C. Liver Resection D. Cryotherapy E. Embolization</b><br>ลายมือ: A \"→ Dx ว่า metas.\" · B \"≤ 3 cm ?\" · ขีด C<br>ไฮไลต์: \"Old man CA Colon s/p left colectomy\" \"1 year later found liver nodule 1.5 cm\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 71: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 90",
+  "kimg": [
+   "fsk_p90",
+   "kp68d_53",
+   "k2p_71"
   ]
  },
  "MDCU68|RoD|62": {
-  "interp": "ปลายนิ้วเนื้อหายจากมีด ขนาดราว 1 cm² ไม่เห็นกระดูก → ถามวิธีปิดแผล",
-  "why": "<b>คีย์: ขีด E + สไลด์ type of wound healing</b><br><b>นอกสไลด์:</b> เนื้อหายที่ปลายนิ้วไม่เกินราว 1–1.5 cm² และไม่เห็นกระดูก → ล้างแผล ปิดแผลให้ชุ่มชื้น ปล่อยหายเอง (ราว 3–4 สัปดาห์) — การหดตัวของแผลดึงผิว pulp ที่มีความรู้สึกเข้ามาปิด ได้ผิวรับความรู้สึกดีกว่ากราฟต์และไม่ต้องมีแผลที่อื่น",
+  "interp": "นิ้วถูกมีดตัด<b>แผลแบบ avulsion 0.9 × 1 cm ไม่เห็นกระดูก</b> → ถามการรักษา",
+  "why": "Fingertip injury ที่<b>แผลเล็ก (&lt; 1–1.5 cm²) และไม่มีกระดูกโผล่</b> → รักษาด้วย<b>การหายเองแบบ secondary intention</b> (ทำแผลชุ่มชื้น) ได้ผลดีที่สุด — ได้ผิวที่มีความรู้สึกดี รูปทรงปลายนิ้วดี ไม่ต้องผ่าตัด · ถ้าแผลใหญ่หรือกระดูกโผล่ → ตัดกระดูกสั้น (revision amputation) หรือใช้ local flap (V-Y advancement) · เย็บตรงไม่ได้เพราะเป็นการสูญเสียเนื้อ (avulsion) · ไฟล์ขีด E ลายมือ B <b>\"(full thickness skin graft)\"</b> · C <b>\"(split thickness skin graft)\"</b> และแปะภาพสไลด์ <b>Type of wound healing</b> (Primary closure · Secondary closure · Tertiary intention)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เย็บปิดตรงแผลเนื้อหายที่ปลายนิ้ว เพราะต้องดึงผิวที่เหลือมาปิดจนตึง ปลายนิ้วงุ้มผิดรูปและเจ็บ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าแผลเนื้อหายกว้างกว่าราว 1.5–2 cm² ไม่เห็นกระดูก และต้องการให้แผลปิดเร็ว — FTSG จากขอบฝ่ามือด้านนิ้วก้อย",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ STSG ดีกว่า FTSG บน pulp ปลายนิ้ว เพราะบาง หดตัวมาก และทนแรงกดหรือการจับไม่ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามีกระดูกโผล่และต้องการเก็บความยาวนิ้ว — local advancement flap เช่น V-Y"
+   "A": "Simple suture ปิดไม่ได้เพราะเนื้อหายไป จะตึง/ ขาดเลือด (คีย์ไฟล์ Key 1 ขีดข้อนี้) · จะถูกถ้าเป็นแผลฉีกขาดขอบเรียบไม่มีเนื้อหาย",
+   "B": "FTSG ใช้ได้กับแผลปลายนิ้วขนาดใหญ่กว่าโดยไม่มีกระดูกโผล่ แต่แผลเล็กหายเองได้ดีกว่า · จะถูกถ้าแผลปลายนิ้วใหญ่ (&gt; 1.5–2 cm²) ไม่มีกระดูกโผล่ในผู้ใหญ่",
+   "C": "STSG บางเกิน ไม่ทนการใช้งาน ปลายนิ้วไวต่อสัมผัสลดลง · จะถูกถ้าคำถามถามการปิดแผลตื้นกว้างที่ไม่รับแรงกด",
+   "D": "Flap ใช้เมื่อกระดูกโผล่และต้องการรักษาความยาวนิ้ว · จะถูกถ้าแผลปลายนิ้วเห็นกระดูก (V-Y advancement/ cross-finger flap)"
   },
-  "trap": "ไม่อยากปล่อยแผลเปิดจึงเย็บหรือปลูกกราฟต์ — แผลปลายนิ้วขนาดเล็กที่ปล่อยหายเองได้ผิวที่รับความรู้สึกดีที่สุด และหายเร็วกว่าที่คาด",
+  "trap": "รีบเย็บหรือปลูกผิว — แผลปลายนิ้วเล็กไม่เห็นกระดูกหายเองได้ดีที่สุด · คีย์ไฟล์ Key 1 ขีด A",
   "summary": [
-   "<b>นอกสไลด์:</b> เลือกตามขนาดและกระดูก: ไม่เห็นกระดูก เล็ก → ปล่อยหายเอง · ใหญ่กว่านั้น → ปล่อยหายเองหรือ FTSG · เห็นกระดูก → ตัดกระดูกให้สั้นลงแล้วเย็บปิด (revision amputation) หรือ flap ตามแนวตัด"
+   "Fingertip &lt; 1–1.5 cm² ไม่มีกระดูกโผล่ → secondary intention",
+   "แผลใหญ่ ไม่มีกระดูกโผล่ → FTSG (หรือ secondary intention)",
+   "กระดูกโผล่ → revision amputation หรือ local flap (V-Y, cross-finger, thenar)",
+   "เด็ก: หายเองดีมาก แม้แผลค่อนข้างใหญ่",
+   "Primary intention: แผลสะอาดเย็บปิด",
+   "Tertiary (delayed primary): แผลสกปรก ล้างก่อนแล้วปิดใน 3–5 วัน"
   ],
-  "opinion": "ตามคีย์ลายมือ E ความมั่นใจปานกลาง — คีย์ไฟล์ 01.2 ตอบ A (เย็บ) ไม่ตรงหลัก · ชุด 72 โจทย์เดียวกันคีย์ตอบ V-Y flap แต่ตำราส่วนใหญ่ปล่อยหายเองในแผลขนาดนี้",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 และสไลด์ · คีย์ไฟล์ Key 1 ขีด A (simple suture) ซึ่งไม่เหมาะกับแผล avulsion ที่เนื้อหาย",
+  "mnemonic": "<b>'ปลายนิ้วหาย เล็ก ไม่เห็นกระดูก = ปล่อยหายเอง (Secondary)'</b>",
+  "guide": "Green's Operative Hand Surgery 8th ed. (2022) — Fingertip injuries; ASSH: Fingertip Injuries (J Hand Surg Am 2013;38:1798)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 3 ขวบนิ้วโดนประตูหนีบ ปลายนิ้วขาดชิ้นเล็กไม่มีกระดูก นำชิ้นที่ขาดมาด้วย → เย็บกลับเป็น composite graft (ในเด็กเล็กติดได้ดี)",
-   "<b>นอกสไลด์:</b> ปลายนิ้วโดนทับ เล็บหลุด nail bed ฉีก → เย็บซ่อม nail bed ด้วยไหมละลายหรือกาว แล้วใส่แผ่นเล็บเดิมกลับเพื่อกันพังผืดติดกัน"
+   "ปลายนิ้วถูกตัด 0.8 cm² ไม่มีกระดูก → ทำแผลให้หายเอง",
+   "ปลายนิ้วถูกตัดเห็นกระดูก dorsal oblique → V-Y advancement flap/ revision amputation",
+   "แผลมีดบาดขอบเรียบไม่มีเนื้อหาย → simple suture"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 90 — ตัวพิมพ์: <b>62. ผู้ป่วยโดนมีดตัดนิ้ว แผลแบบavulsion ขนาด 0.9x1 cm ไม่เห็นกระดูก ถามว่าจะทำยังไง — A. Simple suture B. Ftsg C. Stsg D. Flap E. Secondary intension</b><br>ลายมือ: B \"(full thickness skin graft)\" · C \"(split thickness skin graft)\" · ขีด E<br>ไฮไลต์: \"มีดตัดนิ้ว แผลแบบavulsion ขนาด 0.9x1 cm\" \"ไม่เห็นกระดูก\" \"ทำยังไง\" · E (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ Type of wound healing — Primary closure (Primary intention: Clean incision · Early suture · \"Hairline\" scar) · Secondary closure (Secondary intention: Gaping wound with blood clot · Granulation tissue fills in wound · Large scar) · Delayed primary closure = Tertiary intention (Contaminated wound · Granulation tissue · Closure with wide scar) พร้อมลายมือเล็ก<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 71: ขีด A (⚠ ต่างจากคีย์ MCQ Key 2)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 90",
+  "kimg": [
+   "fsk_p90",
+   "kp68d_62",
+   "k2p_71"
   ]
  }
 }

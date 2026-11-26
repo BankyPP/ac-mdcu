@@ -1,154 +1,274 @@
 {
  "MDCU68|RoD|63": {
-  "interp": "ไฟไหม้ในห้องปิด + ไหม้ใบหน้า ขนจมูก/คิ้วไหม้ + ซึม = ทางเดินหายใจเสี่ยงบวมและป้องกันตัวเองไม่ได้ → ถามสิ่งที่ทำก่อน",
-  "why": "<b>ลายมือ: intubation + 100% O₂</b><br><b>นอกสไลด์:</b> ซึมแปลว่าป้องกันทางเดินหายใจเองไม่ได้ (และอาจมีพิษ CO หรือ cyanide) ร่วมกับร่องรอยความร้อนเข้าทางเดินหายใจส่วนบน ซึ่งจะบวมเพิ่มต่อเนื่อง 24–48 ชม. (ยิ่งให้สารน้ำยิ่งบวม) — ใส่ท่อตอนนี้ง่ายกว่ารอให้บวม แล้วให้ O2 100% ทางท่อ",
+  "interp": "ชายถูกช่วยออกจาก<b>ไฟไหม้ในห้องอพาร์ทเมนต์ (ที่อับ)</b> มีแผลไหม้ที่ใบหน้า <b>ผม/ คิ้วไหม้</b> และ<b>ซึม กระสับกระส่าย</b> → ถามสิ่งที่ต้องทำก่อน",
+  "why": "ไฟไหม้ในที่อับ + แผลไหม้ใบหน้า ขนคิ้ว/ ขนจมูกไหม้ + ซึม = <b>inhalation injury</b> (ทางเดินหายใจบวมเร็ว) ร่วมกับ<b>CO poisoning</b> → ตามหลัก ATLS ต้อง<b>A (airway) ก่อน</b> → <b>ใส่ท่อช่วยหายใจตั้งแต่เนิ่น ๆ</b> ก่อนบวมจนใส่ไม่ได้ ร่วมกับ<b>100% O₂</b> · ข้อบ่งชี้ intubation: ซึม/ GCS ≤ 8, stridor, เสียงแหบ, หายใจลำบาก, แผลไหม้ใบหน้า/ คอลึกกว้าง, บวมในคอหอย, แผลไหม้ &gt; 40–50% TBSA · ไฟล์ขีด D ลายมือ <b>\"+ 100% O₂\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าคาดว่าใส่ท่อยากเพราะหน้าและคอบวมมาก — ใช้กล้องหลอดลมนำทางใส่ท่อ (fiberoptic intubation)",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pulse oximetry เป็นสิ่งแรกที่ใช้ตัดสินในผู้ป่วยสำลักควัน เพราะเครื่องอ่าน carboxyhemoglobin เป็น oxyhemoglobin จึงได้ค่าปกติลวงในพิษ CO",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ามีแผลไหม้ลึกเต็มชั้นรอบวงอกจนขยับหายใจไม่ได้หรือความดันช่วยหายใจสูง — escharotomy ทรวงอก (หลังคุมทางเดินหายใจแล้ว)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เปิดเส้นให้สารน้ำมาก่อนทางเดินหายใจเมื่อมีสัญญาณทางเดินหายใจถูกความร้อน เพราะลำดับคือ airway ก่อน และสารน้ำที่ให้ยิ่งทำให้ทางเดินหายใจบวมเร็วขึ้น"
+   "A": "Bronchoscopy ใช้ยืนยัน/ ประเมินความรุนแรงของ inhalation injury หลังทางเดินหายใจปลอดภัยแล้ว · จะถูกถ้าคำถามถามการตรวจยืนยัน inhalation injury ในผู้ป่วยที่ใส่ท่อแล้ว",
+   "B": "Pulse oximetry อ่าน SpO₂ ปกติลวงใน CO poisoning และไม่ใช่การรักษา · จะถูกถ้าคำถามถามการตรวจที่ไม่น่าเชื่อถือใน CO poisoning (ต้อง co-oximetry)",
+   "C": "Escharotomy ทำเมื่อมี circumferential full-thickness burn ที่ทรวงอก/ แขนขา ทำให้หายใจไม่ได้/ ขาดเลือด ไม่ใช่สิ่งแรก · จะถูกถ้าแผลไหม้ลึกรอบทรวงอกทำให้ peak airway pressure สูง",
+   "E": "เปิดเส้นให้สารน้ำสำคัญ (C ใน ABC) แต่ต้องจัดการ airway ก่อน · จะถูกถ้าทางเดินหายใจปลอดภัยแล้ว แผลไหม้กว้าง"
   },
-  "trap": "ให้ O2 ทาง mask แล้วรอดูอาการหรือรีบส่งตัวก่อน — ทางเดินหายใจบวมต่อเนื่องในชั่วโมงถัดไป ถ้ารอจนมี stridor การใส่ท่อจะยากมากหรือทำไม่ได้",
+  "trap": "ข้ามไปทำแผลหรือให้สารน้ำ — มีสัญญาณ inhalation injury + ซึม ต้องจัด airway ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ใส่ท่อเร็วในผู้ป่วยไฟไหม้: stridor เสียงแหบ หายใจลำบาก · ระดับความรู้สึกตัวลด · ไหม้ใบหน้าลึกเต็มชั้นหรือไหม้รอบคอ · เห็นการบวมในคอหอย/กล่องเสียง · แผลกว้างมาก (ราว ≥ 40–50% TBSA) ที่จะได้สารน้ำมาก · ส่งต่อไกล · ขนจมูกไหม้หรือเขม่าอย่างเดียวในผู้ที่รู้สึกตัวดีให้สังเกตใกล้ชิดและส่องดูก่อน ไม่ใช่ใส่ท่อทุกราย"
+   "Inhalation injury: ไฟไหม้ที่อับ · ขนจมูก/ คิ้วไหม้ · เขม่าในปาก · เสียงแหบ · stridor",
+   "Airway ก่อน: early intubation ก่อนบวม",
+   "100% O₂: ลด t½ COHb จาก ~4–5 ชม. → ~60–90 นาที",
+   "SpO₂ ปกติลวงใน CO → co-oximetry",
+   "Cyanide: lactate สูง → hydroxocobalamin",
+   "แล้วจึง IV + Parkland + escharotomy ตามข้อบ่งชี้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'ไฟไหม้ที่อับ + ซึม = Tube + O₂ ก่อน'</b>",
+  "guide": "ATLS 10th ed. (2018) — Thermal injuries; ABA Advanced Burn Life Support Provider Manual",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยไฟไหม้ใบหน้า ขนจมูกไหม้ แต่รู้สึกตัวดี เสียงปกติ ไม่หอบ → ให้ O2 ความชื้น ส่องดูกล่องเสียง และสังเกตใกล้ชิด ยังไม่ต้องใส่ท่อ",
-   "<b>นอกสไลด์:</b> ใส่ท่อกันไว้ระหว่างส่งตัว ผ่านไป 48 ชม. ส่องไม่พบบวมและ cuff leak ผ่าน → ถอดท่อได้"
+   "ไฟไหม้บ้าน เสียงแหบ stridor → intubate ทันที",
+   "ไฟไหม้ห้องปิด ปวดหัว SpO₂ 99% → ส่ง COHb + O₂ 100%",
+   "แผลไหม้ลึกรอบอก หายใจไม่ขยาย → escharotomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 90 — ตัวพิมพ์: <b>63. ผู้ป่วยชายได้รับการช่วยเหลือจากไฟไหม้ในห้องอพาร์ทเมนต์ มีรอยไหม้ที่ใบหน้า ลำตัว ผม คิ้ว ซึม กระสับกระส่าย ควรทำอะไรก่อน — A. Bronchoscope B. Pulse oximetry C. Escharotomy D. intubation E. แทงสายสำหรับ fluid resuscitate</b><br>ลายมือ: ขีด D + \"+ 100% O₂\"<br>ไฮไลต์: \"รอยไหม้ที่ใบหน้า ลำตัว ผม คิ้ว ซึม กระสับกระส่าย\" \"ทำอะไรก่อน\" · D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 71: ขีด D (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 90",
+  "kimg": [
+   "fsk_p90",
+   "kp68d_63",
+   "k2p_71"
   ]
  },
  "MDCU68|RoD|65": {
-  "interp": "ไฟไหม้ในห้องปิด + เขม่าในจมูกปาก (สำลักควัน) + แผลพองที่หน้า คอ ลำตัวหน้าหลัง + กระสับกระส่าย → ถามการจัดการที่เหมาะ",
-  "why": "<b>คีย์: ขีด A</b><br><b>นอกสไลด์:</b> เขม่าในจมูกปาก = สำลักควัน · แผลที่หน้าและคอจะบวมมากเมื่อเริ่มให้สารน้ำตามแผลที่กว้าง (นับเฉพาะส่วนที่พอง ไม่นับผิวที่แดงอย่างเดียว — ลำตัวหน้าหลังทั้งหมดราว 36%) · กระสับกระส่ายอาจมาจากขาดออกซิเจนหรือพิษ CO → ใส่ท่อก่อนทางเดินหายใจบวม",
+  "interp": "ชาย 40 ปีไฟไหม้ในอพาร์ทเมนต์ มีตุ่มน้ำและผิวแดงที่ใบหน้า คอ ลำตัวหน้า-หลัง <b>กระสับกระส่าย</b> และ<b>มีเขม่าในจมูกและปาก</b> → ถามการจัดการที่เหมาะสม",
+  "why": "เขม่าในจมูก/ ปาก + แผลไหม้ใบหน้าและคอ + ไฟไหม้ในที่อับ + กระสับกระส่าย (อาจจากขาดออกซิเจน/ CO) = <b>inhalation injury</b> → ทางเดินหายใจส่วนบนบวมอย่างรวดเร็วในไม่กี่ชั่วโมง โดยเฉพาะหลังให้สารน้ำ → <b>intubation ตั้งแต่เนิ่น ๆ</b> (airway ก่อนเสมอ) ร่วมกับ 100% O₂ · ไฟล์ขีด A",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าไฟไหม้ลำตัวกว้าง (≥ 20% TBSA) แต่ไม่ไหม้ใบหน้า ไม่มีเขม่า รู้สึกตัวดี หายใจปกติ — เปิดเส้นใหญ่สองเส้นให้สารน้ำตามสูตรทันที",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยสำลักควันถูกส่งตัวมาโดยใส่ท่อช่วยหายใจแล้ว — ส่องกล้องผ่านท่อจัดระดับ inhalation injury (เขม่า เยื่อบุแดงบวม หลุดลอก) และดูดเขม่าออก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยกระโดดหนีไฟ เจ็บหน้าอก เสียงหายใจลดข้างหนึ่ง ทางเดินหายใจไม่ถูกคุกคาม — CXR หา pneumothorax หรือซี่โครงหัก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าไฟไหม้ในห้องปิด รู้สึกตัวดี ไม่มีสัญญาณทางเดินหายใจถูกคุกคาม แต่ปวดศีรษะ คลื่นไส้ — ABG ร่วม co-oximetry วัด COHb (SpO2 ปกติหลอกได้)"
+   "B": "IV catheter สำคัญ (C) แต่ทำหลัง airway · จะถูกถ้าคำถามถามขั้นตอนหลังใส่ท่อช่วยหายใจแล้ว",
+   "C": "Bronchoscopy ยืนยัน inhalation injury หลัง airway ปลอดภัย · จะถูกถ้าคำถามถามการตรวจยืนยันความรุนแรงใน ICU",
+   "D": "CXR ระยะแรกมักปกติแม้มี inhalation injury · จะถูกถ้าคำถามถามการตรวจหลังใส่ท่อเพื่อดูตำแหน่งท่อ",
+   "E": "ABG/ COHb ช่วยวินิจฉัย CO แต่ไม่ใช่สิ่งแรก · จะถูกถ้าคำถามถามการตรวจยืนยัน CO poisoning"
   },
-  "trap": "เห็นผู้ป่วยกระสับกระส่ายแล้วให้ยานอนหลับหรือยาแก้ปวดก่อน — ความกระวนกระวายในผู้ป่วยไฟไหม้ให้คิดถึงขาดออกซิเจนหรือพิษ CO ก่อนเสมอ",
+  "trap": "ส่งตรวจ (CXR/ ABG/ bronchoscopy) ก่อนจัด airway — ทางเดินหายใจบวมเร็ว ต้อง intubate ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> ใส่ท่อในผู้ป่วยไฟไหม้: ใช้ท่อขนาดใหญ่ (ผู้ใหญ่ราว ≥ 7.5–8.0) เพื่อส่องกล้องและดูดเขม่าได้ · ยึดท่อด้วยเชือกหรืออุปกรณ์ ไม่ติดเทปบนแผล · ไม่ตัดท่อให้สั้น (หน้าบวมขึ้นท่อจะหลุด) · succinylcholine ใช้ได้ในช่วงแรกหลังไฟไหม้ แต่หลังราว 24–48 ชม.เสี่ยง K สูง"
+   "เขม่าในปาก/ จมูก + ไฟไหม้ที่อับ = inhalation injury",
+   "Upper airway edema เกิดเร็ว (โดยเฉพาะหลัง fluid resuscitation)",
+   "Early intubation + 100% O₂",
+   "CXR/ ABG ระยะแรกอาจปกติ",
+   "Bronchoscopy ยืนยันความรุนแรง",
+   "ตามด้วย IV · Parkland · ดูแลแผล"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง — แนวเดียวกับ RoD 63 ของชุดนี้",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์",
+  "mnemonic": "<b>'Soot ในปาก = Secure airway (intubate)'</b>",
+  "guide": "ATLS 10th ed. (2018) — Thermal injuries; ABA Practice Guidelines for inhalation injury",
   "variants": [
-   "<b>นอกสไลด์:</b> ใส่ท่อแล้ววันที่ 2 ความดันช่วยหายใจสูงขึ้นเรื่อย ๆ แผลไหม้ลึกรอบอก → escharotomy ทรวงอก",
-   "<b>นอกสไลด์:</b> ไฟไหม้โรงงานพลาสติก ใส่ท่อให้ O2 100% แล้ว ยังความดันต่ำ lactate สูงมาก → สงสัยพิษ cyanide: hydroxocobalamin"
+   "ไฟไหม้ห้องปิด ขนจมูกไหม้ เสียงแหบ → intubate",
+   "แผลไหม้แดดไม่มีเขม่า หายใจปกติ → ไม่ต้องใส่ท่อ",
+   "ไฟไหม้ + ซึม COHb 30% → O₂ 100% ± hyperbaric"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 90 — ตัวพิมพ์: <b>65. A 40 years old man is brought to ER from sustained burn during fire in his apartment. He has blister and erythema on his face, neck, anterior trunk and back. He looks agitate and has soot in nose and mouth. What is proper management — A. Intubation B. IV catheter C. Bronchoscopy D. CXR E. Arterial blood gas</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"40 years old man\" \"sustained burn during fire in his apartment\" \"blister and erythema on his face, neck, anterior trunk and back\" \"agitate\" \"soot in nose and mouth\" \"management\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 71: ขีด A (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 90",
+  "kimg": [
+   "fsk_p90",
+   "kp68d_65",
+   "k2p_71"
   ]
  },
  "MDCU68|RoD|73": {
-  "interp": "ถามปัจจัยเสี่ยงที่ \"สำคัญที่สุด\" ของเพดานโหว่",
-  "why": "<b>ลายมือ: FH (ประวัติครอบครัว)</b><br><b>นอกสไลด์:</b> ปากแหว่งเพดานโหว่เกิดจากพันธุกรรมร่วมสิ่งแวดล้อม (multifactorial) โดยพันธุกรรมมีน้ำหนักมากที่สุด — พ่อหรือแม่เป็น ลูกเสี่ยงราว 3–5% เทียบกับประชากรทั่วไปราว 1 ใน 700",
+  "interp": "ถาม<b>ปัจจัยเสี่ยงสำคัญที่สุด</b>ของเพดานโหว่",
+  "why": "ปัจจัยเสี่ยงที่แรงที่สุดคือ<b>พันธุกรรม/ ประวัติครอบครัว</b> — ถ้าพ่อหรือแม่เป็น ลูกเสี่ยง ~3–5% (สูงกว่าประชากรทั่วไปหลายสิบเท่า) · ปัจจัยแวดล้อม (ขาดโฟเลต แอลกอฮอล์ บุหรี่ ยากันชัก เบาหวานของแม่) เพิ่มความเสี่ยงเพียง ~1.3–2 เท่า · ไฟล์ขีด A ลายมือ <b>\"FH\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การขาด folate เป็นปัจจัยเสี่ยงที่แรงที่สุด เพราะเพิ่มความเสี่ยงเพียงเล็กน้อยและหลักฐานไม่สม่ำเสมอ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เหล้าและบุหรี่ของแม่เป็นปัจจัยเสี่ยงที่แรงที่สุด เพราะบุหรี่เพิ่มความเสี่ยงเพียงราว 1.3–1.5 เท่า ส่วนเหล้าสัมพันธ์กับใบหน้าแบบ fetal alcohol มากกว่าปากแหว่ง",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อายุพ่อมากเป็นปัจจัยเสี่ยงที่แรงที่สุด เพราะผลต่อความเสี่ยงน้อยมาก",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เบาหวานของแม่เป็นปัจจัยเสี่ยงที่แรงที่สุดของเพดานโหว่ เพราะเพิ่มความเสี่ยงเพียงเล็กน้อย — เบาหวานก่อนตั้งครรภ์สัมพันธ์กับความพิการหัวใจและไขสันหลังมากกว่า"
+   "B": "ขาดโฟเลตเพิ่มความเสี่ยงเล็กน้อย (ชัดกว่าใน neural tube defect) · จะถูกถ้าคำถามถามการป้องกัน NTD",
+   "C": "แอลกอฮอล์/ บุหรี่เพิ่มความเสี่ยง ~1.3–1.5 เท่า · จะถูกถ้าคำถามถามปัจจัยแวดล้อมที่ปรับเปลี่ยนได้",
+   "D": "อายุพ่อมากสัมพันธ์น้อย · จะถูกถ้าคำถามถามปัจจัยเสี่ยงของ achondroplasia (de novo mutation)",
+   "E": "เบาหวานของแม่สัมพันธ์กับความพิการหลายระบบ รวมถึง cleft เล็กน้อย · จะถูกถ้าคำถามถาม caudal regression syndrome"
   },
-  "trap": "คิดว่าปัจจัยสิ่งแวดล้อม (folate บุหรี่ เหล้า) สำคัญที่สุดเพราะเป็นสิ่งที่ป้องกันได้และถูกพูดถึงบ่อย — ปัจจัยที่แรงที่สุดคือพันธุกรรม สิ่งแวดล้อมเพิ่มเพียงเล็กน้อย",
+  "trap": "เลือกปัจจัยแวดล้อม — ประวัติครอบครัวสำคัญที่สุด",
   "summary": [
-   "<b>นอกสไลด์:</b> ความเสี่ยงเกิดซ้ำของปากแหว่ง ± เพดานโหว่: พี่น้องเป็น 1 คนราว 4% · 2 คนราว 9% · พ่อหรือแม่เป็นร่วมกับลูกเป็นแล้ว 1 คนราว 17% · เพดานโหว่อย่างเดียว (ไม่มีปากแหว่ง) พันธุกรรมต่างกลุ่มและสัมพันธ์กับกลุ่มอาการมากกว่า (Stickler, 22q11 deletion) → ตรวจหาความผิดปกติร่วม"
+   "Cleft lip ± palate ~1:700 · cleft palate ~1:2,000",
+   "พ่อ/ แม่เป็น → ลูกเสี่ยง ~3–5%",
+   "ปัจจัยแวดล้อม: บุหรี่ · แอลกอฮอล์ · ยากันชัก · ขาดโฟเลต · steroid",
+   "Isolated cleft palate สัมพันธ์ syndrome มากกว่า (Pierre Robin, 22q11)",
+   "ซ่อมเพดาน 9–18 เดือน",
+   "Van der Woude: ปากแหว่ง + lip pits (IRF6)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'Cleft: Family History ก่อนสิ่งแวดล้อม'</b>",
+  "guide": "ACPA Parameters for Evaluation and Treatment of Patients with Cleft Lip/Palate (2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกเพดานโหว่รูป U คางเล็ก ลิ้นตกไปด้านหลังหายใจลำบาก → Pierre Robin sequence: จัดท่านอนคว่ำหรือใส่ nasopharyngeal airway และตรวจหา Stickler (สายตาสั้นมาก จอตาลอก)",
-   "<b>นอกสไลด์:</b> พ่อมีหลุมเล็กที่ริมฝีปากล่างสองข้างและเคยผ่าตัดปากแหว่ง → Van der Woude syndrome (ถ่ายทอดแบบ autosomal dominant): ลูกแต่ละคนเสี่ยงราว 50%"
+   "พ่อเป็นปากแหว่ง ลูกคนแรก → เสี่ยง ~4%",
+   "แม่กิน phenytoin ลูกปากแหว่ง → fetal hydantoin",
+   "เพดานโหว่ + คางเล็ก + ลิ้นตก → Pierre Robin"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 90 — ตัวพิมพ์: <b>73. What is the most significant risk factor of cleft palate ? — A. พ่อเป็นcleft palate B. แม่ขาด folic acid C. แม่กิน alcohol สูบบุหรี่</b><br>ลายมือ: ขีด A + \"FH\"<br>ไฮไลต์: \"most significant risk factor\" \"cleft palate\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 71: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 90",
+  "kimg": [
+   "fsk_p90",
+   "kp68d_73",
+   "k2p_71"
   ]
  },
  "MDCU68|RoD|77": {
-  "interp": "ข้อ WRONG — หาข้อความที่ผิดเรื่อง duodenal atresia · ช้อยอื่นเป็นลักษณะจริงของโรค",
-  "why": "<b>ลายมือ: cardiac anomaly = high · B polyhydramnios + สไลด์ clinical presentation</b><br><b>นอกสไลด์:</b> duodenal atresia มีความผิดปกติร่วมราวครึ่งหนึ่ง โดยหัวใจพิการพบราว 20–30% (โดยเฉพาะ AVSD ในผู้ที่เป็น Down syndrome) — ข้อความว่า \"ความผิดปกติของหัวใจพบน้อย\" จึงผิด",
+  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>duodenal atresia</b>",
+  "why": "Duodenal atresia มี<b>ความผิดปกติร่วมสูง (~50%)</b> — <b>Down syndrome ~30%</b>, <b>malrotation ~30%</b>, <b>โรคหัวใจแต่กำเนิด ~20–30%</b>, annular pancreas, esophageal atresia, anorectal malformation → \"low incidence of cardiac anomalies\" จึง<b>ผิด</b> (ลายมือแก้ low → <b>\"high\"</b>) · ข้ออื่นถูก: สัมพันธ์ malrotation/ situs inversus, วินิจฉัยก่อนคลอดได้ (<b>polyhydramnios</b> + double bubble), Down syndrome เพิ่ม, X-ray double bubble · ไฟล์ขีด C ติ๊ก ✓ ที่ A, D และแปะสไลด์ <b>Clinical presentation</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"สัมพันธ์กับ malrotation และ situs inversus\" ผิด เพราะความผิดปกติของการหมุนและการวางตำแหน่งอวัยวะ (รวม annular pancreas) เกิดร่วมกับ duodenal atresia ได้",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"วินิจฉัยก่อนคลอดได้\" ผิด เพราะ US ก่อนคลอดเห็นน้ำคร่ำมาก (polyhydramnios) และกระเพาะกับ duodenum โป่งเป็น double bubble",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"พบบ่อยขึ้นใน Down syndrome\" ผิด เพราะผู้ป่วย duodenal atresia ราวหนึ่งในสามเป็น Down syndrome",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ภาพรังสีเป็น double bubble\" ผิด เพราะลมในกระเพาะและ duodenum ส่วนต้นที่โป่งโดยไม่มีลมไปส่วนปลายคือภาพประจำของโรค"
+   "A": "ถูก — สัมพันธ์ malrotation (~30%) และ situs inversus (ลายมือ ✓) (คีย์ไฟล์ Key 1 ขีดข้อนี้) · จะถูกถ้าช้อยบอกว่าไม่สัมพันธ์กับ malrotation",
+   "B": "ถูก — วินิจฉัยก่อนคลอดได้จาก polyhydramnios + double bubble บน US (ลายมือ \"→ polyhydram.\") · จะถูกถ้าช้อยบอกว่าวินิจฉัยก่อนคลอดไม่ได้",
+   "D": "ถูก — Down syndrome ~30% (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่า Down syndrome พบน้อย",
+   "E": "ถูก — double bubble ไม่มีลมส่วนปลาย · จะถูกถ้าช้อยบอกว่าฟิล์มเห็นลำไส้ส่วนปลายโป่งหลายห่วง"
   },
-  "trap": "คิดว่า malrotation/situs inversus ไม่เกี่ยวกับ duodenal atresia จึงเลือก A — ความผิดปกติของการหมุนและการวางตำแหน่งอวัยวะเกิดร่วมกับ duodenal atresia ได้จริง ข้อความนั้นจึงถูก",
+  "trap": "ลืมว่า duodenal atresia มีความผิดปกติร่วมมาก โดยเฉพาะหัวใจ — ต้องทำ echocardiogram ทุกราย · คีย์ไฟล์ Key 1 ขีด A",
   "summary": [
-   "<b>นอกสไลด์:</b> ความผิดปกติร่วมที่ต้องตรวจก่อนผ่าตัด: Down syndrome · หัวใจ (echo ทุกราย) · malrotation · annular pancreas · EA และ ARM (กลุ่ม VACTERL) · ผ่าตัด duodenoduodenostomy (รูปข้าวหลามตัด) เมื่อทารกพร้อม ไม่ฉุกเฉินถ้าไม่สงสัย volvulus"
+   "Duodenal atresia: ~1:10,000 · ~45% premature · ~50% ผิดปกติร่วม",
+   "Down ~30% · malrotation ~30% · หัวใจ ~20–30% · annular pancreas · EA · ARM",
+   "~80% อุดใต้ ampulla → อาเจียนสีเขียว",
+   "Polyhydramnios + double bubble (ก่อน/ หลังคลอด)",
+   "Echo ก่อนผ่าตัดทุกราย",
+   "Duodenoduodenostomy (diamond-shaped)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ลายมือ C ความมั่นใจสูง — คีย์ไฟล์ 01.2 ตอบ A ซึ่งเป็นข้อความจริง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 และการแก้ลายมือ · คีย์ไฟล์ Key 1 ขีด A ซึ่งเป็นข้อความที่ถูก · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Duodenal atresia = Down + Double bubble + Defect หัวใจ (high)'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Duodenal atresia and stenosis",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกแรกเกิดอาเจียนโดยไม่มีน้ำดี ภาพเป็น double bubble ไม่มีลมส่วนปลาย → atresia อยู่เหนือรูเปิดท่อน้ำดี (พบส่วนน้อย)",
-   "<b>นอกสไลด์:</b> ผ่าตัด duodenal atresia พบ annular pancreas คร่อม duodenum → ทำ duodenoduodenostomy ข้ามวงตับอ่อน ห้ามตัดวงตับอ่อน (เสี่ยงรั่ว ตับอ่อนอักเสบ)"
+   "ทารก Down syndrome อาเจียนสีเขียววันแรก double bubble → duodenal atresia → echo → duodenoduodenostomy",
+   "fetal US polyhydramnios + double bubble → วางแผนคลอด",
+   "double bubble + ลมปลาย → แยก malrotation ด้วย upper GI"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 91 — ตัวพิมพ์: <b>77. Duodenal atresia ข้อใดผิด — A. เกี่ยวกับ sinus inversus malrotate B. diagได้ตั้งแต่ antenatal C. low incidence cardiac anomaly D. increase incidence in down syndrome</b><br>ลายมือ: A ✓ · B \"→ polyhydram.\" · ขีด C + ขีดฆ่า \"low\" เขียน \"high\" · D ✓<br>ไฮไลต์: \"Duodenal atresia\" \"ผิด\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ Clinical presentation — Incidence ~1:10,000 · Male : Female ~1:1 · 45% Premature · 50% Associated anomalies (33% Down syndrome · 33% Intestinal malrotation · 5% Distal atresia · 1% Esophageal atresia, Anorectal malformation) · 80% site of obstruction is distal to bile duct opening ∴ Bilious vomiting · Fullness of upper abdomen, lower abdomen scaphoid (พร้อมลายมือเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 72: ขีด A (⚠ ต่างจากคีย์ MCQ Key 2)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 91",
+  "kimg": [
+   "fsk_p91",
+   "kp68d_77",
+   "k2p_72"
   ]
  },
  "MDCU68|RoD|84": {
-  "interp": "ทารกหญิง 2 เดือนแข็งแรง Hirschsprung จุดเปลี่ยนที่ rectosigmoid → ถามการผ่าตัดที่เหมาะ (ขั้นเดียวหรือหลายขั้น)",
-  "why": "<b>สไลด์: pull-through types</b><br><b>นอกสไลด์:</b> ทารกแข็งแรงที่โรคอยู่ rectosigmoid และคุมอาการได้ด้วยการสวนล้าง → transanal endorectal pull-through ขั้นเดียว ไม่ต้องเปิดหน้าท้อง ไม่ต้องมี stoma ทำได้ตั้งแต่ช่วงทารก",
+  "interp": "ถาม<b>การรักษาที่ดีที่สุด</b>สำหรับทารกหญิง 2 เดือน สุขภาพดี เป็น <b>Hirschsprung ที่มี transition zone ที่ rectosigmoid</b>",
+  "why": "ทารกที่<b>สุขภาพดี ไม่มี enterocolitis/ ลำไส้โป่งมาก</b> และ transition zone อยู่ rectosigmoid (short segment) → <b>one-stage transanal endorectal pull-through (TERPT, Soave แบบผ่านทวาร)</b> โดยไม่ต้องทำ colostomy — แผลเล็ก ฟื้นตัวเร็ว ผลดีเทียบเท่าการผ่าตัดหลายขั้น · การทำ colostomy ก่อน (2–3 stages) สงวนไว้สำหรับเด็กที่ป่วยหนัก enterocolitis รุนแรง ลำไส้โป่งมาก หรือ long segment · ไฟล์ขีด A และแปะสไลด์ชนิด pull-through (Rehbein · State · Duhamel · Swenson · Soave (ERPT)) พร้อมลายมือ <b>\"1 stage → transanal endorectal pull through · 2 stages → colostomy ก่อน + abdominoperineal pull through · 3 stages → colostomy, pull-through, close colostomy\"</b> (ขึ้นกับอายุ/ สถานการณ์)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าทารกมี enterocolitis รุนแรงที่สวนล้างไม่ดีขึ้นหรือลำไส้โป่งมาก — เปิด colostomy ที่ลำไส้ส่วนที่มี ganglion ชิดจุดเปลี่ยนก่อน แล้ว pull-through ภายหลัง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ transverse colostomy ร่วม Duhamel เป็นแผนของโรค rectosigmoid เพราะถ้าต้องผันอุจจาระ stoma ต้องอยู่ที่ลำไส้ที่มี ganglion ชิดจุดเปลี่ยน (leveling colostomy) — transverse colon อยู่ไกลเกินไป ทำให้ลำไส้ส่วนที่จะดึงลงมาถูกพักไว้โดยไม่จำเป็น",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ต้องเปิด transverse colostomy ก่อน Soave ในโรค rectosigmoid เพราะ Soave ดึงลำไส้ที่มี ganglion ลงผ่านปลอกกล้ามเนื้อ rectum ทางทวารได้โดยไม่ต้องมีทางเบี่ยงอุจจาระ — transverse colostomy ไม่ได้ทำให้การดึงลำไส้ลงปลอดภัยขึ้น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทั้ง A และ B เป็นคำตอบพร้อมกัน เพราะ A เป็นการผ่าตัดขั้นเดียวไม่มี stoma ส่วน B เป็นแบบหลายขั้น ใช้กับผู้ป่วยต่างกลุ่ม"
+   "B": "Colostomy + Swenson เป็นแบบ 2 ขั้น ใช้เมื่อเด็กป่วย/ ลำไส้โป่งมาก · จะถูกถ้าทารกมี enterocolitis รุนแรง ลำไส้ใหญ่โป่งมาก",
+   "C": "Transverse colostomy + Duhamel เหมาะกับ long segment/ เด็กโตที่ลำไส้โป่งมาก · จะถูกถ้าเด็กโตวินิจฉัยช้า ลำไส้โป่งมาก",
+   "D": "Transverse colostomy + Soave แบบหลายขั้นไม่จำเป็นในทารกสุขภาพดี · จะถูกถ้าทารกป่วยหนัก ต้องเบี่ยงอุจจาระก่อน",
+   "E": "ไม่ใช่ทั้ง A และ B — ทารกสุขภาพดีไม่จำเป็นต้อง colostomy · จะถูกถ้าคำถามถามวิธี pull-through ที่ใช้ได้ทั้งหมด (โดยไม่คำนึงถึงสภาพเด็ก)"
   },
-  "trap": "ยึดตำราเก่าว่าต้องเปิด colostomy ก่อนหรือรอให้ทารกโตถึงน้ำหนักหนึ่งก่อน pull-through — ปัจจุบันทารกแข็งแรงทำขั้นเดียวได้เลย",
+  "trap": "คิดว่าต้อง colostomy ก่อนเสมอ — ทารกสุขภาพดี short segment ทำ one-stage TERPT ได้",
   "summary": [
-   "<b>นอกสไลด์:</b> เลือกขั้นเดียวหรือหลายขั้น: ขั้นเดียว (transanal ± laparoscopy) เมื่อทารกแข็งแรง สวนล้างคุมอาการได้ ลำไส้ไม่โป่งมาก · หลายขั้น (leveling colostomy ก่อน แล้ว pull-through) เมื่อ enterocolitis รุนแรง ทุพโภชนาการ ลำไส้โป่งมาก หรือเป็น long-segment/total colonic"
+   "Hirschsprung short segment (rectosigmoid ~75–80%)",
+   "Rectal suction biopsy: ไม่มี ganglion cell = gold standard",
+   "ทารกสุขภาพดี → one-stage transanal endorectal pull-through",
+   "ป่วย/ enterocolitis/ ลำไส้โป่งมาก/ long segment → colostomy ก่อน",
+   "Pull-through: Swenson · Duhamel · Soave",
+   "หลังผ่าตัดระวัง enterocolitis · ท้องผูก · กลั้นไม่อยู่"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์",
+  "mnemonic": "<b>'ทารกดี + สั้น = ดึงผ่านทวารครั้งเดียว (TERPT)'</b>",
+  "guide": "APSA Hirschsprung Disease Interest Group guidelines (J Pediatr Surg 2017–2020); Coran's Pediatric Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกขี้เทาอุด (meconium plug) สวนออกแล้วถ่ายได้ → ยังต้อง rectal biopsy เพราะส่วนหนึ่งของทารก meconium plug เป็น Hirschsprung",
-   "<b>นอกสไลด์:</b> ทารก Hirschsprung ที่เป็น Down syndrome → หลัง pull-through เสี่ยง enterocolitis และปัญหากลั้นอุจจาระมากกว่า ต้องติดตามใกล้ชิด"
+   "ทารก 2 เดือน Hirschsprung rectosigmoid สุขภาพดี → TERPT",
+   "ทารก Hirschsprung enterocolitis ช็อก → irrigation + ATB + colostomy",
+   "total colonic aganglionosis → ileostomy → pull-through ภายหลัง"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 91 — ตัวพิมพ์: <b>84. \"Treatment of choice\" for a 2-month old healthy girl with underlying \"Hirschsprung's disease\" which has transitional zone at rectosigmoidal area. What is the most proper management? — A. transanal endorectal pull through B. proximal sigmoid colostomy and Swenson operation C. transverse colostomy and Duhamel operation D. transverse colostomy and Soave operation E. both A and B</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"Treatment of choice\" และ \"Hirschsprung's disease\" · ขีด A<br>ไฮไลต์: \"Treatment of choice\" \"2-month old healthy girl\" \"underlying Hirschsprung's disease\" \"transitional zone at rectosigmoidal\" \"most proper management\" · A (เหลือง)<br>รูปที่แปะ: ภาพชนิด pull-through — Rehbein (3–5 cm) · State (7–10 cm) · Duhamel · Swenson · Soave (ERPT) พร้อมลายมือ \"goal: เอา colon ส่วนที่ไม่มี ganglion ออก · Sx ผ่าน transanal … (transanal endorectal pull through)\" · \"1 stage → transanal endorectal pull through · 2 stages → colostomy ก่อน + abdominoperineal pull through · 3 stages → colostomy, pull-through, close colostomy\" (ขึ้นกับ อายุ, situation) · พื้นหลังมีภาพวาดตกแต่ง<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 72: ขีด A (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 91",
+  "kimg": [
+   "fsk_p91",
+   "kp68d_84",
+   "k2p_72"
   ]
  },
  "MDCU68|RoD|88": {
-  "interp": "ทารก 3 สัปดาห์ที่เคยปกติ อาเจียนน้ำดีทันที → ถามการวินิจฉัยที่น่าจะเป็นที่สุด",
-  "why": "<b>ลายมือ: peak 1st month · A non-bilious · C 3–9 mo + สไลด์ malrotation</b><br><b>นอกสไลด์:</b> อาเจียนน้ำดีแปลว่าอุดตันใต้รูเปิดท่อน้ำดี ในทารกที่เคยดีมาตลอดแล้วเกิดทันทีในเดือนแรก = malrotation with midgut volvulus จนกว่าจะพิสูจน์ได้ — ลำไส้เล็กเกือบทั้งหมดขาดเลือดได้ในไม่กี่ชั่วโมง",
+  "interp": "ทารก 3 สัปดาห์ที่เคยแข็งแรง <b>อาเจียนสีเขียว (bilious) ทันทีทันใด</b> → ถามการวินิจฉัยที่น่าเป็นที่สุด",
+  "why": "อาเจียนสีเขียวในทารก = <b>malrotation with midgut volvulus จนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> — ภาวะฉุกเฉิน ลำไส้ขาดเลือดทั้งเส้นได้ · ~1/3 เกิดในสัปดาห์แรก ~2/3 ในเดือนแรก ~80% ในปีแรก · ทำ <b>upper GI study ด่วน</b> → Ladd procedure · ไฟล์ขีด D ลายมือ A <b>\"peak 3–5 wk · non-bilious\"</b> · C <b>\"peak 3–8 mo\"</b> · D <b>\"peak 1st mo\"</b> และแปะสไลด์ <b>Intestinal malrotation</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pyloric stenosis ทำให้อาเจียนน้ำดี เพราะจุดอุดอยู่ที่ pylorus เหนือรูเปิดท่อน้ำดี",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น duodenal atresia ชนิดแผ่นกั้นที่มีรู (web) ใต้รูเปิดท่อน้ำดี — อุดไม่สมบูรณ์ อาการจึงมาช้าเป็นสัปดาห์ถึงเดือน",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกอายุ 3–9 เดือน ปวดท้องเป็นพัก อุจจาระมูกเลือด แล้วอาเจียนน้ำดีเมื่ออุดตันนาน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ TEF ทำให้อาเจียนน้ำดีเฉียบพลันในทารกที่ดีมาตลอด เพราะ EA/TEF มีอาการตั้งแต่ป้อนนมครั้งแรก และ H-type ทำให้สำลักไอเวลาดูดนมเรื้อรัง"
+   "A": "Pyloric stenosis อายุ 3–5 สัปดาห์แต่อาเจียน<b>ไม่มีน้ำดี</b> (ลายมือ) · จะถูกถ้าทารกอาเจียนพุ่งไม่มีน้ำดี คลำ olive hypochloremic alkalosis",
+   "B": "Duodenal atresia อาเจียนสีเขียวตั้งแต่วันแรก ไม่ใช่ทารกที่เคยแข็งแรง 3 สัปดาห์ · จะถูกถ้าทารกแรกเกิด Down syndrome อาเจียนสีเขียววันแรก",
+   "C": "Intussusception พบ 3–8 เดือน (ลายมือ) ปวดเป็นพัก ถ่ายมูกเลือด · จะถูกถ้าทารก 7 เดือนร้องเป็นพัก ถ่าย currant jelly",
+   "E": "TEF/ esophageal atresia มีน้ำลายมาก สำลักตั้งแต่แรกเกิด ใส่สาย NG ไม่ลง · จะถูกถ้าทารกแรกเกิดน้ำลายฟูมปาก สำลักนมครั้งแรก"
   },
-  "trap": "ภาพรังสีช่องท้องปกติหรือลมกระจายดีทำให้วางใจ — ระยะแรกของ volvulus ภาพธรรมดาอาจปกติ ทารกอาเจียนน้ำดีต้องทำ upper GI contrast ทันที",
+  "trap": "ใช้อายุ 3 สัปดาห์ตอบ pyloric stenosis — อาเจียนสีเขียว = volvulus",
   "summary": [
-   "<b>นอกสไลด์:</b> Ladd procedure: คลายลำไส้ที่บิดทวนเข็มนาฬิกา → ตัด Ladd bands ที่พาดผ่าน duodenum → แผ่ฐาน mesentery ให้กว้าง → ตัดไส้ติ่ง (เพราะจะไปอยู่ซ้าย วินิจฉัยยากในอนาคต) → วางลำไส้เล็กไว้ขวา ลำไส้ใหญ่ไว้ซ้าย"
+   "อาเจียนสีเขียว = malrotation volvulus จนพิสูจน์ได้ว่าไม่ใช่",
+   "1/3 สัปดาห์แรก · 2/3 เดือนแรก · 80% ปีแรก",
+   "Upper GI: DJ flexure ขวา · corkscrew",
+   "Ladd procedure ด่วน",
+   "Pyloric stenosis: 3–5 สัปดาห์ · ไม่มีน้ำดี",
+   "Intussusception: 3–8 เดือน · currant jelly"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง — โจทย์เดียวกับ 69 RoC R65",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'Bilious = Bad = volvulus (ฉุกเฉิน)'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Malrotation; ACR Appropriateness Criteria: Vomiting in Infants (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกอาเจียนน้ำดี upper GI พบ DJ flexure อยู่ซ้ายของกระดูกสันหลังที่ระดับ pylorus → ไม่ใช่ malrotation: หาสาเหตุอื่น (jejunal atresia, sepsis, ileus)",
-   "<b>นอกสไลด์:</b> เด็กกลุ่มอาการ heterotaxy ไม่มีอาการ ตรวจพบ malrotation โดยบังเอิญ → ตัดสินใจทำ Ladd แบบนัดหรือเฝ้าดูตามความเสี่ยงผ่าตัดจากหัวใจ"
+   "ทารก 2 สัปดาห์อาเจียนเขียว ถ่ายเลือด → volvulus → ผ่าตัดทันที",
+   "ทารก 4 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี → pyloric stenosis",
+   "เด็กโตปวดท้องเป็นพักเรื้อรัง อาเจียน → malrotation ไม่มีอาการเฉียบพลัน → Ladd elective"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 91 — ตัวพิมพ์: <b>88. A previous 3-week-old infant suddenly develop billous vomiting. Which is the most likely diagnosis? — A. Pyloric stenosis B. Duodenal atresia C. Intussusception D. Malrotation with midgut volvulus E. Tracheoesophageal fistula</b><br>ลายมือ: A \"peak 3-5 wk\" \"non-bilious\" · C \"peak 3-8 mo\" · ขีด D + \"peak 1st mo\"<br>ไฮไลต์: \"previous 3-week-old infant\" \"billous vomiting\" \"most likely diagnosis\" · D (เหลือง)<br>รูปที่แปะ: สไลด์ Intestinal malrotation — 1/3 → 1st week of life · 2/3 → 1st month · 80% → 1st year (\"จะมีอาการ\") · Symptom: Newborn — Duodenal obstruction with or without midgut volvulus · Older child — Intermittent vomiting, Recurrent abdominal colic, Failure to thrive · Adult — 20% asymptomatic, 80% symptomatic (~½ Acute mid gut volvulus · ~½ Chronic abdominal pain &amp; gut obstruction) พร้อมลายมือ<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 72: ขีด D (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 91",
+  "kimg": [
+   "fsk_p91",
+   "kp68d_88",
+   "k2p_72"
   ]
  },
  "MDCU68|RoD|89": {
-  "interp": "ถามว่าช้อยใดอยู่ในกลุ่มความผิดปกติ VACTERL",
-  "why": "<b>ลายมือ: vertebral, cardiac, renal, limb</b><br><b>นอกสไลด์:</b> VACTERL = Vertebral, Anorectal malformation, Cardiac, TracheoEsophageal fistula/EA, Renal, Limb (radial ray) — ARM คือตัว A",
+  "interp": "ถามข้อที่เป็นส่วนหนึ่งของ <b>VACTERL association</b>",
+  "why": "VACTERL = <b>V</b>ertebral anomalies · <b>A</b>norectal malformation · <b>C</b>ardiac defects · <b>T</b>racheo<b>E</b>sophageal fistula/ esophageal atresia · <b>R</b>enal anomalies · <b>L</b>imb (radial) anomalies · วินิจฉัยเมื่อมี ≥ 3 อย่าง · ทารกที่มีอย่างใดอย่างหนึ่งต้องตรวจหาอย่างอื่น (echo, US ไต, X-ray กระดูกสันหลัง/ แขน) · ไฟล์ขีด A ลายมือเขียนตัวย่อ <b>\"vertebral · anorectal · cardiac · TEF · renal · limb\"</b> รอบคำ VACTERL",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ ankylosing spondylitis อยู่ใน VACTERL เพราะตัว V คือกระดูกสันหลังผิดรูปแต่กำเนิด (hemivertebra, butterfly vertebra) ไม่ใช่โรคข้ออักเสบของผู้ใหญ่",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ congenital cystic lung อยู่ใน VACTERL เพราะความผิดปกติของปอดในกลุ่มนี้คือ TEF/EA ไม่ใช่ถุงน้ำในเนื้อปอด",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ปากแหว่งอยู่ใน VACTERL เพราะไม่ใช่องค์ประกอบของกลุ่ม — ความผิดปกติของใบหน้าเป็นของกลุ่มอาการอื่น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Hirschsprung อยู่ใน VACTERL เพราะตัว A คือ ARM ซึ่งเป็นความผิดปกติของรูทวาร ไม่ใช่เซลล์ประสาทของลำไส้"
+   "B": "Ankylosing spondylitis เป็นโรคข้ออักเสบในผู้ใหญ่ (HLA-B27) ไม่ใช่ความผิดปกติแต่กำเนิด · จะถูกถ้าคำถามถามโรคที่สัมพันธ์กับ HLA-B27",
+   "C": "Congenital cystic lung (CPAM) ไม่อยู่ใน VACTERL · จะถูกถ้าคำถามถามก้อนถุงน้ำในปอดที่เห็นจาก fetal US",
+   "D": "Cleft lip ไม่อยู่ใน VACTERL · จะถูกถ้าคำถามถาม CHARGE/ Van der Woude",
+   "E": "Hirschsprung ไม่อยู่ใน VACTERL (สัมพันธ์ Down syndrome) · จะถูกถ้าคำถามถามความผิดปกติที่พบร่วมกับ trisomy 21"
   },
-  "trap": "สับสน ARM กับ Hirschsprung เพราะเป็นโรคลำไส้ส่วนปลายในทารกและท้องอืดถ่ายไม่ออกเหมือนกัน — ARM ตรวจร่างกายเห็นรูทวารผิดตำแหน่งหรือไม่มี",
+  "trap": "จำตัวย่อไม่ครบ — A = Anorectal",
   "summary": [
-   "<b>นอกสไลด์:</b> วินิจฉัย VACTERL เมื่อมีอย่างน้อย 3 องค์ประกอบ · พบ EA หรือ ARM ตัวใดตัวหนึ่ง → ตรวจหาที่เหลือ: X-ray/US กระดูกสันหลัง (tethered cord) echo US ไต ตรวจแขน (radius นิ้วโป้ง) และใส่สายทางปากลงกระเพาะ"
+   "V: vertebral (hemivertebra)",
+   "A: anorectal malformation",
+   "C: cardiac (VSD)",
+   "TE: tracheoesophageal fistula/ esophageal atresia",
+   "R: renal · L: limb (radial ray)",
+   "พบอย่างหนึ่ง → ตรวจหาส่วนอื่นทุกราย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'VACTERL: Vertebra · Anus · Cardiac · TE fistula · Renal · Limb'</b>",
+  "guide": "Solomon BD. VACTERL/VATER Association (Orphanet J Rare Dis 2011;6:56); Coran's Pediatric Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก EA ตรวจพบนิ้วโป้งเล็กและ radius หายไป → radial ray anomaly ของ VACTERL: echo, US ไต และตรวจเลือดหา Fanconi anemia",
-   "<b>นอกสไลด์:</b> ทารก choanal atresia ตามี coloboma หูผิดรูป หัวใจพิการ → CHARGE syndrome (CHD7) ไม่ใช่ VACTERL"
+   "ทารก esophageal atresia → echo + US ไต + X-ray กระดูกสันหลัง (VACTERL screen)",
+   "ทารกไม่มีรูทวาร + นิ้วโป้งผิดรูป → VACTERL",
+   "ทารก ARM + ปัสสาวะมีขี้เทา → rectourethral fistula"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 91 — ตัวพิมพ์: <b>89. Which one is one of VACTERL ? — A. Anorectal malformation B. Ankylosing spondylitis C. Congenital cystic lung</b><br>ลายมือ: \"vertebral · anorectal · cardiac · TEF · renal · limb\" รอบคำ VACTERL · ขีด A<br>ไฮไลต์: \"one of VACTERL\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 72: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 91",
+  "kimg": [
+   "fsk_p91",
+   "kp68d_89",
+   "k2p_72"
   ]
  },
  "MDCU68|RoD|xx": {
-  "interp": "ถามกลไกที่ citrate ลดการเกิดนิ่วในไต",
-  "why": "<b>ลายมือ: ไม่ให้แคลเซียมไปจับ oxalate</b><br><b>นอกสไลด์:</b> citrate จับ calcium ในปัสสาวะเป็นสารประกอบที่ละลายน้ำ แคลเซียมอิสระที่จะไปจับ oxalate หรือ phosphate จึงลดลง และ citrate ยังยับยั้งผลึกไม่ให้โตและเกาะกลุ่มกัน",
+  "interp": "ถามกลไกที่ <b>citrate</b> ลดการเกิดนิ่วไต",
+  "why": "Citrate ในปัสสาวะ<b>จับกับแคลเซียม</b>เป็นสารประกอบเชิงซ้อนที่ละลายน้ำได้ → แคลเซียมอิสระลดลง<b>จึงไม่ไปจับ oxalate/ phosphate</b> → ลด supersaturation และยับยั้งการเกาะกลุ่ม/ โตของผลึก · potassium citrate ยังทำให้ปัสสาวะเป็นด่าง (ช่วยนิ่ว uric acid/ cystine) · ไฟล์ขีด 1 ลายมือ <b>\"ไม่ให้ไปจับ oxalate\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate จับ oxalate เพราะทั้งสองเป็นประจุลบ — citrate ลดนิ่ว calcium oxalate ทางอ้อมด้วยการแย่งจับแคลเซียม",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate จับ phosphate เพราะ phosphate ก็เป็นประจุลบ — นิ่ว calcium phosphate ลดลงจากการที่แคลเซียมถูกจับไปก่อน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate ทำให้ปัสสาวะเป็นกรด เพราะ citrate ถูกเผาผลาญเป็น bicarbonate ทำให้ปัสสาวะเป็นด่าง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ potassium citrate เพิ่ม calcium ในปัสสาวะ เพราะภาวะด่างจากยาทำให้ไตดูดแคลเซียมกลับมากขึ้น calcium ที่ออกทางปัสสาวะจึงลดลง"
+   "B": "Citrate ไม่จับ oxalate โดยตรง แต่ลดแคลเซียมที่จะไปจับ oxalate (ลายมือ) · จะถูกถ้าคำถามถามกลไกของ calcium supplement กับอาหารที่จับ oxalate ในลำไส้",
+   "C": "Citrate ไม่จับ phosphate · จะถูกถ้าคำถามถามสารที่จับ phosphate ในลำไส้ (sevelamer/ calcium carbonate ใน CKD)",
+   "D": "Citrate ทำให้ปัสสาวะเป็น<b>ด่าง</b> ไม่ใช่กรด · จะถูกถ้าคำถามถามยาที่ทำให้ปัสสาวะเป็นกรด (ammonium chloride)",
+   "E": "Citrate ไม่เพิ่มการขับแคลเซียม (thiazide ลดการขับ) · จะถูกถ้าคำถามถามผลของ loop diuretic ต่อแคลเซียมในปัสสาวะ"
   },
-  "trap": "จำว่า citrate ทำให้ปัสสาวะเป็นด่างแล้วคิดว่านั่นคือกลไกหลักกับนิ่วแคลเซียม — ฤทธิ์ด่างช่วยนิ่ว uric acid และ cystine ส่วนนิ่วแคลเซียมได้ประโยชน์จากการที่ citrate จับแคลเซียม",
+  "trap": "ตอบว่า citrate จับ oxalate — citrate จับแคลเซียม (oxalate จึงไม่มีแคลเซียมให้จับ)",
   "summary": [
-   "<b>นอกสไลด์:</b> สารในปัสสาวะ: ส่งเสริมนิ่ว = calcium, oxalate, uric acid, sodium และปัสสาวะน้อย · ยับยั้งนิ่ว = citrate, magnesium และปริมาณปัสสาวะมาก · ผู้เป็นนิ่วซ้ำตรวจปัสสาวะ 24 ชม. (ปริมาตร calcium oxalate citrate uric acid sodium) เพื่อเลือกวิธีป้องกันให้ตรงจุด"
+   "Citrate: จับ Ca²⁺ · ยับยั้งการตกผลึก · ทำให้ปัสสาวะเป็นด่าง",
+   "Hypocitraturia: RTA type 1 · ท้องเสียเรื้อรัง · โปรตีนสูง",
+   "Potassium citrate: นิ่ว Ca oxalate + hypocitraturia · uric acid · cystine",
+   "ดื่มน้ำ &gt; 2–2.5 L/ วัน · ลดเกลือ · ลดโปรตีนสัตว์",
+   "ไม่ต้องลดแคลเซียมในอาหาร",
+   "Thiazide: hypercalciuria"
   ],
-  "opinion": "เห็นด้วยกับคีย์ (ข้อ 1 = A) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'Citrate = Cage Calcium (oxalate เลยไม่มีคู่)'</b>",
+  "guide": "AUA Guideline: Medical Management of Kidney Stones (2019); EAU Guidelines on Urolithiasis 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยนิ่ว calcium oxalate ถูกบอกให้งดอาหารที่มีแคลเซียม → ไม่ควรงด: แคลเซียมในอาหารจับ oxalate ในลำไส้ งดแล้ว oxalate ถูกดูดซึมมากขึ้น ให้กินแคลเซียมปกติ ลดเกลือและโปรตีนจากสัตว์",
-   "<b>นอกสไลด์:</b> ผู้ป่วยนิ่วซ้ำ ปัสสาวะ 24 ชม. calcium สูง → thiazide ลด calcium ในปัสสาวะ (ระวัง K ต่ำซึ่งลด citrate จึงมักให้ potassium citrate ร่วม)"
+   "นิ่ว Ca oxalate ซ้ำ citrate ต่ำ → potassium citrate",
+   "นิ่ว uric acid ปัสสาวะ pH 5 → potassium citrate",
+   "RTA type 1 → hypocitraturia → นิ่ว Ca phosphate"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 91 — ตัวพิมพ์: <b>xx. Mechanism ของ \"citrate\" ในการลดนิ่ว — 1.จับกับ calcium 2.จับกับ oxalate 3.จับกับ phosphate</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"citrate\" · ขีด 1 + \"ไม่ให้ไปจับ oxalate\"<br>ไฮไลต์: \"Mechanism ของ citrate ในการลดนิ่ว\" · 1 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 72: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 91",
+  "kimg": [
+   "fsk_p91",
+   "kp68d_xx",
+   "k2p_72"
   ]
  }
 }
