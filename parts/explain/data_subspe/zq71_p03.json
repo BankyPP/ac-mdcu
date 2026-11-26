@@ -1,225 +1,399 @@
 {
  "MDCU71|RoA|89": {
-  "interp": "ข้อ FALSE: ข้อความใดเกี่ยวกับ Fournier gangrene ไม่ถูกต้อง → ช้อยอื่นเป็นข้อเท็จจริง",
-  "why": "<b>P'Ing กากบาท C · B ✓ มัก involve external anal sphincter</b><br><b>นอกสไลด์:</b> ต้นเหตุส่วนใหญ่เป็นการติดเชื้อธรรมดา: ฝีรอบทวาร/ischiorectal โรคของท่อปัสสาวะ (ตีบ ใส่สาย บาดเจ็บ) และแผลผิวหนังที่อวัยวะเพศ · มะเร็งทวารหนักเป็นต้นเหตุได้แต่พบน้อย",
+  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>Fournier gangrene</b>",
+  "why": "<b>Fournier gangrene</b> = <b>necrotizing fasciitis</b> ของฝีเย็บ อวัยวะเพศ และรอบทวาร เชื้อหลายชนิดร่วมกัน (aerobe + anaerobe) · ต้นเหตุพบบ่อย: <b>การติดเชื้อรอบทวาร (perianal/ ischiorectal abscess)</b>, ทางเดินปัสสาวะ (urethral stricture, การใส่สาย), แผลผิวหนัง · ปัจจัยเสี่ยง: เบาหวาน สุรา ภูมิต่ำ · <b>มะเร็งทวารหนักไม่ใช่สาเหตุที่พบบ่อยที่สุด</b> · รักษา: resuscitate + <b>ยาปฏิชีวนะกว้างทันที (ไม่รอผลเพาะเชื้อ)</b> + <b>radical debridement ด่วน</b> ซ้ำทุก 24–48 ชม. · หูรูดทวาร/ แผลรอบทวารกว้าง → <b>diverting colostomy</b> ลดการปนเปื้อน · ไฟล์ P'Ing กากบาท C และที่ B <b>\"→ มัก involve external anal sphincter\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะเป็นนิยามของโรค: necrotizing fasciitis ของฝีเย็บ อวัยวะเพศ และรอบทวาร ลามตามชั้น fascia (Colles–Scarpa)",
-   "B": "P'Ing: แผลมักกินถึง external anal sphincter — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ \"บางราย\" ครอบคลุมผู้ป่วยที่แผลเปิดกว้างถึงหูรูดจนอุจจาระปนเปื้อนแผลตลอด ซึ่งต้องเบี่ยงอุจจาระออก",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะโรคเป็นการติดเชื้อหลายเชื้อที่ลุกลามเป็นชั่วโมง ต้องเริ่มยาครอบคลุมกว้าง (gram บวก ลบ และ anaerobe) ทันทีโดยไม่รอผลเพาะเชื้อ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะเนื้อตายไม่มีเลือดไปเลี้ยง ยาเข้าไม่ถึง การตัดเนื้อตายออกให้หมดเร็วเป็นสิ่งที่ลดอัตราตายได้มากที่สุด"
+   "A": "ถูก — เป็น necrotizing fasciitis ของฝีเย็บ/ อวัยวะเพศ · จะถูกถ้าช้อยบอกว่าเป็นการติดเชื้อเฉพาะผิวหนังชั้นตื้น (cellulitis) ที่รักษาด้วยยาอย่างเดียว",
+   "B": "ถูก — บางรายต้อง colostomy เมื่อหูรูดทวารถูกทำลาย/ แผลกว้างปนเปื้อนอุจจาระ (ลายมือ \"มัก involve external anal sphincter\") · จะถูกถ้าช้อยบอกว่าทุกรายต้องทำ colostomy",
+   "D": "ถูก — ให้ยาปฏิชีวนะกว้างทันทีแล้วปรับตามผลเพาะเชื้อ · จะถูกถ้าช้อยบอกว่าต้องรอผลเพาะเชื้อก่อนจึงให้ยา",
+   "E": "ถูก — radical debridement ด่วนเป็นหัวใจของการรักษา · จะถูกถ้าช้อยบอกว่าให้ยาอย่างเดียวโดยไม่ผ่าตัด"
   },
-  "trap": "มะเร็งทวารหนักเคยมีรายงานเป็นต้นเหตุจึงฟังดูเป็นไปได้ — แต่ \"most common\" ผิด ต้นเหตุหลักคือฝีรอบทวารและโรคท่อปัสสาวะ",
+  "trap": "คิดว่าโรคที่ฝีเย็บต้องมาจากมะเร็ง — สาเหตุหลักคือติดเชื้อรอบทวาร/ ทางเดินปัสสาวะ",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยง: เบาหวาน (พบบ่อยที่สุด) ดื่มสุรา ภูมิคุ้มกันต่ำ อ้วน · ต้นทางของเชื้อบอกได้จากจุดเริ่มของแผล: รอบทวาร → ทางเดินอาหาร, ถุงอัณฑะ/ท่อปัสสาวะ → ทางเดินปัสสาวะ ซึ่งต้องแก้ต้นเหตุด้วย (ระบายปัสสาวะ ระบายฝี)"
+   "Fournier: necrotizing fasciitis ฝีเย็บ/ อวัยวะเพศ · polymicrobial",
+   "สาเหตุ: anorectal (ฝี) · urogenital · ผิวหนัง",
+   "ปัจจัยเสี่ยง: เบาหวาน สุรา ภูมิต่ำ",
+   "อาการ: ปวดเกินกว่าที่เห็น · ผิวม่วงคล้ำ · crepitus · sepsis",
+   "รักษา: ATB กว้าง + debridement ด่วนซ้ำ ± colostomy/ suprapubic cystostomy",
+   "อัณฑะมักรอด (เลือดเลี้ยงจาก testicular artery)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ต้นเหตุพบบ่อยคือฝีรอบทวารและโรคท่อปัสสาวะ ไม่ใช่มะเร็ง · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับกากบาท C และลายมือในไฟล์",
+  "mnemonic": "<b>'Fournier = ฝีเย็บเน่า → ยา + ตัด (debride) ด่วน ± ทวารเทียม'</b>",
+  "guide": "WSES/ SIS-E Consensus Conference: Recommendations for the Management of Skin and Soft-Tissue Infections (World J Emerg Surg 2018;13:58); EAU Guidelines on Urological Infections 2024 — Fournier's gangrene",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังตัดเนื้อตายของถุงอัณฑะจนอัณฑะโผล่ อัณฑะยังสีปกติ → ไม่ต้องตัดอัณฑะ (เลือดมาจาก testicular artery แยกจากผิวหนัง): ฝังไว้ใต้ผิวหนังต้นขาชั่วคราวหรือปิดด้วยการปลูกผิวหนังภายหลัง"
+   "ชายเบาหวาน ถุงอัณฑะบวมดำ มี crepitus ช็อก → debridement ด่วน + ATB กว้าง",
+   "Fournier ลามรอบทวาร ทำลายหูรูด → diverting colostomy",
+   "ผู้ป่วยหลัง debridement → ทำแผลและ debride ซ้ำใน 24–48 ชม."
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 23 — ตัวพิมพ์: <b>Colo 89. What is false about Fournier gangrene? — A. It is necrotising fasciitis of the perineal body B. Some cases need to perform colostomy C. Anal cancer is the most common cause D. prescribe empirical antibiotic first until the culture result comes out E. Radical debridement should be performed</b><br>ลายมือ: B \"→ มัก involve external anal sphincter\" · กากบาท C · กากบาทแดงใต้ \"is\" ในช้อย C<br>ไฮไลต์: กากบาท C (ม่วง) · \"What is false\" (ม่วง + ขีดเส้นใต้แดง) · ขีดเส้นใต้ \"Fournier gangrene\"",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 23",
+  "kimg": [
+   "fsp_p23",
+   "kp71a_89"
   ]
  },
  "MDCU71|RoA|ไม่มีเลข 1": {
-  "interp": "ฝีในปอดซ้าย 5 cm ได้ยาฉีด 6 วันต่อมาโพรงฝีหาย แต่มีน้ำในช่องเยื่อหุ้มปอดใหม่ → ฝีแตกเข้าช่องเยื่อหุ้มปอด (empyema) ถามการรักษาขั้นต่อไป",
-  "why": "<b>P'Ing กากบาท A · ruptured lung abscess ⇒ empyema thoracis</b><br><b>นอกสไลด์:</b> โพรงที่หายไปพร้อมน้ำที่เกิดใหม่ไม่ใช่การหาย แต่หนองไหลจากโพรงฝีเข้าช่องเยื่อหุ้มปอด → ต้องระบายหนองด้วยสายระบายทรวงอกร่วมกับยาต่อ",
+  "interp": "หญิง 60 ปี <b>lung abscess 5 cm</b> ได้ IV ATB 6 วันต่อมา<b>มีน้ำในเยื่อหุ้มปอดใหม่ และโพรงฝีหายไป</b> → ถามการจัดการต่อ",
+  "why": "โพรงฝีหายไปพร้อมเกิดน้ำในช่องเยื่อหุ้มปอดทันที = <b>ฝีในปอดแตกเข้าช่องเยื่อหุ้มปอด</b> → <b>empyema thoracis</b> (± pyopneumothorax/ bronchopleural fistula) · ต้อง<b>ระบายด้วย intercostal chest drain (ICD) ทันที</b> ร่วมกับยาปฏิชีวนะ · ไม่ดีขึ้น/ loculated → VATS/ decortication · ฝีแตกเป็นข้อบ่งชี้ผ่าตัดของ lung abscess แต่ขั้นแรกคือระบายช่องเยื่อหุ้มปอด · ไฟล์ P'Ing กากบาท A ลายมือ <b>\"Ruptured lung abscess ⇒ empyema thoracis\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น empyema เรื้อรังในผู้ป่วยที่สภาพทนการผ่าตัดลอกเยื่อไม่ไหว หรือมีรูรั่วหลอดลมหลังตัดปอดทั้งข้าง → เปิดผนังทรวงอกระบายถาวร (open window/Eloesser flap)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าฝียังอยู่ในเนื้อปอด ไม่มีน้ำในช่องเยื่อหุ้มปอด ไข้ลดลงและโพรงเล็กลง — ฝีในปอดส่วนใหญ่หายด้วยยาอย่างเดียว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามี bronchiectasis หรือโพรงติดเชื้อเรื้อรังจำกัดอยู่ใน segment เดียว ติดเชื้อซ้ำแม้ได้ยาครบ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าฝีในปอดไม่ตอบยาหลายสัปดาห์ ไอเป็นเลือดมากจาก lobe นั้น หรือสงสัยมะเร็งอุดหลอดลมเป็นต้นเหตุของฝี"
+   "B": "Open thoracostomy (Eloesser flap) ใช้กับ empyema เรื้อรังที่ผ่าตัดใหญ่ไม่ได้ · จะถูกถ้าผู้ป่วยสูงอายุ empyema เรื้อรังหลายเดือน ปอดไม่ขยาย สภาพร่างกายไม่พอผ่าตัด",
+   "C": "ให้ยาต่ออย่างเดียวไม่ระบายหนองที่แตกเข้าช่องเยื่อหุ้มปอด · จะถูกถ้าฝีในปอดยังอยู่ในเนื้อปอด เล็กลง ไข้ลด",
+   "D": "Segmentectomy ไม่ใช่ขั้นแรกในการติดเชื้อเฉียบพลันที่ช่องเยื่อหุ้มปอด · จะถูกถ้าฝีเรื้อรังเฉพาะ segment ไม่หายหลังยาหลายสัปดาห์ในผู้ที่ปอดดี",
+   "E": "Lobectomy ใช้เมื่อฝีไม่หาย ไอเป็นเลือดมาก หรือสงสัยมะเร็ง · จะถูกถ้าฝีในปอด 7 cm ไอเป็นเลือด 400 mL/วัน ยาไม่ได้ผล"
   },
-  "trap": "\"cavity has disappeared\" ชวนให้คิดว่าดีขึ้นแล้วให้ยาต่อ — โพรงที่หายพร้อมน้ำใหม่คือฝีแตก ต้องเจาะ/ระบาย",
+  "trap": "เห็นโพรงฝีหายแล้วคิดว่าดีขึ้น — หายพร้อมมีน้ำในเยื่อหุ้มปอดใหม่ = ฝีแตก",
   "summary": [
-   "<b>นอกสไลด์:</b> ฝีในปอดรักษาด้วยยาเป็นหลัก (หลายสัปดาห์) · ไม่ตอบยา → ระบายผ่านผิวหนังหรือผ่าตัด · ภาวะแทรกซ้อนที่ต้องจำ: แตกเข้าช่องเยื่อหุ้มปอด (empyema/pyopneumothorax), รูรั่วหลอดลม–ช่องเยื่อหุ้มปอด, ไอเป็นเลือดมาก"
+   "ฝีในปอดแตก → empyema/ pyopneumothorax → ICD + ATB",
+   "Lung abscess ผ่าตัด: &gt; 6 cm · ไม่ดีขึ้น · ไอเป็นเลือดมาก · แตก · สงสัยมะเร็ง",
+   "ส่วนใหญ่หายด้วยยา 4–6 สัปดาห์",
+   "Loculated empyema → tPA + DNase/ VATS",
+   "Chronic empyema ผ่าตัดใหญ่ไม่ได้ → Eloesser flap",
+   "Bronchopleural fistula → ลมรั่วต่อเนื่องจาก ICD"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — ฝีแตกเกิด empyema ต้องระบายด้วย ICD · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับกากบาท A และลายมือในไฟล์",
+  "mnemonic": "<b>'ฝีหาย + น้ำมา = ฝีแตก → ใส่ท่อ'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยรายเดียวกัน ภาพมีระดับน้ำ–ลมในช่องเยื่อหุ้มปอด ใส่สายแล้วมีฟองลมออกต่อเนื่องหลายวัน → รูรั่วหลอดลม–ช่องเยื่อหุ้มปอด (bronchopleural fistula) ระบายต่อ ถ้าไม่ปิดเองพิจารณาผ่าตัด"
+   "lung abscess ไอเป็นเลือดมาก → bronchial artery embolization/ lobectomy",
+   "empyema ใส่ ICD แล้วมีฟองลมต่อเนื่อง → bronchopleural fistula",
+   "ผู้ป่วยติดเตียงสำลัก ไข้ เสมหะเหม็น CXR โพรงมีระดับน้ำ → lung abscess → ATB"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 24 — ตัวพิมพ์: <b>CVT xx. a 60 year-old female has 5 cm left lung abscess. A doctor administered IV ATB. 6 days later, the patient went to F/U and found new pleural effusion and the abscess is disappeared. what is the next appropriate management — A. ICD B. Thoracostomy C. Continue ATB D. Segmentectomy E. Lobectomy</b><br>ลายมือ: \"Ruptured lung abscess ⇒ empyema thoracis\" · กากบาท A<br>ไฮไลต์: กากบาท A (ชมพู) · \"what is the next appropriate management\" (ชมพู) · ขีดเส้นใต้แดง \"5 cm left lung abscess\" \"new pleural effusion and the abscess is disappeared\"",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 24",
+  "kimg": [
+   "fsp_p24",
+   "kp71a_x1"
   ]
  },
  "MDCU71|RoA|ไม่มีเลข 2": {
-  "interp": "ถามมะเร็งที่พบบ่อยที่สุดของต่อม parotid (ไม่ใช่เนื้องอกทั้งหมด)",
-  "why": "<b>P'Ing กากบาท C · pleomorphic adenoma = m/c tumor of salivary glands · 2nd m/c = Warthin tumor</b><br><b>นอกสไลด์:</b> mucoepidermoid carcinoma เป็นมะเร็งต่อมน้ำลายที่พบบ่อยที่สุด และส่วนใหญ่อยู่ใน parotid ทั้งผู้ใหญ่และเด็ก",
+  "interp": "ถามเนื้องอก<b>ร้าย</b>ที่พบบ่อยที่สุดของ<b>ต่อมน้ำลายพาโรทิด</b>",
+  "why": "<b>Mucoepidermoid carcinoma</b> เป็นมะเร็งต่อมน้ำลายที่พบบ่อยที่สุด โดยเฉพาะใน<b>ต่อมพาโรทิด</b> (และพบบ่อยในเด็ก) แบ่ง low/ high grade · ส่วน <b>pleomorphic adenoma</b> เป็นเนื้องอก<b>ไม่ร้าย</b>ที่พบบ่อยที่สุดของต่อมน้ำลาย และ <b>Warthin tumor</b> พบรองลงมา · <b>Adenoid cystic carcinoma</b> พบมากที่สุดในต่อม submandibular และต่อมน้ำลายเล็ก ลามตามเส้นประสาท (perineural) · ไฟล์ P'Ing กากบาท C แก้ช้อย D จาก \"carcinoma\" เป็น <b>\"adenoma : m/c tumor of salivary glands\"</b> และ \"2nd m/c = Warthin tumor (papillary cystadenoma lymphomatosum)\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"adenocarcinoma NOS เป็นมะเร็งที่พบบ่อยที่สุดของ parotid\" เป็นจริง เพราะเป็นกลุ่มที่วินิจฉัยเมื่อก้อนไม่เข้าชนิดเฉพาะใด จึงพบน้อยกว่าชนิดหลัก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งของต่อม submandibular — adenoid cystic carcinoma พบบ่อยที่สุดในต่อมนี้ (ลามตามเส้นประสาท ชา/ปวด)",
-   "D": "P'Ing: pleomorphic adenoma = เนื้องอกต่อมน้ำลายที่พบบ่อยที่สุด — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"pleomorphic adenoma เป็นมะเร็ง\" เป็นจริง เพราะเป็นเนื้องอกไม่ร้าย มะเร็งที่เกิดตามมามีชื่อแยกคือ carcinoma ex pleomorphic adenoma",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"acinic cell carcinoma พบบ่อยที่สุด\" เป็นจริง เพราะแม้เกิดใน parotid เกือบทั้งหมด แต่จำนวนรวมน้อยกว่า mucoepidermoid ทั้งในผู้ใหญ่และเด็ก"
+   "A": "Adenocarcinoma NOS พบได้แต่น้อยกว่า mucoepidermoid · จะถูกถ้าคำถามถามมะเร็งต่อมน้ำลายที่เกิดจาก pleomorphic adenoma นาน (carcinoma ex pleomorphic adenoma)",
+   "B": "Adenoid cystic carcinoma พบมากที่สุดในต่อม submandibular/ ต่อมน้ำลายเล็ก ลามตามเส้นประสาท · จะถูกถ้าคำถามถามมะเร็งที่พบบ่อยที่สุดของต่อม submandibular หรือเพดานปาก",
+   "D": "Pleomorphic adenoma เป็นเนื้องอกไม่ร้ายที่พบบ่อยที่สุด (ลายมือ \"m/c tumor of salivary glands\") · จะถูกถ้าคำถามถามเนื้องอก (ไม่ระบุว่าร้าย) ที่พบบ่อยที่สุดของต่อมพาโรทิด",
+   "E": "Acinic cell carcinoma พบรองลงมา มักเกรดต่ำ · จะถูกถ้าคำถามถามมะเร็งต่อมน้ำลายเกรดต่ำที่พบในหญิงอายุน้อยที่เป็นสองข้างได้"
   },
-  "trap": "pleomorphic adenoma พบบ่อยที่สุดแต่เป็นเนื้องอกไม่ร้าย — อ่านคำว่า \"malignant\" ให้ทัน",
+  "trap": "ตอบ pleomorphic adenoma เพราะพบบ่อยที่สุด — แต่เป็นเนื้องอกไม่ร้าย คำถามถามมะเร็ง",
   "summary": [
-   "<b>นอกสไลด์:</b> ต่อมยิ่งเล็ก สัดส่วนที่เป็นมะเร็งยิ่งมาก: parotid ราว 20–25% · submandibular ราวครึ่ง · sublingual และต่อมน้ำลายเล็กส่วนใหญ่เป็นมะเร็ง"
+   "เนื้องอกต่อมน้ำลาย: ~80% อยู่ที่พาโรทิด และ ~80% ของพาโรทิดไม่ร้าย",
+   "ไม่ร้ายพบบ่อยสุด: pleomorphic adenoma · รองลงมา Warthin (ชายสูงอายุสูบบุหรี่ สองข้าง)",
+   "ร้ายพบบ่อยสุด: mucoepidermoid carcinoma",
+   "Adenoid cystic: submandibular/ ต่อมเล็ก · perineural invasion",
+   "ต่อมยิ่งเล็ก ยิ่งมีโอกาสร้าย (พาโรทิด 20% → ต่อมเล็ก ~80%)",
+   "รักษา: superficial/ total parotidectomy รักษาเส้นประสาท facial"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับกากบาท C และลายมือในไฟล์ · ช้อย D ต้นฉบับเขียน pleomorphic carcinoma ซึ่ง P'Ing แก้เป็น adenoma",
+  "mnemonic": "<b>'พาโรทิด: ดี = Pleomorphic · ร้าย = Mucoepidermoid (M มาก่อน)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers — Salivary Gland Tumors v.2025; WHO Classification of Head and Neck Tumours 5th ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 10 ขวบมีก้อนแข็งในต่อม parotid (ไม่ใช่ hemangioma) ผลชิ้นเนื้อเป็นมะเร็ง → ชนิดที่พบบ่อยที่สุดในเด็กก็ยังเป็น mucoepidermoid carcinoma"
+   "หญิง 40 ปีก้อนพาโรทิดโตช้า ไม่เจ็บ → pleomorphic adenoma → superficial parotidectomy",
+   "ชายสูงอายุสูบบุหรี่ ก้อนพาโรทิดสองข้าง → Warthin tumor",
+   "ก้อนที่เพดานปาก ชาตามเส้นประสาท → adenoid cystic carcinoma"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 24 — ตัวพิมพ์: <b>Plastic xx. What is the most common malignant tumor of parotid gland — A. Adenocarcinoma B. Adenoid cystic carcinoma C. mucoepidermoid carcinoma D. pleomorphic carcinoma E. Acinar-cell carcinoma</b><br>ลายมือ: เส้นเชื่อม \"most common malignant\" กับช้อย C · กากบาท C · D ขีดฆ่า \"carcinoma\" แล้วเขียน \"adenoma : m/c tumor of salivary glands\" · \"2nd m/c = Warthin tumor (papillary cystadenoma lymphomatosum)\"<br>ไฮไลต์: กากบาท C (ฟ้า) · \"What is the most common malignant tumor\" (ฟ้า) · ขีดเส้นใต้ \"parotid gland\"",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 24",
+  "kimg": [
+   "fsp_p24",
+   "kp71a_x2"
   ]
  },
  "MDCU71|RoA|ไม่มีเลข 3": {
-  "interp": "ชาย 73 ปีมีก้อนที่เปลือกตาล่างโตช้า ๆ 1 ปี (ไฟล์ไม่มีรูปจริง) → ก้อนในผู้สูงอายุที่โตต่อเนื่องต้องคิดถึงมะเร็ง ถามการจัดการ",
-  "why": "<b>P'Ing กากบาท 3 (incisional biopsy)</b><br><b>นอกสไลด์:</b> ก้อนเปลือกตาในผู้สูงอายุที่โตต่อเนื่อง (โดยเฉพาะมีแผล ขอบมุก ขนตาร่วง หรือรูปทรงเปลือกตาผิด) ต้องได้ชิ้นเนื้อก่อน เพราะการตัดก้อนที่ขอบเปลือกตาให้ได้ขอบปลอดมะเร็งต้องวางแผนตัดและซ่อมเปลือกตาตามชนิดมะเร็ง",
+  "interp": "ชาย 73 ปี <b>ก้อนที่เปลือกตาล่างโตขึ้นเรื่อย ๆ 1 ปี</b> (ดังรูป) → ถามการจัดการ",
+  "why": "ก้อนที่เปลือกตาในผู้สูงอายุที่<b>โตขึ้นต่อเนื่อง</b> ต้องสงสัย<b>มะเร็ง</b> — พบบ่อยที่สุดคือ <b>basal cell carcinoma</b> (มักที่เปลือกตาล่าง ขอบนูนมัน มีเส้นเลือดฝอย แผลตรงกลาง) รองลงมา sebaceous carcinoma, SCC, melanoma → ขั้นแรกคือ<b>ตัดชิ้นเนื้อ (incisional biopsy)</b> เพื่อวินิจฉัยก่อนวางแผนตัดก้อนพร้อมขอบปลอดภัย (Mohs/ frozen section) และซ่อมเปลือกตา · ภาพ CT/ MRI orbit ใช้เมื่อสงสัยลุกลามเบ้าตา (ตาโปน กลอกตาจำกัด) · ไฟล์ P'Ing กากบาท <b>3. Incisional biopsy</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าชิ้นเนื้อยืนยันมะเร็งแล้วและมีตาโปนหรือตาเคลื่อนไหวจำกัด สงสัยลามเข้าเบ้าตาหรือตามเส้นประสาท",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าบาดเจ็บที่ตาแล้วสงสัยกระดูกเบ้าตาหักหรือมีสิ่งแปลกปลอม (ตาเห็นภาพซ้อน มองขึ้นไม่ได้ ชาแก้ม)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุมีถุงใต้ตาจากไขมันเบ้าตายื่นและผิวหนังหย่อน โดยไม่มีก้อนเนื้อ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นปื้นเหลืองนิ่มแบนที่หัวตาสองข้าง (xanthelasma) ไม่โตเร็ว — ไม่ร้าย สังเกตหรือรักษาเพื่อความสวยงาม และตรวจไขมันในเลือด"
+   "A": "MRI orbit ใช้ประเมินการลุกลามเข้าเบ้าตาหลังวินิจฉัย ไม่ใช่ขั้นแรก · จะถูกถ้ามะเร็งเปลือกตาที่ยืนยันแล้วมีตาโปน กลอกตาจำกัด สงสัยลุกลามเบ้าตา",
+   "B": "CT orbit ใช้ดูกระดูกเบ้าตา/ การลุกลาม ไม่ให้การวินิจฉัยชนิดก้อน · จะถูกถ้าสงสัยกระดูกเบ้าตาหักหลังบาดเจ็บ",
+   "D": "Lower blepharoplasty เป็นการผ่าตัดเสริมความงามถุงใต้ตา ไม่ใช่การรักษาก้อนที่สงสัยมะเร็ง · จะถูกถ้าผู้สูงอายุมีถุงไขมันใต้ตาหย่อนไม่มีก้อน",
+   "E": "ก้อนที่โตขึ้นเรื่อย ๆ ไม่ควรสังเกตต่อ · จะถูกถ้าเป็น xanthelasma (ปื้นเหลืองที่หัวตา ไม่โต) หรือ seborrheic keratosis ที่ไม่เปลี่ยนแปลง"
   },
-  "trap": "ก้อนเปลือกตาโตช้าดูไม่น่ากลัว — แต่ในผู้สูงอายุ \"โตต่อเนื่อง 1 ปี\" คือข้อบ่งชี้ตัดชิ้นเนื้อ ส่วน imaging ใช้หลังรู้ชนิดและสงสัยลามลึก",
+  "trap": "ส่งภาพก่อนได้ชิ้นเนื้อ — ก้อนผิวหนังที่สงสัยมะเร็งวินิจฉัยด้วย biopsy",
   "summary": [
-   "<b>นอกสไลด์:</b> มะเร็งเปลือกตา: BCC พบบ่อยที่สุด (เปลือกตาล่างและหัวตา) · SCC · sebaceous gland carcinoma (เปลือกตาบนบ่อย ลุกลามมากกว่า) · melanoma · รักษาด้วยตัดพร้อมตรวจขอบ (Mohs หรือ frozen section) แล้วซ่อมเปลือกตา"
+   "มะเร็งเปลือกตาพบบ่อยสุด: BCC (~90%) เปลือกตาล่าง",
+   "Sebaceous carcinoma: เปลือกตาบน · เลียนแบบ chalazion ซ้ำ",
+   "ก้อนโต/ แผล/ ขนตาร่วง → biopsy",
+   "รักษา: ตัดพร้อมขอบปลอดภัย (Mohs/ frozen section) + ซ่อมเปลือกตา",
+   "Chalazion ซ้ำที่เดิม → biopsy หา sebaceous carcinoma",
+   "CT/ MRI orbit เมื่อสงสัยลุกลามเบ้าตา"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ก้อนเปลือกตาในผู้สูงอายุที่โตต่อเนื่องต้องได้ชิ้นเนื้อก่อน (ไม่เห็นรูปจริง) · มั่นใจปานกลางค่อนข้างสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับกากบาท 3 ในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E และบรรยายภาพในโจทย์",
+  "mnemonic": "<b>'ก้อนเปลือกตาคนแก่ที่โตขึ้น = BCC ไว้ก่อน → biopsy'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Basal Cell Skin Cancer v.2025; Smith and Nesi's Ophthalmic Plastic and Reconstructive Surgery 4th ed. (2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง 70 ปี \"ตากุ้งยิง\" (chalazion) ที่เปลือกตาบนเป็นซ้ำที่เดิมหลายครั้ง ขนตาร่วง → ตัดชิ้นเนื้อหา sebaceous gland carcinoma"
+   "ก้อนนูนมันมีเส้นเลือดที่เปลือกตาล่าง biopsy BCC → Mohs surgery",
+   "chalazion เปลือกตาบนเป็นซ้ำที่เดิม ขนตาร่วง → biopsy (sebaceous carcinoma)",
+   "มะเร็งเปลือกตาลุกลาม ตาโปน → MRI orbit"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 24 — ตัวพิมพ์: <b>Plastic Xx. ผู้ชายอายุ 73 ปี มีก้อนที่ใต้ตาโตขึ้นเรื่อยๆมา 1 ปี ดังรูป ถาม management — 1. MRI orbit 2. CT orbit 3. Incisional biopsy 4. Lower blepharoplasty 5. ...</b><br>ลายมือ: กากบาท 3<br>ไฮไลต์: กากบาท 3 (ฟ้า) · \"ถาม management\" (ฟ้า) · ขีดเส้นใต้ \"มีก้อนที่ใต้ตาโตขึ้นเรื่อยๆมา 1 ปี\"<br>ที่ปรับในเว็บ: ไม่มีภาพ → บรรยายในโจทย์ · ช้อย 5 จำไม่ได้ → เติม observation",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 24",
+  "kimg": [
+   "fsp_p24",
+   "kp71a_x3"
   ]
  },
  "MDCU71|RoA|ไม่มีเลข 4": {
-  "interp": "ชาย 25 ปีเลือดออกทางทวาร 1 สัปดาห์ ไม่มีปวดท้องหรือน้ำหนักลด ตรวจพบ acute anal fissure แต่ญาติ 3 คนเป็นมะเร็งลำไส้ใหญ่ที่อายุ 30, 45, 50 → ครอบครัวเข้าเกณฑ์มะเร็งลำไส้ใหญ่ทางพันธุกรรม (Lynch) ถามการจัดการ",
-  "why": "<b>P'Ing กากบาท 2 · จะคิดถึง common anorectal diseases ได้เมื่อ 1. no bowel habit change 2. PR เจอ presentation ที่อธิบายอาการ · เริ่ม screening เมื่อ 30 − 10 = 20 yo</b><br><b>นอกสไลด์:</b> fissure อธิบายเลือดออกได้ แต่ประวัติครอบครัวเข้าเกณฑ์ Amsterdam → เฝ้าระวัง Lynch: ส่องกล้องลำไส้ใหญ่ถี่ทุก 1–2 ปี (มะเร็งใน Lynch โตจาก adenoma เร็ว) และส่องกระเพาะเพราะเสี่ยงมะเร็งกระเพาะ/ลำไส้เล็กส่วนต้น (แนวทางให้เริ่มราว 30–40 ปี ทุก 2–4 ปี — B จึงเป็นช้อยที่ดีที่สุด) · กฎ \"อายุญาติที่เป็นเร็วที่สุดลบ 10\" ในลายมือเป็นของครอบครัวเสี่ยงทั่วไป ส่วน Lynch ใช้เกณฑ์ใน summary",
+  "interp": "ชาย 25 ปี เลือดออกทางทวาร 1 สัปดาห์ ไม่ปวดท้อง น้ำหนักไม่ลด <b>ญาติ 3 คนเป็นมะเร็งลำไส้ใหญ่ที่อายุ 30, 45, 50</b> ตรวจพบ acute anal fissure → ถามการจัดการ",
+  "why": "อาการเลือดออกอธิบายได้ด้วย anal fissure (ไม่มีการเปลี่ยนแปลงการขับถ่าย และตรวจพบสาเหตุ) แต่<b>ประวัติครอบครัว</b>เข้าได้กับ <b>Lynch syndrome</b> (Amsterdam: ≥ 3 ญาติ, หนึ่งคนอายุ &lt; 50) → ต้อง<b>เริ่มเฝ้าระวังทันที</b>: <b>colonoscopy (± EGD) ทุก 1–2 ปี</b> เริ่มอายุ 20–25 ปี หรือ 2–5 ปีก่อนอายุญาติที่เป็นเร็วที่สุด (ญาติเป็นตอน 30 → ควรเริ่มแล้ว) + ส่งปรึกษาพันธุกรรม และรักษา fissure ควบคู่ · ไฟล์ P'Ing กากบาท 2 ลายมือ <b>\"เริ่ม screening เมื่อ 30-10 YO = 20 YO\"</b> และ \"จะคิดถึง common anorectal diseases ได้เมื่อ ① no bowel habit change ② PR เจอ presentation ที่อธิบายอาการ\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าญาติสายตรงหนึ่งคนเป็นมะเร็งลำไส้ใหญ่เมื่ออายุ 60 ปีขึ้นไป — เริ่มส่องที่ 40 ปีแล้วใช้ระยะห่างแบบประชากรทั่วไป",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ตรวจเลือดแฝงในอุจจาระทุก 3 ปี\" เป็นการคัดกรองที่ถูก เพราะความไวต่อครั้งต่ำจึงต้องตรวจทุก 1–2 ปี (ระยะ 3 ปีเป็นของ stool DNA)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้มีความเสี่ยงปกติอายุ 45–75 ปีที่เลือกไม่ส่องกล้องทั้งลำไส้ — sigmoidoscopy ทุก 5 ปีร่วมกับตรวจเลือดแฝงในอุจจาระ",
-   "E": "P'Ing: คิดถึงโรคทวารหนักธรรมดาได้เมื่อไม่มีการเปลี่ยนแปลงการขับถ่ายและตรวจพบสาเหตุที่อธิบายอาการ — จะถูกถ้าชายหนุ่มอาการเดียวกันไม่มีประวัติครอบครัว ไม่ซีด ไม่มีน้ำหนักลด"
+   "A": "เริ่มที่ 40 ปีทุก 10 ปีเป็นแนวทางของคนเสี่ยงไม่สูง ไม่ใช่ครอบครัว Lynch · จะถูกถ้าญาติสายตรง 1 คนเป็น advanced adenoma ตอนอายุ 65",
+   "C": "FOBT ไม่ไวพอสำหรับกลุ่มเสี่ยงสูงทางพันธุกรรม · จะถูกถ้าคนเสี่ยงปกติอายุ 50 ปีในโครงการคัดกรองของไทย (FIT ทุก 1–2 ปี)",
+   "D": "FOBT + sigmoidoscopy เป็นทางเลือกในคนเสี่ยงปกติ ไม่เห็นลำไส้ใหญ่ขวาซึ่งมะเร็ง Lynch พบบ่อย · จะถูกถ้าคนเสี่ยงปกติอายุ 50 ปีเลือกวิธีที่ไม่ใช่ colonoscopy",
+   "E": "รักษา fissure อย่างเดียวพลาดการเฝ้าระวังมะเร็งในครอบครัวเสี่ยงสูง · จะถูกถ้าชาย 25 ปีไม่มีประวัติครอบครัว เลือดออกจาก fissure ชัด ไม่มีอาการเตือน"
   },
-  "trap": "fissure อธิบายเลือดออกได้ครบจนอยากรักษาแค่แผล — แต่ประวัติครอบครัวต้องได้การเฝ้าระวังแยกต่างหาก ไม่ใช่การตรวจหาสาเหตุเลือดออก",
+  "trap": "รักษาแค่ fissure เพราะอธิบายอาการได้ — ประวัติครอบครัวต้องเริ่มเฝ้าระวังมะเร็งทันที",
   "summary": [
-   "<b>นอกสไลด์:</b> เกณฑ์ Amsterdam II (3-2-1): ญาติ 3 คนเป็นมะเร็งกลุ่ม Lynch (ลำไส้ใหญ่ เยื่อบุมดลูก ลำไส้เล็ก ทางเดินปัสสาวะส่วนบน) หนึ่งคนเป็นญาติสายตรงของอีกสอง ต่อเนื่อง 2 รุ่น อย่างน้อย 1 คนอายุ &lt; 50 ปี และไม่ใช่ FAP · Lynch: ส่องลำไส้ใหญ่ทุก 1–2 ปีเริ่มอายุ 20–25 ปี (หรือก่อนอายุญาติที่เป็นเร็วที่สุด 2–5 ปี) + ตรวจยีน"
+   "Amsterdam II: ≥ 3 ญาติ · ≥ 2 รุ่น · ≥ 1 อายุ &lt; 50 · ตัด FAP",
+   "Lynch: colonoscopy ทุก 1–2 ปี เริ่ม 20–25 ปี (หรือ 2–5 ปีก่อนอายุญาติที่เป็นเร็วสุด)",
+   "พิจารณา EGD ทุก 2–4 ปี (มะเร็งกระเพาะ/ ลำไส้เล็กส่วนต้น)",
+   "ส่งตรวจพันธุกรรม MMR (MLH1, MSH2, MSH6, PMS2, EPCAM)",
+   "เลือดออกอธิบายด้วยโรคทวารได้เมื่อ: ไม่มีการเปลี่ยนการขับถ่าย + ตรวจพบสาเหตุ",
+   "Acute fissure: ใยอาหาร น้ำ แช่ก้น"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B — ครอบครัวเข้าเกณฑ์ Lynch ต้องเฝ้าระวังด้วยการส่องกล้องถี่ · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับกากบาท 2 และลายมือในไฟล์",
+  "mnemonic": "<b>'ครอบครัว Lynch = ส่องเร็ว ส่องถี่ (1–2 ปี) ไม่ว่ามีโรคทวารหรือไม่'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric v.2025; US Multi-Society Task Force on Lynch syndrome (Gastroenterology 2014;147:502)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง 28 ปี แม่เป็นมะเร็งเยื่อบุโพรงมดลูกอายุ 45 ปี พี่ชายเป็นมะเร็งลำไส้ใหญ่อายุ 40 ปี → สงสัย Lynch: ส่งปรึกษาพันธุกรรม/ตรวจยีน ระหว่างนั้นส่องลำไส้ทุก 1–2 ปี และพิจารณาตรวจเยื่อบุโพรงมดลูก",
-   "<b>นอกสไลด์:</b> ชาย 25 ปี พ่อมีติ่งเนื้อในลำไส้ใหญ่หลายร้อยติ่ง → FAP: ส่องกล้องทุกปีตั้งแต่อายุ 10–15 ปี ไม่ใช่ทุก 1–2 ปีแบบ Lynch"
+   "ชาย 22 ปี พ่อเป็นมะเร็งลำไส้ตอน 35 ปู่ตอน 48 ลุงตอน 55 → colonoscopy ทุก 1–2 ปี",
+   "หญิงมี MSH2 mutation → colonoscopy ทุก 1–2 ปี + เฝ้าระวังมะเร็งเยื่อบุโพรงมดลูก",
+   "ชาย 30 ปีเลือดสดจาก fissure ไม่มีประวัติครอบครัว → รักษา fissure"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 24–25 — ตัวพิมพ์: <b>Colo Xx. A 25 year old male presented with perianal bleeding for 1 week. He has no abdominal pain or weight loss. His family has colon cancer for 3 persons at age 30, 45, 50 years old. Physical examination shows acute anal fissure. What is the appropriate management? — 1. Gastroscopy and colonoscopy at age 40 and then every 10 years 2. Gastroscopy and colonoscopy as soon as possible and then every 1-2 year 3. Fecal occult blood every 3 year 4. Fecal occult blood and sigmoidoscopy every ... 5.</b><br>ลายมือ: วง \"30\" + \"เริ่ม screening เมื่อ 30-10 YO = 20 YO\" · \"จะคิดถึง common anorectal diseases ได้เมื่อ ① no bowel habit change ② PR เจอ presentation ที่อธิบายอาการ\" · กากบาท 2<br>ไฮไลต์: กากบาท 2 (ม่วง) · \"as soon as possible\" (เขียว) · \"What is the appropriate management?\" (ม่วง) · ขีดเส้นใต้ \"25 year old male\" \"perianal bleeding for 1 week\" \"His family has colon cancer for 3 persons at age 30, 45, 50\" \"acute anal fissure\"<br>ที่ปรับในเว็บ: ช้อย 5 ว่าง → เติม treat the fissure only",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 24",
+  "kimg": [
+   "fsp_p24",
+   "kp71a_x4a",
+   "kp71a_x4b"
   ]
  },
  "MDCU71|RoA|ไม่มีเลข 5": {
-  "interp": "ให้ค่า CSF 5 ชุด → ชุดไหนเข้ากับเยื่อหุ้มสมองอักเสบจากแบคทีเรียมากที่สุด (เม็ดเลือดขาวสูง + น้ำตาลต่ำ)",
-  "why": "<b>P'Ing กากบาท B + ตาราง: bacterial = turbid, pressure ↑↑, protein ↑↑, sugar ↓↓↓, WBC > 100 PMN</b><br><b>นอกสไลด์:</b> ชุด B มีเม็ดเลือดขาวสูงเกินกว่าที่เลือดปนจะอธิบายได้ (ราว 1 ตัวต่อเม็ดเลือดแดง 500–1,000 ตัว → ควรมีแค่ราว 10–20) ร่วมน้ำตาลต่ำ — แบคทีเรียและเม็ดเลือดขาวใช้น้ำตาล",
+  "interp": "ถามผล CSF ข้อใดเข้าได้กับ <b>bacterial meningitis</b> มากที่สุด",
+  "why": "Bacterial meningitis: CSF ขุ่น ความดันสูงมาก <b>WBC สูง (&gt; 100–1,000, PMN เด่น)</b> โปรตีนสูง <b>น้ำตาลต่ำ</b> (&lt; 40 mg/dL หรือ CSF/ serum &lt; 0.4) · ข้อ B มี WBC 500 + น้ำตาล 40 (ต่ำ) เข้าได้มากที่สุด · RBC 10,000 อาจมาจากการเจาะถูกเส้นเลือด (traumatic tap) ซึ่งเพิ่ม WBC ได้ราว 1 ตัวต่อ RBC 500–1,000 ตัว จึงยังเหลือ WBC สูงจริง · ไฟล์ P'Ing กากบาท B และแปะตาราง <b>\"CSF profile in infectious meningitis\"</b> โดยกรอบแถว Bacterial: Turbid/ pus · pressure ↑↑↑ · protein ↑↑ · sugar ↓↓↓ · WBC &gt; 100 (PMN)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยไข้ คอแข็ง ได้ยาปฏิชีวนะมาก่อนหรือเจาะในระยะแรกของโรคที่น้ำตาลยังไม่ลด ร่วมกับเข็มโดนเส้นเลือด แต่ย้อมเห็นเชื้อ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเจาะในชั่วโมงแรก ๆ ของ meningococcal meningitis ก่อนเม็ดเลือดขาวขึ้น ร่วมกับเข็มโดนเส้นเลือด แล้วย้อมหรือ PCR พบเชื้อ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเม็ดเลือดขาวต่ำมากจากเคมีบำบัด ไข้ ซึม คอแข็ง — ร่างกายสร้างเซลล์ไม่ได้ CSF จึงแทบไม่มีเซลล์ แต่น้ำตาลต่ำมากและย้อมเห็นเชื้อจำนวนมาก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยภูมิคุ้มกันปกติมีติดเชื้อ pneumococcus ในกระแสเลือดรุนแรงเฉียบพลัน (เช่นไม่มีม้าม) แล้วเจาะหลังเร็วมาก เชื้อปริมาณมากกินน้ำตาลหมดก่อนเม็ดเลือดขาวเข้ามา (apurulent meningitis) ย้อมเห็นเชื้อเต็ม"
+   "A": "น้ำตาล 60 ปกติ ไม่เข้ากับ bacterial meningitis และ RBC 30,000 ชวนคิด SAH/ traumatic tap ที่ WBC สูงตาม · จะถูกถ้าคำถามถามผล CSF ของ SAH ที่มีเยื่อหุ้มสมองระคายเคืองร่วม",
+   "C": "RBC สูง WBC ต่ำ น้ำตาลปกติ = SAH หรือ traumatic tap · จะถูกถ้าผู้ป่วยปวดหัวทันที CT ปกติ เจาะหลังได้ RBC สูงไม่ลดลงในหลอดหลัง ๆ + xanthochromia",
+   "D": "น้ำตาล 0 กับ WBC 0 ไม่สอดคล้องทางสรีรวิทยา (น่าเป็นความผิดพลาด/ ตัวอย่างเก่า) · จะถูกถ้าคำถามถามผลที่น่าจะเป็นความคลาดเคลื่อนทางห้องปฏิบัติการ",
+   "E": "ไม่มีเซลล์และน้ำตาล 0 ไม่ใช่ลักษณะของโรค · จะถูกถ้าคำถามถามตัวอย่างที่ต้องเจาะตรวจซ้ำเพราะผลเชื่อถือไม่ได้"
   },
-  "trap": "ตัวเลขเม็ดเลือดแดงสูงเบี่ยงความสนใจ — ดูเม็ดเลือดขาวเทียบกับเลือดที่ปน และดูน้ำตาล (เทียบกับในเลือดเสมอ) เป็นตัวแยก bacterial",
+  "trap": "ดูแค่ WBC สูง — ต้องดูน้ำตาลต่ำร่วมด้วยจึงเป็น bacterial",
   "summary": [
-   "<b>นอกสไลด์:</b> แปลผล CSF: bacterial → เม็ดเลือดขาวหลายร้อยถึงหลายพัน ส่วนใหญ่ neutrophil น้ำตาล ≤ 40–45 mg/dL โปรตีนสูง · viral → lymphocyte น้ำตาลปกติ โปรตีนสูงเล็กน้อย · เลือดปนจากเข็ม → หักเม็ดเลือดขาวราว 1 ตัวต่อเม็ดเลือดแดง 500–1,000 ตัว"
+   "Bacterial: ขุ่น · ความดัน ↑↑ · WBC &gt; 100–1,000 PMN · โปรตีน ↑↑ · น้ำตาล ↓↓",
+   "Viral: ใส · WBC &lt; 500 lymphocyte · น้ำตาลปกติ",
+   "TB: ใยแมงมุม · lymphocyte · โปรตีน ↑↑↑ · น้ำตาล ↓↓",
+   "Cryptococcus: ความดัน ↑↑↑ · CrAg/ India ink",
+   "Eosinophilic (Angiostrongylus): eosinophil ≥ 10%",
+   "Traumatic tap: RBC ลดลงในหลอดหลัง · ไม่มี xanthochromia"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับกากบาท B และตารางในไฟล์",
+  "mnemonic": "<b>'Bacterial = WBC สูง (PMN) + น้ำตาลต่ำ (แบคทีเรียกินน้ำตาล)'</b>",
+  "guide": "IDSA Practice Guidelines for the Management of Bacterial Meningitis (Clin Infect Dis 2004;39:1267); ESCMID Guideline: Diagnosis and Treatment of Acute Bacterial Meningitis (Clin Microbiol Infect 2016;22:S37)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยได้ยาปฏิชีวนะมาก่อนเจาะหลัง → เพาะเชื้อมักไม่ขึ้นและเซลล์อาจเป็น lymphocyte มากขึ้น แต่น้ำตาลต่ำ/โปรตีนสูงยังช่วยบอก ใช้ PCR หรือ antigen ช่วย",
-   "<b>นอกสไลด์:</b> CSF เซลล์ 200 ส่วนใหญ่ lymphocyte น้ำตาลต่ำ โปรตีนสูงมาก ป่วยมา 3 สัปดาห์ มีเส้นประสาทสมองอ่อนแรง → TB meningitis"
+   "CSF lymphocyte 200 โปรตีน 300 น้ำตาล 20 → TB meningitis",
+   "CSF ความดันสูงมาก CrAg บวก ผู้ป่วย HIV → cryptococcal meningitis",
+   "CSF eosinophil 30% หลังกินหอยดิบ → eosinophilic meningitis (Angiostrongylus)"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 25 — ตัวพิมพ์: <b>Neuro xx. Which CSF profile is most likely bacterial meningitis? — A. RBC 30,000 WBC 500 Glucose 60 B. RBC 10,000 WBC 500 Glucose 40 C. RBC 10,000 WBC 10 Glucose 60 D. RBC 10 WBC 0 Glucose 0 E. RBC 0 WBC 0 Glucose 0</b><br>ลายมือ: กากบาท B<br>ไฮไลต์: กากบาท B (ชมพู) · \"Which CSF profile\" (ชมพู) · ขีดเส้นใต้ \"bacterial meningitis\"<br>รูปที่แปะ: ตาราง CSF profile in infectious meningitis (Appearance/ Pressure/ Protein/ Sugar/ WBC) — Bacterial: Turbid/pus, ↑↑↑, ↑↑, ↓↓↓, &gt;100 (PMN) (กรอบส้ม) · Viral/aseptic: Clear, Normal/↑, Normal/↑, Normal, &lt;500 (mono) · TB: Web, ↑ or ↑↑, ↑↑↑, ↓↓↓, 100-500 (mono&gt;PMN) · Crypto: Web, ↑↑↑, ↑, ↓↓, 40-400 (mono&gt;PMN) · Eosinophilic: Coconut, Vary, ↑↑, Normal or ↓, Vary (Eo ≥10% or 10 cells)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 25",
+  "kimg": [
+   "fsp_p25",
+   "kp71a_x5"
   ]
  },
  "MDCU71|RoA|ไม่มีเลข 6": {
-  "interp": "ทารกชาย imperforate anus มีขี้เทาออกทางท่อปัสสาวะ → มีรูต่อลำไส้ตรงกับทางเดินปัสสาวะ (ARM ระดับสูง/ปานกลาง) ถามการจัดการขั้นต่อไป",
-  "why": "<b>P'Ing กากบาท C · high type ARM · ถ้าพบขี้เทาในปัสสาวะแสดงว่าความผิดรูปอยู่ค่อนข้างสูงและมี fistula กับทางเดินปัสสาวะ จะต้องทำ colostomy ก่อนแล้วค่อยมาทำ anorectoplasty ภายหลัง (2–3 เดือน)</b><br><b>นอกสไลด์:</b> ขี้เทาในปัสสาวะยืนยันรูต่อ rectourinary แล้ว ไม่ต้องรอภาพ 24 ชม.",
+  "interp": "ทารกชายแรกเกิด<b>ไม่มีรูทวาร</b> มี<b>ขี้เทาออกทางท่อปัสสาวะ</b> → ถามการจัดการต่อ",
+  "why": "ขี้เทาออกทางท่อปัสสาวะในเด็กชาย = <b>anorectal malformation ชนิดมี rectourethral (หรือ rectovesical) fistula</b> ซึ่งเป็น<b>ชนิดสูง/ ปานกลาง</b> (ลำไส้ปลายอยู่สูงเหนือกล้ามเนื้อหูรูด) → มาตรฐานคือ<b>ทำ colostomy ก่อน (divided sigmoid colostomy)</b> แล้วทำ <b>PSARP</b> ภายหลัง 2–3 เดือน และปิด colostomy ภายหลัง · ไม่ต้องรอฟิล์ม cross-table เพราะอาการบอกชนิดแล้ว · ตรวจ VACTERL ร่วม · ไฟล์ P'Ing กากบาท C ลายมือ <b>\"High type ARM\"</b> และแปะตำรา <b>\"ถ้าพบขี้เทาในปัสสาวะแสดงว่าความผิดรูปนั้นอยู่ค่อนข้างสูงและมี fistula กับทางเดินปัสสาวะ จะต้องทำ colostomy ก่อนแล้วค่อยมาทำ anorectoplasty ภายหลัง (2-3 เดือน)\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ CT ท้องเป็นขั้นถัดไปของทารก ARM เพราะข้อมูลที่ต้องใช้ (ระดับลำไส้ตรง รูต่อ ความผิดปกติร่วม) ได้จากภาพรังสีธรรมดา US และ colostogram โดยไม่ต้องรับรังสีมาก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าทารก ARM ไม่มีรูเปิดที่ฝีเย็บและไม่มีขี้เทาในปัสสาวะเมื่อครบ 24 ชม. — ถ่ายภาพท่าคว่ำดูระยะจากลำไส้ตรงถึงผิว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าภาพท่าคว่ำที่ 24 ชม. ลำไส้ตรงห่างผิวไม่เกิน 1 cm และทารกไม่มีความผิดปกติร่วมรุนแรง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกมีรูเปิดเล็กที่ผิวฝีเย็บ (perineal fistula) ใกล้ตำแหน่งหูรูด — ผ่าตัดเปิดทวารที่ฝีเย็บได้ในช่วงแรกเกิดโดยไม่ต้อง colostomy"
+   "A": "CT ไม่ใช่การตรวจหลักของ ARM · จะถูกถ้าต้องการประเมินความผิดปกติอื่นร่วมที่ซับซ้อน (ปกติใช้ US ไต/ กระดูกสันหลัง echo)",
+   "B": "Prone cross-table lateral ใช้เมื่อตรวจร่างกายหลัง 24 ชม.ยังไม่เห็น fistula เพื่อวัดระยะลำไส้ถึงผิว · จะถูกถ้าทารกชายไม่มีรูทวาร ไม่มีขี้เทาออกทางใด ผ่านไป 24 ชม.",
+   "D": "Primary PSARP แรกเกิดทำได้ในบางชนิด (ระยะลำไส้ถึงผิว &lt; 1 cm) แต่ rectourethral fistula ตามมาตรฐานทำ colostomy ก่อน · จะถูกถ้าฟิล์ม cross-table พบลำไส้ห่างผิว &lt; 1 cm ทารกแข็งแรง",
+   "E": "Anoplasty ใช้กับชนิดต่ำ (perineal fistula) · จะถูกถ้าทารกมีขี้เทาออกที่ฝีเย็บ/ ถุงอัณฑะ (perineal fistula, bucket handle)"
   },
-  "trap": "อย่าเลือกภาพ 24 ชม.ตามความเคยชิน — ขี้เทาในปัสสาวะบอกระดับสูงแล้ว ภาพไม่เปลี่ยนการตัดสินใจ",
+  "trap": "ทำ anoplasty เลยเหมือนชนิดต่ำ — ขี้เทาออกทางท่อปัสสาวะ = ชนิดสูง ต้อง colostomy ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> ก่อนผ่าตัดทุกราย ตรวจหาความผิดปกติร่วม (VACTERL): echo, US ไตและกระเพาะปัสสาวะ (ผิดปกติทางเดินปัสสาวะราวครึ่ง), US ไขสันหลัง (tethered cord), ภาพกระดูก sacrum · ลำดับผ่าตัดระดับสูง: colostomy → PSARP → ปิด colostomy"
+   "ARM ต่ำ (perineal fistula): anoplasty/ minimal PSARP แรกเกิด ไม่ต้อง colostomy",
+   "ขี้เทาในปัสสาวะ = rectourinary fistula (สูง) → colostomy → PSARP 2–3 เดือน",
+   "ไม่เห็น fistula หลัง 24 ชม. → prone cross-table lateral (&lt; 1 cm → primary, &gt; 1 cm → colostomy)",
+   "หญิง: perineal/ vestibular fistula พบบ่อย · cloaca = ช่องเดียว",
+   "ตรวจ VACTERL: echo · US ไต · กระดูกสันหลัง · แขนขา",
+   "รอ 24 ชม. ก่อนตัดสิน (ให้ขี้เทาเดินลงมา)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C — ขี้เทาในปัสสาวะ = rectourinary fistula ทำ colostomy ก่อน · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับกากบาท C และลายมือ/ ตำราในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'ขี้เทาออกทางฉี่ = สูง → ทวารเทียมก่อน (colostomy) ค่อยสร้างทวาร'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Anorectal malformations; Levitt MA, Peña A. Anorectal malformations (Orphanet J Rare Dis 2007;2:33)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกหญิง ARM มีรูเปิดเดียวที่ฝีเย็บ (ท่อปัสสาวะ ช่องคลอด ลำไส้ตรงรวมกัน) → cloaca: ตรวจ US หาน้ำคั่งในช่องคลอดและไต แล้วทำ colostomy ± ระบายช่องคลอด"
+   "ทารกชายมีขี้เทาออกที่ฝีเย็บ → perineal fistula → anoplasty",
+   "ทารกชายไม่มีรูทวาร ไม่เห็นขี้เทาหลัง 24 ชม. → prone cross-table lateral",
+   "ทารกหญิงมีรูเปิดช่องเดียว → cloaca"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 25 — ตัวพิมพ์: <b>Ped Xx. Newborn with meconium from urethra ถาม management ต่อไป — A. CT B. prone cross-table lateral view x-ray C. Colostomy</b><br>ลายมือ: \"High type ARM\" เหนือ meconium · กากบาท C<br>ไฮไลต์: กากบาท C (เขียว) · \"ถาม management ต่อไป\" (เขียว) · ขีดเส้นใต้ \"meconium from urethra\"<br>รูปที่แปะ: ตำรา \"ถ้าพบขี้เทาในปัสสาวะแสดงว่าความผิดรูปนั้นอยู่ค่อนข้างสูงและมี fistula กับทางเดินปัสสาวะ จะต้องทำ colostomy ก่อนแล้วค่อยมาทำ anorectoplasty ภายหลัง (2-3 เดือน)\"<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 25",
+  "kimg": [
+   "fsp_p25",
+   "kp71a_x6"
   ]
  },
  "MDCU71|RoB|1": {
-  "interp": "ข้อความใดเกี่ยวกับ renal cell carcinoma ถูกต้อง",
-  "why": "<b>P'Ing กากบาท B</b><br><b>นอกสไลด์:</b> ผู้ป่วยไตวายระยะท้ายที่ฟอกไตนานเกิดถุงน้ำหลายถุงในไตเดิม (acquired cystic kidney disease) ซึ่งเสี่ยงเกิด RCC สูงกว่าคนทั่วไปหลายเท่า",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>renal cell carcinoma</b>",
+  "why": "ผู้ป่วยไตวายระยะสุดท้าย (โดยเฉพาะฟอกไตนาน) เกิด <b>acquired cystic kidney disease</b> ซึ่งเพิ่มความเสี่ยง <b>RCC</b> หลายเท่า จึงถูก · ข้ออื่นผิด: RCC ส่วนใหญ่ (&gt; 50%) <b>พบโดยบังเอิญจากภาพ</b> classic triad (hematuria, flank mass, flank pain) พบ &lt; 10% · RCC <b>ดื้อต่อเคมีบำบัดและรังสีแบบเดิม</b> → ระยะกระจายใช้ immunotherapy (checkpoint inhibitor) + TKI · RCC เกิดจาก<b>เซลล์ท่อไตส่วนต้น (proximal tubule)</b> ไม่ใช่ transitional epithelium · ไฟล์ P'Ing กากบาท B ลายมือ A <b>\"hematuria (60%) / abd mass / back pain = classic triad แต่ส่วนใหญ่เจอจาก incidental finding\"</b> C <b>\"RCC ไม่ตอบสนองต่อ CMT, RT\"</b>",
   "wrong": {
-   "A": "P'Ing: hematuria ราว 60% แต่ส่วนใหญ่เจอจาก incidental finding — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะปัสสาวะเป็นเลือดเกิดเมื่อก้อนลุกเข้าระบบรวบรวมปัสสาวะ ผู้ป่วยส่วนใหญ่จึงเจอก้อนจากภาพที่ทำด้วยเหตุอื่นก่อนมีอาการ",
-   "C": "P'Ing: RCC ไม่ตอบสนองต่อ CMT — <b>นอกสไลด์:</b> จะถูกถ้าเป็น renal medullary carcinoma ในคนหนุ่มที่มี sickle cell trait (หรือ collecting duct carcinoma) ซึ่งระยะแพร่กระจายรักษาด้วยเคมีบำบัดกลุ่ม platinum",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะ RCC เกิดจากเซลล์ท่อไต — มะเร็งจาก transitional epithelium ในไตคือ urothelial carcinoma ของกรวยไต",
-   "E": "P'Ing: RCC ไม่ตอบสนองต่อ RT — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะเซลล์ RCC ดื้อต่อรังสีขนาดมาตรฐาน"
+   "A": "ส่วนใหญ่ไม่มีอาการ พบโดยบังเอิญ (ลายมือ \"แต่ส่วนใหญ่เจอจาก incidental finding\") · จะถูกถ้าคำถามถามอาการที่พบบ่อยที่สุดของ urothelial carcinoma (painless hematuria)",
+   "C": "RCC ดื้อเคมีบำบัด ระยะกระจายใช้ immunotherapy + TKI (ลายมือ \"RCC ไม่ตอบสนองต่อ CMT, RT\") · จะถูกถ้าคำถามถามการรักษามะเร็งอัณฑะระยะกระจาย (cisplatin-based chemotherapy)",
+   "D": "RCC เกิดจาก proximal tubule (clear cell) ส่วน transitional epithelium เป็นต้นกำเนิดของ urothelial carcinoma · จะถูกถ้าคำถามถามต้นกำเนิดของมะเร็งกรวยไต (UTUC)",
+   "E": "RCC ดื้อรังสีแบบเดิม (ใช้ SBRT เฉพาะรอยโรคกระจายบางตำแหน่ง) · จะถูกถ้าคำถามถาม seminoma ซึ่งไวต่อรังสีมาก"
   },
-  "trap": "classic triad (ปัสสาวะเป็นเลือด ก้อนที่ท้อง ปวดสีข้าง) เป็นของระยะท้ายและพบน้อย — ไม่ใช่อาการนำของคนส่วนใหญ่",
+  "trap": "จำ classic triad แล้วคิดว่าผู้ป่วยส่วนใหญ่มาด้วยเลือดในปัสสาวะ — ส่วนใหญ่พบโดยบังเอิญ",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยง RCC: สูบบุหรี่ อ้วน ความดันสูง ไตวายเรื้อรัง/ฟอกไต VHL · อาการ paraneoplastic: เลือดข้น (erythropoietin) แคลเซียมสูง ตับทำงานผิดปกติโดยไม่มีมะเร็งลามตับ (Stauffer) · ระยะแพร่กระจายใช้ immunotherapy ร่วม TKI"
+   "RCC: clear cell (~75%) จาก proximal tubule",
+   "ปัจจัยเสี่ยง: สูบบุหรี่ อ้วน ความดันสูง ESRD (acquired cystic disease) von Hippel-Lindau",
+   "ส่วนใหญ่ incidental · classic triad &lt; 10%",
+   "Paraneoplastic: polycythemia (EPO) · hypercalcemia (PTHrP) · Stauffer syndrome",
+   "ลามเข้า renal vein/ IVC → varicocele ซ้ายที่ไม่ยุบเวลานอน",
+   "รักษา: partial/ radical nephrectomy · ระยะกระจาย immunotherapy + TKI"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับกากบาท B และลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'RCC: ESRD เสี่ยง · เจอบังเอิญ · ดื้อเคมี-รังสี'</b>",
+  "guide": "EAU Guidelines on Renal Cell Carcinoma 2024; NCCN Clinical Practice Guidelines in Oncology: Kidney Cancer v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายฟอกไตมา 10 ปี US ไตเดิมเล็กมีถุงน้ำหลายถุงและก้อนแข็ง 3 cm → RCC จาก acquired cystic disease: ผ่าตัดไตข้างนั้น",
-   "<b>นอกสไลด์:</b> ชาย 55 ปี varicocele ซ้ายเพิ่งเป็น ไม่ยุบเมื่อนอน → หาก้อนไตซ้ายที่อุด renal vein ด้วย US/CT"
+   "ผู้ป่วยฟอกไต 10 ปี US พบก้อนเนื้อในไตที่มีถุงน้ำหลายถุง → RCC จาก acquired cystic disease",
+   "RCC ระยะกระจาย → immune checkpoint inhibitor + TKI",
+   "ชายมี varicocele ซ้ายเกิดใหม่ไม่ยุบเวลานอน → หาก้อนที่ไตซ้าย"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 27 — ตัวพิมพ์: <b>Uro 1. ข้อใดถูกเกี่ยวกับ RCC — A. most common symptom hematuria B. พบมากใน end stage renal diseas C. Chemotherapy is the best tx for metastatic dz</b> (หัวหน้า \"AC Subspecialty Sx Rotate 2/2561\")<br>ลายมือ: A \"ถ้ามีอาการก็มักมาด้วย classic triad: hematuria (60%) / abd mass / back pain แต่ส่วนใหญ่เจอจาก incidental finding\" · กากบาท B · C \"RCC ไม่ตอบสนองต่อ CMT, RT\"<br>ไฮไลต์: \"ข้อใดถูก\" · \"A. most common symptom hematuria\" (ฟ้า) · ขีดเส้นใต้ \"RCC\"<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 27",
+  "kimg": [
+   "fsp_p27",
+   "kp71b_1"
   ]
  },
  "MDCU71|RoB|2": {
-  "interp": "ข้อ NOT: ข้อใดไม่เพิ่มความเสี่ยงมะเร็ง SCC ขององคชาต → ช้อยอื่นเป็นปัจจัยเสี่ยงจริง",
-  "why": "<b>P'Ing กากบาท 2 · มะเร็งองคชาต: phimosis, poor genital hygiene, smegma, HPV</b><br><b>นอกสไลด์:</b> paraphimosis เป็นภาวะฉุกเฉินเฉียบพลัน (หนังหุ้มถูกรูดค้างหลัง glans) แก้ได้ทันที ไม่ได้ทำให้อักเสบเรื้อรังจึงไม่ใช่ปัจจัยเสี่ยง",
+  "interp": "ถามข้อที่<b>ไม่เพิ่มความเสี่ยง</b> squamous cell carcinoma ขององคชาต",
+  "why": "ปัจจัยเสี่ยงมะเร็งองคชาตคือ<b>การระคายเคือง/ อักเสบเรื้อรังของหนังหุ้มปลาย</b>: <b>phimosis</b> (ปัจจัยสำคัญที่สุด ทำให้ smegma คั่ง), <b>chronic balanitis/ balanoposthitis</b>, <b>สุขอนามัยไม่ดี</b>, <b>HPV</b> (16, 18), lichen sclerosus, สูบบุหรี่ · การขลิบตั้งแต่เด็กลดความเสี่ยงชัดเจน · <b>Paraphimosis</b> เป็นภาวะฉุกเฉินเฉียบพลัน (หนังหุ้มปลายรูดค้างรัดหลังหัวองคชาต) ไม่ใช่ปัจจัยเสี่ยงมะเร็ง · ไฟล์ P'Ing กากบาท 2 และแปะตำรา <b>มะเร็งองคชาต (Penile cancer)</b> ที่ระบุสัมพันธ์กับ phimosis, การติดเชื้อ Human papilloma virus, poor genital hygiene และ smegma",
   "wrong": {
-   "A": "P'Ing: phimosis — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะหนังหุ้มตีบทำให้ smegma คั่งและอักเสบเรื้อรังใต้หนังหุ้ม เป็นปัจจัยเสี่ยงที่แรงที่สุด",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะการอักเสบเรื้อรังของ glans และหนังหุ้ม (รวม lichen sclerosus) ทำให้เยื่อบุเปลี่ยนแปลงจนเป็นมะเร็งได้",
-   "D": "P'Ing: poor genital hygiene, smegma — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ smegma ที่คั่งเป็นตัวกระตุ้นการระคายเคืองเรื้อรัง",
-   "E": "P'Ing: HPV — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ HPV ชนิดเสี่ยงสูง (16, 18) พบในมะเร็งองคชาตราวครึ่งหนึ่ง"
+   "A": "เพิ่มความเสี่ยง — phimosis เป็นปัจจัยเสี่ยงสำคัญที่สุด (smegma คั่ง อักเสบเรื้อรัง) · จะถูกถ้าคำถามถามภาวะที่การขลิบตั้งแต่เด็กช่วยป้องกันได้มากที่สุด",
+   "C": "เพิ่มความเสี่ยง — การอักเสบเรื้อรังของหัวองคชาต · จะถูกถ้าคำถามถามภาวะเรื้อรังที่ควร biopsy เมื่อมีแผลไม่หาย",
+   "D": "เพิ่มความเสี่ยง — สุขอนามัยไม่ดีทำให้ smegma คั่ง · จะถูกถ้าคำถามถามปัจจัยที่ปรับเปลี่ยนได้",
+   "E": "เพิ่มความเสี่ยง — HPV 16/18 พบในราวครึ่งหนึ่งของมะเร็งองคชาต · จะถูกถ้าคำถามถามไวรัสที่สัมพันธ์กับมะเร็งองคชาตและปากมดลูก"
   },
-  "trap": "phimosis กับ paraphimosis ชื่อคล้ายกัน — phimosis คือรูดไม่ลง (เรื้อรัง เสี่ยงมะเร็ง) · paraphimosis คือรูดแล้วกลับไม่ได้ (ฉุกเฉิน)",
+  "trap": "คิดว่าหนังหุ้มปลายผิดปกติทุกชนิดเพิ่มความเสี่ยง — paraphimosis เป็นภาวะเฉียบพลัน ไม่ใช่การอักเสบเรื้อรัง",
   "summary": [
-   "<b>นอกสไลด์:</b> การป้องกัน: ขลิบตั้งแต่วัยเด็กลดความเสี่ยงชัด (ขลิบตอนผู้ใหญ่ไม่ลด) · วัคซีน HPV · เลิกบุหรี่ · รอยโรคก่อนมะเร็ง: penile intraepithelial neoplasia, lichen sclerosus"
+   "ปัจจัยเสี่ยง: phimosis · balanitis เรื้อรัง · สุขอนามัยไม่ดี · HPV · lichen sclerosus · บุหรี่",
+   "ขลิบในวัยเด็กลดความเสี่ยง",
+   "ชนิด: SCC (~95%)",
+   "กระจายไปต่อมน้ำเหลืองขาหนีบก่อน",
+   "วินิจฉัย: biopsy",
+   "Paraphimosis = ภาวะฉุกเฉิน → manual reduction/ dorsal slit"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับกากบาท 2 และตำราที่แปะในไฟล์",
+  "mnemonic": "<b>'มะเร็งองคชาต = หนังหุ้มปิด (phimosis) ไม่ใช่หนังหุ้มค้าง (paraphimosis)'</b>",
+  "guide": "EAU-ASCO Collaborative Guidelines on Penile Cancer 2023 (Eur Urol 2024;85:257)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 60 ปีหนังหุ้มตีบ มีน้ำเหลืองปนเลือดไหลจากใต้หนังหุ้ม คลำได้ก้อนแข็งที่ glans → ผ่าหนังหุ้ม (dorsal slit/ขลิบ) เพื่อดูแผลและตัดชิ้นเนื้อ",
-   "<b>นอกสไลด์:</b> ชายมีปื้นแดงกำมะหยี่ขอบชัดที่ glans ไม่หายหลายเดือน → ตัดชิ้นเนื้อหา SCC in situ (erythroplasia of Queyrat)"
+   "ชายไม่ขลิบ phimosis แผลเรื้อรังที่หัวองคชาต → biopsy",
+   "หนังหุ้มปลายรูดค้าง บวมรัด → paraphimosis → manual reduction",
+   "ชาย lichen sclerosus ที่หัวองคชาต → ติดตามเพราะเสี่ยงมะเร็ง"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 27 — ตัวพิมพ์: <b>Uro 2.ข้อใดไม่เพิ่ม risk ในการเกิด SCC ที่ penile — 1.phimosis 2.paraphimosis 3.chronic balanhitis 4.poor hygiene 5.HPV</b><br>ลายมือ: กากบาท 2<br>ไฮไลต์: กากบาท 2 (ฟ้า) · \"ข้อใดไม่เพิ่ม risk\" (ฟ้า + ขีดเส้นใต้แดง) · ขีดเส้นใต้ \"การเกิด SCC ที่ penile\"<br>รูปที่แปะ: ตำรา มะเร็งองคชาต (Penile cancer) — เป็นมะเร็งในเพศชายที่พบได้ไม่บ่อย … พบมากในผู้ชายที่ไม่ได้ขลิบหนังหุ้มปลาย/ หนังหุ้มปลายตีบ (phimosis) · การติดเชื้อ Human papilloma virus · การดูแลความสะอาดไม่ดี (poor genital hygiene) และการมี smegma คั่ง (ตัวเล็ก อ่านได้บางส่วน)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 27",
+  "kimg": [
+   "fsp_p27",
+   "kp71b_2"
   ]
  },
  "MDCU71|RoB|16": {
-  "interp": "ปวดศีรษะรุนแรงทันที 30 นาที ความดันสูง ซึม (GCS 7) อ่อนแรงซีกขวาหนัก รูม่านตาซ้ายโตตอบสนองช้า → ก้อนเลือดในสมองซีกซ้ายกดจนเกิด uncal herniation ถามการวินิจฉัย",
-  "why": "<b>P'Ing กากบาท E · provisional Dx: SAH</b><br><b>นอกสไลด์:</b> อ่อนแรงซีกขวาหนัก = รอยโรคซีกซ้าย · รูม่านตาซ้ายโต = uncus ซีกซ้ายเลื่อนกด CN III ข้างเดียวกัน · ความดันสูงทันทีร่วมอาการเฉพาะที่รุนแรงและซึมเร็ว = hypertensive ICH และตำแหน่งที่พบบ่อยที่สุดคือ putamen (basal ganglia)",
+  "interp": "ผู้ป่วย<b>ปวดหัวรุนแรงทันที 30 นาที</b> BP 180/100 <b>GCS E2M4V1</b> แขนขาขวาอ่อนแรง 2/5 <b>รูม่านตาซ้าย 5 mm ตอบสนองช้า</b> ขวา 3 mm → ถามวินิจฉัย",
+  "why": "ความดันสูง + ปวดหัวทันที + ซึมลงเร็ว + <b>อ่อนแรงซีกขวาชัด (2/5)</b> + <b>รูม่านตาซ้ายขยาย</b> (uncal herniation จากก้อนซีกซ้ายกด CN III) = <b>เลือดออกในสมองซีกซ้ายขนาดใหญ่</b> — ตำแหน่งที่พบบ่อยที่สุดของ hypertensive ICH คือ <b>basal ganglia (putamen)</b> · ruptured AComA aneurysm (SAH) มักปวดหัวทันทีและคอแข็ง แต่ไม่ค่อยทำให้อ่อนแรงครึ่งซีกรุนแรงข้างเดียว (ถ้ามักเป็นขาสองข้างอ่อน/ abulia) และ CN III palsy มักเกิดจาก PComA aneurysm · ยืนยันด้วย CT ไม่ฉีดสี · ไฟล์ P'Ing กากบาท E ลายมือ <b>\"provisional Dx : SAH\"</b> ซึ่ง<b>ไม่ตรงกับคำตอบนี้</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าปวดศีรษะทันทีร่วมตามัว ลานสายตาด้านขมับหายสองข้าง ตากลอกไม่ได้หลายทิศ ความดันต่ำหรือโซเดียมต่ำจากขาด cortisol — ก้อนต่อมใต้สมองเลือดออก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยโคม่าทันที รูม่านตาเล็กเท่ารูเข็มสองข้าง อ่อนแรงทั้งสี่รยางค์ ไข้สูง หายใจผิดจังหวะ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าอ่อนแรงครึ่งซีกเกิดทันทีโดยไม่ปวดศีรษะรุนแรง แล้วซึมลงในวันที่ 2–5 จากสมองขาดเลือดบริเวณกว้างบวม (malignant MCA infarction)",
-   "E": "P'Ing: provisional SAH — <b>นอกสไลด์:</b> จะถูกถ้าปวดศีรษะรุนแรงทันที คอแข็ง สับสนหรือซึม ขาสองข้างอ่อนแรง (เขต ACA) โดยรูม่านตาปกติ CT เห็นเลือดใน interhemispheric fissure"
+   "A": "Pituitary apoplexy ปวดหัวทันที ตามัว ตาเหล่ (หลาย CN) และ adrenal crisis ไม่ทำให้อ่อนแรงครึ่งซีกชัด · จะถูกถ้าผู้ป่วยมี macroadenoma ปวดหัวทันที ตามัวสองข้าง กลอกตาไม่ได้หลายทิศ ความดันต่ำ",
+   "B": "Pontine hemorrhage ทำให้ coma ทันที pinpoint pupils ทั้งสองข้าง และอ่อนแรงทั้ง 4 แขนขา · จะถูกถ้าผู้ป่วยรูม่านตา 1 mm ทั้งสองข้าง decerebrate ทั้งตัว",
+   "D": "Infarction ขนาดใหญ่มักไม่ปวดหัวรุนแรงทันทีและสมองบวมจนรูม่านตาขยายมักเกิดหลัง 2–4 วัน ไม่ใช่ 30 นาที · จะถูกถ้าผู้ป่วย AF อ่อนแรงซีกขวา พูดไม่ได้ทันที ไม่ปวดหัว แล้วซึมลงในวันที่ 3",
+   "E": "AComA aneurysm แตก → SAH ปวดหัวรุนแรงทันที คอแข็ง ไม่ค่อยมีอ่อนแรงครึ่งซีกชัดและรูม่านตาข้างเดียว (คีย์ในไฟล์ตอบข้อนี้) · จะถูกถ้าผู้ป่วยปวดหัวทันที คอแข็ง ซึม ขาสองข้างอ่อนแรง CT เลือดใน interhemispheric fissure"
   },
-  "trap": "ปวดศีรษะรุนแรงทันทีชวนคิด SAH (คีย์เดิม E) — แต่อ่อนแรงครึ่งซีกหนักตั้งแต่แรกไม่ใช่ลักษณะ SAH และ aneurysm ที่กด CN III คือ PComA ไม่ใช่ AComA",
+  "trap": "เห็นปวดหัวทันทีแล้วตอบ SAH — ความดันสูง + อ่อนแรงครึ่งซีกชัด + รูม่านตาข้างเดียวขยาย = hypertensive ICH ก้อนใหญ่ · คีย์ในไฟล์ตอบ AComA aneurysm",
   "summary": [
-   "<b>นอกสไลด์:</b> บอกตำแหน่งเลือดออกจากอาการ: putamen → อ่อนแรงครึ่งซีกตรงข้าม ตาเหลือบไปทางข้างก้อน · thalamus → ชาครึ่งซีก ตามองลงต่ำ รูม่านตาเล็ก · cerebellum → เวียน อาเจียน เดินไม่ได้โดยไม่อ่อนแรง · lobar → ชัก อาการตามกลีบสมอง"
+   "Hypertensive ICH: putamen &gt; thalamus &gt; lobar &gt; cerebellum &gt; pons",
+   "Putaminal: อ่อนแรงซีกตรงข้าม + ตาเหลือบไปทางรอยโรค",
+   "รูม่านตาขยายข้างเดียว + ซึม = uncal herniation",
+   "SAH: ปวดหัวรุนแรงทันที คอแข็ง · AComA → ขาอ่อนแรง/ abulia · PComA → CN III",
+   "วินิจฉัย: CT ไม่ฉีดสี",
+   "ICH: คุม SBP ~140 · แก้ coagulopathy · ผ่าตัดเฉพาะบางราย"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (E) — ตอบ C: อ่อนแรงซีกขวาหนัก + รูม่านตาซ้ายโตในผู้ป่วยความดันสูง เข้ากับก้อนเลือด basal ganglia ซ้ายกดจน herniation · มั่นใจปานกลางค่อนข้างสูง (CT ยืนยัน)",
+  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (E ruptured AComA aneurysm) — ตอบ C ความมั่นใจปานกลาง เพราะความดันสูง + อ่อนแรงครึ่งซีกขวาชัด + รูม่านตาซ้ายขยาย (herniation ข้างเดียวกับรอยโรค) เข้ากับเลือดออกใน basal ganglia ซ้ายมากกว่า SAH จาก AComA ซึ่งไม่ทำให้อาการเฉพาะที่ข้างเดียวชัดแบบนี้",
+  "mnemonic": "<b>'ความดันสูง + อ่อนแรงครึ่งซีก + รูม่านตาข้างเดียวโต = ICH ก้อนใหญ่ (putamen) กำลัง herniate'</b>",
+  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282); 2023 AHA/ASA Guideline for Aneurysmal SAH (Stroke 2023;54:e314)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยความดันสูง เวียน อาเจียน เดินไม่ได้ แล้วซึมลง CT เลือดออกที่ cerebellum ราว 20 mL กด ventricle ที่ 4 → ผ่าตัดเอาก้อนออก",
-   "<b>นอกสไลด์:</b> ชายความดันสูงอ่อนแรงซีกขวา GCS 14 CT ก้อนเลือด putamen ซ้าย 20 mL ไม่กดเบียดมาก → คุมความดัน แก้การแข็งตัวของเลือด ไม่เปิดกะโหลกเอาก้อนลึกออก"
+   "หญิงปวดหัวทันที หนังตาขวาตก รูม่านตาขวาขยาย ไม่อ่อนแรง → PComA aneurysm",
+   "ผู้ป่วยความดันสูง อ่อนแรงซีกซ้าย ตาเหลือบขวา CT เลือดที่ putamen ขวา → hypertensive ICH",
+   "ผู้ป่วยปวดหัวทันที คอแข็ง CT เลือดใน interhemispheric fissure → AComA aneurysm"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 27 — ตัวพิมพ์: <b>Neuro 16. Pt. Age xx ปวดหัวฉับพลันแรง 30 minPTA ตอนมารพ BP 180/100 PR 92 RR 16 E2M4V1 Muscle strength rt. 2/5 lt. 5/5 pupil lt 5 mm slugishly RTL rt 3 mm RTL What is the most likely dx? — A. Pituitary apopexy B. Pontine hemorrhage C. Basal ganglion hemorrhage D. Extensive cerebral infarction E. Ruptured AComA aneurysm</b><br>ลายมือ: \"provisional Dx : SAH\" · กากบาท E<br>ไฮไลต์: กากบาท E (ชมพู) · \"What is the most likely dx?\" (ชมพู) · ขีดเส้นใต้ \"ปวดหัวฉับพลันแรง 30 minPTA ตอนมารพ\" \"BP 180/100\"<br>ที่ปรับในเว็บ: เว็บตอบ C ต่างจากคีย์ (E)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 27",
+  "kimg": [
+   "fsp_p27",
+   "kp71b_16"
   ]
  },
  "MDCU71|RoB|30": {
-  "interp": "ถามลักษณะรูม่านตาจากเนื้องอก pineal ที่กดสมองส่วนกลางด้านหลัง (dorsal midbrain) → Parinaud syndrome",
-  "why": "<b>P'Ing กากบาท B · Parinaud's syndrome: 1. paralysis of upper gaze 2. near-light dissociation (light ✗ accom ✓) 3. convergence-retraction nystagmus 4. setting sun sign</b><br><b>นอกสไลด์:</b> ก้อนกด pretectal area ซึ่งอยู่บนทางเดินของ pupillary light reflex แต่เส้นทางของ near response วิ่งต่ำและด้านหน้ากว่าจึงรอด → หดเมื่อมองใกล้แต่ไม่ตอบแสง",
+  "interp": "ถามลักษณะรูม่านตาจาก<b>เนื้องอก pineal gland</b>",
+  "why": "เนื้องอก pineal กด <b>dorsal midbrain/ pretectal area</b> → <b>Parinaud syndrome</b>: (1) <b>มองขึ้นไม่ได้</b> (upgaze palsy) (2) <b>light-near dissociation — รูม่านตาหดเมื่อมองใกล้ แต่ไม่หดต่อแสง</b> (3) convergence-retraction nystagmus (4) setting-sun sign/ หนังตาบนรั้ง · ทางรับแสงไป pretectal nucleus ถูกกด ส่วนทาง accommodation อยู่ด้านล่างจึงยังทำงาน · ข้อนี้ซ้ำกับข้อ 27 ของ 70C · ไฟล์ P'Ing กากบาท B ลายมือ <b>\"ทำให้เกิด Parinaud's syndrome : 1. paralysis of upper gaze 2. near-light dissociation (light ✗ accom. ✓) 3. convergence-retraction nystagmus 4. setting sun sign\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเนื้องอก pineal ขนาดเล็กที่ยังไม่กด tectum/pretectal area — รูม่านตาตอบสนองปกติ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่รูม่านตาขยายเมื่อมองใกล้ เพราะ near reflex สั่งผ่าน parasympathetic จาก Edinger–Westphal ไปหูรูดม่านตาให้หดเสมอ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะรอยโรคที่ทำให้เสียการตอบแสงไม่ได้กลับทิศของการตอบสนองเมื่อมองใกล้ — ส่วนที่รอดยังหดตามปกติ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ก้อน pineal ทำให้ยังตอบแสงแต่เสียการหดเมื่อมองใกล้ เพราะ pretectal area ที่ถูกกดก่อนอยู่บนเส้นทางแสง ไม่ใช่เส้นทางมองใกล้"
+   "A": "หดทั้งมองใกล้และต่อแสง = รูม่านตาปกติ · จะถูกถ้าคำถามถามการตอบสนองของรูม่านตาในคนปกติ",
+   "C": "รูม่านตาขยายเมื่อมองใกล้ผิดสรีรวิทยา (มองใกล้ต้องหด) · จะถูกถ้าคำถามถามรูม่านตาเมื่อมองไกล (ขยาย)",
+   "D": "ขยายเมื่อมองใกล้และไม่หดต่อแสงไม่ใช่ลักษณะของรอยโรคใด · จะถูกถ้าคำถามถามรูม่านตาหลังหยอดยาขยายม่านตา (atropine) ที่ไม่ตอบสนองทั้งแสงและมองใกล้",
+   "E": "ไม่ขยายเมื่อมองใกล้แต่หดต่อแสงไม่ใช่ลักษณะเฉพาะ · จะถูกถ้าคำถามถาม near-light dissociation แบบกลับด้าน ซึ่งไม่พบในทางคลินิก"
   },
-  "trap": "จำสลับง่าย: Parinaud/Argyll Robertson = มองใกล้ได้ แสงไม่ได้ (light–near dissociation) — ไม่มีรอยโรคใดทำให้รูม่านตาขยายเมื่อมองใกล้",
+  "trap": "สับสนทิศ — Parinaud คือหดเมื่อมองใกล้ (accommodation ✓) แต่ไม่หดต่อแสง (light ✗)",
   "summary": [
-   "<b>นอกสไลด์:</b> สาเหตุอื่นของ Parinaud: hydrocephalus ในเด็ก (ท่อระบายตัน), สมองส่วนกลางขาดเลือด/เลือดออก, multiple sclerosis"
+   "Parinaud: upgaze palsy · light-near dissociation · convergence-retraction nystagmus · lid retraction",
+   "สาเหตุ: pineal tumor · hydrocephalus (setting sun) · stroke midbrain",
+   "Pineal germinoma: วัยรุ่นชาย · β-hCG",
+   "Light-near dissociation อื่น: Argyll Robertson (neurosyphilis) · Adie tonic pupil",
+   "Hydrocephalus จาก aqueduct ถูกกด → ETV/ shunt",
+   "Germinoma ไวต่อรังสีมาก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับกากบาท B และลายมือในไฟล์",
+  "mnemonic": "<b>'Pineal → Parinaud: มองขึ้นไม่ได้ + หดเมื่อมองใกล้ ไม่หดต่อแสง'</b>",
+  "guide": "Walsh and Hoyt's Clinical Neuro-Ophthalmology 7th ed. (2019); Youmans and Winn Neurological Surgery 8th ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กชาย 12 ปีปวดศีรษะ มองขึ้นไม่ได้ ปัสสาวะมาก กระหายน้ำ → germinoma ที่ pineal ร่วม suprasellar: ตรวจ AFP/β-hCG ในเลือดและ CSF (ก้อนไวต่อรังสี)",
-   "<b>นอกสไลด์:</b> ผู้ป่วยซิฟิลิสระบบประสาท รูม่านตาเล็กไม่กลมสองข้าง ไม่ตอบแสงแต่หดเมื่อมองใกล้ → Argyll Robertson pupil"
+   "วัยรุ่นชายปวดหัว มองขึ้นไม่ได้ → pineal germinoma",
+   "ทารกหัวโต ตาเหลือบลงล่าง (setting sun) → hydrocephalus",
+   "ผู้ป่วยซิฟิลิส รูม่านตาเล็ก หดเมื่อมองใกล้ไม่หดต่อแสง → Argyll Robertson pupil"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 27 — ตัวพิมพ์: <b>Neuro 30. tumor ที่ pineal gland ทำให้มีอาการอย่างไร — A. pupil constrict to near object, react to light B. pupil constrict to near object, not react to light C. pupil dilate to near object, react to light D. pupil dilate to near object, not react to light E. pupil not dilate to near object, react to light</b><br>ลายมือ: \"ทำให้เกิด Parinaud's syndrome\" → \"1. paralysis of upper gaze 2. near-light dissociation (light ✗ accom. ✓) 3. convergence-retraction nystagmus 4. setting sun sign\" (ลูกศรชี้ไปช้อย B) · กากบาท B<br>ไฮไลต์: กากบาท B (ชมพู) · \"2. near-light dissociation\" (ชมพู) · ขีดเส้นใต้ \"tumor ที่ pineal gland\"",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 27",
+  "kimg": [
+   "fsp_p27",
+   "kp71b_30"
   ]
  },
  "MDCU71|RoB|31": {
-  "interp": "หลังบาดเจ็บใบหน้า ฟันหน้าสบไม่ได้ (anterior open bite) แต่ maxilla ไม่ขยับ → ไม่ใช่ Le Fort ปัญหาน่าจะอยู่ที่ขากรรไกรล่าง (หัวขากรรไกรหักสองข้าง) ถามภาพรังสีที่ควรส่ง",
-  "why": "<b>P'Ing กากบาท E · upper incisors ไม่สบกับ lower incisors → สงสัยความผิดปกติของ maxilla ไม่ก็ mandible · maxilla stable แสดงว่า mandible อาจจะมีปัญหา</b><br><b>นอกสไลด์:</b> หัวขากรรไกรหักสองข้าง ramus สั้นลง ฟันกรามสบก่อนจนฟันหน้าเปิด · panoramic เห็นขากรรไกรล่างทั้งชิ้นตั้งแต่หัวขากรรไกรถึงคางในภาพเดียว (CT ใบหน้าเป็นมาตรฐานถ้ามี)",
+  "interp": "หลังบาดเจ็บใบหน้า มี <b>anterior open-bite malocclusion</b> แต่ <b>maxilla ไม่ขยับ (stable)</b> → ถามภาพรังสีที่ควรส่ง",
+  "why": "Anterior open bite = ฟันหน้าบนและล่างสบกันไม่ได้ → ความผิดปกติอยู่ที่ maxilla หรือ mandible · เมื่อ<b>maxilla มั่นคง</b> (ไม่ใช่ Le Fort) ปัญหาจึงอยู่ที่ <b>mandible</b> — โดยเฉพาะ<b>กระดูก condyle หักสองข้าง</b>หรือมุมขากรรไกรหัก ทำให้ขากรรไกรส่วนหลังสั้นลงและฟันหลังชนก่อน · ภาพที่เห็น mandible ทั้งชิ้นรวม condyle คือ <b>panoramic (OPG)</b> (มาตรฐานปัจจุบันคือ CT) · ไฟล์ P'Ing กากบาท E ลายมือ <b>\"= upper incisors ไม่สบกับ lower incisors ⇒ สงสัยความผิดปกติของ maxilla ไม่ก็ mandible\"</b> และ <b>\"แสดงว่า mandible อาจจะมีปัญหา\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัยกระดูกโหนกแก้ม ผนังไซนัส maxilla หรือพื้นเบ้าตาหัก (แก้มยุบ ชาแก้ม ตาเห็นภาพซ้อน) ในที่ที่ไม่มี CT",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าศีรษะด้านหลังกระแทกแล้วสงสัยกระดูกท้ายทอยหัก ในที่ที่ไม่มี CT",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัยกะโหลกส่วนหน้าผากหรือข้างศีรษะหักจากการกระแทกตรง ในที่ที่ไม่มี CT",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าต้องการดูผนังหน้า–หลังของไซนัสหน้าผากหลังหน้าผากกระแทก ในที่ที่ไม่มี CT"
+   "A": "Waters view ดู maxilla/ ใบหน้าส่วนกลาง ซึ่งโจทย์บอกว่ามั่นคง · จะถูกถ้า maxilla ขยับได้ (Le Fort) หรือสงสัย ZMC/ orbital floor fracture",
+   "B": "Towne view ดู condyle และ occipital bone ได้บางส่วน แต่ไม่เห็น mandible ทั้งชิ้นเท่า panoramic · จะถูกถ้าคำถามถามภาพเสริมเพื่อดู condylar neck ที่ panoramic ไม่ชัด",
+   "C": "AP skull ดูกะโหลกทั่วไป ไม่เหมาะกับ mandible · จะถูกถ้าสงสัย skull fracture จากบาดเจ็บศีรษะ (ปัจจุบันใช้ CT)",
+   "D": "Lateral skull ซ้อนทับสองข้าง ไม่เหมาะประเมิน mandible · จะถูกถ้าดูขนาด sella turcica หรือ depressed fracture ด้านข้าง"
   },
-  "trap": "open bite ทำให้นึกถึง Le Fort — แต่โจทย์บอก maxilla มั่นคง จึงเป็นขากรรไกรล่าง · reverse Towne ใช้เสริม panoramic ดูคอหัวขากรรไกรได้ แต่ภาพหลักคือ panoramic",
+  "trap": "เห็นการสบฟันผิดแล้วส่ง Waters — maxilla มั่นคง ปัญหาอยู่ที่ mandible → panoramic",
   "summary": [
-   "<b>นอกสไลด์:</b> anterior open bite หลังบาดเจ็บ = หัวขากรรไกรหักสองข้าง หรือ Le Fort (maxilla ถูกดันถอยหลังลงล่าง) — แยกด้วยการโยก maxilla · ตรวจหาจุดหักคู่เสมอ (ขากรรไกรล่างเป็นวงแหวน มักหักสองตำแหน่ง เช่นคาง + หัวขากรรไกรข้างตรงข้าม)"
+   "Anterior open bite หลังบาดเจ็บ: condyle หักสองข้าง/ Le Fort",
+   "Maxilla ขยับ → Le Fort → CT/ Waters",
+   "Maxilla มั่นคง → mandible → panoramic/ CT",
+   "Mandible หักพบบ่อย: condyle · angle · body · symphysis",
+   "อาการ mandible หัก: ชาริมฝีปากล่าง (IAN) · ฟันสบผิด · อ้าปากเบี้ยว",
+   "รักษา: MMF ± ORIF"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับกากบาท E และลายมือในไฟล์",
+  "mnemonic": "<b>'ฟันสบผิด + maxilla นิ่ง = mandible → Panoramic'</b>",
+  "guide": "AO Surgery Reference — CMF: Mandibular fractures; Fonseca's Oral and Maxillofacial Trauma 4th ed. (2013)",
   "variants": [
-   "<b>นอกสไลด์:</b> ล้มคางกระแทก อ้าปากแล้วคางเบี้ยวไปทางขวา ฟันกรามขวาสบก่อน → หัวขากรรไกรขวาหัก ส่ง panoramic",
-   "<b>นอกสไลด์:</b> หลังอุบัติเหตุใบหน้าส่วนกลางยาว ฟันหน้าสบไม่ได้ จับฟันหน้าบนโยกแล้ว maxilla ขยับทั้งแผง → Le Fort: CT ใบหน้า"
+   "ล้มคางกระแทก ปวดหน้าหูสองข้าง ฟันหน้าสบไม่ลง → bilateral condylar fracture → panoramic/ CT",
+   "รถชน เพดานขยับได้ทั้งแผ่น → Le Fort I → CT",
+   "ชกที่ขากรรไกร ชาริมฝีปากล่าง → mandibular body/ angle fracture"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 27 — ตัวพิมพ์: <b>Plastic 31. มี anterior open-bite malocclusion, maxilla stable ส่งอะไร — A. Water B. Town C. AP skull D. Later E. Panoramic</b><br>ลายมือ: \"= upper incisors ไม่สบกับ lower incisors ⇒ สงสัยความผิดปกติของ maxilla ไม่ก็ mandible\" · \"แสดงว่า mandible อาจจะมีปัญหา\" · กากบาท E<br>ไฮไลต์: กากบาท E (ฟ้า) · \"ส่งอะไร\" (ฟ้า) · ขีดเส้นใต้ \"anterior open-bite malocclusion\" \"maxilla stable\"",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 27",
+  "kimg": [
+   "fsp_p27",
+   "kp71b_31"
   ]
  }
 }
