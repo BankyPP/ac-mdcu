@@ -1,228 +1,394 @@
 {
  "MDCU71|RoA|44": {
-  "interp": "หลังผ่าตัดเปิด right hemicolectomy วันที่ 3 อึดอัดท้อง ไม่มีไข้ สัญญาณชีพปกติ ท้องอืดเล็กน้อย ไม่มี peritoneal signs แต่ภาพมีลมใต้กะบังลม → ถามสาเหตุของลมอิสระ",
-  "why": "คีย์ในไฟล์ B (<b>anastomosis leak</b>) — ข้อนี้ตอบ A<br><b>นอกสไลด์:</b> ลมที่เข้าช่องท้องระหว่างผ่าตัดเปิดหน้าท้องค้างได้หลายวันตามปกติแล้วค่อยถูกดูดซึม · การตัดสินว่ารอยต่อรั่วต้องดูที่ตัวผู้ป่วย (ไข้ ชีพจรเร็ว ปวดมากขึ้น peritonitis) หรือลมที่เพิ่มขึ้นในภาพซ้ำ ไม่ใช่การมีลมอย่างเดียว",
+  "interp": "ชาย 55 ปี <b>หลังผ่าตัด open right hemicolectomy วันที่ 3</b> แน่นท้อง <b>ไม่มีไข้ สัญญาณชีพปกติ ไม่มี peritoneal signs</b> ฟิล์มพบ<b>ลมใต้กะบังลม</b> → ถามสาเหตุของลมอิสระ",
+  "why": "หลังผ่าตัดเปิดช่องท้อง <b>ลมที่ค้างจากการผ่าตัด (residual postoperative pneumoperitoneum)</b> พบได้บ่อยและคงอยู่ได้ <b>ราว 3–7 วัน</b> (ผ่าตัดเปิดนานกว่าผ่าตัดส่องกล้องที่ใช้ CO2 ซึ่งดูดซึมเร็ว) · ผู้ป่วย<b>ไม่มีไข้ ชีพจรปกติ ไม่มีเยื่อบุช่องท้องอักเสบ</b> ท้องอืดเล็กน้อยเข้ากับ ileus หลังผ่าตัด → ลมอิสระจึงน่าเป็นลมค้าง · สงสัย <b>anastomotic leak</b> เมื่อมีไข้ ชีพจรเร็ว ปวดท้องมากขึ้น peritonitis ปัสสาวะลด มักวันที่ 5–7 หรือ<b>ลมอิสระเพิ่มขึ้น</b>ในฟิล์มซ้ำ → CT with contrast · ไฟล์ GS Supplementary คีย์ <b>\"B anastomosis leak\"</b> ซึ่งไม่ตรงกับคำตอบนี้",
   "wrong": {
-   "B": "คีย์เดิม · <b>นอกสไลด์:</b> จะถูกถ้าหลังผ่าตัดราววันที่ 3–7 มีไข้ ชีพจรเร็ว ปวดท้องมากขึ้น มี peritonitis หรือลำไส้ไม่ทำงานต่อเนื่อง และ CT เห็นลม/น้ำรอบรอยต่อหรือสารทึบรั่ว",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การติดเชื้อแผลผ่าตัดชั้นลึกเป็นต้นเหตุของลมอิสระใต้กะบังลม เพราะการติดเชื้ออยู่ที่ผนังหน้าท้อง ไม่ได้เปิดทางเดินอาหาร",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าลำไส้เล็กถูกบาดเจ็บระหว่างผ่าตัดโดยไม่รู้ตัว แล้วผู้ป่วยมี peritonitis ไข้ และลมเพิ่มขึ้นในช่วงวันแรก ๆ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าหลังผ่าตัดราว 1 สัปดาห์ขึ้นไปมีไข้แกว่ง ปวดใต้ชายโครง มีน้ำในเยื่อหุ้มปอด และลมใต้กะบังลมที่เห็นเป็นระดับน้ำ–ลมเฉพาะที่ในโพรงฝี"
+   "B": "Anastomotic leak ต้องมีอาการติดเชื้อ/ peritonitis (ไข้ ชีพจรเร็ว ปวดมาก) และมักเกิดวันที่ 5–7 (คีย์ในไฟล์ตอบข้อนี้) · จะถูกถ้าวันที่ 6 หลังผ่าตัดมีไข้ 39 °C ชีพจร 120 ท้องแข็งทั่ว ลมอิสระมากขึ้นจากฟิล์มก่อน",
+   "C": "Surgical site infection ทำให้แผลบวมแดง มีหนอง ไข้ ไม่ทำให้มีลมใต้กะบังลม · จะถูกถ้าวันที่ 5 หลังผ่าตัดแผลบวมแดงกดเจ็บมีหนองซึม",
+   "D": "ลำไส้เล็กทะลุทำให้ peritonitis และอาการทรุด ไม่ใช่ผู้ป่วยที่สัญญาณชีพปกติ · จะถูกถ้าผู้ป่วยหลังผ่าตัดปวดท้องรุนแรงทันที ท้องแข็ง ช็อก CT เห็นน้ำและลมรั่วรอบลำไส้เล็ก",
+   "E": "ฝีใต้กะบังลมเกิดหลังวันที่ 7–10 มีไข้สูงแกว่ง ปวดใต้ชายโครง · จะถูกถ้าวันที่ 10 หลังผ่าตัดไข้แกว่ง ปวดใต้ชายโครงขวา CT เห็นก้อนน้ำมีขอบ enhance ใต้กะบังลม"
   },
-  "trap": "ลมใต้กะบังลมหลังผ่าตัดชวนให้คิดว่ารอยต่อรั่ว — ผู้ป่วยสัญญาณชีพปกติไม่มี peritonitis คือลมค้างจากการผ่าตัด · ข้อนี้ตอบ A ต่างจากคีย์ในไฟล์ (B)",
+  "trap": "เห็นลมอิสระหลังผ่าตัดลำไส้แล้วคิดว่ารอยต่อรั่วทันที — ต้องดูอาการทางคลินิก ลมค้างหลังผ่าตัดเปิดพบได้ถึง ~1 สัปดาห์ · คีย์ในไฟล์ตอบ B",
   "summary": [
-   "<b>นอกสไลด์:</b> ลมค้างหลังผ่าตัดเปิดหน้าท้องส่วนใหญ่หายในราว 5–7 วัน (ผ่าตัดส่องกล้องหายเร็วกว่าเพราะ CO₂ ดูดซึมเร็ว) · ลมไม่ลดหรือเพิ่มขึ้นในภาพซ้ำ หรือมีอาการ → CT ฉีดสี ± สารทึบทางปาก/ทวาร"
+   "ลมค้างหลังผ่าตัดเปิด: พบบ่อย คงอยู่ 3–7 วัน (บางรายนานกว่า)",
+   "ผ่าตัดส่องกล้อง (CO2) ลมหายเร็วกว่า",
+   "Anastomotic leak: วันที่ 5–7 · ไข้ ชีพจรเร็ว peritonitis ileus นาน",
+   "ลมอิสระเพิ่มขึ้น/ อาการทรุด → CT with contrast",
+   "Leak + sepsis/ peritonitis → ผ่าตัด (มัก diverting stoma)",
+   "Leak เล็กมีฝีจำกัด → percutaneous drainage + ATB"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ B — ตอบ A: ไม่มีไข้ สัญญาณชีพปกติ ไม่มี peritonitis ลมค้างหลังผ่าตัดเปิดหน้าท้องวันที่ 3 เป็นเรื่องปกติ · มั่นใจสูง",
+  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (B anastomosis leak) — ตอบ A ความมั่นใจปานกลาง-สูง เพราะผู้ป่วยไม่มีไข้ สัญญาณชีพปกติ ไม่มี peritoneal signs ในวันที่ 3 หลังผ่าตัดเปิด ลมอิสระจึงอธิบายด้วยลมค้างหลังผ่าตัดได้ดีกว่า",
+  "mnemonic": "<b>'ลมใต้กะบังลมหลังผ่า + คนไข้ดูดี = ลมค้าง · คนไข้ดูแย่ = รั่ว'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Surgical complications; ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022) — Anastomotic complications",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัดลำไส้ 4 วัน ไข้ 38.5 ชีพจร 120 ปวดท้องมากขึ้น แม้ภาพไม่มีลม → ต้องคิดถึงรอยต่อรั่ว (ตัดสินจากอาการ ไม่ใช่จากภาพ)",
-   "<b>นอกสไลด์:</b> ผู้ป่วยล้างไตทางช่องท้องมีลมใต้กะบังลมเล็กน้อย ไม่มีอาการ → ลมเข้าระหว่างเปลี่ยนน้ำยา ไม่ใช่ทะลุ"
+   "วันที่ 6 หลัง low anterior resection ไข้ ปวดท้องน้อย ชีพจรเร็ว → CT หา anastomotic leak",
+   "วันที่ 2 หลังผ่าตัดส่องกล้อง ลมอิสระจำนวนมาก ปวดท้องมากขึ้น → สงสัยลำไส้ทะลุ",
+   "วันที่ 10 หลังผ่าตัด ไข้แกว่ง ปวดใต้ชายโครง → ฝีใต้กะบังลม → percutaneous drainage"
+  ],
+  "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 28 — ตัวพิมพ์: <b>44. ลุงอายุ55 pod 3 s/p right hemicolectomy มีAbdominal discomfort PE: Afebrile, mild abdominal distention, AXR: Air under diaphragm ถามว่าเกิดจากอะไร — a. pneumoperitoneum b. anastomosis leak c. surgical site infection d. bowel wall perforation</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ขีดเส้นใต้ <b>“right hemicolectomy”</b>, <b>“Abdominal discomfort”</b>, <b>“mild abdominal distention”</b>, <b>“Air under diaphragm”</b>; ไฮไลต์ฟ้า <b>“ถามว่าเกิดจากอะไร”</b>; ช้อย <b>b “anastomosis leak” ไฮไลต์เขียว+ฟ้า</b> (สองชั้นตรงกัน = คีย์ในไฟล์); ไม่มีลายมืออื่น; ต้นฉบับมี 4 ช้อย (a. pneumoperitoneum b. anastomosis leak c. surgical site infection d. bowel wall perforation). การปรับ: <b>เติม “vital signs ปกติ และไม่มี peritoneal signs”</b> ใน stem (ต้นฉบับมีแค่ Afebrile, mild abdominal distention) และระบุว่าเป็น <b>open</b> right hemicolectomy; ช้อย a ต้นฉบับ “pneumoperitoneum” เกลาเป็น “Residual postoperative pneumoperitoneum” เพื่อให้ความหมายชัด, ช้อย b–d เกลาถ้อยคำให้ยาวใกล้กัน ความหมายเดิม; <b>ช้อย E “Subphrenic abscess formation” แต่งเพิ่ม</b>. <b>คำตอบเราต่างจากคีย์ในไฟล์</b> — ดูเหตุผลใน opinion",
+  "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 28",
+  "kimg": [
+   "k71a_29"
   ]
  },
  "MDCU71|RoA|77": {
-  "interp": "ชาย 55 ปีถ่ายมูกเลือดเป็นพัก ๆ 1 ปี ช่วงหลังเลือดหยดหลังถ่าย ตรวจพบริดสีดวงภายในที่ 11 นาฬิกา ไม่เคยส่องกล้องลำไส้ → ถามข้อความที่ถูก",
-  "why": "ลายมือ <b>ต้อง R/O CRC → colonoscope</b> · <b>anal cushion มีที่ 3, 7, 11 นาฬิกา</b> · คีย์ C <b>ไม่มี active bleed ทำ colonoscope</b><br><b>นอกสไลด์:</b> ถ่ายมีมูกเลือด 1 ปีในคนอายุ 55 ที่ยังไม่เคยคัดกรอง ต้องส่องกล้องลำไส้ทั้งหมดก่อนโทษริดสีดวง — ริดสีดวงกับมะเร็งอยู่ร่วมกันได้ และมูกปนเลือดไม่ใช่ลักษณะของริดสีดวงอย่างเดียว",
+  "interp": "ชาย 55 ปี <b>ถ่ายมีมูกเลือดเป็นพัก ๆ 1 ปี</b> ล่าสุดเลือดหยดหลังถ่าย ตรวจพบ internal hemorrhoid ที่ 11 นาฬิกา ไม่มีเลือดออกขณะตรวจ <b>ไม่เคยส่อง colonoscopy</b> → ถามข้อถูก",
+  "why": "แม้พบริดสีดวง แต่<b>ถ่ายมีมูกปนเลือดเรื้อรังในผู้ป่วยอายุ ≥ 45–50 ปีที่ไม่เคยคัดกรอง</b> ต้อง<b>ส่อง colonoscopy เพื่อตัดรอยโรคส่วนต้น (มะเร็ง/ polyp/ ลำไส้อักเสบ)</b> ก่อนสรุปว่าเลือดมาจากริดสีดวง · มูกปนเลือด (ไม่ใช่แค่เลือดสดหยดหลังถ่าย) เป็นอาการเตือน · ริดสีดวงภายในรักษาตามระดับ: ใยอาหาร/ น้ำ → office procedure (rubber band ligation, sclerotherapy) → hemorrhoidectomy (ระดับ 3–4/ ร่วม external) · ไฟล์ GS Supplementary คีย์ <b>\"C ไม่มีactive bleed ทำcolonoscope\"</b> (ไฮไลต์ฟ้า)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ถูก เพราะ sclerotherapy ใช้กับริดสีดวงภายใน grade I–II ที่เลือดออกเป็นพัก ๆ และทำตอนเลือดไม่ออกได้ ไม่จำกัดเฉพาะตอนเลือดออกอยู่",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ถูก เพราะคำว่า 'ทุก' ผิด — ก้อนย้อยที่ดันกลับเองหรือดันกลับได้ส่วนใหญ่รัดยางได้ ผ่าตัดเฉพาะ grade III–IV ที่วิธีอื่นไม่ได้ผลหรือมีส่วนภายนอกมาก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าคนอายุน้อยไม่มีปัจจัยเสี่ยง เลือดสดหยดหลังถ่ายแบบริดสีดวงชัด ไม่มีมูก ไม่มีอาการเตือน และหายหลังรักษา",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ตำแหน่ง 11 นาฬิกาบ่งมะเร็ง เพราะเป็นตำแหน่งปกติของ anal cushion ร่วมกับ 3 และ 7 นาฬิกา"
+   "A": "Sclerotherapy ใช้กับริดสีดวงระดับ 1–2 ที่มีเลือดออกเป็นพัก ๆ ไม่จำกัดเฉพาะตอนเลือดออกอยู่ และยังไม่ตอบปัญหาการตัดรอยโรคส่วนต้น · จะถูกถ้าผู้ป่วยกินยาต้านเกล็ดเลือดมีริดสีดวงระดับ 1 เลือดออกเป็นพัก หลังส่องกล้องแล้วปกติ",
+   "B": "ริดสีดวงยื่นระดับ 2–3 ส่วนใหญ่รักษาด้วย rubber band ligation ได้ ผ่าตัดเฉพาะระดับ 3–4 ที่ล้มเหลว/ ร่วม external · จะถูกถ้าริดสีดวงระดับ 4 ดันกลับไม่ได้ ร่วมกับ external hemorrhoid ใหญ่",
+   "D": "เห็นริดสีดวงไม่ได้แปลว่าเลือดมาจากริดสีดวงเสมอ ผู้ป่วยอายุ 55 ไม่เคยคัดกรอง มีมูกเลือดเรื้อรัง ต้องส่องกล้อง · จะถูกถ้าชาย 25 ปีเลือดสดหยดหลังถ่ายครั้งแรก ไม่มีอาการเตือน anoscopy เห็นริดสีดวงเลือดออก",
+   "E": "ตำแหน่ง 11 นาฬิกา (ขวาหน้า ในท่า lithotomy) เป็นตำแหน่งปกติของ hemorrhoidal cushion (ซ้ายข้าง ขวาหน้า ขวาหลัง) ไม่บ่งชี้มะเร็ง · จะถูกถ้าคำถามถามตำแหน่งปกติของริดสีดวงหลัก 3 ตำแหน่ง"
   },
-  "trap": "เห็นริดสีดวงแล้วสรุปว่าเลือดมาจากริดสีดวง — มูกเลือดเรื้อรังในวัยนี้ต้องส่องกล้องหาสาเหตุที่สูงขึ้นไป",
+  "trap": "เห็นริดสีดวงแล้วหยุดหาสาเหตุ — มูกเลือดเรื้อรังในผู้ป่วยอายุ &gt; 45 ที่ไม่เคยคัดกรองต้อง colonoscopy",
   "summary": [
-   "<b>นอกสไลด์:</b> ผู้ที่เลือดออกทางทวารต้องส่องกล้องลำไส้ทั้งหมดเมื่อ: อายุ ≥ 45–50 ปีที่ยังไม่ได้คัดกรอง · ถ่ายเปลี่ยนนิสัย มูกปนเลือด น้ำหนักลด ซีดขาดเหล็ก · ครอบครัวเป็นมะเร็งลำไส้ · เลือดไม่หายหลังรักษาริดสีดวง"
+   "เลือดออกทางทวารในผู้ป่วย ≥ 45–50 ปี/ อาการเตือน → colonoscopy",
+   "อาการเตือน: มูกเลือด อุจจาระเปลี่ยน น้ำหนักลด ซีด ประวัติครอบครัว",
+   "ริดสีดวงหลัก: 3, 7, 11 นาฬิกา (lithotomy)",
+   "ระดับ 1–2: ใยอาหาร ± RBL/ sclerotherapy",
+   "ระดับ 3: RBL หรือผ่าตัด · ระดับ 4/ ร่วม external → hemorrhoidectomy",
+   "Thrombosed external &lt; 72 ชม. → excision"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (รุ่นพี่ตอบ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ GS Supplementary และแนวทาง ASCRS",
+  "mnemonic": "<b>'เจอริดสีดวง ≠ จบ · อายุมาก/ มูกเลือด → ส่องให้ถึงต้น (colonoscopy)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024;67:614); USPSTF Colorectal Cancer Screening (JAMA 2021;325:1965)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง 50 ปีซีดจากขาดเหล็ก ส่องทวารเห็นริดสีดวง → ยังต้อง colonoscopy และ gastroscopy (ริดสีดวงไม่อธิบายการซีดขาดเหล็กจนกว่าจะตัดสาเหตุอื่น)"
+   "ชาย 60 ปีเลือดสดหยดหลังถ่าย ซีด ไม่เคยส่องกล้อง → colonoscopy",
+   "ริดสีดวงระดับ 2 เลือดออก colonoscopy ปกติ → rubber band ligation",
+   "ริดสีดวงระดับ 4 ดันไม่กลับ บวมเจ็บ → hemorrhoidectomy"
+  ],
+  "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 30 — ตัวพิมพ์: <b>77.คนไข้มาด้วยถ่ายเป็นมูกเลือดเป็นบางครั้งมา1ปี ล่าสุดหลังถ่ายมีเลือดหยดออกมาตาม ไปหาหมอ ทำrectal exam+ไอที่ส่องกันชักอัน พบ internal hemorrhoid 11 นาฬิกา ถามข้อใดถูก — A.ถ้ามีactive bleed ฉีดsclerosing agent B.ถ้ามีprolapse ทำligang+bandไม่รู้จำมาถูกป่าว C.ไม่มีactive bleed ทำcolonoscope D.ไม่มีactive bleed...</b><br>ลายมือ/ ไฮไลต์ในไฟล์: <b>ขีดเส้นใต้</b> “ถ่ายเป็นมูกเลือด” + <b>ลายมือ “ต้อง R/O CRC → colonoscope”</b>; ขีดเส้นใต้ “ล่าสุดหลังถ่ายมีเลือดหยดออกมาตาม” + <b>ลายมือ “anal cushion มีที่ 3,7,11 นาฬิกา”</b>; ขีดเส้นใต้ “internal hemorrhoid 11”; <b>ไฮไลต์ฟ้า</b> “ถามข้อใดถูก”; ช้อย C “ไม่มีactive bleed ทำcolonoscope” = <b>ไฮไลต์ฟ้า (รุ่นพี่)</b> — <b>ไม่มีไฮไลต์เขียว</b> (ผู้จดไม่ได้ใส่คำตอบ รุ่นพี่เป็นคนตอบ); ช้อย B ผู้จดพิมพ์ต่อท้ายว่า “ไม่รู้จำมาถูกป่าว”; ช้อย D ขาด (“ไม่มีactive bleed...”); ไม่มีช้อย E. ต้นฉบับ “ไอที่ส่องกันชักอัน” = anoscope. ช้อยของเรา: A–D เขียนใหม่เป็น statement โดยคงประเด็นเดิม (A sclerotherapy เมื่อ active bleed, B prolapse, C colonoscopy, D ไม่ต้องตรวจต่อ — D แต่งเนื้อหาเองเพราะต้นฉบับขาด), <b>E แต่งเพิ่ม</b> (ตำแหน่ง 11 นาฬิกา); stem เติม <b>อายุ 55 ปี</b> และ <b>“He has never had a colonoscopy”</b> (ต้นฉบับไม่บอกอายุ)",
+  "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 30",
+  "kimg": [
+   "k71a_43"
   ]
  },
  "MDCU71|RoA|90": {
-  "interp": "ถามปัจจัยหลักที่ตัดสินว่าผ่าตัดตับเพื่อหวังหายใน colorectal liver metastasis ได้หรือไม่",
-  "why": "คีย์ในไฟล์ C <b>Predicted volume of hepatic remnant</b><br><b>นอกสไลด์:</b> แนวคิดปัจจุบันไม่จำกัดด้วยจำนวนหรือขนาดก้อน แต่ดูว่าตัดก้อนออกได้หมดโดยเหลือตับที่ทำงานพอ — เก็บหลอดเลือดเข้า–ออกและท่อน้ำดีของตับส่วนที่เหลือได้อย่างน้อย 2 segment ติดกัน",
+  "interp": "ถามปัจจัย<b>หลัก</b>ที่ตัดสินว่า colorectal liver metastasis <b>ผ่าตัดเพื่อหายขาดได้หรือไม่</b>",
+  "why": "ปัจจุบันเกณฑ์ resectability ของ CRLM ไม่ได้ขึ้นกับจำนวนหรือขนาดก้อน แต่ขึ้นกับว่า (1) <b>ตัดก้อนได้หมด (R0)</b> และ (2) <b>เหลือตับเพียงพอ (future liver remnant, FLR)</b> อย่างน้อย 2 segment ติดกันที่มีเลือดเข้า-ออกและท่อน้ำดีครบ · FLR ที่ต้องการ: <b>≥ 20–25%</b> ในตับปกติ, ≥ 30% หลังเคมีบำบัดมาก, ≥ 40% ในตับแข็ง · FLR ไม่พอ → portal vein embolization/ two-stage hepatectomy/ ALPPS · ไฟล์ GS Supplementary คีย์ <b>\"C Predicted volume of hepatic remnant\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่จำนวนก้อนอย่างเดียวตัดสินว่าผ่าตัดได้ เพราะก้อนหลายก้อนที่อยู่ในส่วนที่ตัดได้ยังผ่าตัดหายได้ — จำนวนมีผลต่อพยากรณ์ ไม่ใช่ข้อห้าม",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ขนาดก้อนอย่างเดียวเป็นตัวตัดสิน เพราะก้อนใหญ่ที่ตัดแล้วเหลือตับพอก็ตัดได้ ส่วนก้อนเล็กที่ติดหลอดเลือดหลักอาจตัดไม่ได้",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่จำนวนรอบเคมีเป็นตัวตัดสินว่าตัดได้ — เคมีก่อนผ่าตัดใช้ลดขนาดก้อน แต่ยิ่งหลายรอบตับยิ่งเสียและต้องเหลือตับมากขึ้น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อายุอย่างเดียวตัดสิน เพราะผู้สูงอายุที่สภาพร่างกายดีผ่าตัดตับได้ — ดูสมรรถภาพและโรคร่วม"
+   "A": "จำนวนก้อนไม่ใช่ข้อห้าม (เกณฑ์เดิม &lt; 4 ก้อนเลิกใช้แล้ว) ถ้าตัดหมดและเหลือตับพอ · จะถูกถ้าคำถามถามปัจจัยพยากรณ์การกลับเป็นซ้ำ (Fong clinical risk score รวมจำนวนก้อน &gt; 1)",
+   "B": "ขนาดก้อนไม่ใช่ข้อห้ามโดยตรง ก้อนใหญ่ตัดได้ถ้าเหลือตับพอ · จะถูกถ้าคำถามถามปัจจัยใน Fong score (ก้อนใหญ่ &gt; 5 cm)",
+   "D": "จำนวนรอบเคมีบำบัดไม่กำหนดว่าตัดได้หรือไม่ แต่เคมีบำบัดมากทำให้ตับเสียหาย (ต้องการ FLR มากขึ้น) · จะถูกถ้าคำถามถามสาเหตุที่ต้องการ FLR ≥ 30% (chemotherapy-associated liver injury)",
+   "E": "อายุอย่างเดียวไม่ใช่ข้อห้าม ดูสภาพร่างกายโดยรวม · จะถูกถ้าคำถามถามปัจจัยประเมินความเสี่ยงผ่าตัดทั่วไป (ASA/ ECOG)"
   },
-  "trap": "จำนวนก้อน ≥ 4 หรือขนาด &gt; 5 cm เคยเป็นข้อห้ามตามเกณฑ์เก่า — ปัจจุบันตัดสินที่ตับที่จะเหลือ",
+  "trap": "ใช้เกณฑ์เก่าตามจำนวน/ ขนาดก้อน — ปัจจุบันตัดสินจากการตัดได้หมด + ตับที่เหลือพอ",
   "summary": [
-   "<b>นอกสไลด์:</b> Future liver remnant ที่ต้องเหลือ: ตับปกติ ≥ 20–25% · ได้เคมีมาก ≥ 30% · ตับแข็ง ≥ 40% · ไม่พอ → portal vein embolization หรือผ่าตัดสองขั้นให้ตับส่วนที่เหลือโตก่อน"
+   "Resectable CRLM: R0 + FLR พอ + เลือดเข้า-ออก/ ท่อน้ำดีครบ + ไม่มีโรคนอกตับที่ควบคุมไม่ได้",
+   "FLR: ≥ 20–25% ตับปกติ · ≥ 30% หลังเคมีมาก · ≥ 40% ตับแข็ง",
+   "FLR ไม่พอ → portal vein embolization · two-stage · ALPPS",
+   "ตัดได้ → hepatectomy ± perioperative chemo (รอด 5 ปี ~40–50%)",
+   "ตัดไม่ได้ → conversion chemotherapy แล้วประเมินใหม่",
+   "Fong score: N+ · DFI &lt; 12 เดือน · &gt; 1 ก้อน · CEA &gt; 200 · &gt; 5 cm"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ GS Supplementary และแนวทาง NCCN/ AHPBA",
+  "mnemonic": "<b>'CRLM ตัดได้ไหม = ตัดหมดไหม + ตับเหลือพอไหม (ไม่ใช่นับก้อน)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025 — Principles of surgery for metastatic disease; Adams RB et al. AHPBA consensus on selection criteria for hepatectomy for CRLM (HPB 2013;15:91)",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนในตับตัดไม่ได้ตอนแรก ให้เคมีจนก้อนยุบ → ประเมินผ่าตัดใหม่ (conversion therapy)",
-   "<b>นอกสไลด์:</b> ก้อน 2 cm อยู่ลึกในเนื้อตับ ถ้าตัดต้องเสียตับมาก → พิจารณา thermal ablation แทนหรือร่วมกับการตัด (ก้อน ≤ 3 cm)"
+   "CRLM 6 ก้อนตับขวาทั้งหมด FLR 18% → portal vein embolization แล้วผ่าตัด",
+   "CRLM ก้อนเดี่ยว 7 cm FLR 50% → hepatectomy",
+   "CRLM ตัดไม่ได้ → เคมีบำบัด + targeted therapy แล้วประเมินการตัดใหม่"
+  ],
+  "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 31 — ตัวพิมพ์: <b>90. Which is the major factor to determine the suitability of curative resection of colorectal liver metastasis? — A. Number of tumors B. Size of tumors C. Predicted volume of hepatic remnant D. Number of chemotherapy E. Age of patient at diagnosis</b><br>ลายมือ/ ไฮไลต์ในไฟล์: <b>ไฮไลต์ฟ้า</b> “Which is the major factor to determine”; <b>ขีดเส้นใต้</b> “suitability of curative resection of colorectal liver metastasis”; ช้อย C Predicted volume of hepatic remnant = <b>ไฮไลต์เขียว + ไฮไลต์ฟ้า</b> → สองชั้นตรงกัน; ไม่มีลายมือเพิ่ม. ช้อยครบ 5 เกลาภาษาเท่านั้น (D ต้นฉบับ “Number of chemotherapy” → “Number of chemotherapy cycles”)",
+  "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 31",
+  "kimg": [
+   "k71a_47"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 6@p37": {
-  "interp": "ชาย 18 ปีลำไส้เล็กอุดตันจากลำไส้กลืนกันที่มีติ่งเนื้อนำ พบติ่งหลายอัน มีจุดสีน้ำตาลที่ริมฝีปากและเหงือก → Peutz–Jeghers syndrome · ถามชนิดติ่งเนื้อ (ข้อนี้เน้นการวินิจฉัยและลำไส้กลืนกัน)",
-  "why": "คีย์ในไฟล์ D <b>Hamartomatous polyp</b> · ลายมือ <b>obstipation</b><br><b>นอกสไลด์:</b> Peutz–Jeghers (ยีน STK11 ถ่ายทอดแบบ autosomal dominant แต่ส่วนหนึ่งเกิดใหม่โดยไม่มีประวัติครอบครัว) มี hamartomatous polyp ที่มีแกนกล้ามเนื้อเรียบแตกกิ่ง พบมากที่สุดในลำไส้เล็ก — ติ่งใหญ่เป็นจุดนำให้ลำไส้กลืนกันในวัยรุ่นและผู้ใหญ่ตอนต้น",
+  "interp": "ชาย 18 ปี ลำไส้เล็กอุดตันจาก <b>intussusception ที่มี polyp เป็นจุดนำ</b> พบ polyp อีกหลายก้อน และมี<b>จุดสีน้ำตาลที่ริมฝีปากและเหงือก</b> → ถามชนิดของ polyp",
+  "why": "Polyp หลายก้อนในลำไส้เล็ก + <b>mucocutaneous pigmentation</b> (ริมฝีปาก เหงือก กระพุ้งแก้ม) = <b>Peutz-Jeghers syndrome</b> (STK11/LKB1, autosomal dominant แต่ราว 25% เป็น de novo จึงอาจไม่มีประวัติครอบครัว) · polyp เป็น <b>hamartomatous</b> (กล้ามเนื้อเรียบแตกแขนงแบบต้นไม้ — arborizing) พบมากในลำไส้เล็ก (jejunum) → เป็น<b>จุดนำของ intussusception</b> ในวัยรุ่น · เสี่ยงมะเร็งหลายระบบ (ลำไส้ เต้านม ตับอ่อน กระเพาะ รังไข่/ อัณฑะ) → เฝ้าระวังด้วยการส่องกล้อง/ capsule · ไฟล์ GS Supplementary คีย์ <b>\"D Harmatomatous polyp\"</b> (ไฮไลต์เขียว)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าวัยรุ่นมีติ่งเนื้อหลายร้อยอันในลำไส้ใหญ่ ร่วมประวัติครอบครัวมะเร็งลำไส้ใหญ่อายุน้อย — FAP",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่ส่องกล้องคัดกรองพบติ่งเล็กไม่กี่อันที่ rectosigmoid — ชนิดพบบ่อยที่แทบไม่กลายเป็นมะเร็ง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย IBD เรื้อรัง ส่องกล้องเห็นติ่งจำนวนมากจากเยื่อบุที่งอกใหม่หลังอักเสบ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก 2–8 ปีถ่ายเลือดสดไม่ปวด พบติ่งเดี่ยวที่ rectum — juvenile (retention) polyp"
+   "A": "Adenomatous polyp พบใน FAP/ Lynch ไม่มี mucocutaneous pigmentation · จะถูกถ้าวัยรุ่นมี polyp นับร้อยในลำไส้ใหญ่ APC mutation (FAP)",
+   "B": "Hyperplastic polyp เป็น polyp เล็กในลำไส้ใหญ่ส่วนปลาย ไม่ทำให้ intussusception ลำไส้เล็กและไม่สัมพันธ์กับจุดสีที่ปาก · จะถูกถ้าส่องกล้องคัดกรองพบ polyp ขนาด 3 mm ที่ rectosigmoid",
+   "C": "Inflammatory (pseudo)polyp พบในลำไส้อักเสบเรื้อรัง (UC/ Crohn) · จะถูกถ้าผู้ป่วย UC 15 ปีส่องกล้องพบ polyp จำนวนมากที่ลำไส้ใหญ่อักเสบ",
+   "E": "Retention (juvenile) polyp พบในเด็ก &lt; 10 ปี มักที่ rectum ทำให้ถ่ายเป็นเลือด ไม่มีจุดสีที่ปาก · จะถูกถ้าเด็ก 5 ปีถ่ายเป็นเลือดสดไม่เจ็บ มีก้อนยื่นจากทวารแล้วหลุด"
   },
-  "trap": "Juvenile (retention) polyp ก็เป็น hamartoma ชนิดหนึ่ง — แต่จุดสีที่ริมฝีปากร่วมติ่งในลำไส้เล็กที่ทำให้ลำไส้กลืนกัน ชี้ไปที่ Peutz–Jeghers",
+  "trap": "เห็น polyp + มะเร็งในครอบครัวแล้วตอบ adenoma — จุดสีที่ริมฝีปาก/ เหงือก = Peutz-Jeghers = hamartoma",
   "summary": [
-   "<b>นอกสไลด์:</b> PJS ที่มาด้วยลำไส้กลืนกัน: ผ่าตัดแก้แล้วตัดติ่งเนื้อออกให้มากที่สุดในครั้งเดียว (ส่องกล้องระหว่างผ่าตัด) เพื่อลดการผ่าตัดซ้ำ — ไม่ตัดลำไส้ยาวโดยไม่จำเป็นเพราะติ่งเกิดซ้ำตลอดชีวิต"
+   "Peutz-Jeghers: STK11 · hamartomatous polyp (ลำไส้เล็กมากสุด) + จุดสีที่ปาก",
+   "Intussusception ในวัยรุ่น/ ผู้ใหญ่ → หาจุดนำ (polyp/ tumor)",
+   "เสี่ยงมะเร็ง: ลำไส้ เต้านม ตับอ่อน กระเพาะ รังไข่ (SCTAT) อัณฑะ (Sertoli)",
+   "Juvenile polyposis: SMAD4/ BMPR1A · hamartoma ในลำไส้ใหญ่",
+   "Cowden: PTEN · hamartoma + มะเร็งเต้านม ไทรอยด์",
+   "FAP: APC · adenoma นับร้อย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ GS Supplementary",
+  "mnemonic": "<b>'ปากมีจุด ลำไส้มีติ่ง = Peutz-Jeghers = Hamartoma'</b>",
+  "guide": "ACG Clinical Guideline: Genetic Testing and Management of Hereditary Gastrointestinal Cancer Syndromes (Am J Gastroenterol 2015;110:223); ESGE Guideline: Peutz-Jeghers syndrome (Endoscopy 2019;51:877)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 10 ปีปวดท้องเป็นพัก ๆ ซีด มีจุดสีน้ำตาลรอบปาก → ส่อง capsule endoscopy/enteroscopy หาและตัดติ่งเนื้อใหญ่ในลำไส้เล็กก่อนเกิดลำไส้กลืนกัน"
+   "เด็กหญิง 12 ปีปวดท้องเป็นพัก จุดดำที่ริมฝีปาก US target sign → PJS + intussusception",
+   "วัยรุ่น polyp นับร้อยในลำไส้ใหญ่ → FAP → prophylactic colectomy",
+   "เด็ก 4 ปีถ่ายเลือดสด polyp เดี่ยวที่ rectum → juvenile polyp → polypectomy"
+  ],
+  "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 37 — ตัวพิมพ์: <b>18 year old male patient was presented with colicky mid abdominal pain, nausea and vomitting, and no stool or air per rectum. Initial investigation showed that he had complete small bowel obstruction. After resuscitation, he underwent open laparotomy and was found to have intussusception due to a polyp. Furthur evaluation of the bowel section shows few more polyps. The patient also had brownish macules at his lips and gum. He denied of any underlying and familial history of cancer. What should be the histological type of the polyps? — A. Adenomatous polyp B. Hyperplastic polyp C. Inflammatory polyp D. Harmatomatous polyp E. Retention polyp</b><br>ลายมือ/ ไฮไลต์ในไฟล์: ต้นฉบับ<b>ไม่มีเลขข้อ</b> (ขึ้นต้นด้วยตัวโจทย์เลย); <b>ลายมือสีฟ้า</b> “obstipation” + วงเล็บชี้ไปที่ “no stool or air per rectum”; <b>ขีดเส้นใต้</b> “colicky mid abdominal pain”, “nausea and vomitting”, “no stool or air per rectum”, “complete small bowel obstruction”, “intussusception due to a polyp”, “few more polyps”, “brownish macules at his lips and gum”; <b>ลูกศรสีฟ้า</b>เชื่อม “obstruction” กับ “intussusception due to a polyp”; <b>ไฮไลต์ฟ้า</b>ที่คำถาม “What should be the histological type of the polyps?”; ช้อย D <b>ไฮไลต์เขียว</b>ในเอกสาร (<b>ไม่มีไฮไลต์ฟ้าที่ช้อย</b>). <b>ข้อความที่แปะ</b>: “Peutz-Jeghers syndrome (PJS) is an autosomal dominant inherited disorder characterized by intestinal hamartomatous polyps in association with a distinct pattern of skin and mucosal macular melanin deposition. [1, 2] Patients with Peutz-Jeghers syndrome have an estimated 15-fold increased risk of developing intestinal cancer compared to the general population. [3–11]”. stem เกลาไวยากรณ์จากต้นฉบับ (ต้นฉบับสะกด “vomitting”, “Furthur”; “What should be the histological type” → “What is the most likely histological type”); ช้อย D ต้นฉบับสะกด “Harmatomatous”. <b>ข้อซ้ำกับข้อ 124 ในชุดนี้</b> — ตอบตรงกัน",
+  "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 37",
+  "kimg": [
+   "k71b_12"
   ]
  },
  "MDCU71|RoB|ไม่มีเลข 14": {
-  "interp": "จุดสีเข้มที่เยื่อบุปากและริมฝีปาก + ติ่งเนื้อในลำไส้ → Peutz–Jeghers · ถามชนิดติ่งเนื้อ (ข้อนี้เน้นความเสี่ยงมะเร็งและการเฝ้าระวัง)",
-  "why": "คีย์ในไฟล์ D <b>harmatomatous polyp</b><br><b>นอกสไลด์:</b> ติ่งเนื้อของ PJS เป็น hamartoma แต่ตัวโรคเสี่ยงมะเร็งตลอดชีวิตสูงมากหลายอวัยวะ — ลำไส้ใหญ่ กระเพาะ ลำไส้เล็ก ตับอ่อน เต้านม และอวัยวะสืบพันธุ์",
+  "interp": "ผู้ป่วยมี<b>จุดสีเข้มที่เยื่อบุปากและริมฝีปาก</b> และพบ polyp ในลำไส้ → ถามชนิด polyp",
+  "why": "จุดสีที่ mucocutaneous (ริมฝีปาก เยื่อบุปาก นิ้ว) + polyp ทางเดินอาหาร = <b>Peutz-Jeghers syndrome</b> (STK11) · polyp เป็น <b>hamartomatous</b> พบมากที่ลำไส้เล็ก ทำให้ลำไส้กลืนกัน อุดตัน เลือดออก · เสี่ยงมะเร็งตลอดชีวิตสูง (ลำไส้ใหญ่ เต้านม ตับอ่อน กระเพาะ อวัยวะสืบพันธุ์) → เฝ้าระวังด้วย EGD/ colonoscopy/ capsule เริ่มวัยเด็ก · ข้อนี้คล้ายข้อไม่มีเลข 6 ของ 71B · ไฟล์ GS Supplementary คีย์ <b>\"D harmatomatous polyp\"</b> (ไฮไลต์เขียว) และผู้จดวงเล็บ \"(Peutz-Jeghers syndrome)\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยมีก้อนกระดูก (osteoma) ฟันเกิน ร่วมติ่งเนื้อจำนวนมากในลำไส้ใหญ่ — Gardner syndrome (FAP ชนิดหนึ่ง)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าพบติ่งเนื้อเล็กสีซีดแบนที่ลำไส้ส่วนปลายจากการส่องคัดกรองในผู้ใหญ่ทั่วไป",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเคยลำไส้ใหญ่อักเสบรุนแรงจาก IBD แล้วส่องกล้องเห็นติ่งรูปนิ้วจำนวนมาก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าพบติ่งแบนใหญ่มีเมือกคลุมที่ลำไส้ใหญ่ด้านขวา — sessile serrated lesion"
+   "A": "Adenomatous polyp เป็นลักษณะของ FAP ไม่มีจุดสีที่ปาก · จะถูกถ้าผู้ป่วยมี polyp นับร้อยในลำไส้ใหญ่ร่วมกับ CHRPE (จุดที่จอตา)",
+   "B": "Hyperplastic polyp เป็น polyp ไม่ร้ายขนาดเล็กในลำไส้ใหญ่ส่วนปลาย · จะถูกถ้าคำถามถาม polyp ที่พบบ่อยที่สุดที่ rectosigmoid ขนาด &lt; 5 mm",
+   "C": "Inflammatory pseudopolyp พบในลำไส้อักเสบเรื้อรัง · จะถูกถ้าผู้ป่วย UC มี polyp จำนวนมากในส่วนที่เคยอักเสบ",
+   "E": "Sessile serrated lesion เป็นทางสู่มะเร็งแบบ serrated มักที่ลำไส้ใหญ่ขวา ไม่สัมพันธ์กับจุดสีที่ปาก · จะถูกถ้าส่องกล้องพบ polyp แบนมีเมือกคลุมที่ cecum ขนาด 12 mm"
   },
-  "trap": "ติ่งเนื้อเป็น hamartoma ชวนให้คิดว่าไม่เสี่ยงมะเร็ง — แต่ผู้ป่วย PJS เสี่ยงมะเร็งหลายระบบสูงมาก ต้องเฝ้าระวังตลอดชีวิต",
+  "trap": "สับสนระหว่าง polyposis syndrome — จุดสีที่ปาก = Peutz-Jeghers",
   "summary": [
-   "<b>นอกสไลด์:</b> เฝ้าระวัง PJS: ส่องกล้องบน–ล่างและตรวจลำไส้เล็ก (capsule/MR enterography) เริ่มราววัยเด็กตอนปลายแล้วทุก 2–3 ปี · คัดกรองเต้านม ตับอ่อน อัณฑะ/รังไข่ ปากมดลูกตามช่วงอายุ"
+   "PJS: จุดสีปาก + hamartoma (ลำไส้เล็ก)",
+   "STK11/LKB1 · autosomal dominant",
+   "ภาวะแทรกซ้อน: intussusception · อุดตัน · เลือดออก",
+   "เฝ้าระวังเริ่ม ~8 ปี (EGD, colonoscopy, capsule)",
+   "FAP: adenoma นับร้อย (APC)",
+   "Juvenile polyposis: hamartoma ในลำไส้ใหญ่ (SMAD4)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · ไฟล์ช้อย B, C, E ว่าง แต่งเพิ่ม · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ GS Supplementary · ต้นฉบับมีช้อยว่าง (B, C, E) จึงเติมให้ครบ",
+  "mnemonic": "<b>'Peutz-Jeghers = Pigment + Polyp hamartoma'</b>",
+  "guide": "ESGE Guideline: Diagnosis and Management of Peutz-Jeghers Syndrome (Endoscopy 2019;51:877)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กมีจุดสีน้ำตาลที่ริมฝีปาก ไม่มีอาการ พ่อเป็น PJS → ตรวจยีน STK11 และเริ่มเฝ้าระวังตามเกณฑ์",
-   "<b>นอกสไลด์:</b> เด็กชาย PJS เต้านมโตและโตเร็วกว่าวัย → เนื้องอกอัณฑะชนิด Sertoli cell ที่หลั่ง estrogen"
+   "หญิง 30 ปี PJS → เฝ้าระวังมะเร็งเต้านม ตับอ่อน และ GI",
+   "เด็ก PJS polyp ในลำไส้เล็ก 2 cm → enteroscopic polypectomy ป้องกันลำไส้กลืนกัน",
+   "วัยรุ่น polyp นับร้อยในลำไส้ใหญ่ → FAP"
+  ],
+  "notes": "ไฟล์ 01_2_MCQs_Key_1.pdf (General Surgery Supplementary) หน้า 39 — ตัวพิมพ์: <b>Xx. มี hyperpigmented macule at oral mucosa and lip เจอ polyp ในลำไส้ ถามว่าเป็น polyp อะไร(Peutz-Jeghers syndrome) — A. adenomatous polyp B. (ว่าง) C. (ว่าง) D. harmatomatous polyp E. (ว่าง)</b><br>ลายมือ/ ไฮไลต์ในไฟล์: <b>กากบาทสีแดงที่ขอบซ้าย</b> (ไฟล์นี้ใช้กากบาทแดงกับข้อที่ซ้ำข้อก่อนหน้า — ซ้ำกับข้อ PJS ชาย 18 ปีด้านบน คือข้อ 123 ในชุดนี้) ไม่ได้แปลว่าช้อยผิด; ต้นฉบับขึ้นต้น “Xx.”; <b>ช้อย D harmatomatous polyp ไฮไลต์เขียว</b> (ในเอกสาร) <b>ไม่มีไฮไลต์ฟ้า</b>; ไม่มีลายมือ ไม่มีรูปแปะ (ข้อความเรื่อง PJS แปะไว้ที่ข้อ 123); ช้อย B, C, E ว่าง (แต่ง Hyperplastic polyp, Inflammatory pseudopolyp, Sessile serrated lesion). ต้นฉบับท้ายโจทย์มีวงเล็บ <b>“(Peutz-Jeghers syndrome)”</b> ที่ผู้จดเขียนไว้ — <b>ตัดออกจาก stem</b> เพื่อไม่ใบ้; ต้นฉบับสะกด “harmatomatous”",
+  "src": "01_2_MCQs_Key_1.pdf (General Surgery Supplementary) · หน้า 39",
+  "kimg": [
+   "k71b_30"
   ]
  },
  "MDCU71|RoA|2": {
-  "interp": "ข้อ NOT: ข้อใดไม่ใช่ประโยชน์ของ 5-alpha-reductase inhibitor ใน BPH",
-  "why": "P'Ing กากบาท a · ลายมือ <b>เช่น finasteride · 6 mo ถึงเห็นผล ∴ 6 mo แรกให้ α-blocker ร่วมด้วยก่อน</b><br><b>นอกสไลด์:</b> 5-ARI ยับยั้งการเปลี่ยน testosterone เป็น DHT ต่อมค่อย ๆ ยุบลง ใช้เวลาหลายเดือน — อาการดีขึ้นช้า ส่วน α-blocker คลายกล้ามเนื้อเรียบ อาการดีขึ้นในไม่กี่วัน",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>ประโยชน์ของ <b>5-alpha-reductase inhibitor</b> ในการรักษา BPH",
+  "why": "5-ARI (<b>finasteride, dutasteride</b>) ยับยั้งการเปลี่ยน testosterone เป็น <b>DHT</b> → ต่อมลูกหมาก<b>ยุบลง ~20–30%</b> · ผลช้า ต้องใช้ <b>~6 เดือน</b>จึงเห็นผลชัด → <b>ไม่ได้บรรเทาอาการเร็ว</b> (ยาที่ออกฤทธิ์เร็วคือ alpha-blocker ภายในวัน–สัปดาห์) · ประโยชน์ระยะยาว: ลดความเสี่ยง <b>acute urinary retention</b> และ<b>ความจำเป็นต้องผ่าตัด (TURP)</b> ~50% โดยเฉพาะต่อมใหญ่ &gt; 30–40 mL · ลด PSA ราวครึ่งหนึ่ง (ต้องคูณ 2 เมื่อแปลผล) · ไฟล์ P'Ing กากบาท a ลายมือ <b>\"เช่น finasteride\"</b> <b>\"(6 mo. ถึงเห็นผล ∴ 6 mo แรกให้ α blocker ร่วมด้วยก่อน)\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การลดขนาดต่อมไม่ใช่ประโยชน์ของ 5-ARI เพราะการลด DHT ทำให้เนื้อต่อมฝ่อลง ได้ผลชัดในต่อมโต",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การลด DHT ไม่ใช่ผลของ 5-ARI เพราะเป็นกลไกของยาเอง (finasteride ยับยั้ง type 2, dutasteride ยับยั้งทั้ง type 1 และ 2)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การลดปัสสาวะคั่งเฉียบพลันไม่ใช่ประโยชน์ของ 5-ARI เพราะต่อมที่ยุบระยะยาวลดการอุดกั้นจนลดโอกาสปัสสาวะคั่งชัดเจน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การลดความจำเป็นต้องผ่าตัดไม่ใช่ประโยชน์ของ 5-ARI เพราะเป็นผลระยะยาวที่ α-blocker อย่างเดียวไม่ให้"
+   "B": "เป็นประโยชน์จริง — ลดขนาดต่อมลูกหมาก ~20–30% · จะถูกถ้าช้อยเป็นยา alpha-blocker (tamsulosin) ซึ่งไม่ลดขนาดต่อม",
+   "C": "เป็นประโยชน์จริง — ยับยั้งการสร้าง DHT (กลไกหลัก) · จะถูกถ้าช้อยบอกว่าลด testosterone ในเลือด (5-ARI ทำให้ testosterone สูงขึ้นเล็กน้อย)",
+   "D": "เป็นประโยชน์จริง — ลดความเสี่ยง AUR ระยะยาว (MTOPS, PLESS) · จะถูกถ้าช้อยบอกว่าใช้รักษา AUR ที่เกิดขึ้นแล้วทันที",
+   "E": "เป็นประโยชน์จริง — ลดโอกาสต้องผ่าตัด · จะถูกถ้าช้อยบอกว่าได้ผลเท่ากันในต่อมลูกหมากขนาดเล็ก &lt; 30 mL"
   },
-  "trap": "ยาทุกตัวของ BPH ชวนให้คิดว่าช่วยอาการเร็ว — 5-ARI ออกฤทธิ์ช้า ผลเด่นคือลดการลุกลาม (ปัสสาวะคั่ง ผ่าตัด)",
+  "trap": "คิดว่า 5-ARI ช่วยอาการเร็ว — ช้า 6 เดือน ตัวที่เร็วคือ alpha-blocker",
   "summary": [
-   "<b>นอกสไลด์:</b> ผลข้างเคียงของ 5-ARI: ความต้องการทางเพศลด หย่อนสมรรถภาพ น้ำอสุจิลด เต้านมโต · ลด PSA ราวครึ่งหลัง 6 เดือน (คูณ 2 เวลาแปลผล) · ใช้รักษาเลือดออกจากต่อมลูกหมากได้"
+   "Alpha-blocker (tamsulosin, doxazosin): ผลเร็ว ลดอาการ ไม่ลดขนาดต่อม",
+   "5-ARI (finasteride, dutasteride): ผลช้า ~6 เดือน ลดขนาดต่อม",
+   "5-ARI ลด AUR และการผ่าตัด · เหมาะต่อมใหญ่ &gt; 30–40 mL",
+   "Combination (MTOPS/ CombAT) ดีที่สุดในต่อมใหญ่",
+   "5-ARI ลด PSA ~50% → คูณ 2 เมื่อแปลผล",
+   "ผลข้างเคียง 5-ARI: libido ลด หย่อนสมรรถภาพ เต้านมโต"
   ],
-  "opinion": "เห็นด้วยกับคีย์ a (A) · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับกากบาท a และลายมือในไฟล์",
+  "mnemonic": "<b>'5-ARI = ช้าแต่ยุบ (Shrink) · Alpha-blocker = เร็วแต่ไม่ยุบ'</b>",
+  "guide": "AUA Guideline: Management of Lower Urinary Tract Symptoms Attributed to BPH (2021, amended 2023); EAU Guidelines on Non-neurogenic Male LUTS 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> BPH ต่อมใหญ่ 60 mL อาการมาก → α-blocker + 5-ARI ร่วมกัน (ดีกว่าตัวเดียวในต่อมใหญ่)",
-   "<b>นอกสไลด์:</b> BPH ต่อมเล็ก 25 mL อาการปัสสาวะไม่พุ่ง → α-blocker อย่างเดียว (5-ARI ได้ผลน้อยในต่อมเล็ก)"
+   "ชาย 70 ปี LUTS ต่อม 60 mL → alpha-blocker + 5-ARI",
+   "ชาย 60 ปี LUTS ต่อม 25 mL → alpha-blocker",
+   "ผู้ป่วยกิน finasteride 1 ปี PSA 2.5 → แปลผลเป็นประมาณ 5"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 19 — ตัวพิมพ์: <b>Uro 2.Which one is not the benefit of 5 alpha reductase inhibitor treatment for BPH? — a. It has fast action to relieve BPH symptom b. It can reduce BPH size c. It can reduce DHT d. It can prevent acute urinary retention from BPH e. It can reduce chance to do TURP</b><br>ลายมือ: \"เช่น finasteride\" เหนือ 5 alpha reductase inhibitor · กากบาท a · ขีดเส้นใต้แดง \"fast\" · \"(6 mo. ถึงเห็นผล ∴ 6 mo แรกให้ α blocker ร่วมด้วยก่อน)\"<br>ไฮไลต์: กากบาทช้อย a (ฟ้า) · ขีดเส้นใต้ \"not\" \"5 alpha reductase inhibitor\"",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 19",
+  "kimg": [
+   "fsp_p19",
+   "kp71a_2"
   ]
  },
  "MDCU71|RoA|9": {
-  "interp": "ทารกชายองคชาตเล็ก อัณฑะไม่ลงทั้งสองข้าง → อาจเป็นความผิดปกติของพัฒนาการทางเพศ (เช่น 46,XX CAH ที่อวัยวะเพศเป็นแบบชาย) · นอกจากโครโมโซมและฮอร์โมน ถามการตรวจที่สำคัญที่สุด",
-  "why": "P'Ing กากบาท 4 · ลายมือ <b>ระวังสงสัย congenital adrenal hyperplasia (CAH) ด้วย</b> + ตาราง CAH<br><b>นอกสไลด์:</b> CAH ชนิดขาด 21-hydroxylase ในทารกเพศพันธุกรรมหญิงทำให้อวัยวะเพศภายนอกเป็นแบบชายจนดูเหมือนเด็กชายอัณฑะไม่ลง — ชนิดเสียเกลือทำให้โซเดียมต่ำ โพแทสเซียมสูง ช็อกในสัปดาห์ที่ 1–3 จึงต้องตรวจเกลือแร่ (ร่วม 17-OHP) ทันที",
+  "interp": "ทารกแรกเกิด (ดูเป็นชาย) มี <b>micropenis + อัณฑะไม่ลงทั้งสองข้าง</b> นอกจากตรวจโครโมโซมและฮอร์โมนแล้ว ต้องตรวจอะไรต่อ",
+  "why": "Micropenis + <b>คลำอัณฑะไม่ได้ทั้งสองข้าง</b> = <b>ภาวะเพศกำกวม (DSD)</b> จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ภาวะที่<b>อันตรายถึงชีวิตและต้องคิดก่อน</b>คือ <b>CAH (21-hydroxylase deficiency) ในทารก 46,XX</b> ที่ถูก virilize จนดูเหมือนชายที่ไม่มีอัณฑะ · ชนิด salt-wasting จะเกิด<b>โซเดียมต่ำ โพแทสเซียมสูง ขาดน้ำ ช็อก</b>ในสัปดาห์ที่ 1–4 → ต้องตรวจ <b>serum electrolytes</b> (ร่วมกับ 17-OHP, karyotype, US อุ้งเชิงกราน) และติดตามซ้ำ · ไฟล์ P'Ing กากบาท 4 ลายมือ <b>\"ควรสงสัย congenital adrenal hypoplasia (CAH) ด้วย\"</b> พร้อมแปะแผนภาพการสร้างสเตียรอยด์และตาราง CAH",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าทารก hypospadias มีไข้ ซึม ดูดนมน้อย — หาการติดเชื้อทางเดินปัสสาวะ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าทารกชักหรือกล้ามเนื้อกระตุก ร่วมโรคหัวใจชนิด conotruncal และหน้าตาเฉพาะ — DiGeorge (22q11) ที่แคลเซียมต่ำ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกชายไตบวมน้ำสองข้าง ปัสสาวะลำเล็ก สงสัย posterior urethral valve — ประเมินการทำงานของไต",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกซีด ตัวเหลือง ม้ามโต หรือสงสัยติดเชื้อในกระแสเลือด"
+   "A": "UA ไม่ช่วยประเมินภาวะคุกคามชีวิตในทารกเพศกำกวม · จะถูกถ้าทารกมีไข้ไม่ทราบสาเหตุ หรือมี posterior urethral valve สงสัยติดเชื้อทางเดินปัสสาวะ",
+   "B": "แคลเซียมไม่สัมพันธ์กับ CAH/ DSD · จะถูกถ้าทารกมี DiGeorge syndrome (หัวใจพิการ ไม่มีต่อมไทมัส ชักจากแคลเซียมต่ำ)",
+   "C": "Creatinine ใช้ประเมินการทำงานของไต ไม่ช่วยคัดกรองวิกฤตเกลือ · จะถูกถ้าทารกมี hydronephrosis สองข้างจาก posterior urethral valve",
+   "E": "CBC ไม่จำเพาะต่อ DSD · จะถูกถ้าทารกซีด ตัวเหลือง สงสัยเลือดจาง/ ติดเชื้อ"
   },
-  "trap": "อัณฑะไม่ลงสองข้างร่วมองคชาตเล็กไม่ใช่ undescended testis ธรรมดา — ต้องคิดถึง DSD และ CAH ที่ถึงตายได้จากเสียเกลือ",
+  "trap": "คิดว่าเป็นแค่อัณฑะไม่ลง — ทั้งสองข้าง + micropenis = DSD ต้องหา CAH ที่ทำให้เสียเกลือถึงตาย",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ประเมิน DSD: คลำอัณฑะไม่ได้ทั้งสองข้าง · hypospadias ส่วนต้นร่วมอัณฑะไม่ลง · องคชาตเล็กร่วมอัณฑะไม่ลง · อวัยวะเพศกำกวม → karyotype, 17-OHP, เกลือแร่, อัลตราซาวนด์หามดลูก"
+   "Bilateral nonpalpable testes ± micropenis → DSD work-up",
+   "ต้องหา CAH (46,XX virilized) ก่อน: electrolytes, 17-OHP, karyotype, US",
+   "Salt-wasting crisis: Na ↓ K ↑ สัปดาห์ที่ 1–4",
+   "Micropenis: stretched length &lt; 2.5 SD (ทารกครบกำหนด &lt; 2.5 cm)",
+   "อัณฑะไม่ลงข้างเดียว → orchiopexy อายุ 6–18 เดือน",
+   "Hypogonadotropic hypogonadism/ GH deficiency → micropenis + hypoglycemia"
   ],
-  "opinion": "เห็นด้วยกับคีย์ 4 (D) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับกากบาท 4 และลายมือในไฟล์ · ลายมือเขียน \"hypoplasia\" แต่ CAH คือ congenital adrenal <b>hyperplasia</b> (adrenal hypoplasia congenita ก็ทำให้เสียเกลือได้เช่นกัน จึงยังตอบ electrolytes)",
+  "mnemonic": "<b>'อัณฑะไม่ลงสองข้าง + จู๋เล็ก = คิด CAH ไว้ก่อน → เจาะเกลือแร่'</b>",
+  "guide": "Lee PA et al. Global Disorders of Sex Development Update since 2006 (Horm Res Paediatr 2016;85:158); Endocrine Society CAH Guideline (J Clin Endocrinol Metab 2018;103:4043)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 2 สัปดาห์ อาเจียน น้ำหนักลด Na 125 K 7.0 อวัยวะเพศดูเป็นชายแต่คลำอัณฑะไม่ได้ → salt-wasting CAH ให้ NSS และ hydrocortisone",
-   "<b>นอกสไลด์:</b> ทารกชายองคชาตเล็ก ร่วมน้ำตาลต่ำและตัวเหลืองนาน → hypopituitarism (ขาด GH, ACTH และ gonadotropin)"
+   "ทารกอวัยวะเพศกำกวม คลำอัณฑะไม่ได้ 17-OHP สูง → CAH 46,XX",
+   "ทารกชายอัณฑะไม่ลงข้างเดียว อวัยวะเพศปกติ → นัดติดตาม orchiopexy 6–18 เดือน",
+   "ทารกชาย micropenis น้ำตาลต่ำ ตัวเหลืองนาน → hypopituitarism"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 19 — ตัวพิมพ์: <b>Uro 9. Male newborn with micropenis and undescended testis. Apart from chromosomal study and hormonal evaluation. ต้องตรวจอะไรต่อ? — 1. UA 2. serum calcium 3. serum creatinine 4. serum electrolyte 5. CBC</b><br>ลายมือ: \"ควรสงสัย congenital adrenal hypoplasia (CAH) ด้วย\" เหนือ micropenis · กากบาท 4<br>ไฮไลต์: กากบาทช้อย 4 (ฟ้า) · \"ต้องตรวจอะไร\" (ฟ้า) · ขีดเส้นใต้ \"micropenis and undescended testis\" \"chromosomal study\" \"hormonal evaluation\"<br>รูปที่แปะ: แผนภาพ Adrenal steroids and congenital adrenal hyperplasias (เส้นทางสร้าง aldosterone, cortisol, androgen) · ตาราง ENZYME DEFICIENCY — 17α-hydroxylase (mineralocorticoids ↑ cortisol ↓ sex hormones ↓ BP ↑ K ↓: XY ambiguous genitalia, undescended testes; XX lacks 2° sexual development) · 21-hydroxylase (mineralocorticoids ↓ cortisol ↓ sex hormones ↑ BP ↓ K ↑, ↑ renin, ↑ 17-hydroxyprogesterone: most common, presents in infancy (salt wasting) or childhood (precocious puberty), XX virilization) · 11β-hydroxylase (aldosterone ↓ 11-deoxycorticosterone ↑ BP ↑ K ↓: XX virilization)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 19",
+  "kimg": [
+   "fsp_p19",
+   "kp71a_9"
   ]
  },
  "MDCU71|RoA|12": {
-  "interp": "หญิง 55 ปี ไตขวาฝ่อมีนิ่ว staghorn เต็ม ไตข้างนี้ทำงาน 5% ของทั้งหมด → ถามการจัดการนิ่ว",
-  "why": "P'Ing กากบาท · ลายมือ <b>แก้ cause ไปไตก็ไม่กลับมา ∴ ตัดไตไปเลย · stone → back pressure → renal failure</b> + ตารางไตที่ทำงาน &lt;10% ควรตัดไตทิ้ง<br><b>นอกสไลด์:</b> ไตที่แทบไม่ทำงาน เอานิ่วออกก็ไม่ฟื้น แต่ยังเป็นแหล่งติดเชื้อ (staghorn มักเป็น struvite ที่มีเชื้อ) และปวด — ตัดไตทิ้งได้ผลเด็ดขาด (มักผ่านกล้อง)",
+  "interp": "หญิง 55 ปี microscopic hematuria ไม่มีอาการ <b>ไตขวาฝ่อ มีนิ่วเขากวางเต็มไต การทำงานไตขวาเพียง 5%</b> → ถามการจัดการนิ่ว",
+  "why": "นิ่วเขากวางอุดค้างนาน → <b>back pressure → ไตเสื่อมถาวร</b> · เมื่อไตข้างนั้น<b>ทำงาน &lt; 10–15% ของไตทั้งหมด</b> (จาก renal scan, DMSA/ MAG3) การเอานิ่วออกไม่ทำให้ไตฟื้น แต่ไตที่เหลือยังเป็น<b>แหล่งติดเชื้อ (xanthogranulomatous pyelonephritis), ปวด, ความดันสูง, นิ่วซ้ำ</b> → <b>nephrectomy</b> (มัก laparoscopic) เป็นการรักษาที่เหมาะสม · ไตทำงานพอ → PCNL เป็นมาตรฐานของนิ่วเขากวาง · ไฟล์ P'Ing กากบาท Nephrectomy ลายมือ <b>\"แก้ cause ไป ไตก็ไม่กลับมา ∴ ตัดไตไปเลย\"</b> <b>\"stone → back pressure → renal failure\"</b> และแปะตำรา \"ถ้าไตข้างนั้นทำงานน้อยกว่า 10% ของการทำงานของไตทั้งสองข้างก็ควรตัดไตข้างนั้นทิ้ง\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้านิ่ว staghorn ซับซ้อนมากในไตที่ยังทำงานดี ที่ PCNL หลายครั้งเอาไม่หมด — ผ่าเปิดเนื้อไตตามแนวที่เลือดเลี้ยงน้อยเอานิ่วออก (ปัจจุบันใช้น้อยมาก)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้านิ่ว staghorn อยู่ในไตที่ยังทำงานดี — PCNL เป็นการรักษาหลัก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้านิ่วในไตขนาดเล็ก (ราว ≤ 2 cm) ไม่อยู่ใน lower pole ที่ระบายไม่ดี และไตทำงานดี",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นนิ่ว uric acid (ภาพธรรมดามองไม่เห็น) — potassium citrate ทำให้ปัสสาวะด่างสลายนิ่ว"
+   "B": "Anatrophic nephrolithotomy เป็นการผ่าเปิดเนื้อไตเอานิ่วออกเพื่อเก็บไต ไม่มีประโยชน์ในไตที่ทำงาน 5% · จะถูกถ้านิ่วเขากวางซับซ้อนมากในไตที่ทำงานดี และ PCNL ทำไม่ได้ (ปัจจุบันใช้น้อย)",
+   "C": "PCNL เป็นมาตรฐานของนิ่วเขากวางในไตที่ยังทำงาน · จะถูกถ้าไตข้างนั้นทำงาน 40% มีนิ่วเขากวางเต็มไต",
+   "D": "SWL ไม่เหมาะกับนิ่วเขากวาง (ก้อนใหญ่ เศษนิ่วอุด) และไม่เกี่ยวกับไตที่เสียแล้ว · จะถูกถ้านิ่วในไต &lt; 2 cm ในกรวยไต ไตทำงานดี",
+   "E": "การละลายนิ่วใช้ได้กับนิ่ว uric acid (ทำปัสสาวะเป็นด่าง) ไม่ใช่นิ่วเขากวางที่มักเป็น struvite · จะถูกถ้านิ่วโปร่งรังสี (uric acid) ปัสสาวะเป็นกรด → potassium citrate"
   },
-  "trap": "นิ่ว staghorn ชวนตอบ PCNL ซึ่งเป็นมาตรฐาน — แต่ไตข้างนี้ทำงานเพียง 5% การเอานิ่วออกไม่ได้ช่วยไต",
+  "trap": "พยายามเก็บไตที่เสียแล้วด้วยการเอานิ่วออก — ไตทำงาน &lt; 10% ตัดไตออก",
   "summary": [
-   "<b>นอกสไลด์:</b> ประเมินการทำงานแยกข้างด้วย DMSA/MAG3 scan · ไตที่ทำงาน &lt; 10–15% ร่วมนิ่ว ติดเชื้อซ้ำ หรือปวด → พิจารณาตัดไต · นิ่ว staghorn ที่ไม่รักษาเสี่ยงไตเสียและติดเชื้อรุนแรง จึงไม่ปล่อยไว้"
+   "นิ่วเขากวาง: มักเป็น struvite (Proteus, urease) · ต้องเอาออกหมด",
+   "ไตทำงานดี → PCNL (มาตรฐาน)",
+   "ไตทำงาน &lt; 10–15% → nephrectomy",
+   "ประเมินการทำงานแยกข้าง: DMSA/ MAG3 renal scan",
+   "ไตอุดตันเฉียบพลัน → ระบายก่อน (PCN/ DJ) แล้วประเมิน creatinine clearance",
+   "Xanthogranulomatous pyelonephritis: ไตไม่ทำงาน + นิ่ว + ติดเชื้อเรื้อรัง → nephrectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ nephrectomy (A) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับกากบาทและลายมือ/ ตำราที่แปะในไฟล์",
+  "mnemonic": "<b>'ไตทำงาน &lt; 10% + นิ่ว = ตัดไต (แก้นิ่วไปไตก็ไม่กลับ)'</b>",
+  "guide": "AUA/ Endourological Society Guideline: Surgical Management of Stones (2016, amended 2026); EAU Guidelines on Urolithiasis 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> นิ่ว staghorn ในไตข้างเดียวที่เหลืออยู่ ทำงานลดลง → ยังต้อง PCNL เก็บไต ไม่ตัดไต",
-   "<b>นอกสไลด์:</b> ไตไม่ทำงานจากนิ่ว CT เห็นไตโตมีนิ่ว เนื้อไตแทนที่ด้วยก้อนไขมันและฝีลามออกนอกไต → xanthogranulomatous pyelonephritis ต้องตัดไต"
+   "นิ่วเขากวาง ไตทำงาน 45% → PCNL",
+   "ไตไม่ทำงาน + นิ่ว + ไข้เรื้อรัง CT bear paw sign → xanthogranulomatous pyelonephritis → nephrectomy",
+   "นิ่วอุดตันไต creatinine สูง → PCN ระบายก่อน แล้ววัดการทำงานใน 2–3 เดือน"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 19 — ตัวพิมพ์: <b>Uro 12. 55 yr female asymptomatic microscopic hematuria right kidney atrophic with complete staghorn right kidney function 5% ทำไงกับ stone ดี — Nephrectomy 2.ANL 3.PSL 4.SWL 5.Chemodialysis</b><br>ลายมือ: กรอบ \"stone → back pressure → renal failure\" · วง \"5%\" + \"แก้ cause ไป ไตก็ไม่กลับมา ∴ ตัดไตไปเลย\" (แดง) · 2 \"= anatrophic nephrolithotomy\" · 4 \"= shock wave lithotripsy\" · กากบาท Nephrectomy<br>ไฮไลต์: กากบาท Nephrectomy (ฟ้า) · \"stone ดี\" · ขีดเส้นใต้ \"microscopic hematuria\" \"right kidney atrophic with complete staghorn\" \"right kidney function\"<br>รูปที่แปะ: ตำรา TREATMENT → obstructive uropathy — หลักการรักษาคือแก้ไขสาเหตุของการอุดกั้น … ในรายที่ไตเสื่อมประสิทธิภาพมาก จำเป็นต้องทราบว่าไตข้างนั้นจะสามารถกลับมาทำงานได้หรือไม่หลังแก้ไขการอุดกั้นแล้ว เพื่อตัดสินใจว่าจะแก้ไขการอุดกั้น หรือตัดไตข้างนั้นทิ้งเสียเลย · 1. การระบายให้ปัสสาวะออกก่อน เช่น ใส่ percutaneous nephrostomy หรือใส่ double-J ureteral stent … แล้ววัด creatinine clearance ถ้าไตข้างนั้นไม่สามารถกลับมามี creatinine clearance มากกว่า 6-10 มล./นาทีภายในเวลา 2-3 เดือน ก็ควรตัดไตข้างนั้นทิ้ง · 2. ใช้ radioisotope renal scan … ถ้าไตข้างนั้นทำงานน้อยกว่า 10% ของการทำงานของไตทั้งสองข้างก็ควรตัดไตข้างนั้นทิ้ง · ลายมือด้านขวาถูกสไลด์บังบางส่วน (\"…ephrolithotomy (ทำหลายครั้ง จนนิ่วหมด)\")",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 19",
+  "kimg": [
+   "fsp_p19",
+   "kp71a_12"
   ]
  },
  "MDCU71|RoA|15": {
-  "interp": "หญิง 75 ปี เจ็บอก เหนื่อย เสียงฟู่ systolic ที่ right upper sternal border → ถามการวินิจฉัย (ข้อนี้เน้นตำแหน่งฟังเสียง)",
-  "why": "P'Ing กากบาท AS + แปะรูป <b>auscultation areas</b><br><b>นอกสไลด์:</b> Right upper sternal border (ช่องซี่โครงที่ 2 ขวา) = aortic area · เสียงฟู่ systolic ejection (crescendo–decrescendo) ร้าวขึ้นคอในผู้สูงอายุ = AS จากลิ้นหินปูน · เจ็บอกเกิดจากกล้ามเนื้อหัวใจหนาที่ต้องการออกซิเจนมาก",
+  "interp": "หญิง 75 ปี <b>เจ็บหน้าอก + หอบเหนื่อย</b> ฟังได้ <b>systolic murmur ที่ขอบอกขวาบน (RUSB)</b> → ถามวินิจฉัย",
+  "why": "Systolic (ejection, crescendo-decrescendo) murmur ที่ <b>aortic area (RUSB)</b> ร้าวขึ้นคอ ในผู้สูงอายุ = <b>aortic stenosis</b> (ส่วนใหญ่เป็นแบบเสื่อม/ หินปูน) · อาการคลาสสิก <b>angina, syncope, dyspnea (heart failure)</b> — เมื่อมีอาการพยากรณ์แย่ลงมาก (อยู่รอดเฉลี่ย 2–5 ปี) · ตรวจ: pulsus parvus et tardus, S2 เบา · echo: valve area &lt; 1.0 cm², mean gradient ≥ 40 mmHg, Vmax ≥ 4 m/s = severe · รักษา severe AS มีอาการ → <b>AVR (SAVR หรือ TAVI)</b> · ไฟล์ P'Ing กากบาท AS และแปะภาพ<b>ตำแหน่งฟังเสียงหัวใจ</b> (Aortic area: systolic murmur — aortic stenosis)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ MS ให้เสียงฟู่ systolic ที่ RUSB เพราะ MS เป็นเสียงฟู่ช่วง diastole (rumble) ที่ยอดหัวใจ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ PS ดังที่สุดที่ RUSB เพราะ pulmonic area อยู่ช่องซี่โครงที่ 2 ซ้าย",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าลิ้นไมทรัลใบหลังย้อย ลำรั่วพุ่งไปด้านหน้า เสียงฟู่ pansystolic ร้าวขึ้นฐานหัวใจจนคล้าย AS — แยกด้วย echo",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ AR เป็นเสียงฟู่ systolic เป็นหลัก เพราะ AR เป็นเสียงฟู่ช่วงต้น diastole แบบเป่า"
+   "B": "MS เป็น diastolic rumble ที่ apex มี opening snap · จะถูกถ้าหญิง 35 ปี AF ไอเป็นเลือด ฟัง diastolic rumble ที่ apex",
+   "C": "PS เป็น systolic ejection murmur ที่ขอบอกซ้ายบน (pulmonic area) มักพบในเด็ก · จะถูกถ้าเด็กมี systolic ejection click + SEM ที่ LUSB",
+   "D": "MR เป็น holosystolic ที่ apex ร้าวไปรักแร้ · จะถูกถ้าผู้ป่วยหลัง MI หอบเฉียบพลัน ฟัง holosystolic murmur ที่ apex",
+   "E": "AR เป็น early diastolic decrescendo ที่ขอบอกซ้าย ชีพจรแรง pulse pressure กว้าง · จะถูกถ้าผู้ป่วย Marfan ชีพจรเต้นแรง pulse pressure กว้าง early diastolic murmur"
   },
-  "trap": "จำตำแหน่งฟัง: aortic = ช่องซี่โครงที่ 2 ขวา · pulmonic = ช่องที่ 2 ซ้าย · tricuspid = ขอบซ้ายกระดูกอกส่วนล่าง · mitral = ยอดหัวใจ — แล้วดูว่าเป็น systole หรือ diastole",
+  "trap": "สับสนตำแหน่ง — RUSB = aortic area, LUSB = pulmonic area",
   "summary": [
-   "<b>นอกสไลด์:</b> AS รุนแรงบอกด้วย S2 เบาหรือหาย ชีพจรขึ้นช้าและเบา (pulsus parvus et tardus) เสียงฟู่ peak ช้า — ความดังไม่บอกความรุนแรง (หัวใจล้มเหลวเสียงจะเบาลง)"
+   "AS: SEM crescendo-decrescendo ที่ RUSB ร้าวขึ้นคอ",
+   "อาการ: angina · syncope · dyspnea (SAD)",
+   "ผู้สูงอายุ: degenerative calcific · อายุน้อย: bicuspid",
+   "Severe: AVA &lt; 1.0 cm² · mean gradient ≥ 40 · Vmax ≥ 4 m/s",
+   "Severe + อาการ → AVR (SAVR/ TAVI)",
+   "Heyde syndrome: AS + angiodysplasia เลือดออก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ AS (A) · ไฟล์มี 3 ช้อย เติม · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับกากบาท AS และภาพที่แปะในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'RUSB systolic = AS (SAD: Syncope Angina Dyspnea)'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72); 2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายอายุ 40 มีเสียงฟู่แบบ AS ร่วม ejection click → bicuspid aortic valve",
-   "<b>นอกสไลด์:</b> เสียงฟู่ systolic ที่ขอบซ้ายกระดูกอก ดังขึ้นเวลา Valsalva หรือยืน เบาลงเวลานั่งยอง → HOCM ไม่ใช่ AS"
+   "ชาย 80 ปีหน้ามืดเวลาออกแรง AVA 0.7 cm² → TAVI/ SAVR",
+   "ชาย 40 ปี SEM ที่ RUSB echo bicuspid aortic valve → ติดตาม",
+   "ผู้ป่วย AS ถ่ายเป็นเลือดซ้ำ → angiodysplasia (Heyde syndrome)"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 19–20 — ตัวพิมพ์: <b>CVT 15. หญิง 75 chest pain dyspnea ฟัง systolic murmur ที่ RUPSB เป็นอะไร — AS 2. MS 3. PS</b><br>ลายมือ: กากบาท AS<br>ไฮไลต์: กากบาท AS (ม่วง) · \"เป็นอะไร\" · ขีดเส้นใต้แดง \"systolic murmur ที่ RUPSB\"<br>รูปที่แปะ: ภาพ Where to listen — ตำแหน่ง Aortic area (systolic murmur: aortic stenosis), Pulmonic area, Tricuspid area, Mitral area พร้อมรายชื่อเสียงฟู่แต่ละตำแหน่ง<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 19",
+  "kimg": [
+   "fsp_p19",
+   "kp71a_15a",
+   "kp71a_15b"
   ]
  },
  "MDCU71|RoA|20": {
-  "interp": "ชาย 60 ปีปวดศีรษะรุนแรงทันที คอแข็ง ไม่มี deficit CT ไม่ฉีดสีปกติ → ยังตัด SAH ไม่ได้ · ถามการตรวจถัดไป",
-  "why": "P'Ing กากบาท 3 · ลายมือ <b>สงสัย subarachnoid hemorrhage = ยัง R/O SAH ไม่ได้</b><br><b>นอกสไลด์:</b> CT ไวลดลงเมื่อเวลาผ่านไปเพราะเลือดใน CSF ถูกชะล้าง — CT ปกติในผู้ที่มาเกินราว 6 ชม. ต้องเจาะหลังหา xanthochromia และเม็ดเลือดแดง",
+  "interp": "ชาย 60 ปี <b>ปวดหัวรุนแรงทันที + คอแข็ง</b> ไม่มี neurological deficit <b>CT ไม่ฉีดสีปกติ</b> → ถามการตรวจต่อ",
+  "why": "ปวดหัวรุนแรงทันที (thunderclap) + คอแข็ง = <b>สงสัย subarachnoid hemorrhage</b> · CT ไม่ฉีดสีไวสูงมากภายใน 6 ชม. แต่ความไวลดลงตามเวลา ถ้า CT ปกติแต่ยังสงสัย → <b>lumbar puncture</b> (ควรเจาะหลังเริ่มปวด ≥ 6–12 ชม.) ดู <b>xanthochromia</b>/ RBC ที่ไม่ลดลงในหลอดหลัง ๆ เพื่อ<b>ตัด SAH ออก</b> · ถ้า LP บวก → CTA/ DSA หา aneurysm · (ทางเลือกปัจจุบัน: CTA ได้ในบางสถาบัน) · ไฟล์ P'Ing กากบาท 3 ลายมือ <b>\"สงสัย Subarachnoid hemorrhage\"</b> <b>\"= ยัง R/O SAH ไม่ได้\"</b> และแปะตำรา \"การทำ lumbar puncture (LP) ในรายที่สงสัยเป็นการตรวจที่สำคัญเพื่อ exclude SAH\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัยฝีหรือเนื้องอกในสมอง (ไข้ มะเร็งเดิม ปวดค่อยเป็นค่อยไป) — ฉีดสีช่วยเห็นขอบวงของก้อน",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ายืนยันแล้วว่ามีเลือดใน subarachnoid — หาหลอดเลือดโป่งพองเพื่อวางแผนรักษา",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเหม่อหรือกระตุกเป็นพัก ๆ สงสัยชักชนิดที่ไม่เกร็งกระตุกชัด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผู้สงสัย SAH ควรรอ CT ซ้ำ 1 สัปดาห์ เพราะ aneurysm ที่รั่วเสี่ยงแตกซ้ำสูงสุดในวันแรก ๆ และ CT ยิ่งไม่เห็นเลือดเมื่อเวลาผ่านไป"
+   "A": "CT ฉีดสีไม่ช่วยหาเลือดใน subarachnoid (สารทึบรังสีบดบัง) · จะถูกถ้าสงสัยก้อนเนื้องอก/ ฝีในสมอง",
+   "B": "Angiogram ทำหลังยืนยัน SAH แล้ว (จาก CT หรือ LP) เพื่อหา aneurysm · จะถูกถ้า CT พบเลือดใน basal cisterns หรือ LP พบ xanthochromia",
+   "D": "EEG ใช้ประเมินชัก ไม่ช่วยวินิจฉัย SAH · จะถูกถ้าผู้ป่วยซึมต่อเนื่องหลังชัก สงสัย nonconvulsive status",
+   "E": "รอ CT ซ้ำ 1 สัปดาห์เสี่ยงเลือดออกซ้ำจาก aneurysm ซึ่งอัตราตายสูง · จะถูกถ้าไม่ได้สงสัย SAH และเป็นการติดตามรอยโรคอื่น"
   },
-  "trap": "CT ปกติชวนให้ส่งกลับบ้าน — ปวดศีรษะทันทีแบบ thunderclap ต้องตัด SAH ให้ได้ก่อน",
+  "trap": "CT ปกติแล้วตัด SAH ทิ้ง — ยังต้อง LP (xanthochromia) เมื่อสงสัย",
   "summary": [
-   "<b>นอกสไลด์:</b> ปวดศีรษะ thunderclap: CT ภายใน 6 ชม.ที่รังสีแพทย์อ่านว่าปกติ → ตัด SAH ได้ · เกิน 6 ชม. CT ปกติ → LP (xanthochromia เชื่อถือได้เมื่อ ≥ 12 ชม.) หรือ CTA"
+   "Thunderclap headache → NCCT ทันที",
+   "CT ปกติแต่ยังสงสัย → LP (≥ 6–12 ชม.) ดู xanthochromia",
+   "LP/ CT บวก → CTA/ DSA หา aneurysm",
+   "Hunt-Hess/ WFNS grade ประเมินความรุนแรง",
+   "Nimodipine ป้องกัน vasospasm (วันที่ 4–14)",
+   "Secure aneurysm เร็ว (coiling/ clipping) ป้องกันเลือดออกซ้ำ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ 3 (C) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับกากบาท 3 และลายมือ/ ตำราในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'ปวดหัวฟ้าผ่า CT ปกติ = เจาะหลัง (หา xanthochromia)'</b>",
+  "guide": "2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยกินยาต้านการแข็งตัวหรือเกล็ดเลือดต่ำ เจาะหลังไม่ได้ → CTA แทนเพื่อหา aneurysm",
-   "<b>นอกสไลด์:</b> SAH ร่วมรูม่านตาข้างเดียวขยายและหนังตาตก → aneurysm ของ posterior communicating artery กด CN III"
+   "ปวดหัวทันที 3 ชม. CT เห็นเลือดใน basal cisterns → CTA หา aneurysm",
+   "LP พบ xanthochromia → CTA/ DSA",
+   "SAH จาก aneurysm → nimodipine + coiling/ clipping"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 20 — ตัวพิมพ์: <b>Neuro 20.ผู้ป่วยชาย อายุ 60 ปี sudden severe headache มาโรงพยาบาล no neurological deficit stiffneck positive non contrast ct ปกติ ส่งอะไรต่อ — 1.CONTRAST CT 2.angiogram 3.lumbar puncture</b><br>ลายมือ: กรอบ \"สงสัย Subarachnoid hemorrhage\" เชื่อม sudden severe headache กับ stiffneck · \"= ยัง R/O SAH ไม่ได้\" · กากบาท 3<br>ไฮไลต์: กากบาท 3 (ชมพู) · \"ส่งอะไรต่อ\" (ชมพู) · ขีดเส้นใต้ \"sudden severe headache\" \"stiffneck positive\" \"non contrast ct ปกติ\"<br>รูปที่แปะ: ตำรา การตรวจทางห้องปฏิบัติการ — การตรวจทางรังสีเบื้องต้นที่ดีที่สุดคือ Non-contrast cranial CT scan … พบเป็น hyperdensity lesion อยู่ที่ basal cisterns … การทำ lumbar puncture (LP) ในรายที่สงสัยเป็นการตรวจที่สำคัญเพื่อ exclude SAH … การตรวจ CSF พบ xanthochromia …<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 20",
+  "kimg": [
+   "fsp_p20",
+   "kp71a_20"
   ]
  },
  "MDCU71|RoA|25": {
-  "interp": "ชาย 45 ปี เบาหวานและ HIV ปวดศีรษะ 3 สัปดาห์ ซึม 4 วัน แขนขาขวาอ่อนแรงเล็กน้อย → รอยโรคในสมองผู้ภูมิต่ำ · ถามการวินิจฉัยที่น่าจะเป็นที่สุด",
-  "why": "P'Ing กากบาท Toxoplasmosis · ลายมือ <b>immunocompromised</b><br><b>นอกสไลด์:</b> Toxoplasmosis เป็นรอยโรคในสมองที่พบบ่อยที่สุดในผู้ป่วย HIV ที่ CD4 &lt; 100 — หลายก้อนขอบวงที่ basal ganglia/รอยต่อเนื้อเทาเนื้อขาว ไข้ ปวดศีรษะ อาการเฉพาะที่ ซึม · รักษาลอง (pyrimethamine + sulfadiazine หรือ TMP-SMX) แล้วดูว่าก้อนยุบใน 2 สัปดาห์",
+  "interp": "ชาย 45 ปี <b>เบาหวานและ HIV</b> ปวดหัว 3 สัปดาห์ ซึม 4 วัน แขนขาขวาอ่อนแรงเล็กน้อย (4/5) → ถามวินิจฉัย",
+  "why": "ผู้ป่วย <b>HIV (ภูมิคุ้มกันต่ำ)</b> + อาการทางสมองแบบก้อน (ปวดหัว ซึม อ่อนแรงซีกเดียว) ดำเนินหลายวัน–สัปดาห์ = <b>cerebral toxoplasmosis</b> (โรคก้อนในสมองที่พบบ่อยที่สุดใน AIDS, CD4 &lt; 100) · ภาพ: ring-enhancing หลายก้อนที่ basal ganglia/ รอยต่อเนื้อเทา-ขาว · รักษาตามประสบการณ์ <b>pyrimethamine + sulfadiazine + leucovorin</b> แล้วดูภาพซ้ำใน 2 สัปดาห์ · ไม่ดีขึ้น → biopsy (CNS lymphoma) · ไฟล์ P'Ing กากบาท Toxoplasmosis ลายมือ <b>\"immunocompromised\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุมีมะเร็งปอดหรือเต้านม ไม่มีภูมิบกพร่อง ก้อนหลายก้อนที่รอยต่อเนื้อเทาเนื้อขาวบวมรอบมาก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ามีแหล่งติดเชื้อชัด (หูน้ำหนวก ไซนัส ฟันผุ หัวใจเขียว IE) ก้อนเดี่ยวขอบวงบางเรียบ ตรงกลาง DWI จำกัดการแพร่",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าคนจากชนบทมาด้วยชักเป็นหลัก ภาพเป็นถุงน้ำมีจุด scolex หรือจุดหินปูนหลายจุด",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงวัยกลางคนอาการค่อยเป็นค่อยไปหลายเดือน ก้อนติด dura เพิ่มสีสม่ำเสมอ มี dural tail"
+   "A": "Metastasis ต้องมีประวัติมะเร็ง ไม่สัมพันธ์กับ HIV โดยตรง · จะถูกถ้าผู้ป่วยมะเร็งปอดมีก้อน ring หลายก้อนบวมมาก",
+   "B": "ฝีจากแบคทีเรียมีแหล่งติดเชื้อชัด (หู ไซนัส ฟัน หัวใจ) มักก้อนเดี่ยว · จะถูกถ้าผู้ป่วยหูน้ำหนวกเรื้อรัง ไข้ ปวดหัว ก้อน ring เดี่ยวที่ temporal",
+   "D": "Cysticercosis พบในคนภูมิปกติจากพื้นที่ระบาด อาการเด่นคือชัก ถุงน้ำมี scolex · จะถูกถ้าวัยรุ่นชักครั้งแรก MRI ถุงน้ำเล็กหลายก้อนมีจุดตรงกลาง",
+   "E": "Meningioma โตช้าหลายเดือน–ปี ไม่สัมพันธ์กับภูมิคุ้มกัน · จะถูกถ้าหญิงวัยกลางคนอ่อนแรงค่อยเป็นหลายเดือน MRI ก้อน extra-axial มี dural tail"
   },
-  "trap": "เบาหวานชวนคิดถึงฝีแบคทีเรีย — แต่ HIV ร่วมอาการหลายสัปดาห์และอาการเฉพาะที่ชี้ไปที่ toxoplasmosis",
+  "trap": "เห็นเบาหวานแล้วนึกถึงฝีแบคทีเรีย — HIV + ก้อนในสมอง = toxoplasmosis ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> รอยโรคในสมองผู้ป่วย HIV: toxoplasmosis (หลายก้อน ขอบวง basal ganglia) · primary CNS lymphoma (ก้อนเดี่ยวรอบ ventricle, EBV DNA ใน CSF, ไม่ยุบกับยา toxo) · PML (เนื้อขาว ไม่เพิ่มสี ไม่กดเบียด) · cryptococcoma/TB"
+   "HIV + ก้อนในสมอง: toxoplasmosis (พบบ่อยสุด) vs primary CNS lymphoma",
+   "Toxo: ring หลายก้อน basal ganglia · IgG บวก · CD4 &lt; 100",
+   "รักษา: pyrimethamine + sulfadiazine + leucovorin",
+   "ไม่ดีขึ้น 2 สัปดาห์ → biopsy",
+   "CNS lymphoma: ก้อนเดี่ยวรอบโพรงสมอง · EBV DNA ใน CSF",
+   "Cryptococcal meningitis: ปวดหัว ICP สูง India ink/ CrAg"
   ],
-  "opinion": "เห็นด้วยกับคีย์ toxoplasmosis (C) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับกากบาทและลายมือ \"immunocompromised\" ในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'HIV + ก้อนในสมอง = Toxo ก่อน (ไม่ดีขึ้น → lymphoma)'</b>",
+  "guide": "NIH/ CDC/ HIVMA-IDSA Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV — Toxoplasma gondii encephalitis (updated 2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV CD4 50 toxoplasma IgG บวก ยังไม่ได้ยาป้องกัน → ให้ TMP-SMX ป้องกัน (ป้องกัน PJP ด้วย)",
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV ปวดศีรษะ ไข้ ความดันเปิดของ CSF สูงมาก → cryptococcal meningitis ระบาย CSF ซ้ำลดความดัน"
+   "ผู้ป่วย HIV ก้อนเดี่ยวรอบโพรงสมอง ไม่ดีขึ้นด้วยยา toxo → biopsy (CNS lymphoma)",
+   "ผู้ป่วย HIV ปวดหัว ความดันน้ำไขสันหลังสูง → cryptococcal meningitis",
+   "ผู้ป่วย HIV CD4 60 toxo IgG บวก → TMP-SMX prophylaxis"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 20 — ตัวพิมพ์: <b>Neuro 25. 45 yr old man, headache for 3 weeks, drowsy for 4 days. U/D DM, HIV. Motor grade Lt 5/5, Rt 4/5 — Metastasis, Brain abscess, Toxoplasmosis, Cysticercosis</b><br>ลายมือ: \"immunocompromised\" เหนือ U/D DM, HIV · กากบาท Toxoplasmosis<br>ไฮไลต์: กากบาท Toxoplasmosis (ชมพู) · ขีดเส้นใต้ \"U/D DM, HIV\"<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 20",
+  "kimg": [
+   "fsp_p20",
+   "kp71a_25"
   ]
  },
  "MDCU71|RoA|29": {
-  "interp": "หญิง 25 ปี รักษา migraine มา 1 ปี → อาการหรือสิ่งตรวจพบใดต้องตรวจเพิ่ม",
-  "why": "P'Ing กากบาท C · ลายมือ <b>บอกว่ามี ↑ICP</b> + แปะ red flags ของ headache<br><b>นอกสไลด์:</b> Migraine ไม่ทำให้จอตาบวม — papilledema บอกว่าความดันในกะโหลกสูงจริง ต้องทำ MRI + MRV หาก้อน หลอดเลือดดำในสมองอุดตัน หรือ IIH (หญิงวัยเจริญพันธุ์ น้ำหนักเกิน)",
+  "interp": "หญิง 25 ปี รักษา migraine มา 1 ปี ถามสิ่งตรวจพบที่<b>ควร work up ต่อ</b> (red flag)",
+  "why": "<b>Papilledema</b> = ความดันในกะโหลกศีรษะสูง → ไม่ใช่ migraine ธรรมดา ต้องทำ<b>ภาพสมอง (MRI ± MRV)</b> หาก้อน, hydrocephalus, venous sinus thrombosis หรือ idiopathic intracranial hypertension (หญิงอายุน้อยน้ำหนักมาก) · Red flags ของปวดหัว (SNOOP): อาการระบบ/ ไข้, อาการทางประสาท/ papilledema, เริ่มทันที (thunderclap), เริ่มเป็นครั้งแรกอายุ &gt; 50, ลักษณะเปลี่ยน/ แย่ลง, ปวดตอนเช้า/ ไอ/ เบ่งแล้วแย่ลง · ไฟล์ P'Ing กากบาท C ลายมือ <b>\"บอกว่ามี ↑ICP\"</b> และแปะ red flags ของอาการปวดศีรษะ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเวียนศีรษะเกิดใหม่ร่วมอาการก้านสมอง (ภาพซ้อน พูดไม่ชัด กลืนลำบาก ชาครึ่งหน้า) — สงสัยรอยโรคใน posterior fossa",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ามึนงงจนเป็นลมหมดสติขณะออกแรง — หาสาเหตุจากหัวใจ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ากลัวแสงร่วมไข้และคอแข็ง — สงสัยเยื่อหุ้มสมองอักเสบ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าปวดศีรษะร่วมอาเจียนพุ่งตอนเช้ามืดที่แย่ลงทุกสัปดาห์ ลักษณะต่างจาก migraine เดิม"
+   "A": "Vertigo พบร่วมกับ migraine ได้ (vestibular migraine) ไม่ใช่ red flag โดยลำพัง · จะถูกถ้ามี vertigo ร่วมกับอาการก้านสมอง (พูดไม่ชัด กลืนลำบาก เห็นภาพซ้อน)",
+   "B": "วิงเวียนพบได้บ่อยในผู้ป่วย migraine ไม่จำเพาะ · จะถูกถ้ามีหน้ามืดหมดสติร่วมกับปวดหัวทันที",
+   "D": "กลัวแสงเป็นลักษณะปกติของ migraine (เกณฑ์ ICHD) · จะถูกถ้าคำถามถามอาการที่เข้าได้กับการวินิจฉัย migraine",
+   "E": "คลื่นไส้ร่วมกับปวดหัวเป็นลักษณะของ migraine · จะถูกถ้าคำถามถามอาการร่วมตามเกณฑ์ migraine (คลื่นไส้/ อาเจียน หรือกลัวแสง/ เสียง)"
   },
-  "trap": "อาการในช้อย A, B, D, E พบได้ในการปวด migraine ปกติ — สิ่งที่ migraine ไม่มีคือการตรวจร่างกายที่ผิดปกติ",
+  "trap": "เลือกอาการร่วมทั่วไปของ migraine — red flag ที่ต้องตรวจเพิ่มคือ papilledema (ICP สูง)",
   "summary": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย migraine ที่ต้องตรวจภาพ: ลักษณะปวดเปลี่ยน · ปวดมากขึ้นเรื่อย ๆ · aura ยาวผิดปกติหรือแขนขาอ่อนแรง · ตรวจระบบประสาทผิดปกติ · เริ่มเป็นครั้งแรกหลังอายุ 50"
+   "Red flags (SNOOP): Systemic · Neurologic/ papilledema · Onset ทันที · Older &gt; 50 · Pattern เปลี่ยน",
+   "ปวดตอนเช้า อาเจียน ไอ/ เบ่งแล้วแย่ → ICP สูง",
+   "Papilledema → MRI + MRV ก่อนเจาะหลัง",
+   "IIH: หญิงอายุน้อยน้ำหนักมาก ภาพปกติ opening pressure สูง",
+   "Migraine: ปวดข้างเดียว ตุบ ๆ คลื่นไส้ กลัวแสง/ เสียง 4–72 ชม.",
+   "ปวดหัวครั้งแรกอายุ &gt; 50 → นึกถึง temporal arteritis/ ก้อน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูงมาก",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับกากบาท C และลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'Migraine + papilledema = ไม่ใช่ migraine → ส่งภาพสมอง'</b>",
+  "guide": "Do TP et al. Red and orange flags for secondary headaches in clinical practice: SNNOOP10 list (Neurology 2019;92:134); ICHD-3 (Cephalalgia 2018;38:1)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงวัยเจริญพันธุ์กินยาคุมกำเนิด ปวดศีรษะมากขึ้นและชัก → cerebral venous sinus thrombosis ทำ MRV",
-   "<b>นอกสไลด์:</b> Migraine ที่มี aura ในหญิงสูบบุหรี่ → เลี่ยงยาคุมชนิดมี estrogen (เพิ่มเสี่ยง stroke)"
+   "หญิงอ้วนปวดหัว ตามัวชั่วขณะ papilledema MRI ปกติ → IIH → LP opening pressure",
+   "หญิงหลังคลอดปวดหัวมาก ชัก → cerebral venous sinus thrombosis → MRV",
+   "ชาย 65 ปีปวดขมับครั้งแรก ESR สูง → giant cell arteritis"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 20 — ตัวพิมพ์: <b>Neuro 29 ผญ 25ปี เคยได้รับการรักษาmigraineมา1ปี ถ้าตรวจพบอะไรควรwork up อะไร — A. Virtigo B. Dizziness C. Papillidima</b><br>ลายมือ: \"ปวดหัว\" เหนือ ถ้าตรวจพบ · กากบาท C · \"บอกว่ามี ↑ICP\"<br>ไฮไลต์: กากบาท C (ชมพู) · \"ถ้าตรวจพบอะไรควรwork up\" (ชมพู)<br>รูปที่แปะ: สไลด์ red flags — ปวดศีรษะตอนเช้า ซึ่งอาการจะดีขึ้นเมื่อสายเป็นผลจากขณะนอนหลับจะมีการคั่งของคาร์บอนไดออกไซด์ ทำให้หลอดเลือดในสมองขยายตัวจนมี increased intracranial pressure เมื่อตื่นนอนจึงมีอาการปวดศีรษะ · อาการปวดศีรษะใหม่ในวัยกลางคนหรือผู้สูงอายุ เพราะกลุ่มอาการ functional headache เช่น migraine มักมีอาการตั้งแต่อายุ 20-40 ปี · อาการปวดศีรษะที่มีการเปลี่ยนแปลงลักษณะการปวด หรือมีความรุนแรงมากขึ้น · อาการปวดศีรษะที่มีอาการอาเจียนร่วมด้วย · อาการปวดศีรษะที่ร่วมกับความผิดปกติทางระบบประสาท<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 20",
+  "kimg": [
+   "fsp_p20",
+   "kp71a_29"
   ]
  }
 }
