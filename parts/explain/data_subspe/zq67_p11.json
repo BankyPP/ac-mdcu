@@ -1,192 +1,332 @@
 {
  "MDCU67|RoB|20": {
-  "interp": "หญิงสูงอายุท้องอืด ไม่ถ่ายไม่ผายลม 3 วัน ไม่มีช่องท้องอักเสบ ทวารปกติ (สงสัยลำไส้อุดตัน) → ถามการตรวจแรก",
-  "why": "<b>คีย์: ขีด A + ลายมือ suspected gut obstruction</b><br><b>นอกสไลด์:</b> acute abdomen series (ท่านอน ท่ายืน และ CXR ท่ายืน) ทำได้เร็ว ราคาถูก บอกได้ว่าอุดตันจริงไหม อยู่ลำไส้เล็กหรือใหญ่ มีลมรั่วใต้กะบังลมไหม และเห็นลักษณะเฉพาะ (volvulus) จึงเป็นการตรวจแรกในผู้ป่วยที่ยังไม่มีช่องท้องอักเสบ",
+  "interp": "หญิง 72 ปี <b>ปวดแน่นท้อง ไม่ถ่ายไม่ผายลม 3 วัน</b> ไม่มี peritonitis คลำไม่ได้ก้อน PR ปกติ → ถามการตรวจ<b>อันดับแรก</b>",
+  "why": "สงสัย <b>ลำไส้อุดตัน (gut obstruction)</b> · การตรวจแรกที่ทำได้เร็ว ถูก และช่วยคัดกรอง คือ <b>plain film acute abdomen series</b> (supine + upright abdomen + upright CXR) — ดูลำไส้ขยาย air-fluid level ตำแหน่งอุดตัน (เล็ก/ ใหญ่) ลักษณะ volvulus (coffee bean) และลมใต้กระบังลม · จากนั้นจึง CT เพื่อหาสาเหตุ/ ภาวะขาดเลือด · ไฟล์ขีด A ลายมือ <b>\"suspected gut obs.\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าภาพรังสีธรรมดายังบอกจุดอุดหรือสาเหตุไม่ได้ หรือสงสัยลำไส้ขาดเลือดหรือมะเร็ง — CT ฉีดสีบอกตำแหน่ง สาเหตุ และภาวะแทรกซ้อน (หลายแนวทางทำ CT เป็นอย่างแรกเมื่อทำได้)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ป่วยท้องผูกเรื้อรังที่ไม่ได้อุดตันเฉียบพลัน และต้องดูโครงสร้างลำไส้ใหญ่ทั้งเส้น เช่นสงสัย megacolon",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าการอุดตันหายแล้วและอาการคงที่ ต้องหาก้อนมะเร็งที่เป็นต้นเหตุ — ส่องกล้องหลังพ้นช่วงเฉียบพลัน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงตั้งครรภ์ที่สงสัยลำไส้อุดตันและ US ไม่ได้คำตอบ — MRI ไม่มีรังสี"
+   "B": "CT ให้ข้อมูลมากที่สุด (สาเหตุ ตำแหน่ง ภาวะขาดเลือด) แต่ข้อนี้ถามการตรวจอันดับแรก · จะถูกถ้า plain film สงสัยลำไส้ใหญ่อุดตัน ต้องหาสาเหตุ (มะเร็ง) หรือสงสัยขาดเลือด",
+   "C": "Barium enema ห้ามเมื่อสงสัยทะลุ/ อุดตันสมบูรณ์ · จะถูกถ้าคำถามถาม contrast enema แยก pseudo-obstruction กับ mechanical obstruction (ใช้ water-soluble contrast)",
+   "D": "Colonoscopy ไม่ใช่อันดับแรกในลำไส้อุดตันเฉียบพลัน · จะถูกถ้าคำถามถาม decompression ใน sigmoid volvulus/ Ogilvie syndrome",
+   "E": "MRI ไม่ใช่การตรวจเร่งด่วนในลำไส้อุดตัน · จะถูกถ้าคำถามถามหญิงตั้งครรภ์สงสัยไส้ติ่งอักเสบ"
   },
-  "trap": "คิดว่าต้องส่องกล้องหาสาเหตุทันทีเพราะผู้สูงอายุเสี่ยงมะเร็ง — ในช่วงอุดตันเฉียบพลัน ต้องยืนยันการอุดตันและหาข้อบ่งชี้ผ่าตัดด่วนจากภาพก่อน",
+  "trap": "ข้ามไป CT ทันที — คำถามถาม \"อันดับแรก\" คือ plain film",
   "summary": [
-   "<b>นอกสไลด์:</b> อ่านภาพรังสีท้อง: ลำไส้เล็กอุดตัน → ห่วงลำไส้กลางท้องเห็น valvulae ขวางเต็มวง ระดับน้ำ-ลมหลายระดับ · ลำไส้ใหญ่อุดตัน → ลำไส้โป่งรอบนอกเห็น haustra ไม่เต็มวง ไม่มีลมต่ำกว่าจุดอุด · pseudo-obstruction → ลำไส้ใหญ่โป่งต่อเนื่องถึง rectum ไม่มีจุดเปลี่ยน"
+   "ลำไส้อุดตัน: ปวด อาเจียน ท้องอืด ไม่ถ่ายไม่ผายลม",
+   "AAS: ลำไส้ขยาย · air-fluid level · ลมใต้กระบังลม · coffee bean",
+   "CT: สาเหตุ · transition point · ขาดเลือด (ทำต่อ)",
+   "ผู้สูงอายุ large bowel obstruction: มะเร็ง &gt; volvulus &gt; diverticular",
+   "Peritonitis/ strangulation → ผ่าตัดด่วน",
+   "Water-soluble contrast: วินิจฉัย/ รักษา adhesive SBO"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง — ในหลายโรงพยาบาลปัจจุบันทำ CT เป็นการตรวจแรกได้",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'ท้องอืด ไม่ถ่าย ไม่ผาย → ถ่ายฟิล์ม (AAS) ก่อน'</b>",
+  "guide": "WSES Guidelines on Adhesive Small Bowel Obstruction (World J Emerg Surg 2018;13:24); ACR Appropriateness Criteria: Suspected Small-Bowel Obstruction (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ภาพรังสีเห็นลำไส้ใหญ่โป่งถึงจุดหนึ่งแล้วไม่มีลมต่อ cecum โต 13 cm กดเจ็บท้องขวาล่าง → ลิ้น ileocecal ปิดสนิทเป็น closed loop ใกล้ทะลุ: ผ่าตัดด่วน",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุลำไส้ใหญ่อุดตัน CT พบก้อนที่ sigmoid → ตัดก้อนออก (± Hartmann) หรือใส่ stent เป็นสะพานให้ลำไส้ยุบก่อนผ่าตัด"
+   "ผู้สูงอายุท้องอืดมาก AAS พบ coffee bean → sigmoid volvulus → scope decompression",
+   "AAS ลำไส้ใหญ่ขยาย ไม่มี transition ชัด → CT หาสาเหตุ (มะเร็ง)",
+   "หลังผ่าตัดท้อง อาเจียน ท้องอืด AAS step-ladder → adhesive SBO"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 115 — ตัวพิมพ์: <b>20. ผู้ป่วยหญิง อายุ 72 ปี มาโรงพยาบาลด้วยอาการ ปวดแน่นท้อง ไม่ถ่ายไม่ผายลมมา 3 วัน ตรวจท้องไม่พบ peritonitis คลำท้องไม่ได้ก้อน PR ไม่พบสิ่งผิดปกติ จะส่ง investigation อะไรเป็นอันดับแรก — A. Film acute abdomen series B. CT whole abdomen C. Barium enema D. Colonoscopy E. MRI whole abdomen</b><br>ลายมือ: \"suspected gut obs.\" (ลูกศรลงที่ investigation) · ขีด A<br>ไฮไลต์: \"หญิง อายุ 72 ปี\" \"ปวดแน่นท้อง\" \"ไม่ถ่ายไม่ผายลมมา 3 วัน\" \"investigation อะไรเป็นอันดับแรก\" · A (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 115",
+  "kimg": [
+   "fsk_p115",
+   "kp67b_20"
   ]
  },
  "MDCU67|RoB|23": {
-  "interp": "ชายอายุ 80 ปี diverticulitis เฉียบพลัน (กลุ่มเสี่ยง) หลังให้สารน้ำ → ถามขั้นต่อไป",
-  "why": "<b>คีย์: ขีด B + แผนผัง diverticulitis</b><br><b>นอกสไลด์:</b> ผู้สูงอายุมากมีโอกาสติดเชื้อรุนแรงและอาการน้อยกว่าความรุนแรงจริง จึงอยู่ในกลุ่มที่ต้องให้ยาปฏิชีวนะครอบคลุมแบคทีเรียลำไส้และ anaerobe (มักรับไว้ในโรงพยาบาล) ร่วมกับ CT ประเมินฝีหรือการทะลุ",
+  "interp": "ชาย 80 ปี <b>acute diverticulitis</b> ให้ IV fluid แล้ว → ถามสิ่งที่ควรทำต่อ",
+  "why": "Acute diverticulitis ในผู้สูงอายุที่ต้อง admit และให้สารน้ำทางหลอดเลือด → <b>ยาปฏิชีวนะครอบคลุมกว้าง (gram-negative + anaerobe)</b> ร่วมกับพักลำไส้ คุมปวด · CT ยืนยันและแยก complicated (abscess → percutaneous drainage · perforation → ผ่าตัด) · <b>ห้ามส่องกล้อง/ สวนแป้งในระยะเฉียบพลัน</b> (เสี่ยงทะลุ) · ไฟล์ขีด B และแปะแผนผังการรักษา diverticulitis (Complicated → Admission → IV antibiotics · Percutaneous drainage · Operative intervention)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าหายจาก diverticulitis ที่มีภาวะแทรกซ้อนแล้วราว 6–8 สัปดาห์ หรือยังไม่เคยส่องกล้องตามวัย — ส่องกล้องตัดมะเร็งที่เลียนแบบได้",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ามีช่องท้องอักเสบทั่ว (Hinchey III–IV) หรือไม่ดีขึ้นแม้ให้ยาและระบายฝีแล้ว — ผ่าตัดฉุกเฉิน (Hartmann หรือตัดต่อร่วม stoma ป้องกัน)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่สวน barium ในระยะ diverticulitis เฉียบพลัน เพราะแรงดันจากการสวนทำให้ลำไส้ที่อักเสบทะลุ และ barium ที่รั่วเข้าช่องท้องทำให้เยื่อบุช่องท้องอักเสบรุนแรง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น diverticulitis ไม่ซับซ้อนที่ CT ยืนยัน ในผู้ที่ภูมิคุ้มกันปกติ ไม่มีโรคร่วม ไม่มีอาการติดเชื้อทั่วร่าง กินได้ — ยาแก้ปวดและอาหารเหลว ไม่ต้องให้ยาปฏิชีวนะ"
+   "A": "Colonoscopy ห้ามในระยะเฉียบพลัน ทำหลังหาย ~6–8 สัปดาห์เพื่อแยกมะเร็ง · จะถูกถ้าคำถามถามการตรวจหลังหายจาก diverticulitis ครั้งแรกที่ซับซ้อน",
+   "C": "Sigmoidectomy ฉุกเฉินใช้เมื่อ purulent/ feculent peritonitis หรือไม่ตอบสนอง · จะถูกถ้ามี free air + generalized peritonitis (Hinchey III–IV)",
+   "D": "Barium enema ห้ามในระยะเฉียบพลัน · จะถูกถ้าคำถามถามการประเมินหลังหายในที่ไม่มี colonoscopy (ปัจจุบันใช้ CT colonography)",
+   "E": "คุมปวดอย่างเดียวพอเฉพาะ uncomplicated ไม่รุนแรงในผู้ป่วยที่ภูมิคุ้มกันปกติดูแลที่บ้าน · จะถูกถ้าผู้ป่วยอายุน้อย ไม่มีไข้ CT uncomplicated ไม่มีโรคร่วม"
   },
-  "trap": "นำแนวทางใหม่ที่ไม่ให้ยาปฏิชีวนะใน diverticulitis ไม่ซับซ้อนมาใช้กับทุกคน — แนวทางนั้นใช้กับผู้ที่แข็งแรงเท่านั้น ผู้สูงอายุมาก ภูมิต่ำ หรือมีโรคร่วมยังต้องให้ยา",
+  "trap": "ส่องกล้องเพื่อยืนยัน — ระยะเฉียบพลันห้ามส่อง (เสี่ยงทะลุ)",
   "summary": [
-   "<b>นอกสไลด์:</b> กลุ่มที่ต้องให้ยาปฏิชีวนะและมักรับไว้: อายุมาก · ภูมิคุ้มกันต่ำ/โรคร่วมมาก · มีอาการติดเชื้อทั่วร่าง · CT พบภาวะแทรกซ้อน (ฝี ลมรั่วเฉพาะที่) · กินไม่ได้หรือปวดคุมไม่ได้ · ฝีใหญ่ (ราว > 3–4 cm) → เจาะระบายผ่านผิวหนังร่วมกับยา"
+   "Diverticulitis: ปวด LLQ ไข้ ± ก้อน · CT ยืนยัน",
+   "Uncomplicated ไม่รุนแรง ภูมิปกติ: ATB เลือกใช้ได้ (observation)",
+   "Admit/ ผู้สูงอายุ/ ภูมิต่ำ/ sepsis: IV ATB",
+   "Abscess &gt; 3–4 cm → percutaneous drainage",
+   "Perforation + peritonitis → ผ่าตัด (Hartmann/ resection + anastomosis)",
+   "Colonoscopy หลังหาย 6–8 สัปดาห์ (complicated/ ยังไม่เคยตรวจ)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ผู้ป่วยสูงอายุที่ต้องให้ IV fluid ควรได้ยาปฏิชีวนะ (แนวทางใหม่ให้ละเว้นยาได้เฉพาะ uncomplicated ไม่รุนแรงที่ภูมิคุ้มกันปกติ)",
+  "mnemonic": "<b>'Diverticulitis เฉียบพลัน: น้ำ + ยา + CT · ไม่ส่อง ไม่สวน'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020;63:728); WSES Guidelines for Acute Left-Sided Colonic Diverticulitis (World J Emerg Surg 2020;15:32)",
   "variants": [
-   "<b>นอกสไลด์:</b> CT พบฝีข้าง sigmoid 5 cm ไม่มีช่องท้องอักเสบทั่ว → ยาปฏิชีวนะ + เจาะระบายผ่านผิวหนังนำทางด้วย CT (ฝีเล็กราว ≤ 3 cm ใช้ยาอย่างเดียว)",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุกิน steroid ปวดท้องซ้ายล่างเล็กน้อย กดเจ็บไม่มาก → steroid กดอาการอักเสบจนดูเบากว่าจริง ทำ CT เร็วเพื่อหาทะลุหรือฝี"
+   "diverticulitis + abscess 6 cm → IV ATB + percutaneous drainage",
+   "diverticulitis + free air + generalized peritonitis → emergency sigmoidectomy",
+   "หายจาก complicated diverticulitis 2 เดือน → colonoscopy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 115 — ตัวพิมพ์: <b>23. ผู้ป่วยชาย อายุ 80 ปี มาด้วย acute diverticulitis หลังจากให้ IV fluid แล้วควรทำอะไรต่อ — A. Colonoscope B. Broad-spectrum ATB C. Sigmoidectomy D. E. Pain control</b><br>ลายมือ: ขีด B<br>ไฮไลต์: \"ชาย อายุ 80 ปี\" \"acute diverticulitis\" \"หลังจากให้ IV fluid\" \"ทำอะไรต่อ\" · B (เหลือง)<br>รูปที่แปะ: แผนผัง Diverticulitis — History/exam: LLQ pain, altered bowel habits, fever, tenderness and localised peritonitis → CT – IV and oral contrast → Complicated → Admission → IV antibiotics · Percutaneous drainage · Operative intervention / Uncomplicated → Mild → Oral antibiotics + clinical review → Consideration of operative intervention if recurrent episodes · Severe → Admission<br>ที่ปรับในเว็บ: เติมช้อย D (Barium enema) ซึ่งในไฟล์เว้นว่าง",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 115",
+  "kimg": [
+   "fsk_p115",
+   "kp67b_23"
   ]
  },
  "MDCU67|RoB|24": {
-  "interp": "ข้อ EXCEPT — หาข้อความที่ผิดเกี่ยวกับ sigmoid volvulus (โจทย์เดียวกับ RoA 22 ของชุดนี้)",
-  "why": "<b>คีย์: ขีด E + ลายมือ ~90%</b><br><b>นอกสไลด์:</b> sigmoid เป็นตำแหน่งที่ลำไส้ใหญ่บิดบ่อยที่สุด (เกินครึ่งมาก ลายมือจดราว 90%) เพราะ sigmoid ยาว มี mesocolon ยาวแต่ฐานแคบ จึงหมุนรอบฐานได้ง่าย — ข้อความ \"น้อยกว่าครึ่ง\" จึงผิด",
+  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>sigmoid volvulus</b>",
+  "why": "Sigmoid volvulus เป็น<b>ชนิดที่พบบ่อยที่สุดของ colonic volvulus (~60–75% ในตะวันตก สูงถึง ~90% ในบางพื้นที่)</b> → \"น้อยกว่า 50%\" ผิด = E · ข้ออื่นถูก: ถ้าไม่มีภาวะขาดเลือด → <b>ส่องกล้อง (flexible sigmoidoscopy) คลายเกลียวและใส่ท่อ</b> แล้ว<b>ผ่าตัด sigmoidectomy แบบนัดในครั้งเดียวกันระหว่าง admit</b> (กลับเป็นซ้ำ ~60%) · AAS เห็น <b>coffee bean sign</b> · คลายไม่ได้/ ขาดเลือด/ peritonitis → ผ่าตัดด่วน · พบใน<b>ผู้สูงอายุ ติดเตียง อยู่สถานดูแล</b> โรคทางระบบประสาท ท้องผูกเรื้อรัง · ไฟล์ขีด E ขีดฆ่า \"less than 50%\" เขียน <b>\"90%\"</b> และติ๊ก ✓ ที่ A–D",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าผู้ป่วยโรคร่วมมากจนผ่าตัดไม่ได้ — หลังคลายบิดใช้การยึด sigmoid กับผนังหน้าท้องผ่านกล้องหรือคลายบิดซ้ำเมื่อเป็น แทน sigmoidectomy",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าห่วงลำไส้ที่บิดเต็มไปด้วยน้ำ ภาพรังสีธรรมดาไม่เห็นรูปเมล็ดกาแฟ ต้องอาศัย CT หรือสวนสารทึบรังสี",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"คลายบิดไม่สำเร็จหรือลำไส้ขาดเลือดต้องผ่าตัดฉุกเฉิน\" ผิด เพราะลำไส้ที่ยังบิดหรือขาดเลือดจะเน่าทะลุ ต้องเอาส่วนนั้นออก",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าเป็นประชากรในพื้นที่ที่ sigmoid volvulus ชุก (แอฟริกา อเมริกาใต้ ตะวันออกกลาง) ซึ่งพบในชายวัยกลางคนแข็งแรงที่กินอาหารกากใยสูง"
+   "A": "ถูก — decompression แล้วตามด้วย elective sigmoidectomy (ลายมือ ✓) · จะถูกถ้าข้อความว่า \"ไม่ต้องผ่าตัดตามหลังส่องกล้องคลาย\"",
+   "B": "ถูก — coffee bean sign ใน AAS (ลายมือ ✓) · จะถูกถ้าข้อความว่าไม่เห็นใน plain film",
+   "C": "ถูก — คลายไม่ได้/ ขาดเลือดต้องผ่าตัดด่วน (ลายมือ ✓) · จะถูกถ้าข้อความว่า \"ส่องกล้องซ้ำได้แม้มีลำไส้ขาดเลือด\"",
+   "D": "ถูก — ผู้สูงอายุ ติดเตียง อยู่สถานดูแล (ลายมือ ✓) · จะถูกถ้าข้อความว่า \"พบบ่อยในวัยรุ่น\" (ซึ่งเป็นลักษณะ cecal volvulus มากกว่า)"
   },
-  "trap": "จำได้ว่า sigmoid volvulus พบมากในผู้สูงอายุติดเตียงจึงคิดว่าโดยรวมพบไม่บ่อย — เป็นตำแหน่งที่พบบ่อยที่สุดของลำไส้ใหญ่บิด",
+  "trap": "สับสนสัดส่วนกับ cecal volvulus (พบรองลงมา ~20–40%)",
   "summary": [
-   "<b>นอกสไลด์:</b> sigmoid ราว 60–75% ของ colonic volvulus (ตำแหน่งที่พบบ่อยที่สุด) · ภาพที่ใช้วินิจฉัย: plain film → ห่วงลำไส้ขนาดใหญ่ไม่มี haustra รูปเมล็ดกาแฟ/ตัว U กลับหัว (bent inner tube) · สวนสารทึบรังสีละลายน้ำ → ปลายแหลมคล้ายจะงอยนก (bird's beak) ที่จุดบิด · CT → เกลียวหมุนของ mesentery (whirl sign) และดูการขาดเลือด"
+   "Sigmoid volvulus: พบบ่อยที่สุดของ colonic volvulus",
+   "ผู้สูงอายุ ติดเตียง ท้องผูกเรื้อรัง ยาจิตเวช",
+   "AAS: coffee bean/ bent inner tube ชี้ RUQ",
+   "ไม่มีขาดเลือด → endoscopic detorsion + rectal tube → sigmoidectomy ใน admission เดียวกัน",
+   "ขาดเลือด/ peritonitis/ คลายไม่ได้ → Hartmann",
+   "Cecal volvulus: ส่องกล้องไม่ได้ผล → right hemicolectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Sigmoid volvulus = แชมป์ (เกินครึ่ง) · คลาย → ตัด'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction (Dis Colon Rectum 2021;64:1046)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ไตรมาสสามท้องอืด ปวดบีบ ไม่ถ่าย → sigmoid volvulus เป็นสาเหตุลำไส้อุดตันที่สำคัญในหญิงตั้งครรภ์ ต้องคิดถึงและวินิจฉัยเร็ว",
-   "<b>นอกสไลด์:</b> sigmoid volvulus ร่วมกับลำไส้ใหญ่โป่งทั้งเส้น (megacolon เช่นจาก Chagas) → พิจารณาตัดลำไส้ใหญ่เกือบทั้งหมด (subtotal colectomy) แทน sigmoidectomy เพราะเหลือไว้จะกลับเป็นซ้ำ"
+   "ผู้สูงอายุติดเตียงท้องอืดมาก AAS coffee bean ไม่มี peritonitis → flexible sigmoidoscopy detorsion",
+   "sigmoid volvulus + ส่องกล้องพบเยื่อบุดำ → Hartmann's procedure",
+   "หญิงอายุน้อยท้องอืด AAS ลำไส้ขยายที่ LUQ (cecum) → cecal volvulus → right hemicolectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 115 — ตัวพิมพ์: <b>24. All of the followings are true according to sigmoid volvulus EXCEPT. — A. Reduction and bowel decompression by flexible sigmoidoscopy should be followed by elective sigmoidectomy B. Coffee bean sign is seen in acute abdomen series C. If can't reduce or has signs of bowel ischemia, patient should go to operating room emergently D. Mostly occurs in the elderly and institutionalizes patient E. Accounts for less than 50% of colonic volvulus</b><br>ลายมือ: A ✓ · B ✓ · C ✓ · D ✓ · ขีด E + ขีดฆ่า \"less than 50%\" + \"90%\"<br>ไฮไลต์: \"true according to sigmoid volvulus\" \"EXCEPT\" · A–D (ส้ม) · E (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 115",
+  "kimg": [
+   "fsk_p115",
+   "kp67b_24"
   ]
  },
  "MDCU67|RoB|30": {
-  "interp": "ถามว่าหลอดเลือดใดเป็นแขนงของ inferior mesenteric artery (IMA)",
-  "why": "<b>คีย์: ขีด D + ลายมือ A–C จาก SMA · E middle ↔ left colic</b><br><b>นอกสไลด์:</b> IMA แตกแขนง left colic artery, sigmoid arteries (2–4 เส้น) และต่อเป็น superior rectal artery — sigmoid artery จึงเป็นแขนงของ IMA",
+  "interp": "ถามแขนงของ <b>inferior mesenteric artery (IMA)</b>",
+  "why": "IMA เลี้ยง hindgut: แขนง <b>left colic artery</b> · <b>sigmoid arteries</b> · <b>superior rectal artery</b> → D · ส่วน middle colic, right colic, ileocolic เป็นแขนงของ <b>SMA</b> (midgut) · <b>Wandering artery/ arc of Riolan</b> เป็นทางเชื่อมระหว่าง middle colic (SMA) กับ left colic (IMA) ไม่ใช่แขนงของ IMA · ไฟล์ขีด D ลายมือ A–C <b>\"จาก SMA\"</b> · D <b>\"จาก IMA\"</b> · E <b>\"เชื่อม middle ↔ Lt. colic a.\"</b> และแปะภาพ <b>Arterial supply (2 systems: SMA and IMA · Transitional zone at splenic flexure)</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ middle colic เป็นแขนงของ IMA เพราะแตกจากด้านขวาของ SMA ใต้ตับอ่อน เลี้ยง transverse colon",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ right colic เป็นแขนงของ IMA เพราะแตกจาก SMA (หรือจาก ileocolic) เลี้ยง ascending colon ซึ่งมาจาก midgut",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ ileocolic เป็นแขนงของ IMA เพราะเป็นแขนงปลายของ SMA เลี้ยง ileum ส่วนปลาย cecum และไส้ติ่ง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ arc of Riolan เป็นแขนงของ IMA เพราะเป็นหลอดเลือดเชื่อมระหว่าง middle colic (SMA) กับ left colic (IMA) ใน mesentery — เป็นทางลัดระหว่างสองระบบ ไม่ใช่แขนงของเส้นใด"
+   "A": "Middle colic เป็นแขนง SMA (ลายมือ) · จะถูกถ้าคำถามถามหลอดเลือดที่เลี้ยง transverse colon",
+   "B": "Right colic เป็นแขนง SMA (ลายมือ) · จะถูกถ้าคำถามถามหลอดเลือดที่เลี้ยง ascending colon",
+   "C": "Ileocolic เป็นแขนง SMA (ลายมือ) · จะถูกถ้าคำถามถามหลอดเลือดที่ผูกใน appendectomy/ right hemicolectomy",
+   "E": "Arc of Riolan (wandering artery) เป็นทางเชื่อม SMA–IMA (ลายมือ) · จะถูกถ้าคำถามถาม collateral ที่สำคัญเมื่อ IMA ตัน"
   },
-  "trap": "เห็นชื่อ \"colic\" แล้วคิดว่าเป็นแขนงที่เลี้ยง colon ทั้งหมดจาก IMA — colon ข้างขวาถึงสองในสามของ transverse มาจาก midgut จึงได้เลือดจาก SMA ส่วนที่เหลือถึง rectum ส่วนบนมาจาก IMA",
+  "trap": "นับ collateral (arc of Riolan) เป็นแขนงของ IMA",
   "summary": [
-   "<b>นอกสไลด์:</b> เลือดเลี้ยงลำไส้ใหญ่และไส้ตรง: SMA → ileocolic, right colic, middle colic · IMA → left colic, sigmoid, superior rectal · middle rectal (internal iliac) และ inferior rectal (internal pudendal) เลี้ยงไส้ตรงส่วนล่างและช่องทวาร · จุดรอยต่อที่ขาดเลือดง่าย: splenic flexure (Griffiths) และ rectosigmoid (Sudeck)"
+   "SMA: ileocolic · right colic · middle colic (midgut)",
+   "IMA: left colic · sigmoid · superior rectal (hindgut)",
+   "Marginal artery of Drummond · arc of Riolan เชื่อม SMA–IMA",
+   "Watershed: splenic flexure (Griffiths point) · rectosigmoid (Sudeck point)",
+   "Ischemic colitis พบบ่อยที่ splenic flexure",
+   "Middle/ inferior rectal: จาก internal iliac/ internal pudendal"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'IMA = \"LSS\": Left colic · Sigmoid · Superior rectal'</b>",
+  "guide": "Gray's Anatomy 42nd ed. (2020) — Large intestine blood supply; Sabiston Textbook of Surgery 21st ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัด abdominal aortic aneurysm ที่ผูก IMA วันที่ 2 ถ่ายเป็นเลือด ปวดท้องซ้ายล่าง → ischemic colitis ที่ sigmoid (เลือดจากทางเชื่อมไม่พอ): ส่องกล้องดู",
-   "<b>นอกสไลด์:</b> ผ่าตัดมะเร็งไส้ตรงแบบผูก IMA ที่โคน (high ligation) → colon ด้านซ้ายที่เหลือได้เลือดจาก middle colic ผ่าน marginal artery จึงต้องเช็คเลือดที่ปลายลำไส้ก่อนต่อ"
+   "หลังผ่าตัดหลอดเลือดแดงใหญ่ ถ่ายเป็นเลือด ปวดท้องซ้าย → ischemic colitis ที่ splenic flexure",
+   "ทำ low anterior resection ผูกหลอดเลือดใด → IMA/ superior rectal",
+   "right hemicolectomy ผูก → ileocolic + right colic"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 115 — ตัวพิมพ์: <b>30. ข้อใดเป็น branch ของ inferior mesenteric artery — A. Middle colic artery B. Right colic artery C. Ileocolic artery D. Sigmoidal artery E. Wandering artery</b><br>ลายมือ: วงเล็บ A–C \"จาก SMA\" · ขีด D + \"จาก IMA\" · E \"เชื่อม middle ↔ Lt. colic a.\"<br>ไฮไลต์: \"branch ของ inferior mesenteric artery\" · D (เหลือง)<br>รูปที่แปะ: ภาพ Arterial supply — Superior mesenteric artery · Middle colic artery (ลายมือ \"transverse colon\") · Inferior mesenteric artery · Left colic artery (\"descending colon\") · Marginal artery (\"anastomosis + vasa recta\") · Ileocolic artery · Right colic artery (\"ascending colon\") · Superior rectal artery · Sigmoid arteries · Arteria rectae / \"2 systems — SMA and IMA (midgut/ hindgut) · Transitional zone at splenic flexure\" (ลายมือ \"blood น้อย (ขาดเลือดง่าย) ∵ ไกล SMA, IMA สุด\")<br>ที่ปรับในเว็บ: ช้อย E เขียนเป็น Arc of Riolan",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 115",
+  "kimg": [
+   "fsk_p115",
+   "kp67b_30"
   ]
  },
  "MDCU67|RoB|35": {
-  "interp": "ถามข้อบ่งชี้การผ่าตัดในฝีในปอด (ช้อยชุดเดียวกับ RoA 57 ของชุดนี้)",
-  "why": "<b>คีย์: ขีด A + ลายมือ D massive + สไลด์ indication for surgery</b><br><b>นอกสไลด์:</b> เมื่อให้ยาเต็มที่แล้วไม่ดีขึ้น (ไข้ไม่ลง เสมหะไม่ลด โพรงไม่เล็กลง) แปลว่าโพรงมีผนังพังผืดหนาที่ยาเข้าไม่ถึงหรือมีสาเหตุอื่นซ่อนอยู่ จึงต้องพิจารณาเอาส่วนปอดนั้นออก",
+  "interp": "ถาม<b>ข้อบ่งชี้ผ่าตัด</b>ใน lung abscess",
+  "why": "ข้อบ่งชี้ผ่าตัดตามสไลด์ในไฟล์: <b>&gt; 6 cm</b> · <b>persistent/ enlarging abscess</b> · <b>CXR ไม่ดีขึ้นหลังยา 2 สัปดาห์</b> · <b>massive hemoptysis</b> · ruptured to pleural space · R/O CA → <b>A (ล้มเหลวจากการรักษาด้วยยา 2 สัปดาห์)</b> ถูกตามคีย์ · ไอเป็นเลือดเล็กน้อยครั้งคราวและ abscess เล็กหลายจุดสองข้างไม่ใช่ข้อบ่งชี้ · ไฟล์ขีด A ลายมือ D ขีดฆ่า \"Occasional\" เขียน <b>\"massive\"</b> และแปะสไลด์ <b>Indication for Surgery</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ารูรั่วระหว่างหลอดลมกับช่องเยื่อหุ้มปอดยังรั่วต่อหลังใส่สายระบายนานพอและปอดไม่ขยาย — ผ่าตัดเย็บปิดรูหรือตัดส่วนปอดที่เป็นต้นเหตุ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ฝีเล็กหลายจุดในปอดสองข้างของผู้ภูมิคุ้มกันต่ำต้องผ่าตัด เพราะเป็นฝีที่เชื้อมาทางกระแสเลือด การรักษาคือยาที่ตรงเชื้อและกำจัดแหล่งเชื้อต้นทาง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าไอเป็นเลือดปริมาณมากหรือเป็นซ้ำจนคุกคามชีวิต (ลายมือ: ต้อง massive)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกช้อยเป็นข้อบ่งชี้ เพราะไอเลือดเล็กน้อยเป็นอาการปกติของฝี และฝีกระจายจากกระแสเลือดรักษาด้วยยา"
+   "B": "BPF จาก abscess แตกเข้าเยื่อหุ้มปอด ระยะแรกรักษาด้วย ICD ระบาย (สไลด์ในไฟล์นับ \"ruptured to pleural space\" เป็นข้อบ่งชี้ด้วย) · จะถูกถ้า BPF/ empyema ไม่ดีขึ้นหลังระบายเต็มที่",
+   "C": "Abscess เล็กหลายจุดสองข้าง (septic emboli) ผ่าตัดไม่ได้ รักษาด้วยยา · จะถูกถ้าคำถามถามกลุ่มที่ต้องใช้ยาอย่างเดียว",
+   "D": "ไอเป็นเลือดเล็กน้อยครั้งคราวไม่ใช่ข้อบ่งชี้ (ลายมือแก้ \"massive\") · จะถูกถ้าเป็น massive hemoptysis",
+   "E": "ไม่ใช่ทุกข้อ (C, D ไม่ใช่) · จะถูกถ้า D เป็น massive และ C เป็นก้อนเดียวขนาดใหญ่"
   },
-  "trap": "ตั้งเวลาว่ายาไม่ได้ผลเร็วเกินไปเพราะโพรงยังเห็นในภาพ — โพรงยุบช้ากว่าอาการหลายสัปดาห์ ที่ใช้ตัดสินคือไข้และอาการทางคลินิกไม่ดีขึ้น",
+  "trap": "ไอเป็นเลือดเล็กน้อยก็ผ่าตัด — ต้อง massive",
   "summary": [
-   "<b>นอกสไลด์:</b> เมื่อผ่าตัดฝีในปอด: ตัดกลีบปอด (lobectomy) เป็นหลัก — ไม่ทำ wedge เพราะผนังอักเสบรอบโพรงกว้าง และเลี่ยง pneumonectomy · ผู้ป่วยเสี่ยงผ่าตัดสูงใช้การเจาะระบายผ่านผิวหนังแทน"
+   "ผ่าตัด lung abscess: &gt; 6 cm · ไม่ดีขึ้นหลัง ATB 2 สัปดาห์ · โตขึ้น",
+   "Massive hemoptysis · rupture to pleura (empyema) · สงสัยมะเร็ง",
+   "ส่วนใหญ่ (~80–90%) หายด้วยยา",
+   "ทางเลือกก่อนผ่าตัด: percutaneous/ endoscopic drainage",
+   "Abscess หลายจุด (septic emboli) → ยา + หาต้นเหตุ",
+   "ผ่าตัด: lobectomy (double-lumen tube)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางค่อนข้างสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · สไลด์ในไฟล์ระบุ \"ruptured to pleural space\" เป็นข้อบ่งชี้ด้วย ซึ่งทำให้ B ใกล้เคียง แต่คีย์เลือก A",
+  "mnemonic": "<b>'ผ่า abscess: ใหญ่ (&gt; 6) · ยาไม่ได้ผล (2 wk) · เลือดออกมาก · แตก · มะเร็ง'</b>",
+  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess",
   "variants": [
-   "<b>นอกสไลด์:</b> ผ่าตัด lobectomy ฝีในปอดซ้าย → ใส่ท่อช่วยหายใจแบบ double-lumen แยกปอด ป้องกันหนองไหลลงปอดขวาระหว่างพลิกตัวและผ่าตัด",
-   "<b>นอกสไลด์:</b> ฝีในปอดผนังหนาไม่เรียบ ไม่ดีขึ้นด้วยยา ในชายสูบบุหรี่ → ส่องกล้องหลอดลมตัดชิ้นเนื้อ สงสัยมะเร็งที่เนื้อตายเป็นโพรง"
+   "abscess 7 cm ไม่ยุบหลังยา 3 สัปดาห์ → lobectomy",
+   "abscess แตกเข้าเยื่อหุ้มปอด → ICD ก่อน",
+   "ผู้ป่วยไอเป็นเลือด 500 mL/ วันจาก abscess → ผ่าตัด/ bronchial artery embolization"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 116 — หัวข้อ CVT · ตัวพิมพ์: <b>35. Which is/are indication for surgical intervention in lung abscess? — A. Failure to 2 weeks of medical treatment B. Bronchopleural fistula C. Multiple small bilateral abscess in immunocompromised host D. Occasional hemoptysis E. All of the above</b><br>ลายมือ: ขีด A · D ขีดฆ่า \"Occasional\" + \"massive\"<br>ไฮไลต์: \"indication\" \"surgical intervention in lung abscess\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Indication for Surgery (☆) — &gt; 6 cm · Persistent or enlarging abscess · CXR not better after 2 week ATB · Massive Hemoptysis · Ruptured to Pleural space · R/O CA + ลายมือเล็ก (เช่น \"life threatening\" \"→ empyema → ใส่ ICD\" \"CT scan → biopsy\")",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 116",
+  "kimg": [
+   "fsk_p116",
+   "kp67b_35"
   ]
  },
  "MDCU67|RoB|36": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับฝีในปอด (ช้อยคล้าย RoA 58 ของชุดนี้)",
-  "why": "<b>คีย์: ขีด B + ลายมือ A aspiration · D anaerobe</b><br><b>นอกสไลด์:</b> ฝีส่วนใหญ่เกิดจากสำลักเชื้อในช่องปาก ซึ่งไหลลงส่วนที่อยู่ต่ำตามท่าขณะสำลัก หลอดลมขวาตรงกว่าจึงพบที่ปอดขวาบ่อย",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>lung abscess</b>",
+  "why": "Lung abscess ส่วนใหญ่เกิดจาก<b>การสำลัก</b> → ตำแหน่งที่พบบ่อยคือ <b>superior segment ของ lower lobe (1st)</b> และ <b>posterior segment ของ upper lobe (2nd)</b> ข้างขวา (อยู่ต่ำเมื่อนอนหงาย) → B ถูก · กลไกหลักคือ aspiration ไม่ใช่ทางเลือด · ไอเป็นเลือดและเสมหะเหม็นพบบ่อย · เชื้อหลักคือ anaerobe · ไฟล์ขีด B ลายมือ A แก้ <b>\"aspiration\"</b> · <b>\"2nd\"</b> เหนือ posterior upper · <b>\"1st\"</b> เหนือ superior lower · <b>\"∵ … supine\"</b> · C ขีดฆ่า \"un\" · D แก้ <b>\"anaerobe\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (ข้อความเป็นจริง) ถ้าเป็น Lemierre syndrome — คออักเสบแล้วหลอดเลือดดำ jugular อักเสบมีลิ่มเลือด (Fusobacterium necrophorum) แพร่เชื้อทางเลือดเป็นฝีหลายจุดในปอดสองข้าง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ไอเลือดและเสมหะเหม็นพบน้อย\" เป็นจริงในฝีจากการสำลัก เพราะ anaerobe ย่อยเนื้อปอดจนเสมหะเหม็นเน่า และโพรงที่กัดเนื้อปอดทำให้มีเลือดปนได้บ่อย",
-   "D": "<b>นอกสไลด์:</b> จะถูก (ข้อความเป็นจริง) ถ้าเป็นเด็กเล็กหลังปอดอักเสบรุนแรงจาก S. aureus ที่เกิดโพรงในปอด หรือฝีในผู้ป่วยใส่เครื่องช่วยหายใจในโรงพยาบาล",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกข้อถูก เพราะฝีจากการสำลักทำให้เสมหะเหม็นและไอมีเลือดปนได้บ่อย ข้อความว่าพบน้อยจึงไม่จริง"
+   "A": "กลไกหลักคือ aspiration (ลายมือแก้) · จะถูกถ้าคำถามถาม septic emboli ใน IVDU/ right-sided endocarditis",
+   "C": "ไอเป็นเลือดและเสมหะเหม็นพบบ่อย (ลายมือขีด un) · จะถูกถ้าข้อความว่า \"common\"",
+   "D": "เชื้อหลักคือ anaerobe (ลายมือแก้) · จะถูกถ้าคำถามถาม abscess หลังไข้หวัดใหญ่หรือในผู้ใช้ยาฉีด",
+   "E": "มีเพียง B ที่ถูก · จะถูกถ้าทุกข้อเป็นจริง"
   },
-  "trap": "จำว่าสำลักแล้วลงกลีบล่างขวาเสมอ — ขึ้นกับท่าตอนสำลัก: นอนหงายลง posterior segment ของกลีบบนและ superior segment ของกลีบล่าง ยืนหรือนั่งลง basal segment",
+  "trap": "คิดว่า Staphylococcus เป็นเชื้อหลัก — สำลักจึงเป็น anaerobe",
   "summary": [
-   "<b>นอกสไลด์:</b> ฝีจากการสำลักอยู่ส่วนที่ต่ำของปอด (ขวาบ่อยกว่า) · อาการและการวินิจฉัย: ไข้ ไอ เสมหะเหม็น น้ำหนักลด เป็นสัปดาห์ (ค่อยเป็นค่อยไปต่างจากปอดอักเสบทั่วไป) · CXR/CT โพรงผนังหนามีระดับน้ำ-ลม · เพาะเสมหะไม่ช่วยหา anaerobe · ส่องกล้องหลอดลมเมื่อไม่มีปัจจัยสำลัก สงสัยมะเร็งหรือสิ่งแปลกปลอม หรือไม่ดีขึ้น"
+   "Aspiration: เมาสุรา ชัก ฟันผุ กลืนลำบาก ดมยา",
+   "ตำแหน่ง: RLL superior (1st) · RUL posterior (2nd)",
+   "เชื้อ: anaerobe/ polymicrobial",
+   "เสมหะเหม็น · ไอเป็นเลือด",
+   "ยา: ampicillin-sulbactam/ clindamycin 4–6 สัปดาห์",
+   "ไม่ดีขึ้น → drainage/ ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'สำลักนอนหงาย → ขวา (superior lower 1st · posterior upper 2nd)'</b>",
+  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess",
   "variants": [
-   "<b>นอกสไลด์:</b> โพรงในปอดผนังบางมีก้อนกลมขยับได้ตามท่าและมีลมรูปจันทร์เสี้ยวคลุม → aspergilloma ในโพรงเดิม ไม่ใช่ฝีในปอด",
-   "<b>นอกสไลด์:</b> ชาวนาภาคอีสานเป็นเบาหวาน ปอดอักเสบแล้วมีหลายโพรง ร่วมฝีในตับม้าม → melioidosis (Burkholderia pseudomallei): ceftazidime หรือ meropenem"
+   "ผู้ป่วยชักหมดสติ ต่อมามีไข้ เสมหะเหม็น โพรง RLL superior → lung abscess",
+   "ผู้ใช้ยาฉีด abscess หลายจุดสองข้าง → septic emboli (S. aureus)",
+   "ผู้สูบบุหรี่ โพรงผนังหนาขรุขระ ไม่มีไข้ → สงสัยมะเร็ง (cavitating SCC)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 116 — ตัวพิมพ์: <b>36. Which is true about lung abscess? — A. Hematologic seeding is a common mechanism B. Posterior upper lobe and superior lower lobe of right lung are the most common site C. Hemoptysis and foul smell sputum are uncommon D. Staphylococcus is a common pathogen E. All of the above</b><br>ลายมือ: A ขีดฆ่า \"Hematologic seeding\" + \"aspiration\" · ขีด B + \"2nd\" · \"1st\" · \"∵ … supine\" (อ่านไม่ชัดบางคำ) · ✓ · C ขีดฆ่า \"un\" · D ขีดฆ่า \"Staphylococcus\" + \"anaerobe\"<br>ไฮไลต์: \"true about lung abscess\" · B (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 116",
+  "kimg": [
+   "fsk_p116",
+   "kp67b_36"
   ]
  },
  "MDCU67|RoB|38": {
-  "interp": "ถามเนื้องอกที่พบบ่อยที่สุดใน anterior mediastinum",
-  "why": "<b>คีย์: ขีด A + ลายมือ E posterior</b><br><b>นอกสไลด์:</b> thymoma เกิดจากเซลล์เยื่อบุของต่อม thymus ซึ่งอยู่ใน anterior mediastinum เป็นเนื้องอกที่พบบ่อยที่สุดของช่องนี้ในผู้ใหญ่ (พบมากอายุ 40–60 ปี)",
+  "interp": "ถาม <b>anterior mediastinal tumor ที่พบบ่อยที่สุด</b>",
+  "why": "ก้อนใน anterior mediastinum (\"3T 1L\"): <b>thymoma พบบ่อยที่สุดในผู้ใหญ่</b> (~45%) ตามด้วย lymphoma, germ cell tumor (teratoma) และ thyroid · neurogenic tumor อยู่ <b>posterior</b> mediastinum · ไฟล์ขีด A ลายมือ E <b>\"→ post.\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ teratoma เป็นเนื้องอกที่พบบ่อยที่สุดของ anterior mediastinum เพราะเกิดจากเซลล์สืบพันธุ์ที่ค้างผิดที่ระหว่างการเคลื่อนตัวในตัวอ่อน ซึ่งเป็นเหตุการณ์ไม่บ่อย",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ไทรอยด์เป็นเนื้องอกที่พบบ่อยที่สุดของ anterior mediastinum เพราะเป็นต่อมที่คอยื่นลงมา อยู่ส่วนบนสุดต่อเนื่องกับคอ และส่วนใหญ่เป็นคอพอกไม่ใช่เนื้องอก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าพิจารณาเฉพาะเด็ก — lymphoma (เช่น lymphoblastic lymphoma) เป็นก้อน anterior mediastinum ที่พบบ่อยที่สุดในเด็ก",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ neurogenic tumor เป็นเนื้องอกของ anterior mediastinum ที่พบบ่อยที่สุด เพราะเกิดจากเส้นประสาทและปมประสาทในร่องข้างกระดูกสันหลัง (ลายมือ: posterior)"
+   "B": "Teratoma/ germ cell tumor ~15% · จะถูกถ้าคำถามถามก้อนที่มีไขมัน หินปูน ฟันในคนหนุ่มสาว",
+   "C": "Thyroid (retrosternal goiter) ~15% · จะถูกถ้าคำถามถามก้อนต่อเนื่องจากคอลงทรวงอก",
+   "D": "Lymphoma พบรองลงมา และพบบ่อยที่สุดในเด็ก · จะถูกถ้าคำถามถามก้อน anterior mediastinum ที่พบบ่อยที่สุดในเด็ก",
+   "E": "Neurogenic tumor อยู่ posterior mediastinum (ลายมือ) · จะถูกถ้าคำถามถาม posterior mediastinal tumor ที่พบบ่อยที่สุด"
   },
-  "trap": "เห็นก้อน anterior mediastinum ในคนหนุ่มสาวแล้วตอบ thymoma ทันที — ในเด็กและผู้ใหญ่อายุน้อย lymphoma และ germ cell tumor พบบ่อยกว่า อายุจึงช่วยแยก",
+  "trap": "ตอบ neurogenic tumor ซึ่งเป็นแชมป์ของ posterior mediastinum (และของ mediastinal mass ในเด็กบางรายงาน)",
   "summary": [
-   "<b>นอกสไลด์:</b> thymoma: ผู้ใหญ่ 40–60 ปี · ร่วม paraneoplastic ได้บ่อย (MG มากที่สุด ราว 30–50%; รวมถึง pure red cell aplasia และ hypogammaglobulinemia) · แบ่งชนิดตาม WHO (A, AB, B1–B3; thymic carcinoma แยกออก) และระยะตาม Masaoka (การลุกผ่าน capsule และอวัยวะรอบ)"
+   "Anterior: thymoma (ผู้ใหญ่) · lymphoma · GCT/ teratoma · thyroid",
+   "Middle: cyst · lymphadenopathy",
+   "Posterior: neurogenic tumor",
+   "Thymoma + MG → thymectomy",
+   "GCT: AFP/ β-hCG",
+   "Lymphoma: B symptoms → biopsy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Anterior = 3T 1L (Thymoma นำ) · Posterior = Neurogenic'</b>",
+  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Mediastinal masses",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย thymoma ซีดมาก reticulocyte ต่ำ ไขกระดูกไม่มีเซลล์ตั้งต้นของเม็ดเลือดแดง → pure red cell aplasia (paraneoplastic): ผ่าตัด thymoma และอาจต้องยากดภูมิ",
-   "<b>นอกสไลด์:</b> หลังผ่าตัด thymoma ที่ลุกทะลุ capsule เข้าไขมันรอบ ตัดได้หมด → ติดตามด้วย CT ระยะยาวหลายปี เพราะกลับเป็นซ้ำได้ช้า"
+   "ผู้ใหญ่ก้อน anterior mediastinum + MG → thymoma",
+   "ก้อน paravertebral ใน posterior mediastinum → schwannoma",
+   "เด็กก้อน posterior mediastinum + VMA สูง → neuroblastoma"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 116 — ตัวพิมพ์: <b>38. ข้อใดเป็น most common anterior mediastinal tumor — A. Thymoma B. Teratoma C. Thyroid D. Lymphoma E. Neurogenic tumor</b><br>ลายมือ: ขีด A · E \"→ post.\"<br>ไฮไลต์: \"most common anterior mediastinal tumor\" · A (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 116",
+  "kimg": [
+   "fsk_p116",
+   "kp67b_38"
   ]
  },
  "MDCU67|RoB|42": {
-  "interp": "ข้อ WRONG — หาข้อความที่ผิดเกี่ยวกับ mediastinitis (ช้อยเสริมเรื่องการรักษาและเชื้อ)",
-  "why": "<b>คีย์: ขีด A + สไลด์ aggressive treatment, drainage, debridement</b><br><b>นอกสไลด์:</b> mediastinitis มีหนองและเนื้อตายอยู่ในช่องที่ปิดและเลือดเลี้ยงน้อย ยาปฏิชีวนะอย่างเดียวจึงไม่พอ ต้องระบาย ตัดเนื้อตาย และแก้ต้นเหตุร่วมด้วย",
+  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>mediastinitis</b>",
+  "why": "Mediastinitis ต้อง<b>รักษาเชิงรุก</b>: ยาปฏิชีวนะ <b>ร่วมกับระบายหนอง (drainage) และตัดเนื้อตาย (debridement)</b> และจัดการต้นเหตุ → \"ยาปฏิชีวนะที่เหมาะสมเพียงพอ\" <b>ผิด</b> = A · ข้ออื่นถูก: post-sternotomy มักเป็น S. aureus · DNM ลามจากคอ/ ช่องปาก · ไฟล์ขีด A ขีดฆ่า <b>\"sufficient\"</b> และแปะสไลด์ <b>Treatment: Aggressive treatment · Antibiotic · Drainage + Debridement (Sx) · Origin of infection management</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ต้องระบายและตัดเนื้อตาย\" ผิด เพราะหนองและเนื้อตายเป็นแหล่งเชื้อที่ยาเข้าไม่ถึง ต้องเอาออกทางผ่าตัดหรือการระบาย",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ต้องรักษาแหล่งการติดเชื้อ\" ผิด เพราะถ้ารูรั่วของหลอดอาหาร ฝีที่คอ หรือกระดูกอกติดเชื้อยังอยู่ เชื้อจะไหลเข้า mediastinum ต่อเนื่อง",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"หลังผ่ากระดูกอกมักมี S. aureus\" ผิด เพราะเชื้อจากผิวหนังที่แผลเป็นสาเหตุหลัก รวม MRSA ที่ต้องครอบคลุมในยาเริ่มต้น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ชนิด descending มาจากคอ\" ผิด เพราะการติดเชื้อจากฟันหรือคอหอยลามลงตามช่องพังผืดของคอเข้า mediastinum"
+   "B": "ถูก — drainage + debridement จำเป็น · จะถูกถ้าข้อความว่า \"ไม่ต้องระบายหนอง\"",
+   "C": "ถูก — ต้องจัดการต้นเหตุ (หลอดอาหารทะลุ, ฝีคอ, แผลกระดูกอก) · จะถูกถ้าข้อความว่า \"ไม่จำเป็นต้องหาต้นเหตุ\"",
+   "D": "ถูก — S. aureus (รวม MRSA) พบบ่อยหลังผ่ากระดูกอก · จะถูกถ้าข้อความระบุเชื้อหลักเป็น anaerobe",
+   "E": "ถูก — DNM ลามจากคอ/ ช่องปากลงตาม fascial planes · จะถูกถ้าข้อความว่าลามจากช่องท้อง"
   },
-  "trap": "แผลผ่ากระดูกอกที่มีหนองซึมถูกรักษาแค่ทำแผลและยาฆ่าเชื้อ — ถ้ากระดูกอกโยกหรือหนองอยู่ลึกใต้กระดูก ต้อง CT และกลับห้องผ่าตัดเพื่อเปิดล้างตัดเนื้อตาย",
+  "trap": "ให้ยาอย่างเดียวพอ — ต้องระบายและตัดเนื้อตาย",
   "summary": [
-   "<b>นอกสไลด์:</b> แผลผ่ากระดูกอกติดเชื้อลึก (post-sternotomy mediastinitis): ปัจจัยเสี่ยง → เบาหวาน อ้วน ใช้ IMA ทั้งสองข้าง COPD ใช้เครื่องช่วยหายใจนาน ผ่าตัดซ้ำ · อาการ → ไข้ กระดูกอกโยก แผลมีหนองในราว 1–3 สัปดาห์หลังผ่าตัด · ประเมินด้วย CT"
+   "Mediastinitis: ATB + drainage + debridement + แก้ต้นเหตุ",
+   "Post-sternotomy: S. aureus/ MRSA · ปัจจัยเสี่ยง: DM, BMI สูง, bilateral IMA",
+   "DNM: polymicrobial · CT คอ + ทรวงอก",
+   "Boerhaave: ซ่อม ± ระบาย",
+   "แผลกระดูกอก: debridement · NPWT · flap",
+   "อัตราตายสูงถ้าล่าช้า"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'Mediastinitis: ยา + ระบาย + ตัด + ต้นเหตุ'</b>",
+  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Acute and chronic mediastinal infections",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง CABG วันที่ 10 กระดูกอกโยก หนองไหลจากแผล → เปิดแผลตัดเนื้อตายและกระดูกที่ติดเชื้อ ล้าง ใส่ NPWT แล้วปิดด้วย pectoralis หรือ omental flap",
-   "<b>นอกสไลด์:</b> ฟันกรามล่างอักเสบ คอบวมแข็ง ต่อมาเจ็บหน้าอก หายใจลำบาก CT เห็นหนองลงต่ำกว่า carina → descending necrotizing mediastinitis: ระบายทั้งที่คอและเปิดทรวงอก"
+   "หลังผ่าตัดหัวใจ แผลกระดูกอกแยก มีหนอง → debridement + ATB",
+   "ฝีที่คอลามลงทรวงอก → cervical + transthoracic drainage",
+   "ส่องกล้องหลอดอาหารแล้วเจ็บอก ลมใต้ผิวหนัง → esophageal perforation"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 116 — ตัวพิมพ์: <b>42. ข้อใดผิด — A. Proper ATB is sufficient to treat mediastinitis B. C. D. E.</b><br>ลายมือ: ขีด A + ขีดฆ่า \"sufficient\"<br>ไฮไลต์: \"ผิด\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment — * Aggressive treatment (ลายมือชมพู) · ① Antibiotic · ② Drainage + Debridement (Sx) · Origin of infection management · ลายมือ \"infection control\"<br>ที่ปรับในเว็บ: เติมช้อย B–E ซึ่งในไฟล์เว้นว่าง",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 116",
+  "kimg": [
+   "fsk_p116",
+   "kp67b_42"
   ]
  },
  "MDCU67|RoB|43": {
-  "interp": "ข้อ NOT — หาค่าที่ไม่ใช่เกณฑ์วินิจฉัย empyema (ช้อยชุดใกล้กับ RoA 51 ของชุดนี้)",
-  "why": "<b>คีย์: ขีด B + ลายมือ 15,000 + สไลด์ diagnosis</b><br><b>นอกสไลด์:</b> สไลด์ใช้ WBC ในน้ำเยื่อหุ้มปอด > 15,000/mm³ เป็นเกณฑ์ (ลายมือ 15,000) ช้อยที่ใช้ 10,000 จึงไม่ใช่เกณฑ์ · ช้อยอื่น (LDH > 1,000, pH &lt; 7, glucose &lt; 40, โปรตีน > 3) อยู่ในรายการของสไลด์ทั้งหมด",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>เกณฑ์วินิจฉัย <b>empyema thoracis</b>",
+  "why": "ตามสไลด์ Diagnosis ในไฟล์: เกณฑ์ <b>direct</b> — Gram stain/ culture บวก · <b>indirect</b> — <b>WBC &gt; 15,000/mm³</b> · protein &gt; 3 g/dL · pH &lt; 7 · glucose &lt; 40 mg/dL · LDH &gt; 1,000 U/L → <b>WBC &gt; 10,000</b> ต่ำกว่าเกณฑ์ = ไม่ใช่เกณฑ์ (B) · ไฟล์ขีด B แก้ 10 → <b>\"15\"</b> และ ✓ ที่ A, C, D, E",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"LDH สูงเป็นเกณฑ์\" ผิด เพราะ LDH ในน้ำเยื่อหุ้มปอดสูงจากเม็ดเลือดขาวที่แตกตายจำนวนมาก แนวทางปัจจุบันยังใช้ LDH สูงร่วมตัดสินการระบาย",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"pH ต่ำเป็นเกณฑ์\" ผิด เพราะเชื้อและเม็ดเลือดขาวสร้างกรดแลกติกและ CO2 ในช่องปิด pH จึงเป็นค่าหลักที่ใช้ตัดสินใส่สาย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"glucose ต่ำเป็นเกณฑ์\" ผิด เพราะเชื้อและเม็ดเลือดขาวใช้น้ำตาลในน้ำจนต่ำ ใช้แทน pH ได้เมื่อวัด pH ไม่ได้",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"โปรตีน > 3 g/dL อยู่ในเกณฑ์ของสไลด์\" ผิด เพราะ empyema เป็น exudate โปรตีนสูงทุกราย สไลด์จึงใส่ไว้ร่วมกับ WBC > 15,000"
+   "A": "เป็นเกณฑ์ — LDH &gt; 1,000 (ลายมือ ✓) · จะถูกถ้าข้อความเป็น LDH &gt; 200 (เกณฑ์ exudate)",
+   "C": "เป็นเกณฑ์ — pH &lt; 7 (ลายมือ ✓) · จะถูกถ้าข้อความเป็น pH &gt; 7.3",
+   "D": "เป็นเกณฑ์ — glucose &lt; 40 (ลายมือ ✓) · จะถูกถ้าข้อความเป็น glucose &gt; 60",
+   "E": "เป็นเกณฑ์ (สไลด์) — protein &gt; 3 g/dL (ลายมือ ✓) · จะถูกถ้าคำถามถามเกณฑ์จำเพาะของ empyema (protein สูงบอกเพียง exudate)"
   },
-  "trap": "จำตัวเลขเกณฑ์ WBC สลับกัน (10,000 กับ 15,000) — ช้อยนี้ใช้ค่าที่ไม่ตรงกับเกณฑ์ ส่วนอีกสี่ช้อยตรงตามรายการ",
+  "trap": "จำตัวเลข WBC ผิด — เกณฑ์ในไฟล์คือ &gt; 15,000",
   "summary": [
-   "<b>นอกสไลด์:</b> BTS 2023 ตัดสินใส่สายระบายใน parapneumonic effusion: หนองชัดหรือเห็นเชื้อ → ใส่ · pH ≤ 7.2 → ใส่ · pH 7.21–7.39 → ใส่เมื่อ LDH ≥ 900 ร่วมปัจจัยเสริม (glucose ≤ 72 mg/dL, น้ำมาก, septation, เยื่อหุ้มปอดหนาติดสี) · ไม่มีค่า pH ใช้ glucose &lt; 60"
+   "Direct: Gram stain/ culture บวก · หนองชัด",
+   "Indirect: WBC &gt; 15,000 · protein &gt; 3 · pH &lt; 7 · glucose &lt; 40 · LDH &gt; 1,000",
+   "Complicated parapneumonic: pH &lt; 7.2 → ICD",
+   "Loculated → fibrinolytic/ VATS",
+   "Organizing/ trapped lung → decortication",
+   "ห้าม: ปล่อยค้างโดยไม่ระบาย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ตามสไลด์) — แนวทางปัจจุบันไม่ใช้ WBC หรือโปรตีนตัดสินการระบาย",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'Empyema WBC ต้อง 15K ขึ้นไป'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); ACCP Consensus: Parapneumonic Effusions (Chest 2000;118:1158)",
   "variants": [
-   "<b>นอกสไลด์:</b> น้ำเยื่อหุ้มปอด pH 7.30 LDH 1,200 IU/L น้ำมาก US เห็น septation → ใส่สายระบาย",
-   "<b>นอกสไลด์:</b> ส่งน้ำเยื่อหุ้มปอดเพาะเชื้อ → ใส่ในขวดเพาะเชื้อเลือดร่วมด้วย เพิ่มโอกาสเพาะเชื้อขึ้น"
+   "pleural fluid pH 6.8 glucose 25 → empyema → ICD",
+   "pleural fluid Gram stain พบ gram-positive cocci → empyema",
+   "pleural fluid protein 4 LDH 300 pH 7.4 → exudate ธรรมดา (ไม่ใช่ empyema)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 116 — ตัวพิมพ์: <b>43. ข้อใดไม่ใช่ criteria ในการวินิจฉัย empyema thoracis — A. LDH &gt; 1,000 U/L B. WBC &gt; 10,000/mm³ C. pH &lt; 7 D. Glucose &lt; 40 mg/dl E. Protein &gt; 3 g/dl</b><br>ลายมือ: A ✓ · ขีด B + แก้ \"10\" เป็น \"15\" · C ✓ · D ✓ · E ✓<br>ไฮไลต์: \"ไม่ใช่ criteria\" \"วินิจฉัย empyema thoracis\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Diagnosis (☆ ลายมือ \"empyema dx จากสิ่งเหล่านี้ได้\") — direct: Gram stain positive · Culture Positive / indirect: WBC &gt; 15,000/mm³ (ลายมือ \"indirect evidence ว่ามี infect.\") · Protein &gt; 3 g/dl · pH &lt; 7 · Glu &lt; 40 mg/dl · LDH &gt; 1000 U/L",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 116",
+  "kimg": [
+   "fsk_p116",
+   "kp67b_43"
   ]
  },
  "MDCU67|RoB|45": {
-  "interp": "ฝีในปอดระยะแรก นอกจากยาปฏิชีวนะแล้ว ถามสิ่งที่แนะนำ (ช้อยใกล้กับ RoA 56 ของชุดนี้)",
-  "why": "<b>คีย์: ขีด A</b><br><b>นอกสไลด์:</b> ฝีส่วนใหญ่ติดต่อกับหลอดลมอยู่แล้ว การจัดท่าให้หนองไหลออกตามแรงโน้มถ่วงและไอออกช่วยระบายโดยไม่ต้องเจาะ · การเจาะหรือใส่สายแต่แรกเสี่ยงหนองรั่วเข้าช่องเยื่อหุ้มปอด จึงเก็บไว้เมื่อยาไม่ได้ผล",
+  "interp": "นอกจากยาปฏิชีวนะ ควรทำอะไรใน <b>lung abscess ระยะแรก</b>",
+  "why": "Lung abscess ระยะแรกที่ไม่มีภาวะแทรกซ้อน → ยาปฏิชีวนะนาน + <b>physiotherapy — postural drainage</b> ช่วยระบายหนองทางหลอดลมตามธรรมชาติ · หัตถการ (เจาะดูด/ ใส่ท่อ/ ผ่าตัด) สำรองไว้เมื่อไม่ตอบสนอง · ไฟล์ขีด A",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าฝีใหญ่ไม่ตอบสนองต่อยาหลายสัปดาห์ อยู่ชิดผนังอกที่เยื่อหุ้มปอดยึดติดกันแล้ว — เจาะดูดหรือใส่สายระบายนำทางด้วย CT",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าฝีแตกเข้าช่องเยื่อหุ้มปอดจนเกิดหนองหรือหนองร่วมลมในช่องเยื่อหุ้มปอด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าฝีไม่หายหลังให้ยาเต็มที่ ไอเลือดมาก หรือสงสัยมะเร็งที่เป็นต้นเหตุ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ไม่มีวิธีใดแนะนำ\" ถูก เพราะการจัดท่าระบายหนองร่วมกับกายภาพทรวงอกเป็นวิธีที่แนะนำร่วมกับยาในฝีทุกราย"
+   "B": "เจาะดูดใช้เมื่อไม่ตอบสนองยาหรือก้อนใหญ่ · จะถูกถ้าคำถามถาม abscess 8 cm ไข้ไม่ลงหลังยา 2 สัปดาห์",
+   "C": "ICD ระบายช่องเยื่อหุ้มปอด ไม่ใช่โพรงในปอด (เสี่ยง BPF) · จะถูกถ้า abscess แตกเข้าเยื่อหุ้มปอดเกิด empyema",
+   "D": "Lobectomy สำรองไว้เมื่อไม่ตอบสนอง/ massive hemoptysis/ สงสัยมะเร็ง · จะถูกถ้าคำถามถามข้อบ่งชี้ผ่าตัด",
+   "E": "มีคำตอบคือ A · จะถูกถ้าไม่มีการรักษาเสริมใดเหมาะสม"
   },
-  "trap": "อยากระบายหนองให้เร็วจึงเจาะผ่านผิวหนังตั้งแต่แรก — เข็มที่ผ่านเยื่อหุ้มปอดที่ยังไม่ยึดติดพาหนองเข้าช่องเยื่อหุ้มปอดเกิด empyema หรือรูรั่ว",
+  "trap": "รีบทำหัตถการระบาย — ระยะแรกใช้ยา + postural drainage",
   "summary": [
-   "<b>นอกสไลด์:</b> ขั้นการระบายฝีในปอด: ยาปฏิชีวนะ + จัดท่า/กายภาพทรวงอก (ส่วนใหญ่หาย) → ไม่ดีขึ้น: หาสาเหตุ (ส่องกล้องหลอดลม) และพิจารณาเจาะระบายผ่านผิวหนังหรือผ่านกล้อง → ล้มเหลว/ภาวะแทรกซ้อน: ผ่าตัด"
+   "Lung abscess ระยะแรก: ATB + postural drainage/ physiotherapy",
+   "ATB 4–6 สัปดาห์ (จน CXR ดีขึ้นชัด)",
+   "Bronchoscopy: หาสิ่งแปลกปลอม/ มะเร็ง",
+   "ไม่ตอบสนอง → percutaneous/ endoscopic drainage",
+   "ผ่าตัด: &gt; 6 cm · massive hemoptysis · สงสัยมะเร็ง",
+   "ICD เฉพาะเมื่อแตกเข้าเยื่อหุ้มปอด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Abscess ระยะแรก: ยา + จัดท่าระบาย'</b>",
+  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยฝีในปอดที่ติดเตียงไอไม่มีแรง หนองไม่ออก → ส่องกล้องหลอดลมดูดหนอง",
-   "<b>นอกสไลด์:</b> ให้ยามา 1 สัปดาห์ไข้ลดลง แต่ CXR โพรงยังใหญ่เท่าเดิม → ให้ยาต่อ โพรงยุบช้ากว่าอาการหลายสัปดาห์ ไม่ใช่เหตุให้เจาะ"
+   "lung abscess 4 cm หลังสำลัก → ATB + postural drainage",
+   "abscess ไม่ดีขึ้น 2 สัปดาห์ → percutaneous drainage",
+   "abscess + empyema → ICD"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 116 — ตัวพิมพ์: <b>45. Apart of ATB, which is recommended treatment of early lung abscses? — A. Physiotherapy – postural drainage B. Abscess aspiration C. Intercostal drainage D. Lobectomy E. None of above</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"Apart of ATB\" \"treatment of early lung abscses\" · A (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 116",
+  "kimg": [
+   "fsk_p116",
+   "kp67b_45"
   ]
  }
 }
