@@ -1,29 +1,30 @@
 {
  "MDCU66|RoA|17": {
-  "interp": "เด็กแรกเกิดมี <b>clitoromegaly + labioscrotal fusion</b> (ambiguous genitalia) ถามการจัดการ",
-  "why": "Ambiguous genitalia ในเด็กที่คลำไม่พบอัณฑะ ต้องนึกถึง <b>congenital adrenal hyperplasia (21-hydroxylase deficiency)</b> ก่อน เพราะชนิด salt-losing ทำให้ Na ต่ำ K สูง ช็อกได้ในสัปดาห์ที่ 1–2 → ต้องตรวจ <b>karyotype + electrolytes</b> (± 17-OHP) ก่อนตัดสินใจผ่าตัดใด ๆ · ไฟล์ขีด B ลายมือ <b>\"R/O congenital adrenal hyperplasia (CAH)\"</b>",
+  "interp": "ทารกแรกเกิดมี <b>clitoromegaly + labioscrotal fusion</b> คืออวัยวะเพศกำกวม (ambiguous genitalia) — ถามขั้นแรกของการจัดการ ซึ่งต้องหาสาเหตุและภาวะอันตรายถึงชีวิตก่อนคิดเรื่องผ่าตัด",
+  "why": "อวัยวะเพศกำกวมที่คลำไม่พบอัณฑะ สาเหตุที่พบบ่อยที่สุดคือ <b>46,XX DSD จาก congenital adrenal hyperplasia (CAH)</b> ชนิด <b>21-hydroxylase deficiency</b> — ขาดเอนไซม์ทำให้สร้าง cortisol และ aldosterone ไม่ได้ สารตั้งต้นจึงไปเป็น androgen ทำให้เด็กหญิงมีลักษณะเพศชาย · ชนิด salt-losing (~75%) จะเกิด <b>Na ต่ำ K สูง ขาดน้ำ ช็อก</b> ในสัปดาห์ที่ 1–3 จึงเป็นภาวะฉุกเฉิน · ขั้นแรกคือตรวจ <b>karyotype (chromosome study) + electrolytes</b> ร่วมกับ 17-hydroxyprogesterone และ ultrasound หา uterus/ gonad แล้วให้ทีมสหสาขา (กุมารต่อมไร้ท่อ ศัลยแพทย์เด็ก จิตแพทย์) ตัดสินใจเพศที่เลี้ยงดูร่วมกับครอบครัว ก่อนวางแผนผ่าตัด · ไฟล์ขีด B ลายมือ <b>\"R/O congenital adrenal hyperplasia (CAH)\"</b>",
   "wrong": {
-   "A": "Topical steroid ไม่ได้รักษา CAH (ต้องให้ hydrocortisone ทางระบบ ± fludrocortisone หลังวินิจฉัย) · จะถูกถ้าคำถามถาม labial adhesion ในเด็กหญิง (ทา estrogen cream)",
-   "C": "ผ่าตัดทันทีก่อนรู้ karyotype และเพศที่จะเลี้ยงดู ไม่เหมาะ · จะถูกถ้าคำถามถามแผนผ่าตัดหลังวินิจฉัย CAH 46,XX และครอบครัวตัดสินใจร่วมกับทีมแล้ว",
-   "D": "กำหนดเวลาผ่าตัดก่อนหาสาเหตุ ยังไม่ใช่ขั้นแรก · จะถูกถ้าคำถามถามช่วงเวลาผ่าตัดแก้ไขหลังวินิจฉัยและรักษาด้วยยาแล้ว",
-   "E": "สลับลำดับผ่าตัดโดยยังไม่รู้ karyotype และยังไม่ได้แก้ภาวะ salt-wasting ไม่ใช่ขั้นแรก · จะถูกถ้าคำถามถามแผนผ่าตัดที่ทีมสหสาขาและครอบครัวตกลงร่วมกันแล้วหลังรักษา CAH"
+   "A": "Topical steroid ไม่รักษา CAH เพราะปัญหาคือขาด cortisol/ aldosterone ทั้งระบบ ต้องให้ hydrocortisone ทางปาก/ หลอดเลือด ± fludrocortisone และเกลือหลังวินิจฉัย · จะถูกถ้าเป็นเด็กหญิง 2 ขวบที่แคมเล็กติดกัน (labial adhesion) ซึ่งทา estrogen cream",
+   "C": "ผ่าตัดลดขนาดคลิตอริสทันทีก่อนรู้ karyotype และก่อนแก้ภาวะ salt-wasting ไม่ปลอดภัย และการผ่าตัดอวัยวะเพศในวัยทารกปัจจุบันต้องผ่านการตัดสินใจของทีมและครอบครัว · จะถูกถ้าเป็นเด็ก 46,XX CAH ที่ยืนยันวินิจฉัย รักษาด้วยยาจนคงที่ และครอบครัวกับทีมตกลงแผนผ่าตัดแล้ว",
+   "D": "กำหนดเวลาผ่าตัดคลิตอริสและช่องคลอดล่วงหน้าโดยยังไม่ได้วินิจฉัยและตัดสินใจเพศ ไม่ใช่ขั้นแรก · จะถูกถ้าเป็นการวางแผน feminizing genitoplasty ในเด็ก CAH ที่ยืนยันวินิจฉัยและได้ hydrocortisone แล้ว",
+   "E": "สลับลำดับผ่าตัดโดยยังไม่รู้ karyotype และยังไม่ได้ประเมิน salt-wasting ก็ยังไม่ใช่ขั้นแรกเช่นกัน · จะถูกถ้าเป็นการถกแผนผ่าตัดของทีมสหสาขาหลังวินิจฉัย ซึ่งบางแห่งเลื่อนการผ่าตัดช่องคลอดไปช่วงวัยรุ่น"
   },
-  "trap": "กระโดดไปเลือกช่วงเวลาผ่าตัด แต่ขั้นแรกคือ<b>หาสาเหตุและแก้ภาวะ salt-wasting ที่อันตรายถึงชีวิต</b>",
+  "trap": "กระโดดไปเลือกช่วงเวลาผ่าตัด (ช้อย C–E ยาวและดูเชี่ยวชาญ) ทั้งที่อวัยวะเพศกำกวมในทารกเป็น <b>medical emergency</b> ต้องหาสาเหตุและแก้ภาวะ salt-wasting ที่อันตรายถึงชีวิตก่อน",
   "summary": [
-   "Ambiguous genitalia = medical emergency (นึกถึง CAH)",
-   "ตรวจ karyotype · electrolytes · 17-OHP · US หา uterus/ gonad",
-   "21-hydroxylase deficiency: 17-OHP สูง",
-   "Salt-losing: Na ต่ำ K สูง ช็อกในสัปดาห์ที่ 1–2",
-   "รักษา: hydrocortisone ± fludrocortisone",
-   "ตัดสินใจเพศและผ่าตัดโดยทีมสหสาขาร่วมกับครอบครัว"
+   "Ambiguous genitalia = medical emergency · ห้ามระบุเพศหรือจดทะเบียนเพศจนกว่าทีมสหสาขาประเมินเสร็จ และสื่อสารกับครอบครัวอย่างระมัดระวัง",
+   "สาเหตุพบบ่อยสุด: 46,XX DSD จาก CAH (21-hydroxylase deficiency ~90–95% ของ CAH)",
+   "ตรวจ: karyotype/ SRY · electrolytes · 17-OHP (สูงมาก) · ultrasound หา uterus และ gonad",
+   "Salt-losing crisis สัปดาห์ที่ 1–3: อาเจียน ขาดน้ำ Na ต่ำ K สูง น้ำตาลต่ำ ช็อก → IV NSS + hydrocortisone",
+   "รักษาระยะยาว: hydrocortisone + fludrocortisone + เกลือ · เพิ่มขนาดช่วงเจ็บป่วย (stress dose)",
+   "คัดกรองทารกแรกเกิดด้วย 17-OHP ในหลายประเทศ · 46,XX CAH มีมดลูกรังไข่ปกติ มีบุตรได้"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'อวัยวะเพศกำกวม → ตรวจ X Y + Na K ก่อนมีด'</b>",
-  "guide": "Consensus Statement on Management of Intersex Disorders (Pediatrics 2006;118:e488)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด B และลายมือ R/O CAH ซึ่งเป็นสาเหตุที่พบบ่อยและอันตรายที่สุด · ช้อยผ่าตัดทั้งสามข้อเป็นเรื่องหลังวินิจฉัยและตัดสินใจร่วมกันแล้ว",
+  "mnemonic": "<b>'อวัยวะเพศกำกวม → ตรวจ X Y + Na K (+ 17-OHP) ก่อนมีด'</b>",
+  "guide": "Global Disorders of Sex Development Update since 2006 (Horm Res Paediatr 2016;85:158) · Endocrine Society Guideline: Congenital Adrenal Hyperplasia due to 21-Hydroxylase Deficiency (J Clin Endocrinol Metab 2018;103:4043)",
   "variants": [
-   "ทารกอวัยวะเพศกำกวม อายุ 10 วัน อาเจียน Na 125 K 7 → salt-losing CAH → IV fluid + hydrocortisone",
-   "Karyotype 46,XX + 17-OHP สูง → 21-hydroxylase deficiency",
-   "Hypospadias + undescended testis ทั้งสองข้าง → ตรวจ karyotype (DSD)"
+   "ทารก 10 วัน อวัยวะเพศกำกวม อาเจียน ซึม Na 124 K 7.2 → salt-losing CAH → IV NSS + hydrocortisone",
+   "ทารก karyotype 46,XX + 17-OHP สูงมาก + มีมดลูกใน ultrasound → 21-hydroxylase deficiency",
+   "ทารก hypospadias รุนแรงร่วมกับคลำอัณฑะไม่ได้ทั้งสองข้าง → ประเมิน DSD (karyotype, 17-OHP) ก่อน",
+   "ทำไม 21-hydroxylase deficiency ทำให้เด็กหญิงมีลักษณะเพศชาย → สารตั้งต้นสะสมแล้วเปลี่ยนเป็น androgen ในต่อมหมวกไต"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>17. เด็กมี clitorimegaly + labial scrotal infusion จะ manage อย่างไร? — A. ทา steroid B. ทำ chromosome study + ตรวจ e'lyte C. ผ่าแก้ clitorimegaly เลย และ ผ่าแก้ labial scrotal infusion ตอน 6-12 เดือน D. ผ่าแก้ clitorimegaly ตอน 6-12 เดือน และ ผ่าแก้ labial scrotal infusion ก่อน puberty E. ผ่าแก้ labial scrotal infusion ตอน 6-12 เดือน และ ผ่าแก้ clitorimegaly ก่อน puberty</b><br>ลายมือ: เขียน \"R/O congenital adrenal hyperplasia (CAH)\" เหนือช้อย B · ขีด B<br>ไฮไลต์: \"clitorimegaly\" · \"labial scrotal infusion\" · \"manage อย่างไร\" · \"chromosome study + ตรวจ e'lyte\" (เหลือง)<br>รูปที่แปะ: สไลด์ Evaluation — Identified the gonads (Testis: palpation along descended tract · Ovary: ultrasonography) · Chromosomal study · Serum studies for congenital adrenal hyperplasia (salt-wasting form) · สไลด์ CAH 4 ภาพ — Salt-losing 21-hydroxylase deficiency · Simple virilizing (non-salt-losing) CAH · Non-classic CAH · CAH diagnosis พร้อมไฮไลต์และโน้ตลายมือ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
@@ -33,30 +34,31 @@
   ]
  },
  "MDCU66|RoA|18": {
-  "interp": "ทารกชาย 6 เดือน <b>antenatal hydronephrosis</b> ซ้าย หลังคลอด US ยังพบ และ <b>VCUG ปกติ</b> (ไม่มี reflux) ถามการตรวจเพิ่มเติม",
-  "why": "เมื่อ VCUG ตัด vesicoureteral reflux ออกแล้ว ต้องแยก <b>obstruction (UPJ obstruction)</b> และประเมินการทำงานของไตแต่ละข้าง → <b>diuretic renal scan (MAG3 + furosemide)</b> ให้ทั้ง split renal function และ drainage curve · ไฟล์ขีด B แปะสไลด์ <b>\"Renal scan: function of kidney, obstruction\"</b>",
+  "interp": "ทารกชาย 6 เดือน ตรวจพบไตซ้ายบวมน้ำตั้งแต่ในครรภ์ หลังคลอด US ยังพบ และ <b>VCUG ปกติ (ไม่มี reflux)</b> — ถามการตรวจต่อเพื่อดูว่ามีการอุดกั้นจริงหรือไม่และไตทำงานเท่าไร",
+  "why": "Antenatal hydronephrosis มีสาเหตุหลักคือ transient/ physiologic dilation, <b>UPJ obstruction</b> (พบบ่อยที่สุดในกลุ่มที่เป็นโรค), vesicoureteral reflux และ UVJ obstruction/ megaureter · ลำดับการตรวจ: US หลังคลอด (รอ 48–72 ชม. เพราะทารกปัสสาวะน้อยช่วงแรก) → ถ้าบวมปานกลาง–มากทำ VCUG หา reflux/ posterior urethral valve → ถ้า VCUG ปกติแต่ยังบวม ต้องแยก obstruction ด้วย <b>diuretic renal scan (MAG3 + furosemide)</b> ซึ่งให้ทั้ง <b>split renal function</b> และ <b>drainage curve</b> (T½ &gt; 20 นาทีสงสัยอุดกั้น) · ถ้า split function &lt; 40% หรือแย่ลงในการติดตาม หรือมีอาการ → pyeloplasty · ไฟล์ขีด B แปะสไลด์ Postnatal evaluation ที่ระบุ <b>\"Renal scan: function of kidney, obstruction\"</b>",
   "wrong": {
-   "A": "IVP บอกการอุดกั้นได้แต่ไม่บอก split function ใช้ contrast และรังสี ไตทารกขับ contrast ได้ไม่ดี จึงเลิกใช้ · จะถูกถ้าคำถามถามการตรวจแบบเดิมในผู้ใหญ่ที่ไม่มี CT",
-   "C": "CT มีรังสีสูง ไม่บอก drainage และ split function ในทารกได้ดี · จะถูกถ้าคำถามถามผู้ใหญ่ปวดบั้นเอวสงสัยนิ่ว",
-   "D": "MR urography ให้ทั้งกายวิภาคและการทำงาน แต่ต้องดมยาสลบในทารกและไม่ใช่การตรวจมาตรฐานลำดับแรก · จะถูกถ้าคำถามถามกายวิภาคซับซ้อน เช่น duplex kidney/ ectopic ureter",
-   "E": "Cystoscopy + retrograde pyelography รุกล้ำ ต้องดมยา ใช้ระหว่างผ่าตัดเพื่อดูท่อไตส่วนล่าง · จะถูกถ้าคำถามถามการตรวจก่อน pyeloplasty ในห้องผ่าตัด"
+   "A": "IVP บอกการอุดกั้นได้คร่าว ๆ แต่ไม่ให้ split function เชิงตัวเลข ใช้ contrast และรังสี ไตทารกยังเข้มข้นปัสสาวะได้ไม่ดีภาพจึงไม่ชัด ปัจจุบันเลิกใช้ในเด็ก · จะถูกถ้าเป็นผู้ใหญ่ในพื้นที่ที่ไม่มี CT หรือ renal scan และต้องการดูกายวิภาคของ collecting system",
+   "C": "CT ให้ภาพกายวิภาคดี แต่รังสีสูงในทารก และไม่บอก drainage หรือ split function ได้ดีเท่า renal scan · จะถูกถ้าเป็นผู้ใหญ่ปวดบั้นเอวร้าวลงขาหนีบที่สงสัยนิ่วอุดกั้น (CT non-contrast)",
+   "D": "MR urography ให้ทั้งกายวิภาคและการทำงาน ไม่มีรังสี แต่ทารกต้องดมยาสลบ ราคาสูง และไม่ใช่การตรวจลำดับแรก · จะถูกถ้าเป็นทารกที่สงสัย duplex kidney กับ ectopic ureter หรือกายวิภาคซับซ้อนที่ US และ renal scan ไม่ชัด",
+   "E": "Cystoscopy + retrograde pyelography รุกล้ำ ต้องดมยา และเสี่ยงติดเชื้อ ใช้ยืนยันระดับการอุดกั้นระหว่างผ่าตัดเท่านั้น · จะถูกถ้าเป็นการตรวจในห้องผ่าตัดก่อนทำ pyeloplasty เพื่อดูว่าท่อไตส่วนล่างไม่มีการตีบร่วม"
   },
-  "trap": "ตรวจ US ซ้ำเร็วเกินไปในวันที่ 1–2 อาจได้ผลลบลวงเพราะทารกปัสสาวะน้อย (relative oliguria) จึงควรตรวจหลัง 48–72 ชม.",
+  "trap": "ตรวจ US ซ้ำเร็วเกินในวันที่ 1–2 หลังคลอดอาจเห็นปกติลวงเพราะทารกปัสสาวะน้อย และเลือก IVP เพราะคุ้นกับการตรวจไตในผู้ใหญ่ · ในทารก VCUG ใช้หา reflux ส่วน <b>renal scan</b> ใช้ดูการอุดกั้นและการทำงาน",
   "summary": [
-   "Antenatal HN → US หลังคลอด (หลัง 48–72 ชม.)",
-   "HN ปานกลาง–รุนแรง → VCUG (หา VUR/ PUV)",
-   "VCUG ปกติ → diuretic renal scan (MAG3)",
-   "Split function &lt; 40% หรือแย่ลง → pyeloplasty",
-   "UPJO: สาเหตุ HN ในทารกที่พบบ่อยที่สุด",
-   "PUV: ชาย HN ทั้งสองข้าง + กระเพาะปัสสาวะหนา"
+   "Antenatal HN: transient/ physiologic (พบบ่อยสุด หายเองได้) · UPJO (สาเหตุทางพยาธิที่พบบ่อยสุด) · VUR · megaureter · PUV (ทารกชาย บวมสองข้าง กระเพาะปัสสาวะหนา)",
+   "US หลังคลอดหลัง 48–72 ชม. เพื่อเลี่ยงผลลบลวงจากทารกปัสสาวะน้อย (ยกเว้นสงสัย PUV หรือบวมสองข้างรุนแรง ให้ทำภายใน 24–48 ชม.)",
+   "HN ปานกลาง–มาก หรือ ureter โป่ง → VCUG หา reflux และ PUV",
+   "VCUG ปกติ → diuretic renal scan (MAG3): split function + drainage (T½)",
+   "Pyeloplasty เมื่อ: split function &lt; 40% · function ลดลง &gt; 10% · HN แย่ลง · ปวด/ ติดเชื้อ/ นิ่ว",
+   "ระหว่างติดตามพิจารณา prophylactic antibiotic ในรายที่บวมมากหรือ ureter โป่ง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'VCUG ดู Reflux · Renal scan ดู Resistance (obstruction) + function'</b>",
-  "guide": "Multidisciplinary Consensus on the Classification of Prenatal and Postnatal Urinary Tract Dilation (UTD Classification System) (J Pediatr Urol 2014;10:982)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ Postnatal evaluation ที่ผู้จดแปะ ซึ่งระบุ VCUG สำหรับ reflux และ renal scan สำหรับการทำงานของไตและการอุดกั้น",
+  "mnemonic": "<b>'VCUG = Reflux · Renal scan = Resistance (obstruction) + function'</b>",
+  "guide": "Multidisciplinary Consensus on the Classification of Prenatal and Postnatal Urinary Tract Dilation (UTD Classification System) (J Pediatr Urol 2014;10:982) · EAU Guidelines on Paediatric Urology (2024)",
   "variants": [
-   "ทารก HN ซ้าย VCUG ปกติ MAG3 ไตซ้ายทำงาน 30% drainage ไม่ดี → pyeloplasty",
-   "ทารกชาย HN ทั้งสองข้าง กระเพาะปัสสาวะหนา → VCUG → posterior urethral valve",
-   "ทารก HN + VCUG พบ reflux grade IV → prophylactic antibiotics"
+   "ทารก HN ซ้าย VCUG ปกติ MAG3 ไตซ้ายทำงาน 30% drainage ไม่ดี → pyeloplasty (Anderson–Hynes)",
+   "ทารกชาย HN ทั้งสองข้าง กระเพาะปัสสาวะผนังหนา ปัสสาวะไหลไม่แรง → VCUG ด่วน → posterior urethral valve",
+   "ทารก HN + VCUG พบ reflux grade IV → prophylactic antibiotic + ติดตาม",
+   "ทำไมรอ US หลัง 48–72 ชม. → ทารกช่วงแรกปัสสาวะน้อย (relative oliguria) อาจเห็นการบวมน้อยกว่าความจริง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>18. ผู้ป่วยเด็กชายอายุ 6 เดือน ก่อนคลอดตรวจได้ Lt hydronephrosis หลังคลอด ultrasound พบ Lt hydronephrosis, VCUG ปกติ ตรวจอะไรเพิ่มเติม? — A. IVP B. Diuresis renal scan C. CT D. MRI E. Cystoscope with Lt retrograde pyelography</b><br>ลายมือ: กากบาท ✗ ท้ายคำถาม · ขีด B<br>ไฮไลต์: \"เด็กชายอายุ 6 เดือน ก่อนคลอดตรวจได้ Lt hydronephrosis\" · \"หลังคลอด ultrasound พบ Lt hydronephrosis, VCUG ปกติ ตรวจอะไรเพิ่มเติม?\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Postnatal evaluation — Ultrasonography: defer until day 3 of life → allow for improvement in the relative oliguria · VCUG: vesicoureteric reflux · IVP study: obstruction · Renal scan: function of kidney, obstruction พร้อมโน้ตลายมือ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
@@ -66,30 +68,32 @@
   ]
  },
  "MDCU66|RoA|21": {
-  "interp": "หญิง 70 ปี เคยสูบบุหรี่ 25 ปี มี <b>gross hematuria ไม่เจ็บ</b> ตลอดสาย (total hematuria) ไม่มีอาการติดเชื้อ UA ปกติแล้ว ถามสิ่งที่ควรทำ",
-  "why": "Gross painless hematuria ในผู้สูงอายุที่สูบบุหรี่ = <b>มะเร็งทางเดินปัสสาวะจนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> แม้เลือดหยุดแล้ว · ต้องตรวจทั้ง <b>upper tract (CT urography)</b> และ <b>lower tract (cystoscopy)</b> เพราะ CT มองไม่เห็นรอยโรคบาง ๆ เช่น CIS ในกระเพาะปัสสาวะ · ไฟล์ขีด B ลายมือ <b>\"R/O malignancy → upper tr.: CT urography · lower tr.: cystoscopy\"</b>",
+  "interp": "หญิง 70 ปี เคยสูบบุหรี่ 25 ปี มี <b>gross hematuria ไม่เจ็บ ออกตลอดสาย</b> ไม่มีอาการติดเชื้อ แม้เลือดหยุดแล้วและ UA ปกติ — ถามการตรวจที่ควรทำ ซึ่งต้องคิดถึงมะเร็งทางเดินปัสสาวะก่อน",
+  "why": "ปัสสาวะเป็นเลือดชนิดมองเห็นได้ ไม่เจ็บ ในผู้สูงอายุที่สูบบุหรี่ ต้องถือว่าเป็น<b>มะเร็งทางเดินปัสสาวะจนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> (gross hematuria พบมะเร็งราว 10–20%) · มะเร็งกระเพาะปัสสาวะมักเลือดออกเป็นพัก ๆ การที่เลือดหยุดเองจึงตัดมะเร็งไม่ได้ · การตรวจครบต้องดูทั้ง <b>upper tract</b> ด้วย <b>CT urography</b> (มี excretory/ delayed phase ให้ contrast เข้า collecting system) และ <b>lower tract</b> ด้วย <b>cystoscopy</b> เพราะ CT มองไม่เห็นรอยโรคบางแบน เช่น carcinoma in situ หรือก้อน papillary เล็ก · ถ้าแพ้ contrast หรือไตเสื่อม ใช้ MR urography หรือ retrograde pyelography ร่วมกับ US · ลายมือในไฟล์เขียน <b>\"R/O malignancy → upper tr.: CT urography · lower tr.: cystoscopy\"</b> (ไฟล์ขีด B CT KUB และเขียน R/O stones ไว้ด้วย)",
   "wrong": {
-   "B": "CT KUB ไม่ฉีดสี หานิ่วได้ดี แต่ไม่เห็นเนื้องอกใน collecting system และไม่เห็นกระเพาะปัสสาวะละเอียด · จะถูกถ้าคำถามถามปวดบั้นเอวร้าวลงขาหนีบ + microscopic hematuria สงสัยนิ่ว",
-   "C": "UA ไม่มีหลักฐานติดเชื้อ การให้ยาฆ่าเชื้อทำให้วินิจฉัยมะเร็งล่าช้า · จะถูกถ้าคำถามถาม hematuria ร่วมกับ cystitis ชัดเจนในหญิงอายุน้อย (ตรวจ UA ซ้ำหลังรักษา)",
-   "D": "เลือดหยุดเองไม่ได้ตัดมะเร็ง (มะเร็งกระเพาะปัสสาวะเลือดออกเป็นพัก ๆ) · จะถูกถ้าคำถามถาม hematuria หลังออกกำลังกายหนักในคนอายุน้อยที่หายเอง",
-   "E": "Urine cytology ไวต่ำในก้อน low-grade ใช้ร่วม ไม่ใช่แทน · จะถูกถ้าคำถามถามการตรวจเสริมเพื่อหา high-grade urothelial carcinoma/ CIS"
+   "B": "CT KUB ไม่ฉีดสีไวต่อนิ่วมาก แต่ไม่เห็นเนื้องอกใน collecting system และดูกระเพาะปัสสาวะได้ไม่ละเอียด ผู้ป่วยไม่มีอาการปวดแบบนิ่ว · จะถูกถ้าเป็นชาย 35 ปี ปวดบั้นเอวร้าวลงขาหนีบ บิดตัวไปมา มี microscopic hematuria",
+   "C": "UA ไม่มีหลักฐานติดเชื้อ (WBC ปกติ) การให้ยาฆ่าเชื้อแล้วนัดดูผลทำให้วินิจฉัยมะเร็งล่าช้า · จะถูกถ้าเป็นหญิง 25 ปี มีปัสสาวะแสบขัด ปัสสาวะบ่อย มีเลือดปนจาก hemorrhagic cystitis และ UA พบ WBC จำนวนมาก (ตรวจ UA ซ้ำหลังรักษา)",
+   "D": "การที่เลือดหยุดไม่ได้ตัดมะเร็ง และผู้ป่วยไม่ได้มีการติดเชื้อตั้งแต่แรก · จะถูกถ้าเป็นชายหนุ่มที่ปัสสาวะสีแดงครั้งเดียวหลังวิ่งมาราธอน (exercise-induced hematuria) แล้ว UA ซ้ำปกติ",
+   "E": "Urine cytology จำเพาะสูงแต่ไวต่ำในก้อน low-grade จึงใช้เสริมไม่ใช่แทน CT urography และ cystoscopy · จะถูกถ้าเป็นผู้ป่วยที่ cystoscopy เห็นเยื่อบุแดงเป็นปื้นสงสัย CIS และต้องการตรวจเสริมหา high-grade urothelial carcinoma"
   },
-  "trap": "ลายมือข้าง ๆ ช้อย B เขียน R/O stones และคีย์ในไฟล์ขีด B (CT KUB) · แต่ผู้ป่วยไม่มีอาการปวดแบบนิ่ว และมีปัจจัยเสี่ยงมะเร็งชัด จึงต้องตรวจครบทั้ง upper และ lower tract",
+  "trap": "คีย์ในไฟล์ขีด B (CT KUB) พร้อมลายมือ R/O stones · แต่ผู้ป่วยไม่มีอาการปวดแบบนิ่ว และมีปัจจัยเสี่ยงมะเร็งชัด (อายุ 70 สูบบุหรี่ gross hematuria ไม่เจ็บ) ซึ่งต้องตรวจครบทั้ง upper และ lower tract · ลายมือด้านล่างของผู้จดเองก็เขียนแผนแบบนี้",
   "summary": [
-   "Gross hematuria ไม่เจ็บ + อายุมาก + สูบบุหรี่ → มะเร็ง",
-   "Upper tract: CT urography (มี delayed/ excretory phase)",
-   "แพ้ contrast/ ไตเสื่อม → MR urography หรือ retrograde pyelography",
-   "Lower tract: cystoscopy ทุกราย",
-   "Urine cytology: เสริม",
-   "ปวดบั้นเอว + hematuria → CT KUB non-contrast หานิ่ว"
+   "Gross hematuria ไม่เจ็บ + อายุมาก + สูบบุหรี่/ สารเคมี → มะเร็ง urothelial จนกว่าจะพิสูจน์ได้",
+   "เลือดออกเป็นพัก ๆ หยุดเองไม่ตัดมะเร็ง",
+   "Upper tract: CT urography (มี excretory phase) · แพ้ contrast/ ไตเสื่อม → MR urography หรือ retrograde pyelography + US",
+   "Lower tract: cystoscopy ทุกราย (เห็น CIS/ ก้อนเล็กที่ CT พลาด)",
+   "Urine cytology: เสริม ไวต่อ high-grade/ CIS",
+   "Microscopic hematuria (≥ 3 RBC/HPF): ประเมินตามความเสี่ยง (AUA แบ่ง low/ intermediate/ high risk ตามอายุ เพศ บุหรี่ จำนวน RBC) · high risk ทำ CT urography + cystoscopy",
+   "ปวดบั้นเอวร้าว + hematuria → CT KUB non-contrast หานิ่ว"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ในเว็บ ความมั่นใจสูง — ต่างจากคีย์ในไฟล์ MCQ Key 2 ที่ขีด B (CT KUB) · ลายมือในไฟล์เองก็เขียนว่าต้อง R/O malignancy ด้วย CT urography + cystoscopy ซึ่งตรงกับช้อย A",
-  "mnemonic": "<b>'เลือดในปัสสาวะไม่เจ็บ = Cancer → CT + Cysto (2C)'</b>",
-  "guide": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (2024)",
+  "opinion": "เห็นด้วยกับคำตอบ A ในเว็บ ความมั่นใจสูง — ต่างจากคีย์ในไฟล์ MCQ Key 2 ที่ขีด B (CT KUB) · ลายมือในไฟล์เองเขียนว่าต้อง R/O malignancy ด้วย CT urography + cystoscopy ซึ่งตรงกับช้อย A (ในไฟล์เขียน Ultrasound KUB, IVP, ส่องกล้อง เว็บปรับเป็น upper tract imaging + cystoscopy ตามแนวทางปัจจุบัน)",
+  "mnemonic": "<b>'เลือดในปัสสาวะไม่เจ็บ = Cancer → CT urography + Cystoscopy (2C)'</b>",
+  "guide": "EAU Guidelines on Non-muscle-invasive Bladder Cancer (2024) · AUA/SUFU Guideline: Microhematuria (J Urol 2025)",
   "variants": [
-   "ชาย 65 ปี สูบบุหรี่ ปัสสาวะเลือดไม่เจ็บ → CT urography + cystoscopy",
+   "ชาย 65 ปี สูบบุหรี่ ปัสสาวะเลือดไม่เจ็บเป็นพัก ๆ → CT urography + cystoscopy",
    "ชาย 30 ปี ปวดบั้นเอวร้าวลงขาหนีบ microscopic hematuria → CT KUB non-contrast",
-   "Cystoscopy พบก้อน papillary → TURBT"
+   "Cystoscopy พบก้อน papillary ที่ผนังกระเพาะปัสสาวะ → TURBT (ให้ได้กล้ามเนื้อ detrusor ในชิ้นเนื้อ)",
+   "ผู้ป่วยแพ้ contrast รุนแรงต้องดู upper tract → MR urography หรือ retrograde pyelography ร่วมกับ US"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>21. ผู้ป่วยหญิง 70 ปี สูบบุหรี่มา 25 ปี เลิกมาแล้ว 15 ปี ปัสสาวะมีเลือด 2 วัน เลือดออกตลอดช่วง ไม่มีปัสสาวะแสบขัด ไม่ถ่ายบ่อย ปัสสาวะไม่เจ็บ ขณะนี้ปัสสาวะไม่มีเลือดออกมาแล้ว 7 วัน เดิมเป็นโรคเบาหวานรักษาด้วยการฉีดอินซูลิน ได้ผลดี ไม่เคยได้รับอุบัติเหตุ ผลตรวจปัสสาวะ พบ RBC 0-1/HPF, WBC 0-1/HPF สิ่งที่ควรทำคือ — A. ส่ง Ultrasound KUB, IVP, ส่องกล้องดูกระเพาะปัสสาวะและท่อไต B. ส่ง CT KUB C. ให้ยาปฏิชีวนะไปกิน 5 วันแล้วค่อยกลับมาดูผลตรวจปัสสาวะอีกครั้ง D. ไม่ต้องทำอะไร เพราะ WBC ที่ลดลงหมายถึงการติดเชื้อหายไปแล้ว</b><br>ลายมือ: ขีด B เขียน \"R/O stones\" · ใต้คำถามเขียน \"? Mx: อาจ R/O malignancy → upper tr.: CT urography: CTWA + delayed phase (เห็น collecting system) · แพ้ contrast → MR urography (MRU) · ถ้ามีไตเสื่อม → ทำ retrograde pyelography (RP) ไม่เห็น parenchyma ∴ +USG ⊕ CT non-contrast · → lower tr.: cystoscopy ∵ CA in situ, small papillary lesion, lesion บาง มองไม่เห็นใน CT\"<br>ไฮไลต์: \"หญิง 70 ปี\" · \"สูบบุหรี่มา 25 ปี เลิกมาแล้ว 15 ปี\" · \"ปัสสาวะมีเลือด 2 วัน\" · \"เลือดออกตลอดช่วง\" · \"ไม่มีปัสสาวะแสบขัด\" · \"RBC 0-1/HPF, WBC 0-1/HPF\" · \"สิ่งที่ควรทำ\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Imaging — Acute renal colic: Noninfused helical CT scanning (Spiral CT) · First line test of choice · Other pathology in abdominal organs · Degree of hydronephrosis · Size · Location · No information regarding renal function พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: ช้อย A เขียนเป็น Upper tract imaging and cystoscopy · เพิ่ม E Urine cytology alone",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
@@ -99,30 +103,32 @@
   ]
  },
  "MDCU66|RoA|30": {
-  "interp": "หญิง 24 ปี ปวดหน่วง suprapubic ปัสสาวะบ่อย แสบขัด กลั้นไม่อยู่ 2 วัน UA WBC และ RBC 5–10 = <b>acute uncomplicated cystitis</b> ถามคำแนะนำ",
-  "why": "Uncomplicated cystitis ในหญิงไม่ตั้งครรภ์ รักษาด้วย<b>ยาฆ่าเชื้อชนิดกินระยะสั้น</b> (เช่น nitrofurantoin 5 วัน · TMP-SMX 3 วัน · fosfomycin ครั้งเดียว · fluoroquinolone 3 วัน) ร่วมกับดื่มน้ำมาก · ไฟล์ขีด B ลายมือ <b>\"acute cystitis\"</b>",
+  "interp": "หญิง 24 ปี ปวดหน่วง suprapubic ปัสสาวะบ่อย แสบขัด กลั้นไม่อยู่ 2 วัน UA มี WBC และ RBC = <b>acute uncomplicated cystitis</b> (ไม่ตั้งครรภ์ ไม่มีความผิดปกติทางเดินปัสสาวะ ไม่มีอาการของกรวยไต) — ถามคำแนะนำการรักษา",
+  "why": "Cystitis ในหญิงเกิดจากเชื้อในลำไส้ขึ้นมาทางท่อปัสสาวะที่สั้น (<i>E. coli</i> ~75–95%) · ในหญิงไม่ตั้งครรภ์ที่อาการชัดและไม่มีอาการของ pyelonephritis (ไข้สูง ปวดหลัง CVA tenderness) วินิจฉัยจากอาการได้และให้<b>ยาฆ่าเชื้อชนิดกินระยะสั้น</b>: nitrofurantoin 100 mg วันละ 2 ครั้ง 5 วัน · TMP-SMX 3 วัน (ถ้าเชื้อดื้อในพื้นที่ &lt; 20%) · fosfomycin 3 g ครั้งเดียว · fluoroquinolone 3 วันเป็นทางเลือกรอง (สงวนไว้เพราะผลข้างเคียงและเชื้อดื้อ) · ร่วมกับดื่มน้ำมาก ไม่กลั้นปัสสาวะ · ไม่ต้อง urine culture ในครั้งแรกถ้าอาการชัด · ไฟล์ขีด B ลายมือ <b>\"acute cystitis\"</b>",
   "wrong": {
-   "A": "ดื่มน้ำมากช่วยได้แต่ไม่พอเป็นการรักษาหลักเมื่อมีอาการชัด (ในไฟล์ช้อยนี้เขียนว่ากินน้ำให้น้อยลง ซึ่งผิด) · จะถูกถ้าคำถามถามคำแนะนำเสริมหรือการป้องกันการเป็นซ้ำ",
-   "C": "ยาแก้ไข้ไม่ได้รักษาการติดเชื้อ · จะถูกถ้าคำถามถามการบรรเทาอาการร่วมกับยาฆ่าเชื้อ",
-   "D": "ฝึกกลั้นปัสสาวะใช้กับ overactive bladder · กลั้นปัสสาวะในขณะติดเชื้อทำให้แย่ลง · จะถูกถ้าคำถามถาม urge incontinence ที่ UA ปกติ",
-   "E": "นอนพักไม่ได้รักษาการติดเชื้อ · จะถูกถ้าคำถามถามการดูแลทั่วไปร่วมกับการรักษาหลัก"
+   "A": "ดื่มน้ำมากช่วยลดเชื้อในกระเพาะปัสสาวะและลดการเป็นซ้ำ แต่ใช้อย่างเดียวไม่พอเมื่อมีอาการชัด (ในไฟล์ช้อยนี้เขียนว่ากินน้ำให้น้อยลงซึ่งผิด ผู้จดแก้เป็นลูกศรขึ้น) · จะถูกถ้าเป็นคำแนะนำป้องกันสำหรับหญิงที่เป็น cystitis ซ้ำบ่อยร่วมกับการปัสสาวะหลังมีเพศสัมพันธ์",
+   "C": "ยาลดไข้ไม่ได้รักษาการติดเชื้อ และผู้ป่วยไม่มีไข้สูง · จะถูกถ้าเป็นการบรรเทาอาการร่วมกับยาฆ่าเชื้อ หรือใช้ phenazopyridine ลดปวดแสบระยะสั้น",
+   "D": "ฝึกกลั้นปัสสาวะ (bladder training) ใช้รักษา overactive bladder ที่ไม่มีการติดเชื้อ การกลั้นขณะติดเชื้อทำให้เชื้อเพิ่มจำนวน · จะถูกถ้าเป็นหญิงวัยกลางคนปัสสาวะบ่อย กลั้นไม่อยู่ ตื่นมาปัสสาวะกลางคืน แต่ UA และ culture ปกติ",
+   "E": "นอนพักไม่ได้กำจัดเชื้อในกระเพาะปัสสาวะ อาการจะไม่หายและอาจลามขึ้นไตได้ · จะถูกถ้าเป็นคำแนะนำทั่วไปร่วมกับยาฆ่าเชื้อในผู้ป่วย pyelonephritis ที่มีไข้และอ่อนเพลีย"
   },
-  "trap": "ลังเลเพราะอยากส่ง urine culture ก่อน ในหญิงอายุน้อย อาการชัด ไม่มีปัจจัยซับซ้อน รักษาตามอาการได้เลย",
+  "trap": "ลังเลจะส่ง urine culture และรอผลก่อน หรือคิดว่าอาการไม่รุนแรงแค่ดื่มน้ำพอ · หญิงอายุน้อยที่อาการ cystitis ชัดให้ยาระยะสั้นได้เลย · ถ้ามีไข้สูง ปวดหลัง หรือเป็นผู้ชาย/ ตั้งครรภ์ จะกลายเป็น complicated UTI",
   "summary": [
-   "Uncomplicated cystitis: หญิงไม่ตั้งครรภ์ ไม่มีความผิดปกติทางเดินปัสสาวะ",
-   "Nitrofurantoin 5 วัน · TMP-SMX 3 วัน · fosfomycin 3 g ครั้งเดียว",
-   "ไม่ต้อง culture ถ้าเป็นครั้งแรกและอาการชัด",
-   "ไข้ ปวดหลัง CVA tenderness → pyelonephritis (ยานานขึ้น)",
-   "Complicated: ชาย · ตั้งครรภ์ · มีสาย · นิ่ว · ภูมิต่ำ",
-   "เป็นซ้ำ ≥ 3 ครั้ง/ ปี → ป้องกัน"
+   "Uncomplicated cystitis: หญิงไม่ตั้งครรภ์ ทางเดินปัสสาวะปกติ ไม่มีภาวะภูมิต่ำ · เชื้อหลัก <i>E. coli</i>",
+   "ยาแรก: nitrofurantoin 5 วัน · TMP-SMX 3 วัน · fosfomycin 3 g ครั้งเดียว",
+   "Fluoroquinolone 3 วัน เป็นทางเลือกรอง · beta-lactam 3–7 วันได้ผลด้อยกว่า",
+   "ไม่ต้อง culture ครั้งแรก · ส่ง culture ถ้าเป็นซ้ำ อาการไม่ดีขึ้นใน 48–72 ชม. หรือสงสัยเชื้อดื้อ",
+   "ไข้ ปวดหลัง CVA tenderness → pyelonephritis (fluoroquinolone 7 วัน หรือ ceftriaxone)",
+   "ตั้งครรภ์: รักษา asymptomatic bacteriuria ด้วย · ยาที่ใช้ได้ cephalexin/ amoxicillin-clavulanate/ nitrofurantoin (เลี่ยงใกล้คลอด)",
+   "เป็นซ้ำ ≥ 3 ครั้ง/ ปี → ปัสสาวะหลังมีเพศสัมพันธ์ · ยาป้องกัน · vaginal estrogen ในวัยหมดประจำเดือน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ acute cystitis · ไฟล์เขียนว่ามีไข้ต่ำ ๆ ซึ่งยังเข้ากับ cystitis ได้ ส่วนเว็บเขียนไม่มีไข้ แต่ไม่เปลี่ยนคำตอบ",
   "mnemonic": "<b>'Cystitis หญิง = ยาสั้น (3–5 วัน) · Pyelo = ยายาว (7–14 วัน)'</b>",
-  "guide": "IDSA/ ESCMID International Clinical Practice Guidelines for the Treatment of Acute Uncomplicated Cystitis and Pyelonephritis in Women (Clin Infect Dis 2011;52:e103)",
+  "guide": "IDSA/ ESCMID International Clinical Practice Guidelines for the Treatment of Acute Uncomplicated Cystitis and Pyelonephritis in Women (Clin Infect Dis 2011;52:e103) · EAU Guidelines on Urological Infections (2024)",
   "variants": [
-   "หญิงปัสสาวะแสบขัด ไข้สูง ปวดหลัง CVA tenderness → acute pyelonephritis",
-   "หญิงตั้งครรภ์ cystitis → ยาที่ปลอดภัย (cephalexin/ amoxicillin-clavulanate) 5–7 วัน + culture",
-   "หญิงตรวจพบแบคทีเรียในปัสสาวะไม่มีอาการ ไม่ตั้งครรภ์ → ไม่ต้องรักษา"
+   "หญิง 28 ปี ปัสสาวะแสบขัด ไข้ 39 °C ปวดหลังขวา เคาะ CVA เจ็บ → acute pyelonephritis → fluoroquinolone 7 วัน หรือ ceftriaxone",
+   "หญิงตั้งครรภ์ 20 สัปดาห์ ปัสสาวะแสบขัด → cephalexin 5–7 วัน + urine culture",
+   "หญิงวัยหมดประจำเดือน cystitis ซ้ำ 4 ครั้งต่อปี → vaginal estrogen + พิจารณายาป้องกัน",
+   "หญิงไม่ตั้งครรภ์ ไม่มีอาการ ตรวจสุขภาพพบแบคทีเรียในปัสสาวะ → asymptomatic bacteriuria ไม่ต้องรักษา"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>30. หญิงอายุ 24 ปี ปวดหน่วงๆท้องน้อย ปัสสาวะบ่อย ปัสสาวะแสบขัด อั้นไม่ได้ มีไข้ต่ำๆ มา 2 วัน UA พบ WBC 5-10 /HPF, RBC 5-10 /HPF จะให้คำแนะนำอย่างไร — A. กินน้ำให้น้อยลง B. ATB กิน 3 วัน C. ให้กินยาแก้ไข้ D. ฝึกอั้นปัสสาวะให้มากขึ้น E. นอนพักมากๆ</b><br>ลายมือ: เขียน \"suprapubic pain\" เหนือปวดหน่วงๆท้องน้อย · \"acute cystitis\" · ช้อย A กากบาทคำ \"น้อยลง\" เขียนลูกศร ↑ · ขีด B · กากบาท ✗ ที่ C และ D<br>ไฮไลต์: \"หญิงอายุ 24 ปี\" · \"ปวดหน่วงๆท้องน้อย ปัสสาวะบ่อย ปัสสาวะแสบขัด อั้นไม่ได้\" · \"มา 2 วัน UA พบ WBC 5-10\" · \"RBC 5-10\" · \"แนะนำอย่างไร\" · B (เหลือง)<br>ที่ปรับในเว็บ: ช้อย A เขียนเป็น Drink plenty of water only (ตามลายมือที่แก้เป็นกินน้ำมากขึ้น)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -132,30 +138,31 @@
   ]
  },
  "MDCU66|RoA|31": {
-  "interp": "ถามสาเหตุของ <b>communicating hydrocephalus</b> (CSF ไหลผ่านระบบ ventricle ได้ แต่ดูดซึมไม่ได้)",
-  "why": "<b>Meningitis</b> ทำให้เกิด exudate/ พังผืดอุดที่ <b>arachnoid granulation</b> → ดูดซึม CSF ไม่ได้ ทั้งที่ทางไหลใน ventricle ยังเปิด = communicating hydrocephalus · ไฟล์ขีด A ลายมือ <b>\"exudate → ⊖CSF reab. @ arachnoid granulation\"</b>",
+  "interp": "ถามสาเหตุของ <b>communicating hydrocephalus</b> คือภาวะที่ CSF ไหลผ่านระบบ ventricle ออกไปช่อง subarachnoid ได้ แต่<b>ดูดซึมกลับที่ arachnoid granulation ไม่ได้</b> — ต้องแยกจากสาเหตุที่อุดทางไหลภายใน ventricle",
+  "why": "CSF สร้างที่ choroid plexus ราว 450–500 mL/วัน ไหลจาก lateral ventricle → foramen of Monro → third ventricle → aqueduct of Sylvius → fourth ventricle → foramina of Luschka/ Magendie → subarachnoid space → ดูดซึมที่ <b>arachnoid granulation</b> เข้า venous sinus · <b>Non-communicating (obstructive)</b> = อุดภายในระบบ ventricle (aqueductal stenosis, ก้อน, colloid cyst, ลิ่มเลือดอุด aqueduct) ventricle ส่วนต้นต่อจุดอุดจะโต · <b>Communicating</b> = ทางไหลเปิดแต่ดูดซึมผิดปกติ ventricle โตทุกอัน สาเหตุสำคัญคือ <b>meningitis</b> (exudate/ พังผืดอุด arachnoid granulation โดยเฉพาะ TB และแบคทีเรีย), SAH, leptomeningeal carcinomatosis และ NPH · ไฟล์ขีด A ลายมือ <b>\"exudate → ⊖CSF reab. @ arachnoid granulation\"</b>",
   "wrong": {
-   "B": "Aqueductal stenosis อุดทางไหลใน ventricle → <b>obstructive (non-communicating)</b> · จะถูกถ้าคำถามถาม non-communicating hydrocephalus (ventricle 3 และ lateral โต ventricle 4 ปกติ)",
-   "C": "ก้อนรอบ ventricle กดทางไหล CSF → obstructive · จะถูกถ้าคำถามถาม non-communicating hydrocephalus",
-   "D": "ลิ่มเลือดอุดที่ aqueduct → obstructive · จะถูกถ้าคำถามถาม non-communicating hydrocephalus (ส่วน IVH/ SAH ที่เลือดกระจายไปอุด arachnoid granulation ทำให้เกิด communicating ได้)",
-   "E": "Colloid cyst อุด foramen of Monro → obstructive (lateral ventricle โตทั้งสองข้าง) · จะถูกถ้าคำถามถามปวดศีรษะเป็นพัก ๆ ตามท่า ก้อนที่ third ventricle"
+   "B": "Aqueductal stenosis อุดทางไหลระหว่าง third และ fourth ventricle จึงเป็น <b>obstructive</b> — lateral และ third ventricle โต fourth ventricle ปกติ (ลายมือวงเล็บว่า obstructive) · จะถูกถ้าเป็นทารกหัวโตที่ MRI พบ fourth ventricle ขนาดปกติ ซึ่งรักษาด้วย endoscopic third ventriculostomy ได้",
+   "C": "ก้อนรอบ ventricle (เช่น ก้อนบริเวณ pineal หรือ thalamus) กดทางไหลของ CSF ทำให้เกิด obstructive hydrocephalus · จะถูกถ้าเป็นเด็กมองขึ้นไม่ได้ ปวดศีรษะตอนเช้า จากก้อน pineal กด aqueduct",
+   "D": "ลิ่มเลือดที่อุดอยู่ใน aqueduct ทำให้ obstructive (ต่างจาก IVH/ SAH ที่เลือดกระจายไปอุด arachnoid granulation ซึ่งเป็น communicating) · จะถูกถ้าเป็นผู้ป่วย IVH ที่ CT เห็นก้อนเลือดเต็ม third ventricle และ aqueduct ต้องใส่ EVD",
+   "E": "Colloid cyst อยู่ที่หลังคา third ventricle อุด foramen of Monro ทั้งสองข้าง → lateral ventricle โต (obstructive) อาจปวดศีรษะเป็นพัก ๆ ตามท่าและเสียชีวิตเฉียบพลันได้ · จะถูกถ้าเป็นผู้ใหญ่ปวดศีรษะรุนแรงเป็นพัก ๆ เวลาก้ม CT เห็นก้อนกลม hyperdense ที่ foramen of Monro"
   },
-  "trap": "เห็นคำว่า hemorrhage แล้วเลือก เพราะ SAH/ IVH ก็ทำ communicating ได้ · ในเว็บช้อย D ระบุว่าลิ่มเลือด<b>อุดที่ aqueduct</b> จึงเป็น obstructive",
+  "trap": "เห็นคำว่า hemorrhage แล้วนึกว่าเป็น communicating เสมอ · SAH/ IVH ที่เลือดกระจายทำ communicating ได้จริง แต่ถ้าลิ่มเลือดอุดอยู่ใน aqueduct เป็น obstructive · ต้องถามว่าทางไหลภายใน ventricle เปิดหรือไม่",
   "summary": [
-   "Communicating: ทางไหลเปิด ดูดซึมผิดปกติ",
-   "สาเหตุ communicating: meningitis · SAH · leptomeningeal carcinomatosis · NPH · CSF สร้างมาก (choroid plexus papilloma)",
-   "Non-communicating: อุดใน ventricle (Monro · aqueduct · ช่องออก ventricle 4)",
-   "สาเหตุ obstructive: aqueductal stenosis · tumor · colloid cyst · Dandy–Walker",
-   "Obstructive ห้าม LP (เสี่ยง herniation)",
-   "รักษา: VP shunt · ETV (เหมาะกับ obstructive)"
+   "CSF สร้าง ~450–500 mL/วัน (~20 mL/ชม.) ที่ choroid plexus · ปริมาตรรวม ~150 mL หมุนเวียนวันละ 3–4 รอบ",
+   "Obstructive: อุดใน ventricle (Monro · aqueduct · ทางออก ventricle 4) → ventricle ส่วนต้นโต",
+   "Communicating: ทางไหลเปิดแต่ดูดซึมผิดปกติที่ arachnoid granulation → ventricle โตทุกอันรวม fourth ventricle และช่อง subarachnoid กว้าง",
+   "สาเหตุ communicating: meningitis (TB) · SAH · IVH · leptomeningeal carcinomatosis · NPH · CSF สร้างมาก (choroid plexus papilloma)",
+   "Obstructive ห้ามเจาะหลัง (เสี่ยง herniation)",
+   "รักษา: VP shunt ใช้ได้ทั้งสองชนิด · ETV เหมาะกับ obstructive (aqueductal stenosis) · ฉุกเฉินใช้ EVD"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Communicating = Can ไหล แต่ Can't ดูดซึม (Meningitis/ SAH)'</b>",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และแผนภาพ Hydrocephalus ที่ผู้จดแปะ ซึ่งจัด meningitis ไว้ใน communicating with obstruction of CSF absorption · ในไฟล์ช้อย D เป็น IVH และ E เป็น ventriculitis ซึ่งทำ communicating ได้ด้วย เว็บจึงปรับเป็นลิ่มเลือดอุด aqueduct และ colloid cyst ให้มีคำตอบเดียว",
+  "mnemonic": "<b>'Communicating = Can flow but Can't absorb (Meningitis/ SAH)'</b>",
   "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Hydrocephalus",
   "variants": [
-   "หลังเป็น bacterial meningitis มี ventricle โตทุกอัน → communicating hydrocephalus → VP shunt",
-   "MRI ventricle 3 และ lateral โต ventricle 4 ปกติ → aqueductal stenosis → ETV",
-   "ปวดศีรษะเป็นพัก ๆ ก้อนกลมที่ foramen of Monro → colloid cyst"
+   "หลังเป็น TB meningitis 1 เดือน ซึมลง CT ventricle โตทุกอัน → communicating hydrocephalus → VP shunt",
+   "ทารกหัวโต MRI lateral และ third ventricle โต fourth ventricle ปกติ → aqueductal stenosis → ETV",
+   "ผู้ใหญ่ปวดศีรษะเป็นพัก ๆ เวลาก้ม ก้อนกลมที่ foramen of Monro → colloid cyst → ผ่าตัดเอาออก",
+   "ผู้สูงอายุเดินเซ ปัสสาวะราด หลงลืม ventricle โต → normal pressure hydrocephalus → LP tap test"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>NEURO 31-45 · 31. ข้อใดเป็น communicating hydrocephalus — A. meningitis B. aqeuductal stenosis C. periventricular tumor D. intraventricular hemorrhage E. ventriculitis</b><br>ลายมือ: ขีด A เขียน \"exudate → ⊖CSF reab. @ arachnoid granulation\" · วงเล็บ B–C เขียน \"obstructive\"<br>ไฮไลต์: \"communicating hydrocephalus\" · A (เหลือง)<br>รูปที่แปะ: แผนภาพ Hydrocephalus — Communicating (Earlier called \"non-obstructive\"): Communicating without obstruction of CSF absorption → Normal Pressure Hydrocephalus, Overproduction of CSF · Communicating with obstruction of CSF absorption → Subarachnoid hemorrhage (SAH), Meningitis (bacterial and aseptic), Leptomeningeal carcinomatosis · Non-communicating (Earlier called \"obstructive\"): Obstructed CSF flow within the ventricular system → Obstruction at foramen of monro, aqueduct of sylvius or fourth ventricular outlet<br>ที่ปรับในเว็บ: ช้อย D เปลี่ยนเป็นลิ่มเลือดอุดที่ aqueduct และช้อย E เปลี่ยนจาก ventriculitis เป็น Colloid cyst เพื่อให้มีคำตอบเดียว",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -165,30 +172,31 @@
   ]
  },
  "MDCU66|RoA|32": {
-  "interp": "ถามข้อห้ามของ <b>lumbar puncture</b>",
-  "why": "<b>Obstructive (non-communicating) hydrocephalus</b> เช่น aqueductal stenosis มีความดันใน ventricle สูงแต่ช่อง spinal ไม่ต่อกัน การเจาะหลังทำให้เกิด<b>ความต่างความดัน → brain herniation</b> · ไฟล์ขีด C ลายมือ <b>\"∴ obstructive hydrocephalus\"</b>",
+  "interp": "ถามข้อห้ามของการ<b>เจาะหลัง (lumbar puncture)</b> โดยทุกช้อยมี hydrocephalus — ต้องแยกชนิดที่ทางเดิน CSF ต่อกัน (เจาะได้) กับชนิดที่อุดในระบบ ventricle (ห้ามเจาะ)",
+  "why": "เมื่อทางไหลของ CSF ถูกอุดภายในระบบ ventricle (<b>obstructive/ non-communicating hydrocephalus</b> เช่น aqueductal stenosis) ความดันเหนือจุดอุดสูงแต่ช่อง spinal subarachnoid ไม่ต่อกัน การเจาะหลังระบาย CSF ด้านล่างทำให้<b>ความดันต่างกันระหว่างช่อง</b> → สมองเลื่อนลง (transtentorial/ tonsillar herniation) เสียชีวิตได้ · ส่วน communicating hydrocephalus (SAH, meningitis, NPH) ทางเดิน CSF ต่อถึงกัน การเจาะหลังทำได้และบางครั้งใช้รักษา (ระบาย CSF ซ้ำ) · ข้อห้ามอื่น: ก้อนในสมองที่มี mass effect/ midline shift, ผิวหนังบริเวณเจาะติดเชื้อ, coagulopathy/ เกล็ดเลือดต่ำ, ระบบหายใจไหลเวียนไม่คงที่ · ไฟล์ขีด C ลายมือ <b>\"∴ obstructive hydrocephalus\"</b>",
   "wrong": {
-   "A": "NPH เป็น communicating · การเจาะหลังระบาย CSF (tap test) ใช้ทั้งวินิจฉัยและทำนายผล shunt · จะถูกถ้าคำถามถาม obstructive hydrocephalus",
-   "B": "Communicating hydrocephalus เจาะหลังได้ (ทางเดิน CSF ต่อกัน) · จะถูกถ้าคำถามถามภาวะที่มีก้อนกดเบียดและ midline shift",
-   "D": "TB meningitis ทำ communicating hydrocephalus (exudate ที่ฐานสมอง) เจาะหลังได้หลังทำ CT · จะถูกถ้าคำถามถาม TB meningitis ที่มี tuberculoma กดเบียด/ obstructive",
-   "E": "SAH ทำ communicating hydrocephalus (เลือดอุด arachnoid granulation) · จะถูกถ้าคำถามถาม SAH ที่มีก้อนเลือดใหญ่ในเนื้อสมอง/ IVH อุดตัน"
+   "A": "NPH เป็น communicating hydrocephalus ความดันปกติ การเจาะหลังระบาย CSF 30–50 mL (tap test) ใช้ทั้งวินิจฉัยและทำนายว่าจะดีขึ้นหลังใส่ shunt · จะถูกถ้าเป็นผู้ป่วยที่มีก้อนในสมองร่วมด้วยจน CT เห็น mass effect",
+   "B": "Communicating hydrocephalus ทางเดิน CSF ต่อกัน เจาะหลังได้ · จะถูกถ้าเป็นผู้ป่วยที่ CT เห็น midline shift หรือ effacement ของ basal cisterns จากก้อน",
+   "D": "TB meningitis ทำ communicating hydrocephalus จาก exudate ที่ฐานสมอง เจาะหลังได้หลังทำ CT และยังจำเป็นต่อการวินิจฉัย (CSF lymphocyte สูง glucose ต่ำ โปรตีนสูง) · จะถูกถ้าเป็นผู้ป่วย TB ที่มี tuberculoma ใหญ่กดเบียดจนเกิด obstructive hydrocephalus",
+   "E": "Hydrocephalus หลัง SAH มักเป็น communicating (เลือดอุด arachnoid granulation) การระบาย CSF ทำได้ทั้ง lumbar drain และ EVD · จะถูกถ้าเป็น SAH ที่มีก้อนเลือดใหญ่ในเนื้อสมองหรือเลือดอุด fourth ventricle"
   },
-  "trap": "เห็นคำว่า hydrocephalus ทุกช้อย ต้องแยก communicating (เจาะได้) กับ obstructive (ห้ามเจาะ)",
+  "trap": "เห็นคำว่า hydrocephalus ในทุกช้อยแล้วคิดว่าห้ามเจาะทั้งหมด หรือคิดว่า hydrocephalus ทุกชนิดอันตรายเท่ากัน · หลักคือดูว่า<b>ทางไหลต่อกันหรือไม่</b>",
   "summary": [
-   "ข้อห้าม LP: obstructive hydrocephalus · mass effect/ herniation",
-   "Skin infection บริเวณเจาะ",
-   "Coagulopathy/ เกล็ดเลือดต่ำ",
-   "Cardiorespiratory compromise",
-   "ทำ CT ก่อน LP: focal deficit · ICP สูง · ซึม · ชัก · ภูมิต่ำ · papilledema",
-   "NPH: LP tap test ทำนายผล shunt"
+   "ข้อห้าม LP: obstructive hydrocephalus · ก้อนที่มี mass effect/ midline shift/ basal cisterns ถูกกดหาย (เสี่ยง transtentorial หรือ tonsillar herniation)",
+   "ผิวหนังติดเชื้อบริเวณที่เจาะ หรือสงสัย spinal epidural abscess (เข็มพาเชื้อเข้าช่อง subarachnoid)",
+   "Coagulopathy · เกล็ดเลือด &lt; 40,000–50,000 · ได้ยาต้านการแข็งตัว",
+   "ระบบหายใจ/ ไหลเวียนไม่คงที่ จัดท่างอตัวไม่ได้ — ให้ยาฆ่าเชื้อก่อนได้โดยไม่ต้องรอ LP ในผู้สงสัย meningitis",
+   "ทำ CT ก่อน LP เมื่อ: focal deficit · papilledema · ซึม/ GCS ต่ำ · ชักใหม่ · ภูมิคุ้มกันต่ำ · อายุ &gt; 60",
+   "NPH: LP tap test/ lumbar drain ทำนายผล shunt · SAH ที่ CT ปกติ: LP หา xanthochromia"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'อุดข้างใน (obstructive) → ห้ามเจาะข้างล่าง (LP)'</b>",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ผู้จดจับกลุ่มช้อยอื่นเป็น communicating hydrocephalus และแปะสไลด์ LP: Contraindications กับ Brain Imaging before LP",
+  "mnemonic": "<b>'อุดข้างใน (obstructive) → ห้ามดูดข้างล่าง (LP)'</b>",
   "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Lumbar puncture",
   "variants": [
-   "ผู้ป่วยไข้ ซึม hemiparesis → CT ก่อน LP",
-   "ผู้สูงอายุ เดินเซ ปัสสาวะราด หลงลืม → NPH → LP tap test",
-   "Aqueductal stenosis ventricle โต → ETV หรือ VP shunt (ไม่ LP)"
+   "ผู้ป่วยไข้ ปวดศีรษะ ซึม hemiparesis ซีกขวา → เจาะเลือดเพาะเชื้อ ให้ยาฆ่าเชื้อและ dexamethasone ทันที แล้วทำ CT ก่อน LP",
+   "ผู้สูงอายุเดินเซ ปัสสาวะราด หลงลืม ventricle โต → LP tap test",
+   "ทารก aqueductal stenosis หัวโต → ETV หรือ VP shunt ไม่เจาะหลัง",
+   "ปวดศีรษะทันทีรุนแรงที่สุด CT ปกติหลัง 6 ชม. → LP หา xanthochromia"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>32. Which is a contraindication of lumbar puncture? — A. Normal pressure hydrocephalus B. Communicating hydrocephalus C. Aqueductal stenosis with hydrocephalus D. TB menigitis with hydrocephalus E. Subarachnoid hemorrhage with hydrocephalus</b><br>ลายมือ: วงเล็บ A–B และ D–E ลากลูกศรไป \"communicating hydrocephalus\" · ลูกศร ↕ ระหว่าง A และ B · \"∴ obstructive hydrocephalus\" เหนือช้อย C · ขีด C · \"⊖ CSF absorption\" ใต้ E<br>ไฮไลต์: \"contraindication\" · \"lumbar puncture\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ LP: Contraindications — Skin infection · Signs of brain herniation · Cardiorespiratory compromise · Coagulopathy · Brain Imaging before LP! — Focal neurological deficits · Increased intracranial pressure พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: แก้สะกด menigitis เป็น meningitis",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -198,30 +206,31 @@
   ]
  },
  "MDCU66|RoA|33": {
-  "interp": "ถามอาการที่<b>มักไม่พบ</b>ใน<b>ทารก</b>ที่มี hydrocephalus",
-  "why": "ทารกกะโหลกยังไม่ปิด (รอยต่อแยกได้ กระหม่อมเปิด) ความดันจึงระบายเป็น<b>หัวโต</b>แทน · <b>papilledema จึงพบไม่บ่อยในทารก</b> (พบในเด็กโต/ ผู้ใหญ่ที่กะโหลกปิดแล้ว) · ส่วนหัวโต เส้นเลือดดำที่หนังศีรษะโป่ง sunset eyes และดูดนมไม่ดี พบได้บ่อย · ไฟล์ ✓ ที่ A C D E และขีด B <b>\"prominent superficial vein\"</b>",
+  "interp": "ถามอาการที่<b>มักไม่พบ</b>ใน<b>ทารก</b>ที่มี hydrocephalus — ต้องคิดว่าทารกต่างจากเด็กโตและผู้ใหญ่ตรงที่รอยต่อกะโหลกยังแยกได้และกระหม่อมยังเปิด ความดันจึงแสดงออกต่างกัน",
+  "why": "ในทารก รอยต่อกะโหลก (sutures) ยังแยกได้และกระหม่อมยังเปิด เมื่อ CSF คั่ง ความดันจึงถูกชดเชยด้วย<b>กะโหลกที่โตขึ้น</b> อาการเด่นจึงเป็น: รอบศีรษะโตเร็วข้าม percentile (macrocephaly) · กระหม่อมหน้าโป่งตึง · รอยต่อแยก · <b>เส้นเลือดดำที่หนังศีรษะโป่ง (dilated scalp veins)</b> จากเลือดดำไหลกลับไม่สะดวก · <b>sunset eyes</b> (กด tectum ของ midbrain → มองขึ้นไม่ได้ ตาเหลือบลง) · ดูดนมไม่ดี อาเจียน งอแง พัฒนาการช้า · ส่วน <b>papilledema พบไม่บ่อยในทารก</b> เพราะความดันไม่ขึ้นสูงจนส่งผลต่อ optic nerve sheath มากเท่าเด็กที่กะโหลกปิดแล้ว · ไฟล์ ✓ ที่ A C D E และขีด B <b>\"prominent superficial vein\"</b> (ต่างจากคำตอบในเว็บ)",
   "wrong": {
-   "A": "Macrocephaly (รอบศีรษะโตเร็วข้าม percentile) เป็นอาการเด่น · จะถูกถ้าคำถามถามเด็กโตที่กะโหลกปิดแล้ว",
-   "B": "เส้นเลือดดำที่หนังศีรษะโป่ง (dilated scalp veins) พบบ่อยจาก venous congestion · จะถูกถ้าคำถามถามผู้ใหญ่ที่มี hydrocephalus",
-   "C": "Sunset eyes (กดทับ tectum → มองขึ้นไม่ได้) พบได้ · จะถูกถ้าคำถามถาม hydrocephalus ระยะแรกที่ความดันยังไม่สูง",
-   "E": "ดูดนมไม่ดี อาเจียน งอแง พบได้บ่อย · จะถูกถ้าคำถามถาม hydrocephalus ที่ชดเชยได้ ไม่มีอาการ"
+   "A": "Macrocephaly เป็นอาการเด่นที่สุดของ hydrocephalus ในทารก ตรวจโดยวัดรอบศีรษะเทียบ growth chart · จะถูกถ้าเป็นเด็ก 8 ปีที่รอยต่อกะโหลกปิดแล้ว มี hydrocephalus จากก้อนในสมองแต่รอบศีรษะไม่เปลี่ยน",
+   "B": "เส้นเลือดดำที่หนังศีรษะโป่ง (prominent scalp veins) พบบ่อยในทารก hydrocephalus จากความดันในกะโหลกทำให้เลือดดำไหลกลับไม่สะดวก · จะถูกถ้าเป็นผู้ใหญ่ที่มี hydrocephalus ซึ่งหนังศีรษะหนาและไม่เห็นเส้นเลือดดำโป่ง",
+   "C": "Sunset eyes (ตาเหลือบลง มองขึ้นไม่ได้ เห็นตาขาวเหนือตาดำ) พบได้จาก third ventricle/ suprapineal recess กด tectum · จะถูกถ้าเป็นทารก hydrocephalus ระยะแรกที่ความดันยังไม่สูงพอจะกด midbrain",
+   "E": "ดูดนมไม่ดี อาเจียน งอแง เป็นอาการทั่วไปของความดันในกะโหลกสูงในทารก · จะถูกถ้าเป็นทารกที่ hydrocephalus โตช้าและชดเชยได้ดีจนยังไม่มีอาการ"
   },
-  "trap": "จำว่า papilledema เป็นสัญญาณ ICP สูงทุกวัย · ในทารกกะโหลกขยายได้ จึงพบน้อย",
+  "trap": "จำว่า papilledema เป็นสัญญาณ ICP สูงทุกวัย · ในทารกกะโหลกขยายได้จึงพบน้อย · คีย์ในไฟล์ขีด B (เส้นเลือดดำโป่ง) และติ๊ก papilledema ว่าพบได้ ซึ่งขัดกับตำรามาตรฐาน",
   "summary": [
-   "ทารก: หัวโต · กระหม่อมโป่งตึง · รอยต่อกะโหลกแยก",
-   "Dilated scalp veins · sunset eyes (Parinaud)",
-   "ดูดนมไม่ดี อาเจียน งอแง พัฒนาการช้า",
-   "Macewen sign (cracked pot) เมื่อเคาะ",
-   "Papilledema: เด็กโต/ ผู้ใหญ่ (กะโหลกปิด)",
-   "วินิจฉัย: US ผ่านกระหม่อม · CT/ MRI"
+   "ทารก: รอบศีรษะโตเร็วข้าม percentile (วัดทุกครั้งที่ตรวจสุขภาพเด็ก) · กระหม่อมหน้าโป่งตึงแม้ทารกนั่งสงบ · รอยต่อกะโหลกแยกคลำได้",
+   "เส้นเลือดดำที่หนังศีรษะโป่ง · sunset eyes · Macewen sign (เคาะเสียงหม้อแตก)",
+   "ดูดนมไม่ดี อาเจียน งอแง ง่วงซึม พัฒนาการช้า ขาเกร็ง (spasticity)",
+   "เด็กโต/ ผู้ใหญ่: ปวดศีรษะตอนเช้า อาเจียน papilledema CN VI palsy",
+   "วินิจฉัย: US ผ่านกระหม่อมหน้า (ทารก ไม่มีรังสี ทำข้างเตียงได้) · CT หรือ MRI หาสาเหตุ (aqueductal stenosis, Chiari II, Dandy–Walker, หลังเลือดออก/ ติดเชื้อ)",
+   "รักษา: VP shunt · ETV (obstructive) · ฉุกเฉิน EVD · ภาวะแทรกซ้อน shunt: อุดตัน ติดเชื้อ over-drainage"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ในเว็บ ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ในไฟล์ MCQ Key 2 ที่ขีด B (prominent superficial vein) และติ๊ก papilledema ว่าพบได้ · ตำรามาตรฐานระบุว่าเส้นเลือดดำที่หนังศีรษะโป่งพบบ่อยในทารก ขณะที่ papilledema พบไม่บ่อยเพราะกะโหลกยังขยายได้",
-  "mnemonic": "<b>'ทารก hydrocephalus = หัวโต ตาตก เส้นโป่ง กินไม่ได้ (ไม่มี papilledema)'</b>",
-  "guide": "Nelson Textbook of Pediatrics 22nd ed. (2024) — Hydrocephalus",
+  "opinion": "เห็นด้วยกับคำตอบ D ในเว็บ ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ในไฟล์ MCQ Key 2 ที่ขีด B และติ๊ก papilledema ว่าพบได้ · ตำรามาตรฐานระบุว่าเส้นเลือดดำที่หนังศีรษะโป่งพบบ่อยในทารก ส่วน papilledema พบไม่บ่อยเพราะกะโหลกยังขยายได้ เว็บจึงถามเป็น NOT usually found",
+  "mnemonic": "<b>'ทารก hydrocephalus = หัวโต · ตาตก (sunset) · เส้นโป่ง · กินไม่ได้ — ไม่ค่อยมี papilledema'</b>",
+  "guide": "Nelson Textbook of Pediatrics 22nd ed. (2024) — Hydrocephalus · Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "ทารก 3 เดือน หัวโตเร็ว กระหม่อมโป่ง ตามองลงล่าง → hydrocephalus → US/ CT",
-   "เด็ก 10 ปี ปวดศีรษะตอนเช้า อาเจียน papilledema → ICP สูง → CT",
-   "ทารกหัวโต แต่พัฒนาการปกติ พ่อหัวโต → benign familial macrocephaly"
+   "ทารก 3 เดือน รอบศีรษะโตข้าม 2 percentile กระหม่อมโป่ง ตาเหลือบลง → hydrocephalus → US ผ่านกระหม่อม/ CT",
+   "เด็ก 10 ปี ปวดศีรษะตอนเช้า อาเจียน papilledema เห็นภาพซ้อน → ICP สูง (ก้อน posterior fossa) → CT/ MRI",
+   "ทารกหัวโต แต่พัฒนาการปกติ กระหม่อมไม่โป่ง พ่อหัวโต → benign familial macrocephaly",
+   "เด็กใส่ VP shunt ปวดศีรษะ อาเจียน ซึม → shunt malfunction → CT + shunt series"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>33. ข้อใดไม่พบใน infant with hydrocephalus — A. macrocephaly B. prominent superficial vein C. sun setting eye D. papilledema E. poor feeding</b><br>ลายมือ: ✓ ที่ A C D E · ขีด B<br>ไฮไลต์: \"ไม่พบ\" · \"infant with hydrocephalus\" · B (เหลือง)<br>ที่ปรับในเว็บ: ถามเป็น NOT usually found และเฉลย D papilledema",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -231,30 +240,31 @@
   ]
  },
  "MDCU66|RoA|34": {
-  "interp": "เด็ก 1 ปี มีก้อนใน ventricle + hydrocephalus สงสัย <b>choroid plexus tumor</b> ถามการจัดการที่ดีที่สุด",
-  "why": "Choroid plexus papilloma/ carcinoma ทำให้ hydrocephalus จาก<b>สร้าง CSF มากเกิน</b> ± อุดทางไหล · <b>ผ่าตัดเอาก้อนออก (gross total resection)</b> แก้ที่สาเหตุและมักทำให้ hydrocephalus หาย · ไฟล์ขีด E ลายมือที่ช้อย C <b>\"ถ้า ICP↑, brain edema\"</b>",
+  "interp": "เด็ก 1 ปีมีก้อนใน ventricle ร่วมกับ hydrocephalus สงสัย <b>choroid plexus tumor</b> — ถามการจัดการที่ดีที่สุด ซึ่งต้องแก้ที่ต้นเหตุมากกว่าระบาย CSF",
+  "why": "<b>Choroid plexus papilloma (CPP)</b> และ carcinoma (CPC) เป็นก้อนของ choroid plexus พบมากในเด็กอายุ &lt; 2 ปี ตำแหน่งที่พบบ่อยในเด็กคือ lateral ventricle (ผู้ใหญ่คือ fourth ventricle) · ทำให้ hydrocephalus จาก<b>สร้าง CSF มากเกิน</b> ร่วมกับอุดทางไหลหรือเลือด/ โปรตีนจากก้อนไปอุด arachnoid granulation · การรักษาหลักคือ<b>ผ่าตัดเอาก้อนออกทั้งหมด (gross total resection)</b> ซึ่งในชนิด papilloma ถือว่าหายขาด และ hydrocephalus มักหายตามหลังตัดก้อน · ก้อนมีเลือดไปเลี้ยงมาก (anterior/ posterior choroidal arteries) ทารกเลือดน้อย จึงต้องเตรียมเลือดและบางรายทำ embolization ก่อน · EVD ใช้ชั่วคราวเมื่อ ICP สูงเฉียบพลัน · ไฟล์ขีด E และลายมือที่ช้อย C <b>\"ถ้า ICP↑, brain edema\"</b>",
   "wrong": {
-   "A": "Acetazolamide ลดการสร้าง CSF ได้ชั่วคราว ไม่รักษาก้อน · จะถูกถ้าคำถามถาม idiopathic intracranial hypertension",
-   "B": "LP อันตรายเมื่อมีก้อนในสมอง/ obstructive hydrocephalus (herniation) · จะถูกถ้าคำถามถาม communicating hydrocephalus ไม่มีก้อน",
-   "C": "EVD เป็นการระบายชั่วคราวเมื่อ ICP สูงเฉียบพลัน (ลายมือ \"ถ้า ICP↑, brain edema\") ก่อนผ่าตัดเอาก้อนออก · จะถูกถ้าคำถามถามเด็กซึมลงฉุกเฉินที่ต้องลดความดันทันที",
-   "D": "VP shunt ใส่ไปก่อนอาจทำให้ shunt อุดตันจากโปรตีน/ เลือดจากก้อน และไม่แก้สาเหตุ · จะถูกถ้าคำถามถาม hydrocephalus ที่ยังเหลือหลังผ่าตัดเอาก้อนออก"
+   "A": "Acetazolamide (carbonic anhydrase inhibitor) ลดการสร้าง CSF ได้ชั่วคราวและไม่มาก ไม่รักษาก้อน · จะถูกถ้าเป็นหญิงอ้วนปวดศีรษะ ตามัวชั่วคราว papilledema MRI ปกติ (idiopathic intracranial hypertension)",
+   "B": "เจาะหลังเมื่อมีก้อนใน ventricle เสี่ยง herniation และไม่แก้สาเหตุ · จะถูกถ้าเป็นทารกที่เป็น communicating hydrocephalus หลังเลือดออกในสมองแบบคลอดก่อนกำหนดที่ใช้ serial LP ชั่วคราว",
+   "C": "External ventricular drain เป็นการระบายชั่วคราวเมื่อ ICP สูงเฉียบพลันหรือก่อน/ หลังผ่าตัดก้อน (ตามลายมือ \"ถ้า ICP↑, brain edema\") ไม่ใช่การรักษาที่ดีที่สุด · จะถูกถ้าเป็นเด็กที่มาด้วยซึมลงมาก รูม่านตาตอบสนองช้า ต้องลดความดันทันทีก่อนพาเข้าผ่าตัดก้อน",
+   "D": "VP shunt ก่อนตัดก้อนเสี่ยง shunt อุดตันจากโปรตีน/ เลือดจากก้อน มะเร็งชนิด carcinoma อาจแพร่ลงช่องท้อง และไม่แก้การสร้าง CSF เกิน · จะถูกถ้าเป็นเด็กที่ตัดก้อนออกหมดแล้วแต่ hydrocephalus ยังเหลือ"
   },
-  "trap": "เห็น hydrocephalus แล้วตอบ shunt ทันที ทั้งที่ต้นเหตุคือก้อนที่สร้าง CSF มาก",
+  "trap": "เห็น hydrocephalus แล้วตอบ shunt อัตโนมัติ · ถ้าต้นเหตุเป็นก้อนที่<b>สร้าง CSF มาก</b> และตัดออกได้ ต้องตัดก้อนก่อน เพราะ shunt ไม่แก้สาเหตุ อุดตันง่าย และ EVD เป็นเพียงการระบายชั่วคราว",
   "summary": [
-   "Choroid plexus papilloma: เด็ก &lt; 2 ปี · lateral ventricle",
-   "ผู้ใหญ่: ventricle 4",
-   "Hydrocephalus จาก CSF สร้างมาก ± อุดตัน",
-   "รักษา: gross total resection",
-   "ก้อนมีเลือดไปเลี้ยงมาก (choroidal artery) เสียเลือดมากระหว่างผ่าตัด",
-   "Hydrocephalus เหลือหลังผ่าตัด → shunt"
+   "CPP: เด็ก &lt; 2 ปี · lateral ventricle (เด็ก) / fourth ventricle (ผู้ใหญ่) · WHO grade 1",
+   "CPC: grade 3 · เด็กเล็ก · สัมพันธ์ TP53 (Li–Fraumeni) · แพร่ทาง CSF",
+   "Hydrocephalus จาก CSF สร้างมากเกิน ร่วมกับการอุดทางไหลหรือโปรตีน/ เลือดจากก้อนไปอุด arachnoid granulation · ทารกมาด้วยหัวโต อาเจียน งอแง",
+   "MRI: ก้อน lobulated ผิวขรุขระคล้ายดอกกะหล่ำ enhance มากใน ventricle · CPC มักลุกลามเข้าเนื้อสมองรอบ ๆ และต้อง MRI ไขสันหลังดูการแพร่",
+   "รักษา: gross total resection (CPP หายขาด) · CPC เพิ่ม chemotherapy ± RT",
+   "เตรียมเลือด/ embolization เพราะก้อนเลือดมาก · hydrocephalus ที่เหลือหลังผ่าตัด → shunt"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Choroid plexus = โรงงานผลิต CSF → ปิดโรงงาน (ตัดก้อน)'</b>",
-  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Choroid plexus tumors",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ลายมือที่ช้อย C บอกบทบาทของ EVD ในภาวะ ICP สูงเฉียบพลัน ซึ่งเป็นการรักษาชั่วคราวก่อนตัดก้อน",
+  "mnemonic": "<b>'Choroid plexus = โรงงานผลิต CSF → ปิดโรงงาน (ตัดก้อน) ไม่ใช่ขุดท่อระบาย'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Choroid plexus tumors · WHO Classification of Tumours of the Central Nervous System 5th ed. (2021)",
   "variants": [
-   "ทารกหัวโต MRI ก้อน enhance มากใน lateral ventricle → choroid plexus papilloma → resection",
-   "เด็กซึมลงมาก ventricle โต ก้อนในสมอง → EVD ฉุกเฉิน แล้วผ่าตัดก้อน",
-   "Hydrocephalus ยังอยู่หลังตัดก้อนหมด → VP shunt"
+   "ทารก 8 เดือน หัวโต MRI ก้อน lobulated enhance มากใน lateral ventricle → choroid plexus papilloma → gross total resection",
+   "เด็กซึมลงมาก ventricle โตจากก้อนใน fourth ventricle → EVD ฉุกเฉิน แล้วผ่าตัดก้อน",
+   "หลังตัดก้อนหมด ventricle ยังโตและมีอาการ → VP shunt",
+   "เด็กเป็น choroid plexus carcinoma และแม่เป็นมะเร็งเต้านมอายุน้อย → ตรวจ TP53 (Li–Fraumeni)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>34. ผู้ป่วยเด็กอายุ 1 ปี มี ventricular tumor with hydrocephalus สงสัย choriod plexus tumor จะ manage อย่างไรดีที่สุด — A. carbonic anhydrase B. lumbar puncture C. external drainage D. VP shunt E. tumor removal</b><br>ลายมือ: เขียน \"ถ้า ICP↑, brain edema\" เหนือช้อย C · ขีด E<br>ไฮไลต์: \"เด็กอายุ 1 ปี\" · \"ventricular tumor with hydrocephalus\" · \"choriod plexus tumor\" · \"manage อย่างไรดีที่สุด\" · E (เหลือง)<br>ที่ปรับในเว็บ: แก้สะกด choriod เป็น choroid · ช้อย A เป็น Carbonic anhydrase inhibitor",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
