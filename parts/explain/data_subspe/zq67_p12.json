@@ -1,192 +1,332 @@
 {
  "MDCU67|RoB|47": {
-  "interp": "คำนวณ Parkland: 60 kg, second-degree 40% ได้ RLS มาแล้ว 1,200 mL ใน 2 ชม.แรก → อัตราใน 6 ชม.ที่เหลือของ 8 ชม.แรก",
-  "why": "<b>คีย์: ขีด B + ลายมือ 4 × 40 × 60 = 9,600 → 4,800 ใน 8 ชม. − 1,200 = 3,600 ใน 6 ชม.</b><br><b>นอกสไลด์:</b> ครึ่งแรก 4,800 mL ต้องได้ใน 8 ชม.นับจากเกิดเหตุ ได้ไปแล้ว 1,200 mL ใน 2 ชม. เหลือ 3,600 mL ใน 6 ชม. = 600 mL/ชม.",
+  "interp": "ชาย 30 ปี 60 kg <b>แผลไหม้ 2nd degree 40% TBSA</b> ได้ RLS ไปแล้ว <b>1,200 mL ใน 2 ชม.แรก</b> → ถามอัตรา RLS ใน 6 ชม.ถัดไป",
+  "why": "Parkland: <b>4 mL × %TBSA × kg</b> = 4 × 40 × 60 = <b>9,600 mL/ 24 ชม.</b> · ครึ่งหนึ่ง <b>4,800 mL ใน 8 ชม.แรก</b> (นับจากเวลาไฟไหม้) อีกครึ่ง 4,800 mL ใน 16 ชม.ถัดไป · ได้ไปแล้ว 1,200 mL ใน 2 ชม. → เหลือ 4,800 − 1,200 = <b>3,600 mL ใน 6 ชม.</b> = <b>600 mL/ชม.</b> · ปรับตาม urine output 0.5 mL/kg/ชม. (30–50 mL/ชม.) · ไฟล์ขีด B ลายมือ <b>\"4 × % × kg = 4 × 40 × 60 = 9600 cc → ½ 4800 in 8 hr → (1200 cc/ 2 hr) 3600 cc in 6 hr = 600 cc/hr · ½ 4800 in 16 hr\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 60 kg 40% ได้มาแล้ว 1,800 mL ใน 2 ชม.แรก → (4,800 − 1,800) ÷ 6 = 500 mL/ชม.",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 70 kg 40% ได้มาแล้ว 800 mL ใน 2 ชม.แรก → (5,600 − 800) ÷ 6 = 800 mL/ชม.",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 60 kg ไหม้ 50% ยังไม่ได้สารน้ำเลยใน 2 ชม.แรก → (6,000 − 0) ÷ 6 = 1,000 mL/ชม.",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 60 kg 40% มาถึง 5 ชม.หลังเกิดเหตุ ได้มาแล้ว 1,200 mL → (4,800 − 1,200) ÷ 3 = 1,200 mL/ชม."
+   "A": "500 mL/ชม. คำนวณต่ำเกินไป · จะถูกถ้าผู้ป่วยหนัก 50 kg (4 × 40 × 50 = 8,000 → 4,000 − 1,000 ใน 2 ชม. = 3,000/ 6 ชม.)",
+   "C": "800 mL/ชม. เท่ากับไม่หักส่วนที่ได้ไปแล้วอย่างถูกต้อง · จะถูกถ้ายังไม่ได้น้ำเลยใน 2 ชม.แรกแล้วต้องให้ 4,800 ใน 6 ชม.",
+   "D": "1,000 mL/ชม. มากเกินไป (เสี่ยง fluid creep, compartment syndrome) · จะถูกถ้าแผล 2nd–3rd degree &gt; 60% ในคนน้ำหนักมาก",
+   "E": "1,200 mL/ชม. คือการทำซ้ำอัตรา 2 ชม.แรก (600 mL/ชม.) สองเท่า · จะถูกถ้าคำถามถามปริมาณรวมใน 2 ชม."
   },
-  "trap": "หาร 3,600 ด้วย 8 ชม. (ได้ 450) เพราะลืมว่า 8 ชม.นับจากเวลาเกิดเหตุ ซึ่งผ่านไปแล้ว 2 ชม. — เวลาที่เหลือคือ 6 ชม.",
+  "trap": "นับ 8 ชม.จากเวลามาถึงโรงพยาบาล หรือไม่หักปริมาณที่ได้ไปแล้ว",
   "summary": [
-   "<b>นอกสไลด์:</b> ประเมิน %TBSA: rule of nines ผู้ใหญ่ → ศีรษะ 9, แขนข้างละ 9, ลำตัวหน้า 18, หลัง 18, ขาข้างละ 18, perineum 1 · เด็กศีรษะใหญ่ขาเล็กกว่า ใช้ Lund-Browder · ฝ่ามือรวมนิ้วของผู้ป่วยราว 1% ใช้กับแผลกระจาย · นับเฉพาะ partial และ full thickness ไม่นับผิวแดงไม่พอง"
+   "Parkland: 4 mL × kg × %TBSA (2nd–3rd degree) ใน 24 ชม.",
+   "ครึ่งแรกใน 8 ชม.นับจากเวลาไหม้ · ครึ่งหลังใน 16 ชม.",
+   "ABA: เริ่ม 2–4 mL/kg/%TBSA แล้วปรับตามปัสสาวะ",
+   "Urine output: ผู้ใหญ่ 0.5 mL/kg/ชม. · เด็ก 1 mL/kg/ชม. · electrical 1 mL/kg/ชม.",
+   "ไม่นับ 1st degree ใน %TBSA",
+   "Fluid creep → abdominal/ extremity compartment syndrome"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง (ตามสูตร Parkland ที่โจทย์ใช้)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และการคำนวณในลายมือ",
+  "mnemonic": "<b>'4-%-kg · ครึ่งใน 8 (จากเวลาไหม้) · หักที่ให้ไปแล้ว'</b>",
+  "guide": "ATLS Student Course Manual 11th ed. (ACS 2025) — Thermal injuries; ABA Advanced Burn Life Support Provider Manual (2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ใหญ่ไหม้แบบพองทั้งแขนขวาและลำตัวด้านหน้าทั้งหมด → 9 + 18 = 27% TBSA",
-   "<b>นอกสไลด์:</b> เด็ก 1 ขวบน้ำร้อนลวกทั้งศีรษะและใบหน้า → ศีรษะเด็กเล็กราว 18–19% ใช้แผนภูมิ Lund-Browder ไม่ใช้ 9% ของผู้ใหญ่"
+   "70 kg 50% TBSA เพิ่งไหม้ → 14,000 mL/ 24 ชม. · 7,000 ใน 8 ชม. (875 mL/ชม.)",
+   "ให้ตามสูตรแล้ว urine 15 mL/ชม. → เพิ่มอัตราสารน้ำ 20–30%",
+   "เด็ก 20 kg แผลไหม้ 30% → Parkland + maintenance glucose"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 117 — หัวข้อ Plastic · ตัวพิมพ์: <b>47. ผู้ป่วยชายอายุ 30 ปี น้ำหนัก 60 kg, มีแผลไฟไหม้ 2nd degree burn 40% BSA ได้ RLS มาแล้ว 1,200 cc ในเวลา 2 ชั่วโมงที่ผ่านมา ต้องได้ RLS อีกเท่าใดในอีก 6 ชั่วโมงถัดไป — A. 500 cc/hr B. 600 cc/hr C. 800 cc/hr D. 1,000 cc/hr E. 1,200 cc/hr</b><br>ลายมือ: \"4 × % × kg = 4 × 40 × 60 = 9600 cc\" → \"½ 4800 in 8 hr → (หัก 1200 cc/ 2 hr) 3600 cc in 6 hr = 600 cc/hr\" · \"½ 4800 in 16 hr\" · ขีด B<br>ไฮไลต์: \"ชายอายุ 30 ปี\" \"60 kg\" \"2nd degree burn 40% BSA\" \"RLS มาแล้ว 1,200 cc ในเวลา 2 ชั่วโมงที่ผ่านมา\" \"ต้องได้ RLS อีกเท่าใด\" · B (เหลือง)<br>รูปที่แปะ (หัวหน้า 117): mind map ลายมือ BURN + WOUND (thermal/ electrical/ chemical burn · emergency · burn shock · fluid · inhalation injury · carbon monoxide · ภาพเล็ก อ่านรายละเอียดไม่ครบ)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 117",
+  "kimg": [
+   "fsk_p117",
+   "kp67b_47"
   ]
  },
  "MDCU67|RoB|48": {
-  "interp": "ถามลักษณะของแผลไหม้ full thickness (third degree)",
-  "why": "<b>คีย์: ขีด A + ลายมือ B จำเป็น · C, D ไม่หาย · E ไม่เจ็บ</b><br><b>นอกสไลด์:</b> full thickness คือ epidermis และ dermis ถูกทำลายทั้งหมด รวมรากขนและต่อมเหงื่อที่เป็นแหล่งเซลล์งอกใหม่ แผลจึงหายเองไม่ได้นอกจากงอกจากขอบแผลอย่างช้า ๆ",
+  "interp": "ถามลักษณะเด่นของ <b>full-thickness (3rd degree) burn</b>",
+  "why": "Full-thickness burn: <b>ทำลายผิวหนังทั้งชั้น (epidermis + dermis ทั้งหมด)</b> รวม skin appendages และปลายประสาท → ผิวขาวซีด/ น้ำตาล แข็งเหมือนหนัง (eschar) <b>ไม่เจ็บ</b> (เส้นประสาทถูกทำลาย) · <b>หายเองไม่ได้</b> (นอกจากแผลเล็กมากที่หายจากขอบ) → ต้อง <b>excision + skin graft</b> · ไฟล์ขีด A ลายมือ B ขีดฆ่า \"ไม่\" · C, D ขีดฆ่า \"ได้\" · E ขีดฆ่า \"เจ็บ\" + <b>\"∵ n. ไปด้วย\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าแผล full thickness มีขนาดเล็กมาก (ราว 1–2 cm) ที่ปล่อยให้หดตัวและผิวงอกจากขอบปิดเองได้โดยไม่เกิดแผลเป็นดึงรั้ง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่แผล full thickness หายใน 7 วัน เพราะการหายเร็วขนาดนั้นต้องมีชั้นเซลล์ฐานของ epidermis เหลืออยู่ ซึ่งถูกทำลายหมดแล้ว",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่แผล full thickness หายใน 14 วัน เพราะการหายภายในสองสัปดาห์อาศัยเซลล์ที่งอกจากรากขนและต่อมเหงื่อในหนังแท้ ซึ่งไม่เหลือในแผลชนิดนี้",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่แผล full thickness เจ็บมากเมื่อแตะ เพราะปลายประสาทรับความรู้สึกในหนังแท้ถูกทำลาย ผิวจึงชาเมื่อแตะหรือใช้เข็มจิ้ม"
+   "B": "ต้องทำ skin graft (ลายมือขีด \"ไม่\") · จะถูกถ้าคำถามถาม superficial partial-thickness burn",
+   "C": "หายเองใน 7 วันคือ superficial (1st degree) · จะถูกถ้าคำถามถาม superficial burn (แดง เจ็บ ไม่มีตุ่มน้ำ)",
+   "D": "หายเองใน ~14–21 วันคือ superficial partial-thickness · จะถูกถ้าคำถามถาม 2nd degree ตื้นที่มีตุ่มน้ำ เจ็บมาก",
+   "E": "Full-thickness ไม่เจ็บเพราะเส้นประสาทถูกทำลายไปด้วย (ลายมือ) · จะถูกถ้าคำถามถาม superficial partial-thickness (เจ็บมากที่สุด)"
   },
-  "trap": "ใช้สีแผลอย่างเดียวตัดสินความลึก — แผลลึกอาจเป็นสีขาว น้ำตาล หรือดำ ต้องดูร่วมกับความรู้สึกเมื่อแตะ การกดแล้วซีดกลับแดง และลักษณะเหนียวแข็งของผิว",
+  "trap": "คิดว่าแผลลึกที่สุดเจ็บที่สุด — full-thickness ไม่เจ็บ",
   "summary": [
-   "<b>นอกสไลด์:</b> แยกความลึก: superficial → แดง ไม่พอง เจ็บ หายใน 3–7 วัน · superficial partial → พอง ชุ่ม ชมพู กดซีด เจ็บมาก หายราว 2 สัปดาห์ · deep partial → ขาว/ด่าง เจ็บน้อยลง หายช้าเกิน 3 สัปดาห์ แผลเป็นมาก มักตัดและปลูกผิว · full thickness → แข็งเหนียวเหมือนหนัง ไม่ซีดเมื่อกด ต้องตัดเนื้อตายและปลูกผิว"
+   "Superficial (1st): แดง เจ็บ ไม่มีตุ่มน้ำ หาย 3–7 วัน",
+   "Superficial partial (2nd ตื้น): ตุ่มน้ำ ชมพู ชื้น เจ็บมาก หาย 14–21 วัน",
+   "Deep partial: ซีด/ แดงไม่กดจาง เจ็บน้อย หาย &gt; 21 วัน → มักต้อง graft",
+   "Full-thickness: ขาว/ น้ำตาล แข็ง ไม่เจ็บ → excision + graft",
+   "4th degree: ถึงกล้ามเนื้อ/ กระดูก",
+   "Circumferential full-thickness → escharotomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'ไหม้ลึกสุด = ไม่เจ็บ ไม่หายเอง ต้อง graft'</b>",
+  "guide": "ABA Advanced Burn Life Support Provider Manual (2018); Neligan's Plastic Surgery 5th ed. (2023) — Burns",
   "variants": [
-   "<b>นอกสไลด์:</b> วันแรกแยกไม่ได้ว่าแผลเป็น deep partial หรือ superficial partial → ประเมินซ้ำใน 48–72 ชม. เพราะแผลไหม้ลึกขึ้นได้ในช่วงแรก",
-   "<b>นอกสไลด์:</b> แผล full thickness รอบแขนทั้งวง นิ้วเย็นซีดและชา → กรีดเนื้อตาย (escharotomy) ตามแนวยาวทันที"
+   "แผลไหม้ขาว แข็ง เข็มจิ้มไม่เจ็บ → full-thickness → excision + STSG",
+   "แผลไหม้มีตุ่มน้ำ ชมพู เจ็บมาก → superficial partial-thickness → dressing",
+   "แผลไหม้ full-thickness รอบอก หายใจลำบาก → escharotomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 117 — ตัวพิมพ์: <b>48. ข้อใดเป็นลักษณะเด่นของ full-thickness burn — A. สูญเสีย epidermis ไปทั้งชั้น B. ไม่จำเป็นต้องทำ skin graft C. หายได้เองใน 7 วัน D. หายได้เองใน 14 วัน E. เจ็บมาก</b><br>ลายมือ: ขีด A · B ขีดฆ่า \"ไม่\" · C, D ขีดฆ่า \"ได้\" · E ขีดฆ่า \"เจ็บ\" + \"∵ n. ไปด้วย\"<br>ไฮไลต์: \"ลักษณะเด่นของ full-thickness burn\" · A (เหลือง)<br>ที่ปรับในเว็บ: ช้อย A เขียนเป็น \"Entire skin thickness destroyed\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 117",
+  "kimg": [
+   "fsk_p117",
+   "kp67b_48"
   ]
  },
  "MDCU67|RoB|49": {
-  "interp": "เด็กตาห่าง (orbital hypertelorism) สันจมูกกว้างแบน ไม่มีก้อนแนวกลาง → ถามการวินิจฉัย",
-  "why": "<b>คีย์: ขีด B</b><br><b>นอกสไลด์:</b> frontonasal dysplasia เกิดจากส่วน frontonasal ของใบหน้าเจริญผิดปกติ ทำให้เบ้าตาห่างกัน สันจมูกกว้าง ปลายจมูกแยกหรือบาก อาจมีร่องแยกแนวกลางของจมูก/ริมฝีปาก และหน้าผากผมแหลม (widow's peak) โดยไม่มีถุงสมองยื่นออกมา",
+  "interp": "ภาพใบหน้าเด็ก: <b>ตาห่างกัน (orbital hypertelorism)</b> ฐานจมูกกว้างแบน <b>ไม่มีก้อนกลางหน้า</b> → ถามการวินิจฉัย",
+  "why": "<b>Frontonasal dysplasia</b>: ความผิดปกติของ frontonasal process — <b>hypertelorism</b> · ฐานจมูกกว้าง/ ปลายจมูกแยก (bifid nose) · อาจมี median cleft · <b>ไม่มีก้อนไส้สมองยื่น</b> · ภาพในไฟล์มีเส้นแดงวัดระยะระหว่างตาและความกว้างฐานจมูก · ไฟล์ขีด B",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้ามีก้อนนุ่มคลุมด้วยผิวหนังที่สันจมูกหรือหัวตามาตั้งแต่เกิด โตขึ้นเวลาร้องหรือเบ่ง (สมองและเยื่อหุ้มยื่นผ่านรอยแยกกะโหลก)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ากะโหลกรูปผิดปกติจากรอยต่อปิดเร็ว เช่นหน้าผากแหลมเป็นสันรูปสามเหลี่ยมและตาชิดกัน (metopic synostosis)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามีรอยแยกที่ริมฝีปากบนด้านข้างแนวกลาง (ใต้รูจมูก) โดยระยะห่างของตาปกติ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าตาเฉียงลง เปลือกตาล่างแหว่ง โหนกแก้มแบน ขากรรไกรเล็ก และหูเล็กผิดรูปทั้งสองข้าง"
+   "A": "FEEM (frontoethmoidal encephalomeningocele) มี<b>ก้อนนิ่มกลางหน้า/ โคนจมูก</b> ที่โป่งเวลาร้อง ร่วมกับตาห่าง · จะถูกถ้าภาพมีก้อนที่ glabella/ nasion",
+   "C": "Craniosynostosis → รูปศีรษะผิดปกติ (scaphocephaly, plagiocephaly) · จะถูกถ้าภาพแสดงศีรษะยาวแคบ หรือหน้าผากเอียงข้างเดียว",
+   "D": "Cleft lip → ปากแหว่ง · จะถูกถ้าภาพแสดงรอยแยกริมฝีปากบน",
+   "E": "Treacher Collins → โหนกแก้ม/ ขากรรไกรเล็ก หางตาตก ใบหูผิดรูป · จะถูกถ้าภาพแสดงตาเอียงลง (down-slanting) และคางเล็ก"
   },
-  "trap": "เห็นตาห่างแล้วคิดว่าเป็น encephalocele ที่สันจมูก (FEEM ทำให้ตาห่างได้) — ต้องดูว่ามีก้อนแนวกลางที่โตเวลาร้องหรือไม่ ไม่มีก้อนจึงเข้ากับ frontonasal dysplasia",
+  "trap": "สับสน frontonasal dysplasia กับ FEEM — ดูว่ามีก้อนกลางหน้าหรือไม่",
   "summary": [
-   "<b>นอกสไลด์:</b> แยก hypertelorism กับ telecanthus: hypertelorism = กระดูกเบ้าตาทั้งสองห่างกันจริง (วัดระยะกระดูกระหว่างเบ้าตาจาก CT) · telecanthus = หัวตาห่างเพราะเนื้อเยื่ออ่อน แต่กระดูกปกติ · hypertelorism ที่มีนัยสำคัญแก้ด้วยการผ่าตัดย้ายเบ้าตาเข้าหากันในวัยเด็ก"
+   "Hypertelorism: ระยะระหว่าง orbit กว้าง (วัด interorbital distance)",
+   "Frontonasal dysplasia: ตาห่าง + จมูกกว้าง/ แยก ± median cleft",
+   "FEEM: ก้อนกลางหน้า (encephalocele) + ตาห่าง → ผ่าตัด",
+   "Craniosynostosis: รอยต่อกะโหลกปิดเร็ว → รูปศีรษะผิด",
+   "Treacher Collins: zygoma/ mandible เล็ก · coloboma ตาล่าง",
+   "แก้ hypertelorism: box osteotomy/ facial bipartition"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจปานกลาง (รูปในไฟล์ถูกเบลอ)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ไฟล์มีเพียงภาพ ไม่มีบรรยาย)",
+  "mnemonic": "<b>'ตาห่าง + ไม่มีก้อน = Frontonasal dysplasia · ตาห่าง + มีก้อน = FEEM'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Craniofacial clefts and orbital hypertelorism",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กหัวตาห่าง แต่ CT ระยะกระดูกระหว่างเบ้าตาปกติ ร่วมหนังตาตกและตาเล็ก → telecanthus (เช่น blepharophimosis syndrome) ไม่ใช่ hypertelorism",
-   "<b>นอกสไลด์:</b> เด็ก frontonasal dysplasia อายุ 6 ปี ตาห่างมาก → ผ่าตัดย้ายเบ้าตาเข้าหากัน (box osteotomy หรือ facial bipartition)"
+   "เด็กมีก้อนนิ่มที่โคนจมูก โป่งเวลาร้อง ตาห่าง → FEEM",
+   "ทารกศีรษะยาวแคบ คลำสันที่ sagittal suture → sagittal craniosynostosis",
+   "เด็กหางตาตก คางเล็ก หูผิดรูป → Treacher Collins"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 117 — ตัวพิมพ์: <b>49. จงวินิจฉัย — A. FEEM B. Frontonasal dysplasia C. Craniosynostosis D. Cleft lip E.</b><br>ลายมือ: ขีด B<br>ไฮไลต์: B (เหลือง)<br>รูปที่แปะ: ภาพใบหน้าเด็กตาห่าง ฐานจมูกกว้าง มีเส้นแดงวัดระยะระหว่างตาและความกว้างฐานจมูก<br>ที่ปรับในเว็บ: บรรยายภาพในโจทย์ และเพิ่มช้อย E (Treacher Collins syndrome)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 117",
+  "kimg": [
+   "fsk_p117",
+   "kp67b_49"
   ]
  },
  "MDCU67|RoB|58": {
-  "interp": "คำนวณความยาวที่ได้เพิ่มจาก Z-plasty ที่มุม 60°",
-  "why": "<b>คีย์: ขีด C + ลายมือ 30° 25% · 45° 50% · 60° 75% · 75° 100% · 90° 120% + ตาราง</b><br><b>นอกสไลด์:</b> Z-plasty สลับ flap สามเหลี่ยมสองชิ้นทำให้ได้ความยาวเพิ่มตามแนวขากลาง ยิ่งมุมกว้างยิ่งได้ความยาวมาก (ตามทฤษฎี 60° ได้ราว 75%) แต่ flap สลับที่ยากขึ้นและผิวข้างถูกดึงมากขึ้น · 60° จึงเป็นมุมมาตรฐานที่สมดุล",
+  "interp": "<b>Z-plasty มุม 60°</b> ยืดความยาวได้ตามทฤษฎีกี่ %",
+  "why": "Z-plasty: ยิ่งมุมกว้าง ยิ่งยืดได้มาก — <b>30° = 25% · 45° = 50% · 60° = 75% · 75° = 100% · 90° = 120%</b> → 60° ได้ <b>75%</b> (มุม 60° นิยมที่สุดเพราะสมดุลระหว่างการยืดกับการหมุนแผ่นผิวหนังได้) · ไฟล์ขีด C ลายมือ <b>\"25% ↔ 30°\"</b> · A <b>\"↔ 45°\"</b> · C <b>\"↔ 60°\"</b> · E <b>\"↔ 75°\"</b> · <b>\"120% ↔ 100°\"</b> และแปะตาราง <b>Z-PLASTY, ANGLES, AND THEORETICAL GAIN</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าทำ Z-plasty มุม 45° → ได้ความยาวเพิ่มราว 50%",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าทำมุมราว 50° (ระหว่าง 45° ที่ได้ 50% กับ 60° ที่ได้ 75%)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าทำมุมราว 70° (ระหว่าง 60° ที่ได้ 75% กับ 75° ที่ได้ 100%)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทำ Z-plasty มุม 75° → ได้ความยาวเพิ่มราว 100%"
+   "A": "50% คือมุม 45° (ลายมือ) · จะถูกถ้าคำถามถาม Z-plasty มุม 45°",
+   "B": "60% ไม่ตรงกับมุมมาตรฐานในตาราง · จะถูกถ้าคำถามถามค่าระหว่างมุม 45° กับ 60°",
+   "D": "90% ไม่ตรงกับมุมมาตรฐานในตาราง · จะถูกถ้าคำถามถามค่าระหว่างมุม 60° กับ 75°",
+   "E": "100% คือมุม 75° (ลายมือ) · จะถูกถ้าคำถามถาม Z-plasty มุม 75°"
   },
-  "trap": "จำสลับระหว่างมุมกับเปอร์เซ็นต์ (60° → 60%) — ความยาวที่ได้เพิ่มเร็วกว่ามุม: 30° 25% · 45° 50% · 60° 75%",
+  "trap": "คิดว่ามุม 60° ยืดได้ 60% หรือ 100%",
   "summary": [
-   "<b>นอกสไลด์:</b> หลักการ Z-plasty: ขาทั้งสามยาวเท่ากัน ขากลางวางตามแนวแผลเป็นที่หดรั้ง · หลังสลับ flap ขากลางยาวขึ้นและหมุนแนวไป 90° · ใช้ยืดแผลเป็นหดรั้ง เปลี่ยนแนวแผลเป็นให้เข้าแนว RSTL และหักแผลเป็นเส้นตรงยาว"
+   "Z-plasty: ยืดความยาว + เปลี่ยนทิศแผลเป็น",
+   "30° 25% · 45° 50% · 60° 75% · 75° 100% · 90° 120%",
+   "60° ใช้บ่อยที่สุด",
+   "ใช้: แผลเป็นหดรั้ง (contracture) · แผลเป็นตั้งฉากกับ RSTL",
+   "Multiple Z-plasty: ยืดรวมมากโดยไม่ต้องใช้แขนยาว",
+   "ความยาวจริงน้อยกว่าทฤษฎี (ผิวหนังรอบข้างตึง)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และตาราง",
+  "mnemonic": "<b>'Z-plasty: 30-45-60-75-90 → 25-50-75-100-120'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Principles: Z-plasty",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลเป็นหดรั้งยาวที่คอ ผิวข้างไม่หย่อนพอทำ Z ใหญ่ตัวเดียว → Z-plasty หลายตัวต่อกัน (serial) ได้ความยาวรวมเท่าผลรวมของแต่ละตัว และดึงผิวข้างน้อยกว่า",
-   "<b>นอกสไลด์:</b> แผลเป็นเส้นตรงขวางแนว RSTL ที่หน้าผาก → Z-plasty หมุนแนวแผลให้ขนานกับรอยย่นเพื่อให้แผลเป็นจางลง"
+   "แผลเป็นหดรั้งข้อพับนิ้ว → Z-plasty 60°",
+   "ต้องการยืดความยาว 100% → มุม 75°",
+   "แผลเป็นยาวหดรั้งคอ → multiple Z-plasty"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 117 — ตัวพิมพ์: <b>58. Z-plasty มุม 60 องศา ขยายได้กี่ % — A. 50% B. 60% C. 75% D. 90% E. 100%</b><br>ลายมือ: \"25% ↔ 30°\" · A \"↔ 45°\" · ขีด C + \"↔ 60°\" · E \"↔ 75°\" · \"120% ↔ 100°\"<br>ไฮไลต์: \"Z-plasty มุม 60 องศา ขยายได้กี่ %\" · A (ส้ม) · C (เหลือง)<br>รูปที่แปะ: ตาราง Z-PLASTY, ANGLES, AND THEORETICAL GAIN — Angles of Z-plasty (degrees) / Theoretical gain in length (%): 30-30 → 25 · 45-45 → 50 · 60-60 → 75 · 75-75 → 100 · 90-90 → 120 + ลายมือ \"ยิ่งมุมกว้าง ยิ่งยืดได้มาก\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 117",
+  "kimg": [
+   "fsk_p117",
+   "kp67b_58"
   ]
  },
  "MDCU67|RoB|59": {
-  "interp": "สงสัย condyle ของขากรรไกรล่างหัก → ถามท่าถ่ายภาพรังสีที่เหมาะ",
-  "why": "<b>คีย์: ขีด C + ลายมือ Towne → mandibular condyle · Waters → zygoma, maxilla · panoramic → mandible</b><br><b>นอกสไลด์:</b> Towne view (ถ่ายเอียงจากหน้าไปหลังลงล่าง) ทำให้ condyle และคอ condyle ไม่ซ้อนกับฐานกะโหลก เห็นการหักและการเคลื่อนของ condyle ทั้งสองข้าง",
+  "interp": "สงสัย<b>กระดูก condyle ของขากรรไกรล่างหัก</b> → ถามท่า X-ray ที่ควรส่ง",
+  "why": "<b>Towne's view</b> (AP เอียงหัว ~30°) แสดง <b>mandibular condyle และ subcondylar region</b> ได้ดี — สไลด์ในไฟล์ระบุ \"Better condyle evaluation ADD Towne's view or mandibular view\" · ส่วน panoramic (OPG) เห็น mandible ทั้งหมดแต่ condyle เห็นไม่ชัด · Waters' view → zygoma/ maxilla/ orbit · ปัจจุบัน CT เป็นมาตรฐาน · ไฟล์ขีด C ลายมือ <b>\"→ mandibular condyle\"</b> · B <b>\"→ zygoma, maxilla\"</b> · D <b>\"lat. nasal → nasal\"</b> · E <b>\"→ mandible\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าต้องการดูการเคลื่อนไปด้านข้างของ ramus มุม และ body ของขากรรไกรล่าง (ภาพหน้า–หลังของ mandible)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัย zygoma พื้นเบ้าตา หรือ maxilla หัก (ลายมือ) — เห็น maxillary sinus และขอบเบ้าตาล่างชัด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัย body มุม หรือ ramus ของขากรรไกรล่างข้างหนึ่งหัก และไม่มีเครื่อง panoramic",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าไม่มี CT และต้องดูกะโหลกส่วนบน (vault) หรือระดับน้ำใน sphenoid sinus — ปัจจุบันใช้ CT แทน"
+   "A": "AP view เห็นซ้อนทับ condyle ไม่ชัด · จะถูกถ้าคำถามถามท่าพื้นฐานของ skull series",
+   "B": "Waters' view สำหรับ zygoma, maxilla, orbit floor (ลายมือ) · จะถูกถ้าคำถามถามสงสัย ZMC/ Le Fort fracture",
+   "D": "Lateral oblique ดู body/ angle ของ mandible (ลายมือเขียน lat. nasal → nasal bone) · จะถูกถ้าคำถามถามกระดูกจมูกหัก (lateral nasal view) หรือ mandible body",
+   "E": "Lateral skull ไม่เฉพาะเจาะจงต่อ condyle · จะถูกถ้าคำถามถาม skull vault fracture/ sella"
   },
-  "trap": "เลือก Waters view เพราะเป็นท่ามาตรฐานของกระดูกใบหน้า — Waters ดูใบหน้าส่วนกลาง (zygoma, maxilla) ส่วน condyle ของขากรรไกรล่างต้องใช้ Towne หรือ CT",
+  "trap": "เลือก Waters' view เพราะเป็นท่าใบหน้าที่คุ้นที่สุด — Waters' ไว้ดู midface",
   "summary": [
-   "<b>นอกสไลด์:</b> ภาพขากรรไกรล่างหัก: panoramic เห็นทั้ง mandible ในภาพเดียว · Towne/reverse Towne ดู condyle · CT ใบหน้าเป็นมาตรฐานปัจจุบัน (โดยเฉพาะ condyle) · ตรวจร่างกาย: สบฟันผิด อ้าปากไม่ขึ้น คางเบี่ยงไปข้างที่หักเมื่ออ้าปาก ชาริมฝีปากล่าง"
+   "Condyle: Towne's view · OPG + Towne's",
+   "Mandible ทั่วไป: panoramic (OPG)",
+   "Zygoma/ maxilla/ orbit: Waters' view",
+   "Zygomatic arch: submentovertex (jug handle)",
+   "Nasal bone: lateral nasal view",
+   "CT facial bone เป็นมาตรฐานปัจจุบัน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจปานกลาง — ปัจจุบัน CT ใบหน้าเป็นการตรวจหลัก",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Towne → Condyle (T-C) · Waters → Midface'</b>",
+  "guide": "AO Surgery Reference: CMF — Mandible condylar process fractures; Neligan's Plastic Surgery 5th ed. (2023) — Facial fractures",
   "variants": [
-   "<b>นอกสไลด์:</b> ล้มคางกระแทก อ้าปากแล้วคางเบี่ยงไปทางขวา ฟันหลังขวาสบก่อน ปวดหน้าหูขวา → condyle ขวาหัก",
-   "<b>นอกสไลด์:</b> ถูกต่อยคาง มีเลือดคั่งใต้ลิ้น → ชี้ว่า body ของขากรรไกรล่างหัก"
+   "ถูกชกคาง ปวดหน้าหู อ้าปากเบี้ยว → condylar fracture → Towne's/ CT",
+   "ถูกชกแก้ม แก้มยุบ → Waters' view/ CT",
+   "ล้มจมูกกระแทก จมูกคด → lateral nasal view"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 117 — ตัวพิมพ์: <b>59. สงสัย fracture of \"condyle of mandible\" ควรส่ง film x-ray ท่าไหน — A. AP view B. Waters' view C. Towne's view D. Lateral oblique view E. Panoramic view</b><br>ลายมือ: เครื่องหมายคำพูดที่ \"condyle of mandible\" · B \"→ zygoma, maxilla\" · ขีด C + \"→ mandibular condyle\" · D \"lat. nasal → nasal\" · E \"→ mandible\"<br>ไฮไลต์: \"สงสัย fracture of condyle of mandible\" \"film x-ray ท่าไหน\" · B, E (ส้ม) · C (เหลือง)<br>รูปที่แปะ: ① สไลด์ Mandible — Normal mandible – Orthopantomogram (OPG) · Panoramic mandible · Mandible fracture (OPG) · Better condyle evaluation ADD Towne's view or mandibular view + ลายมือ ② mind map ลายมือ Bone – fracture type: nasal bone (Invest.: film lat. nasal bone, Waters' view) · mandibular (sign &amp; symp: malocclusion, …; Invest.: panoramic, film mandible PA/ lat./ lat. oblique, CT) · Maxillary (Le Fort type 1–3; Invest.: Waters' view, CT facial bone) · zygoma (Waters' view) + ภาพประกอบ<br>ที่ปรับในเว็บ: ช้อย E เปลี่ยนจาก Panoramic view เป็น Skull lateral view",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 117",
+  "kimg": [
+   "fsk_p117",
+   "kp67b_59"
   ]
  },
  "MDCU67|RoB|67": {
-  "interp": "ชาย 52 ปีความดันสูงมาก CT เห็นเลือดออกด้านใน internal capsule ชิด third ventricle → ระบุตำแหน่ง (โจทย์ใกล้กับ RoA 67 ของชุดนี้)",
-  "why": "<b>คีย์: ขีด B</b><br><b>นอกสไลด์:</b> เลือดที่อยู่ด้านในของ internal capsule และชิดผนัง third ventricle คือ thalamus — เป็นตำแหน่งที่สองของเลือดออกในสมองจากความดันสูง เกิดจากหลอดเลือดแดงเล็กที่เลี้ยง thalamus แตก",
+  "interp": "ชาย 52 ปี ปวดศีรษะ <b>BP 180/110</b> CT พบ<b>เลือดออกด้านในต่อ internal capsule ข้าง 3rd ventricle</b> → ถามการวินิจฉัย",
+  "why": "ตำแหน่ง<b>ด้านในต่อ internal capsule ชิด 3rd ventricle</b> = <b>thalamus</b> → <b>thalamic hemorrhage</b> (hypertensive ICH จาก thalamoperforating arteries) · putamen (basal ganglia) อยู่<b>ด้านนอก</b> internal capsule · caudate ชิด frontal horn ของ lateral ventricle · ไฟล์ขีด B ลายมือ <b>\"ซ้ำ\"</b> (ข้อนี้ซ้ำกับข้อในรอบอื่น)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดอยู่ด้านนอกของ internal capsule ในบริเวณ putamen — ตำแหน่งที่พบบ่อยที่สุดของ ICH จากความดันสูง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดอยู่ใต้ผิวสมองในกลีบ frontal parietal หรือ occipital ของผู้สูงอายุที่ไม่มีความดันสูง (มักจาก amyloid angiopathy)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดอยู่ใน posterior fossa ข้าง vermis — เวียนศีรษะ อาเจียน เดินเซ อ่อนแรงไม่ชัด",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดอยู่ที่หัวของ caudate นูนเข้า frontal horn และทะลุเข้า ventricle เร็ว"
+   "A": "Putamen/ basal ganglia อยู่ด้านนอก internal capsule (พบบ่อยที่สุดของ hypertensive ICH) · จะถูกถ้า CT พบเลือดด้านนอก internal capsule",
+   "C": "Lobar hemorrhage อยู่ cortex/ subcortical · จะถูกถ้า CT พบเลือดใน parietal/ temporal lobe ใกล้ผิวสมอง",
+   "D": "Cerebellar hemorrhage อยู่ posterior fossa · จะถูกถ้า CT พบเลือดในซีกสมองน้อย มีอาการเวียน เดินเซ",
+   "E": "Caudate hemorrhage ชิด frontal horn มักทะลุเข้า ventricle · จะถูกถ้า CT พบเลือดที่หัว caudate"
   },
-  "trap": "เห็นความดัน 180/110 แล้วรีบลดลงต่ำมากเพื่อหยุดเลือด — การลดเร็วจน SBP ต่ำเกินไปเสี่ยงสมองขาดเลือด ให้ลดแบบควบคุมไปสู่เป้า",
+  "trap": "ตอบ basal ganglia ทุกครั้งที่เห็นเลือดลึก — ดูตำแหน่งเทียบ internal capsule",
   "summary": [
-   "<b>นอกสไลด์:</b> ดูแล ICH ระยะแรก (AHA/ASA 2022): SBP 150–220 → ลดสู่ราว 140 อย่างค่อยเป็นค่อยไปด้วยยาฉีดออกฤทธิ์สั้น ไม่ให้ต่ำกว่าราว 130 · แก้ฤทธิ์ยาต้านการแข็งตัวทันที · คุมน้ำตาลและไข้ · ICH ที่ลึก (thalamus) ส่วนใหญ่ไม่ผ่าตัดเอาก้อน แต่ใส่ EVD เมื่อมี hydrocephalus"
+   "Putamen: ด้านนอก internal capsule · lenticulostriate",
+   "Thalamus: ด้านใน · ชิด 3rd ventricle · thalamoperforating",
+   "Caudate: ชิด frontal horn",
+   "Hypertensive ICH: putamen &gt; thalamus &gt; pons/ cerebellum",
+   "Thalamic ICH: hemisensory loss · ตามองลงล่าง · เสี่ยง IVH/ hydrocephalus",
+   "คุม SBP ~140"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจปานกลาง (ไม่มีรูปในไฟล์)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Internal capsule: นอก = Putamen · ใน = Thalamus'</b>",
+  "guide": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย ICH กิน warfarin INR 3.0 → ให้ PCC ร่วม vitamin K ทางหลอดเลือดทันที (PCC ออกฤทธิ์เร็วกว่า FFP)",
-   "<b>นอกสไลด์:</b> ผู้ป่วย ICH คุมความดันแล้วแต่ซึมลงใน 6 ชม.แรก → CT ซ้ำหาก้อนขยายหรือ hydrocephalus"
+   "ความดันสูง CT เลือดด้านนอก internal capsule → putamen hemorrhage",
+   "เลือดที่หัว caudate ทะลุ lateral ventricle → caudate hemorrhage",
+   "เลือดใน thalamus + ventricle โต → IVH + hydrocephalus → EVD"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 118 — หัวข้อ Neuro · ตัวพิมพ์: <b>67. ผู้ป่วยชายอายุ 52 ปี มาด้วยปวดหัว BP 180/110 mmHg ให้รูป CT มา ถามว่าเป็นอะไร — A. Basal ganglion hemorrhage B. Thalamic hemorrhage C. D. E. Caudate hemorrhage</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · ขีด B<br>ไฮไลต์: \"ชายอายุ 52 ปี\" \"ปวดหัว BP 180/110\" \"ให้รูป CT มา\" · B (เหลือง)<br>ที่ปรับในเว็บ: บรรยายภาพ CT ในโจทย์ และเติมช้อย C–D (Lobar · Cerebellar hemorrhage)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 118",
+  "kimg": [
+   "fsk_p118",
+   "kp67b_67"
   ]
  },
  "MDCU67|RoB|68": {
-  "interp": "ผู้ป่วยเดิม (thalamic ICH ความดันสูง) → ถามการตรวจถัดไป",
-  "why": "<b>คีย์: ขีด D</b><br><b>นอกสไลด์:</b> CTA ทำต่อจาก CT ได้ทันที ใช้หาสาเหตุทางหลอดเลือดที่ซ่อนอยู่ (AVM, aneurysm, dural fistula, หลอดเลือดดำอุดตัน) และเห็น spot sign (สารทึบรังสีรั่วในก้อน) ที่ทำนายว่าก้อนจะขยาย",
+  "interp": "ต่อจากข้อก่อน (ICH ที่ thalamus) → ถามการตรวจที่ควรส่งต่อ",
+  "why": "หลังยืนยัน ICH ด้วย CT แล้ว ควร<b>ตรวจหลอดเลือด</b>เพื่อหาสาเหตุ (AVM, aneurysm, DAVF) → <b>CTA</b> ทำได้เร็ว ไม่รุกล้ำ และยังเห็น <b>spot sign</b> ที่บอกความเสี่ยงก้อนเลือดขยาย · AHA 2022 แนะนำ CTA เพื่อตัด macrovascular cause โดยเฉพาะผู้ป่วยอายุน้อย ตำแหน่ง lobar หรือไม่มีความดันสูง · ไฟล์ขีด D ลายมือ <b>\"ดู vss.\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัยเนื้องอกที่มีเลือดออก (บวมรอบมากเกินขนาดก้อนตั้งแต่วันแรก มีประวัติมะเร็ง) และทำ MRI ไม่ได้",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าต้องหาเนื้องอกหรือ cavernoma ที่ซ่อนใต้ก้อนเลือด — มักทำหลังเลือดเริ่มยุบ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า CTA ปกติแต่ยังสงสัยความผิดปกติของหลอดเลือดสูง (อายุน้อย ไม่มีความดันสูง เลือดใต้ผิวสมองหรือใน ventricle) — DSA เห็นหลอดเลือดเล็กและ dural fistula ได้ดีกว่า",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ skull X-ray ใช้ในเลือดออกในเนื้อสมองที่เกิดเอง เพราะไม่เห็นเลือดหรือหลอดเลือด บอกได้แค่กระดูก"
+   "A": "CT with contrast ไม่ใช่การตรวจหลอดเลือดที่เหมาะ · จะถูกถ้าคำถามถามสงสัยเนื้องอกที่มีเลือดออก",
+   "B": "MRI ใช้หาสาเหตุอื่น (cavernoma, amyloid, เนื้องอก) ภายหลัง ไม่ใช่ขั้นแรก · จะถูกถ้าคำถามถาม lobar ICH ในผู้สูงอายุสงสัย amyloid angiopathy",
+   "C": "Catheter angiogram (DSA) เป็น gold standard แต่รุกล้ำ ทำเมื่อ CTA ไม่ชัด/ สงสัยมาก · จะถูกถ้า CTA ปกติแต่ยังสงสัยสาเหตุทางหลอดเลือดสูง",
+   "E": "X-ray กะโหลกไม่ช่วยในภาวะเลือดออกในสมอง · จะถูกถ้าคำถามถามคัดกรองกะโหลกแตกในที่ไม่มี CT"
   },
-  "trap": "คิดว่าผู้ป่วยความดันสูงที่เลือดออกลึกไม่ต้องตรวจหลอดเลือดเลย — โอกาสพบสาเหตุอื่นต่ำจริง แต่ CTA ทำได้เร็ว ยังให้ข้อมูล spot sign และตัดสาเหตุที่รักษาได้",
+  "trap": "ส่ง DSA ก่อน CTA — CTA เร็วและไม่รุกล้ำกว่า",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อมูลจาก CTA ใน ICH: สาเหตุทางหลอดเลือดที่ต้องรักษาเฉพาะ · spot sign ทำนายก้อนขยายและพยากรณ์แย่ · ในผู้ป่วยความดันสูงอายุ > 45 ปีที่เลือดออกลึก โอกาสพบหลอดเลือดผิดปกติต่ำ แต่กลุ่มอายุน้อย เลือดใต้ผิวสมอง หรือไม่มีความดันสูง พบบ่อยกว่า"
+   "ICH: CT non-contrast → CTA (± spot sign)",
+   "CTA/ MRA ช่วยหา AVM · aneurysm · DAVF · CVT",
+   "DSA: เมื่อ CTA ไม่ชัดหรือสงสัยสูง",
+   "MRI: cavernoma · tumor · amyloid (SWI)",
+   "Spot sign = เสี่ยงก้อนเลือดขยาย",
+   "คุม BP · แก้ coagulopathy"
   ],
-  "opinion": "ตามคีย์ D ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลางค่อนข้างสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ใน hypertensive thalamic ICH อายุมาก CTA อาจไม่เปลี่ยนการรักษา แต่ข้อนี้ต้องการการตรวจหลอดเลือดลำดับถัดไป",
+  "mnemonic": "<b>'ICH: CT ยืนยัน → CTA หาหลอดเลือด'</b>",
+  "guide": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
   "variants": [
-   "<b>นอกสไลด์:</b> CTA เห็น aneurysm ของ MCA ติดกับก้อนเลือดในกลีบขมับ ร่วมเลือดใน Sylvian fissure → aneurysm แตกเข้าเนื้อสมอง: รักษา aneurysm และพิจารณาเอาก้อนออก",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุมีเลือดออกใต้ผิวสมองซ้ำหลายครั้งต่างตำแหน่ง → MRI ลำดับ SWI หาจุดเลือดออกเล็ก ๆ ที่ผิวสมองของ cerebral amyloid angiopathy"
+   "ชาย 30 ปี lobar ICH ไม่มี HT → CTA หา AVM",
+   "CTA พบ spot sign → เสี่ยงขยาย → คุม BP เข้มงวด",
+   "ผู้สูงอายุ lobar ICH ซ้ำ → MRI SWI (microbleeds — amyloid)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 118 — ตัวพิมพ์: <b>68. จากข้อ 67. ควรส่ง investigation อะไรต่อ — A. CT with contrast B. MRI C. Angiogram D. CTA E. X-ray</b><br>ลายมือ: ขีด D + \"ดู vss.\"<br>ไฮไลต์: \"ส่ง investigation อะไรต่อ\" · D (เหลือง)<br>ที่ปรับในเว็บ: ช้อย C เขียนเป็น Catheter angiogram · E เป็น Skull X-ray",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 118",
+  "kimg": [
+   "fsk_p118",
+   "kp67b_68"
   ]
  },
  "MDCU67|RoB|69": {
-  "interp": "ปวดศีรษะรุนแรงทันทีเมื่อ 1 สัปดาห์ก่อน (อายุ > 50) CT ปกติ → ถามขั้นต่อไปเพื่อตัด SAH",
-  "why": "<b>คีย์: ขีด C + ลายมือ >50 yr, sudden → red flag · if clinical suggested SAH</b><br><b>นอกสไลด์:</b> CT ไวต่อ SAH เกือบ 100% ใน 6 ชม.แรก แต่ไวลดลงเรื่อย ๆ จนราวครึ่งหนึ่งที่ 1 สัปดาห์ เพราะเลือดถูกล้างออก · เมื่อ CT ปกติในคนที่ปวดศีรษะทันทีรุนแรง ต้องเจาะหลังหาเม็ดเลือดแดงและ xanthochromia (ยังพบได้ถึงราว 2 สัปดาห์)",
+  "interp": "หญิง 73 ปี <b>ปวดศีรษะขึ้นมาทันที 1 สัปดาห์ก่อน</b> ยาแก้ปวดดีขึ้นแต่ไม่หาย BP 140/90 · <b>CT ปกติ</b> → ถามสิ่งที่ควรทำต่อ",
+  "why": "ปวดศีรษะ<b>ฉับพลัน (thunderclap)</b> ในผู้สูงอายุ = <b>red flag</b> สงสัย <b>SAH</b> · CT ไวสูงในช่วงแรก (เกือบ 100% ใน 6 ชม.) แต่<b>ความไวลดลงตามเวลา</b> (1 สัปดาห์ต่ำลงมาก) → <b>CT ปกติแต่ยังสงสัย SAH ต้องเจาะหลัง (LP)</b> ดู RBC และ <b>xanthochromia</b> (เกิด 2–12 ชม.หลังเลือดออก อยู่นาน ~2 สัปดาห์) · ไฟล์ขีด C ลายมือ <b>\"≥ 50 yo · red flag sign\"</b> · <b>\"subacute?\"</b> · <b>\"ถ้า clinical suggested SAH\"</b> (ลูกศรลงที่ C) และแปะสไลด์ Diagnosis: <b>\"In suspected cases with negative CT scan, lumbar puncture must be performed\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นปวดศีรษะเรื้อรังแบบตึงไม่มีลักษณะอันตราย และวัดความดันได้สูงครั้งเดียว — วัดซ้ำเพื่อยืนยันความดันสูงก่อนสรุป",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเจาะหลังพบ xanthochromia (ยืนยัน SAH) — ตรวจหลอดเลือดหา aneurysm",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นปวดศีรษะแบบไมเกรนหรือแบบตึงที่เป็นประจำ ลักษณะเหมือนเดิม ไม่มี red flag",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นไมเกรนรุนแรงแบบเดิมที่อาเจียนจนกินยาไม่ได้"
+   "A": "วัดความดันซ้ำไม่ช่วยวินิจฉัย SAH · จะถูกถ้าคำถามถามปวดศีรษะจาก hypertensive urgency",
+   "B": "Angiography ทำหลังยืนยัน SAH แล้ว · จะถูกถ้า LP พบ xanthochromia หรือ CT เห็นเลือด",
+   "D": "ยาแก้ปวดกินแล้วกลับบ้านพลาด SAH ซึ่งเสี่ยงแตกซ้ำ · จะถูกถ้าเป็นปวดศีรษะ tension type ไม่มี red flag",
+   "E": "ยาฉีดแก้ปวดไม่แก้ปัญหาการวินิจฉัย · จะถูกถ้าคำถามถาม migraine รุนแรงที่ไม่มี red flag"
   },
-  "trap": "CT ปกติแล้วสรุปว่าไม่ใช่ SAH — CT ที่ทำหลังปวดหลายวันพลาด SAH ได้บ่อย ต้องเจาะหลังต่อ (หรือ CTA) เมื่อประวัติเข้าได้",
+  "trap": "CT ปกติแล้วให้กลับบ้าน — ปวดฉับพลันและผ่านมาหลายวัน CT ไวน้อยลง ต้อง LP",
   "summary": [
-   "<b>นอกสไลด์:</b> ปวดศีรษะทันทีรุนแรงสุดใน 1 นาที (thunderclap): CT ภายใน 6 ชม.ปกติ → ตัด SAH ได้เกือบทั้งหมด · เกิน 6 ชม. CT ปกติ → เจาะหลัง (หลัง ≥ 12 ชม.จากปวด) หรือ CTA · สาเหตุอื่นของ thunderclap: RCVS, หลอดเลือดดำสมองอุดตัน, หลอดเลือดแดงคอฉีก, pituitary apoplexy"
+   "Thunderclap headache → CT ทันที",
+   "CT ภายใน 6 ชม. ไว ~100% · ลดลงตามวัน",
+   "CT ปกติ + สงสัย → LP (xanthochromia, RBC คงที่)",
+   "Xanthochromia: เกิด 2–12 ชม. อยู่ ~2 สัปดาห์",
+   "ยืนยัน SAH → CTA/ DSA หา aneurysm",
+   "Red flags: ฉับพลัน · อายุ &gt; 50 · ระบบประสาทผิดปกติ · ไข้/ คอแข็ง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'ปวดหัวฟ้าผ่า + CT ปกติ = เจาะหลังหาสีเหลือง'</b>",
+  "guide": "AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314); ACEP Clinical Policy: Acute Headache (Ann Emerg Med 2019;74:e41)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงหลังคลอดปวดศีรษะทันทีรุนแรงหลายครั้งในหลายวัน CT และเจาะหลังปกติ CTA เห็นหลอดเลือดสมองตีบสลับขยายเป็นช่วง → reversible cerebral vasoconstriction syndrome",
-   "<b>นอกสไลด์:</b> ปวดศีรษะทันทีร่วมตามัวลงด้านนอกสองข้าง หนังตาตก ความดันต่ำ → pituitary apoplexy: ให้ hydrocortisone และ MRI ต่อมใต้สมอง"
+   "ปวดศีรษะรุนแรงฉับพลัน 3 ชม. CT ปกติ (scanner รุ่นใหม่ อ่านโดยผู้เชี่ยวชาญ) → อาจไม่ต้อง LP",
+   "ปวดศีรษะฉับพลัน 5 วัน CT ปกติ → LP → xanthochromia → CTA",
+   "LP RBC ลดลงทุกหลอด ไม่มี xanthochromia → traumatic tap"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 118 — ตัวพิมพ์: <b>69. ผู้ป่วยหญิงอายุ 73 ปี ไม่มีโรคประจำตัว ปวดหัวขึ้นมาทันที \"1 wkPTA\" กินยาแก้ปวด ดีขึ้นแต่ไม่หายสนิท จึงมาที่ ER: BP 140/90 mmHg CT ปกติ ควรทำอะไรต่อ — A. BP measurement ซ้ำ B. Cerebral angiography C. Lumbar puncture D. Oral analgesia E. Parenteral analgesia</b><br>ลายมือ: \"≥ 50 yo\" + \"red flag sign\" · \"subacute?\" · \"ถ้า clinical suggested SAH\" (ลูกศรลงที่ C) · ขีด C<br>ไฮไลต์: \"หญิงอายุ 73 ปี\" \"ปวดหัวขึ้นมาทันที 1 wkPTA กินยาแก้ปวด ดีขึ้นแต่ไม่หายสนิท\" \"CT ปกติ\" \"ควรทำอะไรต่อ\" · C (เหลือง)<br>รูปที่แปะ: ① สไลด์ Diagnosis — CT scan sensitivity 93-100%, time dependent · Mimic ICH + ภาพ CT ② สไลด์ Diagnosis — In suspected cases with negative CT scan, lumbar puncture must be performed · Xanthochromia (due to bilirubin) develops 2-12 hr after bleeding, takes 2 weeks to clear ③ สไลด์ Imaging (CT scan without contrast of choice · CTA · MRI/ MRA · Cerebral angiography) + ลายมือจำนวนมาก",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 118",
+  "kimg": [
+   "fsk_p118",
+   "kp67b_69"
   ]
  },
  "MDCU67|RoB|70": {
-  "interp": "หญิง 35 ปีหมดสติทันที ตื่นมาปวดศีรษะ อาเจียน film เป็น SAH ได้กลับบ้านแล้ว ตอนนี้ดีขึ้น → ถามคำแนะนำที่เหมาะ",
-  "why": "<b>คีย์: ขีด E + ลายมือ SAH · A ✗ · B ruptured aneurysm — เฉลยนี้ตอบ B</b><br><b>นอกสไลด์:</b> SAH ที่หมดสติทันทีในคนอายุน้อยส่วนใหญ่มาจาก aneurysm แตก ซึ่งยังไม่ได้รักษา — อาการที่ดีขึ้นไม่ได้แปลว่าปลอดภัย เพราะเสี่ยงแตกซ้ำ (ตายราวครึ่ง) และยังอยู่ในช่วง vasospasm → ต้องส่งตรวจหลอดเลือดและรักษา aneurysm โดยเร็ว",
+  "interp": "หญิง 35 ปี <b>หมดสติฉับพลัน</b> ตื่นมาปวดศีรษะ อาเจียน (5 วันก่อน) อยู่ รพ. 4 วันแล้วกลับบ้าน ตอนนี้ดีขึ้น นำฟิล์มวันเกิดเหตุ (<b>SAH</b>) มาปรึกษา → ถามคำแนะนำที่เหมาะสม",
+  "why": "SAH ที่ไม่ใช่อุบัติเหตุในหญิงอายุ 35 ปี ส่วนใหญ่มาจาก <b>ruptured intracranial aneurysm</b> · ความเสี่ยง<b>เลือดออกซ้ำ (rebleeding)</b> สูงมากในสัปดาห์แรก ๆ และอัตราตายสูง → ต้อง<b>ส่งต่อทำการตรวจหลอดเลือด (CTA/ DSA) และรักษา aneurysm (clipping/ coiling) โดยเร็ว</b> ไม่ใช่ติดตามอาการเฉย ๆ · ไฟล์ลายมือ <b>\"SAH\"</b> ที่ \"ตื่นขึ้นมาปวดหัว\" · <b>\"เป็นอะไร?\"</b> ที่ film · A <b>\"✗ ขยาย @ 6 hr\"</b> · B <b>\"→ ถ้าเจอ ruptured aneurysm\"</b> · คีย์ขีด E และแปะสไลด์ SAH Management และ Treatment (Surgical: Clipping · Endovascular: Coiling · Medical: Rebleeding prevention, BP control, Vasospasm)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเลือดออกในเนื้อสมอง (ICH) ช่วง 24 ชม.แรกที่อาการแย่ลง — CT ซ้ำดูก้อนขยาย (ลายมือ: ไม่ใช่ใน SAH)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ SAH จาก aneurysm ที่ยังไม่ได้รักษาให้พักที่บ้านอย่างเดียว เพราะต้องเฝ้าระวังการแตกซ้ำและ vasospasm ในโรงพยาบาล และต้องปิด aneurysm",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ป่วยหลังรักษา aneurysm แล้วที่มีชักระหว่างนอนโรงพยาบาล — ให้ยากันชักช่วงสั้นและนัดติดตามภาพ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ป่วยที่ปิด aneurysm (coil/clip) เรียบร้อยแล้ว ไม่มีชัก และกลับบ้าน — คุมความดัน งดบุหรี่ และนัดตรวจภาพหลอดเลือดติดตาม"
+   "A": "ก้อนเลือดใน ICH มักขยายภายใน ~6 ชม.แรก (ลายมือ \"✗ ขยาย @ 6 hr\") ผ่านมา 5 วันแล้วการทำฟิล์มซ้ำไม่ใช่ประเด็นหลัก · จะถูกถ้าคำถามถาม ICH ที่ซึมลงใน 6 ชม.แรก",
+   "C": "นอนพักที่บ้านอย่างเดียวเสี่ยง rebleeding ที่อันตรายถึงชีวิต · จะถูกถ้าคำถามถาม perimesencephalic SAH ที่ angiography ปกติแล้ว",
+   "D": "ยากันชักไม่ใช่ประเด็นหลัก (ไม่แนะนำ prophylaxis ระยะยาวทุกราย) · จะถูกถ้าผู้ป่วยชักจริงหลัง SAH",
+   "E": "กินอาหารไขมันต่ำ คุมความดัน และติดตาม (คีย์ในไฟล์) เป็นเพียงการดูแลทั่วไป ไม่ป้องกันการแตกซ้ำของ aneurysm · จะถูกถ้า angiography ไม่พบ aneurysm/ aneurysm รักษาเรียบร้อยแล้ว"
   },
-  "trap": "ผู้ป่วยเดินมาได้ อาการดีขึ้น จึงให้คำแนะนำทั่วไปเรื่องปัจจัยเสี่ยง — SAH ที่ยังไม่รู้สาเหตุและยังไม่ได้ปิด aneurysm คือภาวะที่ต้องรักษาเร่งด่วน",
+  "trap": "ผู้ป่วยดีขึ้นแล้วจึงให้ติดตามเฉย ๆ — SAH จาก aneurysm ที่ยังไม่ได้รักษาเสี่ยงแตกซ้ำสูง",
   "summary": [
-   "<b>นอกสไลด์:</b> SAH จาก aneurysm → ตรวจหลอดเลือด (CTA/DSA) แล้วปิด aneurysm ด้วย coil หรือ clip โดยเร็ว (ภายใน 24–72 ชม.) · เวลาที่ต้องรู้: แตกซ้ำเสี่ยงสูงสุดใน 24 ชม.แรกและยังมีต่อในสัปดาห์แรก ๆ ถ้าไม่ปิด aneurysm · vasospasm/delayed cerebral ischemia ราววันที่ 3–14 (สูงสุด 7–10) → ให้ nimodipine และเฝ้าระวังอาการทางระบบประสาท · hydrocephalus เกิดได้ทั้งช่วงแรกและช่วงหลัง"
+   "Non-traumatic SAH: ~85% ruptured aneurysm",
+   "Rebleeding สูงสุดใน 24 ชม.แรก และยังสูงในสัปดาห์แรก ๆ",
+   "CTA/ DSA → coiling/ clipping ภายใน 24–72 ชม.",
+   "Nimodipine 21 วัน ป้องกัน delayed cerebral ischemia",
+   "Vasospasm สูงสุดวันที่ 4–14",
+   "Hydrocephalus → EVD"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ E (คุมปัจจัยเสี่ยงและติดตาม) — ตอบ B ส่งตรวจหลอดเลือดและรักษา aneurysm ตาม AHA/ASA 2023 ความมั่นใจสูง",
+  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ MCQ Key 2 (E) — เว็บตอบ B ความมั่นใจสูง เพราะ SAH ที่ไม่ใช่อุบัติเหตุต้องหาและรักษา aneurysm เพื่อป้องกันการแตกซ้ำ · ลายมือในไฟล์เองก็เขียนที่ช้อยผ่าตัดว่า \"ถ้าเจอ ruptured aneurysm\"",
+  "mnemonic": "<b>'SAH รอดมาแล้ว ≠ ปลอดภัย → หา aneurysm ปิดให้ได้'</b>",
+  "guide": "AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)",
   "variants": [
-   "<b>นอกสไลด์:</b> SAH วันที่ 7 ซึมลงและอ่อนแรงแขนขาใหม่ → vasospasm (delayed cerebral ischemia): CT ตัดเลือดออกใหม่/hydrocephalus แล้ว CTA/TCD",
-   "<b>นอกสไลด์:</b> SAH วันที่ 5 Na 128 ปัสสาวะมาก ขาดน้ำ → cerebral salt wasting: ให้ NaCl และสารน้ำ ห้ามจำกัดน้ำ (จำกัดน้ำเพิ่มเสี่ยงสมองขาดเลือด)"
+   "SAH วันที่ 2 GCS 15 → CTA พบ ACom aneurysm → coiling",
+   "SAH angiography 2 ครั้งปกติ เลือดรอบ midbrain → perimesencephalic → ติดตาม",
+   "หลัง SAH วันที่ 7 ซึมลง อ่อนแรง → vasospasm"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 118 — ตัวพิมพ์: <b>70. ผู้ป่วยหญิงอายุ 35 ปี ไม่มีโรคประจำตัว \"5 วันก่อน\" ไปเที่ยวกับเพื่อน หมดสติขึ้นมาทันที จำเรื่องราวไม่ได้ เพื่อนนำส่งโรงพยาบาล ตื่นขึ้นมาปวดหัว อาเจียน แพทย์ส่ง x-ray สมอง จากนั้นอยู่โรงพยาบาลต่ออีก 4 วัน และกลับบ้านได้ ตอนนี้ปวดหัวน้อยลง ช่วยเหลือตัวเองได้บ้างที่บ้าน ผู้ป่วยนำ film วันเกิดเหตุมาปรึกษาท่าน (โจทย์ให้รูป film สมองมา) — A. บอกให้ไป film ซ้ำเนื่องจากก้อนเลือดอาจขยายขนาด B. บอกให้ไปผ่าออก C. D. กินยากันชัก\"ต่อเนื่อง\" + follow up MRI E. ให้กินอาหารมันน้อยๆ รักษาความดัน และตรวจติดตามอย่างต่อเนื่อง</b><br>ลายมือ: \"SAH\" ที่ \"ตื่นขึ้นมาปวดหัว\" · \"เป็นอะไร?\" ที่ film · A \"✗ ขยาย @ 6 hr\" · B \"→ ถ้าเจอ ruptured aneurysm\" · ขีด E<br>ไฮไลต์: \"หญิงอายุ 35 ปี\" \"5 วันก่อน\" \"หมดสติขึ้นมาทันที จำเรื่องราวไม่ได้\" \"ตื่นขึ้นมาปวดหัว อาเจียน\" \"ส่ง x-ray สมอง จากนั้นอยู่โรงพยาบาลต่ออีก 4 วัน และกลับบ้านได้\" \"ปวดหัวน้อยลง ช่วยเหลือตัวเองได้บ้าง\" \"นำ film วันเกิดเหตุมา\" · E (เหลือง)<br>รูปที่แปะ: ① สไลด์ SAH Management (แผนผัง + ภาพ CT/ angiogram) ② สไลด์ Treatment — Surgical treatment: Clipping (ลายมือ \"fit พอผ่าได้\") · Trapping ± vascular bypass · Endovascular treatment: Coiling · Medical treatment: Rebleeding prevention · Blood pressure control · Vasospasm<br>ที่ปรับในเว็บ: ช้อย B เขียนเป็น \"Refer for angiography and aneurysm treatment\" · เติมช้อย C · เฉลย B ต่างจากคีย์ในไฟล์ (E)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 118",
+  "kimg": [
+   "fsk_p118",
+   "kp67b_70"
   ]
  },
  "MDCU67|RoB|71": {
-  "interp": "ภาพผู้ป่วย acromegaly → ถามสาเหตุ",
-  "why": "<b>คีย์: ขีด D</b><br><b>นอกสไลด์:</b> acromegaly เกือบทั้งหมด (ราว 95%) เกิดจาก pituitary adenoma ที่สร้าง GH ทำให้ IGF-1 จากตับสูงและกระตุ้นการเติบโตของกระดูกและเนื้อเยื่อปลายร่างกาย",
+  "interp": "ภาพผู้ป่วย <b>acromegaly</b> → ถามสาเหตุของลักษณะดังภาพ",
+  "why": "Acromegaly เกิดจาก <b>growth hormone (GH)-producing pituitary adenoma</b> ในผู้ใหญ่ (หลังกระดูกปิด) → GH/ IGF-1 สูง → มือเท้าใหญ่ หน้าผากโหนก คางยื่น ฟันห่าง เนื้อเยื่ออ่อนหนา · ตรวจ IGF-1 + GH หลัง OGTT · รักษา transsphenoidal surgery · ไฟล์ขีด D",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กตัวเตี้ย (GH ต่ำ) ปัสสาวะมาก ตามัวด้านนอกสองข้าง CT เห็นก้อนเหนือ sella ที่มีหินปูนและถุงน้ำ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ glioblastoma ทำให้เกิดลักษณะ acromegaly เพราะเป็นเนื้องอกของเซลล์ glia ในเนื้อสมองที่ไม่สร้างฮอร์โมน",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าลักษณะเป็นน้ำนมไหล ขาดประจำเดือน หรือชายความต้องการทางเพศลด ร่วม prolactin สูงมาก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าลักษณะเป็นหน้ากลม โหนกหลังคอ อ้วนลำตัว แขนขาลีบ ท้องลายสีม่วง (Cushing disease)"
+   "A": "Craniopharyngioma → เด็กตัวเตี้ย (GH ต่ำ) ตามัว bitemporal · เบาจืด · จะถูกถ้าภาพแสดงเด็กตัวเตี้ย ก้อนเหนือ sella มีหินปูน",
+   "B": "GBM ไม่สร้างฮอร์โมน · จะถูกถ้าคำถามถามก้อน ring-enhancing ในซีกสมอง",
+   "C": "Prolactinoma → น้ำนมไหล ประจำเดือนขาด/ หย่อนสมรรถภาพทางเพศ · จะถูกถ้าคำถามถาม galactorrhea-amenorrhea",
+   "E": "ACTH adenoma → Cushing disease (หน้ากลม buffalo hump ลายม่วง) · จะถูกถ้าภาพแสดง moon face และอ้วนลำตัว"
   },
-  "trap": "เห็นก้อนต่อมใต้สมองแล้วตอบ prolactinoma เพราะเป็นชนิดที่พบบ่อยที่สุด — ลักษณะของผู้ป่วยบอกฮอร์โมนที่เกิน: ใบหน้าหยาบ มือเท้าใหญ่ = GH",
+  "trap": "สับสน acromegaly กับ Cushing — ดูมือ/ คาง (โต) กับหน้า (กลม)",
   "summary": [
-   "<b>นอกสไลด์:</b> รักษา acromegaly: ผ่าตัดเอาก้อนผ่านโพรงจมูก (transsphenoidal) เป็นการรักษาแรก · เป้าหมาย IGF-1 ปกติตามอายุและ GH ถูกกดหลังกินน้ำตาล · ตรวจและรักษาภาวะร่วม: ความดันสูง เบาหวาน หัวใจโต หยุดหายใจขณะหลับ ข้อเสื่อม"
+   "GH adenoma: ผู้ใหญ่ = acromegaly · เด็ก = gigantism",
+   "ตรวจ: IGF-1 · GH ไม่ถูกกดหลัง OGTT · MRI",
+   "แฝง: HT · DM · cardiomyopathy · OSA",
+   "รักษา: transsphenoidal resection → somatostatin analog",
+   "Prolactinoma: cabergoline เป็นหลัก",
+   "ACTH adenoma: Cushing disease"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Acromegaly = GH (Grow Hands)'</b>",
+  "guide": "Endocrine Society Clinical Practice Guideline: Acromegaly (J Clin Endocrinol Metab 2014;99:3933)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัดก้อน GH แล้ว IGF-1 ยังสูง → ยาในกลุ่ม somatostatin analog (octreotide/lanreotide) หรือ pegvisomant และพิจารณารังสีรักษา",
-   "<b>นอกสไลด์:</b> ผู้ป่วย acromegaly → ส่องกล้องลำไส้ใหญ่คัดกรอง เพราะเสี่ยง polyp และมะเร็งลำไส้ใหญ่มากขึ้น"
+   "ใส่แหวนไม่ได้ รองเท้าคับ IGF-1 สูง → GH adenoma",
+   "หญิงประจำเดือนขาด น้ำนมไหล prolactin 200 → prolactinoma → cabergoline",
+   "หน้ากลม ลายม่วง ACTH สูง กดด้วย dexamethasone ขนาดสูงได้ → Cushing disease"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 118 — ตัวพิมพ์: <b>71. ให้รูปคนเป็น acromegaly มา ถามว่าลักษณะดังรูปเกิดจากอะไร — A. Craniopharyngioma B. Glioblastoma multiforme C. Prolactin-producing pituitary adenoma D. Growth hormone producing pituitary adenoma E. ACTH producing pituitary adenoma</b><br>ลายมือ: ขีด D<br>ไฮไลต์: \"รูปคนเป็น acromegaly\" · D (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 118",
+  "kimg": [
+   "fsk_p118",
+   "kp67b_71"
   ]
  }
 }
