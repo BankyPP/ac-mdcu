@@ -1,29 +1,31 @@
 {
  "MDCU66|RoA|X12": {
-  "interp": "ถามข้อที่<b>ผิด</b>เกี่ยวกับ <b>testicular torsion</b>",
-  "why": "ใน torsion การยกอัณฑะขึ้น<b>ไม่ทำให้เจ็บลดลง</b> (Prehn sign ลบ) บางรายเจ็บมากขึ้นเพราะบิดพันมากขึ้น · ต่างจาก epididymitis ที่ยกแล้วเจ็บลดลง (Prehn sign บวก) → ข้อ A ผิด · ไฟล์ขีด A กากบาทคำ \"ลดลง\" เขียน <b>\"∵ เจ็บ↑\"</b>",
+  "interp": "คำถามแบบ \"ข้อใดผิด\" เรื่อง testicular torsion — ต้องรู้ลักษณะทางคลินิกที่ใช้แยก torsion ออกจาก epididymitis/ orchitis ได้แก่ Prehn sign, ตำแหน่งและแนวของอัณฑะ, ประวัติปวดมาก่อน และผลปัสสาวะ",
+  "why": "Torsion เกิดจาก<b>ความผิดปกติแบบ bell-clapper</b> (tunica vaginalis หุ้มสูงจนอัณฑะลอยหมุนได้) พบมากช่วง<b>อายุ 12–18 ปี</b> · ขั้วหลอดเลือดบิด → venous congestion → arterial occlusion → อัณฑะขาดเลือด จึงปวดเฉียบพลันรุนแรง คลื่นไส้อาเจียน อัณฑะ<b>ลอยสูง (high-riding) แนวขวาง (horizontal lie)</b> และ<b>cremasteric reflex หายไป</b> · <b>Prehn sign</b>: ยกถุงอัณฑะขึ้นแล้ว<b>ปวดไม่ลด</b> (หรือปวดมากขึ้น) ใน torsion ต่างจาก epididymitis ที่ยกแล้วปวดลดลง (Prehn positive) — แต่ความแม่นยำต่ำ ใช้ตัดสินเดี่ยว ๆ ไม่ได้ · ราวหนึ่งในสามเคยมี<b>ปวดเป็นพัก ๆ มาก่อน</b> (intermittent torsion–detorsion) · UA ปกติ ไม่มี pyuria เพราะไม่ใช่การติดเชื้อ · Salvage rate ราว 90% ถ้าผ่าตัด detorsion ภายใน 6 ชม. ลดเหลือ &lt; 10% ถ้าเกิน 24 ชม. จึงสงสัยแล้วต้องผ่าตัดเลย ไม่รอ ultrasound ถ้ารอจะเสียเวลา · ช้อย A จึงเป็นข้อความที่ผิด ตรงคีย์ A — ไฟล์ขีด A กากบาทคำ \"ลดลง\" และเขียน \"<b>∵ เจ็บ↑</b>\" พร้อมแปะข้อความว่าการยกลูกอัณฑะใน torsion ไม่ทำให้ปวดลดลง",
   "wrong": {
-   "B": "ถูก: อาจเคยมีอาการปวดเป็นพัก ๆ มาก่อน (intermittent torsion/ detorsion) · จะถูกถ้าคำถามถามข้อที่ถูกเกี่ยวกับประวัติของ torsion",
-   "C": "ถูก: ปัสสาวะมักไม่มีเม็ดเลือดขาว ใช้แยกจาก epididymo-orchitis (ลายมือ \"DDx orchitis (UA มี WBC)\") · จะถูกถ้าคำถามถามข้อที่ถูกเกี่ยวกับ UA ใน torsion",
-   "D": "ถูก: อัณฑะบวม ยกตัวสูง เจ็บมากจนคลำได้ไม่ชัด · จะถูกถ้าคำถามถามข้อที่ถูกเกี่ยวกับการตรวจร่างกายใน torsion",
-   "E": "ถูก: อัณฑะวางแนวนอน (bell-clapper deformity) · จะถูกถ้าคำถามถามข้อที่ถูกเกี่ยวกับลักษณะทางกายวิภาคที่เสี่ยง torsion"
+   "B": "ข้อความนี้ถูก — ผู้ป่วย torsion ราว 30–50% เคยปวดอัณฑะเป็นพัก ๆ แล้วหายเองมาก่อน (intermittent torsion แล้วคลายเอง) ซึ่งเป็นสัญญาณให้ทำ orchiopexy แบบ elective · จะถูกถ้าเป็นเด็กชาย 8 ปี ปวดอัณฑะครั้งแรกทันทีหลังถูกเตะ บวมช้ำ (testicular trauma) ซึ่งไม่มีประวัติปวดก่อนหน้าเลย และข้อความ \"เคยปวดมาก่อน\" กลายเป็นข้อที่ไม่เข้ากับภาวะนั้น",
+   "C": "ข้อความนี้ถูก — torsion เป็นภาวะขาดเลือด ไม่ใช่การติดเชื้อ UA จึงปกติ (ไฟล์เขียน \"∵ not infection\" และ \"DDx orchitis (UA มี WBC)\") · จะถูกถ้าเป็นชาย 25 ปี ปวดอัณฑะค่อย ๆ มากขึ้น 2 วัน มีไข้ ปัสสาวะแสบขัด ยกถุงอัณฑะแล้วปวดลดลง = acute epididymitis ซึ่ง UA มักพบ pyuria/ bacteriuria (ข้อความ \"UA ไม่มี WBC\" จะผิดสำหรับภาวะนั้น)",
+   "D": "ข้อความนี้ถูก — อัณฑะข้างที่บิดจะบวม ตึง ลอยสูงชิดรูขาหนีบและเจ็บมาก จึงคลำแยก testis/ epididymis ได้ยาก (ในไฟล์ภาษาไทยเขียน \"คลำไม่พบอัณฑะในข้างนั้น\") · จะถูกถ้าเป็นชาย 30 ปี มีก้อนแข็งไม่เจ็บที่อัณฑะค่อย ๆ โตหลายเดือน (testicular tumor) ซึ่งคลำก้อนได้ชัดเจน ไม่ได้คลำยากจากความเจ็บแบบ torsion",
+   "E": "ข้อความนี้ถูก — bell-clapper deformity ทำให้อัณฑะห้อยในแนวขวาง (horizontal lie) ทั้งก่อนบิดและเมื่อบิดแล้วก็มักลอยสูงแนวขวาง ข้างปกติก็อาจเห็นแนวนี้ได้ · จะถูกถ้าเป็นเด็กชาย 9 ปี ปวดที่ขั้วบนของอัณฑะ คลำได้จุดเจ็บเฉพาะที่ มี blue dot sign = torsion of appendix testis ซึ่งอัณฑะยังอยู่ในแนวตั้งปกติและ cremasteric reflex ยังอยู่"
   },
-  "trap": "สับสน Prehn sign ระหว่าง torsion (ยกแล้วไม่ดีขึ้น) กับ epididymitis (ยกแล้วดีขึ้น)",
+  "trap": "คนจำสลับ Prehn sign — ยกแล้ว<b>ปวดลด = epididymitis</b> (Prehn positive) ส่วน torsion ยกแล้วไม่ลดหรือปวดขึ้น · โจทย์ถาม \"ผิด\" จึงต้องอ่านทุกช้อยว่าเป็นลักษณะจริงของ torsion หรือไม่ แทนที่จะหาลักษณะที่คุ้นที่สุด",
   "summary": [
-   "Torsion: peak วัยรุ่น (10–15 ปี) และทารก",
-   "ปวดอัณฑะทันที คลื่นไส้อาเจียน",
-   "อัณฑะยกสูง แนวนอน · cremasteric reflex หาย",
-   "Prehn sign ลบ · UA ปกติ",
-   "สงสัยมาก → ผ่าตัดสำรวจทันที (ไม่ต้องรอ US) ภายใน 6 ชม.",
-   "Orchiopexy ทั้งสองข้าง"
+   "Testicular torsion พบมากอายุ 12–18 ปี (มีอีกช่วงในทารกแรกเกิด เป็น extravaginal torsion) สาเหตุหลักคือ bell-clapper deformity ซึ่งมักเป็นทั้งสองข้าง",
+   "อาการ: ปวดอัณฑะเฉียบพลันรุนแรง มักตื่นมาตอนกลางคืน คลื่นไส้อาเจียน (พบบ่อยกว่าใน epididymitis มาก) อาจปวดร้าวท้องน้อย",
+   "ตรวจร่างกาย: high-riding testis, horizontal lie, cremasteric reflex หายไป (sensitivity สูงสุด), Prehn sign negative (ยกแล้วไม่ลด)",
+   "TWIST score (testicular swelling 2, hard testis 2, absent cremasteric reflex 1, nausea/vomiting 1, high-riding 1): ≥ 5 = high risk ผ่าตัดเลย · ≤ 2 = low risk",
+   "Doppler ultrasound ใช้เมื่อไม่แน่ใจเท่านั้น: เลือดเลี้ยงลดหรือไม่มี, whirlpool sign ของ spermatic cord — ห้ามทำให้การผ่าตัดช้า",
+   "Salvage: ภายใน 6 ชม. ~90–100% · 12 ชม. ~50% · &gt; 24 ชม. &lt; 10% · Manual detorsion หมุนออกด้านนอก (\"open the book\") ทำได้ระหว่างรอ OR แต่ยังต้องผ่าตัด",
+   "ผ่าตัด: scrotal exploration → detorsion → ถ้ากลับมาสีดีทำ orchiopexy ทั้งสองข้าง · อัณฑะตาย → orchiectomy + fix ข้างตรงข้าม"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Torsion: ยกแล้ว Twist มากขึ้น · Epididymitis: ยกแล้ว Easier'</b>",
-  "guide": "EAU Guidelines on Paediatric Urology (2024) — Acute scrotum",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — Prehn sign ใน torsion ยกแล้วไม่ลด ตรงกับลายมือในไฟล์ \"∵ เจ็บ↑\" · ข้อสังเกต: Prehn sign มีความไวและความจำเพาะต่ำในงานวิจัย ใช้เป็นข้อมูลประกอบเท่านั้น สิ่งที่แยกได้ดีกว่าคือ cremasteric reflex หาย · ช้อย D แปลจากภาษาไทย \"คลำไม่พบอัณฑะ\" ซึ่งความจริงยังคลำได้แต่ตำแหน่งสูงและเจ็บมาก",
+  "mnemonic": "<b>'Torsion = Twist ไม่ Lift: ยกแล้วไม่หาย · Epididymitis ยกแล้วเย็น'</b>",
+  "guide": "AUA/ Campbell-Walsh-Wein Urology 12th ed. (2020) ch. Acute scrotum; Barbosa JA et al. J Urol 2013 (TWIST score); EAU Paediatric Urology Guidelines 2024",
   "variants": [
-   "วัยรุ่นปวดอัณฑะทันที 3 ชม. อัณฑะยกสูง cremasteric reflex หาย → ผ่าตัดสำรวจทันที",
-   "ชายมีไข้ ปัสสาวะแสบ อัณฑะบวม ยกแล้วดีขึ้น UA มี WBC → epididymitis",
-   "เด็กปวดอัณฑะ คลำได้จุดดำที่ขั้วบน (blue dot sign) → torsion of appendix testis"
+   "เด็กชาย 14 ปี ปวดอัณฑะซ้ายทันทีตอนตี 3 อาเจียน 2 ครั้ง อัณฑะลอยสูง cremasteric reflex หาย → ไป OR scrotal exploration ทันที ไม่ต้องรอ ultrasound",
+   "ชาย 22 ปี ปวดอัณฑะขวาค่อย ๆ เป็น 3 วัน ไข้ ปัสสาวะแสบขัด ยกถุงอัณฑะแล้วปวดลดลง UA มี WBC → acute epididymitis ให้ ceftriaxone + doxycycline",
+   "ทำไมต้อง fix อัณฑะข้างที่ไม่บิดด้วย → bell-clapper deformity มักเป็นสองข้าง โอกาสบิดอีกข้างสูง",
+   "เด็กชาย 10 ปี ปวดเฉพาะขั้วบนของอัณฑะ เห็นจุดสีน้ำเงินใต้ผิว cremasteric reflex ปกติ → torsion of appendix testis รักษาแบบประคับประคอง (ยาแก้ปวด พัก)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>ข้อใดผิดเกี่ยวกับ torsion testis — A. ยกถุงอัณฑะขึ้นแล้วจะเจ็บลดลง B. อาจเกิดอาการเจ็บมาก่อนหน้านี้ C. ไม่พบเม็ดเลือดขาวในปัสสาวะ D. คลำไม่พบอัณฑะในข้างนั้น E. พบอัณฑะมี axis ในแนวนอน</b> (ไม่มีเลขข้อ)<br>ลายมือ: ขีด A กากบาทคำ \"ลดลง\" เขียน \"∵ เจ็บ↑\" · ✓ ที่ B C E · ช้อย C เขียน \"DDx orchitis (UA มี WBC)\" และ \"∵ not infection\"<br>ไฮไลต์: \"ผิด\" · \"torsion testis\" · A (เหลือง)<br>ข้อความที่แปะ: \"ผู้ป่วยเป็นเด็กผู้ชาย และมาด้วยเรื่องปวดบริเวณลูกอัณฑะข้างใดข้างหนึ่ง เด็กส่วนมากมีอายุ 10-15 ปี อัณฑะข้างที่ปวดบวม จะอยู่ระดับสูงกว่าข้างปกติ เวลาแตะโดนจะเจ็บ อาจสังเกตเห็นแกนของลูกอัณฑะเปลี่ยนไปอยู่ตามแนวขวาง ในรายที่เป็น testicular torsion การยกลูกอัณฑะให้สูงขึ้น มักเพิ่มความเจ็บปวด เพราะจะบิดพันมากขึ้น ถ้าเป็นมานาน อาจวินิจฉัยแยกจาก orchitis ได้ยาก ตรวจปัสสาวะมักไม่พบการติดเชื้อ ใช้แยกออกจากกลุ่มที่เป็น orchitis ที่มักมีการติดเชื้อของระบบทางเดินปัสสาวะ\" (ขีดเส้นใต้สีน้ำเงิน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU66|RoA|62": {
-  "interp": "ชายสูงอายุมี<b>แผลใต้ตาเรื้อรัง 1 ปี โตขึ้นเรื่อย ๆ</b> การมองเห็นปกติ ถามสิ่งที่ควรทำ",
-  "why": "แผลเรื้อรังไม่หาย โตขึ้นในผู้สูงอายุบริเวณใบหน้าที่โดนแดด ต้องสงสัย<b>มะเร็งผิวหนัง</b> (BCC พบบ่อยสุดที่ใบหน้า/ เปลือกตาล่าง, SCC) → ต้อง<b>ตัดชิ้นเนื้อ (incisional/ punch biopsy)</b> ยืนยันก่อนวางแผนผ่าตัด · ไฟล์ขีด D ลายมือ <b>\"R/O skin CA\"</b>",
+  "interp": "ชายสูงอายุมีแผลใต้ตาที่ไม่หายและค่อย ๆ โตขึ้นนาน 1 ปี การมองเห็นปกติ — แผลเรื้อรังบนผิวที่ถูกแดดในผู้สูงอายุต้องคิดถึงมะเร็งผิวหนัง (BCC มากที่สุด) ถามขั้นตอนแรกที่ให้การวินิจฉัย ซึ่งคือการตัดชิ้นเนื้อ",
+  "why": "<b>แผลไม่หายนาน &gt; 4–6 สัปดาห์</b> โดยเฉพาะบนใบหน้าที่ถูกแดดในผู้สูงอายุ ต้องสงสัย<b>มะเร็งผิวหนัง</b>จนกว่าจะพิสูจน์ว่าไม่ใช่ · บริเวณรอบตา (lower eyelid, medial canthus) เป็นตำแหน่งที่พบ <b>basal cell carcinoma</b> บ่อยที่สุดของมะเร็งเปลือกตา (~90%) รองลงมาคือ SCC, sebaceous carcinoma, melanoma · BCC ลักษณะ pearly nodule ขอบนูนมี telangiectasia ตรงกลางเป็นแผล (rodent ulcer) โตช้าและแทบไม่แพร่กระจาย แต่ทำลายเนื้อเยื่อรอบข้างเฉพาะที่ · การวินิจฉัยต้องใช้<b>ชิ้นเนื้อ</b>: แผลใหญ่หรืออยู่ตำแหน่งที่ต้องรักษาเนื้อเยื่อ (รอบตา จมูก) ใช้ <b>incisional/ punch/ shave biopsy</b> เอาเฉพาะส่วนเพื่อรู้ชนิดและ subtype ก่อนวางแผนตัดด้วย margin ที่เหมาะ (เช่น Mohs surgery) · ภาพถ่าย CT/MRI ใช้หลังมีผลชิ้นเนื้อและสงสัยลุกลามลึกเข้า orbit เท่านั้น · ตรงคีย์ D — ไฟล์ขีด D และเขียนลายมือใต้คำถามว่า \"<b>R/O skin CA</b>\"",
   "wrong": {
-   "A": "การตรวจตาครบไม่ช่วยวินิจฉัยแผล และการมองเห็นปกติอยู่แล้ว · จะถูกถ้าคำถามถามก้อนที่กดลูกตา/ ตามัว",
-   "B": "CT orbit ใช้ดูการลุกลามลึกเข้าเบ้าตา/ กระดูก หลังวินิจฉัยแล้ว · จะถูกถ้าคำถามถาม staging มะเร็งที่สงสัยลุกลามเข้าเบ้าตา",
-   "C": "MRI orbit ใช้ดู perineural/ soft tissue invasion หลังวินิจฉัย · จะถูกถ้าคำถามถามมะเร็งที่มีอาการชาหรือกล้ามเนื้อตาอ่อนแรง",
-   "E": "ยาฆ่าเชื้อทาไม่รักษามะเร็ง และทำให้วินิจฉัยล่าช้า · จะถูกถ้าคำถามถามแผลติดเชื้อเฉียบพลันไม่กี่วัน"
+   "A": "ตรวจตาครบเป็นสิ่งที่ดีในมะเร็งรอบตาเพื่อดูการเคลื่อนไหวลูกตาและการลุกลาม แต่ไม่ให้การวินิจฉัยชนิดของแผล และโจทย์บอกว่าการมองเห็นปกติแล้ว · จะถูกถ้าเป็นชาย 65 ปี มีตามัว เห็นภาพซ้อน ตาโปน ร่วมกับแผลรอบตา ซึ่งต้องประเมินการทำงานของตาและ orbit อย่างละเอียดก่อนวางแผนรักษา",
+   "B": "CT orbit ใช้ดูการลุกลามเข้ากระดูกและ orbit ของมะเร็งที่วินิจฉัยแล้ว — ยังไม่ควรทำเป็นขั้นแรกเมื่อยังไม่รู้ว่าแผลคืออะไร · จะถูกถ้าเป็นชาย 70 ปีที่ชิ้นเนื้อยืนยัน BCC ชนิด infiltrative ที่ medial canthus และตรวจพบลูกตาขยับได้จำกัด สงสัยลุกลามเข้ากระดูก orbit",
+   "C": "MRI orbit ดูเนื้อเยื่ออ่อนและ perineural spread ได้ดีกว่า CT แต่เช่นเดียวกันเป็นการตรวจ staging หลังได้ผลชิ้นเนื้อ · จะถูกถ้าเป็นชาย 70 ปีที่ชิ้นเนื้อเป็น SCC ใต้ตา และมีชาที่แก้มหรือปวดตามแนวเส้นประสาท (สงสัย perineural invasion ของ infraorbital nerve)",
+   "E": "ยาทาปฏิชีวนะใช้กับแผลติดเชื้อผิวตื้น ไม่แก้แผลที่ไม่หายนาน 1 ปีและโตขึ้น — การรักษาแบบลองยาไปเรื่อย ๆ ทำให้วินิจฉัยมะเร็งช้า · จะถูกถ้าเป็นเด็ก 6 ขวบมีแผลตื้นสะเก็ดสีน้ำผึ้งรอบจมูกปากไม่กี่วัน (impetigo) ใช้ mupirocin ทาได้"
   },
-  "trap": "ส่งภาพรังสีก่อนมีผลชิ้นเนื้อ · แผลเรื้อรังต้องได้ชิ้นเนื้อก่อนเสมอ",
+  "trap": "ช้อยตรวจตา/ CT/ MRI ฟังดูละเอียดเพราะแผลอยู่ใกล้ตา แต่โจทย์บอกแล้วว่าการมองเห็นปกติ และสิ่งที่ยังไม่รู้คือ \"แผลนี้คืออะไร\" — <b>แผลเรื้อรังที่โตขึ้น = biopsy ก่อนทุกอย่าง</b> ส่วนภาพถ่ายรังสีใช้ประเมินการลุกลามเมื่อรู้ชนิดแล้ว",
   "summary": [
-   "แผลเรื้อรังไม่หาย &gt; 4–6 สัปดาห์ → biopsy",
-   "BCC: พบบ่อยสุด · ใบหน้า · ขอบมุก (pearly) · rodent ulcer",
-   "SCC: แผลขอบแข็ง · actinic keratosis · Marjolin ulcer",
-   "ก้อนเล็ก → excisional biopsy · ก้อนใหญ่ → incisional/ punch",
-   "BCC บริเวณเปลือกตา/ จมูก → Mohs surgery",
-   "BCC แทบไม่แพร่กระจาย แต่ทำลายเฉพาะที่"
+   "แผลหรือตุ่มบนผิวที่ไม่หายภายใน 4–6 สัปดาห์ เลือดออกง่าย หรือโตขึ้น ต้องตัดชิ้นเนื้อเพื่อ R/O skin cancer",
+   "BCC: มะเร็งผิวหนังพบมากที่สุด ใบหน้าส่วนกลาง (จมูก เปลือกตาล่าง) pearly papule + telangiectasia + rolled border + ulcer แพร่กระจาย &lt; 0.1%",
+   "SCC: จากผิวที่ถูกแดด/ แผลเป็นเก่า (Marjolin ulcer) ขอบนูนแข็ง มี keratin แพร่กระจายไปต่อมน้ำเหลืองได้ 2–5% (ริมฝีปาก หู สูงกว่า)",
+   "ชนิด biopsy: excisional (ก้อนเล็ก ตัดหมดพร้อม margin) · incisional/ punch (ก้อนใหญ่ ตำแหน่งสำคัญ) · shave (รอยโรคผิวตื้น) · melanoma สงสัยให้ excisional 1–3 mm margin",
+   "Margin: BCC low risk 4 mm · SCC low risk 4–6 mm · high risk หรือบริเวณ H-zone ของใบหน้า (รอบตา จมูก หู) → Mohs micrographic surgery เก็บเนื้อเยื่อปกติได้มากที่สุด",
+   "CT/ MRI: เมื่อสงสัยลุกลามลึก (กระดูก orbit), perineural invasion หรือ recurrent tumor · ตรวจต่อมน้ำเหลือง parotid และคอใน SCC",
+   "ทางเลือกในผู้ที่ผ่าตัดไม่ได้: radiotherapy, imiquimod/ 5-FU (superficial BCC), hedgehog inhibitor (vismodegib) ใน BCC ลุกลาม"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'แผลเรื้อรัง = Biopsy ก่อนทุกอย่าง'</b>",
-  "guide": "NCCN Clinical Practice Guidelines in Oncology: Basal Cell Skin Cancer (current version)",
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — ไฟล์เขียน \"R/O skin CA\" ตรงหลักว่าแผลเรื้อรังต้องได้ชิ้นเนื้อก่อน · การเลือก incisional แทน excisional สมเหตุสมผลสำหรับแผลรอบตาที่ต้องเก็บเนื้อเยื่อไว้ปิดแผลภายหลัง · ช้อย E เว็บเพิ่มเองเพราะไฟล์มีแค่ A–D",
+  "mnemonic": "<b>'แผลไม่หาย 4–6 wk = Biopsy before Scan'</b>",
+  "guide": "NCCN Guidelines: Basal Cell Skin Cancer v2.2024; Grabb and Smith's Plastic Surgery 9th ed. (2024) ch. Cutaneous malignancy",
   "variants": [
-   "ผู้สูงอายุ ก้อนขอบมุกมีเส้นเลือดฝอยที่ข้างจมูก → BCC → biopsy",
-   "แผลเรื้อรังบนแผลเป็นไฟไหม้เก่า → Marjolin ulcer (SCC) → biopsy",
-   "BCC ที่เปลือกตาล่างยืนยันแล้ว → Mohs micrographic surgery"
+   "ชาย 75 ปี ตุ่มมันวาวขอบนูนมีเส้นเลือดฝอยที่ข้างจมูก 8 เดือน → punch/ incisional biopsy สงสัย BCC",
+   "ชิ้นเนื้อยืนยัน BCC ชนิด morpheaform 1.5 cm ที่ medial canthus → Mohs micrographic surgery",
+   "ชาย 60 ปี มีแผลเรื้อรังบนแผลเป็นไฟไหม้เก่าที่ขา 20 ปี ขอบนูนแข็ง → biopsy สงสัย Marjolin ulcer (SCC)",
+   "ทำไมไม่ CT ก่อนชิ้นเนื้อ → CT ไม่บอกชนิดเซลล์ และใช้วางแผนเฉพาะเมื่อสงสัยลุกลามลึกเท่านั้น"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>PLASTIC 61 · 62. (ชาย 70 ปี?) มีแผลใต้ตา 1 ปี ใหญ่ขึ้นเรื่อยๆ การมองเห็นปกติ ทำอะไร — A. complete eye exam B. CT orbit C. MRI orbit D. incisional biopsy</b><br>ลายมือ: เขียน \"R/O skin CA\" ใต้คำถาม · ขีด D<br>ไฮไลต์: \"(ชาย 70 ปี?)\" · \"แผลใต้ตา 1 ปี ใหญ่ขึ้นเรื่อยๆ\" · \"การมองเห็นปกติ ทำอะไร\" · D (เหลือง)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–D เว็บเพิ่ม E Topical antibiotics",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU66|RoA|65": {
-  "interp": "ถามภาพรังสีธรรมดาที่ใช้ดู <b>zygomatic fracture</b>",
-  "why": "<b>Waters view (occipitomental)</b> แสดง midface ได้ดี — orbital rim, zygoma, maxillary sinus, nasal bone · ใช้ดู zygomatic และ maxillary fracture (ปัจจุบัน CT face เป็นมาตรฐาน) · ไฟล์ขีด B ลายมือ <b>\"→ nasal, zygoma, maxilla\"</b>",
+  "interp": "ถามท่าถ่ายภาพรังสีธรรมดาที่ใช้ดู zygomatic (zygomaticomaxillary complex) fracture — ต้องรู้ว่าแต่ละท่า (Waters, Towne, panoramic, lateral) เห็นกระดูกใบหน้าส่วนไหนชัดที่สุด",
+  "why": "<b>Waters view (occipitomental view)</b> ถ่ายโดยเงยคางทำมุมราว 37° กับแผ่นฟิล์ม ทำให้ petrous ridge ไปอยู่ใต้ maxillary sinus จึงเห็น<b>กลางใบหน้าส่วนบน (midface)</b>ชัด: zygoma, zygomatic arch, infraorbital rim, orbital floor, maxillary sinus (เห็นเลือดในไซนัสหรือ teardrop sign ของ orbital floor blowout) และกระดูกจมูก · ZMC fracture หักที่ 4 จุด: zygomaticofrontal suture, infraorbital rim/ orbital floor, zygomaticomaxillary buttress และ zygomatic arch · อีกท่าที่ใช้ดู zygomatic arch คือ <b>submentovertical (jug-handle) view</b> · ปัจจุบันมาตรฐานคือ <b>CT maxillofacial (axial + coronal, 3D)</b> ซึ่งเห็นทุกจุดหักและ orbital floor ได้ดีที่สุด แต่ในช้อยที่เป็นภาพรังสีธรรมดา Waters view คือคำตอบ · ตรงคีย์ B — ไฟล์ขีด B และเขียนลายมือ \"<b>→ nasal, zygoma, maxilla</b>\" ส่วนท่าอื่นเขียนว่า Towne → mandibular condyle, panoramic → mandible",
   "wrong": {
-   "A": "AP view ซ้อนกับฐานกะโหลก เห็น midface ไม่ชัด · จะถูกถ้าคำถามถามภาพรังสีดู mandible body/ กะโหลกทั่วไป",
-   "C": "Lateral view ใช้ดู nasal bone (ลายมือ \"→ nasal\") · จะถูกถ้าคำถามถาม nasal bone fracture",
-   "D": "Towne view ใช้ดู <b>mandibular condyle</b> และ occiput (ลายมือ \"→ mandibular condyle\") · จะถูกถ้าคำถามถาม condylar fracture",
-   "E": "Panoramic view (Panorex) ใช้ดู <b>mandible</b> ทั้งชิ้น (ลายมือ \"→ mandible\") · จะถูกถ้าคำถามถาม mandibular fracture"
+   "A": "AP (PA) view เห็นกระดูกหน้าผาก, frontal sinus และ mandible แนวหน้า แต่ midface ถูก petrous ridge และฐานกะโหลกบัง จึงดู zygoma ได้ไม่ดี · จะถูกถ้าเป็นชาย 25 ปีถูกต่อยที่คาง สงสัยกระดูก mandible ส่วน body/ angle หัก (PA mandible ใช้คู่กับ panoramic) ",
+   "C": "Lateral view ใช้ดูกระดูกจมูก (nasal bone) และผนังหน้าของ frontal sinus/ ส่วน sella ได้ แต่ zygoma สองข้างซ้อนกันจึงประเมินไม่ได้ (ไฟล์เขียน \"→ nasal\") · จะถูกถ้าเป็นชายวัยรุ่นถูกต่อยที่สันจมูก จมูกคด มีเลือดกำเดา สงสัย nasal bone fracture (ซึ่งส่วนใหญ่วินิจฉัยทางคลินิก)",
+   "D": "Towne view ถ่ายมุมลงจากด้านหน้าเห็น occipital bone และ<b>mandibular condyle/ subcondylar</b>ได้ดี (ไฟล์เขียน \"→ mandibular condyle\") · จะถูกถ้าเป็นชาย 30 ปีล้มคางกระแทกพื้น อ้าปากได้น้อย คางเบี้ยวไปข้างหนึ่ง เจ็บหน้าหู สงสัย condylar fracture",
+   "E": "Panoramic (orthopantomogram) เห็น mandible ทั้งชิ้นตั้งแต่ condyle ถึง symphysis และฟัน เป็นท่าแรกของ mandible fracture (ไฟล์เขียน \"→ mandible\") · จะถูกถ้าเป็นชาย 20 ปีถูกต่อยที่ขากรรไกรล่าง สบฟันผิด มีเลือดออกระหว่างฟัน และชาที่ริมฝีปากล่าง (inferior alveolar nerve)"
   },
-  "trap": "สับสนภาพรังสีแต่ละท่า: Waters = midface · Towne = condyle · Panorex = mandible",
+  "trap": "ทั้ง Towne และ Waters เป็นท่าพิเศษที่ชื่อคล้ายกัน คนจำสลับ — <b>Waters = midface (zygoma, orbit floor, maxilla)</b> · <b>Towne = condyle + occipital</b> · panoramic = mandible ทั้งชิ้น · และความจริงมาตรฐานปัจจุบันคือ CT แต่ช้อยมีแต่ภาพธรรมดา",
   "summary": [
-   "Waters (occipitomental): zygoma · maxilla · orbit",
-   "Submentovertex (jug handle): zygomatic arch",
-   "Towne: mandibular condyle",
-   "Panorex: mandible",
-   "Lateral: nasal bone",
-   "มาตรฐานปัจจุบัน: CT face (fine cut + 3D)"
+   "Waters (occipitomental): zygoma, orbital floor/ rim, maxillary sinus, nasal bone — midface fracture",
+   "Submentovertical (jug-handle): zygomatic arch ที่ยุบลง (depressed arch) · Caldwell (PA 15°): frontal sinus, orbital rim, lamina papyracea",
+   "Towne: mandibular condyle/ subcondylar และ occipital bone · Panoramic: mandible ทั้งชิ้นและฟัน (มักใช้คู่ PA mandible)",
+   "CT maxillofacial (thin cut + coronal/ 3D) คือมาตรฐานของ facial fracture ทุกชนิด โดยเฉพาะ ZMC, orbital floor และ Le Fort",
+   "ZMC fracture: แก้มแบน (flattened malar eminence), ชาแก้ม/ ริมฝีปากบน (infraorbital nerve), trismus (arch กด coronoid), ตาเขียวช้ำ ภาพซ้อน · step-off ที่ infraorbital rim",
+   "รักษา ZMC: ไม่เคลื่อน → สังเกต · เคลื่อนหรือมี enophthalmos/ entrapment → ORIF ด้วย plate ที่ 2–3 จุด ภายใน 1–2 สัปดาห์ · arch ยุบเดี่ยว → Gillies approach ยกขึ้น",
+   "Orbital floor blowout ที่มี entrapment (ตาเหลือบขึ้นไม่ได้ + oculocardiac reflex) ในเด็ก ต้องผ่าตัดด่วนภายใน 24–48 ชม."
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Waters = ดูใบหน้ากลาง (W = Whole midface) · Towne = Temporomandibular (condyle)'</b>",
-  "guide": "Fonseca's Oral and Maxillofacial Trauma 4th ed. (2013) — Zygomatic complex fractures",
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — เป็นท่าภาพรังสีธรรมดาที่ใช้ดู zygoma ตรงลายมือในไฟล์ \"→ nasal, zygoma, maxilla\" · ในทางปฏิบัติปัจจุบันส่ง CT maxillofacial แทนภาพธรรมดาเกือบทุกราย ถ้ามีช้อย CT ควรเลือก CT",
+  "mnemonic": "<b>'Waters ดูน้ำในไซนัส (midface) · Towne ดู Condyle'</b>",
+  "guide": "ATLS 10th ed. (2018); Grabb and Smith's Plastic Surgery 9th ed. (2024) ch. Zygomaticomaxillary complex fractures; AO Surgery Reference – CMF",
   "variants": [
-   "ถูกต่อยแก้ม แก้มแบน ชาใต้ตา → zygomaticomaxillary complex fracture → Waters view/ CT face",
-   "ตกจากที่สูงกระแทกคาง อ้าปากไม่ได้ → condylar fracture → Towne view",
-   "สบฟันผิดหลังถูกตีขากรรไกร → mandible fracture → Panorex"
+   "ชายถูกต่อยแก้มซ้าย แก้มแบน ชาแก้มและริมฝีปากบน → CT maxillofacial (ภาพธรรมดาท่าแรกคือ Waters view) สงสัย ZMC fracture",
+   "ชาย 30 ปี ล้มคางกระแทก อ้าปากได้น้อย คางเบี้ยว → Panoramic + Towne view ดู condyle",
+   "ชายถูกตีที่แก้มด้านข้าง อ้าปากไม่ได้ (trismus) แก้มด้านข้างยุบ → zygomatic arch fracture ดูด้วย submentovertical view รักษาด้วย Gillies approach",
+   "ทำไม Waters view เห็น maxillary sinus ชัด → เงยคาง 37° ทำให้ petrous ridge เลื่อนลงไปอยู่ใต้ sinus ไม่บังภาพ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>65. Zygomatic fracture ใช้ Imaging ใดดู? — A. AP View B. Water's view C. Lateral view D. Towne's view E. Paranomic view</b><br>ลายมือ: ขีด B · \"→ nasal, zygoma, maxilla\" ท้ายช้อย B · ช้อย C \"nasal\" และ \"→ nasal\" · ช้อย D \"→ mandibular condyle\" · ช้อย E \"→ mandible\"<br>ไฮไลต์: \"Zygomatic fracture\" · \"Imaging\" · B (เหลือง) · C D E (ส้ม/ เขียว)<br>รูปที่แปะ: โน้ตลายมือแผนผังกระดูกใบหน้าหัก (Mandible · Maxillary · Zygoma) พร้อมรูปภาพรังสี · สไลด์ Mandible — Panoramic mandible · Towne's view · ภาพรังสีขากรรไกรหลายท่า<br>ที่ปรับในเว็บ: แก้สะกด Paranomic เป็น Panoramic",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU66|RoA|69": {
-  "interp": "เด็ก <b>Treacher Collins syndrome</b> ถามความผิดปกติทางหน้าที่ที่พบร่วมมากที่สุดและต้องประเมินเป็นประจำ",
-  "why": "Treacher Collins (mandibulofacial dysostosis, TCOF1) มีความผิดปกติของหูชั้นนอก/ กลาง (microtia, ossicle ผิดรูป) → <b>conductive hearing loss</b> พบราว 40–50% ต้องตรวจการได้ยินตั้งแต่แรกเกิดเพื่อใส่ bone-anchored hearing aid ให้พัฒนาการภาษาปกติ · ไฟล์ขีด A ลายมือ <b>\"(&gt;50%)\"</b>",
+  "interp": "เด็กที่มีใบหน้าแบบ Treacher Collins syndrome — ถามความผิดปกติด้านการทำงานที่พบร่วมบ่อยที่สุดและต้องตรวจคัดกรองเป็นประจำ ซึ่งคือการได้ยิน เพราะหูชั้นนอกและกลางสร้างไม่สมบูรณ์",
+  "why": "Treacher Collins syndrome (mandibulofacial dysostosis) เป็น<b>autosomal dominant</b> ส่วนใหญ่จากยีน <b>TCOF1</b> ทำให้โครงสร้างจาก <b>first และ second pharyngeal arch</b> เจริญไม่สมบูรณ์แบบ<b>สองข้างสมมาตร</b>: zygoma และ mandible เล็ก (malar/ mandibular hypoplasia), ตาเอียงลง (downslanting palpebral fissure), <b>lower eyelid coloboma</b> และขนตาล่างหาย, ใบหูผิดรูป/ microtia, ช่องหูตีบ และกระดูกหูชั้นกลาง (ossicles) ผิดรูป · ผลคือ<b>conductive hearing loss พบราว 40–50%</b> (ไฟล์เขียน &gt; 50%) ซึ่งกระทบการพูดและการเรียนรู้ จึงต้องตรวจการได้ยิน (ABR ตั้งแต่แรกเกิด แล้วตรวจซ้ำเป็นระยะ) และให้ bone-anchored hearing aid ตั้งแต่เล็ก · สติปัญญามักปกติ ดังนั้นการแก้การได้ยินเร็วสำคัญมาก · ทางเดินหายใจอุดกั้นก็สำคัญและอันตราย แต่เป็นภาวะที่จัดการเฉพาะรายตามความรุนแรงของ micrognathia ส่วนที่เป็น routine evaluation ทุกรายคือการได้ยิน · ตรงคีย์ A — ไฟล์ขีด A และเขียนลายมือว่า \"<b>(&gt;50%)</b>\"",
   "wrong": {
-   "B": "Exposure keratitis เกิดได้จาก lower lid coloboma แต่พบน้อยกว่า · จะถูกถ้าคำถามถามภาวะแทรกซ้อนทางตาจากเปลือกตาล่างผิดรูป",
-   "C": "ICP สูงพบใน <b>craniosynostosis</b> (Crouzon/ Apert) ไม่ใช่ Treacher Collins · จะถูกถ้าคำถามถาม Crouzon syndrome",
-   "D": "ตาเหล่ไม่ใช่ลักษณะเด่น · จะถูกถ้าคำถามถาม craniosynostosis ที่เบ้าตาผิดรูป (เช่น unicoronal)",
-   "E": "ทางเดินหายใจอุดกั้นจาก micrognathia พบได้และอันตรายในทารก แต่ไม่ใช่ทุกราย และคำถามเน้นการประเมินเป็นประจำที่พบบ่อยที่สุด · จะถูกถ้าคำถามถามภาวะเร่งด่วนในทารก Pierre Robin sequence"
+   "B": "Exposure keratitis เกิดได้จาก lower lid coloboma ที่ทำให้ปิดตาไม่สนิท แต่พบน้อยกว่าปัญหาการได้ยินมาก · จะถูกถ้าเป็นเด็ก 5 ปีที่มี facial nerve palsy ข้างเดียวจาก hemifacial microsomia/ Möbius หรือหลังผ่าตัด ปิดตาไม่สนิท ตาแดงและแสบ (lagophthalmos)",
+   "C": "ความดันในกะโหลกสูงเป็นปัญหาของ craniosynostosis เมื่อรอยต่อกะโหลกปิดเร็วหลายเส้น ไม่ใช่ลักษณะของ Treacher Collins ซึ่งกะโหลกส่วนบนปกติ · จะถูกถ้าเป็นเด็ก 2 ปีที่มี Crouzon/ Apert syndrome (craniosynostosis หลายรอยต่อ ตาโปน midface ยุบ) ปวดศีรษะ อาเจียน papilledema",
+   "D": "ตาเหล่พบได้บ้างในกลุ่มอาการใบหน้า (เช่น Crouzon, plagiocephaly จาก unicoronal synostosis) แต่ไม่ใช่ deficit เด่นของ Treacher Collins · จะถูกถ้าเป็นเด็ก 1 ปีที่หน้าผากแบนข้างเดียวจาก unilateral coronal synostosis ร่วมกับ harlequin eye deformity และตาเหล่ (superior oblique palsy)",
+   "E": "ทางเดินหายใจอุดกั้นจาก micrognathia และลิ้นตกไปด้านหลังเกิดได้จริงและอาจรุนแรงในทารกบางราย แต่ไม่ได้เกิดทุกรายและจัดการเฉพาะรายตามอาการ ส่วนที่พบบ่อยสุดและต้องประเมินทุกรายคือการได้ยิน · จะถูกถ้าเป็นทารกแรกเกิดที่มี Pierre Robin sequence (micrognathia + glossoptosis + cleft palate) หายใจลำบากและเขียวเวลานอนหงาย"
   },
-  "trap": "เลือก upper airway obstruction เพราะอันตรายกว่า · แต่คำถามถามสิ่งที่<b>พบบ่อยที่สุด</b>และต้องตรวจเป็นประจำ",
+  "trap": "ทางเดินหายใจฟังดูน่ากลัวที่สุดจึงคนเลือก E — แต่คำถามถาม \"most associated\" + \"routine evaluation\" ซึ่งชี้ไปที่ความผิดปกติที่พบเกือบครึ่งของผู้ป่วยและต้องตรวจทุกราย คือ <b>conductive hearing loss จากหูชั้นนอก/กลางผิดรูป</b>",
   "summary": [
-   "Treacher Collins: autosomal dominant · TCOF1",
-   "Zygoma/ mandible hypoplasia · down-slanting palpebral fissure",
-   "Lower lid coloboma · ขาดขนตาล่าง",
-   "Microtia + conductive hearing loss (~40–50%)",
-   "Micrognathia → airway obstruction ในทารก",
-   "สติปัญญาปกติ (การได้ยินสำคัญต่อพัฒนาการ)"
+   "Treacher Collins: autosomal dominant (TCOF1 ~80%, ที่เหลือ POLR1C/ POLR1D) ราว 60% เป็น new mutation · ความผิดปกติของ 1st/2nd pharyngeal arch สองข้างสมมาตร",
+   "ลักษณะใบหน้า: malar (zygoma) hypoplasia, mandibular hypoplasia, downslanting palpebral fissure, lower lid coloboma + ขนตาล่างหายตรง 1/3 ด้านนอก, microtia",
+   "การได้ยิน: conductive hearing loss ~40–50% จาก external auditory canal atresia และ ossicles ผิดรูป → ABR ตั้งแต่แรกเกิด, bone-conduction/ bone-anchored hearing aid",
+   "ทางเดินหายใจ: micrognathia + choanal atresia บางราย → ทารกอาจต้อง prone positioning, mandibular distraction หรือ tracheostomy · OSA ในเด็กโต",
+   "สติปัญญาส่วนใหญ่ปกติ — ความล่าช้าในการพูดมักมาจากหูไม่ได้ยิน จึงต้องแก้การได้ยินเร็ว",
+   "แยกจาก hemifacial microsomia (Goldenhar): เป็นข้างเดียว ไม่สมมาตร มี epibulbar dermoid และกระดูกสันหลังผิดปกติ · และจาก Pierre Robin sequence: micrognathia + glossoptosis + cleft palate",
+   "การผ่าตัดเป็นขั้นตอนตามอายุ: แก้ทางเดินหายใจ → cleft palate → zygoma/ orbit reconstruction (หลัง 5–7 ปี) → ear reconstruction → orthognathic surgery หลังโตเต็มที่"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Treacher Collins = หู (Hearing) + โหนกแก้มหาย + ตาตก'</b>",
-  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Craniofacial syndromes",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลางถึงสูง — conductive hearing loss เป็น functional deficit ที่พบบ่อยที่สุดและต้องคัดกรองทุกราย ตรงลายมือในไฟล์ \"(&gt;50%)\" (ตัวเลขในตำราราว 40–50%) · upper airway obstruction ก็สำคัญและถูกบางส่วน แต่เป็นปัญหาเฉพาะรายมากกว่า · ช้อย D ในไฟล์เว้นว่าง เว็บใส่ Strabismus",
+  "mnemonic": "<b>'Treacher Collins: Two-sided Ear & Cheek — หูไม่ได้ยิน แก้มแบน ตาตก'</b>",
+  "guide": "GeneReviews: Treacher Collins Syndrome (updated 2023); Grabb and Smith's Plastic Surgery 9th ed. (2024) ch. Craniofacial syndromes",
   "variants": [
-   "ทารกหน้าตา zygoma แบน ตาตก microtia → Treacher Collins → ตรวจการได้ยิน",
-   "ทารกคางเล็ก ลิ้นตก หายใจลำบาก เพดานโหว่ → Pierre Robin sequence",
-   "เด็กหัวผิดรูป ตาโปน ICP สูง → Crouzon syndrome"
+   "ทารกแรกเกิดใบหน้าเล็ก zygoma แบนสองข้าง ตาเอียงลง หูเล็กสองข้าง → ตรวจ ABR และติดตามการได้ยินเป็นระยะ (Treacher Collins)",
+   "เด็กใบหน้าไม่สมมาตรข้างเดียว หูเล็กข้างเดียว มีก้อนขาวที่ตาขาว และกระดูกสันหลังผิดรูป → Goldenhar syndrome (oculo-auriculo-vertebral spectrum)",
+   "ทารกคางเล็กมาก ลิ้นตก เพดานโหว่รูปตัว U หายใจลำบากเวลานอนหงาย → Pierre Robin sequence จัดท่านอนคว่ำ/ mandibular distraction",
+   "ทำไมเด็ก Treacher Collins พูดช้า → conductive hearing loss ไม่ใช่สติปัญญาบกพร่อง (สติปัญญามักปกติ)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>69. (ให้รูปเด็กเป็น Treacher collins syndrome) What is the most associated functional deficit important for routine evaluation? — A. Conductive hearing loss B. exposure keratitis C. increased intracranial pressure D. E. upper airway obstruction</b><br>ลายมือ: ขีด A เขียน \"(&gt;50%)\"<br>ไฮไลต์: \"Treacher collins syndrome\" · \"most\" · \"associated functional deficit important for routine evaluation\" · A (เหลือง)<br>รูปที่แปะ: โน้ตลายมือ CRANIOFACIAL SURGERY — แผนผัง congenital anomaly (cleft lip/ palate · Treacher Collins · craniosynostosis) พร้อมรูปใบหน้าเด็ก<br>ที่ปรับในเว็บ: ช้อย D ในไฟล์เว้นว่าง เว็บใส่ Strabismus",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU66|RoA|70": {
-  "interp": "มี<b>ก้อน/ แผลที่ลิ้น</b> (เลือดออก) ถามชนิดเนื้องอกที่น่าจะเป็นที่สุด",
-  "why": "มะเร็งช่องปากรวมถึงลิ้นกว่า <b>90% เป็น squamous cell carcinoma</b> (เยื่อบุเป็น stratified squamous) ปัจจัยเสี่ยง: บุหรี่ สุรา หมาก ฟันคม leukoplakia/ erythroplakia · ไฟล์ขีด A ลายมือ <b>\"ulcer\"</b> และ <b>\"90%\"</b>",
+  "interp": "มีก้อนหรือแผลที่ลิ้นที่เลือดออกง่าย — ถามชนิดเนื้องอกที่เป็นไปได้มากที่สุด ซึ่งต้องรู้ว่ามะเร็งช่องปากเกือบทั้งหมดมาจากเยื่อบุผิว squamous",
+  "why": "เยื่อบุช่องปากรวมทั้งลิ้นเป็น <b>stratified squamous epithelium</b> มะเร็งช่องปากจึงเป็น <b>squamous cell carcinoma ราว 90%</b> · ปัจจัยเสี่ยงหลัก: <b>บุหรี่ สุรา หมาก</b> (ในไทยพบเคี้ยวหมากในผู้สูงอายุ), ฟันคมหรือฟันปลอมเสียดสีเรื้อรัง, HPV (สัมพันธ์กับ oropharynx/ โคนลิ้นมากกว่าลิ้นส่วนหน้า) · ตำแหน่งที่พบบ่อยของมะเร็งลิ้นคือ<b>ขอบข้างลิ้น (lateral border) ส่วนกลางถึงหลัง</b> · ลักษณะ: แผลไม่หายขอบนูนแข็ง (indurated ulcer) เลือดออกง่าย หรือก้อน exophytic อาจปวดร้าวหู (referred otalgia ผ่าน lingual → auriculotemporal nerve) · รอยโรคก่อนมะเร็ง: leukoplakia, <b>erythroplakia (เสี่ยงกลายเป็นมะเร็งสูงสุด)</b> · วินิจฉัยด้วย biopsy · ลิ้นส่วนหน้าแพร่กระจายไปต่อมน้ำเหลือง level I–III ได้เร็ว จึงพิจารณา neck dissection เมื่อ depth of invasion &gt; 4 mm แม้คลำต่อมไม่ได้ · ตรงคีย์ A — ไฟล์ขีด A เขียนลายมือ \"<b>ulcer</b>\" เหนือคำว่าก้อน และ \"<b>90%</b>\" ที่ช้อย A พร้อมโน้ตมะเร็งช่องปากว่า 90% เป็น SCC",
   "wrong": {
-   "B": "BCC เกิดที่ผิวหนังที่มีขน (โดนแดด) ไม่เกิดที่เยื่อบุช่องปาก · จะถูกถ้าคำถามถามก้อนขอบมุกที่ใบหน้า",
-   "C": "Adenocarcinoma มาจาก minor salivary gland พบน้อย (มักที่เพดาน) · จะถูกถ้าคำถามถามก้อนใต้เยื่อบุที่เพดานแข็ง",
-   "D": "Fibrosarcoma พบน้อยมากในลิ้น · จะถูกถ้าคำถามถามก้อนเนื้อเยื่ออ่อนลึกที่โตเร็ว",
-   "E": "Mucosal melanoma ในช่องปากพบน้อย (มักที่เพดาน/ เหงือก สีดำ) · จะถูกถ้าคำถามถามรอยดำนูนที่เพดานโตเร็ว"
+   "B": "BCC เกิดจาก basal cell ของผิวหนังที่มีรูขุมขน (pilosebaceous unit) จึงพบที่ผิวหนังใบหน้าที่โดนแดด แทบไม่เกิดในเยื่อบุช่องปาก · จะถูกถ้าเป็นชาย 70 ปี มีตุ่มมันวาวขอบนูนมีเส้นเลือดฝอยตรงกลางเป็นแผล บริเวณข้างจมูกหรือริมฝีปากบนส่วนที่เป็นผิวหนัง",
+   "C": "Adenocarcinoma ในช่องปากมาจากต่อมน้ำลายย่อย (minor salivary glands) ซึ่งพบมากที่เพดานแข็ง ไม่ใช่ชนิดหลักของลิ้น และพบน้อยกว่า SCC มาก · จะถูกถ้าเป็นหญิง 50 ปี มีก้อนใต้เยื่อบุนูนเรียบไม่เจ็บที่รอยต่อเพดานแข็งกับเพดานอ่อน (adenoid cystic carcinoma/ polymorphous adenocarcinoma ของ minor salivary gland)",
+   "D": "Fibrosarcoma เป็น sarcoma ของเนื้อเยื่ออ่อน พบได้น้อยมากในช่องปาก มักเป็นก้อนใต้เยื่อบุที่โตเร็วมากกว่าแผล · จะถูกถ้าเป็นทารกหรือเด็กเล็กที่มีก้อนเนื้อเยื่ออ่อนโตเร็วที่แขนขา (infantile fibrosarcoma, ETV6-NTRK3 fusion)",
+   "E": "Melanoma ในเยื่อบุช่องปาก (mucosal melanoma) พบน้อย มักเป็นปื้นสีดำ/ น้ำตาลที่เพดานแข็งหรือเหงือกบน และพยากรณ์โรคไม่ดี · จะถูกถ้าเป็นชาย 60 ปี มีปื้นสีดำไม่สม่ำเสมอขอบไม่เรียบที่เพดานแข็งโตขึ้นเรื่อย ๆ"
   },
-  "trap": "นึกว่าก้อนเลือดออกง่ายเป็นเนื้องอกหลอดเลือด/ sarcoma · ในช่องปากผู้ใหญ่คิดถึง SCC ก่อน",
+  "trap": "ช้อยคุ้นหูหลายชนิด (BCC, melanoma) เป็นมะเร็งผิวหนัง — ต้องจับว่า<b>ลิ้นเป็นเยื่อบุ squamous ไม่มีรูขุมขน</b> จึงไม่เกิด BCC และมะเร็งจากเยื่อบุผิวที่พบมากที่สุดของ head and neck คือ SCC",
   "summary": [
-   "มะเร็งช่องปาก &gt; 90% = SCC",
-   "ลิ้น: lateral border พบบ่อยสุด",
-   "Premalignant: leukoplakia · erythroplakia (เสี่ยงสูงกว่า)",
-   "ปัจจัยเสี่ยง: บุหรี่ สุรา หมาก HPV (oropharynx)",
-   "แพร่ไปต่อมน้ำเหลืองคอ (level I–III)",
-   "รักษา: wide excision ± neck dissection ± RT"
+   "มะเร็งช่องปาก ~90% เป็น SCC · ตำแหน่งบ่อย: ขอบข้างลิ้น, พื้นปาก, กระพุ้งแก้ม (ในผู้เคี้ยวหมาก) · ริมฝีปากล่าง (จากแดด)",
+   "ปัจจัยเสี่ยง: บุหรี่ + สุรา (เสริมกัน), หมาก, ฟันคมเสียดสี, ภูมิคุ้มกันต่ำ · HPV-16 สัมพันธ์กับ oropharynx (ทอนซิล โคนลิ้น) พยากรณ์ดีกว่า",
+   "รอยโรคก่อนมะเร็ง: leukoplakia (ขาว ขูดไม่ออก เสี่ยง ~1–5%/ปี) · erythroplakia (แดง เสี่ยงสูงสุด) · oral submucous fibrosis (หมาก)",
+   "อาการเตือน: แผลไม่หาย &gt; 2–3 สัปดาห์, ก้อนแข็ง, เลือดออก, ปวดร้าวหู, กลืนเจ็บ, ก้อนที่คอ → biopsy",
+   "Staging: CT/ MRI คอ + ช่องปาก, CT/ PET chest ในระยะลุกลาม · T stage ใช้ขนาดและ depth of invasion (AJCC 8th: ≤ 5 mm, 5–10, &gt; 10 mm)",
+   "รักษา: ผ่าตัดเป็นหลัก (wide excision margin ≥ 1 cm ±reconstruction) + neck dissection (elective เมื่อ DOI &gt; 3–4 mm) · adjuvant RT/ CRT เมื่อ margin บวก หรือ ECE",
+   "ลิ้นส่วนหน้ามี skip metastasis ไป level IV ได้ จึงมักทำ supraomohyoid neck dissection (level I–III) ขยายถึง IV"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'ปาก = Squamous (S = Smoke, Spirit, เคี้ยวหมาก)'</b>",
-  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers (current version)",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ตรงลายมือในไฟล์ \"ulcer · 90%\" และเป็นความรู้พื้นฐาน · ตัวพิมพ์ในไฟล์ไม่แน่ใจคำว่า \"เลือดออกมาก?\" และช้อย E เป็น \"...\" เว็บจึงใส่ Melanoma ซึ่งไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'ปากเป็น Squamous: แผลลิ้น = SCC 9 ใน 10'</b>",
+  "guide": "NCCN Guidelines: Head and Neck Cancers v2.2025; AJCC Cancer Staging Manual 8th ed. (2017) — Oral cavity",
   "variants": [
-   "ชายสูบบุหรี่ เคี้ยวหมาก แผลขอบแข็งที่ข้างลิ้น 2 เดือน → SCC → biopsy",
-   "รอยขาวที่ขูดไม่ออกในช่องปาก → leukoplakia → biopsy",
-   "SCC ลิ้น T2 คลำต่อมน้ำเหลืองคอไม่ได้ → partial glossectomy + elective neck dissection"
+   "ชาย 58 ปี สูบบุหรี่ ดื่มสุรา แผลขอบข้างลิ้นขวา 1 เดือน ขอบแข็ง ปวดร้าวหูขวา → biopsy สงสัย SCC ของลิ้น",
+   "หญิง 70 ปี เคี้ยวหมากนาน 40 ปี มีปื้นขาวขูดไม่ออกที่กระพุ้งแก้ม → leukoplakia ต้อง biopsy",
+   "ชาย 50 ปี ก้อนที่โคนลิ้นและก้อนคอ cystic ไม่สูบบุหรี่ → oropharyngeal SCC สัมพันธ์ HPV (ตรวจ p16)",
+   "ผลชิ้นเนื้อ SCC ลิ้น depth of invasion 6 mm คลำต่อมคอไม่ได้ → wide excision + elective neck dissection level I–III"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>70. มีก้อนที่ลิ้น (เลือดออกมาก?) เป็นอะไรได้มากที่สุด — A. squamous cell carcinoma B. basal cell carcinoma C. adenocarcinoma D. fibrosarcoma E. ...</b><br>ลายมือ: เขียน \"ulcer\" เหนือ ก้อน · ขีด A เขียน \"90%\"<br>ไฮไลต์: \"ก้อนที่ลิ้น (เลือดออกมาก?)\" · \"เป็นอะไรได้มากที่สุด\" · A (เหลือง)<br>รูปที่แปะ: โน้ตลายมือแผนผังมะเร็งช่องปาก — 90% เป็น SCC · ปัจจัยเสี่ยง · อาการ (painless mass, ulcer) · การตรวจร่างกาย · การส่งตรวจ (biopsy, CT, MRI, PET) · การรักษา<br>ที่ปรับในเว็บ: ช้อย E ในไฟล์เป็น ... เว็บใส่ Melanoma",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU66|RoA|74": {
-  "interp": "ชาย 40 ปีหนีไฟไหม้อาคาร แผลไหม้ใบหน้า คอ หน้าอก แขน <b>กระสับกระส่าย มีคราบเขม่าที่ปากและจมูก</b> = สงสัย <b>inhalation injury + CO poisoning</b> ถามสิ่งที่ควรทำก่อน",
-  "why": "ไฟไหม้ในที่ปิด + เขม่าที่ปาก/ จมูก + กระสับกระส่าย (hypoxia/ CO) → ให้ <b>O₂ ความเข้มข้นสูง (100% ทาง non-rebreather mask)</b> ทันทีเพื่อเร่งขับ CO (half-life ลดจาก ~4 ชม. เหลือ ~1 ชม.) และประเมินทางเดินหายใจเพื่อใส่ท่อช่วยหายใจแต่เนิ่น ๆ ถ้ามีเสียงแหบ stridor · ไฟล์ขีด C ลายมือ <b>\"supportive\"</b> และ <b>\"+ ETT\"</b>",
+  "interp": "ชายถูกไฟไหม้ในอาคารปิด มีแผลไหม้ใบหน้า คอ อก แขน กระสับกระส่าย คราบเขม่ารอบปากจมูก = สงสัย inhalation injury และพิษ carbon monoxide ถามสิ่งที่ต้องทำก่อนส่งต่อ ซึ่งต้องเริ่มที่ airway/ breathing ตาม ABC",
+  "why": "ไฟไหม้<b>ในที่ปิด</b> + แผลไหม้ใบหน้า/ คอ + <b>เขม่าที่ปากจมูก</b> + ขนจมูกไหม้ เสียงแหบ = <b>inhalation injury</b> ซึ่งมี 3 ส่วน: (1) <b>upper airway thermal injury</b> บวมเหนือ glottis มากขึ้นใน 12–24 ชม. แรก (2) lower airway chemical injury จากควัน (3) <b>systemic toxicity: carbon monoxide</b> และ cyanide · อาการกระสับกระส่ายบ่งชี้ภาวะขาดออกซิเจนในสมองจาก CO · ขั้นแรกตาม ABC คือ<b>ให้ออกซิเจน 100% ทาง non-rebreather mask</b> (~10–15 L/min) ทันที — ลด half-life ของ COHb จากราว 4–5 ชม. (อากาศ) เหลือ 60–90 นาที และให้ออกซิเจนแก่เนื้อเยื่อ · ร่วมกับประเมิน airway: ถ้ามีเสียง stridor เสียงแหบ แผลไหม้ลึกรอบคอ หรือต้องส่งต่อไกล ให้<b>ใส่ endotracheal tube แต่เนิ่น ๆ</b> ก่อนบวมจนใส่ไม่ได้ (ATLS/ ABLS) · ในช้อยที่มี ช้อย C คือสิ่งที่ต้องทำก่อน · ตรงคีย์ C — ไฟล์เขียน \"<b>inhalation inj.</b>\" ท้ายคำถาม ขีด C พร้อมลายมือ \"<b>supportive</b>\" และ \"<b>+ ETT</b>\"",
   "wrong": {
-   "A": "Bronchoscopy ใช้ยืนยัน inhalation injury และล้างเขม่าภายหลัง ไม่ใช่สิ่งแรกก่อนให้ออกซิเจน · จะถูกถ้าคำถามถามการวินิจฉัยยืนยัน inhalation injury หลังผู้ป่วยคงที่",
-   "B": "Pulse oximetry <b>อ่านค่าสูงลวง</b>ใน CO poisoning (แยก COHb จาก oxyHb ไม่ได้) ต้องตรวจ COHb จาก ABG/ co-oximetry · จะถูกถ้าคำถามถามการเฝ้าระวังในผู้ป่วยแผลไหม้ที่ไม่มี inhalation injury",
-   "D": "ควรใช้ peripheral IV ขนาดใหญ่ 2 เส้น (ผ่านผิวหนังปกติ) ก่อน central line และต้องจัดการ airway/ breathing ก่อน circulation · จะถูกถ้าคำถามถามการเปิดเส้นในผู้ป่วยที่หาเส้นส่วนปลายไม่ได้",
-   "E": "Chest escharotomy ทำเมื่อแผลไหม้ full-thickness รอบหน้าอกจนหายใจไม่ได้ · จะถูกถ้าคำถามถามแผลไหม้รอบอกแข็งเหมือนหนัง peak airway pressure สูง"
+   "A": "Bronchoscopy ใช้ยืนยันและประเมินความรุนแรงของ inhalation injury (เขม่า เยื่อบุแดงบวม) และช่วยดูดเขม่า แต่ทำหลังทางเดินหายใจปลอดภัยแล้ว ในโรงพยาบาลที่มีความพร้อม ไม่ใช่ก่อนให้ออกซิเจน · จะถูกถ้าเป็นชาย 40 ปีจากไฟไหม้ในอาคารที่ใส่ ETT แล้วอยู่ใน burn ICU และมีเสมหะเขม่าอุดตันทางเดินหายใจ ทำให้ peak airway pressure สูง",
+   "B": "Pulse oximetry ใช้ monitor ได้แต่<b>หลอกในพิษ CO</b> — เครื่องอ่าน COHb เป็น oxyhemoglobin จึงแสดง SpO₂ ปกติทั้งที่เนื้อเยื่อขาดออกซิเจน และการวัดค่าเฉย ๆ ไม่ใช่การรักษา · จะถูกถ้าเป็นชาย 40 ปีมีแผลไฟไหม้จากน้ำร้อนลวกที่ขาในที่โล่ง ไม่มีอาการทางเดินหายใจ ใช้ pulse oximetry monitor ตามปกติ (ส่วนพิษ CO ต้องวัด COHb ด้วย co-oximetry)",
+   "D": "การให้สารน้ำสำคัญใน burn &gt; 20% TBSA แต่ใช้ peripheral IV ขนาดใหญ่สองเส้นก่อน (แทงผ่านแผลไหม้ได้) — การแทง subclavian ใช้เวลาเสี่ยง pneumothorax และไม่ได้มาก่อน airway/ breathing · จะถูกถ้าเป็นชาย 40 ปี burn 60% TBSA ที่แขนขาไหม้ทั้งหมด ใส่ peripheral line ไม่ได้และ intraosseous ล้มเหลว จึงต้องใส่ central line",
+   "E": "Chest escharotomy ใช้เมื่อแผลไหม้<b>ลึกเต็มชั้นรอบทรวงอก</b> (circumferential full-thickness) จน eschar รัดทำให้หน้าอกขยายไม่ได้ ventilation ลดลง — โจทย์ไม่บอกว่าเป็นแผลลึกรอบอกและหายใจไม่ได้ · จะถูกถ้าเป็นชาย 40 ปี แผลไหม้ลึกเต็มชั้นรอบลำตัว ใส่ท่อช่วยหายใจแล้ว peak pressure สูงขึ้นเรื่อย ๆ และ ventilation ไม่พอ"
   },
-  "trap": "ทำหัตถการหรือเปิดเส้นก่อน ทั้งที่ ABC ต้องเริ่มที่ airway/ breathing และ pulse oximetry หลอกได้ใน CO poisoning",
+  "trap": "SpO₂ ปกติทำให้คนคิดว่าไม่ต้องให้ออกซิเจน — ในพิษ CO <b>pulse oximetry อ่านค่าสูงเกินจริง</b> · และ bronchoscopy ฟังดูตรงกับเรื่อง inhalation แต่เป็นขั้นวินิจฉัยหลัง airway ปลอดภัย ขั้นแรกคือ 100% O₂ และตัดสินใจใส่ ETT เร็ว",
   "summary": [
-   "สงสัย inhalation: ไฟไหม้ในที่ปิด · เขม่า · ขนจมูกไหม้ · เสียงแหบ",
-   "ให้ 100% O₂ ทันที (CO half-life ลดเหลือ ~1 ชม.)",
-   "Stridor/ เสียงแหบ/ แผลไหม้ใบหน้ารุนแรง → ใส่ท่อแต่เนิ่น ๆ",
-   "SpO₂ ปกติลวงใน CO → ตรวจ COHb",
-   "Cyanide: lactate สูง → hydroxocobalamin",
-   "Fluid: Parkland/ ATLS 2 mL/kg/%TBSA"
+   "สงสัย inhalation injury: ไฟไหม้ในที่ปิด, แผลไหม้ใบหน้า/ คอ, ขนจมูกขนคิ้วไหม้, เขม่าในปาก/ เสมหะดำ, เสียงแหบ stridor, หมดสติ",
+   "ข้อบ่งชี้ใส่ ETT เร็ว (ABLS): stridor/ เสียงแหบ, หายใจลำบาก, แผลไหม้ลึกรอบคอ, บวมในช่องปาก, GCS ≤ 8, burn &gt; 40–50% TBSA, ต้องส่งต่อไกล",
+   "CO poisoning: affinity ต่อ Hb ~240 เท่าของ O₂ · SpO₂ ปกติหลอก ต้องวัด COHb ด้วย co-oximetry · half-life 4–5 ชม. (อากาศ) → 60–90 นาที (100% O₂) → ~20–30 นาที (hyperbaric)",
+   "Cyanide (จากพลาสติกไหม้): lactate &gt; 8–10 mmol/L ร่วม shock หรือหมดสติ → hydroxocobalamin 5 g IV",
+   "Primary survey ใน burn: Airway (C-spine) → Breathing (O₂, escharotomy ถ้าจำเป็น) → Circulation (2 large-bore IV) → Disability → Exposure (หยุดการไหม้ ห่มอุ่น)",
+   "Fluid: Parkland 4 mL × kg × %TBSA (ATLS 10th ed. ผู้ใหญ่เริ่ม 2 mL) ครึ่งแรกใน 8 ชม.จากเวลาที่ไหม้ · ติดตาม urine output 0.5 mL/kg/hr (ผู้ใหญ่)",
+   "ส่ง burn center: &gt; 10–20% TBSA ลึกบางส่วน, ไหม้ใบหน้า มือ เท้า อวัยวะเพศ ข้อต่อ, ไฟฟ้า สารเคมี, inhalation injury"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ลายมือเสริมว่าควรเตรียมใส่ท่อช่วยหายใจร่วมด้วย)",
-  "mnemonic": "<b>'ไฟไหม้ + เขม่า = O₂ 100% ก่อน · SpO₂ โกหก (CO)'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal injuries",
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — เป็นช้อยเดียวที่แก้ airway/ breathing และพิษ CO ตรงลายมือในไฟล์ \"supportive\" · ไฟล์เขียน \"+ ETT\" ด้วยซึ่งถูกต้องตามแนวทาง ABLS ว่ารายที่มีกระสับกระส่ายและแผลไหม้รอบคอควรพิจารณาใส่ท่อก่อนส่งต่อ — ถ้ามีช้อย intubation ในข้อสอบอาจเป็นคำตอบที่ดีกว่า · ช้อย E ในไฟล์เว้นว่าง เว็บใส่ chest escharotomy",
+  "mnemonic": "<b>'ไฟในห้อง + เขม่า = O₂ 100% ก่อน · ท่อเร็วก่อนบวม · SpO₂ หลอกใน CO'</b>",
+  "guide": "ATLS 10th ed. (2018) ch. Thermal injuries; American Burn Association ABLS Provider Manual 2018; ISBI Practice Guidelines for Burn Care 2016",
   "variants": [
-   "ไฟไหม้ในห้อง ปวดศีรษะ สับสน SpO₂ 99% → CO poisoning → 100% O₂ + COHb",
-   "แผลไหม้ใบหน้า เสียงแหบ stridor → intubation ด่วน",
-   "แผลไหม้รอบอกแข็ง หายใจไม่ออก → chest escharotomy"
+   "ชาย 35 ปี หนีไฟจากห้องปิด เสียงแหบ มี stridor ขนจมูกไหม้ → ใส่ endotracheal tube ทันทีก่อนบวม",
+   "หญิง 50 ปี หมดสติในห้องที่ไฟไหม้ SpO₂ 99% COHb 30% → 100% O₂ ทาง non-rebreather และพิจารณา hyperbaric oxygen",
+   "ชายถูกไฟไหม้ในโรงงานพลาสติก หมดสติ ความดันต่ำ lactate 12 mmol/L → สงสัย cyanide ให้ hydroxocobalamin",
+   "แผลไหม้ลึกเต็มชั้นรอบอก ใส่ท่อแล้ว ventilation ยากขึ้น peak pressure สูง → chest escharotomy ตามแนว anterior axillary line"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144–145 — ตัวพิมพ์: <b>74. ผู้ชาย 40 ปี ได้รับการช่วยเหลือลงมาจากอพาร์ตเมนต์ไฟไหม้ พบมีรอยไหม้ที่ใบหน้า ลำคอ หน้าอก แขนสองข้าง กระสับกระส่าย มีรอยคราบดำติดตามปากและจมูก สิ่งที่ควรทำก่อนคือ — A. ใส่ bronchoscope เพื่อดูดเอาเสมหะออก B. ใช้ pulse oximetry C. ให้ออกซิเจนในหน้ากาก 10 L/min D. แทงสาย subclavian vein สำหรับ fluid resuscitation E. ______</b><br>ลายมือ: เขียน \"inhalation inj.\" ท้ายคำถาม · ขีด C เขียน \"supportive\" และ \"+ ETT\"<br>ไฮไลต์: \"ผู้ชาย 40 ปี\" · \"รอยไหม้ที่ใบหน้า ลำคอ หน้าอก แขนสองข้าง กระสับกระส่าย มีรอยคราบดำติดตามปากและจมูก\" · \"ควรทำก่อน\" · C (เหลือง)<br>รูปที่แปะ: โน้ตลายมือแผนผัง BURN + WOUND (หน้า 145) — ชนิดแผลไหม้ · ความลึก · inhalation injury · CO poisoning · fluid resuscitation<br>ที่ปรับในเว็บ: ช้อย E ในไฟล์เว้นว่าง เว็บใส่ Chest escharotomy",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU66|RoA|X13": {
-  "interp": "อุบัติเหตุมอเตอร์ไซค์ <b>เลือดออกจากปากและจมูกจำนวนมาก + ความดันต่ำ</b> ถามการจัดการที่เหมาะสมก่อน",
-  "why": "ตามหลัก ATLS ต้องจัดการ <b>Airway ก่อน</b> — เลือดออกมากในช่องปากและจมูกเสี่ยงสำลักและอุดทางเดินหายใจ → <b>ใส่ท่อช่วยหายใจ (ETT)</b> ปกป้อง airway แล้วจึงห้ามเลือด (nasal packing) และให้สารน้ำ/ เลือด · ไฟล์ขีด B แปะสไลด์ <b>\"EMERGENCY TREATMENT — Breathing and ventilation\"</b>",
+  "interp": "ชายอุบัติเหตุมอเตอร์ไซค์ มีเลือดออกในปากและจมูกปริมาณมาก ร่วมกับความดันต่ำ — ถามสิ่งที่ต้องทำก่อน ซึ่งตาม ATLS ต้องเริ่มที่ airway: เลือดท่วมทางเดินหายใจจาก maxillofacial trauma ต้องป้องกันด้วยท่อช่วยหายใจ",
+  "why": "ใน <b>maxillofacial trauma</b> ที่เลือดออกมาก (โดยเฉพาะ <b>Le Fort fracture</b> ซึ่งฉีก maxillary artery และ descending palatine artery) เลือดไหลลงคอและสำลักเข้าปอด ร่วมกับกระดูกหน้าที่ยุบไปด้านหลังและผู้ป่วยซึมจากภาวะช็อก → <b>airway เสียได้ทุกเมื่อ</b> · ATLS เรียงลำดับ <b>A → B → C</b>: ต้อง<b>ป้องกันทางเดินหายใจด้วย endotracheal intubation</b> (มักเป็น orotracheal พร้อม in-line C-spine stabilization; ถ้าใส่ไม่ได้ทำ surgical cricothyroidotomy · หลีกเลี่ยง nasotracheal เพราะอาจมี skull base fracture) ก่อน แล้วจึงห้ามเลือดได้อย่างปลอดภัย: ใส่ <b>posterior + anterior nasal packing/ Foley balloon</b>, oral packing รอบท่อ, จัดกระดูกให้เข้าที่ชั่วคราว และถ้ายังออกต่อให้ angiographic embolization หรือผ่าตัด · ระหว่างนั้นให้สารน้ำ/ เลือดแก้ช็อก และหาแหล่งเลือดออกอื่น (เลือดออกจากหน้าแทบไม่ทำให้ช็อกเว้นแต่รุนแรงมาก) · ตรงคีย์ B — ไฟล์ขีด B ใส่เครื่องหมาย \"<b>!</b>\" หลังคำว่า hypotension และแปะสไลด์ EMERGENCY TREATMENT ที่เรียง \"<b>Breathing and ventilation · Circulation and hemorrhage control</b>\" และ maxillary fracture ทำให้เลือดออกจาก maxillary/ palatine artery",
   "wrong": {
-   "A": "ให้สารน้ำสำคัญแต่เป็นขั้น C หลัง airway · จะถูกถ้าคำถามถามผู้ป่วยที่ airway ปลอดภัยแล้วยังช็อก",
-   "C": "Oxygen mask ไม่ปกป้อง airway จากเลือดที่ไหลลงคอ · จะถูกถ้าคำถามถามผู้ป่วยที่หายใจเองได้ ไม่มีเลือดในทางเดินหายใจ",
-   "D": "Anterior nasal packing ห้ามเลือดได้ไม่พอในเลือดออกมากจาก midface fracture (ต้อง anterior + posterior packing) และทำหลังปกป้อง airway · จะถูกถ้าคำถามถาม epistaxis ด้านหน้าในผู้ป่วยไม่มีบาดเจ็บ",
-   "E": "เตรียมผ่าตัดห้ามเลือดทำได้แต่หลังจัดการ airway และถ้า packing ไม่ได้ผล (หรือ angioembolization) · จะถูกถ้าคำถามถามเลือดออกไม่หยุดหลัง packing และ airway ปลอดภัยแล้ว"
+   "A": "สารน้ำจำเป็นจริงเพราะความดันต่ำ และทำพร้อมกันในทีมได้ แต่ถ้าไม่ป้องกัน airway ก่อน เลือดที่ท่วมคอจะทำให้สำลักและขาดออกซิเจนก่อนที่ภาวะช็อกจะได้รับการแก้ · จะถูกถ้าเป็นชาย 30 ปีอุบัติเหตุรถ พูดได้ชัด ทางเดินหายใจโล่ง มีกระดูกต้นขาหักเลือดออกมาก ความดันต่ำ (A, B ปลอดภัยแล้ว)",
+   "C": "Oxygen mask ให้ออกซิเจนได้แต่ไม่ป้องกันการสำลักเลือดและไม่เปิดทางเดินหายใจที่ถูกเลือดหรือกระดูกยุบอุด · จะถูกถ้าเป็นชาย 25 ปีกระดูกจมูกหักเลือดกำเดาไหลเล็กน้อย รู้ตัวดี หายใจได้เอง SpO₂ 93% ไม่มีเลือดท่วมคอ",
+   "D": "Anterior nasal packing ห้ามเลือดจาก Kiesselbach plexus ด้านหน้าได้ แต่ใน Le Fort fracture เลือดมาจากด้านหลัง (maxillary/ palatine artery) และต้องทำหลัง airway ปลอดภัยแล้ว (พร้อม posterior packing) · จะถูกถ้าเป็นเด็กชาย 12 ปี เลือดกำเดาไหลจากผนังกั้นจมูกด้านหน้าหลังแคะจมูก กดจมูก 10–15 นาทีแล้วยังไม่หยุด",
+   "E": "การผ่าตัดห้ามเลือดหรือ embolization เป็นขั้นสุดท้ายถ้าการ packing ไม่ได้ผล — ส่งผู้ป่วยไป OR ทั้งที่ airway ยังไม่ปลอดภัยอาจเสียชีวิตระหว่างทาง · จะถูกถ้าเป็นชาย 40 ปีใส่ ETT แล้ว ทำ anterior + posterior nasal packing แล้ว ยังมีเลือดออกต่อเนื่องและความดันต่ำ จึงต้องทำ angioembolization หรือ ligation of external carotid branches"
   },
-  "trap": "เห็น hypotension แล้วรีบให้สารน้ำ (C) ก่อน airway (A)",
+  "trap": "คำว่า hypotension ดึงให้ไปที่ Circulation ก่อน (IV fluid) — แต่ <b>เลือดท่วมปากจมูก = Airway problem</b> ตามลำดับ ATLS ต้องแก้ A ก่อน C เสมอ · ยกเว้นเลือดออกภายนอกรุนแรงที่ใช้ C-A-B-C (catastrophic hemorrhage) ซึ่งเลือดในปากจมูกไม่ใช่แบบที่กดหยุดได้",
   "summary": [
-   "ATLS: Airway with C-spine → Breathing → Circulation",
-   "เลือดออกมากในปาก/ จมูก → ใส่ท่อ (ระวัง nasal intubation ใน midface fracture)",
-   "ห้ามเลือด: anterior + posterior nasal packing (Foley)",
-   "ไม่หยุด → angioembolization/ ผูก external carotid",
-   "ลดกระดูกหัก (manual reduction) ช่วยห้ามเลือด",
-   "แก้ coagulopathy · ให้เลือด"
+   "ATLS primary survey: Airway + C-spine → Breathing → Circulation + hemorrhage control → Disability → Exposure · แก้ปัญหาที่พบทันทีก่อนไปขั้นถัดไป",
+   "Maxillofacial trauma กับ airway: เลือด ฟันหัก กระดูก midface ยุบไปด้านหลัง bilateral mandible fracture ทำให้ลิ้นตก → ใส่ ETT เร็ว, surgical cricothyroidotomy ถ้าใส่ไม่ได้",
+   "หลีกเลี่ยง nasotracheal tube และ NG tube ทางจมูกเมื่อสงสัย skull base/ cribriform plate fracture (raccoon eyes, CSF rhinorrhea)",
+   "Le Fort I: แยก maxilla เหนือฟัน (floating palate) · II: pyramidal ผ่าน nasal bone และ infraorbital rim · III: craniofacial dissociation ผ่าน zygomatic arch และ orbit",
+   "ห้ามเลือดหลัง airway: anterior + posterior nasal packing หรือ Foley balloon 2 ข้าง, bite block, จัดกระดูกให้เข้าที่ (manual reduction) → angioembolization ถ้ายังออก",
+   "ความดันต่ำใน facial trauma: เลือดออกจากหน้าแทบไม่ใช่สาเหตุหลัก ต้องหาเลือดออกในช่องอก ท้อง เชิงกราน กระดูกยาว ก่อนเสมอ",
+   "C-spine injury พบร่วม facial fracture ได้ ~10% ต้อง immobilize และใส่ท่อแบบ manual in-line stabilization"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'เลือดท่วมปาก = กันปอดก่อน (ETT) แล้วค่อยอุดจมูก'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Airway and ventilatory management",
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — ตรงลำดับ ATLS และสไลด์ที่ไฟล์แปะ (Breathing and ventilation มาก่อน Circulation and hemorrhage control) · ในชีวิตจริงทีมจะเปิดเส้นให้สารน้ำพร้อมกัน แต่สิ่งที่ \"ต้องทำก่อน\" ในหลักการคือ secure airway",
+  "mnemonic": "<b>'เลือดท่วมหน้า = Tube ก่อน Pack · A ก่อน C เสมอ'</b>",
+  "guide": "ATLS 10th ed. (2018) ch. Airway and ventilatory management; AO Surgery Reference – CMF Midface trauma; Grabb and Smith's Plastic Surgery 9th ed. (2024)",
   "variants": [
-   "Le Fort fracture เลือดออกมากทางจมูก → ETT แล้ว anterior + posterior packing",
-   "Midface fracture สงสัย cribriform plate หัก → ห้ามใส่ NG/ nasotracheal tube",
-   "Packing แล้วเลือดยังออก → angioembolization"
+   "ชายอุบัติเหตุรถ ใบหน้ายุบ เลือดออกปากจมูกมาก ใส่ ETT ทางปากไม่ได้ → surgical cricothyroidotomy",
+   "ใส่ ETT แล้ว เลือดยังออกจากจมูกด้านหลังต่อเนื่อง → posterior nasal packing ด้วย Foley balloon + anterior packing",
+   "ทำ packing แล้วเลือดยังออก ความดันยังต่ำ → angiographic embolization ของ internal maxillary artery",
+   "ทำไมไม่ใส่ nasotracheal tube ใน Le Fort II/III → อาจมี cribriform plate fracture ท่ออาจหลุดเข้าโพรงกะโหลก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 145 — ตัวพิมพ์: <b>ผู้ป่วยชายได้รับอุบัติเหตุจากรถมอเตอร์ไซค์ พบมี massive oral and nasal bleeding with hypotension? What is the appropriate management? — A. IV fluid B. Endotracheal tube C. Oxygen mask D. Anterior nasal packing E. Set OR for stop bleeding</b> (ไม่มีเลขข้อ)<br>ลายมือ: เครื่องหมาย ! หลัง hypotension · ขีด B<br>ไฮไลต์: \"อุบัติเหตุจากรถมอเตอร์ไซค์\" · \"massive oral and nasal bleeding with hypotension\" · \"appropriate management\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ EMERGENCY TREATMENT — Breathing and ventilation · Circulation and hemorrhage control · Maxillary fracture → hemorrhage from maxillary and palatine artery · สไลด์ EMERGENCY TREATMENT — Profuse nasopharyngeal bleeding control: Anterior nasal packing · Posterior nasal packing · Facial compression dressing · Angiographic demonstration and embolization · Manual reduction of fracture · Bilateral external carotid and superficial temporal artery ligation · Blood and coagulation factor replacement · โน้ตลายมือแผนผัง FACIAL FRACTURE (Phase of care: Emergency care — airway, circulation/ bleeding control · Definitive)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 145",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU66|RoA|X14": {
-  "interp": "ผู้ป่วย 60 kg แผลไหม้ 40% TBSA ได้ RLS 2 ลิตรใน 2 ชม. ถามวิธี<b>ติดตามว่าให้สารน้ำพอ</b>ที่ดีที่สุด",
-  "why": "ตัวชี้วัดที่ดีที่สุดของ burn resuscitation คือ <b>urine output</b> — ปรับอัตราให้ตามปัสสาวะ (ผู้ใหญ่เป้า 0.5 mL/kg/hr ≈ 30–50 mL/hr · เด็ก/ electrical burn 1 mL/kg/hr) · ในช้อยที่มี ข้อ D เป็นการติดตามด้วยปัสสาวะซึ่งดีที่สุด · ไฟล์ขีด D ลายมือ <b>\"1 cc/kg/hr\"</b>",
+  "interp": "ผู้ใหญ่ 60 kg ไฟไหม้ 40% TBSA กำลังได้สารน้ำ resuscitation ระยะแรก มีหัวใจเต้นเร็ว — ถามวิธีที่ดีที่สุดในการติดตามว่าให้สารน้ำพอหรือไม่ ซึ่งคือ urine output ต่อชั่วโมง",
+  "why": "สูตร <b>Parkland = 4 mL × kg × %TBSA</b> (ไฟล์คำนวณ 4 × 40 × 60 = 9,600 mL → ครึ่งแรก 4,800 mL ใน 8 ชม.<b>นับจากเวลาที่ไหม้</b> ไม่ใช่เวลาที่มาถึง ส่วนอีก 4,800 mL ใน 16 ชม.ต่อมา) เป็นแค่<b>จุดเริ่มต้น</b> · ATLS 10th ed. (2018) ปรับเป็น<b>เริ่ม 2 mL × kg × %TBSA</b> ในผู้ใหญ่เพื่อลด fluid creep · การปรับอัตราจริงใช้<b>urine output ต่อชั่วโมง</b>ผ่าน Foley: ผู้ใหญ่ <b>0.5 mL/kg/hr (30–50 mL/hr)</b> · เด็ก &lt; 30 kg 1 mL/kg/hr · electrical injury ที่มี myoglobinuria 1–1.5 mL/kg/hr (75–100 mL/hr) · ถ้าปัสสาวะน้อยกว่าเป้าเพิ่มอัตรา 20–30% มากกว่าเป้าก็ลดลง · ความดันและชีพจรเชื่อถือได้น้อยในผู้ป่วยไฟไหม้ (ปวด กลัว catecholamine สูง วัดความดันบนแขนที่ไหม้ไม่แม่น) · ช้อย D 60 mL/hr = 1 mL/kg/hr สูงกว่าเป้าผู้ใหญ่เล็กน้อยแต่เป็นช้อยเดียวที่ใช้ urine output · ตรงคีย์ D — ไฟล์ขีด D เขียนลายมือ \"<b>1 cc/kg/hr</b>\" และคำนวณ \"<b>4 × 40 × 60 = 9600 cc → ½ 4800 cc in 8 hr</b>\"",
   "wrong": {
-   "A": "BP ไม่ไวพอ (catecholamine คงความดันไว้ได้ทั้งที่ยังขาดน้ำ) HR 160 บ่งว่ายังไม่พอ · จะถูกถ้าคำถามถามเป้า MAP ในผู้ป่วยช็อกทั่วไป",
-   "B": "CVP ไม่ใช่ตัวชี้วัดหลักใน burn resuscitation และค่าคงที่ 17 cmH₂O สูงเกิน · จะถูกถ้าคำถามถามผู้ป่วยหัวใจล้มเหลวที่ต้องติดตามแบบรุกล้ำ",
-   "C": "Hematocrit เปลี่ยนช้าและได้รับผลจากการเสียพลาสมา ไม่ใช่ตัวปรับอัตราสารน้ำรายชั่วโมง · จะถูกถ้าคำถามถามการติดตามภาวะเลือดข้นโดยรวม",
-   "E": "สูตร Parkland ใช้ประมาณการเริ่มต้นเท่านั้น ต้องปรับตามปัสสาวะ (ทำตามเคร่งครัดเสี่ยง fluid creep) · จะถูกถ้าคำถามถามการคำนวณปริมาณสารน้ำเริ่มต้นใน 24 ชม. แรก"
+   "A": "ความดันในช่วงแรกของ burn shock อาจปกติจาก catecholamine และ vasoconstriction ทั้งที่ intravascular volume ยังขาด (ราย&#8203;นี้ชีพจร 160) การยึดความดันจึงทำให้ให้สารน้ำน้อยเกินไป · จะถูกถ้าเป็นหญิง 60 ปีที่มี septic shock ระยะท้ายของการรักษาใน ICU ซึ่งใช้เป้า MAP ≥ 65 mmHg ร่วมกับ lactate ในการปรับ vasopressor",
+   "B": "CVP สะท้อน preload ได้ไม่ดี ไม่แนะนำเป็นเป้าหลักใน burn resuscitation และการตั้งเป้าสูง 17 cmH₂O ทำให้ให้น้ำมากเกิน (fluid creep → abdominal compartment syndrome, ARDS) · จะถูกถ้าเป็นชาย 70 ปี burn 50% TBSA ร่วม heart failure EF 25% ที่ปัสสาวะน้อยแม้ให้สารน้ำมาก จึงต้องใช้ invasive hemodynamic monitoring (เช่น transpulmonary thermodilution) ช่วยแยก",
+   "C": "Hematocrit สูงขึ้นจาก hemoconcentration ในระยะแรกจริง แต่เปลี่ยนช้าและไม่บอกการตอบสนองแบบรายชั่วโมง จึงไม่ใช้ปรับอัตราสารน้ำ · จะถูกถ้าเป็นชาย 50 ปี ภาวะ dengue shock syndrome ที่ใช้ serial Hct ทุก 2–4 ชม. เพื่อดู plasma leakage และปรับสารน้ำ",
+   "E": "Parkland เป็นสูตรตั้งต้น ต้องปรับตาม urine output ทุกชั่วโมง การทำตามอย่างเคร่งครัดทำให้บางรายได้น้ำมากเกินและบางรายไม่พอ (ไฟล์พิมพ์ว่า \"4%kg อย่างเคร่งครัด\") · จะถูกถ้าเป็นชาย 60 kg burn 40% ในชั่วโมงแรกที่ห้องฉุกเฉินซึ่งยังไม่มีข้อมูลปัสสาวะ ใช้สูตรคำนวณอัตราเริ่มต้นก่อนแล้วจึงปรับ"
   },
-  "trap": "ยึดสูตรเคร่งครัด หรือใช้ BP ปกติเป็นเกณฑ์ · สูตรเป็นแค่จุดเริ่มต้น ตัวปรับคือปัสสาวะ",
+  "trap": "คนเลือก \"ทำตาม Parkland อย่างเคร่งครัด\" เพราะท่องสูตรมา — สูตรเป็นแค่อัตรา<b>เริ่มต้น</b> ส่วนการ<b>ติดตาม</b>ใช้ urine output รายชั่วโมงเสมอ · ระวังด้วยว่าเป้าผู้ใหญ่คือ 0.5 mL/kg/hr ส่วน 1 mL/kg/hr เป็นเป้าเด็กและ electrical injury",
   "summary": [
-   "Parkland: 4 mL × kg × %TBSA (ATLS: 2 mL ผู้ใหญ่ · 3 mL เด็ก · 4 mL electrical)",
-   "ครึ่งแรกใน 8 ชม. นับจากเวลาไหม้ · ครึ่งหลังใน 16 ชม.",
-   "ใช้ Ringer lactate",
-   "Urine output: ผู้ใหญ่ 0.5 mL/kg/hr · เด็ก 1 mL/kg/hr · electrical 1–1.5 mL/kg/hr",
-   "Fluid creep → abdominal compartment syndrome",
-   "ใส่ Foley ทุกรายที่แผลไหม้มาก"
+   "Parkland (Baxter): 4 mL × kg × %TBSA ของ Ringer lactate ใน 24 ชม. แรก · ครึ่งแรกใน 8 ชม.นับจากเวลาไหม้ · ATLS 10th ed. ผู้ใหญ่เริ่ม 2 mL, เด็ก 3 mL, electrical 4 mL",
+   "คิด %TBSA เฉพาะ partial + full thickness (ไม่นับ superficial/ first degree) · rule of nines ผู้ใหญ่ · ฝ่ามือผู้ป่วยรวมนิ้ว ≈ 1%",
+   "ข้อบ่งชี้ formal resuscitation: ผู้ใหญ่ ≥ 20% TBSA, เด็ก ≥ 10–15%",
+   "เป้า urine output: ผู้ใหญ่ 0.5 mL/kg/hr (30–50 mL/hr) · เด็ก &lt; 30 kg 1 mL/kg/hr · electrical/ myoglobinuria 1–1.5 mL/kg/hr จนปัสสาวะใส",
+   "ปรับทีละ 20–30% ตามปัสสาวะรายชั่วโมง ห้ามให้ bolus บ่อยเว้นแต่ความดันต่ำจริง · ระวัง fluid creep → abdominal/ extremity compartment syndrome, pulmonary edema",
+   "เด็กเล็ก &lt; 30 kg ให้ maintenance ที่มีน้ำตาล (D5) เพิ่มจากสูตร เพราะ glycogen สำรองน้อย",
+   "ชั่วโมงที่ 24–48: เริ่ม colloid (albumin) ได้ ลดอัตรา crystalloid · ติดตาม electrolyte, Hct, lactate ประกอบ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ATLS ฉบับปัจจุบันใช้เป้า 0.5 mL/kg/hr ในผู้ใหญ่ (≈ 30 mL/hr) ส่วน 60 mL/hr ตามลายมือ (1 cc/kg/hr) เป็นเป้าในเด็ก/ electrical burn แต่หลักคือใช้ปัสสาวะเป็นตัวติดตาม",
-  "mnemonic": "<b>'Burn fluid: สูตรเริ่ม · ปัสสาวะคุม (Formula starts, Urine steers)'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal injuries",
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — urine output รายชั่วโมงคือมาตรฐานการติดตาม ตรงลายมือในไฟล์ · ข้อต่าง: ไฟล์เขียนเป้า \"1 cc/kg/hr\" ซึ่งเป็นเป้าเด็กหรือ electrical injury ส่วนผู้ใหญ่ ABA/ ATLS ใช้ 0.5 mL/kg/hr (30 mL/hr ใน 60 kg) — แต่ในช้อยไม่มีวิธีอื่นที่ใช้ urine output จึงยังเลือก D · ช้อย C ในไฟล์เว้นว่าง เว็บใส่ serial hematocrit",
+  "mnemonic": "<b>'สูตรเริ่ม ปัสสาวะปรับ: Adult ครึ่ง (0.5), Kid หนึ่ง (1), Volt หนึ่งครึ่ง'</b>",
+  "guide": "ATLS 10th ed. (2018) ch. Thermal injuries; American Burn Association Practice Guidelines for Burn Shock Resuscitation (J Burn Care Res 2008; ABLS 2018)",
   "variants": [
-   "ชาย 70 kg ไหม้ 30% → RLS 2 × 70 × 30 = 4,200 mL ใน 24 ชม. ครึ่งแรกใน 8 ชม.",
-   "ปัสสาวะ 15 mL/hr ในผู้ใหญ่ 70 kg → เพิ่มอัตราสารน้ำ",
-   "ไฟฟ้าช็อต ปัสสาวะสีโคล่า → myoglobinuria → เป้าปัสสาวะ 1–1.5 mL/kg/hr"
+   "ชาย 70 kg burn 30% TBSA 2 ชม.ก่อนมาถึง ATLS 10th ed. → RL 2 × 70 × 30 = 4,200 mL ใน 24 ชม. ครึ่งแรก 2,100 mL ใน 6 ชม.ที่เหลือของ 8 ชม.แรก",
+   "ผู้ใหญ่ 60 kg burn 40% ปัสสาวะ 15 mL/hr 2 ชม.ติด ความดันปกติ → เพิ่มอัตรา RL 20–30% (เป้า 30–50 mL/hr)",
+   "ชายถูกไฟฟ้าแรงสูง ปัสสาวะสีโคล่า → RL เป้า urine output 1–1.5 mL/kg/hr (75–100 mL/hr) จนปัสสาวะใส",
+   "ทำไม Hct ไม่ใช้ปรับสารน้ำรายชั่วโมง → เปลี่ยนช้าและสะท้อน hemoconcentration ไม่ใช่การไหลเวียนไปไต"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 145 — ตัวพิมพ์: <b>ผู้ป่วยหนัก 60 kg burn 40% TBSA ก่อนมารพ. 4 ชม. ได้ Ringer lactate solution 2 ลิตร ใน 2 ชม. BP 120/90 HR 160 วิธีที่ดีที่สุดในการ monitor fluid status ในรายนี้คือ? — A. keep BP ประมาณเท่านี้ B. keep CVP (มากหรือน้อยกว่า?) 17 cmH2O C. D. monitor urine output ให้ได้ 60 ml/hr E. ปฏิบัติตาม 4%kg อย่างเคร่งครัด</b> (ไม่มีเลขข้อ)<br>ลายมือ: คำนวณ \"4 × % × kg · 4 × 40 × 60 = 9600 cc → ½ 4800 cc in 8 hr · ½ 4800 cc in 16 hr\" · \"(total body surface area)\" ใต้ TBSA · ขีด D เขียน \"1 cc/kg/hr\"<br>ไฮไลต์: \"หนัก 60 kg burn 40% TBSA ก่อนมารพ. 4 ชม. ได้ Ringer lactate solution 2 ลิตร ใน 2 ชม.\" · \"monitor fluid status\" · D (เหลือง)<br>ที่ปรับในเว็บ: ช้อย C ในไฟล์เว้นว่าง เว็บใส่ Serial hematocrit",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 145",
