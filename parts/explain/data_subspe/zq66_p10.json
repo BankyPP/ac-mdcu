@@ -1,29 +1,31 @@
 {
  "MDCU66|RoC|6": {
-  "interp": "กระดูกใดหักแล้วทำให้<b>การสบฟันผิดปกติ (malocclusion)</b>",
-  "why": "การสบฟันขึ้นกับกระดูกที่<b>มีฟัน</b> คือ <b>mandible และ maxilla</b> · parasymphysis ของ mandible หักทำให้ชิ้นกระดูกเคลื่อน → สบฟันผิด · ไฟล์ขีด D ลายมือ <b>\"mandible, maxilla\"</b>",
+  "interp": "ถามว่ากระดูกใบหน้าส่วนไหนหักแล้วทำให้สบฟันผิด (malocclusion) — ต้องรู้ว่ามีเพียงกระดูกที่มีฟัน (mandible และ maxilla) ที่เคลื่อนแล้วเปลี่ยนการสบฟัน",
+  "why": "<b>Occlusion</b> คือความสัมพันธ์ระหว่างฟันบนบน maxilla กับฟันล่างบน mandible · กระดูกหักที่<b>มีฟันอยู่</b> เมื่อเคลื่อนจะทำให้<b>สบฟันผิด</b>ทันที — ผู้ป่วยบอกว่า \"กัดฟันแล้วไม่เหมือนเดิม\" · <b>Mandible fracture</b> พบบ่อยมาก ตำแหน่ง: condyle, angle, body, <b>parasymphysis/ symphysis</b> (ส่วนหน้า) — ส่วนหน้าหักมีฟันอยู่ทั้งสองฝั่งของรอยหัก กล้ามเนื้อดึงชิ้นส่วนแยก จึงเกิด step ในแนวฟันและ malocclusion ชัด อาจมีชาที่ริมฝีปากล่าง (mental/ inferior alveolar nerve) และเลือดออกที่เหงือก · <b>Maxilla (Le Fort I–III)</b> ก็ทำให้ malocclusion (anterior open bite, mobile maxilla) · กระดูกที่<b>ไม่มีฟัน</b> (zygoma, nasal, orbit, NOE) ไม่ทำให้สบฟันผิด · การรักษา mandible fracture ที่เคลื่อน: <b>คืนการสบฟันก่อน (maxillomandibular fixation, arch bar)</b> แล้ว ORIF ด้วย plate · ตรงคีย์ D — ไฟล์ขีด D และเขียนลายมือเหนือคำว่า occlusion ว่า \"<b>mandible, maxilla</b>\"",
   "wrong": {
-   "A": "Zygoma ไม่มีฟัน การสบฟันมักปกติ (อาจมี trismus) · จะถูกถ้าคำถามถามกระดูกหักที่ทำให้แก้มแบนและชาแก้ม",
-   "B": "Nasal bone หักทำให้จมูกคด เลือดกำเดา · จะถูกถ้าคำถามถามกระดูกที่หักบ่อยที่สุดของใบหน้า",
-   "C": "Orbital blowout ทำให้ diplopia ตาจม มองขึ้นไม่ได้ · จะถูกถ้าคำถามถามกระดูกหักที่ทำให้ inferior rectus ติด",
-   "E": "NOE fracture ทำให้ telecanthus น้ำไขสันหลังรั่วทางจมูก · จะถูกถ้าคำถามถามหัวตาห่างหลังกระแทกกลางหน้า"
+   "A": "Zygoma fracture ทำให้แก้มแบน ชาแก้ม ภาพซ้อน และ trismus จาก arch กด coronoid — อ้าปากยากแต่ฟันยังสบเหมือนเดิมเพราะ zygoma ไม่มีฟัน · จะถูกถ้าเป็นชาย 30 ปีถูกต่อยที่แก้ม มีแก้มแบน ชาริมฝีปากบน และ<b>อ้าปากได้น้อย</b> (คำถามเรื่อง trismus ไม่ใช่ malocclusion)",
+   "B": "Nasal bone fracture เป็นกระดูกใบหน้าที่หักบ่อยที่สุด ทำให้จมูกคด บวม เลือดกำเดา และอาจมี septal hematoma — ไม่เกี่ยวกับฟัน · จะถูกถ้าเป็นชายวัยรุ่นถูกต่อยที่จมูก จมูกเบี้ยว เลือดกำเดาไหล ต้องตรวจ septal hematoma และจัดกระดูกภายใน 1–2 สัปดาห์",
+   "C": "Orbital blowout fracture (floor หรือ medial wall) ทำให้ภาพซ้อน มองขึ้นไม่ได้ enophthalmos ชาแก้ม — ไม่เกี่ยวกับการสบฟัน · จะถูกถ้าเป็นเด็ก 12 ปีถูกลูกบอลกระแทกตา มองขึ้นไม่ได้ ภาพซ้อน คลื่นไส้ หัวใจเต้นช้า (trapdoor fracture with entrapment)",
+   "E": "Naso-orbito-ethmoid (NOE) fracture ทำให้หัวตาห่างกัน (telecanthus) จมูกแบนยุบ อาจมี CSF rhinorrhea และท่อน้ำตาอุด — ไม่มีฟันเกี่ยวข้อง · จะถูกถ้าเป็นชาย 35 ปีหน้ากระแทกพวงมาลัย สันจมูกยุบ ระยะหัวตาห่าง &gt; 35 mm มีน้ำใสไหลจากจมูก"
   },
-  "trap": "คิดว่ากระดูกใบหน้าหักทุกชนิดทำให้สบฟันผิด · เฉพาะกระดูกที่มีฟัน (mandible/ maxilla)",
+  "trap": "Zygoma ทำให้ \"อ้าปากไม่ได้\" คนจึงสับสนกับ \"สบฟันผิด\" — ให้ถามตัวเองว่า<b>กระดูกนั้นมีฟันไหม</b>: มีฟัน (mandible, maxilla) = malocclusion · ไม่มีฟัน (zygoma, nasal, orbit, NOE) = ไม่ทำให้ malocclusion",
   "summary": [
-   "Malocclusion → mandible หรือ maxilla (Le Fort)",
-   "Mandible: parasymphysis · body · angle · condyle",
-   "Mandible ชาคาง (inferior alveolar n.)",
-   "Panorex/ CT ประเมิน mandible",
-   "รักษา: ORIF ± intermaxillary fixation",
-   "Zygoma: trismus แต่สบฟันปกติ"
+   "Malocclusion = กระดูกที่มีฟันเคลื่อน: mandible fracture (บ่อยสุด) หรือ maxilla (Le Fort, palatal fracture)",
+   "Mandible fracture ตำแหน่งบ่อย: condyle (~30%), angle (~25%), body, symphysis/ parasymphysis — มักหัก 2 ตำแหน่ง (ring structure) เช่น parasymphysis + condyle ฝั่งตรงข้าม",
+   "อาการ mandible: สบฟันผิด, step ในแนวฟัน, เลือดใต้ลิ้น (sublingual hematoma — จำเพาะสูง), ชาริมฝีปากล่าง/ คาง, อ้าปากเบี้ยว",
+   "Imaging: panoramic + PA mandible หรือ CT · condyle ใช้ Towne view/ CT",
+   "Bilateral parasymphyseal fracture: ชิ้นส่วนหน้าลอย กล้าม genioglossus ดึงลิ้นตก → airway obstruction",
+   "รักษา: คืน occlusion ด้วย MMF/ arch bar ก่อน → ORIF (Champy miniplate ตาม ideal osteosynthesis line) · กระดูกหักผ่านฟัน = open fracture ให้ยาปฏิชีวนะ",
+   "Condylar fracture ส่วนใหญ่ (โดยเฉพาะเด็ก) รักษาแบบปิด (closed treatment + ฝึกอ้าปาก) เพื่อเลี่ยง ankylosis"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'กระดูกมีฟัน (Mandible/ Maxilla) → สบฟันผิด'</b>",
-  "guide": "Fonseca's Oral and Maxillofacial Trauma 4th ed. (2013) — Mandible fractures",
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — parasymphysis ของ mandible เป็นช้อยเดียวที่เป็นกระดูกที่มีฟัน ตรงลายมือในไฟล์ \"mandible, maxilla\" ซึ่งสรุปหลักการไว้ครบ",
+  "mnemonic": "<b>'มีฟัน = สบผิด (Mandible/ Maxilla) · ไม่มีฟัน = สบได้ (Zygoma/ Nose/ Orbit)'</b>",
+  "guide": "AO Surgery Reference – CMF: Mandible fractures; Grabb and Smith's Plastic Surgery 9th ed. (2024) ch. Mandible fractures",
   "variants": [
-   "ถูกต่อยคาง สบฟันไม่ลง ชาริมฝีปากล่าง → mandible fracture → Panorex",
-   "กระแทกกลางหน้า ฟันบนโยกทั้งแผง open bite → Le Fort fracture",
-   "ถูกต่อยแก้ม อ้าปากไม่ได้ แต่สบฟันปกติ → zygomatic arch fracture"
+   "ชาย 22 ปีถูกต่อยคาง สบฟันผิด มีขั้นบันไดในแนวฟันหน้าล่าง เลือดใต้ลิ้น → mandible parasymphysis fracture ทำ MMF + ORIF",
+   "ชายถูกต่อยคางซ้าย สบฟันผิด เจ็บหน้าหูขวา → มองหา condylar fracture ฝั่งตรงข้าม (mandible หัก 2 ตำแหน่ง)",
+   "ชายอุบัติเหตุรถ เพดานแข็งขยับได้ทั้งแผง ฟันหน้าสบไม่ชน → Le Fort I fracture",
+   "ทำไม mandible fracture ที่ผ่านแนวฟันถือเป็น open fracture → รอยหักเปิดสู่ช่องปากผ่านเหงือกและ periodontal ligament ต้องให้ยาปฏิชีวนะ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 150 — ตัวพิมพ์: <b>6. กระดูกอะไรถ้ามี fracture แล้วจะมี occlusion ผิดปกติ — A. zygoma B. nasal C. blow out fracture of orbit D. parasymphysis of mandible E. nasoethmoid orbital fracture</b><br>ลายมือ: เขียน \"mandible, maxilla\" เหนือ occlusion · เครื่องหมายคำพูดที่ \"mandible\" · ขีด D<br>ไฮไลต์: \"fracture แล้วจะมี occlusion ผิดปกติ\" · D (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 150",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU66|RoC|7": {
-  "interp": "ชายมี<b>ร่องรอยไฟไหม้ที่ใบหน้า</b> ระหว่างอยู่ในรถฉุกเฉิน ถามสิ่งที่เหมาะสมที่สุด",
-  "why": "แผลไหม้ใบหน้าเสี่ยง <b>inhalation injury และ CO poisoning</b> → ให้ <b>O₂ ความเข้มข้นสูง</b> ทันที (CO half-life ลดจาก ~4 ชม. เหลือ ~30–60 นาทีเมื่อได้ 100% O₂) และเฝ้าระวังทางเดินหายใจ · ไฟล์ขีด C ลายมือ <b>\"t½ CO 4 hr → 30 min\"</b>",
+  "interp": "ชายมีร่องรอยไฟไหม้ที่ใบหน้า ระหว่างอยู่ในรถฉุกเฉิน/ ห้องฉุกเฉิน — ใบหน้าไหม้บ่งชี้ความเสี่ยง inhalation injury และพิษ carbon monoxide ถามสิ่งที่เหมาะที่สุดที่ต้องทำ ซึ่งคือให้ออกซิเจนความเข้มข้นสูง",
+  "why": "แผลไหม้ที่<b>ใบหน้า</b> ในเหตุไฟไหม้ (โดยเฉพาะในที่ปิด) ต้องสงสัย <b>inhalation injury</b> และ <b>carbon monoxide (CO) poisoning</b> จนกว่าจะพิสูจน์ว่าไม่ใช่ · CO จับ hemoglobin แน่นกว่า O₂ ราว <b>200–250 เท่า</b> ทำให้ขนส่งออกซิเจนไม่ได้และ oxygen dissociation curve เลื่อนซ้าย · <b>ให้ 100% O₂ ทาง non-rebreather mask (10–15 L/min) ทันที</b> เป็นทั้งการรักษาและการป้องกัน: ลด half-life ของ COHb จาก <b>~4–5 ชม. (หายใจอากาศ) เหลือ ~60–90 นาที</b> (hyperbaric ~20–30 นาที) · เป็นขั้น <b>B (Breathing)</b> ของ primary survey ที่ทำได้ทันทีระหว่างนำส่ง พร้อมประเมิน airway ว่าต้องใส่ท่อหรือไม่ (เสียงแหบ stridor เขม่า ขนจมูกไหม้) · การคำนวณ %TBSA และสารน้ำเป็นขั้นตามมา · ตรงคีย์ C — ไฟล์ขีด C ใส่เครื่องหมายคำพูดที่คำว่า \"<b>ใน</b>\" (ในรถฉุกเฉิน) และเขียนลายมือ \"<b>t½ CO 4 hr → 30 min</b>\"",
   "wrong": {
-   "A": "Central line ไม่ใช่สิ่งแรก และควรเปิด peripheral IV ขนาดใหญ่ก่อน · จะถูกถ้าคำถามถามผู้ป่วยไหม้มากที่หาเส้นส่วนปลายไม่ได้ในโรงพยาบาล",
-   "B": "การประเมิน %TBSA ทำหลัง ABC เพื่อคำนวณสารน้ำ · จะถูกถ้าคำถามถามขั้นตอนหลังจัดการทางเดินหายใจแล้ว",
-   "D": "ผ้าชุบ NSS เปียกปิดแผลใหญ่ทำให้ตัวเย็น (hypothermia) ควรใช้ผ้าแห้งสะอาด · จะถูกถ้าคำถามถามการทำให้แผลไหม้เล็กเย็นลงในช่วงแรก (น้ำเย็น 20 นาที)",
-   "E": "Chest escharotomy ใช้เมื่อแผล full-thickness รอบอกจนหายใจไม่ได้ · จะถูกถ้าคำถามถามแผลไหม้แข็งรอบอก peak airway pressure สูง"
+   "A": "Central line ไม่ใช่สิ่งแรกและไม่ควรทำในรถฉุกเฉิน — การให้สารน้ำใน burn ใช้ peripheral IV ขนาดใหญ่ 2 เส้นก่อน (แทงผ่านผิวที่ไหม้ได้ถ้าจำเป็น) · จะถูกถ้าเป็นชาย 40 ปี burn 70% TBSA ทั้งแขนขาไหม้ลึก เปิด peripheral IV ไม่ได้และ intraosseous ไม่สำเร็จ ในห้องฉุกเฉินที่มีความพร้อม",
+   "B": "การประเมิน %TBSA สำคัญสำหรับคำนวณสารน้ำและตัดสินใจส่งต่อ แต่ทำหลัง primary survey และไม่ได้แก้ภาวะคุกคามชีวิตทันที (airway/ CO) · จะถูกถ้าเป็นหญิง 30 ปีน้ำร้อนลวกที่ขาและลำตัวในที่โล่ง ไม่มีแผลที่ใบหน้า ทางเดินหายใจปกติ ได้ออกซิเจนและเปิด IV แล้ว",
+   "D": "ผ้าชุบน้ำเกลือเย็นใช้ลดความร้อนบนแผลในช่วงแรก (cooling 20 นาที ภายใน 3 ชม.) แต่ไม่แก้ภาวะคุกคามชีวิต และการประคบเปียกบริเวณกว้างทำให้ตัวเย็นเกิน (hypothermia) · จะถูกถ้าเป็นเด็ก 5 ขวบน้ำร้อนลวกที่แขนเพิ่งเกิด 5 นาที แผลเล็ก &lt; 10% TBSA ไม่มีอาการทางเดินหายใจ (ใช้น้ำไหลอุณหภูมิห้องเย็น 20 นาที)",
+   "E": "Chest escharotomy ใช้เมื่อแผลไหม้ลึกเต็มชั้นรอบทรวงอกจนหายใจไม่ได้ ไม่ใช่สำหรับแผลที่ใบหน้า และไม่ทำในรถฉุกเฉิน · จะถูกถ้าเป็นชาย 35 ปี แผลไหม้ลึกรอบลำตัว ใส่ท่อแล้ว ventilation ยากขึ้น peak airway pressure สูงเรื่อย ๆ"
   },
-  "trap": "ทำหัตถการหรือคำนวณ %TBSA ก่อนให้ออกซิเจน · ABC ต้องมาก่อน",
+  "trap": "คำนวณ %TBSA เป็นสิ่งที่ท่องมาสำหรับ burn คนจึงอยากทำก่อน — แต่ลำดับคือ <b>ABC ก่อนเสมอ</b> · แผลที่<b>หน้า</b> = เสี่ยง inhalation/ CO → <b>100% O₂ ทันที</b> และ SpO₂ ปกติไม่ได้ตัดพิษ CO",
   "summary": [
-   "ไหม้ใบหน้า/ ในที่ปิด → สงสัย inhalation + CO",
-   "100% O₂ ทันที (non-rebreather)",
-   "เสียงแหบ stridor เขม่าในปาก → ใส่ท่อแต่เนิ่น ๆ",
-   "SpO₂ ปกติลวงใน CO → ตรวจ COHb",
-   "หยุดการไหม้ · ห่มผ้าแห้ง ป้องกันตัวเย็น",
-   "ประเมิน %TBSA (rule of nines) แล้วให้สารน้ำ"
+   "Burn primary survey: Airway (inhalation injury → ใส่ท่อเร็ว) → Breathing (100% O₂, escharotomy ถ้าจำเป็น) → Circulation (2 large-bore IV) → Disability → Exposure/ หยุดการไหม้",
+   "CO poisoning: ปวดศีรษะ คลื่นไส้ สับสน หมดสติ · SpO₂ ปกติหลอก · วัด COHb ด้วย co-oximetry · สูบบุหรี่มี COHb พื้นฐานได้ถึง ~10%",
+   "Half-life COHb: อากาศ ~4–5 ชม. · 100% O₂ ~60–90 นาที · hyperbaric O₂ ~20–30 นาที",
+   "Hyperbaric O₂ พิจารณาเมื่อ COHb &gt; 25% (ตั้งครรภ์ &gt; 15–20%), หมดสติ, อาการทางระบบประสาท, หัวใจขาดเลือด",
+   "First aid: หยุดการไหม้ ถอดเครื่องประดับ cooling ด้วยน้ำไหล 20 นาทีภายใน 3 ชม. · ห้ามใช้น้ำแข็ง · ห่มผ้าแห้งสะอาดกันตัวเย็น",
+   "Secondary survey: %TBSA (rule of nines, palm 1%), ความลึก, คำนวณสารน้ำ, Foley, NG tube (burn &gt; 20%), tetanus",
+   "ส่ง burn center: ใบหน้า มือ เท้า อวัยวะเพศ ข้อใหญ่, inhalation injury, &gt; 10–20% TBSA, full thickness, ไฟฟ้า/ สารเคมี"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'ไฟไหม้หน้า → O₂ ก่อน (CO ครึ่งชีวิต 4 ชม. → 30–60 นาที)'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal injuries",
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — การให้ออกซิเจนความเข้มข้นสูงเป็นสิ่งที่ทำได้ทันทีและแก้ภาวะคุกคามชีวิตจาก CO ตรงลายมือในไฟล์ \"t½ CO 4 hr → 30 min\" (ตัวเลขในตำราราว 60–90 นาทีสำหรับ 100% O₂ ทาง mask ส่วน 20–30 นาทีเป็นของ hyperbaric) · ไฟล์มีช้อย A–D เว็บเพิ่ม E chest escharotomy",
+  "mnemonic": "<b>'หน้าไหม้ = คิดถึงควัน → O₂ 100% ก่อนนับเปอร์เซ็นต์'</b>",
+  "guide": "ATLS 10th ed. (2018) ch. Thermal injuries; American Burn Association ABLS Provider Manual 2018; UHMS Hyperbaric Oxygen Therapy Indications 14th ed. (2019)",
   "variants": [
-   "ไฟไหม้ในบ้าน ปวดศีรษะ สับสน → CO poisoning → 100% O₂",
-   "แผลไหม้ใบหน้า เสียงแหบ ขนจมูกไหม้ → intubation",
-   "แผลไหม้รอบอกแข็ง หายใจลำบาก → escharotomy"
+   "ชาย 50 ปีหนีไฟจากห้องปิด ปวดศีรษะ สับสน SpO₂ 99% → 100% O₂ non-rebreather และวัด COHb",
+   "หญิงตั้งครรภ์ 28 สัปดาห์ COHb 20% หลังไฟไหม้บ้าน → พิจารณา hyperbaric oxygen",
+   "ชายหน้าไหม้ เสียงแหบมากขึ้น มี stridor → ใส่ endotracheal tube ทันทีก่อนทางเดินหายใจบวมปิด",
+   "ทำไม pulse oximetry หลอกในพิษ CO → เครื่องแยกแสงของ carboxyhemoglobin กับ oxyhemoglobin ไม่ได้"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 150 — ตัวพิมพ์: <b>7. ชายมีร่องรอยไฟไหม้บริเวณหน้า ระหว่างอยู่ในรถฉุกเฉินจะทำอะไรเหมาะสมที่สุด — A. แทง central line B. คิดเปอร์เซ็นburn C. O2 mask 10L D. ใช้ก๊อซชุบNSSประคบแผล</b><br>ลายมือ: เครื่องหมายคำพูดที่ \"ใน\" · ขีด C เขียน \"t½ CO 4 hr → 30 min\"<br>ไฮไลต์: \"ร่องรอยไฟไหม้บริเวณหน้า\" · \"ในรถฉุกเฉินจะทำอะไรเหมาะสมที่สุด\" · C (เหลือง)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–D เว็บเพิ่ม E Chest escharotomy",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 150",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU66|RoC|8": {
-  "interp": "ชายอายุ 20 กว่าปี มี acute anal fissure แต่<b>ญาติเป็นมะเร็งลำไส้ 3 คน อายุ 25, 30, 40</b> ถามคำแนะนำการคัดกรอง",
-  "why": "ญาติ 3 คนเป็นมะเร็งลำไส้ตั้งแต่อายุน้อย เข้าได้กับ <b>Lynch syndrome (HNPCC)</b> → <b>colonoscopy ทันที (อายุ &gt; 20–25 ปีแล้ว) และทุก 1–2 ปี</b> · ไฟล์ขีด B ลายมือ <b>\"1st degree &lt; 60 yr @ ≥ 2 คน → screen @ 40 yr ⊕ อายุน้อยสุด −10\"</b>",
+  "interp": "ชายอายุยี่สิบกว่ามีอาการของแผลปริขอบทวาร แต่ประวัติครอบครัวมีญาติเป็นมะเร็งลำไส้ใหญ่ 3 คนตั้งแต่อายุ 25, 30, 40 — เข้าเกณฑ์ Amsterdam ของ Lynch syndrome (HNPCC) ถามแนวทางการคัดกรองมะเร็งลำไส้",
+  "why": "ญาติเป็นมะเร็งลำไส้<b>3 คน</b> ในหลายรุ่น และมีคน<b>อายุ &lt; 50 ปี</b> เข้าเกณฑ์ <b>Amsterdam II (3-2-1)</b> ของ <b>Lynch syndrome (HNPCC)</b> — autosomal dominant จาก mismatch repair gene (<b>MLH1, MSH2, MSH6, PMS2, EPCAM</b>) · ความเสี่ยงมะเร็งลำไส้ตลอดชีวิตราว <b>50–80%</b> (ขึ้นกับยีน) เกิดเร็ว (เฉลี่ย ~45 ปี) ส่วนใหญ่ฝั่งขวา และจาก adenoma กลายเป็นมะเร็งเร็ว (<b>accelerated carcinogenesis ~2–3 ปี</b>) · ดังนั้นการคัดกรองคือ <b>colonoscopy เริ่มอายุ 20–25 ปี (หรือ 2–5 ปีก่อนอายุญาติที่เป็นเร็วที่สุด) แล้วทำซ้ำทุก 1–2 ปี</b> — ผู้ป่วยอายุยี่สิบกว่าและญาติเป็นตั้งแต่ 25 ปี จึงต้อง<b>ส่องกล้องเลย</b> · ร่วมกับส่งปรึกษา genetic counseling ตรวจยีน และคัดกรองมะเร็งอื่น (endometrium, ovary, กระเพาะ, ท่อไต) · anal fissure เป็นปัญหาเฉพาะที่ที่รักษาแยกได้ · ตรงคีย์ B — ไฟล์ขีด B และเขียนลายมือเหนืออายุญาติว่า \"<b>1st degree &lt; 60 yr @ ≥ 2 คน → screen @ 40 yr ⊕ อายุน้อยสุด −10</b>\" และ HNPCC ทำทุก 1–2 ปี",
   "wrong": {
-   "A": "เริ่ม 40 ปี ทุก 5 ปี เป็นเกณฑ์ญาติสายตรงทั่วไป ช้าเกินไปสำหรับ Lynch · จะถูกถ้าคำถามถามญาติสายตรง 1 คนเป็นมะเร็งอายุ 55 ปี",
-   "C": "Stool occult blood ไม่พอในกลุ่มเสี่ยงสูง · จะถูกถ้าคำถามถามการคัดกรองคนทั่วไป (FIT ทุกปี)",
-   "D": "FOBT + rigid sigmoidoscopy ไม่ครอบคลุมลำไส้ขวาซึ่งเป็นตำแหน่งเด่นของ Lynch · จะถูกถ้าคำถามถามวิธีคัดกรองแบบเก่าในคนทั่วไป",
-   "E": "Barium enema ไม่ใช้คัดกรองแล้ว · จะถูกถ้าคำถามถามผู้ที่ส่องกล้องไม่ได้ในอดีต"
+   "A": "Colonoscopy ที่อายุ 40 ปีแล้วทุก 5 ปี เป็นการคัดกรองของผู้มี first-degree relative เป็นมะเร็งลำไส้ ≥ 1 คนที่อายุ &lt; 60 ปี (หรือ 10 ปีก่อนอายุญาติ) — ไม่พอสำหรับ Lynch ที่มะเร็งเกิดเร็วและเร็วมาก · จะถูกถ้าเป็นชาย 35 ปีที่พ่อเป็นมะเร็งลำไส้ตอนอายุ 55 ปี เพียงคนเดียว ไม่มีญาติอื่นเป็นมะเร็ง",
+   "C": "FOBT ปีละ 2 ครั้งเป็นการคัดกรองแบบประชากรทั่วไป (ปกติทำปีละครั้ง) ความไวต่อ adenoma ต่ำ ไม่เหมาะกับกลุ่มเสี่ยงสูงทางพันธุกรรม · จะถูกถ้าเป็นชาย 55 ปีความเสี่ยงเฉลี่ย ไม่มีประวัติครอบครัว ไม่ต้องการส่องกล้อง เลือก FIT ปีละครั้ง",
+   "D": "FOBT ร่วม sigmoidoscopy ทุก 2 ปีเป็นรูปแบบคัดกรองความเสี่ยงเฉลี่ยแบบเก่า (sigmoidoscopy ทุก 5–10 ปี) และ sigmoidoscopy ไม่เห็นลำไส้ฝั่งขวาที่ Lynch มักเกิด · จะถูกถ้าเป็นหญิง 60 ปีความเสี่ยงเฉลี่ยที่เลือก flexible sigmoidoscopy ทุก 10 ปีร่วม FIT ปีละครั้ง",
+   "E": "Barium enema ไม่ใช่วิธีคัดกรองที่แนะนำแล้ว ความไวต่อ polyp ขนาดเล็กต่ำและตัดชิ้นเนื้อไม่ได้ · จะถูกถ้าเป็นชาย 70 ปีที่ต้องดูกายวิภาคของลำไส้ใหญ่ก่อนผ่าตัด เช่นสงสัย colovesical fistula หรือ colonoscopy ผ่านไม่ได้เพราะลำไส้ตีบ (ปัจจุบันใช้ CT colonography แทน)"
   },
-  "trap": "แผล fissure เป็นสาเหตุของอาการ แต่ประวัติครอบครัวต่างหากที่กำหนดการคัดกรอง",
+  "trap": "อาการของผู้ป่วยเป็นแค่ anal fissure ซึ่งไม่ต้องส่องกล้อง ทำให้คนเลือกคัดกรองตามปกติ — แต่<b>ประวัติครอบครัว 3 คนอายุน้อย = Lynch</b> ต้องเริ่ม colonoscopy ทันทีและถี่ทุก 1–2 ปี เพราะ adenoma กลายเป็นมะเร็งเร็ว",
   "summary": [
-   "Lynch: colonoscopy ทุก 1–2 ปี เริ่ม 20–25 ปี",
-   "Amsterdam II: 3 คน · 2 รุ่น · 1 คน &lt; 50 ปี",
-   "ญาติสายตรง &lt; 60 ปี: เริ่ม 40 ปี/ 10 ปีก่อนญาติที่อายุน้อยสุด ทุก 5 ปี",
-   "FAP: sigmoidoscopy ทุกปีเริ่ม 10–12 ปี",
-   "Lynch: มะเร็งลำไส้ขวา endometrium ovary",
-   "ส่งตรวจยีน MMR และ genetic counseling"
+   "Amsterdam II (3-2-1): ญาติ ≥ 3 คนเป็นมะเร็งกลุ่ม Lynch (ลำไส้, endometrium, ลำไส้เล็ก, ท่อไต/ กรวยไต), 1 คนเป็น first-degree ของอีก 2 คน, ≥ 2 รุ่นติดกัน, ≥ 1 คนอายุ &lt; 50 ปี, ไม่ใช่ FAP",
+   "Lynch: germline mutation ของ MMR gene → microsatellite instability · ตรวจ MMR IHC/ MSI ในเนื้อมะเร็งลำไส้ทุกราย (universal screening)",
+   "คัดกรอง Lynch: colonoscopy เริ่ม 20–25 ปี (MLH1/MSH2) หรือ 2–5 ปีก่อนญาติที่เป็นเร็วสุด ทำซ้ำทุก 1–2 ปี · MSH6/PMS2 เริ่ม 30–35 ปี",
+   "มะเร็งอื่นใน Lynch: endometrium (ความเสี่ยงสูงสุดในหญิง ~40–60%), ovary, กระเพาะ, ลำไส้เล็ก, ท่อไต, ตับอ่อน · พิจารณา prophylactic hysterectomy + BSO หลังมีบุตรครบ",
+   "Aspirin ระยะยาวลดมะเร็งลำไส้ใน Lynch (CAPP2)",
+   "ความเสี่ยงเฉลี่ย: เริ่มคัดกรองอายุ 45–50 ปี (colonoscopy ทุก 10 ปี หรือ FIT ทุกปี) · first-degree &lt; 60 ปีหรือ ≥ 2 คน: colonoscopy อายุ 40 หรือ 10 ปีก่อนญาติ ทุก 5 ปี",
+   "FAP: APC gene, polyp หลายร้อยถึงพันตัว · flexible sigmoidoscopy/ colonoscopy เริ่ม 10–12 ปี ทุกปี → prophylactic colectomy"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Lynch = 3-2-1 → ส่องทุก 1–2 ปี'</b>",
-  "guide": "NCCN Clinical Practice Guidelines in Oncology: Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric (current version)",
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — ประวัติครอบครัวเข้าเกณฑ์ Amsterdam ของ Lynch ตรงกับลายมือในไฟล์ที่เขียน HNPCC ทำทุก 1–2 ปี · ข้อสังเกต: ลายมือส่วนแรกในไฟล์ (\"screen @ 40 yr ⊕ อายุน้อยสุด −10\") เป็นเกณฑ์ของ familial CRC ทั่วไป ไม่ใช่ Lynch ซึ่งคำตอบ B ถูกต้องกว่า และควรส่ง genetic counseling ด้วย",
+  "mnemonic": "<b>'Lynch 3-2-1 → ส่องตั้งแต่ 20–25 ทุก 1–2 ปี (เพราะ Adenoma วิ่งเร็ว)'</b>",
+  "guide": "NCCN Guidelines: Genetic/Familial High-Risk Assessment: Colorectal v2.2024; US Multi-Society Task Force on CRC — Lynch syndrome (Gastroenterology 2014) and CRC screening (2022)",
   "variants": [
-   "ครอบครัวมีมะเร็งลำไส้และมดลูกหลายคนอายุน้อย → Lynch → colonoscopy ทุก 1–2 ปี",
-   "พ่อเป็นมะเร็งลำไส้อายุ 50 ปี → ลูกเริ่ม colonoscopy 40 ปี ทุก 5 ปี",
-   "วัยรุ่นพ่อเป็น FAP → sigmoidoscopy ทุกปี"
+   "หญิง 23 ปี แม่เป็นมะเร็งเยื่อบุโพรงมดลูกอายุ 45 ตาเป็นมะเร็งลำไส้อายุ 48 น้าเป็นมะเร็งลำไส้อายุ 40 → Lynch: colonoscopy เลยแล้วทุก 1–2 ปี + genetic counseling",
+   "ชาย 38 ปี พ่อเป็นมะเร็งลำไส้ตอนอายุ 50 คนเดียว → colonoscopy อายุ 40 (หรือ 10 ปีก่อนพ่อ) ทุก 5 ปี",
+   "ชาย 50 ปี ความเสี่ยงเฉลี่ย ไม่มีอาการ → colonoscopy ทุก 10 ปี หรือ FIT ทุกปี",
+   "ทำไม Lynch ต้องส่องทุก 1–2 ปี → adenoma ที่ขาด mismatch repair กลายเป็นมะเร็งได้ภายใน 2–3 ปี (เร็วกว่าปกติ 10 ปี)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 150 — ตัวพิมพ์: <b>8. มีชายคนนึง อายุยี่สิบกว่าๆ เขามี perianal pain และ bleedingแต่ไม่มี bowel habit change เขามีญาติเป็น colon cancer 3 คน ตอนอายุ 25 30 40 ประมาณนั้น ตรวจเพิ่มเติมในชายคนนี้พบว่าเป็น acute anal fissure ควรให้เขาทำอะไร — A. Colonoscope at age 40, then every 5 years B. Colonoscope immediately, then every 1-2 years C. Stool occult blood twice a year D. Stool occult blood with rigid sigmoidoscope every 2 years E. Barium enema every 3 years</b><br>ลายมือ: เครื่องหมายคำพูดที่ \"ยี่สิบกว่าๆ\" · \"1st degree &lt; 60 yr @ ≥ 2 คน → screen @ 40 yr ⊕ อายุน้อยสุด −10\" เหนือ 25 30 40 · ขีด B<br>ไฮไลต์: \"ชายคนนึง อายุยี่สิบกว่าๆ\" · \"perianal pain\" · \"bleeding\" · \"ไม่มี bowel habit change\" · \"ญาติเป็น colon cancer 3 คน ตอนอายุ 25 30 40\" · \"acute anal fissure\" · \"ให้เขาทำอะไร\" · B (เหลือง)<br>รูปที่แปะ: แผนผังการคัดกรองมะเร็งลำไส้ (Symptoms of CRC? → Risk? → Age/ Personal history/ Family history → Average risk screening/ Surveillance/ Genetic syndromes) · Presence of symptoms → Diagnostic test · Absence of symptoms → Average risk: screening · Increased risk: surveillance พร้อมโน้ตลายมือ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 150",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU66|RoC|9": {
-  "interp": "ถามตำแหน่งที่พบ<b>แผลกดทับ</b>บ่อยที่สุดในผู้ป่วย<b>นั่งรถเข็น</b>",
-  "why": "ท่านั่งลงน้ำหนักที่ <b>ischial tuberosity</b> จึงเป็นตำแหน่งแผลกดทับที่พบบ่อยที่สุดในผู้ใช้รถเข็น · ส่วนผู้ป่วยนอนหงายพบที่ sacrum มากที่สุด · ไฟล์ขีด A ลายมือ <b>\"ถ้า sitting\"</b> และ <b>\"supine → sacral area\"</b>",
+  "interp": "ถามตำแหน่งที่พบแผลกดทับบ่อยที่สุดในผู้ป่วยที่นั่งรถเข็น — ต้องรู้ว่าตำแหน่งแผลกดทับขึ้นกับท่า: นั่งกดที่ปุ่มกระดูกก้นกบ ischial tuberosity ส่วนนอนหงายกดที่ sacrum",
+  "why": "<b>Pressure injury</b> เกิดเมื่อแรงกดเหนือ capillary closing pressure (~<b>32 mmHg</b>) นานเกิน 2 ชม. บน<b>ปุ่มกระดูก</b> ร่วมกับแรงเฉือน (shear) ความชื้น และภาวะทุพโภชนาการ · กล้ามเนื้อทนการขาดเลือดได้น้อยกว่าผิวหนัง จึงเสียหายลึกก่อน (ปลายภูเขาน้ำแข็ง/ cone-shaped) · ตำแหน่งตามท่า: <b>นั่ง (รถเข็น)</b> → <b>ischial tuberosity</b> (รับน้ำหนักตัวส่วนใหญ่เวลานั่ง) · <b>นอนหงาย</b> → <b>sacrum</b> (บ่อยที่สุดโดยรวม), ส้นเท้า, ท้ายทอย · <b>นอนตะแคง</b> → greater trochanter, lateral malleolus · ผู้ป่วยไขสันหลังบาดเจ็บที่นั่งรถเข็นเป็นกลุ่มที่เกิด ischial ulcer บ่อยที่สุด · ป้องกัน: <b>ยกตัว/ เปลี่ยนน้ำหนักทุก 15–30 นาทีขณะนั่ง</b>, เบาะกระจายแรงกด, พลิกตัวทุก 2 ชม.เมื่อนอน · stage 3–4 ที่ไม่หายรักษาด้วย debridement แล้วปิดด้วย <b>flap</b> (ischial → hamstring/ inferior gluteal thigh flap) · ตรงคีย์ A — ไฟล์ขีด A เขียน \"<b>ถ้า sitting</b>\" และ \"<b>supine → sacral area</b>\" พร้อมโน้ตลายมือแผนผังจุดกดทับในท่านอนและท่านั่ง",
   "wrong": {
-   "B": "Greater trochanter พบในท่า<b>นอนตะแคง</b> · จะถูกถ้าคำถามถามผู้ป่วยที่นอนตะแคงตลอด",
-   "C": "Perineum ไม่ใช่จุดรับน้ำหนักหลัก · จะถูกถ้าคำถามถามแผลจากความชื้น/ ปัสสาวะอุจจาระ (incontinence dermatitis)",
-   "D": "Heel พบในผู้ป่วยนอนหงายติดเตียง · จะถูกถ้าคำถามถามผู้ป่วยนอนหงายที่ขาเหยียดตรง",
-   "E": "Occiput พบในทารก/ ผู้ป่วยนอนหงายศีรษะไม่ขยับ · จะถูกถ้าคำถามถามทารกใน NICU"
+   "B": "Greater trochanter เป็นจุดกดทับเมื่อ<b>นอนตะแคง</b> ไม่ใช่ท่านั่ง · จะถูกถ้าเป็นหญิง 80 ปีหลังผ่าตัดสะโพก นอนตะแคงข้างเดียวเป็นส่วนใหญ่บนเตียง มีแผลลึกที่ด้านข้างสะโพก",
+   "C": "Perineum ไม่ใช่ปุ่มกระดูกที่รับน้ำหนัก แผลบริเวณนี้มักเกิดจากความชื้น ปัสสาวะอุจจาระ (incontinence-associated dermatitis) มากกว่าแรงกด · จะถูกถ้าเป็นชาย 85 ปีกลั้นอุจจาระปัสสาวะไม่ได้ ใส่ผ้าอ้อมตลอด มีผื่นแดงถลอกตื้น ๆ ทั่วฝีเย็บและก้น (moisture-associated skin damage ไม่ใช่ pressure injury)",
+   "D": "ส้นเท้าเป็นจุดกดทับที่พบบ่อยอันดับสองรองจาก sacrum เมื่อ<b>นอนหงาย</b> (เท้าวางบนที่นอน) ไม่ใช่ขณะนั่งรถเข็นที่เท้าวางบนที่พัก · จะถูกถ้าเป็นชาย 70 ปี stroke นอนหงายติดเตียง เป็นเบาหวานและ PAD มีแผลดำแห้งที่ส้นเท้า",
+   "E": "ท้ายทอยเป็นจุดกดทับเมื่อนอนหงาย โดยเฉพาะ<b>ทารกและเด็กเล็ก</b> (ศีรษะใหญ่เมื่อเทียบกับตัว) หรือผู้ป่วยใส่ปลอกคอนาน · จะถูกถ้าเป็นทารกใน ICU ที่นอนหงายใส่เครื่องช่วยหายใจนาน 3 สัปดาห์ มีแผลที่ท้ายทอย"
   },
-  "trap": "ตอบ sacrum ตามความคุ้นเคยของผู้ป่วยติดเตียง · คำถามระบุ wheelchair",
+  "trap": "คนท่องว่า <b>sacrum บ่อยที่สุด</b> จึงตอบผิด — sacrum บ่อยที่สุด \"โดยรวม\" (ผู้ป่วยติดเตียง) แต่โจทย์ระบุ<b>รถเข็น = ท่านั่ง</b> จุดที่รับน้ำหนักคือ ischial tuberosity",
   "summary": [
-   "นั่ง: ischial tuberosity",
-   "นอนหงาย: sacrum &gt; heel &gt; occiput",
-   "นอนตะแคง: greater trochanter",
-   "Stage 1: ผิวแดงกดไม่จาง · 2: ตุ่มน้ำ/ ถึง dermis",
-   "Stage 3: ถึง subcutaneous · 4: ถึงกล้ามเนื้อ/ กระดูก",
-   "ป้องกัน: พลิกตัวทุก 2 ชม. · ยกตัวทุก 15–30 นาทีเมื่อนั่ง"
+   "ตำแหน่งตามท่า: นอนหงาย → sacrum (บ่อยสุดโดยรวม), ส้นเท้า, ท้ายทอย, scapula · นั่ง → ischial tuberosity · ตะแคง → greater trochanter, lateral malleolus",
+   "ปัจจัย: แรงกด &gt; 32 mmHg นาน &gt; 2 ชม., shear, friction, ความชื้น, ทุพโภชนาการ, การรับรู้ความรู้สึกลดลง (SCI), อายุมาก",
+   "NPIAP stage: 1 ผิวไม่ฉีก แดงกดไม่จาง · 2 สูญเสียหนังบางส่วน/ ตุ่มน้ำ · 3 ถึงไขมันใต้ผิว · 4 ถึงกล้ามเนื้อ เอ็น กระดูก · unstageable (ปิดด้วย slough/ eschar) · deep tissue injury (สีม่วงคล้ำ)",
+   "ป้องกัน: พลิกตัวทุก 2 ชม. (นอน), ยกตัวทุก 15–30 นาที (นั่ง), ที่นอนลม/ เบาะกระจายแรงกด, ยกส้นเท้าลอย, จัดการความชื้น, โภชนาการ",
+   "รักษา: ลดแรงกด, debridement เนื้อตาย, จัดการการติดเชื้อ (osteomyelitis ต้องตัดชิ้นกระดูกตรวจ), NPWT, แก้โภชนาการ",
+   "Flap ตามตำแหน่ง: sacrum → gluteus maximus (rotation/ V-Y) · ischium → hamstring V-Y, inferior gluteal thigh flap · trochanter → tensor fascia lata flap",
+   "แผลกดทับเรื้อรังนานหลายปีที่เปลี่ยนลักษณะ → biopsy แยก Marjolin ulcer (SCC)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ท่านั่งในรถเข็นกดที่ ischial tuberosity ตรงลายมือในไฟล์ \"ถ้า sitting\" และ \"supine → sacral area\" ซึ่งเน้นตัวแยกสำคัญไว้ · ไฟล์มีช้อย A–D เว็บเพิ่ม E occiput",
   "mnemonic": "<b>'นั่ง = Ischium · นอน = Sacrum · ตะแคง = Trochanter'</b>",
-  "guide": "NPIAP/ EPUAP/ PPPIA International Guideline: Prevention and Treatment of Pressure Ulcers/Injuries (2019)",
+  "guide": "NPIAP/EPUAP/PPPIA Prevention and Treatment of Pressure Ulcers/Injuries: Clinical Practice Guideline 2019; Grabb and Smith's Plastic Surgery 9th ed. (2024) ch. Pressure sores",
   "variants": [
-   "ผู้ป่วยอัมพาตใช้รถเข็น แผลลึกที่ก้น → ischial pressure sore",
-   "ผู้ป่วยติดเตียงนอนหงาย แผลที่กระเบนเหน็บ → sacral pressure sore",
-   "แผลกดทับลึกถึงกระดูก → stage 4 → debridement + flap"
+   "ชาย 30 ปี paraplegia จาก spinal cord injury นั่งรถเข็นทั้งวัน มีแผลลึกที่ก้นใต้ปุ่มกระดูกนั่ง → ischial pressure ulcer stage 4 รักษาด้วย debridement + hamstring/ inferior gluteal thigh flap",
+   "หญิง 85 ปีติดเตียงหลัง stroke มีแผลลึกที่กระเบนเหน็บ → sacral pressure ulcer พลิกตัวทุก 2 ชม. ที่นอนลม",
+   "แผลกดทับที่ sacrum ถึงกระดูก ผิวกระดูกขรุขระ ESR สูง → ตัดชิ้นกระดูกส่งตรวจหา osteomyelitis",
+   "ทำไมแผลกดทับมักลึกกว่าที่เห็นที่ผิว → กล้ามเนื้อทนการขาดเลือดได้น้อยกว่าผิวหนัง จึงตายก่อน (รูปกรวยฐานกว้างอยู่ลึก)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 150 — ตัวพิมพ์: <b>9. most common site of pressure sore in wheelchair patient — A. ischial tuberosity B. greater trochanter C. perineum D. heel</b><br>ลายมือ: \"supine → sacral area\" · \"ถ้า sitting\" · ขีด A<br>ไฮไลต์: \"most common site of pressure sore\" · \"wheelchair\" · A (เหลือง)<br>รูปที่แปะ: โน้ตลายมือ Pressure inj. (Pressure Ulcer) — ตำแหน่ง: sitting → ischial tuberosity · supine → sacral area · Classification stage 1 skin intact แดงนาน &gt; 1 hr · 2 blister, break @ dermis · 3 subcu. destruc. into m. · 4 involve bone, jt. · ภาพจุดกดทับในท่านอนและท่านั่ง (Scapula · Spine · Sacrum · Trochanter · Ischial tuberosities · Popliteal fossa · Heels)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–D เว็บเพิ่ม E Occiput",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 150",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU66|RoC|10": {
-  "interp": "ชาย 24 ปี ไข้ต่ำ ๆ ปวดบั้นเอวร้าวลงท้องน้อย ปัสสาวะแสบขัด มี <b>right hydronephrosis</b> UA WBC 30–50 = <b>complicated UTI</b> (มีการอุดกั้น/ เป็นผู้ชาย) ถามยาฆ่าเชื้อ",
-  "why": "UTI ในผู้ชาย + มี hydronephrosis (สงสัยนิ่วอุดกั้น) = <b>complicated UTI/ pyelonephritis</b> ต้องให้ยาฆ่าเชื้อทางหลอดเลือดครอบคลุม Gram-negative เช่น <b>aminoglycoside (gentamicin)</b>/ fluoroquinolone/ 3rd-gen cephalosporin ร่วมกับประเมินระบายถ้าอุดกั้นติดเชื้อ · ไฟล์ขีด C ลายมือ <b>\"complicated UTI → ♂, preg., host ไม่ดี\"</b>",
+  "interp": "ชายอายุน้อยมีไข้ ปวดสีข้างขวาร้าวลงท้องน้อย ปัสสาวะแสบขัด ไตขวาบวมน้ำ (hydronephrosis) และ UA มีเม็ดเลือดขาวมาก — เป็น complicated UTI/ pyelonephritis ที่มีการอุดตัน (น่าจะจากนิ่ว) ถามยาปฏิชีวนะที่เหมาะในช้อย",
+  "why": "การติดเชื้อทางเดินปัสสาวะส่วนบนที่มี<b>การอุดตัน (hydronephrosis)</b> ในผู้ชาย = <b>complicated UTI</b> (ปัจจัย: เพศชาย, อุดตัน, นิ่ว, สายสวน, ตั้งครรภ์, ภูมิคุ้มกันต่ำ) · เชื้อที่พบ: <b>E. coli</b> มากที่สุด, Klebsiella, Proteus, Enterococcus, Pseudomonas · ยาเริ่มต้น (empirical) ตาม EAU และสไลด์ที่ไฟล์แปะ: fluoroquinolone (ถ้าเชื้อดื้อในพื้นที่ &lt; 10%), cephalosporin รุ่น 3, amoxicillin/ BLI <b>± aminoglycoside</b> — <b>gentamicin</b> ครอบคลุม gram-negative ได้ดี เข้มข้นสูงในปัสสาวะและเนื้อไต จึงเป็นตัวเลือกที่เหมาะที่สุดในช้อย · ให้นาน 7–14 วัน · สิ่งที่สำคัญเท่ากับยาคือ<b>ระบายการอุดตัน</b> (ureteral stent หรือ percutaneous nephrostomy) ถ้ามีไข้ร่วมกับไตอุดตันจากนิ่ว เพราะยาอย่างเดียวไม่สามารถฆ่าเชื้อในระบบที่อุดตันได้ (obstructive pyelonephritis เสี่ยง urosepsis) · ตรงคีย์ C — ไฟล์ขีด C เขียนลายมือ \"<b>complicated UTI → ♂, preg., host ไม่ดี</b>\" \"<b>stone?</b>\" เหนือ hydronephrosis และที่ช้อย E ว่า \"<b>ใน acute cystitis</b>\" พร้อมแปะสไลด์ Complicated UTI ที่มี <b>Aminoglycosides</b>",
   "wrong": {
-   "A": "Penicillin ไม่ครอบคลุม Gram-negative ส่วนใหญ่ (E. coli ดื้อ) · จะถูกถ้าคำถามถาม syphilis หรือ streptococcal infection",
-   "B": "Meropenem สงวนไว้สำหรับเชื้อดื้อยา (ESBL) หรือ septic shock · จะถูกถ้าคำถามถาม UTI ที่เพาะเชื้อได้ ESBL-producing E. coli",
-   "D": "Metronidazole ครอบคลุม anaerobe/ protozoa ไม่ใช่เชื้อก่อ UTI · จะถูกถ้าคำถามถาม trichomoniasis",
-   "E": "Co-trimoxazole ใช้ใน acute uncomplicated cystitis ได้ (ลายมือ \"ใน acute cystitis\") แต่อัตราดื้อสูงและไม่เหมาะกับ complicated UTI มีไข้ · จะถูกถ้าคำถามถามหญิงอายุน้อย cystitis ไม่มีไข้ที่เชื้อไวต่อยา"
+   "A": "Penicillin (G/ V) ไม่ครอบคลุม gram-negative bacilli ซึ่งเป็นเชื้อหลักของ UTI · จะถูกถ้าเป็นชาย 24 ปีมีแผลริมแข็งไม่เจ็บที่องคชาตและต่อมน้ำเหลืองขาหนีบโต VDRL บวก = primary syphilis ให้ benzathine penicillin G 2.4 ล้านยูนิต",
+   "B": "Meropenem ครอบคลุมดีมากรวม ESBL แต่เป็น carbapenem ที่ควร<b>สงวนไว้</b>สำหรับ urosepsis/ septic shock หรือผู้ที่มีความเสี่ยงเชื้อดื้อยา (ESBL) เพื่อลดการดื้อยา — ไม่ใช่ตัวเลือกแรกในชายอายุน้อยที่ยังไม่ช็อก · จะถูกถ้าเป็นชาย 65 ปีใส่สายสวนปัสสาวะค้าง เพิ่งได้ยาปฏิชีวนะ 1 เดือนก่อน มีไข้สูง ความดันต่ำ และเคยเพาะเชื้อพบ ESBL E. coli",
+   "D": "Metronidazole ครอบคลุมเฉพาะเชื้อ anaerobe และโปรโตซัว ไม่มีฤทธิ์ต่อ gram-negative aerobe ที่ก่อ UTI · จะถูกถ้าเป็นชาย 24 ปีมีหนองไหลจากท่อปัสสาวะที่คู่นอนเป็น trichomoniasis หรือหญิงที่ตกขาวเป็นฟองกลิ่นเหม็นจาก Trichomonas vaginalis",
+   "E": "Co-trimoxazole (bactrim) ใช้ได้ใน uncomplicated cystitis (ไฟล์เขียน \"ใน acute cystitis\") หรือ pyelonephritis ที่รู้ผลความไวแล้ว แต่อัตราดื้อยาสูงในไทยจึงไม่ใช้เป็นยาเริ่มต้นของ complicated UTI · จะถูกถ้าเป็นหญิง 25 ปีไม่ตั้งครรภ์ ปัสสาวะแสบขัด ถ่ายบ่อย ไม่มีไข้ ไม่ปวดหลัง (acute uncomplicated cystitis) ในพื้นที่ที่ดื้อยา &lt; 20%"
   },
-  "trap": "รักษาเหมือน cystitis ธรรมดา ทั้งที่เป็นผู้ชาย + มีไข้ + hydronephrosis = complicated",
+  "trap": "Meropenem ดูครอบคลุมดีที่สุดจึงคนเลือก — แต่หลัก antimicrobial stewardship ให้<b>สงวน carbapenem</b> สำหรับ sepsis หรือเชื้อดื้อยา · และอย่าลืมว่า obstructive pyelonephritis ต้อง<b>ระบายการอุดตัน</b>ร่วมด้วยเสมอ",
   "summary": [
-   "Complicated UTI: ผู้ชาย · ตั้งครรภ์ · อุดกั้น · มีสาย · ภูมิต่ำ",
-   "เชื้อ: E. coli · Enterococci · Pseudomonas · Staphylococci",
-   "ยา IV: aminoglycoside · fluoroquinolone · 3rd-gen cephalosporin",
-   "ให้ต่อ 3–5 วันหลังไข้ลง · รวม 7–14 วัน",
-   "นิ่วอุดกั้น + ติดเชื้อ → ระบายด่วน (DJ stent/ PCN)",
-   "Cystitis หญิง: nitrofurantoin/ fosfomycin/ TMP-SMX"
+   "Complicated UTI: ความผิดปกติทางกายวิภาค/ การทำงาน (อุดตัน นิ่ว สายสวน) หรือ host (เพศชาย ตั้งครรภ์ เบาหวาน ภูมิคุ้มกันต่ำ)",
+   "เชื้อ: E. coli (บ่อยสุด), Proteus (นิ่ว struvite), Klebsiella, Enterococcus, Pseudomonas · ส่ง urine culture ก่อนให้ยาทุกราย",
+   "Empirical (EAU 2024): amoxicillin + aminoglycoside, cephalosporin รุ่น 2 + aminoglycoside หรือ cephalosporin รุ่น 3 IV · fluoroquinolone เฉพาะเมื่อดื้อยาในพื้นที่ &lt; 10% และไม่ได้ใช้มาก่อน",
+   "Carbapenem: urosepsis, ESBL risk (ใช้ยาปฏิชีวนะ/ อยู่โรงพยาบาลเมื่อเร็ว ๆ นี้, สายสวน) · ระยะเวลารักษา 7–14 วัน (ชาย 14 วันถ้าไม่แยก prostatitis)",
+   "Obstructive pyelonephritis จากนิ่ว + ไข้: ระบายด่วน (retrograde ureteral stent หรือ percutaneous nephrostomy) · รักษานิ่วภายหลังเมื่อหายติดเชื้อ",
+   "Aminoglycoside: ดีต่อ gram-negative เข้มข้นในไต · ให้วันละครั้ง ระวัง nephrotoxicity/ ototoxicity ติดตาม creatinine และระดับยา",
+   "Uncomplicated cystitis ในหญิง: nitrofurantoin 5 วัน, fosfomycin ครั้งเดียว, TMP-SMX 3 วัน (ถ้าดื้อ &lt; 20%)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ในเวชปฏิบัติอาจเลือก ceftriaxone หรือ fluoroquinolone ได้เช่นกัน และถ้ามีนิ่วอุดกั้นร่วมกับติดเชื้อต้องระบายร่วมด้วย",
-  "mnemonic": "<b>'UTI ผู้ชาย + ไข้ + อุดกั้น = Complicated → ยา IV ครอบคลุม Gram-negative'</b>",
-  "guide": "EAU Guidelines on Urological Infections (2024)",
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจปานกลาง — ในช้อยที่มี gentamicin เหมาะที่สุดสำหรับ complicated UTI ตรงลายมือในไฟล์และสไลด์ที่แปะ · ข้อสังเกต: แนวทางปัจจุบันมักใช้ ceftriaxone หรือ aminoglycoside ร่วม beta-lactam และต้องระบาย hydronephrosis ที่มีไข้ · ข้อมูลในไฟล์ต่างจากเว็บ: ไฟล์เขียนอาชีพ \"กรรมกร\" (เว็บเขียน monk) และ \"ปวดหลังด้านซ้าย\" ร้าวท้องน้อยขวา (เว็บใช้ด้านขวาให้ตรงกับ Rt hydronephrosis)",
+  "mnemonic": "<b>'ไข้ + ไตบวมน้ำ = Complicated → Genta/ Ceph + ระบายท่อ · Carbapenem เก็บไว้ยามช็อก'</b>",
+  "guide": "EAU Guidelines on Urological Infections 2024; IDSA International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women (2010 update)",
   "variants": [
-   "หญิงอายุน้อย cystitis ไม่มีไข้ → nitrofurantoin 5 วัน",
-   "ไข้สูง ปวดบั้นเอว นิ่วอุดกั้นท่อไต hydronephrosis → IV ATB + DJ stent/ PCN ด่วน",
-   "เพาะเชื้อได้ ESBL E. coli → carbapenem"
+   "ชาย 40 ปี ไข้สูง ปวดสีข้างขวา CT นิ่วท่อไตขวา 8 mm ไตบวมน้ำ → ceftriaxone/ gentamicin + ใส่ ureteral stent หรือ nephrostomy ด่วน",
+   "หญิง 23 ปี ปัสสาวะแสบขัดถ่ายบ่อย ไม่มีไข้ ไม่ปวดหลัง → acute uncomplicated cystitis ให้ nitrofurantoin หรือ fosfomycin",
+   "ชาย 70 ปีสายสวนค้าง ไข้ ความดันต่ำ เคยพบ ESBL → meropenem + เปลี่ยนสายสวน",
+   "ทำไม pyelonephritis ที่มีการอุดตันต้องระบาย → ปัสสาวะติดเชื้อค้างภายใต้ความดัน ยาเข้าไม่ถึงและเชื้อเข้ากระแสเลือดเกิด urosepsis"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>10. ชาย24 ปีกรรมกร ไข้ต่ำๆ ปวดหลังด้านซ้ายร้าวไปท้องน้อยด้านขวา ปัสสาวะแสบขัด มีRt hydronephrosis UA พบ RBC 10-20 WBC 30-50 epi 0-1 รักษาอย่างไร — A. penicillin B. meropenem C. gentamycin D. metronidazole E. bactrim</b><br>ลายมือ: \"complicated UTI → ♂, preg., host ไม่ดี\" เหนือคำถาม · \"staghorn stone?\" เหนือปัสสาวะแสบขัด · \"stone?\" เหนือ hydronephrosis · \"complicated UTI\" ท้ายคำถาม · ขีด C · ช้อย E เขียน \"ใน acute cystitis\"<br>ไฮไลต์: \"ชาย24 ปี\" · \"ไข้ต่ำๆ\" · \"ปวดหลังด้านซ้ายร้าวไปท้องน้อยด้านขวา\" · \"ปัสสาวะแสบขัด\" · \"Rt hydronephrosis UA พบ RBC 10-20 WBC 30-50 epi 0-1\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ Pyelonephritis — E. coli · Proteus · Klebsiella · 1st: Fluoroquinolone · 2nd: 2nd generation cephalosporin · 3rd: Amino penicillin/BLI · สไลด์ Complicate UTI — E. coli · Enterococci · Pseudomonas · Staphylococci · 1st: Fluoroquinolone · 2nd: Amino penicillin/BLI · 3rd: 3rd gen. cephalosporin · Aminoglycosides · 3-5 days after afebrile · สไลด์ Basic treatments — Quinolone · Cephalosporin · Penicillin · TMX-SFM · 5-7 days · Improvement confirmation: UA and Urine culture are negative<br>ที่ปรับในเว็บ: ไฟล์เขียนปวดหลังด้านซ้ายร้าวไปท้องน้อยด้านขวา (ขัดกับ Rt hydronephrosis) เว็บใช้ด้านขวาทั้งหมด · ไฟล์เขียนอาชีพ กรรมกร",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
