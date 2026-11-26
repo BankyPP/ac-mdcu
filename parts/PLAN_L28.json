@@ -1,0 +1,1001 @@
+{
+ "code": "L28",
+ "questions": 150,
+ "tier_reason": "53 ประเด็นต้องรู้ × 2 = 106 + รอง 10 = 116 > 100 → ปัดเป็น 150 (เติมรอบที่ 3 ให้ประเด็นต้องรู้ 34 ประเด็น)",
+ "points": {
+  "P1": {
+   "pages": [
+    4,
+    5,
+    6
+   ],
+   "level": "M",
+   "desc": "omphalocele vs gastroschisis: sac (present/absent) + herniated viscera (bowel+liver vs bowel only) · แยกจากรูป",
+   "asked": [
+    1,
+    2,
+    3
+   ]
+  },
+  "P2": {
+   "pages": [
+    5
+   ],
+   "level": "M",
+   "desc": "associated anomalies: omphalocele common 50% (cardiac, chromosomal, BWS) vs gastroschisis uncommon <10% (atresia)",
+   "asked": [
+    4,
+    5,
+    6
+   ]
+  },
+  "P3": {
+   "pages": [
+    5
+   ],
+   "level": "M",
+   "desc": "location: umbilicus (cord inserts into sac) vs right of umbilicus (normal cord)",
+   "asked": [
+    7,
+    8
+   ]
+  },
+  "P4": {
+   "pages": [
+    6
+   ],
+   "level": "M",
+   "desc": "mode of delivery: omphalocele vaginal/cesarean vs gastroschisis vaginal (ERNICA 37–39 wk)",
+   "asked": [
+    9,
+    10
+   ]
+  },
+  "P5": {
+   "pages": [
+    6
+   ],
+   "level": "M",
+   "desc": "surgical management: omphalocele nonurgent (sac protects) vs gastroschisis urgent",
+   "asked": [
+    11,
+    12,
+    13
+   ]
+  },
+  "P6": {
+   "pages": [
+    6
+   ],
+   "level": "M",
+   "desc": "prognostic factors: omphalocele = associated anomalies · gastroschisis = condition of bowel (complex)",
+   "asked": [
+    14,
+    15,
+    16
+   ]
+  },
+  "P7": {
+   "pages": [
+    8
+   ],
+   "level": "M",
+   "desc": "omphalocele pathophysiology: failure of viscera to return to abdominal cavity",
+   "asked": [
+    17,
+    18
+   ]
+  },
+  "P8": {
+   "pages": [
+    8
+   ],
+   "level": "M",
+   "desc": "gastroschisis: ventral body fold theory — failure of lateral fold migration, more on right",
+   "asked": [
+    19,
+    20
+   ]
+  },
+  "P9": {
+   "pages": [
+    9,
+    10
+   ],
+   "level": "M",
+   "desc": "prenatal omphalocele: USG by GA 18 wk · membrane-covered, not free-flowing · cord inserts into omphalocele",
+   "asked": [
+    21,
+    22
+   ]
+  },
+  "P10": {
+   "pages": [
+    9,
+    10
+   ],
+   "level": "M",
+   "desc": "prenatal gastroschisis: USG by 20 wk · free-floating bowel · defect right of normal cord · IUGR",
+   "asked": [
+    23,
+    24,
+    25
+   ]
+  },
+  "P11": {
+   "pages": [
+    10
+   ],
+   "level": "M",
+   "desc": "increased maternal AFP in both",
+   "asked": [
+    26,
+    27
+   ]
+  },
+  "P12": {
+   "pages": [
+    11
+   ],
+   "level": "M",
+   "desc": "initial: wrap bowel in warm saline-soaked gauze + non-evaporating wrap (plastic bag)",
+   "asked": [
+    28,
+    29,
+    30
+   ]
+  },
+  "P13": {
+   "pages": [
+    11
+   ],
+   "level": "M",
+   "desc": "initial: IV access + fluid resuscitation · OG decompression · empirical ATB",
+   "asked": [
+    31,
+    32
+   ]
+  },
+  "P14": {
+   "pages": [
+    11
+   ],
+   "level": "M",
+   "desc": "initial: thorough exam for intestinal atresia / associated anomalies",
+   "asked": [
+    33,
+    34
+   ]
+  },
+  "P15": {
+   "pages": [
+    12
+   ],
+   "level": "M",
+   "desc": "gastroschisis: immediate primary repair vs silo-assisted delayed closure with serial reduction",
+   "asked": [
+    35,
+    36,
+    37
+   ]
+  },
+  "P16": {
+   "pages": [
+    13
+   ],
+   "level": "M",
+   "desc": "omphalocele: primary repair · staged closure · escharification (paint and wait)",
+   "asked": [
+    38,
+    39,
+    40
+   ]
+  },
+  "P17": {
+   "pages": [
+    15
+   ],
+   "level": "m",
+   "desc": "approach abdominal pain: H&P → localized pain / gut obstruction / peritonitis / with mass",
+   "asked": [
+    41
+   ]
+  },
+  "P18": {
+   "pages": [
+    16
+   ],
+   "level": "m",
+   "desc": "RUQ: choledochal cyst, cholecystitis, gallstone, liver tumor/abscess, right pyelonephritis",
+   "asked": [
+    42
+   ]
+  },
+  "P19": {
+   "pages": [
+    16
+   ],
+   "level": "m",
+   "desc": "epigastric/LUQ: pancreatitis, peptic ulcer, gastric volvulus · splenic abscess/torsion, left pyelonephritis",
+   "asked": [
+    43
+   ]
+  },
+  "P20": {
+   "pages": [
+    16
+   ],
+   "level": "m",
+   "desc": "periumbilical: GI duplication, enteritis, mesenteric cyst, internal hernia, mesenteric lymphadenitis",
+   "asked": [
+    44
+   ]
+  },
+  "P21": {
+   "pages": [
+    16
+   ],
+   "level": "M",
+   "desc": "RLQ: appendicitis, Meckel's diverticulitis, dysmenorrhea, ovulation, PID, ovarian tumor torsion, ureteric stone",
+   "asked": [
+    45,
+    46,
+    47
+   ]
+  },
+  "P22": {
+   "pages": [
+    16
+   ],
+   "level": "m",
+   "desc": "hypogastric/LLQ: ruptured appendicitis, dysmenorrhea, ovulation · constipation, ovarian torsion, stone",
+   "asked": [
+    48
+   ]
+  },
+  "P23": {
+   "pages": [
+    17
+   ],
+   "level": "M",
+   "desc": "appendicitis most common 8–15 yr (all ages)",
+   "asked": [
+    49,
+    50
+   ]
+  },
+  "P24": {
+   "pages": [
+    17
+   ],
+   "level": "M",
+   "desc": "extreme age <5 yr prone to rupture",
+   "asked": [
+    51,
+    52,
+    53
+   ]
+  },
+  "P25": {
+   "pages": [
+    17
+   ],
+   "level": "M",
+   "desc": "presentation: nonspecific pain, migratory to RLQ, fever, N/V, anorexia, diarrhea",
+   "asked": [
+    54,
+    55
+   ]
+  },
+  "P26": {
+   "pages": [
+    17
+   ],
+   "level": "M",
+   "desc": "PE: tender RLQ McBurney's point, guarding, fever",
+   "asked": [
+    56,
+    57
+   ]
+  },
+  "P27": {
+   "pages": [
+    17
+   ],
+   "level": "M",
+   "desc": "Ix: leukocytosis + left shift · USG · CT diameter > 6 mm",
+   "asked": [
+    58,
+    59,
+    60
+   ]
+  },
+  "P28": {
+   "pages": [
+    17
+   ],
+   "level": "m",
+   "desc": "treatment: appendectomy open vs laparoscopic",
+   "asked": [
+    61
+   ]
+  },
+  "P29": {
+   "pages": [
+    18,
+    19
+   ],
+   "level": "M",
+   "desc": "labs: CBC, UA ± BUN Cr Elyte · UPT if teenage female",
+   "asked": [
+    62,
+    63,
+    64
+   ]
+  },
+  "P30": {
+   "pages": [
+    18
+   ],
+   "level": "M",
+   "desc": "PAS components (cough/percussion/hop RLQ 2, RLQ tenderness 2, others 1) · ≥6 suggests",
+   "asked": [
+    65,
+    66,
+    67
+   ]
+  },
+  "P31": {
+   "pages": [
+    18
+   ],
+   "level": "M",
+   "desc": "Alvarado components (rebound 1, fever >37.3, WBC >10,000 = 2, left shift >75%) · ≥7 suggests",
+   "asked": [
+    68,
+    69,
+    70
+   ]
+  },
+  "P32": {
+   "pages": [
+    18
+   ],
+   "level": "M",
+   "desc": "PAS tiers: <4 low (imaging may not be warranted) · 4–6 US first then CT · >6 surgical consult",
+   "asked": [
+    71,
+    72,
+    73
+   ]
+  },
+  "P33": {
+   "pages": [
+    18
+   ],
+   "level": "M",
+   "desc": "Alvarado 1–4 discharge ~30% · 5–6 observe/admit ~66% · 7–10 surgery ~93%",
+   "asked": [
+    74,
+    75,
+    76
+   ]
+  },
+  "P34": {
+   "pages": [
+    19
+   ],
+   "level": "M",
+   "desc": "algorithm: uncertain → observation/USG → not seen → CT → not seen → observation or diagnostic laparoscopy",
+   "asked": [
+    77,
+    78,
+    79
+   ]
+  },
+  "P35": {
+   "pages": [
+    20
+   ],
+   "level": "M",
+   "desc": "ruptured appendicitis: IV ATB + IV fluid → peritonitis without mass → appendectomy",
+   "asked": [
+    80,
+    81
+   ]
+  },
+  "P36": {
+   "pages": [
+    20
+   ],
+   "level": "M",
+   "desc": "peritonitis with RLQ mass → non-surgical → improved → interval appendectomy 6–8 wk",
+   "asked": [
+    82,
+    83,
+    84
+   ]
+  },
+  "P37": {
+   "pages": [
+    20
+   ],
+   "level": "M",
+   "desc": "not improved 24–48 hr → USG → phlegmon → appendectomy · abscess → appendectomy/percutaneous drainage",
+   "asked": [
+    85,
+    86,
+    87
+   ]
+  },
+  "P38": {
+   "pages": [
+    21
+   ],
+   "level": "M",
+   "desc": "Meckel rule of 2s (2%, 2 ft from ICV, 2 in, male 2×, 2 ectopic tissue gastric/pancreatic)",
+   "asked": [
+    88,
+    89,
+    90
+   ]
+  },
+  "P39": {
+   "pages": [
+    21
+   ],
+   "level": "M",
+   "desc": "Meckel presentations: diverticulitis · obstruction (intussusception, omphalomesenteric band internal hernia) · LGIB (ectopic gastric)",
+   "asked": [
+    91,
+    92,
+    93
+   ]
+  },
+  "P40": {
+   "pages": [
+    21
+   ],
+   "level": "m",
+   "desc": "vitelline remnants: Meckel, fibrous cord, umbilical sinus, vitelline cyst, umbilical fistula",
+   "asked": [
+    94
+   ]
+  },
+  "P41": {
+   "pages": [
+    22
+   ],
+   "level": "M",
+   "desc": "Meckel Tx: diverticulitis → diverticulectomy ± resection · obstruction → laparotomy · LGIB → scan + diverticulectomy/segmental resection",
+   "asked": [
+    95,
+    96,
+    97
+   ]
+  },
+  "P42": {
+   "pages": [
+    22
+   ],
+   "level": "M",
+   "desc": "Tc-99m pertechnetate scan detects heterotopic gastric mucosa",
+   "asked": [
+    98,
+    99,
+    100
+   ]
+  },
+  "P43": {
+   "pages": [
+    23
+   ],
+   "level": "M",
+   "desc": "intussusception = most frequent cause of bowel obstruction in infants/toddlers · peak 4–9 months",
+   "asked": [
+    101,
+    102,
+    103
+   ]
+  },
+  "P44": {
+   "pages": [
+    23
+   ],
+   "level": "m",
+   "desc": "well-nourished healthy infants · 2/3 boys",
+   "asked": [
+    104
+   ]
+  },
+  "P45": {
+   "pages": [
+    23
+   ],
+   "level": "M",
+   "desc": "proximal (intussusceptum) into distal (intussuscipiens)",
+   "asked": [
+    105,
+    106
+   ]
+  },
+  "P46": {
+   "pages": [
+    24
+   ],
+   "level": "M",
+   "desc": "intermittent sudden cramping pain + currant jelly stool + palpable mass",
+   "asked": [
+    107,
+    108,
+    109
+   ]
+  },
+  "P47": {
+   "pages": [
+    25
+   ],
+   "level": "m",
+   "desc": "AXR: dilated SB loops + RUQ soft tissue mass near hepatic flexure",
+   "asked": [
+    110
+   ]
+  },
+  "P48": {
+   "pages": [
+    25
+   ],
+   "level": "M",
+   "desc": "US target sign / pseudokidney sign",
+   "asked": [
+    111,
+    112,
+    113
+   ]
+  },
+  "P49": {
+   "pages": [
+    26
+   ],
+   "level": "M",
+   "desc": "non-operative: NG decompression, IV fluid, air contrast enema",
+   "asked": [
+    114,
+    115,
+    116
+   ]
+  },
+  "P50": {
+   "pages": [
+    26
+   ],
+   "level": "M",
+   "desc": "enema contraindications: free air, peritonitis, refractory hypotension",
+   "asked": [
+    117,
+    118,
+    119
+   ]
+  },
+  "P51": {
+   "pages": [
+    26
+   ],
+   "level": "M",
+   "desc": "operative: failed/incomplete reduction, peritonitis, lead point, pneumoperitoneum",
+   "asked": [
+    120,
+    121,
+    122
+   ]
+  },
+  "P52": {
+   "pages": [
+    28
+   ],
+   "level": "M",
+   "desc": "acute scrotum surgical: torsion of testis · incarcerated/strangulated indirect inguinal hernia",
+   "asked": [
+    123,
+    124
+   ]
+  },
+  "P53": {
+   "pages": [
+    29
+   ],
+   "level": "M",
+   "desc": "torsion typical <3 yr or after puberty",
+   "asked": [
+    125,
+    126
+   ]
+  },
+  "P54": {
+   "pages": [
+    29
+   ],
+   "level": "M",
+   "desc": "presentation acute severe unilateral scrotal pain (on-off), swelling, erythema, N/V, urinary sx, fever",
+   "asked": [
+    127,
+    128
+   ]
+  },
+  "P55": {
+   "pages": [
+    30
+   ],
+   "level": "M",
+   "desc": "absent cremasteric reflex (present does not exclude)",
+   "asked": [
+    129,
+    130,
+    131
+   ]
+  },
+  "P56": {
+   "pages": [
+    30
+   ],
+   "level": "M",
+   "desc": "enlarged, retracted upward, transverse orientation, negative Prehn's sign · compare contralateral",
+   "asked": [
+    132,
+    133,
+    134
+   ]
+  },
+  "P57": {
+   "pages": [
+    31
+   ],
+   "level": "M",
+   "desc": "clinical diagnosis · U/A not needed · Doppler only if Dx in question · don't delay surgery for imaging",
+   "asked": [
+    135,
+    136,
+    137
+   ]
+  },
+  "P58": {
+   "pages": [
+    31
+   ],
+   "level": "M",
+   "desc": "TWIST: swelling 2, hard 2, absent cremasteric 1, N/V 1, high-riding 1 · ≤2 low · 3–4 medium · ≥5 high",
+   "asked": [
+    138,
+    139,
+    140
+   ]
+  },
+  "P59": {
+   "pages": [
+    31
+   ],
+   "level": "M",
+   "desc": "detorsion 4–6 hr 97–100% · >12 hr 20–61% · >24 hr 0–14%",
+   "asked": [
+    141,
+    142,
+    143
+   ]
+  },
+  "P60": {
+   "pages": [
+    31
+   ],
+   "level": "M",
+   "desc": "goal OR within 6 hr · never delay assuming nonviability",
+   "asked": [
+    144,
+    145
+   ]
+  },
+  "P61": {
+   "pages": [
+    32
+   ],
+   "level": "M",
+   "desc": "viable → detorsion + orchiopexy · not viable → orchiectomy",
+   "asked": [
+    146,
+    147
+   ]
+  },
+  "P62": {
+   "pages": [
+    32
+   ],
+   "level": "M",
+   "desc": "contralateral exploration + orchiopexy (bell-clapper often bilateral)",
+   "asked": [
+    148,
+    149
+   ]
+  },
+  "P63": {
+   "pages": [
+    32
+   ],
+   "level": "m",
+   "desc": "recovery 1–2 wk · one functional testis sufficient for fertility",
+   "asked": [
+    150
+   ]
+  }
+ },
+ "ans": {
+  "1": "C",
+  "2": "E",
+  "3": "E",
+  "4": "A",
+  "5": "B",
+  "6": "C",
+  "7": "E",
+  "8": "B",
+  "9": "D",
+  "10": "A",
+  "11": "B",
+  "12": "A",
+  "13": "A",
+  "14": "B",
+  "15": "D",
+  "16": "D",
+  "17": "B",
+  "18": "D",
+  "19": "A",
+  "20": "D",
+  "21": "E",
+  "22": "A",
+  "23": "B",
+  "24": "C",
+  "25": "D",
+  "26": "A",
+  "27": "C",
+  "28": "E",
+  "29": "B",
+  "30": "A",
+  "31": "E",
+  "32": "A",
+  "33": "D",
+  "34": "E",
+  "35": "E",
+  "36": "C",
+  "37": "C",
+  "38": "A",
+  "39": "C",
+  "40": "A",
+  "41": "B",
+  "42": "C",
+  "43": "D",
+  "44": "D",
+  "45": "C",
+  "46": "B",
+  "47": "C",
+  "48": "B",
+  "49": "D",
+  "50": "C",
+  "51": "C",
+  "52": "E",
+  "53": "B",
+  "54": "C",
+  "55": "B",
+  "56": "B",
+  "57": "E",
+  "58": "A",
+  "59": "A",
+  "60": "B",
+  "61": "D",
+  "62": "D",
+  "63": "C",
+  "64": "A",
+  "65": "D",
+  "66": "C",
+  "67": "D",
+  "68": "C",
+  "69": "A",
+  "70": "B",
+  "71": "D",
+  "72": "E",
+  "73": "A",
+  "74": "A",
+  "75": "B",
+  "76": "D",
+  "77": "A",
+  "78": "E",
+  "79": "B",
+  "80": "D",
+  "81": "C",
+  "82": "E",
+  "83": "B",
+  "84": "D",
+  "85": "E",
+  "86": "D",
+  "87": "B",
+  "88": "E",
+  "89": "B",
+  "90": "E",
+  "91": "E",
+  "92": "A",
+  "93": "A",
+  "94": "D",
+  "95": "D",
+  "96": "E",
+  "97": "C",
+  "98": "C",
+  "99": "E",
+  "100": "C",
+  "101": "E",
+  "102": "C",
+  "103": "B",
+  "104": "C",
+  "105": "D",
+  "106": "B",
+  "107": "C",
+  "108": "B",
+  "109": "E",
+  "110": "D",
+  "111": "E",
+  "112": "B",
+  "113": "A",
+  "114": "A",
+  "115": "D",
+  "116": "A",
+  "117": "D",
+  "118": "A",
+  "119": "C",
+  "120": "D",
+  "121": "E",
+  "122": "E",
+  "123": "A",
+  "124": "A",
+  "125": "E",
+  "126": "D",
+  "127": "B",
+  "128": "C",
+  "129": "C",
+  "130": "B",
+  "131": "C",
+  "132": "A",
+  "133": "B",
+  "134": "C",
+  "135": "A",
+  "136": "E",
+  "137": "B",
+  "138": "B",
+  "139": "C",
+  "140": "D",
+  "141": "E",
+  "142": "D",
+  "143": "C",
+  "144": "D",
+  "145": "B",
+  "146": "E",
+  "147": "A",
+  "148": "E",
+  "149": "A",
+  "150": "E"
+ },
+ "trick": [
+  6,
+  8,
+  9,
+  20,
+  25,
+  30,
+  35,
+  37,
+  41,
+  64,
+  65,
+  68,
+  72,
+  79,
+  105,
+  108,
+  114,
+  115,
+  130,
+  136,
+  144
+ ],
+ "rules": "kit/กติกาสร้างโจทย์จาก-lecture-resource.md ข้อ 3 + kit/กติกา-เฉลย-Unit-ครบทุกพาร์ท.md + kit/มาตรฐานเฉลย.md · ans = ตำแหน่งคำตอบที่กำหนดไว้ล่วงหน้า (30 ต่อช้อย) · trick = โจทย์หลอก ~14%",
+ "report": {
+  "written": 10,
+  "pages_without_question": [
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   28,
+   29,
+   30,
+   31,
+   32
+  ],
+  "under": [
+   "P5",
+   "P6",
+   "P7",
+   "P8",
+   "P9",
+   "P10",
+   "P11",
+   "P12",
+   "P13",
+   "P14",
+   "P15",
+   "P16",
+   "P17",
+   "P18",
+   "P19",
+   "P20",
+   "P21",
+   "P22",
+   "P23",
+   "P24",
+   "P25",
+   "P26",
+   "P27",
+   "P28",
+   "P29",
+   "P30",
+   "P31",
+   "P32",
+   "P33",
+   "P34",
+   "P35",
+   "P36",
+   "P37",
+   "P38",
+   "P39",
+   "P40",
+   "P41",
+   "P42",
+   "P43",
+   "P44",
+   "P45",
+   "P46",
+   "P47",
+   "P48",
+   "P49",
+   "P50",
+   "P51",
+   "P52",
+   "P53",
+   "P54",
+   "P55",
+   "P56",
+   "P57",
+   "P58",
+   "P59",
+   "P60",
+   "P61",
+   "P62",
+   "P63"
+  ],
+  "dist": {
+   "C": 2,
+   "E": 3,
+   "A": 2,
+   "B": 2,
+   "D": 1
+  }
+ }
+}
