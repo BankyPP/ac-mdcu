@@ -1,192 +1,332 @@
 {
  "MDCU67|RoA|42": {
-  "interp": "ข้อ NOT — หาอาการที่ไม่ใช่ของ zygoma (zygomaticomaxillary complex) หัก",
-  "why": "<b>คีย์: ขีด B + ลายมือ ไม่ใช่</b><br><b>นอกสไลด์:</b> zygoma ไม่ได้เป็นส่วนที่มีฟัน การหักจึงไม่ทำให้ฟันบนล่างสบผิด · การสบฟันผิด (malocclusion) บอกว่ากระดูกที่มีฟันหัก คือ maxilla (Le Fort) หรือ mandible",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>อาการ/ อาการแสดงของ <b>zygoma (zygomaticomaxillary complex) fracture</b>",
+  "why": "ZMC fracture: แก้มยุบ (flattening), <b>รอยช้ำรอบตา/ เลือดออกใต้เยื่อบุตา</b>, <b>ชาบริเวณ infraorbital nerve</b> (แก้ม ข้างจมูก ริมฝีปากบน), <b>เห็นภาพซ้อน</b> (orbital floor/ กล้ามเนื้อตาติด), <b>อ้าปากลำบาก (trismus)</b> จาก zygomatic arch กด coronoid process/ temporalis · <b>Malocclusion</b> เกิดจากกระดูกที่มีฟัน (mandible/ maxilla — Le Fort) ไม่ใช่ zygoma (ฟันยังสบปกติ) · ไฟล์ขีด B พร้อมลายมือสั้น ๆ ต่อท้าย",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"trismus เป็นอาการของ zygoma หัก\" ผิด เพราะ zygoma หรือ arch ที่ยุบลงไปกด coronoid process และกล้ามเนื้อ temporalis ทำให้อ้าปากไม่ขึ้น",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"diplopia เป็นอาการของ zygoma หัก\" ผิด เพราะ zygoma เป็นผนังด้านข้างและพื้นของเบ้าตา การหักทำให้ลูกตาเลื่อนระดับหรือกล้ามเนื้อตาถูกหนีบ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ชาใต้ตาเป็นอาการของ zygoma หัก\" ผิด เพราะรอยหักมักผ่าน infraorbital foramen/canal ทำให้เส้นประสาท infraorbital (V2) ช้ำ ชาแก้ม ข้างจมูก ริมฝีปากบน และเหงือกบน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ช้ำรอบตาเป็นอาการของ zygoma หัก\" ผิด เพราะรอยหักอยู่ที่ขอบและผนังเบ้าตา เลือดจึงซึมเข้าเนื้อเยื่อรอบตาและใต้เยื่อบุตา"
+   "A": "เป็นอาการ — trismus จาก arch กด coronoid process · จะถูกถ้าคำถามถามอาการของ isolated nasal fracture",
+   "C": "เป็นอาการ — diplopia จาก orbital floor แตก/ กล้ามเนื้อติด · จะถูกถ้าคำถามถามอาการของ zygomatic arch fracture เดี่ยว",
+   "D": "เป็นอาการ — ชา infraorbital nerve (วิ่งผ่าน orbital floor/ infraorbital foramen) · จะถูกถ้าคำถามถาม mandible fracture (ชา mental nerve)",
+   "E": "เป็นอาการ — periorbital ecchymosis · จะถูกถ้าคำถามถามอาการของ mandible fracture"
   },
-  "trap": "ชาเหงือกและฟันบนจากเส้นประสาท infraorbital ทำให้ผู้ป่วยบอกว่า \"ฟันรู้สึกแปลก\" จนคิดว่าสบฟันผิด — ความรู้สึกเปลี่ยนไม่ใช่ malocclusion ต้องตรวจการสบฟันจริง",
+  "trap": "คิดว่ากระดูกใบหน้าหักทุกชนิดทำให้สบฟันผิด — malocclusion มาจาก mandible/ maxilla",
   "summary": [
-   "<b>นอกสไลด์:</b> zygoma หัก (tetrapod): แก้มแบน คลำขอบเบ้าตาล่างเป็นขั้น ชาใต้ตา ช้ำรอบตา/ใต้เยื่อบุตา อ้าปากไม่ขึ้น ภาพซ้อน · CT ใบหน้า · ผ่าตัดจัดกระดูก (ORIF) เมื่อเคลื่อนจนหน้าผิดรูป อ้าปากไม่ขึ้น หรือตาผิดตำแหน่ง/เห็นภาพซ้อน — มักทำหลังยุบบวมภายในราว 1–2 สัปดาห์"
+   "ZMC fracture: แก้มยุบ · ช้ำรอบตา · ชา infraorbital · diplopia · trismus",
+   "Malocclusion: mandible · maxilla (Le Fort)",
+   "CT facial bone ยืนยัน",
+   "Displaced ZMC → ORIF (2–3 จุด)",
+   "Entrapment กล้ามเนื้อตา → ผ่าตัดด่วน",
+   "Isolated arch fracture → Gillies approach"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Zygoma: ตา (ช้ำ/ ซ้อน) + ชาแก้ม + อ้าปากไม่ขึ้น · ไม่ใช่ฟัน'</b>",
+  "guide": "AO Surgery Reference: CMF — Zygoma fractures; Neligan's Plastic Surgery 5th ed. (2023) — Facial fractures",
   "variants": [
-   "<b>นอกสไลด์:</b> ถูกต่อยแก้มด้านข้าง อ้าปากไม่ขึ้น คลำ arch บุ๋ม ไม่มีอาการทางตา → zygomatic arch หักยุบกด coronoid: ยกกลับผ่านแผลในไรผม (Gillies approach)",
-   "<b>นอกสไลด์:</b> หลัง zygoma หัก 2 สัปดาห์ ยุบบวมแล้ว ตาข้างนั้นจมลึก (enophthalmos) เห็นภาพซ้อนเวลามองขึ้น → พื้นเบ้าตาหักกว้าง: ผ่าตัดซ่อมพื้นเบ้าตา"
+   "ถูกชกแก้ม แก้มยุบ ชาแก้ม อ้าปากลำบาก → ZMC fracture",
+   "ถูกชกคาง สบฟันไม่ลง → mandible fracture",
+   "ถูกชกตา มองขึ้นไม่ได้ → orbital floor (blowout)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 101–102 — ตัวพิมพ์: <b>42. ข้อใดไม่ใช่ sign &amp; symptom in zygoma fracture — A. Trismus B. Malocclusion C. Diplopia D. Paresthesis of infraorbital nerve E. Periorbital ecchymosis</b><br>ลายมือ: ขีด B + ลายมือเล็กต่อท้าย<br>ไฮไลต์: \"ไม่ใช่ sign &amp; symptom in zygoma fracture\" · A, C, D, E (เหลือง) · B (ส้ม)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 101",
+  "kimg": [
+   "fsk_p101",
+   "kp67a_42"
   ]
  },
  "MDCU67|RoA|46": {
-  "interp": "ก้อน anterior mediastinum + AFP และ β-hCG สูง = nonseminomatous germ cell tumor + SVC syndrome → ถามการรักษา",
-  "why": "<b>คีย์: ขีด E + ลายมือ non-seminoma GCT · SVC syndrome · lymphoma → CCRT, teratoma → Sx + CMT, seminoma → CMT → RT → Sx, non-seminoma → CMT → Sx</b><br><b>นอกสไลด์:</b> AFP สูงยืนยันว่ามีส่วน nonseminoma (pure seminoma ไม่สร้าง AFP) — โรคนี้ไวต่อเคมีบำบัดสูตร cisplatin (BEP) และเป็นโรคทั้งร่างตั้งแต่ต้น จึงให้เคมีก่อนทันที (ยิ่งมี SVC syndrome) แล้วผ่าตัดเอาก้อนที่เหลือออกเมื่อ marker กลับปกติ",
+  "interp": "ก้อนใน <b>anterior mediastinum</b> มี <b>AFP และ β-hCG สูงทั้งคู่</b> ผู้ป่วย<b>หน้าบวม แขนบวม หายใจลำบาก หลอดเลือดดำที่คอโป่ง</b> → ถามการรักษา",
+  "why": "AFP + β-hCG สูง ในชายหนุ่มที่มีก้อน anterior mediastinum = <b>non-seminomatous germ cell tumor (NSGCT)</b> (AFP สูงตัดเรื่อง pure seminoma ออก) · มี <b>SVC syndrome</b> · <b>วินิจฉัยได้จาก tumor marker โดยไม่ต้องรอชิ้นเนื้อ</b> โดยเฉพาะเมื่ออาการเร่งด่วน → <b>cisplatin-based chemotherapy (BEP) ก่อน</b> แล้ว<b>ผ่าตัดเอาก้อนที่เหลือออก (residual mass resection)</b> เมื่อ marker กลับปกติ · ไม่ใช้รังสี (NSGCT ไม่ไวต่อรังสี) · ไฟล์ขีด E ลายมือ <b>\"non-seminoma germ cell tumor\"</b> · <b>\"SVC syndrome\"</b> · D <b>\"→ seminoma\"</b> และสรุป <b>\"lymphoma → CCRT · teratoma → Sx + CMT · seminoma → CMT → RT → Sx · non-seminoma → CMT → Sx\"</b> พร้อมแปะสไลด์ Markers และ Non-Seminoma",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้า marker สูงเพียงเล็กน้อย (AFP อาจมาจากตับ หรือ hCG ต่ำ ๆ) ไม่ถึงระดับที่วินิจฉัยได้ — ต้องได้ชิ้นเนื้อจากก้อนก่อนเลือกการรักษา",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผ่าตัดแล้วให้ chemoradiation เป็นการรักษา germ cell tumor ที่ AFP สูง เพราะ nonseminoma ไม่ไวต่อรังสี และการผ่าตัดก่อนในก้อนใหญ่ที่กดหลอดเลือดมักเอาออกไม่หมดและเลื่อนการให้เคมีที่เป็นการรักษาหลัก",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผ่าตัดก่อนแล้วจึงให้เคมีใน germ cell tumor ที่ marker สูง เพราะ marker ที่สูงบอกว่ามีโรคที่มองไม่เห็นอยู่ทั่วร่าง ต้องคุมด้วยเคมีก่อน การผ่าตัดใช้เก็บก้อนที่เหลือหลัง marker ปกติ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ chemoradiation ก่อนผ่าตัดใช้กับ germ cell tumor ที่ AFP สูง เพราะรังสีมีบทบาทเฉพาะ seminoma (ไวต่อรังสี) ซึ่ง AFP ปกติเสมอ"
+   "A": "Biopsy ไม่จำเป็นเมื่อ marker ชัด (AFP/ β-hCG สูงมาก) และการรอ/ ดมยาใน SVC syndrome เสี่ยง · จะถูกถ้าก้อน anterior mediastinum marker ปกติ (แยก lymphoma/ thymoma)",
+   "B": "ผ่าตัดก่อนไม่ใช่มาตรฐาน NSGCT (ก้อนใหญ่ ลุกลาม) และรังสีไม่ได้ผล · จะถูกถ้าคำถามถาม mature teratoma (marker ปกติ) → ผ่าตัด",
+   "C": "ผ่าตัดก่อนไม่ใช่มาตรฐาน — ให้เคมีก่อนแล้วผ่าก้อนที่เหลือ · จะถูกถ้าคำถามถามก้อนที่เหลือหลังเคมีบำบัดที่ marker ปกติแล้ว",
+   "D": "Chemoradiation แล้วผ่าตัด เป็นแนวทางที่เหมาะกับ seminoma (ลายมือ \"→ seminoma\") · จะถูกถ้าก้อน anterior mediastinum β-hCG สูงเล็กน้อย AFP ปกติ (seminoma)"
   },
-  "trap": "เห็นก้อนใน mediastinum แล้วยึดหลักว่าต้องมีชิ้นเนื้อก่อนรักษาเสมอ — ใน germ cell tumor ที่ AFP/hCG สูงชัด marker ใช้วินิจฉัยได้ และการเจาะชิ้นเนื้อเลื่อนการรักษาในผู้ป่วยที่มี SVC syndrome",
+  "trap": "รอผลชิ้นเนื้อหรือผ่าตัดก่อน — marker ชัด + SVC syndrome = เคมีบำบัดทันที",
   "summary": [
-   "<b>นอกสไลด์:</b> แผนรักษาก้อน anterior mediastinum ตามชนิด: lymphoma → เคมี ± รังสี (ไม่ผ่าตัด) · thymoma → ผ่าตัด · mature teratoma → ผ่าตัด · seminoma → เคมี (± รังสี) · nonseminoma → เคมีสูตร cisplatin แล้วผ่าตัดก้อนที่เหลือเมื่อ marker ปกติ"
+   "Mediastinal NSGCT: ชายหนุ่ม · AFP ± β-hCG สูง",
+   "Seminoma: AFP ปกติ · β-hCG ปกติ/ สูงเล็กน้อย · ไวต่อเคมีและรังสี",
+   "NSGCT → BEP chemo → resect residual mass",
+   "Mature teratoma: marker ปกติ → ผ่าตัด",
+   "Lymphoma → chemo ± RT",
+   "SVC syndrome: หน้าบวม แขนบวม หลอดเลือดคอโป่ง → รักษาสาเหตุ ± stent"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Mediastinal GCT: Non-seminoma = Chemo → Cut (residual)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Testicular Cancer v.2.2025 — Extragonadal/ mediastinal GCT; ESMO Testicular Seminoma and Non-seminoma Guidelines (Ann Oncol 2022;33:362)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง BEP ครบ AFP และ hCG ปกติ แต่ก้อนยังเหลือ 4 cm → ผ่าตัดเอาก้อนที่เหลือออก (อาจเป็น teratoma, เนื้อตาย หรือมะเร็งเหลือ)",
-   "<b>นอกสไลด์:</b> ชายหนุ่มมี germ cell tumor ใน mediastinum → ตรวจ US อัณฑะทุกราย หาก้อนต้นตอที่อัณฑะก่อนสรุปว่าเกิดใน mediastinum เอง"
+   "ชายหนุ่มก้อน anterior mediastinum AFP 5,000 → BEP → resect residual",
+   "ก้อน anterior mediastinum marker ปกติ มีไขมัน/ หินปูน/ ฟัน → mature teratoma → ผ่าตัด",
+   "ก้อน anterior mediastinum + B symptoms + ต่อมน้ำเหลืองโต → lymphoma → biopsy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 102 — หัวข้อ CVT · ตัวพิมพ์: <b>46. Mass at anterior mediastinum พบ AFP, beta-HCG both positive ผู้ป่วยมีอาการหน้าบวม แขนบวม หายใจลำบาก พบหลอดเลือดดำที่คอโต น่าจะรักษาอย่างไร — A. Biopsy ให้ได้ Histopathology เพื่อเลือกวิธีการรักษา B. ผ่าตัด และให้ chemotherapy และ Radiation ต่อ C. ผ่าตัด และให้แค่ Chemotherapy เพราะเนื้องอกไม่น่าจะตอบสนองต่อ Radiation D. ให้ Chemotherapy และ Radiation ก่อน แล้วผ่าตัดก้อนที่เหลือ E. ให้ Chemotherapy เพียงอย่างเดียว แล้วผ่าตัด</b><br>ลายมือ: \"non-seminoma germ cell tumor\" เหนือ AFP, beta-HCG · \"SVC syndrome\" · D \"→ seminoma\" · ขีด E · ด้านซ้าย \"lymphoma → CCRT · teratoma → Sx + CMT · seminoma → CMT → RT → Sx · non-seminoma → CMT → Sx\"<br>ไฮไลต์: \"Mass at anterior mediastinum\" \"AFP, beta-HCG both positive\" \"หน้าบวม แขนบวม หายใจลำบาก\" \"หลอดเลือดดำที่คอโต\" \"รักษาอย่างไร\" · E (เหลือง)<br>รูปที่แปะ: ① ตาราง Markers (AFP/ β-HCG): Teratoma (= benign) −/− · Malignant teratoma (non-seminoma) + · Seminoma −/− · Non-seminoma +/+ ② สรุปลายมือ Germ cell tumor (benign — teratoma · malignant — seminoma/ non-seminoma) ③ สไลด์ Non-Seminoma — Presentation: Aggressive space occupying lesion usually in ant. Mediastinum · Elevate markers (AFP, β-HCG) · Metastasis to lungs, pleura, LN, liver · Young men / CT finding: Inhomogenous mass with area of hemorrhage and necrosis / Treatment: Cisplatine base chemotherapy · Follow by complete surgical removal the remnant",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 102",
+  "kimg": [
+   "fsk_p102",
+   "kp67a_46"
   ]
  },
  "MDCU67|RoA|47": {
-  "interp": "หญิงอายุน้อย หนังตาตก ภาพซ้อน (myasthenia gravis) + ก้อนเนื้อใน anterior mediastinum = thymoma → ถามการรักษา",
-  "why": "<b>คีย์: ขีด C + ลายมือ ถ้าไม่ใช่ lymphoma · 3T 1L</b><br><b>นอกสไลด์:</b> ก้อนที่ thymus ร่วมกับ MG ชี้ว่าเป็น thymoma — ก้อนที่ดูผ่าตัดเอาออกได้หมดให้ผ่าตัดเอาก้อนพร้อมต่อม thymus และไขมันรอบ (extended thymectomy) ได้ทั้งวินิจฉัยและรักษา ช่วยอาการ MG ด้วย และไม่เจาะชิ้นเนื้อก่อนเพื่อเลี่ยงการกระจายของเนื้องอกไปที่ pleura",
+  "interp": "หญิง 25 ปี มี<b>หนังตาตก (ptosis) เห็นภาพซ้อน</b> (myasthenia gravis) CT พบ<b>ก้อนเนื้อใน anterior mediastinum</b> → ถามการจัดการ",
+  "why": "Myasthenia gravis + ก้อน anterior mediastinum = <b>thymoma</b> (~10–15% ของ MG มี thymoma; ~30–50% ของ thymoma มี MG) · ก้อน thymoma ที่ดูผ่าตัดเอาออกได้ (ภาพเข้าได้ ไม่สงสัย lymphoma) → <b>ผ่าตัด thymectomy เอาก้อนพร้อม thymus ทั้งหมดออก (extended thymectomy)</b> โดย<b>ไม่ต้อง biopsy ก่อน</b> (เสี่ยงแพร่กระจายในเยื่อหุ้มปอด) · เตรียม MG ให้คงที่ก่อนผ่าตัด (pyridostigmine ± IVIG/ plasmapheresis) · ไฟล์ขีด C ลายมือ <b>\"ถ้าไม่สงสัย lymphoma\"</b> และ <b>\"3T 1L: Thymoma, Teratoma, Thyroid · Lymphoma\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย MG ที่ไม่มีก้อนใน thymus และอาการจำกัดเฉพาะกล้ามเนื้อตา (ocular MG) — ใช้ยา pyridostigmine ± ยากดภูมิ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนใหญ่ลุกโครงสร้างรอบ ๆ จนผ่าตัดเอาออกทั้งหมดไม่ได้ หรือมีลักษณะชวน lymphoma (ต่อมโตหลายที่ ไข้ เหงื่อออกกลางคืน LDH สูง) — ตัดชิ้นเนื้อ (core/excision) ก่อนวางแผน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น thymoma หรือ thymic carcinoma ที่ลุกลามเฉพาะที่จนผ่าตัดไม่ได้ และผู้ป่วยไม่พร้อมผ่าตัด — ฉายแสงร่วมเคมีเป็นการรักษาหลัก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้า thymoma แพร่ไปอวัยวะไกล (ตับ ปอด กระดูก) — เคมีบำบัดสูตร platinum เป็นหลัก"
+   "A": "รักษาด้วยยาอย่างเดียวไม่เหมาะเมื่อมี thymoma (ต้องเอาก้อนออกเพราะเป็นเนื้องอกที่ลุกลามได้) · จะถูกถ้าผู้ป่วย MG ไม่มี thymoma และอาการเฉพาะตา",
+   "B": "Biopsy ก่อนไม่จำเป็นเมื่อภาพเข้ากับ thymoma ที่ผ่าตัดได้ (เสี่ยง seeding) · จะถูกถ้าก้อนลุกลามผ่าตัดไม่ได้ หรือสงสัย lymphoma/ germ cell tumor",
+   "D": "Radiation + chemo ใช้ใน thymoma ระยะลุกลามที่ผ่าตัดไม่ได้ หรือหลังผ่าตัดไม่หมด · จะถูกถ้าคำถามถาม thymoma ระยะ IV ผ่าตัดไม่ได้",
+   "E": "เคมีบำบัดอย่างเดียวไม่ใช่การรักษาหลักของ thymoma ที่ผ่าตัดได้ · จะถูกถ้าคำถามถาม thymic carcinoma ที่กระจาย"
   },
-  "trap": "คิดว่าต้องตัดชิ้นเนื้อยืนยันก่อนผ่าตัดเหมือนก้อนทั่วไป — thymoma ที่ดูผ่าตัดได้ (ยิ่งร่วม MG) ผ่าตัดเอาออกเลย การเจาะผ่านเยื่อหุ้มปอดเสี่ยงเนื้องอกกระจาย",
+  "trap": "Biopsy ก่อนทุกก้อนใน mediastinum — thymoma ที่ผ่าตัดได้ตัดออกเลย (ยกเว้นสงสัย lymphoma)",
   "summary": [
-   "<b>นอกสไลด์:</b> เตรียมผู้ป่วย MG ก่อน thymectomy: คุมอาการให้คงที่ก่อน (pyridostigmine ± steroid/ยากดภูมิ) · มีอาการกลืนหรือหายใจอ่อนแรง → IVIG หรือ plasmapheresis ก่อนผ่าตัด · ตรวจ FVC/แรงหายใจ · ระวังยาหย่อนกล้ามเนื้อ (ผู้ป่วยไวต่อ nondepolarizing)"
+   "Anterior mediastinum: 3T 1L (Thymoma · Teratoma/ GCT · Thyroid · Lymphoma)",
+   "Thymoma + MG → thymectomy (extended)",
+   "ไม่ biopsy ถ้าภาพเข้ากับ thymoma ที่ตัดได้",
+   "Thymoma ลุกลาม → neoadjuvant chemo → ผ่าตัด ± RT",
+   "MG ไม่มี thymoma อายุ 18–65 + anti-AChR บวก → thymectomy ช่วยได้ (MGTX)",
+   "เตรียม MG ก่อนผ่าตัด: pyridostigmine ± IVIG/ PLEX"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'MG + ก้อนหน้าอก = Thymoma → Thymectomy'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Thymomas and Thymic Carcinomas v.1.2025; International Consensus Guidance for Management of Myasthenia Gravis (Neurology 2021;96:114)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย MG ทั่วตัว anti-AChR บวก อายุ 35 ปี ไม่มี thymoma → thymectomy ก็ช่วยลดอาการและขนาดยา (การศึกษาแบบสุ่ม MGTX)",
-   "<b>นอกสไลด์:</b> หลัง thymectomy วันที่ 1 หายใจตื้น พูดเสียงขึ้นจมูก กลืนลำบาก → myasthenic crisis: ใส่ท่อช่วยหายใจ + IVIG หรือ plasmapheresis"
+   "หญิง MG + CT ก้อน anterior mediastinum ขอบเรียบ → thymectomy",
+   "ชายหนุ่มก้อน anterior mediastinum AFP สูง → NSGCT → chemo",
+   "ก้อน anterior mediastinum + B symptoms → lymphoma → biopsy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 102 — ตัวพิมพ์: <b>47. ผู้ป่วยหญิงไทย 25 ปี มี ptosis, diplopia ทำ CXR CT พบ Soft tissue mass @ anterior mediastinum ข้อใดคือ management ของผู้ป่วยราย&#8203;นี้ — A. ไม่ผ่าตัดและใช้ยารักษาแบบเดิม B. เจาะดู Histopathology ก่อนจะตัดสินใจทำอย่างอื่นต่อไป C. ผ่าตัดเอา Soft tissue &amp; Thymus ใน anterior mediastinum ออก D. Radiation and Chemotherapy E. Chemotherapy เพราะฉายแสงไม่ได้ผล</b><br>ลายมือ: \"3T: Thymoma, Teratoma, Thyroid · 1L: Lymphoma\" · ขีด C + \"ถ้าไม่สงสัย lymphoma\"<br>ไฮไลต์: \"หญิงไทย 25 ปี\" \"ptosis\" \"diplopia\" \"Soft tissue mass @ anterior mediastinum\" \"management\" · C (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 102",
+  "kimg": [
+   "fsk_p102",
+   "kp67a_47"
   ]
  },
  "MDCU67|RoA|48": {
-  "interp": "ต่อมน้ำเหลือง supraclavicular ขวา + ก้อน anterior mediastinum (สองกลุ่ม อยู่เหนือกระบังลมข้างเดียวกัน) + ไข้ เหงื่อออกกลางคืน น้ำหนักลด → ถาม stage ของ lymphoma",
-  "why": "<b>คีย์: ขีด B + ลายมือ B-symptoms · 2 groups same side + ตาราง lymphoma staging</b><br><b>นอกสไลด์:</b> ต่อมสองกลุ่มขึ้นไปอยู่ด้านเดียวของกระบังลม (เหนือทั้งคู่) = stage II · มีไข้ เหงื่อออกกลางคืน น้ำหนักลด = B · รวมเป็น IIB",
+  "interp": "ผู้ป่วยแน่นหน้าอก <b>ไข้ เหงื่อออกกลางคืน น้ำหนักลด (B symptoms)</b> คลำต่อมน้ำเหลือง <b>supraclavicular ขวา</b> โต แข็ง และ CXR พบ <b>anterior mediastinal mass</b> ขนาดใหญ่ → ถามระยะ",
+  "why": "Lymphoma: ต่อมน้ำเหลือง <b>2 กลุ่ม (supraclavicular + mediastinum) อยู่ด้านเดียว (เหนือ) ของกะบังลม = stage II</b> + <b>B symptoms</b> = <b>IIB</b> (ก้อน mediastinum ใหญ่ = bulky disease) · ไฟล์ขีด B ลายมือ <b>\"B-symptom\"</b> · B <b>\"≥ 2 groups 1 ข้าง\"</b> · C <b>\"2 ข้าง\"</b> · E <b>\"invade organ\"</b> และแปะสไลด์ <b>Lymphoma Staging</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าต่อมสองกลุ่มอยู่เหนือกระบังลมทั้งคู่ แต่ไม่มีไข้ เหงื่อออกกลางคืน หรือน้ำหนักลด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ามีต่อมทั้งเหนือและใต้กระบังลม (เช่นคอ + ต่อมข้าง aorta ในท้อง) โดยไม่มี B symptoms",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามีต่อมทั้งเหนือและใต้กระบังลม ร่วมกับไข้ เหงื่อออกกลางคืน หรือน้ำหนักลด",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็งลุกอวัยวะนอกต่อมน้ำเหลืองแบบกระจาย เช่นไขกระดูก ตับ หรือปอดหลายก้อน"
+   "A": "Stage II (A) ไม่มี B symptoms · จะถูกถ้าผู้ป่วยไม่มีไข้ เหงื่อออกกลางคืน น้ำหนักลด",
+   "C": "Stage III = ต่อมน้ำเหลืองทั้งสองด้านของกะบังลม (ลายมือ \"2 ข้าง\") · จะถูกถ้ามีต่อมน้ำเหลืองที่คอและขาหนีบ ไม่มี B symptoms",
+   "D": "IIIB = สองด้าน + B symptoms · จะถูกถ้ามีต่อมน้ำเหลือง mediastinum + para-aortic + น้ำหนักลด",
+   "E": "Stage IV = ลุกลามอวัยวะนอกต่อมน้ำเหลืองแบบกระจาย (ลายมือ \"invade organ\") · จะถูกถ้ามีรอยโรคที่ตับ/ ไขกระดูก/ ปอด"
   },
-  "trap": "เห็นก้อน mediastinum ใหญ่แล้วคิดว่าเป็นการลุกอวัยวะนอกต่อมจึงตอบ stage IV — ก้อนต่อมน้ำเหลืองขนาดใหญ่ (bulky) ไม่ได้เปลี่ยน stage",
+  "trap": "ลืมต่อท้าย B หรือคิดว่า mediastinum กับคอคนละด้าน — ทั้งสองอยู่เหนือกะบังลม",
   "summary": [
-   "<b>นอกสไลด์:</b> Ann Arbor/Lugano: I = ต่อมกลุ่มเดียว · II = ≥ 2 กลุ่มด้านเดียวของกระบังลม · III = ทั้งสองด้านของกระบังลม (หรือเหนือกระบังลม + ม้าม) · IV = ลุกอวัยวะนอกต่อมแบบกระจาย · B symptoms: ไข้ > 38 °C, เหงื่อออกท่วมตัวกลางคืน, น้ำหนักลด > 10% ใน 6 เดือน (Lugano ใช้ A/B เฉพาะ Hodgkin)"
+   "I: กลุ่มเดียว · II: ≥ 2 กลุ่มด้านเดียว · III: สองด้าน · IV: อวัยวะ",
+   "B: ไข้ &gt; 38 °C · เหงื่อออกกลางคืน · น้ำหนักลด &gt; 10% ใน 6 เดือน",
+   "Bulky mediastinum (&gt; 1/3 ของความกว้างทรวงอก) → ระวังการดมยา",
+   "วินิจฉัย: excisional biopsy ต่อมน้ำเหลือง",
+   "PET-CT ใช้ staging",
+   "Hodgkin: Reed-Sternberg · ตอบสนองดีต่อ ABVD ± RT"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'เหนือกะบังลม 2 กลุ่ม + ไข้/ เหงื่อ/ ผอม = IIB'</b>",
+  "guide": "Lugano Classification (J Clin Oncol 2014;32:3059); NCCN Hodgkin Lymphoma v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ต่อมคอซ้ายโตร่วมม้ามโต ไม่มีไข้ น้ำหนักไม่ลด → stage IIIA (ม้ามนับเป็นเนื้อเยื่อต่อมน้ำเหลือง)",
-   "<b>นอกสไลด์:</b> ก้อน mediastinum ลามเข้าเนื้อปอดที่ติดกันเฉพาะที่ ร่วมต่อมคอ → stage IIE (ลามต่อเนื่องจากต่อม ไม่ใช่ stage IV)"
+   "ต่อมน้ำเหลืองคอซ้ายกลุ่มเดียว ไม่มีอาการ → IA",
+   "คอ + ขาหนีบ + น้ำหนักลด → IIIB",
+   "lymphoma + ไขกระดูก → IV"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 102 — ตัวพิมพ์: <b>48. ผู้ป่วยมาด้วยอาการแน่นหน้าอก ไข้ เหงื่อออกตอนกลางคืน น้ำหนักลด คลำได้กลุ่มก้อนต่อมน้ำเหลืองโต ขรุขระ แข็ง บริเวณ Rt. supraclavicular ผลการตรวจ CXR พบ anterior mediastinal mass ขนาดใหญ่ ขอบเขตไม่ชัด จงให้ staging ของผู้ป่วยราย&#8203;นี้ — A. II B. IIb C. III D. IIIb E. IV</b><br>ลายมือ: ขีดเส้นใต้ \"ไข้ เหงื่อออกตอนกลางคืน น้ำหนักลด\" + \"B-symptom\" · ขีด B + \"≥ 2 groups 1 ข้าง\" · C \"2 ข้าง\" · E \"invade organ\"<br>ไฮไลต์: \"แน่นหน้าอก\" \"ไข้ เหงื่อออกตอนกลางคืน น้ำหนักลด\" \"กลุ่มก้อนต่อมน้ำเหลืองโต ขรุขระ แข็ง บริเวณ Rt. supraclavicular\" \"CXR พบ anterior mediastinal mass ขนาดใหญ่ ขอบเขตไม่ชัด\" \"staging\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Lymphoma — Staging: I One group of LN · II Two or more groups of LN but in the same side of diaphragm · III Any LN on both sides of diaphragm · IV Organs involvement (liver, bone, lungs…) · \"± มี B-symptom? → IB, IIB…\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 102",
+  "kimg": [
+   "fsk_p102",
+   "kp67a_48"
   ]
  },
  "MDCU67|RoA|49": {
-  "interp": "ถามสาเหตุที่พบบ่อยที่สุดของก้อนใน anterior mediastinum ในผู้ใหญ่",
-  "why": "<b>คีย์: ขีด A + สไลด์ thymoma 46%, lymphoma 24%, GCT 15%, endocrine 15%</b><br><b>นอกสไลด์:</b> thymoma เป็นเนื้องอกที่พบบ่อยที่สุดของ anterior mediastinum ในผู้ใหญ่ พบมากช่วงอายุ 40–60 ปี และร่วมกับ MG ได้",
+  "interp": "ถาม<b>สาเหตุที่พบบ่อยที่สุดของก้อนใน anterior mediastinum</b> (ผู้ใหญ่)",
+  "why": "ตามสไลด์ในไฟล์ (Anterior Mediastinal Mass): <b>Thymoma 46%</b> · Lymphoma 24% · Germ cell tumor (teratoma) 15% · Endocrine tumor (thyroid) 15% → thymoma พบบ่อยที่สุดในผู้ใหญ่ (ในเด็ก lymphoma พบบ่อยกว่า) · ช่วยจำ \"3T 1L\" · ไฟล์ขีด A ลายมือเปอร์เซ็นต์ <b>A 46% · B 24% · C 15% · D 15%</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นกลุ่มผู้ใหญ่อายุน้อย (ราว 20–30 ปี) ซึ่ง Hodgkin lymphoma ชนิด nodular sclerosis เป็นก้อน anterior mediastinum ที่พบบ่อยที่สุด",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ก้อนไทรอยด์เป็นสาเหตุอันดับหนึ่งของก้อน anterior mediastinum ในผู้ใหญ่ เพราะไทรอยด์อยู่ที่คอ ก้อนในอกต้องเป็นคอพอกขนาดใหญ่ที่โตลงผ่านช่องอกด้านบน ซึ่งเกิดเพียงส่วนน้อยของผู้มีคอพอก",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ teratoma เป็นสาเหตุอันดับหนึ่งของก้อน anterior mediastinum ในผู้ใหญ่ เพราะ germ cell tumor ทั้งกลุ่มคิดเป็นราว 15% และ teratoma เป็นเพียงส่วนหนึ่งของกลุ่มนี้",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ neurogenic tumor เป็นสาเหตุของก้อน anterior mediastinum ที่พบบ่อยที่สุด เพราะเกิดจากเส้นประสาทข้างกระดูกสันหลัง จึงอยู่ใน posterior mediastinum"
+   "B": "Lymphoma พบรองลงมา (~24%) และพบบ่อยที่สุดในเด็ก · จะถูกถ้าคำถามถามก้อน anterior mediastinum ที่พบบ่อยที่สุดในเด็ก",
+   "C": "Thyroid (substernal goiter) ~15% · จะถูกถ้าคำถามถามก้อน anterior mediastinum ที่ต่อเนื่องจากคอและจับ I-131",
+   "D": "Teratoma/ germ cell tumor ~15% · จะถูกถ้าคำถามถามก้อนที่มีไขมัน หินปูน ฟัน ในคนหนุ่มสาว",
+   "E": "Neurogenic tumor พบบ่อยที่สุดใน posterior mediastinum · จะถูกถ้าคำถามถามก้อนที่ posterior mediastinum (paravertebral)"
   },
-  "trap": "จำว่า lymphoma เป็นก้อนในอกที่พบบ่อยในเด็กและคนหนุ่มสาวแล้วตอบ lymphoma — ในผู้ใหญ่โดยรวม thymoma พบมากที่สุด",
+  "trap": "ตอบ neurogenic tumor ซึ่งเป็นก้อนที่พบบ่อยที่สุดใน posterior mediastinum",
   "summary": [
-   "<b>นอกสไลด์:</b> แยกก้อนตามช่อง: anterior = \"4T\" (thymoma, teratoma/germ cell, terrible lymphoma, thyroid) · middle = ต่อมน้ำเหลือง ถุงน้ำ bronchogenic/pericardial · posterior = เนื้องอกเส้นประสาท (ผู้ใหญ่ schwannoma, เด็ก neuroblastoma) · เด็กทั้งหมด: posterior/neurogenic และ lymphoma พบบ่อย"
+   "Anterior: 3T 1L — thymoma (46%) · lymphoma (24%) · teratoma/ GCT · thyroid",
+   "Middle: cyst (bronchogenic/ pericardial) · lymphadenopathy",
+   "Posterior: neurogenic tumor (schwannoma, neuroblastoma ในเด็ก)",
+   "เด็ก anterior: lymphoma พบบ่อย",
+   "Thymoma + MG → thymectomy",
+   "GCT: AFP/ β-hCG"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'Anterior = 3T 1L (Thymoma นำ 46%)'</b>",
+  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Mediastinal masses; Sabiston Textbook of Surgery 21st ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายอายุ 25 ปีก้อน anterior mediastinum ร่วมต่อมคอโต ไข้ เหงื่อออกกลางคืน → สงสัย lymphoma: ตัดต่อมที่คอส่งตรวจ (ง่ายและปลอดภัยกว่าเจาะก้อนในอก)",
-   "<b>นอกสไลด์:</b> เด็ก 3 ขวบก้อน posterior mediastinum มีหินปูน → neuroblastoma: ตรวจ VMA/HVA ในปัสสาวะ"
+   "ผู้ใหญ่ก้อน anterior mediastinum + MG → thymoma",
+   "เด็กก้อน anterior mediastinum + ต่อมน้ำเหลืองโต → lymphoma",
+   "ก้อน posterior mediastinum ข้างกระดูกสันหลัง → neurogenic tumor"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 102 — ตัวพิมพ์: <b>49. What is the most common cause of anterior mediastinal mass? — A. Thymoma B. Lymphoma C. Thyroid tumor D. Teratoma E. Neurogenic tumor</b><br>ลายมือ: ขีด A + \"46%\" · B \"24%\" · C \"15%\" · D \"15%\"<br>ไฮไลต์: \"most common cause\" \"anterior mediastinal mass\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Anterior Mediastinal Mass (\"= anterosuperior\") — Thymoma 46% · Lymphoma 24% · Germ cell tumor (teratoma) 15% · Endocrine tumor (thyroid) 15% · กล่องลายมือ \"T3: Thymoma, Teratoma, Thyroid · L1: Lymphoma\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 102",
+  "kimg": [
+   "fsk_p102",
+   "kp67a_49"
   ]
  },
  "MDCU67|RoA|50": {
-  "interp": "ถามข้อความที่ถูกเรื่อง chronic constrictive pericarditis (อาการ สาเหตุ การตรวจ)",
-  "why": "<b>คีย์: ขีด D + ลายมือ C → idiopathic?</b><br><b>นอกสไลด์:</b> เยื่อหุ้มหัวใจที่หนาตัว (มักเกิน 4 mm) ± มีหินปูนบน CT/MRI สนับสนุน constrictive pericarditis ร่วมกับลักษณะการไหลเวียนที่หัวใจขยายตัวไม่ได้ — ช้อยอื่นเป็นข้อความที่ผิด",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>chronic constrictive pericarditis</b>",
+  "why": "Constrictive pericarditis: เยื่อหุ้มหัวใจหนาแข็ง → หัวใจคลายตัวรับเลือดไม่ได้ (diastolic filling บกพร่อง) · <b>CT/ MRI พบเยื่อหุ้มหัวใจหนา (&gt; 3–4 mm) ± หินปูน</b> → ข้อ D ถูก · ข้ออื่นผิด: อาการที่พบบ่อยที่สุดคือ<b>เหนื่อย/ อ่อนเพลีย และบวม</b> (ท้องมาน/ ตับโตพบได้แต่ไม่ใช่อันดับหนึ่ง), pulsus paradoxus เด่นใน <b>cardiac tamponade</b> พบน้อยใน constriction (Kussmaul sign เด่นกว่า), สาเหตุที่พบบ่อยที่สุดคือ <b>idiopathic/ viral</b> (ประเทศพัฒนาแล้ว) และ<b>วัณโรค</b> (ประเทศกำลังพัฒนา) — ผ่าตัดหัวใจเป็นสาเหตุรองลงมา · ไฟล์ไฮไลต์ D (\"CT scan\" \"thickened pericardium\") ลายมือ C ขีดฆ่า \"previous heart surgery\" เขียน <b>\"idiopathic?\"</b> · A <b>\"pericarditis → venous return ↓ → ท้องมาน → portal HTN\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ท้องบวมเป็นอาการที่พบบ่อยที่สุด\" เป็นจริง เพราะอาการหลักคือเหนื่อยง่าย อ่อนเพลียจาก cardiac output ต่ำ ส่วนท้องมาน ตับโต ขาบวมเป็นผลของความดันหลอดเลือดดำสูงที่ตามมา",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"AF ทำให้พบ pulsus paradoxus บ่อยขึ้น\" เป็นจริง เพราะ pulsus paradoxus วัดจากความดันที่ลดตามการหายใจเข้า จังหวะที่ไม่สม่ำเสมอของ AF ทำให้ความดันแต่ละครั้งต่างกันอยู่แล้วจนประเมินไม่ได้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"การผ่าตัดหัวใจเป็นสาเหตุที่พบบ่อยที่สุด\" เป็นจริงในภาพรวม เพราะสาเหตุอันดับหนึ่งคือ idiopathic/viral ในประเทศพัฒนาแล้ว และวัณโรคในประเทศกำลังพัฒนา หลังผ่าตัดหัวใจและหลังฉายแสงเป็นสาเหตุรองลงมา",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกข้อถูกพร้อมกัน เพราะข้อความเรื่องอาการหลัก, AF กับ pulsus paradoxus และสาเหตุอันดับหนึ่งเป็นข้อความที่ผิด"
+   "A": "ผิด — อาการพบบ่อยที่สุดคือเหนื่อย/ อ่อนเพลีย/ บวม (ท้องมานพบได้จาก venous congestion — ลายมือ) · จะถูกถ้าคำถามถามอาการที่ทำให้สับสนกับโรคตับ (ท้องมาน ตับโต)",
+   "B": "ผิด — pulsus paradoxus เด่นใน tamponade และพบได้น้อยลงเมื่อมี AF · จะถูกถ้าคำถามถาม cardiac tamponade (Beck triad + pulsus paradoxus)",
+   "C": "ผิด — สาเหตุพบบ่อยที่สุดคือ idiopathic/ viral หรือ TB (ลายมือแก้เป็น idiopathic?) · จะถูกถ้าคำถามถามสาเหตุในประเทศไทย/ ประเทศกำลังพัฒนา (TB) หรือสาเหตุที่พบบ่อยรองลงมาในตะวันตก",
+   "E": "ผิด — มีเพียง D ที่ถูก · จะถูกถ้าทุกข้อเป็นลักษณะจริง"
   },
-  "trap": "จำว่าผู้ป่วยมาด้วยท้องมานและตับโตจนเข้าใจผิดว่าโรคตับ แล้วเลือก A — ท้องมานเป็นอาการเด่นที่ทำให้วินิจฉัยผิด แต่อาการที่พบบ่อยที่สุดคือเหนื่อยง่าย",
+  "trap": "สับสน constriction กับ tamponade (pulsus paradoxus) — constriction เด่น Kussmaul sign, pericardial knock, เยื่อหุ้มหนา",
   "summary": [
-   "<b>นอกสไลด์:</b> ตรวจยืนยัน constrictive: echo เห็น septal bounce และการไหลผ่านลิ้นเปลี่ยนตามการหายใจมาก · CT/MRI เยื่อหุ้มหนา/หินปูน (แต่ราว 1 ใน 5 หนาปกติ) · สวนหัวใจ: dip-and-plateau (square root sign) ความดัน diastolic ทั้งสองห้องเท่ากัน และความดันห้องซ้ายขวาสวนทางกันตามการหายใจ"
+   "Constrictive: เยื่อหุ้มหนาแข็ง → diastolic filling บกพร่อง",
+   "อาการ: เหนื่อย บวม ท้องมาน ตับโต JVP สูง",
+   "Kussmaul sign · pericardial knock · square root sign",
+   "CT/ MRI: เยื่อหุ้มหนา &gt; 3–4 mm ± หินปูน",
+   "สาเหตุ: idiopathic/ viral · หลังผ่าตัดหัวใจ · รังสี · TB (ไทย)",
+   "รักษา: pericardiectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับไฮไลต์และลายมือในไฟล์ MCQ Key 2 (ไม่มีเครื่องหมายขีดชัด แต่ไฮไลต์ D และแก้ C)",
+  "mnemonic": "<b>'Constrictive = เปลือกแข็ง (CT เห็นหนา) · Kussmaul ไม่ใช่ Pulsus'</b>",
+  "guide": "ESC Guidelines for the Diagnosis and Management of Pericardial Diseases (Eur Heart J 2015;36:2921)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยเคยฉายแสงทรวงอก ท้องมาน ขาบวม JVP สูงขึ้นตอนหายใจเข้า และได้ยินเสียง knock ต้นช่วง diastole → Kussmaul sign + pericardial knock: คิดถึง constrictive pericarditis",
-   "<b>นอกสไลด์:</b> ผู้ป่วยวัณโรคเยื่อหุ้มหัวใจได้ยาวัณโรคครบ แต่ยังบวมและเหนื่อยมากขึ้นหลายเดือน เยื่อหุ้มหนา → constrictive ที่ยังไม่ดีขึ้น: pericardiectomy"
+   "ผู้ป่วยเคยเป็น TB เหนื่อย ท้องมาน JVP สูง Kussmaul บวก CT เยื่อหุ้มหนา → constrictive → pericardiectomy",
+   "หลังอุบัติเหตุ ความดันต่ำ JVP สูง เสียงหัวใจเบา → tamponade → pericardiocentesis",
+   "หลังผ่าตัดหัวใจหลายปี บวม ท้องมาน → constrictive pericarditis"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 103 — ตัวพิมพ์: <b>50. Which is/are true regarding to chronic constrictive pericarditis? — A. Abdominal distention is the most common symptoms B. Pulsus paradoxus is more common in the setting of atrial fibrillation C. The most common cause of chronic constrictive pericarditis is previous heart surgery D. CT scan demonstrates thickened pericardium E. All of above</b><br>ลายมือ: A \"pericarditis → venous return ↓ → ท้องมาน → portal HTN\" · C ขีดฆ่า \"previous heart surgery\" + \"idiopathic?\"<br>ไฮไลต์: \"chronic constrictive pericarditis\" · D \"CT scan\" \"thickened pericardium\" (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 103",
+  "kimg": [
+   "fsk_p103",
+   "kp67a_50"
   ]
  },
  "MDCU67|RoA|51": {
-  "interp": "ข้อ NOT — หาค่าที่ไม่ใช่เกณฑ์วินิจฉัย empyema แบบดั้งเดิม",
-  "why": "<b>คีย์: ขีด B + ลายมือ 15,000</b><br><b>นอกสไลด์:</b> เกณฑ์ในสไลด์ใช้เม็ดเลือดขาวในน้ำเยื่อหุ้มปอด > 15,000/mm³ (ลายมือแก้ 10,000 เป็น 15,000) ช้อยที่ใช้ 10,000 จึงไม่ใช่เกณฑ์ · เกณฑ์อื่นคือหนอง เชื้อ และค่าที่บอกการใช้น้ำตาลและสร้างกรดของเชื้อและเม็ดเลือดขาว (pH ต่ำ glucose ต่ำ LDH สูง)",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>เกณฑ์ของ <b>empyema thoracis</b>",
+  "why": "เกณฑ์ empyema/ complicated parapneumonic effusion: <b>Gram stain/ culture บวก</b>, หนองชัด, <b>LDH &gt; 1,000 IU/L</b>, <b>glucose &lt; 40 mg/dL</b>, <b>pH &lt; 7.0–7.2</b> · <b>WBC &gt; 10,000</b> ไม่ใช่เกณฑ์ (ข้อสอบใช้ระดับที่สูงกว่า ~15,000 — ลายมือแก้เป็น 15,000; บางตำรา &gt; 50,000) · ไฟล์ขีด B แก้ลายมือ 10,000 → <b>\"15,000\"</b> และติ๊ก ✓ ที่ A, C, D, E",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่ใช้ตัดสิน) ถ้าเชื้อที่ย้อมหรือเพาะได้มาจากการปนเปื้อนผิวหนังขณะเจาะ (เช่น coagulase-negative staphylococci ขึ้นขวดเดียว) ไม่เข้ากับอาการและภาพ",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าสูงโดยไม่ใช่ empyema) ถ้าเป็นน้ำเยื่อหุ้มปอดจากมะเร็ง เช่น lymphoma ที่เซลล์มะเร็งจำนวนมากทำให้ LDH เกิน 1,000",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าต่ำโดยไม่ใช่ empyema) ถ้าเป็นน้ำเยื่อหุ้มปอดจาก rheumatoid arthritis ซึ่ง glucose ต่ำมากได้โดยไม่มีเชื้อ",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าต่ำโดยไม่ใช่ empyema) ถ้าเป็น urinothorax จากท่อไตอุดตันหรือบาดเจ็บ ซึ่งเป็น transudate ชนิดเดียวที่ pH ต่ำ"
+   "A": "เป็นเกณฑ์ — Gram stain/ culture บวก = empyema (ลายมือ ✓) · จะถูกถ้าคำถามถามสิ่งที่ไม่จำเพาะ",
+   "C": "เป็นเกณฑ์ — LDH &gt; 1,000 (ลายมือ ✓) · จะถูกถ้าคำถามถามเกณฑ์ exudate (Light's)",
+   "D": "เป็นเกณฑ์ — glucose &lt; 40 (ลายมือ ✓) · จะถูกถ้าคำถามถาม effusion glucose ต่ำจาก RA",
+   "E": "เป็นเกณฑ์ — pH ต่ำ (ลายมือ ✓) · จะถูกถ้าคำถามถาม effusion ที่ pH ปกติ (transudate)"
   },
-  "trap": "เห็นคำว่า WBC อยู่ในเกณฑ์จึงเลือกว่าเป็นเกณฑ์โดยไม่ดูตัวเลข — เกณฑ์ในสไลด์คือ > 15,000/mm³ ไม่ใช่ 10,000",
+  "trap": "คิดว่า WBC สูงเท่าไรก็เป็น empyema — เกณฑ์ใช้ค่าที่สูงมาก ไม่ใช่ 10,000",
   "summary": [
-   "<b>นอกสไลด์:</b> เกณฑ์ empyema ในสไลด์: Gram stain/เพาะเชื้อบวก · WBC > 15,000/mm³ · โปรตีน > 3 g/dL · pH &lt; 7 · glucose &lt; 40 mg/dL · LDH > 1,000 U/L · แนวทางปัจจุบันใช้ pH ≤ 7.2 เป็นเกณฑ์ใส่สาย และไม่ใช้ WBC หรือโปรตีน"
+   "Empyema: หนอง หรือ Gram/ culture บวก",
+   "Complicated parapneumonic: pH &lt; 7.2 · glucose &lt; 60 · LDH &gt; 1,000",
+   "→ ICD ± fibrinolytic/ VATS",
+   "Simple parapneumonic: pH &gt; 7.2 → ATB อย่างเดียว",
+   "Loculated/ ไม่ดีขึ้น → VATS decortication",
+   "Chronic → open decortication"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Empyema: Pus · Gram+ · pH ต่ำ · Glucose ต่ำ · LDH สูง (ไม่ใช่ WBC 10,000)'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); ACCP Consensus: Parapneumonic Effusions (Chest 2000;118:1158)",
   "variants": [
-   "<b>นอกสไลด์:</b> เจาะได้หนองข้นสีเหลืองชัดเจน → ใส่สายระบายได้เลย ไม่ต้องรอหรือวัด pH",
-   "<b>นอกสไลด์:</b> ส่งน้ำเยื่อหุ้มปอดวัด pH → ใช้หลอดฉีดยาที่มี heparin ไล่อากาศ ส่งตรวจด้วยเครื่อง blood gas ทันที (ไม่ใช้กระดาษ pH — ค่าคลาดเคลื่อน)"
+   "น้ำในปอด pH 6.9 glucose 20 → ICD",
+   "เจาะได้หนอง → empyema → ICD + ATB",
+   "parapneumonic pH 7.35 → ATB อย่างเดียว"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 103 — ตัวพิมพ์: <b>51. ข้อใดไม่ใช่ criteria ของ Emphyema thoracis — A. Stain positive B. WBC &gt; 10,000 C. LDH &gt; 1000 D. Glucose &lt; 40 E. pH &lt; 7</b><br>ลายมือ: A ✓ · ขีด B + ขีดฆ่า \"10,000\" เขียน \"15,000\" · C ✓ · D ✓ · E ✓<br>ไฮไลต์: \"ไม่ใช่ criteria\" \"Emphyema thoracis\" · B (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 103",
+  "kimg": [
+   "fsk_p103",
+   "kp67a_51"
   ]
  },
  "MDCU67|RoA|52": {
-  "interp": "severe MS มีอาการแม้ใช้ยา ไม่มีลิ่มเลือดใน LA ไม่มี MR → ถามการรักษา",
-  "why": "<b>คีย์: ขีด B + ลายมือ C/I PBMV: MV score >8, clot, MR</b><br><b>นอกสไลด์:</b> severe MS ที่มีอาการต้องแก้การตีบ · เมื่อไม่มีลิ่มเลือดใน LA และไม่มี MR (ลายมือ: ข้อห้าม PBMV คือคะแนนลิ้น > 8, clot, MR) การขยายด้วยบอลลูนผ่านสายสวน (PBMV) ได้ผลเทียบเท่าการผ่าตัดโดยไม่ต้องผ่าตัดเปิดอก",
+  "interp": "หญิง<b>เหนื่อยง่าย นอนราบไม่ได้</b> echo: <b>severe MS ไม่มี clot ใน LA ไม่มี MR</b> กินยาแล้วดีขึ้นเล็กน้อย → ถามการรักษา",
+  "why": "Severe rheumatic MS ที่มีอาการ → ต้องขยายลิ้น · ถ้าลักษณะลิ้นเหมาะ (ไม่มี LA clot, MR ไม่เกิน mild, ลิ้นยืดหยุ่น หินปูนน้อย — Wilkins score ≤ 8) → <b>percutaneous balloon mitral valvotomy (PBMV)</b> เป็นวิธีแรก · ข้อห้าม PBMV: LA thrombus, MR ปานกลาง–รุนแรง, Wilkins score &gt; 8 (หินปูนมาก/ subvalvular ผิดปกติมาก), commissure มีหินปูนสองข้าง · ไฟล์ขีด B ลายมือ <b>\"C/I: MV score &gt; 8, clot, MR\"</b> · C <b>\"FC III\"</b> · D <b>\"FC II\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้า MS ไม่รุนแรง (MVA > 1.5 cm²) อาการเหนื่อยเล็กน้อย — คุมอัตราหัวใจ (β-blocker) และให้ยาขับปัสสาวะ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าลิ้น mitral แข็งหนามีหินปูนมาก (Wilkins score > 8) หรือมี MR ระดับปานกลางขึ้นไป ซึ่งบอลลูนไม่ได้ผลหรือทำให้รั่วมากขึ้น",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าลิ่มเลือดใน LA ไม่หายแม้ให้ยาต้านการแข็งตัวหลายเดือน แต่ลิ้นยังบางยืดหยุ่น — ผ่าตัดเปิดเอาลิ่มเลือดออกและแยก commissure ซ่อมลิ้นไว้",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกวิธีเป็นคำตอบพร้อมกัน เพราะยา บอลลูน การซ่อม และการเปลี่ยนลิ้นใช้กับระดับความรุนแรงและลักษณะลิ้นที่ต่างกัน ต้องเลือกทางเดียว"
+   "A": "ปรับยาอย่างเดียวไม่พอ ยาไม่แก้การตีบ · จะถูกถ้าคำถามถามการคุมอัตราเต้นหัวใจ/ diuretic ระหว่างรอทำหัตถการ",
+   "C": "เปลี่ยนลิ้นใช้เมื่อขยายด้วยบอลลูนไม่ได้ (ลิ้นหินปูนมาก MR มาก) (ลายมือ FC III) · จะถูกถ้า Wilkins score 12 ลิ้นหินปูนมาก",
+   "D": "Open commissurotomy เป็นทางเลือกเมื่อ PBMV ทำไม่ได้แต่ลิ้นยังซ่อมได้ (มี clot ใน LA appendage) · จะถูกถ้า severe MS ลิ้นยืดหยุ่นแต่มี LA appendage thrombus",
+   "E": "ไม่ใช่ทุกข้อ — PBMV เป็นวิธีเลือก · จะถูกถ้าคำถามถามวิธีที่ใช้ได้ทั้งหมดใน MS"
   },
-  "trap": "ได้ยินคำว่า severe แล้วเลือกเปลี่ยนลิ้น — ถ้าลิ้นยังเหมาะ (ไม่มี clot, ไม่มี MR, ลิ้นไม่แข็งมาก) PBMV เป็นการรักษาแรก",
+  "trap": "ส่งผ่าตัดเปลี่ยนลิ้นทันที — ลิ้นเหมาะ ไม่มี clot ไม่มี MR = PBMV",
   "summary": [
-   "<b>นอกสไลด์:</b> PBMV: severe MS (MVA ≤ 1.5 cm²) มีอาการ + ลิ้นเหมาะ (Wilkins ≤ 8) + ไม่มีลิ่มเลือดใน LA (ตรวจ TEE ก่อนทำ) + MR ไม่เกินระดับน้อย · ทำได้ในผู้ไม่มีอาการเมื่อความดันปอดสูง (PASP > 50 mmHg) หรือ AF ใหม่"
+   "Severe MS (MVA ≤ 1.5 cm²) + อาการ → ขยายลิ้น",
+   "PBMV: ไม่มี LA clot · MR ≤ mild · Wilkins ≤ 8",
+   "มี LA clot → anticoagulate แล้วประเมินใหม่ หรือ OMC",
+   "ลิ้นหินปูนมาก/ MR มาก → MVR",
+   "AF → anticoagulation",
+   "ตั้งครรภ์ severe MS → PBMV ได้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'MS ลิ้นดี ไม่มี clot ไม่มี MR = Balloon'</b>",
+  "guide": "ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ 24 สัปดาห์ severe MS เหนื่อยมากแม้ใช้ยา → PBMV ระหว่างตั้งครรภ์ได้ (ไตรมาสที่สอง ป้องกันรังสีที่ท้อง)",
-   "<b>นอกสไลด์:</b> หลัง PBMV ทันที เหนื่อยหอบ ความดันตก ได้ยินเสียงฟู่ใหม่ที่ apex → MR รุนแรงจากลิ้นฉีก: ผ่าตัดเปลี่ยนลิ้นด่วน"
+   "severe MS + LA appendage thrombus → anticoagulation/ OMC",
+   "severe MS Wilkins 13 + moderate MR → MVR",
+   "หญิงตั้งครรภ์ severe MS หอบ → PBMV"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 103 — ตัวพิมพ์: <b>52. ผู้ป่วยหญิงอายุ …. ปี เหนื่อยง่าย นอนราบไม่ได้ ตรวจพบ severe MS ไม่พบ Clot ไม่พบ MR ทานยาอาการดีขึ้นเล็กน้อย ควรให้การรักษาอย่างไร — A. ปรับชนิด/ขนาดของยา B. PBMV C. ผ่าตัดเปลี่ยนลิ้นหัวใจ หากไม่สามารถขยายได้ด้วย ballon D. Open commissulotomy E. All of above</b><br>ลายมือ: ขีด B + \"C/I: MV score &gt; 8, clot, MR\" · C \"FC III\" · D \"FC II\"<br>ไฮไลต์: \"เหนื่อยง่าย นอนราบไม่ได้\" \"severe MS\" \"ไม่พบ Clot\" \"ไม่พบ MR\" \"ทานยาอาการดีขึ้นเล็กน้อย\" \"รักษาอย่างไร\" · B (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 103",
+  "kimg": [
+   "fsk_p103",
+   "kp67a_52"
   ]
  },
  "MDCU67|RoA|53": {
-  "interp": "severe MS + MR น้อย + TR รุนแรง มีอาการ (FC III) → ถามการผ่าตัดที่เหมาะ",
-  "why": "<b>คีย์: ขีด D + ลายมือ FC III · annuloplasty + เอกสารข้อบ่งชี้</b><br><b>นอกสไลด์:</b> มีอาการชัดจึงต้องแก้ลิ้น · TR รุนแรงทำให้บอลลูนไม่พอ ต้องผ่าตัดเพื่อแก้ TR ในคราวเดียว · ลิ้น mitral rheumatic ที่ตีบรุนแรงส่วนใหญ่หนาแข็งจนซ่อมไม่ทน จึงเปลี่ยน · TR ที่มากับโรคลิ้นซ้ายส่วนใหญ่เป็นแบบ functional (วงลิ้นขยายจากความดันปอดสูง) ซ่อมด้วยการใส่วงรัด (ring annuloplasty)",
+  "interp": "ผู้ป่วย <b>severe MS + mild MR + severe TR</b> เหนื่อยจนทำงานไม่ไหว → ถามการรักษา",
+  "why": "Severe MS ที่มีอาการมาก (FC III) และมี<b>ลิ้น tricuspid รั่วรุนแรงร่วม</b> → PBMV แก้ TR ไม่ได้ ต้อง<b>ผ่าตัด</b>: <b>mitral valve replacement</b> (rheumatic MS ลิ้นเสียหาย ซ่อมผลไม่ทนทาน) ร่วมกับ <b>tricuspid valve repair (annuloplasty)</b> — TR ส่วนใหญ่เป็น functional จาก annulus ขยาย ซ่อมด้วย ring annuloplasty ได้ผลดี (เปลี่ยนลิ้น tricuspid เมื่อซ่อมไม่ได้) · ไฟล์ขีด D ลายมือ <b>\"FC III?\"</b> · <b>\"annuloplasty\"</b> และแปะตำราข้อบ่งชี้ผ่าตัดลิ้นไมตรัล",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยมีโรคร่วมรุนแรงหรืออยู่ในระยะท้ายจนเสี่ยงทั้งผ่าตัดและสวนหัวใจเกินรับ — ใช้ยาคุมอาการแบบประคับประคอง",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่บอลลูนอย่างเดียวเพียงพอเมื่อมี TR รุนแรงร่วม เพราะบอลลูนแก้ได้แค่ลิ้น mitral ส่วน TR รุนแรงที่วงลิ้นขยายแล้วส่วนใหญ่ไม่หายเองหลังความดันปอดลด ต้องซ่อมพร้อมกันตอนผ่าตัดลิ้นซ้าย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าลิ้น mitral rheumatic ยังบางยืดหยุ่น ไม่มีหินปูน ในศูนย์ที่ชำนาญการซ่อม — ผ่าตัดแยก commissure ซ่อมลิ้น mitral ร่วมกับใส่วงรัดลิ้น tricuspid",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าลิ้น tricuspid เสียจากโรคของลิ้นเอง (rheumatic ลิ้นหนาหดรั้ง หรือ endocarditis ทำลายลิ้น) จนซ่อมไม่ได้"
+   "A": "ปรับยาไม่พอเมื่ออาการ FC III และมีโรคลิ้นหลายตำแหน่ง · จะถูกถ้าคำถามถามการเตรียมก่อนผ่าตัด",
+   "B": "Balloon แก้ MS ได้แต่ไม่แก้ severe TR ที่ต้องผ่าตัด · จะถูกถ้า severe MS อย่างเดียว ลิ้นเหมาะ ไม่มี TR รุนแรง",
+   "C": "ซ่อมลิ้นไมตรัลใน rheumatic MS ผลไม่ทนทาน · จะถูกถ้าเป็น degenerative MR (flail posterior leaflet)",
+   "E": "เปลี่ยนลิ้น tricuspid ใช้เมื่อลิ้นเสียหายเชิงโครงสร้าง (rheumatic TS/ endocarditis) ซ่อมไม่ได้ · จะถูกถ้าลิ้น tricuspid มีพยาธิสภาพมาก"
   },
-  "trap": "เห็น TR รุนแรงแล้วคิดว่าต้องเปลี่ยนลิ้น tricuspid ด้วย — TR ที่เกิดตามโรคลิ้นซ้ายเป็นแบบ functional ใบลิ้นปกติ ซ่อมด้วย annuloplasty ได้ผลดีกว่าการเปลี่ยน",
+  "trap": "ใช้บอลลูนเพราะเป็น MS — มี severe TR ร่วมต้องผ่าตัด และ TR ส่วนใหญ่ซ่อม (annuloplasty) ไม่ต้องเปลี่ยน",
   "summary": [
-   "<b>นอกสไลด์:</b> ผ่าตัดลิ้น tricuspid ระหว่างผ่าตัดลิ้นซ้าย (ACC/AHA): TR รุนแรง → ทำ (class I) · TR น้อยถึงปานกลางแต่วงลิ้นขยาย (> 40 mm หรือ > 21 mm/m²) หรือมีหัวใจขวาล้มเหลว → พิจารณาทำ · functional TR ใช้ ring annuloplasty"
+   "Severe MS + severe TR → ผ่าตัด MVR + TV repair",
+   "Functional TR → ring annuloplasty",
+   "TV replacement เมื่อซ่อมไม่ได้",
+   "Rheumatic MS ซ่อมลิ้นผลไม่ทนทาน → replacement",
+   "PBMV: MS อย่างเดียวที่ลิ้นเหมาะ",
+   "ผ่าตัด left-sided valve → พิจารณาซ่อม TR moderate+ / annulus ≥ 40 mm"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Mitral เปลี่ยน · Tricuspid ซ่อม (ring)'</b>",
+  "guide": "ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72) — Tricuspid regurgitation",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยผ่าตัดเปลี่ยนลิ้น mitral ไปหลายปี ต่อมามี TR รุนแรงและหัวใจขวาล้ม → ผ่าตัดซ้ำเสี่ยงสูงกว่ามาก จึงควรแก้ TR ตั้งแต่ผ่าตัดครั้งแรกเมื่อมีข้อบ่งชี้",
-   "<b>นอกสไลด์:</b> ระหว่างผ่าตัด mitral พบใบลิ้น tricuspid ปกติ TR รุนแรงจากวงลิ้นขยาย → ใส่วงรัด (ring annuloplasty) ไม่เปลี่ยนลิ้น"
+   "ผ่าตัด MVR + annulus tricuspid 45 mm → TV annuloplasty ร่วม",
+   "severe MS อย่างเดียว ลิ้นยืดหยุ่น → PBMV",
+   "TR จาก endocarditis ลิ้นถูกทำลาย → TV replacement"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 103 — ตัวพิมพ์: <b>53. ผู้ป่วยมี severe MS, mild MR, Severe TR มีอาการเหนื่อย ทำงานไม่ไหว ควรได้รับการรักษาด้วยวิธีใด — A. Adjust medication B. Balloon C. Mitral valve repair, tricuspid valve repair D. Mitral valve replacement, tricuspid valve repair E. Mitral valve replacement, tricuspid valve replacement</b><br>ลายมือ: ขีด D + \"FC III?\" เหนือ mitral valve replacement · \"annuloplasty\" เหนือ tricuspid valve repair<br>ไฮไลต์: \"severe MS, mild MR, Severe TR\" \"เหนื่อย ทำงานไม่ไหว\" · D (เหลือง)<br>รูปที่แปะ: ตำราไทยข้อบ่งชี้ผ่าตัดลิ้นไมตรัล (MS: OMC/ MVR · MR: Acute MR ผ่าตัดทุกราย · Chronic MR — F.C. II ขึ้นไปถ้าซ่อมได้ · F.C. III ขึ้นไปถ้าต้องเปลี่ยนลิ้น)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 103",
+  "kimg": [
+   "fsk_p103",
+   "kp67a_53"
   ]
  },
  "MDCU67|RoA|54": {
-  "interp": "CABG — ถามว่า graft คู่ไหนมีผลต่อการรอดชีวิตระยะยาวมากที่สุด",
-  "why": "<b>คีย์: ขีด E + เอกสาร LIMA ต่อ LAD patency 90–95% ที่ 10 ปี</b><br><b>นอกสไลด์:</b> LAD เลี้ยงกล้ามเนื้อหัวใจห้องซ้ายส่วนใหญ่ (ผนังหน้าและ septum) และ LIMA เป็นหลอดเลือดแดงที่ไม่ค่อยเกิด atherosclerosis เปิดอยู่ได้ราว 90–95% ที่ 10 ปี — การต่อ LIMA–LAD จึงเป็นส่วนที่เพิ่มการรอดชีวิตของ CABG (class I ในทุกรายที่ต้อง bypass LAD)",
+  "interp": "ใน <b>CABG</b> ถาม graft ที่<b>มีผลต่อการรอดชีวิตระยะยาวมากที่สุด</b>",
+  "why": "<b>Left internal mammary (thoracic) artery (LIMA) ต่อกับ LAD</b> มี<b>อัตราการเปิด (patency) สูงสุด ~90–95% ที่ 10 ปี</b> และเป็นปัจจัยที่<b>เพิ่มการรอดชีวิตระยะยาว</b>ชัดเจนที่สุดใน CABG (LAD เลี้ยงหัวใจห้องล่างซ้ายส่วนใหญ่) · saphenous vein graft เปิด ~50–60% ที่ 10 ปี · ไฟล์ขีด E (แก้ \"LDA\" เป็น LAD) และแปะข้อความ <b>\"เมื่อเปรียบเทียบ conduits for CABG ทั้งหมดพบว่าการใช้ LIMA ต่อกับ LAD มี patency rate ดีที่สุด (90–95% ที่ 10 ปี)\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ LIMA–LCX มีผลต่อการรอดชีวิตมากที่สุด เพราะ LCX เลี้ยงผนังด้านข้างซึ่งเป็นกล้ามเนื้อส่วนน้อย การเปิดทางเลือดไปพื้นที่เล็กเพิ่มการรอดชีวิตได้น้อย",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ SVG มีผลต่อการรอดชีวิตระยะยาวมากที่สุด เพราะหลอดเลือดดำที่รับความดันแดงเกิดผนังหนาตัวและ atherosclerosis ใน graft อุดตันไปราวครึ่งหนึ่งใน 10 ปี",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ radial artery ไป RCA มีผลต่อการรอดชีวิตมากที่สุด เพราะ radial มีกล้ามเนื้อหนาหดเกร็งง่าย ถ้า RCA ตีบไม่มากเลือดในหลอดเดิมจะแข่ง (competitive flow) จน graft อุดตัน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ต่อ graft เข้า left main (LCA) โดยตรง เพราะ left main สั้นและแตกแขนงทันที graft ต้องต่อที่แขนงปลายทาง (LAD, LCX)"
+   "A": "LIMA → LCX ใช้ได้แต่ประโยชน์ต่อการรอดชีวิตน้อยกว่าเมื่อเทียบ LIMA → LAD · จะถูกถ้าคำถามถาม graft ที่ใช้เมื่อ LAD ต่อด้วย RIMA (bilateral IMA)",
+   "B": "SVG มี patency ต่ำกว่า (~50–60% ที่ 10 ปี) · จะถูกถ้าคำถามถาม conduit ที่ใช้บ่อยที่สุดสำหรับเส้นอื่นที่ไม่ใช่ LAD",
+   "C": "Radial artery → RCA ใช้ได้ (ดีที่สุดเมื่อตีบรุนแรง &gt; 70–90%) · จะถูกถ้าคำถามถาม arterial conduit ตัวที่สองที่ดีกว่า SVG",
+   "D": "Radial artery → LCA ไม่ใช่ graft มาตรฐานต่อ LAD · จะถูกถ้าคำถามถาม conduit ทางเลือกเมื่อไม่มี IMA"
   },
-  "trap": "คิดว่าจำนวน graft หรือการต่อทุกเส้นสำคัญเท่ากัน — ผลต่อการรอดชีวิตมาจาก LIMA–LAD เป็นหลัก graft อื่นช่วยอาการและลดเหตุการณ์ แต่ผลต่อการรอดชีวิตน้อยกว่า",
+  "trap": "คิดว่า graft ทุกเส้นมีผลเท่ากัน — LIMA → LAD คือหัวใจของ CABG",
   "summary": [
-   "<b>นอกสไลด์:</b> การเปิดของ graft ที่ราว 10 ปี: LIMA–LAD ราว 90–95% · radial artery ราว 80–90% (เมื่อหลอดเลือดปลายทางตีบรุนแรง) · SVG ราว 50–60%"
+   "LIMA → LAD: patency ~90–95% ที่ 10 ปี · เพิ่มการรอดชีวิต",
+   "SVG: patency ~50–60% ที่ 10 ปี",
+   "Radial artery &gt; SVG (RADIAL trial)",
+   "Bilateral IMA: อาจดีกว่าในรายเลือก (ระวังแผลกระดูกอกในเบาหวาน)",
+   "ข้อบ่งชี้ CABG: left main · 3-vessel (โดยเฉพาะ DM, EF ต่ำ)",
+   "SYNTAX score ช่วยเลือก CABG vs PCI"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และข้อความที่แปะ (ต้นฉบับเขียน \"ผู้ป่วยลิ้นหัวใจตีบ\" น่าจะหมายถึงหลอดเลือดหัวใจตีบ)",
+  "mnemonic": "<b>'LIMA–LAD = ท่อทองคำของ CABG'</b>",
+  "guide": "ACC/AHA/SCAI Guideline for Coronary Artery Revascularization (Circulation 2022;145:e18)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยเคย CABG มี LIMA–LAD ที่เปิดดี จะผ่าตัดหัวใจซ้ำ → CT ดูแนว LIMA ก่อนเลื่อยกระดูกอก เพราะตัดโดน LIMA ทำให้หัวใจขาดเลือดเฉียบพลัน",
-   "<b>นอกสไลด์:</b> ผู้ป่วยอายุน้อย 3 vessel disease ตีบรุนแรงทุกเส้น → พิจารณาใช้ IMA ทั้งสองข้าง (BIMA) เพื่อผลระยะยาว แต่เสี่ยงแผลกระดูกอกติดเชื้อมากขึ้นในเบาหวานและอ้วน"
+   "3-vessel disease + DM → CABG (LIMA → LAD + SVG/ radial)",
+   "left main disease → CABG",
+   "หลัง CABG 10 ปี เจ็บอกซ้ำ → SVG ตันมากกว่า LIMA"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 103 — ตัวพิมพ์: <b>54. CABG ในผู้ป่วยลิ้นหัวใจตีบ ข้อใดส่งผลต่อ long term survival มากสุด — A. LIMA → LCX B. SVG → LCX C. Radial a. → RCA D. Radial a. → LCA E. LIMA → LAD</b><br>ลายมือ: ขีด E (แก้ \"LDA\" เป็น LAD)<br>ไฮไลต์: \"CABG ในผู้ป่วยลิ้นหัวใจตีบ\" · E (เหลือง)<br>รูปที่แปะ: ข้อความตำรา — \"เมื่อเปรียบเทียบ conduits for CABG ทั้งหมดพบว่าการใช้ LIMA ต่อกับ LAD มี patency rate ดีที่สุด (90–95% ที่ 10 ปี)\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 103",
+  "kimg": [
+   "fsk_p103",
+   "kp67a_54"
   ]
  }
 }
