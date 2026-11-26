@@ -1,0 +1,2 @@
+/* Unit round — L28 Emergency in pediatric surgery · term (ผู้ใช้สั่ง 26 พ.ย. 2026) · กำลังเขียนโจทย์ตามแผน parts/PLAN_L28.json — ตอนนี้ใส่หัวข้อบทไว้ก่อน */
+W.UNIT.push({"id": "L28", "title": "L28 Emergency in pediatric surgery", "short": "L28", "src": "__L28_Emergency_in_pediatric_surgery___main.pdf (33 หน้า สไลด์ ไม่มีลายมือ · Chatdow Choungboonsri, MD)", "topic": "Pediatric surgery", "tags": ["Pediatric surgery"],"QB":[]});
