@@ -1,197 +1,332 @@
 {
  "MDCU67|RoA|22": {
-  "interp": "ข้อ EXCEPT — หาข้อความที่ผิดเกี่ยวกับ sigmoid volvulus (ระบาดวิทยา ภาพรังสี การรักษา)",
-  "why": "<b>คีย์: ขีด E + ลายมือ ~80%</b><br><b>นอกสไลด์:</b> sigmoid เป็นตำแหน่งที่บิดบ่อยที่สุดของลำไส้ใหญ่ คิดเป็นราวสองในสามของ colonic volvulus ทั้งหมด ข้อความ \"น้อยกว่าครึ่ง\" จึงผิด · ช้อยอื่นเป็นข้อเท็จจริงของโรค",
+  "interp": "ถามข้อที่<b>ไม่จริง</b>เกี่ยวกับ <b>sigmoid volvulus</b>",
+  "why": "Sigmoid เป็นตำแหน่ง colonic volvulus ที่<b>พบบ่อยที่สุด (~60–75% ในตะวันตก สูงถึง ~80–90% ในบางภูมิภาค)</b> → \"น้อยกว่าครึ่ง\" จึงผิด · ข้ออื่นจริง: ไม่มีขาดเลือด → ส่องกล้องคลายแล้วตามด้วย elective sigmoidectomy, coffee bean sign บนฟิล์ม, คลายไม่ได้/ ขาดเลือด → ผ่าตัดฉุกเฉิน, พบในผู้สูงอายุติดเตียง · ไฟล์ขีด E ขีดฆ่า \"less than 50%\" เขียน <b>\"~90%\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าเป็นผู้ป่วยที่เสี่ยงผ่าตัดสูงมากจนไม่ทำ sigmoidectomy — ใช้การคลายบิดซ้ำหรือยึด sigmoid กับผนังหน้าท้องผ่านกล้องแทน · ในผู้ป่วยทั่วไปข้อความนี้จริง เพราะคลายบิดอย่างเดียวกลับเป็นซ้ำได้ราวครึ่งหนึ่งขึ้นไป",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าห่วงลำไส้ที่บิดมีน้ำเต็มแทนลม ภาพรังสีธรรมดาจึงไม่เห็นรูปเมล็ดกาแฟ ต้องใช้ CT (เห็นเกลียวหมุนของ mesentery — whirl sign)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"คลายบิดไม่สำเร็จหรือลำไส้ขาดเลือดต้องผ่าตัดฉุกเฉิน\" ผิด เพราะลำไส้ที่ขาดเลือดหรือยังบิดอยู่จะเน่าและทะลุ ไม่มีวิธีอื่นเอาลำไส้ส่วนนั้นออก",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าเป็นประชากรในเขตที่โรคนี้ชุก (แอฟริกา ตะวันออกกลาง อเมริกาใต้ รัสเซีย) ซึ่งพบในผู้ใหญ่วัยกลางคนที่แข็งแรงและกินอาหารกากใยสูง"
+   "A": "จริง — ส่องกล้องคลายแล้วตามด้วย elective sigmoidectomy (กลับเป็นซ้ำ ~40–60%) · จะถูกถ้าช้อยบอกว่าคลายแล้วไม่ต้องผ่าตัด",
+   "B": "จริง — coffee bean sign บนฟิล์มท้อง · จะถูกถ้าช้อยบอกว่า coffee bean เป็นของ cecal volvulus",
+   "C": "จริง — คลายไม่ได้/ ขาดเลือด → ผ่าตัดฉุกเฉิน · จะถูกถ้าช้อยบอกว่าไม่มีขาดเลือดก็ผ่าตัดฉุกเฉิน",
+   "D": "จริง — ผู้สูงอายุติดเตียง ท้องผูกเรื้อรัง · จะถูกถ้าช้อยบอกว่าพบมากในหญิงอายุน้อย"
   },
-  "trap": "จำได้ว่า cecal volvulus พบในคนอายุน้อยกว่าแล้วเข้าใจว่า cecum บิดบ่อยกว่า — อายุที่พบต่างกัน แต่ sigmoid ยังเป็นตำแหน่งที่พบบ่อยที่สุด",
+  "trap": "จำสัดส่วนผิด — sigmoid เป็น colonic volvulus ส่วนใหญ่",
   "summary": [
-   "<b>นอกสไลด์:</b> สัดส่วน colonic volvulus: sigmoid ราว 60–75% (ลายมือจด ~80%) · cecum ราว 25–40% · transverse/splenic flexure พบน้อย · ปัจจัย sigmoid: mesocolon ยาวฐานแคบ ท้องผูกเรื้อรัง ผู้สูงอายุติดเตียง ยาจิตเวช/Parkinson",
-   "<b>นอกสไลด์:</b> ลำดับการรักษา sigmoid volvulus: ไม่มี peritonitis → ส่องกล้องคลายบิด + คา rectal tube แล้ว sigmoidectomy ใน admission เดียวกัน · peritonitis/เยื่อบุดำคล้ำ/คลายไม่ได้ → ผ่าตัดฉุกเฉิน (มักทำ Hartmann)"
+   "Sigmoid volvulus: colonic volvulus ส่วนใหญ่ (~60–90%)",
+   "ผู้สูงอายุ ติดเตียง ท้องผูก ยาจิตเวช",
+   "ฟิล์ม coffee bean · CT whirl · contrast bird's beak",
+   "ไม่ขาดเลือด → ส่องคลาย + rectal tube → elective sigmoidectomy",
+   "ขาดเลือด/ ทะลุ/ คลายไม่ได้ → ผ่าตัดฉุกเฉิน (Hartmann)",
+   "Cecal volvulus → right hemicolectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และการแก้ลายมือ (โจทย์ชุดเดียวกับปี 69 ข้อ C31)",
+  "mnemonic": "<b>'Sigmoid volvulus = ส่วนใหญ่ (ไม่ใช่น้อยกว่าครึ่ง)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus (Dis Colon Rectum 2021;64:1046)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงอายุ 35 ปีปวดท้องอืด plain film เห็นลำไส้โป่งวงเดียวจากท้องขวาล่างชี้ขึ้นซ้ายบน ร่วมลำไส้เล็กโป่ง → cecal volvulus: ผ่าตัด right hemicolectomy (ส่องกล้องคลายบิดมักไม่สำเร็จ)",
-   "<b>นอกสไลด์:</b> ชายสูงอายุหลังผ่าตัดสะโพกท้องอืดมาก ภาพรังสีลำไส้ใหญ่ขยายทั้งเส้นถึง rectum ไม่มีจุดบิด → Ogilvie syndrome: แก้เกลือแร่ หยุด opioid ให้ neostigmine เมื่อ cecum โตต่อเนื่อง"
+   "ผู้สูงอายุติดเตียง coffee bean ไม่มี peritonitis → ส่องคลาย → elective sigmoidectomy",
+   "ส่องคลายแล้วเห็นเยื่อบุดำ → ผ่าตัด",
+   "หญิงอายุน้อย ลำไส้โป่งชี้ซ้ายบน → cecal volvulus"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 96 — ตัวพิมพ์: <b>22. The following statements are true for sigmoid volvulus except? — A. Reduction and bowel decompression by flexible sigmoidoscopy should be followed by elective sigmoidectomy B. Coffee bean sign is seen in acute abdomen series C. If can't reduce or has signs of bowel ischemia, patient should go to operation room emergently D. Mostly occurs in the elderly and institutionalizes patient E. Sigmoid volvulus accounts for less than 50% of colonic volvulus</b><br>ลายมือ: ขีด E + ขีดฆ่า \"less than 50%\" เขียน \"~90%\"<br>ไฮไลต์: \"true for sigmoid volvulus\" \"except\" · คำสำคัญใน A–D (ส้ม) · E (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 96",
+  "kimg": [
+   "fsk_p96",
+   "kp67a_22"
   ]
  },
  "MDCU67|RoA|23": {
-  "interp": "ปวดเวลาถ่าย + เลือดสด มาเกือบ 1 ปี = chronic anal fissure → ถามการรักษาที่เหมาะ",
-  "why": "<b>คีย์: ขีด A + สไลด์ chronic anal fissure</b><br><b>นอกสไลด์:</b> fissure ที่เป็นนานเกิน 6–8 สัปดาห์ถือว่าเรื้อรัง ต้นเหตุคือหูรูดภายในหดเกร็งจนแผลขาดเลือด · LIS ลดแรงหูรูดได้ถาวร แผลหายสูงสุด (ราว 90–95%) และกลับเป็นซ้ำน้อยกว่ายาทา · ผู้ป่วยที่เป็นมาเกือบปีจึงเหมาะกับ LIS",
+  "interp": "อาการ <b>chronic anal fissure</b> (เจ็บเวลาถ่าย ถ่ายมีเลือดสด เป็นเกือบปี) → ถามการรักษา",
+  "why": "Chronic anal fissure ที่เป็นมานาน (เกือบ 1 ปี) ไม่หายด้วยการรักษาเบื้องต้น → <b>lateral internal sphincterotomy (LIS)</b> = <b>gold standard</b> แผลหาย &gt; 90–95% · ลำดับ: lifestyle/ bulk laxative → NTG/ CCB ointment → Botox → LIS · กลไก: หูรูดภายในบีบเกร็ง → ขาดเลือด · ไฟล์ขีด A และแปะสไลด์ <b>Chronic anal fissure</b> (\"Ischemic and high anal resting pressure play an important role in the cause of CAF\" · Gold standard: lateral internal sphincterotomy) และสไลด์ <b>Anal fissure</b> (acute: direct trauma · chronic: ischemia · internal sphincter spasm · secondary changes)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลปริเฉียบพลันที่เพิ่งเริ่ม (ไม่ถึง 6 สัปดาห์ ไม่มี sentinel tag) — ใยอาหาร ยาระบายเพิ่มเนื้ออุจจาระ และแช่น้ำอุ่นทำให้หายได้ราวครึ่งหนึ่ง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลที่ใช้ใยอาหารแล้วยังไม่หาย หรือผู้ป่วยแผลเรื้อรังที่เสี่ยงกลั้นอุจจาระไม่อยู่และต้องการเลี่ยงการตัดหูรูด — ทายาลดแรงหูรูด (nitrate หรือ diltiazem) ราว 6–8 สัปดาห์ก่อน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลเรื้อรังที่ความดันหูรูดไม่สูง (เช่นหญิงหลังคลอดที่หูรูดเคยบาดเจ็บ) — ตัดแผลแล้วเลื่อนผิวหนังมาปิด (advancement flap) โดยไม่ตัดหูรูด",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นการขยายด้วยลูกโป่งที่ควบคุมแรงดันได้ (controlled pneumatic dilatation) ในผู้ป่วยที่ไม่ต้องการตัดหูรูด — การถ่างด้วยมือแบบเดิมไม่ใช้แล้วเพราะหูรูดฉีกขาดคาดเดาไม่ได้"
+   "B": "Lifestyle + bulk-forming laxative เป็น first line ของ acute fissure แต่ chronic เกือบปีไม่น่าจะพอ · จะถูกถ้าแผลปริเป็นมา 2 สัปดาห์",
+   "C": "Laxative + NTG ointment (chemical sphincterotomy) หาย ~50–60% ใช้ก่อนผ่าตัด · จะถูกถ้าคำถามถามการรักษาเริ่มต้นของ chronic fissure ที่ยังไม่เคยรักษา",
+   "D": "Fissurectomy + advancement flap ใช้เมื่อหูรูดอ่อนแอ (เสี่ยงกลั้นไม่อยู่) · จะถูกถ้าหญิงหลังคลอดหลายครั้งแรงบีบหูรูดต่ำ",
+   "E": "Anal dilatation (stretch) เลิกใช้เพราะกลั้นไม่อยู่สูงและคาดเดาไม่ได้ · จะถูกถ้าคำถามถามวิธีที่ไม่แนะนำแล้ว"
   },
-  "trap": "เห็นช้อย \"ยาระบาย + ยาทา NTG\" แล้วคิดว่าต้องเริ่มยาก่อนเสมอ — แผลที่เป็นมาเกือบปีส่วนใหญ่ผ่านการรักษาเบื้องต้นมาแล้วและยาทาหายน้อยกว่า คำตอบมาตรฐานของ chronic fissure คือ LIS",
+  "trap": "เลือกยาทาเพราะเป็นขั้นแรก — chronic นานเกือบปี best = LIS",
   "summary": [
-   "<b>นอกสไลด์:</b> ขั้นการรักษา anal fissure: เฉียบพลัน → ใยอาหาร/ยาระบาย/แช่น้ำอุ่น · เรื้อรัง → ยาทาลดแรงหูรูด (nitrate ปวดศีรษะบ่อย, diltiazem ผลข้างเคียงน้อยกว่า) หรือ botulinum toxin → ไม่หาย/ต้องการผลถาวร → LIS (ตัดหูรูดภายในด้านข้างยาวเท่าแผล) · กลั้นลมไม่อยู่หลัง LIS ราวไม่กี่เปอร์เซ็นต์และส่วนใหญ่ดีขึ้น"
+   "Chronic fissure: &gt; 6–8 สัปดาห์ · sentinel pile · papilla · fibrotic edge",
+   "กลไก: หูรูดเกร็ง → ขาดเลือด",
+   "ลำดับ: lifestyle → NTG/ CCB → Botox → LIS",
+   "LIS: หาย &gt; 90–95% · incontinence เล็กน้อย",
+   "หูรูดอ่อน/ หญิงหลังคลอด → advancement flap/ Botox",
+   "แผลนอกแนวกลาง → หา Crohn/ TB/ HIV/ มะเร็ง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง — แนวทางปัจจุบันยอมให้ลองยาทาก่อนในแผลเรื้อรังที่ยังไม่เคยรักษา แต่โจทย์เป็นมาเกือบปี LIS เหมาะที่สุด",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'Fissure เรื้อรัง = LIS (gold standard)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Dis Colon Rectum 2023;66:190)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง LIS 3 เดือน แผลยังไม่หาย → ตรวจใต้ยาสลบ ตัดชิ้นเนื้อหาสาเหตุอื่น (Crohn, วัณโรค, HIV, มะเร็ง) และวัดความดันหูรูดก่อนคิดผ่าตัดซ้ำ",
-   "<b>นอกสไลด์:</b> ผู้ป่วย chronic fissure ไม่ยอมตัดหูรูด ยาทาไม่ได้ผล → ฉีด botulinum toxin เข้าหูรูดภายใน (หายได้ราวครึ่งถึงสามในสี่ แต่กลับเป็นซ้ำมากกว่า LIS)"
+   "fissure 3 สัปดาห์ → ใยอาหาร + sitz bath",
+   "chronic fissure ไม่หายหลัง NTG → Botox/ LIS",
+   "หญิงหลังคลอด 3 ครั้ง chronic fissure → Botox/ flap"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 96–97 — ตัวพิมพ์: <b>23. ให้อาการของ chronic anal fissure (เจ็บก้นเวลาถ่ายและถ่ายมีเลือดสดปนออกมา \"เป็นนานเกือบปี\") ท่านคิดว่าควรรักษาด้วยวิธีการใด — A. LIS B. Lifestyle modification with bulk-forming laxative C. Laxative + NTG ointment</b><br>ลายมือ: ขีดเส้นใต้ \"chronic anal fissure\" · เครื่องหมายคำพูดรอบ \"เป็นนานเกือบปี\" · ขีด A<br>ไฮไลต์: \"อาการของ chronic anal fissure\" \"รักษาด้วยวิธีการใด\" · A (เหลือง)<br>รูปที่แปะ: ① สไลด์ Anal fissure — Type: acute &amp; chronic · Etiology: acute fissure: direct trauma · chronic fissure: ischemia · Physical examination: Internal sphincter spasm · Secondary changes: sentinel pile, hypertrophic anal papilla, fibrotic edges, deep fissure exposed internal sphincter ② ภาพถ่ายสไลด์ Chronic anal fissure — \"Ischemic and high anal resting pressure play an important role in the cause of CAF\" · Gold standard: lateral internal sphincterotomy · Indication for surgery: persistent pain and bleeding, lack of response to medical treatment · ลำดับ NTG ointment/ CCB → Botulinum toxin → LIS (ลายมือ lifestyle หาย 10% · medical 40% · botox 60–80% · LIS หาย 100% incontinence 10%)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 96",
+  "kimg": [
+   "fsk_p96",
+   "kp67a_23"
   ]
  },
  "MDCU67|RoA|24": {
-  "interp": "ถามว่าลักษณะใดทำให้ fistula-in-ano เป็นแบบ complex (เลือกได้หลายข้อ)",
-  "why": "<b>คีย์: ขีด E + สไลด์ complex fistula in ano</b><br><b>นอกสไลด์:</b> complex fistula คือ fistula ที่ถ้าทำ fistulotomy (ผ่าเปิดทางทั้งเส้น) จะเสี่ยงกลั้นอุจจาระไม่อยู่หรือหายยาก — นับทั้งจากกายวิภาค (ทางผ่านหูรูดภายนอกมาก) รูปร่าง (หลายทาง วนรอบทวาร) และโรคพื้นฐาน (Crohn) ทุกช้อยจึงเป็น complex",
+  "interp": "ถามว่าข้อใดเป็น <b>complex fistula-in-ano</b>",
+  "why": "Complex fistula-in-ano = ชนิดที่ fistulotomy ตรง ๆ เสี่ยงกลั้นอุจจาระไม่อยู่หรือกลับเป็นซ้ำสูง: <b>high transsphincteric</b> (ผ่านหูรูดภายนอก &gt; 30%), suprasphincteric, extrasphincteric, <b>anterior fistula ในหญิง</b>, <b>หลายรูเปิด (multiple openings)</b>, <b>horseshoe/ hemihorseshoe</b>, หูรูดทำงานไม่ดีเดิม, หลังฉายรังสี, <b>สาเหตุจำเพาะ (Crohn, TB, มะเร็ง)</b>, กลับเป็นซ้ำ → <b>ทุกข้อ (all of the above)</b> · รักษาแบบเก็บหูรูด: seton, LIFT, advancement flap · ไฟล์ขีด E และแปะสไลด์ <b>Complex Fistula in Ano</b> (High transsphincteric type ✓ · Suprasphincteric type · Extrasphincteric type · Anterior transsphincteric type in women · Multiple openings ✓ · Impaired sphincter function ✓ · Radiation injury · Specific etiology eg. TB, Crohn's ✓)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ high transsphincteric เป็นคำตอบเดียว เพราะเป็นเกณฑ์ด้านความสูงของทางผ่านหูรูด (ผ่านหูรูดภายนอกเกินราว 30%) เพียงด้านเดียว ขณะที่ช้อยอื่นเป็น complex ด้วยเหตุผลคนละด้าน",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ multiple openings เป็นคำตอบเดียว เพราะหลายรูหลายทางทำให้ complex จากจำนวนทางที่ต้องหาให้ครบ ไม่เกี่ยวกับความสูง — fistula ทางต่ำที่มีหลายทางก็นับเป็น complex เช่นกัน",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hemihorseshoe เป็นคำตอบเดียว เพราะเป็นเกณฑ์ด้านรูปร่างที่ทางวิ่งอ้อมรอบทวารผ่าน deep postanal space ซึ่งต้องระบาย space ด้านหลังด้วย — คนละเหตุกับความสูงหรือโรคพื้นฐาน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ fistula with Crohn เป็นคำตอบเดียว เพราะ Crohn ทำให้ complex จากโรคพื้นฐานที่แผลหายยากและกลั้นไม่อยู่ง่าย ถึงทางจะต่ำก็ตาม ส่วนช้อยอื่นเป็น complex จากกายวิภาคของทาง"
+   "A": "เป็น complex — high transsphincteric ผ่านหูรูดภายนอกมาก (สไลด์ ✓) · จะถูกถ้าคำถามถามชนิดเดียวที่เป็น complex",
+   "B": "เป็น complex — หลายรูเปิด (สไลด์ ✓) · จะถูกถ้าคำถามถามชนิดเดียวที่เป็น complex",
+   "C": "เป็น complex — hemihorseshoe ลามรอบหูรูด · จะถูกถ้าคำถามถามชนิดเดียวที่เป็น complex",
+   "D": "เป็น complex — Crohn (สไลด์ ✓) · จะถูกถ้าคำถามถามชนิดเดียวที่เป็น complex"
   },
-  "trap": "นึกถึงแค่ความสูงของทาง (high vs low) จึงเลือก A — นิยาม complex รวมรูปร่างทาง จำนวนทาง และโรคพื้นฐานด้วย",
+  "trap": "เลือกข้อเดียว — ทุกข้อเป็น complex fistula",
   "summary": [
-   "<b>นอกสไลด์:</b> complex fistula (ASCRS): ผ่านหูรูดภายนอกเกินราว 30% (high trans-, supra-, extrasphincteric) · ทางด้านหน้าในผู้หญิง · หลายทาง/horseshoe · กลับเป็นซ้ำ · กลั้นไม่อยู่อยู่เดิม · Crohn/ฉายแสง/มะเร็ง → เลี่ยง fistulotomy ใช้วิธีเก็บหูรูด (loose seton, LIFT, advancement flap)"
+   "Simple: intersphincteric/ low transsphincteric (&lt; 30% EAS) · รูเดียว → fistulotomy",
+   "Complex: high trans/ supra/ extra · anterior ในหญิง · หลายรู · horseshoe · Crohn/ TB/ รังสี · หูรูดอ่อน · ซ้ำ",
+   "Goodsall rule: รูหลังแนวขวาง → ไปแนวกลางหลัง · รูหน้า → ตรงเข้าหา",
+   "Complex → seton · LIFT · advancement flap",
+   "MRI pelvis/ EUS ช่วยระบุทางเดิน",
+   "Crohn fistula → ยา (anti-TNF) + seton"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ (ต้นฉบับช้อย A เขียน \"abscess\" เว็บใช้ high transsphincteric)",
+  "mnemonic": "<b>'Complex fistula = สูง · หลายรู · อ้อม (horseshoe) · มีโรค (Crohn/ TB) · หญิงหน้า'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
   "variants": [
-   "<b>นอกสไลด์:</b> fistula ทางเดียวผ่าน intersphincteric ต่ำ ไม่มีโรคร่วม หูรูดปกติ → simple fistula: fistulotomy (หายสูง กลั้นไม่อยู่น้อย)",
-   "<b>นอกสไลด์:</b> fistula กลับเป็นซ้ำ ตรวจร่างกายบอกความสูงไม่ได้ → MRI อุ้งเชิงกรานหรือ endoanal ultrasound ดูทางและ space ที่ต่อก่อนผ่าตัด"
+   "fistula intersphincteric รูเดียว → fistulotomy",
+   "fistula high transsphincteric → seton/ LIFT",
+   "fistula หลายรูในผู้ป่วย Crohn → anti-TNF + seton"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 97 — ตัวพิมพ์: <b>24. Which is/are complex fistula in ano? — A. High transphincteric abscess B. Multiple opening C. Hemihorseshoes D. Fistula with Crohn's disease E. All of above3</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"complex fistula in ano\" · A–D (เหลือง)<br>รูปที่แปะ: สไลด์ Complex Fistula in Ano — High transsphincteric type ✓ · Suprasphincteric type · Extrasphincteric type · Anterior transsphincteric type in women · Multiple openings ✓ · Impaired sphincter function ✓ · Radiation injury · Specific etiology eg. TB, Crohn's ✓ (ลายมือเล็ก simple fistula: intersphincteric, low transsphincteric)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 97",
+  "kimg": [
+   "fsk_p97",
+   "kp67a_24"
   ]
  },
  "MDCU67|RoA|26": {
-  "interp": "มะเร็งที่ช่องทวารหนักลุกเข้าหูรูด → ถามการผ่าตัดที่เหมาะ (เก็บหูรูดไม่ได้)",
-  "why": "<b>คีย์: ขีด B + ลายมือ abdominoperineal resection + สไลด์ fixation to sphincter → APR</b><br><b>นอกสไลด์:</b> ก้อนที่ลุกเข้าหูรูดภายนอก (sphincter complex) ไม่สามารถตัดให้ขอบปลอดเนื้องอกแล้วยังเก็บหูรูดไว้ได้ จึงต้องเอาไส้ตรง ช่องทวาร และหูรูดออกทั้งหมดพร้อมทำ colostomy ถาวร (APR) — ใช้กับ adenocarcinoma (หลังให้ neoadjuvant) หรือ SCC ที่เหลือ/กลับเป็นซ้ำหลัง chemoradiation",
+  "interp": "<b>เนื้องอกที่ anal canal ลุกลามหูรูด (sphincter complex)</b> → ถามการจัดการที่เหมาะสม",
+  "why": "ตามสไลด์ในไฟล์ (Surgical options — ขึ้นกับตำแหน่งก้อนและการลุกลามหูรูดจาก rectal examination): <b>ก้อนติดหูรูด (fixation to the sphincter) → APR</b> · คลำได้แต่ไม่ติด → LAR/ coloanal · คลำไม่ถึง → LAR/ AR · กล่าวคือมะเร็ง<b>ไส้ตรงส่วนล่าง/ adenocarcinoma ของ anal canal ที่ลุกลามหูรูด</b>เก็บหูรูดไม่ได้ → <b>abdominoperineal resection</b> + colostomy ถาวร · <b>ข้อควรรู้</b>: ถ้าเป็น <b>squamous cell carcinoma ของ anal canal</b> การรักษาแรกคือ <b>chemoradiation (Nigro) หลังได้ชิ้นเนื้อยืนยัน</b> โดย APR เป็น salvage · ไฟล์ขีด B ลายมือ <b>\"= abdominoperineal resection\"</b> และเครื่องหมายคำพูดรอบ \"invading sphincter complex\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งไส้ตรงส่วนล่างที่ลุกเฉพาะหูรูดภายใน ไม่ถึงหูรูดภายนอกและ levator ani และหูรูดเดิมแข็งแรง → LAR แบบต่ำมากร่วมตัดหูรูดภายใน (intersphincteric resection) ต่อลำไส้กับช่องทวาร",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ wide excision + node dissection เป็นการรักษาของก้อนที่ลุกหูรูด เพราะการตัดกว้างให้ขอบปลอดเนื้องอกในหูรูดก็คือการเอาหูรูดออกทั้งวงเท่ากับ APR อยู่แล้ว และการเลาะต่อมน้ำเหลืองขาหนีบไม่ได้ทำเป็นส่วนหนึ่งของการผ่าตัดหลัก",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เริ่ม chemoradiation โดยไม่มีชิ้นเนื้อ เพราะก้อนที่ช่องทวารรักษาต่างกันตามชนิดเซลล์ (SCC ฉายแสงร่วมเคมีเป็นหลัก · adenocarcinoma รักษาแบบมะเร็งไส้ตรง · melanoma ตัดออก) ต้องรู้ชนิดก่อนเลือก",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ตัดเฉพาะที่ (local excision) ใช้กับก้อนที่ลุกเข้าหูรูด เพราะ local excision ใช้กับก้อนตื้นที่ตัดได้ขอบปลอดเนื้องอกโดยไม่ทำลายหูรูด — ก้อนที่ลุกลึกถึงหูรูดตัดแบบนี้จะเหลือเนื้องอกหรือกลั้นไม่อยู่"
+   "A": "LAR เก็บหูรูด ใช้ไม่ได้เมื่อก้อนลุกลามหูรูด · จะถูกถ้ามะเร็งไส้ตรงกลาง/ บนที่ห่างหูรูดพอ",
+   "C": "Wide excision + LN dissection ไม่ได้ขอบปลอดภัยเมื่อลุกลามหูรูด · จะถูกถ้าคำถามถามเนื้องอกผิวหนังขอบทวาร (anal margin) ขนาดเล็ก",
+   "D": "Chemoradiation เป็นการรักษาแรกของ anal SCC แต่ต้องมีชิ้นเนื้อยืนยันก่อนเสมอ (ช้อยนี้ \"without biopsy\") · จะถูกถ้าชิ้นเนื้อยืนยัน anal SCC แล้ว",
+   "E": "Local excision ใช้กับรอยโรคเล็กมาก (T1 anal margin/ early rectal) · จะถูกถ้ามะเร็งไส้ตรง T1 ขนาดเล็กเสี่ยงต่ำ"
   },
-  "trap": "เห็นคำว่า anal canal แล้วนึกถึง SCC ที่รักษาด้วย chemoradiation จนไม่กล้าเลือก APR — โจทย์นี้ (ตามสไลด์) เป็นก้อนแบบมะเร็งไส้ตรงที่ลุกหูรูด APR จึงเป็นคำตอบ ส่วน SCC ใช้ APR เมื่อ chemoradiation ไม่หาย",
+  "trap": "คิดว่าทุกก้อนที่ anal canal ต้องผ่า APR — anal SCC รักษาด้วย chemoRT ก่อน (APR เป็น salvage) · ข้อนี้ตามสไลด์คือก้อนติดหูรูด → APR",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ APR ในมะเร็งไส้ตรง/ช่องทวาร: ลุกหูรูดภายนอกหรือ levator ani · ตัดให้ขอบล่างปลอดเนื้องอกแล้วเหลือหูรูดไม่ได้ · หูรูดเดิมเสียจนต่อลำไส้แล้วกลั้นไม่ได้ · anal SCC ที่ยังเหลือหรือกลับเป็นซ้ำหลัง chemoradiation (salvage)"
+   "Rectal CA ล่าง ติดหูรูด → APR",
+   "คลำได้ ไม่ติดหูรูด → LAR/ coloanal (± ISR)",
+   "Anal canal SCC → Nigro chemoRT (หลัง biopsy) · APR เป็น salvage",
+   "Anal adenocarcinoma → รักษาแบบ rectal cancer (CRT → APR)",
+   "APR: colostomy ถาวร",
+   "ประเมินด้วย DRE + MRI pelvis"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจปานกลาง — ถ้าก้อนเป็น anal SCC การรักษาแรกคือ chemoradiation (ดูข้อ RoD 2 ของชุดนี้) APR เป็นการรักษาเมื่อไม่หาย",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ Surgical options · หากชิ้นเนื้อเป็น anal SCC แนวทางปัจจุบันใช้ chemoradiation ก่อน · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'ก้อนติดหูรูด = เก็บหูรูดไม่ได้ = APR (ยกเว้น anal SCC → chemoRT)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Rectal Cancer v.3.2025; NCCN Anal Carcinoma v.2.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็งไส้ตรงส่วนล่างลุก levator ani ด้านหนึ่ง → neoadjuvant แล้ว APR แบบตัดกว้างรวม levator (extralevator APR) ลดโอกาสขอบรอบก้อนมีเนื้องอก",
-   "<b>นอกสไลด์:</b> มะเร็งไส้ตรงสูงจากขอบทวาร 4 cm ไม่ลุกหูรูด แต่ผู้ป่วยกลั้นอุจจาระไม่ได้อยู่เดิมจากหูรูดเสีย → APR ดีกว่าต่อลำไส้ที่จะกลั้นไม่ได้"
+   "มะเร็งไส้ตรง 2 cm จากขอบทวาร ลุกลามหูรูด → neoadjuvant CRT → APR",
+   "anal canal SCC T3 → chemoRT",
+   "anal SCC เหลือหลัง chemoRT 6 เดือน → salvage APR"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 97 — ตัวพิมพ์: <b>26. Anal canal tumor \"invading sphincter complex\". What is the proper management for this patient? — A. LAR B. APR C. Wide excision with LN dissection</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"invading sphincter complex\" · ขีด B + \"= abdominoperineal resection\"<br>ไฮไลต์: \"Anal canal tumor\" \"invading sphincter complex\" \"proper management for this patient\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Surgical options — Depends on the location of tumor and sphincter involvement (rectal examination) · <b>Fixation to the sphincter: APR</b> · Palpable, no fixation: LAR or Coloanal · Not palpable: LAR, AR<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 97",
+  "kimg": [
+   "fsk_p97",
+   "kp67a_26"
   ]
  },
  "MDCU67|RoA|27": {
-  "interp": "anoderm = ผิวช่องทวารใต้ dentate line ถึง anal verge → ถามคุณสมบัติประจำของ anoderm",
-  "why": "<b>คีย์: ขีด A + ลายมือ E non-keratinized + สไลด์ anal sphincter anatomy</b><br><b>นอกสไลด์:</b> anoderm เป็น squamous epithelium ไม่มี keratin ไม่มีขน ต่อมไขมัน หรือต่อมเหงื่อ แต่มีประสาทรับความรู้สึกแบบ somatic (inferior rectal nerve จาก pudendal) หนาแน่น — จึงเจ็บมากเมื่อมีแผลใต้ dentate line",
+  "interp": "ถามลักษณะของ <b>anoderm</b> (เยื่อบุ anal canal ส่วนล่างใต้ dentate line)",
+  "why": "Anoderm เป็น <b>squamous epithelium ชนิดไม่มี keratin (non-keratinized)</b> <b>ไม่มีขน ต่อมไขมัน หรือต่อมเหงื่อ</b> (ต่างจากผิวหนังรอบทวาร) และมี<b>ประสาทรับความรู้สึก somatic หนาแน่นมาก</b> (inferior rectal nerve จาก pudendal) → รอยโรคใต้ dentate line (fissure, ริดสีดวงภายนอก) <b>เจ็บมาก</b> · ไฟล์ขีด A ลายมือ <b>\"↑↑\"</b> ที่ sensory nerve และ E แทรก <b>\"non\"</b> + ✗ และแปะภาพ <b>Anal sphincter anatomy</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ sebaceous gland เป็นคุณสมบัติของ anoderm เพราะ anoderm ไม่มีอวัยวะผิวหนัง (skin appendages) — ต่อมที่เปิดบริเวณ dentate line คือ anal gland ใน intersphincteric plane ไม่ใช่ต่อมไขมัน",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hair follicle เป็นคุณสมบัติของ anoderm เพราะขนเริ่มมีที่ anal verge ออกไปในผิวหนังรอบทวาร (perianal skin) ซึ่งเป็นผิวหนังแท้ ส่วน anoderm เป็นเยื่อบุที่ไม่มีขน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ sweat gland เป็นคุณสมบัติของ anoderm เพราะต่อมเหงื่อ (eccrine และ apocrine) อยู่ในชั้นหนังแท้ของผิวหนังรอบทวาร นอก anal verge",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ keratinized epithelium เป็นคุณสมบัติของ anoderm เพราะ anoderm เป็น squamous ที่ไม่มี keratin (ลายมือจด non-keratinized) — keratin เริ่มที่ anal verge ซึ่งเปลี่ยนเป็นผิวหนังจริง"
+   "B": "ต่อมไขมันอยู่ในผิวหนังรอบทวาร (perianal skin) ไม่ใช่ anoderm · จะถูกถ้าคำถามถามลักษณะของผิวหนังรอบทวาร",
+   "C": "รูขุมขนอยู่ในผิวหนังรอบทวาร · จะถูกถ้าคำถามถามสาเหตุ pilonidal/ hidradenitis",
+   "D": "ต่อมเหงื่อ (apocrine) อยู่ในผิวหนังรอบทวาร (hidradenitis suppurativa) · จะถูกถ้าคำถามถาม hidradenitis",
+   "E": "Anoderm เป็น non-keratinized (ลายมือแทรก \"non\") · จะถูกถ้าคำถามถามผิวหนังรอบทวาร (keratinized)"
   },
-  "trap": "เห็นว่า anoderm เป็น squamous epithelium แล้วคิดว่าเหมือนผิวหนัง (มี keratin ขน ต่อม) — ลักษณะเหล่านั้นเป็นของผิวหนังรอบทวาร นอก anal verge",
+  "trap": "คิดว่า anoderm เหมือนผิวหนังทั่วไป — ไม่มี adnexa ไม่มี keratin แต่ไวต่อความรู้สึกมาก",
   "summary": [
-   "<b>นอกสไลด์:</b> เรียงจากบนลงล่าง: เยื่อบุ columnar ของไส้ตรง → transitional zone ที่ dentate line → anoderm (squamous ไม่มี keratin ไม่มี appendage ยาวราว 1.5–2 cm) → anal verge → ผิวหนังรอบทวาร (keratin ขน ต่อมไขมัน ต่อมเหงื่อ)",
-   "<b>นอกสไลด์:</b> เหนือ dentate line รับความรู้สึกแบบอวัยวะภายใน (ไม่เจ็บ) · ใต้ dentate line เป็น somatic (เจ็บมาก) → แผลหรือก้อนใต้ dentate (fissure, ริดสีดวงภายนอกที่มีลิ่มเลือด) เจ็บมาก ส่วนริดสีดวงภายในเหนือ dentate เลือดออกโดยไม่เจ็บ"
+   "เหนือ dentate line: columnar · visceral innervation (ไม่เจ็บ) · ริดสีดวงภายใน",
+   "ใต้ dentate line (anoderm): non-keratinized squamous · somatic (เจ็บมาก)",
+   "Anoderm ไม่มีขน/ ต่อมไขมัน/ ต่อมเหงื่อ",
+   "Anal verge → perianal skin: keratinized มี adnexa",
+   "Fissure อยู่ใน anoderm → เจ็บมาก",
+   "Anal crypt/ gland ที่ dentate line → ฝี/ fistula"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Anoderm = ผิวเปลือย (ไม่มีขน/ ต่อม/ keratin) แต่ประสาทเยอะ'</b>",
+  "guide": "Gray's Anatomy 42nd ed. (2020) — Anal canal; Sabiston Textbook of Surgery 21st ed. (2022) — Anus",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็ง SCC ของช่องทวารใต้ dentate line → ต้องคลำและตรวจต่อมน้ำเหลืองขาหนีบ (ส่วนเหนือ dentate ระบายไป perirectal/internal iliac)",
-   "<b>นอกสไลด์:</b> ฝีและโพรงหนองเรื้อรังหลายรูที่ผิวหนังรอบทวาร ขาหนีบ และรักแร้ ไม่มีรูเปิดเข้าช่องทวาร → hidradenitis suppurativa (จากต่อม apocrine ของผิวหนัง) ไม่ใช่ fistula-in-ano"
+   "ริดสีดวงภายในไม่เจ็บ → เหนือ dentate line (visceral)",
+   "anal fissure เจ็บมาก → anoderm (somatic)",
+   "ฝีจาก anal gland ที่ crypt → cryptoglandular abscess"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 97–98 — ตัวพิมพ์: <b>27. What is the characteristic of anoderm? — A. Sensory nerve B. Sebaceous gland C. Hair follicle D. Sweat gland E. Keratinized stratified squamous cell</b><br>ลายมือ: ขีด A + \"↑↑\" · E แทรก \"non\" + ✗<br>ไฮไลต์: \"characteristic\" \"anoderm\" · A (เหลือง)<br>รูปที่แปะ: ภาพ Anal sphincter anatomy — Rectal mucosa · Anal mucosa · Anal canal · Levator ani · Puborectalis muscle · Superficial/ Subcutaneous external sphincter · Conjoint longitudinal muscle · Internal sphincter · Anal column · Anal crypt · Dentate line · Anal verge · Anoderm · Perianal skin · Corrugator cutis (ลายมือ \"Puborectalis muscle คือส่วนของ Levator ani ที่วางตัวอยู่ในแนวตั้ง\")",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 97",
+  "kimg": [
+   "fsk_p97",
+   "kp67a_27"
   ]
  },
  "MDCU67|RoA|28": {
-  "interp": "ก้อนลุกถึง muscularis propria (ไม่ทะลุ) + node บวก 2 + 1 = 3 ต่อม + ไม่มีแพร่ไกล → ถาม TNM และ stage",
-  "why": "<b>คีย์: ขีด C + ลายมือ T2 · N1 ≤3 · M0 + ตาราง AJCC</b><br><b>นอกสไลด์:</b> ลุกถึง muscularis propria = T2 · apical node เป็นต่อมน้ำเหลืองประจำที่ (regional) นับรวมกับ pericolic ได้ 3 ต่อม = N1b · ไม่มีแพร่ไกล = M0 · node บวกโดยไม่มีแพร่ไกล = stage III (T2N1 = IIIA)",
+  "interp": "ผลพยาธิหลังผ่าตัด: ก้อน<b>ลุกลามถึง muscularis propria</b> ไม่ลุกลามเนื้อเยื่อข้างเคียง · ต่อมน้ำเหลือง pericolic <b>2/15</b> และ apical <b>1/4</b> บวก · ไม่มีการกระจาย → ถามระยะ",
+  "why": "<b>T</b>: ลุกลาม muscularis propria = <b>T2</b> · <b>N</b>: ต่อมน้ำเหลืองบวกรวม 2 + 1 = <b>3 ต่อม</b> → <b>N1 (1–3 ต่อม; N1b = 2–3)</b> · <b>M0</b> → <b>T2N1M0 = stage IIIA</b> · ไฟล์ขีด C ลายมือ <b>\"T2 · N1 (≤ 3) · M0\"</b> และแปะตาราง Staging AJCC/ TNM",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนลุกแค่ submucosa ไม่ถึง muscularis propria และ node บวก 1–3 ต่อม (เช่น 2/16) ไม่มีแพร่ไกล",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนลุกแค่ submucosa และ node บวก 4 ต่อมขึ้นไป (เช่น 5/18) ไม่มีแพร่ไกล",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนลุกถึง muscularis propria และ node บวกรวม 4 ต่อมขึ้นไป (เช่น pericolic 3/15 + apical 2/4)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อน T2 node บวก 1–3 ต่อม แต่มีโรคแพร่ไกลยืนยัน เช่นก้อนตับที่ตัดชิ้นเนื้อเป็นมะเร็ง หรือต่อม para-aortic บวก (ต่อมนอกเขต)"
+   "A": "T1 = ลุกลามถึง submucosa เท่านั้น (โจทย์ถึง muscularis propria) · จะถูกถ้าก้อนลุกลามถึง submucosa และต่อมน้ำเหลืองบวก 1–3",
+   "B": "T1N2 ผิดทั้ง T และ N · จะถูกถ้าลุกลาม submucosa และต่อมน้ำเหลืองบวก ≥ 4",
+   "D": "N2 = ต่อมน้ำเหลืองบวก ≥ 4 (โจทย์ 3) · จะถูกถ้าต่อมน้ำเหลืองบวกรวม 4–6 (N2a)",
+   "E": "M1 = มีการกระจายไกล (โจทย์ไม่มี) · จะถูกถ้าพบรอยโรคกระจายที่ตับ/ ปอด"
   },
-  "trap": "แยก apical node ออกไปคิดเป็นโรคแพร่ไกล (M1) หรือเลื่อน N ขึ้น — apical node เป็นต่อมประจำที่ตามแนวหลอดเลือดหลัก นับรวมกับ pericolic node เพื่อจัด N",
+  "trap": "นับเฉพาะ pericolic node — ต้องรวมต่อมน้ำเหลืองบวกทุกกลุ่ม (pericolic + apical)",
   "summary": [
-   "<b>นอกสไลด์:</b> T (AJCC 8th): T1 submucosa · T2 muscularis propria · T3 ทะลุ muscularis propria เข้าไขมันรอบลำไส้ · T4a ทะลุ visceral peritoneum · T4b ลุก/ติดอวัยวะข้างเคียง",
-   "<b>นอกสไลด์:</b> N: N1a 1 ต่อม · N1b 2–3 ต่อม · N2a 4–6 ต่อม · N2b ≥ 7 ต่อม — นับทุกต่อมประจำที่รวมกัน ไม่แยกตามตำแหน่ง"
+   "T1: submucosa · T2: muscularis propria · T3: subserosa/ pericolorectal · T4a: visceral peritoneum · T4b: อวัยวะข้างเคียง",
+   "N1: 1–3 (N1a 1 · N1b 2–3 · N1c tumor deposit) · N2: ≥ 4 (N2a 4–6 · N2b ≥ 7)",
+   "Stage I: T1–2 N0 · II: T3–4 N0 · III: N+ · IV: M1",
+   "IIIA: T1–2 N1 / T1 N2a",
+   "ควรเก็บต่อมน้ำเหลือง ≥ 12 ต่อม",
+   "Stage III → adjuvant chemo (FOLFOX/ CAPOX)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ (ต่อมน้ำเหลืองบวกรวม 3 = N1)",
+  "mnemonic": "<b>'N: 1–3 = N1 · ≥ 4 = N2 (นับรวมทุกกลุ่ม)'</b>",
+  "guide": "AJCC Cancer Staging Manual 8th ed. (2017) — Colon and Rectum; NCCN Colon Cancer v.3.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนทะลุ muscularis propria เข้าไขมันรอบลำไส้ node ลบทั้ง 14 ต่อม ไม่มีแพร่ไกล → T3N0M0 = stage IIA",
-   "<b>นอกสไลด์:</b> node ลบทั้งหมด แต่พบก้อนมะเร็งเล็ก ๆ ใน mesentery แยกจากก้อนหลักโดยไม่มีโครงสร้างต่อมน้ำเหลือง → tumor deposit = N1c (นับเป็น stage III)",
-   "<b>นอกสไลด์:</b> stage II แต่พยาธิแพทย์ตรวจได้ node เพียง 7 ต่อม → ถือว่าเก็บต่อมไม่พอ (ควร ≥ 12) เป็นกลุ่มเสี่ยงสูง พิจารณาเคมีเสริม"
+   "T3 ต่อมน้ำเหลืองบวก 5 ไม่มีกระจาย → T3N2aM0 stage IIIB",
+   "T2N0M0 → stage I",
+   "T4b ต่อมน้ำเหลือง 0 → stage IIC"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 98 — ตัวพิมพ์: <b>28. Patient underwent colorectal resection. Pathology reveals tumor invading muscularis propria, no adjacent tissue invasion. There are metastatic lymph node pericolic node 2 of 15 and apical node 1 of 4. No metastasis has seen so far. What is the staging for this case? — A. T1N1M0 stage 3 B. T1N2M0 stage 3 C. T2N1M0 stage 3 D. T2N2M0 stage 3 E. T2N1M1 stage 4</b><br>ลายมือ: \"T2\" เหนือ muscularis propria · \"N1 ≤ 3\" ที่ pericolic node · \"M0\" · ขีด C<br>ไฮไลต์: \"underwent colorectal resection\" \"tumor invading muscularis propria, no adjacent tissue invasion\" \"metastatic lymph node pericolic node 2 of 15\" \"No metastasis has seen so far\" \"staging for this case\" · C (เหลือง)<br>รูปที่แปะ: ตาราง Staging : AJCC/ TNM (ลายมือ — Tis/ T1/ T2/ T3/ T4 · N1 1–3 pericolic LN · N2 ≥ 4 pericolic LN · M0/ M1 · ตาราง stage 0–4)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 97",
+  "kimg": [
+   "fsk_p97",
+   "kp67a_28"
   ]
  },
  "MDCU67|RoA|29": {
-  "interp": "มะเร็งไส้ตรงลุก uterus + node บวก 2 + 2 = 4 + ก้อนตับที่ตัดแล้วเป็น FNH → ถาม TNM/stage",
-  "why": "<b>คีย์: ขีด E + ลายมือ T4 · N1 ≤3 · M0</b><br><b>นอกสไลด์:</b> ลุกอวัยวะข้างเคียง (uterus) = T4b · pericolic 2 + apical 2 = 4 ต่อม = N2a · ก้อนตับเป็น focal nodular hyperplasia (ไม่ร้าย) จึงยังเป็น M0 → T4bN2aM0 = stage IIIC · คีย์เดิมให้ N1 (นับ apical แยก) จึงตอบ D แทน",
+  "interp": "มะเร็งไส้ตรง<b>ลุกลามมดลูก</b> CT พบก้อนที่ตับที่ enhance ปอดปกติ หลังผ่าตัด: ต่อมน้ำเหลือง pericolic <b>2/15</b> และ apical <b>2/5</b> บวก · ตัดก้อนตับเป็น <b>focal nodular hyperplasia</b> → ถามระยะ",
+  "why": "<b>T</b>: ลุกลามอวัยวะข้างเคียง (มดลูก) = <b>T4b</b> · <b>N</b>: ต่อมน้ำเหลืองบวกรวม 2 + 2 = <b>4 ต่อม</b> → <b>N2a (4–6)</b> · <b>M</b>: ก้อนตับเป็น FNH (ไม่ใช่มะเร็ง) → <b>M0</b> → <b>T4N2M0 = stage III (IIIC)</b> → คำตอบ D · ไฟล์ขีด E (T4N1M0) โดยลายมือนับเฉพาะ pericolic node \"N1 ≤ 3\" ซึ่ง<b>ไม่ได้รวม apical node อีก 2 ต่อม</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนตับที่ตัดออกเป็นมะเร็งลำไส้แพร่กระจาย (หรือพบต่อมนอกเขต เช่น para-aortic) ร่วมกับ T4 และ node บวก ≥ 4",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนทะลุ muscularis propria แต่ไม่ถึงอวัยวะข้างเคียง node บวก 1–3 ต่อม และก้อนตับยืนยันว่าเป็นมะเร็ง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนลุก uterus node บวก 1–3 ต่อม (เช่น 2/15 + 1/5) และก้อนตับยืนยันว่าเป็นมะเร็ง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนลุก uterus node บวกรวม 1–3 ต่อม (เช่น pericolic 2/15 + apical 1/5) และก้อนตับไม่ร้าย"
+   "A": "M1 ผิดเพราะก้อนตับเป็น FNH ไม่ใช่มะเร็ง · จะถูกถ้าก้อนตับเป็น adenocarcinoma กระจาย",
+   "B": "T3 ผิด (ลุกลามมดลูก = T4b) และ M1 ผิด · จะถูกถ้าก้อนถึง pericolorectal tissue ต่อมน้ำเหลืองบวก 1–3 และมีมะเร็งกระจายตับ",
+   "C": "M1 ผิด และ N1 ผิด (บวกรวม 4) · จะถูกถ้าต่อมน้ำเหลืองบวก 1–3 และก้อนตับเป็นมะเร็งกระจาย",
+   "E": "N1 ผิด — ต่อมน้ำเหลืองบวกรวม 4 = N2a (คีย์ในไฟล์ขีดข้อนี้โดยนับเฉพาะ pericolic) · จะถูกถ้าต่อมน้ำเหลืองบวกรวม 1–3"
   },
-  "trap": "(1) เห็นก้อนตับ enhancing แล้วให้ M1 ทันที — ต้องยืนยันว่าเป็นมะเร็งก่อน ผลชิ้นเนื้อเป็น FNH จึงเป็น M0 · (2) นับ apical node แยกจึงได้ N1 — ต้องนับรวมทุกต่อมประจำที่ได้ 4 ต่อม",
+  "trap": "นับเฉพาะ pericolic node หรือคิดว่าก้อนที่ตับคือ M1 — ต้องรวมทุกต่อม และ FNH ไม่ใช่การกระจาย · คีย์ในไฟล์ขีด E",
   "summary": [
-   "<b>นอกสไลด์:</b> stage III (AJCC 8th): IIIA = T1–2N1 หรือ T1N2a · IIIB = T3–T4aN1, T2–3N2a, T1–2N2b · IIIC = T4aN2a, T3–T4aN2b, T4bN1–2",
-   "<b>นอกสไลด์:</b> M: M1a อวัยวะเดียว (หลายก้อนก็ได้) · M1b ≥ 2 อวัยวะ · M1c เยื่อบุช่องท้อง · ก้อนตับที่ภาพไม่ชัดต้องยืนยันด้วย MRI ตับหรือชิ้นเนื้อก่อนเรียก M1"
+   "T4b: ลุกลามอวัยวะข้างเคียง (มดลูก กระเพาะปัสสาวะ)",
+   "N นับรวมต่อมน้ำเหลืองบวกทุกกลุ่ม: 4 = N2a",
+   "ก้อนตับต้องพิสูจน์ — FNH/ hemangioma ไม่ใช่ M1",
+   "T4N2M0 = stage IIIC",
+   "Stage III → adjuvant chemo",
+   "Rectal T4/ N+ → neoadjuvant CRT/ TNT"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ E (T4N1M0) — ตอบ D T4N2M0 stage III เพราะ node บวกรวม 4 ต่อม (apical เป็นต่อมประจำที่) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ของเว็บ ความมั่นใจสูง — ต่อมน้ำเหลืองบวกรวม 2 + 2 = 4 = N2 · คีย์ในไฟล์ MCQ Key 2 ขีด E (T4N1M0) เพราะลายมือนับเฉพาะ pericolic 2 ต่อม",
+  "mnemonic": "<b>'รวมต่อมทุกกลุ่ม: pericolic + apical · ก้อนตับไม่ใช่มะเร็ง = M0'</b>",
+  "guide": "AJCC Cancer Staging Manual 8th ed. (2017) — Colon and Rectum",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนทะลุ visceral peritoneum ไม่ลุกอวัยวะอื่น node บวก 8/20 ไม่มีแพร่ไกล → T4aN2bM0 = stage IIIC",
-   "<b>นอกสไลด์:</b> มะเร็งไส้ตรงลุก uterus node ลบ CT ตับเห็นก้อน 3 cm ขอบไม่ชัด → MRI ตับ (contrast ที่จำเพาะต่อเซลล์ตับ) ก่อนตัดสินว่าแพร่กระจาย เพราะ FNH/hemangioma เลียนแบบได้"
+   "rectal CA ลุกลามกระเพาะปัสสาวะ LN 0 M0 → T4bN0M0 stage IIC",
+   "ต่อมน้ำเหลืองบวก 7 → N2b",
+   "ก้อนตับชิ้นเนื้อเป็น adenocarcinoma → M1a stage IVA"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 98 — ตัวพิมพ์: <b>29. Patient had rectum cancer invading uterus. Imaging found CT-enhanced nodule at liver but normal lung imaging. Patient underwent colorectal resection. Pathology reveals tumor invading uterus. There are metastatic lymph node pericolic 2 of 15 and apical node 2 of 5. Wedge resection of liver revealed focal nodular hyperplasia. What is the staging for this case? — A. T4N2M1 stage 4 B. T3N1M1 stage 4 C. T4N1M1 stage 4 D. T4N2M0 stage 3 E. T4N1M0 stage 3</b><br>ลายมือ: \"T4\" เหนือ invading uterus · \"N1 ≤ 3\" ที่ pericolic 2 of 15 · \"M0\" ที่ focal nodular hyperplasia · ขีด E<br>ไฮไลต์: \"rectum cancer invading uterus\" \"CT-enhanced nodule at liver\" \"underwent colorectal resection\" \"metastatic lymph node pericolic 2 of 15\" \"Wedge resection of liver revealed focal nodular hyperplasia\" \"staging for this case\" · E (เหลือง)<br>ที่ปรับในเว็บ: คำตอบเว็บ D (T4N2M0) เพราะรวม apical node แล้วบวก 4 ต่อม (คีย์ไฟล์ E)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 97",
+  "kimg": [
+   "fsk_p97",
+   "kp67a_29"
   ]
  },
  "MDCU67|RoA|30": {
-  "interp": "มะเร็ง colon ขวาลุกกระเพาะอาหาร (T4b) ไม่มีแพร่ไกล → ถามการผ่าตัด",
-  "why": "<b>คีย์: ขีด B + สไลด์ treatment of metastasis</b><br><b>นอกสไลด์:</b> มะเร็งลำไส้ที่ลุกอวัยวะข้างเคียงยังหายขาดได้ถ้าตัดออกเป็นก้อนเดียวกัน (en bloc multivisceral resection) ให้ขอบปลอดเนื้องอก (R0) → right hemicolectomy ร่วมกับตัดกระเพาะส่วนที่ติดก้อน · การแยกก้อนออกจากอวัยวะที่ติดจะทำให้เนื้องอกตกค้างและกลับเป็นซ้ำเฉพาะที่สูง",
+  "interp": "<b>มะเร็งลำไส้ใหญ่ขวาลุกลามกระเพาะอาหาร</b> → ถามการจัดการที่เหมาะสม",
+  "why": "มะเร็งลำไส้ใหญ่ที่ลุกลามติดอวัยวะข้างเคียง (T4b) ไม่มีการกระจายไกล → <b>ผ่าตัด en bloc</b> เอาลำไส้พร้อมส่วนของอวัยวะที่ติด = <b>right (extended) hemicolectomy ร่วมกับ partial gastrectomy</b> เพื่อให้ได้ขอบปลอดภัย (R0) · ห้ามแยกก้อนออกจากอวัยวะที่ติด · พิจารณา neoadjuvant chemotherapy ใน T4b · ไฟล์ขีด B และแปะสไลด์ <b>Treatment of metastasis</b> (Metastatectomy + Neoadjuvant treatment · 2nd line, 3rd line chemotherapy · Palliative care · ขึ้นกับ Operable? Fitness? Financial? Surgeon?/ Hospital)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ตัด colon อย่างเดียวเมื่อก้อนลุกกระเพาะแล้ว เพราะจะต้องเลาะก้อนออกจากกระเพาะซึ่งทิ้งเนื้องอกไว้ (R1/R2) ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Roux-en-Y gastric bypass เป็นการรักษามะเร็ง colon เพราะเป็นการผ่าตัดเปลี่ยนทางเดินอาหารเพื่อลดน้ำหนัก ไม่ได้เอาก้อนหรือส่วนที่ลุกออก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนลุกโครงสร้างที่ตัดออกไม่ได้ (เช่น รากหลอดเลือด mesentery หรือหัวตับอ่อนกว้าง) หรือมีโรคแพร่กระจายมาก ร่วมกับลำไส้อุดตัน → ต่อ ileum ข้ามก้อนไปยัง transverse colon เพื่อบรรเทาอาการ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามีโรคแพร่กระจายหลายตำแหน่งที่ตัดไม่ได้ และก้อนหลักไม่มีอาการ (ไม่อุดตัน ไม่เลือดออก ไม่ทะลุ) → ให้เคมีบำบัดเป็นหลักโดยไม่ผ่าตัดก้อนหลัก"
+   "A": "Hemicolectomy อย่างเดียวเหลือมะเร็งที่กระเพาะ (R1/ R2) · จะถูกถ้ามะเร็งลำไส้ใหญ่ขวาไม่ลุกลามอวัยวะข้างเคียง",
+   "C": "Roux-en-Y gastric bypass เป็นการผ่าตัดลดน้ำหนัก/ บายพาส ไม่ใช่การรักษามะเร็ง · จะถูกถ้าคำถามถามการผ่าตัดลดน้ำหนัก",
+   "D": "Internal bypass เป็นการรักษาประคับประคองเมื่อผ่าตัดเอาออกไม่ได้และมีการอุดตัน · จะถูกถ้ามะเร็งลุกลามกว้างเอาออกไม่ได้ร่วมกับลำไส้อุดตัน",
+   "E": "เคมีบำบัดอย่างเดียวไม่ใช่การรักษาหายขาดเมื่อยังผ่าตัดได้ · จะถูกถ้ามีการกระจายไกลหลายตำแหน่ง"
   },
-  "trap": "คิดว่าการลุกอวัยวะข้างเคียงคือระยะลุกลามที่ผ่าตัดไม่ได้ จึงเลือก bypass หรือเคมีอย่างเดียว — T4b ที่ไม่มีแพร่ไกลยังผ่าตัดหายขาดได้ถ้าตัดเป็นก้อนเดียว",
+  "trap": "ตัดเฉพาะลำไส้แล้วลอกก้อนออกจากกระเพาะ — ต้องตัด en bloc พร้อมส่วนกระเพาะที่ติด",
   "summary": [
-   "<b>นอกสไลด์:</b> มะเร็งลำไส้ใหญ่ T4b: ตัด en bloc รวมอวัยวะที่ติด (กระเพาะ ลำไส้เล็ก กระเพาะปัสสาวะ มดลูก ผนังหน้าท้อง) เพื่อ R0 · พังผืดที่ติดก้อนส่วนหนึ่งเป็นการอักเสบแต่แยกระหว่างผ่าตัดไม่ได้ จึงตัดรวมทั้งหมด · ก้อนใหญ่ที่ตัด R0 ยากพิจารณาเคมีก่อนผ่าตัดได้"
+   "T4b colon cancer → en bloc multivisceral resection (R0)",
+   "ห้ามแยกก้อนออกจากอวัยวะที่ติด",
+   "พิจารณา neoadjuvant chemo ใน T4b",
+   "Hepatic flexure/ right colon ติดกระเพาะ/ duodenum/ ตับอ่อน",
+   "ผ่าตัดเอาออกไม่ได้ + อุดตัน → bypass/ stoma",
+   "Stage III → adjuvant chemo"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'ลำไส้ติดอวัยวะ = ตัดยกก้อน (en bloc)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Colon Cancer v.3.2025; ASCRS Clinical Practice Guidelines for the Management of Colon Cancer (Dis Colon Rectum 2022;65:148)",
   "variants": [
-   "<b>นอกสไลด์:</b> ระหว่างผ่าตัดมะเร็ง hepatic flexure พบก้อนติดผนัง duodenum ส่วนที่สอง → ตัดผนัง duodenum ส่วนนั้นออกพร้อมก้อนแล้วซ่อม (ถ้าลุกกว้างถึงหัวตับอ่อนอาจต้อง pancreaticoduodenectomy)",
-   "<b>นอกสไลด์:</b> มะเร็ง transverse colon ติดผนังหน้าท้อง → ตัดผนังหน้าท้องส่วนนั้นออกพร้อมก้อน แล้วปิดผนังด้วย mesh หรือ flap"
+   "มะเร็ง sigmoid ติด dome กระเพาะปัสสาวะ → en bloc partial cystectomy",
+   "มะเร็ง hepatic flexure ติด duodenum → en bloc ± pancreaticoduodenectomy (เลือก)",
+   "มะเร็งลำไส้ขวากระจายตับหลายก้อน + อุดตัน → bypass/ stoma + chemo"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 98 — ตัวพิมพ์: <b>30. Right CA colon invades stomach. What is the proper management? — A. Hemicolectomy B. Hemicolectomy with gastrectomy C. Roux en Y gastric bypass D. Internal anastomosis</b><br>ลายมือ: ขีด B<br>ไฮไลต์: \"Right CA colon\" \"invades stomach\" \"proper management\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment of metastasis (ลายมือ \"ตัดได้ก็ตัด\") — Metastatectomy + Neoadjuvant treatment · 2nd line, 3rd line chemotherapy · Palliative care / ขึ้นกับหลายปัจจัย: Operable? · Fitness? · Financial? · (Surgeon?)/ Hospital<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 98",
+  "kimg": [
+   "fsk_p98",
+   "kp67a_30"
   ]
  },
  "MDCU67|RoA|31": {
-  "interp": "แผลลึกกลางแก้มตามแนว tragus ถึงกึ่งกลางริมฝีปากบน → ถามโครงสร้างที่บาดเจ็บ",
-  "why": "<b>คีย์: ขีด A + ลายมือ parotid duct</b><br><b>นอกสไลด์:</b> Stensen (parotid) duct วิ่งตามแนวจาก tragus ถึงกึ่งกลางริมฝีปากบน ส่วนกลางของแนวนี้อยู่บนกล้ามเนื้อ masseter แล้วมุดผ่าน buccinator ไปเปิดในปากตรงฟันกรามบนซี่ที่สอง → แผลลึกกลางแก้มจึงเสี่ยงท่อขาด",
+  "interp": "แผลฉีกขาดลึกที่<b>กลางแก้ม</b> (ตามรูป — ตัดผ่านแนวจาก tragus ถึงกึ่งกลางริมฝีปากบน ระหว่างหูกับมุมปาก) → ถามโครงสร้างที่บาดเจ็บ",
+  "why": "<b>Stensen's (parotid) duct</b> วิ่งตามแนว<b>จาก tragus ถึงกึ่งกลางริมฝีปากบน (ช่วงกลาง 1/3)</b> ผ่านผิวหน้า masseter แล้วเจาะ buccinator ไปเปิดที่กระพุ้งแก้มตรงฟันกรามบนซี่ที่ 2 → แผลลึกกลางแก้มบริเวณนี้ต้องสำรวจท่อ (ฉีดน้ำเกลือ/ methylene blue ทางรูเปิดในปาก) และใส่สายซ่อม ไม่เช่นนั้นเกิด sialocele/ salivary fistula · มักบาดเจ็บร่วมกับ buccal branch ของ facial nerve · ไฟล์ขีด A ลายมือ <b>\"= parotid duct\"</b> และรูปใบหน้าวาดแผลสีแดงที่แก้ม",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าแผลลึกอยู่ใต้ขอบล่างเบ้าตาตรงแนวรูม่านตา (ราว 1 cm ใต้ขอบเบ้าตา) แล้วผู้ป่วยชาแก้ม ข้างจมูก และริมฝีปากบน",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าแผลอยู่ที่ขมับเหนือ zygomatic arch ตามแนวจากใต้ tragus ไปเหนือหางคิ้ว แล้วผู้ป่วยยักคิ้วข้างนั้นไม่ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าแผลอยู่ตามขอบล่างขากรรไกรด้านหน้ามุมขากรรไกร แล้วมุมปากล่างข้างนั้นดึงลงไม่ได้",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าแผลอยู่ที่คอใต้ขอบขากรรไกรล่าง — ในแผลคอต้องดูว่าทะลุ platysma หรือไม่ ถ้าทะลุจึงถือเป็น penetrating neck injury ที่ต้องประเมินต่อ"
+   "B": "Infraorbital nerve ออกจาก infraorbital foramen ใต้ขอบเบ้าตา ห่างจากแนวแผล · จะถูกถ้าแผล/ กระดูกหักใต้ตาทำให้ชาแก้มและริมฝีปากบน",
+   "C": "Frontal (temporal) branch วิ่งตามแนวจากติ่งหูถึงเหนือหางคิ้ว 1.5 cm · จะถูกถ้าแผลที่ขมับ ยักคิ้วข้างนั้นไม่ได้",
+   "D": "Marginal mandibular branch วิ่งตามขอบขากรรไกรล่าง · จะถูกถ้าแผลที่ขอบขากรรไกรล่าง มุมปากตก",
+   "E": "Platysma อยู่ที่คอ/ ใต้ขากรรไกร · จะถูกถ้าแผลที่คอผ่านชั้น platysma (zone ของการบาดเจ็บคอ)"
   },
-  "trap": "นึกถึงเส้นประสาทใบหน้าก่อนเพราะเป็นโครงสร้างสำคัญ — แผลตรงกลางแก้มบน masseter โครงสร้างที่อยู่ตรงแนวคือท่อ parotid (กิ่ง buccal ของ facial nerve วิ่งใกล้กันและต้องตรวจคู่กัน)",
+  "trap": "นึกถึงเส้นประสาทก่อน — แผลกลางแก้มแนว tragus–ริมฝีปากบน ต้องนึกถึงท่อ parotid",
   "summary": [
-   "<b>นอกสไลด์:</b> ตรวจท่อ parotid ในแผลแก้ม: ใส่สายเล็ก (catheter/probe) จากรูเปิดในปากตรงฟันกรามบนซี่ที่สอง หรือฉีดน้ำเกลือ/สีย้อมเข้ารู แล้วดูว่ารั่วที่ก้นแผลหรือไม่ · ท่อขาด → ต่อท่อบนสายค้ำ (stent) คาไว้ราว 2 สัปดาห์ · บาดเจ็บที่ตัวต่อม → เย็บปิด capsule + พันกด"
+   "Stensen's duct: แนว tragus → กึ่งกลางริมฝีปากบน (กลาง 1/3)",
+   "เปิดในปากตรงฟันกรามบนซี่ที่ 2",
+   "บาดเจ็บ: น้ำลายไหลจากแผล → ใส่ stent ซ่อมท่อ",
+   "ไม่ซ่อม → sialocele/ fistula",
+   "Buccal branch ของ facial nerve วิ่งใกล้ท่อ",
+   "Facial nerve หน้าต่อ lateral canthus ไม่ต้องซ่อม"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'แก้มกลาง (หู→ปากบน) = ท่อน้ำลาย Stensen'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Facial soft tissue trauma: parotid duct injury",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลกลางแก้ม ยิ้มแล้วริมฝีปากบนข้างนั้นไม่ยก → buccal branch ของ facial nerve ขาด: ต่อเส้นประสาทแต่เนิ่น (ภายในราว 72 ชม. ยังกระตุ้นหาปลายส่วนปลายได้)",
-   "<b>นอกสไลด์:</b> ท่อ parotid ขาดใกล้มุมปากหน้าขอบ masseter ปลายส่วนปลายสั้นเกินกว่าจะต่อ → ฝังปลายท่อส่วนต้นเข้าเยื่อบุกระพุ้งแก้มสร้างรูเปิดใหม่"
+   "แผลกลางแก้มมีน้ำใสไหล → parotid duct injury → stent repair",
+   "แผลที่ขมับ ยักคิ้วไม่ได้ → frontal branch",
+   "แผลขอบขากรรไกร มุมปากตก → marginal mandibular branch"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 98 — หัวข้อ Plastic · ตัวพิมพ์: <b>31. ผู้ป่วยมี lacerated wound ที่ใบหน้าตามรูป จะบาดเจ็บต่อโครงสร้างใด — A. Stensen's duct B. Infraorbital nerve C. Frontal branch of facial nerve D. Marginal branch of facial nerve E. P… muscle</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · ขีด A + \"= parotid duct\"<br>ไฮไลต์: \"lacerated wound ที่ใบหน้า\" · A (เหลือง)<br>รูปที่แปะ: ภาพวาดใบหน้า (ลายมือวาดแผลสีแดงที่แก้มด้านซ้ายระหว่างจมูกกับหู)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 98",
+  "kimg": [
+   "fsk_p98",
+   "kp67a_31"
   ]
  },
  "MDCU67|RoA|32": {
-  "interp": "เด็กหญิง Treacher Collins (ตาเฉียงลง เปลือกตาล่างแหว่ง โหนกแก้มและขากรรไกรเล็ก หูเล็ก) → ถามความบกพร่องทางหน้าที่ที่ต้องตรวจประจำ",
-  "why": "<b>คีย์: ขีด A</b><br><b>นอกสไลด์:</b> Treacher Collins เกิดจากการเจริญผิดปกติของ arch ที่ 1–2 สองข้าง ทำให้ใบหูเล็ก ช่องหูตีบ/ตัน และกระดูกหูชั้นกลางผิดรูป แต่หูชั้นในปกติ → หูตึงแบบ conductive พบราวครึ่งหนึ่ง ต้องตรวจการได้ยินตั้งแต่แรกเกิดทุกราย เพื่อแก้ก่อนกระทบพัฒนาการพูด",
+  "interp": "ภาพเด็กหญิงลักษณะ <b>Treacher Collins syndrome</b> (หางตาตก, รอยแหว่งเปลือกตาล่าง, โหนกแก้มแบน, ขากรรไกรเล็ก, ใบหูเล็กผิดรูป) → ถาม<b>ความผิดปกติด้านการทำงาน</b>ที่ต้องประเมินเป็นประจำ",
+  "why": "Treacher Collins (mandibulofacial dysostosis; TCOF1) — <b>หูชั้นนอก/ หูชั้นกลางผิดรูป</b> (ใบหูเล็ก ช่องหูตีบ/ ตัน กระดูกหูชั้นกลางผิดรูป) → <b>conductive hearing loss ~50%</b> → ต้องตรวจการได้ยินตั้งแต่แรกเกิดและเป็นประจำ (เครื่องช่วยฟังแบบ bone conduction) เพื่อพัฒนาการด้านภาษา · ปัญหาอื่น: ทางเดินหายใจอุดตัน (ขากรรไกรเล็ก) ในทารก, cleft palate, colobomas · ไฟล์ขีด A",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก Möbius syndrome (เส้นประสาทสมองคู่ 6 และ 7 ไม่ทำงาน) ที่ปิดตาไม่สนิทจนกระจกตาแห้งและอักเสบ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก Crouzon หรือ Apert syndrome (กะโหลกเชื่อมก่อนกำหนดหลายรอย) ที่ต้องเฝ้าระวังความดันในกะโหลก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารก Pierre Robin sequence (คางเล็ก ลิ้นตกไปด้านหลัง เพดานโหว่รูป U) ที่ปัญหาหลักตั้งแต่แรกเกิดคือทางเดินหายใจส่วนบนอุดกั้น",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก Waardenburg syndrome (ผมขาวกลางหน้าผาก ม่านตาสองสี หัวตาห่าง) ซึ่งหูตึงจากหูชั้นในแต่กำเนิด"
+   "B": "Exposure keratitis เกิดได้จาก coloboma/ หลับตาไม่สนิทบางราย แต่ไม่ใช่ปัญหาหลัก · จะถูกถ้าคำถามถามภาวะแทรกซ้อนของ facial cleft ที่ตาปิดไม่สนิท",
+   "C": "ICP สูงเป็นปัญหาของ craniosynostosis (Crouzon/ Apert) ไม่ใช่ Treacher Collins · จะถูกถ้าเด็กมีรอยประสานกะโหลกปิดก่อนกำหนดหลายแห่ง",
+   "D": "ทางเดินหายใจอุดตันพบได้ในทารกที่ขากรรไกรเล็กมาก (สำคัญในช่วงแรกเกิด) แต่ความผิดปกติที่ต้องประเมินเป็นประจำคือการได้ยิน · จะถูกถ้าคำถามถามปัญหาเร่งด่วนในทารกแรกเกิด Treacher Collins/ Pierre Robin",
+   "E": "Sensorineural hearing loss ไม่ใช่ลักษณะเด่น (หูชั้นในมักปกติ) · จะถูกถ้าคำถามถาม Waardenburg/ CHARGE"
   },
-  "trap": "เห็นขากรรไกรเล็กแล้วเลือกทางเดินหายใจอุดกั้น — ทารก Treacher Collins บางรายมีปัญหาทางเดินหายใจจริง แต่ความบกพร่องที่พบบ่อยและต้องตรวจทุกรายคือการได้ยินแบบ conductive",
+  "trap": "เลือก ICP สูงเพราะเป็นโรคใบหน้า — Treacher Collins ไม่ใช่ craniosynostosis ปัญหาหลักคือหูนำเสียง",
   "summary": [
-   "<b>นอกสไลด์:</b> Treacher Collins: ส่วนใหญ่ autosomal dominant (TCOF1) อาการสองข้างสมมาตร · หูตึงเกิดจากหูชั้นนอกและหูชั้นกลาง (ช่องหูตีบ กระดูกหูผิดรูป) หูชั้นในปกติ จึงเป็น conductive ที่แก้ได้ด้วยการนำเสียงผ่านกระดูก"
+   "Treacher Collins: TCOF1 · autosomal dominant",
+   "หางตาตก · coloboma เปลือกตาล่าง · โหนกแก้ม/ ขากรรไกรเล็ก · ใบหูผิดรูป",
+   "Conductive hearing loss ~50% → ตรวจการได้ยินแต่แรกเกิด",
+   "ทารก: ทางเดินหายใจอุดตัน (micrognathia)",
+   "Cleft palate ร่วมได้",
+   "สติปัญญาปกติ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Treacher Collins = Talk ไม่ได้ถ้าไม่ได้ยิน (conductive hearing loss)'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Craniofacial microsomia and Treacher Collins syndrome; GeneReviews: Treacher Collins Syndrome",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก Treacher Collins ช่องหูตันสองข้าง → ใส่เครื่องช่วยฟังแบบนำเสียงผ่านกระดูก (คาดศีรษะ) ตั้งแต่ไม่กี่เดือนแรก ไม่ต้องรอผ่าตัดสร้างใบหู",
-   "<b>นอกสไลด์:</b> เด็กใบหน้าเล็กซีกเดียว หูเล็กข้างเดียว มีติ่งหน้าหู → craniofacial microsomia (ไม่สมมาตร ต่างจาก Treacher Collins ที่เป็นสองข้าง) ก็ต้องตรวจการได้ยินเช่นกัน"
+   "ทารก Treacher Collins หายใจลำบาก → จัดท่า/ airway (± tracheostomy)",
+   "เด็ก Crouzon ตาโปน ICP สูง → cranial vault expansion",
+   "เด็กใบหูเล็กข้างเดียว ขากรรไกรเล็กข้างเดียว → hemifacial microsomia"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 98–99 — ตัวพิมพ์: <b>32. What is the most associated functional deficit important for routine evaluation? — (ให้รูปเด็กผู้หญิงหน้าเหมือน Treacher – Collin syndrome) A. Conductive hearing loss B. Expose keratitis C. Increased intracranial pressure D. Upper airway obstruction</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"most associated functional deficit important for routine evaluation\" · \"รูปเด็กผู้หญิงหน้าเหมือน Treacher – Collin syndrome\" · A (เหลือง)<br>รูปที่แปะ: ภาพถ่ายเด็กหญิงใบหน้าลักษณะ Treacher Collins<br>ที่ปรับในเว็บ: บรรยายลักษณะใบหน้าในโจทย์แทนรูป · ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 98",
+  "kimg": [
+   "fsk_p98",
+   "kp67a_32"
   ]
  }
 }
