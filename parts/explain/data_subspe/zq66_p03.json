@@ -1,29 +1,31 @@
 {
  "MDCU66|RoA|37": {
-  "interp": "CT พบ <b>subarachnoid hemorrhage</b> แล้ว ถามการตรวจต่อไป",
-  "why": "SAH ที่ไม่ได้เกิดจากอุบัติเหตุ สาเหตุส่วนใหญ่ (~85%) คือ <b>ruptured intracranial aneurysm</b> → ต้องทำ <b>cerebral angiography</b> (CTA เป็นด่านแรก, DSA four-vessel เป็น gold standard) ภายใน 24 ชม. เพื่อหาตำแหน่งและวางแผน coiling/ clipping · ไฟล์ขีด A ลายมือ <b>\"หา cause + Tx\"</b>",
+  "interp": "ผู้ป่วยมี CT ยืนยัน <b>subarachnoid hemorrhage</b> แล้ว (ไม่ได้เกิดจากอุบัติเหตุ) — ถามการตรวจขั้นต่อไป ซึ่งต้องหาสาเหตุของเลือดออกเพื่อวางแผนรักษาก่อนเลือดออกซ้ำ",
+  "why": "SAH ที่ไม่ได้เกิดจากอุบัติเหตุ ราว <b>85% เกิดจาก ruptured intracranial aneurysm</b> (ที่เหลือ perimesencephalic, AVM, dissection) · aneurysm ที่แตกแล้วเสี่ยง<b>เลือดออกซ้ำ</b>สูงสุดใน 24–72 ชม.แรก (อัตราตายจากการแตกซ้ำสูงมาก) จึงต้องหาตำแหน่ง aneurysm ให้เร็วที่สุดด้วย <b>cerebral angiography</b> — CTA เป็นด่านแรกที่ทำได้ทันที ส่วน <b>catheter DSA (four-vessel)</b> เป็น gold standard ใช้เมื่อ CTA ไม่พบแต่สงสัยสูงหรือวางแผน coiling · จากนั้นรักษาด้วย endovascular coiling หรือ surgical clipping ภายใน 24–72 ชม. · ไฟล์ขีด A ลายมือ <b>\"หา cause + Tx\"</b> และข้อความตำราที่ผู้จดแปะว่า SAH ต้องทำ four-vessel angiography ภายใน 24 ชั่วโมง",
   "wrong": {
-   "B": "MRI ไม่ใช่การตรวจหลักหา aneurysm ในภาวะเฉียบพลัน · จะถูกถ้าคำถามถาม SAH ที่ angiography ปกติ (หา spinal AVM/ สาเหตุอื่น)",
-   "C": "CT with contrast ธรรมดาไม่ได้แสดงหลอดเลือดละเอียดแบบ CTA · จะถูกถ้าคำถามถามก้อนในสมองที่ต้องดู enhancement",
-   "D": "ICP monitoring ใช้ในผู้ป่วยอาการหนัก/ hydrocephalus ไม่ใช่การหาสาเหตุ · จะถูกถ้าคำถามถาม SAH grade สูงที่ GCS ต่ำ",
-   "E": "LP ใช้เมื่อสงสัย SAH แต่ <b>CT ปกติ</b> (หา xanthochromia) · ข้อนี้ CT เห็นเลือดแล้ว · จะถูกถ้าคำถามถาม thunderclap headache ที่ CT ปกติหลัง 6 ชม."
+   "B": "MRI (FLAIR/ SWI) เห็นเลือดออกได้ดีในระยะหลัง แต่ไม่ใช่การตรวจหลักเพื่อหา aneurysm ในภาวะเฉียบพลัน ใช้เวลานานในผู้ป่วยที่อาจทรุดลง · จะถูกถ้าเป็นผู้ป่วย SAH ที่ angiography สองครั้งปกติ และต้องหาสาเหตุอื่น เช่น spinal AVM หรือ cavernoma",
+   "C": "CT with contrast ธรรมดาไม่ได้จับจังหวะเพื่อดูหลอดเลือดสมองละเอียดแบบ CTA และไม่เพิ่มข้อมูลเรื่อง aneurysm · จะถูกถ้าเป็นผู้ป่วยที่มีก้อนในสมองและต้องการดูการ enhance ของก้อน",
+   "D": "ICP monitoring ใช้ในผู้ป่วย SAH อาการหนัก (Hunt–Hess สูง GCS ต่ำ) หรือมี hydrocephalus ที่ต้องใส่ EVD ไม่ใช่การหาสาเหตุ · จะถูกถ้าเป็นผู้ป่วย SAH ที่ GCS 7 ventricle โต ต้องใส่ EVD และวัดความดัน",
+   "E": "LP ใช้เมื่อสงสัย SAH แต่ <b>CT ไม่พบเลือด</b> (โดยเฉพาะ &gt; 6 ชม.หลังเริ่มปวด) เพื่อหา xanthochromia และ RBC ที่ไม่ลดลงในหลอดหลัง ๆ · ข้อนี้ CT เห็นเลือดแล้วจึงไม่จำเป็น · จะถูกถ้าเป็นผู้ป่วยปวดศีรษะทันทีรุนแรงที่สุดในชีวิตมา 10 ชั่วโมง แต่ CT ปกติ"
   },
-  "trap": "ตอบ LP เพราะจำว่า SAH ต้องเจาะหลัง · LP ใช้เฉพาะเมื่อ CT ไม่พบเลือด (ลายมือ \"ถ้า CT −ve\")",
+  "trap": "ตอบ LP เพราะจำว่า SAH ต้องเจาะหลัง · ลำดับจริงคือ CT ก่อน → ถ้า CT ลบแต่สงสัยค่อย LP (ลายมือ \"ถ้า CT −ve\") → ถ้ายืนยัน SAH แล้วต้องทำ angiography หา aneurysm",
   "summary": [
-   "Thunderclap headache → CT non-contrast ทันที",
-   "CT ปกติ แต่สงสัยมาก → LP (xanthochromia)",
-   "SAH ยืนยัน → CTA/ DSA หา aneurysm",
-   "รักษา aneurysm ภายใน 24–72 ชม. (coiling/ clipping)",
-   "Nimodipine ป้องกัน vasospasm",
-   "ภาวะแทรกซ้อน: rebleed · vasospasm (วัน 4–14) · hydrocephalus · Na ต่ำ"
+   "Thunderclap headache (รุนแรงสุดภายใน 1 นาที) → CT non-contrast ทันที ไว ~100% ใน 6 ชม.แรก",
+   "CT ลบแต่สงสัยสูง → LP หา xanthochromia (ดีที่สุดหลัง 12 ชม.) และ RBC ที่ไม่ลดลงตามหลอด",
+   "SAH ยืนยัน → CTA ทันที · DSA four-vessel เป็น gold standard เมื่อ CTA ลบหรือก่อน coiling",
+   "รักษา aneurysm ภายใน 24–72 ชม.: endovascular coiling (นิยมเมื่อเหมาะสม) หรือ surgical clipping",
+   "ก่อนรักษา aneurysm คุม SBP &lt; 160 mmHg · ให้ nimodipine 60 mg ทุก 4 ชม. 21 วัน ป้องกัน delayed cerebral ischemia",
+   "ภาวะแทรกซ้อน: rebleeding (สูงสุด 24 ชม.แรก) · vasospasm (วันที่ 3–14) · hydrocephalus (ใส่ EVD) · Na ต่ำ (SIADH/ cerebral salt wasting)",
+   "ประเมินความรุนแรง: Hunt–Hess · WFNS · ปริมาณเลือดใน CT: modified Fisher"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'SAH: CT → (ถ้าลบ) LP → (ถ้าบวก) Angio'</b>",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด A พร้อมลายมือ หา cause + Tx และตำราที่ผู้จดแปะไว้ซึ่งระบุ four-vessel angiography ภายใน 24 ชั่วโมง · แนวทางปัจจุบันเริ่มด้วย CTA ก่อน DSA ซึ่งยังเป็น cerebral angiography เหมือนกัน",
+  "mnemonic": "<b>'SAH: CT → (ถ้าลบ) LP → (ถ้าบวก) Angio → Coil/ Clip'</b>",
   "guide": "2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)",
   "variants": [
-   "ปวดศีรษะรุนแรงที่สุดในชีวิต CT ปกติ 8 ชม. → LP",
-   "CT พบ SAH ใน basal cisterns → CTA/ DSA → coiling",
-   "วันที่ 6 หลัง SAH มี hemiparesis ใหม่ → vasospasm"
+   "หญิง 45 ปี ปวดศีรษะทันทีรุนแรงที่สุดในชีวิต คอแข็ง CT เลือดใน basal cisterns → CTA → aneurysm ที่ anterior communicating artery → coiling",
+   "ปวดศีรษะทันที 10 ชั่วโมง CT ปกติ → LP พบ xanthochromia → CTA",
+   "วันที่ 6 หลัง SAH มีแขนขาอ่อนแรงข้างใหม่ ซึมลง → delayed cerebral ischemia จาก vasospasm → ตรวจ CTA/ TCD และรักษา",
+   "ทำไมต้องรักษา aneurysm เร็ว → เสี่ยงแตกซ้ำสูงสุดใน 24–72 ชม.แรกและอัตราตายจากการแตกซ้ำสูงมาก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>37. จากภาพ CT ข้อ 36 (subarachnoid hemorrhage) จะส่ง investigate อะไรต่อ — A. Cerebral angiography B. MRI C. CT contrast D. Intracranial monitoring E. Lumbar puncture</b><br>ลายมือ: ขีด A เขียน \"หา cause + Tx\" · ท้ายช้อย E เขียน \"ถ้า CT −ve\"<br>ไฮไลต์: \"subarachnoid hemorrhage\" · \"investigate\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Management — แผนผังการจัดการ SAH พร้อมภาพ CT และ angiography · ข้อความจากตำรา (ไฮไลต์แดง): \"Patients with symptoms suspicious for SAH should have a head CT immediately.\" · \"In patients with suspicious symptoms but negative head CT, a lumbar puncture (LP) should be performed.\" · \"Patients diagnosed with SAH require four-vessel cerebral angiography within 24 hours to assess for aneurysm or other vascular malformation.\"",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU66|RoA|43": {
-  "interp": "ชายถูกตีศีรษะซ้าย สลบ 5 นาทีแล้วตื่น 3 ชม. ต่อมาซึมลง (<b>lucid interval</b>) หนังศีรษะบวมที่ frontotemporal ซ้าย + pupil ซ้ายขยายไม่ตอบสนอง + decerebrate ถามการวินิจฉัย",
-  "why": "Lucid interval + บาดเจ็บบริเวณ temporal (กระดูกแตกฉีก <b>middle meningeal artery</b>) + uncal herniation (CN III ซ้ายขยาย, decerebrate) = <b>acute epidural hematoma</b> · ไฟล์ขีด B ลายมือ <b>\"lucid interval\"</b> และ <b>\"middle meningeal a.\"</b>",
+  "interp": "ชาย 25 ปี ถูกตีศีรษะด้านซ้าย สลบ 5 นาทีแล้วตื่น 3 ชม.ต่อมาซึมลง (<b>lucid interval</b>) หนังศีรษะบวมที่ frontotemporal ซ้าย มี decerebrate และรูม่านตาซ้าย 5 mm ไม่ตอบสนองแสง = uncal herniation — ถามการวินิจฉัยชนิดเลือดออก",
+  "why": "แรงกระแทกบริเวณ temporal ซึ่งกระดูกบาง ทำให้กระดูกแตกและฉีก <b>middle meningeal artery</b> → เลือดแดงสะสมระหว่างกะโหลกกับ dura = <b>acute epidural hematoma</b> · การสลบช่วงแรกเกิดจาก concussion จากนั้นตื่นดี (lucid interval) ระหว่างที่ก้อนเลือดค่อย ๆ โต เมื่อก้อนใหญ่พอจะดัน uncus ของ temporal lobe ผ่านขอบ tentorium กด <b>CN III ข้างเดียวกัน</b> → รูม่านตาขยายไม่ตอบสนอง และกดก้านสมอง → ซึมลง decerebrate (ลายมือ midbrain) · CT เห็นก้อนเลือดรูปเลนส์ (biconvex) ไม่ข้าม suture เพราะ dura ยึดแน่นที่ suture · ต้องผ่าตัด craniotomy ด่วน ถ้าผ่าทันผลการรักษาดีมาก · ไฟล์ขีด B ลายมือ <b>\"lucid interval\"</b> <b>\"middle meningeal a.\"</b> และ <b>\"Lt. CN3\"</b>",
   "wrong": {
-   "A": "Chronic SDH เกิดหลังบาดเจ็บเล็กน้อยเป็นสัปดาห์ในผู้สูงอายุ/ ดื่มสุรา (bridging vein) · จะถูกถ้าคำถามถามผู้สูงอายุหกล้ม 3 สัปดาห์ก่อน ค่อย ๆ สับสน",
-   "C": "Traumatic SAH มักไม่มี lucid interval และไม่ทำ herniation เร็ว · จะถูกถ้าคำถามถามปวดศีรษะทันทีรุนแรงที่สุดในชีวิต (aneurysm)",
-   "D": "ICH/ contusion มักซึมตั้งแต่แรก ไม่มี lucid interval ชัด · จะถูกถ้าคำถามถามผู้สูงอายุความดันสูงอ่อนแรงครึ่งซีกทันที",
-   "E": "IVH แยกเดี่ยวพบน้อยในบาดเจ็บ · จะถูกถ้าคำถามถามทารกคลอดก่อนกำหนด (germinal matrix hemorrhage)"
+   "A": "Chronic subdural hematoma เกิดจาก bridging vein ฉีกหลังบาดเจ็บเล็กน้อย ค่อย ๆ มีอาการเป็นสัปดาห์ (สับสน ปวดศีรษะ อ่อนแรง) ในผู้สูงอายุ ผู้ดื่มสุรา หรือได้ยาต้านการแข็งตัว · จะถูกถ้าเป็นชาย 78 ปีที่หกล้มศีรษะกระแทกเบา ๆ เมื่อ 3 สัปดาห์ก่อน แล้วสับสนและเดินเซมากขึ้น CT เห็นก้อน crescent สีเข้ม",
+   "C": "Traumatic SAH พบบ่อยหลังบาดเจ็บศีรษะ แต่เลือดกระจายบาง ๆ ในร่องสมอง มักไม่เกิด mass effect หรือ herniation เร็ว และไม่มี lucid interval แบบนี้ · จะถูกถ้าเป็นผู้ป่วยปวดศีรษะทันทีรุนแรงที่สุดในชีวิตโดยไม่มีอุบัติเหตุ (aneurysmal SAH)",
+   "D": "ICH/ contusion จากอุบัติเหตุมักซึมตั้งแต่แรกหรือแย่ลงช้าใน 24–72 ชม. (contusion blossoming) ไม่มี lucid interval ชัด · จะถูกถ้าเป็นผู้สูงอายุความดันสูงที่อ่อนแรงครึ่งซีกทันทีโดยไม่มีอุบัติเหตุ (hypertensive ICH)",
+   "E": "IVH แยกเดี่ยวพบน้อยในการบาดเจ็บ มักเป็นส่วนหนึ่งของการบาดเจ็บรุนแรง และไม่อธิบายการกระแทกเฉพาะที่ temporal กับ lucid interval · จะถูกถ้าเป็นทารกคลอดก่อนกำหนด 28 สัปดาห์ที่เลือดออกจาก germinal matrix ในสัปดาห์แรก"
   },
-  "trap": "Lucid interval ไม่ได้พบในทุกราย EDH (~20–50%) และพบใน SDH ได้ · ต้องดูกลไก (กระแทก temporal) ร่วมด้วย",
+  "trap": "Lucid interval พบเพียงราว 20–50% ของ EDH และพบใน SDH ได้ จึงต้องดูกลไกร่วม (กระแทก temporal, กระดูกแตก, เลือดแดง) · และอย่าสับสนอ่อนแรงข้างไหน: uncal herniation ปกติอ่อนแรงข้างตรงข้าม แต่ถ้า Kernohan notch จะอ่อนแรงข้างเดียวกัน — รูม่านตาที่ขยายบอกข้างของก้อนได้แม่นกว่า",
   "summary": [
-   "EDH: middle meningeal artery · temporal fracture",
-   "CT: biconvex (lens) ไม่ข้าม suture",
-   "Lucid interval → เสื่อมลงเร็ว",
-   "Acute SDH: bridging vein · crescent ข้าม suture",
-   "EDH &gt; 30 mL หรือ GCS แย่ลง/ pupil ผิดปกติ → craniotomy ด่วน",
-   "Uncal herniation: CN III ข้างเดียวกัน + อ่อนแรงข้างตรงข้าม"
+   "EDH: เลือดแดงจาก middle meningeal artery · temporal fracture · ผู้ใหญ่อายุน้อย",
+   "CT EDH: biconvex/ lens ไม่ข้าม suture · Acute SDH: crescent ข้าม suture ไม่ข้าม midline (falx)",
+   "Lucid interval (~20–50%) → ซึมลงเร็ว → uncal herniation: CN III ข้างเดียวกันขยาย + อ่อนแรงข้างตรงข้าม",
+   "ผ่าตัด EDH: ปริมาตร &gt; 30 mL ไม่ว่า GCS เท่าไร · หรือ GCS &lt; 9 ร่วมกับ anisocoria → craniotomy ด่วน",
+   "EDH &lt; 30 mL หนา &lt; 15 mm shift &lt; 5 mm GCS &gt; 8 ไม่มี focal deficit → สังเกตอาการ + CT ซ้ำ",
+   "Acute SDH: bridging vein · ผลแย่กว่า EDH เพราะสมองบาดเจ็บร่วม · ผ่าตัดเมื่อหนา &gt; 10 mm หรือ shift &gt; 5 mm",
+   "Cushing triad (ความดันสูง ชีพจรช้า หายใจผิดปกติ) = ICP สูงใกล้ herniation"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'EDH = Epi Doesn't cross suture · Lens · Lucid'</b>",
-  "guide": "Brain Trauma Foundation: Surgical Management of Acute Epidural Hematomas (Neurosurgery 2006;58:S2-7)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือที่ระบุครบทั้ง lucid interval, middle meningeal artery และ CN III ซ้าย · ในไฟล์ช้อยเขียนว่า hemorrhage เว็บปรับเป็น hematoma ซึ่งความหมายเดียวกัน",
+  "mnemonic": "<b>'EDH = Epi Doesn't cross suture · Lens · Lucid interval'</b>",
+  "guide": "Brain Trauma Foundation: Surgical Management of Acute Epidural Hematomas (Neurosurgery 2006;58(3 Suppl):S7) · ATLS 10th ed. (2018) — Head trauma",
   "variants": [
-   "ถูกตีขมับ หมดสติ ตื่นมาคุยได้ แล้วซึมลง CT biconvex → EDH → craniotomy",
-   "ผู้สูงอายุหกล้ม 3 สัปดาห์ สับสน CT crescent hypodense → chronic SDH → burr hole",
-   "อุบัติเหตุรถ GCS ต่ำตั้งแต่แรก CT crescent hyperdense → acute SDH"
+   "ชาย 20 ปี ถูกตีขมับ หมดสติชั่วครู่ ตื่นมาคุยได้ 2 ชั่วโมงแล้วซึมลง CT ก้อนเลือดรูปเลนส์ 40 mL → craniotomy ด่วน",
+   "ชาย 75 ปี กินยาต้านการแข็งตัว หกล้มเบา ๆ 3 สัปดาห์ก่อน สับสนมากขึ้น CT crescent hypodense → chronic SDH → burr hole drainage",
+   "อุบัติเหตุรถ GCS 6 ตั้งแต่แรก CT ก้อนเลือดรูปจันทร์เสี้ยวหนา 15 mm shift 8 mm → acute SDH → craniotomy",
+   "ทำไม EDH ไม่ข้าม suture → dura ยึดแน่นกับกะโหลกที่แนว suture ก้อนจึงถูกจำกัดเป็นรูปเลนส์"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>43. ผู้ป่วยชาย 25 ปี ประวัติถูกตีด้วยท่อนเหล็กที่หัวด้านซ้าย สลบไป 5 นาที 3 ชั่วโมงต่อมาซึมลง เพื่อนจึงพามาส่งโรงพยาบาล PE: E1M4V3, puffy skull at left frontotemporal area, decerebrate positioning, Rt pupil 2 mm SRTL, Lt. pupil 5 mm NRTL จงให้การวินิจฉัย — A. chronic subdural hemorrhage B. acute epidural hemorrhage C. subarachnoid hemorrhage D. intracerebral hemorrhage E. intraventricular hemorrhage</b><br>ลายมือ: \"lucid interval\" เหนือ 3 ชั่วโมงต่อมาซึมลง · \"middle meningeal a.\" เหนือ puffy skull · \"midbrain ลง\" เหนือ decerebrate positioning · \"sluggish react to light\" เหนือ SRTL · \"not react to light\" เหนือ NRTL · \"Lt. CN3\" · ขีด B<br>ไฮไลต์: \"ชาย 25 ปี\" · \"ถูกตีด้วยท่อนเหล็กที่หัวด้านซ้าย สลบไป 5 นาที\" · \"3 ชั่วโมงต่อมาซึมลง\" · \"E1M4V3, puffy skull at left frontotemporal area, decerebrate positioning, Rt pupil 2 mm SRTL, Lt. pupil 5 mm NRTL\" · \"วินิจฉัย\" · B (เหลือง)<br>ที่ปรับในเว็บ: ช้อยเขียนเป็น hematoma แทน hemorrhage",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -66,30 +70,31 @@
   ]
  },
  "MDCU66|RoA|X3": {
-  "interp": "ถามข้อห้ามของ <b>lumbar puncture</b> (ถามซ้ำกับข้อ 32)",
-  "why": "<b>Aqueductal stenosis</b> ทำให้ <b>obstructive (non-communicating) hydrocephalus</b> ความดันเหนือจุดอุดสูง การเจาะหลังทำให้ความดันต่างกัน → <b>herniation</b> · ไฟล์ขีด C ลายมือ <b>\"obstructive hydrocephalus\"</b>",
+  "interp": "ถามข้อห้ามของการเจาะหลังอีกครั้ง โดยทุกช้อยมี hydrocephalus ร่วม — ต้องแยกชนิดที่ทางเดิน CSF ยังต่อกัน (communicating) ออกจากชนิดที่อุดภายในระบบ ventricle (obstructive)",
+  "why": "<b>Cerebral aqueduct stenosis</b> อุดทางไหลระหว่าง third และ fourth ventricle → lateral และ third ventricle ความดันสูง แต่ช่อง spinal subarachnoid ไม่ต่อกับส่วนที่ความดันสูง = <b>obstructive (non-communicating) hydrocephalus</b> · ถ้าเจาะหลังระบาย CSF ด้านล่าง ความดันระหว่างช่องจะต่างกันมากขึ้น → สมองเลื่อนลงผ่าน tentorium หรือ foramen magnum (herniation) · ส่วน hydrocephalus หลัง SAH, หลัง meningitis และ NPH เป็น communicating จาก arachnoid granulation ดูดซึม CSF ไม่ได้ ทางเดิน CSF ยังต่อถึงกัน การเจาะหลังทำได้และบางครั้งใช้ระบาย CSF เพื่อรักษาหรือทำนายผล shunt · ไฟล์ขีด C ลายมือ <b>\"obstructive hydrocephalus\"</b>",
   "wrong": {
-   "A": "Communicating hydrocephalus ทางเดิน CSF ต่อกัน เจาะหลังได้ · จะถูกถ้าคำถามถามภาวะที่มี mass effect/ midline shift",
-   "B": "Hydrocephalus หลัง SAH เป็น communicating (ดูดซึมลดลง) เจาะหลังระบายได้ · จะถูกถ้าคำถามถาม SAH ที่มี IVH อุด aqueduct",
-   "D": "Meningitis ทำ communicating hydrocephalus (exudate อุด arachnoid granulation) · จะถูกถ้าคำถามถามฝีในสมองที่กดเบียด",
-   "E": "NPH เป็น communicating · LP tap test ใช้ประเมินก่อนใส่ shunt · จะถูกถ้าคำถามถาม obstructive hydrocephalus"
+   "A": "Communicating hydrocephalus ทางเดิน CSF ต่อกัน เจาะหลังได้ (ลายมือ \"⊖CSF reab. → communicating\") · จะถูกถ้าเป็นผู้ป่วยที่ CT เห็นก้อนในสมองกด midline shift ร่วมด้วย",
+   "B": "Hydrocephalus หลัง SAH ส่วนใหญ่เป็น communicating จากเลือดอุด arachnoid granulation การระบาย CSF ทำได้ทั้ง lumbar drain และ EVD · จะถูกถ้าเป็น SAH ที่ลิ่มเลือดอุด fourth ventricle จนเป็น obstructive",
+   "D": "Meningitis ทำให้ exudate อุดการดูดซึม CSF จึงเป็น communicating (ลายมือ \"exudate ⊖CSF reab.\") การเจาะหลังทำได้หลัง CT และจำเป็นต่อการวินิจฉัย · จะถูกถ้าเป็นผู้ป่วยที่มีฝีในสมองขนาดใหญ่ร่วมด้วย",
+   "E": "NPH เป็น communicating ความดันปกติ การเจาะหลังระบาย CSF (tap test) ใช้ทำนายว่าจะดีขึ้นหลังใส่ shunt · จะถูกถ้าเป็นผู้ป่วยที่ภาพสมองเห็นก้อนอุด aqueduct แทน"
   },
-  "trap": "ทุกช้อยมี hydrocephalus ต้องแยก communicating (เจาะได้) กับ obstructive (ห้ามเจาะ)",
+  "trap": "เห็นคำว่า hydrocephalus แล้วคิดว่าห้ามเจาะทุกชนิด · หลักคือดูว่า<b>ทางไหลต่อกันหรือไม่</b> — อุดใน ventricle ห้ามเจาะ · ดูดซึมผิดปกติเจาะได้",
   "summary": [
-   "ห้าม LP: obstructive hydrocephalus",
-   "ห้าม LP: mass effect/ herniation",
-   "ห้าม LP: ติดเชื้อบริเวณผิวหนังที่เจาะ",
-   "ห้าม LP: coagulopathy",
-   "CT ก่อน LP เมื่อมี focal deficit/ ICP สูง/ ซึม",
-   "Communicating: SAH · meningitis · NPH"
+   "ข้อห้าม LP: obstructive hydrocephalus · ก้อนที่มี mass effect/ midline shift/ basal cisterns ถูกกด",
+   "ผิวหนังบริเวณเจาะติดเชื้อ · coagulopathy หรือเกล็ดเลือดต่ำ · ได้ยาต้านการแข็งตัวของเลือด",
+   "ระบบหายใจ/ ไหลเวียนไม่คงที่ · ผู้ป่วยจัดท่าไม่ได้ — ถ้าสงสัย meningitis ให้ยาฆ่าเชื้อก่อนได้ทันทีโดยไม่ต้องรอ CT หรือ LP",
+   "ทำ CT ก่อน LP เมื่อ: focal deficit · papilledema · ซึม · ชักใหม่ · ภูมิคุ้มกันต่ำ · อายุมาก",
+   "Communicating (SAH, meningitis, NPH): เจาะได้ และใช้ระบาย CSF/ tap test",
+   "Obstructive (aqueductal stenosis, ก้อน, colloid cyst): ห้ามเจาะ → รักษาด้วย ETV/ VP shunt/ EVD"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'อุดข้างใน → ห้ามดูดข้างล่าง'</b>",
-  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Lumbar puncture",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ผู้จดเขียนกำกับทุกช้อยว่าเป็น communicating หรือ obstructive · ในไฟล์มีช้อย A–D เว็บเพิ่ม NPH เป็นช้อย E ซึ่งยังเป็น communicating จึงไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'อุดข้างใน → ห้ามดูดข้างล่าง (No LP in obstructive)'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Lumbar puncture; Hydrocephalus",
   "variants": [
-   "ผู้ป่วยมีไข้ ซึม papilledema → CT ก่อน LP",
-   "NPH: เดินเซ ปัสสาวะราด หลงลืม → LP tap test",
-   "Aqueductal stenosis → ETV"
+   "ทารก aqueductal stenosis หัวโต → ETV หรือ VP shunt ไม่เจาะหลัง",
+   "ผู้ป่วย SAH วันที่ 5 ซึมลง ventricle โตทุกอัน → communicating hydrocephalus → EVD หรือ lumbar drain",
+   "ผู้สูงอายุเดินเซ ปัสสาวะราด หลงลืม → NPH → LP tap test 30–50 mL แล้วประเมินการเดิน",
+   "ผู้ป่วยไข้ ซึม CT เห็นก้อน ring-enhancing กด midline shift → ห้าม LP (brain abscess)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>Contraindications ของ lumbar puncture — A. Communicating hydrocephalus B. Post subarachnoid hemorrhage and hydrocephalus C. Cerebral aqueduct stenosis and hydrocephalus D. Meningitis and hydrocephalus</b> (ไม่มีเลขข้อ)<br>ลายมือ: \"⊖CSF reab. → communicating\" ที่ช้อย B · \"obstructive hydrocephalus\" ที่ช้อย C · \"exudate ⊖CSF reab.\" ที่ช้อย D · ขีด C<br>ไฮไลต์: \"Contraindications\" · \"lumbar puncture\" · \"Cerebral aqueduct stenosis\" · \"hydrocephalus\" (เหลือง)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–D เว็บเพิ่ม E Normal pressure hydrocephalus",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -99,30 +104,31 @@
   ]
  },
  "MDCU66|RoA|X4": {
-  "interp": "<b>Bitemporal hemianopia</b> พบในโรคใดมากที่สุด",
-  "why": "Bitemporal hemianopia เกิดจากการกด <b>optic chiasm</b> (เส้นใยจาก nasal retina ที่ไขว้กัน) โดยก้อนบริเวณ <b>sellar/ suprasellar</b> → <b>pituitary macroadenoma (prolactinoma)</b> · ไฟล์ขีด C ลายมือ <b>\"@ sellar region\"</b>",
+  "interp": "ถามว่า <b>bitemporal hemianopia</b> (ตามัวด้านนอกทั้งสองข้าง) พบในโรคใดมากที่สุด — ต้องรู้ตำแหน่งรอยโรคที่ทำให้เกิดความผิดปกติของลานสายตาแบบนี้ แล้วเลือกก้อนที่อยู่ตำแหน่งนั้น",
+  "why": "เส้นใยประสาทตาจาก <b>nasal retina</b> (รับภาพด้าน temporal) ไขว้กันที่ <b>optic chiasm</b> ซึ่งอยู่เหนือ sella turcica · ก้อนที่โตขึ้นจากด้านล่างจึงกดเส้นใยที่ไขว้ตรงกลางก่อน → <b>bitemporal hemianopia</b> (มักเริ่มที่ superior quadrant ก่อนจากการกดจากด้านล่าง) · สาเหตุที่พบบ่อยที่สุดในผู้ใหญ่คือ <b>pituitary macroadenoma</b> (รวม prolactinoma ขนาดใหญ่) ตามด้วย craniopharyngioma (มักกดจากด้านบน พบในเด็ก) และ meningioma ของ tuberculum sellae · prolactinoma ขนาดใหญ่รักษาด้วย dopamine agonist (cabergoline) เป็นอันดับแรกแม้มีลานสายตาผิดปกติ เพราะก้อนยุบเร็ว · ไฟล์ขีด C ลายมือ <b>\"@ sellar region\"</b>",
   "wrong": {
-   "A": "Pinealoma กด tectum → Parinaud syndrome (มองขึ้นไม่ได้) · จะถูกถ้าคำถามถามเด็กชายมองขึ้นไม่ได้ + hydrocephalus",
-   "B": "Vestibular schwannoma ที่ cerebellopontine angle → หูดับข้างเดียว เสียงในหู เวียน · จะถูกถ้าคำถามถาม sensorineural hearing loss ข้างเดียว",
-   "D": "Medulloblastoma ที่ cerebellar vermis ในเด็ก → เดินเซ hydrocephalus · จะถูกถ้าคำถามถามเด็กเดินเซ อาเจียนตอนเช้า",
-   "E": "ก้อน frontal lobe → บุคลิกเปลี่ยน ชัก · จะถูกถ้าคำถามถาม personality change ในผู้ใหญ่"
+   "A": "Pinealoma กด tectum ของ midbrain → Parinaud syndrome (มองขึ้นไม่ได้ near-light dissociation) และ hydrocephalus จากกด aqueduct · จะถูกถ้าเป็นเด็กชาย 12 ปีที่มองขึ้นไม่ได้และปวดศีรษะตอนเช้า",
+   "B": "Vestibular schwannoma อยู่ที่ cerebellopontine angle → หูข้างเดียวเสื่อมแบบ sensorineural เสียงดังในหู เวียน ต่อมาชาใบหน้า (CN V) · จะถูกถ้าเป็นหญิง 50 ปีที่หูขวาได้ยินลดลงช้า ๆ มีเสียงในหูข้างเดียว",
+   "D": "Medulloblastoma อยู่ที่ cerebellar vermis ในเด็ก → เดินเซ อาเจียนตอนเช้า hydrocephalus · จะถูกถ้าเป็นเด็ก 6 ปีเดินเซ อาเจียนตอนเช้า MRI ก้อนใน fourth ventricle",
+   "E": "ก้อน frontal lobe (เช่น ganglioglioma) → ชัก บุคลิกเปลี่ยน ไม่ทำให้ chiasm ถูกกด · จะถูกถ้าเป็นวัยรุ่นที่ชักเรื้อรังดื้อยา MRI พบก้อนที่ temporal/ frontal lobe"
   },
-  "trap": "ลืมว่า craniopharyngioma ก็ทำ bitemporal hemianopia ได้ (แต่ไม่อยู่ในช้อย) · ในช้อยมีเพียง prolactinoma ที่อยู่ sellar",
+  "trap": "จำตำแหน่งความผิดปกติลานสายตาสลับกัน: optic nerve ข้างเดียว → ตาบอดข้างเดียว · chiasm → bitemporal · optic tract/ radiation → homonymous hemianopia · และอย่าลืม craniopharyngioma ซึ่งไม่อยู่ในช้อย",
   "summary": [
-   "Bitemporal hemianopia → optic chiasm",
-   "สาเหตุ: pituitary macroadenoma · craniopharyngioma · meningioma (tuberculum sellae)",
-   "Prolactinoma: ประจำเดือนขาด น้ำนมไหล (หญิง) · libido ลด (ชาย)",
-   "Prolactinoma รักษาแรก: cabergoline (แม้ macroadenoma)",
-   "Pituitary apoplexy: ปวดศีรษะทันที ตามัว → steroid ± ผ่าตัด",
-   "ก้อนอื่น: pineal → Parinaud · CPA → หูดับ"
+   "Optic nerve → ตาบอดข้างเดียว · chiasm → bitemporal hemianopia · optic tract → contralateral homonymous hemianopia",
+   "Temporal radiation (Meyer loop) → superior quadrantanopia 'pie in the sky' · parietal → inferior quadrantanopia",
+   "Bitemporal hemianopia: pituitary macroadenoma (พบบ่อยสุด) · craniopharyngioma · tuberculum sellae meningioma · aneurysm",
+   "Prolactinoma: หญิงประจำเดือนขาด น้ำนมไหล · ชายความต้องการทางเพศลด มักมาด้วยก้อนใหญ่",
+   "Prolactinoma รักษาแรก: cabergoline แม้เป็น macroadenoma ที่มีลานสายตาผิดปกติ · ผ่าตัดเมื่อดื้อยา/ ทนยาไม่ได้/ apoplexy",
+   "Pituitary apoplexy: ปวดศีรษะทันที ตามัว หนังตาตก ความดันต่ำ → hydrocortisone ด่วน ± ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ลายมือกำกับว่าอยู่ sellar region · ในไฟล์เขียน Acoustic Schwannoma และ Frontal lobe ganglioma เว็บแก้เป็นชื่อปัจจุบัน",
   "mnemonic": "<b>'Bitemporal = Chiasm = Sella (Pituitary/ Prolactinoma)'</b>",
-  "guide": "Pituitary Society International Consensus on Diagnosis and Management of Prolactin-secreting Adenomas (Nat Rev Endocrinol 2023;19:722)",
+  "guide": "Pituitary Society International Consensus Statement on Diagnosis and Management of Prolactin-secreting Pituitary Adenomas (Nat Rev Endocrinol 2023;19:722)",
   "variants": [
-   "หญิงประจำเดือนขาด น้ำนมไหล ตามัวด้านข้างทั้งสองตา → prolactinoma → cabergoline",
-   "เด็กเตี้ย ตามัว หินปูนเหนือ sella → craniopharyngioma",
-   "ปวดศีรษะทันที ตามัว หนังตาตก ก้อน pituitary มีเลือด → pituitary apoplexy"
+   "หญิง 30 ปี ประจำเดือนขาด น้ำนมไหล ตามัวด้านข้างทั้งสองตา MRI ก้อน pituitary 2.5 cm prolactin สูงมาก → macroprolactinoma → cabergoline",
+   "เด็ก 8 ปี เตี้ย ตามัว MRI ก้อนมีหินปูนและถุงน้ำเหนือ sella → craniopharyngioma",
+   "ปวดศีรษะทันที ตามัว หนังตาตก ความดันต่ำ มีก้อน pituitary มีเลือดออก → pituitary apoplexy → hydrocortisone + พิจารณาผ่าตัด",
+   "ผู้ป่วยอ่อนแรงซีกขวาและมองไม่เห็นด้านขวาของทั้งสองตา → รอยโรคที่ optic tract/ radiation ซ้าย (homonymous hemianopia)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>bitemporal hemianopia อาจพบในโรคใดต่อไปนี้มากที่สุด — A. Pinealoma B. Acoustic Schwannoma C. Prolactinoma D. Medulloblastoma E. Frontal lobe ganglioma</b> (ไม่มีเลขข้อ)<br>ลายมือ: เขียน \"@ sellar region\" เหนือช้อย C · ขีด C<br>ไฮไลต์: \"bitemporal hemianopia\" · \"โรคใดต่อไปนี้มากที่สุด\" · C (เหลือง)<br>ที่ปรับในเว็บ: แก้ Acoustic Schwannoma เป็น Vestibular schwannoma และ ganglioma เป็น ganglioglioma",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -132,30 +138,32 @@
   ]
  },
  "MDCU66|RoA|X5": {
-  "interp": "ปวดศีรษะทันที 2 ชม. GCS E3M5V4 CT พบเลือดออก<b>ด้านใน (medial) ต่อ internal capsule ติด third ventricle</b> ถามตำแหน่ง",
-  "why": "Thalamus อยู่ medial ต่อ posterior limb ของ internal capsule และเป็นผนังข้างของ third ventricle → <b>thalamic hemorrhage</b> (มักทะลุเข้า ventricle ได้) · ไฟล์ขีด A",
+  "interp": "ผู้ป่วยปวดศีรษะทันที 2 ชม. GCS E3M5V4 (= 12) CT พบเลือดออกในเนื้อสมองที่อยู่<b>ด้านใน (medial) ต่อ internal capsule ติด third ventricle</b> — ถามว่าเป็นเลือดออกตำแหน่งใด ต้องรู้กายวิภาคของ deep gray nuclei",
+  "why": "Spontaneous ICH จากความดันสูงเกิดจาก lipohyalinosis ของหลอดเลือดเล็กที่แทงลึก (lenticulostriate, thalamoperforating) จึงพบที่ <b>putamen &gt; thalamus &gt; pons &gt; cerebellum</b> · กายวิภาคแยกได้จาก internal capsule: <b>putamen/ globus pallidus อยู่ lateral</b> ต่อ internal capsule ส่วน <b>thalamus อยู่ medial ต่อ posterior limb</b> และเป็นผนังด้านข้างของ <b>third ventricle</b> เลือดจึงทะลุเข้า ventricle ได้บ่อย · อาการ thalamic hemorrhage: ชาครึ่งซีกเด่น อ่อนแรงครึ่งซีก ตาเหลือบลงและเข้าใน (กด midbrain) และ hydrocephalus ถ้าเลือดเข้า ventricle · ไฟล์ขีด A",
   "wrong": {
-   "B": "Basal ganglia (putamen) อยู่ <b>lateral</b> ต่อ internal capsule เป็นตำแหน่ง hypertensive ICH ที่พบบ่อยที่สุด · จะถูกถ้าคำถามบอกเลือดอยู่ด้านข้างของ internal capsule",
-   "C": "Caudate อยู่ผนังด้านข้างของ frontal horn ของ lateral ventricle · จะถูกถ้าคำถามบอกเลือดติด frontal horn และทะลุเข้า lateral ventricle",
-   "D": "Lobar hemorrhage อยู่ในเนื้อสมองส่วนนอก (cortex/ subcortical) สาเหตุ amyloid angiopathy/ AVM · จะถูกถ้าคำถามถามผู้สูงอายุเลือดออกใต้เปลือกสมอง",
-   "E": "Pontine hemorrhage: โคม่าเร็ว pinpoint pupils quadriplegia · จะถูกถ้าคำถามถามเลือดที่ก้านสมองระดับ pons"
+   "B": "Basal ganglia (putamen) hemorrhage พบบ่อยที่สุดของ hypertensive ICH แต่อยู่ <b>lateral</b> ต่อ internal capsule อาการเด่นคืออ่อนแรงครึ่งซีกและตาเหลือบไปข้างรอยโรค · จะถูกถ้าเป็นชาย 60 ปีความดันสูง อ่อนแรงซีกซ้ายทันที CT เห็นเลือดด้านข้างของ internal capsule ขวา",
+   "C": "Caudate hemorrhage อยู่ที่ผนังด้านข้างของ frontal horn ของ lateral ventricle มักทะลุเข้า lateral ventricle อาการคล้าย SAH (ปวดศีรษะ คอแข็ง) อ่อนแรงน้อย · จะถูกถ้าเป็นผู้ป่วยปวดศีรษะทันที อาเจียน สับสน CT เห็นเลือดที่หัวของ caudate ติด frontal horn",
+   "D": "Lobar hemorrhage อยู่ใต้เปลือกสมอง (cortex/ subcortical white matter) สาเหตุในผู้สูงอายุคือ cerebral amyloid angiopathy ในคนอายุน้อยคือ AVM · จะถูกถ้าเป็นหญิง 80 ปีที่ไม่มีความดันสูง ชักและอ่อนแรงแขน CT เลือดที่ parietal lobe ใกล้ผิวสมอง",
+   "E": "Pontine hemorrhage ทำให้โคม่าเร็ว รูม่านตาเล็กมาก (pinpoint) อัมพาตทั้งตัว หายใจผิดปกติ พยากรณ์โรคแย่ · จะถูกถ้าเป็นผู้ป่วยความดันสูงหมดสติทันที pinpoint pupils quadriplegia CT เลือดที่ pons"
   },
-  "trap": "สับสน putamen (lateral) กับ thalamus (medial) ต่อ internal capsule",
+  "trap": "สับสนตำแหน่ง putamen (lateral) กับ thalamus (medial) ต่อ internal capsule · จุดยึดที่ช่วยจำคือ thalamus อยู่ติด third ventricle ส่วน caudate อยู่ติด lateral ventricle",
   "summary": [
-   "Hypertensive ICH: putamen &gt; thalamus &gt; pons &gt; cerebellum",
-   "Putamen: lateral ต่อ internal capsule",
-   "Thalamus: medial · ติด third ventricle · ตาเหลือบลง",
-   "Pons: pinpoint pupils · coma",
-   "Cerebellum &gt; 3 cm → ผ่าตัด",
-   "Lobar: amyloid angiopathy (ผู้สูงอายุ)"
+   "Hypertensive ICH: putamen (~35–50%) &gt; thalamus (~10–15%) &gt; pons &gt; cerebellum · จาก lipohyalinosis ของหลอดเลือดแทงลึก",
+   "Putamen: lateral ต่อ internal capsule · อ่อนแรงครึ่งซีก ตาเหลือบไปทางรอยโรค",
+   "Thalamus: medial ต่อ internal capsule ติด third ventricle · ชาครึ่งซีก ตาเหลือบลง เข้า ventricle บ่อย",
+   "Pons: โคม่า pinpoint pupils quadriplegia · Cerebellum: เวียน เดินเซ อาเจียน ไม่อ่อนแรง",
+   "Lobar: cerebral amyloid angiopathy (ผู้สูงอายุ) · AVM/ cavernoma (อายุน้อย) → ทำ CTA/ MRI หาสาเหตุ",
+   "ปริมาตร ABC/2 · ICH score: GCS · ปริมาตร ≥ 30 mL · IVH · infratentorial · อายุ ≥ 80",
+   "รักษา: SBP เป้า ~140 mmHg · กลับฤทธิ์ยาต้านการแข็งตัว · cerebellar &gt; 3 cm/ กดก้านสมอง/ hydrocephalus → ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ไฟล์เดิมไม่บอกตำแหน่งเลือดในคำถาม เว็บเพิ่มรายละเอียดตำแหน่งให้มีคำตอบเดียว)",
-  "mnemonic": "<b>'Thalamus ติด Third ventricle (T-T) · Putamen อยู่ Periphery'</b>",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ในไฟล์คำถามบอกเพียงว่า CT พบ hemorrhage ไม่ได้ระบุตำแหน่ง และมีช้อยแค่ A–C เว็บจึงเพิ่มตำแหน่งเลือดและช้อย D–E ให้มีคำตอบเดียวตามคีย์",
+  "mnemonic": "<b>'Thalamus ติด Third ventricle (T–T) · Putamen อยู่ Periphery (lateral)'</b>",
   "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
   "variants": [
-   "ความดันสูง อ่อนแรงครึ่งซีก CT เลือด lateral ต่อ internal capsule → putaminal hemorrhage",
-   "โคม่าทันที pinpoint pupils → pontine hemorrhage",
-   "เวียน เดินเซ อาเจียน เลือด cerebellum 4 cm → suboccipital craniectomy"
+   "ชาย 60 ปีความดันสูง อ่อนแรงซีกซ้ายทันที ตาเหลือบขวา CT เลือด lateral ต่อ internal capsule ขวา → putaminal hemorrhage",
+   "ผู้ป่วยหมดสติทันที pinpoint pupils อัมพาตทั้งตัว → pontine hemorrhage",
+   "เวียน เดินเซ อาเจียน CT เลือด cerebellum 4 cm กด fourth ventricle → suboccipital craniectomy ด่วน",
+   "หญิง 82 ปีไม่มีความดันสูง เลือดออกใต้เปลือกสมองซ้ำหลายครั้ง MRI มี microbleeds ตามผิวสมอง → cerebral amyloid angiopathy"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>ปวดหัวมา 2 ชม. ตรวจร่างกาย E3M5V4 ส่ง CT พบ hemorrhage — A. thalamus hemorrhage B. basal ganglion hemorrhage C. caudate hemorrhage</b> (ไม่มีเลขข้อ)<br>ลายมือ: เหนือ E3M5V4 เขียน \"กี่แต้ม\" · \"localize pain\" · \"confused\" · ขีด A<br>ไฮไลต์: \"ปวดหัวมา 2 ชม.\" · \"E3M5V4\" · \"CT พบ hemorrhage\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ภาพชิ้นสมองที่มีเลือดออกตำแหน่งต่าง ๆ และแผนภูมิวงกลมสัดส่วนตำแหน่ง ICH (lobar · basal ganglia · thalamus · cerebellum · pons) มีดาวแดง ★★★ · ตาราง Glasgow Coma Scale — Eye opening 4 · Verbal 5 · Motor 6 · Minor Brain Injury = 13-15 points · Moderate Brain Injury = 9-12 points · Severe Brain Injury = 3-8 points<br>ที่ปรับในเว็บ: เพิ่มตำแหน่งเลือด (medial ต่อ internal capsule ติด third ventricle) ในคำถาม · ในไฟล์มีช้อย A–C เว็บเพิ่ม D Lobar และ E Pontine hemorrhage",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -165,30 +173,32 @@
   ]
  },
  "MDCU66|RoA|X6": {
-  "interp": "ถามข้อที่ถูกเกี่ยวกับการใช้ <b>steroid ใน brain tumor</b>",
-  "why": "Steroid (dexamethasone) ลด <b>vasogenic</b> edema ไม่ใช่ cytotoxic (B ผิด) · ผู้ป่วยมีอาการให้ <b>loading dose ก่อน</b> (10 mg IV แล้ว 4–5 mg ทุก 6 ชม.) แล้วค่อยลดขนาด ไม่ใช่เริ่มน้อยแล้วเพิ่ม (C ผิด) · มีประโยชน์ ควรใช้เมื่อมีอาการ (D ผิด) → ไม่มีข้อถูก ตอบ A · ไฟล์ไม่มีขีดคำตอบ แต่ลายมือแก้ <b>\"vasogenic\"</b> และ <b>\"ให้ loading dose ก่อน\"</b>",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับการใช้ <b>steroid (dexamethasone) ใน brain tumor</b> — ช้อยบอกกลไก ขนาดยา และความเหมาะสม ต้องรู้ว่า steroid ลด edema ชนิดใดและให้อย่างไร",
+  "why": "ก้อนในสมองหลั่งสาร (VEGF) ทำให้ blood–brain barrier รอบก้อนรั่ว → <b>vasogenic edema</b> ใน white matter ซึ่งเป็นสาเหตุหลักของอาการ ICP สูงและ focal deficit · <b>Dexamethasone</b> (mineralocorticoid ต่ำ ผ่าน BBB ดี) ลด vasogenic edema ได้ภายในชั่วโมงถึงวัน แต่<b>ไม่ลด cytotoxic edema</b> (เซลล์บวมจากขาดเลือดใน stroke) และ<b>ไม่ทำให้ก้อนเล็กลง</b> (ยกเว้น CNS lymphoma) · ในผู้ป่วยมีอาการให้ <b>ขนาดสูงก่อน (loading 10 mg IV แล้ว 4–5 mg ทุก 6 ชม.)</b> แล้วลดลงเป็นขนาดต่ำสุดที่คุมอาการได้ ไม่ใช่เริ่มต่ำแล้วไต่ขึ้น · จึงไม่มีช้อยใดถูก (B, C, D ผิด) · ไฟล์ไม่มีขีดคำตอบ แต่ลายมือแก้ช้อย B เป็น <b>\"vasogenic\"</b> และช้อย C เป็น <b>\"ให้ loading dose ก่อน\"</b>",
   "wrong": {
-   "B": "ลด vasogenic edema (BBB รั่วรอบก้อน) ไม่ใช่ cytotoxic · จะถูกถ้าเปลี่ยนเป็น vasogenic edema",
-   "C": "ให้ขนาดสูงก่อน (loading) แล้วค่อยลดเมื่ออาการดีขึ้น · จะถูกถ้าคำถามถามการลดขนาด steroid (taper) หลังอาการดีขึ้น",
-   "D": "Steroid ลดอาการจาก edema ได้เร็ว ควรใช้เมื่อมีอาการ · จะถูกถ้าคำถามถามสงสัย CNS lymphoma ก่อนตัดชิ้นเนื้อ (ควรเลี่ยง)",
-   "E": "ข้อ B–D ผิด จึงไม่ใช่ถูกทุกข้อ · จะถูกถ้าทุกข้อถูก"
+   "B": "Steroid ลด <b>vasogenic</b> edema ไม่ใช่ cytotoxic edema ซึ่งเกิดจากเซลล์ขาดพลังงานใน ischemic stroke/ hypoxia และไม่ตอบสนองต่อ steroid · จะถูกถ้าเป็นผู้ป่วยก้อน metastasis ที่สมองมี edema รอบก้อนกว้างใน white matter (vasogenic)",
+   "C": "ผู้ป่วยมีอาการต้องให้ขนาดสูง (loading) ก่อนเพื่อลดบวมเร็ว แล้วค่อยลดขนาดลง การเริ่มต่ำแล้วไต่ขึ้นทำให้คุมอาการช้า · จะถูกถ้าเป็นผู้ป่วยก้อนเล็กที่มีอาการน้อยมาก ซึ่งเริ่ม 4–8 mg/วันได้ หรือหมายถึงช่วงลดขนาดยา (taper)",
+   "D": "Steroid มีประโยชน์ชัดเจนในผู้ป่วยที่มีอาการจาก peritumoral edema และก่อน/ หลังผ่าตัด ผลข้างเคียงจัดการได้ · จะถูกถ้าเป็นผู้ป่วยที่สงสัย primary CNS lymphoma ซึ่งควรเลี่ยง steroid ก่อนตัดชิ้นเนื้อเพราะก้อนยุบจนวินิจฉัยไม่ได้",
+   "E": "มีข้อที่ผิดอยู่ (B, C, D) จึงไม่ใช่ถูกทุกข้อ · จะถูกถ้าทุกข้อเขียนถูก เช่น ลด vasogenic edema · ให้ loading ก่อน · ใช้เมื่อมีอาการ"
   },
-  "trap": "จำผิดว่า steroid ลด cytotoxic edema หรือเริ่มขนาดต่ำแบบยาทั่วไป",
+  "trap": "จำว่า steroid ลด edema ทุกชนิด หรือคิดเหมือนยาทั่วไปที่เริ่มขนาดต่ำ · และในไฟล์ช้อย A ว่างเปล่า ผู้จดไม่ได้ขีดคำตอบ ต้องอาศัยลายมือที่แก้แต่ละช้อยเป็นหลัก",
   "summary": [
-   "Dexamethasone ลด vasogenic edema",
-   "ขนาด: 10 mg IV stat แล้ว 4–5 mg IV ทุก 6 ชม.",
-   "อาการดีขึ้น → ลดขนาดลง (ผลข้างเคียง: น้ำตาลสูง แผลในกระเพาะ ภูมิต่ำ)",
-   "ให้ยาป้องกันกระเพาะร่วม (omeprazole)",
-   "ไม่ลดขนาดก้อน (ยกเว้น lymphoma)",
-   "Anticonvulsant เมื่อมีชัก"
+   "Vasogenic edema: BBB รั่วรอบก้อน/ ฝี → อยู่ใน white matter → ตอบสนองต่อ steroid",
+   "Cytotoxic edema: เซลล์บวมจากขาดเลือด (stroke, hypoxia) → gray–white differentiation หาย → steroid ไม่ช่วย",
+   "Dexamethasone: 10 mg IV stat แล้ว 4–5 mg ทุก 6 ชม. ในผู้ที่มีอาการมาก · อาการน้อยใช้ 4–8 mg/วัน",
+   "อาการดีขึ้น → ลดขนาดเป็นต่ำสุดที่คุมได้ · ผลข้างเคียง: น้ำตาลสูง แผลในกระเพาะ (ให้ PPI) ติดเชื้อ myopathy",
+   "สงสัย CNS lymphoma → เลี่ยง steroid ก่อน biopsy",
+   "Steroid ไม่ใช้ใน traumatic brain injury (CRASH trial เสียชีวิตมากขึ้น) และ ischemic stroke",
+   "ชักจากก้อน → anticonvulsant (levetiracetam) · ไม่ให้ป้องกันในผู้ที่ไม่เคยชัก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ไฟล์ MCQ Key 2 ไม่มีคีย์ (ช้อย A ในไฟล์ว่าง) แต่ลายมือแก้ B C D ว่าผิดทั้งหมด จึงสอดคล้องกับคำตอบ ไม่มีข้อใดถูก ในเว็บ",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ไฟล์ MCQ Key 2 ไม่มีคีย์ (ช้อย A ในไฟล์ว่าง ไม่มีขีดคำตอบ) แต่ลายมือแก้ช้อย B, C และขีดคำว่า ไม่ ในช้อย D แสดงว่าทั้งสามข้อผิด จึงสอดคล้องกับคำตอบ ไม่มีข้อใดถูก ที่เว็บเติมเป็นช้อย A",
   "mnemonic": "<b>'Steroid → Vasogenic · Load แล้ว Lower'</b>",
-  "guide": "EANO Guideline on Rational Supportive Care of Patients with Brain Tumors (Neuro-Oncology 2023)",
+  "guide": "EANO Guideline on Rational Supportive Care of Patients with Brain Tumors (Neuro-Oncology 2023;25:1949)",
   "variants": [
-   "Brain metastasis บวมรอบก้อน แขนอ่อนแรง → dexamethasone 10 mg IV stat",
-   "สงสัย primary CNS lymphoma → เลี่ยง steroid ก่อน biopsy",
-   "Ischemic stroke สมองบวม → steroid ไม่ช่วย"
+   "ผู้ป่วยมะเร็งปอดปวดศีรษะ อาเจียน แขนอ่อนแรง MRI ก้อนพร้อม edema รอบกว้าง → dexamethasone 10 mg IV stat แล้ว 4 mg ทุก 6 ชม.",
+   "ผู้ป่วย HIV ก้อน periventricular enhance สงสัย lymphoma → เลี่ยง steroid จนตัดชิ้นเนื้อได้",
+   "ผู้ป่วย ischemic stroke สมองบวมมาก midline shift → hemicraniectomy/ osmotherapy ไม่ใช้ steroid",
+   "ทำไม steroid ไม่ช่วย cytotoxic edema → ปัญหาอยู่ที่เซลล์ขาดพลังงานจน Na–K pump ล้มเหลว ไม่ใช่ BBB รั่ว"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>ข้อใดถูกเกี่ยวกับการใช้ steroid ใน brain tumor — A. (ว่าง) B. ลด cytotoxic edema ได้ C. เริ่มใช้จาก dose น้อยๆก่อน แล้วค่อยๆ เพิ่ม D. อันตราย ไม่ควรใช้ E. ถูกทุกข้อ</b> (ไม่มีเลขข้อ)<br>ลายมือ: ช้อย B ขีดฆ่า \"cytotoxic\" แก้เป็น \"vasogenic\" และเขียน \"mannitol\" · ช้อย C ขีดฆ่า \"น้อยๆ ก่อน\" เขียน \"ให้ loading dose ก่อน\" · ช้อย D กากบาทคำ \"ไม่\" · ไม่มีขีดคำตอบ<br>ไฮไลต์: \"steroid\" · \"brain tumor\" (เหลือง)<br>รูปที่แปะ: สไลด์ Management — Medication: Steroid ช่วยลด vasogenic brain edema ที่มักมีอยู่รอบๆ tumor ช่วยลดอาการลงได้อย่างรวดเร็ว แต่ steroid จะไม่ช่วยลด tumor growth · Dose คือ 10 mg iv stat และ 5 mg iv q 6 hours ลด dose ลงเมื่ออาการดีขึ้น เพื่อลดผลข้างเคียงของ steroid · Anticonvulsant กรณีที่มีชัก · ภาพ CT มีก้อน (Tumor) และ edema รอบก้อน · ลายมือ \"Dexamethasone\", \"=dexamethasone 10 mg iv stat → 5 mg iv q 6 hr → ↓dose\", \"ต้องให้ยากันแผลในกระเพาะด้วย เช่น lansoprazole, omeprazole\"",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -198,30 +208,32 @@
   ]
  },
  "MDCU66|RoA|X7": {
-  "interp": "ถามข้อที่ถูกเกี่ยวกับ <b>brain tumor</b>",
-  "why": "กะโหลกเป็น<b>ช่องปิด (confined space)</b> ปริมาตรคงที่ (Monro–Kellie) ก้อนแม้เป็น <b>benign</b> ที่โตขึ้นจะเพิ่ม ICP → herniation และเสียชีวิตได้ · ไฟล์ขีด A",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับ <b>brain tumor</b> ในภาพรวม — ช้อยครอบคลุมความอันตรายของก้อน benign การผ่าตัด การแพร่กระจาย ตำแหน่ง และความถี่ของ metastasis",
+  "why": "กะโหลกเป็น<b>ช่องปิด (confined space)</b> ปริมาตรสมอง + เลือด + CSF คงที่ (Monro–Kellie doctrine) ร่างกายชดเชยได้จำกัดด้วยการดัน CSF และเลือดดำออก เมื่อเกินจุดชดเชย ICP จะพุ่งขึ้นเร็ว → herniation และเสียชีวิต · ก้อนที่พยาธิเป็น <b>benign</b> (เช่น meningioma, vestibular schwannoma, pituitary adenoma) จึงทำให้เสียชีวิตหรือพิการได้จากการกดเบียดและตำแหน่ง แม้ไม่ลุกลามหรือแพร่กระจาย ต่างจากก้อน benign ในอวัยวะอื่นที่มีที่ว่าง · ไฟล์ขีด A",
   "wrong": {
-   "B": "ก้อน benign ที่มีอาการ/ โตขึ้น/ กดเบียดต้องผ่าตัด (เช่น meningioma) · จะถูกถ้าคำถามถาม meningioma เล็กไม่มีอาการในผู้สูงอายุ (ติดตาม MRI)",
-   "C": "Primary brain tumor แทบไม่แพร่ออกนอก CNS · จะถูกถ้าคำถามถามการแพร่ผ่าน CSF (medulloblastoma drop metastasis)",
-   "D": "ผู้ใหญ่ก้อนส่วนใหญ่อยู่ <b>supratentorial</b> · เด็กส่วนใหญ่ infratentorial · จะถูกถ้าคำถามถามในเด็ก",
-   "E": "Metastasis เป็นก้อนในสมองที่พบบ่อยที่สุดในผู้ใหญ่ · จะถูกถ้าคำถามถามในเด็ก"
+   "B": "ก้อน benign ที่มีอาการ โตขึ้น หรือกดโครงสร้างสำคัญต้องผ่าตัด (เช่น meningioma ก้อนใหญ่ที่มี edema) · ส่วนก้อนเล็กไม่มีอาการเฝ้าดูด้วย MRI ได้ · จะถูกถ้าเป็นหญิง 75 ปีที่พบ meningioma 1.5 cm โดยบังเอิญ ไม่มีอาการ ไม่มี edema",
+   "C": "Primary brain tumor แทบไม่แพร่ออกนอกระบบประสาท (ไม่มีระบบน้ำเหลือง และ BBB) แต่บางชนิดแพร่ผ่าน CSF ได้ · จะถูกถ้าเป็นเด็ก medulloblastoma ที่ MRI ไขสันหลังพบ drop metastasis",
+   "D": "ผู้ใหญ่ก้อนส่วนใหญ่ (~70–80%) อยู่ <b>supratentorial</b> ส่วนเด็กส่วนใหญ่อยู่ <b>infratentorial</b> (posterior fossa) · จะถูกถ้าเป็นเด็ก 6 ปี ซึ่งก้อนในสมองที่พบบ่อยคือ medulloblastoma และ pilocytic astrocytoma ใน posterior fossa",
+   "E": "Brain metastasis เป็นก้อนในสมองที่พบบ่อยที่สุดในผู้ใหญ่ มากกว่า primary หลายเท่า (จากมะเร็งปอด เต้านม melanoma ไต ลำไส้) · จะถูกถ้าเป็นเด็ก ซึ่ง metastasis ในสมองพบน้อยกว่า primary"
   },
-  "trap": "คิดว่า benign = ไม่อันตราย · ในสมอง ตำแหน่งและผลกดเบียดสำคัญเท่ากับชนิดก้อน",
+  "trap": "คิดว่า benign แปลว่าไม่อันตราย · ในสมองตำแหน่งและผลกดเบียดสำคัญเท่ากับชนิดก้อน และเข้าใจผิดว่า primary brain tumor มักแพร่กระจายเหมือนมะเร็งอวัยวะอื่น",
   "summary": [
-   "Monro–Kellie: สมอง + เลือด + CSF = คงที่",
-   "ก้อน benign ก็ทำ ICP สูง/ herniation ได้",
-   "ผู้ใหญ่ supratentorial · เด็ก infratentorial",
-   "ผู้ใหญ่: metastasis พบบ่อยที่สุด",
-   "Primary ที่พบบ่อยสุด: meningioma",
-   "Primary brain tumor แทบไม่แพร่นอก CNS"
+   "Monro–Kellie: สมอง (~80%) + เลือด (~10%) + CSF (~10%) = ปริมาตรคงที่ → ชดเชยได้จำกัดแล้ว ICP พุ่ง",
+   "ก้อน benign ในสมองทำให้เสียชีวิตได้จาก mass effect/ herniation/ hydrocephalus",
+   "ผู้ใหญ่: metastasis พบบ่อยที่สุด · primary ที่พบบ่อยสุด meningioma · primary malignant ที่พบบ่อยสุด glioblastoma",
+   "ผู้ใหญ่ supratentorial ~70–80% · เด็ก infratentorial ~50–70% (medulloblastoma, pilocytic astrocytoma, ependymoma)",
+   "Primary brain tumor แทบไม่แพร่นอก CNS · แพร่ทาง CSF ได้ (medulloblastoma, ependymoma, germinoma)",
+   "อาการ: ปวดศีรษะตอนเช้า อาเจียน papilledema · ชัก · focal deficit · บุคลิกเปลี่ยน",
+   "Meningioma เล็กไม่มีอาการ → MRI ติดตาม · มีอาการ/ โต → ผ่าตัด ± radiosurgery"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ในไฟล์มีช้อย A ข้อเดียว เว็บเพิ่มช้อย B–E จากข้อเท็จจริงที่ผิดซึ่งพบบ่อยเรื่อง brain tumor",
   "mnemonic": "<b>'ในกล่องปิด ไม่มีก้อนไหนใจดี (Benign ก็ฆ่าได้)'</b>",
-  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Brain tumors: general information",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Brain tumors: general information · CBTRUS Statistical Report (Neuro-Oncology 2023;25 Suppl 4)",
   "variants": [
-   "Meningioma ก้อนใหญ่ ปวดศีรษะ papilledema → ผ่าตัด",
-   "Meningioma 1 cm ไม่มีอาการในผู้สูงอายุ → ติดตาม MRI",
-   "เด็กเดินเซ ก้อน posterior fossa → medulloblastoma/ pilocytic astrocytoma"
+   "หญิง 55 ปี ปวดศีรษะ ชัก MRI ก้อน meningioma 5 cm มี edema และ midline shift → ผ่าตัด",
+   "หญิง 75 ปี MRI พบ meningioma 1.5 cm โดยบังเอิญ ไม่มีอาการ → MRI ติดตาม",
+   "เด็ก 6 ปี เดินเซ อาเจียนตอนเช้า ก้อนใน fourth ventricle → medulloblastoma → ผ่าตัด + MRI ไขสันหลัง",
+   "ผู้ป่วยมะเร็งปอด มีก้อนหลายก้อนที่ gray–white junction → brain metastasis"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>ข้อใดถูกเกี่ยวกับ brain tumor — A. ถึงจะเป็น benign ก็ตายได้เพราะเป็น confined space</b> (ไม่มีเลขข้อ)<br>ลายมือ: ขีด A<br>ไฮไลต์: \"ถูกเกี่ยวกับ brain tumor\" · \"benign ก็ตายได้เพราะเป็น confined space\" (เหลือง)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A ข้อเดียว เว็บเพิ่ม B–E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
