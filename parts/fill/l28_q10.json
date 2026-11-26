@@ -1,0 +1,442 @@
+{
+ "81": {
+  "stem": "An 8-year-old boy is on postoperative day 3 after laparoscopic appendectomy for perforated appendicitis with purulent peritonitis. He has been afebrile for 24 hours, is tolerating a regular diet, has a soft abdomen, and his WBC count has normalized. He is receiving intravenous antibiotics. What is the most appropriate antibiotic plan?",
+  "opts": [
+   "Continue IV antibiotics for a fixed 14 days",
+   "Stop antibiotics only after a normal CT scan",
+   "Switch to oral antibiotics to finish a short course",
+   "Continue IV antibiotics until WBC falls below 5,000",
+   "Add an antifungal agent to the current regimen"
+  ],
+  "ans": 2,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b> · <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b> · <b>Not improved within 24-48 hr → USG</b> (และเส้นประไป Appendectomy) → <b>Appendiceal phlegmon → Appendectomy</b> · <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b><br>รูปในสไลด์หน้า 20: แผนภาพลูกศรพื้นดำ<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p20"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กหลังตัดไส้ติ่งแตกวันที่ 3 ไข้ลง กินได้ ท้องนุ่ม WBC ปกติ ยังได้ IV ATB → ถามแผนยาปฏิชีวนะต่อ ใช้หลักให้ระยะสั้นและเปลี่ยนเป็นยากินเมื่อดีขึ้น",
+  "why": "ไส้ติ่งแตก (complicated) ให้ <b>ATB ต่อหลังผ่าตัดระยะสั้น</b> เพราะแหล่งติดเชื้อถูกตัดออกและล้างแล้ว · เกณฑ์หยุดหรือ<b>เปลี่ยนเป็นยากิน</b>คือ<b>อาการทางคลินิก</b>: ไข้ลง กินได้ ท้องนุ่ม WBC ลดลง ไม่ใช่จำนวนวันตายตัว · ในเด็ก WSES 2020 ระบุว่าการเปลี่ยนเป็นยากินเร็วหลังให้ทางหลอดเลือดราว 48 ชั่วโมงปลอดภัย ลดวันนอนและภาวะแทรกซ้อนจาก IV line · ระยะรวมมักราว 5–7 วัน · ยาครอบคลุม gram-negative + anaerobe (เช่น amoxicillin-clavulanate ทางกิน) · ถ้าไข้ไม่ลงหลัง 5–7 วันหรือมีอาการใหม่ → หาฝีในช่องท้องด้วย US/ CT · สไลด์หน้า 20 <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b>",
+  "wrong": {
+   "A": "ให้ IV ครบ 14 วันตายตัวเป็นแนวทางเก่า ไม่ได้ผลดีกว่าระยะสั้น และเพิ่มวันนอน ผลข้างเคียงยา และเชื้อดื้อยา · จะถูกถ้าเด็กเป็น osteomyelitis ของกระดูกเชิงกรานจากการติดเชื้อลุกลามที่ต้องให้ยานานเป็นสัปดาห์",
+   "B": "CT ไม่จำเป็นในเด็กที่ดีขึ้นชัดทางคลินิก ใช้เมื่อสงสัยฝีหลังผ่าตัด · จะถูกถ้าเด็กหลังผ่าตัดวันที่ 7 ยังไข้ ท้องอืด ถ่ายบ่อยครั้งละน้อย ต้องหาฝีก่อนตัดสินใจหยุดยา",
+   "D": "ไม่มีเกณฑ์ให้ WBC ต่ำกว่า 5,000 ก่อนหยุดยา — WBC กลับมาปกติ (ไม่ใช่ต่ำ) ร่วมกับอาการดีขึ้นก็เพียงพอ · ไม่มีสถานการณ์ใดที่ใช้ WBC &lt;5,000 เป็นเกณฑ์หยุดยาปฏิชีวนะหลังผ่าตัดไส้ติ่ง",
+   "E": "เชื้อในไส้ติ่งแตกเป็นแบคทีเรียลำไส้ (E. coli, Bacteroides) ไม่ต้องให้ยาต้านเชื้อราในเด็กภูมิปกติที่ดีขึ้น · จะถูกถ้าเด็กภูมิคุ้มกันต่ำหลังเคมีบำบัด ไข้ไม่ลงแม้ให้ยาครอบคลุมแบคทีเรียแล้ว และเพาะเชื้อจากหนองได้ Candida"
+  },
+  "trap": "คิดว่าไส้ติ่งแตกต้องให้ IV นานตายตัว — ใช้อาการทางคลินิกตัดสิน และเปลี่ยนเป็นยากินระยะสั้นได้เมื่อดีขึ้น",
+  "summary": [
+   "ไส้ติ่งแตกหลังผ่าตัด: ATB ระยะสั้น · เปลี่ยนเป็นยากินเมื่อไข้ลง กินได้ ท้องนุ่ม WBC ลดลง",
+   "เด็ก: เปลี่ยนเป็นยากินหลัง IV ราว 48 ชม. ปลอดภัย (WSES 2020) · รวมมักราว 5–7 วัน",
+   "ครอบคลุม gram-negative + anaerobe",
+   "ไข้ไม่ลง/ อาการใหม่หลัง 5–7 วัน → หาฝีด้วย US/ CT",
+   "ไส้ติ่งไม่แตก: ATB ก่อนผ่าตัดครั้งเดียว ไม่ต้องให้ต่อ",
+   "ลำดับก่อนผ่าตัด: IV ATB + IV fluid → appendectomy"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง-สูง — สไลด์หน้า 20 ให้ IV ATB ก่อนผ่าตัดแต่ไม่ได้บอกระยะยาหลังผ่าตัด · การเปลี่ยนเป็นยากินเร็วและให้ระยะสั้นมาจาก WSES 2020 · จำนวนวันที่แน่นอนยังต่างกันตามสถาบัน",
+  "mnemonic": "<b>'แตกแล้วผ่าแล้ว ดีขึ้นเมื่อไร เปลี่ยนเป็นยากินสั้น ๆ'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็กหลังตัดไส้ติ่งแตกวันที่ 2 ยังไข้ 38.5 °C กินไม่ได้ → ให้ IV ATB ต่อ ประเมินซ้ำทุกวัน",
+   "เด็กแพ้ penicillin รุนแรงหลังตัดไส้ติ่งแตก → ใช้ยาทดแทน เช่น ciprofloxacin + metronidazole ตามแนวทางสถาบัน",
+   "เด็กหลังตัดไส้ติ่งไม่แตก → ไม่ต้องให้ ATB ต่อหลังผ่าตัด"
+  ]
+ },
+ "82": {
+  "stem": "A 10-year-old girl has 6 days of right lower quadrant pain and fever. She has a tender, palpable right lower quadrant mass, but the rest of the abdomen is soft and she is hemodynamically stable. Ultrasound shows an inflammatory phlegmon around the appendix with no drainable collection. What is the most appropriate initial management?",
+  "opts": [
+   "Immediate open appendectomy",
+   "Ultrasound-guided percutaneous drainage",
+   "Oral antibiotics at home with clinic review in 2 days",
+   "Diagnostic laparoscopy within 6 hours",
+   "IV antibiotics, fluids, and close observation"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b> · <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b> · <b>Not improved within 24-48 hr → USG</b> (และเส้นประไป Appendectomy) → <b>Appendiceal phlegmon → Appendectomy</b> · <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b><br>รูปในสไลด์หน้า 20: แผนภาพลูกศรพื้นดำ<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p20"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กหญิง 10 ปีปวดขวาล่าง 6 วัน คลำก้อนกดเจ็บ ท้องส่วนอื่นนุ่ม สัญญาณชีพคงที่ US เป็น phlegmon ไม่มีหนองให้ระบาย → ถามการรักษาเริ่มต้นของไส้ติ่งแตกที่มีก้อน",
+  "why": "ไส้ติ่งที่แตกมาหลายวันจน<b>มีก้อนขวาล่าง (phlegmon/ abscess)</b> แต่<b>ไม่มี peritonitis ทั่วท้อง</b> แปลว่า omentum และลำไส้ห่อหุ้มไว้แล้ว · การผ่าตัดทันทีในช่วงนี้ยาก เนื้อเยื่ออักเสบบวมติดกัน เสี่ยงต้องตัดลำไส้ (ileocecectomy) และบาดเจ็บลำไส้ → เริ่มด้วย<b>การรักษาโดยไม่ผ่าตัด (non-surgical)</b>: <b>IV ATB + IV fluid + สังเกตอาการใกล้ชิด</b> · ถ้าดีขึ้น → พิจารณา interval appendectomy ภายหลัง · ถ้าไม่ดีขึ้นใน 24–48 ชั่วโมง → US ซ้ำ · phlegmon ไม่มีหนองเป็นก้อนจึงยังไม่ต้องเจาะระบาย · สไลด์หน้า 20 <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b>",
+  "wrong": {
+   "A": "ผ่าตัดทันทีเป็นแนวทางของ peritonitis ทั่วท้องไม่มีก้อน · ในก้อนที่ห่อหุ้มแล้วการผ่าทันทีเสี่ยงตัดลำไส้มากขึ้น แม้บางศูนย์เลือก early appendectomy โดยผู้ชำนาญ · จะถูกถ้าเด็กไส้ติ่งแตก 2 วัน ท้องแข็งทั่วท้อง ไม่มีก้อน",
+   "B": "เจาะระบายต้องมี<b>หนองเป็นก้อนขอบชัด</b> (abscess) ขนาดใหญ่พอ · phlegmon เป็นเนื้อเยื่ออักเสบ ไม่มีหนองให้ดูด · จะถูกถ้า US เห็นฝีขอบชัด 5 cm ข้างไส้ติ่งในเด็กที่มีก้อน",
+   "C": "ยากินที่บ้านไม่พอในเด็กที่มีไข้และก้อนจากไส้ติ่งแตก ต้องรับไว้ให้ยาทางหลอดเลือดและสังเกตอาการ · จะถูกถ้าเด็กที่รักษาก้อนด้วย IV ATB จนไข้ลง กินได้ ก้อนเล็กลง แล้วเปลี่ยนเป็นยากินกลับบ้าน",
+   "D": "ส่องกล้องวินิจฉัยใช้เมื่อยังไม่รู้ว่าเป็นอะไร — ข้อนี้วินิจฉัยได้แล้ว และการส่องกล้องเข้าไปในก้อนอักเสบมีความเสี่ยงเหมือนผ่าตัดทันที · จะถูกถ้าเด็กสงสัยไส้ติ่งอักเสบแต่ทั้ง US และ CT มองไม่เห็นไส้ติ่ง และกดเจ็บมากขึ้น"
+  },
+  "trap": "เห็นไส้ติ่งแตกแล้วผ่าตัดทันทีทุกราย — ถ้ามีก้อนที่ห่อหุ้มแล้วและไม่มี peritonitis ทั่วท้อง ให้รักษาด้วยยาก่อน",
+  "summary": [
+   "ไส้ติ่งแตก + ก้อนขวาล่าง + ไม่มี peritonitis ทั่วท้อง → non-surgical: IV ATB + IV fluid + สังเกตอาการ",
+   "เหตุผล: ผ่าทันทีในก้อนอักเสบเสี่ยงตัดลำไส้และบาดเจ็บลำไส้",
+   "Phlegmon = เนื้อเยื่ออักเสบ ไม่มีหนองให้ระบาย · abscess = หนองขอบชัด เจาะระบายได้",
+   "ดีขึ้น → พิจารณา interval appendectomy · ไม่ดีขึ้น 24–48 ชม. → US ซ้ำ",
+   "Peritonitis ทั่วท้องไม่มีก้อน → ผ่าตัดหลัง resuscitate",
+   "บางศูนย์ทำ early appendectomy ในก้อนโดยผู้ชำนาญ — หลักฐานในเด็กยังไม่ตัดสินชัด"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — สไลด์หน้า 20 ให้ Peritonitis with RLQ mass → Non-surgical ตรง · WSES 2020 ให้ non-operative management เป็นทางเลือกที่เหมาะในก้อน phlegmon/ abscess · การศึกษาในเด็กบางชิ้นเสนอ early appendectomy ได้ผลดีในมือผู้ชำนาญ จึงยังเป็นประเด็นถกเถียง",
+  "mnemonic": "<b>'แตกมีก้อน = ยาก่อน มีดทีหลัง'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็กไส้ติ่งแตกมีก้อน ให้ IV ATB 3 วัน ไข้ลง กินได้ ก้อนเล็กลง → เปลี่ยนเป็นยากินและจำหน่าย",
+   "เด็กมีก้อนขวาล่าง ระหว่างให้ยาเกิดท้องแข็งทั่วท้อง ความดันต่ำ → ก้อนแตกเป็น peritonitis ทั่วท้อง ผ่าตัดด่วน",
+   "เด็กมีก้อนขวาล่าง US เห็นลำไส้อุดตันร่วม อาเจียนน้ำดี → ใส่ NG + ATB และพิจารณาผ่าตัดถ้าอุดตันไม่ดีขึ้น"
+  ]
+ },
+ "83": {
+  "stem": "A 9-year-old recovered from an appendiceal mass with antibiotics alone and was discharged. Per the pathway, when is interval appendectomy considered?",
+  "opts": [
+   "Before discharge, on the same admission",
+   "6–8 weeks after discharge",
+   "1 week after discharge",
+   "6 months after discharge",
+   "After the age of 18 years"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b> · <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b> · <b>Not improved within 24-48 hr → USG</b> (และเส้นประไป Appendectomy) → <b>Appendiceal phlegmon → Appendectomy</b> · <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b><br>รูปในสไลด์หน้า 20: แผนภาพลูกศรพื้นดำ<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p20"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็ก 9 ปีหายจากก้อนไส้ติ่งด้วยยาแล้วกลับบ้าน → ถามเวลาที่พิจารณา interval appendectomy ตามแผนภาพ",
+  "why": "หลังรักษาก้อนจากไส้ติ่งแตกด้วยยาจนดีขึ้น สไลด์ให้<b>พิจารณา interval appendectomy 6–8 สัปดาห์หลังจำหน่าย</b> เพราะช่วงนั้น<b>การอักเสบยุบ</b> พังผืดหลวมลง ผ่าตัดส่องกล้องได้ง่ายและปลอดภัย (ภาวะแทรกซ้อนต่ำ นอนสั้น) · เหตุผลที่ทำ: ป้องกันไส้ติ่งอักเสบ<b>ซ้ำ</b> (เสี่ยงมากขึ้นเมื่อมี appendicolith) และยืนยันพยาธิสภาพ (เนื้องอกพบน้อยมากในเด็ก) · ผ่าเร็วกว่านั้นเนื้อเยื่อยังบวมติด ผ่าช้ากว่านั้นเสี่ยงกลับเป็นซ้ำระหว่างรอ · ปัจจุบันหลาย guideline ให้เป็น \"พิจารณา\" ไม่ใช่บังคับ · สไลด์หน้า 20 <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b>",
+  "wrong": {
+   "A": "ผ่าตัดในการนอนโรงพยาบาลเดียวกันขณะยังอักเสบ คือ early appendectomy ไม่ใช่ interval และเนื้อเยื่อยังบวมติด · จะถูกถ้าศูนย์ที่เลือก early appendectomy ผ่าตัดเด็กที่มีก้อนภายในไม่กี่วันหลังรับไว้โดยผู้ชำนาญ",
+   "C": "1 สัปดาห์หลังจำหน่ายการอักเสบยังไม่ยุบ พังผืดยังแน่น ผ่าตัดยากเท่าช่วงอักเสบ · ไม่มีสถานการณ์ใดในแผนภาพที่นัดผ่าตัดแบบ interval เร็วเพียง 1 สัปดาห์",
+   "D": "6 เดือนช้ากว่าที่สไลด์แนะนำ และระหว่างรอเสี่ยงไส้ติ่งอักเสบซ้ำ แม้ทำได้ปลอดภัย · จะถูกถ้าเด็กที่ครอบครัวขอเลื่อนผ่าตัดออกไปเพราะติดสอบ และไม่มีอาการเลยระหว่างนั้น",
+   "E": "รอจนอายุ 18 ปีไม่มีเหตุผลทางการแพทย์ ถ้าเลือกไม่ผ่าตัดก็คือเฝ้าดูอาการโดยไม่กำหนดอายุ · ไม่มีสถานการณ์ใดที่กำหนดให้รอ interval appendectomy จนเป็นผู้ใหญ่"
+  },
+  "trap": "สับสนกับ 6–8 สัปดาห์ในบริบทอื่น หรือคิดว่าต้องผ่าก่อนกลับบ้าน — interval appendectomy คือหลังการอักเสบยุบ 6–8 สัปดาห์หลังจำหน่าย",
+  "summary": [
+   "ก้อนไส้ติ่งรักษาด้วยยาดีขึ้น → พิจารณา interval appendectomy 6–8 สัปดาห์หลังจำหน่าย",
+   "เหตุผลที่รอ: การอักเสบยุบ พังผืดหลวม ส่องกล้องง่าย ภาวะแทรกซ้อนต่ำ",
+   "เหตุผลที่ทำ: กันกลับเป็นซ้ำ (มากขึ้นถ้ามี appendicolith) · ยืนยันพยาธิสภาพ",
+   "Early appendectomy = ผ่าในการนอนเดียวกันขณะอักเสบ (บางศูนย์เลือก)",
+   "ปัจจุบัน \"พิจารณา\" ไม่ใช่บังคับ — WSES 2020 ไม่แนะนำทำทุกรายในเด็ก",
+   "ระหว่างรอ: อาการกลับมา → กลับมาพบแพทย์ทันที"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — สไลด์หน้า 20 เขียน Consider interval appendectomy 6-8 weeks after discharge ตรง · WSES 2020 ไม่แนะนำ interval appendectomy เป็น routine ในเด็กที่ไม่มีอาการ ซึ่งสไลด์ใช้คำว่า consider จึงไม่ขัดกันโดยตรง",
+  "mnemonic": "<b>'ก้อนยุบแล้ว 6–8 สัปดาห์ ค่อยตัด'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis; WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27)",
+  "variants": [
+   "เด็กหลังรักษาก้อนด้วยยามี appendicolith ใน CT → เสี่ยงกลับเป็นซ้ำสูง แนะนำ interval appendectomy",
+   "เด็กรอ interval appendectomy สัปดาห์ที่ 3 กลับมาปวดขวาล่าง ไข้ → ไส้ติ่งอักเสบซ้ำ ผ่าตัดได้เลย",
+   "interval appendectomy ส่องกล้อง 7 สัปดาห์หลังจำหน่าย ผ่าง่าย กลับบ้านวันเดียวกัน → ผลที่คาดหวัง"
+  ]
+ },
+ "84": {
+  "stem": "A 12-year-old boy is well 6 weeks after an appendiceal abscess was treated with antibiotics and drainage. He has no symptoms, and imaging showed no appendicolith. His parents ask whether interval appendectomy is necessary. Which statement is best supported by current evidence?",
+  "opts": [
+   "It is mandatory to exclude an appendiceal malignancy",
+   "It is required because recurrence occurs in most children",
+   "It must be done within 1 week of the decision",
+   "Observation is reasonable as most never recur",
+   "It is contraindicated after percutaneous drainage"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b> · <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b> · <b>Not improved within 24-48 hr → USG</b> (และเส้นประไป Appendectomy) → <b>Appendiceal phlegmon → Appendectomy</b> · <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b><br>รูปในสไลด์หน้า 20: แผนภาพลูกศรพื้นดำ<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p20"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กชาย 12 ปีหายดีหลังรักษาฝีไส้ติ่งด้วยยาและเจาะระบาย ไม่มีอาการ ไม่มี appendicolith → ถามหลักฐานปัจจุบันเรื่อง interval appendectomy",
+  "why": "หลังรักษาก้อน/ ฝีไส้ติ่งด้วยยาสำเร็จ <b>ส่วนใหญ่ไม่กลับเป็นซ้ำ</b> (อัตรากลับเป็นซ้ำในเด็กราว 10–20% และมักเกิดในปีแรก) จึง<b>เฝ้าดูอาการ (watchful waiting) เป็นทางเลือกที่สมเหตุสมผล</b> · WSES 2020 <b>ไม่แนะนำ interval appendectomy เป็น routine ในเด็ก</b> ยกเว้นมีอาการซ้ำ · ปัจจัยที่เอนไปทางผ่าตัด: <b>มี appendicolith</b> (กลับเป็นซ้ำสูงกว่า) อาการค้าง หรือครอบครัวต้องการตัดความเสี่ยง · เนื้องอกไส้ติ่งที่ซ่อนอยู่เป็นเหตุผลในผู้ใหญ่อายุมาก แต่พบน้อยมากในเด็ก · การตัดสินใจจึงเป็นแบบร่วมกับครอบครัว · สไลด์หน้า 20 <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b> — คำว่า Consider แปลว่าไม่บังคับ",
+  "wrong": {
+   "A": "เหตุผลเรื่องมะเร็งไส้ติ่งที่ซ่อนอยู่ใช้ในผู้ใหญ่ (โดยเฉพาะ &gt;40 ปี ซึ่งแนะนำส่องกล้องลำไส้/ CT ติดตาม) · ในเด็กเนื้องอกพบน้อยมากจึงไม่ใช่เหตุบังคับ · จะถูกถ้าชายอายุ 55 ปีหายจากฝีไส้ติ่งด้วยยา ต้องตัดมะเร็งลำไส้ใหญ่และไส้ติ่ง",
+   "B": "อัตรากลับเป็นซ้ำในเด็กราว 10–20% ไม่ใช่ส่วนใหญ่ · ไม่มีสถานการณ์ใดที่ข้อมูลปัจจุบันพบว่าเด็กส่วนใหญ่กลับเป็นซ้ำหลังรักษาฝีไส้ติ่งสำเร็จ",
+   "C": "ไม่มีความเร่งด่วนในเด็กที่ไม่มีอาการ ถ้าเลือกผ่าตัดก็นัดได้ตามสะดวก (สไลด์ 6–8 สัปดาห์หลังจำหน่าย) · ไม่มีสถานการณ์ใดที่ interval appendectomy ในเด็กไม่มีอาการต้องทำภายใน 1 สัปดาห์",
+   "E": "การเจาะระบายมาก่อนไม่ได้ห้ามผ่าตัดภายหลัง — interval appendectomy หลังเจาะระบายทำได้ปลอดภัยด้วยการส่องกล้อง · ไม่มีสถานการณ์ใดที่การเจาะระบายฝีเป็นข้อห้ามของ interval appendectomy"
+  },
+  "trap": "อ่านสไลด์ \"Consider interval appendectomy\" เป็นข้อบังคับ — หลักฐานปัจจุบันให้เฝ้าดูได้ในเด็กไม่มีอาการ ไม่มี appendicolith",
+  "summary": [
+   "หลังรักษาก้อน/ ฝีด้วยยา: กลับเป็นซ้ำในเด็กราว 10–20% ส่วนใหญ่ในปีแรก",
+   "WSES 2020: ไม่แนะนำ interval appendectomy เป็น routine ในเด็ก · ทำเมื่อมีอาการซ้ำ",
+   "เอนไปทางผ่าตัด: appendicolith · อาการค้าง · ครอบครัวต้องการ",
+   "มะเร็งไส้ติ่งซ่อน: เหตุผลในผู้ใหญ่อายุมาก (&gt;40 ปี ติดตามด้วยส่องกล้อง/ CT) · พบน้อยมากในเด็ก",
+   "เจาะระบายมาก่อนไม่ห้ามผ่าตัดภายหลัง",
+   "ตัดสินใจร่วมกับครอบครัว · นัดกลับมาทันทีถ้ามีอาการ"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลาง-สูง — สไลด์หน้า 20 ใช้คำว่า Consider ซึ่งเข้ากับการเลือกได้ · WSES 2020 ไม่แนะนำทำทุกราย · ตัวเลขกลับเป็นซ้ำแตกต่างกันตามการศึกษา (ราว 10–20%) และสถาบันในไทยหลายแห่งยังทำ interval appendectomy เป็นประจำ",
+  "mnemonic": "<b>'ไม่มีอาการ ไม่มีนิ่ว = เฝ้าดูได้'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็กหลังรักษาฝีด้วยยามี appendicolith 1 cm → แนะนำ interval appendectomy",
+   "เด็กเลือกเฝ้าดู 4 เดือนต่อมาปวดขวาล่างซ้ำ US ไส้ติ่งอักเสบ → appendectomy",
+   "ชาย 50 ปีหายจากฝีไส้ติ่งด้วยยา → ส่องกล้องลำไส้ใหญ่และ CT ติดตามหาเนื้องอก"
+  ]
+ },
+ "85": {
+  "stem": "A 7-year-old with a tender right lower quadrant mass from perforated appendicitis has received IV antibiotics and fluids for 36 hours. She remains febrile at 39 °C, and the mass is larger and more tender, but there is no generalized peritonitis. What is the most appropriate next step?",
+  "opts": [
+   "Add a second antibiotic and continue for 1 week",
+   "Discharge on oral antibiotics",
+   "Contrast enema to outline the cecum",
+   "Colonoscopy to assess the cecal wall",
+   "Repeat ultrasound of the right lower quadrant"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b> · <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b> · <b>Not improved within 24-48 hr → USG</b> (และเส้นประไป Appendectomy) → <b>Appendiceal phlegmon → Appendectomy</b> · <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b><br>รูปในสไลด์หน้า 20: แผนภาพลูกศรพื้นดำ<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p20"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กมีก้อนจากไส้ติ่งแตก ให้ IV ATB + fluid 36 ชั่วโมงแล้วยังไข้สูง ก้อนโตขึ้น ไม่มี peritonitis ทั่วท้อง → ถามขั้นต่อไป ใช้แผนภาพ not improved within 24–48 hr → USG",
+  "why": "การรักษาก้อนด้วยยาต้องเห็นผลภายใน <b>24–48 ชั่วโมง</b> (ไข้ลง ปวดลด กินได้) · ถ้า<b>ไม่ดีขึ้น</b> → <b>US ซ้ำ</b>เพื่อแยกว่าเป็น<b>phlegmon</b> (เนื้อเยื่ออักเสบ ไม่มีหนองเป็นก้อน) หรือ<b>abscess</b> (หนองขอบชัด) เพราะการรักษาต่างกัน: phlegmon ที่ไม่ตอบสนอง → appendectomy · abscess → appendectomy หรือเจาะระบายผ่านผิวหนัง · CT ใช้ได้ถ้า US ไม่ชัดหรือต้องวางแผนเจาะ · ถ้ามี peritonitis ทั่วท้องหรือ sepsis แย่ลง → ผ่าตัดเลย · สไลด์หน้า 20 <b>Not improved within 24-48 hr → USG</b> → <b>Appendiceal phlegmon → Appendectomy</b> · <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b>",
+  "wrong": {
+   "A": "เพิ่มยาและรอต่อโดยไม่หาสาเหตุอาจปล่อยฝีที่ต้องระบายไว้ · ยาอย่างเดียวไม่พอเมื่อฝีใหญ่ · จะถูกถ้า US ซ้ำเห็นฝีเล็ก &lt;3 cm ที่เจาะไม่ได้ และเด็กเริ่มดีขึ้น ให้ยาต่อ",
+   "B": "จำหน่ายในเด็กที่ยังไข้สูงและก้อนโตขึ้นเป็นการรักษาที่ล้มเหลว · จะถูกถ้าเด็กให้ยา 3 วันแล้วไข้ลง กินได้ ก้อนเล็กลง",
+   "C": "Contrast enema ไม่ช่วยแยก phlegmon/ abscess และเสี่ยงในลำไส้ที่อักเสบ · จะถูกถ้าทารกท้องอืด ถ่ายช้า สงสัย Hirschsprung disease",
+   "D": "ส่องกล้องลำไส้ใหญ่ในช่วงอักเสบเฉียบพลันเสี่ยงทะลุ และไม่ช่วยตัดสินการรักษาก้อน · จะถูกถ้าผู้ใหญ่อายุมากหลังหายจากฝีไส้ติ่งต้องตัดมะเร็งลำไส้ใหญ่ หรือเด็กถ่ายเป็นเลือดเรื้อรังสงสัย polyp"
+  },
+  "trap": "ไม่ดีขึ้นแล้วรีบผ่าทันทีหรือเพิ่มยาไปเรื่อย ๆ — แผนภาพให้ US ซ้ำก่อน เพื่อแยก phlegmon กับ abscess ซึ่งรักษาต่างกัน",
+  "summary": [
+   "ก้อนไส้ติ่งรักษาด้วยยา: ต้องดีขึ้นใน 24–48 ชม.",
+   "ไม่ดีขึ้น → US ซ้ำ (CT ถ้า US ไม่ชัด/ วางแผนเจาะ)",
+   "Phlegmon ไม่ตอบสนอง → appendectomy · abscess → appendectomy/ percutaneous drainage",
+   "เกิด peritonitis ทั่วท้อง/ sepsis แย่ลง → ผ่าตัดด่วน",
+   "ดีขึ้น → เปลี่ยนเป็นยากิน จำหน่าย พิจารณา interval appendectomy",
+   "ไม่ใช้ contrast enema/ colonoscopy ในช่วงอักเสบ"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — สไลด์หน้า 20 ให้ Not improved within 24-48 hr → USG ตรง · การใช้ CT เสริมและเกณฑ์เปลี่ยนเป็นผ่าตัดเมื่อแย่ลงมาจาก WSES 2020 และตำรา",
+  "mnemonic": "<b>'ยา 48 ชม. ไม่ดีขึ้น = ส่อง US ซ้ำ'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็กมีก้อนให้ยา 48 ชั่วโมง ไข้ลง ปวดลด กินได้ → ให้ยาต่อ เปลี่ยนเป็นยากิน",
+   "เด็กมีก้อนให้ยา 24 ชั่วโมงแล้วท้องแข็งทั่วท้อง ความดันต่ำ → ผ่าตัดด่วน ไม่ต้องรอ US",
+   "เด็กมีก้อน US ซ้ำไม่ชัดเพราะลมมาก → CT ฉีดสารทึบรังสีดูฝีก่อนวางแผนเจาะ"
+  ]
+ },
+ "86": {
+  "stem": "A 9-year-old boy with an appendiceal mass has not improved after 48 hours of IV antibiotics. Repeat ultrasound shows an inflamed phlegmon without a liquid collection. What is the next management?",
+  "opts": [
+   "Percutaneous drainage of the mass",
+   "Switch to a broader antibiotic for 2 weeks",
+   "Discharge with oral antibiotics",
+   "Appendectomy",
+   "Repeat ultrasound in 1 week"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b> · <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b> · <b>Not improved within 24-48 hr → USG</b> (และเส้นประไป Appendectomy) → <b>Appendiceal phlegmon → Appendectomy</b> · <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b><br>รูปในสไลด์หน้า 20: แผนภาพลูกศรพื้นดำ<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p20"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กชาย 9 ปีมีก้อนไส้ติ่ง ให้ยา 48 ชั่วโมงไม่ดีขึ้น US ซ้ำเป็น phlegmon ไม่มีหนอง → ถามการรักษาต่อ",
+  "why": "ตามแผนภาพ: ก้อนที่<b>ไม่ดีขึ้นใน 24–48 ชั่วโมง</b> → US → ถ้าเป็น<b>appendiceal phlegmon → appendectomy</b> · phlegmon ไม่มีหนองเป็นก้อนจึง<b>เจาะระบายไม่ได้</b> และการให้ยาต่อไปเรื่อย ๆ ล้มเหลวแล้ว จึงต้องตัดแหล่งติดเชื้อ · ผ่าตัดในภาวะนี้อาจยาก (เนื้อเยื่อบวมติด) ใช้ส่องกล้องได้ในมือผู้ชำนาญ บางรายต้องตัดส่วน cecum/ ileocecal · ให้ ATB ต่อหลังผ่าตัดระยะสั้น · สไลด์หน้า 20 <b>Not improved within 24-48 hr → USG</b> → <b>Appendiceal phlegmon → Appendectomy</b>",
+  "wrong": {
+   "A": "เจาะระบายต้องมีหนองเป็นก้อนขอบชัด phlegmon ไม่มีหนองให้ดูด · จะถูกถ้า US เห็นฝีขอบชัด 5 cm ในเด็กที่ให้ยาแล้วไม่ดีขึ้น",
+   "B": "เปลี่ยนยาแรงขึ้นนานขึ้นในก้อนที่ล้มเหลวจากยาแล้วเลื่อนการควบคุมแหล่งติดเชื้อออกไป · จะถูกถ้าผลเพาะเชื้อจากหนองที่เจาะได้เป็นเชื้อดื้อยา และเด็กยังดีขึ้นหลังระบาย",
+   "C": "จำหน่ายเด็กที่ไม่ดีขึ้นหลังยา 48 ชั่วโมงไม่ปลอดภัย · จะถูกถ้าเด็กที่ก้อนตอบสนองดี ไข้ลง กินได้ ก้อนเล็กลง",
+   "E": "รอ US อีก 1 สัปดาห์ในเด็กที่ไม่ดีขึ้นเสี่ยงแย่ลงเป็น sepsis หรือฝีแตก · จะถูกถ้าเด็กที่ดีขึ้นแล้วกลับบ้าน นัด US ติดตามว่าก้อนยุบ"
+  },
+  "trap": "คิดว่าก้อนต้องเจาะระบายเสมอ — เจาะได้เฉพาะ abscess · phlegmon ที่ไม่ตอบสนองต่อยาต้องผ่าตัด",
+  "summary": [
+   "ไม่ดีขึ้น 24–48 ชม. + US เป็น phlegmon → appendectomy",
+   "Phlegmon: เนื้อเยื่ออักเสบ ไม่มีหนอง → เจาะไม่ได้",
+   "Abscess: หนองขอบชัด → appendectomy หรือ percutaneous drainage",
+   "ผ่าตัดในก้อนอาจยาก บางรายต้องตัด cecum/ ileocecal",
+   "หลังผ่าตัด: ATB ระยะสั้น เปลี่ยนเป็นยากินเมื่อดีขึ้น",
+   "ไม่รอ/ ไม่เปลี่ยนยาไปเรื่อย ๆ เมื่อการรักษาด้วยยาล้มเหลว"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — แผนภาพสไลด์หน้า 20 ให้ Appendiceal phlegmon → Appendectomy ตรง · การผ่าตัดในก้อนที่ไม่ตอบสนองสอดคล้อง WSES 2020 · สไลด์ไม่ได้กล่าวถึงความยากของการผ่าตัดและการตัดลำไส้ร่วม",
+  "mnemonic": "<b>'Phlegmon ดื้อยา = ตัด · Abscess = ดูดหรือตัด'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็กมีก้อนไม่ดีขึ้น US เห็นฝีขอบชัด 6 cm → เจาะระบายผ่านผิวหนัง + ATB",
+   "ผ่าตัดก้อน phlegmon พบ cecum อักเสบแข็งจนเย็บตอไส้ติ่งไม่ได้ → ตัด ileocecal ส่วนสั้น",
+   "เด็กหลังผ่าตัด phlegmon ไข้ลงวันที่ 3 กินได้ → เปลี่ยนเป็นยากินแล้วจำหน่าย"
+  ]
+ },
+ "87": {
+  "stem": "A 13-year-old girl with an appendiceal mass has not improved after 48 hours of antibiotics. Repeat ultrasound shows a 6-cm well-defined fluid collection with a thick rim adjacent to the cecum, safely accessible through the anterior abdominal wall. Her abdomen is otherwise soft. Which option is an appropriate next step?",
+  "opts": [
+   "Barium enema to assess for a fistula",
+   "Percutaneous drainage with antibiotics",
+   "Discharge with oral antibiotics",
+   "Add an antifungal and repeat in 1 week",
+   "Immediate right hemicolectomy"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b> · <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b> · <b>Not improved within 24-48 hr → USG</b> (และเส้นประไป Appendectomy) → <b>Appendiceal phlegmon → Appendectomy</b> · <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b><br>รูปในสไลด์หน้า 20: แผนภาพลูกศรพื้นดำ<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p20"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "วัยรุ่นหญิงมีก้อนไส้ติ่ง ให้ยา 48 ชั่วโมงไม่ดีขึ้น US เป็นฝีขอบชัด 6 cm เข้าถึงได้ทางหน้าท้อง → ถามขั้นต่อไปของ appendiceal abscess",
+  "why": "ก้อนที่ไม่ดีขึ้นแล้ว US เป็น<b>appendiceal abscess</b> (หนองขอบชัด ผนังหนา) → สไลด์ให้ <b>appendectomy หรือ percutaneous drainage</b> · ฝี<b>ขนาดใหญ่ (มากกว่าราว 3–4 cm) ที่เข้าถึงได้ปลอดภัย</b>เหมาะกับ<b>เจาะระบายผ่านผิวหนังด้วยภาพนำ + ATB</b> ซึ่งหลีกเลี่ยงการผ่าตัดในเนื้อเยื่ออักเสบ (เสี่ยงตัดลำไส้) แล้วพิจารณา interval appendectomy ภายหลัง · ฝีเล็กมักหายด้วยยาอย่างเดียว · ถ้าเจาะไม่ได้ (ตำแหน่งระหว่างขดลำไส้ หลายช่อง) หรือเจาะแล้วไม่ดีขึ้น → appendectomy · ส่งหนองเพาะเชื้อปรับยา · สไลด์หน้า 20 <b>Not improved within 24-48 hr → USG</b> → <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b>",
+  "wrong": {
+   "A": "Barium enema ในช่วงอักเสบไม่ช่วยรักษาฝีและเสี่ยงสารทึบรังสีรั่วเข้าช่องท้อง · จะถูกถ้าเด็กหลังรักษาฝีหลายเดือนมีหนองไหลจากผิวหนังเรื้อรัง สงสัย enterocutaneous fistula (ใช้ water-soluble contrast)",
+   "C": "จำหน่ายเด็กที่มีฝีใหญ่และไม่ดีขึ้นจากยาไม่ปลอดภัย · จะถูกถ้าเด็กหลังเจาะระบายแล้วไข้ลง กินได้ สายระบายหนองน้อยลง",
+   "D": "เชื้อในฝีไส้ติ่งเป็นแบคทีเรียลำไส้ ยาต้านเชื้อราไม่ช่วย และรออีกสัปดาห์โดยไม่ระบายฝีใหญ่ทำให้แย่ลง · จะถูกถ้าเด็กภูมิคุ้มกันต่ำที่เพาะเชื้อจากหนองได้ Candida",
+   "E": "ตัดลำไส้ใหญ่ขวาเป็นการผ่าตัดใหญ่เกินจำเป็นในฝีไส้ติ่งของเด็ก ใช้เมื่อสงสัยเนื้องอกหรือ cecum ถูกทำลายมาก · จะถูกถ้าผู้ป่วยที่ผลพยาธิหลังตัดไส้ติ่งเป็น adenocarcinoma หรือ neuroendocrine tumor &gt;2 cm"
+  },
+  "trap": "เห็นว่าไม่ดีขึ้นแล้วคิดว่าต้องผ่าตัดใหญ่ — ฝีขอบชัดขนาดใหญ่ที่เข้าถึงได้ เจาะระบายผ่านผิวหนังร่วมยาได้ตามสไลด์",
+  "summary": [
+   "Abscess ไม่ดีขึ้นจากยา → appendectomy หรือ percutaneous drainage",
+   "ฝีใหญ่ (มากกว่าราว 3–4 cm) เข้าถึงได้ → เจาะระบายด้วยภาพนำ + ATB · ฝีเล็ก → ยาอย่างเดียวมักพอ",
+   "เจาะไม่ได้ (ระหว่างขดลำไส้ หลายช่อง) หรือเจาะแล้วไม่ดีขึ้น → appendectomy",
+   "ส่งหนองเพาะเชื้อ ปรับยาตามผล",
+   "หลังระบายดีขึ้น → พิจารณา interval appendectomy",
+   "ไม่ใช้ barium enema/ ตัดลำไส้ใหญ่ขวาในฝีไส้ติ่งทั่วไปของเด็ก"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — สไลด์หน้า 20 ให้ Appendiceal abscess → Appendectomy/ percutaneous drainage และช้อยอื่นไม่มีการผ่าตัดไส้ติ่ง · ขนาดฝีที่ควรเจาะระบายมาจาก WSES 2020 สไลด์ไม่ได้ระบุ",
+  "mnemonic": "<b>'ฝีใหญ่ เข้าถึงได้ = เจาะ + ยา'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็กมีฝีไส้ติ่ง 2 cm ไข้เริ่มลง → ให้ ATB ต่อ ฝีเล็กไม่ต้องเจาะ",
+   "เด็กมีฝีไส้ติ่งหลายช่องระหว่างขดลำไส้ เจาะไม่ได้ ไม่ดีขึ้น → appendectomy + ระบายหนอง",
+   "เด็กหลังเจาะระบายฝี 2 วัน ยังไข้สูง สายไม่มีหนองออก US ฝีเท่าเดิม → ปรับสาย/ เจาะซ้ำหรือผ่าตัด"
+  ]
+ },
+ "88": {
+  "stem": "A 2-year-old boy has a Meckel diverticulum resected for painless rectal bleeding. Which ectopic tissues are most often found within it?",
+  "opts": [
+   "Colonic and esophageal mucosa",
+   "Splenic and adrenal tissue",
+   "Hepatic and biliary tissue",
+   "Endometrial and ovarian tissue",
+   "Gastric and pancreatic mucosa"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 21 — ตัวพิมพ์: <b>Meckel's Diverticulum</b> · <b>• Found in about 2% of people, located roughly 2 feet from the ileocecal valve, about 2 inches long, twice as common in males, and often containing 2 types of ectopic tissue (gastric/ pancreatic) • Presentation: Diverticulitis, Gut obstruction (Intussusception, Internal hernia from omphalomesenteric band), LGIB (from ectopic gastric mucosa)</b> · ป้ายแดง <b>Organ of TWO</b><br>รูปในสไลด์หน้า 21: ภาพวาด 6 ช่อง (A–F) ความผิดปกติของ vitelline duct: A Meckel diverticulum ที่ขอบ antimesentery (มี mesentery, superior mesenteric vessels) · B Meckel diverticulum มี fibrous cord ยึดสะดือ · C umbilical fistula · D vitelline cyst ใต้ anterior abdominal wall · E umbilical sinus + fibrous cord · F vitelline artery + fibrous cord<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p21"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 21 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กชาย 2 ปีตัด Meckel diverticulum เพราะถ่ายเป็นเลือดไม่ปวด → ถามเนื้อเยื่อผิดที่ที่พบบ่อยใน Meckel",
+  "why": "Meckel diverticulum คือ<b>ส่วนเหลือของ vitelline (omphalomesenteric) duct</b> ที่ไม่ปิด อยู่ขอบ antimesenteric ของ ileum เป็น<b>true diverticulum</b> (มีทุกชั้นของผนังลำไส้) · เนื้อเยื่อผิดที่ที่พบบ่อยคือ<b>กระเพาะ (gastric mucosa) — พบมากที่สุด</b> และ<b>ตับอ่อน (pancreatic tissue)</b> · gastric mucosa หลั่งกรดทำให้เกิด<b>แผลที่เยื่อบุ ileum ข้างเคียง</b> → <b>เลือดออกทางทวารไม่ปวด</b> ปริมาณมาก สีแดงคล้ำ/ อิฐ ในเด็กเล็ก และเป็นเหตุที่ Tc-99m pertechnetate scan จับได้ · กฎ \"2\": 2% ของประชากร · 2 ฟุตจาก ileocecal valve · ยาว 2 นิ้ว · ชาย 2 เท่า · เนื้อเยื่อผิดที่ 2 ชนิด · มีอาการมักก่อนอายุ 2 ปี · สไลด์หน้า 21 <b>Found in about 2% of people, located roughly 2 feet from the ileocecal valve, about 2 inches long, twice as common in males, and often containing 2 types of ectopic tissue (gastric/ pancreatic)</b>",
+  "wrong": {
+   "A": "เยื่อบุ colon และหลอดอาหารพบได้น้อยมาก (มีรายงานประปราย) ไม่ใช่ชนิดหลัก · ไม่มีสถานการณ์ใดที่ colonic/ esophageal mucosa เป็นเนื้อเยื่อผิดที่ที่พบบ่อยที่สุดใน Meckel diverticulum",
+   "B": "ม้ามผิดที่ (accessory spleen) พบที่ขั้วม้ามหรือ tail ตับอ่อน และ adrenal rest พบใกล้ไต/ อัณฑะ ไม่ใช่ใน Meckel · จะถูกถ้าเด็กผ่าตัดม้ามเพราะ hereditary spherocytosis แล้วพบก้อนม้ามเล็ก ๆ ที่ขั้วม้าม",
+   "C": "ตับและท่อน้ำดีผิดที่ไม่ใช่องค์ประกอบของ Meckel · ไม่มีสถานการณ์ใดที่ hepatobiliary tissue เป็นเนื้อเยื่อผิดที่หลักใน Meckel diverticulum",
+   "D": "เยื่อบุโพรงมดลูกนอกมดลูก (endometriosis) พบในผู้หญิงวัยเจริญพันธุ์ อาจเกาะลำไส้ได้แต่ไม่ใช่เนื้อเยื่อของ Meckel · จะถูกถ้าหญิงอายุ 30 ปีปวดท้องและถ่ายเป็นเลือดเป็นรอบตามประจำเดือน"
+  },
+  "trap": "จำว่ามี \"2 ชนิด\" แต่จำชนิดไม่ได้ — gastric (พบมากสุด ทำให้เลือดออก) + pancreatic",
+  "summary": [
+   "เนื้อเยื่อผิดที่ใน Meckel: gastric (พบมากสุด) + pancreatic",
+   "Gastric mucosa หลั่งกรด → แผลที่ ileum ข้างเคียง → เลือดออกทางทวารไม่ปวดในเด็กเล็ก",
+   "กฎ 2: 2% · 2 ฟุตจาก ileocecal valve · 2 นิ้ว · ชาย 2 เท่า · เนื้อเยื่อ 2 ชนิด · มีอาการมักก่อน 2 ปี",
+   "Meckel = ส่วนเหลือ vitelline duct · true diverticulum · ขอบ antimesenteric",
+   "Tc-99m pertechnetate จับ gastric mucosa → ใช้หาสาเหตุเลือดออก",
+   "Pancreatic tissue อาจเป็นจุดนำ (lead point) ของ intussusception"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — สไลด์หน้า 21 ระบุ 2 types of ectopic tissue (gastric/ pancreatic) ตรง · กลไกเลือดออกจากแผลที่ ileum และ \"มีอาการมักก่อน 2 ปี\" มาจากตำรา (Holcomb) สไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'Meckel 2 ชนิด = กระเพาะ + ตับอ่อน (G + P)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Meckel diverticulum and other omphalomesenteric duct remnants; Sabiston Textbook of Surgery 21st ed. (2022) — Small intestine",
+  "variants": [
+   "เด็ก 18 เดือนถ่ายเป็นเลือดแดงคล้ำปริมาณมาก ไม่ปวด Hb ลด → Tc-99m pertechnetate scan",
+   "พยาธิหลังตัด Meckel พบเฉพาะเยื่อบุ ileum ปกติ ไม่มีเนื้อเยื่อผิดที่ → ไม่ทำให้ scan ผิดปกติ (scan ลบลวงได้)",
+   "ผ่าตัดพบแผลที่ ileum ฝั่งตรงข้ามโคน Meckel → เลือดออกจากแผลนี้ ต้องตัดลำไส้ส่วนนั้นด้วย"
+  ]
+ },
+ "89": {
+  "stem": "A 10-year-old girl undergoes laparoscopy for suspected appendicitis, but the appendix is normal. The surgeon looks for a Meckel diverticulum. Where is it most likely to be found?",
+  "opts": [
+   "Mesenteric border of the jejunum near the ligament of Treitz",
+   "Antimesenteric ileum about 60 cm from the ileocecal valve",
+   "Antimesenteric border of the sigmoid colon",
+   "Medial wall of the cecum near the appendix base",
+   "Second part of the duodenum near the papilla"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 21 — ตัวพิมพ์: <b>Meckel's Diverticulum</b> · <b>• Found in about 2% of people, located roughly 2 feet from the ileocecal valve, about 2 inches long, twice as common in males, and often containing 2 types of ectopic tissue (gastric/ pancreatic) • Presentation: Diverticulitis, Gut obstruction (Intussusception, Internal hernia from omphalomesenteric band), LGIB (from ectopic gastric mucosa)</b> · ป้ายแดง <b>Organ of TWO</b><br>รูปในสไลด์หน้า 21: ภาพวาด 6 ช่อง (A–F) ความผิดปกติของ vitelline duct: A Meckel diverticulum ที่ขอบ antimesentery (มี mesentery, superior mesenteric vessels) · B Meckel diverticulum มี fibrous cord ยึดสะดือ · C umbilical fistula · D vitelline cyst ใต้ anterior abdominal wall · E umbilical sinus + fibrous cord · F vitelline artery + fibrous cord<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p21"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 21 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กหญิง 10 ปีส่องกล้องสงสัยไส้ติ่งอักเสบแต่ไส้ติ่งปกติ → ถามตำแหน่งที่หา Meckel diverticulum",
+  "why": "Meckel diverticulum อยู่ที่<b>ขอบ antimesenteric (ฝั่งตรงข้าม mesentery) ของ ileum</b> ห่าง<b>ileocecal valve ราว 2 ฟุต (ราว 60 cm)</b> — ระยะนี้แปรผันตามอายุ (เด็กเล็กใกล้กว่า) จึงต้อง<b>ไล่ดู ileum ย้อนจาก ileocecal valve ขึ้นไปอย่างน้อยราว 100 cm</b> · เมื่อผ่าตัดสงสัยไส้ติ่งอักเสบแต่พบไส้ติ่งปกติ ให้หา<b>Meckel's diverticulitis</b> (อาการเหมือนไส้ติ่ง) รวมถึงดูรังไข่/ ปีกมดลูกในเด็กหญิงและต่อมน้ำเหลือง mesentery · เส้นเลือดเลี้ยงมาจาก vitelline artery ที่เหลืออยู่ · สไลด์หน้า 21 <b>Found in about 2% of people, located roughly 2 feet from the ileocecal valve, about 2 inches long, twice as common in males, and often containing 2 types of ectopic tissue (gastric/ pancreatic)</b>",
+  "wrong": {
+   "A": "ขอบ mesenteric ของ jejunum ใกล้ ligament of Treitz เป็นตำแหน่งของ jejunal diverticulosis (false diverticula ในผู้สูงอายุ) ไม่ใช่ Meckel · จะถูกถ้าผู้สูงอายุมีถุงโป่งหลายถุงที่ขอบ mesenteric ของ jejunum ร่วม bacterial overgrowth",
+   "C": "Sigmoid colon เป็นที่ของ diverticular disease ผู้ใหญ่ (false diverticula) · จะถูกถ้าผู้ใหญ่อายุ 60 ปีปวดท้องน้อยซ้าย ไข้ CT เห็นถุงโป่งอักเสบที่ sigmoid",
+   "D": "ผนัง cecum ใกล้ฐานไส้ติ่งเป็นตำแหน่งของ cecal diverticulum (solitary) ซึ่งพบน้อยและอักเสบเลียนแบบไส้ติ่งได้ แต่ไม่ใช่ Meckel · จะถูกถ้าผ่าตัดผู้ใหญ่ชาวเอเชียสงสัยไส้ติ่งอักเสบ พบถุงโป่งเดี่ยวอักเสบที่ผนัง cecum",
+   "E": "Duodenum ส่วนที่ 2 ใกล้ papilla เป็นที่ของ periampullary duodenal diverticulum ในผู้ใหญ่ · จะถูกถ้าผู้สูงอายุมีนิ่วท่อน้ำดีซ้ำ CT เห็นถุงโป่งข้าง ampulla"
+  },
+  "trap": "จำ \"2 ฟุต\" ได้แต่จำขอบผิด — Meckel อยู่ขอบ antimesenteric ของ ileum ส่วน false diverticula ของ jejunum อยู่ขอบ mesenteric",
+  "summary": [
+   "Meckel: ileum ขอบ antimesenteric ราว 2 ฟุต (60 cm) จาก ileocecal valve",
+   "ระยะแปรผันตามอายุ → ไล่ดู ileum ย้อนจาก ileocecal valve อย่างน้อยราว 100 cm",
+   "ผ่าตัดพบไส้ติ่งปกติ → หา Meckel's diverticulitis · รังไข่/ ปีกมดลูก · ต่อมน้ำเหลือง mesentery",
+   "True diverticulum (ทุกชั้น) · เลือดเลี้ยงจาก vitelline artery ที่เหลือ",
+   "False diverticula: jejunum ขอบ mesenteric · sigmoid · periampullary",
+   "กฎ 2: 2% · 2 ฟุต · 2 นิ้ว · ชาย 2 เท่า · 2 ชนิดเนื้อเยื่อ"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — สไลด์หน้า 21 ระบุ roughly 2 feet from the ileocecal valve ตรง · ขอบ antimesenteric และการไล่ดู ileum เมื่อไส้ติ่งปกติมาจากตำรา (Holcomb, Sabiston) · สไลด์ไม่ได้เขียนว่าระยะแปรผันตามอายุ",
+  "mnemonic": "<b>'Meckel: 2 ฟุตจาก valve ฝั่งที่ไม่มี mesentery'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Meckel diverticulum and other omphalomesenteric duct remnants; Sabiston Textbook of Surgery 21st ed. (2022) — Small intestine",
+  "variants": [
+   "ผ่าตัดสงสัยไส้ติ่งอักเสบพบ Meckel อักเสบและไส้ติ่งปกติ → diverticulectomy หรือตัดลำไส้ส่วนสั้น",
+   "ผ่าตัดด้วยเหตุอื่นพบ Meckel โดยบังเอิญในเด็ก → หลายศูนย์ตัดออก (ไม่มีข้อตกลงชัดเจน)",
+   "ผ่าตัดเด็กลำไส้อุดตันพบ fibrous band จากปลาย Meckel ไปสะดือรัดลำไส้ → ตัด band และ diverticulum"
+  ]
+ },
+ "90": {
+  "stem": "A 5-year-old boy's Meckel diverticulum is found incidentally on imaging. His parents ask how common this condition is. Approximately what proportion of the population has one?",
+  "opts": [
+   "About 0.02%",
+   "About 0.2%",
+   "About 0.5%",
+   "About 1%",
+   "About 2%"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 21 — ตัวพิมพ์: <b>Meckel's Diverticulum</b> · <b>• Found in about 2% of people, located roughly 2 feet from the ileocecal valve, about 2 inches long, twice as common in males, and often containing 2 types of ectopic tissue (gastric/ pancreatic) • Presentation: Diverticulitis, Gut obstruction (Intussusception, Internal hernia from omphalomesenteric band), LGIB (from ectopic gastric mucosa)</b> · ป้ายแดง <b>Organ of TWO</b><br>รูปในสไลด์หน้า 21: ภาพวาด 6 ช่อง (A–F) ความผิดปกติของ vitelline duct: A Meckel diverticulum ที่ขอบ antimesentery (มี mesentery, superior mesenteric vessels) · B Meckel diverticulum มี fibrous cord ยึดสะดือ · C umbilical fistula · D vitelline cyst ใต้ anterior abdominal wall · E umbilical sinus + fibrous cord · F vitelline artery + fibrous cord<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p21"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 21 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กชาย 5 ปีพบ Meckel โดยบังเอิญ พ่อแม่ถามว่าพบบ่อยแค่ไหน → ถามความชุก ใช้กฎ 2",
+  "why": "Meckel diverticulum เป็น<b>ความผิดปกติแต่กำเนิดของทางเดินอาหารที่พบบ่อยที่สุด</b> พบใน<b>ราว 2% ของประชากร</b> · <b>ส่วนใหญ่ไม่มีอาการตลอดชีวิต</b> (ความเสี่ยงเกิดอาการตลอดชีวิตราว 4% ของผู้ที่มี) · ที่มีอาการมัก<b>เป็นเด็กเล็ก (ก่อนอายุ 2 ปี)</b> และ<b>เพศชาย</b> · อาการ: เลือดออกไม่ปวด (พบบ่อยสุดในเด็ก) ลำไส้อุดตัน (intussusception, volvulus รอบ band) และ diverticulitis · การพบโดยบังเอิญทำให้ครอบครัวกังวล แต่ส่วนใหญ่ไม่ต้องทำอะไรถ้าไม่มีอาการ (การตัดออกเมื่อบังเอิญพบระหว่างผ่าตัดยังถกเถียง) · สไลด์หน้า 21 <b>Found in about 2% of people, located roughly 2 feet from the ileocecal valve, about 2 inches long, twice as common in males, and often containing 2 types of ectopic tissue (gastric/ pancreatic)</b>",
+  "wrong": {
+   "A": "0.02% ต่ำกว่าความจริงร้อยเท่า — เป็นตัวเลขระดับโรคหายาก · ไม่มีสถานการณ์ใดที่ความชุก Meckel diverticulum อยู่ในระดับนี้",
+   "B": "0.2% ต่ำกว่าความจริงสิบเท่า · ไม่มีสถานการณ์ใดที่ตำราให้ความชุก Meckel diverticulum ราว 0.2%",
+   "C": "0.5% ต่ำกว่าความจริง แม้ใกล้เคียงกว่าช้อยอื่น · ไม่มีสถานการณ์ใดที่กฎ 2 ของ Meckel ให้ 0.5%",
+   "D": "1% ใกล้ความจริงแต่ไม่ตรงกฎ 2 (การศึกษาจากการผ่าศพให้ช่วง 0.3–3% ค่าที่ใช้สอนคือ 2%) · ไม่มีสถานการณ์ใดที่กฎ 2 ของ Meckel ให้ 1%"
+  },
+  "trap": "สับสนระหว่าง \"ความชุก 2%\" กับ \"ความเสี่ยงเกิดอาการ\" ที่ต่ำกว่า — มี 2% ของประชากร แต่ส่วนใหญ่ไม่มีอาการ",
+  "summary": [
+   "Meckel พบราว 2% ของประชากร — ความผิดปกติแต่กำเนิดของทางเดินอาหารที่พบบ่อยที่สุด",
+   "ส่วนใหญ่ไม่มีอาการ · เสี่ยงเกิดอาการตลอดชีวิตราว 4% ของผู้ที่มี",
+   "มีอาการมักก่อน 2 ปี และเพศชาย (ชาย 2 เท่า)",
+   "อาการ: เลือดออกไม่ปวด (บ่อยสุดในเด็ก) · ลำไส้อุดตัน · diverticulitis",
+   "พบโดยบังเอิญไม่มีอาการ → ส่วนใหญ่ไม่ต้องรักษา · ตัดเมื่อบังเอิญพบระหว่างผ่าตัดยังถกเถียง",
+   "กฎ 2: 2% · 2 ฟุต · 2 นิ้ว · ชาย 2 เท่า · 2 ชนิดเนื้อเยื่อ"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — สไลด์หน้า 21 ระบุ Found in about 2% of people ตรง · ความเสี่ยงเกิดอาการราว 4% และอายุที่มีอาการมาจากตำรา (Holcomb) ตัวเลขจากการศึกษาต่าง ๆ แปรผันตั้งแต่ราว 0.3–3%",
+  "mnemonic": "<b>'สองเปอร์เซ็นต์มี แต่ส่วนใหญ่ไม่รู้ตัว'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Meckel diverticulum and other omphalomesenteric duct remnants; Sabiston Textbook of Surgery 21st ed. (2022) — Small intestine",
+  "variants": [
+   "เด็กชาย 1 ปีถ่ายเป็นเลือดแดงคล้ำปริมาณมาก ไม่ปวด → คิด Meckel ทำ Tc-99m pertechnetate scan",
+   "เด็ก 3 ปีลำไส้อุดตัน ไม่เคยผ่าตัด → คิด volvulus รอบ band จาก Meckel หรือ intussusception ที่มี Meckel เป็น lead point",
+   "ผู้ใหญ่ CT พบ Meckel โดยบังเอิญ ไม่มีอาการ → ไม่ต้องรักษา"
+  ]
+ }
+}
