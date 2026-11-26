@@ -1,212 +1,378 @@
 {
  "MDCU69|RoA|86": {
-  "interp": "ถามการรักษาหลอดอาหารทะลุ (esophageal perforation)",
-  "why": "<b>คีย์: ขีด A · ลายมือ ใน 12–24 hr · สไลด์ best outcome with early definitive surgery within 12 h</b><br><b>นอกสไลด์:</b> น้ำลาย อาหาร และกรดรั่วเข้า mediastinum/ช่องอก → mediastinitis และ sepsis ลุกลามเร็ว ยิ่งซ่อมช้าอัตราตายยิ่งสูง · รูที่รั่วอิสระจึงต้องผ่าตัดซ่อมรู ± เสริมด้วยเนื้อเยื่อ ร่วมระบายช่องอก ภายใน 24 ชม.",
+  "interp": "ถามการจัดการ <b>esophageal perforation</b>",
+  "why": "หลอดอาหารทะลุ (หลังส่องกล้อง/ ขยาย, Boerhaave จากอาเจียนรุนแรง, สิ่งแปลกปลอม) ทำให้ <b>mediastinitis/ sepsis</b> อัตราตายสูงและเพิ่มตามเวลา → <b>ผ่าตัดฉุกเฉิน (primary repair แบบเสริมแรง + ระบาย)</b> ให้เร็วที่สุด ผลดีที่สุดเมื่อทำ<b>ภายใน 12–24 ชม.</b> ล่าช้า &gt; 24 ชม. อัตราตายเพิ่มเป็น &gt; 50% · ร่วมกับ NPO, IV ATB กว้าง, PPI, โภชนาการ · ปัจจุบันบางรายที่รูเล็ก จำกัดอยู่ ไม่มี sepsis เลือกรักษาแบบอนุรักษ์ หรือใส่ stent ผ่านกล้อง · ไฟล์ MCQ Key 2 ขีด A ลายมือ <b>\"ใน 12-24hr\"</b> และแปะสไลด์ <b>\"esophageal rupture · The best outcomes are associated with early diagnosis and definitive surgical management within 12 hours of rupture · If intervention is delayed longer than 24 hours, the mortality rate … rises to higher than 50% and to nearly 90% after 48 hours\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ารูเล็กที่ถูกจำกัดอยู่ใน mediastinum สารทึบไหลกลับเข้าหลอดอาหารได้ ไม่มีอาการ sepsis — งดอาหาร ยาปฏิชีวนะ และเฝ้าดูใกล้ชิด",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่หลอดอาหารทะลุให้กินอาหารได้ระหว่างเฝ้าดู เพราะอาหารและน้ำลายจะรั่วเข้า mediastinum เพิ่ม ต้องงดทางปากเสมอ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่รอผ่าตัด 2 สัปดาห์เป็นการรักษารูรั่วหลอดอาหาร เพราะ mediastinitis ลุกลามภายในชั่วโมงถึงวัน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การขยายหลอดอาหารเป็นการรักษารูรั่ว เพราะทำให้รูกว้างขึ้น — การส่องกล้องที่ใช้ได้คือใส่ covered stent หรือ clip ปิดรู"
+   "B": "รักษาแบบอนุรักษ์ใช้ได้เฉพาะรายคัดเลือก (รูเล็ก จำกัด ระบายกลับเข้าหลอดอาหาร ไม่มี sepsis) · จะถูกถ้าทะลุเล็กหลังขยายหลอดอาหาร contrast รั่วจำกัดใน mediastinum ผู้ป่วยไม่มีไข้ คงที่ (Cameron criteria)",
+   "C": "ให้กินอาหารทางปากจะทำให้รั่วและติดเชื้อมากขึ้น · จะถูกถ้าคำถามถามการดูแลหลังซ่อมแล้ว contrast study ไม่พบรอยรั่ว",
+   "D": "รอผ่าตัด 2 สัปดาห์ทำให้ mediastinitis และตายสูงมาก · จะถูกถ้าคำถามถามการผ่าตัดแก้ภาวะตีบของหลอดอาหารหลังกลืนกรด (รอให้แผลหายก่อน)",
+   "E": "ขยายหลอดอาหารด้วยกล้องเป็นสาเหตุของการทะลุ ไม่ใช่การรักษา · จะถูกถ้าคำถามถามการรักษา achalasia (pneumatic dilatation)"
   },
-  "trap": "เลือก conservative เพราะรู้ว่าบางรายรักษาด้วยยาได้ — ใช้ได้เฉพาะรูที่ถูกจำกัด (contained) ไม่มี sepsis · รูที่รั่วเข้าช่องอกอิสระต้องผ่าตัดด่วน",
+  "trap": "รอดูอาการเพราะผู้ป่วยยังคงที่ — อัตราตายเพิ่มตามชั่วโมง ต้องรีบผ่าตัด",
   "summary": [
-   "<b>นอกสไลด์:</b> สาเหตุ: จากหัตถการ (ส่องกล้อง ขยายหลอดอาหาร) พบบ่อยสุด · Boerhaave หลังอาเจียนแรง (ผนังซ้ายส่วนปลาย) · อาการ: เจ็บอกหลังอาเจียน ลมใต้ผิวหนังที่คอ ไข้ · วินิจฉัย: CT หรือกลืนสารทึบละลายน้ำ · ทุกราย: งดทางปาก ยาปฏิชีวนะครอบคลุมกว้าง ± ยาต้านเชื้อรา ระบายช่องอก"
+   "สาเหตุ: iatrogenic (มากสุด) · Boerhaave · สิ่งแปลกปลอม · บาดเจ็บ",
+   "Boerhaave: อาเจียนแรง → ปวดอก + subcutaneous emphysema (Mackler triad)",
+   "วินิจฉัย: water-soluble contrast esophagram/ CT with oral contrast",
+   "ผ่าตัดเร็ว (&lt; 12–24 ชม.): primary repair เสริมแรง + ระบาย",
+   "&gt; 24 ชม. อัตราตาย &gt; 50% · 48 ชม. ~90%",
+   "รายคัดเลือก: อนุรักษ์ หรือ endoscopic stent"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง (ปัจจุบันบางรายใช้ stent ทางกล้องได้)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 และสไลด์ที่แปะ (ไฟล์ Key 1 ไม่ได้ขีด) · ต้นฉบับมี 2 ช้อย จึงเติม C, D, E",
+  "mnemonic": "<b>'หลอดอาหารทะลุ = นาฬิกาเดิน (ผ่าใน 12–24 ชม.)'</b>",
+  "guide": "WSES Guidelines on Esophageal Emergencies (World J Emerg Surg 2019;14:26); Sabiston Textbook of Surgery 21st ed. (2022) — Esophagus",
   "variants": [
-   "<b>นอกสไลด์:</b> รูรั่วหลอดอาหารส่วนปลายหลังขยาย achalasia พบภายใน 6 ชม. → ผ่าตัดซ่อมรูร่วม Heller myotomy ด้านตรงข้าม",
-   "<b>นอกสไลด์:</b> มะเร็งหลอดอาหารที่ผ่าตัดไม่ได้ เกิดรูรั่วหลังใส่สาย → ใส่ covered stent ทางกล้อง"
+   "ชายอาเจียนหลังดื่มหนัก ปวดอกทันที มีลมใต้ผิวหนังที่คอ → Boerhaave → esophagram + ผ่าตัด",
+   "หลังขยายหลอดอาหาร ปวดอกเล็กน้อย contrast รั่วจำกัด ไม่มีไข้ → อนุรักษ์ (NPO, ATB)",
+   "เด็กกลืนถ่านกระดุมติดหลอดอาหาร → ส่องกล้องเอาออกด่วน"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 50 — ตัวพิมพ์: <b>86. อาการ esophageal perforation ทำอะไร — A. emergency Sx B. conservative</b><br>ลายมือ: ขีด A + \"ใน 12-24hr\"<br>ไฮไลต์: \"อาการ esophageal perforation ทำอะไร\" · A \"emergency Sx\" (เหลือง)<br>รูปที่แปะ: หน้าตำรา Primary repair of esophageal perforation (Ann Thorac Surg ภาพเทคนิค reinforced primary repair พร้อมลายมือ) · สไลด์ esophageal rupture — The best outcomes are associated with early diagnosis and definitive surgical management within 12 hours of rupture · If intervention is delayed longer than 24 hours, the mortality rate (even with surgical intervention) rises to higher than 50% and to nearly 90% after 48 hours<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 41: ไม่มีขีด<br>ที่ปรับในเว็บ: ต้นฉบับมี 2 ช้อย → เติม C, D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 50",
+  "kimg": [
+   "fsk_p50",
+   "kp69a_86",
+   "k2p_41"
   ]
  },
  "MDCU69|RoA|87": {
-  "interp": "ข้อ NOT ถามค่าที่ไม่ใช่เกณฑ์วินิจฉัย empyema thoracis · คำตอบคือทุกค่าเป็นเกณฑ์",
-  "why": "<b>คีย์: ขีด E</b><br><b>นอกสไลด์:</b> ตามเกณฑ์ที่ใช้ในชีท: WBC > 15,000, โปรตีน > 3 g/dL, LDH > 1,000 และ glucose &lt; 40 mg/dL ล้วนบ่งน้ำที่มีการอักเสบติดเชื้อมาก (complicated parapneumonic effusion/empyema) — ทุกช้อยจึงเป็นเกณฑ์",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>เกณฑ์วินิจฉัย <b>empyema thoracis</b> (ต้นฉบับ: WBC &gt; 15,000, protein &gt; 3, LDH &gt; 1,000, glucose &lt; 40)",
+  "why": "ผลน้ำในเยื่อหุ้มปอดที่สนับสนุน <b>empyema/ complicated parapneumonic effusion</b>: เป็นหนอง/ gram stain หรือ culture บวก, <b>pH &lt; 7.2</b>, <b>glucose &lt; 40–60 mg/dL</b>, <b>LDH &gt; 1,000 IU/L</b>, WBC สูงมาก (&gt; 15,000/µL), protein &gt; 3 g/dL (exudate) · ตามข้อสอบและคีย์ ทุกค่าที่ให้ (A–D) เป็นเกณฑ์ → <b>คำตอบคือ all of the above are criteria</b> · ไฟล์ขีด E และติ๊ก ✓ ที่ A, B, C, D",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ชี้ empyema) ถ้าเป็นน้ำในเยื่อหุ้มปอดจาก TB หรือ lymphoma ที่เซลล์สูงแต่เป็น lymphocyte เด่น",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ชี้ empyema) ถ้าเป็นผู้ป่วยหัวใจล้มเหลวที่ได้ยาขับปัสสาวะจนโปรตีนในน้ำเข้มข้นขึ้น (pseudo-exudate)",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ชี้ empyema) ถ้าเป็น malignant pleural effusion ที่ LDH สูงมากโดยไม่มีการติดเชื้อ",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ชี้ empyema) ถ้าเป็น rheumatoid pleural effusion ที่ glucose ต่ำมากโดยไม่มีไข้หรือเชื้อ"
+   "A": "เป็นเกณฑ์ — WBC สูงมากในน้ำเยื่อหุ้มปอดบ่งการติดเชื้อ (ลายมือ ✓) · จะถูกถ้าช้อยเป็น WBC &lt; 1,000 (transudate)",
+   "B": "เป็นเกณฑ์ — protein &gt; 3 g/dL = exudate (ลายมือ ✓) · จะถูกถ้าช้อยเป็น protein &lt; 2.5 g/dL ใน heart failure (transudate)",
+   "C": "เป็นเกณฑ์ — LDH &gt; 1,000 บ่ง complicated effusion/ empyema (ลายมือ ✓) · จะถูกถ้าช้อยเป็น LDH ต่ำกว่า 2/3 ของค่าปกติในเลือด (transudate)",
+   "D": "เป็นเกณฑ์ — glucose &lt; 40 (แบคทีเรียและเม็ดเลือดขาวใช้น้ำตาล) (ลายมือ ✓) · จะถูกถ้าช้อยเป็น glucose ปกติเท่าในเลือด (simple effusion)"
   },
-  "trap": "เจาะได้หนองข้นชัดเจน = empyema ทันที ไม่ต้องรอค่าเคมี · ค่าเคมีใช้ตัดสินน้ำ parapneumonic ที่ยังใส ว่าต้องระบายหรือไม่",
+  "trap": "คิดว่าต้องมีข้อหนึ่งผิด — ทุกค่าที่ให้เป็นเกณฑ์ empyema/ complicated effusion",
   "summary": [
-   "<b>นอกสไลด์:</b> BTS 2023: pH ≤ 7.2 → ใส่สายระบาย · pH 7.21–7.39 → ระบายเมื่อ LDH ≥ 900 ร่วมปัจจัยเสริม (glucose ≤ 72 mg/dL, น้ำมาก, septation, เยื่อหุ้มจับสี) · ไม่มี pH ใช้ glucose &lt; 60 mg/dL · exudate ตาม Light’s: โปรตีนน้ำ/เลือด > 0.5, LDH น้ำ/เลือด > 0.6 หรือ LDH น้ำ > 2/3 ค่าสูงสุดปกติ"
+   "Empyema: หนอง · gram stain/ culture บวก",
+   "Complicated parapneumonic: pH &lt; 7.2 · glucose &lt; 60 · LDH &gt; 1,000",
+   "Light's criteria (exudate): protein ratio &gt; 0.5 · LDH ratio &gt; 0.6 · LDH &gt; 2/3 ULN",
+   "Complicated/ empyema → ICD + ATB",
+   "Loculated → tPA + DNase/ VATS",
+   "Organizing → decortication"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจปานกลาง (เกณฑ์ตัวเลขชุดนี้เป็นของชีท แนวทางปัจจุบันใช้ pH/glucose/LDH เป็นหลัก)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และเครื่องหมาย ✓ ทุกช้อยในไฟล์",
+  "mnemonic": "<b>'Empyema: pH &lt; 7.2 · Glucose &lt; 40–60 · LDH &gt; 1,000 · หนอง'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); Light RW. Pleural Diseases 6th ed. (2013)",
   "variants": [
-   "<b>นอกสไลด์:</b> parapneumonic effusion pH 7.30 LDH 1,200 US เห็น septation → ใส่สายระบาย",
-   "<b>นอกสไลด์:</b> pleural fluid lymphocyte เด่น ADA สูง glucose ค่อนข้างต่ำ → TB pleuritis"
+   "น้ำเยื่อหุ้มปอด pH 6.9 glucose 20 → complicated parapneumonic → ICD",
+   "น้ำเยื่อหุ้มปอด protein ratio 0.3 LDH ต่ำ ผู้ป่วยหัวใจวาย → transudate",
+   "เจาะได้หนองข้น → empyema → ICD + ATB"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 50–51 — ตัวพิมพ์: <b>87. อะไรไม่ใช่ criteria empyema thoracis — A. WBC&gt;15,000 B. protein &gt;3 C. LDH &gt;1,000 D. glucose &lt;40 E. all of the above are criteria dx</b><br>ลายมือ: ✓ ที่ A, B, C, D · ขีด E<br>ไฮไลต์: \"ไม่ใช่ criteria empyema thoracis\" · A–D (เหลือง)<br>รูปที่แปะ: ภาพ CXR มี pleural effusion พร้อมลายมือ (empyema effects: ① infection ② compressive effect) · สไลด์ 3 Phases — Exudative or Acute (low viscosity, well expand lung) · Fibrinopurulent or Transitional (pleural peel) · Organizing or Chronic (fibrous and restricted lung) · สไลด์ Treatment — Control with antibiotic · Evacuation of infected fluid and tissue · Restore expansion of lung (fibrous removal) · สไลด์ Surgical Treatment Options — ICD · Decortication · Open Drainage (Eloesser Flap) (พร้อมลายมือเล็กจำนวนมาก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 42: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 50",
+  "kimg": [
+   "fsk_p50",
+   "kp69a_87",
+   "kp69a_87b",
+   "k2p_42"
   ]
  },
  "MDCU69|RoA|88": {
-  "interp": "ไข้นาน มีน้ำในเยื่อหุ้มปอดซ้าย แต่เจาะได้ไม่ถึง 2 mL = empyema ระยะท้าย (organizing มีเปลือกหนา) · ถามสิ่งที่ไม่ควรทำ",
-  "why": "<b>คีย์: ขีด A · ลายมือ empyema thoracis late stage (fibrous) · ไม่มีน้ำให้ระบาย</b><br><b>นอกสไลด์:</b> ระยะ organizing มีเปลือกพังผืดหนาหุ้มปอด (peel) และหนองเหลือน้อย ใส่สายระบายทรวงอกจึงไม่ได้อะไรออกและเสี่ยงแทงปอด — ต้อง CT ดูขอบเขต ให้ยาปฏิชีวนะ และลอกเปลือก (decortication)",
+  "interp": "ผู้ป่วย<b>ไข้นาน</b> มีน้ำในเยื่อหุ้มปอดซ้าย เจาะได้น้ำ<b>น้อยกว่า 2 mL</b> → ถามสิ่งที่<b>ไม่มีข้อบ่งชี้</b>",
+  "why": "ไข้เรื้อรัง + ภาพเหมือนมีน้ำ แต่เจาะได้น้อยมาก = <b>empyema ระยะ organizing (chronic/ fibrous)</b> — หนองกลายเป็น<b>เปลือกพังผืด (pleural peel)</b> หุ้มปอด ไม่มีน้ำให้ระบาย → <b>ICD ไม่มีประโยชน์</b> (ระบายไม่ออก) · ควร <b>CT chest</b> (ดูเปลือก loculation ปอดใต้เปลือก) + <b>ยาปฏิชีวนะ</b> + <b>decortication</b> (VATS/ open) เพื่อให้ปอดขยาย · ไฟล์ขีด A ลายมือ <b>\"empyema thoracis\"</b> <b>\"tap ไม่ออก ∴ late stage (fibrous)\"</b> และ B–C \"drain ไม่ได้ (case นี้)\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นสิ่งที่ไม่ควรทำ) ถ้าผู้ป่วยช็อกไม่คงที่จนเคลื่อนย้ายไปทำ CT ไม่ได้",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นสิ่งที่ไม่ควรทำ) ถ้าผู้ป่วยสภาพร่างกายแย่มากจนผ่าตัดใหญ่ไม่ได้ หรือปอดใต้เปลือกถูกทำลายจนขยายไม่ได้อยู่แล้ว",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ยาปฏิชีวนะไม่จำเป็นใน empyema เพราะเป็นการติดเชื้อที่ต้องรักษาร่วมกับการระบายหรือผ่าตัดเสมอ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ “ทุกข้อควรทำ” เป็นจริง เพราะการใส่สายในช่องที่ไม่มีน้ำไม่ได้ระบายอะไรและเสี่ยงแทงเนื้อปอด"
+   "B": "CT chest มีข้อบ่งชี้ ช่วยดูเปลือก loculation และวางแผนผ่าตัด · จะถูกถ้าคำถามถามสิ่งที่ไม่จำเป็นในผู้ป่วยที่ US ชัดว่าเป็นน้ำใสปริมาณมากไม่มีช่อง",
+   "C": "Decortication มีข้อบ่งชี้ในระยะ organizing ที่ปอดถูกรัด · จะถูกถ้าเป็นระยะ exudative ระยะแรกที่ระบายด้วยท่อได้",
+   "D": "ยาปฏิชีวนะมีข้อบ่งชี้เสมอใน empyema · จะถูกถ้าน้ำเป็น transudate ไม่มีการติดเชื้อ",
+   "E": "มีช้อยที่ไม่มีข้อบ่งชี้ (ICD) · จะถูกถ้าทุกช้อยมีข้อบ่งชี้"
   },
-  "trap": "เห็นเงาน้ำบนภาพแต่เจาะได้น้อย อย่าคิดว่าเป็นแค่เจาะพลาด — อาจเป็นเปลือกหนาหรือหนองแยกเป็นช่อง CT ช่วยแยก: ช่องหนองแยกยังระบายด้วยสายหรือ VATS ได้ ส่วนเปลือกหนาต้องลอก",
+  "trap": "ใส่ท่อเพราะเห็นน้ำในภาพ — เจาะแทบไม่ได้น้ำ = เปลือกพังผืด ต้องลอก (decortication)",
   "summary": [
-   "<b>นอกสไลด์:</b> ระยะ empyema: exudative (สัปดาห์แรก น้ำใส) → fibrinopurulent (มีพังผืดแยกช่อง สัปดาห์ที่ 1–3: ใส่สาย ± tPA + DNase ทางสาย หรือ VATS) → organizing (เปลือกหนา ปอดขยายไม่ได้ หลังราว 3–6 สัปดาห์: decortication)"
+   "Empyema 3 ระยะ: exudative (น้ำใส) → fibrinopurulent (หนอง loculation) → organizing (เปลือก)",
+   "Exudative/ fibrinopurulent → ICD ± tPA/ DNase",
+   "Organizing → decortication (VATS/ open)",
+   "ผ่าตัดไม่ได้/ เรื้อรัง → open drainage (Eloesser flap)",
+   "CT chest: เปลือกหนา split pleura sign · loculation",
+   "ยาปฏิชีวนะทุกระยะ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 4 ช้อย (D none) จึงแทรกยาปฏิชีวนะเป็น D และย้าย none เป็น E",
+  "mnemonic": "<b>'เจาะไม่ออก = เปลือก → ลอก ไม่ใช่ท่อ'</b>",
+  "guide": "AATS Expert Consensus Guidelines for the Management of Empyema (J Thorac Cardiovasc Surg 2017;153:e129); BTS Guideline for Pleural Disease (Thorax 2023;78:s1)",
   "variants": [
-   "<b>นอกสไลด์:</b> empyema มีหลายช่อง ใส่สายแล้วยังระบายไม่หมด → ฉีด tPA + DNase ทางสาย หรือ VATS",
-   "<b>นอกสไลด์:</b> empyema ในผู้สูงอายุโรคร่วมมาก ผ่าตัดใหญ่ไม่ได้ มีโพรงหนองค้างใต้เปลือกหนา → ระบายแบบเปิด (open window/Eloesser flap)"
+   "empyema 4 สัปดาห์ CT เปลือกหนา ปอดไม่ขยาย → VATS decortication",
+   "empyema ระยะแรกเจาะได้หนองข้น → ICD + ATB",
+   "ผู้สูงอายุ empyema เรื้อรังผ่าตัดใหญ่ไม่ได้ → Eloesser flap"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 51 — ตัวพิมพ์: <b>88 hx of fever. left pleural effusion ทำthoracocentesis less than 2 ml. What is not indicated? — A. ICD B. CT C. decorticate D. none</b><br>ลายมือ: \"empyema thoracis\" เหนือ hx of fever · \"tap ไม่ออก ∴ late stage (fibrous)\" · ขีด A · ปีกกา \"drain ไม่ได้ (case นี้)\"<br>ไฮไลต์: \"hx of fever\" \"left pleural effusion\" \"less than 2 ml\" \"not indicated\" · A ICD (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 42: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: แทรกช้อย D antibiotics และย้าย none เป็น E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 51",
+  "kimg": [
+   "fsk_p51",
+   "kp69a_88",
+   "k2p_42"
   ]
  },
  "MDCU69|RoA|90": {
-  "interp": "ข้อ EXCEPT ถามลักษณะที่ไม่ใช่ของ hidradenitis suppurativa",
-  "why": "<b>คีย์: ขีด D · ลายมือ psoriasis</b><br><b>นอกสไลด์:</b> ผื่นนูนแดงมีขุยหนาที่เข่า ศอก และหนังศีรษะคือ psoriasis · hidradenitis suppurativa เป็นก้อนอักเสบ ฝี และทางเชื่อมใต้ผิวที่รักแร้ ขาหนีบ ก้น ไม่มีขุย",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>ลักษณะของ <b>hidradenitis suppurativa</b>",
+  "why": "Hidradenitis suppurativa (<b>acne inversa</b>) = การอักเสบเรื้อรังของรูขุมขนบริเวณ<b>ที่มีต่อม apocrine/ ข้อพับ</b> (รักแร้ ขาหนีบ ฝีเย็บ ก้น ใต้ราวนม) → <b>ตุ่ม/ ฝีอักเสบเจ็บมาก</b> หนองกลิ่นเหม็น โพรงหนอง (sinus tract) แผลเป็น เป็นเรื้อรัง กำเริบซ้ำ · ปัจจัยเสี่ยง: อ้วน สูบบุหรี่ · ส่วน<b>ปื้นแดงนูนมีขุยที่เข่า ศอก หนังศีรษะ หลัง</b> = <b>psoriasis</b> ไม่ใช่ HS · รักษา HS: ลดน้ำหนัก เลิกบุหรี่ ยาปฏิชีวนะ (doxycycline, clindamycin + rifampin) ยาชีวภาพ (adalimumab) ผ่าตัดเปิดโพรง (deroofing)/ ตัดกว้าง · ไฟล์ขีด D ลายมือ <b>\"acne inversa\"</b> <b>\"chronic inflam. @ intertriginous area\"</b> และที่ D เขียน \"?actinic keratosis\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อาการปวดมากไม่ใช่ลักษณะของ HS เพราะก้อนอักเสบและหนองอยู่ลึกใต้ผิวหนัง ความปวดเป็นอาการเด่นที่กระทบชีวิตประจำวัน",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ก้อนอักเสบในบริเวณที่มีต่อม apocrine ไม่ใช่ลักษณะของ HS เพราะโรคเกิดที่รูขุมขนในบริเวณที่มี apocrine และผิวเสียดสี",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่หนองกลิ่นเหม็นไม่ใช่ลักษณะของ HS เพราะทางเชื่อมใต้ผิว (sinus tract) มีหนองซึมออกเรื้อรัง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การกำเริบเรื้อรังไม่ใช่ลักษณะของ HS เพราะเป็นโรคอักเสบเรื้อรังจากรูขุมขนอุดตัน เป็นซ้ำจนเกิดแผลเป็นและทางเชื่อม"
+   "A": "เป็นลักษณะของ HS — ปวดมากบริเวณที่เป็น · จะถูกถ้าช้อยบอกว่าไม่มีอาการปวดเลย",
+   "B": "เป็นลักษณะของ HS — ตุ่มอักเสบบริเวณที่มีต่อม apocrine (รักแร้ ขาหนีบ) · จะถูกถ้าช้อยบอกว่าเกิดที่ฝ่ามือฝ่าเท้า",
+   "C": "เป็นลักษณะของ HS — หนองกลิ่นเหม็น · จะถูกถ้าช้อยบอกว่าแผลแห้งไม่มีหนอง",
+   "E": "เป็นลักษณะของ HS — เรื้อรังและกำเริบซ้ำ · จะถูกถ้าช้อยบอกว่าหายขาดได้ด้วยยาครั้งเดียว"
   },
-  "trap": "HS มักถูกรักษาเป็นฝีธรรมดาซ้ำ ๆ — ฝีที่เกิดซ้ำที่รักแร้หรือขาหนีบสองข้างเป็นปี มีแผลเป็นและทางเชื่อม คือ HS ไม่ใช่การติดเชื้อทั่วไป",
+  "trap": "สับสนกับรอยโรคผิวหนังเรื้อรังอื่น — ปื้นแดงมีขุยที่เข่า ศอก หนังศีรษะ = psoriasis",
   "summary": [
-   "<b>นอกสไลด์:</b> Hurley: I ก้อน/ฝีไม่มีทางเชื่อม · II ฝีซ้ำมีทางเชื่อมเป็นหย่อม · III ทางเชื่อมต่อกันทั่วบริเวณ · ปัจจัยเสี่ยง: สูบบุหรี่ อ้วน · รักษา: เลิกบุหรี่ ลดน้ำหนัก clindamycin ทา → tetracycline หรือ clindamycin + rifampicin ชนิดกิน → adalimumab"
+   "HS (acne inversa): รักแร้ ขาหนีบ ฝีเย็บ ก้น ใต้ราวนม",
+   "ตุ่ม/ ฝีเจ็บ → sinus tract → แผลเป็น (Hurley I–III)",
+   "ปัจจัยเสี่ยง: อ้วน บุหรี่ หญิง",
+   "รักษา: ลดน้ำหนัก เลิกบุหรี่ · ATB · adalimumab/ secukinumab",
+   "ผ่าตัด: deroofing · wide excision (Hurley III)",
+   "Psoriasis: ปื้นแดงขุยเงินที่ extensor (เข่า ศอก) หนังศีรษะ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ลายมือในไฟล์เขียน \"?actinic keratosis\" ที่ D แต่ลักษณะดังกล่าวคือ psoriasis",
+  "mnemonic": "<b>'HS = ฝีซ้ำในซอก (รักแร้ ขาหนีบ) · Psoriasis = ขุยเงินที่เข่า-ศอก'</b>",
+  "guide": "North American Clinical Management Guidelines for Hidradenitis Suppurativa (J Am Acad Dermatol 2019;81:76,91)",
   "variants": [
-   "<b>นอกสไลด์:</b> HS Hurley III ที่รักแร้ ยาไม่ได้ผล → ตัดเนื้อเยื่อที่เป็นโรคออกกว้าง แล้วปิดด้วย graft/flap หรือปล่อยหายเอง",
-   "<b>นอกสไลด์:</b> HS เรื้อรังที่ก้นมา 20 ปี มีแผลที่โตเร็วและขอบแข็ง → ตัดชิ้นเนื้อหา SCC"
+   "หญิงอ้วนสูบบุหรี่ ฝีที่รักแร้ซ้ำ มีโพรงหนอง → HS → ATB + เลิกบุหรี่ ± deroofing",
+   "ชายปื้นแดงขุยเงินที่ศอกและเข่า เล็บเป็นหลุม → psoriasis",
+   "HS Hurley III เป็นทั้งรักแร้ → wide excision + graft/ flap"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 51 — ตัวพิมพ์: <b>90. The followings are features of hidradenitis suppuritiva, except? — A. Pain, usually intense at the affected area B. Inflamed nodules in aprocrine-bearing area (armpit, genital,..) C. Malodorous discharge D. Raised,inflamed,red scaly patches on knee,elbow,scalp,and/or back E. Chronic and relapse</b><br>ลายมือ: \"acne inversa\" · \"chronic inflam. @ intertriginous area\" · ขีด D + \"?actinic keratosis\"<br>ไฮไลต์: \"features of hidradenitis suppuritiva, except\" · A, B, C, E (ส้ม) · D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 42: ขีด D (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 51",
+  "kimg": [
+   "fsk_p51",
+   "kp69a_90",
+   "k2p_42"
   ]
  },
  "MDCU69|RoC|1": {
-  "interp": "ถามเป้าหมายสำคัญที่สุดของการรักษา acromegaly",
-  "why": "<b>คีย์: ขีด B · สไลด์ GH-producing tumor: hypertension, diabetes, atherosclerosis, heart failure</b><br><b>นอกสไลด์:</b> GH และ IGF-1 ที่สูงนานทำให้ความดันสูง เบาหวาน หัวใจโต หัวใจล้มเหลว และหยุดหายใจขณะหลับ ซึ่งเป็นเหตุให้ตายเร็ว · คุม GH/IGF-1 ให้ปกติทำให้อัตราตายกลับใกล้คนทั่วไป",
+  "interp": "ถาม<b>วัตถุประสงค์สำคัญที่สุด</b>ในการรักษา <b>acromegaly</b>",
+  "why": "Acromegaly (GH/ IGF-1 สูงจาก pituitary somatotroph adenoma ในผู้ใหญ่) ทำให้อัตราตาย<b>เพิ่ม 2–3 เท่า</b> ส่วนใหญ่จาก<b>โรคหัวใจและหลอดเลือด/ เมตาบอลิก</b>: <b>ความดันสูง เบาหวาน cardiomyopathy/ หัวใจล้มเหลว atherosclerosis</b> sleep apnea และมะเร็งลำไส้ · การรักษา (ผ่าตัด transsphenoidal → somatostatin analog/ pegvisomant → รังสี) มุ่ง<b>คุม GH/ IGF-1 ให้ปกติเพื่อลดภาวะแทรกซ้อนและอัตราตาย</b> · ความสูง/ มือเท้า/ ใบหน้าที่เปลี่ยนแปลงไปแล้ว (กระดูก) แก้กลับไม่ได้ · ไฟล์ขีด B และแปะสไลด์ <b>\"Growth hormone producing tumor … ที่ซ่อนอยู่ภายใต้รูปลักษณ์ภายนอกนี้คือ hypertension, diabetes, atherosclerosis, heart failure, kidney failure · ต้องรักษา ไม่ใช่เพื่อแก้รูปลักษณ์ภายนอก แต่เพราะผู้ป่วยจะอายุสั้น ถ้าปล่อยให้ GH สูงอยู่นานๆ\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การรักษา acromegaly ทำให้ความสูงที่เกินไปแล้วลดลง เพราะกระดูกยาวที่ปิด growth plate แล้วหดไม่ได้ (ในเด็ก gigantism ทำได้แค่หยุดการสูงต่อ)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การรักษาทำให้กระดูกใบหน้ากลับเป็นปกติ เพราะกระดูกขากรรไกรและหน้าผากที่โตแล้วไม่ยุบ — ได้แค่เนื้ออ่อนบวมลดลง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น macroadenoma ที่กด optic chiasm จนลานสายตาแคบลงเร็ว หรือมีเลือดออกในก้อน (apoplexy) ตามัวทันที",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การรักษาทำให้มือเท้ากลับขนาดเดิมได้ทั้งหมด เพราะกระดูกที่หนาขึ้นไม่ยุบ — เนื้ออ่อนบวมลดลงพอให้ใส่แหวนหรือรองเท้าได้บ้าง"
+   "A": "ผู้ใหญ่ epiphysis ปิดแล้ว ความสูงไม่เพิ่ม (นั่นคือ gigantism ในเด็ก) และแก้ความสูงไม่ได้ · จะถูกถ้าคำถามถามเป้าหมายการรักษา gigantism ในเด็กที่ยังโต (หยุดการเพิ่มความสูง)",
+   "C": "ลักษณะใบหน้า (กระดูก) แก้กลับได้น้อย ไม่ใช่เป้าหมายหลัก · จะถูกถ้าคำถามถามผลที่ผู้ป่วยมักกังวลที่สุด (รูปลักษณ์)",
+   "D": "ป้องกันตาบอดสำคัญเมื่อก้อนใหญ่กด chiasm แต่ไม่ใช่วัตถุประสงค์หลักของการรักษา acromegaly ทุกราย · จะถูกถ้าคำถามถามข้อบ่งชี้ผ่าตัดด่วนของ macroadenoma ที่ตามัวลงเร็ว",
+   "E": "มือเท้าโตจากเนื้อเยื่อและกระดูก ยุบลงได้เพียงบางส่วน (soft tissue) ไม่ใช่เป้าหมายหลัก · จะถูกถ้าคำถามถามอาการที่ดีขึ้นเร็วหลังคุม GH ได้ (บวมเนื้อเยื่ออ่อน)"
   },
-  "trap": "รูปลักษณ์ที่เปลี่ยน (มือเท้าโต หน้าเปลี่ยน) เป็นเหตุที่ผู้ป่วยมาพบแพทย์ แต่สิ่งที่ทำให้ตายเร็วคือโรคหัวใจ ความดัน เบาหวาน และหยุดหายใจขณะหลับ",
+  "trap": "คิดว่ารักษาเพื่อรูปลักษณ์ — เป้าหมายจริงคือลดโรคหัวใจ-เมตาบอลิกที่ทำให้อายุสั้น",
   "summary": [
-   "<b>นอกสไลด์:</b> วินิจฉัย: IGF-1 สูงตามอายุ + GH ไม่ถูกกดหลังกลืนน้ำตาล (OGTT) → MRI ต่อมใต้สมอง · เป้าหมายการรักษา: IGF-1 ปกติตามอายุและ GH ต่ำ · ผ่าตัดผ่านทาง sphenoid เป็นการรักษาแรก"
+   "Acromegaly: GH/ IGF-1 สูง · ผู้ใหญ่ (gigantism ในเด็ก)",
+   "วินิจฉัย: IGF-1 สูง + OGTT ไม่กด GH (&lt; 1 µg/L)",
+   "ภาวะแทรกซ้อน: HT · DM · cardiomyopathy · OSA · มะเร็งลำไส้",
+   "รักษา: transsphenoidal surgery → somatostatin analog/ pegvisomant → radiation",
+   "เป้าหมาย: IGF-1 ปกติ → อัตราตายกลับใกล้ปกติ",
+   "คัดกรอง colonoscopy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Acromegaly รักษาเพื่อหัวใจ (ไม่ใช่หน้าตา)'</b>",
+  "guide": "Endocrine Society Clinical Practice Guideline: Acromegaly (J Clin Endocrinol Metab 2014;99:3933); Pituitary Society Consensus on Acromegaly (Nat Rev Endocrinol 2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัด IGF-1 ยังสูง มีก้อนเหลือใน cavernous sinus → ยา somatostatin analog (octreotide, lanreotide)",
-   "<b>นอกสไลด์:</b> ผู้ป่วย acromegaly กรนดังมาก ง่วงกลางวัน → ตรวจการนอนหลับหา obstructive sleep apnea"
+   "ชาย 45 ปีแหวนคับ หน้าเปลี่ยน IGF-1 สูง → MRI → transsphenoidal surgery",
+   "หลังผ่าตัด IGF-1 ยังสูง → somatostatin analog",
+   "ผู้ป่วย acromegaly → colonoscopy คัดกรอง"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 53 — ตัวพิมพ์: <b>1. ข้อใดคือวัตถุประสงค์สำคัญที่สุดในการรักษา acromegaly — A. เพื่อแก้ไขความสูงที่มากเกินไป B. เพื่อรักษาโรคที่อาจพบตามมา เช่น ความดันสูง เบาหวาน C. เพื่อแก้ไขลักษณะรูปหน้าที่ผิดปกติ D. เพื่อป้องกันตาบอด</b> (หัวหน้า \"AC Subspecialty Surgery Rotate 3/2559 · ข้อสอบทั้งหมด 90 ข้อ(แต่จำกันมาได้ 35 ข้อนะ T^T) … มีแค่ Colo ที่ตรงแบบไม่ต้องคิดก็ตอบได้ ส่วนอื่นๆนี่ก็ต้องอาศัยคล้ายๆ\" · NEURO)<br>ลายมือ: ขีด B<br>ไฮไลต์: \"วัตถุประสงค์สำคัญที่สุดในการรักษา acromegaly\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Growth hormone producing tumor — ในวัย adult ทำให้เกิด acromegaly · มือเท้าใหญ่ หน้าผากและโหนกคิ้วยื่น คางยื่น ฟันห่าง soft tissue thickening · ที่ซ่อนอยู่ภายใต้รูปลักษณ์ภายนอกนี้คือ hypertension, diabetes, atherosclerosis, heart failure, kidney failure · ต้องรักษา ไม่ใช่เพื่อแก้รูปลักษณ์ภายนอก แต่เพราะผู้ป่วยจะอายุสั้น ถ้าปล่อยให้ GH สูงอยู่นานๆ (From Greek akros \"extremities\" and megalos \"large\") พร้อมลายมือเล็ก<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 44: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 53",
+  "kimg": [
+   "fsk_p53",
+   "kp69c_1",
+   "k2p_44"
   ]
  },
  "MDCU69|RoC|2": {
-  "interp": "ข้อ NOT ถามอาการที่ไม่ใช่ของเนื้องอกต่อมใต้สมอง",
-  "why": "<b>คีย์: ขีด E · ลายมือ pineal tumor</b><br><b>นอกสไลด์:</b> Parinaud เป็นอาการของก้อนบริเวณ pineal (ดูข้อ RoA 19 ของชุดนี้) ไม่ใช่ก้อนใน sella",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>อาการของ <b>pituitary tumor</b>",
+  "why": "Pituitary tumor ทำให้อาการ 2 กลุ่ม: (1) <b>กดเบียด</b> — bitemporal hemianopia (กด chiasm), ปวดหัว, hypopituitarism, CN III/ IV/ VI (ลาม cavernous sinus) (2) <b>ฮอร์โมนเกิน</b> — Cushing disease (moon face, buffalo hump, truncal obesity), acromegaly (มือเท้าโต หน้าผาก/ คิ้ว/ คางยื่น), prolactinoma (น้ำนมไหล ประจำเดือนขาด) · <b>มองขึ้นไม่ได้ + light-near dissociation</b> = <b>Parinaud syndrome จาก pineal tumor</b> ไม่ใช่ pituitary · ไฟล์ขีด E ลายมือ <b>\"→ pineal tumor\"</b> และติ๊ก ✓ ที่ A–D",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ bitemporal hemianopia ไม่ใช่อาการของเนื้องอกต่อมใต้สมอง เพราะก้อนที่ยื่นขึ้นเหนือ sella กดกลาง optic chiasm ที่ใยประสาทจากจอตาฝั่งจมูกไขว้กัน",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ลักษณะ Cushing ไม่ใช่อาการของเนื้องอกต่อมใต้สมอง เพราะ corticotroph adenoma หลั่ง ACTH (Cushing disease)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่มือเท้าโต หน้าผากโหนก คางยื่น ไม่ใช่อาการของเนื้องอกต่อมใต้สมอง เพราะ somatotroph adenoma หลั่ง GH",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่น้ำนมไหลและประจำเดือนขาดไม่ใช่อาการของเนื้องอกต่อมใต้สมอง เพราะ prolactinoma หลั่ง prolactin หรือก้อนอื่นกดก้านต่อมจน dopamine ลงมายับยั้งไม่ได้ (stalk effect)"
+   "A": "เป็นอาการ — ก้อนยื่นขึ้นกด optic chiasm (ลายมือ ✓) · จะถูกถ้าคำถามถามอาการของ pineal tumor",
+   "B": "เป็นอาการ — ACTH-secreting adenoma (Cushing disease) (ลายมือ ✓) · จะถูกถ้าคำถามถามอาการของ craniopharyngioma ในเด็ก",
+   "C": "เป็นอาการ — GH-secreting adenoma (acromegaly) (ลายมือ ✓) · จะถูกถ้าคำถามถามอาการของ vestibular schwannoma",
+   "D": "เป็นอาการ — prolactinoma (ลายมือ ✓) · จะถูกถ้าคำถามถามอาการของ pineal germinoma"
   },
-  "trap": "ก้อนต่อมใต้สมองทำให้ตามีปัญหาได้สองแบบ — ลานสายตา (chiasm) และกลอกตาข้างเดียวจาก CN III, IV, VI ใน cavernous sinus · ไม่ใช่มองขึ้นไม่ได้ทั้งสองตาพร้อมกัน",
+  "trap": "สับสนอาการตาของ pituitary (ลานสายตา) กับ pineal (การกลอกตาขึ้น/ รูม่านตา)",
   "summary": [
-   "<b>นอกสไลด์:</b> อาการเนื้องอกต่อมใต้สมอง 3 กลุ่ม: ฮอร์โมนเกิน (PRL, GH, ACTH, TSH) · ฮอร์โมนขาด (มักเสีย GH → LH/FSH → TSH → ACTH) · ก้อนกด (ปวดศีรษะ ลานสายตาแคบ) → MRI + ตรวจฮอร์โมนทุกแกน + ลานสายตา · stalk effect มัก prolactin ไม่เกินราว 100 ng/mL"
+   "Pituitary กด: bitemporal hemianopia · ปวดหัว · hypopituitarism",
+   "ฮอร์โมนเกิน: prolactin · GH · ACTH · TSH (น้อย)",
+   "Cushing disease: ACTH ↑ · cortisol ไม่ถูกกดด้วย low-dose dexa แต่ถูกกดด้วย high-dose",
+   "Pituitary apoplexy: ปวดหัวทันที ตามัว ตาเหล่ adrenal crisis",
+   "Pineal: Parinaud + hydrocephalus",
+   "Suprasellar ในเด็ก: craniopharyngioma"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ \"pineal tumor\"",
+  "mnemonic": "<b>'Pituitary = ลานตา + ฮอร์โมน · Pineal = มองขึ้นไม่ได้'</b>",
+  "guide": "Melmed S. Pituitary-Tumor Endocrinopathies (N Engl J Med 2020;382:937); Youmans and Winn Neurological Surgery 8th ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยก้อนต่อมใต้สมองปวดศีรษะทันที ตามัว หนังตาตก ความดันต่ำ → pituitary apoplexy: hydrocortisone ด่วนแล้วพิจารณาผ่าตัด",
-   "<b>นอกสไลด์:</b> ก้อนต่อมใต้สมอง 3 cm ไม่สร้างฮอร์โมน กด chiasm prolactin 60 ng/mL → ตรวจ prolactin แบบเจือจางเพื่อตัด hook effect ก่อน ถ้ายังต่ำ = stalk effect: ผ่าตัด"
+   "หญิงหน้ากลม ท้องลาย ACTH สูง MRI microadenoma → Cushing disease → transsphenoidal surgery",
+   "ผู้ป่วย macroadenoma ปวดหัวทันที ตาเหล่ ความดันต่ำ → pituitary apoplexy → steroid",
+   "วัยรุ่นมองขึ้นไม่ได้ → pineal tumor"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 53 — ตัวพิมพ์: <b>2. ข้อใดไม่ใช่อาการของ pituitary tumor — A. Bitemporal hemianopia B. Moon face , buffalo hump , truncal obesity C. มือเท้าใหญ่ หน้าผากและโหนกคิ้วยื่น คางยื่น D. น้ำนมไหล ประจำเดือนขาด E. Upward gaze paresis &amp; Near light dissociation</b><br>ลายมือ: ✓ ที่ A–D · ขีด E + \"→ pineal tumor\"<br>ไฮไลต์: \"ไม่ใช่อาการของ pituitary tumor\" · E (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 44: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 53",
+  "kimg": [
+   "fsk_p53",
+   "kp69c_2",
+   "k2p_44"
   ]
  },
  "MDCU69|RoC|3": {
-  "interp": "เด็กหญิง 10 ปี อ้วนขึ้น นอนทั้งวัน กินมาก ต่อมาตามัว = อาการ hypothalamus + การมองเห็น · ถามโรค",
-  "why": "<b>คีย์: ขีด A · ลายมือ hypothalamus symptoms · สไลด์ craniopharyngioma: suprasellar, visual, hypothalamic symptoms</b><br><b>นอกสไลด์:</b> craniopharyngioma เกิดจากเศษ Rathke pouch เหนือ sella กด hypothalamus (กินมาก อ้วน ง่วง) optic chiasm (ตามัว) และต่อมใต้สมอง (ตัวเตี้ย เบาจืด)",
+  "interp": "เด็ก 10 ปี <b>อ้วนมาก นอนทั้งวัน ตื่นมากิน</b> ต่อมา<b>ตามัว</b> → ถามโรคที่คิดถึง",
+  "why": "อาการ<b>ไฮโปทาลามัส</b> (อ้วนจากกินไม่หยุด/ hyperphagia, ง่วงนอนมาก, ± เบาจืด ตัวเตี้ย) + <b>ตามัว</b> (กด chiasm — bitemporal hemianopia) ในเด็ก = <b>craniopharyngioma</b> · เนื้องอกจากเศษ Rathke's pouch บริเวณ <b>suprasellar</b> เป็นเนื้องอก suprasellar ที่พบบ่อยที่สุดในเด็ก · ภาพ: ก้อนถุงน้ำ + <b>หินปูน</b> + ส่วนเนื้อ · รักษา: ผ่าตัด ± รังสี และทดแทนฮอร์โมน · ไฟล์ขีด A ลายมือ <b>\"hypothalamic symptom\"</b> และแปะสไลด์ <b>\"Craniopharyngioma · เนื้องอกของ pituitary embryonic tissue · ผู้ป่วยส่วนใหญ่เป็นเด็ก · Suprasellar area-hypothalamus · Visual symptom · Hypothalamic symptom ไม่ทิ้ง กิน ไม่หยุด เลี้ยงไม่โต นอนมาก · Increase ICP\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ใหญ่ ลานสายตาแคบแบบ bitemporal ร่วมอาการฮอร์โมนเกิน เช่นน้ำนมไหล ประจำเดือนขาด MRI ก้อนใน sella ไม่มีหินปูน",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กเล็กอาเจียนตอนเช้าและเดินเซ MRI ก้อนเกิดจากพื้น fourth ventricle ลามออกทาง foramina ข้าง มีหินปูน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กอ้วนจากกินมากใช้พลังงานน้อย ตัวสูงตามอายุ ไม่มีอาการทางระบบประสาท ตามัว หรือฮอร์โมนผิดปกติ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก 5–10 ปีเดินเซลำตัว (truncal ataxia) MRI ก้อนกลาง vermis บนหลังคา fourth ventricle"
+   "B": "Pituitary adenoma พบน้อยในเด็ก และมักมาด้วยฮอร์โมนเกิน (prolactin/ ACTH) มากกว่าอาการไฮโปทาลามัส · จะถูกถ้าวัยรุ่นหญิงประจำเดือนขาด น้ำนมไหล MRI ก้อนใน sella",
+   "C": "Ependymoma ในเด็กมักอยู่ใน fourth ventricle → hydrocephalus อาเจียน เซ · จะถูกถ้าเด็ก 4 ปีปวดหัวตอนเช้า อาเจียน MRI ก้อนใน fourth ventricle ยื่นออก foramen",
+   "D": "อ้วนธรรมดาไม่ทำให้ตามัวหรือนอนมากผิดปกติร่วม · จะถูกถ้าเด็กอ้วนจากพฤติกรรม ไม่มีอาการทางระบบประสาท",
+   "E": "Medulloblastoma อยู่ที่ vermis ของสมองน้อย → เดินเซ อาเจียน hydrocephalus · จะถูกถ้าเด็ก 6 ปีเดินเซ อาเจียนตอนเช้า MRI ก้อนกลางสมองน้อย"
   },
-  "trap": "ก้อนเหนือ sella ในเด็กอย่าคิดว่าเป็น pituitary adenoma (พบน้อยในเด็ก) — craniopharyngioma มีทั้งหินปูนและถุงน้ำ (ของเหลวคล้ายน้ำมันเครื่อง)",
+  "trap": "คิดว่าเป็นโรคอ้วนธรรมดา — อ้วน + นอนมาก + ตามัวในเด็ก = ก้อนกดไฮโปทาลามัส/ chiasm",
   "summary": [
-   "<b>นอกสไลด์:</b> craniopharyngioma: พบสองช่วงอายุ (เด็ก และ 50–70 ปี) · อาการ: ฮอร์โมนขาด (ตัวเตี้ย เบาจืด) ตามัว ICP สูง และ hypothalamus · CT เห็นหินปูน + ถุงน้ำ · ผ่าตัดเอาออกให้มากที่สุดเท่าที่ปลอดภัย ± ฉายรังสี · หลังผ่าตัดเฝ้าระวังเบาจืดและฮอร์โมนขาด"
+   "Craniopharyngioma: เด็ก (และผู้ใหญ่วัยกลางคน) · suprasellar",
+   "อาการ: ตามัว (bitemporal) · ไฮโปทาลามัส (อ้วน นอนมาก) · ตัวเตี้ย · DI · ICP สูง",
+   "ภาพ: ถุงน้ำ + หินปูน + ส่วนเนื้อ · \"machinery oil\" fluid",
+   "รักษา: ผ่าตัด ± รังสี · ทดแทนฮอร์โมน",
+   "Hypothalamic obesity หลังผ่าตัดพบบ่อย",
+   "ก้อน suprasellar ในเด็ก: craniopharyngioma · germinoma · optic glioma"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์",
+  "mnemonic": "<b>'เด็กอ้วน + นอนมาก + ตามัว = Craniopharyngioma (กดไฮโปทาลามัส + chiasm)'</b>",
+  "guide": "Müller HL et al. Craniopharyngioma (Nat Rev Dis Primers 2019;5:75); Youmans and Winn Neurological Surgery 8th ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัด craniopharyngioma ปัสสาวะออกมาก โซเดียมสูง → central diabetes insipidus: desmopressin",
-   "<b>นอกสไลด์:</b> เด็ก craniopharyngioma ก่อนผ่าตัดตรวจพบ cortisol ต่ำ → ให้ hydrocortisone ก่อนและระหว่างผ่าตัด"
+   "เด็ก 8 ปีตัวเตี้ย ปัสสาวะมาก CT ก้อนหินปูนเหนือ sella → craniopharyngioma",
+   "เด็ก NF1 ตามัว MRI optic nerve โป่ง → optic pathway glioma",
+   "วัยรุ่น DI + ก้อน suprasellar β-hCG สูง → germinoma"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 53 — ตัวพิมพ์: <b>3. เด็กอายุ 10 ปี อ้วนมาก นอนทั้งวัน ตื่นมาก็กิน ต่อมามีตามัว แม่เลยพามารพ. คิดถึงโรคอะไร — A. Craniopharyngioma B. Pituitary tumor C. Ependymoma D. Morbid obesity E. Medulloblastoma</b><br>ลายมือ: \"hypothalamic symptom\" เหนือ อ้วนมาก นอนทั้งวัน · ขีด A<br>ไฮไลต์: \"10 ปี อ้วนมาก นอนทั้งวัน ตื่นมาก็กิน\" \"ตามัว\" \"คิดถึงโรคอะไร\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Craniopharyngioma — เนื้องอกของ pituitary embryonic tissue (ลายมือ \"เกิดจาก ectoderm → ant gland\") · ผู้ป่วยส่วนใหญ่เป็นเด็ก · Suprasellar area-hypothalamus · Visual symptom (ลายมือ \"bitemporal hemianopia\") · Hypothalamic symptom ไม่ทิ้ง กิน ไม่หยุด เลี้ยงไม่โต นอนมาก · Increase ICP (พร้อมภาพ MRI sagittal)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 44: ขีด A (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 53",
+  "kimg": [
+   "fsk_p53",
+   "kp69c_3",
+   "k2p_44"
   ]
  },
  "MDCU69|RoC|4": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับ steroid ในสมองบวม · คำตอบคือไม่มีข้อใดถูก",
-  "why": "<b>คีย์: ขีด E · ลายมือแก้ทุกช้อย: A ไม่มี→มี ประโยชน์ · B → vasogenic · C ขีดทิ้ง · D → ให้มากก่อนแล้วค่อยลด</b><br><b>นอกสไลด์:</b> ทุกช้อยมีจุดผิดตามที่ลายมือแก้ จึงไม่มีข้อใดถูก",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับการใช้ <b>steroid ใน brain edema</b> (ต้นฉบับ: A มีแต่โทษไม่มีประโยชน์ B ลด cytotoxic edema C ลด tumor growth D ให้ dose น้อยแล้วค่อยเพิ่ม E ไม่มีข้อถูก)",
+  "why": "ทุกข้อ A–D ผิด: steroid <b>มีประโยชน์</b>ชัดเจนใน<b>vasogenic edema</b> ของเนื้องอกและฝี (ลดการรั่วของ BBB) <b>ไม่ได้ลด cytotoxic edema</b> (stroke, TBI) · <b>ไม่ได้ลดการเติบโตของเนื้องอก</b>ทั่วไป (ยกเว้น lymphoma ที่ยุบลงจน biopsy ไม่ได้) · การให้คือ<b>เริ่มขนาดสูง</b> (เช่น dexamethasone 10 mg IV แล้ว 4 mg ทุก 6 ชม.) <b>แล้วค่อยลดขนาด</b>ลงเมื่ออาการดีขึ้น/ หลังผ่าตัด ไม่หยุดทันที (adrenal suppression) → คำตอบคือ <b>ไม่มีข้อถูก</b> · ไฟล์ขีด E และแก้ทุกช้อย: A ขีดฆ่า \"ไม่\" (มีประโยชน์) · B แก้ cytotoxic เป็น <b>\"vasogenic\"</b> · C ขีดฆ่า \"ลด\" · D แก้ น้อย → <b>\"มาก\"</b> และ เพิ่ม → <b>\"ลด\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นสมองบวมจากการบาดเจ็บศีรษะ — steroid เพิ่มการตายและไม่มีประโยชน์ (ต่างจากบวมรอบเนื้องอกที่ได้ผลชัด)",
-   "B": "ไม่มีสถานการณ์ใดที่ข้อความ “ลด cytotoxic edema” เป็นจริง เพราะ steroid ออกฤทธิ์ที่ blood-brain barrier จึงลดได้แค่ vasogenic",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น primary CNS lymphoma — steroid ทำให้เซลล์ lymphoma ตายจนก้อนยุบ (จึงห้ามให้ก่อนตัดชิ้นเนื้อ)",
-   "D": "ไม่มีสถานการณ์ใดที่หลักการคือเริ่มขนาดต่ำแล้วเพิ่มขึ้นเรื่อย ๆ เพราะให้ขนาดตามความรุนแรงของอาการตั้งแต่แรก แล้วลดลงเมื่อคุมอาการได้ เพื่อใช้ขนาดต่ำสุดในเวลาสั้นที่สุด"
+   "A": "ผิด — steroid มีประโยชน์มากใน vasogenic edema ของเนื้องอก (ลายมือขีดฆ่า \"ไม่\") · จะถูกถ้าคำถามถามการใช้ steroid ใน traumatic brain injury (CRASH: เพิ่มอัตราตาย)",
+   "B": "ผิด — steroid ลด vasogenic ไม่ใช่ cytotoxic (ลายมือแก้เป็น vasogenic) · จะถูกถ้าช้อยบอกว่าลด vasogenic edema",
+   "C": "ผิด — steroid ไม่ได้ลดการเติบโตของเนื้องอกทั่วไป (ลายมือขีดฆ่า \"ลด\") · จะถูกถ้าคำถามถาม primary CNS lymphoma ที่ยุบลงหลังได้ steroid",
+   "D": "ผิด — เริ่มขนาดสูงแล้วค่อยลด (ลายมือแก้เป็น \"ให้ dose มากก่อน แล้วค่อยลดลง\") · จะถูกถ้าคำถามถามการค่อย ๆ ลดยา (taper) หลังใช้นาน"
   },
-  "trap": "ช้อย C ดูถูกเพราะเคยได้ยินว่าก้อนยุบหลังให้ steroid — ที่ยุบเป็นเพราะบวมรอบก้อนลดลง (ยกเว้น lymphoma ที่เซลล์ตายจริง) เนื้องอกสมองทั่วไปไม่ได้เล็กลง",
+  "trap": "เลือก B เพราะคิดว่า steroid ลดสมองบวมทุกชนิด — ได้ผลเฉพาะ vasogenic",
   "summary": [
-   "<b>นอกสไลด์:</b> หลักการ steroid ในสมองบวม: ได้ผลเฉพาะ vasogenic (เนื้องอก ฝี) · ไม่ใช้ในสมองบวมจากบาดเจ็บหรือ stroke · ให้ขนาดตามอาการแล้วค่อยลด (ต่อมหมวกไตถูกกด) · สงสัย lymphoma ห้ามให้ก่อนตัดชิ้นเนื้อ"
+   "Steroid ได้ผล: vasogenic edema (เนื้องอก ฝี spinal cord compression จากมะเร็ง)",
+   "ไม่ได้ผล/ เป็นโทษ: cytotoxic (stroke, TBI — CRASH)",
+   "Dexamethasone: loading 10 mg IV → 4 mg q6h → taper",
+   "ไม่ลดการเติบโตของเนื้องอก (ยกเว้น lymphoma — งดก่อน biopsy)",
+   "ผลข้างเคียง: น้ำตาลสูง แผลกระเพาะ ติดเชื้อ myopathy",
+   "หยุดทันทีเสี่ยง adrenal insufficiency"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และการแก้ทุกช้อยด้วยลายมือ",
+  "mnemonic": "<b>'Steroid สมองบวม: Vasogenic ✓ · Cytotoxic ✗ · ให้มากก่อนแล้วลด'</b>",
+  "guide": "SNO/ EANO Joint Practice Guideline on Corticosteroid Use in Neuro-Oncology; CRASH Trial (Lancet 2004;364:1321)",
   "variants": [
-   "<b>นอกสไลด์:</b> ฝีในสมองบวมรอบมากจนมี mass effect ซึมลง → dexamethasone ระยะสั้นร่วมยาปฏิชีวนะและระบายหนอง",
-   "<b>นอกสไลด์:</b> ischemic stroke ขนาดใหญ่สมองบวมจนกดเบียด → ไม่ใช้ steroid ใช้ osmotherapy หรือ decompressive craniectomy"
+   "ผู้ป่วย metastasis บวมรอบ → dexamethasone ขนาดสูงแล้ว taper หลังผ่าตัด/ รังสี",
+   "ผู้ป่วยสงสัย primary CNS lymphoma → งด steroid จนกว่าได้ biopsy",
+   "บาดเจ็บสมองรุนแรง → ไม่ให้ steroid"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 53–54 — ตัวพิมพ์: <b>4. ข้อใดถูกต้องเกี่ยวกับการใช้ steroid ใน brain edema — A. มีแต่โทษ ไม่มีประโยชน์ B. ลด cytotoxic edema C. ลด tumor growth D. ให้ dose น้อยก่อน แล้วค่อยเพิ่มขึ้น E. ไม่มีข้อถูก</b><br>ลายมือ: A ขีดฆ่า \"ไม่\" · B ขีดฆ่า \"cytotoxic\" เขียน \"vasogenic\" · C ขีดฆ่า \"ลด\" · D ขีดฆ่า \"น้อย\" เขียน \"มาก\" และขีดฆ่า \"เพิ่ม\" เขียน \"ลด\" · ขีด E<br>ไฮไลต์: \"ถูกต้องเกี่ยวกับการใช้ steroid ใน brain edema\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 45: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 53",
+  "kimg": [
+   "fsk_p53",
+   "kp69c_4",
+   "kp69c_4b",
+   "k2p_45"
   ]
  },
  "MDCU69|RoC|5": {
-  "interp": "ถามเลือดออกในกะโหลกชนิดที่เสี่ยงออกซ้ำมากที่สุดถ้าไม่รักษาให้เหมาะสม",
-  "why": "<b>คีย์: ขีด E · ลายมือ M/C จาก aneurysm · สไลด์ annual risk: aneurysm 50% in first 6 months</b><br><b>นอกสไลด์:</b> SAH ที่ไม่ได้เกิดจากการบาดเจ็บส่วนใหญ่มาจาก aneurysm แตก ซึ่งถ้ายังไม่ได้ clip หรือ coil จะแตกซ้ำได้สูงมาก และการแตกซ้ำทำให้ตายสูง",
+  "interp": "ถามเลือดออกในกะโหลกตำแหน่งใด<b>เสี่ยงเลือดออกซ้ำสูงที่สุด</b>ถ้าไม่ได้รักษาที่เหมาะสม",
+  "why": "<b>Subarachnoid hemorrhage</b> ส่วนใหญ่ (~85%) เกิดจาก<b>หลอดเลือดโป่งพองแตก (ruptured aneurysm)</b> ซึ่ง<b>เลือดออกซ้ำสูงมาก</b>ถ้าไม่ได้ปิด aneurysm: ~4–14% ใน 24 ชม.แรก และ<b>~50% ใน 6 เดือนแรก</b> อัตราตายจากเลือดออกซ้ำสูงมาก → ต้อง <b>secure aneurysm (coiling/ clipping) โดยเร็ว</b> · ส่วน hypertensive ICH (basal ganglia, thalamus, lobar) เลือดออกซ้ำน้อย (~2%/ปี) · ไฟล์ขีด E ลายมือ <b>\"∵ M/C จาก aneurysm\"</b> และ A–D <b>\"M/C จาก hypertensive\"</b> พร้อมแปะสไลด์ <b>\"Annual Risk of Recurrent Hemorrhage — Hypertensive 2% · Cerebral Amyloid Angiopathy 10.5% · AVM 18% · Intracranial Aneurysm 50% within first 6 months · Cavernoma 4.5% · Venous Angioma 0.15%\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเทียบเฉพาะเลือดออกในเนื้อสมอง (SAH ในตัวเลือกไม่ได้มาจาก aneurysm) — lobar จาก cerebral amyloid angiopathy ออกซ้ำบ่อยที่สุดในกลุ่ม ICH",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ thalamic hemorrhage เป็นกลุ่มที่ออกซ้ำสูงสุด เพราะส่วนใหญ่มาจากหลอดเลือดเล็กเสื่อมจากความดันสูง ซึ่งออกซ้ำต่ำเมื่อคุมความดัน",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ basal ganglia hemorrhage เป็นกลุ่มที่ออกซ้ำสูงสุด เพราะเกิดจาก lenticulostriate artery เสื่อมจากความดันสูงเป็นหลัก ออกซ้ำน้อยเมื่อคุมความดันได้",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ IVH เองเป็นตัวกำหนดความเสี่ยงเลือดออกซ้ำ เพราะเป็นตำแหน่งที่เลือดไปอยู่ — ความเสี่ยงขึ้นกับรอยโรคต้นเหตุ"
+   "A": "Lobar hemorrhage (amyloid angiopathy) เลือดออกซ้ำ ~10%/ปี ต่ำกว่า aneurysm · จะถูกถ้าคำถามถาม ICH ชนิดที่กลับเป็นซ้ำบ่อยที่สุดในผู้สูงอายุไม่มีความดันสูง",
+   "B": "Thalamic hemorrhage (hypertensive) เลือดออกซ้ำน้อย ~2%/ปี · จะถูกถ้าคำถามถามตำแหน่ง ICH ที่ทำให้ชาครึ่งซีกและ IVH บ่อย",
+   "C": "Basal ganglia hemorrhage (hypertensive) เลือดออกซ้ำน้อย · จะถูกถ้าคำถามถามตำแหน่ง ICH ที่พบบ่อยที่สุด",
+   "D": "IVH มักเป็นผลจาก ICH ข้างโพรงสมอง/ AVM ไม่ใช่กลุ่มที่เลือดออกซ้ำสูงสุด · จะถูกถ้าคำถามถามภาวะที่ทำให้ hydrocephalus ต้องใส่ EVD"
   },
-  "trap": "SAH จากการบาดเจ็บศีรษะพบบ่อยที่สุด แต่ไม่ได้เสี่ยงออกซ้ำแบบ aneurysm — ความเสี่ยงสูงอยู่ที่ aneurysmal SAH ที่ยังไม่ได้รักษา",
+  "trap": "คิดว่า ICH ขนาดใหญ่เลือดออกซ้ำมากกว่า — aneurysmal SAH ที่ยังไม่ได้ปิดเสี่ยงสูงสุด",
   "summary": [
-   "aneurysm ที่แตกแล้วไม่รักษา แตกซ้ำราว 50% ใน 6 เดือนแรก",
-   "<b>นอกสไลด์:</b> เสี่ยงแตกซ้ำสูงสุดใน 24 ชม.แรก → รักษา aneurysm (coil หรือ clip) โดยเร็ว · ก่อนรักษาคุม SBP ต่ำกว่าราว 160 mmHg"
+   "Aneurysm แตก: ซ้ำ ~4–14% ใน 24 ชม. · ~50% ใน 6 เดือน",
+   "Secure aneurysm เร็ว (coiling/ clipping) · คุม SBP &lt; 160",
+   "AVM: ~18% (ปีแรกหลังแตก) · amyloid: ~10% · hypertensive: ~2%",
+   "Nimodipine ป้องกัน delayed cerebral ischemia",
+   "Vasospasm วันที่ 4–14",
+   "Hydrocephalus → EVD"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์",
+  "mnemonic": "<b>'Aneurysm แตกแล้วไม่ปิด = ครึ่งหนึ่งแตกซ้ำใน 6 เดือน'</b>",
+  "guide": "2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)",
   "variants": [
-   "<b>นอกสไลด์:</b> SAH รอบ midbrain (perimesencephalic) CTA และ angiogram ปกติ → พยากรณ์ดี แทบไม่ออกซ้ำ",
-   "<b>นอกสไลด์:</b> SAH กระจายทั่ว basal cisterns แต่ angiogram ครั้งแรกปกติ → ทำ angiogram ซ้ำใน 1–2 สัปดาห์ (aneurysm อาจถูกบังด้วยลิ่มเลือดหรือหลอดเลือดหดเกร็ง)"
+   "SAH CTA พบ AComA aneurysm → coiling/ clipping ภายใน 24–72 ชม.",
+   "ผู้สูงอายุเลือดออก lobar ซ้ำ microbleeds → cerebral amyloid angiopathy",
+   "SAH วันที่ 7 ซึมลงอ่อนแรงใหม่ → vasospasm → induced hypertension/ endovascular"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 54 — ตัวพิมพ์: <b>5. เลือดออกที่ใด โอกาส re- bleed สูงถ้าไม่ได้รับการรักษาที่เหมาะสม — A. Lobar hemorrhage B. Thalamic hemorrhage C. Basal ganglion hemorrhage D. Intraventricular hemorrhage E. Subarachnoid hemorrhage</b><br>ลายมือ: ปีกกา A–D \"M/C จาก hypertensive\" · ขีด E + \"∵ M/C จาก aneurysm\"<br>ไฮไลต์: \"โอกาส re- bleed สูงถ้าไม่ได้รับการรักษาที่เหมาะสม\" · E (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ Annual Risk of Recurrent Hemorrhage — Hypertensive 2% · Cerebral Amyloid Angiopathy 10.5% · AVM 18% · Intracranial Aneurysm 50% within first 6 months · Cavernoma 4.5% · Venous Angioma 0.15% (พร้อมลายมือ \"SAH\" และหมายเหตุเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 45: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 54",
+  "kimg": [
+   "fsk_p54",
+   "kp69c_5",
+   "k2p_45"
   ]
  },
  "MDCU69|RoC|6": {
-  "interp": "ถามกลไกป้องกันการติดเชื้อหลักของระบบประสาทส่วนกลาง",
-  "why": "<b>คีย์: ขีด A · สไลด์ CNS defensive mechanism: anatomical barrier, immunological response</b><br><b>นอกสไลด์:</b> ด่านหลักคือสิ่งกั้น: กะโหลก เยื่อหุ้มสมอง blood-brain barrier (endothelium เชื่อมแน่น) และ blood-CSF barrier ที่ choroid plexus",
+  "interp": "ถาม<b>กลไกป้องกันหลัก</b>ของระบบประสาทส่วนกลางต่อการติดเชื้อ",
+  "why": "ระบบประสาทส่วนกลางป้องกันการติดเชื้อด้วย <b>anatomical barrier</b> เป็นหลัก: <b>กะโหลก/ กระดูกสันหลัง เยื่อหุ้มสมอง (dura) และ blood-brain barrier</b> (endothelium มี tight junction) · ภายใน CNS มีภูมิคุ้มกันจำกัด (immunologically privileged): complement และ immunoglobulin ใน CSF ต่ำ เม็ดเลือดขาวน้อย จึงเมื่อเชื้อผ่านด่านเข้าไปแล้วจะลุกลามเร็ว · ไฟล์ขีด A และแปะสไลด์ <b>\"CNS Infection · CNS defensive mechanism · Anatomical Barrier · Immunological response (Humoral response, Phagocytic cell response, Complement)\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ neutrophil เป็นกลไกป้องกันหลักของ CNS เพราะปกติ CSF แทบไม่มี neutrophil — เข้ามาหลังเชื้อข้าม barrier แล้ว",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ complement เป็นกลไกป้องกันหลักของ CNS เพราะระดับใน CSF ต่ำมาก เชื้อจึงถูกจับกินได้น้อย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ macrophage เป็นกลไกป้องกันหลักของ CNS เพราะ microglia/macrophage ทำงานหลังเชื้อเข้าเนื้อสมองแล้ว เป็นด่านที่สอง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ immunoglobulin เป็นกลไกป้องกันหลักของ CNS เพราะ IgG ผ่าน barrier ได้น้อย ระดับใน CSF ต่ำมาก"
+   "B": "Neutrophil เข้าสู่ CSF เมื่อเกิดการอักเสบแล้ว ไม่ใช่ด่านหลัก · จะถูกถ้าคำถามถามเซลล์หลักใน CSF ของ bacterial meningitis",
+   "C": "Complement ใน CSF ต่ำมาก จึงฆ่าเชื้อได้น้อย (เหตุที่ CNS ติดเชื้อง่ายเมื่อเชื้อเข้าไปแล้ว) · จะถูกถ้าคำถามถามภาวะที่ขาด complement ปลาย (C5–C9) เสี่ยง Neisseria meningitis ซ้ำ",
+   "D": "Macrophage/ microglia เป็นภูมิคุ้มกันภายใน แต่ไม่ใช่ด่านหลัก · จะถูกถ้าคำถามถามเซลล์ภูมิคุ้มกันประจำถิ่นของสมอง (microglia)",
+   "E": "Immunoglobulin ใน CSF ต่ำ ไม่ใช่ด่านหลัก · จะถูกถ้าคำถามถาม oligoclonal band ใน CSF ของ multiple sclerosis"
   },
-  "trap": "คิดว่าเซลล์และแอนติบอดีเป็นด่านหลักเหมือนอวัยวะอื่น — ใน CNS ภูมิคุ้มกันภายในอ่อน ทางเข้าที่ข้ามสิ่งกั้นจึงเป็นตัวกำหนดว่าจะติดเชื้อหรือไม่",
+  "trap": "ตอบเซลล์ภูมิคุ้มกัน — CNS พึ่งพาด่านทางกายวิภาค (กระดูก เยื่อหุ้ม BBB) เป็นหลัก",
   "summary": [
-   "<b>นอกสไลด์:</b> ทางที่เชื้อข้ามสิ่งกั้น: กะโหลกแตกหรือ CSF รั่ว · ลามจากไซนัส หู ฟัน · กระแสเลือด (endocarditis, หัวใจพิการชนิดเขียว) · สิ่งแปลกปลอมหรือผ่าตัด (shunt, craniotomy)"
+   "ด่านหลัก: กะโหลก/ กระดูกสันหลัง · dura · BBB",
+   "ภูมิคุ้มกันใน CSF ต่ำ (complement, Ig, เม็ดเลือดขาว)",
+   "เชื้อเข้าทาง: กระแสเลือด · ลามจาก sinus/ หู · บาดเจ็บ/ ผ่าตัด · CSF leak",
+   "CSF rhinorrhea เรื้อรัง → meningitis ซ้ำ (pneumococcus)",
+   "Splenectomy/ complement deficiency → encapsulated bacteria",
+   "ยาต้องผ่าน BBB ได้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์",
+  "mnemonic": "<b>'สมองป้องกันด้วยกำแพง (กระดูก + เยื่อ + BBB) ไม่ใช่ทหาร (เม็ดเลือดขาว)'</b>",
+  "guide": "Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases 9th ed. (2020) — CNS infections",
   "variants": [
-   "<b>นอกสไลด์:</b> วัยรุ่นไซนัสหน้าผากอักเสบ หน้าผากบวมนุ่ม (Pott puffy tumor) → กระดูกหน้าผากอักเสบ เสี่ยงหนองใต้ dura และฝีในสมอง: CT/MRI ฉีดสี",
-   "<b>นอกสไลด์:</b> ผู้ป่วยหลังตัดม้ามมีไข้สูง คอแข็ง → meningitis จากเชื้อมีแคปซูล (pneumococcus) — ป้องกันด้วยวัคซีนรอบการตัดม้าม"
+   "ผู้ป่วยหลังกะโหลกฐานแตก น้ำใสไหลจากจมูก meningitis ซ้ำ → CSF leak → ซ่อม",
+   "ผู้ป่วยขาด C5–C9 meningococcal meningitis ซ้ำ → complement deficiency",
+   "ผู้ป่วยหลังผ่าตัดม้าม → วัคซีน pneumococcus, Hib, meningococcus"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 54 — ตัวพิมพ์: <b>6. What is the main defense mechanism of central nervous system — A. Anatomical barrier B. PMN C. Complement D. Macrophage E. Immunoglobulin</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"main defense mechanism\" \"central nervous system\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ CNS Infection — CNS defensive mechanism · Anatomical Barrier · Immunological response: Humoral response, Phagocytic cell response, Complement (พร้อมภาพสมอง sagittal และลายมือเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 45: ขีด A (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 54",
+  "kimg": [
+   "fsk_p54",
+   "kp69c_6",
+   "k2p_45"
   ]
  },
  "MDCU69|RoC|7": {
-  "interp": "ถูกตีศีรษะซ้าย หมดสติ 5 นาที ตื่นแล้ว 2 ชม.ต่อมาซึมลง (lucid interval) หนังศีรษะบวม frontotemporal ซ้าย pupil ซ้ายขยายไม่ตอบสนอง เกร็งเหยียดซีกขวา · ถามการวินิจฉัย",
-  "why": "<b>คีย์: ขีด A · ลายมือ ipsilateral CN III palsy</b><br><b>นอกสไลด์:</b> กระดูก temporal แตกฉีก middle meningeal artery → เลือดแดงสะสมระหว่างกะโหลกกับ dura เร็ว หลังสมองฟื้นจากกระทบกระเทือนจึงมีช่วงรู้สึกตัวดี แล้วก้อนโตจน uncus เคลื่อนกด CN III ข้างเดียวกัน (pupil ซ้ายขยาย) และ cerebral peduncle (อ่อนแรง/เกร็งซีกตรงข้าม)",
+  "interp": "ผู้ป่วยถูกตีศีรษะซ้าย <b>สลบ 5 นาทีแล้วตื่น (lucid interval)</b> 2 ชม.ต่อมา<b>ซึมลง</b> หนังศีรษะบวมขมับซ้าย อ่อนแรงแบบ decerebrate ซีกขวา <b>รูม่านตาซ้าย 5 mm ไม่ตอบสนอง</b> ขวา 2 mm → ถามวินิจฉัย",
+  "why": "บาดเจ็บที่<b>ขมับ (frontotemporal)</b> + <b>หมดสติสั้น ๆ → ตื่น (lucid interval) → ซึมลงภายในชั่วโมง</b> = <b>acute epidural hematoma</b> (มักจาก middle meningeal artery ฉีกร่วมกับกะโหลกแตกที่ temporal) · ก้อนโตเร็วกด uncus → <b>CN III ข้างเดียวกันเสีย (รูม่านตาซ้ายขยาย)</b> และ<b>อ่อนแรงซีกตรงข้าม</b> = uncal herniation · CT: ก้อนเลือด<b>รูปเลนส์ (biconvex)</b> ไม่ข้ามรอยต่อกะโหลก · รักษา: <b>craniotomy เอาเลือดออกด่วน</b> · ไฟล์ขีด A ลายมือ <b>\"ipsilat. CN3 palsy\"</b> ที่รูม่านตาซ้าย และ \"ipsilat. weakness\" ที่ decerebrate (ต้นฉบับเขียน left decerebrate) และมีคำว่า \"ซ้ำ\" หน้าข้อ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุกินยาต้านเกล็ดเลือด หกล้มเล็กน้อยหลายสัปดาห์ก่อน แล้วค่อย ๆ สับสนและอ่อนแรงครึ่งซีก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยความดันสูงอ่อนแรงครึ่งซีกทันทีโดยไม่มีการบาดเจ็บ CT เลือดในเนื้อสมองที่ basal ganglia",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าปวดศีรษะรุนแรงทันทีที่สุดในชีวิต คอแข็ง โดยไม่มีการบาดเจ็บ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกคลอดก่อนกำหนดซึมลง fontanelle โป่ง US เห็นเลือดในโพรงสมองจาก germinal matrix"
+   "B": "Chronic SDH เกิดในผู้สูงอายุ/ ดื่มสุรา/ กินยาละลายลิ่มเลือด อาการค่อยเป็นหลายสัปดาห์ ไม่ใช่ภายใน 2 ชม. · จะถูกถ้าชายสูงอายุล้มเล็กน้อย 3 สัปดาห์ก่อน ค่อย ๆ สับสน CT ก้อนรูปจันทร์เสี้ยวสีจาง",
+   "C": "ICH จากบาดเจ็บ (contusion) มักไม่มี lucid interval ชัด · จะถูกถ้าผู้ป่วยหมดสติตั้งแต่บาดเจ็บ CT เลือดในเนื้อสมอง frontal/ temporal",
+   "D": "Traumatic SAH มักไม่ทำให้ซึมลงเร็วพร้อมรูม่านตาข้างเดียวขยาย · จะถูกถ้า CT หลังบาดเจ็บพบเลือดบาง ๆ ในร่องสมอง ผู้ป่วยปวดหัว GCS 15",
+   "E": "IVH จากบาดเจ็บพบน้อย มักร่วมกับบาดเจ็บรุนแรงไม่มี lucid interval · จะถูกถ้าผู้ป่วยบาดเจ็บรุนแรง CT เลือดในโพรงสมอง hydrocephalus"
   },
-  "trap": "lucid interval ไม่ได้มีในทุกราย EDH และพบใน SDH ได้ — ตัดสินจาก CT: EDH เป็นรูปเลนส์นูนสองด้าน ไม่ข้ามรอยต่อกะโหลก",
+  "trap": "คิดว่า subdural เพราะเป็นก้อนเลือดใต้กะโหลกที่พบบ่อย — lucid interval + บาดเจ็บขมับ + ซึมเร็ว = epidural",
   "summary": [
-   "<b>นอกสไลด์:</b> EDH ผ่าตัดเมื่อปริมาตร > 30 mL ไม่ว่า GCS เท่าใด หรือ GCS ≤ 8 ร่วม pupil ไม่เท่ากัน (ผ่าตัดด่วน) · ก้อน &lt; 30 mL หนา &lt; 15 mm shift &lt; 5 mm GCS > 8 ไม่มีอาการเฉพาะที่ → เฝ้าดูและ CT ซ้ำ"
+   "EDH: middle meningeal artery · temporal fracture · lucid interval · biconvex",
+   "Acute SDH: bridging veins · หมดสติตั้งแต่ต้น · crescent · พยากรณ์แย่กว่า",
+   "Chronic SDH: ผู้สูงอายุ · สัปดาห์ · crescent จาง",
+   "Uncal herniation: CN III ข้างเดียวกัน + อ่อนแรงซีกตรงข้าม",
+   "Kernohan notch: อ่อนแรงข้างเดียวกัน (false localizing)",
+   "ผ่าตัด EDH: &gt; 30 mL · midline shift · GCS ลด/ anisocoria"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับเขียน left decerebrate (ข้างเดียวกัน) ซึ่งเป็นประเด็นของข้อ 8 (Kernohan phenomenon) เว็บเขียนข้อนี้เป็นซีกขวาตามรูปแบบทั่วไป",
+  "mnemonic": "<b>'EDH = ตีขมับ สลบ-ตื่น-ซึม (lucid interval) รูปเลนส์'</b>",
+  "guide": "Brain Trauma Foundation: Surgical Management of Acute Epidural Hematomas (Neurosurgery 2006;58:S2-7); ATLS 10th ed. (ACS 2018) — Head trauma",
   "variants": [
-   "<b>นอกสไลด์:</b> รพ.ที่ไม่มีประสาทศัลยแพทย์ ผู้ป่วย EDH ซึมลง pupil ขยาย ส่งต่อไม่ทัน → เจาะ burr hole ที่ temporal ข้างเดียวกับ pupil ขยาย",
-   "<b>นอกสไลด์:</b> EDH ที่ posterior fossa หลังท้ายทอยกระแทก ซึมลงเร็ว → ผ่าตัดด่วนแม้ก้อนเล็ก (พื้นที่น้อย กดก้านสมอง)"
+   "CT ก้อนรูปเลนส์ขมับซ้าย 40 mL midline shift → craniotomy ด่วน",
+   "ผู้สูงอายุล้มเล็กน้อย 3 สัปดาห์ สับสน CT ก้อนจันทร์เสี้ยวสีจาง → chronic SDH → burr hole",
+   "EDH ซ้าย แต่อ่อนแรงซีกซ้าย → Kernohan notch phenomenon"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 54 — ตัวพิมพ์: <b>7. ผู้ป่วยโดนตีหัวที่ด้านซ้าย สลบไป 5 นาที หลังจากนั้นตื่นมาถูกนำส่งโรงพยาบาลใน 2 ชั่วโมงถัดมา ผลการตรวจร่างกาย Glasgow coma score xxx puffy scalp at left frontotemporal region , left decerebrate , right pupil 2 cm RTL , left pupil 5 cm NRTLจงให้การวินิจฉัยผู้ป่วยราย&#8203;นี้ — A. Acute epidural hematoma B. Chronic subdural hematoma C. Intracerebral hemorrhage D. Subarachnoid hemorrhage E. Intraventricular hemorrhage</b><br>ลายมือ: \"ซ้ำ\" หน้าข้อ (แดง) · \"ipsilat. weakness\" เหนือ left decerebrate · \"ipsilat. CN3 palsy\" เหนือ left pupil · ขีด A<br>ไฮไลต์: \"left decerebrate\" \"left pupil 5 cm NRTL\" \"วินิจฉัย\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 45: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: left decerebrate → right-sided · หน่วย cm ของรูม่านตา → mm",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 54",
+  "kimg": [
+   "fsk_p54",
+   "kp69c_7",
+   "k2p_45"
   ]
  }
 }
