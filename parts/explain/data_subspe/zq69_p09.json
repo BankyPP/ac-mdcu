@@ -1,192 +1,343 @@
 {
  "MDCU69|RoC|X13": {
-  "interp": "ถามกลไกที่ citrate ในปัสสาวะป้องกันนิ่ว",
-  "why": "<b>คีย์: ขีด 1</b><br><b>นอกสไลด์:</b> citrate ในปัสสาวะจับ calcium เป็น complex ที่ละลายน้ำได้ ลด calcium อิสระที่จะจับกับ oxalate หรือ phosphate (ลดความอิ่มตัว) และยับยั้งการรวมตัวและโตของผลึก · potassium citrate ยังเปลี่ยนเป็น bicarbonate ทำให้ปัสสาวะเป็นด่าง",
+  "interp": "ถามกลไกที่ <b>citrate</b> ป้องกันนิ่วในทางเดินปัสสาวะ",
+  "why": "Citrate ในปัสสาวะ<b>จับกับแคลเซียมเป็นสารประกอบเชิงซ้อนที่ละลายน้ำได้ (complexing Ca²⁺)</b> → ลดแคลเซียมอิสระที่จะไปจับ oxalate/ phosphate → <b>ลดความอิ่มตัวยิ่งยวด (supersaturation)</b> และยับยั้งการเกาะกลุ่ม/ โตของผลึก · <b>potassium citrate</b> ยังทำให้ปัสสาวะเป็นด่าง (ช่วยนิ่ว uric acid/ cystine) · hypocitraturia (เช่น RTA type 1, ท้องเสียเรื้อรัง, อาหารโปรตีนสูง) เป็นปัจจัยเสี่ยงนิ่ว ซึ่งพบบ่อยในคนไทย · ไฟล์ขีด 1 ลายมือเติม <b>\"Ca²⁺\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “citrate ป้องกันนิ่วโดยลด pH ปัสสาวะ” เป็นจริง เพราะ citrate ถูกเผาผลาญเป็น bicarbonate ทำให้ pH ปัสสาวะสูงขึ้น ไม่ใช่ลดลง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่สารป้องกันนิ่วทำงานโดยเพิ่มความอิ่มตัวของปัสสาวะ เพราะนิ่วเกิดเมื่อปัสสาวะอิ่มตัวเกิน การป้องกันทุกวิธี (ดื่มน้ำ citrate thiazide) มุ่งลดความอิ่มตัว",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ citrate เพิ่ม oxalate ในปัสสาวะ เพราะ oxalate สูงมาจากอาหาร oxalate สูง การดูดซึมจากลำไส้มากเกิน (เช่นลำไส้สั้น โรคลำไส้อักเสบ) หรือ vitamin C ขนาดสูง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การทำให้ปัสสาวะเป็นกรดคือกลไกของ citrate เพราะปัสสาวะกรดกลับเร่งนิ่ว uric acid และ cystine ซึ่ง potassium citrate ใช้รักษาด้วยการทำให้ปัสสาวะเป็นด่าง"
+   "B": "Citrate (potassium citrate) ทำให้ปัสสาวะ pH <b>สูงขึ้น</b> (เป็นด่าง) ไม่ใช่ต่ำลง · จะถูกถ้าคำถามถามผลของ ammonium chloride/ vitamin C ขนาดสูง",
+   "C": "Citrate <b>ลด</b> supersaturation ไม่ใช่เพิ่ม · จะถูกถ้าคำถามถามผลของการดื่มน้ำน้อยต่อปัสสาวะ",
+   "D": "Citrate ไม่เพิ่ม oxalate · จะถูกถ้าคำถามถามผลของ enteric hyperoxaluria (ลำไส้เล็กถูกตัด/ Crohn) หรือ vitamin C ขนาดสูง",
+   "E": "Citrate ทำให้ปัสสาวะเป็นด่าง ไม่ใช่กรด · จะถูกถ้าคำถามถามการรักษานิ่ว struvite ร่วมกับยาที่ทำให้ปัสสาวะเป็นกรด"
   },
-  "trap": "potassium citrate ทำให้ปัสสาวะเป็นด่าง — ดีต่อนิ่ว calcium oxalate, uric acid และ cystine แต่ในนิ่ว calcium phosphate หรือ struvite ที่ตกผลึกในด่าง การให้ด่างมากเกินอาจเร่งนิ่ว ต้องติดตาม pH",
+  "trap": "จำผิดว่า citrate ทำให้ปัสสาวะเป็นกรด — citrate เป็นด่างและจับแคลเซียม",
   "summary": [
-   "<b>นอกสไลด์:</b> citrate ในปัสสาวะต่ำ (hypocitraturia) พบในท้องเสียเรื้อรัง K ต่ำ (รวมจาก thiazide) กินโปรตีนจากสัตว์มาก · รักษาด้วย potassium citrate ไม่ใช้ sodium citrate เพราะ sodium เพิ่ม calcium ในปัสสาวะ"
+   "Citrate: จับ Ca²⁺ · ยับยั้งการตกผลึก/ เกาะกลุ่ม · ทำให้ปัสสาวะเป็นด่าง",
+   "Hypocitraturia: RTA type 1 · ท้องเสียเรื้อรัง · โปรตีนสูง · hypokalemia",
+   "Potassium citrate: นิ่ว Ca oxalate ร่วม hypocitraturia · uric acid · cystine",
+   "นิ่วทั่วไป: ดื่มน้ำให้ปัสสาวะ &gt; 2–2.5 L/วัน · ลดเกลือ ลดโปรตีนสัตว์",
+   "ไม่ต้องลดแคลเซียมในอาหาร (เพิ่มนิ่ว oxalate)",
+   "Thiazide: hypercalciuria"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'Citrate = Cage จับ Calcium (+ ปัสสาวะเป็นด่าง)'</b>",
+  "guide": "AUA Guideline: Medical Management of Kidney Stones (2019); EAU Guidelines on Urolithiasis 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยนิ่ว calcium phosphate หลายก้อนซ้ำ ปัสสาวะ pH สูงตลอดทั้งที่เลือดเป็นกรดและ K ต่ำ → distal RTA: potassium citrate",
-   "<b>นอกสไลด์:</b> นิ่ว uric acid ล้วน (โปร่งรังสีในภาพธรรมดา) ขนาด 1 cm ไม่อุดตัน → potassium citrate ให้ pH ปัสสาวะราว 6.5 ละลายนิ่วได้โดยไม่ต้องผ่าตัด"
+   "นิ่ว Ca oxalate ซ้ำ citrate ในปัสสาวะต่ำ → potassium citrate",
+   "นิ่ว uric acid ปัสสาวะ pH 5.0 → potassium citrate ให้ pH 6.5",
+   "RTA type 1 → hypocitraturia + ปัสสาวะด่าง → นิ่ว Ca phosphate"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 66 — ตัวพิมพ์: <b>XX. Citrate ทำหน้าที่อย่างไรกับนิ่ว — 1. complexing ca 2. ph ต่ำลง 3. increase saturation of urine</b><br>ลายมือ: เติม \"2+\" ที่ ca · ขีด 1<br>ไฮไลต์: \"Citrate ทำหน้าที่อย่างไรกับนิ่ว\" · 1 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 57: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 66",
+  "kimg": [
+   "fsk_p66",
+   "kp69c_X13",
+   "k2p_57"
   ]
  },
  "MDCU69|RoC|X14": {
-  "interp": "ทารก 6 เดือนปวดบิดเป็นพัก งอขา 12 ชม. ตรวจเลือดแฝงในอุจจาระบวก · ถามการวินิจฉัย",
-  "why": "<b>คีย์: ขีด 2 + ลายมือ peak 3–9 mo</b><br><b>นอกสไลด์:</b> อายุ 6 เดือนอยู่ในช่วงที่พบ intussusception มากที่สุด ช่วงนี้เนื้อเยื่อน้ำเหลืองในผนัง ileum (Peyer patch) โตตามการติดเชื้อไวรัส เป็นจุดนำให้ลำไส้มุดเข้า colon · ปวดบิดเป็นพักร่วมเลือดในอุจจาระเข้ากับลำไส้มุดที่บีบหลอดเลือดดำ",
+  "interp": "ทารก <b>6 เดือน</b> <b>ปวดท้องบิดเป็นพัก 12 ชม. ขาคู้</b> อุจจาระ <b>guaiac บวก</b> → ถามการวินิจฉัย",
+  "why": "อายุ 6 เดือน (ช่วง peak 3–9 เดือน) + ปวดท้องเป็นพัก ร้อง ชักขาขึ้น + เลือดในอุจจาระ = <b>intussusception</b> (ileocolic) · US: target/ doughnut sign → air/ hydrostatic enema reduction ถ้าไม่มี peritonitis · ไฟล์ขีด 2 ลายมือ <b>\"peak 3–8 mo\"</b> และ <b>\"∴ occult blood test +ve\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กโตหรือผู้ใหญ่ปวดบิดที่สีข้างร้าวลงขาหนีบ มีเลือดในปัสสาวะ (ไม่ใช่ในอุจจาระ)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกอาเจียนสีเขียวเฉียบพลันเป็นอาการเด่น upper GI เห็น DJ flexure อยู่ขวาของกระดูกสันหลัง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก 2 ปีซีด ถ่ายเลือดสีแดงคล้ำปริมาณมากครั้งเดียวโดยไม่ปวดท้อง และ technetium scan บวก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กวัยเรียนมีไข้ ปวดท้องน้อยขวาตลอดเวลา เดินกระเผลก กดเจ็บและปล่อยเจ็บ"
+   "A": "นิ่วไตพบน้อยมากในทารก และไม่ทำให้เลือดในอุจจาระ · จะถูกถ้าผู้ใหญ่ปวดบิดสีข้างร้าวลงขาหนีบ ปัสสาวะมีเลือด",
+   "C": "Malrotation volvulus มักมาด้วยอาเจียนสีเขียวในเดือนแรก · จะถูกถ้าทารก 3 สัปดาห์อาเจียนสีเขียวทันทีทันใด",
+   "D": "Meckel เลือดออกมากไม่เจ็บ (painless) พบ ~2 ปี · จะถูกถ้าเด็ก 2 ขวบถ่ายเลือดแดงคล้ำปริมาณมาก ไม่ปวดท้อง",
+   "E": "ไส้ติ่งอักเสบพบน้อยในทารก ปวดต่อเนื่อง ไม่มีเลือดในอุจจาระ · จะถูกถ้าเด็ก 10 ขวบปวดรอบสะดือย้ายมาขวาล่าง ไข้"
   },
-  "trap": "ทารกร้องกวนเป็นพัก ๆ ถูกคิดว่าเป็น infant colic — colic ร้องช่วงเย็นค่ำ ไม่อาเจียน ไม่มีเลือดในอุจจาระ ถ้ามีเลือด อาเจียน หรือซึมระหว่างพัก ต้องทำ US",
+  "trap": "สับสนกับ Meckel เพราะมีเลือดในอุจจาระ — ปวดเป็นพัก ขาคู้ = intussusception · Meckel ไม่เจ็บ",
   "summary": [
-   "<b>นอกสไลด์:</b> intussusception ที่อายุนอกช่วงปกติ (น้อยกว่าราว 3 เดือน หรือมากกว่าราว 5 ปี) หรือเป็นซ้ำหลายครั้ง → หา lead point เช่น Meckel diverticulum, polyp, duplication cyst"
+   "Intussusception: 3 เดือน–3 ปี (peak 3–9 เดือน)",
+   "ปวดเป็นพัก ขาคู้ ซึมระหว่างพัก · ก้อน sausage · currant jelly",
+   "US: target sign (เลือกตรวจแรก)",
+   "Air/ hydrostatic enema · สำเร็จ ~80–90%",
+   "Peritonitis/ ทะลุ/ ช็อก → ผ่าตัด",
+   "กลับเป็นซ้ำ ~10%"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'ทารก 6 เดือน ร้องเป็นพัก ขาคู้ + เลือดในอึ = ลำไส้กลืน'</b>",
+  "guide": "ACR Appropriateness Criteria: Intussusception (2019); Coran's Pediatric Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> สวนลมดันคืนสำเร็จแล้ว 12 ชม. ทารกกลับปวดเป็นพักอีก US พบลำไส้มุดซ้ำ ไม่มี peritonitis → สวนดันซ้ำได้ (เป็นซ้ำราว 10% ส่วนใหญ่ในวันแรก ๆ)",
-   "<b>นอกสไลด์:</b> ผู้ใหญ่ปวดท้องเป็นพัก CT พบ target sign ที่ลำไส้เล็กร่วมก้อน → ส่วนใหญ่มีเนื้องอกเป็น lead point: ผ่าตัดตัดลำไส้ส่วนนั้น ไม่พยายามดันคืน"
+   "ทารก 8 เดือน US target sign ไม่มี peritonitis → air enema",
+   "intussusception + ลมใต้กะบังลม → ผ่าตัด",
+   "เด็ก 2 ขวบถ่ายเลือดมากไม่เจ็บ → Meckel scan"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 66 — ตัวพิมพ์: <b>XX. 6m infant ปวดท้องclampมา12ชม, leg withdrawal, guiac test positive — 1. kidney stone 2. intusssuception 3. midgut malratation 4. meckel 5. appendicitis</b><br>ลายมือ: \"∴ occult blood test +ve\" เหนือ guiac · 2 \"peak 3-8 mo\" · ขีด 2<br>ไฮไลต์: \"6m infant\" \"ปวดท้องclampมา12ชม\" \"leg withdrawal\" \"guiac test positive\" · 2 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 57: ขีด B (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 66",
+  "kimg": [
+   "fsk_p66",
+   "kp69c_X14",
+   "k2p_57"
   ]
  },
  "MDCU69|RoC|X15": {
-  "interp": "แผลกดทับ stage 2 ที่ ischium · ถามการรักษา",
-  "why": "<b>คีย์: ขีด 5 + ลายมือ stage II = partial thickness</b><br><b>นอกสไลด์:</b> pressure injury stage 2 = ผิวหนังหลุดบางส่วน (partial thickness) พื้นแผลชมพูชื้นหรือเป็นตุ่มน้ำ ไม่ลึกถึงไขมัน หายเองได้จากการงอกของเยื่อบุ → ลดแรงกดร่วมแผ่นปิดแผลที่คงความชุ่มชื้น (hydrocolloid หรือ foam) ไม่ต้องผ่าตัด",
+  "interp": "แผลกดทับ <b>grade (stage) 2 ที่ ischial area</b> → ถามการจัดการ",
+  "why": "Stage 2 = <b>แผลตื้นถึงชั้นหนังแท้ (partial thickness)</b> — ผิวถลอก/ ตุ่มน้ำแตก → <b>หายเองได้ด้วยการดูแลแผลแบบชุ่มชื้น (moist wound healing)</b> เช่น <b>hydrocolloid</b>/ foam dressing ร่วมกับ<b>ลดแรงกด</b> (พลิกตัวทุก 2 ชม., ที่นอนลดแรงกด, จำกัดเวลานั่ง) โภชนาการ ควบคุมความชื้น/ ปัสสาวะอุจจาระ · การผ่าตัด (flap) สงวนไว้สำหรับ stage 3–4 · ไฟล์ขีด 5 และแปะสรุป <b>\"Stage II: Blister or other break in dermis\"</b> โดยลายมือระบุ stage I–II <b>\"หายเอง\"</b> และ stage III–IV <b>\"graft/ flap\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลกดทับ stage 3 ที่ตื้นแต่กว้าง พื้นแผลมี granulation ดี ในผู้ป่วยที่ทำ flap ไม่ได้",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ FTSG เป็นวิธีปิดแผลกดทับที่ ischium เพราะ graft หนาติดยากบนพื้นแผลเรื้อรังและทนแรงกดจากการนั่งไม่ได้ — แผลลึกที่ต้องปิดใช้ flap",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลกดทับ stage 3–4 ที่ ischium ลึกถึงกล้ามเนื้อหรือกระดูก หลังตัดเนื้อตายและคุมการติดเชื้อแล้ว ในผู้ป่วยที่ลดแรงกดได้ — musculocutaneous flap",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ตัดแล้วเย็บตรงเป็นวิธีปิดแผลกดทับที่ ischium ที่แนะนำ เพราะแนวเย็บตึงและตกอยู่บนจุดรับน้ำหนักเหนือกระดูก แยกง่ายและกลับเป็นซ้ำสูง"
+   "A": "STSG ไม่ใช้กับแผลกดทับเพราะทนแรงกดไม่ได้ และ stage 2 หายเองได้ · จะถูกถ้าคำถามถามการปิดแผลตื้นกว้างที่ไม่รับแรงกด เช่น แผลไหม้",
+   "B": "FTSG ไม่ใช้กับแผลกดทับ · จะถูกถ้าคำถามถามการปิดแผลเล็กที่ใบหน้าที่ต้องการสีผิวเข้ากัน",
+   "C": "Flap ใช้กับ stage 3–4 ที่ไม่หาย เพื่อให้มีเนื้อหนารองรับแรงกด · จะถูกถ้าแผลกดทับ stage 4 ที่ ischium เห็นกระดูก ในผู้ป่วยอัมพาตที่ควบคุมปัจจัยแล้ว",
+   "D": "ตัดแล้วเย็บตรงไม่ทนแรงกด แผลแยกซ้ำ · จะถูกถ้าคำถามถามแผลเล็กที่ไม่ได้อยู่บนปุ่มกระดูก"
   },
-  "trap": "ปิดแผลอย่างดีแต่ไม่ลดแรงกด แผลไม่หาย — ต้องพลิกตัว ยกตัวเป็นระยะระหว่างนั่ง ใช้เบาะลดแรงกด คุมความชื้นจากปัสสาวะอุจจาระ และแก้ภาวะทุพโภชนาการ",
+  "trap": "คิดว่าแผลกดทับที่ ischium ต้องทำ flap ทุกราย — stage 2 ยังตื้น รักษาด้วยแผลชุ่มชื้น + ลดแรงกด",
   "summary": [
-   "<b>นอกสไลด์:</b> NPIAP staging: 1 ผิวแดงกดไม่จาง ผิวไม่แตก · 2 หลุดบางส่วนหรือตุ่มน้ำ · 3 เต็มชั้นเห็นไขมัน · 4 เห็นกระดูก เอ็น หรือกล้ามเนื้อ · unstageable มีเนื้อตายหรือสะเก็ดบังพื้นแผล · deep tissue injury ผิวม่วงคล้ำไม่แตก · stage 1–2 ลดแรงกดและดูแลแผล · 3–4 ตัดเนื้อตาย ± flap"
+   "Stage 1: ผิวแดงกดไม่จาง ผิวไม่แตก",
+   "Stage 2: partial thickness ถึง dermis (ถลอก/ ตุ่มน้ำ)",
+   "Stage 3: full thickness ถึงไขมัน · Stage 4: เห็นกล้ามเนื้อ/ กระดูก/ ข้อ",
+   "Stage 1–2: ลดแรงกด + moist dressing (hydrocolloid/ foam) → หายเอง",
+   "Stage 3–4: debride · NPWT · flap (myocutaneous/ fasciocutaneous)",
+   "ตำแหน่ง: นั่ง → ischium · นอนหงาย → sacrum · นอนตะแคง → trochanter"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์",
+  "mnemonic": "<b>'Pressure sore ตื้น (1–2) = แปะ hydrocolloid + พลิกตัว · ลึก (3–4) = flap'</b>",
+  "guide": "NPIAP/ EPUAP/ PPPIA International Guideline: Prevention and Treatment of Pressure Ulcers/Injuries (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยอัมพาตแผลกดทับที่ ischium ลึกถึงกระดูก ผิวกระดูกนิ่มเปื่อย → สงสัย osteomyelitis: ตัดชิ้นกระดูกตรวจเชื้อและพยาธิก่อนปิดด้วย flap",
-   "<b>นอกสไลด์:</b> แผลกดทับที่ส้นเท้าเป็นสะเก็ดดำแห้งแข็ง ไม่มีหนอง ในผู้ป่วยเลือดไปเลี้ยงขาไม่ดี → ไม่ลอกสะเก็ด (เป็นเกราะธรรมชาติ) ประเมินเลือดไปเลี้ยงก่อน"
+   "ผู้ป่วยติดเตียงผิวแดงที่ก้นกบกดไม่จาง → stage 1 → พลิกตัว ลดแรงกด",
+   "แผลกดทับที่ ischium เห็นกระดูก → stage 4 → debride + flap",
+   "แผลกดทับ stage 4 ไข้ ESR สูง → สงสัย osteomyelitis → MRI/ bone biopsy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 66 — ตัวพิมพ์: <b>Xx. Pt. no u/d pressure sore grade2 at ischial area Mx? — 1. stsg 2. ftsg 3. Flap 4. Excision and direct closure 5. Hydrocolloid ปิดแผล</b><br>ลายมือ: ขีด 5<br>ไฮไลต์: \"pressure sore grade2 at ischial area\" \"Mx?\" · 5 (เหลือง)<br>รูปที่แปะ: ① สรุปลายมือ Pressure inj. (Pressure Ulcer) — P ที่ผิว &gt; cap. P. + นาน &gt; 2 hr → irrevers. tiss. damage · sitting: ischial tuberosity · supine: sacral area · Classification stage 1 skin intact แดงนาน &gt; 1 hr · 2 blister, break @ dermis · 3 subcu. destruc. into m. · 4 involve bone, jt, m. · \"ให้เวลานาน, require specialist\" ② ตำราไทย บาดแผลกดทับ (Pressure Ulcer) — แผลกดทับเกิดจากการที่ผิวหนังได้รับแรงกดทับมากเกินไปเป็นเวลานาน มักเป็นกับผิวหนังปกคลุมปุ่มกระดูกต่างๆ เช่น ก้นกบ (sacrum) แก้มก้นบริเวณที่นั่งทับ (ischial tuberosity) สะโพก (trochanter) … การรักษาเน้นที่การป้องกันไม่ให้เกิด … <b>การผ่าตัดเพื่อปิดแผลโดยมากต้องใช้ flap เพื่อให้มีความหนาพอรองรับน้ำหนักบริเวณปุ่มกระดูกนั้นเอง</b> ③ สไลด์ The classification system — Stage I: Skin intact but redden for more than 1 hour · Stage II: Blister or other break in dermis · Stage III: Subcutaneous destruction into muscle · Stage IV: Involvement of bone or joint (ลายมือ I–II \"หายเอง\" · III–IV \"graft/ flap\") พร้อมภาพ stage 1–4<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 57: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 66",
+  "kimg": [
+   "fsk_p66",
+   "kp69c_X15",
+   "k2p_57"
   ]
  },
  "MDCU69|RoC|X16": {
-  "interp": "ข้อ NOT · ถามสิ่งที่ไม่ใช่ปัจจัยเสี่ยงมะเร็งกระเพาะปัสสาวะ",
-  "why": "<b>คีย์: ขีด B + ลายมือ upper TCC? + สไลด์ TCC risk factors</b><br><b>นอกสไลด์:</b> การศึกษาที่ปรับเรื่องบุหรี่แล้วไม่พบว่ากาแฟเพิ่มความเสี่ยงมะเร็งกระเพาะปัสสาวะ (IARC ไม่จัดกาแฟเป็นสารก่อมะเร็งกระเพาะปัสสาวะ)",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>ปัจจัยเสี่ยงของ <b>มะเร็งกระเพาะปัสสาวะ</b>",
+  "why": "ปัจจัยเสี่ยงมะเร็งกระเพาะปัสสาวะ (urothelial/ TCC): <b>สูบบุหรี่ (สำคัญที่สุด เสี่ยง 2–6 เท่า)</b>, <b>สารเคมี aromatic amines/ aniline dye</b> (อุตสาหกรรมสีย้อม ยาง สีย้อมผม), <b>cyclophosphamide</b> (metabolite acrolein), <b>รังสีบริเวณ pelvis</b>, phenacetin, <b>พยาธิ Schistosoma</b> (SCC), สายสวนเรื้อรัง, กรรมพันธุ์ (Lynch) · <b>กาแฟไม่ใช่ปัจจัยเสี่ยงที่ยืนยัน</b> (ข้อมูลเดิมสับสนจากการสูบบุหรี่ร่วม) · ไฟล์ขีด B ติ๊ก ✓ ที่ A, C, D, E และแปะสไลด์ <b>TRANSITIONAL CELL CARCINOMA — Etiology and risk factor</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “บุหรี่เป็นปัจจัยเสี่ยงมะเร็งกระเพาะปัสสาวะ” ผิด เพราะ aromatic amine ในควันบุหรี่ขับออกทางปัสสาวะสัมผัสเยื่อบุนาน เป็นปัจจัยเสี่ยงอันดับหนึ่ง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “สีย้อม aniline เป็นปัจจัยเสี่ยง” ผิด เพราะ aromatic amine (benzidine, β-naphthylamine) จากอุตสาหกรรมสีย้อม ยาง หนัง ก่อมะเร็ง urothelium หลังระยะแฝงหลายสิบปี",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “cyclophosphamide เป็นปัจจัยเสี่ยง” ผิด เพราะ metabolite ชื่อ acrolein ระคายเยื่อบุกระเพาะปัสสาวะ ทำให้ hemorrhagic cystitis และมะเร็งระยะยาว",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “พันธุกรรมเป็นปัจจัยเสี่ยง” ผิด เพราะ Lynch syndrome เพิ่มมะเร็ง urothelial โดยเฉพาะส่วนบน (กรวยไต ท่อไต) และญาติสายตรงที่เป็นเพิ่มความเสี่ยง"
+   "A": "เป็นปัจจัยเสี่ยง — บุหรี่สำคัญที่สุด (~50% ของผู้ป่วย) (ลายมือ ✓) · จะถูกถ้าคำถามถามปัจจัยเสี่ยงของมะเร็งที่ไม่สัมพันธ์กับบุหรี่",
+   "C": "เป็นปัจจัยเสี่ยง — aromatic amines/ aniline dye (ลายมือ ✓) · จะถูกถ้าคำถามถามปัจจัยเสี่ยงของ RCC",
+   "D": "เป็นปัจจัยเสี่ยง — cyclophosphamide (acrolein) ทำให้ hemorrhagic cystitis และมะเร็ง ป้องกันด้วย mesna (ลายมือ ✓) · จะถูกถ้าคำถามถามยาเคมีบำบัดที่ทำให้หัวใจล้มเหลว (doxorubicin)",
+   "E": "เป็นปัจจัยเสี่ยง — กรรมพันธุ์ (เช่น Lynch → upper tract urothelial CA) (ลายมือ ✓) · จะถูกถ้าคำถามถามมะเร็งที่ไม่มีปัจจัยกรรมพันธุ์"
   },
-  "trap": "กาแฟเคยถูกสงสัยเพราะคนดื่มกาแฟมากมักสูบบุหรี่ด้วย (confounding) — เมื่อแยกผลของบุหรี่ออก กาแฟไม่ใช่ปัจจัยเสี่ยง",
+  "trap": "จำว่ากาแฟเป็นปัจจัยเสี่ยงจากข้อมูลเก่า — ไม่ยืนยัน (สับสนกับบุหรี่)",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยงมะเร็ง urothelial: บุหรี่ · aromatic amine จากอาชีพ · cyclophosphamide · รังสีเชิงกราน · aristolochic acid ในสมุนไพรบางชนิด (มักเป็นส่วนบน) · arsenic ในน้ำดื่ม · Lynch syndrome · การอักเสบเรื้อรังจากสายสวนคา นิ่ว หรือพยาธิใบไม้เลือด → squamous cell carcinoma"
+   "บุหรี่: ปัจจัยสำคัญที่สุด (2–6 เท่า)",
+   "Aromatic amines: สีย้อม ยาง หนัง สีย้อมผม",
+   "Cyclophosphamide · phenacetin · pelvic RT · aristolochic acid",
+   "Schistosoma haematobium → SCC ของกระเพาะปัสสาวะ",
+   "สายสวนเรื้อรัง/ นิ่ว → SCC",
+   "ปัสสาวะเป็นเลือดไม่เจ็บในผู้สูงอายุสูบบุหรี่ → cystoscopy + CT urogram"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และเครื่องหมาย ✓ ที่ช้อยอื่น",
+  "mnemonic": "<b>'มะเร็งกระเพาะปัสสาวะ = บุหรี่ + สีย้อม + Cyclophosphamide + รังสี (ไม่ใช่กาแฟ)'</b>",
+  "guide": "AUA/ SUO Guideline: Diagnosis and Treatment of Non-Muscle Invasive Bladder Cancer (2024); EAU Guidelines on Non-muscle-invasive Bladder Cancer 2024 — Epidemiology and risk factors",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 65 ปีสูบบุหรี่ ปัสสาวะเป็นเลือดไม่เจ็บตลอดสายครั้งเดียวแล้วหาย → ยังต้อง cystoscopy และ CT urography (เลือดหยุดเองไม่ตัดมะเร็ง)",
-   "<b>นอกสไลด์:</b> ผู้ป่วย Lynch syndrome ปัสสาวะเป็นเลือด cystoscopy ปกติ → หามะเร็งกรวยไตและท่อไตต่อด้วย CT urography หรือ ureteroscopy"
+   "ชายสูบบุหรี่ปัสสาวะเป็นเลือดไม่เจ็บ → cystoscopy + CT urogram",
+   "ผู้ป่วยได้ cyclophosphamide ปัสสาวะเป็นเลือด → hemorrhagic cystitis → mesna ป้องกัน",
+   "ช่างย้อมผ้า 20 ปี ปัสสาวะเป็นเลือด → สงสัย urothelial carcinoma"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 66 — ตัวพิมพ์: <b>XX. Which of the following is not the risk of bladder carcinoma? — A smoking B coffee consumption C.chemical dye D. cyclophosphamide E. hereditary</b><br>ลายมือ: ✓ ที่ A, C, D, E · ขีด B + \"↗ upper TCC\"<br>ไฮไลต์: \"not\" \"risk of bladder carcinoma\" · B (เหลือง) · A, C, D, E (ส้ม)<br>รูปที่แปะ: สไลด์ TRANSITIONAL CELL CARCINOMA — Male : female = 3:1 (ลายมือ \"3-4:1\" \"smoking?\") · White &gt; black · Incidence increase with age: mean 70 yr (ขีดฆ่า + \"peak 50-70 yr\") · Etiology and risk factor (ลายมือเล็ก \"Schistosomiasis ที่ทำให้เกิดได้ แต่พบใน Africa\"): <b>Cigarette smoking: 4 folds</b> (\"2-6\" · \"พบบ่อยในชายแก่สูบบุหรี่ Hx. smoking\") · <b>Chemical dye, aromatic amines</b> (\"ย้อมผม, ทาสี\") · Analgesic: phenacetin · <b>Pelvic irradiation</b> (\"CA colon, rectum, prostate, gyne\") · <b>Cyclophosphamide (chemotherapy)</b> → \"hemorrhagic cystitis · metabolite = carcinogen\" · Hereditary<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 57: ขีด B (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 66",
+  "kimg": [
+   "fsk_p66",
+   "kp69c_X16",
+   "k2p_57"
   ]
  },
  "MDCU69|RoC|X17": {
-  "interp": "ข้อ WRONG · ถามข้อความที่ไม่ถูกเรื่อง teratoma (เน้น sacrococcygeal teratoma ในเด็ก)",
-  "why": "<b>คีย์: ขีด 2 + ลายมือ AFP สูงได้ในทารกปกติ/yolk sac · เทียบตาราง germ cell markers</b><br><b>นอกสไลด์:</b> AFP สูงตามธรรมชาติในทารกแรกเกิดและลดลงช้า ๆ ในเดือนแรก ๆ ต้องเทียบค่าตามอายุ · AFP ที่สูงผิดปกติบอกว่ามีส่วนประกอบ yolk sac (ร้าย) ไม่ได้ใช้วินิจฉัย teratoma ซึ่งวินิจฉัยด้วยภาพ (ก้อนผสมถุงน้ำ ไขมัน หินปูน) และพยาธิ",
+  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>teratoma</b> (โดยเฉพาะ sacrococcygeal teratoma ในเด็ก)",
+  "why": "<b>AFP สูงอย่างเดียววินิจฉัยไม่ได้</b> — ทารกแรกเกิดมี AFP สูงตามปกติ (ลดลงสู่ระดับผู้ใหญ่ราว 8–12 เดือน) และ AFP สูงยังพบใน yolk sac tumor/ malignant (non-seminomatous) germ cell tumor, hepatoblastoma · teratoma ที่ไม่ร้าย (mature) AFP มักไม่สูง → ต้องอาศัยภาพรังสีและพยาธิวิทยา · ข้ออื่นถูก: ในเด็กตำแหน่ง extragonadal ที่พบบ่อยที่สุดคือ <b>sacrococcygeal</b> (ในผู้ใหญ่คือ mediastinum), ก้อนใหญ่ + hydrops = พยากรณ์แย่, รักษาด้วย<b>ตัดก้อนพร้อม coccyx</b> (ไม่ตัด coccyx กลับเป็นซ้ำ ~35%), ส่วนใหญ่ไม่ร้ายตอนแรกเกิด · ไฟล์ขีด 2 ลายมือ <b>\"→ non-seminoma ก็ขึ้น\"</b> และแปะสไลด์ Germ Cell Tumor + ตาราง Markers",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “teratoma ในเด็กพบที่ sacrococcygeal มากที่สุด” ผิด เพราะ teratoma ในเด็กเกิดตามแนวกลางลำตัวที่เซลล์สืบพันธุ์ดั้งเดิมหลงเหลือ และ sacrococcygeal เป็นตำแหน่งที่พบมากที่สุด รองลงมาคือรังไข่",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “ก้อนใหญ่ร่วม hydrops พยากรณ์แย่” ผิด เพราะก้อนที่มีเลือดไหลผ่านมากทำให้หัวใจทารกทำงานหนัก (high-output failure) จนบวมน้ำ เสียชีวิตในครรภ์ได้สูง",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “รักษาด้วยการผ่าตัดเอาก้อนออกพร้อม coccyx” ผิด เพราะเซลล์ต้นกำเนิดของก้อนอยู่ที่ coccyx ไม่ตัดออกจะกลับเป็นซ้ำสูง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “ส่วนใหญ่ไม่ร้ายตอนแรกเกิด” ผิด เพราะ SCT ที่พบตอนเกิดส่วนใหญ่เป็น mature หรือ immature teratoma โอกาสร้าย (yolk sac) เพิ่มเมื่อผ่าตัดช้าเกินราว 2 เดือน"
+   "A": "ถูก — ในเด็ก sacrococcygeal เป็นตำแหน่ง teratoma (extragonadal) ที่พบบ่อยที่สุด (ลายมือ \"MC extragonadal ใน ped.\") · จะถูกถ้าช้อยบอกว่าในผู้ใหญ่ตำแหน่ง extragonadal ที่พบบ่อยที่สุดคือ sacrococcygeal (จริงคือ mediastinum)",
+   "C": "ถูก — ก้อนใหญ่มีเลือดไหลผ่านมาก → high-output heart failure → hydrops → พยากรณ์แย่ · จะถูกถ้าช้อยบอกว่าก้อนเล็กไม่มี hydrops มีพยากรณ์แย่",
+   "D": "ถูก — ต้องตัด coccyx ด้วยเสมอ ลดการกลับเป็นซ้ำ · จะถูกถ้าช้อยบอกว่าตัดก้อนโดยไม่ตัด coccyx ก็พอ",
+   "E": "ถูก — sacrococcygeal teratoma ตอนแรกเกิดส่วนใหญ่ไม่ร้าย (ความเสี่ยงมะเร็งเพิ่มถ้าผ่าตัดช้า &gt; 2 เดือน) · จะถูกถ้าช้อยบอกว่าส่วนใหญ่ร้ายตั้งแต่แรกเกิด"
   },
-  "trap": "SCT ที่อยู่ในอุ้งเชิงกรานทั้งหมด (Altman IV) มองจากภายนอกไม่เห็น มาช้าด้วยท้องผูกหรือปัสสาวะคั่ง และพบชนิดร้ายบ่อยกว่า — ก้อนที่ก้นเล็กหรือไม่เห็นไม่ได้แปลว่าโรคน้อย",
+  "trap": "คิดว่า AFP เป็น marker วินิจฉัย teratoma — AFP สูงในทารกปกติและใน yolk sac tumor",
   "summary": [
-   "<b>นอกสไลด์:</b> germ cell tumor markers: AFP สูง → yolk sac tumor (embryonal บางส่วน) · β-hCG สูง → choriocarcinoma (seminoma บางราย) · mature teratoma ล้วน marker ปกติ · หลังผ่าตัด SCT ติดตาม AFP ร่วมตรวจทางทวารและภาพเป็นระยะราว 3 ปี (กลับเป็นซ้ำราว 10–15% มักภายใน 3 ปี)"
+   "Sacrococcygeal teratoma: เนื้องอกที่พบบ่อยที่สุดในทารกแรกเกิด · หญิง &gt; ชาย",
+   "Altman type I–IV (I ภายนอกมาก → IV อยู่ใน pelvis ทั้งหมด)",
+   "ผ่าตัดเร็ว + ตัด coccyx เสมอ",
+   "ก้อนใหญ่ + hydrops/ placentomegaly → พยากรณ์แย่",
+   "AFP: ใช้ติดตามการกลับเป็นซ้ำ (yolk sac) · ทารกปกติ AFP สูง",
+   "ผู้ใหญ่: extragonadal germ cell tumor พบบ่อยที่ mediastinum"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 4 ช้อย (ช้อย 3 ผู้จดจำไม่แน่ \"hydronephrosis??\") เว็บเขียนเป็น hydrops และเติม E",
+  "mnemonic": "<b>'Teratoma ก้นกบ: ตัด Coccyx เสมอ · AFP สูงในทารกเป็นเรื่องปกติ'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Teratomas and other germ cell tumors; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผ่าตัด SCT ตอนแรกเกิดผล mature teratoma ต่อมาอายุ 1 ปี AFP กลับสูงขึ้นและคลำก้อนได้ทางทวาร → กลับเป็นซ้ำเป็น yolk sac tumor: เคมีบำบัดกลุ่ม platinum แล้วผ่าตัด",
-   "<b>นอกสไลด์:</b> เด็กหญิง 10 ปีปวดท้องน้อยเฉียบพลัน ภาพพบก้อนรังไข่มีไขมันและหินปูน (ฟัน) → mature cystic teratoma บิดขั้ว: ผ่าตัดคลายบิดและเลาะเฉพาะก้อน เก็บรังไข่"
+   "ทารกแรกเกิดก้อนใหญ่ที่ก้นกบ → ผ่าตัดตัดก้อน + coccyx",
+   "fetal US ก้อนก้นกบใหญ่ + hydrops → พยากรณ์แย่ พิจารณา fetal intervention",
+   "หลังผ่าตัด sacrococcygeal teratoma AFP สูงขึ้นอีก → สงสัยกลับเป็นซ้ำ (yolk sac)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 66 — ตัวพิมพ์: <b>Xx. ข้อใดผิดเกี่ยวกับteratoma — 1. Most common เป็นที่ Sacrococcygeal teratoma ? 2. Increased AFP สามารถ Dx ได้เลย 3. large teratoma +... (hydronephrosis??) = bad prognosis 4. Sacrococcygeal teratoma tx โดยexcision+ coccygectomyก็พอ !</b><br>ลายมือ: 1 \"→ gonadal\" + \"MC extragonadal ใน ped.\" · 2 \"→ non-seminoma ก็ขึ้น\" · ขีด 2 · ลายมือด้านข้าง \"lymphoma → CCRT · teratoma → Sx + CMT · seminoma → CMT → RT → Sx · non-seminoma → CMT → Sx\"<br>ไฮไลต์: \"ผิดเกี่ยวกับteratoma\" · 2 (เหลือง)<br>รูปที่แปะ: สไลด์ Germ Cell Tumor — Gonadal tissue tumor (มักเกิด at gonad) · Extragonadal site is uncommon (Adult 3%, Ped 7%) · In adult the most common extragonadal site is mediastinum (sacrococcygeal in ped.) / ตาราง Markers (AFP, β-HCG): Teratoma (= benign) − / − · Malignant teratoma (non-seminoma) AFP + · Seminoma − / − · Non-seminoma + / +<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 57: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย 3 เขียนเป็น hydrops · เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 66",
+  "kimg": [
+   "fsk_p66",
+   "kp69c_X17",
+   "k2p_57"
   ]
  },
  "MDCU69|RoC|X18": {
-  "interp": "ผู้ป่วยมะเร็ง urothelial มีเลือดออกในสมองบน CT · ถามขั้นต่อไป (หาสาเหตุของเลือดออกในผู้ป่วยมะเร็ง)",
-  "why": "<b>คีย์: ขีด 2 + ลายมือ r/o mets · A = for AVM/aneurysm · C = for SAH ที่ CT ไม่พบ</b><br><b>นอกสไลด์:</b> เลือดออกในสมองของผู้ป่วยมะเร็งต้องหามะเร็งแพร่กระจายที่มีเลือดออก (hemorrhagic metastasis) ด้วยภาพฉีดสารทึบ (CT contrast หรือ MRI gadolinium ซึ่งไวกว่า) เพราะเปลี่ยนการรักษาเป็นการรักษาก้อน",
+  "interp": "ผู้ป่วยมะเร็ง <b>urothelial carcinoma</b> CT พบ<b>เลือดออกในสมอง</b> → ถามขั้นต่อไป",
+  "why": "เลือดออกในสมองในผู้ป่วยมะเร็ง → ต้องนึกถึง<b>เลือดออกในก้อนมะเร็งที่กระจายมาสมอง (hemorrhagic metastasis)</b> → <b>CT/ MRI ฉีดสารทึบรังสี</b>เพื่อหาก้อนที่ enhance ใต้เลือด (urothelial CA กระจายสมองพบได้ และมะเร็งที่มักเลือดออก: melanoma, RCC, choriocarcinoma, thyroid, lung) · ไฟล์ขีด 2 ลายมือ: 1 <b>\"for AVM, aneurysm\"</b> · 2 <b>\"หา ca. metas.\"</b> · 3 <b>\"for SAH; CT ไม่ suggest\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยอายุน้อยไม่มีความดันสูง เลือดออกตำแหน่ง lobar หรือมี SAH/IVH ร่วม — CTA หา AVM หรือ aneurysm",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัย SAH แต่ CT ไม่เห็นเลือด (ปวดศีรษะรุนแรงทันที CT ปกติเกิน 6 ชม.) — เจาะหลังดู xanthochromia",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น ICH จากความดันสูงเรื้อรังที่ basal ganglia และ SBP 150–220 mmHg — ลด SBP ลงราว 140 mmHg อย่างค่อยเป็นค่อยไป",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกข้อเป็นขั้นต่อไป เพราะการเจาะหลังไม่มีที่ใช้เมื่อ CT เห็นเลือดออกในเนื้อสมองแล้ว และเสี่ยง herniation จากก้อนเลือดกดเบียด"
+   "A": "Vascular study (CTA/ angiography) ใช้หา AVM/ aneurysm (ลายมือ) ในคนอายุน้อย/ เลือดออกตำแหน่งไม่ทั่วไป · จะถูกถ้าคนหนุ่มไม่มีความดันสูง เลือดออกใน lobar/ SAH",
+   "C": "ตรวจน้ำไขสันหลังใช้วินิจฉัย SAH เมื่อ CT ไม่พบ (ลายมือ) และห้ามเจาะเมื่อมีก้อน/ mass effect · จะถูกถ้าปวดหัวรุนแรงทันที CT ปกติ ภายใน 6 ชม. ไม่ชัด",
+   "D": "ควบคุมความดันเป็นการดูแลทั่วไปของ ICH แต่ไม่ช่วยหาสาเหตุในผู้ป่วยมะเร็ง · จะถูกถ้าคำถามถามการดูแลเลือดออกในสมองจากความดันสูง (เป้า SBP ~140)",
+   "E": "ไม่ใช่ทุกข้อ — ขั้นต่อไปที่จำเพาะคือหาการกระจายของมะเร็ง · จะถูกถ้าคำถามถามการดูแลรวมทั้งหมดของ ICH ไม่ทราบสาเหตุ"
   },
-  "trap": "CT หรือ MRI ครั้งแรกอาจไม่เห็นก้อนที่ซ่อนในเลือดออกเพราะเลือดบัง — ผู้ป่วยมะเร็งหรือเลือดออกตำแหน่งแปลกที่ผลภาพแรกปกติ ต้อง MRI ซ้ำหลังเลือดสลายราว 4–6 สัปดาห์",
+  "trap": "จัดการแบบ hypertensive ICH ทั่วไป — มีประวัติมะเร็ง ต้องหา hemorrhagic metastasis",
   "summary": [
-   "<b>นอกสไลด์:</b> ลักษณะชวนสงสัยว่าเลือดออกจากก้อน: เลือดออกหลายจุด อยู่รอยต่อเนื้อเทาเนื้อขาว สมองบวมรอบมากเกินขนาดเลือด ขอบมีส่วนจับสารทึบ · มะเร็งที่แพร่สมองแล้วเลือดออกบ่อย: melanoma, RCC, thyroid, choriocarcinoma และมะเร็งปอด (พบบ่อยจึงเจอบ่อย)"
+   "ICH + มะเร็ง → CT/ MRI ฉีดสี หา hemorrhagic metastasis",
+   "มะเร็งที่กระจายสมองแล้วเลือดออกบ่อย: melanoma · RCC · choriocarcinoma · thyroid · lung",
+   "คนหนุ่ม ไม่มีความดันสูง → CTA หา AVM/ aneurysm",
+   "SAH CT ไม่พบ → LP (xanthochromia)",
+   "Hypertensive ICH: basal ganglia · thalamus · pons · cerebellum",
+   "Amyloid angiopathy: lobar ICH ในผู้สูงอายุ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจปานกลาง (ทางปฏิบัติคุมความดันไปพร้อมกัน และ MRI ไวกว่า CT contrast)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'มะเร็ง + เลือดออกในสมอง = ฉีดสีหาก้อน (mets)'</b>",
+  "guide": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282); NCCN Central Nervous System Cancers v.2025 — Brain metastases",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยมะเร็งเม็ดเลือดขาว เกล็ดเลือด 8,000 มีเลือดออกในสมอง → ให้เกล็ดเลือดและแก้การแข็งตัวของเลือดก่อน",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุ 75 ปีไม่มีความดันสูง เลือดออกที่ lobar MRI เห็นจุดเลือดออกเล็ก ๆ ที่ผิวสมองจำนวนมาก → cerebral amyloid angiopathy ไม่ใช่ก้อน"
+   "ผู้ป่วย melanoma ซึมลง CT เลือดออกหลายจุด → MRI ฉีดสี → hemorrhagic mets",
+   "ชาย 25 ปีเลือดออกใน lobar ไม่มีความดันสูง → CTA หา AVM",
+   "ปวดหัวรุนแรงทันที CT ปกติ → LP หา xanthochromia"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 66–67 — ตัวพิมพ์: <b>XX. - ผู้ป่วย U/D urothelial CA ให้ CT มา มี bleed ที่ brain? ทำไรต่อดี — 1. Vascular study 2. CT with contrast 3. CSF analysis 4. keep BP &lt;140/90 5. all</b><br>ลายมือ: 1 \"for AVM, aneurysm\" · 2 \"หา ca. metas.\" · 3 \"for SAH; CT ไม่ suggest\" · ขีด 2<br>ไฮไลต์: \"U/D urothelial CA\" \"CT มา มี bleed ที่\" \"ทำไรต่อดี\" · 2 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 58: ขีด B (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 66",
+  "kimg": [
+   "fsk_p66",
+   "kp69c_X18",
+   "kp69c_X18b",
+   "k2p_58"
   ]
  },
  "MDCU69|RoC|X19": {
-  "interp": "ถามตำแหน่งปลายสายของ ventriculostomy (external ventricular drain) ที่ใช้รักษา hydrocephalus",
-  "why": "<b>คีย์: มีเส้นขีดที่ข้อนี้แต่ไม่ชัด · คีย์ไฟล์ 01.2 ไม่มีขีด</b><br><b>นอกสไลด์:</b> ventriculostomy ระบาย CSF จากโพรงสมองที่ใหญ่และเข้าถึงง่ายที่สุด คือ frontal horn ของ lateral ventricle (มักซีกขวาที่ไม่เด่น) ให้ปลายสายอยู่ใกล้ foramen of Monro",
+  "interp": "ศัลยแพทย์ใส่ <b>ventriculostomy (external ventricular drain)</b> เพื่อรักษา/ ป้องกัน hydrocephalus → ถามตำแหน่งปลายสาย",
+  "why": "Ventriculostomy/ EVD ใส่ผ่านรูเจาะกะโหลกที่ <b>Kocher's point</b> (หน้าต่อ coronal suture ~1 cm, ห่างแนวกลาง ~2.5–3 cm) ด้าน non-dominant โดยปลายสายอยู่ใน <b>frontal horn ของ lateral ventricle</b> ใกล้ foramen of Monro → ระบายน้ำไขสันหลังและวัดความดันในกะโหลก · ไฟล์ขีดเส้นทแยงพาดผ่านทั้งข้อ (ไม่ได้เลือกคำตอบ) และไม่มีภาพประกอบตามที่โจทย์อ้าง",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ปลายสาย ventriculostomy วางใน cerebral aqueduct เพราะเป็นช่องแคบยาวล้อมด้วยก้านสมองส่วนกลาง วางสายระบายไม่ได้ — การผ่าตัดที่ aqueduct คือขยายหรือใส่ stent ผ่านกล้อง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น trapped (isolated) fourth ventricle ที่ทั้ง aqueduct และทางออกอุด — ใส่สายระบายเข้า fourth ventricle โดยตรง",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ปลายสาย ventriculostomy อยู่ใน subarachnoid space เพราะตามนิยามสายต้องอยู่ในโพรงสมอง — การระบายทาง subarachnoid คือ lumbar drain หรือ lumboperitoneal shunt ซึ่งใช้ใน communicating hydrocephalus",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นปลายส่วนระบายของ Torkildsen shunt (ventriculocisternostomy) ที่ต่อจาก lateral ventricle ไป cisterna magna ในผู้ป่วย aqueductal stenosis — วิธีเก่า ปัจจุบันใช้ ETV แทน"
+   "B": "Cerebral aqueduct เป็นช่องแคบเชื่อม third–fourth ventricle ไม่ใช่ตำแหน่งใส่สาย · จะถูกถ้าคำถามถามตำแหน่งที่อุดตันบ่อยใน congenital/ obstructive hydrocephalus (aqueductal stenosis)",
+   "C": "Fourth ventricle อยู่ใน posterior fossa เข้าถึงยากและเสี่ยงต่อก้านสมอง · จะถูกถ้าคำถามถามตำแหน่งของ medulloblastoma/ ependymoma ในเด็ก",
+   "D": "Subarachnoid space ใช้ระบายด้วย lumbar drain (communicating hydrocephalus) ไม่ใช่ ventriculostomy · จะถูกถ้าคำถามถาม lumbar drain สำหรับ CSF leak",
+   "E": "Cisterna magna ใช้เจาะ cisternal puncture ไม่ใช่ EVD · จะถูกถ้าคำถามถามตำแหน่งเจาะน้ำไขสันหลังใต้ท้ายทอยในอดีต"
   },
-  "trap": "คิดว่าต้องใส่สายผ่านหรือไปถึงจุดที่อุด — สายระบายต้องอยู่ในโพรงที่โป่งเหนือจุดอุด ซึ่งคือ lateral ventricle",
+  "trap": "เลือก aqueduct เพราะเป็นจุดอุดตันของ hydrocephalus — ใส่สายที่ lateral ventricle (frontal horn) ซึ่งกว้างและเข้าถึงง่าย · คีย์ในไฟล์ไม่ได้เลือก",
   "summary": [
-   "<b>นอกสไลด์:</b> Kocher point: ราว 11 cm เหนือ nasion และ 2–3 cm จากแนวกลาง (แนว mid-pupillary) หน้าต่อ coronal suture · แทงตั้งฉากเล็งระหว่าง medial canthus ข้างเดียวกันกับ tragus ลึกราว 5–7 cm · ภาวะแทรกซ้อน: ติดเชื้อ เลือดออกตามแนวสาย สายผิดตำแหน่ง ระบายมากเกิน"
+   "EVD: Kocher's point → frontal horn ของ lateral ventricle (ใกล้ foramen of Monro)",
+   "ใช้ระบาย CSF + วัด ICP",
+   "Kocher's point: หน้าต่อ coronal suture ~1 cm · ห่างแนวกลาง 2.5–3 cm (mid-pupillary line)",
+   "VP shunt: ระบายถาวรสู่ช่องท้อง",
+   "ETV: เจาะพื้น third ventricle สำหรับ aqueductal stenosis",
+   "ภาวะแทรกซ้อน EVD: ติดเชื้อ (ventriculitis) · เลือดออก · ตำแหน่งผิด"
   ],
-  "opinion": "ตอบ A · คีย์ลายมือมีเส้นขีดไม่ชัดและคีย์ไฟล์ 01.2 ไม่มีขีด จึงตอบตามหลักกายวิภาค · โจทย์เดิมอ้างรูปแต่ไม่มีรูปในไฟล์ จึงตัดคำว่า as pictured · มั่นใจสูง",
+  "opinion": "ตอบ A (lateral ventricle) ความมั่นใจสูง — คีย์ในไฟล์ MCQ Key 2 ไม่ได้เลือก (ผู้จดขีดเส้นพาดผ่านทั้งข้อ) และไฟล์ Key 1 ไม่ได้ขีด เว็บจึงเลือกตามหลักกายวิภาค · ต้นฉบับมี 2 ช้อย จึงเติม C–E",
+  "mnemonic": "<b>'EVD = Kocher → Lateral ventricle (frontal horn)'</b>",
+  "guide": "Greenberg Handbook of Neurosurgery 10th ed. (2023) — Ventricular catheterization; Brain Trauma Foundation Guidelines 4th ed. (2016)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยใส่ EVD 7 วัน มีไข้ CSF จากสายเซลล์สูง น้ำตาลต่ำ → ventriculitis จากสาย: เพาะเชื้อ ให้ยาปฏิชีวนะ เปลี่ยนหรือถอดสาย",
-   "<b>นอกสไลด์:</b> hydrocephalus จาก aqueductal stenosis ในผู้ใหญ่ → endoscopic third ventriculostomy (เจาะพื้น third ventricle เข้า prepontine cistern) เป็นทางเลือกแทน VP shunt"
+   "TBI GCS 6 CT ผิดปกติ → ใส่ EVD วัด ICP",
+   "ICH ในโพรงสมอง + hydrocephalus → EVD",
+   "aqueductal stenosis → ETV หรือ VP shunt"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 67 — ตัวพิมพ์: <b>XX. - surgeon ใส่ ventriculostomy ดังภาพ ใส่เพื่อ prevent hydrocephalus ที่จุดใด — 1. lateral ventricle 2. cerebral aqueduct</b><br>ลายมือ: เส้นทแยงสีแดงพาดผ่านทั้งข้อ · ไม่ได้ขีดช้อยใด<br>หมายเหตุ: ไฟล์ไม่มีภาพประกอบตามที่โจทย์อ้าง (บริเวณเดียวกันแปะตาราง Staging : AJCC/ TNM ของข้อถัดไป)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 58: ไม่มีขีด<br>ที่ปรับในเว็บ: ต้นฉบับมี 2 ช้อย → เติม C–E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 67",
+  "kimg": [
+   "fsk_p67",
+   "kp69c_X19",
+   "k2p_58"
   ]
  },
  "MDCU69|RoC|X20": {
-  "interp": "มะเร็งลำไส้ใหญ่ (sigmoid) ลุกยอดกระเพาะปัสสาวะ (dome) จาก CT ไม่มีแพร่กระจายในโจทย์ · ถามการผ่าตัดที่เหมาะ",
-  "why": "<b>คีย์ชุดแรก: ขีด 2 + ลายมือ for stage III (N+, M0) · คีย์ไฟล์ 01.2: A</b><br><b>นอกสไลด์:</b> มะเร็งลำไส้ใหญ่ลุกอวัยวะข้างเคียง (T4b) ต้องตัดพร้อมกันเป็นชิ้นเดียว (en bloc) ให้ขอบไม่มีมะเร็ง · ยอดกระเพาะปัสสาวะอยู่ห่าง trigone จึงตัดเฉพาะผนังส่วนที่ติดแล้วเย็บปิดได้ เก็บกระเพาะปัสสาวะไว้",
+  "interp": "มะเร็งลำไส้ใหญ่ CT พบ<b>ลุกลามที่ยอดกระเพาะปัสสาวะ (dome)</b> → ถามการผ่าตัดที่เหมาะสม",
+  "why": "มะเร็งลำไส้ใหญ่ (มัก sigmoid) ที่ลุกลามติดอวัยวะข้างเคียง (T4b) ไม่มีการกระจาย → <b>ผ่าตัดแบบ en bloc</b> คือตัดลำไส้พร้อมส่วนของอวัยวะที่ติด โดยไม่แยกก้อนออกจากกัน (การแยกทำให้เซลล์มะเร็งกระจาย) · ลุกลามที่ <b>dome</b> (ห่างจาก trigone/ ท่อไต) → <b>anterior/ sigmoid resection + en bloc partial cystectomy</b> เพียงพอ ได้ขอบปลอดภัยและเก็บกระเพาะปัสสาวะได้ · <b>Pelvic exenteration</b> เกินจำเป็น (ใช้เมื่อลุกลามกว้าง/ trigone/ หลายอวัยวะ) · พิจารณา neoadjuvant chemotherapy ใน T4b ได้ · ไฟล์ขีด 2 (pelvic exen + CMT) ลายมือ <b>\"for stage III↑ (N+ or M1)\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็งไส้ตรงกลับเป็นซ้ำในเชิงกรานหลังเคยฉายรังสีแล้ว ลุกกระเพาะปัสสาวะส่วน trigone และต่อมลูกหมาก — salvage pelvic exenteration",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็งไส้ตรงส่วนล่างลุกต่อมลูกหมากและ trigone (T4b) ตั้งแต่แรก — ให้เคมีร่วมรังสีก่อนแล้วจึงผ่าตัด pelvic exenteration",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าลำไส้อุดตันจากมะเร็งที่แพร่กระจายตัดไม่ได้ หรือผู้ป่วยสภาพร่างกายไม่พอผ่าตัดใหญ่ — ทำทวารเทียมเบี่ยงเพื่อบรรเทา",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็งแพร่กระจายหลายอวัยวะที่ตัดไม่ได้ และก้อนไม่มีอาการอุดตันหรือเลือดออก — เคมีบำบัด (± ยามุ่งเป้าตามยีน)"
+   "A": "Pelvic exenteration ตัดกระเพาะปัสสาวะ/ อวัยวะในอุ้งเชิงกรานทั้งหมด เกินจำเป็นเมื่อลุกลามเฉพาะ dome (คีย์ไฟล์ Key 1 ขีดข้อนี้) · จะถูกถ้ามะเร็งลุกลามกว้างถึง trigone/ ท่อไต/ หลายอวัยวะ",
+   "B": "Pelvic exenteration + chemo เกินจำเป็นด้านการผ่าตัด แม้ adjuvant chemo จะให้ถ้าพบต่อมน้ำเหลืองบวก (คีย์ไฟล์ MCQ Key 2 ขีดข้อนี้ ลายมือ \"for stage III↑\") · จะถูกถ้ามะเร็ง rectum/ sigmoid ลุกลามกระเพาะปัสสาวะทั้งก้อนถึง trigone และมีต่อมน้ำเหลืองบวก",
+   "D": "Diverting colostomy อย่างเดียวเป็นการรักษาประคับประคอง · จะถูกถ้ามีการกระจายกว้างผ่าตัดเอาก้อนออกไม่ได้และมีลำไส้อุดตัน",
+   "E": "เคมีบำบัดอย่างเดียวไม่ใช่การรักษาหายขาดเมื่อยังผ่าตัดได้ · จะถูกถ้ามะเร็งกระจายไปตับและปอดหลายตำแหน่งผ่าตัดไม่ได้"
   },
-  "trap": "เห็นคำว่า invade bladder แล้วเลือก exenteration — การลุก dome ตัดเฉพาะผนังส่วนนั้นได้ exenteration ใช้เมื่อลุก trigone ต่อมลูกหมาก หรือกว้างจนเก็บกระเพาะปัสสาวะไม่ได้",
+  "trap": "เห็นอวัยวะข้างเคียงถูกลุกลามแล้วตอบ pelvic exenteration — ลุกลามที่ dome ตัดเฉพาะส่วนแบบ en bloc ได้ · คีย์ไฟล์ MCQ Key 2 ขีด B และไฟล์ Key 1 ขีด A",
   "summary": [
-   "<b>นอกสไลด์:</b> มะเร็งลำไส้ใหญ่ T4b → multivisceral en bloc resection ให้ได้ R0 · พังผืดที่ติดอวัยวะข้างเคียงเป็นมะเร็งจริงราวครึ่งหนึ่ง ห้ามเลาะแยก · ก้อน T4b ใหญ่พิจารณาเคมีก่อนผ่าตัด · หลังตัดผนังกระเพาะปัสสาวะ เย็บสองชั้นคาสายสวนราว 7–10 วันและทำ cystogram ก่อนถอด"
+   "T4b colon cancer: en bloc resection ของอวัยวะที่ติด",
+   "ห้ามแยกก้อนออกจากอวัยวะที่ติด (ไม่รู้ว่าเป็น inflammatory หรือ tumor)",
+   "Dome → partial cystectomy · trigone/ หลายอวัยวะ → exenteration",
+   "พิจารณา neoadjuvant chemo ใน T4b",
+   "Stage III (N+) → adjuvant FOLFOX/ CAPOX",
+   "Colovesical fistula: pneumaturia/ fecaluria (diverticulitis &gt; มะเร็ง)"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ลายมือ B และคีย์ไฟล์ 01.2 A — ตอบ C เพราะการลุก dome ตัดผนังกระเพาะปัสสาวะส่วนนั้นแบบ en bloc ได้ · ลายมือ “for stage III” หมายถึงเคมีเสริมหลังผ่าตัดเมื่อต่อมน้ำเหลืองบวก · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ C ของเว็บ ความมั่นใจสูง — หลัก en bloc resection ตัดเฉพาะส่วนของกระเพาะปัสสาวะที่ติด · คีย์ไฟล์ MCQ Key 2 ขีด 2 (pelvic exen + CMT) และไฟล์ Key 1 ขีด A (pelvic exen) ซึ่งเกินความจำเป็นสำหรับการลุกลามเฉพาะ dome · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'มะเร็งติดอวัยวะ = ตัด En bloc ให้พอดี (dome → partial cystectomy)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Colon Cancer v.3.2025; ASCRS Clinical Practice Guidelines for the Management of Colon Cancer (Dis Colon Rectum 2022;65:148) — locally advanced colon cancer",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายปัสสาวะมีลมและเศษอุจจาระ เคยเป็น diverticulitis → colovesical fistula: colonoscopy แยกมะเร็งก่อน แล้ว sigmoidectomy ร่วมปิดรูกระเพาะปัสสาวะ",
-   "<b>นอกสไลด์:</b> มะเร็ง sigmoid ลุก dome ร่วมแพร่ตับ 2 ก้อนที่ตัดได้ → ผ่าตัดลำไส้พร้อม partial cystectomy และตัดตับ (พร้อมกันหรือแยกครั้ง) ร่วมเคมีรอบผ่าตัด"
+   "sigmoid CA ติดกระเพาะปัสสาวะที่ dome → sigmoidectomy + en bloc partial cystectomy",
+   "rectal CA ลุกลาม trigone + ต่อมลูกหมาก → neoadjuvant CRT → pelvic exenteration",
+   "sigmoid CA ติดผนังหน้าท้อง → en bloc resection ผนังหน้าท้องส่วนนั้น"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 67 — ตัวพิมพ์: <b>XX. - CA colon, CT shows invasion of dome of bladder, appropriate operation — 1. pelvic exen 2. pelvic exen + CMT 3. AR + resect dome of bladder en bloc</b><br>ลายมือ: 2 \"for stage III↑ (N+ or M1)\" · ขีด 2<br>ไฮไลต์: \"CA colon\" \"invasion of dome of bladder\" · 2 (เหลือง)<br>รูปที่แปะ: ตาราง Staging : AJCC/ TNM และสรุป Adjuvant ther. (ชุดเดียวกับข้อ 90 — RT for rectal CA only · ChemoRT → T3↑ or Node pos · CMT for ≥ stage 3 · 5FU-based, oxaliplatin, irinotecan · bevacizumab · cetuximab · immunother.)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 58: ขีด A (⚠ ต่างจากคีย์ MCQ Key 2)<br>ที่ปรับในเว็บ: คำตอบเว็บ C (AR + en bloc partial cystectomy) · ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 67",
+  "kimg": [
+   "fsk_p67",
+   "kp69c_X20",
+   "k2p_58"
   ]
  },
  "MDCU69|RoC|X21": {
-  "interp": "แผลลึกที่แก้มขวาจากขมับถึงกลางแก้ม ถ้าเย็บผิวอย่างเดียวโดยไม่สำรวจซ่อมโครงสร้างใต้แผล · ถามภาวะแทรกซ้อนที่ไม่คาดว่าจะเกิด (ข้อ NOT)",
-  "why": "<b>คีย์: ขีด 1 + ลายมือ sialocele = parotid duct · 3, 4 = zygomatic/temporal branch</b><br><b>นอกสไลด์:</b> แนวแผลนี้ผ่านท่อ Stensen (แนวจาก tragus ไปกลางริมฝีปากบน) และแขนง temporal กับ zygomatic ของ facial nerve · น้ำลายไหลจากมุมปากเกิดจาก marginal mandibular branch ที่วิ่งแนวขอบขากรรไกรล่าง ไม่อยู่ในแนวแผลนี้",
+  "interp": "แผลลึกที่<b>แก้มขวาจากขมับถึงกลางแก้ม</b> ถ้าเย็บปิดแบบธรรมดา (ไม่ได้สำรวจ/ ซ่อมเส้นประสาทและท่อน้ำลาย) ภาวะแทรกซ้อนใด<b>ไม่น่าเกิด</b>",
+  "why": "แผลแนวขมับถึงกลางแก้มผ่าน: <b>temporal (frontal) branch ของ facial nerve</b> → คิ้วตก (brow ptosis), <b>zygomatic branch</b> → หลับตาไม่สนิท (lagophthalmos), <b>parotid gland/ Stensen's duct</b> (แนวเส้นจาก tragus ถึงมุมปากบน ส่วนกลาง) → <b>sialocele/ salivary fistula</b> · ส่วน<b>น้ำลายไหลจากมุมปาก (drooling)</b> เกิดจาก<b>marginal mandibular/ buccal branch</b> บริเวณขากรรไกรล่าง/ มุมปาก ซึ่งอยู่นอกแนวแผล · ไฟล์ขีด 1 ติ๊ก ✓ ที่ 2, 3, 4 ลายมือ 2 <b>\"→ salivary gl. โต\"</b> และปีกกา 3–4 <b>\"โดยเย็บดึงลงมาก\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่เกิด) ถ้าแผลลึกอยู่ที่หน้าผากเหนือหางคิ้ว ผ่านแขนง temporal อย่างเดียว ห่างต่อมและท่อ parotid — คิ้วตกได้แต่ไม่เกิด sialocele",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่เกิด) ถ้าแผลลึกกลางแก้มใต้โหนกแก้ม แนวหน้าหูถึงมุมปาก ผ่านท่อ Stensen และแขนง buccal — ไม่ถึงแขนง zygomatic จึงไม่เกิดหลับตาไม่สนิท",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่เกิด) ถ้าแผลลึกที่มุมขากรรไกรใต้ติ่งหู ผ่านเนื้อต่อม parotid ส่วนล่าง — น้ำลายรั่วได้แต่ไม่เกิดคิ้วตก",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่เกิด) ถ้าแผลลึกข้างเบ้าตาจากหางคิ้วถึงโหนกแก้ม ผ่านแขนง temporal และ zygomatic เหนือต่อม parotid — ไม่เกิดน้ำลายรั่ว"
+   "B": "เกิดได้ — ท่อน้ำลาย parotid/ ต่อมขาดแล้วไม่ซ่อม → น้ำลายคั่งใต้ผิว (sialocele) (ลายมือ ✓ \"salivary gl. โต\") · จะถูกถ้าแผลอยู่ที่ขากรรไกรล่างหน้าหู ไม่ผ่านแนวท่อ parotid",
+   "C": "เกิดได้ — zygomatic branch ขาด → หลับตาไม่สนิท (ลายมือ ✓) · จะถูกถ้าแผลอยู่ที่ใต้ขากรรไกรล่าง",
+   "D": "เกิดได้ — temporal branch ขาด → คิ้วตก ยักคิ้วไม่ได้ (ลายมือ ✓) · จะถูกถ้าแผลอยู่ที่แก้มส่วนล่างใกล้มุมปาก",
+   "E": "เกิดได้ — ท่อ parotid ขาดเปิดออกผิวหนัง → salivary fistula · จะถูกถ้าแผลไม่ผ่านแนว Stensen's duct"
   },
-  "trap": "คิดว่าแผลแก้มทำให้เสียทุกแขนงของ facial nerve — แต่ละแขนงอยู่คนละแนว ดูตำแหน่งแผลเทียบกับแนวของแต่ละแขนงและท่อ parotid",
+  "trap": "คิดว่าแผลที่แก้มทำให้น้ำลายไหลจากมุมปาก — drooling มาจาก marginal mandibular (ขากรรไกรล่าง) ไม่ใช่แนวขมับ–กลางแก้ม",
   "summary": [
-   "<b>นอกสไลด์:</b> แผลลึกที่แก้มต้องตรวจก่อนเย็บ: ทดสอบทุกแขนงของ facial nerve (ยักคิ้ว หลับตาแน่น ยิงฟัน ทำปากจู๋) ก่อนฉีดยาชา · ตรวจท่อ Stensen ด้วยการใส่สายทางรูเปิดในปากตรงฟันกรามบนซี่ที่สองแล้วฉีดน้ำเกลือดูรั่วที่แผล · ท่อขาดเย็บต่อบนสายดาม · เส้นประสาทขาดด้านนอกต่อแนว lateral canthus ต่อภายในราว 72 ชม. (ยังกระตุ้นปลายส่วนปลายหาได้)"
+   "Facial nerve 5 แขนง: temporal · zygomatic · buccal · marginal mandibular · cervical",
+   "Temporal → brow ptosis · Zygomatic → lagophthalmos",
+   "Buccal → แก้มป่องลม/ อาหารค้าง · Marginal mandibular → มุมปากตก/ น้ำลายไหล",
+   "Stensen's duct: แนว tragus → มุมปากบน (กลางส่วนกลาง) เปิดตรงฟันกรามบนซี่ 2",
+   "แผลแก้มลึก: สำรวจเส้นประสาท + ใส่สายในท่อ parotid ก่อนเย็บ",
+   "เส้นประสาทหน้าต่อ lateral canthus → ไม่ต้องซ่อม (แขนงเล็กงอกเอง)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ลายมือ A (คีย์ไฟล์ 01.2 ไม่มีขีด) · โจทย์เดิมอ้างรูปที่ไม่มีในไฟล์ จึงระบุแนวแผลในโจทย์ให้ชัด · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ขีด 1) และเครื่องหมาย ✓ ที่ช้อยอื่น (ไฟล์ Key 1 ไม่ได้ขีด) · ต้นฉบับมี 4 ช้อย (sialosis) เว็บเขียนเป็น sialocele และเติม E",
+  "mnemonic": "<b>'แผลขมับ–แก้ม = คิ้วตก + ตาปิดไม่สนิท + ท่อ parotid · น้ำลายไหลมุมปาก = ขากรรไกรล่าง'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Facial soft tissue trauma: facial nerve and parotid duct injuries",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังเย็บแผลแก้ม 1 สัปดาห์ แก้มบวมนิ่มเป็นถุง เจาะได้น้ำใส amylase สูง → sialocele: เจาะดูดซ้ำร่วมพันกดรัด และยาหรือ botulinum toxin ลดน้ำลาย",
-   "<b>นอกสไลด์:</b> แผลลึกที่ขอบขากรรไกรล่างใต้มุมปาก แล้วริมฝีปากล่างข้างนั้นดึงลงไม่ได้เวลายิ้ม น้ำลายไหล → marginal mandibular branch บาดเจ็บ"
+   "แผลที่แก้มกลางมีน้ำใสไหล → parotid duct injury → ใส่สายซ่อมท่อ",
+   "แผลที่ขมับ ยักคิ้วข้างนั้นไม่ได้ → temporal branch → ซ่อมเส้นประสาท",
+   "แผลที่ขากรรไกรล่าง มุมปากตก → marginal mandibular branch"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 67 — ตัวพิมพ์: <b>XX. - รูปโดนฟันที่แก้มขวา ข้อใดต่อไปนี้ไม่ได้เกิดจากการปิดแผลเลยแบบ simple suture — 1. drooling 2. sialosis 3. lagophthalmos (ตาปิดไม่สนิท) 4. brow ptosis</b><br>ลายมือ: \"?\" ที่เลขข้อ · ขีด 1 · 2 \"→ salivary gl. โต\" ✓ · 3 ✓ · 4 ✓ · ปีกกา 3–4 \"โดยเย็บดึงลงมาก\"<br>ไฮไลต์: \"โดนฟันที่แก้มขวา\" \"ไม่ได้เกิดจากการปิดแผลเลยแบบ simple suture\" · 1 (เหลือง) · 2, 3, 4 (ส้ม)<br>หมายเหตุ: ไฟล์ไม่มีรูปแผลแนบ<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 58: ไม่มีขีด<br>ที่ปรับในเว็บ: ช้อย 2 เขียนเป็น sialocele · เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 67",
+  "kimg": [
+   "fsk_p67",
+   "kp69c_X21",
+   "k2p_58"
   ]
  },
  "MDCU69|RoC|X22": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับเนื้องอกสมองโดยรวม",
-  "why": "<b>คีย์: ผู้จดขีดเส้นทแยงไม่ชัด · คีย์ไฟล์ 01.2 ไม่มีขีด</b><br><b>นอกสไลด์:</b> เนื้องอกสมองหลายชนิดหายขาดได้ ทั้งด้วยการผ่าตัดเอาออกหมด (meningioma, pilocytic astrocytoma, vestibular schwannoma, pituitary adenoma) และด้วยรังสี/เคมี (germinoma, medulloblastoma ความเสี่ยงมาตรฐาน)",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับเนื้องอกสมอง",
+  "why": "<b>เนื้องอกสมองบางชนิดรักษาหายขาดได้</b> — เช่น meningioma, pilocytic astrocytoma, vestibular schwannoma, pituitary adenoma, craniopharyngioma ที่ผ่าตัดออกได้หมด และ medulloblastoma/ germinoma บางรายที่ตอบสนองต่อรังสี/ เคมี · ข้ออื่นผิด: เนื้องอกไม่ร้าย<b>ก็ทำให้เสียชีวิตได้</b>ถ้ากดเนื้อสมอง/ ICP สูง/ อยู่ตำแหน่งสำคัญ, เนื้องอกชนิด<b>ไม่ร้ายพบมากกว่าชนิดร้าย</b> (meningioma พบบ่อยที่สุดในผู้ใหญ่), มะเร็งสมองปฐมภูมิ<b>แทบไม่กระจายนอกระบบประสาท</b> · ไฟล์ขีดเส้นทแยงพาดผ่านทั้งข้อ (ไม่ได้เลือกคำตอบ) โดยโจทย์ระบุ \"(ตรงacเก่า)\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “เนื้องอกไม่ร้ายในสมองไม่เคยทำให้ตาย” เป็นจริง เพราะกะโหลกเป็นกล่องปิด ก้อนไม่ร้ายที่โตกดก้านสมองหรืออุดทางเดิน CSF ทำให้ herniation ได้ (เช่น colloid cyst อุด foramen of Monro)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “รักษาไปก็ไม่มีใครรอด” เป็นจริง เพราะการผ่าตัดลดก้อนลดความดันในกะโหลก และรังสีร่วมเคมียืดชีวิตได้แม้ในเนื้องอกที่ร้ายที่สุดอย่าง glioblastoma",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้านับรวมมะเร็งที่แพร่กระจายมาสมองในผู้ใหญ่ ซึ่งพบมากกว่าเนื้องอกปฐมภูมิทุกชนิด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “เนื้องอกสมองทุกชนิดแพร่ออกนอกระบบประสาท” เป็นจริง เพราะสมองไม่มีทางเดินน้ำเหลืองตามปกติ การแพร่ออกนอก CNS จึงพบน้อยมาก การแพร่ที่พบคือไปตาม CSF (drop metastasis)"
+   "A": "ผิด — เนื้องอกไม่ร้ายทำให้เสียชีวิตได้ (ICP สูง/ herniation/ กดก้านสมอง) · จะถูกถ้าช้อยบอกว่าเนื้องอกไม่ร้ายก็ทำให้เสียชีวิตได้ (ต้นฉบับช้อย 1 \"ทำให้ตายได้\" ซึ่งเป็นข้อความที่ถูก)",
+   "C": "ผิด — การรักษา (ผ่าตัด รังสี เคมี) ยืดชีวิตและหายขาดได้บางชนิด · จะถูกถ้าคำถามถามเนื้องอกระยะสุดท้ายที่เหมาะกับการดูแลประคับประคอง",
+   "D": "ผิด — เนื้องอกสมองไม่ร้ายพบมากกว่า (meningioma ~40% ของเนื้องอกสมองปฐมภูมิ) · จะถูกถ้าช้อยบอกว่าชนิดร้ายที่พบบ่อยที่สุดในผู้ใหญ่คือ glioblastoma",
+   "E": "ผิด — มะเร็งสมองปฐมภูมิแทบไม่กระจายนอก CNS (ยกเว้นผ่าน shunt/ ผ่าตัด) · จะถูกถ้าช้อยบอกว่า medulloblastoma กระจายตามน้ำไขสันหลัง (drop mets)"
   },
-  "trap": "อย่าแปลร้ายหรือไม่ร้ายแบบมะเร็งอวัยวะอื่น — เนื้องอกสมองใช้ WHO grade 1–4 ร่วมกับลักษณะโมเลกุล (เช่น IDH, 1p/19q) บอกพยากรณ์ และพยากรณ์ขึ้นกับตำแหน่งและการผ่าออกได้หมด",
+  "trap": "คิดว่าเนื้องอกสมองไม่มีทางหาย หรือเนื้องอกไม่ร้ายไม่อันตราย · คีย์ในไฟล์ไม่ได้เลือก",
   "summary": [
-   "<b>นอกสไลด์:</b> เนื้องอกในกะโหลก: ผู้ใหญ่ปฐมภูมิที่พบมากที่สุดคือ meningioma ปฐมภูมิร้ายที่พบบ่อยสุดคือ glioblastoma · ในเด็กเป็นก้อนแข็งที่พบมากที่สุด ส่วนใหญ่อยู่ใน posterior fossa (เช่น medulloblastoma, ependymoma)"
+   "เนื้องอกสมองปฐมภูมิ: ไม่ร้ายพบมากกว่าชนิดร้าย",
+   "ผู้ใหญ่: meningioma (ไม่ร้าย) · glioblastoma (ร้าย) พบบ่อย",
+   "เด็ก: pilocytic astrocytoma · medulloblastoma",
+   "หายขาดได้: meningioma/ schwannoma/ pilocytic ที่ตัดได้หมด",
+   "ไม่ร้ายก็ถึงตายได้จากตำแหน่งและ ICP",
+   "เนื้องอกสมองที่พบบ่อยที่สุดในผู้ใหญ่โดยรวม = metastasis"
   ],
-  "opinion": "ตอบ B · คีย์ลายมือเป็นเส้นทแยงไม่ชัด ส่วนไฟล์ 01.2 แก้เป็นข้อใดผิดแล้วไฮไลต์ “รักษาไปก็ไม่รอด” ซึ่งสอดคล้องกับ B · มั่นใจปานกลาง",
+  "opinion": "ตอบ B ความมั่นใจปานกลาง — คีย์ในไฟล์ MCQ Key 2 ไม่ได้เลือก (ผู้จดขีดเส้นพาดผ่านทั้งข้อ) และไฟล์ Key 1 ไม่ได้ขีด · ในต้นฉบับช้อย 1 \"ทำให้ตายได้\" ก็เป็นข้อความที่ถูก เว็บจึงเขียนช้อย A ใหม่ให้เหลือคำตอบเดียว · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Brain tumor: Benign ก็ตายได้ · บางชนิดหายได้ · Benign &gt; Malignant'</b>",
+  "guide": "CBTRUS Statistical Report: Primary Brain and Other CNS Tumors in the United States 2016–2020 (Neuro Oncol 2023;25 suppl 4); WHO Classification of CNS Tumours 5th ed. (2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง 50 ปีชักครั้งแรก MRI พบก้อนติดเยื่อหุ้มสมอง จับสารสม่ำเสมอ มี dural tail → meningioma: ผ่าตัดเอาออกพร้อมเยื่อหุ้มที่เกาะ หายขาดได้",
-   "<b>นอกสไลด์:</b> เด็ก 5 ปีเดินเซ MRI ก้อนถุงน้ำมีส่วนเนื้อจับสารที่ cerebellar hemisphere → pilocytic astrocytoma: ผ่าตัดออกหมดหายขาด"
+   "หญิง 50 ปีชัก MRI ก้อน dural tail → meningioma → ผ่าตัดหายขาดได้",
+   "เด็กก้อน cerebellum มีถุงน้ำ + mural nodule → pilocytic astrocytoma → ผ่าตัดหายได้",
+   "ก้อนสมองหลายก้อนที่รอยต่อ gray-white matter → metastasis"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 67 — ตัวพิมพ์: <b>XX. ข้อใดถูกกับ brain tumor (ตรงacเก่า) — 1. ทำให้ตายได้ 2. อาจจะรักษาหายได้ 3. ไม่ต้องรักษายังไงก็ไม่รอด 4. ชนิดMalignant พบมากกว่าชนิด Benign</b><br>ลายมือ: เส้นทแยงสีแดงพาดผ่านทั้งข้อ · ไม่ได้ขีดช้อยใด<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 58: ไม่มีขีด<br>ที่ปรับในเว็บ: ช้อย A เขียนใหม่ · เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 67",
+  "kimg": [
+   "fsk_p67",
+   "kp69c_X22",
+   "k2p_58"
   ]
  }
 }
