@@ -1,29 +1,31 @@
 {
  "MDCU67|RoA|66": {
-  "interp": "ถามภาวะที่<b>ห้ามเจาะหลัง (LP)</b> ในกลุ่ม hydrocephalus",
-  "why": "LP ห้ามทำใน <b>non-communicating (obstructive) hydrocephalus</b> — การอุดกั้นอยู่<b>ในระบบโพรงสมอง</b> (เช่น <b>aqueductal stenosis</b>) ความดันเหนือจุดอุดสูง เมื่อดึง CSF ออกทางหลังจะเกิด<b>ความต่างความดัน</b> → สมองเคลื่อน (herniation) · ส่วน communicating hydrocephalus (NPH, หลังเยื่อหุ้มสมองอักเสบ/ SAH ที่การดูดซึม CSF บกพร่อง) ช่องทางเชื่อมถึงกัน LP ทำได้ (NPH ใช้ tap test วินิจฉัย) · ไฟล์ขีด C ลายมือ <b>\"non-communicating hydrocephalus\"</b> · A, B <b>\"communicating hydrocephalus\"</b> · D, E <b>\"communicating hydrocephalus\"</b> · D <b>\"⊖ CSF absorption\"</b> และแปะแผนผัง Hydrocephalus",
+  "interp": "ถามว่าภาวะ hydrocephalus แบบใดเป็นข้อห้ามเจาะหลัง — ต้องแยก communicating (CSF ไหลผ่านระบบโพรงสมองได้ แต่ดูดซึมไม่ได้) กับ non-communicating/ obstructive (อุดในระบบโพรงสมอง) เพราะแบบอุดทำให้เกิดความต่างแรงดันระหว่างกะโหลกกับไขสันหลัง",
+  "why": "<b>Non-communicating (obstructive) hydrocephalus</b> คือการอุดตันในทางไหลของ CSF ภายในระบบโพรงสมอง เช่น <b>aqueductal stenosis</b> (สาเหตุแต่กำเนิดที่พบบ่อยที่สุด) ก้อนเนื้องอกอุด foramen of Monro หรือโพรงที่ 4 · ส่วนเหนือจุดอุดมีแรงดันสูง ส่วนล่าง (spinal subarachnoid space) แรงดันไม่สูงตาม เมื่อเจาะหลังดึง CSF ออกจะเกิด<b>ความต่างแรงดันมากขึ้น</b> ดันสมองลงเกิด <b>transtentorial หรือ tonsillar herniation</b> · ส่วน <b>communicating hydrocephalus</b> ช่องทางเปิดถึงกันทั้งหมด แรงดันเท่ากันทุกส่วน จึงเจาะหลังได้ และใช้เพื่อวินิจฉัยหรือรักษา เช่น <b>tap test ใน NPH</b> หรือ lumbar drain หลัง SAH · การรักษา obstructive: <b>endoscopic third ventriculostomy (ETV)</b> หรือ VP shunt · ตรงคีย์ C — ไฟล์ขีด C เขียน \"<b>non-communicating hydrocephalus</b>\" และวงเล็บ A–B กับ D–E ว่า \"<b>communicating hydrocephalus</b>\" พร้อมเขียนที่ D ว่า \"<b>⊖ CSF absorption</b>\"",
   "wrong": {
-   "A": "NPH เป็น communicating — LP (tap test) ใช้วินิจฉัยและพยากรณ์ผลผ่าตัด shunt · จะถูกถ้าคำถามถามการตรวจที่ช่วยเลือกผู้ป่วยผ่าตัด VP shunt",
-   "B": "Communicating hydrocephalus ไม่มีอุดกั้นในโพรงสมอง LP ทำได้ · จะถูกถ้าคำถามถามภาวะที่ LP ทำได้อย่างปลอดภัย",
-   "D": "TB meningitis ทำให้ communicating hydrocephalus (การดูดซึมบกพร่อง — ลายมือ) LP ใช้วินิจฉัย · จะถูกถ้ามี tuberculoma อุด aqueduct/ ก้อนกินที่",
-   "E": "SAH ทำให้ communicating hydrocephalus (granulation อุด) · จะถูกถ้ามีก้อนเลือดใหญ่ใน ventricle อุด aqueduct/ 4th ventricle"
+   "A": "Normal pressure hydrocephalus เป็น communicating hydrocephalus ในผู้สูงอายุ แรงดันตอนเจาะปกติหรือสูงเล็กน้อย <b>การเจาะหลังเป็นส่วนหนึ่งของการวินิจฉัย</b> (tap test ดึง CSF 30–50 mL แล้วดูการเดินดีขึ้น) จึงไม่ใช่ข้อห้าม · จะถูกถ้าเป็นชาย 75 ปีที่มีเนื้องอกกด aqueduct ร่วมด้วยจน CT เห็น lateral และ third ventricle โตแต่ fourth ventricle เล็ก ซึ่งเป็น obstructive ไม่ใช่ NPH",
+   "B": "Communicating hydrocephalus มีการดูดซึม CSF ที่ arachnoid granulation ลดลง แต่ทางไหลเปิดถึงกัน แรงดันส่วนบนและล่างเท่ากัน การเจาะหลังไม่ทำให้เกิดความต่างแรงดัน จึงทำได้และใช้ลดแรงดันชั่วคราวได้ · จะถูกถ้าเป็นเด็ก 6 ปีมี medulloblastoma ในโพรงที่ 4 อุดทางออก CSF ทำให้ hydrocephalus ชนิดอุดตันและมีแรงดันสูง",
+   "D": "TB meningitis ทำให้มี exudate หนาที่ basal cisterns ขัดการไหลและการดูดซึม CSF ส่วนใหญ่เป็น <b>communicating</b> (ไฟล์เขียนว่า ⊖ CSF absorption) และการเจาะหลังจำเป็นเพื่อวินิจฉัย · จะถูกถ้าเป็นชาย 30 ปี TB meningitis ที่มี tuberculoma ก้อนใหญ่กด aqueduct จนเกิด obstructive hydrocephalus และสติลดลงอย่างรวดเร็ว",
+   "E": "SAH ทำให้เม็ดเลือดแดงอุด arachnoid granulation เกิด <b>communicating hydrocephalus</b> (ราว 20–30% ของ aneurysmal SAH) แรงดันเท่ากัน จึงใช้ lumbar drain ช่วยระบายได้ในบางกรณีหลังรักษา aneurysm แล้ว · จะถูกถ้าเป็นหญิง 55 ปี SAH ที่มีเลือดก้อนใหญ่อุดโพรงที่ 4 (intraventricular clot) จนเกิด obstructive hydrocephalus ต้องใส่ EVD แทน"
   },
-  "trap": "คิดว่า hydrocephalus ทุกชนิดห้ามเจาะหลัง — ห้ามเฉพาะ non-communicating (obstructive)",
+  "trap": "คนจำว่า \"hydrocephalus = ICP สูง = ห้ามเจาะหลัง\" จึงลังเลทุกข้อ — ตัวตัดสินคือ<b>มีการอุดในระบบโพรงสมองหรือไม่</b>: แบบอุด (aqueductal stenosis) ห้ามเจาะ ส่วนแบบ communicating (NPH, หลังติดเชื้อ, หลัง SAH) เจาะได้และใช้รักษาได้",
   "summary": [
-   "Non-communicating: อุดในโพรงสมอง (foramen of Monro · aqueduct · 4th ventricle outlet)",
-   "Communicating: ดูดซึมบกพร่อง (SAH · meningitis · leptomeningeal carcinomatosis) · NPH",
-   "ห้าม LP: obstructive hydrocephalus · ก้อนกินที่ · ICP สูงจากก้อน · coagulopathy · ติดเชื้อที่ผิวหนังจุดเจาะ",
-   "Obstructive → ETV หรือ VP shunt",
-   "NPH: เดินผิดปกติ · ปัสสาวะราด · สมองเสื่อม → tap test → VP shunt",
-   "CT ก่อน LP เมื่อมี focal deficit/ papilledema/ ซึม"
+   "CSF สร้าง ~500 mL/วัน ที่ choroid plexus · ไหล lateral → foramen of Monro → third ventricle → aqueduct of Sylvius → fourth ventricle → Luschka/ Magendie → subarachnoid → arachnoid granulations",
+   "Obstructive (non-communicating): อุดในระบบโพรงสมอง — aqueductal stenosis, Chiari II/ Dandy-Walker, ก้อนเนื้องอก (colloid cyst, pineal, posterior fossa), เลือดในโพรงสมอง",
+   "Communicating: ดูดซึมลดลง — หลัง SAH, meningitis (TB, bacterial), NPH, โปรตีนใน CSF สูงมาก",
+   "ข้อห้ามเจาะหลัง: obstructive hydrocephalus, ก้อนในกะโหลกที่มี mass effect, posterior fossa mass, ติดเชื้อที่ผิวหนังตำแหน่งเจาะ, coagulopathy/ เกล็ดเลือดต่ำ",
+   "NPH: เดินลำบาก (magnetic gait) + สมองเสื่อม + ปัสสาวะกลั้นไม่ได้ · tap test/ lumbar drain ทดสอบ → VP shunt",
+   "Obstructive รักษาด้วย ETV (โดยเฉพาะ aqueductal stenosis) หรือ VP shunt · ภาวะเฉียบพลันใส่ EVD",
+   "CT ช่วยแยก: aqueductal stenosis → lateral + third ventricle โต fourth ventricle ปกติ · communicating → ทุกโพรงโต"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'อุดในโพรง (non-communicating) = ห้ามดูดข้างล่าง'</b>",
-  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Hydrocephalus; Lumbar puncture contraindications",
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ขีด C) มั่นใจสูง — aqueductal stenosis เป็น obstructive hydrocephalus ตัวแทนที่ชัดที่สุด ไฟล์จัดกลุ่มช้อยอื่นเป็น communicating ไว้ชัดเจน · ข้อสังเกต: TB meningitis บางรายเป็น obstructive ได้จาก exudate อุดทางออกโพรงที่ 4 จึงต้องดู CT ทุกครั้งก่อนเจาะ",
+  "mnemonic": "<b>'อุด = ห้ามดูด (Obstructive → No LP) · ต่อถึงกัน = เจาะได้ (Communicating → LP ok)'</b>",
+  "guide": "Greenberg MS. Handbook of Neurosurgery 10th ed. (2023) ch. Hydrocephalus; Youmans and Winn Neurological Surgery 8th ed. (2022)",
   "variants": [
-   "เด็ก aqueductal stenosis หัวโต → ห้าม LP → ETV/ VP shunt",
-   "ผู้สูงอายุเดินลากขา ปัสสาวะราด หลงลืม → NPH → tap test",
-   "หลัง SAH 2 สัปดาห์ ซึมลง ventricle โตทุกห้อง → communicating hydrocephalus"
+   "เด็ก 3 เดือนหัวโต CT lateral และ third ventricle โต fourth ventricle ปกติ → aqueductal stenosis ห้ามเจาะหลัง รักษาด้วย ETV",
+   "ชาย 75 ปีเดินลำบาก หลงลืม ปัสสาวะราด ventricle โตทุกโพรง → NPH ทำ tap test",
+   "หลัง aneurysmal SAH 5 วันซึมลง ventricle โตทุกโพรง → acute communicating hydrocephalus ใส่ EVD",
+   "ทำไมการเจาะหลังใน obstructive hydrocephalus ทำให้ herniation → แรงดันใต้จุดอุดลดลงขณะที่เหนือจุดอุดยังสูง สมองจึงถูกดันลง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 105 — ตัวพิมพ์: <b>66. Which one is a contraindication of lumbar puncture? — A. Normal pressure hydrocephalus B. Communicating hydrocephalus C. Congenital aqueductal stenosis with hydrocephalus D. TB meningitis with hydrocephalus E. Subarachnoid hemorrhage with hydrocephalus</b><br>ลายมือ: วงเล็บ A–B \"communicating hydrocephalus\" · ขีด C + \"non-communicating hydrocephalus\" · D \"⊖ CSF absorption\" · วงเล็บ D–E \"communicating hydrocephalus\"<br>ไฮไลต์: \"contraindication\" (ขีดเส้นใต้) \"lumbar puncture\" · C (เหลือง)<br>รูปที่แปะ: แผนผัง Hydrocephalus — Communicating (Earlier called \"non-obstructive\"): Communicating without obstruction of CSF absorption → Normal Pressure Hydrocephalus, Overproduction of CSF · Communicating with obstruction of CSF absorption → Subarachnoid hemorrhage (SAH), Meningitis (bacterial and aseptic), Leptomeningeal carcinomatosis / Non-communicating (Earlier called \"obstructive\"): Obstructed CSF flow within the ventricular system → Obstruction at foramen of monro, aqueduct of sylvius or fourth ventricular outlet",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 105",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU67|RoA|67": {
-  "interp": "ผู้ป่วยความดันสูง (BP 160/80) CT พบ<b>เลือดออก (hyperdense) อยู่ด้านใน (medial) ต่อ internal capsule ชิด 3rd ventricle</b> → ถามการวินิจฉัย",
-  "why": "ตำแหน่ง<b>ด้านในต่อ posterior limb ของ internal capsule ติดผนัง 3rd ventricle</b> = <b>thalamus</b> → <b>thalamic hemorrhage</b> (hypertensive ICH จาก thalamoperforating arteries) · เปรียบเทียบ: putamen อยู่<b>ด้านนอก</b> internal capsule, caudate อยู่ชิด frontal horn ของ lateral ventricle · ไฟล์ขีด C และแปะ MRI ระบุตำแหน่ง <b>Caudate · Putamen · Globus Pallidus · Internal Capsule · Thalamus</b> และสไลด์สัดส่วนตำแหน่ง ICH",
+  "interp": "ผู้ป่วยความดันสูงมี CT เห็นเลือดออกในเนื้อสมองด้านในของ internal capsule ชิด third ventricle — ถามตำแหน่งของ hypertensive ICH ต้องรู้กายวิภาคบน CT axial ว่าอะไรอยู่ด้านในและด้านนอกของ internal capsule",
+  "why": "<b>Hypertensive ICH</b> เกิดจาก lipohyalinosis และ Charcot-Bouchard microaneurysm ของ<b>หลอดเลือดแดงเล็กแขนงเจาะลึก (penetrating arteries)</b> ตำแหน่งที่พบบ่อยตามลำดับคือ <b>putamen (basal ganglia) &gt; thalamus &gt; pons &gt; cerebellum</b> · บน CT axial: <b>internal capsule</b> เป็นแถบรูปตัว V · <b>ด้านนอก (lateral)</b> คือ putamen/ lentiform nucleus (เลือดจาก <b>lenticulostriate a.</b> ของ MCA) · <b>ด้านใน (medial)</b> ส่วนหน้าคือ caudate head ชิด frontal horn และส่วนหลังคือ <b>thalamus ชิด third ventricle</b> (เลือดจาก <b>thalamoperforating a.</b> ของ PCA) · อาการ thalamic ICH: ชาครึ่งซีก อ่อนแรงจาก internal capsule ถูกกด <b>ตาเหลือบลงและเข้าใน</b> รูม่านตาเล็ก และมัก<b>แตกเข้าโพรงสมอง</b>เกิด hydrocephalus · ตรงคีย์ C — ไฟล์ขีด C แปะภาพ CT ที่ลูกศรชี้เลือดชิด third ventricle และแผนภูมิตำแหน่ง ICH พร้อมลายมือ \"<b>thalamus → thalamoperforating</b>\"",
   "wrong": {
-   "A": "Basal ganglion (putamen) hemorrhage อยู่ด้านนอก internal capsule — พบบ่อยที่สุดของ hypertensive ICH · จะถูกถ้า CT พบเลือดด้านนอก internal capsule (lentiform)",
-   "B": "Caudate hemorrhage อยู่ชิด frontal horn มักทะลุเข้า ventricle · จะถูกถ้า CT พบเลือดที่หัว caudate ชิด frontal horn",
-   "D": "MCA territory/ lobar hemorrhage อยู่ที่ผิวสมอง (cortex/ subcortical) · จะถูกถ้า CT พบเลือดใน temporal/ parietal lobe ใกล้ผิวสมอง (ผู้สูงอายุ — amyloid)",
-   "E": "Pontine hemorrhage อยู่ในก้านสมอง: coma รูม่านตาเล็กมาก (pinpoint) quadriplegia · จะถูกถ้า CT พบเลือดใน pons + pinpoint pupils"
+   "A": "Basal ganglia (putamen) hemorrhage พบบ่อยที่สุดของ hypertensive ICH แต่ตำแหน่งอยู่<b>ด้านนอกของ internal capsule</b> จาก lenticulostriate artery อาการอ่อนแรงครึ่งซีกรุนแรง ตามองไปข้างรอยโรค · จะถูกถ้าเป็นชาย 60 ปีความดันสูง อ่อนแรงแขนขาซ้ายทันที ตาเหลือบไปขวา CT เห็นเลือดรูปไข่ด้านนอกของ internal capsule ขวา",
+   "B": "Caudate hemorrhage อยู่ที่ <b>caudate head</b> ชิด frontal horn ของ lateral ventricle (ด้านในส่วนหน้าของ internal capsule) มักแตกเข้าโพรงสมองทำให้ปวดศีรษะ อาเจียน คอแข็งคล้าย SAH อ่อนแรงไม่มาก · จะถูกถ้าเป็นหญิง 55 ปีปวดศีรษะเฉียบพลัน คอแข็ง สับสน CT เห็นเลือดที่ caudate head ทะลุเข้า frontal horn",
+   "D": "MCA territory hemorrhage มักหมายถึง <b>lobar hemorrhage</b> ที่ผิวสมอง (frontal, parietal, temporal) สาเหตุมักเป็น cerebral amyloid angiopathy ในผู้สูงอายุ AVM หรือ hemorrhagic transformation ไม่ใช่ตำแหน่งลึกชิด third ventricle · จะถูกถ้าเป็นหญิง 78 ปีความจำเสื่อม มีเลือดออกที่ parietal lobe ใกล้ผิวสมอง MRI เห็น cortical microbleeds หลายจุด",
+   "E": "Pontine hemorrhage จาก paramedian perforator ของ basilar a. ทำให้<b>โคม่าเร็ว รูม่านตาเล็กเท่าเข็ม (pinpoint) อัมพาตทั้งสี่ส่วน</b> หายใจผิดปกติ ตำแหน่งอยู่ใน posterior fossa ไม่ใช่ระดับ third ventricle · จะถูกถ้าเป็นชาย 50 ปีความดันสูงมาก หมดสติทันที รูม่านตาเล็กสองข้าง แขนขาอ่อนแรงทั้งหมด CT เห็นเลือดกลาง pons"
   },
-  "trap": "เห็นเลือดลึกในสมองแล้วตอบ basal ganglia ทุกครั้ง — ดูว่าอยู่ด้านใน (thalamus) หรือด้านนอก (putamen) ของ internal capsule",
+  "trap": "Thalamus อยู่ติด basal ganglia บนภาพ CT จึงชวนตอบ A แบบกว้าง ๆ — ให้ใช้ <b>internal capsule เป็นหลักแบ่ง</b>: ด้านนอก = putamen · ด้านในส่วนหลังชิด third ventricle = thalamus · ด้านในส่วนหน้าชิด frontal horn = caudate",
   "summary": [
-   "Hypertensive ICH: putamen &gt; thalamus &gt; pons/ cerebellum",
-   "Putamen: lenticulostriate a. · ด้านนอก internal capsule",
-   "Thalamus: thalamoperforating a. · ด้านใน ชิด 3rd ventricle",
-   "Lobar: amyloid angiopathy (ผู้สูงอายุ) · AVM (คนอายุน้อย)",
-   "Cerebellar &gt; 3 cm หรือกดก้านสมอง/ hydrocephalus → ผ่าตัด",
-   "Pontine: pinpoint pupils · coma"
+   "ICH ราว 10–20% ของ stroke · ปัจจัยหลัก: ความดันสูง · ผู้สูงอายุที่ lobar: cerebral amyloid angiopathy · คนอายุน้อย: AVM, ยาเสพติด",
+   "ตำแหน่ง hypertensive ICH: putamen (~35–50%) &gt; lobar &gt; thalamus (~10–20%) &gt; cerebellum (~10%) &gt; pons (~5–10%)",
+   "หลอดเลือด: putamen → lenticulostriate (MCA) · thalamus → thalamoperforating (PCA) · pons → paramedian basilar · cerebellum → SCA/ AICA/ PICA",
+   "อาการตามตำแหน่ง: putamen ตามองไปข้างรอยโรค · thalamus ตาเหลือบลงและเข้าใน ชาครึ่งซีก · pons pinpoint pupils โคม่า · cerebellum เวียน เดินเซ อาเจียน",
+   "ICH score: GCS, ปริมาตร ≥ 30 mL, IVH, infratentorial, อายุ ≥ 80 ทำนายอัตราตาย 30 วัน",
+   "ผ่าตัด: cerebellar ICH &gt; 3 cm หรือกดก้านสมอง/ hydrocephalus → suboccipital decompression · supratentorial ส่วนใหญ่รักษาทางยา (ENRICH 2024 สนับสนุน minimally invasive ในบางราย)",
+   "ความดัน: SBP 150–220 ลดสู่ ~140 mmHg (AHA 2022) หลีกเลี่ยงต่ำกว่า 130 · แก้ยาต้านการแข็งตัว"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และภาพตำแหน่งที่แปะ",
-  "mnemonic": "<b>'Internal capsule เป็นเส้นแบ่ง: นอก = Putamen · ใน = Thalamus'</b>",
-  "guide": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ขีด C) มั่นใจสูง — ภาพ CT ที่ไฟล์แปะเห็นเลือดชิด third ventricle ด้านในของ internal capsule ซึ่งเป็นตำแหน่ง thalamus · ข้อสังเกต: ในทางกายวิภาค thalamus ไม่ใช่ basal ganglia แต่บางตำราเรียกรวมว่า \"deep\" ICH จึงต้องอ่านตำแหน่งจากภาพ · เว็บบรรยายตำแหน่งในโจทย์แทนภาพ",
+  "mnemonic": "<b>'Internal capsule เป็นเส้นแบ่ง: นอก = Putamen · ในหน้า = Caudate · ในหลัง = Thalamus (ชิดโพรงที่ 3)'</b>",
+  "guide": "Greenberg SM et al. 2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022); Hsieh PC et al. (Neurol Clin 2006) ตามสไลด์ที่แปะในไฟล์",
   "variants": [
-   "ความดันสูง ซีกซ้ายอ่อนแรง CT เลือดด้านนอก internal capsule ขวา → putamen hemorrhage",
-   "ความดันสูง coma pinpoint pupils → pontine hemorrhage",
-   "เวียนศีรษะ อาเจียน เดินเซ CT เลือดในซีกสมองน้อย 4 cm → cerebellar hemorrhage → ผ่าตัด"
+   "ความดันสูง อ่อนแรงซีกขวา ตาเหลือบลงและเข้าใน CT เลือดชิด third ventricle ซ้าย → left thalamic hemorrhage",
+   "ความดันสูง เวียนศีรษะ อาเจียน เดินไม่ได้ CT เลือดใน cerebellum 4 cm กด fourth ventricle → suboccipital craniectomy",
+   "หญิง 80 ปีหลงลืม เลือดออกที่ lobar ซ้ำหลายครั้ง → cerebral amyloid angiopathy",
+   "ทำไม thalamic ICH มักเกิด hydrocephalus → อยู่ชิด third ventricle เลือดแตกเข้าโพรงสมองและอุดทางไหลของ CSF"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 105–106 — ตัวพิมพ์: <b>67. ให้อาการผู้ป่วยมา(ผลการตรวจร่างกาย BP 160/80 Glasgow coma score) + ภาพCT scan จงให้การวินิจฉัย — A. Basal ganglion hemorrhage B. Caudate hemorrhage C. Thalamic hemorrhage D. MCA hemorrhage E. Pontine hemorrhage</b><br>ลายมือ: ขีด C<br>ไฮไลต์: C (เหลือง)<br>รูปที่แปะ: ① ภาพ CT axial — เลือดออก (ลูกศร) ด้านในชิด 3rd ventricle ข้างขวา ② สไลด์ (***) แผนภูมิวงกลมตำแหน่ง ICH — ① Lobar 32% ② Basal Ganglia 30% ③ Thalamus 23% ④ Cerebellum 11% ⑤ Pons (brainstem) 4% (Hsieh PC, et al. Neurol Clin 2006) + ลายมือเล็ก (อ่านได้ประมาณ \"hypertensive hemorrhage ∵ perforating a. — basal gg. → lenticulostriate · thalamus → thalamoperforating · brain stem → basilar perforator\") ③ MRI axial ระบุ Caudate · Putamen · Globus Pallidus · Internal Capsule · Thalamus<br>ที่ปรับในเว็บ: บรรยายภาพ CT ในโจทย์ (hyperdense medial to internal capsule, adjacent to third ventricle)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 105",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU67|RoA|68": {
-  "interp": "ชาย 50 ปี <b>ไม่มีโรคประจำตัว</b> ปวดศีรษะ รู้สึกตัวดี มือซ้ายอ่อนแรง (pronator drift) BP 160/90 · CT: <b>ICH ซีกขวา 3 จุด</b> → ถามการจัดการที่เหมาะสม",
-  "why": "ICH <b>หลายจุด</b>ในผู้ที่<b>ไม่มีประวัติความดันสูง</b> ไม่ใช่รูปแบบ hypertensive ICH ทั่วไป → ต้อง<b>หาสาเหตุทางหลอดเลือด</b> (AVM, aneurysm, dural AV fistula, cerebral venous thrombosis, cavernoma) หรือก้อนเนื้องอก/ มะเร็งกระจายที่มีเลือดออก → <b>CTA</b> เป็นการตรวจหลอดเลือดที่เร็วและทำได้ทันที (ข้อบ่งชี้ angiography: เลือดออกตำแหน่งผิดปกติ/ ไม่มีสาเหตุชัด) · ไฟล์ขีด B ลายมือ <b>\"ดู vsl.\"</b> · E <b>\"ไม่ทำ BP↑ → nicardipine (CCB)\"</b> ✗ · <b>\"∵ MAP − ICP = CPP\"</b> และแปะสไลด์ Imaging, ตารางคุมความดันใน ICH และ <b>Cerebral Angiography Indications</b>",
+  "interp": "ชาย 50 ปีไม่มีโรคประจำตัว (ไม่มีประวัติความดันสูง) มีเลือดออกในสมองซีกขวาหลายจุด อาการคงที่ ถามการจัดการที่เหมาะสม — ICH ที่ไม่เข้าแบบความดันสูง โดยเฉพาะหลายตำแหน่งในคนอายุไม่มาก ต้องหาสาเหตุทางหลอดเลือดด้วย CTA",
+  "why": "ICH ที่<b>ไม่เข้ารูปแบบ hypertensive</b> (อายุ &lt; 70 ปีและเป็น lobar, อายุ &lt; 45 ปีที่ตำแหน่งลึก, ไม่มีประวัติความดันสูง หรือ<b>เลือดออกหลายตำแหน่ง</b>) ต้องหา <b>macrovascular cause</b> เช่น <b>AVM, aneurysm, dural AV fistula, cerebral venous thrombosis</b> หรือ moyamoya · AHA 2022 แนะนำ <b>CTA (± CTV)</b> ในชั่วโมงแรก ๆ เพราะทำได้เร็ว ไวพอ และเห็น <b>spot sign</b> ที่บอกว่าก้อนจะขยาย · ถ้า CTA ปกติแต่ยังสงสัยมาก ทำ DSA หรือ MRI ต่อ · ความดัน 160/90 สูงแต่ไม่มาก อยู่ในช่วงที่ลดได้แต่ไม่เร่งด่วนเท่าการหาสาเหตุ · การตรวจ coagulation ทำเป็นพื้นฐานอยู่แล้วแต่ไม่ใช่สิ่งที่เปลี่ยนการวินิจฉัยหลัก · ตรงคีย์ B — ไฟล์ขีด B เขียน \"<b>ดู vsl.</b>\" ใต้ความดันเขียน \"<b>∵ MAP − ICP = CPP</b>\" และที่ช้อย E เขียน \"<b>ไม่ทำ BP↑ → nicardipine (CCB)</b>\" พร้อมกากบาท",
   "wrong": {
-   "A": "CT ซ้ำใช้ดูการขยายของก้อนเลือด (มักทำใน 6–24 ชม.) แต่ไม่บอกสาเหตุ · จะถูกถ้าคำถามถามผู้ป่วยซึมลงหลังรับไว้ สงสัยก้อนเลือดขยาย",
-   "C": "Coagulogram ควรส่งพื้นฐาน แต่ไม่ใช่คำตอบหลักเมื่อลักษณะชี้ไปทางหลอดเลือดผิดปกติ · จะถูกถ้าผู้ป่วยกิน warfarin/ มีจ้ำเลือดตามตัว",
-   "D": "Echo ใช้หาแหล่ง emboli ใน ischemic stroke/ septic emboli · จะถูกถ้ามีไข้ murmur สงสัย infective endocarditis + mycotic aneurysm",
-   "E": "BP 160/90 ไม่สูงมาก และต้องรักษา CPP (ลายมือ MAP − ICP = CPP) ไฟล์ขีด ✗ — แต่ AHA 2022: SBP 150–220 การลดลงสู่ ~140 ถือว่าปลอดภัย · จะถูกถ้า SBP &gt; 220 หรือคำถามถามการคุมความดันเบื้องต้น"
+   "A": "CT ไม่ฉีดสีซ้ำใช้ดูว่าก้อนเลือดขยาย (hematoma expansion มักเกิดใน 6–24 ชม. แรก) เมื่ออาการทรุด แต่ไม่ได้บอกสาเหตุ ผู้ป่วยรู้สึกตัวดีอาการคงที่ และเพิ่งทำ CT ไปแล้ว · จะถูกถ้าเป็นชาย 65 ปีความดันสูงเรื้อรัง ICH ที่ putamen ตอนรับ GCS 14 สามชั่วโมงต่อมาซึมลงเหลือ GCS 10 ต้องดูว่าเลือดขยายหรือแตกเข้าโพรงสมอง",
+   "C": "Coagulogram (PT/INR, aPTT, เกล็ดเลือด) เป็นการตรวจพื้นฐานที่ทำทุกราย ICH และสำคัญมากในผู้กินยาต้านการแข็งตัว แต่ผู้ป่วยไม่มีโรคประจำตัวและไม่ได้กินยา คำตอบที่เปลี่ยนการรักษาคือหาความผิดปกติของหลอดเลือด · จะถูกถ้าเป็นชาย 70 ปีกิน warfarin จาก AF มีเลือดออกในสมอง ต้องรู้ INR เพื่อให้ 4-factor PCC และ vitamin K ทันที",
+   "D": "Echocardiogram ใช้หาแหล่งลิ่มเลือดจากหัวใจใน ischemic stroke หรือ infective endocarditis ที่ทำให้ mycotic aneurysm แตก ไม่ใช่ขั้นแรกของ ICH ที่ไม่มีไข้หรือ murmur · จะถูกถ้าเป็นชาย 30 ปีฉีดยาเข้าเส้น มีไข้ murmur ใหม่ และมีเลือดออกหลายจุดที่ผิวสมองจากสงสัย mycotic aneurysm",
+   "E": "การลดความดันใน ICH สำคัญ (AHA 2022: SBP 150–220 ลดสู่ราว 140 mmHg ด้วย nicardipine หรือ labetalol) แต่ความดัน 160/90 ไม่สูงมากและไฟล์ระบุว่าไม่ทำ เพราะต้องคง <b>CPP = MAP − ICP</b> และสิ่งที่ข้อนี้ต้องการคือหาสาเหตุ · จะถูกถ้าเป็นชาย 60 ปี hypertensive ICH ที่ thalamus ความดัน 220/120 mmHg ซึ่งต้องลดอย่างระมัดระวังด้วยยาฉีดทันที"
   },
-  "trap": "ICH ทุกรายคือความดันสูง — หลายจุด + ไม่มีประวัติ HT + อายุไม่มาก = หาสาเหตุหลอดเลือด (CTA)",
+  "trap": "เห็นความดัน 160/90 จึงคิดว่าเป็น hypertensive ICH แล้วเลือกยาลดความดัน — แต่ผู้ป่วย<b>ไม่มีประวัติความดันสูง</b> และเลือดออก<b>หลายจุด</b> ซึ่งไม่เข้ารูปแบบ จึงต้องหา AVM/ venous thrombosis/ aneurysm ด้วย CTA ก่อน",
   "summary": [
-   "ICH: CT non-contrast เป็น gold standard ระยะแรก",
-   "หาสาเหตุ (CTA/ MRA ± DSA): อายุ &lt; 70 · lobar · ไม่มี HT · หลายจุด · IVH เดี่ยว",
-   "DSA: gold standard หลอดเลือด (AVM · aneurysm · DAVF)",
-   "BP: SBP 150–220 → ลดสู่ ~140 (หลีกเลี่ยง &lt; 130)",
-   "แก้ coagulopathy: warfarin → PCC + vit K",
-   "Spot sign ใน CTA → เสี่ยงก้อนเลือดขยาย"
+   "ICH ทุกราย: CT ไม่ฉีดสีเร็วที่สุด + CBC, PT/INR, aPTT, glucose, creatinine, troponin, ECG",
+   "หาสาเหตุทางหลอดเลือด (CTA ± CTV) เมื่อ: lobar &lt; 70 ปี, deep &lt; 45 ปี, ไม่มีความดันสูง, เลือดหลายจุด, มี SAH/ IVH ร่วม, รูปร่างผิดปกติ",
+   "Spot sign บน CTA = contrast รั่วในก้อนเลือด ทำนาย hematoma expansion",
+   "Multiple ICH: CVT (โดยเฉพาะ bilateral parasagittal), coagulopathy, vasculitis, metastasis (melanoma, RCC, choriocarcinoma), CAA, septic emboli",
+   "ความดัน (AHA 2022): SBP 150–220 → เป้า ~140 (ไม่ต่ำกว่า 130) ใช้ nicardipine/ clevidipine/ labetalol · SBP &gt; 220 ลดอย่างระวัง",
+   "Anticoagulant-associated: warfarin → 4F-PCC + vitamin K · dabigatran → idarucizumab · Xa inhibitor → andexanet alfa หรือ PCC",
+   "CPP = MAP − ICP เป้าหมาย 60–70 mmHg · การลดความดันมากเกินในผู้ที่ ICP สูงทำให้สมองขาดเลือด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางค่อนข้างสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ · ในทางปฏิบัติการคุมความดัน (E) ก็ทำควบคู่ได้ตาม AHA 2022 แต่ข้อนี้ถามสิ่งที่เหมาะสมกับลักษณะ ICH หลายจุดในผู้ไม่มีประวัติ HT",
-  "mnemonic": "<b>'ICH ผิดแบบ (หลายจุด/ ไม่ HT/ อายุน้อย/ lobar) = CTA หาหลอดเลือด'</b>",
-  "guide": "AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ขีด B \"ดู vsl.\") มั่นใจสูง — ชายวัยกลางคนไม่มีความดันสูงและเลือดออกหลายจุดเป็นข้อบ่งชี้หาสาเหตุทางหลอดเลือดตาม AHA 2022 · ข้อสังเกต: ในทางปฏิบัติ coagulogram ส่งพร้อมกันทุกราย และ AHA 2022 ไม่ได้ห้ามลดความดันที่ 160 แต่ข้อนี้ไฟล์เน้นว่าไม่ต้องเร่งลด ซึ่งสมเหตุผลเมื่อความดันไม่สูงมาก",
+  "mnemonic": "<b>'ICH ที่ไม่ใช่แบบความดัน (อายุน้อย · ไม่มี HT · หลายจุด · lobar) → ดูหลอดเลือด CTA'</b>",
+  "guide": "Greenberg SM et al. 2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022)",
   "variants": [
-   "ชาย 30 ปี ICH lobar ไม่มี HT → CTA หา AVM",
-   "หญิงหลังคลอด ปวดศีรษะ ICH หลายจุดใกล้ผิวสมอง → CTV/ MRV หา venous sinus thrombosis",
-   "ผู้สูงอายุ ICH lobar ซ้ำ ๆ → cerebral amyloid angiopathy (MRI SWI)"
+   "หญิง 30 ปีหลังคลอด 2 สัปดาห์ ปวดศีรษะ ชัก CT เลือดออก parasagittal สองข้าง → CT venography หา cerebral venous thrombosis",
+   "ชาย 25 ปี lobar ICH ที่ temporal มี calcification → CTA หา AVM แล้วพิจารณา DSA",
+   "ICH ที่ putamen ความดัน 200/110 ในชายความดันสูงเรื้อรัง → nicardipine ฉีดลด SBP สู่ ~140",
+   "ทำไมไม่ลดความดันให้ต่ำมากใน ICH → CPP = MAP − ICP ถ้า ICP สูงแล้ว MAP ต่ำ สมองจะขาดเลือด"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 106 — ตัวพิมพ์: <b>68. ผู้ป่วยชายไทยอายุ 50 ปี ปฏิเสธประวัติโรคประจำตัว ปวดหัวหน่วงๆ conscious ดี ใช้มือซ้ายลำบาก pronator drift +ve BP 160/90 ผลการตรวจCT scan(ดังรูป) [ภาพ intracerebral hemorrhage ซีกขวา 3 จุด] What one is a proper management? — A. CT without contrast B. CTA C. Coagulogram D. Echocardiogram E. IV antihypertensive drug</b><br>ลายมือ: \"∵ MAP − ICP = CPP\" ใต้ BP 160/90 · ขีด B + \"ดู vsl.\" · E \"ไม่ทำ BP↑ → nicardipine (CCB)\" + ✗<br>ไฮไลต์: \"ชายไทยอายุ 50 ปี\" \"ปวดหัวหน่วงๆ\" \"ใช้มือซ้ายลำบาก\" \"pronator drift +ve\" \"BP 160/90\" \"intracerebral hemorrhage ซีกขวา 3 จุด\" \"proper management\" · B (เหลือง)<br>รูปที่แปะ: ① สไลด์ Imaging (stroke gold standard: CT scan non-contrast — CT scan without contrast of choice · CT with contrast → aneurysm, AVM, tumor · CTA → aneurysm, AVM · MRI/ MRA → underlying structural lesions, perilesional edema, herniation · Cerebral angiography → aneurysm, AVM gold standard) + ภาพ CT 3 ภาพ + ลายมือแดง/ชมพูจำนวนมาก ② ตาราง \"Suggested Recommended Guidelines for Treating Elevated Blood Pressure in Spontaneous ICH\" (SBP &gt; 200 หรือ MAP &gt; 150 → aggressive reduction · SBP &gt; 180 หรือ MAP &gt; 130 + สงสัย ICP สูง → ลด BP โดยรักษา CPP ≥ 60 · SBP &gt; 180 หรือ MAP &gt; 130 ไม่สงสัย ICP สูง → ลดปานกลาง MAP 110 หรือ 160/90) + ลายมือ ③ สไลด์ Cerebral Angiography Indications — (ลายมือ \"ต้องทำในกรณี SAH\" · gold standard for vascular disease) · SAH · Abnormal calcifications · Obvious vascular abnormalities · Blood in unusual locations · No obvious source of bleeding e.g. primary IVH",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 106",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU67|RoA|69": {
-  "interp": "ปวดศีรษะ ซึม <b>3 วัน</b> · CT พบ<b>เลือดใน basal cisterns (SAH)</b> → ถาม CSF profile ที่เข้ากันมากที่สุด",
-  "why": "SAH: CSF มี <b>RBC สูง</b> (ไม่ลดลงในหลอดถัดไป ± xanthochromia) · เลือดใน subarachnoid space ทำให้<b>อักเสบ (chemical meningitis)</b> → <b>WBC สูงเกินสัดส่วน</b>ของ RBC (คาด RBC : WBC ≈ 500–1,000 : 1 → RBC 25,000 ควรมี WBC ~50 แต่ได้ 500) และ <b>protein สูง</b> (คาดเพิ่ม ~1 mg/dL ต่อ RBC 1,000 → ~25 + ค่าปกติ ~45 = ~70 แต่ได้ 200) · <b>glucose ปกติ/ ต่ำเล็กน้อย</b> · ไฟล์เขียนคำตอบ <b>\"Ans. RBC 25,000 WBC 500\"</b> ลายมือ <b>\"WBC ที่ควรมี 25000/500 = 50\"</b> · <b>\"pt. ควรมี 25000/1000 = 25 + 45 = 70…\"</b> · <b>\"∴ น่าจะ SAH\"</b> และวง CT <b>\"basal cistern มีเลือด fill → SAH\"</b>",
+  "interp": "ปวดศีรษะและซึม 3 วัน CT เห็นเลือดใน basal cisterns = subarachnoid hemorrhage ถามผล CSF ที่เข้ากันมากที่สุด — ต้องรู้ว่า SAH มี RBC สูงมาก WBC สูงตามสัดส่วนและเพิ่มจากการระคายเยื่อหุ้มสมองในวันต่อมา โปรตีนสูง แต่ glucose ปกติ",
+  "why": "ใน <b>SAH</b> เลือดอยู่ใน subarachnoid space โดยตรง CSF จึงมี <b>RBC สูงมาก</b> (หลักหมื่นถึงแสน) ที่<b>ไม่ลดลง</b>ตั้งแต่หลอดแรกถึงหลอดสุดท้าย (ต่างจาก traumatic tap) · <b>WBC</b> เพิ่มตามสัดส่วนเลือด (ประมาณ 1 WBC ต่อ 500–1,000 RBC) และ<b>หลัง 1–3 วัน</b>เลือดระคายเยื่อหุ้มสมองเกิด <b>chemical (aseptic) meningitis</b> WBC สูงขึ้นอีก · <b>โปรตีนสูง</b>จากโปรตีนในเลือด (ราว 1 mg/dL ต่อ RBC 1,000 ตัว) · <b>glucose มักปกติ</b> (อาจต่ำเล็กน้อยในวันหลัง) · หลัง 12 ชั่วโมงจะมี <b>xanthochromia</b> จาก bilirubin ซึ่งยืนยันว่าเป็นเลือดเก่าไม่ใช่เลือดจากเข็ม · ผลแบบนี้จึงต่างจาก bacterial meningitis (PMN สูง glucose ต่ำมาก) และ TB/ fungal (lymphocyte glucose ต่ำ) · ตรงคีย์ A — ไฟล์เขียน \"<b>Ans. RBC 25,000 WBC 500</b>\" วง CT ว่า \"<b>basal cistern มีเลือด fill → SAH</b>\" และคำนวณ \"<b>WBC ที่ควรมี 25000/500 = 50</b>\" จึงสรุป \"<b>∴ น่าจะ SAH</b>\"",
   "wrong": {
-   "B": "CSF ปกติ — ไม่เข้ากับ SAH ที่ CT เห็นเลือดชัด · จะถูกถ้าคำถามถาม CSF ในไมเกรน/ ปวดศีรษะจากความเครียด",
-   "C": "RBC น้อย PMN สูงมาก glucose ต่ำมาก = bacterial meningitis · จะถูกถ้ามีไข้สูง คอแข็ง CT ไม่มีเลือด",
-   "D": "Lymphocyte สูง protein สูง glucose ต่ำ = TB/ fungal meningitis · จะถูกถ้ามีไข้เรื้อรัง 2–3 สัปดาห์ CT พบ basal meningeal enhancement + hydrocephalus",
-   "E": "Lymphocyte เล็กน้อย glucose ปกติ = viral meningitis · จะถูกถ้ามีไข้ ปวดศีรษะ คอแข็ง รู้สึกตัวดี"
+   "B": "ผลนี้เป็น <b>CSF ปกติ</b> (WBC &lt; 5, โปรตีน 15–45 mg/dL, glucose ราว 2/3 ของเลือด) ซึ่งไม่เข้ากับภาพ CT ที่เห็นเลือดใน basal cisterns · จะถูกถ้าเป็นหญิง 35 ปีปวดศีรษะไมเกรนเรื้อรัง CT ปกติ และเจาะหลังเพื่อแยกโรคอื่นแล้วผลออกมาปกติทั้งหมด",
+   "C": "WBC 1,500 เป็น PMN ร่วมโปรตีนสูงมาก และ <b>glucose ต่ำมาก (10)</b> เป็นภาพของ <b>bacterial meningitis</b> RBC เล็กน้อยอาจมาจากเข็ม · จะถูกถ้าเป็นชาย 20 ปีไข้สูง ปวดศีรษะ คอแข็ง มีผื่นจ้ำเลือด 1 วัน CSF ขุ่น Gram stain พบ gram-negative diplococci",
+   "D": "Lymphocyte เด่นร่วมโปรตีนสูงและ <b>glucose ต่ำ</b> เป็นภาพของ <b>TB meningitis</b> หรือ cryptococcal meningitis ซึ่งค่อยเป็นหลายสัปดาห์ · จะถูกถ้าเป็นชาย 35 ปีติดเชื้อ HIV ไข้ต่ำ ๆ ปวดศีรษะ 3 สัปดาห์ CN VI palsy CT เห็น basal meningeal enhancement และ hydrocephalus",
+   "E": "Lymphocyte สูงปานกลาง โปรตีนสูงเล็กน้อย glucose ปกติ เป็นภาพของ <b>viral (aseptic) meningitis</b> ไม่มี RBC จึงไม่เข้ากับเลือดใน basal cisterns · จะถูกถ้าเป็นหญิง 22 ปีไข้ ปวดศีรษะ กลัวแสง คอแข็งเล็กน้อย 2 วัน รู้สึกตัวดี ช่วงหน้าร้อนที่มี enterovirus ระบาด"
   },
-  "trap": "คิดว่า CSF ของ SAH มีแต่ RBC — หลายวันผ่านไปเกิดการอักเสบ WBC และ protein สูงเกินสัดส่วน",
+  "trap": "WBC 500 ทำให้คิดถึง meningitis จึงลังเลไปข้อ C หรือ D — ต้องดู <b>RBC เทียบ WBC</b>: RBC 25,000 อธิบาย WBC ได้ส่วนหนึ่ง และ 3 วันหลัง SAH มี chemical meningitis ทำให้ WBC สูงขึ้นอีก · ตัวแยก meningitis คือ <b>glucose ต่ำ</b> ซึ่ง SAH มักไม่มี",
   "summary": [
-   "SAH CSF: RBC สูงคงที่ทุกหลอด · xanthochromia (หลัง ~12 ชม.)",
-   "Traumatic tap: RBC ลดลงในหลอดถัดไป · ไม่มี xanthochromia",
-   "ปรับ WBC: RBC : WBC ≈ 500–1,000 : 1",
-   "ปรับ protein: +1 mg/dL ต่อ RBC 1,000",
-   "Bacterial: PMN · glucose ต่ำมาก · protein สูง",
-   "TB: lymphocyte · glucose ต่ำ · protein สูงมาก"
+   "CSF ปกติ: opening pressure 5–20 cmH₂O, WBC &lt; 5 (lymphocyte), RBC 0, โปรตีน 15–45 mg/dL, glucose ≥ 60% ของเลือด",
+   "SAH: RBC สูงคงที่ทุกหลอด, xanthochromia หลัง 12 ชม. (คงอยู่ถึง 2 สัปดาห์), opening pressure สูง, โปรตีนสูง, glucose ปกติ",
+   "Traumatic tap: RBC ลดลงจากหลอด 1 ถึง 4, ไม่มี xanthochromia, แรงดันปกติ · ใช้ RBC หลอดสุดท้าย &lt; 2,000 ช่วยตัด SAH",
+   "Bacterial: PMN หลักพัน, โปรตีน &gt; 100–500, glucose &lt; 40 หรือ &lt; 0.4 ของเลือด, แรงดันสูง",
+   "TB/ fungal: lymphocyte 100–500, โปรตีนสูงมาก, glucose ต่ำ · viral: lymphocyte &lt; 300, โปรตีนสูงเล็กน้อย, glucose ปกติ",
+   "ปรับค่า: WBC ที่คาดจากเลือด ≈ RBC ใน CSF × WBC/RBC ในเลือด (≈ 1:700) · โปรตีนเพิ่ม ~1 mg/dL ต่อ RBC 1,000",
+   "CT ภายใน 6 ชม. หลังปวดไวเกือบ 100% · หลังจากนั้นความไวลดลง CT ลบแต่สงสัย → LP"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคำตอบที่ไฟล์ MCQ Key 2 เขียนไว้ (\"Ans. RBC 25,000 WBC 500\")",
-  "mnemonic": "<b>'SAH = แดงเต็ม + ขาวเกินสัดส่วน (เลือดระคายเยื่อหุ้ม)'</b>",
-  "guide": "AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314); Edlow JA, et al. J Emerg Med 2002;23:67 (Traumatic LP vs SAH)",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์เขียนคำตอบไว้ \"RBC 25,000 WBC 500\") มั่นใจสูง — เป็นผล CSF เดียวที่มีเลือดมากเข้ากับ SAH · ข้อสังเกต: ไฟล์จดได้เฉพาะตัวเลือกที่ถูก (ตัวเลือกอื่นเขียนว่า \"จะสลับตัวเลข\") เว็บจึงสร้างช้อยอื่นเป็นผล CSF แบบ meningitis ชนิดต่าง ๆ เพื่อทดสอบการแยกโรค",
+  "mnemonic": "<b>'SAH CSF = แดงมาก · เหลือง (xanthochromia) · น้ำตาลปกติ'</b>",
+  "guide": "Hoh BL et al. 2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023); Seehusen DA et al. Cerebrospinal fluid analysis (Am Fam Physician 2003)",
   "variants": [
-   "ปวดศีรษะรุนแรงฉับพลัน CT ปกติ LP xanthochromia → SAH",
-   "LP RBC หลอด 1 = 8,000 หลอด 4 = 200 → traumatic tap",
-   "ไข้ คอแข็ง CSF PMN 2,000 glucose 10 → bacterial meningitis"
+   "ปวดศีรษะรุนแรงฉับพลัน 10 ชม. CT ปกติ → LP ดู RBC ทุกหลอดและ xanthochromia",
+   "LP RBC หลอดแรก 8,000 หลอดสุดท้าย 50 ไม่มี xanthochromia → traumatic tap",
+   "ไข้ คอแข็ง CSF PMN 2,000 glucose 15 → bacterial meningitis ให้ ceftriaxone + vancomycin + dexamethasone",
+   "ทำไม WBC ใน CSF สูงขึ้นหลัง SAH หลายวัน → เลือดและผลผลิตจากการสลายระคายเยื่อหุ้มสมองเกิด chemical meningitis"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 107 — ตัวพิมพ์: <b>69. ผู้ป่วยปวดหัว ซึมมา 3 วันก่อนมาโรงพยาบาล หลังมาโรงพยาบาลได้ทำ CT scan (ดังรูป) ข้อใดเป็น CSF profile ที่เป็นไปได้มากที่สุดในผู้ป่วยราย&#8203;นี้ — Ans. RBC 25,000 WBC 500(N….% L…%) protein 200 glucose 50 · หมายเหตุ: ตัวเลือกอื่นๆจะสลับตัวเลข ผลการตรวจต่างๆ</b><br>ลายมือ: วง CT \"basal cistern มีเลือด fill → SAH\" · \"pt. ควรมี 25000/1000 = 25 + 45 = 70…\" · \"WBC ที่ควรมี 25000/500 = 50\" · \"∴ น่าจะ SAH\"<br>ไฮไลต์: \"ปวดหัว ซึมมา 3 วัน\" \"CSF profile\" \"RBC 25,000 WBC 500\" (เหลือง)<br>รูปที่แปะ: ① ภาพ CT axial — เลือดใน basal cisterns ② สไลด์ Diagnosis: Lumbar Puncture — ตาราง Traumatic LP vs True SAH (Opening pressure: Normal / Elevated 60% · Xanthochromia: Absent / Present · 3-tube test: Initially bloody CSF / Persistently bloody CSF · RBC count: Decrease in following tubes / Persistent · WBC count: Proportional to RBC / Proportional/Increase · Clot formation: Occurs rarely / Absent · Crenated RBCs: Absent / Present · Erythrophages: Absent / Present) (Edlow JA, et al. J Emerg Med) ③ ตาราง CSF Analysis (Normal · Bacteria · Virus · TB · Fungus · Parasite · Carcinomatous) วงคอลัมน์ Bacteria ④ สไลด์ How to interprete CSF profile — When was LP done in clinical course? · Traumatic tap? · How to interprete with traumatic tap? RBC : WBC 500 : 1 or as CBC ratio · Protein 1 mg/dl : RBC 1000 · ลายมือ \"ถ้าทำใน day 1 → neutrophil ยังไม่เข้ามา\" · \"ถ้า correct หมด = traumatic tap แต่ถ้า correct ไม่หมด = มี WBC ใน CSF\"<br>ที่ปรับในเว็บ: สร้างช้อย B–E (ไฟล์ไม่ได้จดตัวเลือกอื่น)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 107",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU67|RoA|70": {
-  "interp": "ต่อจากข้อก่อน (<b>SAH</b> ยืนยันจาก CT/ CSF) → ถามการตรวจเพิ่มเติมที่จำเป็นที่สุด",
-  "why": "SAH ที่ไม่ใช่อุบัติเหตุ ส่วนใหญ่ (~85%) มาจาก<b>หลอดเลือดโป่งพองแตก (ruptured aneurysm)</b> → ต้อง<b>ตรวจหลอดเลือดสมอง</b>เพื่อหา aneurysm และวางแผน clipping/ coiling · <b>Cerebral angiography (DSA)</b> เป็น <b>gold standard</b> (ตามแผนผัง SAH ในไฟล์: CT เห็นเลือด → IA angiography → aneurysm → clipping or coiling) · ในทางปฏิบัติ CTA มักทำก่อน แต่ถ้า CTA ไม่พบสาเหตุยังต้อง DSA · ไฟล์ขีด B ลายมือ <b>\"ทำเลย ∵ clinical, imaging ชัด\"</b> และ <b>\"แต่ vascular study → IA/CTA\"</b> บนแผนผัง",
+  "interp": "ผู้ป่วย SAH (ยืนยันแล้วจาก CT และ CSF) ถามการตรวจเพิ่มเติมที่จำเป็นที่สุด — ต้องหาสาเหตุ ซึ่งส่วนใหญ่คือ aneurysm แตก การตรวจมาตรฐานคือการดูหลอดเลือดสมอง โดย cerebral (digital subtraction) angiography เป็น gold standard",
+  "why": "<b>Spontaneous SAH ราว 85% เกิดจาก intracranial aneurysm แตก</b> (ที่เหลือคือ perimesencephalic nonaneurysmal SAH, AVM, dissection) · aneurysm ที่แตกมีความเสี่ยง<b>แตกซ้ำ</b>สูงที่สุดใน 24–72 ชั่วโมงแรก (ราว 4–14% ใน 24 ชม.) และอัตราตายจากแตกซ้ำสูงมาก จึงต้อง<b>หาและปิด aneurysm โดยเร็ว</b> (ภายใน 24 ชม.) · <b>Cerebral (catheter) angiography/ DSA</b> เป็น <b>gold standard</b> เห็น aneurysm ขนาดเล็ก รูปร่างคอ และวางแผนได้ทั้ง <b>coiling หรือ clipping</b> ในครั้งเดียว · <b>CTA</b> ไวราว 95–98% สำหรับ aneurysm &gt; 3 mm ทำเร็ว จึงใช้เป็นการตรวจแรกในหลายสถาบัน และถ้า CTA ลบต้องทำ DSA ต่อ · ตรงคีย์ B — ไฟล์ขีด B เขียน \"<b>ทำเลย ∵ clinical, imaging ชัด</b>\" และแปะแผนผัง SAH: CT พบเลือด → <b>IA angiography</b> → aneurysm → clipping or coiling พร้อมลายมือ \"<b>แต่ vascular study → IA/CTA</b>\"",
   "wrong": {
-   "A": "CT with contrast ไม่ใช่การตรวจหลอดเลือดที่เหมาะ และอาจบดบังเลือด · จะถูกถ้าคำถามถามสงสัยฝีหรือเนื้องอกในสมอง",
-   "C": "CTA ใช้คัดกรองได้ดีและมักทำก่อน แต่ไม่ใช่ gold standard (หลอดเลือดโป่งเล็ก &lt; 3 mm อาจพลาด) · จะถูกถ้าคำถามถามการตรวจหลอดเลือดแรกที่ไม่รุกล้ำในห้องฉุกเฉิน",
-   "D": "MRA ใช้เวลานาน ไม่เหมาะกับผู้ป่วยเฉียบพลัน · จะถูกถ้าคำถามถามคัดกรอง aneurysm ในญาติสายตรงของผู้ป่วย polycystic kidney",
-   "E": "LP ทำไปแล้ว (ข้อก่อน) และ CT ยืนยัน SAH แล้ว · จะถูกถ้า CT ปกติแต่อาการเข้ากับ SAH"
+   "A": "CT ฉีดสีธรรมดาใช้หาก้อนเนื้องอก ฝี หรือการรั่วของ blood-brain barrier ไม่ได้ออกแบบมาเห็นหลอดเลือดละเอียด จึงหา aneurysm ไม่ได้ดี · จะถูกถ้าเป็นชาย 60 ปีมะเร็งปอด มีปวดศีรษะและชัก CT ไม่ฉีดสีเห็นสมองบวมรอบก้อน ต้องการดูว่ามีก้อนแพร่กระจายกี่ก้อน (ถ้าไม่มี MRI)",
+   "C": "CTA เป็นทางเลือกที่ดีและเร็ว ไวสูงสำหรับ aneurysm ขนาดกลางขึ้นไป หลายแนวทางใช้เป็นการตรวจแรก แต่ไวน้อยลงสำหรับ aneurysm &lt; 3 mm และ<b>รักษาไม่ได้</b>ในขั้นตอนเดียว ส่วน DSA เป็น gold standard ที่ไฟล์เลือก · จะถูกถ้าเป็นหญิง 50 ปี SAH ที่โรงพยาบาลชุมชนไม่มี DSA ต้องการหาตำแหน่ง aneurysm อย่างรวดเร็วเพื่อตัดสินใจส่งต่อ",
+   "D": "MRA ไม่ต้องฉีดสีหรือใช้รังสี เหมาะกับการคัดกรอง aneurysm ในคนที่มีความเสี่ยง แต่ใช้เวลานาน ดูแลผู้ป่วยวิกฤตยาก และไวน้อยกว่าสำหรับ aneurysm เล็ก จึงไม่ใช่การตรวจหลักใน SAH เฉียบพลัน · จะถูกถ้าเป็นหญิง 40 ปีไม่มีอาการ แม่และพี่สาวมี aneurysm แตก (ญาติสายตรง ≥ 2 คน) ต้องการคัดกรอง",
+   "E": "การเจาะหลังใช้เมื่อ<b>สงสัย SAH แต่ CT ไม่พบเลือด</b> เพื่อหา xanthochromia ในข้อนี้ยืนยัน SAH แล้ว การเจาะซ้ำไม่ให้ข้อมูลใหม่และเสี่ยงแตกซ้ำจากความดันเปลี่ยน · จะถูกถ้าเป็นชาย 45 ปีปวดศีรษะรุนแรงฉับพลัน 2 วันก่อน CT ไม่พบเลือด และต้องการยืนยันหรือตัด SAH"
   },
-  "trap": "ส่ง LP หรือ CT ซ้ำ — SAH ยืนยันแล้ว ต้องหา aneurysm",
+  "trap": "CTA ฟังดูทันสมัยและเป็นที่ใช้จริงในหลายโรงพยาบาลจึงชวนเลือก C — คำถามถามสิ่งที่ \"ควรส่งมากที่สุด\" ในแนวทางของไฟล์คือ <b>DSA (gold standard)</b> ที่ทั้งวินิจฉัยและวางแผนรักษาได้ · LP ใช้เฉพาะเมื่อ CT ลบ",
   "summary": [
-   "SAH: ~85% ruptured aneurysm · ACom &gt; PCom &gt; MCA bifurcation",
-   "CT non-contrast ภายใน 6 ชม. ไวเกือบ 100%",
-   "CT ปกติแต่สงสัย → LP (xanthochromia)",
-   "หลอดเลือด: CTA (ทำก่อน) · DSA = gold standard",
-   "รักษา aneurysm ภายใน 24–72 ชม.: coiling หรือ clipping",
-   "Nimodipine ป้องกัน vasospasm · BP คุมก่อน secure aneurysm"
+   "Spontaneous SAH: aneurysm ~85%, perimesencephalic nonaneurysmal ~10% (เลือดหน้า midbrain พยากรณ์ดี), AVM/ dissection/ vasculitis ส่วนที่เหลือ",
+   "อาการ: thunderclap headache รุนแรงที่สุดในชีวิต ถึงสูงสุดใน &lt; 1 นาที, คอแข็ง, อาเจียน, หมดสติชั่วคราว · sentinel headache ก่อนแตก",
+   "ตรวจ: CT ไม่ฉีดสี (ไว ~100% ใน 6 ชม.) → ลบ → LP (xanthochromia) → ยืนยันแล้ว → CTA/ DSA",
+   "ระดับความรุนแรง: Hunt-Hess, WFNS (GCS + motor deficit) · modified Fisher scale บอกเสี่ยง vasospasm จากปริมาณเลือด",
+   "รักษา aneurysm เร็ว (&lt; 24 ชม.): coiling (ISAT ผลดีกว่าในที่ทำได้) หรือ clipping (MCA aneurysm, มีก้อนเลือดต้องเอาออก) · คุม SBP &lt; 160 ก่อนปิด",
+   "ภาวะแทรกซ้อน: แตกซ้ำ (วันแรก), hydrocephalus, vasospasm/ delayed cerebral ischemia (วันที่ 3–14) → nimodipine 60 mg ทุก 4 ชม. 21 วัน, hyponatremia (SIADH/ cerebral salt wasting), ชัก",
+   "Aneurysm พบบ่อย: AComm &gt; PComm &gt; MCA bifurcation · PComm aneurysm กด CN III (รูม่านตาขยาย)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางค่อนข้างสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (DSA = gold standard) · ในทางปฏิบัติ CTA มักทำก่อนเพราะเร็วและไม่รุกล้ำ",
-  "mnemonic": "<b>'SAH: CT → (LP) → Angio หา Aneurysm'</b>",
-  "guide": "AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)",
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ขีด B) มั่นใจปานกลางถึงสูง — DSA เป็น gold standard และแผนผังในไฟล์ใช้ IA angiography หลัง CT · ข้อสังเกต: AHA 2023 ให้ CTA เป็นการตรวจแรกที่เหมาะในหลายสถานการณ์ และลายมือในไฟล์ก็เขียน \"IA/CTA\" แสดงว่ายอมรับทั้งสอง แต่ถ้าต้องเลือกข้อเดียวในข้อสอบนี้ใช้ DSA",
+  "mnemonic": "<b>'SAH: CT → (ลบ) LP → (บวก) Angio · DSA = Gold ที่ทั้งดูและอุดได้'</b>",
+  "guide": "Hoh BL et al. 2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023)",
   "variants": [
-   "ปวดศีรษะรุนแรงที่สุดในชีวิต CT เลือดใน basal cisterns → CTA/ DSA → coiling",
-   "SAH แต่ CTA ไม่พบสาเหตุ → DSA (± ซ้ำใน 1–2 สัปดาห์)",
-   "เลือดเฉพาะรอบ midbrain CTA ปกติ → perimesencephalic SAH (พยากรณ์ดี)"
+   "SAH CTA ไม่พบ aneurysm แต่เลือดกระจายทั่ว basal cisterns → DSA และทำซ้ำใน 1–2 สัปดาห์ถ้ายังลบ",
+   "SAH เลือดอยู่เฉพาะหน้า midbrain CTA ปกติ → perimesencephalic nonaneurysmal SAH พยากรณ์ดี",
+   "หลัง coiling วันที่ 6 ซึม อ่อนแรงซีกขวาใหม่ → vasospasm ตรวจ TCD/ CTA ให้ induced hypertension",
+   "ทำไมต้องปิด aneurysm ภายใน 24 ชม. → ความเสี่ยงแตกซ้ำสูงสุดในวันแรก และอัตราตายจากแตกซ้ำสูงมาก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 107 — ตัวพิมพ์: <b>70. จากข้อ 69 อยากทราบว่าควรส่งตรวจสิ่งใดเพิ่มเติมมากที่สุด — A. Contrasted CT brain B. Cerebral angiography C. CT angiography D. MRA E. Lumbar puncture</b><br>ลายมือ: ขีด B + \"ทำเลย ∵ clinical, imaging ชัด\"<br>ไฮไลต์: \"ส่งตรวจสิ่งใดเพิ่มเติมมากที่สุด\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ SAH Management — แผนผัง Suspected SAH → CT → hematic densities? YES → IA angiography → aneurysm? YES → clipping or coiling / NO → perimesencephalic pattern · CT NO → LP → xanthochromia? YES → angiography / NO → no SAH · ลายมือ \"แต่ vascular study → IA/CTA\" + ภาพ CT (A) และ angiogram (B) พร้อมลายมือตำแหน่ง aneurysm",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 107",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU67|RoA|71": {
-  "interp": "ถามว่า <b>Parinaud syndrome</b> พบในโรคใด",
-  "why": "Parinaud (dorsal midbrain) syndrome เกิดจากก้อนกด <b>tectum ของ midbrain</b> → ① <b>มองขึ้นไม่ได้ (upward gaze palsy)</b> ② <b>near-light dissociation</b> (รูม่านตาไม่หดต่อแสงแต่หดเมื่อมองใกล้) ③ convergence-retraction nystagmus ± ④ <b>hydrocephalus</b> (ก้อนกด aqueduct) · สาเหตุที่คลาสสิกคือ <b>pineal region tumor</b> (germinoma ในเด็กชาย) · ไฟล์ขีด D และแปะสไลด์ <b>Pineal region Tumors: \"Tumor บริเวณ pineal จะกด tectum midbrain ทำให้เกิด Parinaud's syndrome\"</b> (Upward gaze paresis · Near-light dissociation · Hydrocephalus)",
+  "interp": "ถามว่า Parinaud syndrome พบในโรคใด — ต้องรู้ว่า Parinaud คือ dorsal midbrain syndrome จากการกด tectum (superior colliculus และ pretectal area) ซึ่งตำแหน่งที่กดบ่อยที่สุดคือก้อนที่ pineal region",
+  "why": "<b>Parinaud (dorsal midbrain) syndrome</b> เกิดจากรอยโรคที่ <b>tectum/ pretectal area ของ midbrain</b> และ posterior commissure ประกอบด้วย <b>(1) มองขึ้นไม่ได้ (upward gaze palsy)</b> ซึ่งเป็นอาการเด่น <b>(2) light-near dissociation</b> รูม่านตาตอบสนองแสงไม่ดีแต่หดเมื่อมองใกล้ <b>(3) convergence-retraction nystagmus</b> เมื่อพยายามมองขึ้น <b>(4) eyelid retraction (Collier sign)</b> · สาเหตุที่พบบ่อยที่สุดคือ<b>ก้อนที่ pineal region</b> (germinoma ในชายวัยรุ่นพบบ่อยสุด, pineocytoma, pineoblastoma, teratoma) ซึ่งกดทั้ง tectum และ <b>aqueduct of Sylvius</b> ทำให้เกิด <b>obstructive hydrocephalus</b> · สาเหตุอื่น: hydrocephalus จาก shunt ทำงานผิดปกติในเด็ก, stroke ที่ midbrain, MS · ตรวจเพิ่ม: MRI และ tumor marker (β-hCG, AFP ในเลือดและ CSF) · ตรงคีย์ D — ไฟล์ขีด D แปะสไลด์ \"<b>Tumor บริเวณ pineal จะกด tectum midbrain ↓ ทำให้เกิด Parinaud syndrome</b>\" พร้อมลายมือ \"<b>มองขึ้นไม่ได้</b>\" และ \"<b>pupil react ต่อ 1. แสง 2. มองใกล้</b>\"",
   "wrong": {
-   "A": "CP angle tumor (vestibular schwannoma) → หูอื้อ เสียงในหู ชาหน้า เดินเซ · จะถูกถ้าคำถามถามก้อนที่ทำให้ sensorineural hearing loss ข้างเดียว",
-   "B": "Craniopharyngioma → bitemporal hemianopia ฮอร์โมนต่ำ เบาจืด · จะถูกถ้าคำถามถามเด็กตัวเตี้ย ตามัวด้านข้าง CT ก้อนเหนือ sella มีหินปูน",
-   "C": "Sphenoid wing meningioma → ตาโปน ตามัว ลานสายตาผิดปกติ · จะถูกถ้าคำถามถามหญิงวัยกลางคนตาโปนข้างเดียว hyperostosis ของ sphenoid",
-   "E": "มีเพียง D · จะถูกถ้าทุกก้อนกด tectum ได้"
+   "A": "ก้อนที่ cerebellopontine angle (ส่วนใหญ่ vestibular schwannoma รองลงมา meningioma) กด CN VIII, V, VII และ cerebellum ทำให้หูดับข้างเดียว เสียงในหู ใบหน้าชา เดินเซ ไม่กด tectum · จะถูกถ้าเป็นหญิง 50 ปีหูซ้ายได้ยินลดลงค่อยเป็น เสียงในหู corneal reflex ซ้ายลดลง MRI เห็นก้อนเพิ่มสีขยายเข้า internal acoustic canal",
+   "B": "Craniopharyngioma อยู่ suprasellar กด optic chiasm (<b>bitemporal hemianopia</b>) hypothalamus และต่อมใต้สมอง (เตี้ย diabetes insipidus) มี calcification และก้อนซีสต์ ก้อนใหญ่กดโพรงที่ 3 ได้แต่ไม่ใช่ตัวแทนของ Parinaud · จะถูกถ้าเป็นเด็กชาย 9 ปีเตี้ยกว่าเพื่อน ปัสสาวะมาก ลานสายตาสองข้างด้านนอกแคบ CT เห็นก้อนเหนือ sella มีหินปูน",
+   "C": "Sphenoid wing meningioma ทำให้ตาโปน การมองเห็นลดลงจาก optic nerve ถูกกด CN III–VI ที่ cavernous sinus และชักจาก temporal lobe ไม่ใช่ dorsal midbrain · จะถูกถ้าเป็นหญิง 55 ปีตาขวาโปนค่อยเป็น ขมับขวาบวม การมองเห็นขวาลดลง CT เห็นกระดูก sphenoid wing หนาตัว (hyperostosis) และก้อน dural-based",
+   "E": "ต้องถูกทุกข้อ แต่ CP angle tumor, craniopharyngioma และ sphenoid wing meningioma ไม่ได้อยู่ที่ dorsal midbrain จึงไม่ทำให้ Parinaud syndrome · จะถูกถ้าเป็นชุดก้อนที่ทั้งหมดอยู่ pineal region หรือ tectum เช่นเด็กชาย 14 ปีที่มีทั้ง pineal germinoma และ tectal glioma กด dorsal midbrain"
   },
-  "trap": "จำ Parinaud เป็นอาการของตาทั่วไป — เป็นสัญญาณเฉพาะ dorsal midbrain (pineal)",
+  "trap": "ทุกช้อยเป็นก้อนในสมองที่มีอาการทางตาได้ จึงชวนเลือก E — Parinaud จำเพาะกับ<b>ตำแหน่ง</b> (dorsal midbrain/ tectum) ไม่ใช่ชนิดก้อน · ก้อนที่ chiasm ทำให้ลานสายตาเสีย ไม่ใช่มองขึ้นไม่ได้",
   "summary": [
-   "Parinaud: upward gaze palsy · near-light dissociation · convergence-retraction nystagmus · lid retraction (Collier sign)",
-   "สาเหตุ: pineal tumor (germinoma) · hydrocephalus · midbrain stroke/ MS",
-   "Pineal germinoma: เด็กชาย · ไวต่อรังสี",
-   "ตรวจ: MRI + tumor markers (β-hCG/ AFP ใน CSF/ เลือด)",
-   "Hydrocephalus → ETV (พร้อม biopsy)",
-   "Pineal region tumor ใหญ่ → hydrocephalus ↑ICP"
+   "Parinaud = upward gaze palsy + light-near dissociation + convergence-retraction nystagmus + Collier sign (eyelid retraction) ± setting-sun sign ในเด็ก",
+   "สาเหตุ: pineal region tumor (พบบ่อยสุด), hydrocephalus/ shunt malfunction, stroke หรือเลือดออกที่ midbrain, MS, tectal glioma",
+   "Pineal tumor: germ cell tumor (germinoma พบบ่อยสุด ชายวัยรุ่น) &gt; pineal parenchymal (pineocytoma/ pineoblastoma) &gt; glioma",
+   "Germinoma: β-hCG อาจสูงเล็กน้อย AFP ปกติ ไวต่อรังสีมาก · AFP สูง = yolk sac/ immature teratoma · β-hCG สูงมาก = choriocarcinoma",
+   "กด aqueduct → obstructive hydrocephalus ปวดศีรษะ อาเจียน papilledema → ETV (ตัดชิ้นเนื้อได้พร้อมกัน) หรือ VP shunt",
+   "Suprasellar mass (craniopharyngioma, pituitary macroadenoma) → bitemporal hemianopia · CPA mass → CN VIII, V, VII",
+   "Light-near dissociation อื่น: Argyll Robertson pupil (neurosyphilis), Adie tonic pupil, diabetes"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'Parinaud = Pineal กด midbrain → มองขึ้นไม่ได้'</b>",
-  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Pineal region tumors",
+  "opinion": "เห็นด้วยกับคีย์ D (ไฟล์ขีด D) มั่นใจสูงมาก — Parinaud syndrome เป็นอาการคลาสสิกของก้อนที่ pineal region ตามสไลด์ที่ไฟล์แปะ · ไฟล์สะกด \"Parinuad\" ผิด เว็บแก้เป็น Parinaud และใช้คำ \"sphenoid wing meningioma\" ให้ชัดขึ้น",
+  "mnemonic": "<b>'Pineal กด tectum → มองฟ้าไม่ได้ (Parinaud = Pineal · ขึ้นไม่ได้ · ใกล้ได้ แสงไม่ได้)'</b>",
+  "guide": "Greenberg MS. Handbook of Neurosurgery 10th ed. (2023) ch. Pineal region tumors; Louis DN et al. WHO Classification of Tumours of the CNS 5th ed. (2021)",
   "variants": [
-   "เด็กชาย 12 ปี ปวดหัว มองขึ้นไม่ได้ รูม่านตาไม่ตอบสนองแสง → pineal germinoma",
-   "หูอื้อข้างเดียว เดินเซ → CP angle (vestibular schwannoma)",
-   "เด็กเตี้ย ตามัวสองข้างด้านนอก → craniopharyngioma"
+   "ชาย 15 ปีปวดศีรษะ อาเจียน มองขึ้นไม่ได้ รูม่านตาหดเมื่อมองใกล้แต่ไม่หดเมื่อส่องไฟ → pineal germinoma ตรวจ β-hCG/ AFP และ MRI",
+   "เด็กใส่ VP shunt มีตามองลงตลอด (setting-sun) ซึม → shunt malfunction ต้องตรวจ CT ด่วน",
+   "เด็ก 9 ปีเตี้ย ปัสสาวะมาก bitemporal hemianopia → craniopharyngioma",
+   "ทำไม pineal tumor ทำให้ hydrocephalus → ก้อนอยู่เหนือ aqueduct of Sylvius กดทางไหลของ CSF จาก third ไป fourth ventricle"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 107–108 — ตัวพิมพ์: <b>71. Parinuad syndrome พบในโรคอะไร — A. CP angle tumor B. Craniopharyngioma C. Sphenoid meningioma D. Pineal tumor E. All of above</b><br>ลายมือ: ขีด D<br>ไฮไลต์: \"Parinuad syndrome\" \"ในโรค\" · D (เหลือง)<br>รูปที่แปะ: สไลด์ Pineal region Tumors — \"Tumor บริเวณ pineal จะกด tectum midbrain ↓ ทำให้เกิด Parinaud's syndrome\" → ① Upward gaze paresis (ลายมือ \"มองขึ้นไม่ได้\") ② Near-light dissociation ③ Hydrocephalus (\"Tumor กด aqueduct ทำให้เกิด hydrocephalus, increase ICP\") + ภาพผู้ป่วยมองขึ้นไม่ได้ + ลายมือ \"# pupil react ต่อ 1. แสง 2. มองใกล้\"",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 107",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU67|RoA|72": {
-  "interp": "ถามข้อ<b>ไม่ถูกต้อง</b>เกี่ยวกับ <b>brain tumor</b>",
-  "why": "Malignant brain tumor (เช่น glioblastoma) <b>มักไม่แพร่กระจายออกนอก CNS</b> (ไม่มีระบบน้ำเหลืองในสมอง มี blood-brain barrier) แต่แพร่ใน CNS/ ทาง CSF ได้ → ข้อ A ผิด · ข้ออื่นถูก: ในเด็กก้อนส่วนใหญ่อยู่ <b>infratentorial</b> (medulloblastoma, pilocytic astrocytoma, ependymoma) · benign ก็ทำให้ตายได้เพราะโตในกะโหลกที่ปิด · benign ไม่ได้แปลว่าผ่าตัดง่าย (แทรกในเนื้อสมอง/ อยู่ใน eloquent brain) · low-grade glioma กลายเป็น high-grade ได้ · ไฟล์ขีด A ขีดฆ่า \"metastasis ออกนอกสมอง\" ✓ B, C, D และแปะสไลด์ <b>Benign VS Malignant: \"Malignant Brain tumor มักไม่ metastases ออกนอก CNS\"</b>",
+  "interp": "ถามข้อความที่ไม่ถูกต้องเกี่ยวกับเนื้องอกสมอง — ต้องรู้ธรรมชาติพิเศษของเนื้องอกในกะโหลก: มะเร็งสมองแทบไม่แพร่นอกระบบประสาท ขณะที่ก้อน benign ก็ทำให้ตายได้เพราะอยู่ในช่องปิด",
+  "why": "เนื้องอกสมองชนิดร้าย (เช่น <b>glioblastoma</b>) แม้ลุกลามเฉพาะที่รุนแรงและกลับเป็นซ้ำ แต่<b>แพร่กระจายนอกระบบประสาทได้น้อยมาก (&lt; 1–2%)</b> เพราะสมอง<b>ไม่มีระบบน้ำเหลือง</b>แบบอวัยวะอื่น มี blood-brain barrier และ dura กั้น · การแพร่ที่พบได้คือ<b>ภายในระบบประสาท</b>ผ่าน CSF (drop metastasis ของ medulloblastoma, ependymoma, germinoma) ส่วนแพร่นอกระบบพบได้น้อยมาก เช่นหลังผ่าตัดหรือมี VP shunt · ในทางกลับกัน<b>ก้อน benign ก็ทำให้ตายได้</b>เพราะกะโหลกเป็นช่องปิด ก้อนโตขึ้นจน ICP สูงหรือกดก้านสมอง และ benign ไม่ได้แปลว่าผ่าตัดง่ายถ้าอยู่ใกล้โครงสร้างสำคัญ (เช่น meningioma ที่ cavernous sinus) · ข้อ A จึงผิด — ไฟล์ขีด A ขีดฆ่าคำ \"<b>metastasis ออกนอกสมอง</b>\" ติ๊กถูก B, C, D และแปะสไลด์ \"<b>Benign tumor ก็ทำให้คนไข้ตายได้ เพราะมันโตขึ้นเรื่อยๆในกะโหลกซึ่งเป็นที่ปิด</b>\"",
   "wrong": {
-   "B": "ถูก — เด็กพบ infratentorial มากกว่า (ผู้ใหญ่ supratentorial) · จะถูกถ้าคำถามบอกว่าเด็กมักพบ supratentorial หรือถามทารก &lt; 1 ปี (supratentorial พบบ่อย)",
-   "C": "ถูก — benign โตในกะโหลกปิดทำให้ ICP สูงและตายได้ (สไลด์) · จะถูกถ้าคำถามบอกว่า benign ไม่ทำให้ตาย",
-   "D": "ถูก — อาจแทรกในเนื้อสมองหรืออยู่ eloquent brain (สไลด์) · จะถูกถ้าคำถามบอกว่า benign ผ่าตัดออกหมดได้เสมอ",
-   "E": "ถูก — low-grade glioma กลายเป็น high-grade ได้ (malignant transformation) · จะถูกถ้าคำถามบอกว่า low-grade ไม่เปลี่ยนเกรด"
+   "B": "ข้อความนี้จริง: เด็กอายุราว 1–12 ปีพบเนื้องอกใน <b>posterior fossa (infratentorial)</b> ราว 50–60% เช่น medulloblastoma, pilocytic astrocytoma, ependymoma, brainstem glioma ส่วนผู้ใหญ่ส่วนใหญ่เป็น supratentorial · จะถูกถ้าเป็นทารกอายุ 6 เดือนหรือผู้ใหญ่ 55 ปี ซึ่งเนื้องอกส่วนใหญ่อยู่เหนือ tentorium (supratentorial) ทำให้ข้อความไม่เป็นจริงในกลุ่มนี้",
+   "C": "ข้อความนี้จริง: ก้อน benign เช่น meningioma หรือ vestibular schwannoma ขนาดใหญ่ทำให้ ICP สูง กดก้านสมอง เกิด herniation หรือ hydrocephalus จนเสียชีวิตได้ เพราะกะโหลกขยายไม่ได้ (Monro-Kellie) · จะถูกถ้าเป็นหญิง 50 ปีที่มี meningioma เล็ก 1 cm ไม่มีอาการ พบโดยบังเอิญ ซึ่งเฝ้าดูได้และแทบไม่มีโอกาสทำให้เสียชีวิต",
+   "D": "ข้อความนี้จริง: ก้อน benign ที่หุ้มหลอดเลือดหรือเส้นประสาทสำคัญ เช่น meningioma ที่ cavernous sinus/ skull base หรือ craniopharyngioma ที่ติด hypothalamus ผ่าตัดเอาออกหมดไม่ได้โดยไม่เกิดความพิการ จึงต้องใช้ radiosurgery ร่วม · จะถูกถ้าเป็นชาย 45 ปีที่มี convexity meningioma ผิวสมองด้านบนไม่ติดโครงสร้างสำคัญ ซึ่งผ่าตัดออกได้หมดพร้อม dura (Simpson grade I)",
+   "E": "ข้อความนี้จริง: low-grade glioma โดยเฉพาะ <b>IDH-mutant astrocytoma</b> มีแนวโน้ม<b>เปลี่ยนเป็นเกรดสูงขึ้น</b> (malignant transformation) ในระยะหลายปี จึงต้องติดตาม MRI และพิจารณารักษาเสริม · จะถูกถ้าเป็นเด็ก 8 ปีที่มี pilocytic astrocytoma ใน cerebellum ผ่าตัดออกได้หมด ซึ่งแทบไม่เปลี่ยนเป็นเกรดสูง"
   },
-  "trap": "นำหลัก staging มะเร็งอวัยวะอื่น (malignant = กระจาย) มาใช้กับสมอง — brain tumor แบ่ง benign/ malignant ด้วย pathology/ grade ไม่ใช่การกระจาย",
+  "trap": "คนติดกับหลักของมะเร็งอวัยวะอื่นว่า \"malignant = แพร่กระจาย\" จึงคิดว่า A ถูก และอาจคิดว่า C ผิดเพราะ \"benign ไม่ทำให้ตาย\" — ในสมองกลับกัน: มะเร็งแทบไม่แพร่นอกระบบประสาท แต่ benign ทำให้ตายได้จากตำแหน่งและช่องปิด",
   "summary": [
-   "Primary malignant brain tumor แทบไม่กระจายนอก CNS",
-   "แพร่ทาง CSF ได้: medulloblastoma · ependymoma · germinoma",
-   "เด็ก: infratentorial · ผู้ใหญ่: supratentorial",
-   "Benign ทำให้ตายได้ (กะโหลกปิด) · ผ่าตัดยากถ้าอยู่ eloquent area",
-   "Low-grade glioma → high-grade ได้",
-   "Brain tumor ที่พบบ่อยที่สุดในผู้ใหญ่: metastasis"
+   "เนื้องอกสมองผู้ใหญ่: metastasis พบบ่อยที่สุดโดยรวม · primary ที่พบบ่อยสุด = meningioma · primary malignant ที่พบบ่อยสุด = glioblastoma",
+   "เด็ก: เนื้องอกแข็งที่พบบ่อยที่สุดในเด็ก · posterior fossa ราว 50–60% (อายุ 1–12 ปี) — pilocytic astrocytoma, medulloblastoma, ependymoma, DIPG",
+   "การแพร่ของมะเร็งสมอง: ส่วนใหญ่ภายในระบบประสาททาง CSF (drop metastasis) · นอกระบบประสาท &lt; 1–2% (ไม่มีน้ำเหลือง, BBB)",
+   "Benign ทำให้ตายได้: ช่องกะโหลกปิด ก้อนกดก้านสมอง/ hydrocephalus · ตำแหน่งสำคัญกว่าเกรดในการพยากรณ์",
+   "WHO CNS 2021 ใช้ทั้ง histology + molecular: IDH-mutant astrocytoma, oligodendroglioma (IDH-mutant + 1p/19q codeleted), glioblastoma IDH-wildtype",
+   "Low-grade glioma ผู้ใหญ่ เปลี่ยนเป็นเกรดสูงได้ · pilocytic astrocytoma ในเด็กผ่าตัดหมดหายขาดได้",
+   "อาการเนื้องอกสมอง: ICP สูง (ปวดศีรษะเช้า อาเจียน papilledema), ชัก, focal deficit ตามตำแหน่ง, เปลี่ยนบุคลิก (frontal)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'สมองร้าย ไม่หนีออก (ไม่ metastasis นอก CNS) · สมองดี ก็ฆ่าได้'</b>",
-  "guide": "WHO Classification of Tumours of the Central Nervous System 5th ed. (2021); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A ขีดฆ่าและติ๊ก B–D) มั่นใจสูงมาก — ข้อความ A ขัดกับธรรมชาติของมะเร็งสมองที่แทบไม่แพร่นอกระบบประสาท ตรงกับสไลด์ benign vs malignant ในไฟล์ · ไฟล์มีช้อย 4 ตัว เว็บเติม E (low-grade glioma เปลี่ยนเกรดได้) ซึ่งเป็นข้อความจริง ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'สมองกลับด้าน: Malignant ไม่ค่อยออกนอก · Benign ก็ฆ่าได้ (ช่องปิด)'</b>",
+  "guide": "Louis DN et al. The 2021 WHO Classification of Tumors of the Central Nervous System (Neuro Oncol 2021); Ostrom QT et al. CBTRUS Statistical Report (Neuro Oncol 2023)",
   "variants": [
-   "เด็กเดินเซ อาเจียน ก้อนใน 4th ventricle → medulloblastoma (infratentorial)",
-   "meningioma ที่ cavernous sinus — benign แต่ผ่าตัดออกหมดยาก",
-   "GBM — malignant แต่แทบไม่กระจายนอกสมอง"
+   "ชาย 60 ปี glioblastoma ผ่าตัดแล้วกลับเป็นซ้ำที่เดิมใน 1 ปี ไม่มีก้อนที่อวัยวะอื่น → ลักษณะปกติของมะเร็งสมองที่ลุกลามเฉพาะที่",
+   "เด็ก 6 ปีเดินเซ อาเจียนตอนเช้า ก้อนใน cerebellum → posterior fossa tumor (medulloblastoma/ pilocytic astrocytoma)",
+   "หญิง 60 ปี meningioma 5 cm กดก้านสมอง ซึมลง → benign ที่คุกคามชีวิต ต้องผ่าตัด",
+   "ทำไม medulloblastoma ต้องฉายรังสีทั้งสมองและไขสันหลัง → แพร่ทาง CSF เป็น drop metastasis ได้"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 108 — ตัวพิมพ์: <b>72. ข้อใดไม่ถูกต้องเกี่ยวกับ Brain tumor — A. Malignant brain tumor มัก metastasis ออกนอกสมอง B. ในเด็กมักพบ infratentorial tumor C. Benign brain tumor ก็สามารถทำให้คนไข้ตายได้ D. Benign brain tumor ไม่ได้แปลว่าจะผ่าตัดออกได้ง่ายหรือหมด</b><br>ลายมือ: ขีด A + ขีดฆ่า \"metastasis ออกนอกสมอง\" · B ✓ · C ✓ · D ✓<br>ไฮไลต์: \"ไม่ถูกต้อง\" (ขีดเส้นใต้) \"Brain tumor\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Benign VS Malignant — \"ในทาง pathology อาจแบ่ง brain tumor ออกเป็น benign หรือ malignant แต่เมื่อเทียบกับอวัยวะอื่น → Benign tumor ก็ทำให้คนไข้ตายได้ เพราะมันโตขึ้นเรื่อยๆในกะโหลกซึ่งเป็นที่ปิด → Benign tumor ไม่ได้แปลว่าจะผ่าตัดออกได้ง่ายหรือหมด เพราะมันอาจ infiltrate ในเนื้อเป็นวงกว้างจนตัดออกไม่ได้หมด หรือ อาจอยู่ในสมองส่วนสำคัญที่หากผ่าตัดอาจเกิดความพิการมาก (eloquent brain) → Malignant Brain tumor มักไม่ metastases ออกนอก CNS\" + ลายมือ \"≠ organ อื่น (แบ่ง benign/ malig by metas)\" และลายมือเล็กอีกหลายจุด<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Low-grade gliomas can progress to a higher grade)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 108",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU67|RoA|73": {
-  "interp": "ถาม <b>malignant brain tumor ที่พบบ่อยที่สุด</b>",
-  "why": "<b>Brain metastasis</b> พบบ่อยที่สุดในบรรดาก้อนในสมองของผู้ใหญ่ (มากกว่า primary brain tumor หลายเท่า) — แหล่งต้นทางบ่อย: <b>มะเร็งปอด</b> &gt; เต้านม &gt; melanoma &gt; ไต &gt; ลำไส้ใหญ่ · ตำแหน่งบ่อยที่รอยต่อ gray–white matter (watershed) · ไฟล์ขีด E",
+  "interp": "ถามเนื้องอกสมองชนิดร้ายที่พบบ่อยที่สุด — ต้องรู้ว่าเมื่อนับรวมทุกชนิดในผู้ใหญ่ มะเร็งแพร่กระจายมาสมองพบบ่อยกว่าเนื้องอกปฐมภูมิ และแยก most common primary กับ most common in children",
+  "why": "<b>Brain metastasis เป็นเนื้องอกในสมองที่พบบ่อยที่สุดในผู้ใหญ่</b> พบมากกว่าเนื้องอกปฐมภูมิราว 3–10 เท่า เกิดใน 10–30% ของผู้ป่วยมะเร็ง · แหล่งที่พบบ่อย: <b>มะเร็งปอด</b> (สูงสุด ราวครึ่งหนึ่ง) &gt; <b>เต้านม</b> &gt; <b>melanoma</b> (มีแนวโน้มแพร่มาสมองสูงสุดตามสัดส่วน) &gt; ไต &gt; ลำไส้ใหญ่ · ไปทางเลือดแดงจึงอยู่ที่<b>รอยต่อ grey-white matter</b> และ watershed area ส่วนใหญ่ supratentorial (80%) · ก้อนหลายก้อนรอบด้วยสมองบวมมาก · melanoma, RCC, choriocarcinoma, thyroid มักมีเลือดออก · รักษา: ก้อนเดี่ยวเข้าถึงได้ → ผ่าตัด + SRS · 1–4 (ถึง 10) ก้อน → <b>stereotactic radiosurgery</b> · หลายก้อน → WBRT (hippocampal avoidance + memantine) หรือยามุ่งเป้าที่ผ่าน BBB · dexamethasone ลดบวม · ตรงคีย์ E — ไฟล์ขีด E และไฮไลต์ \"<b>most common malignant brain tumor</b>\"",
   "wrong": {
-   "A": "Medulloblastoma เป็น malignant brain tumor ที่พบบ่อยที่สุด<b>ในเด็ก</b> · จะถูกถ้าคำถามถาม malignant brain tumor ที่พบบ่อยที่สุดในเด็ก",
-   "B": "Meningioma เป็น primary brain tumor ที่พบบ่อยที่สุด แต่ส่วนใหญ่ benign · จะถูกถ้าคำถามถาม primary intracranial tumor ที่พบบ่อยที่สุด",
-   "C": "Acoustic neuroma เป็น benign tumor ที่ CP angle · จะถูกถ้าคำถามถามก้อนที่พบบ่อยที่สุดใน CP angle",
-   "D": "Pineal tumor พบน้อย · จะถูกถ้าคำถามถามก้อนที่ทำ Parinaud syndrome"
+   "A": "Medulloblastoma เป็น<b>มะเร็งสมองที่พบบ่อยที่สุดในเด็ก</b> (embryonal tumor ใน vermis ของ cerebellum) ไม่ใช่ที่พบบ่อยที่สุดโดยรวม · แพร่ทาง CSF ได้ รักษาด้วยผ่าตัด + craniospinal irradiation + เคมีบำบัด · จะถูกถ้าเป็นเด็กชาย 6 ปีเดินเซ อาเจียนตอนเช้า MRI เห็นก้อนกลาง cerebellum อุดโพรงที่ 4 และคำถามถามมะเร็งสมองที่พบบ่อยที่สุดในเด็ก",
+   "B": "Meningioma เป็น<b>เนื้องอกสมองปฐมภูมิที่พบบ่อยที่สุด</b> (ราว 35–40%) แต่ส่วนใหญ่เป็น WHO grade 1 (benign) พบในหญิงวัยกลางคน · ก้อน dural-based มี dural tail · จะถูกถ้าเป็นหญิง 55 ปีพบก้อน extra-axial ติด dura มี dural tail sign บน MRI และคำถามถามเนื้องอกปฐมภูมิที่พบบ่อยที่สุด",
+   "C": "Acoustic neuroma (vestibular schwannoma) เป็นเนื้องอก<b>benign</b> ของ Schwann cell ของ CN VIII พบบ่อยที่สุดใน cerebellopontine angle (ราว 8% ของเนื้องอกในกะโหลก) ไม่ใช่มะเร็ง · จะถูกถ้าเป็นชาย 50 ปีหูซ้ายได้ยินลดลงค่อยเป็น มีเสียงในหู MRI เห็นก้อนใน CPA และ internal acoustic canal และคำถามถามก้อนที่พบบ่อยที่สุดใน CP angle",
+   "D": "Pineal tumor พบน้อย (&lt; 1% ของเนื้องอกสมองผู้ใหญ่ และราว 3–8% ในเด็ก) ส่วนใหญ่เป็น germ cell tumor ในชายวัยรุ่น ทำให้ Parinaud syndrome และ hydrocephalus · จะถูกถ้าเป็นชาย 14 ปีมองขึ้นไม่ได้ ปวดศีรษะ อาเจียน MRI เห็นก้อนที่ pineal region และ β-hCG สูง"
   },
-  "trap": "ตอบ GBM/ meningioma ซึ่งเป็น primary — คำถามถาม malignant ทั้งหมด metastasis มากที่สุด",
+  "trap": "คนท่องว่า \"GBM เป็น most common malignant brain tumor\" หรือ \"meningioma พบบ่อยสุด\" จึงหาคำตอบเหล่านั้น — สองข้อนั้นหมายถึง<b>เนื้องอกปฐมภูมิ</b> ถ้าคำถามไม่ระบุ primary ให้นับ<b>metastasis</b> ซึ่งพบมากที่สุด",
   "summary": [
-   "ก้อนในสมองผู้ใหญ่พบบ่อยสุด: metastasis",
-   "ต้นทาง: ปอด &gt; เต้านม &gt; melanoma &gt; ไต &gt; colon",
-   "Primary พบบ่อยสุด: meningioma",
-   "Primary malignant พบบ่อยสุด (ผู้ใหญ่): glioblastoma",
-   "เด็ก: pilocytic astrocytoma (รวม) · medulloblastoma (malignant)",
-   "Mets เดี่ยว → ผ่าตัด/ SRS · หลายก้อน → SRS/ WBRT"
+   "ภาพรวมผู้ใหญ่: metastasis &gt; primary · primary ที่พบบ่อยสุด = meningioma · primary malignant ที่พบบ่อยสุด = glioblastoma IDH-wildtype",
+   "เด็ก: pilocytic astrocytoma พบบ่อยสุดโดยรวม · medulloblastoma = มะเร็งที่พบบ่อยสุด",
+   "Metastasis แหล่ง: ปอด &gt; เต้านม &gt; melanoma &gt; ไต &gt; ลำไส้ใหญ่ · ตำแหน่ง grey-white junction · cerebellum บ่อยใน pelvic/ GI primary",
+   "มี hemorrhage บ่อย: melanoma, RCC, choriocarcinoma, thyroid (MR CT)",
+   "รักษา: ก้อนเดี่ยว → resection + SRS ที่ cavity · 1–4 ก้อน → SRS · หลายก้อน → HA-WBRT + memantine · ยามุ่งเป้า (osimertinib, alectinib) ผ่าน BBB ได้ดี",
+   "Dexamethasone ลด vasogenic edema · ไม่ให้ยากันชักป้องกันในผู้ที่ไม่เคยชัก",
+   "Glioblastoma: ring enhancement, ข้าม corpus callosum (butterfly) · Stupp: ผ่าตัดมากที่สุด + RT 60 Gy + temozolomide · มัธยฐานรอดชีพ ~15 เดือน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'ก้อนร้ายในสมองส่วนใหญ่ \"มาจากที่อื่น\" (ปอดนำ)'</b>",
-  "guide": "WHO Classification of Tumours of the Central Nervous System 5th ed. (2021); NCCN Central Nervous System Cancers v.2025 — Brain metastases",
+  "opinion": "เห็นด้วยกับคีย์ E (ไฟล์ขีด E) มั่นใจสูง — เมื่อไม่ระบุว่าเป็น primary, metastatic tumor เป็นเนื้องอกร้ายในสมองที่พบบ่อยที่สุด และช้อยอื่นไม่มี glioblastoma ให้สับสน · ข้อสังเกต: ถ้าคำถามเป็น \"most common primary malignant\" คำตอบจะเป็น glioblastoma ซึ่งไม่มีในช้อย",
+  "mnemonic": "<b>'สมองผู้ใหญ่: Mets มากสุด · Mening บ่อยสุดใน primary · GBM ร้ายสุดใน primary · Medullo ร้ายสุดในเด็ก'</b>",
+  "guide": "Vogelbaum MA et al. Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline (J Clin Oncol 2022); Ostrom QT et al. CBTRUS Statistical Report (Neuro Oncol 2023)",
   "variants": [
-   "ผู้สูบบุหรี่ ชักครั้งแรก MRI ก้อนหลายก้อนที่ gray-white junction → brain metastasis (ปอด)",
-   "เด็ก ก้อนใน 4th ventricle → medulloblastoma",
-   "หญิงวัยกลางคน ก้อนติด dura มี dural tail → meningioma"
+   "ชาย 60 ปีสูบบุหรี่ ชักครั้งแรก MRI ก้อน ring-enhancing 3 ก้อนที่ grey-white junction → หา primary ที่ปอด (CT chest) พิจารณา SRS",
+   "หญิง 55 ปีพบก้อนติด dura มี dural tail → meningioma ซึ่งเป็น primary ที่พบบ่อยที่สุด",
+   "ชาย 65 ปีก้อน ring-enhancing ข้าม corpus callosum → glioblastoma IDH-wildtype",
+   "ทำไม metastasis อยู่ที่ grey-white junction → หลอดเลือดแดงเล็กลงทันทีที่รอยต่อ เซลล์มะเร็งจึงติดค้าง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 108 — ตัวพิมพ์: <b>73. What is the most common malignant brain tumor? — A. Medulloblastoma B. Meningioma C. Acoustic neuroma D. Pineal tumor E. Metastatic tumor</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"most common malignant brain tumor\" · E (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 108",
@@ -264,30 +280,32 @@
   ]
  },
  "MDCU67|RoA|74": {
-  "interp": "ถาม brain tumor ที่ทำให้เกิด <b>sensorineural hearing loss</b>",
-  "why": "<b>Vestibular schwannoma (acoustic neuroma)</b> — เนื้องอกจาก Schwann cell ของ <b>vestibular nerve</b> ใน internal acoustic canal/ CP angle กด CN VIII → <b>หูอื้อ/ ได้ยินลดลงข้างเดียวแบบ sensorineural</b> + เสียงในหู + เสียการทรงตัว · โตขึ้นกด CN V (ชาหน้า, corneal reflex ลด), CN VII, cerebellum (เดินเซ), ก้านสมอง และ 4th ventricle (hydrocephalus) · ไฟล์ขีด B และแปะสไลด์ <b>Acoustic neuroma: \"ระยะแรก tumor กด CN VIII ทำให้มี sensorineural hearing loss\"</b>",
+  "interp": "ถามเนื้องอกสมองที่ทำให้หูดับชนิดประสาทรับเสียง (sensorineural hearing loss) — ต้องรู้ว่าก้อนที่เกิดจาก Schwann cell ของ vestibular nerve ใน internal acoustic canal และ CP angle กด cochlear nerve เป็นอาการแรก",
+  "why": "<b>Vestibular schwannoma (acoustic neuroma)</b> เป็นเนื้องอก benign ของ <b>Schwann cell ของ vestibular nerve</b> (ส่วนใหญ่ superior/ inferior vestibular) เริ่มใน <b>internal acoustic canal</b> แล้วโตเข้า <b>cerebellopontine angle</b> เป็นก้อนรูป \"ice cream cone\" · อาการตามขนาด: ระยะแรกกด CN VIII → <b>หูดับข้างเดียวค่อยเป็น (unilateral SNHL)</b> ~95% <b>เสียงในหู</b> และเสียการทรงตัว (เวียนศีรษะไม่มากเพราะชดเชยได้) → โตขึ้นกด <b>CN V</b> (corneal reflex ลดลงเป็นสัญญาณแรก ๆ) และ CN VII (อ่อนแรงใบหน้าพบช้า แม้เส้นประสาทถูกยืด) → กด cerebellum และก้านสมอง เดินเซ hydrocephalus · <b>bilateral = NF2</b> · ตรวจ: audiometry (หูข้างเดียวลด, speech discrimination แย่กว่าที่คาด) และ <b>MRI with gadolinium</b> · รักษา: เฝ้าดูก้อนเล็ก, <b>stereotactic radiosurgery</b> (ก้อน &lt; 3 cm), ผ่าตัด microsurgery ก้อนใหญ่ · ตรงคีย์ B — ไฟล์ขีด B และแปะสไลด์ \"<b>ระยะแรก tumor กด CN VIII ทำให้มี sensorineural hearing loss</b>\"",
   "wrong": {
-   "A": "Pineal tumor → Parinaud syndrome + hydrocephalus · จะถูกถ้าคำถามถามมองขึ้นไม่ได้ + near-light dissociation",
-   "C": "Craniopharyngioma → bitemporal hemianopia ฮอร์โมนต่ำ · จะถูกถ้าคำถามถามเด็กตัวเตี้ย ตามัวสองข้าง",
-   "D": "GBM → อ่อนแรง ชัก ICP สูง ตามตำแหน่งในซีกสมอง · จะถูกถ้าคำถามถามก้อน ring-enhancing ข้าม corpus callosum (butterfly)",
-   "E": "Meningioma อาจเกิดที่ CP angle ได้แต่พบน้อยกว่าและหูอื้อไม่เด่นเท่า · จะถูกถ้าคำถามถามก้อนติด dura มี dural tail ที่ convexity"
+   "A": "Pineal tumor กด tectum และ aqueduct ทำให้ Parinaud syndrome (มองขึ้นไม่ได้ light-near dissociation) และ obstructive hydrocephalus ไม่ได้กด CN VIII · บางรายที่กด inferior colliculus อาจมีปัญหาการได้ยินได้แต่พบน้อยมาก · จะถูกถ้าเป็นชาย 16 ปีปวดศีรษะ มองขึ้นไม่ได้ convergence-retraction nystagmus MRI ก้อนที่ pineal region",
+   "C": "Craniopharyngioma อยู่ suprasellar กด optic chiasm ทำให้ <b>bitemporal hemianopia</b> และกด hypothalamus/ pituitary ทำให้เตี้ย diabetes insipidus ภาวะต่อมใต้สมองทำงานน้อย ไม่ใช่การได้ยิน · จะถูกถ้าเป็นเด็กหญิง 10 ปีเตี้ย ดื่มน้ำและปัสสาวะมาก ลานสายตาด้านนอกแคบสองข้าง CT เห็นก้อนซีสต์มีหินปูนเหนือ sella",
+   "D": "Glioblastoma เป็นมะเร็ง intra-axial ส่วนใหญ่อยู่ในซีกสมอง (frontal, temporal) ทำให้ชัก อ่อนแรง เปลี่ยนบุคลิก และอาการ ICP สูงเร็วในไม่กี่สัปดาห์ ไม่ได้กด CN VIII · จะถูกถ้าเป็นชาย 62 ปีชักครั้งแรก บุคลิกเปลี่ยน 1 เดือน MRI เห็นก้อน ring-enhancing มีเนื้อตายตรงกลางที่ frontal lobe ข้าม corpus callosum",
+   "E": "Meningioma ที่ <b>CP angle</b> (เป็นก้อนอันดับสองของตำแหน่งนี้ ราว 10%) ทำให้หูดับได้ แต่ meningioma ทั่วไปอยู่ที่ convexity, parasagittal, sphenoid wing และหูดับพบน้อยกว่า schwannoma มาก จึงไม่ใช่คำตอบตัวแทน · จะถูกถ้าเป็นหญิง 58 ปีหูขวาได้ยินลดลง MRI เห็นก้อนฐานกว้างติด petrous dura มี dural tail ที่ CP angle แต่ไม่ได้ขยายเข้า internal acoustic canal"
   },
-  "trap": "เลือก meningioma เพราะเกิดที่ CP angle ได้ — schwannoma คือก้อน CP angle ที่พบบ่อยที่สุดและทำหูอื้อเป็นอาการแรก",
+  "trap": "Meningioma ก็อยู่ที่ CP angle ได้จึงชวนเลือก E — ก้อนที่<b>ทำให้ SNHL ข้างเดียวเป็นอาการเด่นและพบบ่อยที่สุดใน CP angle (~80%)</b> คือ vestibular schwannoma ที่เริ่มจากเส้นประสาทเอง · meningioma ฐานกว้างติด dura ไม่ขยายเข้า IAC",
   "summary": [
-   "Vestibular schwannoma: CP angle ~80%",
-   "อาการ: SNHL ข้างเดียว · tinnitus · ทรงตัวผิดปกติ",
-   "โตขึ้น: CN V (corneal reflex ลด) · CN VII · cerebellum · hydrocephalus",
-   "สองข้าง → NF2",
-   "ตรวจ: audiogram + MRI gadolinium",
-   "รักษา: observe · SRS · ผ่าตัด (ตามขนาด/ อาการ)"
+   "Vestibular schwannoma: ~8% ของเนื้องอกในกะโหลก, ~80% ของก้อนใน CPA · อายุ 40–60 ปี · bilateral = NF2 (NF2 gene, chromosome 22)",
+   "อาการ: unilateral SNHL ค่อยเป็น (~95%) + tinnitus + เสียการทรงตัว → CN V (corneal reflex ลด) → CN VII (พบช้า) → cerebellar signs → hydrocephalus",
+   "หูดับข้างเดียวไม่สมมาตร (ต่างกัน ≥ 15 dB หรือ speech discrimination แย่) → MRI with gadolinium ของ IAC ทุกราย",
+   "MRI: ก้อนเพิ่มสีขยายเข้า IAC (ice cream cone) · meningioma: ฐานกว้างติด dura, dural tail, มุมป้านกับกระดูก, ไม่ค่อยเข้า IAC",
+   "รักษา: ก้อนเล็กไม่มีอาการ → wait-and-scan MRI · &lt; 3 cm → SRS (คุมก้อน ~90%+) · ใหญ่/ กดก้านสมอง → microsurgery (translabyrinthine, retrosigmoid, middle fossa)",
+   "ผลแทรกซ้อนผ่าตัด: เสียการได้ยิน, facial nerve palsy (House-Brackmann), CSF leak",
+   "CPA อื่น: meningioma, epidermoid, schwannoma ของ CN V/ VII, metastasis"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'หูอื้อข้างเดียว + เดินเซ = Schwannoma (CN VIII)'</b>",
-  "guide": "Congress of Neurological Surgeons Guidelines on the Management of Patients With Vestibular Schwannomas (Neurosurgery 2018;82:E32); Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ขีด B) มั่นใจสูงมาก — vestibular schwannoma เป็นเนื้องอกสมองที่ทำให้ SNHL เป็นอาการหลัก ตรงสไลด์ acoustic neuroma ในไฟล์ · ข้อสังเกต: สไลด์ในไฟล์อธิบายว่าชื่อที่ถูกคือ vestibular schwannoma แต่เรียก acoustic neuroma โดยอนุโลม เว็บจึงใช้ชื่อ vestibular schwannoma",
+  "mnemonic": "<b>'หูดับข้างเดียว = MRI หา Vestibular Schwannoma · ลำดับเส้นประสาท 8 → 5 → 7'</b>",
+  "guide": "Goldbrunner R et al. EANO guideline on the diagnosis and treatment of vestibular schwannoma (Neuro Oncol 2020); Carlson ML, Link MJ. Vestibular Schwannomas (N Engl J Med 2021)",
   "variants": [
-   "หูข้างซ้ายได้ยินลดลงค่อยเป็น เสียงในหู MRI ก้อนใน internal acoustic canal → vestibular schwannoma",
-   "วัยรุ่นหูอื้อสองข้าง ก้อน CP angle สองข้าง → NF2",
-   "หลังผ่าตัดก้อน CP angle หน้าเบี้ยว → บาดเจ็บ CN VII"
+   "หญิง 45 ปีหูซ้ายได้ยินลดลง 1 ปี MRI ก้อน 8 mm ใน IAC → wait-and-scan MRI ทุก 6–12 เดือน",
+   "ก้อน 2.5 cm ใน CPA ผู้ป่วยสูงอายุมีโรคร่วม → stereotactic radiosurgery",
+   "ชาย 20 ปีหูดับสองข้าง มีก้อน schwannoma ทั้งสองข้าง → NF2-related schwannomatosis",
+   "ทำไม corneal reflex ลดลงก่อน facial palsy → CN V ไวต่อการกดและอยู่ด้านบนของก้อน ส่วน CN VII ทนการยืดได้ดี"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 108 — ตัวพิมพ์: <b>74. Brain tumor ชนิดใดที่ทำให้เกิด neurosensory hearing loss — A. Pineal tumor B. Acoustic schwannoma C. Craniopharyngioma D. Glioblastoma multiforme E. Meningioma</b><br>ลายมือ: ขีด B<br>ไฮไลต์: \"Brain tumor\" \"neurosensory hearing loss\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Acoustic neuroma — \"Cranial nerve VIII ประกอบด้วย vestibular nerve และ cochlear nerve · จุดเริ่มต้นของ tumor อยู่ที่ neurilemma ของ vestibular nerve ดังนั้นชื่อที่ถูกต้องคือ vestibular neurilemmoma or schwannoma แต่ก็ยังเรียก acoustic neuroma โดยอนุโลม\" · ภาพ CT/ แผนภาพ internal acoustic canal · \"ระยะแรก tumor กด CN VIII ทำให้มี sensorineural hearing loss\" · \"ต่อมา Tumor โตกด cerebellum เกิด cerebellar symptom กด brainstem เกิด long tract sign กด 4th vent เกิด hydro, increase ICP\" + ลายมือแดง (เช่น \"ทรงตัว\" \"รับเสียง\" \"Schwann cell\" \"หูดับไป 1 ข้าง\")",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 108",
@@ -297,30 +315,32 @@
   ]
  },
  "MDCU67|RoA|75": {
-  "interp": "ภาพผู้ป่วย<b>หน้าหยาบ โหนกคิ้วยื่น จมูกใหญ่ คางยื่น ริมฝีปากหนา และมือใหญ่</b> → ถามการวินิจฉัย",
-  "why": "ลักษณะ <b>acromegaly</b> จาก <b>GH-secreting pituitary adenoma</b> ในผู้ใหญ่ (หลังกระดูกปิด): มือเท้าใหญ่ หน้าผาก/ โหนกคิ้วยื่น คางยื่น (prognathism) ฟันห่าง เนื้อเยื่ออ่อนหนา · ภาวะแฝง: ความดันสูง เบาหวาน หลอดเลือดแข็ง หัวใจล้มเหลว ไตวาย → อายุสั้นถ้าไม่รักษา · วินิจฉัยด้วย <b>IGF-1 สูง</b> + GH ไม่ถูกกดด้วย OGTT · ไฟล์ขีด A และแปะสไลด์ <b>Growth hormone producing tumor: \"ใน adult ทำให้เกิด acromegaly\"</b>",
+  "interp": "ภาพวาดผู้ป่วยมีหน้าหยาบ โหนกคิ้วยื่น จมูกและคางใหญ่ มือใหญ่ — ถามการวินิจฉัย ต้องรู้ว่าลักษณะเหล่านี้เกิดจาก growth hormone เกินในผู้ใหญ่ (หลัง epiphysis ปิด) จาก pituitary adenoma",
+  "why": "<b>Acromegaly</b> เกิดจาก <b>growth hormone (GH) เกิน</b>หลัง epiphysis ปิด &gt; 95% มาจาก <b>somatotroph pituitary adenoma</b> (ส่วนใหญ่เป็น macroadenoma) · GH กระตุ้นตับสร้าง <b>IGF-1</b> ซึ่งทำให้กระดูกและเนื้อเยื่ออ่อนหนาขึ้น: <b>โหนกคิ้วยื่น (frontal bossing) จมูกใหญ่ คางยื่น (prognathism) ฟันห่าง ลิ้นโต มือเท้าใหญ่</b> (ใส่แหวนและรองเท้าไม่ได้) ผิวหนาเหงื่อออกมาก · ที่สำคัญกว่าคือ<b>โรคร่วม</b>ซึ่งทำให้อายุสั้น: ความดันสูง เบาหวาน cardiomyopathy sleep apnea ติ่งเนื้อลำไส้ใหญ่ ข้อเสื่อม carpal tunnel · ในเด็กก่อน epiphysis ปิด = gigantism · วินิจฉัย: <b>IGF-1 สูง</b> (คัดกรอง) และ <b>OGTT แล้ว GH ไม่ถูกกด (&lt; 1 ng/mL)</b> ยืนยัน แล้ว MRI pituitary · รักษา: <b>transsphenoidal surgery</b> เป็นอันดับแรก ยา somatostatin analog (octreotide, lanreotide) pegvisomant รังสี · ตรงคีย์ A — ไฟล์ขีด A และแปะสไลด์ \"<b>มือเท้าใหญ่ หน้าผากและโหนกคิ้วยื่น คางยื่น ฟันห่าง</b>\" \"<b>ผู้ป่วยจะอายุสั้น ถ้าปล่อยให้ GH สูงอยู่นานๆ</b>\"",
   "wrong": {
-   "B": "Cushing disease → หน้ากลม (moon face) ไขมันที่คอหลัง (buffalo hump) ผิวบาง ลายสีม่วง · จะถูกถ้าภาพแสดงหน้ากลมแดง อ้วนลำตัว แขนขาลีบ",
-   "C": "Pineal tumor → Parinaud syndrome · จะถูกถ้าภาพแสดงผู้ป่วยมองขึ้นไม่ได้",
-   "D": "Prolactinoma → น้ำนมไหล ประจำเดือนขาด (หญิง) · หย่อนสมรรถภาพทางเพศ (ชาย) ไม่ทำให้ลักษณะหน้าหยาบ · จะถูกถ้าคำถามถามหญิงประจำเดือนขาด มีน้ำนมไหล",
-   "E": "Ependymoma → ก้อนใน 4th ventricle/ ไขสันหลัง ไม่มีลักษณะทางฮอร์โมน · จะถูกถ้าคำถามถามเด็กก้อนใน 4th ventricle + hydrocephalus"
+   "B": "Cushing disease คือ ACTH เกินจาก pituitary adenoma ทำให้ cortisol สูง: อ้วนลงพุง <b>หน้ากลม (moon face) หนอกที่คอ ผิวบาง ลายแตกสีม่วงกว้าง</b> ช้ำง่าย กล้ามเนื้อต้นแขนขาอ่อนแรง ไม่ทำให้กระดูกใบหน้าและมือใหญ่ · จะถูกถ้าเป็นหญิง 35 ปีอ้วนลงพุง หน้ากลมแดง ลายแตกสีม่วงที่ท้อง ความดันสูง cortisol ในน้ำลายตอนดึกสูง ACTH ไม่ถูกกดและ MRI เห็น microadenoma",
+   "C": "Pineal tumor กด dorsal midbrain ทำให้ Parinaud syndrome และ hydrocephalus บางชนิด (germ cell ที่หลั่ง β-hCG) ทำให้ precocious puberty ในเด็กชาย ไม่ทำให้ใบหน้าหยาบและมือใหญ่ · จะถูกถ้าเป็นเด็กชาย 9 ปีมีลักษณะเพศชายก่อนวัย มองขึ้นไม่ได้ ปวดศีรษะตอนเช้า MRI ก้อนที่ pineal region และ β-hCG ในเลือดสูง",
+   "D": "Prolactinoma เป็น pituitary adenoma ที่พบบ่อยที่สุด ทำให้<b>น้ำนมไหล ประจำเดือนขาด</b> มีบุตรยากในหญิง และความต้องการทางเพศลด หย่อนสมรรถภาพในชาย ก้อนใหญ่กด chiasm ไม่ทำให้กระดูกหนา · รักษาแรกด้วย <b>cabergoline</b> · จะถูกถ้าเป็นหญิง 28 ปีประจำเดือนขาด 6 เดือน มีน้ำนมไหลทั้งที่ไม่ได้ตั้งครรภ์ prolactin 250 ng/mL MRI เห็น microadenoma",
+   "E": "Ependymoma เป็น glioma จากเซลล์บุโพรงสมอง ในเด็กมักอยู่ <b>โพรงที่ 4</b> ทำให้ hydrocephalus อาเจียน เดินเซ ส่วนในผู้ใหญ่พบที่ไขสันหลัง ไม่เกี่ยวกับฮอร์โมน · จะถูกถ้าเป็นเด็กชาย 4 ปีอาเจียนตอนเช้า เดินเซ หัวโต MRI เห็นก้อนในโพรงที่ 4 ยื่นออกทาง foramen of Luschka"
   },
-  "trap": "สับสน acromegaly (หน้าหยาบ มือใหญ่) กับ Cushing (หน้ากลม อ้วนลำตัว)",
+  "trap": "ทั้ง Cushing disease และ acromegaly เป็น pituitary adenoma ที่เปลี่ยนรูปลักษณ์จึงอาจสับสน — acromegaly เปลี่ยน<b>กระดูกและเนื้อเยื่อปลายส่วน (หน้า มือ เท้า)</b> ส่วน Cushing เปลี่ยน<b>การกระจายไขมันและผิวหนัง</b> (หน้ากลม ลายแตกม่วง)",
   "summary": [
-   "GH adenoma: เด็ก (ก่อนกระดูกปิด) = gigantism · ผู้ใหญ่ = acromegaly",
-   "ลักษณะ: มือเท้าใหญ่ · หน้าผากยื่น · prognathism · ฟันห่าง · ผิวหนา",
-   "แฝง: HT · DM · cardiomyopathy · OSA · colon polyp",
-   "ตรวจ: IGF-1 · GH หลัง OGTT ไม่ถูกกด · MRI pituitary",
-   "รักษา: transsphenoidal resection → somatostatin analog/ pegvisomant/ RT",
-   "Macroadenoma → bitemporal hemianopia"
+   "Acromegaly: GH เกินหลัง epiphysis ปิด · &gt; 95% จาก somatotroph adenoma (~75% macroadenoma) · อาการค่อยเป็น วินิจฉัยช้า 5–10 ปี",
+   "ลักษณะ: frontal bossing, prognathism, ฟันห่าง, macroglossia, มือเท้าใหญ่, ผิวหนามัน เหงื่อมาก, เสียงทุ้ม, carpal tunnel",
+   "โรคร่วม: ความดันสูง, เบาหวาน, cardiomyopathy, OSA, colon polyp/ มะเร็ง, ข้อเสื่อม · ไม่รักษาอายุสั้นลงราว 10 ปี",
+   "วินิจฉัย: IGF-1 สูงตามอายุ (คัดกรอง) → OGTT 75 g GH ไม่ถูกกด &lt; 1 ng/mL (ยืนยัน) → MRI pituitary + ลานสายตา",
+   "รักษา: transsphenoidal surgery อันดับแรก → ยังสูง: somatostatin analog (octreotide/ lanreotide/ pasireotide), pegvisomant (GH receptor antagonist), cabergoline → radiotherapy",
+   "Pituitary adenoma: prolactinoma พบบ่อยสุด (cabergoline) · Cushing disease: ACTH (moon face, purple striae) · nonfunctioning: กด chiasm, hypopituitarism",
+   "Pituitary apoplexy: ก้อนเลือดออกเฉียบพลัน ปวดศีรษะรุนแรง ตามัว CN III → hydrocortisone ด่วน ± ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'Acro = ปลาย (มือ เท้า คาง) + Megaly = ใหญ่'</b>",
-  "guide": "Endocrine Society Clinical Practice Guideline: Acromegaly (J Clin Endocrinol Metab 2014;99:3933); Pituitary Society Consensus on Acromegaly (Nat Rev Endocrinol 2021)",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A) มั่นใจสูงมาก — ภาพหน้าหยาบและมือใหญ่เป็นลักษณะคลาสสิกของ acromegaly ตามสไลด์ GH-producing tumor ในไฟล์ · ไฟล์ใช้ภาพวาดประกอบ เว็บบรรยายลักษณะในโจทย์แทนภาพ",
+  "mnemonic": "<b>'Acro = ปลาย (Greek akros) + Megaly = ใหญ่ → แหวนคับ รองเท้าคับ คางยื่น'</b>",
+  "guide": "Katznelson L et al. Acromegaly: an Endocrine Society Clinical Practice Guideline (J Clin Endocrinol Metab 2014); Giustina A et al. Consensus on criteria for acromegaly diagnosis and remission (Pituitary 2024)",
   "variants": [
-   "ใส่แหวนไม่ได้ รองเท้าคับ ฟันห่าง → acromegaly → IGF-1",
-   "หน้ากลม buffalo hump ลายสีม่วง → Cushing disease",
-   "หญิงประจำเดือนขาด น้ำนมไหล → prolactinoma → cabergoline"
+   "ชาย 45 ปีแหวนแต่งงานคับ ฟันห่าง กรนมาก IGF-1 สูง GH หลัง OGTT 5 ng/mL → acromegaly ทำ MRI แล้ว transsphenoidal surgery",
+   "หลังผ่าตัด GH adenoma ยัง IGF-1 สูง → octreotide LAR หรือ pegvisomant",
+   "หญิง 30 ปีอ้วนลงพุง ลายแตกม่วง ความดันสูง → ตรวจ late-night salivary cortisol/ dexamethasone suppression หา Cushing",
+   "ทำไมต้องรักษา acromegaly แม้ผู้ป่วยไม่สนใจรูปลักษณ์ → GH/ IGF-1 สูงทำให้โรคหัวใจ เบาหวาน และอายุสั้นลง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 108–109 — ตัวพิมพ์: <b>75. ผู้ป่วยมาพบแพทย์ด้วยลักษณะดังภาพ จงให้การวินิจฉัย — A. Acromegaly B. Cushing's disease C. Pineal tumor D. Prolactinoma E. Ependymoma</b> (ภาพวาด A: ใบหน้าหยาบ B: มือใหญ่)<br>ลายมือ: ขีด A<br>ไฮไลต์: A (เหลือง)<br>รูปที่แปะ: สไลด์ Growth hormone producing tumor — \"ใน adult ทำให้เกิด acromegaly · มือเท้าใหญ่ หน้าผากและโหนกคิ้วยื่น คางยื่น ฟันห่าง soft tissue thickening · ที่ซ่อนอยู่ภายใต้รูปลักษณ์ภายนอกนี้คือ hypertension, diabetes, atherosclerosis, heart failure, kidney failure · ต้องรักษา ไม่ใช่เพื่อแก้รูปลักษณ์ภายนอก แต่เพราะผู้ป่วยจะอายุสั้น ถ้าปล่อยให้ GH สูงอยู่นานๆ\" · From Greek akros \"extremities\" and megalos \"large\" + ภาพเปรียบเทียบ normal/ acromegaly + ลายมือ (\"prognathism\" \"hyperaeration of frontal sinus\" \"ตายเร็ว! ถ้าไม่ Tx\")<br>ที่ปรับในเว็บ: บรรยายภาพในโจทย์เป็นข้อความ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 108",
