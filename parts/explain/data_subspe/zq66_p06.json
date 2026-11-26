@@ -1,29 +1,31 @@
 {
  "MDCU66|RoA|X15": {
-  "interp": "ผู้ป่วย 60 kg ไหม้ 40% TBSA ให้สารน้ำครบ 8 ชม. แรกตาม Parkland แล้ว ถาม<b>อัตราสารน้ำต่อไป</b> (mL/hr)",
-  "why": "Parkland: 4 × 60 × 40 = <b>9,600 mL/24 ชม.</b> · ครึ่งแรก 4,800 mL ใน 8 ชม. แรก · <b>ครึ่งหลัง 4,800 mL ใน 16 ชม.</b> = 4,800 ÷ 16 = <b>300 mL/hr</b> · ไฟล์ไม่มีช้อย ลายมือคำนวณ <b>\"4800 cc in 16 hr = 300 cc/hr\"</b>",
+  "interp": "ผู้ใหญ่ 60 kg ไฟไหม้ 40% TBSA ได้สารน้ำครบช่วง 8 ชม.แรกตามสูตร Parkland แล้ว — ถามอัตราสารน้ำต่อชั่วโมงในช่วง 16 ชม.ที่เหลือ ซึ่งต้องคำนวณยอดรวม 24 ชม.แล้วแบ่งครึ่ง",
+  "why": "<b>Parkland = 4 mL × kg × %TBSA</b> ของ Ringer lactate ใน 24 ชม.แรก → 4 × 60 × 40 = <b>9,600 mL</b> · ให้<b>ครึ่งแรก 4,800 mL ใน 8 ชม.แรก</b> (นับจากเวลาที่ไหม้) = 600 mL/hr · <b>ครึ่งหลัง 4,800 mL ใน 16 ชม.ถัดมา = 300 mL/hr</b> · เหตุที่ให้ครึ่งแรกเร็ว: capillary leak มากที่สุดใน 8–12 ชม.แรกหลังไฟไหม้ แล้วค่อย ๆ ลดลง และ capillary integrity กลับมาราว 18–24 ชม. · ตัวเลขนี้เป็นแค่<b>อัตราตั้งต้น</b> ต้องปรับทุกชั่วโมงตาม<b>urine output 0.5 mL/kg/hr (30–50 mL/hr)</b> · ข้อควรรู้: ATLS 10th ed. (2018) ปรับให้ผู้ใหญ่<b>เริ่มที่ 2 mL × kg × %TBSA</b> (= 4,800 mL ต่อ 24 ชม. → ช่วงหลัง 150 mL/hr) เพื่อลด fluid creep แต่ข้อสอบนี้คิดแบบ Parkland ดั้งเดิม · ไฟล์ไม่มีคีย์ตัวพิมพ์และไม่มีช้อย แต่ลายมือคำนวณไว้ว่า \"<b>4800 cc in 16 hr = 300 cc/hr</b>\" ตรงกับคำตอบ C",
   "wrong": {
-   "A": "150 mL/hr ได้จากใช้สูตร 2 mL/kg/%TBSA แล้วหาร 16 (4,800 ÷ 2 ÷ 16) · จะถูกถ้าคำถามใช้สูตร ATLS 2 mL ครึ่งหลัง",
-   "B": "200 mL/hr ได้จาก 4,800 ÷ 24 · จะถูกถ้าคำถามให้กระจายครึ่งหลังตลอด 24 ชม. (ผิดหลัก)",
-   "D": "450 mL/hr ไม่ตรงกับสูตร · จะถูกถ้าคำถามเป็นผู้ป่วย 60 kg ไหม้ 60% ครึ่งหลัง (7,200 ÷ 16)",
-   "E": "600 mL/hr คืออัตรา 8 ชม. แรก (4,800 ÷ 8) · จะถูกถ้าคำถามถามอัตราใน 8 ชม. แรก"
+   "A": "150 mL/hr คือครึ่งหลังเมื่อใช้สูตร ATLS 10th ed. แบบ 2 mL/kg/%TBSA (4,800 ÷ 2 ÷ 16) ไม่ใช่ Parkland 4 mL ที่ข้อนี้ใช้ · จะถูกถ้าเป็นชาย 60 kg burn 40% ที่ทีมเริ่มตามสูตร ATLS 2018 (2 mL × kg × %TBSA) และได้ครึ่งแรก 2,400 mL ครบใน 8 ชม. ปัสสาวะได้เป้าดี",
+   "B": "200 mL/hr ไม่ตรงกับการคำนวณใด ๆ ของสูตร (อาจเกิดจากหาร 9,600 ด้วย 48 ชม.) · จะถูกถ้าเป็นชาย 60 kg burn 40% ที่ช่วงหลังได้ 300 mL/hr แล้วปัสสาวะออกมาก 90–100 mL/hr ต่อเนื่องหลายชั่วโมง จึงลดอัตราลงราว 30% เหลือประมาณ 200 mL/hr",
+   "D": "450 mL/hr ได้จากการหาร 9,600 ทั้งหมดด้วย 24 ชม. (400) หรือคิดผิดเป็นสามในสี่ — ไม่ใช่การแบ่งครึ่งตาม Parkland · จะถูกถ้าเป็นชาย 60 kg burn 40% ที่ช่วงหลังได้ 300 mL/hr แต่ปัสสาวะเหลือ 10–15 mL/hr ติดกัน 2 ชม. ทั้งที่ไม่มีภาวะไตวาย จึงเพิ่มอัตราขึ้นราว 50%",
+   "E": "600 mL/hr เป็นอัตราของ<b>ครึ่งแรก</b> (4,800 ใน 8 ชม.) ไม่ใช่ช่วงที่ถาม · จะถูกถ้าเป็นชาย 60 kg burn 40% ที่เพิ่งมาถึงโรงพยาบาลทันทีหลังไฟไหม้และกำลังจะเริ่มสารน้ำใน 8 ชม.แรกตาม Parkland ดั้งเดิม"
   },
-  "trap": "ใช้อัตราของ 8 ชม. แรก (600 mL/hr) ต่อ หรือหาร 24 แทน 16",
+  "trap": "คนตอบ 600 เพราะคำนวณครึ่งแรกแล้วหยุด หรือเอา 9,600 หาร 24 — ต้องจำว่า Parkland แบ่ง<b>ครึ่ง/ครึ่ง เป็น 8 ชม./16 ชม.</b> · และถ้าผู้ป่วยมาช้า ครึ่งแรกต้องอัดให้ทันภายใน 8 ชม.นับจากเวลาไหม้ ไม่ใช่จากเวลามาถึง",
   "summary": [
-   "Parkland: 4 mL × kg × %TBSA (RLS)",
-   "ATLS ฉบับใหม่: 2 mL ผู้ใหญ่ · 3 mL เด็ก · 4 mL electrical",
-   "ครึ่งแรกใน 8 ชม. นับจาก<b>เวลาที่ไหม้</b>",
-   "ครึ่งหลังใน 16 ชม. ต่อมา",
-   "มาช้า → ต้องให้ครึ่งแรกในเวลาที่เหลือของ 8 ชม.",
-   "ปรับตาม urine output เสมอ"
+   "Parkland (Baxter) 4 mL × kg × %TBSA RL ใน 24 ชม. · ครึ่งแรกใน 8 ชม.จากเวลาไหม้ ครึ่งหลังใน 16 ชม.",
+   "ATLS 10th ed. (2018): ผู้ใหญ่ 2 mL, เด็ก ≤ 14 ปี 3 mL, electrical injury 4 mL × kg × %TBSA — ยังแบ่งครึ่ง 8/16 ชม.เหมือนเดิม",
+   "ตัวอย่าง 60 kg 40%: Parkland 9,600 mL → 600 mL/hr แล้ว 300 mL/hr · ATLS 2 mL → 4,800 mL → 300 mL/hr แล้ว 150 mL/hr",
+   "มาช้า เช่น 3 ชม.หลังไหม้ → ครึ่งแรกต้องให้ภายใน 5 ชม.ที่เหลือ (อัตราสูงขึ้น) แล้วหักสารน้ำที่ได้ก่อนมาด้วย",
+   "ปรับรายชั่วโมงตาม urine output: ผู้ใหญ่ 0.5 mL/kg/hr · เด็ก 1 mL/kg/hr · ปรับขึ้นลงครั้งละ 20–30%",
+   "Fluid creep (ให้เกินสูตรมาก) → abdominal compartment syndrome, extremity compartment, ARDS, ต้องใส่ท่อนานขึ้น",
+   "หลัง 24 ชม.: capillary leak ลดลง เริ่ม colloid (albumin 5%) ได้ ลด crystalloid ลงสู่ maintenance + evaporative loss"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่มีช้อยและไม่มีคีย์ แต่ลายมือคำนวณได้ 300 cc/hr ตรงกับคำตอบในเว็บ",
-  "mnemonic": "<b>'4 × kg × % → ½ ใน 8 · ½ ใน 16'</b>",
-  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal injuries",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ไม่มีคีย์ตัวพิมพ์และไม่มีช้อย ช้อยในเว็บแต่งขึ้นตามลายมือ \"4800 cc in 16 hr = 300 cc/hr\" ซึ่งคำนวณถูกตาม Parkland ดั้งเดิม · ข้อต่าง: ถ้ายึด ATLS 10th ed. (2018) ที่ให้ผู้ใหญ่เริ่ม 2 mL คำตอบจะเป็น 150 mL/hr (ช้อย A) จึงควรดูว่าอาจารย์ใช้สูตรไหน — ข้อนี้ในไฟล์คิดด้วย 4 mL",
+  "mnemonic": "<b>'Parkland 4-kg-% · ครึ่ง 8 ชม. ครึ่ง 16 ชม. · ปัสสาวะเป็นคนตัดสิน'</b>",
+  "guide": "ATLS 10th ed. (2018) ch. Thermal injuries; American Burn Association ABLS Provider Manual 2018",
   "variants": [
-   "ชาย 70 kg ไหม้ 50% Parkland → 14,000 mL · 8 ชม. แรก 875 mL/hr",
-   "มาถึงโรงพยาบาล 3 ชม. หลังไหม้ → ให้ครึ่งแรกใน 5 ชม. ที่เหลือ",
-   "เด็ก 20 kg ไหม้ 30% → 3 mL × 20 × 30 = 1,800 mL + maintenance"
+   "ผู้ใหญ่ 60 kg burn 40% เพิ่งไหม้ Parkland ช่วง 8 ชม.แรก → 600 mL/hr",
+   "ชาย 80 kg burn 30% ATLS 10th ed. → 2 × 80 × 30 = 4,800 mL · 8 ชม.แรก 300 mL/hr · 16 ชม.หลัง 150 mL/hr",
+   "ผู้ป่วยมาถึง 2 ชม.หลังไหม้ ยังไม่ได้สารน้ำเลย → ครึ่งแรกต้องให้ภายใน 6 ชม.ที่เหลือ",
+   "ทำไมครึ่งแรกต้องเร็วกว่า → capillary leak และการสูญเสีย plasma มากที่สุดใน 8–12 ชม.แรกหลังไฟไหม้"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 145 — ตัวพิมพ์: <b>ผู้ป่วยหนัก 60 kg burn 40% TBSA ให้ fluid ไปแล้ว 8 ชม. ครบถ้วน จงคำนวณการให้ fluid ต่อ หน่วยเป็น ml/hr</b> (ไม่มีเลขข้อ · ไม่มีช้อย)<br>ลายมือ: \"4800 cc in 16 hr = 300 cc/hr\"<br>ไฮไลต์: \"ให้ fluid ไปแล้ว 8 ชม. ครบถ้วน\" · \"คำนวณการให้ fluid ต่อ\" (เหลือง)<br>ที่ปรับในเว็บ: ไฟล์ไม่มีช้อย เว็บแต่งช้อย A–E เป็นตัวเลข mL/hr",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 145",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU66|RoA|X16": {
-  "interp": "ขอบแผล (เช่น ปลาย flap/ มุมแผล) <b>มีเลือดเลี้ยงไม่ดี</b> ถามวิธีเย็บที่เหมาะสม",
-  "why": "<b>Half-buried horizontal mattress (corner/ tip stitch)</b> ผ่านไหมใน dermis ของขอบที่เลือดเลี้ยงน้อยโดยไม่ทะลุผิวหนังด้านนั้น → ลดการรัดและการขาดเลือดของปลาย flap/ ขอบแผล · ไฟล์ไม่มีช้อย ลายมือ <b>\"half buried suture\"</b> แปะรูป Half-Buried Horizontal Mattress",
+  "interp": "ขอบแผลบางส่วนมีเลือดเลี้ยงไม่ดี (เช่นปลาย flap หรือมุมแผลรูปตัว V) — ถามเทคนิคการเย็บที่รบกวนเลือดเลี้ยงขอบแผลนั้นน้อยที่สุด คือเย็บที่ไม่ผ่านผิวหนังด้านที่เลือดน้อย",
+  "why": "การเย็บแบบที่ด้ายผ่านผิวหนังทั้งสองข้างและรัดเป็นห่วง (simple, vertical mattress) จะ<b>บีบหลอดเลือดใน dermis</b>ของขอบแผล ทำให้ปลายแผลที่เลือดเลี้ยงน้อยอยู่แล้วตาย (tip necrosis) · <b>Half-buried horizontal mattress (corner/ tip stitch)</b>: เข็มผ่านผิวหนังด้านที่เลือดดี แล้ว<b>เดินในชั้น dermis ของขอบที่เลือดไม่ดีในแนวนอนโดยไม่โผล่ผ่านผิว</b> แล้วกลับออกฝั่งเดิม → ปมและแรงกดอยู่ฝั่งที่เลือดดี ขอบที่เลือดน้อยไม่ถูกรัดและไม่มีรอยเข็มผ่านผิว · ใช้กับ<b>ปลาย flap รูปสามเหลี่ยม (V-Y, Z-plasty), มุมแผลรูปตัว V/ T, ขอบ graft หรือ flap ที่บางและเลือดน้อย</b> · หลักร่วม: เย็บไม่ตึง, ใช้ไหมเล็กที่สุดที่พอ, ไม่ผูกแน่นเกินขอบแผลบวม · ไฟล์ไม่มีคีย์ตัวพิมพ์และไม่มีช้อย แต่ลายมือเขียนว่า \"<b>→ half buried suture</b>\" พร้อมแปะรูป Half-Buried Horizontal Mattress ตรงกับคำตอบ A",
   "wrong": {
-   "B": "Simple interrupted รัดผ่านผิวหนังเต็มชั้น อาจทำให้ขอบที่เลือดน้อยขาดเลือดมากขึ้น · จะถูกถ้าคำถามถามแผลขอบตรงเลือดเลี้ยงดีทั่วไป",
-   "C": "Vertical mattress ช่วยให้ขอบแผลพลิกออก (eversion) แต่รัดเนื้อเยื่อมากขึ้น · จะถูกถ้าคำถามถามแผลที่ขอบม้วนเข้า/ ผิวหนังหย่อน (เช่น ฝ่ามือ ผู้สูงอายุ)",
-   "D": "Running locked ใช้ห้ามเลือดได้ดี แต่รัดแน่นลดเลือดเลี้ยงขอบแผล · จะถูกถ้าคำถามถามแผลยาวที่เลือดซึมมาก เช่น หนังศีรษะ",
-   "E": "Figure-of-eight ใช้ผูกห้ามเลือด/ ปิด fascia · จะถูกถ้าคำถามถามการเย็บห้ามเลือดจากจุดเลือดออก"
+   "B": "Simple interrupted เป็นการเย็บพื้นฐานที่ผ่านผิวทั้งสองข้าง ห่วงด้ายรัดเลือดที่ขอบทั้งสองฝั่งเท่ากัน จึงไม่เหมาะกับปลายแผลที่เลือดน้อย · จะถูกถ้าเป็นชาย 30 ปีมีแผลฉีกขาดตรงยาว 3 cm ที่แขน ขอบเรียบ เลือดดีทั้งสองข้าง ไม่ตึง",
+   "C": "Vertical mattress ช่วย evert ขอบแผลและรับแรงตึงได้ดี แต่ห่วงด้ายลึกและตื้นรัดขอบแผลมาก ยิ่งลดเลือดเลี้ยงขอบ · จะถูกถ้าเป็นชาย 50 ปีมีแผลที่ฝ่ามือหรือหลังเท้าซึ่งขอบแผลม้วนเข้า (inversion) และต้องการ eversion ในแผลที่เลือดดี",
+   "D": "Running locked suture ล็อกด้ายทุกเข็มเพื่อห้ามเลือด แต่ยิ่งรัดขอบแผลแน่นและบีบเลือดเลี้ยงมาก ไม่ใช้กับขอบที่เลือดน้อย · จะถูกถ้าเป็นหญิง 40 ปีที่หนังศีรษะฉีกขาดยาวเลือดออกมาก ต้องการเย็บเร็วและห้ามเลือดจากขอบแผลไปพร้อมกัน",
+   "E": "Figure-of-eight ใช้ห้ามเลือดจากจุดเลือดออกหรือรวบเนื้อเยื่อลึก (fascia) รัดเนื้อเยื่อเป็นวงสองรอบ ไม่ใช่การเย็บผิวที่ปกป้องเลือดเลี้ยง · จะถูกถ้าเป็นชาย 60 ปีระหว่างผ่าตัดมีจุดเลือดออกจากหลอดเลือดเล็กในกล้ามเนื้อที่จี้ไม่หยุด ต้องเย็บห้ามเลือด"
   },
-  "trap": "เลือก vertical mattress เพราะคิดว่าแข็งแรงกว่า แต่กลับรัดเนื้อเยื่อที่เลือดเลี้ยงน้อย",
+  "trap": "Vertical mattress ฟังดูเป็นการเย็บ \"ขั้นสูง\" สำหรับแผลยาก จึงถูกเลือกบ่อย — แต่ห่วงด้ายสองชั้นยิ่ง<b>รัดเลือดเลี้ยงขอบแผล</b> · คำสำคัญคือ \"เลือดเลี้ยงไม่ดี\" → เลือกเทคนิคที่ด้าย<b>ไม่ผ่านผิวด้านที่เลือดน้อย</b> = half-buried",
   "summary": [
-   "Simple interrupted: แผลทั่วไป",
-   "Vertical mattress: eversion · ผิวหนังหย่อน",
-   "Horizontal mattress: กระจายแรงตึง",
-   "Half-buried horizontal mattress: มุม/ ปลาย flap เลือดเลี้ยงน้อย",
-   "Subcuticular: แผลสวย · ลดรอยไหม",
-   "ตัดไหมหน้า 5–7 วัน · ลำตัว 10–14 วัน"
+   "Half-buried horizontal mattress (tip stitch): ผ่านผิวด้านเดียว อีกด้านเดินใน dermis ใช้ปลาย flap สามเหลี่ยม มุมแผล V/ T ขอบที่เลือดน้อย",
+   "Simple interrupted: พื้นฐาน ปรับทีละเข็ม เหมาะแผลตรงเลือดดี · Running (continuous): เร็ว กระจายแรงตึงเท่ากัน",
+   "Vertical mattress: eversion ดี ปิดช่องว่างลึก ใช้ที่ผิวหนา/ ขอบม้วน แต่รัดเลือดเลี้ยงมาก ทิ้งรอยเข็ม 4 จุด",
+   "Horizontal mattress: รับแรงตึงและห้ามเลือดดี กระจายแรงกว้าง แต่ทำให้ขอบแผลขาดเลือดถ้ารัดแน่น",
+   "Subcuticular (intradermal running): ไม่มีรอยเข็มบนผิว แผลสวย ใช้แผลผ่าตัดที่ตึงน้อย",
+   "หลักเย็บแผล: ขอบ evert เล็กน้อย, ไม่ตึง, ระยะห่างเข็มเท่ากับระยะจากขอบ, ผูกพอชิดไม่แน่นเกิน (แผลจะบวมอีก)",
+   "ตัดไหม: หน้า 3–5 วัน · หนังศีรษะ/ ลำตัว 7–10 วัน · แขนขา 10–14 วัน · ข้อต่อ ฝ่ามือฝ่าเท้า 14 วัน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่มีช้อยและไม่มีคีย์ แต่ลายมือเขียน half buried suture ตรงกับคำตอบในเว็บ",
-  "mnemonic": "<b>'ขอบเลือดน้อย → ฝังไหมครึ่ง (Half-buried) ไม่เจาะผิวด้านนั้น'</b>",
-  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic techniques: wound closure",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีคีย์ตัวพิมพ์และไม่มีช้อย ช้อยในเว็บแต่งขึ้นตามลายมือ \"half buried suture\" และรูปที่แปะ ซึ่งตรงกับหลักการปกป้องเลือดเลี้ยงปลาย flap ในตำรา plastic surgery",
+  "mnemonic": "<b>'ขอบเลือดน้อย ด้ายอย่าทะลุ — Half-buried ฝังข้างที่อ่อนแอ'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 9th ed. (2024) ch. Basic techniques; Trott AT. Wounds and Lacerations 5th ed. (2024)",
   "variants": [
-   "ปลาย V-Y flap ซีดหลังเย็บ → half-buried horizontal mattress ที่มุม",
-   "แผลขอบม้วนเข้าที่ฝ่ามือ → vertical mattress",
-   "แผลหน้าต้องการรอยเย็บน้อย → subcuticular suture"
+   "ทำ Z-plasty แล้วต้องเย็บปลาย flap สามเหลี่ยมเข้ามุม → half-buried horizontal mattress (corner stitch)",
+   "แผลที่ฝ่ามือขอบม้วนเข้า เลือดดี → vertical mattress เพื่อ evert ขอบ",
+   "แผลผ่าตัดที่ใบหน้า ต้องการแผลเป็นเล็กที่สุดไม่มีรอยเข็ม → subcuticular running suture",
+   "ทำไมไม่ใช้ vertical mattress กับปลาย flap → ห่วงด้ายสองชั้นรัดหลอดเลือดใน dermis ปลาย flap ตาย"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 145 — ตัวพิมพ์: <b>ขอบแผลมีเลือดมาเลี้ยงไม่ดี ควรเย็บอย่างไร</b> (ไม่มีเลขข้อ · ไม่มีช้อย)<br>ลายมือ: \"→ half buried suture\"<br>รูปที่แปะ: รูป Half-Buried Horizontal Mattress (แสดงการเย็บผ่าน dermis ของปลาย flap) พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: ไฟล์ไม่มีช้อย เว็บแต่งช้อย A–E ตามคำตอบในลายมือ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 145",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU66|RoA|82": {
-  "interp": "ถามข้อที่ถูกเกี่ยวกับ <b>chronic constrictive pericarditis</b>",
-  "why": "<b>CT/ MRI เห็นเยื่อหุ้มหัวใจหนาขึ้น (&gt; 4 mm)</b> ± หินปูน ช่วยวินิจฉัยและวางแผนผ่าตัด pericardiectomy · ไฟล์ขีด D แก้ลายมือช้อย B เป็น <b>\"idiopathic?\"</b>",
+  "interp": "คำถาม \"ข้อใดถูก\" เรื่อง chronic constrictive pericarditis — ต้องรู้สาเหตุที่พบบ่อย อาการเด่น ลักษณะทางกายภาพ (pulsus paradoxus เทียบกับ tamponade) และการตรวจภาพที่เห็นเยื่อหุ้มหัวใจหนา",
+  "why": "Constrictive pericarditis คือเยื่อหุ้มหัวใจ<b>หนา แข็ง มีพังผืดหรือหินปูน</b> หุ้มหัวใจไว้จนคลายตัวรับเลือดไม่ได้ (diastolic filling ถูกจำกัด) → <b>right heart failure</b> เด่น: JVP สูง <b>Kussmaul sign</b> (JVP ไม่ลดหรือสูงขึ้นเมื่อหายใจเข้า), <b>pericardial knock</b>, ตับโต ท้องมาน ขาบวม · สาเหตุในประเทศพัฒนาแล้ว: <b>idiopathic/ viral มากที่สุด</b> ตามด้วยหลังผ่าตัดหัวใจ และหลังฉายรังสี · ในประเทศกำลังพัฒนารวมไทย <b>วัณโรค</b>เป็นสาเหตุสำคัญ · การตรวจภาพ: <b>CT หรือ cardiac MRI เห็นเยื่อหุ้มหัวใจหนา &gt; 4 mm และหินปูน</b> (ภาพรังสีทรวงอกเห็นหินปูนได้ราว 25%) · echo พบ septal bounce, respiratory variation ของ mitral inflow &gt; 25% และ annulus reversus · ยืนยันด้วย cardiac catheterization (dip-and-plateau/ square root sign, ventricular interdependence) · รักษาหลักคือ <b>pericardiectomy</b> · ตรงคีย์ D — ไฟล์ขีด D เขียนแก้ช้อย B ว่า \"<b>idiopathic?</b>\" และเขียนกลไกช้อย C ว่า \"<b>venous return↓ → ท้องมาน → portal HTN</b>\"",
   "wrong": {
-   "A": "Pulsus paradoxus เด่นใน tamponade พบไม่บ่อยใน constrictive (เด่นที่ Kussmaul sign) และ AF ไม่ได้ทำให้พบมากขึ้น · จะถูกถ้าคำถามถาม cardiac tamponade",
-   "B": "สาเหตุที่พบบ่อยที่สุดคือ <b>idiopathic/ viral</b> (ลายมือ \"idiopathic?\") · ประเทศกำลังพัฒนาคือ TB · หลังผ่าตัดหัวใจเป็นอันดับรอง · จะถูกถ้าคำถามถามสาเหตุหนึ่งที่พบได้",
-   "C": "อาการเด่นคือเหนื่อย อ่อนเพลีย ขาบวม ท้องมานพบได้ (ลายมือ \"venous return↓ → ท้องมาน → portal HTN\") แต่ไม่ใช่อาการที่พบบ่อยที่สุด · จะถูกถ้าคำถามถามอาการที่พบได้",
-   "E": "ข้ออื่นผิด จึงไม่ใช่ all of the above · จะถูกถ้าทุกข้อถูก"
+   "A": "Pulsus paradoxus (ความดันลด &gt; 10 mmHg ขณะหายใจเข้า) พบเด่นใน <b>cardiac tamponade</b> พบเพียงราวหนึ่งในสามของ constrictive และ AF ทำให้วัดยากขึ้นไม่ได้ทำให้พบบ่อยขึ้น · จะถูกถ้า (pulsus paradoxus เด่น)เป็นชาย 50 ปีมะเร็งปอด มี pericardial effusion ปริมาณมาก ความดันต่ำ JVP สูง หัวใจเสียงเบา = cardiac tamponade",
+   "B": "หลังผ่าตัดหัวใจเป็นสาเหตุที่พบได้ (~10–30% ในบางชุดข้อมูล) แต่สาเหตุที่พบมากที่สุดในประเทศพัฒนาแล้วคือ idiopathic/ viral (ไฟล์ขีดฆ่าและเขียน \"idiopathic?\") · จะถูกถ้าเป็นชาย 65 ปีที่ทำ CABG เมื่อ 3 ปีก่อน แล้วมีขาบวม ท้องมาน JVP สูง Kussmaul sign โดยไม่มีสาเหตุอื่น (post-cardiotomy constriction)",
+   "C": "ท้องมานและตับโตพบได้มากจาก venous congestion แต่อาการที่พบบ่อยที่สุดคือ<b>เหนื่อยง่าย อ่อนเพลีย และขาบวม</b> ส่วนท้องมานพบตามมา · จะถูกถ้าเป็นหญิง 40 ปีมี Budd–Chiari syndrome ซึ่งอาการเด่นคือท้องโตจากท้องมาน ตับโต ปวดท้องด้านขวาบน โดย JVP ปกติ",
+   "E": "ถูกทุกข้อไม่ได้เพราะช้อย A, B, C ไม่ถูกตามข้อมูลข้างต้น — มีเพียง D ที่ถูก · จะถูกถ้าเป็นคำถามแบบหลายข้อที่ทุกช้อยเป็นลักษณะจริงของภาวะ เช่น ชาย 60 ปีที่มี constrictive pericarditis จากวัณโรค ซึ่งมีทั้ง JVP สูง Kussmaul sign pericardial knock และเยื่อหุ้มหนาบน CT พร้อมกัน"
   },
-  "trap": "จำผิดว่าหลังผ่าตัดหัวใจเป็นสาเหตุอันดับหนึ่ง และสับสน pulsus paradoxus กับ Kussmaul sign",
+  "trap": "คนจำสลับ <b>pulsus paradoxus (tamponade เด่น)</b> กับ <b>Kussmaul sign (constrictive เด่น)</b> · และเห็นท้องมานเด่นในผู้ป่วยตับโตจึงคิดว่าเป็นอาการที่พบมากที่สุด — อาการหลักจริงคือเหนื่อยล้าและบวม",
   "summary": [
-   "อาการ right heart failure: JVP สูง ขาบวม ท้องมาน ตับโต",
-   "Kussmaul sign · pericardial knock",
-   "CXR: หินปูนที่เยื่อหุ้มหัวใจ",
-   "CT/ MRI: pericardium &gt; 4 mm",
-   "Cath: dip-and-plateau (square root sign)",
-   "รักษา: pericardiectomy"
+   "กลไก: เยื่อหุ้มหัวใจหนาแข็ง → diastolic filling ถูกจำกัดเร็วในช่วงต้น diastole แล้วหยุดทันที (dip and plateau) → right-sided heart failure",
+   "สาเหตุ: idiopathic/ viral (มากสุดในประเทศพัฒนาแล้ว), หลังผ่าตัดหัวใจ, หลังฉายรังสีทรวงอก, วัณโรค (สำคัญในไทย), connective tissue disease, uremia",
+   "อาการ/ ตรวจร่างกาย: เหนื่อย อ่อนเพลีย ขาบวม ท้องมาน ตับโต · JVP สูง, Kussmaul sign, prominent y descent, pericardial knock",
+   "Constrictive vs tamponade: constrictive = Kussmaul +, y descent ลึก, knock · tamponade = pulsus paradoxus เด่น, y descent หาย, หัวใจเสียงเบา ความดันต่ำ",
+   "Imaging: CT/ cardiac MRI เยื่อหุ้มหนา &gt; 4 mm ± หินปูน · CXR เห็นหินปูน ~25% · echo septal bounce, respiratory variation mitral E &gt; 25%",
+   "Cath: equalization ของ diastolic pressure ทั้ง 4 ห้อง, dip-and-plateau, discordance ของ LV/ RV systolic pressure กับการหายใจ (แยกจาก restrictive cardiomyopathy)",
+   "รักษา: transient/ inflammatory constriction ลองยาต้านการอักเสบ 2–3 เดือน · chronic → pericardiectomy (mortality 5–10%) · TB ให้ยาต้านวัณโรค"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Constrictive = Kussmaul + Knock + Kalcified · Tamponade = Paradoxus'</b>",
-  "guide": "2025 ESC Guidelines for the Management of Myocarditis and Pericarditis (Eur Heart J 2025)",
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — CT เห็นเยื่อหุ้มหัวใจหนาเป็นข้อที่ถูกแน่นอน ส่วนลายมือในไฟล์แก้สาเหตุเป็น \"idiopathic?\" ตรงตำรา · ข้อสังเกต: ในบริบทไทยวัณโรคเป็นสาเหตุสำคัญ แต่ไม่มีช้อยที่ถามถึง",
+  "mnemonic": "<b>'Constrictive = Kussmaul + Knock + CT หนา · Tamponade = Paradoxus + เสียงเบา'</b>",
+  "guide": "2015 ESC Guidelines for the diagnosis and management of pericardial diseases (Eur Heart J 2015); Braunwald's Heart Disease 12th ed. (2022) ch. Pericardial diseases",
   "variants": [
-   "หลังเป็น TB มีขาบวม JVP สูง Kussmaul sign → constrictive pericarditis → pericardiectomy",
-   "แทงทะลุอก BP ต่ำ JVP สูง เสียงหัวใจเบา → tamponade → pericardiocentesis",
-   "ผู้ป่วยท้องมาน ตับโต แต่ JVP สูง → นึกถึงสาเหตุจากหัวใจ (constrictive)"
+   "ชาย 45 ปี เคยเป็นวัณโรคปอด ขาบวม ท้องมาน JVP สูงขึ้นเมื่อหายใจเข้า CT เยื่อหุ้มหัวใจหนามีหินปูน → constrictive pericarditis รักษาด้วย pericardiectomy",
+   "หญิง 55 ปีมะเร็งเต้านม ความดันต่ำ JVP สูง หัวใจเสียงเบา ความดันลด 15 mmHg ขณะหายใจเข้า → cardiac tamponade ทำ pericardiocentesis",
+   "ทำไม constrictive มี Kussmaul sign → หายใจเข้าเลือดดำไหลกลับมากขึ้นแต่ห้องขวาขยายรับไม่ได้ ความดันจึงสะท้อนกลับขึ้น JVP",
+   "Echo พบ septal bounce และ mitral inflow แปรผันตามการหายใจ &gt; 25% แต่ myocardium ปกติ → สนับสนุน constrictive มากกว่า restrictive cardiomyopathy"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 145 — ตัวพิมพ์: <b>CVT 76-90 · 82. Which is/are true regarding chronic constrictive pericarditis? — A. Pulsus paradoxus is more common in the setting of atrial fibrillation. B. The most common cause of chronic constrictive pericarditis is previous heart surgery. C. Abdominal distension is the most common symptom. D. CT scan demonstrates thickened pericardium. E. All of the above</b><br>ลายมือ: ช้อย B ขีดฆ่า \"previous heart surgery\" เขียน \"idiopathic?\" · ช้อย C เขียน \"pericarditis → venous return↓ → ท้องมาน → portal HTN\" และเครื่องหมาย ! · ขีด D<br>ไฮไลต์: \"true\" · \"chronic constrictive pericarditis\" · D (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 145",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU66|RoA|90": {
-  "interp": "นอกจากยาฆ่าเชื้อใน <b>lung abscess</b> แล้ว ควรรักษาอะไรเพิ่ม",
-  "why": "Lung abscess ส่วนใหญ่ (~80–90%) หายด้วย<b>ยาฆ่าเชื้อ</b> (main treatment) ร่วมกับ <b>chest physiotherapy/ postural drainage</b> ช่วยระบายหนองผ่านหลอดลม · <b>ห้ามใส่ ICD</b> เพราะเป็นโรคของเนื้อปอดไม่ใช่ช่องเยื่อหุ้มปอด (เสี่ยง bronchopleural fistula/ empyema) · ไฟล์ขีด A แปะสไลด์ Treatment <b>\"No ICD !!!\"</b>",
+  "interp": "ผู้ป่วย lung abscess กำลังได้ยาปฏิชีวนะ — ถามการรักษาเสริมที่ควรทำ ต้องรู้ว่า lung abscess เป็นโรคของเนื้อปอด ส่วนใหญ่หายด้วยยาและการระบายหนองผ่านหลอดลม ไม่ใช่ใส่สายระบายช่องเยื่อหุ้มปอด",
+  "why": "Lung abscess ส่วนใหญ่เกิดจาก<b>การสำลัก (aspiration)</b> เชื้อในช่องปากชนิด anaerobe (ผู้ดื่มสุรา ชัก หมดสติ ฟันผุ กลืนลำบาก) → ตำแหน่งที่พบบ่อยคือ <b>posterior segment ของ right upper lobe และ superior segment ของ lower lobe</b> (ส่วนที่ต่ำเมื่อนอนหงาย) · เป็น<b>โรคของเนื้อปอด (parenchymal)</b> ไม่ใช่ pleural space การรักษาหลักคือ<b>ยาปฏิชีวนะนาน 4–6 สัปดาห์หรือจนภาพรังสีดีขึ้น</b> (ampicillin-sulbactam, clindamycin) ซึ่งได้ผล <b>~80–90%</b> · ส่วนเสริมคือช่วยระบายหนองตามธรรมชาติผ่านหลอดลม ได้แก่ <b>chest physiotherapy และ postural drainage</b> (จัดท่าให้ส่วนที่เป็นฝีอยู่สูง) ร่วมกับดูแลฟัน · ถ้าไม่ดีขึ้นใน 7–10 วัน ฝีใหญ่ &gt; 6–8 cm ค่อยพิจารณาระบายผ่านผิวหนัง/ bronchoscopy หรือผ่าตัด (lobectomy) ในรายที่ล้มเหลว เลือดออกมาก หรือสงสัยมะเร็ง · <b>ไม่ใส่ ICD</b> เพราะไม่ใช่ empyema และเสี่ยงหนองไหลเข้าช่องเยื่อหุ้มปอด · ตรงคีย์ A — ไฟล์ขีด A และแปะสไลด์ Treatment ที่เขียน \"<b>No ICD !!! (parenchymal dis. · not pleural disease)</b>\" และ \"<b>± Postural Drainage</b>\" พร้อมลายมือ \"ส่วนมาก conservative ได้ผล\"",
   "wrong": {
-   "B": "Needle aspiration ไม่ใช่การรักษามาตรฐาน · percutaneous drainage ใช้เฉพาะรายไม่ตอบสนองยาและเสี่ยงผ่าตัดสูง · จะถูกถ้าคำถามถามฝีใหญ่ติดผนังอกที่ยาไม่ได้ผลในผู้ป่วยผ่าตัดไม่ได้",
-   "C": "ICD ห้ามใส่ใน lung abscess (เป็นโรคเนื้อปอด) · จะถูกถ้าคำถามถามฝีแตกเข้าช่องเยื่อหุ้มปอดเป็น empyema",
-   "D": "Lobectomy ทำเมื่อยาล้มเหลว: ฝี &gt; 6 cm · ไม่ดีขึ้นหลัง ATB 2 สัปดาห์ · massive hemoptysis · แตกเข้า pleura · สงสัยมะเร็ง · จะถูกถ้าคำถามถาม massive hemoptysis จากฝีในปอด",
-   "E": "การระบายด้วยท่าช่วยให้หายเร็วขึ้น · จะถูกถ้าคำถามถามผู้ป่วยที่ระบายเสมหะเองได้ดีอยู่แล้ว"
+   "B": "การเจาะดูด (percutaneous aspiration/ drainage) ใช้กับฝีที่ไม่ตอบสนองต่อยาหรือใหญ่มาก และเสี่ยง pneumothorax หรือหนองหกเข้าช่องเยื่อหุ้มปอด จึงไม่ใช่การรักษาเสริมพื้นฐาน · จะถูกถ้าเป็นชาย 55 ปี lung abscess ขนาด 8 cm ชิดผนังทรวงอก ได้ยาครบ 2 สัปดาห์ยังมีไข้สูงและก้อนไม่ยุบ",
+   "C": "ICD (intercostal chest drain) ระบายของเหลวในช่องเยื่อหุ้มปอด ซึ่ง lung abscess ไม่ได้อยู่ในช่องนั้น (สไลด์ในไฟล์เขียน \"No ICD !!!\") · จะถูกถ้าเป็นชาย 50 ปีปอดอักเสบแล้วมีน้ำในช่องเยื่อหุ้มปอด เจาะได้หนองหรือ pH &lt; 7.2 = empyema/ complicated parapneumonic effusion",
+   "D": "Lobectomy สงวนไว้สำหรับรายที่ล้มเหลวจากยา มีเลือดออกจากปอดมาก (massive hemoptysis) ฝีใหญ่มาก หรือสงสัยมะเร็งที่อุดหลอดลมเป็นต้นเหตุ — ไม่ใช่ขั้นแรก · จะถูกถ้าเป็นชาย 60 ปีสูบบุหรี่ ฝีในปอดที่ได้ยา 6 สัปดาห์ไม่ดีขึ้น bronchoscopy พบก้อนอุดหลอดลม หรือไอเป็นเลือด &gt; 300 mL/วัน",
+   "E": "\"ไม่ต้องทำเพิ่ม\" ไม่เหมาะ เพราะการระบายหนองทางหลอดลมช่วยให้ฝีหายเร็วขึ้น และต้องหาและแก้สาเหตุการสำลัก (ฟันผุ การกลืน) ร่วมด้วย · จะถูกถ้าเป็นหญิง 30 ปีปอดอักเสบชนิดไม่ซับซ้อนจาก pneumococcus ไม่มีโพรงหนอง ไม่มี effusion ตอบสนองต่อยาดีใน 48 ชม."
   },
-  "trap": "นึกว่าหนองต้องระบายด้วย ICD เหมือน empyema · lung abscess อยู่ในเนื้อปอด ระบายผ่านหลอดลม",
+  "trap": "เห็นคำว่า \"หนอง/ ฝี\" แล้วคิดว่าต้องใส่สายระบาย (ICD) แบบ empyema — ต้องแยก<b>ฝีในเนื้อปอด (ระบายผ่านหลอดลม: postural drainage)</b> ออกจาก<b>หนองในช่องเยื่อหุ้มปอด (ระบายด้วย ICD)</b>",
   "summary": [
-   "สาเหตุ: aspiration (สุรา ชัก ฟันผุ) · anaerobes",
-   "ตำแหน่ง: posterior segment RUL · superior segment RLL",
-   "CXR: โพรงมี air-fluid level",
-   "รักษา: ATB 4–6 สัปดาห์ + postural drainage",
-   "No ICD",
-   "ผ่าตัด: &gt; 6 cm · ไม่ดีขึ้น 2 สัปดาห์ · massive hemoptysis · rupture · R/O CA"
+   "Lung abscess: โพรงหนองในเนื้อปอด &gt; 2 cm มี air-fluid level · ส่วนใหญ่จาก aspiration เชื้อ anaerobe ผสม (Peptostreptococcus, Prevotella, Fusobacterium)",
+   "ปัจจัยเสี่ยง: สุรา ชัก หมดสติ ยาสลบ โรคระบบประสาทที่กลืนลำบาก ฟันผุ/ โรคเหงือก · ตำแหน่ง: posterior segment RUL, superior segment RLL",
+   "อาการ: ไข้ ไอเสมหะเหม็นปริมาณมาก น้ำหนักลด เป็นสัปดาห์ · CXR/ CT โพรงผนังหนามี air-fluid level",
+   "รักษา: ยาปฏิชีวนะ (ampicillin-sulbactam หรือ clindamycin) 4–6 สัปดาห์หรือจนภาพรังสีหายหรือคงที่ · ได้ผล 80–90% · ร่วม chest physiotherapy/ postural drainage",
+   "ระบายเพิ่มเมื่อไม่ดีขึ้น 7–10 วัน หรือฝี &gt; 6–8 cm: CT-guided percutaneous drainage หรือ endoscopic drainage",
+   "ผ่าตัด (lobectomy/ segmentectomy): ล้มเหลวจากยา, massive hemoptysis, สงสัยมะเร็ง, bronchopleural fistula, empyema ที่ระบายไม่ได้",
+   "แยก empyema: น้ำ/หนองในช่องเยื่อหุ้มปอด รูปเลนส์ทำมุมป้านกับผนังอก (split pleura sign) → ICD ± fibrinolytics/ VATS decortication"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Lung abscess: ยา + เคาะ/ จัดท่า · ไม่ใส่ท่อ (No ICD)'</b>",
-  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Lung abscess",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — ตรงสไลด์ที่แปะในไฟล์ \"No ICD !!!\" และ \"± Postural Drainage\" · ข้อสังเกต: สไลด์เองเขียนว่า postural drainage \"ออกได้ ไม่ออกก็ได้\" แปลว่าเป็นการรักษาเสริมที่ไม่จำเป็นทุกราย แต่ในช้อยที่มีเป็นข้อที่เหมาะที่สุด",
+  "mnemonic": "<b>'ฝีในปอดออกทางหลอดลม (Postural) · หนองในช่องอกออกทางสาย (ICD)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) ch. Lung — Infections; Kuhajda I et al. Ann Transl Med 2015 (Lung abscess — etiology, diagnostic and treatment options)",
   "variants": [
-   "ผู้ดื่มสุรา ไข้ ไอเสมหะเหม็น CXR โพรงมี air-fluid level ที่ RLL → ATB + postural drainage",
-   "Lung abscess ไอเป็นเลือด 300 mL/วัน → lobectomy",
-   "Lung abscess แตกเข้า pleura → empyema → ICD"
+   "ชาย 50 ปีดื่มสุรา ไอเสมหะเหม็น 3 สัปดาห์ CXR โพรงมี air-fluid level ที่ RLL superior segment → clindamycin + chest physiotherapy/ postural drainage",
+   "ได้ยา 2 สัปดาห์ ฝียังโต 9 cm ยังไข้ → CT-guided percutaneous drainage",
+   "หลังปอดอักเสบ มีน้ำในช่องเยื่อหุ้มปอด เจาะได้หนอง → ICD (empyema ไม่ใช่ lung abscess)",
+   "ฝีในปอดในผู้สูงอายุสูบบุหรี่ ไม่มีปัจจัยสำลัก → bronchoscopy หา obstructing tumor"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 145 — ตัวพิมพ์: <b>90. นอกจากการให้ ATB ใน lung abscess แล้วควรรักษาอะไรเพิ่มเติม — A. Physiotherapy-postural drainage B. Aspiration C. ICD D. Lobectomy E. -</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"ให้ ATB ใน lung abscess\" · \"รักษาอะไรเพิ่มเติม\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment (ลายมือ \"ส่วนมาก conservative ได้ผล\") — No ICD !!! (parenchymal dis. · not pleural disease) · Antibiotic (Main Tx → Med ผล · ∵ parenchymal Dz) · ± Postural Drainage (ออกได้ ไม่ออกก็ได้) · Segmental resection or Lobectomy · รูปท่า postural drainage แต่ละ segment<br>ที่ปรับในเว็บ: ช้อย E ในไฟล์เป็น - เว็บใส่ None needed",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 145",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU66|RoA|X17": {
-  "interp": "ใน CABG การจับคู่ <b>graft กับ coronary artery</b> แบบใดมีผลต่อ <b>long-term survival</b> มากที่สุด",
-  "why": "<b>LIMA (left internal mammary artery) ต่อกับ LAD</b> มี patency ระยะยาว &gt; 90% ที่ 10 ปี และเป็น graft เดียวที่พิสูจน์ว่า<b>เพิ่มการรอดชีวิตระยะยาว</b> · ไฟล์ไม่มีช้อย ลายมือ <b>\"LAD-LIMA\"</b>",
+  "interp": "ถามการจับคู่ graft กับหลอดเลือดหัวใจใน CABG ที่ส่งผลต่อการรอดชีวิตระยะยาวมากที่สุด — ต้องรู้ patency ของ graft แต่ละชนิดและความสำคัญของ LAD",
+  "why": "<b>LIMA (left internal mammary/ thoracic artery) ต่อกับ LAD</b> เป็นหัวใจของ CABG · LIMA เป็น<b>หลอดเลือดแดงที่ทนต่อ atherosclerosis</b> (เยื่อบุผลิต NO มาก, internal elastic lamina สมบูรณ์) มี <b>patency ราว 90–95% ที่ 10 ปี</b> เทียบกับ saphenous vein graft (SVG) ที่ราว 50–60% ที่ 10 ปี (เกิด intimal hyperplasia และ atherosclerosis เร็ว) · <b>LAD</b> เลี้ยงกล้ามเนื้อหัวใจห้องล่างซ้ายมากที่สุด (ผนังหน้าและ septum ~40–50%) · การศึกษาคลาสสิก (Loop et al., NEJM 1986) พบว่า LIMA-LAD เพิ่มการรอดชีวิต 10 ปีอย่างชัดเจนเมื่อเทียบกับ SVG-LAD จึงเป็น<b>มาตรฐาน (Class I)</b> ในทุก guideline · graft อื่น (radial artery, RIMA) เพิ่มประโยชน์ระยะยาวเมื่อใช้ต่อกับเส้นอื่นที่ตีบมาก · ไฟล์ไม่มีคีย์ตัวพิมพ์และไม่ได้จดช้อย แต่ลายมือเขียนว่า \"<b>LAD-LIMA</b>\" พร้อมแปะสไลด์ ESC/EACTS 2014 ตรงกับคำตอบ A",
   "wrong": {
-   "B": "SVG ต่อ LAD: patency ที่ 10 ปีราว 50–60% ต่ำกว่า LIMA มาก · จะถูกถ้าคำถามถามกรณี LIMA ใช้ไม่ได้ (เช่น subclavian stenosis/ เคยฉายแสงหน้าอก)",
-   "C": "Radial artery ต่อ RCA เป็นทางเลือก graft ที่สองที่ดีกว่า SVG แต่ไม่ใช่คู่ที่มีผลมากที่สุด · จะถูกถ้าคำถามถาม graft ที่สองที่เหมาะสำหรับเส้นที่ตีบรุนแรง",
-   "D": "SVG ต่อ LCX เป็นการต่อทั่วไป แต่ไม่ได้เพิ่ม survival เท่า LIMA–LAD · จะถูกถ้าคำถามถาม graft ทั่วไปสำหรับเส้นที่ไม่ใช่ LAD",
-   "E": "RIMA ต่อ RCA ใช้ได้ (bilateral IMA) แต่ประโยชน์หลักยังมาจาก LIMA–LAD · จะถูกถ้าคำถามถาม bilateral IMA grafting ในผู้ป่วยอายุน้อย"
+   "B": "SVG ต่อ LAD ทำได้เมื่อใช้ LIMA ไม่ได้ แต่ vein graft ตันมากกว่ามาก (เกือบครึ่งที่ 10 ปี) จึงได้ประโยชน์ด้านการรอดชีวิตน้อยกว่า LIMA-LAD · จะถูกถ้าเป็นชาย 70 ปีที่ LIMA ใช้ไม่ได้เพราะ subclavian artery ซ้ายตีบ หรือเคยฉายรังสีทรวงอกซ้ายจน LIMA เสียหาย และต้องผ่าตัดด่วน",
+   "C": "Radial artery มี patency ดีกว่า SVG ต่อกับเส้นที่ตีบรุนแรง (&gt; 70–90%) และเป็น second arterial graft ที่แนะนำ แต่ประโยชน์ระยะยาวยังน้อยกว่าการให้ LIMA ไปเลี้ยง LAD · จะถูกถ้าเป็นชาย 60 ปีที่ทำ LIMA-LAD แล้ว และ RCA ตีบ 95% ต้องการ graft เส้นที่สองเป็นหลอดเลือดแดง (ต้องตรวจ Allen test ให้มือมีเลือดเลี้ยงจาก ulnar พอ)",
+   "D": "SVG ต่อกับ LCX เป็นการต่อที่ทำบ่อยสำหรับเส้นที่ไม่ใช่ LAD แต่ LCX เลี้ยงกล้ามเนื้อน้อยกว่าและ vein ตันเร็ว จึงไม่ใช่คู่ที่ให้ผลรอดชีวิตมากที่สุด · จะถูกถ้าเป็นชาย 75 ปี 3-vessel disease ที่ทำ LIMA-LAD แล้วต้องการ graft ไปยัง obtuse marginal ที่ตีบ และอายุมากจึงเลือก vein เพื่อลดเวลาผ่าตัด",
+   "E": "RIMA เป็นหลอดเลือดแดงคุณภาพดีเท่า LIMA ใช้ทำ bilateral IMA grafting ซึ่งอาจเพิ่มการรอดชีวิตได้ แต่การต่อ RIMA กับ RCA ไม่ได้สำคัญเท่าการต่อ IMA กับ LAD และเพิ่มความเสี่ยงแผลกระดูกอกติดเชื้อในเบาหวาน · จะถูกถ้าเป็นชาย 50 ปีไม่เป็นเบาหวาน ไม่อ้วน ทำ LIMA-LAD แล้วต้องการ graft แดงเส้นที่สองไปยัง RCA ที่ตีบมาก"
   },
-  "trap": "คิดว่า graft ทุกชนิดให้ผลเท่ากัน · หัวใจของ CABG คือ LIMA → LAD",
+  "trap": "Radial และ RIMA เป็น arterial graft เหมือนกันจึงดูน่าเลือก — แต่สิ่งที่ให้ผลรอดชีวิตมากที่สุดคือ<b>การจับคู่ graft ที่ดีที่สุด (LIMA) กับเส้นที่สำคัญที่สุด (LAD)</b> ต้องดูทั้งชนิด graft และหลอดเลือดปลายทาง",
   "summary": [
-   "LIMA–LAD: patency &gt; 90% ที่ 10 ปี · เพิ่ม survival",
-   "SVG: patency ~50–60% ที่ 10 ปี",
-   "Radial artery: graft ที่สองที่ดี (เส้นตีบมาก)",
-   "CABG ดีกว่า PCI: left main · 3-vessel (SYNTAX สูง) · DM",
-   "Heart team ตัดสินใจร่วม",
-   "SYNTAX score ช่วยเลือก CABG vs PCI"
+   "LIMA-LAD: patency ~90–95% ที่ 10 ปี · เป็น graft ที่เพิ่มการรอดชีวิตระยะยาวชัดเจน (Class I ทุก guideline)",
+   "SVG: patency ~80–90% ที่ 1 ปี เหลือ ~50–60% ที่ 10 ปี จาก intimal hyperplasia และ atherosclerosis · ใช้กับเส้นที่ไม่ใช่ LAD",
+   "Radial artery: graft แดงเส้นที่สองที่แนะนำ (Class I ใน ESC/EACTS 2018) สำหรับเส้นที่ตีบ ≥ 70–90% · ต่อเส้นตีบไม่มากจะเกิด competitive flow และตัน",
+   "Bilateral IMA: อาจเพิ่มการรอดชีวิตระยะยาว แต่เสี่ยง sternal wound infection ในเบาหวาน อ้วน COPD — ใช้ skeletonized harvest ลดความเสี่ยง",
+   "ข้อบ่งชี้ CABG มากกว่า PCI: left main ตีบ SYNTAX score สูง, 3-vessel disease (โดยเฉพาะ SYNTAX &gt; 22), เบาหวานร่วม multivessel, LV function ลดลง",
+   "ภาวะแทรกซ้อน CABG: atrial fibrillation (~20–40%), stroke, perioperative MI, sternal wound infection, ไตวาย",
+   "หลังผ่าตัด: aspirin ตลอดชีวิต, high-intensity statin, เลิกบุหรี่ เพื่อรักษา graft patency"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่ได้จดช้อยและไม่มีคีย์ แต่ลายมือ LAD-LIMA ตรงกับคำตอบในเว็บ",
-  "mnemonic": "<b>'LIMA → LAD = Life (survival) graft'</b>",
-  "guide": "2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization (Circulation 2022;145:e18)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีคีย์ตัวพิมพ์และไม่ได้จดช้อย ช้อยในเว็บแต่งตามลายมือ \"LAD-LIMA\" ซึ่งเป็นความรู้ที่ guideline ทุกฉบับยืนยัน (สไลด์ที่แปะเป็น ESC/EACTS 2014 ฉบับใหม่คือ ESC/EACTS 2018 และ ACC/AHA 2021 ซึ่งหลักการเดิม)",
+  "mnemonic": "<b>'LIMA รัก LAD — คู่แท้อยู่ได้ 10 ปี · Vein อยู่ได้ครึ่งเดียว'</b>",
+  "guide": "2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization; 2018 ESC/EACTS Guidelines on Myocardial Revascularization; Loop FD et al. NEJM 1986",
   "variants": [
-   "CABG 3 เส้น → LIMA → LAD + SVG → RCA/ LCX",
-   "เบาหวาน 3-vessel disease SYNTAX สูง → CABG ดีกว่า PCI",
-   "Left main disease → CABG (LIMA → LAD)"
+   "ชาย 62 ปี 3-vessel disease เบาหวาน → CABG: LIMA-LAD + graft เส้นอื่น (radial หรือ SVG) ดีกว่า PCI",
+   "ทำ LIMA-LAD แล้ว RCA ตีบ 95% ต้องการ arterial graft เส้นที่สอง ไม่เป็นเบาหวาน → radial artery (ตรวจ Allen test ก่อน)",
+   "ทำไม SVG ตันเร็วกว่า LIMA → ผนังเส้นเลือดดำรับความดันแดงเกิด intimal hyperplasia และ atherosclerosis เร็ว",
+   "หญิง 70 ปีอ้วนมาก เบาหวานคุมไม่ดี → หลีกเลี่ยง bilateral IMA เพราะเสี่ยงแผลกระดูกอกติดเชื้อ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 145 — ตัวพิมพ์: <b>การทำ CABG ในข้อใดมีผลต่อ long term survival มากที่สุด ตัวเลือก จับคู่เส้นเลือดที่เป็น graft กับ coronary artery</b> (ไม่มีเลขข้อ · ไม่ได้จดช้อย)<br>ลายมือ: \"LAD-LIMA\"<br>ไฮไลต์: \"CABG\" · \"มีผลต่อ long term survival มากที่สุด\" · \"จับคู่เส้นเลือดที่เป็น graft กับ coronary artery\" (เหลือง)<br>รูปที่แปะ: สไลด์ Recommendation for CABG/PCI in Stable CAD with anatomy suitable for both procedures (2014 ESC/EACTS Guidelines on myocardial revascularization) พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: ไฟล์ไม่มีช้อย เว็บแต่งช้อย A–E เป็นคู่ graft กับ coronary artery",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 145",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU66|RoA|X18": {
-  "interp": "หญิง 44 ปี เหนื่อย นอนราบไม่ได้ (heart failure) echo: <b>severe MR + mild MS + severe TR</b> ถามการรักษา",
-  "why": "MR ร่วมกับ MS แสดงว่าเป็น <b>rheumatic mitral valve disease</b> ลิ้นหนา แข็ง ซ่อมได้ผลไม่ทน → <b>mitral valve replacement</b> · severe TR ที่เป็นผลตามมา (functional) ให้<b>ซ่อม (tricuspid annuloplasty)</b> พร้อมกัน · ไฟล์ขีด D ลายมือ <b>\"almost always จาก rheumatic fever ∴ replacement\"</b> และ <b>\"repair\"</b>",
+  "interp": "หญิงอายุ 44 ปีมีอาการหัวใจล้มเหลว (นอนราบไม่ได้) จาก severe MR ร่วม mild MS และ severe TR — ลักษณะ MR ที่มี MS ร่วมบ่งชี้ rheumatic mitral disease ถามการผ่าตัดที่เหมาะสมของลิ้น mitral และ tricuspid",
+  "why": "MS ในผู้ใหญ่<b>เกือบทั้งหมดเกิดจาก rheumatic heart disease</b> ดังนั้น MR ที่มี MS ร่วม = <b>rheumatic mixed mitral disease</b> ลิ้นหนา แข็ง มีหินปูน chordae หดสั้นรวมกัน → <b>ซ่อม (repair) ได้ผลไม่ทนนาน มักต้องเปลี่ยนลิ้น (mitral valve replacement)</b> ต่างจาก degenerative MR (prolapse/ flail) ซึ่งซ่อมได้ดีกว่าการเปลี่ยน · มีอาการหัวใจล้มเหลว (NYHA III) ร่วม severe MR → <b>ข้อบ่งชี้ผ่าตัด Class I</b> · <b>Severe TR</b> ส่วนใหญ่เป็น <b>functional (secondary)</b> จาก pulmonary hypertension และ RV/ annulus ขยาย ลิ้นเองปกติ → แนะนำ<b>ซ่อมด้วย ring annuloplasty</b> ขณะผ่าตัด mitral (Class I สำหรับ severe TR) ไม่ต้องเปลี่ยนลิ้น เพราะการเปลี่ยน tricuspid มีอัตราเสียชีวิตสูงกว่าและลิ้นเทียมฝั่งขวาเกิด thrombosis ได้ · ตรงคีย์ D — ไฟล์ขีด D เขียนลายมือเหนือ mild MS ว่า \"<b>almost always จาก rheumatic fever ∴ replacement ∴ process ไม่ดี</b>\" และ \"<b>repair</b>\" ที่ tricuspid พร้อม \"FC III↑\" ที่ช้อย D",
   "wrong": {
-   "A": "ยารักษาอาการได้ชั่วคราว แต่ severe MR มีอาการ heart failure ต้องผ่าตัด · จะถูกถ้าคำถามถามผู้ป่วยไม่มีอาการ ventricle ทำงานดี",
-   "B": "Balloon valvotomy ห้ามทำเมื่อมี MR ปานกลาง–รุนแรง (ลายมือ \"MR ห้ามทำ\") · จะถูกถ้าคำถามถาม pure MS ลิ้นยืดหยุ่นไม่มีลิ่มเลือดใน LA",
-   "C": "เปลี่ยน tricuspid ไม่จำเป็น functional TR ซ่อมด้วย annuloplasty ได้ผลดี · จะถูกถ้าคำถามถาม tricuspid ลิ้นเสียโครงสร้างจาก endocarditis/ rheumatic ที่ซ่อมไม่ได้",
-   "E": "ซ่อม mitral เหมาะกับ degenerative MR (prolapse) · rheumatic ร่วม MS ซ่อมได้ผลไม่ทน · จะถูกถ้าคำถามถาม MR จาก mitral valve prolapse"
+   "A": "ยา (diuretic, ควบคุมอัตราหัวใจ) บรรเทาอาการได้ แต่ไม่แก้ปัญหาลิ้นรั่วรุนแรง เมื่อมีอาการแล้วการรอยาอย่างเดียวทำให้ LV เสื่อมถาวร · จะถูกถ้าเป็นหญิง 44 ปีที่มี moderate MR ไม่มีอาการ LV ขนาดและ EF ปกติ ติดตาม echo ทุก 1–2 ปี",
+   "B": "Balloon valvotomy (PBMV) ใช้ขยาย MS ที่ลิ้นยังยืดหยุ่น — <b>ห้ามทำเมื่อมี MR ตั้งแต่ moderate ขึ้นไป</b> เพราะทำให้รั่วมากขึ้น (ไฟล์เขียน \"MR ห้ามทำ\") และ MS ราย&#8203;นี้เป็นแค่ mild · จะถูกถ้าเป็นหญิง 30 ปีตั้งครรภ์ severe MS (MVA &lt; 1.5 cm²) เหนื่อยมาก MR ไม่เกิน mild ไม่มี clot ใน left atrium Wilkins score ≤ 8",
+   "C": "เปลี่ยน mitral ถูก แต่การ<b>เปลี่ยน tricuspid</b>ไม่จำเป็นสำหรับ functional TR ที่ลิ้นปกติ (ซ่อมด้วย ring ได้ผลดี) และการเปลี่ยนลิ้นฝั่งขวามีความเสี่ยงสูงกว่า · จะถูกถ้าเป็นหญิง 35 ปีมี tricuspid valve endocarditis จากการฉีดยาเข้าเส้น ลิ้นถูกทำลายจนซ่อมไม่ได้ร่วมกับ mitral ที่เสียหายด้วย",
+   "E": "ซ่อม tricuspid ถูก แต่การ<b>ซ่อม mitral</b>ในลิ้น rheumatic ที่หนาแข็งและมี MS ร่วม ผลระยะยาวไม่ดี กลับมารั่วซ้ำบ่อย จึงมักเลือกเปลี่ยน · จะถูกถ้าเป็นชาย 55 ปีมี severe MR จาก mitral valve prolapse ของ posterior leaflet (degenerative) ร่วม functional TR"
   },
-  "trap": "จำว่า repair ดีกว่า replacement เสมอใน MR · ข้อนี้ใช้ได้กับ degenerative MR ไม่ใช่ rheumatic ที่มี MS ร่วม",
+  "trap": "หลัก \"ซ่อมดีกว่าเปลี่ยน\" ใช้กับ <b>degenerative MR</b> — คนเลยตอบซ่อมทั้งสองลิ้น · ต้องจับคำว่า <b>MS ร่วม = rheumatic</b> ลิ้นเสียจากกระบวนการอักเสบ ซ่อมแล้วไม่ทน → เปลี่ยน mitral ส่วน TR มักเป็น functional → ซ่อม",
   "summary": [
-   "MR + MS ร่วมกัน → rheumatic",
-   "Degenerative MR (MVP/ Barlow) → repair",
-   "Rheumatic mixed disease → replacement",
-   "Severe TR ขณะผ่าตัดลิ้นซ้าย → tricuspid repair (annuloplasty)",
-   "Pure MS ลิ้นเหมาะสม → PBMV",
-   "PBMV ห้าม: MR ≥ moderate · LA thrombus · หินปูนมาก"
+   "Mitral stenosis ในผู้ใหญ่เกือบทั้งหมดจาก rheumatic heart disease (พบบ่อยในไทย) · มักมี MR ร่วม (mixed mitral disease) และ TR functional ตามมา",
+   "MR primary (degenerative: prolapse, flail, Barlow) → repair ดีกว่า replacement · MR rheumatic → replacement บ่อยกว่าเพราะลิ้นหนาแข็ง หดรั้ง",
+   "ข้อบ่งชี้ผ่าตัด severe primary MR: มีอาการ หรือไม่มีอาการแต่ LVEF ≤ 60% หรือ LVESD ≥ 40 mm (Class I) · AF ใหม่/ PASP &gt; 50 mmHg เป็นข้อบ่งชี้เพิ่ม",
+   "TR: functional (secondary) ~80–90% จาก PHT, left-sided valve disease → ring annuloplasty ขณะผ่าตัดลิ้นซ้าย ถ้า TR severe (Class I) หรือ annulus ขยาย ≥ 40 mm",
+   "PBMV: severe MS ลิ้นยืดหยุ่น Wilkins score ≤ 8 · ข้อห้าม: MR ≥ moderate, LA thrombus, หินปูนมากหรือที่ commissure",
+   "ลิ้นเทียม: mechanical (ทนนาน ต้อง warfarin ตลอดชีวิต INR 2.5–3.5 ที่ mitral) · bioprosthetic (ไม่ต้อง warfarin ระยะยาว เสื่อมใน 10–15 ปี) — หญิงวัยเจริญพันธุ์ต้องคุยเรื่องตั้งครรภ์",
+   "Rheumatic heart disease ต้องให้ secondary prophylaxis (benzathine penicillin ทุก 3–4 สัปดาห์) และป้องกัน endocarditis"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Rheumatic = Replace · Degenerative = Do repair · TR = Ring (annuloplasty)'</b>",
-  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72)",
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจปานกลางถึงสูง — ตรงลายมือในไฟล์ว่า rheumatic → replacement และ tricuspid → repair ซึ่งเป็นแนวปฏิบัติทั่วไปในไทย · ข้อสังเกต: ศูนย์ที่ชำนาญบางแห่งพยายามซ่อม rheumatic mitral ในผู้ป่วยอายุน้อยเพื่อเลี่ยง warfarin แต่ผลระยะยาวยังด้อยกว่า และโจทย์ไม่ได้ให้รายละเอียดลิ้นมากพอ",
+  "mnemonic": "<b>'MS มาด้วย = Rheumatic = Replace Mitral · TR ตามมา = Ring Repair'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Valvular Heart Disease; 2021 ESC/EACTS Guidelines for the management of valvular heart disease",
   "variants": [
-   "Severe MR จาก mitral valve prolapse มีอาการ → mitral valve repair",
-   "Pure MS ลิ้นยืดหยุ่น ไม่มี LA thrombus → PBMV",
-   "ผ่าตัด MVR + severe TR → tricuspid annuloplasty พร้อมกัน"
+   "ชาย 55 ปี severe MR จาก flail posterior leaflet เหนื่อย NYHA II → mitral valve repair",
+   "หญิง 28 ปี severe MS MVA 1.0 cm² MR trace ไม่มี LA thrombus ลิ้นยืดหยุ่น → percutaneous balloon mitral valvotomy",
+   "ผ่าตัดเปลี่ยน mitral แล้วพบ tricuspid annulus 45 mm แม้ TR เป็น moderate → ทำ tricuspid ring annuloplasty ร่วมด้วย",
+   "ทำไม rheumatic mitral ซ่อมแล้วไม่ทน → กระบวนการอักเสบยังดำเนินต่อ ลิ้นหนา หดรั้ง และเกิดหินปูนเพิ่ม"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 145 — ตัวพิมพ์: <b>หญิง 44 ปี แน่นท้อง นอนราบไม่ได้ ทำ echocardiogram พบเป็น severe mitral regurgitation, mild mitral stenosis, severe tricuspid regurgitation ควรรักษาอย่างไร — A. ใช้ยา B. ทำบอลลูน C. เปลี่ยน mitral, เปลี่ยน tricuspid D. เปลี่ยน mitral, ซ่อม tricuspid E. ซ่อม mitral, ซ่อม tricuspid</b> (ไม่มีเลขข้อ)<br>ลายมือ: \"almost always จาก rheumatic fever ∴ replacement ∴ process ไม่ดี\" เหนือ mild mitral stenosis · \"repair\" ที่ tricuspid · ช้อย B เขียน \"MR ห้ามทำ\" · \"FC III↑\" ที่ช้อย D · \"FC II\" ที่ช้อย E · ขีด D<br>ไฮไลต์: \"หญิง 44 ปี\" · \"echocardiogram พบเป็น severe mitral regurgitation, mild mitral stenosis, severe tricuspid regurgitation\" · D (เหลือง)<br>รูปที่แปะ: สไลด์ MITRAL REGURGITATION — Repair is better outcome than replacement · MV REPAIR TECHNIQUE: Neochordae · Triangular Resection · Quadrangular Resection",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 145",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU66|RoA|X19": {
-  "interp": "ถามทางเลือกการรักษา <b>mitral stenosis ที่ไม่มี mitral regurgitation</b>",
-  "why": "Pure MS (เกือบทั้งหมดจาก rheumatic) รักษาได้ทุกแบบตามความรุนแรง: <b>ยา</b> (diuretic, rate control/ digitalis, anticoagulant ถ้ามี AF) · <b>PBMV</b> (ลิ้นเหมาะสม ไม่มี MR/ LA thrombus) · <b>open mitral commissurotomy</b> · <b>valve replacement</b> (ลิ้นหินปูนมาก/ ซ่อมไม่ได้) → ถูกทุกข้อ · ไฟล์ขีด E ลายมือ <b>\"almost always จาก rheumatic fever\"</b>",
+  "interp": "ถามทางเลือกการรักษา mitral stenosis ที่ไม่มี MR ร่วม — ต้องรู้ว่ามีตั้งแต่ยาบรรเทาอาการ บอลลูน การผ่าขยายลิ้น จนถึงเปลี่ยนลิ้น โดยเลือกตามความรุนแรงและสภาพลิ้น",
+  "why": "MS ส่วนใหญ่จาก <b>rheumatic heart disease</b> ลิ้นหนา commissure เชื่อมติดกัน · ทางเลือกการรักษามีครบทุกข้อ ขึ้นกับระยะ: <b>(1) ยา</b> — diuretic ลดน้ำท่วมปอด, beta-blocker/ ควบคุมอัตราหัวใจเพื่อยืดเวลา diastole (ไฟล์เขียน furosemide, digitalis), warfarin เมื่อมี AF หรือ LA thrombus · <b>(2) Percutaneous balloon mitral valvotomy (PBMV)</b> — การรักษาแรกของ <b>severe MS (MVA ≤ 1.5 cm²) ที่มีอาการ</b> ลิ้นยืดหยุ่น <b>Wilkins score ≤ 8</b> ไม่มี MR ≥ moderate ไม่มี LA thrombus · <b>(3) Open mitral commissurotomy</b> — ผ่าตัดแยก commissure ภายใต้ bypass ใช้เมื่อทำ PBMV ไม่ได้แต่ลิ้นยังซ่อมได้ · <b>(4) Mitral valve replacement</b> — ลิ้นหนามีหินปูนมาก ซ่อม/ บอลลูนไม่ได้ หรือมี MR ร่วม · การมี \"without MR\" ทำให้ทางเลือกทุกอย่างรวมบอลลูนเป็นไปได้ · ตรงคีย์ E — ไฟล์ขีด E และเขียนลายมือทุกช้อย: A \"<b>→ furosemide, digitalis</b>\" · B \"<b>→ PBMV</b>\" · C \"<b>ถ้า FC III</b>\" · D \"<b>ถ้า FC II</b>\"",
   "wrong": {
-   "A": "ถูกแต่ไม่ครบ ยาเป็นเพียงทางเลือกหนึ่ง (ลายมือ \"→ furosemide, digitalis\") · จะถูกถ้าคำถามถามการรักษาเบื้องต้นใน MS ไม่รุนแรง",
-   "B": "ถูกแต่ไม่ครบ PBMV เป็นทางเลือกแรกเมื่อลิ้นเหมาะสม (ลายมือ \"→ PBMV: percutaneous balloon mitral valvotomy\") · จะถูกถ้าคำถามถามการรักษาที่เหมาะที่สุดใน MS ลิ้นยืดหยุ่น",
-   "C": "ถูกแต่ไม่ครบ (ลายมือ \"ถ้า FC III\") · จะถูกถ้าคำถามถาม MS ลิ้นหินปูนมาก ทำ PBMV ไม่ได้",
-   "D": "ถูกแต่ไม่ครบ (ลายมือ \"ถ้า FC II\") · จะถูกถ้าคำถามถาม MS ที่มี LA thrombus ทำ PBMV ไม่ได้แต่ลิ้นยังซ่อมได้"
+   "A": "ยาเป็นทางเลือกจริงในระยะไม่รุนแรงหรือเพื่อบรรเทาอาการ แต่ไม่แก้การตีบของลิ้น จึงเป็นเพียงหนึ่งในหลายทางเลือก · จะถูกถ้า (เป็นคำตอบเดียว)เป็นหญิง 40 ปีมี mild MS (MVA 1.8 cm²) ไม่มีอาการ sinus rhythm ซึ่งให้แค่ติดตาม echo และใช้ยาเมื่อมีอาการ",
+   "B": "PBMV เป็นการรักษาแรกที่ดีที่สุดของ severe MS ที่มีอาการและลิ้นเหมาะ แต่ไม่ใช่ทางเลือกเดียว · จะถูกถ้า (เป็นคำตอบเดียว)เป็นหญิง 28 ปีตั้งครรภ์ 24 สัปดาห์ severe MS เหนื่อยมากแม้ได้ยา Wilkins score 7 ไม่มี MR ไม่มี LA thrombus",
+   "C": "เปลี่ยนลิ้นเป็นทางเลือกเมื่อลิ้นเสียมาก แต่ไม่ใช่ทุกราย (ลิ้นยืดหยุ่นควรเลือกบอลลูนก่อนเพื่อเลี่ยงลิ้นเทียม) · จะถูกถ้า (เป็นคำตอบเดียว)เป็นชาย 60 ปี severe MS ลิ้นมีหินปูนหนามาก Wilkins score 13 ร่วม moderate MR NYHA III",
+   "D": "Open commissurotomy เป็นทางเลือกเมื่อทำบอลลูนไม่ได้ (เช่นมี LA thrombus) แต่ลิ้นยังดีพอซ่อม — ปัจจุบันใช้น้อยลงมาก · จะถูกถ้า (เป็นคำตอบเดียว)เป็นหญิง 35 ปี severe MS ลิ้นยืดหยุ่นแต่มี thrombus ใน left atrial appendage ที่ไม่ละลายหลังให้ warfarin 3 เดือน"
   },
-  "trap": "เลือกวิธีเดียวที่คุ้นเคย (balloon) ทั้งที่คำถามถามทางเลือกทั้งหมด",
+  "trap": "คนคิดว่าบอลลูนคือคำตอบเดียวของ MS และตัดตัวเลือกอื่น — คำถามถาม \"treatment options\" ซึ่งรวม<b>ทุกระดับตั้งแต่ยาถึงเปลี่ยนลิ้น</b> · คำว่า \"without MR\" คือข้อมูลที่บอกว่าบอลลูนยังทำได้ ไม่ได้ตัดทางเลือกอื่น",
   "summary": [
-   "MS เกือบทั้งหมดจาก rheumatic fever",
-   "อาการ: เหนื่อย AF stroke ไอเป็นเลือด",
-   "ยา: diuretic · rate control · anticoagulant (AF)",
-   "PBMV: ลิ้นเหมาะสม (Wilkins ≤ 8) ไม่มี MR/ LA thrombus",
-   "OMC/ MVR: ทำ PBMV ไม่ได้",
-   "MVA &lt; 1.5 cm² = severe MS"
+   "MS: ปกติ MVA 4–6 cm² · severe ≤ 1.5 cm² · very severe ≤ 1.0 cm² · mean gradient &gt; 5–10 mmHg ที่อัตราหัวใจปกติ",
+   "อาการ: เหนื่อย นอนราบไม่ได้ ไอเป็นเลือด AF (LA โต) stroke จาก LA thrombus · เสียง loud S1, opening snap, mid-diastolic rumble",
+   "ยา: diuretic ลด congestion · beta-blocker/ CCB/ digoxin ควบคุมอัตรา (ยืด diastole) · warfarin เมื่อ AF, LA thrombus หรือเคย embolism (ไม่ใช้ DOAC ใน rheumatic MS)",
+   "PBMV: ทางเลือกแรกของ severe MS มีอาการ ลิ้นเหมาะ (Wilkins ≤ 8: mobility, thickening, calcification, subvalvular แต่ละ 1–4) · ข้อห้าม LA thrombus, MR ≥ moderate",
+   "Surgical: open commissurotomy (ลิ้นยังซ่อมได้แต่ PBMV ไม่ได้) · mitral valve replacement (ลิ้นหินปูนมาก, MR ร่วม, ทำ PBMV ไม่ได้)",
+   "ตั้งครรภ์: blood volume เพิ่ม ~50% ทำให้ MS แย่ลงมาก → PBMV ทำได้ช่วงไตรมาสที่ 2 ถ้ายาไม่ได้ผล",
+   "Rheumatic: benzathine penicillin G secondary prophylaxis ทุก 3–4 สัปดาห์ ระยะเวลาขึ้นกับความรุนแรง (ถึงอายุ 40 ปีหรือตลอดชีวิตในรายรุนแรง)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'MS: ยา → Balloon → เปิดซ่อม → เปลี่ยน (ไล่ตามความรุนแรงและลักษณะลิ้น)'</b>",
-  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72)",
+  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจปานกลางถึงสูง — ทุกช้อยเป็นทางเลือกจริงของ MS ตามระยะและสภาพลิ้น ตรงลายมือในไฟล์ที่เขียนข้อบ่งชี้ไว้ทุกช้อย · ข้อต่าง: ลายมือในไฟล์ผูก open commissurotomy กับ FC II และ replacement กับ FC III ซึ่งในแนวทางปัจจุบันการเลือกขึ้นกับสภาพลิ้นและความเหมาะกับบอลลูนมากกว่า NYHA class",
+  "mnemonic": "<b>'MS 4 ขั้น: ยา → บอลลูน → ผ่าแยก → เปลี่ยน (ตามสภาพลิ้น)'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Valvular Heart Disease; 2021 ESC/EACTS Guidelines for the management of valvular heart disease",
   "variants": [
-   "หญิง 30 ปี severe MS ลิ้นยืดหยุ่น ไม่มี MR → PBMV",
-   "Severe MS มี LA thrombus → MVR/ OMC",
-   "MS + AF → warfarin (ไม่ใช้ DOAC)"
+   "หญิง 32 ปี severe MS MVA 1.1 cm² เหนื่อยขึ้นบันไดชั้นเดียว Wilkins 6 ไม่มี MR → PBMV",
+   "หญิง 50 ปี severe MS ลิ้นหินปูนหนา Wilkins 12 ร่วม moderate MR → mitral valve replacement",
+   "หญิง 45 ปี MS ร่วม AF ใหม่ → warfarin (เป้า INR 2–3) ไม่ใช้ DOAC",
+   "ทำไมควบคุมอัตราหัวใจช่วยใน MS → เพิ่มเวลา diastole ให้เลือดไหลผ่านลิ้นตีบได้มากขึ้น ลด LA pressure"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 145 — ตัวพิมพ์: <b>mitral stenosis, without mitral regurgitation — A. drug B. balloon C. replace valve D. open mitral commisurotomy E. ถูกทุกข้อ</b> (ไม่มีเลขข้อ)<br>ลายมือ: \"almost always จาก rheumatic fever\" เหนือ mitral stenosis · ช้อย A \"→ furosemide, digitalis\" · ช้อย B \"→ PBMV: percutaneous balloon mitral valvotomy\" · ช้อย C \"ถ้า FC III\" · ช้อย D \"ถ้า FC II\" · ขีด E<br>ไฮไลต์: \"mitral stenosis\" · A B C D (เหลือง)<br>รูปที่แปะ: รูปลิ้นหัวใจ — Normal · Mitral Valve Prolapse (MVP) non-degenerative · Barlow's Disease · Mitral Stenosis (ลายมือ \"→ Tx: valve replacement · almost always จาก rheumatic fever\") · สไลด์ AORTIC STENOSIS พร้อมรูปลิ้นหัวใจจริง<br>ที่ปรับในเว็บ: แก้สะกด commisurotomy เป็น commissurotomy",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 145",
