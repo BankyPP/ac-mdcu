@@ -1,230 +1,399 @@
 {
  "MDCU70|RoC|21": {
-  "interp": "ผู้สูงอายุเคยเป็นมะเร็งปอด มีอาการทางระบบประสาทใหม่ + ก้อน ring-enhancing ขอบไม่เรียบ บวมรอบมาก → ถามการวินิจฉัย",
-  "why": "<b>คีย์ (P'Ing แก้): lung metastasis · irregular ring = metastasis · smooth ring = abscess</b><br><b>นอกสไลด์:</b> metastasis เป็นเนื้องอกในสมองที่พบบ่อยที่สุดในผู้ใหญ่ (ปอดมากที่สุด รองลงมาเต้านมและ melanoma) มักอยู่ที่รอยต่อ gray–white และมี vasogenic edema มากเกินขนาดก้อน",
+  "interp": "ผู้สูงอายุ<b>มีประวัติมะเร็งปอด</b> มีอาการทางประสาทใหม่ ภาพพบ<b>รอยโรค ring-enhancing ขอบไม่เรียบ + สมองบวมรอบมาก</b> → ถามวินิจฉัย",
+  "why": "ผู้ป่วยมะเร็ง (โดยเฉพาะ<b>ปอด</b> เต้านม melanoma ไต ลำไส้) ที่มีรอยโรคในสมอง = <b>brain metastasis</b> จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ลักษณะ: มักหลายก้อน ที่รอยต่อเนื้อเทา-ขาว <b>ring enhancement ขอบหนาไม่สม่ำเสมอ</b> + <b>vasogenic edema มากเกินขนาดก้อน</b> · ต่างจากฝี (ขอบเรียบบาง DWI restriction) · รักษา: dexamethasone ลดบวม, ก้อนเดี่ยว/ น้อย → ผ่าตัด/ SRS, หลายก้อน → SRS/ WBRT ± ยาเฉพาะ (targeted) · ไฟล์ผู้จดเขียน \"ans: schwannoma\" แต่ P'Ing แก้เป็น <b>\"Ans : lung metastasis\"</b> พร้อมลายมือ <b>\"irregular ring : metas · smooth ring : abscess\"</b>",
   "wrong": {
-   "B": "ผู้จดเดิมตอบข้อนี้ — <b>นอกสไลด์:</b> จะถูกถ้าก้อน enhance ที่มุม cerebellopontine รูปไอติมยื่นเข้า internal auditory canal ร่วมหูข้างเดียวเสียแบบประสาท",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนนอกเนื้อสมองฐานกว้างติด dura enhance สม่ำเสมอ มี dural tail และบวมรอบน้อย",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อน popcorn ล้อมวง hemosiderin สีดำ ไม่มีบวมรอบ ไม่ enhance เป็นวง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนใน sella ยื่นขึ้นเป็นรูปเอว (snowman) กด optic chiasm"
+   "B": "Vestibular schwannoma อยู่ที่ CPA/ IAC enhance เข้ม ไม่มีสมองบวมรอบมาก อาการคือหูไม่ได้ยิน (คำตอบที่ผู้จดเขียนเดิม) · จะถูกถ้าผู้ป่วยหูไม่ได้ยินข้างเดียว MRI ก้อนที่ CPA ยื่นเข้า IAC",
+   "C": "Meningioma เป็นก้อนนอกเนื้อสมอง enhance สม่ำเสมอ มี dural tail ไม่ใช่ ring · จะถูกถ้าหญิงวัยกลางคน MRI ก้อน extra-axial enhance สม่ำเสมอ dural tail",
+   "D": "Cavernoma เป็น popcorn + hemosiderin rim ไม่ enhance แบบ ring บวมน้อย · จะถูกถ้า MRI พบ popcorn lesion blooming บน SWI",
+   "E": "Pituitary adenoma อยู่ใน sella อาการตาและฮอร์โมน · จะถูกถ้าผู้ป่วยตามัวด้านข้างสองตา MRI ก้อนใน sella"
   },
-  "trap": "GBM ก็ ring ขอบหนาไม่เรียบได้ แต่ประวัติมะเร็งปอดทำให้ metastasis มาก่อน · ก้อนเดียวไม่ได้ตัด metastasis (ราว 1/3–1/2 เป็นก้อนเดียว)",
+  "trap": "ตอบตามที่ผู้จดเขียน (schwannoma) — ประวัติมะเร็งปอด + ring ขอบไม่เรียบ + บวมมาก = metastasis",
   "summary": [
-   "<b>นอกสไลด์:</b> แยกฝี: ขอบบางเรียบ + DWI จำกัดการแพร่ตรงกลาง (เนื้องอกที่ตายตรงกลางมักไม่จำกัด) · metastasis: ขอบหนาไม่เรียบ บวมรอบมากเกินขนาดก้อน"
+   "Brain metastasis: เนื้องอกสมองในผู้ใหญ่ที่พบบ่อยที่สุด",
+   "ต้นกำเนิด: ปอด > เต้านม > melanoma > ไต > ลำไส้",
+   "ภาพ: หลายก้อน · grey-white junction · ring ขอบไม่เรียบ · บวมมาก",
+   "ฝี: ring ขอบเรียบบาง · DWI restriction ในโพรง",
+   "Dexamethasone ลดบวม",
+   "เดี่ยว/ น้อย → ผ่าตัด/ SRS · หลายก้อน → SRS/ WBRT"
   ],
-  "opinion": "เห็นด้วยกับคีย์ที่ P'Ing แก้ (lung metastasis) ไม่ใช่คำตอบที่ผู้จดเดิม (schwannoma) · มั่นใจสูง",
+  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับที่ P'Ing แก้ในไฟล์ (lung metastasis) แทนคำตอบเดิมของผู้จด (schwannoma) · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
+  "mnemonic": "<b>'Ring ขรุขระ = Metas · Ring เรียบ = Abscess'</b>",
+  "guide": "ASCO-SNO-ASTRO Guideline: Treatment for Brain Metastases (J Clin Oncol 2022;40:492); EANO-ESMO Clinical Practice Guidelines for Brain Metastases (Ann Oncol 2021;32:1332)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยไม่มีประวัติมะเร็ง ก้อน ring เดียวขอบหนาไม่เรียบ ลามข้าม corpus callosum (butterfly) → glioblastoma",
-   "<b>นอกสไลด์:</b> ผู้ป่วย melanoma ก้อนในสมองหลายก้อนมีเลือดออกในก้อน → hemorrhagic metastasis (melanoma, ไต, thyroid, choriocarcinoma)"
+   "ผู้ป่วยมะเร็งเต้านม ก้อนในสมอง 3 ก้อน ขนาด &lt; 3 cm → SRS",
+   "ผู้ป่วยไข้ ring-enhancing ขอบเรียบ DWI restriction → brain abscess",
+   "ผู้ป่วยมะเร็งปอด ก้อนเดี่ยวในสมอง 4 cm กดเบียด → ผ่าตัด + รังสี"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 14 — ตัวพิมพ์: <b>21. Elderly with Hx of lung cancer presented with neurodeficit(s)/ imaging: CT, MRI T1+T2+FLAIR showed +- irregular ring enhancing lesion with perilesional edema ans: schwannoma</b><br>ลายมือ: \"irregular ring : metas · smooth ring : abscess\" · \"/ Ans : lung metastasis\" ต่อท้าย \"ans: schwannoma\"<br>ไฮไลต์: \"Elderly with\" · \"Hx of lung cancer\" (เหลือง) · \"neurodeficit(s)\" · \"irregular ring enhancing lesion with perilesional edema\" (เหลือง)<br>ที่ปรับในเว็บ: ใช้คำตอบที่ P'Ing แก้ (lung metastasis) · ไม่มีช้อย → แต่งช้อย A–E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 14",
+  "kimg": [
+   "fsp_p14",
+   "kp70c_21"
   ]
  },
  "MDCU70|RoC|22": {
-  "interp": "ผู้ป่วยภูมิคุ้มกันบกพร่อง (+ เบาหวานคุมไม่ดี) อาการทางระบบประสาทแย่ลง 3 สัปดาห์ + ก้อน ring-enhancing หลายก้อนที่ basal ganglia → ถามการวินิจฉัย",
-  "why": "<b>คีย์: toxoplasmosis · ลายมือ immunocompromised</b><br><b>นอกสไลด์:</b> toxoplasmosis เป็นก้อนในสมองที่พบบ่อยที่สุดในผู้ป่วย HIV ที่ CD4 &lt; 100 (reactivation ของเชื้อที่ติดมาก่อน) ลักษณะเด่นคือหลายก้อน ring-enhancing ที่ basal ganglia และรอยต่อ gray–white อาจเห็น eccentric target sign",
+  "interp": "ผู้ป่วย<b>ภูมิคุ้มกันต่ำ</b> (เบาหวานคุมไม่ดี) มีอาการทางประสาท 3 สัปดาห์ ภาพพบ<b>ring-enhancing หลายก้อนที่ basal ganglia</b> → ถามวินิจฉัย",
+  "why": "รอยโรค ring-enhancing <b>หลายก้อน</b> โดยเฉพาะที่ <b>basal ganglia</b> และรอยต่อเนื้อเทา-ขาว ในผู้ป่วย<b>ภูมิคุ้มกันต่ำ</b> = <b>cerebral toxoplasmosis</b> (Toxoplasma gondii กลับมากำเริบ) ซึ่งพบบ่อยที่สุดใน HIV ที่ CD4 &lt; 100 · อาการ: ปวดหัว สับสน ไข้ อ่อนแรงครึ่งซีก ชัก ดำเนินหลายวัน–สัปดาห์ · Toxoplasma IgG บวก · รักษาด้วย <b>pyrimethamine + sulfadiazine + leucovorin</b> แล้วดูภาพซ้ำใน 2 สัปดาห์ (ไม่ดีขึ้น → biopsy แยก CNS lymphoma) · ไฟล์ผู้จดตอบ <b>\"ans: toxoplasmosis\"</b> และ P'Ing เขียน <b>\"immunocompromised\"</b> เหนือประวัติเบาหวาน",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงสูงอายุมีก้อนเดียวเกาะ falx enhance สม่ำเสมอทั้งก้อน ไม่เป็นวงแหวน โตช้าเป็นปี",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุภูมิปกติมีก้อนเดียวขอบหนาไม่เรียบใน white matter ตรงกลางเป็นเนื้อตาย",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยหูอื้อเสียงในหูข้างเดียวหลายปี MRI พบก้อนใน internal auditory canal",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยหน้ากลม ความดันสูง ผิวแตกลาย cortisol สูงที่กดด้วย dexamethasone ขนาดสูงได้ และมีก้อนใน sella"
+   "B": "Meningioma เป็นก้อนนอกเนื้อสมองโตช้า enhance สม่ำเสมอ ไม่สัมพันธ์กับภูมิคุ้มกัน · จะถูกถ้าหญิงวัยกลางคนชักครั้งแรก MRI ก้อนติดเยื่อหุ้มสมองมี dural tail",
+   "C": "GBM มักเป็นก้อนเดี่ยวขนาดใหญ่ ring ขอบหนาไม่เรียบ เนื้อตายตรงกลาง ข้ามสมองสองซีก (butterfly) · จะถูกถ้าชาย 60 ปีอาการแย่ลงเร็ว MRI ก้อนเดี่ยวใหญ่ข้าม corpus callosum",
+   "D": "Vestibular schwannoma อยู่ที่ CPA ทำให้หูไม่ได้ยิน · จะถูกถ้าผู้ป่วยหูไม่ได้ยินข้างเดียว MRI ก้อนที่ IAC",
+   "E": "Pituitary adenoma อยู่ใน sella ทำให้อาการตาและฮอร์โมน · จะถูกถ้าผู้ป่วยตามัวด้านข้างสองตา prolactin สูง"
   },
-  "trap": "เบาหวานคุมไม่ดีอย่างเดียวไม่ได้ทำให้ toxoplasma กลับมา (ต้องบกพร่อง cellular immunity เช่น HIV) — ในเบาหวานล้วน ฝีแบคทีเรียหรือ mucormycosis พบบ่อยกว่า · ช้อยอื่นเป็นเนื้องอกที่มักเป็นก้อนเดียว ไม่ใช่หลายก้อน ring",
+  "trap": "เห็นอาการทางประสาทแล้วนึกถึงเนื้องอก — ภูมิต่ำ + ring หลายก้อนที่ basal ganglia = toxoplasmosis",
   "summary": [
-   "<b>นอกสไลด์:</b> โรคที่ต้องแยกสำคัญที่สุดคือ primary CNS lymphoma: มักก้อนเดียวรอบ ventricle, EBV DNA ใน CSF บวก, thallium SPECT/PET จับมาก (toxo ไม่จับ)"
+   "Cerebral toxoplasmosis: HIV CD4 &lt; 100 · ring หลายก้อน basal ganglia",
+   "Eccentric target sign บน MRI",
+   "รักษา: pyrimethamine + sulfadiazine + leucovorin (ทางเลือก TMP-SMX)",
+   "ไม่ดีขึ้น 2 สัปดาห์ → biopsy แยก primary CNS lymphoma",
+   "Lymphoma: ก้อนเดี่ยวรอบโพรงสมอง · EBV DNA ใน CSF · SPECT/ PET uptake",
+   "เบาหวานคุมไม่ดี + เนื้อตายจมูก/ เพดาน → rhinocerebral mucormycosis"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A — stem เติม immunocompromised ตามลายมือ ถ้าโจทย์จริงมีแค่เบาหวาน คำตอบอาจเป็นฝีในสมอง · มั่นใจปานกลาง–สูง",
+  "opinion": "ตอบ A ความมั่นใจปานกลาง — ตรงกับคำตอบที่ผู้จดเขียนและลายมือ \"immunocompromised\" · ข้อสอบเดิมจำรายละเอียดไม่ครบ เบาหวานคุมไม่ดีโดยตรงชวนคิด mucormycosis มากกว่า แต่ในบริบทรอยโรคก้อนในสมองของผู้ภูมิต่ำ toxoplasmosis เป็นคำตอบที่ตั้งใจ · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
+  "mnemonic": "<b>'Toxo = ภูมิต่ำ + Target หลายก้อน + basal ganglia'</b>",
+  "guide": "NIH/ CDC/ HIVMA-IDSA Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV — Toxoplasma gondii encephalitis (updated 2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> เบาหวานคุมไม่ดี ไม่มีภาวะภูมิบกพร่องอื่น ไข้ ก้อน ring ขอบเรียบ DWI จำกัดการแพร่ → ฝีในสมองจากแบคทีเรีย",
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV CD4 80 ผล Toxoplasma IgG ลบ มีก้อน ring หลายก้อน → toxo ไม่น่าเป็น (เกือบทั้งหมดเป็น reactivation) ให้หาโรคอื่น"
+   "ผู้ป่วย HIV CD4 40 ring หลายก้อน basal ganglia → toxoplasmosis → pyrimethamine + sulfadiazine",
+   "ผู้ป่วย HIV ก้อนเดี่ยวรอบโพรงสมอง ไม่ดีขึ้นหลังรักษา toxo → biopsy (CNS lymphoma)",
+   "ผู้ป่วยเบาหวาน DKA เนื้อตายสีดำที่เพดาน/ จมูก → mucormycosis → amphotericin B + debridement"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 14 — ตัวพิมพ์: <b>22. A patient with Hx. of poorly controlled DM, presented with 3 weeks neurodeficit(s) ans: toxoplasmosis</b><br>ลายมือ: \"immunocompromised\" เหนือ poorly controlled DM<br>ไฮไลต์: วง \"ans\" · \"Hx. of poorly controlled DM\" \"3 weeks neurodeficit(s)\"<br>ที่ปรับในเว็บ: เพิ่มภาพ ring-enhancing หลายก้อนที่ basal ganglia ในโจทย์ · ไม่มีช้อย → แต่งช้อย A–E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 14",
+  "kimg": [
+   "fsp_p14",
+   "kp70c_22"
   ]
  },
  "MDCU70|RoC|23": {
-  "interp": "ข้อ NOT: ข้อความเรื่อง brain abscess ที่ \"ไม่จริง\" — มุมอาการและการรักษา (คู่กับ RoB ไม่มีเลข 7 ที่เน้นแหล่งต้นเหตุ)",
-  "why": "<b>คีย์: fever ✗ (P'Ing จด 25%)</b><br><b>นอกสไลด์:</b> ไข้พบเพียงส่วนน้อยถึงราวครึ่งหนึ่ง จึงพูดว่า \"ส่วนใหญ่มีไข้\" ไม่ได้ · อาการที่พบมากที่สุดคือปวดศีรษะ · การรักษาหลักคือดูดหนอง (ได้ทั้งเชื้อเพาะและลดก้อน) ร่วมยาปฏิชีวนะนาน",
+  "interp": "ถามข้อ<b>ไม่จริง</b>เกี่ยวกับ <b>brain abscess</b>",
+  "why": "ฝีในสมองอยู่ในโพรงที่มีแคปซูลหุ้ม อาการเด่นเกิดจาก<b>ก้อนกดเบียด</b> → <b>ปวดหัวพบบ่อยที่สุด (~70%)</b> ส่วน<b>ไข้พบเพียงราวครึ่งหนึ่ง</b> และ triad ปวดหัว ไข้ focal deficit ครบเพียง ~20% → \"ส่วนใหญ่มีไข้\" ไม่จริง · ปัจจัยเสี่ยง: ลามจาก sinus/ หู/ ฟัน, cyanotic CHD (R→L shunt), endocarditis, บาดเจ็บ/ ผ่าตัดสมอง, ภูมิต่ำ · รักษา: <b>เจาะดูดหนอง (stereotactic aspiration) + ยาปฏิชีวนะ 6–8 สัปดาห์</b> · ไฟล์ P'Ing วง 1 ลายมือ <b>\"x fever 25%\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะฝีเป็นก้อนกินที่ ทำให้ความดันในกะโหลกสูงและดึงรั้งเยื่อหุ้ม ปวดศีรษะจึงเป็นอาการที่พบมากที่สุด",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะในโรคหัวใจเขียว เลือดดำที่มีเชื้อลัดเข้าระบบเลือดแดงโดยไม่ผ่านปอด และเลือดข้นทำให้เนื้อสมองขาดเลือดเป็นจุดที่เชื้อเกาะง่าย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ temporal lobe วางอยู่บนหลังคาหูชั้นกลางที่บางมาก การติดเชื้อหูเรื้อรังจึงทะลุขึ้นมาได้โดยตรง",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าเป็นฝีเล็ก &lt; 2.5 cm หลายก้อน อยู่ลึกในตำแหน่งสำคัญ หรือยังเป็นระยะ cerebritis — รักษาด้วยยาอย่างเดียว"
+   "B": "จริง — ปวดหัวเป็นอาการที่พบบ่อยที่สุด · จะถูกถ้าช้อยบอกว่าอาการที่พบบ่อยที่สุดคือไข้สูง",
+   "C": "จริง — cyanotic CHD (R→L shunt) เลือดไม่ผ่านปอดที่กรองเชื้อ · จะถูกถ้าช้อยบอกว่า ASD/ VSD ที่ไม่เขียวเป็นปัจจัยเสี่ยงหลัก",
+   "D": "จริง — หูชั้นกลาง/ mastoid อักเสบลามเข้า temporal lobe และ cerebellum · จะถูกถ้าช้อยบอกว่าหูอักเสบลามไปทำให้ฝีที่ frontal lobe (frontal มาจาก sinusitis)",
+   "E": "จริง — เจาะดูด/ ผ่าตัดเอาหนอง + ยาปฏิชีวนะนานหลายสัปดาห์ · จะถูกถ้าช้อยบอกว่ายาปฏิชีวนะกิน 7 วันเพียงพอสำหรับฝีขนาดใหญ่"
   },
-  "trap": "คำว่า \"ฝี\" ทำให้คาดว่าต้องมีไข้และ WBC สูง — สมองไม่มีระบบน้ำเหลืองและฝีมีแคปซูลห่อ ไข้ไม่มีจึงตัดฝีไม่ได้",
+  "trap": "คิดว่าฝีต้องมีไข้ — ไข้พบเพียงราวครึ่งเดียว ไม่มีไข้ไม่ตัดฝีในสมอง",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาเริ่มต้นฝีที่มาจากชุมชน: cefotaxime/ceftriaxone + metronidazole (เพิ่ม vancomycin ถ้าหลังบาดแผลหรือผ่าตัดสมอง) · รวมราว 6–8 สัปดาห์ (ESCMID 2024 เปลี่ยนเป็นยากินได้หลังฉีดราว 2 สัปดาห์)"
+   "อาการ: ปวดหัว (~70%) · ไข้ (~50%) · focal deficit (~50%) · ชัก (~25%)",
+   "Triad ครบ ~20%",
+   "Sinus → frontal · หู → temporal/ cerebellum · เลือด → หลายก้อน",
+   "MRI: ring ขอบเรียบ + DWI restriction",
+   "รักษา: aspiration + ATB 6–8 สัปดาห์ (ceftriaxone + metronidazole ± vancomycin)",
+   "ห้ามเจาะหลัง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง (ตัวเลขไข้ต่างกันตามแหล่ง ราว 25–50%)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง 1 และลายมือ \"x fever 25%\" ในไฟล์ (การศึกษารวม Brouwer 2014 พบไข้ ~53%) · ต้นฉบับจำช้อยได้ข้อเดียว จึงแต่งช้อยอื่นเพิ่ม",
+  "mnemonic": "<b>'ฝีในสมอง: ปวดหัวแน่ ไข้แค่ครึ่ง'</b>",
+  "guide": "Brouwer MC et al. Clinical characteristics and outcome of brain abscess (Neurology 2014;82:806); ESCMID Guideline: Diagnosis and Treatment of Brain Abscess (Clin Microbiol Infect 2024;30:66)",
   "variants": [
-   "<b>นอกสไลด์:</b> ฝีในสมอง 4 cm กด midline ผู้ป่วยซึมลง → stereotactic aspiration ด่วน ส่งเพาะเชื้อ แล้วให้ยาต่อ",
-   "<b>นอกสไลด์:</b> ผู้ป่วยฝีในสมองซึมลงทันทีร่วมคอแข็ง CT เห็นหนองในโพรงสมอง → ฝีแตกเข้า ventricle พยากรณ์แย่ ต้องระบายหนองร่วม EVD"
+   "เด็ก TOF ปวดหัว ไม่มีไข้ ring-enhancing lesion → brain abscess",
+   "ไซนัสอักเสบเรื้อรัง ปวดหัว บุคลิกเปลี่ยน → frontal lobe abscess",
+   "ฝีในสมอง 3 cm → stereotactic aspiration + IV ATB"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 14 — ตัวพิมพ์: <b>23. What of the following is not true in brain abscess? — 1. Mostly have fever</b><br>ลายมือ: 1 \"x fever 25%\" (แดง)<br>ไฮไลต์: วง 1 (ชมพู) · \"not true\" (ชมพู) · \"brain abscess\"<br>ที่ปรับในเว็บ: จำช้อยได้ข้อเดียว → แต่งช้อย B–E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 14",
+  "kimg": [
+   "fsp_p14",
+   "kp70c_23"
   ]
  },
  "MDCU70|RoC|24": {
-  "interp": "ถามคุณสมบัติยา: ยาปฏิชีวนะตัวใดผ่าน blood-brain barrier ได้ไม่พอ",
-  "why": "<b>คีย์: aminoglycoside ✗ · vancomycin, ampicillin ✓ เมื่อเยื่อหุ้มสมองอักเสบ · chloramphenicol ✓ ระดับดี · ลายมือ ยาที่ผ่านไม่ดี: erythromycin, tetracycline, clindamycin, cefazolin</b><br><b>นอกสไลด์:</b> aminoglycoside เป็นโมเลกุลมีขั้ว ละลายน้ำ ผ่าน BBB ไม่ได้แม้เยื่อหุ้มอักเสบ ระดับใน CSF ไม่ถึงขนาดฆ่าเชื้อ จึงไม่ใช้รักษา meningitis ด้วยยาทางเส้นเลือดเดี่ยว ๆ",
+  "interp": "ถามยาปฏิชีวนะที่<b>ผ่าน blood-brain barrier ได้ไม่ดี</b>",
+  "why": "<b>Aminoglycosides</b> มีขั้วสูง ละลายน้ำ <b>ผ่าน BBB ได้น้อยมากแม้เยื่อหุ้มสมองอักเสบ</b> จึงไม่ใช้รักษาการติดเชื้อในระบบประสาทแบบให้ทางหลอดเลือด (ถ้าจำเป็นให้ทาง intraventricular) · กลุ่มเดียวกัน: erythromycin, tetracycline, clindamycin, cephalosporin รุ่นแรก (cefazolin) · ยาที่<b>เข้าได้ดีแม้ไม่มีการอักเสบ</b>: chloramphenicol, metronidazole, TMP-SMX, sulfonamides, rifampin, isoniazid, pyrazinamide · ยาที่<b>เข้าได้เมื่อเยื่อหุ้มสมองอักเสบ</b> (ต้องใช้ขนาดสูง): penicillin, ampicillin, nafcillin, ceftriaxone, cefotaxime, vancomycin · ไฟล์ P'Ing วง 4 ลายมือ <b>\"x erythro, tetra, clinda, cefazolin\"</b> และ 1–2 \"✓ c̄ meningeal inflammation\" 3 \"✓ good level\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยได้ dexamethasone จนเยื่อหุ้มอักเสบลดลง — vancomycin เข้า CSF ลดลงจนอาจไม่พอ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าให้ ampicillin ขนาดปกติ (ไม่ใช่ขนาดสูงแบบ meningitis) รักษา Listeria meningitis — ระดับใน CSF ไม่ถึงขนาดฆ่าเชื้อ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ chloramphenicol เข้า CSF ไม่พอ เพราะละลายในไขมันดี ผ่าน BBB ได้แม้เยื่อหุ้มไม่อักเสบ (ข้อจำกัดคือพิษต่อไขกระดูก)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น pneumococcal meningitis ที่ดื้อ cephalosporin (ceftriaxone MIC ≥ 2) — ระดับใน CSF ไม่พอฆ่าเชื้อ จึงต้องเพิ่ม vancomycin"
+   "A": "Vancomycin เข้าได้เมื่อเยื่อหุ้มสมองอักเสบ (ขนาดสูง วัดระดับยา) ใช้ใน bacterial meningitis (ลายมือ \"✓ c̄ meningeal inflammation\") · จะถูกถ้าคำถามถามยาที่เข้าได้ไม่ดีเมื่อเยื่อหุ้มสมอง<b>ไม่</b>อักเสบ",
+   "B": "Ampicillin เข้าได้เมื่อเยื่อหุ้มสมองอักเสบ ใช้ครอบคลุม Listeria (ลายมือ \"✓ c̄ meningeal inflammation\") · จะถูกถ้าคำถามถามยาที่เข้าได้ไม่ดีเมื่อเยื่อหุ้มสมองไม่อักเสบ",
+   "C": "Chloramphenicol ละลายในไขมัน เข้า CNS ได้ดีแม้ไม่มีการอักเสบ (ลายมือ \"✓ good level\") · จะถูกถ้าคำถามถามยาที่ทำให้เกิด gray baby syndrome/ aplastic anemia",
+   "E": "Ceftriaxone (รุ่น 3) เข้าได้ดีเมื่อเยื่อหุ้มสมองอักเสบ เป็นยาหลักของ bacterial meningitis · จะถูกถ้าช้อยเป็น cefazolin (รุ่น 1 เข้าไม่ได้)"
   },
-  "trap": "ยาที่ฆ่า gram-negative แรงไม่ได้แปลว่าเข้าสมองได้ · cephalosporin ต่างรุ่นต่างกัน — cefazolin ผ่านไม่ดี แต่ ceftriaxone ผ่านดี",
+  "trap": "สับสนว่า vancomycin เข้าไม่ได้ — vancomycin เข้าได้เมื่อมีการอักเสบ ส่วน aminoglycoside เข้าไม่ได้แม้มีการอักเสบ",
   "summary": [
-   "<b>นอกสไลด์:</b> ผ่านดีแม้ไม่อักเสบ: chloramphenicol, metronidazole, TMP-SMX, rifampin, fluoroquinolone · ผ่านเมื่ออักเสบ: penicillin/ampicillin, cephalosporin รุ่น 3–4, vancomycin, meropenem · ผ่านไม่ดี: aminoglycoside, cefazolin, clindamycin, macrolide"
+   "เข้าดีแม้ไม่อักเสบ: chloramphenicol · metronidazole · TMP-SMX · rifampin · INH · PZA",
+   "เข้าเมื่ออักเสบ: penicillin · ampicillin · ceftriaxone/ cefotaxime · vancomycin · meropenem",
+   "เข้าไม่ได้แม้อักเสบ: aminoglycoside · erythromycin · tetracycline · clindamycin · cefazolin",
+   "Empiric bacterial meningitis ผู้ใหญ่: ceftriaxone + vancomycin (+ ampicillin ถ้า &gt; 50 ปี)",
+   "Cefazolin ใช้เป็น surgical prophylaxis (ผิวหนัง) ไม่ใช่รักษา CNS",
+   "Aminoglycoside ถ้าจำเป็น → intraventricular"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับวง 4 และลายมือ/ ตารางในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'เข้า CNS ไม่ได้: \"A-E-T-C-1\" = Aminoglycoside · Erythro · Tetra · Clinda · Cephalo รุ่น 1'</b>",
+  "guide": "IDSA Practice Guidelines for the Management of Bacterial Meningitis (Clin Infect Dis 2004;39:1267); The Sanford Guide to Antimicrobial Therapy 2025",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กแพ้ β-lactam รุนแรงเป็น meningococcal meningitis ในที่ที่มียาจำกัด → chloramphenicol",
-   "<b>นอกสไลด์:</b> ผู้ป่วย Listeria meningitis → ampicillin ± gentamicin (gentamicin ให้ผล synergy ในเลือด ไม่ได้หวังระดับใน CSF)"
+   "Bacterial meningitis ผู้ใหญ่ 60 ปี → ceftriaxone + vancomycin + ampicillin",
+   "Brain abscess ไม่ทราบเชื้อ → ceftriaxone + metronidazole",
+   "ยาป้องกันการติดเชื้อก่อนผ่าตัดสมอง → cefazolin (ครอบคลุมผิวหนัง)"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 14 — ตัวพิมพ์: <b>24. ATB that cannot go through BBB — 1.vancomycin 2.ampicillin 3.chloramphenical 4.aminoglycoside</b><br>ลายมือ: 1 ✓ · 2 ✓ · ปีกกา 1–2 \"c̄ meningeal inflammation\" · 3 \"✓ good level\" · 4 \"x erythro, tetra, clinda, cefazolin\" (แดง)<br>ไฮไลต์: วง 4 (ชมพู) · \"ATB that\" · \"cannot go through BBB\" (ชมพู)<br>รูปที่แปะ: ตาราง CNS Infection &amp; Antibiotics — Good Levels without Meningeal Inflammation: Chloramphenicol, Sulfonamides, Metronidazole (for brain abscess), Trimethoprim-sulfamethoxazole, Isoniazid, Rifampin, Pyrazinamide · Therapeutic Levels with Meningeal Inflammation: Penicillin, Ampicillin, Nafcillin, Oxacillin, Antipseudomonal penicillins, Cefotaxime, Ceftriaxone, Vancomycin (ต้องเจาะดู therapeutic level) · Poor or No Penetration Even with Meningeal Inflammation: Aminoglycosides (ไม่ใช้ Tx. แต่ใช้ as prophylaxis), Erythromycin (macrolide), Tetracycline, Clindamycin, First-generation cephalosporins (ใช้ prophylaxis ก่อนผ่า → ฆ่า normal flora, eg cefazolin) พร้อมลายมือเล็กหลายจุด<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E ceftriaxone",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 14",
+  "kimg": [
+   "fsp_p14",
+   "kp70c_24"
   ]
  },
  "MDCU70|RoC|25": {
-  "interp": "เด็กหญิง 12 ปีชักทั้งตัวครั้งแรก + ภาพ MRI มีถุงเล็กหลายสิบถุงทั้งในเนื้อสมองและโพรงสมอง → ถามการวินิจฉัย",
-  "why": "<b>คีย์: cysticercosis · รูปแบบ meningeal, parenchymatous, ventricular · อาการ: ชัก, ICP สูง, meningitis, focal deficit</b><br><b>นอกสไลด์:</b> ภาพในข้อ (MRI แนวขวาง): ถุงกลมเล็กหลายสิบถุงกระจายทั้งสองซีก แต่ละถุงมีจุดเยื้องศูนย์อยู่ข้างใน (scolex — \"hole with dot\") ลักษณะ starry sky ซึ่งจำเพาะกับ neurocysticercosis · เป็นสาเหตุชักที่ได้มาภายหลังที่พบบ่อยที่สุดในประเทศกำลังพัฒนา",
+  "interp": "เด็กหญิง 12 ปี <b>ชักเกร็งกระตุกครั้งแรก</b> ภาพสมองพบ<b>ถุงน้ำเล็กหลายก้อน ring/ focal enhancement</b> ทั้งในเนื้อสมองและในโพรงสมอง → ถามวินิจฉัย",
+  "why": "ถุงน้ำเล็กหลายก้อนกระจายทั่วสมอง (ภาพ \"starry sky\"/ บางก้อนเห็น<b>จุด scolex ภายใน</b> — cyst with dot) ทั้งในเนื้อสมองและโพรงสมอง + ชักครั้งแรก = <b>neurocysticercosis</b> (ตัวอ่อนพยาธิตืดหมู Taenia solium) · สาเหตุชักที่ป้องกันได้ที่พบบ่อยที่สุดในประเทศกำลังพัฒนา · รูปแบบ: parenchymal (ชัก), ventricular (hydrocephalus), subarachnoid/ meningeal · รักษา: ยากันชัก + <b>albendazole (± praziquantel) ร่วมกับ steroid</b> ในถุงน้ำที่ยังมีชีวิต, ถุงน้ำในโพรงสมอง → ส่องกล้องเอาออก/ shunt · ไฟล์ P'Ing วง 1 และแปะสไลด์ <b>\"Forms: Meningeal · Parenchymatous · Ventricular · Symptoms and Signs: Seizure · Increased ICP · Meningitis · Focal Deficit\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กมีไข้ หูอักเสบเรื้อรัง ก้อน ring ผนังเรียบ 1–2 ก้อน DWI จำกัดการแพร่ตรงกลาง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกแรกเกิดชัก มีหินปูนกระจายในเนื้อสมอง hydrocephalus และ chorioretinitis (congenital toxoplasmosis)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่มะเร็งปอดมีก้อนกลมหลายก้อนที่รอยต่อ gray–white บวมรอบมาก ไม่มีจุดในถุง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยวัณโรคปอดมีก้อน ring หลายก้อนร่วม basal meningeal enhancement และ hydrocephalus"
+   "B": "ฝีในสมองมักเป็นก้อนเดี่ยว/ ไม่กี่ก้อน ring ขอบเรียบ มีปัจจัยเสี่ยง (หู ไซนัส หัวใจ) ไม่ใช่ถุงน้ำเล็กจำนวนมากแบบนี้ · จะถูกถ้าเด็ก TOF ปวดหัว ไข้ MRI ring-enhancing ก้อนเดียว",
+   "C": "Toxoplasmosis พบในผู้ภูมิต่ำ (HIV) ring หลายก้อนที่ basal ganglia · จะถูกถ้าผู้ป่วย HIV CD4 50 สับสน อ่อนแรงครึ่งซีก",
+   "D": "Metastasis พบในผู้ใหญ่ที่มีมะเร็ง ไม่ใช่ถุงน้ำในโพรงสมองจำนวนมากในเด็ก · จะถูกถ้าผู้ป่วยมะเร็งปอดมีก้อน ring หลายก้อนบวมรอบมาก",
+   "E": "Tuberculoma เป็นก้อนแข็ง ring/ nodular ไม่กี่ก้อน มักร่วม TB meningitis (basal enhancement) ไม่ใช่ถุงน้ำจำนวนมาก · จะถูกถ้าเด็กไข้เรื้อรัง น้ำหนักลด basal meningeal enhancement + ก้อน ring เล็ก"
   },
-  "trap": "เห็น ring หลายก้อนแล้วตอบ toxo/metastasis — จุด scolex ในถุงเป็นตัวแยก · ติดจากกินไข่ T. solium (อาหาร/มือปนอุจจาระคนที่มีพยาธิตืดหมู) ไม่ใช่จากกินหมูดิบ ซึ่งทำให้เป็นพยาธิตืดในลำไส้",
+  "trap": "เห็น ring หลายก้อนแล้วคิดว่าฝีหรือมะเร็ง — ถุงน้ำเล็กจำนวนมาก (มี scolex) ในเด็กชัก = cysticercosis",
   "summary": [
-   "<b>นอกสไลด์:</b> ระยะของถุง: vesicular (ถุงใสมี scolex) → colloidal (ring enhance + บวม ชักบ่อย) → granular → calcified (จุดหินปูน)"
+   "Neurocysticercosis: Taenia solium (กินไข่จากอุจจาระคน)",
+   "ภาพ: ถุงน้ำมี scolex (cyst with dot) · ระยะต่าง ๆ จนเป็นหินปูน",
+   "Parenchymal → ชัก · Ventricular → hydrocephalus",
+   "รักษา: ยากันชัก + albendazole ± praziquantel + steroid",
+   "ห้ามให้ยาฆ่าพยาธิใน cysticercal encephalitis (ถุงน้ำมาก สมองบวม)",
+   "ตรวจตาก่อนให้ยา (ถุงน้ำในตา)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง 1 และสไลด์ที่แปะในไฟล์ · ต้นฉบับมี 3 ช้อย (ผู้จดเขียน \"Toxoplasmosis metastasis\" รวมกัน) จึงแยกเป็น C, D และเติม E",
+  "mnemonic": "<b>'ถุงน้ำมีจุด (cyst with dot) หลายก้อน = Cysticercosis (dot = scolex)'</b>",
+  "guide": "IDSA/ ASTMH Clinical Practice Guidelines for the Diagnosis and Treatment of Neurocysticercosis (Clin Infect Dis 2018;66:e49)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยถ่ายเป็นปล้องพยาธิตืดหมู → คนในบ้านเสี่ยง NCC: รักษาพยาธิในลำไส้ผู้ป่วยและตรวจคนใกล้ชิด",
-   "<b>นอกสไลด์:</b> ถุงพยาธิหลายถุงเป็นพวงองุ่นใน basal cisterns ไม่มี scolex → racemose NCC ทำให้ hydrocephalus/หลอดเลือดอักเสบ"
+   "ชายชักครั้งแรก CT หินปูนจุดเล็กหลายจุด → calcified neurocysticercosis (ยากันชัก ไม่ต้องให้ยาฆ่าพยาธิ)",
+   "ผู้ป่วยถุงน้ำใน fourth ventricle hydrocephalus → endoscopic removal",
+   "neurocysticercosis ถุงน้ำมีชีวิต 2 ก้อน → albendazole + steroid"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 15 — ตัวพิมพ์: <b>25. A 12 year old girl presented with the first episode of a tonic clonic seizure/ imaging: multiple small ring enhancement and focal enhancing lesions = intracerebral+intraventricular cysts — 1.cysticercosis 2.brain abscess 3.Toxoplasmosis metastasis</b><br>ลายมือ: ไม่มี<br>ไฮไลต์: วง 1 · \"A 12 year old girl\" \"first episode of a tonic clonic seizure\" \"multiple small ring enhancement and focal enhancing lesions\" · \"intracerebral+intraventricular cysts\" (เหลือง)<br>รูปที่แปะ: ภาพ MRI สมองที่มีถุงน้ำเล็กจำนวนมาก (ข้อสอบ) · สไลด์ Forms: Meningeal, Parenchymatous, Ventricular · Symptoms and Signs: Seizure, Increased ICP (ลายมือเล็ก), Meningitis, Focal Deficit · สติกเกอร์กระต่ายนางเงือก<br>ที่ปรับในเว็บ: แยก \"Toxoplasmosis metastasis\" เป็น 2 ช้อย และเติม E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 15",
+  "kimg": [
+   "fsp_p15",
+   "kp70c_25"
   ]
  },
  "MDCU70|RoC|26": {
-  "interp": "หญิงวัยเจริญพันธุ์ มีบุตรยาก + bitemporal hemianopia + ก้อน pituitary → ถามชนิดก้อน (มุมวินิจฉัย — ข้อ RoA 30 ของชุดนี้เป็นมุมใช้ยา)",
-  "why": "<b>คีย์: prolactin ยับยั้ง sex hormone (FSH, LH) · P'Ing แก้ bilateral → bitemporal</b><br><b>นอกสไลด์:</b> prolactinoma เป็น pituitary adenoma ที่สร้างฮอร์โมนซึ่งพบบ่อยที่สุด prolactin กด GnRH → ไม่ตกไข่ ประจำเดือนผิดปกติ มีบุตรยาก ± น้ำนมไหล · ก้อนใหญ่ยื่นขึ้นกด optic chiasm → bitemporal hemianopia",
+  "interp": "หญิงวัยเจริญพันธุ์ <b>มีบุตรยาก + ตามัวด้านข้างสองตา (bitemporal hemianopia)</b> ภาพพบก้อนต่อมใต้สมอง → ถามวินิจฉัย",
+  "why": "ก้อนต่อมใต้สมองที่ใหญ่พอกด optic chiasm (macroadenoma) + <b>มีบุตรยาก</b> = <b>prolactinoma</b> (functioning adenoma ที่พบบ่อยที่สุด) · prolactin สูง <b>กด GnRH → FSH/ LH ลด</b> → ไม่ตกไข่ ประจำเดือนขาด น้ำนมไหล · prolactin มักสูง &gt; 200 ng/mL ใน macroprolactinoma · รักษาแรกด้วย <b>dopamine agonist (cabergoline)</b> แม้มีอาการตา ก้อนยุบและการมองเห็นดีขึ้น · ไฟล์ผู้จดตอบ <b>\"ans: prolactinoma\"</b> P'Ing แก้ \"bilateral\" เป็น <b>\"temporal\"</b> และลายมือ \"✓ prolactin ⊖ sex hormones (FSH, LH)\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าชายสูงอายุลานสายตาเสียสองข้าง libido ลด prolactin สูงเพียงเล็กน้อย (stalk effect) ก้อน 3 cm",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กตัวเตี้ย ปัสสาวะมาก ก้อน suprasellar มีหินปูนและถุงน้ำ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามือเท้าโต ขากรรไกรยื่น ฟันห่าง IGF-1 สูง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเกาะ dura ที่ tuberculum sellae มี dural tail กด chiasm และระดับฮอร์โมนปกติ"
+   "B": "Nonfunctioning adenoma กด chiasm ได้ และกดก้านต่อมใต้สมองทำให้ prolactin สูงเล็กน้อย (&lt; 100 ng/mL, stalk effect) แต่พบในวัยกลางคน–สูงอายุมากกว่า · จะถูกถ้าชาย 60 ปีตามัวด้านข้างสองตา ฮอร์โมนต่ำหลายตัว prolactin 40 ng/mL",
+   "C": "Craniopharyngioma พบในเด็ก (และผู้ใหญ่วัยกลางคน) ก้อนถุงน้ำมีหินปูนเหนือ sella เบาจืด เตี้ย · จะถูกถ้าเด็ก 8 ปีตัวเตี้ย ปัสสาวะมาก CT ก้อนมีหินปูนเหนือ sella",
+   "D": "Somatotroph adenoma ทำให้ acromegaly (มือเท้าโต หน้าเปลี่ยน) · จะถูกถ้าผู้ป่วยแหวนคับ รองเท้าคับ ขากรรไกรยื่น IGF-1 สูง",
+   "E": "Tuberculum sellae meningioma ทำให้ตามัวแต่ไม่ทำให้ฮอร์โมนผิดปกติมาก · จะถูกถ้าหญิงวัยกลางคนตามัวข้างเดียวค่อยเป็น MRI ก้อน extra-axial เหนือ sella มี dural tail"
   },
-  "trap": "nonfunctioning macroadenoma กดก้าน pituitary ทำ prolactin สูงและประจำเดือนผิดปกติได้ — ใช้ระดับ prolactin เทียบกับขนาดก้อนแยก",
+  "trap": "ตอบ nonfunctioning adenoma เพราะเห็นแค่อาการกด chiasm — มีบุตรยากในหญิงวัยเจริญพันธุ์ชี้ prolactinoma",
   "summary": [
-   "<b>นอกสไลด์:</b> ตรวจก่อนสรุป: prolactin + ตั้งครรภ์ + TSH (hypothyroid ทำ prolactin สูง) + ยา (antipsychotic, metoclopramide) · macroprolactinoma มัก prolactin > 250 ng/mL · stalk effect มักไม่เกินราว 100–150"
+   "Prolactinoma: ประจำเดือนขาด น้ำนมไหล มีบุตรยาก (หญิง) · libido ลด (ชาย)",
+   "Macroadenoma &gt; 1 cm → กด chiasm → bitemporal hemianopia",
+   "Prolactin &gt; 200 ng/mL เข้ากับ macroprolactinoma",
+   "Stalk effect: NFPA ทำให้ prolactin สูงไม่มาก",
+   "รักษา: cabergoline (แรก) · ผ่าตัดเมื่อดื้อ/ ทนยาไม่ได้/ apoplexy",
+   "Hook effect: ก้อนใหญ่ prolactin ปกติลวง → เจือจางตรวจซ้ำ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับคำตอบที่ผู้จดเขียนและลายมือ P'Ing · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
+  "mnemonic": "<b>'มีบุตรยาก + ตาบอดข้าง = Prolactin กด GnRH + ก้อนกด chiasm'</b>",
+  "guide": "Endocrine Society Clinical Practice Guideline: Diagnosis and Treatment of Hyperprolactinemia (J Clin Endocrinol Metab 2011;96:273); Pituitary Society consensus on prolactinomas (Nat Rev Endocrinol 2023;19:722)",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อน pituitary 4 cm แต่ prolactin แค่ 60 ng/mL → ตรวจซ้ำแบบเจือจาง (hook effect) ก่อนสรุปว่าเป็น nonfunctioning",
-   "<b>นอกสไลด์:</b> หญิงประจำเดือนปกติ ไม่มีน้ำนมไหล prolactin สูงเล็กน้อยโดยบังเอิญ → ตรวจ macroprolactin (prolactin โมเลกุลใหญ่ที่ไม่ออกฤทธิ์)"
+   "หญิง 25 ปีประจำเดือนขาด น้ำนมไหล prolactin 300 ก้อน 2 cm → cabergoline",
+   "ก้อนต่อมใต้สมอง 4 cm prolactin 30 ng/mL → เจือจางตรวจซ้ำ (hook effect) หรือ stalk effect",
+   "เด็กตัวเตี้ย ปัสสาวะมาก ก้อนหินปูนเหนือ sella → craniopharyngioma"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 15 — ตัวพิมพ์: <b>26. Child bearing age woman presented with infertility and bilateral hemianopia/ imaging: pituitary tumor/ ans: prolactinoma</b><br>ลายมือ: ขีดฆ่า \"lateral\" ใน bilateral แล้วเขียน \"temporal\" · \"✓ prolactin ⊖ sex hormones (FSH, LH)\"<br>ไฮไลต์: วง \"ans\" · \"Child bearing age woman\" \"infertility and bilateral hemianopia\" \"pituitary tumor\"<br>ที่ปรับในเว็บ: ใช้ bitemporal hemianopia ตามที่ P'Ing แก้ · ไม่มีช้อย → แต่งช้อย A–E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 15",
+  "kimg": [
+   "fsp_p15",
+   "kp70c_26"
   ]
  },
  "MDCU70|RoC|27": {
-  "interp": "ถามลักษณะรูม่านตาของก้อนบริเวณ pineal",
-  "why": "<b>คีย์: light-near dissociation = รูม่านตาหดเมื่อมองใกล้ แต่ไม่หดต่อแสง</b><br><b>นอกสไลด์:</b> ก้อน pineal กด pretectal area/posterior commissure ที่ dorsal midbrain → เส้นทางรีเฟล็กซ์ต่อแสงเสีย แต่เส้นทาง near response อยู่ทาง ventral กว่าจึงยังดี · เป็นส่วนหนึ่งของ Parinaud: มองขึ้นไม่ได้, light-near dissociation, convergence-retraction nystagmus, เปลือกตาบนรั้ง",
+  "interp": "ถามลักษณะ<b>รูม่านตา</b>ที่พบใน<b>เนื้องอกบริเวณ pineal</b>",
+  "why": "เนื้องอก pineal (germinoma, pineocytoma) กด <b>dorsal midbrain/ tectum</b> → <b>Parinaud (dorsal midbrain) syndrome</b>: มองขึ้นไม่ได้ (upgaze palsy), <b>light-near dissociation</b> (รูม่านตา<b>หดเมื่อมองใกล้แต่ไม่หดต่อแสง</b> เพราะทางรับแสงไปที่ pretectal nucleus ถูกกด ส่วนทาง accommodation อยู่ต่ำกว่า), convergence-retraction nystagmus, หนังตาบนรั้ง (Collier sign) · มักร่วมกับ hydrocephalus จาก aqueduct ถูกกด · ไฟล์ผู้จดเขียน <b>\"light near dissociation = pupil accomodates but does not react to light\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนหรือการอักเสบอยู่ที่ optic nerve ข้างเดียว (ส่องไฟสลับแล้วรูม่านตาข้างนั้นขยาย)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่ที่ยอดปอด (Pancoast) กด sympathetic chain → หนังตาตก รูม่านตาเล็ก เหงื่อไม่ออกข้างเดียว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ารอยโรคอยู่ที่ pons (เลือดออกหรือก้อน) ซึ่งทำลายเส้นใย sympathetic",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเหนือ tentorium ใหญ่จน uncus เคลื่อนลงกด CN III ข้างเดียวกัน"
+   "B": "RAPD เกิดจากรอยโรคเส้นประสาทตาข้างเดียว · จะถูกถ้าผู้ป่วย optic neuritis ตามัวข้างเดียว swinging flashlight รูม่านตาขยายเมื่อส่องข้างที่ผิดปกติ",
+   "C": "Horner syndrome (หนังตาตก รูม่านตาเล็ก เหงื่อไม่ออก) เกิดจาก sympathetic pathway ถูกรบกวน · จะถูกถ้าผู้ป่วย Pancoast tumor หนังตาตก รูม่านตาเล็กข้างเดียว",
+   "D": "Pinpoint pupils เกิดจากรอยโรคที่ pons หรือ opioid · จะถูกถ้าผู้ป่วยความดันสูง coma ทันที decerebrate (pontine hemorrhage)",
+   "E": "รูม่านตาขยายไม่ตอบสนองข้างเดียวเกิดจาก CN III ถูกกด (uncal herniation, PComm aneurysm) · จะถูกถ้าผู้ป่วย epidural hematoma ซึมลง รูม่านตาขยายข้างเดียว"
   },
-  "trap": "Parinaud ทำให้รูม่านตาขนาดกลาง ไม่ใช่เล็ก · อย่าสับสน RAPD (รอยโรคเส้นประสาทตาข้างเดียว) กับ light-near dissociation (รอยโรค midbrain)",
+  "trap": "สับสน light-near dissociation กับ RAPD — Parinaud: หดเมื่อมองใกล้ แต่ไม่หดต่อแสง",
   "summary": [
-   "<b>นอกสไลด์:</b> Parinaud จากสาเหตุอื่น: hydrocephalus/shunt ทำงานผิดในเด็ก (sunset eyes), stroke ที่ midbrain, multiple sclerosis"
+   "Parinaud: upgaze palsy · light-near dissociation · convergence-retraction nystagmus · Collier sign",
+   "สาเหตุ: pineal tumor · hydrocephalus · stroke ที่ midbrain",
+   "Pineal germinoma: วัยรุ่นชาย · β-hCG ใน CSF · ไวต่อรังสีมาก",
+   "Light-near dissociation อื่น: Argyll Robertson (syphilis) · Adie pupil",
+   "Hydrocephalus จาก aqueduct ถูกกด → ETV/ shunt",
+   "Pineal + suprasellar germinoma พร้อมกัน → DI + อาการตา"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับที่ผู้จดเขียนในไฟล์ · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
+  "mnemonic": "<b>'Pineal → Parinaud → มองขึ้นไม่ได้ + หดใกล้ไม่หดแสง'</b>",
+  "guide": "Youmans and Winn Neurological Surgery 8th ed. (2022) — Pineal region tumors; Walsh and Hoyt's Clinical Neuro-Ophthalmology 7th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยมองตรงแล้วเห็นตาขาวเหนือ iris เพราะเปลือกตาบนรั้ง และมองขึ้นไม่ได้ → Collier sign ของรอยโรค dorsal midbrain"
+   "วัยรุ่นชายปวดหัว มองขึ้นไม่ได้ → pineal germinoma → ตรวจ β-hCG/ AFP ใน CSF",
+   "ผู้ป่วยซิฟิลิสระยะ 3 รูม่านตาเล็กไม่เท่ากัน หดเมื่อมองใกล้ → Argyll Robertson pupil",
+   "pineal tumor + hydrocephalus → endoscopic third ventriculostomy + biopsy"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 15 — ตัวพิมพ์: <b>27. Pinealoma physical examinations/ light near dissociation = pupil accomodates but does not react to light</b><br>ลายมือ: ไม่มี<br>ไฮไลต์: \"Pinealoma\" · \"light near dissociation = pupil accomodates but does not react to light\"<br>ที่ปรับในเว็บ: ไม่มีช้อย → แต่งช้อย A–E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 15",
+  "kimg": [
+   "fsp_p15",
+   "kp70c_27"
   ]
  },
  "MDCU70|RoC|28": {
-  "interp": "ชายวัยกลางคน ICP สูง + อ่อนแรงซีกซ้าย + finger-to-nose ขวาเสีย + Weber ไปซ้าย + Rinne AC > BC สองข้าง → แปลผลหาตำแหน่งก้อน",
-  "why": "<b>ลายมือ: Rt. corticospinal tract, finger to nose · Weber ไปซ้าย = Lt. conductive หรือ Rt. sensorineural ↓ · Rinne ปกติ → Rt. CN8</b><br><b>นอกสไลด์:</b> ก้อน CPA ขวาใหญ่กด cerebellar hemisphere ขวา (dysmetria ข้างเดียวกัน) และกด pons ขวาเหนือจุดไขว้ของ corticospinal tract (อ่อนแรงซีกซ้าย) และอุด fourth ventricle (ICP สูง)",
+  "interp": "ชายวัยกลางคน <b>ความดันในกะโหลกสูง + อ่อนแรงซีกซ้าย + finger-to-nose ขวาผิดปกติ</b> Weber ไปซ้าย Rinne AC &gt; BC ทั้งสองหู → ถามวินิจฉัย",
+  "why": "แปลผลทีละอาการ: <b>Weber ไปซ้าย + Rinne AC &gt; BC ทั้งสองข้าง</b> = <b>หูขวาเสียแบบ sensorineural</b> (Weber ไปหูดีในประสาทหูเสีย) → CN VIII ขวา · <b>finger-to-nose ขวาผิดปกติ</b> = สมองน้อยขวาถูกกด · <b>อ่อนแรงซีกซ้าย</b> = ก้านสมองขวา (corticospinal tract เหนือ decussation) ถูกกด · ICP สูง = ก้อนใหญ่อุด fourth ventricle → ก้อนใหญ่ที่ <b>cerebellopontine angle ขวา = right vestibular schwannoma</b> · ไฟล์ผู้จดตอบ <b>\"ans: vestibular schwannoma\"</b> และลายมือ P'Ing \"Rt. corticospinal tract\" \"finger to nose\" <b>\"Lt. conductive, Rt. neurosensory ↓ → Rt. CN8\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้า Weber ไปขวา Rinne ปกติ finger-to-nose ซ้ายเสีย และอ่อนแรงซีกขวา",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าอ่อนแรงซีกซ้ายร่วมชาและไม่สนใจซีกซ้าย (neglect) ลานสายตาล่างซ้ายเสีย การได้ยินปกติ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามองขึ้นไม่ได้ ร่วม hydrocephalus การได้ยินปกติ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเวียนศีรษะเดินเซทันที finger-to-nose ซ้ายเสีย การได้ยินปกติ"
+   "B": "ก้อนซ้ายจะทำให้หูซ้ายเสีย (Weber ไปขวา) ataxia ซ้าย และอ่อนแรงซีกขวา · จะถูกถ้า Weber ไปขวา finger-to-nose ซ้ายผิดปกติ อ่อนแรงซีกขวา",
+   "C": "Glioma ที่ parietal ขวาทำให้อ่อนแรง/ ชาซีกซ้ายได้ แต่ไม่ทำให้หูขวาเสียและ ataxia ขวา · จะถูกถ้าผู้ป่วยอ่อนแรงซีกซ้าย ชาซีกซ้าย ไม่สนใจด้านซ้าย (neglect)",
+   "D": "Pineal tumor ทำให้ Parinaud + hydrocephalus ไม่ทำให้หูเสียข้างเดียว · จะถูกถ้าวัยรุ่นมองขึ้นไม่ได้ ปวดหัว",
+   "E": "Cerebellar infarction ซ้ายทำให้ ataxia ซ้าย เกิดเฉียบพลัน ไม่ทำให้หูขวาเสีย · จะถูกถ้าผู้ป่วยเวียนหัวทันที เดินเซไปซ้าย finger-to-nose ซ้ายผิดปกติ"
   },
-  "trap": "Weber ไปข้างซ้ายไม่ได้แปลว่าหูซ้ายเสีย — ถ้า Rinne ปกติ (AC > BC) แปลว่าหูขวาเสียแบบประสาท · ก้อน CPA ให้ dysmetria ข้างเดียวกับก้อน แต่อ่อนแรงข้างตรงข้าม",
+  "trap": "แปล Weber ผิดข้าง — ประสาทหูเสีย Weber ไปข้างหูดี (ซ้าย) จึงหูขวาเสีย ก้อนอยู่ขวา",
   "summary": [
-   "<b>นอกสไลด์:</b> อ่านส้อมเสียง: Weber ไปข้างที่เสีย + Rinne ข้างนั้น BC > AC = conductive · Weber ไปข้างหนึ่ง + Rinne AC > BC ทั้งสองข้าง = SNHL ของหูข้างตรงข้ามกับที่ Weber ไป"
+   "Weber: conductive → ไปข้างเสีย · sensorineural → ไปข้างดี",
+   "Rinne ปกติ/ SNHL: AC &gt; BC · conductive: BC &gt; AC",
+   "CPA tumor ใหญ่: CN VIII → V → VII + ataxia ข้างเดียวกัน + hemiparesis",
+   "Hemiparesis จากกดก้านสมองเหนือ decussation → ฝั่งตรงข้าม",
+   "ก้อนใหญ่อุด fourth ventricle → hydrocephalus/ ICP สูง",
+   "รักษาก้อนใหญ่: ผ่าตัด (retrosigmoid/ translabyrinthine)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "ตอบ A (right vestibular schwannoma) ความมั่นใจสูง — ตรงกับคำตอบที่ผู้จดเขียนและการแปลผลของ P'Ing ในไฟล์ (Rt. CN8) · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่มโดยระบุข้าง",
+  "mnemonic": "<b>'Weber ไปข้างดีถ้าประสาทเสีย · CPA ก้อน = หู + เซ ข้างเดียวกัน อ่อนแรงข้ามฝั่ง'</b>",
+  "guide": "Congress of Neurological Surgeons Guidelines on Vestibular Schwannomas (Neurosurgery 2018;82:E32); Bates' Guide to Physical Examination 13th ed. (2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> Weber ไปซ้าย Rinne หูซ้าย BC > AC → หูซ้ายเสียแบบนำเสียง (ขี้หูอุด หูชั้นกลางอักเสบ)",
-   "<b>นอกสไลด์:</b> อ่อนแรงซีกซ้ายร่วม finger-to-nose ซ้ายเสีย การได้ยินปกติ → ataxic hemiparesis (lacunar ที่ pons หรือ internal capsule ขวา)"
+   "Weber ไปขวา Rinne ขวา BC &gt; AC → conductive hearing loss หูขวา (เช่น ขี้หูอุด)",
+   "vestibular schwannoma ขนาดเล็ก หูไม่ได้ยิน → เฝ้าดู MRI/ radiosurgery",
+   "CPA tumor ใหญ่ hydrocephalus → ผ่าตัดเอาก้อนออก"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 15 — ตัวพิมพ์: <b>28. A middle aged man presented with increased intracranial pressure, left hemiparesis, right FTN +ve, weber lateralised to left but rinne AC&gt;BC both ears ans: vestibular schwannoma</b><br>ลายมือ: \"Rt. corticospinal tract\" เหนือ left hemiparesis · \"finger to nose\" เหนือ FTN · \"Lt. conductive, Rt. neurosensory ↓ → Rt. CN8\"<br>ไฮไลต์: วง \"ans\" · \"middle aged man\" \"increased intracranial pressure, left hemiparesis, right FTN +ve\" · \"weber lateralised to left but rinne AC&gt;BC both ears\" (เหลือง)<br>ที่ปรับในเว็บ: ไม่มีช้อย → แต่งช้อย A–E ระบุข้าง",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 15",
+  "kimg": [
+   "fsp_p15",
+   "kp70c_28"
   ]
  },
  "MDCU70|RoC|29": {
-  "interp": "ชายวัยกลางคน ICP สูงค่อยเป็นค่อยไป + อ่อนแรงซีกซ้าย → ก้อนโตช้าที่ผิวสมองซีกขวา (โจทย์เดียวกับ RoB 59 ของชุดนี้ — ข้อนี้เก็บมุมภาพและการรักษา)",
-  "why": "<b>คีย์: convexity meningioma — tumor ที่ผิวสมอง (เหมือนข้อ 59 ของ 70B)</b><br><b>นอกสไลด์:</b> convexity meningioma อยู่นอกเนื้อสมองใต้กะโหลก กด motor cortex ซีกขวาจากด้านนอก อาการค่อยเป็นค่อยไปเป็นปีทำให้ก้อนโตได้มากก่อนมีอาการ",
+  "interp": "ชายวัยกลางคน <b>ความดันในกะโหลกสูงค่อยเป็นค่อยไป + อ่อนแรงซีกซ้าย</b> → ถามวินิจฉัย",
+  "why": "อ่อนแรงซีกซ้ายค่อยเป็นค่อยไป = ก้อนกด<b>สมองซีกขวาบริเวณ motor cortex</b> · ร่วมกับ ICP สูงเรื้อรัง (ปวดหัว papilledema) จากก้อนโตช้า → <b>convexity meningioma ซีกขวา</b> (ก้อนนอกเนื้อสมองที่ผิวสมอง) · ไม่มีอาการหู ตา ฮอร์โมน หรือ ataxia ที่ชี้ตำแหน่งอื่น · MRI: extra-axial enhance สม่ำเสมอ dural tail · รักษาด้วยผ่าตัด · ไฟล์ผู้จดตอบ <b>\"ans: convexity meningioma\"</b> และลายมือ P'Ing <b>\"✓ tumor @ brain surface\"</b> พร้อมแปะข้อ 59 ของ 70B ที่คล้ายกัน",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าชายวัยกลางคนลานสายตาด้านขมับเสียสองข้าง libido ลด และก้อนอยู่ใน sella",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กชาย 12 ปีมองขึ้นไม่ได้ ก้อนที่ pineal และ β-hCG ใน CSF สูงเล็กน้อย",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเวียนศีรษะ หูอื้อเสียงวี้ข้างเดียวหลายปี audiogram เสียความถี่สูงแบบประสาทข้างเดียว",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก 6 ปีเดินเซลำตัว ปวดศีรษะตอนเช้า อาเจียน ก้อนแนวกลางใน fourth ventricle"
+   "B": "Pituitary adenoma ทำให้ตามัวด้านข้างสองตาและฮอร์โมนผิดปกติ ไม่ทำให้อ่อนแรงครึ่งซีก · จะถูกถ้าผู้ป่วยตามัวด้านข้างสองตา ปวดหัว",
+   "C": "Pineal germinoma พบในวัยรุ่น ทำให้ Parinaud + hydrocephalus · จะถูกถ้าเด็กชาย 14 ปีมองขึ้นไม่ได้ β-hCG ใน CSF สูง",
+   "D": "Vestibular schwannoma ทำให้หูไม่ได้ยินข้างเดียว ± ataxia · จะถูกถ้าผู้ป่วยหูซ้ายไม่ได้ยินค่อยเป็น เสียงในหู",
+   "E": "Medulloblastoma พบในเด็ก ก้อนที่ vermis ทำให้เดินเซ hydrocephalus · จะถูกถ้าเด็ก 6 ปีปวดหัวตอนเช้า อาเจียน เดินเซ"
   },
-  "trap": "meningioma พบในหญิงมากกว่า แต่ชายก็เป็นได้ อย่าตัดเพราะเพศ · อาการซีกซ้าย → ก้อนขวา (ช้อยระบุ right)",
+  "trap": "เลือก schwannoma เพราะคุ้นกับข้อก่อน — อาการแค่อ่อนแรงครึ่งซีก + ICP สูงเรื้อรัง ชี้ก้อนที่ผิวสมองซีกตรงข้าม",
   "summary": [
-   "<b>นอกสไลด์:</b> ภาพ: ก้อนนอกเนื้อสมอง ฐานกว้างติด dura enhance สม่ำเสมอ มี dural tail, CSF cleft คั่น, กระดูกหนาตัว/หินปูนได้",
-   "<b>นอกสไลด์:</b> รักษา: มีอาการหรือโตต่อ → ผ่าตัดเอาออกพร้อม dura และกระดูกที่เกาะ (Simpson grade ยิ่งต่ำยิ่งเป็นซ้ำน้อย) · ก้อนเล็กไม่มีอาการ → MRI ติดตาม · เหลือก้อน/ผ่าตัดไม่ได้ → radiosurgery/RT"
+   "อ่อนแรงซีกเดียวค่อยเป็น + ICP สูง → ก้อนที่ผิวสมองซีกตรงข้าม",
+   "Convexity meningioma: extra-axial · dural tail · โตช้า",
+   "Pituitary: ตา + ฮอร์โมน",
+   "Pineal: Parinaud + hydrocephalus",
+   "CPA: หู + ataxia",
+   "Medulloblastoma: เด็ก · vermis · ataxia"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับคำตอบที่ผู้จดเขียนและลายมือ P'Ing · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
+  "mnemonic": "<b>'อ่อนแรงซีกซ้าย + ICP สูงช้า ๆ = meningioma ผิวสมองขวา'</b>",
+  "guide": "EANO Guideline on the Diagnosis and Management of Meningiomas (Neuro Oncol 2021;23:1821)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัด convexity meningioma ผลชิ้นเนื้อ WHO grade 2 (atypical) ตัดได้ไม่หมด → ฉายรังสีเสริม",
-   "<b>นอกสไลด์:</b> meningioma ใหญ่มีเลือดเลี้ยงมาก → อุด middle meningeal artery ก่อนผ่าตัดเพื่อลดการเสียเลือด"
+   "หญิง 55 ปีอ่อนแรงแขนขวาค่อยเป็น ชักเฉพาะที่ MRI ก้อน extra-axial ซีกซ้าย → convexity meningioma",
+   "ผู้ป่วยขาสองข้างอ่อนแรง MRI ก้อนติด falx → parasagittal meningioma",
+   "ผู้ป่วยตามัวข้างเดียว ก้อนที่ sphenoid wing → sphenoid wing meningioma"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 15 — ตัวพิมพ์: <b>29. A middle aged man presented with increased intracranial pressure, left hemiparesis ans: convexity meningioma</b><br>ลายมือ: \"✓ tumor @ brain surface\"<br>ไฮไลต์: วง \"ans\" · \"middle aged man\" \"increased intracranial pressure, left hemiparesis\"<br>รูปที่แปะ: ภาพข้อ 59 ของ 70B (A 62-year old woman … left hemiparesis and papilledema … C. Convexity meningioma ✓) พร้อมลายมือเดิม<br>ที่ปรับในเว็บ: ไม่มีช้อย → แต่งช้อย A–E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 15",
+  "kimg": [
+   "fsp_p15",
+   "kp70c_29"
   ]
  },
  "MDCU70|RoC|32": {
-  "interp": "ผู้สูงอายุไข้ ไอ + pleural effusion (สงสัย parapneumonic) → ถามขั้นต่อไป",
-  "why": "<b>คีย์: เอาน้ำมาตรวจ (gram stain + culture) · ใส่ ICD หลัง tap · decortication ถ้า ICD ไม่ได้ผล · ลายมือ ต้องแยก sterile effusion / empyema · acute phase เป็นน้ำ chronic phase เป็นพังผืด</b><br><b>นอกสไลด์:</b> parapneumonic effusion ที่หนาพอจะเจาะ ต้องเจาะวินิจฉัยใต้ US ส่ง pH (เก็บใน syringe มี heparin วัดด้วยเครื่อง blood gas), glucose, LDH, protein, cell count, gram stain/culture (ใส่ขวดเพาะเชื้อเลือดเพิ่มผลบวก) และ cytology ถ้าสงสัยมะเร็ง",
+  "interp": "ชายสูงอายุ <b>ไข้ ไอ</b> CXR พบ<b>น้ำในช่องเยื่อหุ้มปอด</b> → ถามขั้นต่อไป",
+  "why": "ไข้ + ไอ + pleural effusion = สงสัย <b>parapneumonic effusion/ empyema</b> → ต้อง<b>เจาะน้ำตรวจ (diagnostic thoracentesis)</b> โดยใช้ US นำ เพื่อแยก<b>น้ำใสไม่ติดเชื้อ vs. complicated/ empyema</b>: ลักษณะ (หนอง), pH, glucose, LDH, protein, <b>gram stain + culture</b> · หนอง หรือ pH &lt; 7.2 หรือ glucose &lt; 60 mg/dL หรือ gram stain/ culture บวก → ใส่สายระบาย (ICD) · loculated/ ระบายไม่ได้ผล → intrapleural tPA + DNase หรือ VATS · organizing phase/ ปอดถูกรัด → decortication · ไฟล์ P'Ing วง 2 ลายมือ <b>\"✓ เอา fluid มา investigate ต่อ : gram stain + culture\"</b> \"ต้องแยกว่าเป็น sterile effusion / empyema thoracis\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้า US พบน้ำเพียงชั้นบาง (&lt; 1 cm) ที่เจาะไม่ได้อย่างปลอดภัย → ให้ยาปฏิชีวนะแล้วติดตามด้วย US",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าน้ำในช่องอกร่วมปอดแฟบทั้งกลีบและ trachea เอียงเข้าหาข้างที่มีน้ำ (สงสัยก้อนอุดหลอดลม)",
-   "D": "คีย์: ใส่หลัง tap — <b>นอกสไลด์:</b> จะถูกถ้าเจาะได้หนองชัด หรือ pH ≤ 7.2 → ใส่สายระบายทรวงอก",
-   "E": "คีย์: ถ้า ICD ไม่ได้ผล — <b>นอกสไลด์:</b> จะถูกถ้า empyema ระยะ organizing เยื่อหุ้มปอดหนา ปอดไม่ขยาย แม้ระบายด้วยสายแล้ว"
+   "A": "US ช่วยยืนยันน้ำ ดู loculation และนำทางการเจาะ แต่ไม่บอกว่าติดเชื้อหรือไม่ ต้องได้น้ำมาตรวจ · จะถูกถ้าคำถามถามสิ่งที่ใช้นำทางก่อนเจาะ thoracentesis",
+   "C": "Bronchoscopy ใช้เมื่อสงสัยก้อนอุดหลอดลมหรือมะเร็ง · จะถูกถ้าผู้สูงอายุสูบบุหรี่ ปอดแฟบทั้งกลีบไม่ดีขึ้น สงสัยก้อนในหลอดลม",
+   "D": "ใส่ ICD หลังเจาะได้ผลว่าเป็น complicated effusion/ empyema (ลายมือ \"x ใส่หลัง tap\") · จะถูกถ้าเจาะได้หนอง หรือ pH &lt; 7.2",
+   "E": "Decortication ใช้ในระยะ organizing ที่ ICD ระบายไม่ได้ผล ปอดถูกเปลือกรัด (ลายมือ \"x ถ้า ICD ไม่ work\") · จะถูกถ้าใส่ ICD แล้วยังมีไข้ ปอดไม่ขยาย CT เห็นเปลือกหนา"
   },
-  "trap": "รีบใส่สายก่อนรู้ชนิดน้ำ — น้ำแบบไม่ซับซ้อนหายด้วยยาปฏิชีวนะอย่างเดียว · pH จากกระดาษวัดหรือเก็บสัมผัสอากาศไม่แม่น",
+  "trap": "ใส่สายระบายเลยโดยไม่เจาะดูก่อน — ต้องรู้ว่าเป็น simple หรือ complicated/ empyema ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> Light's criteria (exudate ถ้าเข้าข้อใดข้อหนึ่ง): protein น้ำ/เลือด > 0.5 · LDH น้ำ/เลือด > 0.6 · LDH น้ำ > 2/3 ของค่าบนปกติในเลือด"
+   "Parapneumonic: exudative (ใส) → fibrinopurulent → organizing (เปลือก)",
+   "เจาะตรวจ: pH · glucose · LDH · protein · gram stain · culture",
+   "ICD เมื่อ: หนอง · pH &lt; 7.2 · glucose &lt; 60 · gram stain/ culture บวก · loculated",
+   "Loculated → tPA + DNase ในช่องเยื่อหุ้มปอด",
+   "ไม่ดีขึ้น → VATS/ decortication",
+   "Light criteria: แยก exudate vs transudate"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง 2 ✓ และลายมือในไฟล์ · ปฏิบัติจริงใช้ US นำการเจาะร่วมด้วย",
+  "mnemonic": "<b>'ไข้ + น้ำในปอด = เจาะดู (Tap) ก่อน แล้วค่อยระบาย (Tube) แล้วค่อยลอกเปลือก (Decorticate)'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); AATS Expert Consensus Guidelines for the Management of Empyema (J Thorac Cardiovasc Surg 2017;153:e129)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยหัวใจล้มเหลวมีน้ำสองข้างพอ ๆ กัน ไม่มีไข้ → ยังไม่ต้องเจาะ ให้ยาขับปัสสาวะก่อน (เจาะเมื่อไม่ตอบสนอง ไม่สมมาตร หรือมีไข้)",
-   "<b>นอกสไลด์:</b> ผู้ป่วยอายุน้อยน้ำในช่องอกเป็น exudate lymphocyte เด่น ADA สูง → วัณโรคเยื่อหุ้มปอด"
+   "เจาะได้หนองข้น → ICD + ATB",
+   "ใส่ ICD 1 สัปดาห์ ยังไข้ CT เห็นเปลือกหนาปอดไม่ขยาย → VATS decortication",
+   "น้ำในปอด LDH/ protein ต่ำ ผู้ป่วยหัวใจวาย → transudate รักษาสาเหตุ"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 15–16 — ตัวพิมพ์: <b>32.ชายแก่ ไข้ ไอ CXR เจอ pleural effusion ทำอะไรต่อ — 1.Ultrasoud effusion 2.Thoracocentesis 3.Bronchoscope 4.ICD 5.Decorticate</b><br>ลายมือ: \"ต้องแยกว่าเป็น sterile effusion / empyema thoracis\" · 2 \"✓ เอา fluid มา Investigate ต่อ : gram stain + culture\" · \"acute phase : fluid\" ข้าง 4 · \"chronic phase : fibrous\" ข้าง 5 · 4 \"x ใส่หลัง tap\" · 5 \"x ถ้า ICD ไม่ work\" (แดง)<br>ไฮไลต์: วง 2 · \"แก่\" \"ไข้\" · \"ไอ CXR เจอ pleural effusion\" (เหลือง)",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 15",
+  "kimg": [
+   "fsp_p15",
+   "kp70c_32a",
+   "kp70c_32b"
   ]
  },
  "MDCU70|RoC|43": {
-  "interp": "หลังอุบัติเหตุ เลือดออกจากจมูกและปาก + ความดันต่ำ → ทำอะไรก่อน (โจทย์เดียวกับ RoB 27 ของชุดนี้ — ข้อนี้เก็บมุมวิธีใส่ท่อ)",
-  "why": "<b>คีย์: airway management</b><br><b>นอกสไลด์:</b> เลือดจากใบหน้าไหลลงคอ ผู้ป่วยช็อกหรือซึมป้องกันทางเดินหายใจเองไม่ได้ → ใส่ท่อทางปากแบบ rapid sequence intubation ร่วมจับศีรษะให้คอนิ่ง (manual in-line stabilization) เตรียมเครื่องดูด 2 สาย · ห้ามใส่ทางจมูกเพราะอาจมีฐานกะโหลกแตก",
+  "interp": "ผู้ป่วยอุบัติเหตุจักรยานยนต์ <b>เลือดออกทางจมูกและปาก + ความดันต่ำ</b> → ถามสิ่งที่ทำเป็นอันดับแรก",
+  "why": "ลำดับ ATLS คือ <b>Airway ก่อน</b> · เลือดจากใบหน้า (maxillary/ palatine artery ใน maxillary fracture) ไหลลงคอ ทำให้สำลักและอุดทางเดินหายใจ ผู้ป่วยความดันต่ำมักซึม ป้องกันทางเดินหายใจเองไม่ได้ → <b>ใส่ท่อช่วยหายใจทางปาก</b> (เตรียม surgical airway ถ้าใส่ไม่ได้ · ห้ามใส่ทางจมูกเมื่อสงสัยฐานกะโหลกแตก) ควบคู่การป้องกันกระดูกคอ แล้วจึงห้ามเลือด (nasal packing → Barton → embolization) และให้เลือด/ สารน้ำ · ข้อนี้ซ้ำกับข้อ 27 ของ 70B · ไฟล์ P'Ing วง 1 ลายมือ <b>\"✓ airway management\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยช็อกจากเลือดออกในช่องท้อง พูดได้ชัด ทางเดินหายใจโล่ง → เปิดเส้นให้เลือดได้เลย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดกำเดาไหลจากด้านหน้าหลังจมูกกระแทก ผู้ป่วยรู้ตัวดี หายใจได้ สัญญาณชีพปกติ บีบจมูก 10–15 นาทีร่วมยาหดหลอดเลือดแล้วยังไม่หยุด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าใส่ท่อและอัดจมูกทั้งหน้าและหลังแล้วเลือดจากใบหน้ายังไม่หยุด (สาขาของ maxillary artery)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยสัญญาณชีพปกติ ทางเดินหายใจปลอดภัย เหลือประเมินกระดูกหน้าในที่ที่ไม่มี CT"
+   "B": "ให้สารน้ำ/ เลือดสำคัญ แต่ทำควบคู่หลังจัดการทางเดินหายใจ · จะถูกถ้าใส่ท่อแล้ว ทางเดินหายใจปลอดภัย ความดันยังต่ำ",
+   "C": "Nasal packing ทำหลังใส่ท่อช่วยหายใจ · จะถูกถ้าใส่ท่อแล้ว ยังมีเลือดออกจากจมูกต่อเนื่อง",
+   "D": "Embolization ใช้เมื่อ packing และ compression ไม่หยุดเลือด · จะถูกถ้าใส่ท่อ ใส่ packing หน้า-หลัง แล้วยังเลือดออก",
+   "E": "ภาพรังสีใบหน้าทำหลังผู้ป่วยคงที่ (ปัจจุบันใช้ CT) · จะถูกถ้าผู้ป่วยคงที่ ทางเดินหายใจปลอดภัย ต้องการประเมินกระดูกใบหน้าหัก"
   },
-  "trap": "ความดันต่ำทำให้อยากเปิดเส้นก่อน แต่ airway มาก่อน circulation · ยานำสลบใน RSI ทำความดันตกต่อได้ → ลดขนาดยาและให้เลือดไปพร้อมกัน",
+  "trap": "แก้ความดันต่ำก่อน — เลือดไหลลงทางเดินหายใจคุกคามชีวิตเร็วกว่า A มาก่อน C",
   "summary": [
-   "<b>นอกสไลด์:</b> ทางเดินหายใจแบบผ่าตัด (cricothyroidotomy) เมื่อใส่ท่อไม่ได้และช่วยหายใจด้วย bag-mask ไม่ได้ หรือใบหน้าบาดเจ็บจนมองกล่องเสียงไม่เห็น · เด็กเล็กใช้ needle cricothyroidotomy"
+   "ATLS: A (+ c-spine) → B → C → D → E",
+   "เลือดออกใบหน้ามาก → ใส่ท่อทางปาก/ surgical airway",
+   "ห้ามใส่ท่อ/ สายทางจมูกเมื่อสงสัย basilar skull fracture",
+   "ห้ามเลือด: anterior + posterior packing → Barton dressing → embolization",
+   "Manual reduction ของกระดูก · ผูก external carotid (น้อย)",
+   "ให้เลือด + แก้ coagulopathy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง 1 ✓ และลายมือในไฟล์ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'เลือดท่วมหน้า = ท่อก่อน (A) แล้วค่อยอุด'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (ACS 2018) — Chapter 2 Airway and Ventilatory Management",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยถูกยิงที่คอ ก้อนเลือดโตขึ้น เสียงแหบ หายใจเสียงดัง → ใส่ท่อเร็วก่อนบวมปิดทางเดินหายใจ",
-   "<b>นอกสไลด์:</b> ผู้ป่วยบาดเจ็บใบหน้ารู้ตัวดี นั่งก้มหน้าให้เลือดไหลออกได้ หายใจโล่ง ไม่มีบาดเจ็บกระดูกคอ → ให้นั่งท่าที่หายใจสบาย ไม่บังคับนอนหงาย"
+   "ผู้ป่วยหน้ายุบเลือดท่วมปาก ใส่ท่อทางปากไม่ได้ → cricothyroidotomy",
+   "ใส่ท่อแล้วเลือดยังออกจากจมูก → anterior + posterior nasal packing",
+   "สงสัยฐานกะโหลกแตก (raccoon eyes, CSF rhinorrhea) → ห้ามใส่ NG/ nasotracheal tube"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 16 — ตัวพิมพ์: <b>43. ตรง ac ผู้ป่วย motorcycle accident มี nasal and oral bleeding, hypotension ควรทำอะไรเป็นอันดับแรก — 1. ใส่ ET tube 2. IV resuscitation 3. anterior nasal packing</b><br>ลายมือ: 1 \"✓ airway management\"<br>ไฮไลต์: วง 1 · \"motorcycle accident\" · \"nasal and oral bleeding, hypotension\"<br>รูปที่แปะ: สไลด์ EMERGENCY TREATMENT 2 แผ่นเดียวกับข้อ 27 ของ 70B (Breathing and ventilation · Circulation and hemorrhage control: maxillary fracture → hemorrhage from maxillary and palatine artery · Profuse nasopharyngeal bleeding control: anterior/ posterior nasal packing, facial compression dressing (Barton dressing), angiographic embolization, manual reduction, bilateral external carotid and superficial temporal artery ligation (rare), blood and coagulation factor replacement)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 16",
+  "kimg": [
+   "fsp_p16",
+   "kp70c_43"
   ]
  },
  "MDCU70|RoC|44": {
-  "interp": "แผลผนังหน้าท้อง 5 × 8 cm ลึกถึงไขมัน ฐานเป็น granulation สะอาด ดึงขอบชนกันไม่ได้ → ถามวิธีปิดแผล",
-  "why": "<b>คีย์: skin graft · ข้อบ่งชี้ flap: ฐานแผลเลือดน้อย, ต้องการเนื้อหนาคลุมกระดูกที่นูน, ต้องการกล้ามเนื้อที่ทำงาน, คุมการติดเชื้อ · skin graft ต้องมีเลือดเลี้ยงดี ใช้กับกระดูก/เอ็นเปลือยไม่ได้</b><br><b>นอกสไลด์:</b> granulation สะอาด = ฐานเลือดดี graft ติดด้วย imbibition (ราว 48 ชม.แรก) → inosculation → หลอดเลือดงอกเข้า · แผลกว้างใช้ split-thickness skin graft",
+  "interp": "หญิง 35 ปี <b>แผลผนังหน้าท้อง 5 × 8 cm ลึกถึงไขมันใต้ผิวหนัง</b> แผลสะอาดมี granulation ขอบแผลดึงมาชนกันไม่ได้ → ถามการรักษา",
+  "why": "ตาม <b>reconstructive ladder</b>: แผลขนาดใหญ่ที่เย็บปิดตรงไม่ได้ แต่<b>พื้นแผลมีเลือดมาเลี้ยงดี</b> (ไขมัน/ granulation tissue สะอาด) ไม่มีกระดูก เอ็น หรืออวัยวะสำคัญเปลือย → <b>skin graft (STSG)</b> เหมาะที่สุด · graft ไม่มีเลือดเลี้ยงของตัวเอง อาศัยเลือดจากพื้นแผล (imbibition → inosculation → revascularization) จึง<b>ใช้ไม่ได้บนกระดูก/ เอ็นเปลือย</b> หรือพื้นแผลเลือดน้อย ซึ่งต้องใช้ flap · ไฟล์ P'Ing วง 3 และแปะ <b>\"Skin grafting : ใช้ในกรณีที่เย็บแผลเข้าหากันไม่ได้ · ไม่มี blood supply ของตัวเอง → ใช้ blood supply จาก recipient site\"</b> \"ทำไม่ได้ถ้า poor blood supply, bare bone, bare tendon\" กับกรอบ <b>\"Flap Indication\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าแผลสะอาดที่ดึงขอบมาชนกันได้โดยไม่ตึง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าแผลเล็กตื้นที่ผนังหน้าท้องหลังแผลผ่าตัดติดเชื้อ ซึ่งหายเองได้ในไม่กี่สัปดาห์",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าฐานแผลเป็นกระดูกหรือเอ็นเปลือย หรืออยู่บนจุดกดทับที่ต้องการเนื้อหนา และมีเนื้อเยื่อข้างเคียงพอหมุนมาปิด",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าแผลหลังตัดมะเร็งศีรษะ-คอขนาดใหญ่บนฐานที่เคยฉายรังสี ไม่มีเนื้อเยื่อข้างเคียงพอ"
+   "A": "Primary closure ทำไม่ได้เมื่อขอบแผลดึงมาชนกันไม่ได้ (ตึงเกิน แผลแยก) · จะถูกถ้าแผลขอบเรียบสะอาดขนาดเล็ก ดึงขอบมาชนกันได้โดยไม่ตึง",
+   "B": "ปล่อยหายเองได้แต่ช้ามากในแผล 5 × 8 cm และเกิดแผลเป็นหดรั้ง · จะถูกถ้าแผลติดเชื้อ/ ยังไม่สะอาด หรือแผลเล็กตื้น (ร่วมกับ NPWT)",
+   "D": "Local flap ใช้เมื่อพื้นแผลเลือดน้อยหรือมีโครงสร้างสำคัญเปลือย หรือต้องการ padding · จะถูกถ้าแผลที่หน้าแข้งเห็นกระดูกเปลือยไม่มี periosteum",
+   "E": "Free flap ใช้ในแผลซับซ้อนขนาดใหญ่ที่ไม่มี local tissue พอ · จะถูกถ้าแผลเปิดกระดูกหน้าแข้งส่วนล่าง 1/3 ขนาดใหญ่ (Gustilo IIIB)"
   },
-  "trap": "แผลใหญ่ไม่ได้แปลว่าต้องใช้ flap — เลือกตามฐานแผล (reconstructive ladder: วิธีง่ายที่สุดที่ได้ผล) · ปล่อยหายเองแผล 5 × 8 cm ใช้เวลานานและหดรั้ง",
+  "trap": "เลือก flap เพราะแผลใหญ่ — พื้นแผลไขมัน/ granulation เลือดดี ใช้ skin graft ได้ (ขั้นที่ง่ายที่สุดที่ได้ผล)",
   "summary": [
-   "<b>นอกสไลด์:</b> STSG หดตัวหลังติด (secondary contraction) มากกว่า FTSG แต่ติดง่ายกว่าและบริเวณที่ตัดผิวหายเอง · FTSG ใช้แผลเล็กบนหน้า/มือ/ข้อพับที่ไม่ต้องการให้หดรั้ง"
+   "Reconstructive ladder: secondary intention → primary → graft → local flap → free flap",
+   "Graft ต้องการพื้นแผลเลือดดี · ไม่ติดบนกระดูก/ เอ็นเปลือย (ติดได้ถ้ามี periosteum/ paratenon)",
+   "STSG: บาง ติดง่าย แต่หดรั้งมาก (secondary contraction)",
+   "FTSG: สวย หดน้อย ติดยากกว่า (หน้า มือ)",
+   "Flap indication: พื้นแผลเลือดน้อย · padding ปุ่มกระดูก · ต้องการกล้ามเนื้อทำงาน · คุมการติดเชื้อ",
+   "Composite graft: ≤ 1 cm (ปลายจมูก ใบหู)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง (stem เติม clean granulating และปิดตรงไม่ได้ตามคีย์)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง 3 และสรุปที่แปะในไฟล์ · โจทย์เว็บเพิ่มรายละเอียดว่าแผลสะอาดมี granulation และขอบชนกันไม่ได้",
+  "mnemonic": "<b>'พื้นแผลเลือดดี = Graft · กระดูก/ เอ็นเปลือย = Flap'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2019) — Skin grafts and the reconstructive ladder; Neligan Plastic Surgery 5th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลกว้างที่ต้นขาฐาน granulation ดูดี แต่เพาะเชื้อพบ β-hemolytic streptococcus → รักษาเชื้อก่อน (graft ไม่ติดแม้เชื้อน้อย)",
-   "<b>นอกสไลด์:</b> ฝ่ามือเด็กแผลไหม้ลึกตรงข้อพับนิ้ว → full-thickness skin graft (หดรั้งน้อย)"
+   "แผลหน้าแข้งเห็นกระดูกเปลือย → local/ free flap",
+   "แผลเล็กขอบสะอาดดึงชนได้ → primary closure",
+   "แผลกดทับลึกถึง sacrum → gluteal flap"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 16 — ตัวพิมพ์: <b>44.ผู้หญิง อายุ 35ปี มีแผลหน้าท้อง ลึกถึง subcutaneous fat ขนาด 5×8 cm ควรรักษาด้วยวิธีใด — 1.primary closure 2.secondary closure 3.skin graft 4.skin flap 5.free flap</b><br>ลายมือ: ไม่มีที่ช้อย<br>ไฮไลต์: วง 3 · \"มีแผลหน้าท้อง\" · \"subcutaneous fat ขนาด 5×8 cm\"<br>รูปที่แปะ: กรอบ Flap Indication — poorly vascularized recipient bed · padding body prominence · required functional motor unit · to control the infection · สรุป Skin grafting — ใช้ในกรณีที่เย็บแผลเข้าหากันไม่ได้ · วิธี: เอา epidermis + dermis จากบริเวณอื่นมาปลูกถ่าย · ไม่มี blood supply ของตัวเอง → ใช้ blood supply จาก recipient site · STSG: Epidermis + Dermis บางส่วน (ลายมือ \"elastic fiber ↓\"), donor site หายเอง, ข้อดี บาง ติดง่าย, ข้อเสีย เกิด secondary contraction ได้มากกว่า (ลายมือ \"แผลหด: contract มาก\") · FTSG: Epidermis + Dermis ทั้งหมด, donor site ต้องเย็บปิด/ ใช้ STSG, ข้อดี คุณภาพใกล้เคียงผิวมากกว่า contraction น้อยกว่า, ข้อเสีย หนา ติดยากกว่า · Composite graft: skin + tissue อื่น ติดยากสุด ขนาดไม่ควรเกิน 1 cm² (ลายมือ \"แต่ละด้านไม่เกิน 0.5 cm\") · ลายมือแดง \"ทำไม่ได้ถ้า poor blood supply, bare bone, bare tendon\" + \"ถ้ามี periostium\" พร้อมภาพชั้นผิวหนัง<br>ที่ปรับในเว็บ: stem เพิ่มว่าแผลสะอาดมี granulation และขอบชนกันไม่ได้",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 16",
+  "kimg": [
+   "fsp_p16",
+   "kp70c_44"
   ]
  }
 }
