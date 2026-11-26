@@ -1,154 +1,266 @@
 {
  "MDCU66|RoA|1": {
-  "interp": "ชายวัยกลางคน ริดสีดวงยื่นค้างและมีลิ่มเลือด (thrombosed prolapsed internal hemorrhoid = มีภาวะแทรกซ้อน) → ถามการรักษา",
-  "why": "<b>คีย์: A · ลายมือ มี complication → ผ่าตัด</b><br><b>นอกสไลด์:</b> ริดสีดวงภายในที่ยื่นค้าง (grade IV) ถูกหูรูดบีบ เลือดดำไหลกลับไม่ได้ → ลิ่มเลือดและบวม ถ้าปล่อยไว้เสี่ยงเนื้อตาย → excisional hemorrhoidectomy",
+  "interp": "ชายกลางคนมี <b>thrombosed prolapsed hemorrhoid</b> (ริดสีดวงภายในย้อยออกมาแล้วมีลิ่มเลือด) ถามการรักษา",
+  "why": "ริดสีดวงที่มี<b>ภาวะแทรกซ้อน</b> — prolapsed strangulated/ thrombosed หรือเลือดออกต่อเนื่องจนซีด — เป็นข้อบ่งชี้ผ่าตัด <b>hemorrhoidectomy</b> เพราะการรักษาที่คลินิก (ยาง/ ฉีดยา) ใช้ไม่ได้กับก้อนที่ย้อยถาวรและมีลิ่มเลือด · ไฟล์ขีด A ลายมือ <b>\"ถ้า complication → Sx\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ห้ามรัดก้อนที่มีลิ่มเลือด/บีบรัด เพราะปวดมากและเสี่ยงเนื้อตาย · จะถูกถ้า grade II–III เลือดออก ไม่มีลิ่มเลือด และไม่ดีขึ้นด้วยใยอาหาร",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า grade I–II ที่เลือดออกในผู้ป่วยกินยาต้านเกล็ดเลือด (เลี่ยงการรัด)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงหลังคลอดมีริดสีดวงภายนอกบวมเจ็บ ไม่มีลิ่มเลือด → แช่น้ำอุ่นร่วมใยอาหาร บรรเทาจนยุบเอง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ยา flavonoid กินเป็นการรักษาเดียวของริดสีดวง เพราะเป็นแค่ยาบรรเทาอาการช่วงกำเริบ พื้นฐานของการรักษาทุกระดับคือใยอาหารและน้ำให้อุจจาระนุ่ม"
+   "B": "Rubber band ligation ใช้กับ internal hemorrhoid grade I–III ที่ไม่มีภาวะแทรกซ้อน · ห้ามรัดก้อนที่มีลิ่มเลือดหรืออยู่ใต้ dentate line (เจ็บมาก) · จะถูกถ้าคำถามถาม internal hemorrhoid grade II เลือดออกซ้ำ",
+   "C": "Sclerotherapy ใช้กับ grade I–II เลือดออก · จะถูกถ้าคำถามถามริดสีดวงเล็ก ๆ เลือดออก ผู้ป่วยกินยาต้านเกล็ดเลือด",
+   "D": "Warm sitz bath เป็นการรักษาประคับประคองเสริม ไม่แก้ก้อนที่ย้อยและมีลิ่มเลือด · จะถูกถ้าคำถามถามการดูแลเบื้องต้น/ หลังผ่าตัด หรือ thrombosed external hemorrhoid ที่เกิน 72 ชม.",
+   "E": "Flavonoid (micronized purified flavonoid fraction) ลดอาการเลือดออกในริดสีดวงระยะต้น · จะถูกถ้าคำถามถามการรักษาด้วยยาใน grade I–II"
   },
-  "trap": "สับสนกับ thrombosed external hemorrhoid (ก้อนใต้ dentate line มีผิวหนังคลุม) ซึ่งระยะแรกตัดก้อนออกใต้ยาชาเฉพาะที่ ไม่ต้อง hemorrhoidectomy",
+  "trap": "สับสนกับ <b>thrombosed external hemorrhoid</b> ภายใน 72 ชม. ที่ทำ excision (ไม่ใช่ incision) ภายใต้ยาชาเฉพาะที่ · ข้อนี้เป็น internal hemorrhoid ที่ย้อยและ thrombosed จึงต้อง hemorrhoidectomy",
   "summary": [
-   "<b>นอกสไลด์:</b> Goligher: I เลือดออกไม่ยื่น · II ยื่นแล้วกลับเอง · III ต้องดันกลับ · IV ดันกลับไม่ได้ · ทุก grade เริ่มใยอาหาร/น้ำ · I–III → office procedure (RBL ได้ผลดีสุด) · III–IV/มีภาวะแทรกซ้อน → ผ่าตัด",
-   "<b>นอกสไลด์:</b> thrombosed external hemorrhoid: มาภายใน 72 ชม. → ตัดก้อนออกใต้ยาชาเฉพาะที่ · เกิน 72 ชม. ปวดทุเลาแล้ว → รักษาประคับประคอง"
+   "Grade I: เลือดออก ไม่ย้อย → fiber ± ยา",
+   "Grade II: ย้อยแล้วกลับเอง → RBL",
+   "Grade III: ต้องดันกลับ → RBL หรือผ่าตัด",
+   "Grade IV/ strangulated/ thrombosed → hemorrhoidectomy",
+   "Thrombosed external &lt; 72 ชม. → excision",
+   "Thrombosed external &gt; 72 ชม. → conservative"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ริดสีดวงมีปัญหา (Complication) → Cut (hemorrhoidectomy)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024;67:614)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังรัดหนังยาง 2 วัน ไข้ ปวดทวารมากขึ้น ปัสสาวะไม่ออก → pelvic sepsis: admit ยาฉีดและตรวจใต้ยาสลบ",
-   "<b>นอกสไลด์:</b> หลัง hemorrhoidectomy วันที่ 8 เลือดสดออกมาก → secondary hemorrhage จากสะเก็ดหลุด ต้องห้ามเลือด"
+   "ริดสีดวงย้อยค้าง บวมดำ เจ็บมาก ดันไม่เข้า → hemorrhoidectomy",
+   "ก้อนเจ็บที่ปากทวาร 24 ชม. สีม่วง → thrombosed external → excision",
+   "ริดสีดวง grade II เลือดออกซ้ำแม้กินไฟเบอร์ → rubber band ligation"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>Surgery Subspecialties: by Rotate 1/2556 [MCQ] · COLO 1-15 · 1. ชายกลางคนมาด้วย Thrombosed prolapsed hemorrhoid รักษา? — A. Hemorrhoidectomy B. Rubber band ligation C. Sclerosing agent D. Warm sitz bath</b><br>ลายมือ: เขียน \"ถ้า complication → Sx\" เหนือคำถาม · ขีด A<br>ไฮไลต์: \"Thrombosed prolapsed hemorrhoid รักษา?\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Indications for surgery (ลายมือ \"ถ้า ambulatory Tx ไม่ได้\", \"indication\") — Failure of ... hemorrhoid · External hemorrhoid · Combine hemorrhoid · Skin tag · Complications: prolapsed strangulated hemorrhoid, thrombosis, prolapsed thrombosed, continuous bleeding (ลายมือ \"anemia\") → Hemorrhoidectomy<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–D เว็บเพิ่ม E Oral flavonoid only",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
+  "kimg": [
+   "fsk_p142",
+   "kp66a_1"
   ]
  },
  "MDCU66|RoA|2": {
-  "interp": "ถาม \"standard\" screening test ของมะเร็งลำไส้ใหญ่ในคนความเสี่ยงทั่วไป (คู่กับ RoA 12 ของชุดนี้ที่ถามสำหรับประชาชน)",
-  "why": "<b>คีย์: C</b><br><b>นอกสไลด์:</b> colonoscopy เห็นลำไส้ใหญ่ทั้งหมดและตัด polyp ได้ในครั้งเดียว (ทั้งหาและป้องกันมะเร็ง) เป็นมาตรฐานอ้างอิงที่วิธีอื่นผลบวกต้องตามด้วย",
+  "interp": "ถามการตรวจคัดกรอง <b>colorectal cancer</b> ที่เป็นมาตรฐาน",
+  "why": "<b>Colonoscopy</b> เป็น gold standard เพราะเห็นได้ตลอดลำไส้ใหญ่ ตัดชิ้นเนื้อและตัด polyp ได้ในครั้งเดียว (คนทั่วไปทุก 10 ปี เริ่ม 45–50 ปี) · ไฟล์ขีด C แปะสไลด์ Investigation ลายมือ <b>\"Gold Standard\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ CEA เป็นการตรวจคัดกรองมะเร็งลำไส้ใหญ่ เพราะไวต่ำในระยะแรกและสูงจากสาเหตุอื่น (บุหรี่ ตับ ลำไส้อักเสบ) จึงใช้ติดตามหลังผ่าตัด",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าคนความเสี่ยงทั่วไปไม่ยอมส่องกล้อง → FIT และส่องกล้องเมื่อผลบวก",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ CT ช่องท้องธรรมดาใช้คัดกรองมะเร็งลำไส้ใหญ่ เพราะไม่เห็น polyp (ต่างจาก CT colonography ที่เตรียมลำไส้และเป่าลม)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ภาพรังสีช่องท้องธรรมดาใช้คัดกรอง เพราะเห็นแค่ลำไส้อุดตันหรือลมรั่ว ไม่เห็นก้อนในลำไส้"
+   "A": "CEA ไม่ไวพอสำหรับคัดกรอง ใช้ติดตามหลังผ่าตัด/ ดูการกลับเป็นซ้ำ · จะถูกถ้าคำถามถาม tumor marker ใน surveillance หลังผ่าตัด",
+   "B": "Stool occult blood (gFOBT/ FIT) เป็นการคัดกรองแบบไม่รุกล้ำ ถ้าผลบวกต้องส่อง colonoscopy ต่อ · จะถูกถ้าคำถามถามการคัดกรองระดับประชากรขั้นแรก (โครงการ FIT)",
+   "D": "CT abdomen ใช้ staging หลังวินิจฉัย ไม่ใช้คัดกรอง · จะถูกถ้าคำถามถาม staging ดูการแพร่กระจายไปตับ",
+   "E": "Plain film ไม่เห็นก้อน · จะถูกถ้าคำถามถาม large bowel obstruction"
   },
-  "trap": "FIT ใช้จริงและเป็นด่านแรกของโครงการระดับประเทศ จึงหลอกแรงที่สุด — แต่คำว่า \"standard\" หมายถึงมาตรฐานอ้างอิง ซึ่งคือ colonoscopy",
+  "trap": "สับสนระหว่าง <b>gold standard</b> (colonoscopy) กับการคัดกรอง<b>ขั้นแรกในประชากร</b> (FIT) ที่บางคำถามต้องการ",
   "summary": [
-   "<b>นอกสไลด์:</b> ความเสี่ยงทั่วไปเริ่มอายุ 45 ปี (โครงการไทย 50–70 ปี) · ทางเลือก: colonoscopy ทุก 10 ปี · FIT ทุก 1–2 ปี · stool DNA ทุก 1–3 ปี · CT colonography หรือ flexible sigmoidoscopy ทุก 5 ปี"
+   "Colonoscopy: gold standard ทุก 10 ปี",
+   "FIT ทุกปี · ผลบวก → colonoscopy",
+   "Flexible sigmoidoscopy/ CT colonography ทุก 5 ปี",
+   "เริ่ม 45–50 ปี (average risk)",
+   "CEA: ติดตามหลังผ่าตัด ไม่ใช่คัดกรอง",
+   "Staging: CT chest/ abdomen/ pelvis ± MRI pelvis (rectum)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Gold = Go ส่องกล้อง (Colonoscopy)'</b>",
+  "guide": "US Multi-Society Task Force on Colorectal Cancer: Recommendations for Colorectal Cancer Screening (Gastroenterology 2017;153:307)",
   "variants": [
-   "<b>นอกสไลด์:</b> FIT บวก ส่องกล้องถึง cecum ปกติ → กลับไปคัดกรองตามปกติ ส่องครั้งถัดไปอีก 10 ปี",
-   "<b>นอกสไลด์:</b> ญาติสายตรงเป็นมะเร็งลำไส้ใหญ่ตอนอายุน้อย → คัดกรองด้วย colonoscopy (ไม่ใช้ FIT) เริ่มเร็วและถี่กว่าคนทั่วไป"
+   "ชาย 50 ปี ไม่มีอาการ ไม่มีประวัติครอบครัว → colonoscopy ทุก 10 ปี",
+   "FIT บวก → colonoscopy",
+   "หลังผ่าตัดมะเร็งลำไส้ CEA สูงขึ้น → CT หาการกลับเป็นซ้ำ"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>2. What is the standard screening test for colorectal cancer? — A. CEA B. Stool Occult Blood C. colonoscope</b><br>ลายมือ: ขีด C<br>ไฮไลต์: \"standard screening test\" · \"colorectal cancer\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ Investigation — Colonoscopy (ลายมือ \"Gold Standard\", \"ได้ tissue ด้วย\") · CEA (ลายมือ \"ใช้ surveillance ก่อน-หลังผ่าตัด\") · Imaging study: CT, MRI (ลายมือ \"ทำไปพร้อมๆ กัน + Aggressive\") พร้อมรูปส่องกล้องเห็นก้อนในลำไส้<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–C เว็บเพิ่ม D CT abdomen และ E Plain abdominal film",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
+  "kimg": [
+   "fsk_p142",
+   "kp66a_2"
   ]
  },
  "MDCU66|RoA|3": {
-  "interp": "chronic anal fissure → ถาม treatment of choice",
-  "why": "<b>คีย์: LIS (ไฟล์เขียนคำตอบ + ลายมือ lateral internal sphincterotomy)</b><br><b>นอกสไลด์:</b> chronic fissure เกิดจากหูรูดภายในเกร็งจน posterior midline ขาดเลือด · LIS ลดแรงดันหูรูดถาวร จึงหายสูงสุดและกลับเป็นซ้ำน้อย",
+  "interp": "<b>Chronic anal fissure</b> (แผลปริขอบทวารเรื้อรัง &gt; 6–8 สัปดาห์) ถามการรักษาที่ควรทำ",
+  "why": "Chronic fissure เกิดจากหูรูดภายในบีบเกร็ง (resting pressure สูง) ทำให้เลือดไปเลี้ยงน้อย · การรักษาที่ได้ผลถาวรที่สุดคือ <b>lateral internal sphincterotomy (LIS)</b> (หายราว 90–95%) โดยเฉพาะเมื่อยาไม่ได้ผล · ไฟล์เขียนคำตอบ LIS ลายมือ <b>\"gold std.\"</b> และ <b>\"LIS (lateral internal sphincterotomy)\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น acute fissure ครั้งแรก (ขอบเรียบ ไม่มี sentinel tag) อาการน้อย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น thrombosed external hemorrhoid ที่มาช้า ปวดทุเลาแล้ว ก้อนยุบเองได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย chronic fissure ที่ต้องการเลี่ยงการตัดหูรูดถาวร → fissurectomy ร่วม controlled pneumatic balloon dilatation",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยริดสีดวง grade III–IV ที่ไม่มี fissure"
+   "B": "Bulk-forming laxative เป็นการรักษาขั้นแรกของ acute fissure · ใน chronic fissure ช่วยได้น้อยถ้าใช้อย่างเดียว · จะถูกถ้าคำถามถาม acute anal fissure",
+   "C": "Sitz bath เป็นการรักษาเสริม · จะถูกถ้าคำถามถาม acute fissure หรือการดูแลหลังผ่าตัด",
+   "D": "Anal dilatation (manual stretch) ไม่แนะนำแล้วเพราะเสี่ยงกลั้นอุจจาระไม่อยู่สูง · จะถูกถ้าคำถามถามวิธีเก่าที่เลิกใช้",
+   "E": "Hemorrhoidectomy ไม่ได้แก้สาเหตุของ fissure · จะถูกถ้าคำถามถาม grade IV hemorrhoid"
   },
-  "trap": "คิดว่าต้องลองยาทา (NTG/diltiazem/botox) ก่อนเสมอจึงไม่กล้าตอบผ่าตัด — \"treatment of choice\" ของ chronic fissure คือ LIS ซึ่งหายสูงสุด ส่วนยาเป็นขั้นแรกเพื่อเลี่ยงผ่าตัด",
+  "trap": "ตอบ conservative เพราะคุ้นกับ acute fissure · Chronic fissure (มี sentinel pile, hypertrophied papilla, เห็นเส้นใยหูรูด) ถ้าไม่ตอบสนองต่อยา → LIS",
   "summary": [
-   "<b>นอกสไลด์:</b> acute &lt; 6 สัปดาห์ / chronic > 6–8 สัปดาห์ หรือมี sentinel tag, hypertrophied papilla, เห็นใย internal sphincter · ลำดับ: ใยอาหาร/sitz bath → ยาทาคลายหูรูด (NTG, diltiazem) → botulinum toxin หรือ LIS · LIS หาย > 90% แลกกับกลั้นลม/อุจจาระเหลวไม่อยู่เล็กน้อยราว 5–10%"
+   "Fissure ส่วนใหญ่อยู่ posterior midline",
+   "Lateral/ หลายแผล → หาสาเหตุอื่น (Crohn TB HIV มะเร็ง)",
+   "Acute: fiber + sitz bath",
+   "Chronic: topical nitrate/ CCB/ Botox",
+   "ยาไม่ได้ผล → LIS (gold standard)",
+   "Triad chronic: sentinel pile · ulcer · hypertrophied papilla"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง (ช้อยแต่งใหม่เพราะไฟล์จำช้อยไม่ได้)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · แนวทางปัจจุบันมักเริ่มด้วยยาทาก่อน แต่ LIS เป็นการรักษาที่ได้ผลดีที่สุด",
+  "mnemonic": "<b>'Fissure เรื้อรัง → LIS (Lateral ไม่ใช่ midline)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Dis Colon Rectum 2023;66:190)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทา NTG แล้วปวดศีรษะจนทนไม่ได้ → เปลี่ยนเป็น topical diltiazem",
-   "<b>นอกสไลด์:</b> หลัง LIS 2 สัปดาห์ ก้อนบวมแดงเจ็บที่แผลข้างทวาร → ฝีที่แผลผ่าตัด: ระบายหนอง"
+   "ปวดทวารขณะถ่าย เลือดสด แผล posterior midline 2 สัปดาห์ → fiber + sitz bath",
+   "Fissure เรื้อรัง 3 เดือน มี sentinel pile ทายาไม่หาย → LIS",
+   "Fissure หลายแผลด้าน lateral → biopsy หา Crohn/ TB/ มะเร็ง"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>3. chronic anal fissure มาพบแพทย์ ท่านคิดว่าควรรักษาโดยวิธีใด ตอบ LIS ปล.จำ choice ทั้งหมดไม่ได้ แต่มีประมาณ lifestyle modification with bulk-forming laxative etc.</b><br>ลายมือ: วงกลม \"gold std.\" · \"ทำได้เลย ∵ medical Tx → บางคนไม่หาย\" · \"LIS (lateral internal sphincterotomy)\"<br>ไฮไลต์: \"chronic anal fissure\" · \"ควรรักษาโดยวิธีใด\" · LIS (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment — Acute fissure · Conservative treatment: Break cycle of hard stool · Cream, ointment, suppositories · Nitroglycerine · สไลด์ Chronic anal fissure — Ischemic and high anal resting pressure play an important role in the cause of CAF · Indication for surgery: presence of persistent pain and bleeding, lack of response to medical treatment · NTG ointment · Calcium channel blockers · Botulinum toxin · LIS (Lateral internal sphincterotomy) พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: ไฟล์จำช้อยไม่ครบ เว็บแต่งช้อย A–E ตามคำตอบ LIS และช้อยที่ไฟล์เล่าไว้",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
+  "kimg": [
+   "fsk_p142",
+   "kp66a_3"
   ]
  },
  "MDCU66|RoA|5": {
-  "interp": "ถามภาวะที่เพิ่มอุบัติการณ์มะเร็งลำไส้ใหญ่",
-  "why": "<b>คีย์: C (สไลด์ risk factors)</b><br><b>นอกสไลด์:</b> FAP (APC mutation, autosomal dominant) มี adenoma หลายร้อยถึงหลายพันติ่งตั้งแต่วัยรุ่น เป็นมะเร็งเกือบทุกราย (อายุเฉลี่ยราว 39 ปี) ถ้าไม่ตัดลำไส้",
+  "interp": "ถามภาวะที่<b>เพิ่มอุบัติการณ์ colorectal cancer</b>",
+  "why": "<b>FAP</b> (APC gene, autosomal dominant) มี adenoma นับร้อยถึงพัน ถ้าไม่ผ่าตัดเกือบ <b>100% เป็นมะเร็ง</b>ราวอายุ 40 ปี · ไฟล์ขีด C แปะสไลด์ <b>\"Risk factors\"</b> (Familial adenomatous polyposis (FAP))",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pseudomembranous colitis เพิ่มมะเร็งลำไส้ใหญ่ เพราะเป็นการอักเสบเฉียบพลันจาก toxin ของ C. difficile ที่หายแล้วเยื่อบุกลับปกติ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ solitary juvenile polyp เพิ่มมะเร็ง เพราะเป็น hamartoma เดี่ยวที่ไม่ใช่ neoplasia (ต่างจาก juvenile polyposis syndrome ที่มีหลายติ่ง)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ amoebic colitis เพิ่มมะเร็งลำไส้ใหญ่ เพราะเป็นการติดเชื้อที่รักษาหายด้วยยา ไม่มีการอักเสบเรื้อรังแบบ IBD",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ริดสีดวงเพิ่มมะเร็งลำไส้ใหญ่ เพราะเป็นหลอดเลือดที่ทวารหนัก ไม่ใช่เยื่อบุลำไส้"
+   "A": "Pseudomembranous colitis (C. difficile) เป็นการอักเสบเฉียบพลันจากยาฆ่าเชื้อ ไม่เพิ่มมะเร็ง · จะถูกถ้าคำถามถามท้องเสียหลังได้ clindamycin",
+   "B": "Solitary juvenile polyp เป็น hamartoma ในเด็ก ไม่กลายเป็นมะเร็ง (ต่างจาก juvenile polyposis syndrome ที่เพิ่มความเสี่ยง) · จะถูกถ้าคำถามถาม juvenile polyposis syndrome หลายก้อน",
+   "D": "Amoebic colitis เป็นการติดเชื้อ ไม่เพิ่มมะเร็ง (อาจเป็นก้อน amoeboma คล้ายมะเร็ง) · จะถูกถ้าคำถามถามก้อนที่ cecum ที่หายด้วย metronidazole",
+   "E": "Thrombosed hemorrhoid ไม่เกี่ยวกับมะเร็ง · จะถูกถ้าคำถามถามก้อนเจ็บที่ปากทวาร"
   },
-  "trap": "solitary juvenile polyp ไม่เพิ่มมะเร็ง แต่ juvenile polyposis syndrome เพิ่ม · ลำไส้อักเสบที่เพิ่มมะเร็งคือ UC/Crohn's colitis ไม่ใช่ลำไส้อักเสบติดเชื้อ",
+  "trap": "สับสน solitary juvenile polyp (ไม่เสี่ยง) กับ juvenile polyposis/ Peutz–Jeghers syndrome (เสี่ยง)",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยงอื่น: อายุมาก, ญาติสายตรง, adenoma (villous, ≥ 1 cm, high-grade dysplasia), sessile serrated lesion, IBD, Lynch, เนื้อแดง/แปรรูป, อ้วน, บุหรี่, แอลกอฮอล์, เคยฉายรังสีเชิงกราน"
+   "FAP: APC · &gt; 100 adenomas · มะเร็ง ~100%",
+   "Lynch/ HNPCC: MMR gene · มะเร็งลำไส้ขวา + endometrium",
+   "IBD: UC/ Crohn colitis นาน &gt; 8 ปี",
+   "Peutz–Jeghers: hamartoma + จุดดำที่ริมฝีปาก",
+   "Adenoma: villous &gt; tubular · ขนาด &gt; 1 cm",
+   "อื่น ๆ: อายุ · ประวัติครอบครัว · DM · อ้วน · เนื้อแดง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'FAP = Full of Adenoma → Pretty much 100% มะเร็ง'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric (current version)",
   "variants": [
-   "<b>นอกสไลด์:</b> ส่องกล้องพบ sessile serrated lesion 12 mm → รอยโรคก่อนมะเร็ง ตัดออกและส่องติดตามเร็วขึ้น",
-   "<b>นอกสไลด์:</b> ชาย 18 ปี แม่เสียชีวิตจากมะเร็งลำไส้ตอน 38 ปี ส่องพบ adenoma หลายร้อยติ่งทั้ง colon และ rectum → total proctocolectomy + IPAA"
+   "ผู้ป่วยวัยรุ่นมี polyp เต็มลำไส้ พ่อเป็นมะเร็งลำไส้ → FAP → prophylactic proctocolectomy",
+   "FAP + osteoma + epidermoid cyst → Gardner syndrome",
+   "เด็กถ่ายเป็นเลือด polyp เดี่ยว → juvenile polyp → polypectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>5. condition associated with an increased incidence in colorectal cancer — A. pseudomembranous colitis B. juvinile polyp C. FAP D. amoebic colitis E. thrombosed hemorrhoid</b><br>ลายมือ: ขีด C<br>ไฮไลต์: \"increased incidence\" · \"colorectal cancer\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ Risk factors — Family history of colorectal cancer · Inherited syndromes: Familial adenomatous polyposis (FAP) · Hereditary non-polyposis colon cancer (HNPCC) · Peutz-Jeghers syndrome · สไลด์ Risk factors — Age · Racial and ethnic background · History of colorectal polyps or cancer · History of inflammatory bowel disease · Diabetes type 2 พร้อมโน้ตลายมือ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
+  "kimg": [
+   "fsk_p142",
+   "kp66a_5"
   ]
  },
  "MDCU66|RoA|7": {
-  "interp": "ข้อ EXCEPT: หาข้อความที่ \"ผิด\" เรื่อง sigmoid volvulus",
-  "why": "<b>คีย์: E (ลายมือ 90%)</b><br><b>นอกสไลด์:</b> sigmoid เป็นชนิดที่พบบ่อยที่สุดของ colonic volvulus (เกินครึ่ง) จึงไม่ใช่ \"น้อยกว่าครึ่ง\" · รองลงมาคือ cecum",
+  "interp": "ข้อที่<b>ไม่จริง</b>เกี่ยวกับ <b>sigmoid volvulus</b>",
+  "why": "Sigmoid volvulus เป็นชนิดที่<b>พบบ่อยที่สุด</b>ของ colonic volvulus (ราว 60–80%) ไม่ใช่น้อยกว่าครึ่ง ข้อ E จึงผิด · ข้ออื่นถูกทั้งหมด · ไฟล์ ✓ ที่ A–D ขีด E ลายมือแก้ 50% เป็น <b>\"90%\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าผู้ป่วยโรคร่วมมากจนผ่าตัดไม่ได้ → หลังส่องคลายใส่ percutaneous endoscopic colostomy ยึดลำไส้แทน sigmoidectomy",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าลำไส้ที่บิดมีน้ำเต็มแทนลม ภาพรังสีธรรมดาไม่เห็นรูปเมล็ดกาแฟ → ต้อง CT (whirl sign)",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าผู้ป่วยระยะท้ายที่ตกลงเป้าหมายการดูแลแบบประคับประคองแล้ว → ไม่ผ่าตัด ให้ยาบรรเทาอาการ",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าเป็นพื้นที่ volvulus belt (แอฟริกา ตะวันออกกลาง อเมริกาใต้) ที่พบในชายวัยกลางคนกินอาหารกากใยสูง"
+   "A": "ถูก: ส่องกล้องคลายเกลียว (detorsion) แล้วผ่าตัด sigmoidectomy แบบ elective เพราะเป็นซ้ำสูง · จะถูกถ้าคำถามถามข้อที่ถูกเกี่ยวกับการรักษา sigmoid volvulus ที่ไม่มี ischemia",
+   "B": "ถูก: coffee bean/ bent inner tube sign ใน acute abdomen series · จะถูกถ้าคำถามถามภาพรังสีของ sigmoid volvulus",
+   "C": "ถูก: คลายไม่ได้/ มีลำไส้ขาดเลือด → ผ่าตัดฉุกเฉิน · จะถูกถ้าคำถามถามข้อบ่งชี้ผ่าตัดฉุกเฉิน",
+   "D": "ถูก: พบในผู้สูงอายุ ผู้ป่วยติดเตียง ทางจิตเวช ท้องผูกเรื้อรัง · จะถูกถ้าคำถามถามกลุ่มผู้ป่วยที่พบ sigmoid volvulus บ่อย (ส่วน cecal volvulus พบในคนอายุน้อยกว่า)"
   },
-  "trap": "ช้อย A ดูผิดเพราะคิดว่าส่องกล้องคลายได้แล้วจบ — หลังคลายกลับเป็นซ้ำบ่อย จึงต้อง sigmoidectomy ใน admission เดียวกัน",
+  "trap": "อ่านข้อ E ข้าม เพราะตัวเลขฟังดูเป็นไปได้ · เป็นข้อ except ต้องหาข้อที่ผิด",
   "summary": [
-   "<b>นอกสไลด์:</b> sigmoid ราว 60–75% (ลายมือจด 90%) · cecum ราว 25–40% · transverse พบน้อยมาก · หลังส่องคลายกลับเป็นซ้ำราวครึ่ง",
-   "<b>นอกสไลด์:</b> ขั้นตอน: ไม่มีขาดเลือด/ทะลุ → ส่องกล้องคลาย + ใส่ rectal tube → sigmoidectomy elective · ขาดเลือด/ทะลุ/คลายไม่ได้ → ผ่าตัดฉุกเฉิน"
+   "Sigmoid volvulus: ~60–80% ของ colonic volvulus",
+   "ผู้สูงอายุ ติดเตียง ท้องผูกเรื้อรัง",
+   "X-ray: coffee bean · contrast: bird's beak",
+   "ไม่มี ischemia → endoscopic detorsion → elective sigmoidectomy",
+   "Ischemia/ คลายไม่ได้ → ผ่าตัดฉุกเฉิน (Hartmann)",
+   "Cecal volvulus: อายุน้อยกว่า · right hemicolectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง (ตัวเลข 90% ในลายมือสูงกว่าตำราส่วนใหญ่)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ตัวเลข 90% ในลายมือสูงกว่าที่ตำราส่วนใหญ่ระบุ (60–80%) แต่สรุปเหมือนกันว่าเกินครึ่ง",
+  "mnemonic": "<b>'Sigmoid = Senior + Scope + Sigmoidectomy · ส่วนใหญ่ (Super common)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction (Dis Colon Rectum 2016;59:589)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง 30 ปีปวดท้องขวาล่าง ภาพรังสีเห็นลำไส้โป่งจากขวาล่างชี้ขึ้นซ้ายบน → cecal volvulus: right hemicolectomy"
+   "ผู้สูงอายุติดเตียง ท้องอืด X-ray coffee bean → sigmoidoscopic detorsion → elective sigmoidectomy",
+   "ส่องกล้องแล้วเห็นเยื่อบุดำ → ผ่าตัดฉุกเฉิน",
+   "หญิง 35 ปี ท้องอืด X-ray ลำไส้โป่งชี้ไป LUQ → cecal volvulus → right hemicolectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>7. the followings are true for sigmoid volvulus except — A. reduction and bowel decompression by flexible sigmoidoscopy should be followed by elective sigmoidectomy B. coffee bean sign is seen in acute abdomen series C. if can't reduce or has signs of bowel ischemia, patient should go to operating room emergently D. mostly occurs in the elderly and institutionalizes patient E. accounts for less than 50% of colonic volvulus</b><br>ลายมือ: ✓ ที่ A B C D · ขีด E · กากบาท 50% เขียน \"90%\"<br>ไฮไลต์: \"true for sigmoid volvulus except\" · E (เหลือง) · คำสำคัญในช้อย A–D (ส้ม)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
+  "kimg": [
+   "fsk_p142",
+   "kp66a_7"
   ]
  },
  "MDCU66|RoA|12": {
-  "interp": "ถามการคัดกรองมะเร็งลำไส้ใหญ่ที่ \"เหมาะที่สุดสำหรับประชาชน\" (คู่กับ RoA 2 ที่ถาม standard test)",
-  "why": "<b>คีย์: C</b><br><b>นอกสไลด์:</b> สำหรับคนความเสี่ยงทั่วไปที่เข้าถึงได้ colonoscopy เป็นวิธีที่ครบที่สุด · แต่ทุกแนวทางยอมรับว่าวิธีที่ดีที่สุดคือวิธีที่ผู้รับการตรวจยอมทำจริง",
+  "interp": "ถามการคัดกรองมะเร็งลำไส้ใหญ่ที่<b>เหมาะสมที่สุดในประชาชนทั่วไป</b>",
+  "why": "<b>Colonoscopy</b> ตรวจได้ทั้งลำไส้ใหญ่ วินิจฉัยและตัด polyp ได้ในครั้งเดียว เป็นมาตรฐานสำหรับ average risk ทุก 10 ปี · ไฟล์ขีด C",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ barium enema เป็นการคัดกรองที่แนะนำในปัจจุบัน เพราะพลาด polyp เล็กมากและถูกแทนด้วย CT colonography แล้ว",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ CEA เป็นการตรวจคัดกรองที่เหมาะ เพราะปกติได้ในมะเร็งระยะแรกส่วนใหญ่และสูงจากสาเหตุอื่น",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุ 75 ปีโรคร่วมหลายโรคที่เสี่ยงจากการเตรียมลำไส้และดมยา แต่ยังควรคัดกรอง → FIT ผลบวกจึงส่องกล้อง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าส่องกล้องคัดกรองแล้วไม่ถึง cecum (ลำไส้คดเคี้ยวหรือตีบ) → CT colonography ดูลำไส้ส่วนที่เหลือ"
+   "A": "Barium enema ไวต่อ polyp เล็กน้อยกว่า และตัดชิ้นเนื้อไม่ได้ เลิกใช้คัดกรองแล้ว · จะถูกถ้าคำถามถามภาพ apple-core sign",
+   "B": "CEA ไม่ไวพอสำหรับคัดกรอง · จะถูกถ้าคำถามถามการติดตามหลังผ่าตัด",
+   "D": "Stool occult blood/ FIT ใช้ได้ในโครงการคัดกรองระดับประเทศ (ราคาถูก ไม่รุกล้ำ) แต่ผลบวกต้องส่องกล้องต่อ · จะถูกถ้าคำถามถามการคัดกรองขั้นแรกในพื้นที่ทรัพยากรจำกัด",
+   "E": "CT colonography ทุก 5 ปี เป็นทางเลือก แต่มีรังสี เจอ polyp แล้วต้องส่องกล้องต่อ · จะถูกถ้าคำถามถามผู้ที่ส่องกล้องไม่ได้/ ไม่ยอมส่อง"
   },
-  "trap": "ตีความ \"สำหรับประชาชน\" ว่าต้องเป็นวิธีที่ไม่ต้องส่องกล้อง → เลือก CEA หรือ CT colonography — CEA ไวต่ำในระยะแรก CT colonography ยังต้องเตรียมลำไส้และเจอแล้วต้องส่องซ้ำ",
+  "trap": "คำว่า in public ทำให้ลังเลระหว่าง colonoscopy กับ FIT · โครงการคัดกรองของไทยเริ่มที่ FIT แต่คำตอบของข้อนี้ยึด colonoscopy เป็นมาตรฐาน",
   "summary": [
-   "<b>นอกสไลด์:</b> รายบุคคลที่เข้าถึงได้ → colonoscopy ครบที่สุด · ระดับประชากร/ทรัพยากรจำกัด → FIT เป็นด่านแรก (โครงการไทยอายุ 50–70 ปี) บวกแล้วส่องกล้อง · อายุ 76–85 ปีพิจารณาเป็นรายคน · เกิน 85 ปีไม่แนะนำ"
+   "Average risk เริ่ม 45–50 ปี",
+   "Colonoscopy ทุก 10 ปี",
+   "FIT ทุกปี",
+   "Flexible sigmoidoscopy/ CT colonography ทุก 5 ปี",
+   "ผลบวกจากวิธีอื่น → colonoscopy",
+   "หยุดคัดกรองเมื่ออายุ &gt; 75–85 ปี ตามสุขภาพ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ในความหมาย \"การตรวจที่ดีที่สุดสำหรับคนทั่วไป\" — ถ้าโจทย์จริงเน้นโครงการระดับประชากร FIT (D) เหมาะกว่าตามโครงการของไทย · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ถ้าคำถามเน้นระดับประชากรที่ทรัพยากรจำกัด FIT (ช้อย D) ก็สมเหตุสมผล",
+  "mnemonic": "<b>'ส่องกล้อง 10 ปีครั้ง · FIT ปีละครั้ง'</b>",
+  "guide": "US Multi-Society Task Force on Colorectal Cancer: Recommendations for Colorectal Cancer Screening (Gastroenterology 2017;153:307)",
   "variants": [
-   "<b>นอกสไลด์:</b> ถ่ายเป็นเลือดหรือซีดขาดเหล็ก → ไม่ใช่การคัดกรอง ส่ง colonoscopy วินิจฉัยเลย ไม่ใช้ FIT",
-   "<b>นอกสไลด์:</b> FIT บวกแต่ตรวจซ้ำได้ลบ → ยังต้อง colonoscopy (ผลลบซ้ำลบล้างผลบวกไม่ได้)"
+   "หญิง 50 ปี สุขภาพดี ต้องการตรวจคัดกรอง → colonoscopy",
+   "โครงการคัดกรองในชุมชน → FIT → ถ้าบวกส่ง colonoscopy",
+   "Barium enema เห็น apple-core lesion → colonoscopy + biopsy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>12. What is the most appropriate colon cancer screening in public? — A. Barium Enema B. Serum CEA C. Colonoscope D. Stool occult blood E. CT Colonoscpe</b><br>ลายมือ: ขีด C<br>ไฮไลต์: \"most appropriate colon cancer screening\" · C (เหลือง)<br>ที่ปรับในเว็บ: ช้อย E แก้ CT Colonoscpe เป็น CT colonography",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
+  "kimg": [
+   "fsk_p142",
+   "kp66a_12"
   ]
  },
  "MDCU66|RoA|X2": {
-  "interp": "ถามผู้ป่วยที่ \"ไม่เหมาะที่สุด\" ที่จะส่งศัลยแพทย์ลำไส้",
-  "why": "<b>คีย์: B (ลายมือ \"ไม่ Med ok?\") · C = bowel habit change ต้องส่ง</b><br><b>นอกสไลด์:</b> UC ที่ไม่มีภาวะแทรกซ้อนรักษาด้วยยาโดยอายุรแพทย์ทางเดินอาหารเป็นหลัก ส่งศัลยแพทย์เมื่อมีข้อบ่งชี้ผ่าตัด",
+  "interp": "ถามผู้ป่วยที่<b>เหมาะสมน้อยที่สุด</b>ที่จะส่งพบศัลยแพทย์ colorectal",
+  "why": "<b>Ulcerative colitis</b> ที่ไม่มีภาวะแทรกซ้อน ดูแลโดย<b>อายุรแพทย์ระบบทางเดินอาหาร</b>ด้วยยาเป็นหลัก ส่งศัลยแพทย์เมื่อยาไม่ได้ผล มี dysplasia/ มะเร็ง หรือ toxic megacolon · รายอื่นต้องส่องกล้องหรือผ่าตัด · ไฟล์ขีด B ลายมือ <b>\"ไป Med GI ?\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผู้ป่วย FAP ไม่ควรพบศัลยแพทย์ลำไส้ เพราะต้องวางแผนตัดลำไส้ใหญ่ป้องกันและเฝ้าระวังตลอดชีวิต",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นรายที่ไม่ต้องส่ง) ถ้าหญิง 68 ปีถ่ายดำหลังเริ่มกินธาตุเหล็ก อุจจาระเล็กลง และเพิ่งส่องลำไส้ใหญ่ครบปกติ",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นรายที่ไม่ต้องส่ง) ถ้าอายุ 85 ปีโรคร่วมมาก adenoma เดิมเล็ก — ครบกำหนดส่องติดตามแต่ความเสี่ยงมากกว่าประโยชน์ จึงหยุดเฝ้าระวัง",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นรายที่ไม่ต้องส่ง) ถ้าผู้ป่วย 60 ปีซีดขาดเหล็กที่ส่องกระเพาะพบแผล duodenal ulcer เลือดออกชัด และส่องลำไส้ใหญ่ปกติแล้ว"
+   "A": "FAP ต้องส่องกล้องเฝ้าระวังตั้งแต่วัยรุ่นและผ่าตัดป้องกัน ขาดการติดตาม 10 ปี เสี่ยงมะเร็งสูง · จะถูกถ้าคำถามถามผู้ที่ตรวจยีนแล้วไม่มี APC mutation",
+   "C": "หญิงสูงอายุอุจจาระดำและลำเล็ก (bowel habit change) ต้องหามะเร็งลำไส้ · จะถูกถ้าคำถามถามอุจจาระดำหลังกินธาตุเหล็ก/ bismuth ในคนอายุน้อยที่ไม่มีอาการอื่น",
+   "D": "ผู้เคยมี adenoma ถึงเวลาส่อง surveillance ควรได้ colonoscopy · จะถูกถ้าคำถามถามผู้ที่ส่องเมื่อปีที่แล้วปกติ",
+   "E": "ผู้สูงอายุ iron-deficiency anemia ใหม่ต้องหามะเร็งลำไส้ขวา · จะถูกถ้าคำถามถามหญิงวัยมีประจำเดือนมามากที่อธิบายสาเหตุได้ชัด"
   },
-  "trap": "UC เป็นโรคของลำไส้ใหญ่จึงดูเหมือนต้องพบศัลยแพทย์ลำไส้ — แต่ช้อยไม่มีภาวะแทรกซ้อนหรือข้อบ่งชี้ผ่าตัด",
+  "trap": "คิดว่า IBD ทุกรายต้องพบศัลยแพทย์ ความจริงการรักษาหลักคือยา",
   "summary": [
-   "<b>นอกสไลด์:</b> UC ที่ควรส่งศัลยแพทย์: ดื้อยาหรือต้องพึ่ง steroid, ภาวะแทรกซ้อนเฉียบพลัน (ทะลุ เลือดออกมาก), dysplasia หรือมะเร็ง · ผ่าตัดมาตรฐาน total proctocolectomy + IPAA"
+   "UC: ยา 5-ASA · steroid · biologic",
+   "UC ผ่าตัดเมื่อ: ยาไม่ได้ผล · dysplasia/ CA · toxic megacolon · เลือดออกมาก · ทะลุ",
+   "ผ่าตัด UC: total proctocolectomy + IPAA",
+   "FAP: ส่องกล้องตั้งแต่ 10–12 ปี",
+   "Red flag: bowel habit change · เลือดออก · ซีด · น้ำหนักลด",
+   "IDA ในผู้สูงอายุ → หามะเร็งลำไส้ขวา"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจต่ำ (ไฟล์มี 3 ช้อย เติม D–E และลายมือมีเครื่องหมายคำถาม)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ลายมือมีเครื่องหมาย ? แสดงว่าผู้จดก็ไม่แน่ใจ)",
+  "mnemonic": "<b>'UC → Medicine ก่อน (U = Use drugs) · Surgery เมื่อ fail/ cancer/ toxic'</b>",
+  "guide": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults (Am J Gastroenterol 2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> UC รุนแรงเฉียบพลัน ไข้ ท้องอืด ภาพรังสี transverse colon กว้าง 7 cm → toxic megacolon: ปรึกษาศัลยแพทย์ทันที (subtotal colectomy + ileostomy ถ้าไม่ดีขึ้นเร็ว)"
+   "UC คุมด้วย mesalazine ได้ดี → ติดตามกับอายุรแพทย์",
+   "UC ไข้ ท้องโป่ง colon &gt; 6 cm → toxic megacolon → ผ่าตัด",
+   "UC 10 ปี ส่องกล้องพบ high-grade dysplasia → proctocolectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>ผู้ป่วยคนใดเหมาะสมน้อยที่สุดที่จะพบหมอ colorectal — A. หญิง 31 ปี เป็น FAP ไม่ได้พบหมอมา 10 ปี B. ulcerative colitis C. หญิง 68 ปี สังเกตว่าอุจจาระ black and thin</b> (ไม่มีเลขข้อ)<br>ลายมือ: \"→ ส่องกล้องตั้งแต่ 18 yo\" และ ✓ ที่ A · \"ไป Med GI ?\" และขีด B · \"→ bowel habit change\" ใต้ C<br>ไฮไลต์: \"เหมาะสมน้อยที่สุด\" · \"พบหมอ colorectal\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Familial Adenomatous Polyposis (FAP) — ลายมือ Autosomal Dominant: ch.11 · APC gene · &gt; 100 polyps · Genetic Counseling · ส่องกล้องตั้งแต่อายุน้อย · มีโอกาสเป็น CA · Brain tumor, Sarcoma, Soft tissue tumor etc. พร้อมรูปส่องกล้องและชิ้นเนื้อลำไส้ที่มี polyp เต็ม<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–C เว็บเพิ่ม D ผู้เคยมี adenoma ถึงเวลาส่อง และ E ผู้สูงอายุ iron-deficiency anemia",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
+  "kimg": [
+   "fsk_p142",
+   "kp66a_X2"
   ]
  },
  "MDCU66|RoA|16": {
-  "interp": "ทารกชาย 1 เดือน อัณฑะซ้ายคลำได้ในช่องขาหนีบ (ไม่อยู่ในถุง) → ถามการจัดการ",
-  "why": "<b>คีย์: E · ลายมือ timing 6–18 เดือน</b><br><b>นอกสไลด์:</b> อัณฑะที่ไม่ลงตอนแรกเกิดลงเองได้ในช่วงแรกหลังคลอด (mini-puberty) หลังจากนั้นแทบไม่ลง → เฝ้าดูก่อน แล้วส่งผ่าตัดเมื่อพ้นช่วงนั้น (เวลาใน summary)",
+  "interp": "ทารกชาย <b>1 เดือน</b> อัณฑะซ้ายคลำได้ใน inguinal canal (undescended testis) ถามการจัดการ",
+  "why": "อัณฑะยังลงเองได้ในช่วง <b>3–6 เดือนแรก</b> จึงรอดูก่อน · ถ้าอายุ 6 เดือนยังไม่ลง → ส่งศัลยแพทย์ทำ <b>orchiopexy ภายใน 6–18 เดือน</b> · ไฟล์ขีด E แปะสไลด์ <b>\"Timing of surgery: 6-18 months of age\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กชายคลำอัณฑะไม่ได้ทั้งสองข้าง ไม่มี hypospadias และต้องพิสูจน์ว่ามีเนื้ออัณฑะทำงาน → hCG stimulation test ดู testosterone ขึ้น",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กอายุ 8 เดือน อัณฑะซ้ายยังค้างในขาหนีบหลังพ้น 6 เดือน → orchiopexy",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าชายผู้ใหญ่พบอัณฑะค้างข้างเดียวที่ฝ่อ อีกข้างปกติ → ตัดออกเพราะเสี่ยงมะเร็งและไม่สร้างอสุจิ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ testosterone ใช้รักษาอัณฑะไม่ลงถุง เพราะไม่ทำให้อัณฑะลงและทำให้เข้าวัยหนุ่มก่อนกำหนด"
+   "A": "Hormonal therapy (hCG) ไม่แนะนำเพราะได้ผลต่ำและอาจทำลายเซลล์สืบพันธุ์ · จะถูกถ้าคำถามถามการทดสอบ hCG stimulation ในอัณฑะไม่พบทั้งสองข้าง (แยก anorchia)",
+   "B": "ผ่าตัดเร็วเกินไป อัณฑะยังลงเองได้ · จะถูกถ้าคำถามถามเด็กอายุ 6–18 เดือนที่อัณฑะยังไม่ลง",
+   "C": "Orchiectomy ทำเมื่ออัณฑะฝ่อมาก หรือ UDT หลังวัยรุ่นที่ดึงลงไม่ได้ · จะถูกถ้าคำถามถามผู้ใหญ่ที่พบอัณฑะในช่องท้องข้างเดียว",
+   "D": "Testosterone ไม่ใช้รักษา UDT · จะถูกถ้าคำถามถาม micropenis/ hypogonadism"
   },
-  "trap": "เห็นอัณฑะค้างแล้วรีบผ่าตัดทันที (B) — ทารกช่วงแรกยังลงเองได้ จึงเฝ้าดูก่อน · ไม่ส่ง US เพราะไม่เปลี่ยนการจัดการ",
+  "trap": "รีบผ่าตัดตั้งแต่ทารก · ต้องรอให้ถึงอายุ 6 เดือนก่อน แต่ไม่ควรเกิน 18 เดือน",
   "summary": [
-   "<b>นอกสไลด์:</b> ลงเองได้ภายในราว 6 เดือน (อายุปรับ) → ส่งศัลยแพทย์ที่ 6 เดือน · orchiopexy 6–12 เดือน (EAU) ไม่เกิน 18 เดือน (AUA) · ไม่ใช้ฮอร์โมน ไม่ต้อง US · ผลระยะยาว: มีบุตรยาก มะเร็งอัณฑะ torsion ไส้เลื่อน"
+   "UDT: อัณฑะลงเองได้ใน 6 เดือนแรก",
+   "ยังไม่ลงที่ 6 เดือน → ส่งศัลยแพทย์",
+   "Orchiopexy อายุ 6–18 เดือน",
+   "คลำได้ → inguinal orchiopexy · คลำไม่ได้ → laparoscopy",
+   "ไม่รักษา: hernia · torsion · trauma · infertility · malignancy",
+   "ทั้งสองข้างคลำไม่ได้ + hypospadias → ตรวจ DSD (CAH)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'UDT: รอ 6 เดือน ผ่าก่อน 18 เดือน (6–18)'</b>",
+  "guide": "AUA Guideline: Evaluation and Treatment of Cryptorchidism (J Urol 2014;192:337)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 5 ปี อัณฑะขึ้นลงได้ อยู่ในถุงเวลาอุ่นหรือผ่อนคลาย → retractile testis ติดตามทุกปี (เสี่ยงขึ้นค้าง)",
-   "<b>นอกสไลด์:</b> ทารกแรกเกิดคลำอัณฑะไม่ได้ทั้งสองข้างร่วม hypospadias → ตรวจหา DSD (karyotype) ทันที ไม่รอ"
+   "เด็ก 9 เดือน อัณฑะขวาคลำได้ที่ขาหนีบ → right inguinal orchiopexy",
+   "เด็ก 1 ปี อัณฑะซ้ายคลำไม่ได้ → diagnostic laparoscopy",
+   "อัณฑะขึ้นลงได้ ดึงลงถุงแล้วค้างอยู่ → retractile testis → ติดตาม"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 142 — ตัวพิมพ์: <b>URO 16-30 · 16. ผู้ป่วยเด็กชายอายุ 1 เดือน คลำพบอัณฑะซ้ายที่ left inguinal canal ควรทำอย่างไร? — A. Beta-hCG injection B. left orchidopexy C. left orchiectomy D. testosterone injection E. รอดูอาการจนอายุ 1 ปี</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"ชาย\" · \"1 เดือน\" · \"คลำพบอัณฑะซ้ายที่ left inguinal canal\" · \"ทำอย่างไร\" · E (เหลือง)<br>รูปที่แปะ: รูปถุงอัณฑะว่างข้างหนึ่ง · สไลด์ Undescended testis — Timing of surgery: 6-18 months of age · Operation: Orchidopexy · If surgery hasn't been performed, what would happen? 1. Inguinal hernia (due to patent processus vaginalis) 2. Torsion testis 3. Trauma 4. Infertility 5. Malignancy 6. Cosmetic · ลายมือ \"DDx retractile testis\", \"cremaster m.\", palpable → inguinal orchidopexy, non-palpable → laparoscopic<br>ที่ปรับในเว็บ: ช้อย E เขียนเป็น Observe until 6–12 months",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 142",
+  "kimg": [
+   "fsk_p142",
+   "kp66a_16"
   ]
  }
 }
