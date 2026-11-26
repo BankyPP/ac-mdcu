@@ -1,192 +1,343 @@
 {
  "MDCU69|RoC|X3": {
-  "interp": "ถามว่า bromocriptine (dopamine agonist) ใช้รักษาเนื้องอกชนิดใด",
-  "why": "<b>คีย์: ขีด 1 + ลายมือ DA agonist</b><br><b>นอกสไลด์:</b> bromocriptine กระตุ้น D2 receptor บน lactotroph ลดการหลั่ง prolactin และทำให้ก้อนยุบ → ยาแรกของ prolactinoma แม้เป็นก้อนใหญ่ที่กดลานสายตา (ปัจจุบัน cabergoline ได้ผลและทนยาดีกว่า)",
+  "interp": "ถามข้อบ่งใช้ของ <b>bromocriptine</b>",
+  "why": "Bromocriptine (และ cabergoline ซึ่งดีกว่า) เป็น <b>dopamine (D2) agonist</b> → ยับยั้งการหลั่ง prolactin และทำให้ก้อนยุบ → เป็น<b>การรักษาแรก (first-line) ของ prolactinoma</b> แม้เป็น macroadenoma ที่กดเส้นประสาทตา (ผ่าตัดเมื่อไม่ตอบสนอง/ ทนยาไม่ได้/ apoplexy) · ไฟล์ขีด 1 ลายมือ <b>\"DA agonist\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น acromegaly ที่ผ่าตัดแล้วยังไม่หาย IGF-1 สูงเพียงเล็กน้อย หรือก้อนหลั่งทั้ง GH และ prolactin — dopamine agonist (cabergoline) ใช้เป็นยาเสริมได้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ bromocriptine เป็นการรักษาหลักของ nonfunctioning adenoma เพราะเซลล์ก้อนไม่ใช่ lactotroph ยาลด prolactin ที่สูงจาก stalk effect ได้แต่ก้อนไม่ยุบ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ bromocriptine รักษา craniopharyngioma เพราะเป็นเนื้องอกเยื่อบุจาก Rathke pouch ที่ไม่ตอบสนองต่อ dopamine — รักษาด้วยผ่าตัด ± รังสี",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น Cushing disease ที่ผ่าตัดไม่หายหรือรอรังสีออกฤทธิ์ — cabergoline เป็นยาทางเลือกที่ลด cortisol ได้ในบางราย"
+   "B": "GH adenoma (acromegaly) รักษาหลักด้วย transsphenoidal surgery · ยาเสริม: somatostatin analog (octreotide) · dopamine agonist ได้ผลน้อย · จะถูกถ้าคำถามถามยาเสริมใน acromegaly ที่ IGF-1 สูงเล็กน้อยและมี prolactin ร่วม",
+   "C": "Nonfunctioning adenoma รักษาด้วยผ่าตัดเมื่อกดเส้นประสาทตา ยาไม่ได้ผล · จะถูกถ้าคำถามถามก้อน pituitary ไม่หลั่งฮอร์โมนกด optic chiasm",
+   "D": "Craniopharyngioma รักษาด้วยผ่าตัด ± รังสี · จะถูกถ้าเด็กเตี้ย ลานสายตาผิดปกติ CT พบก้อนมีหินปูนเหนือ sella",
+   "E": "Cushing disease (ACTH adenoma) รักษาด้วย transsphenoidal surgery · จะถูกถ้าผู้ป่วยหน้ากลม ผิวบาง ACTH สูง suppress ได้ด้วย high-dose dexamethasone"
   },
-  "trap": "prolactinoma ก้อนใหญ่กดลานสายตาทำให้คิดว่าต้องผ่าตัดด่วน — prolactinoma แม้เป็น macroadenoma ใช้ยาก่อน ก้อนยุบและสายตาดีขึ้นได้ภายในวันถึงสัปดาห์",
+  "trap": "คิดว่าก้อน pituitary ต้องผ่าตัดทุกชนิด — prolactinoma รักษาด้วยยาเป็นหลัก",
   "summary": [
-   "<b>นอกสไลด์:</b> prolactinoma: cabergoline เป็นยาแรก (กินสัปดาห์ละ 1–2 ครั้ง prolactin กลับปกติและก้อนยุบในผู้ป่วยส่วนใหญ่) · bromocriptine มีข้อมูลความปลอดภัยช่วงตั้งครรภ์มากกว่า · ผ่าตัดเมื่อดื้อยา ทนยาไม่ได้ หรือ apoplexy · prolactin เกินราว 250 ng/mL มักเป็น prolactinoma"
+   "Prolactinoma: dopamine agonist (cabergoline &gt; bromocriptine) เป็นอันดับแรก",
+   "ผ่าตัด prolactinoma เมื่อดื้อยา/ ทนยาไม่ได้/ apoplexy",
+   "Acromegaly/ Cushing/ nonfunctioning ที่กด → transsphenoidal surgery",
+   "Pituitary apoplexy: ปวดหัวรุนแรง ตามัว → steroid + ผ่าตัดเร่งด่วน",
+   "Prolactin สูงเล็กน้อยกับก้อนใหญ่ → stalk effect (ไม่ใช่ prolactinoma)",
+   "Bitemporal hemianopia = กด optic chiasm"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 3 ช้อย (prolactinoma, transphenoid surgery, pituitary adenoma) จึงเรียบเรียงช้อยใหม่",
+  "mnemonic": "<b>'Prolactin = ยาก่อน (DA agonist) · ตัวอื่น = ผ่า'</b>",
+  "guide": "Endocrine Society Clinical Practice Guideline: Diagnosis and Treatment of Hyperprolactinemia (J Clin Endocrinol Metab 2011;96:273); Pituitary Society consensus on prolactinoma (Nat Rev Endocrinol 2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง microprolactinoma กิน cabergoline แล้วตั้งครรภ์ → หยุดยาเมื่อทราบว่าตั้งครรภ์ ตรวจลานสายตาเมื่อปวดศีรษะหรือตามัว",
-   "<b>นอกสไลด์:</b> prolactinoma ก้อนใหญ่กินยาแล้วก้อนยุบเร็ว ต่อมามีน้ำใสไหลจากจมูก → CSF rhinorrhea จากรูที่ก้อนเคยกัดฐานกะโหลก: ซ่อมรอยรั่ว"
+   "หญิงประจำเดือนขาด น้ำนมไหล prolactin 250 ng/mL MRI macroadenoma → cabergoline",
+   "ชายมือเท้าโต IGF-1 สูง → transsphenoidal surgery",
+   "ก้อน pituitary ปวดหัวทันที ตามัว → apoplexy → steroid + ผ่าตัด"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 64 — ตัวพิมพ์: <b>XX. Bromocriptine รักษาอะไร — 1. prolactinoma 2. Transphenoid surgery 3. pituitary adenoma</b><br>ลายมือ: \"DA agonist\" เหนือ Bromocriptine · ขีด 1<br>ไฮไลต์: \"Bromocriptine\" · 1 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 55: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เขียน B–E ใหม่",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 64",
+  "kimg": [
+   "fsk_p64",
+   "kp69c_X3",
+   "k2p_55"
   ]
  },
  "MDCU69|RoC|X4": {
-  "interp": "ก้อนในสมองบริเวณ silent area (ไม่มีหน้าที่ที่ให้อาการเฉพาะที่ชัด) · ถามอาการแรกที่พบบ่อย",
-  "why": "<b>คีย์: ขีด 2</b><br><b>นอกสไลด์:</b> silent area เช่น frontal pole/prefrontal ซีกไม่เด่น temporal pole ขวา หรือในโพรงสมอง ไม่ทำให้อ่อนแรง พูดไม่ได้ หรือตามัวตั้งแต่ก้อนเล็ก ก้อนจึงโตจนใหญ่แล้วมาด้วยอาการความดันในกะโหลกสูง",
+  "interp": "เนื้องอกสมองที่ <b>silent area</b> → ถาม<b>อาการแรก</b>",
+  "why": "Silent area (เช่น right/ non-dominant frontal pole, right temporal anterior) เป็นบริเวณที่รอยโรคไม่ทำให้เกิด focal deficit ชัด → ก้อนโตได้มากโดยไม่มีอาการเฉพาะที่ จนเกิด<b>ความดันในกะโหลกสูง (ICP สูง)</b>เป็นอาการแรก: ปวดหัวตอนเช้า อาเจียน papilledema · ไฟล์ขีด 2",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนโตช้าที่กินเปลือกสมอง temporal lobe (low-grade glioma, ganglioglioma, DNET) — ชักเป็นอาการแรกที่พบบ่อยที่สุด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่ที่ motor cortex หรือ internal capsule — อ่อนแรงซีกตรงข้ามตั้งแต่ก้อนยังเล็ก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่ที่ Broca หรือ Wernicke area ของซีกเด่น",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนใน temporal lobe กด Meyer loop — ลานสายตาส่วนบนด้านตรงข้ามหายไป (superior quadrantanopia)"
+   "A": "ชักเป็นอาการแรกที่พบบ่อยของก้อนที่ cortex (โดยเฉพาะ low-grade glioma, meningioma) แต่โจทย์เน้น silent area ที่โตจนเกิด ICP สูง · จะถูกถ้าก้อนอยู่ที่ cortex บริเวณ motor/ temporal",
+   "C": "Hemiparesis เกิดเมื่อก้อนกด motor cortex/ internal capsule ซึ่งไม่ใช่ silent area · จะถูกถ้าก้อนอยู่ที่ precentral gyrus",
+   "D": "Aphasia เกิดจาก dominant (ซ้าย) frontal/ temporal ไม่ใช่ silent area · จะถูกถ้าก้อนอยู่ที่ Broca/ Wernicke area",
+   "E": "Visual field defect เกิดจากก้อนกดทางเดินการมองเห็น (chiasm, optic radiation, occipital) · จะถูกถ้าก้อนอยู่ที่ occipital lobe หรือ sellar region"
   },
-  "trap": "อาการจากความดันในกะโหลกสูงบอกตำแหน่งผิดได้ (false localizing sign) เช่น CN VI palsy ข้างเดียวหรือสองข้างจากเส้นประสาทถูกยืด — อย่าแปลว่าก้อนอยู่ที่ก้านสมอง",
+  "trap": "ตอบชักเพราะเป็นอาการแรกของก้อนสมองที่พบบ่อย — silent area = ไม่มี focal sign จนก้อนใหญ่ → ICP สูง",
   "summary": [
-   "<b>นอกสไลด์:</b> อาการความดันในกะโหลกสูงจากก้อน: ปวดศีรษะตอนตื่นนอน แย่ลงเมื่อไอ เบ่ง หรือก้ม อาเจียน (มักพุ่งไม่มีคลื่นไส้นำ) ตามัวชั่วครู่ papilledema"
+   "Silent area: non-dominant frontal/ temporal pole · corpus callosum บางส่วน",
+   "อาการ ICP สูง: ปวดหัวตอนเช้า อาเจียน papilledema · CN VI palsy",
+   "Cushing triad: ความดันสูง หัวใจช้า หายใจผิดปกติ → herniation",
+   "ก้อนที่ cortex → ชัก",
+   "ก้อน posterior fossa → hydrocephalus เร็ว",
+   "ICP สูง + ก้อน → steroid (ถ้า edema) → ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจปานกลาง (ก้อนโตช้าในเปลือกสมองมาด้วยชักก่อนได้บ่อย)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ไฟล์ Key 1 ไม่ได้ขีด) · ต้นฉบับมี 2 ช้อย จึงเติม C–E",
+  "mnemonic": "<b>'Silent area = เงียบจนก้อนใหญ่ → ICP ดังขึ้นมา'</b>",
+  "guide": "Greenberg Handbook of Neurosurgery 10th ed. (2023) — Brain tumors: presentation",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยก้อน frontal ใหญ่ ซึมลง ความดันสูง ชีพจรช้า หายใจไม่สม่ำเสมอ → Cushing reflex = ใกล้ herniation: ยกศีรษะ ให้ mannitol หรือ hypertonic saline แล้วผ่าตัดด่วน",
-   "<b>นอกสไลด์:</b> เด็กมีก้อนใน posterior fossa อุด fourth ventricle → ปวดศีรษะและอาเจียนตอนเช้าจาก obstructive hydrocephalus เป็นอาการแรก ก่อนเดินเซ"
+   "ชายปวดหัวตอนเช้า อาเจียน papilledema ไม่มีอ่อนแรง → CT ก้อน right frontal",
+   "ก้อนสมอง + ม่านตาข้างเดียวขยาย ซึมลง → uncal herniation → ผ่าตัดด่วน",
+   "ก้อนที่ cortex มาด้วยชักครั้งแรกในผู้ใหญ่ → MRI สมอง"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 64 — ตัวพิมพ์: <b>XX. Tumor at Silence area of brain. What is the first symptom? — 1. convulsion 2. increase intracranial pressure</b><br>ลายมือ: ขีด 2<br>ไฮไลต์: \"Tumor at Silence area of brain\" \"first symptom\" · 2 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 55: ไม่มีขีด<br>ที่ปรับในเว็บ: ต้นฉบับมี 2 ช้อย → เติม C–E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 64",
+  "kimg": [
+   "fsk_p64",
+   "kp69c_X4",
+   "k2p_55"
   ]
  },
  "MDCU69|RoC|X5": {
-  "interp": "ชาย BPH กระเพาะปัสสาวะเต็มสูง 10 cm เหนือหัวหน่าว ต่อมลูกหมาก 60 g เรียบไม่มีก้อน ยังไม่มีภาวะแทรกซ้อนในโจทย์ · ถามการจัดการ",
-  "why": "<b>คีย์ชุดแรก: ขีด 2 (retain Foley + TURP) · คีย์ไฟล์ 01.2: A</b><br><b>นอกสไลด์:</b> ปัสสาวะคั่งจาก BPH ที่ยังไม่มีภาวะแทรกซ้อน → ระบายปัสสาวะ (สวนเป็นครั้งหรือคาสาย) ร่วม alpha-blocker แล้วลองให้ปัสสาวะเอง · ผ่าตัดเมื่อปัสสาวะคั่งซ้ำ ลองถอดสายไม่สำเร็จ หรือมีภาวะแทรกซ้อน · สวนเป็นครั้งติดเชื้อน้อยกว่าคาสายนาน",
+  "interp": "ผู้ป่วย BPH มี<b>กระเพาะปัสสาวะเต็ม (acute urinary retention) คลำได้สูง 10 cm</b> ต่อม 60 g เรียบ ไม่มีก้อน → ถามการจัดการ",
+  "why": "Acute urinary retention จาก BPH: <b>ระบายปัสสาวะทันที</b> (สวนปัสสาวะ) แล้ว<b>ให้ alpha-blocker</b> (tamsulosin) อย่างน้อย 2–3 วันก่อน<b>ลองถอดสายสวน (trial without catheter, TWOC)</b> — alpha-blocker เพิ่มโอกาสปัสสาวะได้เองเกือบ 2 เท่า · ระหว่างนั้นใช้ indwelling Foley หรือ <b>clean intermittent catheterization (CIC)</b> ซึ่งลดการติดเชื้อ · ผ่าตัด (TURP) เมื่อ TWOC ล้มเหลว/ retention ซ้ำ/ ภาวะแทรกซ้อน (นิ่ว ไตเสื่อม UTI ซ้ำ) → คำตอบ A · ไฟล์ขีด 2 (retain Foley and TURP)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าลองถอดสายร่วม alpha-blocker แล้วยังปัสสาวะไม่ออก หรือมีนิ่วในกระเพาะปัสสาวะจากการอุดกั้น — คาสายไว้จนผ่าตัด TURP",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าชาย LUTS ปานกลางถึงรุนแรงที่ปัสสาวะได้เอง ต่อมโต ไม่มีปัสสาวะค้าง — ยาร่วมสองกลุ่มลดอาการและลดความเสี่ยงปัสสาวะคั่งหรือผ่าตัดระยะยาว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าปัสสาวะคั่งเฉียบพลันที่ใส่สายทางท่อปัสสาวะไม่ผ่าน ในสถานพยาบาลที่ไม่มีชุด suprapubic catheter — เจาะดูดเหนือหัวหน่าวชั่วคราวลดปวดระหว่างส่งต่อ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ากระเพาะปัสสาวะเต็มเพราะกลั้นมา เมื่อให้ไปปัสสาวะแล้วออกได้หมด (ปัสสาวะค้างหลังถ่ายน้อย)"
+   "B": "Retain Foley แล้ว TURP ทันทีเป็นทางเลือกเมื่อ TWOC ล้มเหลว/ retention ซ้ำ ไม่ใช่การจัดการแรกทุกราย (คีย์ไฟล์ MCQ Key 2 ขีดข้อนี้) · จะถูกถ้าผู้ป่วยถอดสายแล้วปัสสาวะไม่ออกซ้ำหลังได้ alpha-blocker หรือมีนิ่วในกระเพาะปัสสาวะ/ ไตบวมน้ำ",
+   "C": "Alpha-blocker + 5-ARI เป็นการรักษาระยะยาวของ LUTS ต่อมใหญ่ (&gt; 30–40 g) แต่ต้องระบายปัสสาวะก่อนเมื่อ retention · จะถูกถ้าผู้ป่วย BPH ต่อม 60 g มีอาการปัสสาวะลำบากแต่ปัสสาวะได้ ไม่มี retention",
+   "D": "Suprapubic aspiration ด้วยเข็มเป็นทางเลือกชั่วคราวเมื่อใส่สายทางท่อปัสสาวะไม่ได้ · จะถูกถ้าใส่สายสวนทางท่อปัสสาวะไม่สำเร็จ (ควรใส่ suprapubic cystostomy)",
+   "E": "ห้ามเฝ้าดูเมื่อกระเพาะปัสสาวะเต็มคลำได้ · จะถูกถ้าผู้ป่วย BPH อาการน้อย (IPSS ต่ำ) ไม่รบกวนชีวิต ไม่มี retention"
   },
-  "trap": "ต่อมขนาด 60 g ทำให้คิดว่าต้องผ่าตัดทันที — ขนาดต่อมไม่ใช่ข้อบ่งชี้ผ่าตัด ข้อบ่งชี้คือปัสสาวะคั่งที่ลองถอดสายไม่สำเร็จหรือมีภาวะแทรกซ้อน",
+  "trap": "รีบผ่าตัดทันทีหลัง retention ครั้งแรก — ให้ alpha-blocker แล้วลองถอดสายก่อน · คีย์ไฟล์ MCQ Key 2 ขีด B ส่วนไฟล์ Key 1 ขีด A",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ผ่าตัด BPH: ปัสสาวะคั่งซ้ำหรือลองถอดสายไม่สำเร็จ · UTI ซ้ำ · ปัสสาวะเป็นเลือดซ้ำจากต่อม · นิ่วในกระเพาะปัสสาวะ · ไตเสื่อมจากการอุดกั้น · ใช้ยาไม่ได้ผล"
+   "AUR จาก BPH: ระบายทันที (Foley/ CIC)",
+   "Alpha-blocker 2–3 วัน → TWOC (เพิ่มโอกาสสำเร็จ)",
+   "TWOC ล้มเหลว/ retention ซ้ำ → TURP",
+   "ข้อบ่งชี้ผ่าตัด BPH: retention ซ้ำ · นิ่ว · UTI ซ้ำ · hematuria ซ้ำ · ไตเสื่อม",
+   "5-ARI: ต่อม &gt; 30–40 g ลดขนาด ลดความเสี่ยง AUR",
+   "PR ต่อมแข็งขรุขระ → PSA + biopsy (มะเร็ง)"
   ],
-  "opinion": "ตอบ A ตามคีย์ไฟล์ 01.2 (คีย์ชุดแรกขีด B) — ปัสสาวะคั่งครั้งแรกให้ระบายร่วม alpha-blocker แล้วลองถอดสายก่อน ผ่าตัดเมื่อไม่สำเร็จหรือมีภาวะแทรกซ้อน · คีย์ B จะถูกถ้าเป็น chronic retention ร่วมไตบวมน้ำหรือไตเสื่อม · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ของเว็บ ความมั่นใจปานกลาง — ตรงกับคีย์ไฟล์ Key 1 และแนวทางปัจจุบัน (alpha-blocker + TWOC ก่อน) · คีย์ไฟล์ MCQ Key 2 ขีด 2 (retain Foley and TURP) ซึ่งเป็นแนวทางในอดีต/ เมื่อ TWOC ล้มเหลว · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'Retention ครั้งแรก = สาย + alpha → ลองถอด · ซ้ำ = TURP'</b>",
+  "guide": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2024; AUA Guideline: Management of Lower Urinary Tract Symptoms Attributed to BPH (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยระหว่างรอลองถอดสายได้ tamsulosin และนัดผ่าตัดต้อกระจก → แจ้งจักษุแพทย์เรื่อง floppy iris และระวังความดันตกเมื่อลุกยืน",
-   "<b>นอกสไลด์:</b> ชาย BPH ปัสสาวะคั่งซ้ำ ต่อมขนาด 120 mL → ต่อมใหญ่เกินช่วงที่เหมาะกับ TURP: HoLEP หรือ simple prostatectomy"
+   "ชาย BPH ปัสสาวะไม่ออก ใส่สาย + tamsulosin 3 วัน → TWOC สำเร็จ → ยาต่อ",
+   "TWOC ล้มเหลว 2 ครั้ง → TURP",
+   "ใส่สายทางท่อปัสสาวะไม่ได้ → suprapubic cystostomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 64 — ตัวพิมพ์: <b>XX. Patient BPH with full bladder 10 cm เหนือสะดือ PR: 60 g smooth no mass What is your management? — 1. cic with alpha blocker 2. retain foley and TRUP 3. alpha blocker and 5alpha reductase</b><br>ลายมือ: ขีด 2 · ลูกศรเล็กจาก \"foley\" ไป \"TRUP\"<br>ไฮไลต์: \"BPH with full bladder 10 cm เหนือสะดือ\" \"PR: 60 g smooth no mass\" \"management\" · 2 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 55: ขีด A (⚠ ต่างจากคีย์ MCQ Key 2)<br>ที่ปรับในเว็บ: คำตอบเว็บ A (cic with alpha blocker) · ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 64",
+  "kimg": [
+   "fsk_p64",
+   "kp69c_X5",
+   "k2p_55"
   ]
  },
  "MDCU69|RoC|X6": {
-  "interp": "ก้อนที่ anal canal ลุกต่อมลูกหมาก ไม่พบแพร่กระจาย (T4 N0 M0) · ถามการรักษา",
-  "why": "<b>คีย์: ขีด 4 (pelvic exenteration)</b><br><b>นอกสไลด์:</b> มะเร็ง anal canal ส่วนใหญ่เป็น SCC ที่ตอบสนองต่อรังสีร่วมเคมีดีมาก → แม้ลุกอวัยวะข้างเคียง (T4) ถ้าไม่แพร่กระจาย ใช้ definitive chemoradiation เป็นการรักษาหลัก เก็บหูรูดได้ · ผ่าตัดใหญ่เก็บไว้เมื่อโรคเหลือหรือกลับเป็นซ้ำ",
+  "interp": "<b>มะเร็ง anal canal ลุกลามเข้าต่อมลูกหมาก (T4)</b> ไม่มีข้อมูลอื่น → ถามการรักษา",
+  "why": "มะเร็ง anal canal ส่วนใหญ่เป็น <b>squamous cell carcinoma</b> ซึ่งไวต่อรังสีและเคมี → การรักษาหลัก<b>ทุกระยะที่ไม่กระจาย รวมถึง T4</b> คือ <b>definitive chemoradiation (Nigro protocol: 5-FU + mitomycin C + RT)</b> โดยเก็บหูรูดได้ · ผ่าตัด APR/ pelvic exenteration สงวนไว้สำหรับ<b>โรคเหลือหรือกลับเป็นซ้ำหลัง chemoRT (salvage)</b> → คำตอบ A · ไฟล์ขีด 4 (pelvic exenteration)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ brachytherapy อย่างเดียวเป็นการรักษาหลักของมะเร็ง anal canal เพราะรังสีระยะใกล้คลุมได้แค่ตัวก้อน ไม่คลุมต่อมน้ำเหลืองเชิงกรานและขาหนีบ — ใช้ได้แค่เป็นรังสีเสริม (boost) หลังฉายภายนอก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น anal SCC ที่ยังเหลือเฉพาะที่ anorectum หลังครบ chemoradiation และติดตามจนครบเวลาประเมิน — salvage APR",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า anal SCC กลับเป็นซ้ำหลัง chemoradiation และลุกต่อมลูกหมากหรือกระเพาะปัสสาวะ — salvage pelvic exenteration",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งที่ anal margin (ผิวหนังรอบทวาร) ก้อนเล็ก T1 N0 ไม่ลุกหูรูด — ตัดเฉพาะที่ได้ขอบพอ"
+   "B": "Brachytherapy อย่างเดียวไม่พอสำหรับ T4 (อาจใช้เป็น boost) · จะถูกถ้าคำถามถามการเพิ่มขนาดรังสีเฉพาะที่หลัง external beam",
+   "C": "APR เป็น salvage เมื่อโรคเหลือ/ กลับเป็นซ้ำหลัง chemoRT หรือใช้กับ adenocarcinoma ของ anal canal · จะถูกถ้าหลัง chemoRT 6 เดือนยังมีก้อนเหลือ ชิ้นเนื้อยืนยัน",
+   "D": "Pelvic exenteration เป็น salvage เมื่อโรคเหลือ/ กลับเป็นซ้ำลุกลามอวัยวะข้างเคียงหลัง chemoRT ไม่ใช่การรักษาแรก (คีย์ทั้งสองไฟล์ขีดข้อนี้) · จะถูกถ้าก้อนกลับเป็นซ้ำหลัง chemoRT ลุกลามต่อมลูกหมาก/ กระเพาะปัสสาวะ ไม่มีกระจาย",
+   "E": "Local excision ใช้กับรอยโรคเล็กมากที่ขอบทวาร (anal margin T1 &lt; 2 cm) · จะถูกถ้าเป็น perianal (anal margin) SCC ขนาดเล็ก ไม่ลุกลามหูรูด"
   },
-  "trap": "ก้อนลุกต่อมลูกหมากทำให้คิดว่าต้องผ่าตัดเอาออกทั้งหมด — ใน anal SCC การลุกลามเฉพาะที่ไม่เปลี่ยนการรักษาหลักจาก chemoradiation",
+  "trap": "เห็นลุกลามอวัยวะข้างเคียงแล้วตอบผ่าตัดใหญ่ — anal SCC ใช้ chemoRT แม้ T4 · คีย์ทั้งสองไฟล์ขีด D",
   "summary": [
-   "<b>นอกสไลด์:</b> anal SCC: สัมพันธ์ HPV, HIV, ภูมิคุ้มกันต่ำ · ต่อมน้ำเหลือง: ก้อนต่ำกว่า dentate → ขาหนีบ · เหนือ dentate → perirectal/internal iliac · Nigro regimen = 5-FU (หรือ capecitabine) + mitomycin ร่วมรังสี · ประเมินผลจนถึงราว 26 สัปดาห์หลังจบรังสี"
+   "Anal canal SCC: Nigro chemoRT (5-FU + MMC + RT) ทุกระยะที่ไม่กระจาย",
+   "ประเมินผลหลัง chemoRT ที่ 26 สัปดาห์ (ยุบช้า)",
+   "โรคเหลือ/ กลับเป็นซ้ำ → salvage APR ± exenteration",
+   "ปัจจัยเสี่ยง: HPV · HIV · MSM · ภูมิคุ้มกันต่ำ",
+   "Anal margin SCC เล็ก → local excision",
+   "Anal adenocarcinoma → รักษาแบบ rectal cancer"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ D (คีย์ 2 ไฟล์ตรงกัน) — ตอบ A เพราะก้อน anal canal ส่วนใหญ่เป็น SCC ที่ใช้ chemoradiation แม้ลุกอวัยวะข้างเคียง · คีย์จะถูกถ้าเป็นโรคเหลือหรือกลับเป็นซ้ำหลังรังสี · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ของเว็บ ความมั่นใจสูง — แนวทาง NCCN/ ESMO ใช้ chemoradiation เป็นการรักษาแรกแม้ T4 · คีย์ทั้งสองไฟล์ (MCQ Key 2 และ Key 1) ขีด D (pelvic exenteration) ซึ่งเป็นการผ่าตัด salvage · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Anal SCC = Nigro ก่อนเสมอ (chemoRT) → ผ่าเมื่อไม่หาย'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Anal Carcinoma v.2.2025; ESMO-ESSO-ESTRO Anal Cancer Guidelines (Ann Oncol 2021;32:1087)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV มีก้อนที่ anal canal ร่วมต่อมขาหนีบโต → เจาะตรวจต่อมขาหนีบยืนยัน แล้วรวมขาหนีบไว้ในลำรังสี",
-   "<b>นอกสไลด์:</b> ก้อนที่ anal canal ผลชิ้นเนื้อเป็น adenocarcinoma → รักษาแบบมะเร็งไส้ตรง: chemoradiation ก่อนแล้ว APR"
+   "มะเร็ง anal canal SCC T2N0 → chemoRT",
+   "หลัง chemoRT 6 เดือนยังมีก้อนเหลือ ชิ้นเนื้อยืนยัน → salvage APR",
+   "ก้อน perianal SCC 1.5 cm ไม่ลุกลามหูรูด → local excision"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 65 — ตัวพิมพ์: <b>XX. Anal canal tumor! Invade prostate without any other remarks. What is your treatment? — 1. chemoradiation 2. brachytherapy 3. APR 4. pelvic exentersion</b><br>ลายมือ: ขีด 4<br>ไฮไลต์: \"Anal canal tumor\" \"Invade prostate without any other remarks\" \"treatment\" · 4 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 56: ขีด D (ตรงกัน)<br>ที่ปรับในเว็บ: คำตอบเว็บ A (chemoradiation) · ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 65",
+  "kimg": [
+   "fsk_p65",
+   "kp69c_X6",
+   "k2p_56"
   ]
  },
  "MDCU69|RoC|X7": {
-  "interp": "ก้อนในไตขวา 7×8 cm พบโดยบังเอิญจาก CT ที่ฉีดสารทึบรังสี ไม่มีอาการหรือสิ่งผิดปกติอื่น · ถามการจัดการ",
-  "why": "<b>คีย์: ขีด 3 + ลายมือ RCC? · biopsy → RCC ห้าม</b><br><b>นอกสไลด์:</b> ก้อนแข็งในไตที่จับสารทึบรังสีในผู้ใหญ่ = RCC จนกว่าจะพิสูจน์ได้ · ก้อนเกิน 7 cm (T2) ไม่มีแพร่กระจาย → radical nephrectomy ได้เลยโดยไม่ต้องเจาะชิ้นเนื้อก่อน",
+  "interp": "ผู้ป่วยไม่มีอาการ ทำ CT ฉีดสีพบ<b>ก้อนที่ไตขวา 7×8 cm โดยบังเอิญ</b> ไม่มีความผิดปกติอื่น → ถามการจัดการ",
+  "why": "ก้อนเนื้อตันที่ไตที่ enhance บน CT ในผู้ใหญ่ = <b>renal cell carcinoma (RCC) จนกว่าจะพิสูจน์ได้ว่าไม่ใช่</b> · ก้อน<b>&gt; 7 cm (T2)</b> ไม่มีการกระจาย → <b>radical nephrectomy</b> · partial nephrectomy เหมาะกับ T1 (≤ 7 cm โดยเฉพาะ T1a ≤ 4 cm) หรือไตข้างเดียว/ ไตเสื่อม · <b>ไม่ต้อง biopsy ก่อนผ่าตัด</b>เมื่อภาพชัดและจะผ่าตัดอยู่แล้ว · ไฟล์ขีด 3 ลายมือ <b>\"&gt; 7 cm · RCC?\"</b> และ biopsy <b>\"→ RCC ห้ามทำ\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัยว่าไม่ใช่ RCC (lymphoma, มะเร็งอื่นแพร่มาไต, ฝี) หรือก่อนรักษาด้วย ablation หรือเฝ้าติดตาม หรือก่อนให้ยา systemic ในโรคที่แพร่กระจาย",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเล็ก (T1) ตำแหน่งตัดได้ หรือผู้ป่วยมีไตข้างเดียว ก้อนสองข้าง หรือไตเสื่อม — partial nephrectomy เพื่อเก็บเนื้อไต",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ chemoradiation เป็นการรักษาหลักของ RCC เพราะ RCC ดื้อต่อเคมีบำบัดแบบดั้งเดิม — โรคแพร่กระจายใช้ immunotherapy หรือ targeted therapy ส่วนรังสีใช้บรรเทาอาการ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเล็ก (ราว 2–3 cm) ในผู้สูงอายุโรคร่วมมากที่อายุคาดเฉลี่ยสั้น — active surveillance ด้วยภาพเป็นระยะ"
+   "A": "Biopsy ไม่จำเป็นเมื่อจะผ่าตัดอยู่แล้ว (ลายมือ \"RCC ห้ามทำ\") · จะถูกถ้าก้อนเล็กที่จะเฝ้าระวัง/ ablation หรือสงสัย lymphoma/ metastasis ไปไต",
+   "B": "Partial nephrectomy เหมาะกับก้อน ≤ 7 cm (T1) หรือมีไตข้างเดียว · จะถูกถ้าก้อน 3 cm ที่ขอบไต หรือผู้ป่วยมีไตข้างเดียว",
+   "D": "RCC ไม่ไวต่อเคมีบำบัดและรังสี · จะถูกถ้าคำถามถามการรักษามะเร็งกระเพาะปัสสาวะที่ต้องการเก็บกระเพาะ",
+   "E": "การเฝ้าระวังเหมาะกับก้อนเล็ก (&lt; 2–3 cm) ในผู้สูงอายุ/ โรคร่วมมาก · จะถูกถ้าผู้สูงอายุโรคหัวใจรุนแรงมีก้อนไต 2 cm"
   },
-  "trap": "ก้อนที่พบโดยบังเอิญและไม่มีอาการทำให้คิดว่าไม่ร้ายแรงหรือต้องรอผลชิ้นเนื้อ — RCC ส่วนใหญ่ปัจจุบันพบโดยบังเอิญ ก้อนแข็งที่จับสารทึบรังสีถือเป็นมะเร็งและผ่าตัดได้เลย",
+  "trap": "ส่งเจาะชิ้นเนื้อก่อนเหมือนก้อนอวัยวะอื่น — ก้อนไตลักษณะ RCC ผ่าตัดได้เลย",
   "summary": [
-   "<b>นอกสไลด์:</b> ก้อนไตแข็งตามขนาด: T1a ≤ 4 cm → partial nephrectomy (หรือ ablation/เฝ้าติดตามในผู้สูงอายุ) · T1b 4–7 cm → partial ถ้าทำได้ · T2 &gt; 7 cm หรือก้อนอยู่กลางไต → radical nephrectomy · ก่อนผ่าตัด CT ทรวงอก ดู renal vein/IVC และการทำงานของไตอีกข้าง"
+   "ก้อนไตตัน enhance &gt; 15 HU = RCC จนพิสูจน์ได้ว่าไม่ใช่",
+   "T1a ≤ 4 cm · T1b 4–7 · T2 &gt; 7 (จำกัดในไต)",
+   "T1 → partial nephrectomy (เลือกก่อน) · T2+ → radical nephrectomy",
+   "ไม่ต้อง biopsy ก่อนผ่าตัดส่วนใหญ่",
+   "Bosniak III–IV cyst → ผ่าตัด",
+   "RCC กระจาย → targeted/ immunotherapy (ไม่ไวต่อเคมี/ รังสี)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง · ลายมือ “biopsy ห้าม” เป็นแนวคิดเดิม ปัจจุบันเจาะชิ้นเนื้อไตปลอดภัยแต่ไม่จำเป็นเมื่อจะผ่าตัดอยู่แล้ว",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'ก้อนไต &gt; 7 = Radical · ≤ 7 = Partial · ไม่ต้องเจาะ'</b>",
+  "guide": "AUA Guideline: Renal Mass and Localized Renal Cancer (2021, amended 2023); EAU Guidelines on Renal Cell Carcinoma 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> CT พบก้อนไตที่มีไขมัน (ค่า HU ติดลบ) ในหญิง → angiomyolipoma: ก้อนเกินราว 4 cm หรือมีเลือดออก → embolization หรือ partial nephrectomy",
-   "<b>นอกสไลด์:</b> RCC ก้อนใหญ่ร่วม tumor thrombus ใน IVC ไม่มีแพร่กระจาย → radical nephrectomy ร่วมเอา thrombus ออก ยังหวังหายขาดได้"
+   "ก้อนไต 3 cm พบโดยบังเอิญ → partial nephrectomy",
+   "ก้อนไต 9 cm + tumor thrombus ใน IVC → radical nephrectomy + thrombectomy",
+   "ผู้สูงอายุโรคร่วมมาก ก้อนไต 1.8 cm → active surveillance"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 65 — ตัวพิมพ์: <b>XX. Patient อารมณ์ดีไปทำ CT with contrast ! เจอก้อน 7x8 cm at right kidney , no other remarks. What is your management? — 1. biopsy 2. partial nephrectomy 3. radical nephrectomy 4. chemoradiation</b><br>ลายมือ: \"&gt; 7 cm\" เหนือขนาดก้อน · \"RCC?\" · 1 \"→ RCC ห้ามทำ\" · ขีด 3<br>ไฮไลต์: \"CT with contrast ! เจอก้อน 7x8 cm at right kidney\" \"management\" · 3 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 56: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 65",
+  "kimg": [
+   "fsk_p65",
+   "kp69c_X7",
+   "k2p_56"
   ]
  },
  "MDCU69|RoC|X8": {
-  "interp": "ตัด sessile polyp 1 cm ผ่านกล้อง ผลพยาธิเป็นมะเร็งลุกถึง submucosa (malignant polyp, T1) · ถามขั้นต่อไป",
-  "why": "<b>คีย์: ขีด 1 + ลายมือ T1 N0 M0 · Haggitt 4 → segmental resection</b><br><b>นอกสไลด์:</b> sessile polyp ที่มะเร็งลุก submucosa ถือเป็น Haggitt level 4 มีโอกาสต่อมน้ำเหลืองมีมะเร็งซึ่งการตัด polyp ไม่ได้เอาออก → oncologic segmental colectomy พร้อมเลาะต่อมน้ำเหลือง · โจทย์ไม่บอกความลึก ขอบตัด และ grade จึงถือว่าเสี่ยงไว้ก่อน (ติดตามได้เฉพาะเมื่อยืนยันว่าลุกตื้น ตัดได้ทั้งชิ้น ขอบ ≥ 1 mm และไม่มีลักษณะเสี่ยง)",
+  "interp": "ส่องกล้องตัด <b>sessile polyp 1 cm</b> ผลชิ้นเนื้อเป็น<b>มะเร็งลุกลามถึง submucosa (T1)</b> → ถามขั้นต่อไป",
+  "why": "Malignant polyp ชนิด <b>sessile</b> ที่มะเร็งลุกลาม submucosa = <b>Haggitt level 4</b> (sessile ทุกรายที่ invasive ถือเป็น level 4) → ความเสี่ยงต่อมน้ำเหลืองสูงกว่า pedunculated · ร่วมกับตัดแบบไม่ได้ชิ้นเดียว/ ขอบไม่ชัด → แนะนำ <b>segmental colectomy พร้อมเลาะต่อมน้ำเหลือง (oncologic resection)</b> · ปัจจัยเสี่ยงที่บ่งชี้ผ่าตัด: margin &lt; 1–2 mm, poorly differentiated, lymphovascular invasion, tumor budding, submucosal invasion ลึก (Kikuchi sm3/ &gt; 1 mm) · ไฟล์ขีด 1 ลายมือ <b>\"T1 N0 M0 · Haggitt 4\"</b> และ right colectomy → <b>\"segmental resection\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งลำไส้ใหญ่ในผู้ป่วย Lynch syndrome (ตัดกว้างลดมะเร็งใหม่) หรือมีมะเร็งหลายตำแหน่งคนละส่วนของลำไส้ใหญ่",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น pedunculated polyp ที่มะเร็งอยู่แค่หัวถึงคอ (Haggitt 1–3) ตัดได้ทั้งชิ้นขอบ ≥ 1 mm และไม่มีลักษณะเสี่ยงทางพยาธิ — ส่องกล้องติดตาม",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผลพยาธิเป็นแค่ intramucosal carcinoma/high-grade dysplasia แต่ตัดไม่หมด — ส่องกล้องตัดซ้ำ (EMR/ESD)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผ่าตัดลำไส้แล้วพบต่อมน้ำเหลืองมีมะเร็ง (stage III) — เคมีบำบัดเสริมหลังผ่าตัด"
+   "B": "Subtotal colectomy ตัดมากเกินความจำเป็น · จะถูกถ้าผู้ป่วยมี Lynch syndrome หรือมะเร็งหลายตำแหน่ง",
+   "C": "เฝ้าดูด้วย colonoscopy ใช้ได้เมื่อ malignant polyp มีลักษณะเสี่ยงต่ำ (pedunculated Haggitt 1–3, ตัดชิ้นเดียว margin &gt; 1–2 mm, well/ moderately differentiated, ไม่มี LVI) (คีย์ไฟล์ Key 1 ขีดข้อนี้) · จะถูกถ้า pedunculated polyp มะเร็งอยู่ที่หัว ตัดได้ชิ้นเดียวขอบปลอดภัย ไม่มีลักษณะเสี่ยง",
+   "D": "ตัด polyp ซ้ำไม่ได้เลาะต่อมน้ำเหลือง · จะถูกถ้า polyp ยังไม่ใช่มะเร็ง (adenoma) ที่ตัดออกไม่หมด",
+   "E": "เคมีบำบัดไม่ใช่การรักษาแรกของ T1 · จะถูกถ้าหลังผ่าตัดพบต่อมน้ำเหลืองบวก (stage III)"
   },
-  "trap": "Haggitt level ใช้กับ polyp ที่มีก้าน · sessile polyp ที่มะเร็งลุก submucosa เท่าใดก็ตามถือเป็น level 4 (วัดความลึกด้วย Kikuchi sm1–3 แทน) จึงเสี่ยงกว่า pedunculated",
+  "trap": "คิดว่าตัด polyp ออกหมดแล้วจบ — sessile + invasive submucosa = Haggitt 4 เสี่ยงต่อมน้ำเหลือง → ผ่าตัด · คีย์ไฟล์ Key 1 ขีด C",
   "summary": [
-   "<b>นอกสไลด์:</b> malignant polyp (T1) ต้องผ่าตัดเมื่อมีลักษณะเสี่ยงอย่างใดอย่างหนึ่ง: ขอบตัด &lt; 1 mm หรือตัดเป็นชิ้น ๆ · poorly differentiated · lymphovascular invasion · tumor budding สูง · sessile ที่ลุก submucosa ลึก (sm3 หรือเกินราว 1 mm) · โอกาสต่อมน้ำเหลืองมีมะเร็งใน T1 ราว 1 ใน 10"
+   "Haggitt 1–3: pedunculated head/ neck/ stalk · level 4: ฐาน/ sessile ทุกราย",
+   "เสี่ยงสูง: sessile · margin &lt; 1–2 mm · poorly diff · LVI · budding · sm3",
+   "เสี่ยงต่ำ → เฝ้าดู colonoscopy 3–6 เดือน",
+   "เสี่ยงสูง → segmental colectomy + lymphadenectomy",
+   "สัก (tattoo) ตำแหน่ง polyp ไว้เสมอเมื่อสงสัยมะเร็ง",
+   "Kikuchi sm1–3 · sm &gt; 1 mm (ญี่ปุ่น) เสี่ยงต่อมน้ำเหลือง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ลายมือ A · คีย์ไฟล์ 01.2 ตอบ C (ติดตาม) ซึ่งใช้ได้เฉพาะ polyp ที่ไม่มีลักษณะเสี่ยง · มั่นใจปานกลาง (โจทย์ไม่บอกขอบตัดและ grade)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ขีด 1) และลายมือ Haggitt 4 · คีย์ไฟล์ Key 1 ขีด C ซึ่งใช้ได้เฉพาะ polyp เสี่ยงต่ำ · ต้นฉบับช้อย 1 เขียน right colectomy ผู้จดแก้เป็น segmental resection",
+  "mnemonic": "<b>'Sessile + มะเร็งถึง submucosa = Haggitt 4 = ตัดลำไส้'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Colon Cancer v.3.2025 — Malignant polyps; ASCRS Clinical Practice Guidelines for the Management of Colon Cancer (Dis Colon Rectum 2022;65:148)",
   "variants": [
-   "<b>นอกสไลด์:</b> ส่องกล้องพบ polyp ไม่มีก้าน 2 cm ผิวตรงกลางยุบ ลวดลายผิวเสียไป (สงสัยลุก submucosa ลึก) → ไม่ตัดผ่านกล้อง: ตัดชิ้นเนื้อ สักตำแหน่ง แล้วส่งผ่าตัด",
-   "<b>นอกสไลด์:</b> malignant polyp ลักษณะเสี่ยงที่ไส้ตรงส่วนล่าง ผู้ป่วยเสี่ยงผ่าตัดใหญ่สูง → พิจารณา chemoradiation แทน TME/APR โดยยอมรับความเสี่ยงกลับเป็นซ้ำที่สูงกว่า"
+   "pedunculated polyp มะเร็งที่หัว (Haggitt 1) ตัดชิ้นเดียว margin 3 mm → เฝ้าดู",
+   "polyp มะเร็งมี lymphovascular invasion → colectomy",
+   "sessile polyp 3 cm ตัดเป็นชิ้น ๆ ผลเป็นมะเร็ง → colectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 65 — ตัวพิมพ์: <b>XX. Patient went to Colonoscope. Found senile polyp 1 cm but pathology result shows invade submucosa. What is your next move? — 1. right colectomy 2. subtotal colectomy 3. observe closely with colonoscopy</b><br>ลายมือ: แก้ \"senile\" เป็น \"sessile\" · \"T1 N0 M0\" · ปีกกา \"Haggitt 4\" ลากลูกศรไป 1 · 1 \"segmental resection\" · ขีด 1<br>ไฮไลต์: \"Colonoscope. Found sessile polyp 1 cm\" \"pathology result shows invade submucosa\" · 1 (เหลือง)<br>รูปที่แปะ: ตาราง Staging : AJCC/ TNM (ลายมือชุดเดียวกับข้อ 90 — Tis, T1 ทะลุ musc. muco. มาอยู่ใน submu, T2, T3, T4 · N0/ N1 1–3/ N2 ≥ 4 pericolic LN · M0/ M1 · ตาราง stage 0–4)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 56: ขีด C (⚠ ต่างจากคีย์ MCQ Key 2)<br>ที่ปรับในเว็บ: ช้อย A เขียนเป็น segmental colectomy · ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 65",
+  "kimg": [
+   "fsk_p65",
+   "kp69c_X8",
+   "k2p_56"
   ]
  },
  "MDCU69|RoC|X9": {
-  "interp": "chronic anal fissure (มี sentinel pile และ hypertrophic papilla) · ถามการรักษาที่ได้ผลดีที่สุด",
-  "why": "<b>คีย์: ขีด 1 + ลายมือ หาย 95% · incontinence 30%?</b><br><b>นอกสไลด์:</b> chronic fissure เกิดจากหูรูดภายในเกร็งจนเลือดมาเลี้ยงแผลน้อย · lateral internal sphincterotomy ลดแรงตึงหูรูดถาวร แผลหายสูงสุดและกลับเป็นซ้ำน้อยสุดเมื่อเทียบกับยาทาหรือ botulinum toxin",
+  "interp": "<b>Chronic anal fissure</b> มี sentinel pile และ hypertrophied anal papilla → ถามการรักษาที่<b>ได้ผลดีที่สุด</b>",
+  "why": "<b>Lateral internal sphincterotomy (LIS)</b> เป็น <b>gold standard</b> ของ chronic anal fissure — แผลหาย <b>&gt; 90–95%</b> (ดีกว่ายาทุกชนิด) กลับเป็นซ้ำน้อย · ข้อเสีย: กลั้นลม/ อุจจาระไม่อยู่เล็กน้อย (~&lt; 10%) · ลำดับการรักษา: lifestyle (ใยอาหาร sitz bath) → ยา (NTG/ CCB ointment) → Botox → LIS · ไฟล์ขีด 1 ลายมือ <b>\"หาย 100% ; incontinence 10%\"</b> และแปะสไลด์ <b>\"Ischemic and high anal resting pressure play an important role in the cause of CAF\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย chronic fissure มีความเสี่ยงกลั้นไม่อยู่ (หญิงเคยฉีกขาดหูรูดจากการคลอด ผู้สูงอายุหูรูดอ่อน) — ใช้ยาทาคลายหูรูด (GTN หรือ diltiazem) ก่อนแทนการตัดหูรูด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น acute fissure ครั้งแรก ยังไม่มี sentinel pile — ใยอาหาร น้ำ ยาระบายนุ่ม และ sitz bath หายได้ราวครึ่งหนึ่ง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ที่เสี่ยงกลั้นไม่อยู่ใช้ยาทาแล้วไม่หายหรือทนผลข้างเคียงไม่ได้ (ปวดศีรษะจาก GTN) — ฉีด botulinum toxin (ผลอยู่ราว 3 เดือน)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น fissure เรื้อรังที่ความดันหูรูดไม่สูง (เช่นหลังคลอด) ซึ่งไม่ควรตัดหูรูด — ตัดขอบแผลเรื้อรังและติ่งเนื้อออกโดยไม่ตัดหูรูด"
+   "B": "NTG ointment หาย ~50–60% ปวดหัวบ่อย กลับเป็นซ้ำได้ · จะถูกถ้าคำถามถามการรักษาเริ่มต้นของ chronic fissure ที่ต้องการเลี่ยงผ่าตัด",
+   "C": "Lifestyle modification (ใยอาหาร sitz bath) เป็น first line ได้ผลดีใน acute fissure · จะถูกถ้าคำถามถามการรักษาแรกของ acute fissure",
+   "D": "Botox หาย ~60–80% ไม่มี incontinence ถาวร แต่กลับเป็นซ้ำได้ · จะถูกถ้าผู้ป่วยหญิงหลังคลอดหลายครั้งเสี่ยง incontinence ไม่อยากผ่าตัด",
+   "E": "Fissurectomy อย่างเดียวไม่ลดแรงบีบหูรูด กลับเป็นซ้ำได้ (มักทำร่วม Botox) · จะถูกถ้าผู้ป่วยแรงบีบหูรูดต่ำ (เสี่ยง incontinence) ต้องเลี่ยง sphincterotomy"
   },
-  "trap": "กลัวกลั้นไม่อยู่จนใช้แค่ยาทาไปเรื่อย ๆ — LIS แบบตัดแค่ความยาวของแผล ส่วนใหญ่มีแค่กลั้นลมไม่อยู่ชั่วคราว กลั้นอุจจาระไม่อยู่ถาวรพบน้อย (ตัวเลข 30% ในลายมือสูงกว่ารายงานปัจจุบัน)",
+  "trap": "ตอบยาทาเพราะเป็นการรักษาแรก — คำถามถาม best outcome = LIS",
   "summary": [
-   "<b>นอกสไลด์:</b> LIS: ตัด internal sphincter ด้านข้าง (เลี่ยงแนวกลางหน้าหลัง) สูงเท่าความยาวแผลหรือไม่เกิน dentate line · แผลหายราว 90–95% · กลั้นลมหรืออุจจาระไม่อยู่เล็กน้อยไม่ถึงราว 10% ส่วนใหญ่ชั่วคราว · ไม่ทำในผู้ที่หูรูดอ่อนหรือเคยบาดเจ็บหูรูด"
+   "กลไก: หูรูดภายในบีบเกร็ง → ขาดเลือด → แผลไม่หาย",
+   "Acute: ใยอาหาร sitz bath ± ยาทา",
+   "Chronic: NTG/ CCB → Botox → LIS",
+   "LIS: หาย &gt; 90–95% · incontinence เล็กน้อย",
+   "ข้อบ่งชี้ผ่าตัด: ปวด/ เลือดออกต่อเนื่อง ไม่ตอบสนองยา",
+   "หญิงหลังคลอด/ แรงบีบต่ำ → Botox/ fissurectomy/ advancement flap"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Fissure หายดีที่สุด = LIS (ตัดหูรูดในด้านข้าง)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Dis Colon Rectum 2023;66:190)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย chronic fissure ไม่อยากผ่าตัดและไม่มีปัจจัยเสี่ยงกลั้นไม่อยู่ → ทา diltiazem 2% วันละ 2 ครั้ง 6–8 สัปดาห์ (ปวดศีรษะน้อยกว่า GTN) ถ้าไม่หายจึงทำ LIS",
-   "<b>นอกสไลด์:</b> เด็กเล็กท้องผูกมี fissure ด้านหลัง → แก้ท้องผูกด้วยยาระบายและการฝึกขับถ่าย ไม่ผ่าตัด"
+   "fissure 3 สัปดาห์ ใยอาหาร sitz bath → acute fissure → conservative",
+   "chronic fissure ไม่หายหลัง NTG 8 สัปดาห์ → Botox หรือ LIS",
+   "หญิงหลังคลอด 3 ครั้ง chronic fissure → Botox (เลี่ยง LIS)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 65 — ตัวพิมพ์: <b>XX. Patient with chronic anal fissure. Found sentinel pile and hypertrophic anal papilla. Which management has the best outcome? — 1. LIS 2. nitroglycerine cream 3. life style modification 4. Botox injection</b><br>ลายมือ: 1 \"หาย 100% ; incontinence 10%\" · ขีด 1<br>ไฮไลต์: \"chronic anal fissure\" \"sentinel pile and hypertrophic anal papilla\" \"management\" \"best outcome\" · 1 (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ Chronic anal fissure — \"Ischemic and high anal resting pressure play an important role in the cause of CAF\" · ลายมือ \"sphinc spasm → ischemia แผลหายยาก\" · \"Gold standard: lateral internal sphincterotomy\" · Indication for surgery: presence of persistent pain and bleeding, lack of response to medical treatment · Aim: ↓ spasm, ↑ anodermal blood flow · 1° line = lifestyle modification · ลำดับ NTG ointment, Calcium channel blockers → Botulinum toxin → LIS · ลายมือเล็กรอบสไลด์ (lifestyle mod หาย 10% · medical sphincterotomy: NTG/ nifedipine ointment หาย 40% · botox injection หาย 60–80% · LIS หาย 100% แต่ incontinence 10% · \"ถ้ารักษา medical ก่อน ถ้าไม่ดีขึ้นค่อย Lateral int. sphinc · ทำ Gold standard คือ Lateral internal sphincterotomy (LIS)\")<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 56: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 65",
+  "kimg": [
+   "fsk_p65",
+   "kp69c_X9",
+   "k2p_56"
   ]
  },
  "MDCU69|RoC|X10": {
-  "interp": "ข้อ WRONG · ถามข้อความที่ไม่ถูกเรื่อง skin graft",
-  "why": "<b>คีย์: ขีด 1 + ลายมือ primary closure, graft</b><br><b>นอกสไลด์:</b> FTSG เอาผิวหนังทั้งชั้นรวม dermis ทั้งหมด ไม่เหลือรูขุมขนหรือต่อมให้เยื่อบุงอกคลุม donor จึงหายเองไม่ได้ ต้องเย็บปิดตรง (หรือปลูก graft ถ้า donor กว้าง)",
+  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ skin graft",
+  "why": "<b>Donor site ของ full-thickness skin graft (FTSG) หายเองไม่ได้</b> เพราะตัดหนังแท้ไปทั้งชั้น ไม่เหลือ adnexa ให้เซลล์งอกคลุม → ต้อง<b>เย็บปิดแบบ primary closure</b> (หรือปิดด้วย graft) · ข้ออื่นถูก: donor ของ STSG หายเองจาก adnexa ที่เหลือ (~10–14 วัน), FTSG หดตัวน้อยกว่า STSG (secondary contraction), graft ต้องการ vascularized bed, hematoma/ seroma ทำให้ graft ล้มเหลว · ไฟล์ขีด 1 ขีดฆ่า \"spontaneously\" ลายมือ <b>\"1° closure, graft\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “donor ของ STSG หายจากเซลล์ในรูขุมขนและต่อมที่เหลือ” ผิด เพราะ STSG เอา dermis ไปแค่บางส่วน เซลล์เยื่อบุจากรากขนและต่อมเหงื่อใน dermis ส่วนลึกงอกขึ้นคลุมผิว",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าหมายถึง primary contraction ที่ FTSG หดทันทีหลังตัดมากกว่า — ในความหมายทั่วไป (secondary contraction) ข้อความนี้ถูก เพราะ dermis เต็มชั้นยับยั้ง myofibroblast",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “graft ต้องการพื้นแผลที่มีเลือดมาเลี้ยง” ผิด เพราะ graft ไม่มีหลอดเลือดของตัวเอง รอดได้จากการดูดซึมและหลอดเลือดงอกจากพื้นแผลเท่านั้น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “hematoma ทำให้ graft ไม่ติด” ผิด เพราะเลือดที่คั่งกั้นระหว่าง graft กับพื้นแผล ทำให้ดูดซึมสารอาหารและหลอดเลือดงอกเข้าหากันไม่ได้"
+   "A": "ถูก — STSG donor หายเองจาก epithelium ในรูขุมขน/ ต่อมเหงื่อที่เหลือ · จะถูกถ้าช้อยบอกว่า STSG donor ต้องเย็บปิดทุกราย",
+   "B": "ถูก — FTSG มีหนังแท้มาก หดตัวรองน้อยกว่า · จะถูกถ้าช้อยบอกว่า STSG หดตัวน้อยกว่า FTSG",
+   "D": "ถูก — graft ไม่มีหลอดเลือดของตัวเอง · จะถูกถ้าช้อยบอกว่าวาง graft บนกระดูกเปลือยได้",
+   "E": "ถูก — hematoma แยก graft จากพื้นแผล เป็นสาเหตุล้มเหลวอันดับหนึ่ง · จะถูกถ้าช้อยบอกว่า hematoma ไม่มีผลต่อ graft"
   },
-  "trap": "การหดตัวมีสองแบบ — primary contraction (หดทันทีหลังตัด) FTSG หดมากกว่าเพราะมี elastin ใน dermis มาก ส่วน secondary contraction (หดระหว่างแผลหาย) STSG หดมากกว่า · ข้อสอบส่วนใหญ่หมายถึง secondary",
+  "trap": "สับสน donor site ของ STSG (หายเอง) กับ FTSG (ต้องเย็บปิด)",
   "summary": [
-   "<b>นอกสไลด์:</b> graft ติด 3 ระยะ: plasmatic imbibition (24–48 ชม.) → inosculation (48–72 ชม.) → revascularization (ราววันที่ 5) · donor ของ STSG หายแล้วเก็บซ้ำที่เดิมได้ ส่วน donor ของ FTSG ใช้ซ้ำไม่ได้"
+   "FTSG: donor ต้องเย็บปิด (หลังหู เหนือไหปลาร้า ขาหนีบ)",
+   "STSG: donor หายเอง 10–14 วัน · reharvest ได้",
+   "Primary contraction: FTSG &gt; STSG · Secondary contraction: STSG &gt; FTSG",
+   "Graft take: imbibition → inosculation → revascularization",
+   "ล้มเหลว: hematoma/ seroma &gt; infection &gt; shearing",
+   "ต้องการ vascularized bed"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมีช้อยเดียว (Donor site of full thickness graft can heal spontaneously) จึงเติมช้อยอื่นเป็นข้อความที่ถูก",
+  "mnemonic": "<b>'Full-thickness เอาไปหมด → donor ต้อง Fix (เย็บ)'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Skin grafts",
   "variants": [
-   "<b>นอกสไลด์:</b> ปลูก STSG บนแผลที่เพาะเชื้อได้ β-hemolytic streptococcus (หรือเชื้อเกินราว 10⁵ ตัว/กรัมเนื้อเยื่อ) → graft ละลายหลุด: คุมการติดเชื้อก่อนปลูก",
-   "<b>นอกสไลด์:</b> ต้องการ FTSG ปิดแผลที่เปลือกตาล่าง → ใช้ผิวเปลือกตาบนหรือหลังหูที่บางและสีใกล้กัน แล้วเย็บปิด donor"
+   "แผลที่ปลายจมูกต้องการสีผิวเข้ากัน → FTSG จากหน้าหู → เย็บปิด donor",
+   "แผลไหม้กว้าง → STSG mesh จากต้นขา donor หายเอง",
+   "FTSG ที่ฝ่ามือเด็กหดตัวน้อยกว่า STSG"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 65 — ตัวพิมพ์: <b>xx. Which one is wrong? — 1. Donor site of full thickness graft can heal spontaneously</b><br>ลายมือ: ขีดฆ่า \"spontaneously\" + \"1° closure, graft\" · ขีด 1<br>ไฮไลต์: \"wrong\" · 1 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 56: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมีช้อยเดียว → เขียน A, B, D, E ใหม่",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 65",
+  "kimg": [
+   "fsk_p65",
+   "kp69c_X10",
+   "k2p_56"
   ]
  },
  "MDCU69|RoC|X11": {
-  "interp": "ผู้ป่วย 50 kg ไหม้แขนขวาทั้งแขนและลำตัวหน้าหลัง (45% TBSA) ได้สารน้ำแล้ว 500 mL ใน 3 ชม.แรก · ถามอัตราสารน้ำใน 5 ชม.ถัดไป (ให้ครบครึ่งแรกของ Parkland ใน 8 ชม.)",
-  "why": "<b>คีย์: ขีด 1 + ลายมือ 4 × 50 × 45 = 9,000 → 4,500 ใน 8 ชม. · ให้แล้ว 500 → 4,000 ใน 5 ชม. = 800 ml/hr</b><br><b>นอกสไลด์:</b> แขนขวาทั้งแขน 9% + ลำตัวหน้า 18% + หลัง 18% = 45% · ครึ่งแรกต้องครบภายใน 8 ชม.นับจากเวลาไฟไหม้ จึงเอาปริมาณที่ยังขาดหารด้วยเวลาที่เหลือ",
+  "interp": "ผู้ป่วย 50 kg ไฟไหม้<b>แขนขวาทั้งแขน (9%) + ลำตัวหน้า (18%) + หลัง (18%) = 45% TBSA</b> ได้สารน้ำไปแล้ว 500 mL ใน 3 ชม.แรก → ถามอัตราใน 5 ชม.ถัดไป",
+  "why": "Rule of nines: แขน 9% + ลำตัวหน้า 18% + หลัง 18% = <b>45%</b> · <b>Parkland = 4 × 50 × 45 = 9,000 mL</b> · ครึ่งแรก <b>4,500 mL ต้องครบใน 8 ชม.แรก (นับจากเวลาเกิดเหตุ)</b> · ให้ไปแล้ว 500 mL ใน 3 ชม. → เหลือ <b>4,000 mL ใน 5 ชม. = 800 mL/ชม.</b> · ไฟล์ขีด 1 ลายมือ <b>\"9% + 18% + 18% · 4 × kg × % = 4 × 50 × 45 = 9000 cc → ½ 4500 cc in 8 hr (500 cc/ 3 hr → 4000 cc in 5 hr = 800 cc/hr) · ½ 4500 cc in 16 hr\"</b> พร้อมแปะภาพ Rule of 9 และ Rule of palm",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยหนัก 60 kg ไหม้ 45% ได้สารน้ำแล้ว 400 mL ใน 3 ชม.แรก (ครึ่งแรก 5,400 mL · ขาด 5,000 mL ใน 5 ชม. = 1,000 mL/ชม.)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยหนัก 70 kg ไหม้ 50% ได้สารน้ำแล้ว 1,000 mL ใน 3 ชม.แรก (ครึ่งแรก 7,000 mL · ขาด 6,000 mL ใน 5 ชม. = 1,200 mL/ชม.)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 50 kg ไหม้ 45% ได้สารน้ำแล้ว 1,500 mL ใน 3 ชม.แรก (ขาด 3,000 mL ใน 5 ชม. = 600 mL/ชม.)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยหนัก 40 kg ไหม้ 30% ได้สารน้ำแล้ว 400 mL ใน 3 ชม.แรก (ครึ่งแรก 2,400 mL · ขาด 2,000 mL ใน 5 ชม. = 400 mL/ชม.)"
+   "B": "1,000 mL/ชม. ไม่ตรง (เกิน) · จะถูกถ้าคำนวณ 5,000 mL ใน 5 ชม. เช่นแผล 50%+ หรือได้มาก่อนเพียงเล็กน้อย",
+   "C": "1,200 mL/ชม. ไม่ตรง · จะถูกถ้าผู้ป่วยหนักกว่า/ แผลกว้างกว่า (เช่น 4 × 60 × 50 = 12,000 → 6,000 – 0 ใน 5 ชม.)",
+   "D": "600 mL/ชม. ไม่ตรง · จะถูกถ้าคิดผิดเป็นการกระจาย 4,500 mL ใน 8 ชม. ใหม่ทั้งหมด (~560) หรือแผลน้อยกว่า",
+   "E": "400 mL/ชม. ไม่ตรง · จะถูกถ้าคำนวณอัตราช่วง 16 ชม.หลังของแผลน้อยกว่า หรือใช้สูตร 2 mL"
   },
-  "trap": "เอา 4,500 หาร 8 ชม. (ราว 560 mL/ชม.) โดยลืมหักที่ให้ไปแล้วและเวลาที่ผ่านไป — ต้องคิดจากปริมาณที่ยังขาด ÷ เวลาที่เหลือ",
+  "trap": "นับเวลา 8 ชม.ใหม่ตั้งแต่มาถึง หรือไม่หักสารน้ำที่ได้ไปแล้ว — นับจากเวลาเกิดเหตุและหักที่ให้ไปแล้ว",
   "summary": [
-   "<b>นอกสไลด์:</b> rule of nines ผู้ใหญ่: ศีรษะ 9 · แขนข้างละ 9 · ลำตัวหน้า 18 หลัง 18 · ขาข้างละ 18 · perineum 1 · เด็กศีรษะใหญ่กว่าสัดส่วนผู้ใหญ่ (ใช้ Lund-Browder) · แผลกระจายใช้ฝ่ามือผู้ป่วยรวมนิ้วราว 1%"
+   "Rule of 9: หัว 9 · แขนข้างละ 9 · ลำตัวหน้า 18 · หลัง 18 · ขาข้างละ 18 · perineum 1",
+   "Rule of palm: ฝ่ามือผู้ป่วยรวมนิ้ว ~1% (ลายมือ 0.8–1%)",
+   "Parkland: 4 × kg × %TBSA · ครึ่งแรกใน 8 ชม. นับจากเกิดเหตุ",
+   "หักสารน้ำที่ได้ไปแล้ว แบ่งในเวลาที่เหลือ",
+   "เป้าหมายปัสสาวะผู้ใหญ่ 0.5 mL/kg/ชม.",
+   "เด็กใช้ Lund-Browder (หัวใหญ่ ขาเล็ก)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และการคำนวณลายมือ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Parkland ไม่ทัน = (ครึ่งแรก − ที่ให้แล้ว) ÷ ชม.ที่เหลือในช่วง 8 ชม.'</b>",
+  "guide": "ATLS 10th ed. (2018) — Thermal injuries; ABA Advanced Burn Life Support Provider Manual",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยรายเดียวกันมีผิวแดงไม่พองที่ใบหน้าเพิ่ม → superficial burn ไม่นับใน %TBSA สำหรับคำนวณสารน้ำ",
-   "<b>นอกสไลด์:</b> ผู้ป่วยไฟฟ้าแรงสูงแผลผิวหนังแค่ 10% แต่ปัสสาวะสีโค้ก → ให้สารน้ำมากกว่าสูตร เป้าปัสสาวะราว 1 mL/kg/ชม.จนสีใส (myoglobinuria)"
+   "70 kg แผล 30% มาถึง 2 ชม.หลังเกิดเหตุ ยังไม่ได้สารน้ำ → 4,200 ใน 6 ชม. = 700 mL/ชม.",
+   "ไฟไหม้ขาทั้งข้างและ perineum → 18 + 1 = 19%",
+   "แผลกระจายหลายจุด → ใช้ rule of palm"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 65 — ตัวพิมพ์: <b>XX. Patient 50 kg burn แขนขวาทั้งแขน + ลำตัวหน้าหลัง ให้ ไปแล้ว 500 ml ใน 3 ชั่วโมง ถามว่าในอีก 5 ชั่วโมงนี้จะให้อะไร — 1. 800 ml 2. 1000 ml 3. 1200 ml 4. 600 ml</b><br>ลายมือ: \"9% + 18% + 18%\" เหนือโจทย์ · \"4 × kg × % = 4 × 50 × 45 = 9000 cc → ½ 4500 cc in 8 hr — 500 cc/ 3 hr → 4000 cc in 5 hr = 800 cc/hr · ½ 4500 cc in 16 hr\" · ขีด 1<br>ไฮไลต์: \"50 kg burn แขนขวาทั้งแขน + ลำตัวหน้าหลัง ให้ ไปแล้ว 500 ml ใน 3 ชั่วโมง\" · 1 (เหลือง)<br>รูปที่แปะ: ภาพ Rule of 9 (head 9%, arms 9%, Front 18%, Back 18%, legs 18%, perineum 1%) และ Figure 2.4 Estimation of surface area — Rule of palm: Surface area covered by patient's hand with fingers closed = 1% (ลายมือ \"ถ้า burn เป็นหย่อมๆ: 1 ฝ่ามือคนไข้ ~ 0.8% → 1%\")<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 56: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 65",
+  "kimg": [
+   "fsk_p65",
+   "kp69c_X11",
+   "k2p_56"
   ]
  },
  "MDCU69|RoC|X12": {
-  "interp": "แผลมะเร็งที่เยื่อบุกระพุ้งแก้ม · ถามปัจจัยเสี่ยงหลัก",
-  "why": "<b>คีย์: ขีด 3</b><br><b>นอกสไลด์:</b> มะเร็งเยื่อบุกระพุ้งแก้มสัมพันธ์กับการเคี้ยวหมาก (areca nut) ร่วมใบพลู ปูน และยาเส้นที่อมแช่ไว้ตำแหน่งเดิมนาน พบมากในผู้สูงอายุไทยและเอเชียใต้",
+  "interp": "ถามปัจจัยเสี่ยงหลักของ<b>แผล (มะเร็ง) ที่กระพุ้งแก้ม (buccal mucosa)</b>",
+  "why": "มะเร็ง buccal mucosa สัมพันธ์มากที่สุดกับ<b>การเคี้ยวหมาก (betel quid) ร่วมกับยาสูบ/ ยาเส้น</b> — พบบ่อยในเอเชียใต้/ ตะวันออกเฉียงใต้ รวมถึงผู้สูงอายุไทย · หมากทำให้เกิด oral submucous fibrosis และ leukoplakia ที่ตำแหน่งที่อมหมากไว้ (กระพุ้งแก้ม) · ไฟล์ขีด 3",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็งอยู่ที่ผิวหนังใบหน้าหรือขอบริมฝีปากล่างที่โดนแดดสะสม ไม่ใช่เยื่อบุภายในปาก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งบริเวณ postcricoid ในหญิงที่ขาดธาตุเหล็กเรื้อรังร่วมกลืนลำบากจาก web ในหลอดอาหาร (Plummer-Vinson syndrome)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งพื้นปากหรือกล่องเสียงในผู้สูบบุหรี่จัดที่ไม่เคยเคี้ยวหมาก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งหลอดอาหารชนิด SCC ในผู้ดื่มสุราจัด โดยเฉพาะคนที่หน้าแดงง่ายเมื่อดื่ม (ขาดเอนไซม์ ALDH2)"
+   "A": "UV เป็นปัจจัยหลักของมะเร็งริมฝีปาก (โดยเฉพาะริมฝีปากล่าง) ไม่ใช่ในช่องปาก · จะถูกถ้าแผลอยู่ที่ริมฝีปากล่างในคนทำงานกลางแจ้ง",
+   "B": "ภาวะทุพโภชนาการเป็นปัจจัยร่วมเล็กน้อย · จะถูกถ้าคำถามถามสาเหตุ glossitis/ angular cheilitis",
+   "D": "สูบบุหรี่เป็นปัจจัยเสี่ยงมะเร็งช่องปากทั่วไป แต่สำหรับกระพุ้งแก้มหมาก + ยาสูบเด่นกว่า · จะถูกถ้าแผลอยู่ที่พื้นปาก/ ลิ้นในผู้สูบบุหรี่จัด",
+   "E": "แอลกอฮอล์เสริมฤทธิ์กับบุหรี่ ไม่ใช่ปัจจัยเด่นของกระพุ้งแก้ม · จะถูกถ้าแผลที่พื้นปากในผู้ดื่มสุราและสูบบุหรี่จัด"
   },
-  "trap": "แผ่นขาวที่กระพุ้งแก้มของคนเคี้ยวหมากถูกมองว่าเป็นเชื้อราหรือรอยกัด — ถ้าเช็ดไม่ออกและไม่หายใน 2 สัปดาห์หลังเลิกสิ่งระคายเคือง คือ leukoplakia ต้องตัดชิ้นเนื้อ",
+  "trap": "ตอบบุหรี่เพราะเป็นปัจจัยมะเร็งช่องปากที่รู้จักมากที่สุด — ตำแหน่งกระพุ้งแก้มชี้หมาก",
   "summary": [
-   "<b>นอกสไลด์:</b> รอยโรคก่อนมะเร็งช่องปาก: leukoplakia (แผ่นขาวเช็ดไม่ออก ส่วนน้อยกลายเป็นมะเร็ง) · erythroplakia (แผ่นแดงกำมะหยี่ พบน้อยแต่ส่วนใหญ่เป็น dysplasia รุนแรงหรือมะเร็งแล้ว) → ตัดชิ้นเนื้อทุกแผ่นที่ไม่หาย"
+   "Buccal mucosa SCC: หมาก + ยาสูบ (betel quid)",
+   "Lip SCC: UV (ริมฝีปากล่าง)",
+   "Floor of mouth/ ลิ้น: บุหรี่ + แอลกอฮอล์",
+   "HPV: oropharynx (ทอนซิล โคนลิ้น)",
+   "Premalignant: leukoplakia · erythroplakia · submucous fibrosis",
+   "แผลไม่หาย &gt; 2–3 สัปดาห์ → biopsy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์",
+  "mnemonic": "<b>'กระพุ้งแก้ม = ที่อมหมาก → หมาก + ยาสูบ'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Head and Neck Cancers v.2.2025 — Oral cavity; IARC Monographs Vol. 85 (Betel-quid and areca-nut chewing)",
   "variants": [
-   "<b>นอกสไลด์:</b> leukoplakia ที่กระพุ้งแก้มผลชิ้นเนื้อ mild dysplasia ในคนเคี้ยวหมาก → เลิกหมากและบุหรี่ ติดตามตรวจและตัดชิ้นเนื้อซ้ำเมื่อรอยโรคเปลี่ยน · dysplasia ปานกลางถึงรุนแรง → ตัดออก",
-   "<b>นอกสไลด์:</b> ลายเส้นขาวเป็นร่างแหที่กระพุ้งแก้มทั้งสองข้าง บางจุดเป็นแผลกัดกร่อน → oral lichen planus: ติดตามเพราะชนิดกัดกร่อนเสี่ยงมะเร็งเล็กน้อย"
+   "หญิงสูงอายุเคี้ยวหมาก แผลแข็งที่กระพุ้งแก้มไม่หาย → biopsy → SCC",
+   "ชาวนาแผลแข็งที่ริมฝีปากล่าง → UV → lip SCC",
+   "อ้าปากไม่ขึ้น กระพุ้งแก้มแข็งเป็นแถบ ในผู้เคี้ยวหมาก → oral submucous fibrosis"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 65–66 — ตัวพิมพ์: <b>XX.แผลที่กระพุ้งแก้ม risk factor — 1. uv 2. nutrition def 3. เคี้ยวหมาก + ยาสูบ 4. สูบบุหรี่ 5. กินเหล้า</b><br>ลายมือ: ขีด 3<br>ไฮไลต์: \"แผลที่กระพุ้งแก้ม risk factor\" · 3 (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 57: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 65",
+  "kimg": [
+   "fsk_p65",
+   "kp69c_X12",
+   "kp69c_X12b",
+   "k2p_57"
   ]
  }
 }
