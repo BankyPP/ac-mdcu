@@ -1,118 +1,200 @@
 {
  "MDCU66|RoB|16": {
-  "interp": "ริดสีดวงภายในที่ยื่นออกมาแล้วกลับเข้าเอง → ถาม grade",
-  "why": "<b>ลายมือ: I bleeding no prolapse · II spontaneous reduction · III manual · IV incarceration</b><br><b>นอกสไลด์:</b> Goligher แบ่งริดสีดวงภายในตามการยื่น — ยื่นแล้วกลับเข้าเอง = grade II",
+  "interp": "ริดสีดวงภายในที่<b>ย้อยออกมาแล้วกลับเข้าเอง</b> ถามว่าเป็น grade ใด",
+  "why": "Goligher classification: <b>grade II = ย้อยออกเวลาเบ่ง แล้วกลับเข้าเอง (spontaneous reduction)</b> · ไฟล์ขีด B ลายมือ <b>\"II → bleeding, ✓prolapsed, spontaneous reduction\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าริดสีดวงมีเลือดออกขณะถ่ายแต่ไม่เคยยื่นออกมา",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ายื่นออกมาแล้วต้องใช้นิ้วดันกลับ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ายื่นค้างดันกลับไม่ได้ หรือมีลิ่มเลือด/บีบรัด",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเดียวกันมีทั้งส่วนเหนือและใต้ dentate line (internal ร่วม external)"
+   "A": "Grade I: เลือดออก ไม่ย้อย (ลายมือ \"bleeding, ×prolapsed\") · จะถูกถ้าคำถามถามริดสีดวงที่มีแต่เลือดออก ไม่มีก้อนโผล่",
+   "C": "Grade III: ย้อยแล้วต้อง<b>ดันกลับเอง</b> (ลายมือ \"manual reduction\") · จะถูกถ้าคำถามถามก้อนที่ต้องใช้มือดันกลับ",
+   "D": "Grade IV: ย้อยค้าง ดันกลับไม่ได้ (ลายมือ \"incarceration\") · จะถูกถ้าคำถามถามก้อนย้อยค้างตลอด/ strangulated",
+   "E": "Mixed type คือ internal + external hemorrhoid ร่วมกัน (เหนือและใต้ dentate line) ไม่ใช่ grade · จะถูกถ้าคำถามถามริดสีดวงที่มีทั้งส่วนในและนอกทวาร"
   },
-  "trap": "จำสลับ II กับ III — ตัวแบ่งคือกลับเองหรือต้องดัน · grade ใช้กับริดสีดวงภายในเท่านั้น",
+  "trap": "สับสนระหว่างกลับเข้าเอง (II) กับต้องดันกลับ (III)",
   "summary": [
-   "<b>นอกสไลด์:</b> ริดสีดวงภายในอยู่เหนือ dentate line จึงไม่เจ็บ อาการเด่นคือเลือดสดหลังถ่าย · grade ประเมินจากประวัติขณะเบ่งร่วม anoscopy · ตำแหน่งหลัก 3, 7, 11 นาฬิกา (ท่านอนหงาย)"
+   "I: เลือดออก ไม่ย้อย",
+   "II: ย้อยแล้วกลับเอง",
+   "III: ย้อยต้องดันกลับ",
+   "IV: ย้อยค้าง ดันไม่เข้า",
+   "I–II (± III): fiber + RBL/ sclerotherapy",
+   "III–IV/ ภาวะแทรกซ้อน: hemorrhoidectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'1 เลือด · 2 กลับเอง · 3 ต้องดัน · 4 ค้าง'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024;67:614)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 55 ปีเลือดสดหลังถ่าย ส่องพบริดสีดวง grade II แต่ซีดขาดเหล็ก → ยังต้อง colonoscopy หาสาเหตุอื่น",
-   "<b>นอกสไลด์:</b> ริดสีดวง grade II เลือดออกซ้ำแม้กินใยอาหาร ไม่กินยาต้านเกล็ดเลือด → rubber band ligation"
+   "ริดสีดวงย้อยเวลาเบ่ง ต้องใช้นิ้วดันกลับ → grade III",
+   "ริดสีดวงเลือดออก ไม่ย้อย ไฟเบอร์ไม่ช่วย → RBL/ sclerotherapy",
+   "ริดสีดวงย้อยค้าง บวมดำ → grade IV → hemorrhoidectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 147 — ตัวพิมพ์: <b>16. internal hemorrhoid prolapsed and spontaneous reduction ถามว่า grade อะไร — A. I B. II C. III D. IV E. mixed type</b><br>ลายมือ: ขีด B (สีแดงและเส้นสีชมพู) · A \"→ bleeding, ×prolapsed\" · B \"→ bleeding, ✓prolapsed, spontaneous reduction\" · C \"→ bleeding, ✓prolapsed, manual reduction\" · D \"→ bleeding, ✓prolapsed, incarceration\"<br>ไฮไลต์: \"internal hemorrhoid prolapsed\" · \"spontaneous reduction\" · B (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 147",
+  "kimg": [
+   "fsk_p147",
+   "kp66b_16"
   ]
  },
  "MDCU66|RoB|74": {
-  "interp": "ข้อ WRONG — หาเกณฑ์วินิจฉัย empyema ที่ผิด (ตามสไลด์)",
-  "why": "<b>ลายมือ: 15,000 · สไลด์ diagnosis</b><br><b>นอกสไลด์:</b> สไลด์ใช้ WBC ในน้ำเยื่อหุ้มปอด > 15,000 ช้อย > 10,000 จึงผิด · แนวทางปัจจุบันไม่ได้ใช้ WBC ตัดสิน ใช้หนองชัด Gram/culture บวก และ pH/glucose",
+  "interp": "ถามเกณฑ์วินิจฉัย <b>empyema thoracis</b> ข้อที่<b>ผิด</b>",
+  "why": "เกณฑ์ในสไลด์: direct = Gram stain/ culture positive · indirect = <b>WBC &gt; 15,000/mm³</b> · protein &gt; 3 g/dL · pH &lt; 7 · glucose &lt; 40 mg/dL · LDH &gt; 1,000 U/L → ข้อ B ใช้ตัวเลข WBC &gt; 10,000 จึงผิด · ไฟล์ขีด B แก้ลายมือเป็น <b>\"15000\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะเชื้อใน Gram stain ยืนยันว่าช่องเยื่อหุ้มปอดติดเชื้อ ซึ่งต้องระบาย",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นเกณฑ์ที่ผิด) ถ้าเป็นวัณโรคเยื่อหุ้มปอด — น้ำโปรตีนสูงแต่ไม่ใช่ empyema เพราะโปรตีนบอกแค่ exudate",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นเกณฑ์ที่ผิด) ถ้าเป็นน้ำเยื่อหุ้มปอดจาก rheumatoid arthritis — pH ต่ำมากแต่ไม่ติดเชื้อ",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นเกณฑ์ที่ผิด) ถ้าเป็นน้ำจากมะเร็ง (เช่น lymphoma) — LDH สูงมากแต่ไม่ติดเชื้อ"
+   "A": "ถูก: Gram stain positive เป็นเกณฑ์โดยตรง · จะถูกถ้าคำถามถามเกณฑ์ที่ใช้วินิจฉัย empyema",
+   "C": "ถูก: protein &gt; 3 g/dL (exudate) · จะถูกถ้าคำถามถามเกณฑ์ทางเคมีของน้ำเยื่อหุ้มปอด",
+   "D": "ถูก: pH &lt; 7 (แนวทางสากลใช้ &lt; 7.2 เป็นเกณฑ์ระบาย) · จะถูกถ้าคำถามถามค่า pH ที่บ่งว่าต้องระบาย",
+   "E": "ถูก: LDH &gt; 1,000 U/L · จะถูกถ้าคำถามถามเกณฑ์ complicated parapneumonic effusion"
   },
-  "trap": "ช้อยตัวเลขทุกตัวดูเป็นเกณฑ์ — ตัวที่ผิดคือ cut-off ที่ต่ำกว่าสไลด์ · pH &lt; 7 ต่ำกว่าเกณฑ์ 7.2 แต่ยังถูก",
+  "trap": "ตัวเลขทุกข้อดูคุ้น ต้องจำตัวเลข WBC ในน้ำเยื่อหุ้มปอดตามสไลด์ (15,000)",
   "summary": [
-   "<b>สไลด์ diagnosis:</b> empyema = หนอง หรือ Gram/culture บวก (สไลด์ใช้ WBC > 15,000 ร่วม)<br><b>นอกสไลด์:</b> pH/glucose/LDH ใช้ตัดสินการระบายใน parapneumonic effusion",
-   "<b>นอกสไลด์:</b> BTS 2023: หนองชัดหรือ Gram/culture บวก → ระบาย · pH ≤ 7.2 → ระบาย · pH 7.21–7.39 → LDH ≥ 900 + ปัจจัยเสริม (glucose ≤ 72 mg/dL, น้ำมาก, septation, pleural enhancement) · ไม่มี pH ใช้ glucose &lt; 60 mg/dL"
+   "Direct: Gram stain/ culture บวก · หนองชัด",
+   "Indirect: WBC &gt; 15,000 · protein &gt; 3 · pH &lt; 7 · glucose &lt; 40 · LDH &gt; 1,000",
+   "แนวทางสากล: pH &lt; 7.2 → ระบาย (ICD)",
+   "Loculated → intrapleural tPA + DNase",
+   "ไม่ดีขึ้น → VATS decortication",
+   "Empyema 3 ระยะ: exudative → fibrinopurulent → organizing"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ตามสไลด์ · แนวทางปัจจุบันไม่ใช้ WBC เป็นเกณฑ์ · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ตัวเลขอิงสไลด์ของ lecture ส่วนแนวทางสากลไม่ได้ใช้ WBC เป็นเกณฑ์หลัก)",
+  "mnemonic": "<b>'Empyema: Pus · Positive Gram · pH ต่ำ · Glucose ต่ำ · LDH สูง'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1)",
   "variants": [
-   "<b>นอกสไลด์:</b> empyema ใส่สายระบายแล้วยังมีไข้ CT เห็นช่องแยกหลายช่อง → intrapleural tPA + DNase หรือ VATS decortication",
-   "<b>นอกสไลด์:</b> วัด pH น้ำเยื่อหุ้มปอด → ใช้เครื่อง blood gas เก็บแบบไม่ให้โดนอากาศ ไม่ใช้กระดาษวัด pH"
+   "Parapneumonic effusion pH 7.0 glucose 30 → complicated → ICD",
+   "เจาะได้หนองข้น → empyema → ICD + ATB",
+   "Empyema ระยะ organizing ปอดขยายไม่ได้ → decortication"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 147 — ตัวพิมพ์: <b>74. diagnostic criteria ของ empyema thoracis ข้อใดผิด — A. positive gram stain B. WBC&gt;10,000 C. prot.&gt;3 D. pH&lt;7 E. LDH&gt;1000</b><br>ลายมือ: ✓ ที่ A C D E · ขีด B (สีแดงและเส้นสีชมพู) · ขีดฆ่า 10,000 เขียน \"15000\"<br>ไฮไลต์: \"diagnostic criteria\" · \"empyema thoracis\" · A–E (เหลือง) · 15000 (ส้ม)<br>รูปที่แปะ: สไลด์ Diagnosis (ลายมือ \"empyema dx จากตัวไหนได้\") — direct: Gram stain positive · Culture Positive · indirect: WBC &gt; 15,000 /mm³ · Protein &gt; 3 g/dl · pH &lt; 7 · Glu &lt; 40 mg/dl · LDH &gt; 1000 U/L<br>ที่ปรับในเว็บ: เขียนตัวเลือกเป็นภาษาอังกฤษเต็ม",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 147",
+  "kimg": [
+   "fsk_p147",
+   "kp66b_74"
   ]
  },
  "MDCU66|RoB|35": {
-  "interp": "ลิ้นไก่แฉก (bifid uvula) → ถามภาวะที่สัมพันธ์ (เครื่องหมายของรอยโหว่ที่ซ่อนใต้เยื่อบุ)",
-  "why": "<b>สไลด์: submucous cleft palate</b><br><b>นอกสไลด์:</b> submucous cleft = เยื่อบุเพดานปิดสนิท แต่กล้ามเนื้อ levator veli palatini ไม่เชื่อมกันตรงกลาง — ลิ้นไก่แฉกเป็นเครื่องหมายที่มองเห็นได้ง่ายที่สุด",
+  "interp": "<b>Bifid (cleft) uvula</b> สัมพันธ์กับภาวะใด",
+  "why": "Bifid uvula เป็นหนึ่งใน triad ของ <b>submucous cleft palate</b>: bifid uvula · zona pellucida (แถบใสกลางเพดานอ่อนจากกล้ามเนื้อไม่เชื่อมกัน) · notch ที่ขอบหลังเพดานแข็ง → อาจทำให้เสียงขึ้นจมูก (VPI) · ไฟล์ขีด 5 แปะสไลด์ <b>\"Submucous cleft palate\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ลิ้นไก่แฉกบ่งชี้ facial cleft ชนิด oblique/lateral เพราะรอยแยกอยู่ที่ใบหน้าด้านนอก ไม่เกี่ยวกับการเชื่อมกล้ามเนื้อเพดานอ่อน",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กเป็น Apert syndrome (craniosynostosis ร่วมนิ้วมือนิ้วเท้าติดกัน) ซึ่งพบเพดานโหว่/ลิ้นไก่แฉกร่วมได้บ่อย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าลิ้นไก่แยกต่อเนื่องกับรอยโหว่ที่เห็นทั้งเพดานอ่อนและแข็งร่วมปากแหว่ง — เป็นส่วนหนึ่งของ cleft ที่เห็นชัด ไม่ใช่ลิ้นไก่แฉกเดี่ยว",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ลิ้นไก่แฉกเดี่ยวเป็นเครื่องหมายของ craniofacial cleft เพราะ craniofacial cleft เห็นจากรอยแยกของกระดูกใบหน้าและกะโหลกเอง"
+   "A": "Facial cleft (เช่น Tessier cleft) เป็นรอยแยกของใบหน้า ไม่เกี่ยวกับลิ้นไก่แยก · จะถูกถ้าคำถามถามรอยแยกที่ผ่านเบ้าตา/ แก้ม",
+   "B": "Craniosynostosis คือรอยต่อกะโหลกปิดก่อนกำหนด · จะถูกถ้าคำถามถามหัวผิดรูปแต่กำเนิด",
+   "C": "Cleft lip and palate เห็นรอยแยกชัด ไม่ใช่ลักษณะแฝงแบบ bifid uvula · จะถูกถ้าคำถามถามทารกปากแหว่งเพดานโหว่ที่เห็นชัด",
+   "D": "Craniofacial cleft เป็นรอยแยกใบหน้าและกะโหลกที่พบน้อย · จะถูกถ้าคำถามถาม Tessier classification"
   },
-  "trap": "ลิ้นไก่ดูปกติไม่ได้ตัด submucous cleft และลิ้นไก่แฉกพบในคนปกติบางส่วนโดยไม่มีอาการ — ต้องคลำขอบหลังเพดานแข็งและดูเพดานอ่อนขณะออกเสียง",
+  "trap": "ลิ้นไก่แยกดูเหมือนเล็กน้อย แต่เป็นตัวบอก submucous cleft ที่ต้องประเมินการพูด (VPI)",
   "summary": [
-   "<b>นอกสไลด์:</b> triad ของ submucous cleft: ลิ้นไก่แฉก + แถบโปร่งแสงกลางเพดานอ่อน (zona pellucida) + รอยบากที่ขอบหลังเพดานแข็ง · ส่วนใหญ่ไม่มีอาการ ผ่าตัดเมื่อมี velopharyngeal insufficiency"
+   "Submucous cleft triad: bifid uvula · zona pellucida · notched hard palate",
+   "อาจมี hypernasal speech/ VPI",
+   "ไม่มีอาการ → ติดตาม",
+   "มี VPI → palatoplasty (Furlow)/ pharyngeal flap",
+   "Bifid uvula พบได้ในประชากรทั่วไป ~2%",
+   "ระวังผ่าต่อมทอนซิล/ adenoid → VPI แย่ลง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ลิ้นไก่สองแฉก = แยกใต้เยื่อบุ (Submucous)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Cleft palate",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก submucous cleft พูดเสียงขึ้นจมูกชัด nasendoscopy เห็นช่องปิดไม่สนิท → ผ่าตัด (Furlow palatoplasty หรือ pharyngeal flap)",
-   "<b>นอกสไลด์:</b> เด็ก submucous cleft ร่วมสายตาสั้นมาก ข้อหลวม การได้ยินลดแบบประสาท → Stickler syndrome"
+   "เด็กพูดเสียงขึ้นจมูก ลิ้นไก่แยก แถบใสกลางเพดาน → submucous cleft palate",
+   "เด็ก submucous cleft มี VPI → Furlow palatoplasty",
+   "ลิ้นไก่แยก ไม่มีอาการ → ระวังก่อนตัด adenoid"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 147 — ตัวพิมพ์: <b>35. Uvula cleft สัมพันธ์กับอะไร — 1. Acentic cleft 2. Craniofacial synostomy 3. Cleft lip cleft palate 4. Craniofacial cleft 5. Submucosal cleft palate</b><br>ลายมือ: ขีด 5 (สีแดง) และเส้นสีชมพูใต้ช้อย 4–5<br>ไฮไลต์: \"Uvula cleft สัมพันธ์\" · 5 (เหลือง)<br>รูปที่แปะ: สไลด์ Submucous cleft palate — รูปเพดานปาก (Bifid uvula · Zona pellucida) พร้อมโน้ตลายมือ \"zone pellucida - midline ของ soft palate\" และ \"เสียงขึ้นจมูก\"<br>ที่ปรับในเว็บ: เปลี่ยนตัวเลือก 1–5 เป็น A–E · แก้ Acentic cleft เป็น Facial cleft และ Craniofacial synostomy เป็น Craniosynostosis",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 147",
+  "kimg": [
+   "fsk_p147",
+   "kp66b_35"
   ]
  },
  "MDCU66|RoB|87": {
-  "interp": "พบหูดหงอนไก่ที่องคชาตตอนมาขลิบ → ถามขั้นต่อไป (ต้องได้ชิ้นเนื้อก่อนตัดสินการรักษาที่รุนแรง) · ช้อยไล่ถึง penectomy → โจทย์ตั้งใจให้รอยโรคใหญ่/น่าสงสัยมะเร็ง",
-  "why": "<b>คีย์: ขีด 2 (ขีดสั้น 3 พร้อม ?) · 4, 5 ✗</b><br><b>นอกสไลด์:</b> รอยโรคที่น่าสงสัยต้องได้ชิ้นเนื้อแยก giant condyloma/verrucous carcinoma/SCC ก่อนวางแผน — penectomy ทำเมื่อพยาธิยืนยันมะเร็งเท่านั้น",
+  "interp": "ชายมาทำ circumcision พบรอยโรคคล้าย <b>condyloma</b> ที่องคชาต ถามการจัดการ",
+  "why": "รอยโรคหูดที่องคชาตต้องแยก <b>verrucous carcinoma/ SCC (Buschke–Löwenstein tumor)</b> โดยเฉพาะก้อนใหญ่หรือลักษณะผิดปกติ → <b>ตัดชิ้นเนื้อ (incisional biopsy)</b> ยืนยันก่อนเลือกการรักษา · ไฟล์ขีด 2 เขียน <b>\"?\"</b> ที่ช้อย 3 และ ✗ ที่ช้อย 4–5",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้ารอยโรคที่พบตอนมาขลิบเป็นหนังหุ้มปลายอักเสบแดงมีหนอง (balanoposthitis) → ยาปฏิชีวนะและทำความสะอาดก่อน แล้วค่อยขลิบ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนเดี่ยวเล็กที่ผิวหนังลำองคชาต ไม่แน่ใจชนิด (หูด/PeIN/nevus) ตัดออกทั้งก้อนได้โดยไม่เสียหน้าที่",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าชิ้นเนื้อยืนยันมะเร็ง squamous ของ glans ที่ลุกลึก แต่เหลือความยาวพอยืนปัสสาวะได้",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็งองคชาตที่ยืนยันแล้วลุกถึงโคน เหลือความยาวไม่พอยืนปัสสาวะ → total penectomy + perineal urethrostomy"
+   "A": "ยาฆ่าเชื้อไม่รักษา HPV และการรอติดตามทำให้วินิจฉัยมะเร็งล่าช้า · จะถูกถ้าคำถามถาม balanoposthitis จากการติดเชื้อแบคทีเรีย",
+   "C": "Excisional biopsy เหมาะกับรอยโรคเล็กที่ตัดออกได้ทั้งหมด (ลายมือ ? แสดงความลังเล) · จะถูกถ้าคำถามถามหูดเล็กเดี่ยวที่หนังหุ้มปลายซึ่งจะถูกตัดออกในการทำ circumcision อยู่แล้ว",
+   "D": "Partial penectomy เป็นการรักษามะเร็งที่ยืนยันแล้วบริเวณ glans/ ปลายองคชาต · จะถูกถ้าคำถามถาม SCC ยืนยันแล้วที่ glans",
+   "E": "Total penectomy ใช้กับมะเร็งลุกลามที่โคนองคชาต · จะถูกถ้าคำถามถาม SCC ลุกลามมากที่ตัดบางส่วนไม่ได้"
   },
-  "trap": "เห็นช้อย penectomy แล้วคิดว่าก้อนที่องคชาตคือมะเร็ง — ต้องมีพยาธิก่อนตัดอวัยวะเสมอ · หูดทั่วไปวินิจฉัยจากการดูได้",
+  "trap": "รีบตัดอวัยวะก่อนมีผลชิ้นเนื้อ หรือคิดว่าหูดเป็นแค่การติดเชื้อธรรมดา",
   "summary": [
-   "<b>นอกสไลด์:</b> หูดที่ต้องตัดชิ้นเนื้อ: ใหญ่ แข็ง ติดแน่น มีแผล เลือดออก มีสี ดื้อการรักษา หรือผู้ป่วยภูมิคุ้มกันต่ำ",
-   "<b>นอกสไลด์:</b> หูดหงอนไก่ทั่วไป (HPV 6/11): ทายา (imiquimod, podophyllotoxin) หรือทำลาย (จี้เย็น จี้ไฟฟ้า ตัดออก) · ตรวจ STI อื่น (HIV, syphilis) และคู่นอน · วัคซีน HPV ป้องกัน"
+   "Condyloma acuminata: HPV 6, 11",
+   "หูดใหญ่/ ผิดปกติ/ ไม่ตอบสนอง → biopsy",
+   "Buschke–Löwenstein = giant condyloma (verrucous carcinoma)",
+   "รักษาหูด: podophyllotoxin · imiquimod · cryotherapy · excision",
+   "Penile SCC ปัจจัยเสี่ยง: ไม่ขลิบ · phimosis · HPV 16/18 · บุหรี่",
+   "Penile SCC: ตัดชิ้นเนื้อก่อนรักษาเสมอ"
   ],
-  "opinion": "ตามคีย์ B (ผู้จดขีด C พร้อม ?) · ถ้ารอยโรคเล็กลักษณะทั่วไป การตัดออกทั้งหมดพร้อมขลิบ (C) ก็สมเหตุผล — โจทย์ไม่บอกขนาด · มั่นใจต่ำ–ปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ถ้ารอยโรคเล็กและอยู่ที่หนังหุ้มปลายที่จะตัดออกอยู่แล้ว การตัดออกทั้งหมดส่งตรวจ (excisional) ก็สมเหตุสมผล",
+  "mnemonic": "<b>'หูดที่ต้องสงสัย → Biopsy ก่อนมีด'</b>",
+  "guide": "EAU–ASCO Collaborative Guidelines on Penile Cancer (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนหูดใหญ่รูปดอกกะหล่ำกินลึกที่องคชาต ชิ้นเนื้อเป็น verrucous carcinoma → ตัดออกให้ขอบปลอดมะเร็ง (มักไม่ลามต่อมน้ำเหลือง)",
-   "<b>นอกสไลด์:</b> ตุ่มนูนผิวเรียบชื้นแฉะที่อวัยวะเพศ ร่วมผื่นฝ่ามือ → condyloma lata (secondary syphilis): serology + benzathine penicillin"
+   "ก้อนหูดใหญ่ลุกลามที่องคชาต → incisional biopsy → verrucous carcinoma",
+   "หูดเล็กหลายตุ่มที่องคชาตในชายอายุน้อย → podophyllotoxin/ cryotherapy",
+   "ชายสูงอายุมี phimosis แผลเรื้อรังที่ glans → biopsy → SCC → partial penectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 147 — ตัวพิมพ์: <b>87. ผู้ป่วยชายมาทำ circumcision พบ condyloma จะทำอย่างไร — 1. ATB and close follow up 2. Incision biopsy 3. Excision biopsy 4. Partial penectomy 5. Total penectomy</b><br>ลายมือ: ขีด 2 (สีแดง) · เส้นสีชมพูระหว่างช้อย 2–3 · เครื่องหมาย ? ท้ายช้อย 3 · ✗ ที่ช้อย 4 และ 5<br>ไฮไลต์: \"ชายมาทำ circumcision พบ condyloma\" · \"จะทำอย่างไร\" · 2 (เหลือง)<br>ที่ปรับในเว็บ: เปลี่ยนตัวเลือก 1–5 เป็น A–E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 147",
+  "kimg": [
+   "fsk_p147",
+   "kp66b_87"
   ]
  },
  "MDCU66|RoB|11": {
-  "interp": "ถามภาวะในเด็กที่ \"ต้องผ่าตัด\" แก้ไข (ช้อยอื่นรักษาแบบไม่ผ่าตัดได้)",
-  "why": "<b>ลายมือ: a NSS irrigation · c Sx เมื่อ > 3 yr หรือ > 2 cm</b><br><b>นอกสไลด์:</b> Hirschsprung ไม่มี ganglion cell ตั้งแต่ rectum ขึ้นไป ลำไส้ส่วนนั้นไม่คลาย → ต้องตัดส่วนที่ไม่มีเซลล์ประสาทแล้วดึงลำไส้ปกติลงมาต่อ (pull-through) ทุกราย",
+  "interp": "ภาวะในเด็กข้อใด<b>ต้องผ่าตัดแก้ไข</b>",
+  "why": "<b>Hirschsprung disease</b> (ไม่มี ganglion cell ในลำไส้ส่วนปลาย) ต้องผ่าตัดตัดส่วนที่ไม่มี ganglion ออกแล้วดึงลำไส้ปกติลงมา (pull-through) เสมอ · ข้ออื่นมักรักษาโดยไม่ผ่าตัด · ไฟล์ขีด d ลายมือ <b>\"a → NSS irrigation\"</b> และ <b>\"c Sx เมื่อ &gt; 3 yr @ Φ ≥ 2 cm\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ meconium plug syndrome เองต้องผ่าตัด เพราะสวนด้วย contrast/NSS แล้วขี้เทาหลุดออกและลำไส้ทำงานปกติ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าสวน Gastrografin ซ้ำแล้วยังอุดตัน → ผ่าตัดเปิดลำไส้ล้างขี้เทา",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าไส้เลื่อนสะดือเล็กในทารกติดค้างดันกลับไม่ได้ (incarcerated) ซึ่งพบน้อยมาก",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกข้อต้องผ่าตัด เพราะ meconium plug หายด้วยการสวนโดยไม่ต้องผ่าตัด"
+   "A": "Meconium plug syndrome รักษาด้วยสวนล้าง (saline/ contrast enema) แต่ต้องตรวจหา Hirschsprung/ CF ต่อ · จะถูกถ้าคำถามถามทารกที่สวนแล้วยังไม่ถ่าย ท้องอืดมากขึ้น",
+   "B": "Uncomplicated meconium ileus รักษาด้วย Gastrografin enema ได้ · จะถูกถ้าคำถามถาม complicated meconium ileus (volvulus, perforation, atresia, meconium peritonitis)",
+   "C": "Umbilical hernia ในทารกปิดเองได้ส่วนใหญ่ ผ่าตัดเมื่อ &gt; 3–5 ปี หรือ fascial defect &gt; 1.5–2 cm หรือ incarceration · จะถูกถ้าคำถามถามเด็ก 4 ปีที่ยังไม่ปิด",
+   "E": "ข้อ A–C ไม่จำเป็นต้องผ่าตัดเสมอ จึงไม่ใช่ทุกข้อ · จะถูกถ้าทุกข้อต้องผ่าตัด"
   },
-  "trap": "meconium plug อาจเป็นอาการแรกของ Hirschsprung หรือ cystic fibrosis — สวนหายแล้วถ้ายังถ่ายผิดปกติต้อง rectal biopsy",
+  "trap": "คิดว่าลำไส้อุดตันในทารกทุกชนิดต้องผ่าตัด · meconium plug/ uncomplicated meconium ileus รักษาด้วยการสวน",
   "summary": [
-   "<b>นอกสไลด์:</b> Hirschsprung: วินิจฉัยด้วย rectal suction biopsy (ไม่พบ ganglion cell, acetylcholinesterase เพิ่ม) · ไส้เลื่อนสะดือเด็กส่วนใหญ่ปิดเองภายในราว 4–5 ปี ผ่าตัดเมื่อรูกว้าง > 1.5–2 cm หรือไม่ปิดเมื่อโต"
+   "Hirschsprung: ไม่ถ่ายขี้เทาใน 48 ชม. · rectal biopsy ไม่มี ganglion",
+   "รักษา Hirschsprung: pull-through (± colostomy ก่อน)",
+   "Meconium plug: สวนล้าง → หา Hirschsprung/ CF",
+   "Meconium ileus (CF): Gastrografin enema",
+   "Umbilical hernia: ผ่าตัดถ้า &gt; 3–5 ปี/ &gt; 1.5–2 cm/ incarcerated",
+   "Lower gut obstruction: saline irrigation → ถ่ายได้ (Hirschsprung/ plug) vs ไม่ถ่าย (atresia)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Hirschsprung = ไม่มีเซลล์ประสาท → ต้องตัดต่อ (Pull-through)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Hirschsprung disease",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กท้องผูกเรื้อรังตั้งแต่ขวบปีแรก ไม่เปื้อนกางเกง ตรวจทางทวารพบ rectum ว่าง → สงสัย Hirschsprung (functional constipation มีอุจจาระเต็ม rectum และเปื้อนกางเกง)",
-   "<b>นอกสไลด์:</b> ทารกจากแม่เบาหวาน ท้องอืด สวน contrast เห็น left colon เล็กถึง splenic flexure → small left colon syndrome หายเองหลังสวน"
+   "ทารกไม่ถ่ายขี้เทา 48 ชม. rectal exam มีลมพุ่ง (blast sign) → Hirschsprung → rectal suction biopsy",
+   "ทารก CF ท้องอืด X-ray soap bubble → meconium ileus → Gastrografin enema",
+   "เด็ก 4 ปี สะดือจุ่น 2.5 cm → umbilical herniorrhaphy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 148 — ตัวพิมพ์: <b>11. อาการในเด็กข้อใดต่อไปนี้ ต้องการ surgical correction — a. meconium plug b. meconium ... c. umbilical hernia d. hirschspring's disease e. all of the above</b><br>ลายมือ: a \"→ NSS irrigation\" · c \"Sx เมื่อ &gt; 3 yr @ Φ ≥ 2 cm\" · ขีด d (สีแดงและเส้นสีชมพู)<br>ไฮไลต์: \"surgical correction\" · d (เหลือง)<br>รูปที่แปะ: รูปสะดือจุ่นในทารก · สไลด์ Umbilical hernia — Spontaneous closure · Indication for surgery: Age older than 3 years · Or Diameter more than 2 cm · สไลด์ Lower gut obstruction — Saline irrigation → Pass meconium, Abdominal distention decreases → Hirschsprung's disease VS Meconium plug syndrome → Observe/ Barium enema (elective) · No meconium, Same abdominal distension → Ileal atresia · Colonic atresia · Total colonic aganglionosis → Barium enema (Emergency) → Explor Laparotomy · สไลด์ Hirschsprung's disease พร้อมภาพรังสีและภาพผ่าตัด<br>ที่ปรับในเว็บ: ช้อย B ในไฟล์จำไม่ครบ เว็บใส่ Uncomplicated meconium ileus · ช้อย C ระบุ Small umbilical hernia in infancy",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 148",
+  "kimg": [
+   "fsk_p148",
+   "kp66b_11"
   ]
  },
  "MDCU66|RoB|38": {
-  "interp": "ข้อ NOT — หาสิ่งที่ \"ไม่ใช่\" อาการของ zygoma หัก",
-  "why": "<b>ลายมือ: trismus: limit mouth opening, กด coronoid · 4 infraorbital n.</b><br><b>นอกสไลด์:</b> zygoma ไม่มีฟัน — ฟันบนอยู่บน maxilla ฟันล่างอยู่บน mandible → zygoma หักเดี่ยวไม่ทำให้สบฟันผิด · malocclusion บ่งชี้ maxilla (LeFort) หรือ mandible หัก",
+  "interp": "ถามสิ่งที่<b>ไม่ใช่</b>อาการของ <b>zygoma injury</b>",
+  "why": "Zygoma ไม่ได้ยึดฟัน การสบฟันจึงมักปกติ → <b>malocclusion ไม่ใช่อาการของ zygoma fracture</b> (เป็นอาการเด่นของ mandible/ maxilla Le Fort) · อาการของ zygoma: trismus (กดทับ coronoid process) · diplopia · ชาแก้ม (infraorbital n.) · periorbital ecchymosis · ไฟล์ขีด 3 ลายมือ <b>\"∵ ไม่มีฟัน\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นสิ่งที่ไม่พบ) ถ้า ZMC หักเคลื่อน ช้ำรอบตา ชาแก้ม แต่ arch ไม่ยุบลงกด coronoid — อ้าปากได้ปกติ",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นสิ่งที่ไม่พบ) ถ้า ZMC หักเคลื่อนเล็กน้อย ช้ำรอบตา ชาแก้ม แต่พื้นเบ้าตาไม่ยุบ ลูกตาขยับปกติ",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นสิ่งที่ไม่พบ) ถ้ารอยหักไม่ผ่าน infraorbital canal ขณะที่ยังมีช้ำรอบตาและภาพซ้อน",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นสิ่งที่ไม่พบ) ถ้าผู้ป่วยมาตรวจหลังบาดเจ็บหลายสัปดาห์ รอยช้ำรอบตายุบหมดแล้ว แต่ยังชาแก้มและอ้าปากลำบาก"
+   "A": "ถูกว่าพบได้: trismus จากกระดูก zygoma/ arch ยุบไปกด coronoid process (ลายมือ \"limit mouth opening ∵ ไปกด coronoid process\") · จะถูกถ้าคำถามถามอาการที่ไม่พบใน nasal fracture",
+   "B": "ถูกว่าพบได้: diplopia จาก orbital floor/ กล้ามเนื้อตาติด · จะถูกถ้าคำถามถามอาการที่ไม่พบใน mandible fracture",
+   "D": "ถูกว่าพบได้: ชาแก้ม/ ริมฝีปากบนจาก infraorbital nerve (ลายมือ \"infraorbital n.?\") · จะถูกถ้าคำถามถามอาการที่ไม่พบใน nasal fracture",
+   "E": "ถูกว่าพบได้: ห้อเลือดรอบตา · จะถูกถ้าคำถามถามอาการที่ไม่พบใน mandibular condyle fracture"
   },
-  "trap": "trismus ทำให้อ้าปากไม่ได้จนดูคล้ายสบฟันผิด — trismus เกิดจาก arch ยุบกด coronoid แต่ฟันยังสบตรง",
+  "trap": "ในไฟล์ช้อย 4 เขียนเป็น inferior alveolar nerve ซึ่งเป็นของ mandible ทำให้มีสองข้อที่ไม่ใช่อาการ zygoma · เว็บปรับเป็นชาแก้ม (infraorbital) จึงเหลือ malocclusion ข้อเดียว",
   "summary": [
-   "<b>นอกสไลด์:</b> zygomaticomaxillary complex หัก: แก้มแบน, ชาแก้ม–ริมฝีปากบน–ปีกจมูก (infraorbital n.), เลือดออกใต้เยื่อบุตาด้านข้าง, ภาพซ้อน/ลูกตาจม (พื้นเบ้าตา), อ้าปากลำบาก · ORIF เมื่อเคลื่อนหรือมีปัญหาการทำงาน"
+   "ZMC fracture: แก้มแบน · ชาแก้ม (infraorbital n.)",
+   "Diplopia · enophthalmos · ห้อเลือดใต้เยื่อบุตา",
+   "Trismus: arch กด coronoid",
+   "Waters view/ CT face",
+   "ไม่ผิดรูป ไม่มีอาการ → conservative (soft diet 4–6 สัปดาห์)",
+   "ผิดรูป/ diplopia/ trismus → ORIF"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · ช้อย D เดิมเป็น inferior alveolar n. (ก็ไม่พบใน zygoma หักเช่นกัน) จึงแก้เป็นชาแก้มตามลายมือ · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Zygoma ไม่มีฟัน → ไม่มี malocclusion · มี ชา (infraorbital) ตาเห็นภาพซ้อน อ้าปากยาก'</b>",
+  "guide": "Fonseca's Oral and Maxillofacial Trauma 4th ed. (2013) — Zygomatic complex fractures",
   "variants": [
-   "<b>นอกสไลด์:</b> zygoma หักไม่เคลื่อน ไม่มีภาพซ้อน ชาเล็กน้อย → รักษาแบบประคับประคอง (อาหารอ่อน เลี่ยงกดแก้ม) และติดตาม",
-   "<b>นอกสไลด์:</b> zygomatic arch หักยุบ อ้าปากได้แค่หนึ่งนิ้วมือ → ยกกระดูกกลับผ่านแผลที่ขมับ (Gillies approach)"
+   "ถูกต่อยแก้ม แก้มแบน ชาริมฝีปากบน อ้าปากไม่ได้ → ZMC fracture → ORIF",
+   "ถูกตีคาง สบฟันไม่ลง ชาคาง → mandible fracture (inferior alveolar n.)",
+   "มองขึ้นเห็นภาพซ้อน ตาจม → orbital floor blowout fracture"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 148 — ตัวพิมพ์: <b>38. Which is not symptom of zygoma injury? — 1. Trismus 2. diplopia 3. Malocclusion 4. paresthesia of inferior alveolar nerve 5. periorbital hematoma</b><br>ลายมือ: ✓ ที่ 1 2 5 · ช้อย 1 \"limit mouth opening ∵ ไปกด coronoid process\" · ขีด 3 เขียน \"∵ ไม่มีฟัน\" · ช้อย 4 เขียน \"infraorbital n.?\"<br>ไฮไลต์: \"not symptom of zygoma injury\" · 3 (เหลือง)<br>รูปที่แปะ: โน้ตลายมือแผนผัง Zygoma — sign &amp; symp.: periorbital ecchymosis, subconj. hemorrhage, numbness along infraorbital n., diplopia, limit EOM, enophthalmos, limit mouth opening (trismus), malar displacement · 1x Water's view · Tx: conservative (4–6 wk soft diet) · ORIF (Sx indication: diplopia, limit EOM, limit mouth opening, malar displacement, enophthalmos) · รูปกายวิภาคเส้นประสาทใบหน้า (Infraorbital nerve · Mental nerve · Inferior alveolar nerve ฯลฯ)<br>ที่ปรับในเว็บ: ช้อย D เปลี่ยนจาก paresthesia of inferior alveolar nerve เป็น Cheek numbness (infraorbital) เพื่อให้มีคำตอบเดียว",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 148",
+  "kimg": [
+   "fsk_p148",
+   "kp66b_38"
   ]
  }
 }

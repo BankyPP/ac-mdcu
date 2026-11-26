@@ -1,117 +1,200 @@
 {
  "MDCU66|RoB|4": {
-  "interp": "ถามข้อความที่ถูกเรื่อง biliary atresia (ช้อยผิดแต่ละตัวมีลายมือแก้ไว้)",
-  "why": "<b>คีย์: B · ลายมือ A 2 ปี · C portoenterostomy · D bile duct plug &amp; proliferation · E อันดับ 1</b><br><b>นอกสไลด์:</b> US ตับและทางเดินน้ำดีหลังงดนม: ถุงน้ำดีเล็ก/ไม่เห็น/ไม่หดตัว, triangular cord sign และใช้ตัดสาเหตุอื่น (choledochal cyst) — US ปกติก็ไม่ตัด biliary atresia",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับ <b>biliary atresia</b>",
+  "why": "<b>Ultrasound ตับและถุงน้ำดี</b>เป็นการตรวจพื้นฐานในทารก cholestasis — เห็นถุงน้ำดีเล็ก/ ไม่เห็น · triangular cord sign และแยก choledochal cyst · ไฟล์ขีด B และแก้ลายมือช้อยอื่นทุกข้อ (A <b>\"2\"</b> ปี · C <b>\"portoenterostomy\"</b> · D <b>\"bile duct plug &amp; proliferation\"</b> · E อันดับ 1)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะ biliary atresia ที่ไม่รักษากลายเป็นตับแข็งและเสียชีวิตเกือบทั้งหมดภายในราว 2 ปี",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะ Kasai ตัด fibrous remnant ที่ porta hepatis แล้วต่อ Roux-en-Y jejunum กับ porta (portoenterostomy) — ไม่มีท่อน้ำดีให้ต่อ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะลักษณะเด่นในชิ้นเนื้อของ biliary atresia คือท่อน้ำดีเพิ่มจำนวนและ bile plug ส่วน giant cell เด่นใน neonatal hepatitis",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริง เพราะ biliary atresia เป็นข้อบ่งชี้อันดับหนึ่งของการปลูกถ่ายตับในเด็ก"
+   "A": "ไม่รักษาส่วนใหญ่เสียชีวิตภายใน <b>2 ปี</b> ไม่ใช่ 10 ปี · จะถูกถ้าคำถามถามการรอดชีวิตหลัง Kasai สำเร็จร่วมกับ transplant",
+   "C": "Kasai คือ <b>hepatoportoenterostomy</b> ไม่ใช่ choledochojejunostomy · จะถูกถ้าคำถามถามการต่อท่อน้ำดีหลังตัด choledochal cyst (hepaticojejunostomy)",
+   "D": "Hallmark ของ BA คือ <b>bile duct proliferation + bile plug + portal fibrosis</b> · giant cell transformation + hepatocellular necrosis เด่นใน <b>neonatal hepatitis</b> · จะถูกถ้าคำถามถาม idiopathic neonatal hepatitis",
+   "E": "BA เป็นข้อบ่งชี้ปลูกถ่ายตับในเด็กที่พบบ่อย<b>อันดับ 1</b> · จะถูกถ้าคำถามถามข้อบ่งชี้ที่พบน้อยกว่า เช่น metabolic liver disease"
   },
-  "trap": "giant cell transformation พบใน biliary atresia ได้จริงจึงหลอก — แต่ไม่ใช่ลักษณะเด่น",
+  "trap": "สับสนพยาธิสภาพของ BA (ท่อน้ำดีเพิ่มจำนวน มี plug) กับ neonatal hepatitis (giant cell)",
   "summary": [
-   "<b>นอกสไลด์:</b> ยืนยันการวินิจฉัยด้วย intraoperative cholangiogram (มาตรฐาน) · ชนิดที่พบบ่อยที่สุดคือ atresia ถึง porta hepatis (type III)"
+   "BA: ทารก 2–8 สัปดาห์ เหลือง อุจจาระซีด direct bilirubin สูง",
+   "US: GB เล็ก/ ไม่มี · triangular cord sign",
+   "Biopsy: ductular proliferation · bile plug · portal fibrosis",
+   "ยืนยัน: intraoperative cholangiogram",
+   "Kasai hepatoportoenterostomy ก่อน 60 วัน",
+   "ข้อบ่งชี้ liver transplant ในเด็กอันดับ 1"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'BA: 60 วัน (Kasai) · 2 ปี (ไม่รักษาตาย) · อันดับ 1 (transplant) · Plug + Proliferation'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary atresia",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก biliary atresia ร่วม polysplenia ตับอยู่กลาง IVC ขาดตอน → biliary atresia splenic malformation syndrome: ตรวจหัวใจร่วม",
-   "<b>นอกสไลด์:</b> ทารกตัวเหลือง US พบถุงน้ำที่ porta hepatis แต่ท่อน้ำดีในตับไม่โป่ง → cystic biliary atresia (ต่างจาก choledochal cyst ที่ท่อในตับโป่ง) ต้องผ่าตัดเร็ว"
+   "ทารก 6 สัปดาห์ เหลือง อุจจาระซีด US triangular cord sign → IOC + Kasai",
+   "Liver biopsy พบ giant cell transformation ท่อน้ำดีปกติ → neonatal hepatitis",
+   "หลัง Kasai ตับแข็ง → liver transplantation"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 148 — ตัวพิมพ์: <b>4. ข้อใดถูกต้องเกี่ยวกับ Biliary atresia (ภาษาอังกฤษ) — A. ถ้าไม่รักษา จะมี survival 10 ปี B. u/s liver&amp;gallbladder เป็นหนึ่งในการinvestigation C. Kasai operation include cholechodojejunostomy D. มีpathologic hallmark คือ giant cell transformation &amp; hepatocellular necrosis E. เป็นเหตุผลอันดับ3ในการทำliver transplantในเด็ก</b><br>ลายมือ: ช้อย A ขีดฆ่า 10 แก้เป็น \"2\" · ขีด B (สีแดงและเส้นสีชมพู) · ช้อย C ขีดฆ่า cholechodojejunostomy แก้เป็น \"portoenterostomy\" · ช้อย D ขีดฆ่า giant cell transformation &amp; hepatocellular necrosis เขียน \"bile duct plug &amp; proliferation\" · ช้อย E ขีดฆ่าเลข 3 (แก้เป็นอันดับ 1)<br>ไฮไลต์: \"เกี่ยวกับ Biliary atresia\" · B · \"investigation\" (เหลือง)<br>รูปที่แปะ: แผนผังการตรวจทารกตัวเหลือง 2–12 สัปดาห์ (Pthaigastro.org) — Sick? · Pale stool? · US-small GB, triangular cord sign · DISIDA scan/ Liver bx · IOC ± Kasai operation · สไลด์ Biliary Atresia: Histology — Peribiliary fibrosis, ductular proliferation, bile duct plugs · High power view; bile duct plugs and damaged cholangioles",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 148",
+  "kimg": [
+   "fsk_p148",
+   "kp66b_4"
   ]
  },
  "MDCU66|RoB|X3": {
-  "interp": "ถามสาเหตุที่พบบ่อยที่สุดของเลือดออกทางเดินอาหารส่วนล่างปริมาณมากในผู้ใหญ่",
-  "why": "<b>ลายมือ: -osis</b><br><b>นอกสไลด์:</b> diverticulosis เลือดออกจาก vasa recta ที่ยืดบางบนโดมของ diverticulum → เลือดแดงออกมากทันทีไม่ปวด ส่วนใหญ่หยุดเองแต่ออกซ้ำได้",
+  "interp": "ถามสาเหตุที่พบบ่อยที่สุดของ <b>massive lower GI bleeding ในผู้ใหญ่</b>",
+  "why": "<b>Diverticulosis (diverticular bleeding)</b> เป็นสาเหตุอันดับ 1 ของ LGIB รุนแรงในผู้ใหญ่ (~30–40%) เลือดออกจาก vasa recta ที่ยืดตามรูโป่ง มักไม่ปวด หยุดเองได้ส่วนใหญ่ · ไฟล์ขีด 1 แก้ลายมือ diverticul-itis เป็น <b>\"-osis\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุน้ำหนักลด อุจจาระลำเล็กลง ซีดเรื้อรัง แล้วถ่ายเป็นเลือดมาก CT เห็นก้อนที่ sigmoid",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุมาก ไตวายเรื้อรังหรือ aortic stenosis มีเลือดออกทางทวารปริมาณมากซ้ำ ๆ ไม่ปวด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ใหญ่อายุน้อยถ่ายเลือดสดหยดหลังถ่ายปริมาณมากจนซีด ส่องพบริดสีดวงเลือดออกชัดและลำไส้ส่วนอื่นปกติ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุหลังช่วงความดันต่ำ (ผ่าตัดหัวใจ/aorta ฟอกไต) ปวดท้องซ้ายเฉียบพลันแล้วถ่ายเป็นเลือดมาก"
+   "B": "มะเร็งลำไส้ใหญ่มักเลือดออกเรื้อรังทีละน้อย (ซีด/ เลือดปนอุจจาระ) ไม่ค่อย massive · จะถูกถ้าคำถามถามผู้สูงอายุซีดจากขาดธาตุเหล็ก ถ่ายเปลี่ยนนิสัย",
+   "C": "Angiodysplasia เป็นสาเหตุสำคัญในผู้สูงอายุ (ลำไส้ขวา, CKD, aortic stenosis) แต่พบน้อยกว่า diverticular · จะถูกถ้าคำถามถามผู้สูงอายุ aortic stenosis เลือดออกซ้ำ (Heyde syndrome)",
+   "D": "ริดสีดวงเลือดสดหยดหลังถ่าย ปริมาณไม่มาก ไม่ทำให้ช็อก · จะถูกถ้าคำถามถามเลือดสดหยดหลังถ่ายในคนอายุน้อย",
+   "E": "Ischemic colitis: ปวดท้องซ้ายแล้วถ่ายเป็นเลือดปนอุจจาระ ไม่ค่อย massive · จะถูกถ้าคำถามถามผู้สูงอายุหลังช็อก/ ผ่าตัด aorta ปวดท้องแล้วถ่ายเป็นเลือด"
   },
-  "trap": "ลายมือ \"-osis\": เลือดออกมาจาก diverticulosis ไม่ใช่ diverticulitis (อักเสบมักไม่ออกเลือดมาก) · เลือดแดงสดมากร่วมช็อกต้องคิด UGIB ด้วย → ส่องกระเพาะก่อน",
+  "trap": "เลือก diverticul<b>itis</b> ทั้งที่การอักเสบมักไม่ทำให้เลือดออก · ที่เลือดออกคือ diverticul<b>osis</b>",
   "summary": [
-   "<b>นอกสไลด์:</b> สาเหตุ LGIB ในผู้ใหญ่: diverticulosis มากที่สุด (ราว 30–40%) > angiodysplasia, ischemic colitis > ริดสีดวง, มะเร็ง/ติ่งเนื้อ, หลังตัดติ่งเนื้อ · ราว 10–15% ของเลือดแดงสดปริมาณมากมาจาก UGIB",
-   "<b>นอกสไลด์:</b> LGIB (ACG 2023): สัญญาณชีพคงที่ → colonoscopy หลังเตรียมลำไส้ระหว่างนอน รพ. · ไม่คงที่ → CTA → embolization · ยังไม่หยุด → ผ่าตัด (รู้ตำแหน่ง = segmental colectomy)"
+   "LGIB รุนแรง: diverticulosis อันดับ 1",
+   "อื่น ๆ: angiodysplasia · ischemic colitis · หลังตัด polyp · มะเร็ง",
+   "ตัด UGIB ก่อน (NG aspirate/ BUN สูง) ถ้าช็อก",
+   "Colonoscopy ภายใน 24 ชม. หลัง resuscitation",
+   "เลือดออกเร็ว ไม่คงที่ → CTA → embolization",
+   "หาไม่พบและไม่หยุด → subtotal colectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Diverticul-OSIS = Oozes (เลือดออก) · -ITIS = Inflamed (ปวด ไข้)'</b>",
+  "guide": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding (Am J Gastroenterol 2023;118:208)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 60 ปีตัดติ่งเนื้อผ่านกล้อง 7 วันก่อน ถ่ายเลือดสดมาก → post-polypectomy bleeding",
-   "<b>นอกสไลด์:</b> ชายเคยฉายแสงมะเร็งต่อมลูกหมาก ถ่ายเลือดสดซ้ำ ๆ → radiation proctitis"
+   "ผู้สูงอายุถ่ายเลือดแดงคล้ำจำนวนมาก ไม่ปวดท้อง → diverticular bleeding",
+   "ผู้ป่วย aortic stenosis เลือดออกทางเดินอาหารซ้ำ → angiodysplasia",
+   "LGIB ช็อก CTA เห็น contrast extravasation → angioembolization"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 148 — ตัวพิมพ์: <b>What is the most likely cause of massive lower gastrointestinal bleeding in adult patients — 1 diverticulitis 2 cancer 3 angiodysplasia 4 internal hemorrhoid 5 ischaemic colitis</b> (ไม่มีเลขข้อ)<br>ลายมือ: ขีด 1 (สีแดงและเส้นสีชมพู) · ขีดฆ่า \"-itis\" เขียน \"-osis\"<br>ไฮไลต์: \"most likely cause of massive lower gastrointestinal bleeding in adult patients\" · 1 (เหลือง)<br>ที่ปรับในเว็บ: ช้อย A เขียนเป็น Diverticular disease ตามลายมือที่แก้เป็น diverticulosis",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 148",
+  "kimg": [
+   "fsk_p148",
+   "kp66b_X3"
   ]
  },
  "MDCU66|RoB|X4": {
-  "interp": "ถามข้อความที่ถูกเรื่อง steroid ในเนื้องอกสมอง (ชุดช้อยต่างจาก RoA X6 ของชุดนี้ ซึ่งคำตอบคือไม่มีข้อถูก)",
-  "why": "<b>คีย์: 2 · ลายมือ 3 → vasogenic</b><br><b>นอกสไลด์:</b> dexamethasone ปิดรอยรั่วของ blood-brain barrier ในก้อน ลด vasogenic edema → ปริมาตรสมองลด ICP ลด อาการดีขึ้นในชั่วโมงถึงวัน · อาการรุนแรงใช้ขนาดสูง (± loading)",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับการใช้ <b>steroid ใน brain tumor</b>",
+  "why": "Dexamethasone ลด <b>vasogenic edema</b> รอบก้อน จึง<b>ลด ICP</b> และบรรเทาอาการได้เร็ว โดยให้ขนาดสูงก่อน (10 mg IV stat แล้ว 4–5 mg ทุก 6 ชม.) · ไฟล์ขีด 2 แก้ลายมือช้อย 3 เป็น <b>\"vasogenic\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าภาพเข้าได้กับ primary CNS lymphoma ที่ยังไม่ได้ชิ้นเนื้อ และผู้ป่วยคงที่ → งด steroid จนเจาะชิ้นเนื้อ เพราะยาทำให้ก้อนยุบจนอ่านผลไม่ได้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ steroid รักษา cytotoxic edema ได้ดี เพราะ cytotoxic edema คือเซลล์บวมจากขาดพลังงาน (เช่น stroke) ไม่ใช่ผนังหลอดเลือดรั่วที่ steroid ช่วยปิด",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ steroid ทำให้เนื้องอกสมอง \"ทุกชนิด\" เล็กลง เพราะยาลดน้ำรอบก้อน ไม่ได้ฆ่าเซลล์เนื้องอกส่วนใหญ่",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยมีอาการจากสมองบวมเพียงเล็กน้อย → dexamethasone ขนาดต่ำก็คุมอาการได้"
+   "A": "Steroid มีประโยชน์ชัดเจนเมื่อมีอาการจาก edema · จะถูกถ้าคำถามถามสงสัย primary CNS lymphoma ก่อนตัดชิ้นเนื้อ",
+   "C": "ลด vasogenic edema ไม่ใช่ cytotoxic edema · จะถูกถ้าเปลี่ยนเป็น vasogenic edema",
+   "D": "Steroid ไม่ทำให้ก้อนส่วนใหญ่เล็กลง (ยกเว้น lymphoma) · จะถูกถ้าคำถามถาม primary CNS lymphoma",
+   "E": "ผู้ป่วยมีอาการให้ขนาดสูงก่อนแล้วค่อยลด · จะถูกถ้าคำถามถามผู้ป่วยอาการน้อยที่เริ่มขนาดต่ำได้ หรือการลดขนาด (taper)"
   },
-  "trap": "\"high dose\" ฟังน่ากลัวแต่ใช้จริงในผู้ป่วยอาการรุนแรง · steroid แก้อาการจากบวม ไม่ได้รักษาก้อน ต้องวางแผนผ่าตัด/รังสีต่อ",
+  "trap": "จำว่า steroid ลด cytotoxic edema หรือทำให้ก้อนเล็กลง",
   "summary": [
-   "<b>นอกสไลด์:</b> ICP สูงจากก้อน: ยกหัวเตียงราว 30° + dexamethasone · ภาวะวิกฤต (herniation) → osmotherapy (mannitol/hypertonic saline) ซึ่งออกฤทธิ์เร็วกว่า steroid + ผ่าตัดหรือระบาย CSF"
+   "Dexamethasone: ลด vasogenic edema → ลด ICP",
+   "Dose: 10 mg IV stat → 4–5 mg IV ทุก 6 ชม.",
+   "อาการดีขึ้น → ลดขนาด (ผลข้างเคียง: น้ำตาลสูง แผลในกระเพาะ ภูมิต่ำ)",
+   "ให้ยาป้องกันกระเพาะร่วม",
+   "ไม่ลดขนาดก้อน (ยกเว้น lymphoma)",
+   "Cytotoxic edema (stroke) → steroid ไม่ช่วย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ในไฟล์จำช้อย 4–5 ไม่ได้ เว็บเพิ่มให้ครบ)",
+  "mnemonic": "<b>'Steroid → Vasogenic → ICP ลง (ขนาดสูงก่อน แล้วค่อยลด)'</b>",
+  "guide": "EANO Guideline on Rational Supportive Care of Patients with Brain Tumors (Neuro-Oncology 2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยได้ dexamethasone น้ำตาลในเลือด 320 mg/dL → คุมน้ำตาลด้วย insulin และลดยาลงหาขนาดต่ำสุดที่คุมอาการได้",
-   "<b>นอกสไลด์:</b> ฝีในสมองมีบวมรอบมากจน midline shift → dexamethasone ช่วงสั้นร่วมกับยาปฏิชีวนะได้"
+   "Brain metastasis บวมรอบก้อน ปวดศีรษะ อาเจียน → dexamethasone 10 mg IV",
+   "สงสัย CNS lymphoma ในผู้ป่วย HIV → เลี่ยง steroid ก่อน biopsy",
+   "Ischemic stroke สมองบวม → mannitol/ hemicraniectomy ไม่ใช้ steroid"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 148 — ตัวพิมพ์: <b>ข้อใดถูกเกี่ยวกับการใช้steroidในbrain tumor — 1อันตรายไม่ควรใช้ 2ช่วยลดความดันในสมองได้หากใช้ในโดสที่มาก 3ใช้ลด cytotoxic brain edema ได้ดี จำ4,5 ไม่ได้ล้ะอา</b> (ไม่มีเลขข้อ)<br>ลายมือ: ขีด 2 (สีแดงและเส้นสีชมพู) · ช้อย 3 ขีดฆ่า cytotoxic แก้เป็น \"vasogenic\"<br>ไฮไลต์: \"ใช้steroidในbrain tumor\" · 2 (เหลือง)<br>รูปที่แปะ: สไลด์ Management — Medication: Steroid ช่วยลด vasogenic brain edema ที่มักมีอยู่รอบๆ tumor ช่วยลดอาการลงได้อย่างรวดเร็ว แต่ steroid จะไม่ช่วยลด tumor growth · Dose คือ 10 mg iv stat และ 5 mg iv q 6 hours ลด dose ลงเมื่ออาการดีขึ้น เพื่อลดผลข้างเคียงของ steroid · Anticonvulsant กรณีที่มีชัก · ภาพ CT มีก้อนและ edema · ลายมือแยก vasogenic edema (บวมใน white matter, เป็น brain tumor) กับ cytotoxic edema (cell ขาดเลือด, gray–white differentiation หายไป, เป็น stroke, infarct)<br>ที่ปรับในเว็บ: ในไฟล์จำช้อย 4–5 ไม่ได้ เว็บเพิ่ม D ลดขนาดก้อนทุกชนิด และ E เริ่มขนาดต่ำ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 148",
+  "kimg": [
+   "fsk_p148",
+   "kp66b_X4"
   ]
  },
  "MDCU66|RoB|70": {
-  "interp": "โจทย์เดียวกับ RoA X18 ของชุดนี้ — หญิง 44 ปี NYHA III + severe MR + mild MS + severe TR → ถามการรักษา (ข้อนี้เก็บมุมทำไมลิ้นรูมาติกต้องเปลี่ยน และการเลือกชนิดลิ้น)",
-  "why": "<b>ลายมือ: almost always rheumatic → replace · tricuspid repair · FC III</b><br><b>นอกสไลด์:</b> MS ร่วม MR ในหญิงวัยกลางคนเกือบทั้งหมดเป็นรูมาติก — leaflet หนา commissure เชื่อมกัน chordae หดสั้น ซ่อมแล้วกลับเป็นซ้ำสูง → เปลี่ยนลิ้น · NYHA III ร่วมโรคลิ้นรุนแรง = ข้อบ่งชี้ผ่าตัด",
+  "interp": "หญิง 44 ปี เหนื่อย นอนราบไม่ได้ echo: <b>severe MR + mild MS + severe TR</b> ถามการรักษา (ถามซ้ำกับ RoA)",
+  "why": "MR ร่วม MS → <b>rheumatic mitral disease</b> ลิ้นหนาแข็ง ซ่อมได้ผลไม่ทน → <b>mitral valve replacement</b> · severe functional TR → <b>tricuspid repair (annuloplasty)</b> พร้อมกัน · ไฟล์ขีด 4 ลายมือ <b>\"almost always จาก rheumatic fever (process ยังไม่ดี) → replace\"</b> และ <b>\"repair\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าโรคลิ้นรูมาติกยังไม่มีอาการ ลิ้นรั่วไม่รุนแรง LV ปกติ → ยาและติดตาม echo",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น MS รุนแรงล้วน ลิ้นยังบางขยับได้ ไม่มีหินปูนมาก และ MR น้อย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า tricuspid มีพยาธิสภาพที่ leaflet เอง (ติดเชื้อ ทะลุ หดหนา) จนซ่อมไม่ได้",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าลิ้น mitral รั่วจาก prolapse ของ leaflet ที่บางยืดหยุ่น (degenerative) — ซ่อมได้และทนนาน"
+   "A": "ยาบรรเทาอาการชั่วคราว severe MR มีอาการต้องผ่าตัด · จะถูกถ้าคำถามถามผู้ป่วยไม่มีอาการ LV ปกติ",
+   "B": "Balloon ห้ามเมื่อมี MR ปานกลาง–รุนแรง · จะถูกถ้าคำถามถาม pure MS ลิ้นยืดหยุ่น",
+   "C": "Functional TR ซ่อมด้วย annuloplasty ได้ ไม่ต้องเปลี่ยน · จะถูกถ้าคำถามถาม tricuspid ลิ้นเสียจาก endocarditis ที่ซ่อมไม่ได้",
+   "E": "ซ่อม mitral เหมาะกับ degenerative MR · rheumatic + MS ซ่อมได้ผลไม่ทน · จะถูกถ้าคำถามถาม MR จาก mitral valve prolapse"
   },
-  "trap": "\"repair ดีกว่า replace\" จริงสำหรับ MR แบบ degenerative ไม่ใช่รูมาติก · TR รุนแรงอย่าปล่อยไว้หวังว่าจะดีขึ้นเองหลังแก้ลิ้นซ้าย",
+  "trap": "จำว่า MR ต้อง repair เสมอ ซึ่งใช้กับ degenerative ไม่ใช่ rheumatic",
   "summary": [
-   "<b>นอกสไลด์:</b> เลือกชนิดลิ้น (ACC/AHA): อายุ &lt; 50 ปีไม่มีข้อห้าม warfarin → mechanical (ทนกว่า) · 50–65 ปีตัดสินร่วมกัน · > 65 ปี หรือกิน warfarin ไม่ได้/ต้องการตั้งครรภ์ → bioprosthetic"
+   "MR + MS → rheumatic → replacement",
+   "Degenerative MR → repair",
+   "Severe TR ขณะผ่าตัดลิ้นซ้าย → tricuspid annuloplasty",
+   "PBMV: pure MS ลิ้นเหมาะสม",
+   "ห้าม PBMV: MR ≥ moderate · LA thrombus",
+   "หลัง mechanical MVR → warfarin ตลอดชีวิต"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · โจทย์เดียวกับ RoA X18 · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Rheumatic = Replace · TR = Ring'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังเปลี่ยนลิ้น 3 สัปดาห์ ไข้ เพาะเชื้อเลือดพบ S. epidermidis → early prosthetic valve endocarditis",
-   "<b>นอกสไลด์:</b> ผู้ป่วยลิ้นหัวใจเทียมจะถอนฟัน → ให้ amoxicillin ป้องกัน IE ก่อนทำฟัน"
+   "Severe MR จาก MVP มีอาการ → mitral repair",
+   "Pure MS ลิ้นยืดหยุ่น → PBMV",
+   "MVR + severe TR → tricuspid annuloplasty พร้อมกัน"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 147 — ตัวพิมพ์: <b>70. ผู้ป่วยหญิงอายุ 44 ปี มีอาการแน่นท้อง นอนราบไม่ได้ ทำ echocardiogram พบว่าเป็น severe mitral regurgitation &amp; mild mitral stenosis &amp; severe tricuspid regurgitation รักษายังไง? — 1. ให้ยา 2. ทำบอลลูน 3. เปลี่ยน mitral + เปลี่ยน tricuspid 4. เปลี่ยน mitral + ซ่อม tricuspid 5. ซ่อม mitral + ซ่อม tricuspid</b><br>ลายมือ: เขียน \"ซ้ำ\" หน้าข้อ · \"almost always จาก rheumatic fever (process ยังไม่ดี) → replace\" และ \"repair\" ใต้คำถาม · ช้อย 4 \"FC III↑\" · ช้อย 5 \"FC II\" · ขีด 4 (สีแดงและเส้นสีชมพู)<br>ไฮไลต์: \"หญิงอายุ 44 ปี\" · \"แน่นท้อง นอนราบไม่ได้\" · \"severe mitral regurgitation\" · \"mild mitral stenosis\" · \"severe tricuspid regurgitation\" · 4 (เหลือง)<br>ที่ปรับในเว็บ: เปลี่ยนตัวเลือก 1–5 เป็น A–E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 147",
+  "kimg": [
+   "fsk_p147",
+   "kp66b_70"
   ]
  },
  "MDCU66|RoB|5": {
-  "interp": "โจทย์เดียวกับ RoA 60 ของชุดนี้ — ทารก 3 เดือน อาเจียนน้ำดีทันที → ภาวะที่ต้องคิดก่อน (ข้อนี้เก็บมุมกายวิภาคและการผ่าตัด)",
-  "why": "<b>คีย์ขีด 3 · ลายมือ 3 peak 3–8 mo · 4 peak 1 mo</b><br><b>นอกสไลด์:</b> อาเจียนน้ำดีบอกว่าอุดใต้ ampulla · อาการเกิดทันที = ลำไส้บิดรอบ SMA ซึ่งทำให้ลำไส้เล็กขาดเลือดได้ทั้งหมด จึงต้องคิดก่อนแม้อายุเลย peak",
+  "interp": "เด็ก 3 เดือน มี<b>อาเจียนเป็นน้ำดีขึ้นทันที</b> ถามการวินิจฉัย (ถามซ้ำกับ RoA ข้อ 60)",
+  "why": "อาเจียนน้ำดีทันทีในทารกที่เคยปกติ ต้องคิดถึง <b>malrotation with midgut volvulus</b> ก่อนเสมอ เพราะลำไส้ขาดเลือดทั้ง midgut ได้ในไม่กี่ชั่วโมง → UGI study ด่วน/ Ladd procedure · ไฟล์ขีด 3 (intussusception) ลายมือที่ช้อย 4 <b>\"peak 1 mo\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าทารกชายอายุราวเดือนแรกอาเจียนพุ่งเป็นนมไม่มีน้ำดี คลำก้อนรูปมะกอกท้องขวาบน",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าทารกแรกเกิดอาเจียนตั้งแต่ชั่วโมงแรก ๆ ภาพเป็น double bubble ไม่มีลมส่วนปลาย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารก 8 เดือนร้องกวนเป็นพัก ๆ คลำก้อนที่ท้องขวาบน ถ่ายมูกเลือดคล้ายเยลลี่",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกแรกเกิดน้ำลายฟูมปาก สำลักตั้งแต่ป้อนนมมื้อแรก ใส่สายลงกระเพาะไม่ได้ (esophageal atresia ร่วม TEF)"
+   "A": "Pyloric stenosis อาเจียน<b>ไม่มีน้ำดี</b> อายุ 2–8 สัปดาห์ · จะถูกถ้าคำถามถามอาเจียนพุ่งเป็นนมสีขาว คลำได้ olive",
+   "B": "Duodenal atresia มีอาการตั้งแต่วันแรกหลังคลอด · จะถูกถ้าคำถามถามทารกแรกเกิด double bubble",
+   "C": "Intussusception พบ 3 เดือน–3 ปี (peak 6–18 เดือน) อาการเด่นคือปวดเป็นพัก ๆ ร้องกวน ถ่ายมูกเลือด อาเจียนน้ำดีเป็นอาการระยะหลัง · จะถูกถ้าคำถามถามเด็ก 8 เดือน ร้องเป็นพัก ๆ คลำได้ก้อนรูปไส้กรอก",
+   "E": "TEF: ทารกแรกเกิดน้ำลายมาก สำลักเมื่อกินนม ใส่สาย NG ไม่ลง · จะถูกถ้าคำถามถามทารกแรกเกิดไอสำลักทุกครั้งที่ดูดนม"
   },
-  "trap": "อาเจียนน้ำดีคือสีเขียว (สีเหลืองยังไม่นับ) · ภาพรังสีท้องปกติหรือมีลมส่วนปลายไม่ตัด volvulus (บิดไม่สนิท/เป็นพัก ๆ) · Ladd bands กด duodenum ทำให้อาเจียนน้ำดีได้แม้ไม่บิด",
+  "trap": "อายุ 3 เดือนเข้ากับช่วงของ intussusception ทำให้เลือกตามคีย์ในไฟล์ (3) · แต่คำถามเน้น<b>อาเจียนน้ำดีทันที</b> ซึ่งเป็นสัญญาณอันตรายของ volvulus",
   "summary": [
-   "<b>นอกสไลด์:</b> กายวิภาค malrotation: DJ junction อยู่ขวาของกระดูกสันหลัง cecum อยู่สูง ฐาน mesentery แคบจึงบิดรอบ SMA · Ladd procedure: คลายเกลียวทวนเข็มนาฬิกา ตัด Ladd bands ขยายฐาน mesentery ตัดไส้ติ่ง วางลำไส้เล็กขวา ลำไส้ใหญ่ซ้าย"
+   "อาเจียนน้ำดีในทารก = surgical emergency",
+   "Malrotation + volvulus: ส่วนใหญ่ขวบปีแรก (เดือนแรกมากสุด)",
+   "UGI study: DJ flexure ผิดตำแหน่ง · corkscrew",
+   "Ladd procedure",
+   "Intussusception: ปวดเป็นพัก ๆ · currant jelly · US target sign",
+   "Intussusception รักษา: air/ hydrostatic enema"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ C (intussusception) — ตอบ D · โจทย์เดียวกับ RoA 60 · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ในเว็บ ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ในไฟล์ MCQ Key 2 ที่ขีด 3 (intussusception) และมีเครื่องหมาย ? สีชมพูข้าง ๆ แสดงว่าผู้จดก็ลังเล · อาเจียนน้ำดีทันทีเป็นลักษณะเด่นของ midgut volvulus",
+  "mnemonic": "<b>'Bilious vomiting ในทารก = Volvulus until proven otherwise'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Malrotation and midgut volvulus",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกอาเจียนน้ำดี UGI ไม่ชัด → US Doppler เห็น SMV อยู่ซ้ายของ SMA และ whirlpool sign → สงสัย volvulus ผ่าตัด",
-   "<b>นอกสไลด์:</b> หลัง Ladd procedure ต้องตัดลำไส้ตายเกือบทั้งหมด → short bowel syndrome: TPN และฟื้นฟูลำไส้"
+   "ทารก 3 สัปดาห์ อาเจียนเขียวทันที → UGI study → malrotation with volvulus → Ladd",
+   "เด็ก 10 เดือน ร้องเป็นพัก ๆ ถ่ายมูกเลือด → intussusception → air enema",
+   "ทารกแรกเกิดน้ำลายฟูมปาก สาย NG ขดในหลอดอาหาร → esophageal atresia + TEF"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 147 — ตัวพิมพ์: <b>5. A 3 month old child presents with sudden onset of billous vomitting. What is your diagnosis — 1 Pyloric stenosis 2 Duodenal atresia 3 Intussusception 4 Malrotation with Midgut volvulus 5 Tracheoesophagus fistula</b><br>ลายมือ: เขียน \"ซ้ำ\" หน้าข้อ · ขีด 3 (สีแดง) เขียน \"peak 3-8 mo\" และ \"2 mo–2 yr\" · ช้อย 4 เขียน \"peak 1 mo\" · เส้นสีชมพูขีดผ่านช้อย 2 และ 4 · เครื่องหมาย ? สีชมพูขนาดใหญ่<br>ไฮไลต์: \"3 month old child\" · \"sudden onset of billous vomitting\" · \"diagnosis\" · 3 (เหลือง)<br>ที่ปรับในเว็บ: เปลี่ยนตัวเลือก 1–5 เป็น A–E และเฉลยเป็น D malrotation with midgut volvulus",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 147",
+  "kimg": [
+   "fsk_p147",
+   "kp66b_5"
   ]
  },
  "MDCU66|RoB|39": {
-  "interp": "โจทย์เดียวกับ RoA X13 ของชุดนี้ — เลือดท่วมปากจมูก + ความดันต่ำหลังอุบัติเหตุ → ถามการจัดการ (ข้อนี้เก็บมุมเทคนิคการคุมทางเดินหายใจในใบหน้าหัก)",
-  "why": "<b>ลายมือ: protect airway, stop bleed</b><br><b>นอกสไลด์:</b> ทางเดินหายใจที่ปลอดภัยก่อน (ท่อทางปากมี cuff) แล้วห้ามเลือดไปพร้อมกับให้เลือด — ทีมทำพร้อมกันได้ แต่ถ้าต้องเลือกสิ่งแรกคือทางเดินหายใจ",
+  "interp": "อุบัติเหตุมอเตอร์ไซค์ <b>เลือดออกจากปากและจมูกมาก + ความดันต่ำ</b> ถามการจัดการที่เหมาะสม (ถามซ้ำกับ RoA)",
+  "why": "ตาม ATLS <b>Airway ก่อน</b> — เลือดท่วมช่องปากและจมูกเสี่ยงสำลัก → <b>ใส่ท่อช่วยหายใจ</b> ปกป้อง airway แล้วจึงห้ามเลือดและให้สารน้ำ/ เลือด · ไฟล์ขีด 2 ลายมือ <b>\"ป้องกัน airway · stop bleed\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยกระดูกเชิงกรานหักช็อก ใบหน้าไม่บาดเจ็บ พูดตอบได้ดี",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ากระดูกจมูกหักเลือดออกเล็กน้อย หายใจเองได้ดี พูดได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดกำเดาด้านหน้าไม่หยุดหลังบีบจมูก 10–15 นาที ในผู้ป่วยรู้สึกตัวดีความดันปกติ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าใส่ท่อและอุดจมูกหน้า–หลังแล้วเลือดยังออกต่อ และไม่มี angioembolization ให้ใช้ → ผ่าตัดห้ามเลือด/ผูก external carotid"
+   "A": "ให้สารน้ำเป็นขั้น C หลัง airway · จะถูกถ้าคำถามถามผู้ป่วยที่ airway ปลอดภัยแล้วยังช็อก",
+   "C": "Oxygen mask ไม่ป้องกันการสำลักเลือด · จะถูกถ้าคำถามถามผู้ป่วยหายใจเองได้ ไม่มีเลือดในทางเดินหายใจ",
+   "D": "Anterior packing อย่างเดียวไม่พอในเลือดออกจาก midface และทำหลังปกป้อง airway · จะถูกถ้าคำถามถาม anterior epistaxis ธรรมดา",
+   "E": "ผ่าตัดห้ามเลือดทำหลัง airway และเมื่อ packing/ embolization ไม่ได้ผล · จะถูกถ้าคำถามถามเลือดออกไม่หยุดหลัง packing ทั้งที่ airway ปลอดภัยแล้ว"
   },
-  "trap": "อุดจมูกด้านหน้าทำได้เร็วจึงอยากทำก่อน — แต่เลือดจากกระดูกใบหน้าหักมาจากด้านหลัง (สาขา maxillary artery) ไหลลงคอ อุดด้านหน้าอย่างเดียวไม่หยุดและไม่กันสำลัก",
+  "trap": "เห็นความดันต่ำแล้วให้สารน้ำก่อน (C ก่อน A)",
   "summary": [
-   "<b>นอกสไลด์:</b> ใส่ท่อในใบหน้าหักเลือดท่วม: RSI ทางปาก suction แรงสองสาย เตรียม video laryngoscope และชุด cricothyrotomy ไว้พร้อม"
+   "ATLS: A → B → C",
+   "เลือดในปาก/ จมูกมาก → ใส่ท่อ",
+   "ห้ามเลือด: anterior + posterior packing",
+   "ไม่หยุด → angioembolization/ ผูก external carotid",
+   "ลดกระดูกหักช่วยห้ามเลือด",
+   "ระวัง nasal intubation ใน midface fracture"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · โจทย์เดียวกับ RoA X13 · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'เลือดท่วมปาก → กันปอดก่อน (ETT)'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Airway and ventilatory management",
   "variants": [
-   "<b>นอกสไลด์:</b> LeFort II เลือดออกมาก ใส่ท่อและอุดจมูกแล้วยังออก → angioembolization (internal maxillary artery)",
-   "<b>นอกสไลด์:</b> ใบหน้าหักรุนแรงที่ต้องยึดขากรรไกรบน–ล่าง (MMF) ระหว่างผ่าตัด และใส่ท่อทางจมูกไม่ได้ → submental intubation หรือ tracheostomy"
+   "Le Fort II เลือดออกมาก → ETT → anterior + posterior packing",
+   "สงสัย cribriform plate หัก → ห้าม nasotracheal tube/ NG",
+   "Packing แล้วไม่หยุด → angioembolization"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 148 — ตัวพิมพ์: <b>39. ชายได้รับอุบัติเหตุจากมอเตอร์ไซ พบมี massive oral and nasal bleeding with hypotension What is the appopriate managment? — 1. Iv fluid 2. Endotracheal tube 3. Oxygen mask 4. Anterior nasal packing 5. set or for stop bleeding</b><br>ลายมือ: ขีด 2 (สีแดงและเส้นสีชมพู) เขียน \"ป้องกัน airway · stop bleed\"<br>ไฮไลต์: \"อุบัติเหตุจากมอเตอร์ไซ\" · \"massive oral and nasal bleeding with hypotension\" · \"appopriate managment\" · 2 (เหลือง)<br>ที่ปรับในเว็บ: เปลี่ยนตัวเลือก 1–5 เป็น A–E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 148",
+  "kimg": [
+   "fsk_p148",
+   "kp66b_39"
   ]
  }
 }
