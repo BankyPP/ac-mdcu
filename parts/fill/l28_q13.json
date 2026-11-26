@@ -1,0 +1,222 @@
+{
+ "111": {
+  "stem": "An 8-month-old has intermittent crying spells and suspected intussusception. What is the imaging study of choice?",
+  "opts": [
+   "Plain abdominal radiograph",
+   "Contrast-enhanced abdominal CT",
+   "Upper gastrointestinal contrast study",
+   "Abdominal MRI",
+   "Abdominal ultrasound"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 25 — ตัวพิมพ์: <b>Intussusception</b> · ป้าย <b>Plain abdominal x-ray</b>: <b>Dilated loops of small bowel in the right lower quadrant and a right upper quadrant soft tissue mass density in the vicinity of the transverse colon near the hepatic flexure</b> · ป้าย <b>Abdominal ultrasound</b>: <b>Target sign</b> · <b>Pseudokidney sign</b><br>รูปในสไลด์หน้า 25: ฟิล์ม PA decubitus (ป้าย R · SIDE UP · PA DECUB) ลูกศรชี้เงาก้อนในท้องขวา · US ภาพตัดขวางวงซ้อนกันเป็นเป้า (target sign) · US ภาพตามยาวรูปไต (pseudokidney sign)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p25"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 25 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "ทารก 8 เดือนร้องเป็นพัก สงสัย intussusception → ถามภาพถ่ายรังสีที่เลือกเป็นอันดับแรก",
+  "why": "<b>อัลตราซาวนด์ท้องเป็นการตรวจที่เลือก (imaging of choice)</b> สำหรับสงสัย intussusception: <b>ไวและจำเพาะสูงมาก (ราว 95–100%)</b> ไม่มีรังสี ทำข้างเตียงได้ ไม่ต้องให้ยานอนหลับ · ภาพตัดขวางเห็น <b>target sign</b> (วงซ้อนกันของผนังลำไส้ชั้นต่าง ๆ) ภาพตามยาวเห็น <b>pseudokidney sign</b> · ยังบอก<b>ชนิด (ileocolic/ ileoileal) lead point น้ำในช่องท้อง และเลือดไปเลี้ยง</b>ได้ · ผล US ปกติแทบตัด intussusception ออก · ฟิล์มท้องความไวต่ำ ใช้เสริมหาลมรั่ว · สไลด์หน้า 25 <b>Abdominal ultrasound</b>: <b>Target sign</b> · <b>Pseudokidney sign</b>",
+  "wrong": {
+   "A": "ฟิล์มท้องความไวต่ำ ปกติได้บ่อย ใช้เสริมหาลมรั่ว (ข้อห้าม enema) และลำไส้อุดตันมาก · จะถูกถ้าทารก intussusception ท้องแข็งทันทีหลังพยายามลดด้วยลม ต้องดูลมใต้กะบังลม",
+   "B": "CT ไวสูงแต่มีรังสีและมักต้องให้ยานอนหลับ ไม่ใช้เป็นภาพแรกในทารก · จะถูกถ้าวัยรุ่น 15 ปีปวดท้องเป็นพัก น้ำหนักลด สงสัย lymphoma เป็น lead point ต้องการ staging",
+   "C": "UGI study ใช้หา malrotation/ volvulus ดูตำแหน่ง duodenojejunal junction ไม่ใช่ intussusception ileocolic · จะถูกถ้าทารก 2 สัปดาห์อาเจียนน้ำดีทันที สงสัย malrotation",
+   "D": "MRI ไม่มีรังสีแต่ใช้เวลานาน ต้องให้ยานอนหลับในทารก ไม่ใช้ในภาวะเร่งด่วนนี้ · จะถูกถ้าเด็กโตปวดท้องเรื้อรังสงสัย Crohn disease ต้องดูลำไส้เล็กทั้งหมด (MR enterography)"
+  },
+  "trap": "เลือกฟิล์มท้องเพราะเป็นการตรวจแรกของลำไส้อุดตันทั่วไป — ใน intussusception US ไวกว่ามากและไม่มีรังสี ฟิล์มใช้เสริมหาลมรั่ว",
+  "summary": [
+   "US ท้อง = imaging of choice · ไว/ จำเพาะราว 95–100% · ไม่มีรังสี",
+   "Target sign (ตัดขวาง) · pseudokidney sign (ตามยาว)",
+   "US บอกชนิด · lead point · น้ำในช่องท้อง · เลือดไปเลี้ยง",
+   "US ปกติ → แทบตัด intussusception ออก",
+   "ฟิล์มท้อง: ความไวต่ำ ใช้หาลมรั่ว/ อุดตันมาก",
+   "CT/ MRI/ UGI ไม่ใช่ภาพแรก"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — สไลด์หน้า 25 ให้ทั้งฟิล์มท้องและ US พร้อม target/ pseudokidney sign แต่ไม่ได้บอกว่าอะไรเป็นภาพแรก · การใช้ US เป็นอันดับแรกและตัวเลขความไวมาจาก ESPR และตำรา (Holcomb)",
+  "mnemonic": "<b>'สงสัยลำไส้กลืนกัน: US ก่อน หาเป้า'</b>",
+  "guide": "ESPR guideline on paediatric intussusception (Pediatr Radiol 2026;56:260–268); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception",
+  "variants": [
+   "ทารกสงสัย intussusception แต่ไม่มีผู้ทำ US ที่ชำนาญนอกเวลา → ส่งต่อหรือใช้ฟิล์มร่วมการตรวจร่างกาย แล้วยืนยันด้วย US เร็วที่สุด",
+   "ทารก US ท้องปกติแต่ร้องเป็นพักต่อเนื่อง → ประเมินซ้ำและ US ซ้ำ (intussusception อาจเกิดเป็นช่วง)",
+   "เด็กโต US เห็นก้อนเนื้อตันที่หัว intussusception → lead point ผ่าตัด"
+  ]
+ },
+ "112": {
+  "stem": "A 10-month-old with episodic crying undergoes ultrasound. A transverse image of the right upper abdomen shows a 3.5-cm mass of concentric alternating hypoechoic and echogenic rings. What is this sign called?",
+  "opts": [
+   "Whirlpool sign",
+   "Target sign",
+   "Double duct sign",
+   "Keyboard sign",
+   "String sign"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 25 — ตัวพิมพ์: <b>Intussusception</b> · ป้าย <b>Plain abdominal x-ray</b>: <b>Dilated loops of small bowel in the right lower quadrant and a right upper quadrant soft tissue mass density in the vicinity of the transverse colon near the hepatic flexure</b> · ป้าย <b>Abdominal ultrasound</b>: <b>Target sign</b> · <b>Pseudokidney sign</b><br>รูปในสไลด์หน้า 25: ฟิล์ม PA decubitus (ป้าย R · SIDE UP · PA DECUB) ลูกศรชี้เงาก้อนในท้องขวา · US ภาพตัดขวางวงซ้อนกันเป็นเป้า (target sign) · US ภาพตามยาวรูปไต (pseudokidney sign)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p25"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 25 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "ทารก 10 เดือนร้องเป็นพัก US ภาพตัดขวางท้องขวาบนเห็นก้อน 3.5 cm เป็นวงซ้อนสลับ hypoechoic/ echogenic → ถามชื่อ sign",
+  "why": "ภาพ<b>ตัดขวาง</b>ของ intussusception เห็น<b>วงกลมซ้อนกันหลายชั้น (target/ doughnut sign)</b>: ขอบนอก hypoechoic คือผนังบวมของ intussuscipiens · ด้านในเป็นชั้น echogenic ของ mesentery/ ไขมันที่ถูกดึงเข้าไปสลับผนังของ intussusceptum · ขนาดมักราว 3–5 cm ตำแหน่งตามแนว colon (มักขวาบน) — เข้ากับ ileocolic · ถ้าก้อนเล็กกว่าราว 2.5 cm อยู่กลางท้อง และสั้น มักเป็น ileoileal ชั่วคราว · ภาพตามยาวของก้อนเดียวกันเป็น pseudokidney sign · สไลด์หน้า 25 <b>Abdominal ultrasound</b>: <b>Target sign</b> · <b>Pseudokidney sign</b>",
+  "wrong": {
+   "A": "Whirlpool sign คือ mesentery และหลอดเลือด SMV หมุนรอบ SMA บน Doppler = midgut volvulus · จะถูกถ้าทารก 3 สัปดาห์อาเจียนน้ำดี US เห็น SMV หมุนวนรอบ SMA",
+   "C": "Double duct sign คือท่อน้ำดีร่วมและท่อตับอ่อนขยายพร้อมกัน ชี้ก้อนที่หัวตับอ่อน/ ampulla ในผู้ใหญ่ · จะถูกถ้าผู้สูงอายุตัวเหลืองไม่ปวด CT เห็น CBD และ pancreatic duct ขยายทั้งคู่",
+   "D": "Keyboard sign คือ valvulae conniventes ของลำไส้เล็กที่โป่งน้ำบน US เหมือนแป้นพิมพ์ = ลำไส้เล็กอุดตัน · จะถูกถ้าเด็กหลังผ่าตัดอาเจียนน้ำดี US เห็นลำไส้เล็กโป่งน้ำมีลายแป้นพิมพ์",
+   "E": "String sign คือ pyloric channel ยาวแคบบน UGI ใน hypertrophic pyloric stenosis หรือ terminal ileum ตีบใน Crohn disease · จะถูกถ้าทารก 5 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี UGI เห็นช่อง pylorus เป็นเส้นแคบยาว"
+  },
+  "trap": "สับสน sign ของ US ในท้องเด็กที่ชื่อคล้ายกัน — วงซ้อนในภาพตัดขวาง = target (intussusception) · หมุนวนบน Doppler = whirlpool (volvulus)",
+  "summary": [
+   "Target sign = ภาพตัดขวาง intussusception: วงซ้อนสลับ hypoechoic/ echogenic",
+   "Pseudokidney sign = ภาพตามยาวของก้อนเดียวกัน",
+   "Ileocolic: ก้อนราว 3–5 cm ตามแนว colon (มักขวาบน)",
+   "Ileoileal ชั่วคราว: เล็กกว่าราว 2.5 cm สั้น กลางท้อง",
+   "Whirlpool = volvulus · keyboard = SBO · string = pyloric stenosis",
+   "US ไว/ จำเพาะสูง → imaging of choice"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — สไลด์หน้า 25 แสดงภาพ Target sign ตรง · ขนาดที่ใช้แยก ileocolic กับ ileoileal ชั่วคราวมาจาก ESPR และตำรา สไลด์ไม่ได้ระบุ",
+  "mnemonic": "<b>'ตัดขวางเป็นเป้า ตามยาวเป็นไต'</b>",
+  "guide": "ESPR guideline on paediatric intussusception (Pediatr Radiol 2026;56:260–268); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception",
+  "variants": [
+   "US ภาพตามยาวของก้อนเดียวกันเป็นรูปไต มีขอบ hypoechoic → pseudokidney sign",
+   "US เห็นวงซ้อนขนาด 1.5 cm กลางท้องในเด็ก 3 ปี ไม่มีอาการมาก → ileoileal ชั่วคราว US ซ้ำ",
+   "ทารก US เห็นวงซ้อนที่ RUQ มีถุงน้ำผนังสองชั้นอยู่ในก้อน → duplication cyst เป็น lead point"
+  ]
+ },
+ "113": {
+  "stem": "A 2-year-old has ileocolic intussusception confirmed by ultrasound. The examination also assesses features that affect the likelihood of successful enema reduction. Which finding is most associated with a lower chance of nonoperative reduction?",
+  "opts": [
+   "Absent color Doppler flow within the mass",
+   "Target sign on the transverse view",
+   "Pseudokidney sign on the longitudinal view",
+   "Location in the right upper quadrant",
+   "A mass diameter of about 3 cm"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 25 — ตัวพิมพ์: <b>Intussusception</b> · ป้าย <b>Plain abdominal x-ray</b>: <b>Dilated loops of small bowel in the right lower quadrant and a right upper quadrant soft tissue mass density in the vicinity of the transverse colon near the hepatic flexure</b> · ป้าย <b>Abdominal ultrasound</b>: <b>Target sign</b> · <b>Pseudokidney sign</b><br>รูปในสไลด์หน้า 25: ฟิล์ม PA decubitus (ป้าย R · SIDE UP · PA DECUB) ลูกศรชี้เงาก้อนในท้องขวา · US ภาพตัดขวางวงซ้อนกันเป็นเป้า (target sign) · US ภาพตามยาวรูปไต (pseudokidney sign)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p25"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 25 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็ก 2 ปียืนยัน ileocolic intussusception ด้วย US → ถามลักษณะบน US ที่บอกว่าลดด้วย enema สำเร็จยากขึ้น",
+  "why": "นอกจากยืนยันวินิจฉัย (target/ pseudokidney) US ยังบอก<b>ปัจจัยที่ทำนายว่าลดด้วย enema ยาก</b>: <b>ไม่มีเลือดไปเลี้ยงบน color Doppler</b> (ผนังขาดเลือด บวมมาก) · <b>trapped fluid</b> ระหว่างชั้นของ intussusceptum · <b>lead point</b> · น้ำในช่องท้องมาก/ มีตะกอน · อาการนานและอายุน้อยมาก · ปัจจัยเหล่านี้<b>ไม่ใช่ข้อห้าม</b>ถ้าเด็กคงที่และไม่มี peritonitis/ ลมรั่ว — ยังลองลดได้แต่ต้องเตรียมผ่าตัด · การเห็นเลือดไปเลี้ยงดีทำนายการลดสำเร็จสูง · สไลด์หน้า 25 <b>Abdominal ultrasound</b>: <b>Target sign</b> · <b>Pseudokidney sign</b>",
+  "wrong": {
+   "B": "Target sign คือภาพตัดขวางที่ใช้วินิจฉัย พบในเกือบทุกราย ไม่ได้ทำนายความสำเร็จ · ไม่มีสถานการณ์ใดที่ target sign เพียงอย่างเดียวบอกว่าลดด้วย enema ยากขึ้น",
+   "C": "Pseudokidney sign คือภาพตามยาวที่ใช้วินิจฉัย ไม่ได้ทำนายความสำเร็จ · ไม่มีสถานการณ์ใดที่ pseudokidney sign เพียงอย่างเดียวบอกว่าลดด้วย enema ยากขึ้น",
+   "D": "ขวาบนเป็นตำแหน่งทั่วไปของ ileocolic intussusception · ก้อนที่เลยไปถึง descending colon/ rectum (ยาวมาก) อาจลดยากกว่า · จะถูกถ้าทารกที่ก้อน intussusception ยาวไปถึง sigmoid หรือยื่นออกทางทวาร",
+   "E": "ขนาดราว 3 cm เป็นขนาดปกติของ ileocolic ไม่ใช่ตัวทำนายความล้มเหลว · ไม่มีสถานการณ์ใดที่ขนาด 3 cm เพียงอย่างเดียวบอกว่าลดด้วย enema ยากขึ้น"
+  },
+  "trap": "เลือก sign ที่ใช้วินิจฉัยเพราะจำได้จากสไลด์ — sign เหล่านั้นแค่ยืนยันว่ามีโรค ตัวทำนายลดยากคือเลือดไปเลี้ยงหาย trapped fluid และ lead point",
+  "summary": [
+   "ทำนายลดยาก: ไม่มีเลือดไปเลี้ยงบน Doppler · trapped fluid · lead point · น้ำในช่องท้องมาก · อาการนาน · ทารกเล็กมาก",
+   "ปัจจัยเหล่านี้ไม่ใช่ข้อห้าม — ลองลดได้ถ้าคงที่ ไม่มี peritonitis/ ลมรั่ว แต่เตรียมผ่าตัด",
+   "ข้อห้าม enema: ลมรั่ว · peritonitis · hypotension ที่ไม่ตอบสนองต่อสารน้ำ",
+   "Target/ pseudokidney sign ใช้วินิจฉัย ไม่ได้ทำนายความสำเร็จ",
+   "เลือดไปเลี้ยงดีบน Doppler → ลดสำเร็จสูง",
+   "Ileocolic ปกติราว 3–5 cm ขวาบน"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง-สูง — สไลด์หน้า 25 ให้เฉพาะ sign ที่ใช้วินิจฉัย · ปัจจัยทำนายความสำเร็จของ enema บน US มาจาก ESPR และตำรา (Holcomb) ข้อมูลแต่ละการศึกษายังต่างกันบ้าง",
+  "mnemonic": "<b>'Doppler ไม่มีสี = ลมดันยาก เตรียมห้องผ่าตัด'</b>",
+  "guide": "ESPR guideline on paediatric intussusception (Pediatr Radiol 2026;56:260–268); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception",
+  "variants": [
+   "ทารก US เห็น trapped fluid ในก้อน สัญญาณชีพคงที่ ไม่มี peritonitis → ยังลองลดด้วย air enema ได้ เตรียมผ่าตัดไว้",
+   "ทารก US เห็นก้อนเนื้อตันที่หัว → lead point ส่งผ่าตัด",
+   "ทารก US เห็นเลือดไปเลี้ยงดี อาการ 6 ชั่วโมง → โอกาสลดสำเร็จสูง ทำ air enema"
+  ]
+ },
+ "114": {
+  "stem": "A 9-month-old with ileocolic intussusception on ultrasound arrives with a heart rate of 180/min, cool extremities, and a blood pressure of 60/30 mmHg. After 40 mL/kg of isotonic fluid, his heart rate falls to 135/min and blood pressure is 85/50 mmHg. The abdomen is soft without peritoneal signs, and a radiograph shows no free air. What is the most appropriate next step?",
+  "opts": [
+   "Air enema reduction",
+   "Laparotomy because of the initial hypotension",
+   "CT to look for bowel ischemia",
+   "Observe for 24 hours, then repeat ultrasound",
+   "Diagnostic laparoscopy"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 26 — ตัวพิมพ์: <b>Intussusception</b> · <b>• Management • Non-operative: • NG decompression, IV fluid, air contrast enema if no contraindications (free intraperitoneal air, peritonitis, or hypotension refractory to resuscitation) • Operative: needed when nonoperative reduction is unsuccessful or incomplete, for signs of peritonitis, in the presence of a lead point, or with radiographic evidence of pneumoperitoneum</b><br>รูปในสไลด์หน้า 26: ภาพ 3 ภาพ (A–C): ฟิล์มท้องเห็นลำไส้เล็กโป่ง · fluoroscopy ระหว่าง air enema ลูกศรชี้หัวก้อน intussusception · ภาพหลังลดสำเร็จ ลมผ่านเข้าลำไส้เล็กจำนวนมาก<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p26"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 26 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "ทารก 9 เดือน intussusception มาด้วยช็อก ให้สารน้ำ 40 mL/kg แล้วชีพจรและความดันดีขึ้น ท้องนุ่ม ไม่มีลมรั่ว → ถามขั้นต่อไป · จุดหลอก: ความดันต่ำตอนแรกชวนให้ผ่าตัด แต่ข้อห้ามคือความดันต่ำที่ไม่ตอบสนองต่อสารน้ำ",
+  "why": "การรักษาแบบไม่ผ่าตัด: <b>NG decompression + IV fluid resuscitation</b> แล้ว<b>air (หรือ hydrostatic) enema</b> ภายใต้ภาพนำ ถ้าไม่มีข้อห้าม · ข้อห้ามมีสามข้อ: <b>ลมรั่วในช่องท้อง</b> · <b>peritonitis</b> · <b>hypotension ที่ไม่ตอบสนองต่อการให้สารน้ำ</b> · เด็กรายนี้ช็อกตอนแรกแต่<b>ตอบสนองต่อสารน้ำ</b> ท้องนุ่ม ไม่มีลมรั่ว → <b>ไม่มีข้อห้าม</b> ลด enema ได้ (สำเร็จราว 80–90% · ทะลุน้อยกว่า 1%) โดยมีศัลยแพทย์พร้อมและเตรียมเข็มเจาะลมกรณีทะลุ (tension pneumoperitoneum) · ความดันต่ำตอนแรกบอกว่าป่วยหนัก ต้อง resuscitate ให้ดีและเฝ้าระวัง แต่ไม่ใช่ข้อห้ามเมื่อตอบสนองแล้ว · สไลด์หน้า 26 <b>Non-operative: • NG decompression, IV fluid, air contrast enema if no contraindications (free intraperitoneal air, peritonitis, or hypotension refractory to resuscitation)</b>",
+  "wrong": {
+   "B": "ผ่าตัดเพราะความดันต่ำตอนแรกเป็นกับดัก — ข้อห้ามคือ hypotension ที่<b>ไม่ตอบสนอง</b>ต่อการให้สารน้ำ เด็กรายนี้ตอบสนองแล้ว · จะถูกถ้าทารกให้สารน้ำ 60 mL/kg แล้วยังความดันต่ำต้องใช้ยากระตุ้นความดัน หรือมี peritonitis",
+   "C": "CT หาลำไส้ขาดเลือดทำให้ล่าช้าและเพิ่มรังสีโดยไม่เปลี่ยนการรักษา — ภาวะขาดเลือดรุนแรงจะแสดงด้วย peritonitis หรือช็อกที่ไม่ตอบสนอง · ไม่มีสถานการณ์ใดที่ต้อง CT ก่อนลด intussusception ในทารกที่ไม่มีข้อห้าม",
+   "D": "รอ 24 ชั่วโมงเพิ่มโอกาสลำไส้ตายและทำให้ลดสำเร็จยากขึ้น · การรอแล้วลดซ้ำ (delayed repeat enema) ใช้หลังลดได้บางส่วนในเด็กคงที่ · จะถูกถ้าทารกลด air enema ได้บางส่วน สัญญาณชีพคงที่ ไม่มี peritonitis นัดลดซ้ำใน 30 นาที–2 ชั่วโมง",
+   "E": "ส่องกล้องวินิจฉัยไม่จำเป็นเมื่อวินิจฉัยได้แล้วด้วย US และไม่มีข้อห้าม enema · ส่องกล้องใช้ลดเมื่อ enema ล้มเหลว · จะถูกถ้าทารกลด air enema ไม่สำเร็จสองครั้ง สัญญาณชีพคงที่ → laparoscopic reduction"
+  },
+  "trap": "เห็นความดันต่ำตอนแรกแล้วเลือกผ่าตัด — ข้อห้ามคือความดันต่ำที่ไม่ตอบสนองต่อสารน้ำ · ตอบสนองแล้ว ท้องนุ่ม ไม่มีลมรั่ว = ลด enema ได้",
+  "summary": [
+   "Non-operative: NG decompression + IV fluid → air/ hydrostatic enema ภายใต้ภาพนำ",
+   "ข้อห้าม enema: ลมรั่ว · peritonitis · hypotension ไม่ตอบสนองต่อสารน้ำ",
+   "ช็อกที่ตอบสนองต่อสารน้ำ ≠ ข้อห้าม → resuscitate แล้วลดได้ เฝ้าระวังใกล้ชิด",
+   "Air enema สำเร็จราว 80–90% · ทะลุน้อยกว่า 1% → ศัลยแพทย์พร้อม เตรียมเข็มเจาะลม",
+   "ลดได้บางส่วน + คงที่ → delayed repeat enema",
+   "Enema ล้มเหลว → ผ่าตัด (ส่องกล้องหรือเปิด)"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — สไลด์หน้า 26 ระบุข้อห้ามเป็น hypotension refractory to resuscitation ตรง เด็กรายนี้ตอบสนองแล้ว · อัตราสำเร็จ/ ทะลุและการเตรียมเจาะลมมาจาก ESPR และตำรา (Holcomb)",
+  "mnemonic": "<b>'ช็อกแต่ฟื้นด้วยน้ำ = ยังเป่าลมได้'</b>",
+  "guide": "ESPR guideline on paediatric intussusception (Pediatr Radiol 2026;56:260–268); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception",
+  "variants": [
+   "ทารกระหว่าง air enema ท้องโป่งตึงทันที หายใจลำบาก ชีพจรตก → tension pneumoperitoneum เจาะเข็มระบายลมทันที แล้วผ่าตัด",
+   "ทารกให้สารน้ำ 60 mL/kg ยังความดันต่ำ → hypotension refractory ห้าม enema ผ่าตัด",
+   "ทารกลด air enema สำเร็จ ลมผ่านเข้าลำไส้เล็กจำนวนมาก → ให้กินได้เมื่อตื่นดี สังเกตอาการกลับเป็นซ้ำ"
+  ]
+ },
+ "115": {
+  "stem": "Five infants have ultrasound-confirmed ileocolic intussusception and are hemodynamically stable. Which additional finding is a contraindication to enema reduction?",
+  "opts": [
+   "Currant jelly stool on rectal examination",
+   "Symptoms for more than 48 hours",
+   "Dilated small bowel loops on radiograph",
+   "Free intraperitoneal air on radiograph",
+   "Age younger than 3 months"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 26 — ตัวพิมพ์: <b>Intussusception</b> · <b>• Management • Non-operative: • NG decompression, IV fluid, air contrast enema if no contraindications (free intraperitoneal air, peritonitis, or hypotension refractory to resuscitation) • Operative: needed when nonoperative reduction is unsuccessful or incomplete, for signs of peritonitis, in the presence of a lead point, or with radiographic evidence of pneumoperitoneum</b><br>รูปในสไลด์หน้า 26: ภาพ 3 ภาพ (A–C): ฟิล์มท้องเห็นลำไส้เล็กโป่ง · fluoroscopy ระหว่าง air enema ลูกศรชี้หัวก้อน intussusception · ภาพหลังลดสำเร็จ ลมผ่านเข้าลำไส้เล็กจำนวนมาก<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p26"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 26 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "ทารก intussusception สัญญาณชีพคงที่ ถามข้อใดเป็นข้อห้ามของการลดด้วย enema · จุดหลอก: ลักษณะที่ทำนายลดยากหลายข้อดูเหมือนข้อห้าม แต่ไม่ใช่",
+  "why": "ข้อห้ามของ enema reduction มี<b>สามข้อ</b>เท่านั้น: <b>ลมรั่วในช่องท้อง (free air = ลำไส้ทะลุแล้ว)</b> · <b>peritonitis</b> · <b>hypotension ที่ไม่ตอบสนองต่อสารน้ำ</b> — ทั้งสามแปลว่าลำไส้ตาย/ ทะลุ ต้อง<b>ผ่าตัด</b> · ลมรั่วทำให้การเป่าลมเพิ่มลมในช่องท้องจนเกิด tension pneumoperitoneum และหนองกระจาย · ส่วน<b>เลือดออกทางทวาร อาการนานเกิน 48 ชั่วโมง ลำไส้เล็กโป่งบนฟิล์ม และอายุน้อยกว่า 3 เดือน</b>เป็น<b>ปัจจัยที่ทำนายลดยากหรือทะลุง่ายขึ้น</b> แต่<b>ไม่ใช่ข้อห้าม</b> — ยังลองลดได้โดยระมัดระวังและเตรียมผ่าตัด · สไลด์หน้า 26 <b>Non-operative: • NG decompression, IV fluid, air contrast enema if no contraindications (free intraperitoneal air, peritonitis, or hypotension refractory to resuscitation)</b> · <b>Operative: … with radiographic evidence of pneumoperitoneum</b>",
+  "wrong": {
+   "A": "Currant jelly stool บอกว่ามีเยื่อบุขาดเลือดจากหลอดเลือดดำคั่ง แต่<b>ไม่ใช่ข้อห้าม</b> ถ้าไม่มี peritonitis/ ลมรั่ว/ ช็อกไม่ตอบสนอง · ไม่มีสถานการณ์ใดที่ currant jelly stool เพียงอย่างเดียวเป็นข้อห้ามของ enema",
+   "B": "อาการนานเกิน 48 ชั่วโมงทำนายลดยากและเสี่ยงทะลุมากขึ้น แต่<b>ไม่ใช่ข้อห้าม</b> · ไม่มีสถานการณ์ใดที่ระยะเวลาอาการเพียงอย่างเดียวห้าม enema ในทารกที่คงที่",
+   "C": "ลำไส้เล็กโป่งบนฟิล์มแสดงว่าอุดตันมาก ทำนายลดยากขึ้น แต่<b>ไม่ใช่ข้อห้าม</b> ให้ใส่ NG ดูดลมก่อน · ไม่มีสถานการณ์ใดที่ลำไส้เล็กโป่งเพียงอย่างเดียวห้าม enema",
+   "E": "อายุน้อยกว่า 3 เดือนพบน้อย เสี่ยงทะลุและมี lead point มากขึ้น แต่<b>ไม่ใช่ข้อห้าม</b> · ไม่มีสถานการณ์ใดที่อายุน้อยเพียงอย่างเดียวห้าม enema ในทารกที่คงที่"
+  },
+  "trap": "เลือกปัจจัยที่ฟังดูน่ากลัว (เลือดออก อาการนาน ลำไส้โป่ง อายุน้อย) — เป็นแค่ตัวทำนายลดยาก ข้อห้ามจริงมีสามข้อ: ลมรั่ว · peritonitis · ช็อกไม่ตอบสนอง",
+  "summary": [
+   "ข้อห้าม enema 3 ข้อ: free air · peritonitis · hypotension ไม่ตอบสนองต่อสารน้ำ → ผ่าตัด",
+   "ทำนายลดยาก/ เสี่ยงทะลุ (ไม่ใช่ข้อห้าม): เลือดออก · อาการเกิน 48 ชม. · ลำไส้เล็กโป่ง · อายุน้อยกว่า 3 เดือน · ไม่มีเลือดไปเลี้ยงบน Doppler",
+   "ลมรั่ว + เป่าลม → tension pneumoperitoneum · หนองกระจาย",
+   "ข้อบ่งชี้ผ่าตัด: ลดไม่สำเร็จ/ ไม่หมด · peritonitis · lead point · pneumoperitoneum",
+   "ก่อน enema: NG + IV fluid · ศัลยแพทย์พร้อม · เตรียมเข็มเจาะลม",
+   "ฟิล์มท้องก่อน enema ใช้หาลมรั่ว"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — สไลด์หน้า 26 ระบุข้อห้าม free intraperitoneal air, peritonitis, hypotension refractory to resuscitation ตรง และให้ pneumoperitoneum เป็นข้อบ่งชี้ผ่าตัด · ปัจจัยที่ไม่ใช่ข้อห้ามมาจาก ESPR และตำรา",
+  "mnemonic": "<b>'ห้ามเป่าลม = ลมรั่ว · ท้องแข็ง · ช็อกไม่ฟื้น'</b>",
+  "guide": "ESPR guideline on paediatric intussusception (Pediatr Radiol 2026;56:260–268); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception",
+  "variants": [
+   "ทารก intussusception อาการ 3 วัน ถ่ายเลือด ท้องนุ่ม คงที่ → ยังลอง air enema ได้ เตรียมผ่าตัด",
+   "ทารก intussusception ท้องแข็ง กดเจ็บทั่วท้อง ไข้ → peritonitis ห้าม enema ผ่าตัด",
+   "ทารก 2 เดือน intussusception คงที่ → ลด enema ได้ แต่คิดหา lead point มากขึ้น"
+  ]
+ }
+}
