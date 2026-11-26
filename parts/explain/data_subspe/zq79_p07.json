@@ -1,155 +1,266 @@
 {
  "MDCU79|RoD|CVT 10": {
-  "interp": "ปอดอักเสบร่วมน้ำในช่องเยื่อหุ้มปอด ผลน้ำยืนยัน empyema pH 6.9 ภาพยังไม่มี loculation · ถามการรักษา",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: C Intercostal drainage + IV ATB</b><br><b>นอกสไลด์:</b> pH ต่ำกว่า 7.2 หรือ empyema = ต้องระบายด้วยสายระบายทรวงอก (BTS 2023) ร่วมยาปฏิชีวนะทางหลอดเลือดคลุม anaerobe · ยาอย่างเดียวเข้าไม่ถึงหนองที่ขังอยู่",
+  "interp": "ผู้ป่วยปอดอักเสบมีน้ำในช่องเยื่อหุ้มปอด ผลน้ำยืนยัน <b>empyema</b> pH 6.9 ภาพยังไม่เป็นช่อง (non-loculated) → ถามการรักษาที่เหมาะสม",
+  "why": "<b>Complicated parapneumonic effusion/ empyema</b> = น้ำเป็นหนอง หรือ <b>pH &lt; 7.2</b>, glucose &lt; 60 mg/dL (3.3 mmol/L), LDH สูง หรือย้อม/ เพาะเชื้อพบเชื้อ → ยาปฏิชีวนะ<b>อย่างเดียวไม่พอ</b> ต้อง<b>ระบายออก</b> · ระยะ exudative/ fibrinopurulent ที่ยังไม่เป็นช่อง → <b>intercostal chest drain (ICD) + IV antibiotic</b> (ครอบคลุม anaerobe) · ถ้าระบายไม่หมด/ เป็นช่อง → ใส่ <b>intrapleural tPA + DNase</b> หรือ <b>VATS debridement</b> · ระยะ organizing (พังผืดหนาบีบปอด) → decortication · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"CVT 10 C\"</b> = Intercostal drainage + IV ATB ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น simple parapneumonic effusion (น้ำใส pH ≥ 7.2 Gram stain และเพาะเชื้อลบ ปริมาณน้อย)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นน้ำเยื่อหุ้มปอดจากมะเร็งที่กลับมาช้า ในผู้ป่วยที่อายุคาดเฉลี่ยสั้น",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น empyema ระยะ organizing ที่มีเปลือกหนาจนปอดขยายไม่ได้ หรือมี loculation ที่ระบายและให้ยาละลายแล้วไม่ได้ผล (เลือก VATS ก่อนถ้าทำได้)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นน้ำเยื่อหุ้มปอดเล็กน้อยหลังปอดอักเสบที่ผู้ป่วยดีขึ้นด้วยยา"
+   "A": "ยาปฏิชีวนะอย่างเดียวพอเฉพาะ simple parapneumonic effusion (pH > 7.2, glucose ปกติ, ไม่มีเชื้อ น้ำไม่มาก) · จะถูกถ้าเจาะน้ำได้ pH 7.35 glucose ปกติ ย้อมไม่พบเชื้อ",
+   "B": "เจาะดูดซ้ำ ๆ ระบายหนองข้นได้ไม่หมดและหนองสร้างใหม่ต่อเนื่อง ไม่ใช่มาตรฐานในผู้ใหญ่ · จะถูกถ้าเป็นน้ำปริมาณมากจากมะเร็งที่เจาะเพื่อบรรเทาอาการหอบ",
+   "D": "Thoracotomy + decortication ใช้กับระยะ organizing ที่มีเปลือกหนาบีบปอดไม่ให้ขยาย หรือเมื่อระบายและ VATS ไม่สำเร็จ ไม่ใช่ขั้นแรกในน้ำที่ยังไม่เป็นช่อง · จะถูกถ้า CT เห็นเยื่อหุ้มปอดหนาบีบปอดไม่ขยาย 6 สัปดาห์หลังติดเชื้อ ยังไข้",
+   "E": "Empyema ที่ไม่ระบายจะลุกลามเป็นพังผืด sepsis หรือทะลุผนังอก (empyema necessitans) · จะถูกถ้าน้ำเล็กน้อย &lt; 1 cm บนภาพด้านข้าง ไม่ต้องเจาะ"
   },
-  "trap": "pH ต่ำกว่า 7.2 ต้องระบายแม้น้ำยังไม่ขุ่นหรือยังไม่มี septation — รอจนเป็นหนองข้นหรือแบ่งช่องแล้วระบายยากขึ้นมาก",
+  "trap": "คิดว่ามียาปฏิชีวนะแล้วพอ — pH &lt; 7.2 หรือหนอง = ต้องระบาย",
   "summary": [
-   "<b>นอกสไลด์:</b> สายระบายขนาดเล็ก (ราว 12–14 Fr) ใช้ได้กับส่วนใหญ่ · ยาปฏิชีวนะคลุม anaerobe ราว 2–6 สัปดาห์ตามการตอบสนอง · ไม่ดีขึ้นใน 5–7 วัน → CT ดูตำแหน่งสายและ loculation → ยาละลายในช่องเยื่อหุ้มปอด (tPA + DNase) หรือ VATS"
+   "Simple parapneumonic: pH > 7.2 · glucose ปกติ · ไม่มีเชื้อ → ATB อย่างเดียว",
+   "Complicated/ empyema: pH &lt; 7.2 · glucose &lt; 60 · หนอง · เชื้อบวก → ICD + ATB",
+   "เป็นช่อง/ ระบายไม่หมด → intrapleural tPA + DNase หรือ VATS",
+   "Organizing (เปลือกหนา) → decortication",
+   "ATB ครอบคลุม anaerobe · ระยะเวลา 2–6 สัปดาห์",
+   "ระยะ: exudative → fibrinopurulent → organizing"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ BTS Pleural Disease Guideline 2023 · ต้นฉบับถาม \"definitive management\" จึงระบุใน stem ว่ายังไม่เป็นช่อง",
+  "mnemonic": "<b>'หนอง/ pH &lt; 7.2 = ใส่ท่อระบาย + ยา'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); AATS Expert Consensus Guidelines for the Management of Empyema (J Thorac Cardiovasc Surg 2017;153:e129)",
   "variants": [
-   "<b>นอกสไลด์:</b> empyema ในผู้ป่วย ICU ที่ใส่เครื่องช่วยหายใจนาน → ยาต้องคลุมเชื้อดื้อยาในโรงพยาบาล (เช่น A. baumannii)",
-   "<b>นอกสไลด์:</b> ระบาย empyema มา 3 สัปดาห์ ปอดยังไม่ขยาย มีลมรั่วต่อเนื่องในขวดระบาย → bronchopleural fistula: CT และส่องหลอดลม พิจารณาผ่าตัด"
+   "Parapneumonic effusion pH 7.35 glucose ปกติ → ATB อย่างเดียว",
+   "ใส่ ICD แล้วยังมีน้ำเป็นช่องค้าง ไข้ → intrapleural tPA + DNase หรือ VATS",
+   "6 สัปดาห์หลังติดเชื้อ เปลือกหนาบีบปอด → decortication"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 14 แถว CVT 10 — ตัวพิมพ์: <b>Fluid profile finding เป็น empyema thoracis pH 6.9 What is the definitive management? — ● A. IV Antibiotics ● B. Repeat Therapeutic thoracentesis ● C. Intercostal drainage + IV ATB ● D. Thoracotomy with decortication ● E. Observe และติดตาม CXR</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"CVT\" — \"1 D · 2 E · 3 A · 4 D · 5 B · 6 A · 7 A · 8 C · 9 B · 10 C · 11 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 14 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p14",
+   "ks79d_cvt"
   ]
  },
  "MDCU79|RoD|CVT 11": {
-  "interp": "CXR พบก้อนในปอด · ถามการตรวจถัดไป",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A CT chest and abdomen</b><br><b>นอกสไลด์:</b> CT ทรวงอกบอกลักษณะก้อน (ขนาด ความทึบ solid/subsolid ขอบ หินปูน) และ staging ไปพร้อมกัน — รวมช่องท้องส่วนบนเพื่อดูตับและต่อมหมวกไต",
+  "interp": "ฟิล์มทรวงอกเห็นก้อนในปอด → ถามการตรวจถัดไปที่เหมาะสมที่สุด",
+  "why": "ก้อนในปอดที่เห็นจาก CXR ขั้นต่อไปคือ <b>CT ทรวงอก (ฉีดสี) รวมช่องท้องส่วนบน (ตับ ต่อมหมวกไต)</b> เพื่อ (1) ยืนยันว่าเป็นก้อนจริงในปอด (2) ดู<b>ขนาด ขอบ ความหนาแน่น หินปูน</b> ประเมินความเสี่ยงมะเร็ง (3) ดูต่อมน้ำเหลือง mediastinum และการกระจายไปตับ/ ต่อมหมวกไตซึ่งเป็นตำแหน่งที่มะเร็งปอดไปบ่อย · ผลจะชี้ทางต่อ: เฝ้าดูตาม Fleischner, PET-CT, เจาะชิ้นเนื้อ หรือผ่าตัด · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"CVT 11 A\"</b> = CT chest and abdomen ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้า CT แล้วพบก้อนอยู่กลางใกล้หลอดลมใหญ่ หรือเห็นรอยโรคในหลอดลม",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเงานั้นน่าจะเป็นปอดอักเสบในผู้ป่วยที่มีไข้ ไอมีเสมหะ — รักษาแล้วถ่ายภาพซ้ำยืนยันว่าหาย",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าไอเรื้อรัง ไข้ต่ำ ๆ น้ำหนักลด เหงื่อออกกลางคืน และ CXR มีรอยโรคที่ปอดกลีบบนมีโพรง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็งปอดที่ CT/PET พบต่อมน้ำเหลืองใน mediastinum โต และ EBUS ผลลบแต่ยังสงสัย"
+   "B": "Bronchoscopy ได้ผลดีกับก้อนที่อยู่ส่วนกลาง (central) ใกล้หลอดลมใหญ่ ต้องรู้ตำแหน่งจาก CT ก่อน · จะถูกถ้า CT เห็นก้อนติดหลอดลมใหญ่ด้านขวาและต้องการชิ้นเนื้อ",
+   "C": "นัด CXR ซ้ำโดยไม่ได้ CT ไม่พอประเมินลักษณะก้อนและอาจทำให้วินิจฉัยมะเร็งช้า · จะถูกถ้า CXR เดิมเห็นเงาที่น่าจะเป็นปอดอักเสบ ให้ยาแล้วตามฟิล์มซ้ำ 6–8 สัปดาห์",
+   "D": "เสมหะ AFB ใช้เมื่อมีอาการ TB (ไอเรื้อรัง ไข้ น้ำหนักลด) หรือภาพเป็นโพรง ไม่ใช่ขั้นแรกของก้อนเดี่ยวไม่มีอาการ · จะถูกถ้าผู้ป่วยไอเรื้อรัง 3 สัปดาห์ ไข้ต่ำ เหงื่อออกกลางคืน CXR มีโพรงที่ปอดบน",
+   "E": "Mediastinoscopy ใช้ staging ต่อมน้ำเหลือง mediastinum หลังพบต่อมโตจาก CT/ PET · จะถูกถ้า CT/ PET เห็นต่อมน้ำเหลือง paratracheal โต ต้องยืนยันก่อนผ่าตัด"
   },
-  "trap": "ก่อนส่ง CT ให้เทียบภาพเก่าก่อน — ก้อน solid ที่ขนาดคงที่นาน 2 ปีถือว่าไม่ร้าย",
+  "trap": "ข้ามไปเจาะชิ้นเนื้อเลย — ต้องได้ CT ก่อนเพื่อรู้ลักษณะ ตำแหน่ง และการกระจาย",
   "summary": [
-   "<b>นอกสไลด์:</b> Fleischner (ก้อน solid ที่พบโดยบังเอิญในผู้ใหญ่): เล็กกว่า 6 mm ความเสี่ยงต่ำไม่ต้องติดตาม · 6–8 mm CT ซ้ำ 6–12 เดือน · ใหญ่กว่า 8 mm พิจารณา CT ซ้ำ 3 เดือน, PET-CT หรือชิ้นเนื้อ"
+   "ก้อนปอดจาก CXR → CT ทรวงอก + ช่องท้องส่วนบน",
+   "ลักษณะไม่ร้าย: หินปูนกระจาย/ popcorn/ ตรงกลาง · ขอบเรียบ · ไม่โตใน 2 ปี",
+   "ลักษณะร้าย: spiculated · โตเร็ว · > 8 mm · ส่วนบน · ผู้สูบบุหรี่",
+   "ประเมินต่อ: Fleischner (follow-up) · PET-CT · biopsy (CT-guided/ bronchoscopy) · ผ่าตัด",
+   "Staging ต่อมน้ำเหลือง: EBUS-TBNA หรือ mediastinoscopy",
+   "มะเร็งปอดกระจายบ่อย: สมอง · กระดูก · ตับ · ต่อมหมวกไต"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ NCCN NSCLC/ ACCP",
+  "mnemonic": "<b>'เห็นก้อนบนฟิล์ม = CT อกถึงตับและต่อมหมวกไต'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer v.2024; ACCP Evaluation of Individuals With Pulmonary Nodules (Chest 2013;143:e93S)",
   "variants": [
-   "<b>นอกสไลด์:</b> CT พบก้อน ground-glass ล้วนขนาด 10 mm → CT ซ้ำ 6–12 เดือนแล้วติดตามต่อหลายปี (มักโตช้า อาจเป็น adenocarcinoma ระยะแรก)",
-   "<b>นอกสไลด์:</b> ก้อนปอด 2 cm ร่วมก้อนที่ต่อมหมวกไต → เจาะชิ้นเนื้อก้อนต่อมหมวกไตก่อน ได้ทั้งการวินิจฉัยและระยะโรคที่สูงที่สุดในครั้งเดียว"
+   "CT เห็นก้อน 2 cm spiculated ต่อมน้ำเหลือง mediastinum โต → PET-CT + EBUS",
+   "CT เห็นก้อนมีหินปูนแบบ popcorn → hamartoma ไม่ต้องทำอะไรต่อ",
+   "ผู้ป่วยไอเรื้อรัง ไข้ CXR โพรงปอดบน → เสมหะ AFB/ Xpert"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 15 แถว CVT 11 — ตัวพิมพ์: <b>Chest X-ray เจอ lung nodule investigate ยังไงต่อ — 1. CT chest and abdomen 2. Bronchoscopy 3. C. Repeat CXR ใน 3 เดือน 4. D. Sputum AFB × 3 5. E. Mediastinoscopy</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"CVT\" — \"1 D · 2 E · 3 A · 4 D · 5 B · 6 A · 7 A · 8 C · 9 B · 10 C · 11 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 15 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p15",
+   "ks79d_cvt"
   ]
  },
  "MDCU79|RoD|Colo 1": {
-  "interp": "chronic anal fissure (แนวกลางด้านหลัง มีติ่งเนื้อเฝ้าและเห็นใยหูรูดภายใน) ปรับพฤติกรรมและแช่น้ำอุ่นแล้วดีขึ้นเล็กน้อย · ถามการรักษาขั้นต่อไป",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Topical NTG ointment</b><br><b>นอกสไลด์:</b> ยาทาคลายหูรูดลดความดันหูรูดภายใน เลือดไปเลี้ยงแผลมากขึ้นจนหายได้โดยไม่ต้องผ่าตัด — เป็นขั้นถัดจากใยอาหารและแช่น้ำอุ่น",
+  "interp": "ผู้ป่วยมี <b>chronic anal fissure</b> ที่แนวกลางด้านหลัง มี sentinel tag และเห็นใยกล้ามเนื้อหูรูดชั้นใน ปรับพฤติกรรมและแช่ก้นแล้วดีขึ้นเล็กน้อย → ถามการรักษาขั้นต่อไป",
+  "why": "Chronic fissure (> 6–8 สัปดาห์, sentinel tag, hypertrophied papilla, เห็น internal sphincter) เกิดจาก<b>หูรูดชั้นในเกร็ง</b>ทำให้เลือดไปเลี้ยงแผลน้อย · หลังปรับพฤติกรรม (ใยอาหาร น้ำ ยาระบาย แช่ก้น) ไม่ดีขึ้นพอ ขั้นต่อไปคือ<b>ยาคลายหูรูดเฉพาะที่ (chemical sphincterotomy)</b>: <b>topical nitroglycerin</b> หรือ <b>calcium channel blocker (diltiazem/ nifedipine)</b> ทา 6–8 สัปดาห์ หายราว 50–70% · ASCRS แนะนำ CCB ก่อนเพราะปวดศีรษะน้อยกว่า NTG · ยังไม่ดี → botulinum toxin หรือ <b>lateral internal sphincterotomy (LIS)</b> ซึ่งหายสูงสุด (> 90%) แต่เสี่ยงกลั้นไม่อยู่ · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 1 A\"</b> = Topical nitroglycerin (NTG) ointment ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ายาทาไม่ได้ผลหรือทนผลข้างเคียงไม่ได้ และผู้ป่วยต้องการเลี่ยงการตัดหูรูด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าใช้ยาทาคลายหูรูดเต็มที่แล้วไม่หาย หรือผู้ป่วยต้องการวิธีที่หายแน่นอนที่สุด และไม่มีความเสี่ยงกลั้นไม่อยู่",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การถ่างทวารด้วยมือแบบไม่ควบคุมเป็นการรักษาที่แนะนำ เพราะหูรูดฉีกไม่เป็นระเบียบและกลั้นไม่อยู่สูง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น chronic fissure ที่ความดันหูรูดต่ำหรือปกติ (เช่นหญิงหลังคลอด) ซึ่งการตัดหูรูดไม่ช่วยและเสี่ยงกลั้นไม่อยู่"
+   "B": "Botulinum toxin ใช้เมื่อยาทาไม่ได้ผล หรือเป็นทางเลือกก่อน LIS ในผู้เสี่ยงกลั้นไม่อยู่ ไม่ใช่ขั้นแรกหลังปรับพฤติกรรม · จะถูกถ้าทา NTG/ diltiazem ครบ 8 สัปดาห์แล้วไม่หาย และผู้ป่วยเป็นหญิงหลังคลอดหลายครั้งเสี่ยงกลั้นไม่อยู่",
+   "C": "LIS หายสูงสุดแต่มีความเสี่ยงกลั้นอุจจาระ/ ลมไม่อยู่ ใช้หลังยาทาไม่ได้ผล · จะถูกถ้าผู้ชายที่ไม่มีปัจจัยเสี่ยงกลั้นไม่อยู่ ทายาครบแล้วไม่หาย",
+   "D": "Manual anal dilatation ไม่ควบคุมการฉีกของหูรูด เสี่ยงกลั้นไม่อยู่สูง เลิกใช้แล้ว · จะถูกถ้าไม่มีสถานการณ์ปัจจุบันที่แนะนำ manual dilatation สำหรับ fissure",
+   "E": "Fissurectomy + advancement flap ใช้กับ fissure ที่หูรูด<b>ไม่เกร็ง</b> (ความดันต่ำ เช่น หลังคลอด) หรือดื้อต่อการรักษา · จะถูกถ้าหญิงหลังคลอดมี fissure เรื้อรังที่ manometry ความดันหูรูดต่ำ"
   },
-  "trap": "เห็น sentinel tag หรือใยหูรูด (chronic) แล้วข้ามไป LIS ทันที — ASCRS ให้ลองยาทาคลายหูรูดก่อน",
+  "trap": "กระโดดไปผ่าตัด LIS เพราะเป็น chronic — ขั้นแรกหลังปรับพฤติกรรมคือยาคลายหูรูดเฉพาะที่",
   "summary": [
-   "<b>นอกสไลด์:</b> ASCRS fissure: ใยอาหารและแช่น้ำอุ่น → ยาทาคลายหูรูด (NTG หรือ calcium channel blocker) 6–8 สัปดาห์ → botulinum toxin หรือ LIS",
-   "<b>นอกสไลด์:</b> ยาทาคลายหูรูดหาย chronic fissure ได้ราวครึ่งถึงสองในสาม แต่กลับเป็นซ้ำบ่อยกว่า LIS · LIS หายสูงสุดแลกกับกลั้นลมหรืออุจจาระเหลวไม่อยู่เล็กน้อย"
+   "Fissure: แนวกลางด้านหลังบ่อยสุด · ปวดมากเวลาถ่าย เลือดสดเล็กน้อย",
+   "Chronic: > 6–8 สัปดาห์ · sentinel tag · hypertrophied papilla · เห็น IAS",
+   "ด้านข้าง/ หลายแผล → สงสัย Crohn · TB · HIV · syphilis · มะเร็ง",
+   "ขั้นที่ 1: ใยอาหาร น้ำ แช่ก้น · ขั้นที่ 2: CCB/ NTG ทา 6–8 สัปดาห์",
+   "ขั้นที่ 3: botulinum toxin หรือ LIS (หายสูงสุด)",
+   "ผลข้างเคียง NTG: ปวดศีรษะ · LIS: กลั้นไม่อยู่"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ASCRS 2023 แนะนำ CCB เท่ากับหรือดีกว่า NTG แต่ CCB ไม่มีในช้อย",
+  "mnemonic": "<b>'Fissure: กินใย → ทายาคลายหูรูด → Botox → ตัดหูรูดด้านข้าง'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Dis Colon Rectum 2023;66:190)",
   "variants": [
-   "<b>นอกสไลด์:</b> fissure หายด้วยยาทาแล้วกลับเป็นซ้ำหลังหยุดยา → ทายาซ้ำ หรือพิจารณา LIS",
-   "<b>นอกสไลด์:</b> ทารกถ่ายอุจจาระแข็งมีเลือดสดติดอุจจาระ ตรวจพบแผลปริที่ทวาร → acute fissure: ปรับอาหารให้อุจจาระนุ่ม"
+   "Acute fissure 2 สัปดาห์ → ใยอาหาร น้ำ แช่ก้น ยาระบาย",
+   "ทา diltiazem 8 สัปดาห์ไม่หาย ชายไม่มีปัจจัยเสี่ยง → LIS",
+   "Fissure ด้านข้างหลายแผล ท้องเสียเรื้อรัง → ตรวจหา Crohn disease"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 15 แถว Colo 1 — ตัวพิมพ์: <b>รูป chronic fissure, lifestyle mod, sitz bath แล้วดีขึ้นน้อยทำไร — A. Topical nitroglycerin (NTG) ointment B. Botulinum toxin injection C. Lateral internal sphincterotomy (LIS) D. Manual anal dilatation E. Fissurectomy with advancement flap</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 15 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p15",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 2": {
-  "interp": "high transsphincteric fistula (ผ่านหูรูดภายนอกส่วนมาก) ไม่มีฝีขณะนี้ · ถามการรักษา",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: C Seton placement</b><br><b>นอกสไลด์:</b> ตัดเปิดทางที่ผ่านหูรูดสูงจะกลั้นไม่อยู่ → ใส่ loose seton ระบายและให้ทางแข็งตัว เก็บหูรูดไว้ แล้วจึงทำวิธีปิดทางที่เก็บหูรูด",
+  "interp": "ผู้ป่วย <b>high transsphincteric anal fistula</b> ไม่มีฝีขณะนี้ → ถามการรักษาที่เหมาะสม",
+  "why": "Fistula แบบ <b>high transsphincteric</b> ผ่านหูรูดภายนอก<b>เกินหนึ่งในสาม</b> (หรือ > 30%) · ถ้าทำ fistulotomy (เปิดตัดทั้งทาง) จะตัดหูรูดมากจน<b>กลั้นอุจจาระไม่อยู่</b> · จึงใช้<b>วิธีเก็บหูรูด</b> · <b>Seton</b> (สอดยาง/ ไหมผ่านทาง fistula) เป็นมาตรฐานขั้นแรก: <b>loose (draining) seton</b> ระบายหนองให้ทางสะอาด ป้องกันฝีกลับมา และเตรียมทางสำหรับการซ่อมขั้นต่อไป (LIFT, advancement flap) · cutting seton ค่อย ๆ ตัดผ่านหูรูดช้า ๆ ให้เกิดพังผืด · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 2 C\"</b> = Seton placement ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น fistula ต่ำ (intersphincteric หรือผ่านหูรูดภายนอกน้อยกว่าราว 30%) ในผู้ชายที่กลั้นปกติ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าใส่ seton จนทางแข็งตัวแล้ว และทางเดินเห็นชัดใน intersphincteric plane",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยกลั้นไม่ดีอยู่เดิม ต้องการวิธีที่ไม่ตัดหูรูดเลย และยอมรับว่าโอกาสหายต่ำ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทำในศูนย์เชี่ยวชาญที่ตัดเปิดทางพร้อมเย็บหูรูดคืนทันทีในผู้ที่กลั้นดี ไม่มี Crohn และไม่เคยฉายรังสี"
+   "A": "Fistulotomy เหมาะกับ low fistula (intersphincteric หรือ transsphincteric ส่วนล่าง &lt; 30% ของหูรูด) ใน high fistula เสี่ยงกลั้นไม่อยู่สูง · จะถูกถ้าเป็น intersphincteric fistula หรือ low transsphincteric ในชายที่หูรูดปกติ",
+   "B": "LIFT เป็นวิธีเก็บหูรูดที่ใช้ได้ดีกับ transsphincteric แต่มักทำ<b>หลังใส่ seton</b> ให้ทางเป็นพังผืดก่อน และต้องมีทางชัดเจน · จะถูกถ้าใส่ loose seton ไว้ 8–12 สัปดาห์ ทางเป็นพังผืดดีแล้ว",
+   "D": "Fibrin glue ปลอดภัยแต่หายต่ำ (~40%) ไม่ใช่การรักษาหลัก · จะถูกถ้าผู้ป่วยต้องการวิธีที่ไม่ตัดอะไรเลยและยอมรับโอกาสหายต่ำ",
+   "E": "Fistulectomy + ซ่อมหูรูดทันทีเสี่ยงแผลแยกและกลั้นไม่อยู่ ไม่ใช่มาตรฐานขั้นแรก · จะถูกถ้าไม่มีสถานการณ์ทั่วไปที่เลือกวิธีนี้ก่อน seton ใน high fistula"
   },
-  "trap": "cutting seton ไม่ใช่วิธีเก็บหูรูด — ค่อย ๆ ตัดผ่านหูรูดจนกลั้นไม่อยู่ได้ · seton ที่ใช้เก็บหูรูดคือแบบหลวม (loose/draining)",
+  "trap": "ตอบ fistulotomy เพราะเป็นวิธีที่หายสูงสุด — high fistula ตัดแล้วกลั้นไม่อยู่ ต้องเก็บหูรูด",
   "summary": [
-   "<b>นอกสไลด์:</b> ขั้นตอน complex fistula: ระบายฝี + loose seton (ราว 6–8 สัปดาห์ให้ทางแข็งตัว) → วิธีเก็บหูรูด: LIFT, endorectal advancement flap (กลั้นไม่อยู่ราว 7–13%), fistula plug หรือ fibrin glue (หายต่ำ)"
+   "Parks: intersphincteric (บ่อยสุด) · transsphincteric · suprasphincteric · extrasphincteric",
+   "Goodsall rule: รูเปิดหลังแนวขวาง → ทางโค้งไปเปิดที่แนวกลางด้านหลัง · หน้าแนวขวาง → ตรงเข้า",
+   "Low fistula → fistulotomy",
+   "High/ complex/ หญิงด้านหน้า/ Crohn → sphincter-preserving: seton · LIFT · advancement flap",
+   "มีฝี → I&D ก่อน ± loose seton",
+   "Crohn fistula → loose seton + anti-TNF"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (เฉลยย่อ) · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ ASCRS Anorectal Abscess/ Fistula Guideline 2022",
+  "mnemonic": "<b>'Fistula สูง = Seton ก่อน (เก็บหูรูด) · ต่ำ = เปิดตัด'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
   "variants": [
-   "<b>นอกสไลด์:</b> Crohn มี high transsphincteric fistula → loose seton ระยะยาวร่วมยา anti-TNF ไม่ทำ advancement flap ขณะยังอักเสบ",
-   "<b>นอกสไลด์:</b> ผ่าตัดแล้วหารูเปิดภายในไม่พบ → ฉีดน้ำเกลือหรือ hydrogen peroxide ทางรูเปิดภายนอก หรือทำ MRI ก่อนผ่าตัด"
+   "Intersphincteric fistula ในชาย หูรูดปกติ → fistulotomy",
+   "Crohn มี complex perianal fistula → loose seton + anti-TNF",
+   "ใส่ seton 3 เดือน ทางเป็นพังผืดดี → LIFT"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 15 แถว Colo 2 — ตัวพิมพ์: <b>ผู้ป่วยเป็น high transphincteric anal fistula ไม่มี active abscess ข้อใดเป็นการรักษาที่เหมาะสมที่สุด — A. Fistulotomy B. LIFT (ligation of intersphincteric fistula tract) C. Seton placement D. Fibrin glue injection E. Fistulectomy ร่วมกับ primary sphincter repair ทันที</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 15 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p15",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 3": {
-  "interp": "ริดสีดวงภายใน grade I เลือดออกไม่เจ็บหลังถ่ายเป็นครั้งคราว · ถามการจัดการเริ่มต้น",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B Lifestyle modification</b><br><b>นอกสไลด์:</b> ทุก grade เริ่มด้วยใยอาหาร น้ำ และเลี่ยงการเบ่งหรือนั่งส้วมนาน · grade I ตอบสนองดีจนส่วนใหญ่ไม่ต้องทำหัตถการ",
+  "interp": "ผู้ป่วย <b>internal hemorrhoid grade I</b> เลือดออกไม่เจ็บหลังถ่ายเป็นครั้งคราว → ถามการจัดการเบื้องต้น",
+  "why": "ริดสีดวงภายใน <b>grade I</b> (ไม่ยื่นออกนอกทวาร มีแต่เลือดออก) การรักษาขั้นแรกคือ <b>ปรับพฤติกรรม/ อาหาร</b>: <b>เพิ่มใยอาหาร 25–35 g/วัน</b> (ไฟเบอร์เสริม psyllium) ดื่มน้ำมาก ไม่เบ่งหรือนั่งถ่ายนาน (ไม่เล่นโทรศัพท์ในห้องน้ำ) ± ยาระบายนุ่ม แช่ก้น · ไฟเบอร์ลดเลือดออกได้ ~50% · ถ้าไม่ดีขึ้นจึงทำหัตถการในห้องตรวจ (rubber band ligation, sclerotherapy, infrared coagulation) · ผ่าตัดใช้กับ grade III–IV หรือที่ไม่ตอบสนอง · ต้องแยกมะเร็งลำไส้ด้วยการส่องกล้องในผู้มีความเสี่ยง (อายุ > 45–50 ปี มีอาการเตือน) · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 3 B\"</b> = Lifestyle modification ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น grade II–III หรือ grade I ที่ยังเลือดออกซ้ำแม้ปรับอาหารเต็มที่",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น grade I–II เลือดออกซ้ำในผู้ป่วยที่กินยาต้านการแข็งตัวของเลือด (เลี่ยงการรัดยางที่เลือดออกตอนปมหลุด)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น grade III–IV ที่มีอาการ หรือมีลิ่มเลือดยื่นค้าง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น grade III ที่ยื่นเป็นวงรอบ ไม่มีส่วนภายนอกมาก และต้องการปวดน้อยหลังผ่าตัด"
+   "A": "Rubber band ligation ใช้กับ grade I–III ที่ปรับพฤติกรรมแล้วไม่ดีขึ้น ไม่ใช่การรักษาแรก · จะถูกถ้า grade II ที่กินใยอาหารครบ 6 สัปดาห์แล้วยังเลือดออกบ่อย",
+   "C": "Sclerotherapy ใช้กับ grade I–II ที่ไม่ตอบสนองต่อการปรับพฤติกรรม โดยเฉพาะผู้กินยาต้านเกล็ดเลือด · จะถูกถ้า grade I เลือดออกต่อเนื่องแม้ปรับพฤติกรรม ในผู้กินยาต้านการแข็งตัวของเลือด",
+   "D": "Hemorrhoidectomy ใช้กับ grade III–IV, mixed หรือ thrombosed ที่ไม่ตอบสนอง ปวดมากหลังผ่าตัด ไม่ใช้กับ grade I · จะถูกถ้า grade IV ยื่นออกมาดันกลับไม่ได้ร่วมกับริดสีดวงภายนอก",
+   "E": "Stapled hemorrhoidopexy ใช้กับ grade III ที่เป็นรอบวง ไม่ใช่ grade I · จะถูกถ้า grade III ยื่นรอบวงที่ต้องดันกลับทุกครั้ง"
   },
-  "trap": "เลือดสดหลังถ่ายในผู้ใหญ่ไม่ควรสรุปว่าเป็นริดสีดวงทันที — อายุมาก ซีด หรือการถ่ายเปลี่ยน ต้องส่องกล้องหามะเร็ง",
+  "trap": "รีบทำหัตถการเพราะเห็นว่าเลือดออก — grade I เริ่มที่ใยอาหารเสมอ",
   "summary": [
-   "<b>นอกสไลด์:</b> ใยอาหาร 25–35 g/วัน (หรือ psyllium) ร่วมดื่มน้ำ ลดเลือดออกและอาการได้ราวครึ่ง · เลี่ยงเบ่งและนั่งส้วมนาน · flavonoid ช่วยช่วงกำเริบ"
+   "Grade I: เลือดออก ไม่ยื่น · II: ยื่นแล้วกลับเอง · III: ต้องดันกลับ · IV: ดันไม่กลับ",
+   "ทุก grade: ใยอาหาร น้ำ ไม่เบ่ง ไม่นั่งนาน",
+   "I–III ที่ไม่ดีขึ้น → rubber band ligation (มาตรฐานในห้องตรวจ)",
+   "III–IV/ mixed → excisional hemorrhoidectomy (ได้ผลถาวรที่สุด)",
+   "ห้ามรัด: ภูมิต่ำ · เลือดไม่แข็ง · ริดสีดวงภายนอก (มีเส้นประสาทรับความเจ็บ)",
+   "เลือดออกทางทวารในผู้ > 45–50 ปี/ มีอาการเตือน → colonoscopy แยกมะเร็ง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ ASCRS Hemorrhoid Guideline · ต้นฉบับมีเครื่องหมาย \"(?)\" หลัง grade I = ผู้จดไม่แน่ใจ grade",
+  "mnemonic": "<b>'ริดสีดวง grade I = ไฟเบอร์ก่อน รัดยางทีหลัง'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2018;61:284)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ไตรมาสสามมีริดสีดวงเลือดออก → ใยอาหาร น้ำ ยาทาบรรเทา เลื่อนหัตถการจนหลังคลอด",
-   "<b>นอกสไลด์:</b> ผู้ป่วยตับแข็งถ่ายเป็นเลือด ส่องพบหลอดเลือดขอดใน rectum → rectal varices จาก portal hypertension: รักษาแบบ varices ไม่ใช่แบบริดสีดวง"
+   "Grade II กินไฟเบอร์ 6 สัปดาห์ยังเลือดออก → rubber band ligation",
+   "Grade IV ร่วมกับริดสีดวงภายนอก → excisional hemorrhoidectomy",
+   "ชาย 60 ปีเลือดออกทางทวาร + น้ำหนักลด → colonoscopy ก่อนสรุปว่าเป็นริดสีดวง"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 16 แถว Colo 3 — ตัวพิมพ์: <b>Internal hemorrhoid grade I(?) management — 1. Rubber band ligation 2. Lifestyle modification 3. Sclerotherapy 4. Hemorroidectomy</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 16 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p16",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 4": {
-  "interp": "ถ่ายเป็นเลือดเรื้อรัง ส่องกล้องพบเยื่อบุอักเสบต่อเนื่องไม่มี skip ตั้งแต่ sigmoid ถึง descending colon · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B Ulcerative colitis</b><br><b>นอกสไลด์:</b> อักเสบต่อเนื่องเฉพาะเยื่อบุ ไม่มีรอยโรคเป็นหย่อม ร่วมถ่ายเป็นเลือดเรื้อรัง = UC (ชนิด left-sided)",
+  "interp": "ผู้ป่วยถ่ายเป็นเลือดเรื้อรัง ส่องกล้องเห็น<b>เยื่อบุอักเสบต่อเนื่องไม่มีช่วงเว้น</b>จาก sigmoid ถึง descending colon → ถามวินิจฉัย",
+  "why": "การอักเสบ<b>ต่อเนื่อง (continuous) ไม่มี skip lesion</b> จำกัดที่<b>ชั้นเยื่อบุ</b> ร่วมกับ<b>ถ่ายเป็นเลือดเรื้อรัง</b> = <b>ulcerative colitis</b> · UC เริ่มที่ rectum เสมอแล้วลามขึ้นไปต่อเนื่อง (ในภาพนี้ถึง descending = left-sided colitis) · ลักษณะส่องกล้อง: เยื่อบุแดง เปราะเลือดออกง่าย หลอดเลือดหาย แผลตื้น pseudopolyp · พยาธิ: crypt abscess, crypt distortion · ภาวะแทรกซ้อน: toxic megacolon, มะเร็งลำไส้ (ส่องกล้องเฝ้าระวังหลัง 8 ปี), primary sclerosing cholangitis · ผ่าตัด: total proctocolectomy + IPAA เมื่อดื้อยา มีมะเร็ง/ dysplasia หรือ toxic megacolon · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 4 B\"</b> = Ulcerative colitis ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าถ่ายเป็นเลือดเฉียบพลันไม่กี่วัน ร่วมไข้และปวดท้อง เพาะเชื้ออุจจาระขึ้น (เช่น Shigella, Campylobacter)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ารอยโรคเป็นหย่อม แผลลึกตามยาวแบบ cobblestone ไม่มีที่ rectum และมีโรครอบทวาร",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ารอยโรคอยู่ที่ ileocecal แผลตามขวาง ลิ้น ileocecal อ้า และชิ้นเนื้อพบ caseating granuloma",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผนังลำไส้หนาเป็นช่วงยาวหรือมีก้อนโดยเยื่อบุยังดี ร่วมไข้ น้ำหนักลด ต่อมน้ำเหลืองโต"
+   "A": "Infectious colitis เป็นเฉียบพลัน (ไม่กี่วัน-สัปดาห์) มีไข้ ประวัติอาหาร เพาะเชื้อพบ ไม่ใช่เรื้อรัง · จะถูกถ้าถ่ายเป็นมูกเลือด ไข้สูง 3 วันหลังกินอาหารทะเล เพาะเชื้อพบ Shigella",
+   "C": "Crohn มี skip lesion อักเสบทุกชั้น แผลลึกตามยาว cobblestone มักมี terminal ileum และ fistula · จะถูกถ้าส่องกล้องเห็นแผลเป็นช่วง ๆ เว้นเยื่อบุปกติ มี fistula รอบทวาร",
+   "D": "วัณโรคลำไส้ชอบ ileocecal region แผลแนวขวาง ไข้ต่ำ น้ำหนักลด พยาธิเป็น caseating granuloma · จะถูกถ้าคนไทยปวด RLQ น้ำหนักลด ส่องกล้องเห็นแผลขวางที่ ileocecal valve",
+   "E": "Lymphoma ลำไส้ใหญ่เป็นก้อนหรือผนังหนา มักที่ ileocecal ไม่ใช่การอักเสบต่อเนื่องของเยื่อบุ · จะถูกถ้า CT เห็นผนัง cecum หนามาก ต่อมน้ำเหลืองโตทั่วช่องท้อง"
   },
-  "trap": "UC เริ่มที่ rectum เสมอ (ยกเว้นได้ยาสวนทวารจน rectum ดูดีขึ้น) — โจทย์ไม่พูดถึง rectum แต่การอักเสบต่อเนื่องไม่มี skip ก็พอให้ตอบ UC",
+  "trap": "สับสน UC กับ Crohn — ต่อเนื่อง + เยื่อบุ + เริ่ม rectum = UC · skip + ทุกชั้น + ileum = Crohn",
   "summary": [
-   "<b>นอกสไลด์:</b> Montreal UC: E1 proctitis · E2 left-sided (ไม่เลย splenic flexure) · E3 extensive · เพิ่มความเสี่ยงมะเร็ง → เริ่มส่องเฝ้าระวัง 8 ปีหลังเริ่มมีอาการ (ยกเว้น proctitis)"
+   "UC: เริ่ม rectum ลามต่อเนื่อง · เยื่อบุ · ถ่ายเลือด · crypt abscess",
+   "Crohn: ปากถึงทวาร · skip · transmural · granuloma · fistula/ stricture",
+   "UC ภาวะแทรกซ้อน: toxic megacolon · มะเร็ง · PSC",
+   "ผ่าตัด UC: total proctocolectomy + IPAA (หายขาด)",
+   "ข้อบ่งชี้ผ่าตัด UC: ดื้อยา · dysplasia/ มะเร็ง · toxic megacolon · เลือดออกมาก · ทะลุ",
+   "ส่องกล้องเฝ้าระวังมะเร็งหลังเป็น 8 ปี"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ ต้นฉบับบอก no skip lesion ชัดเจน",
+  "mnemonic": "<b>'UC = Uninterrupted Continuous จาก rectum ขึ้นไป'</b>",
+  "guide": "ECCO Guidelines on Ulcerative Colitis (J Crohns Colitis 2022); ASCRS Clinical Practice Guidelines for the Surgical Management of Ulcerative Colitis (Dis Colon Rectum 2021;64:783)",
   "variants": [
-   "<b>นอกสไลด์:</b> UC กำเริบรุนแรง ไข้ ท้องอืด AXR เห็นลำไส้ใหญ่กว้างกว่า 6 cm → toxic megacolon: steroid ทางหลอดเลือด หยุดยาลดการเคลื่อนไหวลำไส้ ไม่ดีขึ้นใน 24–72 ชม. → colectomy",
-   "<b>นอกสไลด์:</b> ผู้ป่วย UC คัน ALP สูง → primary sclerosing cholangitis: MRCP และส่องกล้องเฝ้าระวังทุกปี"
+   "ส่องกล้องเห็นแผลเป็นช่วง ๆ cobblestone ที่ terminal ileum → Crohn disease",
+   "UC กำเริบรุนแรง ลำไส้ใหญ่โป่ง > 6 cm ไข้ ชีพจรเร็ว → toxic megacolon",
+   "UC 10 ปี ส่องกล้องพบ high-grade dysplasia → total proctocolectomy"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 16 แถว Colo 4 — ตัวพิมพ์: <b>Colonoscopy image with no skip lesion from Sigmoid to descending colon What is the diagnosis? — 1. Infectious colitis 2. Ulcerative colitis 3. Crohn's disease</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 16 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p16",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 5": {
-  "interp": "ส่องกล้องพบติ่งเนื้อจำนวนมากในลำไส้ใหญ่ + ตรวจตาพบ CHRPE · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A FAP</b><br><b>นอกสไลด์:</b> ติ่งเนื้อจำนวนมากร่วม congenital hypertrophy of the retinal pigment epithelium (CHRPE) เป็นเครื่องหมายนอกลำไส้ของ FAP (APC mutation)",
+  "interp": "ส่องกล้องพบ<b>ติ่งเนื้อจำนวนมาก</b>ในลำไส้ใหญ่ และตรวจตาพบ <b>CHRPE</b> → ถามวินิจฉัย",
+  "why": "Polyp จำนวนมาก (adenoma > 100 ตัวใน classic FAP) + <b>congenital hypertrophy of the retinal pigment epithelium (CHRPE)</b> = <b>familial adenomatous polyposis (FAP)</b> จาก<b>ยีน APC</b> (autosomal dominant) · CHRPE เป็นอาการนอกลำไส้ที่พบบ่อยและช่วยคัดกรองได้ · อาการนอกลำไส้อื่น: <b>Gardner syndrome</b> (osteoma, epidermoid cyst, desmoid tumor, ฟันเกิน) · <b>Turcot</b> (medulloblastoma) · duodenal/ periampullary adenoma (สาเหตุตายอันดับสองหลังมะเร็งลำไส้) · ความเสี่ยงมะเร็งลำไส้เกือบ 100% ภายในอายุ 40 ปี → <b>prophylactic colectomy</b> (total proctocolectomy + IPAA หรือ colectomy + IRA) ช่วงวัยรุ่นตอนปลาย-ผู้ใหญ่ตอนต้น · ญาติเริ่มส่องกล้องตั้งแต่ 10–12 ปี · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 5 A\"</b> = FAP ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าครอบครัวมีมะเร็งลำไส้ใหญ่และเยื่อบุโพรงมดลูกหลายคนตั้งแต่อายุน้อย ส่องพบติ่งเนื้อไม่กี่ติ่ง และก้อนมะเร็งขาด MMR protein",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กถ่ายเป็นเลือด ซีด และพบ juvenile polyp ในลำไส้ใหญ่ตั้งแต่ 5 ติ่งขึ้นไป",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามีจุดสีน้ำตาลดำที่ริมฝีปากและเยื่อบุปาก ร่วม hamartomatous polyp ในลำไส้เล็ก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามี adenoma ราว 10–100 ติ่ง ไม่มีประวัติครอบครัวแบบรุ่นต่อรุ่น และตรวจ APC ไม่พบ mutation"
+   "B": "Lynch syndrome มีติ่งเนื้อ<b>ไม่มาก</b> แต่เป็นมะเร็งเร็ว (ลำไส้ขวา) และมะเร็งเยื่อบุมดลูก/ รังไข่/ ท่อไต ไม่มี CHRPE · จะถูกถ้าครอบครัวมีมะเร็งลำไส้ 3 คนใน 2 รุ่น หนึ่งคนอายุ &lt; 50 ปี ตรวจพบ MSI-high",
+   "C": "Juvenile polyposis มี hamartomatous polyp (juvenile polyp) ≥ 5 ตัว เลือดออกในเด็ก ยีน SMAD4/ BMPR1A ไม่มี CHRPE · จะถูกถ้าเด็กมีเลือดออกทางทวาร ส่องกล้องเจอติ่งเนื้อ juvenile 10 ตัว",
+   "D": "Peutz-Jeghers มี hamartomatous polyp ในลำไส้เล็กเป็นหลัก + <b>จุดสีดำที่ริมฝีปาก/ เยื่อบุปาก</b> ลำไส้กลืนกันซ้ำ · จะถูกถ้าวัยรุ่นมีจุดสีน้ำตาลดำที่ริมฝีปาก ปวดท้องจาก intussusception",
+   "E": "MAP เป็น autosomal <b>recessive</b> มีติ่งเนื้อ adenoma 10–100 ตัว (attenuated) CHRPE พบน้อย · จะถูกถ้าพี่น้องเป็นแต่พ่อแม่ไม่เป็น มีติ่งเนื้อ 40 ตัว ตรวจยีน MUTYH พบสองอัลลีล"
   },
-  "trap": "CHRPE จุดเดียวข้างเดียวพบได้ในคนปกติ — ที่บ่งชี้ FAP คือหลายจุดหรือเป็นสองข้าง",
+  "trap": "สับสนกับ Lynch (มะเร็งในครอบครัวแต่ polyp น้อย) — polyp มาก + CHRPE = FAP",
   "summary": [
-   "<b>นอกสไลด์:</b> FAP: APC ถ่ายทอดแบบ autosomal dominant · adenoma หลายร้อยถึงพัน · นอกลำไส้: CHRPE, osteoma, epidermoid cyst, ฟันเกิน (Gardner), desmoid, adenoma ใน duodenum · ญาติตรวจยีน APC ถ้าบวกส่องทุกปีเริ่มอายุ 10–12 ปี"
+   "FAP: APC · autosomal dominant · adenoma > 100 · มะเร็งเกือบ 100% ภายใน 40 ปี",
+   "นอกลำไส้: CHRPE · osteoma · epidermoid cyst · desmoid · duodenal adenoma",
+   "Gardner = FAP + osteoma/ soft tissue tumor · Turcot = + brain tumor (medulloblastoma)",
+   "Prophylactic colectomy วัยรุ่นปลาย-ผู้ใหญ่ต้น · ส่องกล้องญาติตั้งแต่ 10–12 ปี",
+   "Lynch: MMR gene · polyp น้อย · มะเร็งลำไส้ขวา + มดลูก · Amsterdam criteria",
+   "Peutz-Jeghers: STK11 · hamartoma · จุดสีที่ปาก · intussusception"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ช้อย D ในต้นฉบับว่าง จึงแต่งเป็น Peutz-Jeghers",
+  "mnemonic": "<b>'Polyp เต็มลำไส้ + จุดที่จอตา (CHRPE) = FAP (APC)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Genetic/Familial High-Risk Assessment: Colorectal v.2024; ASCRS Clinical Practice Guidelines for the Management of Inherited Polyposis Syndromes (Dis Colon Rectum 2017;60:881)",
   "variants": [
-   "<b>นอกสไลด์:</b> FAP ที่ rectum มีติ่งไม่มาก → colectomy + ileorectal anastomosis แล้วส่อง rectum ที่เหลือเป็นระยะ",
-   "<b>นอกสไลด์:</b> หญิงสาวเป็น FAP คลำพบก้อนที่ไทรอยด์ → papillary thyroid carcinoma (ชนิด cribriform-morular)"
+   "ครอบครัวมีมะเร็งลำไส้หลายคน อายุน้อย polyp น้อย MSI-high → Lynch syndrome",
+   "วัยรุ่นจุดดำที่ริมฝีปาก ลำไส้กลืนกันซ้ำ → Peutz-Jeghers syndrome",
+   "ผู้ป่วย FAP มีก้อนแข็งที่ผนังหน้าท้องหลังผ่าตัด → desmoid tumor"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 16 แถว Colo 5 — ตัวพิมพ์: <b>Colocoscope เจอ polyps เยอะ เเละ Opthalmoscope เจอ CHRPE lesions — A. Familial adenomatous polyposis (FAP) B. Lynch syndrome C. Juvenile polyposis syndrome D. (ว่าง) E. MUTYH-associated polyposis</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 16 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p16",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 6": {
-  "interp": "เคยฉายรังสีต่อมลูกหมากหลายปีก่อน ตอนนี้ถ่ายเป็นเลือด ส่องพบ telangiectasia จำนวนมากที่เยื่อบุ rectum · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Radiation proctitis</b><br><b>นอกสไลด์:</b> รังสีทำให้หลอดเลือดเล็กในผนัง rectum อุดตันและเนื้อเยื่อขาดเลือดเรื้อรัง → เกิดหลอดเลือดฝอยใหม่ที่เปราะ (telangiectasia) เลือดออกง่าย เป็นได้หลายเดือนถึงหลายปีหลังฉาย",
+  "interp": "ผู้ป่วยเคยฉายรังสีต่อมลูกหมากหลายปีก่อน ตอนนี้ถ่ายเป็นเลือด ส่องกล้องเห็น<b>หลอดเลือดฝอยขยายจำนวนมาก (telangiectasia) ที่เยื่อบุ rectum</b> → ถามวินิจฉัย",
+  "why": "ประวัติ<b>ฉายรังสีอุ้งเชิงกราน</b> (ต่อมลูกหมาก ปากมดลูก) + เลือดออก + <b>telangiectasia ที่ rectum</b> = <b>chronic radiation proctitis</b> · รังสีทำลายหลอดเลือดเล็ก (obliterative endarteritis) → เยื่อบุขาดเลือด สร้างหลอดเลือดใหม่ที่เปราะ (telangiectasia) เลือดออกง่าย · มักเกิด<b>หลังฉายรังสี 6 เดือน–หลายปี</b> · รักษา: <b>sucralfate enema</b>, formalin เฉพาะที่, <b>argon plasma coagulation (APC)</b> ทางกล้อง (ได้ผลดี), hyperbaric oxygen ในรายดื้อ · หลีกเลี่ยงการตัดชิ้นเนื้อผนังด้านหน้า (เสี่ยงรูทะลุไป prostate/ กระเพาะ) · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 6 A\"</b> = Radiation proctitis ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุมีโรคหลอดเลือด ปวดท้องซ้ายเฉียบพลันแล้วถ่ายเป็นเลือด ส่องพบเยื่อบุบวมซีดเป็นช่วงที่ splenic flexure หรือ sigmoid โดย rectum ปกติ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุเลือดออกเป็นพัก ซีดขาดเหล็ก ส่องพบหลอดเลือดผิดปกติไม่กี่จุดที่ cecum หรือ ascending colon และไม่เคยฉายรังสี",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าคนหนุ่มสาวถ่ายเป็นมูกเลือด ปวดเบ่ง เยื่อบุ rectum อักเสบต่อเนื่องเปราะ โดยไม่เคยฉายรังสี",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดสดหยดหลังถ่าย ส่อง anoscope พบหลอดเลือดโป่งที่ 3, 7, 11 นาฬิกาเหนือ dentate line"
+   "B": "Ischemic colitis มักเป็นที่ splenic flexure/ sigmoid (watershed) ในผู้สูงอายุที่มีโรคหลอดเลือด ปวดท้องเฉียบพลันแล้วถ่ายเป็นเลือด rectum มักรอดเพราะเลือดมาเลี้ยงสองทาง · จะถูกถ้าผู้สูงอายุปวดท้องซ้ายฉับพลันแล้วถ่ายเลือด ส่องกล้องเห็นเยื่อบุบวมคล้ำที่ splenic flexure",
+   "C": "Angiodysplasia เป็นหลอดเลือดผิดปกติจากความเสื่อม พบที่<b>ลำไส้ขวา (cecum)</b> ในผู้สูงอายุ ไม่มีประวัติฉายรังสี · จะถูกถ้าผู้สูงอายุเลือดออกเป็นพัก ๆ ซีด ส่องกล้องเห็นจุดหลอดเลือดแดงที่ cecum",
+   "D": "Ulcerative proctitis เป็น UC ที่จำกัดที่ rectum เยื่อบุอักเสบแดง เปราะ เป็นแผล ไม่ใช่ telangiectasia หลังฉายรังสี · จะถูกถ้าคนอายุ 25 ปีถ่ายมูกเลือด ปวดเบ่ง ส่องกล้องเยื่อบุ rectum อักเสบต่อเนื่อง",
+   "E": "ริดสีดวงทำให้เลือดสดหยดหลังถ่าย ส่องกล้องเห็นหลอดเลือดโป่งที่ anal canal ไม่ใช่ telangiectasia กระจายบนเยื่อบุ rectum · จะถูกถ้าเลือดสดหยดหลังถ่าย ไม่เจ็บ anoscopy เห็นริดสีดวงภายใน grade II"
   },
-  "trap": "ระวังการตัดชิ้นเนื้อผนังด้านหน้าของ rectum ที่ฉายรังสีแล้ว — แผลหายยากและเสี่ยงเกิดรูทะลุ",
+  "trap": "เห็นเลือดออกในผู้สูงอายุแล้วตอบ angiodysplasia — ประวัติฉายรังสีอุ้งเชิงกราน + rectum = radiation proctitis",
   "summary": [
-   "<b>นอกสไลด์:</b> รักษา chronic radiation proctitis ที่เลือดออก: argon plasma coagulation เป็นหลัก · formalin ทาเฉพาะที่ · sucralfate สวน · hyperbaric oxygen ในรายดื้อ · ผ่าตัดเมื่อตีบหรือมีรูทะลุ"
+   "Radiation proctitis: หลังฉายรังสีอุ้งเชิงกราน (ต่อมลูกหมาก ปากมดลูก)",
+   "Acute: ระหว่าง/ ภายใน 3 เดือน ท้องเสีย ปวดเบ่ง หายเอง",
+   "Chronic: 6 เดือน–ปี · telangiectasia · เลือดออก · ตีบ · fistula",
+   "รักษา: sucralfate enema · formalin · APC (ได้ผลดี) · HBO",
+   "หลีกเลี่ยง biopsy ผนังหน้า rectum หลังฉายรังสีต่อมลูกหมาก",
+   "Angiodysplasia: cecum ผู้สูงอายุ · Ischemic colitis: splenic flexure/ sigmoid"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์",
+  "mnemonic": "<b>'เคยฉายรังสีอุ้งเชิงกราน + เส้นเลือดฝอยที่ rectum = Radiation proctitis'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Treatment of Chronic Radiation Proctitis (Dis Colon Rectum 2018;61:1135)",
   "variants": [
-   "<b>นอกสไลด์:</b> ระหว่างฉายรังสีสัปดาห์ที่ 2 ถ่ายบ่อย ปวดเบ่ง มีมูก → acute radiation proctitis: รักษาตามอาการ มักหายหลังจบรังสี",
-   "<b>นอกสไลด์:</b> หลังฉายรังสีมะเร็งปากมดลูก 3 ปี มีอุจจาระออกทางช่องคลอด → rectovaginal fistula"
+   "ผู้สูงอายุเลือดออกเป็นพัก ส่องกล้องเห็นจุดหลอดเลือดที่ cecum → angiodysplasia",
+   "Radiation proctitis เลือดออกต่อเนื่องแม้ sucralfate enema → argon plasma coagulation",
+   "ผู้สูงอายุปวดท้องซ้ายฉับพลันแล้วถ่ายเลือด หลังผ่าตัด aorta → ischemic colitis"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 16 แถว Colo 6 — ตัวพิมพ์: <b>ผู้ป่วยเคยได้รับ radiotherapy ที่ต่อมลูกหมากเมื่อหลายปีก่อน ครั้งนี้มาด้วย GI bleeding ส่องกล้อง colonoscopy พบ telangiectasia เป็นจำนวนมากที่ rectal mucosa การวินิจฉัยคือข้อใด — A. Radiation proctitis B. Ischemic colitis C. Angiodysplasia D. Ulcerative proctitis E. Hemorrhoidal bleeding</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 16 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p16",
+   "ks79d_colo"
   ]
  }
 }
