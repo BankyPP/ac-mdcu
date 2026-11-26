@@ -1,192 +1,332 @@
 {
  "MDCU67|RoD|1": {
-  "interp": "ข้อ NOT: ข้อใดไม่ใช่กายวิภาคของ colon (แยกกับ rectum)",
-  "why": "<b>คีย์: ขีด b + ลายมือ transverse fold of rectum · d ascending &amp; descending retroperitoneal</b><br><b>นอกสไลด์:</b> valves of Houston คือรอยพับขวางของเยื่อบุใน rectum (มักมีสามอัน) ไม่ใช่โครงสร้างของ colon",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>กายวิภาคของ <b>colon</b>",
+  "why": "<b>Valves of Houston</b> = <b>transverse folds ของ rectum</b> (3 แผ่น) ไม่ใช่ลักษณะของ colon → B · ลักษณะของ colon: <b>taeniae coli</b> (แถบกล้ามเนื้อตามยาว 3 แถบ) · <b>haustra</b> · <b>appendices epiploicae</b> · เลือดจาก <b>SMA (midgut) และ IMA (hindgut)</b> · มีทั้ง<b>ส่วน retroperitoneal (ascending, descending)</b> และ<b>intraperitoneal (transverse, sigmoid)</b> · ไฟล์ขีด b ลายมือ <b>\"= transverse fold of rectum\"</b> · d <b>\"ascending &amp; descending\"</b> · ✓ ที่ a, c, d และแปะสไลด์ Arterial supply, colon (flexures, paracolic gutters) และภาพส่องกล้องแสดง rectal valves",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"taeniae coli เป็นกายวิภาคของ colon\" ผิด เพราะกล้ามเนื้อตามยาวของ colon รวมเป็นสามแถบตลอดตั้งแต่ cecum ถึง sigmoid",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"colon ได้เลือดจาก SMA และ IMA\" ผิด เพราะ cecum ถึงราวสองในสามของ transverse ได้จาก SMA ที่เหลือถึง sigmoid ได้จาก IMA",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"colon มีทั้งส่วน retroperitoneal และ intraperitoneal\" ผิด เพราะ ascending และ descending ติดผนังหลัง ส่วน transverse และ sigmoid มี mesentery",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"haustra และ appendices epiploicae เป็นของ colon\" ผิด เพราะทั้งสองเกิดจากผนัง colon ที่ taeniae ดึงให้เป็นกระเปาะ และติ่งไขมันที่เกาะตามแถบ"
+   "A": "Taeniae coli เป็นลักษณะของ colon (ลายมือ ✓) · จะถูกถ้าคำถามถามลักษณะที่ rectum ไม่มี (taeniae รวมเป็นชั้นกล้ามเนื้อตามยาวรอบ rectum)",
+   "C": "Colon ได้เลือดจาก SMA และ IMA (ลายมือ ✓) · จะถูกถ้าข้อความว่าได้เลือดจาก celiac trunk",
+   "D": "Ascending/ descending เป็น retroperitoneal · transverse/ sigmoid intraperitoneal (ลายมือ ✓) · จะถูกถ้าข้อความว่าอยู่ intraperitoneal ทั้งหมด",
+   "E": "Haustra และ appendices epiploicae เป็นลักษณะของ colon · จะถูกถ้าคำถามถามลักษณะของลำไส้เล็ก"
   },
-  "trap": "คิดว่า haustra และ appendices epiploicae มีตลอดถึงไส้ตรง — ที่ rectosigmoid junction taeniae แผ่เป็นชั้นกล้ามเนื้อตามยาวรอบวง ไส้ตรงจึงไม่มีทั้ง taeniae, haustra และ appendices",
+  "trap": "คิดว่า valves of Houston อยู่ใน colon",
   "summary": [
-   "<b>นอกสไลด์:</b> จุดอ่อนเรื่องเลือดเลี้ยง: splenic flexure (Griffiths point) อยู่รอยต่อระหว่าง SMA กับ IMA และ rectosigmoid (Sudeck point) อยู่รอยต่อระหว่าง sigmoid artery กับ superior rectal artery จึงขาดเลือดง่ายเมื่อความดันต่ำ"
+   "Colon: taeniae coli · haustra · appendices epiploicae",
+   "Rectum: ไม่มี taeniae/ haustra · valves of Houston 3 แผ่น",
+   "Retroperitoneal: ascending · descending · rectum (บางส่วน)",
+   "Intraperitoneal: cecum (ส่วนใหญ่) · transverse · sigmoid",
+   "Hepatic flexure ~T9–T10 · splenic flexure ยึด phrenicocolic ligament",
+   "Watershed: splenic flexure (Griffiths) · rectosigmoid (Sudeck)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Houston อยู่ใน Rectum · Colon มี TEH (Taeniae · Epiploicae · Haustra)'</b>",
+  "guide": "Gray's Anatomy 42nd ed. (2020) — Large intestine",
   "variants": [
-   "<b>นอกสไลด์:</b> ปวดท้องซ้ายล่างเฉพาะที่ CT เห็นก้อนไขมันรูปไข่มีขอบวงแหวนติดผนัง sigmoid → epiploic appendagitis: ยาแก้ปวด หายเอง ไม่ต้องผ่าตัด",
-   "<b>นอกสไลด์:</b> ผ่าตัดหาไส้ติ่งไม่เจอ → ไล่ตามแถบ taeniae coli ของ cecum ไปจุดที่สามแถบมาบรรจบกันที่ฐานไส้ติ่ง"
+   "ผ่าตัดหาลำไส้ใหญ่ดูจาก taeniae coli/ appendices epiploicae",
+   "ภาพส่องกล้อง rectum เห็นรอยพับขวาง → valves of Houston",
+   "ischemic colitis ที่ splenic flexure → watershed"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 136 — หน้า 135 หัวเรื่อง <b>MDCU67 R4</b> · หน้า 136 หัวเรื่อง AC SURGERY SUBSPECIALTY 4/2557 · ตัวพิมพ์: <b>1. ข้อใดไม่ใช่ Anatomy ของ Colon — a. Tenea coli b. Valve of hauston c. Supply by IMA &amp; SMA d. อยู่ทั้ง retroperitoneal &amp; intraperitoneal</b><br>ลายมือ: a ✓ · ขีด b + \"= transverse fold of rectum\" · c ✓ · d \"ascending &amp; descending\" ✓<br>ไฮไลต์: \"ไม่ใช่ Anatomy ของ Colon\" · a, c, d (ส้ม) · b (เหลือง)<br>รูปที่แปะ: ① ภาพ Arterial supply (2 systems: SMA and IMA · Transitional zone at splenic flexure) ② ภาพ colon — Hepatic (right colic) flexures T9-T10 · Splenic (left colic) flexures — Phrenicocolic ligament · Paracolic gutters — Peritoneal fold along and lateral to ascending and descending colon (ลายมือ \"retroperitoneal\") ③ ภาพส่องกล้อง rectum มีลูกศรชี้รอยพับ<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Haustra and appendices epiploicae)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 136",
+  "kimg": [
+   "fsk_p136",
+   "kp67d_1"
   ]
  },
  "MDCU67|RoD|2": {
-  "interp": "SCC ของ anal canal 3 cm ลุกต่อมลูกหมาก (T4) ไม่บอกการแพร่กระจาย → ถามการรักษา",
-  "why": "<b>คีย์ลายมือ: ขีด e + Sx pelvic organ exenteration · ตรวจคีย์แล้วตอบ B</b><br><b>นอกสไลด์:</b> SCC ของ anal canal ตอบสนองต่อเคมีร่วมรังสีดีมาก การรักษาหลักของโรคที่ไม่แพร่กระจายทุกระยะ รวม T4 ที่ลุกต่อมลูกหมาก คือ definitive chemoradiation ซึ่งหายขาดได้และเก็บทวารไว้ การผ่าตัดใหญ่เก็บไว้เป็นการรักษาซ้ำ (salvage)",
+  "interp": "<b>มะเร็งทวารหนักชนิด SCC</b> ขนาด 3 cm <b>ลุกลามต่อมลูกหมาก</b> → ถามการรักษา",
+  "why": "<b>Anal canal SCC ทุกระยะที่ยังไม่กระจาย (รวม T4 ที่ลุกลามอวัยวะข้างเคียง)</b> รักษาหลักด้วย <b>chemoradiation (Nigro protocol: 5-FU + mitomycin C + RT)</b> — อัตราหายสูงและเก็บหูรูดได้ · ผ่าตัด (APR/ pelvic exenteration) เป็น <b>salvage</b> เมื่อโรคเหลือ/ กลับเป็นซ้ำหลัง CRT · คีย์ในไฟล์ขีด <b>e (pelvic exenteration)</b> ลายมือ <b>\"Sx pelvic organ ออกหมด\"</b> เครื่องหมายคำพูดที่ <b>\"involve prostate\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ฝังแร่อย่างเดียวเป็นการรักษา anal canal SCC ที่ลุกต่อมลูกหมาก เพราะรังสีฝังแร่ครอบคลุมเฉพาะรอบแหล่งแร่ ไม่ครอบคลุมต่อมน้ำเหลืองในอุ้งเชิงกรานและขาหนีบ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย anal canal SCC ที่ไม่ลุกอวัยวะข้างเคียง (เช่น T2) ยังมีก้อนเหลือเมื่อประเมินราว 26 สัปดาห์หลังครบ chemoradiation หรือกลับเป็นซ้ำเฉพาะที่ — salvage APR",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ LAR เป็นการรักษา anal canal SCC เพราะก้อนอยู่ในช่องทวาร การตัดต่อแบบเก็บหูรูดได้ขอบล่างไม่พอ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งไส้ตรงชนิด adenocarcinoma ที่ลุกต่อมลูกหมากหรือกระเพาะปัสสาวะ ไม่แพร่กระจาย หลังได้ neoadjuvant therapy แล้ว — pelvic exenteration เพื่อให้ได้ขอบปลอดมะเร็ง"
+   "A": "Brachytherapy อย่างเดียวไม่ใช่การรักษามาตรฐาน · จะถูกถ้าคำถามถาม boost หลัง external beam ในบางศูนย์",
+   "C": "APR ใช้เป็น salvage หลัง CRT ล้มเหลว · จะถูกถ้าก้อนยังเหลือ 6 เดือนหลัง CRT ครบ",
+   "D": "LAR ใช้กับ rectal adenocarcinoma ส่วนกลาง/ บน ไม่ใช้กับ anal canal · จะถูกถ้าเป็น rectal cancer ห่าง anal verge 10 cm",
+   "E": "Pelvic exenteration (คีย์ในไฟล์) เป็น salvage เมื่อ CRT ไม่ได้ผล/ กลับเป็นซ้ำและลุกลามอวัยวะข้างเคียง · จะถูกถ้าโรคยังคงอยู่หลัง CRT และลุกลามต่อมลูกหมาก/ กระเพาะปัสสาวะ"
   },
-  "trap": "ตอบ APR หรือ exenteration เพราะก้อนลุกอวัยวะข้างเคียงแบบ adenocarcinoma ของไส้ตรง — SCC ของ anal canal ไวต่อรังสีและเคมีมาก แม้ T4 ก็เริ่มด้วย chemoradiation",
+  "trap": "เห็นลุกลามอวัยวะข้างเคียงแล้วผ่าตัดใหญ่ทันที — anal SCC ตอบสนองดีต่อ CRT",
   "summary": [
-   "<b>นอกสไลด์:</b> Nigro regimen: 5-FU (หรือ capecitabine) + mitomycin C ร่วมรังสีราว 45–59 Gy คลุมก้อน ต่อมน้ำเหลืองในอุ้งเชิงกรานและขาหนีบ · ก้อนยุบช้า ตัดสินว่าไม่ตอบสนองเมื่อราว 26 สัปดาห์ · ตรวจ HIV ทุกราย"
+   "Anal canal SCC: HPV · HIV · CRT เป็นหลัก (ทุก T)",
+   "Nigro: 5-FU + mitomycin C + RT",
+   "ประเมินผลที่ 26 สัปดาห์ก่อนตัดสินว่าเหลือ",
+   "Salvage: APR (± exenteration ถ้าลุกลาม)",
+   "Anal margin T1 เล็ก → local excision",
+   "Rectal adenocarcinoma ต่างจาก anal SCC: neoadjuvant CRT → TME"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ลายมือ E (pelvic exenteration) — ตอบ B chemoradiation ตาม NCCN Anal Carcinoma และ ESMO: แม้ T4 ก็ใช้ definitive chemoradiation ส่วน APR/exenteration เป็น salvage · คีย์ 01.2 ข้อคล้ายกันในชุด 69 ก็ไฮไลต์ chemoradiation · ความมั่นใจสูง",
+  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ MCQ Key 2 (e) — เว็บตอบ B ความมั่นใจสูง เพราะ anal SCC ทุกระยะรักษาด้วย chemoradiation เป็นหลัก ผ่าตัดใหญ่เป็น salvage",
+  "mnemonic": "<b>'Anal SCC = Nigro (ฉาย + เคมี) ก่อนเสมอ · ผ่าเมื่อล้มเหลว'</b>",
+  "guide": "NCCN Anal Carcinoma v.2025; ESMO Anal Cancer Clinical Practice Guidelines (Ann Oncol 2021;32:1087)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV ที่ CD4 ต่ำเป็น anal canal SCC → chemoradiation เหมือนผู้ป่วยทั่วไปร่วมยาต้านไวรัส (ปรับขนาดเคมีตามความทนได้)",
-   "<b>นอกสไลด์:</b> anal margin SCC ขนาด 1.5 cm ผิวเผิน ไม่ลุกหูรูด ต่อมน้ำเหลืองปกติ → ตัดเฉพาะที่ให้ขอบปลอดมะเร็งได้"
+   "anal SCC 4 cm + inguinal LN → chemoradiation",
+   "anal SCC ยังเหลือหลัง CRT 6 เดือน → salvage APR",
+   "rectal adenocarcinoma ลุกลามกระเพาะปัสสาวะ → neoadjuvant CRT → pelvic exenteration"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 136 — ตัวพิมพ์: <b>2. Anal cancer (SCC) 3 cm \"involve prostate\" จงบอก Treatment — a. Brachytherapy b. Chemoradiation c. APR d. LAR e. Pelvic exentration</b><br>ลายมือ: เครื่องหมายคำพูดที่ \"involve prostate\" · ขีด e (แก้ตัวสะกด exenteration) + \": Sx pelvic organ ออกหมด\"<br>ไฮไลต์: \"Anal cancer (SCC) 3 cm involve prostate\" \"Treatment\" · e (เหลือง)<br>รูปที่แปะ: สไลด์ภาพก้อนที่ทวารหนัก/ แผนภาพ + ลายมือเล็ก (อ่านรายละเอียดไม่ได้)<br>ที่ปรับในเว็บ: เฉลย B (Chemoradiation) ต่างจากคีย์ในไฟล์ (e)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 136",
+  "kimg": [
+   "fsk_p136",
+   "kp67d_2"
   ]
  },
  "MDCU67|RoD|3": {
-  "interp": "มะเร็งไส้ตรงลุกกระเพาะปัสสาวะ (T4b) ไม่บอกการแพร่กระจาย → ถามลำดับการรักษา",
-  "why": "<b>คีย์: ขีด c + ลายมือ neoadjuvant</b><br><b>นอกสไลด์:</b> มะเร็งไส้ตรงที่ลุกอวัยวะข้างเคียงให้ chemoradiation (หรือ total neoadjuvant therapy) ก่อน เพื่อลดขนาดก้อนให้ผ่าตัดได้ขอบปลอดมะเร็ง (R0) และลดการกลับเป็นซ้ำในอุ้งเชิงกราน แล้วจึงผ่าตัดเอาก้อนพร้อมกระเพาะปัสสาวะเป็นก้อนเดียว",
+  "interp": "<b>มะเร็ง rectum ลุกลามกระเพาะปัสสาวะ</b> (T4b) → ถามการรักษา",
+  "why": "Locally advanced rectal adenocarcinoma (T4b) → <b>neoadjuvant chemoradiation (หรือ total neoadjuvant therapy) ก่อน</b> เพื่อลดขนาดก้อนและเพิ่มโอกาสตัดได้ขอบปลอดเซลล์ (R0) → แล้วจึง <b>pelvic exenteration/ multivisceral en bloc resection</b> · ไฟล์ขีด c ลายมือ <b>\"neoadjuvant\"</b> เครื่องหมายคำพูดที่ <b>\"invade bladder\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยที่ยังไม่เคยได้รังสีถูกผ่าตัดไปก่อนเพราะมี fistula ติดเชื้อในอุ้งเชิงกราน แล้วพยาธิพบขอบตัดใกล้มะเร็ง — chemoradiation เสริมหลังผ่าตัด",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็งไส้ตรงกลับเป็นซ้ำในอุ้งเชิงกรานลุกกระเพาะปัสสาวะ หลังเคยได้รังสีขนาดเต็มมาแล้วจนให้ซ้ำไม่ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามะเร็ง sigmoid ลุกเฉพาะยอดกระเพาะปัสสาวะห่างจาก trigone — ตัด sigmoid ร่วมผนังกระเพาะปัสสาวะส่วนนั้นเป็นก้อนเดียว (en bloc partial cystectomy)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยโรคร่วมรุนแรง ผ่าตัดใหญ่และรับเคมีไม่ได้ — ฉายรังสีเพื่อคุมเลือดออกและอาการปวด"
+   "A": "CRT หลังผ่าตัด (adjuvant) ด้อยกว่า neoadjuvant — ควบคุมเฉพาะที่แย่กว่า พิษมากกว่า · จะถูกถ้าผู้ป่วยผ่าตัดไปก่อนแล้วพบ T3/ N+ ที่ไม่ได้ neoadjuvant",
+   "B": "ผ่าตัดอย่างเดียวโดยไม่ลดก้อนก่อน โอกาส R0 ต่ำ · จะถูกถ้าผู้ป่วยมีลำไส้อุดตัน/ ทะลุฉุกเฉิน (แต่ควร diversion ก่อน)",
+   "D": "Wedge excision ของกระเพาะปัสสาวะอาจได้ในการลุกลามจำกัด แต่ต้อง en bloc หลัง neoadjuvant · จะถูกถ้าลุกลามเฉพาะ dome เล็ก ๆ หลัง neoadjuvant แล้ว",
+   "E": "RT อย่างเดียวเป็น palliative · จะถูกถ้าผู้ป่วยผ่าตัดไม่ได้ ต้องการคุมเลือดออก/ ปวด"
   },
-  "trap": "ผ่าตัดก่อนเพราะคิดว่าก้อนใหญ่ต้องเอาออกเร็ว — ไส้ตรงที่ลุกอวัยวะข้างเคียงถ้าผ่าตัดก่อนมักได้ขอบไม่ปลอดมะเร็งและกลับเป็นซ้ำในอุ้งเชิงกรานสูง",
+  "trap": "ผ่าตัดก่อนแล้วค่อยฉายแสง — rectal cancer T3/ T4 ใช้ neoadjuvant",
   "summary": [
-   "<b>นอกสไลด์:</b> มะเร็งไส้ตรงลุกลามเฉพาะที่ (T3–T4 หรือต่อมบวก): MRI อุ้งเชิงกรานดูความลึก ขอบ mesorectal fascia และอวัยวะที่ลุก → รักษาก่อนผ่าตัดด้วย chemoradiation หรือ total neoadjuvant therapy (รังสี + เคมีครบก่อนผ่าตัด) → TME ร่วมตัดอวัยวะที่ลุกเป็นก้อนเดียว (partial cystectomy หรือ pelvic exenteration ตามขอบเขต)"
+   "Rectal cancer T3–T4/ N+ → neoadjuvant CRT/ TNT → TME",
+   "T4b → multivisceral resection/ pelvic exenteration หลัง neoadjuvant",
+   "MRI pelvis: T stage · CRM · EMVI",
+   "cCR หลัง TNT → watch-and-wait ในรายเลือก",
+   "Anal SCC: CRT เป็นหลัก (ต่างจาก adenocarcinoma)",
+   "Colon cancer: ผ่าตัดก่อน (neoadjuvant ในรายเลือก)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Rectal CA ลุกลาม = ฉาย/ เคมีก่อน แล้วค่อยตัด'</b>",
+  "guide": "NCCN Rectal Cancer v.2025; ESMO Rectal Cancer Guidelines (Ann Oncol 2017;28:iv22)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง total neoadjuvant therapy ก้อนไส้ตรงหายหมดทั้งจาก MRI และส่องกล้อง → watch and wait ติดตามใกล้ชิดในศูนย์ที่ติดตามได้เข้ม แทนการผ่าตัดทันที",
-   "<b>นอกสไลด์:</b> หลัง pelvic exenteration ต้องมีทางระบายปัสสาวะใหม่ → ileal conduit"
+   "rectal cancer cT3N1 → TNT → TME",
+   "rectal cancer ลุกลามมดลูก → neoadjuvant → en bloc resection",
+   "rectal cancer cCR หลัง TNT → watch-and-wait"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 136 — ตัวพิมพ์: <b>3. CA rectum \"invade bladder\" จงบอก treatment — a. Chemoradiation หลัง pelvic exentration b. Pelvic exentration c. Pelvic exentration หลัง chemoradiation d. Wedge excision of bladder</b><br>ลายมือ: เครื่องหมายคำพูดที่ \"invade bladder\" · ขีด c + \"neoadjuvant\"<br>ไฮไลต์: \"CA rectum invade bladder\" \"treatment\" · c (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Radiation alone)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 136",
+  "kimg": [
+   "fsk_p136",
+   "kp67d_3"
   ]
  },
  "MDCU67|RoD|4": {
-  "interp": "ชายปวดท้องซ้ายล่าง ไข้ คลื่นไส้ 2 วัน สงสัย diverticulitis → ถามข้อปฏิบัติที่ถูก",
-  "why": "<b>คีย์: ขีด d + ลายมือ suspected diverticulitis</b><br><b>นอกสไลด์:</b> ช่วงอักเสบเฉียบพลัน ผนังลำไส้บวมบางและอาจมีรูรั่วเล็ก การส่องกล้องเป่าลมเพิ่มความดันในลำไส้จนทะลุได้ จึงเลี่ยงการส่องกล้องในช่วงนี้และใช้ CT ยืนยันการวินิจฉัย",
+  "interp": "ชาย<b>ปวดท้อง LLQ ไข้ คลื่นไส้ 2 วัน</b> (สงสัย diverticulitis) → ถามข้อถูก",
+  "why": "Acute diverticulitis: <b>ไม่ควรส่องกล้องในระยะเฉียบพลัน</b> เพราะการเป่าลม/ ดันกล้องอาจทำให้ลำไส้ทะลุ (ทำหลังหาย 6–8 สัปดาห์) → D ถูก · ข้ออื่นผิด: ส่องกล้องทันที (ห้าม) · สารน้ำควรเป็น isotonic (ไม่ใช่ 5% D/W ที่ไม่มีเกลือ) · ไม่จำเป็นต้อง TPN (พักลำไส้ระยะสั้นแล้วเริ่มกิน) · ไฟล์ขีด d ลายมือ <b>\"suspected diverticulitis\"</b> · a ✗ · b ขีดฆ่า \"D\" + <b>\"เกลือ?\"</b> · c ✗ และแปะแผนผัง diverticulitis",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุถ่ายเป็นเลือดปริมาณมากจาก diverticulum (ไม่ใช่การอักเสบ) สัญญาณชีพคงที่ — colonoscopy หลังเตรียมลำไส้ระหว่างนอนโรงพยาบาลเพื่อหาจุดเลือดออก",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ 5% dextrose เป็นสารน้ำทดแทนในผู้ป่วยติดเชื้อในช่องท้องที่ขาดน้ำ เพราะน้ำตาลถูกใช้หมดเหลือน้ำอิสระที่กระจายเข้าเซลล์ ไม่ได้เพิ่มปริมาตรในหลอดเลือด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า diverticulitis มีภาวะแทรกซ้อนจนต้องงดอาหารนานเกินราว 7 วัน เช่นลำไส้อุดตันหรือ fistula ที่ยังผ่าตัดไม่ได้ — ให้สารอาหารทางหลอดเลือด",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ารักษาด้วยยาและระบายฝีแล้วอาการแย่ลง ท้องแข็งทั่ว ช็อก — ผ่าตัดฉุกเฉินตัด sigmoid"
+   "A": "ห้ามส่องกล้องระยะเฉียบพลัน (ลายมือ ✗) · จะถูกถ้าคำถามถามการตรวจหลังหาย 6–8 สัปดาห์",
+   "B": "5% D/W ไม่เหมาะ resuscitation ควรใช้ isotonic crystalloid (ลายมือแก้ \"เกลือ?\") · จะถูกถ้าข้อความเป็น \"isotonic saline\"",
+   "C": "ไม่จำเป็นต้อง TPN (ลายมือ ✗) · จะถูกถ้าผู้ป่วยอดอาหารนาน &gt; 7 วัน/ มีภาวะแทรกซ้อนรุนแรง",
+   "E": "ผ่าตัดฉุกเฉินเฉพาะ perforation + peritonitis/ ไม่ตอบสนอง · จะถูกถ้ามี free air + generalized peritonitis"
   },
-  "trap": "ส่อง flexible sigmoidoscopy หรือสวนแป้งเพื่อยืนยันการวินิจฉัยช่วงอักเสบ — ทั้งสองเพิ่มความเสี่ยงทะลุเช่นเดียวกับ colonoscopy ใช้ CT ที่มีสารทึบรังสีแทน",
+  "trap": "ส่องกล้องยืนยันการวินิจฉัยทันที",
   "summary": [
-   "<b>นอกสไลด์:</b> CT ใน diverticulitis: ยืนยันการวินิจฉัย (ผนังหนา ไขมันรอบอักเสบ) และจัดความรุนแรง (ฝี ลมรั่ว ช่องท้องอักเสบ) · แต่แยกมะเร็งไม่ได้แน่นอน — ผนังหนาสั้นเป็นก้อน ขอบเป็นไหล่ ต่อมน้ำเหลืองโต ชวนสงสัยมะเร็ง"
+   "Diverticulitis: ปวด LLQ ไข้ · CT ยืนยัน",
+   "ห้ามส่องกล้อง/ สวนแป้งระยะเฉียบพลัน",
+   "Isotonic IV fluid · ATB (เลือกตามความรุนแรง)",
+   "Abscess → percutaneous drainage",
+   "Perforation + peritonitis → ผ่าตัด",
+   "Colonoscopy หลังหาย 6–8 สัปดาห์"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Diverticulitis: ห้ามส่องตอนอักเสบ'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020;63:728)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 35 ปี ปวดท้องขวาล่าง ไข้ CT พบ diverticulum ที่ cecum อักเสบ ไส้ติ่งปกติ → right-sided diverticulitis (พบบ่อยในคนเอเชีย): ยาปฏิชีวนะ ไม่ต้องผ่าตัด",
-   "<b>นอกสไลด์:</b> Hinchey III (หนองกระจายในช่องท้อง) สัญญาณชีพคงที่ → ตัด sigmoid ต่อลำไส้ทันทีร่วม loop ileostomy ป้องกัน เป็นทางเลือกแทน Hartmann"
+   "ปวด LLQ ไข้ CT diverticulitis ไม่มีฝี → ATB ± admit",
+   "diverticulitis + abscess 6 cm → percutaneous drainage",
+   "หายแล้ว 2 เดือน → colonoscopy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 136 — ตัวพิมพ์: <b>4. ผู้ชายปวดท้อง LLQ มีไข้ Nausea 2 วัน — a. ควรทำ colonoscope right away b. ให้ fluid 5% DWater c. ควรได้รับ parenteral nutrition จนกว่าจะ resolve d. ไม่ควรทำ colonoscope เพราะ อาจทำให้ perforate</b><br>ลายมือ: \"suspected diverticulitis\" · a ✗ · b ขีดฆ่า \"D\" + \"เกลือ?\" · c ✗ · ขีด d<br>ไฮไลต์: \"ปวดท้อง LLQ มีไข้ Nausea 2 วัน\" · d (เหลือง)<br>รูปที่แปะ: แผนผัง Diverticulitis (History/exam → CT → Complicated → Admission → IV antibiotics · Percutaneous drainage · Operative intervention / Uncomplicated → Mild → Oral antibiotics + clinical review)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Emergency sigmoidectomy)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 136",
+  "kimg": [
+   "fsk_p136",
+   "kp67d_4"
   ]
  },
  "MDCU67|RoD|5": {
-  "interp": "ถามว่าใครเสี่ยงมะเร็งลำไส้ใหญ่สูงที่สุด",
-  "why": "<b>คีย์: ขีด c</b><br><b>นอกสไลด์:</b> adenoma นับร้อยตัวคือ familial adenomatous polyposis (FAP) จากยีน APC ถ้าไม่ตัดลำไส้ใหญ่จะเป็นมะเร็งเกือบ 100% ราวอายุ 40 ปี — สูงกว่าปัจจัยอื่นทั้งหมด",
+  "interp": "ใคร<b>เสี่ยงมะเร็งลำไส้ใหญ่มากที่สุด</b>",
+  "why": "<b>Polyp จำนวนหลายร้อยตัว ผลเป็น tubular adenoma</b> = <b>familial adenomatous polyposis (FAP)</b> (APC mutation) → <b>เสี่ยงมะเร็งเกือบ 100%</b> ภายในอายุ ~40 ปีถ้าไม่ผ่าตัด → แนะนำ (procto)colectomy ป้องกัน · ไฟล์ขีด c",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อุจจาระแข็ง 1 วันเพิ่มความเสี่ยงมะเร็งลำไส้ใหญ่ เพราะเป็นอาการชั่วคราวจากอาหารและน้ำ ไม่ได้เปลี่ยนเยื่อบุลำไส้",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าพี่สาวเป็นมะเร็งรังไข่และครอบครัวตรวจพบ mutation ของ MLH1/MSH2 (Lynch syndrome)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุถ่ายเป็นเลือดปนร่วมน้ำหนักลดและซีดจากขาดธาตุเหล็ก — โอกาสพบมะเร็งในขณะนั้นสูง ต้องส่องกล้องวินิจฉัย",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ \"ไม่มีข้อใดเสี่ยงสูง\" เป็นคำตอบ เพราะ adenoma นับร้อยตัวเป็นภาวะที่กลายเป็นมะเร็งเกือบแน่นอน"
+   "A": "อุจจาระแข็ง 1 วันไม่เพิ่มความเสี่ยง · จะถูกถ้าคำถามถามอาการที่ไม่ต้องสืบค้น",
+   "B": "พี่สาวเป็นมะเร็งรังไข่เพิ่มความเสี่ยงเล็กน้อย (เว้นแต่เป็น Lynch/ BRCA) · จะถูกถ้าครอบครัวมีมะเร็งลำไส้ + มดลูก + รังไข่หลายคน (Lynch)",
+   "D": "ถ่ายเป็นเลือดเป็นอาการที่ต้องสืบค้น แต่ไม่ใช่ความเสี่ยงสูงสุด · จะถูกถ้าคำถามถามอาการเตือนที่ต้องส่องกล้อง",
+   "E": "มีคำตอบคือ C · จะถูกถ้าไม่มีปัจจัยเสี่ยงสูงในตัวเลือก"
   },
-  "trap": "เลือกถ่ายเป็นเลือดเพราะเป็นอาการของมะเร็ง — อาการบอกว่าอาจมีโรคอยู่แล้ว แต่ปัจจัยเสี่ยงที่ทำให้โอกาสเป็นมะเร็งสูงที่สุดคือกลุ่มอาการทางพันธุกรรมอย่าง FAP",
+  "trap": "เลือกถ่ายเป็นเลือดเพราะเป็นอาการ — คำถามถามความเสี่ยง",
   "summary": [
-   "<b>นอกสไลด์:</b> ความเสี่ยงมะเร็งลำไส้ใหญ่ตลอดชีวิตโดยประมาณ: FAP เกือบ 100% · Lynch ราว 10–60% แล้วแต่ยีน (MLH1/MSH2 สูง) · ลำไส้ใหญ่อักเสบเรื้อรังทั่วทั้งลำไส้ใหญ่เป็นเวลานาน เพิ่มหลายเท่า · ญาติสายตรงเป็นมะเร็งลำไส้เพิ่มราว 2 เท่า · ประชากรทั่วไปราว 4–5%"
+   "FAP: APC · polyp &gt; 100 · มะเร็ง ~100% → colectomy (อายุ ~20)",
+   "Attenuated FAP: polyp &lt; 100",
+   "Lynch (HNPCC): MMR · มะเร็งลำไส้ ~50–80% · มดลูก รังไข่",
+   "MUTYH-associated polyposis: autosomal recessive",
+   "IBD (UC/ Crohn colitis) นาน → เสี่ยงเพิ่ม",
+   "FAP: ตรวจกล้องตั้งแต่อายุ 10–12 ปี"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Polyp นับร้อย = FAP = มะเร็งแน่ ๆ'</b>",
+  "guide": "NCCN Genetic/Familial High-Risk Assessment: Colorectal v.2025; ACG Clinical Guideline: Hereditary GI Cancer Syndromes (Am J Gastroenterol 2015;110:223)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย FAP ที่ตัดลำไส้ใหญ่แล้ว → ส่องกระเพาะและ duodenum ด้วยกล้องมองด้านข้างเป็นระยะ หา adenoma ที่ ampulla เพราะมะเร็ง duodenum เป็นสาเหตุตายสำคัญ",
-   "<b>นอกสไลด์:</b> ชาย 50 ปี มี adenoma ราว 30 ตัว → attenuated FAP หรือ MUTYH-associated polyposis: ตรวจยีน APC และ MUTYH"
+   "วัยรุ่นส่องกล้องพบ polyp หลายร้อย → FAP → proctocolectomy + IPAA",
+   "ครอบครัวมะเร็งลำไส้ 3 คน 2 รุ่น 1 คนอายุ &lt; 50 → Lynch",
+   "UC 15 ปี → surveillance colonoscopy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 136 — ตัวพิมพ์: <b>5. ใครมี risk CA colon มากที่สุด — a. ขี้แข็ง 1 วัน b. พี่สาวเป็น CA ovary c. มี hundred of polyps biopsy พบ tubular adenoma d. ขี้มีเลือดออก</b><br>ลายมือ: ขีด c<br>ไฮไลต์: \"risk CA colon มากที่สุด\" · c (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (None of the above)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 136",
+  "kimg": [
+   "fsk_p136",
+   "kp67d_5"
   ]
  },
  "MDCU67|RoD|6": {
-  "interp": "หญิง 18 ปี AML ได้เคมีบำบัด 10 วัน (ช่วง nadir เม็ดเลือดขาวและเกล็ดเลือดต่ำ) มี thrombosed internal hemorrhoid → ถามการรักษา",
-  "why": "<b>คีย์: ขีด d + ลายมือ bleeding tendency · + ATB เพราะ immunocompromised · C/I procedure</b><br><b>นอกสไลด์:</b> ช่วง nadir หลังเคมีบำบัด หัตถการที่ทวารทุกชนิดเสี่ยงเลือดออก แผลไม่หาย และติดเชื้อรอบทวารลุกลาม จึงรักษาแบบประคับประคองด้วยแช่น้ำอุ่น ยาระบาย ยาแก้ปวด ร่วมยาปฏิชีวนะเพราะภูมิคุ้มกันต่ำ",
+  "interp": "หญิง 18 ปี <b>AML ได้เคมีบำบัด 10 วันก่อน</b> (ช่วง nadir — เกล็ดเลือด/ เม็ดเลือดขาวต่ำ) มี <b>thrombosed internal hemorrhoid</b> → ถามการจัดการ",
+  "why": "ผู้ป่วย<b>เลือดออกง่าย (thrombocytopenia/ coagulopathy)</b> และ<b>ภูมิคุ้มกันต่ำ (neutropenia)</b> → <b>ห้ามทำหัตถการ</b> (ผ่าตัด/ rubber band/ sclerotherapy เสี่ยงเลือดออกและติดเชื้อรุนแรง/ sepsis) → รักษาแบบประคับประคอง: <b>warm sitz bath + ยา</b> (ยาแก้ปวด ยาระบาย ยาทา) ± ยาปฏิชีวนะ · ไฟล์ขีด d ลายมือ <b>\"c̄ complication\"</b> · <b>\"bleeding tendency\"</b> · c ขีดฆ่า \"RBL\" + <b>\"C/I: coagulopathy (massive bleed), immunocom. (sepsis)\"</b> · b <b>\"เหมาะกับ circumferential lesion\"</b> · <b>\"+ ATB ∵ immunocom.\"</b> และแปะสไลด์ DG-HAL",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยภูมิคุ้มกันปกติเป็นริดสีดวง grade IV หรือชนิด mixed ก้อนใหญ่ที่มีส่วนภายนอกมาก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยภูมิคุ้มกันปกติเป็นริดสีดวง grade III ที่ปลิ้นเป็นวงรอบ และต้องการปวดน้อยกลับบ้านเร็ว",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยภูมิคุ้มกันปกติเป็นริดสีดวงภายใน grade II–III ที่ใยอาหารและยาไม่ได้ผล",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยภูมิคุ้มกันปกติเป็นริดสีดวงภายใน grade I ที่เลือดออกซ้ำแม้ปรับอาหารและยาแล้ว"
+   "A": "Hemorrhoidectomy ในผู้ป่วยเลือดออกง่าย/ ภูมิต่ำเสี่ยงสูง · จะถูกถ้าผู้ป่วยแข็งแรง grade III–IV หรือ thrombosed external ใน 72 ชม.แรก",
+   "B": "Stapled hemorrhoidopexy เหมาะกับ circumferential prolapse (ลายมือ) และยังเป็นหัตถการ · จะถูกถ้าผู้ป่วยแข็งแรง ริดสีดวงยื่นรอบวง grade III",
+   "C": "Rubber band ห้ามในผู้ป่วยเลือดออกง่าย/ ภูมิต่ำ (ลายมือ C/I) · จะถูกถ้าผู้ป่วยแข็งแรง grade I–II เลือดออก",
+   "E": "Sclerotherapy ยังเป็นหัตถการ เสี่ยงติดเชื้อ · จะถูกถ้าผู้ป่วยกินยาต้านการแข็งตัวที่หยุดไม่ได้ grade I เลือดออก (ในบางกรณี)"
   },
-  "trap": "รัดยางหรือฉีดยาเพราะเป็นริดสีดวงภายในซึ่งปกติทำได้ — ในผู้ป่วยเคมีบำบัดช่วง nadir หัตถการเสี่ยงติดเชื้อรุนแรงรอบทวารและเลือดออก",
+  "trap": "รักษาตามความรุนแรงของริดสีดวงโดยไม่ดูภาวะผู้ป่วย",
   "summary": [
-   "<b>นอกสไลด์:</b> ดูแลทวารในผู้ป่วย neutropenia หรือเกล็ดเลือดต่ำ: เลี่ยงหัตถการ การตรวจทางทวารซ้ำ การสวนทวาร และปรอทวัดไข้ทางทวาร · ใช้แช่น้ำอุ่น ยาระบาย ยาชาเฉพาะที่ ยาแก้ปวด · มีไข้หรือสงสัยติดเชื้อ → ยาฉีดกว้างครอบคลุม gram-negative (รวม Pseudomonas) และ anaerobe"
+   "Neutropenia/ thrombocytopenia: เลี่ยงหัตถการทางทวารหนัก",
+   "ประคับประคอง: sitz bath · stool softener · ยาแก้ปวด · ยาทา",
+   "Neutropenic + ฝีรอบทวาร → ATB ครอบคลุม (± ระบายถ้าจำเป็น)",
+   "Thrombosed external &lt; 72 ชม. → excision (ผู้ป่วยปกติ)",
+   "Thrombosed internal → ประคับประคอง/ hemorrhoidectomy (ผู้ป่วยปกติ)",
+   "DG-HAL: ผูกหลอดเลือดแดงนำทางด้วย Doppler"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'เคมีบำบัด (เลือดออกง่าย + ภูมิต่ำ) = ไม่แตะทวาร (sitz bath + ยา)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2018;61:284)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย AML เกล็ดเลือด 15,000 เลือดออกจากริดสีดวงมาก → ให้เกล็ดเลือด ยาระบาย และยาห้ามเลือดเฉพาะที่ ไม่รัดยาง",
-   "<b>นอกสไลด์:</b> ผู้ป่วยตับแข็ง portal hypertension เลือดออกจากก้อนในไส้ตรงเหนือ dentate line ที่ไม่ได้อยู่ตำแหน่ง cushion → rectal varices: รักษาแบบหลอดเลือดขอดจากความดัน portal ไม่ใช่ริดสีดวง"
+   "ผู้ป่วยเกล็ดเลือด 20,000 ริดสีดวงเลือดออก → ประคับประคอง + แก้เกล็ดเลือด",
+   "ผู้ป่วยแข็งแรง thrombosed external 24 ชม. → excision",
+   "neutropenic fever + ปวดรอบทวาร → ATB ครอบคลุม gram-negative/ anaerobe"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 136 — ตัวพิมพ์: <b>6. หญิง 18 ปี เป็น AML (มะเร็งเม็ดเลือดขาว) ทำ CMT ไป 10 วันก่อน มาด้วย thrombosed internal hemorrhoid ถาม management — a. Hemorrhoidectomy b. Stapler hermorroidectomy c. RBL with med d. Warm sitz bath &amp; med</b><br>ลายมือ: \"c̄ complication\" · \"bleeding tendency\" · a \"ตัด/ hemorrhoidal a. ligation?\" · b \"เหมาะกับ circumferential lesion\" · c ขีดฆ่า \"RBL\" + \"C/I: coagulopathy (massive bleed), immunocom. (sepsis)\" · ขีด d · \"+ ATB ∵ immunocom.\"<br>ไฮไลต์: \"หญิง 18 ปี เป็น AML\" \"ทำ CMT ไป 10 วันก่อน\" \"thrombosed internal hemorrhoid\" \"management\" · d (เหลือง)<br>รูปที่แปะ: สไลด์ Doppler guided hemorrhoid artery ligation (DG-HAL) + ลายมือ<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Sclerotherapy)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 136",
+  "kimg": [
+   "fsk_p136",
+   "kp67d_6"
   ]
  },
  "MDCU67|RoD|7": {
-  "interp": "ข้อ WRONG: หญิง 69 ปี ถ่ายเป็นเลือดปริมาณมากไม่ปวดท้อง → ข้อใดเป็นการจัดการที่ผิด",
-  "why": "<b>คีย์: ขีด c + ลายมือ isotonic · a R/O massive UGIB</b><br><b>นอกสไลด์:</b> การกู้ภาวะเสียเลือดต้องใช้สารน้ำ isotonic (NSS, Ringer) และเลือด dextrose ในน้ำเมื่อน้ำตาลถูกใช้แล้วเหลือน้ำอิสระที่กระจายเข้าเซลล์ อยู่ในหลอดเลือดเพียงส่วนน้อย จึงไม่ช่วยความดันและทำให้โซเดียมต่ำ",
+  "interp": "หญิง 69 ปี <b>ถ่ายเป็นเลือดปริมาณมาก</b> ไม่ปวดท้อง → ถามข้อ<b>ผิด</b>",
+  "why": "Resuscitation ภาวะเสียเลือดต้องใช้ <b>isotonic crystalloid (0.9% NSS/ RLS) และเลือด</b> · <b>dextrose water</b> ไม่คงอยู่ในหลอดเลือด (กระจายสู่ทุกช่องน้ำ) ไม่ช่วยเพิ่มปริมาตรเลือด และทำให้น้ำตาลสูง/ osmotic diuresis → C ผิด · ข้ออื่นถูก: ใส่ NG/ EGD เพื่อตัด massive UGIB (~10–15% ของ hematochezia มาจากส่วนบน) · anoscopy ตัดโรคทวารหนัก · diverticular bleeding เป็นสาเหตุพบบ่อยที่สุด · colonoscopy หลังเตรียมลำไส้ · ไฟล์ขีด c ขีดฆ่า \"dextrose\" เขียน <b>\"0.9% NSS\"</b> · <b>\"osmotic diuresis, lactate↑\"</b> · a ✓ <b>\"R/O massive UGIB\"</b> · b ✓ · d ✓",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าผู้ป่วยถ่ายเป็นเลือดปริมาณน้อย สัญญาณชีพคงที่ BUN ไม่สูง — ไม่จำเป็นต้องใส่ NG แยกเลือดจากทางเดินอาหารส่วนบน",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ส่อง anoscopy แยกโรคที่ทวาร\" ผิด เพราะทำได้ข้างเตียง เห็นริดสีดวงหรือแผลที่ทวารซึ่งห้ามเลือดได้ทันที",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"diverticulum เป็นสาเหตุที่พบบ่อยที่สุด\" ผิดในผู้สูงอายุที่เลือดออกมากไม่ปวดท้อง เพราะหลอดเลือดที่ยืดบางเหนือโดมของ diverticulum แตกเลือดออกมากได้และพบมากขึ้นตามอายุ",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าผู้ป่วยยังเลือดออกต่อเนื่อง สัญญาณชีพไม่คงที่แม้ให้สารน้ำและเลือดแล้ว — ทำ CTA แล้ว embolization ก่อน ไม่รอเตรียมลำไส้"
+   "A": "ถูก — NG/ EGD ตัด UGIB เลือดออกมาก (ลายมือ) · จะถูกถ้าข้อความว่า \"ไม่จำเป็นต้องตัด UGIB\"",
+   "B": "ถูก — anoscopy ตัดริดสีดวง/ แผล (ลายมือ ✓) · จะถูกถ้าข้อความว่า \"ไม่ต้องตรวจทวารหนัก\"",
+   "D": "ถูก — diverticular bleeding พบบ่อยที่สุดในผู้สูงอายุ (ลายมือ ✓) · จะถูกถ้าข้อความระบุ angiodysplasia เป็นสาเหตุอันดับหนึ่ง",
+   "E": "ถูก — colonoscopy (ภายใน 24 ชม.) หลังเตรียมลำไส้ในผู้ป่วยคงที่ · จะถูกถ้าผู้ป่วยความดันไม่คงที่ (ควร CTA ก่อน)"
   },
-  "trap": "ส่อง colonoscopy ด่วนโดยไม่เตรียมลำไส้เพื่อหาจุดเลือดออกให้เร็ว — ภาพไม่ชัด หาจุดไม่เจอ และการส่องเร่งด่วนภายใน 24 ชม. ไม่ได้ลดเลือดออกซ้ำหรือการตาย ต้องเตรียมลำไส้ด้วย PEG ก่อน",
+  "trap": "คิดว่าน้ำเกลือชนิดไหนก็ได้ — dextrose water ไม่ใช่สารน้ำกู้ชีพ",
   "summary": [
-   "<b>นอกสไลด์:</b> เลือกเครื่องมือหาจุดเลือดออก: CTA เห็นเลือดที่ออกราว ≥ 0.3–0.5 mL/min ทำได้เร็ว · tagged RBC scan ไวกว่า (ราว 0.1 mL/min) แต่บอกตำแหน่งได้ไม่แม่น · angiography ต้องออกราว ≥ 0.5–1 mL/min แต่ห้ามเลือดได้ทันที · ประเมินความเสี่ยงด้วย Oakland score (คะแนนต่ำให้กลับบ้านแล้วนัดส่องกล้องเป็นผู้ป่วยนอก — ACG 2023)"
+   "LGIB: resuscitate ด้วย isotonic + เลือด",
+   "ตัด UGIB: NG/ EGD (โดยเฉพาะ hemodynamic ไม่คงที่)",
+   "Anoscopy ตัดโรคทวารหนัก",
+   "Stable: colonoscopy ภายใน 24 ชม.",
+   "Unstable: CTA → embolization",
+   "สาเหตุ: diverticular &gt; angiodysplasia &gt; colitis &gt; neoplasm"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'เสียเลือด = เติมเกลือ (isotonic) + เลือด · ไม่ใช่น้ำตาล'</b>",
+  "guide": "ACG Clinical Guideline: Management of Patients With Acute Lower GI Bleeding (Am J Gastroenterol 2023;118:208); ATLS 11th ed. (ACS 2025) — Shock",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยกิน aspirin ป้องกันซ้ำหลังใส่ stent หลอดเลือดหัวใจ มี LGIB → ไม่หยุด aspirin",
-   "<b>นอกสไลด์:</b> ส่องลำไส้ใหญ่เห็นหลอดเลือดโผล่ที่โดมของ diverticulum ที่เพิ่งเลือดออก → ห้ามเลือดผ่านกล้องด้วย clip หรือรัดยาง"
+   "ผู้สูงอายุถ่ายเลือดมาก ความดันต่ำ → isotonic + เลือด → EGD ตัด UGIB → CTA",
+   "LGIB คงที่ → colonoscopy ภายใน 24 ชม.",
+   "BUN/Cr สูงมากในผู้ถ่ายเลือดแดง → สงสัย UGIB"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 136 — ตัวพิมพ์: <b>7. หญิง 69 ปี no U/D มาด้วย massive bleeding per rectum, no GI disease, no abdominal pain ตรวจร่างกายมีไข้ ถามว่า ข้อใดผิด — a. NG should be done b. Anoscope R/O anal disease c. Resuscitate ด้วย IV dextrose water d. Diverticulitis is most common cause</b><br>ลายมือ: a ✓ + \"R/O massive UGIB\" · b ✓ · ขีด c + ขีดฆ่า \"dextrose\" + \"0.9% NSS\" · \"osmotic diuresis, lactate↑\" · d ✓<br>ไฮไลต์: \"หญิง 69 ปี\" \"massive bleeding per rectum\" \"ข้อใดผิด\" · c (เหลือง)<br>ที่ปรับในเว็บ: ช้อย D เขียนเป็น Diverticular bleeding และเพิ่มช้อย E (Colonoscopy after bowel prep)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 136",
+  "kimg": [
+   "fsk_p136",
+   "kp67d_7"
   ]
  },
  "MDCU67|RoD|8": {
-  "interp": "ทารก 5 วัน วินิจฉัย Hirschsprung → ถามการจัดการเบื้องต้น",
-  "why": "<b>คีย์: ขีด e + ลายมือ แล้ว Sx</b><br><b>นอกสไลด์:</b> ทารก Hirschsprung ช่วงแรกระบายลำไส้ด้วยการสวนล้างไส้ตรงด้วยน้ำเกลืออุ่นวันละ 1–2 ครั้ง จนลำไส้ยุบและกินนมได้ แล้วจึงผ่าตัด pull-through ขั้นเดียวเมื่อพร้อม",
+  "interp": "ทารกอายุ 5 วัน <b>Hirschsprung disease</b> → ถามการจัดการ<b>เบื้องต้น</b>",
+  "why": "ทารก HD ระยะแรก → <b>rectal irrigation/ washout</b> วันละ 1–2 ครั้ง ระบายอุจจาระและลม ลดลำไส้ขยาย ป้องกัน enterocolitis แล้วจึง<b>ผ่าตัด definitive pull-through</b> (เช่น transanal endorectal pull-through) เมื่ออายุ ~1–3 เดือน หรือเมื่อพร้อม · colostomy เมื่อ washout ไม่ได้ผล/ enterocolitis รุนแรง/ long segment · ไฟล์ขีด e ลายมือ <b>\"แล้ว Sx\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าทารกหญิงไม่มีรูทวาร มีรูเปิดของลำไส้ที่ vestibule (ARM ชนิด vestibular fistula)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าชิ้นเนื้อยืนยันว่าลำไส้ใหญ่ทั้งเส้นไม่มี ganglion (total colonic aganglionosis) — ileostomy ที่ลำไส้เล็กส่วนที่มี ganglion",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารก Hirschsprung ชนิด rectosigmoid ที่สวนล้างไม่ได้ผล หรือมี enterocolitis รุนแรงหรือลำไส้ทะลุ — ทำ stoma ที่ลำไส้มี ganglion ก่อน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก 3 เดือนที่ยืนยัน Hirschsprung ชนิดส่วนสั้นแล้ว สวนล้างที่บ้านได้ดีมาตลอดและน้ำหนักขึ้นดี"
+   "A": "PSARP ใช้ใน anorectal malformation · จะถูกถ้าทารกไม่มีรูทวาร",
+   "B": "Ileostomy ใช้ใน total colonic aganglionosis · จะถูกถ้า biopsy ไม่พบ ganglion ตลอดลำไส้ใหญ่",
+   "C": "Colostomy ใช้เมื่อ washout ไม่ได้ผล/ enterocolitis รุนแรง/ ทารกไม่พร้อม · จะถูกถ้าทารกท้องอืดมากซ้ำแม้ล้างลำไส้",
+   "D": "TERPT เป็น definitive surgery ทำหลังลดลำไส้ขยาย · จะถูกถ้าคำถามถามการผ่าตัดรักษาหลัก"
   },
-  "trap": "ทำ colostomy ทุกรายแบบสมัยก่อน — ปัจจุบันส่วนใหญ่สวนล้างแล้วผ่าตัดขั้นเดียวโดยไม่ต้องมี stoma ทำ stoma ก่อนเฉพาะสวนล้างไม่ได้ผล enterocolitis รุนแรง ทะลุ หรือโรคยาวมาก",
+  "trap": "ผ่าตัด pull-through ทันที",
   "summary": [
-   "<b>นอกสไลด์:</b> สวนล้างไส้ตรงในทารก: ใช้สายนุ่มสอดผ่านส่วนตีบ ล้างด้วยน้ำเกลืออุ่นราว 10–20 mL/kg ต่อครั้งจนน้ำออกใส · ฝึกผู้ปกครองทำที่บ้าน · ผ่าตัด pull-through ผ่านทวาร (transanal endorectal) ขั้นเดียวมักทำราว 1–3 เดือนหรือเมื่อลำไส้ยุบและทารกพร้อม"
+   "HD: suction rectal biopsy ยืนยัน",
+   "เบื้องต้น: rectal washout",
+   "Definitive: TERPT/ Soave/ Duhamel/ Swenson",
+   "Colostomy: washout ล้มเหลว · enterocolitis รุนแรง · long segment",
+   "Total colonic: ileostomy",
+   "ระวัง HAEC: ไข้ ท้องอืด ถ่ายเหลวเหม็น"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจปานกลาง · ศูนย์ที่ชำนาญบางแห่งผ่าตัด pull-through ขั้นเดียวในช่วงแรกเกิดได้เลย",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'HD ทารก: ล้าง (washout) ก่อน แล้วค่อยดึง (pull-through)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Hirschsprung disease",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก Down syndrome ไม่ถ่ายขี้เทาภายใน 48 ชม. ท้องอืด → นึกถึง Hirschsprung (พบร่วมบ่อย): contrast enema และ suction rectal biopsy",
-   "<b>นอกสไลด์:</b> หลัง pull-through 1 ปี ท้องผูกเรื้อรัง ชิ้นเนื้อพบ ganglion ปกติ หูรูดภายในไม่คลาย → internal anal sphincter achalasia: ฉีด botulinum toxin ที่หูรูดภายใน"
+   "ทารก HD ท้องอืด → rectal washout → TERPT 2 เดือน",
+   "HD + enterocolitis รุนแรง → washout + ATB ± colostomy",
+   "total colonic aganglionosis → ileostomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>8. 5 days old Hirschprung disease — a. PSARP b. Ileostomy c. Transverse colostomy d. Transanal endorectal pullthrough e. Rectal irrigation</b><br>ลายมือ: ขีด e + \"แล้ว Sx\"<br>ไฮไลต์: \"5 days old Hirschprung disease\" · e (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
+  "kimg": [
+   "fsk_p137",
+   "kp67d_8"
   ]
  },
  "MDCU67|RoD|9": {
-  "interp": "ถามก้อนของ anterior mediastinum ที่พบบ่อยที่สุด (ผู้ใหญ่)",
-  "why": "<b>คีย์: ขีด a</b><br><b>นอกสไลด์:</b> thymoma เป็นก้อนปฐมภูมิของ anterior (prevascular) mediastinum ที่พบบ่อยที่สุดในผู้ใหญ่ ราวครึ่งหนึ่งของก้อนในช่องนี้",
+  "interp": "ถาม <b>anterior mediastinal mass ที่พบบ่อยที่สุด</b>",
+  "why": "ก้อน anterior mediastinum (3T 1L): <b>thymoma</b> พบบ่อยที่สุดในผู้ใหญ่ ตามด้วย lymphoma, GCT/ teratoma, thyroid · neurogenic tumor อยู่ posterior · ไฟล์ขีด a",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าพิจารณาเฉพาะ germ cell tumor ของ mediastinum — mature teratoma พบบ่อยที่สุดในกลุ่มนี้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ก้อนไทรอยด์เป็นเนื้องอกปฐมภูมิที่พบบ่อยที่สุดของ anterior mediastinum เพราะส่วนใหญ่เป็นไทรอยด์ที่คอยื่นลงไปหลังกระดูกอก ไม่ได้เกิดใน mediastinum เอง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าพิจารณาก้อน anterior mediastinum ในวัยรุ่นถึงผู้ใหญ่อายุน้อย — Hodgkin ชนิด nodular sclerosis พบบ่อย",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าพิจารณาก้อน posterior mediastinum — neurogenic tumor พบมากที่สุด"
+   "B": "Teratoma ~15% · จะถูกถ้าคำถามถามก้อนมีไขมัน/ ฟัน",
+   "C": "Thyroid ~15% · จะถูกถ้าคำถามถามก้อนต่อจากคอ",
+   "D": "Lymphoma พบรองลงมา/ พบบ่อยในเด็ก · จะถูกถ้าคำถามถามในเด็ก",
+   "E": "Neurogenic tumor อยู่ posterior · จะถูกถ้าคำถามถาม posterior mediastinum"
   },
-  "trap": "นับ retrosternal goiter เป็นก้อน mediastinum ที่พบบ่อยที่สุด — goiter เป็นส่วนต่อจากไทรอยด์ที่คอ ต่อเนื่องกับต่อมที่คอบน CT และเลื่อนตามการกลืน ไม่ใช่เนื้องอกปฐมภูมิของช่องนี้",
+  "trap": "ตอบ neurogenic tumor",
   "summary": [
-   "<b>นอกสไลด์:</b> แยกรอยโรคของ thymus: thymoma → เซลล์ดูไม่ร้ายแต่ลุกลามเฉพาะที่ได้ ร่วม paraneoplastic บ่อย · thymic carcinoma → ร้ายชัด แพร่ต่อมน้ำเหลืองและไกล ไม่ค่อยร่วม MG · thymic cyst → ถุงน้ำผนังบาง ไม่ต้องผ่าตัดถ้าไม่มีอาการ"
+   "Anterior: thymoma · lymphoma · GCT · thyroid",
+   "Middle: cyst · LN",
+   "Posterior: neurogenic",
+   "Thymoma + MG → thymectomy",
+   "GCT: AFP/ β-hCG",
+   "Lymphoma → biopsy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Anterior = 3T 1L'</b>",
+  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Mediastinal masses",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง 55 ปี แคลเซียมสูง PTH สูง สำรวจคอแล้วไม่พบ parathyroid โต → ectopic parathyroid adenoma ใน thymus: sestamibi หรือ 4D-CT หาตำแหน่งแล้วผ่าตัด",
-   "<b>นอกสไลด์:</b> ผลผ่าตัดเป็น thymic carcinoma ขอบตัดยังมีมะเร็ง → ฉายรังสีเสริม ± เคมี และติดตาม CT"
+   "ผู้ใหญ่ก้อน anterior + MG → thymoma",
+   "เด็กก้อน anterior → lymphoma",
+   "ก้อน paravertebral → neurogenic"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>9. Most common anterior mediastinal mass — a. Thymoma b. Teratoma c. Thyroid d. Lymphoma e. Neurogenic tumor</b><br>ลายมือ: ขีด a<br>ไฮไลต์: \"Most common anterior mediastinal mass\" · a (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
+  "kimg": [
+   "fsk_p137",
+   "kp67d_9"
   ]
  },
  "MDCU67|RoD|10": {
-  "interp": "หนังตาตก (สงสัย MG) ร่วมก้อน anterior mediastinum (thymoma) → ถามการรักษา",
-  "why": "<b>คีย์: ขีด b + ลายมือ MG → 30% thymoma · สไลด์ some points</b><br><b>นอกสไลด์:</b> ผู้ป่วย thymoma ราว 30–50% มี MG และผู้ป่วย MG ราว 10–15% มี thymoma — MG ร่วมก้อน anterior mediastinum จึงคิดถึง thymoma ก่อน ซึ่งต้องผ่าตัดเอาออกเพราะลุกลามเฉพาะที่ได้ และการเอา thymus ออกช่วยคุมอาการ MG ด้วย (เตรียมคุม MG ให้คงที่ก่อนผ่าตัด)",
+  "interp": "ผู้ป่วย<b>หนังตาตก (ptosis)</b> + <b>ก้อนใน mediastinum</b> → ถามการรักษา",
+  "why": "Ptosis (myasthenia gravis) + ก้อน anterior mediastinum = <b>thymoma</b> → <b>thymectomy</b> (ตัดก้อนพร้อม thymus ทั้งหมด) ซึ่งได้ทั้งการรักษาและชิ้นเนื้อ · ประมาณ 10–15% ของ MG มี thymoma และ 30–50% ของ thymoma มี MG · ไฟล์ขีด b ลายมือ <b>\"MG?\"</b> (ลูกศรเชื่อม \"30% … thymoma\") และแปะสไลด์ <b>SOME POINTS: 50% of Thymoma are malignant · 50% of Thymoma have MG · 15% of MG have thymoma · In MG without thymoma: 1/3 cure after thymectomy · 1/3 improve · 1/3 no clinical improve</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยสูงอายุโรคร่วมมาก ไม่พร้อมผ่าตัด thymoma ขนาดเล็กที่ไม่โต — คุม MG ด้วยยาและติดตามก้อน",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า thymoma ลุกหลอดเลือดใหญ่และเยื่อหุ้มหัวใจจนตัดไม่ได้แม้ให้เคมีลดขนาดแล้ว — chemoradiation",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย ocular MG ที่ไม่มีก้อนใน thymus ยังหนังตาตกและเห็นภาพซ้อนแม้ได้ pyridostigmine เต็มที่ — prednisolone ขนาดต่ำ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าพบถุงน้ำ thymic cyst ผนังบางไม่มีส่วนเนื้อใน anterior mediastinum โดยบังเอิญ ไม่มีอาการ — ติดตามด้วย CT หรือ MRI"
+   "A": "ยาอย่างเดียวไม่พอเมื่อมี thymoma · จะถูกถ้า MG ไม่มี thymoma อาการเฉพาะตา",
+   "C": "Chemoradiation ใช้ใน thymoma ลุกลามที่ผ่าตัดไม่ได้ · จะถูกถ้าก้อนลุกลามหลอดเลือดใหญ่ ผ่าตัดไม่ได้",
+   "D": "Steroid อย่างเดียวคุม MG แต่ไม่รักษา thymoma · จะถูกถ้าคำถามถามยากดภูมิใน generalized MG",
+   "E": "เฝ้าดูไม่เหมาะกับ thymoma ที่ลุกลามได้ · จะถูกถ้าก้อนเล็กมาก &lt; 1 cm ไม่มีอาการ (บางแนวทาง)"
   },
-  "trap": "เลือก chemoradiation เพราะคิดว่าก้อนในอกต้องฉายแสง — thymoma ที่ผ่าตัดได้หมดรักษาด้วยการผ่าตัดเป็นหลัก รังสีเสริมใช้เมื่อตัดไม่หมดหรือลุกลามเฉพาะที่",
+  "trap": "Biopsy ก่อนทุกราย — thymoma ที่ผ่าตัดได้ตัดออกเลย",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยพยากรณ์และการผ่าตัด thymoma: ตัดได้หมด (R0) สำคัญที่สุด ร่วมกับระยะและชนิด WHO · ผ่าตัดเอา thymus และไขมันรอบทั้งหมด (extended thymectomy) เพราะเนื้อ thymus กระจายในไขมัน และช่วย MG ได้มากกว่า"
+   "MG + anterior mediastinal mass → thymoma → thymectomy",
+   "~50% thymoma มี MG (สไลด์) · ~15% MG มี thymoma",
+   "MG ไม่มี thymoma: thymectomy ช่วย ~1/3 หาย · 1/3 ดีขึ้น",
+   "เตรียม MG ก่อนผ่าตัด",
+   "Masaoka staging",
+   "ลุกลาม → neoadjuvant → ผ่าตัด ± RT"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง · ไฟล์มีช้อย 3 ข้อ Claude เติม D–E",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'หนังตาตก + ก้อนหน้าอก = Thymectomy'</b>",
+  "guide": "NCCN Thymomas and Thymic Carcinomas v.1.2025; International Consensus Guidance for MG (Neurology 2021;96:114)",
   "variants": [
-   "<b>นอกสไลด์:</b> thymoma 3 cm ไม่ลุก capsule ในผู้ป่วย MG → ผ่าตัด thymectomy ผ่านกล้อง (VATS หรือหุ่นยนต์) ได้ผลใกล้เคียงการเปิดกระดูกอก",
-   "<b>นอกสไลด์:</b> หลังผ่าตัด thymoma ขอบตัดยังมีเนื้องอก (R1) → ฉายรังสีเสริมที่ตำแหน่งก้อน"
+   "MG + ก้อน anterior → thymectomy",
+   "MG ไม่มี thymoma อายุ 30 anti-AChR บวก → thymectomy (MGTX)",
+   "thymoma ลุกลาม SVC → neoadjuvant chemo → ผ่าตัด"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>10. มาด้วย อาการหนังตาตก มีก้อนที่ mediastinum รักษาอย่างไร — a. กินยาเดิม b. Thymomectomy + biopsy c. Chemoradiation</b><br>ลายมือ: \"MG?\" + ลูกศร \"30% … thymoma\" · ขีด b<br>ไฮไลต์: \"หนังตาตก\" \"ก้อนที่ mediastinum\" \"รักษา\" · b (เหลือง)<br>รูปที่แปะ: สไลด์ SOME POINTS — 50% of Thymoma are malignant · 50% of Thymoma have MG · 15% of MG have thymoma · In MG without thymoma — 1/3 Cure after thymectomy · 1/3 Improve · 1/3 No clinical improve + ลายมือ<br>ที่ปรับในเว็บ: เพิ่มช้อย D–E (Steroid only · Observation)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
+  "kimg": [
+   "fsk_p137",
+   "kp67d_10"
   ]
  }
 }
