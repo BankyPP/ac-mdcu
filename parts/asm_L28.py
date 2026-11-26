@@ -18,12 +18,15 @@ for n in sorted(Q):
     q=E(Q[n]); want='ABCDE'.index(plan['ans'][str(n)])
     assert q['ans']==want,(n,'ans',q['ans'],want)
     assert len(q['opts'])==5 and set(q['wrong'])==set('ABCDE')-{'ABCDE'[q['ans']]},(n,'wrong keys')
-    order=['n','stem','opts','ans','notes','kimg','src','tags','interp','why','wrong','trap','summary','mnemonic','guide','variants']
+    order=['n','stem','opts','ans','notes','kimg','src','tags','interp','why','wrong','trap','summary','opinion','mnemonic','guide','variants']
     blob=json.dumps(q,ensure_ascii=False)
     for b in ('นอกสไลด์','ถ้าโจทย์','คนนี้','ผู้ป่วยรายนี้','รายเดียวกัน'):
         assert b not in blob,(n,'BAD',b)
     assert not re.search(r'ดูข้อ \d|\(ข้อ \d',blob),(n,'ref')
-    for k in ('mnemonic','guide'): assert q.get(k),(n,k)
+    for k in ('mnemonic','guide','opinion'): assert q.get(k),(n,k)
+    for im in q['kimg']:
+        p=im.split('_p')[1]; assert f'สไลด์หน้า {p} ' in q['notes'],(n,'notes ต้องยกตัวพิมพ์ครบทุกหน้าใน kimg',p)
+    assert 'ลายมือ' in q['notes'],(n,'notes ต้องบอกลายมือ')
     assert 5<=len(q['summary'])<=7 and 3<=len(q['variants'])<=4,(n,'S/V count')
     QB.append({k:q[k] for k in order if k in q}|{k:v for k,v in q.items() if k not in order})
 done=set(Q)
