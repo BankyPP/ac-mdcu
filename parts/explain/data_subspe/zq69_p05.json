@@ -1,213 +1,378 @@
 {
  "MDCU69|RoC|21": {
-  "interp": "ข้อ WRONG ถามข้อความที่ไม่ถูกเกี่ยวกับ Wilms tumor",
-  "why": "<b>คีย์: ผู้จดขีด A, B, C · แก้ A = good, B = 2–3 yr, C = neuroblastoma</b><br><b>นอกสไลด์:</b> ก้อนที่เห็นหินปูนบนภาพรังสีธรรมดาเป็นลักษณะของ neuroblastoma (หินปูนเป็นจุดในก้อนส่วนใหญ่) · Wilms มีหินปูนส่วนน้อย จึงไม่ใช่ลักษณะของโรค",
+  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>Wilms tumor</b>",
+  "why": "<b>หินปูนในก้อน (calcification)</b> พบน้อยใน Wilms (~10%) แต่เป็นลักษณะเด่นของ <b>neuroblastoma (~85–90%)</b> → \"ฟิล์มท้องพบก้อนเนื้อมีหินปูน\" จึงชี้ neuroblastoma ไม่ใช่ Wilms · ลักษณะ Wilms (nephroblastoma): มะเร็งไตที่พบบ่อยที่สุดในเด็ก <b>อายุ 2–5 ปี (เฉลี่ย 3–4 ปี)</b> ก้อนเรียบ ไม่ข้ามแนวกลาง เด็กดูแข็งแรง ± hematuria ความดันสูง · พยากรณ์<b>ดีมาก (รอด &gt; 85–90%)</b> · สัมพันธ์กับ <b>WAGR</b> (WT1 deletion), <b>Denys-Drash</b> (WT1 mutation), <b>Beckwith-Wiedemann</b> (WT2) · ไฟล์ขีด A, B, C และแก้ลายมือ: A Poor → <b>\"good\"</b> · B 24–48 month → <b>\"3–7 yr\"</b> · C ขีดฆ่า \"soft tissue with calcification\" + <b>\"ใน neuroblastoma\"</b> · D ✓",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “อัตรารอดรวมเกิน 85%” ผิด เพราะผ่าตัดร่วมเคมี (± รังสี) ทำให้รอดรวมราว 90%",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “พบมากช่วงอายุราว 3–4 ปี” ผิด เพราะ median ราว 3.5 ปี และส่วนใหญ่พบก่อนอายุ 5 ปี",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “สัมพันธ์กับ Denys-Drash” ผิด เพราะ WT1 mutation ทำให้ไตเสื่อมตั้งแต่เด็ก อวัยวะเพศกำกวม และ Wilms",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “สัมพันธ์กับ WAGR” ผิด เพราะการขาดหายของ 11p13 (WT1 และ PAX6) ทำให้เกิด Wilms ไม่มีม่านตา ความผิดปกติทางเดินปัสสาวะอวัยวะเพศ และพัฒนาการช้า"
+   "A": "ถูก — Wilms พยากรณ์ดีมาก รอด &gt; 85–90% (ต้นฉบับเขียน poor prognosis ซึ่งผู้จดแก้เป็น good) · จะถูกถ้าช้อยบอกว่าพยากรณ์ไม่ดี หรือเป็น anaplastic histology ระยะท้าย",
+   "B": "ถูก — พบบ่อยอายุ 2–5 ปี (เฉลี่ย 3–4 ปี) · จะถูกถ้าช้อยบอกว่าพบมากในวัยรุ่น",
+   "D": "ถูก — Denys-Drash (WT1 mutation): Wilms + nephropathy (diffuse mesangial sclerosis) + male pseudohermaphroditism (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าสัมพันธ์กับ NF1",
+   "E": "ถูก — WAGR: Wilms, Aniridia, Genitourinary anomalies, Retardation (WT1 deletion 11p13) · จะถูกถ้าช้อยบอกว่า WAGR สัมพันธ์กับ neuroblastoma"
   },
-  "trap": "Wilms มีหินปูนได้บ้าง (ส่วนน้อย มักเป็นเส้นโค้ง) — แต่ “ก้อนมีหินปูน” เป็นลักษณะที่ใช้ชี้ neuroblastoma ข้อความนี้จึงผิดในฐานะลักษณะของ Wilms",
+  "trap": "สับสนลักษณะ Wilms กับ neuroblastoma — หินปูน ข้ามแนวกลาง เด็กดูป่วย opsoclonus-myoclonus = neuroblastoma",
   "summary": [
-   "<b>นอกสไลด์:</b> Wilms vs neuroblastoma: NB อายุน้อยกว่า (ส่วนใหญ่ &lt; 2 ปี) เด็กดูป่วย หินปูนในก้อนส่วนใหญ่ ข้ามแนวกลาง หุ้มหลอดเลือด VMA/HVA สูง · Wilms เด็กดูดี ก้อนเรียบไม่ข้ามแนวกลาง เกิดจากเนื้อไต (claw sign) ดันหลอดเลือด ลามเข้า renal vein/IVC ได้",
-   "<b>นอกสไลด์:</b> กลุ่มอาการที่เพิ่มความเสี่ยง Wilms: WAGR และ Denys-Drash (WT1, 11p13) · Beckwith-Wiedemann (11p15) · ร่างกายซีกหนึ่งโตกว่า (hemihypertrophy) · เด็กกลุ่มนี้ต้องคัดกรองด้วย US ช่องท้องเป็นระยะ"
+   "Wilms: 2–5 ปี · ก้อนเรียบไม่ข้ามแนวกลาง · เด็กดูดี · รอด &gt; 85–90%",
+   "Neuroblastoma: &lt; 2 ปี · หินปูน · ข้ามแนวกลาง · VMA/ HVA สูง · ดูป่วย",
+   "Syndromes: WAGR · Denys-Drash · Beckwith-Wiedemann",
+   "CT: claw sign (Wilms) · encasement หลอดเลือด (neuroblastoma)",
+   "รักษา Wilms: nephrectomy (NWTS/ COG) หรือ chemo ก่อน (SIOP)",
+   "ห้ามเจาะชิ้นเนื้อผ่านผิว (upstage)"
   ],
-  "opinion": "ตอบ C · มั่นใจปานกลาง — ผู้จดขีดผิดไว้ 3 ช้อย ช้อย A และ B ถูกปรับเป็นข้อความที่ถูกแล้ว · คีย์ไฟล์ 01.2 เลือกช้อยเดิม A (poor prognosis) ซึ่งเป็นข้อความผิดจริงแต่ช้อยนั้นถูกปรับแล้ว",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับการแก้ลายมือ \"ใน neuroblastoma\" ในไฟล์ MCQ Key 2 (ผู้จดขีดหลายช้อยเพราะต้นฉบับ A, B เขียนผิดด้วย ไฟล์ Key 1 ไม่ได้ขีด) เว็บเขียน A, B ใหม่ให้เป็นข้อความที่ถูก",
+  "mnemonic": "<b>'Wilms = Well (เด็กดูดี พยากรณ์ดี) · Neuroblastoma = Not well + หินปูน'</b>",
+  "guide": "Children's Oncology Group/ SIOP-RTSG Wilms tumor protocols; Coran's Pediatric Surgery 8th ed. (2019) — Renal tumors",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 3 ปีมีก้อนท้องด้านซ้าย ปัสสาวะเป็นเลือด ความดันสูง → สงสัย Wilms: CT ดูไตอีกข้างและก้อนลามเข้า renal vein/IVC ก่อนผ่าตัด",
-   "<b>นอกสไลด์:</b> เด็ก Wilms มีก้อนในไตทั้งสองข้าง → ให้เคมีก่อน แล้วผ่าตัดแบบเก็บเนื้อไตไว้ให้มากที่สุด"
+   "เด็ก 3 ปีก้อนท้องเรียบ ไม่ข้ามแนวกลาง ความดันสูง → Wilms",
+   "เด็ก 18 เดือนก้อนท้องมีหินปูน ข้ามแนวกลาง ตาช้ำรอบ → neuroblastoma",
+   "เด็ก aniridia → คัดกรอง Wilms ด้วย US ทุก 3 เดือน (WAGR)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 57 — ตัวพิมพ์: <b>21. ข้อใดผิดเกี่ยวกับ Wilm's tumor — A. Poor prognosis B. พบใน 24-48 month C. Plain film abdomen พบ soft tissue with calcification D. เกี่ยวข้องกับ Denys Drash syndrome</b> (หัวข้อ PEDIATRICS · ก่อนหน้ามีข้อ 19, 20 ถูกขีดฆ่า \"ข้อสอบเรื่อง Tuberculoma / Fungal infection ที่ปอดเหมือนแอคปีก่อน\")<br>ลายมือ: ขีด A, B, C · A \"Poor\" → \"good\" · B \"24-48\" → \"3-7 yr\" · C ขีดฆ่า \"soft tissue with calcification\" + \"ใน neuroblastoma\" · D ✓<br>ไฮไลต์: \"ผิดเกี่ยวกับ Wilm's tumor\" · A, B, C (เหลือง) · D (ส้ม)<br>รูปที่แปะ: ตารางเปรียบเทียบ Wilms' tumor vs Neuroblastoma (ภาษาไทย) — พยาธิสภาพ: Wilms เนื้องอกของ renal embryonal tissue · neuroblastoma เนื้องอกของ neural crest tissue ส่วนมากเกิดที่ adrenal medulla (40%) · ช่วงอายุที่พบบ่อย: Wilms <b>3-7 ปี (&gt;90% พบในเด็กอายุต่ำกว่า 7 ปี)</b> · neuroblastoma 2-4 ปี · Bilateral: Wilms อาจพบทั้ง 2 ข้างได้ประมาณ 5% · neuroblastoma ไม่พบว่าเป็นทั้ง 2 ข้าง · ลักษณะทางคลินิก: Wilms ก้อนในท้อง สภาพทั่วไปมักดูแข็งแรง · neuroblastoma ก้อนในท้อง แต่สภาพทั่วไปมักอ่อนเพลีย ผอม ซีด · สิ่งที่พบจากภาพรังสี: Wilms <b>เงาหินปูน (calcification) น้อยคือประมาณ 5%</b> ลักษณะจับอยู่ที่ขอบ (rim calcification) · neuroblastoma <b>พบเงาหินปูนจับเป็นส่วนใหญ่ (80%) ลักษณะเงาหินปูนแบบกระจัดกระจาย (scattered calcification)</b> · ข้อความ Nephroblastoma — Also called Wilms tumor; most common renal malignancy of early childhood; WAGR complex, Denys-Drash syndrome, Beckwith-Wiedemann syndrome<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 48: ไม่มีขีด<br>ที่ปรับในเว็บ: A, B เขียนใหม่ให้ถูก · เติม E WAGR",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 57",
+  "kimg": [
+   "fsk_p57",
+   "kp69c_21",
+   "k2p_48"
   ]
  },
  "MDCU69|RoC|22": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับ biliary atresia",
-  "why": "<b>คีย์: ขีด C · ลายมือ A → portoenterostomy · B ขีดทิ้ง · D → proliferation &amp; bile duct plug</b><br><b>นอกสไลด์:</b> ท่อน้ำดีถูกทำลายเป็นพังผืดต่อเนื่อง ตับแข็งเร็ว · ยิ่งทำ Kasai เร็ว น้ำดียิ่งไหลได้ดีกว่าและรอดโดยไม่ต้องเปลี่ยนตับนานกว่า",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>biliary atresia</b>",
+  "why": "Biliary atresia = ท่อน้ำดีนอกตับอักเสบตีบตันเป็นพังผืดในทารก → ตัวเหลือง direct bilirubin สูง อุจจาระซีด · รักษาด้วย <b>Kasai portoenterostomy</b> (ต่อลำไส้เล็ก Roux-en-Y กับ porta hepatis — ไม่ใช่ choledochojejunostomy เพราะไม่มีท่อน้ำดีให้ต่อ) · <b>ผลดีที่สุดเมื่อผ่าตัดก่อนอายุ 60 วัน (2 เดือน)</b> ยิ่งช้า ตับแข็งยิ่งมาก · วินิจฉัย: US (triangular cord sign, ถุงน้ำดีเล็ก), HIDA scan, liver biopsy, intraoperative cholangiogram — CT ไม่ใช่ส่วนมาตรฐาน · พยาธิ: <b>bile ductular proliferation, bile duct plugs</b>, portal fibrosis · ~50% ต้องปลูกถ่ายตับในวัยเด็ก · ไฟล์ขีด C แก้ลายมือ: A choledochojejunostomy → <b>\"portoenterostomy\"</b> · B ขีดฆ่า \"CT scan\" · D transformation → <b>\"proliferation &amp; bile duct plug\"</b>",
   "wrong": {
-   "A": "จะถูกถ้าเป็น BA type I ที่ท่อน้ำดีส่วนต้นยังเปิดเป็นถุง (cystic/correctable BA) — ต่อถุงหรือท่อกับ jejunum แบบ Roux-en-Y ได้ · type III ที่พบส่วนใหญ่ไม่มีท่อให้ต่อ ต้องทำ portoenterostomy",
-   "B": "ไม่มีสถานการณ์ใดที่ CT เป็นส่วนมาตรฐานของการวินิจฉัย เพราะใช้ US ± HIDA แล้วยืนยันด้วย cholangiogram ระหว่างผ่าตัด",
-   "D": "ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นพยาธิของ biliary atresia เพราะ BA เห็นท่อน้ำดีเล็กเพิ่มจำนวน มีจุกน้ำดีอุด และพังผืดใน portal — giant cell และเซลล์ตับตายเด่นเป็นลักษณะของ neonatal hepatitis",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “ไม่ต้องเปลี่ยนตับเลย” เป็นจริง เพราะแม้ Kasai สำเร็จ ผู้ป่วยจำนวนมากยังตับแข็งต่อและต้องเปลี่ยนตับภายหลัง — BA เป็นเหตุอันดับหนึ่งของการเปลี่ยนตับในเด็ก"
+   "A": "รักษาด้วย Kasai portoenterostomy ไม่ใช่ choledochojejunostomy (ลายมือแก้เป็น portoenterostomy) · จะถูกถ้าคำถามถามการผ่าตัด choledochal cyst (excision + Roux-en-Y hepaticojejunostomy)",
+   "B": "CT ไม่ใช่ส่วนมาตรฐานของการวินิจฉัย (ลายมือขีดฆ่า) · จะถูกถ้าคำถามถาม US/ HIDA scan/ liver biopsy",
+   "D": "พยาธิสภาพคือ ductular proliferation + bile duct plugs + portal fibrosis (ลายมือแก้) · จะถูกถ้าคำถามถาม neonatal hepatitis (giant cell transformation, hepatocellular necrosis)",
+   "E": "~50% ต้องปลูกถ่ายตับในวัยเด็ก biliary atresia เป็นข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก · จะถูกถ้าคำถามถามสาเหตุหลักของการปลูกถ่ายตับในเด็ก"
   },
-  "trap": "“ก่อน 2 เดือน” ไม่ใช่เส้นตาย — ยิ่งเร็วยิ่งดี ทารกที่มาหลังจากนั้นแต่ยังไม่ตับแข็งมากก็ยังควรทำ Kasai",
+  "trap": "สับสนการผ่าตัด choledochal cyst กับ biliary atresia — atresia ไม่มีท่อให้ต่อ ต้องต่อกับ porta hepatis (Kasai)",
   "summary": [
-   "<b>นอกสไลด์:</b> ชนิด BA: type III (ตันถึง porta hepatis) พบมากที่สุดราว 90% · หลัง Kasai: ราวหนึ่งในสามน้ำดีไหลดีระยะยาว ที่เหลือตับแข็งต่อและต้องเปลี่ยนตับในวัยเด็ก · Kasai ก่อนอายุราว 60 วันได้ผลดีที่สุด แต่ไม่ใช่เส้นตาย (อายุมากกว่านั้นยังทำได้ถ้ายังไม่ตับแข็งระยะท้าย)"
+   "ตัวเหลือง &gt; 2 สัปดาห์ + อุจจาระซีด + direct bilirubin สูง → สงสัย",
+   "US: triangular cord sign · ถุงน้ำดีเล็ก/ ไม่มี",
+   "HIDA: ไม่ขับออกสู่ลำไส้ · liver biopsy: ductular proliferation, bile plugs",
+   "Kasai portoenterostomy ก่อน 60 วัน",
+   "ภาวะแทรกซ้อน: cholangitis · portal HT · ตับแข็ง",
+   "~50% ต้องปลูกถ่ายตับ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และการแก้ลายมือ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Biliary atresia = Kasai ก่อน 60 วัน (ยิ่งเร็วยิ่งดี)'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Biliary atresia; NASPGHAN Guideline: Evaluation of Cholestatic Jaundice in Infants (J Pediatr Gastroenterol Nutr 2017;64:154)",
   "variants": [
-   "<b>นอกสไลด์:</b> โรงพยาบาลแจกบัตรเทียบสีอุจจาระให้แม่หลังคลอด → คัดกรอง BA ให้มาผ่าตัดเร็ว",
-   "<b>นอกสไลด์:</b> ทารก BA ร่วมม้ามหลายอัน อวัยวะกลับข้าง หัวใจพิการ → BA splenic malformation syndrome (พยากรณ์แย่กว่า)"
+   "ทารก 6 สัปดาห์ตัวเหลือง อุจจาระซีด US triangular cord sign → Kasai",
+   "ทารก/ เด็กปวดท้อง ตัวเหลือง ก้อนท้องขวาบน → choledochal cyst → excision + hepaticojejunostomy",
+   "หลัง Kasai ไข้ ตัวเหลืองกลับ → cholangitis"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 57–58 — ตัวพิมพ์: <b>22. ข้อใดถูกต้องเกี่ยวกับ Biliary atresia — A. การรักษาใช้ choledochojejunostomy B. CT scan เป็นส่วนหนึ่งในการวินิจฉัย C. Best prognosis คือผ่าก่อนอายุ 2 เดือน D. Pathologic finding is biliary transformation and hepatocellular necrosis</b><br>ลายมือ: A ขีดฆ่า \"choledochojejunostomy\" เขียน \"portoenterostomy\" · B ขีดฆ่า \"CT scan\" · ขีด C · D ขีดฆ่า \"transformation\" เขียน \"proliferation &amp; bile duct plug\"<br>ไฮไลต์: \"ถูกต้องเกี่ยวกับ Biliary atresia\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ Biliary Atresia: Histology — Periportal fibrosis, ductular proliferation, bile duct plugs · High power view: bile duct plugs and damaged cholangiocytes<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 48: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 57",
+  "kimg": [
+   "fsk_p57",
+   "kp69c_22",
+   "kp69c_22b",
+   "k2p_48"
   ]
  },
  "MDCU69|RoC|23": {
-  "interp": "ภาพ double bubble ที่มีลมส่วนปลาย = duodenum อุดตันไม่สมบูรณ์ · ถามการรักษา",
-  "why": "<b>คีย์: ขีด E · ลายมือ DDx annular pancreas, duodenal stenosis → duodenoduodenostomy · malrotation → Ladd’s · ต้อง upper GI study</b><br><b>นอกสไลด์:</b> ลมผ่านไปได้บางส่วน = duodenal stenosis, web ที่มีรู หรือ annular pancreas → ต่อ duodenum ส่วนต้นกับส่วนปลายข้ามจุดตีบ (ไม่ตัดตับอ่อน) · แต่ก่อนผ่าตัดต้องทำ upper GI แยก malrotation",
+  "interp": "X-ray พบ <b>double bubble sign ร่วมกับมีลมในลำไส้ส่วนปลาย</b> → ถามการรักษา",
+  "why": "Double bubble + <b>มีลมผ่านไปส่วนปลาย</b> = <b>การอุดตันของ duodenum แบบไม่สมบูรณ์</b>: <b>annular pancreas, duodenal stenosis/ web</b> หรือ <b>malrotation (± volvulus)</b> · ต้อง<b>ทำ upper GI study ด่วน</b>เพื่อแยก malrotation with midgut volvulus (ถ้าใช่ → Ladd procedure ทันที) · เมื่อแยก malrotation แล้ว annular pancreas/ duodenal stenosis รักษาด้วย <b>duodenoduodenostomy (diamond-shaped)</b> — ห้ามตัดเนื้อตับอ่อน (annular) ออก · ไฟล์ขีด E ลายมือ <b>\"DDx ① annular pancreas ② duodenal stenosis ③ malrotation → แยกโดย upper GI study\"</b> โดยลากลูกศร ①② → duodenoduodenostomy และ ③ → Ladd's procedure พร้อมแปะสไลด์ <b>\"Double bubble with some more gas in the abdomen (incomplete obstruction) · Partial duo obs · Annular pancreas, Duodenal stenosis, Malrotation\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ gastrojejunostomy เป็นการผ่าตัดของ duodenum อุดตันในทารก เพราะทิ้ง duodenum ส่วนต้นเป็นถุงตันที่มีน้ำดีค้างและแผลที่รอยต่อ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าจุดอุดตันอยู่ที่ duodenum ส่วนที่สามหรือสี่ใกล้ ligament of Treitz ที่ต่อ duodenum เข้าหากันไม่ถึง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น duodenal web — ผ่า duodenum ตามยาว ตัดเยื่อโดยระวัง ampulla แล้วเย็บปิดตามขวาง",
-   "D": "จะถูกถ้า upper GI เห็น duodenojejunal junction อยู่ขวาของกระดูกสันหลัง (malrotation) — Ladd’s procedure"
+   "A": "Gastrojejunostomy เลี่ยง duodenum ทั้งหมด ไม่ใช่การรักษามาตรฐานในทารก (เสี่ยง blind loop/ marginal ulcer) · จะถูกถ้าผู้ใหญ่มีมะเร็งตับอ่อนอุดตัน duodenum ที่ตัดไม่ได้ (palliative bypass)",
+   "B": "Duodenojejunostomy ใช้ได้บางกรณี (อุดที่ duodenum ส่วนที่ 3–4) แต่มาตรฐานของ annular pancreas/ stenosis คือ duodenoduodenostomy · จะถูกถ้าการอุดอยู่ส่วนปลายของ duodenum ที่ต่อแบบ duodenoduodenostomy ไม่ได้",
+   "C": "Duodenoplasty (ตัด web) ใช้กับ duodenal web เฉพาะ ระวังบาดเจ็บ ampulla · จะถูกถ้า contrast study เห็น windsock web ใน duodenum",
+   "D": "Ladd procedure ใช้เมื่อเป็น malrotation (ลายมือลากลูกศรจาก malrotation) ซึ่งต้องแยกด้วย upper GI study · จะถูกถ้า upper GI study เห็น DJ flexure อยู่ขวา/ corkscrew"
   },
-  "trap": "ลมส่วนปลายใน double bubble ไม่ได้ทำให้สบายใจ — อาจเป็น malrotation with midgut volvulus ที่บิดไม่สนิท ทารกที่อาเจียนน้ำดีต้องทำ upper GI ด่วนก่อนสรุปว่าเป็นแค่ตีบ",
+  "trap": "คิดว่า double bubble = duodenal atresia เสมอ — มีลมส่วนปลายต้องแยก malrotation volvulus ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> duodenum อุดตันไม่สมบูรณ์ในทารก: stenosis/annular pancreas → duodenoduodenostomy · web → ตัดเยื่อ (duodenoplasty) · malrotation/Ladd bands → Ladd’s procedure · ทุกรายตรวจหา Down syndrome และหัวใจพิการร่วม"
+   "Double bubble ไม่มีลมปลาย → duodenal atresia (ผ่าตัด semi-elective)",
+   "Double bubble มีลมปลาย → stenosis/ web/ annular pancreas หรือ malrotation",
+   "ต้อง upper GI study ด่วนแยก malrotation volvulus",
+   "Annular pancreas/ stenosis → duodenoduodenostomy (ไม่ตัดตับอ่อน)",
+   "Malrotation → Ladd procedure",
+   "Down syndrome สัมพันธ์กับ duodenal atresia"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจปานกลาง (ต้องแยก malrotation ก่อน)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ โดยต้องแยก malrotation ด้วย upper GI study ก่อนตามที่ลายมือเขียนไว้",
+  "mnemonic": "<b>'Double bubble + ลมปลาย = แยก malrotation ก่อน (UGI) → ถ้าไม่ใช่ ต่อ duodenum (DD)'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Duodenal atresia and stenosis; annular pancreas",
   "variants": [
-   "<b>นอกสไลด์:</b> ผ่าตัดพบ duodenal web ที่มีรูและ duodenum ส่วนต้นโป่งเป็นถุงยื่นลงไป (windsock) → จุดเกาะจริงของเยื่ออยู่สูงกว่าตำแหน่งที่เห็นโป่ง ต้องหาให้ถูกก่อนตัด",
-   "<b>นอกสไลด์:</b> ผู้ใหญ่น้ำหนักลดมาก อาเจียนหลังกิน CT มุมระหว่าง aorta กับ SMA แคบกด duodenum ส่วนที่สาม → SMA syndrome"
+   "double bubble ไม่มีลมปลาย Down syndrome → duodenal atresia → duodenoduodenostomy",
+   "double bubble มีลมปลาย upper GI เห็น corkscrew → malrotation volvulus → Ladd ด่วน",
+   "contrast เห็น windsock web ใน duodenum → duodenotomy ตัด web"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 58 — ตัวพิมพ์: <b>23. X-ray พบ double bubble sign with distal air ควรให้การรักษาอย่างไร — A. Gastrojejunostomy B. Duodenojejunostomy C. Duodenoplasty D. Ladd's procedure E. Duodenoduodenostomy</b><br>ลายมือ: \"DDx ① annular pancreas ② duodenal stenosis ③ malrotation → แยกโดย upper GI study\" พร้อมลูกศรโยงไป B, D, E · ขีด E<br>ไฮไลต์: \"double bubble sign with distal air\" \"รักษาอย่างไร\" · E (เหลือง)<br>รูปที่แปะ: ฟิล์มท้องทารก double bubble + สไลด์ Double bubble with some more gas in the abdomen (incomplete obstruction) — \"Partial duo obs\" · Annular pancreas · Duodenal stenosis · Malrotation (พร้อมลายมือเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 49: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 58",
+  "kimg": [
+   "fsk_p58",
+   "kp69c_23",
+   "k2p_49"
   ]
  },
  "MDCU69|RoC|24": {
-  "interp": "ผู้สูงอายุ 72 ปี ไม่ถ่ายและไม่ผายลม 3 วัน คลำไม่พบก้อน PR ปกติ · ถามการตรวจที่ควรส่ง",
-  "why": "<b>คีย์: ขีด A · ลายมือ R/O gut obstruction</b><br><b>นอกสไลด์:</b> ภาพรังสีชุด acute abdomen (AXR ท่านอนและท่ายืน/ตะแคง + CXR ท่ายืน) ทำได้เร็ว ใช้ดูว่าลำไส้อุดตันไหม เป็นลำไส้เล็กหรือใหญ่ มี volvulus หรือลมใต้กะบังลมหรือไม่",
+  "interp": "ผู้ป่วยอายุ 72 ปี <b>ไม่ถ่ายไม่ผายลม 3 วัน</b> ตรวจไม่พบก้อน PR ปกติ → ถามการตรวจเพิ่มเติม",
+  "why": "ไม่ถ่ายไม่ผายลม = สงสัย <b>ลำไส้อุดตัน</b> → การตรวจแรกคือ <b>acute abdomen series</b> (ฟิล์มท้องท่านอน + ท่ายืน/ upright CXR) ดูลำไส้โป่ง air-fluid levels ตำแหน่งการอุดตันคร่าว ๆ (ลำไส้เล็ก/ ใหญ่) volvulus (coffee bean) และลมอิสระ · ถ้าสงสัยลำไส้ใหญ่อุดตัน/ ต้องหาสาเหตุ → <b>CT ฉีดสี</b>ต่อ (ไวกว่าและบอกสาเหตุ/ strangulation) · ไฟล์ขีด A ลายมือ <b>\"R/O gut obstruction\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ใหญ่ท้องผูกเรื้อรังมาตั้งแต่เด็ก ไม่มีอาการอุดตันเฉียบพลัน สงสัย Hirschsprung ที่มาช้าหรือ megacolon — สวนสารทึบดู transition zone ก่อนตัดชิ้นเนื้อไส้ตรง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัยลำไส้อุดตันที่มีสัญญาณขาดเลือดหรือ peritonitis หรือภาพรังสีธรรมดาไม่ชัด — CT with IV contrast หาจุดอุดตัน closed loop และการขาดเลือด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นหญิงตั้งครรภ์ที่สงสัยลำไส้อุดตันหรือไส้ติ่งอักเสบ ต้องเลี่ยงรังสี",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุนิสัยการขับถ่ายเปลี่ยน ซีดจากขาดธาตุเหล็ก หรือถ่ายเป็นเลือด โดยไม่มีอาการอุดตันเฉียบพลัน — colonoscopy หามะเร็ง"
+   "B": "Barium enema ห้ามเมื่อสงสัยทะลุ/ อุดตันลำไส้ใหญ่ (แบเรียมค้าง) ใช้ water-soluble contrast แทน · จะถูกถ้าคำถามถาม water-soluble contrast enema แยก pseudo-obstruction กับ mechanical",
+   "C": "CT ฉีดสีเป็นการตรวจที่ดีมากและมักทำต่อ แต่ข้อสอบนี้ถามการตรวจเบื้องต้น (ฟิล์มท้องก่อน) · จะถูกถ้าฟิล์มท้องยืนยันลำไส้ใหญ่อุดตัน ต้องการหาสาเหตุ/ ระยะมะเร็ง",
+   "D": "MRI ไม่ใช่การตรวจหลักในภาวะเฉียบพลัน · จะถูกถ้าหญิงตั้งครรภ์ปวดท้องเฉียบพลันสงสัยไส้ติ่งอักเสบ",
+   "E": "Colonoscopy ห้ามในลำไส้อุดตันเฉียบพลัน (เสี่ยงทะลุ) ยกเว้นเพื่อคลาย sigmoid volvulus · จะถูกถ้าฟิล์มเห็น coffee bean sign ไม่มี peritonitis (ส่องคลายเกลียว)"
   },
-  "trap": "PR ปกติและคลำไม่พบก้อนไม่ได้ตัดลำไส้อุดตัน — มะเร็งลำไส้ใหญ่ส่วนบนหรือ volvulus คลำไม่ได้ทางทวาร",
+  "trap": "ส่ง barium enema หรือส่องกล้องเพื่อหาสาเหตุทันที — เริ่มจากฟิล์มท้องประเมินการอุดตัน/ ทะลุก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> อ่าน AXR: ลำไส้เล็กอยู่กลาง เห็นรอยพับเยื่อบุพาดเต็มความกว้าง โป่งเกิน 3 cm · ลำไส้ใหญ่อยู่รอบนอก haustra พาดไม่เต็ม โป่งเกิน 6 cm (cecum เกิน 9 cm เสี่ยงแตก) · CT ดีที่สุดในการหาจุดอุดตัน closed loop และขาดเลือด"
+   "ไม่ถ่ายไม่ผายลม + ท้องอืด → สงสัย obstruction",
+   "Acute abdomen series: supine + upright/ decubitus + upright CXR",
+   "ลำไส้เล็ก: central, valvulae conniventes · ลำไส้ใหญ่: peripheral, haustra",
+   "CT ฉีดสี: บอกตำแหน่ง สาเหตุ strangulation",
+   "ผู้สูงอายุ large bowel obstruction: มะเร็ง > volvulus > diverticular",
+   "Cecum &gt; 12 cm/ peritonitis → ผ่าตัดด่วน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง (ปัจจุบัน CT มักเป็นการตรวจหลัก)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'ไม่ถ่ายไม่ผายลม = ฟิล์มท้อง 3 ท่าก่อน (acute abdomen series)'</b>",
+  "guide": "WSES Guidelines for Obstructive Left Colon Carcinoma (World J Emerg Surg 2018;13:36); ACR Appropriateness Criteria: Suspected Small-Bowel Obstruction (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> AXR ลำไส้ใหญ่โป่งถึง cecum 12 cm ลำไส้เล็กไม่โป่ง → closed-loop obstruction (ileocecal valve ปิดสนิท) เสี่ยง cecum แตก: ผ่าตัดด่วน",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุติดเตียงไม่ถ่ายหลายวัน PR พบอุจจาระแข็งเต็ม rectum → วินิจฉัย fecal impaction ได้จาก PR เลย ไม่ต้องส่งภาพก่อน"
+   "ฟิล์มพบลำไส้ใหญ่โป่ง ไม่มีลมใน rectum → CT ฉีดสีหาสาเหตุ",
+   "ฟิล์มพบ coffee bean sign → sigmoid volvulus → ส่องคลายเกลียว",
+   "ฟิล์มพบลมใต้กะบังลม → perforation → ผ่าตัด"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 58 — ตัวพิมพ์: <b>24. ผู้ป่วยอายุ 72 ปี มาด้วยไม่ถ่ายไม่ผายลมมา 3 วัน ตรวจร่างกายไม่พบก้อน PR ไม่พบความผิดปกติ จะส่งตรวจอะไรเพิ่มเติม — A. Acute abdomen film B. Barium enema C. CT D. MRI</b> (หัวข้อ COLO)<br>ลายมือ: \"R/O gut obstruction\" · ขีด A<br>ไฮไลต์: \"ผู้ป่วยอายุ 72 ปี\" \"ไม่ถ่ายไม่ผายลมมา 3 วัน\" \"ตรวจอะไรเพิ่มเติม\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 49: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 58",
+  "kimg": [
+   "fsk_p58",
+   "kp69c_24",
+   "k2p_49"
   ]
  },
  "MDCU69|RoC|25": {
-  "interp": "ถามสาเหตุที่พบบ่อยที่สุดของเลือดออกทางเดินอาหารส่วนล่างในผู้ใหญ่",
-  "why": "<b>คีย์: ขีด A · ลายมือแก้ diverticulitis → diverticulosis</b><br><b>นอกสไลด์:</b> หลอดเลือด vasa recta ที่พาดผ่านคอของ diverticulum ถูกยืดจนบางและแตก → เลือดแดงสดปริมาณมาก ไม่เจ็บ ส่วนใหญ่หยุดเอง",
+  "interp": "ถามสาเหตุ<b>เลือดออกทางเดินอาหารส่วนล่างที่พบบ่อยที่สุดในผู้ใหญ่</b>",
+  "why": "สาเหตุอันดับหนึ่งของ lower GI bleeding ในผู้ใหญ่คือ <b>diverticular bleeding (diverticulosis)</b> (~30–40%) — เลือดออกสดปริมาณมาก ไม่เจ็บ หยุดเองได้ ~75–80% (vasa recta ที่ยอด diverticulum ฉีก มักลำไส้ใหญ่ขวาแม้ diverticula ส่วนใหญ่อยู่ซ้าย) · ต้องเป็น <b>diverticulosis ไม่ใช่ diverticulitis</b> (diverticulitis มักไม่เลือดออก) · รองลงมา: angiodysplasia, ลำไส้ขาดเลือด, ริดสีดวง, มะเร็ง/ polyp, IBD · ไฟล์ขีด A แก้ลายมือ Diverticul<b>itis</b> → <b>\"osis\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่มะเร็งลำไส้ใหญ่เป็นสาเหตุที่พบบ่อยที่สุดของ LGIB ในผู้ใหญ่ เพราะมักเลือดออกน้อยเรื้อรัง ทำให้ซีดมากกว่าเลือดออกเฉียบพลัน",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ IBD เป็นสาเหตุที่พบบ่อยที่สุดของ LGIB ในผู้ใหญ่ เพราะส่วนใหญ่มาด้วยถ่ายมูกเลือดเรื้อรัง เลือดออกมากเฉียบพลันพบน้อย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ angiodysplasia เป็นสาเหตุที่พบบ่อยที่สุดของ LGIB ในผู้ใหญ่ เพราะพบเฉพาะกลุ่มผู้สูงอายุ มักเลือดออกซึมเป็นพัก ๆ จาก cecum/ascending colon",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้านับรวมเลือดสดออกเล็กน้อยหลังถ่ายในผู้ป่วยนอก — ริดสีดวงพบบ่อยที่สุดในกลุ่มนั้น"
+   "B": "มะเร็งลำไส้ใหญ่มักเลือดออกซึมเรื้อรัง/ ซีด ไม่ใช่สาเหตุอันดับหนึ่ง · จะถูกถ้าคำถามถามสาเหตุซีดจากขาดเหล็กในชายสูงอายุ (ต้องส่องกล้อง)",
+   "C": "IBD เลือดออกปนมูก ท้องเสียเรื้อรัง พบน้อยกว่า · จะถูกถ้าคนหนุ่มสาวท้องเสียมีมูกเลือดเรื้อรัง ปวดเบ่ง",
+   "D": "Angiodysplasia เป็นสาเหตุสำคัญในผู้สูงอายุ (อันดับรอง) · จะถูกถ้าผู้สูงอายุ CKD/ aortic stenosis เลือดออกเป็นพัก ๆ ซีดเรื้อรัง",
+   "E": "ริดสีดวงเป็นสาเหตุเลือดออกทางทวารที่พบบ่อยในผู้ป่วยนอก แต่ใน significant lower GI bleeding ที่ต้องนอนโรงพยาบาล diverticular พบบ่อยกว่า · จะถูกถ้าคำถามถามเลือดสดหยดหลังถ่ายในคนวัยทำงานที่ OPD"
   },
-  "trap": "diverticulitis (มีการอักเสบ) ไม่ค่อยเลือดออก — ที่เลือดออกคือ diverticulosis ซึ่งไม่เจ็บและไม่มีไข้",
+  "trap": "ตอบ diverticulitis — การอักเสบไม่ค่อยเลือดออก ที่เลือดออกคือ diverticulosis",
   "summary": [
-   "<b>นอกสไลด์:</b> สาเหตุ LGIB: diverticulosis ราว 30–40% > angiodysplasia, ischemic colitis > ริดสีดวง มะเร็ง · เลือดแดงสดมากราว 10–15% มาจากทางเดินอาหารส่วนบน · คงที่ → colonoscopy ระหว่างนอน รพ. · ไม่คงที่ → CTA → embolization"
+   "Lower GI bleed ผู้ใหญ่: diverticulosis &gt; angiodysplasia &gt; ischemic colitis &gt; ริดสีดวง &gt; มะเร็ง",
+   "Diverticular bleeding: ไม่เจ็บ ปริมาณมาก หยุดเอง ~75–80%",
+   "แยก upper GI bleed ที่ออกเร็ว (NG aspirate/ BUN สูง)",
+   "ไม่คงที่ → CTA → angioembolization",
+   "คงที่ → colonoscopy ภายใน 24 ชม. หลังเตรียมลำไส้",
+   "เด็ก: Meckel diverticulum · juvenile polyp · intussusception"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และการแก้ลายมือเป็น diverticulosis · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'เลือดออกล่างมาก ไม่เจ็บ ผู้สูงอายุ = Diverticul-osis (ไม่ใช่ -itis)'</b>",
+  "guide": "ACG Clinical Guideline: Management of Patients With Acute Lower GI Bleeding (Am J Gastroenterol 2023;118:208); ASCRS Clinical Practice Guideline for Lower GI Bleeding (Dis Colon Rectum 2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้สูงอายุถ่ายเลือดแดงสดมาก ความดันต่ำ BUN สูงมากเทียบ creatinine → แยก UGIB ด้วย EGD ก่อน",
-   "<b>นอกสไลด์:</b> หลังตัดติ่งเนื้อลำไส้ 7 วัน ถ่ายเลือดสด → post-polypectomy bleeding: ส่องกล้องหนีบ clip"
+   "ชาย 75 ปีถ่ายเลือดสดปริมาณมากไม่เจ็บ ความดันปกติ → colonoscopy ภายใน 24 ชม.",
+   "ถ่ายเลือดมาก ความดันต่ำ → CTA → angioembolization",
+   "ผู้สูงอายุ aortic stenosis ซีดจากเลือดออกซ้ำ → angiodysplasia"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 58 — ตัวพิมพ์: <b>25. Most common lower GI bleeding in adult คือโรคอะไร — A. Diverticulitis B. Cancer C. IBD D. Angiodysplasia</b><br>ลายมือ: ขีด A + แก้ \"itis\" เป็น \"osis\"<br>ไฮไลต์: \"Most common lower GI bleeding in adult\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 49: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: A เขียนเป็น diverticular disease · ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 58",
+  "kimg": [
+   "fsk_p58",
+   "kp69c_25",
+   "k2p_49"
   ]
  },
  "MDCU69|RoC|26": {
-  "interp": "ถามภาวะที่เพิ่มความเสี่ยงมะเร็งลำไส้ใหญ่",
-  "why": "<b>คีย์: ขีด C · ลายมือ A = C. difficile</b><br><b>นอกสไลด์:</b> FAP (APC germline mutation) มี adenoma นับร้อยถึงพันตัว ถ้าไม่ผ่าตัดเป็นมะเร็งเกือบทุกราย อายุเฉลี่ยราว 39 ปี → ตัดลำไส้ใหญ่ป้องกัน",
+  "interp": "ถามภาวะที่<b>เพิ่มความเสี่ยงมะเร็งลำไส้ใหญ่</b>",
+  "why": "<b>Familial adenomatous polyposis (FAP)</b> — APC mutation (autosomal dominant) มี adenoma นับร้อย–พันในลำไส้ใหญ่ตั้งแต่วัยรุ่น → <b>เป็นมะเร็งเกือบ 100% ภายในอายุ 40 ปี</b>ถ้าไม่ตัดลำไส้ใหญ่ → prophylactic proctocolectomy · ภาวะอื่นในช้อยไม่เพิ่มความเสี่ยงมะเร็ง: pseudomembranous colitis (C. difficile เฉียบพลัน), solitary juvenile polyp (hamartoma เดี่ยว — ต่างจาก juvenile polyposis syndrome ที่เสี่ยง), amoebic colitis, thrombosed hemorrhoid · ไฟล์ขีด C ลายมือ A <b>\"จาก C.difficile\"</b>",
   "wrong": {
-   "A": "ไม่มีสถานการณ์ใดที่ pseudomembranous colitis เพิ่มความเสี่ยงมะเร็งลำไส้ใหญ่ เพราะเป็นการอักเสบเฉียบพลันจาก toxin ของ C. difficile หายแล้วเยื่อบุกลับปกติ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ juvenile polyp เดี่ยวเพิ่มความเสี่ยงมะเร็ง เพราะเป็น hamartoma ที่แทบไม่มี dysplasia — ความเสี่ยงเพิ่มเมื่อเป็น juvenile polyposis syndrome",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ amoebic colitis เพิ่มความเสี่ยงมะเร็ง เพราะเป็นการติดเชื้อที่รักษาหาย (แต่ amoeboma ที่ cecum ดูคล้ายก้อนมะเร็งได้)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ thrombosed hemorrhoid เพิ่มความเสี่ยงมะเร็งลำไส้ใหญ่ เพราะเป็นลิ่มเลือดในหลอดเลือดดำบริเวณทวาร ไม่เกี่ยวกับเยื่อบุลำไส้ใหญ่"
+   "A": "Pseudomembranous colitis เกิดจาก C. difficile หลังได้ยาปฏิชีวนะ เป็นการอักเสบเฉียบพลัน ไม่เพิ่มความเสี่ยงมะเร็ง (ลายมือ \"จาก C.difficile\") · จะถูกถ้าคำถามถามสาเหตุท้องเสียหลังได้ clindamycin",
+   "B": "Juvenile polyp เดี่ยวเป็น hamartoma ไม่ร้าย (ต่างจาก juvenile polyposis syndrome ≥ 5 polyps ที่เสี่ยงมะเร็ง) · จะถูกถ้าช้อยเป็น juvenile polyposis syndrome (SMAD4/ BMPR1A)",
+   "D": "Amoebic colitis เป็นการติดเชื้อ ไม่เพิ่มความเสี่ยงมะเร็ง (อาจเกิด amoeboma คล้ายมะเร็ง) · จะถูกถ้าคำถามถามก้อนที่ cecum คล้ายมะเร็งในผู้ป่วยถ่ายเป็นมูกเลือดเรื้อรัง",
+   "E": "Thrombosed hemorrhoid ไม่เกี่ยวกับมะเร็ง · จะถูกถ้าคำถามถามสาเหตุปวดก้อนที่ขอบทวารทันที"
   },
-  "trap": "คำว่า polyp ไม่ได้บอกความเสี่ยง ต้องดูชนิดทางพยาธิ — hyperplastic polyp เล็กที่ rectosigmoid ไม่ใช่รอยโรคก่อนมะเร็ง แต่ sessile serrated lesion (มักที่ลำไส้ขวา แบนมองยาก) และ adenoma เป็น",
+  "trap": "จำผิดว่า polyp ทุกชนิดเสี่ยงมะเร็ง — juvenile polyp เดี่ยวไม่ร้าย ส่วน FAP เสี่ยงเกือบ 100%",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยงมะเร็งลำไส้ใหญ่: กลุ่มอาการพันธุกรรม (FAP, Lynch, MAP, Peutz-Jeghers, juvenile polyposis) · IBD ที่เป็นลำไส้ใหญ่นาน · เคยมี adenoma หรือมะเร็ง · ญาติสายตรงเป็น · อายุ เนื้อแดง/เนื้อแปรรูป อ้วน บุหรี่ สุรา"
+   "FAP: APC · adenoma &gt; 100 · มะเร็งเกือบ 100% ถ้าไม่ผ่าตัด",
+   "FAP: colonoscopy เริ่ม 10–12 ปี → proctocolectomy",
+   "Lynch: MMR · มะเร็งด้านขวา · colonoscopy ทุก 1–2 ปี",
+   "IBD (UC/ Crohn colitis &gt; 8 ปี) เพิ่มความเสี่ยง",
+   "Juvenile polyposis syndrome/ PJS เพิ่มความเสี่ยง",
+   "Solitary juvenile polyp ไม่เพิ่มความเสี่ยง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์",
+  "mnemonic": "<b>'FAP = Fully Assured Progression (เป็นมะเร็งแน่ถ้าไม่ตัด)'</b>",
+  "guide": "ACG Clinical Guideline: Hereditary GI Cancer Syndromes (Am J Gastroenterol 2015;110:223); NCCN Genetic/Familial High-Risk Assessment: Colorectal v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย UC ทั้ง colon มา 10 ปี → ส่องกล้องคัดกรอง dysplasia เป็นระยะ (ทุกปีถ้ามี PSC ร่วม)",
-   "<b>นอกสไลด์:</b> ลูกของผู้ป่วย FAP อายุ 12 ปี → ตรวจยีน APC ถ้าบวกเริ่ม colonoscopy ทุกปีตั้งแต่อายุ 10–15 ปี"
+   "วัยรุ่น polyp นับร้อย APC บวก → proctocolectomy (IPAA)",
+   "FAP + osteoma + desmoid → Gardner syndrome",
+   "เด็ก 4 ปี polyp เดี่ยวที่ rectum เลือดออก → juvenile polyp → polypectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 58–59 — ตัวพิมพ์: <b>26. Which condition increases risk of colorectal cancer — A. Pseudomembranous colitis B. Juvenile polyps C. FAP D. Amoebic colitis E. Thrombosed hemorrhoid</b><br>ลายมือ: A \"จาก C.difficile\" (แดง) · ขีด C<br>ไฮไลต์: \"increases risk of colorectal cancer\" · C FAP (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 49: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 58",
+  "kimg": [
+   "fsk_p58",
+   "kp69c_26",
+   "kp69c_26b",
+   "k2p_49"
   ]
  },
  "MDCU69|RoC|27": {
-  "interp": "ถามวิธีคัดกรองมะเร็งลำไส้ใหญ่ที่เหมาะที่สุด",
-  "why": "<b>คีย์: ขีด B</b><br><b>นอกสไลด์:</b> colonoscopy เห็นทั้งลำไส้ใหญ่ ตัด polyp ได้ในครั้งเดียว (ป้องกันมะเร็ง ไม่ใช่แค่หาเจอ) และถ้าปกติเว้นได้ 10 ปี จึงเป็นวิธีที่ดีที่สุดสำหรับผู้ป่วยรายบุคคล",
+  "interp": "ถามวิธี<b>ที่เหมาะสมที่สุด</b>ในการคัดกรองมะเร็งลำไส้ใหญ่",
+  "why": "<b>Colonoscopy</b> เป็นวิธีคัดกรองที่ไวและครอบคลุมที่สุด: เห็นลำไส้ใหญ่ทั้งหมด <b>ตรวจพบและตัด polyp ได้ในครั้งเดียว</b> (ป้องกันมะเร็ง) ทำซ้ำทุก 10 ปีถ้าปกติ และเป็นขั้นตอนตามหลังทุกวิธีที่ผลผิดปกติ · วิธีอื่นที่ยอมรับ: <b>FIT ทุกปี</b> (ไทยใช้ FIT ในโครงการคัดกรองประชากรอายุ 50–70 ปี), stool DNA, CT colonography ทุก 5 ปี, flexible sigmoidoscopy ทุก 5–10 ปี — วิธีที่ \"ดีที่สุด\" คือวิธีที่ผู้ป่วยยอมทำจริง · ไฟล์ขีด B",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นโครงการคัดกรองระดับประชากร (เช่นโครงการของไทย อายุ 50–70 ปี) — ตรวจ FIT ทุก 1–2 ปี แล้วส่องกล้องเมื่อผลบวก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ที่ต้องคัดกรองส่องกล้องไม่ได้ ไม่ยอมส่อง หรือส่องไม่ถึง cecum — CT colonography ทุก 5 ปี",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ barium enema เป็นวิธีคัดกรองที่แนะนำในปัจจุบัน เพราะพลาด polyp เล็กมากและถูกแทนด้วย CT colonography",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นพื้นที่ที่ส่อง colonoscopy ได้จำกัด — sigmoidoscopy ทุก 5 ปี (หรือทุก 10 ปีร่วม FIT ทุกปี)"
+   "A": "FOBT/ FIT เป็นวิธีคัดกรองที่ใช้ได้ (ถูก ง่าย) แต่ต้องทำทุกปีและผลบวกต้องส่องกล้องต่อ · จะถูกถ้าคำถามถามวิธีคัดกรองระดับประชากรที่ใช้ในโครงการของไทย",
+   "C": "CT (colonography) เป็นทางเลือกทุก 5 ปี แต่ตัด polyp ไม่ได้ มีรังสี · จะถูกถ้าผู้ป่วยส่องกล้องไม่ได้/ ส่องไม่ถึง cecum",
+   "D": "Barium enema ไวต่ำ ถูกแทนที่แล้ว · จะถูกถ้าคำถามถามวิธีในอดีตเมื่อไม่มีกล้อง/ CT",
+   "E": "Sigmoidoscopy เห็นเฉพาะลำไส้ซ้าย พลาดรอยโรคด้านขวา · จะถูกถ้าคำถามถามวิธีคัดกรองที่ลดอัตราตายจากมะเร็งลำไส้ซ้ายในการศึกษาแบบสุ่ม"
   },
-  "trap": "วิธีที่ดีที่สุดสำหรับคนหนึ่งคน (colonoscopy) ต่างจากวิธีที่เหมาะกับโครงการประชากร (FIT) — คำถามแบบรายบุคคลตอบ colonoscopy",
+  "trap": "ตอบ FOBT เพราะใช้บ่อย — ถามวิธีเหมาะสมที่สุด (ไวที่สุดและรักษาได้ในตัว) = colonoscopy",
   "summary": [
-   "<b>นอกสไลด์:</b> ความเสี่ยงทั่วไป: เริ่มคัดกรองอายุ 45 ปี (USPSTF 2021) หรือ 50 ปีตามโครงการไทย · ช่วงห่าง: colonoscopy 10 ปี · FIT ทุกปี (โครงการไทย 1–2 ปี) · CT colonography หรือ sigmoidoscopy 5 ปี · หยุดคัดกรองตามสุขภาพหลังอายุ 75 ปี"
+   "คนเสี่ยงปกติเริ่ม 45 ปี (US) / 50 ปี (ไทย) ถึง 75 ปี",
+   "Colonoscopy ทุก 10 ปี · FIT ทุกปี · CT colonography/ flex sig ทุก 5 ปี",
+   "ผลบวกจากวิธีใดก็ตาม → colonoscopy",
+   "ญาติสายตรงเป็นมะเร็ง &lt; 60 ปี → colonoscopy ที่ 40 ปี/ 10 ปีก่อน ทุก 5 ปี",
+   "Lynch/ FAP → เริ่มเร็วและถี่กว่า",
+   "วิธีที่ดีที่สุดคือวิธีที่ผู้ป่วยทำจริง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์",
+  "mnemonic": "<b>'คัดกรองลำไส้: Colonoscopy = ดูทั้งเส้น + ตัด polyp ได้เลย'</b>",
+  "guide": "USPSTF Recommendation: Screening for Colorectal Cancer (JAMA 2021;325:1965); US Multi-Society Task Force on Colorectal Cancer Screening (Gastroenterology 2017;153:307)",
   "variants": [
-   "<b>นอกสไลด์:</b> FIT ผลบวก → colonoscopy ทุกราย (ไม่ตรวจ FIT ซ้ำ)",
-   "<b>นอกสไลด์:</b> ชาย 40 ปี พ่อเป็นมะเร็งลำไส้ใหญ่ตอนอายุ 48 ปี → เริ่ม colonoscopy ตอนอายุ 38 ปี (10 ปีก่อนอายุพ่อ) และส่องทุก 5 ปี"
+   "ชาย 50 ปีไม่มีอาการ ไม่มีประวัติครอบครัว → colonoscopy ทุก 10 ปี หรือ FIT ทุกปี",
+   "FIT บวก → colonoscopy",
+   "ส่องกล้องไม่ถึง cecum → CT colonography"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 59 — ตัวพิมพ์: <b>27. ข้อใดเป็นวิธีที่เหมาะสมที่สุดในการ screen colorectal CA — A. Stool occult blood B. Colonoscope C. CT D. Barium enema E. Sigmoidoscope</b><br>ลายมือ: ขีด B<br>ไฮไลต์: \"วิธีที่เหมาะสมที่สุดในการ screen colorectal CA\" · B (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 50: ขีด B (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 59",
+  "kimg": [
+   "fsk_p59",
+   "kp69c_27",
+   "k2p_50"
   ]
  },
  "MDCU69|RoC|28": {
-  "interp": "ข้อ NOT ถามสิ่งที่ไม่ใช่ลักษณะของ chronic anal fissure",
-  "why": "<b>คีย์: ขีด E · A–D ✓</b><br><b>นอกสไลด์:</b> ก้อนนิ่มบวมรอบทวาร (fluctuant) คือหนอง = perianal abscess ไม่ใช่ลักษณะของแผลปริขอบทวาร",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>ลักษณะของ <b>chronic anal fissure</b>",
+  "why": "Chronic anal fissure (&gt; 6–8 สัปดาห์) มีลักษณะ: <b>sentinel pile/ tag</b> ที่ขอบนอก, <b>hypertrophied anal papilla</b> ที่ขอบใน, <b>ขอบแผลแข็งเป็นพังผืด (fibrotic edge)</b>, เห็นใย internal sphincter ที่ก้นแผล และ<b>หูรูดภายในบีบเกร็ง (spasm)</b> เป็นกลไกหลัก · <b>ก้อนบวมกดเจ็บ fluctuate รอบทวาร</b> = <b>perianal abscess</b> ไม่ใช่ fissure · ไฟล์ขีด E (ผู้จดจำช้อยที่ตอบไม่ได้ เขียน \"...จำช้อยที่ตอบไม่ได้ 5555\") และติ๊ก ✓ ที่ A–D พร้อมแปะภาพถ่ายสไลด์ Anal fissure (สรุปลายมือ)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ sentinel pile ไม่ใช่ลักษณะของ chronic fissure เพราะผิวหนังปลายแผลด้านนอกบวมเป็นติ่งจากการอักเสบเรื้อรัง",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ขอบแผลแข็งไม่ใช่ลักษณะของ chronic fissure เพราะแผลที่เป็นนานเกิน 6–8 สัปดาห์มีขอบหนายกและเห็นใยกล้ามเนื้อ internal sphincter ที่ฐาน",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hypertrophic anal papilla ไม่ใช่ลักษณะของ chronic fissure เพราะ papilla ที่ปลายแผลด้านในบวมโตจากการอักเสบ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่หูรูดชั้นในเกร็งไม่ใช่ลักษณะของ chronic fissure เพราะความดันหูรูดที่สูงทำให้เลือดไปเลี้ยงแนวกลางด้านหลังลดลง แผลจึงไม่หาย"
+   "A": "เป็นลักษณะ — sentinel pile ที่ขอบนอกของแผล (ลายมือ ✓) · จะถูกถ้าคำถามถามลักษณะของ acute fissure (ไม่มี sentinel pile)",
+   "B": "เป็นลักษณะ — ขอบแผลแข็งเป็นพังผืด (ลายมือ ✓) · จะถูกถ้าคำถามถาม acute fissure ที่ขอบเรียบนุ่ม",
+   "C": "เป็นลักษณะ — hypertrophied anal papilla ที่ dentate line (ลายมือ ✓) · จะถูกถ้าคำถามถามลักษณะของริดสีดวงภายใน",
+   "D": "เป็นลักษณะ — หูรูดภายในบีบเกร็ง ทำให้ขาดเลือดและแผลไม่หาย (ลายมือ ✓) · จะถูกถ้าคำถามถามกลไกของ fissure ในหญิงหลังคลอดที่แรงบีบต่ำ"
   },
-  "trap": "ติ่งเนื้อนอก (sentinel pile) มักถูกคิดว่าเป็นริดสีดวงภายนอก — แหวกทวารดูจะเห็นแผลปริอยู่ด้านในต่อจากติ่ง",
+  "trap": "สับสนอาการปวดก้นจาก fissure กับฝี — ก้อน fluctuate = abscess",
   "summary": [
-   "<b>นอกสไลด์:</b> chronic fissure: แผลแนวกลาง (ส่วนใหญ่ด้านหลัง) นานเกิน 6–8 สัปดาห์ มี sentinel pile, hypertrophic papilla, เห็นใยหูรูด · รักษา: ยาระบายนุ่ม ใยอาหาร sitz bath → ยาทาคลายหูรูด (diltiazem, GTN) หรือ botulinum toxin → lateral internal sphincterotomy"
+   "Chronic fissure: sentinel pile · hypertrophied papilla · fibrotic edge · เห็นใยหูรูด",
+   "กลไก: แรงบีบหูรูดภายในสูง → ขาดเลือด",
+   "ตำแหน่ง: posterior midline (~90%) · anterior ในหญิงหลังคลอด",
+   "นอกแนวกลาง/ หลายแผล → Crohn, TB, HIV, syphilis, มะเร็ง",
+   "รักษา: ยา (NTG, CCB, Botox) → LIS",
+   "Perianal abscess: ก้อนบวม แดง fluctuate → I&amp;D"
   ],
-  "opinion": "ตามคีย์ E · มั่นใจปานกลาง (ช้อย E เติมโดย Claude เพราะผู้จดจำข้อความไม่ได้)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ผู้จดจำข้อความช้อย E ไม่ได้ เว็บจึงเติมเป็นลักษณะของฝีรอบทวาร",
+  "mnemonic": "<b>'Chronic fissure = ติ่ง (pile) + ปุ่ม (papilla) + ขอบแข็ง + หูรูดเกร็ง'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Dis Colon Rectum 2023;66:190)",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลปริขอบทวารด้านข้างหลายแผล ไม่ค่อยเจ็บ ร่วมถ่ายเหลวเรื้อรัง → ส่องกล้องหา Crohn disease",
-   "<b>นอกสไลด์:</b> หญิงหลังคลอดมี fissure ด้านหน้า ความดันหูรูดไม่สูง → ไม่ทำ sphincterotomy ใช้ยาทาหรือ advancement flap"
+   "แผลปริที่ 6 นาฬิกา มี sentinel pile 3 เดือน → CAF → NTG/ CCB → LIS",
+   "แผลปริด้านข้างหลายแผล ท้องเสีย → หา Crohn",
+   "ก้อนบวมกดเจ็บ fluctuate รอบทวาร ไข้ → perianal abscess → I&amp;D"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 59 — ตัวพิมพ์: <b>28. ข้อใดไม่ใช่ลักษณะของ chronic anal fissure — A. Sentinel pile B. Fibrotic edge C. Hypertrophic anal papilla D. Sphincter spasm E. ...จำช้อยที่ตอบไม่ได้ 5555</b><br>ลายมือ: ✓ ที่ A–D · ขีด E<br>ไฮไลต์: \"ไม่ใช่ลักษณะของ chronic anal fissure\" · A–D (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ Anal fissure (Etiology · Type: acute &amp; chronic · Physical examination · Secondary changes) พร้อมลายมือ — \"Hemorrhoid → painless, หยด/ dripping ทั้งขณะ-หลังถ่าย\" · \"เจ็บ เลือดสดมากับขี้/ เช็ดก้น → มีเลือด (เจ็บก้น) ถ่ายแล้วจิกถูก anoderm → แผล\" · \"แผลปริ/ ฉีกขาด at ปากทวารหนัก\" · \"80% post. midline · 10% ant. midline · 10% both\" · \"acute &lt; 6 wk แผลสด · chronic &gt; 8 wk เป็นๆหายๆ\" · <b>\"chronic: Secondary changes (อย่างน้อย 1-2 อัน)\"</b> — <b>sentinel pile \"นอกก้น\"</b> · <b>hypertrophic anal papilla \"ในก้น @ anal column\"</b> · <b>fibrotic edge \"ที่ขอบแผล\"</b> · <b>sphincter spasm \"ก้นแผลลึกจนเห็น int. sp.\"</b> · Dorsal subcutaneous fistula · \"Chronic เกิดจาก acute fissure เป็นๆหายๆ → int. sphincter spasm → blood supply ไม่ดี (ischemia) → แผลไม่หาย ∴ ต้อง Tx ischemia โดยทำให้หูรูดคลายตัว (sphincterotomy or medical treatment)\" · \"Chronic: เป็นๆหายๆ/ ต่อเนื่อง &gt; 8 wk or &gt; 6-8 wk + มี 2° changes\" · ภาพ Fibrotic Edge, Hypertrophied Anal Papilla, Exposed Muscle Fibers of IAS, Sentinel Pile<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 50: ขีด E (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย E จำไม่ได้ → เติม fluctuant perianal swelling",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 59",
+  "kimg": [
+   "fsk_p59",
+   "kp69c_28",
+   "k2p_50"
   ]
  },
  "MDCU69|RoC|29": {
-  "interp": "ถามฝีรอบทวารชนิดใดควรให้ยาปฏิชีวนะร่วม · คำตอบคือทุกข้อ",
-  "why": "<b>คีย์: ขีด E · ติ๊ก A–D</b><br><b>นอกสไลด์:</b> การระบายเป็นการรักษาหลักเสมอ · ยาปฏิชีวนะเพิ่มเมื่อการติดเชื้อออกนอกโพรงหนองหรือผู้ป่วยคุมการติดเชื้อเองไม่ได้: มีไข้หรือ sepsis, ฝีช่องลึก, cellulitis รอบ, ภูมิคุ้มกันต่ำ",
+  "interp": "ถาม anal abscess กรณีใด<b>ต้องให้ยาปฏิชีวนะร่วม</b>กับการระบาย",
+  "why": "ฝีรอบทวารรักษาหลักด้วย<b>การระบาย</b> · ยาปฏิชีวนะเสริมเมื่อมี: <b>อาการทั้งระบบ (ไข้/ sepsis)</b>, <b>ฝีลึก/ ซับซ้อน</b> (ischioanal/ horseshoe, supralevator), <b>cellulitis ลามรอบ</b>, <b>ภูมิคุ้มกันต่ำ</b> (เบาหวาน, HIV, เคมีบำบัด, steroid) และลิ้นหัวใจเทียม/ เสี่ยง endocarditis → ทุกข้อ A–D เป็นข้อบ่งชี้ → <b>All of the above</b> · ไฟล์ขีด E และติ๊ก ✓ ที่ A–D",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะไข้บ่งการติดเชื้อทั่วร่างกาย เป็นเพียงหนึ่งในหลายข้อบ่งชี้",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะฝีช่องลึก (ischioanal) หนองมาก ลามง่าย จึงมักให้ยาร่วม แต่ฝีตื้นที่มีข้อบ่งชี้อื่นก็ต้องให้เช่นกัน",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะ cellulitis รอบฝีคือเนื้อเยื่อติดเชื้อนอกโพรงหนองที่การระบายไม่ครอบคลุม — เป็นหนึ่งในหลายข้อบ่งชี้",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะเบาหวาน HIV หรือได้เคมีบำบัด ทำให้ติดเชื้อลามเร็วจนเนื้อตาย — เป็นหนึ่งในหลายข้อบ่งชี้"
+   "A": "เป็นข้อบ่งชี้ — ไข้/ อาการทั้งระบบ (ลายมือ ✓) · จะถูกถ้าคำถามถามข้อบ่งชี้เพียงข้อเดียวที่ชัดที่สุดของ sepsis",
+   "B": "เป็นข้อบ่งชี้ — ฝีลึก ischioanal ซับซ้อนกว่า (ลายมือ ✓) · จะถูกถ้าคำถามถามฝีที่มักต้องระบายในห้องผ่าตัด",
+   "C": "เป็นข้อบ่งชี้ — cellulitis ลามรอบ (ลายมือ ✓) · จะถูกถ้าคำถามถามข้อบ่งชี้ในผู้ป่วยแข็งแรงที่มีผิวแดงลาม",
+   "D": "เป็นข้อบ่งชี้ — ภูมิคุ้มกันต่ำ (ลายมือ ✓) · จะถูกถ้าคำถามถามผู้ป่วยเบาหวาน/ HIV ที่มีฝีรอบทวาร"
   },
-  "trap": "ยาปฏิชีวนะเป็นตัวเสริม ไม่ได้แทนการระบาย — ทุกข้อบ่งชี้ยังต้องระบายหนองก่อนเสมอ",
+  "trap": "เลือกข้อเดียว — ทุกข้อเป็นข้อบ่งชี้ให้ยาปฏิชีวนะเสริม",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาที่ใช้ครอบคลุม gram-negative และ anaerobe จากลำไส้ เช่น amoxicillin-clavulanate หรือ ciprofloxacin + metronidazole ระยะสั้น · ผู้ที่มีลิ้นหัวใจเทียมหรือเสี่ยง endocarditis ก็ให้ยาร่วมด้วย"
+   "ฝีรอบทวาร: ระบายเป็นหลัก",
+   "ATB เสริม: ไข้/ sepsis · cellulitis · ฝีลึก/ ซับซ้อน · ภูมิต่ำ · ลิ้นเทียม",
+   "Perianal/ intersphincteric = simple",
+   "Ischioanal (horseshoe)/ supralevator = complex",
+   "~30–50% เกิด fistula-in-ano",
+   "Fournier: ผิวม่วงคล้ำ crepitus → debride ด่วน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจปานกลาง (แนวทางระบุ cellulitis, อาการทั่วร่าง และภูมิคุ้มกันต่ำชัดเจน ส่วนฝีช่องลึกเป็นการตัดสินตามความรุนแรง)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และเครื่องหมาย ✓ ทุกช้อย",
+  "mnemonic": "<b>'ฝีก้นให้ยาเมื่อ: ไข้ · ลึก · ลาม · ภูมิต่ำ'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV CD4 ต่ำมีฝีรอบทวาร → ระบายร่วมยาปฏิชีวนะ และส่งหนองหาเชื้อที่ไม่ใช่แบคทีเรียทั่วไป (เช่น TB)",
-   "<b>นอกสไลด์:</b> ฝีรอบทวารขนาดเล็ก ระบายแล้ว ผู้ป่วยแข็งแรง ไม่มีไข้หรือ cellulitis → ไม่ต้องให้ยาปฏิชีวนะ"
+   "ชายแข็งแรง ฝีรอบทวารเล็ก ไม่มี cellulitis → I&amp;D อย่างเดียว",
+   "ผู้ป่วยเบาหวาน ฝี ischioanal ไข้ → ระบายในห้องผ่าตัด + IV ATB",
+   "ผู้ป่วยลิ้นหัวใจเทียม ฝีรอบทวาร → I&amp;D + ATB"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 59 — ตัวพิมพ์: <b>29. ข้อใดของ anal abscess ที่ต้องให้ ATB ร่วม — A. Fever B. Ischioanal abscess C. Cellulitis D. Immunocompromised host E. All of above</b><br>ลายมือ: ✓ ที่ A–D · ขีด E<br>ไฮไลต์: \"anal abscess ที่ต้องให้ ATB ร่วม\" · A–D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 50: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 59",
+  "kimg": [
+   "fsk_p59",
+   "kp69c_29",
+   "k2p_50"
   ]
  },
  "MDCU69|RoC|30": {
-  "interp": "ถามหลอดเลือดที่เป็นแขนงของ inferior mesenteric artery",
-  "why": "<b>คีย์: ขีด C · ลายมือ A, B, D = SMA</b><br><b>นอกสไลด์:</b> IMA มีแขนง left colic, sigmoid arteries (2–4 เส้น) และ superior rectal artery เลี้ยง colon ตั้งแต่ splenic flexure ถึง rectum ส่วนบน",
+  "interp": "ถามหลอดเลือดที่เป็นแขนงของ <b>inferior mesenteric artery (IMA)</b>",
+  "why": "<b>IMA</b> เลี้ยง <b>hindgut</b> (ลำไส้ใหญ่ส่วน 1/3 ปลายของ transverse ถึง rectum ส่วนบน) แตกแขนงเป็น <b>left colic, sigmoid arteries และ superior rectal artery</b> · ส่วน <b>SMA</b> เลี้ยง midgut แตกแขนง <b>ileocolic, right colic, middle colic</b> (และ jejunal/ ileal) · รอยต่อเลือดเลี้ยงที่ <b>splenic flexure (Griffiths point)</b> และ rectosigmoid (Sudeck point) เป็น watershed เสี่ยงขาดเลือด · Arc of Riolan (meandering/ wandering artery) เชื่อม middle colic กับ left colic · ไฟล์ขีด C ลายมือ A, B <b>\"SMA\"</b> D <b>\"SMA\"</b> E \"ระหว่าง middle - Lt. colic a.\" พร้อมแปะสไลด์ <b>\"Arterial supply · 2 systems: SMA and IMA (midgut, hindgut) · Transitional zone at splenic flexure\"</b>",
   "wrong": {
-   "A": "ไม่มีสถานการณ์ใดที่ middle colic artery เป็นแขนงของ IMA ในกายวิภาคปกติ เพราะแตกจาก SMA ใต้ตับอ่อน เลี้ยง transverse colon",
-   "B": "ไม่มีสถานการณ์ใดที่ right colic artery เป็นแขนงของ IMA ในกายวิภาคปกติ เพราะแตกจาก SMA เลี้ยง ascending colon",
-   "D": "ไม่มีสถานการณ์ใดที่ ileocolic artery เป็นแขนงของ IMA ในกายวิภาคปกติ เพราะเป็นแขนงปลายของ SMA เลี้ยง ileum ส่วนปลาย cecum และไส้ติ่ง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ wandering artery เป็นแขนงของ IMA เพราะเป็นหลอดเลือดเชื่อม (arc of Riolan) ระหว่าง middle colic ของ SMA กับ left colic ของ IMA — โตชัดเมื่อหลอดเลือดหลักตีบ"
+   "A": "Middle colic เป็นแขนงของ SMA (ลายมือ \"SMA\") · จะถูกถ้าคำถามถามหลอดเลือดที่ต้องผูกใน extended right hemicolectomy (มะเร็ง hepatic flexure/ transverse)",
+   "B": "Right colic เป็นแขนงของ SMA (ลายมือ \"SMA\") · จะถูกถ้าคำถามถามแขนงของ SMA ที่ไม่มีในทุกคน (พบ ~10–40%)",
+   "D": "Ileocolic เป็นแขนงสุดท้ายของ SMA (ลายมือ \"SMA\") · จะถูกถ้าคำถามถามหลอดเลือดที่ผูกใน right hemicolectomy/ appendectomy (appendicular a.)",
+   "E": "Wandering artery (arc of Riolan) เป็นทางเชื่อมระหว่าง middle colic (SMA) กับ left colic (IMA) ไม่ใช่แขนงของ IMA โดยตรง (ลายมือ \"ระหว่าง middle - Lt. colic a.\") · จะถูกถ้าคำถามถาม collateral ที่สำคัญเมื่อ IMA ตัน"
   },
-  "trap": "left colic artery (IMA) เลี้ยงไปถึง splenic flexure จึงจำสลับกับ middle colic (SMA) — ขอบเขตคือ midgut (SMA) ถึงราวสองในสามของ transverse colon ที่เหลือเป็น hindgut (IMA)",
+  "trap": "สับสน middle colic เป็นของ IMA — middle colic มาจาก SMA",
   "summary": [
-   "<b>นอกสไลด์:</b> SMA → ileocolic, right colic, middle colic · IMA → left colic, sigmoid (2–4 เส้น), superior rectal · middle rectal มาจาก internal iliac และ inferior rectal มาจาก internal pudendal",
-   "<b>นอกสไลด์:</b> จุดรอยต่อการเลี้ยงที่ขาดเลือดง่าย: splenic flexure (Griffiths point ระหว่าง SMA กับ IMA — ขาดเลือดในภาวะความดันต่ำ) และ rectosigmoid (Sudeck point)"
+   "SMA (midgut): jejunal/ ileal · ileocolic · right colic · middle colic",
+   "IMA (hindgut): left colic · sigmoid · superior rectal",
+   "Watershed: splenic flexure (Griffiths) · rectosigmoid (Sudeck)",
+   "Marginal artery of Drummond + arc of Riolan = collateral",
+   "Ischemic colitis มักเกิดที่ watershed",
+   "ผูก IMA ใน AAA repair/ sigmoidectomy → ระวัง ischemic colitis"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'IMA = L-S-S: Left colic · Sigmoid · Superior rectal'</b>",
+  "guide": "Gray's Anatomy 42nd ed. (2020) — Large intestine blood supply; Sabiston Textbook of Surgery 21st ed. (2022) — Colon and rectum",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัดหลอดเลือดแดงใหญ่ในท้องโป่งพองที่ผูก IMA วันที่ 2 ถ่ายเป็นเลือด → ischemic colitis ที่ sigmoid: ส่อง sigmoidoscopy",
-   "<b>นอกสไลด์:</b> ผ่าตัดมะเร็ง rectum ผูก IMA ที่โคน → ปลาย colon ที่จะต่อได้เลือดจาก middle colic ผ่าน marginal artery ต้องตรวจเลือดที่ปลายลำไส้ก่อนต่อ"
+   "มะเร็ง sigmoid → ผูก IMA (high ligation) ใน sigmoidectomy",
+   "ผู้สูงอายุหลังผ่าตัด AAA ถ่ายเป็นเลือด ปวดท้องซ้าย → ischemic colitis",
+   "มะเร็ง cecum → ผูก ileocolic + right colic ใน right hemicolectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 59 — ตัวพิมพ์: <b>30. Which arteries are branch of IMA — A. Middle colic artery B. Right colic artery C. Sigmoidal artery D. Ileocolic artery E. Wandering artery</b><br>ลายมือ: ปีกกา A–B \"SMA\" · ขีด C · D \"SMA\" · E \"↳ ระหว่าง middle - Lt. colic a.\"<br>ไฮไลต์: \"branch of IMA\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ Arterial supply — 2 systems: SMA and IMA (↳ midgut, ↳ hindgut) · Transitional zone at splenic flexure (ลายมือ \"blood น้อย (watershed) ∴ ไวต่อ SMA, IMA ขาด\") พร้อมภาพหลอดเลือดลำไส้ใหญ่และลายมือ (transverse colon, proximal transverse, descending colon, hindgut)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 50: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 59",
+  "kimg": [
+   "fsk_p59",
+   "kp69c_30",
+   "k2p_50"
   ]
  },
  "MDCU69|RoC|31": {
-  "interp": "ข้อ EXCEPT ถามข้อความที่ไม่ถูกเกี่ยวกับ sigmoid volvulus",
-  "why": "<b>คีย์: รูปแนบในไฟล์ ขีด C</b><br><b>นอกสไลด์:</b> sigmoid volvulus ที่ไม่มีลำไส้ขาดเลือดรักษาด้วยการส่องกล้องแก้บิดก่อน (เลี่ยงผ่าตัดฉุกเฉินในผู้สูงอายุที่เสี่ยงสูง) แล้วตัด sigmoid แบบ elective — ผ่าตัดฉุกเฉินเฉพาะเมื่อขาดเลือด ทะลุ หรือแก้บิดไม่สำเร็จ",
+  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>sigmoid volvulus</b>",
+  "why": "Sigmoid volvulus ที่<b>ไม่มีสัญญาณลำไส้ขาดเลือด/ เน่า/ peritonitis</b> รักษาเบื้องต้นด้วย<b>ส่องกล้องคลายเกลียว (flexible sigmoidoscopy) + ใส่ rectal tube</b> แล้วทำ <b>elective sigmoidectomy</b> ในการนอนโรงพยาบาลเดียวกัน ไม่ใช่ผ่าตัดฉุกเฉิน → ข้อ C ในเว็บผิด · ผ่าตัดฉุกเฉินเมื่อ<b>คลายไม่ได้หรือมีสัญญาณขาดเลือด</b>/ ทะลุ · ข้ออื่นถูก: coffee bean sign บนฟิล์ม, พบในผู้สูงอายุติดเตียง/ อยู่สถานดูแล ท้องผูกเรื้อรัง, sigmoid เป็นตำแหน่ง colonic volvulus ที่พบบ่อยที่สุด · ไฟล์แปะภาพโจทย์ต้นฉบับซึ่งช้อย C เขียนเป็นข้อถูก <b>\"If can't reduce or has signs of bowel ischemia, patient should go to operating room emergently\"</b> (ติ๊ก ✓) และขีด E โดยขีดฆ่า \"less than 50%\" แก้ลายมือเป็น <b>\"90%\"</b> — เว็บเรียบเรียงช้อย C, E ใหม่ ข้อผิดจึงย้ายมาอยู่ที่ C",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “หลังแก้บิดด้วยกล้องควรตัด sigmoid แบบ elective” ผิด เพราะถ้าไม่ตัด จะบิดซ้ำมากกว่าครึ่ง",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “เห็น coffee bean sign บน plain film” ผิด เพราะ sigmoid ที่บิดโป่งเป็นห่วงตัว U กลับหัว ผนังสองข้างชิดกันเป็นเส้นกลาง",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “พบมากในผู้สูงอายุในสถานดูแล” ผิด เพราะปัจจัยเสี่ยงหลักคือผู้สูงอายุติดเตียง ท้องผูกเรื้อรัง ยาจิตเวช และโรคระบบประสาท",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “เป็น colonic volvulus ส่วนใหญ่” ผิด เพราะ sigmoid ราว 60–75% ของ colonic volvulus"
+   "A": "ถูก — คลายด้วยกล้องแล้วตามด้วย elective sigmoidectomy เพราะกลับเป็นซ้ำ ~40–60% (ภาพในไฟล์ ✓) · จะถูกถ้าช้อยบอกว่าคลายเกลียวแล้วไม่ต้องผ่าตัดเลย",
+   "B": "ถูก — coffee bean (bent inner tube) sign บนฟิล์มท้อง (ภาพในไฟล์ ✓) · จะถูกถ้าช้อยบอกว่า coffee bean sign เป็นลักษณะของ cecal volvulus ที่ชี้ไปมุมซ้ายบน",
+   "D": "ถูก — ผู้สูงอายุติดเตียง ท้องผูกเรื้อรัง ใช้ยาจิตเวช (ภาพในไฟล์ ✓) · จะถูกถ้าช้อยบอกว่าพบมากในหญิงอายุน้อย (ลักษณะของ cecal volvulus)",
+   "E": "ถูก — sigmoid เป็น colonic volvulus ส่วนใหญ่ (~60–75% ในตะวันตก สูงกว่านั้นในพื้นที่ volvulus belt — ลายมือในไฟล์เขียน 90%) · จะถูกถ้าช้อยเขียนแบบต้นฉบับในไฟล์ว่า \"less than 50% of colonic volvulus\" ซึ่งเป็นข้อผิดของโจทย์ต้นฉบับ"
   },
-  "trap": "ข้อความ C จะถูกถ้าเป็น cecal volvulus — cecal volvulus ไม่ใช้กล้องแก้บิด ผ่าตัด right hemicolectomy แม้ไม่ขาดเลือด อย่าจำสลับ",
+  "trap": "คิดว่า volvulus ต้องผ่าตัดฉุกเฉินทุกราย — ไม่มีขาดเลือดให้คลายด้วยกล้องก่อน · และระวังว่าคีย์ในไฟล์ (E) ต่างจากเว็บ (C) เพราะเว็บเขียนช้อยใหม่",
   "summary": [
-   "<b>นอกสไลด์:</b> sigmoid volvulus ไม่มีขาดเลือด (ASCRS 2021): resuscitate → ส่องกล้องแก้บิด + คาสาย rectal tube → ตัด sigmoid ใน admission เดียวกันถ้าผ่าตัดได้ · ผู้สูงอายุที่ผ่าตัดไม่ได้ → แก้บิดซ้ำเมื่อเป็น หรือยึด sigmoid ผ่านกล้อง"
+   "Sigmoid volvulus: ผู้สูงอายุ ติดเตียง ท้องผูก · เป็น colonic volvulus ส่วนใหญ่",
+   "ฟิล์ม: coffee bean · CT: whirl sign · contrast: bird's beak",
+   "ไม่มีขาดเลือด → endoscopic detorsion + rectal tube → elective sigmoidectomy",
+   "ขาดเลือด/ ทะลุ/ คลายไม่ได้ → ผ่าตัดฉุกเฉิน (Hartmann)",
+   "Cecal volvulus → right hemicolectomy (ไม่ส่องคลาย)",
+   "กลับเป็นซ้ำหลังคลายอย่างเดียว ~40–60%"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ของเว็บ ความมั่นใจสูง — คีย์ในไฟล์ MCQ Key 2 คือ E เพราะภาพโจทย์ต้นฉบับเขียน C เป็นข้อถูก (คลายไม่ได้/ ขาดเลือด → ผ่าตัดด่วน) และ E \"less than 50%\" เป็นข้อผิด · เว็บกลับข้อความ C เป็น \"ไม่มีขาดเลือดก็ผ่าตัดด่วน\" (ผิด) และเขียน E เป็นข้อถูก คำตอบจึงเป็น C · ไฟล์ Key 1 ไม่ได้ขีด",
+  "mnemonic": "<b>'Sigmoid volvulus ไม่ขาดเลือด = ส่องคลายก่อน แล้วค่อยนัดตัด'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction (Dis Colon Rectum 2021;64:1046)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้สูงอายุติดเตียง sigmoid volvulus ครั้งที่สาม เสี่ยงผ่าตัดสูงมาก → แก้บิดด้วยกล้องแล้วยึด sigmoid กับผนังหน้าท้องผ่านกล้อง (percutaneous endoscopic colostomy)",
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ไตรมาสสามท้องอืดมาก AXR coffee bean ไม่มีสัญญาณขาดเลือด → ส่องกล้องแก้บิด"
+   "ผู้สูงอายุติดเตียง coffee bean ไม่มี peritonitis → sigmoidoscopic detorsion → elective sigmoidectomy",
+   "ส่องคลายไม่สำเร็จ หรือเห็นเยื่อบุดำคล้ำ → ผ่าตัดฉุกเฉิน",
+   "หญิงอายุน้อย ลำไส้โป่งชี้ไปซ้ายบน → cecal volvulus → right hemicolectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 59 — ตัวพิมพ์: <b>31. ข้อใดผิดเกี่ยวกับ Sigmoid vol</b> (ข้อความที่เหลือถูกภาพที่แปะบัง ไม่มีช้อยตัวพิมพ์)<br>รูปที่แปะ: ภาพโจทย์ต้นฉบับ <b>\"24. All of the followings are true according to sigmoid volvulus EXCEPT. A. Reduction and bowel decompression by flexible sigmoidoscopy should be followed by elective sigmoidectomy. B. Coffee bean sign is seen in acute abdomen series. C. If can't reduce or has signs of bowel ischemia, patient should go to operating room emergently. D. Mostly occurs in the elderly and institutionalizes patient. E. Accounts for less than 50% of colonic volvulus\"</b><br>ลายมือ: ✓ ที่ A–D · ขีด E · ขีดฆ่า \"less than 50%\" เขียน \"90%\"<br>ไฮไลต์: \"true according to sigmoid volvulus EXCEPT\" · คำสำคัญใน A–D (ส้ม) · E (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 50: ไม่มีขีด<br>ที่ปรับในเว็บ: เขียนช้อย C เป็น \"ไม่มีขาดเลือดก็ผ่าตัดด่วน\" (ข้อผิด) และ E เป็น \"เป็น colonic volvulus ส่วนใหญ่\" → คำตอบเว็บ C (คีย์ไฟล์ E)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 59",
+  "kimg": [
+   "fsk_p59",
+   "kp69c_31",
+   "k2p_50"
   ]
  }
 }
