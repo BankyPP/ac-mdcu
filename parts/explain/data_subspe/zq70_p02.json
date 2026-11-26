@@ -1,219 +1,399 @@
 {
  "MDCU70|RoA|37": {
-  "interp": "US พบถุงน้ำที่ไตมีหินปูนภายใน → ไม่ใช่ simple cyst ต้องจัดกลุ่ม Bosniak ถามขั้นต่อไป",
-  "why": "<b>P'Ing วง C ✓ with contrast · Bosniak II = ต้อง Ix ต่อ</b><br><b>นอกสไลด์:</b> การแบ่ง Bosniak อาศัยการเพิ่มสีของผนังและผนังกั้น ซึ่งต้องดูด้วย CT หรือ MRI ที่ฉีดสี · US บอกการเพิ่มสีไม่ได้และหินปูนบังเงาส่วนที่อยู่ข้างหลัง",
+  "interp": "US พบ<b>ถุงน้ำที่ไตมีหินปูนข้างใน</b> (ไม่ใช่ simple cyst) → ถามขั้นต่อไป",
+  "why": "ถุงน้ำที่ไตที่<b>ไม่เข้าเกณฑ์ simple cyst</b> บน US (มีหินปูน ผนัง/ ผนังกั้น หนา มีเนื้อ) ต้องจำแนกด้วย <b>Bosniak classification</b> ซึ่งต้องใช้ <b>CT (หรือ MRI) แบบฉีดสารทึบรังสีหลายเฟส</b> เพื่อดูว่ามีส่วนที่ enhance (เสี่ยงมะเร็ง) หรือไม่ · US บอก enhancement ไม่ได้ และหินปูนบดบังรายละเอียด · ผล CT นำไปสู่: I–II ไม่ต้องติดตาม · IIF ติดตามด้วย CT/ MRI · III–IV (มีส่วน enhance) ผ่าตัด (มักเป็น partial nephrectomy) หรือ active surveillance ในก้อนเล็ก · ไฟล์ P'Ing วง C และลายมือ <b>\"✓ with contrast\"</b> กับ <b>\"BOSNIAK II = ต้อง Ix ต่อ\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้า US เห็นถุงน้ำธรรมดา: ผนังบางเรียบ น้ำใส ไม่มีผนังกั้น ไม่มีหินปูน (Bosniak I)",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การติดตามด้วย US ใช้แทนการจัดกลุ่ม Bosniak ของถุงน้ำที่มีหินปูน เพราะ US ดูการเพิ่มสีไม่ได้ (การติดตาม IIF ใช้ CT หรือ MRI)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า CT เป็น Bosniak III–IV (ผนังหรือผนังกั้นหนาไม่เรียบเพิ่มสี หรือมีเนื้อ solid เพิ่มสี) ขนาดเหมาะกับการเก็บไต",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นถุงน้ำธรรมดาขนาดใหญ่ที่ทำให้ปวดหรือกดกรวยไต → ดูดน้ำออกแล้วฉีดสารให้ผนังติด"
+   "A": "ปล่อยไว้ได้เฉพาะ simple cyst (Bosniak I) ที่ US ชัดเจน: ใส ไม่มีเสียงสะท้อนภายใน ผนังบาง เรียบ ไม่มีหินปูน · จะถูกถ้า US พบถุงน้ำที่ไตใส ผนังบาง เสียงผ่านดี (posterior enhancement) ไม่มีผนังกั้น",
+   "B": "การนัด US ซ้ำไม่จำแนกความเสี่ยงได้ และการติดตามตามแนวทางใช้ CT/ MRI · จะถูกถ้า CT จัดเป็น Bosniak IIF แล้ว (ติดตามด้วย CT/ MRI ที่ 6 เดือน 12 เดือน แล้วปีละครั้งถึง 5 ปี)",
+   "D": "ยังไม่รู้ว่าเป็นถุงน้ำกลุ่มเสี่ยงหรือไม่ จะผ่าตัดเลยไม่ได้ · จะถูกถ้า CT พบ Bosniak III–IV ขนาด ≤ 4 cm (มีผนัง/ ก้อนเนื้อที่ enhance) ในผู้ป่วยแข็งแรง",
+   "E": "ห้ามเจาะถุงน้ำที่สงสัยมะเร็ง (เสี่ยงเซลล์กระจาย และเจาะได้ผลลบลวง) · จะถูกถ้า simple cyst ขนาดใหญ่ที่ทำให้ปวดหรือกดท่อไต (เจาะดูด + ฉีด sclerosant)"
   },
-  "trap": "หินปูนบาง ๆ ในผนังถุงน้ำส่วนใหญ่ไม่ร้าย — แต่ตัดสินจาก US ไม่ได้ ต้องฉีดสีก่อน",
+  "trap": "นัด US ซ้ำ — ถุงน้ำที่ไม่ใช่ simple cyst ต้องจำแนกด้วย CT/ MRI แบบฉีดสีก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> Bosniak: I–II ไม่ร้าย ไม่ต้องติดตาม · IIF ติดตามด้วย CT/MRI · III ราวครึ่งเป็นมะเร็ง → ผ่าตัดหรือติดตามใกล้ชิด · IV ส่วนใหญ่เป็นมะเร็ง → ผ่าตัด"
+   "Renal cyst ที่ไม่ใช่ simple → CT/ MRI multiphase จัด Bosniak",
+   "Bosniak I–II: ไม่ต้องติดตาม",
+   "Bosniak IIF: ติดตาม CT/ MRI (6 เดือน, 12 เดือน, ปีละครั้งถึง 5 ปี)",
+   "Bosniak III: ~50% มะเร็ง · IV: ~90% มะเร็ง → ผ่าตัด/ active surveillance",
+   "ไม่เจาะดูดถุงน้ำที่สงสัยมะเร็ง",
+   "Bosniak 2019: เกณฑ์ enhancement > 20 HU และความหนาผนัง/ ผนังกั้น"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C ✓ \"with contrast\" ในไฟล์ · ลายมือ \"Bosniak II = ต้อง Ix ต่อ\" ควรอ่านว่าถุงน้ำนี้ต้องส่ง CT เพื่อจัดกลุ่มก่อน เพราะ Bosniak II ที่ยืนยันด้วย CT แล้วไม่ต้องติดตาม (กลุ่มที่ต้องติดตามคือ IIF)",
+  "mnemonic": "<b>'Bosniak: 1–2 ปล่อย · 2F Follow · 3–4 ผ่า'</b>",
+  "guide": "Silverman SG et al. Bosniak Classification of Cystic Renal Masses, Version 2019 (Radiology 2019;292:475); AUA Guideline: Renal Mass and Localized Renal Cancer (2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยไตเสื่อมและแพ้สารทึบรังสีไอโอดีน มีถุงน้ำไตที่ต้องจัดกลุ่ม → MRI ฉีด gadolinium (หรือ US ฉีดสารทึบ microbubble) แทน CT"
+   "US พบถุงน้ำที่ไตใส ผนังบาง ไม่มีหินปูน → simple cyst ไม่ต้องทำอะไร",
+   "CT พบถุงน้ำที่ไตมีผนังกั้นหนา enhance ขนาด 3 cm → Bosniak III → partial nephrectomy",
+   "CT พบถุงน้ำมีผนังกั้นบางหลายเส้นหินปูนเล็กน้อยไม่ enhance → Bosniak IIF → ติดตาม CT"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 4 — ตัวพิมพ์: <b>37. ทำ US พบ cystic lesion with internal calcification what to do next? — A. Do nothing B. F/U US 6 month C. CT scan D. Partial Nephrectomy E. Aspirate cyst</b><br>ลายมือ: \"BOSNIAK II = ต้อง Ix ต่อ\" (เหนือโจทย์) · C \"✓ with contrast\"<br>ไฮไลต์: วง C · \"cystic lesion\" \"internal calcification\"<br>ที่ปรับในเว็บ: C เขียนเป็น contrast-enhanced CT ตามลายมือ",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 4",
+  "kimg": [
+   "fsp_p4",
+   "kp70a_37"
   ]
  },
  "MDCU70|RoA|39": {
-  "interp": "ชาย 25 ปีอัณฑะขวาโต 6 cm ไม่เจ็บ → สงสัยมะเร็งอัณฑะ ถามขั้นต่อไป",
-  "why": "<b>P'Ing วง A ✓ + tumor marker β-hCG & AFP · B, C biopsy is contraindicated · swollen testis + painless → R/O cancer</b><br><b>นอกสไลด์:</b> US ถุงอัณฑะแยกได้ว่าก้อนอยู่ในเนื้ออัณฑะ (สงสัยมะเร็ง) หรือนอกอัณฑะ (hydrocele, epididymis) ไวเกือบ 100% · เจาะ marker (AFP, β-hCG, LDH) ก่อนผ่าตัด",
+  "interp": "ชายไทย 25 ปี ถุงอัณฑะหนัก อัณฑะขวาโต 6 cm <b>ไม่เจ็บ</b> → ถามขั้นต่อไป",
+  "why": "อัณฑะโตแข็ง<b>ไม่เจ็บ</b>ในชายวัย 15–40 ปี ต้อง<b>นึกถึงมะเร็งอัณฑะ</b>จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ขั้นแรกคือ <b>scrotal ultrasound</b> (ไวเกือบ 100%: เห็นบริเวณ hypoechoic ภายใน tunica albuginea) ร่วมกับเจาะ <b>tumor markers (AFP, β-hCG, LDH)</b> ก่อนผ่าตัด → ถ้ายืนยันเป็นก้อนเนื้อในอัณฑะ ทำ <b>radical inguinal orchiectomy</b> (ผูก spermatic cord ที่ internal ring) ซึ่งเป็นทั้งการวินิจฉัยและรักษา · <b>ห้ามเจาะชิ้นเนื้อ/ ผ่าผ่านถุงอัณฑะ</b> เพราะทำให้มะเร็งลามสู่ต่อมน้ำเหลืองขาหนีบ (ทางระบายของผิวถุงอัณฑะ) · ไฟล์ P'Ing วง A และลายมือ <b>\"swollen testis + painless → R/O cancer\"</b> \"+ tumor marker β-hCG &amp; AFP\" \"biopsy is contraindx.\"",
   "wrong": {
-   "B": "P'Ing: biopsy contraindicated — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เจาะดูดก้อนอัณฑะผ่านถุงอัณฑะเพื่อวินิจฉัย เพราะเปลี่ยนทางลามของมะเร็งจากต่อมน้ำเหลืองหลังช่องท้องไปขาหนีบ",
-   "C": "P'Ing: biopsy contraindicated — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ core needle เป็นขั้นวินิจฉัยก้อนอัณฑะ เพราะการวินิจฉัยทำพร้อมการรักษาด้วยการตัดอัณฑะทางขาหนีบ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ตัดอัณฑะผ่านถุงอัณฑะสำหรับก้อนสงสัยมะเร็ง เพราะต้องผูกสายอัณฑะที่ internal ring ก่อนแตะก้อนและไม่ผ่าผิวถุงอัณฑะ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้า US ยืนยันก้อน solid ในเนื้ออัณฑะและเจาะ marker แล้ว — เป็นขั้นถัดไป"
+   "B": "ห้ามเจาะผ่านถุงอัณฑะ (ลายมือ \"biopsy is contraindx.\") เสี่ยงเซลล์มะเร็งฝังและลามทางต่อมน้ำเหลืองขาหนีบ · จะถูกถ้าก้อนอยู่นอกอัณฑะ เช่น ต่อมน้ำเหลืองที่คอโตในผู้ป่วยที่สงสัยมะเร็งกระจาย",
+   "C": "Core biopsy ผ่านถุงอัณฑะห้ามเช่นเดียวกัน · จะถูกถ้าเป็นก้อนเต้านมที่ US สงสัยมะเร็ง (BI-RADS 4–5)",
+   "D": "ผ่าตัดผ่านถุงอัณฑะผิดแนวทาง ทำให้ต่อมน้ำเหลืองขาหนีบเสี่ยง และยังไม่ได้ยืนยันด้วย US/ markers · จะถูกถ้าเป็นอัณฑะบิดที่ตายแล้ว (ผ่าตัดทางถุงอัณฑะเอาออก)",
+   "E": "เป็นการรักษาที่ถูกต้องหลังยืนยันก้อนเนื้อในอัณฑะด้วย US และเจาะ markers แล้ว แต่ยังไม่ใช่ขั้นต่อไปทันที · จะถูกถ้า US ยืนยันก้อน hypoechoic ในอัณฑะและเจาะ AFP/ β-hCG/ LDH แล้ว"
   },
-  "trap": "radical inguinal orchidectomy เป็นการรักษาที่ถูก แต่ \"next step\" คือ US + marker ก่อน",
+  "trap": "กระโดดไปผ่าตัดเลยหรือเจาะชิ้นเนื้อ — ต้อง US + markers ก่อน และผ่าตัดทางขาหนีบเท่านั้น",
   "summary": [
-   "<b>นอกสไลด์:</b> seminoma ล้วน AFP ไม่สูงเลย · หลังตัดอัณฑะ ตรวจ marker ซ้ำและ CT ท้อง/ทรวงอกเพื่อ staging · เก็บอสุจิแช่แข็งก่อนการรักษาที่กระทบการเจริญพันธุ์"
+   "อัณฑะโตไม่เจ็บ → R/O มะเร็ง → scrotal US + AFP, β-hCG, LDH",
+   "รักษา/ วินิจฉัย: radical inguinal orchiectomy",
+   "ห้ามเจาะชิ้นเนื้อหรือผ่าผ่านถุงอัณฑะ",
+   "Seminoma: AFP ปกติเสมอ · AFP สูง = non-seminoma",
+   "ปัจจัยเสี่ยง: อัณฑะค้าง (cryptorchidism) · ประวัติครอบครัว",
+   "Staging: CT ท้อง/ เชิงกราน + ทรวงอก · markers หลังผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง A และลายมือในไฟล์ (US + tumor markers ก่อน orchiectomy)",
+  "mnemonic": "<b>'อัณฑะโต ไม่เจ็บ = มะเร็งไว้ก่อน → US + markers → ผ่าทางขาหนีบ ห้ามผ่าถุง'</b>",
+  "guide": "EAU Guidelines on Testicular Cancer 2024; AUA/ ASTRO Guideline: Diagnosis and Treatment of Early-Stage Testicular Cancer (2019, amended 2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผลชิ้นเนื้อเป็น seminoma ล้วน แต่ AFP ในเลือดสูง → มีส่วน nonseminoma ซ่อนอยู่ รักษาแบบ NSGCT",
-   "<b>นอกสไลด์:</b> ชายหนุ่มก้อนอัณฑะ ร่วมหอบ ไอเป็นเลือด β-hCG สูงมาก ปอดมีก้อนหลายก้อน → เริ่มเคมีบำบัดได้ก่อนตัดอัณฑะ"
+   "US พบก้อน hypoechoic ในอัณฑะ AFP สูง → radical inguinal orchiectomy (non-seminoma)",
+   "ชาย 30 ปีก้อนอัณฑะ AFP ปกติ β-hCG สูงเล็กน้อย → seminoma ได้",
+   "ชายหนุ่มถุงอัณฑะบวม ส่องไฟทะลุ อัณฑะคลำปกติ → hydrocele (US ยืนยันว่าอัณฑะปกติ)"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 4 — ตัวพิมพ์: <b>39. Thai male 25 years with heaviness in scrotal sac. Physical examination : enlarge testis 6 cm without tenderness. What should you do in the next step ? — A. Scrotal ultrasound B. FNA C. Core needle biopsy D. Rt. Scrotal orchidectomy E. Rt. Inguinal orchidectomy</b><br>ลายมือ: \"swollen testis + painless → R/O cancer\" · A \"+ tumor marker → βHCG &amp; AFP\" · ปีกกา B–C \"biopsy is contraindx.\" (แดง)<br>ไฮไลต์: วง A · \"male 25 years\" \"heaviness in scrotal sac\" \"enlarge testis 6 cm\" \"without tenderness\"<br>รูปที่แปะ: สไลด์ Diagnosis — Scrotal examination: solid testicular mass (→ painless) · Ultrasonography: any hypoechoic area within tunica albuginea → marked suspicious for testicular cancer (ภาพ US 2 ภาพ) · Serum tumor markers (→ ช่วย tx: ใช้ staging) β-hCG, AFP, LDH · ภาพเล็กข้างช้อย D–E เรื่อง inguinal orchiectomy",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 4",
+  "kimg": [
+   "fsp_p4",
+   "kp70a_39"
   ]
  },
  "MDCU70|RoA|40": {
-  "interp": "เด็กชาย 1 ขวบหนังหุ้มปลายรูดไม่ลง ไม่เคยติดเชื้อ ปัสสาวะปกติ → physiologic phimosis ถามการจัดการ",
-  "why": "<b>P'Ing วง D ✓ physiologic phimosis · observe ต่อได้</b><br><b>นอกสไลด์:</b> หนังหุ้มปลายยึดติดกับ glans ตามธรรมชาติตั้งแต่เกิด และค่อย ๆ แยกออกเองเมื่อโต — ส่วนใหญ่รูดได้ในวัยเรียน ไม่ต้องรักษาถ้าไม่มีปัญหา",
+  "interp": "เด็กชาย 1 ปี รูดหนังหุ้มปลายลงไม่ได้ <b>ไม่เคยติดเชื้อ ปัสสาวะปกติ</b> → ถามการจัดการ",
+  "why": "หนังหุ้มปลายรูดไม่ลงในเด็กเล็กเป็น <b>physiologic phimosis</b> (หนังด้านในยังติดกับหัวองคชาตตามพัฒนาการปกติ) · ~90% แยกออกได้เองภายใน<b>อายุ 4 ปี</b> จาก smegma และการแข็งตัวเป็นพัก ๆ เหลือเพียง ~1% ที่อายุ 17 ปี · เด็กไม่มีอาการ ไม่ติดเชื้อ ปัสสาวะปกติ → <b>สังเกตอาการ ให้คำแนะนำผู้ปกครอง</b> ทำความสะอาดโดยไม่ดึงแรง · ให้ topical steroid เมื่อมีอาการหรือยังเป็นหลัง 4 ปี · ขลิบเมื่อใช้ยาไม่ได้ผล หรือเป็น pathologic phimosis (แผลเป็นวงขาว BXO) หรือ balanoposthitis ซ้ำ/ UTI ซ้ำ · ไฟล์ P'Ing วง D และลายมือ <b>\"✓ physiologic phimosis\"</b> \"observe ต่อได้\"",
   "wrong": {
-   "A": "P'Ing: failed topical steroid — <b>นอกสไลด์:</b> จะถูกถ้าปลายหนังหุ้มเป็นวงขาวแข็งเป็นพังผืด (lichen sclerosus/BXO) ทายา steroid ครบแล้วไม่ได้ผล หรืออักเสบซ้ำหลายครั้ง",
-   "B": "P'Ing: persisted after 4 y/o — <b>นอกสไลด์:</b> จะถูกถ้าเด็กอายุราว 4 ปีขึ้นไปหนังหุ้มยังรูดไม่ได้และมีปัญหา (โป่งมาก ปัสสาวะลำบาก อักเสบ) — ทา steroid 4–8 สัปดาห์",
-   "C": "P'Ing: infection — <b>นอกสไลด์:</b> จะถูกถ้าหนังหุ้มบวมแดงมีหนอง (balanoposthitis)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ควรรูดหนังหุ้มฝืน เพราะทำให้ฉีกขาดเป็นแผลเป็นจนกลายเป็น phimosis ถาวร และเสี่ยง paraphimosis"
+   "A": "ขลิบเป็นการรักษาเมื่อใช้ steroid ไม่ได้ผลหรือเป็น pathologic phimosis (ลายมือ \"x failed topical steroid\") · จะถูกถ้าเด็ก 6 ปีหนังหุ้มปลายตีบเป็นแผลเป็นวงขาว ทา steroid 6–8 สัปดาห์ไม่ดีขึ้น",
+   "B": "Topical steroid ใช้เมื่อมีอาการหรือยังรูดไม่ได้หลังอายุ 4 ปี (ลายมือ \"x persisted after 4 y/o\") · จะถูกถ้าเด็ก 5 ปีหนังหุ้มปลายยังรูดไม่ได้ ปัสสาวะแล้วโป่ง (ballooning)",
+   "C": "ยาปฏิชีวนะใช้เมื่อมีการติดเชื้อ (ลายมือ \"x infection\") · จะถูกถ้าเด็กมีปลายองคชาตบวมแดง มีหนอง (balanoposthitis)",
+   "E": "การดึงหนังหุ้มปลายด้วยแรงทำให้ฉีกขาด เกิดแผลเป็น กลายเป็น pathologic phimosis · จะถูกถ้าเป็น paraphimosis (หนังรูดค้างรัดหลังหัวองคชาต) → บีบลดบวมแล้วดันหัวองคชาตกลับ"
   },
-  "trap": "หนังหุ้มโป่งเวลาปัสสาวะ และก้อนขาวใต้หนังหุ้ม (smegma) ในเด็กเล็กเป็นเรื่องปกติ ไม่ใช่ข้อบ่งชี้ผ่าตัด",
+  "trap": "เห็นรูดไม่ลงแล้วสั่งขลิบหรือยาเลย — เด็ก &lt; 4 ปีที่ไม่มีอาการเป็นภาวะปกติ",
   "summary": [
-   "<b>นอกสไลด์:</b> บอกพ่อแม่ไม่ให้รูดฝืน ทำความสะอาดเฉพาะส่วนที่รูดได้ · ทารกที่มีความผิดปกติทางเดินปัสสาวะและติดเชื้อซ้ำ การขลิบช่วยลดการติดเชื้อได้"
+   "Physiologic phimosis: ~90% หายเองภายใน 4 ปี · เหลือ ~1% ที่ 17 ปี",
+   "ไม่มีอาการ → สังเกต ให้ความมั่นใจผู้ปกครอง ไม่ดึงแรง",
+   "Topical steroid (0.1% triamcinolone/ betamethasone): มีอาการหรือยังเป็นหลัง 4 ปี",
+   "ขลิบ: steroid ไม่ได้ผล · pathologic phimosis (BXO) · balanoposthitis/ UTI ซ้ำ",
+   "Pathologic phimosis: แผลเป็นวงขาวที่ปลายหนัง",
+   "Paraphimosis = ภาวะฉุกเฉิน → manual reduction"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับวง D ✓ และสรุปลายมือที่แปะในไฟล์",
+  "mnemonic": "<b>'Phimosis เด็ก &lt; 4 ขวบ = รอ (90% หายเอง)'</b>",
+  "guide": "EAU Guidelines on Paediatric Urology 2024 — Phimosis",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กชายหนังหุ้มถูกรูดค้างหลัง glans บวมเจ็บ (paraphimosis) → บีบลดบวมแล้วดันกลับด้วยมือทันที ไม่ได้ผลผ่าหนังหุ้ม (dorsal slit)"
+   "เด็ก 6 ปีหนังหุ้มปลายรูดไม่ได้ ปัสสาวะแล้วโป่ง → topical steroid",
+   "เด็ก 8 ปีหนังหุ้มปลายเป็นแผลเป็นวงขาวแข็ง → pathologic phimosis → ขลิบ",
+   "เด็กรูดหนังค้าง หัวองคชาตบวมรัด → paraphimosis → manual reduction"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 4 — ตัวพิมพ์: <b>40. A 1 year-old boy มาด้วยไม่สามารถดึง prepuce ลงมาได้ ไม่เคยมีประวัติการติดเชื้อมาก่อน ยังปัสสาวะได้ปกติ ควรทำอย่างไร? — A. Circumcision B. Topical steroid C. Topical antibiotics D. รอให้อายุครบ 4 ปี E. ให้ยาชาแล้วดึง prepuce ให้เปิดออก</b><br>ลายมือ: \"phimosis\" · \"observe ต่อได้\" · A \"x failed topical steroid\" · B \"x persisted after 4 y/o\" · C \"x infection\" (แดง) · D \"✓ physiologic phimosis\"<br>ไฮไลต์: วง D · \"1 year-old boy\" \"ไม่สามารถดึง prepuce ลงมาได้\" \"ไม่เคยมีประวัติการติดเชื้อมาก่อน ยังปัสสาวะได้ปกติ\"<br>รูปที่แปะ: สรุปลายมือ ★Phimosis★ — Definition: prepuce unability to retract till all of glans penis expose · Classification 1) Physiologic: cause connection of inner surface of prepuce to glans penis (normal developmental process); prevalence 90% spontaneously solved due to smegma and intermittent erection w/n 4 yo, only 1% left at 17 yo; usu asx until Cpx developed · 2) Pathologic: chronic recurrent balanoposthitis, other infection, inflam → scar at prepuce ending; suggest other diseases eg. HIV infection; chronic irritation → ↑ risk of CA penis · Complication: urine collection (bulging when urination), balanoposthitis, paraphimosis · Management: physiologic — hygiene (clean inner surface, gently reduced b/c trauma can cause pathologic phimosis), parental concern → reassure, topical steroid [0.1% triamcinolone acetate cream] Indx: sx physiologic phimosis, persistent after 4 yo; apply slightly bid after showering, circumcision Indx: fail topical steroid usage · pathologic — Tx infection, Bx for evaluating CA, circumcision<br>ที่ปรับในเว็บ: ช้อย D \"รอให้อายุครบ 4 ปี\" เขียนเป็น observe until about 4 years",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 4",
+  "kimg": [
+   "fsp_p4",
+   "kp70a_40"
   ]
  },
  "MDCU70|RoA|43": {
-  "interp": "หญิงปัสสาวะแสบ มีเลือด กดเจ็บเหนือหัวหน่าวเล็กน้อย ไม่มีไข้ ปัสสาวะมีเม็ดเลือดแดง เม็ดเลือดขาว แบคทีเรีย → cystitis ไม่ซับซ้อน ถามการรักษา",
-  "why": "<b>P'Ing วง A · lower UTI · cystitis → ascending infx → pyelonephritis</b><br><b>นอกสไลด์:</b> cystitis ในผู้หญิงที่ไม่ตั้งครรภ์ ไม่มีไข้ ไม่มีโครงสร้างผิดปกติ รักษาด้วยยากินระยะสั้นตามเชื้อที่คาดได้ (E. coli) ไม่ต้องตรวจภาพ · ปัสสาวะเป็นเลือดจาก cystitis หายพร้อมการติดเชื้อ",
+  "interp": "หญิงปัสสาวะแสบ ปัสสาวะเป็นเลือด กดเจ็บเหนือหัวหน่าวเล็กน้อย <b>ไม่มีไข้</b> UA: RBC, WBC, แบคทีเรียมาก → ถามการรักษา",
+  "why": "ปัสสาวะแสบ + กดเจ็บเหนือหัวหน่าว + UA มี pyuria/ bacteriuria <b>ไม่มีไข้ ไม่ปวดสีข้าง</b> = <b>acute uncomplicated cystitis</b> (lower UTI) · ปัสสาวะเป็นเลือดพบได้บ่อยใน cystitis (hemorrhagic cystitis) ไม่ได้ทำให้เป็น complicated · รักษาด้วย<b>ยากินระยะสั้น</b> แล้วดูอาการ (ปัจจุบันแนะนำ nitrofurantoin 5 วัน, fosfomycin ครั้งเดียว, TMP-SMX 3 วัน · fluoroquinolone เก็บไว้เป็นทางเลือกรอง) · ไม่ต้องเพาะเชื้อหรือทำภาพในรายไม่ซับซ้อน · ถ้าเลือดในปัสสาวะยังไม่หายหลังรักษา → ตรวจหา hematuria ต่อ · ไฟล์ P'Ing วง A และลายมือ <b>\"lower UTI\"</b> \"cystitis → ascending infx → pyelonephritis\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ามีไข้ ปวดสีข้าง เคาะหลังเจ็บ อาเจียนกินยาไม่ได้ (pyelonephritis) — ยาฉีด และ US ดูการอุดตันถ้ามีปัจจัยเสี่ยงหรือไม่ดีขึ้น",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าหลังรักษาการติดเชื้อหายแล้วตรวจปัสสาวะซ้ำยังมีเม็ดเลือดแดง ในผู้สูงอายุหรือสูบบุหรี่ → หามะเร็งทางเดินปัสสาวะ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าติดเชื้อมีไข้ร่วมลิ่มเลือดอุดกระเพาะจนปัสสาวะไม่ออก (clot retention) — ใส่สายสามทางล้างกระเพาะ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ผู้หญิงมีอาการ cystitis ไม่ซับซ้อนต้องรอผลเพาะเชื้อก่อนรักษา เพราะเชื้อคาดเดาได้และอาการทุเลาเร็วด้วยยา"
+   "B": "ยาฉีด + US เป็นการดูแล pyelonephritis ที่ต้องนอนโรงพยาบาล · จะถูกถ้าหญิงมีไข้สูง หนาวสั่น ปวดสีข้าง เคาะหลังเจ็บ (CVA tenderness) อาเจียนกินยาไม่ได้",
+   "C": "CT urography + cystoscopy เป็นการตรวจ hematuria ที่ยังอยู่หลังรักษาการติดเชื้อแล้ว ไม่ใช่ทำทุกราย · จะถูกถ้าหญิงอายุ ≥ 35–40 ปี สูบบุหรี่ ปัสสาวะยังมีเลือดหลังรักษา UTI หายแล้ว",
+   "D": "ใส่สายสวน + ล้างกระเพาะปัสสาวะต่อเนื่องใช้เมื่อมีลิ่มเลือดอุดตัน · จะถูกถ้าผู้ป่วยปัสสาวะเป็นเลือดมีลิ่ม ปัสสาวะไม่ออก (clot retention)",
+   "E": "Cystitis ไม่ซับซ้อนในหญิงไม่ต้องรอผลเพาะเชื้อ ให้ยาตามประสบการณ์ได้เลย · จะถูกถ้าเป็น UTI ซ้ำ/ ซับซ้อน ตั้งครรภ์ ผู้ชาย หรือไม่ตอบสนองต่อยาแรก (เพาะเชื้อก่อนให้ยา แต่ยังไม่ต้องรอผล)"
   },
-  "trap": "ปัสสาวะเป็นเลือดชวนให้ส่งตรวจภาพ/ส่องกล้อง — ใน cystitis ไม่ซับซ้อนให้รักษาก่อน แล้วตรวจซ้ำเฉพาะเมื่อเลือดยังอยู่หลังหาย",
+  "trap": "เห็นปัสสาวะเป็นเลือดแล้วคิดว่าเป็น complicated ต้องให้ยาฉีด/ ส่องกล้อง — ไม่มีไข้ = lower UTI รักษาด้วยยากิน",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาแรกของ cystitis: nitrofurantoin 5 วัน, fosfomycin ครั้งเดียว, หรือ TMP-SMX 3 วันเมื่อเชื้อในพื้นที่ดื้อไม่สูง · เลี่ยง fluoroquinolone · เพาะเชื้อเมื่อ: ตั้งครรภ์ เพศชาย เป็นซ้ำ รักษาไม่หาย"
+   "Cystitis: dysuria · frequency · suprapubic pain · ไม่มีไข้",
+   "Pyelonephritis: ไข้ หนาวสั่น ปวดสีข้าง CVA tenderness",
+   "Uncomplicated cystitis: nitrofurantoin 5 วัน / fosfomycin 3 g ครั้งเดียว / TMP-SMX 3 วัน",
+   "Fluoroquinolone = ทางเลือกรอง (ผลข้างเคียง)",
+   "ไม่ต้อง culture/ ภาพในรายไม่ซับซ้อน",
+   "Hematuria ไม่หายหลังรักษา → CT urography + cystoscopy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง A และลายมือ \"lower UTI\" ในไฟล์ · ช้อยต้นฉบับระบุ oral fluoroquinolone ซึ่งปัจจุบันไม่ใช่ตัวแรก จึงเขียนเป็น oral antibiotic",
+  "mnemonic": "<b>'ไม่มีไข้ = กระเพาะปัสสาวะ (กินยาสั้น) · มีไข้ + ปวดหลัง = ไต (ยาฉีด)'</b>",
+  "guide": "IDSA/ ESCMID International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women (Clin Infect Dis 2011;52:e103); EAU Guidelines on Urological Infections 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ไตรมาสแรกเป็น cystitis → เพาะเชื้อก่อนให้ยา ใช้ cephalexin/amoxicillin-clavulanate/fosfomycin เลี่ยง TMP-SMX ไตรมาสแรก และตรวจปัสสาวะซ้ำหลังรักษา"
+   "หญิง 30 ปีไข้ 39 °C ปวดหลังขวา CVA tenderness → acute pyelonephritis",
+   "หญิงตั้งครรภ์ไม่มีอาการ เพาะเชื้อปัสสาวะขึ้น → asymptomatic bacteriuria รักษาด้วยยา",
+   "หญิง 60 ปีสูบบุหรี่ หลังรักษา UTI แล้วยังมีเลือดในปัสสาวะ → CT urography + cystoscopy"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 4 — ตัวพิมพ์: <b>43.คนไข้มาด้วยdysuria hematuria mild tenderness UAเจอrbc,wbcสูง bactมาก ถามproper management — A.oral fluoroquinolone 3-5วันแล้วobserve(มั้ง) B. IV cephtriaxone kub ultrasound(มั้ง) C.oral fluoroquinolone 3-5วันแล้วทำCT cystoscopyดูโรค...(มั้ง) D. IV cephtriaxone with retain foley and continuous irrigation E. Cultureเชื้อก่อนค่อยวางแผน</b><br>ลายมือ: \"cystitis → ascending infx → pyelonephritis\" · \"lower UTI\"<br>ไฮไลต์: วง A · \"dysuria hematuria mild tenderness\" · \"rbc,wbcสูง bactมาก\"<br>ที่ปรับในเว็บ: fluoroquinolone เขียนเป็น oral antibiotic",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 4",
+  "kimg": [
+   "fsp_p4",
+   "kp70a_43"
   ]
  },
  "MDCU70|RoA|51": {
-  "interp": "เด็กปากแหว่งเพดานโหว่ อายุราว 1 ปีทำการผ่าตัดอะไร",
-  "why": "<b>P'Ing: 1° cleft palate repair (palatoplasty) + ตาราง timeline</b> (ช้อยแต่งเพิ่ม)<br><b>นอกสไลด์:</b> ซ่อมเพดานราว 9–12 เดือน (ไม่เกินราว 18 เดือน) ก่อนเด็กเริ่มพูดเป็นคำ เพื่อให้กล้ามเนื้อเพดานอ่อนปิดช่องหลังจมูกได้ทันพัฒนาการพูด",
+  "interp": "เด็กปากแหว่งเพดานโหว่ ถามว่า<b>อายุประมาณ 1 ปี</b>ทำอะไร",
+  "why": "ลำดับการรักษาปากแหว่งเพดานโหว่: ~3 เดือนซ่อม<b>ริมฝีปาก</b> (rule of 10s) · <b>~9–12 เดือนซ่อมเพดาน (palatoplasty) พร้อม intravelar veloplasty</b> (เย็บกล้ามเนื้อ levator veli palatini ให้เป็นวง) ก่อนเด็กเริ่มพูด เพื่อให้พูดได้ปกติ ลดเสียงขึ้นจมูก ± ใส่ท่อหูเพราะหูชั้นกลางมีน้ำบ่อย · 3–4 ปีแก้ velopharyngeal insufficiency (pharyngoplasty) · 7–9 ปี (ฟันชุดผสม ก่อนเขี้ยวขึ้น) ปลูกกระดูก alveolar · หลังกระดูกโตเต็มที่ Le Fort I/ จัดฟัน/ แต่งจมูก · ไฟล์ P'Ing เขียน <b>\"1° cleft palate repair (palatoplasty)\"</b> และแปะตาราง 12 month = <b>\"1° Cleft palate repair with intravelar veloplasty + -bilateral maringotomy and tube\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กมาพบครั้งแรกตอน 1 ขวบโดยยังไม่เคยซ่อมปาก — ซ่อมปากได้เลย (มักวางแผนร่วมกับเพดาน)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ปลูกกระดูกเหงือกแบบมาตรฐานทำที่ 1 ปี เพราะทำในช่วงฟันชุดผสมก่อนเขี้ยวแท้ขึ้น (ราว 7–11 ปี) ทำเร็วไปรบกวนการเจริญของ maxilla",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Le Fort I ทำในวัยทารก เพราะทำหลังกระดูกใบหน้าโตเต็มที่ (วัยรุ่นตอนปลาย) เมื่อ maxilla เล็กจากแผลเป็น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การแก้จมูกแบบสมบูรณ์ทำที่ 1 ปี เพราะรอให้จมูกโตเต็มที่ก่อน (ช่วงทารกทำแค่จัดรูปจมูกเบื้องต้นพร้อมซ่อมปาก)"
+   "B": "ซ่อมริมฝีปากทำตอนราว 3 เดือน (rule of 10s: อายุ 10 สัปดาห์ น้ำหนัก 10 ปอนด์ Hb 10) · จะถูกถ้าถามว่าทารกปากแหว่งควรซ่อมริมฝีปากเมื่ออายุเท่าใด",
+   "C": "ปลูกกระดูก alveolar ทำช่วงฟันชุดผสม 7–9 ปี ก่อนฟันเขี้ยวแท้ขึ้น · จะถูกถ้าเด็ก 8 ปีมีช่องโหว่ที่สันเหงือก เขี้ยวแท้กำลังจะขึ้น",
+   "D": "Le Fort I advancement แก้ขากรรไกรบนเล็กหลังกระดูกโตเต็มที่ · จะถูกถ้าวัยรุ่น 17 ปีผ่าตัดเพดานโหว่มาแล้ว ใบหน้าส่วนกลางยุบ ฟันล่างยื่น (midface hypoplasia)",
+   "E": "Definitive rhinoplasty ทำหลังกระดูกโตเต็มที่ (เบื้องต้นแก้จมูกได้พร้อมการซ่อมริมฝีปาก) · จะถูกถ้าวัยรุ่นหลังโตเต็มที่ปลายจมูกเบี้ยวจากปากแหว่ง"
   },
-  "trap": "จำสลับปากกับเพดาน: ปากราว 3 เดือน (rule of 10s) · เพดานราว 9–12 เดือน",
+  "trap": "สับสนลำดับ — ริมฝีปากก่อน (3 เดือน) แล้วเพดาน (1 ปี ก่อนพูด)",
   "summary": [
-   "<b>P'Ing timeline:</b> <b>นอกสไลด์:</b> ซ่อมปาก ราว 3 เดือน → ซ่อมเพดาน 9–12 เดือน → ประเมินการพูด/แก้ VPI วัยก่อนเรียน → ปลูกกระดูกเหงือก 7–11 ปี → ผ่าตัดขากรรไกรและจมูกหลังโตเต็มที่"
+   "ก่อนคลอด/ แรกเกิด: วินิจฉัย ให้คำปรึกษา ประเมินการกิน ± presurgical orthopedics",
+   "3 เดือน: ซ่อมริมฝีปาก ± primary rhinoplasty, gingivoperiosteoplasty",
+   "9–12 เดือน: palatoplasty + intravelar veloplasty ± myringotomy tube",
+   "3–4 ปี: VPI → pharyngoplasty/ palate lengthening",
+   "7–9 ปี: alveolar bone graft (ก่อนเขี้ยวขึ้น)",
+   "โตเต็มที่: Le Fort I · orthognathic · definitive rhinoplasty"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับลายมือ \"1° cleft palate repair (palatoplasty)\" และตารางที่ P'Ing แปะในไฟล์ · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
+  "mnemonic": "<b>'ปากแหว่งเพดานโหว่: ปาก 3 เดือน → เพดาน 1 ปี (ก่อนพูด) → กระดูกเหงือก 8 ปี (ก่อนเขี้ยว) → ขากรรไกรเมื่อโต'</b>",
+  "guide": "American Cleft Palate–Craniofacial Association: Parameters for Evaluation and Treatment of Patients with Cleft Lip/Palate or Other Craniofacial Differences (2018); Grabb and Smith's Plastic Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กเพดานโหว่ไม่ได้ผ่าตัดจนอายุ 3 ขวบ → ซ่อมเพดานทันทีแม้ช้า แต่เสี่ยงพูดเสียงขึ้นจมูกและต้องฝึกพูดมากกว่า"
+   "ทารก 10 สัปดาห์ปากแหว่ง หนัก 5 kg Hb 11 → cleft lip repair",
+   "เด็ก 4 ปีหลังซ่อมเพดาน เสียงขึ้นจมูก ลมรั่วทางจมูกเวลาพูด → VPI → pharyngoplasty",
+   "เด็ก 8 ปีช่องโหว่ที่สันเหงือก เขี้ยวยังไม่ขึ้น → alveolar bone graft (iliac crest)"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 4 — ตัวพิมพ์: <b>51. อะไรควรทำตอน1ปี ใน cleft palate</b> (ไม่มีช้อย)<br>ลายมือ: \"1° cleft palate repair (palatoplasty)\"<br>ไฮไลต์: \"ตอน1ปี ใน cleft palate\"<br>รูปที่แปะ: ตาราง Age/ Treatment/ Cleft Team member — ก่อนเกิด: Prenatal imaging, Diagnosis, Counseling · New born: ประเมินการกิน ปัญหาสุขภาพ · 0-3 months: Presurgical orthopedics · 3 months: Primary cleft lip repair and lip rhinoplasty gingivoperiosteoplasty (ลายมือ \"แก้จมูกไปเลย\") · 12 month (อาจล่าช้าได้ถ้ามีปัญหาเรื่องสุขภาพ): 1° Cleft palate repair with intravelar veloplasty + -bilateral maringotomy and tube (ลายมือ \"prevent speech defect\", \"if ทำช้าไป → midface hypoplasia\") · Diagnosis of Velopharyngeal insufficiency (3-4 yr): 2° Palate lengthening or pharyngoplasty, speech obturator (ลายมือ \"พูดเสียงขึ้นจมูก\") · School-age years: Correction of secondary lip and nasal deformities · 7-9 year (mixed dentition): Secondary alveolar bone graft (iliac, hip) (ลายมือ \"M/C tooth - canine\") · Postalveolar graft puberty skeletal maturity: Pre-surgical orthodontics, Definitive open rhinoplasty, Le Fort I and/or Mandible orthognathic surgeon<br>ที่ปรับในเว็บ: ไฟล์ไม่มีช้อย → แต่งช้อย A–E",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 4",
+  "kimg": [
+   "fsp_p4",
+   "kp70a_51"
   ]
  },
  "MDCU70|RoA|58": {
-  "interp": "แผลกดทับระยะ 2 (ผิวหนังหลุดถึงชั้น dermis บางส่วน) → ถามการรักษา",
-  "why": "<b>P'Ing วง E ✓ temporary wound coverage · A–D ✗ graft/flap for wound stage 3–4 · type II: ถึง dermis</b><br><b>นอกสไลด์:</b> แผลระยะ 2 ยังมีชั้น dermis และส่วนต่อมขนเหลือ แผลหายเองจากขอบและจากรากขน → ต้องการแค่ความชุ่มชื้นและปลดแรงกด",
+  "interp": "แผลกดทับ<b>ระยะที่ 2</b> (ผิวหนังหลุดบางส่วนถึงชั้น dermis) → ถามการรักษา",
+  "why": "แผลกดทับระยะ 2 = <b>partial-thickness skin loss</b> ถึงชั้น dermis แผลตื้น สีชมพูแดง ชื้น หรือเป็นตุ่มน้ำ ไม่เห็นไขมัน · รักษาแบบอนุรักษ์: <b>ลดแรงกด</b> (พลิกตัวทุก 2 ชม. ที่นอนลดแรงกด) + โภชนาการ + <b>ทำแผลแบบชุ่มชื้น</b> เช่น <b>hydrocolloid</b>, foam, film · แผลระยะนี้หายได้เองจากการงอกของผิวจากขอบและรูขุมขน (re-epithelialization) · การผ่าตัด (debridement, ostectomy, flap) ใช้กับระยะ 3–4 ที่ไม่หาย · ไฟล์ P'Ing วง E และลายมือ <b>\"✓ temporary wound coverage\"</b> \"type II : ถึง dermis\" และ A–D <b>\"graft/flap for wound stage 3-4\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลกดทับระยะ 4 ที่ greater trochanter หลังเอาเนื้อตายออกและคุมการติดเชื้อแล้ว",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลกดทับระยะ 4 ที่ sacrum หรือ ischium ในผู้ป่วยที่โภชนาการดีและปลดแรงกดได้",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลระยะ 3 ที่ตื้นแต่กว้าง พื้นแผลเป็น granulation ดี ในผู้ที่ทำ flap ไม่ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าแผลระยะ 3–4 ขนาดเล็กในตำแหน่งที่ผิวหย่อนพอเย็บปิดได้โดยไม่ตึง"
+   "A": "Tensor fascia lata flap ใช้ปิดแผลกดทับระยะ 3–4 ที่ trochanter (ลายมือ \"graft/flap for wound stage 3-4\") · จะถูกถ้าผู้ป่วยอัมพาตมีแผลกดทับลึกถึงกระดูกที่สะโพกด้านข้าง",
+   "B": "Gluteal (gluteus maximus) flap ใช้ปิดแผลกดทับระยะ 3–4 ที่ก้นกบ/ ischium · จะถูกถ้าผู้ป่วยติดเตียงมีแผลกดทับลึกถึงกระดูก sacrum หลัง debridement แล้ว",
+   "C": "STSG ไม่ทนแรงกดและไม่เหมาะกับแผลระยะ 2 ที่หายเองได้ · จะถูกถ้าแผลตื้นกว้างสะอาดมี granulation tissue ดีในตำแหน่งที่ไม่รับน้ำหนัก",
+   "D": "ตัดแผลแล้วเย็บปิดตรงไม่เหมาะกับแผลกดทับ (ตึงและแตกซ้ำ) และไม่จำเป็นกับระยะ 2 · จะถูกถ้าเป็นก้อนผิวหนังเล็ก ๆ ที่ตัดแล้วเย็บปิดได้โดยไม่ตึง เช่น epidermoid cyst"
   },
-  "trap": "แผลกดทับทำให้นึกถึง flap — แต่ flap ใช้กับแผลลึกถึงกล้ามเนื้อ/กระดูก ระยะ 2 ใช้แค่ dressing",
+  "trap": "คิดว่าแผลกดทับต้องผ่าตัดปิด — ระยะ 1–2 รักษาแบบอนุรักษ์ ผ่าตัดเฉพาะระยะ 3–4",
   "summary": [
-   "<b>นอกสไลด์:</b> แผลระยะ 2 = แผลตื้นสีชมพูชุ่ม หรือตุ่มน้ำ ไม่มีเนื้อตายเหลือง · dressing ชุ่มชื้น (hydrocolloid, film, foam) + พลิกตัวทุก 2 ชม./ที่นอนลดแรงกด + โภชนาการ + คุมความเปียกชื้น"
+   "Stage 1: ผิวแดงกดไม่จาง ผิวยังไม่แตก",
+   "Stage 2: ผิวหลุดบางส่วนถึง dermis/ ตุ่มน้ำ → ทำแผลชุ่มชื้น (hydrocolloid, foam)",
+   "Stage 3: ผิวหลุดทั้งชั้นเห็นไขมัน · Stage 4: ถึงกล้ามเนื้อ/ เอ็น/ กระดูก",
+   "Unstageable: มี slough/ eschar ปิด · Deep tissue injury: ม่วงคล้ำ",
+   "หลักทุกระยะ: ลดแรงกด พลิกตัว โภชนาการ ควบคุมความชื้น/ อุจจาระ",
+   "Stage 3–4 ไม่หาย: debridement + ostectomy + flap (gluteal, TFL, hamstring)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับวง E ✓ และลายมือในไฟล์",
+  "mnemonic": "<b>'กดทับ: 1–2 ทำแผล · 3–4 ผ่า flap'</b>",
+  "guide": "EPUAP/ NPIAP/ PPPIA Prevention and Treatment of Pressure Ulcers/Injuries: Clinical Practice Guideline, 3rd ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลระยะ 2 ที่ก้นกบในผู้ป่วยกลั้นอุจจาระไม่อยู่ → dressing กันน้ำ ร่วมจัดการอุจจาระ (สายเก็บอุจจาระ/ครีมกันความชื้น) ไม่งั้นแผลลึกขึ้น"
+   "ผิวแดงที่ก้นกบกดแล้วไม่จาง ผิวไม่แตก → stage 1 → ลดแรงกด",
+   "แผลกดทับลึกถึงกระดูก sacrum มีกลิ่น → debridement ± ประเมิน osteomyelitis แล้ว flap",
+   "แผลที่ส้นเท้าสีม่วงคล้ำ ผิวยังไม่แตก → deep tissue pressure injury"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 4 — ตัวพิมพ์: <b>58. เป็น bed sore โจทย์บอกเลยว่า เป็น secondary type ให้ทำไร — A.cover with tensor fascia lata flap B.cover with gluteal flap C.cover with STSG D.excision and... E. Hydrocolloid dressing</b><br>ลายมือ: \"type II : ถึง dermis\" · A–D \"✗\" + ปีกกา \"graft/flap for wound stage 3-4\" (แดง) · E \"✓ temporary wound coverage\"<br>ไฮไลต์: วง E · \"bed sore\" \"secondary type\"<br>ที่ปรับในเว็บ: \"secondary type\" เขียนเป็น stage II pressure injury · ช้อย D ไม่ครบ → excision and primary closure",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 4",
+  "kimg": [
+   "fsp_p4",
+   "kp70a_58"
   ]
  },
  "MDCU70|RoA|61": {
-  "interp": "ข้อ EXCEPT: ข้อใดไม่ใช่ข้อห้ามของการรัดยางริดสีดวง (RBL)",
-  "why": "<b>P'Ing วง D ✗ ทำได้ · A, B, C ✓ · E ✓ เกิด coagulopathy ได้</b><br><b>นอกสไลด์:</b> การมีเพศสัมพันธ์ทางทวารไม่ได้ทำให้การรัดยางอันตราย (แนะนำงดช่วงแผลหาย) — ส่วนช้อยอื่นเพิ่มความเสี่ยงติดเชื้อรุนแรงหรือเลือดออกเมื่อปมยางหลุด",
+  "interp": "ถามว่าข้อใด<b>ไม่ใช่</b>ข้อห้ามของการรัดยางริดสีดวงทวาร (rubber band ligation)",
+  "why": "ข้อห้าม/ ข้อควรระวังของ rubber band ligation คือภาวะที่<b>เสี่ยงเลือดออก</b>เมื่อเนื้อที่รัดหลุดใน 5–7 วัน (<b>coagulopathy</b>, ยาต้านการแข็งตัวของเลือด, <b>portal hypertension</b> ที่มี varices/ เกล็ดเลือดต่ำ) และภาวะที่<b>เสี่ยงติดเชื้อรุนแรงในอุ้งเชิงกราน</b> (<b>ภูมิคุ้มกันต่ำ</b>, HIV, ได้ยากดภูมิ/ เคมีบำบัด) · <b>การมีเพศสัมพันธ์ทางทวารหนัก</b>ไม่ใช่ข้อห้าม (แนะนำงดช่วงแผลหาย) · ไฟล์ P'Ing แก้หัวข้อจาก \"Indication\" เป็น <b>\"contraindication\"</b> และเขียนที่ D <b>\"✗ ทำได้\"</b> ที่ E \"✓ เกิด coagulopathy ได้\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะผู้ป่วยภูมิคุ้มกันบกพร่อง (เช่น HIV ระยะรุนแรง เม็ดเลือดขาวต่ำ) เสี่ยงติดเชื้อรุนแรงในอุ้งเชิงกรานหลังรัด",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะเมื่อเนื้อที่รัดหลุดในราววันที่ 7–10 จะเหลือแผลเปิดที่เลือดออกมากได้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะยากดภูมิ (steroid ขนาดสูง เคมีบำบัด ยาหลังปลูกถ่าย) ทำให้แผลหายช้าและติดเชื้อง่าย",
-   "E": "P'Ing: เกิด coagulopathy ได้ — <b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะผู้ป่วย portal hypertension อาจมี rectal varices ที่ดูคล้ายริดสีดวง และมีเกล็ดเลือดต่ำ/แข็งตัวช้าร่วม"
+   "A": "ภูมิคุ้มกันต่ำเป็นข้อห้าม (เสี่ยง pelvic sepsis/ เนื้อเน่าตาย) · จะถูกถ้าคำถามถามข้อบ่งชี้ (indication) แล้วช้อยเป็นริดสีดวงภายในระดับ 1–3 ในคนแข็งแรง",
+   "B": "Coagulopathy เป็นข้อห้าม (เลือดออกมากเมื่อเนื้อหลุด) · จะถูกถ้าคำถามถามข้อบ่งชี้แล้วช้อยเป็นริดสีดวงภายในเลือดออกในผู้ที่ผลการแข็งตัวของเลือดปกติ",
+   "C": "ยากดภูมิคุ้มกันเป็นข้อห้ามเช่นเดียวกับภูมิคุ้มกันต่ำ · จะถูกถ้าคำถามถามข้อบ่งชี้แล้วช้อยเป็นริดสีดวงภายในระดับ 2 ที่ไม่ดีขึ้นด้วยใยอาหาร",
+   "E": "Portal hypertension มักมีเกล็ดเลือดต่ำ/ coagulopathy และ rectal varices เสี่ยงเลือดออก (ลายมือ \"เกิด coagulopathy ได้\") · จะถูกถ้าคำถามถามข้อบ่งชี้แล้วช้อยเป็นริดสีดวงภายในระดับ 1–3 ในผู้ไม่มีโรคตับ"
   },
-  "trap": "โจทย์เดิมเขียน indication แล้ว P'Ing แก้เป็น contraindication — อ่านคำถามให้ดีว่าถามข้อห้าม",
+  "trap": "อ่านคำถามกลับด้าน (ต้นฉบับเขียน indication) — ข้อนี้ถามข้อห้าม ช้อยที่ทำได้คือ anal sex",
   "summary": [
-   "<b>นอกสไลด์:</b> RBL ใช้กับริดสีดวงภายในระยะ 1–3 เท่านั้น (เหนือ dentate line ไม่มีปลายประสาทรับความเจ็บ) · ห้ามรัดริดสีดวงภายนอก (เจ็บมาก)"
+   "RBL: ริดสีดวงภายในระดับ 1–3 ที่ไม่ดีขึ้นด้วยยา/ ใยอาหาร",
+   "รัดเหนือ dentate line (ไม่มีเส้นประสาทรับความเจ็บ)",
+   "ข้อห้าม: coagulopathy/ anticoagulant · portal HT · ภูมิต่ำ/ ยากดภูมิ",
+   "ภาวะแทรกซ้อน: ปวด เลือดออกช่วง 5–7 วัน · pelvic sepsis (ปวดมาก ไข้ ปัสสาวะไม่ออก)",
+   "Sclerotherapy: ทางเลือกในผู้ใช้ยาต้านเกล็ด/ ต้านการแข็งตัว",
+   "ระดับ 3–4/ ร่วม external → hemorrhoidectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับลายมือ \"✗ ทำได้\" ในไฟล์ · ต้นฉบับเขียนว่า indication แต่ P'Ing แก้เป็น contraindication จึงเขียนโจทย์ตามที่แก้",
+  "mnemonic": "<b>'ห้ามรัดยาง = เลือดไม่หยุด (coag, portal HT) + ภูมิไม่สู้ (immunocompromised, ยากดภูมิ)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024;67:614)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังรัดยาง 3 วัน ปวดทวารมากขึ้น ไข้ ปัสสาวะไม่ออก → pelvic sepsis: รับไว้ ยาปฏิชีวนะครอบคลุม ตรวจใต้ยาสลบเอายางออก ± ตัดเนื้อตาย"
+   "ริดสีดวงระดับ 2 เลือดออก ใช้ใยอาหารแล้วไม่ดีขึ้น → rubber band ligation",
+   "หลังรัดยาง 2 วัน ปวดมาก ไข้ ปัสสาวะไม่ออก → pelvic sepsis ต้องรักษาด่วน",
+   "ผู้ป่วยกิน warfarin ริดสีดวงระดับ 2 เลือดออก → sclerotherapy แทน RBL"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 4 — ตัวพิมพ์: <b>61. Indication rubber band, except — A) immunocompromised patient B) coagulopathy C) immunosuppressive drug D) anal sex E) portal hypertension</b><br>ลายมือ: ขีดฆ่า \"Indication\" แล้วเขียน \"contraindication\" · A ✓ · B ✓ · C ✓ · D \"✗ ทำได้\" (แดง) · E \"✓ เกิด coagulopathy ได้\"<br>ไฮไลต์: วง D (ชมพู) · \"rubber band\" · \"except\"<br>รูปที่แปะ: สรุปลายมือ วิธี — Rubber band ligation: เหมาะกับ Hemo. ที่ไม่ใหญ่ → มีพท.พอให้รัด · ใช้ grasper จับ Hemo + rubber band ligation ยิงยางรัดโคน hemo. · ผ่านไป 3-5d → ขาดเลือดมาเลี้ยง → หลุดไป · ⚠: coagulopathy, imm. com. → bac. เข้าไปในแผลได้ · Sclerosing injection: ฉีดสารทำ fibrosis เข้าไปใน submucosa ให้ plexus ยุบ; เหมาะกับ bleeding hemo., prolapse ขนาดเล็ก; ถ้าฉีดเยอะเกิน → fibrosis → stricture → อึไม่ออก ต้องทำ colostomy! · bipolar coag – เลิกใช้<br>ที่ปรับในเว็บ: โจทย์เขียนเป็น contraindication ตามที่ P'Ing แก้",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 4",
+  "kimg": [
+   "fsp_p4",
+   "kp70a_61"
   ]
  },
  "MDCU70|RoA|64": {
-  "interp": "มะเร็ง sigmoid ลุกเข้ามดลูก ต่อมน้ำเหลืองรอบลำไส้บวก 2/16 ต่อม มีก้อนแพร่กระจายในตับ 1 ก้อน → ถาม TNM",
-  "why": "<b>P'Ing: T4N1M1 stage 4 · N1 ≤ 3 nodes, N2 &gt; 3 nodes</b><br><b>นอกสไลด์:</b> ลุกอวัยวะข้างเคียง = T4b · ต่อมบวก 2–3 ต่อม = N1b · แพร่กระจายอวัยวะเดียวโดยไม่มีเยื่อบุช่องท้อง = M1a",
+  "interp": "มะเร็งลำไส้ sigmoid <b>ลุกลามติดมดลูก</b> มีก้อนกระจายที่ตับ 1 ก้อน ต่อมน้ำเหลือง pericolic บวก <b>2/16</b> → ถาม TNM",
+  "why": "ตาม AJCC 8th: <b>T4b</b> = ลุกลามเข้าอวัยวะข้างเคียงโดยตรง (มดลูก) · <b>N1b</b> = ต่อมน้ำเหลืองบวก 2–3 ต่อม (N1a = 1, N1c = tumor deposit, N2a = 4–6, N2b = ≥ 7) · <b>M1a</b> = กระจายไปอวัยวะเดียว (ตับ) โดยไม่มีที่เยื่อบุช่องท้อง (M1b = ≥ 2 อวัยวะ, M1c = peritoneum) → <b>T4bN1bM1a = Stage IVA</b> · ต้องตรวจต่อมน้ำเหลืองอย่างน้อย 12 ต่อมจึงจะ staging ได้เชื่อถือ (ในโจทย์ 16 ต่อม) · ไฟล์ P'Ing เขียน <b>\"= T4N1M1\"</b> <b>\"stage 4\"</b> และ \"N1 ≤ 3 nodes, N2 > 3 nodes\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนทะลุ visceral peritoneum แต่ไม่ลุกอวัยวะอื่น ต่อมบวก 1 ต่อม ไม่แพร่กระจาย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนลุกถึงไขมันรอบลำไส้แต่ไม่ทะลุ serosa ต่อมบวก 4–6 ต่อม และแพร่กระจายอวัยวะเดียว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนลุกอวัยวะข้างเคียง ต่อมบวก 4–6 ต่อม และแพร่กระจาย 2 อวัยวะขึ้นไป (เช่นตับ + ปอด) โดยไม่มีเยื่อบุช่องท้อง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนทะลุ serosa ต่อมบวก 2–3 ต่อม และแพร่กระจายบนเยื่อบุช่องท้อง"
+   "B": "T4a = ทะลุเยื่อบุช่องท้อง (visceral peritoneum) แต่ยังไม่ลุกลามอวัยวะอื่น, N1a = 1 ต่อม, M0 = ไม่กระจาย ซึ่งไม่ตรง · จะถูกถ้ามะเร็งทะลุ serosa ไม่ติดอวัยวะใด ต่อมน้ำเหลืองบวก 1 ต่อม CT ไม่พบการกระจาย",
+   "C": "T3 = ทะลุชั้นกล้ามเนื้อถึงไขมันรอบลำไส้, N2a = 4–6 ต่อม · จะถูกถ้ามะเร็งถึงไขมันรอบลำไส้ ต่อมน้ำเหลืองบวก 5/18 และมีก้อนที่ตับก้อนเดียว",
+   "D": "N2a ต้อง 4–6 ต่อม และ M1b ต้องกระจาย ≥ 2 อวัยวะ · จะถูกถ้ามะเร็งติดกระเพาะปัสสาวะ ต่อมน้ำเหลืองบวก 5 ต่อม กระจายทั้งตับและปอด",
+   "E": "T4a ไม่ครอบคลุมการลุกลามมดลูก และ M1c หมายถึงกระจายเยื่อบุช่องท้อง · จะถูกถ้ามะเร็งทะลุ serosa ต่อมน้ำเหลืองบวก 3 ต่อม พบ peritoneal carcinomatosis"
   },
-  "trap": "ลุกอวัยวะอื่น = T4b ไม่ใช่ T4a (T4a คือทะลุ serosa เฉย ๆ) · M1a/b/c แบ่งตามจำนวนอวัยวะและเยื่อบุช่องท้อง ไม่ใช่จำนวนก้อน",
+  "trap": "ตอบ T4a เพราะคิดว่า \"ติด\" อวัยวะอื่นคือทะลุเยื่อบุช่องท้อง — ลุกลามเข้าอวัยวะอื่น = T4b",
   "summary": [
-   "<b>นอกสไลด์:</b> AJCC 8: T1 submucosa · T2 muscularis propria · T3 ถึงไขมันรอบลำไส้ · T4a ทะลุ visceral peritoneum · T4b ลุก/ติดอวัยวะอื่น · N1a 1 ต่อม, N1b 2–3, N1c tumor deposit ไม่มีต่อมบวก, N2a 4–6, N2b ≥ 7 · M1a อวัยวะเดียว, M1b ≥ 2 อวัยวะ, M1c เยื่อบุช่องท้อง · ต้องตรวจต่อม ≥ 12 ต่อม"
+   "T1 submucosa · T2 muscularis propria · T3 ไขมันรอบลำไส้",
+   "T4a ทะลุ visceral peritoneum · T4b ลุกลาม/ ติดอวัยวะอื่น",
+   "N1a 1 · N1b 2–3 · N1c tumor deposit · N2a 4–6 · N2b ≥ 7",
+   "M1a อวัยวะเดียว · M1b ≥ 2 อวัยวะ · M1c peritoneum",
+   "ต้องตรวจต่อมน้ำเหลือง ≥ 12 ต่อม",
+   "Stage III = N+ M0 · Stage IV = M1"
   ],
-  "opinion": "เห็นด้วยกับคีย์ (ช้อยแต่งเพิ่มจาก T4N1M1) · มั่นใจสูง",
+  "opinion": "ตอบ A ความมั่นใจสูง — ตรงกับลายมือ \"T4N1M1 stage 4\" ในไฟล์ โดยระบุ subcategory ตาม AJCC 8th · ไฟล์ไม่มีช้อย จึงแต่งช้อยเพิ่ม",
+  "mnemonic": "<b>'N: 1-2-3 = N1 · 4+ = N2 · M: a=1 อวัยวะ b=หลาย c=Peritoneum'</b>",
+  "guide": "AJCC Cancer Staging Manual 8th ed. (2017) — Colon and Rectum; NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็ง sigmoid ทะลุ visceral peritoneum ไม่ลุกอวัยวะอื่น ต่อมบวก 8 ต่อม ไม่แพร่กระจาย → T4a N2b M0 = stage IIIC"
+   "มะเร็งลำไส้ถึงไขมันรอบลำไส้ ต่อมน้ำเหลืองบวก 1/14 ไม่กระจาย → T3N1aM0 stage IIIB",
+   "มะเร็งลำไส้ทะลุ serosa ต่อมน้ำเหลืองบวก 0/15 → T4aN0M0 stage IIB",
+   "มะเร็งลำไส้กระจายตับและปอด → M1b stage IVB"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 5 — ตัวพิมพ์: <b>64. Colon cancer ไปเกาะกับuterus มีก้อนที่ตับ pericolic lymphnode positive 2 จาก 16 ให้ staging</b> (ไม่มีช้อย)<br>ลายมือ: \"T4\" เหนือ \"เกาะกับuterus\" พร้อมรายการ T1 T2 T3 T4 · \"M1\" เหนือ \"มีก้อนที่ตับ\" · \"N1\" เหนือ \"pericolic lymphnode\" · \"N1 ≤ 3 nodes, N2 > 3 nodes\" · \"= T4N1M1\" · \"stage 4\"<br>ไฮไลต์: \"Colon cancer\" \"uterus\" \"มีก้อนที่ตับ\" \"pericolic lymphnode positive 2 จาก 16\"<br>ที่ปรับในเว็บ: ไฟล์ไม่มีช้อย → แต่งช้อย A–E แยก subcategory ตาม AJCC 8th",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 5",
+  "kimg": [
+   "fsp_p5",
+   "kp70a_64"
   ]
  },
  "MDCU70|RoA|69": {
-  "interp": "chronic anal fissure (sentinel tag เห็นใย internal sphincter) ทายา nitrate ครบ 8 สัปดาห์ไม่หาย → ถามการรักษา",
-  "why": "<b>P'Ing วง D ✓ LIS · indication: persistent pain/bleed, fail medications · A, B ✗ conservative = acute</b><br><b>นอกสไลด์:</b> ยาทาล้มเหลวครบระยะแล้ว ขั้นต่อไปคือลดความตึงของ internal sphincter แบบถาวรด้วยการตัดด้านข้าง (หายสูงสุด)",
+  "interp": "<b>Chronic anal fissure</b> มี sentinel tag เห็นเส้นใย internal sphincter <b>ไม่หายหลังทา nitrate 8 สัปดาห์</b> → ถามการรักษา",
+  "why": "CAF (> 8 สัปดาห์ มี sentinel tag, hypertrophied papilla, เห็น internal sphincter) เกิดจาก<b>แรงบีบ internal sphincter สูง → เลือดไปเลี้ยงลดลง</b> · ลำดับรักษา: ใยอาหาร/ แช่ก้น → ยาคลายหูรูด (NTG, diltiazem/ nifedipine) → botulinum toxin → <b>lateral internal sphincterotomy (LIS)</b> ซึ่งเป็น <b>gold standard</b> หายได้ > 90% ความเสี่ยงกลั้นอุจจาระไม่อยู่ (ส่วนใหญ่เป็นลม) เล็กน้อย · ข้อบ่งชี้ผ่าตัด: ปวด/ เลือดออกต่อเนื่อง ไม่ตอบสนองต่อยา · ไฟล์ P'Ing วง D และลายมือ <b>\"✓ lateral internal sphincterotomy : indication = persistent pain/bleed, fail medications\"</b>",
   "wrong": {
-   "A": "P'Ing: conservative = acute — <b>นอกสไลด์:</b> จะถูกถ้าแผลเพิ่งเป็นไม่ถึง 6 สัปดาห์ ขอบเรียบ ไม่มีติ่งหรือใยกล้ามเนื้อที่ก้นแผล",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเพิ่งทายาได้ 2–3 สัปดาห์และแผลเริ่มดีขึ้น — ทาต่อให้ครบ 6–8 สัปดาห์",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น chronic fissure ที่หูรูดความดันต่ำ (ไม่เกร็ง) หรือเสี่ยงกลั้นไม่อยู่สูง — ตัดแผลแล้วเลื่อนผิวหนังมาปิดโดยไม่ตัดหูรูด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การถ่างทวารด้วยมือแบบเดิมเป็นการรักษาที่แนะนำ เพราะยืดฉีกหูรูดแบบควบคุมไม่ได้ ทำให้กลั้นไม่อยู่มากกว่า LIS"
+   "A": "ปรับพฤติกรรมอย่างเดียวเหมาะกับ acute fissure (ลายมือ \"conservative = acute\") · จะถูกถ้าแผลปริขอบทวาร 1 สัปดาห์ ขอบเรียบ ไม่มี sentinel tag",
+   "B": "ทา NTG ต่อไม่ได้ผลเพราะล้มเหลวมาแล้ว 8 สัปดาห์ และปวดหัวบ่อย · จะถูกถ้าเป็น CAF ที่ยังไม่เคยรักษาด้วยยามาก่อน",
+   "C": "Fissurectomy + advancement flap ใช้ในผู้ที่หูรูดหลวมอยู่แล้ว/ เสี่ยงกลั้นไม่อยู่ (ไม่ควรตัดหูรูด) · จะถูกถ้าหญิงหลังคลอดหลายครั้งมีหูรูดบาดเจ็บเดิม แรงบีบทวารต่ำ แผลปริเรื้อรัง",
+   "E": "การถ่างทวารหนักด้วยมือทำให้หูรูดฉีกไม่ควบคุม กลั้นอุจจาระไม่อยู่สูง จึงเลิกใช้ · จะถูกถ้าคำถามถามวิธีที่ไม่แนะนำแล้วเพราะเสี่ยงกลั้นอุจจาระไม่อยู่"
   },
-  "trap": "ไฟล์เดิมไม่ได้บอกว่าล้มเหลวจากยา (stem เติมให้) — ถ้าไม่บอก หลายแนวทางเริ่มยาทาก่อน",
+  "trap": "ให้ยาต่อทั้งที่ล้มเหลวแล้ว — CAF ที่ยาไม่ได้ผล → LIS (gold standard)",
   "summary": [
-   "<b>นอกสไลด์:</b> LIS: ตัด internal sphincter ด้านข้าง (ไม่ตัดแนวกลางด้านหลัง กัน keyhole deformity) ยาวเท่าแผลหรือถึง dentate line · ภาวะแทรกซ้อนหลัก: กลั้นลม/อุจจาระเหลวไม่อยู่เล็กน้อย"
+   "Acute fissure: &lt; 6–8 สัปดาห์ ขอบเรียบ → ใยอาหาร แช่ก้น ยาชา",
+   "Chronic: sentinel tag · hypertrophied papilla · เห็นใยหูรูด",
+   "กลไก: แรงบีบหูรูดสูง → ขาดเลือด (ischemia)",
+   "ยา: NTG / CCB (diltiazem, nifedipine) → Botox",
+   "LIS = gold standard: หาย > 90%",
+   "Fissure นอกแนวกลาง/ หลายแผล → หา Crohn, TB, HIV, มะเร็ง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับวง D ✓ และลายมือในไฟล์ · ช้อย C ต้นฉบับคือ Botox ซึ่งก็เป็นทางเลือกหลังยาทาล้มเหลว จึงเปลี่ยน C เป็น fissurectomy with advancement flap และเติม E เพื่อให้มีคำตอบเดียว",
+  "mnemonic": "<b>'แผลปริเรื้อรัง ยาไม่หาย → ตัด internal sphincter ข้าง (LIS)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Dis Colon Rectum 2023;66:190)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง LIS 3 เดือน แผลยังไม่หาย → ตรวจใต้ยาสลบหาเหตุอื่น (Crohn, วัณโรค, HIV, มะเร็ง) และวัดความดันหูรูดก่อนผ่าตัดซ้ำ"
+   "แผลปริขอบทวารด้านหลัง 1 สัปดาห์ ปวดมากเวลาถ่าย → ใยอาหาร แช่ก้น ยาทา",
+   "CAF ไม่หายด้วย NTG ผู้ป่วยไม่อยากผ่าตัด → botulinum toxin",
+   "แผลปริที่ด้านข้างหลายแผล ถ่ายเหลวเรื้อรัง → หา Crohn disease"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 5 — ตัวพิมพ์: <b>69. ให้ลักษณะของ CAF แล้วถามว่าให้ทำไร — A. Lifestyle modification B. ยา 0.2% nitro C. Botox D. LIS E. ?</b><br>ลายมือ: \"chronic anal fissure\" เหนือ CAF · ปีกกา A–B \"conservative = acute\" (แดง) · D \"✓ lateral internal sphincterotomy : indication = persistent pain/bleed, fail medications\"<br>ไฮไลต์: วง D · \"CAF แล้วถามว่าให้ทำไร\"<br>รูปที่แปะ: กรอบม่วง \"acute anal fissure Mx: ป้องกันการเกิดแผลใหม่ + ลดอาการปวด self-resolved ใน 2-3 wks — stool softener/ high-fiber diet, analgesics/ sitz bath · chronic anal fissure Mx: ลดการหดเกร็งของ internal sphincter → lateral internal sphincterotomy\" · ภาพถ่ายสไลด์ \"Ischemic and high anal resting pressure play an important role in the cause of CAF — Chronic anal fissure: Gold standard lateral internal sphincterotomy · Indication for surgery: presence of persistent pain and bleeding, lack of response to medical treatment · Aim ↓spasm ↑anodermal blood flow · 1st line = lifestyle modification · NTG ointment → Calcium channel blockers → Botulinum toxin → LIS\" พร้อมลายมือเล็ก #1 life style mod. #2 medical sphincterotomy (nitroglycerine/ nifedipine ointment, botox injection) #3 lateral internal sphincterotomy (เสี่ยง incontinence) และ \"เรามักนอก medical ก่อน ค่อย lateral int. sphinc. · แต่ gold standard คือ lateral internal sphincterotomy (LIS)\" (ข้อความเล็ก อ่านได้บางส่วน)<br>ที่ปรับในเว็บ: C Botox → fissurectomy with advancement flap · E ไม่มี → anal dilatation",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 5",
+  "kimg": [
+   "fsp_p5",
+   "kp70a_69"
   ]
  },
  "MDCU70|RoA|75": {
-  "interp": "หญิง 54 ปีถ่ายเป็นเลือดไม่เจ็บ เคยฝังแร่รักษามะเร็งปากมดลูก 10 ปีก่อน ร่วมปัสสาวะเป็นเลือดซ้ำ ตรวจทวารไม่พบก้อน การแข็งตัวปกติ → ถามการวินิจฉัย",
-  "why": "<b>P'Ing วง A ✓ Hx of pelvic radiation · radiation cystitis (เหนือ recurrent hematuria)</b><br><b>นอกสไลด์:</b> รังสีทำให้หลอดเลือดเล็กอุดตันค่อยเป็นค่อยไป (obliterative endarteritis) แล้วเกิดหลอดเลือดฝอยใหม่ที่เปราะ → เลือดออกจากลำไส้ตรงและกระเพาะปัสสาวะได้หลายเดือนถึงหลายปีหลังฉาย",
+  "interp": "หญิง 54 ปี ถ่ายเป็นเลือดสด<b>ไม่เจ็บ</b> 2 วัน <b>เคยฉายแร่ (brachytherapy) มะเร็งปากมดลูก 10 ปีก่อน</b> ปัสสาวะเป็นเลือดซ้ำ 6 เดือน PR ไม่มีก้อน → ถามวินิจฉัย",
+  "why": "ประวัติ<b>ฉายรังสีอุ้งเชิงกราน</b> + ถ่ายเลือดสดไม่เจ็บ + ปัสสาวะเป็นเลือดซ้ำ (radiation cystitis ร่วมด้วย) = <b>chronic radiation proctitis</b> · เกิดได้หลายเดือนถึงหลายปีหลังฉายรังสี จาก obliterative endarteritis → ขาดเลือด เส้นเลือดฝอยขยาย (telangiectasia) เปราะ เลือดออกง่าย · ส่องกล้องเห็น telangiectasia เยื่อบุซีดเปราะ · รักษา: sucralfate enema, <b>argon plasma coagulation</b>, <b>4% formalin</b>, hyperbaric oxygen · ยังต้องส่องกล้องตัดมะเร็งออกเสมอ · ไฟล์ P'Ing วง A และลายมือ <b>\"✓ Hx of pelvic radiation\"</b> กับ \"radiation cystitis\" เหนือประวัติปัสสาวะเป็นเลือด",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดสดหยดหลังถ่าย ไม่มีประวัติฉายรังสี ส่องทวารเห็นริดสีดวงที่ตำแหน่ง 3, 7, 11 นาฬิกา",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าคลำได้ก้อนแข็งในลำไส้ตรง ถ่ายเปลี่ยน น้ำหนักลด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยตับแข็ง portal hypertension ส่องเห็นหลอดเลือดดำโป่งขดในลำไส้ตรง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุ (มักร่วม AS หรือไตวาย) เลือดออกซ้ำจาก cecum/colon ขวา ส่องเห็นจุดแดงแตกแขนง"
+   "B": "ริดสีดวงเลือดออกพบบ่อยแต่ไม่อธิบายปัสสาวะเป็นเลือดซ้ำ และมีประวัติฉายรังสีชัด · จะถูกถ้าชายวัยกลางคนท้องผูก ถ่ายเลือดสดหยดหลังถ่าย ส่อง anoscope เห็นริดสีดวงภายใน ไม่มีประวัติฉายรังสี",
+   "C": "มะเร็งทวารหนักมักคลำได้ก้อน น้ำหนักลด อุจจาระเปลี่ยน (ต้องส่องกล้องตัดออกเสมอ) · จะถูกถ้าผู้ป่วย PR คลำได้ก้อนแข็งขอบไม่เรียบ อุจจาระลำเล็กลง น้ำหนักลด",
+   "D": "Rectal varices พบใน portal hypertension (ตับแข็ง) · จะถูกถ้าผู้ป่วยตับแข็งมีม้ามโต เกล็ดเลือดต่ำ ถ่ายเป็นเลือดสดปริมาณมาก",
+   "E": "Angiodysplasia พบในผู้สูงอายุ มักที่ลำไส้ใหญ่ขวา สัมพันธ์กับไตวาย/ aortic stenosis · จะถูกถ้าผู้ป่วย 75 ปี aortic stenosis ถ่ายเป็นเลือดเป็นพัก ๆ ซีดจากขาดเหล็ก"
   },
-  "trap": "เลือดออกสองระบบพร้อมกัน (ลำไส้ตรง + กระเพาะปัสสาวะ) คือคำใบ้ของรังสีที่โดนทั้งเชิงกราน",
+  "trap": "ตอบริดสีดวงเพราะพบบ่อยที่สุด — ประวัติฉายรังสี + เลือดออกทั้งลำไส้และกระเพาะปัสสาวะชี้ radiation injury",
   "summary": [
-   "<b>นอกสไลด์:</b> ส่องกล้องเห็นหลอดเลือดฝอยขยายเปราะ (และตัดมะเร็ง ซึ่งเกิดใหม่ในบริเวณที่ฉายได้) · รักษา: จี้ด้วย argon plasma coagulation เป็นหลัก · formalin ทาเฉพาะที่ · hyperbaric oxygen · sucralfate สวนทวาร"
+   "Radiation proctitis: เฉียบพลัน (&lt; 3 เดือน) / เรื้อรัง (เดือน–ปี)",
+   "อาการ: ถ่ายเลือดสด ท้องเสีย ปวดเบ่ง ปวดอุ้งเชิงกราน",
+   "กลไก: obliterative endarteritis → ขาดเลือด → telangiectasia",
+   "รักษา: sucralfate enema · APC · 4% formalin · hyperbaric oxygen",
+   "ส่องกล้องเสมอเพื่อตัดมะเร็ง (เสี่ยงมะเร็งที่สองหลังฉายรังสี)",
+   "มักพบ radiation cystitis ร่วม (ปัสสาวะเป็นเลือด)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับวง A ✓ และลายมือ/ สไลด์ที่แปะในไฟล์",
+  "mnemonic": "<b>'เคยฉายแร่อุ้งเชิงกราน + เลือดออกทางก้นและทางปัสสาวะ = radiation proctitis/ cystitis'</b>",
+  "guide": "Sleisenger and Fordtran's Gastrointestinal and Liver Disease 11th ed. (2021) — Radiation enteritis and proctitis; ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยรายนี้ปัสสาวะเป็นเลือดเป็นลิ่ม cystoscopy เห็นหลอดเลือดฝอยเปราะทั่วกระเพาะ → radiation cystitis: ล้างลิ่มเลือด จี้จุดเลือดออก พิจารณา hyperbaric oxygen"
+   "หลังฉายรังสีมะเร็งต่อมลูกหมาก 2 ปี ถ่ายเลือดสด ส่องกล้องเห็น telangiectasia → APC",
+   "หญิงหลังฉายรังสีมะเร็งปากมดลูก ปัสสาวะเป็นเลือดซ้ำ → radiation cystitis",
+   "radiation proctitis เลือดออกไม่หยุดหลัง APC → 4% formalin"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 5 — ตัวพิมพ์: <b>75. Female 54 yrs old CC: painless bleeding per rectum for 2 days PE: BP 110/70 mmHg PR 78 bpm Rectal examination: minimal blood clot, no mass PH: CA cervix s/p brachytherapy 10 yrs ago History of recurrent hematuria for 6 months LAB: Hct 30% platelet, coag normal What is the most likely diagnosis? — A. Radiation proctitis B. Bleeding hemorrhoid C. Rectal cancer D. Rectal varices E. Angiodysplasia</b><br>ลายมือ: \"radiation cystitis\" เหนือ \"History of recurrent hematuria\" · A \"✓ Hx of pelvic radiation\"<br>ไฮไลต์: วง A · \"54 yrs old\" \"painless bleeding per rectum for 2 days\" \"minimal blood clot, no mass\" · \"PH: CA cervix s/p brachytherapy\" \"History of recurrent hematuria\" (เหลือง)<br>รูปที่แปะ: สไลด์ Specific Management — Colitis: Non-Infectious Radiation Proctitis · Bright red blood per rectum, diarrhea, and pelvic pain · Risk in history of RT in pelvic cancer · Endoscopically treat · Persist: 4% formalin solution ablation · FIGURE 48-16 A, Rectal bleeding secondary to radiation damage. B, Effective control after application of argon plasma coagulation treatment.",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 5",
+  "kimg": [
+   "fsp_p5",
+   "kp70a_75"
   ]
  },
  "MDCU70|RoA|77": {
-  "interp": "หญิง 32 ปีลิ้นหัวใจเทียมชนิดโลหะ กิน warfarin INR 3.2 เป็นไส้ติ่งอักเสบ → ต้องผ่าตัดด่วนแต่ห้ามแก้ฤทธิ์จนลิ้นเสี่ยงลิ่มเลือด ถามการจัดการ",
-  "why": "<b>P'Ing วง B · A ✗ เสี่ยงเกิด clot @ valve · urgent Sx · elective: ประเมิน bleeding/clotting risk เสี่ยงสูง → หยุด warfarin แล้ว bridge heparin เสี่ยงต่ำ → ผ่าไปเลย</b><br><b>นอกสไลด์:</b> ไส้ติ่งรอไม่ได้ → แก้ฤทธิ์ warfarin ด้วย clotting factor ที่ออกฤทธิ์ทันที (FFP หรือ PCC) ให้ INR ลดพอผ่าตัด แล้วผ่าตัดเร็ว · ไม่ใช้ vitamin K ขนาดสูงเพราะทำให้กลับไปต้านการแข็งตัวยาก",
+  "interp": "หญิง 32 ปี <b>ลิ้นหัวใจเทียมชนิดโลหะ</b> กิน warfarin INR 3.2 เป็น<b>ไส้ติ่งอักเสบเฉียบพลัน</b> → ถามการจัดการ",
+  "why": "ไส้ติ่งอักเสบต้อง<b>ผ่าตัดเร่งด่วน</b> (รอนานเสี่ยงแตก) จึงต้อง<b>แก้ฤทธิ์ warfarin อย่างรวดเร็ว</b>ด้วยการเติม clotting factors — <b>FFP</b> (หรือปัจจุบันนิยม <b>4-factor PCC</b> เพราะเร็วกว่า ปริมาณน้อยกว่า) แล้วผ่าตัด · <b>หลีกเลี่ยง vitamin K ขนาดสูง</b>ในลิ้นโลหะ เพราะทำให้กลับมาให้ warfarin ได้ยาก (ดื้อยาหลายวัน) และเพิ่มความเสี่ยงลิ่มเลือดที่ลิ้น · หลังผ่าตัดเมื่อเลือดหยุดดี เริ่ม heparin (UFH/ LMWH) bridge จน INR ถึงเป้า · ไฟล์ P'Ing วง B ลายมือ <b>\"urgent Sx\"</b> และที่ A <b>\"เสี่ยงเกิด clot @ valve\"</b>",
   "wrong": {
-   "A": "P'Ing ✗ เสี่ยงเกิด clot @ valve — <b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยกิน warfarin เพราะ AF ความเสี่ยงลิ่มเลือดต่ำ ไม่มีลิ้นเทียม และรอผ่าตัดได้หลายชั่วโมง — vitamin K ฉีดเข้าเส้นทำให้ INR ลดใน 6–12 ชม.",
-   "C": "P'Ing: elective surgery — <b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยลิ้น aortic ชนิด bileaflet ไม่มีปัจจัยเสี่ยงลิ่มเลือดอื่น นัดผ่าตัด elective → หยุด warfarin ราว 5 วันให้ INR ปกติ ไม่ต้อง bridge",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าไส้ติ่งอักเสบไม่ซับซ้อน (CT ไม่มีนิ่วอุจจาระ ไม่ทะลุ ไม่มีฝี) ในผู้ป่วยที่เลือกไม่ผ่าตัดหลังได้ข้อมูลครบ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยกิน warfarin แล้วเสียเลือดมากจากอุบัติเหตุจนช็อก ต้องให้เลือดปริมาณมาก"
+   "A": "Vitamin K ออกฤทธิ์ช้า (6–24 ชม.) และขนาดสูงทำให้ดื้อ warfarin หลังผ่าตัด เสี่ยงลิ่มเลือดที่ลิ้นโลหะ (ลายมือ \"เสี่ยงเกิด clot @ valve\") · จะถูกถ้าผู้ป่วยไม่มีลิ้นเทียม (เช่น AF) INR สูงต้องผ่าตัดภายใน 24 ชม. หรือให้ vitamin K ขนาดต่ำร่วมกับ PCC",
+   "C": "หยุดยารอ INR ลดเองใช้เวลาหลายวัน ไส้ติ่งจะแตก · จะถูกถ้าเป็นการผ่าตัดแบบนัด (elective) ในผู้ที่เสี่ยงลิ่มเลือดต่ำ หยุด warfarin 5 วันก่อนผ่าตัด",
+   "D": "ไส้ติ่งอักเสบในผู้มีความเสี่ยงผ่าตัดยังรักษาด้วยการผ่าตัดเป็นหลัก ยาปฏิชีวนะอย่างเดียวเสี่ยงกลับเป็นซ้ำ/ แตก · จะถูกถ้าเป็นไส้ติ่งอักเสบไม่ซับซ้อน (ไม่มี appendicolith/ ฝี) ผู้ป่วยเลือกไม่ผ่าตัดหลังได้ข้อมูลครบ (CODA trial)",
+   "E": "PRC 4 units + FFP 6 units เป็นการให้เลือดปริมาณมาก ผู้ป่วยไม่ได้เสียเลือด ให้เลือดเกินจำเป็นเสี่ยง volume overload · จะถูกถ้าผู้ป่วยบาดเจ็บเลือดออกมากช็อก ต้องเปิด massive transfusion protocol"
   },
-  "trap": "การแก้ฤทธิ์ warfarin ให้หมดด้วย vitamin K ขนาดสูงทำให้ลิ้นเทียมเสี่ยงลิ่มเลือดและกลับมาใช้ยาได้ยาก — แก้แค่พอผ่าตัด",
+  "trap": "ให้ vitamin K เพราะคิดว่าแก้ warfarin ได้ — ช้าและทำให้ลิ้นโลหะเสี่ยงลิ่มเลือด ใช้ FFP/ PCC สำหรับผ่าตัดเร่งด่วน",
   "summary": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัด เริ่ม heparin เมื่อเลือดหยุดดี (ราว 24–48 ชม.) ร่วมกลับไปกิน warfarin จน INR ถึงเป้า แล้วหยุด heparin"
+   "ผ่าตัดเร่งด่วนขณะกิน warfarin → FFP หรือ 4F-PCC (เร็ว)",
+   "Vitamin K: ช้า · ขนาดสูงทำให้ดื้อ warfarin → ระวังในลิ้นโลหะ",
+   "Elective: ประเมินความเสี่ยงเลือดออก/ ลิ่มเลือด",
+   "เสี่ยงลิ่มเลือดสูง (ลิ้นโลหะ mitral, AF + stroke) → หยุด warfarin 5 วัน + bridge heparin",
+   "เสี่ยงต่ำ/ หัตถการเลือดออกน้อย → ผ่าตัดโดยไม่หยุดยา/ หยุดโดยไม่ bridge",
+   "หลังผ่าตัด: เริ่ม heparin เมื่อเลือดหยุดดี แล้วกลับ warfarin"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับวง B และลายมือในไฟล์ · ปัจจุบันแนวทาง ACC 2020 แนะนำ 4F-PCC มากกว่า FFP แต่ในตัวเลือกนี้ FFP ถูกที่สุด",
+  "mnemonic": "<b>'ลิ้นโลหะ + ผ่าด่วน = เติม Factor (FFP/ PCC) ไม่ใช่ Vit K'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72); 2020 ACC Expert Consensus Decision Pathway on Management of Bleeding in Patients on Oral Anticoagulants (J Am Coll Cardiol 2020;76:594)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยลิ้น mitral โลหะร่วม AF กิน warfarin นัดผ่าตัดถุงน้ำดี elective → หยุด warfarin ราว 5 วัน และ bridge ด้วย heparin (ลิ้น mitral/มี AF เสี่ยงลิ่มเลือดสูง)"
+   "ผู้ป่วยลิ้นโลหะ mitral นัดผ่าตัดไส้เลื่อน → หยุด warfarin 5 วัน bridge ด้วย LMWH",
+   "ผู้ป่วย AF กิน warfarin INR 4 ต้องผ่าตัดใน 24 ชม. → vitamin K IV ± PCC",
+   "ผู้ป่วยกิน warfarin INR 8 ไม่มีเลือดออก → หยุดยา + vitamin K กินขนาดต่ำ"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 5 — ตัวพิมพ์: <b>77 which management is the most appropriate for 32-year-old female patient with mechanical valve replacement 8 years ago and well control INR (INR 3.2) that unfortunately has acute appendicitis? — A. ให้ vitamin K แล้วผ่าตัด appendectomy ใน 12 hr B. ให้ FFP แล้วทำ urgent appendectomy C. หยุดยา แล้วรอให้INRลงมาปกติแล้วค่อยผ่า appendectomy D. ให้ATBอย่างเดียว E. 4 units PRC and 6 units FFP ...</b><br>ลายมือ: \"urgent Sx\" เหนือ \"acute appendicitis\" · A \"เสี่ยงเกิด clot @ valve\" (แดง)<br>ไฮไลต์: วง B · \"most appropriate\" \"32-year-old\" \"mechanical valve replacement 8 years ago\" \"well control INR\" \"acute appendicitis\"<br>รูปที่แปะ: กรอบเหลือง \"Elective surgery — ประเมิน bleeding/clotting risk · เสี่ยงสูง → หยุด warfarin แล้ว bridge ไป heparin แทน · เสี่ยงต่ำ → ผ่าไปเหอะ\"",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 5",
+  "kimg": [
+   "fsp_p5",
+   "kp70a_77a",
+   "kp70a_77b"
   ]
  },
  "MDCU70|RoA|80@p5": {
-  "interp": "ชาย 35 ปีหอบเฉียบพลัน ไข้ 38.5 °C มีเสียงฟู่ pansystolic → ลิ้นรั่วใหม่ร่วมไข้ ถามการวินิจฉัย",
-  "why": "<b>P'Ing วง C · A ✗ ใช้ Jones criteria · mitral regurgitation</b><br><b>นอกสไลด์:</b> ไข้ + เสียงฟู่ใหม่ = infective endocarditis จนกว่าจะพิสูจน์ได้ · เชื้อทำลายลิ้นไมทรัลจนรั่วเฉียบพลัน หัวใจซ้ายรับปริมาตรไม่ทัน → น้ำท่วมปอดและหอบทันที",
+  "interp": "ชาย 35 ปี <b>หอบเหนื่อยเฉียบพลัน + ไข้</b> 38.5 °C ฟังได้ <b>pansystolic murmur</b> → ถามวินิจฉัย",
+  "why": "ไข้ + <b>เสียงฟู่ใหม่</b> = ต้องคิดถึง <b>infective endocarditis</b> ก่อนเสมอ · pansystolic murmur ที่ apex = <b>mitral regurgitation</b> จากลิ้นถูกทำลาย (ลิ้นทะลุ เส้นเอ็นยึดลิ้นขาด) → MR เฉียบพลัน → ปอดบวมน้ำ หอบเหนื่อยเฉียบพลัน · วินิจฉัยด้วย <b>Duke criteria</b>: เพาะเชื้อเลือด 3 ชุดก่อนให้ยา + echocardiography (TTE → TEE) · ภาวะหัวใจล้มเหลวจาก IE เป็นข้อบ่งชี้ผ่าตัดเร่งด่วนที่สำคัญที่สุด · ไฟล์ P'Ing วง C ลายมือ <b>\"mitral regurgitation\"</b> และที่ A \"x ใช้ Jones criteria\"",
   "wrong": {
-   "A": "P'Ing: ใช้ Jones criteria — <b>นอกสไลด์:</b> จะถูกถ้าเด็ก 5–15 ปีหลังเจ็บคอ 2–3 สัปดาห์ มีข้ออักเสบย้ายที่ ผื่น erythema marginatum เสียงฟู่ใหม่ ASO สูง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุมีเสียงฟู่ที่ค่อยเป็นมาหลายปี ไม่มีไข้ (ลิ้นเสื่อม/หินปูน)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าหลังไข้หวัดมีเจ็บอก หัวใจเต้นผิดจังหวะ troponin สูง echo กล้ามเนื้อหัวใจบีบตัวลดทั่ว",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเหนื่อยหรือหน้ามืดตามท่าทาง ไข้ต่ำ น้ำหนักลด ได้ยินเสียงก้อนกระทบ echo เห็นก้อนติดผนังกั้นห้องบนซ้าย (myxoma)"
+   "A": "Rheumatic fever วินิจฉัยด้วย Jones criteria (ลายมือ \"x ใช้ Jones criteria\") มักในเด็ก 5–15 ปีหลังคออักเสบจาก Strep · จะถูกถ้าเด็ก 10 ปีเจ็บคอ 3 สัปดาห์ก่อน ข้ออักเสบย้ายที่ ไข้ ฟังได้ MR murmur ASO สูง",
+   "B": "ลิ้นเสื่อมพบในผู้สูงอายุ ค่อยเป็นค่อยไป ไม่มีไข้ · จะถูกถ้าชาย 75 ปีเหนื่อยง่ายค่อยเป็น ฟังได้ crescendo-decrescendo systolic murmur ที่ RUSB (aortic stenosis)",
+   "D": "Viral myocarditis มีอาการนำแบบไวรัส เจ็บหน้าอก หัวใจล้มเหลว troponin สูง เสียงฟู่ไม่ใช่ลักษณะเด่น (ช้อยนี้แต่งเพิ่ม) · จะถูกถ้าชายหนุ่มหลังหวัด 1 สัปดาห์เจ็บหน้าอก หัวใจเต้นผิดจังหวะ troponin สูง EF ลด หลอดเลือดหัวใจปกติ",
+   "E": "เนื้องอกหัวใจ (atrial myxoma) อาจมีไข้ น้ำหนักลดได้ แต่เสียงฟู่มักเป็น diastolic \"tumor plop\" เปลี่ยนตามท่า · จะถูกถ้าหญิงวัยกลางคนเหนื่อยเวลาเปลี่ยนท่า ฟังได้ tumor plop echo เห็นก้อนติด interatrial septum"
   },
-  "trap": "myxoma ก็มีไข้ น้ำหนักลด และลิ่มหลุดได้เหมือน IE — แยกด้วยผลเพาะเชื้อในเลือดและ echo",
+  "trap": "นึกถึง rheumatic fever เพราะมีไข้ + MR — ผู้ใหญ่ ไข้ + เสียงฟู่ใหม่ = endocarditis ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> เพาะเชื้อในเลือด 3 ชุดก่อนให้ยา + echo (TTE แล้ว TEE) ตามเกณฑ์ Duke · ลิ้นรั่วเฉียบพลันจนหัวใจล้มเหลว = ข้อบ่งชี้ผ่าตัดเร่งด่วนที่สำคัญที่สุด"
+   "ไข้ + เสียงฟู่ใหม่ = IE จนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
+   "Duke major: เพาะเชื้อเลือดขึ้นเชื้อทั่วไปของ IE · echo เห็น vegetation/ ฝี/ ลิ้นทะลุ",
+   "เพาะเชื้อเลือด 3 ชุดก่อนให้ยา · TTE → TEE",
+   "ผ่าตัดเร่งด่วน: หัวใจล้มเหลว · ติดเชื้อคุมไม่ได้ (ฝี, เชื้อรา, ดื้อยา) · ป้องกัน emboli (vegetation > 10 mm)",
+   "Pansystolic murmur ที่ apex = MR · ที่ LLSB = TR/ VSD",
+   "Rheumatic fever = Jones criteria หลัง Strep"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับวง C และลายมือในไฟล์ · ช้อย D ต้นฉบับจำไม่ได้ จึงเติม viral myocarditis",
+  "mnemonic": "<b>'FROM JANE (IE): Fever · Roth spots · Osler nodes · Murmur ใหม่ · Janeway lesions · Anemia · Nail-bed hemorrhage · Emboli'</b>",
+  "guide": "2023 ESC Guidelines for the Management of Endocarditis (Eur Heart J 2023;44:3948); 2023 Duke-ISCVID Criteria for Infective Endocarditis (Clin Infect Dis 2023;77:518)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ใช้ยาเสพติดชนิดฉีด ไข้ ไอ ภาพปอดมีก้อนหลายก้อนบางก้อนเป็นโพรง → IE ลิ้น tricuspid (มัก S. aureus) ลิ่มติดเชื้อหลุดไปปอด"
+   "ผู้ใช้ยาเสพติดฉีด ไข้ เสียงฟู่ที่ LLSB ดังขึ้นเวลาหายใจเข้า → tricuspid IE (S. aureus)",
+   "ผู้ป่วย IE หอบ ปอดบวมน้ำจาก MR เฉียบพลัน → ผ่าตัดลิ้นเร่งด่วน",
+   "เด็ก 9 ปีหลังเจ็บคอ ข้ออักเสบย้ายที่ มีเสียงฟู่ใหม่ → acute rheumatic fever"
+  ],
+  "notes": "ไฟล์ Key_P_Ing_Subspecialty_Sx.pdf (คีย์ลายมือ P'Ing) หน้า 5 — ตัวพิมพ์: <b>80. ชาย 35 ปี มาด้วย acute dyspnea&amp; fever ตรวจร่างกาย BT 38.5 มี pansystolic murmur จงให้การวินิจฉัย — A. Rheumatc fever B. Degenerative C. Infective endocarditis D. จำไม่ได้ง่า E. Cardiac tumor</b><br>ลายมือ: \"mitral regurgitation\" ใต้ \"pansystolic murmur\" · A \"x ใช้ Jones criteria\" (แดง)<br>ไฮไลต์: วง C · \"35 ปี\" \"acute dyspnea&amp; fever\" \"BT 38.5\" \"pansystolic murmur\"<br>รูปที่แปะ: แผนภาพ \"Approach to heart murmurs by description — Systolic or diastolic murmur?\" และสไลด์ \"Valvular heart disease\" (ภาพเล็ก)<br>ที่ปรับในเว็บ: ช้อย D จำไม่ได้ → เติม viral myocarditis",
+  "src": "Key_P_Ing_Subspecialty_Sx.pdf · หน้า 5",
+  "kimg": [
+   "fsp_p5",
+   "kp70a_80"
   ]
  }
 }
