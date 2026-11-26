@@ -1,234 +1,411 @@
 {
  "MDCU68|RoC|37": {
-  "interp": "ข้อ NOT — หาข้อความที่ผิดเกี่ยวกับ skin graft · แกนของข้อคือ donor site ของ graft แต่ละชนิดหายอย่างไร",
-  "why": "<b>ลายมือ: donor ของ FTSG ต้องปิดด้วย primary closure หรือ graft</b><br><b>นอกสไลด์:</b> FTSG เอา epidermis กับ dermis ไปทั้งหมด จึงไม่เหลือรูขุมขนหรือต่อมใน donor ให้ epithelium งอกขึ้นมาคลุม — donor กลายเป็นแผลเต็มความหนาที่หายเองไม่ได้ (ถ้าปล่อยจะหายช้ามากจากขอบแผลและหดรั้ง)",
+  "interp": "ถามข้อ<b>ไม่ถูก</b>เกี่ยวกับ skin graft",
+  "why": "<b>Donor site ของ full-thickness skin graft หายเองไม่ได้</b> — ตัดหนังแท้ทั้งชั้น ไม่เหลือ adnexa → ต้อง<b>เย็บปิด (primary closure)</b> หรือปิดด้วย graft · ที่หายเองได้คือ donor ของ <b>split-thickness</b> (re-epithelialize จาก adnexa ใน ~10–14 วัน) · ไฟล์ขีด A แก้ลายมือ: ขีดฆ่า \"ของ\" เติม <b>\"split thickness → หายเองได้\"</b> · ขีดฆ่า \"ได้\" และเขียน <b>\"ต้อง 1° closure/ grafting\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"donor ของ STSG หายจาก adnexa\" ผิด เพราะ STSG เอาไปแค่ epidermis กับ dermis บางส่วน รูขุมขนและต่อมที่ฝังใน dermis ที่เหลือเป็นแหล่ง epithelium ให้ผิวงอกคลุม",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"graft ต้องการ bed ที่มีเลือด\" ผิด เพราะ graft ไม่มีหลอดเลือดของตัวเอง อยู่รอดได้ด้วยการรับสารจาก bed จนหลอดเลือดจาก bed งอกเข้ามา",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อความที่ผิด) ถ้าหมายถึง primary contraction — FTSG หดทันทีหลังตัดมากกว่าเพราะมี elastin ใน dermis มาก · ในความหมายที่ใช้ทั่วไป (secondary contraction ระหว่างแผลหาย) FTSG หดน้อยกว่า ข้อความนี้จึงถูก",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"hematoma เป็นสาเหตุ graft ไม่ติดที่พบบ่อย\" ผิด เพราะเลือดที่คั่งใต้ graft กั้น graft ออกจาก bed หลอดเลือดจึงงอกเข้าไม่ได้"
+   "A": "ถูก — STSG donor หายเองจาก epithelium ในรูขุมขน/ ต่อมเหงื่อ (ลายมือ \"split thickness → หายเองได้\") · จะถูกถ้าช้อยบอกว่า STSG donor ต้องเย็บปิด",
+   "B": "ถูก — graft ไม่มีหลอดเลือดของตัวเอง ต้องวางบนพื้นแผลที่มีเลือดเลี้ยง · จะถูกถ้าช้อยบอกว่าวาง graft บนกระดูกเปลือยได้",
+   "D": "ถูก — FTSG หดตัวรอง (secondary contraction) น้อยกว่า STSG · จะถูกถ้าช้อยบอกว่า STSG หดตัวน้อยกว่า",
+   "E": "ถูก — hematoma/ seroma เป็นสาเหตุ graft ล้มเหลวที่พบบ่อยที่สุด · จะถูกถ้าช้อยบอกว่า hematoma ไม่มีผลต่อ graft"
   },
-  "trap": "เลือก E เพราะคิดว่าสาเหตุ graft ไม่ติดอันดับหนึ่งคือการติดเชื้อ — ที่พบบ่อยที่สุดคือเลือดหรือน้ำเหลืองคั่งใต้ graft ตามด้วยแรงเฉือน (graft ขยับ) แล้วจึงติดเชื้อ จึงต้องห้ามเลือดให้ดีและกด graft ให้แนบ (tie-over bolster, NPWT)",
+  "trap": "สับสน donor site ของ STSG (หายเอง) กับ FTSG (ต้องปิด)",
   "summary": [
-   "<b>นอกสไลด์:</b> donor ของ STSG หายเองราว 10–14 วัน (ยิ่งบางยิ่งหายเร็ว) · donor ของ FTSG ต้องเย็บปิดตรง ถ้ากว้างเกินเย็บต้องปิดด้วย STSG — จึงเลือก donor ของ FTSG ที่ผิวหย่อนพอเย็บได้ (หลังหู เหนือไหปลาร้า ขาหนีบ ข้อพับศอก)",
-   "<b>นอกสไลด์:</b> bed ที่ graft ติด: กล้ามเนื้อ fascia granulation periosteum paratenon perichondrium · bed ที่ไม่ติด: กระดูก เอ็น กระดูกอ่อนที่ไม่มีเยื่อหุ้มเหลือ → ใช้ flap"
+   "FTSG donor: ต้องเย็บปิด (หลังหู เหนือไหปลาร้า ขาหนีบ)",
+   "STSG donor: หายเอง 10–14 วัน",
+   "Secondary contraction: STSG &gt; FTSG",
+   "Graft take: imbibition → inosculation → revascularization",
+   "ล้มเหลว: hematoma/ seroma · infection · shearing",
+   "ต้องการ vascularized bed"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมีช้อยเดียว (ไฟล์ขีด A คือข้อความนี้) เว็บจึงจัดเป็นช้อย C และเขียนช้อยอื่นเป็นข้อความที่ถูก",
+  "mnemonic": "<b>'Full = เอาไปหมด → donor ต้อง Fix'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Skin grafts",
   "variants": [
-   "<b>นอกสไลด์:</b> ต้องการ donor ของ STSG ในเด็กที่ไม่อยากให้เห็นแผลเป็น → หนังศีรษะ: รูขุมขนหนาแน่นจึงหายเร็ว และผมขึ้นปิดแผล",
-   "<b>นอกสไลด์:</b> แผลบริเวณที่เคยฉายรังสีมาก (เช่นหลังผ่าตัดมะเร็งเต้านม) → skin graft ติดยากเพราะ bed เลือดน้อย: เลือก flap ที่นำเลือดใหม่มาด้วย"
+   "FTSG ปิดแผลที่หน้าผาก → donor หลังหู เย็บปิด",
+   "STSG จากต้นขา → donor dressing หายเอง",
+   "FTSG ที่ฝ่ามือเด็ก → หดตัวน้อย"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 78 — หัวกระดาษ: AC Subspecialties Sx Rotate 3/2558 · ตัวพิมพ์: <b>37.ข้อใดไม่ถูกเกี่ยวกับskin graft — A) Donor site ของ full thickness skin graft หายเองได้</b><br>ลายมือ: ขีด A · ขีดฆ่า \"ของ\" + \"split thickness → หายเองได้\" · ขีดฆ่า \"ได้\" + \"ต้อง 1° closure/ grafting\"<br>ไฮไลต์: \"ไม่ถูกเกี่ยวกับskin graft\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 66: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมีช้อยเดียว → เขียนช้อยอื่นใหม่",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 78",
+  "kimg": [
+   "fsk_p78",
+   "kp68c_37",
+   "k2p_66"
   ]
  },
  "MDCU68|RoC|39": {
-  "interp": "ก้อนนิ่มกลางสันจมูกตั้งแต่เกิดที่โตเวลาร้อง (ต่อกับน้ำไขสันหลัง) ร่วมกับตาห่าง → ถุงเนื้อสมองยื่นออกทางกะโหลกส่วนหน้า · ถามการวินิจฉัย",
-  "why": "<b>คีย์: ขีด C</b><br><b>นอกสไลด์:</b> frontoethmoidal encephalomeningocele (FEEM) คือเยื่อหุ้มสมองและเนื้อสมองยื่นผ่านรูที่รอยต่อกระดูก frontal กับ ethmoid (บริเวณ foramen caecum) ออกมาที่สันจมูก/หัวตา — ก้อนนิ่ม ผิวคลุม โตเวลาร้องหรือเบ่ง และดันหัวตาให้ห่างกัน (telecanthus)",
+  "interp": "ภาพเด็กที่มี<b>ก้อนนุ่มแนวกลางที่โคนจมูก (glabella) ตั้งแต่เกิด โตขึ้นเวลาร้อง ร่วมหัวตาห่าง (telecanthus)</b> และได้รับการผ่าตัดแก้แล้ว → ถามการวินิจฉัย",
+  "why": "ก้อนแนวกลางโคนจมูกที่<b>โตเวลาร้อง/ เบ่ง (ต่อกับช่องกะโหลก)</b> + telecanthus = <b>frontoethmoidal encephalomeningocele (FEEM)</b> — เยื่อหุ้มสมอง ± เนื้อสมองยื่นออกทางรูของกระดูกบริเวณ frontoethmoidal (foramen cecum) · พบบ่อยใน<b>เอเชียตะวันออกเฉียงใต้ รวมถึงไทย</b> · แยกจาก nasal glioma (ไม่โตเวลาร้อง ไม่ต่อกับช่อง CSF) และ dermoid · ต้อง CT/ MRI ก่อนผ่าตัด → ผ่าตัดร่วมประสาทศัลย์และศัลย์ตกแต่ง (ปิด dura ซ่อมกระดูก แก้ telecanthus) · ไฟล์ขีด C (ไฟล์บันทึก \"รูป FEEM ที่ผ่าแก้แล้ว(มั้ง)\" ไม่มีรูปในไฟล์)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ก้อนนิ่มกลางสันจมูกที่โตเวลาร้องเป็น craniosynostosis เพราะ craniosynostosis คือรอยต่อกะโหลกปิดก่อนกำหนดซึ่งทำให้รูปศีรษะผิดไป ไม่มีถุงยื่นออกจากกะโหลก",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ก้อนนิ่มที่โตเวลาร้องเป็น craniofacial cleft เพราะ cleft คือร่องแยกของกระดูกและเนื้อเยื่อตามแนวที่จำแนกแบบ Tessier ไม่ใช่ถุงที่มีน้ำไขสันหลัง",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ frontonasal dysplasia เป็นคำวินิจฉัยของก้อนที่โตเวลาร้อง เพราะ frontonasal dysplasia คือรูปหน้าผิดปกติ (ตาห่าง สันจมูกกว้างแบน ปลายจมูกแยกกลาง) ที่ไม่มีถุงยื่น — ถ้ามีก้อนแบบนี้ร่วมด้วย ก้อนนั้นคือ encephalocele",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Treacher Collins มีก้อนกลางสันจมูก เพราะเป็นความผิดปกติของโหนกแก้มและขากรรไกรล่างสองข้าง (หางตาตก เปลือกตาล่างแหว่ง หูผิดรูป คางเล็ก) ไม่เกี่ยวกับกะโหลกส่วนหน้า"
+   "A": "Craniosynostosis = รอยประสานกะโหลกปิดก่อนกำหนด → ศีรษะผิดรูป ไม่มีก้อนนุ่มที่โคนจมูก · จะถูกถ้าทารกศีรษะยาวหน้า-หลัง สันนูนแนวกลางกะโหลก (sagittal synostosis)",
+   "B": "Craniofacial cleft (Tessier) = รอยแยกของเนื้อเยื่อ/ กระดูกใบหน้า ไม่ใช่ก้อนที่โตเวลาร้อง · จะถูกถ้าทารกมีรอยแยกจากริมฝีปากถึงตา",
+   "D": "Frontonasal dysplasia = hypertelorism จมูกแบน/ แยกกลาง อาจมี notch ที่ปลายจมูก แต่ไม่มีก้อนที่ต่อกับช่องกะโหลก · จะถูกถ้าทารกตาห่างมาก จมูกกว้างแยกกลางไม่มีก้อน",
+   "E": "Treacher Collins = mandibulofacial dysostosis: โหนกแก้ม/ ขากรรไกรล่างเล็ก ตาเอียงลง หูผิดรูป · จะถูกถ้าเด็กใบหน้าคล้ายปลา หางตาตก หูเล็ก ขากรรไกรเล็ก"
   },
-  "trap": "ก้อนแข็งกลางสันจมูกที่ไม่โตเวลาร้องคือ nasal glioma (เนื้อสมองที่ขาดการเชื่อมกับข้างในแล้ว) · ก้อนที่โตเมื่อร้องหรือกดหลอดเลือด jugular (Furstenberg sign) แปลว่ายังต่อกับน้ำไขสันหลัง = encephalocele → ห้ามเจาะหรือตัดชิ้นเนื้อก่อนทำ CT/MRI เพราะเสี่ยงน้ำไขสันหลังรั่วและเยื่อหุ้มสมองอักเสบ",
+  "trap": "สับสนกับ dermoid/ nasal glioma — ก้อนที่โตเวลาร้อง = ต่อกับช่องกะโหลก (encephalocele)",
   "summary": [
-   "<b>นอกสไลด์:</b> FEEM แบ่งเป็น nasofrontal, nasoethmoidal, naso-orbital ตามตำแหน่งที่โผล่ · พบบ่อยในไทยและเอเชียตะวันออกเฉียงใต้ (ทางตะวันตกพบชนิด occipital มากกว่า) · ตรวจ CT ดูรูที่กระดูก + MRI ดูเนื้อสมองในถุง · ผ่าตัด: ตัดเนื้อสมองที่ยื่นออกมา ปิด dura ซ่อมกระดูกฐานกะโหลก และแก้ telecanthus/hypertelorism"
+   "FEEM: ก้อนนุ่มแนวกลางโคนจมูก · โตเวลาร้อง · telecanthus",
+   "พบบ่อยในเอเชียตะวันออกเฉียงใต้",
+   "แยก: nasal glioma (ไม่โตเวลาร้อง) · nasal dermoid (มีรู/ ขน)",
+   "ห้ามเจาะ/ ตัดชิ้นเนื้อก่อนภาพถ่าย (CSF leak, meningitis)",
+   "CT/ MRI → ผ่าตัดร่วม neuro + plastic",
+   "Furstenberg test: ก้อนโตเมื่อกด jugular → encephalocele"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — ต้นฉบับใส่ชื่อโรคไว้ในโจทย์และไม่มีรูป จึงแก้ stem เป็นลักษณะทางคลินิกแทน",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ไฟล์ Key 1 ไม่ได้ขีด) · ไฟล์ไม่มีรูปประกอบ เว็บจึงเขียนลักษณะในโจทย์ให้วินิจฉัยได้",
+  "mnemonic": "<b>'ก้อนโคนจมูกโตเวลาร้อง = FEEM (ต่อกับสมอง)'</b>",
+  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Craniofacial: encephaloceles; Suwanwela classification of frontoethmoidal encephalomeningocele",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกแรกเกิดมีถุงผิวบางที่ท้ายทอยแนวกลาง ใหญ่ขึ้นเวลาร้อง → occipital encephalocele: MRI ดูเนื้อสมองและ ventricle ในถุงก่อนผ่าตัด",
-   "<b>นอกสไลด์:</b> เด็กมีก้อนแข็งเล็กกลางสันจมูกพร้อมรูเล็กที่มีขนโผล่ → nasal dermoid sinus cyst: MRI ดูว่าท่อลอดเข้ากะโหลกหรือไม่ก่อนผ่าตัด"
+   "ทารกก้อนนุ่มโคนจมูกโตเวลาร้อง → MRI → ผ่าตัด FEEM",
+   "ทารกก้อนแข็งสีแดงม่วงที่โคนจมูกไม่โตเวลาร้อง → nasal glioma",
+   "เด็กมีรูที่สันจมูกมีขนงอกออก → nasal dermoid sinus"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 78 — ตัวพิมพ์: <b>39. รูป FEEM ที่ผ่าแก้แล้ว(มั้ง) — A) Craniosynostosis B) Craniofacial cleft C) FEEM D) Frontonasal dysplasia E) Tracher-collin syndrome</b><br>ลายมือ: ขีด C<br>ไฮไลต์: \"รูป FEEM\" · C (เหลือง)<br>รูปที่แปะ (ข้างข้อนี้): ตาราง Omphalocele vs Gastroschisis (ของข้อ 53)<br>หมายเหตุ: ไฟล์ไม่มีรูปผู้ป่วย<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 66: ไม่มีขีด<br>ที่ปรับในเว็บ: เขียนโจทย์บรรยายลักษณะแทนรูป",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 78",
+  "kimg": [
+   "fsk_p78",
+   "kp68c_39",
+   "k2p_66"
   ]
  },
  "MDCU68|RoC|41": {
-  "interp": "melanoma ที่ผิวหนังหนาราว 2 mm (ต่อจากข้อก่อน) → ถามการผ่าตัดรอยโรคปฐมภูมิ = ขอบของ wide local excision",
-  "why": "<b>ลายมือ: in situ ขอบ 0.5 cm · หนา 2 mm ขอบ 2 cm</b><br><b>นอกสไลด์:</b> ขอบผ่าตัดของ melanoma กำหนดจากความหนา (Breslow) ที่ได้จากชิ้นเนื้อแรก — ยิ่งหนายิ่งมีเซลล์กระจายในผิวหนังรอบ ๆ ไกล จึงต้องขอบกว้างขึ้น โดยตัดลึกถึง fascia",
+  "interp": "(ต่อจากข้อก่อน) <b>melanoma หนา ~2 mm</b> → ถามการผ่าตัดรอยโรคปฐมภูมิ",
+  "why": "Wide local excision ของ melanoma กำหนดขอบตาม<b>ความหนา (Breslow thickness)</b>: in situ → 0.5–1 cm · ≤ 1 mm → 1 cm · 1–2 mm → 1–2 cm · <b>&gt; 2 mm → 2 cm</b> · ร่วมกับ <b>sentinel lymph node biopsy</b> เมื่อหนา &gt; 0.8 mm หรือมี ulceration (ไม่ทำ elective neck dissection) · ไฟล์ไม่ได้ขีด แต่ลายมือ <b>A \"→ BCC\" · B \"→ SCC\" · C \"melanoma — in situ: 5 mm · หนา &lt; 2 mm: 1 cm · หนา &gt; 2 mm: 2 cm\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น melanoma in situ — ขอบ 0.5–1 cm",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น melanoma หนาไม่เกิน 1 mm — ขอบ 1 cm",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ neck dissection เป็นการจัดการรอยโรคปฐมภูมิ เพราะเป็นการผ่าตัดต่อมน้ำเหลืองภูมิภาค ใช้เมื่อพิสูจน์แล้วว่ามะเร็งลามต่อมที่คอ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การตัดชิ้นเนื้อต่อมน้ำเหลืองเป็นการจัดการรอยโรคปฐมภูมิ เพราะ sentinel lymph node biopsy เป็นการจัดระยะต่อมน้ำเหลือง — ทำพร้อม wide excision ใน melanoma ที่หนาเกิน 1 mm (เช่นผู้ป่วยหนา 2 mm) ไม่ได้ทำแทนการตัดรอยโรค"
+   "A": "ขอบ 0.5 cm ใช้กับ melanoma in situ หรือ BCC ความเสี่ยงต่ำ (~4 mm) (ลายมือ \"→ BCC\") · จะถูกถ้าคำถามถาม melanoma in situ หรือ BCC ขนาดเล็ก",
+   "B": "ขอบ 1 cm ใช้กับ melanoma หนา ≤ 1 mm หรือ SCC ความเสี่ยงต่ำ (ลายมือ \"→ SCC\") · จะถูกถ้า melanoma หนา 0.6 mm",
+   "D": "Neck dissection ทำเมื่อมีต่อมน้ำเหลืองที่คอโตยืนยันมะเร็ง ไม่ทำแบบป้องกัน · จะถูกถ้าคลำได้ต่อมน้ำเหลืองที่คอ FNA ยืนยัน melanoma",
+   "E": "Sentinel node biopsy ทำร่วมกับ wide excision ใน melanoma &gt; 0.8 mm แต่ไม่ใช่การจัดการรอยโรคปฐมภูมิ · จะถูกถ้าคำถามถามการประเมินต่อมน้ำเหลืองใน melanoma 2 mm ที่คลำไม่ได้"
   },
-  "trap": "ความหนา 1.01–2 mm แนวทาง NCCN ให้ขอบ 1–2 cm (ใช้ 1 cm ได้ในตำแหน่งที่เนื้อจำกัด) จึงอย่าจำว่า \"2 mm ห้ามน้อยกว่า 2 cm\" — ส่วนหนาเกิน 2 mm ต้อง 2 cm เสมอ และขอบไม่เกิน 2 cm แม้จะหนามาก",
+  "trap": "ใช้ขอบเดียวกับ BCC/ SCC — melanoma ใช้ขอบตามความหนา (&gt; 2 mm = 2 cm)",
   "summary": [
-   "<b>นอกสไลด์:</b> ขอบ WLE ของ melanoma (NCCN): in situ 0.5–1 cm · ≤ 1 mm = 1 cm · 1.01–2 mm = 1–2 cm · > 2 mm = 2 cm · วัดจากขอบรอยโรคหรือแผลตัดชิ้นเนื้อ ลึกถึง fascia"
+   "Melanoma in situ: 0.5–1 cm",
+   "≤ 1 mm: 1 cm · 1–2 mm: 1–2 cm · &gt; 2 mm: 2 cm",
+   "SLNB: หนา &gt; 0.8 mm หรือ ulceration",
+   "ต่อมน้ำเหลืองโตยืนยันมะเร็ง → therapeutic lymphadenectomy",
+   "BCC: ขอบ ~4 mm · SCC: 4–6 mm (เสี่ยงสูงกว้างขึ้น)",
+   "Breslow thickness = ปัจจัยพยากรณ์สำคัญที่สุด"
   ],
-  "opinion": "ตามคีย์ C ความมั่นใจปานกลาง — ไม่เห็นโจทย์ข้อ 40 · ถ้าหนา 1.01–2 mm ช้อย B ก็อยู่ในช่วงที่ NCCN ยอมรับ แต่ลายมือคีย์ให้ 2 cm",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่ได้ขีดแต่ลายมือระบุ \"หนา &gt; 2 mm: 2 cm\" ตรงกับคำตอบ (ไฟล์ Key 1 ไม่ได้ขีด)",
+  "mnemonic": "<b>'Melanoma: หนาเท่าไร (mm) ขอบ ~ เท่านั้น (cm) สูงสุด 2'</b>",
+  "guide": "NCCN Clinical Practice Guidelines: Melanoma: Cutaneous v.2.2025; AAD Guidelines of care for primary cutaneous melanoma (J Am Acad Dermatol 2019;80:208)",
   "variants": [
-   "<b>นอกสไลด์:</b> ไฝดำเปลี่ยนรูปที่หลัง สงสัย melanoma → excisional biopsy ขอบ 1–3 mm ก่อน (ไม่ทำ WLE ทันที) เพื่อวัด Breslow แล้วจึงกำหนดขอบ",
-   "<b>นอกสไลด์:</b> melanoma ใต้เล็บนิ้วโป้งเท้าหนา 3 mm → ตัดนิ้วระดับข้อใกล้รอยโรค (amputation) แทน WLE เพราะเว้นขอบ 2 cm แบบเก็บนิ้วไม่ได้"
+   "melanoma in situ ที่แก้ม → excision ขอบ 0.5–1 cm",
+   "melanoma 0.6 mm ไม่มี ulceration → ขอบ 1 cm ไม่ต้อง SLNB",
+   "melanoma 3 mm ที่หลัง → ขอบ 2 cm + SLNB"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 78 — ตัวพิมพ์: <b>41.จากข้อ 40 appropiate management for primary lesion — A) Wide excision 0.5 cm margin B) Wide excision 1 cm margin C) Wide excision 2 cm margin D) Modified neck lymph node resection E) Lymph node biopsy</b><br>ลายมือ: A \"→ BCC\" · B \"→ SCC\" · C \"melanoma — in situ: 5 mm · หนา &lt; 2 mm: 1 cm · หนา &gt; 2 mm: 2 cm\" · ไม่ได้ขีดช้อย<br>ไฮไลต์: \"appropiate management for primary lesion\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 66: ไม่มีขีด<br>หมายเหตุ: ไฟล์ไม่มีข้อ 40 (โจทย์ melanoma) จึงระบุความหนา ~2 mm ในโจทย์เว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 78",
+  "kimg": [
+   "fsk_p78",
+   "kp68c_41",
+   "k2p_66"
   ]
  },
  "MDCU68|RoC|42": {
-  "interp": "เด็กกลืนเหรียญ ไม่มีอาการ ภาพรังสีเห็นเหรียญในกระเพาะแล้ว → ถามการจัดการ",
-  "why": "<b>คีย์: ขีด A</b><br><b>นอกสไลด์:</b> เหรียญที่ผ่านหลอดอาหารลงกระเพาะได้แล้วผ่าน pylorus และลำไส้ได้เกือบทั้งหมด (จุดที่ติดคือหลอดอาหาร) — เด็กไม่มีอาการจึงกลับบ้านได้ กินอาหารปกติ ดูอุจจาระ และนัดกลับเมื่อมีอาการ",
+  "interp": "เด็กกลืน<b>เหรียญ 50 สตางค์</b> ไม่มีอาการ (พูดได้ ไม่เขียว) X-ray พบ<b>เหรียญในกระเพาะ</b> → ถามการจัดการ",
+  "why": "เหรียญที่<b>ผ่านหลอดอาหารลงกระเพาะแล้ว</b>และเด็กไม่มีอาการ ส่วนใหญ่ (&gt; 90%) ผ่านออกเองทางอุจจาระภายใน 4–6 วัน → <b>ให้กลับบ้าน กินอาหารปกติ ดูอุจจาระ</b> และนัด X-ray ซ้ำถ้ายังไม่ออกใน 1–2 สัปดาห์ หรือมีอาการ (ปวดท้อง อาเจียน เลือดออก) · ต้องส่องกล้องเอาออกเมื่อ: ติดในหลอดอาหาร, <b>ถ่านกระดุม (button battery)</b>, <b>แม่เหล็กหลายชิ้น</b>, ของมีคม, ของยาว/ ใหญ่ (&gt; 2.5 cm ในเด็กเล็ก) · ไฟล์ขีด A",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเหรียญติดที่หลอดอาหาร เด็กไม่มีอาการ และกลืนมาไม่ถึง 24 ชม. — สังเกตอาการในโรงพยาบาล 12–24 ชม. แล้วถ่ายภาพซ้ำ เพราะเหรียญอาจหล่นลงกระเพาะเอง ถ้ายังค้างจึงส่องกล้อง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเหรียญยังค้างในกระเพาะเมื่อถ่ายภาพซ้ำหลังราว 2–4 สัปดาห์ หรือเด็กเริ่มปวดท้อง อาเจียน — ส่องกล้องคีบออก",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การดื่มน้ำมาก ๆ เป็นการรักษาสิ่งแปลกปลอมที่กลืน เพราะไม่ได้เร่งให้วัตถุผ่าน pylorus หรือลำไส้ และถ้าวัตถุติดหลอดอาหารยังเสี่ยงสำลัก",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทำให้อาเจียนเพื่อเอาสิ่งแปลกปลอมออก เพราะวัตถุที่ขย้อนขึ้นมาอาจติดหลอดอาหารหรือสำลักเข้าหลอดลม"
+   "B": "Admit เพื่อ X-ray ติดตามไม่จำเป็นในเด็กไม่มีอาการ · จะถูกถ้าเด็กกลืนแม่เหล็กชิ้นเดียว X-ray ซ้ำดูการเคลื่อนตัว หรือเด็กมีอาการปวดท้อง",
+   "C": "ส่องกล้องคีบออกไม่จำเป็นเมื่อเหรียญอยู่ในกระเพาะไม่มีอาการ · จะถูกถ้าเหรียญติดในหลอดอาหาร หรือกลืนถ่านกระดุม/ แม่เหล็กหลายชิ้น",
+   "D": "ดื่มน้ำมาก ๆ ไม่ได้ช่วยและไม่ใช่การจัดการมาตรฐาน · จะถูกถ้าคำถามถามคำแนะนำทั่วไปให้กินอาหารปกติ",
+   "E": "ห้ามทำให้อาเจียน เสี่ยงสำลัก/ เหรียญติดหลอดอาหาร · จะถูกถ้าคำถามถามสิ่งที่ห้ามทำในเด็กกลืนสิ่งแปลกปลอม"
   },
-  "trap": "กังวลว่าเหรียญ \"ใหญ่\" จะติดในกระเพาะจึงรับไว้ถ่ายภาพซ้ำหรือส่องกล้อง — สิ่งที่บอกความเสี่ยงคือชนิดและตำแหน่งของวัตถุ ไม่ใช่การที่เป็นเหรียญ: เหรียญในกระเพาะที่ไม่มีอาการเฝ้าดูที่บ้าน",
+  "trap": "ส่องกล้องเอาออกทุกราย — เหรียญในกระเพาะไม่มีอาการรอให้ออกเองได้ (ยกเว้นถ่านกระดุม/ แม่เหล็ก/ ของมีคม)",
   "summary": [
-   "<b>นอกสไลด์:</b> สิ่งแปลกปลอมทู่ในกระเพาะที่ไม่มีอาการ: กลับบ้าน ดูอุจจาระ · กลับมาทันทีถ้าปวดท้อง อาเจียน ถ่ายดำหรือเป็นเลือด · ยังไม่เห็นออกถ่ายภาพซ้ำราว 2–4 สัปดาห์",
-   "<b>นอกสไลด์:</b> ต้องส่องกล้องเร็วแม้ไม่มีอาการ: ถ่านกระดุมในหลอดอาหาร (ด่วนภายในราว 2 ชม.) · แม่เหล็กหลายชิ้นหรือแม่เหล็กร่วมโลหะ · ของแหลมคม · วัตถุยาวเกินราว 5–6 cm"
+   "เหรียญในหลอดอาหาร → ส่องกล้องเอาออก (ภายใน 24 ชม. ถ้าไม่มีอาการ)",
+   "เหรียญในกระเพาะ ไม่มีอาการ → กลับบ้าน ดูอุจจาระ",
+   "ถ่านกระดุมในหลอดอาหาร → เอาออกทันที (ไหม้ทะลุใน 2 ชม.)",
+   "แม่เหล็กหลายชิ้น → เอาออก (ดูดลำไส้ทะลุ)",
+   "ของมีคม/ ยาว &gt; 5 cm (เด็กโต) → เอาออก",
+   "X-ray เห็นขอบสองชั้น (halo) = ถ่านกระดุม"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ไฟล์ Key 1 ไม่ได้ขีด) · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'เหรียญถึงกระเพาะแล้ว = รอ (ไปทางอึ) · ถ่าน/ แม่เหล็ก = เอาออก'</b>",
+  "guide": "NASPGHAN Clinical Report: Management of Ingested Foreign Bodies in Children (J Pediatr Gastroenterol Nutr 2015;60:562); ESGE Guideline: Removal of Foreign Bodies (Endoscopy 2016;48:489)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กกลืนเหรียญ น้ำลายไหล กลืนไม่ได้ ภาพ AP เห็นเหรียญเป็นวงกลมที่ระดับกระดูกไหปลาร้า → เหรียญติดหลอดอาหารและมีอาการ: ส่องกล้องเอาออกโดยเร็ว",
-   "<b>นอกสไลด์:</b> เด็ก 2 ขวบกลืนถ่านกระดุมขนาด 20 mm ภาพรังสีอยู่ในกระเพาะแล้ว ไม่มีอาการ → พิจารณาส่องกล้องเอาออก (เด็กเล็ก ถ่านใหญ่) ถ้าไม่เอาออกต้องถ่ายภาพซ้ำภายในราว 1–2 สัปดาห์"
+   "เด็กกลืนเหรียญ น้ำลายไหล กลืนไม่ได้ X-ray เหรียญในหลอดอาหาร → ส่องกล้องเอาออก",
+   "เด็กกลืนถ่านกระดุม X-ray halo sign ในหลอดอาหาร → ส่องกล้องเอาออกทันที",
+   "เด็กกลืนแม่เหล็ก 2 ชิ้น → ส่องกล้อง/ ผ่าตัดเอาออก"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 78 — หัวข้อ Pediatrics · ตัวพิมพ์: <b>42. เด็กกลืนเหรียญ 50 สตางค์ แล้วมารพ. ยังพูดได้ ไม่มีเขียว xray เจอเหรียญในกระเพาะ ถาม management — A) ให้กลับบ้าน รอดูอึ B) admit ที่รพ คอย xray ดู C) gastroscope คีบออกมา D) กินน้ำเยอะๆ ให้มันออกมาเร็วๆ</b><br>ลายมือ: ขีด A · ลายมือเล็กเหนือ \"คีบ\" ที่ C (อ่านไม่ชัด)<br>ไฮไลต์: \"กลืนเหรียญ 50 สตางค์ แล้วมารพ.\" \"พูดได้ ไม่มีเขียว\" \"xray เจอเหรียญในกระเพาะ\" \"management\" · A \"กลับบ้าน รอดูอึ\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 66: ไม่มีขีด<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 78",
+  "kimg": [
+   "fsk_p78",
+   "kp68c_42",
+   "k2p_66"
   ]
  },
  "MDCU68|RoC|51": {
-  "interp": "ถามข้อห้ามของการสวนลม/สารทึบเพื่อดัน intussusception ในเด็ก",
-  "why": "<b>ลายมือ: perforation</b><br><b>นอกสไลด์:</b> pneumoperitoneum แปลว่าลำไส้ทะลุแล้ว — ถ้าสวนต่อ ลมหรือสารทึบจะถูกดันเข้าช่องท้องเพิ่ม (tension pneumoperitoneum หรือ barium peritonitis) จึงต้องผ่าตัด · ข้อห้ามอื่นในกลุ่มเดียวกันคือ peritonitis และช็อกที่แก้ไม่ได้",
+  "interp": "ถาม<b>ข้อห้าม</b>ในการทำ air/ barium (hydrostatic) reduction ใน intussusception",
+  "why": "ข้อห้ามของ enema reduction: <b>ลำไส้ทะลุ (pneumoperitoneum/ free air)</b>, <b>peritonitis</b>, <b>ช็อก/ ภาวะไม่คงที่</b>ที่ฟื้นไม่ได้ → ต้องผ่าตัด · ส่วนอาการนาน &gt; 48 ชม., อายุ &gt; 3 ปี, กลับเป็นซ้ำ ไม่ใช่ข้อห้าม (เพียงความสำเร็จต่ำกว่า/ ต้องหา lead point) และ<b>ทำ reduction ซ้ำได้ (ลองได้ถึง ~3 ครั้ง)</b> · ไฟล์ขีด A ลายมือ <b>\"มี perforation\"</b> · D <b>\"try ได้ 3 ครั้ง\"</b> และแปะสไลด์ <b>Operative management — Indications: Initial evidence of peritonitis or perforation · Perforation during non operative procedure · Failure non operative procedure · Third time presentation · presentation well beyond the usual age range</b> และ <b>Non operative management: Hydrostatic reduction (Barium Enema) · Pneumatic reduction — Under ultrasound guide/ Under Fluoroscopy</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ระยะเวลาของอาการอย่างเดียวเป็นข้อห้าม เพราะอาการนานแค่ลดโอกาสดันสำเร็จและเพิ่มความเสี่ยงทะลุ — ถ้าเด็กคงที่และไม่มี peritonitis หรือลมอิสระยังสวนก่อน",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อายุเกิน 3 ปีเป็นข้อห้ามในตัวเอง เพราะอายุมากแค่เพิ่มโอกาสมีจุดนำ (lead point) — ยังสวนดันได้ แล้วตรวจหาจุดนำต่อถ้าสงสัย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การกลับเป็นซ้ำหลังสวนสำเร็จเป็นข้อห้าม เพราะการเป็นซ้ำส่วนใหญ่ยังดันด้วยการสวนได้อีก — ถ้าเป็นซ้ำหลายครั้งจึงหาจุดนำ",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นเหตุไม่สวน) ถ้า US หลังผ่าตัดช่องท้องพบลำไส้เล็กกลืนลำไส้เล็ก (postoperative ileoileal intussusception) — การสวนทางทวารเข้าไม่ถึงตำแหน่งนี้"
+   "B": "อาการนาน &gt; 48 ชม. ลดโอกาสสำเร็จและเพิ่มความเสี่ยงทะลุ แต่ไม่ใช่ข้อห้ามเด็ดขาดถ้าเด็กคงที่ · จะถูกถ้าคำถามถามปัจจัยที่ลดความสำเร็จของ enema reduction",
+   "C": "อายุ &gt; 3 ปีให้หา lead point (Meckel, polyp, lymphoma) แต่ไม่ห้ามลอง reduction · จะถูกถ้าคำถามถามเหตุให้สงสัย pathologic lead point",
+   "D": "กลับเป็นซ้ำหลัง pneumatic reduction ลองทำซ้ำได้ (ลายมือ \"try ได้ 3 ครั้ง\") · จะถูกถ้าเป็นการกลับเป็นซ้ำครั้งที่ 3 (สไลด์: third time presentation → ผ่าตัด)",
+   "E": "อาการกลับซ้ำทันทีหลังผ่าตัดต้องประเมินเฉพาะราย (อาจเป็น postoperative intussusception ของลำไส้เล็ก) · จะถูกถ้าคำถามถามภาวะที่ต้องสำรวจช่องท้องซ้ำ"
   },
-  "trap": "เห็นอาการนานเกิน 48 ชม. หรือเด็กโตแล้วส่งผ่าตัดเลย — สองอย่างนี้ลดโอกาสสำเร็จแต่ไม่ใช่ข้อห้าม · ที่ห้ามสวนคือลำไส้ทะลุ peritonitis หรือช็อกที่ไม่ตอบสนองต่อการให้สารน้ำ",
+  "trap": "คิดว่าอาการนาน/ อายุมาก/ กลับเป็นซ้ำเป็นข้อห้าม — ข้อห้ามจริงคือทะลุ/ peritonitis/ ช็อก",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อห้ามสวนดัน: ลมอิสระในช่องท้อง · peritonitis · ช็อกที่แก้ไม่ได้ · ปัจจัยที่ลดโอกาสสำเร็จ (แต่ยังสวนได้): อาการนาน เลือดออกทางทวารมาก ลำไส้อุดตันชัด อายุน้อยกว่า 3 เดือนหรือมากกว่า 5 ปี"
+   "ข้อห้าม enema reduction: perforation · peritonitis · ช็อกไม่ตอบสนอง",
+   "Air (pneumatic) หรือ hydrostatic ภายใต้ fluoroscopy/ US",
+   "สำเร็จ ~80–90% · ทะลุ ~1%",
+   "ลองซ้ำได้ (ล่าช้า) ถ้าเด็กคงที่และลดได้บางส่วน",
+   "ผ่าตัด: ทะลุ · peritonitis · reduction ล้มเหลว · กลับเป็นครั้งที่ 3 · lead point",
+   "อายุนอกช่วงปกติ → หา lead point"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์",
+  "mnemonic": "<b>'ห้าม enema เมื่อ: Perforation · Peritonitis · Profound shock (3P)'</b>",
+  "guide": "ACR Appropriateness Criteria: Intussusception (2019); Coran's Pediatric Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ระหว่างสวนลม เด็กท้องโป่งตึงทันที หายใจลำบาก ชีพจรเบา → tension pneumoperitoneum: เจาะเข็มระบายลมที่ผนังหน้าท้องทันทีแล้วผ่าตัด",
-   "<b>นอกสไลด์:</b> สวนลมครั้งแรกดันได้บางส่วน เด็กยังคงที่ → สวนซ้ำ (delayed repeat enema) หลังราว 30 นาทีถึงไม่กี่ชั่วโมงก่อนตัดสินผ่าตัด"
+   "intussusception + free air → ผ่าตัด",
+   "intussusception อาการ 3 วัน เด็กคงที่ → ลอง air enema ได้",
+   "เด็ก 6 ขวบ intussusception → หา lead point (Meckel/ lymphoma)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 78 — ตัวพิมพ์: <b>51. Contraindication for attempt air/barium reduction in pediatric patient with intussusception? — A) Pneumoperitoneum B) Initial evaluation after 48 hours presentation of symptom C) Age older than 3 years D) Recurrence after pneumatic reduction E) Recurrent symptom in the immediate postoperative period</b><br>ลายมือ: ขีด A + \"มี perforation\" · D \"try ได้ 3 ครั้ง\" · E ลายมือ \"…ได้ 3 ครั้ง\"<br>ไฮไลต์: \"Contraindication\" \"air/barium reduction in pediatric patient with intussusception\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Operative management — Indications: Initial evidence of peritonitis or perforation · Perforation during non operative procedure · <b>Failure non operative procedure</b> (ลายมือ \"ทำ 3 ครั้งไม่สำเร็จ\") · <b>Third time presentation</b> · presentation well beyond the unusual age range (\"&gt; 2 ปี\") / สไลด์ Non operative management — Hydrostatic reduction (Barium Enema) · Pneumatic reduction — Under ultrasound guide · Under Fluoroscopy (ลายมือ \"≠ air reduction ได้ใน… ถ้ามี perforation → ห้าม\")<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 66: ขีด A (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 78",
+  "kimg": [
+   "fsk_p78",
+   "kp68c_51",
+   "kp68c_51b",
+   "k2p_66"
   ]
  },
  "MDCU68|RoC|53": {
-  "interp": "ถามข้อความที่ถูกของ omphalocele · ช้อยที่ผิดส่วนใหญ่เป็นลักษณะของ gastroschisis ที่สลับมา",
-  "why": "<b>ลายมือ: B, D, E = gastroschisis · C แย่กว่า</b><br><b>นอกสไลด์:</b> omphalocele เกิดจากอวัยวะในช่องท้องไม่กลับเข้าทางวงสะดือ จึงอยู่ในถุงที่สายสะดือออกจากยอด และรูกว้างพอให้ตับโผล่ออกมาพร้อมลำไส้ได้ (ตับไม่โผล่ใน gastroschisis)",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>omphalocele</b>",
+  "why": "Omphalocele: ผนังหน้าท้องที่<b>สะดือ</b>ไม่ปิด อวัยวะยื่นออกมา<b>ในถุง (amnion + peritoneum)</b> ซึ่ง<b>มีทั้งลำไส้และตับได้</b> · <b>ความผิดปกติร่วมพบบ่อย (~50–70%)</b>: หัวใจ, โครโมโซม (trisomy 13, 18, 21), Beckwith-Wiedemann, pentalogy of Cantrell → <b>พยากรณ์แย่กว่า gastroschisis</b> · ถุงยังอยู่ จึง<b>ไม่ต้องปิดฉุกเฉิน</b> (ผ่าตัดปิดแบบ elective/ staged หรือ \"paint and wait\") · ทารก SGA พบบ่อยใน gastroschisis · ไฟล์ขีด A แก้ลายมือ: B ขีดฆ่า \"ไม่\" · C ขีดฆ่า \"ดี\" + <b>\"asso. anomaly ↑\"</b> · D <b>\"→ gastroschisis\"</b> และแปะตาราง <b>Omphalocele vs Gastroschisis</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น omphalocele ที่ถุงแตกระหว่างคลอด (ruptured omphalocele) — ลำไส้โผล่โดยไม่มีถุงคลุม แต่ยังเห็นเศษถุงและสายสะดือออกจากกลางรอยโรค ต่างจาก gastroschisis ที่รูอยู่ข้างขวาของสายสะดือที่ปกติ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเทียบ omphalocele ขนาดเล็กที่ไม่มีความผิดปกติร่วม กับ gastroschisis ชนิด complex (มี atresia หรือลำไส้ตาย)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น omphalocele ขนาดเล็ก (hernia of the cord) ที่เย็บปิดผนังได้ในคราวเดียวหลังทารกคงที่ — แต่ไม่ใช่ภาวะฉุกเฉินแบบ gastroschisis ที่ลำไส้ไม่มีอะไรคลุม",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นกลุ่ม omphalocele ที่ร่วมกับ trisomy 18 หรือ 13 ซึ่งทารกส่วนใหญ่โตช้าในครรภ์"
+   "B": "ผิด — omphalocele มีถุงคลุม (ลายมือขีดฆ่า \"ไม่\") ส่วนที่ไม่มีถุงและอยู่ข้างสะดือคือ gastroschisis · จะถูกถ้าคำถามถาม gastroschisis",
+   "C": "ผิด — omphalocele พยากรณ์แย่กว่าเพราะความผิดปกติร่วมบ่อย (ลายมือ \"asso. anomaly ↑\") · จะถูกถ้าคำถามถามว่า gastroschisis พยากรณ์ดีกว่า (ขึ้นกับสภาพลำไส้)",
+   "D": "ผิด — การปิดฉุกเฉินจำเป็นใน gastroschisis (ลำไส้สัมผัสภายนอก) (ลายมือ \"→ gastroschisis\") · จะถูกถ้าคำถามถาม gastroschisis หรือ omphalocele ที่ถุงแตก",
+   "E": "ผิด — ทารก SGA/ แม่อายุน้อยพบบ่อยใน gastroschisis · จะถูกถ้าคำถามถาม gastroschisis"
   },
-  "trap": "คิดว่าถุงที่คลุมลำไส้ทำให้ omphalocele พยากรณ์ดีกว่า (ช้อย C) — ถุงช่วยปกป้องลำไส้จริง แต่พยากรณ์โดยรวมแย่กว่าเพราะความผิดปกติร่วม โดยเฉพาะหัวใจและโครโมโซม",
+  "trap": "สับสนลักษณะของ omphalocele กับ gastroschisis (ถุง ตำแหน่ง ความผิดปกติร่วม ความเร่งด่วน)",
   "summary": [
-   "<b>นอกสไลด์:</b> omphalocele: กลางสะดือ มีถุง อาจมีตับ · มีความผิดปกติร่วมราวครึ่งหรือมากกว่า (หัวใจ โครโมโซม กลุ่มอาการต่าง ๆ) → ตรวจ echo และโครโมโซมทุกราย · ถุงไม่แตกไม่ต้องผ่าตัดฉุกเฉิน",
-   "<b>นอกสไลด์:</b> gastroschisis: ข้างขวาสะดือ ไม่มีถุง ไม่มีตับ ลำไส้บวมหนาจากแช่น้ำคร่ำ · แม่อายุน้อย ทารกตัวเล็ก · ความผิดปกติร่วมน้อย (ยกเว้น intestinal atresia ราว 10%) → คลุมลำไส้และปิดผนังเร็ว"
+   "Omphalocele: สะดือ · มีถุง · ตับ ± ลำไส้ · ผิดปกติร่วมบ่อย · พยากรณ์ขึ้นกับความผิดปกติร่วม",
+   "Gastroschisis: ขวาของสะดือ · ไม่มีถุง · ลำไส้ · ผิดปกติร่วมน้อย (atresia ~10%) · พยากรณ์ขึ้นกับสภาพลำไส้",
+   "Gastroschisis → คลุมลำไส้ ป้องกันเสียน้ำ/ ความร้อน → ปิดเร็ว/ silo",
+   "Omphalocele ใหญ่ → paint and wait · ตรวจหัวใจ/ โครโมโซม",
+   "Beckwith-Wiedemann: omphalocele + macroglossia + น้ำตาลต่ำ",
+   "Pentalogy of Cantrell: omphalocele สูง + หัวใจ + กระดูกอก/ กะบังลม"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'Omphalocele = Organs (ตับ) + ถุง + Others (ผิดปกติร่วม)'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Congenital abdominal wall defects",
   "variants": [
-   "<b>นอกสไลด์:</b> giant omphalocele มีตับทั้งก้อนอยู่ในถุง ทารกปอดเล็กหายใจลำบาก → ไม่ปิดผนังทันที: ทายาฆ่าเชื้อบนถุงให้ตกสะเก็ดและหนังงอกคลุม (paint and wait) แล้วซ่อมผนังภายหลัง",
-   "<b>นอกสไลด์:</b> ทารก omphalocele ลิ้นโต ตัวโต น้ำตาลต่ำ → Beckwith-Wiedemann syndrome: เฝ้าระวังน้ำตาลและคัดกรอง Wilms tumor/hepatoblastoma ด้วย US ท้องเป็นระยะ"
+   "ทารกถุงใสที่สะดือมีตับ ลิ้นโต → omphalocele + BWS → echo + น้ำตาล",
+   "ทารกลำไส้โผล่ข้างสะดือขวาไม่มีถุง แม่อายุ 18 ปี → gastroschisis → silo",
+   "omphalocele ถุงแตก → ปิด/ คลุมฉุกเฉิน"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 78 — ตัวพิมพ์: <b>53. ข้อใดถูกต้องเกี่ยว omphalocele — A) มีตับและลำไส้เล็กออกมา B) ต่อกับสะดือแต่ไม่มีถุงคลุม C) Omphalocele prognosis ดีกว่า gastroschisis D) การรักษาคือ emergency closure of abdominal wall E) เด็กมักเป็น SGA</b><br>ลายมือ: ขีด A · B ขีดฆ่า \"ไม่\" · C ขีดฆ่า \"ดี\" + \"asso. anomaly ↑\" · D \"→ gastroschisis\"<br>ไฮไลต์: \"omphalocele\" · A (เหลือง)<br>รูปที่แปะ: ① ตาราง Omphalocele vs Gastroschisis — Associated anomalies: Common / Uncommon (&lt;10%) · Size of defects: Small or Big / Small · Location of defect: Umbilicus / Right of umbilicus · Herniated viscera: Bowel +/- Liver / Bowel · Sac: Present / Absence · Surgical management: Nonurgent / Urgent · Prognostic factors: Associated anomalies / Condition of bowel ② สรุปลายมือเปรียบเทียบ Gastroschisis/ Omphalocele (ตำแหน่ง สาเหตุ ระบาดวิทยา ความผิดปกติร่วม — omphalocele: trisomy 13/18/21, Beckwith-Wiedemann, neural tube defect, pentalogy of Cantrell)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 66: ขีด A (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 78",
+  "kimg": [
+   "fsk_p78",
+   "kp68c_53",
+   "k2p_66"
   ]
  },
  "MDCU68|RoC|54": {
-  "interp": "Hirschsprung ที่ส่วนไม่มี ganglion อยู่ rectosigmoid → ถามการรักษาหลัก (definitive)",
-  "why": "<b>ลายมือ: E = initial Mx</b> (การรักษาหลักคือ C)<br><b>นอกสไลด์:</b> ต้องเอาลำไส้ส่วนที่ไม่มี ganglion (rectum ถึงจุดเปลี่ยน) ออก แล้วดึงลำไส้ที่มี ganglion ปกติลงมาต่อเหนือรูทวาร (pull-through) — endorectal (Soave) ลอกเยื่อบุ rectum ออกแล้วดึง colon ลงในท่อกล้ามเนื้อ rectum ที่เหลือ จึงไม่ต้องเลาะนอกผนัง rectum ลดการบาดเจ็บเส้นประสาทเชิงกราน",
+  "interp": "ถาม<b>การรักษาหลัก (treatment of choice)</b> ของ <b>Hirschsprung disease</b> ที่ rectosigmoid ในเด็ก",
+  "why": "Hirschsprung = ไม่มี ganglion cell ในลำไส้ส่วนปลาย (เริ่มจาก internal sphincter ขึ้นไป ส่วนใหญ่ rectosigmoid ~75–80%) → การรักษาหลักคือ<b>ตัดลำไส้ส่วนที่ไม่มี ganglion แล้วดึงลำไส้ปกติลงมาต่อเหนือทวาร = pull-through</b> เช่น <b>endorectal pull-through (Soave/ transanal)</b>, Swenson, Duhamel · ปัจจุบันนิยม transanal one-stage pull-through · ก่อนผ่าตัดใช้<b>สวนล้างลำไส้ (rectal irrigation)</b> เป็นการจัดการเบื้องต้น · ไฟล์ขีด C เครื่องหมายคำพูดรอบ \"Treatment of choice\" และลายมือ E <b>\"→ initial Mx\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ ileostomy เป็นการรักษาของโรคชนิด rectosigmoid เพราะลำไส้เล็กและ colon ส่วนต้นมี ganglion ปกติ — ถ้าต้องผันอุจจาระจะเปิดที่ colon ส่วนที่มี ganglion (leveling colostomy)",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ transverse colectomy รักษาโรคชนิด rectosigmoid เพราะ transverse colon มี ganglion ปกติ ส่วนที่อุดตันจริงคือ rectum และ sigmoid ส่วนล่างที่ยังอยู่",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ sigmoidectomy อย่างเดียวพอ เพราะ rectum ไม่มี ganglion ในผู้ป่วยทุกราย (โรคเริ่มจาก internal sphincter ขึ้นไป) — ตัดแค่ sigmoid ยังเหลือส่วนที่อุดตัน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกที่เพิ่งวินิจฉัยหรือมี enterocolitis และยังไม่พร้อมผ่าตัด — สวนล้าง rectum เป็นการรักษาช่วงนี้จนพร้อมทำ pull-through"
+   "A": "Ileostomy ใช้ใน total colonic aganglionosis/ enterocolitis รุนแรงเป็นการเบี่ยงชั่วคราว · จะถูกถ้าทารก total colonic Hirschsprung อาการรุนแรง",
+   "B": "Transverse colectomy ไม่ได้เอาส่วนที่ไม่มี ganglion (rectosigmoid) ออก · จะถูกถ้าคำถามถามการผ่าตัดมะเร็ง transverse colon",
+   "D": "Sigmoidectomy อย่างเดียวเหลือ rectum ที่ไม่มี ganglion ไว้ ยังอุดตัน · จะถูกถ้าคำถามถามการรักษา sigmoid volvulus แบบ elective",
+   "E": "Rectal irrigation เป็นการจัดการเบื้องต้น/ ระหว่างรอผ่าตัด (ลายมือ \"→ initial Mx\") · จะถูกถ้าคำถามถามการดูแลเริ่มต้นหรือป้องกัน enterocolitis"
   },
-  "trap": "คิดว่าลำไส้ส่วนที่โป่งคือส่วนที่ป่วยจึงตัด sigmoid ที่โป่ง — ส่วนป่วยคือส่วนที่แคบด้านปลาย ส่วนโป่งเป็นลำไส้ปกติที่ทนแรงอุดตันมานาน",
+  "trap": "ตอบสวนล้างเพราะเป็นสิ่งที่ทำก่อน — คำถามถาม treatment of choice (definitive) = pull-through",
   "summary": [
-   "<b>นอกสไลด์:</b> pull-through 3 แบบ: Swenson (ตัด rectum นอกผนังแล้วต่อใกล้รูทวาร) · Duhamel (เก็บ rectum ไว้ ดึง colon ปกติลงด้านหลังแล้วตัดผนังกั้นให้เป็นท่อเดียว ใช้มากใน total colonic และผ่าตัดซ้ำ) · Soave/endorectal · ปัจจุบันนิยมทำผ่านทวาร (transanal) ± laparoscopy และใช้ frozen section หาจุดที่เริ่มมี ganglion ก่อนตัด"
+   "Hirschsprung: ขี้เทาออกช้า &gt; 48 ชม. · ท้องอืด · PR แล้วอุจจาระพุ่ง",
+   "วินิจฉัย: rectal suction biopsy (ไม่มี ganglion, AChE เพิ่ม) = gold standard",
+   "Contrast enema: transition zone",
+   "Initial: rectal irrigation ± colostomy",
+   "Definitive: pull-through (Soave/ Swenson/ Duhamel)",
+   "Hirschsprung-associated enterocolitis: ไข้ ท้องอืด ถ่ายเหลวเหม็น → irrigation + ATB"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'Hirschsprung: ล้างก่อน (irrigation) → ดึงลง (pull-through)'</b>",
+  "guide": "APSA Hirschsprung Disease Interest Group guidelines (J Pediatr Surg 2017–2020); Coran's Pediatric Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ระหว่าง pull-through ตัดชิ้นเนื้อที่ sigmoid ส่วนกลางยังไม่พบ ganglion → ไล่ตัดชิ้นเนื้อขึ้นไปจนพบ ganglion ปกติ แล้วจึงดึงลำไส้ส่วนนั้นลงมาต่อ",
-   "<b>นอกสไลด์:</b> หลัง pull-through หลายเดือนยังท้องผูกอืด → หาสาเหตุ: รอยต่อตีบ, ดึงลำไส้ที่ยังไม่มี ganglion ลงมา (ตรวจชิ้นเนื้อซ้ำ), internal sphincter บีบเกร็ง (ฉีด botulinum toxin)"
+   "ทารกขี้เทาออกช้า 3 วัน ท้องอืด → rectal suction biopsy",
+   "Hirschsprung ไข้ ถ่ายเหลวเหม็น ท้องอืด → enterocolitis → irrigation + ATB",
+   "total colonic aganglionosis → ileostomy → pull-through ภายหลัง"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 78 — ตัวพิมพ์: <b>54. \"Treatment of choice\" ของ เด็ก Hirschsprung at rectosigmoid colon — A) Leostomy B) Transverse colectomy C) Endorectal pull through D) Sigmoidectomy E) Rectal irrigation</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"Treatment of choice\" · ขีด C · E \"→ initial Mx\" ลากลูกศรไป C<br>ไฮไลต์: \"Treatment of choice\" \"เด็ก Hirschsprung at rectosigmoid colon\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 66: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 78",
+  "kimg": [
+   "fsk_p78",
+   "kp68c_54",
+   "k2p_66"
   ]
  },
  "MDCU68|RoC|56": {
-  "interp": "ทารก 3 เดือน ก้อนหน้าหูนิ่ม ไม่เจ็บ ผิวปกติ = ก้อนมีมาแต่กำเนิดที่ไม่อักเสบ → ถามการวินิจฉัย",
-  "why": "<b>ลายมือ: รูปตำแหน่ง branchial cysts</b><br><b>นอกสไลด์:</b> first branchial cleft เกิดจากร่องแรกที่สร้างช่องหูภายนอกปิดไม่หมด ถุงหรือท่อจึงอยู่หน้าหู ในหรือชิดต่อม parotid ไปจนถึงใต้มุมขากรรไกร · ถุงน้ำที่ไม่ติดเชื้อเป็นก้อนนิ่ม ไม่เจ็บ ผิวปกติ",
+  "interp": "ทารก 3 เดือน มี<b>ก้อนนุ่ม 4 cm ไม่เจ็บ ผิวปกติ อยู่หน้าหู</b> → ถามการวินิจฉัยที่เหมาะสมที่สุด",
+  "why": "ก้อนถุงน้ำนุ่ม<b>หน้าหู/ บริเวณ parotid</b> ในทารก ผิวปกติ = <b>first branchial cleft cyst</b> (ตำแหน่งตามภาพในไฟล์: first branchial cyst อยู่หน้า–ใต้ใบหู ทางเดินสัมพันธ์กับช่องหูภายนอกและ facial nerve) · Type I อยู่หน้าหู (ectoderm, ซ้ำซ้อนของช่องหู) · Type II ใต้มุมขากรรไกร ทางเดินผ่านใกล้ facial nerve · รักษาด้วยผ่าตัดเอาออกทั้งหมด (ระวัง facial nerve อาจต้อง superficial parotidectomy) · ไฟล์ขีด B เครื่องหมายคำพูดรอบ \"anterior to ear\" และแปะภาพตำแหน่ง <b>First/ Second/ Third branchial cyst and fistula</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนโตเร็วในเดือนแรก ๆ และ US Doppler พบเนื้อแน่นที่มีหลอดเลือดมาก — parotid hemangioma (ก้อนของ parotid ที่พบบ่อยที่สุดในทารก) ให้ propranolol",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ suppurative lymphadenitis เป็นก้อนไม่เจ็บและผิวปกติ เพราะหนองในต่อมน้ำเหลืองทำให้ต่อมกดเจ็บ ผิวแดงร้อน และมักมีไข้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า US พบถุงน้ำหลายห้องผนังบาง ก้อนนิ่มเหมือนฟองน้ำและส่องไฟผ่าน — lymphatic malformation (มักอยู่ posterior triangle แต่เกิดที่แก้ม/parotid ได้)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ก้อนนิ่มในทารก 3 เดือนเป็น pleomorphic adenoma เพราะเป็นเนื้องอกแข็งยาง โตช้า ของผู้ใหญ่วัยกลางคน"
+   "A": "Parotid hemangioma พบบ่อยในทารก แต่ผิวด้านบนมักมีสีแดง/ ฟ้า โตเร็วในขวบปีแรก นุ่มกดยุบ · จะถูกถ้าทารก 2 เดือนก้อนที่ parotid โตเร็ว ผิวสีแดงสด/ ฟ้า",
+   "C": "Suppurative lymphadenitis เจ็บ แดง ร้อน มีไข้ · จะถูกถ้าทารกก้อนที่คอเจ็บ แดง fluctuate มีไข้",
+   "D": "Cystic hygroma (lymphatic malformation) มักอยู่ posterior triangle ของคอ นุ่ม ส่องไฟผ่าน · จะถูกถ้าทารกก้อนนุ่มใหญ่ที่คอด้านหลัง transillumination บวก",
+   "E": "Pleomorphic adenoma พบในผู้ใหญ่ ก้อนแข็ง โตช้า · จะถูกถ้าผู้ใหญ่ก้อนแข็งที่ parotid โตช้าหลายปี"
   },
-  "trap": "ถุงน้ำหรือฝีซ้ำที่หน้าหูหรือใต้มุมขากรรไกรที่กรีดระบายแล้วกลับเป็นอีก มักถูกรักษาเป็นฝีต่อมน้ำเหลืองหรือ parotitis หลายครั้ง — นึกถึง first branchial cleft anomaly แล้วตรวจช่องหูหารูเปิด",
+  "trap": "ตอบ hemangioma เพราะเป็นก้อน parotid ที่พบบ่อยในทารก — ผิวปกติ + ตำแหน่งหน้าหู ชี้ first branchial cleft",
   "summary": [
-   "<b>นอกสไลด์:</b> first branchial cleft anomaly อยู่ในสามเหลี่ยมระหว่างช่องหูภายนอก คาง และกระดูก hyoid · type I ขนานช่องหูอยู่หน้าหรือหลังหู · type II ลงไปใต้มุมขากรรไกร · ท่อผ่านใกล้หรือข้าม facial nerve → ผ่าตัดเอาออกทั้งหมดโดยเลาะหา facial nerve ก่อนแบบผ่าตัด parotid"
+   "1st branchial: หน้า/ ใต้ใบหู · สัมพันธ์ EAC และ facial nerve",
+   "2nd branchial (พบบ่อยที่สุด): ขอบหน้า SCM",
+   "3rd/ 4th: คอส่วนล่างซ้าย · pyriform sinus · thyroiditis ซ้ำ",
+   "Hemangioma ทารก: โตเร็ว ผิวแดง/ ฟ้า → propranolol",
+   "Lymphatic malformation: posterior triangle · ส่องไฟผ่าน",
+   "ผ่าตัด 1st branchial: ระวัง facial nerve"
   ],
-  "opinion": "ตามคีย์ B ความมั่นใจปานกลาง — ทารก 3 เดือนก้อนนิ่มหน้าหูก็เข้าได้กับ parotid hemangioma ซึ่งพบบ่อยกว่า ถ้ามีข้อมูลว่าโตเร็วหรือ US พบหลอดเลือดมากจะตอบ A",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Branchial 1-2-3: หน้าหู – ขอบหน้า SCM – คอล่าง'</b>",
+  "guide": "Cummings Otolaryngology 7th ed. (2021) — Congenital neck masses; Coran's Pediatric Surgery 8th ed. (2019) — Branchial anomalies",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กหูน้ำไหลเรื้อรังข้างเดียว ส่องหูเห็นรูเปิดที่พื้นช่องหูภายนอก ร่วมก้อนใต้มุมขากรรไกร → first branchial cleft fistula (type II)",
-   "<b>นอกสไลด์:</b> รูเล็กที่ขอบหน้าของใบหู (ต้น helix) ตั้งแต่เกิด มีหนองซ้ำ → preauricular sinus ไม่ใช่ branchial cleft: ท่อไม่ลงลึกถึง facial nerve"
+   "เด็กมีรูหนองไหลซ้ำใต้มุมขากรรไกร ต่อกับช่องหู → 1st branchial sinus",
+   "ทารกก้อน parotid โตเร็ว ผิวสีแดงสด → infantile hemangioma → propranolol",
+   "เด็ก thyroiditis ซ้ำด้านซ้าย → 3rd/ 4th branchial pyriform sinus fistula"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 78 — ตัวพิมพ์: <b>56. 3 mo. old presenting with left facial mass, Examination reveal 4 cm mass, soft, not tender, normal skin, \"anterior to ear\", what is the most appiopriate diagnosis? — A) Parotid hemangioma B) First branchial cleft cyst C) Suppurative lymphadenitis D) Cystic hygroma</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"anterior to ear\" · ขีด B<br>ไฮไลต์: \"3 mo. old\" \"left facial mass\" \"4 cm mass, soft, not tender\" \"normal skin, anterior to ear\" \"appiopriate diagnosis\" · B (เหลือง)<br>รูปที่แปะ: ภาพวาดศีรษะและคอแสดงตำแหน่ง First branchial cyst and fistula · Second branchial cyst and fistula · Third branchial cyst and fistula<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 66: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 78",
+  "kimg": [
+   "fsk_p78",
+   "kp68c_56",
+   "k2p_66"
   ]
  },
  "MDCU68|RoC|63": {
-  "interp": "หญิงเหนื่อยจากก้อนใน mediastinum · I-131 จับที่ก้อนในอกแต่ไม่จับที่คอ = เนื้อไทรอยด์ที่อยู่ในอกแยกจากคอ (ectopic) และมีอาการกด → ถามการรักษา",
-  "why": "<b>ลายมือ: intrathoracic thyroid</b><br><b>นอกสไลด์:</b> เนื้อไทรอยด์ในอกที่ทำให้มีอาการกดต้องผ่าตัดเอาออก · เมื่อไม่มีเนื้อต่อมที่คอ ก้อนนี้ไม่ได้ต่อลงมาจากคอและได้เลือดจากหลอดเลือดในอก จึงดึงขึ้นทางแผลที่คอไม่ได้ ต้องเข้าทางทรวงอก (sternotomy หรือ thoracotomy)",
+  "interp": "หญิงมี<b>ก้อนใน mediastinum หายใจลำบาก</b> I-131 scan <b>จับที่ก้อนในอก แต่ไม่พบที่ตำแหน่งไทรอยด์ที่คอ</b> → ถามการจัดการ",
+  "why": "ก้อนในอกที่จับ I-131 โดยไม่มีไทรอยด์ที่คอ = <b>primary (ectopic) intrathoracic thyroid</b> — เลือดเลี้ยงมาจากหลอดเลือดในทรวงอก ไม่ได้ต่อกับไทรอยด์ที่คอ และ<b>มีอาการกด (หายใจลำบาก)</b> → <b>ผ่าตัดผ่านทางทรวงอก (sternotomy/ thoracotomy)</b> · ข้อควรระวัง: ถ้าเป็นเนื้อเยื่อไทรอยด์ที่ทำงานเพียงแห่งเดียวและไม่มีอาการ ไม่ควรผ่าตัด (จะเกิด hypothyroid) แต่รายนี้มีอาการกด · ไฟล์ขีด D ลายมือ <b>\"intrathoracic thyroid\"</b> และ <b>\"∵ vsl. อยู่ใน thoracic\"</b> ลากลูกศรไป D พร้อมแปะสไลด์ Endocrine Tumor — Thyroid",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าอาการเหนื่อยไม่ได้เกิดจากก้อน (CT ไม่พบหลอดลมถูกกด ก้อนเล็ก) ฮอร์โมนปกติ และไม่สงสัยมะเร็ง — เนื้อไทรอยด์ที่เป็นแหล่งเดียวและไม่กดอะไรเฝ้าดูได้",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้สูงอายุโรคร่วมมากที่ผ่าตัดเปิดอกไม่ได้และอาการกดไม่รุนแรง — RAI ลดขนาดก้อนได้บางส่วนในหลายเดือน (ต้องระวังก้อนบวมช่วงแรก)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ให้ RAI ก่อนแล้วจึงผ่าตัดเนื้อไทรอยด์ในอก เพราะถ้าจะผ่าตัดอยู่แล้วการให้ RAI ก่อนไม่ได้ลดความเสี่ยงผ่าตัด แต่ทำให้ล่าช้าและอาจทำให้ก้อนบวมกดหลอดลมเพิ่ม — ลำดับที่ใช้จริงคือผ่าตัดก่อน แล้วให้ RAI เมื่อผลเป็นมะเร็ง differentiated",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเนื้อไทรอยด์ในอกทำงานพร่อง (TSH สูง) ก้อนโตจากการกระตุ้นของ TSH และอาการกดเล็กน้อย — levothyroxine กด TSH อาจทำให้ก้อนเล็กลง"
+   "A": "เฝ้าดูไม่เหมาะเมื่อมีอาการกดทางเดินหายใจ · จะถูกถ้าไม่มีอาการและเป็นเนื้อเยื่อไทรอยด์ที่ทำงานเพียงแห่งเดียว",
+   "B": "I-131 ablation ลดขนาดได้ช้าและไม่มาก อาจบวมกดมากขึ้น · จะถูกถ้าผู้ป่วยผ่าตัดไม่ได้ (โรคร่วมมาก)",
+   "C": "I-131 ก่อนผ่าตัดไม่ใช่มาตรฐาน · จะถูกถ้าคำถามถาม RAI หลังผ่าตัดมะเร็งไทรอยด์ชนิด differentiated",
+   "E": "Levothyroxine suppression ไม่ลดขนาด goiter ในอกและไม่แก้การกด · จะถูกถ้าคำถามถามการให้ฮอร์โมนทดแทนหลังผ่าตัด"
   },
-  "trap": "เห็นก้อน anterior mediastinum ในหญิงแล้วรีบเจาะชิ้นเนื้อแบบ thymoma/lymphoma — ก้อนที่จับ I-131 คือเนื้อไทรอยด์ ไม่ต้องเจาะเพื่อวินิจฉัย และการเจาะก้อนไทรอยด์ในอกเสี่ยงเลือดออก",
+  "trap": "ผ่าทางคอตามปกติ — ectopic intrathoracic thyroid ไม่ต่อกับคอและเลือดเลี้ยงจากในอก ต้องผ่าทางทรวงอก",
   "summary": [
-   "<b>นอกสไลด์:</b> คอพอกลงอกที่ต่อจากต่อมที่คอ (เลือดมาจากคอ) ส่วนใหญ่เอาออกทางคอได้ · ต้องเปิดอกเมื่อ: เป็น ectopic ที่ไม่ต่อกับคอ · ก้อนลงลึกถึงระดับ aortic arch/carina หรืออยู่ posterior mediastinum · ก้อนใหญ่กว่าช่องเปิดทรวงอกส่วนบน · สงสัยมะเร็งลุกลาม · ผ่าตัดซ้ำ"
+   "I-131 จับในอก + มีไทรอยด์ที่คอ → substernal extension → ผ่าทางคอส่วนใหญ่",
+   "I-131 จับในอก ไม่มีที่คอ → primary intrathoracic thyroid → transthoracic",
+   "มีอาการกด → ผ่าตัด",
+   "ไม่มีอาการ + ไทรอยด์ชิ้นเดียว → ไม่ผ่าตัด",
+   "CT ก่อนผ่าตัดประเมินความลึกและหลอดเลือด",
+   "หลังผ่าตัดไทรอยด์ชิ้นเดียว → levothyroxine ทดแทน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D (ตรงกันทั้งสองไฟล์) ความมั่นใจปานกลาง — โจทย์บอกข้อมูลน้อย (ไม่บอกภาพการกดหลอดลมหรือระดับฮอร์โมน)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'ไทรอยด์ในอก ไม่มีที่คอ = ผ่าทางอก (เลือดเลี้ยงจากอก)'</b>",
+  "guide": "AAES Guidelines for the Definitive Surgical Management of Thyroid Disease in Adults (Ann Surg 2020;271:e21) — substernal/ ectopic goiter",
   "variants": [
-   "<b>นอกสไลด์:</b> คอพอกจากต่อมที่คอลงหลังกระดูก sternum เล็กน้อย ยังอยู่เหนือ aortic arch มีอาการกด → total thyroidectomy ทางคอ (ดึงขึ้นได้ ไม่ต้องเปิดอก)",
-   "<b>นอกสไลด์:</b> หลังผ่าตัดคอพอกลงอกใหญ่ ถอดท่อแล้วเสียงหายและ stridor → ส่องดูสายเสียง แยก recurrent laryngeal nerve บาดเจ็บสองข้างจาก tracheomalacia แล้วใส่ท่อกลับ"
+   "goiter ที่คอลงหลังกระดูกอก → thyroidectomy ทางคอ",
+   "ก้อนในอกจับ I-131 ไม่มีอาการ ไม่มีไทรอยด์ที่คอ → ไม่ผ่าตัด",
+   "ก้อน anterior mediastinum ไม่จับ I-131 → biopsy (lymphoma/ thymoma/ germ cell)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 79 — หัวข้อ CVT · ตัวพิมพ์: <b>63. ผู้หญิง มีก้อนใน mediastinum \"มีอาการหายใจลำบาก\" ทำ I131 เห็นก้อนอยู่ใน chest แต่ไม่เห็นก้อนที่ตำแหน่งไทรอยด์ management อย่างไร — A) Observe B) Iodine ablation C) Iodine ablation + surgery D) Transthoracic surgery</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"มีอาการหายใจลำบาก\" · \"intrathoracic thyroid\" · \"∵ vsl. อยู่ใน thoracic\" ลากลูกศรไป D · ขีด D<br>ไฮไลต์: \"ก้อนใน mediastinum\" \"มีอาการหายใจลำบาก\" \"I131 เห็นก้อนอยู่ใน chest\" \"ไม่เห็นก้อนที่ตำแหน่งไทรอยด์\" \"management\" · D (เหลือง)<br>รูปที่แปะ: สไลด์ Endocrine Tumor — Thyroid: Substernal extension more common than totally intrathoracic goiter · Usually from nontoxic multinodular goiter or adenoma (malignant change is rare) · Peak incidence 60–70 yrs · Female &gt; Male · Diagnosed by I131 scan<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 67: ขีด D (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 79",
+  "kimg": [
+   "fsk_p79",
+   "kp68c_63",
+   "k2p_67"
   ]
  },
  "MDCU68|RoC|65": {
-  "interp": "TOF — ถามปัจจัยหลักที่ใช้เลือกระหว่างแก้ทั้งหมด (definitive repair) กับทำ shunt ก่อน",
-  "why": "<b>ลายมือ: PA เล็ก → mBTS · ใหญ่ → total correction</b><br><b>นอกสไลด์:</b> หลังแก้ทั้งหมด เลือดทั้งหมดจาก RV ต้องผ่านหลอดเลือดแดงปอด ถ้าหลอดเลือดปอดเล็ก ความดันใน RV จะสูงจน RV ล้มเหลวหลังผ่าตัด — จึงทำ shunt เพิ่มเลือดไปปอดให้หลอดเลือดปอดโตก่อน แล้วแก้ทั้งหมดภายหลัง",
+  "interp": "ถามปัจจัยหลักในการเลือก<b>ผ่าตัดแก้ไขทั้งหมด (total correction)</b> หรือ<b>ผ่าตัดประคับประคอง (shunt)</b> ใน <b>tetralogy of Fallot</b>",
+  "why": "ใน TOF การปิด VSD + แก้ RVOT obstruction (total correction) ต้องการ<b>หลอดเลือดแดงปอดที่มีขนาดเพียงพอ</b>รับเลือดจากหัวใจห้องล่างขวาทั้งหมด · ถ้า <b>pulmonary arteries เล็ก (hypoplastic)</b> → ทำ <b>palliative shunt (modified Blalock-Taussig shunt: subclavian → pulmonary artery)</b> ก่อนเพื่อเพิ่มเลือดไปปอดให้หลอดเลือดปอดโต แล้วค่อยแก้ทั้งหมดภายหลัง · ไฟล์ขีด B ลายมือ <b>\"เล็ก: MBTS · ใหญ่: total correction\"</b> และแปะภาพสไลด์ <b>Modified Blalock-Taussig shunt</b> พร้อมภาพ SHUNT (Modified/ Classic Blalock-Taussig, Waterston, Potts)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ขนาด VSD กำหนดชนิดการผ่าตัด เพราะ VSD ของ TOF ปิดด้วย patch ได้ทุกขนาดในการผ่าตัดแก้ทั้งหมด",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ความรุนแรงของการตีบกำหนดว่าจะทำ shunt เพราะการตีบที่ทางออก RV แก้ได้ระหว่างผ่าตัด (ตัดกล้ามเนื้อ, patch) — ความรุนแรงบอกแค่ว่าต้องผ่าตัดเร็วแค่ไหน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ระดับการคร่อมของ aorta กำหนดว่าจะทำ shunt เพราะการปิด VSD ด้วย patch จะกั้นให้ aorta รับเลือดจาก LV ในการผ่าตัดเดียวกัน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกแรกเกิดหรือคลอดก่อนกำหนดน้ำหนักน้อยที่เขียวมาก ในศูนย์ที่ไม่แก้ทั้งหมดในวัยนี้ — ทำ shunt หรือใส่ stent ก่อน แล้วแก้เมื่อโตขึ้น"
+   "A": "VSD ใน TOF เป็น malalignment VSD ขนาดใหญ่เสมอ ไม่ใช่ปัจจัยตัดสิน · จะถูกถ้าคำถามถามลักษณะ 4 ประการของ TOF",
+   "C": "ความรุนแรงของ pulmonary stenosis กำหนดความเขียว แต่การเลือกวิธีผ่าตัดดูขนาด PA เป็นหลัก · จะถูกถ้าคำถามถามปัจจัยที่กำหนดความรุนแรงของอาการเขียว",
+   "D": "Overriding aorta ไม่ใช่ปัจจัยหลักในการเลือก · จะถูกถ้าคำถามถาม double outlet right ventricle (override &gt; 50%)",
+   "E": "อายุมีผล (ทารกเล็กมาก/ ไม่คงที่) แต่ปัจจุบันแก้ทั้งหมดได้ตั้งแต่ทารกถ้า PA ขนาดดี · จะถูกถ้าคำถามถามช่วงอายุที่นิยมผ่าตัดแก้ทั้งหมด (3–6 เดือน)"
   },
-  "trap": "ดูว่าวงลิ้น pulmonary (annulus) เล็กแล้วคิดว่าต้องทำ shunt — annulus เล็กแก้ได้ด้วย transannular patch ในการผ่าตัดแก้ทั้งหมด · สิ่งที่ทำให้ไม่แก้ทั้งหมดคือแขนงหลอดเลือดแดงปอดซ้ายขวาที่เล็ก",
+  "trap": "คิดว่าความรุนแรงของ PS ตัดสิน — ปัจจัยหลักคือขนาด PA (รับเลือดหลังแก้ได้หรือไม่)",
   "summary": [
-   "<b>นอกสไลด์:</b> วัดขนาดหลอดเลือดแดงปอด: McGoon ratio = (เส้นผ่านศูนย์กลาง RPA + LPA ก่อนแตกแขนง) ÷ aorta ส่วนลงที่ระดับกระบังลม — ราว ≥ 1.2 แก้ทั้งหมดได้ · Nakata index = พื้นที่หน้าตัด RPA + LPA ÷ BSA (ปกติราว 330 mm²/m²) — ราว ≥ 150 แก้ทั้งหมดได้"
+   "TOF: VSD · RVOT obstruction · overriding aorta · RVH",
+   "Tet spell: knee-chest · O₂ · morphine · phenylephrine · β-blocker",
+   "PA ขนาดดี → total correction (3–6 เดือน)",
+   "PA เล็ก/ ทารกไม่คงที่ → modified BT shunt ก่อน",
+   "Modified BT: subclavian/ innominate → PA ด้วย PTFE graft",
+   "Classic BT/ Waterston/ Potts: เลิกใช้ส่วนใหญ่"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'TOF: PA เล็ก = Shunt ก่อน · PA ใหญ่ = Total correction'</b>",
+  "guide": "Kirklin/Barratt-Boyes Cardiac Surgery 4th ed. (2013) — Tetralogy of Fallot; AHA Scientific Statement on CHD surgery outcomes",
   "variants": [
-   "<b>นอกสไลด์:</b> TOF ที่ echo/CT พบ LAD ออกจาก RCA แล้วพาดผ่านหน้าทางออก RV → ห้ามกรีดผ่านตำแหน่งนี้: ใช้วิธีที่เลี่ยงหลอดเลือด (เช่นใส่ conduit จาก RV ไป pulmonary artery) หรือรอให้โตก่อน",
-   "<b>นอกสไลด์:</b> ทารก TOF ทำ BT shunt ไว้ หนึ่งปีต่อมาหลอดเลือดปอดโตจนค่า McGoon ผ่าน → ผ่าตัดแก้ทั้งหมดพร้อมปิด shunt"
+   "ทารก TOF PA ใหญ่พอ อายุ 4 เดือน → total correction",
+   "ทารกแรกเกิด TOF + PA hypoplastic เขียวมาก → modified BT shunt",
+   "TOF เด็กร้องแล้วเขียวมาก หมดสติ → tet spell → knee-chest + O₂ + morphine"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 79 — ตัวพิมพ์: <b>65. ปัจจัยสำคัญที่จะเลือกวิธีการรักษาแบบ definite surgery หรือ palliative surgery (shunt operation) ในผู้ป่วย TOF — A) VSD size B) Size of pulmonary artery C) Severity of pulmonary stenosis D) Degree of overiding aorta E) Patient age</b><br>ลายมือ: ขีด B + \"เล็ก: MBTS · ใหญ่: total correction\"<br>ไฮไลต์: \"เลือกวิธีการรักษาแบบ definite surgery หรือ palliative surgery (shunt operation) ในผู้ป่วย TOF\" · B (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ MBTS — Right subclavian artery · <b>Modified Blalock-Taussig shunt</b> · Right pulmonary artery + ภาพ SHUNT (Modified Blalock-Taussig, Classic Blalock-Taussig, Waterston, Potts shunt)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 67: ขีด B (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 79",
+  "kimg": [
+   "fsk_p79",
+   "kp68c_65",
+   "k2p_67"
   ]
  },
  "MDCU68|RoC|71": {
-  "interp": "อาเจียนแล้วปวดหลัง + ลมใน mediastinum = Boerhaave (หลอดอาหารแตกเต็มความหนา) → ถามการรักษา",
-  "why": "<b>ลายมือ: repair ใน 24 hr</b><br><b>นอกสไลด์:</b> น้ำย่อยและเชื้อจากหลอดอาหารที่แตกลงสู่ mediastinum ทำให้ mediastinitis และ sepsis อย่างรวดเร็ว การตายเพิ่มชัดเมื่อรักษาช้าเกิน 24 ชม. — resuscitate, งดน้ำงดอาหาร, ยาปฏิชีวนะครอบคลุมกว้าง ± ยาต้านเชื้อรา, PPI แล้วผ่าตัดด่วนเพื่อปิดรูรั่วและระบายช่องอก",
+  "interp": "ผู้ป่วยมีลักษณะ <b>Boerhaave syndrome</b>: อาเจียน ปวดหลัง/ อก และ <b>pneumomediastinum</b> → ถามการจัดการ",
+  "why": "Boerhaave = หลอดอาหารแตกทะลุทั้งชั้นจากการอาเจียน (มักผนังซ้ายหลังส่วนล่าง) → mediastinitis/ sepsis อัตราตายสูงขึ้นมากถ้าล่าช้า → <b>ผ่าตัดฉุกเฉิน</b>: primary repair (เลาะเนื้อตาย เย็บสองชั้น เสริม flap) + ระบายช่องอก ร่วมกับ NPO ยาปฏิชีวนะครอบคลุม (± antifungal) สารน้ำ · ผลดีที่สุดเมื่อผ่าตัดเร็ว (ไฟล์เขียน <b>\"repair ใน 12 hr\"</b>) · ไฟล์ขีด B",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยคงที่ รูรั่วเล็กและน้ำรั่วถูกจำกัดอยู่ ในศูนย์ที่มีความชำนาญ — ส่องกล้องใส่ stent หรือ clip ปิดรู ร่วมกับระบายช่องอก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ารั่วเล็กและไหลกลับเข้าหลอดอาหารเองในภาพ contrast อาการน้อย ไม่มี sepsis และไม่มีน้ำในช่องอก — งดน้ำงดอาหาร ยาปฏิชีวนะ และเฝ้าดูใกล้ชิด",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่รอผ่าตัดซ่อมแบบ elective หลัง 1 สัปดาห์ เพราะระหว่างรอ mediastinitis และ sepsis ลุกลาม — แม้มาช้าก็ยังต้องควบคุมการรั่วและระบายทันที",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ขยายหลอดอาหารเป็นการรักษาหลอดอาหารแตก เพราะแรงขยายทำให้รูกว้างขึ้น และการขยายเองเป็นสาเหตุหนึ่งของหลอดอาหารทะลุ"
+   "A": "Esophagoscopy ไม่ใช่การรักษาหลักและอาจทำให้รูทะลุกว้าง/ ลมรั่วมากขึ้น (บางศูนย์ใช้ stent ในรายเลือก) · จะถูกถ้าคำถามถามการเอาสิ่งแปลกปลอมออกจากหลอดอาหาร",
+   "C": "ประคับประคองอย่างเดียวใช้ได้เฉพาะรูเล็ก contained ไม่มี sepsis · จะถูกถ้ารูรั่วเล็กหลังส่องกล้อง contained ไม่มีอาการทั้งระบบ",
+   "D": "รอซ่อม 1 สัปดาห์ทำให้ mediastinitis/ sepsis รุนแรง อัตราตายสูง · จะถูกถ้าคำถามถามการผ่าตัดตัดหลอดอาหารหลังภาวะคงที่ในรายที่ซ่อมไม่ได้",
+   "E": "ห้ามขยายหลอดอาหารในภาวะทะลุ · จะถูกถ้าคำถามถามการรักษา achalasia/ หลอดอาหารตีบ"
   },
-  "trap": "คิดว่ามาเกิน 24 ชม. แล้วเย็บปิดไม่ได้จึงเลี่ยงการผ่าตัด — เวลาที่นานขึ้นเปลี่ยน \"วิธี\" ที่ใช้ปิดหรือระบาย แต่ไม่ได้เปลี่ยนว่าต้องควบคุมการรั่วทันที และถ้าเนื้อยังดีก็ยังเย็บปิดได้",
+  "trap": "ส่องกล้องดูก่อนหรือรักษาประคับประคอง — Boerhaave เต็มชั้นพร้อม mediastinal contamination ต้องผ่าตัดด่วน",
   "summary": [
-   "<b>นอกสไลด์:</b> มาเร็ว เนื้อดี: เปิดอกซ้าย (รูรั่วมักอยู่ผนังซ้ายด้านหลังเหนือกระบังลม) → ล้างช่องอก ผ่ากล้ามเนื้อให้เห็นขอบเยื่อบุทั้งหมด เย็บสองชั้น เสริมด้วย flap (intercostal muscle, pleura, fundus) + สายระบายอก + สายให้อาหาร (feeding jejunostomy)",
-   "<b>นอกสไลด์:</b> มาช้า เนื้อเปื่อย หรือช็อก: ระบายช่องอกให้ดี ร่วมกับปิดรูเท่าที่ทำได้ หรือผันทาง (cervical esophagostomy + gastrostomy + jejunostomy) แล้วต่อหลอดอาหารภายหลัง"
+   "Boerhaave: อาเจียน → แตกทะลุทั้งชั้น (ซ้ายหลังส่วนล่าง)",
+   "Mackler triad: อาเจียน · เจ็บอก · ลมใต้ผิวหนัง",
+   "CXR: pneumomediastinum · left effusion",
+   "วินิจฉัย: CT with oral contrast/ water-soluble esophagram",
+   "รักษา: NPO + ATB + ผ่าตัด primary repair เร็วที่สุด",
+   "Mallory-Weiss: ฉีกเยื่อบุ เลือดออก รักษาประคับประคอง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 2 ช้อย จึงเติม C–E",
+  "mnemonic": "<b>'Boerhaave = Burst → Begin surgery (ภายใน 12–24 ชม.)'</b>",
+  "guide": "WSES Guidelines on Esophageal Perforation (World J Emerg Surg 2019;14:26)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลอดอาหารส่วนคอทะลุหลังส่องกล้อง มีลมใต้ผิวที่คอ → ระบายทางแผลที่คอ ส่วนใหญ่หายโดยไม่ต้องเย็บรูรั่ว",
-   "<b>นอกสไลด์:</b> Boerhaave ในผู้ป่วยที่มีมะเร็งหลอดอาหารส่วนล่างที่ยังผ่าตัดได้ → esophagectomy เพราะเย็บรูบนเนื้อมะเร็งไม่ติดและต้องตัดอยู่แล้ว"
+   "ดื่มสุราแล้วอาเจียนแรง ปวดอก ลมใต้ผิวหนังคอ → Boerhaave → ผ่าตัด",
+   "อาเจียนเป็นเลือดสดหลังอาเจียนหลายครั้ง ไม่มีเจ็บอก → Mallory-Weiss",
+   "หลังขยายหลอดอาหาร รูรั่วเล็ก contained → NPO + ATB + เฝ้าดู"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 79 — ตัวพิมพ์: <b>71. ให้ sign Boerhaave มีอาเจียน ปวดหลัง pneumonediatinum ถาม Mx — A) esophagoscope B) emergency Sx</b><br>ลายมือ: ขีด B + \"repair ใน 12 hr\"<br>ไฮไลต์: \"sign Boerhaave\" \"อาเจียน ปวดหลัง\" \"pneumonediatinum\" \"Mx\" · B (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 67: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 2 ช้อย → เติม C–E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 79",
+  "kimg": [
+   "fsk_p79",
+   "kp68c_71",
+   "k2p_67"
   ]
  },
  "MDCU68|RoC|72": {
-  "interp": "ข้อ NOT — ถามค่าที่ \"ไม่ใช่\" เกณฑ์วินิจฉัย empyema · ช้อย E บอกว่าทุกข้อเป็นเกณฑ์",
-  "why": "<b>คีย์: ขีด E + ติ๊ก A–D</b><br><b>นอกสไลด์:</b> ชุดเกณฑ์แบบดั้งเดิมของ empyema/complicated parapneumonic effusion รวม WBC ในน้ำสูงมาก (> 15,000/µL), โปรตีน > 3 g/dL, LDH > 1,000 IU/L และ glucose &lt; 40 mg/dL — ทุกค่าสะท้อนการอักเสบติดเชื้อที่เม็ดเลือดขาวและเชื้อใช้น้ำตาลและแตกตัวในช่องเยื่อหุ้มปอด จึงไม่มีช้อยใดอยู่นอกเกณฑ์",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>เกณฑ์วินิจฉัย <b>empyema thoracis</b> (ตามข้อสอบ)",
+  "why": "ข้อสอบกำหนดค่าน้ำในช่องเยื่อหุ้มปอดที่บ่งชี้ empyema/ complicated parapneumonic effusion: WBC สูงมาก, protein สูง (exudate), <b>LDH &gt; 1,000 IU/L</b>, <b>glucose &lt; 40 mg/dL</b> — ทุกข้อเป็นเกณฑ์ → คำตอบ <b>\"All of the above are criteria\"</b> · เกณฑ์ที่ใช้จริง: <b>หนองชัด (frank pus)</b> หรือ <b>Gram stain/ เพาะเชื้อบวก</b> = empyema · <b>pH &lt; 7.2</b>, glucose &lt; 60 (หรือ 40), LDH &gt; 1,000 = complicated parapneumonic effusion → ต้องระบาย (ICD ± fibrinolytic/ VATS) · ไฟล์ขีด E และติ๊ก ✓ ที่ A–D",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ชี้ empyema) ถ้าเป็นน้ำในเยื่อหุ้มปอดซ้ายจากตับอ่อนอักเสบ ที่ neutrophil สูงและ amylase สูงโดยไม่มีเชื้อ",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ชี้ empyema) ถ้าเป็น TB pleuritis ที่โปรตีนสูงโดยไม่มีหนอง (lymphocyte เด่น ADA สูง)",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ชี้ empyema) ถ้าเป็น rheumatoid pleural effusion ที่ LDH สูงมากโดยไม่มีการติดเชื้อ",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ชี้ empyema) ถ้าเป็น malignant pleural effusion ปริมาณเซลล์มะเร็งมากที่ glucose ต่ำโดยไม่มีเชื้อ"
+   "A": "เป็นเกณฑ์ตามข้อสอบ — WBC สูงมากบ่งชี้หนอง (ลายมือ ✓) · จะถูกถ้าคำถามถามค่าที่ไม่จำเพาะต่อ empyema ตามเกณฑ์ Light (ใช้ pH/ glucose/ LDH มากกว่า)",
+   "B": "เป็นเกณฑ์ตามข้อสอบ — protein &gt; 3 g/dL บ่งชี้ exudate (ลายมือ ✓) · จะถูกถ้าคำถามถามค่าที่แยก exudate จาก transudate (ไม่จำเพาะ empyema)",
+   "C": "เป็นเกณฑ์ — LDH &gt; 1,000 IU/L (ลายมือ ✓) · จะถูกถ้าคำถามถามเกณฑ์ที่ใช้แยก exudate (LDH &gt; 2/3 ของค่าสูงสุดปกติ)",
+   "D": "เป็นเกณฑ์ — glucose &lt; 40 mg/dL (ลายมือ ✓) · จะถูกถ้าคำถามถาม effusion ที่ glucose ต่ำจาก rheumatoid arthritis"
   },
-  "trap": "เลือก B เพราะโปรตีน > 3 g/dL เป็นแค่เกณฑ์ exudate ไม่จำเพาะต่อการติดเชื้อ — ในชุดเกณฑ์ที่ข้อนี้ใช้ยังนับรวมไว้ จึงตอบ E · ในการใช้งานจริงค่าที่ใช้ตัดสินว่าติดเชื้อและต้องระบายคือ pH, glucose, LDH และ Gram stain/culture",
+  "trap": "พยายามหาข้อที่ผิด — ข้อนี้ทุกข้อเป็นเกณฑ์ (คำตอบคือ all of the above)",
   "summary": [
-   "<b>นอกสไลด์:</b> empyema = หนองในช่องเยื่อหุ้มปอด หรือ Gram stain/culture บวก · complicated parapneumonic effusion = น้ำยังไม่เป็นหนองแต่ค่าชี้ว่าเชื้อลงช่องเยื่อหุ้มปอดแล้ว (pH ต่ำ glucose ต่ำ LDH สูง) — ทั้งสองต้องระบาย · ปัจจุบัน (BTS 2023) ใช้ pH เป็นตัวตัดสินหลัก"
+   "Empyema: หนองชัด หรือ Gram stain/ culture บวก",
+   "Complicated parapneumonic: pH &lt; 7.2 · glucose &lt; 60 · LDH &gt; 1,000",
+   "Light's criteria (exudate): protein ratio &gt; 0.5 · LDH ratio &gt; 0.6 · LDH &gt; 2/3 ULN",
+   "รักษา: ICD + ATB ± intrapleural tPA/ DNase",
+   "ไม่ดีขึ้น/ loculated → VATS decortication",
+   "Chronic empyema/ trapped lung → open decortication"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E (ตรงกันทั้งสองไฟล์) ความมั่นใจปานกลาง — ชุดเกณฑ์ในข้อเป็นแบบดั้งเดิม โปรตีนบอกแค่ exudate",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลาง — ตรงกับคีย์ทั้งสองไฟล์และเครื่องหมาย ✓ ทุกข้อ · เกณฑ์ในแนวทางปัจจุบันเน้น pH/ glucose/ LDH และการพบหนอง/ เชื้อ",
+  "mnemonic": "<b>'Empyema: Pus · pH &lt; 7.2 · Glucose &lt; 40–60 · LDH &gt; 1,000'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); ACCP Consensus Statement: Medical and Surgical Treatment of Parapneumonic Effusions (Chest 2000;118:1158)",
   "variants": [
-   "<b>นอกสไลด์:</b> เจาะได้น้ำขุ่นขาว ปั่นแล้วส่วนบนยังขาวขุ่น → chylothorax (ตรวจ triglyceride > 110 mg/dL) · ถ้าปั่นแล้วส่วนบนใส = ความขุ่นมาจากเซลล์ (หนอง)",
-   "<b>นอกสไลด์:</b> parapneumonic effusion ใส่สายระบายแล้วน้ำไม่ออก US มีผนังกั้นหลายห้อง → ให้ tPA + DNase ทางสาย หรือ VATS decortication"
+   "น้ำในปอด pH 7.0 glucose 30 → complicated parapneumonic → ICD",
+   "เจาะได้หนองข้น → empyema → ICD + ATB",
+   "empyema loculated ไม่ดีขึ้นหลัง ICD → VATS decortication"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 79 — ตัวพิมพ์: <b>72. Which is not diagnostic criteria for empyema thoracis? — A) WBC &gt; 15,000 B) Protein &gt; 3 C) LDH &gt; 1000 D) Glucose &lt; 40 E) All of the above is diagnostic criteria</b><br>ลายมือ: ✓ ที่ A–D · ขีด E<br>ไฮไลต์: \"not diagnostic criteria for empyema thoracis\" · A–D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 67: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 79",
+  "kimg": [
+   "fsk_p79",
+   "kp68c_72",
+   "k2p_67"
   ]
  }
 }
