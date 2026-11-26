@@ -188,7 +188,7 @@ Co({page:5,orig:"14",topic:"hx",ex:1,title:"History — easy bruising and gum bl
  summary:["Platelet/vascular: เลือดออกผิว/เยื่อบุ (petechiae, gum, epistaxis) · Coagulation: ฟกช้ำลึก/ข้อเลือดออก","ITP = isolated thrombocytopenia + exclude secondary (HIV, HCV, SLE, ยา, malignancy)","ตรวจแรก CBC + smear","Plt <30,000 หรือเลือดออก → steroid"]}),
 
 /* ===== สถานี 15 ===== */
-Co({page:5,orig:"15",topic:"img",title:"CXR — 18-year-old woman with dry cough: describe and diagnose",imgNote:NOIMG,seen:"ข้อนี้มาจาก admission round 10/3/66 (ไม่ใช่ AC bank)",
+Co({page:5,orig:"15",topic:"img",title:"CXR — 18-year-old woman with dry cough: describe and diagnose",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: จุดเงาขาวเล็กขนาด 1–3 mm จำนวนมาก ขนาดใกล้เคียงกัน กระจายสม่ำเสมอทั่วปอดทั้งสองข้างตั้งแต่ยอดถึงฐาน (ปอดขวาดูหนาแน่นกว่าซ้ายเล็กน้อย) · ไม่มีโพรง ไม่มีน้ำในเยื่อหุ้มปอด · ขั้วปอดไม่โต · หัวใจปกติ",seen:"ข้อนี้มาจาก admission round 10/3/66 (ไม่ใช่ AC bank)",
  stem:`An 18-year-old woman presents with dry cough for 3 weeks. A chest X-ray is provided.<br>1. Describe the chest X-ray.<br>2. Give the diagnosis.`,
  gray:"15 (มาจาก admission round 10/3/66) 18 yo girl dry cough 3 m/wk · ให้ CXR มา · จงบรรยาย CXR: ขาวปอดขวาทั้งปอดเยอะกว่าซ้ายแค่ lower lobe + nodule เล็กๆกระจายๆทั่วปอดทั้ง 2 ข้าง · จง Dx: Miliary TB",
  key:NK+" · คำใบ้ในไฟล์ (พิมพ์สีจาง): 'Miliary TB' → ตรวจแล้วเข้ากับคำบรรยาย (nodule เล็กกระจายทั่วปอด 2 ข้าง)",
@@ -250,7 +250,7 @@ Co({page:5,orig:"19",topic:"proc",ex:1,proc:1,title:"Procedure — Foley cathete
  summary:["ชาย: ดึง penis ตั้งฉาก · lidocaine gel · สอดจน hilt/เห็นปัสสาวะก่อนเป่า balloon 10 mL","ดึง foreskin กลับ ป้องกัน paraphimosis","ห้ามใส่ถ้าสงสัย urethral trauma","ถุงต่ำกว่ากระเพาะ ระบบปิด · ถอดเร็วที่สุด"]}),
 
 /* ===== สถานี 20 ===== */
-Co({page:6,orig:"20",topic:"img",title:"CT brain — describe and diagnose",imgNote:NOIMG,
+Co({page:6,orig:"20",topic:"img",title:"CT brain — describe and diagnose",imgNote:NOIMG,imgAlt:"CT สมองไม่ฉีดสี: ปื้นดำสม่ำเสมอขอบค่อนข้างชัดที่ซีกขวาของสมองน้อย ต่อเนื่องเข้า pons ด้านขวา · ไม่มีเงาขาวของเลือด · ventricle ที่ 4 ถูกเบียดเล็กน้อย ventricle อื่นไม่โต",
  stem:`A non-contrast CT scan of the brain is provided.<br>1. Describe the findings.<br>2. Give the diagnosis, including the likely level of the lesion.`,
  gray:"20 CT (หารูปชัดๆไม่ค่อยได้อะ) บรรยาย · - Homogeneous hypodense ของ right cerebellar hemisphere + pons?? · - ไม่มี grey white dedifferentiation · - mastoid ปกติ · - ตา น่าจะ normal position · Dx · - Infarction of Right cerebellar hemisphere + right brainstem ซัก level ที่คิดว่าเป็น pons",
  flag:"⚠ ไม่มีรูปในไฟล์ ('หารูปชัดๆไม่ค่อยได้') — ใช้คำบรรยายของผู้จดเป็นเฉลย · ข้อ 20 ไม่มีบริบทผู้ป่วย: Claude ไม่เพิ่มประวัติ · CT มี sensitivity ต่ำที่ posterior fossa (beam hardening) จึงควรทำ MRI/DWI",

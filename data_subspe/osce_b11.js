@@ -227,7 +227,7 @@ Co({page:283,orig:"10",topic:"inst",sub:"Surgical instrument",title:"Surgical in
 
 /* ===== OSCE 11 ===== */
 Co({page:283,orig:"11",topic:"img",sub:"Acute abdomen series",title:"Imaging — name the radiographic series, its views, findings and diagnosis",
- imgAlt:"A set of plain radiographs of the abdomen and chest of an adult patient.",
+ imgAlt:"ชุดฟิล์ม 3 ภาพ (CXR ท่ายืน, ช่องท้องท่านอน, ช่องท้องท่ายืน): ลำไส้เล็กโป่งขยายหลายห่วงอยู่กลางท้อง เห็นรอยพับเยื่อบุพาดเต็มความกว้าง ท่ายืนมี air-fluid level หลายระดับ ลมในลำไส้ใหญ่และ rectum น้อยมาก ไม่มีลมใต้กะบังลม",
  stem:`A set of radiographs from an adult patient with abdominal pain is shown.<br>1. What is this radiographic series called, and which views does it include?<br>2. Describe the findings.<br>3. What is the diagnosis?`,
  gray:"11. มีภาพ X-ray acute abdomen ถามว่าการถ่ายแบบนี้ชื่อว่าอะไร แล้วมีท่าอะไรบ้าง บรรยายสิ่งที่พบ และวินิจฉัย เป็น รูป small bowel obstruction",
  flag:NOIMG+" · ข้อความ 'ผู้ป่วยผู้ใหญ่ปวดท้อง' ใน stem Claude เติม",
@@ -253,7 +253,7 @@ Co({page:283,orig:"11",topic:"img",sub:"Acute abdomen series",title:"Imaging —
 
 /* ===== OSCE 12 ===== */
 Co({page:284,orig:"12",topic:"path",sub:"Gross specimen",title:"Gross specimen — describe the breast mass indicated by the arrow",
- imgAlt:"A surgically excised breast specimen placed on a table, sliced open, with an arrow pointing to one of the lesions within the tissue.",
+ imgAlt:"ชิ้นเนื้อเต้านมที่ผ่าเป็นแผ่นวางบนโต๊ะ ลูกศรชี้ที่ก้อนขนาด ~2.5 cm หน้าตัดสีขาวเทา แข็งมาก ขอบไม่เรียบเป็นแฉกยื่นเข้าไปในไขมันรอบ ๆ ห่างจากขอบตัดด้านลึกราว 1 cm",
  stem:`A resected breast specimen is placed on the table. An arrow points to one of the masses.<br>Describe the characteristics of the indicated mass.`,
  gray:"12. มีเต้านมก้อนหนึ่งวางไว้บนโต๊ะ มีลูกศรชี้ไปที่ก้อนๆหนึ่ง ให้คลำและบรรยายลักษณะก้อนที่พบ",
  flag:NOIMG+" (specimen จริงวางในฐาน) · ไฟล์ไม่ได้จดว่าก้อนเป็นอะไร — เฉลยเป็นแนวการบรรยาย + ตัวอย่างลักษณะของ carcinoma เทียบ fibroadenoma (Claude เติม)",
@@ -291,7 +291,7 @@ Co({page:284,orig:"13",topic:"path",sub:"Breast cancer staging",title:"Pathology
 
 /* ===== PPT 1 ===== */
 Cp({page:284,orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Imaging film",title:"Spot — abdominal imaging study: name the study, findings and diagnosis",
- imgAlt:"A grey-scale cross-sectional image of the right upper abdomen obtained with a hand-held probe.",
+ imgAlt:"ภาพ ultrasound แนวตัดขวางช่องท้องด้านขวาบน: ในถุงน้ำดีมีก้อนสะท้อนเสียงขาวสว่างขนาดใหญ่ ~3 cm ด้านหลังก้อนเป็นเงาดำทอดยาว ก้อนเลื่อนตามท่าผู้ป่วย ผนังถุงน้ำดีไม่หนา",
  stem:`An image from an abdominal investigation is shown.<br>1. What is this investigation?<br>2. Describe the findings and give the diagnosis.`,
  gray:"AC SURGERY : POWERPOINT 3/2555 MDCU65 · เข้าสอบทีละครึ่ง [อีกครึ่ง->OSCE] มี 20 ข้อ · 1. ภาพ ultrasound abdomen ถาม 1.นี่คือการตรวจอะไร 2.finding+dx (มี stone อันใหญ่มาก)",
  flag:NOIMG+" · ไฟล์บอกแค่ว่า 'มี stone อันใหญ่มาก' ไม่ได้ระบุอวัยวะ — Claude เฉลยเป็นนิ่วถุงน้ำดีก้อนใหญ่ (พบบ่อยที่สุดใน US abdomen) และให้แนวตอบถ้าเป็นนิ่วไต",
@@ -312,7 +312,7 @@ Cp({page:284,orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Imaging film",title:"Spot
 
 /* ===== PPT 2 ===== */
 Cp({page:284,orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — pigmented skin lesion: describe and give risk factors",
- imgAlt:"A clinical photograph of a pigmented skin lesion on the sole of the foot of an adult.",
+ imgAlt:"ฝ่าเท้าผู้ใหญ่ มีปื้นสีดำน้ำตาลหลายเฉดสีขนาด ~2 cm ไม่สมมาตร ขอบขรุขระไม่ชัด บางส่วนนูน ผู้ป่วยบอกว่าโตขึ้นใน 6 เดือน",
  stem:`A clinical photograph of a skin lesion is shown.<br>1. Describe the lesion.<br>2. What are the risk factors for this condition?`,
  gray:"2. ภาพ melanoma บรรยายภาพ และถามว่าอะไรคือปัจจัยเสี่ยงที่ทำให้เกิด",
  flag:NOIMG+" · ตำแหน่งรอยโรค (ฝ่าเท้า) ใน imgAlt Claude ตั้งเอง (ชนิดที่พบบ่อยในคนไทย = acral lentiginous)",
@@ -333,7 +333,7 @@ Cp({page:284,orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Plastic/Skin/Burn",title:
 
 /* ===== PPT 3 ===== */
 Cp({page:284,orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — ulcer over the buttock region: patient position and underlying bone",
- imgAlt:"A clinical photograph of a deep, chronic ulcer in the midline of the lower back just above the natal cleft of a bedridden patient.",
+ imgAlt:"แผลกดทับลึกกลางหลังส่วนล่างเหนือร่องก้นของผู้ป่วยติดเตียง พื้นแผลเห็นกระดูกแนวกลาง ขอบแผลเซาะลึกเข้าไปใต้ผิว",
  stem:`A clinical photograph of an ulcer over the buttock region of a bedridden patient is shown.<br>1. In which position does this patient probably spend most of the time?<br>2. Which bone lies beneath this ulcer?`,
  gray:"3. ภาพ bedsore ที่ก้น ถามว่าคนไข้น่าจะอยู่ท่าอะไร มีกระดูกอะไรอยู่ใต้แผล",
  flag:NOIMG+" · ตำแหน่งแผล (กึ่งกลาง เหนือร่องก้น = sacrum) ใน imgAlt Claude ตั้งเอง — ไฟล์บอกเพียง 'ที่ก้น'",
@@ -374,7 +374,7 @@ Cp({page:284,orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Pathology/Staging",title:
 
 /* ===== PPT 5 ===== */
 Cp({page:284,orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Imaging film",title:"Spot — intravenous urogram: findings and treatment",
- imgAlt:"An intravenous urography (IVP) series of an adult: a preliminary plain film followed by post-contrast films.",
+ imgAlt:"ชุดฟิล์ม IVP: scout film มีเงาทึบรังสีขนาด ~1 cm ตามแนวท่อไตซ้ายระดับ L3 · หลังฉีดสาร ไตซ้ายขับสารช้า pelvis/calyces และท่อไตเหนือเงานั้นโป่ง สารหยุดตรงตำแหน่งเดียวกับเงา ไตขวาปกติ",
  stem:`An intravenous pyelogram (IVP) of an adult with flank pain is shown.<br>1. Describe <b>two</b> findings.<br>2. Give <b>two</b> treatment options.`,
  gray:"5. ภาพ IVP มา ถาม 1. finding 2ข้อ 2. วิธีรักษา2ข้อ",
  flag:NOIMG+" · ไฟล์ไม่ได้บอกว่า IVP เป็นโรคอะไร — Claude เฉลยเป็นนิ่วท่อไตส่วนบนข้างซ้ายร่วมกับ hydronephrosis (ภาพที่ออกบ่อยที่สุดในหัวข้อนี้) และอาการปวดสีข้างใน stem Claude เติม · ตำแหน่ง/ขนาดนิ่วเป็นค่าที่แต่ง",
@@ -458,7 +458,7 @@ Cp({page:284,orig:"PPT 8",opinion:"ตรวจคีย์ (21 พ.ย. 2026): 
 
 /* ===== PPT 9 ===== */
 Cp({page:284,orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Instrument/Device",title:"Spot — urinary catheter with three ports: specific indication",
- imgAlt:"A latex urethral catheter with a balloon near the tip and three ports at its proximal end.",
+ imgAlt:"สายสวนปัสสาวะยางสีเหลืองขนาดใหญ่ ปลายสายมีลูกโป่ง ปลายอีกด้านแยกเป็น 3 ช่อง (ช่องปัสสาวะออก ช่องเติมน้ำลูกโป่ง และอีกช่องสำหรับต่อน้ำเกลือไหลเข้า)",
  stem:`A photograph of a urethral catheter with <b>three ports</b> is shown.<br>What is the specific indication for this type of catheter?`,
  gray:"9. ภาพ 3 ways foley's catheter ถาม specific indication",
  flag:NOIMG,
@@ -511,7 +511,7 @@ Cp({page:284,orig:"PPT 11",opinion:"ตรวจคีย์ (21 พ.ย. 2026):
 
 /* ===== PPT 12 ===== */
 Cp({page:284,orig:"PPT 12",num:"SA 12",topic:"spot",sub:"Imaging film",title:"Spot — neonatal abdominal radiograph: diagnosis and pathophysiology",
- imgAlt:"A plain abdominal radiograph of a newborn.",
+ imgAlt:"ฟิล์มช่องท้องทารกแรกเกิด: มีกระเปาะลม 2 ก้อนในช่องท้องส่วนบน (ซ้ายใหญ่ ขวาเล็ก) ไม่มีลมในลำไส้ส่วนปลายเลย",
  stem:`A plain abdominal radiograph of a newborn with vomiting since the first day of life is shown.<br>1. Give the diagnosis.<br>2. What is the most acceptable pathophysiology of this condition?`,
  gray:"12. ภาพ X-ray abdomen ของเด็ก มี double bubble sign 1. จง give diagnosis 2. What is the most acceptable pathophysiology of this condition",
  flag:NOIMG+" · อาการอาเจียนตั้งแต่วันแรกใน stem Claude เติม",
@@ -532,7 +532,7 @@ Cp({page:284,orig:"PPT 12",num:"SA 12",topic:"spot",sub:"Imaging film",title:"Sp
 
 /* ===== PPT 13 ===== */
 Cp({page:284,orig:"PPT 13",num:"SA 13",topic:"spot",sub:"Imaging film",title:"Spot — neonatal chest radiograph: diagnosis, type and associated anomalies",
- imgAlt:"A chest and upper abdominal radiograph of a newborn with a radiopaque feeding tube in place.",
+ imgAlt:"ฟิล์มทรวงอกและช่องท้องส่วนบนของทารกแรกเกิด: สายให้อาหารทึบรังสีหยุดและขดม้วนอยู่ในถุงหลอดอาหารส่วนบนระดับประมาณ T2–T3 ใส่ลงต่อไม่ได้ · กระเพาะและลำไส้มีลมปกติ (ลมลงไปถึงช่องท้องได้) · ปอดขวาบนมีเงาทึบเป็นหย่อม · หัวใจและกระดูกสันหลังไม่เห็นความผิดปกติชัดในภาพนี้",
  stem:`A chest radiograph of a newborn with excessive drooling and choking with the first feed is shown. A feeding tube could not be advanced.<br>1. What is the diagnosis, and which type is it?<br>2. Which anomalies are associated with this condition?`,
  gray:"13. ภาพ Chest X-ray เป็น tracheoesophageal fistula 1. Dx + type อะไร 2.Relateกับ anomaly อะไร",
  flag:NOIMG+" · ประวัติน้ำลายมาก สำลักนมและใส่สายไม่ผ่านใน stem Claude เติม · ไฟล์ไม่ได้บอก type — Claude เฉลยเป็นชนิดที่พบบ่อยที่สุด (proximal EA with distal TEF)",
@@ -610,7 +610,7 @@ Cp({page:285,orig:"PPT 16",num:"SA 16",topic:"spot",sub:"Breast",title:"Spot —
 
 /* ===== PPT 17 ===== */
 Cp({page:285,orig:"PPT 17",num:"SA 17",topic:"spot",sub:"Imaging film",title:"Spot — upper abdominal imaging: name the study, describe it and give the diagnosis",
- imgAlt:"A grey-scale sonographic image of the right upper quadrant of an adult.",
+ imgAlt:"ภาพ ultrasound ถุงน้ำดี: ผนังถุงน้ำดีหนาราว 5 mm มีชั้นน้ำรอบผนังเล็กน้อย ภายในมีก้อนสะท้อนเสียงขาวหลายก้อนพร้อมเงาดำด้านหลัง ติดอยู่ที่คอถุงน้ำดี · ผู้ตรวจบันทึกว่ากดหัวตรวจแล้วเจ็บมากตรงถุงน้ำดี",
  stem:`An imaging study of a patient with right upper quadrant pain and fever is shown.<br>1. What is this investigation?<br>2. Describe the findings.<br>3. What is the diagnosis?`,
  opinion:"ไฟล์ระบุ finding (GB stone with acoustic shadow + GB wall thickening) และ <b>น่าจะ</b> acute cholecystitis — เราเห็นด้วย มั่นใจสูง (ปวดชายโครงขวา + ไข้ใน stem เราเติม)<br>คำบรรยายที่ได้คะแนน: echogenic focus + posterior acoustic shadow, ผนังหนา >3 mm, pericholecystic fluid, GB โป่ง, sonographic Murphy's sign · ถ้ามี CBD ขยายหรือตัวเหลืองร่วม ต้องคิด choledocholithiasis/cholangitis เพิ่ม<br>การรักษาตาม Tokyo Guidelines 2018: early laparoscopic cholecystectomy (ดีที่สุดภายใน 72 ชม. จากเริ่มอาการ) และ percutaneous cholecystostomy ในผู้ป่วยเสี่ยงผ่าตัดสูง · ตรวจคีย์ (22 พ.ย. 2026): เกณฑ์ผนังถุงน้ำดีหนาใน US ใช้ ≥4 mm ตาม TG18 (TG13 ใช้ ≥5 mm) — ถ้าเขียนตัวเลขให้ระบุชื่อแนวทาง · ความมั่นใจสูง",
  gray:"17. ภาพ film U/S abdomen ของ gallbladder stone with acoutic shadow + GB wall thickening ถามวิธีการตรวจดังภาพ อธิบาย ultrasound และ Dx (น่าจะ acute cholecystitis)",
@@ -679,7 +679,7 @@ Cp({page:285,orig:"PPT 19",num:"SA 19",topic:"spot",sub:"Hernia/Abdominal wall",
 
 /* ===== PPT 20 ===== */
 Cp({page:285,orig:"PPT 20",num:"SA 20",topic:"spot",sub:"Imaging film",title:"Spot — sudden epigastric pain: describe the chest film and give differential diagnoses",
- imgAlt:"An upright chest radiograph of an adult man.",
+ imgAlt:"CXR ท่ายืนของชายวัยกลางคน: มีแถบลมสีดำรูปจันทร์เสี้ยวใต้โดมกะบังลมขวา คั่นระหว่างกะบังลมกับขอบบนของตับ และมีลมเล็กน้อยใต้กะบังลมซ้ายเหนือ gastric bubble · ปอดทั้งสองข้างไม่มีเงาผิดปกติ ไม่มีน้ำในเยื่อหุ้มปอด · หัวใจขนาดปกติ",
  stem:`A middle-aged man comes to the hospital immediately with sudden severe epigastric pain. His upright chest radiograph is shown.<br>1. Describe the film.<br>2. Give <b>two</b> differential diagnoses.`,
  gray:"20. ชายวัยกลางคนปวดท้องบริเวณลิ้นปี่มารพ.ทันที CXR: มี free air below diaphragm 1. จงอธิบาย film 2. ให้ DDx 2 ข้อ",
  flag:NOIMG+" · คำว่า 'sudden severe' ใน stem Claude เติมจากคำว่า 'มา รพ. ทันที'",

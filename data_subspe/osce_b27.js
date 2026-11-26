@@ -74,7 +74,7 @@ Co({page:14,orig:"4",topic:"suture",sub:"Suture & knot",ex:1,proc:1,title:"Verti
 Co({page:14,orig:"5",topic:"inst",sub:"Surgical instrument",title:"Surgical instruments — Mayo scissors, Deaver retractor, trocar, Babcock",
  stem:`Several surgical instruments are shown. Name each instrument and state its use.`,
  gray:"5. Mayo scissor, deaver retractor, trocar, Babcock, ... ทำอะไร",
- flag:NOIMG,imgAlt:"Mayo scissors · Deaver retractor · laparoscopic trocar · Babcock forceps (และเครื่องมืออื่นที่ผู้จดจำไม่ได้)",
+ flag:NOIMG,imgAlt:"เครื่องมือ 4 ชิ้น: (1) กรรไกรด้ามสั้นหนา ใบมีดหนาปลายโค้งมน (2) retractor มือถือ ใบโลหะกว้างโค้งเป็นรูปเครื่องหมายคำถาม (3) แท่งโลหะปลายแหลมสามเหลี่ยมสอดอยู่ในปลอกท่อที่มีวาล์วและช่องต่อแก๊สด้านข้าง (4) ด้ามห่วงมีล็อก ปลายเป็นห่วงสามเหลี่ยมกว้างมีช่องกลาง ไม่มีฟัน",
  notes:"ไม่มีไฟล์เฉลย · ไม่มีรูปในไฟล์",
  opinion:"ความมั่นใจสูง",
  parts:S(
@@ -114,7 +114,7 @@ Co({page:14,orig:"7",topic:"inst",sub:"Tube/Catheter",title:"Three-way Foley cat
 Co({page:14,orig:"8",topic:"spot",sub:"Clinical photograph",title:"Slowly growing arm mass for 5 years",
  stem:`A photograph shows a soft mass on the arm that has grown slowly for 5 years.<br>1. What is the diagnosis?<br>2. How would you manage it?`,
  gray:"8. ก้อนที่แขน 5 ปีค่อย ๆ โต diag and management",
- flag:NOIMG,imgAlt:"ก้อนนุ่มใต้ผิวหนังที่แขน ขอบเขตชัด ผิวด้านบนปกติ",
+ flag:NOIMG,imgAlt:"ก้อนใต้ผิวหนังที่ต้นแขนขนาด ~5 cm นูนนุ่ม ผิวบนก้อนสีปกติ ไม่มีรูเปิดตรงกลาง ขอบเขตชัดเป็นพู กดแล้วก้อนลื่นหลุดจากนิ้ว ขยับได้อิสระไม่ติดผิวหนังและกล้ามเนื้อ",
  notes:"ไม่มีไฟล์เฉลย · ไม่มีรูป → ใช้ lipoma ซึ่งพบบ่อยที่สุด",
  opinion:"ความมั่นใจปานกลาง (ไม่เห็นรูป)",
  parts:S(

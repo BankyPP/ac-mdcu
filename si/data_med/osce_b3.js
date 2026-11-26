@@ -28,7 +28,7 @@ const S1="ชุด 1 (หน้า 2–16)",S2="ชุด 2 (หน้า 17–
 const INTRO=[P("แนะนำตัว (ชื่อ-บทบาท) / ทักทายผู้ป่วย","แนะนำ","introduc","สวัสดี","ชื่อหมอ","นักศึกษาแพทย์","medical student"),P("ถามชื่อ-นามสกุลผู้ป่วย (identification)","ชื่อ.{0,6}(นามสกุล|สกุล)","identif","ขอทราบชื่อ","confirm.{0,10}(name|patient)")];
 QB.push(
 
-Co({sec:S1,page:2,orig:"A1",topic:"micro",sub:"PBS",title:"Fatigue and petechiae — peripheral blood smear",imgNote:NOIMG,kimg:["os132c_k1","os132c_k2","os132c_k3","os132c_k4"],
+Co({sec:S1,page:2,orig:"A1",topic:"micro",sub:"PBS",title:"Fatigue and petechiae — peripheral blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงน้อยลง ขนาดและสีปกติ ไม่เห็นเซลล์ใหญ่สีม่วงอ่อน · เม็ดเลือดขาวน้อยลง ส่วนใหญ่เป็น lymphocyte · ไม่เห็น blast · เกล็ดเลือดน้อยมาก",kimg:["os132c_k1","os132c_k2","os132c_k3","os132c_k4"],
  stem:`A 30-year-old man presents with fatigue for 4 weeks and petechiae. Physical examination shows pallor without jaundice. His peripheral blood smear is provided.`,
  gray:"1. ชาย 30 ปี อ่อนเพลีย 4 สัปดาห์ มี petechiae PE: pale, no jaundice · i. บรรยาย Blood smear (Normochromic normocytic RBC, no polychromasia, no anisocytosis, no poikilocytosis; WBC decreased in number, lymphocyte predominate; Plt Few (0-2/OF)) · ii. DDx 3 โรค (Aplastic anemia, Acute leukemia, Myelodysplastic, Myelophthisis, PNH, Hypersplenism, DIC) · iii. Investigation 3 อย่าง (Bone marrow study, Reticulocyte count, Flow cytometry)",
  flag:"ไม่มีรูปสเมียร์ของโจทย์ในไฟล์ (NOIMG) — รูปในหน้า 3–6 เป็นสไลด์ความรู้ของรุ่นพี่ จึงเก็บเป็นรูปเฉลย (kimg: aplastic anemia, myelophthisis, ALL, AML) · ข้อ 1.3 ไฟล์ถามแค่ 3 อย่าง Claude เพิ่มตัวเลือกที่ยอมรับได้",
@@ -173,12 +173,12 @@ Co({sec:S1,page:14,orig:"A6",topic:"pe",sub:"Joint",ex:1,title:"Physical examina
  interp:"PE เข่า: Look–Feel–Move ครบทั้ง alignment, effusion test, crepitus, passive ROM และบอกอาจารย์ว่าตรวจเพื่ออะไร",
  summary:["OA knee: ปวดเมื่อ load, crepitus, ROM จำกัด, effusion เล็กน้อย, ไม่ร้อนแดง","Effusion: ballottement / patellar tap / bulge sign","ยืนดู alignment (genu varus ใน medial OA) และเดินดู antalgic gait"]}),
 
-Co({sec:S1,page:15,orig:"A7",topic:"micro",sub:"UA",title:"Leg edema and dark urine — urine sediment",imgNote:NOIMG,
+Co({sec:S1,page:15,orig:"A7",topic:"micro",sub:"UA",title:"Leg edema and dark urine — urine sediment",imgNote:NOIMG,imgAlt:"ภาพตะกอนปัสสาวะ (กล้องในห้องสอบเสีย): เม็ดเลือดแดงจำนวนมาก รูปร่างกลมเรียบเท่ากันทุกเซลล์ ไม่มีตุ่มยื่น ไม่มีโครงทรงกระบอก",
  stem:`A 70-year-old patient presents with leg edema and dark-colored urine. Urine sediment is examined under the microscope.`,
  gray:"7. (ไม่คิดคะแนน กล้องเสีย) กล้อง ; 70yr leg edema, dark urine (เหมือน hemoglobinuria จาก IVH มากกว่าเพราะ hematuria ควรเป็นสีน้ำล้างเนื้อ) · a. บรรยาย Urine i. Isomorphic RBC · b. Dx i. โรคไตในผู้สูงอายุ ii. KUB sone",
  flag:"⚠ ข้อนี้ไม่คิดคะแนนในการสอบจริง (กล้องเสีย) · ไม่มีรูปในไฟล์ (NOIMG) · ไฟล์ตอบวินิจฉัยกำกวม ('โรคไตในผู้สูงอายุ' / 'KUB sone' น่าจะ KUB stone) — Claude ตีความและเรียบเรียงเป็นคำตอบ",
  parts:S(
-  B("7.1 Describe the urine sediment findings you would expect.",2,{tags:["micro"],key:"Isomorphic RBC",
+  B("7.1 Describe the urine sediment findings.",2,{tags:["micro"],key:"Isomorphic RBC",
    ans:"<b>Numerous RBC with uniform size and shape (isomorphic RBC)</b> — no RBC casts, no dysmorphic RBC / acanthocytes",
    exp:"Isomorphic RBC (ขนาด/รูปร่างเหมือนปกติ) = <b>non-glomerular hematuria</b> มาจากทางเดินปัสสาวะส่วนล่างหรือหลอดไต: นิ่ว เนื้องอก ติดเชื้อ ต่อมลูกหมาก · ต่างจาก glomerular: dysmorphic RBC (acanthocyte), RBC cast, โปรตีนมาก · ถ้าปัสสาวะสีเข้มแต่ไม่พบ RBC ใต้กล้อง นึกถึง hemoglobinuria/myoglobinuria (ที่ผู้จดตั้งข้อสังเกต)",
    rubric:"ได้ = isomorphic RBC / non-dysmorphic RBC · ตอบแค่ 'RBC' ได้น้อย",
@@ -192,7 +192,7 @@ Co({sec:S1,page:15,orig:"A7",topic:"micro",sub:"UA",title:"Leg edema and dark ur
  interp:"UA: isomorphic RBC → non-glomerular hematuria → นิ่ว/เนื้องอกทางเดินปัสสาวะ (ข้อนี้ไม่คิดคะแนนจริง)",
  summary:["Isomorphic RBC = non-glomerular hematuria (นิ่ว เนื้องอก ติดเชื้อ BPH)","Dysmorphic RBC / RBC cast = glomerular","ผู้สูงอายุที่ hematuria ต้อง rule out มะเร็ง (cystoscopy, CT urography)"]}),
 
-Co({sec:S1,page:16,orig:"A9",topic:"micro",sub:"PBS",title:"Fatigue and pallor with high platelet count — blood smear",imgNote:NOIMG,
+Co({sec:S1,page:16,orig:"A9",topic:"micro",sub:"PBS",title:"Fatigue and pallor with high platelet count — blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดสีค่อนข้างปกติ มีเซลล์ใหญ่สีม่วงอ่อนบ้าง · เม็ดเลือดขาวปกติ นิวโทรฟิลเด่น · เกล็ดเลือดเพิ่มขึ้นชัดเจน",
  stem:`A 40-year-old woman presents with fatigue. Physical examination shows moderate pallor without jaundice. Her CBC shows low hemoglobin, a normal WBC count, and a platelet count of 550,000/µL. Her peripheral blood smear is provided.`,
  gray:"9. หญิง 40 ปี อ่อนเพลีย mod. pale, no jaundice Hb ต่ำ, WBC ปกติ, Plt 550,000 · a. บรรยาย Smear i. Normochromic normocytic RBC, few polychromasia ii. Normal WBC number, neutrophil predominate iii. Increased platelet number · b. Dx i. Iron-deficiency anemia ii. Nutritional deficiency anemia iii. thalassemia",
  flag:"⚠ ไม่มีรูปสเมียร์ในไฟล์ (NOIMG) · เฉลยไฟล์ขัดกับ Key PBS ในข้อ RBC — ดู opinion · ไม่มีค่า Hb ในไฟล์ จึงไม่ระบุตัวเลขใน stem",
@@ -306,13 +306,13 @@ Co({sec:S2,page:20,orig:"B3+",topic:"ekg",sub:"STEMI/ischemia",title:"EKG interp
  interp:"EKG เสริม: inferior STEMI + Mobitz I — ต้องเห็น ST elevation II, III, aVF และ reciprocal ใน I, aVL",
  summary:["Inferior STEMI: ST ↑ II, III, aVF + reciprocal ST ↓ I, aVL (ถ้ามี)","Mobitz I: PR ยาวขึ้นแล้วหลุด 1 beat · พบร่วม inferior MI ได้","นับ irregular rate: R ใน 6 วินาที × 10; เขียน 25 mm/s, 10 mm/mV"]}),
 
-Co({sec:S2,page:22,orig:"B4",topic:"micro",sub:"Malaria",title:"Acute febrile illness from a border province — blood smear",imgNote:NOIMG,kimg:["os132c_k8","os132c_k9"],
+Co({sec:S2,page:22,orig:"B4",topic:"micro",sub:"Malaria",title:"Acute febrile illness from a border province — blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear (Giemsa): เม็ดเลือดแดงที่ติดเชื้อโตกว่าเซลล์ปกติ ซีด มีจุดชมพูละเอียดทั่วเซลล์ · ภายในมีตัวเชื้อแผ่เป็นเส้นสายรูปร่างไม่แน่นอน มีจุดโครมาตินแดง · พบตัวเชื้อหลายระยะในภาพเดียว ทั้งตัวกลมใหญ่เต็มเซลล์และตัวที่แบ่งเป็นก้อนเล็กหลายก้อน",kimg:["os132c_k8","os132c_k9"],
  stem:`A man from Sa Kaeo province (Thai-Cambodian border area) presents with acute fever. His peripheral blood smear (Giemsa stain) is provided.`,
  gray:"4. Acute febrile illness ; สระแก้ว มีไข้ · a. บรรยาย smear (amoeboid form (organism) in large infected RBC with Schuffner's dot) i. infected RBC ใหญ่ ii. มี amoeboid form, growing trophozoite, gametocyte, schizont iii. Schuffner's dot · b. Dx (ตอบ Infectious disease จะต้องมี ชื่อเชื้อ + อาการ) i. Malaria from Plasmodium vivax infection · c. Drug (Infected RBC จะมีขนาดใหญ่) i. Chloroquine + Primaquine (uncomp. non pf)",
  flag:"⚠ ไม่มีรูปสเมียร์ของโจทย์ในไฟล์ (NOIMG) — แผงรูปในหน้า 22 เป็นสไลด์เทียบ ring/trophozoite/schizont ของ 4 species จึงเก็บเป็น kimg พร้อมตารางยาจากสไลด์",
  notes:"สไลด์หลังสถานี: แผงภาพ Giemsa เทียบ 4 species (ring / trophozoite / schizont) — P. vivax: infected RBC ขยายใหญ่ (ลายมือ ✓ และ '80%' = สัดส่วนที่พบบ่อยของมาลาเรียในไทย) · ตารางยา (สไลด์ซ้ายล่าง): <b>Uncomplicated P. falciparum</b>: ACTs 3 วัน — DHA + piperaquine + primaquine single dose (หรือ artesunate + pyronaridine + primaquine single dose ในพื้นที่ดื้อยา); 2nd line (7 วัน): quinine + doxycycline หรือ clindamycin + primaquine single dose · <b>Non-falciparum</b>: chloroquine 3 วัน + primaquine 14 วัน ใน P. vivax และ P. ovale (ACTs + primaquine ถ้า chloroquine-resistant P. vivax) · <b>Severe malaria</b> (P. falciparum, P. knowlesi, P. vivax): artesunate IV แล้วต่อด้วย ACTs ครบคอร์ส + primaquine (Pv) / primaquine single dose (Pf); 2nd line: quinine IV · เชื้อ + อาการ: ไข้สูง หนาวสั่น เหงื่อออก เป็นพัก ๆ ม้ามโต ซีด",
  parts:S(
-  B("4.1 Describe the blood smear findings you would expect.",3,{tags:["micro"],key:"Amoeboid form (organism) in large infected RBC with Schüffner's dot · มี amoeboid form, growing trophozoite, gametocyte, schizont",
+  B("4.1 Describe the blood smear findings.",3,{tags:["micro"],key:"Amoeboid form (organism) in large infected RBC with Schüffner's dot · มี amoeboid form, growing trophozoite, gametocyte, schizont",
    ans:"<b>Enlarged infected RBC</b> containing <b>amoeboid trophozoites</b> (growing trophozoites), schizonts and gametocytes, with <b>Schüffner's dots</b> in the infected red cells",
    exp:"P. vivax / P. ovale: infected RBC โตกว่าปกติ + Schüffner's dots; ring form ใหญ่, trophozoite รูปร่างไม่แน่นอน (amoeboid), พบทุกระยะ (ring–trophozoite–schizont–gametocyte) ในเลือดส่วนปลาย · P. falciparum: RBC ไม่โต, ring เล็กหลายตัวในเซลล์เดียว, banana-shaped gametocyte, ปกติไม่เห็น schizont · P. malariae: band form · ตรวจ thick smear หาเชื้อ thin smear แยก species",
    rubric:"ได้ = infected RBC โต + amoeboid trophozoite + Schüffner's dot · ขาด Schüffner's dot ได้น้อย",

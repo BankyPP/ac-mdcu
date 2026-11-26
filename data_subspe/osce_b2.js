@@ -88,7 +88,7 @@ Co({page:89,orig:"3",topic:"pe",sub:"Abdomen",ex:1,title:"Physical examination �
  summary:["ลำดับตรวจท้อง: ดู → ฟัง → เคาะ → คลำ (คลำจากจุดไกลไปจุดปวด)","Murphy's sign: กดใต้ชายโครงขวาให้หายใจเข้า → หยุดเพราะเจ็บ","ไข้ + RUQ tenderness + Murphy บวก = acute cholecystitis","ดูตาเหลือง — ถ้าเหลืองคิด cholangitis/CBD stone","Rx: ATB + early laparoscopic cholecystectomy (TG18)"]}),
 
 /* ===== OSCE 4 ===== */
-Co({page:90,orig:"4",topic:"img",sub:"Mammogram",title:"Imaging — breast film: technique, views, findings and next investigation",imgAlt:"ภาพฟิล์มเต้านม 2 ท่า (ภาพไม่มีในไฟล์)",kimg:["os67b_k4","os67b_k4g"],seen:"MDCU67 RoA OSCE 4 (คล้ายกัน: ฟิล์มเต้านม บอกชื่อ ท่า บรรยาย)",
+Co({page:90,orig:"4",topic:"img",sub:"Mammogram",title:"Imaging — breast film: technique, views, findings and next investigation",imgAlt:"Mammogram เต้านมซ้าย 2 ภาพ (มุมบน-ล่าง และมุมเฉียงที่เห็นกล้ามเนื้อ pectoralis) · ที่ส่วนบนด้านนอกมีก้อนความทึบสูงขนาด ~2.5 cm รูปร่างไม่สม่ำเสมอ ขอบเป็นเส้นแหลมแผ่ออกรอบก้อน ภายในมีจุดหินปูนเล็กละเอียดหลายรูปทรงกระจุกอยู่",kimg:["os67b_k4","os67b_k4g"],seen:"MDCU67 RoA OSCE 4 (คล้ายกัน: ฟิล์มเต้านม บอกชื่อ ท่า บรรยาย)",
  stem:`A breast film is shown.<br>1. What technique produced these images?<br>2. Name the views.<br>3. Describe the abnormalities.<br>4. Give the provisional diagnosis.<br>5. What further investigation would you send to confirm the diagnosis?`,
  gray:"OSCE 4 · Mammogram · 1) ภาพต่อไปนี้เกิดจากวิธีอะไร · 2) ท่าที่ถ่ายคือท่าอะไร · 3) จงบรรยายความผิดปกติที่เห็น · 4) provisional diagnosis · 5) จงส่งเพื่อการวินิจฉัยเพิ่มเติม",
  flag:"⚠ "+NOIMG+" · ไม่มีภาพฟิล์มและผู้จดไม่ได้บรรยายรอยโรค — แนวคำตอบระบุ 'upper outer of left breast' · การตรวจเพิ่มเติม ลายมือตอบ FNA ต่างจากเรา ดู opinion",
@@ -122,7 +122,7 @@ Co({page:90,orig:"4",topic:"img",sub:"Mammogram",title:"Imaging — breast film:
  summary:["Mammography: CC + MLO","บรรยาย: ข้าง/quadrant → mass shape-margin-density → calcification → BI-RADS","UOQ = ตำแหน่งมะเร็งเต้านมพบบ่อยสุด","Mass สงสัย → image-guided core needle biopsy · cyst → FNA"]}),
 
 /* ===== OSCE 5 ===== */
-Co({page:91,orig:"5",topic:"img",sub:"IVP/KUB",title:"Imaging — full urographic series on two viewing boxes",imgAlt:"ชุดฟิล์มรังสีระบบทางเดินปัสสาวะหลังฉีดสารทึบรังสีทั้งหมด วางบนที่เสียบฟิล์ม 2 อัน (ภาพไม่มีในไฟล์)",kimg:["os67b_k5","os67b_k5g"],seen:"MDCU67 RoA OSCE 5 (คล้ายกัน: ชุดฟิล์ม IVP นิ่วในไต)",
+Co({page:91,orig:"5",topic:"img",sub:"IVP/KUB",title:"Imaging — full urographic series on two viewing boxes",imgAlt:"ชุดฟิล์ม IVP บนที่เสียบฟิล์ม 2 อัน · scout film: เงาทึบรังสีก้อนใหญ่แตกกิ่งเต็ม renal pelvis และ calyces ของไตขวา · หลังฉีดสาร ไตขวาขับสารช้า calyces และท่อไตขวาโป่งขยาย · ฟิล์มหลังปัสสาวะยังเห็นสารค้างใน bladder มาก · ไตซ้ายปกติ",kimg:["os67b_k5","os67b_k5g"],seen:"MDCU67 RoA OSCE 5 (คล้ายกัน: ชุดฟิล์ม IVP นิ่วในไต)",
  stem:`A complete urographic series is displayed on two viewing boxes.<br>1. Describe the abnormalities seen.<br>2. Give the diagnosis.<br>3. Outline the treatment.`,
  gray:"OSCE 5 · IVP · 1) บรรยายความผิดปกติที่เห็น · 2) ให้การวินิจฉัย · 3) ให้การรักษา · มีที่เสียบฟิล์ม 2 อัน กับฟิล์ม IVP ทั้งหมด",
  flag:NOIMG+" · ไม่มีภาพฟิล์ม — ใช้ผลจากแนวคำตอบหน้า 115 · การรักษาไม่มีในไฟล์ (เฉลยโดย Claude)",

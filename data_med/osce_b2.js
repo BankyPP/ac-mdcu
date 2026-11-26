@@ -229,8 +229,8 @@ Do({page:2,orig:"3",topic:"proc",ex:1,proc:1,title:"Procedure — Foley catheter
  interp:"สวนปัสสาวะชายสูงอายุ BPH + UTI — ไฟล์เน้นเตรียม set ก่อนใส่ถุงมือ (มีแต่ non-sterile)",
  summary:["ชาย: องคชาต 90° → สอดจนสุด hub → เห็นปัสสาวะ → balloon","รูดหนังหุ้มปลายกลับทุกครั้ง","ใส่ไม่ผ่านต่อมลูกหมาก: Coudé catheter / urology / suprapubic","Retention + UTI → culture ก่อนยา"]}),
 
-Do({page:2,orig:"4",topic:"ekg",title:"EKG — atrial flutter with RBBB, RVH and right axis deviation",imgNote:NOIMG,
- stem:`A 55-year-old woman presents to the hospital. Read the EKG systematically. (Describe the expected findings.)`,
+Do({page:2,orig:"4",topic:"ekg",title:"EKG — atrial flutter with RBBB, RVH and right axis deviation",imgNote:NOIMG,imgAlt:"EKG 12 lead: ไม่มี P wave ปกติ เส้นฐานเป็นคลื่นฟันเลื่อยต่อเนื่อง ชัดใน II, III, aVF · QRS สม่ำเสมอ · lead I ลบ aVF บวก · QRS กว้าง ~130 ms: V1 รูป rsR' ร่วมกับ R สูงเด่น · lead I และ V6 มี S wave ลึกกว้าง · T กลับหัวใน V1–V3",
+ stem:`A 55-year-old woman presents to the hospital. Read the EKG systematically.`,
  gray:"4 EKG ผู้ป่วยหญิง 55 ปีมาด้วย ? 1. จงอ่าน EKG อย่างเป็นระบบ (Atrial flutter with RBBB with RVH with right axis deviation)",
  key:"Atrial flutter with RBBB with RVH with right axis deviation (จากไฟล์)",
  flag:"⚠ ไม่มีรูป EKG ในไฟล์ และผู้จดจำอาการไม่ได้ (\"มาด้วย ?\")",
@@ -244,12 +244,12 @@ Do({page:2,orig:"4",topic:"ekg",title:"EKG — atrial flutter with RBBB, RVH and
  interp:"EKG 4 ความผิดปกติ — atrial flutter + RBBB + RVH + RAD → โรคพื้นของหัวใจขวา (ASD, pulmonary HT)",
  summary:["Flutter: saw-tooth II/III/aVF, atrial 300, ventricular 150 (2:1)","Rate control เหมือน AF ยากกว่า · cardioversion low energy · ablation (cavotricuspid isthmus) ได้ผลดี · anticoagulation เหมือน AF","RBBB + RAD + RVH ในหญิง → ASD"]}),
 
-Do({page:3,orig:"5",topic:"img",title:"CXR — 30-year-old man with dyspnea, no testicular mass",imgNote:NOIMG,
- stem:`A 30-year-old man presents with dyspnea. Physical examination reveals no testicular mass. (Chest X-ray from the admission round.)<br>1. Read the CXR systematically. (Describe the expected findings.)<br>2. Give 3 differential diagnoses.`,
+Do({page:3,orig:"5",topic:"img",title:"CXR — 30-year-old man with dyspnea, no testicular mass",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: แนวกลางทรวงอกส่วนบนกว้างขึ้นเป็นก้อนขอบเรียบเป็นพู ยื่นออกไปทั้งสองข้าง ซ้อนทับเงาขั้วปอดแต่ยังเห็นขอบหลอดเลือดขั้วปอดชัด (ก้อนอยู่หน้า) · หลอดลมไม่ถูกเบียดมาก · ปอดทั้งสองข้างไม่มีก้อนกระจาย ไม่มีน้ำในเยื่อหุ้มปอด",
+ stem:`A 30-year-old man presents with dyspnea. Physical examination reveals no testicular mass. (Chest X-ray from the admission round.)<br>1. Read the CXR systematically.<br>2. Give 3 differential diagnoses.`,
  gray:"5 CXR ผู้ป่วยชาย 30 ปีมาด้วยหายใจหอบเหนื่อย ตรวจร่างกายไม่พบ testicular mass 1. จงอ่าน CXR อย่างเป็นระบบ 2. Differential diagnosis 3 อย่าง — Admission round germ cell tumor",
  flag:"⚠ ไม่มีรูปในไฟล์ (ไฟล์บอกว่ามาจาก admission round เรื่อง germ cell tumor) — Claude ตีความว่าเป็น anterior mediastinal mass (ไม่พบก้อนอัณฑะ = extragonadal germ cell tumor) · ถ้าภาพจริงเป็น multiple cannonball metastases ให้ตอบ metastatic germ cell tumor/choriocarcinoma",
  parts:S(
-  B("5.1 Read the CXR systematically (expected findings).",4,{tags:["img"],
+  B("5.1 Read the CXR systematically.",4,{tags:["img"],
    ans:"<b>Technical</b>: PA upright, adequate · <b>Mediastinum</b>: <b>widened superior/anterior mediastinum</b> — ก้อนขอบเรียบ lobulated ยื่นออกด้านใดด้านหนึ่งหรือทั้งสองข้าง · <b>Hilum overlay sign</b> (เห็น hilar vessels ผ่านก้อน = ก้อนไม่ได้อยู่ที่ hilum → anterior/posterior mediastinum) · <b>Silhouette sign</b>: ขอบหัวใจหาย = anterior mediastinum · Trachea อาจถูกดัน/กด · <b>Lungs</b>: มองหา nodules (metastasis), effusion · Bones ปกติ · (Lateral: ก้อนอยู่ในช่อง retrosternal)",
    pts:[CR(P("Widened (anterior) mediastinum / mediastinal mass","mediastin","widen","anterior","mass","ก้อน")),P("Hilum overlay / silhouette sign บอกตำแหน่ง","hilum overlay","hilar overlay","silhouette"),P("Trachea / lungs (nodules, effusion)","trachea","nodule","effusion","metasta")]}),
   B("5.2 Give 3 differential diagnoses.",2,{tags:["img"],key:"Admission round germ cell tumor (จากไฟล์)",
@@ -258,8 +258,8 @@ Do({page:3,orig:"5",topic:"img",title:"CXR — 30-year-old man with dyspnea, no 
  interp:"ชายหนุ่ม + ก้อน mediastinum + อัณฑะปกติ → extragonadal germ cell tumor (DDx: lymphoma, thymoma)",
  summary:["Anterior: thymoma, teratoma/GCT, lymphoma, thyroid · Middle: LN, bronchogenic cyst · Posterior: neurogenic tumor","GCT markers: AFP (nonseminoma), β-hCG, LDH · AFP สูง = ไม่ใช่ pure seminoma","Anterior mediastinal mass → ระวัง airway compression ตอนดมยา"]}),
 
-Do({page:3,orig:"6",seen:"CT brain cerebellar hemorrhage เช่นกัน: MDCU77 RoD ข้อ 7",topic:"img",title:"CT brain — 70-year-old man with severe headache then drowsiness",imgNote:NOIMG,
- stem:`A 70-year-old man presents with a severe headache that began 2.5 hours before arrival and is now becoming drowsy.<br>1. Read the CT brain systematically. (Describe the expected findings.)<br>2. Diagnosis.`,
+Do({page:3,orig:"6",seen:"CT brain cerebellar hemorrhage เช่นกัน: MDCU77 RoD ข้อ 7",topic:"img",title:"CT brain — 70-year-old man with severe headache then drowsiness",imgNote:NOIMG,imgAlt:"CT สมองไม่ฉีดสี: ก้อนเงาขาวสว่างขอบชัดขนาด ~3 cm ในซีกขวาของสมองน้อย มีขอบดำบางรอบก้อน ventricle ที่ 4 ถูกเบียดแคบ · มีเส้นขาวบางตามแนวร่องกลางระหว่างสมองสองซีก (falx) · ventricle ข้างเริ่มโตเล็กน้อย",
+ stem:`A 70-year-old man presents with a severe headache that began 2.5 hours before arrival and is now becoming drowsy.<br>1. Read the CT brain systematically.<br>2. Diagnosis.`,
  gray:"6 CT brain ผู้ป่วยชาย 70 ปี ปวดหัวมาก 2.5 ชม. ก่อนมา รพ. ตอนนี้ซึมลง 1. จงอ่าน CT brain อย่างเป็นระบบ 2. Diagnosis (CT brain non contrast Hemorrhage at right cerebellar, subarachnoid hemorrhage at falx cerebri)",
  key:"CT brain non contrast · Hemorrhage at right cerebellar, subarachnoid hemorrhage at falx cerebri (จากไฟล์)",
  flag:"⚠ ไม่มีรูป CT ในไฟล์ — ไฟล์จดคำตอบไว้ ข้อนี้ฝึกบรรยายภาพตามคำตอบนั้น",
@@ -286,8 +286,8 @@ Do({page:3,orig:"7",seen:"MDCU77 RoC ข้อ 6 (สถานีเดียว
  interp:"Jaundice + hepatomegaly + AST:ALT >2 + albumin ต่ำ globulin สูง = alcoholic hepatitis บน chronic liver disease",
  summary:["AST:ALT >2 (AST <400) → alcohol · ALT >1,000 → virus/ischemia/drug (paracetamol)","R factor = (ALT/ULN)/(ALP/ULN): >5 hepatocellular, <2 cholestatic, 2–5 mixed","Severe AH (MDF ≥32, MELD >20) → prednisolone"]}),
 
-Do({page:3,orig:"8",topic:"micro",title:"Peripheral blood smear — Myanmar man with fever and chills",imgNote:NOIMG,
- stem:`A 30-year-old man from Myanmar presents with fever and chills for 3 days before coming to the hospital.<br>1. Read the peripheral blood smear systematically — RBC, WBC, platelets. (Describe the expected findings.)<br>2. Diagnosis.`,
+Do({page:3,orig:"8",topic:"micro",title:"Peripheral blood smear — Myanmar man with fever and chills",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงส่วนใหญ่ขนาดและสีปกติ · บางเซลล์ที่ติดเชื้อมีขนาดใหญ่กว่าเซลล์รอบข้าง สีซีด มีจุดชมพูละเอียดทั่วเซลล์ ภายในมีตัวเชื้อรูปร่างไม่แน่นอนแผ่เป็นเส้นสาย มีจุดโครมาตินแดง 1 จุด บางเซลล์มีเชื้อแบ่งเป็น 12–16 ก้อนเล็ก · เม็ดเลือดขาวและเกล็ดเลือดปกติ",
+ stem:`A 30-year-old man from Myanmar presents with fever and chills for 3 days before coming to the hospital.<br>1. Read the peripheral blood smear systematically — RBC, WBC, platelets.<br>2. Diagnosis.`,
  gray:"8 PBS ผู้ป่วยชายเมียนม่า อายุ 30 ปี มาด้วยไข้หนาวสั่น 3 วันก่อนมา รพ. 1. อ่าน PBS แบบเป็นระบบ ทั้ง RBC, WBC, platelet 2. Diagnosis (Plasmodium vivax)",
  key:"Plasmodium vivax (จากไฟล์)",
  flag:"⚠ ไม่มีรูป PBS ในไฟล์ — ไฟล์จดคำตอบว่า P. vivax ข้อนี้ฝึกบรรยายภาพตามคำตอบ",
@@ -302,7 +302,7 @@ Do({page:3,orig:"8",topic:"micro",title:"Peripheral blood smear — Myanmar man 
  interp:"ไข้หนาวสั่นในแรงงานจากชายแดน → PBS: RBC โต + Schüffner dots + ทุกระยะ = P. vivax",
  summary:["P. vivax/ovale: RBC โต Schüffner dots, hypnozoite → primaquine","P. falciparum: RBC ขนาดปกติ, multiple rings, banana gametocyte, ไม่เห็น schizont, Maurer clefts","P. malariae: band form, rosette schizont","P. knowlesi: คล้าย malariae แต่ parasitemia สูง (ภาคใต้ไทย ลิงแสม)"]}),
 
-Do({page:4,orig:"9",seen:"MDCU77 RoD ข้อ 10 (สถานีเดียวกัน: thyroid scan Graves + cold nodule)",topic:"img",title:"Thyroid scan — Graves disease with a cold nodule",imgNote:NOIMG,
+Do({page:4,orig:"9",seen:"MDCU77 RoD ข้อ 10 (สถานีเดียวกัน: thyroid scan Graves + cold nodule)",topic:"img",title:"Thyroid scan — Graves disease with a cold nodule",imgNote:NOIMG,imgAlt:"Thyroid scan: ต่อมโตทั้งสองกลีบ จับสารเข้มสม่ำเสมอทั่วต่อม ยกเว้นบริเวณกลมขนาด ~2 cm ในกลีบซ้ายที่ไม่จับสารเลย",
  stem:`A thyroid scan shows a diffusely enlarged thyroid with homogeneously increased uptake, with a focal area of absent uptake (cold nodule).<br>1. Diagnosis.<br>2. Treatment.`,
  gray:"9 Thyroid scan ตรวจเจอ grave with cold nodule 1. Diagnosis 2. Treatment",
  flag:"⚠ ไม่มีรูป thyroid scan ในไฟล์ — Claude บรรยายภาพใน stem ตามที่ไฟล์บอก (Graves + cold nodule)",

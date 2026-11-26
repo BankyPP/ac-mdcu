@@ -115,7 +115,7 @@ Co({page:6,orig:"8",topic:"spot",sub:"Uro/Genital",img:["mo6_i9"],title:"Diagnos
 /* ===== OSCE 9 ===== */
 Co({page:6,orig:"9",topic:"inst",sub:"Suture materials",title:"Suture materials",
  stem:`Suture packets are shown. Name each suture, its type, and a typical use.`,
- gray:"9. ออกเรื่องไหม ก็ตรงแอค ไปท่องซะ",flag:NOIMG,imgAlt:"ซองไหมหลายชนิด",
+ gray:"9. ออกเรื่องไหม ก็ตรงแอค ไปท่องซะ",flag:NOIMG,imgAlt:"ซองไหมวางเรียง 5 ซอง เห็นชื่อยี่ห้อ: VICRYL (ซองม่วง) · PDS II (ซองเทา-ม่วง) · PROLENE (ซองน้ำเงิน) · MERSILK (ซองดำ) · ETHILON (ซองเขียวน้ำทะเล)",
  notes:"ไม่มีไฟล์เฉลย · ไฟล์บอกเพียงว่าออกเรื่องไหมตรงแอค",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   B("9.1 Sutures and uses.",6,{tags:["inst"],ans:"<b>Vicryl (polyglactin)</b> absorbable braided — ผูกเส้นเลือด, เย็บ subcutaneous, ลำไส้ชั้นใน · <b>PDS</b> absorbable monofilament — ปิด fascia, ลำไส้ · <b>Monocryl</b> absorbable monofilament — subcuticular · <b>Chromic catgut</b> — mucosa, ฝีเย็บ · <b>Silk</b> non-absorbable braided — ผูก, ยึดท่อระบาย · <b>Nylon</b> non-absorbable monofilament — เย็บผิวหนัง · <b>Prolene</b> non-absorbable monofilament — vascular anastomosis, hernia mesh, fascia",rubric:"1/ชนิด",pts:[CR(P("Vicryl: absorbable braided","vicryl","polyglactin")),P("PDS or Monocryl: absorbable monofilament","pds","monocryl"),P("Chromic catgut","catgut","chromic"),P("Silk: non-absorbable braided","silk"),CR(P("Nylon: skin","nylon")),CR(P("Prolene: vascular, hernia","prolene","polypropylene"))]})

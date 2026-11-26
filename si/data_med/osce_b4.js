@@ -41,7 +41,7 @@ Co({page:2,sec:"LAB",orig:"LAB 1",topic:"micro",sub:"Malaria",title:"Fever with 
  interp:"สถานีสไลด์: ไข้ + ตับโต + ดีซ่าน + Plt/WBC ต่ำ + ring form หลายตัวใน RBC = malaria จาก P. falciparum",
  summary:["P. falciparum: ring เล็ก double chromatin dots, หลายตัวต่อ RBC, accolé form, RBC ไม่โต","Plt ต่ำ + WBC ต่ำ + ดีซ่านในผู้ป่วยไข้จากพื้นที่ระบาด → นึกถึง malaria","Jaundice + parasitemia &gt; 100,000/µL = severe malaria → IV artesunate"]}),
 
-Co({page:3,sec:"LAB",orig:"LAB 2",topic:"ekg",sub:"Electrolyte EKG",title:"CKD stage 4 with abnormal electrolytes — EKG",imgNote:NOIMG,
+Co({page:3,sec:"LAB",orig:"LAB 2",topic:"ekg",sub:"Electrolyte EKG",title:"CKD stage 4 with abnormal electrolytes — EKG",imgNote:NOIMG,imgAlt:"EKG 12 lead: sinus rhythm · T wave สูงแหลมฐานแคบในหลาย lead · PR ยาว · QRS กว้างขึ้น ~130 ms · R ใน V5–V6 สูงมากร่วมกับ S ลึกใน V1–V2",
  stem:`A man with diabetes mellitus, hypertension and chronic kidney disease stage 4 has an abnormal serum electrolyte result. His 12-lead EKG is shown. Describe the EKG and give the diagnosis.`,
  gray:"2 ผป.ชาย DM, HT, CKD stage 4 มีผล electrolyte จงบรรยาย EKG · -sinus rhythm, diffuse Tall peak T wave, prolonged PR interval, wide QRS complex, LV hypertrophy · -Diagnosis(20 points) hyperkalemia",
  flag:"⚠ NOIMG — ไฟล์ไม่มีรูป EKG (มีแต่ข้อความบรรยายคำตอบ) ข้อนี้ให้บรรยายสิ่งที่คาดว่าจะเห็น · ไม่ทราบค่า electrolyte ที่โจทย์ให้ (ไฟล์ไม่ระบุ) จึงไม่ใส่ตัวเลข",
@@ -104,7 +104,7 @@ Co({page:3,sec:"LAB",orig:"LAB 4",topic:"img",sub:"Skull film",title:"Fatigue fo
  interp:"สถานีรูป: punched-out lytic lesion ที่กะโหลก + อ่อนเพลีย = multiple myeloma — ตรวจตาม CRAB",
  summary:["Punched-out lytic lesions ไม่มี sclerotic rim = myeloma","CRAB: Ca สูง, Renal, Anemia, Bone","ตรวจ: BM study, SPEP/UPEP + immunofixation, Cr, Ca, CBC, skeletal survey"]}),
 
-Co({page:3,sec:"LAB",orig:"LAB 5",topic:"img",sub:"CXR",title:"Diabetes with an upper-zone infiltrate — differential diagnosis",imgNote:NOIMG,
+Co({page:3,sec:"LAB",orig:"LAB 5",topic:"img",sub:"CXR",title:"Diabetes with an upper-zone infiltrate — differential diagnosis",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ปอดขวาส่วนบนมีเงาฝ้าขาวเป็นหย่อม ขอบล่างของเงาตรงกับแนวร่องแบ่งกลีบแนวนอน ไม่เห็นโพรงชัด",
  stem:`A patient with diabetes mellitus (HbA1c 9%) has a chest radiograph showing infiltration in the right upper lobe, suspicious for pneumonia. Give the differential diagnosis and the investigations you would order.`,
  gray:"5. เป็น DM HbA1c 9% CXR มี infiltration RUL sus. Pneumonia. Differential diag TB, K. pneumoniae, B. pseudomallei (ผู้จดขีดทิ้ง) · Investigation (ไฮไลต์ฟ้า) sputum AFB, C/S, PCR for TB",
  flag:"⚠ NOIMG — ไฟล์ไม่มีรูป CXR (โจทย์เล่าผลเป็นข้อความ) ข้อนี้ใช้ข้อความโจทย์เป็นหลัก · ผู้จดขีดรายการ ddx ทิ้งแล้วเขียนอธิบายด้วยลายมือแทน (ดูใน notes) จึงยึดตามลายมือร่วมกับรายการพิมพ์",
@@ -123,8 +123,8 @@ Co({page:3,sec:"LAB",orig:"LAB 5",topic:"img",sub:"CXR",title:"Diabetes with an 
  interp:"สถานี CXR (ข้อความ): DM คุมไม่ดี + RUL infiltration → ddx pneumonia (K. pneumoniae, B. pseudomallei, S. pneumoniae) และ TB",
  summary:["DM: เสี่ยง TB, melioidosis, Klebsiella pneumonia","ระยะเวลาอาการช่วยแยก bacterial เฉียบพลัน vs TB/melioidosis เรื้อรัง","ส่ง sputum AFB + Xpert + Gram/culture ± hemoculture"]}),
 
-Co({page:3,sec:"LAB",orig:"LAB 6",topic:"img",sub:"CXR",title:"Right pleuritic chest pain — chest film",imgNote:NOIMG,
- stem:`A patient presents with right-sided chest pain on inspiration. A chest radiograph is obtained. Describe the findings you would expect and give the diagnosis.`,
+Co({page:3,sec:"LAB",orig:"LAB 6",topic:"img",sub:"CXR",title:"Right pleuritic chest pain — chest film",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ส่วนล่างของทรวงอกขวาทึบขาวเนื้อเดียว ขอบบนเว้าสูงขึ้นทางด้านข้าง มุมชายโครงขวาหายไป · ปอดขวาส่วนบนมีเงาฝ้าเป็นหย่อม",
+ stem:`A patient presents with right-sided chest pain on inspiration. A chest radiograph is obtained. Describe the findings and give the diagnosis.`,
  gray:"6. Film chest เจ็บหน้าอกด้านขวาเวลาหายใจเข้า Right pleural effusion, RUL infiltration, Parapneumonic effusion TB",
  flag:"⚠ NOIMG — ไฟล์ไม่มีรูป CXR (ไฟล์เขียนแค่คำตอบ) ข้อนี้ให้บรรยายสิ่งที่คาดว่าจะเห็น · ไฟล์เขียน \"Parapneumonic effusion TB\" ไม่ชัดว่าเป็น dx หรือ ddx — Claude ถือว่า Parapneumonic effusion เป็น dx หลัก และ TB เป็น ddx",
  notes:"ลายมือน้ำเงิน: <i>right pleuritic chest pain</i> (ใต้ \"Parapneumonic effusion TB\") · ไฮไลต์ฟ้า: Right pleural effusion, RUL infiltration",

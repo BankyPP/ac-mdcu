@@ -89,7 +89,7 @@ Co({page:247,orig:"3",topic:"pe",sub:"Neuro motor/reflex",ex:1,title:"Physical e
 
 /* ===== สถานี 4 ===== */
 Co({page:247,orig:"4",topic:"img",sub:"Mammogram",title:"Breast imaging — name, views, abnormality and further investigation",kimg:["os66c_k4"],seen:"คล้าย MDCU67 RoC OSCE 4 (mammogram 4 คำถามเดียวกัน)",
- imgAlt:"ภาพ X-ray เต้านมสองท่าของผู้ป่วยหญิง (ไฟล์ไม่มีรูป)",
+ imgAlt:"Mammogram เต้านมข้างเดียว 2 ภาพ (บน-ล่าง และเฉียงเห็นกล้ามเนื้อ pectoralis) · ส่วนบนด้านนอกมีกลุ่มจุดหินปูนเล็กละเอียดหลายรูปทรงกระจุกกัน และเงาทึบความหนาแน่นสูงขอบไม่ชัดตรงตำแหน่งเดียวกัน",
  stem:`Breast radiographs in two projections are shown.<br>4.1 What is this investigation called?<br>4.2 Which views are shown?<br>4.3 Describe the abnormality and state its location.<br>4.4 What further investigation would you request?`,
  gray:"4. mammogram 4.1 การตรวจนี้เรียกว่าอะไร 4.2 เป็นการตรวจในท่าใดบ้าง (mediolateralobligue view, craniocaudal view) 4.3 จงบรรยายลักษณะความผิดปกติที่ตรวจพบ และระบุตำแหน่งของความผิดปกติ (clusters of microcalcification, hyperdensity lesion) 4.4 จะส่งตรวจอะไรเพิ่มเติม",
  flag:NOIMG+" · ไฟล์ไม่มีรูป ตำแหน่งรอยโรคไม่ทราบ",
@@ -145,7 +145,7 @@ Co({page:247,orig:"5",topic:"pe",sub:"DRE/Prostate",ex:1,title:"Physical examina
 
 /* ===== สถานี 6 ===== */
 Co({page:248,orig:"6",topic:"img",sub:"IVP/KUB",title:"Contrast urography — name, describe, diagnose, treat",kimg:["os66c_k6"],
- imgAlt:"ชุดฟิล์ม IVP ของผู้ป่วยผู้ใหญ่ ให้เรียงลำดับเอง ฟิล์มท้ายมีสารทึบรังสีเต็มกระเพาะปัสสาวะ (ภาพในไฟล์มีป้ายคำตอบกำกับ จึงเก็บไว้ในเฉลย)",
+ imgAlt:"ชุดฟิล์ม IVP ที่ต้องเรียงเอง: scout film ไม่มีเงาทึบรังสี · ไตสองข้างขับสารปกติ ไม่มี hydronephrosis · ฟิล์มท้ายที่สารเต็ม bladder เห็นรอยเว้าขอบขรุขระไม่เรียบยื่นเข้าไปใน bladder ด้านซ้าย ขนาด ~3 cm (ผู้ป่วยชายสูงอายุสูบบุหรี่ ปัสสาวะเป็นเลือดไม่เจ็บ)",
  stem:`A series of urographic films is provided; arrange them in order.<br>6.1 What is this investigation called?<br>6.2 Describe the abnormality.<br>6.3 What is the diagnosis?<br>6.4 Outline the treatment.`,
  opinion:"ชื่อการตรวจและ dx (CA urinary bladder) ตรงกับไฟล์ ส่วนการบรรยายและการรักษาไม่มีเฉลยในไฟล์ (เราเฉลยเอง) — มั่นใจ<b>สูง</b>ใน dx เพราะรูปเฉลยมีป้าย Tumour ชี้ แต่ข้อสอบจริงให้ทั้ง series ต้องเรียงเอง ส่วนนี้เรามีแค่ฟิล์มเดียว<br>ผู้คุมให้คะแนน: บอกว่าเป็น irregular filling defect ใน bladder, ดู upper tract (hydronephrosis ข้างเดียวกันบ่งว่าลุกลาม), ยืนยันด้วย cystoscopy + TURBT ที่ต้องได้ detrusor muscle · การรักษาแบ่งตาม muscle invasion: NMIBC → TURBT + intravesical chemo/BCG, MIBC → neoadjuvant cisplatin-based chemo + radical cystectomy (สอดคล้อง EAU guidelines ฉบับปัจจุบัน) · จุดพลาด: ไม่แยก NMIBC กับ MIBC · ตรวจคีย์ (22 พ.ย. 2026): ข้อบ่งชี้ re-TURBT ตาม EAU: T1, resection ไม่ครบ, ไม่มี detrusor muscle · AUA: พิจารณา HG Ta · ความมั่นใจสูง",
  gray:"6. IVP (ให้ฟิล์ม IVP series มา ต้องเรียงดูเอง) 6.1 การตรวจนี้มีชื่อว่าอะไร 6.2 จงบรรยายความผิดปกติที่ตรวจพบ 6.3 จงให้การวินิจฉัย (CA urinary bladder) 6.4 วิธีการรักษา",
@@ -228,7 +228,7 @@ Co({page:249,orig:"8",topic:"img",sub:"Contrast GI study",title:"Contrast study 
 
 /* ===== สถานี 9 ===== */
 Co({page:249,orig:"9",topic:"inst",sub:"Surgical instrument",title:"Four surgical instruments — name and function",kimg:["os66c_k9"],seen:"คล้าย MDCU67 RoC OSCE 7 (Richardson retractor, Babcock forceps)",
- imgAlt:"เครื่องมือผ่าตัด 4 ชิ้น (9.1–9.4) วางให้ดูทีละชิ้น — ไฟล์ไม่มีรูป",
+ imgAlt:"เครื่องมือ 4 ชิ้น: 9.1 retractor มือถือใบกว้างงอลึกรูปตัว L ใบโค้ง · 9.2 ด้ามห่วงมีล็อก ปลายบานเล็กน้อยมีฟันสั้นหลายซี่ขบกัน · 9.3 ด้ามห่วงมีล็อก ปลายเป็นห่วงสามเหลี่ยมกว้างมีช่องตรงกลาง ไม่มีฟัน · 9.4 ด้ามห่วงสั้น ปลายเป็นขอแหลมโค้งเข้าหากัน",
  stem:`Four surgical instruments (9.1–9.4) are presented. Name each instrument and state its function.`,
  gray:"9. จงบอกชื่อเครื่องมือดังต่อไปนี้ และบอกหน้าที่ 9.1 Richardson retractor 9.2 Allis tissue forcep 9.3 Babcock forcep 9.4 Backhaus towel clip",
  flag:NOIMG+" · ไฟล์บอกชื่อเครื่องมือ (= คำตอบ) ไว้ในคำถาม ไม่มีรูป",
@@ -269,7 +269,7 @@ Co({page:249,orig:"10",topic:"path",sub:"Breast cancer staging",title:"Breast ca
 
 /* ===== สถานี 11 ===== */
 Co({page:249,orig:"11",topic:"inst",sub:"Drain",title:"Two surgical drains — name and operations in which they are used",kimg:["os66c_k11"],seen:"คล้าย MDCU67 RoC OSCE 10 (Redivac, Penrose drain)",
- imgAlt:"อุปกรณ์ระบายในการผ่าตัด 2 ชนิด (11.1, 11.2) — ไฟล์ไม่มีรูป",
+ imgAlt:"อุปกรณ์ระบาย 2 ชิ้น: 11.1 สายซิลิโคนแบนมีรูต่อกับลูกยางใสรูปไข่ที่บีบแฟบแล้วปิดจุก · 11.2 ท่อยางลาเท็กซ์แบนนิ่มผนังบาง ปลายเปิดทั้งสองด้าน ไม่มีที่เก็บ",
  stem:`Two surgical drains (11.1 and 11.2) are presented. Name each device and give two operations in which it is used.`,
  gray:"11. บอกชื่ออุปกรณ์ต่อไปนี้ และบอกการผ่าตัดที่ใช้อุปกรณ์ดังกล่าวมา 2 ชื่อ 11.1 Jackson-Pratt drain 11.2 Penrose drain",
  flag:NOIMG+" · ไฟล์บอกชื่ออุปกรณ์ (= คำตอบ) ไว้ในคำถาม ไม่มีรูป",
@@ -291,7 +291,7 @@ Co({page:249,orig:"11",topic:"inst",sub:"Drain",title:"Two surgical drains — n
 
 /* ===== สถานี 12 ===== */
 Co({page:249,orig:"12",topic:"suture",sub:"Suture material",title:"Three suture materials — name, classify, uses, skin closure",kimg:["os66c_k12"],seen:"คล้าย MDCU67 RoC OSCE 12 (nylon/catgut/silk)",
- imgAlt:"ไหมเย็บแผล 3 ชนิด ชนิดแรกอยู่ในซอง (ไฟล์ไม่มีรูป)",
+ imgAlt:"ไหม 3 ชนิด: (1) อยู่ในซองที่พิมพ์ว่า PROLENE ไหมสีน้ำเงินเส้นเดี่ยว (2) ไหมสีน้ำตาลเหลืองบิดเกลียวเปียกน้ำยา (3) ไหมสีดำถักเกลียวเป็นเส้นยาวไม่มีเข็ม",
  stem:`Three suture materials are presented (one in its packet).<br>12.1 Give the generic name of each suture.<br>12.2 Classify each: natural/synthetic, multifilament/monofilament, absorbable/non-absorbable.<br>12.3 What can each be used for?<br>12.4 Which can be used to suture skin? (more than one answer is possible)`,
  gray:"12. ให้ suture มา 3 ชนิดคือ Prolene มาพร้อมซอง, Chromic catgut, และ silk 14.1 บอก Generic name ของไหมที่ให้ 14.2 ทำจากวัสดุอะไร natural/synthetic, multi/monofilament, absorb/non-absorbable 14.3 ใช้เย็บอะไรได้บ้าง 14.4 ชนิดไหนใช้เย็บผิวหนังได้ (อาจมีคำตอบได้มากกว่า 1 ชนิด)",
  flag:NOIMG+" · ไฟล์บอกชื่อไหม (= คำตอบ) ไว้ในคำถาม · ⚠ 12.4 เส้นปากกาแดงในไฟล์ไม่ชัด",

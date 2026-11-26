@@ -23,8 +23,8 @@ const Co=o=>Object.assign({set:"SI131",ro:"Ro409–412",file:"SIOS131C",opinion:
 QB.push(
 
 /* ===== สถานี 1 ===== */
-Co({page:7, orig:"1", topic:"micro", sub:"Gram stain", title:"Fever and cough — sputum Gram stain", imgNote:NOIMG,
-  stem:`A patient presents with fever and cough. A Gram-stained smear of the sputum is examined under the microscope. Describe the findings you would expect and name the organism (spell it correctly).`,
+Co({page:7, orig:"1", topic:"micro", sub:"Gram stain", title:"Fever and cough — sputum Gram stain", imgNote:NOIMG,imgAlt:"Gram stain เสมหะ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก เซลล์เยื่อบุผิวแบนน้อย · แท่งใหญ่อ้วนติดสีชมพูแดง รอบตัวเชื้อมีวงใสหนา",
+  stem:`A patient presents with fever and cough. A Gram-stained smear of the sputum is examined under the microscope. Describe the findings and name the organism (spell it correctly).`,
   gray:"1. ให้ clinical ผู้ป่วยมาว่ามีไข้, ไอ · Gram stain sputum: เจอ Large Gram neg bacilli with capsule · ถาม บรรยายสิ่งที่เจอ, เชื้ออะไรสะกดให้ถูก · ตอบ adequate sputum, Large Gram neg bacilli with capsule · Klebsiella pneumoniae",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น",
   notes:"ไฟล์ขีดเส้นใต้ชื่อเชื้อ Klebsiella pneumoniae (เน้นว่าต้องสะกดให้ถูก)",
@@ -43,7 +43,7 @@ Co({page:7, orig:"1", topic:"micro", sub:"Gram stain", title:"Fever and cough �
   summary:["Adequate sputum = PMN > 25 และ squamous epithelial < 10 ต่อ LPF","Large GNB with capsule = Klebsiella pneumoniae (DM, alcoholism, currant-jelly sputum, upper lobe, abscess)","ต้องสะกดชื่อเชื้อให้ถูก: Klebsiella pneumoniae"]}),
 
 /* ===== สถานี 2 ===== */
-Co({page:7, orig:"2", topic:"micro", sub:"PBS", title:"Peripheral blood smear — describe, diagnose and investigate", imgNote:NOIMG,
+Co({page:7, orig:"2", topic:"micro", sub:"PBS", title:"Peripheral blood smear — describe, diagnose and investigate", imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดสีปกติ มีเม็ดเลือดแดงที่ยังมีนิวเคลียสบ้าง · เม็ดเลือดขาวเกือบทั้งหมดเป็นเซลล์ตัวใหญ่ นิวเคลียสใหญ่โครมาตินละเอียด มี nucleoli ชัด ไซโทพลาสซึมน้อย บางเซลล์มีแกรนูลและแท่งเข็มสีแดง · เกล็ดเลือดแทบไม่เห็น",
   seen:"SI130 Ro409–412 ข้อ 20 (AML — BM study, flow cytometry) · คล้าย SI133 Ro405–406 ข้อ 14 และ SIXX RoX ข้อ 3",
   stem:`A peripheral blood smear is shown under the microscope. Describe the blood smear (RBC, WBC, platelets), give the diagnosis and state the investigations you would request next.`,
   gray:"2. Blood smear: เจอ NCNC, NRC, numerous blast, inadequate plt · ถามบรรยาย blood smear, diagnosis, ส่ง investigation อะไรต่อ · ตอบ AML (ตอบแค่ acute leukemia ได้คะแนนน้อยกว่า) · BM biopsy, flow cytometry",
@@ -162,7 +162,7 @@ Co({page:8, orig:"6", topic:"pe", sub:"Precordium", ex:1, title:"Physical examin
   summary:["Precordium: inspection → palpation (apex, heave, thrill) → auscultation ทุก area ทั้ง bell และ diaphragm","เจ็บหน้าอก: ตรวจ precordium ปกติไม่ตัด ACS → EKG ภายใน 10 นาที + troponin","คิดถึง AS, pericardial rub, BP แขน 2 ข้าง (dissection)"]}),
 
 /* ===== สถานี 7 ===== */
-Co({page:8, orig:"7", topic:"ekg", sub:"Tachyarrhythmia", title:"12-lead EKG — interpret the tracing", imgNote:NOIMG,
+Co({page:8, orig:"7", topic:"ekg", sub:"Tachyarrhythmia", title:"12-lead EKG — interpret the tracing", imgNote:NOIMG,imgAlt:"EKG 12 lead: ไม่เห็น P wave เส้นฐานสั่นละเอียดไม่สม่ำเสมอ · R–R ไม่สม่ำเสมอแบบไร้รูปแบบ ventricular rate ~110/min · QRS แคบ axis ปกติ",
   seen:"SI130 Ro409–412 ข้อ 19 (EKG: atrial fibrillation)",
   stem:`A 12-lead EKG is shown. Interpret the EKG (rate, rhythm, axis, waves and intervals) and give your diagnosis.`,
   gray:"7. อ่าน EKG · ตอบ AF",
@@ -181,7 +181,7 @@ Co({page:8, orig:"7", topic:"ekg", sub:"Tachyarrhythmia", title:"12-lead EKG —
   summary:["AF: irregularly irregular R-R, ไม่มี P wave, มี f waves, QRS มักแคบ","Unstable → synchronized cardioversion · stable → rate control","CHA₂DS₂-VASc ชาย ≥ 2 / หญิง ≥ 3 → anticoagulant (DOAC เป็นหลัก)"]}),
 
 /* ===== สถานี 8 ===== */
-Co({page:8, orig:"8", topic:"micro", sub:"UA", title:"Urine sediment under the microscope", imgNote:NOIMG,
+Co({page:8, orig:"8", topic:"micro", sub:"UA", title:"Urine sediment under the microscope", imgNote:NOIMG,imgAlt:"ภาพตะกอนปัสสาวะ: เซลล์กลมเต็มไปด้วยหยดไขมันวาว · โครงทรงกระบอกที่มีหยดไขมันภายใน",
   stem:`A urine sediment is examined under the microscope. Describe what you see and give four differential diagnoses.`,
   gray:"8. ส่องกล้องจุลทรรศน์ urine sediment เจอ Oval fat body, fatty cast · ถามว่าเจออะไร, ddx มา 4 โรค · ตอบ Oval fat body, fatty cast · Ddx. Nephrotic syndrome (membranous nephropathy, FSGN, Diabetic nephropathy, amyloidosis)",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์ไม่ให้ประวัติ",
@@ -308,7 +308,7 @@ Co({page:10, orig:"13", topic:"proc", sub:"Blood transfusion", ex:1, proc:1, tit
   summary:["ก่อนให้: consent, order, premed, คุณภาพถุง (สี clot รั่ว หมดอายุ)","Double check กับพยาบาล: ชื่อ HN, unit no., หมู่เลือด, ใบคล้องติดถุง — ไม่ตรง = ขอถุงใหม่","ข้างเตียง: ป้ายข้อมือ, อธิบาย ADR, VS ก่อนเริ่มและหลังเริ่ม 5–15 นาที"]}),
 
 /* ===== สถานี 14 ===== */
-Co({page:10, orig:"14", topic:"skin", sub:"Drug eruption", title:"Rash and facial swelling after several medications", imgNote:NOIMG,
+Co({page:10, orig:"14", topic:"skin", sub:"Drug eruption", title:"Rash and facial swelling after several medications", imgNote:NOIMG,imgAlt:"หลังทำฟัน: ใบหน้าบวม ริมฝีปากและหนังตาบวมเป่งไม่มีขอบชัด · ลำตัวและแขนมีผื่นนูนแดงเป็นปื้นขอบชัดรูปร่างหลากหลาย ตรงกลางซีด บางปื้นรวมกันเป็นแผ่นใหญ่ ผู้ป่วยคันมาก",
   stem:`A 30-year-old woman had a tooth extracted under local anaesthesia (lidocaine) and was prescribed ibuprofen and amoxicillin. A few hours after taking the medications she developed an itchy rash all over her body and facial swelling. She has no dyspnea and her vital signs are stable.<br>1. Describe the skin lesions.<br>2. What is the likely cause?<br>3. What would you advise the patient?`,
   gray:"14. ให้ประวัติยาวๆมา แบบได้ยาชา ยา nsaid ATB แล้วมีผื่นขึ้น หน้าบวม · ถาม ให้บรรยาย lesion, สาเหตุจากอะไร, จะแนะนำผู้ป่วยอะไร · ตอบ Urticaria, angioedema · จากยาชา atb nsaid ได้หมดเลย · แนะนำ 2nd gen antiH, ออกบัตรแพ้ยา",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์บอกแค่ \"ประวัติยาว ๆ ได้ยาชา ยา NSAID ATB\" — อายุ เพศ หัตถการ ชื่อยา และเวลาเริ่มผื่น Claude แต่ง",
@@ -331,7 +331,7 @@ Co({page:10, orig:"14", topic:"skin", sub:"Drug eruption", title:"Rash and facia
   summary:["Urticaria = erythematous edematous wheals หายใน 24 ชม.; angioedema = บวมลึก non-pitting ที่หน้า/ปาก","NSAIDs และ beta-lactam เป็นสาเหตุที่พบบ่อย; แพ้ยาชาจริงพบน้อย","Tx: หยุดยา, 2nd-gen antihistamine, บัตรแพ้ยา, สอนอาการ anaphylaxis (epinephrine IM)"]}),
 
 /* ===== สถานี 15 ===== */
-Co({page:10, orig:"15", topic:"micro", sub:"Stool exam", title:"Stool examination under the microscope", imgNote:NOIMG,
+Co({page:10, orig:"15", topic:"micro", sub:"Stool exam", title:"Stool examination under the microscope", imgNote:NOIMG,imgAlt:"Simple smear อุจจาระ: ไข่ขนาดเล็กมาก (~30 µm) รูปคล้ายหลอดไฟ สีเหลืองน้ำตาล ด้านแคบมีฝาปิดและขอบไหล่นูนรับฝา ปลายอีกด้านมีปุ่มเล็ก",
   stem:`A stool specimen is examined under the microscope. Describe what you see and identify the organism.`,
   gray:"15. ส่อง stool · ตอบ Small size egg with operculum, opistorchis viverrini",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์ไม่ให้ประวัติ · ข้อย่อย treatment Claude เติม · ไฟล์สะกด \"opistorchis\" — ที่ถูกคือ Opisthorchis",
@@ -412,7 +412,7 @@ Co({page:11, orig:"18", topic:"img", sub:"Bone/joint film", title:"Knee pain —
   summary:["Chondrocalcinosis = calcification ของ meniscus (สามเหลี่ยม/wedge) และ hyaline cartilage → CPPD","CPPD < 60 ปี: หา hyperparathyroidism, hemochromatosis, hypomagnesemia, hypophosphatasia","Acute CPP arthritis: rhomboid weakly positive birefringent crystals; ตัด septic arthritis ก่อน"]}),
 
 /* ===== สถานี 19 ===== */
-Co({page:11, orig:"19", topic:"micro", sub:"PBS", title:"Gum bleeding when brushing teeth — blood smear", imgNote:NOIMG,
+Co({page:11, orig:"19", topic:"micro", sub:"PBS", title:"Gum bleeding when brushing teeth — blood smear", imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดสีปกติ ไม่มีเศษเซลล์แตก · เม็ดเลือดขาวปกติ · เกล็ดเลือดน้อยมาก ที่เห็นมีขนาดใหญ่",
   seen:"SI133 Ro407–408 OSCE 7 (gum bleeding — ITP) · คล้าย SI133 Ro403–404 ข้อ 1 (เลือดออกขณะแปรงฟัน แต่เฉลยเป็น aplastic anemia)",
   stem:`A man notices bleeding from his gums when brushing his teeth. His peripheral blood smear is examined under the microscope. Describe the blood smear (RBC, WBC, platelets), give the diagnosis and state the investigations you would request.`,
   gray:"19. ผู้ป่วยชายแปรงฟันแล้วเลือดออก ให้ blood smear มา · ให้บรรยาย blood smear, diag, investigation · ตอบ ITP pbs, invx : stool cxr anti…",
@@ -459,7 +459,7 @@ Co({page:12, orig:"20", topic:"pe", sub:"Chronic liver sign", ex:1, title:"Physi
   summary:["Stigmata CLD: jaundice, parotid, spider nevi, palmar erythema, gynecomastia, testicular atrophy, asterixis","Portal HT: splenomegaly, ascites (shifting dullness, fluid thrill), caput medusae","ขออนุญาตก่อนตรวจอัณฑะ; shifting dullness ไวกว่า fluid thrill"]}),
 
 /* ===== สถานี 21 ===== */
-Co({page:12, orig:"21", topic:"micro", sub:"Gram stain", title:"Acute monoarthritis — synovial fluid Gram stain", imgNote:NOIMG,
+Co({page:12, orig:"21", topic:"micro", sub:"Gram stain", title:"Acute monoarthritis — synovial fluid Gram stain", imgNote:NOIMG,imgAlt:"Gram stain น้ำไขข้อ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · เชื้อกลมติดสีม่วงจับกันเป็นกลุ่มก้อนคล้ายพวงองุ่น",
   seen:"SI130 Ro409–412 ข้อ 1 และ SI132 Ro403–404 ข้อ 8 (synovial Gram stain — S. aureus)",
   stem:`A patient presents with acute pain and swelling of a single joint. A Gram-stained smear of the joint aspirate is examined under the microscope. Describe the findings and name the most likely organism.`,
   gray:"21. Clinical ปวดข้อข้างเดียว septic arthritis ให้ส่อง gram stain น้ำในข้อ · ตอบ Gram positive cocci in cluster, Staphylococcus aureus",
@@ -501,7 +501,7 @@ Co({page:12, orig:"22", topic:"hx", sub:"Neck mass", ex:1, title:"History taking
   summary:["ก้อนคอผู้ใหญ่ โตต่อเนื่อง ไม่เจ็บ = มะเร็งจนกว่าจะพิสูจน์ได้ว่าไม่ใช่","NPC: ก้อน upper jugular + คัดจมูก/เลือดกำเดา/หูอื้อข้างเดียวกัน (EBV, ปลาเค็ม)","Ddx: TB lymphadenitis (B symptoms, contact), lymphoma · Ix: nasopharyngoscopy + biopsy, FNA"]}),
 
 /* ===== สถานี 23 ===== */
-Co({page:12, orig:"23", topic:"lab", sub:"CSF", title:"CSF analysis and Gram stain", imgNote:NOIMG,
+Co({page:12, orig:"23", topic:"lab", sub:"CSF", title:"CSF analysis and Gram stain", imgNote:NOIMG,imgAlt:"สไลด์ Gram stain น้ำไขสันหลัง: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · เชื้อกลมรีปลายแหลมติดสีม่วงอยู่เป็นคู่",
   seen:"SI133 Ro407–408 OSCE 9 (CSF profile — acute bacterial meningitis)",
   stem:`A patient presents with fever, headache and stiff neck. Cerebrospinal fluid analysis shows:<br>Opening pressure 32 cmH₂O<br>Appearance: turbid<br>WBC 1,800 cells/µL (PMN 90%, lymphocytes 10%)<br>Protein 250 mg/dL<br>Glucose 20 mg/dL (blood glucose 110 mg/dL)<br>A Gram-stained smear of the CSF is also provided.<br>1. Interpret the CSF results and give the diagnosis.<br>2. Describe the Gram stain and name the likely organism.`,
   gray:"23. ให้ lab CSF มาแปรผล+ส่อง gram stain · ตอบ High protein low sugar inc wbc · pmn predominated · Acute bacterial meningitis (ในโพยมันไม่ต้องเขียนชื่อเชื้ออ่ะ แต่ส่องจริงเจอเป็นไรไม่รู้ ส่วนตัวหาไม่เจอ;-;)",
@@ -521,7 +521,7 @@ Co({page:12, orig:"23", topic:"lab", sub:"CSF", title:"CSF analysis and Gram sta
   summary:["Bacterial meningitis CSF: PMN สูง, protein สูง, glucose ต่ำ (ratio < 0.4), turbid","เชื้อผู้ใหญ่: S. pneumoniae (GP lancet diplococci), N. meningitidis (GN diplococci), S. suis (ไทย), Listeria (> 50 ปี)","Tx: ceftriaxone + vancomycin ± ampicillin + dexamethasone"]}),
 
 /* ===== สถานี 24 ===== */
-Co({page:12, orig:"24", topic:"micro", sub:"PBS", title:"Peripheral blood smear — describe and diagnose", imgNote:NOIMG,
+Co({page:12, orig:"24", topic:"micro", sub:"PBS", title:"Peripheral blood smear — describe and diagnose", imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงเล็ก ซีดตรงกลางกว้าง ขนาดและรูปร่างต่างกันมาก มีเซลล์รูปหยดน้ำ เซลล์ยาวคล้ายดินสอ เซลล์รูปเป้า และเซลล์ใหญ่สีม่วงอ่อนปน · เกล็ดเลือดพอเพียง",
   seen:"คล้าย SI133 Ro403–404 ข้อ 13 (thalassemia smear) — คนละโจทย์",
   stem:`A peripheral blood smear is examined under the microscope. Describe the blood smear (RBC, WBC, platelets) and give the diagnosis.`,
   gray:"24. ส่อง blood smear ให้บรรยาย, diag · Hypochromic microcytic anisopoikilocytosis polychromasia teardrop pencil · Plt adequate · Thal > iron def",

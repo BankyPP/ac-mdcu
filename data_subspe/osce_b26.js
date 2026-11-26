@@ -259,7 +259,7 @@ SA({page:3,orig:"MEQ 6",num:"SA 6",sub:"Vascular/Ulcer",title:"Short answer — 
 SA({page:3,orig:"MEQ 7",num:"SA 7",sub:"Mammogram",title:"Short answer — breast image view",
  stem:`A breast image (mammogram) is shown.<br>1. Name the view.<br>2. Describe the lesion.`,
  gray:"7. รูปนม ถาม view + describe lesion",
- flag:NOIMG,imgAlt:"Mammogram view MLO มีก้อนขอบไม่เรียบ",
+ flag:NOIMG,imgAlt:"Mammogram ภาพเดียว ถ่ายเฉียงเห็นแถบกล้ามเนื้อ pectoralis เป็นสามเหลี่ยมที่มุมบน · ส่วนบนของเต้านมมีก้อนความทึบสูงขนาด ~2 cm รูปร่างไม่สม่ำเสมอ ขอบเป็นแฉกแหลม",
  notes:"ไม่มีไฟล์เฉลย · ไม่รู้ภาพจริง",
  opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไม่มีไฟล์เฉลยและไม่มีรูป — ยืนยันจากแหล่งอ้างอิงไม่ได้ว่าภาพจริงเป็นอะไร คงเฉลยแบบกรอบ (MLO เห็น pectoralis, CC; บรรยายตาม ACR BI-RADS Atlas 5th ed.: location, size, shape, margin, density, calcification, associated features → category) · ความมั่นใจต่ำ",
  parts:S(
@@ -272,7 +272,7 @@ SA({page:3,orig:"MEQ 7",num:"SA 7",sub:"Mammogram",title:"Short answer — breas
 SA({page:3,orig:"MEQ 8",num:"SA 8",sub:"Head & neck",title:"Short answer — preauricular sinus",
  stem:`A child has a preauricular sinus. Outline the management.`,
  gray:"8. Preauricular sinus บอกแนวทางการรักษา",
- flag:NOIMG,imgAlt:"รูเล็กหน้าใบหู",
+ flag:NOIMG,imgAlt:"เด็กมีรูเปิดเล็กขนาดหัวเข็มหน้าต่อขอบหน้าของใบหูตรงโคน helix ผิวรอบรูปกติ ผู้ปกครองเล่าว่าเคยบวมแดงมีหนองไหลออกจากรูนี้มาแล้ว 2 ครั้ง",
  notes:"ไม่มีไฟล์เฉลย · ข้อคล้ายกับ 74C เลข 6",
  opinion:"ความมั่นใจสูง",
  parts:S(

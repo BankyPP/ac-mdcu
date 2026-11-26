@@ -249,14 +249,14 @@ Co({page:3,orig:"11",topic:"micro",sub:"Gram stain",title:"Joint aspirate — Gr
  opinion:"ไฟล์ตอบ 'Streptococcus ตัวอื่น ๆ' — ควรระบุ species เช่น S. agalactiae (group B) หรือ group C/G"}),
 
 /* ===== สถานี 12 ===== */
-Co({page:3,orig:"12",topic:"img",sub:"Bone/joint film",title:"Knee pain — knee radiographs",imgNote:NOIMG,
+Co({page:3,orig:"12",topic:"img",sub:"Bone/joint film",title:"Knee pain — knee radiographs",imgNote:NOIMG,imgAlt:"ฟิล์มเข่าสองข้าง: ช่องข้อด้านในแคบลง มีกระดูกงอกที่ขอบข้อ กระดูกใต้ผิวข้อขาวทึบ · ภายในช่องข้อมีเส้นหินปูนบางขนานกับผิวกระดูกอ่อนและที่หมอนรองเข่าทั้งสองข้าง",
  seen:"คล้าย SI131 Ro413–416 ข้อ 22 และ SI131 Ro409–412 ข้อ 18 (film knee → OA with CPPD) · SI131 Ro417–420 ข้อ 23",
  stem:`A 70-year-old woman presents with chronic pain in both knees that worsens on walking. Radiographs of both knees are taken.`,
  gray:"12.ผู้ป่วยมาด้วย ปวดเข่า ให้Film knee มา · 12.1จงบรรยาย : · 12.2ให้การวินิจฉัย : OA knee with CPPD bilaterally",
  flag:"NOIMG — ไฟล์ไม่มีรูป film knee · อายุ/เพศ/อาการเรื้อรังใน stem Claude แต่ง · 12.1 ผู้จดเว้นว่าง — คำบรรยายเป็นสิ่งที่คาดว่าจะเห็นตาม dx ของผู้จด",
  notes:"คำตอบของผู้จด: 12.2 OA knee with CPPD bilaterally · 12.1 เขียน 'จงบรรยาย :' แล้วเว้นว่าง",
  parts:S(
-  B("12.1 Describe the findings you would expect on the radiographs.",6,{tags:["img"],imgNote:NOIMG,
+  B("12.1 Describe the findings on the radiographs.",6,{tags:["img"],imgNote:NOIMG,
    ans:"(ไม่มีรูป — สิ่งที่คาดว่าจะเห็น) Plain radiograph both knees AP (± lateral/skyline) · <b>OA</b>: <b>joint space narrowing ไม่สม่ำเสมอ เด่นที่ medial compartment</b> · <b>marginal osteophytes</b> · <b>subchondral sclerosis</b> · subchondral cyst · ± varus alignment · <b>CPPD</b>: <b>chondrocalcinosis</b> — เส้น calcification บาง ๆ ขนานกับผิวข้อใน hyaline cartilage และ<b>ก้อน calcification รูปสามเหลี่ยม (wedge) ใน meniscus</b> ทั้ง 2 ข้าง",
    exp:"Chondrocalcinosis ที่เข่า (meniscus), wrist (TFCC), symphysis pubis = ตำแหน่งพบบ่อยของ CPPD · OA ร่วม CPPD มักลงที่ patellofemoral และ lateral compartment มากกว่า OA ทั่วไป",
    rubric:"ได้ = OA features ≥3 อย่าง + chondrocalcinosis · บางส่วน = บอก OA ไม่บอก calcification",
@@ -401,7 +401,7 @@ Co({page:4,orig:"18",topic:"hx",sub:"Chest pain",ex:1,title:"History taking — 
  summary:["Typical angina: retrosternal + exertional + relieved by rest/NTG","Unstable: new onset, crescendo, at rest → ACS","Risk factor: อายุ, HT, DM, DLP, บุหรี่, CKD, family hx","CCS: aspirin + statin + β-blocker/CCB + NTG + risk factor control"]}),
 
 /* ===== สถานี 19 ===== */
-Co({page:4,orig:"19",topic:"skin",sub:"Fungal skin",title:"Skin lesion with KOH preparation — describe and diagnose",imgNote:NOIMG,
+Co({page:4,orig:"19",topic:"skin",sub:"Fungal skin",title:"Skin lesion with KOH preparation — describe and diagnose",imgNote:NOIMG,imgAlt:"ผื่นที่ลำตัว: ปื้นวงแดงขอบเขตชัด ขอบนูนมีขุยและตุ่มเล็กเรียงรอบ ตรงกลางสีจาง · ภาพ KOH จากขุย: เส้นใยเรียวยาวแตกกิ่ง มีผนังกั้นเป็นช่อง บางช่วงหักเป็นท่อนสั้นสี่เหลี่ยม",
  seen:"คล้าย SI132 Ro403–404 ข้อ 6 และ SI131 Ro409–412 ข้อ 12 (skin lesion + KOH → dermatophyte)",
  stem:`A 30-year-old man has an itchy skin lesion on the trunk for 1 month. The skin lesion and a KOH preparation of a scraping from the lesion are provided.`,
  gray:"19.ให้ skin lesion,KOH preparation มา · 19.1จงบรรยายสิ่งที่พบ : Branching septate hyphae with arthroconidia · 19.2ให้การวินิจฉัย : Tinea corporis หรือ Dermatophytosis",

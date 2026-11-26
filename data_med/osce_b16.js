@@ -28,7 +28,7 @@ const D={
 QB.push(
 
 /* ============================ 71 (ไม่ระบุ rotation → RoX) ============================ */
-St("MDCU71","RoX",1,{orig:"Skin1",title:"Skin lesion — painless growths on the penis",imgNote:NOIMG+" · skin-colored cauliflower-like (verrucous) papules/mass ที่ penis",
+St("MDCU71","RoX",1,{orig:"Skin1",title:"Skin lesion — painless growths on the penis",imgNote:NOIMG+" · skin-colored cauliflower-like (verrucous) papules/mass ที่ penis",imgAlt:"องคชาตของชายหนุ่ม: ตุ่มเนื้อนูนสีเดียวกับผิวหลายตุ่มที่ร่องใต้ glans และลำองคชาต ขนาด 2–6 mm ผิวขรุขระเป็นปุ่มเล็ก ๆ คล้ายดอกกะหล่ำ บางตุ่มรวมกันเป็นก้อน ไม่มีแผล ไม่เจ็บ",
  stem:`(Written answer) A 28-year-old man presents with painless growths on the penis for 2 months. He has had several sexual partners.<br>a. Describe the lesion.<br>b. Diagnosis.<br>c. Name the causative agent and the risk factors for malignant transformation.`,
  gray:"71 · Condyloma accuminata at penile · Skin colored- cauliflower like mass at penis · Malignancy risk factor: HPV 16, 18; smoking",
  parts:S(
@@ -43,7 +43,7 @@ St("MDCU71","RoX",1,{orig:"Skin1",title:"Skin lesion — painless growths on the
  interp:"ก้อนสีเนื้อรูปดอกกะหล่ำที่อวัยวะเพศ → condyloma acuminata (HPV 6/11) · ความเสี่ยงมะเร็ง = HPV 16/18 + smoking",
  summary:["Condyloma = HPV 6, 11 · มะเร็ง = HPV 16, 18","Skin-colored cauliflower-like papules","ตรวจคัด STI อื่น (HIV, syphilis) ด้วย"]}),
 
-St("MDCU71","RoX",1,{orig:"Skin2",title:"Skin lesion — abdominal striae in a patient with weight gain",imgNote:NOIMG+" · wide purplish (violaceous) striae ที่หน้าท้อง",
+St("MDCU71","RoX",1,{orig:"Skin2",title:"Skin lesion — abdominal striae in a patient with weight gain",imgNote:NOIMG+" · wide purplish (violaceous) striae ที่หน้าท้อง",imgAlt:"ผิวหน้าท้องและสีข้าง: แถบผิวแตกลายกว้าง 1–2 cm หลายเส้น สีม่วงแดงเข้ม ยุบต่ำกว่าผิวรอบข้าง เรียงตามแนวขวางของท้องน้อยและสีข้าง · มีรอยช้ำจ้ำเลือดที่ต้นแขน",
  stem:`(Written answer) A 35-year-old woman has gained weight and noticed easy bruising over the past year. The abdominal skin is shown.<br>a. Describe the lesion.<br>b. Diagnosis.<br>c. Name 4 other physical findings you would look for.`,
  gray:"71 · Cushing's syndrome · Purplish striae · Moon face, buffalo hump, facial plethora, proximal muscle weakness, hypertension",
  parts:S(
@@ -102,11 +102,11 @@ St("MDCU72","RoD",1,{title:"Skin lesion — small pearly papules",img:"mo72d_s",
  interp:"Dome-shaped pearly papules มีรอยบุ๋มกลาง → molluscum contagiosum",summary:["Molluscum: dome-shaped pearly papules + central umbilication","Henderson–Patterson inclusion bodies","No specific treatment (curettage/cryo ถ้าต้องการ) · ผู้ใหญ่เป็นมาก → HIV"]}),
 
 /* ============================ 73 ============================ */
-St("MDCU73","RoA",1,{title:"Skin lesion — itchy ring-shaped rash",imgNote:NOIMG+" · annular erythematous scaly plaque with active border and central clearing",
- stem:`(Written answer) A patient presents with an itchy ring-shaped rash on the trunk.<br>a. Describe the expected lesion.<br>b. Diagnosis.<br>c. Investigation and expected result.`,
+St("MDCU73","RoA",1,{title:"Skin lesion — itchy ring-shaped rash",imgNote:NOIMG+" · annular erythematous scaly plaque with active border and central clearing",imgAlt:"ผื่นที่ลำตัว: ปื้นวงแหวนสีแดงขนาด ~4 cm ขอบนูนเป็นวงชัด มีขุยและตุ่มเล็กเรียงตามขอบ ตรงกลางวงสีจางลงใกล้ผิวปกติ · มี 2–3 วงลามขยายออก ผู้ป่วยคันมาก",
+ stem:`(Written answer) A patient presents with an itchy ring-shaped rash on the trunk.<br>a. Describe the lesion.<br>b. Diagnosis.<br>c. Investigation and expected result.`,
  gray:"73A · Dermatphyte infection (ไฟล์มีแค่ชื่อโรค)",
  parts:S(
-  B("a. Describe the expected lesion.",3,{key:KU+": Sharply demarcated, erythematous annular patch/plaque with active border and central clearing, covered with scale",ans:"<b>Sharply demarcated, erythematous annular patch/plaque with active border and central clearing, covered with scale</b>",pts:D.derm.map((p,i)=>i===0?CR(p):p)}),
+  B("a. Describe the lesion.",3,{key:KU+": Sharply demarcated, erythematous annular patch/plaque with active border and central clearing, covered with scale",ans:"<b>Sharply demarcated, erythematous annular patch/plaque with active border and central clearing, covered with scale</b>",pts:D.derm.map((p,i)=>i===0?CR(p):p)}),
   B("b. Diagnosis.",2,{key:KF+" — Dermatophyte infection",ans:"<b>Dermatophyte infection</b> (tinea corporis)",pts:[CR(P("Dermatophytosis / tinea","dermatophyt","tinea","กลาก"))]}),
   B("c. Investigation and expected result.",2,{key:"ไฟล์ไม่มี — Claude เฉลยตามแถว 72B",ans:"<b>10% KOH</b>: <b>septate branching hyphae</b> (± arthroconidia)",pts:[P("KOH","koh"),CR(P("Septate branching hyphae","septate","branching","hyphae"))]})),
  interp:"ไฟล์มีแค่ชื่อโรค — Claude แต่งโจทย์ให้ครบตามกติกา",summary:["Tinea: annular + active scaly border + central clearing","KOH: septate branching hyphae"]}),
@@ -124,11 +124,11 @@ St("MDCU73","RoB",1,{title:"Skin lesion — itchy rash in the elbow folds of a t
   B("d. Treatment.",2,{key:KU+": avoid triggers, topical corticosteroids, moisturizer",ans:"<b>Avoid triggers</b> · <b>topical corticosteroids</b> · <b>moisturizer</b>",pts:[P("Avoid triggers","trigger","avoid","หลีกเลี่ยง"),P("Topical corticosteroid","steroid","corticoster"),P("Moisturizer / emollient","moistur","emollient","ทาครีม")]})),
  interp:"วัยรุ่น ผื่นคันที่ข้อพับ + ครอบครัวเป็น → atopic dermatitis · DDx scabies",summary:["AD: ill-defined scaly papules/plaques + excoriation, flexural","Hanifin & Rajka","Avoid triggers + topical steroid + moisturizer","Scabies: burrows, web spaces · 5% permethrin"]}),
 
-St("MDCU73","RoD",1,{title:"Skin lesion — painful vesicular rash on the leg",imgNote:NOIMG+" · grouped vesicles on erythematous base ตาม dermatome ข้างเดียวที่ขา",
- stem:`(Written answer) A patient has burning pain followed by a vesicular rash on one leg.<br>a. Describe the expected lesion.<br>b. Diagnosis.<br>c. Write the prescription.`,
+St("MDCU73","RoD",1,{title:"Skin lesion — painful vesicular rash on the leg",imgNote:NOIMG+" · grouped vesicles on erythematous base ตาม dermatome ข้างเดียวที่ขา",imgAlt:"ขาขวาด้านนอกเป็นแถบเดียว ไม่ข้ามแนวกลาง: ตุ่มน้ำใสขนาด 2–4 mm หลายกลุ่มบนพื้นผิวแดง บางกลุ่มเป็นหนองขุ่น บางกลุ่มแตกตกสะเก็ด (ระยะต่างกันในเวลาเดียว) · ผู้ป่วยแสบร้อนบริเวณนั้นมา 2 วันก่อนผื่นขึ้น",
+ stem:`(Written answer) A patient has burning pain followed by a vesicular rash on one leg.<br>a. Describe the lesion.<br>b. Diagnosis.<br>c. Write the prescription.`,
  gray:"73D · Herpes zoster at leg · Acyclovir tab (800 mg) Sig. 1 tab po 5 times for 7 days (4 g/day)",
  parts:S(
-  B("a. Describe the expected lesion.",3,{key:KU+": Groups of multistage vesicular lesions on erythematous base appearing at (right) unilateral dermatome",ans:"<b>Groups of multistage vesicular lesions on erythematous base</b> appearing at a <b>unilateral dermatome</b> (leg)",pts:D.hz.map(CR)}),
+  B("a. Describe the lesion.",3,{key:KU+": Groups of multistage vesicular lesions on erythematous base appearing at (right) unilateral dermatome",ans:"<b>Groups of multistage vesicular lesions on erythematous base</b> appearing at a <b>unilateral dermatome</b> (leg)",pts:D.hz.map(CR)}),
   B("b. Diagnosis.",2,{key:KF+" — Herpes zoster at leg",ans:"<b>Herpes zoster</b> (lumbar/sacral dermatome)",pts:[CR(P("Herpes zoster","zoster","shingles","งูสวัด"))]}),
   B("c. Write the prescription.",2,{key:KU+": acyclovir 800 mg 1 tab po 5 times daily for 7 days",ans:"<b>Acyclovir (800 mg) 1 tab po 5 times daily × 7 days</b> (4 g/day) — เริ่มภายใน 72 ชม.",exp:"ทางเลือก: valacyclovir 1 g tid × 7 วัน · ปวด: paracetamol/NSAID, neuropathic → gabapentin",pts:[CR(P("Acyclovir 800 mg 5 times/day × 7 days","acyclovir","800","5 times","valacyclovir"))]})),
  interp:"Grouped vesicles ตาม dermatome ที่ขา → herpes zoster → acyclovir 800 × 5 × 7 วัน",summary:["HZ: grouped multistage vesicles on erythematous base, unilateral dermatome","Acyclovir 800 mg 5 ครั้ง/วัน 7 วัน (4 g/day)"]}),
@@ -144,11 +144,11 @@ St("MDCU74","RoA",1,{title:"Skin and nail lesions — plaques and nail changes",
   B("d. Name 2 topical treatments.",2,{key:KU+": topical corticosteroid AND topical vitamin D analogue (calcipotriene)",ans:"<b>Topical corticosteroid</b> + <b>calcipotriene</b>",pts:[P("Topical corticosteroid","steroid","corticoster"),P("Calcipotriene / vitamin D analogue","calcipot","vitamin d")]})),
  interp:"ข้อเดียวกับ 72C (รูปเดียวกัน) — psoriasis + nail",summary:["Psoriasis + nail pitting/oil drop/onycholysis","Psoriatic arthritis","Topical steroid + calcipotriene"]}),
 
-St("MDCU74","RoC",1,{title:"Skin lesion — oval scaly rash on the back",imgNote:NOIMG+" · herald patch + oval plaques with trailing scale ตามแนวผิวหนังที่หลัง (Christmas tree)",
- stem:`(Written answer) A young adult develops an itchy rash on the back, preceded by a single larger patch 1 week earlier.<br>a. Describe the expected lesion.<br>b. Diagnosis.<br>c. Treatment.`,
+St("MDCU74","RoC",1,{title:"Skin lesion — oval scaly rash on the back",imgNote:NOIMG+" · herald patch + oval plaques with trailing scale ตามแนวผิวหนังที่หลัง (Christmas tree)",imgAlt:"หลังของวัยรุ่น: ผื่นวงรีสีชมพูขนาด 1–2 cm จำนวนมาก แนวยาวของแต่ละวงเรียงตามแนวซี่โครงคล้ายกิ่งต้นสน ขอบวงมีขุยบางเกาะชี้เข้าด้านใน · มีปื้นวงรีใหญ่กว่า ~4 cm ที่หลังส่วนล่างซึ่งขึ้นก่อน 1 สัปดาห์",
+ stem:`(Written answer) A young adult develops an itchy rash on the back, preceded by a single larger patch 1 week earlier.<br>a. Describe the lesion.<br>b. Diagnosis.<br>c. Treatment.`,
  gray:"74C · Pityriasis rosea (ไฟล์มีแค่ชื่อโรค)",
  parts:S(
-  B("a. Describe the expected lesion.",3,{key:KU+": Multiple discrete erythematous annular or oval plaques with trailing scale distributed along the skin fold over the back",ans:"<b>Multiple discrete erythematous annular or oval plaques with trailing scale distributed along the skin fold over the back</b>",pts:D.pr.map((p,i)=>i===0?CR(p):p)}),
+  B("a. Describe the lesion.",3,{key:KU+": Multiple discrete erythematous annular or oval plaques with trailing scale distributed along the skin fold over the back",ans:"<b>Multiple discrete erythematous annular or oval plaques with trailing scale distributed along the skin fold over the back</b>",pts:D.pr.map((p,i)=>i===0?CR(p):p)}),
   B("b. Diagnosis.",2,{key:KF+" — Pityriasis rosea",ans:"<b>Pityriasis rosea</b> (herald patch → secondary eruption)",exp:"DDx ที่ห้ามพลาด: secondary syphilis (ผื่นฝ่ามือฝ่าเท้า → VDRL)",pts:[CR(P("Pityriasis rosea","rosea","ผื่นกุหลาบ"))]}),
   B("c. Treatment.",1,{key:KU+": oral antihistamine",ans:"<b>Oral antihistamine</b> (หายเองใน 6–8 สัปดาห์)",pts:[P("Oral antihistamine / self-limited","antihistamine","cetirizine","chlorphen","self.?limit","หายเอง")]})),
  interp:"ไฟล์มีแค่ชื่อโรค — Claude แต่งโจทย์ให้ครบ",summary:["PR: herald patch → oval plaques with trailing scale, Christmas tree on the back","Oral antihistamine · หายเอง","DDx secondary syphilis"]})

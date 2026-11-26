@@ -22,7 +22,7 @@ const Co=o=>Object.assign({set:"MDCU66",ro:"RoB",file:"IMO66BQ",kfile:"IMO66BQ",
 QB.push(
 
 /* ===== 1 CT brain ===== */
-Co({orig:"1",topic:"img",kimg:["ok66b_1"],imgNote:NOIMG+" · non-contrast CT brain: hyperdense lesion ที่ left basal ganglia (putamen) + perilesional edema + mass effect",
+Co({orig:"1",topic:"img",kimg:["ok66b_1"],imgNote:NOIMG+" · non-contrast CT brain: hyperdense lesion ที่ left basal ganglia (putamen) + perilesional edema + mass effect",imgAlt:"CT สมองไม่ฉีดสี: ก้อนเงาขาวสว่างเนื้อเดียวขนาด ~3×2 cm ที่ basal ganglia ซีกซ้ายบริเวณ putamen ขอบชัด มีขอบดำบางรอบก้อน · ventricle ข้างซ้ายถูกเบียดเล็กน้อย เส้นกลางเลื่อนไปขวา ~3 mm",
  title:"CT brain — describe and diagnose (hyperdense lesion in the left putamen)",
  seen:"คล้ายสถานี CT brain ปีอื่น (MDCU75 RoA ข้อ 13, MDCU78 RoD ข้อ 6) · R01 I12 recall ICH",
  opinion:"เฉลยโดย Claude ตามวิธีบรรยาย CT ของ R01 (I11: density → homogeneity → intra/extra-axial → ตำแหน่ง → mass effect) และ 2022 AHA/ASA Guideline for spontaneous ICH",
@@ -44,7 +44,7 @@ Co({orig:"1",topic:"img",kimg:["ok66b_1"],imgNote:NOIMG+" · non-contrast CT bra
  summary:["บรรยาย CT: density → homogeneity → intra/extra-axial → ตำแหน่ง/ข้าง → edema, mass effect, midline shift, IVH, hydrocephalus","Hypertensive ICH: putamen > thalamus > pons > cerebellum","Lobar ICH ผู้สูงอายุ → amyloid angiopathy","ICH: SBP เป้า ~140, reverse anticoagulant, ไม่ให้ steroid"]}),
 
 /* ===== 2 Blood smear ===== */
-Co({orig:"2",topic:"micro",kimg:["ok66b_2"],imgNote:NOIMG+" · PBS: hypochromic microcytic RBC, target cells, anisopoikilocytosis, nucleated RBC, basophilic stippling",
+Co({orig:"2",topic:"micro",kimg:["ok66b_2"],imgNote:NOIMG+" · PBS: hypochromic microcytic RBC, target cells, anisopoikilocytosis, nucleated RBC, basophilic stippling",imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดเล็ก ซีดตรงกลางกว้าง ขนาดและรูปร่างต่างกันมาก · มีเซลล์รูปเป้ายิงธนูจำนวนมาก เซลล์รูปหยดน้ำ เศษเซลล์แตก และเซลล์มีจุดน้ำเงินละเอียด · มีเม็ดเลือดแดงที่ยังมีนิวเคลียสหลายเซลล์",
  title:"Peripheral blood smear — describe and diagnose (thalassemia)",
  seen:"คล้ายสถานี PBS ปีอื่น (XX RoX ข้อ XX-IDA, MDCU78 RoD ข้อ 8) · R01 M5–M6, M8",
  opinion:"เฉลยโดย Claude ตามวิธีเขียนตอบ PBS 3 series ของ R01 (M5: RBC → WBC → platelet) และแนวทางการวินิจฉัยธาลัสซีเมีย (TIF Guidelines for the Management of Transfusion Dependent Thalassaemia)",
@@ -65,7 +65,7 @@ Co({orig:"2",topic:"micro",kimg:["ok66b_2"],imgNote:NOIMG+" · PBS: hypochromic 
  summary:["PBS เขียน 3 series: RBC (size, color, shape, inclusion, NRBC, parasite) → WBC → platelet","Thalassemia: target cells, NRBC, basophilic stippling, microcytic hypochromic","IDA: pencil cells, ferritin ต่ำ","ยืนยัน thalassemia: Hb typing ± DNA analysis"]}),
 
 /* ===== 3 Gout ===== */
-Co({orig:"3",topic:"micro",kimg:["ok66b_3"],imgNote:NOIMG+" · ① synovial fluid ใต้ compensated polarized light: needle-shaped crystals สีเหลืองเมื่อขนานแกน (strongly negative birefringent) บางอันอยู่ใน neutrophil ② ภาพมือ/หู/ข้อศอก มีก้อนสีขาวเหลืองใต้ผิวหนัง (tophi)",
+Co({orig:"3",topic:"micro",kimg:["ok66b_3"],imgNote:NOIMG+" · ① synovial fluid ใต้ compensated polarized light: needle-shaped crystals สีเหลืองเมื่อขนานแกน (strongly negative birefringent) บางอันอยู่ใน neutrophil ② ภาพมือ/หู/ข้อศอก มีก้อนสีขาวเหลืองใต้ผิวหนัง (tophi)",imgAlt:"รูปที่ 1: ภาพน้ำไขข้อใต้กล้อง polarized light เห็นผลึกรูปเข็มยาวเรียว เป็นสีเหลืองเมื่อวางขนานกับแกน และเป็นสีฟ้าเมื่อวางตั้งฉาก บางผลึกอยู่ในเม็ดเลือดขาว · รูปที่ 2: ข้อนิ้วเท้าและข้อนิ้วมือหลายข้อมีก้อนนูนแข็งสีขาวครีมใต้ผิวหนัง บางก้อนผิวบางจนเห็นเนื้อขาวข้างใน",
  title:"Gout — describe the synovial fluid crystals, identify the lesion (gouty tophi) and give the diagnosis",
  seen:"สถานีเดียวกับ R01 (OSCE Med for All) L10 recall 7 — joint aspiration needle-shaped crystal + tophi → chronic gouty arthritis",
  opinion:"เฉลยตาม R01 L10 (needle-shaped crystal, strongly negative birefringence, gouty tophi, chronic gouty arthritis) และ 2020 ACR Guideline for the Management of Gout",
@@ -88,7 +88,7 @@ Co({orig:"3",topic:"micro",kimg:["ok66b_3"],imgNote:NOIMG+" · ① synovial flui
  summary:["MSU: needle, strongly negative (เหลืองเมื่อขนาน), intracellular","CPP: rhomboid, weakly positive (น้ำเงินเมื่อขนาน)","Tophi: หู olecranon นิ้ว Achilles → chronic tophaceous gout","ULT: allopurinol (HLA-B*5801), target urate <6 (<5 ถ้ามี tophi) + prophylaxis"]}),
 
 /* ===== 4 CXR AP + lateral: mass ===== */
-Co({orig:"4",topic:"img",kimg:["ok66b_4"],imgNote:NOIMG+" · CXR PA/AP upright + lateral: round mass ~5 cm, spiculated margin ที่ right upper lobe (lateral view อยู่ด้านหน้าของ major fissure เหนือ minor fissure) ± right hilar enlargement",
+Co({orig:"4",topic:"img",kimg:["ok66b_4"],imgNote:NOIMG+" · CXR PA/AP upright + lateral: round mass ~5 cm, spiculated margin ที่ right upper lobe (lateral view อยู่ด้านหน้าของ major fissure เหนือ minor fissure) ± right hilar enlargement",imgAlt:"CXR ด้านหน้าและด้านข้าง: ก้อนเงาขาวขนาด ~4 cm ที่ปอดขวาส่วนบน ขอบไม่เรียบมีเส้นแหลมแผ่ออก ภาพด้านข้างก้อนอยู่ส่วนหลังบน · ขั้วปอดขวาโตเป็นก้อน · ปอดซ้ายปกติ ไม่มีน้ำในเยื่อหุ้มปอด",
  title:"CXR (frontal and lateral views) — describe a lung mass and localize it",
  seen:"คล้าย XX RoX ข้อ 5 (CXR left upper lung mass: read systematically), MDCU77 RoA ข้อ 7 · R01 I1, I5",
  opinion:"เฉลยโดย Claude: checklist อ่านฟิล์มตาม ABCDEFGHI (Med Y4 MDCU; R01 I1) + ลักษณะ lung cancer บน CXR (R01 I5) และ NCCN Guidelines NSCLC (ฉบับล่าสุด)",
@@ -114,7 +114,7 @@ Co({orig:"4",topic:"img",kimg:["ok66b_4"],imgNote:NOIMG+" · CXR PA/AP upright +
  summary:["อ่าน CXR ตาม ABCDEFGHI","Lateral view: major fissure แบ่ง upper/lower, minor fissure แบ่ง RUL/RML","Spiculated mass >3 cm ในผู้สูบบุหรี่ = lung cancer จนกว่าจะพิสูจน์ได้ว่าไม่ใช่","SCC: central ± cavitation · Adeno: peripheral","ตรวจต่อ: CT chest/upper abdomen + tissue biopsy"]}),
 
 /* ===== 5 EKG — MI ===== */
-Co({orig:"5",topic:"ekg",kimg:["ok66b_5"],imgNote:NOIMG+" · 12-lead EKG: sinus tachycardia ~100/min, ST elevation 3–4 mm ที่ V1–V4 (± I, aVL) + reciprocal ST depression ใน II, III, aVF, Q wave V1–V3",
+Co({orig:"5",topic:"ekg",kimg:["ok66b_5"],imgNote:NOIMG+" · 12-lead EKG: sinus tachycardia ~100/min, ST elevation 3–4 mm ที่ V1–V4 (± I, aVL) + reciprocal ST depression ใน II, III, aVF, Q wave V1–V3",imgAlt:"EKG 12 lead: sinus rhythm ~100/min สม่ำเสมอ · axis ปกติ · PR, QRS ปกติ · ST ยกขึ้นโค้งนูน 3–4 mm ที่ V1–V4 และ ST กดต่ำใน II, III, aVF",
  title:"EKG — acute anterior STEMI: describe, diagnose and manage",
  seen:"คล้ายสถานี EKG STEMI ปีอื่น (MDCU79 RoA ข้อ 1 — anterior STEMI) · R01 E5",
  opinion:"เฉลยโดย Claude ตาม 2023 ESC Guidelines for the management of acute coronary syndromes และ 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes · วิธีอ่าน EKG ตาม R01 E1–E2",

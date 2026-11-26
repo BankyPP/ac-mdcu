@@ -61,7 +61,7 @@ Co({page:42,orig:"3",topic:"pe",sub:"Anorectal exam",ex:1,proc:1,img:["mo42_1"],
 Co({page:43,orig:"4",topic:"img",sub:"Urolithiasis",title:"IVP — right renal stone",
  stem:`An IVP is shown.<br>1. Describe what you see.<br>2. Diagnosis.<br>3. Management.`,
  gray:"4. IVP 4.1 จงบรรยายสิ่งที่เห็น 4.2 Diagnosis 4.3 Management (Right renal stone)",
- flag:NOIMG,imgAlt:"IVP มีนิ่วไตขวา",
+ flag:NOIMG,imgAlt:"IVP: scout film มีเงาทึบรังสีขนาด ~1.5 cm ในเงาไตขวาตรงตำแหน่ง renal pelvis · หลังฉีดสาร calyces ไตขวาโป่งเล็กน้อย ท่อไตขวาปกติ ไตซ้ายปกติ",
  notes:"แนวคำตอบในไฟล์: right renal stone",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   BS("4.1 Answer.",6,{tags:["img"],ans:"Scout: <b>radio-opaque density ที่ไตขวา</b> · contrast: filling defect/hydronephrosis ไตขวา ± delayed excretion · Dx: <b>right renal stone</b> · Mx: <2 ซม. <b>ESWL/RIRS</b>, >2 ซม. <b>PCNL</b>, ติดเชื้อ+อุดกั้น → drain ก่อน · ดื่มน้ำ หาสาเหตุ",rubric:"1/ประเด็น",pts:[CR(P("Opaque stone at right kidney","opaque","stone","calcul")),P("Hydronephrosis or delayed excretion","hydroneph","delay"),CR(P("Right renal stone","renal stone","nephrolith")),CR(P("ESWL/RIRS/PCNL by size","eswl","pcnl","rirs")),P("Drain if infected","drain","stent","pcn")]})
@@ -85,7 +85,7 @@ Co({page:44,orig:"5",topic:"inst",sub:"Tubes",img:["mo44_1","mo44_2"],title:"NG 
 Co({page:45,orig:"6",topic:"img",sub:"Mammogram",title:"Mammogram — right breast cancer with axillary node",
  stem:`A mammogram is shown.<br>1. Name the investigation and views.<br>2. Describe it.<br>3. What further investigation for diagnosis?`,
  gray:"6. ให้ mammogram มา 6.1 ชื่อการตรวจ ท่าไหน 6.2 บรรยายmammogram 6.3 ตรวจอะไรเพิ่มเติมเพื่อวินิจฉัย ( right CA breast with axillary lymph node metas)",
- flag:NOIMG,imgAlt:"Mammogram เต้านมขวา มีก้อนและต่อมน้ำเหลืองรักแร้โต",
+ flag:NOIMG,imgAlt:"Mammogram เต้านมขวา 2 ภาพ (บน-ล่าง และเฉียงเห็น pectoralis) · ส่วนบนด้านนอกมีก้อนทึบขนาด ~3 cm รูปร่างไม่สม่ำเสมอ ขอบเป็นแฉกแหลม มีจุดหินปูนเล็กละเอียดกระจุกในก้อน · ในภาพเฉียงเห็นต่อมน้ำเหลืองรักแร้ขวา 2 ต่อม กลมโต ทึบ ไม่มีไขมันตรงกลาง · ผิวหนังและหัวนมยังไม่ดึงรั้ง",
  notes:"แนวคำตอบในไฟล์: craniocaudal, mediolateral oblique · right CA breast with axillary lymph node metastasis",opinion:"ความมั่นใจสูง",
  parts:S(
   BS("6.1 Answer.",6,{tags:["img"],ans:"<b>Mammography — craniocaudal (CC) และ mediolateral oblique (MLO)</b> · ก้อน <b>irregular/spiculated hyperdense mass</b> เต้านมขวา ± microcalcification + <b>enlarged dense axillary lymph node</b> → <b>right breast carcinoma with axillary node metastasis</b> (BI-RADS 5) · Ix: <b>US-guided core needle biopsy</b> ของก้อน + <b>FNA/core ของ axillary node</b> · receptor ER/PR/HER2 · staging",rubric:"1/ประเด็น",pts:[CR(P("CC and MLO","cc","mlo","craniocaudal")),CR(P("Spiculated mass","spicul","irregular","mass")),CR(P("Axillary node","axill","node")),P("Breast cancer BI-RADS 5","carcinoma","cancer","bi-rads"),CR(P("Core biopsy of mass and node","biopsy","core","fna"))]})
@@ -120,7 +120,7 @@ Co({page:47,orig:"8",topic:"inst",sub:"Surgical instruments",title:"Allis, Crile
 Co({page:48,orig:"9",topic:"img",sub:"Bowel obstruction",title:"Acute abdomen series — small bowel obstruction",
  stem:`An acute abdomen series is given.<br>1. Which films and positions does it include?<br>2. Describe the findings.<br>3. What is the most common cause?`,
  gray:"9. ให้ film acute abdomen series ถาม 1. ประกอบด้วย film อะไรบ้าง ท่าไหน 2. บรรยายสิ่งที่พบ 3. สาเหตุที่พบบ่อยที่สุดให้เกิดภาวะนี้ (Small bowel obstruction)",
- flag:NOIMG,imgAlt:"Acute abdomen series ลำไส้เล็กขยาย",
+ flag:NOIMG,imgAlt:"ชุดฟิล์ม 3 แผ่น: ลำไส้เล็กโป่งขยายหลายห่วงกลางท้อง เห็นรอยพับเยื่อบุพาดเต็มความกว้าง ท่ายืนมี air-fluid level หลายระดับเป็นขั้นบันได ลำไส้ใหญ่แทบไม่มีลม ไม่มีลมใต้กะบังลม",
  notes:"แนวคำตอบในไฟล์: upright chest film, upright abdominal film, supine abdominal film · disproportional dilatation of small bowel, different air-fluid level in the same loop · adhesion band",opinion:"ความมั่นใจสูง",
  parts:S(
   BS("9.1 Answer.",6,{tags:["img"],ans:"<b>Upright chest, upright abdomen, supine abdomen</b> · <b>disproportional dilatation of small bowel</b>, <b>air-fluid levels ต่างระดับใน loop เดียวกัน</b> (step-ladder) · สาเหตุบ่อยสุด <b>adhesion band</b>",rubric:"1/ประเด็น",pts:[CR(P("Upright chest","chest")),P("Upright and supine abdomen","upright","supine"),CR(P("Dilated small bowel","dilat","small bowel")),P("Differential air-fluid levels","air-fluid","air fluid","different"),CR(P("Adhesion","adhesion","band"))]})
@@ -131,7 +131,7 @@ Co({page:48,orig:"9",topic:"img",sub:"Bowel obstruction",title:"Acute abdomen se
 /* ===== OSCE 10 ===== */
 Co({page:49,orig:"10",topic:"inst",sub:"Urinary catheter",title:"Three-way Foley — name and indication",
  stem:`1. Name the device.<br>2. Indication.`,
- gray:"10 ให้ 3 way catheter ถาม 1. ชื่ออุปกรณ์ 2. Indication",flag:NOIMG,imgAlt:"สายสวน 3 ทาง",
+ gray:"10 ให้ 3 way catheter ถาม 1. ชื่ออุปกรณ์ 2. Indication",flag:NOIMG,imgAlt:"สายสวนยางสีเหลืองขนาดใหญ่ (22 Fr) ยาวราว 40 cm · ปลายสายมนมีรูระบาย และมีบอลลูนเป่าได้ใกล้ปลาย · ท้ายสายแยกเป็น 3 ช่อง: ช่องใหญ่สำหรับต่อถุงปัสสาวะ ช่องเล็กมีวาล์วสำหรับเติมน้ำบอลลูน และอีกช่องสำหรับต่อสายน้ำเกลือไหลเข้า",
  notes:"แนวคำตอบในไฟล์: 3-way foley catheter · continuous irrigate bladder",opinion:"ความมั่นใจสูง",
  parts:S(
   BS("10.1 Answer.",4,{tags:["inst"],ans:"<b>Three-way Foley catheter</b> · <b>continuous bladder irrigation</b>",rubric:"1/ประเด็น",pts:[CR(P("Three-way Foley","3-way","three-way","3 way","three way")),CR(P("Continuous bladder irrigation","irrigat","cbi"))]})
@@ -183,7 +183,7 @@ SA({page:50,orig:"MEQ 2",num:"SA 2",sub:"Others",img:["mm50_1"],title:"Short ans
  interp:"Pneumoperitoneum",
  summary:["Upright CXR best for free air","Perforated PU most common","Emergency surgery"]}),
 
-SA({page:51,orig:"MEQ 3",num:"SA 3",sub:"Anorectal",kimg:["mm51_1"],flag:NOIMG,imgAlt:"ก้อนริดสีดวงยื่นจากทวารหนัก",title:"Short answer — hemorrhoid that must be pushed back",
+SA({page:51,orig:"MEQ 3",num:"SA 3",sub:"Anorectal",kimg:["mm51_1"],flag:NOIMG,imgAlt:"ผู้ป่วยนั่งเบ่ง: มีก้อนนุ่มสีม่วงแดง 3 ก้อนยื่นออกนอกรูทวารที่ตำแหน่ง 3, 7, 11 นาฬิกา ผิวเป็นเยื่อบุลำไส้มันวาว มีจุดเลือดซึม · ก้อนไม่หดกลับเองเมื่อหยุดเบ่ง แต่เอานิ้วดันกลับเข้าไปได้หมด · ไม่บวมตึง ไม่มีเนื้อตาย · ผู้ป่วยไม่ได้เจ็บมาก",title:"Short answer — hemorrhoid that must be pushed back",
  stem:`A patient has rectal bleeding and an anal mass that must be pushed back manually.<br>1. Grading.<br>2. Management.`,
  gray:"3. ผู้ป่วยมีอาการถ่ายเป็นเลือด มีก้อนที่ทวารหนัก ต้องใช้มือดันกลับ 3.1 Grading 3.2 Management",
  notes:"เฉลยในไฟล์: grade III · stapler hemorrhoidopexy · (รูปในไฟล์มีหัวข้อ Prolapsed Internal Hemorrhoids จึงใส่เป็นรูปเฉลย)",opinion:"ความมั่นใจสูง",
@@ -213,7 +213,7 @@ SA({page:53,orig:"MEQ 5",num:"SA 5",sub:"Plastic",img:["mm53_1"],title:"Short an
  interp:"Sacral sore",
  summary:["Supine → sacrum"]}),
 
-SA({page:54,orig:"MEQ 6",num:"SA 6",sub:"Neuro",flag:NOIMG,imgAlt:"ไม่มีรูป — สถานการณ์ head injury",title:"Short answer — head injury: serial GCS, signs, CT",
+SA({page:54,orig:"MEQ 6",num:"SA 6",sub:"Neuro",flag:NOIMG,title:"Short answer — head injury: serial GCS, signs, CT",
  stem:`(4 sub-questions, 1 minute each)<br>1. A 25-year-old Thai man in a car crash: on arrival opens eyes to voice, speaks in confused sentences, obeys commands. GCS?<br>2. Later: eyes do not open even to pain, speaks incomprehensible sounds, left arm decerebrate, right arm flexion. GCS?<br>3. What signs may be found?<br>4. Describe the expected CT brain (no picture).`,
  gray:"6. มี 4 ข้อย่อย ข้อละ 1 นาที 6.1 ผู้ป่วยชายไทย อายุ 25 ปี ประสบอุบัติเหตุรถชน แรกรับ ลืมตาเมื่อเรียกชื่อ พูดเป็นประโยคแต่สับสน สามารถทำตามสั่งได้ จงประเมิน GCS 6.2 หลังจากนั้น ผู้ป่วยไม่สามารถลืมตาได้เมื่อกระตุ้นด้วยความเจ็บปวด พูดเป็นคำๆไม่มีความหมาย แขนซ้าย decerebrate แขนขวา flexion จงประเมิน GCS อีกครั้ง 6.3 จะสามารถตรวจพบอาการแสดงอะไรได้บ้าง 6.4 จงอธิบายสิ่งที่พบใน CT brain (ไม่มีรูปให้)",
  notes:"เฉลยในไฟล์: 6.1 E3M6V4 · 6.2 E1M3V2 · 6.3 ↑ICP: change in vital sign (↑SBP, ↓pulse, altered respiratory pattern), papilledema, seizure, impaired eye movement (CN VI palsy); uncal herniation: ipsilateral pupil dilatation, contralateral hemiparesis · 6.4 epidural hematoma: lentiform-shape hyperdensity lesion between skull + dura · ตรวจคีย์ 22 พ.ย. 2026: ข้อ 6.2 เดิม ‘E1V2M3 = 6 (ใช้ best motor = flexion ผิดปกติ M3)’ → คง 6 ตามคีย์ แต่เขียนทั้งสองการตีความ: flexion ที่ไม่ระบุว่า abnormal อาจเป็น withdrawal (M4) → 7 ตาม Teasdale & Jennett / GCS Aid (glasgowcomascale.org: M4 normal flexion, M3 abnormal flexion)",opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): ข้อ 6.2 GCS ขึ้นกับการตีความ ‘flexion’ (M3 decorticate = 6 ตามคีย์ / M4 withdrawal = 7) — เขียนเหตุผลกำกับ · ความมั่นใจปานกลาง (โจทย์กำกวม)",
@@ -266,7 +266,7 @@ SA({page:61,orig:"MEQ 10",num:"SA 10",sub:"Plastic",img:["mm61_1"],title:"Short 
  interp:"Facial melanoma",
  summary:["Biopsy → excision","SLNB","Flap reconstruction"]}),
 
-SA({page:62,orig:"MEQ 11",num:"SA 11",sub:"Others",flag:NOIMG,imgAlt:"ก้อนที่ขาหนีบขวาลงถุงอัณฑะ",title:"Short answer — right groin swelling into the scrotum",
+SA({page:62,orig:"MEQ 11",num:"SA 11",sub:"Others",flag:NOIMG,imgAlt:"ชายผู้ใหญ่ยืน: มีก้อนนุ่มที่ขาหนีบขวาลงไปในถุงอัณฑะ ใหญ่ขึ้นเวลาไอ นอนแล้วยุบ ดันกลับได้ คลำขอบบนของก้อนไม่ได้",title:"Short answer — right groin swelling into the scrotum",
  stem:`A man has a right groin lump descending into the scrotum, which goes back in.<br>1. Diagnosis.<br>2. Two causes.<br>3. Management.`,
  gray:"11. ผู้ป่วยชาย มีก้อนที่ขาหนีบข้างขวาลงมาที่ถุงอัณฑะ เคลื่อนเข้าออกได้ 11.1 diagnosis 11.2 สาเหตุ 2อย่าง 11.3 management",
  notes:"เฉลยในไฟล์: right indirect inguinal hernia · chronic cough, chronic constipation · herniotomy + herniorrhaphy",opinion:"ความมั่นใจสูง",

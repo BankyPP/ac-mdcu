@@ -38,7 +38,7 @@ Co({page:31,orig:"1",topic:"proc",sub:"Anorectal exam",ex:1,proc:1,title:"Rectal
 Co({page:31,orig:"2",topic:"img",sub:"Urolithiasis",title:"IVP series — describe, diagnose, treat",
  stem:`A full IVP series is given (examine the films on the light box).<br>1. Describe the abnormality.<br>2. Give the diagnosis.<br>3. Give the treatment.`,
  gray:"XX. ให้ film IVP มาเต็มโต๊ะเลย แต่ดูเห็นแค่สองใบที่แม่งเสียบอยู่บนเครื่องฉาย 1. จงบรรยายความผิดปกติ 2. จง Diagnosis 3. จงบอก Treatment",
- flag:NOIMG,imgAlt:"ฟิล์ม IVP หลาย phase",
+ flag:NOIMG,imgAlt:"ฟิล์ม IVP 2 ใบบนเครื่องฉาย: scout film มีเงาทึบรังสีเล็ก ~8 mm ตามแนวท่อไตซ้ายระดับ L4 · หลังฉีดสาร ไตซ้ายขับสารช้า pelvis/calyces และท่อไตเหนือเงานั้นโป่งขยาย สารหยุดที่ตำแหน่งเงา ไตขวาปกติ",
  notes:"ไม่มีเฉลยในไฟล์ · ไม่มีรูป — เฉลยหลักการอ่าน IVP (ตัวอย่างนิ่วอุดกั้น)",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   B("2.1 Answer.",6,{tags:["img"],ans:"อ่านตาม phase: <b>scout (KUB)</b> หา radio-opaque stone · nephrogram (ไตทำงาน, delayed) · pyelogram (<b>hydronephrosis, filling defect</b>, การไหลของ contrast) · ureter (ระดับที่อุด, hydroureter) · bladder · post-void · ตัวอย่าง Dx: <b>right ureteric stone with obstruction</b> · Rx: <5 มม. → medical expulsive therapy (tamsulosin) · ใหญ่/อุดกั้น/ติดเชื้อ → <b>URS</b>, ESWL, หรือ decompress (DJ/PCN) ก่อนถ้าติดเชื้อ",rubric:"1/ประเด็น",pts:[CR(P("Scout film stone","scout","kub","opaque")),P("Delayed nephrogram","delay","nephrogram"),CR(P("Hydronephrosis / level of obstruction","hydroneph","obstruct","hydroureter")),P("Filling defect (radiolucent stone/tumor)","filling defect"),CR(P("Diagnosis: stone","stone","calcul","นิ่ว")),P("Treatment: MET / URS / ESWL / drain","tamsulosin","urs","ureteroscop","eswl","stent","pcn")]})
@@ -107,7 +107,7 @@ Co({page:32,orig:"7",topic:"inst",sub:"Surgical instruments",img:["mo32_inst"],t
 Co({page:32,orig:"8",topic:"img",sub:"Mammogram",title:"Mammogram — what and which view",
  stem:`A mammogram is shown.<br>1. What type of image and which view?<br>2. Describe the image.<br>3. What further investigation will you send?`,
  gray:"xx. ให้ภาพ mammogram มาถามว่า 1.เป็น ภาพอะไรและ view อะไร 2.บรรยายภาพ 3.จะส่งตรวจอะไรเพิ่มเติม",
- flag:NOIMG,imgAlt:"Mammogram",
+ flag:NOIMG,imgAlt:"Mammogram ภาพเดียว ถ่ายเฉียง เห็นกล้ามเนื้อ pectoralis ที่มุมบน · มีก้อนทึบขนาด ~1.8 cm ส่วนบนของเต้านม ขอบเป็นแฉกแหลม รอบก้อนเนื้อเต้านมดึงรั้งเข้าหา ไม่เห็นต่อมน้ำเหลืองรักแร้โต",
  notes:"แนวคำตอบในไฟล์: mammography (MLO or CC view)",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   BS("8.1 Answer.",5,{tags:["img"],ans:"<b>Mammography — MLO หรือ CC view</b> (MLO เห็น pectoralis) · บรรยาย mass/calcification/distortion, BI-RADS · ส่ง <b>ultrasound</b> ± <b>core needle biopsy</b>",rubric:"1/ประเด็น",pts:[CR(P("Mammography","mammogra")),CR(P("MLO or CC","mlo","cc")),P("Describe and BI-RADS","bi-rads","mass","calcif"),CR(P("Ultrasound / biopsy","ultrasound","biopsy"))]})
@@ -150,7 +150,7 @@ SA({page:37,orig:"MEQ 3",num:"SA 3",sub:"Others",img:["mm37_foot"],kimg:["mm37_n
  interp:"Nec fasc",
  summary:["Pain out of proportion, bullae, crepitus","Clinical diagnosis; LRINEC supports","Emergency radical debridement"]}),
 
-SA({page:37,orig:"MEQ 4",num:"SA 4",sub:"Others",flag:NOIMG,imgAlt:"ไม่มีรูป",title:"Short answer — drain cleaner ingestion in ER",
+SA({page:37,orig:"MEQ 4",num:"SA 4",sub:"Others",flag:NOIMG,title:"Short answer — drain cleaner ingestion in ER",
  stem:`You are the ER doctor. A patient drank drain-cleaning solution. Write the orders.`,
  gray:"XX. คุณเป็นแพทย์ที่ ER มีคนไข้มาด้วยกินน้ำยาเปิดล้างท่อน้ำเข้าไป ให้สั่งการรักษา",
  notes:"เฉลยในไฟล์: NPO, IV fluid, EGD after R/O perforation by upper GI study by water-soluble solution",opinion:"ความมั่นใจสูง",

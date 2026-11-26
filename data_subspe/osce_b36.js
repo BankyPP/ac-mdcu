@@ -83,7 +83,7 @@ Co({page:37,orig:"5",topic:"inst",sub:"Surgical instruments",title:"Vascular gra
 Co({page:37,orig:"6",topic:"suture",sub:"Suture selection",title:"Suture for radial artery, vein ligation, subcutaneous, skin",
  stem:`A patient has an injury needing repair of the radial artery, ligation of a vein, subcutaneous and skin closure. Choose the suture for each in order and state trade name, filament type and absorbability (packets A–E with names hidden).`,
  gray:"6. ผู้ป่วยได้รับอุบัติเหตุจำเป็นต้องเย็บ radial artery, ผูก vein, เย็บ subcu, เย็บ skin ต้องใช้ไหมแบบใดตามลำดับ และบอกด้วยว่าไหมที่ตอบมีชื่อการค้า เส้นใย การabsorbด้วย //ให้ช้อยA-Eเป็นไหมจริงปิดชื่อ (ตอบ prolene, silk, vicryl, nylon)",
- flag:NOIMG,imgAlt:"ซองไหม A–E ปิดชื่อ",
+ flag:NOIMG,imgAlt:"ซองไหม 5 ซอง A–E ปิดชื่อยี่ห้อ เห็นแต่เส้นไหม: A ไหมสีน้ำเงินเส้นเดี่ยวผิวเรียบ เข็มกลมเล็ก · B ไหมสีดำถักเกลียวเป็นเส้นยาวไม่มีเข็ม · C ไหมสีม่วงถักเกลียว · D ไหมสีดำเส้นเดี่ยวผิวเรียบแข็ง เข็มตัดปลายสามเหลี่ยม · E ไหมสีน้ำตาลอ่อนบิดเกลียวแช่น้ำยาในซอง",
  notes:"แนวคำตอบในไฟล์: prolene, silk, vicryl, nylon",opinion:"ความมั่นใจสูง",
  parts:S(
   BS("6.1 Choices.",4,{tags:["suture"],ans:"Radial artery → <b>Prolene (polypropylene)</b> synthetic monofilament non-absorbable · ผูก vein → <b>silk</b> natural multifilament non-absorbable · subcutaneous → <b>Vicryl (polyglactin 910)</b> synthetic multifilament absorbable · skin → <b>nylon (Ethilon/Dafilon)</b> synthetic monofilament non-absorbable",rubric:"1/ข้อ",pts:[CR(P("Artery: Prolene","prolene","polypropylene")),P("Vein ligation: silk","silk"),P("Subcutaneous: Vicryl","vicryl"),CR(P("Skin: nylon","nylon"))]})
@@ -125,7 +125,7 @@ Co({page:38,orig:"12",topic:"proc",sub:"Skin prep and draping",ex:1,proc:1,title
  summary:["Sponge holder, not fingers","Inside → outside, never back","Drape leaving only field"]}),
 
 /* ===== MEQ ===== */
-SA({page:42,orig:"MEQ 1",num:"SA 1",sub:"Others",flag:NOIMG,imgAlt:"ผิวคล้ำบริเวณเหนือข้อเท้าด้านใน",kimg:["mm42_2","mm42_3","mm42_4","mm42_5"],title:"Short answer — hyperpigmentation above the ankle",
+SA({page:42,orig:"MEQ 1",num:"SA 1",sub:"Others",flag:NOIMG,imgAlt:"ชายสูงอายุยืนขายของทั้งวัน: ผิวบริเวณเหนือตาตุ่มด้านในขาขวาคล้ำสีน้ำตาลเป็นปื้นรอบข้อเท้า ผิวหนาแข็งตึงเป็นมัน · มีเส้นเลือดดำผิวขดคดเคี้ยวโป่งตามแนวด้านในของน่องและต้นขา · ข้อเท้าบวมกดบุ๋มเล็กน้อย · ยังไม่มีแผลเปิด · ชีพจรเท้าคลำได้ปกติ",kimg:["mm42_2","mm42_3","mm42_4","mm42_5"],title:"Short answer — hyperpigmentation above the ankle",
  stem:`An elderly man has hyperpigmentation above the medial ankle (likely chronic venous insufficiency).<br>A. Describe the lesion.<br>B. Diagnosis.<br>C. Management.`,
  gray:"1. ยืนขายก๋วยเตี๋ยว รูป hyperpigment เหนือข้อเท้าขวา น่าจะ chronic venous insuff ถาม A. อธิบาย lesion B. diagnosis C. management",
  notes:"ไฟล์แนบสไลด์ venous disease เป็นแนวคำตอบ · หัวไฟล์ MEQ surgery Rotate D MDCU70",opinion:"ความมั่นใจสูง",
@@ -147,7 +147,7 @@ SA({page:42,orig:"MEQ 9",num:"SA 2",sub:"Neuro",flag:NOIMG,imgAlt:"วิดี�
  interp:"Parinaud",
  summary:["Upgaze palsy + light-near dissociation","Pineal region"]}),
 
-SA({page:42,orig:"MEQ 10",num:"SA 3",sub:"Plastic",flag:NOIMG,imgAlt:"ก้อนบนหนังศีรษะ",title:"Short answer — SCC of the scalp",
+SA({page:42,orig:"MEQ 10",num:"SA 3",sub:"Plastic",flag:NOIMG,imgAlt:"หนังศีรษะของชายสูงอายุ: ก้อนนูนขนาด ~3 cm ขอบนูนแข็ง ผิวขรุขระมีสะเก็ดเคราติน ตรงกลางเป็นแผลมีเลือดซึม · ก้อนขยับได้ไปพร้อมหนังศีรษะ ไม่ติดกะโหลก · รอบก้อนผิวหนังถูกแดดเรื้อรัง · ไม่มีต่อมน้ำเหลืองโตที่คอหรือหลังหู",title:"Short answer — SCC of the scalp",
  stem:`A scalp mass is squamous cell carcinoma involving epidermis and dermis but not reaching the galea. (The lesion should be removed in one piece.)<br>A. What margin is needed?<br>B. How will you close the wound?`,
  gray:"10. ให้รูปก้อนบนหัวมา บอกว่าเป็น squamous cell carcinoma กินลงไปชั้น epidermis+dermisแต่ไม่ถึงscalp ถาม เรื่องการผ่าก้อน \"Lesion เหมือนมองลงในone piece\" A. ต้องตัด margin ยังไง (ตอบ บวกทุกด้าน1cm) B. จะปิดแผลด้วยอะไร = flap",
  notes:"แนวคำตอบในไฟล์: margin ทุกด้าน 1 cm · ปิดด้วย flap · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘(low-risk 4–6 มม., high-risk ≥6 มม.–1 ซม.)’ → คง 1 ซม. ตามคีย์ แต่ระบุว่า scalp = high-risk ตาม NCCN Squamous Cell Skin Cancer (low-risk 4–6 mm; high-risk: Mohs/PDEMA preferred หรือ wider margin ≥6 mm)",opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): margin ~1 ซม. ใช้ได้สำหรับ scalp SCC (high-risk ตาม NCCN; low-risk ใช้ 4–6 มม.) · ความมั่นใจสูง",
@@ -158,7 +158,7 @@ SA({page:42,orig:"MEQ 10",num:"SA 3",sub:"Plastic",flag:NOIMG,imgAlt:"ก้อ�
  interp:"Scalp SCC",
  summary:["Margin ~1 cm","Scalp inelastic → local flap"]}),
 
-SA({page:42,orig:"MEQ 11",num:"SA 4",sub:"Plastic",flag:NOIMG,imgAlt:"เด็กปากแหว่งข้างซ้ายร่วมเพดานโหว่",title:"Short answer — unilateral cleft lip and palate",
+SA({page:42,orig:"MEQ 11",num:"SA 4",sub:"Plastic",flag:NOIMG,imgAlt:"ทารก: ริมฝีปากบนข้างซ้ายแหว่งตลอดแนวจากขอบปากขึ้นไปถึงรูจมูก ปีกจมูกซ้ายแบนบาน · อ้าปากเห็นรอยแยกต่อเนื่องจากเหงือกซ้ายผ่านเพดานแข็งไปถึงเพดานอ่อนและลิ้นไก่ · ข้างขวาปกติ",title:"Short answer — unilateral cleft lip and palate",
  stem:`A child has left unilateral cleft lip with cleft palate.<br>A. Diagnosis.<br>B. Appropriate age for surgery.<br>C. Advice to the mother.`,
  gray:"11. ให้รูปเด็ก unilateral cleft lipซ้าย+cleft palate มา A. diagnosis B. อายุผ่าที่เหมาะสม C. ให้คำแนะนำแม่อะไร",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -168,7 +168,7 @@ SA({page:42,orig:"MEQ 11",num:"SA 4",sub:"Plastic",flag:NOIMG,imgAlt:"เด็�
  interp:"CLP",
  summary:["Lip ~3 mo, palate 9–12 mo","Feeding + hearing","Cleft team"]}),
 
-SA({page:42,orig:"MEQ 12",num:"SA 5",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"X-ray ทารก NG ขดใน upper pouch ไม่มีลมในลำไส้",title:"Short answer — esophageal atresia with gasless abdomen",
+SA({page:42,orig:"MEQ 12",num:"SA 5",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ฟิล์มทรวงอกและช่องท้องทารก: สายให้อาหารทึบรังสีขดม้วนอยู่ในถุงหลอดอาหารส่วนบนระดับคอส่วนล่าง ใส่ต่อไม่ได้ · ช่องท้องทึบทั้งหมด ไม่มีลมในกระเพาะและลำไส้เลย",title:"Short answer — esophageal atresia with gasless abdomen",
  stem:`A neonate has esophageal atresia; the X-ray shows no air in the bowel.<br>A. Which type?<br>B. What other anomalies should you look for?`,
  gray:"12. โจทย์บอกว่าเด็กเป็น Esophageal atresia ให้ภาพ X-ray ไม่มี air in bowel เลย A. ถามว่าเป็น esophageal atresia type ไหน B. ความผิดปกติอื่นๆที่ต้อง look forคือ?",
  notes:"ไม่มีเฉลยในไฟล์ (เหมือน 71 R1 MEQ: isolated EA without TEF)",opinion:"ความมั่นใจสูง",
@@ -178,7 +178,7 @@ SA({page:42,orig:"MEQ 12",num:"SA 5",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"
  interp:"EA gasless",
  summary:["Gasless abdomen = no distal TEF","VACTERL work-up"]}),
 
-SA({page:42,orig:"MEQ 14",num:"SA 6",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ทารกไม่มีรูทวาร",title:"Short answer — infant without anus",
+SA({page:42,orig:"MEQ 14",num:"SA 6",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ทารกแรกเกิดชาย: บริเวณที่ควรเป็นรูทวารเป็นผิวเรียบ มีรอยบุ๋มเล็กน้อยแต่ไม่มีรู · perineum แบน ร่องก้นตื้น · ไม่มีขี้เทาออกที่ perineum หรือถุงอัณฑะ · พยาบาลบอกว่าปัสสาวะมีเศษขี้เทาและฟองลมปน",title:"Short answer — infant without anus",
  stem:`An infant has no anal opening.<br>A. Diagnosis.<br>B. Initial management.<br>C. Approach.`,
  gray:"14. ให้ภาพเด็ก ไม่มีรูก้น A. diagnosis B. initial management C. approach อย่างไร",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -188,7 +188,7 @@ SA({page:42,orig:"MEQ 14",num:"SA 6",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"
  interp:"ARM",
  summary:["Wait 24 h","Perineal fistula → anoplasty","Otherwise colostomy → PSARP"]}),
 
-SA({page:42,orig:"MEQ xx",num:"SA 7",sub:"Burn",flag:NOIMG,imgAlt:"แผลไหม้ครึ่งตัวบนและแขนขวา",title:"Short answer — burn of upper body and right arm",
+SA({page:42,orig:"MEQ xx",num:"SA 7",sub:"Burn",flag:NOIMG,imgAlt:"แผลไหม้ที่ลำตัวด้านหน้าครึ่งบนและแขนขวาทั้งแขน: ผิวแดงชมพูชุ่มชื้น มีตุ่มพองน้ำใสหลายตุ่ม กดแล้วซีดและแดงกลับเร็ว",title:"Short answer — burn of upper body and right arm",
  stem:`A burn of the upper half of the trunk and the right arm (likely superficial second degree). Give the degree and management.`,
  gray:"xx. รูป burn ครึ่งตัวบน+แขนขวา น่าจะ 2nd sup. ถาม degree, management",
  notes:"ผู้เขียนคิดว่าเป็น 2nd superficial · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘Parkland 4 ml/kg/%TBSA (ถ้า >15–20%)’ → แก้เกณฑ์เป็น ≥20% TBSA และเริ่ม 2 mL/kg/%TBSA ตาม ATLS 10th ed. (2018) / ABA Advanced Burn Life Support 2018: ให้สารน้ำเมื่อผู้ใหญ่ burn (partial + full thickness) ≥20% TBSA, เริ่ม Ringer's lactate 2 mL × kg × %TBSA (เด็ก 3 mL, electrical 4 mL) ครึ่งแรกใน 8 ชม. แล้ว titrate ตาม UO — Parkland 4 mL เป็นขอบบน/สูตรดั้งเดิม",opinion:"ความมั่นใจปานกลาง · ตรวจคีย์ (22 พ.ย. 2026): เกณฑ์ให้สารน้ำผู้ใหญ่ ≥20% TBSA และสูตรเริ่มต้น 2 mL/kg/%TBSA (ATLS 10th/ABLS) — ถ้าโจทย์ถาม Parkland ให้คำนวณ 4 mL ตามที่ถาม · ความมั่นใจสูง",
@@ -198,7 +198,7 @@ SA({page:42,orig:"MEQ xx",num:"SA 7",sub:"Burn",flag:NOIMG,imgAlt:"แผลไ�
  interp:"Burn",
  summary:["Rule of nines","Fluids if ≥20% TBSA: 2 mL/kg/%TBSA (ATLS 10th; Parkland 4 mL)","Superficial heals 2–3 weeks"]}),
 
-SA({page:42,orig:"MEQ xx2",num:"SA 8",sub:"Anorectal",flag:NOIMG,imgAlt:"แผลปริที่ขอบทวารหนักด้านหลัง",title:"Short answer — acute anal fissure",
+SA({page:42,orig:"MEQ xx2",num:"SA 8",sub:"Anorectal",flag:NOIMG,imgAlt:"ดึงขอบก้นแยกออก เห็นแผลปริตามแนวยาวขนาด ~1 cm ที่ขอบทวารแนวกลางด้านหลัง ขอบแผลบาง พื้นแผลสีแดงสด ยังไม่มีติ่งเนื้อหรือขอบแข็ง",title:"Short answer — acute anal fissure",
  stem:`A picture of an acute anal fissure. Give the diagnosis and management.`,
  gray:"xx. รูป acute anal fissure ถาม dx, management",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -218,7 +218,7 @@ SA({page:43,orig:"MEQ xx3",num:"SA 9",sub:"Others",img:["mm43_1"],title:"Short a
  interp:"Adult umbilical hernia",
  summary:["Raised intra-abdominal pressure","Pregnancy, obesity, ascites","Adults do not close spontaneously → repair"]}),
 
-SA({page:43,orig:"MEQ xx4",num:"SA 10",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"เด็กมีถุงอัณฑะบวม ดันกลับได้",title:"Short answer — reducible groin/scrotal swelling in a child",
+SA({page:43,orig:"MEQ xx4",num:"SA 10",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"เด็กชายเล็ก: มีก้อนนุ่มที่ขาหนีบขวายาวลงไปในถุงอัณฑะ ก้อนโตเวลาร้องหรือเบ่ง ดันกลับเข้าช่องท้องได้หมด ส่องไฟไม่สว่าง และคลำขอบบนของก้อนไม่ได้",title:"Short answer — reducible groin/scrotal swelling in a child",
  stem:`A child has a reducible swelling.<br>A. Diagnosis.<br>B. Management.`,
  gray:"xx. ให้ภาพไข่เด็กบวม reducible A. diagnosis B. management",
  notes:"เฉลยในไฟล์: indirect inguinal hernia · herniotomy",opinion:"ความมั่นใจสูง",
@@ -238,7 +238,7 @@ SA({page:43,orig:"MEQ xx5",num:"SA 11",sub:"Others",img:["mm43_2"],title:"Short 
  interp:"JP drain",
  summary:["Bulb compressed → negative pressure","Closed system","Mastectomy, abdominal surgery"]}),
 
-SA({page:43,orig:"MEQ xx6",num:"SA 12",sub:"Anorectal",flag:NOIMG,imgAlt:"ก้อนบวมแดงข้างทวารหนัก",title:"Short answer — perianal pain for 2 days",
+SA({page:43,orig:"MEQ xx6",num:"SA 12",sub:"Anorectal",flag:NOIMG,imgAlt:"ข้างรูทวารด้านซ้ายมีก้อนบวมนูนแดงตึง ขนาด ~3 cm กดเจ็บมาก ตรงกลางนุ่มหยุ่นเป็นน้ำ ผิวรอบ ๆ ร้อนแดง",title:"Short answer — perianal pain for 2 days",
  stem:`A 30-year-old woman has buttock pain for 2 days. What is it and how will you manage it?`,
  gray:"xx. หญิง 30 ปี เจ็บก้นมา 2 วัน รูปนี้ ถามว่าเป็นไร manage ยังไง",
  notes:"เฉลยในไฟล์: incision and drainage",opinion:"ความมั่นใจสูง",

@@ -27,7 +27,7 @@ const Cq=o=>Co(Object.assign({sec:"CRQ"},o));
 QB.push(
 
 /* ===== OSCE 1 ===== */
-Co({page:1,orig:"1",topic:"micro",sub:"Gram stain",title:"Pleural pus — Gram stain",imgNote:NOIMG,
+Co({page:1,orig:"1",topic:"micro",sub:"Gram stain",title:"Pleural pus — Gram stain",imgNote:NOIMG,imgAlt:"Gram stain หนองจากโพรงเยื่อหุ้มปอด: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · เชื้อหลายแบบปนกัน: เชื้อกลมติดสีม่วงเรียงเป็นสาย แท่งติดสีชมพูแดง และแท่งเรียวติดสีม่วง",
  stem:`A patient has decreased breath sounds and decreased vocal resonance over one side of the chest. Thoracentesis yields pus, and a Gram stain of the pleural fluid is shown.<br>1.1 Interpret the Gram stain.<br>1.2 What is the diagnosis?`,
  gray:"1. ผป. decreased breath sound + vocal resonance แปลผล Gram stain from pleural pus + Dx. — Impression: mixed infection, empyema thoracis",
  flag:NOIMG+" · stem Claude เรียบเรียงจาก recall (ไม่บอกอายุ/ข้าง)",
@@ -46,7 +46,7 @@ Co({page:1,orig:"1",topic:"micro",sub:"Gram stain",title:"Pleural pus — Gram s
  summary:["หนองจาก pleural tap = empyema → ต้องระบายด้วย ICD","Gram stain เห็นเชื้อหลายชนิด = mixed aerobic–anaerobic → ยาต้องครอบคลุม anaerobes","Drain ไม่หมด/loculated → intrapleural tPA + DNase หรือ VATS"]}),
 
 /* ===== OSCE 2 ===== */
-Co({page:1,orig:"2",topic:"img",sub:"CXR",title:"Chest radiograph — describe and give differential diagnoses",imgNote:NOIMG,
+Co({page:1,orig:"2",topic:"img",sub:"CXR",title:"Chest radiograph — describe and give differential diagnoses",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ส่วนล่างของทรวงอกซ้ายทึบขาวเนื้อเดียว ขอบบนเว้าสูงขึ้นทางด้านข้าง มุมชายโครงซ้ายหายไป กะบังลมซ้ายมองไม่เห็น · ปอดขวาปกติ",
  stem:`A chest radiograph is shown.<br>2.1 Describe the abnormality.<br>2.2 Give 2 differential diagnoses.`,
  gray:"2. อ่าน CXR มี Pleural effusion 1 ข้าง(ข้างซ้าย) + Dx. 2 โรค — (ไม่มี Impression)",
  flag:NOIMG+" · ไฟล์ไม่ให้ประวัติผู้ป่วย และไม่มี Impression",
@@ -65,7 +65,7 @@ Co({page:1,orig:"2",topic:"img",sub:"CXR",title:"Chest radiograph — describe a
  summary:["Pleural effusion: homogeneous opacity + meniscus sign + CP angle ทึบ","Effusion ข้างเดียวในไทย: TB pleuritis, malignancy, parapneumonic","ขั้นต่อไป thoracentesis + Light's criteria, ADA, cytology"]}),
 
 /* ===== OSCE 3 ===== */
-Co({page:1,orig:"3",topic:"ekg",sub:"Bradyarrhythmia/AV block",title:"Dyspnea — 12-lead EKG",imgNote:NOIMG,
+Co({page:1,orig:"3",topic:"ekg",sub:"Bradyarrhythmia/AV block",title:"Dyspnea — 12-lead EKG",imgNote:NOIMG,imgAlt:"EKG 12 lead: P wave สม่ำเสมอ ~80/min และ QRS กว้างสม่ำเสมอ ~35/min ไม่สัมพันธ์กัน PR ไม่คงที่ P บางตัวซ่อนใน QRS/T",
  stem:`A patient presents with dyspnea. A 12-lead EKG is shown.<br>3.1 Interpret the EKG.`,
  gray:"3. อ่าน EKG มาด้วยเหนื่อย — Impression: 3rd degree AV block",
  flag:NOIMG,
@@ -80,7 +80,7 @@ Co({page:1,orig:"3",topic:"ekg",sub:"Bradyarrhythmia/AV block",title:"Dyspnea �
  summary:["Complete AV block: P กับ QRS เดินอิสระต่อกัน PR ไม่คงที่","Escape แคบ = junctional · กว้าง = ventricular (อันตรายกว่า)","Unstable → transcutaneous pacing · สุดท้ายใส่ permanent pacemaker","หาสาเหตุที่แก้ได้: inferior MI, hyperkalemia, ยา"]}),
 
 /* ===== OSCE 4 ===== */
-Co({page:1,orig:"4",topic:"micro",sub:"PBS",title:"Fever — peripheral blood smear",imgNote:NOIMG,
+Co({page:1,orig:"4",topic:"micro",sub:"PBS",title:"Fever — peripheral blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดและสีปกติ · เม็ดเลือดขาวน้อยลง มี lymphocyte ตัวใหญ่ ไซโทพลาสซึมมากสีฟ้าเข้มตามขอบ ขอบเซลล์ถูกเม็ดเลือดแดงกดเป็นรอยหยัก · เกล็ดเลือดน้อย",
  stem:`A patient presents with fever. A peripheral blood smear is shown.<br>4.1 Describe the blood smear.<br>4.2 What is the most likely diagnosis?`,
  gray:"4. ไข้ อ่าน PBS + Dx. — Impression: atypical lymph",
  flag:NOIMG+" · ไฟล์ให้ Impression แค่ \"atypical lymph\" — คำวินิจฉัย dengue Claude ตัดสินจากบริบทไข้ในไทยและเฉลยอ้างอิง Key PBS (Acute hemorrhagic fever)",
@@ -98,7 +98,7 @@ Co({page:1,orig:"4",topic:"micro",sub:"PBS",title:"Fever — peripheral blood sm
  summary:["Atypical lymphocyte: เซลล์ใหญ่ cytoplasm น้ำเงินมาก ขอบเว้าตาม RBC","ไข้ + leukopenia + thrombocytopenia + atypical lymph → dengue","Ddx atypical lymph: EBV, CMV, viral infection อื่น"]}),
 
 /* ===== OSCE 5 ===== */
-Co({page:1,orig:"5",topic:"micro",sub:"AFB",title:"Sputum smear with acid-fast staining — organisms",imgNote:NOIMG,
+Co({page:1,orig:"5",topic:"micro",sub:"AFB",title:"Sputum smear with acid-fast staining — organisms",imgNote:NOIMG,imgAlt:"สเมียร์เสมหะย้อมสีทนกรด พื้นหลังสีน้ำเงิน: เชื้อติดสีแดงชมพูรูปแท่งเรียวโค้งเล็กน้อย บางตัวดูเป็นปล้อง ๆ กระจายเดี่ยวและเกาะเป็นกลุ่ม",
  stem:`A sputum smear stained with an acid-fast technique is shown (the type of acid-fast stain is not stated).<br>5.1 Describe the findings.<br>5.2 Give 3 organisms in the differential diagnosis.`,
  gray:"5. แปลผล sputum ที่ย้อม AFB or MAF (ไม่บอกว่าย้อมอะไร) + บอก ddx. เชื้อมา 3 ตัว — (ไม่มี Impression)",
  flag:NOIMG+" · ไม่มี Impression ในไฟล์",
@@ -135,7 +135,7 @@ Co({page:1,orig:"6",topic:"lab",sub:"LFT",title:"Fever followed by jaundice — 
  summary:["AST/ALT สูงมาก + ALP สูงเล็กน้อย = hepatocellular pattern (R > 5)","ไข้นำก่อนเหลือง → acute viral hepatitis (HAV พบบ่อย)","ส่ง anti-HAV IgM, HBsAg, anti-HBc IgM, anti-HCV, anti-HEV IgM + PT/INR"]}),
 
 /* ===== OSCE 7 ===== */
-Co({page:1,orig:"7",topic:"micro",sub:"UA",title:"Elevated blood pressure — urine sediment",imgNote:NOIMG,
+Co({page:1,orig:"7",topic:"micro",sub:"UA",title:"Elevated blood pressure — urine sediment",imgNote:NOIMG,imgAlt:"ภาพตะกอนปัสสาวะ: เม็ดเลือดแดงจำนวนมาก ขนาดและรูปร่างหลากหลาย หลายเซลล์มีตุ่มกลมยื่นออกจากผิวคล้ายวงแหวนมีหู",
  stem:`A patient has a blood pressure of 150/80 mmHg. A urine sediment is shown.<br>7.1 Describe the urine sediment.<br>7.2 Give 3 differential diagnoses.`,
  gray:"7. BP 150/80 อ่าน Urine sediment + Dx. 3 โรค — Impression: dysmorphic RBC",
  flag:NOIMG,
@@ -153,7 +153,7 @@ Co({page:1,orig:"7",topic:"micro",sub:"UA",title:"Elevated blood pressure — ur
  summary:["Dysmorphic RBC (acanthocyte) และ RBC cast = เลือดออกจาก glomerulus","Hematuria + HT = nephritic → IgA nephropathy, PSGN, lupus nephritis","C3/C4 ต่ำ: PSGN, lupus, MPGN"]}),
 
 /* ===== OSCE 8 ===== */
-Co({page:1,orig:"8",topic:"micro",sub:"PBS",title:"Elderly patient with pallor and splenomegaly — peripheral blood smear",imgNote:NOIMG,
+Co({page:1,orig:"8",topic:"micro",sub:"PBS",title:"Elderly patient with pallor and splenomegaly — peripheral blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดขาวเพิ่มมาก ส่วนใหญ่เป็น lymphocyte ขนาดเล็กหน้าตาปกติ โครมาตินหนาเป็นก้อน · มีเซลล์ที่แตกเละเหลือแต่นิวเคลียสแบนจำนวนมาก · เม็ดเลือดแดงมีเซลล์กลมเล็กติดสีเข้มไม่มีส่วนซีดตรงกลาง และเซลล์ใหญ่สีม่วงอ่อน",
  stem:`An elderly patient presents with pallor and splenomegaly for 2 weeks. A peripheral blood smear is shown.<br>8.1 Describe the blood smear.<br>8.2 Give the complete diagnosis.`,
  gray:"8. ผป.สูงอายุ มีซีด ม้ามโต 2 wk. อ่าน PBS + Dx. ให้ครบ — Impression: Smudge cell, lymphoid series, CLL with AIHA",
  flag:NOIMG,
@@ -172,7 +172,7 @@ Co({page:1,orig:"8",topic:"micro",sub:"PBS",title:"Elderly patient with pallor a
  summary:["CLL: small mature lymphocytes + smudge cells, ยืนยัน flow cytometry CD5+/CD23+","CLL + spherocyte + polychromasia → secondary warm AIHA → DAT","อ่าน PBS ให้ครบทุก series (RBC, WBC, platelet)"]}),
 
 /* ===== OSCE 9 ===== */
-Co({page:1,orig:"9",topic:"micro",sub:"Stool exam",title:"Stool examination — identify and treat",imgNote:NOIMG,
+Co({page:1,orig:"9",topic:"micro",sub:"Stool exam",title:"Stool examination — identify and treat",imgNote:NOIMG,imgAlt:"Simple smear อุจจาระ: ไข่ 2 แบบ (1) ไข่รูปกลมรี เปลือกหนาผิวนอกเป็นปุ่มขรุขระสีน้ำตาลเหลือง (2) ไข่รูปรีเปลือกบางใส ภายในมีก้อนเซลล์ 4–8 เซลล์",
  stem:`A stool examination is shown.<br>9.1 Identify the findings.<br>9.2 What treatment would you give?`,
  gray:"9. อ่าน Stool exam + ให้การรักษา — Impression: -ไข่ Ascaris + Hookworm -albendazole",
  flag:NOIMG,
@@ -190,7 +190,7 @@ Co({page:1,orig:"9",topic:"micro",sub:"Stool exam",title:"Stool examination — 
  summary:["Ascaris egg: เปลือกหนา mammillated สีน้ำตาล","Hookworm egg: เปลือกบางใส embryo 4–8 cells มีช่องว่างรอบ","Albendazole 400 mg single dose ครอบคลุมทั้งสอง · hookworm → ระวัง IDA"]}),
 
 /* ===== OSCE 10 ===== */
-Co({page:1,orig:"10",topic:"micro",sub:"PBS",title:"Anemia with jaundice after transfusion — peripheral blood smear",imgNote:NOIMG,
+Co({page:1,orig:"10",topic:"micro",sub:"PBS",title:"Anemia with jaundice after transfusion — peripheral blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear (ดูเฉพาะเม็ดเลือดแดง): มีเซลล์กลมเล็กติดสีเข้มไม่มีส่วนซีดตรงกลางจำนวนมาก ปนกับเซลล์ใหญ่สีม่วงอ่อน · ไม่เห็นเศษเซลล์แตก",
  stem:`A 35-year-old patient presents with pallor. The patient has received a blood transfusion in the past and developed jaundice. A peripheral blood smear is shown.<br>10.1 Describe the red blood cells only.<br>10.2 What is the most likely diagnosis?<br>10.3 Name one further investigation.`,
  gray:"10. ผป. 35 ปี ซีด เคยได้เลือดแล้วเหลือง อ่าน PBS เฉพาะ RBC + Dx. + ส่งตรวจเพิ่มเติม 1 อย่าง — Impression: HS",
  flag:NOIMG+" · \"เคยได้เลือดแล้วเหลือง\" Claude แปลตามตัว (ไม่บอกเพศ)",
@@ -213,7 +213,7 @@ Co({page:1,orig:"10",topic:"micro",sub:"PBS",title:"Anemia with jaundice after t
  summary:["HS: spherocyte มาก ขนาดสม่ำเสมอ + polychromasia, MCHC สูง","แยก AIHA ด้วย DAT (HS = ลบ)","ยืนยัน HS: EMA binding test หรือ osmotic fragility"]}),
 
 /* ===== OSCE 11 ===== */
-Co({page:2,orig:"11",topic:"img",sub:"CXR",title:"Chest radiograph — lower lung field lesion",imgNote:NOIMG,
+Co({page:2,orig:"11",topic:"img",sub:"CXR",title:"Chest radiograph — lower lung field lesion",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ก้อนเงาขาวกลมขนาด ~5 cm ที่ปอดขวาส่วนล่าง ขอบเป็นพู ไม่มีโพรง ไม่มีหินปูน · ปอดส่วนอื่นปกติ",
  stem:`A chest radiograph is shown.<br>11.1 Describe the abnormality.<br>11.2 Give 3 differential diagnoses.`,
  gray:"11. อ่าน CXR + Dx. 3 โรค — Impression: pulmonary mass at lower lung field",
  flag:NOIMG+" · ไฟล์ไม่ให้ประวัติผู้ป่วยและไม่บอกข้าง",
@@ -231,7 +231,7 @@ Co({page:2,orig:"11",topic:"img",sub:"CXR",title:"Chest radiograph — lower lun
  summary:["Mass > 3 cm · nodule ≤ 3 cm","Ddx lung mass: bronchogenic CA, metastasis, lung abscess, tuberculoma/fungal","ต่อด้วย CT chest และ tissue diagnosis"]}),
 
 /* ===== OSCE 12 ===== */
-Co({page:2,orig:"12",topic:"ekg",sub:"Tachyarrhythmia",title:"Palpitations for 30 minutes — 12-lead EKG",imgNote:NOIMG,
+Co({page:2,orig:"12",topic:"ekg",sub:"Tachyarrhythmia",title:"Palpitations for 30 minutes — 12-lead EKG",imgNote:NOIMG,imgAlt:"EKG 12 lead: QRS แคบสม่ำเสมอเร็ว ~190/min ไม่เห็น P wave นำหน้า มีรอยหยักเล็กที่ปลาย QRS ใน V1",
  stem:`A patient presents with palpitations for 30 minutes. Blood pressure is 120/80 mmHg and the patient is alert.<br>12.1 Interpret the EKG.<br>12.2 What is your management?`,
  gray:"12. ใจสั่น 30 นาที อ่าน EKG + บอกการรักษา — Impression: -SVT -adenosine",
  flag:NOIMG+" · BP 120/80 และรู้สึกตัวดี Claude เติม (ไฟล์ไม่บอก vital signs)",
@@ -250,7 +250,7 @@ Co({page:2,orig:"12",topic:"ekg",sub:"Tachyarrhythmia",title:"Palpitations for 3
  summary:["PSVT: regular narrow QRS tachycardia ไม่เห็น P (AVNRT พบบ่อยสุด)","Stable: vagal maneuver → adenosine 6 → 12 mg rapid push + flush","Unstable: synchronized cardioversion","ระยะยาว: catheter ablation"]}),
 
 /* ===== OSCE 13 ===== */
-Co({page:2,orig:"13",topic:"skin",sub:"Skin infection",title:"Vesicular rash on the forehead — Tzanck smear",imgNote:NOIMG,
+Co({page:2,orig:"13",topic:"skin",sub:"Skin infection",title:"Vesicular rash on the forehead — Tzanck smear",imgNote:NOIMG,imgAlt:"ผื่นตุ่มน้ำใสบนพื้นแดงหลายกลุ่มที่หน้าผากขวาถึงหนังศีรษะ ไม่ข้ามแนวกลาง · Tzanck smear: เซลล์ยักษ์มีนิวเคลียสหลายอันเบียดกันจนขอบนิวเคลียสยุบตามกัน นิวเคลียสใสเหมือนกระจกฝ้า โครมาตินไปกองที่ขอบ",
  stem:`A 60-year-old patient has a vesiculopapular rash on the right forehead. A photograph of the rash and a Tzanck smear are shown.<br>13.1 Describe the abnormality on the Tzanck smear.<br>13.2 What is the causative organism?<br>13.3 What is the diagnosis?`,
  gray:"13. 60 ปี versiculopapular rash at right forehead ให้ภาพ Tzanck อ่านความผิดปกติใน Tzanck + บอก organism + บอกชื่อโรค — Impression: herpes zoster opthamalcus",
  flag:NOIMG,
@@ -291,7 +291,7 @@ Co({page:2,orig:"14",topic:"lab",sub:"ABG",title:"Acute pyelonephritis with deep
  summary:["AG = Na − (Cl + HCO3) ปกติ ~12 · HAGMA + glucose สูง → DKA","Winter's formula: PaCO2 = 1.5 × HCO3 + 8 ± 2","DKA: K สูงจาก shift แต่ total body K พร่อง → ให้ insulin เมื่อ K ≥ 3.5","หา precipitant: infection พบบ่อยสุด"]}),
 
 /* ===== OSCE 15 ===== */
-Co({page:2,orig:"15",topic:"img",sub:"Bone/joint film",title:"Knee radiograph — describe and diagnose",imgNote:NOIMG,
+Co({page:2,orig:"15",topic:"img",sub:"Bone/joint film",title:"Knee radiograph — describe and diagnose",imgNote:NOIMG,imgAlt:"ฟิล์มเข่า: ช่องข้อด้านในแคบลง ขอบกระดูกมีกระดูกงอก กระดูกใต้ผิวข้อขาวทึบและมีโพรงเล็ก",
  stem:`A knee radiograph is shown.<br>15.1 Describe the abnormalities.<br>15.2 What is the diagnosis?`,
  gray:"15. อ่าน film knee + Dx. — Impression: OA knee",
  flag:NOIMG+" · ไฟล์ไม่ให้ประวัติผู้ป่วย",
@@ -331,7 +331,7 @@ Co({page:2,orig:"16",topic:"lab",sub:"Ascites",title:"Cirrhosis with ascites —
  summary:["SAAG ≥ 1.1 = portal hypertension","PMN ≥ 250/mm3 = peritonitis (SBP หรือ secondary)","Runyon: TP > 1, glucose < 50, LDH > ULN (≥ 2 ข้อ) + เชื้อหลายชนิด → secondary peritonitis","Secondary peritonitis: CT abdomen + ศัลยแพทย์ + ยาครอบคลุม anaerobes"]}),
 
 /* ===== OSCE 17 ===== */
-Co({page:2,orig:"17",topic:"lab",sub:"CSF",title:"Fever with neck stiffness — CSF cells and normal values",imgNote:NOIMG,
+Co({page:2,orig:"17",topic:"lab",sub:"CSF",title:"Fever with neck stiffness — CSF cells and normal values",imgNote:NOIMG,imgAlt:"เซลล์ในน้ำไขสันหลัง: เซลล์นิวเคลียสหลายพู 3–5 พูจำนวนมากทั้งหมด ไม่เห็นเซลล์นิวเคลียสกลมเดี่ยว",
  stem:`A patient presents with fever and neck stiffness. A stained preparation of the CSF cells is shown.<br>17.1 Identify the cells in the CSF.<br>17.2 Give the normal adult values for CSF opening pressure, WBC, protein and glucose.<br>17.3 How would each of these values change in this patient (increase or decrease)?`,
  gray:"17. ไข้ + stiff neck positive อ่าน cell ใน CSF + บอกค่า normal ของ OP WBC protein sugar ใน CSF + แปลผล (increase/decrease) — Impression: -เจอแต่ neutrophils",
  flag:NOIMG,

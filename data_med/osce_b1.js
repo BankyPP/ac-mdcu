@@ -100,12 +100,12 @@ A({page:3,orig:"4",topic:"img",title:"CXR — elderly smoker with chronic dyspne
  interp:"ชายสูงอายุสูบบุหรี่ เหนื่อยเรื้อรัง barrel chest + CXR hyperinflation = COPD (emphysema)",
  summary:["CXR COPD: hyperinflation, flat diaphragm, hyperlucent, tubular heart, retrosternal space กว้าง, bullae","วินิจฉัยด้วย spirometry post-BD FEV₁/FVC <0.7","เลิกบุหรี่ = ชะลอการเสื่อมของ FEV₁ ได้ดีที่สุด"]}),
 
-A({page:3,orig:"5",seen:"MDCU77 RoB ข้อ 7 (ข้อเดียวกัน: STEMI + 3rd degree AV block + RBBB)",topic:"ekg",title:"EKG — STEMI + complete heart block + RBBB (three findings in one tracing)",imgNote:NOIMG,
+A({page:3,orig:"5",seen:"MDCU77 RoB ข้อ 7 (ข้อเดียวกัน: STEMI + 3rd degree AV block + RBBB)",topic:"ekg",title:"EKG — STEMI + complete heart block + RBBB (three findings in one tracing)",imgNote:NOIMG,imgAlt:"EKG 12 lead: P wave สม่ำเสมอ อัตรา ~90/min · QRS กว้าง ~140 ms อัตราช้า ~40/min สม่ำเสมอ ไม่สัมพันธ์กับ P (PR ไม่คงที่ บาง P ตกลงใน QRS/T) · V1 เป็นรูป rSR' และ lead I, V6 มี S wave กว้าง · ST ยกขึ้นโค้งนูน 3–4 mm ที่ V1–V4",
  stem:`A patient presents with acute chest pain. A 12-lead EKG is obtained (as in previous AC exams, the tracing shows three abnormalities at once).<br>1. Please read the EKG in a systematic method.<br>2. Diagnosis.<br>3. Standard treatment.`,
  gray:"5 อ่าน EKG แบบใน AC เก่าที่มี 3 โรคในอันเดียว 1. Please read EKG in systematic method 2. Diagnosis (STEMI + 3rd degree AV block + RBBB : หารูปที่ครบไม่เจออ) 3. Standard treatments",
  flag:"⚠ ไม่มีรูป EKG ในไฟล์ — ฝึกบรรยาย EKG ที่คาดว่าจะเห็น · อาการ chest pain Claude เติม",
  parts:S(
-  B("5.1 Read the EKG systematically (describe the expected findings).",4,{tags:["ekg"],
+  B("5.1 Read the EKG systematically.",4,{tags:["ekg"],
    ans:"<b>Rate</b>: atrial rate (P) ~70–100/min, <b>ventricular rate ช้า ~30–50/min</b> · <b>Rhythm</b>: P–P regular, R–R regular แต่ <b>P กับ QRS ไม่สัมพันธ์กัน (AV dissociation)</b>, PR ไม่คงที่, P บางตัวจมใน QRS/T · <b>Axis</b>: (ขึ้นกับภาพ; RBBB เดี่ยวมักปกติ) · <b>P wave</b>: ปกติ · <b>QRS</b>: <b>กว้าง ≥ 120 ms</b>, <b>rsR' (M-shape) ใน V1–V2</b>, <b>wide slurred S ใน I, V5–V6</b> = RBBB (escape rhythm จาก ventricle/below bundle) · <b>ST–T</b>: <b>ST elevation</b> ใน leads ที่ติดกัน (เช่น II, III, aVF = inferior หรือ V1–V4 = anterior) + reciprocal ST depression · <b>Q wave</b> ตามระยะ",
    exp:"Complete heart block: atria และ ventricles เต้นอิสระ (atrial rate > ventricular rate) · RBBB: QRS ≥120 + rsR' V1 + wide S ใน I/V6 · <b>ใน RBBB ยังวินิจฉัย STEMI ได้ตามเกณฑ์ปกติ</b> (ต่างจาก LBBB) · inferior MI (RCA → AV node) มักทำให้ CHB ชั่วคราว (narrow escape) ; anterior MI ที่มี CHB + RBBB = infarct ของ septum/conduction system กว้าง (proximal LAD) พยากรณ์แย่",
    pts:[H("อ่านเป็นระบบ",30),P("Rate (atrial vs ventricular)","rate","อัตรา"),P("Rhythm / axis / intervals","rhythm","axis","interval","\\bpr\\b"),
@@ -318,8 +318,8 @@ Bo({page:3,orig:"8",topic:"img",title:"CXR — 25-year-old woman",img:"mo78b_8",
  interp:"หญิงอายุ 25 ปี CXR เห็น pleural line ขวาไม่มี lung marking ด้านนอก = right pneumothorax",
  summary:["PSP: ชายผอมสูง สูบบุหรี่ · SSP: COPD, TB, PCP","Large/symptomatic PSP → aspiration หรือ small-bore drain","Tension → needle decompression (5th ICS anterior axillary line ในผู้ใหญ่) → chest drain"]}),
 
-Bo({page:4,orig:"9",topic:"ekg",title:"EKG — right axis deviation + RBBB + STEMI",imgNote:NOIMG,
- stem:`A patient presents with acute chest pain. A 12-lead EKG is obtained, showing right axis deviation, right bundle branch block, and ST elevation.<br>1. Describe the EKG systematically (describe the expected findings).<br>2. Give your complete EKG diagnosis and its clinical significance.`,
+Bo({page:4,orig:"9",topic:"ekg",title:"EKG — right axis deviation + RBBB + STEMI",imgNote:NOIMG,imgAlt:"EKG 12 lead: sinus rhythm ~90/min · lead I เป็นลบเด่น (S ลึก) aVF บวก · QRS กว้าง ~130 ms: V1 เป็น rsR' และ V6/lead I มี S wave กว้างหนา · ST ยกขึ้น 2–4 mm ที่ V1–V4",
+ stem:`A patient presents with acute chest pain. A 12-lead EKG is obtained, showing right axis deviation, right bundle branch block, and ST elevation.<br>1. Describe the EKG systematically.<br>2. Give your complete EKG diagnosis and its clinical significance.`,
  gray:"9 ให้ ECG ที่มี (น่าจะนะ) - Right axis deviation - RBBB - Stemi · บรรยาย ECG อย่างเป็นระบบ",
  flag:"⚠ ไม่มีรูป EKG ในไฟล์และผู้จดไม่แน่ใจ (\"น่าจะนะ\") · อาการเจ็บหน้าอกและข้อ 9.2 Claude เติม",
  parts:S(

@@ -60,7 +60,7 @@ Co({page:34,orig:"3",topic:"pe",sub:"Acute abdomen",ex:1,title:"Examine and diag
 Co({page:34,orig:"4",topic:"img",sub:"Bowel obstruction",title:"Small bowel obstruction films A, B, C",
  stem:`Films A, B and C are given.<br>1. What is this set of investigations called?<br>2. Name each film in order and describe the abnormalities.<br>3. Give the diagnosis and the most common cause.`,
  gray:"4. อ่านฟิล์ม Small bowel obstruct มีให้ฟิล์มมา A, B, C 4.1 การตรวจนี้เรียกว่าอะไร 4.2 เรียงลำดับ A, B, C เรียกว่าฟิล์มอะไรบ้าง และอ่านความผิดปกติที่เห็น 4.3 ให้ diagnosis และบอกว่าสาเหตุที่พบได้บ่อยสุดคืออะไร",
- flag:NOIMG,imgAlt:"CXR upright, plain abdomen upright และ supine ลำไส้เล็กขยาย",
+ flag:NOIMG,imgAlt:"ฟิล์ม 3 แผ่น A, B, C (CXR ท่ายืน, ช่องท้องท่ายืน, ช่องท้องท่านอน) · ท่านอน: ลำไส้เล็กโป่งขยาย >3 cm หลายห่วงเรียงกลางท้อง เห็นรอยพับเยื่อบุพาดขวางเต็มความกว้างลำไส้ ลมในลำไส้ใหญ่และ rectum แทบไม่มี · ท่ายืน: air-fluid level หลายระดับเรียงสูงต่ำเป็นขั้นบันได บางห่วงมี 2 ระดับในห่วงเดียวกัน · CXR: ไม่มีลมใต้กะบังลม",
  notes:"แนวคำตอบในไฟล์: acute abdomen series (plain x-ray) · chest PA upright, abdomen upright, abdomen supine",opinion:"ความมั่นใจสูง",
  parts:S(
   BS("4.1 Name.",1,{tags:["img"],ans:"<b>Acute abdomen series</b> (plain X-ray)",rubric:"ได้",pts:[CR(P("Acute abdomen series","acute abdomen"))]}),
@@ -86,7 +86,7 @@ Co({page:34,orig:"5",topic:"inst",sub:"Tubes and drains",title:"Trocar, NG tube,
 Co({page:34,orig:"6",topic:"img",sub:"Mammogram",title:"Mammogram A and B",
  stem:`Mammogram films A and B are given (one patient; MLO and CC).<br>Name the views in order, report the abnormality (mass with calcification, lymph node), give the diagnosis and further investigation.`,
  gray:"8. ให้ film mammogram มา จงบอกชื่อการตรวจ A และ B ตามลำดับ (A กับ B เป็นคนละ view MLO กับ CC อะ), รายงานความผิดปกติที่พบ (มี mass กับ calcification อยู่ แต่ LN ไม่ทันดูอะ เหอๆ), ให้การวินิจฉัย และจะส่งตรวจอะไรเพิ่มเติม",
- flag:NOIMG,imgAlt:"Mammogram 2 view มีก้อนร่วมกับ calcification",
+ flag:NOIMG,imgAlt:"Mammogram 2 ภาพของผู้ป่วยคนเดียว (A ถ่ายเฉียงเห็นกล้ามเนื้อ pectoralis ที่มุมบน, B ถ่ายบน-ล่าง) · ส่วนบนด้านนอกมีก้อนทึบขนาด ~3 cm ขอบไม่เรียบเป็นแฉก ภายในและรอบก้อนมีจุดหินปูนเล็กละเอียดรูปร่างหลากหลายเรียงเป็นแนว · บริเวณรักแร้ในภาพ A มีต่อมน้ำเหลืองกลมทึบขนาด ~2 cm ไม่เห็นไขมันตรงกลางต่อม",
  notes:"ไม่มีเฉลยในไฟล์ · ผู้เขียน: มี mass + calcification, ไม่ทันดู LN",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   B("6.1 Answer.",6,{tags:["img"],ans:"A/B = <b>MLO และ CC</b> · <b>mass</b> (ตำแหน่ง ขนาด ขอบ density) + <b>microcalcification</b> · ดู <b>axillary lymph node</b> · Dx: <b>suspicious for breast carcinoma (BI-RADS 4–5)</b> · Ix: <b>US + core needle biopsy</b>",rubric:"1/ประเด็น",pts:[CR(P("MLO and CC","mlo","cc")),CR(P("Mass and calcification","mass","calcif")),P("Axillary node","axill","node"),CR(P("Breast carcinoma suspected","carcinoma","cancer","bi-rads")),CR(P("US and core biopsy","biopsy","ultrasound"))]})
@@ -108,7 +108,7 @@ Co({page:34,orig:"7",topic:"hx",sub:"Prostate",ex:1,title:"History — LUTS",
 /* ===== OSCE 8 ===== */
 Co({page:34,orig:"8",topic:"inst",sub:"Urinary catheter",title:"Three-way Foley catheter",
  stem:`1. What is this?<br>2. What is its specific use?`,
- gray:"11. ให้ 3-way foley catheter 11.1 สิ่งนี้คืออะไร 11.2 มีเพื่อใช้ทำอะไรโดยเฉพาะ",flag:NOIMG,imgAlt:"สายสวนปัสสาวะ 3 ทาง",
+ gray:"11. ให้ 3-way foley catheter 11.1 สิ่งนี้คืออะไร 11.2 มีเพื่อใช้ทำอะไรโดยเฉพาะ",flag:NOIMG,imgAlt:"สายสวนยางสีเหลืองขนาดใหญ่ ปลายสายมีบอลลูน ท้ายสายแยกเป็น 3 ช่อง แต่ละช่องมีสีจุกต่างกัน",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
  parts:S(
   B("8.1 Answer.",4,{tags:["inst"],ans:"<b>Three-way Foley catheter</b> · <b>continuous bladder irrigation</b> (clot retention, post-TURP)",rubric:"1/ประเด็น",pts:[CR(P("Three-way Foley","3-way","three-way","3 way","three way")),CR(P("Continuous bladder irrigation","irrigat","cbi"))]})
@@ -142,7 +142,7 @@ Co({page:35,orig:"10",topic:"proc",sub:"Scrub and gloving",ex:1,proc:1,title:"Ha
 /* ===== OSCE 11 ===== */
 Co({page:35,orig:"11",topic:"img",sub:"Urolithiasis",title:"IVP series — staghorn",
  stem:`Several IVP films are given (time is short). Describe, diagnose and treat.`,
- gray:"xx. IVP หลายแผ่นมากดูเกือบไม่ทัน น่าจะมี Staghorn",flag:NOIMG,imgAlt:"IVP หลาย phase มีนิ่วรูปเขากวาง",
+ gray:"xx. IVP หลายแผ่นมากดูเกือบไม่ทัน น่าจะมี Staghorn",flag:NOIMG,imgAlt:"ฟิล์ม IVP หลายแผ่น · scout film: เงาทึบรังสีก้อนใหญ่แตกเป็นกิ่งหลายแฉก รูปร่างเหมือนหล่อตามโพรง renal pelvis และ calyces ของไตขวา · หลังฉีดสาร ไตขวาขับสารช้าและน้อย calyces ที่เห็นป้านโป่ง · ไตซ้ายและท่อไตซ้ายปกติ",
  notes:"ผู้เขียนคิดว่าน่าจะมี staghorn",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   BS("11.1 Answer.",5,{tags:["img"],ans:"Scout: <b>branching radio-opaque calculus</b> เต็ม pelvicalyceal system · contrast phase: ไตข้างนั้นทำงานลดลง/hydronephrosis · Dx: <b>staghorn calculus</b> · Rx: <b>PCNL</b>",rubric:"1/ประเด็น",pts:[CR(P("Branching opaque calculus","branch","opaque","calcul")),CR(P("Staghorn","staghorn")),CR(P("PCNL","pcnl","percutaneous"))]})
@@ -151,7 +151,7 @@ Co({page:35,orig:"11",topic:"img",sub:"Urolithiasis",title:"IVP series — stagh
  summary:["Staghorn → PCNL","Struvite, Proteus"]}),
 
 /* ===== MEQ ===== */
-SA({page:40,orig:"MEQ 1",num:"SA 1",sub:"Others",flag:NOIMG,imgAlt:"ปลายนิ้วมือ/เท้าดำ เป็นแผลในชายสูบบุหรี่",title:"Short answer — thromboangiitis obliterans",
+SA({page:40,orig:"MEQ 1",num:"SA 1",sub:"Others",flag:NOIMG,imgAlt:"ชายวัยหนุ่มสูบบุหรี่จัด: ปลายนิ้วมือ 2 นิ้วมีแผลเล็กลึกและเนื้อตายดำที่ปลายนิ้ว นิ้วอื่นซีดเย็น · มีรอยแดงเป็นทางตามหลอดเลือดดำผิวที่ปลายแขน",title:"Short answer — thromboangiitis obliterans",
  stem:`A picture of thromboangiitis obliterans is shown. Give the diagnosis and treatment.`,
  gray:"1. ให้รูป Thromboangiitis obliterans ถามวินิจฉัย+รักษา",
  notes:"เฉลยในไฟล์: smoking cessation",opinion:"ความมั่นใจสูง",
@@ -171,7 +171,7 @@ SA({page:40,orig:"MEQ 5",num:"SA 2",sub:"Others",img:["mm40_par"],title:"Short a
  interp:"Paronychia",
  summary:["S. aureus","Soak + ATB → I&D","Subungual pus → remove nail"]}),
 
-SA({page:40,orig:"MEQ 12",num:"SA 3",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ลำไส้ออกนอกผนังหน้าท้องขวาของสายสะดือ ไม่มีถุง",title:"Short answer — gastroschisis",
+SA({page:40,orig:"MEQ 12",num:"SA 3",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ทารกแรกเกิด: ลำไส้หลายห่วงหนาบวม สีคล้ำ ผิวมีคราบเหนียวเกาะติดกันเป็นก้อน โผล่ออกนอกผนังหน้าท้องผ่านรูขนาด ~3 cm ที่อยู่ทางขวาของสายสะดือ · ไม่มีถุงหรือเยื่อคลุมลำไส้ · สายสะดือเกาะปกติที่ผนังหน้าท้อง · ไม่เห็นตับออกมา",title:"Short answer — gastroschisis",
  stem:`Give the diagnosis and management of gastroschisis.`,
  gray:"12. gastroschisis dx , management",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -192,7 +192,7 @@ SA({page:40,orig:"MEQ 14",num:"SA 4",sub:"Pediatric surgery",img:["mm40_axr"],ti
  interp:"Midgut volvulus",
  summary:["Bilious vomiting = emergency","Ladd's procedure"]}),
 
-SA({page:40,orig:"MEQ xx",num:"SA 5",sub:"Plastic",flag:NOIMG,imgAlt:"แผลกดทับ",title:"Short answer — bedsore position",
+SA({page:40,orig:"MEQ xx",num:"SA 5",sub:"Plastic",flag:NOIMG,imgAlt:"แผลกดทับลึกขนาด ~6 cm กลางก้นเหนือร่องก้น พื้นแผลมีเนื้อตายสีเหลืองดำ ตรงกลางแผลเป็นแนวกระดูกใต้แผล",title:"Short answer — bedsore position",
  stem:`A picture of a bedsore is shown. Which position caused it?`,
  gray:"xx. มีรูป Bedsore ถามว่าท่าไหน",
  notes:"ไม่มีเฉลยในไฟล์ · ไม่ทราบตำแหน่งแผลในรูป",opinion:"ความมั่นใจปานกลาง",

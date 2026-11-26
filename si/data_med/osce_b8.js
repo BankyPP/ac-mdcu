@@ -19,7 +19,7 @@ const NOIMG="ไม่มีรูปในไฟล์ — ข้อนี้�
 const Co=o=>Object.assign({set:"SI131",ro:"Ro401–404",file:"SIOS131A",opinion:""},o);
 QB.push(
 
-Co({page:4,orig:"1",topic:"micro",sub:"Gram stain",title:"70-year-old man in the ICU — sputum Gram stain",imgNote:NOIMG,
+Co({page:4,orig:"1",topic:"micro",sub:"Gram stain",title:"70-year-old man in the ICU — sputum Gram stain",imgNote:NOIMG,imgAlt:"Gram stain เสมหะ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพู ≥25 ต่อกล้องกำลังต่ำ เซลล์เยื่อบุผิวแบน <10 · เชื้อรูปกลมรีสั้นอ้วนกึ่งกลมกึ่งแท่ง ขนาดกลางถึงใหญ่ ติดสีชมพูแดง มักอยู่เป็นคู่",
  seen:"คล้าย SI130 Ro409–412 ข้อ 22 (sputum Gram stain ผู้ป่วยใส่เครื่องช่วยหายใจ — คนละเชื้อ)",
  stem:`A 70-year-old man is admitted to the intensive care unit. A sputum specimen is collected for Gram stain and examined under the microscope.<br>a. Describe the Gram-stained smear.<br>b. Name the most likely organism.`,
  gray:"1. Lab (sputum G/S) : ชาย 70 ปี นอนอยู่ที่ ICU ทําการเก็บเสมหะทํา sputum G/S · a. บรรยาย → Key adequate sputum (PMN >= 25 cells/LPF, squamous epithelial cells < 10 cells/LPF), gram negative medium to large coccobacilli · b. บอกชื่อเชื้อ → Key Acinetobacter baumannii",
@@ -41,7 +41,7 @@ Co({page:4,orig:"1",topic:"micro",sub:"Gram stain",title:"70-year-old man in the
  interp:"Sputum Gram stain ใน ICU: ประเมิน adequacy ก่อน แล้วบรรยายรูปร่างเชื้อ → นึกถึงเชื้อ nosocomial",
  summary:["Adequate sputum: PMN ≥ 25/LPF และ squamous epithelial < 10/LPF","GN coccobacilli อ้วนเป็นคู่ในผู้ป่วย ICU = Acinetobacter baumannii (ดื้อยาบ่อย)","GN coccobacilli ตัวเล็กนอก รพ. = H. influenzae"]}),
 
-Co({page:4,orig:"2",topic:"micro",sub:"PBS",title:"70-year-old woman with fatigue and constipation — blood smear",imgNote:NOIMG,
+Co({page:4,orig:"2",topic:"micro",sub:"PBS",title:"70-year-old woman with fatigue and constipation — blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดสีปกติแต่เรียงซ้อนกันเป็นตั้งคล้ายเหรียญหลายแถว พื้นหลังติดสีฟ้าเข้ม · เม็ดเลือดขาวจำนวนปกติ นิวโทรฟิลเด่น · เกล็ดเลือดปกติ",
  seen:"SI130 Ro409–412 ข้อ 24 · SI132 Ro403–404 ข้อ 12 · SI133 Ro405–406 ข้อ 1 (เพลีย + ท้องผูก → rouleaux)",
  stem:`A 70-year-old woman presents with fatigue for 3 months and constipation for 1 week. Her peripheral blood smear is examined under the microscope.<br>a. Describe the blood smear.<br>b. Give your differential diagnosis.<br>c. Name the investigations you would request.`,
  gray:"2. Lab (blood smear) : หญิง 70 ปี มาด้วยอ่อนเพลีย 3 mo ท้องผูกมา 1 wk · a. บรรยาย → Key RBC : NCNC, Rouleaux formation · WBC normal in number PMN predominate, normal platelet normal staining · b. Ddx → Key multiple myeloma > chronic inflammation, autoimmune, infection · c. บอกชื่อการส่งตรวจ → Key serum protein electrophoresis, bone marrow study, immunofixation",
@@ -94,7 +94,7 @@ Co({page:4,orig:"3",topic:"hx",sub:"Syncope",ex:1,title:"History taking — loss
  interp:"ซักประวัติหมดสติ: แยก syncope กับ seizure จากเหตุการณ์ก่อน–ขณะ–หลัง (ถามพยาน) และคัด cardiac syncope",
  summary:["Vasovagal: ตัวกระตุ้น (ยืนนาน ร้อน เจ็บ) + prodrome (เหงื่อ คลื่นไส้ ตาลาย) + ฟื้นเร็ว ไม่สับสน","Seizure: aura, กัดลิ้นด้านข้าง, เกร็งกระตุกนาน, postictal confusion","Red flag cardiac syncope: ขณะออกแรง/นอน, ใจสั่นนำ, ไม่มี prodrome, โรคหัวใจ, FH sudden death → EKG ทุกราย"]}),
 
-Co({page:4,orig:"4",topic:"img",sub:"Acute abdomen film",title:"70-year-old woman — acute abdomen series",imgNote:NOIMG,
+Co({page:4,orig:"4",topic:"img",sub:"Acute abdomen film",title:"70-year-old woman — acute abdomen series",imgNote:NOIMG,imgAlt:"ฟิล์ม 3 ท่า: CXR ท่ายืนไม่มีลมใต้กะบังลม · ช่องท้องท่ายืนมี air-fluid level หลายระดับเรียงขั้นบันได · ช่องท้องท่านอนเห็นลำไส้เล็กโป่งหลายห่วงกลางท้อง มีรอยพับพาดเต็มความกว้าง ลำไส้ใหญ่มีลมน้อย",
  seen:"คล้าย SI132 Ro403–404 ข้อ 3 (acute abdomen series ท้องอืด bowel sound high pitch)",
  stem:`A 70-year-old woman is evaluated with an acute abdomen series.<br>a. Read the films.<br>b. Give your diagnosis.`,
  gray:"4. Xray (acute abdomen series) : หญิง 70 ปี ให้ film acute abdomen series มา · a. อ่าน film → Key **อย่าลืมเขียนชื่อ film ที่บรรยายด้วยจ้า · Film chest upright : no free air under dome of diaphragm · Film abdomen upright : stepladder pattern (different height of air-fluid level in the same loop) · Film abdomen supine : small bowel dilatation with air-fluid filled · b. Dx (ไฟล์จบตรงนี้)",

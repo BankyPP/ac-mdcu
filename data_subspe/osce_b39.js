@@ -48,7 +48,7 @@ Co({page:54,orig:"2",topic:"pe",sub:"Acute abdomen",ex:1,title:"Examine severe r
 Co({page:54,orig:"3",topic:"img",sub:"Urolithiasis",title:"IVP — right staghorn stone with hydronephrosis",
  stem:`Many IVP films are given (find the scout film quickly; the film name is in the lower-left corner).<br>1. Describe the abnormality.<br>2. Diagnosis.<br>3. Treatment.`,
  gray:"3. Film IVP (ฟิล์มมากมาย ต้องรีบหา Scout film ;มีชื่อฟิล์มที่มุมซ้ายล่าง) 3.1. บรรยายความผิดปกติที่พบ (Right staghorn stone with right hydronephrosis) 3.2. ให้การวินิจฉัย 3.3. การรักษา",
- flag:NOIMG,imgAlt:"IVP นิ่วเขากวางไตขวา + hydronephrosis",
+ flag:NOIMG,imgAlt:"ชุดฟิล์ม IVP หลายแผ่น (ชื่อฟิล์มที่มุมซ้ายล่าง) · scout film: เงาทึบรังสีใหญ่แตกกิ่งเต็ม renal pelvis และ calyces ไตขวา · หลังฉีดสาร ไตขวาขับสารช้า calyces ป้านโป่ง · ไตซ้ายปกติ",
  notes:"แนวคำตอบในไฟล์: right staghorn stone with right hydronephrosis · PCNL",opinion:"ความมั่นใจสูง",
  parts:S(
   BS("3.1 Answer.",5,{tags:["img"],ans:"<b>Right staghorn stone with right hydronephrosis</b> (delayed excretion ไตขวา) · Rx: <b>PCNL</b> (+ รักษาการติดเชื้อ)",rubric:"1/ประเด็น",pts:[CR(P("Staghorn stone","staghorn")),CR(P("Hydronephrosis","hydroneph")),CR(P("PCNL","pcnl","percutaneous"))]})
@@ -82,7 +82,7 @@ Co({page:54,orig:"5",topic:"hx",sub:"Prostate",title:"LUTS for 6 months — asse
 Co({page:55,orig:"6",topic:"img",sub:"Bowel obstruction",title:"Acute abdomen series A, B, C",
  stem:`An acute abdomen series (3 films labelled A, B, C).<br>1. Positions of films A, B, C.<br>2. Describe the abnormalities.<br>3. Diagnosis.<br>4. Initial treatment.`,
  gray:"6. Film Acute abdomen series (3 ฟิล์ม ติดตัวอักษร ABC) 6.1. ท่าที่ถ่ายของฟิล์ม A,B,C คืออะไร 6.2. จงบรรยายความผิดปกติที่พบ 6.3. จงให้การวินิจฉัย(?) 6.4. จงบอกการให้การรักษาเบื้องต้น",
- flag:NOIMG,imgAlt:"Acute abdomen series ลำไส้เล็กขยาย",
+ flag:NOIMG,imgAlt:"ฟิล์ม A (CXR ท่ายืน) ไม่มีลมใต้กะบังลม · ฟิล์ม B (ช่องท้องท่ายืน) air-fluid level หลายระดับเป็นขั้นบันได · ฟิล์ม C (ช่องท้องท่านอน) ลำไส้เล็กโป่งหลายห่วงกลางท้อง เห็นรอยพับพาดเต็มความกว้าง ลำไส้ใหญ่และ rectum มีลมน้อยมาก",
  notes:"ไม่มีเฉลยในไฟล์ · ไม่มีรูป — เฉลยตัวอย่าง SBO",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   B("6.1 Answer.",7,{tags:["img"],ans:"A <b>CXR upright</b> · B <b>abdomen upright</b> · C <b>abdomen supine</b> · dilated small bowel, step-ladder air-fluid levels, ลมน้อยใน colon · Dx: <b>small bowel obstruction</b> · Initial: <b>NPO, NG decompression, IV fluid + electrolyte correction</b>, Foley/I-O, analgesia · มี strangulation/peritonitis → ผ่าตัด; adhesive SBO ไม่มี sign → conservative ± water-soluble contrast",rubric:"1/ประเด็น",pts:[CR(P("CXR upright, abdomen upright and supine","upright","supine")),CR(P("Dilated small bowel, air-fluid levels","dilat","air-fluid","air fluid")),CR(P("SBO","small bowel obstruction","sbo")),CR(P("NPO, NG, IV fluid","npo","ng","fluid")),P("Surgery if strangulation","strangul","surg","peritonitis")]})
@@ -94,7 +94,7 @@ Co({page:55,orig:"6",topic:"img",sub:"Bowel obstruction",title:"Acute abdomen se
 Co({page:55,orig:"7",topic:"img",sub:"Mammogram",title:"Mammogram — arrange films and report",
  stem:`Mammogram films are given to arrange yourself.<br>1. What is this investigation, and which views are A and B?<br>2. Abnormality.<br>3. Further investigation for diagnosis.`,
  gray:"7. Mammogram มีฟิล์มให้เอามาเรียง/วางเอง 7.1. การส่งตรวจนี้เรียกว่าอะไร จงบอกว่า A,B คือถ่ายท่าอะไร 7.2. จงบอกความผิดปกติที่พบ 7.3. จะส่งตรวจอะไรเพิ่มเติมเพื่อการวินิจฉัย",
- flag:NOIMG,imgAlt:"Mammogram 2 view",
+ flag:NOIMG,imgAlt:"ฟิล์ม mammogram 2 แผ่น (ยังไม่ได้วางเรียง): แผ่น A ถ่ายจากบนลงล่าง หัวนมอยู่ตรงกลาง · แผ่น B ถ่ายเฉียง เห็นกล้ามเนื้อ pectoralis เป็นสามเหลี่ยมมุมบน · ทั้งสองแผ่นเห็นก้อนทึบขนาด ~2 cm ส่วนบนด้านนอกของเต้านมซ้าย ขอบไม่เรียบมีเส้นแหลมแผ่ออก เนื้อเต้านมรอบก้อนดึงรั้งเข้าหา · ไม่มีหินปูน · หัวนมและผิวหนังปกติ",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   B("7.1 Answer.",5,{tags:["img"],ans:"<b>Mammography</b> · A/B = <b>CC และ MLO</b> · บรรยาย mass (ขอบ density), calcification, distortion, skin/nipple, axillary node → BI-RADS · <b>US ± core needle biopsy</b>",rubric:"1/ประเด็น",pts:[CR(P("Mammography","mammogra")),CR(P("CC and MLO","cc","mlo")),P("Describe abnormality","mass","calcif","spicul"),CR(P("US and core biopsy","ultrasound","biopsy"))]})
@@ -106,7 +106,7 @@ Co({page:55,orig:"7",topic:"img",sub:"Mammogram",title:"Mammogram — arrange fi
 Co({page:55,orig:"8",topic:"inst",sub:"Suture materials",title:"Six sutures — generic name, filament, absorbable, use",
  stem:`Six sutures (names hidden — identify by packet and thread colour): PDS, Prolene, nylon, silk, catgut, Vicryl.<br>1. Generic name and filament type of each.<br>2. Which are absorbable? (list all)<br>3. One procedure for each.`,
  gray:"8. ให้ด้ายมา 6 อัน PDS Prolene Nylon Silk Catgut Vicryl (ปิดชื่อ อาศัยจำสีซองสีด้าย) แล้วให้ตอบคำถามต่อไปนี้ 8.1. จงบอก generic name แต่ละตัว + ชนิด filament 8.2. ตัวไหนที่ละลายได้บ้าง (ตอบมาให้หมด) 8.3. จงบอกหัตถการที่ใช้ไหมดังกล่าวมาอย่างละ 1 หัตถการ",
- flag:NOIMG,imgAlt:"ซองไหม 6 ชนิด ปิดชื่อ",
+ flag:NOIMG,imgAlt:"ไหม 6 ซองปิดชื่อ เห็นแต่สีซองและเส้นไหม: (1) ไหมสีม่วงเส้นเดี่ยวเรียบ (2) ไหมสีน้ำเงินเส้นเดี่ยวเรียบ (3) ไหมสีดำเส้นเดี่ยวเรียบแข็ง (4) ไหมสีดำถักเกลียว (5) ไหมสีน้ำตาลอ่อนบิดเกลียวแช่น้ำยา (6) ไหมสีม่วงถักเกลียว",
  notes:"แนวคำตอบในไฟล์: absorbable = catgut, PDS, vicryl · PDS เย็บ bowel · Prolene เย็บ vessel · Nylon เย็บ skin · Silk ผูก vessels · Catgut เย็บ perineum · Vicryl เย็บ subcutaneous tissue",opinion:"ความมั่นใจสูง",
  parts:S(
   BS("8.1 Generic and filament.",3,{tags:["inst"],ans:"PDS = <b>polydioxanone</b> mono · Prolene = <b>polypropylene</b> mono · Nylon = <b>polyamide</b> mono · Silk = natural multi (braided) · Catgut = natural (collagen) multi/twisted · Vicryl = <b>polyglactin 910</b> multi (braided)",rubric:"1/ประเด็น",pts:[P("Polydioxanone","polydioxanone"),P("Polypropylene","polypropylene"),P("Polyamide","polyamide"),CR(P("Polyglactin","polyglactin"))]}),
@@ -203,7 +203,7 @@ SA({page:68,orig:"MEQ 4",num:"SA 4",sub:"Others",img:["mm68_1"],title:"Short ans
  interp:"CVI",
  summary:["Evening aching, pigmentation","Trendelenburg test","Duplex"]}),
 
-SA({page:68,orig:"MEQ 5",num:"SA 5",sub:"Neuro",flag:NOIMG,imgAlt:"รูปการตรวจกล้ามเนื้อ 3 ท่า",kimg:["mm68_2","mm69_1","mm69_2"],title:"Short answer — muscle and nerve root from examination pictures",
+SA({page:68,orig:"MEQ 5",num:"SA 5",sub:"Neuro",flag:NOIMG,imgAlt:"รูปการตรวจกำลังกล้ามเนื้อ 3 ท่า: (1) ผู้ป่วยงอปลายนิ้วมือข้อปลายสุดต้านมือผู้ตรวจที่จับข้อกลางนิ้วไว้ (2) ผู้ป่วยนอนหงายยกต้นขางอสะโพกขึ้นต้านมือที่กดเหนือเข่า (3) ผู้ป่วยกดปลายเท้าลงต้านมือที่ฝ่าเท้า",kimg:["mm68_2","mm69_1","mm69_2"],title:"Short answer — muscle and nerve root from examination pictures",
  stem:`From the following examinations, name the muscle and nerve root being tested in each.`,
  gray:"5. จากท่าการตรวจดังต่อไปนี้ จงบอก กล้ามเนื้อ Nerve root ที่กำลังถูกตรวจในแต่ละอัน (หาในเวปละเจอรูปเป๊ะๆพอดี เลยแคปมาใส่) 5.1 5.2 5.3",
  notes:"รูปจากไฟล์มีชื่อท่ากำกับ (C8 finger flexion, L1 & L2 hip flexion, ankle plantar flexion) จึงใส่เป็นรูปเฉลย",opinion:"ความมั่นใจสูง",
@@ -265,7 +265,7 @@ SA({page:71,orig:"MEQ 10",num:"SA 10",sub:"Pediatric surgery",flag:NOIMG,imgAlt:
  interp:"Hirschsprung",
  summary:["Delayed meconium + distension","Transition zone on contrast enema","Suction biopsy → pull-through"]}),
 
-SA({page:71,orig:"MEQ 11",num:"SA 11",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"เด็กมีถุงอัณฑะบวม",title:"Short answer — child with hydrocele",
+SA({page:71,orig:"MEQ 11",num:"SA 11",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ถุงอัณฑะขวาของเด็กชายบวมโตตึงใส ไม่แดง ไม่เจ็บ ขนาดเปลี่ยนตามช่วงวัน",title:"Short answer — child with hydrocele",
  stem:`A picture of a child with hydrocele.<br>1. Important further examination and diagnosis.<br>2. Treatment and appropriate age.`,
  gray:"11. ให้รูปเด็กที่เป็น hydrocele 11.1. จงบอกการตรวจร่างกายเพิ่มเติมที่สำคัญเพื่อนำไปสู่การวินิจฉัย และ จงให้การวินิจฉัย 11.2. จงบอกวิธีการรักษาและอายุที่เหมาะสมสำหรับการให้การรักษา",
  notes:"เฉลยในไฟล์: transillumination test / hydrocele · hydrocelectomy at 2 years old (เด็ก: ผ่าทาง inguinal = herniotomy/high ligation of processus vaginalis)",opinion:"ความมั่นใจสูง",

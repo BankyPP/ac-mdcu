@@ -261,7 +261,7 @@ Co({page2:28,orig:"11",topic:"lab",title:"Hypokalemia — calculate TTKG and uri
  interp:"Hypokalemia: urine K/TTKG สูง = renal loss · NAGMA + UAG บวก = ไตขับ NH₄⁺ ไม่ได้ = RTA · urine pH >5.5 + K ต่ำ = distal (type 1) RTA",
  summary:["TTKG = (UK × Posm)/(PK × Uosm) · ใช้เมื่อ Uosm > Posm, UNa > 25","Hypokalemia: TTKG <2–3 = extrarenal · >4–7 = renal K wasting","UAG = UNa + UK − UCl: ลบ = GI loss · บวก = RTA","Distal RTA: urine pH >5.5, K ต่ำ, นิ่ว/nephrocalcinosis · Sjögren, amphotericin B, toluene","Proximal RTA: Fanconi, myeloma, tenofovir, acetazolamide · Type 4: K สูง"]}),
 
-Co({page2:31,orig:"12",topic:"micro",title:"Gram stain — pus from a psoas abscess: organism and antibiotics",imgNote:NOIMG,
+Co({page2:31,orig:"12",topic:"micro",title:"Gram stain — pus from a psoas abscess: organism and antibiotics",imgNote:NOIMG,imgAlt:"Gram stain หนองจาก psoas: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · เชื้อกลมติดสีม่วงจับกันเป็นกลุ่มก้อนคล้ายพวงองุ่น",
  stem:`A 55-year-old man with diabetes presents with fever and right flank and hip pain for 2 weeks. He keeps his right hip slightly flexed, and passive hip extension is painful. CT of the abdomen shows a right psoas abscess, which is drained percutaneously. The Gram stain of the pus is shown.<br>1. Interpret the Gram stain.<br>2. Name the most likely organism.<br>3. Name the appropriate antibiotic(s).`,
  gray:"Psoas abscess เจาะหนองออกมา - แปลผล Gram stain: gram positive diplococci (เราว่า gram positive cocci in cluster นะ รูปมันกำกวม) - เชื้อที่น่าจะเป็นมากที่สุด - ATB:",
  flag:"⚠ "+NOIMG+" · "+NOANS+" · ผู้จดบันทึกว่าไฟล์อ่าน 'gram positive diplococci' แต่ตัวเองคิดว่าเป็น gram positive cocci in clusters (รูปกำกวม) · ประวัติผู้ป่วย Claude เติม",

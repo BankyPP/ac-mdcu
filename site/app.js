@@ -577,7 +577,7 @@ function rMHist(){{const T=P_().type||"MCQ";if(T!=="MCQ"&&mhTypes().includes(T))
   {const t=$("mhToday");if(!mhNoJump&&t&&rows.indexOf(rows.find(r=>r.d===today))>2)setTimeout(()=>t.scrollIntoView({block:"start"}),30);mhNoJump=false;}
   document.querySelectorAll("[data-md]").forEach(b=>b.onclick=()=>{const d=b.dataset.md,p=+b.dataset.mp,i=+b.dataset.mi,x=(mornRecs()[d]||[]).find(y=>y.p===p);if(!x)return;
     const P=P_();if(d===mDay()&&P.morn[1]&&P.morn[1].day===d&&p===1){qStop();P.sess={kind:"morning",title:"Morning round",ph:ph(),day:d,list:P.morn[1].list.slice(),ans:Object.assign({},P.morn[1].ans),cur:i,ts:now()};save();return go(ward+"/sess");}
-    qStop();P.sess={kind:"mday",title:"Morning round · "+dayTH(d),ph:ph(),day:d,mp:p,list:mornStat(x).list,ans:Object.assign({},x.ans),cur:i,ts:now()};save();go(ward+"/sess");});
+    qStop();P.sess={kind:"mday",title:"Morning round · ชุดวัน "+dayTH(d),ph:ph(),day:d,mp:p,list:mornStat(x).list,ans:Object.assign({},x.ans),cur:i,ts:now()};save();go(ward+"/sess");});
 }
 function startMorning(){const m=morning(true);if(!m){toast(mOut?"Morning round ออกครบทุกข้อในวอร์ดนี้แล้ว — ไม่มีข้อใหม่ที่ยังไม่เคยออก":"ยังไม่มีข้อให้ทำ — ยังไม่มีข้อสอบเก่าหรือโจทย์ Unit round ในวอร์ดนี้");return;}
   qStop();const i=m.list.findIndex(u=>m.ans[u]===undefined);
@@ -1039,7 +1039,7 @@ function rQuiz0(){
   else if(view==="lrev"){const X=legPaper(),i=legIdx();h+=`<div class="sessbar">Legendary round · เฉลยข้อ ${i+1}/${X.list.length} · ได้เกรด ${esc(gradeOf(X.pct))}${X.star[q.uid]?" · ★ ติดดาวไว้":""}</div>`;}
   else if(view==="admq"){const L_=bankItems(AM,ward),i=L_.findIndex(x=>x.key===st.admSel);h+=`<div class="sessbar">${AMN()} · คลังของฉัน ข้อ ${i+1}/${L_.length} · สร้างเมื่อ ${fmtD(bank[st.admSel].c)}</div>`;}
   else if(isAdv()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · อ่านเฉลย · ประวัติ${s.hp==="p"?` Phase ${s.ph}`:"ทั้ง 2 Phase"}</div>`;}
-  else if(isSess()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)} · ข้อ ${s.cur+1}/${s.list.length} · Phase ${s.ph}</div>`;}
+  else if(isSess()){const s=P.sess;h+=`<div class="sessbar">${esc(s.title)}${s.kind==="morning"&&s.day&&!String(s.title).includes("·")?" · ชุดวัน "+esc(dayTH(s.day)):""} · ข้อ ${s.cur+1}/${s.list.length} · Phase ${s.ph}</div>`;}
   const lab=q.lai?["โจทย์","Legendary"]:q.spc?["เคส","Specialty"]:q.adm?["เคส","Admission"]:q.unit?["Lecture","Unit"]:[CFG.setLabel||"ปี",CFG.roLabel||"Rotation"];
   h+=`<div class="qhead"><div class="qnum">${view==="lrev"?legIdx()+1:q.adm?"A":q.id}.</div><div class="fields"><span class="field"><b>${lab[0]}</b>${esc(q.set)}</span><span class="field"><b>${lab[1]}</b>${esc(q.ro)}</span>${view==="lrev"?legPreFields(legPaper(),q.uid):seenFields(q,curRK())}</div>${q.adm?"":`<button class="flag" id="flagBtn" aria-pressed="${flagged(P,q.uid)}" title="ทำเครื่องหมายข้อที่ยังไม่มั่นใจ">⚑ ไม่มั่นใจ</button>`}</div>`;
   h+=tagRow(q);

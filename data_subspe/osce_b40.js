@@ -48,7 +48,7 @@ Co({page:58,orig:"2",topic:"pe",sub:"Bowel obstruction",ex:1,title:"Examine a pa
 Co({page:58,orig:"3",topic:"img",sub:"Mammogram",title:"Mammogram and ultrasound — describe and diagnose",
  stem:`A mammogram (followed by an ultrasound) is shown. Describe the lesion and give the diagnosis.`,
  gray:"3.Film mammogram(หลังจากนั้นมีultrasoundด้วยนะ) ให้บรรยายlesion เเละdx",
- flag:NOIMG,imgAlt:"Mammogram + US เต้านม",
+ flag:NOIMG,imgAlt:"Mammogram 2 ภาพ: ก้อนทึบขนาด ~2 cm ที่ส่วนบนด้านนอก ขอบไม่เรียบเป็นแฉก มีจุดหินปูนเล็ก · Ultrasound ก้อนเดียวกัน: เนื้อทึบเสียงดำ ขอบหยัก แนวตั้งสูงกว่ากว้าง มีเงามืดด้านหลังก้อน",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   B("3.1 Answer.",5,{tags:["img"],ans:"Mammogram: view (CC/MLO), ตำแหน่ง, <b>mass margin (spiculated/irregular), density, microcalcification</b> · US: hypoechoic, irregular, taller-than-wide, posterior shadowing · Dx: <b>suspicious breast carcinoma (BI-RADS 4–5)</b> → core needle biopsy",rubric:"1/ประเด็น",pts:[P("Views","cc","mlo"),CR(P("Mass features","spicul","irregular","margin")),P("US features","hypoecho","taller","shadow"),CR(P("Carcinoma / BI-RADS","carcinoma","cancer","bi-rads")),P("Core biopsy","biopsy")]})
@@ -84,7 +84,7 @@ Co({page:58,orig:"5",topic:"img",sub:"Urolithiasis",title:"IVP with filling defe
 Co({page:58,orig:"6",topic:"img",sub:"Bowel obstruction",title:"Gut obstruction — 3 films",
  stem:`Three films of gut obstruction.<br>1. Name and position of each film.<br>2. Describe.<br>3. Diagnosis.<br>4. Treatment.`,
  gray:"6. Film Gut obstruction 3 แผ่น ถาม1.ชื่อfilmอะไร+มีท่าอะไรบ้าง 2.บรรยายลักษณะ 3.วินิจฉัย 4.การรักษา",
- flag:NOIMG,imgAlt:"CXR upright, abdomen upright, supine",
+ flag:NOIMG,imgAlt:"ฟิล์ม 3 แผ่น (CXR ท่ายืน, ช่องท้องท่ายืน, ช่องท้องท่านอน): ลำไส้เล็กโป่งหลายห่วงกลางท้อง เห็นรอยพับเต็มความกว้าง ท่ายืนมี air-fluid level หลายระดับเป็นขั้นบันได ลมในลำไส้ใหญ่น้อยมาก ไม่มีลมใต้กะบังลม",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
  parts:S(
   B("6.1 Answer.",7,{tags:["img"],ans:"<b>Acute abdomen series</b>: CXR upright, abdomen upright, abdomen supine · dilated small bowel, valvulae, <b>air-fluid levels ต่างระดับใน loop เดียวกัน</b> · Dx: <b>small bowel obstruction</b> (adhesion) · Rx: <b>NPO, NG decompression, IV fluid/electrolyte</b>, monitor → strangulation/ไม่ดีขึ้น → <b>laparotomy (adhesiolysis)</b>",rubric:"1/ประเด็น",pts:[CR(P("Three films with positions","upright","supine")),CR(P("Dilated SB with air-fluid levels","dilat","air-fluid","air fluid")),CR(P("SBO","small bowel obstruction","sbo")),CR(P("NPO, NG, IV fluid","npo","ng","fluid")),P("Surgery if strangulation/failure","surg","laparotomy","adhesiolysis")]})
@@ -96,7 +96,7 @@ Co({page:58,orig:"6",topic:"img",sub:"Bowel obstruction",title:"Gut obstruction 
 Co({page:58,orig:"7",topic:"path",sub:"Breast cancer staging",title:"Pathology report — wide excision and SLNB: TNM",
  stem:`A 2-page pathology report (in English) of a wide excision of the breast and sentinel lymph node biopsy is given. Give the TNM stage.`,
  gray:"7.ผลpatho wide excision breast เเละ sentinel lymphnode biopsy ยาว2หน้าเป็นภาษาอังกฤษทั้งหมด เเล้วให้บอก TNM (อันนี้มีคำเยอะอะ รีบๆหาตรงที่เขารายงานผลจริงๆนะเดี๋ยวไม่ทัน)",
- flag:NOIMG,imgAlt:"ใบรายงานผลพยาธิวิทยา (ไม่ได้นำมาลง)",
+ flag:NOIMG,imgAlt:"รายงานพยาธิวิทยา 2 หน้า (สรุปส่วนสำคัญ): Left breast, wide excision: invasive ductal carcinoma, histologic grade 2 · largest tumor dimension 2.8 cm · margins free (closest 0.6 cm) · lymphovascular invasion present · ER positive 90%, PR positive 60%, HER2 negative (IHC 1+) · Sentinel lymph nodes, left axilla: metastatic carcinoma in 1 of 3 nodes, largest deposit 4 mm, no extranodal extension · ไม่มีข้อมูลการแพร่กระจายไปอวัยวะอื่น",
  notes:"ไม่มีเฉลยในไฟล์ · ไม่มีใบผลจริง — ข้อนี้ฝึกหลักการอ่าน · ตรวจคีย์ 22 พ.ย. 2026: เดิมไม่ได้บอก suffix (sn) ทั้งที่โจทย์เป็น wide excision + SLNB → เพิ่ม ‘pN…(sn) เมื่อจัด N จาก SLNB และ LN &lt;6 ต่อม’ และ ITC = pN0(i+) ตาม AJCC Cancer Staging Manual 8th ed. (Breast)",opinion:"ความมั่นใจปานกลาง · ตรวจคีย์ (22 พ.ย. 2026): รายงาน SLNB ต้องใส่ suffix (sn) ถ้า LN ที่ตัด &lt;6 ต่อม (AJCC 8th) · ความมั่นใจสูง (หลักการ) / ปานกลาง (ไม่มีใบผลจริง)",
  parts:S(
   B("7.1 How to stage.",6,{tags:["path"],ans:"อ่านส่วน <b>final diagnosis/synoptic</b>: ชนิด (IDC), grade, <b>ขนาดก้อนใหญ่สุด → T</b> (T1 ≤2 ซม., T2 >2–5, T3 >5, T4 chest wall/skin) · margin, LVI · <b>จำนวน node positive/total → N</b> (pN1 1–3, pN2 4–9, pN3 ≥10; micrometastasis &gt;0.2–2 mm = pN1mi; ITC ≤0.2 mm = pN0(i+)) · <b>suffix (sn)</b>: ใส่เมื่อจัด N จาก sentinel node biopsy และจำนวน LN ที่ตัดออกรวม (sentinel + non-sentinel) &lt;6 ต่อม เช่น <b>pN1a(sn)</b> — ถ้าได้ ≥6 ต่อมไม่ใส่ (AJCC 8th) · หลายก้อนใส่ (m) ที่ T · M จาก staging (ไม่มีข้อมูล = cM0) · ER/PR/HER2, Ki-67",rubric:"1/ประเด็น",pts:[CR(P("T from largest tumor size","size","t1","t2","ขนาด")),CR(P("N from number of positive nodes + (sn) suffix ถ้า SLNB และ LN &lt;6 ต่อม","node","pn1","n1","positive","\\(sn\\)","sentinel")),P("M from clinical staging","m0","metast"),P("Margin, grade, LVI","margin","grade","lvi"),P("Receptor status","er","her2")]})
@@ -172,7 +172,7 @@ SA({page:73,orig:"MEQ 1",num:"SA 1",sub:"Plastic",img:["mm73_3"],title:"Short an
  interp:"Nasal pigmented lesion",
  summary:["Biopsy first","Melanoma: WLE + SLNB","BCC on nose: Mohs"]}),
 
-SA({page:73,orig:"MEQ 2",num:"SA 2",sub:"Plastic",kimg:["mm73_4"],flag:NOIMG,imgAlt:"ไม่มีรูป",title:"Short answer — reconstructive ladder",
+SA({page:73,orig:"MEQ 2",num:"SA 2",sub:"Plastic",kimg:["mm73_4"],flag:NOIMG,title:"Short answer — reconstructive ladder",
  stem:`Write the steps of reconstruction (plastic surgery reconstructive ladder).`,
  gray:"2. จงเขียนขั้นตอน reconstruction (sub.plastic)",
  notes:"ไฟล์แนบรูปสไลด์ reconstructive ladder",opinion:"ความมั่นใจสูง",
@@ -182,7 +182,7 @@ SA({page:73,orig:"MEQ 2",num:"SA 2",sub:"Plastic",kimg:["mm73_4"],flag:NOIMG,img
  interp:"Reconstructive ladder",
  summary:["Secondary → primary → graft → flap → free flap","Choose simplest that achieves form and function"]}),
 
-SA({page:73,orig:"MEQ 3",num:"SA 3",sub:"Plastic",flag:NOIMG,imgAlt:"แผลดำที่นิ้วเท้า",title:"Short answer — black lesion on a toe",
+SA({page:73,orig:"MEQ 3",num:"SA 3",sub:"Plastic",flag:NOIMG,imgAlt:"นิ้วโป้งเท้าของผู้สูงอายุ: ปื้นสีดำสนิทปนน้ำตาลกินพื้นที่ใต้และรอบเล็บ สีลามออกไปถึงผิวหนังรอบเล็บ (หนังรอบเล็บมีสีดำด้วย) เล็บบางส่วนแตกหลุด · ตรงกลางเป็นแผลมีเลือดซึม ขอบไม่เรียบ · ผู้ป่วยไม่มีประวัติบาดเจ็บที่นิ้ว และบอกว่าค่อย ๆ โตใน 1 ปี",title:"Short answer — black lesion on a toe",
  stem:`A black lesion on a toe (likely melanoma). Give the diagnosis and treatment.`,
  gray:"3. รูปแผลดำๆที่นิ้วเท้า ( คิดว่าเป็น melanoma) จงบอกผลการวินิจฉัย และ การรักษา",
  notes:"ผู้เขียนคิดว่าเป็น melanoma · เฉลยในไฟล์: malignant melanoma, Mohs + sentinel LN",opinion:"ความมั่นใจปานกลาง",
@@ -192,7 +192,7 @@ SA({page:73,orig:"MEQ 3",num:"SA 3",sub:"Plastic",flag:NOIMG,imgAlt:"แผล�
  interp:"Acral melanoma",
  summary:["Biopsy","Digit amputation/WLE","SLNB"]}),
 
-SA({page:73,orig:"MEQ 4",num:"SA 4",sub:"Others",flag:NOIMG,imgAlt:"ตารางค่าความดัน",title:"Short answer — calculate ABI",
+SA({page:73,orig:"MEQ 4",num:"SA 4",sub:"Others",flag:NOIMG,imgAlt:"ตารางความดัน systolic (mmHg): แขนขวา 130 · แขนซ้าย 140 · ขาขวา: dorsalis pedis 70, posterior tibial 84 · ขาซ้าย: dorsalis pedis 120, posterior tibial 126",title:"Short answer — calculate ABI",
  stem:`Calculate the ABI from a table of pressures (many values given).`,
  gray:"4. จงคำนวณค่า ABI เขาจะมีตารางค่าต่างๆมากให้อะ ต้องไปดูสูตรดีๆนะ",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -212,7 +212,7 @@ SA({page:73,orig:"MEQ 5",num:"SA 5",sub:"Pediatric surgery",img:["mm73_7"],title
  interp:"Hirschsprung",
  summary:["Lateral view best for transition zone","Rectosigmoid index <1","Suction biopsy"]}),
 
-SA({page:73,orig:"MEQ 6",num:"SA 6",sub:"Uro/Genital",flag:NOIMG,imgAlt:"ไม่มีรูป",title:"Short answer — explain ureteric colic",
+SA({page:73,orig:"MEQ 6",num:"SA 6",sub:"Uro/Genital",flag:NOIMG,title:"Short answer — explain ureteric colic",
  stem:`Explain ureteric colic.`,
  gray:"6. จงอธิบาย ureteric colic",
  notes:"เฉลยในไฟล์: severe sudden onset at affected area",opinion:"ความมั่นใจสูง",
@@ -222,7 +222,7 @@ SA({page:73,orig:"MEQ 6",num:"SA 6",sub:"Uro/Genital",flag:NOIMG,imgAlt:"ไม�
  interp:"Ureteric colic",
  summary:["Loin to groin colicky pain","Restless patient","NSAIDs first-line"]}),
 
-SA({page:74,orig:"MEQ 7",num:"SA 7",sub:"Head & neck",kimg:["mm74_2"],flag:NOIMG,imgAlt:"ไม่มีรูป",title:"Short answer — indications for thyroidectomy",
+SA({page:74,orig:"MEQ 7",num:"SA 7",sub:"Head & neck",kimg:["mm74_2"],flag:NOIMG,title:"Short answer — indications for thyroidectomy",
  stem:`Give the indications for thyroidectomy.`,
  gray:"7. indication for thyroidectomy",
  notes:"ไฟล์แนบสไลด์ indications: therapy for thyrotoxicosis, benign or malignant tumours, alleviate pressure (dysphagia, respiratory distress) from thyroid enlargement, cosmetic, establish definitive diagnosis of a mass (FNAC non-diagnostic/indeterminate)",opinion:"ความมั่นใจสูง",
@@ -242,7 +242,7 @@ SA({page:74,orig:"MEQ 8",num:"SA 8",sub:"Others",img:["mm74_4"],title:"Short ans
  interp:"Paronychia",
  summary:["S. aureus","I&D if pus"]}),
 
-SA({page:74,orig:"MEQ 9",num:"SA 9",sub:"Neuro",flag:NOIMG,imgAlt:"ไม่มีรูป",title:"Short answer — myotomes C5–T1",
+SA({page:74,orig:"MEQ 9",num:"SA 9",sub:"Neuro",flag:NOIMG,title:"Short answer — myotomes C5–T1",
  stem:`Which muscle do you test for each root C5, C6, C7, C8, T1? (e.g. C5 → biceps)`,
  gray:"9. จงบอกการตรวจระบบประสาทตาม dermatome C5 C6 C7 C8 T1 …ว่าตรวจกล้ามเนื้อส่วนใด (ข้อนี้ทำตามแอคข้อก่อนๆเลย เช่น C5 ตรวจ biceps)",
  notes:"แนวคำตอบในไฟล์: Deltoid muscle (C5)",opinion:"ความมั่นใจสูง",
@@ -252,7 +252,7 @@ SA({page:74,orig:"MEQ 9",num:"SA 9",sub:"Neuro",flag:NOIMG,imgAlt:"ไม่ม�
  interp:"Upper limb myotomes",
  summary:["C5 elbow flex, C6 wrist ext, C7 elbow ext","C8 finger flex, T1 finger abd"]}),
 
-SA({page:74,orig:"MEQ 10",num:"SA 10",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"AXR double bubble sign",title:"Short answer — double bubble sign",
+SA({page:74,orig:"MEQ 10",num:"SA 10",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ฟิล์มช่องท้องเด็กท่ายืน: กระเพาะอาหารโป่งมีระดับน้ำ ถัดไปทางขวามีกระเปาะลมกลมอีกก้อนที่ duodenum ส่วนต้น ลมในลำไส้ส่วนปลายมีน้อยมาก",title:"Short answer — double bubble sign",
  stem:`A child has vomiting and abdominal pain; the abdominal film shows a double bubble sign. Give the diagnosis and treatment.`,
  gray:"10. เด็กมีอาการคลื่นไส้และปวดท้องกระทันหัน ก่อนหน้านี้ปกติดี ให้ภาพ acute abdomen เห็น double bubble sign จงบอกผลการวินิจฉัย และรักษา",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจปานกลาง",

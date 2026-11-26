@@ -95,7 +95,7 @@ Co({page:230,sec:"OSCE",orig:"3",topic:"pe",sub:"DRE/Prostate",ex:1,title:"Physi
  interp:"ตรวจ DRE ถูกท่า ถูกลำดับ บรรยายต่อมลูกหมาก และวางแผน work-up LUTS",summary:["DRE: ท่า left lateral งอเข่า → ดูรอบทวาร → sphincter tone → ต่อมลูกหมาก (ขนาด ผิว ความแข็ง nodule sulcus กดเจ็บ) → ดูถุงมือ","BPH = โตเรียบ rubbery · CA = แข็ง มี nodule","work-up LUTS: UA, Cr, PSA, IPSS, uroflow + PVR, US"]}),
 
 /* ===== OSCE 4 ===== */
-Co({page:230,sec:"OSCE",orig:"4",topic:"img",sub:"IVP/KUB",title:"Imaging — complete excretory urography series",imgNote:NOIMG,imgAlt:"ภาพชุด intravenous pyelography ครบชุด (scout film และภาพหลังฉีดสารทึบรังสีหลายช่วงเวลา)",
+Co({page:230,sec:"OSCE",orig:"4",topic:"img",sub:"IVP/KUB",title:"Imaging — complete excretory urography series",imgNote:NOIMG,imgAlt:"ชุดฟิล์ม IVP ครบชุด: scout film มีเงาทึบรังสีขนาด ~7 mm ในเชิงกรานด้านซ้ายแนวท่อไตส่วนปลาย · ภาพหลังฉีดสาร ไตซ้ายขับสารช้ากว่าขวา pelvis, calyces และท่อไตซ้ายโป่งตลอดแนวลงมาหยุดตรงเงานั้น · ไตขวาและท่อไตขวาปกติ",
  stem:`A complete series of intravenous pyelography (IVP) films is shown.<br>4.1 Describe the abnormal findings.<br>4.2 What is the diagnosis?<br>4.3 How would you treat this patient?`,
  gray:"4. ให้ฟิล์ม IVP มาครบชุด · 4.1 จงอ่านสิ่งผิดปกติในฟิล์ม · 4.2 จงบอกการวินิจฉัย · 4.3 จงบอกการรักษา",
  flag:"NOIMG · ไฟล์ไม่บอกว่าฟิล์มพบอะไร — เฉลยใช้ภาพที่พบบ่อยที่สุดในข้อสอบ (ureteric calculus with hydronephrosis) พร้อมกรอบการอ่าน",
@@ -117,7 +117,7 @@ Co({page:230,sec:"OSCE",orig:"4",topic:"img",sub:"IVP/KUB",title:"Imaging — co
  interp:"อ่าน IVP อย่างเป็นระบบและเชื่อมกับการรักษานิ่วทางเดินปัสสาวะ",summary:["IVP: scout → nephrogram → pyelogram → ureter → bladder","นิ่วท่อไต: delayed nephrogram + hydronephrosis เหนือก้อน","รักษา: นิ่วเล็ก MET · นิ่วใหญ่ URS/ESWL · ติดเชื้อ+อุดตัน → stent/PCN ด่วน"]}),
 
 /* ===== OSCE 5 ===== */
-Co({page:231,sec:"OSCE",orig:"5",topic:"img",sub:"Mammogram",title:"Imaging — breast radiograph reading",imgNote:NOIMG,imgAlt:"ภาพถ่ายรังสีเต้านมทั้งสองข้าง 2 มุมมอง",
+Co({page:231,sec:"OSCE",orig:"5",topic:"img",sub:"Mammogram",title:"Imaging — breast radiograph reading",imgNote:NOIMG,imgAlt:"Mammogram ทั้งสองข้าง 4 ภาพ (บน-ล่าง และเฉียงเห็น pectoralis ของแต่ละข้าง) · เต้านมซ้ายส่วนบนด้านนอกมีก้อนความทึบสูงขนาด ~2 cm รูปร่างไม่สม่ำเสมอ ขอบมีเส้นแหลมแผ่ออก ภายในมีหินปูนเล็กละเอียดหลายรูปทรง · เต้านมขวาปกติ",
  stem:`A breast imaging study is shown.<br>5.1 What is this investigation called?<br>5.2 In which views was it taken?<br>5.3 Describe the abnormality and its location.`,
  gray:"5. ให้ฟิล์ม mammogram มา · 5.1 ฟิล์มนี้เรียกว่าอะไร · 5.2 ถ่ายในท่าใดบ้าง · 5.3 จงอ่านสิ่งผิดปกติในฟิล์ม และบอกตำแหน่ง",
  flag:"NOIMG · ไฟล์ไม่บอกลักษณะรอยโรค — 5.3 เฉลยตามรอยโรคที่พบบ่อย (suspicious mass)",
@@ -150,7 +150,7 @@ Co({page:231,sec:"OSCE",orig:"6",topic:"inst",sub:"Surgical instrument",title:"I
  interp:"จำแนกเครื่องมือผ่าตัดพื้นฐานและหน้าที่",summary:["Allis = คีมจับเนื้อเยื่อมีฟัน (traumatic)","Metzenbaum = กรรไกร dissect เนื้อเยื่อบอบบาง ไม่ใช้ตัดไหม","Army-Navy = retractor มือถือสำหรับชั้นตื้น"]}),
 
 /* ===== OSCE 7 ===== */
-Co({page:231,sec:"OSCE",orig:"7",topic:"img",sub:"Ultrasound",title:"Imaging — woman with postprandial right upper quadrant pain",imgNote:NOIMG,imgAlt:"ภาพตรวจคลื่นเสียงช่องท้องส่วนบนขวา มีลูกศรชี้ตำแหน่งหนึ่ง",
+Co({page:231,sec:"OSCE",orig:"7",topic:"img",sub:"Ultrasound",title:"Imaging — woman with postprandial right upper quadrant pain",imgNote:NOIMG,imgAlt:"Ultrasound ช่องท้องด้านขวาบน ลูกศรชี้ในถุงน้ำดี: ก้อนสะท้อนเสียงขาวสว่าง 2–3 ก้อนอยู่ส่วนล่างของถุง ด้านหลังมีเงาดำทอดลงไป ก้อนเลื่อนเมื่อพลิกตัว ผนังถุงน้ำดีบาง ไม่มีน้ำรอบถุง",
  stem:`A 44-year-old woman with underlying diabetes and hypertension presents with right upper quadrant abdominal pain after meals. An abdominal imaging study is shown (arrow).<br>7.1 What is this investigation called?<br>7.2 Describe the abnormality.<br>7.3 What is the diagnosis?<br>7.4 Outline the management plan.`,
  opinion:"ไฟล์ไม่มีรูปและไม่บอกว่าลูกศรชี้อะไร เราเฉลยตามภาพที่น่าจะเป็นที่สุดจากประวัติ (gallstone) ความมั่นใจปานกลาง เพราะลูกศรอาจชี้ผนังหนา, GB polyp หรือ CBD dilatation ก็ได้<br>ถ้าภาพเป็นนิ่ว ให้บรรยาย echogenic foci พร้อม posterior acoustic shadow ที่เคลื่อนตามท่า และบอกว่ามีลักษณะ acute cholecystitis หรือไม่ (ผนังหนา ≥4 mm ตาม TG18, pericholecystic fluid, sonographic Murphy)<br>ผู้ป่วยมีเบาหวานซึ่งเสี่ยงภาวะแทรกซ้อนรุนแรงกว่า (เช่น emphysematous cholecystitis) การรักษา symptomatic gallstone คือ elective LC หลังคุม DM/HT ให้พร้อม · ตรวจคีย์ (22 พ.ย. 2026): เกณฑ์ผนังถุงน้ำดีหนาใน US ใช้ ≥4 mm ตาม TG18 (TG13 ใช้ ≥5 mm) — ถ้าเขียนตัวเลขให้ระบุชื่อแนวทาง · ความมั่นใจสูง",
  notes:"ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘GB wall thickness (>3–4 mm)’ → แก้เป็น ‘≥4 mm (TG18)’ (ข้อ 7.2) ตาม Tokyo Guidelines 2018 (TG18, Yokoe et al. JHBPS 2018 CQ5: GB wall thickening ≥4 mm; TG13 ใช้ ≥5 mm)",
@@ -199,7 +199,7 @@ Co({page:231,sec:"OSCE",orig:"8",topic:"suture",sub:"Suture material",title:"Sut
  interp:"แยกไหมตามวัสดุ การละลาย และโครงสร้างเส้นใย แล้วเลือกใช้ให้เหมาะกับเนื้อเยื่อ",summary:["Silk = natural, non-absorbable, braided","Polyglactin 910 (Vicryl) = synthetic, absorbable, braided","Polypropylene (Prolene) = synthetic, non-absorbable, monofilament","ผิวหนัง: interrupted ใช้ non-absorbable (polypropylene/nylon ดีที่สุด, silk ได้) · subcuticular ใช้ absorbable (polyglactin) ได้"]}),
 
 /* ===== OSCE 9 ===== */
-Co({page:231,sec:"OSCE",orig:"9",topic:"img",sub:"Acute abdomen series",title:"Imaging — man with postprandial epigastric pain",imgNote:NOIMG,imgAlt:"ภาพถ่ายรังสีชุดสำหรับผู้ป่วยปวดท้องเฉียบพลัน (ทรวงอกท่ายืน และช่องท้องท่านอน/ท่ายืน)",
+Co({page:231,sec:"OSCE",orig:"9",topic:"img",sub:"Acute abdomen series",title:"Imaging — man with postprandial epigastric pain",imgNote:NOIMG,imgAlt:"ชุดฟิล์ม 3 ท่า: CXR ท่ายืน มีแถบลมรูปจันทร์เสี้ยวใต้กะบังลมขวาเหนือเงาตับ และลมเล็กน้อยใต้กะบังลมซ้าย · ช่องท้องท่านอน เห็นผนังลำไส้ทั้งด้านในและด้านนอกชัดเป็นเส้น · ลำไส้ไม่โป่ง ไม่มี air-fluid level ผิดปกติ",
  stem:`A man presents with epigastric pain after meals. A series of plain radiographs for acute abdomen is shown.<br>9.1 Which views were taken?<br>9.2 Give two possible causes of the findings.<br>9.3 Write the treatment orders, including intravenous fluid.`,
  gray:"9. ชาย มาด้วยปวดท้องที่ลิ้นปี่หลังกินอาหาร ให้ฟิล์ม acute abdomen series มา · 9.1 ถ่ายท่าใดบ้าง · 9.2 จงบอกสาเหตุที่เป็นไปได้ 2 ข้อ · 9.3 จงเขียนคำสั่งการรักษา IV fluid · [ตัวแดงในไฟล์: NPO, IV fluid]",
  notes:"ตัวพิมพ์สีแดงข้าง 9.3: <b>NPO</b> · <b>IV fluid</b>",
@@ -240,7 +240,7 @@ Co({page:231,sec:"OSCE",orig:"10",topic:"path",sub:"Order writing",title:"Orders
  interp:"เชื่อมผลพยาธิของไส้ติ่ง (uncomplicated vs complicated) กับการสั่งการรักษาหลังผ่าตัด",summary:["Appendicitis → appendectomy (laparoscopic ถ้าทำได้)","post-op order: V/S, I/O, diet plan, IV fluid, analgesic, ATB, ambulation","gangrenous/perforated → ATB หลังผ่าตัดระยะสั้น · uncomplicated → ไม่ต้องให้ต่อ"]}),
 
 /* ===== OSCE 11 ===== */
-Co({page:231,sec:"OSCE",orig:"11",topic:"inst",sub:"Tube/Catheter",title:"Devices — identify a urinary device and its indication",imgNote:NOIMG,imgAlt:"สายยางยาวปลายมีบอลลูน ปลายด้านนอกแยกเป็นหลายช่อง",
+Co({page:231,sec:"OSCE",orig:"11",topic:"inst",sub:"Tube/Catheter",title:"Devices — identify a urinary device and its indication",imgNote:NOIMG,imgAlt:"สายยางสีเหลืองยาว ปลายมีบอลลูน ท้ายสายแยกเป็น 3 ช่อง (ช่องใหญ่ 1 ช่อง และช่องเล็ก 2 ช่อง)",
  stem:`A device is shown.<br>11.1 What is the name of this device?<br>11.2 Give one indication for its use.`,
  gray:"11. ให้ 3-way foley มา · 11.1 จงบอกชื่อ · 11.2 จงบอกข้อบ่งชี้ในการใช้อุปกรณ์นี้ 1 ข้อ",flag:"NOIMG",
  parts:S(
@@ -289,7 +289,7 @@ Co({page:231,sec:"OSCE",orig:"13",topic:"proc",sub:"Suture & knot",ex:1,proc:1,t
  interp:"ทักษะเย็บแผลสองเทคนิคและการผูกปมทั้งแบบใช้เครื่องมือและมือเดียว",summary:["vertical mattress = far-far แล้ว near-near ในแนวเดียวกัน → ขอบ evert","ปมต้อง square knot ≥3 throws สลับทิศ ตึงพอดี อยู่ข้างแผล","simple interrupted: bite สมมาตรทั้งระยะและความลึก"]}),
 
 /* ===== PowerPoint 1 ===== */
-Co({page:231,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — wound of a finger",imgNote:NOIMG,imgAlt:"ภาพแผลบริเวณนิ้วชี้มือซ้าย",
+Co({page:231,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — wound of a finger",imgNote:NOIMG,imgAlt:"นิ้วชี้มือซ้ายด้านฝ่ามือ มีแผลขอบเรียบยาว ~2 cm แนวขวางบริเวณข้อปลาย (DIP) จากของมีคม เลือดหยุดแล้ว ปลายนิ้วสีชมพู · ผู้ป่วยถือนิ้วเหยียดตรงกว่านิ้วอื่นเวลาพัก",
  stem:`A photograph of a wound on the patient's left index finger is shown.<br>1.1 Describe what you see.<br>1.2 What additional physical examination would you perform?<br>1.3 What is the most likely cause?`,
  gray:"[PowerPoint 14 ข้อ] 1. รูปแผลนิ้วชี้ขาซ้าย [sic] · 1.1 บรรยายสิ่งที่เห็น · 1.2 จะตรวจร่างกายอะไรเพิ่มเติมบ้าง · 1.3 คิดว่าเกิดจากอะไรมากที่สุด",
  flag:"NOIMG · ไฟล์ไม่บอกลักษณะแผลและสาเหตุ (ไฟล์พิมพ์ 'นิ้วชี้ขาซ้าย' น่าจะหมายถึงนิ้วชี้มือซ้าย) — เฉลยเป็นกรอบการบรรยาย/ตรวจแผลที่มือ และสาเหตุที่พบบ่อย (laceration จากของมีคม)",
@@ -310,7 +310,7 @@ Co({page:231,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Plast
  interp:"ประเมินแผลที่มืออย่างเป็นระบบ โดยเฉพาะ tendon และ digital nerve",summary:["แผลนิ้ว: บรรยายตำแหน่ง ชนิด ความลึก สิ่งที่เห็นในแผล ท่าทางนิ้ว","ตรวจ sensation ก่อน digital block · FDP (DIP), FDS (PIP), extensor","X-ray ถ้าสงสัยกระดูกหัก/สิ่งแปลกปลอม"]}),
 
 /* ===== PowerPoint 2 ===== */
-Co({page:231,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Hernia/Abdominal wall",title:"Spot — man with a long-standing groin mass",imgNote:NOIMG,imgAlt:"ภาพบริเวณขาหนีบซ้ายของผู้ป่วยชายขณะยืน มีก้อนนูน",
+Co({page:231,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Hernia/Abdominal wall",title:"Spot — man with a long-standing groin mass",imgNote:NOIMG,imgAlt:"ชายวัยกลางคนยืน: ขาหนีบซ้ายมีก้อนนูนรูปรีขนาด ~5 cm เหนือเอ็นขาหนีบ ทอดเฉียงลงไปถึงด้านบนของถุงอัณฑะ ผิวหนังสีปกติ ไม่แดง · ผู้ป่วยบอกว่าก้อนใหญ่ขึ้นเวลาไอหรือยกของ และหายไปเมื่อนอนราบ",
  stem:`A 40-year-old man has had a mass in the left groin for 2 years. A photograph is shown.<br>2.1 Describe what you see.<br>2.2 What is the most likely diagnosis, and what are the differential diagnoses?`,
  gray:"2. ชาย 40 ปี มีก้อนที่ขาหนีบซ้ายเป็นมา 2 ปี (มีรูป hernia, จำคำถามไม่ได้)",
  flag:"NOIMG · ผู้จดจำคำถามไม่ได้ → คำถาม 2.1–2.2 Claude แต่ง (ข้อย่อยทั้งสอง Claude เติม)",
@@ -327,7 +327,7 @@ Co({page:231,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Herni
  interp:"spot diagnosis ก้อนที่ขาหนีบและ ddx",summary:["inguinal hernia: เหนือ-ใน pubic tubercle, cough impulse, reducible","ddx: femoral hernia, hydrocele of cord, lymph node, lipoma, undescended testis"]}),
 
 /* ===== PowerPoint 3 ===== */
-Co({page:231,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Hernia/Abdominal wall",title:"Spot — management of a reducible groin mass",imgNote:NOIMG,imgAlt:"ภาพเดียวกับสไลด์ก่อนหน้า: ก้อนนูนบริเวณขาหนีบซ้ายของชาย 40 ปี",
+Co({page:231,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Hernia/Abdominal wall",title:"Spot — management of a reducible groin mass",imgNote:NOIMG,imgAlt:"ภาพเดียวกับสไลด์ก่อนหน้า: ก้อนนูนนุ่มที่ขาหนีบซ้ายเหนือเอ็นขาหนีบ ทอดลงถุงอัณฑะ ใหญ่ขึ้นเวลาไอ ดันกลับเข้าได้เมื่อนอน",
  stem:`(Continued from the previous slide) A 40-year-old man has a reducible mass in the left groin for 2 years.<br>3.1 Outline the treatment.<br>3.2 Write the orders if elective surgery is planned.`,
  gray:"3. (ต่อจากข้อ 2.) · 3.1 บอกแนวทางการรักษา · 3.2 จงเขียนคำสั่งหากต้องการผ่าตัดแบบ elective",
  flag:"NOIMG · คำว่า reducible ในโจทย์ Claude เติมเพื่อให้ตอบ elective ได้ · ขนาดยาเป็นตัวอย่างมาตรฐาน",
@@ -344,7 +344,7 @@ Co({page:231,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Herni
  interp:"การรักษา inguinal hernia และการเขียน pre-operative order",summary:["inguinal hernia ที่มีอาการ → elective tension-free mesh repair (Lichtenstein/TEP/TAPP)","pre-op order: set OR, consent + site marking, NPO, lab ตามข้อบ่งชี้, IV fluid, cefazolin prophylaxis","สอนอาการ strangulation → มา รพ. ทันที"]}),
 
 /* ===== PowerPoint 4 ===== */
-Co({page:231,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Breast",title:"Spot — woman with 4 months of breast tightness",imgNote:NOIMG,imgAlt:"ภาพเต้านมซ้ายของผู้ป่วยหญิง",
+Co({page:231,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Breast",title:"Spot — woman with 4 months of breast tightness",imgNote:NOIMG,imgAlt:"เต้านมซ้ายใหญ่กว่าขวา ผิวหนังกว่าครึ่งเต้าแดงคล้ำ บวมหนาเป็นรูขุมขนบุ๋มเหมือนเปลือกส้ม · หัวนมซ้ายถูกดึงบุ๋มเข้า · คลำได้ก้อนแข็งขอบไม่ชัดขนาด ~5 cm ใต้ผิว และต่อมน้ำเหลืองรักแร้ซ้ายโตแข็ง · ไม่มีไข้ ผิวไม่ร้อนมาก",
  stem:`A woman presents with pain and a feeling of tightness in the left breast for 4 months. A photograph is shown.<br>4.1 Describe what you see.<br>4.2 What is the provisional diagnosis?<br>4.3 What investigations would you request?<br>4.4 Stage the disease.`,
  gray:"4. หญิง เจ็บตึงเต้านมซ้ายมา 4 เดือน มีรูป · 4.1 บรรยายสิ่งที่เห็น · 4.2 วินิจฉัยเบื้องต้น · 4.3 ส่งตรวจเพิ่มเติม · 4.4 staging",
  flag:"NOIMG · ไฟล์ไม่บอกลักษณะในรูป — เฉลยสมมติภาพมะเร็งเต้านมที่มีผิวหนังผิดปกติ (peau d'orange/แดง) ซึ่งเข้ากับคำถาม staging จากรูป",
@@ -369,7 +369,7 @@ Co({page:231,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Breas
  interp:"spot locally advanced/inflammatory breast cancer: บรรยายผิวหนัง → triple assessment → staging T4",summary:["peau d'orange/แผล/satellite nodule = T4b · inflammatory = T4d","T4 N0–2 M0 = stage IIIB อย่างน้อย","ตรวจ: mammogram + US, core biopsy + ER/PR/HER2, systemic staging"]}),
 
 /* ===== PowerPoint 5 ===== */
-Co({page:231,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Instrument/Device",title:"Spot — identify a surgical drain",imgNote:NOIMG,imgAlt:"ภาพท่อยางนิ่มแบน ผนังบาง สีเหลืองอ่อน ไม่มีกระเปาะดูด",
+Co({page:231,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Instrument/Device",title:"Spot — identify a surgical drain",imgNote:NOIMG,imgAlt:"ท่อยางลาเท็กซ์สีเหลืองอ่อน แบนนิ่มผนังบาง กว้าง ~1 cm ยาวราว 30 cm ทั้งสองปลายเปิด ไม่มีรูด้านข้าง ไม่มีขวดหรือกระเปาะต่อ",
  stem:`A photograph of a surgical device is shown.<br>5.1 What is it?<br>5.2 Give two examples of operations in which this device is used.`,
  gray:"5. รูป pendose drain · 5.1 คืออะไร · 5.2 ยกตัวอย่างการผ่าตัดที่ต้องใช้อุปกรณ์นี้มา 2 การผ่าตัด",flag:"NOIMG",
  parts:S(
@@ -384,7 +384,7 @@ Co({page:231,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Instr
  interp:"รู้จัก passive drain และการใช้งานของ Penrose",summary:["Penrose = passive open drain ยาง latex แบน","ใช้: I&D ฝีชั้นตื้น, คล้องรั้ง spermatic cord ใน hernia repair, คล้องหลอดอาหาร"]}),
 
 /* ===== PowerPoint 6 ===== */
-Co({page:231,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Anorectal",title:"Spot — young woman with painful defecation and bleeding",imgNote:NOIMG,imgAlt:"ภาพบริเวณทวารหนักขณะแหวก anal verge",seen:"คล้าย MDCU66 RoB SA 1 (chronic anal fissure)",
+Co({page:231,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Anorectal",title:"Spot — young woman with painful defecation and bleeding",imgNote:NOIMG,imgAlt:"แหวกขอบก้น: เห็นแผลปริตามแนวยาว ~1 cm ที่ขอบทวารแนวกลางด้านหลัง ขอบแผลบาง พื้นแผลแดงสด",seen:"คล้าย MDCU66 RoB SA 1 (chronic anal fissure)",
  stem:`A 30-year-old woman experiences pain during defecation and bleeding per rectum. A photograph of the anal region is shown.<br>6.1 What is the diagnosis?<br>6.2 Advise on the treatment.`,
  gray:"- หญิง 30 ปี ถ่ายอุจจาระแล้วเจ็บ และมีเลือดออก มีรูป · 1. วินิจฉัย · 2. จงให้คำแนะนำแนวทางการรักษา",
  flag:"NOIMG · ไฟล์ไม่บอกลักษณะในรูป — เฉลยตามอาการ (ปวดขณะถ่าย + เลือดออก = anal fissure) · ข้อนี้ไม่มีเลขในไฟล์ ไล่เลขตามลำดับเป็น PPT 6",
@@ -401,7 +401,7 @@ Co({page:231,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Anore
  interp:"spot anal fissure และขั้นบันไดการรักษา",summary:["anal fissure: ปวดมากขณะถ่าย + เลือดสดเล็กน้อย, posterior midline","chronic: sentinel tag, hypertrophied papilla, เห็นใย internal sphincter","รักษา: fiber/sitz bath → diltiazem/GTN → botox หรือ LIS"]}),
 
 /* ===== PowerPoint 7 ===== */
-Co({page:231,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Imaging film",title:"Spot — newborn chest radiograph with an esophageal anomaly",imgNote:NOIMG,imgAlt:"ภาพเอกซเรย์ทรวงอกและช่องท้องส่วนบนของทารกแรกเกิด ใส่สายทางปาก",kimg:["os66a_k7"],
+Co({page:231,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Imaging film",title:"Spot — newborn chest radiograph with an esophageal anomaly",imgNote:NOIMG,imgAlt:"ฟิล์มทรวงอกและช่องท้องทารกแรกเกิดที่ใส่สายทางปาก: ปลายสายทึบรังสีขดม้วนอยู่ในถุงหลอดอาหารส่วนบนระดับ T2–T3 ลงต่อไม่ได้ · กระเพาะและลำไส้มีลมเต็มปกติ",kimg:["os66a_k7"],
  stem:`A newborn has been diagnosed with an anomaly of the esophagus and trachea. A chest radiograph is shown.<br>7.1 What type of anomaly is this?<br>7.2 Outline the initial management.`,
  gray:"- เด็กเป็น TE fistula ให้รูป CXR · 1. บอก type ของ TE fistula · 2. ____ [ไฟล์มี screenshot ตาราง Gross classification A–H ไฮไลต์ C: EA with distal TEF 86%]",
  notes:"ข้างข้อนี้ไฟล์มี screenshot ตารางชนิดของ EA/TEF (Gross: A isolated EA 7%, B EA with proximal TEF 2%, <b>C EA with distal TEF 86%</b> (ไฮไลต์+วงกลม), D EA with proximal and distal TEF <1%, H TEF without EA 4%) → kimg os66a_k7",
@@ -419,7 +419,7 @@ Co({page:231,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Imagi
  interp:"แปล CXR ของ EA/TEF เป็นชนิดตาม Gross และดูแลเบื้องต้นก่อนผ่าตัด",summary:["Type C (EA + distal TEF) พบบ่อยสุด ~85%: สายขดใน upper pouch + มีลมในท้อง","gasless abdomen → pure EA (type A)","ดูแล: NPO, Replogle suction, head up, หา VACTERL, ผ่าตัด ligate fistula + anastomosis"]}),
 
 /* ===== PowerPoint 8 ===== */
-Co({page:231,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn with an abdominal wall abnormality",imgNote:NOIMG,imgAlt:"ภาพทารกแรกเกิดเพศหญิง เห็นผนังหน้าท้องและสายสะดือ",
+Co({page:231,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn with an abdominal wall abnormality",imgNote:NOIMG,imgAlt:"ทารกแรกเกิดหญิง: ลำไส้หลายห่วงหนาบวมสีคล้ำ ไม่มีถุงคลุม โผล่ออกจากรูเล็กทางขวาของสายสะดือที่เกาะปกติ",
  stem:`A photograph of a newborn girl is shown.<br>8.1 What is the diagnosis?<br>8.2 Outline the initial management.`,
  gray:"- รูป gastroschisis in newborn female · 1. วินิจฉัย · 2. initial management",flag:"NOIMG",
  parts:S(
@@ -435,7 +435,7 @@ Co({page:231,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Pedia
  interp:"spot gastroschisis แยกจาก omphalocele และการดูแลเบื้องต้น",summary:["gastroschisis: ขวาของสะดือ ไม่มีถุงหุ้ม ความพิการร่วมน้อย (intestinal atresia)","ดูแล: bowel bag, keep warm, ตะแคงขวา, OG decompression, IV fluid + ATB → primary closure/silo"]}),
 
 /* ===== PowerPoint 9 ===== */
-Co({page:231,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — infant with a congenital facial anomaly",imgNote:NOIMG,imgAlt:"ภาพใบหน้าทารก เห็นริมฝีปากบนด้านซ้าย",
+Co({page:231,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — infant with a congenital facial anomaly",imgNote:NOIMG,imgAlt:"ทารก: ริมฝีปากบนข้างซ้ายแหว่งจากขอบปากขึ้นถึงพื้นรูจมูก ปีกจมูกซ้ายแบน",
  stem:`A photograph of an infant is shown.<br>9.1 What is the diagnosis?<br>9.2 When should surgery be performed?<br>9.3 What is the initial advice for the mother?`,
  gray:"- รูปเด็ก left cleft lip (ไม่เห็นว่ามี cleft palate ด้วยหรือไม่) · 1. diagnosis · 2. when to surgery · 3. initial management for mother · [ตัวแดงในไฟล์: 3 months · งดให้ลูกดื่มนมแม่]",
  notes:"ตัวพิมพ์สีแดงในไฟล์: เหนือ 'when to surgery' = <b>3 months</b> · ใต้ 'initial management for mother' = <b>งดให้ลูกดื่มนมแม่</b>",
@@ -457,7 +457,7 @@ Co({page:231,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Plast
  interp:"spot cleft lip: เวลาผ่าตัดและการดูแลการให้นม",summary:["cleft lip: cheiloplasty ~3 เดือน (rule of 10s) · cleft palate: 9–18 เดือน","cleft lip อย่างเดียวให้นมแม่ได้ · มี cleft palate ใช้ squeeze bottle/จุกพิเศษ","ทีมสหสาขา + genetic counseling"]}),
 
 /* ===== PowerPoint 10 ===== */
-Co({page:232,sec:"Short Answers",orig:"PPT 10",num:"SA 10",topic:"spot",sub:"Anorectal",title:"Spot — young man with perianal lesions",imgNote:NOIMG,imgAlt:"ภาพบริเวณรอบทวารหนักของผู้ป่วยชาย มีรอยโรคนูนหลายตุ่ม",
+Co({page:232,sec:"Short Answers",orig:"PPT 10",num:"SA 10",topic:"spot",sub:"Anorectal",title:"Spot — young man with perianal lesions",imgNote:NOIMG,imgAlt:"รอบทวารของชายหนุ่ม: ตุ่มเนื้อนูนสีชมพูอมน้ำตาลหลายสิบตุ่ม ขนาด 2–10 mm บางตุ่มรวมกันเป็นกลุ่ม ผิวขรุขระเป็นปุ่มคล้ายดอกกะหล่ำ นุ่ม ไม่เจ็บ",
  stem:`A 28-year-old single man. A photograph of the perianal region is shown.<br>10.1 What is the diagnosis?<br>10.2 What are the cause and risk factors?<br>10.3 How would you manage this patient?`,
  gray:"- male, single, 28 yr ให้รูป condyloma ที่รูก้น · 1. diagnosis · 2. cause and risk factors · 3. management · [ตัวแดงในไฟล์: HPV 6,11]",
  notes:"ตัวพิมพ์สีแดงข้าง 'cause and risk factors' = <b>HPV 6,11</b>",flag:"NOIMG",
@@ -491,7 +491,7 @@ Co({page:232,sec:"Short Answers",orig:"PPT 12",num:"SA 12",topic:"spot",sub:"Pla
  interp:"แยกความลึกของแผลไหม้ระดับสองเพื่อเลือก conservative หรือผ่าตัด",summary:["superficial PT: papillary dermis, ชื้น blister, เจ็บมาก, หาย <3 สัปดาห์ → dressing","deep PT: reticular dermis, ซีดด่าง, เจ็บน้อย, หาย >3 สัปดาห์ แผลเป็นมาก → excision + STSG"]}),
 
 /* ===== PowerPoint 13 ===== */
-Co({page:232,sec:"Short Answers",orig:"PPT 13",num:"SA 13",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — ulcer in a bedridden trauma patient",imgNote:NOIMG,imgAlt:"ภาพแผลเรื้อรังบนผิวหนังเหนือปุ่มกระดูกของผู้ป่วยติดเตียง",
+Co({page:232,sec:"Short Answers",orig:"PPT 13",num:"SA 13",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — ulcer in a bedridden trauma patient",imgNote:NOIMG,imgAlt:"แผลลึกขนาด ~8×6 cm ที่ก้นกบแนวกลาง เหนือร่องก้น พื้นแผลมีเนื้อตายสีเหลืองปนดำ ลึกถึงชั้นไขมันและกล้ามเนื้อ ตรงกลางคลำได้กระดูกที่ก้นแผล ขอบแผลเซาะเข้าไปใต้ผิว · ผิวรอบแผลแดง",
  stem:`A 29-year-old man was involved in a severe car accident and has been bedridden. He has developed an ulcer, shown in the photograph.<br>13.1 What is the diagnosis?<br>13.2 In which position does the patient mostly lie?<br>13.3 Which bone lies beneath the ulcer?`,
  gray:"- male 29 yr, severe car accident, has ulcer (รูปแผลกดทับ) · 1. วินิจฉัย · 2. ผู้ป่วยอยู่ในท่าไหนมาก · 3. กระดูกอะไรอยู่ใต้แผล",
  flag:"NOIMG · ไฟล์ไม่บอกตำแหน่งแผล — เฉลยสมมติตำแหน่งที่พบบ่อยสุด (sacrum) และให้ตำแหน่งอื่นไว้เทียบ · คำว่า bedridden ใน stem Claude เติม",
@@ -512,7 +512,7 @@ Co({page:232,sec:"Short Answers",orig:"PPT 13",num:"SA 13",topic:"spot",sub:"Vas
  interp:"spot pressure injury และสัมพันธ์ตำแหน่งแผลกับท่าและปุ่มกระดูก",summary:["pressure injury stage 1–4 + unstageable + deep tissue injury (NPIAP)","sacrum/coccyx = นอนหงาย · greater trochanter = ตะแคง · ischium = นั่ง · calcaneus = ส้นเท้า"]}),
 
 /* ===== PowerPoint 14 ===== */
-Co({page:232,sec:"Short Answers",orig:"PPT 14",num:"SA 14",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — red lump on the arm",imgNote:NOIMG,imgAlt:"ภาพตุ่มนูนสีแดงบนผิวหนังบริเวณแขน",
+Co({page:232,sec:"Short Answers",orig:"PPT 14",num:"SA 14",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — red lump on the arm",imgNote:NOIMG,imgAlt:"ที่ต้นแขน: ก้อนนูนรูปโดมขนาด ~2 cm ผิวบนก้อนแดงตึง ร้อน กดเจ็บ ตรงกลางมีจุดรูเปิดสีดำเล็ก ๆ",
  stem:`A photograph of a red lump on the arm is shown.<br>14.1 Describe what you see.<br>14.2 What is the diagnosis?`,
  gray:"- รูปตุ่มแดงที่แขน · A. บรรยาย · B. วินิจฉัย (infected epidermal cyst)",flag:"NOIMG",
  parts:S(

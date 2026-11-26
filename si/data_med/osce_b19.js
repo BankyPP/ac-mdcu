@@ -23,8 +23,7 @@ const Co=o=>Object.assign({set:"SI128",ro:"Ro409–412",file:"SIOS128C",opinion:
 QB.push(
 
 /* ===== สถานี 1 ===== */
-Co({page:1,orig:"1",topic:"micro",sub:"Gram stain",title:"Joint aspirate — Gram stain: name the likely organisms",imgNote:NOIMG,
- stem:`A patient with an acutely swollen, painful joint undergoes arthrocentesis. The Gram stain of the synovial fluid shows numerous Gram-positive cocci in pairs and chains.<br>Give two likely causative organisms.`,
+Co({page:1,orig:"1",topic:"micro",sub:"Gram stain",title:"Joint aspirate — Gram stain: name the likely organisms",stem:`A patient with an acutely swollen, painful joint undergoes arthrocentesis. The Gram stain of the synovial fluid shows numerous Gram-positive cocci in pairs and chains.<br>Give two likely causative organisms.`,
  gray:"1. เจาะน้ำเจาะข้อ พบ Numerous gram positive cocci in pair and chain จง DDx. เชื้อที่เป็นไปได้มา 2 เชื้อ · เฉลย: Streptococcus agalactaae · Streptococcus pyogenas",
  flag:NOIMG+" · อาการข้อบวมปวดเฉียบพลันใน stem Claude เรียบเรียง (ไฟล์บอกแค่ \"เจาะน้ำเจาะข้อ\")",
  notes:"คำตอบผู้จด: Streptococcus agalactiae (สะกดในไฟล์ \"agalactaae\") และ Streptococcus pyogenes (สะกดในไฟล์ \"pyogenas\")",
@@ -219,7 +218,7 @@ Co({page:2,orig:"8",topic:"hx",sub:"Joint pain",ex:1,title:"History taking — l
  summary:["Gout: monoarthritis ฉับพลันกลางดึก บวมแดงร้อน หายสนิทระหว่างครั้ง","ถาม triggers: เหล้า, purine, thiazide/aspirin, ขาดน้ำ","ถามนิ่วไต ประวัติครอบครัว · แยก septic arthritis (เจาะข้อ)","ยืนยัน: negatively birefringent needle-shaped crystals"]}),
 
 /* ===== สถานี 9 ===== */
-Co({page:2,orig:"9",topic:"micro",sub:"PBS",title:"Fatigue and pallor — peripheral blood smear",imgNote:NOIMG,
+Co({page:2,orig:"9",topic:"micro",sub:"PBS",title:"Fatigue and pallor — peripheral blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงเล็กกว่านิวเคลียสของ lymphocyte ตัวเล็ก ส่วนซีดตรงกลางกว้างเกิน 1/3 ของเซลล์ ขนาดต่างกันพอสมควร มีเซลล์ยาวเรียวคล้ายดินสอบ้าง · เม็ดเลือดขาวปกติ · เกล็ดเลือดปกติถึงเพิ่มเล็กน้อย",
  stem:`A 35-year-old woman presents with fatigue and pallor. Describe the peripheral blood smear and give your diagnosis.`,
  gray:"9. PBS IDA · เฉลย: Macroovalocyte RBC aniso poikilo · tear drop · normal wbc neutrophil predominant",
  flag:NOIMG+" · ⚠ คอลัมน์คำถามเขียน \"IDA\" แต่คำบรรยายในคอลัมน์เฉลยเป็น macro-ovalocyte (ลักษณะ megaloblastic) — เฉลยยึด IDA ตามหัวข้อสถานี (ดู opinion) · อายุ/เพศ/อาการใน stem Claude แต่ง",
@@ -241,7 +240,7 @@ Co({page:2,orig:"9",topic:"micro",sub:"PBS",title:"Fatigue and pallor — periph
  summary:["IDA: hypochromic microcytic, pencil cell, polychromasia น้อย, platelet ปกติ/สูง","Thalassemia: target cell, basophilic stippling, NRC, polychromasia มากกว่า","Macro-ovalocyte + hypersegmented neutrophil = megaloblastic","ยืนยัน IDA ด้วย ferritin และหาสาเหตุการเสียเลือดเสมอ"]}),
 
 /* ===== สถานี 10 ===== */
-Co({page:2,orig:"10",topic:"micro",sub:"Stool exam",title:"Stool examination — describe, diagnose and treat",imgNote:NOIMG,
+Co({page:2,orig:"10",topic:"micro",sub:"Stool exam",title:"Stool examination — describe, diagnose and treat",imgNote:NOIMG,imgAlt:"Wet preparation อุจจาระ: ตัวอ่อนพยาธิตัวกลมยาว ~250 µm เคลื่อนไหวได้ ช่องปากด้านหน้าสั้นมาก หลอดอาหารเป็นกระเปาะ มีกลุ่มเซลล์สืบพันธุ์เป็นก้อนเด่นกลางลำตัว · ไม่เห็นไข่พยาธิ",
  stem:`A stool wet preparation is examined under the microscope.<br>1. Describe what you see.<br>2. Give the diagnosis.<br>3. How would you treat this patient?`,
  gray:"10. ส่องกล้องเจอ Strongyloid 1.จงบรรยาย 2.จงให้การวินิจฉัย 3.ให้การรักษา · เฉลย: Rhabditiform larva of strongyloides stercorales · Intestinal strongyloides · Ivermectin",
  flag:NOIMG+" · stem ไม่บอกชื่อเชื้อ (ไฟล์บอกว่าสไลด์เป็น Strongyloides)",
@@ -264,7 +263,7 @@ Co({page:2,orig:"10",topic:"micro",sub:"Stool exam",title:"Stool examination —
  summary:["Rhabditiform larva ในอุจจาระสด = Strongyloides (buccal canal สั้น genital primordium ใหญ่)","Hookworm: buccal canal ยาว (ปกติพบไข่มากกว่า)","Ivermectin 200 µg/kg/day 1–2 วัน","Steroid/HTLV-1 → hyperinfection syndrome"]}),
 
 /* ===== สถานี 11 ===== */
-Co({page:2,orig:"11",topic:"img",sub:"CXR",title:"Chest radiograph — describe and diagnose",imgNote:NOIMG,seen:"คล้าย SI130 Ro409–412 ข้อ 16 และ SI131 Ro417–420 ข้อ 16 (CXR ผู้ป่วยมะเร็งเต้านมเดิม — pleural effusion) — คนละชุด",
+Co({page:2,orig:"11",topic:"img",sub:"CXR",title:"Chest radiograph — describe and diagnose",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ส่วนล่างของทรวงอกซ้ายทึบขาวเนื้อเดียว ขอบบนเว้าสูงขึ้นทางด้านข้าง มุมชายโครงและกะบังลมซ้ายมองไม่เห็น · หัวใจถูกดันไปขวาเล็กน้อย · เงาเต้านมซ้ายหายไป",seen:"คล้าย SI130 Ro409–412 ข้อ 16 และ SI131 Ro417–420 ข้อ 16 (CXR ผู้ป่วยมะเร็งเต้านมเดิม — pleural effusion) — คนละชุด",
  stem:`A 55-year-old woman previously treated for breast cancer presents with progressive dyspnea. Describe the chest radiograph and give your diagnosis.`,
  gray:"11. film CXR จงบรรยายข้อสอบเก่า · เฉลย: pleural effusion · meniscus sign · opacity at left lower hemithorax · left malignant pleural effusion",
  flag:NOIMG+" · ⚠ ประวัติใน stem (หญิง 55 ปี มะเร็งเต้านมเดิม เหนื่อย) Claude เติมจากข้อสอบเก่าที่คล้ายกัน (SI130/SI131) เพื่อให้วินิจฉัย malignant effusion ได้ — ไฟล์บอกแค่ \"film CXR จงบรรยาย ข้อสอบเก่า\"",
@@ -283,7 +282,7 @@ Co({page:2,orig:"11",topic:"img",sub:"CXR",title:"Chest radiograph — describe 
  summary:["Pleural effusion: homogeneous opacity, costophrenic angle ทื่อ, meniscus sign","ประวัติมะเร็ง (เต้านม ปอด lymphoma) → malignant effusion","Thoracentesis: Light's criteria + cytology"]}),
 
 /* ===== สถานี 12 ===== */
-Co({page:2,orig:"12",topic:"micro",sub:"PBS",title:"Fever, fatigue and bruising — peripheral blood smear",imgNote:NOIMG,
+Co({page:2,orig:"12",topic:"micro",sub:"PBS",title:"Fever, fatigue and bruising — peripheral blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดขาวเพิ่ม ส่วนใหญ่เป็นเซลล์ตัวใหญ่ นิวเคลียสใหญ่โครมาตินละเอียด มี nucleoli ชัด ไซโทพลาสซึมสีฟ้ามีแกรนูลละเอียด บางเซลล์มีแท่งเข็มสีแดง · เม็ดเลือดแดงขนาดสีปกติ · เกล็ดเลือดน้อยมาก",
  stem:`A 50-year-old man presents with fever, fatigue and easy bruising for 2 weeks. Describe the peripheral blood smear, state the investigations you would request, and give your diagnosis.`,
  gray:"12. PBS เจอ blast จงบรรยาย PBS บอกการส่งตรวจและวินิจฉัย · เฉลย: BM biopsy, flow cytometry · AML",
  flag:NOIMG+" · อายุ/อาการใน stem Claude แต่ง · stem ไม่บอกว่าเจอ blast (ไฟล์บอก)",
@@ -331,7 +330,7 @@ Co({page:2,orig:"13",topic:"micro",sub:"Parasite",title:"Itchy scalp in a child 
  summary:["Nit = ไข่เหารูปไข่ ติดแน่นบนเส้นผมด้วยซีเมนต์ มี operculum","Pediculosis capitis — Pediculus humanus capitis","ติดต่อ head-to-head contact > หวี หมวก หมอน","รักษา 1% permethrin ซ้ำวันที่ 9–10 + หวีเสนียด"]}),
 
 /* ===== สถานี 14 ===== */
-Co({page:3,orig:"14",topic:"ekg",sub:"STEMI/ischemia",title:"Chest pain — 12-lead EKG: read and interpret",imgNote:NOIMG,
+Co({page:3,orig:"14",topic:"ekg",sub:"STEMI/ischemia",title:"Chest pain — 12-lead EKG: read and interpret",imgNote:NOIMG,imgAlt:"EKG 12 lead: sinus rhythm ~90/min · ST ยกขึ้นโค้งนูน 3 mm ที่ V2–V4 · ST กดต่ำใน II, III, aVF",
  stem:`A 60-year-old man presents with chest pain for 1 hour. Read and interpret his 12-lead EKG.`,
  gray:"14. ให้ EKG : ST evelation V2 3 4 · ST depression จงอ่านและแปลผล · เฉลย: acute anterior wall stemi · บลาๆๆๆ",
  flag:NOIMG+" · อายุ/อาการใน stem Claude แต่ง · stem ไม่บอกผล EKG (ไฟล์บอก ST elevation V2–4 + ST depression) · ไฟล์ไม่บอกว่า ST depression อยู่ lead ไหน — Claude ใส่เป็น reciprocal change ที่ inferior leads",
@@ -376,7 +375,7 @@ Co({page:3,orig:"15",topic:"skin",sub:"Drug eruption",title:"Rash in a patient o
  summary:["Targetoid erythematous macules กระจาย + ประวัติยา TB → drug eruption (EM-like/SJS)","ตรวจ mucosa, Nikolsky, % BSA, LFT, eosinophil (DRESS)","หยุดยาทั้งหมด → admit/consult → บัตรแพ้ยา","Rechallenge ทีละตัวเมื่อหาย ยกเว้น SJS/TEN/DRESS"]}),
 
 /* ===== สถานี 16 ===== */
-Co({page:3,orig:"16",topic:"micro",sub:"Malaria",title:"Febrile patient — thin blood film: describe and diagnose",imgNote:NOIMG,seen:"คล้าย SI131 Ro413–416 ข้อ 16 และ SI127 Ro401–404 ข้อ 22 (thin blood smear ผู้ป่วยไข้สูง) — คนละชุด",
+Co({page:3,orig:"16",topic:"micro",sub:"Malaria",title:"Febrile patient — thin blood film: describe and diagnose",imgNote:NOIMG,imgAlt:"Thin blood film: เม็ดเลือดแดงที่ติดเชื้อขนาดปกติ ไม่มีจุดชมพู · ภายในมีวงแหวนบางเล็ก มีจุดโครมาตินแดง 1–2 จุด บางเซลล์มีวงแหวน 2–3 วง บางวงเกาะที่ขอบเซลล์ · มีตัวรูปกล้วยหอมปลายมนติดสีม่วง 1 ตัว",seen:"คล้าย SI131 Ro413–416 ข้อ 16 และ SI127 Ro401–404 ข้อ 22 (thin blood smear ผู้ป่วยไข้สูง) — คนละชุด",
  stem:`A patient with high fever for 3 days after returning from a forest area. Describe the thin blood film and give the diagnosis.`,
  gray:"16. Malaria จงบรรยาย และ วินิจฉัย · เฉลย: normal size infected RBC · thin ring form, multiple infection, double chromatin ring · Plasmodium falciparum",
  flag:NOIMG+" · ประวัติใน stem Claude แต่ง · stem ไม่บอกว่าเป็น malaria (ไฟล์บอก)",
@@ -395,7 +394,7 @@ Co({page:3,orig:"16",topic:"micro",sub:"Malaria",title:"Febrile patient — thin
  summary:["P. falciparum: RBC ขนาดปกติ, ring บาง, double chromatin, multiple infection, appliqué, banana gametocyte","P. vivax: RBC โต Schüffner's dots ทุกระยะ","Severe malaria → IV artesunate"]}),
 
 /* ===== สถานี 17 ===== */
-Co({page:3,orig:"17",topic:"img",sub:"CXR",title:"Chest radiograph — describe and give differential diagnoses",imgNote:NOIMG,
+Co({page:3,orig:"17",topic:"img",sub:"CXR",title:"Chest radiograph — describe and give differential diagnoses",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน คุณภาพดี: ก้อนเงาขาวกลมขนาด ~4 cm ที่ปอดขวาส่วนบน ขอบไม่เรียบเป็นแฉก ไม่มีโพรง ไม่มีหินปูน · ขั้วปอดขวาโตเล็กน้อย · กระดูกและเนื้อเยื่ออ่อนปกติ",
  stem:`Describe this chest radiograph and give your differential diagnosis.`,
  gray:"17. Chest film มาจงบรรยาย ข้อสอบเก่ารูป mass และให้การวินิจฉัย · เฉลย: PA upright · soft tissue bony structure · trachea · mass well defined border no (ต่อหน้า 4) calcification · DDX. CA lung · TB · harmatoma · lung abscess",
  flag:NOIMG+" · stem ไม่บอกว่ามี mass (ไฟล์บอก) · คำตอบต่อจากหน้า 3 ไปหน้า 4 · ไฟล์ไม่บอกตำแหน่ง mass",
@@ -433,7 +432,7 @@ Co({page:4,orig:"18",topic:"lab",sub:"CSF",title:"Subacute headache and fever �
  summary:["Lymphocyte เด่น + glucose ต่ำ + protein สูง = TB หรือ fungal meningitis","Viral: glucose ปกติ · Bacterial: PMN เด่น","ส่ง India ink/CrAg, AFB/Xpert, anti-HIV, imaging"]}),
 
 /* ===== สถานี 19 ===== */
-Co({page:4,orig:"19",topic:"micro",sub:"UA",title:"Generalized edema — urine sediment: describe and give two diagnoses",imgNote:NOIMG,
+Co({page:4,orig:"19",topic:"micro",sub:"UA",title:"Generalized edema — urine sediment: describe and give two diagnoses",imgNote:NOIMG,imgAlt:"ภาพตะกอนปัสสาวะ: เซลล์กลมที่เต็มไปด้วยหยดไขมันวาว (ใต้แสง polarized เห็นเป็นกากบาทเรืองแสง) · โครงทรงกระบอกที่มีหยดไขมันภายใน · เม็ดเลือดขาว 1–2/HPF ไม่มีเม็ดเลือดแดง",
  stem:`A 30-year-old man presents with generalized edema for 2 weeks. Describe his urine sediment and give two possible diagnoses.`,
  gray:"19. ส่อง oval fat body fatty cast WBC 1-2 จงบรรยายให้การวินิจฉัยมา 2 โรค · เฉลย: MCD MN FSGS",
  flag:NOIMG+" · อายุ/อาการใน stem Claude แต่ง · stem ไม่บอกสิ่งที่พบในสไลด์ (ไฟล์บอก oval fat body, fatty cast, WBC 1–2)",
@@ -543,7 +542,7 @@ Co({page:4,orig:"23",topic:"hx",sub:"Jaundice",ex:1,title:"History taking — ja
  summary:["Hemolytic jaundice: ซีด ปัสสาวะเข้ม อุจจาระปกติ ไม่คัน","เป็นมาตั้งแต่เด็ก + ครอบครัว + ให้เลือด + ม้ามโต → thalassemia/HS","G6PD: เฉียบพลันหลังยา/ถั่วปากอ้า/ติดเชื้อ ระหว่างครั้งปกติ"]}),
 
 /* ===== สถานี 24 ===== */
-Co({page:4,orig:"24",topic:"micro",sub:"PBS",title:"Patient with HIV — CBC and blood smear",imgNote:NOIMG,
+Co({page:4,orig:"24",topic:"micro",sub:"PBS",title:"Patient with HIV — CBC and blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดสีปกติ ไม่มีเศษเซลล์แตก · เม็ดเลือดขาวจำนวนปกติ · เกล็ดเลือดน้อยมาก ที่เห็นมีขนาดใหญ่",
  stem:`A 32-year-old man with HIV infection presents with petechiae and gum bleeding.<br><b>CBC:</b> Hb 13.2 g/dL, Hct 40%, MCV 88 fL, WBC 6,200/µL (N 62%, L 30%, M 6%, E 2%), platelets 12,000/µL<br>Describe the peripheral blood smear and give your diagnosis.`,
  gray:"24. มีประวัติ HIV ให้ CBC และดู PBS และบรรยาย · เฉลย: secondary ITP to HIV",
  flag:NOIMG+" · ⚠ ค่า CBC และอาการเลือดออก Claude แต่ง (ไฟล์บอกแค่ประวัติ HIV)",
@@ -654,7 +653,7 @@ Co({page:5,orig:"28",topic:"pe",sub:"Abdomen",ex:1,title:"Physical examination �
  summary:["ตรวจท้อง: inspection → auscultation → percussion → palpation (เริ่มจากจุดไม่ปวด)","คลำม้ามทั้งท่านอนหงายและตะแคงขวา","Murphy sign positive + RUQ tenderness + ไข้ → acute cholecystitis → U/S"]}),
 
 /* ===== สถานี 29 ===== */
-Co({page:5,orig:"29",topic:"ekg",sub:"Electrolyte EKG",title:"12-lead EKG — interpret",imgNote:NOIMG,
+Co({page:5,orig:"29",topic:"ekg",sub:"Electrolyte EKG",title:"12-lead EKG — interpret",imgNote:NOIMG,imgAlt:"EKG 12 lead: sinus rhythm · PR ยาว ~240 ms ทุกตัว ทุก P ตามด้วย QRS · T wave สูงแหลมฐานแคบใน V2–V5",
  stem:`A 60-year-old man with chronic kidney disease presents with generalized weakness. Read and interpret his 12-lead EKG.`,
  gray:"29. EKG hyperkalemia · first degree av block · prolong pR interval · tall t wave · (คอลัมน์เฉลยว่าง — คำตอบอยู่ในคอลัมน์คำถาม)",
  flag:NOIMG+" · ประวัติ CKD/อ่อนแรงใน stem Claude แต่ง · stem ไม่บอกผล EKG (ไฟล์บอก hyperkalemia, 1st degree AV block, tall T)",
@@ -673,7 +672,7 @@ Co({page:5,orig:"29",topic:"ekg",sub:"Electrolyte EKG",title:"12-lead EKG — in
  summary:["Hyperkalemia EKG: peaked T → PR ยาว/P หาย → QRS กว้าง → sine wave","First-degree AV block: PR > 200 ms ทุก beat","รักษา: Ca gluconate → insulin + glucose/salbutamol → dialysis/binder/diuretic"]}),
 
 /* ===== สถานี 30 ===== */
-Co({page:5,orig:"30",topic:"img",sub:"Bone/joint film",title:"Radiographs of both knees — describe and diagnose",imgNote:NOIMG,seen:"คล้าย SI127 Ro417–420 ข้อ 12 · SI131 Ro413–416 ข้อ 22 · SI131 Ro417–420 ข้อ 23 (film เข่า) — คนละชุด",
+Co({page:5,orig:"30",topic:"img",sub:"Bone/joint film",title:"Radiographs of both knees — describe and diagnose",imgNote:NOIMG,imgAlt:"ฟิล์มเข่าสองข้าง: ช่องข้อแคบลงไม่สมมาตร ขอบกระดูกมีกระดูกงอก กระดูกใต้ผิวข้อขาวทึบ · มีเส้นหินปูนบางในช่องข้อขนานกับกระดูกอ่อนและที่หมอนรองเข่า",seen:"คล้าย SI127 Ro417–420 ข้อ 12 · SI131 Ro413–416 ข้อ 22 · SI131 Ro417–420 ข้อ 23 (film เข่า) — คนละชุด",
  stem:`An elderly patient has chronic pain in both knees. Describe the radiographs of both knees and give your diagnosis.`,
  gray:"30. ให้ flim both knee แปลผล ข้อสอบเก่า · เฉลย: CPPD,OA · pesudo gout · subchondral bone sclerosis · wedge shape calcification at fibrocartilahinous of knee joint · joint space narrowing",
  flag:NOIMG+" · อายุ/อาการใน stem Claude แต่ง · ไฟล์สะกด flim = film, pesudo = pseudo, fibrocartilahinous = fibrocartilaginous",

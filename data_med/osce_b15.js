@@ -181,7 +181,7 @@ Co({page:8,orig:"8",topic:"pe",ex:1,title:"Trousseau sign — name the sign, 2 c
  summary:["Trousseau: cuff > SBP 20 mmHg × 3 นาที → carpal spasm (wrist/MCP flex, IP ext, thumb adduct)","ไวกว่า Chvostek · บอก hypocalcemia/latent tetany","สาเหตุ: hypoparathyroidism (หลังผ่าตัดคอ), vitamin D deficiency, CKD, pancreatitis, hypoMg, alkalosis","อย่าสับสนกับ Trousseau sign of malignancy (migratory thrombophlebitis)"]}),
 
 /* ===== ข้อ 9 — CT Rt MCA infarction ===== */
-Co({page:8,orig:"9",topic:"img",title:"CT brain — describe and diagnose (right MCA infarction)",imgNote:NOIMG,kimg:["ok74x_9","ok74x_9_2"],
+Co({page:8,orig:"9",topic:"img",title:"CT brain — describe and diagnose (right MCA infarction)",imgNote:NOIMG,imgAlt:"CT สมองไม่ฉีดสี: ปื้นดำรูปลิ่มกว้างที่สมองซีกขวาครอบคลุม frontal–temporal–parietal ด้านข้าง รวม insula ขอบเขตเนื้อเทา-เนื้อขาวหายไป ร่องสมองซีกขวาตื้น ventricle ขวาถูกเบียดเล็กน้อย · ไม่มีเลือดออก",kimg:["ok74x_9","ok74x_9_2"],
  seen:"คล้าย MDCU79 RoB ข้อ 16 (CT brain — hyperdense right MCA, loss of insular ribbon)",
  stem:`A non-contrast CT scan of the brain is shown.<br>1. Describe the findings.<br>2. Give the diagnosis.`,
  gray:"9. ให้รูป CT Rt MCA infarction บรรยาย และให้การวินิจฉัย · [kimg ที่ 2 = ตาราง Recording motor findings / MRC grading of muscle power + grading reflexes จากหน้าโน้ต (Part 1 หน้า 3)]",
@@ -263,7 +263,7 @@ Co({page:9,orig:"12",topic:"lab",title:"Liver function test — AST/ALT >2,000, 
  summary:["R ratio = (ALT/ULN)/(ALP/ULN): >5 hepatocellular, <2 cholestatic, 2–5 mixed","AST/ALT >1,000: viral, ischemic, acetaminophen/drug, CBD stone ระยะแรก, AIH, Wilson","Ischemic hepatitis: ขึ้นเร็วลงเร็ว LDH สูงมาก","Alcoholic hepatitis: AST <400, AST:ALT >2","ประเมิน INR + encephalopathy → acute liver failure"]}),
 
 /* ===== ข้อ 13 — CXR lung cancer in COPD ===== */
-Co({page:9,orig:"13",topic:"img",title:"CXR — long-term smoker with weight loss for 3 months: describe and diagnose",imgNote:NOIMG,kimg:["ok74x_13"],
+Co({page:9,orig:"13",topic:"img",title:"CXR — long-term smoker with weight loss for 3 months: describe and diagnose",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ปอดโปร่งดำกว่าปกติทั้งสองข้าง กะบังลมแบนราบ เห็นซี่โครงด้านหน้าเกิน 7 ซี่ หัวใจเรียวยาวแคบ · ปอดขวาส่วนบนมีก้อนเงาขาวขนาด ~4 cm ขอบไม่เรียบมีเส้นแหลมแผ่ออก · ขั้วปอดขวาโตเป็นก้อน",kimg:["ok74x_13"],
  seen:"คล้าย MDCU77 RoD ข้อ 6 (CXR — chronic obstructive lung disease with a lung mass)",
  stem:`A man who has smoked for many years has lost several kilograms of weight over 3 months. His chest radiograph is shown.<br>1. Describe the chest radiograph.<br>2. Give the diagnosis.`,
  gray:"13. CXR ประวัติคนไข้สูบบุหรี่นาน น้ำหนักลดหลายกิโลในใน3เดือน จงบรรยาย CXR diagnosis (น่าจะ lung cancer ใน COPD)",

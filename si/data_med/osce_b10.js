@@ -164,7 +164,7 @@ Co({page:13,orig:"6",topic:"hx",sub:"Chest pain",ex:1,title:"History taking — 
  summary:["เจ็บหน้าอก pleuritic ทันที + เหนื่อย ในชายสูงผอมสูบบุหรี่ → primary spontaneous pneumothorax","ต้องซัก risk PE: immobilization, เดินทางไกล, ผ่าตัด, ขาบวมข้างเดียว","อย่าลืมโรคอันตราย: ACS, PE, aortic dissection, tension pneumothorax"]}),
 
 /* ===== ฐาน 7 ===== */
-Co({page:13,orig:"7",topic:"ekg",sub:"Bradyarrhythmia/AV block",title:"12-lead EKG — interpret the tracing",imgNote:NOIMG,
+Co({page:13,orig:"7",topic:"ekg",sub:"Bradyarrhythmia/AV block",title:"12-lead EKG — interpret the tracing",imgNote:NOIMG,imgAlt:"EKG 12 lead: P wave สม่ำเสมอ ~90/min และ QRS สม่ำเสมอแต่ช้า ~40/min ไม่สัมพันธ์กัน P บางตัวตกใน QRS หรือ T · V1 มี R สูงเด่นกว่า S · V5–V6 มี S ลึก · T กลับหัวใน V1–V3",
  seen:"SI133 Ro405–406 ข้อ 16 และ SI132 Ro405–406 B3 (3rd degree AV block — ชุดนั้นไม่มี RVH)",
  stem:`Interpret this 12-lead EKG systematically and give the diagnosis.`,
  gray:"7 EKG 3rd degree AV block + RVH + T wave inversion",
@@ -260,7 +260,7 @@ Co({page:14,orig:"10",topic:"lab",sub:"LFT",title:"Liver function test — inter
  summary:["AST/ALT &gt; 10 เท่า, ALT &gt; AST, ALP สูงเล็กน้อย = acute hepatocellular injury","Ddx: acute viral hepatitis, drug-induced, autoimmune hepatitis (+ ischemic, Wilson)","Ix: anti-HAV IgM, HBsAg + anti-HBc IgM, anti-HCV, anti-HEV, ANA/ASMA/IgG, INR, U/S"]}),
 
 /* ===== ฐาน 11 ===== */
-Co({page:14,orig:"11",topic:"img",sub:"CXR",title:"Chest radiograph — read the film",imgNote:NOIMG,kimg:["os131d_k11"],
+Co({page:14,orig:"11",topic:"img",sub:"CXR",title:"Chest radiograph — read the film",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ปอดขวาส่วนบนมีเส้นขาวบางของผิวปอดแยกจากผนังทรวงอก ด้านนอกเส้นดำไม่มีลายปอด · ปอดส่วนอื่นปกติ หลอดลมไม่เลื่อน",kimg:["os131d_k11"],
  seen:"SI132 Ro403–404 ข้อ 7 (CXR Rt. pneumothorax) · SI133 Ro403–404 LAB 9 (CXR pneumothorax)",
  stem:`Read this chest radiograph. Describe all the findings and give the diagnosis.`,
  gray:"11 CXR: pneumothorax at right upper lung fields → บรรยายทั้งหมด หรือ positive finding",
@@ -282,7 +282,7 @@ Co({page:14,orig:"11",topic:"img",sub:"CXR",title:"Chest radiograph — read the
  summary:["Pneumothorax: visceral pleural line + ไม่มี lung marking เลยออกไป","ต้องบอกเสมอว่ามี mediastinal shift/tension หรือไม่","Large = ≥ 2 cm ที่ hilum (BTS) → aspiration/chest drain"]}),
 
 /* ===== ฐาน 12 ===== */
-Co({page:14,orig:"12",topic:"micro",sub:"PBS",title:"Anemia without hepatomegaly — peripheral blood smear",imgNote:NOIMG,kimg:["os131d_k12"],
+Co({page:14,orig:"12",topic:"micro",sub:"PBS",title:"Anemia without hepatomegaly — peripheral blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงบางเซลล์มีฮีโมโกลบินหดไปอยู่ข้างเดียวเหลือส่วนใสเหมือนถูกกัดแหว่ง บางเซลล์ฮีโมโกลบินรั่วจนเหลือแต่เยื่อบาง ๆ · เม็ดเลือดขาวเพิ่มขึ้น",kimg:["os131d_k12"],
  seen:"SI133 Ro407–408 OSCE 1 (blood smear G6PD deficiency anemia)",
  stem:`A patient presents with anemia. Physical examination shows no hepatomegaly. Describe the peripheral blood smear and give the diagnosis.`,
  gray:"12 BS: anemia without hepatomegaly Ans: G6PD def + acute hemolysis → Hb contracted, Hb leakage · Leukocytosis",

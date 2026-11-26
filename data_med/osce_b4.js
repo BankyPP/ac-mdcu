@@ -23,12 +23,12 @@ const Dd=o=>Object.assign({set:"MDCU77",ro:"RoD",file:"IMO77DQ",opinion:""},o);
 QB.push(
 
 /* ============================ RoC ============================ */
-Cc({page:3,orig:"1",topic:"img",title:"CXR — read systematically (file gave only the topic)",imgNote:NOIMG,
+Cc({page:3,orig:"1",topic:"img",title:"CXR — read systematically (file gave only the topic)",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ปอดขวาส่วนบนมีเงาขาวทึบเป็นเนื้อเดียว ขอบล่างตรงชัดตามแนวร่องแบ่งกลีบแนวนอน ภายในเงาเห็นเส้นหลอดลมสีดำ · ขอบหัวใจขวายังเห็นชัด · ไม่มีโพรง ไม่มีน้ำในเยื่อหุ้มปอด",
  stem:`A 65-year-old man presents with fever and cough productive of rusty sputum for 3 days. Temperature 39 °C, RR 26/min, SpO₂ 92% on room air. Crackles and bronchial breath sounds are heard over the right upper chest. His chest X-ray (PA) is obtained.<br>1. Read the chest X-ray systematically.<br>2. Diagnosis.`,
  gray:"แปลผล CXR",
  flag:"⚠ "+TOPIC+" · ปกไฟล์เขียนว่า \"EKG + CXR + CT brain ออกทุกครั้ง\" — Claude เลือก lobar pneumonia (right upper lobe) เป็นตัวอย่าง",
  parts:S(
-  B("1.1 Read the chest X-ray systematically (describe the expected findings).",6,{tags:["img"],
+  B("1.1 Read the chest X-ray systematically.",6,{tags:["img"],
    ans:"<b>ข้อมูลภาพ</b>: ชื่อ วันที่ PA upright · <b>Technical</b>: inspiration พอ (posterior rib 9–10), ไม่ rotate (spinous process อยู่กลางระหว่าง medial end ของ clavicle), penetration พอ (เห็น vertebra หลังหัวใจรำไร) · <b>Soft tissue/bones</b>: ปกติ · <b>Trachea</b>: midline · <b>Lungs</b>: <b>homogeneous opacity (consolidation) ที่ right upper zone</b> มี <b>air bronchogram</b>, ขอบล่าง<b>ตรงคมตาม horizontal (minor) fissure</b>, <b>ไม่มี volume loss</b> (fissure ไม่ถูกดึง trachea ไม่เบี้ยว) · <b>Hila</b>: ปกติ · <b>Heart</b>: CTR &lt; 0.5, ขอบหัวใจขวาเห็นชัด · <b>Diaphragm/CP angles</b>: คม ไม่มี effusion · ไม่มี pneumothorax",
    exp:"Consolidation = alveoli เต็มไปด้วยของเหลว/หนอง → opacity ที่มี air bronchogram, ไม่มี volume loss · ตำแหน่ง: RUL ขอบล่างคือ minor fissure; RML ทำให้ขอบหัวใจขวาหาย (silhouette sign); RLL ทำให้ขอบ hemidiaphragm ขวาหาย · ถ้ามี volume loss (fissure/trachea ถูกดึง) ให้คิดถึง collapse จาก obstruction (มะเร็ง) แทน",
    rubric:"ได้ = อ่านเป็นระบบ + บอก consolidation + air bronchogram + ตำแหน่ง RUL (minor fissure) · บางส่วน = บอกว่ามี opacity ปอดขวาบนโดยไม่บรรยายลักษณะ",
@@ -41,12 +41,12 @@ Cc({page:3,orig:"1",topic:"img",title:"CXR — read systematically (file gave on
  interp:"สถานี CXR ที่ออกทุกรอบ — ฝึกอ่าน 'technical → bones/soft tissue → trachea/mediastinum → lungs → hila → heart → diaphragm' แล้วจึงสรุป",
  summary:["Consolidation: opacity + air bronchogram + ไม่มี volume loss","Silhouette sign: RML → ขอบหัวใจขวา, lingula → ขอบหัวใจซ้าย, lower lobe → diaphragm","Collapse: opacity + volume loss (fissure/trachea/hilum ถูกดึง) → คิดถึง endobronchial obstruction"]}),
 
-Cc({page:3,orig:"2",topic:"ekg",title:"EKG — read systematically (file gave only the topic)",imgNote:NOIMG,
+Cc({page:3,orig:"2",topic:"ekg",title:"EKG — read systematically (file gave only the topic)",imgNote:NOIMG,imgAlt:"EKG 12 lead: ไม่เห็น P wave ชัด เส้นฐานสั่นละเอียดไม่สม่ำเสมอ · R–R ไม่สม่ำเสมอแบบไร้รูปแบบ ventricular rate ~140/min · QRS แคบ · ไม่มี ST ยก",
  stem:`A 72-year-old woman with hypertension presents with palpitations for 1 day. BP 130/80 mmHg, pulse irregular. A 12-lead EKG is obtained.<br>1. Read the EKG systematically.<br>2. Diagnosis.<br>3. Outline the management.`,
  gray:"แปลผล EKG",
  flag:"⚠ "+TOPIC+" · Claude เลือก atrial fibrillation with rapid ventricular response เป็นตัวอย่าง",
  parts:S(
-  B("2.1 Read the EKG systematically (describe the expected findings).",4,{tags:["ekg"],
+  B("2.1 Read the EKG systematically.",4,{tags:["ekg"],
    ans:"<b>Rate</b>: ventricular rate ~130–150/min (นับ QRS ใน 10 วินาที × 6 เพราะ rhythm ไม่สม่ำเสมอ) · <b>Rhythm</b>: <b>irregularly irregular</b> · <b>P wave</b>: <b>ไม่มี P wave ที่ชัดเจน</b>, เห็น <b>fibrillatory (f) waves</b> ไม่สม่ำเสมอที่ baseline (ชัดใน II, V1) · <b>Axis</b>: ปกติ · <b>QRS</b>: แคบ (&lt; 120 ms) · <b>ST–T</b>: อาจมี rate-related ST depression เล็กน้อย · ± LVH voltage จากความดันสูง",
    exp:"แยก AF จาก: atrial flutter (saw-tooth F waves 300/min, ratio คงที่ → R–R regular), MAT (P ≥3 รูปแบบ), sinus arrhythmia (มี P ทุกตัว) · 'Irregularly irregular + no P' = AF",
    pts:[H("อ่านเป็นระบบ",30),P("Rate (นับ 10 วินาที × 6)","rate","อัตรา","/min"),P("Axis / QRS width / ST–T","axis","qrs","\\bst\\b","narrow"),
@@ -63,12 +63,12 @@ Cc({page:3,orig:"2",topic:"ekg",title:"EKG — read systematically (file gave on
  interp:"สถานี EKG ที่ออกทุกรอบ — อ่าน rate → rhythm → axis → P → PR → QRS → ST–T → QT แล้วสรุป · AF = irregularly irregular + ไม่มี P",
  summary:["AF: rate control (β-blocker/diltiazem) + anticoagulation (CHA₂DS₂-VA ≥2) + หาสาเหตุ (TSH, echo)","Unstable AF → synchronized cardioversion","AF ≥48 ชม. ก่อน cardioversion: OAC 3 สัปดาห์ หรือ TEE แล้วต่อ OAC 4 สัปดาห์"]}),
 
-Cc({page:3,orig:"3",topic:"img",title:"CT brain — elderly man with headache and drowsiness after a fall",imgNote:NOIMG,seen:"MDCU78 RoB ข้อ 7 และ RoC ข้อ 7 (CT brain subdural hematoma เช่นกัน)",
+Cc({page:3,orig:"3",topic:"img",title:"CT brain — elderly man with headache and drowsiness after a fall",imgNote:NOIMG,imgAlt:"CT สมองไม่ฉีดสี: เงาขาวรูปจันทร์เสี้ยวเว้าตามผิวสมองซีกซ้าย frontal–parietal หนา ~1.2 cm ข้ามแนวรอยต่อกะโหลก · ร่องสมองซีกซ้ายหายไป ventricle ซ้ายถูกกด เส้นกลางเลื่อนไปขวา ~7 mm",seen:"MDCU78 RoB ข้อ 7 และ RoC ข้อ 7 (CT brain subdural hematoma เช่นกัน)",
  stem:`A 75-year-old man taking warfarin fell and hit his head 1 day ago. He now has a headache and is drowsy. A non-contrast CT scan of the brain is shown.<br>1. Describe the abnormal findings.<br>2. Diagnosis.`,
  gray:"แปลผล CT brain (subdural hemorrhage)",
  flag:"⚠ "+NOIMG+" · ไฟล์ให้แค่ 'แปลผล CT brain (subdural hemorrhage)' — ประวัติ Claude แต่ง (เลือก acute SDH)",
  parts:S(
-  B("3.1 Describe the abnormal findings (describe the expected findings).",4,{tags:["img"],
+  B("3.1 Describe the abnormal findings.",4,{tags:["img"],
    ans:"Non-contrast CT brain, axial, ระดับ lateral ventricles · <b>Crescent-shaped (concave) hyperdense extra-axial collection</b> ตาม convexity ของสมองซีกหนึ่ง (เช่น frontoparietal ซ้าย) · <b>ข้าม suture line ได้</b> แต่<b>ไม่ข้าม midline</b> (หยุดที่ falx) · <b>Mass effect</b>: sulci ฝั่งนั้นหาย, lateral ventricle ฝั่งเดียวกันถูกกด, <b>midline shift ไปฝั่งตรงข้าม</b> (วัดเป็น mm ที่ septum pellucidum) · ± subfalcine herniation · ดู bone window หากระดูกหัก · ไม่มี hemorrhage ในเนื้อสมอง",
    exp:"Extra-axial: <b>SDH</b> = crescent, ข้าม suture, ไม่ข้าม midline (เลือดอยู่ใต้ dura จาก bridging vein ฉีก) · <b>EDH</b> = biconvex (lens), ไม่ข้าม suture (dura ยึดที่ suture), ข้าม midline ได้, มักมี skull fracture (middle meningeal artery) · ความหนาแน่นตามเวลา: acute hyperdense → subacute isodense (1–3 สัปดาห์) → chronic hypodense",
    rubric:"ได้ = บอกรูปร่าง crescent + hyperdense + extra-axial + mass effect/midline shift · บางส่วน = บอกว่ามีเลือดออกแต่ไม่บอกตำแหน่ง/รูปร่าง",
@@ -101,12 +101,12 @@ Cc({page:3,orig:"4",topic:"lab",title:"Coagulation — ascites, ecchymoses, PT m
  interp:"PT ยาวมาก + aPTT ยาวเล็กน้อย + platelet/fibrinogen ปกติ = vitamin K–dependent factor deficiency → liver disease vs vitamin K deficiency vs warfarin · ให้ vitamin K แล้วดูการตอบสนอง",
  summary:["PT = extrinsic (VII) + common; aPTT = intrinsic (VIII, IX, XI, XII) + common","Factor V ↓ = liver disease; factor V ปกติ = vitamin K deficiency/warfarin","Vitamin K แก้ได้ใน 12–24 ชม. → vit K deficiency/warfarin; ไม่แก้ → liver disease"]}),
 
-Cc({page:3,orig:"5",topic:"skin",title:"Rash on the trunk with an oral lesion in a 30-year-old man",imgNote:NOIMG,seen:"MDCU78 RoC ข้อ 9 (ไข้ ผื่นจากหัวลงตัว 2 รูป — หัด เช่นกัน)",
+Cc({page:3,orig:"5",topic:"skin",title:"Rash on the trunk with an oral lesion in a 30-year-old man",imgNote:NOIMG,imgAlt:"ภาพลำตัว: ผื่นแดงเป็นจุดและตุ่มนูนเล็กจำนวนมาก รวมกันเป็นปื้นแดงที่หน้าอกและหลัง (ผู้ป่วยบอกว่าผื่นขึ้นที่หน้าและหลังหูก่อนแล้วลามลง) · ภาพในปาก: กระพุ้งแก้มตรงฟันกรามล่างมีจุดขาวเทาเล็ก ๆ คล้ายเม็ดเกลือหลายจุดบนพื้นแดง",seen:"MDCU78 RoC ข้อ 9 (ไข้ ผื่นจากหัวลงตัว 2 รูป — หัด เช่นกัน)",
  stem:`A 30-year-old man presents with fever, cough, runny nose and red eyes for 4 days, followed by a rash. Pictures of the rash on his trunk and of his oral mucosa are shown.<br>1. Describe the rash on the trunk.<br>2. What is the lesion in the mouth called?<br>3. Name the common complications of this disease.`,
  gray:"ชายอายุ 30 ขวบ ให้ภาพผื่นบนลำตัว + Koplik's spot - บรรยายผื่นบนตัว - Lesion ในปากเรียกว่าไร - Complications ที่พบบ่อยจากโรคนี้",
  flag:"⚠ "+NOIMG+" · อาการนำ (ไข้ ไอ น้ำมูก ตาแดง) Claude เติมเพื่อให้เป็นภาพหัดที่สมบูรณ์",
  parts:S(
-  B("5.1 Describe the rash on the trunk (describe the expected findings).",3,{tags:["skin"],
+  B("5.1 Describe the rash on the trunk.",3,{tags:["skin"],
    ans:"<b>Generalized erythematous maculopapular (morbilliform) rash</b> — ผื่นแดงเป็นจุดและตุ่มนูนเล็ก ๆ จำนวนมาก บางส่วน<b>รวมกันเป็นปื้น (confluent)</b> โดยเฉพาะที่หน้าและลำตัวส่วนบน · ไม่มีตุ่มน้ำ/หนอง · กดจางลง (blanchable) · (ประวัติ: เริ่มที่ไรผม/หลังหู/หน้า แล้ว<b>ลามลงลำตัวและแขนขาใน ~3 วัน</b>, จางลงตามลำดับเดิมเหลือรอยสีน้ำตาลและขุยละเอียด)",
    pts:[CR(P("Erythematous maculopapular (morbilliform) rash","maculopap","morbilli","erythemat","ผื่นแดง","macule","papule")),P("Confluent / ลามจากหัวลงตัว (cephalocaudal)","confluent","รวมกัน","cephalocaudal","หัวลง","ลาม")]}),
   B("5.2 What is the lesion in the mouth called?",2,{tags:["skin"],
@@ -135,12 +135,12 @@ Cc({page:3,orig:"6",topic:"lab",title:"Lab — liver panel in a patient with jau
  interp:"Jaundice + hepatomegaly + AST:ALT > 2 (AST < 400) = alcohol-associated hepatitis",
  summary:["AST:ALT > 2 → alcohol · ALT > AST, > 1,000 → viral/ischemic/drug","Severe alcoholic hepatitis: Maddrey DF ≥32 / MELD >20 → prednisolone 40 mg 28 วัน (Lille day 7 ≥0.45 → หยุด)","รักษาหลัก: หยุดสุรา + nutrition"]}),
 
-Cc({page:3,orig:"7",topic:"micro",title:"Urine sediment — edema for 4 weeks, then bloody urine for 1 week",imgNote:NOIMG,
+Cc({page:3,orig:"7",topic:"micro",title:"Urine sediment — edema for 4 weeks, then bloody urine for 1 week",imgNote:NOIMG,imgAlt:"ภาพตะกอนปัสสาวะ: เม็ดเลือดแดงจำนวนมาก รูปร่างผิดปกติ ขนาดไม่เท่ากัน หลายเซลล์มีตุ่มกลมยื่นออกจากผิว · มีโครงทรงกระบอกที่มีเม็ดเลือดแดงอัดอยู่ภายใน 1–2 อัน",
  stem:`A 25-year-old woman has had generalized swelling for 4 weeks. During the last week her urine has become bloody. Her urinalysis shows many red blood cells; the urine sediment is shown.<br>1. Describe the urine sediment.<br>2. Give 2 differential diagnoses.`,
  gray:"คนไข้บวมมา 4 weeks แล้ว 1 week ที่ผ่านมาเริ่มฉี่เป็นเลือด ให้ผล UA มา มีภาพ RBC เยอะเลย มี dysmorphic RBC มี RBC cast (มั้ง) - อ่านผลภาพ UA - Diff diag 2 โรค",
  flag:"⚠ "+NOIMG+" · ผู้จดไม่แน่ใจว่ามี RBC cast (\"มั้ง\") · อายุ/เพศ Claude เติม",
  parts:S(
-  B("7.1 Describe the urine sediment (describe the expected findings).",4,{tags:["micro"],
+  B("7.1 Describe the urine sediment.",4,{tags:["micro"],
    ans:"Urine sediment (high-power field): <b>RBC จำนวนมาก</b> (&gt; 5/HPF) · <b>Dysmorphic RBC</b> — รูปร่างผิดปกติ ขนาดไม่เท่ากัน มี blebs/ตุ่มยื่นออกจากผิว (<b>acanthocytes</b> / G1 cells) · <b>RBC cast</b> — cast ทรงกระบอกที่มี RBC ฝังอยู่ (ถ้ามี) · ± WBC เล็กน้อย, granular cast · (dipstick: blood + และ <b>protein +</b>)",
    exp:"Dysmorphic RBC (&gt; 40–80% หรือ acanthocytes &gt; 5%) และ RBC cast = <b>glomerular hematuria</b> (RBC ผ่าน GBM ที่เสียหายแล้วถูก osmotic stress ใน tubule) · RBC cast = pathognomonic ของ glomerulonephritis · Isomorphic RBC ไม่มี cast = non-glomerular (นิ่ว, มะเร็ง, ติดเชื้อ)",
    pts:[P("RBC จำนวนมาก","rbc","red blood cell","เม็ดเลือดแดง"),CR(P("Dysmorphic RBC / acanthocyte","dysmorph","acanthocyt")),CR(P("RBC cast","rbc cast","red cell cast","cast")),P("สรุป: glomerular hematuria","glomerular")]}),
@@ -283,12 +283,12 @@ Dd({page:1,orig:"3",topic:"proc",ex:1,proc:1,title:"Procedure — post-chemother
  interp:"ไข้หลังเคมีบำบัด + BP 80/40 = febrile neutropenia + septic shock → hemoculture แล้ว antibiotic ภายใน 1 ชม. + crystalloid 30 mL/kg + norepinephrine ถ้า MAP < 65",
  summary:["Venipuncture: คลาย tourniquet ก่อนถอนเข็ม, ไม่ recap, ไม่เจาะแขนที่ให้ IV","Septic shock: crystalloid 30 mL/kg ใน 3 ชม., MAP ≥65, norepinephrine first-line","Febrile neutropenia: anti-pseudomonal β-lactam ภายใน 60 นาที"]}),
 
-Dd({page:1,orig:"4",topic:"lab",title:"Red urine in a 16-year-old boy — urine before and after centrifugation",imgNote:NOIMG,
+Dd({page:1,orig:"4",topic:"lab",title:"Red urine in a 16-year-old boy — urine before and after centrifugation",imgNote:NOIMG,imgAlt:"หลอดปัสสาวะ 2 หลอด: ก่อนปั่นเป็นสีแดงขุ่นทั้งหลอด · หลังปั่นมีตะกอนสีแดงจับที่ก้นหลอด ส่วนน้ำด้านบนใสเป็นสีเหลืองปกติ",
  stem:`A 16-year-old boy passes red urine. Urinalysis shows hematuria. A picture of his urine before and after centrifugation is shown.<br>1. Describe the picture.<br>2. Give 1 differential diagnosis.`,
  gray:"ชาย 16 yr เยี่ยวเลือด UA hemat + ปั่นแล้วตกตะกอน ให้อธิบายรูป + ddx 1โรค",
  flag:"⚠ "+NOIMG+" · ภาพน่าจะเป็นแบบ red urine approach (หลอดก่อน-หลังปั่น) คล้ายสถานี MDCU78 RoB ข้อ 4 แต่คำตอบตรงข้าม (ข้อนี้ปั่นแล้วตกตะกอน = hematuria)",
  parts:S(
-  B("4.1 Describe the picture (describe the expected findings).",3,{tags:["lab"],
+  B("4.1 Describe the picture.",3,{tags:["lab"],
    ans:"<b>ก่อนปั่น</b>: ปัสสาวะสีแดงขุ่นทั้งหลอด · <b>หลังปั่น</b>: <b>มีตะกอนสีแดงที่ก้นหลอด (RBC)</b> และ <b>supernatant ใส/สีเหลืองปกติ</b> → สีแดงมาจากเม็ดเลือดแดง = <b>true hematuria</b> (ไม่ใช่ hemoglobinuria/myoglobinuria ที่ supernatant ยังแดง) · ยืนยันด้วยกล้อง: RBC &gt; 3–5/HPF",
    exp:"Approach red urine: ปั่น → ตะกอนแดง + supernatant ใส = hematuria → ดูลักษณะ RBC (dysmorphic/cast = glomerular; isomorphic = non-glomerular) · supernatant แดง + dipstick heme + → hemoglobin (serum ชมพู) vs myoglobin (serum ใส, CK สูง) · dipstick heme ลบ → อาหาร (beet), ยา (rifampicin, phenazopyridine), porphyria",
    pts:[CR(P("หลังปั่นมีตะกอนแดง + supernatant ใส","ตะกอน","sediment","supernatant","ใส","clear","pellet")),CR(P("สรุป true hematuria (สีมาจาก RBC ไม่ใช่ pigment)","hematuria","rbc","เม็ดเลือดแดง"))]}),
@@ -317,12 +317,12 @@ Dd({page:1,orig:"5",topic:"lab",title:"Thalassemia — father HbH disease, mothe
  interp:"พ่อ HbH (--/-α) × แม่ α-thal-1 trait (--/αα) + HbE trait → ลูก Hb Bart's hydrops 25%, HbH 12.5%, AE Bart's 12.5% = คู่เสี่ยง → prenatal diagnosis",
  summary:["α-thal-1 = --; α-thal-2 = -α · HbH = --/-α · Bart's hydrops = --/--","AE Bart's = HbH + HbE trait; EF Bart's = HbH + homozygous HbE","HbE: β26 Glu→Lys, cryptic splice site → mild β⁺ phenotype"]}),
 
-Dd({page:2,orig:"6",topic:"img",title:"CXR — chronic obstructive lung disease with a lung mass",imgNote:NOIMG,
+Dd({page:2,orig:"6",topic:"img",title:"CXR — chronic obstructive lung disease with a lung mass",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ปอดโปร่งดำกว่าปกติทั้งสองข้าง เห็นซี่โครงด้านหลังเกิน 10 ซี่ กะบังลมแบนราบ หัวใจเรียวยาวแคบ · ปอดซ้ายส่วนบนมีก้อนเงาขาวขนาด ~5 cm ขอบไม่เรียบ",
  stem:`A 68-year-old man who has smoked 50 pack-years has had progressive exertional dyspnea for several years and has lost 6 kg over the past 3 months. His chest X-ray is shown.<br>1. Describe the chest X-ray.<br>2. Diagnosis.`,
  gray:"CXR copd + lung mass อธิบาย + dx",
  flag:"⚠ "+NOIMG+" · ไฟล์ให้แค่ 'CXR copd + lung mass' — ประวัติ Claude แต่ง · ตำแหน่ง mass Claude สมมติเป็น right upper zone",
  parts:S(
-  B("6.1 Describe the chest X-ray (describe the expected findings).",5,{tags:["img"],
+  B("6.1 Describe the chest X-ray.",5,{tags:["img"],
    ans:"PA upright, technical adequate · <b>Hyperinflation</b>: เห็น anterior ribs &gt; 6–7 / posterior ribs &gt; 10, <b>flattened hemidiaphragms</b>, <b>hyperlucent lung fields</b> ลด peripheral vascular markings (± bullae), <b>narrow tubular heart</b> = COPD/emphysema · <b>Mass</b>: <b>solitary rounded/lobulated opacity ขนาด &gt; 3 cm ที่ right upper zone</b> ขอบไม่เรียบ/<b>spiculated</b> ± cavity (ผนังหนาไม่เรียบ → squamous cell) · ดูเพิ่ม: <b>hilar/mediastinal widening</b> (lymph node), <b>pleural effusion</b>, rib destruction (bone mets/Pancoast), <b>collapse/consolidation ส่วนปลาย</b> (endobronchial obstruction), hemidiaphragm สูงข้างเดียว (phrenic nerve) · trachea midline",
    exp:"Nodule ≤ 3 cm, mass &gt; 3 cm · ลักษณะชวนมะเร็ง: ขนาดใหญ่, spiculated/lobulated, ผนัง cavity หนา &gt; 15 mm, ขึ้นใหม่/โตขึ้น, upper lobe, ผู้สูบบุหรี่ · ไม่ชวน: calcification แบบ benign (central, laminated, popcorn), ขนาดคงที่ 2 ปี",
    rubric:"ได้ = hyperinflation signs + บรรยาย mass (ตำแหน่ง ขนาด ขอบ) + ดูสิ่งที่บ่งการลุกลาม · บางส่วน = บอกแค่อย่างใดอย่างหนึ่ง",
@@ -334,12 +334,12 @@ Dd({page:2,orig:"6",topic:"img",title:"CXR — chronic obstructive lung disease 
  interp:"ผู้สูบบุหรี่ COPD + น้ำหนักลด + mass บน CXR = มะเร็งปอดจนกว่าจะพิสูจน์ว่าไม่ใช่ → CT chest + tissue diagnosis",
  summary:["CXR COPD: hyperinflation, flat diaphragm, hyperlucent, tubular heart","Mass >3 cm spiculated ในผู้สูบบุหรี่ = มะเร็งปอด; squamous → central + cavity + hypercalcemia","ไทย: แยก TB เสมอ (sputum AFB, GeneXpert)"]}),
 
-Dd({page:2,orig:"7",topic:"img",title:"CT brain — sudden vertigo, vomiting and ataxia in a hypertensive patient",imgNote:NOIMG,seen:"MDCU78 RoD ข้อ 6 (CT brain cerebellar hemorrhage เช่นกัน)",
+Dd({page:2,orig:"7",topic:"img",title:"CT brain — sudden vertigo, vomiting and ataxia in a hypertensive patient",imgNote:NOIMG,imgAlt:"CT สมองไม่ฉีดสีระดับแอ่งกะโหลกด้านหลัง: ก้อนเงาขาวสว่างขนาด ~3.5 cm ในซีกขวาของสมองน้อย ขอบดำบางรอบก้อน · ventricle ที่ 4 ถูกกดแคบและเลื่อนไปทางซ้าย · ventricle ข้างทั้งสองและ ventricle ที่ 3 โตขึ้น ปลาย temporal horn บานออก · ร่องสมองด้านบนตื้น",seen:"MDCU78 RoD ข้อ 6 (CT brain cerebellar hemorrhage เช่นกัน)",
  stem:`A 65-year-old man with poorly controlled hypertension develops sudden severe headache, vertigo, vomiting, and inability to walk. BP 210/110 mmHg. A non-contrast CT scan of the brain is shown.<br>1. Describe the CT.<br>2. Diagnosis.`,
  gray:"CT brain cerebellar hemorrhage อธิบาย + dx",
  flag:"⚠ "+NOIMG+" · ไฟล์ให้แค่ 'CT brain cerebellar hemorrhage' — ประวัติ Claude แต่ง",
  parts:S(
-  B("7.1 Describe the CT (describe the expected findings).",4,{tags:["img"],
+  B("7.1 Describe the CT.",4,{tags:["img"],
    ans:"Non-contrast CT brain, axial, ระดับ posterior fossa · <b>Hyperdense (ขาว ~50–90 HU) intra-axial lesion ใน cerebellar hemisphere</b> (เช่น ขวา) ขอบค่อนข้างชัด รูปรี ± ขนาด (วัดเส้นผ่านศูนย์กลาง เช่น &gt; 3 cm) · <b>Perilesional hypodense rim</b> (edema) · <b>Mass effect</b>: <b>4th ventricle ถูกกด/เบียด</b>, basal cisterns (quadrigeminal/prepontine) แคบ, brainstem ถูกกด · <b>Obstructive hydrocephalus</b>: temporal horns และ lateral/3rd ventricles โต · ± intraventricular extension",
    exp:"Hypertensive ICH พบบ่อย: putamen (35–50%) &gt; lobar &gt; thalamus &gt; pons &gt; cerebellum (~10%) — จาก Charcot–Bouchard microaneurysm · Lobar ICH ในผู้สูงอายุ → cerebral amyloid angiopathy",
    pts:[P("Non-contrast CT axial, posterior fossa","non-contrast","non contrast","axial","posterior fossa"),CR(P("Hyperdense lesion ใน cerebellar hemisphere","hyperdense","cerebell","ขาว","hemorrhage")),P("Perilesional edema","edema","hypodense rim","บวม"),CR(P("กด 4th ventricle / brainstem / hydrocephalus","4th ventricle","fourth","brainstem","hydroceph","cistern","mass effect"))]}),
@@ -350,12 +350,12 @@ Dd({page:2,orig:"7",topic:"img",title:"CT brain — sudden vertigo, vomiting and
  interp:"ปวดหัว อาเจียน vertigo เดินไม่ได้ + HT + hyperdense lesion ใน cerebellum = hypertensive cerebellar hemorrhage → ผ่าตัดด่วนถ้า > 3 cm/กด brainstem/hydrocephalus",
  summary:["ICH ตำแหน่งที่พบบ่อย: putamen > lobar > thalamus > pons > cerebellum","Cerebellar ICH >3 cm/แย่ลง/hydrocephalus → suboccipital craniectomy","Acute ICH: SBP เป้า ~140 (ช่วง 130–150)"]}),
 
-Dd({page:2,orig:"8",topic:"micro",title:"Synovial fluid Gram stain — encapsulated gram-negative bacilli and neutrophils",imgNote:NOIMG,
+Dd({page:2,orig:"8",topic:"micro",title:"Synovial fluid Gram stain — encapsulated gram-negative bacilli and neutrophils",imgNote:NOIMG,imgAlt:"Gram stain น้ำไขข้อ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · แท่งติดสีชมพูแดงทั้งนอกและในเซลล์ รอบเชื้อแต่ละตัวมีวงใสหนาชัด",
  stem:`A patient presents with acute monoarthritis. Joint aspiration is performed and the Gram stain of the synovial fluid is shown.<br>1. Describe the findings.<br>2. Name 2 likely organisms.<br>3. Choose an appropriate empirical antibiotic.`,
  gray:"Arthritis เจาะข้อมา GNB c capsule + PMN ให้อธิบายสิ่งที่เจอ + ตอบ 2 เชื้อ + Antibiotic",
  flag:"⚠ "+NOIMG,
  parts:S(
-  B("8.1 Describe the findings (describe the expected findings).",3,{tags:["micro"],
+  B("8.1 Describe the findings.",3,{tags:["micro"],
    ans:"Gram stain ของ synovial fluid: <b>polymorphonuclear leukocytes (neutrophils) จำนวนมาก</b> · <b>Gram-negative bacilli</b> (แท่งติดสีแดง/ชมพู) ทั้งนอกและในเซลล์ · รอบตัวเชื้อมี<b>ช่องใส (halo) = capsule</b> · (ถ้าเป็น <i>B. pseudomallei</i>: GNB ติดสีเข้มที่ปลายสองข้าง <b>bipolar staining 'safety pin'</b>) · สรุป: <b>septic arthritis จาก encapsulated GNB</b>",
    pts:[CR(P("Gram-negative bacilli","gram.?neg","gnb","แท่ง","bacilli","rod")),P("Capsule (halo)","capsul","halo","แคปซูล"),CR(P("PMN / neutrophils จำนวนมาก","pmn","neutrophil","polymorph"))]}),
   B("8.2 Name 2 likely organisms.",3,{tags:["micro"],
@@ -385,12 +385,12 @@ Dd({page:2,orig:"9",topic:"lab",title:"Check-up — isolated anti-HBc with posit
  interp:"Isolated anti-HBc ส่วนใหญ่ = resolved HBV; ใน HCV ต้องตรวจ HBV DNA หา occult HBV · anti-HCV + → HCV RNA → DAA + เฝ้าระวัง HBV reactivation",
  summary:["Isolated anti-HBc: resolved > occult > window > false positive","Anti-HCV + → HCV RNA ยืนยัน (anti-HCV อยู่ตลอดชีวิตแม้หายแล้ว)","SOF/VEL 12 สัปดาห์ → SVR12; anti-HBc + → เฝ้าระวัง HBV reactivation"]}),
 
-Dd({page:2,orig:"10",topic:"img",title:"Thyroid scan — diffuse increased uptake with a cold nodule",imgNote:NOIMG,seen:"MDCU78 RoD ข้อ 9 (ข้อเดียวกัน — thyroid scan Graves with cold nodule)",
+Dd({page:2,orig:"10",topic:"img",title:"Thyroid scan — diffuse increased uptake with a cold nodule",imgNote:NOIMG,imgAlt:"Thyroid scan: ต่อมโตทั้งสองกลีบ จับสารเข้มสม่ำเสมอทั่วต่อม · กลีบขวามีบริเวณกลมขนาด ~2 cm ที่ไม่จับสาร ตรงตำแหน่งก้อนที่คลำได้",seen:"MDCU78 RoD ข้อ 9 (ข้อเดียวกัน — thyroid scan Graves with cold nodule)",
  stem:`A 40-year-old woman presents with palpitations, weight loss, heat intolerance, and a diffusely enlarged thyroid gland with a palpable nodule in the right lobe. TSH is suppressed and free T4 is elevated. Her thyroid scan is shown.<br>1. Read the thyroid scan.<br>2. Outline the management.`,
  gray:"Thyroid scan Grave c cold nodule อ่านผล + บอกวิธีการรักษาต่อไป",
  flag:"⚠ "+NOIMG+" · ประวัติ/ผล TFT Claude เติม",
  parts:S(
-  B("10.1 Read the thyroid scan (describe the expected findings).",4,{tags:["img"],
+  B("10.1 Read the thyroid scan.",4,{tags:["img"],
    ans:"Thyroid scintigraphy (Tc-99m pertechnetate หรือ I-123/I-131) · <b>ต่อมไทรอยด์โตทั้งสองข้าง (diffuse enlargement)</b> · <b>Uptake เพิ่มขึ้นสม่ำเสมอทั่วทั้งต่อม (diffuse homogeneous increased uptake)</b>, pyramidal lobe อาจเห็น · <b>background/salivary gland uptake ต่ำ</b> · <b>RAIU สูง</b> (เช่น 24-h uptake &gt; 35–40%) · <b>บริเวณ photopenic (cold area) ที่ lobe ขวา</b> ตรงกับก้อนที่คลำได้ = <b>hypofunctioning (cold) nodule</b> · สรุป: <b>Graves disease with a cold nodule</b>",
    exp:"Thyrotoxicosis + uptake: สูงทั่วต่อม = Graves; สูงเป็นหย่อม = toxic multinodular goiter; hot nodule เดียวกด uptake ส่วนอื่น = toxic adenoma; uptake ต่ำ = thyroiditis (subacute, painless, postpartum), exogenous thyroid hormone, iodine load, struma ovarii · Graves + hot (functioning) nodule = Marine–Lenhart syndrome",
    pts:[CR(P("Diffuse homogeneous increased uptake / ต่อมโต","diffuse","homogen","increased uptake","uptake สูง","สม่ำเสมอ")),CR(P("Cold (photopenic) area ตรงก้อน","cold","photopen","hypofunction")),P("Background ต่ำ / RAIU สูง","background","raiu","salivary"),P("สรุป Graves disease with cold nodule","graves","เกรฟส์")]}),

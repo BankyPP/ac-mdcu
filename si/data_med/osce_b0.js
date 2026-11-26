@@ -21,8 +21,8 @@ const NOIMG="ไม่มีรูปในไฟล์ — ข้อนี้�
 const Co=o=>Object.assign({set:"SI130",ro:"Ro409–412",file:"SIOS130",opinion:""},o);
 QB.push(
 
-Co({page:2, orig:"1", topic:"micro", sub:"Gram stain", title:"Knee swelling and fever in knee OA — joint aspirate smear", imgNote:NOIMG,
-  stem:`A 70-year-old man with known knee osteoarthritis presents with a swollen knee and fever. A Gram-stained smear of his joint aspirate is examined under the microscope. Describe the findings you would expect and name the most likely organism.`,
+Co({page:2, orig:"1", topic:"micro", sub:"Gram stain", title:"Knee swelling and fever in knee OA — joint aspirate smear", imgNote:NOIMG,imgAlt:"Gram stain น้ำไขข้อเข่า: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · เชื้อกลมติดสีม่วงจับกันเป็นกลุ่มก้อนคล้ายพวงองุ่น ทั้งนอกเซลล์และในเซลล์",
+  stem:`A 70-year-old man with known knee osteoarthritis presents with a swollen knee and fever. A Gram-stained smear of his joint aspirate is examined under the microscope. Describe the findings and name the most likely organism.`,
   gray:"1. ช 70 OA เดิม ข้อเข่าบวม มีไข้ ส่องกล้องดู Blood smear บรรยาย+บอกชื่อเชื้อ → numerous PMN, gram positive cocci in cluster · Staphylococcus aureus",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์เขียนว่า \"Blood smear\" แต่คำตอบเป็นลักษณะ Gram stain ของน้ำในข้อ → Claude ตีความเป็น Gram stain ของ synovial fluid",
   opinion:"ไฟล์เขียน \"Blood smear\" แต่คำตอบ (PMN + GPC in cluster) เป็นผล Gram stain ของน้ำข้อ จึงตีความเป็น synovial fluid Gram stain — ไม่ขัดกับ guideline",
@@ -39,8 +39,8 @@ Co({page:2, orig:"1", topic:"micro", sub:"Gram stain", title:"Knee swelling and 
   interp:"Gram stain น้ำข้อ: บรรยายเซลล์อักเสบ + รูปร่าง/การเรียงตัวของเชื้อ แล้วระบุชื่อ",
   summary:["Septic arthritis ผู้ใหญ่: S. aureus พบบ่อยสุด — Gram stain เห็น PMN + GPC in clusters","GPC clusters = Staphylococcus; GPC chains/pairs = Streptococcus","Tx: ระบายหนอง/ล้างข้อ + IV antibiotics + ส่ง culture"]}),
 
-Co({page:2, orig:"2", topic:"micro", sub:"PBS", title:"74F fatigue 5 months, markedly pale — blood smear", imgNote:NOIMG,
-  stem:`A 74-year-old woman presents with fatigue for 5 months and marked pallor. Her peripheral blood smear is examined under the microscope. Describe the findings you would expect (RBC, WBC, platelets), give the diagnosis and state the investigations you would request.`,
+Co({page:2, orig:"2", topic:"micro", sub:"PBS", title:"74F fatigue 5 months, markedly pale — blood smear", imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดเล็ก ซีดตรงกลางกว้างเกินครึ่งเซลล์ ขนาดและรูปร่างต่างกัน มีเซลล์รูปยาวเรียวคล้ายดินสอหลายเซลล์ เซลล์รูปหยดน้ำและรูปเป้าบ้าง ไม่เห็นเซลล์สีม่วงอ่อนตัวใหญ่ · เม็ดเลือดขาวปกติ · เกล็ดเลือดเพิ่มขึ้นเล็กน้อย",
+  stem:`A 74-year-old woman presents with fatigue for 5 months and marked pallor. Her peripheral blood smear is examined under the microscope. Describe the findings (RBC, WBC, platelets), give the diagnosis and state the investigations you would request.`,
   gray:"2. ญ 74 เหนื่อย อ่อนเพลีย 5 เดือน, markedly pale ส่องกล้องดู Blood smear บรรยาย, Dx, Investigation",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น",
   opinion:"คำตอบไฟล์เขียน teardrop cell ร่วมด้วย — Key PBS (OSCE_REF) ของ IDA ไม่มี teardrop (มี pencil cell, target cell) แต่ teardrop พบได้เล็กน้อยใน IDA จึงรับได้ · Investigation: ไฟล์ตอบ EGD อย่างเดียว แต่หญิงสูงอายุหลังหมดประจำเดือนที่เป็น IDA แนะนำ bidirectional endoscopy (EGD + colonoscopy) เพื่อหา GI blood loss/มะเร็งลำไส้ — เพิ่ม colonoscopy ใน key",
@@ -228,8 +228,8 @@ Co({page:4, orig:"10", topic:"lab", sub:"Ascites", title:"Abdominal distension f
   interp:"Lab station: ascitic fluid — SAAG + protein + cell type แล้วสรุป peritoneal disease",
   summary:["SAAG ≥ 1.1 = portal hypertension · < 1.1 = peritoneal disease/อื่น ๆ","Low SAAG + high protein + lymphocytic = TB peritonitis หรือ carcinomatosis","ส่ง ADA, AFB, cytology, laparoscopy + biopsy"]}),
 
-Co({page:4, orig:"11", topic:"pefind", sub:"Eye/Thyroid sign", title:"Prominent eyes in a woman — photograph", imgNote:NOIMG,
-  stem:`A woman presents with prominent eyes. Her photograph is shown. Describe the findings you would expect, state the laboratory tests you would request, and give the most likely diagnosis.`,
+Co({page:4, orig:"11", topic:"pefind", sub:"Eye/Thyroid sign", title:"Prominent eyes in a woman — photograph", imgNote:NOIMG,imgAlt:"ภาพใบหน้าหญิง: หนังตาบนซ้ายรั้งสูงจนเห็นตาขาวเหนือตาดำ ตาซ้ายดูโปนกว่าขวา · ตาขวาปกติ · คอด้านหน้านูนโตเล็กน้อย",
+  stem:`A woman presents with prominent eyes. Her photograph is shown. Describe the findings, state the laboratory tests you would request, and give the most likely diagnosis.`,
   gray:"11. ให้รูปมาเป็น ญ ตาโปน จงบรรยายรูปที่พบ ส่งแลปอะไร Dxอะไร → left upper eye lid retraction · TSH, total T3, FT4 · Graves' disease",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์ไม่บอกอายุ",
   opinion:"คำตอบไฟล์ (TSH, total T3, FT4) ยอมรับได้ — guideline: เริ่มด้วย TSH + free T4 (ถ้า TSH ต่ำ + FT4 ปกติ ให้ส่ง total/free T3) · ตรวจยืนยัน Graves' เพิ่ม TRAb (TSH receptor antibody) ได้ถ้าต้องแยกจาก thyroiditis",
@@ -250,7 +250,7 @@ Co({page:4, orig:"11", topic:"pefind", sub:"Eye/Thyroid sign", title:"Prominent 
   interp:"Eye sign station: eyelid retraction → hyperthyroidism → TSH/FT4/T3 → Graves'",
   summary:["Eyelid retraction + proptosis → นึก hyperthyroidism/Graves' orbitopathy","Lab: TSH ต่ำ, FT4 และ T3 สูง (± TRAb)","Tx: methimazole, beta-blocker, RAI/surgery"]}),
 
-Co({page:4, orig:"12", topic:"skin", sub:"Fungal skin", seen:"SI132 Ro403–404 ข้อ 6 (ผื่นวงแหวน + KOH)", title:"Skin lesion on the neck — describe and investigate", imgNote:NOIMG,
+Co({page:4, orig:"12", topic:"skin", sub:"Fungal skin", seen:"SI132 Ro403–404 ข้อ 6 (ผื่นวงแหวน + KOH)", title:"Skin lesion on the neck — describe and investigate", imgNote:NOIMG,imgAlt:"คอด้านขวา: ปื้นวงแหวนสีแดงหลายวงขอบเขตชัด ขอบนูนมีขุย ตรงกลางสีจางลง วงขยายออกและบางวงต่อกัน",
   stem:`A patient has a skin rash on the neck. The photograph of the lesion is shown. Describe the lesion and state the simple bedside test you would request.`,
   gray:"12. ให้รูปผื่นมา บรรยาย+ส่งอะไร → group of well-defined annular scaly erythematous plaque at right side of neck · KOH exam",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น (ไฟล์บรรยายผื่นที่คอด้านขวา) · ข้อ 12.3 Claude เติม",
@@ -293,8 +293,8 @@ Co({page:4, orig:"13", topic:"proc", sub:"ABG", ex:1, proc:1, title:"Procedure �
   interp:"Procedure station: เจาะ ABG — เช็คผู้ป่วย, Allen test, เคลือบ heparin แล้วไล่ออก, เจาะ, ไล่ air, one-hand cap, ติดสติ๊กเกอร์",
   summary:["เช็คชื่อ/HN → คลำ radial → modified Allen test","เคลือบ heparin ทั่วกระบอกแล้วไล่ออกให้หมด","หลังเจาะ: ไล่ air, ปิด one-hand, ติดสติ๊กเกอร์, กดห้ามเลือด ≥ 5 นาที, ส่งทันที"]}),
 
-Co({page:4, orig:"14", topic:"ekg", sub:"STEMI/ischemia", title:"Chest pain — 12-lead EKG", imgNote:NOIMG,
-  stem:`A patient presents with acute chest pain. A 12-lead EKG is obtained and shown. Describe the abnormal findings you would expect and give the diagnosis.`,
+Co({page:4, orig:"14", topic:"ekg", sub:"STEMI/ischemia", title:"Chest pain — 12-lead EKG", imgNote:NOIMG,imgAlt:"EKG 12 lead: sinus rhythm · ST ยกขึ้นโค้งนูนใน II, III, aVF และ V5–V6 · ST กดต่ำใน I, aVL และ V1–V2",
+  stem:`A patient presents with acute chest pain. A 12-lead EKG is obtained and shown. Describe the abnormal findings and give the diagnosis.`,
   gray:"14. ให้ภาพEKGมา → STE at lead II, III, aVF, V5-6 · STEMI at inferior and lateral wall",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์ไม่บอกอาการนำ (chest pain Claude เติมให้โจทย์อ่านรู้เรื่อง)",
   opinion:"ไฟล์ไม่ขัดกับ guideline — เพิ่มข้อควรระวังเมื่อเป็น inferior STEMI: ตรวจ right-sided leads (V4R) หา RV infarct, หลีกเลี่ยง nitrate ถ้า RV infarct/ความดันต่ำ",
@@ -311,8 +311,8 @@ Co({page:4, orig:"14", topic:"ekg", sub:"STEMI/ischemia", title:"Chest pain — 
   interp:"EKG station: อ่าน ST elevation ตาม lead เพื่อบอกผนังหัวใจที่ infarct",
   summary:["STE II, III, aVF = inferior · V5–V6, I, aVL = lateral","Inferior STEMI: ตรวจ V4R หา RV infarct ก่อนให้ nitrate","Reperfusion: primary PCI ภายในเวลาตามเกณฑ์ ไม่ทันให้ fibrinolysis"]}),
 
-Co({page:4, orig:"15", topic:"micro", sub:"Gram stain", title:"70-year-old with fever, headache and drowsiness — Gram stain", imgNote:NOIMG,
-  stem:`A 70-year-old man presents with fever, headache and drowsiness. Meningitis is suspected and a Gram stain of the cerebrospinal fluid is examined under the microscope. Describe the findings you would expect and name the most likely organism.`,
+Co({page:4, orig:"15", topic:"micro", sub:"Gram stain", title:"70-year-old with fever, headache and drowsiness — Gram stain", imgNote:NOIMG,imgAlt:"Gram stain น้ำไขสันหลัง: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · เชื้อกลมรีปลายแหลมคล้ายหัวหอกติดสีม่วงอยู่เป็นคู่ มีวงใสรอบ",
+  stem:`A 70-year-old man presents with fever, headache and drowsiness. Meningitis is suspected and a Gram stain of the cerebrospinal fluid is examined under the microscope. Describe the findings and name the most likely organism.`,
   gray:"15. 70 ปี ไข้ ปวดหัว ซึม meningitis ให้ส่องกล้องดู Gram stain → numerous PMNs, gram positive diplococci, lancet-shaped · Streptococcus pneumoniae",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์ไม่ระบุสิ่งส่งตรวจ (Claude ตีความเป็น CSF)",
   opinion:"ไฟล์ไม่ขัดกับตำรา — เพิ่มว่าอายุ > 50 ปี empiric antibiotics ต้องครอบคลุม Listeria ด้วย ampicillin (นอกเหนือจาก ceftriaxone + vancomycin) แต่ถ้า Gram stain เห็น lancet-shaped diplococci แล้วก็ยังต้องให้ครอบคลุมกว้างตามแนวทางจนกว่า culture/ความไวยา",
@@ -329,8 +329,8 @@ Co({page:4, orig:"15", topic:"micro", sub:"Gram stain", title:"70-year-old with 
   interp:"Gram stain CSF: PMN + lancet-shaped GP diplococci = pneumococcus",
   summary:["Lancet-shaped Gram-positive diplococci = S. pneumoniae","Bacterial meningitis CSF: PMN สูง, protein สูง, glucose ต่ำ","Empiric: ceftriaxone + vancomycin (+ ampicillin อายุ > 50) + dexamethasone"]}),
 
-Co({page:5, orig:"16", topic:"img", sub:"CXR", title:"Prior breast cancer and decreased breath sound — chest radiograph", imgNote:NOIMG,
-  stem:`A 45-year-old woman, treated for breast cancer 5 years ago, presents with decreased breath sound over the left chest. Her chest radiograph is shown. Comment on the film technique, describe the findings you would expect and give the differential diagnosis.`,
+Co({page:5, orig:"16", topic:"img", sub:"CXR", title:"Prior breast cancer and decreased breath sound — chest radiograph", imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน คุณภาพดี: ครึ่งล่างของทรวงอกซ้ายทึบขาวเนื้อเดียว ขอบบนเว้าขึ้นสูงทางด้านข้าง มุมชายโครงและขอบกะบังลมซ้ายมองไม่เห็น · หลอดลมและหัวใจถูกดันไปทางขวาเล็กน้อย · เต้านมซ้ายไม่มีเงา (ผ่าตัดออกแล้ว) · ปอดขวาปกติ",
+  stem:`A 45-year-old woman, treated for breast cancer 5 years ago, presents with decreased breath sound over the left chest. Her chest radiograph is shown. Comment on the film technique, describe the findings and give the differential diagnosis.`,
   gray:"16. ให้รูป film CXR ญ45 มะเร็งเต้านม 5 ปีก่อน มาด้วย decreased breath sound ให้อ่าน Film + DDx → CXR PA upright, good exposure, no rotation, adequate inspiration · opacity at 1/2 left hemithorax · Ddx malignant pleural effusion, TB pleuritis",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์ไม่บอกข้างของ decreased breath sound — Claude ใส่ \"left\" ตามคำตอบ",
   parts:S(
@@ -391,7 +391,7 @@ Co({page:5, orig:"18", topic:"pe", sub:"Chest", ex:1, title:"Physical examinatio
   interp:"PE station: ตรวจ chest ตามลำดับ ดู คลำ เคาะ ฟัง",
   summary:["ลำดับ: inspection → palpation (trachea, expansion, fremitus) → percussion → auscultation","เปรียบเทียบสองข้างหน้า-หลัง","Effusion: ↓ expansion/fremitus/breath sound + dull · Consolidation: ↑ fremitus + bronchial BS"]}),
 
-Co({page:5, orig:"19", topic:"ekg", sub:"Tachyarrhythmia", title:"70-year-old with exertional dyspnea and palpitation — EKG", imgNote:NOIMG,
+Co({page:5, orig:"19", topic:"ekg", sub:"Tachyarrhythmia", title:"70-year-old with exertional dyspnea and palpitation — EKG", imgNote:NOIMG,imgAlt:"EKG 12 lead: ไม่เห็น P wave ชัด เส้นฐานสั่นละเอียด · R–R ไม่สม่ำเสมอแบบไร้รูปแบบ ventricular rate ~70–80/min · QRS แคบ axis ปกติ · ไม่มี ST ยก",
   stem:`A 70-year-old man presents with exertional dyspnea and palpitation for 4 hours. A 12-lead EKG is obtained and shown. Interpret the EKG systematically (rate, rhythm, axis, chamber enlargement) and give the diagnosis.`,
   gray:"19. ให้รูปEKGมา ช 70 เหนื่อยง่ายใจสั่น 4ชม → ventricular rate 70-80/min · rhythm: irregular · normal axis · no chamber enlargement · dx atrial fibrillation",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น (rate 70–80 ตามคำตอบไฟล์) ",
@@ -408,8 +408,8 @@ Co({page:5, orig:"19", topic:"ekg", sub:"Tachyarrhythmia", title:"70-year-old wi
   interp:"EKG station: อ่านอย่างเป็นระบบ (rate, rhythm, axis, chamber) → AF",
   summary:["AF: irregularly irregular, ไม่มี P wave","อ่าน EKG: rate → rhythm → axis → chamber → ST-T","AF: rate/rhythm control + anticoagulation ตาม CHA2DS2-VASc; unstable → synchronized cardioversion"]}),
 
-Co({page:5, orig:"20", topic:"micro", sub:"PBS", title:"40F with abnormal blood count — blood smear", imgNote:NOIMG,
-  stem:`A 40-year-old woman has the following blood count: Hb 8.2 g/dL, MCV 88 fL, WBC 48,000/µL, platelets 22,000/µL. Her peripheral blood smear is examined under the microscope. Describe the findings you would expect (RBC, WBC, platelets), give the differential diagnosis and state the investigations you would request.`,
+Co({page:5, orig:"20", topic:"micro", sub:"PBS", title:"40F with abnormal blood count — blood smear", imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดขาวเพิ่มมาก ส่วนใหญ่เป็นเซลล์ตัวใหญ่ นิวเคลียสใหญ่โครมาตินละเอียด มี nucleoli ชัด 2–3 อัน ไซโทพลาสซึมน้อยสีฟ้า บางเซลล์มีแท่งเข็มสีแดงในไซโทพลาสซึม · เม็ดเลือดแดงขนาดและสีปกติ · เกล็ดเลือดน้อยมาก",
+  stem:`A 40-year-old woman has the following blood count: Hb 8.2 g/dL, MCV 88 fL, WBC 48,000/µL, platelets 22,000/µL. Her peripheral blood smear is examined under the microscope. Describe the findings (RBC, WBC, platelets), give the differential diagnosis and state the investigations you would request.`,
   gray:"20. ญ 40 ให้ส่องกล้อง Blood smear → RBC: NCNC · WBC: leukocytosis, blast เด่น · plt: decreased · Ddx. Acute myeloid leukemia · Ix. BM study, Immunophenotyping, flow cytometry",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์ไม่มีค่า CBC — Hb 8.2, MCV 88, WBC 48,000, plt 22,000 Claude แต่งให้สอดคล้องกับคำตอบ (NCNC, leukocytosis, plt ต่ำ)",
   opinion:"ไฟล์ตอบ Ddx = AML อย่างเดียว — จาก smear อย่างเดียวแยก AML / ALL ไม่ได้ (ต้องดู Auer rods, MPO, flow) จึงรับ ALL เป็น ddx ด้วย · Investigation เพิ่ม: CBC/coagulation (PT, aPTT, fibrinogen, D-dimer — คัด DIC/APL), cytogenetics/FISH/molecular (PML::RARA, FLT3, NPM1) เร็ว ๆ เพราะ APL เป็น emergency (เริ่ม ATRA ทันทีที่สงสัย)",
@@ -446,8 +446,8 @@ Co({page:5, orig:"21", topic:"pe", sub:"Eye/Visual", ex:1, title:"Physical exami
   interp:"PE station: ตรวจ visual function ในผู้ป่วยตามัว — VA, field, pupil และประกอบ/ใช้ ophthalmoscope ได้ถูกต้อง",
   summary:["ตามัว: ตรวจ VA (ทีละตา ± pinhole), visual field, pupil/RAPD, EOM, fundoscopy","ต้องประกอบ ophthalmoscope ได้: ต่อหัวกับด้าม เปิดไฟ ปรับ diopter","ตาขวาผู้ตรวจ – ตาขวาผู้ป่วย – มือขวา; ดู red reflex → disc → vessels → macula"]}),
 
-Co({page:6, orig:"22", topic:"micro", sub:"Gram stain", title:"Ventilated patient with RLL pneumonia — sputum Gram stain", imgNote:NOIMG,
-  stem:`A man on a mechanical ventilator develops right lower lobe pneumonia. A Gram stain of the endotracheal aspirate is examined under the microscope. Comment on the specimen quality, describe the organism you would expect, and name the possible organisms.`,
+Co({page:6, orig:"22", topic:"micro", sub:"Gram stain", title:"Ventilated patient with RLL pneumonia — sputum Gram stain", imgNote:NOIMG,imgAlt:"Gram stain จากท่อช่วยหายใจ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพู >25 ต่อกล้องกำลังต่ำ เซลล์เยื่อบุผิวแบน <10 · แท่งติดสีชมพูแดงจำนวนมาก",
+  stem:`A man on a mechanical ventilator develops right lower lobe pneumonia. A Gram stain of the endotracheal aspirate is examined under the microscope. Comment on the specimen quality, describe the organism, and name the possible organisms.`,
   gray:"22. ช ใส่เครื่องช่วยหายใจ มี RLL pneumonia ส่องกล้อง Gram stain → adequate sputum, PMN>25/LPF, epithelial cell<10/LPF, gram negative bacilli · เชื้ออะไรก็ได้ใน Enterobacteriaceae",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์ไม่ระบุอายุ/สิ่งส่งตรวจ (Claude ใช้ endotracheal aspirate ตามผู้ป่วยที่ใส่ท่อช่วยหายใจ)",
   opinion:"ไฟล์ตอบ \"เชื้ออะไรก็ได้ใน Enterobacteriaceae\" — ในผู้ป่วยใส่เครื่องช่วยหายใจ (VAP) gram-negative bacilli ที่พบบ่อยยังรวม <i>Pseudomonas aeruginosa</i> และ <i>Acinetobacter baumannii</i> ซึ่งไม่ใช่ Enterobacteriaceae และ Gram stain แยกชนิดไม่ได้ → ในเฉลยรับทั้ง Enterobacteriaceae (Klebsiella, E. coli, Enterobacter) และ Pseudomonas/Acinetobacter",
@@ -490,8 +490,8 @@ Co({page:6, orig:"23", topic:"hx", sub:"Hematuria", ex:1, title:"History taking 
   interp:"History station: เลือดในปัสสาวะในหญิงอายุน้อย — ซักแยก glomerular/non-glomerular และหาสาเหตุ GN (IgAN, post-infectious)",
   summary:["Hematuria: ซักลักษณะเลือด/ช่วงสาย → แยก glomerular vs non-glomerular","Glomerular: สีโคล่า ตลอดสาย บวม ฟอง ปัสสาวะออกน้อย ความดันสูง","Ddx: IgAN (1–3 วันหลังติดเชื้อ), post-infectious GN (1–3 สัปดาห์), lupus nephritis"]}),
 
-Co({page:6, orig:"24", topic:"micro", sub:"PBS", seen:"SI132 Ro403–404 ข้อ 12", title:"30F fatigue 3 months and constipation — blood smear", imgNote:NOIMG,
-  stem:`A 30-year-old woman presents with fatigue for 3 months and constipation. Her peripheral blood smear is examined under the microscope. Describe the findings you would expect (RBC, WBC, platelets), give the differential diagnosis and state the investigations you would request.`,
+Co({page:6, orig:"24", topic:"micro", sub:"PBS", seen:"SI132 Ro403–404 ข้อ 12", title:"30F fatigue 3 months and constipation — blood smear", imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดและสีปกติ แต่เรียงซ้อนกันเป็นตั้งคล้ายเหรียญหลายแถว · พื้นหลังติดสีฟ้าเข้มกว่าปกติ · เม็ดเลือดขาวและเกล็ดเลือดปกติ",
+  stem:`A 30-year-old woman presents with fatigue for 3 months and constipation. Her peripheral blood smear is examined under the microscope. Describe the findings (RBC, WBC, platelets), give the differential diagnosis and state the investigations you would request.`,
   gray:"24. ญ 30 อ่อนเพลีย 3เดือน ท้องผูก ให้ส่องกล้องดู Blood smear → NCNC, rouleaux formation · WBC · normal platelet · Dx. MM, Chronic inflammation, chronic infection, lymphoma, cancer · Ix. BM study, SPEP, immunofixation",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ไฟล์เขียน \"-WBC\" ไว้เฉยๆ (ไม่ได้จดว่าเป็นอย่างไร) — ใช้ WBC normal ตาม Key PBS ของ MM (OSCE_REF)",
   opinion:"ไฟล์ \"-WBC\" ว่าง → ใช้ Key PBS (OSCE_REF) ของ MM: WBC normal in number, neutrophil predominate · Investigation ตามไฟล์ (BM study, SPEP, immunofixation) ควรเพิ่ม serum free light chain, UPEP, calcium/Cr (CRAB), skeletal survey/whole-body low-dose CT เมื่อสงสัย MM — ท้องผูก + อ่อนเพลียในหญิงอายุ 30 ชวนนึก hypercalcemia/anemia แต่ MM พบน้อยในวัยนี้ จึงยังต้องคิดโรคอักเสบเรื้อรัง/ติดเชื้อเรื้อรังด้วยตามไฟล์",
@@ -512,8 +512,8 @@ Co({page:6, orig:"24", topic:"micro", sub:"PBS", seen:"SI132 Ro403–404 ข้�
   interp:"PBS station: rouleaux → paraproteinemia → MM + สาเหตุอื่น → SPEP, immunofixation, BM",
   summary:["Rouleaux: ≥ 4 RBC เรียงซ้อน — paraprotein/โกลบูลินสูง","Ddx: MM, inflammation/infection เรื้อรัง, lymphoma, cancer","ส่ง SPEP + immunofixation + BM study (+ FLC, UPEP, Ca, Cr, skeletal survey)"]}),
 
-Co({page:6, orig:"25", topic:"img", sub:"Bone/joint film", title:"50F with bilateral wrist pain for 3 months — hand radiograph", imgNote:NOIMG,
-  stem:`A 50-year-old woman presents to the rheumatology clinic with pain in both wrists for 3 months. A radiograph of both hands is shown. Describe the findings you would expect and give the diagnosis.`,
+Co({page:6, orig:"25", topic:"img", sub:"Bone/joint film", title:"50F with bilateral wrist pain for 3 months — hand radiograph", imgNote:NOIMG,imgAlt:"ฟิล์มมือทั้งสองข้าง: ช่องข้อนิ้วข้อปลาย (DIP) แคบลงหลายข้อ มีกระดูกงอกยื่นที่ขอบข้อปลายนิ้ว ผิวกระดูกใต้ข้อขาวทึบขึ้น · กระดูกทั่วไปบางลงเล็กน้อย · ข้อโคนนิ้วและข้อมือไม่มีรอยกร่อน",
+  stem:`A 50-year-old woman presents to the rheumatology clinic with pain in both wrists for 3 months. A radiograph of both hands is shown. Describe the findings and give the diagnosis.`,
   gray:"25. ให้รูปFilmมือ rheumato ญ50 ปวดข้อมือ 2 ข้าง 3 เดือน ให้บรรยาย+Dx → film both hand · narrowing joint space at both DIP · osteophyte at distal phalanges · generalized osteopenia · OA hand",
   flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น",
   opinion:"ไฟล์ตอบ OA hand — รับตามไฟล์ (DIP narrowing + osteophyte = Heberden nodes) แต่ข้อสังเกต: <b>ปวดข้อมือ 2 ข้าง 3 เดือน</b> ไม่ใช่ตำแหน่งปกติของ hand OA (DIP, PIP, 1st CMC) และ <b>generalized osteopenia</b> ไม่ใช่ลักษณะของ OA (พบใน RA/วัยหลังหมดประจำเดือน) → ควรดู wrist/MCP หา erosion, periarticular osteopenia (RA) และ chondrocalcinosis (CPPD) ก่อนสรุป · ถ้า film ไม่มี erosion และเป็น DIP-dominant ตอบ OA hand ได้",

@@ -18,7 +18,7 @@ const NOIMG="ไม่มีรูปในไฟล์ — ข้อนี้�
 const Co=o=>Object.assign({set:"SIXX",ro:"RoX",file:"SIOSXX",opinion:""},o);
 QB.push(
 
-Co({page:1,orig:"1",topic:"micro",sub:"Gram stain",title:"Diabetic woman with fever, cough and dyspnea — sputum Gram stain",imgNote:NOIMG,
+Co({page:1,orig:"1",topic:"micro",sub:"Gram stain",title:"Diabetic woman with fever, cough and dyspnea — sputum Gram stain",imgNote:NOIMG,imgAlt:"Gram stain เสมหะ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพู ≥25 ต่อกล้องกำลังต่ำ เซลล์เยื่อบุผิวแบน <10 · เชื้อกลมรีปลายแหลมติดสีม่วงอยู่เป็นคู่จำนวนมาก บางคู่อยู่ในเซลล์",
  stem:`A 50-year-old Thai woman with underlying diabetes mellitus presents with fever, cough and dyspnea for 2 days before admission. Vital signs: BT 39 °C, PR 120/min, RR 30/min, BP 120/80 mmHg. Lung examination reveals decreased breath sounds and fine crepitation at the right lung. A sputum Gram stain is shown.`,
  gray:"ผู้ป่วยหญิงไทยอายุ 50 ปี โรคประจำตัว DM มาด้วยอาการไข้ ไอ และหายใจหอบเหนื่อย 2 วันก่อนมาโรงพยาบาล · BT 39 C, PR 120/min, RR 30/min, BP 120/80 · Lung: decrease breath sound and fine crepitation at right lung · ส่งตรวจ sputum gram stain ดังแสดงในกล้องจุลทรรศน์ · คำถาม 1. จงอ่านสไลด์ sputum gram stain (60) · 2. จงให้การวินิจฉัย (20) · 3. จงให้การรักษา (20)",
  flag:"NOIMG — ไฟล์ไม่มีรูปสไลด์ (ใช้กล้องจริงในห้องสอบ) · ภาพที่คาดว่าจะเห็น: PMN จำนวนมาก, squamous epithelial cell น้อย, Gram-positive lancet-shaped diplococci เป็นคู่จำนวนมาก · ข้อย่อย 3 (ประเมินความเหมาะสมของเสมหะ) แยกเป็นคะแนนแรกตามที่อาจารย์เขียนไว้",
@@ -53,7 +53,7 @@ Co({page:1,orig:"1",topic:"micro",sub:"Gram stain",title:"Diabetic woman with fe
  opinion:"ไฟล์ให้เต็มกับ ceftriaxone 1 g IV q 12 hr — ขนาดมาตรฐานของ CAP คือ 1–2 g IV ทุก 24 ชั่วโมง (q 12 h ใช้ใน meningitis / การติดเชื้อรุนแรงบางกรณี) และ guideline ผู้ป่วยในมักเพิ่ม macrolide คลุม atypical ซึ่งนักศึกษาไม่ได้เขียน — เฉลยจึงตอบตามขนาด q 24 h พร้อมแนะ azithromycin · เป้า SpO2 ≥ 92% ในไฟล์ใช้ได้ (ตำรา/BTS ใช้ 94–98%) · ตัวเลข criteria sputum ใช้ตามอาจารย์ (squamous < 10 /LPF, WBC > 25 /LPF)",
  }),
 
-Co({page:2,orig:"2",topic:"ekg",sub:"Bradyarrhythmia/AV block",title:"Palpitation and chest tightness for 1 hour in an elderly man — EKG",imgNote:NOIMG,
+Co({page:2,orig:"2",topic:"ekg",sub:"Bradyarrhythmia/AV block",title:"Palpitation and chest tightness for 1 hour in an elderly man — EKG",imgNote:NOIMG,imgAlt:"EKG 12 lead: ไม่มี P wave เส้นฐานสั่นไม่สม่ำเสมอ · ventricular rate ช้า ~30/min R–R ไม่สม่ำเสมอ · lead I บวก II และ aVF ลบเด่น · ST ยกขึ้นใน II, III, aVF และกดต่ำใน I, aVL",
  stem:`A 70-year-old man presents with palpitation and chest tightness for 1 hour. His 12-lead electrocardiogram is shown. Please interpret the ECG and give the diagnosis.`,
  gray:"โจทย์: ชายอายุ 70 ปี ใจสั่น แน่นหน้าอก เป็นมา 1 ชั่วโมง · คำสั่งปฏิบัติ: จงอ่าน ECG และให้การวินิจฉัย (100 คะแนน)",
  flag:"NOIMG — ไฟล์ไม่มีรูป EKG · ค่าที่คาดจากเฉลยอาจารย์: atrial rate ~70/min, ventricular rate ~30/min, P wave ปกติแต่ไม่สัมพันธ์กับ QRS (AV dissociation), QRS ปกติ, axis ปกติ, ST elevation II/III/aVF, T inverted V1–V4 และ aVL · ข้อสังเกต: ventricular rate ~30 กับ QRS แคบพบน้อย (ดู opinion)",
@@ -76,7 +76,7 @@ Co({page:2,orig:"2",topic:"ekg",sub:"Bradyarrhythmia/AV block",title:"Palpitatio
  opinion:"ไฟล์ระบุ \"normal QRS interval\" ร่วมกับ ventricular rate 30/min — ตามหลักที่อาจารย์เขียนเอง junctional escape อยู่ที่ 40–60/min (QRS แคบ) และ < 40/min ต้องเป็น ventricular escape (QRS กว้าง) จึงมีความไม่สอดคล้องกันเล็กน้อย (เป็นไปได้ว่าเป็น junctional escape ที่ช้ามาก/ high-ventricular) · ไม่มีรูปให้ยืนยัน จึงเฉลยตามเฉลยอาจารย์ · ไฟล์ให้ T inversion V1–4/aVL ส่วนนักศึกษาตอบ ST depression reciprocal — reciprocal ที่ aVL ถูกหลัก ส่วน ST depression V1–4 เข้ากับ posterior involvement แต่ไม่ใช่ที่อาจารย์ต้องการ",
  }),
 
-Co({page:3,orig:"3",topic:"micro",sub:"PBS",title:"Fever, fatigue and gum bleeding for 3 weeks — peripheral blood smear",imgNote:NOIMG,
+Co({page:3,orig:"3",topic:"micro",sub:"PBS",title:"Fever, fatigue and gum bleeding for 3 weeks — peripheral blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดสีปกติ · เม็ดเลือดขาวเพิ่ม ส่วนใหญ่เป็นเซลล์ตัวใหญ่ นิวเคลียสใหญ่โครมาตินละเอียด มี nucleoli ไซโทพลาสซึมสีฟ้ามีแกรนูลละเอียด บางเซลล์มีแท่งเข็มสีแดง · เกล็ดเลือดน้อยมาก",
  stem:`A 35-year-old woman presents with fever, fatigue and bleeding from the gums for 3 weeks. Her peripheral blood smear is shown (examine under 10x and 100x objectives). A. Describe the peripheral blood smear. B. Give the diagnosis.`,
  gray:"โจทย์: ผู้ป่วยหญิง อายุ 35 ปี ไข้ อ่อนเพลีย เลือดออกตามไรฟัน 3 สัปดาห์ · คำถาม A. จงบรรยาย peripheral blood smear (70) — ดูที่ 10x, 100x · B. จงให้การวินิจฉัย (30)",
  flag:"NOIMG — ไฟล์ไม่มีรูปสเมียร์ · ภาพที่คาดว่าจะเห็น: RBC NCNC มี teardrop และ schizocyte, WBC สูงเด่นด้วย myeloblast ที่มี Auer rod, เกล็ดเลือดน้อย ขนาดและการติดสีปกติ (0–2 ต่อ oil field) · ข้อ \"schizocyte\" ในไฟล์เขียนว่า \"no schizocyte (5)\" แต่อาจารย์เขียนสีเขียวแก้เป็น \"schizocyte\" และบอกให้ระบุ DIC → ใช้ \"มี schizocyte\"",
@@ -105,7 +105,7 @@ Plt: decrease (5) · 0–2 /OF (5) · normal size and stain (5, ไฮไลต�
  opinion:"ไม่ขัดกับไฟล์ — เกณฑ์ \"no schizocyte (5)\" ในเฉลยแดงอาจารย์แก้เขียวเป็น schizocyte และบอกให้พูดถึง DIC จึงตอบตามนั้น · ตัวเลขคะแนนของ \"numerous myeloblast\" อ่านเป็น 10 (ลายมืออาจเป็น 20) ผลรวมที่ตรง 70 คือ 10",
  }),
 
-Co({page:4,orig:"4",topic:"img",sub:"CXR",title:"Febrile woman with cough and tachypnea — chest radiograph",imgNote:NOIMG,
+Co({page:4,orig:"4",topic:"img",sub:"CXR",title:"Febrile woman with cough and tachypnea — chest radiograph",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ปอดขวาส่วนบนทึบขาวเป็นเนื้อเดียว ขอบล่างตรงตามแนวร่องแบ่งกลีบแนวนอน ขอบแนวกลางด้านขวาส่วนบนมองไม่เห็น · ภายในเงาเห็นเส้นหลอดลมสีดำ · หัวใจไม่โต",
  stem:`A 50-year-old woman presents with fever and cough with dyspnea for 2 days. Vital signs: temperature 39 °C, RR 30/min. 1. Describe the chest radiograph. 2. Give the diagnosis.`,
  gray:"โจทย์ ผู้ป่วยหญิง อายุ 50 ปี ไข้ ไอ หอบเหนื่อย 2 วัน · T 39 C, RR 30/min · 1. จงอ่านภาพถ่ายรังสี (70 คะแนน) · 2. จงวินิจฉัย (30 คะแนน) · หัวสไลด์ที่แปะบนหน้า: Lobar pneumonia",
  flag:"NOIMG — ไฟล์ไม่มีภาพ CXR (มีแต่ภาพวาดมือแดงของปอดขวาบนเป็นเงาทึบ ไม่ใช่ฟิล์ม) · ภาพที่คาดว่าจะเห็น: PA upright, density บริเวณ RUL พร้อม air bronchogram, ลบขอบ ascending aorta/ right mediastinum, trachea กลางลำ, ไม่มี effusion, หัวใจขนาดปกติ",

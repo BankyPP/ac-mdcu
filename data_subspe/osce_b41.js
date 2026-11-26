@@ -59,7 +59,7 @@ Co({page:61,orig:"3",topic:"pe",sub:"Breast examination",ex:1,title:"Breast exam
 Co({page:61,orig:"4",topic:"img",sub:"Mammogram",title:"Mammogram — films, lesion, diagnosis, investigation",
  stem:`A mammogram is shown.<br>1. Name of investigation and films.<br>2. Describe the lesion.<br>3. Diagnosis.<br>4. Further investigation.`,
  gray:"4. ให้รูป Mammogram มา ถาม 4.1 ชื่อการตรวจ มีฟิล์มอะไรบ้าง 4.2 จงบรรยาย lesion 4.3 Diagnosis 4.4 ส่งตรวจอะไรเพิ่มเติม",
- flag:NOIMG,imgAlt:"Mammogram",
+ flag:NOIMG,imgAlt:"Mammogram ซ้าย-ขวา ท่าบน-ล่าง และท่าเฉียง (4 ภาพ) เต้านมซ้ายส่วนบนด้านนอกมีก้อนทึบ ~2 cm ขอบเป็นแฉก มีหินปูนเล็กละเอียดกระจุก",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   B("4.1 Answer.",6,{tags:["img"],ans:"<b>Mammography — CC และ MLO ทั้งสองข้าง</b> · lesion: ตำแหน่ง ขนาด shape <b>margin</b> density <b>calcification</b>, skin/nipple, axillary node · Dx ตาม BI-RADS (spiculated = carcinoma) · <b>US + core needle biopsy</b>",rubric:"1/ประเด็น",pts:[CR(P("CC and MLO","cc","mlo")),CR(P("Describe margin, density, calcification","margin","density","calcif","spicul")),P("BI-RADS / diagnosis","bi-rads","carcinoma"),CR(P("US + core biopsy","biopsy","ultrasound"))]})
@@ -83,7 +83,7 @@ Co({page:61,orig:"5",topic:"inst",sub:"Surgical instruments",title:"Vascular gra
 Co({page:61,orig:"6",topic:"img",sub:"Urolithiasis",title:"IVP — 8 films, right hydronephrosis",
  stem:`Eight IVP films show right hydronephrosis.<br>1. Read the IVP.<br>2. Diagnosis.<br>3. Management.`,
  gray:"6. ให้ film IVP มา 8 แผ่น มี hydronephrosis ข้างขวา 6.1 จงอ่านผล IVP 6.2 Diagnosis 6.3 Management (Ans. ข้อนี้มีนิ่วอยู่ที่ UVJ junction ด้านขวา)",
- flag:NOIMG,imgAlt:"IVP 8 แผ่น ไตขวาบวมน้ำ",
+ flag:NOIMG,imgAlt:"IVP 8 แผ่น: scout film มีเงาทึบเล็ก ~6 mm ที่เชิงกรานด้านขวาใกล้ผนัง bladder · หลังฉีดสาร ไตขวาขับสารช้า pelvis/calyces และท่อไตขวาโป่งตลอดแนวลงมาหยุดที่รอยต่อท่อไตกับ bladder ตรงเงานั้น · ไตซ้ายปกติ",
  notes:"แนวคำตอบในไฟล์: นิ่วอยู่ที่ UVJ ด้านขวา",opinion:"ความมั่นใจสูง",
  parts:S(
   BS("6.1 Answer.",6,{tags:["img"],ans:"Scout: radio-opacity ใน pelvis ด้านขวา · delayed nephrogram ขวา · <b>right hydronephrosis + hydroureter ถึงระดับ UVJ</b> · Dx: <b>right UVJ (distal ureteric) stone with obstruction</b> · Mx: analgesia (NSAIDs) · ≤5–10 มม. → <b>medical expulsive therapy (tamsulosin)</b> · ใหญ่/ไม่หลุด/ติดเชื้อ → <b>ureteroscopic lithotripsy (URS)</b> หรือ ESWL; infected → DJ/PCN ก่อน",rubric:"1/ประเด็น",pts:[P("Scout opacity","scout","opaque"),CR(P("Hydronephrosis and hydroureter to UVJ","hydroneph","hydroureter","uvj")),CR(P("Distal ureteric (UVJ) stone","uvj","ureteric stone","ureteral stone","vesicoureteric")),P("MET with tamsulosin","tamsulosin","expulsive"),CR(P("URS / ESWL","urs","ureteroscop","eswl")),P("Drain if infected","stent","pcn","dj")]})
@@ -106,7 +106,7 @@ Co({page:61,orig:"7",topic:"img",sub:"Bowel obstruction",img:["mo61_1"],title:"4
 Co({page:61,orig:"8",topic:"path",sub:"Breast cancer staging",title:"Breast pathology report — TNM staging",
  stem:`A long breast pathology report (about 2 A4 pages) is given: 2 masses, lymph node positive 1/13. Give the TNM staging.`,
  gray:"8. ให้ใบผล patho นมมา ให้อ่าน TNM staging Ans. ใบยาวมากกกกกก ประมาณ 2 หน้า A4 ให้รีบๆ ดูแถวตอนสรุปจะดีกว่า ในโจทย์มี 2 ก้อน ให้ LN positive(1/13) ไม่แน่ใจมี metastasis ป่าว",
- flag:NOIMG,imgAlt:"ใบผลพยาธิวิทยาเต้านม (ไม่ได้นำมาลงเพราะเป็นรายงานผู้ป่วย)",
+ flag:NOIMG,imgAlt:"รายงานพยาธิวิทยาเต้านมขวา (modified radical mastectomy) ยาว 2 หน้า สรุปท้ายรายงาน: invasive ductal carcinoma 2 ก้อน (multifocal) ก้อนใหญ่สุด 3.5 cm ก้อนที่สอง 1.2 cm · skin และ nipple ไม่มีมะเร็ง · deep margin free · axillary lymph nodes: metastatic carcinoma 1 of 13 nodes (ขนาด 6 mm) ไม่มี extranodal extension",
  notes:"แนวคำตอบในไฟล์: อ่านตอนสรุป · 2 ก้อน · LN 1/13 · ไม่ทราบ metastasis · ใบผลในไฟล์ไม่นำมาลง",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   BS("8.1 Staging.",5,{tags:["path"],ans:"อ่าน synoptic/summary · <b>หลายก้อน → ใช้ขนาดก้อนใหญ่สุดเป็น T + ใส่ (m)</b> เช่น pT2(m) · <b>LN 1/13 positive → pN1a</b> · M: ไม่มีข้อมูล → <b>cM0</b> (AJCC 8th ไม่มี MX — ถ้ายังไม่ได้ทำ staging ให้เขียน cM0 แล้วส่ง staging) · รวม เช่น pT2(m)N1aM0 = stage IIB",rubric:"1/ประเด็น",pts:[CR(P("T by largest tumor with (m)","largest","(m)","multifocal","t2","t1")),CR(P("pN1a for 1 node","n1")),P("cM0 (no MX in AJCC 8th) + staging","m0","staging"),P("Stage grouping","stage")]})
@@ -199,7 +199,7 @@ SA({page:76,orig:"MEQ 4",num:"SA 4",sub:"Anorectal",img:["mm76_2"],title:"Short 
  interp:"Chronic fissure",
  summary:["Triad: sentinel pile, papilla, fissure","GTN → botox → LIS"]}),
 
-SA({page:76,orig:"MEQ 5",num:"SA 5",sub:"Neuro",flag:NOIMG,imgAlt:"ไม่มีรูป",title:"Short answer — head injury with 5 minutes of unconsciousness",
+SA({page:76,orig:"MEQ 5",num:"SA 5",sub:"Neuro",flag:NOIMG,title:"Short answer — head injury with 5 minutes of unconsciousness",
  stem:`A patient was hit on the head and lost consciousness for 5 minutes; symptoms are described.<br>1. GCS.<br>2. Neurological signs likely to be found.`,
  gray:"5. โดนตีหัว สลบไป 5 min บอกอาการ 5.1 ถาม GCS 5.2 neuro sign ที่น่าจะพบ",
  notes:"เฉลยในไฟล์: signs of increased ICP, uncal herniation, cushing triad · ไม่มีรายละเอียดเคสสำหรับคำนวณ GCS",opinion:"ความมั่นใจปานกลาง",
@@ -269,7 +269,7 @@ SA({page:77,orig:"MEQ 11",num:"SA 11",sub:"Colorectal",img:["mm77_4"],title:"Sho
  interp:"Colostomy",
  summary:["Hartmann's","APR"]}),
 
-SA({page:77,orig:"MEQ 12",num:"SA 12",sub:"Burn",flag:NOIMG,imgAlt:"แผลไฟไหม้",title:"Short answer — burn depth and care",
+SA({page:77,orig:"MEQ 12",num:"SA 12",sub:"Burn",flag:NOIMG,imgAlt:"แผลไหม้ที่ขา: บางส่วนผิวซีดขาวปนชมพูเป็นปื้น แห้งกว่าปกติ ตุ่มพองแตกแล้ว กดแล้วแดงกลับช้า ผู้ป่วยรู้สึกแค่แรงกด ไม่ค่อยเจ็บ · ขอบแผลรอบนอกยังชมพูชื้นเจ็บ",title:"Short answer — burn depth and care",
  stem:`A picture of a burn wound.<br>1. How deep is it?<br>2. How do you care for it?`,
  gray:"12. ให้รูปแผล burn ถามว่า 12.1 แผลลึกระดับไหน 12.2 ดูแลแผลยังไง",
  notes:"ไม่มีเฉลยในไฟล์ · ไม่มีรูป",opinion:"ความมั่นใจปานกลาง",

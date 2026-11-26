@@ -118,7 +118,7 @@ Co({page:26,orig:"8",topic:"hx",sub:"Breast",ex:1,title:"History — right breas
 Co({page:26,orig:"9",topic:"inst",sub:"Suture materials",title:"Choose sutures — muscle, vessel ligation, skin",
  stem:`Suture packets are laid out. Answer mono/polyfilament and absorbable/non-absorbable for each choice.<br>1. Which suture for muscle?<br>2. Which for ligating a vessel?<br>3. Which for skin?`,
  gray:"9. ไหม ให้ซองมาวางเรียง (ถาม mono/polyfilament, absorb/non-absorb) 1. อะไรเย็บ muscle 2. อะไรผูกเส้นเลือด 3. อะไรเย็บผิวหนัง",
- flag:NOIMG,imgAlt:"ซองไหมหลายชนิดวางเรียง",
+ flag:NOIMG,imgAlt:"ซองไหมวางเรียง 4 ซอง เห็นชื่อยี่ห้อ: VICRYL (ไหมม่วงถักเกลียว) · MERSILK (ไหมดำถักเกลียว) · PROLENE (ไหมน้ำเงินเส้นเดี่ยว) · ETHILON (ไหมดำเส้นเดี่ยวผิวเรียบ)",
  notes:"ไม่มีไฟล์เฉลย",opinion:"ความมั่นใจสูง",
  parts:S(
   B("9.1 Muscle.",2,{tags:["inst"],ans:"<b>Vicryl (polyglactin 910)</b> — polyfilament (braided), absorbable",rubric:"1/ประเด็น",pts:[CR(P("Vicryl","vicryl","polyglactin")),P("Braided absorbable","braid","poly","absorb")]}),
@@ -155,7 +155,7 @@ Co({page:26,orig:"11",topic:"img",sub:"Hepatobiliary",title:"Ultrasound — gall
 /* ===== OSCE 12 ===== */
 Co({page:26,orig:"12",topic:"spot",sub:"Uro/Genital",title:"Paraphimosis",
  stem:`A picture of paraphimosis is shown. Give the diagnosis and management.`,
- gray:"12. ให้รูป paraphimosis มา ถาม diag, management",flag:NOIMG,imgAlt:"Glans บวม มีวงรัดหลัง corona",
+ gray:"12. ให้รูป paraphimosis มา ถาม diag, management",flag:NOIMG,imgAlt:"องคชาตเด็ก: หนังหุ้มปลายร่นค้างอยู่หลัง glans เป็นวงรัดแน่น glans และหนังส่วนที่อยู่ปลายวงรัดบวมเป่งแดงคล้ำ ดึงหนังกลับมาคลุมไม่ได้",
  notes:"ไม่มีไฟล์เฉลย · ไฟล์ระบุคำตอบ paraphimosis",opinion:"ความมั่นใจสูง",
  parts:S(
   B("12.1 Diagnosis and management.",5,{tags:["spot"],ans:"<b>Paraphimosis</b> · analgesia/penile block · ลดบวม (compress, ice, sugar, puncture) · <b>manual reduction</b> · ล้มเหลว → <b>dorsal slit</b> · ต่อมา <b>circumcision</b>",rubric:"1/ประเด็น",pts:[CR(P("Paraphimosis","paraphimosis")),P("Analgesia","block","analges"),CR(P("Manual reduction","manual","reduc")),CR(P("Dorsal slit","dorsal slit")),P("Circumcision","circumcis")]})
@@ -164,7 +164,7 @@ Co({page:26,orig:"12",topic:"spot",sub:"Uro/Genital",title:"Paraphimosis",
  summary:["Reduce → dorsal slit → circumcision"]}),
 
 /* ===== MEQ ===== */
-SA({page:29,orig:"MEQ 1",num:"SA 1",sub:"Anorectal",flag:NOIMG,imgAlt:"ก้อนแดง บวม ข้างรูทวาร",title:"Short answer — perianal abscess",
+SA({page:29,orig:"MEQ 1",num:"SA 1",sub:"Anorectal",flag:NOIMG,imgAlt:"ข้างรูทวารตำแหน่ง 5 นาฬิกา มีก้อนบวมนูนแดง ผิวตึงมัน ขนาด ~3 cm กดเจ็บมาก ตรงกลางคลำได้หยุ่นเป็นน้ำ (fluctuation) ยังไม่มีหนองไหลออก",title:"Short answer — perianal abscess",
  stem:`A picture of a perianal abscess is shown. What is the diagnosis and treatment?`,
  gray:"1. ให้รูป Perianal abscess + treatment",
  notes:"ไม่มีเฉลยในไฟล์ · ไฟล์บอกว่าเป็น perianal abscess",opinion:"ความมั่นใจสูง",
@@ -184,7 +184,7 @@ SA({page:29,orig:"MEQ 2",num:"SA 2",sub:"Others",flag:NOIMG,imgAlt:"แผลผ
  interp:"Penrose + retention suture",
  summary:["Penrose = passive drain","Retention suture prevents dehiscence","Use in high-risk abdominal closure"]}),
 
-SA({page:29,orig:"MEQ 3",num:"SA 3",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"เด็กมีก้อนที่สะดือ และก้อนที่ขาหนีบลงถุงอัณฑะ",title:"Short answer — umbilical hernia and indirect inguinal hernia in a child",
+SA({page:29,orig:"MEQ 3",num:"SA 3",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"เด็กเล็ก 2 รูป: (1) สะดือนูนเป็นก้อนกลมนุ่มขนาด ~1.5 cm โป่งมากขึ้นเวลาร้องไห้ กดกลับเข้าได้ คลำได้ขอบรูที่ผนังหน้าท้อง (2) ขาหนีบขวามีก้อนนุ่มยาวลงไปถึงถุงอัณฑะ โตเวลาเบ่ง/ร้อง ยุบได้เมื่อนอนนิ่ง ส่องไฟไม่สว่าง คลำขอบบนของก้อนไม่ได้",title:"Short answer — umbilical hernia and indirect inguinal hernia in a child",
  stem:`A child has umbilical hernia and indirect inguinal hernia. Give the diagnosis and management.`,
  gray:"3. ให้รูปเด็ก umbilical hernia + indirect inguinal hernia ถาม diag, management",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -194,7 +194,7 @@ SA({page:29,orig:"MEQ 3",num:"SA 3",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"�
  interp:"Pediatric hernias",
  summary:["Umbilical: wait to 4–5 years","Inguinal: herniotomy soon after diagnosis","No mesh in children"]}),
 
-SA({page:29,orig:"MEQ 4",num:"SA 4",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ทารกไม่มีรูทวาร และฟิล์ม prone cross-table lateral",title:"Short answer — neonate without anal opening",
+SA({page:29,orig:"MEQ 4",num:"SA 4",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"รูป 1: ทารกแรกเกิดชาย บริเวณที่ควรเป็นรูทวารเป็นผิวเรียบ ไม่มีรู ไม่มีขี้เทาออกที่ perineum · รูป 2: ฟิล์มท่าคว่ำยกก้น ถ่ายด้านข้างตอนอายุ 24 ชม. วางเหรียญโลหะไว้ที่ตำแหน่งทวาร ลมในปลาย rectum อยู่สูง ห่างจากเหรียญประมาณ 2 cm",title:"Short answer — neonate without anal opening",
  stem:`A newborn has no anal opening. A prone cross-table lateral film is shown.<br>Name the film, give the diagnosis and management.`,
  gray:"4. ให้รูปเด็กไม่มีรูก้น กับรูป film prone lateral cross table ถามชื่อ film, diag, management",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -204,7 +204,7 @@ SA({page:29,orig:"MEQ 4",num:"SA 4",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"�
  interp:"ARM film",
  summary:["Cross-table lateral after 24 h","<1 cm low → anoplasty","≥1 cm high → colostomy → PSARP"]}),
 
-SA({page:29,orig:"MEQ 5",num:"SA 5",sub:"Plastic",flag:NOIMG,imgAlt:"ฟิล์มกระดูกขากรรไกรหลาย view",title:"Short answer — trauma with jaw films",
+SA({page:29,orig:"MEQ 5",num:"SA 5",sub:"Plastic",flag:NOIMG,imgAlt:"ฟิล์มใบหน้าหลาย view (panoramic และ Towne view): เห็นแนวกระดูกหักผ่านมุมขากรรไกรล่างข้างขวา ปลายกระดูกเคลื่อนเล็กน้อย ฟันบนล่างสบกันไม่พอดี ฝั่งซ้ายปกติ",title:"Short answer — trauma with jaw films",
  stem:`An accident victim has several views of facial films. Give the diagnosis and management.`,
  gray:"5. คนประสบอุบัติเหตุ ให้รูป film มาหลายๆ view ถาม diag, management (น่าจะ Rt. mandibular fracture, ทำ ORIF)",
  notes:"แนวคำตอบในไฟล์: น่าจะ Rt. mandibular fracture, ทำ ORIF",opinion:"ความมั่นใจปานกลาง",
@@ -214,7 +214,7 @@ SA({page:29,orig:"MEQ 5",num:"SA 5",sub:"Plastic",flag:NOIMG,imgAlt:"ฟิล�
  interp:"Mandible fracture",
  summary:["Airway risk in bilateral parasymphyseal","Open into mouth → antibiotics","ORIF/MMF to restore occlusion"]}),
 
-SA({page:29,orig:"MEQ 6",num:"SA 6",sub:"Plastic",flag:NOIMG,imgAlt:"ไฝสีดำขอบไม่เรียบที่ฝ่าเท้า",title:"Short answer — pigmented lesion on the foot",
+SA({page:29,orig:"MEQ 6",num:"SA 6",sub:"Plastic",flag:NOIMG,imgAlt:"ฝ่าเท้าผู้ใหญ่ มีไฝสีดำปนน้ำตาลหลายเฉด ขนาด ~2.5 cm ไม่สมมาตร ขอบขรุขระไม่ชัด มีส่วนนูนเป็นตุ่มตรงกลาง",title:"Short answer — pigmented lesion on the foot",
  stem:`A patient has had a pigmented lesion on the foot for some months (likely malignant melanoma). What is the management?`,
  gray:"6. ผู้ป่วยมีไฝที่เท้ามา x เดือน ให้รูปมา (น่าจะ malignant melanoma) ถาม management",
  notes:"แนวคำตอบในไฟล์: น่าจะ malignant melanoma",opinion:"ความมั่นใจสูง",
@@ -236,7 +236,7 @@ SA({page:29,orig:"MEQ 7",num:"SA 7",sub:"Plastic",img:["mm29_7"],title:"Short an
  interp:"Lipoma",
  summary:["Soft, lobulated, slip sign","Suspicious: >5 cm, deep, rapid growth → MRI + biopsy","Excision"]}),
 
-SA({page:29,orig:"MEQ 8",num:"SA 8",sub:"Others",flag:NOIMG,imgAlt:"นิ้วเท้าดำแห้งในผู้ป่วยเบาหวาน",title:"Short answer — black dry toe in a diabetic",
+SA({page:29,orig:"MEQ 8",num:"SA 8",sub:"Others",flag:NOIMG,imgAlt:"เท้าผู้ป่วยเบาหวาน: นิ้วเท้าที่ 2 ดำแห้งแข็งเหี่ยว มีเส้นแบ่งเขตชัดกับผิวปกติ ไม่มีหนองหรือกลิ่น · ผิวเท้ามันวาว ขนร่วง เล็บหนา เท้าเย็นซีด",title:"Short answer — black dry toe in a diabetic",
  stem:`A diabetic patient has a dry black toe.<br>1. Give the differential diagnosis.<br>2. What investigations will you send?`,
  gray:"8. ให้รูปคนเป็น DM นิ้วเท้าดำๆ แห้งๆ มา ถาม differential diag, ส่งตรวจอะไรเพิ่ม",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -270,7 +270,7 @@ SA({page:29,orig:"MEQ 10",num:"SA 10",sub:"Breast",flag:NOIMG,imgAlt:"ผิว�
  interp:"Peau d'orange",
  summary:["Dermal lymphatic obstruction","T4b/T4d","Biopsy + full staging → neoadjuvant first"]}),
 
-SA({page:29,orig:"MEQ 11",num:"SA 11",sub:"Others",flag:NOIMG,imgAlt:"นิ้วเท้า/นิ้วมือบวมแดงรอบเล็บ",title:"Short answer — paronychia",
+SA({page:29,orig:"MEQ 11",num:"SA 11",sub:"Others",flag:NOIMG,imgAlt:"นิ้วเท้าหัวแม่เท้า: ผิวพับข้างเล็บบวมแดงร้อน กดเจ็บมาก มีหนองสีเหลืองใต้ผิวข้างเล็บ เล็บด้านนั้นงุ้มจิกเข้าเนื้อ",title:"Short answer — paronychia",
  stem:`A picture of paronychia is shown (same as before). Give the diagnosis, cause and management.`,
  gray:"11. Paronychia เหมือนเดิม",
  notes:"ไม่มีเฉลยในไฟล์ · ไฟล์ระบุว่าเป็น paronychia เหมือนปีก่อน",opinion:"ความมั่นใจสูง",
@@ -280,7 +280,7 @@ SA({page:29,orig:"MEQ 11",num:"SA 11",sub:"Others",flag:NOIMG,imgAlt:"นิ้�
  interp:"Paronychia",
  summary:["Soak + antibiotic","I&D if abscess","Wedge resection for ingrown nail"]}),
 
-SA({page:29,orig:"MEQ 12",num:"SA 12",sub:"Others",flag:NOIMG,imgAlt:"ไม่มีรูป",title:"Short answer — upper GI bleeding twice before arrival",
+SA({page:29,orig:"MEQ 12",num:"SA 12",sub:"Others",flag:NOIMG,title:"Short answer — upper GI bleeding twice before arrival",
  stem:`A patient had 2 episodes of upper GI bleeding before arriving at hospital.<br>1. Name 3 further history items you will ask.<br>2. What is the management?`,
  gray:"12. UGIB มา 2 รอบก่อนมารพ. จะซักประวัติอะไรเพิ่ม 3 อย่าง, management",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -291,7 +291,7 @@ SA({page:29,orig:"MEQ 12",num:"SA 12",sub:"Others",flag:NOIMG,imgAlt:"ไม่�
  interp:"UGIB",
  summary:["Resuscitate, transfuse Hb <7","IV PPI; varices: vasoactive + antibiotic","EGD within 24 h"]}),
 
-SA({page:30,orig:"MEQ 13",num:"SA 13",sub:"Burn",flag:NOIMG,imgAlt:"แผลไหม้สีขาวซีด แห้ง แข็งแบบหนัง",title:"Short answer — burn depth",
+SA({page:30,orig:"MEQ 13",num:"SA 13",sub:"Burn",flag:NOIMG,imgAlt:"แผลไหม้น้ำร้อนลวกที่หน้าแขน: ผิวแดงชมพูชุ่มชื้น มีตุ่มพองน้ำใสหลายตุ่ม กดแล้วซีดและแดงกลับเร็ว",title:"Short answer — burn depth",
  stem:`A picture of a burn is shown; the patient says it still hurts.<br>What degree is it, and what is the management?`,
  gray:"13. ให้รูป burn มา โจทย์บอกว่ายังเจ็บ? ถามว่า degree ไหน, management (ข้อความในไฟล์: โจทย์บอกว่ายังเจ็บ)",
  notes:"ไม่มีเฉลยในไฟล์ · ⚠ ข้อความไฟล์อ่านได้ว่า 'โจทย์บอกว่ายังเจ็บ' — ถ้ายังเจ็บเป็นแผล partial thickness; เฉลยทั้งสองแบบ"+" · ตรวจคีย์ 21 พ.ย. 2026: ไม่มีคีย์เดิม — แก้เกณฑ์ fluid resuscitation เป็น ≥20% TBSA, 2 mL/kg/%TBSA ตาม ABA/ATLS 10th",opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไม่มีเฉลยในไฟล์ · คำบอก ยังเจ็บ ชี้ partial-thickness (2nd degree) ส่วนภาพที่ Claude บรรยาย (ขาวซีดแข็ง) เป็น full-thickness — คงเฉลยทั้งสองแบบ · แก้เกณฑ์ให้สารน้ำจาก >15–20% เป็น ≥20% TBSA เริ่ม 2 mL/kg/%TBSA ตาม American Burn Association Burn Resuscitation Guidelines (สรุปใน AFP 2025) และ ATLS 10th · ความมั่นใจต่ำ (ไม่เห็นรูป)",

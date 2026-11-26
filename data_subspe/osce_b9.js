@@ -43,7 +43,7 @@ Co({page:267,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Other
 Co({page:267,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Imaging film",title:"Spot — abdominal ultrasound image: diagnosis and other uses",
  stem:`A transabdominal ultrasound image of the right upper quadrant of a 45-year-old woman with fever and right upper abdominal pain for 2 days is shown.<br>1. What is the diagnosis?<br>2. What other surgical conditions can this investigation help diagnose?`,
  gray:"- ให้ภาพ TAS ถามว่า Dx ? ใช้ Dx โรคอะไรได้อีก >> Acute cholecystitis",
- flag:NOIMG+" · อายุ/อาการ Claude เติม",imgAlt:"ภาพอัลตราซาวด์ช่องท้องด้านขวาบน เห็นถุงน้ำดี",
+ flag:NOIMG+" · อายุ/อาการ Claude เติม",imgAlt:"Ultrasound ด้านขวาบน: ถุงน้ำดีโป่งตึง ผนังหนา ~6 mm มีชั้นน้ำบาง ๆ รอบถุง · ในถุงมีก้อนสะท้อนเสียงสว่างพร้อมเงาดำด้านหลังติดอยู่ที่คอถุง ไม่เลื่อนตามท่า · ท่อน้ำดีในตับและท่อน้ำดีใหญ่ไม่ขยาย · ผู้ตรวจบันทึกว่าเจ็บมากเมื่อกดหัวตรวจตรงถุงน้ำดี",
  notes:OLD+" · TAS = transabdominal sonography",
  parts:S(
   B("SA 2.1 Diagnosis (with the ultrasound findings).",3,{tags:["spot"],key:"ไฟล์: Acute cholecystitis",
@@ -64,7 +64,7 @@ Co({page:267,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Imagi
 Co({page:267,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Imaging film",title:"Spot — intravenous pyelogram: describe the abnormality",seen:"คล้าย MDCU65 RoB SA 6 (ภาพ IVP ถามความผิดปกติ)",
  stem:`An intravenous pyelogram (IVP) of a 40-year-old man with left colicky flank pain radiating to the groin is shown.<br>1. Describe the abnormality.<br>2. What is the diagnosis?`,
  gray:"- IVP อ่านถามความผิดปกติ",
- flag:"⚠ "+NOIMG+" · ไฟล์ไม่ได้บอกว่าความผิดปกติคืออะไร — Claude เลือกภาพนิ่วในท่อไตอุดตัน (พบบ่อยที่สุดใน IVP ของข้อสอบ) และแต่งอายุ/อาการ",imgAlt:"ฟิล์ม KUB และฟิล์ม IVP หลายช่วงเวลาของผู้ป่วยชาย",
+ flag:"⚠ "+NOIMG+" · ไฟล์ไม่ได้บอกว่าความผิดปกติคืออะไร — Claude เลือกภาพนิ่วในท่อไตอุดตัน (พบบ่อยที่สุดใน IVP ของข้อสอบ) และแต่งอายุ/อาการ",imgAlt:"ฟิล์ม KUB: เงาทึบรังสีเล็ก ~5 mm ในเชิงกรานซ้ายแนวท่อไตส่วนปลาย · IVP: ไตซ้ายขับสารช้า pelvis/calyces และท่อไตซ้ายโป่งตลอดลงมาหยุดตรงเงานั้น ส่วนใต้ต่อเงาไม่มีสาร · ไตขวาปกติ · ฟิล์มหลังปัสสาวะยังเห็นสารค้างในท่อไตซ้าย",
  notes:OLD,
  parts:S(
   B("SA 3.1 Describe the abnormality and give the diagnosis.",4,{tags:["spot"],
@@ -80,7 +80,7 @@ Co({page:267,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Imagi
 Co({page:267,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn abdominal wall defect: management",
  stem:`A photograph of a newborn shows loops of bowel protruding through a small defect to the right of an intact umbilical cord, with no covering membrane.<br>1. What is the diagnosis?<br>2. Outline the management.`,
  gray:"- Gastroschisis management?",
- flag:NOIMG+" · คำถาม 'diagnosis' Claude เติมเพื่อให้สไลด์สมบูรณ์",imgAlt:"รูปทารกแรกเกิดนอนหงาย เห็นบริเวณผนังหน้าท้อง",
+ flag:NOIMG+" · คำถาม 'diagnosis' Claude เติมเพื่อให้สไลด์สมบูรณ์",imgAlt:"ทารกแรกเกิดนอนหงาย: ลำไส้เล็กและใหญ่หลายห่วงหนาบวมสีคล้ำ ผิวมีคราบเหนียวเกาะติดกัน โผล่ออกจากรูขนาด ~3 cm ทางขวาของสายสะดือ ไม่มีถุงหุ้ม · สายสะดือเกาะปกติ · ตับอยู่ในช่องท้อง · ทารกตัวเล็กกว่าอายุครรภ์",
  notes:OLD,
  parts:S(
   B("SA 4.1 Diagnosis and management.",5,{tags:["spot"],key:"ไฟล์ระบุ: Gastroschisis (ไม่มีเฉลยการรักษา)",
@@ -97,7 +97,7 @@ Co({page:267,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Pedia
 Co({page:267,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — skin lesion: describe the lesion",
  stem:`A photograph of a chronic non-healing lesion on the lower leg of a 60-year-old farmer is shown. It developed on an old burn scar.<br>1. Describe the lesion.<br>2. What is the most likely diagnosis and how would you confirm it?`,
  gray:"- Squamous cell CA บรรยาย lesion",
- flag:NOIMG+" · ตำแหน่ง/ประวัติแผลเป็นจากไฟไหม้ Claude เติม · คำถามย่อยการวินิจฉัย/ยืนยันผล Claude เติม",imgAlt:"รูปรอยโรคเรื้อรังที่ผิวหนังบริเวณขาส่วนล่าง",
+ flag:NOIMG+" · ตำแหน่ง/ประวัติแผลเป็นจากไฟไหม้ Claude เติม · คำถามย่อยการวินิจฉัย/ยืนยันผล Claude เติม",imgAlt:"ขาส่วนล่างบนแผลเป็นไฟไหม้เก่า: แผลเรื้อรังขนาด ~4 cm ขอบนูนแข็งม้วนออกด้านนอก พื้นแผลขรุขระเป็นปุ่มเนื้อมีเลือดออกง่าย กลิ่นเหม็น",
  notes:OLD,
  parts:S(
   B("SA 5.1 Describe the lesion, then give the diagnosis and how to confirm it.",4,{tags:["spot"],key:"ไฟล์ระบุ: Squamous cell CA (ไม่มีเฉลยการบรรยาย)",
@@ -113,7 +113,7 @@ Co({page:267,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Plast
 Co({page:267,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Pediatric surgery",title:"Spot — infant with prolonged jaundice: differential diagnosis and management",
  stem:`A photograph of a 7-week-old infant shows jaundice, a distended abdomen and a nappy with pale (acholic) stool. Direct bilirubin is 6.5 mg/dL.<br>1. Give the differential diagnoses.<br>2. Outline the investigations and management of the most likely diagnosis.`,
  gray:"- Biliary atresia DDx ? management?",
- flag:NOIMG+" · อายุ/ค่า direct bilirubin Claude แต่ง",imgAlt:"รูปทารกตัวเหลือง ท้องป่อง และผ้าอ้อมที่มีอุจจาระ",
+ flag:NOIMG+" · อายุ/ค่า direct bilirubin Claude แต่ง",imgAlt:"ทารก 7 สัปดาห์ ตัวและตาเหลืองเข้ม ท้องป่องตับคลำได้โตแข็ง · ผ้าอ้อมมีอุจจาระสีซีดขาวเทาเหมือนดินเหนียว ปัสสาวะสีเข้มคล้ายชา",
  notes:OLD,
  parts:S(
   B("SA 6.1 Differential diagnoses.",2,{tags:["spot"],key:"ไฟล์ระบุ: Biliary atresia (ไม่มีเฉลย DDx/management)",
@@ -134,7 +134,7 @@ Co({page:267,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Pedia
 Co({page:267,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Breast",title:"Spot — red, tender breast: diagnosis and management",seen:"คล้าย MDCU66 RoD SA 1 (รูป mastitis)",
  stem:`A photograph of the breast of a 30-year-old woman, 6 weeks postpartum, shows a red, swollen area in the upper outer quadrant. She has been treated with oral antibiotics for 5 days without improvement and now has a fluctuant, tender area.<br>1. What is the diagnosis?<br>2. Outline the management.`,
  gray:"- Mastitis",
- flag:NOIMG+" · ไฟล์จดแค่คำว่า 'Mastitis' — ประวัติ/อาการ (ไม่ตอบสนองยา มีจุด fluctuant) และคำถาม Claude เติม เพื่อไม่ให้ซ้ำกับสไลด์ mastitis ของชุดอื่น",imgAlt:"รูปเต้านมข้างหนึ่งของหญิงหลังคลอด",
+ flag:NOIMG+" · ไฟล์จดแค่คำว่า 'Mastitis' — ประวัติ/อาการ (ไม่ตอบสนองยา มีจุด fluctuant) และคำถาม Claude เติม เพื่อไม่ให้ซ้ำกับสไลด์ mastitis ของชุดอื่น",imgAlt:"เต้านมของแม่หลังคลอด 6 สัปดาห์: ส่วนบนด้านนอกแดงบวม ร้อน กดเจ็บ ตรงกลางคลำได้ก้อนนุ่มหยุ่นเป็นน้ำขนาด ~3 cm ผิวบนก้อนบางเป็นมัน",
  notes:OLD,
  parts:S(
   B("SA 7.1 Diagnosis and management.",4,{tags:["spot"],key:"ไฟล์ระบุหัวข้อ: Mastitis (ไม่มีเฉลย)",
@@ -150,7 +150,7 @@ Co({page:267,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Breas
 Co({page:267,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Imaging film",title:"Spot — contrast study in an infant with bilious vomiting: diagnosis and management",seen:"คล้าย MDCU66 RoD SA 9 และ MDCU65 RoB SA 5 (ฟิล์ม midgut volvulus)",
  stem:`A 10-day-old neonate presents with sudden bile-stained vomiting. An upper gastrointestinal contrast study is shown.<br>1. What is the diagnosis?<br>2. Outline the management.`,
  gray:"- Film midgut volvulus Dx? Management?",
- flag:NOIMG+" · อายุ/อาการ Claude เติม",imgAlt:"ฟิล์ม upper GI contrast study ของทารกแรกเกิด",
+ flag:NOIMG+" · อายุ/อาการ Claude เติม",imgAlt:"Upper GI study ทารก 10 วัน: duodenum ไม่วนข้ามแนวกลาง jejunum ต้นอยู่ทางขวาของกระดูกสันหลัง สารทึบรังสีที่ปลายบิดเป็นเกลียว ผ่านลงไปได้น้อย",
  notes:OLD,
  parts:S(
   B("SA 8.1 Diagnosis (with the radiographic signs).",3,{tags:["spot"],key:"ไฟล์ระบุ: midgut volvulus (ไม่มีเฉลยการรักษา)",
@@ -171,7 +171,7 @@ Co({page:267,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Imagi
 Co({page:267,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — leg pain on walking: diagnosis and physical examination",seen:"คล้าย MDCU66 RoD SA 11 (รูป arterial occlusion: บรรยาย + PE ที่สำคัญ)",
  stem:`A 68-year-old man who smokes 40 pack-years complains of cramping pain in the right calf after walking about 100 metres, relieved by rest within a few minutes, for 6 months.<br>1. What is the diagnosis?<br>2. What physical examination would you perform?`,
  gray:"- ให้อาการ Dx >> Chronic artery occlusion PE?",
- flag:NOIMG+" · อาการในโจทย์ Claude แต่ง (ไฟล์จดแค่ 'ให้อาการ')",imgAlt:"สไลด์ข้อความประวัติผู้ป่วย",
+ flag:NOIMG+" · อาการในโจทย์ Claude แต่ง (ไฟล์จดแค่ 'ให้อาการ')",imgAlt:"สไลด์ข้อความประวัติ: ชาย 68 ปี สูบบุหรี่ 40 pack-years ปวดน่องขวาเหมือนตะคริวเมื่อเดิน ~100 m หยุดพักแล้วหายภายในไม่กี่นาที เป็นมา 6 เดือน",
  notes:OLD+" · 'PE?' = ถามการตรวจร่างกาย",
  parts:S(
   B("SA 9.1 Diagnosis.",2,{tags:["spot"],key:"ไฟล์: Chronic artery occlusion",
@@ -192,7 +192,7 @@ Co({page:267,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Vascu
 Co({page:267,sec:"Short Answers",orig:"PPT 10",num:"SA 10",topic:"spot",sub:"Head & neck",title:"Spot — facial stab wound: expected deficits and how to test",seen:"คล้าย MDCU66 RoD SA 6 (แผลแทงที่หน้าโดน buccal branch)",
  stem:`A photograph shows a stab wound on the side of the face, over the parotid region in front of the ear.<br>1. Which important structure may be injured, and what symptoms would the patient have?<br>2. How would you test for this injury?`,
  gray:"ข้อสอบใหม่ - Trauma stab wound ที่ใบหน้า ตรงแถวๆ facial nerve มีอาการอย่างไร / (หน้า 268) ทดสอบยังไง",
- flag:NOIMG,imgAlt:"รูปใบหน้าด้านข้างมีแผลถูกแทงบริเวณหน้าหู",
+ flag:NOIMG,imgAlt:"แผลถูกแทงยาว ~2 cm หน้าหูซ้ายเหนือมุมขากรรไกร · ผู้ป่วยยิ้มแล้วมุมปากซ้ายตก หลับตาซ้ายไม่สนิท ยักคิ้วซ้ายไม่ขึ้น",
  notes:"ไฟล์จัดเป็น 'ข้อสอบใหม่' · บรรทัด 'ทดสอบยังไง' อยู่ต้นหน้า 268 ต่อจากข้อนี้",
  parts:S(
   B("SA 10.1 Structure at risk and expected symptoms.",3,{tags:["spot"],key:"ไฟล์ระบุ: facial nerve (ไม่มีเฉลยอาการ)",
@@ -258,7 +258,7 @@ Co({page:268,sec:"OSCE",orig:"2",topic:"pe",sub:"Abdomen",ex:1,title:"Physical e
 Co({page:268,sec:"OSCE",orig:"3",topic:"inst",sub:"Surgical instrument",title:"Instruments — two grasping forceps: name and compare their uses",
  stem:`Two ring-handled grasping instruments with locking ratchets are displayed. One has short interlocking teeth at its tips; the other has broad, rounded, fenestrated tips without teeth.<br>1. Name each instrument.<br>2. State the use of each and explain the difference.`,
  gray:"ตอนที่ 2 ข้อสอบเก่า - Instrument 2 ข้อ ตรงแอก",
- flag:"⚠ "+NOIMG+" · ไฟล์จดแค่ 'Instrument 2 ข้อ' ไม่บอกชื่อเครื่องมือ — สถานีนี้และ OSCE 4 Claude เลือกเครื่องมือที่ออกบ่อยเองทั้งหมด",imgAlt:"เครื่องมือผ่าตัดด้ามแบบห่วง 2 ชิ้น มีล็อก ปลายต่างกัน",
+ flag:"⚠ "+NOIMG+" · ไฟล์จดแค่ 'Instrument 2 ข้อ' ไม่บอกชื่อเครื่องมือ — สถานีนี้และ OSCE 4 Claude เลือกเครื่องมือที่ออกบ่อยเองทั้งหมด",imgAlt:"เครื่องมือด้ามห่วงมีล็อก 2 ชิ้น: ชิ้นแรกปลายบานเล็กน้อยมีฟันสั้นหลายซี่ขบกัน · ชิ้นที่สองปลายเป็นห่วงสามเหลี่ยมกว้างโค้งมีช่องโปร่งตรงกลาง ไม่มีฟัน",
  notes:"ไฟล์เขียน 'Instrument 2 ข้อ ตรงแอก' — ตีความว่ามีสถานีเครื่องมือ 2 สถานี (คำว่า 'ตรงแอก' อ่านความหมายไม่ได้ชัด เก็บไว้ใน gray ตามต้นฉบับ)",
  parts:S(
   B("3.1 Name each instrument, state its use and the difference.",5,{tags:["inst"],
@@ -274,7 +274,7 @@ Co({page:268,sec:"OSCE",orig:"3",topic:"inst",sub:"Surgical instrument",title:"I
 Co({page:268,sec:"OSCE",orig:"4",topic:"inst",sub:"Surgical instrument",title:"Instruments — two clamps: name and state their uses",
  stem:`Two ring-handled clamps with locking ratchets are displayed. Both have transverse serrations along the jaws; one is slightly longer and has a single tooth (1×2) at the tip.<br>1. Name each instrument.<br>2. State the use of each.`,
  gray:"ตอนที่ 2 ข้อสอบเก่า - Instrument 2 ข้อ ตรงแอก (สถานีที่สอง)",
- flag:"⚠ "+NOIMG+" · ไฟล์ไม่บอกชื่อเครื่องมือ — Claude เลือก Kelly clamp และ Kocher clamp",imgAlt:"เครื่องมือผ่าตัดด้ามแบบห่วง 2 ชิ้น มีล็อก ปากมีร่องขวาง",
+ flag:"⚠ "+NOIMG+" · ไฟล์ไม่บอกชื่อเครื่องมือ — Claude เลือก Kelly clamp และ Kocher clamp",imgAlt:"เครื่องมือด้ามห่วงมีล็อก 2 ชิ้น ปากมีร่องขวางทั้งคู่: ชิ้นแรกปากเรียวยาว ร่องเฉพาะครึ่งปลาย ไม่มีฟัน · ชิ้นที่สองยาวกว่าเล็กน้อย ร่องตลอดปาก ปลายสุดมีฟันขบกัน 1×2 ซี่",
  notes:"สถานีที่สองของ 'Instrument 2 ข้อ' · ดู OSCE 3",
  parts:S(
   B("4.1 Name each instrument and state its use.",4,{tags:["inst"],
@@ -290,7 +290,7 @@ Co({page:268,sec:"OSCE",orig:"4",topic:"inst",sub:"Surgical instrument",title:"I
 Co({page:268,sec:"OSCE",orig:"5",topic:"suture",sub:"Suture material",title:"Suture material — read the packet and describe the suture",
  stem:`A suture packet with its label is provided.<br>1. What is the generic name of this suture?<br>2. Describe its properties (structure and absorbability) and the information on the packet.<br>3. Give examples of its use.`,
  gray:"ตอนที่ 2 ข้อสอบเก่า - ไหมออก vicryl มีซองบอกชื่อให้",
- flag:NOIMG+" · ขนาดไหม/ชนิดเข็มบนซอง Claude เติมเป็นตัวอย่าง",imgAlt:"ซองไหมเย็บแผลสีม่วง มีฉลากชื่อและรูปเข็ม",
+ flag:NOIMG+" · ขนาดไหม/ชนิดเข็มบนซอง Claude เติมเป็นตัวอย่าง",imgAlt:"ซองไหมสีม่วงพิมพ์ VICRYL (polyglactin 910) ขนาด 2-0 ยาว 70 cm เข็มโค้งปลายกลม · ไหมสีม่วงถักเกลียว",
  notes:"ผู้จดบอกว่าซองไหมมีชื่อบอกให้ (Vicryl)",
  parts:S(
   B("5.1 Generic name, properties and uses.",5,{tags:["suture"],key:"ไฟล์ระบุ: Vicryl (มีซองบอกชื่อ)",
@@ -306,7 +306,7 @@ Co({page:268,sec:"OSCE",orig:"5",topic:"suture",sub:"Suture material",title:"Sut
 Co({page:268,sec:"OSCE",orig:"6",topic:"img",sub:"Acute abdomen series",title:"Two abdominal radiographs — describe and diagnose each",
  stem:`Two radiographs from two different patients with acute abdominal pain are shown.<br>Film A: an upright chest radiograph.<br>Film B: supine and upright abdominal radiographs.<br>For each film: 1. Describe the findings. 2. Give the diagnosis.`,
  gray:"ตอนที่ 2 ข้อสอบเก่า - Films 2 อัน Dx กับบรรยาย >> free air >> small bowel obstruction",
- flag:NOIMG,imgAlt:"ฟิล์ม A: ฟิล์มทรวงอกท่ายืน · ฟิล์ม B: ฟิล์มช่องท้องท่านอนและท่ายืน",
+ flag:NOIMG,imgAlt:"ฟิล์ม A (CXR ท่ายืน): แถบลมรูปจันทร์เสี้ยวใต้กะบังลมขวาเหนือตับ · ฟิล์ม B (ช่องท้องท่านอน/ท่ายืน): ลำไส้เล็กโป่งหลายห่วงกลางท้อง มี air-fluid level หลายระดับเป็นขั้นบันได ลมใน colon น้อย",
  parts:S(
   B("6.1 Film A — describe and diagnose.",3,{tags:["img"],key:"ไฟล์: free air",
    ans:"Upright CXR: <b>แถบลมรูปจันทร์เสี้ยวใต้กระบังลม (subdiaphragmatic free air)</b> ด้านขวา (± ซ้าย) แยกจาก gastric bubble · <b>Dx: Pneumoperitoneum</b> → สาเหตุที่พบบ่อย = <b>perforated peptic ulcer</b> (ต้องแยกหลังผ่าตัดช่องท้อง) → resuscitation + ผ่าตัดด่วน",
@@ -467,7 +467,7 @@ Co({page:268,sec:"OSCE",orig:"13",topic:"path",sub:"Breast cancer staging",title
 Co({page:268,sec:"OSCE",orig:"14",topic:"img",sub:"Mammogram",title:"Mammogram — describe and categorize the findings",seen:"คล้าย MDCU65 RoB OSCE 2 (บรรยาย mammogram)",
  stem:`Bilateral screening mammograms (craniocaudal and mediolateral oblique views) of a 52-year-old woman are shown.<br>1. Name the views.<br>2. Describe the abnormality.<br>3. Give the BI-RADS category and the next step.`,
  gray:"ข้อสอบใหม่ - ให้อ่าน mammogram คือ ไม่รู้เหมือนกันว่าตอบอะไรยังงัย >.<",
- flag:"⚠ "+NOIMG+" · ผู้จดจำไม่ได้ว่าภาพแสดงอะไร — ความผิดปกติ (กลุ่มหินปูน) และอายุผู้ป่วย Claude เลือกเอง",imgAlt:"ภาพ mammogram ของเต้านมทั้งสองข้าง ท่า CC และ MLO",
+ flag:"⚠ "+NOIMG+" · ผู้จดจำไม่ได้ว่าภาพแสดงอะไร — ความผิดปกติ (กลุ่มหินปูน) และอายุผู้ป่วย Claude เลือกเอง",imgAlt:"Mammogram ทั้งสองข้าง 4 ภาพ (บน-ล่าง และเฉียง): เต้านมซ้ายส่วนบนด้านนอกมีกลุ่มจุดหินปูนเล็กละเอียดหลายขนาดหลายรูปทรง เรียงเป็นเส้นแตกแขนงยาว ~3 cm ไม่เห็นก้อนชัด · เต้านมขวาปกติ",
  notes:"ไฟล์จัดเป็น 'ข้อสอบใหม่' · ผู้จดเขียนว่าไม่รู้ว่าตอบอย่างไร",
  parts:S(
   B("14.1 Name the views, describe the abnormality, give the BI-RADS category and next step.",5,{tags:["img"],

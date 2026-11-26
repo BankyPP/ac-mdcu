@@ -93,7 +93,7 @@ X({page:4,orig:"2",topic:"pe",ex:1,seen:"คล้าย MDCU75 RoA ข้อ 8 
  interp:"Bilateral expiratory polyphonic wheeze + prolonged expiration → asthma",
  summary:["Wheeze polyphonic ทั้งสองข้าง = asthma/COPD/cardiac asthma","Monophonic เฉพาะที่ = ก้อน/สิ่งแปลกปลอม","Silent chest = รุนแรงมาก"]}),
 
-X({page:4,orig:"3",topic:"ekg",seen:"คล้าย MDCU78 RoD ข้อ 4, MDCU79 RoB ข้อ 15 (atrial flutter)",title:"EKG — read the tracing",imgNote:NOIMG+" · คาดว่าเป็น atrial flutter with 2:1 AV block (flutter wave รูปฟันเลื่อยใน II, III, aVF)",
+X({page:4,orig:"3",topic:"ekg",seen:"คล้าย MDCU78 RoD ข้อ 4, MDCU79 RoB ข้อ 15 (atrial flutter)",title:"EKG — read the tracing",imgNote:NOIMG+" · คาดว่าเป็น atrial flutter with 2:1 AV block (flutter wave รูปฟันเลื่อยใน II, III, aVF)",imgAlt:"EKG 12 lead: ไม่เห็น P wave ปกติ เส้นฐานเป็นคลื่นหยักต่อเนื่องคล้ายฟันเลื่อย ชัดใน II, III, aVF อัตราคลื่น ~300/min · QRS แคบสม่ำเสมอ ventricular rate ~150/min (ทุก 2 คลื่นตาม 1 QRS)",
  stem:`Read this EKG systematically and give your interpretation.`,
  gray:"3. อ่าน EKG (น่าจะ atrial flutter)",
  flag:"⚠ ไม่มีรูป EKG — เฉลยตามที่ผู้จดเดา (atrial flutter)",
@@ -119,7 +119,7 @@ X({page:4,orig:"4",topic:"lab",seen:"คล้าย MDCU75 RoA ข้อ 12 (no
  interp:"PT ปกติ aPTT ยาว → mixing study เป็นก้าวแรก แล้วแยก factor deficiency vs inhibitor",
  summary:["PT = extrinsic (VII) · aPTT = intrinsic (VIII, IX, XI, XII)","Mixing แก้ได้ = deficiency · ไม่แก้ = inhibitor/LA/heparin"]}),
 
-X({page:4,orig:"5",topic:"img",seen:"คล้าย MDCU77 RoD ข้อ 6, MDCU74 RoX ข้อ 13 (CXR lung mass)",title:"CXR — left upper lung mass: read systematically",imgNote:NOIMG+" · คาดว่าเป็นก้อนเดี่ยวที่ปอดซ้ายส่วนบน (left upper zone mass)",
+X({page:4,orig:"5",topic:"img",seen:"คล้าย MDCU77 RoD ข้อ 6, MDCU74 RoX ข้อ 13 (CXR lung mass)",title:"CXR — left upper lung mass: read systematically",imgNote:NOIMG+" · คาดว่าเป็นก้อนเดี่ยวที่ปอดซ้ายส่วนบน (left upper zone mass)",imgAlt:"CXR PA ท่ายืน: ก้อนเงาขาวกลมขนาด ~4 cm ที่ปอดซ้ายส่วนบน ขอบไม่เรียบเป็นแฉก ไม่มีโพรง · ขั้วปอดซ้ายโตเล็กน้อย · ส่วนอื่นของปอด หัวใจ กะบังลม กระดูกปกติ",
  stem:`Read this chest X-ray systematically and give the most likely diagnosis.`,
  gray:"5. อ่าน chest xray (ก้อนปอดซ้ายบน)",
  flag:"⚠ ไม่มีรูป — เฉลยเรียง ABCDEFGHI ตามเกณฑ์ CXR Med MDCU (ผู้ใช้ 14 พ.ย. 2026); finding F ตามที่ผู้จดเล่า",
@@ -140,7 +140,7 @@ X({page:4,orig:"5",topic:"img",seen:"คล้าย MDCU77 RoD ข้อ 6, MDC
  interp:"ก้อนเดี่ยวปอดซ้ายบน → มะเร็งปอดจนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · อ่านเรียง ABCDEFGHI",
  summary:["อ่าน CXR: A→I ตามเกณฑ์ Med MDCU","ก้อนปอด: บอกตำแหน่ง ขนาด ขอบ cavity calcification + rib/hilum","Mass > 3 cm = mass (≤ 3 cm = nodule)"]}),
 
-X({page:4,orig:"6",topic:"micro",seen:"คล้าย MDCU78 RoA ข้อ 6, MDCU76 RoA ข้อ 10 (Gram stain หนองฝีในตับ)",title:"Gram stain — pus from an intra-abdominal collection: describe, organism and antibiotic",imgNote:NOIMG+" · คาดว่าเป็น Gram-positive cocci in clusters + PMN จำนวนมาก",
+X({page:4,orig:"6",topic:"micro",seen:"คล้าย MDCU78 RoA ข้อ 6, MDCU76 RoA ข้อ 10 (Gram stain หนองฝีในตับ)",title:"Gram stain — pus from an intra-abdominal collection: describe, organism and antibiotic",imgNote:NOIMG+" · คาดว่าเป็น Gram-positive cocci in clusters + PMN จำนวนมาก",imgAlt:"Gram stain หนองจากช่องท้อง: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · เชื้อกลมติดสีม่วงจับกันเป็นกลุ่มก้อนคล้ายพวงองุ่น ทั้งนอกเซลล์และในเซลล์",
  stem:`A patient with an intra-abdominal abscess had pus aspirated. The Gram stain is shown.<br>6.1 Describe what you see.<br>6.2 What is the most likely organism?<br>6.3 Choose an appropriate antibiotic.`,
  gray:"6. ให้ประวัติหนองในท้องมา แล้วให้ดู Gram stain (น่าจะ S.aureus)\n6.1 อธิบายว่าเห็นอะไร\n6.2 เชื้อที่คิดถึงมากที่สุด\n6.3 เลือก ATB ที่เหมาะสม",
  flag:"⚠ ไม่มีรูป — เฉลยตามที่ผู้จดเดา (S. aureus)",
@@ -174,7 +174,7 @@ X({page:4,orig:"7",topic:"advice",ex:1,seen:"คล้าย MDCU76 RoA ข้�
  interp:"Advice ลดน้ำหนัก: ภาษาไม่ตีตรา → ประเมินความพร้อม → ตั้งเป้า 5% ร่วมกัน → อาหาร + แอโรบิก 30 นาที/วัน + จดบันทึก + ติดตาม",
  summary:["ไม่พูดว่าอ้วน — 'ภาวะน้ำหนักตัวเกิน'","เป้าแรก 5% · 0.5–1 กก./สัปดาห์","ขาดพลังงาน 500–1,000 kcal/วัน · ≥150 นาที/สัปดาห์"]}),
 
-X({page:4,orig:"8",topic:"skin",seen:"สถานี herpes zoster เหมือน skin ปีอื่น (เช่น MDCU73 RoD)",title:"Skin lesion — rash on the leg with a burning sensation",imgNote:NOIMG+" · ผื่นแห้ง ๆ (น่าจะระยะ crust) เรียงตาม dermatome ข้างเดียวที่ขา",
+X({page:4,orig:"8",topic:"skin",seen:"สถานี herpes zoster เหมือน skin ปีอื่น (เช่น MDCU73 RoD)",title:"Skin lesion — rash on the leg with a burning sensation",imgNote:NOIMG+" · ผื่นแห้ง ๆ (น่าจะระยะ crust) เรียงตาม dermatome ข้างเดียวที่ขา",imgAlt:"ขาซ้ายด้านหลังเป็นแถบเดียวตามแนวยาว: กลุ่มตุ่มน้ำเล็กบนพื้นแดง บางกลุ่มแตกเป็นสะเก็ดแห้งสีน้ำตาล ผู้ป่วยแสบร้อนเจ็บมาก",
  stem:`A patient has a rash on the leg with a burning sensation. The lesion is shown.<br>8.1 Name one bedside investigation.<br>8.2 What do you expect to see from that test?<br>8.3 Diagnosis.<br>8.4 Name 3 complications.<br>8.5 Give the treatment in detail.`,
  gray:"8. ผื่นแห้งๆที่ขา มี burning sensation (เพื่อนบอกตอบ HZV)\n8.1 ส่งตรวจ bedside 1 อย่าง\n8.2 คิดว่าจะเห็นอะไรจากที่ส่ง\n8.3 diagnosis\n8.4 complication 3 ข้อ\n8.5 ยาที่ใช้อย่างละเอียด",
  flag:"⚠ ผู้จดไม่แน่ใจ (เพื่อนบอกว่าตอบ HZV) — เฉลยตาม herpes zoster · คำบรรยาย/การรักษาใช้เวอร์ชันหลักของผู้ใช้",
@@ -197,7 +197,7 @@ X({page:4,orig:"8",topic:"skin",seen:"สถานี herpes zoster เหมื
  interp:"ผื่นตาม dermatome ข้างเดียว แสบร้อน → herpes zoster · Tzanck: multinucleated giant cell · acyclovir 800 mg 5×/วัน 7 วัน",
  summary:["HZ: grouped multistage vesicles on erythematous base, unilateral dermatome","Tzanck → multinucleated giant cells","Acyclovir 800 mg 5×/วัน × 7 วัน · PHN = complication หลัก"]}),
 
-X({page:4,orig:"9",topic:"micro",seen:"คล้าย MDCU78 RoA ข้อ 7 (urine sediment — patient with a rash), MDCU74 RoX ข้อ 14",title:"Urine sediment — edema, oliguria and a rash on the legs",imgNote:NOIMG+" · คาดว่าเป็น RBC cast",
+X({page:4,orig:"9",topic:"micro",seen:"คล้าย MDCU78 RoA ข้อ 7 (urine sediment — patient with a rash), MDCU74 RoX ข้อ 14",title:"Urine sediment — edema, oliguria and a rash on the legs",imgNote:NOIMG+" · คาดว่าเป็น RBC cast",imgAlt:"ภาพตะกอนปัสสาวะกำลังขยายสูง: โครงทรงกระบอกยาวที่มีเม็ดเลือดแดงอัดอยู่ภายในเต็ม สีส้มน้ำตาล · พื้นหลังมีเม็ดเลือดแดงรูปร่างผิดปกติ ขนาดไม่เท่ากัน บางเซลล์มีตุ่มยื่นออกจากผิว",
  stem:`A patient presents with edema, decreased urine output and a rash on the legs. The urine sediment is shown.<br>9.1 What do you see?<br>9.2 Give 2 differential diagnoses.`,
  gray:"9. ให้ประวัติ บวม+ ฉี่ออกน้อย มีผื่นที่ขา + ให้รูป urine มา\n9.1 เห็นอะไรจากรูป (น่าจะ rbc cast)\n9.2 d/dx 2 โรค",
  parts:S(
@@ -224,7 +224,7 @@ X({page:4,orig:"10",topic:"lab",seen:"คล้าย MDCU75 RoB ข้อ 7, MD
  interp:"พ่อ β-thal trait + แม่ HbE trait → ลูก β-thal/HbE disease 25% (คู่เสี่ยง)",
  summary:["HbA2 > 3.5% = β-thal trait","HbE 25–30% = HbE trait","β-thal trait × HbE trait → β-thal/HbE 1/4"]}),
 
-X({page:4,orig:"11",topic:"img",title:"Parathyroid subtraction scan — hypercalcemia with hypophosphatemia",imgNote:NOIMG+" · focal uptake ค้างอยู่ที่ตำแหน่ง left inferior parathyroid",
+X({page:4,orig:"11",topic:"img",title:"Parathyroid subtraction scan — hypercalcemia with hypophosphatemia",imgNote:NOIMG+" · focal uptake ค้างอยู่ที่ตำแหน่ง left inferior parathyroid",imgAlt:"ภาพ subtraction 3 ภาพ: ภาพสารที่จับเนื้อเยื่อพาราไทรอยด์ช่วงต้นเห็นต่อมไทรอยด์ทั้งสองข้าง · ภาพช่วงหลังสารที่ต่อมไทรอยด์จางหายไป แต่ยังเหลือจุดเข้มเดียวค้างอยู่ที่ใต้ขั้วล่างของกลีบซ้าย · ภาพที่ลบภาพไทรอยด์ออกเหลือจุดเข้มเดียวตำแหน่งเดียวกัน",
  stem:`A patient has a high serum calcium and a low serum phosphate. A parathyroid subtraction scan shows increased uptake at the left lower pole.<br>11.1 Describe the image.<br>11.2 Diagnosis.<br>11.3 How would you treat?`,
  gray:"11. Parathyroid subtraction scan\n(มี uptake เยอะที่lobe ล่างซ้าย) Ca สูง Po4 ต่ำ\n11.1 อธิบายภาพที่เห็น\n11.2 diagnosis\n11.3 รักษายังไง",
  parts:S(
@@ -355,7 +355,7 @@ X({page:40,orig:"XX-Thyro",topic:"lab",seen:"คล้าย MDCU74 RoX ข้�
  interp:"Thyrotoxicosis + diffuse goiter 2 เดือน → Graves มากที่สุด · แยกด้วย RAIU/scan + TRAb",
  summary:["DDx thyrotoxicosis + goiter: Graves, toxic adenoma, TMNG (+ thyroiditis)","RAIU สูง = Graves/TA/TMNG · ต่ำ = thyroiditis/exogenous","TRAb ยืนยัน Graves (ATA 2016)"]}),
 
-X({page:64,orig:"XX-Penis",topic:"skin",seen:"คล้าย MDCU71 RoX Skin1 (condyloma ที่ penis — คำถามย่อยต่างกัน)",title:"Skin lesion on the penis — describe, diagnose and name 2 risk factors for malignancy",imgNote:NOIMG+" · ลายมือในสมุด: multiple discrete well-circumscribed hyperpigmented papules ที่ penis (ผู้จดไม่แน่ใจว่าเป็น penile wart หรือ bowenoid papulosis)",
+X({page:64,orig:"XX-Penis",topic:"skin",seen:"คล้าย MDCU71 RoX Skin1 (condyloma ที่ penis — คำถามย่อยต่างกัน)",title:"Skin lesion on the penis — describe, diagnose and name 2 risk factors for malignancy",imgNote:NOIMG+" · ลายมือในสมุด: multiple discrete well-circumscribed hyperpigmented papules ที่ penis (ผู้จดไม่แน่ใจว่าเป็น penile wart หรือ bowenoid papulosis)",imgAlt:"องคชาต: ตุ่มนูนเล็ก 2–5 mm หลายตุ่ม แยกกันชัด ขอบเรียบ สีน้ำตาลเข้ม ผิวเรียบถึงขรุขระเล็กน้อย ที่ลำองคชาต ไม่มีแผล",
  stem:`A picture of a skin lesion on the penis is shown.<br>1. Describe the lesion.<br>2. What is the most likely diagnosis?<br>3. What are 2 factors that increase the risk of malignancy?`,
  gray:"XX. มีรูป skin lesion บริเวณ penis มาให้\n1. Describe the lesion (ไม่ชัวร์ว่า penile wart หรือ bowenoid papulosis)\n2. What is the most likely diagnosis?\n3. What are 2 factors that increase the risk of malignancy?",
  flag:"ผู้จดไม่แน่ใจคำตอบ (penile wart vs bowenoid papulosis) — เฉลยตามลายมือ + กล่องคำตอบในสมุด p64 · Condyloma ไม่อยู่ในเวอร์ชันหลักของผู้ใช้ → ไฟล์/สมุดเป็นหลัก Claude ร่างเป็นรอง",
@@ -373,7 +373,7 @@ X({page:64,orig:"XX-Penis",topic:"skin",seen:"คล้าย MDCU71 RoX Skin1 (
  summary:["Condyloma = HPV 6, 11 · Bowenoid papulosis = HPV 16","มะเร็งองคชาต: HPV 16/18, smegma/phimosis/ไม่ขลิบ, บุหรี่","ตรวจคัด STI อื่น (HIV, syphilis) ด้วย"]})
 
 /* ============================ ชุด 3 (p66–103) · กล่อง "XX." 1 สถานี — เพิ่ม 15 พ.ย. 2026 ============================ */
-,X({page:94,orig:"XX-ThyScan",topic:"img",seen:"คล้าย MDCU78 RoD ข้อ 9, MDCU77 RoD ข้อ 10 (thyroid scan — Graves disease with a cold nodule)",title:"Thyroid scan — name the test, describe, diagnose and treat",imgNote:NOIMG+" · ลายมือข้างโจทย์ในสมุด: diffuse homogeneous increased uptake at both lobes with focal decreased uptake at the right lobe (Graves w/ cold) — ข้อนี้ฝึกบรรยายภาพแบบนั้น",
+,X({page:94,orig:"XX-ThyScan",topic:"img",seen:"คล้าย MDCU78 RoD ข้อ 9, MDCU77 RoD ข้อ 10 (thyroid scan — Graves disease with a cold nodule)",title:"Thyroid scan — name the test, describe, diagnose and treat",imgNote:NOIMG+" · ลายมือข้างโจทย์ในสมุด: diffuse homogeneous increased uptake at both lobes with focal decreased uptake at the right lobe (Graves w/ cold) — ข้อนี้ฝึกบรรยายภาพแบบนั้น",imgAlt:"Thyroid scan (Tc-99m pertechnetate): ต่อมไทรอยด์โตทั้งสองกลีบ จับสารเพิ่มขึ้นเข้มสม่ำเสมอทั่วต่อม ต่อมน้ำลายแทบไม่เห็นเทียบกับไทรอยด์ · ในกลีบขวามีบริเวณกลมขนาด ~1.5 cm ที่ไม่จับสาร",
  stem:`A thyroid scan image is shown.<br>1. What is the name of this test?<br>2. Describe the findings.<br>3. What is the diagnosis?<br>4. How would you treat this patient?`,
  gray:"XX. ให้รูป thyroid scan มาถามว่า\n1. Test ชื่ออะไร\n2. บรรยายสิ่งที่พบ\n3. Diagnosis\n4. Treatment",
  flag:"สมุดไม่มีรูปแยกของข้อนี้ — เฉลยจากลายมือเล็กสีน้ำเงินข้างโจทย์ (p94) ซึ่งตรงกับสถานี 10 ในหน้าเดียวกัน (Graves with cold nodule) · ข้อ 4 Claude เติม FNA ของ cold nodule + แก้ \"PTU with methimazole\" เป็นยาตัวเดียว",
@@ -407,7 +407,7 @@ X({page:184,orig:"XX-Thyro2",topic:"lab",seen:"คล้าย XX-Thyro (สม�
  interp:"Thyrotoxicosis + diffuse goiter + TSH ต่ำ → Graves > thyroiditis > hCG-mediated · TSHoma ตัดได้เพราะ TSH ต่ำ",
  summary:["TSH ต่ำ + FT3/FT4 สูง = primary thyrotoxicosis · TSH ปกติ/สูง = TSHoma หรือ thyroid hormone resistance","RAIU สูง: Graves, TMNG, toxic adenoma, hCG · ต่ำ: thyroiditis, exogenous, struma ovarii","hCG โครงสร้างคล้าย TSH → mole/choriocarcinoma/hyperemesis ทำ thyrotoxicosis ได้"]}),
 
-X({page:134,orig:"XX-Sputum",topic:"micro",seen:"คล้ายสถานี Sputum (ข้อ 12 ปีอื่น: Murray–Washington + gram stain)",title:"Sputum from an intubated patient who developed pneumonia in hospital: describe the specimen and diagnose",imgNote:NOIMG+" · คาดว่าเป็น Gram stain ของเสมหะคุณภาพดี: PMN > 25/LPF, squamous epithelial cells < 10/LPF ± แบคทีเรีย",
+X({page:134,orig:"XX-Sputum",topic:"micro",seen:"คล้ายสถานี Sputum (ข้อ 12 ปีอื่น: Murray–Washington + gram stain)",title:"Sputum from an intubated patient who developed pneumonia in hospital: describe the specimen and diagnose",imgNote:NOIMG+" · คาดว่าเป็น Gram stain ของเสมหะคุณภาพดี: PMN > 25/LPF, squamous epithelial cells < 10/LPF ± แบคทีเรีย",imgAlt:"Gram stain เสมหะจากท่อช่วยหายใจ: เซลล์เยื่อบุผิวแบน <10 ต่อกล้องกำลังต่ำ เซลล์เม็ดเลือดขาวนิวเคลียสหลายพู >25 ต่อกล้องกำลังต่ำ · แท่งเรียวยาวติดสีชมพูแดงจำนวนมาก บางตัวอยู่ในเซลล์",
  stem:`A woman in her 50s was admitted for cellulitis. During the admission she became increasingly dyspneic, her sputum changed colour, and she required endotracheal intubation. A Gram-stained sputum specimen is shown.<br>1. Describe the specimen.<br>2. Give the diagnosis.`,
  gray:"XX. ผู้ป่วยหญิงอายุ 50+ ปี มาด้วย cellulitis รักษาตัว\nต่อมาพบเหนื่อยมากขึ้น เสมหะเปลี่ยนสี ต้องใส่ท่อช่วยหายใจ\n1. บรรยาย specimen ที่เห็น\n2. Diagnosis",
  flag:"⚠ ไม่มีรูปในสมุด · ข้อ 2 สมุดไม่ได้เขียนเฉลย → Claude เติม",

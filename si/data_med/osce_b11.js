@@ -21,7 +21,7 @@ const NOTE1="ไฟล์จดบรรทัดเดียว (พิมพ�
 const Co=o=>Object.assign({set:"SI131",ro:"Ro417–420",file:"SIOS131E",page:5,notes:NOTE1,opinion:""},o);
 QB.push(
 
-Co({orig:"1",topic:"micro",sub:"Stool exam",title:"Stool examination — identify the parasite eggs",imgNote:NOIMG,
+Co({orig:"1",topic:"micro",sub:"Stool exam",title:"Stool examination — identify the parasite eggs",imgNote:NOIMG,imgAlt:"Simple smear อุจจาระ: ไข่ 2 แบบ (1) ไข่รูปไข่ค่อนกลม เปลือกหนาผิวนอกเป็นปุ่มขรุขระสีน้ำตาลเหลือง (2) ไข่รูปรีเปลือกบางใส ภายในมีก้อนเซลล์ 4–8 เซลล์ แยกจากเปลือกด้วยช่องใส",
  stem:`A stool specimen from a patient is examined under the microscope (simple smear).<br>a. Identify the parasite eggs seen.<br>b. Name one drug that you would prescribe.`,
  gray:"1. (Stool exam) Egg ascaris, hookworm drug 1 ตัว: Albendazole",
  flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ข้อมูลผู้ป่วยไม่มีในไฟล์ · คำบรรยายลักษณะไข่ Claude เติม",
@@ -40,7 +40,7 @@ Co({orig:"1",topic:"micro",sub:"Stool exam",title:"Stool examination — identif
  interp:"Stool exam: แยกไข่พยาธิที่พบบ่อยในไทยจากลักษณะเปลือกและภายในไข่ + เลือกยาที่ครอบคลุม",
  summary:["Ascaris: ไข่เปลือกหนาขรุขระ (mammillated) สีน้ำตาล","Hookworm: ไข่เปลือกบางใส มี 4–8 blastomeres → IDA","Albendazole 400 mg ครั้งเดียว ครอบคลุมทั้งสองชนิด"]}),
 
-Co({orig:"2",topic:"micro",sub:"PBS",title:"Fatigue and fever — peripheral blood smear",imgNote:NOIMG,
+Co({orig:"2",topic:"micro",sub:"PBS",title:"Fatigue and fever — peripheral blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดขาวเพิ่มขึ้น ส่วนใหญ่เป็นเซลล์ตัวใหญ่ นิวเคลียสใหญ่โครมาตินละเอียด มี nucleoli หลายอัน ไซโทพลาสซึมสีฟ้ามีแกรนูลละเอียด บางเซลล์มีแท่งเข็มสีแดง · เม็ดเลือดแดงน้อยลงขนาดปกติ · เกล็ดเลือดน้อย",
  seen:"SI130 Ro409–412 ข้อ 20 · SI133 Ro405–406 ข้อ 14 · SIXX RoX ข้อ 3 (smear AML)",
  stem:`A 45-year-old man presents with fatigue and fever for 2 weeks. His peripheral blood smear is examined under the microscope.<br>a. Describe the blood smear (all three cell lines).<br>b. Name two further investigations.`,
  gray:"2. (Blood smear) AML บรรยาย 3 series + Further investigation 2 อย่าง",
@@ -126,7 +126,7 @@ Co({orig:"5",topic:"pe",sub:"Chest",ex:1,title:"Physical examination — respira
  interp:"PE ระบบหายใจในผู้ป่วยเจ็บหน้าอก: ตรวจครบเป็นลำดับ เปรียบเทียบสองข้าง และมองหา pneumothorax/effusion/pleuritis/chest wall pain",
  summary:["ลำดับ: general → inspection → palpation (trachea, กดเจ็บ, expansion, fremitus) → percussion → auscultation","ตรวจทั้งหน้าและหลัง เปรียบเทียบซ้าย–ขวา","เจ็บหน้าอก: มองหา pneumothorax, effusion, pleural rub, chest wall tenderness"]}),
 
-Co({orig:"6",topic:"micro",sub:"UA",title:"Generalized edema with normal blood pressure — urine sediment",imgNote:NOIMG,
+Co({orig:"6",topic:"micro",sub:"UA",title:"Generalized edema with normal blood pressure — urine sediment",imgNote:NOIMG,imgAlt:"ภาพตะกอนปัสสาวะ: เซลล์กลมที่เต็มไปด้วยหยดไขมันวาวใส · โครงทรงกระบอกที่มีหยดไขมันอยู่ภายใน · ไม่เห็นเม็ดเลือดแดง",
  stem:`A 40-year-old man presents with generalized edema for 3 weeks. Blood pressure is 118/72 mmHg; BUN and creatinine are normal. His urine sediment is examined under the microscope.<br>a. Describe the urine sediment.<br>b. Give two differential diagnoses.`,
  gray:"6. UA nephrotic syndrom, BP ไม่สูง, BUN, Cr ปกติ → Oval fat body, fatty cast , ddx 2 โรค",
  flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · อายุ อาการ และค่าความดัน Claude แต่ง (ไฟล์บอกแค่ BP ไม่สูง, BUN/Cr ปกติ) · ddx 2 โรค ไฟล์ไม่ได้บอกคำตอบ",
@@ -192,7 +192,7 @@ Co({orig:"8",topic:"hx",sub:"Seizure",ex:1,title:"History taking — seizure",
  ),
  interp:"ซักประวัติชัก: บรรยายเหตุการณ์ครบจากพยาน แยก provoked/unprovoked และอย่าลืมหาสาเหตุ remote เช่น head trauma",
  summary:["ซักจากพยาน: ก่อน (aura/focal onset) – ขณะ (ลักษณะ เวลา กัดลิ้น ราด) – หลัง (postictal)","Unprovoked ≥ 2 ครั้งห่าง > 24 ชม. = epilepsy","ถาม head trauma เสมอ: TBI เก่าทำให้ late post-traumatic seizure/epilepsy"]}),
-Co({orig:"9",topic:"micro",sub:"PBS",title:"High fever for 4 days — blood smear",imgNote:NOIMG,
+Co({orig:"9",topic:"micro",sub:"PBS",title:"High fever for 4 days — blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดและสีปกติ · เม็ดเลือดขาวน้อยลง มี lymphocyte ตัวใหญ่ ไซโทพลาสซึมมากสีฟ้าเข้มที่ขอบ ขอบเซลล์ถูกเม็ดเลือดแดงรอบ ๆ กดเป็นรอยหยัก · เกล็ดเลือดน้อย",
  seen:"SI132 Ro403–404 ข้อ 11 (ไข้ + smear → dengue)",
  stem:`A 22-year-old woman presents with high fever, myalgia and headache for 4 days. Her peripheral blood smear is examined under the microscope.<br>a. Describe the blood smear.<br>b. Give your diagnosis.`,
  gray:"9. (Blood smear) Dengue infection",
@@ -260,7 +260,7 @@ Co({orig:"11",topic:"hx",sub:"Chest pain",ex:1,title:"History taking — chest t
  interp:"ซักประวัติเจ็บหน้าอกเรื้อรัง: แยก typical angina ด้วยเกณฑ์ 3 ข้อ ยืนยันว่าอาการคงที่ (ไม่ใช่ ACS) และหา risk factor",
  summary:["Typical angina: แน่นกลางอก + เกิดเมื่อออกแรง + หายเมื่อพัก/nitrate","อาการคงที่ = CCS; ใหม่/ถี่ขึ้น/ขณะพัก = ACS","ถาม risk factor: HT, DM, lipid, บุหรี่, FH premature CAD"]}),
 
-Co({orig:"12",topic:"micro",sub:"PBS",title:"Easy bruising — blood smear",imgNote:NOIMG,
+Co({orig:"12",topic:"micro",sub:"PBS",title:"Easy bruising — blood smear",imgNote:NOIMG,imgAlt:"Peripheral blood smear: เม็ดเลือดแดงขนาดและสีปกติ ไม่มีเศษเซลล์แตก · เม็ดเลือดขาวปกติ · เกล็ดเลือดน้อยมาก ที่เห็นมีขนาดใหญ่",
  seen:"SI133 Ro407–408 OSCE 7 (เลือดออก + smear เกล็ดเลือดต่ำอย่างเดียว)",
  stem:`A 30-year-old woman presents with easy bruising and petechiae on both legs for 2 weeks. She is otherwise well. Her peripheral blood smear is examined under the microscope.<br>a. Describe the blood smear.<br>b. Give your diagnosis.<br>c. Name two further investigations.`,
  gray:"12. (Blood smear) ITP + ส่งตรวจเพิ่ม 2 อย่าง",
@@ -311,7 +311,7 @@ Co({orig:"13",topic:"lab",sub:"LFT",title:"Fever, myalgia and jaundice — liver
  interp:"LFT: แยก pattern (R ratio) แล้วคิด ddx ตามบริบทไข้เฉียบพลันในไทย + ประเมินความรุนแรงด้วย PT/INR",
  summary:["ALT/AST > 10 เท่า + ALP สูงเล็กน้อย (R > 5) = hepatocellular injury","ไข้ + ปวดเมื่อย แล้วเหลือง: viral hepatitis (HAV), dengue, leptospirosis, DILI","ส่ง viral serology, dengue NS1/IgM, lepto serology, acetaminophen level, PT/INR"]}),
 
-Co({orig:"14",topic:"ekg",sub:"STEMI/ischemia",title:"Acute chest pain — 12-lead EKG",imgNote:NOIMG,
+Co({orig:"14",topic:"ekg",sub:"STEMI/ischemia",title:"Acute chest pain — 12-lead EKG",imgNote:NOIMG,imgAlt:"EKG 12 lead: sinus rhythm ~60/min · ST ยกขึ้นใน II, III, aVF โดย III ยกมากกว่า II · ST กดต่ำใน I และ aVL",
  seen:"คล้าย SI130 Ro409–412 ข้อ 14 · SI133 Ro407–408 LAB 2 (STE II, III, aVF)",
  stem:`A 60-year-old man presents with acute chest pain for 1 hour. A 12-lead EKG is recorded.<br>a. Interpret the EKG.<br>b. Give your diagnosis.`,
  gray:"14. (EKG) Acute inferior wall MI",
@@ -351,7 +351,7 @@ Co({orig:"15",topic:"pe",sub:"Neuro",ex:1,title:"Physical examination — motor 
  interp:"PE motor: ตรวจกำลังทุก joint เปรียบเทียบสองข้าง + tone + reflex แล้วสรุป pattern (proximal vs distal, UMN vs LMN)",
  summary:["ตรวจ motor: inspection → tone → power ทุก joint (เกรด 0–5) → reflex/Babinski","Proximal > distal สองข้าง reflex/sensation ปกติ = myopathy pattern","Ddx: inflammatory myopathy, hypothyroid, steroid/Cushing, hypokalemia, statin, MG"]}),
 
-Co({orig:"16",topic:"img",sub:"CXR",title:"Previous breast cancer with dyspnea — chest radiograph",imgNote:NOIMG,
+Co({orig:"16",topic:"img",sub:"CXR",title:"Previous breast cancer with dyspnea — chest radiograph",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ส่วนล่างของทรวงอกซ้ายทึบขาวเนื้อเดียว ขอบบนเว้าสูงขึ้นทางด้านข้าง มุมชายโครงซ้ายหายไป · หัวใจถูกดันไปขวาเล็กน้อย · เงาเต้านมซ้ายหายไป",
  seen:"SI130 Ro409–412 ข้อ 16 (มะเร็งเต้านม + left opacity → malignant pleural effusion)",
  stem:`A 50-year-old woman with a history of breast cancer presents with progressive dyspnea for 1 month. A chest radiograph is taken.<br>a. Describe the chest radiograph.<br>b. Give your diagnosis.`,
  gray:"16. (CXR) CA breast มาด้วย left pleural effusion → DX : malignant pleural effusion",
@@ -390,7 +390,7 @@ Co({orig:"17",topic:"lab",sub:"CSF",title:"Fever, confusion and seizure — CSF 
  interp:"CSF: แยก pattern bacterial / viral / TB-fungal จาก cell type, glucose, protein แล้วเชื่อมกับอาการทางสมอง",
  summary:["Viral: lymphocyte เด่น, protein สูงเล็กน้อย, glucose ปกติ, ไม่พบเชื้อ","มีสับสน/ชัก = encephalitis (ไม่ใช่แค่ meningitis)","สงสัย HSV encephalitis: IV acyclovir ทันที + CSF HSV PCR + MRI"]}),
 
-Co({orig:"18",topic:"ekg",sub:"Tachyarrhythmia",title:"Sudden palpitation — EKG",imgNote:NOIMG,
+Co({orig:"18",topic:"ekg",sub:"Tachyarrhythmia",title:"Sudden palpitation — EKG",imgNote:NOIMG,imgAlt:"EKG 12 lead: QRS แคบสม่ำเสมอเร็ว ~180/min · ไม่เห็น P wave นำหน้า QRS มีรอยหยักเล็กที่ปลาย QRS ใน V1",
  seen:"คล้าย SI132 Ro403–404 ข้อ 2 (ใจสั่น EKG → PSVT + adenosine)",
  stem:`A 30-year-old woman presents with sudden-onset palpitation for 30 minutes. Blood pressure is 110/70 mmHg. A 12-lead EKG is recorded.<br>a. Interpret the EKG and give your diagnosis.<br>b. Name one drug for treatment.`,
  gray:"18. (EKG) SVT + ยา 1 อย่าง",
@@ -431,7 +431,7 @@ Co({orig:"19",topic:"pe",sub:"Diabetes complication",ex:1,title:"Physical examin
  interp:"PE ผู้ป่วยเบาหวาน: ตรวจหา complication ทั้ง microvascular (ตา, เส้นประสาท) และ macrovascular (ชีพจร) + ตรวจเท้าเสมอ",
  summary:["General: BP, BMI, รอบเอว, acanthosis nigricans","ตา (fundoscopy), peripheral pulse, carotid bruit","เท้า: ดูผิว/แผล/ผิดรูป + monofilament 10 g + vibration/pinprick/ankle reflex"]}),
 
-Co({orig:"20",topic:"img",sub:"Acute abdomen film",title:"Sudden severe abdominal pain — chest and abdominal radiographs",imgNote:NOIMG,
+Co({orig:"20",topic:"img",sub:"Acute abdomen film",title:"Sudden severe abdominal pain — chest and abdominal radiographs",imgNote:NOIMG,imgAlt:"CXR ท่ายืนและฟิล์มช่องท้อง: แถบลมรูปจันทร์เสี้ยวใต้โดมกะบังลมขวาเหนือตับ และใต้กะบังลมซ้ายเล็กน้อย · ฟิล์มช่องท้องเห็นผนังลำไส้ทั้งด้านในและนอกเป็นเส้นชัด",
  seen:"SI133 Ro403–404 LAB 8 (ปวดท้องเฉียบพลัน + NSAIDs → free air)",
  stem:`A 55-year-old man presents with sudden severe epigastric pain for 6 hours. He has been taking analgesics for knee pain. A chest radiograph and an acute abdomen series are taken.<br>a. Describe the radiographs.<br>b. Give your diagnosis.<br>c. State one step in management.`,
  gray:"20. (CXR + Film AAS) Free air under dome of diaphragm → PU perforation , Mx 1 อย่าง : Consult surgery",
@@ -455,7 +455,7 @@ Co({orig:"20",topic:"img",sub:"Acute abdomen film",title:"Sudden severe abdomina
  interp:"CXR/AAS: หา free air ใต้กะบังลมใน upright film → perforated hollow viscus → ปรึกษาศัลยแพทย์ด่วน",
  summary:["Upright CXR ไวที่สุดต่อ free air (ให้ upright 10 นาทีก่อนถ่าย)","Free air + ปวดท้องเฉียบพลัน + ใช้ NSAIDs = perforated PU","Mx: consult surgery ด่วน + NPO, NG, IV fluid, IV PPI, antibiotics"]}),
 
-Co({orig:"21",topic:"img",sub:"CXR",title:"Chest radiograph of a smoker",imgNote:NOIMG,
+Co({orig:"21",topic:"img",sub:"CXR",title:"Chest radiograph of a smoker",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ก้อนเงาขาวกลมขนาด ~2.5 cm ที่ปอดซ้ายส่วนล่าง ขอบไม่เรียบเล็กน้อย ไม่มีหินปูน ไม่มีโพรง · ปอดส่วนอื่นปกติ",
  seen:"คล้าย SI133 Ro407–408 LAB 5 (CXR มี mass ที่ปอด)",
  stem:`A 62-year-old man who has smoked for 40 pack-years has a chest radiograph taken.<br>a. Describe the abnormal finding.<br>b. Give three differential diagnoses.`,
  gray:"21. (CXR) lung nodule @LLL? (Finding,ddx3โรค)",
@@ -475,7 +475,7 @@ Co({orig:"21",topic:"img",sub:"CXR",title:"Chest radiograph of a smoker",imgNote
  interp:"CXR solitary pulmonary nodule: บรรยายตำแหน่ง/ขนาด/ขอบ/calcification แล้วจัด ddx ตามความเสี่ยงมะเร็ง",
  summary:["SPN ≤ 3 cm; > 3 cm = mass","ชวนมะเร็ง: spiculated, ใหญ่, โตขึ้น, ผู้สูบบุหรี่สูงอายุ","Ddx: lung cancer, tuberculoma/fungal granuloma, metastasis, hamartoma → CT chest"]}),
 
-Co({orig:"22",topic:"skin",sub:"Skin sign of systemic disease",title:"Painful rash on both legs — skin lesion",imgNote:NOIMG,
+Co({orig:"22",topic:"skin",sub:"Skin sign of systemic disease",title:"Painful rash on both legs — skin lesion",imgNote:NOIMG,imgAlt:"หน้าแข้งทั้งสองข้าง: ผื่นตุ่มแดงม่วงนูนเล็กน้อยขนาด 2–5 mm จำนวนมาก บางตุ่มรวมเป็นปื้น กดแผ่นแก้วแล้วสีไม่จาง คลำได้นูน ผู้ป่วยเจ็บ",
  stem:`A 35-year-old woman presents with a painful rash on both legs for 5 days. The lesions do not blanch on pressure.<br>a. Describe the skin lesions.<br>b. Give your diagnosis.`,
  gray:"22. (Skin) :erythematous patch and papule หน้าขา2ข้าง กดไม่จาง เจ็บ, small vessel vasculitis",
  flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · อายุ/เพศ ระยะเวลา Claude แต่ง (ไฟล์บอกตำแหน่ง หน้าขา 2 ข้าง, กดไม่จาง, เจ็บ)",
@@ -494,7 +494,7 @@ Co({orig:"22",topic:"skin",sub:"Skin sign of systemic disease",title:"Painful ra
  interp:"Skin: palpable purpura ที่ขาสองข้าง = cutaneous small vessel vasculitis → หาสาเหตุและตรวจ involvement ของอวัยวะอื่น",
  summary:["Palpable purpura (non-blanchable papule) ที่ขาสองข้าง = small vessel vasculitis","สาเหตุ: ยา, ติดเชื้อ, IgA vasculitis, SLE, cryoglobulinemia, ANCA","ตรวจ UA/Cr หา renal involvement + skin biopsy with DIF"]}),
 
-Co({orig:"23",topic:"img",sub:"Bone/joint film",title:"Chronic knee pain — knee radiographs",imgNote:NOIMG,
+Co({orig:"23",topic:"img",sub:"Bone/joint film",title:"Chronic knee pain — knee radiographs",imgNote:NOIMG,imgAlt:"ฟิล์มเข่าสองข้างท่ายืนและด้านข้าง: ช่องข้อด้านในแคบลงมากกว่าด้านนอกชัดทั้งสองข้าง ขอบกระดูกมีกระดูกงอกแหลม กระดูกใต้ผิวข้อขาวทึบขึ้น มีโพรงเล็กใต้ผิวข้อ",
  stem:`A 65-year-old woman has had pain in both knees for 2 years. Radiographs of both knees are taken.<br>a. Describe the radiographs.<br>b. Give your diagnosis.`,
  gray:"23. (Film) Bilateral OA knees",
  flag:"⚠ ไม่มีรูปในไฟล์ — ถามสิ่งที่คาดว่าจะเห็น · ประวัติผู้ป่วยและข้อย่อยบรรยาย Claude แต่ง",
@@ -513,7 +513,7 @@ Co({orig:"23",topic:"img",sub:"Bone/joint film",title:"Chronic knee pain — kne
  interp:"Film ข้อเข่า: ใช้ลักษณะ LOSS แยก OA ออกจาก inflammatory arthritis",
  summary:["OA: asymmetric JSN (medial), osteophyte, subchondral sclerosis/cyst","RA: uniform JSN, periarticular osteopenia, erosion","Dx ต้องบอก bilateral knee OA"]}),
 
-Co({orig:"24",topic:"micro",sub:"Gram stain",title:"Diabetic man with fever and productive cough — sputum Gram stain",imgNote:NOIMG,
+Co({orig:"24",topic:"micro",sub:"Gram stain",title:"Diabetic man with fever and productive cough — sputum Gram stain",imgNote:NOIMG,imgAlt:"Gram stain เสมหะ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพู ≥25 ต่อกล้องกำลังต่ำ เซลล์เยื่อบุผิวแบน <10 · แท่งสั้นอ้วนติดสีชมพูแดงจำนวนมาก รอบเชื้อมีวงใสหนา",
  seen:"คล้าย SI130 Ro409–412 ข้อ 22 (sputum Gram stain → gram negative bacilli, Enterobacteriaceae)",
  stem:`A 58-year-old man with diabetes and heavy alcohol use presents with high fever and productive cough for 3 days. Chest radiograph shows right upper lobe consolidation. His sputum Gram stain is examined under the microscope.<br>a. Describe the Gram-stained smear.<br>b. Name the most likely organism.`,
  gray:"24. ส่อง sputum : Klebsiella pneumoniae",

@@ -25,13 +25,13 @@ const Bo=o=>Object.assign({set:"MDCU79",ro:"RoB",file:"IMO79ABQ",opinion:""},o);
 QB.push(
 
 /* ============================ RoA ============================ */
-Ao({page:1,orig:"1",topic:"ekg",title:"EKG — anterior STEMI (V2–V4) with atrial fibrillation",imgNote:NOIMG,
- stem:`A 65-year-old man presents with acute chest pain for 1 hour. A 12-lead EKG is obtained.<br>1. Read the EKG systematically. (Describe the expected findings.)<br>2. Diagnosis.<br>3. Initial management.`,
+Ao({page:1,orig:"1",topic:"ekg",title:"EKG — anterior STEMI (V2–V4) with atrial fibrillation",imgNote:NOIMG,imgAlt:"EKG 12 lead: ไม่เห็น P wave ชัด เส้นฐานสั่นเป็นคลื่นเล็กไม่สม่ำเสมอ · R–R ไม่สม่ำเสมอแบบไร้รูปแบบ ventricular rate ~120/min · QRS แคบ · ST ยกโค้งนูน 3 mm ที่ V2–V4",
+ stem:`A 65-year-old man presents with acute chest pain for 1 hour. A 12-lead EKG is obtained.<br>1. Read the EKG systematically.<br>2. Diagnosis.<br>3. Initial management.`,
  gray:"1. แปลแล็บ ecg v2-v4 stemi +afib",
  key:"STEMI V2–V4 + AF (จากไฟล์)",
  flag:"⚠ ไม่มีรูป EKG ในไฟล์ — ไฟล์จดแค่ 'ecg v2-v4 stemi +afib' · อาการเจ็บหน้าอก อายุ และข้อ 1.3 Claude เติม · RoB ข้อ 15 น่าจะเป็น EKG ใบเดียวกัน (ผู้จด RoB บอก flutter/AF + RBBB + STEMI V1–V4)",
  parts:S(
-  B("1.1 Read the EKG systematically (describe the expected findings).",4,{tags:["ekg"],
+  B("1.1 Read the EKG systematically.",4,{tags:["ekg"],
    ans:"<b>Rate</b>: ventricular rate ~100–130/min (นับ QRS ใน 6 วินาที × 10 เพราะจังหวะไม่สม่ำเสมอ) · <b>Rhythm</b>: <b>irregularly irregular</b>, <b>ไม่มี P wave</b> เห็น <b>fibrillatory (f) waves</b> ใน V1/II → <b>atrial fibrillation</b> · <b>Axis</b>: ปกติ · <b>Intervals</b>: PR วัดไม่ได้ (ไม่มี P), QRS แคบ &lt;120 ms · <b>ST segment</b>: <b>ST elevation ใน V2–V4</b> (contiguous precordial leads; เกณฑ์ V2–V3 ≥2 mm ในชาย ≥40 ปี, ≥2.5 mm ชาย &lt;40 ปี, ≥1.5 mm ในหญิง; leads อื่น ≥1 mm) ± hyperacute T · <b>Reciprocal ST depression</b> ใน inferior leads (II, III, aVF) · Q wave ใน V2–V4 ถ้าเริ่มมี necrosis",
    exp:"ST elevation V1–V4 = anteroseptal/anterior wall → LAD occlusion · ถ้า ST elevation ใน I, aVL, V5–V6 ร่วม = extensive anterior (proximal LAD) · AF ที่เกิดใหม่ระหว่าง STEMI พบ ~5–20% สัมพันธ์กับ infarct ใหญ่ HF และอัตราตายสูงขึ้น",
    rubric:"ได้: อ่านเป็นระบบ (rate, rhythm, axis, intervals, ST-T) + บอก AF + ST elevation V2–V4 · บางส่วน: บอก STEMI แต่ไม่บอก AF หรือกลับกัน",
@@ -49,8 +49,8 @@ Ao({page:1,orig:"1",topic:"ekg",title:"EKG — anterior STEMI (V2–V4) with atr
  interp:"EKG สองความผิดปกติ: irregularly irregular ไม่มี P (AF) + ST elevation V2–V4 (anterior STEMI) → DAPT + anticoagulant + reperfusion + จัดการ AF",
  summary:["Anterior STEMI = V1–V4 (LAD) · inferior = II, III, aVF (RCA) · lateral = I, aVL, V5–V6 (LCx)","STEMI: aspirin + P2Y12 + anticoagulant + PCI ≤120 นาที / lysis ≤10 นาทีหลังวินิจฉัย","AF ใน STEMI: unstable → cardioversion · stable → β-blocker หรือ amiodarone","AF + PCI: OAC + clopidogrel, triple therapy ≤1 สัปดาห์"]}),
 
-Ao({page:1,orig:"2",topic:"img",title:"CXR — elderly man with progressive dyspnea, orthopnea and leg edema",imgNote:NOIMG,
- stem:`A 68-year-old man presents with progressive dyspnea on exertion for 2 weeks, orthopnea, and bilateral leg edema. A chest X-ray is obtained.<br>1. Read the chest X-ray systematically. (Describe the expected findings.)<br>2. Diagnosis.`,
+Ao({page:1,orig:"2",topic:"img",title:"CXR — elderly man with progressive dyspnea, orthopnea and leg edema",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: เงาหัวใจโตกว้างเกินครึ่งของทรวงอก · หลอดเลือดปอดส่วนบนขยายชัดกว่าส่วนล่าง · มีเส้นขวางสั้นที่ชายปอดล่างสองข้าง และเงาฝ้าขาวรอบขั้วปอดทั้งสองข้างคล้ายปีกผีเสื้อ · มุมชายโครงกับกะบังลมทื่อทั้งสองข้าง",
+ stem:`A 68-year-old man presents with progressive dyspnea on exertion for 2 weeks, orthopnea, and bilateral leg edema. A chest X-ray is obtained.<br>1. Read the chest X-ray systematically.<br>2. Diagnosis.`,
  gray:"2. แปลแล็บ cxr",
  flag:"⚠ ไฟล์จดแค่คำว่า 'cxr' ไม่มีรูป ไม่มีประวัติ ไม่มีคำตอบ — Claude แต่งโจทย์ CXR ที่ออกบ่อยใน Med Y4 (congestive heart failure) · CXR ใน AC78 เป็นเรื่องอื่น (78A COPD, 78B pneumothorax, 78D mediastinal mass) จึงไม่ได้ดึงมา",
  parts:S(
@@ -107,7 +107,7 @@ Ao({page:1,orig:"4",topic:"skin",title:"Skin lesion — burning facial rash in t
  interp:"Grouped vesicles ตาม V3 ข้างเดียว + หูอื้อ → herpes zoster (V3) → ตรวจหา Ramsay Hunt (หู, CN VII, CN VIII) · ข้อเดียวกับ AC77 RoA ข้อ 5",
  summary:["Zoster: grouped vesicles on erythematous base, dermatomal, ไม่ข้าม midline","V1 → ตรวจตา (Hutchinson sign) · หู/หน้าเบี้ยว → Ramsay Hunt","Acyclovir 800 ×5/วัน หรือ valacyclovir 1 g tid ×7 วัน ภายใน 72 ชม.","Zoster อายุน้อย/รุนแรง → คัดกรอง HIV · recombinant zoster vaccine ≥50 ปี"]}),
 
-Ao({page:1,orig:"5",topic:"micro",title:"Sputum smear — acid-fast stain: stain, organism and regimen",imgNote:NOIMG,
+Ao({page:1,orig:"5",topic:"micro",title:"Sputum smear — acid-fast stain: stain, organism and regimen",imgNote:NOIMG,imgAlt:"ภาพสเมียร์เสมหะย้อมสีพื้นหลังน้ำเงิน เห็นแท่งเรียวบางโค้งเล็กน้อยติดสีแดงชมพู กระจายเดี่ยวและเกาะเป็นกลุ่มเล็ก",
  stem:`A 45-year-old man has had a productive cough for 1 month with low-grade fever, night sweats, and weight loss. A sputum smear is shown.<br>1. What stain is this?<br>2. What is the organism?<br>3. What is the treatment regimen, and for how many months?`,
  gray:"5. แปลแล็บ ให้รูป afb มา ถามว่าสีย้อมอะไร, เชื้ออะไร, ยา กินกี่เดือน — AFB, mycobacterium tuberculosis, 2HRZE/4HR",
  key:"AFB, Mycobacterium tuberculosis, 2HRZE/4HR (จากไฟล์)",
@@ -290,14 +290,14 @@ Bo({page:2,orig:"14",topic:"advice",ex:1,title:"Home blood pressure measurement 
  interp:"สถานีสื่อสาร + สาธิต home BP: เครื่องต้นแขน cuff พอดี งดกาแฟ/บุหรี่ พัก 5 นาที หลังพิง เท้าราบ แขนระดับหัวใจ วัด 2 ครั้ง เช้า-เย็น 7 วัน เกณฑ์ 135/85",
  summary:["Home BP HT: ≥135/85 · office ≥140/90 · ABPM 24 ชม. ≥130/80","Cuff เล็ก, แขนต่ำกว่าหัวใจ, ไขว่ห้าง, หลังไม่พิง, พูด, กระเพาะเต็ม → BP สูงเกินจริง","วัดเช้า (ก่อนยา) + เย็น × 2 ครั้ง × 7 วัน ตัดวันแรก","White-coat HT: office สูง home ปกติ · masked HT: office ปกติ home สูง"]}),
 
-Bo({page:2,orig:"15",topic:"ekg",title:"EKG — atrial fibrillation/flutter + RBBB + left axis deviation + anterior STEMI (V1–V4)",imgNote:NOIMG,
- stem:`A 70-year-old man presents with acute chest pain. A 12-lead EKG is obtained.<br>1. Read the EKG systematically. (Describe the expected findings.)<br>2. Diagnosis.`,
+Bo({page:2,orig:"15",topic:"ekg",title:"EKG — atrial fibrillation/flutter + RBBB + left axis deviation + anterior STEMI (V1–V4)",imgNote:NOIMG,imgAlt:"EKG 12 lead: ไม่มี P wave เส้นฐานสั่นไม่สม่ำเสมอ R–R ไม่สม่ำเสมอแบบไร้รูปแบบ rate ~110/min · QRS กว้าง ~130 ms V1 รูป rsR' · lead I บวก lead II และ aVF ลบเด่น · ST ยกขึ้น 2–3 mm ที่ V1–V4",
+ stem:`A 70-year-old man presents with acute chest pain. A 12-lead EKG is obtained.<br>1. Read the EKG systematically.<br>2. Diagnosis.`,
  gray:"15. แปลแล็บ EKG 1. จงอ่าน (อย่างเป็นระบบ) 2. Diagnosis — atrial flutter (หรือ atrial fibrillation นะ?) RBBB LVH with STEMI v1-v4 + อื่น ๆ ที่ยังไม่แน่ใจ left axis deviation, เหมือนเห็น delta wave ด้วย?",
  key:"ผู้จดไม่แน่ใจ: atrial flutter (หรือ AF?) + RBBB + LVH + STEMI V1–V4 ± left axis deviation ± delta wave? (จากไฟล์)",
  flag:"⚠ ไม่มีรูป EKG ในไฟล์ และผู้จดไม่แน่ใจหลายจุด — Claude เลือกชุดที่สอดคล้องที่สุด: AF + RBBB + LAFB (left axis) + anterior STEMI V1–V4 (bifascicular block จาก proximal LAD) · อาการเจ็บหน้าอกและอายุ Claude เติม · RoA ข้อ 1 (STEMI V2–V4 + AF) น่าจะเป็น EKG ใบเดียวกัน",
  opinion:"ผู้จดเขียน flutter ก่อนแล้วลังเลเป็น AF — RoA ข้อ 1 จด 'stemi + afib' จึงน่าจะเป็น AF (ในสอบจริงให้ดูว่ามี saw-tooth F wave สม่ำเสมอ ~300/min หรือไม่: มี = flutter, ไม่มี + R–R ไม่สม่ำเสมอ = AF) · RBBB + left axis deviation + STEMI V1–V4 เข้ากันเป็นภาพเดียว: proximal LAD occlusion ทำลาย septum ที่มี right bundle และ left anterior fascicle → bifascicular block · 'delta wave' ไม่น่าใช่ — ใน AF ไม่มี PR ให้ดูว่าสั้น และ QRS ที่กว้างแบบ bundle branch block มี upstroke ช้าคล้าย delta ได้ (pre-excited AF จะเห็น QRS กว้างหลายรูปแบบ เร็วมาก >200/min) · LVH: เกณฑ์ voltage ใช้ได้จำกัดเมื่อมี RBBB (S wave ใน V1 เล็กลง) — บอกได้ถ้า R ใน aVL >11 mm หรือ voltage ใน lateral leads สูงชัด แต่ไม่ใช่ประเด็นหลัก",
  parts:S(
-  B("15.1 Read the EKG systematically (describe the expected findings).",6,{tags:["ekg"],
+  B("15.1 Read the EKG systematically.",6,{tags:["ekg"],
    ans:"<b>Rate</b>: ventricular ~100–120/min (นับ 6 วินาที × 10) · <b>Rhythm</b>: <b>irregularly irregular, ไม่มี P wave, fibrillatory waves</b> → <b>atrial fibrillation</b> (ถ้าเห็น saw-tooth F waves ~300/min ใน II, III, aVF, V1 = atrial flutter) · <b>Axis</b>: <b>left axis deviation</b> (lead I บวก, II และ aVF ลบ; มุม −45° ถึง −90°) + qR ใน I/aVL, rS ใน II/III/aVF → <b>left anterior fascicular block</b> · <b>QRS</b>: <b>≥120 ms</b>, <b>rsR' (M-shape) ใน V1–V2</b>, <b>wide slurred S ใน I, aVL, V5–V6</b> = <b>RBBB</b> · <b>ST segment</b>: <b>ST elevation ใน V1–V4</b> (ใน RBBB ยังใช้เกณฑ์ STEMI ปกติได้ — ปกติ RBBB ทำ ST depression/T inversion ใน V1–V3 ดังนั้น ST elevation ที่นี่ผิดปกติแน่นอน) ± I, aVL · reciprocal ST depression inferior leads · <b>LVH</b>: ประเมินด้วย voltage (เช่น R aVL &gt;11 mm) แต่ความแม่นยำลดลงใน RBBB · ไม่มี delta wave (PR ประเมินไม่ได้ใน AF)",
    exp:"LAFB: LAD −45° ถึง −90°, qR ใน aVL, rS ใน II/III/aVF, R-peak time aVL ≥45 ms · RBBB + LAFB = bifascicular block · new RBBB/bifascicular block ใน anterior STEMI = infarct ใหญ่ เสี่ยง complete heart block และ cardiogenic shock",
    rubric:"ได้: อ่านเป็นระบบ + AF (หรือ flutter) + RBBB + ST elevation V1–V4 + left axis/LAFB · บางส่วน: บอก 2–3 อย่าง",
@@ -309,14 +309,14 @@ Bo({page:2,orig:"15",topic:"ekg",title:"EKG — atrial fibrillation/flutter + RB
  interp:"EKG หลายความผิดปกติ: AF + RBBB + LAFB + ST elevation V1–V4 → proximal LAD STEMI with bifascicular block",
  summary:["RBBB: rsR' V1, wide S I/V6 · STEMI criteria ยังใช้ได้","LAFB: LAD −45° ถึง −90°, qR aVL, rS inferior","RBBB + LAFB/LPFB = bifascicular · + 1st degree AVB ≠ trifascicular จริง","AF vs flutter: flutter มี saw-tooth สม่ำเสมอ ventricular rate มักคงที่ (150 ใน 2:1)","Pre-excited AF: irregular, เร็ว >200, QRS กว้างหลายรูปแบบ — ห้าม AV nodal blocker"]}),
 
-Bo({page:2,orig:"16",topic:"img",title:"CT brain — read and diagnose (hyperdense right MCA, loss of insular ribbon)",imgNote:NOIMG,
- stem:`A non-contrast CT scan of the brain is shown.<br>1. Read the CT systematically. (Describe the expected findings.)<br>2. Diagnosis.`,
+Bo({page:2,orig:"16",topic:"img",title:"CT brain — read and diagnose (hyperdense right MCA, loss of insular ribbon)",imgNote:NOIMG,imgAlt:"CT สมองไม่ฉีดสี: หลอดเลือดแดงเส้นกลางซีกขวาที่ฐานสมองเป็นเส้นขาวสว่างกว่าอีกข้าง · เนื้อสมองบริเวณ frontal–temporal–parietal ซีกขวาเป็นปื้นดำกว้าง ขอบเขตระหว่างเนื้อเทากับเนื้อขาวหายไป insula และ lentiform nucleus ขวามองไม่ชัด · ร่องสมองซีกขวาตื้น ventricle ขวาถูกเบียดเล็กน้อย เส้นกลางเลื่อนไปซ้าย ~3 mm · ไม่มีเงาขาวของเลือดในเนื้อสมอง",
+ stem:`A non-contrast CT scan of the brain is shown.<br>1. Read the CT systematically.<br>2. Diagnosis.`,
  gray:"16. แปลแล็บ CT Brain 1. จงอ่าน (อย่างเป็นระบบ) 2. Diagnosis — Dense Right MCA?? ไม่น่านะ?? · ดูดำๆทั่วๆ แทบจะไม่เห็น gyri sulci อาจจะมี midline shift นิดหน่อยส่วน occipital · Loss of sulci/gyri, sulci effacement??, loss of insular rigbon sign?? · อาจจะไม่ใช่ ตกลง diag กันไม่ได้ งงจัด???",
  key:"ผู้จดไม่แน่ใจ: dense right MCA?, sulcal effacement, loss of insular ribbon?, midline shift เล็กน้อย — 'ตกลง diag กันไม่ได้' (จากไฟล์)",
  flag:"⚠ ไม่มีรูป CT ในไฟล์ และผู้จดสรุปการวินิจฉัยไม่ได้ — Claude เลือก acute large right MCA territory infarction (hyperdense MCA + loss of insular ribbon + sulcal effacement + mass effect) · ความมั่นใจปานกลาง",
  opinion:"สิ่งที่ผู้จดเห็นครบชุดของ early ischemic changes ใน MCA territory: hyperdense MCA sign (ลิ่มเลือดใน M1), loss of insular ribbon, loss of gray–white differentiation ('ดูดำ ๆ'), sulcal effacement (cytotoxic edema) และ midline shift เล็กน้อย (mass effect ข้างเดียว) → ผมตอบ <b>acute right MCA territory infarction</b> · ทางเลือกที่ต้องแยก: <b>diffuse cerebral edema จาก hypoxic-ischemic injury</b> (หลัง cardiac arrest) — gray–white หายทั้งสองซีกเท่า ๆ กัน sulci/basal cisterns หายทั้งหมด ไม่มี midline shift, อาจเห็น pseudo-SAH และ reversal sign · ถ้าภาพจริงเป็นแบบนี้ให้ตอบ HIE · ถ้าในสอบมีประวัติ (อ่อนแรงซีกซ้ายเฉียบพลัน vs หลัง CPR) จะตัดสินได้ทันที",
  parts:S(
-  B("16.1 Read the CT systematically (describe the expected findings).",4,{tags:["img"],
+  B("16.1 Read the CT systematically.",4,{tags:["img"],
    ans:"<b>Non-contrast CT brain</b>, axial, brain window (ระบุระดับ basal ganglia/insula และ supraganglionic) · <b>Hyperdense right MCA sign</b> — M1 segment ขวาขาวกว่าข้างซ้าย (ลิ่มเลือด) · <b>Right MCA territory</b> (frontal–temporal–parietal lobe, insula, lentiform nucleus): <b>loss of gray–white matter differentiation</b> (hypoattenuation), <b>loss of insular ribbon</b>, <b>obscured lentiform nucleus</b>, <b>sulcal effacement</b> · <b>Mass effect</b>: right lateral ventricle ถูกกด, <b>midline shift ไปทางซ้ายเล็กน้อย</b> · <b>ไม่มี hemorrhage</b> (ไม่มี hyperdense parenchyma/SAH) · ventricles ซ้ายปกติ · bone window ปกติ · (ถ้าใช้ ASPECTS ให้นับ 10 จุดใน MCA territory)",
    exp:"Early ischemic signs บน NCCT (ชั่วโมงแรก ๆ): hyperdense artery, loss of insular ribbon, obscured lentiform nucleus, loss of GW differentiation, sulcal effacement · ASPECTS ≤5 = infarct ใหญ่ · infarct > 1/3 MCA territory เพิ่มความเสี่ยงเลือดออกหลัง thrombolysis",
    rubric:"ได้: non-contrast + ไม่มีเลือดออก + hyperdense MCA + early ischemic changes ≥2 อย่าง + mass effect · บางส่วน: บอกแค่ 'ดำ' ไม่ระบุตำแหน่ง",
@@ -328,7 +328,7 @@ Bo({page:2,orig:"16",topic:"img",title:"CT brain — read and diagnose (hyperden
  interp:"Hyperdense MCA + loss of insular ribbon + sulcal effacement + mild shift ข้างเดียว = acute large right MCA infarct",
  summary:["Early CT ischemia: hyperdense MCA, insular ribbon หาย, lentiform obscured, GW differentiation หาย, sulcal effacement","IV thrombolysis ≤4.5 ชม. · thrombectomy LVO ≤24 ชม. (ตาม imaging)","Malignant MCA infarct: hemicraniectomy ภายใน 48 ชม. (อายุ ≤60 ปีได้ประโยชน์ชัด)","HIE: GW หายทั้งสองซีก, cisterns หาย, reversal sign, pseudo-SAH"]}),
 
-Bo({page:3,orig:"17",topic:"micro",title:"Gram stain — pericardial fluid: Gram-positive diplococci with PMNs",imgNote:NOIMG,
+Bo({page:3,orig:"17",topic:"micro",title:"Gram stain — pericardial fluid: Gram-positive diplococci with PMNs",imgNote:NOIMG,imgAlt:"Gram stain น้ำจากเยื่อหุ้มหัวใจ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · เชื้อกลมรีปลายแหลมติดสีม่วงอยู่เป็นคู่ ทั้งนอกเซลล์และในเซลล์ บางคู่มีวงใสรอบ ๆ",
  stem:`A 55-year-old man presents with high fever, dyspnea, and a large pericardial effusion. Pericardiocentesis yields turbid fluid. The Gram stain of the pericardial fluid is shown.<br>1. Interpret the Gram stain.<br>2. Name the 2 most likely organisms.<br>3. Appropriate antibiotics.`,
  gray:"17. แปลแล็บ Pericardiocentesis gram stain 1. จงอ่าน - Gram positive cocci in pairs (diplococci) in PMN background (ติด stain ม่วง) 2. Most likely เชื้อ 2 เชื้อ 3. Appropriate antibiotics",
  key:"Gram positive cocci in pairs (diplococci) in PMN background (จากไฟล์ — ข้อ 17.1)",

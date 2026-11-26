@@ -67,7 +67,7 @@ A({page:1,orig:"2",topic:"hx",ex:1,title:"History — a young woman with fatigue
  interp:"อ่อนเพลีย + เหนื่อยในหญิงสาว = ซีดจนกว่าจะพิสูจน์ว่าไม่ใช่ → ประจำเดือน + แหล่งเสียเลือด + ธาลัสซีเมีย + SLE",
  summary:["หญิงอายุน้อยซีด: iron deficiency (menorrhagia) > thalassemia trait","Iron def: MCV ต่ำ RDW สูง ferritin ต่ำ · Thal trait: RBC สูง RDW ปกติ","ซักหา red flag: ถ่ายดำ, hemolysis, ไข้/จ้ำเลือด, ผื่น/ปวดข้อ (SLE)"]}),
 
-A({page:1,orig:"3",topic:"img",title:"Chest X-ray — read the film in a systematic fashion",imgNote:NOIMG,
+A({page:1,orig:"3",topic:"img",title:"Chest X-ray — read the film in a systematic fashion",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน คุณภาพดี: หลอดลมอยู่กลาง ปลายกระดูกไหปลาร้าเท่ากัน เห็นซี่โครงด้านหลัง 10 ซี่เหนือกะบังลม · ขนาดหัวใจไม่เกินครึ่งทรวงอก · ปอดสองข้างโปร่งเท่ากัน ไม่มีก้อนหรือฝ้า · มุมชายโครงคมทั้งสองข้าง · กะบังลมขวาสูงกว่าซ้ายเล็กน้อย · กระดูกและเนื้อเยื่ออ่อนปกติ",
  stem:`A chest X-ray is given to you.<br>Read the film in a systematic fashion.`,
  gray:"ข้อ 14 อ่าน chest X-ray ให้เป็น systematic",
  flag:"⚠ ไม่มีรูป CXR ในไฟล์ และผู้จดไม่ได้บอกว่าเป็นโรคอะไร — ข้อนี้ตรวจ <b>ระบบการอ่านฟิล์ม</b> (ลำดับขั้น) ไม่ใช่การวินิจฉัย · ใช้ได้กับทุกฟิล์ม",
@@ -121,7 +121,7 @@ A({page:1,orig:"5",topic:"lab",title:"Liver enzymes and pancreatic enzymes — i
  interp:"Lipase/amylase >3× ULN + ปวดท้องเหนือสะดือ = acute pancreatitis · ALT >150/ALP ขึ้น → นึกถึงนิ่ว → US เป็นการตรวจแรก",
  summary:["Acute pancreatitis: 2 ใน 3 (ปวดท้อง, lipase/amylase >3× ULN, imaging)","ALT >150 U/L = gallstone pancreatitis (PPV ~95%)","ตรวจแรก: US ช่องท้อง (หานิ่ว/CBD) · CT เมื่อไม่ชัด/ภาวะแทรก","สาเหตุหลัก: นิ่ว, แอลกอฮอล์, TG >1,000, ยา, post-ERCP"]}),
 
-A({page:1,orig:"6",topic:"skin",title:"Skin lesion and fresh smear — describe, diagnose and treat",imgNote:NOIMG,
+A({page:1,orig:"6",topic:"skin",title:"Skin lesion and fresh smear — describe, diagnose and treat",imgNote:NOIMG,imgAlt:"ชายหนุ่ม: ผื่นวงกลม-รีสีขาวซีดกว่าผิวรอบ ๆ (บางจุดสีน้ำตาลอ่อน) ขนาด 0.5–2 cm หลายวงที่หน้าอกและหลังส่วนบน บางวงรวมกันเป็นปื้น ขูดแล้วมีขุยละเอียด ไม่คัน · ภาพ fresh smear (KOH) จากขุย: เส้นใยสั้นหักงอปนกับเซลล์กลมเกาะเป็นกลุ่ม",
  stem:`A young man comes with a skin lesion (image not available in this file).<br>1. Describe the skin lesion.<br>2. Describe the fresh smear.<br>3. What is the diagnosis?<br>4. Treatment:<br>&nbsp;&nbsp;4.1 Specific treatment.<br>&nbsp;&nbsp;4.2 Lifestyle and self-care advice.`,
  gray:"skin lesion\n1. บรรยาย skin lesion\n2. บรรยาย fresh smear\n3. diagnosis\n4. treatment\n   4.1 specific\n   4.2 การใช้ชีวิต/การดูแลรักษา",
  flag:"⚠ ไม่มีรูปในไฟล์ และผู้จดไม่ได้บอกว่าผื่นเป็นอะไร — Claude เลือก <b>pityriasis (tinea) versicolor</b> เพราะ 'fresh smear' (KOH) + ถามคำแนะนำการใช้ชีวิต/การดูแล เข้ากับโรคนี้ที่สุด · ถ้าสถานีจริงเป็น tinea corporis/อื่น ให้เทียบ DDx ในเฉลย · ลักษณะผื่นใน SP แต่งให้",
@@ -185,7 +185,7 @@ A({page:1,orig:"8",topic:"pe",ex:1,title:"Lung auscultation — a wheezing sound
  interp:"Wheeze ≠ asthma เสมอ: ต้องแยก COPD, cardiac asthma และการอุดกั้นตำแหน่งเดียว · หญิงอายุน้อยมีอาการเป็นช่วง ๆ ตอนกลางคืน = asthma",
  summary:["Wheeze: expiratory, musical, polyphonic (asthma/COPD) vs monophonic (fixed obstruction)","Asthma: episodic, nocturnal, atopy · COPD: ≥40 ปี สูบบุหรี่ · Cardiac asthma: orthopnea, S3, crackles","ยืนยัน asthma: spirometry + bronchodilator (FEV₁ ↑ ≥12% & 200 mL)"]}),
 
-A({page:2,orig:"9",topic:"micro",title:"Gram stain showing Gram-negative rods — description, organisms and antibiotic",imgNote:NOIMG,
+A({page:2,orig:"9",topic:"micro",title:"Gram stain showing Gram-negative rods — description, organisms and antibiotic",imgNote:NOIMG,imgAlt:"Gram stain ปัสสาวะ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูจำนวนมาก · แท่งสั้นติดสีชมพูแดงกระจายเดี่ยวและเป็นคู่ ทั้งนอกเซลล์และในเซลล์ · ไม่เห็นเชื้อติดสีม่วง · ไม่มีเซลล์เยื่อบุผิวแบน (ตัวอย่างไม่ปนเปื้อน)",
  stem:`A 52-year-old woman presents with fever, chills and right flank pain for 2 days. A Gram stain of her urine is shown (image not available in this file): Gram-negative rods.<br>1. Describe the Gram stain.<br>2. Give 2 organisms you would consider.<br>3. What antibiotic would you give?`,
  gray:"รูป gram stain(gram negative rod)\n1. บรรยาย\n2. เชื้อที่คิดถึง2ข้อ\n3. antibiotic",
  flag:"⚠ ไม่มีรูปในไฟล์ และผู้จดไม่ได้บอกชนิดสิ่งส่งตรวจหรือบริบทผู้ป่วย — Claude แต่ง: ผู้ป่วยหญิง 52 ปี ไข้ ปวดสีข้าง ปัสสาวะ → acute pyelonephritis (เป็นบริบท GNR ที่พบบ่อยที่สุด) · คำตอบเปลี่ยนตามแหล่งติดเชื้อ จึงเขียนครอบ DDx อื่นไว้ในเฉลย",
@@ -230,7 +230,7 @@ A({page:2,orig:"10",topic:"pe",ex:1,title:"Leg swelling — history, abdominal e
  interp:"ขาบวม + ท้องโต = นึก 4 กลุ่ม (ตับ หัวใจ ไต อื่น) → ตรวจ shifting dullness/fluid thrill → SAAG แยกสาเหตุของ ascites",
  summary:["ขาบวมสองข้าง + ascites: ตับแข็ง > right HF > nephrotic > TB/มะเร็ง","Shifting dullness, fluid thrill, puddle sign · ตรวจ stigmata ตับ + ม้าม","SAAG ≥1.1 = portal HTN · PMN ≥250 = SBP","รักษา: งดสุรา, Na <2 g/วัน, spironolactone ± furosemide"]}),
 
-A({page:2,orig:"11",topic:"hx",ex:1,title:"History with a chest X-ray — description and diagnosis",imgNote:NOIMG,
+A({page:2,orig:"11",topic:"hx",ex:1,title:"History with a chest X-ray — description and diagnosis",imgNote:NOIMG,imgAlt:"CXR PA ท่ายืน: ปอดขวาส่วนบนมีเงาฝ้าขาวเป็นหย่อม ภายในมีโพรงอากาศผนังหนาขนาด ~3 cm · มีจุดเงาขาวเล็กกระจายลงมาที่ปอดขวาส่วนกลาง · หลอดลมถูกดึงไปทางขวาเล็กน้อย ขั้วปอดขวาถูกดึงขึ้น · ปอดซ้ายและหัวใจปกติ · ไม่มีน้ำในเยื่อหุ้มปอด",
  stem:`A 55-year-old man presents with cough for 2 months. A chest X-ray is shown (image not available in this file).<br>1. Describe the chest X-ray.<br>2. What is the diagnosis?`,
  gray:"ประวัติ+CXR\n1. บรรยาย\n2. diag",
  flag:"⚠ ผู้จดจดแค่ 'ประวัติ + CXR' ไม่มีประวัติ รูป หรือโรค — Claude แต่งประวัติ (ชาย 55 ปี ไอ 2 เดือน น้ำหนักลด ไข้ต่ำ ๆ เหงื่อออกกลางคืน ไอเป็นเลือดเล็กน้อย) และให้ CXR เป็น upper-zone cavitary lesion → pulmonary tuberculosis (ภาพจริงไม่มี)",
@@ -290,7 +290,7 @@ A({page:2,orig:"13",topic:"img",title:"CT brain — describe, diagnose and give 
  interp:"CT ไม่ฉีดสี: hyperdense = เลือดเฉียบพลัน · deep ICH (thalamus/putamen) = hypertension · lobar ICH = amyloid/AVM/tumor/anticoagulant",
  summary:["เลือดเฉียบพลันบน CT: hyperdense · deep ICH → HTN · lobar → CAA/AVM/tumor","ABC/2 = ปริมาตร ICH (mL) · ลด SBP ~140 mmHg ใน 1 ชม.","ผ่าตัดเมื่อ cerebellar >3 cm/hydrocephalus/brainstem compression","อายุ <45 ไม่มี HTN → หา vascular lesion (CTA/MRI)"]}),
 
-A({page:2,orig:"14",topic:"ekg",title:"EKG — interpret rate, rhythm, axis and conduction, and give the diagnosis",imgNote:NOIMG,
+A({page:2,orig:"14",topic:"ekg",title:"EKG — interpret rate, rhythm, axis and conduction, and give the diagnosis",imgNote:NOIMG,imgAlt:"EKG 12 lead: rate ~75/min สม่ำเสมอ P wave นำทุก QRS PR ปกติ · lead I ลบ (S ลึก) aVF บวก · QRS กว้าง ~140 ms: V1 เป็นรูป rsR' (หูกระต่าย) และ lead I, V6 มี S wave กว้างลากยาว · T กลับหัวใน V1–V2",
  stem:`An EKG is given (image not available in this file). The reported findings are: rate about 75 per minute, regular rhythm, right axis deviation; QRS duration 140 ms with an rSR′ pattern in V1 and a wide terminal S wave in leads I and V6.<br>1. Interpret the EKG.<br>2. What is the diagnosis?`,
  gray:"มี EKG, Rate ประมาณ 75, Regular rhythm, Right axis deviation, (+atrial flutter 3:1?) ให้ dx\nAns: right bundle branch block",
  flag:"⚠ โน้ตของผู้จดขัดกันเอง: 'atrial flutter 3:1?' กับ 'Ans: RBBB' — atrial flutter 3:1 (atrial rate ~300) ให้ ventricular rate ~100 ไม่ใช่ ~75 (ถ้า 75 ต้องเป็น 4:1) และ RBBB ไม่ใช่ rhythm · ไม่มีรูป → ผู้จดให้แค่ rate/rhythm/axis — Claude เติมลักษณะ QRS ของ RBBB ในโจทย์ (rSR′ V1, wide S ที่ I/V6, QRS 140 ms) เพื่อให้เฉลยเป็น RBBB ตามที่ผู้จดพิมพ์ · ปัญหาเรื่อง flutter ไม่ต้องใช้ตอบ แต่ใส่คำอธิบายไว้",
@@ -495,7 +495,7 @@ R({page:2,orig:"7",topic:"lab",title:"Hemoglobin typing in a couple — risk of 
  interp:"HbA2 ปกติ + HbH = α-thal (HbH disease) · ไม่มี HbA + HbE + HbF สูง = E-β thal · ลูก = พาหะ ถ้าแม่ไม่มี α-thal; ตรวจ α ของแม่",
  summary:["พ่อ: HbA2 ปกติ + HbH → α-thal 3 genes (HbH disease); ยีน β ปกติ","แม่: ไม่มี HbA, HbE 90%, HbF 10% → HbE/β⁰-thal","ลูก: 50% HbE trait / 50% β-trait · 50% α-thal-1 / 50% α-thal-2 → disease 0% (ถ้าแม่ α ปกติ)","แม่มี α-thal-1 → 25% Bart's hydrops + 25% HbH disease → ตรวจ α-globin gene","การซีด: β₄ (HbH) ตกตะกอน · α เกินใน E-β thal → ineffective erythropoiesis + hemolysis"]}),
 
-R({page:2,orig:"8",topic:"img",title:"CT brain — describe and diagnose (extra-axial collection compressing the ventricle in a patient with atrial fibrillation)",imgNote:NOIMG,
+R({page:2,orig:"8",topic:"img",title:"CT brain — describe and diagnose (extra-axial collection compressing the ventricle in a patient with atrial fibrillation)",imgNote:NOIMG,imgAlt:"CT สมองไม่ฉีดสี: มีเงาสีขาวรูปจันทร์เสี้ยวเว้าตามขอบผิวสมองซีกซ้าย ตั้งแต่ frontal ถึง parietal หนา ~1.5 cm ข้ามแนวรอยต่อกะโหลกได้ · ventricle ซ้ายถูกกดแคบ เส้นกลางเลื่อนไปขวา ~8 mm · ร่องสมองซีกซ้ายหายไป",
  stem:`A patient with a history of atrial fibrillation presents with headache and drowsiness. A CT scan of the brain is shown (image not available in this file): there is a collection on the left side of the brain that compresses the lateral ventricle.<br>a. Describe the CT findings.<br>b. What is the diagnosis?`,
  gray:"8. CT brain ให้เป็น subdural hemorrhage ด้านซ้ายมาเบียด ventricle มีประวัติ Afib +...",
  flag:"⚠ ผู้จดเขียนว่า CT เป็น 'subdural hemorrhage ด้านซ้ายมาเบียด ventricle' และประวัติ 'Afib +...' (ข้อความตัดจบ ไม่ทราบส่วนที่ต่อ) · ไม่มีรูปในไฟล์ · Claude แต่งอาการนำ (ปวดศีรษะ ซึม) และบอกลักษณะ CT เป็นข้อความตามที่ผู้จดเขียน (ไม่ใส่คำว่า subdural ในโจทย์)",

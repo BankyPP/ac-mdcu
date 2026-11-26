@@ -78,7 +78,7 @@ Co({page:237,sec:"OSCE",orig:"3",topic:"pe",sub:"Neuro motor/reflex",ex:1,title:
  interp:"เทคนิคตรวจ DTR ครบ 5 ตำแหน่ง เทียบสองข้าง และรายงานเป็นเกรด",summary:["biceps/brachioradialis C5–6, triceps C7–8, knee L3–4, ankle S1","เทียบซ้าย-ขวาทุกตำแหน่ง · ไม่ได้ reflex ใช้ Jendrassik","รายงานเกรด 0–4+ พร้อม plantar response และ clonus"]}),
 
 /* ===== OSCE 4 ===== */
-Co({page:237,sec:"OSCE",orig:"4",topic:"img",sub:"IVP/KUB",title:"Imaging — excretory urography",imgNote:NOIMG,imgAlt:"ภาพชุด intravenous pyelography (scout film และภาพหลังฉีดสารทึบรังสี)",seen:"คล้าย MDCU66 RoA OSCE 4 (ฟิล์ม IVP ครบชุด)",
+Co({page:237,sec:"OSCE",orig:"4",topic:"img",sub:"IVP/KUB",title:"Imaging — excretory urography",imgNote:NOIMG,imgAlt:"ชุดฟิล์ม IVP: scout film มีเงาทึบรังสีขนาด ~8 mm แนวท่อไตขวาระดับ L3 · หลังฉีดสาร ไตขวาขับสารช้า pelvis/calyces และท่อไตเหนือเงาโป่ง สารหยุดที่ตำแหน่งเดียวกับเงา ส่วนท่อไตใต้ต่อนั้นขนาดปกติ · ไตซ้ายปกติ · psoas shadow ชัดทั้งสองข้าง",seen:"คล้าย MDCU66 RoA OSCE 4 (ฟิล์ม IVP ครบชุด)",
  stem:`An intravenous pyelography (IVP) series is shown.<br>4.1 Describe the abnormal findings.<br>4.2 What is the most likely diagnosis?`,
  gray:"ข้อ 4. ดู IVP (uro)",
  flag:"NOIMG · ไฟล์จดแค่หัวข้อ — คำถาม 4.1–4.2 Claude แต่ง และเฉลยใช้ภาพที่พบบ่อยที่สุด (ureteric calculus with hydronephrosis) พร้อมกรอบการอ่าน",
@@ -95,7 +95,7 @@ Co({page:237,sec:"OSCE",orig:"4",topic:"img",sub:"IVP/KUB",title:"Imaging — ex
  interp:"อ่าน IVP เป็นระบบ",summary:["IVP: scout → nephrogram → pyelogram → ureter → bladder","นิ่วท่อไต: delayed nephrogram + hydronephrosis/hydroureter เหนือระดับนิ่ว"]}),
 
 /* ===== OSCE 5 ===== */
-Co({page:237,sec:"OSCE",orig:"5",topic:"img",sub:"Mammogram",title:"Imaging — breast radiograph with a marked lesion",imgNote:NOIMG,imgAlt:"ภาพถ่ายรังสีเต้านม 2 มุมมอง มีเครื่องหมายดาวกำกับตำแหน่งหนึ่ง",seen:"คล้าย MDCU66 RoA OSCE 5 (mammogram: ชื่อการตรวจ ท่า อ่านรอยโรค)",
+Co({page:237,sec:"OSCE",orig:"5",topic:"img",sub:"Mammogram",title:"Imaging — breast radiograph with a marked lesion",imgNote:NOIMG,imgAlt:"Mammogram 2 ภาพ (บน-ล่าง และเฉียงเห็นกล้ามเนื้อ pectoralis) ดาวกำกับที่ส่วนบนด้านนอก: กลุ่มจุดหินปูนเล็กละเอียดหลายรูปทรงเรียงเป็นแนวยาว ~1.5 cm ร่วมกับเงาทึบรูปร่างไม่สม่ำเสมอ",seen:"คล้าย MDCU66 RoA OSCE 5 (mammogram: ชื่อการตรวจ ท่า อ่านรอยโรค)",
  stem:`A breast radiograph is shown. An area is marked with a star.<br>5.1 Name the views in which the images were taken.<br>5.2 Describe the abnormality at the marked area.`,
  opinion:"ชื่อท่า (CC, MLO) ตรงกับ recall มั่นใจ<b>สูง</b> ส่วนการบรรยายรอยโรคไม่มีเฉลยในไฟล์และไม่รู้ว่ารอยโรคคืออะไร เราให้เป็นกรอบ BI-RADS จึงมั่นใจ<b>ปานกลาง</b><br>ควรบอกตำแหน่งให้ได้จากสองท่า (CC บอก medial/lateral, MLO บอก upper/lower) แล้วบรรยาย mass (shape, margin, density) หรือ calcification (morphology, distribution) · ถ้าเป็น spiculated mass หรือ fine pleomorphic/linear branching calcification ให้สรุปว่าน่าสงสัยมะเร็ง (BI-RADS 4–5) และต้องได้ tissue diagnosis · จุดพลาด: บอกท่าสลับกัน — MLO จะเห็น pectoralis major เป็นแถบเฉียงลงมา · ตรวจคีย์ (22 พ.ย. 2026): บรรยาย margin ตาม BI-RADS v2025: circumscribed / obscured / indistinct / spiculated (microlobulated ของ BI-RADS 2013 → indistinct) — ถ้าใช้คำเดิมให้บอกฉบับ · ความมั่นใจสูง",
  gray:"ผู้จดคนที่ 1: ข้อ5 ฟิล์ม breast บรรยายความผิดปกติตรงดาว · ผู้จดคนที่ 2: 5 mammogram อ่าน lesion บอกวิวที่ถ่าย MLO CC",
@@ -113,7 +113,7 @@ Co({page:237,sec:"OSCE",orig:"5",topic:"img",sub:"Mammogram",title:"Imaging — 
  interp:"บอก standard views และบรรยายรอยโรคใน mammogram ด้วย BI-RADS lexicon",summary:["Mammogram 2 มุม: CC + MLO","บรรยาย mass (shape, margin, density), calcification, distortion + ตำแหน่ง + BI-RADS"]}),
 
 /* ===== OSCE 6 ===== */
-Co({page:237,sec:"OSCE",orig:"6",topic:"inst",sub:"Surgical instrument",title:"Instruments — identify three surgical instruments and their uses",imgNote:NOIMG,imgAlt:"เครื่องมือผ่าตัด 3 ชิ้น: คีมล็อกได้ปลายมีร่องขวาง, คีมล็อกได้ปลายรูปห่วงโค้งไม่มีฟัน, retractor มือถือใบกว้างโค้งลึก",
+Co({page:237,sec:"OSCE",orig:"6",topic:"inst",sub:"Surgical instrument",title:"Instruments — identify three surgical instruments and their uses",imgNote:NOIMG,imgAlt:"เครื่องมือ 3 ชิ้น: (1) ด้ามห่วงมีล็อก ปากยาวเรียวมีร่องขวางเฉพาะครึ่งปลาย ไม่มีฟัน (2) ด้ามห่วงมีล็อก ปลายเป็นห่วงสามเหลี่ยมกว้างโค้งมีช่องตรงกลาง ผิวจับเรียบไม่มีฟัน (3) ด้ามจับยาว ใบโลหะกว้างงอลึกเป็นรูปตัว L ปลายใบโค้งงุ้ม",
  stem:`Three surgical instruments are shown.<br>6.1 Name each instrument.<br>6.2 State the use of each instrument.`,
  gray:"ผู้จดคนที่ 1: ข้อ6 อุปกรณ์ บอกชื่อ และการใช้งาน มี 3 อัน · ผู้จดคนที่ 2: 6 เครื่องมือ Kelly clamp Babcock clamp richardson retractor บอกใช้ทำไรด้วย",
  notes:"รวม recall 2 ฉบับ: ฉบับที่สองระบุชื่อเครื่องมือ Kelly clamp, Babcock clamp, Richardson retractor",flag:"NOIMG",
@@ -146,7 +146,7 @@ Co({page:237,sec:"OSCE",orig:"7",topic:"path",sub:"Order writing",title:"Orders 
  interp:"วินิจฉัย acute appendicitis และเขียน admission/pre-op order",summary:["admission order: NPO, IV fluid, lab (CBC, BUN/Cr, UA, UPT ในหญิง), ATB ก่อนผ่าตัด, analgesic, consent, set OR","ยาแก้ปวดให้ได้ ไม่บดบังการวินิจฉัย"]}),
 
 /* ===== OSCE 8 ===== */
-Co({page:237,sec:"OSCE",orig:"8",topic:"img",sub:"Acute abdomen series",title:"Imaging — plain radiograph series for abdominal pain",imgNote:NOIMG,imgAlt:"ภาพถ่ายรังสีชุดของผู้ป่วยปวดท้อง (ทรวงอกท่ายืน และช่องท้องท่านอน/ท่ายืน)",seen:"คล้าย MDCU66 RoA OSCE 9 (acute abdomen series)",
+Co({page:237,sec:"OSCE",orig:"8",topic:"img",sub:"Acute abdomen series",title:"Imaging — plain radiograph series for abdominal pain",imgNote:NOIMG,imgAlt:"ชุดฟิล์ม 3 แผ่น (CXR ท่ายืน, ช่องท้องท่านอน, ช่องท้องท่ายืน): ลำไส้เล็กโป่งหลายห่วงกลางท้อง เห็นรอยพับพาดเต็มความกว้าง ท่ายืนมี air-fluid level หลายระดับเรียงขั้นบันได ลมใน colon และ rectum น้อยมาก · ไม่มีลมใต้กะบังลม",seen:"คล้าย MDCU66 RoA OSCE 9 (acute abdomen series)",
  stem:`A series of plain radiographs of a patient with abdominal pain is shown.<br>8.1 What is this series called, and which views does it consist of?<br>8.2 Describe the findings.<br>8.3 What is the diagnosis?`,
  gray:"ผู้จดคนที่ 1 (จดเป็นข้อ 7): ข้อ7 ฟิล์ม acute abdomen · 7.1 บอกชื่อฟิล์ม ประกอบด้วยอะไรบ้าง · 7.2 เห็นอะไรบ้าง · 7.3 diagnosis (ไม่แน่ใจแฮะ) · ผู้จดคนที่ 2: 8. X ray ถามว่าเรียกว่าไร acute abdomen series ประกอบด้วยท่าไรบ้าง อ่านได้ไรบ้าง Dx ไร",
  notes:"รวม recall 2 ฉบับ (ผู้จดคนแรกจดเป็นลำดับที่ 7 เพราะลืมสถานีปวดท้อง) · ผู้จดไม่ได้บอกว่าฟิล์มพบอะไร",
@@ -187,7 +187,7 @@ Co({page:237,sec:"OSCE",orig:"9",topic:"path",sub:"Breast cancer staging",title:
  interp:"แปลงผลพยาธิเต้านมเป็น TNM และ anatomic stage",summary:["T: ≤2 cm T1, >2–5 T2, >5 T3, ผิวหนัง/ผนังอก T4","pN: 1–3 = N1, 4–9 = N2, ≥10 = N3","T0–3 N2 M0 = IIIA · T4 = IIIB · N3 = IIIC · M1 = IV"]}),
 
 /* ===== OSCE 10 ===== */
-Co({page:237,sec:"OSCE",orig:"10",opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีเฉลย มีแต่ชื่อไหมที่ผู้จดไม่แน่ใจ (prolene? silk? catgut?) จึงตอบตามสามชื่อนั้น · การจำแนก: <b>polypropylene</b> synthetic monofilament non-absorbable · <b>silk</b> natural braided non-absorbable · <b>catgut</b> natural absorbable (proteolysis; plain คงแรง ~7–10 วัน, chromic ~2–3 สัปดาห์) — ถูกต้องตามตำรา · คงคำตอบเดิม · แหล่งตัดสิน: Sabiston 21e / Schwartz 11e (suture materials) + Ethicon wound closure manual · ความมั่นใจ: สูง (เนื้อหา) / ต่ำ (ชนิดไหมที่ออกจริง)",topic:"suture",sub:"Suture material",title:"Suture materials — identify and classify three sutures",imgNote:NOIMG,imgAlt:"ไหมเย็บแผล 3 ชนิดในซองบรรจุ",
+Co({page:237,sec:"OSCE",orig:"10",opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีเฉลย มีแต่ชื่อไหมที่ผู้จดไม่แน่ใจ (prolene? silk? catgut?) จึงตอบตามสามชื่อนั้น · การจำแนก: <b>polypropylene</b> synthetic monofilament non-absorbable · <b>silk</b> natural braided non-absorbable · <b>catgut</b> natural absorbable (proteolysis; plain คงแรง ~7–10 วัน, chromic ~2–3 สัปดาห์) — ถูกต้องตามตำรา · คงคำตอบเดิม · แหล่งตัดสิน: Sabiston 21e / Schwartz 11e (suture materials) + Ethicon wound closure manual · ความมั่นใจ: สูง (เนื้อหา) / ต่ำ (ชนิดไหมที่ออกจริง)",topic:"suture",sub:"Suture material",title:"Suture materials — identify and classify three sutures",imgNote:NOIMG,imgAlt:"ไหม 3 ซอง: (1) ไหมสีน้ำเงินเส้นเดี่ยวผิวเรียบ (2) ไหมสีดำถักเกลียว (3) ไหมสีน้ำตาลอ่อนบิดเกลียวแช่น้ำยาในซอง",
  stem:`Three suture materials are shown.<br>10.1 Name each suture.<br>10.2 For each, state whether it is absorbable, natural or synthetic, and monofilament or multifilament.<br>10.3 Give one use of each suture.`,
  gray:"ผู้จดคนที่ 1 (จดเป็นข้อ 9): ข้อ9 ไหมๆ 3 อัน : prolene? , silk ? ,catgut? · 9.1 ชื่อไหม · 9.2 absorbable? Natural vs synthetic? Filament? · 9.3 ใช้ทำอะไร",
  notes:"ผู้จดคนแรกจดสถานีนี้เป็นลำดับที่ 9 (เลขเลื่อน) · ผู้จดใส่เครื่องหมาย ? หลังชื่อไหมทั้ง 3 (ไม่แน่ใจว่าเป็น prolene, silk, catgut)",
@@ -208,7 +208,7 @@ Co({page:237,sec:"OSCE",orig:"10",opinion:"ตรวจคีย์ (21 พ.ย.
  interp:"จำแนกไหมตามการละลาย แหล่งวัสดุ และเส้นใย",summary:["Polypropylene = non-absorbable synthetic monofilament","Silk = non-absorbable natural braided","Catgut = absorbable natural (enzymatic) — plain สั้น chromic นานกว่า"]}),
 
 /* ===== OSCE 11 ===== */
-Co({page:237,sec:"OSCE",orig:"11",topic:"inst",sub:"Tube/Catheter",title:"Devices — identify a gastrointestinal tube, its indications and contraindication",imgNote:NOIMG,imgAlt:"สายยางพลาสติกยาว ปลายมีรูด้านข้างหลายรู มีขีดบอกระยะ",
+Co({page:237,sec:"OSCE",orig:"11",topic:"inst",sub:"Tube/Catheter",title:"Devices — identify a gastrointestinal tube, its indications and contraindication",imgNote:NOIMG,imgAlt:"สายพลาสติกใสยาว ~120 cm นิ่มงอได้ มีขีดบอกระยะ ปลายมนมีรูด้านข้างหลายรู มีเส้นทึบรังสีตลอดสาย ท้ายเป็นหัวต่อรูปกรวย",
  stem:`A device is shown.<br>11.1 Give its full name.<br>11.2 State its indications.<br>11.3 State a contraindication.`,
  gray:"ข้อ11 ให้ ng · 11.1 บอกชื่อเต็ม · 11.2 indication · 11.3 contraindication · [ตัวแดงในไฟล์: Feeding, irrigation, monitoring bleeding · Basal skull fracture]",
  notes:"ตัวพิมพ์สีแดงข้าง 11.2: <b>Feeding, irrigation, monitoring bleeding</b> · ข้าง 11.3: <b>Basal skull fracture</b>",flag:"NOIMG",
@@ -270,7 +270,7 @@ Co({page:237,sec:"OSCE",orig:"13",topic:"pe",sub:"DRE/Prostate",ex:1,title:"Phys
  interp:"DRE ที่ถูกเทคนิค + แยก hard nodule (มะเร็ง) จาก BPH",summary:["DRE: left lateral งอเข่า → รอบทวาร → sphincter → rectum รอบทิศ → prostate → ดูถุงมือ","hard stony nodule = สงสัย CA prostate → PSA, mpMRI, biopsy","BPH = โตเรียบ rubbery ไม่มี nodule"]}),
 
 /* ===== PowerPoint 1 ===== */
-Co({page:237,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Anorectal",title:"Spot — perianal lesion",imgNote:NOIMG,imgAlt:"ภาพบริเวณทวารหนักขณะแหวก anal verge",seen:"คล้าย MDCU66 RoA SA 6 (ปวดขณะถ่าย + เลือดออก มีรูป)",
+Co({page:237,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Anorectal",title:"Spot — perianal lesion",imgNote:NOIMG,imgAlt:"แหวกขอบก้น: แผลปริตามยาว ~1.5 cm ที่ขอบทวารแนวกลางด้านหลัง ขอบแผลนูนแข็ง ก้นแผลเห็นใยกล้ามเนื้อสีขาวเป็นเส้นขวาง · ปลายแผลด้านนอกมีติ่งผิวหนังห้อย และปลายด้านในมีตุ่มเนื้อเล็กยื่นอยู่ · ผู้ป่วยเจ็บมากเวลาถ่ายมา 3 เดือน",seen:"คล้าย MDCU66 RoA SA 6 (ปวดขณะถ่าย + เลือดออก มีรูป)",
  stem:`A photograph of the anal region is shown.<br>1.1 What is the diagnosis?<br>1.2 How would you treat this condition?`,
  gray:"[Ppt] ให้รูป Chronic anal fissure · 1. Dx · 2. Tx.",
  notes:"ส่วน PowerPoint ของเธรด (ผู้จดโพสต์ว่า Ppt) — ไม่มีเลขข้อ ไล่ตามลำดับ",flag:"NOIMG · ไม่มีเลขในไฟล์ → PPT 1 ตามลำดับ",
@@ -287,7 +287,7 @@ Co({page:237,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Anore
  interp:"spot chronic anal fissure และขั้นการรักษา",summary:["chronic anal fissure: posterior midline + sentinel tag + hypertrophied papilla + เห็น internal sphincter","รักษา: fiber/sitz bath → diltiazem/GTN/botox → LIS"]}),
 
 /* ===== PowerPoint 2 ===== */
-Co({page:237,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn perineum",imgNote:NOIMG,imgAlt:"ภาพบริเวณฝีเย็บและก้นของทารกแรกเกิด",
+Co({page:237,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Pediatric surgery",title:"Spot — newborn perineum",imgNote:NOIMG,imgAlt:"ทารกแรกเกิดชาย: ตำแหน่งทวารเป็นผิวเรียบไม่มีรู มีรอยบุ๋มเล็กและผิวรอบนั้นหดย่นเล็กน้อยเวลาร้อง · ร่องก้นตื้น ไม่มีขี้เทาออกที่ฝีเย็บหรือถุงอัณฑะ · ท้องเริ่มอืดหลังคลอด 20 ชม.",
  stem:`A photograph of a newborn's perineum is shown.<br>2.1 What is the diagnosis?<br>2.2 Outline the management.<br>2.3 What other things must be considered in this patient?`,
  gray:"Imperforate anus · 1. Dx · 2. Mx. · 3. Things to considered · [ลายมือชมพู: VACTERAL, associate anomalies]",
  notes:"ลายมือสีชมพูในไฟล์ข้าง 'Things to considered': <b>VACTERAL</b> (สะกดตามไฟล์ = VACTERL) และ <b>associate anomalies</b>",
@@ -309,7 +309,7 @@ Co({page:237,sec:"Short Answers",orig:"PPT 2",num:"SA 2",topic:"spot",sub:"Pedia
  interp:"spot imperforate anus: แยก low/high เพื่อเลือกผ่าตัด และหา VACTERL",summary:["imperforate anus: รอ 16–24 ชม. ดู fistula + cross-table lateral","low (perineal fistula) → anoplasty · high/no fistula → colostomy แล้ว PSARP","หา VACTERL: echo, US ไต, spine, ใส่ OG tube, แขนขา"]}),
 
 /* ===== PowerPoint 3 ===== */
-Co({page:237,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Instrument/Device",title:"Spot — surgical drain with a bulb",imgNote:NOIMG,imgAlt:"ภาพสายระบายซิลิโคนต่อกับกระเปาะรูปไข่",
+Co({page:237,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Instrument/Device",title:"Spot — surgical drain with a bulb",imgNote:NOIMG,imgAlt:"ท่อซิลิโคนนิ่ม ส่วนปลายแบนมีร่อง/รูหลายรู ต่อกับกระเปาะใสรูปไข่ที่บีบให้แฟบแล้วปิดจุกไว้ กระเปาะค่อย ๆ พองกลับ",
  stem:`A photograph of a surgical drain is shown.<br>3.1 Explain its mechanism of action.<br>3.2 In which operations is it used?`,
  gray:"ให้ภาพ jackson-pratt drainage · 1. Mechanism · 2. What s/p to use",
  notes:"ในไฟล์มีขีดเส้นใต้สีม่วงและไฮไลต์สีฟ้าที่ '1. Mechanism' (เน้น ไม่ใช่ขีดฆ่า)",flag:"NOIMG · ไม่มีเลขในไฟล์ → PPT 3 ตามลำดับ",
@@ -326,7 +326,7 @@ Co({page:237,sec:"Short Answers",orig:"PPT 3",num:"SA 3",topic:"spot",sub:"Instr
  interp:"รู้กลไก closed suction drain และการใช้",summary:["JP drain = closed active suction: บีบกระเปาะ → ความดันลบดูดของเหลว","ใช้: mastectomy/axillary dissection, thyroid/neck, ผ่าตัดช่องท้อง (HPB), flap"]}),
 
 /* ===== PowerPoint 4 ===== */
-Co({page:237,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Anorectal",title:"Spot — anal lesions: management",imgNote:NOIMG,imgAlt:"ภาพบริเวณทวารหนักขณะแหวก มีรอยโรคมากกว่าหนึ่งชนิด",
+Co({page:237,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Anorectal",title:"Spot — anal lesions: management",imgNote:NOIMG,imgAlt:"แหวกขอบก้น: แผลปริตามยาวขอบบางสีแดงสดที่ขอบทวารแนวกลางด้านหลัง · ส่องเข้าไปเหนือแนว dentate line เห็นก้อนเยื่อบุสีม่วงแดงนุ่ม 2 ก้อนที่ตำแหน่ง 3 และ 11 นาฬิกา ยังอยู่ในรูทวาร",
  stem:`A photograph of the anal region showing more than one lesion is shown. Outline the management.`,
  gray:"acute anal fissure at posterior midline กับ internal hemorrhoid รักษา / management",
  notes:"recall จากผู้จดอีกคนในเธรด · อาจเป็นสไลด์เดียวกับ PPT 1 ที่จดต่างกัน แต่เนื้อหาต่าง (acute + hemorrhoid vs chronic) จึงแยกสถานี",

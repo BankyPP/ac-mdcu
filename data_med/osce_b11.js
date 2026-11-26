@@ -192,12 +192,12 @@ A({page:3,page2:17,orig:"9",topic:"lab",title:"Lab — epigastric pain radiating
  interp:"ปวดลิ้นปี่ร้าวทะลุหลัง + lipase/amylase ≥ 3 ULN = acute pancreatitis · LFT ปกติ → gallstone น้อยลงแต่ยังต้อง US + TG + Ca",
  summary:["วินิจฉัย 2 ใน 3: ปวดแบบ pancreatitis, lipase/amylase ≥3 ULN, imaging","ALT >150 ใน 48 ชม.แรก → gallstone pancreatitis","สาเหตุ: นิ่ว, สุรา, TG >1,000, Ca สูง, ยา, post-ERCP","CECT: วินิจฉัยไม่ชัด หรือไม่ดีขึ้น 48–72 ชม. · ระดับเอนไซม์ไม่บอกความรุนแรง"]}),
 
-A({page:3,page2:18,orig:"10",topic:"micro",title:"Gram stain — liver abscess pus in a diabetic patient (fist test positive)",imgNote:NOIMG,seen:"MDCU77 RoB ข้อ 1, MDCU78 RoA ข้อ 6 และ RoC ข้อ 6 (Gram stain หนอง liver abscess ในเบาหวาน — ไฟล์ 78 เขียนว่าซ้ำ AC)",
+A({page:3,page2:18,orig:"10",topic:"micro",title:"Gram stain — liver abscess pus in a diabetic patient (fist test positive)",imgNote:NOIMG,imgAlt:"Gram stain หนองจากฝีในตับ: เซลล์เม็ดเลือดขาวนิวเคลียสหลายพูเต็มพื้นที่ · แท่งสั้นอ้วนติดสีชมพูแดงจำนวนมาก ทั้งนอกและในเซลล์ รอบเชื้อมีวงใสหนา",seen:"MDCU77 RoB ข้อ 1, MDCU78 RoA ข้อ 6 และ RoC ข้อ 6 (Gram stain หนอง liver abscess ในเบาหวาน — ไฟล์ 78 เขียนว่าซ้ำ AC)",
  stem:`A patient with diabetes mellitus presents with dull right upper quadrant abdominal pain. Fist percussion over the liver (fist test) is positive, and a liver abscess is found. The Gram stain of the pus is shown.<br>1. Describe the Gram stain.<br>2. Name the 2 most likely organisms.`,
  gray:"10. ผู้ป่วย DM มาด้วยอาการปวดท้องตื้อๆขวาบน ตรวจ fist test positive พบเป็น liver abscess ให้รูปG/S มา 10.1บรรยาย G/S 10.2ให้เขียนชื่อเชื้อที่เป็นไปได้มากที่สุด 2 ชื่อ",
  flag:"⚠ "+NOIMG+" (โจทย์บอกว่าให้รูป G/S แต่ไฟล์ไม่มีรูป) · ไฟล์เฉลยเขียน 'ไม่เฉลย' — Claude ตอบตามภาพที่พบบ่อยในข้อนี้ (Gram-negative bacilli)",
  parts:S(
-  B("10.1 Describe the Gram stain (describe the expected findings).",5,{tags:["micro"],key:NK+" · ไฟล์เฉลยเขียนว่า 'ไม่เฉลย'",
+  B("10.1 Describe the Gram stain.",5,{tags:["micro"],key:NK+" · ไฟล์เฉลยเขียนว่า 'ไม่เฉลย'",
    ans:"<b>Numerous polymorphonuclear leukocytes (neutrophils)</b> = pus · with <b>Gram-negative bacilli</b> (แท่งติดสีชมพู/แดง) ทั้งนอกและในเซลล์ · ลักษณะช่วยแยก: <b>bipolar staining ('safety-pin')</b> → นึกถึง <i>B. pseudomallei</i> · แท่งอ้วนสั้นมี <b>capsule</b> (halo ใสรอบเชื้อ) → นึกถึง <i>K. pneumoniae</i>",
    exp:"ถ้าภาพเป็นอย่างอื่น: Gram-positive cocci in clusters → <i>S. aureus</i> (hematogenous) · GPC in chains → <i>Streptococcus anginosus</i> group · mixed flora → biliary/portal source (anaerobe) · ไม่พบเชื้อ + หนอง anchovy paste → amoebic liver abscess",
    rubric:"ได้ = PMN จำนวนมาก + Gram-negative bacilli (± bipolar/capsule) · บางส่วน = บอกแค่ 'มีเชื้อ'",

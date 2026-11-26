@@ -104,7 +104,7 @@ Co({page:28,orig:"7",topic:"img",sub:"Urolithiasis",img:["mo28_ivp"],title:"IVP 
 Co({page:29,orig:"8",topic:"img",sub:"Mammogram",title:"Mammogram — views, findings, further investigation",
  stem:`A mammogram is shown.<br>Name the views (MLO, CC) and side, describe the abnormality, and state further investigations.`,
  gray:"OSCE ให้ mammogram มา บอกท่า (MLO CC) และข้าง บรรยายความผิดปกติ บอกการส่งตรวจเพิ่มเติม",
- flag:NOIMG,imgAlt:"Mammogram CC/MLO มีก้อนในเต้านม",
+ flag:NOIMG,imgAlt:"Mammogram เต้านมขวา 2 ภาพ (บน-ล่าง และเฉียงเห็น pectoralis) · ส่วนบนด้านนอกมีก้อนทึบขนาด ~2 cm ขอบไม่เรียบเป็นแฉก มีจุดหินปูนเล็กละเอียดกระจุกในก้อน",
  notes:"ไม่มีเฉลยในไฟล์ · ไม่มีรูป",opinion:"ความมั่นใจปานกลาง",
  parts:S(
   B("8.1 Answer.",6,{tags:["img"],ans:"<b>CC และ MLO</b> view, บอกข้างจาก marker · บรรยาย: ตำแหน่ง ขนาด รูปร่าง <b>margin (spiculated vs circumscribed)</b>, density, <b>calcification</b>, skin/nipple, axillary node → BI-RADS · Ix: <b>breast ultrasound</b> → <b>core needle biopsy</b> ถ้า BI-RADS 4–5",rubric:"1/ประเด็น",pts:[CR(P("CC and MLO with side","cc","mlo")),CR(P("Mass margin and density","margin","spicul","circumscrib","density")),P("Calcification","calcif"),P("BI-RADS","bi-rads","birads"),P("Ultrasound","ultrasound"),CR(P("Core biopsy","biopsy","core"))]})
@@ -199,7 +199,7 @@ SA({page:33,orig:"MEQ 5",num:"SA 5",sub:"Anorectal",img:["mm33_fis"],kimg:["mm33
  interp:"Anal fissure",
  summary:["Posterior midline, painful defecation","Fiber, sitz bath, softener","Chronic → GTN/diltiazem → LIS"]}),
 
-SA({page:33,orig:"MEQ 6",num:"SA 6",sub:"Others",flag:NOIMG,imgAlt:"ก้อนใต้ผิวหนังที่ขา บวมแดง",title:"Short answer — enlarging red leg lump",
+SA({page:33,orig:"MEQ 6",num:"SA 6",sub:"Others",flag:NOIMG,imgAlt:"ก้อนใต้ผิวหนังที่หน้าแข้งขนาด ~3 cm ผิวบนก้อนบวมแดงร้อน ตรงกลางเห็นรูเปิดจุดดำเล็ก ๆ บีบแล้วมีสารสีขาวข้นกลิ่นเหม็นออก",title:"Short answer — enlarging red leg lump",
  stem:`A lump on the leg for 3 months became enlarged and red 3 days ago. Give the diagnosis and management.`,
  gray:"MEQ มีก้อนที่ขามา3เดือน 3วันก่อนมาเพิ่งบวมแดง ถาม Dx + Management",
  notes:"แนวคำตอบในไฟล์: infected epidermal cyst · excision",opinion:"ความมั่นใจสูง",
@@ -209,7 +209,7 @@ SA({page:33,orig:"MEQ 6",num:"SA 6",sub:"Others",flag:NOIMG,imgAlt:"ก้อน
  interp:"Infected cyst",
  summary:["Punctum = epidermal cyst","Infected → I&D + antibiotic","Later complete excision of wall"]}),
 
-SA({page:33,orig:"MEQ 7",num:"SA 7",sub:"Others",flag:NOIMG,imgAlt:"ไม่มีรูป",title:"Short answer — orders for acute appendicitis",
+SA({page:33,orig:"MEQ 7",num:"SA 7",sub:"Others",flag:NOIMG,title:"Short answer — orders for acute appendicitis",
  stem:`Write the orders for a patient with acute appendicitis.`,
  gray:"MEQ ถามคำสั่งการรักษา acute appendicitis",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -219,7 +219,7 @@ SA({page:33,orig:"MEQ 7",num:"SA 7",sub:"Others",flag:NOIMG,imgAlt:"ไม่ม
  interp:"Appendicitis orders",
  summary:["NPO, IV fluid, antibiotic, analgesia","Labs + UPT in women","Appendectomy"]}),
 
-SA({page:33,orig:"MEQ 8",num:"SA 8",sub:"Colorectal",flag:NOIMG,imgAlt:"ไม่มีรูป",title:"Short answer — colonoscopy indications and bowel prep",
+SA({page:33,orig:"MEQ 8",num:"SA 8",sub:"Colorectal",flag:NOIMG,title:"Short answer — colonoscopy indications and bowel prep",
  stem:`What are the indications for colonoscopy, and how should the bowel be prepared?`,
  gray:"MEQ ถามว่า Colonoscopy มีIndication อะไรบ้างสี่อย่าง + ต้อง Prep bowel ยังไง",
  notes:"ไม่มีเฉลยในไฟล์ (มีรูปโน้ตแนบ)",opinion:"ความมั่นใจสูง",
@@ -241,7 +241,7 @@ SA({page:33,orig:"MEQ 9",num:"SA 9",sub:"Pediatric surgery",img:["mm33_gas"],kim
  interp:"Gastroschisis",
  summary:["No sac, right of cord","Bowel bag, warm, fluids, antibiotics","Silo or primary closure"]}),
 
-SA({page:33,orig:"MEQ 10",num:"SA 10",sub:"Neuro",flag:NOIMG,imgAlt:"วิดีโอการตรวจตา",title:"Short answer — Parinaud syndrome video",
+SA({page:33,orig:"MEQ 10",num:"SA 10",sub:"Neuro",flag:NOIMG,imgAlt:"วิดีโอตรวจตา: ผู้ป่วยมองตามนิ้วไปซ้าย ขวา ลงได้ปกติ แต่มองขึ้นไม่ได้ทั้งสองข้าง · พยายามมองขึ้นแล้วลูกตาสั่นกระตุกถอยเข้าเบ้า · ส่องไฟรูม่านตาหดน้อยมาก แต่เมื่อมองใกล้กลับหดได้ดี · หนังตาบนรั้งขึ้นจนเห็นตาขาวเหนือตาดำ",title:"Short answer — Parinaud syndrome video",
  stem:`A video of a patient is shown. What do you see, and what is the diagnosis?`,
  gray:"MEQ วิดีโอ Parinaud's syndrome ถามว่าเห็นไรบ้างในวีดีโอ + ให้ Dx",
  notes:"แนวคำตอบในไฟล์: upward gaze palsy · near-light dissociation",opinion:"ความมั่นใจสูง",

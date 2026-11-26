@@ -24,7 +24,7 @@ QB.push(
 Co({page:281,sec:"OSCE",orig:"1",topic:"suture",sub:"Suture material",title:"Suture materials — two packets: name and type",
  stem:`Two suture packets are shown (brand names only).<br>For each: 1. Give the generic name. 2. Classify it (natural/synthetic, monofilament/multifilament, absorbable/non-absorbable). 3. Give an example of its use.`,
  gray:"1. เขียน ถามชื่อ PDS and Silk บอกว่าเป็น ชนิดไหน",
- flag:NOIMG+" · คำถามย่อยการใช้ Claude เติม",imgAlt:"ซองไหมเย็บแผล 2 ซอง",
+ flag:NOIMG+" · คำถามย่อยการใช้ Claude เติม",imgAlt:"ซองไหม 2 ซอง (เห็นแต่ชื่อยี่ห้อ): ซอง A พิมพ์ว่า \"PDS II\" ไหมสีม่วงเป็นเส้นเดี่ยวผิวเรียบลื่น · ซอง B พิมพ์ว่า \"PERMA-HAND / SILK\" ไหมสีดำเป็นเกลียวถัก",
  notes:"สถานีเขียน (ไม่มีอาจารย์)",
  parts:S(
   B("1.1 Generic name, classification and use of each suture.",5,{tags:["suture"],key:"ไฟล์ระบุไหม: PDS และ Silk (ไม่มีเฉลยชนิด)",
@@ -41,7 +41,7 @@ Co({page:281,sec:"OSCE",orig:"1",topic:"suture",sub:"Suture material",title:"Sut
 Co({page:281,sec:"OSCE",orig:"2",topic:"img",sub:"Mammogram",title:"Mammogram — name the study, describe the findings",seen:"คล้าย MDCU65 RoA OSCE 14 (อ่าน mammogram)",
  stem:`Radiographs of the right breast of a 56-year-old woman are shown.<br>1. What type of radiograph is this, and which views are shown?<br>2. Describe the findings.<br>3. Give the BI-RADS category and the next step.`,
  gray:"2. เขียน มี Mammogram ให้บรรยาย แล้วบอกว่าเปนฟิล์มอะไร",
- flag:"⚠ "+NOIMG+" · ไฟล์ไม่ได้บอกความผิดปกติ — Claude เลือกภาพก้อนขอบ spiculated · อายุ/คำถาม BI-RADS Claude เติม",imgAlt:"ภาพ mammogram ของเต้านมขวา 2 ท่า",
+ flag:"⚠ "+NOIMG+" · ไฟล์ไม่ได้บอกความผิดปกติ — Claude เลือกภาพก้อนขอบ spiculated · อายุ/คำถาม BI-RADS Claude เติม",imgAlt:"Mammogram เต้านมขวา 2 ภาพ (มุมบน-ล่าง และมุมเฉียง) เนื้อเต้านมค่อนข้างทึบ มีก้อนความทึบสูงขนาด ~2 cm รูปร่างไม่สม่ำเสมอ ขอบมีเส้นแหลมแผ่ออกรอบก้อน ที่ส่วนบนด้านนอก",
  notes:"สถานีเขียน",
  parts:S(
   B("2.1 Name the study and views.",2,{tags:["img"],
@@ -62,7 +62,7 @@ Co({page:281,sec:"OSCE",orig:"2",topic:"img",sub:"Mammogram",title:"Mammogram �
 Co({page:281,sec:"OSCE",orig:"3",topic:"inst",sub:"Tube/Catheter",title:"Device — a flexible tube: name, indications and complications",seen:"คล้าย MDCU66 RoD OSCE 12 (NG tube: ใช้ทำอะไร + contraindication)",
  stem:`A long flexible plastic tube with distance markings and side holes near the tip is shown.<br>1. Name this device.<br>2. List its indications.<br>3. List the complications of its use.`,
  gray:"3. เขียน ถามชื่อ NG tube ถามข้อบ่งชี้ในการใช้ ภาวะแทรกซ้อน",
- flag:NOIMG,imgAlt:"สายพลาสติกใสยาวมีขีดบอกระยะ ปลายมีรูด้านข้าง",
+ flag:NOIMG,imgAlt:"สายพลาสติกใสยาวประมาณ 120 cm นิ่มงอได้ มีขีดดำบอกระยะเป็นช่วง ๆ และเส้นทึบรังสีตลอดความยาว ปลายมนปิด มีรูด้านข้างหลายรูใกล้ปลาย อีกด้านเป็นหัวต่อรูปกรวยสำหรับต่อ syringe/ถุง",
  notes:"สถานีเขียน",
  parts:S(
   B("3.1 Name, indications and complications.",6,{tags:["inst"],key:"ไฟล์ระบุ: NG tube (ไม่มีเฉลยข้อบ่งชี้/ภาวะแทรกซ้อน)",
@@ -79,7 +79,7 @@ Co({page:281,sec:"OSCE",orig:"3",topic:"inst",sub:"Tube/Catheter",title:"Device 
 Co({page:281,sec:"OSCE",orig:"4",topic:"inst",sub:"Surgical instrument",title:"Instruments — name two instruments and state their uses",
  stem:`Two surgical instruments are displayed.<br>For each instrument: 1. Name it. 2. State its use.`,
  gray:"4. เขียน ถามชื่อ เครื่องมือ Babcock กับ towel clip ถามว่าใช้ทำไร",
- flag:NOIMG,imgAlt:"เครื่องมือผ่าตัด 2 ชิ้น ชิ้นหนึ่งปลายกว้างโค้งมีรู อีกชิ้นปลายแหลมโค้งเข้าหากัน",
+ flag:NOIMG,imgAlt:"เครื่องมือ 2 ชิ้น ด้ามห่วงมีล็อกทั้งคู่ · ชิ้นที่ 1: ปลายบานออกเป็นห่วงรูปสามเหลี่ยมโค้ง มีช่องโปร่งตรงกลาง ผิวจับเรียบไม่มีฟัน · ชิ้นที่ 2: ขนาดสั้น ปลายเป็นขอแหลม 2 ข้างโค้งเข้าหากันจนจิกชนกันเมื่อล็อก",
  notes:"สถานีเขียน",
  parts:S(
   B("4.1 Name each instrument and state its use.",4,{tags:["inst"],key:"ไฟล์ระบุชื่อ: Babcock, towel clip (ไม่มีเฉลยการใช้)",
@@ -280,7 +280,7 @@ Co({page:281,sec:"OSCE",orig:"13",topic:"proc",sub:"Sterile gloving/scrub",ex:1,
 Co({page:281,sec:"OSCE",orig:"14",topic:"inst",sub:"Drain",title:"Drains — name two drainage devices and give examples of their use",
  stem:`Two drainage devices are shown: one with a rigid vacuum bottle and one with a soft squeezable bulb, both attached to perforated tubing.<br>1. Name each device.<br>2. Give examples of operations in which each is used.`,
  gray:"14. เขียน ถามชื่อ radivac กับ Jackson ยกตัวอย่าง ใช้ในการผ่าตัดอะไร",
- flag:NOIMG,imgAlt:"อุปกรณ์ระบายสารเหลว 2 ชนิด ชนิดหนึ่งเป็นขวดสุญญากาศ อีกชนิดเป็นลูกยางบีบได้ ต่อกับสายที่มีรูด้านข้าง",
+ flag:NOIMG,imgAlt:"อุปกรณ์ระบาย 2 ชุด ทั้งคู่ต่อกับสายพลาสติกที่ปลายมีรูด้านข้างหลายรู · ชุด A: สายกลมแข็งพอสมควรต่อเข้าขวดพลาสติกแข็งที่ดูดอากาศออกไว้ก่อน มีตัวบอกระดับสุญญากาศที่ฝาขวด ยุบเมื่อหมดแรงดูด · ชุด B: สายซิลิโคนนิ่ม ส่วนปลายแบนเป็นร่อง ต่อกับลูกยางใสรูปไข่ที่บีบให้แฟบแล้วปิดจุก จึงดูดเบา ๆ ต่อเนื่อง · ทั้งสองเป็นระบบปิด ไม่มีส่วนใดเปิดสู่ภายนอก",
  notes:"สถานีเขียน · 'Jackson' = Jackson-Pratt drain",
  parts:S(
   B("14.1 Name each drain and give examples of its use.",5,{tags:["inst"],key:"ไฟล์ระบุ: radivac กับ Jackson (ไม่มีเฉลยการใช้)",
@@ -318,7 +318,7 @@ Co({page:281,sec:"OSCE",orig:"15",topic:"path",sub:"Breast cancer staging",title
 Co({page:282,sec:"Short Answers",orig:"PPT 1",num:"SA 1",topic:"spot",sub:"Imaging film",title:"Spot — abdominal radiograph: list the signs",
  stem:`An abdominal radiograph of a patient with colicky abdominal pain, vomiting and distension is shown.<br>1. What is the diagnosis?<br>2. List the radiographic signs present.`,
  gray:"Part : Power point 14 ข้อ (ให้เวลาข้อละแปปเดียวนะครับ) 1.ภาพ x ray มี small bowel obstruction ให้เขียน sign ที่พบ",
- flag:NOIMG,imgAlt:"ฟิล์มเอกซเรย์ช่องท้อง",
+ flag:NOIMG,imgAlt:"ฟิล์มช่องท้องท่านอนและท่ายืน: ลำไส้เล็กโป่งขยาย (>3 cm) หลายห่วงอยู่กลางท้อง เห็นรอยพับเยื่อบุพาดเต็มความกว้างลำไส้ ท่ายืนมี air-fluid level หลายระดับเรียงขั้นบันได ลมในลำไส้ใหญ่และ rectum น้อยมาก",
  parts:S(
   B("SA 1.1 Diagnosis and radiographic signs.",4,{tags:["spot"],key:"ไฟล์ระบุ: small bowel obstruction (ไม่มีเฉลย sign)",
    ans:"<b>Small bowel obstruction</b> · <b>Signs</b>: (1) <b>dilated small bowel loops &gt;3 cm</b> อยู่ส่วนกลางท้อง จำนวนมาก (2) <b>valvulae conniventes</b> พาดเต็มความกว้างลำไส้ — <b>stack of coins</b> (3) <b>multiple air-fluid levels แบบขั้นบันได (step-ladder)</b> ในท่ายืน/decubitus (4) <b>string of beads sign</b> (ฟองลมเล็กเรียงใต้ valvulae ในลูปที่เต็มน้ำ) (5) <b>ลมใน colon/rectum น้อยหรือไม่มี</b> (gasless distal) (6) (complicated: pneumatosis, portal venous gas, free air)",
@@ -380,7 +380,7 @@ Co({page:282,sec:"Short Answers",orig:"PPT 4",num:"SA 4",topic:"spot",sub:"Other
 Co({page:282,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Imaging film",title:"Spot — infant radiograph: diagnosis",seen:"คล้าย MDCU65 RoA SA 8 และ MDCU66 RoD SA 9 (ฟิล์ม midgut volvulus)",
  stem:`A radiograph of a 2-week-old infant with bilious vomiting is shown.<br>1. What is the most likely diagnosis?<br>2. What is the underlying anatomical abnormality, and what is the treatment?`,
  gray:"5.ภาพ xray น่าจะ midgut volvulus บางคนบอกว่าเปน ladd's band",
- flag:NOIMG+" · ผู้จดไม่แน่ใจ (midgut volvulus หรือ Ladd's band) · อายุ/อาการ และคำถามย่อยที่สอง Claude เติม",imgAlt:"ฟิล์มเอกซเรย์ช่องท้องของทารก",
+ flag:NOIMG+" · ผู้จดไม่แน่ใจ (midgut volvulus หรือ Ladd's band) · อายุ/อาการ และคำถามย่อยที่สอง Claude เติม",imgAlt:"ฟิล์มช่องท้องทารกอายุ 2 สัปดาห์ที่อาเจียนเป็นน้ำดี: กระเพาะอาหารและ duodenum ส่วนต้นมีลมโป่ง ส่วนที่เหลือของช่องท้องแทบไม่มีลม มีลมในลำไส้ส่วนปลายเพียงเล็กน้อยกระจายผิดที่ ไม่มีลมใต้กะบังลม · ทารกท้องไม่อืดมาก · ไม่มีภาพ contrast study ประกอบ",
  opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีเฉลย (ผู้จดลังเลระหว่าง midgut volvulus กับ Ladd band) · ทั้งสองเป็นพยาธิสภาพของโรคเดียวกัน: <b>intestinal malrotation</b> → Ladd bands กด duodenum และ mesentery ฐานแคบบิดรอบ SMA = <b>midgut volvulus</b> (ฉุกเฉิน) · การวินิจฉัยหลักคือ <b>malrotation with midgut volvulus</b>; UGI study เป็นมาตรฐาน · รักษา: resuscitation → <b>emergency Ladd procedure</b> (detorsion ทวนเข็มนาฬิกา, ตัด Ladd bands, ขยาย mesentery, appendectomy) · คงคำตอบเดิม · แหล่งตัดสิน: Holcomb and Ashcraft Pediatric Surgery 7e + Sabiston 21e (Pediatric surgery) · ความมั่นใจ: ปานกลาง (ภาพจริงไม่มีในไฟล์)",
  parts:S(
   B("SA 5.1 Diagnosis, underlying abnormality and treatment.",4,{tags:["spot"],key:"ไฟล์: 'น่าจะ midgut volvulus บางคนบอกว่าเป็น Ladd's band'",
@@ -396,7 +396,7 @@ Co({page:282,sec:"Short Answers",orig:"PPT 5",num:"SA 5",topic:"spot",sub:"Imagi
 Co({page:282,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Imaging film",title:"Spot — intravenous pyelogram: describe the abnormality",seen:"คล้าย MDCU65 RoA SA 3 (IVP อ่านความผิดปกติ)",
  stem:`An intravenous pyelogram of a 20-year-old man with intermittent right flank pain, worse after drinking large volumes of fluid, is shown.<br>1. Describe the abnormality.<br>2. What is the diagnosis?`,
  gray:"6.ภาพ IVP ถามความผิดปกติให้บรรยาย",
- flag:"⚠ "+NOIMG+" · ไฟล์ไม่ได้บอกความผิดปกติ — Claude เลือก UPJ obstruction (ไม่ซ้ำกับนิ่วในท่อไตของ MDCU65 RoA) และแต่งประวัติ",imgAlt:"ฟิล์ม IVP ของผู้ป่วยชายวัยหนุ่ม",
+ flag:"⚠ "+NOIMG+" · ไฟล์ไม่ได้บอกความผิดปกติ — Claude เลือก UPJ obstruction (ไม่ซ้ำกับนิ่วในท่อไตของ MDCU65 RoA) และแต่งประวัติ",imgAlt:"IVP: ไตขวาขับสารทึบรังสีช้า renal pelvis โป่งกลมขนาดใหญ่ calyces ป้านทุกอัน แต่ท่อไตขวาใต้รอยต่อ pelvis ขนาดปกติ ไม่เห็นนิ่ว ไตซ้ายปกติ",
  parts:S(
   B("SA 6.1 Describe the abnormality and give the diagnosis.",4,{tags:["spot"],
    ans:"<b>บรรยาย</b>: KUB ไม่มีก้อน radiopaque · IVP: ไตขวา nephrogram ช้า, <b>renal pelvis โป่งขยายมาก (ballooned pelvis) และ calyces ป้าน (hydronephrosis)</b> · <b>ureter ขวาขนาดปกติหรือมองไม่เห็นใต้ระดับ UPJ</b> (ไม่มี hydroureter) · ไตซ้ายปกติ · <b>Dx: Right ureteropelvic junction (UPJ) obstruction</b> · สาเหตุ: intrinsic stenosis (aperistaltic segment), crossing lower-pole vessel · ยืนยัน/ประเมิน: <b>diuretic renogram (MAG3 + furosemide)</b> ดู obstruction และ split function · รักษา: <b>pyeloplasty (Anderson-Hynes dismembered)</b> แบบ open/laparoscopic/robotic เมื่อมีอาการ, split function ลด, ติดเชื้อ/นิ่ว",
@@ -411,7 +411,7 @@ Co({page:282,sec:"Short Answers",orig:"PPT 6",num:"SA 6",topic:"spot",sub:"Imagi
 Co({page:282,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — lesion beside the nasal ala: diagnosis and management",
  stem:`A photograph shows a well-defined, raised skin lesion beside the ala of the nose of a 68-year-old farmer.<br>1. What is the most likely diagnosis? Give the main differential diagnosis.<br>2. Outline the management.`,
  gray:"7.ภาพ basal cell หรือ squamous cell ca ก็ไม่รู้ เถียงๆกัน แต่ขึ้นข้างปีกจมูก ไม่เห็นวาวๆ แต่ก็ขอบเขตก็ชัดเจนดี",
- flag:"⚠ "+NOIMG+" · ผู้จดไม่แน่ใจระหว่าง BCC กับ SCC · อายุ/อาชีพ Claude เติม",imgAlt:"รูปใบหน้าด้านข้างจมูก มีรอยโรคที่ผิวหนังข้างปีกจมูก",
+ flag:"⚠ "+NOIMG+" · ผู้จดไม่แน่ใจระหว่าง BCC กับ SCC · อายุ/อาชีพ Claude เติม",imgAlt:"ภาพข้างปีกจมูกขวาของชายสูงวัย: ก้อนนูนกลมขนาด ~1 cm ขอบเขตชัด ขอบนูนเป็นสันม้วนรอบ ผิวกลางก้อนบุ๋มเล็กน้อยมีสะเก็ด เห็นเส้นเลือดฝอยเล็ก ๆ บนผิว · สีออกชมพูปนน้ำตาล ไม่วาวชัด · ไม่มีต่อมน้ำเหลืองโตที่คอให้เห็น · ผิวรอบ ๆ มีร่องรอยถูกแดดเรื้อรัง",
  opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีเฉลย (ผู้จดเถียงกันระหว่าง BCC/SCC) · ตอบ <b>BCC</b> เป็นอันดับแรก: ใบหน้าส่วนกลาง (ข้างปีกจมูก) และขอบเขตชัดเป็นลักษณะของ BCC ซึ่งพบบ่อยที่สุด ไม่จำเป็นต้องเห็น pearly ทุกราย · SCC เป็น DDx · ต้อง <b>biopsy</b> ยืนยัน · ตำแหน่ง H-zone = high-risk → <b>Mohs</b> หรือ excision with complete margin assessment; low-risk excision margin 4 mm · คงคำตอบเดิม · แหล่งตัดสิน: NCCN Basal Cell Skin Cancer v2025/2026 · ความมั่นใจ: ปานกลาง (ภาพจริงไม่มีในไฟล์)",
  parts:S(
   B("SA 7.1 Diagnosis, differential and management.",4,{tags:["spot"],key:"ผู้จด: BCC หรือ SCC ไม่แน่ใจ — ขึ้นข้างปีกจมูก ไม่เห็นวาว ๆ แต่ขอบเขตชัด",
@@ -427,7 +427,7 @@ Co({page:282,sec:"Short Answers",orig:"PPT 7",num:"SA 7",topic:"spot",sub:"Plast
 Co({page:282,sec:"Short Answers",orig:"PPT 8",num:"SA 8",topic:"spot",sub:"Breast",title:"Spot — breast lump: further history",
  stem:`A photograph of a woman's breast with a visible lump is shown. She presents with a breast lump.<br>What further history would you take?`,
  gray:"8.รูปนมมาด้วยก้อน ให้ซักประวัติเพิ่มเติม",
- flag:NOIMG,imgAlt:"รูปเต้านมของหญิงวัยผู้ใหญ่ที่มีก้อนนูน",
+ flag:NOIMG,imgAlt:"รูปเต้านมซ้ายของหญิงวัยกลางคน เห็นก้อนนูนดันผิวขึ้นมาที่ส่วนบนด้านนอก ขนาดราว 3 cm ผิวหนังเหนือก้อนสีปกติ ไม่มีแผล หัวนมยังอยู่ระดับเดียวกับอีกข้าง",
  parts:S(
   B("SA 8.1 What further history would you take?",4,{tags:["spot"],
    ans:"<b>เกี่ยวกับก้อน</b>: พบเมื่อไร อย่างไร, <b>โตเร็ว/ช้า</b>, เจ็บไหม, <b>เปลี่ยนตามรอบเดือน</b>ไหม, ก้อนอื่น/อีกข้าง · <b>อาการร่วมเฉพาะที่</b>: <b>nipple discharge</b> (เลือด), หัวนมบุ๋ม/เปลี่ยน, ผิวหนังบุ๋ม/เปลือกส้ม/แดง/แผล, ก้อนที่รักแร้ · <b>อาการแพร่กระจาย</b>: น้ำหนักลด เบื่ออาหาร, <b>ปวดกระดูก</b>, ไอ/หอบ, ปวดท้องขวาบน/ตัวเหลือง, ปวดศีรษะ/อ่อนแรง · <b>ปัจจัยเสี่ยง</b>: อายุ, <b>ประวัติครอบครัว</b> มะเร็งเต้านม/รังไข่ (อายุที่เป็น, ญาติสายตรง, BRCA), <b>ประวัติประจำเดือน</b> (มีประจำเดือนเร็ว &lt;12 ปี, หมดช้า &gt;55 ปี), <b>ไม่มีบุตร/มีบุตรคนแรกอายุ &gt;30 ปี</b>, ไม่ได้ให้นมบุตร, <b>ฮอร์โมน</b> (HRT, ยาคุม), เคยฉายรังสีทรวงอก (เช่น Hodgkin), เคยตัดชิ้นเนื้อเต้านม (atypical hyperplasia/LCIS), มะเร็งเต้านมข้างตรงข้าม, สุรา อ้วน · <b>อื่น ๆ</b>: ตั้งครรภ์/ให้นม (แยก galactocele/abscess), ประวัติอุบัติเหตุ (fat necrosis), ผล mammogram เดิม, โรคประจำตัว ยา",
@@ -459,7 +459,7 @@ Co({page:282,sec:"Short Answers",orig:"PPT 9",num:"SA 9",topic:"spot",sub:"Patho
 Co({page:282,sec:"Short Answers",orig:"PPT 10",opinion:"ตรวจคีย์ (21 พ.ย. 2026): ไฟล์ไม่มีเฉลย (ผู้จดคิดว่า keloid) · เห็นด้วย: แผลเล็กแต่แผลเป็น<b>ลามเกินขอบแผลเดิม</b> = <b>keloid</b> · แยกจาก hypertrophic scar: keloid ลามเกินขอบ ไม่ยุบเอง เกิดช้า เป็นซ้ำสูงหลังตัดอย่างเดียว / hypertrophic อยู่ในขอบแผล เกิดเร็ว ยุบได้ใน 12–18 เดือน · พยาธิ: keloidal collagen หนา vs nodule ของ myofibroblast · คงคำตอบเดิม · แหล่งตัดสิน: International Clinical Recommendations on Scar Management (updated 2014) + Grabb and Smith / Sabiston 21e (wound healing) · ความมั่นใจ: สูง (เนื้อหา) / ปานกลาง (ภาพจริงไม่มีในไฟล์)",num:"SA 10",topic:"spot",sub:"Plastic/Skin/Burn",title:"Spot — enlarging scar after a small abrasion",
  stem:`A patient had a small abrasion about 2 months ago. It has now become a large, raised, firm scar extending beyond the original wound.<br>A. What is this lesion called?<br>B. How can it be distinguished from a hypertrophic scar?`,
  gray:"10. เคยมีแผล abrasion ขนาดเล็กๆ เมื่อไม่นานมานี้ ( 2 เดือนปะ?) ปัจจุบันมีแผลขนาดใหญ่น่าจะเป็น keloid ก. จง dx ว่า lesion เรียกว่า? ข. Lesion ดังกล่าวจะแยกกับ hypertrophic scar ได้อย่างไร?",
- flag:NOIMG+" · ผู้จดไม่แน่ใจระยะเวลา ('2 เดือนปะ?')",imgAlt:"รูปแผลเป็นนูนบนผิวหนัง",
+ flag:NOIMG+" · ผู้จดไม่แน่ใจระยะเวลา ('2 เดือนปะ?')",imgAlt:"รอยแผลเป็นนูนแข็งสีชมพูคล้ำ ผิวเป็นมัน ลุกลามกว้างออกไปเกินขอบแผลถลอกเดิมหลายเท่า ขอบเป็นแฉกคล้ายก้ามปู ผู้ป่วยบอกว่าคันและยังโตขึ้นเรื่อย ๆ",
  parts:S(
   B("SA 10.1 (A) What is this lesion called?",2,{tags:["spot"],key:"ไฟล์: 'น่าจะเป็น keloid'",
    ans:"<b>Keloid</b> — แผลเป็นนูนจากการสร้าง collagen มากผิดปกติ <b>ลุกลามเกินขอบเขตแผลเดิม</b> แม้แผลเริ่มต้นเล็กมาก (abrasion, สิว, เจาะหู)",
@@ -479,7 +479,7 @@ Co({page:282,sec:"Short Answers",orig:"PPT 10",opinion:"ตรวจคีย์
 Co({page:282,sec:"Short Answers",orig:"PPT 11",num:"SA 11",topic:"spot",sub:"Vascular/Ulcer",title:"Spot — chronic leg ulcer: describe the lesion",
  stem:`A photograph of a chronic ulcer on the lower leg of a 60-year-old woman is shown.<br>Describe the lesion.`,
  gray:"11. มี chronic venous ulcer ให้บรรยาย lesion",
- flag:NOIMG+" · อายุ/เพศ Claude เติม",imgAlt:"รูปแผลเรื้อรังบริเวณขาส่วนล่าง",
+ flag:NOIMG+" · อายุ/เพศ Claude เติม",imgAlt:"แผลเดี่ยวขนาด ~6×4 cm เหนือตาตุ่มด้านใน ตื้น ขอบลาดไม่นูน พื้นแผลแดงมีคราบเหลือง ผิวรอบแผลคล้ำน้ำตาล แข็งตึง มีเส้นเลือดขอดที่น่อง",
  notes:"สไลด์ 11–12 เป็นเคสเดียวกัน (แยกเป็นคนละสถานีตามเลขในไฟล์)",
  parts:S(
   B("SA 11.1 Describe the lesion.",4,{tags:["spot"],key:"ไฟล์ระบุ: chronic venous ulcer (ไม่มีเฉลยการบรรยาย)",
@@ -511,7 +511,7 @@ Co({page:282,sec:"Short Answers",orig:"PPT 12",num:"SA 12",topic:"spot",sub:"Vas
 Co({page:282,sec:"Short Answers",orig:"PPT 13",num:"SA 13",topic:"spot",sub:"Imaging film",title:"Spot — newborn radiograph with a history of polyhydramnios",
  stem:`A newborn whose mother had polyhydramnios develops bilious vomiting within the first day of life. An abdominal radiograph is shown.<br>1. What is the diagnosis?<br>2. Explain the pathogenesis.`,
  gray:"13. เด็กมี polyhydraminos ให้รูป double bubble signมา ให้ Dx และบอกพยาธิกำเนิดของโรค",
- flag:NOIMG+" · อาการอาเจียนน้ำดี Claude เติม",imgAlt:"ฟิล์มเอกซเรย์ช่องท้องของทารกแรกเกิด",
+ flag:NOIMG+" · อาการอาเจียนน้ำดี Claude เติม",imgAlt:"ฟิล์มช่องท้องทารกแรกเกิด: เห็นกระเปาะลมใหญ่ 2 ก้อนในช่องท้องส่วนบน ก้อนซ้ายใหญ่กว่า (กระเพาะอาหาร) ก้อนขวาเล็กกว่าอยู่ใกล้แนวกลาง · ส่วนที่เหลือของช่องท้องทึบ ไม่มีลมในลำไส้ส่วนปลายเลย · ไม่มีลมใต้กะบังลม",
  notes:"ไฟล์ระบุว่าในรูปมี double bubble sign (ไม่ใส่ในโจทย์เพื่อไม่ใบ้)",
  parts:S(
   B("SA 13.1 Diagnosis and pathogenesis.",4,{tags:["spot"],key:"ไฟล์: ให้รูป double bubble sign + polyhydramnios (ไม่มีเฉลย)",
@@ -527,7 +527,7 @@ Co({page:282,sec:"Short Answers",orig:"PPT 13",num:"SA 13",topic:"spot",sub:"Ima
 Co({page:282,sec:"Short Answers",orig:"PPT 14",num:"SA 14",topic:"spot",sub:"Uro/Genital",title:"Spot — scrotal swelling: diagnosis and management",
  stem:`A photograph of a scrotal swelling in a child is shown. The swelling is cystic, transilluminates brightly, and the examiner can get above it.<br>1. What is this?<br>2. Outline the management.`,
  gray:"14.ภาพ hydrocele ถามว่าคืออะไร และก็ management ยังไง",
- flag:NOIMG+" · ผลตรวจ (ส่องไฟผ่าน, คลำขอบบนได้) และอายุเด็ก Claude เติม — เฉลยใส่หลักการในผู้ใหญ่ด้วย",imgAlt:"รูปถุงอัณฑะข้างหนึ่งบวมโต",
+ flag:NOIMG+" · ผลตรวจ (ส่องไฟผ่าน, คลำขอบบนได้) และอายุเด็ก Claude เติม — เฉลยใส่หลักการในผู้ใหญ่ด้วย",imgAlt:"ถุงอัณฑะขวาของเด็กชายบวมโตตึง ผิวหนังเรียบ ไม่แดง ไม่เจ็บ · ส่องไฟฉายแล้วสว่างโปร่งทั้งก้อน · คลำได้ขอบบนของก้อนแยกจากสายถุงอัณฑะ (ไปเหนือก้อนได้) และคลำแยกตัวอัณฑะไม่ได้ชัด · ผู้ปกครองบอกว่าก้อนใหญ่ขึ้นตอนเย็นและเล็กลงตอนเช้า",
  parts:S(
   B("SA 14.1 Diagnosis and management.",4,{tags:["spot"],key:"ไฟล์ระบุ: hydrocele (ไม่มีเฉลย management)",
    ans:"<b>Hydrocele</b> — สารน้ำสะสมใน tunica vaginalis รอบอัณฑะ (ส่องไฟผ่าน, คลำขอบบนได้, คลำอัณฑะแยกไม่ได้ชัด) · <b>เด็ก</b>: ส่วนใหญ่เป็น <b>communicating hydrocele</b> จาก <b>patent processus vaginalis</b> (ขนาดเปลี่ยนตามวัน — เล็กตอนเช้า โตตอนเย็น) · <b>ทารก</b>: <b>สังเกตอาการ</b> — ส่วนใหญ่หายเองภายใน <b>1–2 ปี</b> · <b>ผ่าตัด</b> เมื่อไม่หายหลังอายุ ~1–2 ปี, ขนาดเปลี่ยนชัด (communicating) หรือมีไส้เลื่อนร่วม → <b>ผ่าตัดผ่านทางขาหนีบ (inguinal approach) — high ligation of patent processus vaginalis</b> (เหมือน herniotomy) ระบายน้ำ ไม่ต้องตัดถุง · <b>ผู้ใหญ่</b> (non-communicating): <b>US</b> แยกสาเหตุ secondary (testicular tumor, epididymo-orchitis, torsion, trauma) · ไม่มีอาการ → สังเกต · มีอาการ/ใหญ่ → <b>ผ่าตัดทาง scrotum</b> (Jaboulay — พลิก tunica กลับ, Lord's plication) · ไม่แนะนำเจาะดูด (เป็นซ้ำ/ติดเชื้อ) ยกเว้นผู้ที่ผ่าตัดไม่ได้ (± sclerotherapy)",

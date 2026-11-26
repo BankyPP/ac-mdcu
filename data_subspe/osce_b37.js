@@ -33,7 +33,7 @@ SA({page:45,orig:"MEQ 1",num:"SA 1",sub:"Others",img:["mm45_1"],title:"Short ans
  interp:"ABI",
  summary:["ABI = ankle SBP / higher arm SBP","≤0.9 PAD, <0.4 critical","1.4 = calcified → TBI"]}),
 
-SA({page:45,orig:"MEQ 2",num:"SA 2",sub:"Plastic",flag:NOIMG,imgAlt:"ไฝสีดำขอบไม่เรียบ",title:"Short answer — malignant melanoma",
+SA({page:45,orig:"MEQ 2",num:"SA 2",sub:"Plastic",flag:NOIMG,imgAlt:"ปื้นสีดำปนน้ำตาลไม่สม่ำเสมอขนาด ~2 cm ที่ผิวหนัง ขอบหยักไม่ชัด ไม่สมมาตร มีส่วนนูนเป็นตุ่มและแผลมีเลือดซึมตรงกลาง ผู้ป่วยบอกว่าโตเร็วในไม่กี่เดือน",title:"Short answer — malignant melanoma",
  stem:`A picture of malignant melanoma. Give the diagnosis and treatment.`,
  gray:"2. ภาพ malignant melanoma - Diagnosis - Treatment",
  notes:"เฉลยในไฟล์: wide excision (margin 2–5 cm depends on depth of lesion) + sentinel LN dissection · ⚠ แนวทางปัจจุบันใช้ margin 0.5–2 ซม. ตาม Breslow · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘node positive → completion dissection/adjuvant immunotherapy’ → แก้เป็น SLN บวกไม่ทำ completion LND เป็น routine (ใช้ nodal US surveillance + adjuvant therapy) ตาม MSLT-II (Faries et al., NEJM 2017), DeCOG-SLT และ NCCN Melanoma: Cutaneous",opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): SLN บวก → surveillance + adjuvant therapy ไม่ใช่ completion LND (MSLT-II) · ความมั่นใจสูง",
@@ -43,7 +43,7 @@ SA({page:45,orig:"MEQ 2",num:"SA 2",sub:"Plastic",flag:NOIMG,imgAlt:"ไฝส�
  interp:"Melanoma",
  summary:["Margin by Breslow depth","SLNB ≥0.8 mm","ABCDE"]}),
 
-SA({page:45,orig:"MEQ 3",num:"SA 3",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ถุงหุ้มลำไส้ที่สะดือ",kimg:["mm45_2"],title:"Short answer — omphalocele before referral",
+SA({page:45,orig:"MEQ 3",num:"SA 3",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ทารกแรกเกิด: ถุงเยื่อบางใสขนาด ~6 cm ยื่นออกจากกลางสะดือ มองทะลุเห็นลำไส้และตับอยู่ในถุง สายสะดือเกาะที่ยอดถุง",kimg:["mm45_2"],title:"Short answer — omphalocele before referral",
  stem:`A picture of omphalocele.<br>1. Diagnosis.<br>2. Associated anomalies.<br>3. Management before referral.`,
  gray:"3. ภาพ Omphalocele - Diagnosis - Associated anomaly - Management ก่อนส่งต่อ",
  notes:"ไฟล์แนบสไลด์: 50–80% other malformations — cardiac, genitourinary, musculoskeletal, Beckwith-Wiedemann syndrome, neural tube malformation, pentalogy of Cantrell",opinion:"ความมั่นใจสูง",
@@ -65,7 +65,7 @@ SA({page:45,orig:"MEQ 4",num:"SA 4",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"�
  interp:"Biliary atresia",
  summary:["Acholic stool + direct bili","US then urgent referral","Kasai before 60 days"]}),
 
-SA({page:45,orig:"MEQ 5",num:"SA 5",sub:"Neuro",flag:NOIMG,imgAlt:"วิดีโอตรวจกล้ามเนื้อ",title:"Short answer — key muscles video",
+SA({page:45,orig:"MEQ 5",num:"SA 5",sub:"Neuro",flag:NOIMG,imgAlt:"วิดีโอตรวจกำลังกล้ามเนื้อ 3 ท่า: ผู้ป่วยกดปลายเท้าลงต้านมือผู้ตรวจ · กางนิ้วก้อยออกต้านแรง · กางไหล่ออกด้านข้างต้านแรง",title:"Short answer — key muscles video",
  stem:`A video shows examination of key muscles. Name the muscle, nerve, and nerve roots for each (gastrocnemius, abductor digiti minimi, deltoid).`,
  gray:"5. วีดีโอตรวจ Key muscles ให้บอก muscle, innervation, nerve roots : Gastrocnemius, Abductor digiti minimi, Deltoid",
  notes:"แนวคำตอบในไฟล์: Gastrocnemius, Abductor digiti minimi, Deltoid",opinion:"ความมั่นใจสูง",
@@ -75,7 +75,7 @@ SA({page:45,orig:"MEQ 5",num:"SA 5",sub:"Neuro",flag:NOIMG,imgAlt:"วิดี�
  interp:"Key muscles",
  summary:["Deltoid C5 axillary","ADM T1 ulnar","Gastrocnemius S1 tibial"]}),
 
-SA({page:45,orig:"MEQ 6",num:"SA 6",sub:"Others",flag:NOIMG,imgAlt:"ขวดน้ำยาล้างห้องน้ำ",title:"Short answer — teenager drank toilet cleaner (Vixol)",
+SA({page:45,orig:"MEQ 6",num:"SA 6",sub:"Others",flag:NOIMG,imgAlt:"ขวดน้ำยาล้างห้องน้ำ ฉลากระบุว่ามีกรดไฮโดรคลอริก ญาติถือมาด้วย · รูปช่องปากเยื่อบุบวมแดง ยังไม่มีเนื้อตายดำ",title:"Short answer — teenager drank toilet cleaner (Vixol)",
  stem:`A teenager drank a corrosive agent (Vixol) 30 minutes ago; relatives brought the bottle. Exam: mucosa swollen and red, vital signs good, no breathing problem, lungs clear, heart normal.<br>As the consulting doctor, write the orders.`,
  gray:"6. ภาพ Vixol ประวัติเด็กวัยรุ่นกลืน corrosive agent มา 30 นาทีก่อนมา รพ. ญาติเอาขวดมาด้วย มีตรวจร่างกายให้ mucosa บวมแดง, V/S ดี, หายใจไม่มีปัญหา, Lung clear, Heart ดี - ท่านเป็นแพทย์รับ consult จงสั่งการรักษาในผู้ป่วยรายนี้",
  notes:"ไม่มีเฉลยในไฟล์",opinion:"ความมั่นใจสูง",
@@ -85,7 +85,7 @@ SA({page:45,orig:"MEQ 6",num:"SA 6",sub:"Others",flag:NOIMG,imgAlt:"ขวดน
  interp:"Corrosive",
  summary:["NPO, IV fluid, airway","No emesis/lavage/neutralization","EGD 12–24 h; psychiatry"]}),
 
-SA({page:46,orig:"MEQ 7",num:"SA 7",sub:"Hepatobiliary",flag:NOIMG,imgAlt:"US ถุงน้ำดี",title:"Short answer — ultrasound of acute cholecystitis",
+SA({page:46,orig:"MEQ 7",num:"SA 7",sub:"Hepatobiliary",flag:NOIMG,imgAlt:"Ultrasound ถุงน้ำดี: ถุงน้ำดีโป่งตึง ผนังหนา ~6 mm เป็นชั้น มีน้ำรอบถุงน้ำดี ภายในมีก้อนสะท้อนเสียงสว่างพร้อมเงาดำด้านหลังติดที่คอถุง",title:"Short answer — ultrasound of acute cholecystitis",
  stem:`An ultrasound of acute cholecystitis.<br>Describe the image and give the treatment.`,
  gray:"7. Ultrasound: Acute cholecystitis - บรรยายภาพ - แนวทางการรักษา",
  notes:"เฉลยในไฟล์: hyperechoic lesion with posterior acoustic shadowing, distended gallbladder, pericholecystic fluid collection, thickened gallbladder wall · LC · ตรวจคีย์ 22 พ.ย. 2026: เดิม ‘thickened GB wall (>3–4 มม.)’ → แก้เป็น ‘≥4 มม.’ ตาม TG18 (Yokoe 2018 CQ5: GB wall ≥4 mm; TG13 ≥5 mm)",opinion:"ความมั่นใจสูง · ตรวจคีย์ (22 พ.ย. 2026): เกณฑ์ผนังถุงน้ำดีหนาใช้ ≥4 mm ตาม TG18 (TG13 ≥5 mm) · ความมั่นใจสูง",
@@ -115,7 +115,7 @@ SA({page:46,orig:"MEQ 9",num:"SA 9",sub:"Plastic",img:["mm46_2"],title:"Short an
  interp:"Lipoma",
  summary:["Soft, lobulated, slip sign","Excision"]}),
 
-SA({page:46,orig:"MEQ 10",num:"SA 10",sub:"Others",flag:NOIMG,imgAlt:"ภาพแสดงตำแหน่ง hernia ต่างๆ",title:"Short answer — hernia sites",
+SA({page:46,orig:"MEQ 10",num:"SA 10",sub:"Others",flag:NOIMG,imgAlt:"แผนภาพผนังหน้าท้องด้านหน้า มีลูกศรชี้ตำแหน่งก้อน 6 จุด: เหนือสะดือแนวกลาง · ที่สะดือ · แนวแผลผ่าตัดเก่า · ขอบนอกของกล้ามเนื้อ rectus ระดับใต้สะดือ · เหนือเอ็นขาหนีบ · ใต้เอ็นขาหนีบด้านในของหลอดเลือดดำต้นขา",title:"Short answer — hernia sites",
  stem:`A picture shows hernia sites.<br>Name each site and give 2 risk factors.`,
  gray:"10. ภาพตำแหน่ง Hernia - ให้บอกชื่อแต่ละตำแหน่ง - ปัจจัยเสี่ยง 2 ข้อ",
  notes:"แนวคำตอบในไฟล์: chronic cough, BPH",opinion:"ความมั่นใจปานกลาง",
@@ -145,7 +145,7 @@ SA({page:47,orig:"MEQ 12",num:"SA 12",sub:"Hepatobiliary",flag:NOIMG,imgAlt:"ภ
  interp:"Murphy sign",
  summary:["Inspiratory arrest on palpation","Murphy's point = costal margin × MCL","Acute cholecystitis"]}),
 
-SA({page:47,orig:"MEQ 13",num:"SA 13",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"เด็กมีก้อนที่สะดือ และแคมขวาบวม",title:"Short answer — preterm girl with umbilical and labial swelling",
+SA({page:47,orig:"MEQ 13",num:"SA 13",sub:"Pediatric surgery",flag:NOIMG,imgAlt:"ทารกหญิงอายุ 2 เดือน (เกิดก่อนกำหนด): สะดือนูนเป็นก้อนกลมนุ่ม โป่งเวลาร้อง ดันกลับได้ · แคมใหญ่ขวาบวมนุ่ม ยุบเวลานอนนิ่ง ส่องไฟไม่สว่าง",title:"Short answer — preterm girl with umbilical and labial swelling",
  stem:`A 2-month-old former preterm girl has umbilical hernia and right labial swelling.<br>1. Complete diagnosis.<br>2. Treatment.`,
  gray:"13. ภาพเด็ก umbilical hernia + อวัยวะเพศหญิงด้านขวาบวม ให้ประวัติว่า Preterm ตอนนี้อายุ 2 เดือนละ - Diagnosis มาให้ครบ: Umbilical hernia +- indirect inguinal hernia - Treatment observe til 3yr then umbilicoplasty and elective herniotomy for IIH",
  notes:"แนวคำตอบในไฟล์: umbilical hernia ± indirect inguinal hernia · observe until 3 yr then umbilicoplasty, elective herniotomy for IIH · ⚠ inguinal hernia ในเด็ก preterm ควรผ่าโดยเร็ว (ไม่รอถึง 3 ปี)",opinion:"ความมั่นใจสูง",
@@ -156,7 +156,7 @@ SA({page:47,orig:"MEQ 13",num:"SA 13",sub:"Pediatric surgery",flag:NOIMG,imgAlt:
  interp:"Pediatric hernias",
  summary:["Inguinal: herniotomy soon","Umbilical: observe","Girls: ovary may be in sac"]}),
 
-SA({page:47,orig:"MEQ 14",num:"SA 14",sub:"Colorectal",flag:NOIMG,imgAlt:"stoma ที่หน้าท้องซ้ายล่าง",title:"Short answer — colostomy",
+SA({page:47,orig:"MEQ 14",num:"SA 14",sub:"Colorectal",flag:NOIMG,imgAlt:"หน้าท้องด้านซ้ายล่างมีลำไส้ปลายเดียวเปิดออกมาที่ผิว สีชมพูแดงชื้น ยื่นสูงเล็กน้อยจากผิว มีถุงรองรับอุจจาระแข็ง · แผลผ่าตัดกลางท้องที่ยังไม่หายสนิท",title:"Short answer — colostomy",
  stem:`A picture of a colostomy.<br>What is it, in which 2 diseases is it made, and what are the procedures called?`,
  gray:"14. ให้ภาพ colostomy ถามว่ารูปอะไร ทำในโรคอะไร (2โรค) และprocedure ชื่ออะไร",
  notes:"เฉลยในไฟล์: left side colon cancer → Hartmann's procedure · rectal cancer invade sphincter → APR",opinion:"ความมั่นใจสูง",
