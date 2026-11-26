@@ -1,196 +1,343 @@
 {
  "MDCU68|RoC|74": {
-  "interp": "ข้อ NOT — ถามสิ่งที่ \"ไม่ใช่\" ข้อบ่งชี้ตัดกลีบปอด (lobectomy) ใน lung abscess",
-  "why": "<b>ลายมือ: ฝีแตกเข้า pleura → ICD (สไลด์ indication for surgery)</b><br><b>นอกสไลด์:</b> ฝีที่แตกเข้าช่องเยื่อหุ้มปอดกลายเป็น empyema/pyopneumothorax (± bronchopleural fistula) — สิ่งแรกที่ต้องทำคือใส่สายระบายทรวงอกเพื่อระบายหนองและลม การตัดกลีบปอดในช่องอกที่เต็มไปด้วยหนองเสี่ยงสูงและไม่ใช่การรักษาขั้นแรก",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>ข้อบ่งชี้ในการผ่าตัด <b>lobectomy</b> ใน <b>lung abscess</b>",
+  "why": "Lung abscess ส่วนใหญ่ (~80–90%) หายด้วย<b>ยาปฏิชีวนะ + postural drainage</b> · ข้อบ่งชี้ผ่าตัด (lobectomy/ segmentectomy): ก้อน<b>ใหญ่ &gt; 6 cm</b>, <b>ไม่ดีขึ้นหลังยาปฏิชีวนะ ~2 สัปดาห์</b>, ฝี<b>คงอยู่/ โตขึ้น</b>, <b>ไอเป็นเลือดมาก</b>, สงสัย<b>มะเร็ง</b> · ฝีที่<b>แตกเข้าช่องเยื่อหุ้มปอด</b>ทำให้เกิด empyema/ pyopneumothorax → การรักษาแรกคือ<b>ใส่ท่อระบายทรวงอก (ICD)</b> ไม่ใช่ lobectomy ทันที · ไฟล์ขีด D ลายมือ <b>\"→ ICD\"</b> ติ๊ก ✓ ที่ A, B, C, E · สไลด์ที่แปะ (Indication for Surgery) มีบรรทัด \"Ruptured to Pleural space\" ด้วย แต่ผู้จดเลือก D โดยเขียน \"→ ICD\"",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่ใช่ข้อบ่งชี้) ถ้าฝีใหญ่เกิน 6 cm แต่ตอบสนองต่อยาและระบายออกทางหลอดลมได้ดี (ไข้ลง โพรงเล็กลง) — ให้ยาต่อจนครบ",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่ใช่ข้อบ่งชี้) ถ้าฝีไม่ดีขึ้นเพราะมีสิ่งอุดหลอดลมต้นทาง (สิ่งแปลกปลอมหรือก้อน) — ส่องกล้องหลอดลมเอาสิ่งอุดออกหรือหาสาเหตุก่อน",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่ใช่ข้อบ่งชี้ตัดกลีบปอดทันที) ถ้าเลือดหยุดได้ด้วย bronchial artery embolization ในผู้ป่วยที่เสี่ยงผ่าตัดสูง",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่ไม่ใช่ข้อบ่งชี้ lobectomy) ถ้าผู้ป่วยมีโรคร่วมมากหรือสมรรถภาพปอดไม่พอสำหรับตัดกลีบปอด — ใช้เจาะระบายฝีผ่านผิวหนังแทน"
+   "A": "เป็นข้อบ่งชี้ — ฝีใหญ่ &gt; 6 cm ตอบสนองต่อยาไม่ดี (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าฝีขนาด 3 cm ที่ยุบลงด้วยยา",
+   "B": "เป็นข้อบ่งชี้ — CXR ไม่ดีขึ้นหลังยาปฏิชีวนะ 2 สัปดาห์ (ลายมือ ✓) (คีย์ไฟล์ Key 1 ขีดข้อนี้) · จะถูกถ้าช้อยบอกว่าไข้ลงและฝียุบภายใน 1 สัปดาห์ของยา",
+   "C": "เป็นข้อบ่งชี้ — ไอเป็นเลือดมาก (ลายมือ ✓) อาจต้อง embolization ก่อนแล้วผ่าตัด · จะถูกถ้าช้อยบอกว่าเสมหะมีเลือดปนเล็กน้อย",
+   "E": "เป็นข้อบ่งชี้ — ฝีคงอยู่/ โตขึ้นแม้ได้ยา (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าฝีค่อย ๆ เล็กลงระหว่างได้ยา"
   },
-  "trap": "เห็น \"ฝีแตก\" แล้วคิดว่ารุนแรงขึ้นจึงต้องตัดกลีบปอด — ฝีแตกเข้า pleura คือ pyopneumothorax ที่ต้องระบายช่องเยื่อหุ้มปอดก่อน · การผ่าตัดตามมาภายหลังเมื่อ empyema ระบายไม่หมด (decortication) หรือ bronchopleural fistula ไม่ปิด",
+  "trap": "คิดว่าฝีแตกเข้าเยื่อหุ้มปอดต้องตัดปอดทันที — ต้องระบาย (ICD) ก่อน · คีย์ไฟล์ Key 1 ขีด B",
   "summary": [
-   "ข้อบ่งชี้ผ่าตัดตามสไลด์: ฝี > 6 cm · ไม่ดีขึ้นหลังให้ยาเหมาะสม · ฝีโตต่อเนื่อง · ไอเป็นเลือดมาก · สงสัยมะเร็ง — ส่วนฝีแตกเข้า pleura ใส่ ICD ก่อน",
-   "<b>นอกสไลด์:</b> ฝีปอดส่วนใหญ่ (ราว 80–90%) หายด้วยยาปฏิชีวนะที่ครอบคลุม anaerobe (เช่น ampicillin-sulbactam, clindamycin) นานราว 4–6 สัปดาห์หรือจนภาพดีขึ้น · ผู้ที่ไม่ดีขึ้นเจาะระบายก่อนผ่าตัด"
+   "Lung abscess: ATB นาน 4–6 สัปดาห์ + postural drainage",
+   "ห้ามใส่ ICD ในฝีที่ยังไม่แตก (เสี่ยง bronchopleural fistula/ empyema)",
+   "ผ่าตัด: &gt; 6 cm · ไม่ดีขึ้น 2 สัปดาห์ · คงอยู่/ โต · ไอเลือดมาก · สงสัยมะเร็ง",
+   "แตกเข้าเยื่อหุ้มปอด → empyema/ pyopneumothorax → ICD",
+   "ฝีที่ไม่ตอบสนองยา ผ่าตัดไม่ได้ → percutaneous drainage",
+   "สาเหตุพบบ่อย: สำลัก (anaerobes) · ตำแหน่ง posterior segment RUL/ superior segment RLL"
   ],
-  "opinion": "ตอบ D ตามคีย์ลายมือ ความมั่นใจปานกลาง — คีย์ไฟล์ 01.2 ตอบ B (ระยะ 2 สัปดาห์อาจสั้นไปสำหรับคำว่าล้มเหลว แต่สไลด์นับเป็นข้อบ่งชี้)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลาง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ขีด D + \"→ ICD\") · คีย์ไฟล์ Key 1 ขีด B ซึ่งเป็นข้อบ่งชี้จริงตามสไลด์ (CXR not better after 2 week ATB) · สไลด์ในไฟล์ระบุ ruptured to pleural space เป็นข้อบ่งชี้ผ่าตัดด้วย แต่การจัดการเร่งด่วนคือ ICD ก่อน",
+  "mnemonic": "<b>'ฝีปอดแตกเข้า pleura = ICD ก่อน (ไม่ใช่ตัดปอดทันที)'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1); Sabiston Textbook of Surgery 21st ed. (2022) — Lung infections",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายสูงอายุสูบบุหรี่ โพรงในปอดผนังหนาไม่สม่ำเสมอ ไข้ต่ำ ๆ น้ำหนักลด → สงสัยมะเร็งปอดที่มีโพรง: ส่องหลอดลมและตัดชิ้นเนื้อ ไม่ใช่ให้ยาฝีอย่างเดียว",
-   "<b>นอกสไลด์:</b> ผู้ป่วยฉีดยาเสพติดเข้าเส้น ไข้สูง มีโพรงเล็กหลายจุดกระจายทั้งสองปอด → septic emboli จาก tricuspid endocarditis: เพาะเชื้อในเลือดและทำ echo"
+   "ฝีปอด 8 cm ไม่ดีขึ้นหลัง ATB 3 สัปดาห์ → lobectomy",
+   "ฝีปอดแตกเข้าเยื่อหุ้มปอด → ICD",
+   "ฝีปอดไอเป็นเลือด 300 mL/ วัน → bronchial artery embolization → lobectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 79 — ตัวพิมพ์: <b>74. Which of the following is not indications for \"lobectomy\" in pleural abscess? — A) &gt; 6 cm B) ATB ไม่หายใน 2 wks C) Massive hemoptysis D) แตกเข้า pleura E) Persistent and enlarging abscess</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"lobectomy\" · ✓ ที่ A, B, C, E · ขีด D + \"→ ICD\"<br>ไฮไลต์: \"not indications for lobectomy in pleural abscess\" · A–E (เหลือง/ ส้ม)<br>รูปที่แปะ: ① สไลด์ Treatment — No ICD !!! · Antibiotic · Postural Drainage · Segmental resection or Lobectomy ② สไลด์ Indication for Surgery — &gt; 6 cm · Persistent or enlarging abscess · CXR not better after 2 week ATB · Massive Hemoptysis · Ruptured to Pleural space · R/O CA (พร้อมลายมือเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 67: ขีด B (⚠ ต่างจากคีย์ MCQ Key 2)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 79",
+  "kimg": [
+   "fsk_p79",
+   "kp68c_74",
+   "kp68c_74b",
+   "k2p_67"
   ]
  },
  "MDCU68|RoC|89": {
-  "interp": "ข้อ NOT — หาการเตรียมลำไส้ที่ไม่เหมาะ · แต่ละช้อยต่างกันที่อายุ ชนิดยาระบาย และหัตถการ",
-  "why": "<b>ลายมือ: PEG = ✓</b><br><b>นอกสไลด์:</b> sodium phosphate เป็นยาระบายชนิดดึงน้ำเข้าลำไส้ (hyperosmotic) ทำให้ขาดน้ำและฟอสเฟตสูง → ผลึกแคลเซียมฟอสเฟตตกในท่อไต (acute phosphate nephropathy) ไตเสียถาวรได้ · ความเสี่ยงสูงในผู้สูงอายุ (ราว ≥ 55–60 ปี) ไตเสื่อม หัวใจล้มเหลว ขาดน้ำ หรือกินยา ACEI/ARB/ยาขับปัสสาวะ/NSAIDs — หญิง 60 ปีจึงไม่ควรใช้",
+  "interp": "ถามข้อที่<b>ไม่เหมาะสม</b>ในการเตรียมลำไส้ (bowel preparation)",
+  "why": "<b>Sodium phosphate (NaP)</b> เป็น hyperosmotic ใช้ปริมาณน้อย (~90 mL) แต่ทำให้<b>ขาดน้ำ เกลือแร่ผิดปกติ และ acute phosphate nephropathy</b> โดยเฉพาะใน<b>ผู้สูงอายุ</b> ไตเสื่อม หัวใจล้มเหลว ใช้ยา ACEI/ ARB/ diuretic → ไม่ควรใช้ในหญิง 60 ปีก่อนผ่าตัดใหญ่ (ข้อ C) · <b>PEG (polyethylene glycol)</b> เป็น isosmotic ปลอดภัยกว่า (ดื่ม 2–4 L) ใช้ได้ทั้งก่อนส่องกล้องและผ่าตัด · ปัจจุบันก่อนผ่าตัดลำไส้ใหญ่แนะนำ <b>mechanical bowel prep + oral antibiotics</b> · ไฟล์ขีด C ลายมือ <b>\"(PEG)\"</b> ที่ A, B และแปะสรุปลายมือ <b>Tx bowel preparation</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นการเตรียมที่ไม่เหมาะ) ถ้าชาย 50 ปีที่จะส่องกล้องมีลำไส้ใหญ่อักเสบรุนแรงหรือ toxic megacolon — ห้ามให้ยาระบายแรงทุกชนิด",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นการเตรียมที่ไม่เหมาะ) ถ้ามะเร็งอุดตันลำไส้ (ปวดท้อง ท้องอืด ไม่ผายลม) — ห้ามให้ยาระบายทางปาก",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นการเตรียมที่ไม่เหมาะ) ถ้าหญิง 40 ปีที่จะส่องกล้องมีไตเสื่อม หัวใจล้มเหลว หรือกิน ACEI/ARB/ยาขับปัสสาวะ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ทุกช้อยเหมาะสม\" เป็นจริง เพราะ sodium phosphate ปริมาณสูงในผู้หญิงอายุ 60 ปีเสี่ยงไตวายจากฟอสเฟตและไม่ใช่ทางเลือกที่แนะนำ"
+   "A": "เหมาะสม — PEG 2–3 L ก่อนส่องกล้องในชาย 50 ปี (ลายมือ \"PEG\") · จะถูกถ้าผู้ป่วยมีลำไส้อุดตัน (ห้ามเตรียมลำไส้ทางปาก)",
+   "B": "เหมาะสม — PEG คืนก่อนผ่าตัดมะเร็งไส้ตรง (ลายมือ \"PEG\") · จะถูกถ้าผู้ป่วยมะเร็งไส้ตรงมีการอุดตัน",
+   "D": "ยอมรับได้มากกว่า — NaP ในหญิงอายุน้อย 40 ปี ไตปกติ ความเสี่ยงต่ำกว่า · จะถูกถ้าหญิง 40 ปีมีไตเสื่อม/ ใช้ยาขับปัสสาวะ",
+   "E": "มีข้อที่ไม่เหมาะสม (C) · จะถูกถ้าทุกช้อยเป็นการเตรียมที่ปลอดภัย"
   },
-  "trap": "คิดว่า sodium phosphate ปริมาณน้อย ดื่มง่าย จึงเหมาะกับผู้สูงอายุ — ปริมาตรน้อยแต่ดึงน้ำมาก ยิ่งในผู้สูงอายุยิ่งเสี่ยงไต · PEG เป็นสารละลายสมดุลที่ไม่ดึงน้ำออกจากร่างกาย จึงปลอดภัยกว่าแม้ต้องดื่มมาก",
+  "trap": "คิดว่า NaP ดีกว่าเพราะดื่มน้อย — เสี่ยงไตวาย/ เกลือแร่ผิดปกติในผู้สูงอายุ",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อห้ามของยาเตรียมลำไส้ทุกชนิด: ลำไส้อุดตัน ทะลุ toxic colitis · sodium phosphate เลี่ยงในผู้สูงอายุ ไตเสื่อม หัวใจล้มเหลว ตับแข็งมีน้ำในท้อง ขาดน้ำ และผู้ที่กินยากลุ่มที่ลดเลือดไปไต",
-   "<b>นอกสไลด์:</b> ก่อนผ่าตัดลำไส้ใหญ่แบบนัด แนวทางปัจจุบันแนะนำเตรียมลำไส้ร่วมกับยาปฏิชีวนะชนิดกิน (เช่น neomycin + metronidazole) เพื่อลดแผลติดเชื้อ"
+   "PEG: isosmotic · ปลอดภัย · ดื่ม 2–4 L (split dose ดีที่สุด)",
+   "NaP: hyperosmotic · ดื่มน้อย · เสี่ยง dehydration/ acute phosphate nephropathy",
+   "ห้ามเตรียมทางปากเมื่อลำไส้อุดตัน (ทะลุได้)",
+   "ก่อนผ่าตัดลำไส้ใหญ่: MBP + oral ATB (neomycin + metronidazole)",
+   "Conventional (อาหารอ่อน + ยาระบาย + enema): ใช้ในอดีต",
+   "Whole-bowel irrigation ด้วย NSS: ปริมาณมาก เสี่ยงน้ำเกิน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ไฟล์ Key 1 ไม่ได้ขีด) · ช้อย D ต้นฉบับไม่ครบ (\"female, 40-year-old, … 90ml before colonoscope\")",
+  "mnemonic": "<b>'ผู้สูงอายุ + Sodium Phosphate = ไตพัง (ใช้ PEG)'</b>",
+  "guide": "US Multi-Society Task Force: Optimizing Adequacy of Bowel Cleansing for Colonoscopy (Gastroenterology 2014;147:903); ASCRS Clinical Practice Guidelines for Enhanced Recovery after Colon and Rectal Surgery (Dis Colon Rectum 2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> นัด colonoscopy 9 โมงเช้า → ใช้ PEG แบบแบ่งสองครั้ง (split dose): ครึ่งหนึ่งเย็นก่อนวันตรวจ อีกครึ่งเช้าวันตรวจ ดื่มให้หมดก่อนตรวจอย่างน้อยราว 2 ชม. ลำไส้สะอาดกว่าดื่มครั้งเดียว",
-   "<b>นอกสไลด์:</b> ผู้ป่วยไตเสื่อมระยะ 4 ต้อง colonoscopy → ใช้ PEG · เลี่ยงทั้ง sodium phosphate และ magnesium citrate (magnesium คั่งในไตเสื่อม)"
+   "ชาย 70 ปี CKD เตรียมส่องกล้อง → PEG (เลี่ยง NaP)",
+   "มะเร็งไส้ตรงอุดตัน → ห้ามเตรียมลำไส้ทางปาก",
+   "ก่อนผ่าตัด sigmoid → PEG + oral neomycin/ metronidazole"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 79 — หัวข้อ Colorectal · ตัวพิมพ์: <b>89. Which of the following is not appropriate in bowel preparation? — A) male, 50-year-old, polyp ethylene glycol 2-3 L before colonoscope B) male, 60-year-old, polyp ethylene glycol 2-3 L at night before rectal cancer surgery next day C) female, 60-year-old, sodium phosphate 90ml at night before rectal cancer surgery next day D) female, 40-year-old, … 90ml before colonoscope E) none of above</b><br>ลายมือ: \"(PEG)\" ที่ A, B · ขีด C<br>ไฮไลต์: \"not appropriate\" \"bowel preparation\" · A, B (ส้ม) · C (เหลือง)<br>รูปที่แปะ: สรุปลายมือ Tx bowel preparation — Mechanical: Conventional method (กินอาหารอ่อน + ยาระบาย + normal saline enema · ใช้มานาน · for คนที่มี Hx gut obs.) · Whole bowel irrigation: NSS (ไม่นิยม ต้องใช้ปริมาณมาก ~10 L, water intox, E'lyte imbalance) · <b>PEG</b>: isoosmotic solution ↓ water intox, E'lyte imm. แต่ต้องดื่ม 3–4 L · <b>Hyperosmotic solution (NaP)</b>: ใช้แค่ 90–100 mL but ระวัง dehydra · คนที่เป็น gut obs. ไม่ได้ → bowel dila → perfora. · ATB: คลุม gram -, anaerobe<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 67: ไม่มีขีด",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 79",
+  "kimg": [
+   "fsk_p79",
+   "kp68c_89",
+   "k2p_67"
   ]
  },
  "MDCU68|RoD|1": {
-  "interp": "เทียบโอกาสเลือดออกซ้ำของรอยโรคหลอดเลือดสมองที่แตกแล้ว → หาตัวที่แตกซ้ำสูงสุด",
-  "why": "<b>ลายมือ: aneurysm อันดับ 1 · AVM อันดับ 2</b><br><b>นอกสไลด์:</b> aneurysm ที่แตกถูกอุดรูด้วยก้อนเลือดบาง ๆ ที่ผนังซึ่งไม่มีเนื้อเยื่อซ่อม — เมื่อก้อนเลือดถูกละลายหรือความดันขึ้นจึงแตกซ้ำได้ง่าย สูงสุดใน 24 ชม.แรก และการแตกซ้ำทำให้ตายราวครึ่ง",
+  "interp": "ถามรอยโรคที่<b>เสี่ยงเลือดออกซ้ำมากที่สุด</b>",
+  "why": "<b>Ruptured intracranial aneurysm</b> เสี่ยงแตกซ้ำสูงสุด — ~4–13% ใน 24 ชม.แรก และ ~50% ใน 6 เดือนถ้าไม่รักษา (แตกซ้ำอัตราตาย ~50–70%) → ปิด aneurysm โดยเร็ว · อันดับสอง <b>ruptured AVM</b> (~6–18% ในปีแรก) · cavernoma ~4.5%/ ปี · hypertensive hemorrhage (thalamic/ pontine) ~2%/ ปี · ไฟล์ขีด E ลายมือ E <b>\"1st\"</b> · D <b>\"2nd\"</b> (หัวกระดาษ AC Subspe Surgery Rotate 4 MDCU 68)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ cavernoma มีอัตราเลือดออกซ้ำสูงในวันแรก ๆ เพราะเป็นโพรงหลอดเลือดความดันต่ำที่เลือดซึมออกช้า ความเสี่ยงซ้ำนับเป็นร้อยละต่อปี",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hypertensive thalamic hemorrhage มีการแตกซ้ำสูงสุด เพราะหลอดเลือดแดงเล็กที่แตกอุดไปเอง — ที่พบในวันแรกคือก้อนเลือดขยาย (hematoma expansion) ไม่ใช่การแตกซ้ำ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pontine hemorrhage จากความดันสูงมีการแตกซ้ำสูงสุด เพราะกลไกเดียวกับ thalamic (หลอดเลือดเล็กแตกแล้วอุด) ความรุนแรงมาจากตำแหน่งที่ก้านสมอง ไม่ใช่การออกซ้ำ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ AVM ที่แตกเลือดออกซ้ำเร็วในระดับวัน เพราะเลือดไหลผ่าน nidus ลงหลอดเลือดดำ ความดันที่จุดแตกต่ำ อัตราแตกซ้ำจึงนับเป็นร้อยละต่อปี (สูงสุดในปีแรก)"
+   "A": "Ruptured cavernoma เลือดออกซ้ำ ~4.5%/ ปี (สูงขึ้นที่ก้านสมอง) · จะถูกถ้าคำถามถามรอยโรคที่ MRI เป็น popcorn + hemosiderin rim",
+   "B": "Thalamic (hypertensive) hemorrhage เลือดออกซ้ำต่ำ ~2%/ ปี · จะถูกถ้าคำถามถามตำแหน่งเลือดออกจากความดันสูงที่ทำให้ชาครึ่งซีก",
+   "C": "Pontine hemorrhage เลือดออกครั้งแรกรุนแรง (pinpoint pupils, coma) แต่เลือดออกซ้ำต่ำ · จะถูกถ้าคำถามถามเลือดออกจากความดันสูงที่พยากรณ์แย่ที่สุด",
+   "D": "Ruptured AVM เป็นอันดับสอง (ลายมือ \"2nd\") · จะถูกถ้าคำถามถามรอยโรคที่เลือดออกซ้ำรองจาก aneurysm"
   },
-  "trap": "เลือก AVM เพราะจำว่า \"AVM เลือดออกบ่อย\" — AVM เป็นสาเหตุเลือดออกในสมองที่พบบ่อยในคนอายุน้อย แต่อัตราแตกซ้ำต่อวันต่ำกว่า aneurysm มาก",
+  "trap": "เลือก AVM — aneurysm ที่แตกแล้วแตกซ้ำเร็วและบ่อยกว่า",
   "summary": [
-   "<b>นอกสไลด์:</b> ป้องกันแตกซ้ำของ aneurysm: ปิด aneurysm (coil หรือ clip) เร็วที่สุด เป้าภายในราว 24 ชม. · ระหว่างรอ คุมความดัน (มักให้ SBP &lt; 160 mmHg) ด้วยยาฉีดออกฤทธิ์สั้น (nicardipine, labetalol) ระงับปวด ให้นอนพัก · ยาต้านการละลายลิ่มเลือดระยะสั้นลดการแตกซ้ำแต่ไม่ได้ทำให้ผลลัพธ์ดีขึ้น จึงไม่ใช้เป็นประจำ"
+   "Ruptured aneurysm: แตกซ้ำสูงสุด (~50% ใน 6 เดือน)",
+   "Ruptured AVM: ~6–18% ปีแรก",
+   "Cavernoma ~4.5% · hypertensive ~2% · venous angioma ~0.15%",
+   "SAH: ปิด aneurysm ภายใน 24–72 ชม.",
+   "Nimodipine 21 วัน ป้องกัน delayed cerebral ischemia",
+   "ควบคุม SBP &lt; 160 ก่อนปิด aneurysm"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'Aneurysm แตกแล้ว = แตกซ้ำ 1st · AVM = 2nd'</b>",
+  "guide": "AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)",
   "variants": [
-   "<b>นอกสไลด์:</b> SAH ที่ coil ปิด aneurysm แล้ว วันที่ 7 ซึมลงและอ่อนแรงใหม่ → vasospasm (ไม่ใช่แตกซ้ำเพราะปิดแล้ว): ตรวจ TCD/CTA (CT ตัด hydrocephalus ก่อน) คง euvolemia ให้ nimodipine ต่อ พิจารณาเพิ่มความดันหรือรักษาทางหลอดเลือด (ยาขยายหลอดเลือด, angioplasty)",
-   "<b>นอกสไลด์:</b> SAH ที่เลือดอยู่รอบ midbrain เท่านั้น angiogram ไม่พบ aneurysm → perimesencephalic SAH: แตกซ้ำน้อยมาก พยากรณ์ดี"
+   "SAH Fisher 3 จาก ACom aneurysm → coil/ clip ภายใน 24 ชม.",
+   "AVM แตกในวัยรุ่น → ผ่าตัด/ radiosurgery",
+   "เลือดออก thalamus ในผู้ป่วยความดันสูง → ควบคุมความดัน"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 88 — หัวกระดาษ: AC Subspe Surgery Rotate 4 MDCU 68 (มีกล่องข้อความคำคมของอาจารย์ด้านบน) · ตัวพิมพ์: <b>1. ข้อใดมีความเสี่ยงจะเกิด rebleeding มากที่สุด — A. Ruptured cavernoma B. Thalamic hemorrhage C. Pontine hemorrhage D. Ruptured AVM E. Ruptured aneurysm</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · D \"2nd\" · ขีด E + \"1st\"<br>ไฮไลต์: \"เสี่ยงจะเกิด rebleeding มากที่สุด\" · E (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 69: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 88",
+  "kimg": [
+   "fsk_p88",
+   "kp68d_1",
+   "k2p_69"
   ]
  },
  "MDCU68|RoD|7": {
-  "interp": "เนื้องอกต่อมใต้สมองโตขึ้นด้านบนกด optic chiasm → ถามลานสายตาที่ผิดปกติ",
-  "why": "<b>คีย์: ขีด C</b><br><b>นอกสไลด์:</b> ใยประสาทจากจอตาด้าน nasal (รับภาพลานสายตาด้าน temporal) ไขว้กันที่กลาง chiasm ก้อนที่ดันขึ้นจากใต้ chiasm จึงกดใยที่ไขว้ก่อน → เสียลานสายตาด้านนอกทั้งสองตา (bitemporal hemianopia)",
+  "interp": "<b>Pituitary tumor</b> → ถามความผิดปกติของลานสายตาที่คาดว่าจะพบ",
+  "why": "ก้อน pituitary (macroadenoma) โตขึ้นด้านบน (suprasellar extension) กด<b>กลาง optic chiasm</b> ซึ่งเป็นที่ไขว้ของใยประสาทจาก<b>จอตาด้าน nasal</b> (รับภาพลานสายตาด้าน temporal) → <b>bitemporal hemianopia</b> (มักเริ่มที่ superior temporal quadrant ก่อนเพราะกดจากด้านล่าง) · ไฟล์ขีด C",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ diplopia เป็นความผิดปกติของลานสายตา เพราะเกิดจากกล้ามเนื้อกลอกตาทำงานไม่ประสานกัน (เส้นประสาท III, IV, VI) — ในเนื้องอกต่อมใต้สมองเกิดเมื่อก้อนลามเข้า cavernous sinus ซึ่งเป็นคนละอาการ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ก้อนต่อมใต้สมองทำให้ superior quadrantanopia ด้านเดียวกันสองตา เพราะรูปแบบนี้เกิดจากรอยโรคที่ Meyer loop ใน temporal lobe ซึ่งอยู่ไกลจาก sella",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ก้อนต่อมใต้สมองทำให้ binasal hemianopia เพราะต้องกดด้านนอกของ chiasm ทั้งสองข้างพร้อมกัน — ก้อนที่ดันจากกึ่งกลางกดใยที่ไขว้ ไม่ใช่ใยด้านนอก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนโตเบี่ยงไปทางขวาจนกด optic tract ขวา (หรือ chiasm อยู่ค่อนไปทางหน้า) — เสียลานสายตาซีกซ้ายทั้งสองตา"
+   "A": "Diplopia เกิดจากก้อนลุกลามด้านข้างเข้า cavernous sinus (CN III, IV, VI) หรือ apoplexy · จะถูกถ้าคำถามถาม pituitary apoplexy ที่มีตาเหล่/ หนังตาตกทันที",
+   "B": "Right superior quadrantanopia (pie in the sky) เกิดจากรอยโรค left temporal lobe (Meyer loop) · จะถูกถ้าก้อนอยู่ที่ left temporal lobe",
+   "D": "Binasal hemianopia พบน้อย เกิดจากกดด้านข้างของ chiasm ทั้งสองข้าง (เช่น ICA calcified) · จะถูกถ้าคำถามถามรอยโรคที่กดด้านนอกของ chiasm สองข้าง",
+   "E": "Left homonymous hemianopia เกิดจากรอยโรคหลัง chiasm ด้านขวา (optic tract/ radiation/ occipital) · จะถูกถ้าก้อนอยู่ที่ right occipital lobe"
   },
-  "trap": "ผู้ป่วยมักไม่รู้ตัวว่าลานสายตาด้านข้างหายจนชนของหรือขับรถเฉี่ยว และการตรวจ confrontation พลาดได้ในระยะแรก — สงสัยก้อนต่อมใต้สมองต้องตรวจลานสายตาด้วยเครื่อง (perimetry)",
+  "trap": "สับสน bitemporal (chiasm) กับ homonymous (หลัง chiasm)",
   "summary": [
-   "<b>นอกสไลด์:</b> ลำดับการเสียลานสายตา: ก้อนต่อมใต้สมองกดจากด้านล่าง → เสียด้าน temporal ส่วนบนก่อน (superior bitemporal quadrantanopia) แล้วจึงครึ่งซีก · craniopharyngioma กดจากด้านบน → เสียส่วนล่างก่อน · ก้อนที่ไม่ได้อยู่กลางกด optic nerve (ตามัวตาเดียว) หรือ optic tract (homonymous) ได้"
+   "Optic nerve: ตาบอดข้างเดียว",
+   "Chiasm (pituitary, craniopharyngioma): bitemporal hemianopia",
+   "Optic tract/ radiation/ occipital: homonymous hemianopia ด้านตรงข้าม",
+   "Temporal (Meyer loop): superior quadrantanopia (pie in the sky)",
+   "Parietal: inferior quadrantanopia",
+   "Occipital: macular sparing"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Pituitary กด Chiasm = Bitemporal (เหมือนใส่ที่ปิดตาม้าสองข้าง)'</b>",
+  "guide": "Greenberg Handbook of Neurosurgery 10th ed. (2023) — Pituitary adenomas; visual field localization",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย macroadenoma ปวดศีรษะรุนแรงทันที ตามัวสองข้าง หนังตาตก ความดันต่ำ → pituitary apoplexy: ให้ hydrocortisone ทันที แล้วพิจารณาผ่าตัดลดแรงกด",
-   "<b>นอกสไลด์:</b> ตาขวามัวมี central scotoma ร่วมลานสายตาด้าน temporal บนของตาซ้ายลด → junctional scotoma: ก้อนกดรอยต่อ optic nerve ขวากับ chiasm"
+   "ชาย 50 ปีชนสิ่งของด้านข้างทั้งสองข้าง → bitemporal hemianopia → MRI pituitary",
+   "ปวดหัวทันที ตามัว ตาเหล่ ก้อน pituitary → apoplexy",
+   "เด็กเตี้ย bitemporal hemianopia ก้อนมีหินปูน → craniopharyngioma"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 88 — ตัวพิมพ์: <b>7. Pituitary tumor what is the visual field defect should be in this patient ? — A. Diplopia B. Right superior quadrantanopia C. Bitemporal hemianopia D. Binasal hemianopia</b><br>ลายมือ: ขีด C<br>ไฮไลต์: \"Pituitary tumor what is the visual field defect\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 69: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 88",
+  "kimg": [
+   "fsk_p88",
+   "kp68d_7",
+   "k2p_69"
   ]
  },
  "MDCU68|RoD|12": {
-  "interp": "บาดเจ็บศีรษะ + pupil ซ้ายโตไม่ตอบสนอง + decorticate ซีกขวา = ก้อนซีกซ้ายกดจน uncal herniation → ถามการวินิจฉัย",
-  "why": "<b>คีย์: ขีด B</b><br><b>นอกสไลด์:</b> ก้อนซีกซ้ายดัน uncus กดเส้นประสาท III ซ้าย (pupil ซ้ายโต) และ cerebral peduncle ซ้าย ซึ่งใย corticospinal ยังไม่ข้ามฝั่ง → อาการซีกขวา · หลังกระแทกศีรษะ ก้อนที่โตเร็วจนเกิด herniation และเป็นคำตอบที่คีย์ต้องการคือ acute EDH (เลือดแดงจาก middle meningeal artery)",
+  "interp": "ชายบาดเจ็บศีรษะ <b>decorticate ขวา รูม่านตาซ้าย 5 mm ไม่ตอบสนองแสง</b> → ถามการวินิจฉัย",
+  "why": "รูม่านตาซ้ายขยายไม่ตอบสนองแสง + อ่อนแรง/ posturing ด้านขวา = <b>uncal herniation จากก้อนด้านซ้าย</b> ในผู้บาดเจ็บศีรษะเฉียบพลัน → <b>acute epidural hematoma</b> (ตามคีย์) — มักจาก middle meningeal artery ใต้รอยร้าว temporal · CT: biconvex · lucid interval แล้วแย่ลงเร็ว → craniotomy ด่วน · (acute SDH ก็ทำให้ herniation ได้ และพบบ่อยกว่าในบาดเจ็บรุนแรง แต่ข้อสอบชุดนี้ใช้ EDH เป็นตัวอย่าง herniation คลาสสิก) · ไฟล์ขีด B (ลายมือ \"ซ้ำ\")",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าอาการค่อย ๆ เป็นหลายวันถึงสัปดาห์หลังบาดเจ็บ ปวดศีรษะเรื้อรัง และ CT เห็น EDH ความหนาแน่นต่ำหรือผสม (เลือดออกช้าจากหลอดเลือดดำ)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า CT เห็นเลือดรูปจันทร์เสี้ยวข้ามรอยต่อกะโหลก มักในผู้สูงอายุหรือแรงเร่ง-หน่วงที่ทำให้ bridging vein ฉีก และมักมีสมองช้ำร่วม",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ traumatic SAH อย่างเดียวทำให้ pupil โตข้างเดียวร่วม posturing ซีกตรงข้าม เพราะเลือดกระจายบาง ๆ ในร่องสมอง ไม่เป็นก้อนกดเบียดซีกใดซีกหนึ่ง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ intraventricular hemorrhage อย่างเดียวทำให้สัญญาณข้างเดียวแบบนี้ เพราะเลือดในโพรงสมองทำให้ hydrocephalus และความดันในกะโหลกสูงทั่ว ๆ ไม่ได้ดันซีกเดียว"
+   "A": "Chronic EDH พบน้อยมาก อาการค่อยเป็น ไม่ใช่ herniation เฉียบพลัน · จะถูกถ้าคำถามถาม EDH จากเลือดดำที่ค่อย ๆ สะสมในเด็ก",
+   "C": "Acute SDH ทำให้ herniation ได้เช่นกัน (bridging veins, crescent) แต่ข้อสอบนี้ใช้ EDH · จะถูกถ้าผู้สูงอายุหกล้ม หมดสติตั้งแต่ต้น CT รูปจันทร์เสี้ยว",
+   "D": "Traumatic SAH มักไม่ทำให้ uncal herniation เฉียบพลันข้างเดียว · จะถูกถ้า CT เห็นเลือดใน sulci ไม่มีก้อนกด",
+   "E": "IVH มักทำให้ hydrocephalus ไม่ใช่ herniation ข้างเดียว · จะถูกถ้า CT เห็นเลือดในโพรงสมองและโพรงสมองโต"
   },
-  "trap": "decorticate (แขนงอ ขาเหยียด) บอกรอยโรคเหนือระดับ red nucleus ส่วน decerebrate (แขนขาเหยียดหมุนเข้า) บอกการกดระดับ midbrain ลงไปและพยากรณ์แย่กว่า — อย่าสลับสองคำนี้เวลาอ่านโจทย์และให้คะแนน GCS (M3 กับ M2)",
+  "trap": "ลืมใช้ข้างรูม่านตาขยายบอกตำแหน่ง — ก้อนอยู่ข้างเดียวกับรูม่านตาขยาย (ซ้าย)",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ผ่าตัด EDH (Brain Trauma Foundation): ปริมาตร > 30 mL ผ่าตัดทุกรายไม่ว่า GCS เท่าใด · GCS &lt; 9 ร่วม pupil ไม่เท่ากัน → ผ่าตัดเร็วที่สุด · รักษาแบบไม่ผ่าตัดได้เมื่อ &lt; 30 mL หนา &lt; 15 mm midline shift &lt; 5 mm GCS > 8 ไม่มี focal deficit โดย CT ซ้ำและเฝ้าดูใกล้ชิดในศูนย์ที่ผ่าตัดได้"
+   "Uncal herniation: รูม่านตาขยายข้างเดียวกับก้อน + อ่อนแรงด้านตรงข้าม",
+   "EDH: middle meningeal a. · biconvex · lucid interval",
+   "SDH: bridging veins · crescent · ผู้สูงอายุ/ สุรา",
+   "EDH &gt; 30 mL หรือ GCS ≤ 8 + anisocoria → craniotomy ด่วน",
+   "Kernohan notch: อ่อนแรงข้างเดียวกับก้อน",
+   "ระหว่างรอผ่าตัด: ยกศีรษะ · mannitol/ hypertonic saline · hyperventilation ชั่วคราว"
   ],
-  "opinion": "ตามคีย์ B (ตรงกันทั้งสองไฟล์) ความมั่นใจปานกลาง — recall ไม่บอก lucid interval หรือภาพ CT จึงแยกจาก acute SDH ไม่ได้แน่นอน (scenario เต็มอยู่ใน RoB 26–28 ของชุดนี้)",
+  "opinion": "เห็นด้วยกับคำตอบ B ตามคีย์ ความมั่นใจปานกลาง — ตรงกับคีย์ทั้งสองไฟล์ · ข้อมูลในโจทย์ (herniation ข้างซ้าย) เข้าได้ทั้ง EDH และ acute SDH แต่คีย์เลือก EDH",
+  "mnemonic": "<b>'บาดเจ็บศีรษะ + รูม่านตาขยายข้างเดียว = ก้อนเลือดข้างนั้น (EDH คลาสสิก)'</b>",
+  "guide": "Brain Trauma Foundation: Surgical Management of Acute Epidural Hematomas (Neurosurgery 2006;58:S2-7); ATLS 10th ed. (2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กล้มท้ายทอยกระแทก อาเจียนซ้ำ ซึมลง CT พบ EDH ที่ posterior fossa กด fourth ventricle → ผ่าตัดเร็ว เพราะ posterior fossa มีที่ว่างน้อยและกดก้านสมองเร็ว",
-   "<b>นอกสไลด์:</b> ชาย 30 ปี GCS 14 ไม่มีอ่อนแรง CT พบ EDH ปริมาตร 40 mL → ผ่าตัดเอาเลือดออก แม้ยังรู้สึกตัวดี"
+   "ถูกตีขมับซ้าย หมดสติแล้วตื่น แล้วซึมลง รูม่านตาซ้ายขยาย → EDH ซ้าย",
+   "ผู้สูงอายุหกล้ม GCS 7 CT crescent ซ้าย shift 12 mm → acute SDH → craniotomy",
+   "decorticate ข้างเดียวกับรูม่านตาขยาย → Kernohan notch"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 88 — ตัวพิมพ์: <b>12. Male patient come with head trauma. PE: Rt. decorticate, Lt. pupil 5mm NRTL. What is the diagnosis? — A. Chronic epidural hematoma B. Acute epidural hematoma C. Subdural hematoma D. Subarachnoid hemorrhage. E. Intraventricular hemorrhage</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · ขีด B<br>ไฮไลต์: B (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 69: ขีด B (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 88",
+  "kimg": [
+   "fsk_p88",
+   "kp68d_12",
+   "k2p_69"
   ]
  },
  "MDCU68|RoD|13": {
-  "interp": "ผู้ป่วยเดิมที่ก้อนอยู่ซีกซ้าย pupil ซ้ายโต แต่ตรวจซ้ำพบ posturing ข้างซ้าย (ข้างเดียวกับก้อน) → ถามชื่อปรากฏการณ์",
-  "why": "<b>คีย์: ขีด B</b><br><b>นอกสไลด์:</b> Kernohan notch phenomenon: ก้อนซีกซ้ายดันก้านสมองทั้งก้อนไปทางขวาจน cerebral peduncle ขวาไปกดขอบ tentorium — ใย corticospinal ที่ peduncle ขวาไปควบคุมร่างกายซีกซ้าย จึงอ่อนแรง/posturing ข้างเดียวกับก้อน",
+  "interp": "ผู้ป่วยเดียวกับข้อก่อน แต่ตรวจซ้ำพบ <b>decorticate ด้านซ้าย (ข้างเดียวกับรูม่านตาซ้ายที่ขยาย)</b> CT ยืนยันก้อนเลือดด้านซ้าย → ถามชื่อปรากฏการณ์",
+  "why": "<b>Kernohan notch phenomenon</b>: ก้อนด้านซ้ายดัน midbrain ไปชิดขอบ tentorium ด้านขวา → cerebral peduncle ด้านขวาถูกกด (corticospinal ด้านขวาเลี้ยงร่างกายซีกซ้าย) → อ่อนแรง/ posturing <b>ข้างเดียวกับก้อน</b> = false localizing sign · จึงต้องใช้<b>ข้างรูม่านตาขยาย</b>และ CT บอกตำแหน่ง · ไฟล์ขีด B (ลายมือ \"ซ้ำ\")",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าต้องอธิบายว่าทำไมการระบาย CSF ทาง EVD หรือการลด CO2 ทำให้ ICP ลด — ปริมาตรรวมในกะโหลกคงที่ ลดส่วนหนึ่งจึงชดเชยส่วนที่เพิ่มได้",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเลือดออกใน posterior fossa ความดันเลือดพุ่ง ชีพจรช้า หายใจผิดจังหวะ — ปฏิกิริยาต่อ ICP ที่สูงมาก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า CT หลังผ่าตัดเอา SDH ที่มี herniation ลงล่างออก เห็นเลือดใหม่แนวกลาง pons จากแขนงหลอดเลือดที่ถูกยืดฉีก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าวันที่ 2 หลังบาดเจ็บศีรษะมีรอยช้ำหลังหู ร่วมเลือดหลังแก้วหูหรือน้ำใสไหลจากหู (ฐานกะโหลกส่วน petrous หัก)"
+   "A": "Monro-Kellie doctrine: ปริมาตรในกะโหลกคงที่ ไม่ใช่ชื่อปรากฏการณ์อ่อนแรงข้างเดียวกัน · จะถูกถ้าคำถามถามหลักการที่อธิบายว่าทำไม CSF/ เลือดดำถูกเบียดออกเมื่อมีก้อน",
+   "C": "Cushing triad: HT + bradycardia + หายใจผิดปกติ จาก ICP สูง · จะถูกถ้าคำถามถามสัญญาณชีพก่อน herniation",
+   "D": "Duret hemorrhage: เลือดออกในก้านสมองจาก herniation ลงล่าง · จะถูกถ้าคำถามถามรอยโรคที่ pons หลัง herniation",
+   "E": "Battle sign: รอยช้ำหลังหูจากกะโหลกฐานแตก (middle fossa) · จะถูกถ้าคำถามถามอาการแสดงของ basilar skull fracture"
   },
-  "trap": "คิดว่า Kernohan คือ pupil โตข้างเดียวกับก้อน — นั่นคือ uncal herniation ปกติ (CN III ถูกกด) · Kernohan หมายถึงอ่อนแรงหรือ posturing ข้างเดียวกับก้อน (false localizing sign)",
+  "trap": "ใช้ด้านอ่อนแรงบอกข้างรอยโรคแล้วผ่าผิดข้าง — Kernohan ทำให้อ่อนแรงข้างเดียวกับก้อน",
   "summary": [
-   "<b>นอกสไลด์:</b> Kernohan เกิดได้กับก้อนเหนือ tentorium ที่ใหญ่พอดันก้านสมองเบี้ยวไปด้านข้าง (EDH, SDH ทั้งเฉียบพลันและเรื้อรัง เนื้องอก)",
-   "<b>นอกสไลด์:</b> central herniation (กดลงตรง ๆ) ต่างจาก uncal: pupil เล็กสองข้างแต่ยังตอบสนอง หายใจแบบ Cheyne-Stokes ก่อน → pupil กลางขยับไม่ได้ decerebrate → ระยะท้ายเกิด Duret hemorrhage"
+   "Kernohan notch: อ่อนแรงข้างเดียวกับก้อน (false localizing)",
+   "รูม่านตาขยาย = ข้างก้อน (แม่นกว่า)",
+   "Cushing triad: ICP สูงมาก",
+   "Duret hemorrhage: ก้านสมองเลือดออกหลัง herniation",
+   "Battle sign/ raccoon eyes: basilar skull fracture",
+   "CT ยืนยันข้างก่อนผ่าตัดเสมอ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง — recall เดิม (posturing ขวา) เป็นอาการปกติของก้อนซีกซ้าย จึงแก้ stem ให้ posturing อยู่ข้างเดียวกับก้อนตามคีย์",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 2 ช้อย จึงเติม C–E",
+  "mnemonic": "<b>'Kernohan = Knock ไปฝั่งตรงข้าม → อ่อนแรงข้างเดียวกับก้อน'</b>",
+  "guide": "Greenberg Handbook of Neurosurgery 10th ed. (2023) — Herniation syndromes",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้รอดจาก uncal herniation ตาบอดครึ่งซีกข้างตรงข้ามก้อน → posterior cerebral artery ถูกกดกับขอบ tentorium จน occipital lobe ขาดเลือด",
-   "<b>นอกสไลด์:</b> ผู้ป่วยก้อนซีกซ้ายที่ pupil ซ้ายโตอยู่ ต่อมา pupil ขวาโตตามและหายใจผิดจังหวะ → herniation ลุกลามกดก้านสมองทั้งสองข้าง: ลด ICP ทันทีและผ่าตัดด่วน"
+   "รูม่านตาขวาขยาย อ่อนแรงขวา → Kernohan → ก้อนขวา",
+   "ICP สูง BP 210/110 HR 45 → Cushing reflex",
+   "หลังศีรษะกระแทก รอยช้ำหลังหู → basilar skull fracture"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 88 — ตัวพิมพ์: <b>13. โจทย์เหมือนข้อ 12 ถามว่าเรียกว่าปรากฏการณ์อะไร — A. Monro-Kellie phenomenon B. Kernohan phenomenon</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · ขีด B<br>ไฮไลต์: B \"Kernohan phenomenon\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 69: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ระบุในโจทย์ว่า posturing ย้ายมาข้างซ้าย · ต้นฉบับมี 2 ช้อย → เติม C–E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 88",
+  "kimg": [
+   "fsk_p88",
+   "kp68d_13",
+   "k2p_69"
   ]
  },
  "MDCU68|RoD|5": {
-  "interp": "ถามภาวะ hydrocephalus ที่ \"ห้าม\" เจาะหลัง · แยก obstructive (CSF ไหลไม่ถึงช่องไขสันหลัง) ออกจาก communicating",
-  "why": "<b>ลายมือ: B, C = CSF absorption</b> (ผิดที่การดูดซึม = communicating)<br><b>นอกสไลด์:</b> aqueductal stenosis เป็น obstructive hydrocephalus: CSF ค้างอยู่ในโพรงเหนือจุดอุด ถ้าเจาะหลังลดความดันด้านล่าง จะเกิดความดันต่างระหว่างเหนือกับใต้ tentorium ดึงสมองเลื่อนลง (herniation)",
+  "interp": "ถาม<b>ข้อห้ามในการเจาะหลัง (LP)</b> ในภาวะ hydrocephalus",
+  "why": "LP ห้ามใน <b>obstructive (non-communicating) hydrocephalus</b> เช่น <b>aqueductal stenosis</b> — CSF ใน supratentorial ระบายไม่ได้ การเจาะหลังลดความดันด้านล่าง → ความต่างความดันข้ามช่อง → <b>transtentorial/ tonsillar herniation</b> · ส่วน <b>communicating hydrocephalus</b> (NPH, หลัง meningitis, หลัง SAH — ปัญหาการดูดซึม CSF ที่ arachnoid granulations) ทางเดิน CSF ต่อกัน → LP ทำได้ (ใช้วินิจฉัย/ รักษา เช่น tap test ใน NPH) · ไฟล์ขีด D ลายมือ B, C <b>\"} ⊖ CSF absorption\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ normal pressure hydrocephalus เป็นข้อห้ามเจาะหลัง เพราะเป็น communicating hydrocephalus ที่ CSF ไหลถึงกันทุกช่องและความดันเปิดมักปกติ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเยื่อหุ้มสมองอักเสบทำให้ aqueduct ตีบหรือรูออกของ fourth ventricle อุด (ภาพเห็น lateral กับ third ventricle โตแต่ fourth ventricle ปกติ) — กลายเป็น obstructive",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเลือดในโพรงสมองหล่ออุด aqueduct หรือ fourth ventricle (intraventricular clot) — ใช้ external ventricular drain แทนการเจาะหลัง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ communicating hydrocephalus เป็นข้อห้ามเจาะหลังโดยตัวเอง เพราะช่องทางไหลเปิดถึงช่องไขสันหลัง ความดันจึงเท่ากันทั้งระบบ ไม่เกิดแรงดึงสมองลง"
+   "A": "NPH เป็น communicating hydrocephalus → LP ทำได้และใช้ทำ tap test · จะถูกถ้าคำถามถามการทดสอบก่อนใส่ VP shunt ใน NPH",
+   "B": "Post-meningitis hydrocephalus ส่วนใหญ่ communicating (ดูดซึม CSF ลดลง — ลายมือ) · จะถูกถ้าเกิด ventriculitis ทำให้ aqueduct ตีบ (obstructive)",
+   "C": "Post-SAH hydrocephalus ส่วนใหญ่ communicating (ดูดซึมลดลง — ลายมือ) · จะถูกถ้ามีก้อนเลือดอุดใน fourth ventricle (obstructive)",
+   "E": "Communicating hydrocephalus LP ทำได้ (คีย์ไฟล์ Key 1 ขีดข้อนี้) · จะถูกถ้าคำถามถามภาวะที่ใช้ lumbar drain ได้"
   },
-  "trap": "เห็นคำว่า hydrocephalus แล้วตอบห้ามเจาะหลังทุกชนิด — ห้ามเฉพาะ obstructive หรือมีก้อนกดเบียด · communicating ใช้เจาะหลังวินิจฉัยหรือระบายได้",
+  "trap": "คิดว่า hydrocephalus ทุกชนิดห้ามเจาะหลัง — ห้ามเฉพาะชนิดอุดตัน (non-communicating) · คีย์ไฟล์ Key 1 ขีด E",
   "summary": [
-   "<b>นอกสไลด์:</b> แยกชนิดจากภาพ: obstructive โตเฉพาะโพรงเหนือจุดอุด (aqueductal stenosis = lateral + third ventricle โต, fourth ventricle ปกติ) · communicating โตทุกโพรงรวม fourth ventricle · สาเหตุ communicating ที่พบบ่อย: หลังเยื่อหุ้มสมองอักเสบ หลัง SAH และ NPH"
+   "Obstructive: aqueductal stenosis · ก้อน posterior fossa · ก้อนอุด foramen of Monro → ห้าม LP",
+   "Communicating: NPH · หลัง meningitis · หลัง SAH → LP ได้",
+   "ข้อห้าม LP อื่น: mass effect · ICP สูงจากก้อน · coagulopathy · ติดเชื้อที่ผิวหนังบริเวณเจาะ",
+   "CT ก่อน LP: papilledema · focal deficit · ซึม · ชัก · ภูมิต่ำ",
+   "Aqueductal stenosis → ETV หรือ VP shunt",
+   "NPH triad: เดินผิดปกติ · สมองเสื่อม · ปัสสาวะกลั้นไม่อยู่"
   ],
-  "opinion": "เห็นด้วยกับคีย์ลายมือ D ความมั่นใจสูง — คีย์ไฟล์ 01.2 ตอบ E ซึ่งเป็น communicating จึงไม่ใช่ข้อห้าม",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 และลายมือ · คีย์ไฟล์ Key 1 ขีด E (communicating hydrocephalus) ซึ่งไม่ใช่ข้อห้าม",
+  "mnemonic": "<b>'อุดตัน (Obstructive) = Off limits สำหรับ LP'</b>",
+  "guide": "Greenberg Handbook of Neurosurgery 10th ed. (2023) — Hydrocephalus; IDSA Practice Guidelines for Bacterial Meningitis (Clin Infect Dis 2004;39:1267) — CT before LP",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กหัวโตจาก aqueductal stenosis → endoscopic third ventriculostomy (เจาะพื้น third ventricle ให้ CSF ไหลออกสู่ cistern) เลี่ยงการใส่ shunt",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุเดินลำบาก หลงลืม ปัสสาวะราด ภาพโพรงสมองโตทุกโพรง → สงสัย NPH: เจาะหลังเอา CSF ราว 30–50 mL (tap test) ถ้าเดินดีขึ้นจึงใส่ VP shunt"
+   "ผู้สูงอายุเดินลำบาก หลงลืม ปัสสาวะราด โพรงสมองโต → NPH → tap test",
+   "เด็กหัวโต MRI aqueduct ตีบ → ETV",
+   "ก้อน cerebellum + hydrocephalus → ห้าม LP → EVD/ ผ่าตัด"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 88 — ตัวพิมพ์: <b>5. What is contraindication of LP? — A. Normal pressure hydrocephalus B. Post meningitis hydrocephalus C. Post SAH hydrocephalus D. Congenital aqueduct stenosis with hydrocephalus E. Communicating hydrocephalus</b><br>ลายมือ: ปีกกา B–C \"⊖ CSF absorption\" · ขีด D<br>ไฮไลต์: \"contraindication of LP\" · D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 69: ขีด E (⚠ ต่างจากคีย์ MCQ Key 2)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 88",
+  "kimg": [
+   "fsk_p88",
+   "kp68d_5",
+   "k2p_69"
   ]
  },
  "MDCU68|RoD|17": {
-  "interp": "หนังหุ้มปลายถูกรูดค้างหลังหัวองคชาตแล้วบวมรัด (paraphimosis) หลังมีเพศสัมพันธ์ → ถามการจัดการแรก",
-  "why": "<b>ลายมือ: paraphimosis → manual reduction · ลำดับสอง dorsal slit · ตามด้วย elective circumcision</b><br><b>นอกสไลด์:</b> วงหนังที่รัดทำให้เลือดดำและน้ำเหลืองคั่ง หัวองคชาตยิ่งบวมยิ่งรัด จนขาดเลือดได้ — ต้องลดบวมและดันกลับให้เร็ว ส่วนใหญ่ทำได้ด้วยมือโดยไม่ต้องผ่าตัด",
+  "interp": "ชายมีเพศสัมพันธ์ 2 วันก่อน ตอนนี้<b>หนังหุ้มปลายบวมรัดอยู่ใต้ (หลัง) หัวองคชาต</b> → <b>paraphimosis</b> → ถามการจัดการ",
+  "why": "Paraphimosis = หนังหุ้มปลายถูกรูดค้างหลังหัวองคชาต รัดจนบวม → ขาดเลือด/ เนื้อตายได้ = <b>ภาวะฉุกเฉิน</b> · การรักษาเป็นขั้นตอน: ยาชา/ ยาระงับปวด ± <b>penile nerve block</b> → <b>ลดบวม</b> (บีบด้วยมือ/ ผ้าพันยืด, เจาะเข็ม 24G หลายจุด) → <b>manual reduction</b> (ใช้นิ้วโป้งดันหัวองคชาต นิ้วชี้-กลางดึงหนังกลับ) · ถ้าไม่สำเร็จ → <b>dorsal slit</b> · แล้วนัด<b>ขลิบ (elective circumcision)</b> ภายหลัง · ไฟล์ขีด B ลายมือ <b>\"paraphimosis\"</b> · \"2nd รองลงมา ↓ elective circumcision\" และแปะสไลด์ <b>Treatment</b> · <b>Manual reduction</b> · <b>Dorsal slit</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ยาปฏิชีวนะอย่างเดียวแก้ paraphimosis เพราะปัญหาคือวงหนังรัดทางกล ต้องคลายการรัด ยาไม่ได้ลดบวม",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าลดบวมและดันกลับด้วยมือแล้วไม่สำเร็จ — กรีดวงรัดด้านบน (dorsal slit) ใต้ยาชา",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าหนังหุ้มที่รัดเน่าตายหรือติดเชื้อรุนแรงจนเก็บไว้ไม่ได้ — ตัดหนังส่วนนั้นออก (circumcision) ทันที",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เฝ้าดู paraphimosis เพราะยิ่งรอยิ่งบวมรัดมากขึ้นจนหัวองคชาตขาดเลือด — เป็นภาวะเร่งด่วนทางระบบปัสสาวะ"
+   "A": "ยาปฏิชีวนะไม่แก้การรัด · จะถูกถ้ามี balanoposthitis ร่วมหลังลดการรัดแล้ว",
+   "C": "Dorsal slit เป็นขั้นที่สองเมื่อ manual reduction ไม่สำเร็จ (ลายมือ \"2nd\") · จะถูกถ้าพยายามดันกลับแล้วไม่สำเร็จ หรือหนังบวมแข็งมาก",
+   "D": "Circumcision ฉุกเฉินไม่จำเป็นถ้าดันกลับได้ ให้ทำแบบนัดภายหลัง (ลายมือ \"elective circumcision\") · จะถูกถ้าหนังหุ้มเนื้อตายแล้ว",
+   "E": "ห้ามเฝ้าดู เสี่ยงหัวองคชาตขาดเลือด · จะถูกถ้าคำถามถาม physiologic phimosis ในเด็กที่ไม่มีอาการ"
   },
-  "trap": "เห็นหัวองคชาตบวมแดงมากแล้วคิดว่าต้องผ่าตัดฉุกเฉิน — ส่วนใหญ่ลดบวมแล้วดันกลับได้ · การขลิบทำแบบนัดภายหลังเมื่อหายบวมเพื่อกันเป็นซ้ำ",
+  "trap": "สับสน paraphimosis (ฉุกเฉิน รัดหลังหัว) กับ phimosis (รูดไม่ลง ไม่ฉุกเฉิน)",
   "summary": [
-   "<b>นอกสไลด์:</b> การดันกลับ: ระงับปวด (penile block) → ลดบวมด้วยการบีบรัดด้วยผ้าก๊อซหลายนาที ประคบเย็น หรือเจาะรูเล็กหลายจุดให้น้ำออก → ใช้นิ้วโป้งดันหัวองคชาตเข้าพร้อมนิ้วอื่นดึงหนังมาด้านหน้า · ไม่สำเร็จ → dorsal slit · หายบวมแล้วนัดขลิบ"
+   "Paraphimosis: หนังรูดค้างหลังหัว → บวม → ขาดเลือด",
+   "สาเหตุ: เพศสัมพันธ์ · สวนปัสสาวะแล้วลืมรูดกลับ · ทำความสะอาด",
+   "ขั้นตอน: analgesia ± penile block → ลดบวม → manual reduction",
+   "ไม่สำเร็จ → dorsal slit → elective circumcision",
+   "ป้องกัน: รูดหนังกลับทุกครั้งหลังสวน/ ทำความสะอาด",
+   "Phimosis: รูดไม่ลง ไม่ฉุกเฉิน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Paraphimosis = Push back (manual) → Slit → Snip ภายหลัง'</b>",
+  "guide": "EAU Guidelines on Paediatric Urology 2024 — Phimosis/ paraphimosis; Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายสูงอายุคาสายสวนปัสสาวะในหอผู้ป่วย หัวองคชาตบวม หนังรัดอยู่หลังหัว → paraphimosis จากรูดหนังแล้วไม่รูดคืน: ดันกลับ และรูดหนังคืนทุกครั้งหลังทำความสะอาดหรือใส่สาย",
-   "<b>นอกสไลด์:</b> เด็ก 4 ขวบ หนังหุ้มปลายรูดลงไม่ได้ ไม่บวม ไม่มีอาการ → physiologic phimosis: ไม่ต้องรักษา (หรือทา steroid) และห้ามรูดแรง เพราะเป็นสาเหตุของ paraphimosis"
+   "ชายสูงอายุหลังสวนปัสสาวะ หนังรูดค้างบวม → manual reduction",
+   "ดันกลับไม่สำเร็จ หัวองคชาตคล้ำ → dorsal slit",
+   "เด็กรูดหนังไม่ลง ไม่มีอาการ → phimosis → observe"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 88 — ตัวพิมพ์: <b>17. ผู้ชายมีsexual intercourse มา2วัน มีprepuce บวมใต้gland managementคือ — A. ATB B. Manual reduction C. Dorsal split D. Circumcision</b><br>ลายมือ: \"paraphimosis\" · ขีด B · \"2nd รองลงมา ↓ elective circumcision\" ที่ C<br>ไฮไลต์: \"sexual intercourse มา2วัน มีprepuce บวมใต้gland management\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment — Emergency condition · Step by step · Analgesia, sedation, +/- penile nerve block · Compression with gloved hand or 2 inch bandage · Multiple punctures with 24 G needle at foreskin / สไลด์ Manual reduction — Counteract glans penis with both thumbs · Reduce edematous foreskin with both index and middle fingers / ภาพ Dorsal slit<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 69: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 88",
+  "kimg": [
+   "fsk_p88",
+   "kp68d_17",
+   "k2p_69"
   ]
  },
  "MDCU68|RoD|22": {
-  "interp": "ชาย 65 ปี LUTS ต่อมเรียบไม่มีก้อน แต่ PSA 8 → ถามขั้นตอนถัดไป · ประเด็นคือ PSA ที่สูงต้องจัดการก่อน LUTS",
-  "why": "<b>ลายมือ: PSA > 4</b><br><b>นอกสไลด์:</b> PSA สูงต้องตัดมะเร็งต่อมลูกหมากก่อนแม้ DRE เรียบ — มะเร็งส่วนใหญ่อยู่ใน peripheral zone และระยะต้นคลำไม่ได้ (T1c) · การประเมินและรักษา LUTS ทำต่อได้หลังรู้ผล",
+  "interp": "ชาย 65 ปี <b>LUTS</b> (เบ่ง ปัสสาวะไม่พุ่ง ตื่นกลางคืน 2–3 ครั้ง) DRE ต่อมโตเรียบไม่มี nodule แต่ <b>PSA 8</b> → ถามขั้นต่อไป",
+  "why": "แม้ DRE เรียบ แต่ <b>PSA &gt; 4 ng/mL</b> → ต้องหามะเร็งต่อมลูกหมากก่อนรักษา BPH → <b>TRUS-guided biopsy</b> (ปัจจุบันนิยม mpMRI ก่อนแล้ว targeted + systematic biopsy) · ห้ามเริ่ม 5-ARI/ ผ่าตัดก่อนเพราะจะพลาดมะเร็ง · ไฟล์ขีด C ลายมือ <b>\"&gt; 4\"</b> ใต้ PSA",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้ามีปัสสาวะเป็นเลือด (ต้องตรวจหามะเร็งกระเพาะปัสสาวะ) หรือสงสัยท่อปัสสาวะตีบจากประวัติสวนหรือบาดเจ็บ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นชายที่ PSA ปกติแต่ปัสสาวะคั่งซ้ำหลังลองถอดสายแล้วไม่สำเร็จ — ข้อบ่งชี้ผ่าตัดชัด ทำ TURP ได้เลยโดยไม่ต้องลองยาอีก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า PSA ปกติ (หรือตรวจซ้ำแล้วกลับมาปกติ) และกำลังประเมินว่าอาการเกิดจากการอุดตันหรือไม่",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นชายอายุราว 40–50 ปี PSA ต่ำกว่า 1 ng/mL ที่เลือกคัดกรอง — ความเสี่ยงต่ำมาก ตรวจซ้ำห่างหลายปีได้"
+   "A": "Cystoscopy ดูท่อปัสสาวะ/ กระเพาะ ไม่ได้ชิ้นเนื้อต่อมลูกหมาก · จะถูกถ้าผู้ป่วยมีปัสสาวะเป็นเลือดต้องหามะเร็งกระเพาะปัสสาวะ",
+   "B": "TURP ทันทีโดยไม่หามะเร็งก่อนไม่เหมาะ และอาการยังไม่ถึงข้อบ่งชี้ผ่าตัด · จะถูกถ้า biopsy ลบ อาการรุนแรงไม่ตอบสนองยา หรือ retention ซ้ำ",
+   "D": "Uroflowmetry ประเมินการไหล ไม่ตัดมะเร็ง · จะถูกถ้า PSA ปกติ ต้องการประเมินความรุนแรงของการอุดตัน",
+   "E": "รอ PSA ซ้ำ 5 ปีไม่เหมาะเมื่อ PSA สูงแล้ว · จะถูกถ้า PSA &lt; 1 ในชายอายุ 50 ปี (คัดกรองห่างได้)"
   },
-  "trap": "คิดว่าทำ TURP แล้วส่งชิ้นเนื้อแทนการ biopsy ได้ — TURP ตัดเนื้อจาก transition zone แต่มะเร็งส่วนใหญ่อยู่ peripheral zone จึงไม่ใช่วิธีวินิจฉัยมะเร็ง",
+  "trap": "รักษา BPH ตามอาการเพราะ DRE เรียบ — PSA สูงต้องตัดมะเร็งก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> สาเหตุ PSA สูงที่ไม่ใช่มะเร็ง: ต่อมโต (BPH) ต่อมอักเสบ/UTI สวนปัสสาวะหรือปัสสาวะคั่ง หลั่งน้ำอสุจิไม่นาน → ตัดสาเหตุเหล่านี้และตรวจซ้ำก่อนตัดสินใจ biopsy · ยังไม่เริ่มรักษา LUTS แบบรุกรานจนกว่าเรื่อง PSA ชัด"
+   "PSA &gt; 4 → ตรวจซ้ำ ± mpMRI → biopsy",
+   "DRE เรียบไม่ตัดมะเร็ง (มะเร็งที่ anterior/ transition zone คลำไม่ได้)",
+   "5-ARI ลด PSA ~50%",
+   "BPH: alpha-blocker ± 5-ARI · ผ่าตัดเมื่อมีข้อบ่งชี้",
+   "PSA สูงได้จาก BPH/ ต่อมอักเสบ/ หลังสวนปัสสาวะ",
+   "Biopsy ลบ PSA ยังสูง → MRI + repeat biopsy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (ตรงกันทั้งสองไฟล์) ความมั่นใจสูง — ปัจจุบันหลายแนวทางทำ MRI ต่อมลูกหมากก่อน biopsy",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับช้อย D คือ MRI ซึ่งปัจจุบันเหมาะเป็นขั้นแรกก่อน biopsy",
+  "mnemonic": "<b>'LUTS + PSA &gt; 4 = Biopsy ก่อน BPH'</b>",
+  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer 2024; AUA/SUO Guideline: Early Detection of Prostate Cancer (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 65 ปี LUTS PSA 8 ทำ MRI ต่อมลูกหมากได้ PI-RADS 2 และ PSA density ต่ำ → เลี่ยง biopsy ได้ กลับมารักษา LUTS ตามปกติและติดตาม PSA",
-   "<b>นอกสไลด์:</b> ชาย 60 ปี LUTS IPSS 20 DRE เรียบ PSA 1.5 ต่อมราว 40 mL → เริ่ม alpha-blocker ไม่ต้อง biopsy"
+   "ชาย 70 ปี LUTS PSA 2 ต่อมเรียบ → alpha-blocker",
+   "ชาย 60 ปี PSA 9 → mpMRI → PI-RADS 4 → targeted biopsy",
+   "biopsy ลบ PSA ยังขึ้น → repeat MRI/ biopsy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 88 — ตัวพิมพ์: <b>22 ผู้ป่วยอายุ 65 ปี มาด้วยอาการต้องเบ่งปัสสาวะ ปัสสาวะไม่พุ่ง ตื่นมาปัสสาวะตอนกลางคืน 2-3 ครั้งต่อคืน ตรวจร่างกายคลำได้ต่อมลูกหมากโต ผิวเรียบ ไม่พบ nodule PSA ได้ 8 ทำอะไรต่อ — A. cystoscope B. ทำ TURP เลย C. TRUS และ biopsy D. MRI</b><br>ลายมือ: \"&gt; 4\" ใต้ PSA · ขีด C<br>ไฮไลต์: \"65 ปี\" \"ต้องเบ่งปัสสาวะ ปัสสาวะไม่พุ่ง ตื่นมาปัสสาวะตอนกลางคืน 2-3 ครั้ง\" \"คลำได้ต่อมลูกหมากโต ผิวเรียบ\" \"PSA ได้ 8\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 69: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย D, E เขียนใหม่",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 88",
+  "kimg": [
+   "fsk_p88",
+   "kp68d_22",
+   "k2p_69"
   ]
  },
  "MDCU68|RoD|23": {
-  "interp": "LUTS นานแล้วมีปัสสาวะเล็ดเวลาไอจาม + ปัสสาวะค้างมาก + ไตบวมน้ำสองข้าง = overflow incontinence จาก chronic retention ที่ทำให้ไตเสีย → ถามการรักษา",
-  "why": "<b>ลายมือ: ปัสสาวะค้าง + hydronephrosis → Foley</b><br><b>นอกสไลด์:</b> ระบายกระเพาะปัสสาวะก่อนเพื่อลดความดันที่ย้อนขึ้นไต ให้ไตฟื้น แล้วจึงแก้การอุดตันถาวรด้วยการผ่าตัดต่อม (ต่อมราว 60 g) เพราะปัสสาวะคั่งเรื้อรังจนไตเสียเป็นข้อบ่งชี้ผ่าตัดใน BPH",
+  "interp": "ชายมี LUTS 10 เดือน <b>7 วันนี้ปัสสาวะเล็ดเวลาไอจาม</b> ต่อมโต 60 g เรียบ <b>US ไตบวมน้ำสองข้าง + ปัสสาวะค้างในกระเพาะ</b> PSA 8 → ถามการจัดการ",
+  "why": "ปัสสาวะเล็ดเมื่อไอจามในชาย BPH ที่มีปัสสาวะค้างมาก = <b>overflow incontinence จาก chronic urinary retention</b> (กระเพาะเต็มจนล้น) และเกิด<b>ไตบวมน้ำสองข้าง</b> (high-pressure chronic retention → เสี่ยงไตเสื่อม) → <b>ระบายกระเพาะปัสสาวะทันทีด้วย Foley catheter</b> (ดูไตฟื้น ระวัง post-obstructive diuresis) แล้ว<b>แนะนำผ่าตัดต่อมลูกหมาก</b> (ไตบวมน้ำ/ ไตเสื่อมจาก BPH เป็นข้อบ่งชี้ผ่าตัด) · PSA 8 ในภาวะ retention/ สวนปัสสาวะอาจสูงขึ้นได้ ควรตรวจซ้ำหลังระบาย/ ประเมินมะเร็งก่อนผ่าตัด · ไฟล์ขีด A ลายมือ <b>\"stress incontinence\"</b> เหนือ \"ไอจามฉี่เล็ด\" ลากลูกศรจาก hydronephrosis และ residual urine ไปที่ <b>\"Retained foley catheter\"</b> และ \"prostatectomy?\"",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ยาอย่างเดียวพอในปัสสาวะคั่งเรื้อรังจนไตบวมน้ำทั้งสองข้าง เพราะยาลดการอุดตันได้น้อยและช้า ระหว่างนั้นไตเสื่อมต่อ — ต้องระบายกระเพาะปัสสาวะก่อน",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าคาสายระบายกระเพาะปัสสาวะดีแล้วแต่ไตยังบวมน้ำไม่ยุบ — สงสัยการอุดที่ท่อไตเอง (เช่นมะเร็งต่อมลูกหมากลุกลามกดรูเปิดท่อไต) ต้องตรวจท่อไตต่อ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าไตที่อุดตันติดเชื้อเป็นหนอง (pyonephrosis) จากการอุดที่ระดับท่อไต ผู้ป่วยมีไข้ช็อก — ระบายไตโดยตรงทั้งสองข้าง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เฝ้าดูในปัสสาวะคั่งเรื้อรังร่วมไตบวมน้ำ เพราะความดันที่ย้อนขึ้นไตทำให้ไตเสื่อมถาวรถ้าไม่ระบาย"
+   "B": "ยาอย่างเดียวไม่พอเมื่อมี chronic retention + ไตบวมน้ำ ต้องระบายก่อน · จะถูกถ้าผู้ป่วย BPH ต่อม 60 g มี LUTS ไม่มี retention/ ไตบวมน้ำ",
+   "C": "Retrograde ureterogram ไม่จำเป็น สาเหตุไตบวมน้ำคือกระเพาะเต็ม (bladder outlet obstruction) · จะถูกถ้าสงสัยการอุดตันที่ท่อไตข้างเดียว (นิ่ว/ เนื้องอก)",
+   "D": "Bilateral PCN ไม่จำเป็นเพราะระบายด้วยสายสวนทางท่อปัสสาวะได้ (ไตบวมน้ำจากกระเพาะ) · จะถูกถ้าไตบวมน้ำสองข้างจากการอุดตันที่ท่อไต (มะเร็งปากมดลูกลุกลาม)",
+   "E": "ห้ามเฝ้าดูเมื่อมีไตบวมน้ำและ retention · จะถูกถ้า PSA สูงเล็กน้อย ไม่มี retention ต้องการตรวจซ้ำ"
   },
-  "trap": "ปัสสาวะเล็ดเวลาไอจามชวนให้คิดว่าเป็น stress incontinence — ในชายที่ปัสสาวะค้างมากและไตบวมน้ำ คือกระเพาะเต็มจนล้น แรงดันในท้องที่เพิ่มเวลาไอจึงดันให้ล้นออก",
+  "trap": "ตีความปัสสาวะเล็ดเวลาไอว่าเป็น stress incontinence ธรรมดา — ในชาย BPH ที่มีปัสสาวะค้าง = overflow ต้องระบาย",
   "summary": [
-   "<b>นอกสไลด์:</b> high-pressure chronic retention: คาสาย → ตรวจ creatinine ซ้ำจนคงที่ → แก้การอุดตันถาวร (TURP หรือ open/enucleation ตามขนาดต่อม) · ผ่าตัดไม่ได้ → คาสายระยะยาวหรือสวนเป็นครั้งคราว",
-   "<b>นอกสไลด์:</b> PSA สูงขณะปัสสาวะคั่งหรือหลังใส่สายเชื่อถือไม่ได้ → ตรวจซ้ำหลังระบายหลายสัปดาห์ก่อนตัดสินใจ biopsy"
+   "Chronic retention + ไตบวมน้ำสองข้าง → Foley ทันที",
+   "ระวัง post-obstructive diuresis (ปัสสาวะ &gt; 200 mL/ชม.)",
+   "Overflow incontinence: กระเพาะเต็มจนล้น (ไอ/ จามแล้วเล็ด)",
+   "ข้อบ่งชี้ผ่าตัด BPH: retention ซ้ำ · ไตเสื่อม/ บวมน้ำ · นิ่ว · UTI ซ้ำ · hematuria ซ้ำ",
+   "PSA สูงขึ้นได้จาก retention/ สวนปัสสาวะ",
+   "ตรวจ creatinine ก่อน-หลังระบาย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง — ลายมือคีย์จดว่า stress incontinence แต่ภาพนี้คือ overflow",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 (ไฟล์ Key 1 ไม่ได้ขีด) · ลายมือเขียน stress incontinence แต่ในบริบทนี้เป็น overflow incontinence · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'BPH + ไตบวมน้ำ = สาย (Foley) ก่อน แล้วผ่า'</b>",
+  "guide": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2024; AUA Guideline: Management of LUTS Attributed to BPH (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ใส่สายได้ปัสสาวะ 2 L ตามด้วยปัสสาวะออกราว 400 mL/ชม. ต่อเนื่อง → post-obstructive diuresis: ดูสัญญาณชีพ เกลือแร่ และให้สารน้ำทดแทนบางส่วน",
-   "<b>นอกสไลด์:</b> หลังผ่าตัดต่อมแล้วยังปัสสาวะไม่ออก urodynamic พบกระเพาะปัสสาวะบีบตัวไม่ได้ → สวนปัสสาวะเป็นครั้งคราว (CISC)"
+   "ชาย BPH ปัสสาวะเล็ดตลอด ท้องน้อยโป่ง creatinine สูง → chronic retention → Foley",
+   "หลังใส่ Foley ปัสสาวะออก 400 mL/ชม. → post-obstructive diuresis → ให้สารน้ำ",
+   "BPH + นิ่วในกระเพาะปัสสาวะ → TURP + cystolitholapaxy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 89 — ตัวพิมพ์: <b>23. 10 เดือน มี LUTS 7วันมีไอจามฉี่เล็ด PR เจอต่อมโต 60 กรัม เรียบ ไม่แข็ง u/s เจอ Hydronephrosis 2 ข้าง Residual urine in bladder PSA = 8 management? — A. Retained foley catheter &amp; Advice for prostatectomy B. 5-ARI &amp; alpha blocker C. Ureterogram</b><br>ลายมือ: \"stress incontinence\" เหนือ \"ไอจามฉี่เล็ด\" · ลูกศรจาก \"Hydronephrosis 2 ข้าง\" และ \"Residual urine\" ไป A · \"prostatectomy?\" · ขีด A<br>ไฮไลต์: \"LUTS 7วันมีไอจามฉี่เล็ด\" \"PR เจอต่อมโต 60 กรัม เรียบ ไม่แข็ง\" \"Hydronephrosis 2 ข้าง Residual urine in bladder\" \"PSA = 8\" · A (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 70: ไม่มีขีด<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 89",
+  "kimg": [
+   "fsk_p89",
+   "kp68d_23",
+   "k2p_70"
   ]
  }
 }
