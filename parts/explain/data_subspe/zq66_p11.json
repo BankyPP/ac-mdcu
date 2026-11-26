@@ -1,175 +1,299 @@
 {
  "MDCU66|RoC|11": {
-  "interp": "ชายหนุ่ม แสบขัด 2 วันหลังมีเพศสัมพันธ์ + pyuria → urethritis จากเพศสัมพันธ์ → รักษาครอบคลุมทั้ง gonorrhea และ chlamydia",
-  "why": "<b>ลายมือ: Tx N. gonorrhea, C. trachomatis</b><br><b>นอกสไลด์:</b> urethritis ในชายรักษา empirical ครอบคลุมสองเชื้อ เพราะติดร่วมกันบ่อยและแยกด้วยอาการไม่ได้ — ช้อย E เป็นช้อยเดียวที่ครอบคลุมทั้งคู่",
+  "interp": "ชาย 25 ปี มีเพศสัมพันธ์กับหญิงบริการ 2 วันต่อมามีปัสสาวะแสบขัด UA WBC 10–20 = <b>acute urethritis จาก STI</b> ถามการรักษา",
+  "why": "Urethritis หลังเพศสัมพันธ์ต้องรักษาครอบคลุมทั้ง <b>N. gonorrhoeae</b> และ <b>C. trachomatis</b> (มักติดร่วม) → ช้อยเดียวที่ครอบคลุมทั้งคู่คือ <b>ciprofloxacin + doxycycline</b> · ไฟล์ขีด E ลายมือ <b>\"Tx N. gonorrhea, C. trachomatis ด้วย\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าแสบขัดเล็กน้อยหลังดื่มน้ำน้อย ปัสสาวะเข้ม UA ปกติ ไม่มีประวัติเสี่ยง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้า NAAT ยืนยัน chlamydia อย่างเดียว และผู้ป่วยแพ้ doxycycline/azithromycin → quinolone 7 วันเป็นทางเลือก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงตกขาวเป็นฟองสีเหลืองเขียว ตรวจพบ Trichomonas",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าแสบขัดและปวดร้าวลงอวัยวะเพศจากนิ่วท่อไตส่วนปลายขนาดเล็ก → alpha-blocker ช่วยขับนิ่ว"
+   "A": "ดื่มน้ำอย่างเดียวไม่รักษาการติดเชื้อ · จะถูกถ้าคำถามถามคำแนะนำเสริมในนิ่ว/ cystitis",
+   "B": "Ofloxacin อย่างเดียวครอบคลุม chlamydia ได้ แต่ gonorrhea ดื้อ fluoroquinolone สูง · จะถูกถ้าคำถามถาม non-gonococcal urethritis ที่แพ้ doxycycline (ทางเลือกรอง)",
+   "C": "Metronidazole รักษา trichomoniasis · จะถูกถ้าคำถามถาม urethritis ที่ไม่ตอบสนองยามาตรฐานหรือคู่นอนเป็น trichomonas",
+   "D": "Doxazosin เป็น alpha-blocker รักษา BPH ไม่ใช่ยาฆ่าเชื้อ · จะถูกถ้าคำถามถาม LUTS จาก BPH"
   },
-  "trap": "แสบขัด + เม็ดเลือดขาวในปัสสาวะชวนคิด cystitis — ชายหนุ่มที่มีเพศสัมพันธ์ = urethritis จาก STI จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ใช้ยาตัวเดียวจะพลาดอีกเชื้อ",
+  "trap": "รักษาแค่เชื้อเดียว · ต้องครอบคลุมทั้ง gonorrhea และ chlamydia",
   "summary": [
-   "<b>นอกสไลด์:</b> CDC 2021: ceftriaxone 500 mg IM ครั้งเดียว + doxycycline 100 mg วันละ 2 ครั้ง 7 วัน · ciprofloxacin เลิกใช้กับ gonorrhea เพราะเชื้อดื้อ",
-   "<b>นอกสไลด์:</b> Gram stain หนองจากท่อปัสสาวะ: intracellular gram-negative diplococci = gonorrhea · ไม่พบ = nongonococcal (chlamydia, Mycoplasma genitalium, Trichomonas) · ส่ง NAAT · งดเพศสัมพันธ์ 7 วันหลังรักษาและจนคู่นอนรักษาครบ"
+   "Gonococcal: หนองข้น ระยะฟักตัว 2–5 วัน · Gram-negative intracellular diplococci",
+   "Chlamydia: น้ำใส มีมูก ระยะฟักตัว 1–3 สัปดาห์",
+   "มาตรฐานปัจจุบัน: ceftriaxone 500 mg IM + doxycycline 100 mg bid 7 วัน",
+   "Fluoroquinolone ไม่แนะนำสำหรับ gonorrhea (ดื้อยาสูง)",
+   "รักษาคู่นอน · งดเพศสัมพันธ์ 7 วัน",
+   "ตรวจ HIV/ syphilis ร่วม"
   ],
-  "opinion": "ตามคีย์ E (ช้อยเดียวที่ครอบคลุมสองเชื้อ) · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · เป็นช้อยเดียวที่ครอบคลุมทั้งสองเชื้อ แต่แนวทางปัจจุบันใช้ ceftriaxone แทน ciprofloxacin เพราะ gonorrhea ดื้อ fluoroquinolone",
+  "mnemonic": "<b>'หนองในต้องคู่: G (ceftriaxone) + C (doxycycline)'</b>",
+  "guide": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021 (MMWR Recomm Rep 2021;70(4))",
   "variants": [
-   "<b>นอกสไลด์:</b> รักษา ceftriaxone + doxycycline ครบ ไม่มีเพศสัมพันธ์ใหม่ ยังแสบขัด → สงสัย Mycoplasma genitalium: moxifloxacin",
-   "<b>นอกสไลด์:</b> หนองท่อปัสสาวะร่วมข้อเข่าบวม ผื่นตุ่มหนองที่มือ → disseminated gonococcal infection: ceftriaxone ทางหลอดเลือด"
+   "ชายหนองข้นเหลืองหลังเพศสัมพันธ์ 3 วัน → ceftriaxone + doxycycline",
+   "ชายน้ำใสจากท่อปัสสาวะ 2 สัปดาห์หลังเพศสัมพันธ์ → doxycycline",
+   "Urethritis ไม่หายหลังรักษา คู่นอนตกขาวเป็นฟอง → metronidazole"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>11. ชาย25 ปี เที่ยวหญิงมีsex หลังจากนั้น2วัน มีปัสสาวะแสบขัด Ua พบ RBC 0-1 WBC 10-20 epi 0-1 รักษาอย่างไร — A. adequete hydration B. oflaxacin 7 day C. metronidazole 7 day D. doxaxosin 7 day E. ciprofloxacin + doxycyclin 7 day</b><br>ลายมือ: เขียน \"UTI\" เหนือ WBC 10-20 · ขีด E · \"Tx N. gonorrhea, C. trachomatis ด้วย\"<br>ไฮไลต์: \"ชาย25 ปี\" · \"เที่ยวหญิงมีsex หลังจากนั้น2วัน มีปัสสาวะแสบขัด\" · \"RBC 0-1 WBC 10-20\" · \"รักษาอย่างไร\" · E (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
+  "kimg": [
+   "fsk_p151",
+   "kp66c_11"
   ]
  },
  "MDCU66|RoC|12": {
-  "interp": "ปวดเอวร้าวขาหนีบ เคยเป็นนิ่ว แต่ IVP ไม่เห็นนิ่วทึบรังสี → นิ่วโปร่งรังสี (เช่น uric acid) → ถามการตรวจยืนยัน",
-  "why": "<b>ลายมือ: x-ray ไม่เห็น · NC CT ดีสุด</b><br><b>นอกสไลด์:</b> CT ไม่ฉีดสีไวและจำเพาะสูงสุด เห็นนิ่วเกือบทุกชนิดรวม uric acid บอกขนาด ตำแหน่ง ความหนาแน่น (HU) และการอุดกั้นได้ในครั้งเดียว",
+  "interp": "ชายปวดบั้นเอวซ้ายร้าวลงท้องน้อย เคยเป็นนิ่วท่อไต <b>IVP ไม่เห็นนิ่วทึบแสง</b> ถามการตรวจยืนยัน",
+  "why": "<b>Non-contrast helical (spiral) CT</b> เป็น first-line test of choice ของ renal colic — ไวและจำเพาะสูงสุด (~95%) เห็นนิ่วเกือบทุกชนิดรวม uric acid ที่ไม่ทึบแสงในภาพรังสีธรรมดา บอกขนาด ตำแหน่ง hydronephrosis และโรคอื่นในช่องท้อง · ไฟล์ขีด B ลายมือ <b>\"x-ray ไม่เห็น\"</b> และ <b>\"แต่ CT เห็น\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กสงสัยนิ่ว → US ก่อนเพื่อเลี่ยงรังสี",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าอยู่ในห้องผ่าตัดก่อนใส่ DJ stent/ส่องท่อไต หรือภาพอื่นไม่ชัดและทำ CT ไม่ได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าสงสัยนิ่วในกระเพาะปัสสาวะร่วมต่อมลูกหมากโต และวางแผนเอาออกผ่านกล้องในคราวเดียว",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงตั้งครรภ์ไตรมาส 2–3 US กำกวมแต่ยังสงสัยนิ่วอุดกั้น → MR urography แบบไม่ฉีด gadolinium"
+   "A": "US เห็น hydronephrosis และนิ่วในไต แต่เห็นนิ่วในท่อไตส่วนกลางได้ไม่ดี · จะถูกถ้าคำถามถามหญิงตั้งครรภ์หรือเด็กที่ควรเลี่ยงรังสี",
+   "C": "Retrograde ureterogram รุกล้ำ ต้องดมยา ใช้เมื่อตรวจอื่นไม่ชัดหรือระหว่างใส่ stent · จะถูกถ้าคำถามถามผู้ป่วยแพ้ contrast/ ไตเสื่อมที่ต้องดูท่อไตระหว่างหัตถการ",
+   "D": "Cystoscopy ดูกระเพาะปัสสาวะ ไม่เห็นท่อไตส่วนบน · จะถูกถ้าคำถามถามหามะเร็งกระเพาะปัสสาวะใน hematuria",
+   "E": "MRI เห็นนิ่วไม่ดี ราคาสูง · จะถูกถ้าคำถามถามหญิงตั้งครรภ์ที่ US ไม่ชัด (MR urography)"
   },
-  "trap": "\"IVP ไม่เห็นนิ่ว\" ไม่ได้แปลว่าไม่มีนิ่ว — uric acid โปร่งรังสีในฟิล์มธรรมดาแต่ CT เห็น (ใน IVP จะเห็นเป็น filling defect)",
+  "trap": "คิดว่า IVP ไม่เห็นนิ่วแปลว่าไม่มีนิ่ว · นิ่ว radiolucent (uric acid) ต้องใช้ CT",
   "summary": [
-   "<b>นอกสไลด์:</b> นิ่วโปร่งรังสี: uric acid (ปัสสาวะเป็นกรด เก๊าท์), xanthine · cystine ทึบเล็กน้อย · uric acid ละลายได้ด้วยการทำปัสสาวะเป็นด่าง"
+   "Renal colic: NCCT = first-line test of choice",
+   "NCCT เห็นนิ่วเกือบทุกชนิด (ยกเว้น indinavir)",
+   "KUB ไม่เห็น: uric acid · xanthine · cystine (จาง)",
+   "ตั้งครรภ์/ เด็ก → US",
+   "นิ่ว &lt; 5 mm → มักหลุดเอง (MET: alpha-blocker)",
+   "อุดกั้น + ติดเชื้อ → ระบายด่วน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'นิ่วมองไม่เห็นใน X-ray → CT เห็นทุกอย่าง (Non-contrast)'</b>",
+  "guide": "EAU Guidelines on Urolithiasis (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV กิน indinavir ปวดเอว CT ไม่เห็นนิ่วแต่ไตบวมน้ำ → นิ่วจากยา (โปร่งแม้ใน CT)",
-   "<b>นอกสไลด์:</b> ผู้ป่วยนิ่วซ้ำบ่อยต้องตรวจติดตามหลายครั้ง → ใช้ low-dose CT ลดรังสี"
+   "ปวดบั้นเอวร้าวลงขาหนีบ hematuria → NCCT KUB",
+   "หญิงตั้งครรภ์ปวดบั้นเอว → US KUB",
+   "นิ่ว uric acid ปัสสาวะเป็นกรด → potassium citrate (dissolution)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>12. ผู้ป่วยชายปวดหลังด้านซ้ายร้าวไปท้องน้อยด้านหลัง เคยมีประวัติเป็นนิ่วที่ท่อไตมาก่อน ทำIVP ไม่พบ opaque stone ควรส่ง investigation เพื่อยืนยัน — A. U/s B. Spiral CT C. Retrograde uretrogram D. Cystoscpoe E. MRI</b><br>ลายมือ: \"x-ray ไม่เห็น\" ลากลูกศรไปช้อย B · ขีด B · \"แต่ CT เห็น\"<br>ไฮไลต์: \"ปวดหลังด้านซ้ายร้าวไปท้องน้อยด้านหลัง\" · \"ประวัติเป็นนิ่วที่ท่อไตมาก่อน\" · \"opaque stone\" · \"investigation เพื่อยืนยัน\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Imaging — Acute renal colic: Noninfused helical CT scanning (Spiral CT) · First line test of choice · Other pathology in abdominal organs · Degree of hydronephrosis · Size · Location · No information regarding renal function · สไลด์ Imaging — Intravenous pyelography: Requires IV contrast · If high grade obstruction, delay x-ray need · Can assess renal function พร้อมภาพรังสี<br>ที่ปรับในเว็บ: ช้อย B เขียนเป็น Non-contrast spiral CT",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
+  "kimg": [
+   "fsk_p151",
+   "kp66c_12"
   ]
  },
  "MDCU66|RoC|13": {
-  "interp": "ข้อ NOT — หาสิ่งที่ \"ไม่ใช่\" tumor marker ของมะเร็งอัณฑะ",
-  "why": "<b>ลายมือ: CA ovary · สไลด์ serum tumor markers</b><br><b>นอกสไลด์:</b> CA-125 เป็น marker ของมะเร็งรังไข่ชนิด epithelial ไม่ใช่ของ germ cell tumor ของอัณฑะ",
+  "interp": "ถามสิ่งที่<b>ไม่ใช่</b> tumor marker ของ <b>testicular tumor</b>",
+  "why": "Tumor markers ของมะเร็งอัณฑะคือ <b>β-hCG · AFP · LDH</b> · <b>CA-125 เป็น marker ของมะเร็งรังไข่</b> (epithelial ovarian cancer) · ไฟล์ขีด A ลายมือ <b>\"→ CA ovary\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ LDH ไม่ใช่ marker ของมะเร็งอัณฑะ เพราะใช้ร่วมจัด S stage บอกปริมาณก้อนได้ทุกชนิด",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นสิ่งที่ไม่ขึ้น) ถ้าเป็น yolk sac tumor ล้วนในเด็ก — AFP สูงแต่ hCG ปกติ",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นสิ่งที่ไม่ขึ้น) ถ้าเป็น seminoma ล้วน — AFP ปกติเสมอ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกข้อเป็นสิ่งที่ไม่ใช่ marker เพราะ AFP, β-hCG และ LDH เป็น marker มาตรฐาน"
+   "B": "LDH สัมพันธ์กับปริมาณก้อน (tumor burden) ใช้ใน staging · จะถูกถ้าคำถามถาม marker ที่ไม่จำเพาะต่อชนิดเซลล์",
+   "C": "β-hCG สูงใน choriocarcinoma, embryonal carcinoma และ seminoma บางราย (&lt; 500) · จะถูกถ้าคำถามถาม marker ที่ไม่ใช่ของ yolk sac tumor",
+   "D": "AFP สูงใน yolk sac tumor และ embryonal carcinoma · <b>ไม่สูงใน pure seminoma</b> · จะถูกถ้าคำถามถาม marker ที่ไม่สูงใน pure seminoma",
+   "E": "มี CA-125 ที่ไม่ใช่ marker จึงไม่ใช่ทุกข้อ · จะถูกถ้าทุกข้อไม่ใช่ marker"
   },
-  "trap": "รังไข่กับอัณฑะเป็น gonad เหมือนกันจึงคิดว่าใช้ marker ชุดเดียวกัน — CA-125 เป็นของมะเร็งรังไข่ชนิด epithelial ส่วน germ cell tumor ของรังไข่ใช้ AFP/hCG/LDH เหมือนอัณฑะ",
+  "trap": "สับสน marker ของมะเร็งอัณฑะกับรังไข่ (germ cell ของรังไข่ใช้ AFP/ hCG/ LDH เช่นกัน แต่ CA-125 สำหรับ epithelial)",
   "summary": [
-   "<b>นอกสไลด์:</b> AFP (yolk sac, embryonal) · β-hCG (choriocarcinoma, embryonal, seminoma บางราย) · LDH (ปริมาณก้อน) · seminoma ล้วน AFP ปกติเสมอ — AFP สูง = รักษาแบบ nonseminoma",
-   "<b>นอกสไลด์:</b> เจาะ marker ก่อนและหลัง radical inguinal orchiectomy · half-life: AFP ราว 5–7 วัน, hCG ราว 1–3 วัน · ค่าหลังผ่าตัดใช้จัด S stage และติดตามการกลับเป็นซ้ำ"
+   "Testicular: AFP · β-hCG · LDH (ตรวจก่อนและหลัง orchiectomy)",
+   "AFP สูง → non-seminoma (yolk sac/ embryonal) แม้ชิ้นเนื้อเป็น seminoma",
+   "β-hCG สูงมาก → choriocarcinoma",
+   "Pure seminoma: β-hCG อาจสูงเล็กน้อย AFP ปกติ",
+   "รักษา: radical inguinal orchiectomy",
+   "CA-125: epithelial ovarian · CA 19-9: ตับอ่อน · CEA: ลำไส้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'อัณฑะ = A-B-L (AFP · β-hCG · LDH) · CA-125 = รังไข่'</b>",
+  "guide": "EAU Guidelines on Testicular Cancer (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง orchiectomy 6 สัปดาห์ AFP ยังสูงไม่ลดตาม half-life → มีโรคหลงเหลือ: เคมีบำบัด",
-   "<b>นอกสไลด์:</b> ชายหนุ่มมีเต้านมโตร่วมก้อนอัณฑะ β-hCG สูงมาก → ก้อนที่หลั่ง hCG (เช่น choriocarcinoma) กระตุ้นเต้านม"
+   "ชาย 25 ปี ก้อนแข็งที่อัณฑะไม่เจ็บ → US + AFP/ β-hCG/ LDH → radical inguinal orchiectomy",
+   "ชิ้นเนื้อ pure seminoma แต่ AFP สูง → รักษาแบบ non-seminoma",
+   "หญิงวัยหมดประจำเดือนก้อนรังไข่ CA-125 สูง → epithelial ovarian cancer"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>13. ข้อใดไม่ใช่tumor marker ของtesticular tumor — A. CA125 B. LDH C. b-hcg D. a-fetoprotein E. All of above</b><br>ลายมือ: ขีด A เขียน \"→ CA ovary\" · วงเล็บ B–C เขียน \"non-seminoma\" · ช้อย D เขียน \"(AFP)\"<br>ไฮไลต์: \"ไม่ใช่tumor marker\" · \"testicular tumor\" · A (เหลือง) · B C D (ส้ม)<br>รูปที่แปะ: สไลด์ Serum tumor markers (ลายมือ \"ใช้ staging\", \"ใช้ติดตาม Tx\") — β-human chorionic gonadotropin (B-hCG): Choriocarcinoma · Embryonal carcinoma · Pure seminoma (&lt;500) · α-fetoprotein (AFP): Embryonal carcinoma, teratocarcinoma · Yolk sac tumor · Lactic acid dehydrogenase (LDH): Direct relationship with tumor burden",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
+  "kimg": [
+   "fsk_p151",
+   "kp66c_13"
   ]
  },
  "MDCU66|RoC|14": {
-  "interp": "โจทย์เดียวกับ RoA X16 ของชุดนี้ — ขอบแผลเลือดเลี้ยงน้อยหลัง debride → ถามวิธีเย็บ (ข้อนี้เก็บมุมเทียบกับ horizontal mattress)",
-  "why": "<b>ลายมือเติม E half-buried horizontal mattress + รูป</b><br><b>นอกสไลด์:</b> ไหมฝั่งที่เลือดเลี้ยงน้อยวิ่งในชั้น dermis ไม่ทะลุผิว → ไม่บีบหลอดเลือดใต้ผิวของขอบนั้น · ขณะที่ horizontal mattress แบบเต็มบีบขอบแผลเป็นแถบ จึงเสี่ยงขอบแผลขาดเลือดที่สุด",
+  "interp": "แผลหลัง debridement <b>ขอบแผลเลือดเลี้ยงไม่ดี</b> ถามวิธีเย็บ",
+  "why": "<b>Half-buried horizontal mattress</b> ผ่านไหมใน dermis ของขอบที่เลือดเลี้ยงน้อยโดยไม่ทะลุผิวหนังด้านนั้น → ลดการรัดและการขาดเลือดของขอบแผล/ ปลาย flap · ไฟล์เติมลายมือช้อย <b>\"E. half-buried horizontal mattress\"</b> พร้อมรูป",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าแผลสะอาดขอบเลือดดี แรงตึงน้อย ต้องการปรับระดับขอบแผลได้ทีละจุด",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าขอบแผลมักม้วนเข้า (ผิวบางหย่อน เช่นคอ ข้อพับ) ต้องการให้ขอบบานออกและกระจายแรงตึง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าแผลตึงแต่เลือดเลี้ยงดี (เช่นฝ่ามือ ฝ่าเท้าผิวหนา) ต้องการกระจายแรงตึงและห้ามเลือดที่ขอบแผล",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าแผลยาวตรงสะอาดเลือดเลี้ยงดี ต้องการเย็บเร็ว (เช่นหนังศีรษะ แผลผ่าตัด)"
+   "A": "Simple interrupted ผ่านผิวหนังเต็มชั้นทั้งสองขอบ รัดขอบที่เลือดน้อย · จะถูกถ้าคำถามถามแผลขอบตรงเลือดเลี้ยงดี",
+   "B": "Vertical mattress ให้ eversion ดีแต่รัดเนื้อเยื่อมาก · จะถูกถ้าคำถามถามแผลขอบม้วนเข้า ผิวหนังหย่อน",
+   "C": "Horizontal mattress ธรรมดากระจายแรงตึงแต่ผ่านผิวหนังทั้งสองขอบ อาจทำให้ขอบขาดเลือด · จะถูกถ้าคำถามถามแผลที่ตึงมากและขอบเลือดเลี้ยงดี",
+   "D": "Continuous เย็บเร็ว แต่รัดทั้งแนวแผล · จะถูกถ้าคำถามถามแผลยาวเรียบในผิวหนังเลือดดี (เช่น หนังศีรษะ)"
   },
-  "trap": "ช้อย C กับ E ชื่อคล้ายกันแต่ตรงข้ามเรื่องเลือดเลี้ยง: horizontal mattress รัดขอบมากที่สุด half-buried รัดน้อยที่สุด",
+  "trap": "เลือก vertical/ horizontal mattress เพราะแข็งแรง โดยลืมเรื่องเลือดเลี้ยงขอบแผล",
   "summary": [
-   "<b>นอกสไลด์:</b> ลดการขาดเลือดของขอบแผล: ผูกแค่พอชิดไม่แน่น ใช้ไหมเส้นเล็ก ลดแรงตึงด้วยไหมชั้นลึก และตัดไหมตามเวลา (หน้าราว 5 วัน ลำตัว 7–10 วัน แขนขา 10–14 วัน)"
+   "Simple interrupted: ทั่วไป",
+   "Vertical mattress: eversion",
+   "Horizontal mattress: แผลตึง",
+   "Half-buried (corner/ tip stitch): ขอบ/ ปลาย flap เลือดน้อย",
+   "Subcuticular: แผลสวย",
+   "เย็บหลวมพอ เพราะแผลจะบวม"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · โจทย์เดียวกับ RoA X16 · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ช้อย E ในไฟล์เป็นลายมือที่ผู้จดเติม)",
+  "mnemonic": "<b>'ขอบเลือดน้อย → ฝังไหมครึ่งเดียว (Half-buried)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Basic techniques: wound closure",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลรูปตัว Y หลังตัดเนื้อตาย มีมุมปลายบางสามมุม → corner stitch แบบ half-buried ที่จุดรวม",
-   "<b>นอกสไลด์:</b> ขอบแผลเลือดก้ำกึ่งและตึงมากจนดึงเย็บไม่ได้ → ปล่อยเปิดแล้วปิดภายหลัง (delayed primary) หรือ skin graft แทนการดึงเย็บ"
+   "ปลาย flap ซีดหลังเย็บ → half-buried horizontal mattress ที่มุม",
+   "แผลขอบม้วนเข้า → vertical mattress",
+   "แผลหน้าต้องการรอยเย็บน้อย → subcuticular"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>14. มีแผลที่ไปทำdebridementมา ขอบแผลมีpoor blood supply ควรเย็บแบบใด — A. simple suture B. vertical matress C. horizontal matress D. continuous</b><br>ลายมือ: เขียนช้อยเพิ่ม \"E. half-buried horizontal mattress\"<br>ไฮไลต์: \"แผลที่ไปทำdebridementมา\" · \"ขอบแผลมีpoor blood supply\" · \"เย็บแบบใด\" · E (เหลือง)<br>รูปที่แปะ: รูป Half-Buried Horizontal Mattress (การเย็บผ่าน dermis ของปลาย flap) พร้อมโน้ตลายมือ \"ขอบที่ blood supply ไม่ดี\" · \"เย็บ skin → dermis → dermis → skin ด้านที่เลือดเลี้ยงดี\"<br>ที่ปรับในเว็บ: ช้อย E มาจากลายมือที่ผู้จดเติม",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
+  "kimg": [
+   "fsk_p151",
+   "kp66c_14"
   ]
  },
  "MDCU66|RoC|15": {
-  "interp": "เด็ก 2 ปี อัณฑะซ้ายคลำได้ที่ช่องขาหนีบ (palpable undescended testis เลยวัยที่จะลงเองแล้ว) → ถามการรักษา",
-  "why": "<b>ลายมือ: > 1.5 yr · timing 6–18 mo</b><br><b>นอกสไลด์:</b> หลังราว 6 เดือนอัณฑะไม่ลงเองแล้ว และการอยู่นอกถุง (อุณหภูมิสูง) ทำให้ germ cell เสื่อมต่อเนื่อง → orchiopexy ทันทีแม้เลยเวลาที่แนะนำ · คลำได้ = ผ่าตัดทางขาหนีบ",
+  "interp": "เด็กชาย 2 ปี คลำอัณฑะซ้ายได้ใน inguinal canal (<b>palpable undescended testis</b>) ถามการรักษา",
+  "why": "อายุเกิน 6–18 เดือนแล้วอัณฑะยังไม่ลง ไม่ลงเองแล้ว → <b>orchiopexy</b> ทันที (คลำได้ → inguinal orchiopexy) เพื่อรักษาการสร้างอสุจิ ลดความเสี่ยงมะเร็ง (ตรวจได้ง่าย) และแก้ hernia ร่วม · ไฟล์ขีด B ลายมือ <b>\"≥ 1.5 yr\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผ่าตัดสำรวจพบ testicular nubbin เล็กฝ่อที่ปลาย vas (จาก torsion ในครรภ์) → ตัดออก",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ฉีด testosterone เป็นการรักษาอัณฑะค้าง เพราะแนวทาง AUA/EAU ไม่ใช้ฮอร์โมน อัตราสำเร็จต่ำและผลไม่ยั่งยืน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าคลำอัณฑะไม่ได้ (nonpalpable) ข้างเดียว → laparoscopy หาอัณฑะในท้องแล้วนำลงหรือตัด nubbin",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกคลอดก่อนกำหนด อายุปรับ 3 เดือน อัณฑะอยู่ที่ขาหนีบ (ยังลงเองได้)"
+   "A": "Orchiectomy ทำเมื่ออัณฑะฝ่อมาก/ UDT หลังวัยรุ่น · จะถูกถ้าคำถามถามผู้ใหญ่ที่อัณฑะในช่องท้องข้างเดียวฝ่อ",
+   "C": "Hormonal therapy ไม่แนะนำ ได้ผลต่ำ · จะถูกถ้าคำถามถาม micropenis",
+   "D": "Laparoscopy ใช้กับ <b>non-palpable</b> testis · จะถูกถ้าคำถามถามอัณฑะที่คลำไม่ได้",
+   "E": "รอดูไม่ได้แล้วเพราะเกิน 6 เดือน อัณฑะไม่ลงเอง · จะถูกถ้าคำถามถามทารกอายุ &lt; 6 เดือน หรือ retractile testis"
   },
-  "trap": "เลยอายุ 18 เดือนแล้วไม่ได้แปลว่าสายเกินผ่าตัด — ยังทำ orchiopexy เพื่อคงการทำงานที่เหลือและให้คลำตรวจมะเร็งได้",
+  "trap": "รอดูต่อเหมือนทารก · หลัง 6 เดือนต้องส่งผ่าตัด และควรทำก่อน 18 เดือน",
   "summary": [
-   "<b>นอกสไลด์:</b> orchiopexy: เลาะ spermatic cord ปิด processus vaginalis (เปิดอยู่เกือบทุกราย) แล้วยึดอัณฑะใน dartos pouch · ภาวะแทรกซ้อน: อัณฑะฝ่อ อัณฑะกลับขึ้น"
+   "รอได้ถึง 6 เดือน (corrected age)",
+   "Orchiopexy 6–18 เดือน",
+   "Palpable → inguinal orchiopexy",
+   "Non-palpable → laparoscopy (± Fowler–Stephens)",
+   "Hormone ไม่แนะนำ",
+   "Retractile testis → ติดตาม (เสี่ยงขึ้นไปค้าง)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'UDT: 6 เดือนส่ง · 18 เดือนผ่าเสร็จ'</b>",
+  "guide": "AUA Guideline: Evaluation and Treatment of Cryptorchidism (J Urol 2014;192:337)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 7 ปีเคยมีอัณฑะในถุง ตอนนี้ดึงลงถุงไม่ได้แล้ว → ascending testis: orchiopexy",
-   "<b>นอกสไลด์:</b> วัยรุ่น 15 ปีเพิ่งพบอัณฑะค้างข้างเดียวที่ขาหนีบ อีกข้างปกติ → orchiopexy หรือ orchiectomy ตามขนาด/การทำงานของอัณฑะ และคุยเรื่องความเสี่ยงมะเร็ง"
+   "เด็ก 1 ปี อัณฑะขวาคลำได้ที่ขาหนีบ → right orchiopexy",
+   "เด็ก 1 ปี อัณฑะซ้ายคลำไม่ได้ → diagnostic laparoscopy",
+   "ทารก 2 เดือน อัณฑะยังไม่ลง → รอถึง 6 เดือน"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>15. เด็กชายอายุ 2ปี คลำลูกอัณฑะได้ใต้ inguinal canal ข้างซ้ายรักษาอย่างไร — A. left orchiectomy B. left orchiopexy C. testosterone injection D. laparoscope E. conservative</b><br>ลายมือ: เขียน \"≥ 1.5 yr\" เหนือ 2ปี · ขีด B<br>ไฮไลต์: \"ชายอายุ 2ปี\" · \"คลำลูกอัณฑะได้ใต้ inguinal canal\" · \"ข้างซ้าย\" · B (เหลือง/ ส้ม)<br>รูปที่แปะ: รูปถุงอัณฑะว่างข้างหนึ่ง · สไลด์ Undescended testis — Timing of surgery: 6-18 months of age · Operation: Orchidopexy · If surgery hasn't been performed, what would happen? 1. Inguinal hernia (due to patent processus vaginalis) 2. Torsion testis 3. Trauma 4. Infertility 5. Malignancy 6. Cosmetic · กล่องข้อความภาษาไทยเรื่องการรักษาอัณฑะไม่ลงถุง (ช่วงอายุผ่าตัด การให้ hCG ผลต่อ spermatogonia และ processus vaginalis)<br>ที่ปรับในเว็บ: แก้ laparoscope เป็น Laparoscopy",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
+  "kimg": [
+   "fsk_p151",
+   "kp66c_15"
   ]
  },
  "MDCU66|RoC|16": {
-  "interp": "เด็กอัณฑะค้างที่ทำ orchiopexy แล้ว → ถามภาวะที่ยังเสี่ยงสูงกว่าเด็กทั่วไป",
-  "why": "<b>ลายมือ: มีโอกาส malignancy · ascending testis</b><br><b>นอกสไลด์:</b> อัณฑะค้างเสี่ยงมะเร็ง germ cell หลายเท่า (ส่วนใหญ่ seminoma) · orchiopexy ก่อนวัยรุ่นลดความเสี่ยงได้บางส่วนแต่ไม่หมด ประโยชน์สำคัญคือคลำตรวจได้",
+  "interp": "เด็ก UDT ที่<b>ทำ orchiopexy แล้ว</b> ยังมีโอกาสเกิดอะไรมากกว่าเด็กทั่วไป",
+  "why": "Orchiopexy ลดแต่<b>ไม่ได้ลบความเสี่ยงมะเร็งอัณฑะ</b> (ยังสูงกว่าคนทั่วไปราว 2–3 เท่า โดยเฉพาะถ้าผ่าตัดหลังวัยรุ่น) ประโยชน์คือทำให้คลำตรวจได้ง่าย · ไฟล์ขีด B ลายมือ <b>\"ยังมีโอกาส malignancy\"</b> และ <b>\"ascending testis ได้\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ไส้เลื่อนยังเสี่ยงสูงหลัง orchiopexy เพราะการผ่าตัดเย็บปิด processus vaginalis ไปพร้อมกัน",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่หลัง orchiopexy เสี่ยงบาดเจ็บมากกว่าเด็กอื่น เพราะอัณฑะอยู่ในถุงซึ่งเป็นตำแหน่งปกติแล้ว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นอัณฑะค้างสองข้าง — แม้ผ่าตัดแล้วอัตรามีบุตรยังต่ำกว่าคนทั่วไปชัด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกข้อถูก เพราะ orchiopexy ปิด processus vaginalis จึงไม่เพิ่มไส้เลื่อน"
+   "A": "Hernia (patent processus vaginalis) ได้รับการแก้ไขในการผ่าตัด orchiopexy อยู่แล้ว · จะถูกถ้าคำถามถามภาวะแทรกซ้อนของ UDT ที่ไม่ได้ผ่าตัด",
+   "C": "Trauma เป็นปัญหาของอัณฑะที่ค้างในขาหนีบ (โดนกระแทกกับกระดูก) หลังย้ายลงถุงแล้วความเสี่ยงลดลง · จะถูกถ้าคำถามถาม UDT ที่ยังไม่ได้ผ่าตัด",
+   "D": "UDT ข้างเดียวหลัง orchiopexy อัตรามีบุตรใกล้เคียงคนทั่วไป (ลดลงชัดใน UDT สองข้าง) · จะถูกถ้าคำถามถาม bilateral UDT",
+   "E": "ไม่ใช่ทุกข้อ เพราะ hernia และ trauma ลดลงหลังผ่าตัด · จะถูกถ้าคำถามถามภาวะแทรกซ้อนของ UDT ที่<b>ไม่ได้</b>ผ่าตัด"
   },
-  "trap": "คิดว่าผ่าตัดแล้วความเสี่ยงมะเร็งหายหมด",
+  "trap": "เลือก all of the above เพราะจำรายการภาวะแทรกซ้อนของ UDT แต่คำถามถามหลังผ่าตัดแล้ว",
   "summary": [
-   "<b>นอกสไลด์:</b> หลัง orchiopexy สอนคลำตรวจอัณฑะตนเองตั้งแต่วัยรุ่น · ผ่าตัดก่อนอายุราว 13 ปีเสี่ยงมะเร็งน้อยกว่าผ่าตัดหลังวัยรุ่น · ข้างที่ไม่เคยค้างก็เสี่ยงเพิ่มเล็กน้อย"
+   "UDT เสี่ยง: hernia · torsion · trauma · infertility · malignancy",
+   "หลัง orchiopexy: ยังเสี่ยงมะเร็ง (ลดลงถ้าผ่าก่อนวัยรุ่น)",
+   "มะเร็งที่พบ: seminoma",
+   "ข้างตรงข้ามก็เสี่ยงเพิ่มเล็กน้อย",
+   "Bilateral UDT → มีบุตรยาก",
+   "สอนตรวจอัณฑะด้วยตนเองหลังวัยรุ่น"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ย้ายบ้านแล้วนิสัยเดิมยังอยู่ — อัณฑะลงถุงแล้วยังเสี่ยงมะเร็ง'</b>",
+  "guide": "AUA Guideline: Evaluation and Treatment of Cryptorchidism (J Urol 2014;192:337)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 25 ปีเคยทำ orchiopexy ตอนเด็ก คลำพบก้อนแข็งในอัณฑะข้างนั้น → US + tumor markers แล้ว radical inguinal orchiectomy",
-   "<b>นอกสไลด์:</b> อัณฑะค้างในช่องท้องกับค้างที่ขาหนีบ แบบไหนเสี่ยงมะเร็งมากกว่า → ในช่องท้อง"
+   "ชาย 25 ปี เคยทำ orchiopexy ตอนเด็ก คลำได้ก้อนแข็งในอัณฑะ → US + tumor markers",
+   "UDT สองข้างผ่าตัดช้า → เสี่ยงมีบุตรยาก",
+   "หลัง orchiopexy อัณฑะขึ้นไปค้างอีก → re-do orchiopexy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>16. เด็กที่เป็น undescended testis ที่ทำorchiopexyไปแล้วจะมีโอกาสเป็นอะไรมากกว่าเด็กทั่วไป — A. hernia B. testicular cancer C. trauma to testis D. infertile E. all of above</b><br>ลายมือ: ขีด B เขียน \"ยังมีโอกาส malignancy\" และ \"ascending testis ได้\"<br>ไฮไลต์: \"undescended testis\" · \"ทำorchiopexyไปแล้วจะมีโอกาสเป็นอะไรมากกว่าเด็กทั่วไป\" · B (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
+  "kimg": [
+   "fsk_p151",
+   "kp66c_16"
   ]
  },
  "MDCU66|RoC|17": {
-  "interp": "ถามข้อความที่ถูกเรื่องแผลไหม้ full thickness",
-  "why": "<b>ลายมือ: B, C ไม่ได้ · D ไม่เจ็บ</b><br><b>นอกสไลด์:</b> full thickness ทำลาย epidermis และ dermis ทั้งชั้นรวมรูขุมขนและต่อมเหงื่อ ซึ่งเป็นแหล่งเซลล์ผิวที่งอกใหม่ → หายเองไม่ได้ (ยกเว้นแผลเล็กมาก) ต้องตัดเนื้อตายและปลูกผิวหนัง",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับ <b>full-thickness skin burn</b>",
+  "why": "Full-thickness burn ทำลายผิวหนังทุกชั้นรวม<b>อวัยวะผิวหนัง (dermal appendages: hair follicle, sweat gland)</b> และปลายประสาท → ไม่มีเซลล์ให้สร้างผิวใหม่ ไม่หายเอง ต้อง graft · ไม่เจ็บ · ไฟล์ขีด A แก้ลายมือ B C เป็น <b>\"ต้อง graft\"</b> และ D เป็น <b>\"ไม่เจ็บ\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่แผล full thickness หายใน 7 วัน เพราะไม่เหลือเซลล์ผิวในรูขุมขน/ต่อมเหงื่อให้งอกขึ้นมา",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผล full thickness ขนาดเล็กมาก (ไม่กี่ mm) ที่หายจากขอบแผลและการหดตัว",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่บริเวณ full thickness เจ็บมาก เพราะปลายประสาทในหนังแท้ถูกทำลาย — ความเจ็บที่มีมาจากขอบที่ลึกไม่ตลอด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่แผล full thickness เป็นตุ่มพองพื้นชื้น เพราะผิวที่ตายทั้งชั้นแห้งแข็งเหมือนหนัง (eschar) สีขาว น้ำตาล หรือดำ"
+   "B": "หายใน 7 วันคือ superficial (first-degree) burn · จะถูกถ้าคำถามถามแผลแดงไม่มีตุ่มน้ำ",
+   "C": "หายใน 14 วัน (ภายใน 2–3 สัปดาห์) คือ superficial partial-thickness burn · จะถูกถ้าคำถามถามแผลตุ่มน้ำ ชมพู กดซีด",
+   "D": "Full-thickness <b>ไม่เจ็บ</b> เพราะปลายประสาทถูกทำลาย · จะถูกถ้าคำถามถาม superficial partial-thickness ที่เจ็บมากที่สุด",
+   "E": "ตุ่มน้ำและพื้นแผลชื้นเป็นลักษณะของ partial-thickness · จะถูกถ้าคำถามถาม superficial partial-thickness burn"
   },
-  "trap": "deep partial thickness ก็เจ็บน้อยและหายช้าจึงสับสน — deep partial ยังมี appendages บางส่วน กดแล้วซีดช้า ส่วน full thickness กดไม่ซีด แข็งเหมือนหนัง",
+  "trap": "คิดว่าแผลลึกต้องเจ็บมาก",
   "summary": [
-   "<b>นอกสไลด์:</b> ความลึก: superficial (แดง เจ็บ ไม่พอง หาย 3–7 วัน) · superficial partial (พอง พื้นชมพูชื้น เจ็บมาก ราว 2 สัปดาห์) · deep partial (ขาวด่าง เจ็บน้อย เกิน 3 สัปดาห์ มักต้อง graft) · full thickness (แข็งเหมือนหนัง ไม่เจ็บ ต้อง graft)"
+   "Superficial: แดง เจ็บ หาย 3–7 วัน",
+   "Superficial partial: ตุ่มน้ำ ชื้น เจ็บมาก หาย &lt; 2–3 สัปดาห์",
+   "Deep partial: ซีด เจ็บน้อย หาย &gt; 3 สัปดาห์ มักต้อง graft",
+   "Full thickness: ขาว/ น้ำตาล แข็ง ไม่เจ็บ appendage ถูกทำลาย → graft",
+   "Fourth degree: ถึงกล้ามเนื้อ/ กระดูก",
+   "Circumferential full thickness → escharotomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Full thickness = ไม่เหลืออะไร (appendage) → ไม่หายเอง ไม่เจ็บ'</b>",
+  "guide": "Herndon's Total Burn Care 5th ed. (2018) — Burn wound depth and management",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลไหม้ลึกรอบแขนทั้งวง นิ้วเย็นซีด capillary refill ช้า → escharotomy",
-   "<b>นอกสไลด์:</b> แผล full thickness 5% ที่ต้นขาในผู้ป่วยคงที่ → ตัดเนื้อตายเร็วภายในไม่กี่วันแล้วปลูก split-thickness skin graft"
+   "แผลไหม้แข็งเหมือนหนัง สีขาว ไม่เจ็บ → full thickness → excision + graft",
+   "แผลไหม้ตุ่มน้ำ ชมพู เจ็บมาก → superficial partial → dressing",
+   "แผลไหม้ลึกรอบแขน ชีพจรเบา → escharotomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>17. ข้อใดถูกต้องเกี่ยวกับ full thickness skin burn — A. dermal apparatus ทั้งหมดถูกทำลาย B. แผลหายเองได้ใน 7 วัน C. แผลหายเองได้ใน 14 วัน D. เจ็บมาก</b><br>ลายมือ: ขีด A และ ✓ · ช้อย B C ขีดฆ่าคำ \"หายเอง\" เขียน \"ต้อง graft\" · ช้อย D ขีดฆ่า \"เจ็บมาก\" เขียน \"ไม่เจ็บ\"<br>ไฮไลต์: \"full thickness skin burn\" · A (เหลือง)<br>รูปที่แปะ: ภาพชั้นผิวหนัง (Epidermis · Dermis · Subcutaneous · Muscle · Bone) แสดงความลึกของแผลไหม้ 1° 2° 3° 4° และ Germinative layer พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–D เว็บเพิ่ม E Blisters with moist base",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
+  "kimg": [
+   "fsk_p151",
+   "kp66c_17"
   ]
  },
  "MDCU66|RoC|18": {
-  "interp": "ทารก 6 เดือน ร้องเป็นพัก ๆ อาเจียนหลังกิน 8 วัน + ก้อนรูปไส้กรอก → ถามการวินิจฉัย",
-  "why": "<b>ลายมือ: peak 3–8 mo</b><br><b>นอกสไลด์:</b> ileocolic intussusception ในทารก (lead point มักเป็น Peyer patch ที่โตหลังติดเชื้อไวรัส) → ปวดบีบเป็นพัก ๆ ร้องงอขาสลับสงบ อาเจียน ก้อนรูปไส้กรอกท้องขวาบน · ถ่ายมูกเลือดเป็นอาการช้า",
+  "interp": "เด็กชาย 6 เดือน ร้องกวนเป็นพัก ๆ กินนมได้น้อย อาเจียน 8 วัน แม่คลำได้<b>ก้อนรูปไส้กรอก</b>ในท้อง ถามการวินิจฉัย",
+  "why": "ร้องกวนเป็นพัก ๆ (colicky) + อาเจียน + <b>ก้อนรูปไส้กรอก (sausage-shaped mass)</b> ในทารกอายุ 3–8 เดือน = <b>intussusception</b> (ileocolic ส่วนใหญ่) · ไฟล์ขีด B ลายมือ <b>\"peak 3-8 mo\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนกลมใต้ตับร่วมตัวเหลือง อุจจาระซีด ปัสสาวะเข้ม และ US พบท่อน้ำดีโป่งเป็นถุง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก 2 ปีถ่ายเลือดแดงคล้ำปริมาณมาก ไม่ปวดท้อง ซีดลง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าทารกอายุราว 3–6 สัปดาห์อาเจียนพุ่งไม่มีน้ำดีหลังกิน หิวตลอด คลำก้อนรูปมะกอก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กก่อนวัยเรียนมีก้อนในท้องโตขึ้น ปัสสาวะเป็นเลือด ความดันสูง ไม่มีอาการลำไส้อุดตัน"
+   "A": "Choledochal cyst: เหลือง ปวดท้อง ก้อนท้องขวาบน (ไม่ใช่รูปไส้กรอก) · จะถูกถ้าคำถามถามเด็กเหลืองเป็นพัก ๆ ก้อนใต้ชายโครงขวา",
+   "C": "Meckel diverticulum มักถ่ายเลือดแดงไม่เจ็บในเด็ก 2 ปี (ectopic gastric mucosa) · จะถูกถ้าคำถามถามเด็กถ่ายเลือดสดจำนวนมากไม่ปวดท้อง",
+   "D": "Pyloric stenosis: อายุ 2–8 สัปดาห์ อาเจียนพุ่งไม่มีน้ำดี ก้อนเล็กรูปมะกอก · จะถูกถ้าคำถามถามทารก 4 สัปดาห์อาเจียนพุ่ง",
+   "E": "Wilms tumor: ก้อนเรียบในท้องเด็ก 2–5 ปี ไม่มีอาการปวดเป็นพัก ๆ · จะถูกถ้าคำถามถามเด็ก 3 ปี ก้อนท้องโต ความดันสูง"
   },
-  "trap": "ปวด ก้อน ถ่ายมูกเลือด ครบพร้อมกันไม่ถึงครึ่ง — ไม่มีถ่ายเลือดไม่ตัด intussusception · เป็นมา 8 วันต้องระวังลำไส้ขาดเลือด",
+  "trap": "อาการยืดเยื้อ 8 วันทำให้คิดว่าไม่ใช่ภาวะเฉียบพลัน · ก้อนรูปไส้กรอก + ร้องเป็นพัก ๆ ต้องนึกถึง intussusception",
   "summary": [
-   "<b>นอกสไลด์:</b> US เห็น target/doughnut sign · ไม่มี peritonitis ทะลุ หรือช็อก → air/hydrostatic enema reduction (สำเร็จส่วนใหญ่) · ล้มเหลวหรือมีข้อห้าม → ผ่าตัด · อายุน้อยกว่า 3 เดือนหรือเด็กโต → หา lead point (Meckel, polyp, lymphoma)"
+   "Intussusception: 2 เดือน–2 ปี (peak 3–8 เดือน) · ชาย &gt; หญิง",
+   "อาการ: อาเจียน 85% · ปวดเป็นพัก ๆ 80% · currant jelly stool 50% · sausage mass 50%",
+   "US: target/ doughnut sign",
+   "รักษา: air/ hydrostatic enema reduction",
+   "ห้าม enema: peritonitis · perforation · ช็อก → ผ่าตัด",
+   "ไม่รักษา → strangulation เสียชีวิตใน 2–5 วัน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Intussusception: ไส้กรอก (Sausage) + เยลลี่ (Currant jelly) + ร้องเป็นพัก ๆ'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception",
   "variants": [
-   "<b>นอกสไลด์:</b> air enema คลายได้แล้ว 24 ชม. อาการกลับมา → intussusception ซ้ำ: ทำ enema ซ้ำได้",
-   "<b>นอกสไลด์:</b> ทารก intussusception ท้องแข็ง ไข้ ช็อก ภาพเห็นลมใต้กะบังลม → ห้ามสวน ผ่าตัดทันที"
+   "เด็ก 9 เดือน ร้องขาขึ้นท้องเป็นพัก ๆ ถ่ายมูกเลือด US target sign → air enema",
+   "Intussusception + peritonitis → ผ่าตัด",
+   "เด็ก 5 ปี intussusception ซ้ำ → หา lead point (Meckel/ polyp/ lymphoma)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>18. เด็กชายอายุ 6 เดือน ร้องงอแงมากขึ้นกินนมได้น้อยลง มา 8 วัน แม่คลำก้อนที่ท้องได้เหมือนไส้กรอก วินิจฉัยว่าเป็นอะไร — A. choledochal cyst B. intussusception C. Meckel diverticulum</b><br>ลายมือ: เครื่องหมายคำพูดที่ \"ไส้กรอก\" · ขีด B เขียน \"peak 3-8 mo\"<br>ไฮไลต์: \"ชายอายุ 6 เดือน\" · \"ร้องงอแงมากขึ้นกินนมได้น้อยลง มา 8 วัน\" · \"คลำก้อนที่ท้องได้เหมือนไส้กรอก\" · \"วินิจฉัย\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Incidence — 2 months – 2 years · peak age 3 – 8 months · Male : Female = 1.5–3.5 : 1 · สไลด์ Signs &amp; Symptoms — Vomiting 85% · Abdominal colic 80% · Red currant jelly stool 50% · Sausage liked mass 50% · 1-2% prolapse of intussusception through anus · 7-30% has diarrhea · progressive dehydration &amp; strangulating bowel obstruction · usually fatal with in 5 days<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–C เว็บเพิ่ม D Pyloric stenosis และ E Wilms tumor",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
+  "kimg": [
+   "fsk_p151",
+   "kp66c_18"
   ]
  },
  "MDCU66|RoC|19": {
-  "interp": "Parkland: 60 kg ไหม้ 40% ได้ RL ไปแล้ว 1,200 mL ใน 2 ชม.แรก → ถามอัตราใน 6 ชม.ที่เหลือของช่วง 8 ชม.แรก",
-  "why": "<b>ลายมือ: 9,600 → 4,800 ใน 8 ชม. − 1,200 = 3,600 ใน 6 ชม.</b><br><b>นอกสไลด์:</b> 4 × 60 × 40 = 9,600 mL/24 ชม. → ครึ่งแรก 4,800 mL ต้องได้ครบใน 8 ชม. นับจากเวลาไหม้ → เหลือ 4,800 − 1,200 = 3,600 mL ใน 6 ชม. = 600 mL/h",
+  "interp": "ชาย 60 kg ไหม้ second-degree 40% ได้ RLS ไปแล้ว 1,200 mL ใน 2 ชม. แรก ถาม<b>อัตรา RLS ใน 6 ชม. ถัดไป</b>",
+  "why": "Parkland: 4 × 60 × 40 = 9,600 mL/24 ชม. · <b>ครึ่งแรก 4,800 mL ใน 8 ชม. แรก</b> · ได้ไปแล้ว 1,200 mL → เหลือ 3,600 mL ใน 6 ชม. ที่เหลือ = <b>600 mL/hr</b> · ไฟล์ขีด D ลายมือ <b>\"1200 cc/2 hr → เหลือ 3600 cc in 6 hr = 600 cc/hr\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 80 kg ไหม้ 40% ได้ 1,600 mL ใน 2 ชม.แรก → ครึ่งแรก 6,400 − 1,600 = 4,800 mL ใน 6 ชม. = 800 mL/h",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 75 kg ไหม้ 40% ยังไม่ได้สารน้ำใน 2 ชม.แรก → ครึ่งแรก 6,000 mL ใน 6 ชม. = 1,000 mL/h",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 50 kg ไหม้ 40% ได้ 1,000 mL ใน 2 ชม.แรก → ครึ่งแรก 4,000 − 1,000 = 3,000 mL ใน 6 ชม. = 500 mL/h",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย 90 kg ไหม้ 50% ได้ 1,800 mL ใน 2 ชม.แรก → ครึ่งแรก 9,000 − 1,800 = 7,200 mL ใน 6 ชม. = 1,200 mL/h"
+   "A": "800 mL/hr ได้จาก 4,800 ÷ 6 (ลืมหักที่ได้ไปแล้ว) · จะถูกถ้าคำถามบอกว่ายังไม่ได้สารน้ำเลยและเหลือเวลา 6 ชม.",
+   "B": "1,000 mL/hr ไม่ตรงกับสูตร · จะถูกถ้าคำถามเป็นผู้ป่วย 75 kg ไหม้ 40% ที่ยังไม่ได้สารน้ำใน 6 ชม. แรก (ประมาณ)",
+   "C": "500 mL/hr ไม่ตรงกับสูตร · จะถูกถ้าคำถามเป็นผู้ป่วย 50 kg ไหม้ 40% ได้ไปแล้ว 1,000 mL",
+   "E": "1,200 mL/hr ไม่ตรงกับสูตร (สับสนกับปริมาณที่ได้ไปแล้ว) · จะถูกถ้าคำถามถามผู้ป่วยไหม้มากกว่านี้มาก"
   },
-  "trap": "ลืมหักที่ได้ไปแล้ว → 4,800 ÷ 6 = 800 (ช้อย A) · 600 บังเอิญเท่ากับ 4,800 ÷ 8 แต่ที่ถูกคือ 3,600 ÷ 6",
+  "trap": "ลืมหักสารน้ำที่ได้ไปแล้ว หรือนับ 8 ชม. จากเวลาที่มาถึงโรงพยาบาลแทนเวลาที่ไหม้",
   "summary": [
-   "<b>นอกสไลด์:</b> มาช้าหรือได้สารน้ำน้อยกว่ากำหนด → ไล่ให้ครบครึ่งแรกภายในเวลาที่เหลือของ 8 ชม. (ไม่เริ่มนับใหม่) · สารน้ำที่ได้ก่อนถึงโรงพยาบาลนับรวมด้วย"
+   "Parkland: 4 mL × kg × %TBSA",
+   "ครึ่งแรกใน 8 ชม. <b>นับจากเวลาไหม้</b>",
+   "หักสารน้ำที่ได้ไปแล้ว แล้วหารด้วยเวลาที่เหลือ",
+   "ครึ่งหลังใน 16 ชม.",
+   "นับเฉพาะ second- และ third-degree ใน %TBSA",
+   "ปรับตาม urine output"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · คำนวณซ้ำตรงกัน (ถือว่า 2 ชม.นับจากเวลาไหม้) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ครึ่งแรก − ที่ให้แล้ว ÷ ชั่วโมงที่เหลือ'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal injuries",
   "variants": [
-   "<b>นอกสไลด์:</b> ให้ตามสูตรแล้วปัสสาวะต่ำกว่าเป้า (ผู้ใหญ่ 0.5 mL/kg/h) → เพิ่มอัตราราว 20–30% ไม่ให้ bolus ซ้ำ ๆ",
-   "<b>นอกสไลด์:</b> ปัสสาวะเกินเป้ามากต่อเนื่อง → ลดอัตราลง เลี่ยง fluid creep (abdominal compartment syndrome, ปอดบวมน้ำ)"
+   "70 kg ไหม้ 30% มาถึง 2 ชม. หลังไหม้ ยังไม่ได้สารน้ำ → 4,200 ÷ 6 = 700 mL/hr",
+   "หลัง 8 ชม. แรก → ครึ่งหลัง ÷ 16",
+   "Urine output ต่ำกว่าเป้า → เพิ่มอัตรา"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 151 — ตัวพิมพ์: <b>19. ผู้ป่วยชายอายุ 30 ปี น้ำหนัก 60 kg, 2nd degree burn 40%BSA ได้ RLS มาแล้ว 1200 cc ในเวลา 2 ชั่วโมงที่ผ่านมา ต้องได้ RLS เท่าไหร่ในอีก 6 ชั่วโมงถัดไป? — A. 800 cc/hr B. 1000 cc/hr C. 500 cc/hr D. 600 cc/hr E. 1200 cc/hr</b><br>ลายมือ: คำนวณ \"4 × % × kg = 4 × 40 × 60 = 9600 cc → ½ 4800 cc in 8 hr · ½ 4800 cc in 16 hr · 1200 cc/2 hr → เหลือ 3600 cc in 6 hr = 600 cc/hr\" · ขีด D<br>ไฮไลต์: \"ชายอายุ 30 ปี น้ำหนัก 60 kg\" · \"2nd degree burn 40%BSA\" · \"RLS มาแล้ว 1200 cc ในเวลา 2 ชั่วโมง\" · \"RLS เท่าไหร่ในอีก 6 ชั่วโมงถัดไป\" · D (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 151",
+  "kimg": [
+   "fsk_p151",
+   "kp66c_19"
   ]
  }
 }

@@ -1,154 +1,266 @@
 {
  "MDCU66|RoD|1": {
-  "interp": "ฝีในสมอง (ก้อนกินที่ ความดันในกะโหลกสูง) → ถามสิ่งที่ห้ามทำ",
-  "why": "<b>ลายมือ: ↑ICP</b><br><b>นอกสไลด์:</b> ฝีเป็น mass lesion ที่มีบวมรอบ → เจาะหลังลดความดันด้านล่างทำให้สมองเคลื่อน (herniation) และฝีอาจแตกเข้า ventricle · ผลเพาะเชื้อจาก CSF มักลบ จึงได้ไม่คุ้มเสีย",
+  "interp": "ผู้ป่วย <b>brain abscess</b> ห้ามทำอะไร",
+  "why": "Brain abscess เป็นก้อน (space-occupying lesion) ที่มี ICP สูง การเจาะหลังทำให้ความดันต่างกัน → <b>brain herniation</b> และได้ข้อมูลน้อย (CSF มักไม่พบเชื้อ) จึง<b>ห้าม lumbar puncture</b> · ไฟล์ขีด C ลายมือ <b>\"∵ ↑ICP\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยแพ้สารทึบรังสีรุนแรงหรือไตวายเฉียบพลัน → ใช้ MRI แทน",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การเพาะเชื้อจากเลือดเป็นข้อห้าม เพราะเป็นการเจาะเลือดส่วนปลายที่ไม่เสี่ยงต่อสมอง และช่วยหาเชื้อได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น echocardiogram ทางหลอดอาหาร (TEE) ในผู้ป่วยที่มีหลอดอาหารตีบหรือ varices เลือดออก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าฝีหายแล้วหลังรักษาครบ ภาพไม่เหลือ mass effect"
+   "A": "CT/ MRI with contrast จำเป็นในการวินิจฉัย (ring-enhancing lesion) · จะถูกถ้าคำถามถามผู้ป่วยแพ้ contrast รุนแรงหรือไตวายที่ต้องเลือกวิธีอื่น",
+   "B": "Hemoculture ช่วยหาเชื้อก่อนให้ยา ควรทำ · จะถูกถ้าคำถามถามสิ่งที่ไม่จำเป็นต้องรอก่อนให้ยาในผู้ป่วยวิกฤต",
+   "D": "Echocardiogram หา endocarditis/ right-to-left shunt (เช่น cyanotic heart disease) ซึ่งเป็นแหล่งที่มา · จะถูกถ้าคำถามถามผู้ป่วยที่ทราบแหล่งติดเชื้อชัดเจนจากหูชั้นกลาง/ sinus",
+   "E": "มีสิ่งที่ห้ามทำคือ LP จึงไม่ใช่ทำได้ทุกอย่าง · จะถูกถ้าคำถามถาม meningitis ที่ CT ปกติ"
   },
-  "trap": "ไข้ ปวดหัว ชวนให้เจาะหลังหา meningitis — มี focal deficit/papilledema ต้อง CT ก่อน และเมื่อพบฝีแล้วไม่เจาะหลัง",
+  "trap": "คิดว่าการติดเชื้อในระบบประสาทต้องเจาะหลังเสมอ · ก้อนในสมอง/ ICP สูงห้ามเจาะ",
   "summary": [
-   "<b>นอกสไลด์:</b> workup ฝีในสมอง: MRI ฉีดสี + DWI (ตรงกลาง restrict) · เพาะเชื้อเลือด · หาต้นเหตุ (หู ไซนัส ฟัน หัวใจเขียว endocarditis) · เจาะดูดหนองจากฝีได้เชื้อแน่นอนที่สุด"
+   "Brain abscess: ไข้ ปวดศีรษะ focal deficit (triad ไม่ครบบ่อย)",
+   "CT/ MRI: ring-enhancing · DWI restriction",
+   "ห้าม LP (herniation)",
+   "แหล่ง: หู/ sinus (ใกล้เคียง) · hematogenous · trauma · cyanotic heart disease",
+   "รักษา: aspiration/ excision + IV ATB 6–8 สัปดาห์",
+   "ก้อน &lt; 2.5 cm อาการดี → ยาอย่างเดียวได้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ก้อนในสมอง = ห้ามเจาะหลัง (No LP in mass)'</b>",
+  "guide": "ESCMID Guideline on the Diagnosis and Treatment of Brain Abscess (Clin Microbiol Infect 2024;30:66)",
   "variants": [
-   "<b>นอกสไลด์:</b> ฝีในสมองหลายก้อน ไข้ มีเสียงฟู่หัวใจใหม่ → infective endocarditis: echo + เพาะเชื้อเลือดหลายขวด",
-   "<b>นอกสไลด์:</b> ระหว่างรักษาฝีในสมอง ซึมลงทันที ปวดหัวรุนแรง CT เห็น ventricle มีหนองและขยาย → ฝีแตกเข้า ventricle: ระบายด่วน + ยาฉีด"
+   "หูน้ำหนวกเรื้อรัง ไข้ ปวดศีรษะ hemiparesis → CT ring enhancing → temporal abscess",
+   "เด็ก Tetralogy of Fallot ไข้ ชัก → brain abscess",
+   "สงสัย meningitis มี papilledema → CT ก่อน LP"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 — ตัวพิมพ์: <b>AC Surgery Subspecialty Rotate 4/2557 · 1. ผู้ป่วยมีBrain abcess ห้ามทำอะไร — A. with contrast B. hemoculture C. lumbar puncture D. echocardiogram E. ทำได้ทุกอย่าง</b><br>ลายมือ: ขีด C เขียน \"∵ ↑ICP\"<br>ไฮไลต์: \"Brain abcess ห้ามทำ\" · C (เหลือง)<br>ที่ปรับในเว็บ: ช้อย A เขียนเป็น Contrast CT",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_1"
   ]
  },
  "MDCU66|RoD|2": {
-  "interp": "รอยแดงที่ไม่มีตอนเกิด (หรือเป็นจุดจาง) โตขึ้นช่วงทารกแล้วหยุดโต → natural history ของ infantile hemangioma",
-  "why": "<b>ลายมือ: b vascular malformation ไม่ยุบ · สไลด์ hemangioma</b><br><b>นอกสไลด์:</b> infantile hemangioma เป็นเนื้องอกหลอดเลือด: เห็นในสัปดาห์แรก ๆ หลังเกิด โตเร็วช่วงไม่กี่เดือนแรก หยุดโตราวขวบปีแรก แล้วค่อย ๆ ยุบหลายปี · vascular malformation มีตั้งแต่เกิด โตตามตัว ไม่ยุบเอง",
+  "interp": "รูปก้อนเนื้อสีแดงที่<b>ขึ้นหลังคลอด โตเร็ว แล้วคงที่</b>เมื่ออายุ 3 ปี ถามการวินิจฉัย",
+  "why": "<b>Infantile hemangioma</b> (เนื้องอกหลอดเลือด) ปรากฏหลังคลอดไม่นาน → โตเร็วในขวบปีแรก (proliferative) → คงที่ (plateau) → ค่อย ๆ ยุบ (involution ~50% ที่ 5 ปี · 70% ที่ 7 ปี · 90% ที่ 9 ปี) · ต่างจาก vascular malformation ที่<b>โตตามตัวและไม่ยุบ</b> · ไฟล์ขีด a ลายมือที่ b–c <b>\"vascular malformation โตตามตัว ไม่ยุบได้\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ามีตั้งแต่เกิด สีม่วงน้ำเงิน นุ่มกดยุบ โตขึ้นเมื่อก้มหรือร้องไห้ คลำได้ก้อนหินปูนเล็ก (phlebolith)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ารอยแดงอุ่น คลำได้การเต้น/เสียงฟู่ และโตขึ้นช่วงวัยรุ่นหรือหลังบาดเจ็บ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนนุ่มส่องไฟทะลุที่คอหรือรักแร้มีตั้งแต่เกิด",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าตุ่มแดงมีก้านโตเร็วในไม่กี่สัปดาห์ เลือดออกง่ายเมื่อถู ในเด็กโตหรือหญิงตั้งครรภ์"
+   "B": "Venous malformation มีตั้งแต่เกิด โตตามตัว ไม่ยุบ ก้อนนุ่มสีน้ำเงิน บีบยุบได้ · จะถูกถ้าคำถามถามก้อนสีน้ำเงินบีบยุบ โตขึ้นเวลาก้ม",
+   "C": "AVM เป็น high-flow มี thrill/ bruit อุ่น โตตามตัวหรือโตเร็วช่วงวัยรุ่น/ ตั้งครรภ์ · จะถูกถ้าคำถามถามก้อนอุ่น คลำได้ thrill",
+   "D": "Lymphatic malformation (cystic hygroma) ก้อนนุ่มใส มักที่คอ/ รักแร้ · จะถูกถ้าคำถามถามก้อนนุ่มส่องไฟทะลุที่คอทารก",
+   "E": "Pyogenic granuloma ก้อนแดงเล็กเลือดออกง่าย โตเร็วในไม่กี่สัปดาห์หลังบาดเจ็บ · จะถูกถ้าคำถามถามก้อนแดงมีก้านเลือดออกง่ายที่นิ้ว"
   },
-  "trap": "RICH/NICH เป็น hemangioma ที่โตเต็มที่ตั้งแต่เกิดและไม่โตต่อ — \"เห็นหลังเกิดแล้วโต\" จึงเป็น infantile hemangioma",
+  "trap": "สับสน hemangioma (เนื้องอก ยุบได้) กับ vascular malformation (ความผิดปกติแต่กำเนิด ไม่ยุบ)",
   "summary": [
-   "<b>นอกสไลด์:</b> ส่วนใหญ่ปล่อยยุบเอง · รักษาเมื่อรบกวนการทำงาน (ใกล้ตา ทางเดินหายใจ) แผลแตก หรือเสียความงามที่ใบหน้า → propranolol เป็นยาแรก · หลายก้อน (≥ 5) → US ตับ · ใบหน้าขนาดใหญ่แบบ segmental → ตรวจ PHACE"
+   "Hemangioma: หลังคลอด → โตเร็ว → คงที่ → ยุบ",
+   "Malformation: มีตั้งแต่เกิด โตตามตัว ไม่ยุบ",
+   "Hemangioma ส่วนใหญ่ observe",
+   "รักษาเมื่อบังตา/ ทางเดินหายใจ/ แผล/ หน้าตา → propranolol",
+   "Malformation: low flow → sclerotherapy · high flow → embolization + surgery",
+   "Kasabach–Merritt: kaposiform hemangioendothelioma + เกล็ดเลือดต่ำ"
   ],
-  "opinion": "ตามคีย์ A · มั่นใจปานกลาง–สูง (ไม่มีภาพ อาศัยประวัติ)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Hemangioma = Here-after-birth, Huge-fast, Heal (ยุบ) · Malformation = มาตั้งแต่เกิด ไม่หาย'</b>",
+  "guide": "ISSVA Classification for Vascular Anomalies (2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> hemangioma ที่เปลือกตาบนโตจนปิดตา → propranolol ด่วน กันตาขี้เกียจ",
-   "<b>นอกสไลด์:</b> ทารกมี hemangioma บริเวณคางถึงคอแบบเครา หายใจเสียงดัง → สงสัย hemangioma ในทางเดินหายใจ: ส่องกล้อง + propranolol"
+   "ทารก 2 เดือน ก้อนแดงสดโตเร็วที่หนังศีรษะ → infantile hemangioma → observe",
+   "Hemangioma ที่เปลือกตาบังการมองเห็น → propranolol",
+   "ก้อนสีน้ำเงินบีบยุบที่แก้มมีตั้งแต่เกิด → venous malformation → sclerotherapy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 — ตัวพิมพ์: <b>2. ให้รูป ก้อนเนื้อแดงๆ เป็นตั้งแต่เกิดโตขึ้นเรื่อยๆ ตอนนี้ 3 ขวบเริ่มคงที่แล้ว ถามว่าเป็นอะไร — a) hemangioma b) venous malformation c) artery mal formation d) lymphatic malformation</b><br>ลายมือ: ขีด a · วงเล็บ b–c เขียน \"vascular malformation โตตามตัว ไม่ยุบได้\"<br>ไฮไลต์: \"ก้อนเนื้อแดงๆ\" · \"เป็นตั้งแต่เกิดโตขึ้นเรื่อยๆ\" · \"3 ขวบเริ่มคงที่แล้ว\" · a (เหลือง)<br>รูปที่แปะ: โน้ตตัวพิมพ์อีกฉบับ \"31. ให้รูป ก้อนเนื้อแดงๆ ... A hemangioma B capillary-venous malformation C arterio-venous mal formation D lymphatic malformation E pyogenic granuloma\" · สไลด์ 2 Vascular malformation — Structural abnormalities formed during fetal development · Grow in proportion to the body · Never involute · High flow, low flow · Treatment: surgery, angiography and embolization · สไลด์ 1 Haemangioma — Present soon after birth · Rapid cellular proliferation over the first year of life · 90% involute over time · Treatment: Observe +/- medication or surgery · สไลด์ Hemangiomas — 1. Superficial (strawberry) 2. Deep (cavernous) 3. Mixed · Usu. absent at birth · Natural history: 1. Rapid growth 2. Plateau 3. Slow involution: 50% by age of 5, 70% by age of 7, 90% by age of 9 · สไลด์ Treatment of hemangioma พร้อมรูป<br>ที่ปรับในเว็บ: ระบุเป็น Infantile hemangioma · ช้อย E Pyogenic granuloma มาจากโน้ตที่แปะในไฟล์",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_2"
   ]
  },
  "MDCU66|RoD|3": {
-  "interp": "ถามสิ่งที่บ่งชี้ empyema \"โดยตรง\" (หลักฐานว่ามีเชื้อในช่องเยื่อหุ้มปอด)",
-  "why": "<b>ลายมือ: direct evidence · b indirect</b><br><b>นอกสไลด์:</b> empyema = มีเชื้อหรือหนองในช่องเยื่อหุ้มปอด · เห็นเชื้อใน Gram stain (หรือเพาะขึ้น) คือหลักฐานโดยตรง ส่วน pH/glucose บอกทางอ้อมว่ามีการอักเสบรุนแรง",
+  "interp": "ถามสิ่งที่บ่งบอกว่าเป็น <b>empyema</b> โดยตรงที่สุด",
+  "why": "<b>Gram stain พบเชื้อ</b> (หรือเพาะเชื้อขึ้น/ เจาะได้หนอง) เป็น <b>direct evidence</b> ของ empyema · ส่วน pH ต่ำ glucose ต่ำ LDH สูง เป็น indirect evidence (complicated parapneumonic effusion) · ไฟล์ขีด a ลายมือ <b>\"direct evidence\"</b> และที่ b <b>\"indirect evidence\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pH ต่ำเป็นหลักฐานโดยตรงของ empyema เพราะเป็นผลทางอ้อมจากเมตาบอลิซึมของเซลล์ และต่ำได้ในหลอดอาหารทะลุ วัณโรค หรือมะเร็ง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ glucose ต่ำเป็นหลักฐานโดยตรงของ empyema เพราะเกิดจากเซลล์และเชื้อใช้น้ำตาล ซึ่งพบได้ใน rheumatoid pleurisy และวัณโรคด้วย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ CRP สูงบ่งชี้ empyema โดยตรง เพราะสูงจากการอักเสบที่ใดก็ได้ — ใช้ติดตามการตอบสนองต่อการรักษา",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าน้ำที่ขุ่นนั้นเป็นหนองข้นชัด (frank pus) ซึ่งเป็นนิยามของ empyema โดยไม่ต้องรอผล"
+   "B": "pH &lt; 7 เป็น indirect evidence บอกว่าต้องระบาย แต่ไม่ยืนยันการติดเชื้อโดยตรง · จะถูกถ้าคำถามถามเกณฑ์ที่บอกว่าต้องใส่ ICD ใน parapneumonic effusion",
+   "C": "Glucose ต่ำเป็น indirect evidence (พบใน RA, TB, มะเร็งได้) · จะถูกถ้าคำถามถาม pleural effusion จาก rheumatoid arthritis",
+   "D": "CRP เป็นตัวบ่งชี้การอักเสบในเลือด ไม่ใช่เกณฑ์ของน้ำในเยื่อหุ้มปอด · จะถูกถ้าคำถามถามการติดตามการตอบสนองต่อยา",
+   "E": "น้ำขุ่นไม่จำเพาะ (chylothorax/ cell มาก) · จะถูกถ้าคำถามถามน้ำขาวขุ่นหลังผ่าตัดทรวงอก (chylothorax)"
   },
-  "trap": "น้ำขุ่นอาจไม่ใช่หนอง — ปั่นแล้วส่วนบนใส = ขุ่นจากเซลล์ · ยังขุ่น = ไขมัน (chylothorax ตรวจ triglyceride)",
+  "trap": "เลือกค่าทางเคมี (pH) เพราะใช้บ่อยในการตัดสินใจระบาย · แต่คำถามถามสิ่งที่<b>บ่งบอกโดยตรง</b>",
   "summary": [
-   "<b>นอกสไลด์:</b> ระยะของ parapneumonic effusion: exudative (ใส) → fibrinopurulent (septation, pH/glucose ต่ำ) → organizing (เปลือกหนา ปอดขยายไม่ได้ ต้อง decortication) · เชื้อที่พบบ่อย: Streptococcus (กลุ่ม anginosus), S. aureus, anaerobe, gram-negative"
+   "Direct: หนอง · Gram stain/ culture บวก",
+   "Indirect: pH &lt; 7.2 · glucose &lt; 40–60 · LDH &gt; 1,000",
+   "Complicated parapneumonic → ICD",
+   "Empyema → ICD + ATB",
+   "Loculated → tPA/ DNase หรือ VATS",
+   "Organizing → decortication"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Direct = เห็นเชื้อ/ เห็นหนอง · Indirect = ตัวเลขเคมี'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1)",
   "variants": [
-   "<b>นอกสไลด์:</b> Gram stain ไม่พบเชื้อในผู้ป่วยที่ได้ยาปฏิชีวนะมาก่อน → ใส่น้ำเยื่อหุ้มปอดในขวดเพาะเชื้อเลือดเพิ่มโอกาสขึ้นเชื้อ และตัดสินจาก pH/ภาพ",
-   "<b>นอกสไลด์:</b> น้ำเยื่อหุ้มปอดหลังอาเจียนรุนแรง amylase สูง pH ต่ำมาก มีเศษอาหาร → หลอดอาหารทะลุ (Boerhaave)"
+   "เจาะได้หนองข้น → empyema → ICD",
+   "Parapneumonic pH 7.0 Gram stain ลบ → complicated → ICD",
+   "Effusion glucose ต่ำมาก ในผู้ป่วย RA → rheumatoid effusion"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 — ตัวพิมพ์: <b>3. ถามว่าข้อใดบ่งบอกว่าเป็น emphyrema — a) gram stain เห็นเชื้อแกรมบวก b) pH &lt; 7 c) c+d</b><br>ลายมือ: ขีด a เขียน \"direct evidence\" · ช้อย b เขียน \"indirect evidence\"<br>ไฮไลต์: \"ข้อใดบ่งบอกว่าเป็น emphyrema\" · a (เหลือง)<br>รูปที่แปะ: สไลด์ Diagnosis — Gram stain positive · Culture Positive · WBC &gt; 15,000 /mm³ · Protein &gt;3 g/dl · pH &lt; 7 · Glu &lt; 40 mg/dl · LDH &gt; 1000 U/L<br>ที่ปรับในเว็บ: ไฟล์จำช้อยไม่ครบ (c เป็น c+d) เว็บแต่งช้อย C–E · ช้อย A เขียนเป็น Organisms on Gram stain",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_3"
   ]
  },
  "MDCU66|RoD|4": {
-  "interp": "โจทย์เดียวกับ RoB 38 ของชุดนี้ — หาสิ่งที่ \"ไม่ใช่\" อาการของ zygoma หัก (ข้อนี้เก็บมุมว่าสบฟันผิดบอกการหักแบบไหน)",
-  "why": "<b>ลายมือ: not</b><br><b>นอกสไลด์:</b> การสบฟันบอกว่ากระดูกที่ถือฟันเคลื่อน → ผู้บาดเจ็บใบหน้าที่สบฟันผิดต้องหา LeFort (maxilla แยกจากฐานกะโหลก) หรือ mandible หัก แม้จะเห็นลักษณะของ zygoma หักชัด",
+  "interp": "ถามสิ่งที่<b>ไม่ใช่</b>อาการ/ อาการแสดงของ <b>zygoma fracture</b>",
+  "why": "Zygoma ไม่มีฟัน → <b>malocclusion ไม่ใช่อาการของ zygoma fracture</b> (เป็นของ mandible/ maxilla) · อาการของ zygoma: trismus · diplopia · ชา infraorbital · periorbital ecchymosis · ไฟล์ขีด b และเขียน <b>\"not\"</b> หน้าข้อ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะการอ้าปากลำบากจาก arch ยุบกดกล้ามเนื้อ temporalis/coronoid เป็นอาการที่พบได้ของ zygoma หัก",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะกล้ามเนื้อ inferior rectus ติดในรอยแตกพื้นเบ้าตาหรือลูกตาเลื่อนลงทำให้ภาพซ้อน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะเส้นประสาท infraorbital ถูกกดหรือฉีกในรอยหักบริเวณขอบเบ้าตาล่าง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะเลือดจากขอบเบ้าตาด้านข้าง/ล่างซึมรอบตาและใต้เยื่อบุตา"
+   "A": "ถูกว่าพบได้: trismus จาก arch กด coronoid process · จะถูกถ้าคำถามถามอาการที่ไม่พบใน nasal fracture",
+   "C": "ถูกว่าพบได้: diplopia จาก orbital floor · จะถูกถ้าคำถามถามอาการที่ไม่พบใน mandible fracture",
+   "D": "ถูกว่าพบได้: ชาแก้ม/ ริมฝีปากบน (infraorbital n.) · จะถูกถ้าคำถามถามอาการที่ไม่พบใน mandible fracture",
+   "E": "ถูกว่าพบได้: ห้อเลือดรอบตา · จะถูกถ้าคำถามถามอาการที่ไม่พบใน condylar fracture"
   },
-  "trap": "ผู้ป่วยบอกว่า \"ฟันสบไม่ลง\" ทั้งที่จริงอ้าปากได้น้อยจาก trismus — ตรวจโดยให้กัดฟันดูแนวฟันจริง ไม่ใช่ถามความรู้สึก",
+  "trap": "เป็นคำถามแบบ ไม่ใช่ ต้องหาข้อที่ไม่ใช่อาการ",
   "summary": [
-   "<b>นอกสไลด์:</b> LeFort I = แนวขวางเหนือรากฟันบน (เพดานและฟันขยับ) · II = รูปปิรามิดผ่านดั้งจมูกและขอบเบ้าตาล่าง · III = ใบหน้าแยกจากกะโหลกศีรษะ (ผ่าน zygomatic arch และ FZ suture) · ทุกแบบสบฟันผิด"
+   "ZMC: แก้มแบน · ชา infraorbital",
+   "Diplopia · enophthalmos · limit EOM",
+   "Trismus (กด coronoid)",
+   "Periorbital/ subconjunctival hemorrhage",
+   "Malocclusion → mandible/ maxilla",
+   "ORIF เมื่อผิดรูป/ diplopia/ trismus"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · โจทย์เดียวกับ RoB 38 · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Zygoma ไม่มีฟัน → สบฟันปกติ'</b>",
+  "guide": "Fonseca's Oral and Maxillofacial Trauma 4th ed. (2013) — Zygomatic complex fractures",
   "variants": [
-   "<b>นอกสไลด์:</b> จับฟันหน้าบนโยกแล้วใบหน้าส่วนกลางรวมดั้งจมูกขยับตาม หน้ายาวแบน → LeFort II/III",
-   "<b>นอกสไลด์:</b> zygoma หักร่วมสบฟันผิด CT พบ maxilla หักแนว LeFort ร่วม → ยึด maxilla ให้สบฟันก่อน แล้วจึงจัด zygoma"
+   "ถูกต่อยแก้ม แก้มแบน ชาริมฝีปากบน → ZMC fracture",
+   "ถูกตีคาง สบฟันไม่ลง → mandible fracture",
+   "มองขึ้นเห็นภาพซ้อน ตาจม → orbital floor fracture"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 — ตัวพิมพ์: <b>4. Sign symptom zygoma fx — a. Trismus b. Malocclusion c. Diplopia d. Parethesis of infraorbital nerve e. Peri orbital ecchymosis</b><br>ลายมือ: เขียน \"not\" หน้าข้อ · ✓ ที่ a c d e · ขีด b<br>ไฮไลต์: \"Sign symptom zygoma fx\" · b (เหลือง) · a c d e (ส้ม)<br>รูปที่แปะ: โน้ตลายมือแผนผัง Zygoma — sign &amp; symp. · 1x Water's view · Tx: conservative/ ORIF พร้อมรูปใบหน้า",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_4"
   ]
  },
  "MDCU66|RoD|5": {
-  "interp": "ถามเชื้อที่ทำให้นิ่ว struvite บ่อยที่สุด",
-  "why": "<b>ลายมือ: urease enz. · c ✗</b><br><b>นอกสไลด์:</b> urease แยก urea เป็น ammonia → ปัสสาวะเป็นด่าง → magnesium ammonium phosphate ตกผลึก โตเร็วเป็น staghorn · Proteus mirabilis เป็นเชื้อสร้าง urease ที่พบบ่อยที่สุด",
+  "interp": "ถามเชื้อที่ทำให้เกิด<b>นิ่ว struvite</b> บ่อยที่สุด",
+  "why": "Struvite (magnesium ammonium phosphate) เกิดจากเชื้อที่สร้าง <b>urease</b> ย่อย urea → NH₃ → ปัสสาวะด่าง → ตกตะกอน · เชื้อที่พบบ่อยที่สุดคือ <b>Proteus mirabilis</b> · ไฟล์ขีด a ลายมือ <b>\"มี urease enz.\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Klebsiella เป็นเชื้อที่พบบ่อยที่สุดของนิ่ว struvite เพราะสร้าง urease ได้ไม่สม่ำเสมอและพบน้อยกว่าในนิ่วชนิดนี้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ E. coli ทำให้เกิดนิ่ว struvite เพราะไม่สร้าง urease",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Streptococcus ทำให้เกิดนิ่ว struvite เพราะไม่มีเอนไซม์ที่ทำให้ปัสสาวะเป็นด่างจาก ammonia",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Staphylococcus เป็นสาเหตุที่พบบ่อยที่สุดของนิ่ว struvite เพราะสร้าง urease ได้เฉพาะบางชนิด (S. saprophyticus) และพบน้อย"
+   "B": "Klebsiella สร้าง urease ได้บางสายพันธุ์ แต่พบน้อยกว่า Proteus · จะถูกถ้าคำถามถามเชื้อ urease-producing อันดับรอง",
+   "C": "E. coli ไม่สร้าง urease (ลายมือ ✗) · จะถูกถ้าคำถามถามเชื้อก่อ UTI ที่พบบ่อยที่สุด",
+   "D": "Streptococcus ไม่ใช่เชื้อหลักของ struvite · จะถูกถ้าคำถามถามเชื้อที่ทำให้ glomerulonephritis หลังติดเชื้อ",
+   "E": "Staphylococcus (S. saprophyticus) สร้าง urease ได้ แต่พบน้อยกว่า · จะถูกถ้าคำถามถาม UTI ในหญิงวัยเจริญพันธุ์ที่มีเพศสัมพันธ์"
   },
-  "trap": "E. coli เป็นเชื้อ UTI ที่พบบ่อยที่สุดจึงหลอก — แต่ไม่สร้าง urease",
+  "trap": "ตอบ E. coli เพราะเป็นเชื้อ UTI ที่พบบ่อยที่สุด แต่ไม่สร้าง urease",
   "summary": [
-   "<b>นอกสไลด์:</b> struvite (infection stone): เชื้อซ่อนในนิ่ว ต้องเอานิ่วออกให้หมด (PCNL สำหรับ staghorn) ร่วมยาปฏิชีวนะ ไม่เช่นนั้นติดเชื้อและนิ่วกลับเป็นซ้ำ · พบมากในหญิง ผู้ที่สวนปัสสาวะ/neurogenic bladder"
+   "Struvite = infection stone",
+   "Urease: Proteus &gt; Klebsiella · Pseudomonas · S. saprophyticus",
+   "ปัสสาวะด่าง pH &gt; 7",
+   "ผลึกฝาโลง (coffin-lid)",
+   "มักเป็น staghorn → PCNL เอาออกหมด",
+   "Acetohydroxamic acid = urease inhibitor"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Proteus → Pee ด่าง → struvite'</b>",
+  "guide": "EAU Guidelines on Urolithiasis (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> staghorn ข้างขวา ไตข้างนี้ทำงาน 8% ติดเชื้อซ้ำ ไตอีกข้างปกติ → nephrectomy",
-   "<b>นอกสไลด์:</b> ปัสสาวะ pH 8 เห็นผลึกรูปฝาโลง (coffin-lid) → struvite"
+   "UTI ซ้ำ ปัสสาวะ pH 8 staghorn → struvite → PCNL",
+   "ปัสสาวะกรด นิ่วไม่ทึบแสง → uric acid",
+   "เด็กนิ่วซ้ำ ผลึกหกเหลี่ยม → cystinuria"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 — ตัวพิมพ์: <b>5. Struvite เชื้อ — a. Proteus b. Klebsiella c. E.coli d. Strep e. Staph</b><br>ลายมือ: ขีด a ดาว * และวงเล็บ a–b เขียน \"มี urease enz.\" · ✗ ที่ c<br>ไฮไลต์: \"Struvite เชื้อ\" · a b (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_5"
   ]
  },
  "MDCU66|RoD|6": {
-  "interp": "ถามเนื้องอกตับชนิดไม่ร้ายในทารก",
-  "why": "<b>ลายมือ: b, c malignant</b><br><b>นอกสไลด์:</b> infantile hepatic hemangioma เป็นเนื้องอกตับไม่ร้ายที่พบบ่อยที่สุดในทารก (มักร่วม hemangioma ที่ผิวหนังหลายก้อน) ส่วนใหญ่ยุบเองแบบเดียวกับที่ผิวหนัง",
+  "interp": "ถามเนื้องอกตับชนิด<b>ไม่ใช่มะเร็ง</b>ในทารก",
+  "why": "<b>Infantile hepatic hemangioma</b> (เดิมเรียก infantile hemangioendothelioma) เป็นเนื้องอกหลอดเลือดชนิด benign ที่พบบ่อยที่สุดของตับในทารก อาจทำให้ high-output heart failure/ hypothyroidism · ไฟล์ขีด a ลายมือที่ b–c <b>\"malignant\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hepatoblastoma เป็นเนื้องอกไม่ร้าย เพราะเป็นมะเร็งตับปฐมภูมิที่พบบ่อยที่สุดในเด็กเล็ก",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ HCC เป็นเนื้องอกไม่ร้าย เพราะเป็นมะเร็งเซลล์ตับ (ในเด็กมักพบในวัยรุ่นที่มีตับแข็งหรือ HBV)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ undifferentiated embryonal sarcoma เป็นเนื้องอกไม่ร้าย เพราะเป็น sarcoma ชนิดร้ายของเด็กวัยเรียน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ angiosarcoma เป็นเนื้องอกไม่ร้าย เพราะเป็นมะเร็งหลอดเลือดที่ลุกลามเร็ว"
+   "B": "Hepatoblastoma เป็น<b>มะเร็ง</b>ตับที่พบบ่อยที่สุดในเด็ก &lt; 3 ปี AFP สูงมาก · จะถูกถ้าคำถามถามมะเร็งตับในเด็กเล็ก",
+   "C": "HCC เป็นมะเร็ง พบในเด็กโต/ วัยรุ่น (มักมีโรคตับเดิม เช่น HBV) · จะถูกถ้าคำถามถามมะเร็งตับในวัยรุ่น",
+   "D": "Undifferentiated embryonal sarcoma เป็นมะเร็งตับในเด็กโต (6–10 ปี) · จะถูกถ้าคำถามถามก้อนตับขนาดใหญ่มีถุงน้ำในเด็กวัยเรียน",
+   "E": "Angiosarcoma เป็นมะเร็งหลอดเลือด · จะถูกถ้าคำถามถามผู้ใหญ่ที่สัมผัส vinyl chloride/ arsenic"
   },
-  "trap": "ก้อนตับในทารกมี AFP สูงได้ตามวัย (ทารกแรกเกิด AFP สูงอยู่แล้ว) — อย่าตีความเป็น hepatoblastoma จาก AFP อย่างเดียว ต้องเทียบค่าตามอายุ",
+  "trap": "เห็นคำว่า hemangioendothelioma ที่มีคำว่า endothelioma แล้วคิดว่าเป็นมะเร็ง",
   "summary": [
-   "<b>นอกสไลด์:</b> เนื้องอกตับเด็ก — ไม่ร้าย: hemangioma (ทารก), mesenchymal hamartoma (ถุงน้ำหลายช่อง อายุ &lt; 2 ปี) · ร้าย: hepatoblastoma (&lt; 3 ปี), HCC (วัยรุ่น)"
+   "Benign ตับเด็ก: infantile hemangioma · mesenchymal hamartoma · FNH",
+   "Infantile hepatic hemangioma: high-output CHF · hypothyroidism (consumptive)",
+   "Hepatoblastoma: &lt; 3 ปี · AFP สูง · มะเร็งตับเด็กพบบ่อยที่สุด",
+   "HCC: เด็กโต/ วัยรุ่น",
+   "Hepatoblastoma เสี่ยง: น้ำหนักแรกเกิดน้อย · BWS · FAP",
+   "รักษา hemangioma: observe/ propranolol"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ตับทารก: Hemangioma = Harmless · Hepatoblastoma = Harmful (AFP สูง)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Hepatic tumors",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 3 เดือน ตับโตมาก หัวใจล้มเหลว TSH สูง US พบก้อนหลอดเลือดกระจายทั้งตับ → diffuse hepatic hemangioma: propranolol + ให้ thyroid hormone",
-   "<b>นอกสไลด์:</b> hemangioma ตับก้อนเดียวในทารกไม่มีอาการ → ติดตาม US รอยุบเอง"
+   "ทารก 2 เดือน ตับโต หัวใจล้มเหลว ก้อนหลอดเลือดหลายก้อนในตับ → infantile hepatic hemangioma",
+   "เด็ก 2 ปี ก้อนตับใหญ่ AFP สูงมาก → hepatoblastoma",
+   "วัยรุ่น HBV ก้อนตับ → HCC"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 — ตัวพิมพ์: <b>6. Benign hepatic tumor — a. Infantile hemangioendotheloma b. hepatoblastoma c. hepatocellular carcinoma</b><br>ลายมือ: ขีด a · วงเล็บ b–c เขียน \"malignant\"<br>ไฮไลต์: \"Benign hepatic tumor\" · a (เหลือง)<br>รูปที่แปะ: ตาราง สรุปความแตกต่างระหว่าง Wilms' tumor และ Neuroblastoma (ไฮไลต์) · Case 10 — CT ช่องท้องเด็ก 1. Diagnosis? 2. Treatment? (Diagnosis: Wilms tumor · Treatment: Radical nephrectomy · Chemotherapy · Radiotherapy in some)<br>ที่ปรับในเว็บ: ช้อย A ใช้ชื่อปัจจุบัน Infantile hepatic hemangioma · ในไฟล์มีช้อย a–c เว็บเพิ่ม D Undifferentiated embryonal sarcoma และ E Angiosarcoma",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_6"
   ]
  },
  "MDCU66|RoD|7": {
-  "interp": "ก้อนในท้องเด็กที่มีหินปูน → ถามเนื้องอกที่น่าจะเป็นที่สุด",
-  "why": "<b>ลายมือ: scattered calcification · b claw sign</b><br><b>นอกสไลด์:</b> neuroblastoma มีหินปูนแบบจุดกระจายในก้อนเกือบทุกรายบน CT · ก้อนจากต่อมหมวกไต/ปมประสาท sympathetic ดันไตลง โอบหลอดเลือดใหญ่ ข้ามแนวกลาง",
+  "interp": "ก้อนในท้องเด็กที่มี<b>หินปูน (calcification)</b> น่าจะเป็นก้อนอะไร",
+  "why": "<b>Neuroblastoma</b> มีหินปูนกระจาย (stippled/ scattered calcification) ราว 80–90% ใน CT · ต่างจาก Wilms tumor ที่มักไม่มีหินปูน (~10%) และเห็น <b>claw sign</b> จากไต · ไฟล์ขีด a ลายมือ <b>\"→ scattered calcification\"</b> และที่ b <b>\"→ Claw sign\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Wilms เป็นคำตอบที่น่าจะเป็นที่สุดของก้อนมีหินปูน เพราะ Wilms มีหินปูนเพียงส่วนน้อยและไม่เป็นจุดกระจาย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกเคยมีเลือดออกในต่อมหมวกไตหลังคลอดยาก แล้วก้อนเลือดจัดตัวเป็นหินปูน — ก้อนเล็กลงเรื่อย ๆ เมื่อติดตาม US",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ mesoblastic nephroma เป็นคำตอบที่น่าจะเป็นที่สุดของก้อนมีหินปูน เพราะเป็นก้อนเนื้อทึบของไตทารกที่ไม่ค่อยมีหินปูน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กที่เคยรักษา lymphoma ในท้องด้วยเคมี/รังสีแล้ว ก้อนที่เหลือมีหินปูน"
+   "B": "Wilms tumor มาจากไต (claw sign) หินปูนพบน้อย ก้อนเรียบไม่ข้ามเส้นกลาง · จะถูกถ้าคำถามถามก้อนไตในเด็ก 3 ปี ความดันสูง hematuria",
+   "C": "Hematoma เก่าอาจมีหินปูนได้แต่ไม่ใช่ก้อนเนื้องอกที่พบบ่อย · จะถูกถ้าคำถามถาม adrenal hemorrhage ในทารกแรกเกิดหลังคลอดยาก",
+   "D": "Mesoblastic nephroma เป็นก้อนไตในทารก &lt; 3 เดือน ไม่มีหินปูนเด่น · จะถูกถ้าคำถามถามก้อนไตในทารกแรกเกิด",
+   "E": "Lymphoma (Burkitt) ก้อนโตเร็วในช่องท้อง หินปูนพบน้อยก่อนรักษา · จะถูกถ้าคำถามถามเด็กโตก้อนลำไส้โตเร็ว intussusception"
   },
-  "trap": "Wilms ก็เป็นก้อนในท้องเด็กที่พบบ่อย — แยกด้วย claw sign (ก้อนงอกจากไต) ดันหลอดเลือดแต่ไม่โอบ หินปูนน้อย",
+  "trap": "สับสนลักษณะภาพ neuroblastoma (หินปูน, ห่อหุ้มหลอดเลือด, ข้ามเส้นกลาง) กับ Wilms (claw sign, ดันหลอดเลือด)",
   "summary": [
-   "<b>นอกสไลด์:</b> neuroblastoma: ส่วนใหญ่อายุ &lt; 2 ปี · catecholamine ในปัสสาวะ (VMA, HVA) สูง · MIBG scan · อาการแพร่กระจาย: ตาช้ำรอบเบ้าตา, ก้อนผิวหนังสีน้ำเงิน, opsoclonus–myoclonus"
+   "Neuroblastoma: &lt; 2 ปี · ต่อมหมวกไต · หินปูน 80–90%",
+   "ข้ามเส้นกลาง · ห่อหุ้มหลอดเลือด · VMA/ HVA สูง",
+   "อาการ: raccoon eyes · opsoclonus-myoclonus · blueberry muffin",
+   "Wilms: 3–4 ปี · claw sign · ไม่ข้ามเส้นกลาง · หินปูนน้อย",
+   "Wilms: ความดันสูง · hematuria · WAGR/ BWS",
+   "Wilms รักษา: radical nephrectomy + chemo ± RT"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Neuroblastoma = Neat calcium sprinkles · Wilms = Claw'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Neuroblastoma",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 4 เดือน neuroblastoma ก้อนเล็กที่ต่อมหมวกไต ร่วมตับโตและก้อนผิวหนัง ไขกระดูกมีเซลล์น้อย → stage MS: มักยุบเอง ติดตามได้",
-   "<b>นอกสไลด์:</b> neuroblastoma ที่มี MYCN amplification → กลุ่มเสี่ยงสูง ต้องรักษาเข้มข้น"
+   "เด็ก 18 เดือน ก้อนท้องข้ามเส้นกลาง หินปูน ตาช้ำ → neuroblastoma → VMA/ HVA",
+   "เด็ก 3 ปี ก้อนไตเรียบ claw sign ความดันสูง → Wilms tumor",
+   "ทารกแรกเกิด ก้อนไตข้างเดียว → mesoblastic nephroma"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 — ตัวพิมพ์: <b>7. Calcification ก้อนในเด็ก — a. neuroblatoma b. wilm's tumor c. hematoma</b><br>ลายมือ: ขีด a เขียน \"→ scattered calcification\" · ช้อย b เขียน \"→ Claw sign\"<br>ไฮไลต์: \"Calcification ก้อนในเด็ก\" · a (เหลือง)<br>รูปที่แปะ: ตาราง สรุปความแตกต่างระหว่าง Wilms' tumor และ Neuroblastoma (อายุ · อาการ · ภาพรังสี · หินปูน · การแพร่กระจาย · การรักษา)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย a–c เว็บเพิ่ม D Mesoblastic nephroma และ E Lymphoma",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_7"
   ]
  },
  "MDCU66|RoD|8": {
-  "interp": "โจทย์ชุดเดียวกับ RoA X18 และ RoB 70 ของชุดนี้ — severe MR + moderate MS + severe TR (รูมาติกหลายลิ้น) → ถามการรักษา (ข้อนี้เก็บมุมการประเมินความรุนแรงด้วย echo)",
-  "why": "<b>ลายมือ: almost always rheumatic → replace · TV repair</b><br><b>นอกสไลด์:</b> โรคลิ้นหลายลิ้นที่รุนแรงแก้ในผ่าตัดครั้งเดียว — แก้ลิ้นซ้ายอย่างเดียวแล้ว TR มักไม่หายเอง และผ่าตัด tricuspid ซ้ำภายหลังเสี่ยงสูง",
+  "interp": "ผู้ป่วยมี <b>severe MR + moderate MS + severe TR</b> ถามการรักษา",
+  "why": "MR ร่วม MS → <b>rheumatic mitral disease</b> ลิ้นหนาแข็ง ซ่อมได้ผลไม่ทน → <b>เปลี่ยนลิ้น mitral</b> · severe functional TR → <b>ซ่อมลิ้น tricuspid (annuloplasty)</b> พร้อมกัน · ไฟล์ขีด b ลายมือ <b>\"almost always จาก rheumatic fever ∴ replace ∵ process ไม่ดี\"</b> และ <b>\"repair\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้า tricuspid เสียที่ leaflet เอง เช่น carcinoid heart disease ที่ลิ้นหนาแข็งหด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า MR เกิดจาก chordae ขาด (flail) ในลิ้นที่บางปกติ ร่วม TR แบบ functional",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ามีแต่ MS รุนแรง ลิ้นบางขยับดี ไม่มีหินปูนมาก ไม่มีลิ่มเลือดใน LA และไม่มี MR มาก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยปฏิเสธการผ่าตัดหรือความเสี่ยงผ่าตัดสูงเกินรับได้ และตั้งเป้าดูแลแบบประคับประคอง"
+   "A": "Functional TR ซ่อมได้ ไม่ต้องเปลี่ยน · จะถูกถ้าคำถามถามลิ้น tricuspid เสียโครงสร้างที่ซ่อมไม่ได้",
+   "C": "ซ่อม mitral เหมาะกับ degenerative MR · rheumatic ร่วม MS ซ่อมได้ผลไม่ทน · จะถูกถ้าคำถามถาม MR จาก MVP",
+   "D": "Balloon ห้ามเมื่อมี MR รุนแรง · จะถูกถ้าคำถามถาม pure MS ลิ้นยืดหยุ่น",
+   "E": "ยาอย่างเดียวไม่พอใน severe MR + TR ที่มีอาการ · จะถูกถ้าคำถามถามผู้ป่วยไม่มีอาการ LV ปกติ"
   },
-  "trap": "MS แค่ปานกลางชวนให้คิดว่าไม่ต้องแก้ mitral — แต่ MR รุนแรงในลิ้นรูมาติกต้องเปลี่ยนลิ้นอยู่ดี และ balloon ทำให้ MR แย่ลง",
+  "trap": "จำว่า MR → repair เสมอ ซึ่งใช้ได้กับ degenerative ไม่ใช่ rheumatic",
   "summary": [
-   "<b>นอกสไลด์:</b> echo ประเมินความรุนแรง: severe MR = EROA ≥ 0.4 cm², regurgitant volume ≥ 60 mL · severe TR = vena contracta ≥ 0.7 cm, hepatic vein systolic flow reversal · ร่วมดูขนาด/EF ของ LV และความดันปอด"
+   "MS: FC II → commissurotomy · FC III → replace",
+   "MR: FC II → repair · FC III → replace",
+   "Rheumatic mixed → replace",
+   "Severe TR + ผ่าตัดลิ้นซ้าย → tricuspid annuloplasty",
+   "PBMV ห้าม: MR ≥ moderate · LA thrombus",
+   "Mechanical valve → warfarin"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · โจทย์ชุดเดียวกับ RoA X18/RoB 70 · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Rheumatic = Replace · TR = Ring'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ไตรมาสสองมี MS รุนแรง หอบเมื่อออกแรง → beta-blocker + ยาขับปัสสาวะ ไม่ดีขึ้นทำ PBMV ระหว่างตั้งครรภ์",
-   "<b>นอกสไลด์:</b> ผู้ป่วยรูมาติกมี aortic รั่วรุนแรงร่วม mitral รุนแรง → เปลี่ยนทั้งสองลิ้นในผ่าตัดเดียว"
+   "Severe MR จาก MVP → mitral repair",
+   "Pure severe MS ลิ้นยืดหยุ่น → PBMV",
+   "MVR + severe TR → tricuspid annuloplasty"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 — ตัวพิมพ์: <b>8. Severe MR moderate MS severe TR — a. เปลี่ยน MV, TV b. เปลี่ยน MV, ซ่อม TV c. ซ่อม MV,TV d. Balloon</b><br>ลายมือ: ขีด b · \"repair\" ใต้ TV · โน้ตสีน้ำเงิน \"Mitral *ต้องดู functional class ด้วย [มาเดี่ยวๆ] · MS: FC II: commissurotomy · FC III: replace · MR: FC II: repair · FC III: replace\" · สีแดง \"almost always จาก rheumatic fever ∴ replace ∵ process ไม่ดี\"<br>ไฮไลต์: \"Severe MR\" · \"moderate MS\" · \"severe TR\" · b (เหลือง)<br>รูปที่แปะ: ข้อความภาษาไทยเรื่องข้อบ่งชี้การผ่าตัดลิ้นหัวใจไมทรัลตีบ (ผู้ป่วย severe MS อาการ F.C. II ที่ลิ้นยังดีทำ open mitral commissurotomy · ลิ้นหนา หินปูน หรือมีลิ้นรั่วร่วมด้วยต้องเปลี่ยนลิ้น (mitral valve replacement) เมื่ออาการ F.C. 3 ขึ้นไป)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย a–d เว็บเพิ่ม E Medication only",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_8"
   ]
  }
 }
