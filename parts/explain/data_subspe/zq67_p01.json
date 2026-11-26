@@ -1,29 +1,31 @@
 {
  "MDCU67|RoA|1": {
-  "interp": "ถาม<b>มะเร็ง (solid tumor นอกกะโหลก) ที่พบบ่อยที่สุดในเด็ก</b> จากตัวเลือก",
-  "why": "<b>Neuroblastoma</b> เป็น <b>extracranial solid tumor ที่พบบ่อยที่สุดในเด็ก</b> (~7–8% ของมะเร็งเด็ก) และเป็นมะเร็งที่พบบ่อยที่สุดในทารก — มาจาก neural crest (adrenal medulla, sympathetic chain) · พบมากอายุ &lt; 2–4 ปี · ก้อนท้องแข็ง ข้ามแนวกลาง มีหินปูน · VMA/ HVA สูง · ส่วน Wilms (nephroblastoma) พบบ่อยรองลงมาในกลุ่มก้อนท้อง · (มะเร็งเด็กโดยรวม: leukemia &gt; brain tumor &gt; neuroblastoma) · ไฟล์ขีด A",
+  "interp": "ถามมะเร็งก้อน (solid tumor) นอกกะโหลกศีรษะที่พบบ่อยที่สุดในเด็ก — ต้องแยกมะเร็งจากโรคที่ไม่ใช่มะเร็งในช้อย และรู้ลำดับความถี่ของ neuroblastoma, Wilms tumor และ rhabdomyosarcoma",
+  "why": "มะเร็งในเด็กที่พบบ่อยที่สุดโดยรวมคือ <b>leukemia</b> (~30%) ตามด้วย<b>เนื้องอกสมอง</b> (มะเร็งก้อนอันดับ 1) · ส่วน<b>มะเร็งก้อนนอกกะโหลกที่พบบ่อยที่สุด</b>คือ <b>neuroblastoma</b> (~7–8% ของมะเร็งเด็ก) และเป็น<b>มะเร็งที่พบบ่อยที่สุดในทารก &lt; 1 ปี</b> · มาจาก neural crest ของต่อมหมวกไตชั้นในหรือ sympathetic chain · อายุมัธยฐาน ~18 เดือน · ลักษณะ: ก้อนไม่เรียบข้ามเส้นกลาง หินปูน ~85–90% เด็กดูป่วย, raccoon eyes, ปวดกระดูก, opsoclonus–myoclonus · urine <b>VMA/ HVA สูง</b> · พยากรณ์ขึ้นกับอายุ stage และ <b>N-MYC amplification</b> · อันดับรองคือ <b>Wilms tumor</b> (nephroblastoma ~5–6%) และ rhabdomyosarcoma (~3–4% — sarcoma เนื้อเยื่ออ่อนที่พบบ่อยที่สุดในเด็ก) · ตรงคีย์ A — ไฟล์ขีด A และไฮไลต์ \"<b>malignant tumor ที่พบบ่อยที่สุดในเด็ก</b>\" ภายใต้หัวข้อ Pediatrics Surgery",
   "wrong": {
-   "B": "Nephroblastoma (Wilms) เป็นมะเร็งไตที่พบบ่อยที่สุดในเด็ก แต่พบน้อยกว่า neuroblastoma · จะถูกถ้าคำถามถามมะเร็งไตที่พบบ่อยที่สุดในเด็ก",
-   "C": "Hydronephrosis ไม่ใช่มะเร็ง แต่เป็นก้อนท้องที่พบบ่อยที่สุดในทารกแรกเกิด · จะถูกถ้าคำถามถามก้อนท้องที่พบบ่อยที่สุดในทารกแรกเกิด",
-   "D": "Duplication cyst ไม่ใช่มะเร็ง · จะถูกถ้าคำถามถามก้อนถุงน้ำติดลำไส้ที่ทำให้เกิด intussusception/ เลือดออก",
-   "E": "Rhabdomyosarcoma เป็น soft tissue sarcoma ที่พบบ่อยที่สุดในเด็ก แต่พบน้อยกว่า neuroblastoma · จะถูกถ้าคำถามถาม soft tissue sarcoma ที่พบบ่อยที่สุดในเด็ก"
+   "B": "Nephroblastoma (Wilms tumor) เป็นมะเร็งไตที่พบบ่อยที่สุดในเด็กและเป็นมะเร็งก้อนในท้องอันดับสอง อายุ 3–4 ปี แต่พบน้อยกว่า neuroblastoma เล็กน้อย · จะถูกถ้าเป็นเด็ก 3 ขวบสุขภาพดีที่แม่คลำเจอก้อนเรียบที่สีข้าง ไม่ข้ามเส้นกลาง CT เห็น claw sign ในไต (คำถามถามมะเร็งไตที่พบบ่อยที่สุดในเด็ก)",
+   "C": "Hydronephrosis เป็นภาวะไตบวมน้ำจากการอุดตัน (เช่น UPJ obstruction) ไม่ใช่เนื้องอกหรือมะเร็ง แม้จะเป็นก้อนในท้องที่พบบ่อยที่สุดในทารกแรกเกิด · จะถูกถ้าเป็นทารกแรกเกิดที่คลำพบก้อนที่สีข้างซ้าย ultrasound ก่อนคลอดเห็นกรวยไตโป่ง (UPJ obstruction)",
+   "D": "Duplication cyst เป็นความผิดปกติแต่กำเนิดของทางเดินอาหาร (ถุงที่มีผนังลำไส้) ไม่ร้ายแรง พบน้อย มักที่ ileum · จะถูกถ้าเป็นทารก 6 เดือนมีก้อนกลมที่ท้องขวาล่างทำให้ลำไส้กลืนกันหรืออุดตัน ultrasound เห็นผนังสองชั้น (gut signature sign)",
+   "E": "Rhabdomyosarcoma เป็น sarcoma เนื้อเยื่ออ่อนที่พบบ่อยที่สุดในเด็ก (หัวและคอ, ระบบทางเดินปัสสาวะสืบพันธุ์, แขนขา) แต่พบน้อยกว่า neuroblastoma · จะถูกถ้าเป็นเด็กหญิง 2 ขวบมีก้อนคล้ายพวงองุ่นยื่นจากช่องคลอด (sarcoma botryoides — embryonal rhabdomyosarcoma)"
   },
-  "trap": "ตอบ Wilms เพราะคุ้นเคย — extracranial solid tumor อันดับหนึ่งคือ neuroblastoma",
+  "trap": "Wilms tumor คุ้นมากในศัลยกรรมเด็กจึงคนเลือก B — แต่ neuroblastoma พบบ่อยกว่าเล็กน้อยและเป็นอันดับ 1 ของมะเร็งก้อนนอกกะโหลก · ระวังคำว่า \"malignant\" ที่ตัด hydronephrosis และ duplication cyst ซึ่งไม่ใช่มะเร็ง",
   "summary": [
-   "มะเร็งเด็กโดยรวม: leukemia &gt; CNS tumor &gt; neuroblastoma",
-   "Extracranial solid tumor อันดับหนึ่ง: neuroblastoma",
-   "มะเร็งในทารก (&lt; 1 ปี) อันดับหนึ่ง: neuroblastoma",
-   "มะเร็งไตเด็ก: Wilms",
-   "Soft tissue sarcoma เด็ก: rhabdomyosarcoma",
-   "ก้อนท้องทารกแรกเกิดที่พบบ่อยที่สุด: hydronephrosis/ MCDK"
+   "มะเร็งเด็กเรียงความถี่: leukemia (~30%) → brain/ CNS tumor (~25%, มะเร็งก้อนอันดับ 1) → neuroblastoma → Wilms → lymphoma → rhabdomyosarcoma",
+   "Neuroblastoma: มะเร็งก้อนนอกกะโหลกอันดับ 1 · มะเร็งอันดับ 1 ในทารก · ต่อมหมวกไต ~40% · หินปูน ~90%",
+   "Neuroblastoma อาการเด่น: raccoon eyes, blueberry muffin (ทารก), opsoclonus–myoclonus, Horner, VIP diarrhea, ความดันสูง",
+   "Risk: อายุ &lt; 18 เดือนดีกว่า · N-MYC amplification แย่ · stage MS (4S) ในทารกอาจยุบเอง",
+   "Wilms: มะเร็งไตอันดับ 1 ในเด็ก อายุ 3–4 ปี เด็กดูดี ก้อนเรียบ claw sign · ร่วม WAGR, Beckwith–Wiedemann, Denys–Drash",
+   "Rhabdomyosarcoma: sarcoma เนื้อเยื่ออ่อนอันดับ 1 ในเด็ก · embryonal (หัวคอ, ระบบสืบพันธุ์, botryoides) พยากรณ์ดีกว่า alveolar (แขนขา, PAX-FOXO1)",
+   "ก้อนในท้องทารกแรกเกิด: ส่วนใหญ่มาจากไต (hydronephrosis, multicystic dysplastic kidney) และไม่ใช่มะเร็ง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ต้นฉบับถามมะเร็งที่พบบ่อยที่สุดในเด็ก เว็บระบุเป็น extracranial solid tumor ให้ชัดเจน (เพราะ leukemia พบบ่อยที่สุด)",
-  "mnemonic": "<b>'Neuroblastoma = Number one ของ solid tumor นอกสมองในเด็ก'</b>",
-  "guide": "Children's Oncology Group: Neuroblastoma risk stratification; Coran's Pediatric Surgery 8th ed. (2019) — Neuroblastoma",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูงเมื่อพิจารณาเป็นมะเร็งก้อนนอกกะโหลก — ตรงกับที่ไฟล์ขีด A · ข้อสังเกต: ถ้าถามตามตัวอักษร \"malignant tumor ที่พบบ่อยที่สุดในเด็ก\" คำตอบคือ leukemia และมะเร็งก้อนอันดับ 1 คือเนื้องอกสมอง ซึ่งไม่มีในช้อย เว็บจึงระบุเป็น extracranial solid tumor",
+  "mnemonic": "<b>'นอกกะโหลก ก้อนแรก = Neuroblastoma · ไตแรก = Wilms · เนื้อเยื่ออ่อนแรก = Rhabdo'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) ch. Neuroblastoma; Siegel RL et al. Cancer statistics 2024 (CA Cancer J Clin 2024); Lanzkowsky's Manual of Pediatric Hematology and Oncology 7th ed. (2022)",
   "variants": [
-   "ทารก 1 ปีก้อนท้องข้ามแนวกลาง มีหินปูน VMA สูง → neuroblastoma",
-   "เด็ก 3 ปีก้อนท้องเรียบไม่ข้ามแนวกลาง → Wilms",
-   "เด็กก้อนที่เบ้าตา/ ช่องคลอด (botryoid) → rhabdomyosarcoma"
+   "เด็ก 18 เดือน ซีด ไข้ ตาช้ำรอบตา CT ก้อนต่อมหมวกไตมีหินปูน → neuroblastoma: urine VMA/ HVA, MIBG scan, biopsy",
+   "เด็ก 4 ขวบ สุขภาพดี ก้อนเรียบที่สีข้างขวา ปัสสาวะเป็นเลือด → Wilms tumor: radical nephrectomy",
+   "เด็ก 5 ขวบ ตาโปนข้างเดียวโตเร็ว ไม่เจ็บ → orbital rhabdomyosarcoma (embryonal) ทำ biopsy",
+   "ทำไม neuroblastoma ในทารกบางรายหายเอง → stage MS ที่ไม่มี N-MYC amplification มีการ differentiate หรือ apoptosis เอง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 93 — หัวกระดาษ: AC Subspecialty Rotate 1-2557 · 90 ข้อ(ข้อสอบหน่วยละ 15 ข้อ) เวลาทำ 2 ชั่วโมง · *ข้อสอบจริงภาพขาวดำไม่ชัดนะ!! · หัวข้อ Pediatrics Surgery · ตัวพิมพ์: <b>1. อะไรคือ malignant tumor ที่พบบ่อยที่สุดในเด็ก — A. Neuroblastoma B. Nephroblastoma C. Hydronephosis D. Duplication cyst E. Rhabdomyosarcoma</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"malignant tumor ที่พบบ่อยที่สุดในเด็ก\" · A (เหลือง)<br>ที่ปรับในเว็บ: ระบุเป็น extracranial solid tumor",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 93",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU67|RoA|2": {
-  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>testicular torsion</b>",
-  "why": "ใน torsion การ<b>ยกถุงอัณฑะขึ้น (Prehn sign) ไม่ช่วยให้เจ็บลดลง — มักเจ็บมากขึ้น</b> (ตรงข้ามกับ epididymitis ที่ยกแล้วเจ็บลดลง = Prehn sign บวก) · ลักษณะอื่นของ torsion: เจ็บทันทีทันใด อาจเคยเจ็บเป็นพัก ๆ มาก่อน (intermittent torsion), <b>อัณฑะอยู่สูง แกนเปลี่ยนเป็นแนวนอน (bell-clapper)</b>, <b>cremasteric reflex หายไป</b>, ปัสสาวะไม่มีเม็ดเลือดขาว (ไม่ใช่การติดเชื้อ) · รักษา: <b>ผ่าตัดสำรวจด่วนภายใน 6 ชม.</b> detorsion + orchiopexy ทั้งสองข้าง · ไฟล์ขีด A แก้ลายมือ \"ลดลง\" → <b>\"มากขึ้น\"</b> ติ๊ก ✓ ที่ B–E · C <b>\"∵ not infection\"</b> และแปะตำราไทย <b>\"…ในรายที่เป็น testicular torsion การยกลูกอัณฑะให้สูงขึ้น มักเพิ่มความเจ็บปวด เพราะจะบิดพันมากขึ้น … ตรวจปัสสาวะมักไม่พบการติดเชื้อ ใช้แยกออกจากกลุ่มที่เป็น orchitis\"</b>",
+  "interp": "คำถามแบบ \"ข้อใดผิด\" เรื่อง testicular torsion — ต้องรู้ลักษณะทางคลินิกที่ใช้แยก torsion ออกจาก epididymitis/ orchitis ได้แก่ Prehn sign, ตำแหน่งและแนวของอัณฑะ, ประวัติปวดมาก่อน และผลปัสสาวะ",
+  "why": "Torsion เกิดจาก<b>ความผิดปกติแบบ bell-clapper</b> (tunica vaginalis หุ้มสูงจนอัณฑะลอยหมุนได้) พบมากช่วง<b>อายุ 12–18 ปี</b> · ขั้วหลอดเลือดบิด → venous congestion → arterial occlusion → อัณฑะขาดเลือด จึงปวดเฉียบพลันรุนแรง คลื่นไส้อาเจียน อัณฑะ<b>ลอยสูง (high-riding) แนวขวาง (horizontal lie)</b> และ<b>cremasteric reflex หายไป</b> · <b>Prehn sign</b>: ยกถุงอัณฑะขึ้นแล้ว<b>ปวดไม่ลด</b> (หรือปวดมากขึ้น) ใน torsion ต่างจาก epididymitis ที่ยกแล้วปวดลดลง (Prehn positive) — แต่ความแม่นยำต่ำ ใช้ตัดสินเดี่ยว ๆ ไม่ได้ · ราวหนึ่งในสามเคยมี<b>ปวดเป็นพัก ๆ มาก่อน</b> (intermittent torsion–detorsion) · UA ปกติ ไม่มี pyuria เพราะไม่ใช่การติดเชื้อ · Salvage rate ราว 90% ถ้าผ่าตัด detorsion ภายใน 6 ชม. ลดเหลือ &lt; 10% ถ้าเกิน 24 ชม. จึงสงสัยแล้วต้องผ่าตัดเลย ไม่รอ ultrasound ถ้ารอจะเสียเวลา · ช้อย A จึงเป็นข้อความที่ผิด ตรงคีย์ A — ไฟล์ขีด A ขีดฆ่าคำ \"ลดลง\" แล้วเขียนแก้เป็น \"<b>มากขึ้น</b>\" ติ๊ก ✓ ช้อย B–E และเขียนที่ช้อย C ว่า \"<b>∵ not infection</b>\" พร้อมแปะข้อความจากตำราไทยเรื่อง torsion",
   "wrong": {
-   "B": "ถูก — อาจเคยเจ็บเป็นพัก ๆ มาก่อน (intermittent torsion) (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าไม่เคยมีอาการนำ",
-   "C": "ถูก — ปัสสาวะไม่พบเม็ดเลือดขาวเพราะไม่ใช่การติดเชื้อ (ลายมือ ✓ \"not infection\") · จะถูกถ้าช้อยบอกว่า pyuria ช่วยแยก epididymitis",
-   "D": "ถูก — อัณฑะข้างนั้นบวมเจ็บมากจนคลำแยกโครงสร้างได้ยาก/ อยู่สูง (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าคลำอัณฑะได้ปกติชัดเจน",
-   "E": "ถูก — แกนอัณฑะวางแนวนอน (bell-clapper deformity) (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าอัณฑะอยู่แนวตั้งปกติ"
+   "B": "ข้อความนี้ถูก — ผู้ป่วย torsion ราว 30–50% เคยปวดอัณฑะเป็นพัก ๆ แล้วหายเองมาก่อน (intermittent torsion แล้วคลายเอง) ซึ่งเป็นสัญญาณให้ทำ orchiopexy แบบ elective · จะถูกถ้าเป็นเด็กชาย 8 ปี ปวดอัณฑะครั้งแรกทันทีหลังถูกเตะ บวมช้ำ (testicular trauma) ซึ่งไม่มีประวัติปวดก่อนหน้าเลย และข้อความ \"เคยปวดมาก่อน\" กลายเป็นข้อที่ไม่เข้ากับภาวะนั้น",
+   "C": "ข้อความนี้ถูก — torsion เป็นภาวะขาดเลือด ไม่ใช่การติดเชื้อ UA จึงปกติ (ไฟล์เขียน \"∵ not infection\") · จะถูกถ้าเป็นชาย 25 ปี ปวดอัณฑะค่อย ๆ มากขึ้น 2 วัน มีไข้ ปัสสาวะแสบขัด ยกถุงอัณฑะแล้วปวดลดลง = acute epididymitis ซึ่ง UA มักพบ pyuria/ bacteriuria (ข้อความ \"UA ไม่มี WBC\" จะผิดสำหรับภาวะนั้น)",
+   "D": "ข้อความนี้ถูก — อัณฑะข้างที่บิดจะบวม ตึง ลอยสูงชิดรูขาหนีบและเจ็บมาก จึงคลำแยก testis/ epididymis ได้ยาก (ในไฟล์ภาษาไทยเขียน \"คลำไม่พบอัณฑะในข้างนั้น\") · จะถูกถ้าเป็นชาย 30 ปี มีก้อนแข็งไม่เจ็บที่อัณฑะค่อย ๆ โตหลายเดือน (testicular tumor) ซึ่งคลำก้อนได้ชัดเจน ไม่ได้คลำยากจากความเจ็บแบบ torsion",
+   "E": "ข้อความนี้ถูก — bell-clapper deformity ทำให้อัณฑะห้อยในแนวขวาง (horizontal lie) ทั้งก่อนบิดและเมื่อบิดแล้วก็มักลอยสูงแนวขวาง ข้างปกติก็อาจเห็นแนวนี้ได้ · จะถูกถ้าเป็นเด็กชาย 9 ปี ปวดที่ขั้วบนของอัณฑะ คลำได้จุดเจ็บเฉพาะที่ มี blue dot sign = torsion of appendix testis ซึ่งอัณฑะยังอยู่ในแนวตั้งปกติและ cremasteric reflex ยังอยู่"
   },
-  "trap": "สับสน Prehn sign — ยกแล้วเจ็บลดลงเป็นของ epididymitis ไม่ใช่ torsion",
+  "trap": "คนจำสลับ Prehn sign — ยกแล้ว<b>ปวดลด = epididymitis</b> (Prehn positive) ส่วน torsion ยกแล้วไม่ลดหรือปวดขึ้น · โจทย์ถาม \"ผิด\" จึงต้องอ่านทุกช้อยว่าเป็นลักษณะจริงของ torsion หรือไม่ แทนที่จะหาลักษณะที่คุ้นที่สุด",
   "summary": [
-   "Torsion: เจ็บทันที · อัณฑะอยู่สูงแนวนอน · cremasteric reflex หาย",
-   "อายุ peak: วัยรุ่น (10–15 ปี) และทารกแรกเกิด",
-   "Prehn sign: ยกแล้วเจ็บลด → epididymitis · torsion ไม่ลด/ เพิ่ม",
-   "UA ปกติใน torsion · pyuria ใน epididymitis",
-   "Doppler US: เลือดไปเลี้ยงลดลง (ถ้าไม่ทำให้การผ่าตัดช้า)",
-   "ผ่าตัดภายใน 6 ชม. → salvage &gt; 90% · fix ทั้งสองข้าง"
+   "Testicular torsion พบมากอายุ 12–18 ปี (มีอีกช่วงในทารกแรกเกิด เป็น extravaginal torsion) สาเหตุหลักคือ bell-clapper deformity ซึ่งมักเป็นทั้งสองข้าง",
+   "อาการ: ปวดอัณฑะเฉียบพลันรุนแรง มักตื่นมาตอนกลางคืน คลื่นไส้อาเจียน (พบบ่อยกว่าใน epididymitis มาก) อาจปวดร้าวท้องน้อย",
+   "ตรวจร่างกาย: high-riding testis, horizontal lie, cremasteric reflex หายไป (sensitivity สูงสุด), Prehn sign negative (ยกแล้วไม่ลด)",
+   "TWIST score (testicular swelling 2, hard testis 2, absent cremasteric reflex 1, nausea/vomiting 1, high-riding 1): ≥ 5 = high risk ผ่าตัดเลย · ≤ 2 = low risk",
+   "Doppler ultrasound ใช้เมื่อไม่แน่ใจเท่านั้น: เลือดเลี้ยงลดหรือไม่มี, whirlpool sign ของ spermatic cord — ห้ามทำให้การผ่าตัดช้า",
+   "Salvage: ภายใน 6 ชม. ~90–100% · 12 ชม. ~50% · &gt; 24 ชม. &lt; 10% · Manual detorsion หมุนออกด้านนอก (\"open the book\") ทำได้ระหว่างรอ OR แต่ยังต้องผ่าตัด",
+   "ผ่าตัด: scrotal exploration → detorsion → ถ้ากลับมาสีดีทำ orchiopexy ทั้งสองข้าง · อัณฑะตาย → orchiectomy + fix ข้างตรงข้าม"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และตำราที่แปะ",
-  "mnemonic": "<b>'Torsion = Twist มากขึ้นเมื่อยก (เจ็บเพิ่ม) · Epididymitis = ยกแล้วสบาย'</b>",
-  "guide": "AUA/ EAU Guidelines on Paediatric Urology 2024 — Acute scrotum; Campbell-Walsh-Wein Urology 12th ed. (2020)",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — Prehn sign ใน torsion ยกแล้วไม่ลดหรือปวดมากขึ้น ตรงกับลายมือในไฟล์ที่แก้ \"ลดลง\" เป็น \"มากขึ้น\" · เป็นคำถามเดียวกับปี 66 · ข้อสังเกต: Prehn sign มีความแม่นยำต่ำในงานวิจัย สิ่งที่แยกได้ดีกว่าคือ cremasteric reflex หายไป",
+  "mnemonic": "<b>'Torsion = Twist ไม่ Lift: ยกแล้วไม่หาย · Epididymitis ยกแล้วเย็น'</b>",
+  "guide": "AUA/ Campbell-Walsh-Wein Urology 12th ed. (2020) ch. Acute scrotum; Barbosa JA et al. J Urol 2013 (TWIST score); EAU Paediatric Urology Guidelines 2024",
   "variants": [
-   "เด็ก 13 ปีเจ็บอัณฑะทันที 2 ชม. อัณฑะอยู่สูง cremasteric หาย → ผ่าตัดทันที",
-   "ชาย 25 ปีเจ็บอัณฑะค่อยเป็น ไข้ ปัสสาวะแสบ ยกแล้วเจ็บลด → epididymitis",
-   "เด็ก 10 ปีเจ็บที่ขั้วบนอัณฑะ blue dot sign → torsion of appendix testis"
+   "เด็กชาย 15 ปี ปวดอัณฑะขวาเฉียบพลันหลังเล่นฟุตบอล คลื่นไส้ อัณฑะลอยสูงแนวขวาง → scrotal exploration ทันที",
+   "ชาย 30 ปี ปวดอัณฑะค่อยเป็นค่อยไป ไข้ ปัสสาวะมีหนอง Doppler เลือดไปเลี้ยง epididymis เพิ่มขึ้น → epididymitis ให้ยาปฏิชีวนะ",
+   "ผ่าตัดพบอัณฑะบิด 720° หลัง detorsion และอุ่น 10 นาทียังดำคล้ำ → orchiectomy + orchiopexy ข้างตรงข้าม",
+   "ทำไม cremasteric reflex หายใน torsion → การบิดของ spermatic cord กระทบ genital branch ของ genitofemoral nerve และกล้าม cremaster"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 93 — ตัวพิมพ์: <b>2. ข้อใดผิดเกี่ยวกับ Torsion tessis — A. ยกถุงอัณฑะขึ้นแล้วเจ็บลดลง (Phren's test) B. อาจมีอาการเจ็บมาก่อนหน้านี้ C. ไม่พบเม็ดขาวในปัสสาวะ D. คลำไม่พบอัณฑะในข้างนั้น E. พบแกนของอัณฑะในแนวนอน</b><br>ลายมือ: ขีด A + ขีดฆ่า \"ลดลง\" เขียน \"มากขึ้น\" · ✓ ที่ B–E · C \"∵ not infection\"<br>ไฮไลต์: \"ผิด\" \"Torsion tessis\" · A (เหลือง) · B–E (ส้ม)<br>รูปที่แปะ: ตำราไทย — \"ผู้ป่วยเป็นเด็กผู้ชาย และมาด้วยเรื่องปวดบริเวณลูกอัณฑะข้างใดข้างหนึ่ง เด็กส่วนมากมีอายุ 10-15 ปี อัณฑะข้างที่ปวดบวม จะอยู่ระดับสูงกว่าข้างปกติ เวลาแตะโดนจะเจ็บ อาจสังเกตเห็นแกนของลูกอัณฑะ เปลี่ยนไปอยู่ตามแนวขวาง ในรายที่เป็น testicular torsion การยกลูกอัณฑะให้สูงขึ้น มักเพิ่มความเจ็บปวด เพราะจะบิดพันมากขึ้น ถ้าเป็นมานาน อาจวินิจฉัยแยกจาก orchitis ได้ยาก ตรวจปัสสาวะมักไม่พบการติดเชื้อ ใช้แยกออกจากกลุ่มที่เป็น orchitis ที่มักมีการติดเชื้อของระบบทางเดินปัสสาวะ\"",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 93",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU67|RoA|3": {
-  "interp": "ถามข้อที่<b>ไม่ใช่</b>ภาวะแทรกซ้อนของ <b>undescended testis</b>",
-  "why": "ภาวะแทรกซ้อนของอัณฑะค้าง: <b>มีบุตรยาก (infertility)</b> จากอุณหภูมิสูงทำลายเซลล์สืบพันธุ์, <b>มะเร็งอัณฑะ</b> (เสี่ยง ~2–8 เท่า; seminoma), <b>inguinal hernia</b> (processus vaginalis เปิด ~90%), <b>torsion</b> (อัณฑะไม่ยึดติด), บาดเจ็บได้ง่าย และผลทางจิตใจ · <b>Orchitis</b> (อัณฑะอักเสบ เช่น mumps) ไม่ใช่ภาวะแทรกซ้อนเฉพาะของอัณฑะค้าง · ไฟล์ขีด A (ลายมือ \"ซ้ำ\")",
+  "interp": "คำถาม \"ข้อใดไม่ใช่\" ภาวะแทรกซ้อนของอัณฑะไม่ลงถุง (undescended testis) — ต้องรู้รายการผลเสียของการไม่ผ่าตัด และแยกการติดเชื้อ (orchitis) ซึ่งไม่ได้เพิ่มขึ้นจากตำแหน่งอัณฑะ",
+  "why": "ภาวะแทรกซ้อนของ <b>undescended testis</b> ที่เป็นเหตุผลให้ทำ <b>orchiopexy อายุ 6–18 เดือน</b>: (1) <b>Infertility</b> — อุณหภูมินอกถุงสูงกว่า 2–4 °C ทำลาย germ cell ตั้งแต่ราวอายุ 1 ปี (2) <b>Testicular cancer</b> — เสี่ยง ~2–8 เท่า ส่วนใหญ่ seminoma (3) <b>Inguinal hernia</b> — processus vaginalis เปิดค้าง (patent) ในเกือบทุกราย (4) <b>Testicular torsion</b> — อัณฑะที่ไม่ยึดตรึงหมุนได้ง่าย (5) <b>Trauma</b> — อัณฑะในช่องขาหนีบถูกกดกับกระดูกหัวหน่าว (6) ผลด้านจิตใจ · <b>Orchitis</b> (อัณฑะอักเสบติดเชื้อ) เกิดจากไวรัส (คางทูม) หรือแบคทีเรียลุกลามจาก epididymitis ไม่ได้สัมพันธ์กับการที่อัณฑะไม่ลง · ตรงคีย์ A — ไฟล์ขีด A และเขียน \"<b>ซ้ำ</b>\" ที่เลขข้อ (คำถามแนวเดียวกับข้ออื่นที่ถามผลเสียของ undescended testis)",
   "wrong": {
-   "B": "เป็นภาวะแทรกซ้อน — patent processus vaginalis → inguinal hernia · จะถูกถ้าคำถามถามภาวะที่ไม่สัมพันธ์กับอัณฑะค้าง",
-   "C": "เป็นภาวะแทรกซ้อน — อัณฑะค้างบิดได้ง่าย · จะถูกถ้าคำถามถามภาวะที่ไม่สัมพันธ์กับอัณฑะค้าง",
-   "D": "เป็นภาวะแทรกซ้อน — มีบุตรยาก โดยเฉพาะเป็นสองข้าง · จะถูกถ้าคำถามถามภาวะที่ไม่สัมพันธ์กับอัณฑะค้าง",
-   "E": "เป็นภาวะแทรกซ้อน — มะเร็งอัณฑะ (seminoma) เสี่ยงสูงขึ้นแม้ผ่าตัดแล้ว · จะถูกถ้าคำถามถามภาวะที่ไม่สัมพันธ์กับอัณฑะค้าง"
+   "B": "Inguinal hernia พบร่วมเกือบทุกรายเพราะ processus vaginalis ที่อัณฑะเคลื่อนผ่านไม่ปิด (patent) ศัลยแพทย์จึงผูกถุงไส้เลื่อนระหว่าง orchiopexy · จะถูกถ้าเป็นเด็กชาย 3 ปีที่อัณฑะลงถุงปกติทั้งสองข้าง ไม่มีไส้เลื่อน และมาด้วยอัณฑะบวมเจ็บหลังเป็นคางทูม (orchitis ไม่เกี่ยวกับไส้เลื่อน)",
+   "C": "Torsion พบได้มากขึ้นในอัณฑะที่ไม่ลงถุง (โดยเฉพาะในช่องท้อง — อาจมาด้วยปวดท้องเฉียบพลันร่วมถุงอัณฑะว่าง) · จะถูกถ้าเป็นเด็กชาย 14 ปีที่อัณฑะทั้งสองข้างอยู่ในถุงปกติ มีไข้ อัณฑะบวมแดงเจ็บค่อยเป็นค่อยไปหลังต่อมน้ำลายหน้าหูบวม (mumps orchitis) ซึ่งเลือดไปเลี้ยงดีบน Doppler",
+   "D": "มีบุตรยากเป็นผลเสียสำคัญที่สุดอย่างหนึ่ง โดยเฉพาะเมื่อเป็นสองข้างหรือผ่าตัดช้า · จะถูกถ้าเป็นชาย 25 ปีที่อัณฑะลงถุงตั้งแต่เกิด ไม่มีประวัติผ่าตัด ตรวจน้ำอสุจิปกติ และมาด้วยอัณฑะอักเสบจากหนองในเทียม (epididymo-orchitis จาก STI)",
+   "E": "มะเร็งอัณฑะเสี่ยงสูงขึ้น 2–8 เท่าและยังคงสูงแม้ผ่าตัดแล้ว จึงต้องสอนคลำตรวจตัวเองตลอดชีวิต · จะถูกถ้าเป็นชาย 30 ปีอัณฑะลงถุงตั้งแต่เกิด มีอัณฑะบวมเจ็บพร้อมไข้หลังคางทูม ซึ่งเป็น orchitis ไม่ใช่ผลของ undescended testis"
   },
-  "trap": "คิดว่าอัณฑะค้างติดเชื้อง่าย — ภาวะแทรกซ้อนหลักคือ มีบุตรยาก มะเร็ง ไส้เลื่อน บิด",
+  "trap": "Orchitis ฟังดูเกี่ยวกับอัณฑะผิดปกติจึงคนลังเล — ให้จำรายการผลเสียของอัณฑะไม่ลงแบบ <b>\"HIT-CT\"</b>: Hernia, Infertility, Trauma, Cancer, Torsion · การติดเชื้อ (orchitis) ไม่อยู่ในรายการ",
   "summary": [
-   "UDT ภาวะแทรกซ้อน: infertility · มะเร็ง · hernia · torsion · trauma · จิตใจ",
-   "Orchiopexy ภายใน 18 เดือน",
-   "Orchiopexy ลดความเสี่ยงมะเร็งได้บางส่วนและช่วยให้คลำตรวจได้",
-   "มะเร็งที่พบบ่อยในอัณฑะค้าง: seminoma",
-   "Non-palpable → diagnostic laparoscopy",
-   "Retractile testis ไม่ต้องรักษา (ติดตาม)"
+   "Undescended testis: ~3% ทารกครบกำหนด, ~30% ก่อนกำหนด · ลงเองใน 6 เดือนแรก · หลังจากนั้นผ่าตัดภายใน 18 เดือน",
+   "ผลเสีย: infertility, testicular cancer (seminoma), inguinal hernia, torsion, trauma, ผลด้านจิตใจ",
+   "Cancer: เสี่ยง 2–8 เท่า (intra-abdominal สูงสุด) · orchiopexy ก่อนวัยเจริญพันธุ์ลดความเสี่ยงราวครึ่ง แต่ไม่เท่าปกติ",
+   "Fertility: ข้างเดียว paternity ~90% · สองข้าง ~35–65% · ผ่าตัดยิ่งเร็วยิ่งดี",
+   "Orchiopexy: palpable → inguinal/ scrotal · nonpalpable → laparoscopy (Fowler–Stephens) · ผูก patent processus vaginalis ร่วม",
+   "Orchitis: mumps (วัยหลังเจริญพันธุ์ ~20–30% ของชายที่เป็นคางทูม), แบคทีเรียลุกลามจาก epididymitis (STI ในชายหนุ่ม, E. coli ในผู้สูงอายุ)",
+   "แยก retractile testis (ดึงลงถุงได้และค้าง — ติดตามทุกปี) จาก undescended testis"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'UDT: HIT-C (Hernia · Infertility · Torsion · Cancer) ไม่มี Orchitis'</b>",
-  "guide": "AUA Guideline: Evaluation and Treatment of Cryptorchidism (2014); EAU/ESPU Guidelines on Paediatric Urology 2024",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — orchitis ไม่ใช่ภาวะแทรกซ้อนของ undescended testis ตรงกับที่ไฟล์ขีด A · ข้ออื่นเป็นเหตุผลมาตรฐานของการทำ orchiopexy ตามแนวทาง AUA",
+  "mnemonic": "<b>'อัณฑะไม่ลง = HIT-CT (Hernia, Infertility, Trauma, Cancer, Torsion) · ไม่มี Orchitis'</b>",
+  "guide": "AUA Guideline: Evaluation and Treatment of Cryptorchidism (2014, reviewed 2018); EAU/ESPU Paediatric Urology Guidelines 2024",
   "variants": [
-   "เด็ก 1 ปีอัณฑะค้างที่ขาหนีบ → orchiopexy",
-   "ชายเคยมีอัณฑะค้างก้อนแข็งที่อัณฑะ → มะเร็ง (seminoma)",
-   "อัณฑะค้าง + ปวดทันทีที่ขาหนีบ → torsion ของอัณฑะค้าง"
+   "เด็กชาย 1 ปี อัณฑะซ้ายค้างที่ช่องขาหนีบ → inguinal orchiopexy + ผูก patent processus vaginalis",
+   "ชาย 20 ปีมีอัณฑะค้างในช่องท้องข้างเดียวมาตลอด มีปวดท้องเฉียบพลัน ถุงอัณฑะซ้ายว่าง → สงสัย torsion ของ intra-abdominal testis",
+   "ชาย 16 ปี คางทูม 5 วันต่อมาอัณฑะขวาบวมแดงเจ็บ ไข้ → mumps orchitis รักษาตามอาการ",
+   "ทำไมอัณฑะนอกถุงทำให้มีบุตรยาก → อุณหภูมิสูงกว่าในถุง 2–4 °C ทำลาย germ cell และการเปลี่ยนเป็น spermatogonia"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 93 — ตัวพิมพ์: <b>3. Undescending testis ไม่มี complication อะไร — A. Orchitis B. Hernia C. Torsion testis D. Infertile E. Testicular CA</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · ขีด A<br>ไฮไลต์: \"Undescending testis ไม่มี complication อะไร\" · A (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 93",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU67|RoA|4": {
-  "interp": "ทารก 3 สัปดาห์ที่เคยแข็งแรง <b>อาเจียนสีเขียวทันทีทันใด</b> → ถามการวินิจฉัยที่น่าเป็นที่สุด",
-  "why": "อาเจียนสีเขียว (bilious) ทันทีในทารก = <b>malrotation with midgut volvulus</b> จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ — ฉุกเฉิน · ส่วนใหญ่เกิดในเดือนแรก · ทำ upper GI study ด่วน → Ladd procedure · ไฟล์ขีด E ลายมือ A <b>\"peak 3–5 wk\"</b> · C <b>\"peak 3–8 mo\"</b> และใส่เครื่องหมายคำพูดรอบ \"3 weeks\" และ \"sudden onset\"",
+  "interp": "ทารกอายุ 3 สัปดาห์ที่เคยแข็งแรงดี อาเจียนเป็นน้ำดีเฉียบพลัน — อาเจียนน้ำดีในทารกที่เคยปกติต้องคิดถึง malrotation with midgut volvulus ก่อนเสมอ เพราะลำไส้ทั้งหมดตายได้ภายในไม่กี่ชั่วโมง",
+  "why": "<b>อาเจียนเป็นน้ำดี (สีเขียว) ในทารก = การอุดตันใต้ ampulla of Vater และต้องถือว่าเป็น malrotation with midgut volvulus จนกว่าจะพิสูจน์ว่าไม่ใช่</b> · Malrotation เกิดจากลำไส้หมุน 270° ทวนเข็มนาฬิการอบ SMA และยึดตัวไม่สมบูรณ์ → <b>mesentery ฐานแคบ</b> ลำไส้เล็กทั้งหมดบิดรอบ SMA ได้ และมี <b>Ladd bands</b> พาดกด duodenum · <b>~75% แสดงอาการในเดือนแรก</b> · อาการ: ทารกที่<b>เคยปกติดี</b>อาเจียนน้ำดีทันที ท้องอาจยังแบนในระยะแรก (อุดตันสูง) ต่อมาซึม ถ่ายเป็นเลือด ช็อก · วินิจฉัย: <b>upper GI contrast study ด่วน</b> — DJ junction ไม่ข้ามซ้ายของกระดูกสันหลัง, <b>corkscrew sign</b> · US: <b>whirlpool sign</b> · ถ้าทารกไม่คงที่ไปผ่าตัดเลย · รักษา: <b>Ladd procedure</b> ฉุกเฉิน · ตรงคีย์ E — ไฟล์ใส่เครื่องหมายคำพูดรอบ \"<b>3 weeks</b>\" และ \"<b>sudden onset</b>\" ขีด E และเขียนที่ช้อยอื่นว่า pyloric stenosis \"<b>peak 3-5 wk</b>\" intussusception \"<b>peak 3-8 mo</b>\"",
   "wrong": {
-   "A": "Pyloric stenosis อายุตรง (peak 3–5 สัปดาห์ — ลายมือ) แต่อาเจียนไม่มีน้ำดี · จะถูกถ้าทารกอาเจียนพุ่งไม่มีน้ำดี คลำ olive",
-   "B": "Duodenal atresia อาเจียนสีเขียวตั้งแต่วันแรกหลังเกิด · จะถูกถ้าทารกแรกเกิด Down syndrome double bubble",
-   "C": "Intussusception peak 3–8 เดือน (ลายมือ) ปวดเป็นพัก ถ่ายมูกเลือด · จะถูกถ้าทารก 6 เดือนร้องเป็นพัก ถ่าย currant jelly",
-   "D": "NEC พบในทารกเกิดก่อนกำหนด ท้องอืด ถ่ายเป็นเลือด pneumatosis · จะถูกถ้าทารกคลอด 30 สัปดาห์ได้นมแล้วท้องอืด ถ่ายเลือด"
+   "A": "Pyloric stenosis พบช่วง 3–6 สัปดาห์ตรงกับอายุ แต่อาเจียนพุ่ง<b>ไม่มีน้ำดี</b>เพราะอุดตันที่ pylorus เหนือ ampulla และค่อย ๆ เป็นมากขึ้นหลังกินนม ไม่ใช่เฉียบพลัน · จะถูกถ้าเป็นทารกชายอายุ 4 สัปดาห์อาเจียนพุ่งเป็นนมขาวทุกมื้อ หิวอยากกินอีก คลำได้ก้อนรูปมะกอก มี hypochloremic hypokalemic metabolic alkalosis",
+   "B": "Duodenal atresia อาเจียนน้ำดีได้ (ส่วนใหญ่อุดใต้ ampulla) แต่เป็น<b>ตั้งแต่วันแรกหลังเกิด</b> ไม่ใช่ทารกที่เคยปกติดี 3 สัปดาห์ ภาพรังสีเป็น double bubble · จะถูกถ้าเป็นทารกแรกเกิดอายุ 1 วันที่มี Down syndrome แม่มี polyhydramnios อาเจียนน้ำดีตั้งแต่มื้อแรก ไม่มีลมในลำไส้ส่วนปลาย",
+   "C": "Intussusception พบมากอายุ 6–36 เดือน (ไฟล์เขียน peak 3–8 เดือน) แทบไม่พบในทารก 3 สัปดาห์ อาการหลักคือปวดเป็นพัก ร้องขาคู้ อุจจาระเลือดปนมูก · จะถูกถ้าเป็นเด็ก 8 เดือนร้องเป็นพักทุก 15–20 นาที ขาคู้ คลำได้ก้อนไส้กรอกท้องขวาบน US target sign",
+   "D": "Necrotizing enterocolitis พบใน<b>ทารกคลอดก่อนกำหนด</b>ที่เริ่มกินนม (สัปดาห์ที่ 1–3) ท้องอืด อุจจาระเป็นเลือด ภาพรังสีมี pneumatosis intestinalis — ไม่ใช่ทารกครบกำหนดที่เคยแข็งแรง · จะถูกถ้าเป็นทารกคลอด 28 สัปดาห์น้ำหนัก 1,000 กรัม หลังเริ่มนมผสม 10 วัน ท้องอืด ถ่ายเป็นเลือด ภาพรังสีมีฟองอากาศในผนังลำไส้"
   },
-  "trap": "ใช้อายุ 3 สัปดาห์ตอบ pyloric stenosis — อาเจียนสีเขียว = volvulus",
+  "trap": "อายุ 3 สัปดาห์ตรงกับ peak ของ pyloric stenosis (ไฟล์เขียน 3–5 wk) จึงคนเลือก A — ตัวตัดสินคือ<b>สีของสิ่งที่อาเจียน</b>: pyloric stenosis <b>ไม่มีน้ำดี</b> · น้ำดี + เฉียบพลัน + เคยปกติ = <b>volvulus</b>",
   "summary": [
-   "Bilious vomiting = malrotation volvulus จนพิสูจน์ได้ว่าไม่ใช่",
-   "Upper GI study ด่วน: DJ flexure ขวา/ corkscrew",
-   "Ladd procedure ทันที",
-   "Pyloric stenosis: 3–5 สัปดาห์ · non-bilious",
-   "Intussusception: 3–8 เดือน",
-   "NEC: premature · pneumatosis"
+   "Bilious vomiting ในทารก = surgical emergency → upper GI study ด่วน (หรือผ่าตัดเลยถ้าไม่คงที่)",
+   "Malrotation: 75% อาการเดือนแรก, 90% ภายใน 1 ปี · mesentery ฐานแคบ + Ladd bands · midgut volvulus บิดรอบ SMA",
+   "Upper GI: DJ junction ไม่อยู่ซ้ายของกระดูกสันหลังที่ระดับ pylorus, corkscrew/ bird-beak · US: whirlpool sign, SMV ซ้ายของ SMA",
+   "Ladd procedure: detorsion ทวนเข็มนาฬิกา → ตัด Ladd bands → ขยายฐาน mesentery → appendectomy → ลำไส้เล็กขวา ลำไส้ใหญ่ซ้าย",
+   "Pyloric stenosis: 2–8 สัปดาห์, non-bilious projectile vomiting, olive mass, hypochloremic hypokalemic metabolic alkalosis → แก้ electrolyte ก่อน pyloromyotomy",
+   "Duodenal atresia: วันแรก double bubble, Down syndrome ~30% · NEC: ก่อนกำหนด pneumatosis intestinalis",
+   "ลำไส้ตายทั้งหมดจาก volvulus → short bowel syndrome · ถ้าไม่แน่ใจ second-look laparotomy ใน 24–48 ชม."
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Bilious = Bad = volvulus'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Malrotation; ACR Appropriateness Criteria: Vomiting in Infants (2019)",
+  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง — ทารกที่เคยปกติอาเจียนน้ำดีเฉียบพลันเป็นลักษณะคลาสสิกของ midgut volvulus ตรงกับที่ไฟล์ขีด E และเน้นคำ \"3 weeks\" \"sudden onset\" · ลายมือในไฟล์ระบุช่วงอายุของ pyloric stenosis และ intussusception ไว้เพื่อตัดช้อยเหล่านั้น",
+  "mnemonic": "<b>'เขียว = ผ่า (Green = Go) · ทารกอาเจียนน้ำดี = Volvulus จนกว่าจะพิสูจน์'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) ch. Malrotation; Langer JC. Intestinal rotation abnormalities and midgut volvulus (Surg Clin North Am 2017)",
   "variants": [
-   "ทารก 2 สัปดาห์อาเจียนเขียว → upper GI → Ladd",
-   "ทารก 5 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี → pyloric stenosis",
-   "ทารกคลอดก่อนกำหนดท้องอืด ถ่ายเลือด → NEC"
+   "ทารกครบกำหนด 10 วัน กินนมดี อาเจียนสีเขียวทันที ท้องแบน → upper GI study ด่วน",
+   "ทารก 2 สัปดาห์อาเจียนน้ำดี ถ่ายเป็นเลือด ความดันต่ำ ท้องแข็ง → ไปผ่าตัดทันทีโดยไม่ต้องรอ imaging",
+   "ทารกชาย 5 สัปดาห์ อาเจียนพุ่งเป็นนม Cl⁻ 88 HCO₃⁻ 34 → pyloric stenosis แก้น้ำและ electrolyte แล้ว pyloromyotomy",
+   "ทำไม Ladd procedure ไม่ fix ลำไส้กลับไปตำแหน่งปกติ → ทำให้ฐาน mesentery กว้างที่สุดแทน ป้องกันการบิดซ้ำ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 93 — ตัวพิมพ์: <b>4. Previously well, \"3 weeks\" old infant presents with \"sudden onset\" of bilious vomiting. What is the most probable diagnosis — A. Pyloric stenosis B. Duodenal atresia C. Intussusception D. Necrotizing enterocolitis E. Malrotation midgut volvulus</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"3 weeks\" \"sudden onset\" · A \"peak 3-5 wk\" · C \"peak 3-8 mo\" · ขีด E<br>ไฮไลต์: \"Previously well, 3 weeks old infant\" \"sudden onset of bilious vomiting\" \"probable diagnosis\" · E (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 93",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU67|RoA|5": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>gastroschisis</b>",
-  "why": "Gastroschisis: ลำไส้สัมผัสน้ำคร่ำโดยไม่มีถุงหุ้ม → ผนังลำไส้บวมหนา มีแผ่นคลุม (peel) → หลังผ่าตัด<b>ลำไส้ไม่ทำงานนาน (prolonged adynamic ileus/ dysmotility)</b> ต้องให้อาหารทางหลอดเลือดดำ (TPN) หลายสัปดาห์ · ข้ออื่นผิด: ความผิดปกติโครโมโซม/ ความผิดปกติร่วมสูง/ ตับยื่นออกมา เป็นลักษณะของ <b>omphalocele</b> · intestinal atresia ร่วมใน gastroschisis พบ <b>~10%</b> (ไม่ใช่ 80%) · ไฟล์ขีด C ลายมือ A, B, E <b>\"omphalocele\"</b> · D 80 → <b>\"10%\"</b> และแปะตาราง Omphalocele vs Gastroschisis + ตำราไทย <b>\"…ลำไส้อาจไม่ทำงานอยู่นานหลังผ่าตัด ฉะนั้นควรพิจารณาให้อาหารทางหลอดเลือดดำจนกว่าจะสามารถให้อาหารทางปากตามปกติได้…\"</b>",
+  "interp": "คำถาม \"ข้อใดถูก\" เรื่อง gastroschisis — ต้องแยกลักษณะของ gastroschisis ออกจาก omphalocele และรู้ปัญหาหลังผ่าตัดของ gastroschisis ที่ลำไส้ถูกน้ำคร่ำทำลาย",
+  "why": "<b>Gastroschisis</b> คือรูผนังท้องเต็มความหนา<b>ด้านขวาของสายสะดือ</b> <b>ไม่มีถุงหุ้ม</b> ลำไส้ลอยอยู่ในน้ำคร่ำระหว่างตั้งครรภ์ → สัมผัสน้ำคร่ำ (ยูเรีย ของเสีย) และถูกรัดที่ขอบรู เกิด<b>ลำไส้บวม หนา มีแผ่น fibrin คลุม (peel)</b> และสั้น · ผลคือหลังผ่าตัดปิดผนังท้องลำไส้<b>บีบตัวไม่ดีเป็นเวลานาน (prolonged adynamic ileus/ dysmotility)</b> ต้องให้อาหารทางหลอดเลือด (TPN) หลายสัปดาห์ เป็นปัจจัยหลักที่กำหนดระยะอยู่โรงพยาบาลและพยากรณ์ · ความผิดปกติร่วม<b>น้อย (&lt; 10%)</b> ส่วนใหญ่เป็นของลำไส้เอง โดยเฉพาะ <b>intestinal atresia ~10%</b> · <b>ไม่</b>สัมพันธ์กับโครโมโซม · ไม่มีตับหรือม้ามออกมา (ลำไส้ ± กระเพาะ ± อัณฑะ/ รังไข่) · พบในแม่อายุน้อย สูบบุหรี่ ใช้ยาเสพติด · ตรงคีย์ C — ไฟล์ขีด C เขียนที่ช้อย A, B, E ว่า \"<b>omphalocele</b>\" และแก้ช้อย D จาก 80 เป็น \"<b>10%</b>\" พร้อมแปะตาราง Omphalocele vs Gastroschisis",
   "wrong": {
-   "A": "ผิด — ความผิดปกติโครโมโซมเป็นของ omphalocele (ลายมือ) · จะถูกถ้าคำถามถาม omphalocele",
-   "B": "ผิด — ความผิดปกติร่วมสูงเป็นของ omphalocele (gastroschisis &lt; 10%) (ลายมือ) · จะถูกถ้าคำถามถาม omphalocele",
-   "D": "ผิด — intestinal atresia ร่วม ~10% (ลายมือแก้เป็น 10%) · จะถูกถ้าช้อยระบุ ~10%",
-   "E": "ผิด — ม้ามและตับยื่นออกมาเป็นของ omphalocele (gastroschisis มีแต่ลำไส้ ± กระเพาะ) (ลายมือ) · จะถูกถ้าคำถามถาม giant omphalocele"
+   "A": "กลุ่มอาการโครโมโซม (trisomy 13, 18, 21) และ Beckwith–Wiedemann สัมพันธ์กับ <b>omphalocele</b> (ไฟล์เขียน \"omphalocele\") ไม่ใช่ gastroschisis · จะถูกถ้าเป็นทารกที่มีถุงใสสมบูรณ์ที่สะดือคลุมลำไส้และตับ ร่วมกับลิ้นโต ตัวใหญ่ และน้ำตาลต่ำ (Beckwith–Wiedemann)",
+   "B": "ความผิดปกติร่วมสูง (~50–70% — หัวใจ โครโมโซม) เป็นลักษณะของ omphalocele · gastroschisis มีความผิดปกตินอกลำไส้ &lt; 10% · จะถูกถ้าเป็นทารก omphalocele ที่ตรวจพบ ventricular septal defect และ trisomy 18 ร่วมด้วย (ต้องทำ echocardiogram และ karyotype ทุกราย)",
+   "D": "Intestinal atresia พบใน gastroschisis ราว <b>10%</b> (ไฟล์แก้ 80 เป็น 10%) ไม่ใช่ 80% · จะถูกถ้าเป็นทารกแรกเกิดอาเจียนน้ำดีตั้งแต่วันแรก ท้องอืดมาก ภาพรังสีมีลำไส้โป่งหลายขดและ air-fluid level หลายระดับ ไม่มีรูผนังท้อง (jejunoileal atresia จาก vascular accident ในครรภ์)",
+   "E": "ตับและม้ามที่ออกมานอกท้องเป็นลักษณะของ omphalocele (giant omphalocele มีตับในถุง) — gastroschisis ส่วนใหญ่มีแต่ลำไส้ ± กระเพาะ (ไฟล์เขียน \"omphalocele\") · จะถูกถ้าเป็นทารกที่มีถุงใสขนาด 8 cm ที่สะดือ เห็นตับอยู่ในถุง สายสะดือเกาะที่ยอดถุง (giant omphalocele)"
   },
-  "trap": "สลับลักษณะ omphalocele กับ gastroschisis",
+  "trap": "ช้อย A, B, E เป็นข้อเท็จจริงของ <b>omphalocele</b> ที่คนจำสลับ — หลักคือ <b>omphalocele = ถุง + ความผิดปกติร่วมมาก</b> · <b>gastroschisis = ไม่มีถุง + ลำไส้เสียหายจากน้ำคร่ำ → ileus นาน</b>",
   "summary": [
-   "Gastroschisis: ขวาของสะดือ · ไม่มีถุง · ลำไส้ (± กระเพาะ)",
-   "ความผิดปกติร่วมน้อย (&lt; 10%) · atresia ~10%",
-   "ลำไส้บวมมี peel → ileus นาน → TPN",
-   "แม่อายุน้อย · SGA",
-   "รักษา: คลุมลำไส้ · silo → ค่อย ๆ ใส่กลับ หรือ primary closure",
-   "พยากรณ์ขึ้นกับสภาพลำไส้ (ดีกว่า omphalocele โดยรวม)"
+   "Gastroschisis: รูขวาของสายสะดือ · ไม่มีถุง · ลำไส้ ± กระเพาะ · anomaly นอกลำไส้ &lt; 10% · atresia ~10% · แม่อายุน้อย/ สูบบุหรี่",
+   "Omphalocele: รูที่สะดือ · มีถุง (amnion + peritoneum) · ลำไส้ ± ตับ · anomaly ~50–70% (หัวใจ, trisomy 13/18/21, Beckwith–Wiedemann, Cantrell)",
+   "Gastroschisis หลังผ่าตัด: prolonged ileus/ dysmotility → TPN หลายสัปดาห์ · พยากรณ์ขึ้นกับสภาพลำไส้ (complex gastroschisis = atresia, perforation, necrosis, volvulus)",
+   "ห้องคลอด gastroschisis: ห่อลำไส้ด้วยผ้าชุบ NSS อุ่น + ถุงพลาสติก, ตะแคงขวา, OG, IV fluid มากกว่าปกติ, ATB → primary/ sutureless closure หรือ silo",
+   "Omphalocele: echo + karyotype ทุกราย · เล็ก → ปิดผ่าตัด · giant → paint and wait (escharification) แล้วซ่อม ventral hernia ภายหลัง",
+   "คลอด: gastroschisis คลอดทางช่องคลอดได้ · omphalocele ใหญ่ที่มีตับมัก cesarean",
+   "Abdominal compartment syndrome หลังปิดตึง: bladder pressure &gt; 20 mmHg, ปัสสาวะน้อย, ventilator pressure สูง → เปิดแล้วใส่ silo"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และตำราที่แปะ",
-  "mnemonic": "<b>'Gastroschisis = Gut หมดแรง (ileus นาน) · Omphalocele = Others (ผิดปกติร่วม)'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Congenital abdominal wall defects; APSA Evidence-based review of gastroschisis",
+  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง — prolonged ileus หลังซ่อมเป็นปัญหาเด่นของ gastroschisis ตรงกับที่ไฟล์ขีด C และระบุช้อยอื่นว่าเป็นของ omphalocele · การแก้ช้อย D เป็น 10% ในลายมือตรงกับตำรา",
+  "mnemonic": "<b>'Gastro-SCHISIS = ไม่มีถุง ลำไส้แช่น้ำคร่ำ → บวม ช้า Ileus นาน · Omphalo = มีถุง มีเพื่อน (anomaly)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) ch. Abdominal wall defects; ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024)",
   "variants": [
-   "ทารก gastroschisis หลังปิดผนังท้องกินนมไม่ได้ 4 สัปดาห์ → TPN",
-   "ทารก omphalocele + ลิ้นโต + น้ำตาลต่ำ → Beckwith-Wiedemann",
-   "gastroschisis + atresia → ซ่อม atresia ภายหลังเมื่อบวมยุบ"
+   "ทารกแรกเกิดมีลำไส้บวมหนาคลุมด้วย fibrin ออกมาทางรูข้างขวาของสะดือ ไม่มีถุง → gastroschisis: ห่อลำไส้ OG IV fluid แล้วปิดหรือใส่ silo",
+   "หลังปิด gastroschisis 3 สัปดาห์ยังกินนมไม่ได้ ท้องอืด → dysmotility ให้ TPN ต่อและค่อย ๆ เพิ่มนม",
+   "ทารกมีถุงใสที่สะดือมีตับข้างใน → omphalocele ทำ echocardiogram + karyotype",
+   "ทำไม gastroschisis มีความผิดปกติร่วมน้อยกว่า omphalocele → เกิดจากความบกพร่องเฉพาะที่ของผนังท้อง (vascular/ body fold) ไม่ใช่ความผิดปกติของการพัฒนาทั้งระบบ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 93–94 — ตัวพิมพ์: <b>5. What is true about gastroschisis — A. Associated chromosomal syndrome B. High incidence of association anormalies C. Prolong adynaamic ileus after repair D. Intestinal atresia 80 % most case E. Eviscesation of spleen and liver</b><br>ลายมือ: A \"omphalocele\" · B \"omphalocele\" · ขีด C · D ขีดฆ่า \"80\" + \"10%\" · E \"omphalocele\"<br>ไฮไลต์: \"true about gastroschisis\" · C (เหลือง) · A, B, E (ส้ม)<br>รูปที่แปะ: ① ตาราง Omphalocele vs Gastroschisis (Associated anomalies · Size · Location · Herniated viscera · Sac · Surgical management · Prognostic factors) ② สไลด์ Questions (STEPS) — \"Which abdominal wall defect is associated with intestinal atresia? — Gastroschisis\" · \"Which abdominal wall defect is associated with malrotation? — Both\" ③ ตำราไทย — \"หลังผ่าตัด ควรดูแลเรื่องการหายใจเป็นพิเศษ ถ้าหน้าท้องตึงมาก ควรใช้เครื่องช่วยหายใจในระยะแรก ควรดูแลระบบการไหลเวียนเลือดด้วย เพราะลำไส้อาจไปกด inferior vena cava … <b>ลำไส้อาจไม่ทำงานอยู่นานหลังผ่าตัด ฉะนั้นควรพิจารณาให้อาหารทางหลอดเลือดดำจนกว่าจะสามารถให้อาหารทางปากตามปกติได้</b> พบว่าผลการรักษา gastroschisis ดีกว่า omphalocele ซึ่งมีความพิการแต่กำเนิดของระบบอื่นๆ ร่วมด้วยมาก\"",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 93",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU67|RoA|6": {
-  "interp": "ทารก 2 เดือน<b>สะดือแฉะ</b> → ถามโรคที่นึกถึง<b>น้อยที่สุด</b>",
-  "why": "สะดือแฉะ/ มีสิ่งคัดหลั่งในทารก: <b>omphalitis</b> (ติดเชื้อ แดงรอบสะดือ), <b>umbilical granuloma/ polyp</b> (ก้อนเนื้อแดงชุ่ม — polyp เป็นเยื่อบุลำไส้/ กระเพาะหลงเหลือ), <b>patent urachus</b> (ปัสสาวะซึมจากสะดือ ต่อกับกระเพาะปัสสาวะ), <b>patent vitelline (omphalomesenteric) duct</b> (อุจจาระ/ เมือกซึม ต่อกับลำไส้เล็ก) · <b>Umbilical hernia</b> เป็นก้อนนุ่มมีผิวหนังปกติคลุม <b>ไม่แฉะ</b> · ไฟล์ขีด B ลายมือ D <b>\"ต่อ bladder\"</b> ติ๊ก ✓ ที่ D, E",
+  "interp": "ทารกอายุ 2 เดือนมีสะดือแฉะมีน้ำไหล — ถามภาวะที่นึกถึงน้อยที่สุด ต้องรู้ว่าสาเหตุของสะดือแฉะคือการติดเชื้อ เนื้อเยื่อเหลือค้าง หรือท่อที่ไม่ปิดซึ่งต่อกับกระเพาะปัสสาวะหรือลำไส้ ส่วนไส้เลื่อนสะดือมีผิวหนังคลุมแห้งดี",
+  "why": "<b>สะดือแฉะ (wet/ discharging umbilicus)</b> หลังสายสะดือหลุด มีสาเหตุหลัก: <b>umbilical granuloma</b> (ตุ่มเนื้อแดงชื้นพบบ่อยที่สุด รักษาด้วย silver nitrate), <b>omphalitis</b> (ติดเชื้อ แดงร้อนรอบสะดือ อาจลามเป็น necrotizing fasciitis), <b>umbilical polyp</b> (เยื่อบุลำไส้หรือกระเพาะค้าง สีแดงสด ไม่ตอบสนองต่อ silver nitrate), <b>patent urachus</b> (ท่อจากยอด<b>กระเพาะปัสสาวะ</b>ไม่ปิด → ปัสสาวะไหลจากสะดือ โดยเฉพาะเวลาร้องเบ่ง), <b>patent vitelline (omphalomesenteric) duct</b> (ท่อต่อกับ <b>ileum</b> ไม่ปิด → มีน้ำย่อย/ อุจจาระไหลจากสะดือ) · <b>Umbilical hernia</b> เป็นรอยแยกของ fascia ที่ umbilical ring <b>มีผิวหนังปกติคลุม</b> เป็นก้อนนิ่มโป่งเวลาร้อง ดันกลับได้ <b>ไม่มีน้ำไหลหรือแผลแฉะ</b> · ตรงคีย์ B — ไฟล์ขีด B และเขียนที่ patent urachus ว่า \"<b>ต่อ bladder</b>\" พร้อมติ๊ก ✓ ที่ D และ E",
   "wrong": {
-   "A": "นึกถึงได้ — omphalitis: แดงบวมรอบสะดือ มีหนอง · จะถูกถ้าคำถามถามภาวะที่ไม่ทำให้สะดือแดงอักเสบ",
-   "C": "นึกถึงได้ — umbilical polyp/ granuloma: ก้อนเนื้อแดงชุ่มที่สะดือ · จะถูกถ้าคำถามถามภาวะที่ไม่มีก้อนเนื้อที่สะดือ",
-   "D": "นึกถึงได้ — patent urachus: ปัสสาวะซึมจากสะดือ (ลายมือ \"ต่อ bladder\" ✓) · จะถูกถ้าคำถามถามภาวะที่ไม่ต่อกับกระเพาะปัสสาวะ",
-   "E": "นึกถึงได้ — patent vitelline duct: อุจจาระ/ เมือกซึม (ลายมือ ✓) · จะถูกถ้าคำถามถามภาวะที่ไม่ต่อกับลำไส้"
+   "A": "Omphalitis คือการติดเชื้อของตอสะดือและผิวรอบ ๆ มีน้ำหนองไหล แดง บวม กดเจ็บ ทำให้สะดือแฉะได้ชัดเจน (พบมากในช่วง 2 สัปดาห์แรก แต่เกิดได้ภายหลัง) · จะถูกถ้าเป็นทารก 10 วันที่ผิวรอบสะดือแดงร้อนลามกว้าง &gt; 1 cm มีหนองกลิ่นเหม็น ไข้ ซึม ต้องให้ยาปฏิชีวนะทางหลอดเลือด",
+   "C": "Umbilical polyp เป็นเยื่อบุลำไส้/ กระเพาะที่ค้างจาก vitelline duct เป็นตุ่มแดงสดชื้นมีมูกหรือเลือดซึม ทำให้สะดือแฉะได้ · จะถูกถ้าเป็นทารก 1 เดือนที่มีตุ่มแดงชื้นที่สะดือ จี้ silver nitrate หลายครั้งไม่หาย ชิ้นเนื้อพบ intestinal mucosa (ต้องผ่าตัดตัดออกและสำรวจหาท่อที่เหลือ)",
+   "D": "Patent urachus คือท่อจากยอดกระเพาะปัสสาวะถึงสะดือไม่ปิด (ไฟล์เขียน \"ต่อ bladder\") ทำให้มีน้ำใสกลิ่นปัสสาวะไหลจากสะดือ · จะถูกถ้าเป็นทารก 3 สัปดาห์ที่มีน้ำใสไหลจากสะดือมากขึ้นเวลาร้องหรือเบ่ง น้ำมี creatinine สูง ต้องทำ VCUG/ ultrasound และหา bladder outlet obstruction ร่วม",
+   "E": "Patent vitelline duct คือท่อระหว่าง ileum กับสะดือไม่ปิด ทำให้มีน้ำย่อย น้ำดีหรืออุจจาระไหลจากสะดือ เสี่ยงลำไส้ปลิ้นออกมาทางสะดือ (prolapse) · จะถูกถ้าเป็นทารก 1 เดือนที่มีน้ำสีเขียวเหลืองกลิ่นอุจจาระไหลจากสะดือ ฉีดสารทึบรังสีเข้าทางรู (fistulogram) เห็นต่อกับ ileum"
   },
-  "trap": "คิดว่าไส้เลื่อนสะดือทำให้สะดือมีน้ำซึม — ไส้เลื่อนมีผิวหนังปกติคลุม ไม่แฉะ",
+  "trap": "ทุกช้อยเกี่ยวกับสะดือ คนจึงลังเล — ให้ถามว่า<b>มีผิวหนังคลุมหรือไม่</b>: umbilical hernia มีผิวหนังปกติคลุม <b>ไม่มีของเหลวไหล</b> · สะดือแฉะต้องมีแผล/ เยื่อบุโผล่ หรือท่อที่ยังเปิดอยู่",
   "summary": [
-   "Omphalitis: แดง บวม หนอง → ATB (เสี่ยง sepsis/ portal vein thrombosis)",
-   "Umbilical granuloma: ก้อนแดงชุ่ม → จี้ silver nitrate",
-   "Umbilical polyp: เยื่อบุลำไส้/ กระเพาะ → ตัด + สำรวจหา duct",
-   "Patent urachus: ปัสสาวะซึม → VCUG/ US → ผ่าตัดตัด",
-   "Patent vitelline duct: อุจจาระ/ เมือก → ผ่าตัด",
-   "Umbilical hernia: ผิวปกติ · ส่วนใหญ่ปิดเองก่อน 4–5 ปี"
+   "สะดือแฉะในทารก: umbilical granuloma (บ่อยสุด) · omphalitis · umbilical polyp · patent urachus · patent vitelline duct",
+   "Umbilical granuloma: ตุ่มเนื้อชมพูชื้น → silver nitrate จี้ซ้ำ 2–3 ครั้ง · ไม่หาย → สงสัย polyp/ ท่อเปิด",
+   "Omphalitis: แดงร้อนลามรอบสะดือ มีหนอง · ยาปฏิชีวนะ IV ครอบ S. aureus/ streptococcus/ gram-negative · ระวัง necrotizing fasciitis, portal vein thrombosis",
+   "Patent urachus: ปัสสาวะไหลจากสะดือ · ultrasound/ VCUG/ fistulogram · ผ่าตัดตัดท่อออกถึงยอดกระเพาะปัสสาวะ · หา posterior urethral valve ร่วม",
+   "Vitelline duct remnants: patent duct (อุจจาระจากสะดือ), polyp, cyst, fibrous band (ลำไส้บิด), Meckel diverticulum (ชนิดที่พบมากที่สุด)",
+   "Umbilical hernia: ผิวหนังคลุม ดันกลับได้ แห้ง · ปิดเองส่วนใหญ่ใน 3–5 ปี · ผ่าตัดเมื่อ &gt; 3–4 ปีหรือรู &gt; 1.5–2 cm",
+   "Urachal cyst ในเด็กโต/ ผู้ใหญ่: ก้อนใต้สะดือติดเชื้อเป็นฝีได้ · urachal adenocarcinoma ในผู้ใหญ่ (หายาก)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'สะดือแฉะ = มีรู/ ติดเชื้อ/ เนื้อเยื่อหลงเหลือ · ไส้เลื่อน = ผิวปกติแห้ง'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Disorders of the umbilicus",
+  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง — umbilical hernia มีผิวหนังคลุมจึงไม่ทำให้สะดือแฉะ ตรงกับที่ไฟล์ขีด B และติ๊กช้อย D, E ว่าเป็นสาเหตุจริง · สาเหตุที่พบบ่อยที่สุดของสะดือแฉะคือ umbilical granuloma ซึ่งไม่อยู่ในช้อย",
+  "mnemonic": "<b>'สะดือแฉะ = มีอะไรโผล่หรือมีท่อเปิด (Granuloma, Polyp, Urachus→ปัสสาวะ, Vitelline→อุจจาระ) · Hernia มีผิวหนังคลุมจึงแห้ง'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) ch. Umbilical and other abdominal wall hernias, Disorders of the umbilicus; Nelson Textbook of Pediatrics 22nd ed. (2024)",
   "variants": [
-   "ทารกสะดือมีปัสสาวะซึมเมื่อร้อง → patent urachus",
-   "ทารกมีอุจจาระออกทางสะดือ → patent omphalomesenteric duct",
-   "ทารกก้อนนุ่มที่สะดือโป่งเวลาร้อง ผิวปกติ → umbilical hernia → สังเกตอาการ"
+   "ทารก 3 สัปดาห์ตุ่มเนื้อชมพูชื้นที่สะดือ ไม่แดงลาม → umbilical granuloma จี้ silver nitrate",
+   "ทารกมีน้ำใสไหลจากสะดือเวลาร้อง → สงสัย patent urachus ทำ ultrasound/ fistulogram และผ่าตัดตัดท่อ",
+   "ทารกมีอุจจาระไหลออกจากสะดือ → patent vitelline duct ผ่าตัดตัดท่อและลำไส้ส่วนที่ต่อ",
+   "ทารก 5 วัน ผิวรอบสะดือแดงร้อนลาม มีหนอง ไข้ → omphalitis ให้ยาปฏิชีวนะ IV"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 94 — ตัวพิมพ์: <b>6. ผู้ป่วยเด็ก 2 เดือนที่มาด้วยอาการสะดือแฉะ นึกถึงโรคอะไรน้อยที่สุด — A. Omphalitis B. Umbilical hernia C. Umbilical polyp D. Patent urachus E. Patent vitelline duct</b><br>ลายมือ: ขีด B · D \"ต่อ bladder\" ✓ · E ✓<br>ไฮไลต์: \"เด็ก 2 เดือนที่มาด้วยอาการสะดือแฉะ\" \"นึกถึงโรคอะไรน้อยที่สุด\" · B (เหลือง) · A, C, D, E (ส้ม)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 94",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU67|RoA|7": {
-  "interp": "เด็ก 4 ปีมี<b>น้ำไหลออกจากรูเล็กที่คอ หน้าต่อ sternocleidomastoid</b> → ถามการวินิจฉัย",
-  "why": "มี<b>รูเปิดที่ผิวหนัง</b>และมีน้ำไหล = <b>sinus</b> (ไม่ใช่ cyst ซึ่งเป็นก้อนไม่มีรูเปิด) · ตำแหน่ง<b>ขอบหน้าของ SCM ส่วนกลาง–ล่าง</b> = <b>second branchial cleft</b> (พบบ่อยที่สุด ~95% ของ branchial anomalies) · ในเด็กมักเป็น sinus/ fistula ส่วนผู้ใหญ่มักเป็น cyst · ทางเดินผ่านระหว่าง internal–external carotid เหนือ CN XII ไปเปิดที่ tonsillar fossa → ผ่าตัดเอาออกทั้งทาง (stepladder incision) · ไฟล์ขีด D และแปะสไลด์ <b>Second Branchial Cleft Anomalies</b> (ลายมือ \"จำ\")",
+  "interp": "เด็ก 4 ขวบมีของเหลวไหลออกจาก \"รู\" เล็ก ๆ ที่คอด้านข้าง ตรงขอบหน้าของกล้ามเนื้อ sternocleidomastoid — ตำแหน่งนี้คือความผิดปกติของ second branchial cleft และการที่เป็น \"รูที่มีน้ำไหล\" คือ sinus ไม่ใช่ cyst",
+  "why": "<b>Branchial cleft anomaly</b> เกิดจาก cleft/ pouch ของ pharyngeal arch ปิดไม่สมบูรณ์ · <b>Second branchial cleft พบบ่อยที่สุด (~90–95%)</b> · ตำแหน่งเปิดภายนอกอยู่<b>ขอบหน้าของ SCM ส่วนล่างค่อนกลาง (ราวรอยต่อ 1/3 กลางกับล่าง)</b> · ทางเดินของท่อ: ผ่านขึ้นตาม carotid sheath ลอดระหว่าง <b>internal และ external carotid</b> เหนือ hypoglossal และ glossopharyngeal nerve ไปเปิดที่ <b>tonsillar fossa</b> · ชนิดตามลักษณะ: <b>cyst</b> (ก้อนนุ่มไม่มีรูเปิด มักเห็นในวัยรุ่น/ ผู้ใหญ่หลังติดเชื้อทางเดินหายใจ), <b>sinus</b> (มีรูเปิดด้านเดียว — ส่วนใหญ่เปิดภายนอกที่ผิว มีน้ำเมือกไหล มักพบในเด็ก), <b>fistula</b> (เปิดทั้งผิวหนังและคอหอย) · รักษา: <b>ผ่าตัดเอาท่อ/ ถุงออกทั้งหมด</b> (step-ladder incision) หลังหายติดเชื้อ เพราะติดเชื้อซ้ำบ่อย · ตรงคีย์ D — ไฟล์ใส่เครื่องหมายคำพูดรอบคำว่า \"<b>รู</b>\" ดอกจันหลัง \"<b>sternocleidomastoid muscle*</b>\" ขีด D และแปะสไลด์ second branchial cleft anomalies",
   "wrong": {
-   "A": "First branchial cleft cyst อยู่บริเวณหน้า/ ใต้ใบหู สัมพันธ์ช่องหู ไม่มีรูเปิด · จะถูกถ้าเด็กมีก้อนนุ่มหน้าหูไม่มีรู",
-   "B": "First branchial cleft sinus เปิดใต้มุมขากรรไกร/ หน้าหู ต่อช่องหูภายนอก · จะถูกถ้ารูเปิดใต้มุมขากรรไกรมีหนองไหลและต่อกับช่องหู",
-   "C": "Second branchial cleft cyst เป็นก้อนนุ่มหน้า SCM ไม่มีรูเปิด พบในผู้ใหญ่ตอนต้น · จะถูกถ้าวัยรุ่นมีก้อนนุ่มหน้า SCM บวมขึ้นหลังหวัด",
-   "E": "Thyroglossal duct cyst อยู่แนวกลางคอ เคลื่อนขึ้นเมื่อแลบลิ้น/ กลืน · จะถูกถ้าเด็กมีก้อนแนวกลางคอขยับตามการแลบลิ้น"
+   "A": "First branchial cleft anomaly อยู่บริเวณ<b>หน้าหู/ ใต้ใบหู ชิดมุมขากรรไกร</b> สัมพันธ์กับ external auditory canal และ parotid/ facial nerve และ cyst ไม่มีรูเปิด · จะถูกถ้าเป็นเด็ก 6 ขวบมีก้อนนุ่มใต้ติ่งหูใกล้มุมขากรรไกร ติดเชื้อซ้ำ ร่วมกับมีหนองไหลจากรูหูข้างเดียวกัน",
+   "B": "First branchial cleft sinus เปิดที่ผิวหนังบริเวณใต้มุมขากรรไกร/ หน้าหูเหนือกระดูก hyoid และท่อวิ่งขึ้นไปทาง external auditory canal ใกล้ facial nerve — ไม่ใช่ขอบหน้า SCM ส่วนล่าง · จะถูกถ้าเป็นเด็ก 3 ขวบที่มีรูเล็กใต้มุมขากรรไกรมีน้ำไหล และมีหนองออกจากช่องหูข้างเดียวกันเป็นพัก ๆ",
+   "C": "Second branchial cleft cyst อยู่ตำแหน่งเดียวกัน (ขอบหน้า SCM) แต่เป็น<b>ก้อนถุงน้ำไม่มีรูเปิด</b> มักโตขึ้นหลังหวัดในวัยรุ่น/ ผู้ใหญ่ตอนต้น — โจทย์บอกว่ามีน้ำไหลจาก \"รู\" · จะถูกถ้าเป็นชาย 20 ปีมีก้อนนุ่มกลมที่ขอบหน้าของ SCM ส่วนบน โตขึ้นหลังเป็นหวัด ไม่มีรูเปิด CT เป็นถุงน้ำผนังบาง",
+   "E": "Thyroglossal duct cyst อยู่<b>แนวกลางคอ</b> (ระดับ hyoid) เลื่อนขึ้นเมื่อกลืนหรือแลบลิ้น ไม่ใช่ด้านข้างหน้าต่อ SCM · จะถูกถ้าเป็นเด็ก 5 ขวบมีก้อนกลมแนวกลางคอใต้กระดูก hyoid เลื่อนขึ้นเมื่อแลบลิ้น (ผ่าตัดแบบ Sistrunk ตัดกลางกระดูก hyoid ร่วม)"
   },
-  "trap": "สับสน cyst กับ sinus — มีรูเปิดน้ำไหล = sinus",
+  "trap": "คนแยก cyst กับ sinus ไม่ได้ — <b>cyst = ก้อน ไม่มีรู</b> · <b>sinus = มีรูเปิดด้านเดียว มีน้ำไหล</b> · <b>fistula = เปิดสองด้าน</b> · ส่วนตำแหน่ง: <b>ขอบหน้า SCM ส่วนล่าง = second</b> · ใกล้หู/ มุมขากรรไกร = first · กลางคอ = thyroglossal",
   "summary": [
-   "2nd branchial: พบบ่อยที่สุด (~95%) · ขอบหน้า SCM",
-   "เด็ก: sinus/ fistula · ผู้ใหญ่: cyst",
-   "ทางเดิน: ระหว่าง ICA–ECA เหนือ CN XII → tonsillar fossa",
-   "1st branchial: หน้า/ ใต้หู · สัมพันธ์ EAC/ facial nerve",
-   "Thyroglossal: แนวกลาง · ขยับเมื่อแลบลิ้น → Sistrunk",
-   "รักษา: ผ่าตัดเอาออกทั้งหมดหลังหายอักเสบ"
+   "Branchial anomalies: second ~90–95% · first ~5–8% · third/ fourth พบน้อย (มักซ้าย ร่วม pyriform sinus, thyroiditis ติดเชื้อซ้ำ)",
+   "Second cleft: เปิดที่ขอบหน้า SCM ส่วนล่าง · ท่อผ่านระหว่าง ICA และ ECA เหนือ CN XII, IX → เปิดที่ tonsillar fossa",
+   "First cleft: ใกล้หู/ มุมขากรรไกร ชิด facial nerve และ parotid · Work type I (ectoderm) / type II (ectoderm + mesoderm)",
+   "Cyst (ไม่มีรู, วัยรุ่น/ ผู้ใหญ่), sinus (รูเปิดเดียว, เด็ก), fistula (เปิดทั้งผิวและคอหอย)",
+   "วินิจฉัย: ตรวจร่างกาย, ultrasound/ CT/ MRI ดูทางเดิน, fistulogram ได้ในบางราย",
+   "รักษา: ยาปฏิชีวนะเมื่อติดเชื้อ (ห้าม I&D ถ้าเลี่ยงได้) → ผ่าตัดตัดทั้งท่อหลังหายอักเสบ · step-ladder incision สำหรับท่อยาว",
+   "Thyroglossal duct cyst: แนวกลาง เลื่อนเมื่อแลบลิ้น → Sistrunk operation (ตัดกลาง hyoid + ท่อถึงโคนลิ้น)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
-  "mnemonic": "<b>'รู + หน้า SCM = 2nd branchial Sinus'</b>",
-  "guide": "Cummings Otolaryngology 7th ed. (2021) — Congenital neck masses; Coran's Pediatric Surgery 8th ed. (2019)",
+  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง — ตำแหน่งขอบหน้า SCM และการมีรูที่มีน้ำไหลคือ second branchial cleft sinus ตรงกับที่ไฟล์เน้นคำ \"รู\" และแปะสไลด์ second branchial cleft anomalies · ไฟล์มีช้อย A–D เว็บเพิ่ม E thyroglossal duct cyst",
+  "mnemonic": "<b>'Second = SCM (S คู่) · รู = Sinus · ก้อน = Cyst · กลางคอแลบลิ้นขยับ = Thyroglossal'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) ch. Lesions of the head and neck; Cummings Otolaryngology Head and Neck Surgery 7th ed. (2021) ch. Congenital neck masses",
   "variants": [
-   "วัยรุ่นก้อนนุ่มหน้า SCM โตหลังหวัด → 2nd branchial cyst",
-   "เด็กก้อนแนวกลางคอขยับเมื่อแลบลิ้น → thyroglossal duct cyst → Sistrunk",
-   "เด็กรูใต้มุมขากรรไกรต่อช่องหู → 1st branchial sinus"
+   "เด็ก 3 ขวบมีรูเล็กที่ขอบหน้า SCM ส่วนล่างมีเมือกไหล ติดเชื้อซ้ำ 2 ครั้ง → second branchial cleft sinus ผ่าตัดเอาท่อออกทั้งหมดหลังหายอักเสบ",
+   "ชาย 22 ปีก้อนนุ่มที่ขอบหน้า SCM ส่วนบนโตหลังหวัด ไม่มีรู → second branchial cleft cyst ผ่าตัดเอาออก",
+   "เด็ก 7 ขวบก้อนแนวกลางคอเลื่อนขึ้นเมื่อแลบลิ้น → thyroglossal duct cyst ทำ Sistrunk operation",
+   "ทำไมไม่ควรกรีดระบายหนองจาก branchial cyst ที่ติดเชื้อถ้าเลี่ยงได้ → เกิดแผลเป็นและพังผืดทำให้ผ่าตัดเอาออกทั้งหมดภายหลังยากและกลับเป็นซ้ำ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 94 — ตัวพิมพ์: <b>7. ผู้ป่วยเด็กอายุ 4 ปี มาด้วยอาการมีของเหลวไหลออกมาจาก\"รู\"บริเวณคอ หน้าต่อ sternocleidomastoid muscle* จงให้การวินิจฉัย — A. First branchial cleft cyst B. First branchial cleft sinus C. Second branchial cleft cyst D. Second branchial cleft sinus</b><br>ลายมือ: เครื่องหมายคำพูดรอบ \"รู\" · ดอกจันหลัง muscle · ขีด D<br>ไฮไลต์: \"เด็กอายุ 4 ปี\" \"มีของเหลวไหลออกมาจากรูบริเวณคอ\" \"หน้าต่อ sternocleidomastoid muscle\" · D (เหลือง)<br>รูปที่แปะ: สไลด์ Second Branchial Cleft Anomalies (\"* จำ *\") — 95% of all branchial malformations · Cysts are more common than sinuses or fistulae · most commonly present in young adults · external opening is along the anterior border of sternocleidomastoid, typically in middle or lower third of neck พร้อมภาพตำแหน่ง first/ second branchial cleft remnant และลายมือ (ทางเดินผ่าน carotid bifurcation · sinus/ fistula · cyst)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 94",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU67|RoA|8": {
-  "interp": "ทารก<b>แรกคลอด</b>คลำพบ<b>ก้อนท้องบริเวณชายโครงซ้าย (flank)</b> → ถามโรคที่นึกถึงมากที่สุด",
-  "why": "ก้อนท้องในทารกแรกเกิดส่วนใหญ่ (~2/3) มาจาก<b>ไต</b> โดยที่พบบ่อยที่สุดคือ <b>hydronephrosis</b> (เช่น UPJ obstruction) และ multicystic dysplastic kidney (MCDK) · Wilms พบอายุ <b>3–7 ปี</b>, neuroblastoma อายุ <b>2–4 ปี</b> (ทารกพบได้แต่น้อยกว่า), polycystic kidney (ARPKD) มักเป็น<b>สองข้าง</b> · ไฟล์ขีด A ลายมือ B <b>\"bilat.\"</b> · D <b>\"@ 3–7 yo (Wilm's)\"</b> · E <b>\"@ 2–4 yo\"</b>",
+  "interp": "ทารกแรกเกิดคลำได้ก้อนในท้องบริเวณชายโครงซ้าย — ถามสาเหตุที่นึกถึงมากที่สุด ต้องรู้ว่าก้อนในท้องทารกแรกเกิดส่วนใหญ่มาจากไตและไม่ใช่มะเร็ง โดยไตบวมน้ำ (hydronephrosis) พบบ่อยที่สุด",
+  "why": "<b>ก้อนในท้องของทารกแรกเกิด ~50–65% มาจากไต</b> และส่วนใหญ่<b>ไม่ใช่เนื้องอก</b> · สาเหตุที่พบบ่อยที่สุดคือ <b>hydronephrosis</b> โดยเฉพาะจาก <b>ureteropelvic junction (UPJ) obstruction</b> (พบด้านซ้ายมากกว่า) ตามด้วย <b>multicystic dysplastic kidney (MCDK)</b> · ปัจจุบันมักตรวจพบตั้งแต่ ultrasound ก่อนคลอด · การตรวจ: <b>ultrasound</b> ดูขนาดกรวยไต (APD) → ติดตามหลังคลอด (ทำหลัง 48–72 ชม. เมื่อทารกไม่ขาดน้ำ ยกเว้นสงสัยอุดตันรุนแรง) → <b>MAG3 diuretic renogram</b> ดูการทำงานแยกข้างและการระบาย · <b>VCUG</b> ถ้าสงสัย vesicoureteral reflux หรือ posterior urethral valve · รักษา UPJ obstruction: <b>pyeloplasty</b> เมื่อการทำงานข้างนั้นลดลง (&lt; 40%) หรือ APD เพิ่มขึ้น หรือมีอาการ · มะเร็ง (neuroblastoma, Wilms) พบน้อยในวัยแรกเกิด · ตรงคีย์ A — ไฟล์ขีด A และเขียนช่วงอายุที่ช้อยมะเร็ง: Wilms \"<b>@ 3-7 yo</b>\" neuroblastoma \"<b>@ 2-4 yo</b>\" และ polycystic \"<b>bilat.</b>\"",
   "wrong": {
-   "B": "Polycystic kidney (ARPKD) มักโตสองข้าง (ลายมือ \"bilat.\") · จะถูกถ้าทารกมีไตโตสองข้าง oligohydramnios ปอดเล็ก",
-   "C": "Duplication cyst ในไตพบน้อย · จะถูกถ้าคำถามถามก้อนถุงน้ำติดลำไส้ที่ US เห็นผนังสองชั้น (gut signature)",
-   "D": "Wilms พบอายุ 3–7 ปี (ลายมือ) · จะถูกถ้าเด็ก 3 ปีก้อนท้องเรียบไม่ข้ามแนวกลาง",
-   "E": "Neuroblastoma พบอายุ 2–4 ปี (ลายมือ) ทารกพบได้แต่น้อยกว่า hydronephrosis · จะถูกถ้าทารก 1 ปีก้อนท้องแข็งข้ามแนวกลาง มีหินปูน"
+   "B": "Polycystic kidney disease ในทารก (ARPKD — autosomal recessive) ทำให้ไต<b>โตทั้งสองข้าง</b>สมมาตร (ไฟล์เขียน \"bilat.\") มักมี oligohydramnios ปอดเล็ก และตับมีพังผืด ไม่ใช่ก้อนข้างเดียว · จะถูกถ้าเป็นทารกแรกเกิดที่แม่มีน้ำคร่ำน้อย หายใจลำบาก คลำได้ไตใหญ่ทั้งสองข้าง ultrasound ไตใหญ่ echogenic สองข้าง",
+   "C": "Duplication cyst ของทางเดินอาหารหรือไตพบน้อย เป็นถุงน้ำที่อาจคลำได้ แต่ไม่ใช่สาเหตุที่พบบ่อยของก้อนในทารก · จะถูกถ้าเป็นทารก 2 เดือนมีก้อนกลมที่ท้องขวาล่างทำให้อาเจียนเป็นพัก ultrasound เห็นถุงน้ำที่มีผนังสองชั้นแบบลำไส้ (gut signature) ติด ileum",
+   "D": "Nephroblastoma (Wilms) พบมากอายุ 3–4 ปี (ไฟล์เขียน 3–7 ปี) แทบไม่พบในทารกแรกเกิด — เนื้องอกไตที่พบบ่อยที่สุดในทารกแรกเกิดคือ mesoblastic nephroma · จะถูกถ้าเป็นเด็ก 3 ขวบสุขภาพดีที่แม่คลำเจอก้อนเรียบที่ชายโครงซ้ายขณะอาบน้ำ CT เห็น claw sign",
+   "E": "Neuroblastoma เป็นมะเร็งที่พบบ่อยที่สุดในทารก แต่โดยรวมพบน้อยกว่าก้อนจากไตบวมน้ำมาก และอายุที่พบมากคือ 1–4 ปี (ไฟล์เขียน 2–4 ปี) · จะถูกถ้าเป็นเด็ก 18 เดือนซีด ไข้ ตาช้ำรอบตา คลำได้ก้อนแข็งไม่เรียบข้ามเส้นกลาง CT มีหินปูน"
   },
-  "trap": "นึกถึงมะเร็งก่อน — ก้อนท้องทารกแรกเกิดส่วนใหญ่มาจากไตและไม่ใช่มะเร็ง (hydronephrosis/ MCDK)",
+  "trap": "ก้อนในท้องเด็กทำให้นึกถึงมะเร็ง (Wilms, neuroblastoma) ทันที — แต่ใน<b>ทารกแรกเกิด</b> ก้อนส่วนใหญ่เป็น<b>ไตที่ไม่ใช่มะเร็ง</b>: hydronephrosis (UPJ obstruction) และ multicystic dysplastic kidney · มะเร็งมีช่วงอายุของมันเอง",
   "summary": [
-   "ก้อนท้องทารกแรกเกิด: ~2/3 มาจากไต",
-   "อันดับหนึ่ง: hydronephrosis (UPJ obstruction) / MCDK",
-   "ARPKD: ไตโตสองข้าง",
-   "Neuroblastoma: 2–4 ปี (ทารกพบได้)",
-   "Wilms: 3–7 ปี",
-   "ตรวจแรก: ultrasound"
+   "ก้อนในท้องทารกแรกเกิด: ไต ~55% (hydronephrosis, MCDK) · อวัยวะสืบพันธุ์ (ovarian cyst, hydrometrocolpos) · ทางเดินอาหาร (duplication, meconium pseudocyst) · ต่อมหมวกไต (hemorrhage, neuroblastoma)",
+   "UPJ obstruction: สาเหตุอันดับ 1 ของ hydronephrosis ในทารก · ซ้าย &gt; ขวา · ชาย &gt; หญิง",
+   "Prenatal hydronephrosis: APD ไตรมาส 3 ≥ 7 mm ติดตาม · ultrasound หลังคลอด 48 ชม.–1 สัปดาห์ (เร็วกว่าถ้าสองข้าง/ PUV)",
+   "MAG3 renogram: split function และ drainage (T½) · pyeloplasty (Anderson–Hynes dismembered) เมื่อ function &lt; 40%, ลดลง &gt; 10%, APD โตขึ้น หรือมีอาการ",
+   "MCDK: ไตเป็นถุงน้ำหลายถุงไม่ต่อกัน ไม่ทำงาน · มักยุบเอง · ตรวจไตอีกข้าง (VUR ~20%)",
+   "ARPKD: ไตใหญ่สองข้าง oligohydramnios ปอดเล็ก congenital hepatic fibrosis",
+   "เนื้องอกไตในทารกแรกเกิด: congenital mesoblastic nephroma (ส่วนใหญ่ไม่ร้าย) → nephrectomy"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ (บางตำราระบุ MCDK พบบ่อยใกล้เคียงกัน)",
-  "mnemonic": "<b>'ก้อนท้องทารกแรกเกิด = ไต (ไตบวมน้ำ) ก่อนมะเร็ง'</b>",
-  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Abdominal masses in the newborn; EAU/ESPU Guidelines on Paediatric Urology 2024",
+  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง — hydronephrosis เป็นสาเหตุที่พบบ่อยที่สุดของก้อนในท้องทารกแรกเกิด ตรงกับที่ไฟล์ขีด A และระบุช่วงอายุของมะเร็งไว้เพื่อตัดช้อย · บางตำรารวม MCDK เป็นอันดับใกล้เคียงกัน แต่ไม่มีในช้อย",
+  "mnemonic": "<b>'ทารกแรกเกิด + ก้อนท้อง = ไต (ไม่ใช่มะเร็ง) → Hydronephrosis/ MCDK'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) ch. Ureteropelvic junction obstruction; SFU/ UTD Multidisciplinary Consensus on Urinary Tract Dilation (Nguyen HT et al. J Pediatr Urol 2014)",
   "variants": [
-   "ทารกแรกเกิดก้อนชายโครงซ้าย US ไตบวมน้ำ → diuretic renogram",
-   "ทารกไตโตสองข้าง oligohydramnios → ARPKD",
-   "ทารกก้อนไตเป็นถุงน้ำหลายถุงไม่ต่อกัน ไม่ทำงาน → MCDK → ติดตาม"
+   "ทารกแรกเกิดก้อนที่สีข้างซ้าย ultrasound กรวยไตโป่ง APD 25 mm ท่อไตไม่โป่ง → UPJ obstruction ทำ MAG3 renogram",
+   "MAG3 ไตซ้ายทำงาน 30% ระบายช้า → pyeloplasty",
+   "ทารกก้อนสีข้างเป็นถุงน้ำหลายถุงไม่ต่อกัน ไตข้างนั้นไม่ทำงานบน DMSA → multicystic dysplastic kidney ติดตาม ultrasound",
+   "ทำไมไม่ทำ ultrasound ไตทันทีหลังคลอดในรายข้างเดียว → ทารกยังขาดน้ำใน 48 ชม.แรก ปัสสาวะน้อย อาจประเมินความรุนแรงต่ำเกินจริง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 94 — ตัวพิมพ์: <b>8. เด็กแรกคลอด แพทย์คลำพบก้อนในท้องที่บริเวณชายโครงซ้าย นึกถึงโรคอะไรมากที่สุด — A. Hydronephrosis B. Polycystic kidney disease C. Duplication cyst in kidney D. Nephroblastoma E. Neuroblastoma</b><br>ลายมือ: ขีด A · B \"bilat.\" · D \"@ 3-7 yo (Wilm's)\" · E \"@ 2-4 yo\"<br>ไฮไลต์: \"เด็กแรกคลอด\" \"ก้อนในท้องที่บริเวณชายโครงซ้าย\" · A (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 94",
