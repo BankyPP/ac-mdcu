@@ -1,29 +1,31 @@
 {
  "MDCU67|RoA|55": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>empyema</b> (หนองในช่องเยื่อหุ้มปอด)",
-  "why": "เกณฑ์ empyema/ complicated parapneumonic effusion: <b>pH น้ำในช่องเยื่อหุ้มปอดต่ำ</b> (&lt; 7.0–7.2) และ<b>พบเชื้อใน Gram stain</b> (หรือ culture บวก) → ทั้ง C และ D ถูก = E · น้ำขุ่นอย่างเดียวไม่จำเพาะ (chylothorax/ เซลล์มากก็ขุ่นได้) และ air-fluid level ใน<b>เนื้อปอด</b>คือ lung abscess · ไฟล์ขีด E ลายมือ ✓ ที่ C และ D · B <b>\"→ lung abscess\"</b>",
+  "interp": "ถามข้อความที่ถูกเกี่ยวกับ empyema thoracis — ต้องรู้ว่าอะไรคือเกณฑ์วินิจฉัย empyema จากการเจาะน้ำในช่องเยื่อหุ้มปอด (หนองชัด, Gram stain/ culture บวก, pH และ glucose ต่ำ) และแยกจากลักษณะของ lung abscess ที่อยู่ในเนื้อปอด",
+  "why": "<b>Empyema = หนองหรือเชื้อในช่องเยื่อหุ้มปอด</b> นิยามคือเจาะได้<b>หนองชัด (frank pus)</b> หรือ <b>Gram stain/ culture บวก</b> · ส่วนใหญ่ต่อจาก parapneumonic effusion (ราว 2 ใน 3) ที่เหลือจากหลังผ่าตัดทรวงอก บาดเจ็บ หรือ esophageal perforation · American Thoracic Society แบ่ง 3 ระยะ: <b>exudative</b> (น้ำใส pH ปกติ 2–5 วัน) → <b>fibrinopurulent</b> (WBC สูง มี fibrin เกิด loculation <b>pH &lt; 7.2 glucose &lt; 60 mg/dL LDH &gt; 1,000 IU/L</b>) → <b>organizing</b> (เกิด peel หนาบีบปอด 2–4 สัปดาห์) · กรดในน้ำเกิดจากเม็ดเลือดขาวและแบคทีเรียเผาผลาญ glucose ได้ lactate และ CO₂ — empyema จริงมัก <b>pH &lt; 7.0</b> · ดังนั้นทั้ง pH ต่ำและการเห็นเชื้อใน Gram stain ล้วนสนับสนุน empyema · รักษา: ยาปฏิชีวนะ + <b>ระบายด้วย ICD</b> ± intrapleural tPA/DNase ระยะ fibrinopurulent และ <b>VATS decortication</b> ถ้าเป็น loculation หรือ peel · ตรงคีย์ E — ไฟล์ขีด E ติ๊กถูกที่ C และ D และเขียนที่ช้อย B ว่า \"<b>→ lung abscess</b>\"",
   "wrong": {
-   "A": "น้ำขุ่นไม่จำเพาะ — ต้องเป็นหนองชัดหรือมีผลแล็บสนับสนุน · จะถูกถ้าคำถามถามลักษณะที่ทำให้ต้องส่งตรวจเพิ่ม/ ปั่นแยก (chylothorax vs empyema)",
-   "B": "Air-fluid level ในเนื้อปอดเป็นลักษณะ lung abscess (ลายมือ) · จะถูกถ้าคำถามถามภาพรังสีของ lung abscess หรือ BPF ร่วมกับ empyema",
-   "C": "ถูกแต่ไม่ครบ — Gram stain ก็ถูกด้วย · จะถูกถ้าคำถามให้เลือกข้อเดียวเรื่องผลเคมีของน้ำ",
-   "D": "ถูกแต่ไม่ครบ — pH ต่ำก็ถูกด้วย · จะถูกถ้าคำถามให้เลือกข้อเดียวเรื่องผลจุลชีววิทยา"
+   "A": "น้ำขุ่นเป็นลักษณะที่พบใน empyema ได้ แต่<b>ไม่จำเพาะ</b> — น้ำขุ่นหรือขาวขุ่นอาจเกิดจากไขมัน (chylothorax, pseudochylothorax) หรือเซลล์มากใน exudate ทั่วไป ต้องใช้ Gram stain, pH และ glucose ยืนยัน จึงไม่ใช่ข้อที่ถูกที่สุด · จะถูกถ้าเป็นชาย 40 ปีหลังผ่าตัดหลอดอาหาร ใส่สายระบายทรวงอกแล้วได้น้ำขาวขุ่นเหมือนนม triglyceride &gt; 110 mg/dL ซึ่งเป็น chylothorax",
+   "B": "Air-fluid level ในเนื้อปอดเป็นลักษณะของ <b>lung abscess</b> (ที่ไฟล์เขียนกำกับ) หรือในช่องเยื่อหุ้มปอดหมายถึงมี bronchopleural fistula ร่วม ไม่ใช่ลักษณะประจำของ empyema · บน CT lung abscess เป็นโพรงกลมผนังหนา มุมแหลมกับผนังทรวงอก ส่วน empyema เป็นรูปเลนส์ มี split pleura sign · จะถูกถ้าเป็นชายติดสุรา 55 ปี สำลักขณะเมา ไอมีเสมหะเหม็น ภาพรังสีเห็นโพรงมี air-fluid level ที่ superior segment ของ right lower lobe",
+   "C": "pH ต่ำถูกต้องสำหรับ empyema แต่เป็นเพียงครึ่งเดียวของคำตอบ — ช้อย E รวมทั้ง pH ต่ำและ Gram stain บวกไว้ จึงครบกว่า · ค่า pH &lt; 7.2 ใน parapneumonic effusion บอกว่าต้องระบายแม้ยังไม่เป็นหนอง · จะถูกถ้าเป็นชาย 60 ปี ปอดอักเสบ 7 วัน เจาะน้ำได้ pH 6.9 Gram stain ไม่พบเชื้อ และคำถามให้เลือกเกณฑ์เดียวที่บอกว่าต้องใส่ ICD",
+   "D": "การพบเชื้อใน Gram stain เป็นเกณฑ์วินิจฉัย empyema โดยตรง ถูกต้อง แต่ยังไม่ครบเพราะ pH ต่ำก็ถูกด้วย และไฟล์ติ๊กถูกทั้ง C และ D · น้ำใน empyema บางรายเพาะเชื้อไม่ขึ้นเพราะได้ยาก่อน จึงต้องอาศัย pH และ glucose ร่วม · จะถูกถ้าเป็นหญิง 45 ปี มีไข้หลังปอดอักเสบ เจาะน้ำได้หนองข้น Gram stain พบ gram-positive cocci in chains และช้อยไม่มีตัวเลือกรวม"
   },
-  "trap": "เลือก air-fluid level เพราะคุ้นจากภาพหนอง — นั่นคือ lung abscess (ในเนื้อปอด)",
+  "trap": "คนที่เห็นว่า A และ B ดูเป็นลักษณะ \"ติดเชื้อ\" มักเลือกเดี่ยว ๆ หรือหยุดที่ C/ D ข้อเดียว — empyema นิยามด้วย<b>หนองหรือเชื้อในช่องเยื่อหุ้มปอด</b> และ pH ต่ำ ส่วน air-fluid level ในเนื้อปอดคือ lung abscess · เมื่อมีสองข้อที่ถูกให้ดูช้อยรวม",
   "summary": [
-   "Empyema: หนอง · Gram/ culture บวก · pH &lt; 7.2 · glucose &lt; 60 · LDH &gt; 1,000",
-   "Stage: exudative → fibrinopurulent → organizing",
-   "รักษา: ATB + ICD ± fibrinolytic (tPA/ DNase)",
-   "Loculated/ ไม่ดีขึ้น → VATS decortication",
-   "Lung abscess: air-fluid level ในเนื้อปอด",
-   "CT แยก abscess (ผนังหนา มุมแหลมกับผนังอก) กับ empyema (split pleura sign)"
+   "Empyema = frank pus หรือ Gram stain/ culture บวกในช่องเยื่อหุ้มปอด · สาเหตุหลักคือ parapneumonic (~2/3) รองลงมาหลังผ่าตัดทรวงอก บาดเจ็บ esophageal perforation",
+   "ATS 3 ระยะ: exudative (2–5 วัน น้ำใส) → fibrinopurulent (5–10 วัน loculation) → organizing (2–4 สัปดาห์ peel หนา trapped lung)",
+   "เกณฑ์ว่าต้องระบาย (complicated parapneumonic): pH &lt; 7.2, glucose &lt; 60 mg/dL, LDH &gt; 1,000 IU/L, Gram stain/ culture บวก, loculation, น้ำมากกว่าครึ่งทรวงอก",
+   "Light criteria แยก exudate: protein น้ำ/ซีรั่ม &gt; 0.5, LDH น้ำ/ซีรั่ม &gt; 0.6 หรือ LDH น้ำ &gt; 2/3 ของค่าบนปกติในซีรั่ม",
+   "รักษา: ยาปฏิชีวนะครอบ anaerobe + ICD · loculated → intrapleural tPA + DNase (MIST-2) · ไม่ดีขึ้นหรือระยะ organizing → VATS/ open decortication",
+   "CT: empyema รูปเลนส์ ดันปอด มี split pleura sign · lung abscess โพรงกลมผนังหนามี air-fluid level มุมแหลมกับผนังทรวงอก",
+   "Empyema เรื้อรังที่ผ่าตัดไม่ได้ → open drainage (Eloesser flap) · empyema ที่ทะลุผนังทรวงอกเอง = empyema necessitans"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Empyema = Pus + pH ต่ำ + Gram บวก · Air-fluid level = Abscess'</b>",
-  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1)",
+  "opinion": "เห็นด้วยกับคีย์ E (ไฟล์ขีด E ติ๊ก C และ D) มั่นใจสูง — Gram stain บวกเป็นนิยามของ empyema และ pH ต่ำเป็นลักษณะเด่น · ข้อสังเกต: ตัวเลข pH ในโจทย์ใช้ &lt; 7 ซึ่งต่ำกว่าเกณฑ์ระบาย &lt; 7.2 แต่ยังถูก · ไฟล์เดิมเขียน D ว่า gram-positive organism เว็บปรับเป็น organisms ทั่วไปเพราะเชื้อ gram-negative หรือ anaerobe ก็ทำให้เกิดได้",
+  "mnemonic": "<b>'Empyema = Pus · pH ต่ำ · Positive Gram (3P)'</b>",
+  "guide": "Shen KR et al. AATS expert consensus guidelines for the management of empyema (J Thorac Cardiovasc Surg 2017); BTS Guideline for pleural disease (Thorax 2023)",
   "variants": [
-   "น้ำในเยื่อหุ้มปอด pH 6.9 Gram stain พบเชื้อ → empyema → ICD",
-   "CXR โพรงในเนื้อปอดมี air-fluid level หลังสำลัก → lung abscess",
-   "CT พบ split pleura sign → empyema"
+   "ปอดอักเสบ 5 วัน เจาะน้ำได้น้ำใส pH 7.1 glucose 40 Gram stain ลบ → complicated parapneumonic effusion ใส่ ICD",
+   "ใส่ ICD แล้ว CT ยังมีน้ำเป็นช่อง ๆ หลายช่อง → intrapleural tPA + DNase หรือ VATS",
+   "ปอดอักเสบ 4 สัปดาห์ CT มี pleura หนารอบปอดที่แฟบ หายใจหอบ → VATS/ open decortication",
+   "ทำไม air-fluid level ในเนื้อปอดไม่ใช่ empyema → เป็นโพรงหนองในเนื้อปอด (lung abscess) ที่ติดต่อกับหลอดลม"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 103–104 — หัวข้อ CVT · ตัวพิมพ์: <b>55. ข้อใดถูกต้องเกี่ยวกับ Empyema — A. Cloudy pleura fluid B. Air-fluid level C. Fluid pH &lt; 7 D. Gram positive organism in gram stain E. C &amp; D</b><br>ลายมือ: B \"→ lung abscess\" · C ✓ · D ✓ · ขีด E<br>ไฮไลต์: \"ถูกต้องเกี่ยวกับ Empyema\" · C \"Fluid pH &lt; 7\" · D \"Gram positive organism in gram stain\" (เหลือง)<br>ที่ปรับในเว็บ: D เขียนเป็น \"Organisms seen on Gram stain\"",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 103",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU67|RoA|56": {
-  "interp": "<b>Lung abscess ไม่มีภาวะแทรกซ้อน</b> ระยะแรก นอกจากยาปฏิชีวนะ ควรทำอะไรเพิ่ม",
-  "why": "Lung abscess ส่วนใหญ่ (~80–90%) หายด้วย<b>ยาปฏิชีวนะนาน (ครอบคลุม anaerobe)</b> ร่วมกับ<b>ระบายหนองทางหลอดลมตามธรรมชาติ</b> → <b>postural drainage + chest physiotherapy</b> ช่วยให้หนองไหลออกทางหลอดลม (ไม่ต้องหัตถการ) · หัตถการ (เจาะระบาย/ ผ่าตัด) เก็บไว้เมื่อไม่ตอบสนอง · ไฟล์ขีด A",
+  "interp": "Lung abscess ที่ไม่มีภาวะแทรกซ้อน ระยะแรก ถามว่านอกจากยาปฏิชีวนะควรทำอะไรเพิ่ม — หลักคือ abscess ส่วนใหญ่ระบายเองผ่านหลอดลม จึงช่วยการระบายด้วยท่าและกายภาพทรวงอก ไม่ใช่หัตถการรุกล้ำ",
+  "why": "<b>Lung abscess</b> คือโพรงหนอง &gt; 2 cm ในเนื้อปอดจากเนื้อปอดตาย ส่วนใหญ่เกิดจาก<b>สำลัก (aspiration)</b> เชื้อ anaerobe ในช่องปาก · <b>80–90% หายด้วยการรักษาทางยา</b>: ยาครอบ anaerobe (<b>clindamycin</b> หรือ <b>ampicillin-sulbactam</b>/ amoxicillin-clavulanate) นาน <b>4–6 สัปดาห์</b> หรือจนภาพรังสีดีขึ้นชัด ร่วมกับ<b>ช่วยให้หนองระบายผ่านหลอดลม</b>ด้วย <b>postural drainage และ chest physiotherapy</b> (จัดท่าให้ segment ที่เป็นอยู่สูงกว่าหลอดลมใหญ่ เคาะ สั่นสะเทือน ไอขับ) · bronchoscopy ใช้เพื่อเอาสิ่งแปลกปลอมหรือแยกมะเร็งที่อุดหลอดลม · <b>หัตถการรุกล้ำ</b>สงวนไว้เมื่อไม่ดีขึ้น: percutaneous CT-guided drainage (abscess ติดผนังทรวงอก ผู้ป่วยผ่าตัดไม่ได้) และ lobectomy ในกรณีล้มเหลว · ตรงคีย์ A — ไฟล์ขีด A และไฮไลต์คำ \"<b>ที่ไม่มีภาวะแทรกซ้อน ในระยะแรก</b>\"",
   "wrong": {
-   "B": "ICD ใช้กับ empyema/ pneumothorax ในช่องเยื่อหุ้มปอด ไม่ใช่โพรงในเนื้อปอด (เสี่ยง BPF) · จะถูกถ้า abscess แตกเข้าช่องเยื่อหุ้มปอดเกิด pyopneumothorax",
-   "C": "Lobectomy ใช้เมื่อไม่ตอบสนองยา/ massive hemoptysis/ สงสัยมะเร็ง · จะถูกถ้าคำถามถาม abscess ที่ไม่ยุบหลังยา 6 สัปดาห์หรือไอเป็นเลือดมาก",
-   "D": "เจาะดูด/ percutaneous drainage ใช้เมื่อไม่ตอบสนองยาหรือก้อนใหญ่ (&gt; 6–8 cm) · จะถูกถ้าคำถามถาม abscess ใหญ่ที่ยังมีไข้หลังยา 1–2 สัปดาห์",
-   "E": "Bronchial stent ไม่ใช่การรักษา abscess (ใช้กับหลอดลมตีบ/ ถูกกดจากเนื้องอก) · จะถูกถ้าคำถามถามมะเร็งกดหลอดลมใหญ่จนปอดแฟบ"
+   "B": "ICD คือการใส่สายระบายช่องเยื่อหุ้มปอด แต่หนองของ lung abscess อยู่<b>ในเนื้อปอด</b> ไม่ใช่ในช่องเยื่อหุ้มปอด การแทงสายผ่านเนื้อปอดเสี่ยงเกิด bronchopleural fistula และปนเปื้อนช่องเยื่อหุ้มปอด · จะถูกถ้าเป็นชาย 50 ปี lung abscess แตกเข้าช่องเยื่อหุ้มปอด หอบเหนื่อยเฉียบพลัน ภาพรังสีมี hydropneumothorax (pyopneumothorax) ต้องใส่ ICD ทันที",
+   "C": "Lobectomy เป็นการรักษาที่ได้ผลแน่นอนแต่รุกล้ำมาก ใช้เมื่อ<b>ยาไม่ได้ผล</b> โพรงใหญ่มาก (&gt; 6 cm) สงสัยมะเร็ง หรือไอเป็นเลือดปริมาณมาก ไม่ใช่ระยะแรกที่ไม่มีภาวะแทรกซ้อน · จะถูกถ้าเป็นชาย 65 ปี สูบบุหรี่ lung abscess ได้ยาครบ 6 สัปดาห์แล้วโพรงไม่ยุบ ผนังหนาไม่เรียบ bronchoscopy สงสัยมะเร็งที่อุดหลอดลม",
+   "D": "Percutaneous aspiration/ drainage ทำได้ภายใต้ CT แต่เป็น<b>ทางเลือกรองเมื่อยาและ postural drainage ไม่ได้ผล</b> ในผู้ป่วยที่ผ่าตัดไม่ได้ เพราะเสี่ยง pneumothorax เลือดออก และ BPF · จะถูกถ้าเป็นหญิง 70 ปีโรคหัวใจรุนแรง lung abscess ขนาด 7 cm ติดผนังทรวงอก ได้ยา 2 สัปดาห์ยังมีไข้ และผ่าตัดไม่ได้",
+   "E": "Bronchial stent ใช้ค้ำหลอดลมที่ตีบจากมะเร็งหรือหลอดลมถูกกดจากภายนอก ไม่มีบทบาทใน lung abscess ทั่วไป · การอุดหลอดลมที่เป็นสาเหตุ abscess ให้แก้ที่ต้นเหตุด้วย bronchoscopy · จะถูกถ้าเป็นชาย 68 ปี มะเร็งปอดก้อนใหญ่กดหลอดลมใหญ่ซ้ายตีบ ปอดซ้ายแฟบ มี post-obstructive pneumonia และต้องการเปิดหลอดลมระหว่างรอรังสีรักษา"
   },
-  "trap": "รีบเจาะหรือใส่ท่อระบาย — abscess ที่ไม่มีภาวะแทรกซ้อนใช้ยา + ระบายตามธรรมชาติ",
+  "trap": "คนที่ได้ยินคำว่า \"abscess\" มักคิดว่า \"หนองต้องระบาย\" แล้วเลือก aspiration หรือ ICD — แต่ lung abscess ระบายเองผ่านหลอดลมได้อยู่แล้ว จึงช่วยด้วยท่าและกายภาพ · ICD ใช้เมื่อหนองอยู่ในช่องเยื่อหุ้มปอด ไม่ใช่ในเนื้อปอด",
   "summary": [
-   "Lung abscess: aspiration → anaerobe/ polymicrobial",
-   "ตำแหน่ง: posterior segment RUL · superior segment RLL",
-   "รักษา: ATB 4–6 สัปดาห์ + postural drainage/ physiotherapy",
-   "ไม่ตอบสนอง → percutaneous/ endoscopic drainage",
-   "ผ่าตัด: ไม่ตอบสนอง · massive hemoptysis · สงสัยมะเร็ง · BPF/ empyema",
-   "แยกมะเร็งที่เป็นโพรง (ผนังหนาขรุขระ) โดยเฉพาะผู้สูบบุหรี่"
+   "Lung abscess = โพรงหนอง &gt; 2 cm ในเนื้อปอด · primary ส่วนใหญ่จาก aspiration (สุรา ชัก ยาสลบ ฟันผุ กลืนลำบาก) · secondary จากหลอดลมอุด ภูมิคุ้มกันต่ำ septic emboli",
+   "ตำแหน่ง: นอนหงาย → posterior segment ของ upper lobe และ superior segment ของ lower lobe · นั่ง/ยืน → basal segment · ขวาบ่อยกว่าเพราะหลอดลมขวาตรงกว่า",
+   "เชื้อ: anaerobe ในช่องปาก (Peptostreptococcus, Prevotella, Fusobacterium, Bacteroides) ร่วม aerobe · Klebsiella, S. aureus ใน nosocomial",
+   "ยา: clindamycin หรือ beta-lactam/ beta-lactamase inhibitor 4–6 สัปดาห์ (หรือจนภาพรังสีดีขึ้นชัด) + postural drainage + chest physiotherapy · หายทางยา 80–90%",
+   "Bronchoscopy: เอาสิ่งแปลกปลอม แยกมะเร็ง (โดยเฉพาะผู้สูบบุหรี่ &gt; 45 ปี ไม่มีปัจจัยสำลัก)",
+   "ล้มเหลวทางยา → percutaneous CT-guided drainage (ผ่าตัดไม่ได้) หรือ lobectomy",
+   "ภาวะแทรกซ้อน: แตกเข้าช่องเยื่อหุ้มปอด (pyopneumothorax → ICD), massive hemoptysis, BPF, แพร่ไปสมอง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Abscess: Antibiotic + Ambulate (posture/ physio) ก่อน · Aspirate/ Ablate ทีหลัง'</b>",
-  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess; Sabiston Textbook of Surgery 21st ed. (2022)",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A) มั่นใจสูง — คำว่า \"ไม่มีภาวะแทรกซ้อน ในระยะแรก\" ที่ไฟล์ไฮไลต์ชี้ไปการรักษาประคับประคองให้ระบายผ่านหลอดลม · ข้อสังเกต: ตำราบางเล่มบอกว่าหลักฐานสนับสนุน postural drainage ไม่แข็ง และในผู้ป่วยที่มีหนองมากต้องระวังหนองไหลไปปอดอีกข้าง แต่ในตำราศัลยศาสตร์ยังเป็นการรักษาร่วมมาตรฐาน",
+  "mnemonic": "<b>'Abscess ในปอด ระบายทางหลอดลม — ยา + ท่า + เคาะ'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) ch. Lung (Infectious diseases); Kuhajda I et al. Lung abscess — etiology, diagnostic and treatment options (Ann Transl Med 2015)",
   "variants": [
-   "หลังเมาสุราสำลัก ไข้ เสมหะเหม็น โพรงที่ RLL → ATB + postural drainage",
-   "abscess 9 cm ไข้ไม่ลงหลัง ATB 2 สัปดาห์ → percutaneous drainage",
-   "abscess + ไอเป็นเลือด 300 mL/ วัน → lobectomy"
+   "ชายติดสุรา lung abscess 4 cm ได้ clindamycin 3 สัปดาห์ไข้ลง โพรงเล็กลง → ให้ยาต่อจนครบและภาพรังสีดีขึ้น",
+   "Lung abscess แตก มีหอบเฉียบพลัน CXR hydropneumothorax → ICD ทันที",
+   "ชาย 60 ปีสูบบุหรี่ ไม่มีประวัติสำลัก มีโพรงในปอดผนังหนา → bronchoscopy หามะเร็ง",
+   "ทำไมยา lung abscess ต้องให้นานกว่าปอดอักเสบทั่วไป → โพรงหนองยาเข้าถึงยากและหายช้า ต้อง 4–6 สัปดาห์"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 104 — ตัวพิมพ์: <b>56. ข้อใดเป็นสิ่งที่ควรทำเพิ่มเติมเพื่อรักษาผู้ป่วย lung abscess ที่ไม่มีภาวะแทรกซ้อน ในระยะแรก นอกจากการให้ยาปฏิชีวนะ — A. Postural drainage &amp; physiotherapy B. ICD C. Lobectomy D. Aspiration</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"ทำเพิ่มเติมเพื่อรักษาผู้ป่วย lung abscess ที่ไม่มีภาวะแทรกซ้อน ในระยะแรก\" \"นอกจากการให้ยา\" · A (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Bronchial stent insertion)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 104",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU67|RoA|57": {
-  "interp": "ถาม<b>ข้อบ่งชี้ผ่าตัด</b>ใน lung abscess",
-  "why": "ข้อบ่งชี้ผ่าตัด (lobectomy) ใน lung abscess: <b>ไม่ตอบสนองต่อยาปฏิชีวนะ</b> (ไข้ไม่ลง/ โพรงไม่ยุบหลังยาเหมาะสม ~2 สัปดาห์ขึ้นไป) · <b>massive hemoptysis</b> · สงสัยมะเร็ง · abscess ขนาดใหญ่มาก · ภาวะแทรกซ้อนที่ระบายไม่ได้ → A ถูกตามคีย์ · ไฟล์ขีด A ลายมือ B ขีดฆ่า \"Occasional\" เขียน <b>\"massive\"</b>",
+  "interp": "ถามข้อบ่งชี้ผ่าตัดใน lung abscess — ต้องรู้ว่าผ่าตัดเมื่อการรักษาทางยาล้มเหลว หรือมีภาวะแทรกซ้อนที่คุกคามชีวิต และแยกภาวะที่ใช้วิธีอื่นก่อน เช่น BPF ที่ระบายด้วย ICD ก่อน หรือฝีเล็กหลายก้อนที่ผ่าตัดไม่ได้",
+  "why": "Lung abscess <b>ส่วนใหญ่หายด้วยยา</b> การผ่าตัด (ส่วนมากคือ <b>lobectomy</b>) ทำในราว 10% ข้อบ่งชี้หลักคือ <b>ยาไม่ได้ผล</b> — ไข้ไม่ลงหรือโพรงไม่เล็กลงหลังให้ยาที่เหมาะสม <b>2 สัปดาห์</b> ขึ้นไป · ข้ออื่น: โพรงใหญ่ <b>&gt; 6 cm</b>, <b>สงสัยมะเร็ง</b>, <b>massive hemoptysis</b> (โดยทั่วไป &gt; 200–600 mL/วัน), เชื้อดื้อยา และ empyema/ BPF ที่ไม่หายหลังระบาย · ภาวะแทรกซ้อนอย่าง abscess แตกเข้าช่องเยื่อหุ้มปอดให้<b>ใส่ ICD ก่อน</b> ส่วนไอเป็นเลือดเล็กน้อยเป็นอาการทั่วไปของ abscess ไม่ใช่ข้อบ่งชี้ · ฝีเล็กหลายก้อนทั้งสองปอดในผู้ภูมิคุ้มกันต่ำ (เช่นจาก septic emboli) ผ่าตัดเอาออกทั้งหมดไม่ได้ ต้องรักษาด้วยยาและแก้ต้นเหตุ · ตรงคีย์ A — ไฟล์ขีด A และที่ช้อย B ขีดฆ่าคำว่า \"Occasional\" แล้วเขียน \"<b>massive</b>\"",
   "wrong": {
-   "B": "ไอเป็นเลือดเล็กน้อยเป็นครั้งคราวรักษาด้วยยา (ลายมือแก้ \"massive\") · จะถูกถ้าไอเป็นเลือดปริมาณมาก (massive hemoptysis)",
-   "C": "BPF จาก abscess แตกส่วนใหญ่รักษาด้วย ICD ระบายก่อน · จะถูกถ้า BPF เรื้อรังไม่ปิดหลังระบายเต็มที่",
-   "D": "Abscess เล็กหลายตำแหน่งสองข้าง (septic emboli/ ภูมิคุ้มกันต่ำ) ผ่าตัดไม่ได้ ใช้ยา · จะถูกถ้าคำถามถาม abscess ที่ต้องรักษาด้วยยาอย่างเดียว",
-   "E": "ไม่ใช่ทุกข้อ — B (เป็นครั้งคราว) และ D ไม่ใช่ข้อบ่งชี้ · จะถูกถ้า B เป็น massive hemoptysis และ D เป็นก้อนเดียวขนาดใหญ่"
+   "B": "ไอเป็นเลือดเล็กน้อยเป็นครั้งคราวพบบ่อยใน lung abscess จากผนังโพรงอักเสบ และหายเมื่อได้ยา จึง<b>ไม่ใช่</b>ข้อบ่งชี้ผ่าตัด — ที่ต้องผ่าคือ <b>massive hemoptysis</b> ตามที่ไฟล์แก้คำ · จะถูกถ้าเป็นชาย 55 ปี lung abscess ไอเป็นเลือดสด 400 mL ใน 24 ชม. ทำ bronchial artery embolization แล้วยังออกซ้ำ ต้องผ่าตัด lobectomy",
+   "C": "Bronchopleural fistula เกิดเมื่อ abscess แตกเข้าช่องเยื่อหุ้มปอด ทำให้เป็น pyopneumothorax ขั้นแรกคือ<b>ใส่ ICD ระบาย</b>และให้ยาต่อ หลายรายรูรั่วปิดเอง ผ่าตัดเมื่อรั่วไม่หยุด จึงไม่ใช่ข้อบ่งชี้ทันทีเหมือนช้อย A · จะถูกถ้าเป็นชาย 60 ปี lung abscess แตก ใส่ ICD 3 สัปดาห์ยังมีลมรั่วต่อเนื่องและ empyema ไม่หาย ต้องผ่าตัด decortication และปิด fistula",
+   "D": "ฝีเล็กหลายก้อนทั้งสองปอดในผู้ภูมิคุ้มกันต่ำ มักเกิดจากเชื้อกระจายทางเลือดหรือเชื้อรา ผ่าตัดเอาออกให้หมด<b>ทำไม่ได้</b>และเสี่ยงสูง ต้องรักษาด้วยยาตามเชื้อและแก้แหล่งติดเชื้อ · จะถูกถ้าเป็นชาย 45 ปีหลังปลูกถ่ายไต มี invasive aspergillosis ก้อนเดียวที่ lobe เดียว ยาต้านเชื้อราไม่ได้ผลและไอเป็นเลือดมาก จึงพิจารณาผ่าตัด",
+   "E": "ต้องถูกทุกข้อ แต่ B (ไอเป็นเลือดเล็กน้อย) และ D (ฝีเล็กหลายก้อนสองข้าง) ไม่ใช่ข้อบ่งชี้ และ C ต้องระบายก่อน · จะถูกถ้าเป็นชุดข้อบ่งชี้ของชาย 58 ปี lung abscess ที่ยาไม่ได้ผล 3 สัปดาห์ ร่วมกับไอเป็นเลือดมากกว่า 500 mL ต่อวัน และ BPF ที่ใส่ ICD แล้วไม่ปิด ซึ่งทุกข้อเป็นเหตุให้ผ่าตัด"
   },
-  "trap": "ไอเป็นเลือดทุกระดับต้องผ่าตัด — ต้องเป็น massive",
+  "trap": "คำว่า \"hemoptysis\" และ \"bronchopleural fistula\" ฟังดูรุนแรงจึงชวนเลือก E — ต้องดูขนาด (occasional ≠ massive ตามที่ไฟล์แก้) และลำดับการรักษา (BPF ระบายด้วย ICD ก่อน) · ข้อบ่งชี้ที่ตรงที่สุดคือ<b>ยาไม่ได้ผล</b>",
   "summary": [
-   "ผ่าตัด: ไม่ตอบสนอง ATB · massive hemoptysis · สงสัยมะเร็ง",
-   "ก่อนผ่าตัด → พิจารณา percutaneous/ endoscopic drainage",
-   "Multiple/ bilateral abscess → ยา",
-   "BPF/ empyema → ICD ก่อน",
-   "Double-lumen tube ป้องกันหนองไหลไปปอดอีกข้าง",
-   "Bronchoscopy: แยกสิ่งแปลกปลอม/ มะเร็งอุดหลอดลม"
+   "Lung abscess หายด้วยยา + postural drainage 80–90% · ผ่าตัดราว 10% ส่วนใหญ่เป็น lobectomy (segmentectomy ถ้าโพรงเล็ก)",
+   "ข้อบ่งชี้ผ่าตัด: ยาไม่ได้ผล (มักนับ 2–3 สัปดาห์ขึ้นไป), โพรง &gt; 6 cm, สงสัยมะเร็ง, massive hemoptysis, BPF/ empyema ที่ไม่หายหลังระบาย, เชื้อดื้อยา",
+   "ปัจจัยพยากรณ์ไม่ดี: โพรงใหญ่ อายุมาก ภูมิคุ้มกันต่ำ หลอดลมอุด เชื้อ aerobe (Klebsiella, S. aureus, Pseudomonas)",
+   "Massive hemoptysis: นอนตะแคงข้างที่เป็นลง ใส่ท่อช่วยหายใจ (แยกปอด) → bronchial artery embolization → ผ่าตัดถ้าไม่หยุด",
+   "Abscess แตกเข้าช่องเยื่อหุ้มปอด → pyopneumothorax → ICD ทันที ± decortication ภายหลัง",
+   "ผู้ป่วยผ่าตัดไม่ได้และยาไม่ได้ผล → percutaneous CT-guided drainage (สำเร็จราว 80–90%)",
+   "ระหว่างผ่าตัดต้องกันหนองไหลไปปอดอีกข้าง: double-lumen tube และ clamp หลอดลมก่อนจัดการเนื้อปอด"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'ผ่า abscess: ยาไม่ได้ผล · เลือดออกมาก · มะเร็ง'</b>",
-  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A แก้ B เป็น massive) มั่นใจปานกลางถึงสูง — ยาไม่ได้ผลเป็นข้อบ่งชี้คลาสสิก · ข้อที่ถกได้คือ C: ตำราศัลย์บางเล่มนับ BPF/ empyema เป็นภาวะแทรกซ้อนที่อาจต้องผ่าตัด แต่ขั้นแรกคือระบาย ICD จึงไม่ใช่ข้อบ่งชี้โดยตรง ทำให้ไม่เลือก E · ระยะเวลา \"2 สัปดาห์\" แต่ละตำราใช้ 2–8 สัปดาห์",
+  "mnemonic": "<b>'ผ่าปอดฝีเมื่อ Fail–Big–Bleed–Cancer (ยาไม่ได้ผล · &gt; 6 cm · เลือดออกมาก · สงสัยมะเร็ง)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) ch. Lung; Shields General Thoracic Surgery 8th ed. (2019) ch. Lung abscess",
   "variants": [
-   "abscess ไม่ยุบหลัง ATB 3 สัปดาห์ ไข้ยังสูง → ผ่าตัด/ drainage",
-   "abscess + massive hemoptysis → lobectomy (หลังคุมทางเดินหายใจ)",
-   "ผู้ใช้ยาเสพติดฉีด abscess เล็กหลายจุดสองปอด → ATB (หา endocarditis)"
+   "Lung abscess ได้ยา 3 สัปดาห์ยังมีไข้ โพรงขยายเป็น 7 cm → lobectomy",
+   "Lung abscess ไอเลือดสด 600 mL ต่อวัน → ใส่ท่อช่วยหายใจ นอนตะแคงข้างที่เป็นลง แล้ว bronchial artery embolization",
+   "ผู้ป่วย COPD รุนแรงผ่าตัดไม่ได้ ยาไม่ได้ผล abscess ติดผนังทรวงอก → percutaneous CT-guided drainage",
+   "ผู้ฉีดยาเข้าเส้นมีฝีเล็กหลายก้อนรอบนอกทั้งสองปอดจาก tricuspid endocarditis → ยาปฏิชีวนะตามเชื้อ ± ผ่าตัดลิ้นหัวใจ ไม่ผ่าปอด"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 104 — ตัวพิมพ์: <b>57. Which is/are the indication(s) for surgery in lung abscess? — A. Poor response to ATB after 2 weeks B. Occasional hemoptysis C. Bronchopleural fistula D. Multiple small abscess in bilateral lung in immunocompromised host E. All of above</b><br>ลายมือ: ขีด A · B ขีดฆ่า \"Occasional\" + \"massive\"<br>ไฮไลต์: \"indication(s) for surgery in lung abscess\" · A (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 104",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU67|RoA|58": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>lung abscess</b>",
-  "why": "Lung abscess ส่วนใหญ่เกิดจาก<b>การสำลัก (aspiration)</b> → ตำแหน่งที่พบบ่อยคือ segment ที่อยู่ต่ำเมื่อนอนหงาย: <b>superior segment ของ lower lobe</b> และ <b>posterior segment ของ upper lobe</b> ข้าง<b>ขวา</b> (หลอดลมขวาตรงกว่า) → B ถูก · เชื้อหลักคือ <b>anaerobe</b>/ หลายเชื้อ · ไอเป็นเลือดและเสมหะเหม็นพบบ่อย · ไฟล์ขีด B ลายมือ <b>\"2nd\"</b> เหนือ posterior upper · <b>\"1st\"</b> เหนือ superior lower lobe · <b>\"∵ … ท่า supine\"</b> · A แก้ <b>\"aspiration\"</b> · C ขีดฆ่า \"un\" · D แก้ <b>\"anaerobe\"</b>",
+  "interp": "ถามข้อความที่ถูกเกี่ยวกับ lung abscess — ต้องรู้กลไกหลัก (aspiration) ตำแหน่งที่พบบ่อยตามท่าผู้ป่วย อาการเด่น (เสมหะเหม็น ไอเลือด) และเชื้อก่อโรคหลัก (anaerobe ในช่องปาก)",
+  "why": "<b>Lung abscess ปฐมภูมิเกิดจากการสำลัก (aspiration)</b> เชื้อในช่องปากเข้าหลอดลมขณะสติลดลง (สุรา ชัก ยาสลบ โรคหลอดเลือดสมอง) หรือมีฟันผุ เหงือกอักเสบ · ตำแหน่งขึ้นกับแรงโน้มถ่วงขณะสำลัก: ท่า<b>นอนหงาย</b>เข้า <b>posterior segment ของ upper lobe</b> และ <b>superior segment ของ lower lobe</b> · <b>ปอดขวาบ่อยกว่า</b>เพราะ right main bronchus กว้าง สั้น และตั้งตรงกว่า · อาการ: ไข้ ไอ <b>เสมหะเหม็นเน่า</b> (anaerobe) ไอเป็นเลือดพบบ่อย น้ำหนักลด · เชื้อหลักคือ <b>anaerobe</b> (Peptostreptococcus, Prevotella, Fusobacterium, Bacteroides) มัก polymicrobial · S. aureus และ Klebsiella พบใน nosocomial หรือหลังไข้หวัดใหญ่ · hematogenous seeding (septic emboli) ทำให้เกิดฝีหลายก้อนรอบนอก พบน้อยกว่า · ตรงคีย์ B — ไฟล์ขีด B เขียน \"<b>2nd</b>\" เหนือ upper และ \"<b>1st</b>\" เหนือ superior พร้อมลายมือ \"<b>ท่า supine</b>\" แก้ A เป็น \"<b>aspiration</b>\" ขีดฆ่า \"un\" ที่ C และแก้ D เป็น \"<b>anaerobe</b>\"",
   "wrong": {
-   "A": "กลไกหลักคือ aspiration (ลายมือแก้) · จะถูกถ้าคำถามถาม abscess หลายจุดจาก septic emboli (IVDU, endocarditis ด้านขวา)",
-   "C": "ไอเป็นเลือดและเสมหะเหม็นพบบ่อย (ลายมือขีด un) · จะถูกถ้าคำถามถามอาการที่ไม่ใช่ลักษณะเด่น",
-   "D": "เชื้อหลักคือ anaerobe (ลายมือแก้) · จะถูกถ้าคำถามถาม abscess หลังไข้หวัดใหญ่/ IVDU หรือ necrotizing pneumonia",
-   "E": "มี B ที่ถูก · จะถูกถ้าทุกข้อผิด"
+   "A": "Hematogenous seeding เกิดได้จาก septic emboli เช่น tricuspid endocarditis ในผู้ฉีดยาเข้าเส้น หรือ septic thrombophlebitis แต่<b>ไม่ใช่กลไกหลัก</b> กลไกส่วนใหญ่คือ aspiration ตามที่ไฟล์แก้ · จะถูกถ้าเป็นชาย 28 ปีฉีดเฮโรอีนเข้าเส้น มีไข้สูง tricuspid vegetation และ CT พบก้อนกลมมีโพรงเล็กหลายก้อนที่รอบนอกปอดทั้งสองข้าง",
+   "C": "ไอเป็นเลือดและเสมหะเหม็นเน่าเป็นอาการ<b>ที่พบบ่อย</b> (ไฟล์ขีดฆ่าคำว่า \"un\") เสมหะเหม็นบ่งชี้เชื้อ anaerobe และพบราวครึ่งหนึ่งของผู้ป่วย · จะถูกถ้าเป็นชาย 70 ปีหลังปลูกถ่ายไขกระดูก มี nocardia หรือเชื้อราในปอดเป็นโพรง ไม่มีเสมหะเหม็นและไม่ไอเป็นเลือด เพราะเชื้อไม่ใช่ anaerobe",
+   "D": "S. aureus ทำให้เกิด lung abscess ได้ (necrotizing pneumonia หลังไข้หวัดใหญ่ ผู้ป่วยใน ICU ผู้ฉีดยาเข้าเส้น) แต่<b>เชื้อหลักคือ anaerobe</b> ในช่องปาก ตามที่ไฟล์แก้ · จะถูกถ้าเป็นเด็กชาย 10 ปี หลังไข้หวัดใหญ่ 1 สัปดาห์ มีปอดอักเสบรุนแรงเป็นโพรงหลายโพรงและ pneumatocele เพาะเชื้อได้ MRSA",
+   "E": "ผิดเพราะ B เป็นข้อความจริง ตำแหน่ง posterior segment ของ upper lobe และ superior segment ของ lower lobe ขวาเป็นตำแหน่งที่พบบ่อยที่สุดของ aspiration · จะถูกถ้าเป็นผู้ป่วยที่สำลักในท่ายืนหรือนั่ง เช่นหญิง 80 ปีกลืนลำบากจากโรคหลอดเลือดสมองที่สำลักขณะนั่งกินข้าว ฝีอยู่ที่ basal segment ของ lower lobe ซึ่งไม่ตรงกับข้อความ B"
   },
-  "trap": "เชื่อว่า Staphylococcus เป็นเชื้อหลัก — lung abscess ทั่วไปมาจากสำลัก → anaerobe",
+  "trap": "ชื่อ Staphylococcus ชวนเลือกเพราะเป็นเชื้อหนองที่คุ้นที่สุด และ hematogenous ฟังดูเป็นกลไก abscess ทั่วไป — lung abscess ส่วนใหญ่มาจาก<b>สำลักเชื้อ anaerobe ในช่องปาก</b> จึงมีเสมหะเหม็น และอยู่ในตำแหน่งที่ต่ำสุดตามท่าขณะสำลัก",
   "summary": [
-   "Lung abscess: aspiration (เมาสุรา ชัก ฟันผุ กลืนลำบาก)",
-   "ตำแหน่ง: RLL superior (1st) · RUL posterior (2nd) — ท่านอนหงาย",
-   "เชื้อ: anaerobe/ polymicrobial",
-   "อาการ: ไข้ ไอ เสมหะเหม็น ไอเป็นเลือด",
-   "CXR: โพรง + air-fluid level",
-   "ยา: ampicillin-sulbactam หรือ clindamycin 4–6 สัปดาห์"
+   "Primary lung abscess = aspiration + เชื้อ anaerobe ในช่องปาก · ปัจจัย: สุรา ชัก ยาสลบ stroke กลืนลำบาก ฟันผุ GERD",
+   "ตำแหน่งตามท่า: นอนหงาย → posterior segment upper lobe และ superior segment lower lobe · ยืน/นั่ง → basal segment lower lobe · ขวา &gt; ซ้าย",
+   "Secondary: หลอดลมอุด (มะเร็ง สิ่งแปลกปลอม) ภูมิคุ้มกันต่ำ septic emboli (ฝีหลายก้อนรอบนอก) ติดเชื้อลามจาก subphrenic",
+   "อาการ: ไข้ ไอ เสมหะเหม็นมาก ไอเป็นเลือด น้ำหนักลด มักค่อยเป็น 1–2 สัปดาห์ขึ้นไป · เล็บปุ้มในรายเรื้อรัง",
+   "CXR/ CT: โพรงผนังหนามี air-fluid level มุมแหลมกับผนังทรวงอก · แยกจาก empyema ที่มีรูปเลนส์ split pleura sign",
+   "เชื้อ: Peptostreptococcus, Prevotella, Fusobacterium, Bacteroides · aerobe: S. aureus, Klebsiella (ติดสุรา), Pseudomonas",
+   "รักษา: clindamycin หรือ ampicillin-sulbactam 4–6 สัปดาห์ + postural drainage · ผ่าตัดเมื่อยาไม่ได้ผล &gt; 6 cm สงสัยมะเร็ง massive hemoptysis"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'สำลัก → ขวา ล่าง (superior) → anaerobe · เหม็น'</b>",
-  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess; Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases 9th ed. (2020)",
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ขีด B) มั่นใจสูง — ลายมือในไฟล์ระบุ \"1st\" superior segment ของ lower lobe และ \"2nd\" posterior segment ของ upper lobe ในท่านอนหงาย และแก้ข้อความ A, C, D ให้ถูก ซึ่งยืนยันว่า B เป็นข้อเดียวที่ถูก · เว็บเพิ่มช้อย E (None of the above) เพื่อให้ครบ 5 ตัวเลือก และไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'สำลักตอนนอน — ขวา · หลังบน · บนล่าง (posterior upper + superior lower)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) ch. Lung; Kuhajda I et al. Lung abscess — etiology, diagnostic and treatment options (Ann Transl Med 2015)",
   "variants": [
-   "ผู้ติดสุราไข้ เสมหะเหม็น โพรงที่ superior segment RLL → aspiration lung abscess",
-   "ผู้ใช้ยาฉีด abscess หลายจุดสองข้าง → septic emboli (S. aureus)",
-   "สำลักในท่ายืน → basal segments ของ lower lobe"
+   "ชายติดสุราเมาหลับ 2 สัปดาห์ต่อมาไอเสมหะเหม็นมาก CXR โพรงที่ superior segment right lower lobe → lung abscess จาก aspiration",
+   "ผู้สูงอายุกลืนลำบากสำลักขณะนั่ง → abscess ที่ basal segment ของ lower lobe",
+   "ผู้ฉีดยาเข้าเส้นมีฝีเล็กหลายก้อนรอบนอกทั้งสองปอด → septic emboli จาก tricuspid endocarditis",
+   "ทำไมเสมหะเหม็นเน่าบ่งชี้เชื้อ anaerobe → anaerobe สร้างกรดไขมันระเหยและสารซัลเฟอร์ที่มีกลิ่น"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 104 — ตัวพิมพ์: <b>58. What is/are true about lung abscess? — A. Hematologic seeding is a common mechanism B. Posterior upper love and superior lower lobe of right lung are the most common site C. Hemoptysis and foul smell sputum are uncommon D. Staphylococcus is a common pathogen</b><br>ลายมือ: A ขีดฆ่า \"Hematologic seeding\" + \"aspiration\" · ขีด B + \"2nd\" เหนือ upper · \"1st\" เหนือ superior · \"∵ … ท่า supine\" ใต้ \"and\" (อ่านไม่ชัดบางคำ) · C ขีดฆ่า \"un\" · D ขีดฆ่า \"Staphylococcus\" + \"anaerobe\"<br>ไฮไลต์: \"true about lung abscess\" · B \"Posterior upper love\" \"superior lower lobe of right lung\" \"most common site\" (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (None of the above statements is true)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 104",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU67|RoA|59": {
-  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>acute mediastinitis</b>",
-  "why": "Acute mediastinitis เป็นภาวะรุนแรง อัตราตายสูง ต้อง<b>รักษาเชิงรุก (aggressive)</b>: ยาปฏิชีวนะ <b>ร่วมกับระบายหนอง (drainage) และตัดเนื้อตาย (debridement)</b> และจัดการต้นเหตุ → ให้ยาอย่างเดียว<b>ไม่พอ</b> = ข้อ A ผิด · สาเหตุ: หลังผ่าตัดผ่ากระดูกอก (S. aureus รวม MRSA), descending necrotizing mediastinitis จากการติดเชื้อช่องปาก/ คอ (Ludwig's angina, ฟัน), หลอดอาหารทะลุ · ไฟล์ขีด A ขีดฆ่าคำว่า \"เพียงพอ\" · B ลายมือ <b>\"= MRSA ✓\"</b> และแปะสไลด์ <b>Treatment: Aggressive treatment · Antibiotic · Drainage · Debridement · Origin of infection management</b>",
+  "interp": "ถามข้อความที่ผิดเกี่ยวกับ acute mediastinitis — ต้องรู้หลักการรักษา (ยาอย่างเดียวไม่พอ ต้องระบายและตัดเนื้อตาย) และสาเหตุหลักสามกลุ่ม: หลังผ่า sternotomy, descending necrotizing จากคอ และ esophageal perforation",
+  "why": "<b>Acute mediastinitis เป็นการติดเชื้อรุนแรง อัตราตายสูง (ราว 20–40%)</b> หลักการรักษาคือ <b>aggressive treatment</b>: <b>ยาปฏิชีวนะ + ระบายหนองและตัดเนื้อตาย (drainage + debridement) + แก้แหล่งติดเชื้อ</b> — ยาอย่างเดียวแทบไม่พอเพราะหนองและเนื้อตายใน mediastinum ยาเข้าไม่ถึง · สาเหตุ: (1) <b>post-sternotomy</b> (0.5–2% ของการผ่าตัดหัวใจ) เชื้อหลัก <b>S. aureus</b> รวม MRSA และ S. epidermidis รักษาด้วยเปิดแผล debride ± negative pressure wound therapy และปิดด้วย muscle flap (pectoralis, omentum) · (2) <b>descending necrotizing mediastinitis</b> จากการติดเชื้อช่องปากและคอหอย (ฟัน Ludwig angina peritonsillar abscess) ลามตาม fascial plane เช่น retropharyngeal/ danger space ลงทรวงอก ต้องระบายทั้งคอและทรวงอก · (3) <b>esophageal perforation</b> (Boerhaave, iatrogenic) · ข้อ A จึงผิด — ไฟล์ขีด A และขีดฆ่าคำ \"<b>เพียงพอ</b>\" แปะสไลด์ \"<b>Aggressive treatment ① Antibiotic ② Drainage + Debridement</b>\" และเขียนที่ B ว่า \"<b>= MRSA ✓</b>\"",
   "wrong": {
-   "B": "ถูก — S. aureus (รวม MRSA) และ coagulase-negative staph เป็นเชื้อหลักหลังผ่ากระดูกอก · จะถูกถ้าคำถามระบุเชื้อหลักเป็น anaerobe/ เชื้อในช่องปาก",
-   "C": "ถูก — DNM ลามจากช่องปาก/ คอลงตาม fascial planes · จะถูกถ้าคำถามบอกว่าลามจากช่องท้องเป็นหลัก",
-   "D": "ถูก — หลอดอาหารทะลุ (Boerhaave, หลังส่องกล้อง) เป็นสาเหตุสำคัญ · จะถูกถ้าคำถามระบุว่าหลอดอาหารทะลุไม่ทำให้ mediastinitis",
-   "E": "มีข้อผิดคือ A · จะถูกถ้าทุกข้อถูก"
+   "B": "ข้อความนี้จริง: mediastinitis หลังผ่าตัดผ่านกระดูกหน้าอกเกิดจากเชื้อที่ผิวหนัง เชื้อหลักคือ <b>S. aureus</b> (รวม MRSA ตามลายมือในไฟล์) และ coagulase-negative staphylococci ปัจจัยเสี่ยงคือเบาหวาน อ้วน ใช้ bilateral IMA · จะถูกถ้าเป็นชาย 50 ปีที่ mediastinitis เกิดจากหลอดอาหารทะลุหลังอาเจียนรุนแรง (Boerhaave) ซึ่งเชื้อเป็นเชื้อผสมในช่องปากและทางเดินอาหาร ไม่ใช่ S. aureus เป็นหลัก",
+   "C": "ข้อความนี้จริง: descending necrotizing mediastinitis เริ่มจาก<b>การติดเชื้อช่องปากและคอหอย</b> (ฟันกรามล่าง peritonsillar retropharyngeal abscess) ลามตามช่อง fascia ของคอลงทรวงอกด้วยแรงโน้มถ่วงและแรงดันลบในทรวงอก · จะถูกถ้าเป็นหญิง 65 ปีที่เกิด mediastinitis หลังผ่าตัดทางเบี่ยงหลอดเลือดหัวใจ ซึ่งต้นเหตุคือแผล sternotomy ไม่ใช่ช่องปาก",
+   "D": "ข้อความนี้จริง: esophageal perforation เป็นสาเหตุสำคัญ ทั้ง iatrogenic จากการส่องกล้องหรือขยายหลอดอาหาร (ราว 60%) Boerhaave หลังอาเจียน และสิ่งแปลกปลอม · ต้องผ่าตัดหรือใส่ stent ปิดรูและระบาย · จะถูกถ้าเป็นชาย 70 ปีที่ mediastinitis เกิดหลังผ่าตัดเปลี่ยนลิ้นหัวใจผ่าน sternotomy โดยหลอดอาหารปกติ ซึ่งไม่ใช่สาเหตุจากหลอดอาหารทะลุ",
+   "E": "ไม่ถูกเพราะมีข้อความที่ผิดจริงคือ A (ยาอย่างเดียวไม่พอ) ส่วน B, C, D เป็นข้อความจริงทั้งหมด · ช้อยนี้จะเป็นคำตอบเมื่อทุกข้อความถูก · จะถูกถ้าเป็นชาย 45 ปี mediastinitis ที่ข้อความ A เขียนว่า \"ต้องให้ยาร่วมกับระบายหนองและตัดเนื้อตาย\" ซึ่งทำให้ทุกข้อความเป็นจริง"
   },
-  "trap": "คิดว่าติดเชื้อให้ยาก็พอ — mediastinitis ต้องระบาย + ตัดเนื้อตาย",
+  "trap": "ข้อ B, C, D เป็นรายละเอียดเฉพาะที่ไม่คุ้น จึงชวนสงสัยว่าเป็นข้อผิด ส่วน A ฟังดูเหมือนการรักษาติดเชื้อทั่วไป — หลักจำคือการติดเชื้อในช่องปิดที่มีเนื้อตาย (mediastinum) ต้อง <b>source control</b> เสมอ ยาอย่างเดียวไม่พอ",
   "summary": [
-   "สาเหตุ: หลังผ่ากระดูกอก · DNM (ช่องปาก/ คอ) · หลอดอาหารทะลุ",
-   "Post-sternotomy: S. aureus/ MRSA · CoNS",
-   "DNM: polymicrobial (anaerobe + strep)",
-   "CT คอ + ทรวงอก: ของเหลว/ ลมใน mediastinum",
-   "รักษา: ATB + drainage + debridement + แก้ต้นเหตุ",
-   "แผลกระดูกอก: debridement ± NPWT · muscle flap"
+   "Acute mediastinitis: อัตราตาย 20–40% (DNM อาจสูงกว่านี้) · หลักรักษา: ยาปฏิชีวนะ + drainage/ debridement + แก้แหล่งติดเชื้อ",
+   "Post-sternotomy mediastinitis: 0.5–2% ของผ่าตัดหัวใจ · S. aureus/ MRSA, CoNS · เสี่ยง: เบาหวาน อ้วน COPD bilateral IMA ผ่าซ้ำ ใช้เวลานาน",
+   "Post-sternotomy: เปิดแผล debride เอาลวดและกระดูกตายออก → negative pressure wound therapy → ปิดด้วย pectoralis/ omental flap",
+   "Descending necrotizing mediastinitis: จากฟัน peritonsillar retropharyngeal Ludwig angina · ลามทาง retropharyngeal/ danger space (ลงถึง posterior mediastinum) · CT คอและทรวงอก",
+   "DNM ต้องระบายทั้งคอ (cervical drainage) และทรวงอก (VATS/ thoracotomy) เมื่อลามต่ำกว่า carina",
+   "Esophageal perforation: iatrogenic มากสุด · Boerhaave มักที่ผนังซ้ายส่วนล่าง · Mackler triad: อาเจียน เจ็บอก subcutaneous emphysema",
+   "Chronic (fibrosing) mediastinitis ต่างโรค: มักจาก histoplasmosis/ TB ทำให้ SVC อุดตัน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'Mediastinitis: ยา + ระบาย + ตัด + ต้นเหตุ (ยาอย่างเดียวไม่พอ)'</b>",
-  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Acute and chronic mediastinal infections; Sabiston Textbook of Surgery 21st ed. (2022)",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A ขีดฆ่า \"เพียงพอ\" และแปะสไลด์ aggressive treatment) มั่นใจสูง — การรักษาต้องระบายและตัดเนื้อตายร่วมเสมอ · ไฟล์เดิมมีแค่ช้อย A, B และ E ที่อ่านได้ (C, D เป็นจุด) เว็บเติม C และ D เป็นข้อความจริงเกี่ยวกับสาเหตุ จึงไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Mediastinitis = 3 ต้นเหตุ (Sternotomy · ช่องปากลงล่าง · หลอดอาหารทะลุ) · รักษา 3 อย่าง (ยา · ระบาย · debride)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) ch. The Mediastinum; Pastene B et al. Mediastinitis in the intensive care unit (Ann Intensive Care 2020)",
   "variants": [
-   "หลัง CABG 10 วัน แผลกระดูกอกแยก มีหนอง → debridement + ATB (MRSA)",
-   "ฟันกรามอักเสบ คอบวม ลามลงทรวงอก → DNM → cervical + mediastinal drainage",
-   "อาเจียนรุนแรง เจ็บอก ลมใต้ผิวหนัง → Boerhaave → ผ่าตัดซ่อม/ ระบาย"
+   "หลังผ่าตัด CABG 10 วัน แผลอกมีหนอง กระดูกหน้าอกขยับ ไข้สูง → เปิดแผล debride negative pressure wound therapy แล้วปิดด้วย muscle flap",
+   "ฟันกรามล่างผุเป็นฝี 5 วันต่อมาเจ็บคอ เจ็บอก CT มีลมและน้ำใน mediastinum → ระบายคอ + ทรวงอก + ยาครอบ anaerobe",
+   "อาเจียนหนักหลังดื่มสุรา เจ็บอกรุนแรง มีลมใต้ผิวหนังที่คอ → Boerhaave syndrome",
+   "ทำไม mediastinitis ยาอย่างเดียวไม่พอ → หนองและเนื้อตายในช่องปิดไม่มีเลือดไปเลี้ยง ยาเข้าไม่ถึง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 104 — ตัวพิมพ์: <b>59. ข้อใดต่อไปนี้ผิดเกี่ยวกับ Acute mediastinitis — A. Mediastinitis ส่วนใหญ่ให้ antibiotic เพียงอย่างเดียวก็เพียงพอต่อการรักษา B. เชื้อก่อโรคที่สำคัญใน Post mediansternotomy mediastinitis คือ Staphylococcus aureus C. . D. . E. None of above</b><br>ลายมือ: ขีด A + ขีดฆ่า \"เพียงพอ\" · B \"= MRSA ✓\"<br>ไฮไลต์: \"ผิด\" (ขีดเส้นใต้) \"เกี่ยวกับ Acute mediastinitis\" · A (เหลือง) · B (ส้ม)<br>รูปที่แปะ: สไลด์ Treatment — * Aggressive treatment (ลายมือชมพู) · ① Antibiotic · ② Drainage + Debridement (กรอบแดง วงเล็บ Sx) · Origin of infection management · ลายมือ \"infection control\"<br>ที่ปรับในเว็บ: เติมช้อย C (Descending necrotizing type arises from oropharynx) และ D (Esophageal perforation is a cause) ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 104",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU67|RoA|60": {
-  "interp": "หลัง <b>acute MI</b> มี<b>เสียง holosystolic murmur ใหม่</b> + <b>น้ำท่วมปอดเฉียบพลัน</b> echo พบ <b>flail mitral leaflet</b> → ถามสาเหตุ",
-  "why": "Murmur ใหม่หลัง MI + flail mitral leaflet + pulmonary edema เฉียบพลัน = <b>acute MR จาก papillary muscle rupture</b> (มัก posteromedial papillary muscle ซึ่งได้เลือดจาก RCA/ PDA เส้นเดียว ใน inferior MI ~2–7 วันหลัง MI) → ผ่าตัดด่วน (MVR) หลังประคองด้วย afterload reduction/ IABP · ไฟล์ไม่มีช้อย มีลายมือ <b>\"MR จาก ruptured papillary m.\"</b>",
+  "interp": "หลัง acute MI มี holosystolic murmur ใหม่ร่วมกับ acute pulmonary edema และ echo เห็น flail mitral leaflet — คือ acute severe MR จากกล้ามเนื้อ papillary ฉีกขาด ถามสาเหตุ ต้องแยกจากภาวะแทรกซ้อนเชิงกลอื่นหลัง MI",
+  "why": "<b>Mechanical complications หลัง MI</b> มักเกิด <b>2–7 วัน</b>หลัง infarction (ระยะที่เนื้อตายอ่อนนุ่มที่สุด) · <b>Papillary muscle rupture</b> ทำให้ <b>acute severe MR</b> — ลิ้น mitral ไม่มีเส้นยึด จึงเห็น <b>flail leaflet</b> บน echo · มักเป็น <b>posteromedial papillary muscle</b> เพราะได้เลือดจาก<b>หลอดเลือดเส้นเดียว (PDA)</b> จึงสัมพันธ์กับ <b>inferior MI</b> ส่วน anterolateral ได้เลือดสองทาง (LAD และ LCx) · อาการ: pulmonary edema เฉียบพลัน cardiogenic shock murmur อาจเบาหรือไม่ได้ยินเพราะความดันห้องบนซ้ายขึ้นเร็ว · รักษา: ลด afterload (nitroprusside), <b>IABP</b>/ mechanical support แล้ว<b>ผ่าตัด mitral valve replacement ฉุกเฉิน</b> ± CABG — ไม่ผ่าตัดอัตราตายสูงมาก · ไฟล์ไม่มีช้อยและไม่มีคีย์ เว็บเขียนโจทย์ใหม่ตามลายมือที่ผู้จดตอบไว้ว่า \"<b>MR จาก ruptured papillary m.</b>\" จึงเฉลย A",
   "wrong": {
-   "B": "VSR ก็มี holosystolic murmur ใหม่ แต่ echo พบ shunt ซ้ายไปขวาที่ผนังกั้นห้อง ไม่ใช่ flail leaflet · จะถูกถ้า echo พบรูที่ interventricular septum + O2 step-up ใน RV",
-   "C": "Free wall rupture → tamponade ช็อกเฉียบพลัน ไม่ใช่ murmur · จะถูกถ้าหลัง MI ความดันตกทันที JVP สูง น้ำในเยื่อหุ้มหัวใจ",
-   "D": "Pericarditis (early หรือ Dressler) มี friction rub ไม่ใช่ holosystolic murmur · จะถูกถ้าคำถามถามเจ็บอกเปลี่ยนท่า + friction rub หลัง MI",
-   "E": "Aortic dissection ทำ AR (diastolic murmur) · จะถูกถ้าคำถามถามเจ็บอกฉีกร้าวทะลุหลัง + diastolic murmur"
+   "B": "Ventricular septal rupture ก็ทำให้ holosystolic murmur ใหม่หลัง MI (ได้ยินชัดที่ left lower sternal border มักมี thrill) และหัวใจล้มเหลวได้ แต่ echo จะเห็น<b>รูที่ผนังกั้นห้องและ left-to-right shunt</b> ไม่ใช่ flail mitral leaflet · สวนหัวใจพบ O₂ step-up ที่ห้องล่างขวา · จะถูกถ้าเป็นชาย 70 ปี anterior MI 4 วันก่อน มี murmur ใหม่ดังพร้อม thrill ที่ขอบซ้ายของกระดูกอก echo เห็น color flow ผ่านผนังกั้นห้องล่าง",
+   "C": "Free wall rupture ทำให้เลือดออกในเยื่อหุ้มหัวใจ เกิด <b>cardiac tamponade</b> ฉับพลัน (ความดันต่ำ JVP สูง เสียงหัวใจเบา) มักจบด้วย PEA และไม่มี murmur ใหม่ · จะถูกถ้าเป็นหญิงสูงอายุ 75 ปี first MI ไม่ได้รับ reperfusion 5 วันหลัง MI ทรุดลงทันที ความดันตก JVP โป่ง เสียงหัวใจเบา echo เห็น pericardial effusion",
+   "D": "Pericarditis หลัง MI (early ภายใน 1–3 วัน หรือ Dressler syndrome หลายสัปดาห์) ทำให้เจ็บอกที่ดีขึ้นเมื่อนั่งโน้มตัว มี<b>pericardial friction rub</b> ไม่ใช่ holosystolic murmur และไม่ทำให้ pulmonary edema เฉียบพลัน · จะถูกถ้าเป็นชาย 60 ปีหลัง MI 3 สัปดาห์ มีไข้ต่ำ ๆ เจ็บอกแปลบเวลาหายใจลึก ได้ยินเสียงเสียดสีสามองค์ประกอบ และ ESR สูง",
+   "E": "Aortic dissection ที่ลามถึง aortic root ทำให้เกิด <b>aortic regurgitation</b> (diastolic murmur) และอาจลามไปอุด coronary จน MI ได้ แต่ไม่ทำให้ flail mitral leaflet · จะถูกถ้าเป็นชาย 55 ปีความดันสูง เจ็บอกฉีกทะลุไปหลัง ความดันแขนสองข้างต่างกัน มี early diastolic murmur และ CT เห็น intimal flap ที่ ascending aorta"
   },
-  "trap": "สับสน papillary muscle rupture กับ VSR — ทั้งคู่ holosystolic murmur ใหม่; flail leaflet = papillary muscle",
+  "trap": "ทั้ง papillary muscle rupture และ VSR ทำให้ <b>holosystolic murmur ใหม่</b>หลัง MI จึงสับสน — ตัวแยกคือ echo (<b>flail mitral leaflet</b> = papillary · รูที่ septum = VSR) ตำแหน่ง murmur (apex ไป axilla vs ขอบซ้ายของกระดูกอกมี thrill) และ O₂ step-up ใน VSR",
   "summary": [
-   "Mechanical complications หลัง MI: papillary muscle rupture · VSR · free wall rupture",
-   "Papillary muscle rupture: posteromedial (RCA) · inferior MI",
-   "VSR: shunt · O2 step-up",
-   "Free wall rupture: tamponade · PEA",
-   "ประคอง: vasodilator · IABP/ MCS → ผ่าตัดด่วน",
-   "Ludwig's angina (ส่วนแรกของข้อในไฟล์): cellulitis ใต้คาง → ระวังทางเดินหายใจ"
+   "Mechanical complications หลัง MI มัก 2–7 วัน (ยุค reperfusion พบน้อยลง &lt; 1%) · ปัจจัยเสี่ยง: first MI, ไม่ได้ reperfusion, สูงอายุ, หญิง",
+   "Papillary muscle rupture: posteromedial (เลือดจาก PDA เส้นเดียว) &gt; anterolateral 6–12 เท่า · สัมพันธ์ inferior MI · acute severe MR, flail leaflet",
+   "VSR: anterior MI → septum ส่วน apex · inferior MI → septum ส่วนฐาน · murmur + thrill ขอบซ้ายกระดูกอก · O₂ step-up ใน RV",
+   "Free wall rupture: tamponade → PEA · LV pseudoaneurysm = รอยรั่วที่ถูกเยื่อหุ้มหัวใจหุ้มไว้ คอแคบ ต้องผ่าตัด",
+   "True LV aneurysm: หลายสัปดาห์หลัง anterior MI · ST elevation ค้าง หัวใจล้มเหลว ventricular arrhythmia ลิ่มเลือด",
+   "รักษา acute MR/ VSR: ลด afterload (nitroprusside), IABP/ Impella/ ECMO → ผ่าตัดฉุกเฉิน (MVR หรือ VSR repair) ± CABG",
+   "Pericarditis: early (1–3 วัน) และ Dressler (สัปดาห์ถึงเดือน) · friction rub · aspirin/ colchicine"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่มีช้อยและไม่มีคีย์ แต่ลายมือเขียน \"MR จาก ruptured papillary m.\" ตรงกับคำตอบ",
-  "mnemonic": "<b>'หลัง MI murmur ใหม่: Flail = Papillary · Shunt = Septum · ช็อก/ tamponade = Free wall'</b>",
-  "guide": "ACC/AHA Guideline for the Management of ST-Elevation Myocardial Infarction (Circulation 2013;127:e362); AHA Scientific Statement: Mechanical Complications of Acute MI (Circulation 2021;144:e16)",
+  "opinion": "ไฟล์ไม่มีช้อยและไม่มีคีย์ (ไฟล์เขียนแค่หัวข้อ \"Ludwig angina // post MI แล้วพบ systolic murmur\") — เฉลยโดยหลักการทางคลินิกตาม ACC/AHA และใช้คำตอบที่ผู้จดเขียนไว้ \"MR จาก ruptured papillary m.\" เว็บเขียนโจทย์ใหม่ให้มี flail mitral leaflet เพื่อให้ได้คำตอบเดียว มั่นใจสูงว่า A ถูก · ส่วน Ludwig angina ในหัวข้อเดียวกันไม่มีรายละเอียดพอจะทำเป็นข้อแยก",
+  "mnemonic": "<b>'Post-MI วันที่ 2–7 = 3R (Rupture papillary · Rupture septum · Rupture free wall) · Flail mitral = Papillary'</b>",
+  "guide": "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes; Damluji AA et al. Mechanical complications of acute MI: AHA Scientific Statement (Circulation 2021)",
   "variants": [
-   "inferior MI วันที่ 4 หอบเฉียบพลัน murmur ใหม่ echo flail leaflet → papillary muscle rupture",
-   "anterior MI วันที่ 5 murmur ใหม่ O2 step-up ใน RV → VSR",
-   "MI วันที่ 3 ช็อก PEA น้ำในเยื่อหุ้มหัวใจ → free wall rupture"
+   "Inferior MI 3 วัน หอบเฉียบพลัน murmur เบาที่ apex echo flail posterior mitral leaflet → IABP แล้ว emergency mitral valve replacement",
+   "Anterior MI 5 วัน murmur ใหม่ดังมี thrill ขอบซ้ายกระดูกอก O₂ step-up ใน RV → ventricular septal rupture",
+   "MI 4 วันทรุดลงทันที JVP โป่ง เสียงหัวใจเบา PEA → free wall rupture ทำ pericardiocentesis และผ่าตัด",
+   "ทำไม posteromedial papillary muscle ฉีกบ่อยกว่า → ได้เลือดจาก PDA เส้นเดียว ส่วน anterolateral ได้สองเส้น"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 104 — ตัวพิมพ์: <b>60. ถามเกี่ยวกับ Ludwig's angina // post MI แล้วพบ systolic murmur เกิดจากสาเหตุใด</b> (ไม่มีช้อยในไฟล์)<br>ลายมือ: \"MR จาก ruptured papillary m.\"<br>ไฮไลต์: \"Ludwig's angina // post MI แล้วพบ systolic murmur\"<br>ที่ปรับในเว็บ: เขียนโจทย์และช้อยใหม่ทั้งหมดเป็นเคส post MI + flail mitral leaflet ตามลายมือ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 104",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU67|RoA|61": {
-  "interp": "ถูกตีศีรษะ<b>ซ้าย</b> สลบ 5 นาทีแล้วตื่น (<b>lucid interval</b>) ต่อมาแย่ลง หนังศีรษะบวมที่ frontotemporal ซ้าย · <b>decerebrate ขวา</b> · <b>รูม่านตาซ้าย 5 mm ไม่ตอบสนองแสง</b> → ถามการวินิจฉัย (ภาวะสมองเคลื่อน)",
-  "why": "Epidural hematoma ด้านซ้ายดัน <b>uncus (medial temporal lobe) ลงผ่าน tentorial notch</b> = <b>uncal (transtentorial) herniation</b>: ① กด <b>CN III ข้างเดียวกัน</b> → รูม่านตาซ้ายขยายไม่ตอบสนองแสง ② กด <b>cerebral peduncle</b> → อ่อนแรง/ posturing <b>ด้านตรงข้าม</b> (ขวา) ③ กดก้านสมอง → ระดับความรู้สึกตัวลดลง · ไฟล์ขีด C ลายมือ <b>\"lucid interval\"</b> · <b>\"โดน middle meningeal a. → epidural hematoma\"</b> · <b>\"① ↓ level of consciousness ② contralat. weakness ③ ipsilat. CN3 palsy\"</b> · <b>\"Lt. CN3\"</b> และแปะสไลด์ Uncal herniation กับ Abnormal Motor Response",
+  "interp": "ชายถูกตีศีรษะซ้าย หมดสติ 5 นาทีแล้วตื่น (lucid interval) 2 ชั่วโมงต่อมาทรุดลง มีบวมที่ขมับซ้าย รูม่านตาซ้าย 5 mm ไม่ตอบสนองแสง และ decerebrate ด้านขวา — ถามชนิดของ brain herniation ต้องรู้ว่า CN III ข้างเดียวกัน + อ่อนแรงข้างตรงข้าม = uncal herniation",
+  "why": "เลือดออกที่ขมับ (temporal) เพิ่มปริมาตรในช่อง supratentorial ข้างเดียว ดัน <b>uncus ของ medial temporal lobe</b> ลงผ่าน <b>tentorial notch</b> · uncus กด <b>CN III ข้างเดียวกัน</b> — เส้นใยพาราซิมพาเทติกอยู่รอบนอกจึงเสียก่อน → <b>รูม่านตาข้างเดียวกันขยายไม่ตอบสนองแสง</b> (ซ้าย 5 mm) ต่อมาจึงเกิด ptosis และตาเหล่ลงนอก · กด <b>cerebral peduncle ข้างเดียวกัน</b> (corticospinal ยังไม่ข้าม) → <b>อ่อนแรงหรือ posturing ข้างตรงข้าม</b> (decerebrate ขวา) · กด midbrain → สติลด · กด PCA → occipital infarct · ลำดับการทรุด: <b>สติลด → รูม่านตาข้างเดียวกันขยาย → อ่อนแรงข้างตรงข้าม → Cushing response</b> · ตรงคีย์ C — ไฟล์ขีด C และลายมือเรียงไว้ว่า \"<b>lucid interval</b>\" \"<b>① ↓ level of consciousness</b>\" \"<b>② contralat. weakness</b>\" \"<b>Lt. CN3</b>\" และเขียนที่ decerebrate ว่า \"<b>@ใต้ midbrain</b>\"",
   "wrong": {
-   "A": "Subfalcine: cingulate gyrus เคลื่อนใต้ falx กด ACA → ขาอ่อนแรงด้านตรงข้าม ไม่มีรูม่านตาขยายข้างเดียว · จะถูกถ้าคำถามถาม midline shift ที่ทำให้ขาอ่อนแรง",
-   "B": "Central: diencephalon ถูกดันลงตรงกลาง → ซึมลง รูม่านตาเล็กสองข้าง Cheyne-Stokes · จะถูกถ้ารอยโรคอยู่กลาง (hydrocephalus/ สมองบวมทั่ว) รูม่านตาเล็กสองข้าง",
-   "D": "Tonsillar: cerebellar tonsil ลงผ่าน foramen magnum กด medulla → หยุดหายใจ คอแข็ง · จะถูกถ้ารอยโรคใน posterior fossa (cerebellar hemorrhage)",
-   "E": "Transcalvarial: สมองยื่นออกทางรูกะโหลก (หลัง craniectomy/ กะโหลกแตกเปิด) · จะถูกถ้าคำถามถามหลังผ่าตัดเปิดกะโหลกมีสมองโป่งออก"
+   "A": "Subfalcine herniation คือ <b>cingulate gyrus</b> ถูกดันลอดใต้ falx cerebri ไปอีกฝั่ง เป็น herniation ที่พบบ่อยที่สุด อาจกด <b>ACA</b> ทำให้ขาข้างตรงข้ามอ่อนแรง แต่<b>ไม่กด CN III</b> จึงไม่มีรูม่านตาขยาย · จะถูกถ้าเป็นหญิง 60 ปี มีก้อน meningioma ใหญ่ที่ frontal ด้านขวา CT เห็น midline shift ใต้ falx และขาซ้ายอ่อนแรงโดยรูม่านตาปกติ",
+   "B": "Central (transtentorial) herniation เกิดจากแรงกดจากด้านบนทั้งสองข้างดันสมองส่วน diencephalon และ midbrain ลงตรง ๆ อาการ<b>สมมาตร</b>: รูม่านตาเล็กสองข้างแล้วกลายเป็นขนาดกลางไม่ตอบสนอง Cheyne-Stokes decorticate แล้ว decerebrate สองข้าง · จะถูกถ้าเป็นชาย 40 ปี diffuse cerebral edema หลังขาดออกซิเจน สติลดลงเรื่อย ๆ รูม่านตาเล็กเท่ากันสองข้าง และ posturing สองข้าง",
+   "D": "Tonsillar herniation คือ <b>cerebellar tonsil</b> เคลื่อนลงผ่าน foramen magnum กด medulla → <b>หยุดหายใจ</b> คอแข็ง Cushing triad และตายเฉียบพลัน ไม่ใช่ CN III ข้างเดียว · จะถูกถ้าเป็นชาย 65 ปี เลือดออกใน cerebellum ขนาดใหญ่ ปวดศีรษะท้ายทอย อาเจียน แล้วหยุดหายใจทันที",
+   "E": "Transcalvarial herniation คือเนื้อสมองโป่งออก<b>ผ่านรูที่กะโหลก</b> เช่นกะโหลกแตกเปิดหรือหลัง decompressive craniectomy ไม่ใช่การเคลื่อนภายในกะโหลก · จะถูกถ้าเป็นชาย 30 ปีหลังผ่าตัดเปิดกะโหลกลดความดัน 2 วัน แผลผ่าตัดโป่งตึง CT เห็นเนื้อสมองบวมดันออกนอกขอบกระดูก"
   },
-  "trap": "ดูข้างของ posturing แล้วคิดว่ารอยโรคอยู่ขวา — ข้างของรูม่านตาที่ขยายบอกข้างรอยโรคได้แม่นกว่า",
+  "trap": "Decerebrate posturing ชวนนึกถึง central herniation ที่กด brainstem — ให้ดูความ<b>ไม่สมมาตร</b>: รูม่านตาขยายข้างเดียว (ข้างก้อน) + posturing ข้างตรงข้าม = <b>uncal</b> · ส่วน central จะมีอาการสองข้างเท่ากัน",
   "summary": [
-   "Uncal herniation: CN III ข้างเดียวกัน + อ่อนแรงด้านตรงข้าม + ซึมลง",
-   "EDH: middle meningeal a. · lucid interval · biconvex",
-   "Decorticate (flexion): รอยโรคเหนือ red nucleus",
-   "Decerebrate (extension): รอยโรคใต้ red nucleus (midbrain/ pons)",
-   "Kernohan notch: อ่อนแรงข้างเดียวกับรอยโรค (false localizing)",
-   "Cushing triad: HT + bradycardia + หายใจผิดปกติ"
+   "Monro-Kellie: กะโหลกปิด ปริมาตรสมอง + เลือด + CSF คงที่ → ก้อนเพิ่ม ต้องเบียด CSF/ เลือดออกก่อน แล้ว ICP ขึ้นเร็วเมื่อชดเชยไม่ไหว",
+   "Subfalcine: cingulate gyrus ใต้ falx (พบบ่อยสุด) กด ACA → ขาข้างตรงข้ามอ่อนแรง",
+   "Uncal: uncus ผ่าน tentorial notch → CN III ข้างเดียวกัน (รูม่านตาขยายก่อน) + hemiparesis ข้างตรงข้าม + กด PCA",
+   "Central: diencephalon/ midbrain ลงตรง ๆ → รูม่านตาเล็กสองข้าง Cheyne-Stokes diabetes insipidus · Duret hemorrhage จาก perforator ของ basilar ฉีก",
+   "Upward (cerebellar) herniation: ก้อนใน posterior fossa ดันขึ้น โดยเฉพาะหลังเจาะระบาย CSF จากด้านบน",
+   "Tonsillar: ผ่าน foramen magnum กด medulla → หยุดหายใจ Cushing triad (ความดันสูง หัวใจช้า หายใจผิดปกติ)",
+   "Kernohan notch: peduncle ข้างตรงข้ามถูกกดกับขอบ tentorium → อ่อนแรงข้างเดียวกับก้อน (false localizing sign)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Uncal = Uni pupil (ข้างเดียวกัน) + Uncross ไม่ได้ (อ่อนแรงฝั่งตรงข้าม)'</b>",
-  "guide": "ATLS Student Course Manual 11th ed. (ACS 2025) — Head trauma; Brain Trauma Foundation Guidelines for the Management of Severe TBI 4th ed. (Neurosurgery 2017;80:6)",
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ขีด C) มั่นใจสูง — CN III ซ้าย + decerebrate ขวาหลังเลือดออกขมับซ้ายเป็นภาพคลาสสิกของ uncal herniation · ข้อสังเกต: ไฟล์พิมพ์รูม่านตาเป็น \"cm\" (2 cm, 5 cm) ซึ่งเป็นการพิมพ์ผิด เว็บใช้ mm และ GCS ในไฟล์เป็น \"xxx\" (ไม่ระบุ) จึงไม่ได้ใส่ตัวเลข",
+  "mnemonic": "<b>'Uncal = ตาข้างก้อน แขนขาข้างตรงข้าม (Ipsi-pupil, Contra-weak)'</b>",
+  "guide": "Greenberg MS. Handbook of Neurosurgery 10th ed. (2023) ch. Herniation syndromes; ATLS Advanced Trauma Life Support 11th ed. (2025) ch. Head Trauma",
   "variants": [
-   "ถูกตีขมับขวา lucid interval รูม่านตาขวาขยาย แขนขาซ้ายอ่อนแรง → uncal herniation จาก EDH",
-   "cerebellar hemorrhage ปวดหัว อาเจียน หยุดหายใจ → tonsillar herniation",
-   "ซึมลง รูม่านตาเล็กสองข้าง หายใจ Cheyne-Stokes → central herniation"
+   "ถูกตีขมับขวา lucid interval แล้วซึม รูม่านตาขวาขยาย แขนขาซ้ายอ่อนแรง → right uncal herniation จาก EDH",
+   "สมองบวมทั่วไปหลังขาดออกซิเจน รูม่านตาเล็กสองข้าง Cheyne-Stokes → central herniation",
+   "เลือดออกใน cerebellum แล้วหยุดหายใจทันที → tonsillar herniation",
+   "ทำไม uncal herniation ทำให้รูม่านตาขยายก่อนตาเหล่ → เส้นใยพาราซิมพาเทติกอยู่ผิวนอกของ CN III จึงถูกกดก่อน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 105 — หัวข้อ Neuro · ตัวพิมพ์: <b>61. ผู้ป่วยชาย โดนตีหัวด้านซ้ายมา สลบไป 5 นาที หลังจากนั้นผู้ป่วยตื่นขึ้นมาและถูกนำส่งโรงพยาบาลใน 2 ชั่วโมงถัดมา ผลการตรวจร่างกาย Glasgow coma score xxx, puffy scalp at Lt frontotemporal region, Rt. Decerebrate, Rt pupil 2 cm RTL, Lt pupil 5 cm NRTL. จงให้การวินิจฉัยในผู้ป่วยราย&#8203;นี้ — A. Subfalcine herniation B. Central herniation C. Uncal herniation D. Tonsillar herniation E. Transcalvarial herniation</b><br>ลายมือ: \"lucid interval\" · \"① ↓ level of consciousness\" · \"โดน middle meningeal a. → epidural hematoma\" (ลูกศรลงไปที่ข้อ 62 A) · \"@ใต้ midbrain\" เหนือ Decerebrate · \"② contralat. weakness\" · \"Lt. CN3\" · \"③ ipsilat. CN3 palsy\" · ขีด C<br>ไฮไลต์: \"โดนตีหัวด้านซ้ายมา\" \"สลบไป 5 นาที หลังจากนั้นผู้ป่วยตื่นขึ้นมา\" \"ถูกนำส่งโรงพยาบาลใน 2 ชั่วโมงถัดมา\" \"puffy scalp at Lt frontotemporal region\" \"Rt. Decerebrate\" \"Rt pupil 2 cm RTL, Lt pupil 5 cm NRTL\" \"วินิจฉัย\" · C (เหลือง)<br>รูปที่แปะ: ① สไลด์ Uncal herniation — CN III compression → ipsilateral pupillary dilation · cerebral peduncle compression → contralateral weakness and ↓ level of consciousness + ภาพ CT (subdural hematoma) และภาพรูม่านตาขวาขยาย ② สไลด์ Abnormal Motor Response — Decorticate posture (Abnormal flexion response) lesion เหนือ red nucleus · Decerebrate posture (Extension response) lesion ใต้ red nucleus<br>ที่ปรับในเว็บ: หน่วยรูม่านตาเป็น mm (ไฟล์พิมพ์ cm)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 105",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU67|RoA|62": {
-  "interp": "เคสเดียวกัน (ถูกตีศีรษะซ้าย <b>lucid interval</b> หนังศีรษะบวม frontotemporal ซ้าย) → ถาม<b>การวินิจฉัยรอยโรค</b>",
-  "why": "ถูกตีบริเวณ <b>temporal</b> (กะโหลกบาง) → กะโหลกแตกฉีก <b>middle meningeal artery</b> → เลือดออกระหว่างกะโหลกกับ dura = <b>acute epidural hematoma</b> · ลักษณะเด่น <b>lucid interval</b> (สลบ → ตื่น → แย่ลงเร็ว) · CT: ก้อนเลือด<b>รูปเลนส์นูนสองด้าน (biconvex)</b> ไม่ข้าม suture · ไฟล์ไฮไลต์ A มีลูกศรลายมือจาก <b>\"lucid interval\"</b> และ <b>\"โดน middle meningeal a. → epidural hematoma\"</b> ในข้อ 61 ชี้มาที่ A",
+  "interp": "ผู้ป่วยเดียวกัน: ถูกตีขมับซ้าย หมดสติสั้น ๆ แล้วตื่น (lucid interval) ก่อนทรุดลงใน 2 ชั่วโมง มีบวมที่ frontotemporal ซ้าย — ถามการวินิจฉัยชนิดเลือดออก ต้องรู้ว่า lucid interval + ขมับ = acute epidural hematoma จาก middle meningeal artery",
+  "why": "<b>Acute epidural hematoma (EDH)</b> คือเลือดระหว่างกะโหลกกับ dura ส่วนใหญ่เกิดจาก<b>กะโหลกขมับแตก (squamous temporal bone บางที่สุด) ฉีก middle meningeal artery</b> · <b>Lucid interval</b> แบบคลาสสิก (พบราว 20–50%): หมดสติจาก concussion → ตื่นขึ้นมาดี → ทรุดลงเมื่อเลือดแดงสะสมจนเกิด herniation · CT: <b>รูปเลนส์นูนสองด้าน (biconvex)</b> <b>ไม่ข้าม suture</b> เพราะ dura ยึดแน่นที่ suture แต่ข้าม midline ได้ · เกณฑ์ผ่าตัด (Brain Trauma Foundation): <b>ปริมาตร &gt; 30 mL ผ่าตัดทุกราย</b> ไม่ว่า GCS เท่าใด และ <b>GCS ≤ 8 + anisocoria ผ่าตัดด่วนที่สุด</b> · พยากรณ์ดีถ้าผ่าตัดเร็วเพราะเนื้อสมองข้างใต้มักไม่บาดเจ็บมาก · ตรงคีย์ A — ไฟล์ไฮไลต์ A และลากลูกศรจากลายมือในข้อก่อนหน้า \"<b>โดน middle meningeal a. → epidural hematoma</b>\"",
   "wrong": {
-   "B": "Chronic SDH: ผู้สูงอายุ/ ดื่มสุรา อาการค่อยเป็นหลายสัปดาห์ · จะถูกถ้าผู้สูงอายุล้มเล็กน้อยแล้วซึม สับสนค่อยเป็นใน 3 สัปดาห์",
-   "C": "ICH จากอุบัติเหตุ (contusion) มักไม่มี lucid interval ชัด · จะถูกถ้าคำถามถามความดันสูงเรื้อรัง แขนขาอ่อนแรงฉับพลัน ก้อนเลือดใน basal ganglia",
-   "D": "SAH จากอุบัติเหตุ/ aneurysm: ปวดศีรษะรุนแรงที่สุดในชีวิต คอแข็ง · จะถูกถ้าคำถามถามปวดศีรษะฉับพลันรุนแรง + คอแข็ง",
-   "E": "IVH มักร่วมกับ ICH/ SAH หรือในทารกคลอดก่อนกำหนด · จะถูกถ้าคำถามถามทารกคลอดก่อนกำหนดซีด กระหม่อมโป่ง"
+   "B": "Chronic subdural hematoma เกิดจาก bridging vein ฉีกเล็กน้อยในผู้<b>สูงอายุ</b> (สมองฝ่อ) ผู้ติดสุรา หรือกินยาต้านการแข็งตัว อาการค่อยเป็นหลายสัปดาห์ (สับสน ปวดศีรษะ อ่อนแรง) CT เป็นรูปจันทร์เสี้ยว hypodense · ไม่ใช่การทรุดใน 2 ชั่วโมงหลังถูกตี · จะถูกถ้าเป็นชาย 78 ปีกิน warfarin ล้มศีรษะกระแทกเบา ๆ 6 สัปดาห์ก่อน ระยะหลังสับสนและเดินเซ CT เห็น crescentic hypodense collection",
+   "C": "Intracerebral hemorrhage จากการบาดเจ็บ (contusion) มักอยู่ frontal และ temporal pole จากกลไก coup-contrecoup อาจบานขึ้นใน 24–72 ชม. แต่ไม่มีภาพ lucid interval จากเลือดแดงนอก dura · ส่วน spontaneous ICH สัมพันธ์ความดันสูงที่ basal ganglia · จะถูกถ้าเป็นชาย 65 ปีความดันสูงไม่คุม อ่อนแรงซีกซ้ายทันทีขณะทำงาน CT เห็นเลือดใน putamen ขวา",
+   "D": "Subarachnoid hemorrhage จากการบาดเจ็บพบบ่อยแต่มักเป็นเลือดบาง ๆ ในร่องสมองไม่ทำให้ herniation · SAH ที่สำคัญคือจาก <b>aneurysm แตก</b>: ปวดศีรษะรุนแรงที่สุดในชีวิตทันที คอแข็ง · จะถูกถ้าเป็นหญิง 50 ปี ปวดศีรษะรุนแรงฉับพลันขณะยกของ อาเจียน คอแข็ง CT เห็นเลือดใน basal cistern",
+   "E": "Intraventricular hemorrhage มักเป็นการลามของเลือดจาก ICH (thalamus, caudate) หรือ SAH และพบใน<b>ทารกคลอดก่อนกำหนด</b>จาก germinal matrix ทำให้เกิด hydrocephalus · ไม่สัมพันธ์กับบวมที่ขมับและ lucid interval · จะถูกถ้าเป็นทารกคลอด 27 สัปดาห์ อายุ 2 วัน กระหม่อมโป่ง ซีด ฮีมาโทคริตลด cranial US เห็นเลือดในโพรงสมอง"
   },
-  "trap": "สับสน EDH กับ acute SDH — lucid interval + ตีขมับ + biconvex = EDH",
+  "trap": "คำว่า \"ถูกตี + หมดสติ\" ชวนให้คิดถึง subdural (เลือดออกจากบาดเจ็บที่พบบ่อยกว่า) — แต่ <b>lucid interval + ขมับ + ทรุดเร็วใน ชม.</b> = EDH จากหลอดเลือดแดง · chronic SDH ค่อยเป็นหลายสัปดาห์ในผู้สูงอายุ",
   "summary": [
-   "EDH: middle meningeal a. · lucid interval · biconvex · ไม่ข้าม suture",
-   "Acute SDH: bridging veins · crescent · ข้าม suture · พยากรณ์แย่กว่า",
-   "Chronic SDH: ผู้สูงอายุ · อาการค่อยเป็น",
-   "ผ่าตัด EDH: &gt; 30 mL หรือ GCS ≤ 8 + anisocoria",
-   "CT brain non-contrast เป็นภาพแรก",
-   "ระวัง uncal herniation"
+   "EDH: middle meningeal artery ฉีกจากกะโหลกขมับแตก (~85–90% มีกะโหลกแตก) · พบในคนหนุ่ม (dura ยังลอกจากกะโหลกได้) ไม่ค่อยพบ &gt; 60 ปี",
+   "CT EDH: biconvex/ lentiform ไม่ข้าม suture · swirl sign = เลือดกำลังออก · SDH: crescent ข้าม suture ไม่ข้าม falx/ tentorium",
+   "เกณฑ์ผ่าตัด EDH (BTF): &gt; 30 mL ผ่าทุกราย · &lt; 30 mL หนา &lt; 15 mm shift &lt; 5 mm GCS &gt; 8 ไม่มี focal deficit → สังเกตอาการ + CT ซ้ำ",
+   "Acute SDH: bridging vein · ผ่าตัดถ้าหนา &gt; 10 mm หรือ shift &gt; 5 mm หรือ GCS ลด ≥ 2 · พยากรณ์แย่กว่า EDH เพราะสมองบาดเจ็บร่วม",
+   "Chronic SDH: ผู้สูงอายุ ยาต้านการแข็งตัว สุรา · burr hole drainage · เกิดซ้ำราว 10–20%",
+   "การดูแลก่อนผ่าตัด: ABC, ใส่ท่อช่วยหายใจถ้า GCS ≤ 8, SBP ≥ 100–110, หัวสูง 30°, mannitol/ hypertonic saline เมื่อมี herniation",
+   "Lucid interval ไม่ได้จำเพาะ EDH — พบใน SDH หรือ contusion ได้ แต่คลาสสิกของ EDH"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับไฮไลต์และลูกศรลายมือในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'EDH = Eye-lens (biconvex) + Episode ตื่น (lucid) + ตีขมับ'</b>",
-  "guide": "Brain Trauma Foundation — Surgical Management of Acute Epidural Hematomas (Neurosurgery 2006;58:S2-7); ATLS Student Course Manual 11th ed. (ACS 2025)",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ไฮไลต์ A + ลูกศรจากลายมือ middle meningeal a.) มั่นใจสูง — lucid interval หลังถูกตีบริเวณขมับและทรุดลงเร็วเป็นภาพคลาสสิกของ acute EDH · ไฟล์พิมพ์โจทย์ซ้ำกับข้อก่อนหน้าทั้งหมด เว็บย่อเป็น \"Same patient as above\" โดยคงข้อมูลสำคัญไว้",
+  "mnemonic": "<b>'EDH = Lens · Lucid · Linked to Middle meningeal (3L) — ไม่ข้าม suture'</b>",
+  "guide": "Bullock MR et al. Surgical management of acute epidural hematomas (Neurosurgery 2006; Brain Trauma Foundation); Greenberg MS. Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "ถูกตีขมับ สลบแล้วตื่น 1 ชม. ต่อมาซึม CT biconvex → EDH → ผ่าตัด",
-   "อุบัติเหตุความเร็วสูง GCS ต่ำตั้งแต่แรก CT crescent → acute SDH",
-   "ผู้สูงอายุล้มเมื่อเดือนก่อน สับสนค่อยเป็น → chronic SDH"
+   "ถูกตีขมับ CT เลือดรูปเลนส์ 40 mL GCS 14 → ผ่าตัด craniotomy ระบายเลือดแม้ยังรู้สึกตัวดี",
+   "EDH 15 mL หนา 8 mm shift 2 mm GCS 15 ไม่มี focal deficit → สังเกตอาการใน ICU + CT ซ้ำใน 6–8 ชม.",
+   "ผู้สูงอายุกิน warfarin ล้ม 1 เดือนก่อน สับสนมากขึ้น CT เลือดรูปจันทร์เสี้ยว hypodense → chronic SDH ทำ burr hole",
+   "ทำไม EDH ไม่ข้าม suture → dura ยึดแน่นกับกะโหลกที่แนว suture เลือดจึงลอกเลยไม่ได้"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 105 — ตัวพิมพ์: <b>62. ผู้ป่วยชาย โดนตีหัวด้านซ้ายมา สลบไป 5 นาที หลังจากนั้นผู้ป่วยตื่นขึ้นมาและถูกนำส่งโรงพยาบาลใน 2 ชั่วโมงถัดมา ผลการตรวจร่างกาย Glasgow coma score xxx, puffy scalp at Lt frontotemporal region, Rt. Decerebrate, Rt pupil 2 cm RTL, Lt pupil 5 cm NRTL. จงให้การวินิจฉัยในผู้ป่วยราย&#8203;นี้ — A. Acute epidural hematoma B. Chronic subdural hematoma C. Intracerebral hemorrhage D. Subarachnoid hemorrhage E. Intraventricular hemorrhage</b><br>ลายมือ: ลูกศรแดงจากลายมือในข้อ 61 (\"โดน middle meningeal a. → epidural hematoma\") ชี้มาที่ A<br>ไฮไลต์: A \"Acute epidural hematoma\" (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 105",
@@ -264,30 +280,32 @@
   ]
  },
  "MDCU67|RoA|63": {
-  "interp": "เคสเดียวกันแต่ <b>decerebrate ด้านซ้าย</b> (ข้างเดียวกับรอยโรคและรูม่านตาที่ขยาย) → ถามปรากฏการณ์ที่อธิบาย",
-  "why": "<b>Kernohan notch phenomenon</b>: uncus/ ก้อนเลือดดันก้านสมอง<b>ไปชนขอบ tentorium อีกด้าน</b> → กด cerebral peduncle <b>ด้านตรงข้ามรอยโรค</b> (ซึ่งควบคุมร่างกายด้านเดียวกับรอยโรค) → อ่อนแรง/ posturing <b>ข้างเดียวกับรอยโรค</b> = false localizing sign (รูม่านตาที่ขยายยังบอกข้างรอยโรคได้ดีกว่า) · ไฟล์ขีด A ลายมือ <b>\"ipsilat. weakness!\"</b> · <b>\"∵ uncus เบียดให้ brain stem ไปชนฝั่งตรงข้าม\"</b> และแปะสไลด์ Pathophysiology <b>\"แต่ถ้าเกิด Kernohan phenomenon คือ uncus เบียด brain stem ให้โย้ไปกด brain stem ฝั่งตรงข้าม … ทำให้ weak ฝั่งเดียวกัน\"</b>",
+  "interp": "ฉากเดิมแต่ posturing อยู่ข้าง<b>ซ้าย</b> (ข้างเดียวกับก้อนและรูม่านตาที่ขยาย) — ถามว่าเหตุใดอ่อนแรงข้างเดียวกับรอยโรค ต้องรู้จัก Kernohan notch phenomenon ซึ่งเป็น false localizing sign",
+  "why": "ปกติ uncal herniation กด cerebral peduncle ข้างเดียวกันจึงอ่อนแรง<b>ข้างตรงข้าม</b> · แต่ถ้าแรงดันจากก้อนดันก้านสมองทั้งก้อนไปด้านตรงข้าม <b>cerebral peduncle ข้างตรงข้าม</b>จะถูกกดกับขอบคม<b>ของ tentorium cerebelli ฝั่งนั้น</b> (Kernohan notch) · corticospinal tract ใน peduncle ยังไม่ข้ามฝั่ง (ข้ามที่ medulla) → <b>อ่อนแรงข้างเดียวกับก้อน (ipsilateral hemiparesis)</b> · ร่วมกับรูม่านตาขยายข้างเดียวกับก้อน (CN III ถูกกดตามปกติ) ทำให้รูม่านตาและแขนขาอ่อนแรงอยู่ข้างเดียวกัน · เป็น <b>false localizing sign</b> — ถ้าดูแขนขาอย่างเดียวจะผ่าตัดผิดข้าง <b>ใช้ข้างที่รูม่านตาขยายและ CT บอกตำแหน่งก้อน</b> · ตรงคีย์ A — ไฟล์ขีด A ไฮไลต์ \"<b>Lt. Decerebrate</b>\" และเขียน \"<b>ipsilat. weakness!</b>\" \"<b>∵ uncus เบียดให้ brain stem ไปชนฝั่งตรงข้าม</b>\"",
   "wrong": {
-   "B": "Monro-Kellie: กะโหลกปริมาตรคงที่ (สมอง + เลือด + CSF) ส่วนหนึ่งเพิ่มอีกส่วนต้องลด · จะถูกถ้าคำถามถามหลักการที่อธิบายว่าทำไม ICP สูงเมื่อมีก้อนเลือด",
-   "C": "Cushing triad: ความดันสูง ชีพจรช้า หายใจผิดปกติ จาก ICP สูง · จะถูกถ้าคำถามให้ BP 190/100 ชีพจร 48 หายใจไม่สม่ำเสมอ",
-   "D": "Duret hemorrhage: เลือดออกเล็ก ๆ ในก้านสมองจากการเคลื่อนลง (เส้นเลือด basilar ฉีก) · จะถูกถ้าคำถามถามรอยเลือดออกใน pons หลัง herniation",
-   "E": "Battle sign: ช้ำหลังหู จาก basilar skull fracture · จะถูกถ้าคำถามถามรอยช้ำ mastoid + น้ำใสไหลจากหู"
+   "B": "Monro-Kellie doctrine อธิบายว่ากะโหลกเป็นช่องปิด ปริมาตรสมอง เลือด และ CSF รวมกันคงที่ ก้อนที่เพิ่มขึ้นทำให้ ICP สูงหลังกลไกชดเชยหมด — อธิบายว่าทำไมเกิด herniation แต่<b>ไม่อธิบายว่าทำไมอ่อนแรงข้างเดียวกัน</b> · จะถูกถ้าเป็นชาย 30 ปีบาดเจ็บศีรษะ ICP ค่อย ๆ ขึ้นจาก 15 เป็น 35 mmHg หลังเลือดสะสมเพิ่มเพียงเล็กน้อย และคำอธิบายที่ต้องการคือเรื่อง intracranial compliance",
+   "C": "Cushing triad (ความดันสูง หัวใจเต้นช้า หายใจผิดปกติ) เป็นปฏิกิริยาของก้านสมองต่อ ICP สูงมากในระยะท้าย ไม่ได้อธิบายด้านของอาการอ่อนแรง · จะถูกถ้าเป็นชาย 25 ปีบาดเจ็บศีรษะรุนแรง ความดันขึ้นเป็น 200/100 mmHg ชีพจร 45 ครั้งต่อนาที หายใจไม่สม่ำเสมอ ก่อนรูม่านตาขยายสองข้าง",
+   "D": "Duret hemorrhage คือเลือดออกเล็ก ๆ ใน midbrain/ pons จาก perforating artery ของ basilar ถูกยืดฉีกเมื่อก้านสมองเคลื่อนลง มักเป็นสัญญาณระยะท้ายพยากรณ์แย่มาก ไม่ได้ทำให้อ่อนแรงข้างเดียวกันแบบนี้ · จะถูกถ้าเป็นชาย 50 ปี descending transtentorial herniation จาก SDH ใหญ่ CT ซ้ำเห็นเลือดจุดเล็กกลาง pons และโคม่าลึก",
+   "E": "Battle sign คือรอยช้ำหลังใบหู (เหนือ mastoid) จาก<b>กะโหลกฐานแตก</b>ที่ middle cranial fossa มักขึ้นหลังบาดเจ็บ 1–3 วัน ไม่เกี่ยวกับกลไก herniation · จะถูกถ้าเป็นหญิง 35 ปีหลังอุบัติเหตุรถ 2 วัน มีรอยช้ำหลังหูขวา CSF otorrhea และ hemotympanum"
   },
-  "trap": "เห็นอ่อนแรงข้างเดียวกับรอยโรคแล้วเปลี่ยนข้างผ่าตัด — Kernohan เป็น false localizing; ใช้ CT/ รูม่านตาบอกข้าง",
+  "trap": "เห็น posturing ข้างซ้ายแล้วคิดว่าก้อนอยู่สมองซีกขวา จนตอบหรือผ่าตัดผิดข้าง — ใน <b>Kernohan</b> แขนขาหลอก ส่วน<b>รูม่านตาที่ขยายยังอยู่ข้างก้อน</b> · คำอธิบายเรื่องอื่น (Monro-Kellie, Cushing) เป็นความจริงแต่ไม่ตอบว่าทำไมอยู่ข้างเดียวกัน",
   "summary": [
-   "Kernohan notch: peduncle ตรงข้ามถูกกด → อ่อนแรงข้างเดียวกับรอยโรค",
-   "False localizing sign — CT ยืนยันข้าง",
-   "Uncal herniation ปกติ: อ่อนแรงด้านตรงข้าม",
-   "Monro-Kellie: กะโหลกปริมาตรคงที่",
-   "Cushing triad: HT + bradycardia + หายใจผิดปกติ",
-   "Duret hemorrhage: เลือดออกในก้านสมองหลัง herniation"
+   "Kernohan notch: ก้านสมองถูกดันไปฝั่งตรงข้าม peduncle ฝั่งนั้นถูกกดกับขอบ tentorium → hemiparesis ข้างเดียวกับก้อน (false localizing)",
+   "ตำแหน่งก้อนให้เชื่อรูม่านตาที่ขยาย (ถูกต้องราว 80–90%) และ CT มากกว่าข้างที่อ่อนแรง",
+   "Monro-Kellie: ช่วงแรกก้อนเพิ่มแต่ ICP แทบไม่ขึ้น (ชดเชยด้วย CSF/ เลือดดำ) แล้วขึ้นเร็วเมื่อ compliance หมด",
+   "Cushing triad = สัญญาณท้ายของ ICP สูง/ herniation: hypertension (wide pulse pressure) + bradycardia + irregular respiration",
+   "Duret hemorrhage: เลือดออกกลาง pons/ midbrain จาก perforator ของ basilar ฉีกเมื่อก้านสมองเคลื่อนลง พยากรณ์แย่",
+   "สัญญาณกะโหลกฐานแตก: Battle sign, raccoon eyes, CSF rhinorrhea/ otorrhea, hemotympanum, CN VII/ VIII palsy",
+   "ICP ปกติ &lt; 15 mmHg · รักษาเมื่อ &gt; 22 mmHg (BTF 2016) · CPP เป้าหมาย 60–70 mmHg"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Kernohan = Kiss ฝั่งตรงข้าม → weak ฝั่งเดียวกัน'</b>",
-  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Herniation syndromes",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A และแปะสไลด์ pathophysiology ของ midbrain compression) มั่นใจสูง — decerebrate ซ้ายร่วมรูม่านตาซ้ายขยายจากก้อนซ้ายคือ Kernohan notch phenomenon ตรงตามลายมือ \"uncus เบียดให้ brain stem ไปชนฝั่งตรงข้าม\" · ไฟล์มีแค่ช้อย A และ B เว็บเติม C–E เป็นคำอธิบายทางประสาทศัลยศาสตร์อื่นที่ไม่ตอบคำถาม",
+  "mnemonic": "<b>'Kernohan = Kick ไปชนฝั่งตรงข้าม → อ่อนแรงฝั่งเดียวกัน · ผ่าตัดตามตา ไม่ตามแขน'</b>",
+  "guide": "Greenberg MS. Handbook of Neurosurgery 10th ed. (2023) ch. Herniation syndromes; Carney N et al. Guidelines for the Management of Severe TBI 4th ed. (Neurosurgery 2017)",
   "variants": [
-   "EDH ขวา รูม่านตาขวาขยาย แขนขาขวาอ่อนแรง → Kernohan notch",
-   "EDH ขวา รูม่านตาขวาขยาย แขนขาซ้ายอ่อนแรง → uncal herniation ตามปกติ",
-   "BP 200/110 HR 45 หายใจไม่สม่ำเสมอ หลังบาดเจ็บศีรษะ → Cushing triad"
+   "EDH ขวา รูม่านตาขวาขยาย แต่แขนขาขวาอ่อนแรง → Kernohan notch ผ่าตัดข้างขวาตามรูม่านตาและ CT",
+   "ICP ขึ้นจาก 10 เป็น 40 mmHg หลังเลือดเพิ่มเพียงไม่กี่ mL → compliance หมดตาม Monro-Kellie",
+   "บาดเจ็บศีรษะ ความดัน 210/110 ชีพจร 40 หายใจไม่สม่ำเสมอ → Cushing response ต้องลด ICP ด่วน",
+   "ทำไมอ่อนแรงข้างเดียวกันทั้งที่ corticospinal ข้ามฝั่ง → peduncle อยู่เหนือจุดข้าม (medulla) peduncle ฝั่งตรงข้ามจึงคุมแขนขาข้างก้อน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 105 — ตัวพิมพ์: <b>63. ผู้ป่วยชาย โดนตีหัวด้านซ้ายมา สลบไป 5 นาที หลังจากนั้นผู้ป่วยตื่นขึ้นมาและถูกนำส่งโรงพยาบาลใน 2 ชั่วโมงถัดมา ผลการตรวจร่างกาย Glasgow coma score xxx, puffy scalp at Lt frontotemporal region, Lt. Decerebrate, Rt pupil 2 cm RTL, Lt pupil 5 cm NRTL. จงอธิบายเหตุการณ์ที่เกิดขึ้นในผู้ป่วยราย&#8203;นี้ — A. Kernohan's phenomenon B. Monro-Kellie phenomenon</b><br>ลายมือ: \"ipsilat. weakness!\" · \"∵ uncus เบียดให้ brain stem ไปชนฝั่งตรงข้าม\" · ขีด A<br>ไฮไลต์: \"Lt. Decerebrate\" (ส้ม) · \"Lt pupil 5 cm NRTL\" \"อธิบายเหตุการณ์ที่เกิดขึ้น\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ \"2. อาการและการแสดงของผู้ป่วยราย&#8203;นี้บ่งถึงภาวะใด — Pathophysiology: &gt; midbrain compression? มี sign ที่บอกคือ • Left pupillary dilation (not reactive to light) --&gt; left CN III injury · เลือดดันให้ uncus หลุดออกจาก tentorial cerebelli ลงมากด nucleus ของ CN III ที่อยู่ที่ brain stem ปกติที่ midbrain จะมี corticospinal tr ทำให้ weak ฝั่งตรงข้าม แต่ถ้าเกิด Kernohan phenomenon คือ uncus เบียด brain stem ให้โย้ไปกด brain stem ฝั่งตรงข้าม ทำให้ weak ฝั่งเดียวกัน\" (ลายมือ \"เกิดได้\") + ภาพ epidural hematoma ดัน uncus (ลายมือ \"ดัน\")<br>ที่ปรับในเว็บ: เพิ่มช้อย C–E (Cushing triad · Duret hemorrhage · Battle sign)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 105",
@@ -297,30 +315,32 @@
   ]
  },
  "MDCU67|RoA|64": {
-  "interp": "ผู้ป่วยข้อก่อน (บาดเจ็บศีรษะ ซึมลง มี<b>สัญญาณ uncal herniation</b> — รูม่านตาขยายข้างเดียว decerebrate) → ถามการจัดการที่เหมาะสม<b>ลำดับถัดไป</b>",
-  "why": "ผู้ป่วยบาดเจ็บศีรษะรุนแรงที่มี<b>สัญญาณสมองเคลื่อน</b> (GCS ต่ำ + anisocoria + posturing) ต้องจัดการตาม <b>ATLS: Airway ก่อน</b> → <b>ใส่ท่อช่วยหายใจ</b> (GCS ≤ 8 ปกป้องทางเดินหายใจ คุม O<sub>2</sub>/ CO<sub>2</sub> ป้องกัน secondary brain injury และ hyperventilate ชั่วคราวได้ระหว่างรอผ่าตัด) แล้วจึง<b>ส่ง CT</b> และผ่าตัดด่วน · การส่ง CT ก่อนคุมทางเดินหายใจเสี่ยงหยุดหายใจในห้อง CT · ไฟล์ขีด A (CT) ลายมือ <b>\"Dx uncal herniation\"</b>",
+  "interp": "ผู้ป่วยบาดเจ็บศีรษะที่มีอาการ uncal herniation (รูม่านตาขยายข้างเดียว decerebrate posturing สติลดลง) ถามขั้นตอนถัดไปที่เหมาะสม — หลัก ATLS คือแก้ทางเดินหายใจก่อนเสมอ ผู้ที่ posturing มี GCS ≤ 8 ต้องใส่ท่อช่วยหายใจก่อนส่ง CT",
+  "why": "ตาม <b>ATLS</b> ผู้ป่วยบาดเจ็บศีรษะรุนแรงต้องเริ่มจาก <b>primary survey (ABCDE)</b> · ผู้ที่มี <b>decerebrate posturing</b> คะแนน motor = 2 → <b>GCS ≤ 8</b> ซึ่งเป็นเกณฑ์ <b>ใส่ท่อช่วยหายใจเพื่อป้องกันทางเดินหายใจ</b> (ใช้ RSI ร่วม manual in-line stabilization ของคอ) · เหตุผล: ภาวะ<b>ขาดออกซิเจน (SpO₂ &lt; 90%) และความดันต่ำ (SBP &lt; 100–110)</b> แม้ครั้งเดียวทำให้อัตราตายจาก TBI สูงขึ้นมาก (secondary brain injury) · เมื่อมีสัญญาณ herniation ทำ <b>hyperventilation ชั่วคราว (PaCO₂ 30–35 mmHg)</b> ร่วมกับ <b>mannitol 0.25–1 g/kg หรือ hypertonic saline</b> ระหว่างส่ง <b>CT ด่วน</b> แล้ว craniotomy · ไม่ตรงคีย์ไฟล์ — ไฟล์ขีด A (Non-contrast CT) และเขียน \"<b>Dx uncal herniation</b>\" ไฟล์มีช้อยแค่ A กับ \"ET tube\" เว็บเลือก B ตามลำดับ ATLS",
   "wrong": {
-   "A": "CT brain non-contrast จำเป็นเพื่อยืนยันและวางแผนผ่าตัด (คีย์ในไฟล์) แต่ทำหลังคุมทางเดินหายใจ · จะถูกถ้าผู้ป่วย GCS 14 รูม่านตาปกติ หายใจได้เอง",
-   "C": "LP ห้ามทำใน ICP สูง/ มีก้อนกินที่ — ทำให้สมองเคลื่อนรุนแรงขึ้น · จะถูกถ้าคำถามถามไข้ คอแข็ง CT ปกติ สงสัยเยื่อหุ้มสมองอักเสบ",
-   "D": "Skull X-ray ไม่ช่วยตัดสินใจรักษา ไม่เห็นก้อนเลือด · จะถูกถ้าคำถามถามสงสัยกะโหลกแตกในที่ที่ไม่มี CT (ใช้คัดกรองเด็ก)",
-   "E": "MRI ใช้เวลานาน ไม่เหมาะในผู้ป่วยวิกฤต · จะถูกถ้าคำถามถาม diffuse axonal injury ที่ CT ปกติแต่ GCS ต่ำ"
+   "A": "Non-contrast CT brain เป็นการตรวจที่<b>ต้องทำแน่นอน</b>และเร็วที่สุดเพื่อหาตำแหน่งเลือดก่อนผ่าตัด (คีย์ในไฟล์เลือกข้อนี้) แต่ผู้ที่มี posturing และสติลดลงต้อง<b>ป้องกันทางเดินหายใจก่อน</b>ส่งไปห้อง CT ซึ่งดูแลยาก · จะถูกถ้าเป็นชาย 30 ปีถูกตีศีรษะ GCS 14 พูดคุยได้ หายใจดี SpO₂ 98% ไม่มี focal deficit แต่ปวดศีรษะและอาเจียน 2 ครั้ง",
+   "C": "Lumbar puncture <b>ห้ามทำ</b>เมื่อมีก้อนในกะโหลกหรือสงสัย ICP สูง เพราะลดแรงดันด้านล่างทำให้เกิด <b>tonsillar herniation</b> ได้ · ใช้วินิจฉัย meningitis หรือ SAH ที่ CT ไม่พบ · จะถูกถ้าเป็นหญิง 40 ปี ปวดศีรษะรุนแรงฉับพลัน 8 ชั่วโมงก่อน CT ไม่พบเลือดและไม่มีก้อน ต้องหา xanthochromia เพื่อยืนยัน SAH",
+   "D": "Skull X-ray เห็นกะโหลกแตกได้แต่<b>ไม่เห็นเลือดในกะโหลก</b> เสียเวลาและไม่เปลี่ยนการรักษา จึงถูกแทนที่ด้วย CT แล้ว · จะถูกถ้าเป็นเด็กอายุ 1 ปีที่สงสัยถูกทำร้าย ต้องทำ skeletal survey หากระดูกหักหลายตำแหน่ง ร่วมกับ CT สมอง",
+   "E": "MRI brain ละเอียดกว่าสำหรับ diffuse axonal injury และรอยโรคก้านสมอง แต่<b>ใช้เวลานาน</b> ดูแลผู้ป่วยวิกฤตในเครื่องยาก และเห็นเลือดเฉียบพลันได้ไม่ดีเท่า CT จึงไม่ใช่การตรวจแรกในภาวะฉุกเฉิน · จะถูกถ้าเป็นชาย 22 ปีหลังอุบัติเหตุรถ GCS ยังต่ำค้างหลายวันทั้งที่ CT ปกติหรือมีเพียงจุดเลือดเล็ก ๆ สงสัย diffuse axonal injury"
   },
-  "trap": "รีบส่ง CT ก่อนคุมทางเดินหายใจ — ATLS: Airway ก่อนเสมอในผู้ป่วยซึมลง/ herniation (คีย์ในไฟล์ตอบ CT)",
+  "trap": "เมื่อวินิจฉัยได้ว่าเป็น herniation จากก้อนเลือด คนมักรีบเลือก CT เพื่อไปผ่าตัด (คีย์ในไฟล์ก็เลือก CT) — แต่ <b>Airway มาก่อนเสมอ</b> และ GCS ≤ 8 (มี posturing) คือเกณฑ์ใส่ท่อช่วยหายใจ · CT ทำต่อทันทีหลังทางเดินหายใจปลอดภัย",
   "summary": [
-   "ATLS: A (+ C-spine) → B → C → D → E",
-   "GCS ≤ 8 → intubate",
-   "เลี่ยง hypoxia (SpO<sub>2</sub> &lt; 90%) และ hypotension (SBP &lt; 100–110)",
-   "Herniation: hyperventilate ชั่วคราว (PaCO<sub>2</sub> 30–35) + mannitol/ hypertonic saline",
-   "CT brain non-contrast → ผ่าตัดด่วน",
-   "ห้าม LP เมื่อสงสัย ICP สูง"
+   "TBI รุนแรง = GCS 3–8 · ใส่ท่อช่วยหายใจเมื่อ GCS ≤ 8 ป้องกันทางเดินหายใจไม่ได้ หรือมีสัญญาณ herniation",
+   "ป้องกัน secondary brain injury: SpO₂ ≥ 90%, PaO₂ &gt; 60, SBP ≥ 100 (อายุ 50–69) หรือ ≥ 110 (15–49 และ ≥ 70) mmHg, PaCO₂ 35–40",
+   "สัญญาณ herniation: hyperventilation ชั่วคราว PaCO₂ 30–35 + mannitol 0.25–1 g/kg หรือ 3% saline + หัวสูง 30° → CT → ผ่าตัด",
+   "ห้าม hyperventilation ป้องกันล่วงหน้า (PaCO₂ &lt; 25) และห้ามใช้ steroid ใน TBI (CRASH trial)",
+   "CT สมองไม่ฉีดสี = การตรวจหลัก · ผู้บาดเจ็บเล็กน้อยใช้เกณฑ์ Canadian CT Head Rule ตัดสินใจ",
+   "ห้ามเจาะหลังเมื่อสงสัยก้อนหรือ ICP สูง (เสี่ยง tonsillar herniation)",
+   "หลังผ่าตัด: ICP &lt; 22 mmHg, CPP 60–70 mmHg, ป้องกันชัก levetiracetam/ phenytoin 7 วัน"
   ],
-  "opinion": "ความมั่นใจปานกลาง — คีย์ในไฟล์ MCQ Key 2 ตอบ A (CT) ลายมือ \"Dx uncal herniation\"; เว็บตอบ B (ET tube) เพราะผู้ป่วยมีสัญญาณ herniation และระดับความรู้สึกตัวลดลง ต้องคุมทางเดินหายใจก่อนตาม ATLS แล้วจึงส่ง CT · หากผู้ป่วย GCS สูงและหายใจได้ดี คำตอบจะเป็น CT",
-  "mnemonic": "<b>'สมองเคลื่อน: ท่อก่อน (A) แล้วค่อย CT'</b>",
-  "guide": "ATLS Student Course Manual 11th ed. (ACS 2025) — Head trauma; Brain Trauma Foundation Guidelines for the Management of Severe TBI 4th ed. (Neurosurgery 2017;80:6)",
+  "opinion": "ไม่ตรงคีย์ไฟล์ — คีย์ในไฟล์เลือก A (CT) แต่เว็บเฉลย B (ET tube) มั่นใจปานกลางถึงสูงตามลำดับ ATLS: ผู้ที่มี decerebrate posturing มี GCS ≤ 8 ต้องได้ airway ก่อน · ความเห็น: ถ้าคำถามหมายถึง \"การตรวจเพื่อวินิจฉัย\" คีย์ไฟล์ (CT) ก็สมเหตุผล และในความเป็นจริงทั้งสองอย่างต้องทำต่อกันทันที แต่เมื่อมีช้อย ET tube ให้เลือก ควรเลือก airway ก่อน",
+  "mnemonic": "<b>'Head injury: GCS 8 → Intubate (8 = เอา tube ใส่) · A มาก่อน CT เสมอ'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 11th ed. (American College of Surgeons 2025) ch. Head Trauma; Carney N et al. Guidelines for the Management of Severe TBI 4th ed. (Neurosurgery 2017)",
   "variants": [
-   "บาดเจ็บศีรษะ GCS 6 รูม่านตาซ้ายขยาย → intubate → CT → craniotomy",
-   "บาดเจ็บศีรษะ GCS 15 ปวดหัว อาเจียน 2 ครั้ง → CT brain",
-   "หลังใส่ท่อ รูม่านตาขยายมากขึ้น → hyperventilate ชั่วคราว + mannitol → OR"
+   "บาดเจ็บศีรษะ GCS E1V2M4 SpO₂ 88% → RSI ใส่ท่อช่วยหายใจพร้อม in-line stabilization แล้วส่ง CT",
+   "ใส่ท่อแล้วรูม่านตาซ้ายขยายมากขึ้น → hyperventilation ชั่วคราว PaCO₂ 30–35 + mannitol ระหว่างไป CT และห้องผ่าตัด",
+   "ถูกตีศีรษะ GCS 15 อาเจียน 2 ครั้ง อายุ 70 ปี → CT brain ตาม Canadian CT Head Rule",
+   "ทำไมความดันต่ำครั้งเดียวสำคัญใน TBI → สมองที่บาดเจ็บสูญเสีย autoregulation CPP ลดตามความดันทันทีจนขาดเลือดซ้ำ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 105 — ตัวพิมพ์: <b>64. ข้อใดคือวิธีการจัดการที่เหมาะสมสำหรับผู้ป่วยในข้อที่ผ่านมา — A. Non-contrast CT scan B. ET tube</b><br>ลายมือ: ขีด A + \"Dx uncal herniation\"<br>ไฮไลต์: \"วิธีการจัดการ\" · A (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย C–E (Lumbar puncture · Skull X-ray · MRI brain) และเฉลย B (ET tube) ต่างจากคีย์ในไฟล์ (A)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 105",
