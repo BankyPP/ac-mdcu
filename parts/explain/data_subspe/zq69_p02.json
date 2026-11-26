@@ -1,212 +1,377 @@
 {
  "MDCU69|RoA|38": {
-  "interp": "film ช่องท้องเห็น coffee bean (sigmoid volvulus) ร่วมลมในผนัง sigmoid (pneumatosis = ลำไส้ขาดเลือด/ตาย) · ถามการรักษา",
-  "why": "<b>คีย์: ขีด A · ลายมือ gangrene, pneumatosis/perforation → Sx · ไม่มี gangrene → elective sigmoidectomy</b><br><b>นอกสไลด์:</b> ลมในผนังลำไส้บอกว่า sigmoid ที่บิดขาดเลือดแล้ว → ห้ามส่องกล้องแก้บิด ต้องผ่าตัดเปิดหน้าท้องตัดลำไส้ส่วนที่ตาย",
+  "interp": "ฟิล์มเห็น <b>coffee-bean sign + ลมในผนังลำไส้ sigmoid</b> → ถามการจัดการ",
+  "why": "Coffee-bean sign = <b>sigmoid volvulus</b> · <b>ลมในผนังลำไส้ (pneumatosis)</b> บ่งชี้ว่า<b>ลำไส้ขาดเลือด/ เน่าตาย (gangrene)</b> → <b>ห้ามส่องกล้องคลายเกลียว</b> ต้อง <b>exploratory laparotomy</b> ทันที (ตัด sigmoid ที่ตาย มักทำ Hartmann procedure) · ถ้า<b>ไม่มี gangrene/ peritonitis</b> → resuscitate แล้ว<b>ส่องกล้องคลายเกลียว + ใส่ rectal tube</b> ตามด้วย<b>elective sigmoidectomy</b> ในการนอนโรงพยาบาลเดียวกัน เพราะกลับเป็นซ้ำสูง (~40–60%) · ไฟล์ขีด A ลายมือ <b>\"gangrene\"</b> เหนือ air in sigmoid wall และที่ B <b>\"no gangrene/peritonitis → elective sigmoidectomy\"</b> พร้อมแปะตำรา (ไฮไลต์แดง) \"Clinical evidence of gangrene or perforation mandates immediate surgical exploration without an attempt at endoscopic decompression\"",
   "wrong": {
-   "B": "จะถูกถ้าไม่มี peritonitis และไม่มีสัญญาณลำไส้ขาดเลือด (ไม่มีลมในผนังหรือลมใต้กะบังลม) — ส่องกล้องแก้บิดแล้วตัด sigmoid แบบ elective",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้สูงอายุโรคร่วมมากจนผ่าตัดไม่ได้ ไม่มีสัญญาณขาดเลือด — แก้บิดแล้วคาสาย rectal tube ไว้ โดยยอมรับว่าจะเป็นซ้ำ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่สวน barium ใช้แก้บิดเมื่อลำไส้อาจตายหรือทะลุ เพราะ barium ที่รั่วเข้าช่องท้องทำให้ peritonitis รุนแรง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่งดน้ำอาหารและให้ยาปฏิชีวนะอย่างเดียวรักษา sigmoid volvulus เพราะเป็นการอุดตันแบบ closed loop ที่ต้องแก้บิดหรือตัดออก"
+   "B": "ส่องกล้องคลายเกลียวใช้เมื่อไม่มีสัญญาณลำไส้ตาย (ลายมือ \"no gangrene/peritonitis\") · จะถูกถ้าผู้สูงอายุ sigmoid volvulus ท้องอืด ไม่มีไข้ ไม่มี peritonitis ฟิล์มไม่มีลมในผนัง",
+   "C": "Rectal tube อย่างเดียวไม่แก้ลำไส้ที่ตาย · จะถูกถ้าใช้คาไว้หลังส่องกล้องคลายเกลียวสำเร็จ เพื่อลดการบิดซ้ำ",
+   "D": "Barium enema ห้ามเมื่อสงสัยลำไส้ตาย/ ทะลุ · จะถูกถ้าใช้ water-soluble contrast enema วินิจฉัย (bird's beak) ในผู้ป่วยคงที่ที่ภาพไม่ชัด",
+   "E": "NPO + ยาปฏิชีวนะอย่างเดียวไม่แก้การบิดและลำไส้ตาย · จะถูกถ้าคำถามเป็น pneumatosis intestinalis ไม่มีอาการ (benign) ที่ไม่ได้เกิดจาก volvulus"
   },
-  "trap": "เห็น coffee bean แล้วตอบส่องกล้องแก้บิดตามความเคยชิน — ต้องดูสัญญาณขาดเลือดก่อนเสมอ: peritonitis, ลมใต้กะบังลม, ลมในผนังลำไส้",
+  "trap": "ส่องกล้องคลายเกลียวทุกราย — ลมในผนังลำไส้ = ลำไส้ตาย ต้องผ่าตัด",
   "summary": [
-   "<b>นอกสไลด์:</b> sigmoid volvulus ที่มีสัญญาณขาดเลือด (peritonitis, free air, pneumatosis, เยื่อบุดำจากการส่องกล้อง) → resuscitate + ยาปฏิชีวนะ → laparotomy ตัด sigmoid โดยไม่คลายบิดก่อน → Hartmann หรือต่อลำไส้ ± stoma ตามสภาพผู้ป่วย"
+   "Sigmoid volvulus: ผู้สูงอายุ ท้องผูกเรื้อรัง ติดเตียง · coffee-bean sign",
+   "ไม่มี gangrene → endoscopic detorsion + rectal tube → elective sigmoidectomy",
+   "Gangrene/ perforation/ peritonitis → laparotomy (Hartmann)",
+   "ข้อบ่งชี้ลำไส้ตาย: pneumatosis · free air · เยื่อบุดำ/ แผลในกล้อง · peritonitis",
+   "Cecal volvulus → ผ่าตัด (right hemicolectomy) ไม่ส่องกล้องคลาย",
+   "กลับเป็นซ้ำหลังคลายเกลียวอย่างเดียว ~40–60%"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และตำราที่แปะ · ต้นฉบับมี 2 ช้อย จึงเติม C, D, E",
+  "mnemonic": "<b>'Coffee bean + ลมในผนัง = ลำไส้ตาย → ผ่า (ไม่ส่อง)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction (Dis Colon Rectum 2021;64:1046)",
   "variants": [
-   "<b>นอกสไลด์:</b> ส่องกล้องแก้บิดแล้วเห็นเยื่อบุ sigmoid ดำคล้ำ → หยุดแก้บิด ไปผ่าตัดฉุกเฉิน",
-   "<b>นอกสไลด์:</b> sigmoid volvulus ไม่มีสัญญาณขาดเลือด แต่ส่องกล้องแก้บิดไม่สำเร็จ → ผ่าตัดตัด sigmoid ฉุกเฉิน"
+   "ผู้สูงอายุ sigmoid volvulus ไม่มี peritonitis → endoscopic detorsion → elective sigmoidectomy",
+   "ส่องกล้องเห็นเยื่อบุสีดำ → ยุติการส่อง → laparotomy",
+   "cecal volvulus → right hemicolectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 49 — ตัวพิมพ์: <b>38. coffee bean sign &amp; air in sigmoid wall. Management? — A. explore lap B. sigmoidoscopy&amp;detorsion</b><br>ลายมือ: \"gangrene\" เหนือ air in sigmoid wall · ขีด A · B \"no gangrene/ peritonitis → elective sigmoidectomy\" (แดง)<br>ไฮไลต์: \"coffee bean sign &amp; air in sigmoid wall. Management?\" · A \"explore lap\" (เหลือง)<br>รูปที่แปะ: ตำรา (ไฮไลต์แดง) \"Unless there are obvious signs of gangrene or peritonitis, the initial management of sigmoid volvulus is resuscitation followed by endoscopic detorsion … A rectal tube may be inserted … the risk of recurrence is high (up to 40%) … For this reason, an elective sigmoid colectomy should be performed after the patient has been stabilized … Clinical evidence of gangrene or perforation mandates immediate surgical exploration without an attempt at endoscopic decompression. Similarly, the presence of necrotic mucosa, ulceration, or dark blood noted on endoscopic examination suggests strangulation and is an indication for operation.\"<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 40: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 2 ช้อย → เติม C, D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 49",
+  "kimg": [
+   "fsk_p49",
+   "kp69a_38",
+   "k2p_40"
   ]
  },
  "MDCU69|RoA|51": {
-  "interp": "ทารกแรกเกิดมี double bubble sign (duodenal atresia) · ข้อ WRONG ถามข้อความที่ไม่ถูก",
-  "why": "<b>คีย์: ขีด B · ลายมือ duodenal atresia → poly(hydramnios)</b><br><b>นอกสไลด์:</b> ทารกกลืนน้ำคร่ำแล้วดูดซึมที่ลำไส้ไม่ได้เพราะอุดตันตั้งแต่ duodenum → น้ำคร่ำมาก (polyhydramnios) ไม่ใช่น้ำคร่ำน้อย",
+  "interp": "ทารกแรกเกิดพบ <b>double bubble sign</b> ถามข้อ<b>ผิด</b>",
+  "why": "Double bubble (ลมในกระเพาะและ duodenum ส่วนต้น) = <b>duodenal atresia</b> (หรือ annular pancreas/ web) · ทารกกลืนน้ำคร่ำไม่ได้ในครรภ์ → <b>polyhydramnios (ไม่ใช่ oligohydramnios)</b> · ~30% มี <b>Down syndrome</b> · ส่วนใหญ่อุดใต้ ampulla → <b>อาเจียนน้ำดี</b> · ความผิดปกติร่วม: หัวใจ, malrotation, annular pancreas, situs inversus, <b>preduodenal (anterior) portal vein</b> · รักษา: OG decompression, สารน้ำ แล้ว <b>duodenoduodenostomy</b> (diamond-shaped) · ไฟล์ขีด B แก้ \"oligo\" เป็น <b>\"poly\"</b> และลายมือ <b>\"duodenal atresia\"</b> ติ๊ก ✓ ที่ A และ E",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “สัมพันธ์กับ Down syndrome” ผิด เพราะราว 30% ของ duodenal atresia มี Down syndrome",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “อาเจียนน้ำดีพบบ่อย” ผิด เพราะจุดอุดตันส่วนใหญ่อยู่ใต้ ampulla of Vater",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “รักษาด้วย duodenoduodenostomy” ผิด เพราะเป็นการผ่าตัดมาตรฐานที่ต่อข้ามจุดอุดตันโดยไม่ตัด annular pancreas",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้ผิด เพราะ duodenal atresia เกิดร่วมความผิดปกติของการหมุนและตำแหน่งอวัยวะได้จริง เช่น preduodenal portal vein และ situs inversus (พบน้อย)"
+   "A": "ถูก — duodenal atresia สัมพันธ์กับ Down syndrome ~30% (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าสัมพันธ์กับ trisomy 18 มากที่สุด",
+   "C": "ถูก — ส่วนใหญ่อุดใต้ ampulla of Vater จึงอาเจียนน้ำดี · จะถูกถ้าช้อยบอกว่าอาเจียนไม่มีน้ำดีเสมอ (เฉพาะ preampullary ~15%)",
+   "D": "ถูก — duodenoduodenostomy เป็นการผ่าตัดมาตรฐาน · จะถูกถ้าช้อยบอกว่ารักษาด้วย gastrojejunostomy เป็นหลัก",
+   "E": "ถูก — อาจพบ situs inversus และ anterior (preduodenal) portal vein ร่วม (ลายมือ ✓) · จะถูกถ้าช้อยบอกว่าไม่มีความผิดปกติร่วมเลย"
   },
-  "trap": "จำสลับ: ทางเดินอาหารส่วนต้นอุดตัน (EA, duodenal atresia) → น้ำคร่ำมาก · ไตไม่ทำงานหรือทางเดินปัสสาวะอุดตัน (renal agenesis, posterior urethral valve) → น้ำคร่ำน้อย",
+  "trap": "สับสนน้ำคร่ำ — อุดตันทางเดินอาหารส่วนบน = กลืนน้ำคร่ำไม่ได้ = polyhydramnios",
   "summary": [
-   "<b>นอกสไลด์:</b> duodenal atresia: ก่อนคลอดเห็น double bubble + น้ำคร่ำมาก · หลังคลอด AXR double bubble ไม่มีลมส่วนปลาย · ร่วม Down syndrome ราว 30% หัวใจพิการ annular pancreas malrotation · NG + สารน้ำ + echo → duodenoduodenostomy (diamond-shaped)"
+   "Double bubble = duodenal atresia/ stenosis/ annular pancreas",
+   "Polyhydramnios · Down syndrome ~30%",
+   "อาเจียนน้ำดี (postampullary ~85%)",
+   "ฟิล์มไม่มีลมปลาย = atresia · มีลมปลาย = stenosis/ ต้องแยก malrotation volvulus",
+   "รักษา: duodenoduodenostomy",
+   "ตรวจหัวใจ (echo) ร่วม"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ \"poly\" · ช้อย C, D ต้นฉบับว่าง จึงเติม",
+  "mnemonic": "<b>'อุดตันลำไส้ส่วนบนในครรภ์ = กลืนไม่ได้ = น้ำคร่ำมาก (poly)'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Duodenal atresia and stenosis",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกอาเจียนไม่มีน้ำดีตั้งแต่วันแรก AXR double bubble ไม่มีลมส่วนปลาย → duodenal atresia ที่อุดเหนือ ampulla (พบน้อย)",
-   "<b>นอกสไลด์:</b> ก่อนคลอด US เห็น double bubble และน้ำคร่ำมาก → วางแผนคลอดใน รพ.ที่มีศัลยแพทย์เด็ก และเสนอตรวจโครโมโซมทารกในครรภ์"
+   "ทารก Down syndrome อาเจียนน้ำดีวันแรก double bubble ไม่มีลมปลาย → duodenoduodenostomy",
+   "ทารก double bubble มีลมปลาย อาเจียนน้ำดี → upper GI ด่วนแยก malrotation volvulus",
+   "ทารกแม่มี polyhydramnios น้ำลายมาก → esophageal atresia"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 49 — ตัวพิมพ์: <b>51. neonate เจอ double bubble sign ข้อไหนผิด — A. associate กับ down syndrome B. oligohydramnios C. D. E. พบ sinus inversus anterior portal vein</b><br>ลายมือ: \"duodenal atresia\" เหนือ double bubble sign · A ✓ · ขีด B + แก้ \"oli\" เป็น \"poly\" · E ✓<br>ไฮไลต์: \"neonate เจอ double bubble sign\" \"ผิด\" · B (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 40: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย C, D ว่าง → เติม",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 49",
+  "kimg": [
+   "fsk_p49",
+   "kp69a_51",
+   "k2p_40"
   ]
  },
  "MDCU69|RoA|40": {
-  "interp": "วัยรุ่นมะเร็งเม็ดเลือดขาว ได้เคมี 10 วันก่อน (ช่วง nadir) มีริดสีดวงภายในหลุดออกมาและมีลิ่มเลือด · ถามการจัดการ",
-  "why": "<b>คีย์: ขีด E · ลายมือ ระวัง neutropenia/coagulopathy</b><br><b>นอกสไลด์:</b> 10 วันหลังเคมีคือช่วงเม็ดเลือดขาวและเกล็ดเลือดต่ำสุด หัตถการที่ทวารเสี่ยงติดเชื้อลามและเลือดออกมาก → รักษาแบบประคับประคองด้วย sitz bath ยาระบายนุ่ม ยาแก้ปวดและยาทาเฉพาะที่ รอเม็ดเลือดฟื้น",
+  "interp": "วัยรุ่น 18 ปี <b>มะเร็งเม็ดเลือดขาว ได้เคมีบำบัด 10 วันก่อน</b> (ช่วง nadir) มี <b>prolapsed thrombosed internal hemorrhoid</b> → ถามการรักษาที่เหมาะสม",
+  "why": "10 วันหลังเคมีบำบัด = ช่วง <b>neutropenia และเกล็ดเลือดต่ำ (nadir)</b> → การผ่าตัด/ หัตถการที่ทวาร (hemorrhoidectomy, RBL, I&amp;D) <b>เสี่ยงติดเชื้อรุนแรง (pelvic/ perianal sepsis) และเลือดออก</b> สูงมาก · จึงรักษา<b>แบบอนุรักษ์</b>: <b>แช่ก้นน้ำอุ่น</b>, ยาระบาย/ ใยอาหาร, ยาแก้ปวด/ ยาทา ± ยาปฏิชีวนะครอบคลุมถ้ามีไข้/ neutropenic · พิจารณาหัตถการเมื่อเม็ดเลือดฟื้นแล้วหรือเมื่อมีฝี/ เนื้อตายที่จำเป็น · ไฟล์ MCQ Key 2 ขีด E ลายมือ <b>\"→ C/I : coagulopathy, immunocom.\"</b> แต่ไฟล์ Key 1 ขีด <b>B</b> (คีย์ 2 ไฟล์ไม่ตรงกัน)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น thrombosed external hemorrhoid ที่ปวดมากภายใน 48–72 ชม.แรกในผู้ป่วยที่เม็ดเลือดปกติ — กรีดเอาลิ่มเลือดออก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยภูมิคุ้มกันและเกล็ดเลือดปกติ มีริดสีดวงภายในหลุดค้างมีลิ่มเลือด (strangulated) — ผ่าตัด hemorrhoidectomy ฉุกเฉินได้",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นริดสีดวงภายใน grade III ที่ไม่มีลิ่มเลือดหรือขาดเลือด ผ่าตัดแบบ elective",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นริดสีดวงภายใน grade I–II ที่เลือดออก ไม่มีลิ่มเลือด ในผู้ป่วยภูมิคุ้มกันปกติ"
+   "A": "กรีดระบายใช้กับ thrombosed external hemorrhoid ภายใน 72 ชม. ในคนภูมิปกติ ไม่ใช่ internal ในผู้ป่วย neutropenia · จะถูกถ้าคนแข็งแรงมี thrombosed external hemorrhoid ปวดมาก 24 ชม.",
+   "B": "Hemorrhoidectomy ระหว่าง neutropenia/ เกล็ดเลือดต่ำเสี่ยง sepsis และเลือดออกสูง (คีย์ไฟล์ Key 1 ตอบข้อนี้) · จะถูกถ้าคนแข็งแรงมี prolapsed thrombosed internal hemorrhoid (ระดับ 4) ที่ดันกลับไม่ได้",
+   "C": "Stapled hemorrhoidopexy ไม่ใช้กับ thrombosed/ strangulated hemorrhoid และเสี่ยงติดเชื้อในผู้ภูมิต่ำ · จะถูกถ้าคนแข็งแรงมีริดสีดวงระดับ 3 แบบ circumferential ไม่มี thrombosis",
+   "D": "RBL ห้ามในผู้ภูมิต่ำ/ coagulopathy (เสี่ยง pelvic sepsis) และไม่ใช้กับ thrombosed hemorrhoid (ลายมือ \"C/I : coagulopathy, immunocom.\") · จะถูกถ้าคนแข็งแรงมีริดสีดวงภายในระดับ 2 เลือดออก"
   },
-  "trap": "เลือกผ่าตัดเพราะริดสีดวงหลุดและมีลิ่มเลือด — ต้องดูผู้ป่วยก่อน: ช่วง nadir หลังเคมี หัตถการที่ทวารเสี่ยงติดเชื้อรุนแรงและเลือดออก",
+  "trap": "รักษาแบบคนทั่วไป (ผ่าตัด) — ผู้ป่วยหลังเคมีบำบัด 10 วัน neutropenic ทำหัตถการทวารเสี่ยง sepsis · คีย์ 2 ไฟล์ไม่ตรงกัน (Key 2: E, Key 1: B)",
   "summary": [
-   "<b>นอกสไลด์:</b> nadir หลังเคมีส่วนใหญ่ราววันที่ 7–14 · ผู้ป่วย neutropenia ที่มีปัญหาทวาร: รักษาแบบประคับประคอง (sitz bath ยาระบายนุ่ม ยาแก้ปวด) · เลี่ยงตรวจทางทวาร สวน และยาเหน็บ · ผ่าตัดเฉพาะเมื่อมีเนื้อตายหรือฝีที่ต้องระบาย ร่วมยาปฏิชีวนะ"
+   "Neutropenia/ thrombocytopenia → หลีกเลี่ยงหัตถการทวาร",
+   "อนุรักษ์: แช่ก้น ยาระบาย ยาแก้ปวด ± ATB ครอบคลุม",
+   "มีไข้ + neutropenia → broad-spectrum ATB (รวม anaerobe/ gram-negative)",
+   "ผ่าตัดเมื่อฝี/ เนื้อตายจำเป็น หรือหลังเม็ดเลือดฟื้น",
+   "RBL ข้อห้าม: ภูมิต่ำ · coagulopathy · portal HT",
+   "ห้ามตรวจทางทวาร/ เหน็บยาใน neutropenia ถ้าเลี่ยงได้"
   ],
-  "opinion": "ตามคีย์ชุดแรก E · มั่นใจปานกลาง–สูง — คีย์ไฟล์ 01.2 ขีด B (hemorrhoidectomy) ซึ่งเหมาะกับผู้ป่วยภูมิคุ้มกันปกติ ไม่ใช่ช่วง nadir",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 และลายมือ ส่วนคีย์ไฟล์ Key 1 ตอบ B (คีย์ 2 ไฟล์ไม่ตรง) ซึ่งไม่เหมาะในช่วง nadir ของเคมีบำบัด",
+  "mnemonic": "<b>'หลังเคมี 7–14 วัน (nadir) = ห้ามแตะก้น → แช่น้ำอุ่น + ยา'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024;67:614); IDSA Clinical Practice Guideline for Febrile Neutropenia (Clin Infect Dis 2011;52:e56)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย neutropenia หลังเคมี ปวดทวารและไข้ ยังคลำไม่พบหนองชัด → perianal infection: ยาปฏิชีวนะครอบคลุม gram-negative และ anaerobe ระบายเมื่อพบหนอง",
-   "<b>นอกสไลด์:</b> ผู้ป่วยหลังเคมี เกล็ดเลือด 20,000 เลือดออกจากริดสีดวงมาก → ให้เกล็ดเลือด กดห้ามเลือด เลี่ยงการรัดยาง"
+   "ผู้ป่วยหลังเคมี neutropenic มีฝีรอบทวาร fluctuate + sepsis → ระบายจำกัด + IV ATB",
+   "คนแข็งแรง thrombosed external hemorrhoid 24 ชม. ปวดมาก → excision",
+   "คนแข็งแรง prolapsed thrombosed internal hemorrhoid ดันกลับไม่ได้ → hemorrhoidectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 49 — ตัวพิมพ์: <b>40. 18 years old leukemia, received chemotherapy 10 days ago present with prolapsed thrombosed internal hemorrhoid. What is the appropriate management? — A. Incision and drainage B. Hemorrhoidectomy C. Stapler hemorrhoidectomy D. RBL with medical treatment E. Warm sitz bath with medical treatment</b><br>ลายมือ: ข้าง C–D \"→ C/I : coagulopathy, immunocom.\" (แดง) · ขีด E · \"?\" และ \"+ATB\" ที่สไลด์ DG-HAL<br>ไฮไลต์: \"18 years old leukemia\" \"chemotherapy 10 days ago\" \"present with prolapsed thrombosed internal hemorrhoid\" \"appropriate management\" · E (เหลือง)<br>รูปที่แปะ: ภาพถ่ายริดสีดวง 2 ภาพ · ภาพถ่ายสไลด์ hemorrhoidectomies (open/ closed/ stapled hemorrhoidopexy …) · สไลด์ Doppler guided hemorrhoid artery ligation (DG-HAL) (ตัวเล็ก อ่านได้บางส่วน)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 40: ขีด B (⚠ คีย์ 2 ไฟล์ไม่ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 49",
+  "kimg": [
+   "fsk_p49",
+   "kp69a_40",
+   "k2p_40"
   ]
  },
  "MDCU69|RoA|44": {
-  "interp": "ถามการเตรียมลำไส้ที่ไม่เหมาะ · ประเด็นคือ sodium phosphate ในผู้ป่วยไตเสื่อม",
-  "why": "<b>คีย์: ขีด C · ลายมือ CKD ห้าม NaP → phosphate nephropathy</b><br><b>นอกสไลด์:</b> sodium phosphate ดึงน้ำเข้าลำไส้และให้ฟอสเฟตปริมาณมาก → ขาดน้ำและผลึก calcium phosphate ตกในไต (acute phosphate nephropathy) ซึ่งไตเสื่อมถาวรได้ · ผู้ป่วยไตเสื่อมจึงใช้ PEG",
+  "interp": "ถามการ<b>เตรียมลำไส้</b>ข้อใด<b>ไม่เหมาะสม</b>",
+  "why": "<b>Sodium phosphate (NaP)</b> เป็นสารเตรียมลำไส้แบบ hyperosmotic ดูดซึมฟอสเฟตได้มาก → <b>acute phosphate nephropathy</b> (ไตวายถาวร) · <b>ห้าม/ หลีกเลี่ยง</b>ในผู้ป่วย <b>CKD</b>, ผู้สูงอายุ, หัวใจวาย, ตับแข็ง, ขาดน้ำ, กินยา ACEI/ ARB/ diuretic/ NSAIDs · ผู้ป่วยกลุ่มนี้ใช้ <b>PEG</b> (isotonic ไม่ดูดซึม ไม่เปลี่ยนสมดุลเกลือแร่) · ไฟล์ขีด C ลายมือ <b>\"isotonic\"</b> เหนือ PEG และ <b>\"Na⁺, (P) ↑\"</b> พร้อมเครื่องหมาย \"!\" ที่ CKD และ sodium phosphate",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นการเตรียมที่ไม่เหมาะ) ถ้าผู้ป่วยมีลำไส้อุดตันจากก้อน — ห้ามดื่มยาระบายปริมาณมาก",
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นการเตรียมที่ไม่เหมาะ) ถ้าผู้ป่วยซึมหรือกลืนลำบาก เสี่ยงสำลักน้ำยาปริมาณมาก",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นการเตรียมที่ไม่เหมาะ) ถ้าผู้หญิงคนนี้สูงอายุ ขาดน้ำ หรือกิน ACEI/ARB ยาขับปัสสาวะหรือ NSAID ซึ่งเพิ่มความเสี่ยง phosphate nephropathy",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ “ไม่มีข้อใดไม่เหมาะ” เป็นจริง เพราะ sodium phosphate ในผู้ป่วยไตเสื่อมเสี่ยง acute phosphate nephropathy"
+   "A": "เหมาะสม — PEG 2–3 L ก่อนส่องกล้องในคนทั่วไป · จะถูกถ้าผู้ป่วยมีลำไส้อุดตัน (ห้ามเตรียมลำไส้แบบดื่ม)",
+   "B": "เหมาะสม — PEG ปลอดภัยใน CKD · จะถูกถ้าผู้ป่วยมีภาวะลำไส้อุดตันจากมะเร็ง (ห้ามดื่มสารเตรียมปริมาณมาก)",
+   "D": "เหมาะสม — NaP ใช้ได้ในคนอายุน้อย ไตปกติ ดื่มน้ำพอ · จะถูกถ้าหญิง 40 ปีคนเดียวกันมี CKD หรือกิน ACEI/ diuretic",
+   "E": "มีข้อที่ไม่เหมาะสม (C) · จะถูกถ้าทุกช้อยใช้สารที่เหมาะกับผู้ป่วย"
   },
-  "trap": "ไตเสื่อมที่ยังไม่ล้างไตยังเป็นข้อห้ามของ sodium phosphate — ข้อห้ามไม่ได้จำกัดแค่ผู้ป่วยล้างไต · PEG เป็นสารละลาย iso-osmotic ใช้ได้ปลอดภัยในไตเสื่อมและหัวใจล้มเหลว",
+  "trap": "คิดว่าสารเตรียมลำไส้ทุกชนิดปลอดภัยเท่ากัน — NaP ทำไตวายในผู้ป่วย CKD",
   "summary": [
-   "<b>นอกสไลด์:</b> ห้าม/ระวัง sodium phosphate: ไตเสื่อม หัวใจล้มเหลว ตับแข็งมีน้ำในท้อง สูงอายุ ขาดน้ำ ยา ACEI/ARB/ยาขับปัสสาวะ/NSAID · ทางเลือกที่ปลอดภัย: PEG"
+   "PEG: isotonic ไม่ดูดซึม ปลอดภัยใน CKD/ HF/ ตับแข็ง",
+   "NaP: hyperosmotic → acute phosphate nephropathy",
+   "ห้าม NaP: CKD · สูงอายุ · HF · ขาดน้ำ · ACEI/ ARB/ diuretic/ NSAIDs",
+   "Split-dose ดีที่สุดสำหรับความสะอาด",
+   "ห้ามเตรียมลำไส้แบบดื่มใน bowel obstruction",
+   "Mechanical + oral antibiotic bowel prep ลด SSI ใน colectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'ไตไม่ดี = ห้าม Phosphate (NaP) · ใช้ PEG'</b>",
+  "guide": "US Multi-Society Task Force: Optimizing Adequacy of Bowel Cleansing for Colonoscopy (Gastroenterology 2025); FDA Safety Communication on oral sodium phosphate (2008)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยนัดผ่าตัดลำไส้ใหญ่แบบ elective → เตรียมลำไส้ร่วมยาปฏิชีวนะชนิดกิน ลดแผลผ่าตัดติดเชื้อ",
-   "<b>นอกสไลด์:</b> ดื่ม PEG แล้วยังถ่ายเป็นกากสีน้ำตาล → เตรียมซ้ำหรือเลื่อนส่องกล้อง (ลำไส้ไม่สะอาดทำให้พลาดรอยโรค)"
+   "ผู้ป่วย CKD stage 3 ก่อน colonoscopy → PEG split-dose",
+   "ผู้ป่วยมะเร็งลำไส้อุดตัน → ห้ามเตรียมลำไส้แบบดื่ม",
+   "หลังดื่ม NaP creatinine สูงขึ้นถาวร → acute phosphate nephropathy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 49 — ตัวพิมพ์: <b>44. การเตรียมตัวข้อใดไม่เหมาะสม — A. 50 years old male PEG 2-3L ก่อนทำcolonoscopy B. 60 years ole male, non dialysis CKD PEG 2-3L คืนก่อนผ่าCA rectum C. 60 years old female, non dialysis CKD, sodium phosphate คืนก่อนผ่าCA rectum D. 40 years old female, swiff 90 ml ก่อนทำ colonoscopy E. none of above</b><br>ลายมือ: \"isotonic\" เหนือ PEG · \"!\" ที่ CKD และ sodium phosphate + \"Na⁺, (P) ↑\" · ขีด C<br>ไฮไลต์: \"เตรียมตัวข้อใดไม่เหมาะสม\" (+ ขีดเส้นใต้แดง) · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 40: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 49",
+  "kimg": [
+   "fsk_p49",
+   "kp69a_44",
+   "k2p_40"
   ]
  },
  "MDCU69|RoA|53": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับ Hirschsprung disease",
-  "why": "<b>คีย์: ขีด C · ลายมือ myenteric/submucosa · enterocolitis 10–30% · rectal Bx = gold standard</b><br><b>นอกสไลด์:</b> neural crest cell เคลื่อนลงไม่ถึงปลายลำไส้ → ไม่มี ganglion cell ทั้ง submucosal (Meissner) และ myenteric (Auerbach) plexus ตั้งแต่ internal sphincter ต่อเนื่องขึ้นไป ลำไส้ส่วนนั้นจึงคลายตัวไม่ได้",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>Hirschsprung disease</b>",
+  "why": "Hirschsprung = <b>ไม่มี ganglion cell ทั้งใน myenteric (Auerbach — ชั้น muscularis propria) และ submucosal (Meissner) plexus</b> ของลำไส้ส่วนปลายต่อเนื่องขึ้นไป เพราะ neural crest เคลื่อนลงมาไม่ครบ · ส่วนใหญ่ (~75–80%) เป็นชนิด <b>rectosigmoid</b> (short segment) total colonic ~5–10% · อาการ: ขี้เทาออกช้า &gt; 48 ชม. ท้องอืด อาเจียนน้ำดี · <b>Gold standard วินิจฉัย = rectal suction biopsy</b> (ไม่มี ganglion cell + nerve trunk หนา + acetylcholinesterase เพิ่ม · calretinin ลบ) · Enterocolitis เป็นภาวะแทรกซ้อนที่อันตราย (~10–30%) ไม่ใช่อาการนำส่วนใหญ่ · ไฟล์ขีด C ลายมือ <b>\"muscularis propria\"</b> เหนือ Auerbach <b>\"submucosa\"</b> เหนือ Meissner · A แก้ common เป็น \"10–40%\" · B แก้ Barium enema เป็น <b>\"rectal Bx\"</b> · D แก้ nerve ending เป็น \"ganglion\"",
   "wrong": {
-   "A": "ไม่มีสถานการณ์ใดที่ข้อความ “enterocolitis เป็นอาการนำที่พบบ่อยที่สุด” เป็นจริง เพราะอาการนำส่วนใหญ่คือขี้เทาออกช้าและท้องอืดในทารกแรกเกิด — enterocolitis เป็นภาวะแทรกซ้อนราว 10–30%",
-   "B": "ไม่มีสถานการณ์ใดที่ข้อความ “barium enema เป็นมาตรฐานการวินิจฉัย” เป็นจริง เพราะมาตรฐานคือ rectal biopsy ที่ไม่พบ ganglion cell — enema ใช้ดู transition zone และวางแผนผ่าตัด",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “ขาดเฉพาะชั้น submucosa” เป็นจริง เพราะโรคเกิดจากเซลล์ประสาทไม่มาทั้งสองชั้นพร้อมกัน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “ส่วนใหญ่เป็นทั้ง colon” เป็นจริง เพราะส่วนใหญ่ (ราว 75–80%) เป็นแค่ rectosigmoid"
+   "A": "Enterocolitis เป็นภาวะแทรกซ้อน (~10–30%) ไม่ใช่อาการนำที่พบบ่อยที่สุด (ส่วนใหญ่มาด้วยขี้เทาออกช้า/ ท้องผูก) · จะถูกถ้าคำถามถามสาเหตุการตายที่สำคัญที่สุดของ Hirschsprung",
+   "B": "Barium enema ช่วยเห็น transition zone แต่ gold standard คือ rectal biopsy (ลายมือ \"rectal Bx\") · จะถูกถ้าคำถามถามภาพรังสีที่ช่วยวางแผนผ่าตัด (ดูตำแหน่ง transition zone)",
+   "D": "ที่ขาดคือ ganglion cell ไม่ใช่ nerve ending (nerve trunk กลับหนาขึ้น) (ลายมือแก้เป็น ganglion) · จะถูกถ้าคำถามถามลักษณะ hypertrophic nerve trunks ใน aganglionic segment",
+   "E": "ส่วนใหญ่เป็น rectosigmoid (short segment) total colonic พบ ~5–10% · จะถูกถ้าคำถามถามชนิดที่สัมพันธ์กับประวัติครอบครัวและพยากรณ์แย่กว่า"
   },
-  "trap": "เลือก D เพราะ suction biopsy ตักได้แค่ชั้น submucosa — การตรวจเห็นแค่ชั้นเดียวไม่ได้แปลว่าโรคมีแค่ชั้นเดียว",
+  "trap": "เลือก barium enema เพราะเป็นการตรวจแรกที่ส่ง — gold standard คือ rectal biopsy",
   "summary": [
-   "<b>นอกสไลด์:</b> ความยาวของส่วนที่ไม่มี ganglion: rectosigmoid ราว 75–80% · long segment · total colonic ราว 5–10% · ร่วม Down syndrome ราว 10% · ยีน RET"
+   "ไม่มี ganglion cell ทั้ง Auerbach (myenteric) และ Meissner (submucosal)",
+   "Rectosigmoid ~75–80% · total colonic ~5–10%",
+   "ขี้เทาออกช้า &gt; 48 ชม. · ท้องอืด · ตรวจทวารมีลมพุ่ง (blast sign)",
+   "Gold standard: rectal suction biopsy (calretinin ลบ, AChE เพิ่ม)",
+   "Contrast enema: transition zone (ไม่ใช่ gold standard)",
+   "รักษา: pull-through (Soave, Swenson, Duhamel) · ระวัง enterocolitis"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และการแก้ลายมือในไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Hirschsprung = No Ganglion (ทั้ง 2 plexus) · วินิจฉัย = Biopsy'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Hirschsprung disease; APSA Hirschsprung Disease Interest Group guidelines on enterocolitis (J Pediatr Surg 2017)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก Hirschsprung ไข้ ท้องอืดมาก ถ่ายเหลวเหม็นมาก → Hirschsprung enterocolitis: สวนล้าง rectum + ยาปฏิชีวนะทางหลอดเลือด",
-   "<b>นอกสไลด์:</b> เด็กท้องผูกเรื้อรัง anorectal manometry ไม่มี rectoanal inhibitory reflex → สงสัย Hirschsprung ยืนยันด้วย rectal biopsy"
+   "ทารกขี้เทาออกหลัง 72 ชม. ท้องอืด → rectal suction biopsy",
+   "เด็ก Hirschsprung ไข้ ท้องอืด ถ่ายเหลวเหม็น → enterocolitis → rectal irrigation + IV ATB",
+   "contrast enema เห็น transition zone ที่ rectosigmoid → วางแผน pull-through"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 49–50 — ตัวพิมพ์: <b>53. ข้อใดถูกเกี่ยวกับ Hirschsprung disease — A. Enterocolitis is common B. Barium edema is gold standard for dx C. Loss of both Auerbach and Meissner's plexus D. Loss of nerve ending at submucosa</b><br>ลายมือ: A ขีดฆ่า \"common\" เขียน \"10-40%\" · B ขีดฆ่า \"Barium edema\" เขียน \"rectal Bx\" · \"muscularis propria\" เหนือ Auerbach · \"submucosa\" เหนือ Meissner · ขีด C · D ขีดฆ่า \"nerve ending\" เขียน \"ganglion\"<br>ไฮไลต์: \"ถูกเกี่ยวกับ Hirschsprung disease\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 41: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 49",
+  "kimg": [
+   "fsk_p49",
+   "kp69a_53",
+   "kp69a_53b",
+   "k2p_41"
   ]
  },
  "MDCU69|RoA|55": {
-  "interp": "เด็ก 9 เดือนแข็งแรงดี อาเจียน ถ่ายมูกเลือด ปวดท้องเกร็งเป็นพัก = สงสัย intussusception · ถามการตรวจถัดไป",
-  "why": "<b>คีย์: ขีด C · ลายมือ R/O intussusception</b><br><b>นอกสไลด์:</b> US เป็นการตรวจแรกของ intussusception: ไวและจำเพาะสูง ไม่มีรังสี เห็น target/doughnut sign ในแนวขวางและ pseudokidney ในแนวยาว และดูลำไส้ขาดเลือดหรือ lead point ได้",
+  "interp": "ทารก 9 เดือน เดิมแข็งแรง <b>อาเจียน ถ่ายมูกเลือด ปวดท้องเป็นพัก ๆ</b> → ถามการตรวจขั้นต่อไป",
+  "why": "ทารก 9 เดือน + ปวดท้องเป็นพัก (ร้องกวน ขาคู้) + อาเจียน + <b>มูกเลือด (currant jelly)</b> = สงสัย <b>intussusception</b> → <b>ultrasound ช่องท้อง</b> เป็นการตรวจแรก (ไว ~98–100%, ไม่มีรังสี): target/ doughnut sign (ภาพตัดขวาง), pseudo-kidney (ภาพตัดยาว) · ยืนยันแล้ว → pneumatic/ hydrostatic reduction ถ้าไม่มีข้อห้าม · ไฟล์ขีด C ลายมือ <b>\"R/O intussusception\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กถ่ายมูกเลือดร่วมไข้สูง ปวดท้องตลอดไม่มีช่วงหาย สงสัยบิดจากเชื้อแบคทีเรีย",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กโตหรือผู้ใหญ่ที่สงสัย intussusception จากก้อน (lead point) หรือ US ไม่ชัด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กถ่ายเลือดสดเป็นพัก ๆ ไม่ปวดท้อง สงสัย juvenile polyp",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกอาเจียนน้ำดีเฉียบพลัน สงสัย malrotation with midgut volvulus"
+   "A": "ตรวจอุจจาระช่วยในลำไส้อักเสบติดเชื้อ แต่ไม่ช่วยวินิจฉัยลำไส้กลืนกันที่ต้องรักษาด่วน · จะถูกถ้าทารกถ่ายเหลวเป็นน้ำบ่อย ไข้ ไม่มีปวดเป็นพัก (gastroenteritis)",
+   "B": "CT มีรังสีและไม่จำเป็นเมื่อ US วินิจฉัยได้ · จะถูกถ้าเด็กโต intussusception ซ้ำสงสัยก้อนเป็นจุดนำ (lymphoma)",
+   "D": "Colonoscopy ไม่ใช่การตรวจแรกในทารกสงสัยลำไส้กลืนกัน · จะถูกถ้าเด็กโตเลือดออกทางทวารเรื้อรังสงสัย juvenile polyp",
+   "E": "Upper GI study ใช้หา malrotation (อาเจียนน้ำดีในทารกแรกเกิด) · จะถูกถ้าทารก 1 สัปดาห์อาเจียนน้ำดี ท้องไม่อืดมาก"
   },
-  "trap": "ครบ triad (ปวดเป็นพัก อาเจียน ถ่ายมูกเลือด) ในเด็กส่วนน้อย — เด็กที่ซึมลงเป็นพัก ๆ หรือร้องเป็นพักโดยไม่มีเลือดก็ต้องทำ US",
+  "trap": "ส่งตรวจอุจจาระเพราะถ่ายมูกเลือด — triad นี้ในทารก = intussusception → US",
   "summary": [
-   "<b>นอกสไลด์:</b> intussusception: อายุ 6 เดือน–3 ปี ส่วนใหญ่ ileocolic ไม่มี lead point (ต่อมน้ำเหลืองในผนังลำไส้โตหลังติดเชื้อไวรัส) · คลำได้ก้อนรูปไส้กรอกใต้ชายโครงขวา · US ไวและจำเพาะเกิน 95%"
+   "Intussusception: 3 เดือน–3 ปี (peak 5–9 เดือน)",
+   "Triad: ปวดเป็นพัก · ก้อนไส้กรอก · currant jelly stool",
+   "US: target/ doughnut · pseudo-kidney (การตรวจแรก)",
+   "รักษา: pneumatic/ hydrostatic reduction",
+   "ข้อห้าม reduction: peritonitis · perforation · ช็อก",
+   "เด็กโต → หาจุดนำ (Meckel, polyp, lymphoma)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'ทารกมูกเลือด + ปวดเป็นพัก = US หา doughnut'</b>",
+  "guide": "ACR Appropriateness Criteria: Intussusception — Child (2019); Coran's Pediatric Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก Henoch-Schönlein purpura ปวดท้องเป็นพัก US เห็น target sign ที่ลำไส้เล็ก → ileo-ileal intussusception จากเลือดออกในผนังลำไส้",
-   "<b>นอกสไลด์:</b> US ยืนยัน ileocolic intussusception เด็กคงที่ไม่มี peritonitis → สวนลมหรือน้ำดันคืนภายใต้ภาพนำทาง"
+   "US พบ target sign ไม่มี peritonitis → pneumatic reduction",
+   "ทารกลดด้วยลมแล้วลมรั่วเข้าช่องท้อง → needle decompression + laparotomy",
+   "ทารกแรกเกิดอาเจียนน้ำดี → upper GI study (malrotation)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 50 — ตัวพิมพ์: <b>55. A 9 month year old previous well, vomiting, mucous bloody stool, intermittent abdominal cramp, what is next investigation? — A. stool exam B. ct abdomen C. ultrasound</b><br>ลายมือ: \"R/O intussusception\" (แดง) · ขีด C<br>ไฮไลต์: \"9 month year old previous well\" \"vomiting\" \"mucous bloody stool\" \"intermittent abdominal cramp\" \"next investigation\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 41: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 50",
+  "kimg": [
+   "fsk_p50",
+   "kp69a_55",
+   "k2p_41"
   ]
  },
  "MDCU69|RoA|58": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับ gastroschisis",
-  "why": "<b>คีย์: ขีด C · ลายมือ A, B, E = omphalocele · atresia ~10%</b><br><b>นอกสไลด์:</b> ลำไส้แช่น้ำคร่ำโดยไม่มีถุงคลุมตลอดการตั้งครรภ์ → ผนังลำไส้อักเสบ หนา มีเยื่อคลุม (peel) และบีบตัวไม่ดี หลังปิดผนังจึงมี ileus นานหลายสัปดาห์ ต้องให้สารอาหารทางหลอดเลือด",
+  "interp": "ถามข้อ<b>จริง</b>เกี่ยวกับ <b>gastroschisis</b>",
+  "why": "Gastroschisis = ผนังหน้าท้องเป็นรู<b>ด้านขวาของสะดือ</b> ลำไส้ออกมา<b>ไม่มีถุงหุ้ม</b> สัมผัสน้ำคร่ำ → ลำไส้บวม หนา มีเยื่อคลุม (peel) → หลังซ่อมมี <b>adynamic ileus นาน</b> (กินนมได้ช้า ต้อง TPN หลายสัปดาห์) · มัก<b>ไม่มี</b>ความผิดปกติโครโมโซมหรือความพิการร่วม (ยกเว้น intestinal atresia ~10–15%) · พบในแม่อายุน้อย · ส่วน <b>omphalocele</b> มีถุงหุ้ม อยู่ตรงสะดือ มีตับ/ ม้ามออกมาได้ สัมพันธ์กับโครโมโซม (trisomy 13, 18, 21) และ Beckwith-Wiedemann · ไฟล์ขีด C ลายมือ A, B <b>\"omphalocele\"</b> E <b>\"omphalocele\"</b> และ D แก้ \"40%\" เป็น <b>\"10%\"</b>",
   "wrong": {
-   "A": "ไม่มีสถานการณ์ใดที่ข้อความ “สัมพันธ์กับกลุ่มอาการทางโครโมโซม” เป็นจริงสำหรับ gastroschisis เพราะเกิดจากผนังข้างสะดือแตกในครรภ์ — chromosome ผิดปกติเป็นของ omphalocele",
-   "B": "ไม่มีสถานการณ์ใดที่ข้อความ “ความผิดปกติร่วมพบบ่อย” เป็นจริงสำหรับ gastroschisis เพราะความผิดปกติที่ร่วมมักอยู่ที่ลำไส้เอง ไม่ใช่หลายระบบแบบ omphalocele",
-   "D": "ไม่มีสถานการณ์ใดที่ข้อความ “intestinal atresia พบ 40%” เป็นจริง เพราะพบราว 10%",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “ม้ามและตับออกมานอกช่องท้อง” เป็นลักษณะของ gastroschisis เพราะรูข้างสะดือเล็ก ส่วนใหญ่ออกมาแค่ลำไส้ — ตับในถุงเป็นลักษณะของ giant omphalocele"
+   "A": "ความผิดปกติโครโมโซมเป็นลักษณะของ omphalocele (ลายมือ \"omphalocele\") · จะถูกถ้าคำถามถาม omphalocele",
+   "B": "ความพิการร่วมสูง (หัวใจ ไต) เป็นลักษณะของ omphalocele (~50–70%) (ลายมือ \"omphalocele\") · จะถูกถ้าคำถามถาม omphalocele",
+   "D": "Intestinal atresia ใน gastroschisis พบ ~10–15% ไม่ใช่ 40% (ลายมือแก้เป็น 10%) · จะถูกถ้าช้อยบอกว่า atresia ~10%",
+   "E": "ตับและม้ามออกมาพบใน omphalocele (giant) ไม่ใช่ gastroschisis ซึ่งมักเป็นลำไส้ (± กระเพาะ) (ลายมือ \"omphalocele\") · จะถูกถ้าคำถามถาม giant omphalocele"
   },
-  "trap": "ruptured omphalocele (ถุงแตก) ดูคล้าย gastroschisis — ดูตำแหน่งสายสะดือ: gastroschisis สายสะดือเสียบปกติ รูอยู่ข้างขวา · omphalocele สายสะดือเสียบที่ก้อนและมักเหลือเศษถุง",
+  "trap": "สลับลักษณะ gastroschisis กับ omphalocele — omphalocele มีถุง มีความพิการร่วม/ โครโมโซม",
   "summary": [
-   "<b>นอกสไลด์:</b> gastroschisis vs omphalocele: รูข้างขวาสะดือ ไม่มีถุง vs รูที่สะดือมีถุง · ความผิดปกติร่วมน้อย (atresia ราว 10%) vs บ่อย (โครโมโซม หัวใจ) · ileus นานต้องให้ TPN vs ขึ้นกับขนาดและโรคร่วม",
-   "<b>นอกสไลด์:</b> ดูแลแรกเกิด: คลุมลำไส้ด้วยถุงพลาสติกหรือผ้าชุ่ม จัดลำไส้ไม่ให้บิด ตะแคงขวา ให้ความอบอุ่น NG/OG ระบาย ให้สารน้ำมาก (เสียน้ำทางลำไส้) และยาปฏิชีวนะ → ปิดผนังทันทีถ้าทำได้ หรือใส่ silo แล้วค่อยดันกลับ · พยากรณ์ขึ้นกับลำไส้ (complex = atresia เนื้อตาย ทะลุ)"
+   "Gastroschisis: ขวาของสะดือ · ไม่มีถุง · ลำไส้บวม · แม่อายุน้อย",
+   "ความพิการร่วมน้อย (atresia ~10–15%)",
+   "หลังซ่อม: ileus นาน → TPN",
+   "Omphalocele: ตรงสะดือ · มีถุง · ตับออกได้ · โครโมโซม · Beckwith-Wiedemann",
+   "รักษา gastroschisis: คลุมลำไส้ ป้องกันสูญเสียความร้อน/ น้ำ → primary closure หรือ silo",
+   "Omphalocele: ตรวจหัวใจ/ โครโมโซมก่อน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'Gastroschisis = ไม่มีถุง ลำไส้เปื่อย ileus นาน · Omphalocele = มีถุง มีพ่วงโรค'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Congenital defects of the abdominal wall",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก gastroschisis ลำไส้ที่ขอบรูซีดคล้ำลง → รูรัดลำไส้: ขยายรูทันที",
-   "<b>นอกสไลด์:</b> gastroschisis ร่วม jejunal atresia → ปิดผนังก่อน แล้วต่อลำไส้ภายหลังราว 4–6 สัปดาห์"
+   "ทารกลำไส้ออกด้านขวาสะดือไม่มีถุง → คลุมลำไส้ ใส่ silo หรือ primary closure",
+   "ทารกถุงตรงสะดือมีตับอยู่ภายใน ลิ้นโต น้ำตาลต่ำ → omphalocele + Beckwith-Wiedemann",
+   "ทารก gastroschisis หลังซ่อม 3 สัปดาห์ยังกินไม่ได้ → TPN รอ ileus หาย"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 50 — ตัวพิมพ์: <b>58. เด็กมี gastroschisis — A. Associated chromosomal syndrome B. High incidence of association anormalies C. Prolong adynaamic ileus after repair D. Intestinal atresia 40% E. viscesation of spleen and liver</b><br>ลายมือ: ปีกกา A–B \"omphalocele\" · ขีด C · D แก้ \"40\" เป็น \"10%\" · E \"omphalocele\"<br>ไฮไลต์: \"เด็กมี gastroschisis\" · C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 41: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 50",
+  "kimg": [
+   "fsk_p50",
+   "kp69a_58",
+   "k2p_41"
   ]
  },
  "MDCU69|RoA|68": {
-  "interp": "เด็กตาห่าง (hypertelorism) สันจมูกกว้าง มีร่องแยกกลางจมูก ไม่มีก้อนยื่น · ถามการวินิจฉัย",
-  "why": "<b>คีย์: ไฟล์เขียนคำตอบ frontonasal dysplasia</b><br><b>นอกสไลด์:</b> frontonasal dysplasia (median cleft face syndrome) คือความผิดปกติของการเจริญส่วนกลางใบหน้า: ตาห่าง สันจมูกกว้างแบน ร่องแยกกลางจมูกหรือปลายจมูกแยก — ไม่มีก้อนเนื้อสมองยื่น",
+  "interp": "ภาพเด็กมี <b>ตาห่างกัน (hypertelorism) สันจมูกกว้าง และร่องแหว่งกลางจมูก</b> → ถามวินิจฉัย",
+  "why": "Hypertelorism + สันจมูกกว้างแบน + <b>ร่องแหว่งแนวกลางจมูก/ ปลายจมูกแยก (bifid nose)</b> ± widow's peak ± ร่องกลางริมฝีปากบน = <b>frontonasal dysplasia</b> (median cleft face syndrome) จากการพัฒนาของ frontonasal process ผิดปกติ · แยกจาก <b>frontoethmoidal encephalomeningocele</b> ที่มี<b>ก้อนนุ่ม</b>ยื่นที่โคนจมูก (เนื้อสมอง/ เยื่อหุ้มสมองผ่านรูกะโหลก) · ไฟล์ไม่มีภาพและช้อย มีเพียง <b>\"68.รูป · ตอบ frontonasal dysplasia\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแนวแยกของผิวหนังและกระดูกใบหน้าเฉียงจากริมฝีปากขึ้นไปเบ้าตา (Tessier oblique cleft) ไม่ใช่แนวกลาง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าศีรษะผิดรูปตามรอยต่อที่ปิดเร็ว เช่น หน้าผากแบนข้างหนึ่งหรือศีรษะยาวแคบ โดยจมูกปกติ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ามีก้อนนุ่มที่สันจมูกหรือหัวตา โตขึ้นเวลาร้อง (เนื้อสมองและเยื่อหุ้มยื่นผ่านฐานกะโหลกด้านหน้า)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าโหนกแก้มและขากรรไกรล่างเล็ก หางตาตก ขอบตาล่างแหว่ง และหูผิดรูป สองข้างสมมาตร"
+   "A": "Craniofacial cleft (Tessier) เป็นคำกว้างของรอยแหว่งใบหน้าตามแนวต่าง ๆ ภาพนี้มีลักษณะเฉพาะของ frontonasal dysplasia · จะถูกถ้าภาพเป็นรอยแหว่งเฉียงจากริมฝีปากถึงตา (Tessier 3–4)",
+   "B": "Craniosynostosis คือรอยต่อกะโหลกปิดเร็ว ทำให้รูปศีรษะผิดปกติ · จะถูกถ้าภาพเป็นศีรษะยาวแคบ (scaphocephaly) หรือหน้าผากเป็นสามเหลี่ยม (trigonocephaly)",
+   "C": "Frontoethmoidal encephalomeningocele มีก้อนนุ่มยื่นที่โคนจมูก/ ระหว่างตา · จะถูกถ้าภาพเป็นก้อนที่โคนจมูกนุ่ม โตขึ้นเวลาร้อง (งวงช้าง)",
+   "E": "Treacher Collins: ใบหน้าส่วนกลางเล็ก โหนกแก้มไม่เจริญ ตาเอียงลง หูผิดรูป คางเล็ก · จะถูกถ้าภาพเป็นตาเอียงลง เปลือกตาล่างแหว่ง ใบหูเล็กสองข้าง"
   },
-  "trap": "ตาห่างพบได้ทั้ง frontonasal dysplasia และ frontoethmoidal encephalomeningocele — ตัวแยกคือ FEEM มีก้อนยื่นที่สันจมูก ส่วน FND มีร่องแยกกลางจมูกโดยไม่มีก้อน",
+  "trap": "สับสนกับ encephalocele เพราะอยู่ที่แนวกลางเหมือนกัน — frontonasal dysplasia ไม่มีก้อน มีร่องแหว่ง",
   "summary": [
-   "<b>นอกสไลด์:</b> frontonasal dysplasia: ตาห่าง สันจมูกกว้างแบน ร่องกลางจมูก ± ผมงอกเป็นแหลมกลางหน้าผาก (widow’s peak) และกระดูกหน้าผากแยก · ส่วนใหญ่สติปัญญาปกติ · รักษาด้วยผ่าตัดแก้ตาห่างและตกแต่งจมูก"
+   "Frontonasal dysplasia: hypertelorism · จมูกกว้าง/ แยก · median cleft",
+   "Frontoethmoidal encephalomeningocele: ก้อนที่โคนจมูก (พบมากในไทย/ เอเชียตะวันออกเฉียงใต้)",
+   "Treacher Collins: mandibulofacial dysostosis · TCOF1",
+   "Craniosynostosis: รอยต่อกะโหลกปิดเร็ว",
+   "Tessier classification: 0–14 ตามตำแหน่งแหว่ง",
+   "แก้ hypertelorism: box osteotomy/ facial bipartition"
   ],
-  "opinion": "ตามคำตอบในไฟล์ D · มั่นใจปานกลาง (ไม่มีรูปในไฟล์ โจทย์สร้างจากคำตอบ)",
+  "opinion": "ตอบ D ความมั่นใจสูง — ตรงกับคำตอบที่เขียนในไฟล์ (คีย์ทั้งสองไฟล์ตรงกัน) · ไฟล์ไม่มีภาพและช้อย จึงบรรยายภาพและใช้ช้อยชุดเดียวกับข้อ 69",
+  "mnemonic": "<b>'Frontonasal dysplasia = ตาห่าง จมูกแยก (ไม่มีก้อน)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2019) — Craniofacial clefts and hypertelorism",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 6 ปีตาห่างมากจาก frontonasal dysplasia → ผ่าตัดย้ายเบ้าตาเข้าหากัน (box osteotomy)",
-   "<b>นอกสไลด์:</b> ทารกตาชิดกัน (hypotelorism) จมูกแบน ปากแหว่งแนวกลาง → holoprosencephaly (ตรงข้ามกับ FND ที่ตาห่าง)"
+   "เด็กมีก้อนนุ่มที่โคนจมูก โตเวลาร้อง → frontoethmoidal encephalomeningocele → CT/ MRI แล้วผ่าตัด",
+   "เด็กตาเอียงลง หูเล็ก คางเล็ก → Treacher Collins",
+   "ทารกศีรษะยาวแคบ รอยต่อ sagittal ปิด → sagittal craniosynostosis"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 50 — ตัวพิมพ์: <b>68.รูป · ตอบ frontonasal dysplasia</b> (ไม่มีภาพและช้อย)<br>ลายมือ: ไม่มี<br>ไฮไลต์: \"frontonasal dysplasia\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 41: D (ตรงกัน)<br>ที่ปรับในเว็บ: บรรยายภาพในโจทย์ · ใช้ช้อยชุดเดียวกับข้อ 69",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 50",
+  "kimg": [
+   "fsk_p50",
+   "kp69a_68",
+   "k2p_41"
   ]
  },
  "MDCU69|RoA|69": {
-  "interp": "เด็กมีก้อนแนวกลางที่สันจมูก (ลักษณะคล้ายงวงช้าง) · ถามการวินิจฉัย",
-  "why": "<b>คีย์: ขีด C · ลายมือ FEEM</b><br><b>นอกสไลด์:</b> frontoethmoidal encephalomeningocele: เยื่อหุ้มสมองและเนื้อสมองยื่นผ่านรูที่รอยต่อกระดูก frontal กับ ethmoid ออกมาเป็นก้อนที่สันจมูกหรือหัวตา ดันเบ้าตาให้ห่าง",
+  "interp": "ภาพเด็กชายมี<b>ก้อนที่แนวกลางโคนจมูก</b> (ที่เรียกกันว่า \"งวงช้าง\") → ถามวินิจฉัย",
+  "why": "ก้อนนุ่มแนวกลางที่โคนจมูก/ ระหว่างตา (ยื่นยาวคล้ายงวง) ตั้งแต่เกิด ใหญ่ขึ้นเวลาร้อง/ เบ่ง = <b>frontoethmoidal encephalomeningocele (FEEM)</b> — เนื้อสมอง/ เยื่อหุ้มสมองยื่นผ่านรูที่รอยต่อ frontal–ethmoid · พบมากใน<b>ไทยและเอเชียตะวันออกเฉียงใต้</b> · มักร่วมกับ hypertelorism · ตรวจ CT/ MRI ดูรูกะโหลกและเนื้อสมองในก้อน · รักษาผ่าตัด (ตัดก้อน ปิดรูเยื่อหุ้มสมองและกะโหลก + แก้ใบหน้า) · ไฟล์ขีด C ลายมือ <b>\"(FEEM)\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นร่องแยกของใบหน้าจากมุมปากไปทางหู (Tessier 7, macrostomia)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าทารกศีรษะยาวหน้าหลัง แคบด้านข้าง คลำได้สันตามรอยต่อ sagittal",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าตาห่าง สันจมูกกว้าง มีร่องแยกกลางจมูก โดยไม่มีก้อนยื่น",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าโหนกแก้มแบน ขากรรไกรล่างเล็กจนทางเดินหายใจแคบ หูเล็กผิดรูปและหูตึง"
+   "A": "Craniofacial cleft คือรอยแหว่งของใบหน้า ไม่ใช่ก้อนนุ่มยื่น · จะถูกถ้าภาพเป็นร่องแหว่งเฉียงจากริมฝีปากถึงตา",
+   "B": "Craniosynostosis ทำให้รูปศีรษะผิดปกติ ไม่มีก้อนที่จมูก · จะถูกถ้าภาพเป็นหน้าผากแบนข้างเดียว (unicoronal synostosis)",
+   "D": "Frontonasal dysplasia มีตาห่าง จมูกแยก แต่ไม่มีก้อนยื่น · จะถูกถ้าภาพเป็นตาห่าง ปลายจมูกแยกเป็นสองแฉก ไม่มีก้อน",
+   "E": "Treacher Collins: โหนกแก้มไม่เจริญ ตาเอียงลง หูผิดรูป · จะถูกถ้าภาพเป็นใบหน้าส่วนกลางเล็ก ตาเอียงลง คางเล็ก"
   },
-  "trap": "เห็นก้อนที่สันจมูกแล้วคิดว่าเป็น dermoid หรือ nasal glioma แล้วเจาะหรือตัดชิ้นเนื้อ — ก้อนที่โตขึ้นเวลาร้องหรือกดเส้นเลือดดำที่คอ (Furstenberg sign) ต่อกับในกะโหลก ห้ามเจาะ (CSF รั่ว เยื่อหุ้มสมองอักเสบ) ทำ MRI ก่อน",
+  "trap": "คิดว่าเป็นเนื้องอกผิวหนัง/ hemangioma ที่จมูก — ก้อนแนวกลางโคนจมูกตั้งแต่เกิด โตเวลาร้อง = encephalocele (ห้ามเจาะ/ ตัดโดยไม่ทำภาพ)",
   "summary": [
-   "<b>นอกสไลด์:</b> FEEM พบมากในเอเชียตะวันออกเฉียงใต้รวมทั้งไทย · ก้อนนุ่ม ส่องไฟผ่าน โตเมื่อร้อง ตาห่าง · MRI/CT ดูรูและสิ่งที่ยื่น → ผ่าตัดตัดส่วนที่ยื่น ปิด dura ซ่อมรูที่ฐานกะโหลก และแก้ตาห่าง"
+   "FEEM: ก้อนนุ่มโคนจมูก · โตเวลาร้อง (transillumination ±)",
+   "พบมากในไทย/ เอเชียตะวันออกเฉียงใต้",
+   "ก้อนแนวกลางจมูกตั้งแต่เกิด → CT/ MRI ก่อนหัตถการ (แยก glioma, dermoid)",
+   "ผ่าตัด: ตัดก้อน ปิดเยื่อหุ้มสมอง ปิดกะโหลก ± แก้ hypertelorism",
+   "Nasal dermoid: มีรูมีขน ติดเชื้อซ้ำ",
+   "Nasal glioma: ก้อนแข็ง ไม่โตเวลาร้อง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจปานกลาง (ไม่มีรูปในไฟล์)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ \"(FEEM)\" · ไฟล์ไม่มีภาพ จึงบรรยายในโจทย์",
+  "mnemonic": "<b>'งวงช้างที่โคนจมูก = FEEM (สมองโผล่)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2019); Youmans and Winn Neurological Surgery 8th ed. (2022) — Encephaloceles",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัด FEEM มีน้ำใสไหลจากจมูกเวลาก้ม → CSF leak: ตรวจ β2-transferrin",
-   "<b>นอกสไลด์:</b> เด็กมีก้อนแข็งไม่ส่องไฟที่สันจมูก มีรูเล็กมีขนงอก ไม่โตเวลาร้อง → nasal dermoid sinus cyst: MRI ดูว่าลามเข้ากะโหลกก่อนผ่าตัด"
+   "ทารกก้อนนุ่มที่โคนจมูก โตเวลาร้อง → MRI → ผ่าตัด",
+   "เด็กรูเล็กที่สันจมูกมีขนงอก ติดเชื้อซ้ำ → nasal dermoid (CT/ MRI หา intracranial extension)",
+   "ทารกก้อนแข็งข้างจมูกไม่โตเวลาร้อง → nasal glioma"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 50 — ตัวพิมพ์: <b>69 รูปเด็กผช (ที่เค้าบอกกันว่าเป็นงวงช้าง) — A. Craniofacial cleft B. Craniosynostosis C. Frontoethmoidal encephalomeningiocele D. Frontonasal dysplasia E. Treacher collins syndrome</b><br>ลายมือ: ขีด C + \"(FEEM)\"<br>ไฮไลต์: C (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 41: ขีด C (ตรงกัน)<br>ที่ปรับในเว็บ: ไม่มีภาพ → บรรยายในโจทย์",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 50",
+  "kimg": [
+   "fsk_p50",
+   "kp69a_69",
+   "k2p_41"
   ]
  },
  "MDCU69|RoA|82": {
-  "interp": "ถาม conduit ที่ทนทานที่สุดสำหรับ CABG",
-  "why": "<b>คีย์: ขีด B · ลายมือ internal mammary a. to LAD</b><br><b>นอกสไลด์:</b> internal thoracic (mammary) artery ทนต่อ atherosclerosis เพราะ endothelium สร้าง nitric oxide มาก และ internal elastic lamina ไม่มีรู · LIMA ต่อเข้า LAD ยังเปิดอยู่ส่วนใหญ่ที่ 10 ปี และเพิ่มอัตรารอดชีวิต",
+  "interp": "ถาม <b>conduit ที่ทนทาน (patency นานที่สุด)</b> สำหรับ CABG",
+  "why": "<b>Internal thoracic (internal mammary) artery</b> โดยเฉพาะ <b>LIMA ต่อกับ LAD</b> มี patency สูงสุด (&gt; 90% ที่ 10 ปี) และเพิ่มอัตรารอดชีวิต — เป็นหลอดเลือดแดงที่ทนต่อ atherosclerosis (endothelium ผลิต NO ดี, ผนัง elastic) · ส่วน <b>great saphenous vein</b> ใช้บ่อยแต่ตันมากกว่า (~50% ที่ 10 ปี จาก intimal hyperplasia) · radial artery ดีกว่า vein แต่ยังด้อยกว่า ITA · ไฟล์ขีด B ลายมือ <b>\"(internal mammary a.) ต่อ LAD\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ “great saphenous vein ทนทานที่สุด” เป็นจริง เพราะหลอดเลือดดำที่รับแรงดันแดงเกิด intimal hyperplasia และ atherosclerosis เร็ว",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ PTFE ใช้เป็น conduit ของ CABG ได้ดี เพราะท่อสังเคราะห์ขนาดเล็กอุดตันเร็วมากในหลอดเลือดหัวใจ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยใช้ ITA ทั้งสองข้างไม่ได้ (เช่นเบาหวานอ้วนเสี่ยงแผลกระดูกอกติดเชื้อ) และต้องการ conduit แดงตัวที่สองไปยังหลอดเลือดที่ตีบรุนแรง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยใช้ ITA ทั้งสองข้างและ radial artery ไม่ได้ (Allen test ผิดปกติ) และต้องต่อเข้า RCA ที่ตีบรุนแรง"
+   "A": "Great saphenous vein ใช้บ่อยแต่ patency ต่ำกว่า (~50–60% ที่ 10 ปี) · จะถูกถ้าคำถามถาม conduit ที่ใช้บ่อยที่สุด (จำนวนมากที่สุด) ใน CABG",
+   "C": "PTFE (สังเคราะห์) ตันเร็วมากในหลอดเลือดหัวใจ ไม่ใช้ใน CABG · จะถูกถ้าคำถามถาม graft สำหรับ axillofemoral/ femoropopliteal bypass เหนือเข่า",
+   "D": "Radial artery ดีกว่า saphenous vein ในระยะยาว แต่ด้อยกว่า ITA และหดเกร็งง่าย · จะถูกถ้าคำถามถาม conduit ที่สองที่ดีที่สุดสำหรับหลอดเลือดที่ตีบมาก",
+   "E": "Right gastroepiploic artery ใช้ได้แต่ไม่นิยม (ผ่าตัดเข้าช่องท้อง) · จะถูกถ้าคำถามถามทางเลือก arterial conduit สำหรับ RCA ในผู้ป่วยที่ conduit อื่นไม่พอ"
   },
-  "trap": "saphenous vein ใช้บ่อยที่สุดเพราะหาง่ายและยาว — ใช้บ่อยไม่เท่ากับทนที่สุด",
+  "trap": "ตอบ saphenous vein เพราะใช้บ่อยที่สุด — คำถามถามทนทานที่สุด = internal thoracic artery",
   "summary": [
-   "<b>นอกสไลด์:</b> LIMA–LAD เป็นมาตรฐาน (class I) ในทุกรายที่ต้อง bypass LAD · LIMA เปิดราว 90% ที่ 10 ปี · saphenous vein ตันราวครึ่งใน 10 ปี · radial artery ทนกว่า vein แต่หดเกร็งง่าย ใช้กับหลอดเลือดที่ตีบรุนแรง (ไม่มี competitive flow)"
+   "LIMA → LAD: patency &gt; 90% ที่ 10 ปี · เพิ่มอัตรารอด",
+   "Saphenous vein: ~50–60% ที่ 10 ปี (intimal hyperplasia, atherosclerosis)",
+   "Radial artery: ดีกว่า vein · ห้ามถ้า Allen test ผิดปกติ",
+   "Bilateral ITA เพิ่มความเสี่ยงแผลกระดูกอกติดเชื้อในเบาหวาน/ อ้วน",
+   "CABG เหนือ PCI: left main · 3-vessel ใน DM · EF ต่ำ",
+   "PTFE ไม่ใช้ใน coronary bypass"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'LIMA → LAD = ทองคำของ CABG'</b>",
+  "guide": "2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization (Circulation 2022;145:e18)",
   "variants": [
-   "<b>นอกสไลด์:</b> วางแผนใช้ radial artery เป็น conduit → ตรวจ Allen test ก่อน ว่ามือได้เลือดจาก ulnar artery พอ",
-   "<b>นอกสไลด์:</b> ผู้ป่วยที่ subclavian ซ้ายส่วนต้นตีบ → LIMA graft ถูกขโมยเลือด (coronary-subclavian steal) ต้องแก้หรือเลือก conduit อื่น"
+   "CABG 3 เส้น → LIMA–LAD + vein/ radial สำหรับเส้นอื่น",
+   "ผู้ป่วยเบาหวานอ้วน → ระวัง bilateral ITA (sternal wound infection)",
+   "Allen test ผิดปกติ → ห้ามใช้ radial artery"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 50 — ตัวพิมพ์: <b>82.most durable graft for CABG — A. Greater saphenous view B. Internal thoracic C. Ptfe</b><br>ลายมือ: ขีด B + \"(internal mammary a.) ต่อ LAD\"<br>ไฮไลต์: \"most durable graft for CABG\" · B \"Internal thoracic\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 41: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 50",
+  "kimg": [
+   "fsk_p50",
+   "kp69a_82",
+   "k2p_41"
   ]
  },
  "MDCU69|RoA|75": {
-  "interp": "ชาย 65 ปี แผลไม่เจ็บที่กระพุ้งแก้มซ้าย 2×3 cm เลือดออกเมื่อกัด ต่อมน้ำเหลืองคอขวาโต 2 cm (สงสัย SCC) · ถามสาเหตุ",
-  "why": "<b>คีย์: ขีด C · ลายมือ suspected SCC · สไลด์ risk factors</b><br><b>นอกสไลด์:</b> การเคี้ยวหมาก (areca nut) หรือยาเส้นที่แช่ไว้ในกระพุ้งแก้มเป็นเวลานาน ทำให้เยื่อบุบริเวณนั้นสัมผัสสารก่อมะเร็งต่อเนื่อง — มะเร็งกระพุ้งแก้มในผู้สูงอายุไทยและเอเชียใต้จึงสัมพันธ์กับหมากมากที่สุด",
+  "interp": "ชาย 65 ปี <b>แผลที่กระพุ้งแก้มซ้าย 2 × 3 cm ไม่เจ็บ</b> กัดโดนแล้วเลือดออก คลำได้ต่อมน้ำเหลืองคอข้างขวา 2 cm → ถามสาเหตุที่น่าเป็นมากที่สุด",
+  "why": "แผลเรื้อรังไม่เจ็บที่ <b>buccal mucosa</b> ในผู้สูงอายุ + ต่อมน้ำเหลืองโต = <b>squamous cell carcinoma ของช่องปาก</b> · ตำแหน่ง<b>กระพุ้งแก้ม</b>สัมพันธ์ชัดที่สุดกับ <b>การเคี้ยวหมาก (betel quid) และยาเส้น/ ยาสูบแบบเคี้ยว</b> ซึ่งวางสัมผัสเยื่อบุตรงนั้นนาน (พบมากในไทย อินเดีย เอเชียใต้) · ปัจจัยเสี่ยงอื่น: สูบบุหรี่ สุรา (เสริมฤทธิ์กัน) การระคายเคืองเรื้อรัง (ฟันคม) HPV (oropharynx) ภูมิต่ำ · ไฟล์ขีด C ลายมือ <b>\"suspected SCC\"</b> ติ๊ก ✓ ที่ C, D, E และแปะสไลด์ <b>Risk factors</b> (Smoking, Alcohol, Chronic irritation …)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ขาด vitamin B2 เป็นสาเหตุมะเร็งเยื่อบุช่องปาก เพราะทำให้มุมปากเปื่อย ลิ้นอักเสบ ไม่ได้ก่อมะเร็ง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลมะเร็งที่ริมฝีปากล่างในผู้ที่ทำงานกลางแดดนาน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งกล่องเสียงในผู้ที่สูบบุหรี่จัด ไม่เคยเคี้ยวหมาก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งคอหอยส่วนล่างในผู้ดื่มสุราจัดที่ไม่สูบบุหรี่และไม่เคี้ยวหมาก"
+   "A": "ขาดวิตามิน B2 ทำให้ angular cheilitis ลิ้นอักเสบ ไม่ใช่สาเหตุหลักของมะเร็งช่องปาก · จะถูกถ้าคำถามถามสาเหตุมุมปากแตก ลิ้นแดงเรียบ",
+   "B": "รังสี UV สัมพันธ์กับมะเร็งที่<b>ริมฝีปากล่าง</b> (ผิวนอก) ไม่ใช่กระพุ้งแก้มด้านใน · จะถูกถ้าชาวนาที่ทำงานกลางแดดมีแผลเรื้อรังที่ริมฝีปากล่าง",
+   "D": "สูบบุหรี่เป็นปัจจัยเสี่ยงสำคัญของมะเร็งช่องปากทั่วไป (ลายมือติ๊ก ✓) แต่ตำแหน่งกระพุ้งแก้มสัมพันธ์กับการเคี้ยวหมาก/ ยาเส้นมากที่สุด · จะถูกถ้าแผลอยู่ที่พื้นปาก/ ขอบลิ้นในผู้สูบบุหรี่จัดที่ไม่เคี้ยวหมาก",
+   "E": "สุราเป็นปัจจัยเสี่ยงที่เสริมฤทธิ์กับบุหรี่ (ลายมือติ๊ก ✓) แต่ไม่ใช่ปัจจัยหลักของมะเร็งกระพุ้งแก้ม · จะถูกถ้าคำถามถามปัจจัยที่เสริมฤทธิ์ (synergistic) กับบุหรี่"
   },
-  "trap": "บุหรี่และสุราก็เป็นปัจจัยเสี่ยงมะเร็งช่องปาก — แต่ตำแหน่งกระพุ้งแก้มในผู้สูงอายุไทยชี้การเคี้ยวหมากหรือยาเส้นที่วางแช่ไว้ตรงนั้น",
+  "trap": "ตอบบุหรี่เพราะเป็นปัจจัยเสี่ยงที่รู้จักที่สุด — มะเร็งกระพุ้งแก้มในบริบทไทยสัมพันธ์กับการเคี้ยวหมาก/ ยาเส้นมากที่สุด",
   "summary": [
-   "<b>นอกสไลด์:</b> แผลในช่องปากไม่หายเกิน 2–3 สัปดาห์ → ตัดชิ้นเนื้อ (ส่วนใหญ่เป็น SCC) · รักษา: ตัดก้อนพร้อมขอบปลอดภัย + เลาะต่อมน้ำเหลืองคอ ± ฉายรังสีหลังผ่าตัด · ต่อมน้ำเหลืองฝั่งตรงข้ามกับก้อน = N2c"
+   "Oral SCC: ขอบลิ้น · พื้นปาก · กระพุ้งแก้ม",
+   "กระพุ้งแก้ม ↔ เคี้ยวหมาก/ ยาเส้น",
+   "ริมฝีปากล่าง ↔ UV",
+   "บุหรี่ + สุรา เสริมฤทธิ์กัน",
+   "Premalignant: leukoplakia · erythroplakia (เสี่ยงสูงกว่า) · oral submucous fibrosis (หมาก)",
+   "แผลไม่หาย &gt; 2–3 สัปดาห์ → biopsy · ต่อมคอ → US-guided FNA"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ลายมือในไฟล์ติ๊ก ✓ ที่ D, E ด้วยเพราะเป็นปัจจัยเสี่ยงเช่นกัน แต่คำถามถามสาเหตุที่มากที่สุดของตำแหน่งนี้",
+  "mnemonic": "<b>'กระพุ้งแก้ม = หมาก (Betel) · ริมฝีปากล่าง = แดด (UV)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers v.2025; IARC Monographs Vol. 85: Betel-quid and Areca-nut Chewing",
   "variants": [
-   "<b>นอกสไลด์:</b> คนเคี้ยวหมากนาน อ้าปากได้แคบลงเรื่อย ๆ เยื่อบุแก้มซีดแข็งเป็นแถบ → oral submucous fibrosis (รอยโรคก่อนมะเร็ง)",
-   "<b>นอกสไลด์:</b> มะเร็งกระพุ้งแก้มตัดแล้วขอบชิดมาก และต่อมน้ำเหลืองมีมะเร็งลามออกนอกแคปซูล → ฉายรังสีร่วมเคมีหลังผ่าตัด"
+   "หญิงสูงอายุเคี้ยวหมาก ปื้นขาวที่กระพุ้งแก้ม → leukoplakia → biopsy",
+   "ชาวนามีแผลเรื้อรังที่ริมฝีปากล่าง → SCC ริมฝีปาก (UV)",
+   "ผู้เคี้ยวหมากอ้าปากได้น้อยลง เยื่อบุซีดแข็ง → oral submucous fibrosis"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 50 — ตัวพิมพ์: <b>75 ผู้ป่วยชาย อายุ 65 ปี มีแผลที่กระพุ้งแก้มขนาด 2x3 เซนติเมตร ถ้ากัดโดนจะมีเลือดออกแต่ไม่เจ็บ คอข้างขวาคลำต่อมน้ำเหลืองโต ขนาด 2 เซนติเมตร อะไรเป็นสาเหตุที่ก่อให้เกิดอาการดังกล่าวมากที่สุด — A. ขาดวิตามินB2 B. รังสี UV C. เคี้ยวหมากหรือยาสูบ D. สูบบุหรี่ E. ดื่มแอลกอฮอล์</b><br>ลายมือ: \"suspected SCC\" · ขีด C · ✓ ที่ C, D, E<br>ไฮไลต์: \"ชาย อายุ 65 ปี\" \"มีแผลที่กระพุ้งแก้ม\" \"ถ้ากัดโดนจะมีเลือดออกแต่ไม่เจ็บ\" \"คอข้างขวาคลำต่อมน้ำเหลืองโต ขนาด 2 เซนติเมตร\" \"สาเหตุที่ก่อให้เกิดอาการดังกล่าวมากที่สุด\" · C (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ Risk factors — Smoking (heavy) · Alcohol · Chronic irritation · irradiation · malnutrition (Fe, Vit B def) · poor oral hygiene · immune incompetence · hereditary · infection eg HPV (viral) พร้อมลายมือ \"combined ↑ risk\" \"ex เคี้ยวยาเส้น, สูบ\" (ตัวเล็ก อ่านได้บางส่วน)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 41: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 50",
+  "kimg": [
+   "fsk_p50",
+   "kp69a_75",
+   "k2p_41"
   ]
  }
 }
