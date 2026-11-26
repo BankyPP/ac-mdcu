@@ -1,0 +1,444 @@
+{
+ "66": {
+  "stem": "A 9-year-old is being scored with the pediatric appendicitis score. Which single finding earns 2 points?",
+  "opts": [
+   "Fever of 38.5 °C on presentation",
+   "Anorexia since the onset of pain",
+   "Right lower quadrant pain on hopping",
+   "WBC count above 10,000 per microliter",
+   "Migration of pain to the right lower quadrant"
+  ],
+  "ans": 2,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็ก 9 ปีประเมินด้วย PAS → ถามข้อที่ได้ 2 คะแนน ต้องจำน้ำหนักคะแนนของ PAS",
+  "why": "PAS มี<b>สองข้อเท่านั้นที่ได้ 2 คะแนน</b> และทั้งคู่เป็นการตรวจร่างกายที่บอกว่าการอักเสบถึง parietal peritoneum: <b>(1) ปวดท้องน้อยขวาเมื่อไอ เคาะ หรือกระโดด</b> (peritoneal irritation แบบที่เด็กเจ็บน้อยกว่าการกดปล่อย) และ <b>(2) กดเจ็บท้องน้อยขวา</b> · ข้ออื่นได้ข้อละ 1: เบื่ออาหาร · ไข้ · คลื่นไส้/ อาเจียน · ปวดย้าย · WBC ≥10,000 · neutrophilia — รวมเต็ม 10 · การให้น้ำหนักกับการตรวจร่างกายสะท้อนว่าการตรวจท้องซ้ำโดยผู้ตรวจคนเดิมยังเป็นหัวใจของการวินิจฉัยในเด็ก · สไลด์หน้า 18 <b>Cough/percussion/hopping tenderness in the right lower quadrant (2)</b> และ <b>Right lower quadrant tenderness (2)</b>",
+  "wrong": {
+   "A": "ไข้ได้ 1 คะแนนทั้งใน PAS และ Alvarado (Alvarado ใช้ &gt;37.3 °C) ไม่ใช่ 2 · จะถูกถ้าถามข้อที่ได้ 1 คะแนนเท่ากันทั้งสองระบบในเด็กไข้ 38.5 °C ที่สงสัยไส้ติ่งอักเสบ",
+   "B": "เบื่ออาหารได้ 1 คะแนนทั้งสองระบบ เป็นอาการแรกที่พบบ่อยแต่ไม่จำเพาะ · จะถูกถ้าเด็กมีแค่เบื่ออาหารและปวดรอบสะดือ ตรวจท้องไม่พบจุดกดเจ็บ คะแนนจึงต่ำ",
+   "D": "WBC &gt;10,000 ได้ 1 ใน PAS แต่ได้ 2 ใน Alvarado — สลับกันได้ง่าย · จะถูกถ้าเด็กเดียวกันประเมินด้วย Alvarado แล้ว WBC 14,000",
+   "E": "ปวดย้ายมาขวาล่างได้ 1 คะแนนทั้งสองระบบ แม้เป็นลักษณะคลาสสิก · จะถูกถ้าเด็กปวดรอบสะดือแล้วย้ายมาขวาล่าง แต่ไม่มีกดเจ็บและไม่มีไข้ คะแนนจึงยังต่ำ"
+  },
+  "trap": "สลับน้ำหนักกับ Alvarado ซึ่ง WBC ได้ 2 — ใน PAS ข้อ 2 คะแนนเป็นการตรวจร่างกายทั้งคู่ (ไอ/ เคาะ/ กระโดด และกดเจ็บขวาล่าง)",
+  "summary": [
+   "PAS 2 คะแนน: ปวดขวาล่างเมื่อไอ/ เคาะ/ กระโดด · กดเจ็บขวาล่าง",
+   "PAS 1 คะแนน: เบื่ออาหาร · ไข้ · คลื่นไส้/ อาเจียน · ปวดย้าย · WBC ≥10,000 · neutrophilia — เต็ม 10",
+   "Alvarado 2 คะแนน: กดเจ็บขวาล่าง · WBC &gt;10,000 (ต่างจาก PAS)",
+   "เหตุที่ PAS ใช้ไอ/ เคาะ/ กระโดด: บอก peritoneal irritation โดยเด็กไม่เจ็บมากเท่า rebound",
+   "ตรวจท้องซ้ำโดยผู้ตรวจคนเดิมเป็นหัวใจของการวินิจฉัยในเด็ก",
+   "สไลด์พิมพ์ WBC ของ PAS เป็น \"210,000\" → ต้นฉบับคือ ≥10,000"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตาราง PAS สไลด์หน้า 18 ให้ (2) กับ cough/percussion/hopping และ RLQ tenderness ตรงกับต้นฉบับ Samuel 2002 · ค่า WBC ในคอลัมน์ PAS พิมพ์ผิดเป็น 210,000 แต่ไม่กระทบข้อนี้",
+  "mnemonic": "<b>'PAS สองแต้ม = กระโดดเจ็บ + กดเจ็บ'</b>",
+  "guide": "Samuel M. Pediatric appendicitis score (J Pediatr Surg 2002;37:877–881); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็ก 8 ปีไอแล้วกุมท้องน้อยขวา และกดเจ็บขวาล่าง → ได้ 4 คะแนนจากการตรวจร่างกายสองข้อนี้",
+   "เด็ก 11 ปีกระโดดไม่ได้เพราะปวดขวาล่าง → ให้เคาะท้องเบา ๆ แทน ถ้าเจ็บขวาล่างนับ 2 คะแนน",
+   "เด็ก 6 ปีกลัวและร้องตลอดการตรวจ → รอให้สงบ เบี่ยงความสนใจแล้วตรวจซ้ำ ก่อนให้คะแนนการตรวจร่างกาย"
+  ]
+ },
+ "67": {
+  "stem": "A 7-year-old boy with suspected appendicitis cries when his abdomen is pressed and released. The emergency physician wants a score developed for children that avoids this maneuver. Which examination finding is included in the pediatric appendicitis score but not in the Alvarado score?",
+  "opts": [
+   "Rebound tenderness in the right lower quadrant",
+   "Tenderness in the right lower quadrant",
+   "Migration of pain to the right lower quadrant",
+   "Pain with coughing, percussion, or hopping",
+   "Temperature above 37.3 °C"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็ก 7 ปีร้องเมื่อกดแล้วปล่อย แพทย์ต้องการคะแนนที่สร้างเพื่อเด็กและเลี่ยงการกดปล่อย → ถามข้อที่มีใน PAS แต่ไม่มีใน Alvarado",
+  "why": "Samuel พัฒนา <b>PAS (2002) จากเด็กอายุ 4–15 ปี</b> โดย<b>แทน rebound tenderness ด้วยการปวดเมื่อไอ เคาะ หรือกระโดด</b> ซึ่งบอก peritoneal irritation ได้เหมือนกันแต่ไม่ต้องกดปล่อยให้เด็กเจ็บ และ<b>ให้น้ำหนัก 2 คะแนน</b> · Alvarado (1986) สร้างจากประชากรส่วนใหญ่เป็นผู้ใหญ่ ใช้ <b>rebound 1 คะแนน</b> และไม่มีข้อไอ/ กระโดด · ส่วนที่เหมือนกัน: กดเจ็บขวาล่าง 2 · ปวดย้าย · เบื่ออาหาร · คลื่นไส้/ อาเจียน · ไข้ · left shift ข้อละ 1 · ที่ต่าง: WBC ใน PAS 1 แต่ใน Alvarado 2 และ Alvarado ใช้ไข้ &gt;37.3 °C · สไลด์หน้า 18 ตารางเทียบ <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b>",
+  "wrong": {
+   "A": "Rebound tenderness อยู่ใน<b>Alvarado</b> (1 คะแนน) ไม่อยู่ใน PAS — เป็นการตรวจที่ทำให้เด็กเจ็บและแปลผลยากในเด็กเล็ก · จะถูกถ้าถามข้อที่อยู่ใน Alvarado แต่ไม่อยู่ใน PAS ในวัยรุ่นที่กดปล่อยแล้วเจ็บขวาล่าง",
+   "B": "กดเจ็บขวาล่างอยู่ทั้งสองระบบและได้ 2 คะแนนเท่ากัน จึงไม่ใช่ข้อที่ต่าง · จะถูกถ้าถามข้อตรวจร่างกายที่ได้ 2 คะแนนในทั้ง PAS และ Alvarado",
+   "C": "ปวดย้ายอยู่ทั้งสองระบบ ข้อละ 1 คะแนน · จะถูกถ้าถามอาการจากประวัติที่ทั้งสองระบบให้ 1 คะแนนเท่ากัน ในเด็กที่ปวดรอบสะดือแล้วย้ายมาขวาล่าง",
+   "E": "ไข้ &gt;37.3 °C เป็นเกณฑ์ไข้ของ <b>Alvarado</b> PAS ก็มีข้อไข้ 1 คะแนนเช่นกัน จึงไม่ใช่ข้อที่มีเฉพาะ PAS · จะถูกถ้าเด็กอุณหภูมิ 37.6 °C แล้วถามว่าได้คะแนนไข้ใน Alvarado หรือไม่ (ได้)"
+  },
+  "trap": "จำว่า PAS เป็นคะแนน \"เด็ก\" แล้วคิดว่ามี rebound เหมือน Alvarado — PAS ตัด rebound ทิ้งแล้วใช้ไอ/ เคาะ/ กระโดดแทนให้ 2 คะแนน",
+  "summary": [
+   "PAS (Samuel 2002) สร้างจากเด็ก 4–15 ปี · Alvarado (1986) จากประชากรส่วนใหญ่ผู้ใหญ่",
+   "ต่าง 1: PAS ใช้ไอ/ เคาะ/ กระโดด (2) แทน rebound · Alvarado ใช้ rebound (1)",
+   "ต่าง 2: WBC ใน PAS 1 · ใน Alvarado 2",
+   "เหมือน: กดเจ็บขวาล่าง 2 · ปวดย้าย · เบื่ออาหาร · คลื่นไส้/ อาเจียน · ไข้ · neutrophilia/ left shift ข้อละ 1",
+   "ทั้งสองเต็ม 10 · Alvarado ย่อ MANTRELS",
+   "ไม่ควรใช้คะแนนใดวินิจฉัยเดี่ยว — ใช้คัดกรองความเสี่ยงและเลือกภาพ"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตารางสไลด์หน้า 18 วางสองระบบเทียบแถวต่อแถว เห็นชัดว่า PAS มี cough/percussion/hopping (2) ในแถวเดียวกับ Rebound pain (1) ของ Alvarado · ช่วงอายุที่ใช้สร้าง PAS มาจาก Samuel 2002 สไลด์ไม่ได้ระบุ",
+  "mnemonic": "<b>'เด็กไม่ต้องกดปล่อย ให้กระโดดแทน'</b>",
+  "guide": "Samuel M. Pediatric appendicitis score (J Pediatr Surg 2002;37:877–881); Alvarado A. A practical score for the early diagnosis of acute appendicitis (Ann Emerg Med 1986;15:557–564)",
+  "variants": [
+   "วัยรุ่น 16 ปีกดปล่อยแล้วเจ็บขวาล่าง → นับ rebound 1 คะแนนใน Alvarado",
+   "เด็ก 5 ปีเดินกระโดดไม่ได้ → ใช้การเคาะท้องหรือไอแทนในข้อ 2 คะแนนของ PAS",
+   "เด็ก 10 ปี WBC 15,000 → ได้ 1 คะแนนใน PAS แต่ 2 คะแนนใน Alvarado"
+  ]
+ },
+ "68": {
+  "stem": "A 13-year-old boy has periumbilical pain that migrated to the right lower quadrant, with anorexia and nausea. Temperature is 37.6 °C. He has right lower quadrant tenderness and rebound tenderness. WBC count is 9,000/µL with 78% neutrophils. What is his Alvarado score?",
+  "opts": [
+   "6 points",
+   "7 points",
+   "8 points",
+   "9 points",
+   "10 points"
+  ],
+  "ans": 2,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กชาย 13 ปีปวดย้าย เบื่ออาหาร คลื่นไส้ อุณหภูมิ 37.6 °C กดเจ็บและ rebound ขวาล่าง WBC 9,000 neutrophil 78% → ถาม Alvarado · จุดหลอก: 37.6 °C นับเป็นไข้ใน Alvarado (&gt;37.3) และ WBC ไม่ถึงเกณฑ์",
+  "why": "<b>Alvarado (MANTRELS)</b>: <b>M</b>igration 1 · <b>A</b>norexia 1 · <b>N</b>ausea/ vomiting 1 · <b>T</b>enderness RLQ 2 · <b>R</b>ebound 1 · <b>E</b>levated temperature &gt;37.3 °C 1 · <b>L</b>eukocytosis &gt;10,000 2 · <b>S</b>hift to the left (neutrophil &gt;75%) 1 = 10 · เด็กรายนี้: ปวดย้าย 1 + เบื่ออาหาร 1 + คลื่นไส้ 1 + กดเจ็บขวาล่าง 2 + rebound 1 + <b>37.6 °C = 1</b> (เกณฑ์ไข้ของ Alvarado ต่ำกว่าที่คนคุ้น) + WBC 9,000 = 0 + <b>neutrophil 78% = 1</b> → <b>8 คะแนน</b> · neutrophil เด่นนับได้แม้ WBC รวมไม่ถึง 10,000 · 8 อยู่กลุ่ม 7–10 → Surgery (สไลด์: 93% เป็นไส้ติ่งอักเสบ) · สไลด์หน้า 18 <b>Fever (&gt;37.3) (1)</b> · <b>Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 7 suggests appendicitis</b>",
+  "wrong": {
+   "A": "6 คะแนนเมื่อไม่นับทั้งไข้และ left shift (คิดว่าไข้ต้อง ≥38 °C และ left shift ต้องมี WBC สูงก่อน) · จะถูกถ้าเด็กภาพเดียวกันแต่อุณหภูมิ 37.0 °C และ neutrophil 65%",
+   "B": "7 คะแนนเมื่อไม่นับ 37.6 °C เป็นไข้ — กับดักหลักของข้อนี้ · จะถูกถ้าเด็กภาพเดียวกันแต่อุณหภูมิ 37.2 °C",
+   "D": "9 คะแนนเมื่อนับ WBC 9,000 เป็น leukocytosis 1 คะแนนแบบ PAS หรือปัดขึ้น · จะถูกถ้าเด็กภาพเดียวกันแต่ไม่มี rebound และ WBC 12,000 (ได้ 2)",
+   "E": "10 คะแนนเมื่อนับ leukocytosis 2 คะแนนทั้งที่ WBC 9,000 ไม่ถึงเกณฑ์ · จะถูกถ้าเด็กภาพเดียวกันแต่ WBC 14,000"
+  },
+  "trap": "ไม่นับ 37.6 °C เพราะติดเกณฑ์ไข้ 38 °C — Alvarado ใช้ &gt;37.3 °C · และอย่าเผลอให้ leukocytosis เมื่อ WBC ไม่ถึง 10,000 ทั้งที่ neutrophil เด่นนับแยกได้",
+  "summary": [
+   "Alvarado = MANTRELS เต็ม 10: Tenderness RLQ 2 · Leukocytosis 2 · อื่นข้อละ 1",
+   "ไข้ใน Alvarado: &gt;37.3 °C · leukocytosis &gt;10,000 · left shift neutrophil &gt;75%",
+   "Left shift นับแยกจาก WBC รวม — neutrophil เด่นได้คะแนนแม้ WBC ปกติ",
+   "แปลผลตามสไลด์: 1–4 discharge · 5–6 observe/ admit · 7–10 surgery",
+   "สไลด์เขียน \"Sum of 7 suggests appendicitis\" สำหรับ Alvarado",
+   "Alvarado มี rebound · ไม่มีไอ/ กระโดด (ต่างจาก PAS)"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — นับตามคอลัมน์ Alvarado สไลด์หน้า 18 ได้ 8 ตรงกับเกณฑ์ต้นฉบับ Alvarado 1986 (ไข้ ≥37.3 °C, WBC &gt;10,000, neutrophil &gt;75%) · สไลด์เขียน &gt;37.3 ซึ่งต่างจากต้นฉบับที่ใช้ ≥37.3 แต่ไม่กระทบค่า 37.6",
+  "mnemonic": "<b>'MANTRELS: T กับ L ได้สอง · ไข้แค่ 37.3 ก็นับ'</b>",
+  "guide": "Alvarado A. A practical score for the early diagnosis of acute appendicitis (Ann Emerg Med 1986;15:557–564); WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27)",
+  "variants": [
+   "เด็กภาพเดียวกันแต่ WBC 13,500 neutrophil 82% และไม่มีไข้ → Alvarado 9",
+   "วัยรุ่นปวดขวาล่าง กดเจ็บขวาล่างอย่างเดียว อุณหภูมิ 37.5 °C ผลเลือดปกติ → Alvarado 3",
+   "เด็กมี Alvarado 8 → กลุ่ม 7–10 ปรึกษาผ่าตัด"
+  ]
+ },
+ "69": {
+  "stem": "A 14-year-old is being assessed with the Alvarado score. Which laboratory finding carries 2 points?",
+  "opts": [
+   "WBC count above 10,000/µL",
+   "Neutrophils above 75%",
+   "C-reactive protein above 10 mg/L",
+   "More than five white cells in urine",
+   "Positive urine pregnancy test"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "วัยรุ่น 14 ปีประเมินด้วย Alvarado → ถามผลแลบที่ได้ 2 คะแนน ต้องรู้ว่า leukocytosis ได้ 2",
+  "why": "Alvarado มีผลแลบ<b>เพียงสองข้อ</b>ทั้งคู่มาจาก CBC: <b>leukocytosis (WBC &gt;10,000/µL) = 2 คะแนน</b> และ <b>left shift (neutrophil &gt;75%) = 1 คะแนน</b> · อีกข้อที่ได้ 2 คือกดเจ็บขวาล่าง (ตรวจร่างกาย) · Alvarado ให้น้ำหนัก WBC มากกว่า PAS (ซึ่งให้ 1) เพราะในการศึกษาต้นฉบับ leukocytosis เป็นตัวแยกที่แรง · CRP, UA, UPT ไม่อยู่ในคะแนน แต่ CRP ใช้ร่วมได้ (คะแนนใหม่ เช่น AIR score รวม CRP) · สไลด์หน้า 18 <b>Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Left shift (neutrophils &gt;75%) (1)</b>",
+  "wrong": {
+   "B": "Neutrophil &gt;75% (left shift) อยู่ใน Alvarado แต่ได้ 1 คะแนน · จะถูกถ้าเด็ก WBC 8,500 แต่ neutrophil 80% แล้วถามคะแนนแลบใน Alvarado (ได้ 1)",
+   "C": "CRP ไม่อยู่ใน Alvarado หรือ PAS แต่อยู่ในคะแนนใหม่ เช่น Appendicitis Inflammatory Response (AIR) score · จะถูกถ้าใช้ AIR score ประเมินเด็กที่ CRP 60 mg/L",
+   "D": "เม็ดเลือดขาวในปัสสาวะไม่อยู่ในคะแนน — ส่ง UA เพื่อแยก UTI/ นิ่ว และไส้ติ่งอักเสบเองก็ทำให้ pyuria ได้ · จะถูกถ้าเด็กหญิงปัสสาวะแสบขัด UA เม็ดเลือดขาวเต็ม nitrite บวก ไม่มีจุดกดเจ็บ",
+   "E": "UPT ไม่อยู่ในคะแนน แต่ต้องตรวจในวัยรุ่นหญิงทุกรายก่อนส่งภาพ เพราะ ectopic pregnancy เลียนแบบไส้ติ่ง · จะถูกถ้าวัยรุ่นหญิงปวดท้องน้อยขวา UPT บวก USG ไม่เห็นถุงการตั้งครรภ์ในมดลูก"
+  },
+  "trap": "สลับกับ PAS ที่ WBC ได้ 1 หรือคิดว่า neutrophil สำคัญกว่าจำนวน — ใน Alvarado WBC &gt;10,000 ได้ 2 ส่วน left shift ได้ 1",
+  "summary": [
+   "Alvarado แลบ: WBC &gt;10,000 = 2 · neutrophil &gt;75% = 1",
+   "Alvarado 2 คะแนน: กดเจ็บขวาล่าง · leukocytosis",
+   "PAS ให้ WBC และ neutrophilia ข้อละ 1",
+   "CRP/ UA/ UPT ไม่อยู่ในคะแนน แต่ใช้ร่วมวินิจฉัยและแยกโรค",
+   "คะแนนที่รวม CRP: AIR score",
+   "คะแนนเป็นเครื่องมือคัดกรอง ไม่ใช่วินิจฉัยเดี่ยว (WSES 2020)"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตาราง Alvarado สไลด์หน้า 18 ให้ Leukocytosis (WBCs &gt;10,000) (2) ตรงกับต้นฉบับ Alvarado 1986 · AIR score และบทบาท CRP มาจาก WSES 2020 สไลด์ไม่ได้กล่าวถึง",
+  "mnemonic": "<b>'Alvarado: L = Leukocytosis = 2 (สองแต้มตัวที่สองคู่กับ T)'</b>",
+  "guide": "Alvarado A. A practical score for the early diagnosis of acute appendicitis (Ann Emerg Med 1986;15:557–564); WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27)",
+  "variants": [
+   "เด็ก WBC 16,000 neutrophil 88% → ได้ 3 คะแนนจากแลบใน Alvarado",
+   "เด็ก WBC 7,000 neutrophil 60% → แลบได้ 0 ใน Alvarado ต้องอาศัยอาการและการตรวจ",
+   "เด็กเดียวกันประเมินด้วย PAS ได้ WBC สูงและ neutrophilia → แลบได้ 2 คะแนน (ข้อละ 1)"
+  ]
+ },
+ "70": {
+  "stem": "A 12-year-old girl has right lower quadrant pain. Her examiner records anorexia, migration of pain, guarding, rebound tenderness, and a temperature of 37.6 °C. Which of these findings does not contribute to her Alvarado score?",
+  "opts": [
+   "Rebound tenderness",
+   "Guarding",
+   "Anorexia",
+   "Migration of pain",
+   "Temperature of 37.6 °C"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 17 — ตัวพิมพ์: <b>Acute appendicitis</b> · <b>• Most common age group 8-15 years (but could be found in all ages) • Extreme age (&lt;5 years) prone to ruptured appendicitis • Clinical presentations: • Unspecific abdominal pain, migratory pain to RLQ, fever, nausea, vomiting, anorexia, diarrhea • Physical examination: tender at RLQ (Mc Burney's point), guarding, fever • Investigations: Leukocytosis and shift to the left, USG, CT scan (diameter &gt; 6 mm) • Treatment: appendectomy (open vs laparoscopic)</b><br>สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p17",
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 17, 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กหญิง 12 ปีปวดขวาล่าง มีเบื่ออาหาร ปวดย้าย guarding rebound และอุณหภูมิ 37.6 °C → ถามข้อที่ไม่ได้คะแนนใน Alvarado ต้องจำ MANTRELS",
+  "why": "Alvarado = <b>MANTRELS</b>: Migration · Anorexia · Nausea/ vomiting · Tenderness RLQ · Rebound · Elevated temperature (&gt;37.3 °C) · Leukocytosis · Shift to the left — <b>ไม่มี guarding</b> (และ PAS ก็ไม่มี) · guarding เป็นการเกร็งกล้ามเนื้อหน้าท้องเพื่อป้องกันเมื่อถูกกด แสดง peritoneal irritation และเป็นสิ่งที่สไลด์ให้ตรวจ แต่ไม่ได้นับในคะแนนเพราะแปรผันตามผู้ตรวจและความร่วมมือของเด็ก · guarding ทั่วท้องหรือท้องแข็ง (rigidity) ชี้ peritonitis จากการแตก · สไลด์หน้า 17 <b>Physical examination: tender at RLQ (Mc Burney's point), guarding, fever</b> และหน้า 18 คอลัมน์ Alvarado <b>Rebound pain (1)</b> · <b>Anorexia (1)</b> · <b>Fever (&gt;37.3) (1)</b> · <b>Migration of pain (1)</b>",
+  "wrong": {
+   "A": "Rebound tenderness คือ R ใน MANTRELS ได้ 1 คะแนน · จะถูกถ้าถามข้อตรวจร่างกายที่อยู่ใน Alvarado แต่ไม่อยู่ใน PAS",
+   "C": "Anorexia คือ A ใน MANTRELS ได้ 1 คะแนน (อยู่ใน PAS ด้วย) · จะถูกถ้าเด็กมีแต่เบื่ออาหารกับปวดรอบสะดือ แล้วถามว่าได้คะแนน Alvarado เท่าไร (1)",
+   "D": "Migration of pain คือ M ได้ 1 คะแนนทั้งสองระบบ · จะถูกถ้าเด็กปวดรอบสะดือแล้วย้ายมาขวาล่าง แล้วถามอาการที่ทั้ง PAS และ Alvarado ให้ 1 คะแนน",
+   "E": "อุณหภูมิ 37.6 °C เกินเกณฑ์ &gt;37.3 °C ของ Alvarado จึงได้ 1 คะแนน (E) แม้หลายคนไม่ถือว่าเป็นไข้ · จะถูกถ้าอุณหภูมิ 37.2 °C ซึ่งไม่ได้คะแนน"
+  },
+  "trap": "คิดว่า guarding ต้องอยู่ในคะแนนเพราะเป็นการตรวจสำคัญในสไลด์ หรือคิดว่า 37.6 °C ไม่ใช่ไข้ — Alvarado ไม่มี guarding และนับไข้ตั้งแต่ &gt;37.3 °C",
+  "summary": [
+   "MANTRELS: Migration · Anorexia · Nausea/ vomiting · Tenderness RLQ (2) · Rebound · Elevated temp &gt;37.3 · Leukocytosis (2) · Shift",
+   "Guarding ไม่อยู่ใน Alvarado และ PAS แม้เป็นการตรวจสำคัญ",
+   "Guarding เฉพาะที่ = peritoneal irritation · ท้องแข็งทั่ว (rigidity) = peritonitis ทั่วท้อง สงสัยแตก",
+   "การตรวจร่างกายตามสไลด์: กดเจ็บ McBurney's point · guarding · ไข้",
+   "ไข้ใน Alvarado นับที่ &gt;37.3 °C",
+   "คะแนนไม่แทนการตรวจท้องซ้ำ — guarding ที่ชัดขึ้นเป็นเหตุให้ปรึกษาศัลยแพทย์"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — สไลด์หน้า 17 ให้ guarding เป็นการตรวจร่างกาย แต่ตารางหน้า 18 ทั้ง PAS และ Alvarado ไม่มี guarding ตรงกับต้นฉบับ Alvarado 1986 · เหตุผลที่ไม่นับ (ความแปรผันระหว่างผู้ตรวจ) มาจากตำรา",
+  "mnemonic": "<b>'MANTRELS ไม่มี G — guarding ไม่ได้แต้ม'</b>",
+  "guide": "Alvarado A. A practical score for the early diagnosis of acute appendicitis (Ann Emerg Med 1986;15:557–564); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็กปวดขวาล่าง ท้องแข็งทั่วท้องเหมือนกระดาน → generalized peritonitis ไส้ติ่งแตก ให้ ATB + IV fluid แล้วผ่าตัด",
+   "เด็กมี MANTRELS ครบทุกข้อ → Alvarado 10 คะแนน",
+   "เด็ก 9 ปีกดเจ็บขวาล่าง guarding ชัดขึ้นเมื่อตรวจซ้ำ 6 ชั่วโมงต่อมา → ปรึกษาศัลยแพทย์แม้คะแนนยังไม่สูง"
+  ]
+ },
+ "71": {
+  "stem": "An 8-year-old boy has 12 hours of vague abdominal pain and one episode of vomiting. He is afebrile, eating a small snack, and has no focal tenderness; coughing and hopping are painless. WBC count is 8,200/µL with 58% neutrophils. His pediatric appendicitis score is 2. What is the most appropriate management?",
+  "opts": [
+   "Ultrasound of the right lower quadrant",
+   "Contrast-enhanced CT of the abdomen",
+   "Urgent surgical consultation for appendectomy",
+   "Look for other causes; discharge with return advice",
+   "Admission for diagnostic laparoscopy"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กชาย 8 ปีปวดท้องไม่ชัด อาเจียนครั้งเดียว ไม่มีไข้ ยังกินได้ ไม่มีจุดกดเจ็บ ไอ/ กระโดดไม่ปวด WBC ปกติ PAS 2 → ถามการจัดการกลุ่มเสี่ยงต่ำ",
+  "why": "<b>PAS &lt;4 = ความเสี่ยงต่ำ</b> โอกาสไส้ติ่งอักเสบต่ำ <b>ไม่ต้องส่งภาพ</b> ให้<b>หาสาเหตุปวดท้องอื่น</b> (ท้องผูก gastroenteritis mesenteric lymphadenitis UTI ปอดอักเสบ) · ถ้าจำหน่ายกลับต้องให้<b>คำแนะนำกลับมาทันที</b> (ปวดมากขึ้น ย้ายมาขวาล่าง ไข้ อาเจียนซ้ำ เดินไม่ได้) และนัดตรวจซ้ำภายใน 12–24 ชั่วโมงถ้ายังปวด เพราะช่วงแรกของโรคคะแนนอาจยังต่ำ · การส่ง US/ CT ในกลุ่มนี้เพิ่มผลบวกลวงและรังสีโดยไม่ช่วย · สไลด์หน้า 18 <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain.</b>",
+  "wrong": {
+   "A": "US เป็นภาพแรกเมื่อ<b>คะแนนก้ำกึ่ง (PAS 4–6)</b> ไม่ใช่ในกลุ่มเสี่ยงต่ำที่ไม่มีจุดกดเจ็บ · จะถูกถ้าเด็กกดเจ็บขวาล่าง เบื่ออาหาร คลื่นไส้ PAS 5",
+   "B": "CT มีรังสี ในเด็กใช้หลัง US ไม่ชัด ไม่ใช้ในกลุ่มเสี่ยงต่ำ · จะถูกถ้าวัยรุ่นอ้วน PAS 6 ที่ US มองไม่เห็นไส้ติ่งและอาการยังไม่ชัดหลังสังเกตอาการ",
+   "C": "ปรึกษาศัลยแพทย์ก่อนหรือพร้อมภาพใช้กับ <b>PAS &gt;6</b> · จะถูกถ้าเด็กปวดย้ายขวาล่าง ไข้ กดเจ็บและกระโดดปวด WBC 16,000 PAS 9",
+   "E": "ส่องกล้องวินิจฉัยใช้เมื่อสงสัยสูงแต่ภาพไม่ชัดหลังสังเกตอาการ ไม่ใช่ในเด็กไม่มีจุดกดเจ็บ · จะถูกถ้าวัยรุ่นหญิงกดเจ็บขวาล่างมากขึ้นหลังสังเกตอาการ 12 ชั่วโมง ทั้ง US และ CT ไม่เห็นไส้ติ่ง"
+  },
+  "trap": "กลัวพลาดไส้ติ่งจึงส่งภาพทุกราย — PAS &lt;4 ไม่ต้องส่งภาพ แต่ต้องหาสาเหตุอื่นและให้คำแนะนำกลับมาเพราะโรคระยะแรกคะแนนอาจยังต่ำ",
+  "summary": [
+   "PAS &lt;4: เสี่ยงต่ำ ไม่ต้องส่งภาพ หาสาเหตุอื่น",
+   "จำหน่ายพร้อมคำแนะนำกลับมาทันที + นัดตรวจซ้ำ 12–24 ชม. ถ้ายังปวด",
+   "PAS 4–6: ก้ำกึ่ง → US ก่อน (CT/ MRI ถ้า US ไม่ชัด)",
+   "PAS &gt;6: เสี่ยงสูง → ปรึกษาศัลยแพทย์ก่อนหรือพร้อมภาพ",
+   "สาเหตุอื่นที่ต้องหา: ท้องผูก · gastroenteritis · mesenteric lymphadenitis · UTI · ปอดอักเสบ",
+   "ส่งภาพในกลุ่มเสี่ยงต่ำเพิ่มผลบวกลวงและรังสี"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — กล่องสไลด์หน้า 18 เขียน Low Risk PAS (&lt;4) imaging may not be warranted. Consider other causes ตรงกับข้อนี้ · การนัดตรวจซ้ำและคำแนะนำกลับมาเป็นหลักปฏิบัติจากตำรา สไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'PAS ต่ำกว่า 4 = ไม่ต้องถ่ายภาพ แต่ต้องนัดดู'</b>",
+  "guide": "Samuel M. Pediatric appendicitis score (J Pediatr Surg 2002;37:877–881); WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็ก PAS 2 กลับบ้าน 18 ชั่วโมงต่อมาปวดย้ายขวาล่างและไข้ → ประเมินคะแนนใหม่ ส่วนใหญ่สูงขึ้น ส่ง US",
+   "เด็ก PAS 3 ถ่ายแข็ง คลำก้อนอุจจาระท้องซ้าย → ท้องผูก ให้ PEG",
+   "เด็ก PAS 1 ไข้ ไอ หายใจเร็ว ปวดท้องขวา → ฟังปอด ส่ง CXR"
+  ]
+ },
+ "72": {
+  "stem": "A 9-year-old girl has 24 hours of right lower quadrant pain with anorexia and nausea. She is afebrile, has right lower quadrant tenderness, and coughing does not worsen the pain. WBC count is 12,400/µL with 80% neutrophils. Her pediatric appendicitis score is 6, the threshold labeled as suggesting appendicitis. What is the most appropriate next step?",
+  "opts": [
+   "Appendectomy without further evaluation",
+   "Discharge with analgesia and review in 48 hours",
+   "Surgical consultation before any imaging",
+   "Contrast-enhanced CT of the abdomen",
+   "Ultrasound of the right lower quadrant"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กหญิง 9 ปีภาพไส้ติ่งปานกลาง PAS 6 ซึ่งสไลด์เขียนว่า \"Sum of 6 suggests appendicitis\" → ถามขั้นต่อไป · จุดหลอก: คำว่า suggests ชวนให้ผ่าตัดหรือปรึกษาก่อนภาพ แต่ช่วงคะแนนในกล่องให้ 6 เป็นก้ำกึ่ง → US",
+  "why": "สไลด์หน้าเดียวกันมี<b>สองข้อความที่ขัดกัน</b>: ใต้ตารางเขียน \"Sum of 6 suggests appendicitis\" แต่กล่องแปลผลให้ <b>PAS 4–6 = Equivocal</b> และ <b>&gt;6 (คือ ≥7) = High risk</b> · การตัดสินใจทางคลินิกใช้<b>ช่วงคะแนนในกล่อง</b> → PAS 6 = ก้ำกึ่ง → <b>ส่ง US เป็นภาพแรก</b> (ไม่มีรังสี) ถ้า US ไม่ชัดค่อยพิจารณา CT/ MRI และปรึกษาศัลยแพทย์ถ้าภาพไม่เห็นไส้ติ่ง · ไม่ผ่าตัดจากคะแนนอย่างเดียวเพราะ negative appendectomy สูง (WSES 2020 ไม่ให้ใช้คะแนนวินิจฉัยเดี่ยว) · สไลด์หน้า 18 <b>Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure.</b> · <b>Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized.</b>",
+  "wrong": {
+   "A": "ผ่าตัดจากคะแนนอย่างเดียวในช่วงก้ำกึ่งทำให้ตัดไส้ติ่งปกติบ่อย — คะแนนใช้คัดกรอง ไม่ใช่วินิจฉัยเดี่ยว · จะถูกถ้าเด็กมีภาพคลาสสิกชัดและ US เห็นไส้ติ่ง 9 mm กดไม่แบน",
+   "B": "จำหน่ายกลับใช้กับกลุ่มเสี่ยงต่ำ (PAS &lt;4) ไม่ใช่ 6 ที่มีกดเจ็บและ WBC สูง · จะถูกถ้าเด็กไม่มีจุดกดเจ็บ WBC ปกติ PAS 2",
+   "C": "ปรึกษาศัลยแพทย์ก่อนหรือพร้อมภาพใช้กับ <b>PAS &gt;6</b> · PAS 6 ยังเป็นก้ำกึ่ง (ปรึกษาเมื่อภาพไม่เห็นไส้ติ่ง) · จะถูกถ้าเด็กภาพเดียวกันแต่กระโดดแล้วปวดขวาล่าง PAS 8",
+   "D": "CT มีรังสี ใช้เมื่อ US ไม่ชัดหรือไม่มี US ในเด็ก · จะถูกถ้าโรงพยาบาลไม่มี US นอกเวลา หรือ US มองไม่เห็นไส้ติ่งและอาการไม่ชัด"
+  },
+  "trap": "อ่านคำว่า \"Sum of 6 suggests appendicitis\" แล้วผ่าตัดหรือปรึกษาก่อนภาพ — ช่วงในกล่องให้ 4–6 เป็นก้ำกึ่งที่ต้องส่ง US และ &gt;6 จึงเป็นความเสี่ยงสูง",
+  "summary": [
+   "PAS 6 = ก้ำกึ่ง (4–6) → US ก่อน แม้ใต้ตารางเขียน \"Sum of 6 suggests appendicitis\"",
+   "High risk เริ่มที่ &gt;6 (≥7) → ปรึกษาศัลยแพทย์ก่อนหรือพร้อมภาพ",
+   "ก้ำกึ่ง + US มองไม่เห็นไส้ติ่ง → ปรึกษาศัลยแพทย์ ± CT/ MRI หรือสังเกตอาการ",
+   "คะแนนใช้คัดกรองความเสี่ยงและเลือกภาพ ไม่ใช้ตัดสินผ่าตัดเดี่ยว",
+   "Alvarado: สไลด์ใช้ \"Sum of 7 suggests\" และกลุ่ม 5–6 observe/ admit",
+   "สไลด์ขัดกันเอง → ยึดกล่องช่วงคะแนนตามการศึกษาที่ใช้จริง"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลาง-สูง — สไลด์หน้า 18 ขัดกันเอง (Sum of 6 suggests vs Equivocal 4–6) ข้อนี้ยึดกล่องแปลผลเพราะเป็นแนวทางเลือกภาพที่ใช้จริงและสอดคล้อง WSES 2020 ที่ให้ US เป็นภาพแรกในเด็กและไม่ใช้คะแนนวินิจฉัยเดี่ยว · ถ้าผู้ออกข้อสอบยึด \"Sum of 6 suggests\" อาจคาดหวังให้ปรึกษาศัลยแพทย์",
+  "mnemonic": "<b>'4–6 ถ่าย US · 7 ขึ้นไปเรียกศัลย์'</b>",
+  "guide": "Samuel M. Pediatric appendicitis score (J Pediatr Surg 2002;37:877–881); WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27)",
+  "variants": [
+   "เด็ก PAS 5 US เห็นไส้ติ่ง 4 mm กดแบนได้ → ไส้ติ่งปกติ หาสาเหตุอื่น",
+   "เด็ก PAS 6 US มองไม่เห็นไส้ติ่ง → ปรึกษาศัลยแพทย์ สังเกตอาการ ± CT/ MRI",
+   "เด็ก PAS 4 US เห็นไส้ติ่ง 8 mm มี appendicolith → ไส้ติ่งอักเสบ ปรึกษาผ่าตัด"
+  ]
+ },
+ "73": {
+  "stem": "A 10-year-old has a pediatric appendicitis score of 9. What is the most appropriate next step?",
+  "opts": [
+   "Surgical consultation",
+   "Discharge with oral analgesia",
+   "CT before any consultation",
+   "Repeat score in 24 hours",
+   "Abdominal radiograph"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็ก 10 ปี PAS 9 → ถามขั้นต่อไป ต้องรู้ว่า PAS &gt;6 คือความเสี่ยงสูง ปรึกษาศัลยแพทย์ก่อนหรือพร้อมภาพ",
+  "why": "<b>PAS &gt;6 = ความเสี่ยงสูง</b> ให้<b>ปรึกษาศัลยแพทย์ก่อนหรือพร้อมกับการส่งภาพ</b> ไม่ต้องรอภาพก่อนเรียก เพื่อไม่ให้การรอภาพทำให้ไส้ติ่งแตก (ความเสี่ยงแตกเพิ่มตามเวลา) · ระหว่างรอ: งดน้ำงดอาหาร ให้สารน้ำ ยาแก้ปวด (มอร์ฟีนไม่บดบังการวินิจฉัย) · หลายศูนย์ยังส่ง US ยืนยันเพื่อลด negative appendectomy แต่ทำพร้อมกับปรึกษา · คะแนนสูงไม่ใช่การวินิจฉัยเดี่ยว ศัลยแพทย์ตัดสินจากการตรวจร่วมกับภาพ · สไลด์หน้า 18 <b>High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b>",
+  "wrong": {
+   "B": "จำหน่ายกลับใช้กับ PAS &lt;4 ที่ไม่มีจุดกดเจ็บ ไม่ใช่ 9 · จะถูกถ้าเด็กปวดท้องไม่ชัด ไม่มีไข้ ท้องนุ่ม WBC ปกติ PAS 1",
+   "C": "CT ก่อนปรึกษาทำให้ล่าช้าและเพิ่มรังสี ในความเสี่ยงสูงให้ปรึกษาก่อนหรือพร้อมภาพ · จะถูกถ้าวัยรุ่นอ้วน PAS 5 ที่ US มองไม่เห็นไส้ติ่ง และศัลยแพทย์ขอ CT เพิ่ม",
+   "D": "รอ 24 ชั่วโมงในความเสี่ยงสูงเสี่ยงไส้ติ่งแตก · การประเมินซ้ำใช้ในกลุ่มก้ำกึ่งที่ภาพไม่ชัด (ทุก 4–6 ชั่วโมงในโรงพยาบาล) · จะถูกถ้าเด็ก PAS 5 US ไม่เห็นไส้ติ่ง รับไว้ตรวจท้องซ้ำ",
+   "E": "ฟิล์มท้องไม่ช่วยวินิจฉัยไส้ติ่งอักเสบ · จะถูกถ้าเด็กสงสัยลำไส้อุดตันหลังเคยผ่าตัดไส้ติ่ง อาเจียนน้ำดี ท้องอืด"
+  },
+  "trap": "คิดว่าต้องมีภาพยืนยันก่อนจึงเรียกศัลยแพทย์ — PAS &gt;6 ให้ปรึกษาก่อนหรือพร้อมภาพ",
+  "summary": [
+   "PAS &gt;6 (≥7): ปรึกษาศัลยแพทย์ก่อนหรือพร้อมภาพ",
+   "ระหว่างรอ: NPO · IV fluid · ยาแก้ปวด (ไม่บดบังการวินิจฉัย)",
+   "US ยังส่งได้พร้อมกันเพื่อลด negative appendectomy",
+   "PAS 4–6: US ก่อน · PAS &lt;4: ไม่ต้องภาพ หาสาเหตุอื่น",
+   "ประเมินซ้ำทุก 4–6 ชม. ใช้กับกลุ่มก้ำกึ่งที่ภาพไม่ชัด",
+   "คะแนนสูงไม่ใช่การวินิจฉัยเดี่ยว"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — กล่องสไลด์หน้า 18 เขียน High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging · การให้ยาแก้ปวดโดยไม่บดบังการวินิจฉัยมาจาก WSES 2020 สไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'เจ็ดขึ้นไป เรียกศัลย์ก่อนรอภาพ'</b>",
+  "guide": "Samuel M. Pediatric appendicitis score (J Pediatr Surg 2002;37:877–881); WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27)",
+  "variants": [
+   "เด็ก PAS 8 ร้องปวดมาก → ให้มอร์ฟีนได้ระหว่างรอศัลยแพทย์ ไม่บดบังการวินิจฉัย",
+   "เด็ก PAS 9 ศัลยแพทย์ตรวจแล้วภาพคลาสสิกชัด → ผ่าตัดได้ โดยอาจส่ง US ไปพร้อมกัน",
+   "เด็ก PAS 7 แต่ US เห็นไส้ติ่งปกติชัดและพบ ovarian cyst แตก → ไม่ผ่าตัดไส้ติ่ง"
+  ]
+ },
+ "74": {
+  "stem": "A 15-year-old boy has 10 hours of periumbilical discomfort and anorexia without nausea. Temperature is 37.0 °C. He has mild right lower quadrant tenderness without rebound. WBC count is 8,800/µL with 70% neutrophils. His Alvarado score is 3. Based on the predicted proportions for this score group, about what proportion of such patients have appendicitis?",
+  "opts": [
+   "About 30%",
+   "About 50%",
+   "About 66%",
+   "About 80%",
+   "About 93%"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "วัยรุ่นชาย 15 ปีอาการไม่ชัด Alvarado 3 → ถามสัดส่วนที่เป็นไส้ติ่งอักเสบในกลุ่ม 1–4 ตามตัวเลขที่สไลด์ให้",
+  "why": "สไลด์แบ่ง Alvarado เป็น 3 กลุ่มพร้อมสัดส่วนที่เป็นไส้ติ่งอักเสบ: <b>1–4 → discharge (ราว 30%)</b> · <b>5–6 → observation/ admission (ราว 66%)</b> · <b>7–10 → surgery (ราว 93%)</b> · เด็กรายนี้ได้ 3 (เบื่ออาหาร 1 + กดเจ็บขวาล่าง 2) → กลุ่ม 1–4 = <b>ราว 30%</b> · ตัวเลข 30% บอกว่ากลุ่มต่ำ<b>ไม่ได้ปลอดภัยทั้งหมด</b> การจำหน่ายจึงต้องมีคำแนะนำกลับมาและนัดตรวจซ้ำ · การศึกษาภายหลัง (meta-analysis) พบว่า Alvarado &lt;5 มีความไวสูงในการตัดไส้ติ่งออก แต่ทำนายเกินจริงในเด็กและผู้หญิง · สไลด์หน้า 18 <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b>",
+  "wrong": {
+   "B": "ราว 50% ไม่ใช่ตัวเลขของกลุ่มใดในสไลด์ — เป็นการเดาตรงกลางเมื่อจำไม่ได้ · จะถูกถ้าถามโอกาสโดยประมาณของ \"ก้ำกึ่ง\" ทั่วไปโดยไม่อิงตัวเลขสไลด์",
+   "C": "ราว 66% เป็นของกลุ่ม <b>5–6</b> (observation/ admission) · จะถูกถ้าวัยรุ่นมีเบื่ออาหาร คลื่นไส้ ปวดย้าย และกดเจ็บขวาล่าง Alvarado 5",
+   "D": "ราว 80% ไม่ใช่ตัวเลขของกลุ่มใดในสไลด์ · จะถูกถ้าถามค่าที่อยู่ระหว่างกลุ่ม 5–6 และ 7–10",
+   "E": "ราว 93% เป็นของกลุ่ม <b>7–10</b> (surgery) · จะถูกถ้าวัยรุ่นมีภาพคลาสสิก ไข้ rebound WBC 15,000 neutrophil 85% Alvarado 9"
+  },
+  "trap": "เห็นคำว่า discharge แล้วคิดว่าโอกาสเป็นใกล้ศูนย์ — สไลด์ให้กลุ่ม 1–4 ยังเป็นไส้ติ่งราว 30% จึงต้องนัดตรวจซ้ำเสมอ",
+  "summary": [
+   "Alvarado 1–4 → discharge · ราว 30% เป็นไส้ติ่งอักเสบ",
+   "Alvarado 5–6 → observation/ admission · ราว 66%",
+   "Alvarado 7–10 → surgery · ราว 93%",
+   "จำหน่ายกลุ่มต่ำต้องมีคำแนะนำกลับมาและนัดตรวจซ้ำ",
+   "Alvarado &lt;5 ไวดีในการตัดออก แต่ทำนายเกินจริงในเด็กและผู้หญิง",
+   "ต้นฉบับ Alvarado 1986 แปลผล 5–6 compatible · 7–8 probable · 9–10 very probable"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูงสำหรับตัวเลขตามสไลด์ — สไลด์หน้า 18 ให้ 1-4 - 30% ตรง · ตัวเลข 30/66/93% เป็นการแบ่งกลุ่มจากการศึกษาที่สไลด์นำมา ต้นฉบับ Alvarado 1986 ใช้ 5–6/ 7–8/ 9–10 · การศึกษาภายหลังพบสัดส่วนในกลุ่มต่ำมักต่ำกว่า 30% ตัวเลขจึงขึ้นกับประชากร",
+  "mnemonic": "<b>'Alvarado 30–66–93 = ต่ำ–กลาง–สูง'</b>",
+  "guide": "Alvarado A. A practical score for the early diagnosis of acute appendicitis (Ann Emerg Med 1986;15:557–564); Ohle R et al. The Alvarado score for predicting acute appendicitis: a systematic review (BMC Med 2011;9:139); WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27)",
+  "variants": [
+   "วัยรุ่น Alvarado 4 จำหน่ายกลับ วันรุ่งขึ้นปวดย้ายขวาล่าง ไข้ → คะแนนใหม่สูงขึ้น ประเมินซ้ำ ส่งภาพ",
+   "เด็ก Alvarado 2 ท้องนุ่ม ปวดบิดทั่วท้องหลังท้องเสีย → gastroenteritis จำหน่ายพร้อมคำแนะนำ",
+   "วัยรุ่นหญิง Alvarado 4 ปวดท้องน้อยขวากลางรอบเดือน → คิด ovulation pain ตรวจ UPT และนัดดูอาการ"
+  ]
+ },
+ "75": {
+  "stem": "An 11-year-old boy has right lower quadrant pain with an Alvarado score of 6. What is the recommended disposition?",
+  "opts": [
+   "Discharge with oral analgesia and follow-up",
+   "Admission for observation and repeated examination",
+   "Immediate appendectomy without imaging",
+   "Oral antibiotics and outpatient review",
+   "Diagnostic laparoscopy on the same day"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>สไลด์หน้า 19 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> → <b>Likely for appendicitis → Appendectomy</b> · <b>Uncertain for appendicitis → Close observation · USG</b> → <b>Normal appendix</b> (→ <b>Other diseases</b>) · <b>Not seen normal appendix</b> → <b>CT scan</b> · <b>Appendicitis → Appendectomy</b> · CT scan → <b>Normal appendix</b> (→ Other diseases) · <b>Not seen normal appendix → Close observation or diagnostic laparoscopy → Appendicitis → Appendectomy</b> · <b>Normal appendix</b> → Other diseases<br>รูปในสไลด์หน้า 19: แผนภาพลูกศรพื้นดำ (เส้นทึบ/เส้นประจาก close observation ไป USG, CT scan และ appendicitis)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18",
+   "l28_p19"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18, 19 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กชาย 11 ปี Alvarado 6 → ถามการจัดการกลุ่ม 5–6 ต้องรู้ว่าให้รับไว้สังเกตอาการ",
+  "why": "Alvarado <b>5–6 = กลุ่มก้ำกึ่ง</b> → <b>รับไว้ในโรงพยาบาลเพื่อสังเกตอาการ (observation/ admission)</b> ราว 66% เป็นไส้ติ่งอักเสบ · ระหว่างนั้น: งดน้ำงดอาหาร ให้สารน้ำ ยาแก้ปวด <b>ตรวจท้องซ้ำ</b>โดยผู้ตรวจคนเดิมทุก 4–6 ชั่วโมง คำนวณคะแนนซ้ำ และ<b>ส่ง US</b> ตามแผนภาพ (uncertain → close observation · USG) · ถ้าอาการชัดขึ้น → appendectomy · ถ้าดีขึ้น → หาสาเหตุอื่น · ไม่ให้ ATB ก่อนวินิจฉัยเพราะบดบังอาการ · สไลด์หน้า 18 <b>5-6 → Observation / Admission</b> · <b>Alvarado score 5-6 - 66%</b> และหน้า 19 <b>Uncertain for appendicitis → Close observation · USG</b>",
+  "wrong": {
+   "A": "จำหน่ายกลับเป็นแนวทางของกลุ่ม 1–4 · กลุ่ม 5–6 มีโอกาสราวสองในสามจึงไม่ควรกลับบ้าน · จะถูกถ้าเด็ก Alvarado 3 ไม่มีจุดกดเจ็บชัด",
+   "C": "ผ่าตัดทันทีเป็นแนวทางของกลุ่ม 7–10 · กลุ่ม 5–6 ผ่าทันทีทำให้ negative appendectomy สูง · จะถูกถ้าเด็กภาพคลาสสิกครบ Alvarado 9 และศัลยแพทย์ตรวจยืนยัน",
+   "D": "ให้ ATB กินแล้วนัดดูก่อนวินิจฉัยบดบังอาการและไส้ติ่งอาจแตกโดยไม่รู้ · การรักษาด้วย ATB อย่างเดียวใช้เมื่อ<b>วินิจฉัยด้วยภาพแล้ว</b>ว่าเป็นชนิดไม่แตก ไม่มี appendicolith · จะถูกถ้าเด็ก US ยืนยัน uncomplicated appendicitis ไม่มี appendicolith และครอบครัวเลือกไม่ผ่าตัด (ให้ IV ATB ก่อนแล้วจึงเปลี่ยนเป็นกิน)",
+   "E": "ส่องกล้องวินิจฉัยเป็นขั้นท้ายเมื่อสังเกตอาการแล้ว US และ CT ไม่เห็นไส้ติ่งแต่ยังสงสัย ไม่ใช่วันแรกของกลุ่มก้ำกึ่ง · จะถูกถ้าเด็กสังเกตอาการ 12 ชั่วโมงแล้วกดเจ็บมากขึ้น US และ CT มองไม่เห็นไส้ติ่ง"
+  },
+  "trap": "เลือกผ่าตัดหรือส่องกล้องเพราะกลัวพลาด — กลุ่ม 5–6 ให้รับไว้สังเกตอาการ ตรวจซ้ำ และส่ง US ก่อนตัดสินใจ",
+  "summary": [
+   "Alvarado 5–6 → admit สังเกตอาการ (ราว 66%)",
+   "ระหว่างสังเกต: NPO · IV fluid · ยาแก้ปวด · ตรวจท้องซ้ำทุก 4–6 ชม. · คำนวณคะแนนซ้ำ · US",
+   "ไม่ให้ ATB ก่อนวินิจฉัย — บดบังอาการ",
+   "อาการชัดขึ้น → appendectomy · ดีขึ้น → หาสาเหตุอื่น",
+   "ATB อย่างเดียว: เฉพาะ uncomplicated ที่ยืนยันด้วยภาพ ไม่มี appendicolith",
+   "แผนภาพ: uncertain → close observation · USG → ไม่เห็น → CT → ไม่เห็น → observation หรือ diagnostic laparoscopy"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — สไลด์หน้า 18 ให้ 5-6 → Observation / Admission และหน้า 19 ให้กลุ่ม uncertain → close observation · USG · ความถี่การตรวจซ้ำและการเลี่ยง ATB ก่อนวินิจฉัยมาจากตำรา (Holcomb)",
+  "mnemonic": "<b>'5–6 นอนดูก่อน · ตรวจซ้ำ + US'</b>",
+  "guide": "Alvarado A. A practical score for the early diagnosis of acute appendicitis (Ann Emerg Med 1986;15:557–564); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis; WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27)",
+  "variants": [
+   "เด็ก Alvarado 6 รับไว้ 8 ชั่วโมงต่อมามี rebound และไข้ คะแนนเป็น 8 → appendectomy",
+   "เด็ก Alvarado 5 รับไว้แล้วปวดลดลง ถ่ายเหลว US ไส้ติ่งปกติ → gastroenteritis จำหน่าย",
+   "เด็ก Alvarado 6 US เห็นไส้ติ่ง 10 mm กดไม่แบน → ไส้ติ่งอักเสบ ปรึกษาผ่าตัด"
+  ]
+ }
+}
