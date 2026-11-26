@@ -1,156 +1,266 @@
 {
  "MDCU79|RoD|Colo 7": {
-  "interp": "หญิงอายุ 79 ปี ถ่ายไม่สุด มีก้อนยื่นจากทวารเวลาเบ่งถ่าย · ถามการวินิจฉัยที่น่าจะเป็นที่สุด",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Rectal prolapse</b><br><b>นอกสไลด์:</b> หญิงสูงอายุ (พื้นเชิงกรานหย่อน เบ่งเรื้อรัง) มีก้อนยื่นเวลาเบ่งร่วมถ่ายไม่สุด → rectum ยื่นทั้งความหนาออกนอกทวาร · ตรวจเห็นรอยพับเยื่อบุเป็นวงกลมซ้อนกัน (concentric)",
+  "interp": "หญิง 79 ปีถ่ายไม่สุด มี<b>ก้อนยื่นออกจากทวารเวลาเบ่งถ่าย</b> → ถามวินิจฉัยที่น่าจะเป็นที่สุด",
+  "why": "<b>Rectal prolapse</b> = ผนัง rectum <b>ทุกชั้น</b>เลื่อนออกนอกทวาร พบมากใน<b>หญิงสูงอายุ</b> (> 50 ปี หญิง:ชาย ~9:1) ที่มีอุ้งเชิงกรานหย่อน ท้องผูกเรื้อรัง เบ่งนาน · อาการ: ก้อนยื่นเวลาเบ่ง/ ยืนนาน ถ่ายไม่สุด กลั้นไม่อยู่ มีมูก · ตรวจ: ให้นั่งเบ่ง (นั่งยองบนโถ) จะเห็นก้อน<b>รอบวงเป็นวงซ้อนกัน (concentric folds)</b> ต่างจากริดสีดวงที่เป็นกลีบแยก (radial folds) · รักษา: ผ่าตัด — ผู้ที่แข็งแรงใช้ทางหน้าท้อง (<b>laparoscopic ventral mesh rectopexy</b>/ resection rectopexy) · ผู้สูงอายุมากหรือเสี่ยงสูงใช้ทางฝีเย็บ (<b>Altemeier perineal rectosigmoidectomy</b> หรือ Delorme) · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 7 A\"</b> = Rectal prolapse ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนยื่นเป็นกลีบแยก มีร่องแบ่งตามแนวรัศมีที่ 3, 7, 11 นาฬิกา และเลือดสดหลังถ่ายเป็นอาการหลัก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าถ่ายเป็นเลือดปนมูก ลำอุจจาระเล็กลง น้ำหนักลด และคลำได้ก้อนแข็งขอบไม่เรียบใน rectum",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนเดี่ยวมีก้านยื่นออกมาเวลาเบ่ง ไม่ใช่ผนังทั้งวง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นหญิงคลอดบุตรหลายครั้งที่ต้องใช้นิ้วดันผนังช่องคลอดด้านหลังเพื่อถ่าย และก้อนนูนออกทางช่องคลอด"
+   "B": "ริดสีดวงยื่นเป็นก้อนแยกเป็นกลีบ (radial folds) เลือดออกเป็นหลัก ไม่ค่อยทำให้ถ่ายไม่สุด · จะถูกถ้ามีก้อนยื่นเป็น 3 กลีบเวลาเบ่ง เลือดสดหยด ดันกลับได้",
+   "C": "มะเร็ง rectum ทำให้ถ่ายไม่สุดได้ (tenesmus) แต่ไม่ยื่นออกมาเป็นก้อนเวลาเบ่งแล้วกลับเข้าไป มักมีเลือด น้ำหนักลด คลำได้ก้อนแข็งทาง PR · จะถูกถ้าชาย 70 ปีถ่ายเป็นเลือดปนมูก น้ำหนักลด PR คลำได้ก้อนแข็งขอบนูน",
+   "D": "ติ่งเนื้อทวารเป็นก้อนเดี่ยวมีก้าน อาจยื่นออกมาได้แต่ไม่ใช่ผนังทั้งวง · จะถูกถ้าเด็กมีก้อนแดงมีก้านยื่นออกจากทวารหลังถ่ายและเลือดออก (juvenile polyp)",
+   "E": "Rectocele คือผนัง rectum ด้านหน้าโป่งเข้า<b>ช่องคลอด</b> ไม่ยื่นออกทางทวาร ผู้ป่วยต้องใช้นิ้วดันผนังช่องคลอดช่วยถ่าย · จะถูกถ้าหญิงคลอดบุตรหลายครั้งต้องกดผนังช่องคลอดด้านหลังเพื่อถ่าย"
   },
-  "trap": "ตรวจตอนนอนอาจไม่เห็นก้อน — ให้ผู้ป่วยนั่งเบ่งบนส้วมก่อนตรวจจึงเห็น prolapse",
+  "trap": "แยก prolapse กับริดสีดวงไม่ออก — prolapse = วงซ้อนรอบวง (concentric) · ริดสีดวง = กลีบแยก (radial)",
   "summary": [
-   "<b>นอกสไลด์:</b> ผ่าตัด rectal prolapse: ผู้แข็งแรง → ทางหน้าท้อง (rectopexy ± ตัด sigmoid กลับเป็นซ้ำน้อยกว่า) · ผู้สูงอายุหรือเสี่ยงสูง → ทางฝีเย็บ (Altemeier perineal rectosigmoidectomy, Delorme)"
+   "Rectal prolapse: หญิงสูงอายุ · ท้องผูก/ เบ่งนาน · อุ้งเชิงกรานหย่อน",
+   "ตรวจ: นั่งเบ่งดู · concentric folds (prolapse) vs radial folds (ริดสีดวง)",
+   "อาการร่วม: กลั้นไม่อยู่ · มูก · เลือดเล็กน้อย",
+   "แข็งแรง → abdominal (laparoscopic ventral mesh rectopexy)",
+   "ผู้สูงอายุเสี่ยงสูง → perineal (Altemeier, Delorme)",
+   "Prolapse ดันกลับไม่ได้: น้ำตาลทรายโรยลดบวม แล้วดันกลับ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และอายุ เพศ อาการเข้ากับ rectal prolapse",
+  "mnemonic": "<b>'หญิงสูงวัย เบ่งแล้วก้อนวงซ้อนโผล่ = Rectal prolapse'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Rectal Prolapse (Dis Colon Rectum 2017;60:1121)",
   "variants": [
-   "<b>นอกสไลด์:</b> rectal prolapse ยื่นค้างดันกลับไม่ได้ เยื่อบุบวม → โรยน้ำตาลลดบวมแล้วดันกลับ · ถ้าเนื้อตาย → perineal rectosigmoidectomy ฉุกเฉิน",
-   "<b>นอกสไลด์:</b> เด็ก 2 ขวบมี rectal prolapse → หาสาเหตุ (ท้องผูก ท้องเสียเรื้อรัง พยาธิ, cystic fibrosis) ส่วนใหญ่หายเองเมื่อแก้สาเหตุ"
+   "หญิง 85 ปีโรคหัวใจหลายโรค rectal prolapse → Altemeier perineal rectosigmoidectomy",
+   "หญิง 55 ปีแข็งแรง rectal prolapse → laparoscopic ventral mesh rectopexy",
+   "ก้อนยื่น 3 กลีบเวลาเบ่ง เลือดสด → prolapsed internal hemorrhoid"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 16 แถว Colo 7 — ตัวพิมพ์: <b>ผู้ป่วยหญิงอายุ 79 ปี มี incomplete evacuation มาด้วยก้อนที่ก้น (ก้อนยื่นออกมาจากทวารหนักเวลาเบ่งถ่าย) การวินิจฉัยที่เป็นไปได้มากที่สุดคือข้อใด — A. Rectal prolapse B. Prolapsed internal hemorrhoid C. Rectal cancer D. Anal polyp E. Rectocele</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 16 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p16",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 8": {
-  "interp": "ทำ stoma ฉุกเฉินมา 3 วัน ตอนนี้ stoma สีคล้ำและไม่มีอะไรออก (ภาพ) · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B Necrotic stoma</b><br><b>นอกสไลด์:</b> ภาพเยื่อบุ stoma เป็นสีดำคล้ำทั้งวงในไม่กี่วันหลังผ่าตัด = stoma ขาดเลือดจนเนื้อตาย (ลำไส้ตึงเกิน เลาะ mesentery มาก หรือรู fascia แคบ)",
+  "interp": "ผู้ป่วยทำ stoma ฉุกเฉินมา 3 วัน ตอนนี้ <b>stoma สีคล้ำดำ</b> ไม่มีอะไรออก (รูปประกอบ) → ถามวินิจฉัย",
+  "why": "ภาวะแทรกซ้อน<b>ระยะแรก</b> (ภายในไม่กี่วัน) ที่ stoma <b>เปลี่ยนเป็นสีคล้ำ/ ดำ</b> = <b>stomal necrosis (ischemia)</b> จากเลือดไปเลี้ยงไม่พอ (ตัด mesentery มากเกิน ตึง ช่องผนังหน้าท้องแคบ ผู้ป่วยอ้วน ผ่าตัดฉุกเฉิน) · สิ่งสำคัญคือ<b>ประเมินความลึกของการขาดเลือด</b>: สอดหลอดแก้ว/ ท่อเลือดใส่ไฟส่องเข้าไปใน stoma ดูว่าเยื่อบุลึกเข้าไปยังชมพูดีหรือไม่ · ถ้าขาดเลือดแค่<b>เหนือ fascia</b> → เฝ้าดู (อาจตีบภายหลัง) · ถ้าเลยลงไป<b>ใต้ fascia</b> → <b>ผ่าตัดทำ stoma ใหม่ด่วน</b> เพราะเสี่ยงทะลุและเยื่อบุช่องท้องอักเสบ · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 8 B\"</b> = Necrotic stoma ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้า stoma ยื่นยาวออกมาจากผิวหนังมากผิดปกติ แต่เยื่อบุยังชมพูดี",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ามีก้อนนูนรอบ stoma เวลาไอหรือเบ่ง ยุบเมื่อนอน (มักหลายเดือนหลังผ่าตัด)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ารูเปิด stoma ตีบจนนิ้วก้อยสอดไม่ได้ ถ่ายลำบาก (มักเกิดหลังหลายสัปดาห์ถึงเดือน)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้า stoma จมต่ำกว่าระดับผิวหนัง ถุงรั่วบ่อย (ผู้ป่วยอ้วนหรือ mesentery ตึง)"
+   "A": "Stoma prolapse = ลำไส้ยื่นยาวออกมามากกว่าปกติ สีชมพู มักเป็นภาวะแทรกซ้อนระยะหลัง (โดยเฉพาะ loop transverse colostomy) · จะถูกถ้า 6 เดือนหลังทำ loop colostomy ลำไส้ยื่นออกมายาว 10 cm สีชมพูดี",
+   "C": "Parastomal hernia = ไส้เลื่อนข้าง stoma เห็นนูนรอบ ๆ เวลาเบ่ง/ ยืน เป็นภาวะแทรกซ้อนระยะหลังที่พบบ่อยที่สุด · จะถูกถ้า 1 ปีหลังผ่าตัด มีก้อนนูนรอบ stoma เวลาไอ กดยุบ",
+   "D": "Stomal stenosis = รูเปิดตีบแคบ ถ่ายลำบาก มักเกิดภายหลัง (ตามหลังขาดเลือด) ไม่ใช่สีดำใน 3 วัน · จะถูกถ้า 3 เดือนหลังผ่าตัด stoma เล็กลงจนสอดนิ้วก้อยไม่ได้ ถ่ายเป็นลำเล็ก",
+   "E": "Retraction = stoma ยุบลงต่ำกว่าระดับผิว เกิดจากตึงหรือน้ำหนักขึ้น สีชมพูได้ · จะถูกถ้า stoma จมต่ำกว่าผิวหนัง ถุงรั่วบ่อย ผู้ป่วยน้ำหนักขึ้นมาก"
   },
-  "trap": "\"ไม่มี output\" ชวนให้ตอบ stomal stenosis หรือ retraction — แต่สองภาวะนี้มักเป็นภาวะแทรกซ้อนระยะหลัง วันที่ 3 สิ่งที่ตัดสินคือสีเยื่อบุ (ดำคล้ำ = ขาดเลือด)",
+  "trap": "ไม่ประเมินความลึก — necrosis ใต้ fascia ต้องผ่าตัดใหม่ด่วน ไม่ใช่เฝ้าดู",
   "summary": [
-   "<b>นอกสไลด์:</b> ประเมินความลึก: สอดหลอดทดลองหรือกล้องผ่าน stoma ดูเยื่อบุใต้ระดับ fascia · ตายเฉพาะเหนือ fascia → ติดตาม (อาจตีบหรือจมภายหลัง) · ตายลึกใต้ fascia → ผ่าตัดด่วนทำ stoma ใหม่ (เสี่ยงทะลุเข้าช่องท้อง)"
+   "ระยะแรก: necrosis · retraction · ผิวหนังรอบอักเสบ · high output (ileostomy)",
+   "ระยะหลัง: parastomal hernia (บ่อยสุด) · prolapse · stenosis",
+   "Necrosis: ประเมินด้วยหลอดแก้ว/ ท่อใส่ไฟ · เหนือ fascia เฝ้าดู · ใต้ fascia ผ่าใหม่",
+   "ปัจจัยเสี่ยง necrosis: อ้วน · ผ่าฉุกเฉิน · ตัด mesentery มาก · ช่องแคบ",
+   "High-output ileostomy > 1.5–2 L/วัน → ไตวาย เกลือแร่ผิดปกติ",
+   "ทำเครื่องหมายตำแหน่ง stoma ก่อนผ่าตัดลดภาวะแทรกซ้อน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ และรูปแสดง stoma สีคล้ำในวันที่ 3",
+  "mnemonic": "<b>'Stoma ดำใน 3 วัน = ขาดเลือด → ส่องดูลึกถึง fascia ไหม'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for Ostomy Surgery (Dis Colon Rectum 2022;65:1167)",
   "variants": [
-   "<b>นอกสไลด์:</b> stoma ใหม่ 3 วันยังไม่มีลมหรืออุจจาระ แต่สีชมพูดี ท้องไม่อืดมาก → ileus หลังผ่าตัด ไม่ใช่ปัญหาของ stoma",
-   "<b>นอกสไลด์:</b> ileostomy มีของเหลวออกวันละ 2 L ขึ้นไป → high-output stoma: เสี่ยงขาดน้ำและไตวาย ให้สารน้ำ เกลือแร่ และ loperamide"
+   "Stoma ดำ ส่องหลอดแก้วเห็นเยื่อบุชมพูใต้ระดับผิว 1 cm → เฝ้าดู",
+   "Stoma ดำลงไปใต้ fascia ปวดท้อง ไข้ → ผ่าตัดทำ stoma ใหม่",
+   "1 ปีหลังผ่าตัด ก้อนนูนรอบ stoma เวลาไอ → parastomal hernia"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 17 แถว Colo 8 — ตัวพิมพ์: <b>คนไข้ ยก os emer มาสามวันที่แล้ว ตอนนี้ os คล้ำ ๆ ขึ้น ไม่มี content ออกมา มีรูปมาให้ — Prolapsed stoma · Necrotic stoma · Parastomal hernia</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 17 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p17",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 9": {
-  "interp": "เหนื่อย 3 เดือน ซีด iron deficiency anemia + ก้อนที่ ascending colon · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Carcinoma of ascending colon / cecum</b><br><b>นอกสไลด์:</b> มะเร็งลำไส้ใหญ่ด้านขวาเลือดออกช้า ๆ ปนในอุจจาระ (มองไม่เห็น) → ซีดขาดเหล็กเป็นอาการนำ · ลำไส้ด้านขวากว้างและอุจจาระยังเหลว จึงไม่ค่อยอุดตัน",
+  "interp": "ผู้ป่วยเหนื่อย 3 เดือน ซีด <b>iron deficiency anemia</b> ภาพพบก้อนที่ ascending colon → ถามวินิจฉัย",
+  "why": "<b>มะเร็งลำไส้ใหญ่ด้านขวา (cecum/ ascending)</b> มักมาด้วย<b>ซีดจากขาดธาตุเหล็ก</b> เพราะก้อนเป็นแผลเลือดซึมเรื้อรังที่มองไม่เห็นในอุจจาระ (occult bleeding) · ลำไส้ขวากว้างและอุจจาระยังเหลว จึง<b>ไม่ค่อยอุดตัน</b> อาการน้อย มาเมื่อซีดมาก เหนื่อย อ่อนเพลีย หรือคลำก้อนได้ · ตรงข้ามกับลำไส้ซ้าย (sigmoid) ที่มาด้วยการอุดตันและอุจจาระเปลี่ยน · หลักสำคัญ: <b>ผู้ใหญ่/ ชายหรือหญิงวัยหมดประจำเดือนที่มี iron deficiency anemia ต้องส่องกล้องหามะเร็งลำไส้ทุกราย</b> · รักษา: right hemicolectomy + lymphadenectomy · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 9 A\"</b> = Carcinoma of ascending colon / cecum ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าถ่ายเป็นเลือดสด ลำอุจจาระเล็กลง ท้องผูกสลับท้องเสีย และก้อนอยู่ที่ sigmoid",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ามีไข้ต่ำ เหงื่อออกกลางคืน น้ำหนักลด ก้อนที่ ileocecal ร่วมรอยโรควัณโรคปอด และชิ้นเนื้อพบ caseating granuloma",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าคนหนุ่มสาวท้องเสียเรื้อรัง ปวดท้อง มีโรครอบทวาร และรอยโรคเป็นหย่อม",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนที่ ileocecal ใหญ่ ผนังลำไส้หนาเป็นวงแต่รูลำไส้ไม่ตีบหรือกลับขยาย ไม่อุดตันแม้ก้อนใหญ่ ร่วมต่อมน้ำเหลืองในท้องโตมาก และชิ้นเนื้อพบ lymphoid cells (CD20 บวก)"
+   "B": "ก้อนอยู่ที่ ascending colon ไม่ใช่ sigmoid และมะเร็ง sigmoid มาด้วยท้องผูก อุจจาระลำเล็ก ลำไส้อุดตัน เลือดสดปน · จะถูกถ้าชาย 65 ปีท้องผูกสลับท้องเสีย อุจจาระลำเล็ก มีเลือดปน",
+   "C": "วัณโรคลำไส้ชอบ ileocecal มีไข้ต่ำ เหงื่อออกกลางคืน น้ำหนักลด ปวดท้องขวาล่าง ลำไส้ตีบ · จะถูกถ้าคนไทยไข้ต่ำ 2 เดือน น้ำหนักลด ปวด RLQ CT ผนัง ileocecal หนา ต่อมน้ำเหลืองมีเนื้อตายตรงกลาง",
+   "D": "Crohn ของลำไส้ใหญ่มักมีท้องเสียเรื้อรัง ปวดท้อง อายุน้อย fistula ไม่ใช่ก้อนเดี่ยวกับซีดในผู้สูงอายุ · จะถูกถ้าชาย 25 ปีท้องเสียเรื้อรัง มี fistula รอบทวาร ส่องกล้องเห็นแผลเป็นช่วง ๆ",
+   "E": "Lymphoma ลำไส้ใหญ่พบน้อย (&lt; 1% ของมะเร็งลำไส้ใหญ่) มักเป็นก้อนใหญ่ที่ cecum มีอาการ B (ไข้ เหงื่อ น้ำหนักลด) · จะถูกถ้าผู้ป่วย HIV มีก้อนใหญ่ที่ cecum ต่อมน้ำเหลืองโตทั่วตัว LDH สูง"
   },
-  "trap": "เหนื่อยจากซีดอาจเป็นอาการเดียวของมะเร็งลำไส้ใหญ่ด้านขวา — ไม่มีอาการทางลำไส้ไม่ได้ตัดมะเร็งออก",
+  "trap": "คิดว่าซีดเหนื่อยเป็นโรคเลือด — ผู้ใหญ่ซีดจากขาดเหล็กต้องหามะเร็งลำไส้ขวาเสมอ",
   "summary": [
-   "<b>นอกสไลด์:</b> อาการตามตำแหน่ง: ขวา — ซีดขาดเหล็ก ก้อนที่ท้องขวา อุดตันช้า · ซ้าย — ลำอุจจาระเปลี่ยน เลือดสด อุดตันเร็ว · rectum — ปวดเบ่ง ถ่ายไม่สุด เลือดสด",
-   "<b>นอกสไลด์:</b> right hemicolectomy: ผูก ileocolic, right colic และแขนงขวาของ middle colic ที่ต้นกำเนิด · ต่อมน้ำเหลืองอย่างน้อย 12 ต่อม"
+   "มะเร็งลำไส้ขวา: ซีดขาดเหล็ก · อ่อนเพลีย · คลำก้อน · อุดตันน้อย",
+   "มะเร็งลำไส้ซ้าย: อุจจาระเปลี่ยน ลำเล็ก · อุดตัน · เลือดปน",
+   "มะเร็ง rectum: เลือดสด · tenesmus · ถ่ายไม่สุด",
+   "IDA ในชาย/ หญิงวัยหมดประจำเดือน → colonoscopy + upper endoscopy",
+   "รักษาลำไส้ขวา: right hemicolectomy (ผูก ileocolic, right colic, right branch ของ middle colic)",
+   "Streptococcus bovis bacteremia/ endocarditis → ส่องกล้องหามะเร็งลำไส้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และลักษณะคลาสสิกของมะเร็งลำไส้ขวา",
+  "mnemonic": "<b>'ลำไส้ขวาซีด (เลือดซึม) · ลำไส้ซ้ายตัน (อุจจาระลำเล็ก)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025; Sabiston Textbook of Surgery 21st ed. (2022) — Colon and rectum",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็ง cecum อุดตันเฉียบพลันในผู้ป่วยคงที่ → right hemicolectomy และต่อลำไส้ได้เลย",
-   "<b>นอกสไลด์:</b> ผู้ป่วย endocarditis จาก Streptococcus gallolyticus (bovis) → colonoscopy หามะเร็งลำไส้ใหญ่"
+   "ชาย 70 ปีอุจจาระลำเล็ก ท้องผูก ท้องอืด ไม่ถ่าย 3 วัน → มะเร็ง sigmoid อุดตัน",
+   "หญิงวัยหมดประจำเดือน IDA ไม่ทราบสาเหตุ → colonoscopy และ EGD",
+   "ผู้ป่วย S. bovis endocarditis → colonoscopy หามะเร็งลำไส้"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 18 แถว Colo 9 — ตัวพิมพ์: <b>ผู้ป่วยมาด้วยอาการเหนื่อย (dyspnea) 3 เดือน ซีดและมีภาวะ iron deficiency anemia ตรวจภาพถ่ายพบก้อนที่ ascending colon (right-sided colon) การวินิจฉัยที่เป็นไปได้มากที่สุดคือข้อใด — A. Carcinoma of ascending colon / cecum B. Carcinoma of sigmoid colon C. Intestinal tuberculoma (ileocecal TB) D. Crohn's disease E. Colonic lymphoma</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 18 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p18",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 10": {
-  "interp": "มะเร็ง sigmoid ทะลุ serosa (T4a) ต่อมน้ำเหลือง N1 ไม่แพร่กระจาย (stage III) · ถามการรักษา",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B Sigmoidectomy with adequate mesocolon resection + adjuvant</b><br><b>นอกสไลด์:</b> stage III ของลำไส้ใหญ่ → ผ่าตัดแบบมะเร็ง (ผูกหลอดเลือดที่ต้นกำเนิด เอา mesocolon และต่อมน้ำเหลืองออกพอ) แล้วให้เคมีบำบัดเสริมกลุ่ม oxaliplatin",
+  "interp": "มะเร็ง sigmoid <b>ทะลุถึง serosa (T3–T4a) ต่อมน้ำเหลืองบวก N1</b> ไม่มีการกระจาย → ถามการรักษา",
+  "why": "มะเร็งลำไส้ใหญ่ (colon ไม่ใช่ rectum) <b>stage III</b> (N1 M0) การรักษาคือ<b>ผ่าตัดก่อน</b>แล้วให้<b>เคมีเสริม (adjuvant FOLFOX/ CAPOX)</b> ลดการกลับเป็นซ้ำและเพิ่มการรอดชีวิต · การผ่าตัดที่ถูกหลักมะเร็งคือ <b>oncologic resection</b>: ตัดลำไส้ขอบปลอดมะเร็ง ≥ 5 cm พร้อม <b>mesocolon ทั้งหมด (complete mesocolic excision) ผูกหลอดเลือดที่ต้นทาง (high ligation ของ inferior mesenteric artery)</b> เพื่อเก็บต่อมน้ำเหลืองให้ได้ <b>≥ 12 ต่อม</b> · ช้อย B จึงถูกกว่า A เพราะระบุการตัด mesocolon อย่างเพียงพอ · ไม่ต้องให้ neoadjuvant ใน colon (ต่างจาก rectum ส่วนกลาง-ล่าง) ยกเว้นบางราย T4b · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 10 B\"</b> = Sigmoidectomy with adequate mesocolon resection with adjuvant therapy ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การผ่าตัดมะเร็งลำไส้ใหญ่เพื่อหวังหายขาดตัดเพียงตัวลำไส้โดยไม่ผูกหลอดเลือดที่ต้นกำเนิดและเอา mesocolon พร้อมต่อมน้ำเหลืองออก เพราะต่อมที่เหลือทำให้ staging ต่ำกว่าจริงและกลับเป็นซ้ำเฉพาะที่",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อน sigmoid ลุกเข้าอวัยวะข้างเคียงมาก (T4b) หรือต่อมน้ำเหลืองโตเป็นก้อนใหญ่จนผ่าตัดให้ได้ขอบปลอดมะเร็ง (R0) ยาก — ให้เคมีบำบัดก่อนผ่าตัด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น stage I (T1–2 N0) หรือ stage II ที่ไม่มีปัจจัยเสี่ยงสูง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามีการแพร่กระจายไปไกลที่ผ่าตัดไม่ได้ และก้อนไม่มีอาการอุดตันหรือเลือดออก"
+   "A": "หลักการผ่าตัด + เคมีเสริมถูก แต่ไม่ระบุการตัด mesocolon/ ต่อมน้ำเหลืองให้เพียงพอ ซึ่งเป็นหัวใจของการผ่าตัดมะเร็ง (ช้อย B ครบกว่า) · จะถูกถ้าช้อยในข้อสอบไม่มีตัวเลือกที่ระบุ mesocolic resection",
+   "C": "Neoadjuvant ใช้ใน <b>rectal cancer</b> ส่วนกลาง-ล่าง (T3–4 หรือ N+) ไม่ใช่มาตรฐานใน sigmoid · จะถูกถ้าเป็นมะเร็ง rectum ห่างทวาร 6 cm T3N1",
+   "D": "ผ่าตัดอย่างเดียวพอใน stage I และ stage II ความเสี่ยงต่ำ แต่ N1 = stage III ต้องให้เคมีเสริม · จะถูกถ้าพยาธิเป็น T2N0 (stage I)",
+   "E": "เคมีประคับประคองใช้ในระยะแพร่กระจายที่ผ่าตัดไม่ได้ ผู้ป่วยไม่มี M1 ยังหายขาดได้ · จะถูกถ้ามีการกระจายไปตับและปอดหลายก้อนตัดไม่ได้"
   },
-  "trap": "\"ทะลุ serosa\" (T4a) ไม่ใช่ลุกอวัยวะข้างเคียง (T4b) และไม่ใช่ M1 — ยังผ่าตัดหวังหายขาดได้ อย่าเลือก neoadjuvant หรือ palliative chemotherapy",
+  "trap": "สับสน colon กับ rectum — sigmoid เป็น colon จึงผ่าตัดก่อนแล้วเคมีเสริม ไม่ใช่ neoadjuvant",
   "summary": [
-   "<b>นอกสไลด์:</b> AJCC: T4a ทะลุ visceral peritoneum · T4b ลุกอวัยวะข้างเคียง · N1 1–3 ต่อม · N2 ≥ 4 ต่อม · stage III → adjuvant FOLFOX หรือ CAPOX 3–6 เดือน"
+   "Colon cancer stage III (N+) → resection + adjuvant FOLFOX/ CAPOX 3–6 เดือน",
+   "Oncologic resection: margin ≥ 5 cm · CME + high ligation · LN ≥ 12 ต่อม",
+   "Stage II high risk (T4, LN &lt; 12, LVI, obstruction/ perforation) → พิจารณาเคมีเสริม",
+   "Rectal cancer ส่วนกลาง-ล่าง T3–4/ N+ → neoadjuvant (chemoradiation หรือ TNT) + TME",
+   "dMMR/ MSI-high: พิจารณา immunotherapy (โดยเฉพาะ rectal)",
+   "Sigmoidectomy: ผูก IMA ที่ต้นทาง หรือหลังแตก left colic"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ และช้อยนี้ระบุหลัก oncologic resection ครบกว่าช้อย A",
+  "mnemonic": "<b>'Colon N+ = ตัด (พร้อม mesocolon ≥ 12 ต่อม) แล้วเคมี · Rectum ล่าง = เคมีรังสีก่อน'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025; ASCRS Clinical Practice Guidelines for the Management of Colon Cancer (Dis Colon Rectum 2022;65:148)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผ่าตัดได้ต่อมน้ำเหลืองเพียง 8 ต่อม ผลลบทั้งหมด ก้อน T3 → staging ไม่พอ ถือเป็น stage II ความเสี่ยงสูง พิจารณาเคมีบำบัดเสริม",
-   "<b>นอกสไลด์:</b> มะเร็ง sigmoid อุดตันเฉียบพลันในผู้ป่วยที่สัญญาณชีพไม่คงที่ → Hartmann procedure (ตัดลำไส้ ทำ colostomy ปิดตอ rectum)"
+   "มะเร็ง sigmoid T2N0 → sigmoidectomy อย่างเดียว",
+   "มะเร็ง rectum ห่างทวาร 5 cm T3N1 → neoadjuvant แล้ว TME",
+   "มะเร็ง sigmoid T3N0 ได้ต่อมน้ำเหลือง 8 ต่อม → stage II high risk พิจารณาเคมีเสริม"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 18 แถว Colo 10 — ตัวพิมพ์: <b>CA sigmoid colon invade to serosa, N1 treatment — 1. Sigmoidectomy with adjuvant therapy 2. Sigmoidectomy with adequate mesocolon resection with adjuvant therapy 3. Neoadjuvant with sigmoidectomy with adjuvant therapy 4. Sigmoidectomy only 5. Palliative chemotherapy</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 18 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p18",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 11": {
-  "interp": "ปวดก้น มีก้อนนุ่ม fluctuant รอบทวาร ผิวรอบแดง เคยเป็นแล้วแตกระบายเองหลายครั้ง (perianal abscess) · ถามการรักษา",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B Incision and drainage + antibiotics</b><br><b>นอกสไลด์:</b> ฝีที่มีหนองต้องระบายเสมอ (กรีดใกล้ขอบทวารให้ทางสั้น) · มีผิวหนังแดงรอบ (cellulitis) จึงให้ยาปฏิชีวนะร่วม",
+  "interp": "ผู้ป่วยปวดก้น คลำได้<b>ก้อน fluctuant แดงรอบ ๆ ข้างทวาร</b> เคยเป็น ๆ หาย ๆ หนองแตกเองแล้วดีขึ้น วินิจฉัย perianal abscess → ถามการรักษา",
+  "why": "<b>Anorectal abscess</b> ทุกรายต้อง <b>incision and drainage (I&amp;D)</b> ทันทีที่วินิจฉัย — การรักษาหลักคือการระบาย · ยาปฏิชีวนะ<b>เสริม</b>ในรายที่มี cellulitis รอบ ๆ ภูมิคุ้มกันต่ำ เบาหวาน ลิ้นหัวใจเทียม หรือ sepsis · การที่<b>เป็น ๆ หาย ๆ หนองแตกเองซ้ำ</b> บ่งว่าอาจมี <b>fistula-in-ano</b> อยู่ (เกิดตามหลัง abscess ~30–50%) จึงนัดตรวจหา fistula หลังแผลหายแล้วรักษาตามชนิด · ห้ามทำ fistulotomy ขณะอักเสบถ้ายังไม่เห็นทางชัดเจน เพราะเสี่ยงสร้างทางผิดและทำลายหูรูด · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Colorectal 11 B\"</b> = Incision and drainage ร่วมกับ antibiotics ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นการอักเสบรอบทวารระยะแรกที่ยังไม่มีหนอง (คลำไม่ fluctuate และภาพไม่พบโพรงหนอง)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าฝีแตกระบายเองแล้ว หนองออกหมด คลำไม่พบโพรงค้างหรือ fluctuation และไม่มีผิวแดงรอบ — แช่น้ำอุ่น ยาแก้ปวด แล้วนัดตรวจหา fistula",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าระหว่างระบายฝีพบรูเปิดภายในของ fistula ชนิดต่ำ (ผ่านหูรูดน้อย) ชัดเจน และผู้ผ่าตัดมีประสบการณ์",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ใส่ seton โดยไม่ระบายฝี เพราะหนองที่ค้างยังลุกลามต่อ — seton ใส่พร้อมหรือหลังการระบายเท่านั้น"
+   "A": "ยาปฏิชีวนะอย่างเดียวไม่ทำให้ฝีหาย หนองยังค้างและลามลึก · จะถูกถ้าเป็น cellulitis รอบทวารที่ยังไม่มีหนองเป็นก้อน (ไม่มี fluctuation)",
+   "C": "แช่ก้นและยาแก้ปวดเป็นการดูแลเสริมหลังระบาย ไม่ใช่การรักษาฝี · จะถูกถ้าเป็น thrombosed external hemorrhoid เกิน 72 ชม. ที่ปวดลดลงแล้ว",
+   "D": "Fistulotomy ทำเมื่อพบทาง fistula ชัดเจนและอยู่ต่ำ ส่วนใหญ่ทำหลังฝียุบ การทำทันทีขณะบวมอักเสบเสี่ยงทำทางผิด · จะถูกถ้า 6 สัปดาห์หลังระบายฝี ตรวจพบ intersphincteric fistula ชัดเจน",
+   "E": "Seton ใส่ในทาง fistula ที่สูง/ ซับซ้อน แต่ต้องระบายหนองก่อนเสมอ · จะถูกถ้าระบายฝีแล้วพบทาง transsphincteric สูงชัดเจนระหว่างผ่าตัด (ใส่ loose seton)"
   },
-  "trap": "ประวัติฝีแตกเองซ้ำๆ ชวนให้ตอบ fistulotomy หรือ seton — แต่ตอนนี้มีหนองค้างอยู่ ต้องระบายก่อน แล้วค่อยหาและรักษา fistula ภายหลัง",
+  "trap": "คิดว่าให้ยาปฏิชีวนะก่อนแล้วรอ — ฝีรอบทวารต้องระบายทันที",
   "summary": [
-   "<b>นอกสไลด์:</b> ASCRS: ฝีรอบทวาร → ระบายทันที (ผู้ป่วยภูมิต่ำไม่ต้องรอให้ fluctuate) · ยาปฏิชีวนะเสริมเมื่อมี cellulitis รอบ อาการทั่วร่างกาย ภูมิคุ้มกันต่ำ หรือเบาหวาน",
-   "<b>นอกสไลด์:</b> ชนิด: perianal (พบมากสุด) · ischiorectal · intersphincteric · supralevator — ฝีลึกที่ปวดมากแต่ภายนอกปกติ ต้อง CT/MRI หรือตรวจใต้ยาสลบ"
+   "ฝีรอบทวาร: perianal (บ่อยสุด) · ischiorectal · intersphincteric · supralevator",
+   "รักษา: I&D ทันที · ATB เสริมเมื่อ cellulitis, ภูมิต่ำ, เบาหวาน, ลิ้นเทียม, sepsis",
+   "หลังระบาย ~30–50% เกิด fistula-in-ano",
+   "Horseshoe abscess: ลามรอบทวารทางด้านหลัง (deep postanal space)",
+   "Fournier gangrene: ฝีลามเป็นเนื้อตายฝีเย็บ → debride ด่วน",
+   "เป็นซ้ำ/ หลายตำแหน่ง → นึก Crohn, HIV, TB"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ ASCRS Anorectal Abscess Guideline 2022 (ATB เป็นส่วนเสริมในบางราย)",
+  "mnemonic": "<b>'ฝีที่ก้น = ผ่าระบายเลย ยาเป็นแค่ตัวเสริม'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยเบาหวานมีฝีรอบทวาร ไข้สูง ผิวหนังรอบดำ คลำได้ลมใต้ผิว → Fournier gangrene: ตัดเนื้อตายด่วน",
-   "<b>นอกสไลด์:</b> ฝีรูปเกือกม้าที่ deep postanal space → ระบายผ่านแนวกลางด้านหลังเข้า deep postanal space ร่วมกรีดระบายที่ ischiorectal fossa ทั้งสองข้าง (modified Hanley)"
+   "หลังระบายฝี 2 เดือน ยังมีหนองซึมจากรูเปิดข้างทวาร → fistula-in-ano",
+   "ผู้ป่วยเบาหวานฝีรอบทวาร ผิวหนังเป็นสีม่วงดำ มีลมใต้ผิว → Fournier gangrene ผ่า debride ด่วน",
+   "ปวดทวารลึก ไข้ คลำไม่ได้ก้อนจากภายนอก → supralevator/ intersphincteric abscess ทำ CT/ MRI"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 18 แถว Colo 11 — ตัวพิมพ์: <b>ผู้ป่วยมาด้วยอาการปวดที่ก้น คลำได้ fluctuant mass มี erythematous skin รอบ ๆ เป็น ๆ หาย ๆ อาการจะดีขึ้นเมื่อหนองแตกออกมาเอง การวินิจฉัยคือ perianal abscess ข้อใดเป็นการรักษาที่เหมาะสม — A. Oral antibiotics อย่างเดียว B. Incision and drainage ร่วมกับ antibiotics C. Sitz bath และยาแก้ปวดอย่างเดียว D. Fistulotomy ทันที E. Seton placement โดยไม่ต้อง drain หนอง</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 18 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p18",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Colo 12": {
-  "interp": "ภาพจุดสีบนผิวหนังและเยื่อบุ + พบติ่งเนื้อในทางเดินอาหาร · ถามชนิดของติ่งเนื้อ",
-  "why": "<b>นอกสไลด์:</b> ภาพเป็นจุดสีน้ำตาลดำหลายจุดที่ริมฝีปากและเยื่อบุกระพุ้งแก้ม = Peutz-Jeghers syndrome (STK11) → ติ่งเนื้อชนิด hamartoma (มีแขนงกล้ามเนื้อเรียบแตกกิ่ง) พบมากที่ลำไส้เล็ก",
+  "interp": "ผู้ป่วยมีลักษณะที่ผิวหนัง-เยื่อบุตามรูป (จุดสีน้ำตาลดำที่ริมฝีปาก/ เยื่อบุปาก) และพบ polyp ในทางเดินอาหาร → ถามชนิด polyp ที่น่าจะพบ",
+  "why": "<b>จุดสีน้ำตาลดำ (mucocutaneous pigmentation)</b> ที่ริมฝีปาก เยื่อบุปาก นิ้ว ร่วมกับ polyp ในทางเดินอาหาร = <b>Peutz-Jeghers syndrome</b> (ยีน <b>STK11/ LKB1</b>, autosomal dominant) · polyp เป็นชนิด <b>hamartomatous</b> (มีกล้ามเนื้อเรียบแตกกิ่งเป็นต้นไม้ — arborizing smooth muscle) พบมากที่สุดใน<b>ลำไส้เล็ก</b> (jejunum) · ภาวะแทรกซ้อนเด่น: <b>ลำไส้กลืนกัน (intussusception)</b> ลำไส้อุดตัน เลือดออก · เสี่ยงมะเร็งหลายอวัยวะสูง (ลำไส้ใหญ่ ตับอ่อน เต้านม กระเพาะ รังไข่ อัณฑะ) → คัดกรองตั้งแต่วัยเด็ก · ไฟล์ 79D หน้า 19 แถว Colo 12 ผู้จดพิมพ์ <b>\"รูปนี้เลย พบ polyp ชนิดใด — 1. Adenomatous polyp 2. hamartomatous polyp 3. ตรง ac\"</b> · หน้า 36 เฉลยอย่างย่อของ Colorectal มีแค่ 11 ตัว ข้อนี้จึงไม่มีคีย์",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าภาพเป็น epidermoid cyst หลายก้อน osteoma ที่ขากรรไกรหรือฟันเกิน (Gardner syndrome ในกลุ่ม FAP) ร่วมติ่งเนื้อจำนวนมากในลำไส้ใหญ่",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นติ่งเล็กกว่า 5 mm สีซีดที่ rectum หรือ sigmoid ในผู้สูงอายุที่ไม่มีกลุ่มอาการทางพันธุกรรม",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าภาพเป็นแผลร้อนในในปาก erythema nodosum หรือ pyoderma gangrenosum ในผู้ป่วยลำไส้อักเสบเรื้อรัง — pseudopolyp",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นรอยโรคแบนสีซีดมีเมือกคลุมที่ลำไส้ใหญ่ด้านขวา ในผู้ใหญ่ที่ส่องกล้องคัดกรอง"
+   "A": "Adenomatous polyp พบใน FAP/ sporadic adenoma ไม่มีจุดสีที่ปาก · จะถูกถ้าผู้ป่วยมี polyp หลายร้อยตัวในลำไส้ใหญ่และ CHRPE ที่จอตา (FAP)",
+   "C": "Hyperplastic polyp เป็นติ่งเล็กที่ rectosigmoid ไม่มีความเสี่ยงมะเร็งเกือบทั้งหมด ไม่เกี่ยวกับกลุ่มอาการ · จะถูกถ้าส่องกล้องคัดกรองพบติ่งเล็ก 3 mm สีซีดที่ rectum",
+   "D": "Inflammatory (pseudo) polyp เกิดหลังการอักเสบ เช่น UC/ Crohn ไม่มีจุดสีที่ปาก · จะถูกถ้าผู้ป่วย UC เรื้อรังส่องกล้องเห็นติ่งเล็กจำนวนมากในบริเวณที่เคยอักเสบ",
+   "E": "Sessile serrated lesion เป็นติ่งแบนที่ลำไส้ขวา เป็นทางหนึ่งไปสู่มะเร็ง (serrated pathway) ไม่เกี่ยวกับจุดสีที่ปาก · จะถูกถ้าส่องกล้องพบติ่งแบนมีเมือกคลุมที่ cecum ขนาด 12 mm"
   },
-  "trap": "จุดสีที่ริมฝีปากใน PJS จางลงเมื่อโต แต่จุดในเยื่อบุกระพุ้งแก้มยังอยู่ — กระธรรมดาไม่ขึ้นในเยื่อบุปาก",
+  "trap": "เห็นกลุ่มอาการ polyp ทางพันธุกรรมแล้วตอบ adenoma — จุดสีที่ปาก = Peutz-Jeghers = hamartoma",
   "summary": [
-   "<b>นอกสไลด์:</b> PJS: STK11 ถ่ายทอดแบบ autosomal dominant · hamartoma ในลำไส้เล็กมากที่สุด ทำให้อุดตันและเลือดออก · เสี่ยงมะเร็งหลายระบบ (ลำไส้ ตับอ่อน เต้านม รังไข่ อัณฑะ) · ส่องกล้องเฝ้าระวังเริ่มราว 8 ปี"
+   "Peutz-Jeghers: STK11 · AD · จุดสีที่ปาก/ เยื่อบุ/ นิ้ว · hamartoma ลำไส้เล็กเด่น",
+   "ภาวะแทรกซ้อน: intussusception · อุดตัน · เลือดออก",
+   "เสี่ยงมะเร็ง: ลำไส้ใหญ่ · ตับอ่อน · เต้านม · กระเพาะ · รังไข่ (SCTAT) · อัณฑะ (Sertoli)",
+   "Juvenile polyposis: SMAD4/ BMPR1A · hamartoma (juvenile) ในลำไส้ใหญ่",
+   "FAP: adenoma หลายร้อย · CHRPE",
+   "Cowden (PTEN): hamartoma + มะเร็งเต้านม/ ไทรอยด์ · trichilemmoma"
   ],
-  "opinion": "ไม่มีคีย์ (เฉลยย่อมีถึงข้อ 11) — ตอบ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ไฟล์ไม่มีคีย์ข้อนี้ (เฉลยอย่างย่อ Colorectal มี 11 ตัว) แต่ผู้จดเขียนว่า \"ตรง ac\" และช้อยต้นฉบับมี hamartomatous polyp ซึ่งตรงกับ Peutz-Jeghers",
+  "mnemonic": "<b>'จุดดำที่ปาก + polyp = Peutz-Jeghers = Hamartoma ในลำไส้เล็ก'</b>",
+  "guide": "ACG Clinical Guideline: Genetic Testing and Management of Hereditary Gastrointestinal Cancer Syndromes (Am J Gastroenterol 2015;110:223); NCCN Genetic/Familial High-Risk Assessment: Colorectal v.2024",
   "variants": [
-   "<b>นอกสไลด์:</b> วัยรุ่น PJS ปวดท้องเป็นพัก ๆ อาเจียน → ลำไส้เล็กกลืนกันจากติ่งเนื้อ: ผ่าตัดและส่องกล้องเอาติ่งออกระหว่างผ่าตัด",
-   "<b>นอกสไลด์:</b> เด็กชาย PJS เต้านมโต โตเร็วผิดวัย → Sertoli cell tumor ของอัณฑะที่สร้าง estrogen"
+   "วัยรุ่น Peutz-Jeghers ปวดท้องเป็นพัก อาเจียน CT target sign → intussusception จาก polyp",
+   "Polyp หลายร้อยตัว + CHRPE → FAP (adenomatous)",
+   "เด็กมีเลือดออกทางทวาร juvenile polyp 8 ตัวในลำไส้ใหญ่ → juvenile polyposis"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 19 แถว Colo 12 — ตัวพิมพ์: <b>รูปนี้เลย พบ polyp ชนิดใด — 1. Adenomatous polyp 2. hamartomatous polyp 3. ตรง ac</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Colorectal\" — \"1 A · 2 C · 3 B · 4 B · 5 A · 6 A · 7 A · 8 B · 9 A · 10 B · 11 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 19 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p19",
+   "ks79d_colo"
   ]
  },
  "MDCU79|RoD|Neuro 1": {
-  "interp": "ผู้ป่วย HIV CD4 40 ซึม อ่อนแรงซีกซ้าย พูดไม่ได้ 2 สัปดาห์ ไม่มีคอแข็ง + ภาพสมองฉีดสี · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: C Toxoplasmosis</b><br><b>นอกสไลด์:</b> MRI ฉีดสีเห็นก้อนจับสีเป็นวงหลายก้อนที่ basal ganglia ทั้งสองข้าง มีบวมรอบและกดโพรงสมอง · ใน HIV ที่ CD4 ต่ำกว่า 100 ก้อนหลายก้อนแบบนี้ = cerebral toxoplasmosis จนกว่าจะพิสูจน์ได้ว่าไม่ใช่",
+  "interp": "ผู้ป่วย <b>HIV ระยะท้าย CD4 40</b> ซึม อ่อนแรงซีกซ้าย พูดผิดปกติ 2 สัปดาห์ ไม่มีคอแข็ง ภาพสมองฉีดสีตามรูป (หลายก้อน enhance เป็นวง) → ถามวินิจฉัย",
+  "why": "ใน HIV ที่ <b>CD4 &lt; 100</b> รอยโรค<b>หลายก้อนที่ enhance เป็นวง (ring-enhancing)</b> ร่วมกับ focal deficit ไข้/ ซึม เป็นแบบกึ่งเฉียบพลัน = <b>cerebral toxoplasmosis</b> (Toxoplasma gondii กลับมาจากการติดเชื้อเดิม) · ชอบอยู่ที่ <b>basal ganglia</b> และรอยต่อ gray-white matter · มี \"eccentric target sign\" ได้ · IgG Toxoplasma มักบวก · รักษาแบบ<b>ทดลองรักษา (empirical)</b> ด้วย <b>pyrimethamine + sulfadiazine + leucovorin</b> (หรือ TMP-SMX) ถ้าดีขึ้นใน 10–14 วันถือว่ายืนยัน · ถ้าไม่ดีขึ้น → คิด primary CNS lymphoma และพิจารณา biopsy · ป้องกันด้วย TMP-SMX เมื่อ CD4 &lt; 100 และ IgG บวก · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 1 C\"</b> = Toxoplasmosis (brain abscess) ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้ารอยโรคเป็นแผ่นใน white matter ไม่จับสีและไม่มี mass effect",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าปวดศีรษะมาก ความดัน CSF สูง ไม่มีก้อนจับสีเป็นวง และ cryptococcal antigen บวก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนเดียวจับสีทึบติดผนังโพรงสมองหรือ corpus callosum ไม่ดีขึ้นหลังรักษา toxoplasma 2 สัปดาห์ และพบ EBV DNA ใน CSF",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าซึมสับสน ภาพเห็นการจับสีตามผนังโพรงสมอง (ventriculitis) ร่วม CMV retinitis"
+   "A": "PML (JC virus) เป็นรอยโรคที่ white matter <b>ไม่ enhance และไม่มี mass effect</b> ค่อย ๆ แย่ลงหลายสัปดาห์ · จะถูกถ้า MRI เห็น white matter ผิดปกติหลายจุดใต้ cortex ไม่ enhance ไม่มี mass effect",
+   "B": "Cryptococcal meningitis มาด้วยปวดศีรษะ แรงดัน CSF สูงมาก มักไม่มี focal deficit เด่น และภาพมักปกติหรือมี gelatinous pseudocyst ไม่ใช่ก้อน enhance หลายก้อน · จะถูกถ้าผู้ป่วย HIV ปวดศีรษะ 3 สัปดาห์ CSF แรงดัน 40 cmH2O India ink บวก",
+   "D": "Primary CNS lymphoma มัก<b>ก้อนเดี่ยว</b> อยู่ใกล้ ventricle/ periventricular, EBV DNA ใน CSF บวก, thallium SPECT/ PET uptake สูง และ<b>ไม่ตอบสนองต่อยา Toxoplasma</b> · จะถูกถ้าให้ยา Toxoplasma 2 สัปดาห์แล้วก้อนเดี่ยวรอบ ventricle ไม่ยุบ CSF EBV PCR บวก",
+   "E": "CMV encephalitis เป็น ventriculitis มี ependymal enhancement รอบ ventricle ซึมสับสน ไม่ใช่ก้อน enhance หลายก้อน · จะถูกถ้า CD4 15 มี CMV retinitis ร่วม MRI เห็นผนัง ventricle enhance"
   },
-  "trap": "Toxoplasma IgG ลบทำให้ toxoplasmosis เป็นไปได้น้อยมาก — ต้องคิดถึง lymphoma หรือฝีจากเชื้ออื่นแทน",
+  "trap": "สับสน toxoplasmosis กับ lymphoma — หลายก้อน basal ganglia + IgG บวก = toxo ทดลองรักษาก่อน · ก้อนเดี่ยวรอบ ventricle EBV บวก = lymphoma",
   "summary": [
-   "<b>นอกสไลด์:</b> รักษาแบบทดลอง: pyrimethamine + sulfadiazine + leucovorin (หรือ TMP-SMX) แล้วดูภาพซ้ำราว 2 สัปดาห์ · ไม่ดีขึ้น → ตัดชิ้นเนื้อ · ป้องกันด้วย TMP-SMX เมื่อ CD4 ต่ำกว่า 100 และ Toxoplasma IgG บวก"
+   "HIV CD4 &lt; 100 + หลายก้อน ring-enhancing → toxoplasmosis",
+   "รักษา: pyrimethamine + sulfadiazine + leucovorin (หรือ TMP-SMX) · ประเมิน 10–14 วัน",
+   "ไม่ตอบสนอง → primary CNS lymphoma (EBV PCR · biopsy)",
+   "PML: white matter ไม่ enhance ไม่มี mass effect",
+   "Cryptococcus: ปวดศีรษะ CSF แรงดันสูงมาก India ink/ CrAg",
+   "ป้องกัน toxo: TMP-SMX เมื่อ CD4 &lt; 100 และ IgG บวก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ผู้จดเขียนว่า \"ct brain ขาวเยอะ ๆ\" = หลายก้อน enhance เข้ากับ toxoplasmosis",
+  "mnemonic": "<b>'HIV CD4 ต่ำ + หลายวงแหวนที่ basal ganglia = Toxo → ทดลองรักษา'</b>",
+  "guide": "NIH/CDC/IDSA Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents with HIV (2024) — Toxoplasma gondii encephalitis; Osborn's Brain 2nd ed. (2018)",
   "variants": [
-   "<b>นอกสไลด์:</b> รักษา toxoplasmosis แล้วเริ่ม ART ไม่กี่สัปดาห์ อาการแย่ลงชั่วคราว ภาพบวมมากขึ้น → IRIS",
-   "<b>นอกสไลด์:</b> ผู้รับการปลูกถ่ายหัวใจจากผู้บริจาคที่ Toxoplasma IgG บวก มีไข้ ซึม MRI พบก้อนจับสีเป็นวงหลายก้อน → cerebral toxoplasmosis จากอวัยวะที่ได้รับ"
+   "ให้ยา toxoplasma 14 วันก้อนเดี่ยวรอบ ventricle ไม่ยุบ → primary CNS lymphoma ทำ biopsy",
+   "HIV CD4 60 white matter ผิดปกติไม่ enhance แย่ลงช้า ๆ → PML",
+   "HIV CD4 40 ปวดศีรษะ CSF แรงดันสูงมาก → cryptococcal meningitis เจาะ CSF ลดแรงดันซ้ำ"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 19 แถว Neuro 1 — ตัวพิมพ์: <b>Advanced HIV CD4 40 cells (จดซ้ำ HIV CD4 40 cells) ct brain ขาวเยอะ ๆ อาการเป็นมา 2 อาทิตย์ มีซึม, left sided weak, aphasia, no neck stiffness — A. Progressive multifocal leukoencephalopathy (PML) B. Cryptococcal meningoencephalitis C. Toxoplasmosis (brain abscess) D. Primary CNS lymphoma E. CMV encephalitis</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 19 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p19",
+   "ks79d_neuro"
   ]
  },
  "MDCU79|RoD|Neuro 2": {
-  "interp": "เด็ก 7 ปี ปวดศีรษะ เดินเซแบบลำตัว (truncal ataxia) มองขึ้นไม่ได้ มีอาการ hydrocephalus + MRI sagittal เห็นก้อนใน fourth ventricle · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Medulloblastoma</b><br><b>นอกสไลด์:</b> MRI sagittal เห็นก้อนแนวกลางใน posterior fossa เต็ม fourth ventricle จาก vermis กดก้านสมองด้านหน้า · เด็กวัยเรียน ก้อนแนวกลางที่ vermis ร่วม truncal ataxia = medulloblastoma (เนื้องอกร้ายในสมองที่พบบ่อยที่สุดในเด็ก)",
+  "interp": "เด็ก 7 ปีปวดศีรษะ เดินเซแบบลำตัว (truncal ataxia) มองขึ้นไม่ได้ อาการ hydrocephalus MRI sagittal เห็นก้อนใน <b>fourth ventricle</b> → ถามวินิจฉัย",
+  "why": "ก้อนที่ <b>posterior fossa แนวกลาง (vermis) ยื่นเข้า fourth ventricle</b> ในเด็ก + <b>truncal ataxia</b> (vermis) + hydrocephalus (อุดทางไหล CSF) = <b>medulloblastoma</b> · เป็น<b>เนื้องอกสมองชนิดร้ายที่พบบ่อยที่สุดในเด็ก</b> (embryonal tumor, WHO grade 4) พีค 5–9 ปี · ภาพ: ก้อนตันแนวกลาง hyperdense บน CT (เซลล์แน่น) <b>restricted diffusion</b> · กระจายตาม CSF (drop metastasis) → ต้อง MRI ไขสันหลังทั้งหมด + CSF cytology · รักษา: <b>ผ่าตัดเอาออกมากที่สุด + craniospinal irradiation + เคมี</b> · การมองขึ้นไม่ได้เกิดจาก hydrocephalus กดบริเวณ dorsal midbrain (Parinaud) · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 2 A\"</b> = Medulloblastoma ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเกิดจากพื้นของ fourth ventricle ยื่นออกทาง foramen of Luschka หรือ Magendie มีหินปูน ในเด็กเล็ก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่บริเวณ pineal เหนือ midbrain กด aqueduct มองขึ้นไม่ได้เด่นโดยไม่มีเดินเซ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่ที่ซีกสมองน้อยข้างใดข้างหนึ่ง เป็นถุงน้ำที่มีก้อนเนื้อติดผนัง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนอยู่เหนือ sella มีถุงน้ำและหินปูน ร่วมตามัวด้านข้างและตัวเตี้ย"
+   "B": "Ependymoma เกิดจาก<b>พื้น</b> fourth ventricle แล้ว<b>ลอดออกทาง foramen Luschka/ Magendie</b> (plastic tumor) มีหินปูนบ่อย อาการเส้นประสาทสมองคู่ล่าง · จะถูกถ้าก้อนใน fourth ventricle ยื่นออกทาง foramen ด้านข้างไปถึง CPA มีหินปูน",
+   "C": "เนื้องอกบริเวณ pineal ทำให้ Parinaud syndrome (มองขึ้นไม่ได้) และ hydrocephalus แต่ก้อนอยู่ที่ pineal region หลัง third ventricle ไม่ใช่ใน fourth ventricle · จะถูกถ้าเด็กชาย 12 ปีมองขึ้นไม่ได้ MRI ก้อนที่ pineal β-hCG/ AFP สูง",
+   "D": "Pilocytic astrocytoma อยู่ที่<b>ซีกสมองน้อย (cerebellar hemisphere)</b> เป็นถุงน้ำมีปุ่มเนื้อ enhance (cyst with mural nodule) ทำให้เซแขนขาข้างเดียวกัน · จะถูกถ้าเด็ก 8 ปีเดินเซไปทางซ้าย MRI เห็นถุงน้ำมีปุ่มเนื้อในซีกซ้ายของสมองน้อย",
+   "E": "Craniopharyngioma อยู่<b>เหนือ sella</b> มีหินปูนและถุงน้ำ ทำให้ตามัว (bitemporal hemianopia) ตัวเตี้ย เบาจืด · จะถูกถ้าเด็ก 9 ปีโตช้า ตามัวขอบนอกสองข้าง CT เห็นก้อนเหนือ sella มีหินปูน"
   },
-  "trap": "มองขึ้นไม่ได้ไม่ได้แปลว่าก้อนอยู่ที่ pineal เสมอ — hydrocephalus จากก้อนใน posterior fossa ทำให้ third ventricle โตกดบริเวณ tectum ได้",
+  "trap": "สับสน medulloblastoma กับ ependymoma ที่อยู่ใน fourth ventricle เหมือนกัน — medullo มาจาก vermis (หลังคา) · ependymoma มาจากพื้นและลอดออก foramen",
   "summary": [
-   "<b>นอกสไลด์:</b> medulloblastoma: แพร่ทาง CSF ได้ → ผ่าตัดเอาออกให้มากที่สุด → MRI ไขสันหลังและตรวจเซลล์ใน CSF (staging) → ฉายรังสีทั้งสมองและไขสันหลัง (อายุมากกว่า 3 ปี) ร่วมเคมีบำบัด"
+   "Posterior fossa tumor ในเด็ก: medulloblastoma · pilocytic astrocytoma · ependymoma · DIPG",
+   "Medulloblastoma: vermis/ หลังคา fourth ventricle · ร้ายที่สุดในเด็ก · drop mets ตาม CSF",
+   "Pilocytic: ซีกสมองน้อย · cyst + mural nodule · พยากรณ์ดีมาก",
+   "Ependymoma: พื้น fourth ventricle · ลอดออก foramen · หินปูน",
+   "DIPG: pons บวมกว้าง · CN VI/ VII palsy · ผ่าไม่ได้",
+   "Medullo: ผ่าตัด + craniospinal RT + เคมี · MRI ไขสันหลังก่อน/ หลังผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ ต้นฉบับจดว่าให้ภาพ CT sagittal แต่ภาพในไฟล์เป็น MRI จึงเขียน MRI ใน stem",
+  "mnemonic": "<b>'เด็ก + ก้อนกลาง fourth ventricle + เซลำตัว = Medulloblastoma'</b>",
+  "guide": "WHO Classification of Tumours of the Central Nervous System 5th ed. (2021); Youmans and Winn Neurological Surgery 8th ed. (2022) — Medulloblastoma",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัดก้อน posterior fossa 1–2 วัน เด็กพูดไม่ได้ อารมณ์แปรปรวน → cerebellar mutism (posterior fossa syndrome)",
-   "<b>นอกสไลด์:</b> เด็กอาเจียนตอนเช้าเรื้อรังและปวดศีรษะ เคยได้ยารักษากระเพาะ → ตรวจหา papilledema และทำภาพสมองหาก้อน"
+   "เด็ก 8 ปี MRI ถุงน้ำมีปุ่มเนื้อในซีกสมองน้อย → pilocytic astrocytoma",
+   "เด็ก 4 ปีก้อนใน fourth ventricle ยื่นออกทาง foramen Luschka มีหินปูน → ependymoma",
+   "เด็ก 6 ปี CN VI และ VII อ่อนแรง MRI pons บวมกว้าง → diffuse intrinsic pontine glioma"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 20 แถว Neuro 2 — ตัวพิมพ์: <b>เด็ก 7 ขวบ ให้ CT sagittal มา บรรยายให้ว่ามี mass ที่ fourth ventricle มี upward gaze palsy truncal ataxia ปวดหัว อาการ hydrocephalus — A. Medulloblastoma B. Ependymoma C. Pineal region tumor D. Pilocytic astrocytoma E. Craniopharyngioma</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 20 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p20",
+   "ks79d_neuro"
   ]
  }
 }

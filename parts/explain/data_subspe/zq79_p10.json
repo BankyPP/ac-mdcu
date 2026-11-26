@@ -1,214 +1,365 @@
 {
  "MDCU79|RoD|Neuro 10": {
-  "interp": "มองขึ้นไม่ได้ (upward gaze palsy) ร่วมรูม่านตาไม่หดต่อแสงแต่หดเมื่อมองใกล้ (light-near dissociation) = Parinaud syndrome · ถามว่าก้อนอยู่ที่ไหน",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Pineal gland tumor</b><br><b>นอกสไลด์:</b> Parinaud syndrome เกิดจากรอยโรคที่ dorsal midbrain (pretectum, posterior commissure) ซึ่งอยู่ใต้ต่อม pineal โดยตรง — ก้อนบริเวณ pineal กดลงมาตรง ๆ และมักกด aqueduct จน hydrocephalus ร่วมด้วย",
+  "interp": "ผู้ป่วย<b>มองขึ้นไม่ได้</b> และรูม่านตาแบบ <b>light-near dissociation</b> → ถามเนื้องอกที่ตำแหน่งน่าจะเป็นที่สุด",
+  "why": "มองขึ้นไม่ได้ (upgaze palsy) + light-near dissociation + (convergence-retraction nystagmus, eyelid retraction — Collier sign) = <b>Parinaud (dorsal midbrain) syndrome</b> · เกิดจากการกด<b>บริเวณ pretectum/ superior colliculus หลัง midbrain</b> ซึ่งศูนย์ควบคุมการมองขึ้น (riMLF, posterior commissure) อยู่ · สาเหตุคลาสสิกคือ <b>เนื้องอก pineal region</b> (germinoma พบบ่อยสุดในเด็กชายวัยรุ่น, pineoblastoma, teratoma) ซึ่งมักอุด aqueduct ทำให้ hydrocephalus ร่วม · ตรวจ β-hCG, AFP ในเลือด/ CSF (germ cell tumor markers) + MRI · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 10 A\"</b> = Pineal gland tumor ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นหญิงวัยกลางคน MRI เห็นก้อนนอกเนื้อสมองจับสีสม่ำเสมอ ติดรอยต่อ falx กับ tentorium (falcotentorial meningioma) และกดลงบน tectum",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กที่มี truncal ataxia อาเจียนตอนเช้า และ MRI เห็นก้อนใน fourth ventricle ทำให้ hydrocephalus จน third ventricle โตกด tectum (แบบข้อ Neuro 2 ของชุดนี้)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Parinaud syndrome เป็นอาการที่ชี้ไปหา craniopharyngioma เพราะก้อนนี้เกิดจาก Rathke pouch ที่ sella/suprasellar อาการหลักมาจากการกด chiasm (bitemporal hemianopia), pituitary และ hypothalamus",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กหรือวัยรุ่น MRI เห็นก้อนเล็กโตช้าใน tectal plate ของ midbrain ทำให้ aqueduct ตีบ (tectal glioma ซึ่งมักเป็น low-grade/pilocytic)"
+   "B": "Meningioma พบมากในหญิงวัยกลางคน ตำแหน่งตามเยื่อหุ้มสมอง (convexity, falx, sphenoid wing) ไม่จำเพาะต่อ Parinaud · จะถูกถ้าหญิง 50 ปีชักครั้งแรก MRI ก้อนติดเยื่อหุ้มสมองมี dural tail",
+   "C": "Medulloblastoma อยู่ที่ vermis/ fourth ventricle ทำ truncal ataxia และ hydrocephalus อาจมองขึ้นไม่ได้จาก hydrocephalus ได้ แต่ไม่ใช่ตำแหน่งที่กดศูนย์นี้โดยตรง · จะถูกถ้าเด็ก 6 ปีเดินเซแบบลำตัว MRI ก้อนกลาง fourth ventricle",
+   "D": "Craniopharyngioma อยู่เหนือ sella กด optic chiasm → <b>bitemporal hemianopia</b> ฮอร์โมนขาด ไม่ใช่ Parinaud · จะถูกถ้าเด็กตัวเตี้ย ตามัวขอบนอกสองข้าง ก้อนมีหินปูนเหนือ sella",
+   "E": "Pilocytic astrocytoma ในเด็กมักอยู่ซีกสมองน้อย (cyst + mural nodule) หรือ optic pathway ไม่จำเพาะต่อ dorsal midbrain · จะถูกถ้าเด็กเดินเซไปข้างหนึ่ง MRI ถุงน้ำมีปุ่มเนื้อในซีกสมองน้อย"
   },
-  "trap": "light-near dissociation มีในโรคอื่นด้วย — Argyll Robertson pupil (neurosyphilis) รูม่านตาเล็ก ไม่กลม และไม่มีอัมพาตการมองขึ้น · Parinaud รูม่านตาขนาดกลางค่อนกว้าง และมาพร้อมมองขึ้นไม่ได้",
+  "trap": "สับสน light-near dissociation กับ Argyll Robertson — ARP รูม่านตาเล็ก (neurosyphilis) · Parinaud รูม่านตากว้างปานกลาง + มองขึ้นไม่ได้ (pineal)",
   "summary": [
-   "<b>นอกสไลด์:</b> Parinaud: มองขึ้นไม่ได้ · light-near dissociation · convergence-retraction nystagmus เมื่อพยายามมองขึ้น · หนังตาบนรั้ง (Collier sign) · ก้อนบริเวณ pineal ที่พบบ่อยคือ germ cell tumor (germinoma มากสุด พบในเด็กชาย/วัยรุ่น) และ pineal parenchymal tumor → MRI ร่วมตรวจ AFP และ β-hCG ในเลือดและ CSF"
+   "Parinaud: มองขึ้นไม่ได้ · light-near dissociation · convergence-retraction nystagmus · Collier sign",
+   "สาเหตุ: pineal tumor (germinoma) · hydrocephalus · stroke ที่ midbrain · MS",
+   "Pineal germinoma: เด็กชายวัยรุ่น · β-hCG อาจสูงเล็กน้อย · ไวต่อรังสีมาก",
+   "NGGCT: AFP/ β-hCG สูงมาก",
+   "Hydrocephalus จาก aqueduct อุด → ETV/ VP shunt",
+   "Argyll Robertson: รูม่านตาเล็ก ไม่ตอบแสง หดเมื่อมองใกล้ (neurosyphilis)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และลักษณะ Parinaud syndrome",
+  "mnemonic": "<b>'มองขึ้นไม่ได้ + light-near = Parinaud = Pineal'</b>",
+  "guide": "Youmans and Winn Neurological Surgery 8th ed. (2022) — Pineal region tumors; Walsh and Hoyt's Clinical Neuro-Ophthalmology 7th ed.",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 14 ปี มองขึ้นไม่ได้ร่วมปัสสาวะมาก กระหายน้ำ → germinoma สองตำแหน่ง (pineal + suprasellar)",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุความดันสูง ซึมลงทันทีพร้อมมองขึ้นไม่ได้และตาเหลือบลง → เลือดออกที่ thalamus ลามกด dorsal midbrain (ไม่ใช่ก้อนเนื้องอก)"
+   "เด็กชาย 13 ปี Parinaud + เบาจืด β-hCG สูงเล็กน้อย → germinoma (pineal + suprasellar)",
+   "เด็กตัวเตี้ยตามัวขอบนอกสองข้าง → craniopharyngioma",
+   "ชายรูม่านตาเล็กไม่ตอบแสงหดเมื่อมองใกล้ + tabes dorsalis → Argyll Robertson (neurosyphilis)"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 26 แถว Neuro 10 — ตัวพิมพ์: <b>upward gaze palsy, near light dissociation tumor? — 1. Pineal gland tumor 2. Meningioma 3. Medulloblastoma 4. Craniopharyngioma</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 26 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p26",
+   "ks79d_neuro"
   ]
  },
  "MDCU79|RoD|Neuro 11": {
-  "interp": "ชายสูงอายุ ความดันสูงมานาน ดื่มสุรา · ถามปัจจัยเสี่ยงของ stroke ที่ป้องกัน/แก้ไขได้และสำคัญที่สุด",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B Uncontrolled hypertension</b><br><b>นอกสไลด์:</b> ความดันสูงเป็นปัจจัยเสี่ยงที่แก้ไขได้ซึ่งสัมพันธ์กับ stroke มากที่สุดทั้ง ischemic และ hemorrhagic · คุมความดันลดความเสี่ยงได้ชัดเจนที่สุด",
+  "interp": "ชายสูงอายุมีความดันสูงเดิมและดื่มสุรา → ถาม<b>ปัจจัยเสี่ยงหลักที่ป้องกันได้</b>ของ stroke",
+  "why": "<b>Hypertension</b> เป็นปัจจัยเสี่ยงที่<b>สำคัญที่สุดและแก้ไขได้</b>ของ stroke ทั้งขาดเลือดและเลือดออก — มีส่วนในเกือบครึ่งของ stroke ทั่วโลก (INTERSTROKE) · <b>การลด systolic ลง 10 mmHg ลดความเสี่ยง stroke ~30–40%</b> · ผู้ป่วยในโจทย์มีความดันสูงอยู่แล้วและอาจคุมไม่ได้ จึงเป็นเป้าหมายแรกของการป้องกัน · ปัจจัยเสี่ยงที่แก้ได้อื่น: เบาหวาน ไขมัน สูบบุหรี่ AF การดื่มสุรามาก ขาดการออกกำลังกาย อ้วน · ปัจจัยที่แก้ไม่ได้: อายุ เพศชาย พันธุกรรม · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 11 B\"</b> = Uncontrolled hypertension ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อายุเป็นปัจจัยเสี่ยงที่ป้องกันได้ เพราะความเสี่ยงเพิ่มตามอายุโดยแก้ไขไม่ได้ — ใช้บอกว่าใครเสี่ยงสูง ไม่ใช่เป้าของการป้องกัน",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นชายอายุ 25 ปีไม่มีโรคประจำตัว ไม่สูบบุหรี่ ใช้กัญชาปริมาณมากทุกวัน และมี stroke จากหลอดเลือดหดตัว — กัญชาเป็นปัจจัยที่แก้ได้ในคนอายุน้อย",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยความดันปกติ แต่ดื่มหนักเป็นประจำหรือดื่มครั้งละมาก ๆ — การดื่มหนักเพิ่มความเสี่ยงโดยเฉพาะ hemorrhagic stroke และลดได้เมื่อเลิก",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เพศชายเป็นปัจจัยเสี่ยงที่ป้องกันได้ เพราะเป็นลักษณะติดตัว — ความเสี่ยงต่างระหว่างเพศมาจากปัจจัยอื่นที่แก้ได้"
+   "A": "อายุเป็นปัจจัยเสี่ยงสำคัญ (ทุก 10 ปีหลัง 55 ความเสี่ยงเพิ่มเท่าตัว) แต่<b>แก้ไม่ได้</b> · จะถูกถ้าถามปัจจัยเสี่ยงที่แรงที่สุดโดยไม่จำกัดว่าต้องป้องกันได้",
+   "C": "กัญชาเกี่ยวกับ stroke บางชนิด (reversible cerebral vasoconstriction) ในคนอายุน้อย แต่ไม่ใช่ปัจจัยหลักในผู้สูงอายุรายนี้ · จะถูกถ้าชาย 25 ปีใช้กัญชาปริมาณมาก ปวดศีรษะแบบฟ้าผ่าซ้ำ หลอดเลือดสมองหดตัวหลายจุด",
+   "D": "ดื่มสุรามากเพิ่มความเสี่ยง (โดยเฉพาะเลือดออก) และแก้ได้ แต่ผลน้อยกว่าความดันสูงมาก · จะถูกถ้าถามปัจจัยเสี่ยงที่แก้ได้รองลงมาในผู้ที่ดื่มหนักและความดันคุมได้ดีแล้ว",
+   "E": "เพศชายเพิ่มความเสี่ยงเล็กน้อยแต่แก้ไม่ได้ · จะถูกถ้าถามปัจจัยเสี่ยงที่ไม่สามารถเปลี่ยนแปลงได้"
   },
-  "trap": "โจทย์บอกการดื่มสุราเพื่อให้เลือก D — มีปัจจัยที่แก้ได้หลายตัวพร้อมกัน ให้เลือกตัวที่มีผลมากที่สุด ซึ่งคือความดันสูง (โดยเฉพาะเมื่อยังคุมไม่ได้)",
+  "trap": "เลือกอายุเพราะเป็นปัจจัยแรงสุด — โจทย์ถามสิ่งที่ <b>ป้องกันได้</b> = ความดันสูง",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยง stroke ที่แก้ได้: ความดันสูง (สำคัญที่สุด) · สูบบุหรี่ · เบาหวาน · ไขมันสูง · AF · หลอดเลือดแดงคอตีบ · ขาดการออกกำลัง อ้วน อาหาร · ดื่มหนัก · ที่แก้ไม่ได้: อายุ เพศ เชื้อชาติ พันธุกรรม และเคยเป็น stroke/TIA"
+   "ปัจจัยเสี่ยงที่แก้ได้ที่สำคัญสุด: hypertension",
+   "อื่น ๆ: เบาหวาน · ไขมัน · บุหรี่ · AF · สุรามาก · อ้วน · ขาดการออกกำลังกาย · อาหารเค็ม",
+   "แก้ไม่ได้: อายุ · เพศชาย · พันธุกรรม · เคยเป็น stroke/ TIA",
+   "ลด SBP 10 mmHg → ลด stroke ~30–40%",
+   "AF → anticoagulant ตาม CHA2DS2-VASc",
+   "เป้าความดันป้องกัน stroke ซ้ำ &lt; 130/80"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ AHA/ASA Primary Prevention Guideline",
+  "mnemonic": "<b>'Stroke ป้องกันได้อันดับหนึ่ง = ความดัน'</b>",
+  "guide": "AHA/ASA Guidelines for the Primary Prevention of Stroke (Stroke 2014;45:3754; update 2024); INTERSTROKE (Lancet 2016;388:761)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 72 ปี AF ร่วมความดันสูงและเบาหวาน ยังไม่เคย stroke → ป้องกันด้วยยาต้านการแข็งตัวของเลือด (DOAC) ไม่ใช่ aspirin",
-   "<b>นอกสไลด์:</b> ชาย 65 ปี TIA แขนขวาอ่อนแรงชั่วคราว US พบ internal carotid ซ้ายตีบ 80% → carotid endarterectomy ภายใน 2 สัปดาห์"
+   "ผู้ป่วย AF CHA2DS2-VASc 4 → anticoagulant ป้องกัน stroke",
+   "ผู้ป่วย stroke ขาดเลือดแล้ว → คุมความดัน &lt; 130/80 + statin + antiplatelet",
+   "ชาย 70 ปี carotid ตีบ 80% มีอาการ → carotid endarterectomy"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 26 แถว Neuro 11 — ตัวพิมพ์: <b>ผู้ชายอายุเยอะ มี underlying hypertension เดิม ดื่มแอลกอฮอล์ ถามว่าอันไหนเป็น major risk factor ต่อการเกิด stroke ที่ป้องกันได้ — 1. Age 2. Uncontrolled hypertension 3. Marijuana 4. Alcohol</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 26 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p26",
+   "ks79d_neuro"
   ]
  },
  "MDCU79|RoD|Neuro 12": {
-  "interp": "ทารกศีรษะโต ตาเหลือบลงจนเห็นตาขาวเหนือตาดำ (sunset eyes) ตามภาพ · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Congenital hydrocephalus</b><br><b>นอกสไลด์:</b> ภาพ: ศีรษะโตมากเทียบกับใบหน้า หน้าผากโหนก หนังศีรษะบางเห็นหลอดเลือดดำโป่ง ตาทั้งสองข้างเหลือบลง — ศีรษะโตร่วมอาการความดันในกะโหลกสูง (sunset eyes, หลอดเลือดดำหนังศีรษะโป่ง) = hydrocephalus",
+  "interp": "ทารกหัวโต ตามองลงล่างจนเห็นตาขาวเหนือตาดำ (<b>sunset eyes</b>) ตามรูป → ถามวินิจฉัย",
+  "why": "ทารกหัวโต (เส้นรอบศีรษะเกิน 98th percentile/ โตเร็ว) + กระหม่อมโป่งตึง เส้นเลือดดำหนังศีรษะโป่ง รอยต่อกะโหลกแยก + <b>sunset sign</b> (ตาเหลือบลงจากการกด dorsal midbrain/ suprapineal recess) = <b>hydrocephalus ในทารก (congenital)</b> · สาเหตุบ่อย: <b>aqueductal stenosis</b>, myelomeningocele + Chiari II, Dandy-Walker, หลังเลือดออก/ ติดเชื้อ · ตรวจ US ผ่านกระหม่อม/ MRI · รักษา: <b>VP shunt</b> หรือ endoscopic third ventriculostomy (ETV) ในรายที่เหมาะสม · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 12 A\"</b> = Congenital hydrocephalus ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าทารกศีรษะเบี้ยว หน้าผากข้างหนึ่งแบน คิ้วและเบ้าตาข้างนั้นยกสูง (unicoronal synostosis) โดยเส้นรอบศีรษะไม่โตเกินเกณฑ์",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกศีรษะโตแต่โตขนานไปตามเส้น percentile พัฒนาการปกติ ไม่มีอาการความดันในกะโหลกสูง และพ่อหรือแม่ศีรษะโต",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าทารกศีรษะโต หน้าผากโหนก สันจมูกแบน ร่วมแขนขาสั้นส่วนต้น (rhizomelic) และนิ้วมือแยกเป็นสามง่าม",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก 6 เดือนถึง 2 ปี ศีรษะเหลี่ยม หน้าผากโหนก ร่วมกระดูกซี่โครงปูดเป็นลูกประคำ ข้อมือบาน และ ALP สูง"
+   "B": "Craniosynostosis ทำให้<b>รูปหัวผิด</b> (ยาว แหลม แบน) หัวมักไม่โตเกินและไม่มี sunset eyes ยกเว้นหลายรอยต่อร่วม ICP สูง · จะถูกถ้าทารกหัวยาวแคบหน้า-หลัง มีสันนูนตามแนว sagittal suture",
+   "C": "Benign familial macrocephaly หัวโตแต่<b>โตตามเส้นเดิม</b> พัฒนาการปกติ ไม่มีอาการ ICP สูง พ่อแม่หัวโต · จะถูกถ้าทารกหัวโต percentile คงที่ พัฒนาการปกติ พ่อหัวโต",
+   "D": "Achondroplasia มีหัวโต หน้าผากนูน แต่แขนขาสั้นชัด (rhizomelic) ไม่มี sunset eyes · จะถูกถ้าทารกแขนขาสั้น หัวโต หน้าผากนูน ดั้งจมูกแบน",
+   "E": "Rickets ทำให้กระหม่อมปิดช้า หน้าผากนูน (frontal bossing) ข้อมือบาน rachitic rosary ไม่มี sunset eyes · จะถูกถ้าทารกขาดวิตามินดี ข้อมือบาน ขาโก่ง ALP สูง"
   },
-  "trap": "ศีรษะโตอย่างเดียวแยกโรคไม่ได้ — ตัวแยกคือเส้นรอบศีรษะโตข้าม percentile และอาการความดันในกะโหลกสูง · sunset eyes เกิดเพราะโพรงสมองที่โตกดบริเวณ tectum ทำให้มองขึ้นไม่ได้",
+  "trap": "เห็นหัวโตแล้วคิดว่ากรรมพันธุ์ — sunset eyes + กระหม่อมโป่ง = hydrocephalus มีแรงดันสูง",
   "summary": [
-   "<b>นอกสไลด์:</b> ทารกศีรษะโต (เส้นรอบศีรษะ &gt; 97th percentile): วัดซ้ำดูอัตราโต + ดูอาการความดันในกะโหลก + พัฒนาการ + วัดศีรษะพ่อแม่ → โตเร็วหรือมีอาการ ทำ US ผ่าน fontanelle ก่อน แล้ว CT/MRI",
-   "<b>นอกสไลด์:</b> benign enlargement of subarachnoid spaces: ช่องน้ำรอบสมองกว้าง โพรงสมองปกติหรือโตเล็กน้อย พัฒนาการปกติ หายเองราว 2 ปี — ไม่ต้องผ่าตัด"
+   "Hydrocephalus ทารก: หัวโตเร็ว · กระหม่อมโป่ง · รอยต่อแยก · หลอดเลือดหนังศีรษะโป่ง · sunset eyes",
+   "สาเหตุ: aqueductal stenosis · Chiari II + MMC · Dandy-Walker · IVH ในทารกก่อนกำหนด · หลังติดเชื้อ",
+   "ตรวจ: US ผ่านกระหม่อม · MRI",
+   "รักษา: VP shunt · ETV (obstructive, อายุ > 6 เดือน)",
+   "Shunt ภาวะแทรกซ้อน: อุดตัน · ติดเชื้อ · ระบายมาก/ น้อยเกิน",
+   "เด็กโต/ ผู้ใหญ่: ปวดศีรษะตอนเช้า อาเจียน papilledema"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · รูปในไฟล์แสดงทารกหัวโตและ sunset eyes ชัด",
+  "mnemonic": "<b>'หัวโต + ตาตกเห็นขาวด้านบน (sunset) = hydrocephalus'</b>",
+  "guide": "Pediatric Hydrocephalus Systematic Review and Evidence-Based Guidelines (J Neurosurg Pediatr 2014;14 Suppl 1); Youmans and Winn Neurological Surgery 8th ed. (2022) — Pediatric hydrocephalus",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกศีรษะโต ตรวจตาพบ chorioretinitis CT เห็นหินปูนกระจายในเนื้อสมองร่วมโพรงสมองโต → congenital toxoplasmosis",
-   "<b>นอกสไลด์:</b> ทารกศีรษะโต ท้ายทอยโหนก MRI เห็นถุงน้ำใหญ่ใน posterior fossa ต่อกับ fourth ventricle และ vermis เล็ก → Dandy-Walker malformation"
+   "ทารกหัวโตตามเส้นเดิม พัฒนาการปกติ พ่อหัวโต → benign familial macrocephaly",
+   "เด็กใส่ VP shunt ปวดศีรษะ อาเจียน ซึม → shunt malfunction",
+   "ทารกก่อนกำหนดมี IVH แล้วหัวโตเร็ว → post-hemorrhagic hydrocephalus"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 26 แถว Neuro 12 — ตัวพิมพ์: <b>รูปเด็กหัวโต บรรยาย sunset eye ถาม diag — 1. Congenital hydrocephalus 2. Craniosynosthosis 3. C. Benign familial macrocephaly 4. Achondroplasia 5. Rickets</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 26 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p26",
+   "ks79d_neuro"
   ]
  },
  "MDCU79|RoD|Neuro 13": {
-  "interp": "หลังบาดเจ็บ ลืมตาเมื่อกดเจ็บ · พูดเป็นคำ ๆ ที่ไม่เข้ากับคำถาม · ชักแขนหนีเมื่อกดเจ็บ · ถามคะแนน GCS",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B E2V2M4 = 8 (เราตอบ D)</b><br><b>นอกสไลด์:</b> ลืมตาเมื่อกดเจ็บ = E2 · พูดออกมาเป็นคำที่ฟังออกแต่ไม่เข้ากับคำถามและไม่เป็นประโยค = V3 (inappropriate words) · ชักแขนหนีจุดที่กด = M4 (withdrawal) → E2V3M4 = 9",
+  "interp": "ผู้ป่วยบาดเจ็บ <b>ลืมตาเมื่อเจ็บ · พูดเป็นคำ ๆ ที่ไม่เข้ากับเรื่อง · ชักแขนหนีความเจ็บ</b> → ถามคะแนน GCS",
+  "why": "ให้คะแนนแต่ละส่วน: <b>Eye</b> ลืมตาเมื่อเจ็บ = <b>E2</b> · <b>Verbal</b> พูดเป็น<b>คำ ๆ</b> ที่ไม่เหมาะสม/ ไม่เข้ากับเรื่อง (inappropriate words) = <b>V3</b> (ถ้าเป็นแค่เสียงอือ ๆ ไม่เป็นคำ = V2 incomprehensible sounds) · <b>Motor</b> ชักแขนหนีความเจ็บ (withdrawal) = <b>M4</b> · รวม <b>E2V3M4 = 9</b> · GCS 9–12 = moderate TBI · GCS ≤ 8 = severe ต้องใส่ท่อ · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 13 B\"</b> (E2V2M4 GCS = 8) ซึ่ง<b>ไม่ตรงกับคำตอบ</b> — คำว่า \"พูดเป็นคำ ๆ ฟังไม่รู้เรื่อง\" เป็นคำที่ออกเสียงได้แต่ไม่เข้ากับเรื่อง จึงเป็น V3 ไม่ใช่ V2",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยลืมตาเมื่อกดเจ็บ ส่งเสียงครางที่ไม่เป็นคำ และงอแขนเกร็งผิดรูปเมื่อกดเจ็บ (abnormal flexion)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยลืมตาเมื่อกดเจ็บ ส่งเสียงครางที่ไม่เป็นคำ (incomprehensible sounds) และชักแขนหนีเมื่อกดเจ็บ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยลืมตาเมื่อถูกเรียก ส่งเสียงครางที่ไม่เป็นคำ และชักแขนหนีเมื่อกดเจ็บ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยลืมตาเมื่อกดเจ็บ ส่งเสียงครางที่ไม่เป็นคำ และยกมือมาปัดจุดที่ถูกกด (localize)"
+   "A": "M3 คือ abnormal flexion (decorticate) แขนงอเกร็งผิดรูป ไม่ใช่ชักแขนหนี · จะถูกถ้าผู้ป่วยลืมตาเมื่อเจ็บ ส่งเสียงอือ ๆ และงอแขนเกร็งเข้าลำตัวเมื่อกดเจ็บ",
+   "B": "E2V2M4 = 8 ใช้เมื่อการพูดเป็นแค่<b>เสียง</b>ที่ไม่เป็นคำ (incomprehensible sounds) แต่โจทย์บอกว่าพูดเป็นคำ ๆ (คีย์ในไฟล์ตอบข้อนี้) · จะถูกถ้าผู้ป่วยลืมตาเมื่อเจ็บ ส่งเสียงคราง อือ อา ไม่เป็นคำ และชักแขนหนี",
+   "C": "E3 คือลืมตาเมื่อเรียก (to sound) ไม่ใช่เมื่อเจ็บ · จะถูกถ้าผู้ป่วยลืมตาเมื่อเรียกชื่อ ส่งเสียงอือ ๆ ไม่เป็นคำ และชักแขนหนีความเจ็บ",
+   "E": "M5 คือ localize (ปัดมือมาที่จุดที่เจ็บ) ไม่ใช่แค่ชักหนี · จะถูกถ้าผู้ป่วยลืมตาเมื่อเจ็บ ส่งเสียงอือ ๆ และยกมือมาปัดมือผู้ตรวจที่ตำแหน่งที่กด"
   },
-  "trap": "แยก V3 กับ V2 ให้ได้: V3 = ได้ยินเป็นคำชัดแต่ไม่เข้ากับบทสนทนา · V2 = เสียงคราง/อืออาที่ไม่เป็นคำ · และแยก M4 (ชักแขนหนี) กับ M3 (งอแขนเกร็งผิดรูป ข้อมืองอเข้า)",
+  "trap": "สับสน V3 (inappropriate words — เป็นคำ) กับ V2 (incomprehensible sounds — ไม่เป็นคำ) · คีย์ในไฟล์ให้ V2 ซึ่งไม่ตรงกับคำบรรยาย",
   "summary": [
-   "<b>นอกสไลด์:</b> GCS: E4 ลืมตาเอง/3 เมื่อเรียก/2 เมื่อกดเจ็บ/1 ไม่ลืม · V5 รู้เรื่อง/4 สับสน/3 เป็นคำ/2 เป็นเสียง/1 ไม่มี · M6 ทำตามสั่ง/5 ปัดจุดเจ็บ/4 ชักหนี/3 งอผิดรูป/2 เหยียด/1 ไม่มี · ใช้คะแนนที่ดีที่สุด (ข้างที่ดีกว่า) · 13–15 mild, 9–12 moderate, ≤ 8 severe (ต้องป้องกันทางเดินหายใจ)"
+   "E: 4 ลืมเอง · 3 เมื่อเรียก · 2 เมื่อเจ็บ · 1 ไม่ลืม",
+   "V: 5 ถูกต้อง · 4 สับสน · 3 เป็นคำไม่เข้าเรื่อง · 2 เสียงไม่เป็นคำ · 1 ไม่มีเสียง",
+   "M: 6 ทำตามสั่ง · 5 localize · 4 withdrawal · 3 abnormal flexion · 2 extension · 1 ไม่ขยับ",
+   "GCS 13–15 mild · 9–12 moderate · 3–8 severe (ใส่ท่อ)",
+   "ใส่ท่ออยู่ → V ให้ 'T' (เช่น E2VTM4)",
+   "Motor score มีค่าพยากรณ์มากที่สุด"
   ],
-  "opinion": "ไม่เห็นด้วยกับคีย์ B (E2V2M4 = 8) — ต้นฉบับ “พูดเป็นคำ ๆ ฟังไม่รู้เรื่อง” คือมีคำที่ฟังออก = V3 จึงตอบ D (9) · มั่นใจปานกลาง–สูง (ถ้าผู้จดหมายถึงเสียงที่ไม่เป็นคำ คีย์จะถูก)",
+  "opinion": "ไม่เห็นด้วยกับคีย์ในไฟล์ (B) — คีย์ตอบ E2V2M4 = 8 แต่ \"พูดเป็นคำ ๆ ฟังไม่รู้เรื่อง\" ตรงกับ inappropriate words = V3 ตามนิยามของ Teasdale · ตอบ D (E2V3M4 = 9) ความมั่นใจปานกลาง-สูง · ถ้าข้อสอบจริงบรรยายเป็นเสียงคราง คำตอบจะเป็น B",
+  "mnemonic": "<b>'V3 = Words (เป็นคำผิดเรื่อง) · V2 = Sounds (อือ อา) · M4 = ชักหนี · M5 = ปัดมาที่เจ็บ'</b>",
+  "guide": "Teasdale G et al. The Glasgow Coma Scale at 40 years (Lancet Neurol 2014;13:844); ATLS Advanced Trauma Life Support 10th ed. (2018) — Head trauma",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยใส่ท่อช่วยหายใจ ลืมตาเอง ทำตามสั่งได้ → E4 VT M6 (รายงาน V เป็น T ไม่รวมเป็นตัวเลข)",
-   "<b>นอกสไลด์:</b> ผู้ป่วยหนังตาบวมปิดจนลืมไม่ได้ ตอบสับสน ปัดจุดที่กด → E NT (ประเมินไม่ได้) V4 M5"
+   "ลืมตาเมื่อเรียก พูดสับสน ทำตามสั่งได้ → E3V4M6 = 13",
+   "ไม่ลืมตา ส่งเสียงคราง เหยียดแขนเกร็ง → E1V2M2 = 5 ใส่ท่อ",
+   "ใส่ท่อแล้ว ลืมตาเมื่อเจ็บ ปัดมือมาที่เจ็บ → E2VTM5 = 7T"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 28 แถว Neuro 13 — ตัวพิมพ์: <b>คนไข้ trauma eye opening to pain, พูดเป็นคำ ๆ ฟังไม่รู้เรื่อง, withdraw from pain ถาม GCS — A. E2V2M3 GCS = 7 B. E2V2M4 GCS = 8 C. E3V2M4 GCS = 9 D. E2V3M4 GCS = 9 E. E2V2M5 GCS = 9</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 28 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p28",
+   "ks79d_neuro"
   ]
  },
  "MDCU79|RoD|Neuro 14": {
-  "interp": "ถามคู่เชื้อที่เพาะได้บ่อยที่สุดจากฝีในสมอง",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Staphylococcus aureus และ Streptococcus</b><br><b>นอกสไลด์:</b> เชื้อที่พบมากที่สุดคือ streptococci (โดยเฉพาะกลุ่ม viridans/S. anginosus) ซึ่งมาจากไซนัส ฟัน หู หรือกระแสเลือด รองลงมาคือ S. aureus จากบาดแผล ผ่าตัด หรือเชื้อในกระแสเลือด · ฝีส่วนใหญ่มีหลายเชื้อร่วม anaerobe",
+  "interp": "ถามคู่เชื้อที่<b>พบบ่อยที่สุด</b>ในฝีในสมอง (brain abscess)",
+  "why": "เชื้อของ brain abscess ขึ้นกับทางที่เข้า แต่โดยรวมพบบ่อยที่สุดคือ <b>Streptococcus species</b> (โดยเฉพาะ viridans/ <b>S. anginosus–milleri group</b>, ~35–70%) และ <b>Staphylococcus aureus</b> (~10–20% โดยเฉพาะหลังบาดเจ็บ/ ผ่าตัดหรือทางเลือด) · ทางเข้า: ลามตรงจาก<b>ไซนัส หู ฟัน</b> (streptococci + anaerobe) · ทางกระแสเลือด (endocarditis, หัวใจพิการเขียว, ฝีปอด) · หลังผ่าตัด/ บาดเจ็บ (S. aureus, gram-negative) · ภูมิคุ้มกันต่ำ: Toxoplasma, Nocardia, เชื้อรา · ยาเริ่มต้น: <b>3rd gen cephalosporin + metronidazole</b> (+ vancomycin เมื่อหลังผ่าตัด/ บาดเจ็บ) · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Neurosurgery 14 A\"</b> (ช้อยต้นฉบับ \"Staphylococcus aureus และ Streptococcus pneumoniae\") ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่คู่นี้เป็นเชื้อที่พบบ่อยที่สุดของฝีในสมอง เพราะ S. pneumoniae ก่อ meningitis มากกว่าฝี ส่วน Pseudomonas พบในฝีจากหูชั้นกลางเรื้อรังหรือหลังผ่าตัดร่วมกับเชื้ออื่น",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ป่วยเบาหวานที่มีฝีในตับจาก Klebsiella pneumoniae แล้วเชื้อแพร่ทางกระแสเลือดไปสมอง หรือทารกแรกเกิดที่ฝีเกิดจากเชื้อ gram-negative ในลำไส้ (E. coli, Citrobacter)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยภูมิคุ้มกันชนิด T cell บกพร่อง (ปลูกถ่ายอวัยวะ ใช้ steroid ขนาดสูงนาน HIV) มีก้อนในปอดร่วมก้อนในสมอง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเม็ดเลือดขาว neutrophil ต่ำนานหลังเคมีบำบัดหรือปลูกถ่ายไขกระดูก — เชื้อราเป็นสาเหตุหลัก (Aspergillus จากปอด, Candida จากกระแสเลือด)"
+   "B": "Pseudomonas พบเฉพาะหลังผ่าตัด/ หูชั้นกลางเรื้อรังบางราย ไม่ใช่เชื้อหลัก · จะถูกถ้าฝีในสมองตามหลัง chronic otitis media ในผู้ป่วยเบาหวานที่เพาะเชื้อได้ Pseudomonas",
+   "C": "Enterobacteriaceae (E. coli, Klebsiella) พบในทารกแรกเกิด หลังผ่าตัด หรือจากหูชั้นกลาง ไม่ใช่สาเหตุหลักโดยรวม · จะถูกถ้าทารกแรกเกิด meningitis จาก Citrobacter แล้วเกิดฝีในสมอง",
+   "D": "Nocardia และ Cryptococcus เป็นเชื้อในผู้ภูมิคุ้มกันต่ำ (ปลูกถ่ายอวัยวะ, steroid, HIV) · จะถูกถ้าผู้ป่วยปลูกถ่ายไตกิน steroid มีฝีในปอดและสมองหลายก้อน ย้อมเห็นแท่งแตกกิ่ง acid-fast อ่อน",
+   "E": "Candida และ Aspergillus พบในผู้ภูมิคุ้มกันต่ำมาก (neutropenia, ปลูกถ่ายไขกระดูก) · จะถูกถ้าผู้ป่วย leukemia neutropenia นาน มีฝีในปอดและสมอง galactomannan บวก"
   },
-  "trap": "จำเชื้อของ meningitis ผู้ใหญ่ (S. pneumoniae) แล้วใช้กับฝี — streptococci ที่ก่อฝีคือกลุ่ม viridans/S. anginosus ซึ่งลามมาจากไซนัสหรือฟัน",
+  "trap": "นึกถึงเชื้อของ meningitis (pneumococcus, meningococcus) — ฝีในสมองเด่นที่ streptococci กลุ่ม milleri และ S. aureus",
   "summary": [
-   "<b>นอกสไลด์:</b> เชื้อตามแหล่ง: ไซนัส/ฟัน → streptococci + anaerobes · หู/mastoid → streptococci, anaerobes, Enterobacterales, Pseudomonas · บาดแผลทะลุ/ผ่าตัด → S. aureus · กระแสเลือด (IE, หัวใจเขียว) → S. aureus, viridans · ยาเริ่มต้นฝีจากชุมชน: ceftriaxone หรือ cefotaxime + metronidazole"
+   "เชื้อบ่อย: Streptococcus (S. anginosus/ milleri group) · S. aureus · anaerobe · gram-negative",
+   "ไซนัส/ ฟัน → frontal lobe · หู → temporal lobe/ cerebellum",
+   "ทางเลือด (IE, CHD เขียว, ฝีปอด) → หลายก้อน แนว MCA",
+   "หลังผ่าตัด/ บาดเจ็บ → S. aureus (MRSA), gram-negative",
+   "ภูมิต่ำ: Toxoplasma · Nocardia · Cryptococcus · Aspergillus · TB",
+   "Empirical: ceftriaxone + metronidazole ± vancomycin"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจปานกลาง–สูง — คีย์ระบุ S. pneumoniae แต่ช้อยเขียน Streptococcus species ซึ่งถูกกว่า",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ช้อยต้นฉบับเขียน S. pneumoniae ซึ่งไม่ใช่ streptococcus ที่พบบ่อยในฝี จึงเกลาเป็น Streptococcus species ให้ถูกต้อง",
+  "mnemonic": "<b>'ฝีในสมอง = Strep (milleri) + Staph · ภูมิต่ำค่อยนึก Toxo/ Nocardia/ รา'</b>",
+  "guide": "Brouwer MC et al. Brain abscess (N Engl J Med 2014;371:447); ESCMID Guideline: Diagnosis and treatment of brain abscess (Clin Microbiol Infect 2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก TOF ที่ยังไม่ผ่าตัด ไข้ ปวดศีรษะ ชักครั้งแรก → ฝีในสมองจาก right-to-left shunt: เชื้อมักเป็น viridans/S. anginosus streptococci ร่วม anaerobes",
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV CD4 50 มีก้อน ring-enhancing หลายก้อนที่ basal ganglia → toxoplasmosis: เริ่ม pyrimethamine + sulfadiazine แล้วดูการตอบสนอง"
+   "ไซนัสหน้าผากอักเสบแล้วฝีที่ frontal lobe → S. anginosus group + anaerobe",
+   "หลังผ่าตัดกะโหลกเกิดฝี → S. aureus ให้ vancomycin ร่วม",
+   "ผู้ป่วยปลูกถ่ายไตมีฝีในสมองและปอด → Nocardia ให้ TMP-SMX"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 28 แถว Neuro 14 — ตัวพิมพ์: <b>Common pathogen in brain abscess — A. Staphylococcus aureus และ Streptococcus pneumoniae B. Pseudomonas aeruginosa และ Streptococcus pneumoniae C. Escherichia coli และ Klebsiella D. Nocardia และ Cryptococcus E. Candida และ Aspergillus</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 28 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p28",
+   "ks79d_neuro"
   ]
  },
  "MDCU79|RoD|Neuro ไม่มีเลข 1": {
-  "interp": "ถามการรักษาใหม่ที่อยู่ในการศึกษาและน่าสนใจสำหรับเนื้องอกสมองชนิดร้าย · มีช้อย “ทุกข้อ”",
-  "why": "<b>คีย์: ไม่มีคีย์ (เฉลยย่อ Neurosurgery มีแค่ข้อ 1–14)</b><br><b>นอกสไลด์:</b> ทั้งสามเป็น immunotherapy ที่อยู่ในการศึกษาและมีผลระยะแรกที่น่าสนใจในเนื้องอกสมองชนิดร้าย จึงตอบ “ทุกข้อ”",
+  "interp": "ถามการรักษาแนวใหม่ที่<b>มีแนวโน้มดี (promising)</b> สำหรับเนื้องอกสมองชนิดร้าย",
+  "why": "การรักษามาตรฐานของ glioblastoma (ผ่าตัด + Stupp: RT + temozolomide) ยังได้ผลจำกัด จึงมีการศึกษา <b>immunotherapy</b> หลายแนวทางที่ถือว่ามีแนวโน้มดี: (1) <b>Dendritic cell vaccine</b> (เช่น DCVax-L) ฝึกเซลล์ภูมิคุ้มกันให้จำแอนติเจนของเนื้องอก มีการศึกษาระยะ 3 (2) <b>CAR T-cell therapy</b> ดัดแปลง T cell ให้จับเป้าเช่น EGFRvIII, IL13Rα2, B7-H3, GD2 (ได้ผลน่าสนใจใน diffuse midline glioma H3K27M ในเด็ก) (3) <b>Immune checkpoint inhibitor</b> (anti-PD-1) ผลใน GBM ทั่วไปยังไม่ชัด แต่มีประโยชน์ในกลุ่ม hypermutated/ MMR-deficient และ brain metastasis จาก melanoma/ ปอด · ทั้งสามจึงเป็น promising therapy → <b>ถูกทุกข้อ</b> · ไฟล์ 79D หน้า 28 ผู้จดพิมพ์ช้อย <b>\"4. ถูกทุกข้อ\"</b> · หน้า 36 เฉลยอย่างย่อของ Neurosurgery มีแค่ 14 ตัว ข้อนี้จึงไม่มีคีย์",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะ dendritic cell vaccine (กระตุ้น T cell ด้วย antigen จากก้อนของผู้ป่วยเอง) เป็นเพียงหนึ่งในหลายแนวทาง immunotherapy ที่อยู่ในการศึกษา",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะ CAR T-cell (T cell ดัดแปลงให้จับ antigen บนเซลล์ glioma เช่น GD2 ใน diffuse midline glioma) เป็นเพียงหนึ่งในหลายแนวทาง immunotherapy ที่อยู่ในการศึกษา",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะ checkpoint inhibitor (ปลดเบรก PD-1/CTLA-4 ของ T cell) เป็นเพียงหนึ่งในหลายแนวทาง immunotherapy ที่อยู่ในการศึกษา — ศึกษาร่วมกับวิธีอื่นในก้อนปฐมภูมิ และได้ผลแล้วใน brain metastases จาก melanoma",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ “ไม่มีข้อใดถูก” เป็นคำตอบ เพราะทั้งสามแนวทางมีผลการศึกษาระยะแรกที่น่าสนใจจริง"
+   "A": "Dendritic cell vaccine เป็นหนึ่งในแนวทางที่มีแนวโน้มดี แต่ไม่ใช่เพียงข้อเดียว · จะถูกถ้าถามชนิดวัคซีนที่ใช้เซลล์นำเสนอแอนติเจนจากผู้ป่วยเองในการศึกษา DCVax-L",
+   "B": "CAR T-cell มีแนวโน้มดีโดยเฉพาะ diffuse midline glioma ในเด็ก แต่ไม่ใช่เพียงข้อเดียว · จะถูกถ้าถามการรักษาที่ดัดแปลง T cell ให้จับ GD2 ใน diffuse midline glioma H3K27M",
+   "C": "Checkpoint inhibitor มีบทบาทใน brain metastasis จาก melanoma และ glioma ที่ hypermutated แต่ไม่ใช่เพียงข้อเดียว · จะถูกถ้าถามยาที่ได้ผลกับ brain metastasis ของ melanoma (ipilimumab + nivolumab)",
+   "E": "ทั้งสามแนวทางอยู่ในการศึกษาและมีแนวโน้มดี จึงไม่ใช่ \"ไม่มีข้อใดถูก\" · จะถูกถ้าไม่มีสถานการณ์ที่ทั้งสามแนวทางไม่ถูกนับเป็นการรักษาแนวใหม่"
   },
-  "trap": "เลือก E เพราะรู้ว่ายังไม่มี immunotherapy ใดเป็นมาตรฐานของ glioblastoma — คำถามถาม “promising emerging” (อยู่ในการศึกษา) ไม่ได้ถามการรักษามาตรฐาน",
+  "trap": "เลือกข้อเดียวเพราะคิดว่ามีวิธีที่ดีที่สุดวิธีเดียว — โจทย์ถาม promising therapy ซึ่งครอบคลุมทั้งสามแนว",
   "summary": [
-   "<b>นอกสไลด์:</b> แนวทางใหม่ที่อยู่ในการศึกษา: immunotherapy (วัคซีน, CAR T-cell, checkpoint inhibitor), oncolytic virus และยาตรงเป้าตามยีนของก้อน",
-   "<b>นอกสไลด์:</b> มาตรฐานปัจจุบันของ glioblastoma: ผ่าตัดเอาออกมากที่สุดอย่างปลอดภัย → ฉายรังสีร่วม temozolomide แล้วให้ temozolomide ต่อ (Stupp) ± tumor treating fields · MGMT promoter methylation บอกว่าได้ประโยชน์จาก temozolomide"
+   "GBM มาตรฐาน: ผ่าตัดมากที่สุด + RT + temozolomide (Stupp) ± TTFields",
+   "MGMT promoter methylation → ตอบสนอง temozolomide ดีกว่า",
+   "Dendritic cell vaccine: DCVax-L (ระยะ 3)",
+   "CAR T: EGFRvIII · IL13Rα2 · B7-H3 · GD2 (DMG H3K27M ในเด็ก)",
+   "Checkpoint inhibitor: brain mets จาก melanoma/ ปอด · glioma hypermutated/ MMR-deficient",
+   "IDH-mutant glioma: vorasidenib (IDH inhibitor) อนุมัติ 2024"
   ],
-  "opinion": "ไม่มีคีย์ในไฟล์ — ตอบ D · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลาง — ไฟล์ไม่มีคีย์ (เฉลยอย่างย่อ Neurosurgery มี 14 ตัว) ผู้จดพิมพ์ช้อย \"ถูกทุกข้อ\" ไว้ และทั้งสามแนวทางอยู่ในงานวิจัยที่มีแนวโน้มดี แม้ประสิทธิผลใน GBM ทั่วไปยังจำกัด",
+  "mnemonic": "<b>'Brain tumor immunotherapy: วัคซีน · CAR T · checkpoint = ถูกหมด'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Central Nervous System Cancers v.2024; EANO Guidelines on diffuse gliomas of adulthood (Nat Rev Clin Oncol 2021;18:170)",
   "variants": [
-   "<b>นอกสไลด์:</b> glioma IDH-mutant grade 2 หลังผ่าตัด ยังไม่จำเป็นต้องฉายรังสีทันที → vorasidenib (IDH inhibitor)",
-   "<b>นอกสไลด์:</b> glioblastoma กลับเป็นซ้ำหลังรักษามาตรฐานครบ → แนะนำเข้าร่วมงานวิจัยการรักษาใหม่ เป็นทางเลือกสำคัญ"
+   "GBM หลังผ่าตัด → RT 60 Gy + temozolomide แล้ว temozolomide 6 รอบ",
+   "Melanoma กระจายไปสมองไม่มีอาการ → ipilimumab + nivolumab",
+   "Grade 2 IDH-mutant astrocytoma หลังผ่าตัด → พิจารณา vorasidenib"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 28 แถว Neuro ไม่มีเลข 1 — ตัวพิมพ์: <b>(แถวท้าย Neuro ไม่มีเลขข้อ) promising brain tumor therapy — 1. dendritic vaccine 2. car t cell 3. checkpoint inhibitor 4. ถูกทุกข้อ</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Neurosurgery\" — \"1 C · 2 A · 3 A · 4 A · 5 B · 6 A · 7 A · 8 A · 9 D · 10 A · 11 B · 12 A · 13 B · 14 A\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 28 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p28",
+   "ks79d_neuro"
   ]
  },
  "MDCU79|RoD|Ped 1": {
-  "interp": "ทารกขี้เทาออกช้า ท้องอืดมากขึ้น ให้ภาพ contrast enema · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B Hirschsprung disease</b><br><b>นอกสไลด์:</b> ภาพ: rectum และ sigmoid ขนาดเล็กกว่า colon ส่วนต้นที่โป่งมาก ลูกศรชี้รอยต่อขนาด (transition zone) — ส่วนที่แคบคือลำไส้ที่ไม่มี ganglion cell บีบตัวไม่คลาย ส่วนที่โป่งคือลำไส้ปกติเหนือจุดนั้น · ร่วมกับทารกถ่ายขี้เทาช้าเกิน 48 ชม.",
+  "interp": "ทารกแรกเกิดถ่ายขี้เทาช้าและท้องอืดมากขึ้น contrast enema ตามรูป → ถามวินิจฉัย",
+  "why": "ทารก<b>ถ่ายขี้เทาช้ากว่า 24–48 ชม.</b> + ท้องอืดมากขึ้น + contrast enema เห็น<b>ช่วงลำไส้ส่วนปลายแคบ (rectum/ sigmoid) ต่อกับลำไส้ส่วนบนที่โป่ง = transition zone</b> และ<b>rectosigmoid ratio &lt; 1</b> (rectum เล็กกว่า sigmoid) = <b>Hirschsprung disease</b> · เกิดจากเซลล์ปมประสาท (ganglion cell) ไม่เคลื่อนลงมาถึงส่วนปลาย ลำไส้ส่วนนั้นจึงบีบไล่ไม่ได้ · ยืนยันด้วย <b>rectal suction biopsy</b>: ไม่มี ganglion cell + เส้นประสาทหนา + acetylcholinesterase เพิ่ม/ calretinin ลบ · รักษา: ล้างลำไส้ แล้วผ่าตัด pull-through (transanal endorectal, Soave/ Duhamel/ Swenson) · ภาวะแทรกซ้อนอันตราย: <b>Hirschsprung-associated enterocolitis</b> · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Pediatric Surgery 1 B\"</b> = Hirschsprung disease ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าทารกเป็น cystic fibrosis enema เห็น colon เล็กทั้งเส้น (microcolon) และสารทึบย้อนเข้า ileum ส่วนปลายที่มีก้อนขี้เทาเหนียวเป็นเม็ด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า enema เห็น colon ขนาดปกติมีแท่งขี้เทาอุดอยู่ หลังสวนถ่ายออกแล้วถ่ายได้ปกติต่อเนื่อง (มักพบในทารกที่แม่เป็นเบาหวาน)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าทารกไม่ถ่ายขี้เทาเลย AXR ลำไส้เล็กโป่งหลายห่วงจนถึงจุดตัน enema เห็น microcolon และสารทึบไม่ผ่านไปถึงห่วงที่โป่ง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กเคยถ่ายขี้เทาภายใน 48 ชม. หลังคลอด เริ่มท้องผูกช่วงเริ่มอาหารเสริมหรือหัดขับถ่าย มีพฤติกรรมกลั้น และคลำ rectum เต็มไปด้วยอุจจาระ"
+   "A": "Meconium ileus = ขี้เทาเหนียวอุด terminal ileum ในทารก <b>cystic fibrosis</b> enema เห็น <b>microcolon</b> และก้อนขี้เทาใน ileum ฟิล์มเห็น soap-bubble · จะถูกถ้าทารกที่พี่เป็น CF ท้องอืด enema เห็น microcolon และขี้เทาเป็นเม็ดใน ileum",
+   "C": "Meconium plug มีขี้เทาอุดที่ลำไส้ใหญ่ enema เป็นทั้งการวินิจฉัยและรักษา (ถ่ายออกแล้วหาย) มักในทารกแม่เบาหวาน/ ได้ MgSO4 (small left colon) · จะถูกถ้าหลัง enema ถ่ายขี้เทาเป็นแท่งยาวแล้วอาการหายสนิท",
+   "D": "Ileal atresia มีลำไส้เล็กปลายตัน enema เห็น<b>microcolon (unused colon)</b> ฟิล์มเห็นลำไส้เล็กโป่งหลายห่วง อาเจียนน้ำดีตั้งแต่วันแรก · จะถูกถ้าทารกอาเจียนน้ำดีวันแรก ท้องอืดมาก enema microcolon ไม่มีสารทึบเข้า ileum",
+   "E": "ท้องผูกแบบ functional พบในเด็กโต ไม่ใช่ทารกแรกเกิดที่ไม่ถ่ายขี้เทา · จะถูกถ้าเด็ก 3 ขวบกลั้นอุจจาระ ถ่ายเป็นก้อนแข็ง ขี้เล็ดในกางเกง ถ่ายขี้เทาปกติตอนแรกเกิด"
   },
-  "trap": "คิดว่าส่วนที่โป่งคือส่วนที่เป็นโรค — ใน Hirschsprung ส่วนที่แคบต่างหากที่ผิดปกติ · ทารกแรกเกิด transition zone อาจยังไม่ชัด enema ปกติจึงตัดโรคไม่ได้",
+  "trap": "สับสน Hirschsprung กับ meconium plug — plug หายหลัง enema · Hirschsprung มี transition zone และต้อง biopsy ยืนยัน",
   "summary": [
-   "<b>นอกสไลด์:</b> ยืนยันด้วย rectal suction biopsy: ไม่พบ ganglion cell + เส้นประสาทหนา (calretinin ลบ) · ระหว่างรอผ่าตัด สวนล้าง rectum เป็นประจำ → pull-through (ส่วนใหญ่ทำทางทวารหนักครั้งเดียว) · enterocolitis รุนแรงหรือ aganglionosis ยาว → ทำ stoma ก่อน"
+   "Hirschsprung: ไม่มี ganglion cell ส่วนปลาย · ขี้เทาช้า > 48 ชม. ท้องอืด อาเจียนน้ำดี",
+   "PR: ลมและอุจจาระพุ่งออก (blast sign)",
+   "Enema: transition zone · rectosigmoid ratio &lt; 1 (ทำก่อน rectal washout)",
+   "ยืนยัน: rectal suction biopsy (ไม่มี ganglion · AChE เพิ่ม · calretinin ลบ)",
+   "รักษา: rectal washout → pull-through",
+   "Enterocolitis: ไข้ ท้องอืด ถ่ายเหลวเหม็น → ช็อกได้ · ล้างลำไส้ + ATB"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ต้นฉบับจดแค่ \"มี Ba enema มา diag\" จึงเติมประวัติให้สอดคล้อง",
+  "mnemonic": "<b>'ขี้เทาช้า + ปลายแคบต่อโป่ง (transition zone) = Hirschsprung → ดูดชิ้นเนื้อ'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Hirschsprung disease; APSA Hirschsprung Disease Interest Group Guidelines (J Pediatr Surg 2017–2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก Down syndrome ขี้เทาออกหลัง 48 ชม. ตรวจทางทวารแล้วลมและอุจจาระพุ่งออกมา (blast sign) → Hirschsprung",
-   "<b>นอกสไลด์:</b> เด็ก 3 ปีท้องผูกตั้งแต่แรกเกิด ท้องโต น้ำหนักน้อย ตรวจทางทวาร rectum ว่างไม่มีอุจจาระ → Hirschsprung (ไม่ใช่ functional constipation)"
+   "ทารก CF ท้องอืด enema microcolon ขี้เทาเป็นเม็ดใน ileum → meconium ileus ใช้ gastrografin enema",
+   "ทารกแม่เบาหวาน enema แล้วถ่ายขี้เทาเป็นแท่งยาว อาการหาย → meconium plug/ small left colon",
+   "เด็ก Hirschsprung ไข้ ท้องอืด ถ่ายเหลวเหม็นมาก → Hirschsprung-associated enterocolitis"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 28 แถว Ped 1 — ตัวพิมพ์: <b>มี Ba enema มา diag — 1. Meconium ileus 2. Hirschsprung disease 3. Meconium plug syndrome 4. Ileal atresia 5. Functional constipation</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Pediatric Surgery\" — \"1 B · 2 B · 3 A · 4 A · 5 A · 6 A · 7 C · 8 C · 9 A · 10 A · 11 A · 12 B · 13 B · 14 B · 15 A · 16 A · 17 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 28 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p28",
+   "ks79d_ped"
   ]
  },
  "MDCU79|RoD|Ped 2": {
-  "interp": "ท้องอืด คลื่นไส้อาเจียน ให้ภาพ AXR · ถามการวินิจฉัย",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: B Sigmoid volvulus</b><br><b>นอกสไลด์:</b> ภาพ: ลำไส้ใหญ่โป่งมากเป็นห่วงรูปตัว U กลับหัวจาก pelvis ขึ้นไปถึงช่องท้องส่วนบน ไม่มี haustra ผนังสองข้างของห่วงชิดกันเป็นเส้นตรงกลางชี้ลง pelvis (coffee bean) — ลักษณะของ sigmoid volvulus",
+  "interp": "ผู้ป่วยท้องอืดมาก คลื่นไส้อาเจียน ฟิล์มท้องตามรูป → ถามวินิจฉัย",
+  "why": "ฟิล์มเห็น<b>ลำไส้ใหญ่โป่งมากเป็นรูปตัว U กลับหัว (inverted U/ coffee bean sign)</b> ชี้จากอุ้งเชิงกรานขึ้นไปทางช่องท้องด้านขวาบน ผนังสองข้างชนกันเป็นเส้นกลาง ไม่มีรอย haustra = <b>sigmoid volvulus</b> · พบในผู้สูงอายุ ผู้ป่วยติดเตียง ท้องผูกเรื้อรัง ทางจิตเวช หรือคนที่ sigmoid ยาวและ mesentery แคบ (megacolon จาก Chagas) · รักษา: ถ้าไม่มี peritonitis/ ลำไส้ขาดเลือด → <b>endoscopic detorsion (sigmoidoscopy) + ใส่ rectal tube</b> แล้ว<b>ผ่าตัด sigmoidectomy ใน admission เดียวกัน</b> เพราะกลับเป็นซ้ำสูง · มี peritonitis/ เนื้อตาย → ผ่าตัดด่วน (Hartmann) · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Pediatric Surgery 2 B\"</b> = Sigmoid volvulus ตรงกับคำตอบ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้า AXR เห็น cecum โป่งย้ายไปกลางท้องหรือ LUQ ยอดชี้ไป LUQ (จุดบิดอยู่ RLQ) ร่วมลำไส้เล็กโป่ง และ colon ส่วนปลายแฟบ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก 6 เดือนถึง 3 ปี ปวดท้องเป็นพัก ถ่ายเป็นมูกเลือด คลำได้ก้อนรูปไส้กรอก US เห็น target sign",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกอาเจียนน้ำดีเฉียบพลัน AXR ลมในลำไส้น้อย upper GI เห็น duodenojejunal junction อยู่ผิดที่และลำไส้บิดเป็นเกลียว (corkscrew)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย ulcerative colitis หรือ C. difficile มีไข้ ชีพจรเร็ว และ AXR เห็น transverse colon โป่งเกิน 6 cm คงรูปท่อ ผนังบวม"
+   "A": "Cecal volvulus: ลำไส้โป่งรูปเมล็ดกาแฟชี้ไปทาง<b>ซ้ายบน</b> (left upper quadrant) ลำไส้ใหญ่ส่วนปลายแฟบ · จะถูกถ้าหญิงอายุ 40 ปีท้องอืด ฟิล์มเห็นห่วงลำไส้โป่งใหญ่อยู่ซ้ายบน ไม่มีลมใน colon ส่วนปลาย",
+   "C": "Intussusception พบในทารก 6 เดือน–3 ปี ปวดเป็นพัก อุจจาระเยลลี่ US เห็น target sign ฟิล์มไม่เห็น coffee bean · จะถูกถ้าทารก 9 เดือนร้องเป็นพัก ถ่ายมูกเลือด US เห็น target sign",
+   "D": "Midgut volvulus จาก malrotation พบในทารกแรกเกิด <b>อาเจียนน้ำดี</b> UGI เห็น corkscrew ฟิล์มมัก gasless/ double bubble · จะถูกถ้าทารก 3 วันอาเจียนเขียว UGI เห็นลำไส้เล็กบิดเป็นเกลียว",
+   "E": "Toxic megacolon คือลำไส้ใหญ่โป่ง > 6 cm ใน UC/ C. difficile ผู้ป่วยไข้ ชีพจรเร็ว ไม่ใช่รูปตัว U กลับหัว · จะถูกถ้าผู้ป่วย UC กำเริบไข้สูง ชีพจร 130 transverse colon โป่ง 8 cm"
   },
-  "trap": "ข้ออยู่หมวด Pediatric Surgery จึงไปเลือก midgut volvulus — ภาพเป็นห่วงลำไส้ใหญ่ขนาดใหญ่มากไม่มี haustra (ไม่ใช่ลำไส้เล็ก) และกระดูกเชิงกรานเป็นของผู้ใหญ่ · midgut volvulus มักลมในลำไส้น้อย",
+  "trap": "สับสน sigmoid กับ cecal volvulus — sigmoid ชี้ขวาบนจากอุ้งเชิงกราน · cecal ชี้ซ้ายบน",
   "summary": [
-   "<b>นอกสไลด์:</b> ภาพ sigmoid volvulus: AXR ห่วงตัว U กลับหัวไม่มี haustra ยอดชี้ RUQ/ใต้กะบังลม ผนังที่ชิดกันชี้ลง pelvis ซ้าย · contrast enema เห็นปลายแหลม (bird’s beak) · CT เห็นมัดหลอดเลือดบิดเป็นเกลียว (whirl)",
-   "<b>นอกสไลด์:</b> sigmoid volvulus ในเด็กพบน้อย มักร่วม Hirschsprung ความพิการทางระบบประสาท หรือท้องผูกเรื้อรัง → หลังแก้บิดในเด็กต้องตัดชิ้นเนื้อ rectum หา Hirschsprung ก่อนผ่าตัดถาวร"
+   "Sigmoid volvulus: ผู้สูงอายุ · ติดเตียง · ท้องผูกเรื้อรัง · coffee bean/ bent inner tube ชี้ขวาบน",
+   "ไม่มี peritonitis → endoscopic detorsion + rectal tube → elective sigmoidectomy ใน admission เดียวกัน",
+   "Peritonitis/ เนื้อตาย → ผ่าตัด (Hartmann)",
+   "Cecal volvulus: อายุน้อยกว่า · ชี้ซ้ายบน · ส่องคลายไม่ได้ → right hemicolectomy",
+   "CT: whirl sign · bird's beak",
+   "กลับเป็นซ้ำหลังคลายอย่างเดียว ~50–60%"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B (เฉลยย่อ) · มั่นใจปานกลาง–สูง — ผู้จดเติมโจทย์ด้วย AI และเว้นผล film ไว้ จึงตอบจากภาพ (ภาพเป็นผู้ใหญ่ แม้อยู่หมวด Pediatric Surgery)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์ · ข้อนี้อยู่ในหมวด Ped ของไฟล์แต่ sigmoid volvulus พบในผู้ใหญ่เป็นหลัก จึงเขียน stem เป็น \"ผู้ป่วย\"",
+  "mnemonic": "<b>'เมล็ดกาแฟชี้ขวาบน = Sigmoid · ชี้ซ้ายบน = Cecum'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction (Dis Colon Rectum 2021;64:1046)",
   "variants": [
-   "<b>นอกสไลด์:</b> AXR ท่านอน ลำไส้เล็กโป่งเรียงเป็นขั้นบันไดกลางท้อง ไม่มีลมใน colon ผู้ป่วยเคยผ่าตัดช่องท้อง → small bowel obstruction จากพังผืด",
-   "<b>นอกสไลด์:</b> ผู้สูงอายุอาเจียน ท้องอืด AXR ลำไส้เล็กโป่งร่วมลมในทางเดินน้ำดี → gallstone ileus"
+   "Sigmoid volvulus ไม่มี peritonitis → sigmoidoscopic detorsion แล้ว sigmoidectomy ก่อนกลับบ้าน",
+   "ห่วงลำไส้โป่งอยู่ซ้ายบน ส่องคลายไม่ได้ → cecal volvulus ทำ right hemicolectomy",
+   "Sigmoid volvulus มีไข้ กดเจ็บทั่วท้อง ส่องเห็นเยื่อบุดำ → ผ่าตัด Hartmann"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 29 แถว Ped 2 — ตัวพิมพ์: <b>ผู้ป่วยมีท้องอืดและคลื่นไส้อาเจียน film ช่องท้อง [ภาพ] พบ (ว่าง) การวินิจฉัยคือข้อใด — A. Cecal volvulus B. Sigmoid volvulus C. Intussusception D. Midgut volvulus E. Toxic megacolon</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Pediatric Surgery\" — \"1 B · 2 B · 3 A · 4 A · 5 A · 6 A · 7 C · 8 C · 9 A · 10 A · 11 A · 12 B · 13 B · 14 B · 15 A · 16 A · 17 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")<br>รูปในไฟล์: มีรูปประกอบในข้อนี้ (แสดงในโจทย์)",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 29 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p29",
+   "ks79d_ped"
   ]
  },
  "MDCU79|RoD|Ped 3": {
-  "interp": "ทารกคลอดก่อนกำหนด งอแง ท้องอืด ผนังหน้าท้องแดง = necrotizing enterocolitis (NEC) · ถามลักษณะทางรังสีที่เข้ากับและจำเพาะที่สุด",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Pneumatosis intestinalis</b><br><b>นอกสไลด์:</b> ลมในผนังลำไส้เกิดจากเชื้อสร้างก๊าซแทรกในผนังที่ขาดเลือด เป็นสัญญาณที่ใช้ยืนยัน NEC (modified Bell stage II) · ลำไส้โป่งอย่างเดียวพบได้ทุกภาวะ",
+  "interp": "ทารกคลอดก่อนกำหนด หงุดหงิด ท้องอืด <b>ผนังหน้าท้องแดง</b> → ถามภาพที่เข้ากับโรคและ<b>จำเพาะที่สุด</b>",
+  "why": "ทารกก่อนกำหนด (หลังเริ่มให้นม) ท้องอืด ไม่รับนม เลือดปนอุจจาระ ผนังหน้าท้องแดง = <b>necrotizing enterocolitis (NEC)</b> · ภาพที่<b>จำเพาะ (pathognomonic)</b> คือ <b>pneumatosis intestinalis</b> = ลมในผนังลำไส้ (เป็นฟองหรือเส้นโค้งตามผนัง) จากเชื้อสร้างก๊าซเข้าไปในผนังที่เสียหาย · ภาพอื่นที่บอกความรุนแรง: <b>portal venous gas</b> (รุนแรงขึ้น) และ <b>pneumoperitoneum</b> (ทะลุ → ผ่าตัด) · Bell staging: I สงสัย · II pneumatosis · III ทะลุ/ ช็อก · รักษา: <b>NPO, NG decompression, IV antibiotic, TPN</b> · ทะลุ → laparotomy หรือ peritoneal drain · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Pediatric Surgery 3 A\"</b> = Pneumatosis intestinalis ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกที่มีก้อนแข็งเจ็บที่ขาหนีบ (incarcerated inguinal hernia) อาเจียน ท้องอืด — ลำไส้เล็กโป่งหลายห่วงมี air-fluid levels จากการอุดตันเชิงกล",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกอาเจียนตั้งแต่วันแรกหลังคลอด ท้องไม่อืด มี Down syndrome — duodenal atresia",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าทารกครบกำหนดไม่ถ่ายขี้เทา ท้องอืด สงสัย meconium ileus หรือ ileal atresia — enema เห็น colon เล็กที่ไม่เคยใช้งาน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกน้ำลายฟูมมาก ใส่สาย NG ไม่ผ่าน และท้องแฟบไม่มีลมในทางเดินอาหาร (esophageal atresia ที่ไม่มี fistula)"
+   "B": "ลำไส้โป่งมี air-fluid level หลายระดับพบใน NEC ระยะแรกได้ แต่<b>ไม่จำเพาะ</b> เห็นในลำไส้อุดตันทุกชนิด · จะถูกถ้าถามภาพของลำไส้เล็กอุดตันจาก adhesion ในผู้ใหญ่",
+   "C": "Double bubble = กระเพาะและ duodenum โป่ง พบใน <b>duodenal atresia</b> (Down syndrome) อาเจียนวันแรก · จะถูกถ้าทารก Down syndrome อาเจียนน้ำดีวันแรก ฟิล์มเห็นสองฟองไม่มีลมส่วนปลาย",
+   "D": "Microcolon พบใน meconium ileus หรือ ileal atresia (ลำไส้ใหญ่ไม่เคยใช้) · จะถูกถ้า contrast enema ในทารก CF เห็นลำไส้ใหญ่เล็กมาก",
+   "E": "Gasless abdomen พบใน esophageal atresia ที่ไม่มี TEF หรือ midgut volvulus ระยะท้าย · จะถูกถ้าทารกน้ำลายฟูมปาก ใส่สายไม่ลง ฟิล์มไม่มีลมในท้องเลย"
   },
-  "trap": "เลือก B เพราะลำไส้โป่งร่วม air-fluid levels พบบ่อยที่สุดใน NEC — พบบ่อยไม่เท่ากับจำเพาะ · ฟองลมของ pneumatosis อยู่ตามผนังลำไส้เป็นจุดหรือเส้นโค้ง อย่าสับสนกับอุจจาระปนลม",
+  "trap": "เลือก air-fluid level เพราะเห็นท้องอืด — โจทย์ถามภาพที่ <b>จำเพาะที่สุด</b> = pneumatosis intestinalis",
   "summary": [
-   "<b>นอกสไลด์:</b> modified Bell ตามภาพรังสี: I สงสัย (ลำไส้โป่งไม่จำเพาะ) · IIA pneumatosis · IIB + portal venous gas ± น้ำในท้อง · IIIA อาการหนัก ลำไส้ยังไม่ทะลุ · IIIB ลมใต้กะบังลม · รักษา: งดนม NG decompression ยาปฏิชีวนะราว 7–14 วันตามระยะ · ทะลุหรือแย่ลงแม้รักษา → ผ่าตัด"
+   "NEC: ทารกก่อนกำหนด หลังเริ่มให้นม · ท้องอืด เลือดปนอุจจาระ ไม่รับนม",
+   "ภาพ: pneumatosis (จำเพาะ) · portal venous gas · pneumoperitoneum (ทะลุ)",
+   "Bell staging I–III",
+   "รักษา: NPO · NG · IV ATB (ครอบ anaerobe) · TPN",
+   "ทะลุ/ ไม่ดีขึ้น → laparotomy หรือ peritoneal drain (ทารกน้ำหนักน้อยมาก)",
+   "ป้องกัน: นมแม่ · probiotics · ค่อย ๆ เพิ่มนม"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ Holcomb",
+  "mnemonic": "<b>'Preterm + ท้องอืด + ลมในผนังลำไส้ = NEC'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Necrotizing enterocolitis; Modified Bell staging criteria (Walsh & Kliegman, Pediatr Clin North Am 1986)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก NEC ยังไม่มีลมใต้กะบังลม แต่ US ช่องท้องเห็นผนังลำไส้บาง ไม่มีเลือดไปเลี้ยง และน้ำในท้องมีตะกอน → ลำไส้ตาย: ผ่าตัด",
-   "<b>นอกสไลด์:</b> ทารกครบกำหนดที่มีหัวใจพิการชนิด hypoplastic left heart ท้องอืด ถ่ายเป็นเลือด → NEC (ในทารกครบกำหนดมักพบร่วมโรคหัวใจ)"
+   "ทารก NEC ฟิล์มเห็นลมใต้กะบังลม → ทะลุ ผ่าตัด/ peritoneal drain",
+   "ทารก Down syndrome อาเจียนน้ำดีวันแรก ฟิล์ม double bubble → duodenal atresia",
+   "ทารก NEC Bell IIA → NPO ATB 7–10 วัน"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 30 แถว Ped 3 — ตัวพิมพ์: <b>ทารกคลอดก่อนกำหนด (preterm) หงุดหงิด ท้องอืด ผนังหน้าท้องแดง ข้อใดเป็น imaging finding ที่เข้ากับโรคนี้และจำเพาะที่สุด — A. Pneumatosis intestinalis B. Dilated bowel loops with different air-fluid levels C. Double bubble sign D. Microcolon E. Gasless abdomen</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Pediatric Surgery\" — \"1 B · 2 B · 3 A · 4 A · 5 A · 6 A · 7 C · 8 C · 9 A · 10 A · 11 A · 12 B · 13 B · 14 B · 15 A · 16 A · 17 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 30 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p30",
+   "ks79d_ped"
   ]
  },
  "MDCU79|RoD|Ped 4": {
-  "interp": "เด็กชาย 3 ปี หนังหุ้มปลายรูดไม่ลง ไม่มีแผลเป็น ไม่เคยอักเสบ = physiologic phimosis · ถามการจัดการ",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A Topical steroid และให้คำแนะนำพ่อแม่</b><br><b>นอกสไลด์:</b> หนังหุ้มปลายรูดไม่ลงเป็นเรื่องปกติในเด็กเล็ก ส่วนใหญ่แยกได้เองเมื่อโตขึ้น · อธิบายพ่อแม่ไม่ให้รูดแรง ถ้ากังวลหรือมีอาการทา steroid บาง ๆ ที่ปลายหนัง (เช่น betamethasone) วันละ 2 ครั้ง 4–8 สัปดาห์ ส่วนใหญ่ได้ผล",
+  "interp": "เด็กชาย 3 ปีมี phimosis <b>ไม่มีแผลเป็น และไม่เคยมี balanitis</b> → ถามการจัดการ",
+  "why": "หนังหุ้มปลายรูดไม่ลงในเด็กเล็กส่วนใหญ่เป็น <b>physiologic phimosis</b> (ปกติ) เพราะหนังหุ้มปลายยังติดกับ glans และจะค่อย ๆ แยกออกเองตามวัย (ส่วนใหญ่รูดได้เมื่ออายุ 3–5 ปี ถึงวัยรุ่น) · ถ้าไม่มีแผลเป็น (ไม่ใช่ pathologic/ BXO) และไม่มีอาการ → <b>ให้คำแนะนำพ่อแม่</b> ห้ามรูดแรง ทำความสะอาดปกติ และถ้ากังวลหรือรูดลำบากใช้ <b>topical corticosteroid</b> (0.05–0.1% betamethasone) ทาวันละ 2 ครั้ง 4–8 สัปดาห์ ได้ผล ~80–90% · ขลิบเมื่อเป็น pathologic phimosis (แผลเป็น/ BXO) balanoposthitis ซ้ำ UTI ซ้ำในเด็กที่มีความผิดปกติทางเดินปัสสาวะ หรือยาไม่ได้ผล · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Pediatric Surgery 4 A\"</b> = Topical steroid และให้คำแนะนำพ่อแม่ ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าปลายหนังหุ้มเป็นวงแผลเป็นสีขาวแข็งไม่ยืด (pathologic phimosis จาก lichen sclerosus/BXO) หรือทา steroid เต็มที่แล้วยังตีบจนมีอาการ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การรูดหนังหุ้มปลายด้วยแรงเป็นการรักษา phimosis เพราะทำให้ปลายหนังฉีกเป็นแผลเป็น กลายเป็น pathologic phimosis และเสี่ยง paraphimosis",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ารูปลายหนังตีบมากจนปัสสาวะไม่ออกเฉียบพลันหรือมีหนองค้างใต้หนัง ต้องเปิดทางด่วนก่อน แล้วค่อยขลิบภายหลัง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก phimosis มี balanoposthitis ที่ลามเป็น cellulitis ของตัวองคชาตร่วมไข้"
+   "B": "ขลิบไม่จำเป็นใน physiologic phimosis ที่ไม่มีอาการ · จะถูกถ้าเด็กมีแผลเป็นขาวแข็งที่ปลายหนัง (BXO/ lichen sclerosus) หรือ balanoposthitis ซ้ำหลายครั้ง",
+   "C": "การรูดแรงทำให้ฉีก เลือดออก เกิดแผลเป็นจนเป็น pathologic phimosis หรือเกิด paraphimosis · จะถูกถ้าไม่มีสถานการณ์ที่แนะนำ forced retraction ในเด็ก",
+   "D": "Dorsal slit ใช้ฉุกเฉินใน paraphimosis ที่ดันกลับไม่ได้ ไม่ใช่ phimosis ไม่มีอาการ · จะถูกถ้ามี paraphimosis ที่ manual reduction ไม่สำเร็จ",
+   "E": "ยาปฏิชีวนะใช้เมื่อมี balanoposthitis หรือ UTI ผู้ป่วยไม่มีการติดเชื้อ · จะถูกถ้าปลายองคชาตบวมแดงมีหนอง ปวดเวลาปัสสาวะ"
   },
-  "trap": "ปลายหนังพองเป็นลูกโป่งตอนปัสสาวะ (ballooning) และก้อน smegma ใต้หนังไม่ใช่ข้อบ่งชี้ผ่าตัด — ที่แยก physiologic จาก pathologic คือรอยแผลเป็นขาวแข็งที่ปลายหนัง",
+  "trap": "คิดว่าเด็ก 3 ปีหนังหุ้มปลายรูดไม่ได้ผิดปกติต้องขลิบ — ส่วนใหญ่เป็นเรื่องปกติ ให้คำแนะนำ ± steroid",
   "summary": [
-   "<b>นอกสไลด์:</b> physiologic phimosis: ปลายหนังนิ่ม เวลารูดเบา ๆ บานออกเห็นเยื่อบุสีชมพู ไม่มีวงแผลเป็น · ไม่มีอาการไม่ต้องรักษา · ห้ามรูดแรง สอนให้รูดเบา ๆ ทำความสะอาดเมื่อเริ่มรูดได้เอง"
+   "Physiologic phimosis: ปกติในเด็กเล็ก · ค่อย ๆ หายเองตามวัย",
+   "Pathologic: แผลเป็น/ BXO (lichen sclerosus) · ขาวแข็งที่ปลาย",
+   "ไม่มีอาการ → คำแนะนำ ± topical steroid 4–8 สัปดาห์",
+   "ข้อบ่งชี้ขลิบ: pathologic · balanoposthitis ซ้ำ · UTI ซ้ำร่วมความผิดปกติทางเดินปัสสาวะ · ยาไม่ได้ผล",
+   "ห้ามรูดแรง",
+   "Ballooning เวลาปัสสาวะไม่ใช่ข้อบ่งชี้ขลิบโดยลำพัง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ EAU/ESPU Paediatric Urology Guidelines",
+  "mnemonic": "<b>'เด็กเล็กรูดไม่ลง ไม่มีแผลเป็น = ทา steroid + สอนพ่อแม่ (ไม่ต้องขลิบ)'</b>",
+  "guide": "EAU/ESPU Guidelines on Paediatric Urology 2024 — Phimosis",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกชายมีไข้ UTI ซ้ำร่วม VUR ระดับสูง หนังหุ้มปลายรูดไม่ได้ → พิจารณาขลิบเพื่อลด UTI ซ้ำ",
-   "<b>นอกสไลด์:</b> เด็ก 4 ปี มีก้อนสีขาวเหลืองใต้หนังหุ้มปลาย ไม่เจ็บ ไม่แดง → smegma pearl: ปล่อยไว้ หลุดเองเมื่อหนังแยก"
+   "เด็ก 6 ขวบปลายหนังขาวแข็งเป็นแผลเป็น → BXO ทำ circumcision",
+   "เด็กมี balanoposthitis ครั้งที่ 3 → circumcision",
+   "เด็ก 4 ขวบหนังรูดค้างหลัง glans บวม → paraphimosis manual reduction"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 31 แถว Ped 4 — ตัวพิมพ์: <b>เด็กชายอายุ 3 ปี มี phimosis ยังไม่มี scar และไม่มี balanitis ข้อใดเป็นการจัดการที่เหมาะสม — A. Topical steroid และให้คำแนะนำพ่อแม่ B. Circumcision C. Forced retraction ของหนังหุ้มปลาย D. Dorsal slit E. Oral antibiotics</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Pediatric Surgery\" — \"1 B · 2 B · 3 A · 4 A · 5 A · 6 A · 7 C · 8 C · 9 A · 10 A · 11 A · 12 B · 13 B · 14 B · 15 A · 16 A · 17 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 31 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p31",
+   "ks79d_ped"
   ]
  },
  "MDCU79|RoD|Ped 5": {
-  "interp": "ทารกราว 6 สัปดาห์ ตัวเหลืองไม่หาย อุจจาระซีด direct bilirubin สูง US ไม่เห็นถุงน้ำดี HIDA ไม่ขับลงลำไส้ = biliary atresia · ถามการจัดการถัดไป",
-  "why": "<b>เฉลยย่อท้ายไฟล์โจทย์: A วางแผนทำ Kasai operation ทันที</b><br><b>นอกสไลด์:</b> ทุกอย่างชี้ biliary atresia และผลของ Kasai (hepatoportoenterostomy) ดีที่สุดเมื่อทำก่อนอายุราว 60 วัน — ไปผ่าตัดเลย โดยยืนยันด้วย cholangiogram ระหว่างผ่าตัดก่อนตัดท่อน้ำดี",
+  "interp": "ทารก ~6 สัปดาห์ตัวเหลืองต่อเนื่อง อุจจาระซีด <b>direct hyperbilirubinemia</b> US ไม่เห็นถุงน้ำดี HIDA ไม่มีสารออกลำไส้ → ถามการจัดการต่อ",
+  "why": "ตัวเหลืองนานเกิน 2 สัปดาห์ + <b>อุจจาระซีด</b> + direct bilirubin สูง + <b>ไม่เห็นถุงน้ำดี (หรือ triangular cord sign)</b> + <b>HIDA ไม่มีการขับสารเข้าลำไส้</b> = <b>biliary atresia</b> จนพิสูจน์ได้ว่าไม่ใช่ · การผ่าตัด <b>Kasai portoenterostomy</b> ต้องทำ<b>เร็วที่สุด (ก่อน 60 วัน)</b> — ผลดีขึ้นมากเมื่อทำเร็ว (น้ำดีไหลได้ ~70–80% ถ้าทำก่อน 60 วัน) ทุกสัปดาห์ที่ช้าตับยิ่งแข็ง · ขั้นตอนในห้องผ่าตัดคือ intraoperative cholangiogram ยืนยัน แล้วทำ Kasai ต่อเลย · หลังผ่าตัดให้ยาปฏิชีวนะป้องกัน cholangitis ursodeoxycholic acid วิตามินที่ละลายในไขมัน · ตับวายภายหลัง → ปลูกถ่ายตับ (biliary atresia เป็นข้อบ่งชี้ปลูกถ่ายตับในเด็กที่พบบ่อยที่สุด) · ไฟล์ 79D หน้า 36 \"เฉลยอย่างย่อ\" พิมพ์ <b>\"Pediatric Surgery 5 A\"</b> = วางแผนทำ Kasai operation ทันที ตรงกับคำตอบ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกคลอดก่อนกำหนดที่ได้ TPN นาน (PN-associated cholestasis) HIDA ไม่ขับเพราะน้ำดีคั่งในตับ แต่อุจจาระยังมีสีและ US ถุงน้ำดีปกติ — ติดตามหลังเริ่มให้นม",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกยังไม่ได้ phenobarbital ก่อนทำ HIDA ครั้งแรก US มีถุงน้ำดีปกติไม่มีลักษณะ biliary atresia — ให้ phenobarbital 3–5 วันก่อนตรวจเพื่อเพิ่มการขับสาร",
-   "D": "<b>นอกสไลด์:</b> จะถูก (ส่งเปลี่ยนตับเป็นการรักษาแรก) ถ้าทารก biliary atresia มาช้ามากจนตับแข็งแล้ว มีน้ำในท้องหรือความดันพอร์ทัลสูง หรือทำ Kasai แล้วยังเหลืองไม่ลดลง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้า US เห็นท่อน้ำดีนอกตับโป่งเป็นถุง — choledochal cyst: ตัดถุงและต่อ hepaticojejunostomy"
+   "B": "การรอทำให้ช้าเกินช่วงเวลาที่ Kasai ได้ผลดี ทารกอายุ 6 สัปดาห์แล้ว · จะถูกถ้าทารก 3 สัปดาห์ตัวเหลืองแต่ indirect bilirubin สูง อุจจาระสีปกติ (breast milk jaundice)",
+   "C": "Phenobarbital ช่วยเพิ่มการขับในการทำ HIDA แต่การรอซ้ำทำให้ล่าช้า และทารกนี้ข้อมูลชี้ biliary atresia ชัดแล้ว · จะถูกถ้าผลตรวจกำกวม ต้องแยก neonatal hepatitis ในทารกอายุ 3 สัปดาห์",
+   "D": "ปลูกถ่ายตับเป็นทางเลือกเมื่อ Kasai ไม่สำเร็จ ตับวาย หรือมาช้ามาก (> 100–120 วัน มีตับแข็งรุนแรง) ไม่ใช่ขั้นแรก · จะถูกถ้าหลัง Kasai ยังเหลือง ตับแข็ง portal hypertension เลี้ยงไม่โต",
+   "E": "Choledochal cyst เห็นถุงน้ำของท่อน้ำดีชัดจาก US · ทารกรายนี้ไม่มีถุงน้ำดีและไม่มีถุงน้ำ · จะถูกถ้า US เห็นถุงน้ำต่อกับท่อน้ำดีร่วมขนาด 4 cm ทารกเหลือง"
   },
-  "trap": "คิดว่าอายุ 6 สัปดาห์ยังรอตรวจเพิ่มหรือนัดดูอาการได้ — ทุกสัปดาห์ที่รอลดโอกาสที่ Kasai จะได้ผล",
+  "trap": "รอทำ HIDA ซ้ำหรือให้ยาก่อน — biliary atresia เป็นภาวะที่เวลาสำคัญมาก ต้องผ่าตัดก่อน 60 วัน",
   "summary": [
-   "<b>นอกสไลด์:</b> ลำดับ: ตัวเหลืองเกิน 2 สัปดาห์ → total + direct bilirubin (direct &gt; 1.0 mg/dL = cholestasis) → US (ไม่มี/ถุงน้ำดีเล็ก, triangular cord sign) ± HIDA → cholangiogram ระหว่างผ่าตัด → Kasai ในการผ่าตัดเดียวกัน · ตับแข็งหรือ Kasai ไม่สำเร็จ → เปลี่ยนตับ"
+   "Biliary atresia: เหลือง > 2 สัปดาห์ · อุจจาระซีด · ปัสสาวะเข้ม · direct bilirubin สูง",
+   "US: ไม่เห็นถุงน้ำดี/ ถุงเล็กผิดรูป · triangular cord sign",
+   "HIDA: ตับรับสารดี แต่ไม่ขับเข้าลำไส้",
+   "ยืนยัน: intraoperative cholangiogram → Kasai portoenterostomy ก่อน 60 วัน",
+   "หลังผ่าตัด: ATB ป้องกัน cholangitis · UDCA · วิตามิน ADEK",
+   "Kasai ไม่สำเร็จ/ ตับวาย → liver transplantation"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A (เฉลยย่อ) · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับเฉลยอย่างย่อในไฟล์และ Holcomb · ในทางปฏิบัติจะทำ intraoperative cholangiogram ยืนยันก่อน Kasai ในการผ่าตัดเดียวกัน",
+  "mnemonic": "<b>'เหลือง + อุจจาระซีด + ไม่มีถุงน้ำดี = Biliary atresia → Kasai ก่อน 60 วัน'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary atresia; NASPGHAN/ESPGHAN Guideline: Evaluation of Cholestatic Jaundice in Infants (J Pediatr Gastroenterol Nutr 2017;64:154)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกอุจจาระซีด direct bilirubin สูง US ถุงน้ำดีปกติ HIDA ขับลงลำไส้ได้ → ไม่ใช่ biliary atresia หาสาเหตุอื่น (Alagille, ติดเชื้อ, metabolic)",
-   "<b>นอกสไลด์:</b> หลัง Kasai 2 เดือน มีไข้ เหลืองมากขึ้น อุจจาระซีดลง → cholangitis: ยาปฏิชีวนะทางหลอดเลือด"
+   "ทารก 4 สัปดาห์เหลือง indirect bilirubin สูง อุจจาระเหลืองปกติ กินนมแม่ → breast milk jaundice",
+   "ทารกเหลือง US ถุงน้ำต่อกับท่อน้ำดีร่วม → choledochal cyst ผ่าตัดตัดถุง + hepaticojejunostomy",
+   "หลัง Kasai 3 เดือน ไข้ อุจจาระซีดลงอีก → cholangitis ให้ IV ATB"
+  ],
+  "notes": "ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 31 แถว Ped 5 — ตัวพิมพ์: <b>ทารกอายุประมาณ 6 สัปดาห์ ตัวเหลืองต่อเนื่องและอุจจาระซีด (direct hyperbilirubinemia) ultrasound ไม่พบ gallbladder ทำ HIDA scan แล้วไม่พบการขับของ radiotracer เข้าสู่ลำไส้ ข้อใดเป็นการจัดการต่อไป — A. วางแผนทำ Kasai operation ทันที B. สังเกตอาการและทำ HIDA ซ้ำใน 2 สัปดาห์ C. ให้ phenobarbital และ ursodeoxycholic acid แล้วทำ HIDA ซ้ำ D. Liver transplantation ทันที E. ผ่าตัด choledochal cyst excision</b><br>ช่องเฉลยในตาราง: ว่าง<br>ไฟล์ AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf หน้า 36 \"เฉลยอย่างย่อ\" — ตัวพิมพ์: <b>\"Pediatric Surgery\" — \"1 B · 2 B · 3 A · 4 A · 5 A · 6 A · 7 C · 8 C · 9 A · 10 A · 11 A · 12 B · 13 B · 14 B · 15 A · 16 A · 17 B\"</b><br>ไฟล์ Key_AC_Sx_MCQ_79_Ro_D.pdf — ตัวพิมพ์: <b>หัว \"Key AC MCQ Gen+ subspe Sx 79 Rotate D\"</b> ตาราง \"ข้อ · เฉลย · เฉลยละเอียด\" ว่างทุกแถว<br>ลายมือ: ไม่มี (ไฟล์พิมพ์ทั้งหมด · หน้า 2 มี Disclaimer: \"ข้อที่จดช้อยส์หรือโจทย์ไม่ครบได้แต่งเพิ่มด้วย AI ไปและภาพบางส่วนเหมือนข้อสอบและบางส่วนเป็นแค่ภาพที่หาได้ใกล้เคียง\")",
+  "src": "AC_79D_MCQ_Sx_MCQ_79_Ro_D.pdf · หน้า 31 + หน้า 36 (เฉลยอย่างย่อ) · ตัวพิมพ์ (ไม่มีลายมือ)",
+  "kimg": [
+   "f79d_p31",
+   "ks79d_ped"
   ]
  }
 }

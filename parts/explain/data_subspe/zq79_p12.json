@@ -1,0 +1,418 @@
+{
+ "MDCU79|RoC|Plastic 2": {
+  "interp": "ทารก 3 เดือนมี hemangioma 1 cm ที่แก้ม <b>ห่างจากตา จมูก ปาก</b> โตขึ้นช่วงไม่กี่สัปดาห์ ไม่มีแผล กินนมได้ปกติ → ถามการจัดการ",
+  "why": "<b>Infantile hemangioma</b> มีลำดับการโตเฉพาะ: ปรากฏหลังเกิดไม่กี่สัปดาห์ <b>โตเร็วช่วง 1–3 เดือนแรก (ส่วนใหญ่โตเต็มที่ราว 5 เดือน)</b> แล้ว<b>ยุบเองช้า ๆ (involution)</b> หลายปี · ก้อน<b>เล็ก ความเสี่ยงต่ำ</b> (ไม่อยู่ตำแหน่งอันตราย ไม่เป็นแผล ไม่รบกวนหน้าที่) → <b>เฝ้าดูและให้ความมั่นใจพ่อแม่</b> นัดติดตามใกล้ชิดช่วงที่ยังโต (ถ่ายรูปเทียบ) · ข้อบ่งชี้ให้ <b>propranolol</b>: ใกล้ตา (บังการมองเห็น), จมูก/ ริมฝีปาก (ผิดรูปถาวร), ทางเดินหายใจ (beard distribution), เป็นแผล, ขนาดใหญ่ที่หน้า, หลายก้อน (> 5 ตรวจตับ) · ไฟล์ 79C หน้า 2 แถว Plastic 2 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"ไม่ส่งผลต่อ feeding ต้องทำอะไร — 1. Observe and reassure\"</b>",
+  "wrong": {
+   "B": "Pulsed dye laser ใช้กับ hemangioma ผิวตื้นที่เป็นแผล หรือหลังยุบแล้วยังมีหลอดเลือดฝอยเหลือ ไม่ใช่ก้อนเล็กความเสี่ยงต่ำ · จะถูกถ้าหลังยุบตอน 5 ขวบยังมีเส้นเลือดฝอยแดงหลงเหลือ หรือก้อนผิวตื้นเป็นแผล",
+   "C": "Embolization ใช้กับ arteriovenous malformation หรือ hemangioma ที่ทำให้หัวใจวายจาก high-flow (พบน้อยมาก) · จะถูกถ้าเป็น AVM ที่หน้าเต้นได้ คลำได้ thrill",
+   "D": "ผ่าตัดตัดออกตอนกำลังโตเสียเลือดมากและเสี่ยงแผลเป็น ใช้กับก้อนที่ยุบแล้วเหลือเนื้อเยื่อหย่อน (fibrofatty residuum) · จะถูกถ้าเด็ก 5 ขวบหลังยุบยังเหลือผิวหย่อนนูนที่แก้ม",
+   "E": "รังสีรักษาไม่ใช้ใน hemangioma ทารก (กระทบการเจริญ เสี่ยงมะเร็ง) · จะถูกถ้าไม่มีสถานการณ์ปัจจุบันที่ใช้รังสีรักษา infantile hemangioma"
+  },
+  "trap": "ตกใจที่ก้อนโตเร็วแล้วรีบรักษา — การโตเร็วช่วงแรกเป็นธรรมชาติของ hemangioma ก้อนเล็กความเสี่ยงต่ำเฝ้าดูได้",
+  "summary": [
+   "Infantile hemangioma: ปรากฏไม่กี่สัปดาห์หลังเกิด · โตเร็ว 1–3 เดือน · ยุบเองหลายปี · GLUT-1 บวก",
+   "ความเสี่ยงต่ำ → เฝ้าดู ถ่ายรูปติดตาม",
+   "ความเสี่ยงสูง → propranolol (เริ่มเร็วช่วง 1–3 เดือน): ตา จมูก ปาก ทางเดินหายใจ แผล หน้าใหญ่",
+   "> 5 ก้อนที่ผิว → US ตับ (hepatic hemangioma)",
+   "Segmental ที่หน้าใหญ่ → PHACE syndrome (ตรวจสมอง หัวใจ ตา)",
+   "Vascular malformation: มีตั้งแต่เกิด โตตามตัว ไม่ยุบ (ต่างจาก hemangioma)"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง-สูง — ไฟล์ไม่มีเฉลย ผู้จดเขียนว่ารูปดูเหมือน vascular malformation มากกว่า ถ้าเป็น low-flow malformation ไม่มีอาการ คำตอบยังเป็นเฝ้าดู · ตาม AAP 2019 ก้อนเล็กที่แก้มไม่ใช่ตำแหน่งเสี่ยงสูง",
+  "mnemonic": "<b>'Hemangioma เล็ก ไม่อยู่ตา จมูก ปาก ไม่เป็นแผล = ดูไปก่อน (ยุบเอง)'</b>",
+  "guide": "AAP Clinical Practice Guideline for the Management of Infantile Hemangiomas (Pediatrics 2019;143:e20183475); ISSVA Classification of Vascular Anomalies (2018)",
+  "variants": [
+   "Hemangioma ที่หนังตาบนบังตา → propranolol ทันที (เสี่ยง amblyopia)",
+   "ทารกมี hemangioma ที่ผิว 7 ก้อน → US ตับ",
+   "Hemangioma ใหญ่ครึ่งหน้า → ตรวจหา PHACE syndrome (MRI สมอง echo ตรวจตา)"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 2 แถว Plastic 2 — ตัวพิมพ์: <b>A 3-month old baby เด็กเป็น hemangioma ที่หน้า (มีตั้งแต่เกิด โตตามตัว แต่ช่วง past few week แม่รู้สึกว่าก้อน rapidly growth แต่จากรูปดูเหมือน vascular malformation มากกว่า)   ไม่ส่งผลต่อ feeding ต้องทำอะไร — 1. Observe and reassure 2. laser ablation 3. Embolization</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 2 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: เติมขนาด 1 cm ตำแหน่งแก้มห่างตา จมูก ปาก และไม่มี ulceration เพื่อให้เป็น low-risk ชัดเจน (คงคำ hemangioma ตามต้นฉบับ); แต่งช้อย D, E. ถ้ารูปจริงเป็น low-flow vascular malformation ที่ไม่มีอาการ คำตอบก็ยังเป็น observe เหมือนกัน",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 2 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p2"
+  ]
+ },
+ "MDCU79|RoC|CVT 2": {
+  "interp": "ชายเป็นโรคหลอดเลือดหัวใจตีบ 3 เส้น จะทำ CABG → ถาม conduit ที่ดีที่สุดสำหรับต่อกับ LAD",
+  "why": "<b>Left internal mammary (thoracic) artery (LIMA) → LAD</b> เป็น<b>มาตรฐานของ CABG</b> · LIMA มี<b>อัตราเปิดอยู่ระยะยาวสูงสุด (> 90% ที่ 10 ปี)</b> เพราะผนังทนต่อ atherosclerosis (internal elastic lamina ต่อเนื่อง หลั่ง NO) และยังต่ออยู่กับ subclavian (in situ) · การใช้ LIMA-LAD <b>เพิ่มการรอดชีวิตระยะยาว</b>และลดการเกิด MI/ ผ่าตัดซ้ำ · LAD เลี้ยงหัวใจห้องซ้ายส่วนใหญ่จึงควรได้ conduit ที่ดีที่สุด · conduit อื่นใช้กับเส้นที่เหลือ: radial artery (ดีกว่า vein เมื่อเส้นตีบมาก), saphenous vein, RIMA · ไฟล์ 79C หน้า 7 แถว CVT 2 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"which artery is best for doing the procedure? — 1. Radial artery 2. LIMA 3. RIMA 4. Great saphenous vein\"</b>",
+  "wrong": {
+   "A": "Radial artery เป็น conduit แดงตัวที่สองที่ดี (ดีกว่า saphenous vein เมื่อต่อกับเส้นที่ตีบ > 70–90%) แต่ไม่ใช่ตัวที่ดีที่สุดสำหรับ LAD · จะถูกถ้าถาม conduit ที่ดีสำหรับเส้นที่สองในผู้ป่วยอายุน้อย (ต่อกับ circumflex ที่ตีบ 90%)",
+   "C": "RIMA ใช้เป็น conduit แดงตัวที่สอง (bilateral IMA) ได้ผลดี แต่สำหรับ LAD มาตรฐานคือ LIMA (อยู่ข้างเดียวกัน ยาวพอ) · จะถูกถ้าถาม conduit แดงตัวที่สองใน bilateral IMA grafting",
+   "D": "Great saphenous vein ใช้บ่อย หาง่าย แต่เปิดอยู่ที่ 10 ปีราว 50–60% ด้อยกว่า LIMA · จะถูกถ้าถาม conduit สำหรับเส้นอื่น (RCA, OM) หรือในภาวะฉุกเฉินที่ต้องเร็ว",
+   "E": "Right gastroepiploic artery ใช้กับ RCA/ PDA ในบางศูนย์ ต้องเปิดช่องท้อง ไม่ใช่ทางเลือกหลักของ LAD · จะถูกถ้าถาม conduit แดงทางเลือกสำหรับ posterior descending artery"
+  },
+  "trap": "ตอบ saphenous vein เพราะใช้บ่อยที่สุด — ที่ดีที่สุดสำหรับ LAD คือ LIMA",
+  "summary": [
+   "LIMA → LAD = มาตรฐาน · patency > 90% ที่ 10 ปี · เพิ่มการรอดชีวิต",
+   "Conduit แดงตัวที่สอง: radial (เส้นตีบมาก) · RIMA",
+   "Saphenous vein: ใช้บ่อย patency ~50–60% ที่ 10 ปี",
+   "Radial: ตรวจ Allen test ก่อน",
+   "ข้อบ่งชี้ CABG: left main · 3 เส้น (โดยเฉพาะเบาหวาน หรือ LVEF ต่ำ) · 2 เส้นรวม proximal LAD",
+   "เบาหวาน + หลายเส้น: CABG ดีกว่า PCI (FREEDOM)"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ LIMA-LAD เป็นมาตรฐานใน 2021 ACC/AHA/SCAI Revascularization Guideline",
+  "mnemonic": "<b>'LAD ต้องได้ LIMA (ของดีที่สุดให้เส้นสำคัญที่สุด)'</b>",
+  "guide": "2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization (Circulation 2022;145:e18); Kirklin/Barratt-Boyes Cardiac Surgery 4th ed. (2013)",
+  "variants": [
+   "CABG เส้นที่สองต่อ circumflex ที่ตีบ 90% ในผู้ป่วยอายุ 55 ปี → radial artery",
+   "จะใช้ radial artery → Allen test ก่อน",
+   "ผู้ป่วยเบาหวาน 3 เส้น LVEF 35% → CABG"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 6 แถว CVT 2 — ตัวพิมพ์: <b>CVT man with triple vessel disease is about to do CABG, which artery is best for doing the procedure? — 1. Radial artery 2. LIMA 3. RIMA 4. Great saphenous vein</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: stem ระบุว่า conduit สำหรับ LAD (ต้นฉบับถามกว้าง ๆ ว่า artery ที่ดีที่สุด — ความหมายเดียวกันในบริบทข้อสอบ); ขยาย LIMA, RIMA เป็นชื่อเต็ม; ช้อย E (Right gastroepiploic artery) แต่งเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 6 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p6"
+  ]
+ },
+ "MDCU79|RoC|CVT 3": {
+  "interp": "ชาย 72 ปีเจ็บอกเวลาออกแรง เหนื่อย และเป็นลมขณะขึ้นบันได ฟังได้ <b>crescendo-decrescendo systolic murmur ที่ right upper sternal border ร้าวไปคอ</b> S2 เบา → ถามวินิจฉัย",
+  "why": "Triad <b>angina · syncope · dyspnea</b> ในผู้สูงอายุ + <b>ejection (crescendo-decrescendo) systolic murmur ที่ RUSB (aortic area) ร้าวไป carotid ทั้งสองข้าง</b> + <b>S2 เบา (A2 หาย)</b> = <b>aortic stenosis</b> · สาเหตุในผู้สูงอายุ: <b>calcific degeneration</b> · อาการแสดงอื่น: <b>pulsus parvus et tardus</b>, LV heave · เมื่อมีอาการ อัตราตายสูง (angina ~5 ปี, syncope ~3 ปี, heart failure ~2 ปี) → <b>ต้องเปลี่ยนลิ้น</b> (TAVR/ SAVR) · ไฟล์ 79C หน้า 7 แถว CVT 3 ผู้จดพิมพ์ <b>\"murmur cresendo-decressendo mumur at Rt.parasternal border\"</b> และช้อยเดียว <b>\"AS\"</b>",
+  "wrong": {
+   "B": "MR เป็น <b>holosystolic murmur ที่ apex ร้าวไปรักแร้</b> ไม่ใช่ ejection murmur ที่ RUSB ร้าวไปคอ · จะถูกถ้าผู้ป่วยหลัง MI มี holosystolic murmur ใหม่ที่ apex ร้าวไปรักแร้",
+   "C": "HOCM มี ejection murmur ที่ <b>left sternal border</b> ไม่ร้าวไปคอ <b>ดังขึ้นเมื่อ Valsalva/ ยืน</b> (preload ลด) พบในคนอายุน้อย เป็นลมขณะออกกำลัง · จะถูกถ้านักกีฬา 18 ปีเป็นลมขณะวิ่ง murmur ดังขึ้นเวลาเบ่ง",
+   "D": "VSD เป็น holosystolic murmur ที่ left lower sternal border ในเด็ก ไม่ใช่ triad ในผู้สูงอายุ · จะถูกถ้าเด็กมี holosystolic murmur ที่ LLSB เหนื่อย",
+   "E": "AR เป็น <b>early diastolic decrescendo murmur</b> ที่ left sternal border pulse pressure กว้าง ไม่ใช่ systolic murmur · จะถูกถ้าผู้ป่วย Marfan มี diastolic murmur และชีพจรเต้นแรงยุบเร็ว"
+  },
+  "trap": "สับสน AS กับ HOCM — AS ร้าวไปคอ S2 เบา ผู้สูงอายุ · HOCM ไม่ร้าวไปคอ ดังขึ้นเมื่อ Valsalva คนหนุ่ม",
+  "summary": [
+   "AS: angina · syncope · dyspnea · ejection murmur RUSB ร้าวไปคอ · S2 เบา · parvus et tardus",
+   "สาเหตุ: calcific (ผู้สูงอายุ) · bicuspid (อายุน้อยกว่า) · rheumatic",
+   "Severe: AVA &lt; 1.0 cm² · mean gradient ≥ 40 · Vmax ≥ 4 m/s",
+   "มีอาการ → เปลี่ยนลิ้น (TAVR ผู้สูงอายุ/ เสี่ยงสูง · SAVR อายุน้อย)",
+   "HOCM: murmur ดังขึ้นเมื่อ Valsalva/ ยืน · เบาลงเมื่อนั่งยอง/ handgrip",
+   "MR: holosystolic apex ร้าวรักแร้"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับช้อยเดียวที่ผู้จดพิมพ์ไว้ ผู้จดบอกว่า \"โจทย์ยาว\" จึงแต่ง stem ให้ครบลักษณะ AS",
+  "mnemonic": "<b>'AS = SAD (Syncope · Angina · Dyspnea) + murmur ร้าวขึ้นคอ'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72)",
+  "variants": [
+   "นักกีฬาหนุ่มเป็นลมขณะวิ่ง murmur ดังขึ้นเวลาเบ่ง → HOCM",
+   "AS รุนแรงมีอาการในผู้ป่วย 88 ปี → TAVR",
+   "ผู้ป่วยหลัง MI 4 วัน holosystolic murmur ใหม่ที่ apex หอบเฉียบพลัน → papillary muscle rupture"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 6 แถว CVT 3 — ตัวพิมพ์: <b>murmur cresendo-decressendo mumur at Rt.parasternal border โจทย์ยาวสัส — 1. AS</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: แต่ง stem ทั้งหมด (อายุ 72 ปี, angina, dyspnea, syncope ขณะขึ้นบันได, murmur ร้าวไป carotid, S2 เบา) โดยคงสิ่งที่ถาม (การวินิจฉัยจาก crescendo-decrescendo murmur ที่ right parasternal border); แก้คำสะกด cresendo/decressendo/mumur; ช้อย B–E แต่งเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 6 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p6"
+  ]
+ },
+ "MDCU79|RoC|CVT 4": {
+  "interp": "หญิง 45 ปี<b>หนังตาตกสองข้างและเห็นภาพซ้อนที่แย่ลงตอนเย็น</b> CT ทรวงอกเห็นก้อนที่ anterior mediastinum → ถามชนิดเนื้องอก",
+  "why": "อาการที่<b>แย่ลงเมื่อใช้งาน/ ช่วงเย็น (fatigable weakness)</b> ของกล้ามเนื้อตา = <b>myasthenia gravis (MG)</b> · MG สัมพันธ์กับ<b>ต่อม thymus</b>: ~10–15% ของผู้ป่วย MG มี <b>thymoma</b> และ ~30–50% ของผู้ป่วย thymoma มี MG · ก้อน anterior mediastinum ในผู้ใหญ่ที่มี MG จึงเป็น <b>thymoma</b> · ตรวจ anti-AChR antibody · รักษา: <b>เตรียม MG ให้คงที่ก่อน</b> (pyridostigmine, IVIG/ plasmapheresis ถ้าอาการมาก) แล้ว<b>ผ่าตัด thymectomy</b> (ตัดทั้งก้อนและต่อม) เพื่อป้องกัน myasthenic crisis หลังผ่าตัด · ไฟล์ 79C หน้า 7 แถว CVT 4 ผู้จดพิมพ์ <b>\"ตาตกตอนจบวัน น่าจะMG เป็น tumor อะไร — 1. thymoma\"</b>",
+  "wrong": {
+   "B": "Teratoma พบในคนอายุน้อย 20–30 ปี มีไขมัน หินปูน ฟันในก้อน ไม่สัมพันธ์กับ MG · จะถูกถ้าชาย 25 ปี CT ก้อน anterior mediastinum มีไขมันและหินปูน",
+   "C": "Lymphoma มักมีอาการ B (ไข้ เหงื่อ น้ำหนักลด) ต่อมน้ำเหลืองที่อื่นโต ไม่สัมพันธ์กับ MG · จะถูกถ้าหญิง 22 ปีไข้ เหงื่อกลางคืน คันตัว ต่อมน้ำเหลืองคอโต ก้อนใน mediastinum",
+   "D": "Retrosternal goiter ต่อเนื่องจากต่อมไทรอยด์ที่คอ กดหลอดลม ไม่สัมพันธ์กับ MG · จะถูกถ้าหญิง 60 ปีคอพอกยื่นลงใต้กระดูกอก หายใจเสียงดังเวลายกแขน",
+   "E": "Neurogenic tumor อยู่ <b>posterior</b> mediastinum ไม่ใช่ anterior · จะถูกถ้า CT เห็นก้อนข้างกระดูกสันหลังใน posterior mediastinum"
+  },
+  "trap": "ลืมความสัมพันธ์ MG กับ thymoma — อาการตาตกตอนเย็น + ก้อนหน้าทรวงอก = thymoma",
+  "summary": [
+   "Anterior mediastinum (4T): thymoma · teratoma (germ cell) · terrible lymphoma · thyroid",
+   "Thymoma: ผู้ใหญ่ 40–60 ปี · สัมพันธ์ MG · pure red cell aplasia · hypogammaglobulinemia",
+   "MG: fatigable ptosis/ diplopia · anti-AChR · ice pack test",
+   "เตรียม MG ให้คงที่ก่อน thymectomy (IVIG/ PLEX ถ้าอาการมาก)",
+   "Thymectomy ช่วย MG แม้ไม่มี thymoma (MGTX trial) ในกลุ่ม AChR บวก",
+   "Posterior mediastinum: neurogenic tumor"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับช้อยเดียวที่ผู้จดพิมพ์ไว้ · ข้อนี้คล้าย 72A ข้อ 31 ที่ถามการรักษา",
+  "mnemonic": "<b>'ตาตกตอนเย็น + ก้อนหน้าทรวงอก = MG + Thymoma'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Thymomas and Thymic Carcinomas v.2024; International Consensus Guidance for Management of Myasthenia Gravis (Neurology 2021;96:114)",
+  "variants": [
+   "ผู้ป่วย MG + thymoma → เตรียม MG ให้คงที่ แล้ว thymectomy",
+   "ชาย 25 ปีก้อน anterior mediastinum AFP/ β-hCG สูง → non-seminomatous germ cell tumor",
+   "หญิงสาวไข้ เหงื่อ ต่อมน้ำเหลืองคอโต ก้อน mediastinum → lymphoma ตัดต่อมน้ำเหลืองตรวจ"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 6 แถว CVT 4 — ตัวพิมพ์: <b>ตาตกตอนจบวัน น่าจะMG เป็น tumor อะไร — 1. thymoma</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: แปลเป็นภาษาอังกฤษและแต่ง stem (หญิงอายุ 45 ปี ptosis ทั้งสองข้าง diplopia แย่ลงตอนท้ายวัน, CT พบ anterior mediastinal mass) โดยไม่เขียนคำว่า myasthenia gravis; ช้อย B–E แต่งเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 6 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p6"
+  ]
+ },
+ "MDCU79|RoC|CVT 5": {
+  "interp": "ชาย 40 ปี <b>ARDS รุนแรง</b> PaO2/FiO2 60 แม้ทำทุกอย่างแล้ว (lung-protective ventilation, PEEP สูง, กล้ามเนื้อคลาย, นอนคว่ำ) หัวใจทำงานปกติ ไม่ช็อก → ถามการช่วยเพิ่ม",
+  "why": "ARDS รุนแรงที่<b>ล้มเหลวจากการรักษามาตรฐานทั้งหมด</b> (P/F &lt; 50–80 นานหลายชั่วโมง หรือ pH &lt; 7.25 จาก CO2 คั่ง) และ<b>หัวใจทำงานดี</b> → ปัญหาอยู่ที่<b>ปอดอย่างเดียว</b> จึงใช้ <b>veno-venous (VV) ECMO</b> = ดึงเลือดดำออกมาเติม O2/ เอา CO2 ออกแล้วคืนเข้าหลอดเลือดดำ ให้ปอดได้พัก (ultra-protective ventilation) · <b>VA ECMO</b> ช่วยทั้งหัวใจและปอด (คืนเลือดเข้าหลอดเลือดแดง) ใช้เมื่อมี cardiogenic shock หรือหัวใจหยุดเต้น · ข้อมูลสนับสนุน: CESAR, EOLIA · ไฟล์ 79C หน้า 7 แถว CVT 5 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"คนไข้ ards แก้ทุกอย่างเท่าที่ทำได้แล้ว ต้องทำอะไรเพิ่ม — 1. VA ecmo 2. VV ecmo\"</b>",
+  "wrong": {
+   "A": "VA ECMO ช่วยหัวใจด้วย ใช้เมื่อมี cardiogenic shock หรือ cardiac arrest แต่มีภาวะแทรกซ้อนมากกว่า (หลอดเลือดแดง ขาขาดเลือด LV distension) ไม่จำเป็นเมื่อหัวใจปกติ · จะถูกถ้าผู้ป่วย fulminant myocarditis ช็อก LVEF 10% แม้ให้ inotrope เต็มที่",
+   "C": "ผู้ป่วยยังมีชีพจรและไม่ช็อก CPR ใช้เมื่อหัวใจหยุดเต้นเท่านั้น · จะถูกถ้าผู้ป่วยหมดสติ คลำชีพจรไม่ได้",
+   "D": "AED ใช้กับ VF/ pulseless VT ในหัวใจหยุดเต้น ไม่เกี่ยวกับภาวะออกซิเจนต่ำจากปอด · จะถูกถ้าผู้ป่วยล้มลงหมดสติ ไม่มีชีพจร monitor เป็น VF",
+   "E": "IABP ช่วยหัวใจ (ลด afterload เพิ่มเลือดไป coronary) ใน cardiogenic shock ไม่ช่วยการแลกเปลี่ยนก๊าซในปอด · จะถูกถ้าผู้ป่วย MI ช็อกระหว่างรอผ่าตัด CABG"
+  },
+  "trap": "สับสน VA กับ VV ECMO — ปอดอย่างเดียว = VV · หัวใจ (± ปอด) = VA",
+  "summary": [
+   "ARDS: lung-protective (Vt 6 mL/kg PBW, Pplat &lt; 30) · PEEP สูง · prone ≥ 16 ชม. · NMB",
+   "ล้มเหลว (P/F &lt; 50–80 หรือ pH &lt; 7.25 จาก CO2) → VV ECMO",
+   "VV ECMO: ปอดอย่างเดียว · เลือดดำ → เครื่อง → เลือดดำ",
+   "VA ECMO: หัวใจ ± ปอด · cardiogenic shock · ECPR",
+   "IABP: cardiogenic shock จาก MI (ใช้น้อยลง)",
+   "ข้อห้าม ECMO: เลือดออกที่ห้ามไม่ได้ · ปอดเสียถาวร · ไม่มีทางฟื้น"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ตาม ELSO และ ESICM ARDS Guideline ปอดล้มเหลวอย่างเดียวใช้ VV ECMO · เติมใน stem ว่าหัวใจปกติไม่ช็อกเพื่อแยก VA",
+  "mnemonic": "<b>'ปอดพังอย่างเดียว = VV (vein-vein) · หัวใจพังด้วย = VA (vein-artery)'</b>",
+  "guide": "ELSO Guidelines for Adult Respiratory Failure (ASAIO J 2021;67:601); ESICM Guidelines on Acute Respiratory Distress Syndrome (Intensive Care Med 2023;49:727)",
+  "variants": [
+   "Fulminant myocarditis ช็อกไม่ตอบสนองต่อ inotrope → VA ECMO",
+   "ARDS P/F 120 ยังไม่ได้นอนคว่ำ → prone positioning ≥ 16 ชม./วัน ก่อนพิจารณา ECMO",
+   "หัวใจหยุดเต้นในโรงพยาบาลจาก PE ใหญ่ CPR ไม่สำเร็จ → ECPR (VA ECMO)"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 6 แถว CVT 5 — ตัวพิมพ์: <b>คนไข้ ards แก้ทุกอย่างเท่าที่ทำได้แล้ว ต้องทำอะไรเพิ่ม — 1. VA ecmo 2. VV ecmo 3. ปั้มหัวใจ 4. Aed</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: แปลเป็นภาษาอังกฤษและเติมรายละเอียดของคำว่า \"แก้ทุกอย่างแล้ว\" (lung-protective ventilation, high PEEP, neuromuscular blockade, prone, P/F 60) และเติม <b>\"Echocardiography shows normal biventricular function, and he is not in shock\"</b> เพื่อให้เหลือคำตอบเดียวระหว่าง VV กับ VA ECMO (ต้นฉบับไม่ได้บอกสภาพหัวใจ); ช้อย 3 \"ปั้มหัวใจ\" แปลเป็น cardiopulmonary resuscitation; ช้อย E (Intra-aortic balloon pump) แต่งเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 6 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p6"
+  ]
+ },
+ "MDCU79|RoC|CVT 6": {
+  "interp": "ชาย 35 ปีไอ ไข้ <b>เหงื่อออกกลางคืน น้ำหนักลด</b> 2 เดือน CXR เห็น<b>โพรงผนังหนาเดี่ยวที่ปอดขวาบน</b> → ถามวินิจฉัย",
+  "why": "อาการเรื้อรังหลายสัปดาห์ (ไอ > 2–3 สัปดาห์ ไข้ต่ำ เหงื่อกลางคืน น้ำหนักลด) + <b>โพรง (cavity) ที่ปอดกลีบบน (apical/ posterior segment)</b> = <b>pulmonary tuberculosis ระยะ reactivation</b> · TB ชอบปอดส่วนบนเพราะ<b>ออกซิเจนสูง</b>และการระบายน้ำเหลืองน้อย · ในประเทศไทย (TB ชุก) ต้องนึกก่อนเสมอ · ตรวจ <b>เสมหะ AFB × 2–3 ครั้ง, Xpert MTB/RIF</b>, เพาะเชื้อ · แยกผู้ป่วยแบบ airborne · รักษาด้วย 2HRZE/4HR · ตรวจ HIV ร่วม · ไฟล์ 79C หน้า 7 แถว CVT 6 ผู้จดพิมพ์ <b>\"มีอาการ fever night sweat นนลด เหน cavity ในปอด 1ก้อน — 1. TB\"</b>",
+  "wrong": {
+   "B": "Lung abscess มาค่อนข้างเฉียบพลัน (1–2 สัปดาห์) ไข้สูง เสมหะเหม็นมาก มี<b>ระดับน้ำ-อากาศ (air-fluid level)</b> ในโพรง มักที่ posterior upper/ superior lower lobe ในผู้ที่สำลัก (สุรา ชัก ฟันผุ) · จะถูกถ้าคนดื่มสุราหนักเคยหมดสติ ไอเสมหะเหม็นมาก โพรงมีระดับน้ำ",
+   "C": "Squamous cell carcinoma ทำให้เกิดโพรงได้ในผู้สูงอายุสูบบุหรี่ ผนังหนาไม่เรียบ มักไม่มีไข้/ เหงื่อกลางคืน · จะถูกถ้าชาย 65 ปีสูบบุหรี่จัด ไอเป็นเลือด โพรงผนังหนาขรุขระ calcium สูง",
+   "D": "Aspergilloma เป็นก้อนเชื้อราใน<b>โพรงเดิม</b> (เช่น หลัง TB) เห็นก้อนกลมในโพรงมีลมเป็นวงพระจันทร์ (air crescent) ไอเป็นเลือด · จะถูกถ้าผู้ป่วยเคยรักษา TB ครบแล้ว ไอเป็นเลือด CT เห็นก้อนเคลื่อนได้ในโพรงเดิม",
+   "E": "GPA มีหลายก้อนเป็นโพรงในปอด ร่วมกับไซนัสอักเสบเรื้อรังและไตอักเสบ c-ANCA บวก · จะถูกถ้าผู้ป่วยไซนัสอักเสบเรื้อรัง เลือดออกจมูก ไตอักเสบ CXR หลายก้อนมีโพรง"
+  },
+  "trap": "เห็นโพรงแล้วตอบฝีในปอด — อาการเรื้อรัง (เหงื่อกลางคืน น้ำหนักลด) + ปอดกลีบบน = TB",
+  "summary": [
+   "TB reactivation: ไอ > 2–3 สัปดาห์ · ไข้ต่ำ · เหงื่อกลางคืน · น้ำหนักลด · ไอเป็นเลือด",
+   "CXR: กลีบบน (apical/ posterior) · โพรง · fibrosis",
+   "ตรวจ: AFB × 2–3 · Xpert MTB/RIF · culture · ตรวจ HIV",
+   "รักษา: 2HRZE/ 4HR · airborne isolation จนเสมหะลบ",
+   "Lung abscess: สำลัก · เสมหะเหม็น · air-fluid level",
+   "Aspergilloma: ก้อนในโพรงเดิม · air crescent · ไอเป็นเลือด"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับช้อยเดียวที่ผู้จดพิมพ์ไว้ และเป็นภาพคลาสสิกของ TB ในไทย",
+  "mnemonic": "<b>'ไข้ เหงื่อกลางคืน ผอม + โพรงปอดบน = TB'</b>",
+  "guide": "WHO Consolidated Guidelines on Tuberculosis: Module 4 Treatment (2022); แนวทางการควบคุมวัณโรคประเทศไทย พ.ศ. 2564 (กรมควบคุมโรค)",
+  "variants": [
+   "คนดื่มสุราเคยหมดสติ ไอเสมหะเหม็น โพรงมี air-fluid level → lung abscess",
+   "ผู้ป่วยเคยเป็น TB ไอเป็นเลือด ก้อนในโพรงเดิม → aspergilloma",
+   "TB เสมหะบวก → 2HRZE/ 4HR + ตรวจ HIV + คัดกรองผู้สัมผัสในบ้าน"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 6 แถว CVT 6 — ตัวพิมพ์: <b>มีอาการ fever night sweat นนลด เหน cavity ในปอด 1ก้อน — 1. TB</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: แปลเป็นภาษาอังกฤษและเติม <b>อายุ 35 ปี, ไอ, ระยะเวลา 2 เดือน</b> และ <b>ตำแหน่ง right upper lobe ผนังหนา</b> (ต้นฉบับบอกแค่ cavity 1 ก้อน) เพื่อแยกจาก lung abscess และมะเร็ง; ช้อย B–E แต่งเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 6 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p6"
+  ]
+ },
+ "MDCU79|RoC|CVT 7": {
+  "interp": "หญิง 45 ปีเหนื่อยเวลาออกแรง <b>เป็นลมเวลาเปลี่ยนท่า</b> ไข้ต่ำ น้ำหนักลด ปวดข้อ ESR สูง ฟังได้ <b>diastolic murmur ที่ apex ที่ดังเปลี่ยนตามท่า</b> และเสียงเพิ่มต้น diastole → ถามวินิจฉัย",
+  "why": "<b>Left atrial myxoma</b> เป็นเนื้องอกหัวใจปฐมภูมิที่พบบ่อยที่สุดในผู้ใหญ่ ติดกับ interatrial septum (fossa ovalis) มีก้าน · ก้อน<b>ห้อยลงอุดลิ้นไมทรัลเป็นพัก ๆ</b> → อาการเหมือน mitral stenosis ที่<b>เปลี่ยนตามท่า</b> (เป็นลม/ เหนื่อยเวลาเปลี่ยนท่า murmur ดังเปลี่ยนตามท่า) · เสียง <b>tumor plop</b> ต้น diastole (ก้อนกระทบ) · ก้อนหลั่ง <b>IL-6</b> → อาการทั่วร่างกาย (ไข้ น้ำหนักลด ปวดข้อ ESR สูง ซีด) · ชิ้นก้อนหลุดเป็น emboli (stroke) · วินิจฉัยด้วย echo · รักษา: <b>ผ่าตัดเอาออกโดยเร็ว</b> พร้อมตัดฐานที่ septum · ไฟล์ 79C หน้า 7 แถว CVT 7 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"diastolic murmur ที่ apex ซึ่งความดังเปลี่ยนไปตามท่าทางของผู้ป่วย และได้ยินเสียง extra heart sound ตอนช่วง early diastole\"</b>",
+  "wrong": {
+   "A": "IE มีไข้ น้ำหนักลด ESR สูงได้ แต่ murmur ไม่เปลี่ยนตามท่า และมักมี regurgitant murmur ใหม่ emboli จุดเลือดออกใต้เล็บ · จะถูกถ้าผู้ป่วยฉีดยาเสพติด ไข้ murmur ใหม่ เพาะเชื้อในเลือดพบ S. aureus",
+   "B": "Rheumatic MS มี diastolic rumble และ <b>opening snap</b> ที่<b>ไม่เปลี่ยนตามท่า</b> ไม่มีอาการทั่วร่างกายแบบไข้ ESR สูง · จะถูกถ้าหญิงเคยเป็นไข้รูมาติก เหนื่อยมากขึ้นเวลาตั้งครรภ์ ฟังได้ opening snap",
+   "D": "ลิ่มเลือดในห้องบนซ้ายมักเกิดร่วมกับ AF/ MS ไม่ทำให้ murmur เปลี่ยนตามท่าหรือไข้ ESR สูง · จะถูกถ้าผู้ป่วย MS ร่วม AF echo เห็นลิ่มเลือดใน left atrial appendage",
+   "E": "AF + ลิ่มเลือดทำให้ใจสั่น ชีพจรไม่สม่ำเสมอ stroke ไม่ใช่ murmur เปลี่ยนตามท่า · จะถูกถ้าชายสูงอายุใจสั่น ชีพจรไม่สม่ำเสมอ ECG เป็น AF แล้วมี stroke"
+  },
+  "trap": "ตอบ rheumatic MS เพราะเป็น diastolic murmur ที่ apex — แต่ murmur เปลี่ยนตามท่า + tumor plop + อาการทั่วร่างกาย = myxoma",
+  "summary": [
+   "Myxoma: เนื้องอกหัวใจปฐมภูมิพบบ่อยสุด · left atrium ติด septum (fossa ovalis)",
+   "อาการ: อุดลิ้น (MS เปลี่ยนตามท่า · เป็นลม) · emboli · อาการทั่วร่างกาย (IL-6)",
+   "Tumor plop ต้น diastole (ต่างจาก opening snap)",
+   "Echo วินิจฉัย · ผ่าตัดเอาออกโดยเร็ว",
+   "Carney complex: myxoma หลายที่ + จุดสีผิว + endocrine",
+   "เนื้องอกหัวใจโดยรวมพบบ่อยสุด = metastasis"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ stem ในต้นฉบับบรรยายลักษณะของ left atrial myxoma ครบทุกข้อ",
+  "mnemonic": "<b>'Diastolic murmur เปลี่ยนตามท่า + plop + ไข้ ESR สูง = Myxoma'</b>",
+  "guide": "Braunwald's Heart Disease 12th ed. (2022) — Tumors affecting the cardiovascular system; Sabiston Textbook of Surgery 21st ed. (2022) — Cardiac neoplasms",
+  "variants": [
+   "หญิงไข้รูมาติกในอดีต opening snap diastolic rumble ไม่เปลี่ยนตามท่า → rheumatic mitral stenosis",
+   "ผู้ป่วย myxoma มี stroke → emboli จากก้อน ผ่าตัดเอาออกด่วน",
+   "ผู้ป่วยมี myxoma หลายตำแหน่ง จุดสีที่ริมฝีปาก Cushing → Carney complex"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 6 แถว CVT 7 — ตัวพิมพ์: <b>หญิงอายุ 45 ปี มาด้วย exertional dyspnea และ syncope ที่เป็นเวลาเปลี่ยนท่าทาง (โดยเฉพาะเวลานอนราบหรือลุกจากท่านั่ง) ร่วมกับ low-grade fever, weight loss, arthralgia และ ESR สูง ตรวจรางกายพบ diastolic murmur ที่ apex ซึ่งความดังเปลี่ยนไปตามท่าทางของผู้ป่วย และได้ยินเสียง extra heart sound ตอนช่วง early diastole — 1. Infective endocarditis 2. Rheumatic mitral stenosis 3. Left atrial myxoma 4. Left atrial mural thrombus 5. Atrial fibrillation with thrombus formation</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: แปลโจทย์ภาษาไทยเป็นอังกฤษตรงตัว และเติมคำถาม \"What is the most likely diagnosis?\" (ต้นฉบับไม่ได้พิมพ์คำถาม); ช้อยใช้ตามต้นฉบับทั้ง 5 ตัว ไม่ได้แต่งเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 6 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p6"
+  ]
+ },
+ "MDCU79|RoC|Colo 1": {
+  "interp": "หลังฝีรอบทวารซ้ำ มีรูเปิดข้างทวาร ตรวจพบทาง fistula ผ่าน<b>เฉพาะส่วน subcutaneous ของหูรูด</b> กลั้นอุจจาระได้ปกติ → ถามการรักษา",
+  "why": "Fistula ที่อยู่<b>ต่ำ (low/ superficial)</b> — ผ่านเฉพาะส่วน subcutaneous หรือส่วนน้อยของหูรูดภายนอก — ในผู้ที่<b>กลั้นได้ปกติ</b> → <b>fistulotomy</b> (เปิดทาง fistula ทั้งเส้นแล้วปล่อยให้หายจากก้นแผล) เป็นวิธีที่<b>หายสูงสุด (> 90%)</b> และเสี่ยงกลั้นไม่อยู่ต่ำมากเพราะตัดหูรูดน้อย · ทำ marsupialization ขอบแผลช่วยให้หายเร็ว · ระวังใน: fistula ด้านหน้าในหญิง (หูรูดบางกว่า), ผู้สูงอายุ, Crohn, เคยผ่าตัดหูรูด → ใช้วิธีเก็บหูรูด · ไฟล์ 79C หน้า 8 แถว Colo 1 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"subcutaneous มีรูเปิดที่ตูด after recurrent infection ผ่าน subcutaneous of anal sphincter\"</b> ช้อยแรก <b>\"Fistulotomy\"</b>",
+  "wrong": {
+   "B": "Fistulectomy (ตัดทั้งทางออก) + ซ่อมหูรูดทันทีทำให้แผลใหญ่และไม่จำเป็นใน fistula ตื้น · จะถูกถ้าไม่มีสถานการณ์ทั่วไปที่เลือกวิธีนี้ก่อน fistulotomy ใน fistula ตื้น",
+   "C": "LIFT เป็นวิธีเก็บหูรูดสำหรับ transsphincteric fistula ที่ผ่านหูรูดมาก ไม่จำเป็นใน fistula subcutaneous · จะถูกถ้าเป็น high transsphincteric fistula ที่ใส่ seton ไว้จนทางเป็นพังผืดแล้ว",
+   "D": "Long-term draining seton ใช้ใน Crohn perianal fistula หรือผู้ที่ผ่าตัดซ่อมไม่ได้ เพื่อควบคุมการติดเชื้อ ไม่ใช่การรักษาให้หายใน fistula ตื้น · จะถูกถ้าผู้ป่วย Crohn มี complex fistula ที่กำลังให้ anti-TNF",
+   "E": "Advancement flap ใช้กับ high/ complex fistula หรือ rectovaginal fistula เพื่อเก็บหูรูด ไม่จำเป็นใน fistula ตื้น · จะถูกถ้าหญิงมี high transsphincteric fistula ด้านหน้า"
+  },
+  "trap": "ใช้วิธีเก็บหูรูดซับซ้อนกับ fistula ตื้น — fistula subcutaneous/ low ในคนกลั้นปกติ = fistulotomy",
+  "summary": [
+   "Low/ superficial fistula + กลั้นปกติ → fistulotomy (หาย > 90%)",
+   "High/ complex → seton · LIFT · advancement flap",
+   "ระวัง fistulotomy: หญิงด้านหน้า · ผู้สูงอายุ · Crohn · เคยผ่าหูรูด · กลั้นไม่ดีอยู่แล้ว",
+   "Goodsall rule ช่วยหาทาง internal opening",
+   "MRI pelvis/ endoanal US สำหรับ fistula ซับซ้อน",
+   "ฝีซ้ำที่ตำแหน่งเดิม → นึก fistula"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ตาม ASCRS Fistula Guideline 2022 fistula ตื้นที่กลั้นปกติใช้ fistulotomy · ข้อนี้คู่กับ 79D Colo 2 ที่เป็น high fistula (ตอบ seton)",
+  "mnemonic": "<b>'Fistula ตื้น = เปิดตัด · ลึก = เก็บหูรูด'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
+  "variants": [
+   "High transsphincteric fistula ไม่มีฝี → seton placement",
+   "หญิงมี fistula ด้านหน้าผ่านหูรูดภายนอกครึ่งหนึ่ง → วิธีเก็บหูรูด (seton/ LIFT/ flap)",
+   "Crohn มี complex perianal fistula → loose seton + anti-TNF"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 7 แถว Colo 1 — ตัวพิมพ์: <b>subcutaneous มีรูเปิดที่ตูด after recurrent infection ผ่าน subcutaneous of anal sphincter — 1. Fistulotomy 2. Fistulectomy with primary sphincter (not -oplasty) 3. LIFTS 4. Seton for long-term drainage</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: แปลและเรียบเรียง stem เป็นภาษาอังกฤษ (เติม \"Continence is normal\"); ช้อย 2 ตัดวงเล็บออกและเขียนเป็น \"primary sphincter repair\"; \"LIFTS\" → LIFT procedure; ช้อย E (Endorectal advancement flap) แต่งเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 7 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p7"
+  ]
+ },
+ "MDCU79|RoC|Colo 2": {
+  "interp": "ชายสูงอายุไม่ถ่ายไม่ผายลม 3 วัน ท้องอืดมากขึ้น ฟิล์มท้องตามรูป → ถามวินิจฉัยที่น่าจะเป็นที่สุด",
+  "why": "ผู้สูงอายุ + <b>obstipation (ไม่ถ่ายไม่ผายลม)</b> + ท้องอืดมาก + ฟิล์มเห็น<b>ลำไส้ใหญ่โป่งมากเป็นรูปตัว U กลับหัว (coffee bean/ bent inner tube) ชี้จากอุ้งเชิงกรานขึ้นไปทางขวาบน</b> = <b>sigmoid volvulus</b> · ปัจจัยเสี่ยง: อายุมาก ติดเตียง ท้องผูกเรื้อรัง ยาทางจิตเวช sigmoid ยาว mesentery แคบ · ไม่มี peritonitis → <b>ส่องกล้อง (sigmoidoscopy) คลายลำไส้ + ใส่ rectal tube</b> แล้ว<b>ผ่าตัด sigmoidectomy ใน admission เดียวกัน</b> (กลับเป็นซ้ำสูง) · มี peritonitis/ เนื้อตาย → ผ่าตัดด่วน (Hartmann) · ไฟล์ 79C หน้า 8 แถว Colo 2 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"[รูป AXR] Obstipation, Not defecate, Diagnosis?\"</b> ช้อย <b>\"Sigmoid volvulus\"</b>",
+  "wrong": {
+   "A": "Cecal volvulus พบในคนอายุน้อยกว่า ห่วงลำไส้โป่งอยู่<b>ซ้ายบน</b> (ชี้ไปทาง LUQ) ลำไส้ใหญ่ส่วนปลายแฟบ · จะถูกถ้าหญิง 40 ปีท้องอืด ฟิล์มห่วงโป่งใหญ่ที่ซ้ายบน ไม่มีลมใน colon ส่วนปลาย",
+   "C": "Ogilvie (acute colonic pseudo-obstruction) ลำไส้ใหญ่โป่ง<b>ทั้งเส้น</b>โดยเฉพาะ cecum/ ด้านขวา <b>ไม่มีจุดบิด</b> ในผู้ป่วยหนักหลังผ่าตัด/ ติดเตียงมีหลายโรค · จะถูกถ้าผู้ป่วยหลังผ่าตัดสะโพก ท้องอืดมาก colon โป่งตลอดเส้น cecum 11 cm ไม่มีจุดอุดตัน",
+   "D": "Toxic megacolon เกิดใน UC/ C. difficile ผู้ป่วยไข้ ชีพจรเร็ว ถ่ายเหลวเป็นเลือดนำมาก่อน transverse colon โป่ง · จะถูกถ้าผู้ป่วย UC กำเริบ ไข้ 39 °C ชีพจร 130 transverse colon โป่ง 8 cm",
+   "E": "ลำไส้เล็กอุดตันเห็นลำไส้เล็กโป่งหลายห่วงกลางท้อง มี valvulae conniventes พาดเต็มความกว้าง มักมีประวัติผ่าตัดช่องท้อง · จะถูกถ้าผู้ป่วยเคยผ่าตัดไส้ติ่ง ปวดบิด อาเจียน ฟิล์มเห็นลำไส้เล็กโป่งเป็นขั้นบันได"
+  },
+  "trap": "สับสน sigmoid volvulus กับ Ogilvie — volvulus มีจุดบิดเป็นรูปตัว U · Ogilvie โป่งทั้งเส้นไม่มีจุดบิด",
+  "summary": [
+   "Sigmoid volvulus: ผู้สูงอายุ ติดเตียง ท้องผูก · coffee bean ชี้ขวาบน",
+   "ไม่มี peritonitis → endoscopic detorsion + rectal tube → sigmoidectomy ใน admission เดียวกัน",
+   "Peritonitis/ เนื้อตาย → Hartmann procedure",
+   "Cecal volvulus: ชี้ซ้ายบน → right hemicolectomy",
+   "Ogilvie: โป่งทั้งเส้น ไม่มีจุดอุดตัน → แก้เกลือแร่ หยุดยา neostigmine ± ส่องกล้องดูดลม",
+   "CT: whirl sign · bird's beak"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่รูปในไฟล์และอาการเข้ากับ sigmoid volvulus · ข้อนี้คล้าย 79D Ped 2",
+  "mnemonic": "<b>'ผู้สูงอายุไม่ถ่ายไม่ผายลม + เมล็ดกาแฟชี้ขวาบน = Sigmoid volvulus'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction (Dis Colon Rectum 2021;64:1046)",
+  "variants": [
+   "ผู้ป่วยหลังผ่าตัดสะโพก colon โป่งทั้งเส้น cecum 12 cm → Ogilvie ให้ neostigmine",
+   "Sigmoid volvulus ส่องกล้องเห็นเยื่อบุดำ → ผ่าตัด Hartmann",
+   "ห่วงโป่งที่ซ้ายบนในหญิง 40 ปี → cecal volvulus ทำ right hemicolectomy"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 7 แถว Colo 2 — ตัวพิมพ์: <b>[รูป AXR] Obstipation, Not defecate, Diagnosis? — 1. Cecal volvulus 2. Sigmoid volvulus 3. Oglivie syndrome 4. Toxic megacolon</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>รูปในไฟล์: มีรูปประกอบในแถวนี้ (แสดงในโจทย์)<br>ที่ปรับในเว็บ: เรียบเรียง stem เป็นประโยค (เติม elderly man, ท้องอืดมากขึ้น, ไม่ถ่ายและไม่ผายลม 3 วัน) โดยไม่บรรยายภาพ; แก้ \"Oglivie\" → Ogilvie; ช้อย E (Small bowel obstruction) แต่งเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 7 · ตัวพิมพ์ + รูป (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p7"
+  ]
+ },
+ "MDCU79|RoC|Colo 3": {
+  "interp": "หญิงกลั้นอุจจาระไม่อยู่ตั้งแต่คลอดบุตรทางช่องคลอด 2 ครั้ง → ถามกล้ามเนื้อที่บาดเจ็บที่น่าจะเป็นที่สุด",
+  "why": "การคลอดทางช่องคลอดเป็น<b>สาเหตุที่พบบ่อยที่สุด</b>ของ fecal incontinence ในหญิง · บาดเจ็บที่เกิดคือ<b>ฝีเย็บฉีกขาดระดับ 3–4 (obstetric anal sphincter injury, OASIS)</b> ซึ่งฉีกผ่าน<b>ส่วนหน้า (anterior) ของหูรูดภายนอก (external anal sphincter)</b> เพราะเป็นด้านที่ติดกับฝีเย็บและช่องคลอด · ปัจจัยเสี่ยง: ลูกคนแรก ทารกตัวใหญ่ ใช้ forceps ตัดฝีเย็บแนวกลาง ระยะเบ่งนาน · ตรวจด้วย <b>endoanal ultrasound</b> เห็นรอยขาดด้านหน้า · รักษา: biofeedback/ ยาให้อุจจาระเป็นก้อน → ถ้ายังไม่ดีและมีรอยขาดชัด → <b>overlapping sphincteroplasty</b> หรือ sacral nerve stimulation · ไฟล์ 79C หน้า 8 แถว Colo 3 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"เคยคลอดบุตร 2 ครั้ง ตั้งแต่นั้นมาก็มีประวัติ fecal incontinence\"</b> ช้อยแรก <b>\"anterior section of external sphincter\"</b>",
+  "wrong": {
+   "B": "ส่วนหลังของหูรูดภายนอกไม่อยู่ในแนวที่ฉีกตอนคลอด (ฝีเย็บอยู่ด้านหน้า) · จะถูกถ้าบาดเจ็บจากการผ่าตัด fistula ด้านหลังที่ตัดหูรูดมากเกิน",
+   "C": "หูรูดภายในด้านหน้าอาจฉีกร่วมใน grade 3c–4 แต่หูรูดภายในคุมการกลั้นขณะพัก (passive) อาการเด่นคืออุจจาระซึม ส่วนการบาดเจ็บหลักจากการคลอดคือหูรูดภายนอก · จะถูกถ้าถามสาเหตุของอุจจาระซึมขณะพัก (passive soiling) หลังผ่าตัด lateral internal sphincterotomy",
+   "D": "หูรูดภายในด้านหลังไม่ใช่ตำแหน่งที่บาดเจ็บจากการคลอด · จะถูกถ้าไม่มีสถานการณ์การคลอดที่ทำให้หูรูดภายในด้านหลังขาด",
+   "E": "Puborectalis อาจเสียหายจากการยืด/ เส้นประสาท pudendal ถูกดึง (levator avulsion) แต่ตำแหน่งฉีกขาดที่พบบ่อยที่สุดคือหูรูดภายนอกด้านหน้า · จะถูกถ้าถามกล้ามเนื้อที่สร้าง anorectal angle แล้ว MRI เห็น levator ani หลุดจากกระดูกหัวหน่าว"
+  },
+  "trap": "ตอบ internal sphincter เพราะคิดว่าเป็นตัวกลั้นหลัก — การคลอดฉีกหูรูดภายนอกด้านหน้า (ติดฝีเย็บ)",
+  "summary": [
+   "Fecal incontinence ในหญิง: สาเหตุบ่อยสุด = บาดเจ็บจากการคลอด",
+   "OASIS: ฝีเย็บฉีก grade 3 (หูรูดภายนอก ± ภายใน) · grade 4 (ถึงเยื่อบุ)",
+   "ตำแหน่ง: ส่วนหน้าของหูรูดภายนอก",
+   "External: กลั้นเมื่อมีปวด (squeeze, voluntary) · Internal: กลั้นขณะพัก (70–85% resting tone)",
+   "ตรวจ: endoanal US · anorectal manometry",
+   "รักษา: ใยอาหาร loperamide biofeedback → sphincteroplasty/ sacral neuromodulation"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ตาม ASCRS Fecal Incontinence Guideline และตำราสูติศาสตร์ การคลอดฉีกส่วนหน้าของหูรูดภายนอก",
+  "mnemonic": "<b>'คลอดแล้วกลั้นไม่อยู่ = หูรูดนอก ด้านหน้า (ติดฝีเย็บ)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Fecal Incontinence (Dis Colon Rectum 2023;66:647); RCOG Green-top Guideline No. 29: Third- and Fourth-degree Perineal Tears (2015)",
+  "variants": [
+   "หลัง lateral internal sphincterotomy อุจจาระซึมขณะพัก → internal sphincter บาดเจ็บ",
+   "Endoanal US เห็นรอยขาดหูรูดภายนอกด้านหน้า 90° → overlapping sphincteroplasty",
+   "ผู้สูงอายุกลั้นไม่อยู่ไม่มีรอยขาด → biofeedback ± sacral nerve stimulation"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 7 แถว Colo 3 — ตัวพิมพ์: <b>เคยคลอดบุตร  2 ครั้ง ตั้งแต่นั้นมาก็มีประวัติ fecal incontinence มันน่าเกิดจาก muscle อะไร — 1. anterior section of external sphincter 2. posterior section of external sphincter 3. anterior section of internal sphincter 4. posterior section of internal sphincter 5. Puborectalis</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: แปลคำถามเป็นอังกฤษ (ระบุ vaginal deliveries); ช้อย \"section of\" → \"part of the ... anal sphincter\" ความหมายเดิม; ไม่ได้แต่งช้อยเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 7 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p7"
+  ]
+ },
+ "MDCU79|RoC|Colo 4": {
+  "interp": "ชาย 62 ปีอยู่สถานพยาบาลระยะยาว ปวดท้องน้อย ไข้ CT เป็น <b>sigmoid diverticulitis มีฝีในอุ้งเชิงกราน 7 cm</b> สัญญาณชีพคงที่ ไม่มี peritonitis ทั่วท้อง → ถามการจัดการที่เหมาะสม",
+  "why": "Diverticulitis ที่มีฝี (<b>Hinchey II</b> — ฝีในอุ้งเชิงกรานหรือไกลออกไป) · ฝี<b>ขนาดใหญ่ ≥ 3–4 cm</b> ยาปฏิชีวนะอย่างเดียวมักไม่พอ → <b>percutaneous drainage (CT-guided) ร่วมกับ IV antibiotic</b> ในผู้ป่วยที่สัญญาณชีพคงที่และไม่มี peritonitis ทั่วท้อง · ช่วยให้ไม่ต้องผ่าตัดฉุกเฉิน (ซึ่งมักจบด้วย colostomy) และถ้าต้องผ่าตัดภายหลังจะเป็นแบบ elective ต่อลำไส้ได้ครั้งเดียว · ฝีเล็ก &lt; 3 cm → IV antibiotic อย่างเดียวได้ · มี peritonitis ทั่วท้อง (Hinchey III–IV) หรือช็อก → ผ่าตัดฉุกเฉิน · ไฟล์ 79C หน้า 8 แถว Colo 4 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"CT เละ ๆ abscess ใหญ่ ๆ แถว pelvis what is most tolerable management?\"</b> ช้อย <b>\"PCD + IV antibiotic\"</b>",
+  "wrong": {
+   "A": "ยากินใช้กับ uncomplicated diverticulitis ที่อาการน้อย ผู้ป่วยนอก ไม่ใช่ฝี 7 cm · จะถูกถ้าชาย 50 ปีปวดท้องซ้ายล่างเล็กน้อย ไข้ต่ำ CT เป็น diverticulitis ไม่มีฝี กินได้",
+   "B": "Admit + IV antibiotic อย่างเดียวเหมาะกับฝีเล็ก &lt; 3 cm ฝี 7 cm ยาเข้าไม่ถึงหนองมักไม่หาย · จะถูกถ้าฝีขนาด 2 cm ข้าง sigmoid",
+   "C": "ผ่าตัดฉุกเฉินใช้กับ peritonitis ทั่วท้อง ช็อก หรือระบายฝีแล้วไม่ดีขึ้น ผู้ป่วยคงที่จึงไม่จำเป็นและเสี่ยงสูงในผู้สูงอายุ · จะถูกถ้ามีกดเจ็บทั่วท้อง ลมใต้กะบังลม ช็อก (Hinchey III–IV)",
+   "D": "Laparoscopic lavage ใช้ใน Hinchey III (purulent peritonitis) บางราย ไม่ใช่ฝีที่ระบายผ่านผิวหนังได้ · จะถูกถ้ามี purulent peritonitis ทั่วท้องโดยไม่มีอุจจาระรั่ว ในศูนย์ที่มีประสบการณ์"
+  },
+  "trap": "ฝีขนาดใหญ่แต่ผู้ป่วยคงที่ไม่จำเป็นต้องผ่าตัดเปิดท้อง — ระบายผ่านผิวหนังได้",
+  "summary": [
+   "Hinchey I: ฝีข้างลำไส้ · II: ฝีในอุ้งเชิงกราน/ ไกล · III: หนองทั่วท้อง · IV: อุจจาระทั่วท้อง",
+   "Uncomplicated → ยากิน/ ไม่ต้องให้ยาในรายเลือก (ผู้ป่วยแข็งแรง)",
+   "ฝี &lt; 3 cm → IV ATB · ≥ 3–4 cm → percutaneous drainage + IV ATB",
+   "Hinchey III–IV/ ช็อก → ผ่าตัด (Hartmann หรือ resection + anastomosis ± stoma)",
+   "หลังหาย → colonoscopy แยกมะเร็ง (6–8 สัปดาห์)",
+   "Elective sigmoidectomy: พิจารณาเป็นรายไป (ไม่ใช้จำนวนครั้งเป็นเกณฑ์)"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ตาม ASCRS Diverticulitis Guideline 2020 ฝีขนาดใหญ่ในผู้ป่วยคงที่ใช้ percutaneous drainage + IV antibiotic",
+  "mnemonic": "<b>'ฝีจาก diverticulitis ≥ 3–4 cm + stable = เจาะระบายผ่านผิว + ยาฉีด'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020;63:728)",
+  "variants": [
+   "Diverticulitis ฝี 2 cm stable → IV ATB อย่างเดียว",
+   "Diverticulitis มีลมใต้กะบังลม กดเจ็บทั่วท้อง ช็อก → Hartmann procedure",
+   "6 สัปดาห์หลังหาย → colonoscopy แยกมะเร็ง"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 7 แถว Colo 4 — ตัวพิมพ์: <b>คุณลุง อายุ 62 ปี อยู่สถานพยาบาลระยะยาว CT เละ ๆ abscess ใหญ่ ๆ แถว pelvis what is most tolerable management? — 1. oral antibiotics 2. IV antibiotics + admit 3. Emergency Sigmoidectomy 4. laparotomy lavage 5. PCD + IV antibiotic</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: เติม <b>อาการปวดท้องน้อยและไข้, สาเหตุ sigmoid diverticulitis, ขนาด abscess 7 cm, hemodynamically stable ไม่มี generalized peritonitis</b> (ต้นฉบับบอกแค่ abscess ใหญ่แถว pelvis); เปลี่ยน \"most tolerable\" เป็น \"most appropriate\"; \"PCD\" → percutaneous drainage; ไม่ได้แต่งช้อยเพิ่ม",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 7 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p7"
+  ]
+ },
+ "MDCU79|RoC|Colo 5": {
+  "interp": "ชาย 58 ปีมะเร็ง rectum ส่วนกลาง ห่างทวาร 8 cm MRI เป็น <b>T2N1</b> mesorectal fascia ปลอดมะเร็ง ไม่มีการกระจาย → ถามการรักษา",
+  "why": "มะเร็ง rectum ส่วนกลาง-ล่าง ที่<b>มีต่อมน้ำเหลืองบวก (N+)</b> หรือ T3–T4 = locally advanced → <b>neoadjuvant therapy (chemoradiation หรือ total neoadjuvant therapy)</b> ก่อนผ่าตัด เพื่อ<b>ลดการกลับเป็นซ้ำเฉพาะที่</b> · แล้วผ่าตัดด้วยหลัก <b>total mesorectal excision (TME)</b> — ก้อนห่างทวาร 8 cm เก็บหูรูดได้จึงทำ <b>low anterior resection (LAR)</b> · APR ใช้เมื่อก้อนลามหูรูดหรืออยู่ต่ำมากจนเก็บไม่ได้ · ปัจจุบันกลุ่มที่ตอบสนองสมบูรณ์ (clinical complete response) อาจเลือก watch-and-wait · ไฟล์ 79C หน้า 8 แถว Colo 5 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"rectal cancer T2N1M0 management — 1. Chemoradiation + Low anterior resection + TME\"</b>",
+  "wrong": {
+   "B": "APR ตัดหูรูดและทวารทิ้งถาวร ใช้เมื่อก้อนอยู่ต่ำมาก ลามหูรูด หรือหูรูดไม่ดี ก้อน 8 cm เก็บหูรูดได้ และ N+ ควรได้ neoadjuvant ก่อน · จะถูกถ้าก้อนอยู่ห่างทวาร 2 cm ลามเข้าหูรูดภายนอก",
+   "C": "เคมีบำบัด + ตัดต่อมน้ำเหลืองอย่างเดียวไม่ได้เอาก้อนต้นกำเนิดออก ไม่ใช่การรักษามะเร็ง rectum · จะถูกถ้าไม่มีสถานการณ์ที่รักษามะเร็ง rectum ระยะนี้ด้วยวิธีนี้",
+   "D": "Palliative ใช้กับโรคแพร่กระจายที่รักษาไม่ได้ ผู้ป่วย M0 ยังหายขาดได้ · จะถูกถ้ามีการกระจายทั่วตับและปอดในผู้ป่วยสภาพไม่ไหว มีการอุดตัน (diverting colostomy)",
+   "E": "Local excision (TAMIS/ TEM) ใช้กับ T1N0 ขนาดเล็ก ความเสี่ยงต่ำเท่านั้น N1 มีต่อมน้ำเหลืองบวก การตัดเฉพาะที่ไม่เอาต่อมน้ำเหลืองออก · จะถูกถ้าก้อน T1N0 ขนาด 2 cm low grade ไม่มี LVI"
+  },
+  "trap": "สับสน colon กับ rectum — rectum ส่วนกลาง-ล่าง N+ ต้องให้ neoadjuvant ก่อน (ต่างจาก colon ที่ผ่าก่อน)",
+  "summary": [
+   "Rectal cancer staging: MRI pelvis (T, N, CRM/ MRF, EMVI) + CT C/A/P",
+   "T3–4 หรือ N+ (กลาง-ล่าง) → neoadjuvant (CRT หรือ TNT) → TME",
+   "ก้อนเก็บหูรูดได้ → LAR + TME ± diverting ileostomy · ต่ำมาก/ ลามหูรูด → APR",
+   "T1N0 ความเสี่ยงต่ำ → local excision (TAMIS/ TEM)",
+   "Clinical complete response → watch-and-wait ในศูนย์ที่ติดตามได้",
+   "dMMR/ MSI-high → immunotherapy (dostarlimab) อาจหายโดยไม่ต้องผ่า"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ตรงกับช้อยแรกที่ผู้จดพิมพ์และ NCCN Rectal Cancer · เติมระยะห่างทวาร 8 cm และ MRF ปลอดมะเร็งเพื่อให้เลือก LAR ได้ชัด",
+  "mnemonic": "<b>'Rectum N+ = รังสี-เคมีก่อน แล้ว TME (เก็บหูรูดได้ = LAR)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Rectal Cancer v.2024; ASCRS Clinical Practice Guidelines for the Management of Rectal Cancer (Dis Colon Rectum 2023;66:1)",
+  "variants": [
+   "มะเร็ง rectum T1N0 2 cm ไม่มี LVI → transanal local excision",
+   "มะเร็ง rectum ห่างทวาร 2 cm ลามหูรูด → neoadjuvant แล้ว APR",
+   "หลัง TNT ส่องกล้องและ MRI ไม่เห็นก้อน → watch-and-wait ติดตามใกล้ชิด"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 8 แถว Colo 5 — ตัวพิมพ์: <b>rectal cancer T2N1M0 management — 1. Chemoradiation + Low anterior resection + TME 2. APR abdominal perineal resection 3. Chemotherapy + LN resection 4. Palliative</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: เติม <b>อายุ 58 ปี, ตำแหน่ง mid rectum 8 cm จาก anal verge, MRI T2N1 mesorectal fascia ไม่ถูกลุกลาม, CT ไม่มี distant metastasis</b> (ต้นฉบับไม่บอกตำแหน่ง ซึ่งเป็นตัวตัดสินระหว่าง LAR กับ APR); เรียบเรียงช้อยให้ยาวใกล้กัน — ช้อย 2 เป็น \"Upfront abdominoperineal resection without neoadjuvant therapy\", ช้อย 3 \"Systemic chemotherapy and lymph node dissection only\", ช้อย 4 \"Palliative care and diverting colostomy only\"; ช้อย E (Transanal local excision followed by observation) แต่งเพิ่ม; หมายเหตุ: มะเร็งลำไส้ใหญ่สอนในวอร์ด Gen Sx ด้วย แต่ข้อนี้อยู่ใน section Colo ของชุด Subspe จึงใส่ไว้ตามไฟล์",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 8 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p8"
+  ]
+ },
+ "MDCU79|RoC|Colo 6": {
+  "interp": "ชาย 60 ปีผ่าตัดมะเร็งลำไส้ใหญ่ stage III และได้เคมีเสริมแล้ว ติดตามพบ<b>ก้อนในตับ 2 ก้อนขนาด 2–3 cm ที่ segment VI, VII</b> ไม่มีที่อื่น แข็งแรง ตับที่เหลือพอ → ถามการจัดการ",
+  "why": "<b>Metachronous colorectal liver metastasis ที่ตัดได้ (resectable)</b> — ก้อนน้อย อยู่ส่วนเดียวของตับ (segment VI–VII ตับขวาด้านหลัง) ไม่มีโรคนอกตับ ตับที่เหลือพอ ผู้ป่วยแข็งแรง → <b>ผ่าตัดตับ (hepatectomy)</b> เป็นการรักษาที่<b>ให้โอกาสหายขาด</b> (รอด 5 ปี ~40–50%) · อาจทำ anatomical (right posterior sectionectomy) หรือ parenchymal-sparing resection · ร่วมกับเคมีก่อน/ หลังผ่าตัดตามดุลยพินิจ · ablation ใช้กับก้อนเล็ก ≤ 3 cm ที่ตัดยากหรือผู้ป่วยเสี่ยงสูง · ไฟล์ 79C หน้า 8 แถว Colo 6 ช่องเฉลยว่าง ผู้จดพิมพ์ <b>\"recurrence 2 ก้อน 2-3 cm ที่ lobe VI, VII ไม่มีที่อื่น ต้องทำอะไร — 1. Liver resection\"</b>",
+  "wrong": {
+   "B": "RFA เป็นทางเลือกสำหรับก้อน ≤ 3 cm ที่ตัดยาก (ลึก ใกล้หลอดเลือดใหญ่) หรือผู้ป่วยผ่าตัดไม่ได้ แต่กลับเป็นซ้ำเฉพาะที่มากกว่าการตัดเมื่อก้อนใกล้ 3 cm · จะถูกถ้าก้อน 1.5 cm ลึกกลางตับในผู้ป่วยโรคหัวใจรุนแรง",
+   "C": "เคมีอย่างเดียวใช้กับโรคที่ตัดไม่ได้ ผู้ป่วยในโจทย์ตัดได้และมีโอกาสหายขาด · จะถูกถ้ามีก้อนในตับ 12 ก้อนทั้งสองข้างร่วมกับก้อนในปอด",
+   "D": "ปลูกถ่ายตับใน CRLM ทำในบางศูนย์สำหรับโรคที่<b>ตัดไม่ได้</b>และจำกัดเฉพาะตับ ไม่ใช่สำหรับโรคที่ตัดได้ · จะถูกถ้าก้อนในตับตัดไม่ได้ทั้งหมด ควบคุมได้ด้วยเคมีนาน ไม่มีโรคนอกตับ ในศูนย์ที่ทำโครงการ",
+   "E": "ประคับประคองใช้เมื่อรักษาไม่ได้ ผู้ป่วยแข็งแรงและตัดได้ · จะถูกถ้าผู้ป่วยมีโรคทั่วตัว ECOG 4"
+  },
+  "trap": "คิดว่ามะเร็งกลับมาที่ตับ = ระยะสุดท้าย — CRLM ที่ตัดได้ยังหายขาดได้ด้วยการตัดตับ",
+  "summary": [
+   "CRLM resectable: R0 ได้ + FLR พอ + ไม่มีโรคนอกตับที่คุมไม่ได้ + ผู้ป่วยแข็งแรง",
+   "ตัดตับ → รอด 5 ปี ~40–50%",
+   "Ablation: ≤ 3 cm · ตัดยาก/ เสี่ยงสูง · ร่วมกับการตัด",
+   "FLR ไม่พอ → portal vein embolization/ two-stage hepatectomy",
+   "Unresectable → systemic chemo ± biologic → ประเมิน conversion",
+   "ติดตามหลังผ่าตัด: CEA + CT ตามกำหนด"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ไม่มีเฉลย แต่ตรงกับช้อยแรกที่ผู้จดพิมพ์และ NCCN Colon Cancer · ข้อนี้คล้าย 79C (Gen) ไม่มีเลข 6 ที่ถามเรื่องเดียวกัน",
+  "mnemonic": "<b>'มะเร็งลำไส้กลับมาที่ตับ ก้อนน้อย ตัดได้ = ตัด'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025 — Metastatic disease; Blumgart's Surgery of the Liver, Biliary Tract and Pancreas 7th ed. (2023)",
+  "variants": [
+   "CRLM 10 ก้อนทั้งสองข้าง → systemic chemo + biologic แล้วประเมินใหม่",
+   "CRLM ก้อนเดียว 1.5 cm ลึกใกล้ hepatic vein ผู้ป่วยเสี่ยงสูง → ablation",
+   "CRLM ตัดได้แต่ FLR 18% → portal vein embolization ก่อน"
+  ],
+  "notes": "ไฟล์ 79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 8 แถว Colo 6 — ตัวพิมพ์: <b>colorectal cancer stage 3 after surgery coming for surveillance, recurrence 2 ก้อน 2-3 cm ที่ lobe VI, VII ไม่มีที่อื่น ต้องทำอะไร — 1. Liver resection 2. Radiofrequency ablation 3. (ว่าง)</b><br>ช่องเฉลยของแถวนี้: ว่าง<br>ไฟล์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf หน้า 3 — ตัวพิมพ์: <b>หัวตาราง \"ข้อ · เฉลย · โจทย์\" ของหมวดนี้</b> ช่องเฉลยทุกแถวว่าง (เทมเพลตเปล่า)<br>ลายมือ: ไม่มี (ทั้งสองไฟล์เป็นตัวพิมพ์ ไม่มีลายมือหรือไฮไลต์)<br>ที่ปรับในเว็บ: stem ระบุเป็น colon cancer และเติม <b>อายุ 60 ปี, adjuvant chemotherapy หลังผ่าตัด, \"He is fit, and the predicted future liver remnant is adequate\"</b> เพื่อให้ resection เป็นคำตอบชัดเจน; \"lobe\" → segments; ช้อย C–E แต่งเพิ่ม (ช้อย 3 ต้นฉบับว่าง)",
+  "src": "79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf · หน้า 8 · ตัวพิมพ์ (ไม่มีลายมือ) · คีย์ Key_79C_MCQ_Subspec_Sx_AC_Sx_MCQ_79_Ro_C_MDCU.pdf เทมเพลตเปล่า",
+  "kimg": [
+   "f79c_p8"
+  ]
+ }
+}
