@@ -1,192 +1,332 @@
 {
  "MDCU67|RoD|21": {
-  "interp": "ถามรอยโรคผิวหนังที่เป็นภาวะก่อนมะเร็ง",
-  "why": "<b>คีย์: ขีด b + ลายมือ → SCC</b><br><b>นอกสไลด์:</b> actinic keratosis เป็นเซลล์ keratinocyte ผิดปกติในชั้นหนังกำพร้าจากแสงแดดสะสม (ผื่นหยาบสาก ขุยติดแน่นบนผิวที่โดนแดด) บางจุดพัฒนาเป็น SCC จึงจัดเป็นภาวะก่อนมะเร็ง",
+  "interp": "ถามรอยโรคผิวหนังที่เป็น <b>premalignant lesion</b> (กลายเป็นมะเร็งได้)",
+  "why": "<b>Actinic (solar) keratosis</b> เกิดจากแดดสะสม เป็นผื่นแดงขุยหยาบบริเวณที่โดนแดด (หน้า หลังมือ หนังศีรษะล้าน) · เป็น <b>premalignant ของ squamous cell carcinoma</b> (บางรายกลายเป็น SCC in situ/ invasive SCC) · ไฟล์ขีด b ลายมือ <b>\"MIC\"</b> และแปะสไลด์ Actinic Keratosis → SCC",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ dermatofibroma เป็นภาวะก่อนมะเร็ง เพราะเป็นก้อนพังผืดไม่ร้ายของหนังแท้ (กดข้างแล้วบุ๋ม) ไม่กลายเป็นมะเร็ง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ capillary hemangioma เป็นภาวะก่อนมะเร็ง เพราะเป็นเนื้องอกหลอดเลือดไม่ร้ายที่โตแล้วยุบเอง",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ seborrheic keratosis เป็นภาวะก่อนมะเร็ง เพราะเป็นติ่งหนังกำพร้าไม่ร้ายที่ดูเหมือนแปะติดผิว ไม่กลายเป็นมะเร็ง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ lipoma เป็นภาวะก่อนมะเร็ง เพราะ liposarcoma เกิดขึ้นใหม่ ไม่ได้เปลี่ยนมาจาก lipoma"
+   "A": "Dermatofibroma: ตุ่มแข็งสีน้ำตาล บีบแล้วบุ๋ม (dimple sign) เป็นก้อนเนื้องอกธรรมดา · จะถูกถ้าคำถามถามตุ่มแข็งที่ขาหลังแมลงกัด บีบแล้วบุ๋ม",
+   "C": "Capillary (infantile) hemangioma: เนื้องอกหลอดเลือดในทารก โตเร็วแล้วยุบเองได้ ไม่กลายเป็นมะเร็ง · จะถูกถ้าคำถามถามก้อนแดงในทารกที่ยุบเองได้ (รักษาด้วย propranolol ถ้าจำเป็น)",
+   "D": "Seborrheic keratosis: ตุ่มนูนสีน้ำตาลดำ ผิวเหมือนแปะไว้ (stuck-on) ในผู้สูงอายุ เป็นก้อนธรรมดา · จะถูกถ้าคำถามถามรอยโรคที่ขึ้นพร้อมกันจำนวนมากทันที (Leser-Trélat sign) ที่บอกถึงมะเร็งในช่องท้อง",
+   "E": "Lipoma: ก้อนไขมันนุ่ม เคลื่อนได้ แทบไม่กลายเป็นมะเร็ง · จะถูกถ้าคำถามถามก้อนนุ่มใต้ผิวหนังที่เคลื่อนได้ ไม่เจ็บ"
   },
-  "trap": "กลัว seborrheic keratosis เพราะสีดำ ขอบนูน ดูน่ากลัว — ลักษณะแปะติดผิวมีรูเล็ก ๆ เป็นของไม่ร้าย ส่วน actinic keratosis ดูไม่น่ากลัว (ผื่นแดงหยาบ) แต่เป็นภาวะก่อนมะเร็ง",
+  "trap": "จำผิดว่า seborrheic keratosis เป็น premalignant เพราะชื่อคล้าย actinic keratosis · seborrheic keratosis ไม่กลายเป็นมะเร็ง",
   "summary": [
-   "<b>นอกสไลด์:</b> ภาวะก่อนมะเร็งที่ควรรู้: actinic keratosis → SCC · Bowen disease (SCC in situ) · leukoplakia/erythroplakia ในช่องปาก → SCC · แผลเป็นหรือแผลเรื้อรังนาน → Marjolin (SCC) · giant congenital nevus → melanoma"
+   "Actinic keratosis → SCC",
+   "Bowen disease = SCC in situ",
+   "Marjolin ulcer = SCC บนแผลเรื้อรัง/ แผลไฟไหม้",
+   "Xeroderma pigmentosum → BCC/ SCC/ melanoma",
+   "Dysplastic nevus/ giant congenital nevus → melanoma",
+   "Actinic keratosis รักษา: cryotherapy/ 5-FU cream/ imiquimod"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง · ไฟล์มีช้อย 3 ข้อ Claude เติม D–E",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Actinic = แดด → SCC (Sun → Squamous)'</b>",
+  "guide": "Bolognia Dermatology 5th ed. (2024) — Actinic keratosis and squamous cell carcinoma",
   "variants": [
-   "<b>นอกสไลด์:</b> actinic keratosis บนหลังมือหนาขึ้น เจ็บ และเป็นแผล → ตัดชิ้นเนื้อหา SCC",
-   "<b>นอกสไลด์:</b> ผู้ป่วยปลูกถ่ายไตกินยากดภูมิ มี actinic keratosis หลายสิบจุดที่หน้า → รักษาทั้งบริเวณ (5-FU หรือ photodynamic therapy) และตรวจผิวหนังถี่ เพราะเสี่ยง SCC สูงมาก"
+   "ผู้สูงอายุทำสวน ผื่นแดงขุยหยาบที่หน้า → actinic keratosis",
+   "แผลไฟไหม้เก่า 30 ปี กลายเป็นแผลเรื้อรังขอบนูน → Marjolin ulcer",
+   "ตุ่มสีน้ำตาลเหมือนแปะบนผิวจำนวนมากขึ้นทันที → Leser-Trélat → หามะเร็งกระเพาะ"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 138 — ตัวพิมพ์: <b>21. ข้อใดเป็น pre-malignant lesion — a. dermatofibrosis b. actinic kerotosis c. capillary hemangioma</b><br>ลายมือ: ขีด b · เขียน \"MIC\" (สีแดง) หน้าช้อย b<br>ไฮไลต์: \"pre-malignant lesion\" · b (เหลือง)<br>รูปที่แปะ: สไลด์หมายเลข 3 \"Actinic Keratosis\" → ลูกศรไป SCC พร้อมรูปรอยโรคผิวหนัง 6 รูปและรูปผื่น erythematous plaque<br>ที่ปรับในเว็บ: แก้ dermatofibrosis เป็น Dermatofibroma · ในไฟล์มีแค่ช้อย a–c เว็บเพิ่ม D Seborrheic keratosis และ E Lipoma",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 138",
+  "kimg": [
+   "fsk_p138",
+   "kp67d_21"
   ]
  },
  "MDCU67|RoD|22": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับ biliary atresia (ช้อย E รวมข้อ b และ d)",
-  "why": "<b>ไม่มีเฉลยในไฟล์ · ผู้จดขีดทั้ง b และ d (ลายมือ a portoenterostomy · c ก่อน 2 เดือน)</b><br><b>นอกสไลด์:</b> ถ้าไม่รักษา ตับแข็งจากท่อน้ำดีอุดตันจนเสียชีวิตส่วนใหญ่ภายในราว 2 ปี และเมื่อตับล้มเหลว (หลัง Kasai ไม่สำเร็จหรือตับแข็งดำเนินต่อ) ต้องปลูกถ่ายตับ — ข้อ b และ d จึงถูกทั้งคู่",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับ <b>biliary atresia</b>",
+  "why": "ถ้าไม่ผ่าตัด เด็ก biliary atresia จะเกิด biliary cirrhosis และ<b>เสียชีวิตส่วนใหญ่ภายใน 2 ปี</b> (b ถูก) · ถ้า Kasai ไม่สำเร็จหรือตับแข็งระยะท้าย ต้องทำ <b>liver transplantation</b> (d ถูก) · จึงตอบ E (b + d) · ไฟล์ขีดทั้ง b และ d แก้ลายมือ <b>\"portoenterostomy\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Kasai เป็น choledochojejunostomy เพราะ Kasai ตามนิยามคือการต่อ jejunum กับ porta hepatis ส่วนการต่อท่อน้ำดีที่ยังเปิดกับลำไส้เรียก hepaticojejunostomy",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะเป็นเพียงข้อความเรื่องธรรมชาติของโรค ขณะที่ข้อความเรื่องการปลูกถ่ายตับก็ถูกเช่นกัน",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"รักษาก่อน 6 เดือน\" เป็นเป้าที่ถูก เพราะหลังราว 2–3 เดือนตับแข็งมากแล้ว Kasai ได้ผลน้อย เป้าคือผ่าตัดก่อนราว 60 วัน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะเป็นเพียงข้อความเรื่องการรักษาเมื่อตับล้มเหลว ขณะที่ข้อความเรื่องอายุขัยเมื่อไม่รักษาก็ถูกเช่นกัน"
+   "A": "Kasai คือ <b>hepatoportoenterostomy</b> (ต่อลำไส้ Roux-en-Y กับ porta hepatis) ไม่ใช่ choledochojejunostomy เพราะท่อน้ำดีนอกตับตีบตันไปแล้ว · จะถูกถ้าคำถามถามการผ่าตัดที่ต่อท่อน้ำดีกับลำไส้เล็ก (choledochal cyst หลังตัดถุง → hepaticojejunostomy)",
+   "B": "ถูกแต่ไม่ครบ เพราะข้อ D ก็ถูก · จะถูกถ้าคำถามถามธรรมชาติของโรคที่ไม่ได้รักษาเพียงข้อเดียว",
+   "C": "ควรผ่าตัด Kasai <b>ก่อนอายุ 60 วัน (2 เดือน)</b> ไม่ใช่ 6 เดือน ยิ่งช้าน้ำดียิ่งไหลไม่ดี · จะถูกถ้าคำถามถามระยะเวลาก่อน 2 เดือน",
+   "D": "ถูกแต่ไม่ครบ เพราะข้อ B ก็ถูก · จะถูกถ้าคำถามถามการรักษาเมื่อ Kasai ล้มเหลวเพียงข้อเดียว"
   },
-  "trap": "สับสน Kasai กับการต่อท่อน้ำดี — ใน biliary atresia ไม่มีท่อน้ำดีนอกตับที่เปิดให้ต่อ Kasai จึงตัดพังผืดที่ porta hepatis แล้วต่อลำไส้เล็กกับ porta (portoenterostomy)",
+  "trap": "คิดว่า Kasai = choledochojejunostomy และจำเวลาผ่าตัดผิดเป็น 6 เดือน · ช้อยในไฟล์เดิมไม่มีตัวเลือกรวม ผู้จดจึงขีดทั้ง b และ d ไม่มีคีย์ตัวเดียว",
   "summary": [
-   "<b>นอกสไลด์:</b> ดูแลหลัง Kasai: ursodeoxycholic acid ยาปฏิชีวนะป้องกัน cholangitis และนมที่มี MCT · ตัวชี้วัดว่าสำเร็จ: bilirubin &lt; 2 mg/dL ภายในราว 3 เดือน"
+   "BA: ตัวเหลือง direct bilirubin สูง + อุจจาระซีด (acholic stool) อายุ 2–8 สัปดาห์",
+   "US: triangular cord sign · ไม่เห็น gallbladder",
+   "วินิจฉัยยืนยัน: intraoperative cholangiogram",
+   "Kasai hepatoportoenterostomy ก่อน 60 วัน",
+   "ไม่รักษา → ตับแข็ง เสียชีวิตภายใน 2 ปี",
+   "Kasai ล้มเหลว → liver transplant (BA เป็นข้อบ่งชี้ปลูกถ่ายตับเด็กที่พบบ่อยที่สุด)"
   ],
-  "opinion": "ไม่มีคีย์ในไฟล์ — ผู้จดขีดทั้ง b และ d จึงรวมเป็นช้อย E ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่มีคีย์ตัวเดียว ผู้จดขีดทั้ง b และ d ซึ่งตรงกับคำตอบ E ในเว็บ (b + d)",
+  "mnemonic": "<b>'Kasai = porto (ต่อที่ porta hepatis) · 60 วัน · ไม่รักษาอยู่ได้ 2 ปี'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary atresia",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก direct bilirubin สูง อุจจาระซีด US และ HIDA ไม่ชัด → intraoperative cholangiography ยืนยันการวินิจฉัย แล้วทำ Kasai ในการผ่าตัดเดียวกัน",
-   "<b>นอกสไลด์:</b> ทารกหลัง Kasai มีจ้ำเลือดและเลือดออกในสมองโดยไม่มีอุบัติเหตุ → ขาดวิตามิน K จากการดูดซึมไขมันผิดปกติ: ให้วิตามิน K ทางหลอดเลือด"
+   "ทารก 6 สัปดาห์ ตัวเหลือง อุจจาระซีด direct bilirubin สูง → biliary atresia → Kasai",
+   "หลัง Kasai มีไข้ เหลืองมากขึ้น → ascending cholangitis",
+   "หลัง Kasai ตับแข็ง portal hypertension → liver transplant"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 138 — ตัวพิมพ์: <b>22. Which is true about biliary atresia — a. Kasai-operation induced choledocojejunos anastomosis b. ถ้าไม่รักษาจะมีชีวิตได้อีกประมาณ 2 ปี c. ควรทำการรักษาก่อน 6 เดือน d. ถ้าตับแย่ต้องไป transplant e. anti-inflammatory drug ใช้ใน delayed type BA เพราะมี ...</b><br>ลายมือ: ขีดฆ่า \"choledocojejunos\" แก้เป็น \"portoenterostomy\" · ขีด b และ ✓ · ขีดฆ่าเลข 6 แก้เป็น \"2\" · ขีด d และ ✓<br>ไฮไลต์: \"true about biliary atresia\" · b · d (เหลือง)<br>ที่ปรับในเว็บ: แก้ช้อย A ให้ชัดเจน · เปลี่ยนช้อย E จาก anti-inflammatory drug เป็นตัวเลือกรวม B + D ตามที่ผู้จดขีดสองข้อ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 138",
+  "kimg": [
+   "fsk_p138",
+   "kp67d_22"
   ]
  },
  "MDCU67|RoD|23": {
-  "interp": "ถามการรักษา choledochal cyst ชนิด I (Todani)",
-  "why": "<b>คีย์: ขีด c</b><br><b>นอกสไลด์:</b> choledochal cyst ต้องตัดถุงออกทั้งหมดแล้วต่อท่อน้ำดีตับกับ jejunum แบบ Roux-en-Y (hepaticojejunostomy) เพราะเยื่อบุถุงเสี่ยงเป็นมะเร็งท่อน้ำดี และการแยกทางน้ำดีออกจากน้ำย่อยตับอ่อนแก้ต้นเหตุจากรอยต่อท่อตับอ่อน–ท่อน้ำดีที่ผิดปกติ",
+  "interp": "ถามการรักษา <b>choledochal cyst type I</b> (Todani)",
+  "why": "Type I (ท่อน้ำดีนอกตับโป่งพองแบบ fusiform/ cystic) มีความเสี่ยง <b>cholangiocarcinoma</b> จึงต้อง <b>ตัดถุงออกทั้งหมด + Roux-en-Y hepaticojejunostomy</b> · ไฟล์ขีด c",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น pancreatic pseudocyst ที่เกิน 4–6 สัปดาห์ มีอาการ และผนังติดกับหลังกระเพาะ — ระบายถุงเข้ากระเพาะ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น pancreatic pseudocyst ที่มีอาการแต่ไม่ติดกระเพาะ อยู่ใต้ transverse mesocolon — ระบายถุงเข้า jejunum",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น choledochocele (Todani III) ที่ยื่นเข้า duodenum ซึ่งส่องกล้องตัดเปิดไม่ได้",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกตัวเหลืองอุจจาระซีดที่ผ่าตัดพบท่อน้ำดีนอกตับเป็นพังผืดตีบตัน (biliary atresia)"
+   "A": "Cystogastrostomy เป็นการระบายถุงเข้ากระเพาะ ใช้กับ <b>pancreatic pseudocyst</b> ที่ติดผนังกระเพาะ · จะถูกถ้าคำถามถามการรักษา pseudocyst หลังตับอ่อนอักเสบ",
+   "B": "Cystojejunostomy (cyst-enterostomy) เลิกทำแล้วในถุงน้ำดี เพราะเยื่อบุถุงยังอยู่ → cholangitis ซ้ำและ cholangiocarcinoma · จะถูกถ้าคำถามถามการระบาย pancreatic pseudocyst ที่ไม่ติดกระเพาะ",
+   "D": "Transduodenal excision/ marsupialization (หรือ endoscopic sphincterotomy) ใช้กับ <b>type III (choledochocele)</b> ที่โป่งในผนัง duodenum · จะถูกถ้าคำถามถาม type III",
+   "E": "Kasai operation ใช้กับ biliary atresia · จะถูกถ้าคำถามถามทารกตัวเหลือง อุจจาระซีด ท่อน้ำดีตีบตัน"
   },
-  "trap": "ต่อถุงกับลำไส้ (cystenterostomy) เพราะทำง่ายและระบายน้ำดีได้ — เยื่อบุถุงที่เหลือกลายเป็นมะเร็งท่อน้ำดีได้และน้ำดีคั่งติดเชื้อซ้ำ จึงต้องตัดถุงออก",
+  "trap": "เลือกแค่ระบายถุง (cystoenterostomy) ซึ่งง่ายกว่า แต่เหลือเยื่อบุที่เสี่ยงมะเร็ง",
   "summary": [
-   "<b>นอกสไลด์:</b> Todani กับการรักษา: I ท่อน้ำดีร่วมโป่ง (พบมากที่สุด) → ตัดถุง + hepaticojejunostomy · II ถุงยื่นด้านข้าง → ตัดถุง · III choledochocele → ส่องกล้องตัดเปิด · IVa โป่งทั้งในและนอกตับ → ตัดส่วนนอกตับ ± ตัดตับ · V Caroli (เฉพาะในตับ) → ตัดตับหรือปลูกถ่ายตับ"
+   "Todani I: fusiform/ cystic CBD (พบบ่อยสุด ~50–80%)",
+   "II: diverticulum ของ CBD → ตัด diverticulum",
+   "III: choledochocele → transduodenal excision/ sphincterotomy",
+   "IV-A: ในตับ + นอกตับ → excision + HJ ± hepatectomy",
+   "V: Caroli (ในตับ) → hepatectomy/ transplant",
+   "Classic triad: ปวดท้อง + ก้อน + เหลือง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Type I → I ตัดทิ้ง (excise) + Roux-en-Y · Type III → ทะลุ duodenum'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Choledochal cysts",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กปวดท้องเป็นพัก ตัวเหลือง คลำได้ก้อนใต้ชายโครงขวา US เห็นท่อน้ำดีโป่ง → MRCP ดูชนิดถุงและรอยต่อท่อตับอ่อน–ท่อน้ำดีก่อนผ่าตัด",
-   "<b>นอกสไลด์:</b> เคยผ่าตัดระบายถุงเข้าลำไส้ไว้นานหลายปี ต่อมาตัวเหลือง น้ำหนักลด → สงสัยมะเร็งท่อน้ำดีในเยื่อบุถุงที่เหลือ: CT/MRCP"
+   "เด็กหญิงปวดท้อง เหลือง ก้อนท้องขวาบน MRCP CBD โป่งแบบ fusiform → excision + Roux-en-Y HJ",
+   "ถุงโป่งเฉพาะส่วนปลาย CBD ในผนัง duodenum → type III → transduodenal excision",
+   "เคยทำ cystoenterostomy นานมาแล้ว มีเหลืองและน้ำหนักลด → นึกถึง cholangiocarcinoma"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 138 — ตัวพิมพ์: <b>23. วิธีการรักษา Choledocal duct cyst type I — a. cyst gastrotomy b. cyst jejunostomy c. excision + roux-en-y surgery d. trans-duodenal marsupialization e. Kasai operation</b><br>ลายมือ: ขีด c<br>ไฮไลต์: \"รักษา Choledocal duct cyst type I\" · c (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 138",
+  "kimg": [
+   "fsk_p138",
+   "kp67d_23"
   ]
  },
  "MDCU67|RoD|24": {
-  "interp": "ถามข้อความที่ถูก (ข้อเดียว) เรื่อง chronic constrictive pericarditis",
-  "why": "<b>คีย์: ขีด d</b><br><b>นอกสไลด์:</b> CT หรือ MRI เห็นเยื่อหุ้มหัวใจหนาและอาจมีหินปูน สนับสนุนการวินิจฉัย constrictive pericarditis",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับ <b>chronic constrictive pericarditis</b>",
+  "why": "<b>CT/ MRI เห็นเยื่อหุ้มหัวใจหนาขึ้น (&gt; 4 mm) ± หินปูน</b> ช่วยวินิจฉัย ร่วมกับลักษณะ septal bounce/ ventricular interdependence · ไฟล์ขีด d เขียน <b>\"ซ้ำ\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"pulsus paradoxus เกิดร่วมกับ AF\" เป็นลักษณะที่ถูก เพราะ AF ทำให้ความดันแต่ละจังหวะแปรปรวนจนวัด pulsus paradoxus ไม่ได้",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"การผ่าตัดหัวใจเป็นสาเหตุที่พบบ่อยที่สุด\" เป็นจริง เพราะสาเหตุหลักคือ idiopathic/viral ในประเทศพัฒนาแล้ว และวัณโรคในประเทศกำลังพัฒนา",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ท้องโตเป็นอาการที่พบบ่อยที่สุด\" เป็นจริง เพราะอาการที่พบบ่อยที่สุดคือเหนื่อยง่ายและอ่อนเพลียจากหัวใจรับเลือดได้จำกัด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกข้อถูก เพราะข้อความเรื่อง AF สาเหตุ และอาการที่พบบ่อยผิดทั้งสามข้อ"
+   "A": "Pulsus paradoxus เด่นใน <b>cardiac tamponade</b> พบไม่บ่อยใน constrictive pericarditis (เด่นที่ Kussmaul sign) และ AF ไม่ได้ทำให้เกิด · จะถูกถ้าคำถามถาม tamponade",
+   "B": "สาเหตุที่พบบ่อยที่สุดในประเทศพัฒนาแล้วคือ <b>idiopathic/ viral</b> (ส่วนประเทศกำลังพัฒนาคือ TB) ส่วนหลังผ่าตัดหัวใจเป็นอันดับรอง · จะถูกถ้าคำถามถามสาเหตุหนึ่งที่พบได้ (ไม่ใช่ที่พบบ่อยที่สุด)",
+   "C": "อาการเด่นคือ <b>เหนื่อยง่าย อ่อนเพลีย ขาบวม</b> (right-sided heart failure) ท้องโตจากน้ำในท้องพบได้แต่ไม่ใช่อาการที่พบบ่อยที่สุด · จะถูกถ้าคำถามถามอาการที่พบได้",
+   "E": "ข้ออื่นผิด จึงไม่ใช่ all of above · จะถูกถ้าทุกข้อถูก"
   },
-  "trap": "ให้ยาขับปัสสาวะจนบวมยุบแล้วถือว่าคุมโรคได้ ปล่อยไว้นาน — constrictive เรื้อรังรักษาให้หายด้วยการลอกเยื่อหุ้มหัวใจ การเลื่อนจนอาการรุนแรงทำให้ผลผ่าตัดแย่ลง",
+  "trap": "สับสน pulsus paradoxus (tamponade) กับ Kussmaul sign (constrictive) · จำสาเหตุหลังผ่าตัดหัวใจเป็นอันดับหนึ่ง",
   "summary": [
-   "<b>นอกสไลด์:</b> การรักษา: ระยะยังอักเสบ (CRP สูง MRI เยื่อหุ้มติดสี) → ยาต้านอักเสบราว 2–3 เดือน อาจหายเอง · จากวัณโรค → ยาวัณโรค · constrictive เรื้อรังมีอาการ → pericardiectomy ลอกเยื่อให้กว้างที่สุด (ระหว่าง phrenic nerve สองข้าง) ทำก่อนหัวใจล้มเหลวรุนแรง · ยาขับปัสสาวะช่วยอาการชั่วคราว"
+   "อาการ: right heart failure (JVP สูง ขาบวม ท้องมาน)",
+   "ตรวจร่างกาย: Kussmaul sign · pericardial knock",
+   "CXR: หินปูนที่เยื่อหุ้มหัวใจ",
+   "CT/ MRI: pericardium หนา &gt; 4 mm",
+   "Cath: dip-and-plateau (square root sign)",
+   "รักษา: pericardiectomy (ระยะเรื้อรัง)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Constrictive = Kussmaul + Knock + Kalcified · Tamponade = Paradoxus'</b>",
+  "guide": "2025 ESC Guidelines for the Management of Myocarditis and Pericarditis (Eur Heart J 2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วย constrictive หลังฉายรังสีทรวงอกร่วมลิ้นหัวใจและหลอดเลือดหัวใจเสื่อมจากรังสี → ผลลอกเยื่อแย่กว่าสาเหตุอื่น วางแผนผ่าตัดแก้ลิ้นหรือหลอดเลือดร่วมด้วย",
-   "<b>นอกสไลด์:</b> หลัง pericardiectomy ความดันตก ปัสสาวะน้อย หัวใจห้องล่างบีบตัวลด → low cardiac output หลังลอกเยื่อ: ยากระตุ้นหัวใจและคุมสารน้ำ"
+   "หลังเป็น TB มีขาบวม JVP สูง Kussmaul sign → constrictive pericarditis",
+   "หลังแทงทะลุหน้าอก BP ต่ำ JVP สูง เสียงหัวใจเบา → tamponade",
+   "CT เยื่อหุ้มหัวใจหนามีหินปูน + right heart failure → pericardiectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 138 — ตัวพิมพ์: <b>24. ข้อใดถูกเกี่ยวกับ chronic constrictive pericarditis — a. pulsus paradoxus เจอในคนที่มี AF b. most common cause คือ previous cardiac surgery c. abdominal distension เป็นอาการที่พบบ่อยที่สุด d. CT มีประโยชน์ในการ dx โดยจะเห็นเป็น pericardium ที่หนาขึ้น e. all of above</b><br>ลายมือ: เขียน \"ซ้ำ\" หน้าข้อ 24 · ขีด d<br>ไฮไลต์: \"chronic constrictive pericarditis\" · d (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 138",
+  "kimg": [
+   "fsk_p138",
+   "kp67d_24"
   ]
  },
  "MDCU67|RoD|25": {
-  "interp": "ถามเกณฑ์วินิจฉัย empyema จากน้ำเยื่อหุ้มปอด (ช้อย E รวม pH และ Gram stain)",
-  "why": "<b>คีย์: ขีด e</b><br><b>นอกสไลด์:</b> pH ต่ำ (&lt; 7) จากกรดที่เชื้อและเม็ดเลือดขาวสร้าง และการเห็นเชื้อใน Gram stain เป็นเกณฑ์วินิจฉัย empyema ทั้งคู่",
+  "interp": "ถาม <b>criteria วินิจฉัย empyema</b> จากน้ำในช่องเยื่อหุ้มปอด",
+  "why": "Empyema วินิจฉัยเมื่อเจาะได้ <b>หนอง (frank pus)</b> หรือ <b>Gram stain/ เพาะเชื้อขึ้น</b> · ร่วมกับ <b>pH ต่ำมาก</b> (&lt; 7.2 = complicated parapneumonic effusion ต้องระบาย) → ข้อ c และ d ถูก ตอบ E · ไฟล์ ✓ ที่ c และ d แล้วขีด e (C&amp;D)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ความขุ่นอย่างเดียวเป็นเกณฑ์ empyema เพราะน้ำขุ่นได้จากเซลล์จำนวนมาก ไขมัน (chylothorax) หรือ cholesterol โดยไม่มีการติดเชื้อ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ CRP ในเลือดเป็นเกณฑ์วินิจฉัย empyema เพราะสูงในการอักเสบทุกแบบทั่วร่างกาย ใช้ติดตามการตอบสนองต่อการรักษา",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pH เป็นคำตอบเดียว เพราะ pH ต่ำบอกการติดเชื้อทางอ้อม และเกณฑ์ทางจุลชีววิทยาก็ใช้วินิจฉัยได้เช่นกัน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Gram stain เป็นคำตอบเดียว เพราะเป็นหลักฐานโดยตรงแต่ให้ผลลบบ่อยหลังได้ยา เกณฑ์ทางเคมีจึงใช้วินิจฉัยได้เช่นกัน"
+   "A": "น้ำขุ่นอย่างเดียวอาจเกิดจาก chylothorax หรือ cell มาก ไม่จำเพาะ ต้องเป็นหนองชัดเจน · จะถูกถ้าคำถามถามเจาะได้หนองข้น (frank pus)",
+   "B": "CRP เป็นตัวบ่งชี้การอักเสบในเลือด ไม่ใช่เกณฑ์วินิจฉัย · จะถูกถ้าคำถามถามการติดตามการตอบสนองต่อยาฆ่าเชื้อ",
+   "C": "ถูกแต่ไม่ครบ เพราะ Gram stain ที่เจอเชื้อก็เป็นเกณฑ์ · จะถูกถ้าคำถามถามเกณฑ์ทางเคมีเพียงข้อเดียว",
+   "D": "ถูกแต่ไม่ครบ เพราะ pH ต่ำก็เป็นเกณฑ์ · จะถูกถ้าคำถามถามเกณฑ์ทางจุลชีววิทยาเพียงข้อเดียว"
   },
-  "trap": "รอผลเพาะเชื้อก่อนตัดสินว่าเป็น empyema — เพาะเชื้อขึ้นเพียงราวครึ่งหนึ่ง ผลลบไม่ตัด empyema ถ้าเป็นหนองหรือ pH ต่ำให้ระบายเลย",
+  "trap": "อ่าน \"gram +ve staining\" ว่าเป็นเชื้อ Gram บวก ความหมายจริงคือ <b>ย้อม Gram แล้วพบเชื้อ</b> (ชนิดใดก็ได้)",
   "summary": [
-   "<b>นอกสไลด์:</b> สาเหตุและเชื้อของ empyema: ส่วนใหญ่ตามหลังปอดอักเสบ · หลังผ่าตัดทรวงอก บาดเจ็บ หลอดอาหารทะลุ ฝีใต้กะบังลม · ติดเชื้อในชุมชน → Streptococcus (S. anginosus group, pneumococcus) + anaerobe · ในโรงพยาบาล → S. aureus (MRSA) และ gram-negative · ยาเริ่มต้นต้องครอบคลุม anaerobe"
+   "Light's criteria แยก exudate กับ transudate",
+   "Complicated parapneumonic: pH &lt; 7.2 · glucose &lt; 60 mg/dL · LDH &gt; 1,000",
+   "Empyema: หนอง หรือ Gram stain/ culture บวก",
+   "รักษา: ยาฆ่าเชื้อ + ระบาย (ICD)",
+   "ระบายไม่หมด/ loculated → intrapleural tPA + DNase",
+   "ไม่ดีขึ้น → VATS decortication"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจปานกลาง · ตามนิยาม BTS empyema คือหนองหรือพบเชื้อ ส่วน pH ต่ำเป็นเกณฑ์ใส่สายระบาย ข้อสอบนับรวมเป็นเกณฑ์ จึงตอบ E",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ตัวเลข pH &lt; 7 ในคำถามต่ำกว่าเกณฑ์จริงที่ใช้ 7.2 แต่ยังถือว่าเข้าเกณฑ์)",
+  "mnemonic": "<b>'Empyema = Pus · Positive Gram · pH ต่ำ (3P)'</b>",
+  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1)",
   "variants": [
-   "<b>นอกสไลด์:</b> อาเจียนรุนแรงหลังดื่มสุราแล้วเจ็บหน้าอก empyema ซ้ายมีเศษอาหาร pH ต่ำมาก amylase สูง → Boerhaave syndrome: CT ร่วมกลืนสารทึบรังสีละลายน้ำ และระบาย",
-   "<b>นอกสไลด์:</b> น้ำเยื่อหุ้มปอดจากปอดอักเสบ ใส ไม่เป็นหนอง pH 7.1 Gram stain ลบ → complicated parapneumonic effusion: ใส่สายระบายแม้ยังไม่เข้าเกณฑ์ empyema"
+   "ปอดอักเสบ มีน้ำในช่องเยื่อหุ้มปอด pH 7.0 glucose ต่ำ → complicated parapneumonic → ICD",
+   "เจาะได้หนองข้นกลิ่นเหม็น → empyema → ICD + ยาฆ่าเชื้อ",
+   "ICD แล้วยังมี loculation → intrapleural tPA/ DNase หรือ VATS"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 138 — ตัวพิมพ์: <b>25. ข้อใดเป็น criteria diagnosis empyema — a. cloudy pleural fluid b. CRP level c. pH&lt;7 d. gram +ve staining e. C&amp;D</b><br>ลายมือ: ✓ ที่ c และ d · ขีด e<br>ไฮไลต์: \"criteria diagnosis empyema\" · c · d (เหลือง)<br>ที่ปรับในเว็บ: ช้อย E เขียนเป็น Both pH and Gram stain (ไฟล์เขียน C&amp;D)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 138",
+  "kimg": [
+   "fsk_p138",
+   "kp67d_25"
   ]
  },
  "MDCU67|RoD|26": {
-  "interp": "ชาย 60 ปี เบาหวานคุมไม่ได้ ไข้ ก้อนบวมรอบทวารร่วม cellulitis → ฝีรอบทวารในผู้ภูมิต่ำ → ถามการรักษา",
-  "why": "<b>คีย์: ขีด b + ลายมือ perianal abscess</b><br><b>นอกสไลด์:</b> ฝีต้องกรีดระบายเสมอ และผู้ป่วยรายนี้มีทั้งเบาหวานคุมไม่ได้ ไข้ และ cellulitis รอบฝี จึงต้องให้ยาปฏิชีวนะร่วมด้วย",
+  "interp": "ผู้ป่วย DM คุมไม่ได้ มีไข้ + <b>perianal abscess ที่มี cellulitis</b> รอบ ๆ ถามการรักษา",
+  "why": "หลักของฝีคือ <b>I&amp;D</b> · ให้ <b>ยาฆ่าเชื้อร่วม</b> เมื่อมี cellulitis ลุกลาม อาการทาง systemic/ sepsis ภูมิคุ้มกันต่ำ หรือเบาหวาน ซึ่งรายนี้มีครบ · ไฟล์ขีด b ลายมือ <b>\"perianal abscess\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเนื้อเยื่อรอบทวารอักเสบโดยไม่มีโพรงหนอง (US หรือ CT ไม่พบหนอง)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เจาะดูดเป็นการรักษาฝีรอบทวาร เพราะหนองข้นมีผนังกั้นหลายช่อง ดูดออกไม่หมดและกลับเป็นซ้ำ ต้องเปิดแผลให้ระบายต่อเนื่อง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าชายหนุ่มแข็งแรงเป็นฝีตื้นขนาดเล็ก ไม่มีไข้ ไม่มีเนื้อเยื่อรอบอักเสบ และระบายได้หมด",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ฝีรอบทวารรักษาด้วยการเฝ้าดู เพราะหนองในช่องปิดลามไปตาม space รอบทวารและไส้ตรงได้"
+   "A": "ยาฆ่าเชื้ออย่างเดียวไม่หายเพราะหนองไม่ถูกระบาย · จะถูกถ้าคำถามถาม cellulitis ที่ยังไม่เกิดหนอง",
+   "C": "เจาะดูดหนองระบายไม่พอ ฝีกลับเป็นซ้ำบ่อย · จะถูกถ้าคำถามถามฝีบางตำแหน่งที่เจาะระบายด้วย US/ CT ได้ (เช่น ฝีในช่องท้อง)",
+   "D": "I&amp;D อย่างเดียวพอในฝีธรรมดาที่ไม่มี cellulitis และภูมิคุ้มกันปกติ · จะถูกถ้าคำถามถามฝีเล็กในคนแข็งแรง ไม่มีไข้",
+   "E": "การรอสังเกตอาการเสี่ยงต่อการลุกลามเป็น <b>necrotizing soft tissue infection (Fournier gangrene)</b> โดยเฉพาะในเบาหวาน · จะถูกถ้าคำถามถามริดสีดวงภายนอกที่ไม่มีภาวะแทรกซ้อน"
   },
-  "trap": "รอให้ก้อนนิ่มก่อนกรีดในผู้ป่วยเบาหวาน — ฝีลึกในผู้ภูมิต่ำอาจไม่นิ่มทั้งที่มีหนอง การรอทำให้ลามเป็น Fournier gangrene",
+  "trap": "ลืมว่าเบาหวานคุมไม่ได้ + cellulitis เป็นข้อบ่งชี้ให้ยาฆ่าเชื้อร่วมกับ I&amp;D",
   "summary": [
-   "<b>นอกสไลด์:</b> เทคนิคระบายฝีรอบทวาร: กรีดให้ใกล้ขอบทวารที่สุด (ถ้าเกิด fistula ทางจะสั้น) ตัดผิวเป็นวงรีให้เปิดค้าง ไม่เย็บปิด · ฝี intersphincteric หรือ supralevator ระบายผ่านทวาร · ไม่ต้องหารูเปิดภายในตอนระบาย (เสี่ยงทำทางผิด) · ฝีลึก ใหญ่ หรือผู้ภูมิต่ำ ตรวจใต้ยาสลบ"
+   "Perianal abscess: ปวด บวม แดง ใกล้ทวารหนัก",
+   "รักษาหลัก: I&amp;D (ไม่ต้องรอ fluctuation)",
+   "ATB ร่วม: cellulitis · sepsis · DM · ภูมิคุ้มกันต่ำ · ลิ้นหัวใจเทียม",
+   "Ischioanal/ horseshoe abscess → drainage ในห้องผ่าตัด",
+   "Supralevator → ระบายตามต้นกำเนิด (CT ช่วย)",
+   "หลัง I&amp;D อาจกลายเป็น fistula-in-ano ~ 30–40%"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ฝี = ต้องระบาย (Pus → Push out) · DM/ cellulitis → + ATB'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
   "variants": [
-   "<b>นอกสไลด์:</b> ปวดลึกในไส้ตรงร่วมไข้ ภายนอกรอบทวารไม่บวม คลำทางทวารเจ็บด้านหนึ่ง → intersphincteric หรือ supralevator abscess: CT/MRI แล้วระบายผ่านทวาร",
-   "<b>นอกสไลด์:</b> ระบายฝีแล้ว 2 วันยังไข้สูง ผิวรอบแผลคล้ำและลามเร็ว → ตรวจใต้ยาสลบหาหนองค้างหรือเนื้อตาย"
+   "ชายแข็งแรง ฝีเล็กข้างทวาร ไม่มีไข้ → I&amp;D อย่างเดียว",
+   "เบาหวาน ฝีข้างทวาร ผิวหนังดำ มีฟองอากาศ → Fournier gangrene → debridement ด่วน",
+   "ฝีรอบทวารทั้งสองข้าง (horseshoe) → drainage ในห้องผ่าตัด"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 138 — ตัวพิมพ์: <b>26. ผู้ป่วย 60 ปี มี DM uncontrolled มีไข้ ก้อนบวมที่ perianal มี cellulitis Mx อย่างไร — a. ATB b. I&amp;D + ATB c. Tapping + ATB d. I&amp;D</b><br>ลายมือ: เขียน \"perianal abscess\" เหนือคำถาม · ใส่เครื่องหมายคำพูดที่ \"cellulitis\" · ขีด b<br>ไฮไลต์: \"60 ปี\" · \"DM uncontrolled\" · \"มีไข้\" · \"ก้อนบวมที่ perianal\" · \"cellulitis\" · \"Mx อย่างไร\" · b (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment — Perianal abscess · Intersphincteric abscess · Ischioanal abscess (horseshoe) · Supralevator abscess พร้อมโน้ตลายมือ I&amp;D/ drainage และ ATB ในผู้ป่วยภูมิคุ้มกันต่ำ<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย a–d เว็บเพิ่ม E Observation",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 138",
+  "kimg": [
+   "fsk_p138",
+   "kp67d_26"
   ]
  },
  "MDCU67|RoD|27": {
-  "interp": "ถามข้อบ่งชี้ให้ chemoradiation ก่อนผ่าตัดในมะเร็งไส้ตรง",
-  "why": "<b>คีย์: ขีด d + ลายมือ rectal CA · neoadjuvant</b><br><b>นอกสไลด์:</b> มะเร็งไส้ตรงที่ลุกทะลุผนัง (T3) หรือแพร่ต่อมน้ำเหลือง (N+) เสี่ยงกลับเป็นซ้ำในอุ้งเชิงกรานสูง การให้ chemoradiation ก่อนผ่าตัดลดการกลับเป็นซ้ำเฉพาะที่และช่วยให้ได้ขอบปลอดมะเร็ง",
+  "interp": "ถามข้อบ่งชี้ <b>neoadjuvant (preoperative) chemoradiotherapy</b> ใน rectal cancer",
+  "why": "Rectal cancer ระยะ <b>locally advanced (T3–T4 และ/ หรือ N+)</b> ที่ rectum ส่วนกลาง/ ล่าง ให้ neoadjuvant CRT (หรือ total neoadjuvant therapy) ก่อน TME เพื่อลด local recurrence และเพิ่มโอกาสเก็บหูรูด · ไฟล์ขีด d ลายมือ <b>\"neoadjuvant\"</b> และ <b>\"rectal CA\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เพศชายเป็นข้อบ่งชี้ให้รังสีก่อนผ่าตัด เพราะอุ้งเชิงกรานชายแคบทำให้ผ่าตัดยากขึ้น แต่ไม่ได้เปลี่ยนความเสี่ยงของตัวโรค",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งไส้ตรงส่วนล่าง T2N0 ที่ผู้ป่วยต้องการเก็บไส้ตรงและหูรูด — ให้ chemoradiation ก่อนเพื่อหวังการตอบสนองสมบูรณ์ (organ preservation)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ตำแหน่งส่วนกลางอย่างเดียวเป็นข้อบ่งชี้ เพราะข้อบ่งชี้มาจากความลึกและต่อมน้ำเหลือง T1–T2N0 ที่ส่วนกลางผ่าตัด TME ได้เลย",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกข้อเป็นข้อบ่งชี้ เพราะเพศและตำแหน่งไม่ได้กำหนดการให้รังสีด้วยตัวเอง"
+   "A": "เพศชายทำให้ผ่าตัดยากเพราะเชิงกรานแคบ แต่ไม่ใช่ข้อบ่งชี้ · จะถูกถ้าคำถามถามปัจจัยที่ทำให้ผ่าตัด TME ยาก",
+   "B": "Low rectal cancer ระยะต้น (T1–T2 N0) ผ่าตัดได้เลยโดยไม่ต้องให้ CRT ก่อน · จะถูกถ้าคำถามถามมะเร็งไส้ตรงส่วนล่าง T3 หรือ N+",
+   "C": "Mid rectal cancer ระยะต้นผ่าตัด TME ได้เลย · จะถูกถ้าคำถามระบุ T3/ N+ ร่วมด้วย",
+   "E": "ข้อ A–C ไม่ใช่ข้อบ่งชี้ จึงไม่ใช่ all of above · จะถูกถ้าทุกข้อถูก"
   },
-  "trap": "เลือกมะเร็งไส้ตรงส่วนล่างเพราะคิดว่าตำแหน่งต่ำต้องให้รังสีเสมอ — ตำแหน่งต่ำมีผลต่อการเก็บหูรูด แต่ T1–T2N0 ที่ส่วนล่างก็ผ่าตัดได้เลยโดยไม่ต้อง chemoradiation",
+  "trap": "คิดว่าตำแหน่งต่ำเพียงอย่างเดียวเป็นข้อบ่งชี้ ความจริงตัดสินที่ <b>ระยะ (T3/ T4/ N+)</b> · ส่วน colon cancer ไม่ให้ neoadjuvant CRT เป็นมาตรฐาน",
   "summary": [
-   "<b>นอกสไลด์:</b> MRI แบ่งความเสี่ยง (แนว ESMO): กลุ่มดี (T3a–b, ขอบ mesorectal fascia ปลอด, ไม่มี EMVI) อาจผ่าตัด TME ได้เลย · กลุ่มไม่ดี (ก้อนห่าง mesorectal fascia ≤ 1 mm, T3c–d/T4, EMVI บวก, N2, ต่อม lateral pelvic) → รักษาก่อนผ่าตัด · NCCN ยังใช้ T3 หรือ N+ เป็นเกณฑ์"
+   "Rectal CA stage II–III (T3–4 or N+) → neoadjuvant CRT/ TNT",
+   "แล้ว TME (LAR หรือ APR)",
+   "Stage I (T1–2 N0) → ผ่าตัดเลย",
+   "Colon CA stage III → adjuvant chemo (FOLFOX/ CAPOX)",
+   "MRI pelvis ใช้ staging rectal (T, CRM)",
+   "cCR หลัง TNT → watch-and-wait ในบางราย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Rectum T3/ N+ → ฉายก่อนตัด (Neo = ก่อน)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Rectal Cancer (current version)",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็งห่างขอบทวาร 13 cm (ไส้ตรงส่วนบน) T3N0 → รักษาเหมือนมะเร็ง colon: ผ่าตัดก่อน ไม่ต้องให้รังสี",
-   "<b>นอกสไลด์:</b> ครบ chemoradiation แล้ว → ผ่าตัดราว 8–12 สัปดาห์หลังจบรังสี ให้ก้อนยุบเต็มที่"
+   "Mid rectal CA MRI T3N1 → neoadjuvant CRT/ TNT → TME",
+   "Low rectal CA T2N0 → ผ่าตัด TME เลย",
+   "Sigmoid CA หลังผ่าตัดพบ N1 → adjuvant chemotherapy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 138 — ตัวพิมพ์: <b>27. ข้อใดเป็นข้อบ่งชี้การให้ preop chemoradiotherapy — a. male b. lower rectal cancer c. mid rectal cancer d. T3 and/or +ve LN e. all of above</b><br>ลายมือ: เขียน \"neoadjuvant\" เหนือ preop chemoradiotherapy · ขีด d · เขียน \"rectal CA\" หลังช้อย d<br>ไฮไลต์: \"ข้อบ่งชี้การให้ preop chemoradiotherapy\" · \"T3\" · \"+ve LN\" (เหลือง)<br>รูปที่แปะ: ตาราง TNM staging ของ colorectal cancer (ลายมือสีน้ำเงิน T/ N/ M และ stage grouping) · โน้ตลายมือ adjuvant therapy ของ rectal CA และ colon CA (CRT · 5-FU based · targeted therapy)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 138",
+  "kimg": [
+   "fsk_p138",
+   "kp67d_27"
   ]
  },
  "MDCU67|RoD|28": {
-  "interp": "หลังบาดเจ็บ อ่อนแรงซีกซ้ายร่วม pupil ซ้ายโตไม่ตอบสนองต่อแสง (อ่อนแรงข้างเดียวกับ pupil โต) → ถามชื่อปรากฏการณ์",
-  "why": "<b>คีย์: ขีด d + ลายมือ ipsilateral weakness · ipsilateral CN III palsy</b><br><b>นอกสไลด์:</b> ก้อนเลือดซีกซ้ายกด CN III ข้างเดียวกัน (pupil ซ้ายโต) และดันก้านสมองไปชนขอบ tentorium ข้างขวา cerebral peduncle ขวาที่ถูกกดคุมแขนขาซีกซ้าย จึงอ่อนแรงข้างเดียวกับก้อน = Kernohan phenomenon",
+  "interp": "หลังบาดเจ็บศีรษะ มี <b>hemiparesis ซ้าย + รูม่านตาซ้ายขยายไม่ตอบสนองแสง</b> (อยู่ข้างเดียวกัน) ถามชื่อปรากฏการณ์",
+  "why": "Uncal herniation จากก้อนเลือดด้านซ้าย กด CN III ซ้าย → pupil ซ้ายขยาย · ขณะเดียวกันดันก้านสมองไปให้ <b>cerebral peduncle ขวา</b>กดกับขอบ tentorium (Kernohan notch) → อ่อนแรง<b>ข้างเดียวกับรอยโรค</b> (false localizing sign) = <b>Kernohan phenomenon</b> · ไฟล์ขีด d ลายมือ <b>\"ipsilat. weakness\"</b> และ <b>\"ipsilat. CN3 palsy\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กที่ cerebellar tonsil และก้านสมองเลื่อนลง foramen magnum แต่กำเนิด ร่วม myelomeningocele (Arnold–Chiari type II)",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ \"Kellie phenomenon\" เป็นชื่ออาการทางคลินิก เพราะ Kellie เป็นชื่อหนึ่งในหลัก Monro–Kellie เรื่องปริมาตรในกะโหลกคงที่",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนที่ฐานสมองส่วนหน้า (เช่น olfactory groove meningioma) ทำให้ optic atrophy ข้างเดียวกับก้อนและ papilledema ข้างตรงข้าม (Foster Kennedy syndrome)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ \"Monro phenomenon\" เป็นชื่ออาการทางคลินิก เพราะ Monro เป็นชื่อผู้เสนอหลักปริมาตรในกะโหลกและชื่อรูระหว่าง ventricle"
+   "A": "Arnold–Chiari malformation คือ cerebellar tonsil เลื่อนลงผ่าน foramen magnum ตั้งแต่กำเนิด · จะถูกถ้าคำถามถามความผิดปกติแต่กำเนิดร่วมกับ myelomeningocele",
+   "B": "Kellie (Monro–Kellie doctrine) เป็นหลักการที่ว่าผลรวมปริมาตรสมอง เลือด CSF ในกะโหลกคงที่ ไม่ใช่กลุ่มอาการ · จะถูกถ้าคำถามถามหลักการเพิ่มของ ICP",
+   "C": "Foster Kennedy syndrome: optic atrophy ข้างเดียวกับก้อน (frontal/ olfactory groove meningioma) + papilledema ข้างตรงข้าม · จะถูกถ้าคำถามถามก้อน frontal ที่ตามัวข้างหนึ่งและ papilledema อีกข้าง",
+   "E": "Monro (Monro–Kellie doctrine) ความหมายเดียวกับข้อ B · จะถูกถ้าคำถามถามหลักการปริมาตรคงที่ในกะโหลก"
   },
-  "trap": "เรียกว่า uncal herniation แบบทั่วไป — uncal herniation ทั่วไปอ่อนแรงข้างตรงข้ามก้อน ส่วน Kernohan คือก้านสมองข้างตรงข้ามถูกกดจนอ่อนแรงข้างเดียวกับก้อน",
+  "trap": "เห็นอ่อนแรงซ้ายแล้วคิดว่ารอยโรคอยู่ขวา · รูม่านตาขยายข้างไหนบอกข้างรอยโรคได้แม่นกว่า",
   "summary": [
-   "<b>นอกสไลด์:</b> Kernohan–Woltman notch: รอยบากที่ cerebral peduncle ข้างตรงข้ามก้อนจากการชนขอบ tentorium (เห็นใน MRI) · อ่อนแรงข้างเดียวกับก้อนเป็น false localizing sign · พบใน SDH/EDH ขนาดใหญ่ที่ดันแรง บอกว่า herniation รุนแรง ต้องผ่าตัดด่วน"
+   "Uncal herniation: CN III palsy ข้างเดียวกัน + อ่อนแรงข้างตรงข้าม (ทั่วไป)",
+   "Kernohan: อ่อนแรงข้างเดียวกับรอยโรค (false localizing)",
+   "Pupil ที่ขยาย → บอกข้างของรอยโรคได้แม่นกว่า",
+   "Monro–Kellie: ปริมาตรในกะโหลกคงที่",
+   "Cushing triad: HT + bradycardia + หายใจผิดปกติ",
+   "Foster Kennedy: optic atrophy + papilledema ข้างตรงข้าม"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Kernohan = Kเดียวกัน (ข้างเดียวกัน)'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Herniation syndromes",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังผ่าตัด SDH ซ้าย ผู้ป่วยยังอ่อนแรงซีกซ้ายถาวร MRI เห็นรอยที่ cerebral peduncle ขวา → รอยบาดเจ็บจาก Kernohan notch",
-   "<b>นอกสไลด์:</b> ก้อนเลือดที่ temporal ซ้าย pupil ซ้ายโต อ่อนแรงซีกขวา → uncal herniation แบบทั่วไป (ไม่ใช่ Kernohan)"
+   "Head injury pupil ขวาขยาย อ่อนแรงซ้าย → uncal herniation จาก hematoma ขวา",
+   "Pupil ขวาขยาย อ่อนแรงขวา → Kernohan → ก้อนอยู่ขวา",
+   "ก้อน olfactory groove ตามัวขวา papilledema ซ้าย → Foster Kennedy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 138 — ตัวพิมพ์: <b>28. ผู้ป่วยชายไทย มีประวัติ trauma จากนั้นมี left hemiparesis และ pupil left 5 mm not react to light, right 3 mm react to light ถามว่าเรียกปรากฏการณ์นี้ว่าอะไร — a. Arnold phenomenon b. Kellie phenomenon c. Kenedy phenomenon d. Kernohan phenomenon e. Monroe phenomenon</b><br>ลายมือ: เขียน \"ซ้ำ\" หน้าข้อ 28 · \"* ipsilat. weakness\" หลัง left · \"ipsilat. CN3 palsy\" เหนือ pupil left · ขีด d<br>ไฮไลต์: \"ชายไทย\" · \"ประวัติ trauma\" · \"จากนั้นมี left hemiparesis\" · \"pupil left 5 mm not react to light\" · \"เรียกปรากฏการณ์นี้ว่าอะไร\" · d (เหลือง)<br>ที่ปรับในเว็บ: แก้สะกด Kenedy เป็น Kennedy และ Monroe เป็น Monro",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 138",
+  "kimg": [
+   "fsk_p138",
+   "kp67d_28"
   ]
  },
  "MDCU67|RoD|29": {
-  "interp": "ถามข้อความที่ถูกเรื่อง steroid ในเนื้องอกสมอง (คำตอบ: ผิดทุกข้อ)",
-  "why": "<b>คีย์: ขีด d + ลายมือ b vasogenic</b><br><b>นอกสไลด์:</b> steroid ลดบวมชนิด vasogenic รอบเนื้องอก (ลดการรั่วของ blood–brain barrier) ไม่ได้ลด cytotoxic edema ไม่ได้ทำให้เนื้องอกส่วนใหญ่ยุบ และใช้ได้เมื่อมีอาการจากบวม ข้อความ A, B, C, E ที่เขียนแบบเหมารวมจึงผิดทั้งหมด",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับการใช้ <b>steroid (dexamethasone) ใน brain tumor</b>",
+  "why": "Dexamethasone ลด <b>vasogenic edema</b> รอบก้อน (ลดการรั่วของ blood–brain barrier) ไม่ได้ลด cytotoxic edema · <b>ไม่ได้ทำให้ก้อนเล็กลง</b> (ยกเว้น CNS lymphoma) · ควรใช้เมื่อมีอาการจาก edema · ขนาดยาขึ้นกับความรุนแรงของอาการ → ทุกข้อผิด ตอบ D · ไฟล์ขีด d แก้ลายมือ <b>\"vasogenic\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (ข้อความเป็นจริง) ถ้าผู้ป่วยเนื้องอกสมองไม่มีอาการจากสมองบวม — ไม่ต้องให้ steroid",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"steroid ลด cytotoxic edema\" เป็นจริง เพราะ cytotoxic edema เกิดจากเซลล์ขาดพลังงานบวมน้ำในเซลล์ ซึ่ง steroid ไม่ได้แก้",
-   "C": "<b>นอกสไลด์:</b> จะถูก (ข้อความเป็นจริง) ถ้าเป็น primary CNS lymphoma — steroid ทำให้เซลล์ lymphoma ตายและก้อนยุบจริง",
-   "E": "<b>นอกสไลด์:</b> จะถูก (ข้อความเป็นจริง) ถ้าผู้ป่วยมีอาการจากบวมเพียงเล็กน้อย — เริ่ม dexamethasone ขนาดต่ำได้"
+   "A": "Steroid มีบทบาทชัดเจนในผู้ป่วยที่มีอาการจาก peritumoral edema · จะถูกถ้าคำถามถามผู้ป่วยที่ไม่มีอาการ หรือสงสัย CNS lymphoma ก่อนตัดชิ้นเนื้อ (ควรเลี่ยง steroid)",
+   "B": "ลด <b>vasogenic</b> ไม่ใช่ cytotoxic edema (cytotoxic edema พบใน ischemic stroke/ hypoxia steroid ไม่ช่วย) · จะถูกถ้าเปลี่ยนเป็น vasogenic edema",
+   "C": "Steroid ลดบวมรอบก้อนไม่ได้ลดขนาดก้อน · จะถูกถ้าคำถามถาม primary CNS lymphoma ที่ก้อนยุบได้ด้วย steroid",
+   "E": "ขนาดเริ่มต้นขึ้นกับอาการ อาการมาก/ เสี่ยง herniation ให้ขนาดสูง (dexamethasone 10 mg IV แล้ว 4 mg ทุก 6 ชม.) จากนั้นลดเหลือขนาดต่ำสุดที่ได้ผล · จะถูกถ้าคำถามถามผู้ป่วยที่มีอาการน้อย"
   },
-  "trap": "เลือก A \"ไม่ควรใช้\" เพราะกลัวผลข้างเคียง — ผู้ที่มีอาการจากบวมรอบก้อน dexamethasone ลดอาการได้ชัดภายในชั่วโมงถึงวัน ข้อห้ามแบบเหมารวมจึงผิด",
+  "trap": "สับสน vasogenic edema (เนื้องอก/ ฝี) กับ cytotoxic edema (ischemia) · เข้าใจผิดว่า steroid ทำให้ก้อนเล็กลง",
   "summary": [
-   "<b>นอกสไลด์:</b> ใช้ dexamethasone นาน: น้ำตาลสูง กระดูกพรุน ติดเชื้อ PJP (ป้องกันด้วย TMP-SMX เมื่อใช้ร่วม temozolomide/ฉายแสงหรือใช้ขนาดสูงนาน) · บวมจาก radiation necrosis ที่ต้องพึ่ง steroid → bevacizumab เป็นทางเลือก"
+   "Vasogenic edema: เนื้องอก ฝี → ตอบ steroid",
+   "Cytotoxic edema: ischemia/ hypoxia → steroid ไม่ช่วย",
+   "Dexamethasone: mineralocorticoid ต่ำ ผ่าน BBB ดี",
+   "อาการมาก: dexa 10 mg IV แล้ว 4 mg q6h",
+   "สงสัย CNS lymphoma: เลี่ยง steroid ก่อน biopsy",
+   "Steroid ไม่ใช้ใน traumatic brain injury (CRASH trial)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจปานกลาง · ข้อ A, C, E ถูกเฉพาะบางกรณี (ไม่มีอาการ, lymphoma, อาการน้อย) แต่เขียนแบบเหมารวมจึงผิด · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ช้อย E ที่เว็บเพิ่มไม่ถูกทุกกรณี เพราะผู้ป่วยอาการน้อยอาจเริ่มขนาดต่ำได้ แต่เป็นหลักทั่วไปไม่ได้",
+  "mnemonic": "<b>'Steroid → Vasogenic (V = Very helpful) · Cytotoxic → ไม่ช่วย'</b>",
+  "guide": "EANO Guideline on Rational Supportive Care of Patients with Brain Tumors (Neuro-Oncology 2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ฝีในสมองหลายตำแหน่ง บวมมากจนเริ่มมีอาการ herniation → dexamethasone ระยะสั้นร่วมยาปฏิชีวนะ",
-   "<b>นอกสไลด์:</b> เลือดออกในสมองจากความดันสูงมีบวมรอบก้อน → ไม่ให้ steroid (ไม่ได้ประโยชน์ เพิ่มติดเชื้อและน้ำตาลสูง)"
+   "Brain metastasis มีบวมรอบก้อน แขนอ่อนแรง → dexamethasone",
+   "ก้อน periventricular ในผู้ป่วย HIV สงสัย lymphoma → เลี่ยง steroid ก่อน biopsy",
+   "Ischemic stroke สมองบวม → steroid ไม่ช่วย"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 139 — ตัวพิมพ์: <b>29. ข้อใดถูกเกี่ยวกับการใช้ steroid (ซ้ำๆ) — a. ไม่ควรใช้ b. ช่วยลด cytotoxic edema c. ช่วยลดขนาดของ brain tumor d. ผิดทุกข้อ</b><br>ลายมือ: เขียน \"ซ้ำ\" หน้าข้อ 29 · ขีดฆ่าคำ \"ไม่\" ในช้อย a · ขีดฆ่า \"cytotoxic\" แก้เป็น \"vasogenic\" · ขีดฆ่า \"ลดขนาด\" ในช้อย c · ขีด d<br>ไฮไลต์: \"ถูกเกี่ยวกับการใช้ steroid\" (เหลือง)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย a–d เว็บเพิ่ม E It should start at a low dose",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 139",
+  "kimg": [
+   "fsk_p139",
+   "kp67d_29"
   ]
  },
  "MDCU67|RoD|30": {
-  "interp": "ชาย 40 ปี ปวดศีรษะทันที รู้สึกตัว แขนขาซ้ายกำลัง III CT เห็นก้อนเลือด 15 × 15 × 20 mm ไม่มี midline shift → คำนวณปริมาตรด้วย ABC/2",
-  "why": "<b>คีย์: ขีด a + ลายมือ 1.5 × 1.5 × 2 / 2 = 2.25 cm³</b><br><b>นอกสไลด์:</b> ABC/2 ใช้หน่วยเซนติเมตร: 1.5 × 1.5 × 2.0 ÷ 2 = 2.25 mL ใกล้ 2 mL ที่สุด",
+  "interp": "คำนวณ <b>ปริมาตร intracerebral hematoma</b> จาก CT ขนาด 15 × 15 × 20 mm",
+  "why": "ใช้สูตร <b>ABC/2</b> (A, B = เส้นผ่านศูนย์กลางที่ตั้งฉากกันในภาพที่เลือดกว้างที่สุด, C = ความสูง) เป็นเซนติเมตร: 1.5 × 1.5 × 2.0 / 2 = <b>2.25 mL ≈ 2 mL</b> · ไฟล์ขีด a ลายมือ <b>\"1.5×1.5×2.0 / 2 = 2.25 cm³\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนขนาด 1.5 × 2 × 2 cm → 6 ÷ 2 = 3 mL",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนขนาด 2 × 2 × 2 cm → 8 ÷ 2 = 4 mL",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนขนาด 2 × 2 × 3 cm → 12 ÷ 2 = 6 mL",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนขนาด 2 × 2.5 × 4 cm → 20 ÷ 2 = 10 mL"
+   "B": "3 mL ไม่ตรงกับผลคำนวณ · จะถูกถ้าขนาดก้อน 1.5 × 2 × 2 cm",
+   "C": "4 mL ได้จากคูณ ABC แล้วไม่หาร 2 (4.5) หรือปัดผิด · จะถูกถ้าขนาดก้อน 2 × 2 × 2 cm",
+   "D": "6 mL · จะถูกถ้าขนาดก้อน 2 × 2 × 3 cm",
+   "E": "10 mL · จะถูกถ้าขนาดก้อน 2 × 2.5 × 4 cm"
   },
-  "trap": "ลืมหารสอง (ได้ 4.5 mL) หรือคูณเป็นมิลลิเมตรโดยไม่แปลงหน่วย — ABC/2 ใช้ค่าเป็นเซนติเมตร แล้วหารสองเพื่อประมาณรูปทรงรีของก้อน",
+  "trap": "ลืมหาร 2 หรือลืมแปลง mm เป็น cm (ได้เป็นพัน)",
   "summary": [
-   "<b>นอกสไลด์:</b> ปริมาตรกับการตัดสินใจ: ก้อนเหนือ tentorium ขนาดเล็ก (&lt; 30 mL) รู้สึกตัวดี → ไม่ผ่าตัด คุมความดันและแก้การแข็งตัวของเลือด · ≥ 30 mL นับ 1 คะแนนใน ICH score · ราว > 60 mL ร่วม GCS ≤ 8 อัตราตายสูงมาก"
+   "ICH volume = ABC/2 (cm → mL)",
+   "ICH score: GCS · volume ≥ 30 mL · IVH · infratentorial · อายุ ≥ 80",
+   "Cerebellar ICH &gt; 3 cm/ กดก้านสมอง/ hydrocephalus → ผ่าตัด",
+   "Lobar clot &lt; 1 cm จากผิวสมอง + อาการแย่ลง → พิจารณาผ่าตัด",
+   "คุม SBP เป้า ~140 mmHg",
+   "กลับฤทธิ์ยาต้านการแข็งตัวของเลือดด่วน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ABC หาร 2 · หน่วย cm ได้ mL'</b>",
+  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 40 ปีไม่มีความดันสูง เลือดออกในสมองกลีบ (lobar) 2 mL → CTA หาสาเหตุทางหลอดเลือด (AVM, aneurysm, cavernoma) เพราะอายุน้อยและไม่มีความดันสูง",
-   "<b>นอกสไลด์:</b> ผู้ป่วย ICH ที่กิน apixaban → แก้ฤทธิ์ด้วย andexanet alfa หรือ 4-factor PCC"
+   "ICH ขนาด 4 × 3 × 5 cm → 30 mL",
+   "ICH volume 35 mL GCS 10 อายุ 70 → ICH score 2",
+   "Cerebellar hemorrhage 3.5 cm ซึมลง → ผ่าตัด suboccipital craniectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 139 — ตัวพิมพ์: <b>30. ผู้ป่วยชายอายุ 40 ปี ปวดศีรษะทันที มาโรงพยาบาล รู้ตัวดี พูดคุยรู้เรื่อง, motor power Lt gr III ขาซีกซ้าย CT non contrast มีรูปมาให้ (เป็นก้อนขาวกลมด้านซ้ายของรูป ยังไม่ midline shift) lesion ขนาด 15x15x20 mm³ จงคำนวณปริมาตรเลือด — a. 2 mL b. 3 mL c. 4 mL d. 6 mL e. 10 mL</b><br>ลายมือ: เขียน \"clinical ดี\" เหนือ รู้ตัวดี · คำนวณ \"1.5×1.5×2.0 / 2 = 2.25 cm³\" ข้างช้อย · ขีด a<br>ไฮไลต์: \"ผู้ป่วยชายอายุ 40 ปี\" · \"ปวดศีรษะทันที\" · \"รู้ตัวดี พูดคุยรู้เรื่อง\" · \"motor power Lt gr III\" · \"ขาซีกซ้าย\" · \"CT non contrast\" · \"ก้อนขาวกลมด้านซ้ายของรูป\" · \"lesion ขนาด 15x15x20 mm\" · \"คำนวณปริมาตรเลือด\" · a (เหลือง)<br>รูปที่แปะ: สไลด์ CT brain พร้อมสูตร Volume (cc) = A × B × C / 2 — A is the largest diameter of the hematoma in cm · B is the diameter of hemorrhage perpendicular to A in cm · C is the height of the hematoma, calculated by multiplying the number of slices involved by the slice thickness (in cm) · Fig: The ABC method for determining ICH volume พร้อมโน้ตลายมือสีชมพู",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 139",
+  "kimg": [
+   "fsk_p139",
+   "kp67d_30"
   ]
  }
 }

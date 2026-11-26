@@ -1,192 +1,332 @@
 {
  "MDCU67|RoD|31": {
-  "interp": "ผู้ป่วยรายเดิม (เลือดออกในสมองก้อนเล็ก รู้สึกตัวดี) → ถามวิธีลดความดันในกะโหลกที่เหมาะ",
-  "why": "<b>คีย์: ขีด a + ลายมือ b ไม่จำเป็น · c ✗ · d ✗: post fossa &gt;3 cm, supratentorial &gt;30 cc, midline shift &gt;5 mm</b><br><b>นอกสไลด์:</b> ก้อนเลือด 2 mL ไม่มี midline shift และรู้สึกตัวดี ยังไม่มีความดันในกะโหลกสูงที่ต้องรักษาเชิงรุก การยกหัวเตียง 30° เป็นการดูแลพื้นฐานที่ปลอดภัยและเพียงพอ",
+  "interp": "ผู้ป่วยรายเดียวกับข้อก่อน (ICH ~2 mL รู้ตัวดี) ถามวิธี<b>ลดความดันในกะโหลก</b>ที่เหมาะสม",
+  "why": "ICH ขนาดเล็ก รู้ตัวดี ไม่มีสัญญาณ herniation → ใช้มาตรการพื้นฐาน <b>ยกหัวเตียง 30°</b> (ช่วย venous drainage) ร่วมกับคุมความดันและแก้ไขปัจจัยอื่น · มาตรการรุนแรงกว่า (mannitol/ hyperventilation/ ผ่าตัด) ยังไม่มีข้อบ่งชี้ · ไฟล์ขีด a และกากบาท b c d เขียน <b>\"ถ้า severe, ใส่ tube แล้ว\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเลือดใหญ่ร่วมสมองบวมรอบมาก และวัด ICP ได้สูงต่อเนื่อง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า pupil โตทันทีระหว่างเคลื่อนย้ายไปห้องผ่าตัด — หายใจเร็วระยะสั้นเป็นสะพานก่อนผ่าตัด",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดออกใน cerebellum ≥ 15 mL ร่วมซึมลง กดก้านสมอง หรือ hydrocephalus",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ทุกวิธีใช้พร้อมกันเป็นขั้นแรก เพราะการลดความดันในกะโหลกเพิ่มทีละขั้นตามความรุนแรง วิธีที่มีผลเสีย (ยาออสโมติก หายใจเร็ว ผ่าตัด) ใช้เมื่อมีข้อบ่งชี้"
+   "B": "Osmotic therapy (20% mannitol 0.5–1 g/kg หรือ hypertonic saline) ใช้เมื่อ ICP สูงมาก/ มีสัญญาณ herniation · จะถูกถ้าคำถามถามผู้ป่วยซึมลง pupil ขยายข้างเดียว",
+   "C": "Hyperventilation (เป้า PaCO₂ 30–35 mmHg) ใช้ชั่วคราวเป็น bridge ในผู้ป่วยใส่ท่อช่วยหายใจที่กำลัง herniate · จะถูกถ้าคำถามถามผู้ป่วยใส่ท่อแล้วมี herniation รอผ่าตัด",
+   "D": "ผ่าตัดเอาก้อนเลือดออกเมื่อ cerebellar hemorrhage &gt; 3 cm/ กดก้านสมอง/ hydrocephalus หรือ supratentorial ก้อนใหญ่ใกล้ผิวสมองแล้วอาการแย่ลง · จะถูกถ้าคำถามถามก้อนใหญ่ &gt; 30 mL midline shift ซึมลง",
+   "E": "ข้อ B–D ยังไม่มีข้อบ่งชี้ จึงไม่ใช่ถูกทุกข้อ · จะถูกถ้าคำถามถามมาตรการที่ใช้ลด ICP ได้ทั้งหมด (ไม่เจาะจงผู้ป่วย)"
   },
-  "trap": "ให้ mannitol ทุกรายที่มีเลือดออกในสมองเพื่อกันบวม — ไม่มีประโยชน์ในก้อนเล็กที่รู้สึกตัวดี และทำให้ขาดน้ำ ความดันต่ำ ไตเสื่อม",
+  "trap": "เลือก all of the above เพราะทุกข้อลด ICP ได้จริง แต่คำถามถามวิธีที่<b>เหมาะสม</b>กับผู้ป่วย ICH เล็ก รู้ตัวดี",
   "summary": [
-   "<b>นอกสไลด์:</b> เมื่อใดต้องลดความดันในกะโหลกเชิงรุกใน ICH: GCS ≤ 8, มีสัญญาณ herniation, เลือดเข้า ventricle จน hydrocephalus (ใส่ EVD) หรือก้อนใหญ่มี midline shift · ยาออสโมติกใช้เมื่อมีอาการ herniation · ไม่ใช้หายใจเร็วเป็นประจำ"
+   "ลด ICP ขั้นพื้นฐาน: หัวสูง 30° · คอตรง · แก้ไข้ ปวด ชัก",
+   "CSF drainage (EVD) ถ้ามี hydrocephalus",
+   "Sedation/ analgesia ± neuromuscular blockade",
+   "Osmotic: mannitol 0.5–1 g/kg/ 3% NaCl",
+   "Hyperventilation PaCO₂ 30–35 ชั่วคราว",
+   "สุดท้าย: barbiturate coma/ decompressive craniectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ICP บันได: หัวสูง → ระบาย CSF → ยานอน → mannitol → หายใจเร็ว → coma/ ผ่า'</b>",
+  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
   "variants": [
-   "<b>นอกสไลด์:</b> ICH 15 mL ร่วมเลือดเข้า ventricle และ hydrocephalus ซึมลง → ใส่ EVD ระบาย CSF",
-   "<b>นอกสไลด์:</b> ICH ก้อนเล็ก รู้สึกตัวดี SBP 190 mmHg → ลด SBP เป้าราว 140 (ช่วง 130–150)"
+   "ICH ซึมลง pupil ซ้ายขยาย → mannitol + ปรึกษาผ่าตัด",
+   "Cerebellar hemorrhage 4 cm กดก้านสมอง → suboccipital craniectomy",
+   "ICH มี IVH + hydrocephalus → EVD"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 139 — ตัวพิมพ์: <b>31. (ผู้ชาย 40 ปี โจทย์เดียวกับข้อก่อนหน้า) วิธีลดความดันในกะโหลกที่เหมาะสม — a. Head elevation 30 degree b. Osmotic diuresis c. Hyperventilation d. Surgical removal of blood clot e. ถูกทุกข้อ(...คือไร)</b><br>ลายมือ: ขีด a · กากบาท ✗ หลัง b c d · วงเล็บ b–c เขียน \"ถ้า severe, ใส่ tube แล้ว\" · ใต้ d เขียน \"- post. fossa &gt; 3 cm - supratentorial &gt; 30 cc - lobar clot &lt; 1 cm จากผิว - midline shift &gt; 0.5 cm\"<br>ไฮไลต์: \"ลดความดันในกะโหลกที่เหมาะสม\" · a (เหลือง)<br>รูปที่แปะ: สไลด์ Surgical Treatment — Craniotomy · Cerebellar hemorrhage ≥ 3 cm · Deteriorating neurologically · Brain stem compression · Hydrocephalus · Lobar clots within 1 cm of the surface (ลายมือ hematoma ใกล้ผิว, post. fossa, supratentorial &gt; 30 cc) · สไลด์ Treatment of ICP — Head-of-bed elevation 30° · CSF drainage · Analgesia and sedation/ Neuromuscular blockage · Osmotic therapy: 20% mannitol 0.5–1 gm/kg · Hyperventilation: target 30–35 mmHg · Barbiturate coma พร้อมโน้ตลายมือสีแดงและชมพู",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 139",
+  "kimg": [
+   "fsk_p139",
+   "kp67d_31"
   ]
  },
  "MDCU67|RoD|32": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับเนื้องอกสมองโดยรวม (ความถี่ ตำแหน่ง การแพร่ การผ่าตัด)",
-  "why": "<b>คีย์: ขีด a + ลายมือ mets · b palliative Sx</b><br><b>นอกสไลด์:</b> เมื่อนับเนื้องอกในสมองทั้งหมด มะเร็งที่แพร่กระจายมาสมองพบมากกว่าเนื้องอกปฐมภูมิหลายเท่า เนื้องอกสมองโดยรวมจึงเป็นชนิดร้ายมากกว่าไม่ร้าย",
+  "interp": "ถามข้อที่ถูกเกี่ยวกับ <b>brain tumor</b> (ระบาดวิทยาและการรักษา)",
+  "why": "ถ้านับรวม <b>brain metastasis</b> ซึ่งเป็นก้อนในสมองที่พบบ่อยที่สุดในผู้ใหญ่ (มากกว่า primary ราว 3–10 เท่า) ก้อนมะเร็งจึงมากกว่าก้อนธรรมดา · ไฟล์ขีด a ลายมือ <b>\"จาก metas.\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"มะเร็งแพร่มาสมองไม่ผ่าตัดเลย\" เป็นจริง เพราะก้อนเดียวหรือไม่กี่ก้อนที่เข้าถึงได้ หรือก้อนที่กดจนมีอาการ ผ่าตัดเอาออกได้",
-   "C": "<b>นอกสไลด์:</b> จะถูก (ข้อความเป็นจริง) ถ้าพิจารณาเด็กอายุราว 1–10 ปี ซึ่งเนื้องอกส่วนใหญ่อยู่ใต้ tentorium",
-   "D": "<b>นอกสไลด์:</b> จะถูก (ข้อความเป็นจริง) ถ้าเป็น medulloblastoma หรือ germinoma ซึ่งแพร่ไปตามน้ำไขสันหลัง (drop metastasis)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความนี้เป็นจริงในผู้ใหญ่ เพราะมะเร็งปอด เต้านม melanoma ไต และลำไส้แพร่มาสมองได้ในผู้ป่วยมะเร็งจำนวนมาก"
+   "B": "Brain metastasis ผ่าตัดได้ เช่น ก้อนเดี่ยวที่เข้าถึงได้ ตัวโรคหลักคุมได้ หรือผ่าตัดเพื่อบรรเทาอาการ (ลายมือ \"palliative Sx\") ± SRS · จะถูกถ้าคำถามถามผู้ป่วยก้อนหลายตำแหน่ง โรคทั่วตัว performance status แย่",
+   "C": "ผู้ใหญ่ก้อน <b>supratentorial มากกว่า</b> infratentorial (เด็กกลับกัน: infratentorial มากกว่า) · จะถูกถ้าคำถามถามในเด็ก",
+   "D": "Primary malignant brain tumor แทบ<b>ไม่แพร่ออกนอก CNS</b> (แพร่ได้ผ่าน CSF เช่น medulloblastoma) · จะถูกถ้าคำถามถามการแพร่ผ่าน CSF (drop metastasis)",
+   "E": "Secondary (metastasis) พบบ่อยกว่า primary · จะถูกถ้าคำถามถามเฉพาะเด็ก หรือเปรียบเทียบเฉพาะในกลุ่ม primary tumor"
   },
-  "trap": "ตอบ E เพราะคิดว่าเนื้องอกสมองส่วนใหญ่เกิดในสมอง — มะเร็งที่แพร่มาสมองพบบ่อยกว่าเนื้องอกปฐมภูมิมาก",
+  "trap": "ถ้านับเฉพาะ primary tumor ก้อนธรรมดา (meningioma ที่พบบ่อยที่สุด) มากกว่าก้อนมะเร็ง ข้อ A จะถูกเพราะนับ metastasis รวมด้วย",
   "summary": [
-   "<b>นอกสไลด์:</b> ตำแหน่งและชนิดตามอายุ: ผู้ใหญ่ราวสองในสามอยู่เหนือ tentorium · เด็กส่วนใหญ่อยู่ใต้ tentorium (medulloblastoma, pilocytic astrocytoma, ependymoma) · ในเนื้องอกปฐมภูมิของผู้ใหญ่ meningioma (ไม่ร้าย) พบมากที่สุด ชนิดร้ายที่พบมากที่สุดคือ glioblastoma"
+   "ก้อนในสมองที่พบบ่อยสุดในผู้ใหญ่: metastasis (ปอด เต้านม melanoma)",
+   "Primary ที่พบบ่อยสุด: meningioma",
+   "Primary malignant ที่พบบ่อยสุด: glioblastoma",
+   "ผู้ใหญ่ supratentorial · เด็ก infratentorial",
+   "เด็ก: medulloblastoma · pilocytic astrocytoma",
+   "Metastasis เดี่ยว → ผ่าตัด ± SRS"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง · ถ้านับเฉพาะเนื้องอกปฐมภูมิ ชนิดไม่ร้าย (meningioma) พบมากกว่า",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ข้อ A ถูกเมื่อนับ metastasis รวม (ลายมือ \"จาก metas.\") ถ้านับเฉพาะ primary จะกลับกัน",
+  "mnemonic": "<b>'ผู้ใหญ่ Above (supratentorial) · เด็ก Below (infratentorial) · Secondary &gt; Primary'</b>",
+  "guide": "CBTRUS Statistical Report: Primary Brain and Other Central Nervous System Tumors Diagnosed in the United States in 2016–2020 (Neuro-Oncology 2023;25 Suppl 4)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก 6 ขวบ เดินเซ อาเจียนตอนเช้า ก้อนใน fourth ventricle → สงสัย medulloblastoma: MRI ทั้งสมองและไขสันหลังก่อนผ่าตัด",
-   "<b>นอกสไลด์:</b> หญิง 60 ปี ก้อน 2 cm ติดเยื่อหุ้มสมองมี dural tail ไม่มีอาการ → meningioma: ติดตาม MRI"
+   "ผู้ใหญ่มีก้อนหลายก้อนบริเวณ gray–white junction → นึกถึง metastasis",
+   "เด็กเดินเซ ก้อนใน posterior fossa → medulloblastoma/ pilocytic astrocytoma",
+   "มะเร็งปอดคุมได้ มี metastasis เดี่ยวในสมอง → ผ่าตัด + SRS"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 139 — ตัวพิมพ์: <b>32. ข้อใดถูกต้องเกี่ยวกับ brain tumor — a. malignant &gt; benign b. metastasis at brain จะไม่ผ่าตัดเพราะถือเป็น end stage c. in adult, infratentorial &gt; suprasellar d. primary malignant brain tumour มักมี metastasis e. primary &gt; secondary</b><br>ลายมือ: ขีด a เขียน \"จาก metas.\" · ช้อย b กากบาทคำ \"ไม่\" เขียน \"palliative Sx\" · ช้อย c แก้เครื่องหมาย &gt; เป็น &lt; · ช้อย d กากบาท \"มักมี\" แก้เป็น \"ไม่มี\" · ช้อย e แก้เครื่องหมาย &gt; เป็น &lt;<br>ไฮไลต์: \"ถูกต้องเกี่ยวกับ brain tumor\" · a (เหลือง)<br>ที่ปรับในเว็บ: ช้อย C แก้ suprasellar เป็น supratentorial",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 139",
+  "kimg": [
+   "fsk_p139",
+   "kp67d_32"
   ]
  },
  "MDCU67|RoD|33": {
-  "interp": "ชายปัสสาวะแสบมีหนองหลังมีเพศสัมพันธ์ 2 วัน → urethritis จากเพศสัมพันธ์ → ถามยาที่ควรให้",
-  "why": "<b>คีย์: ขีด a</b><br><b>นอกสไลด์:</b> ceftriaxone ครอบคลุม N. gonorrhoeae (รวมเชื้อดื้อ quinolone) และ doxycycline ครอบคลุม C. trachomatis ที่ติดร่วมบ่อย — เป็นสูตรมาตรฐานของ urethritis ในชาย",
+  "interp": "ชายมีปัสสาวะแสบขัด ติดขัดหลังมีเพศสัมพันธ์ 2 วัน = <b>acute urethritis</b> ถามยาที่ให้",
+  "why": "Urethritis จากเพศสัมพันธ์ ต้องรักษาครอบคลุมทั้ง <b>gonorrhea (ceftriaxone 500 mg IM ครั้งเดียว)</b> และ <b>chlamydia (doxycycline 100 mg วันละ 2 ครั้ง 7 วัน)</b> เพราะพบร่วมกันบ่อย · ไฟล์ขีด a",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงตั้งครรภ์ผล NAAT พบ Chlamydia อย่างเดียว และแพ้ azithromycin",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงสุขภาพดีไม่ตั้งครรภ์เป็นกระเพาะปัสสาวะอักเสบไม่ซับซ้อน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าคู่นอนหญิงตรวจพบ Trichomonas — ชายให้ metronidazole 2 g ครั้งเดียว",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าชายเบาหวานมีผื่นแดงคันที่หัวองคชาตมีคราบขาว (candidal balanitis)"
+   "B": "Amoxicillin ไม่ครอบคลุม gonorrhea ที่ดื้อยาและ chlamydia · จะถูกถ้าคำถามถาม chlamydia ในหญิงตั้งครรภ์ (ทางเลือกรองจาก azithromycin)",
+   "C": "Nitrofurantoin ใช้กับ uncomplicated cystitis ในหญิง ไม่ครอบคลุม STI · จะถูกถ้าคำถามถามหญิงกระเพาะปัสสาวะอักเสบไม่มีไข้",
+   "D": "Metronidazole ใช้กับ trichomoniasis/ bacterial vaginosis · จะถูกถ้าคำถามถาม urethritis ที่ไม่ตอบสนองยามาตรฐาน หรือคู่นอนเป็น trichomonas",
+   "E": "Fluconazole ใช้กับ candidiasis · จะถูกถ้าคำถามถามหญิงตกขาวเป็นก้อนแบบนมบูด คัน"
   },
-  "trap": "ให้ azithromycin 1 g ครั้งเดียวแทน doxycycline ในชายทุกราย — แนวทางปัจจุบันใช้ doxycycline 7 วันเป็นหลัก azithromycin เก็บไว้ในหญิงตั้งครรภ์หรือคนที่กินยา 7 วันไม่ได้",
+  "trap": "รักษาแค่ gonorrhea แล้วลืม chlamydia ที่มักติดร่วม (และอาจไม่มีอาการ)",
   "summary": [
-   "<b>นอกสไลด์:</b> สูตรยา (CDC 2021): ceftriaxone 500 mg ฉีดเข้ากล้ามครั้งเดียว (น้ำหนัก ≥ 150 kg ใช้ 1 g) + doxycycline 100 mg วันละสองครั้ง 7 วัน · ส่ง NAAT ก่อนให้ยา และส่งเพาะเชื้อดูความไวเมื่อรักษาแล้วไม่หาย"
+   "Gonococcal urethritis: หนองข้นเหลือง ระยะฟักตัว 2–5 วัน",
+   "Non-gonococcal (chlamydia): ใส มีมูก ระยะฟักตัวนานกว่า",
+   "Gram stain: Gram-negative intracellular diplococci → gonorrhea",
+   "Ceftriaxone 500 mg IM ครั้งเดียว",
+   "Doxycycline 100 mg bid × 7 วัน",
+   "รักษาคู่นอน · ตรวจ HIV/ syphilis"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง · ไฟล์มีช้อยเดียว Claude เติม B–E",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'หนองจากเพศสัมพันธ์ → C + D (Ceftriaxone + Doxy) ครอบคลุม G + C'</b>",
+  "guide": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021 (MMWR Recomm Rep 2021;70(4))",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายแพ้ cephalosporin รุนแรงเป็นหนองใน → gentamicin 240 mg ฉีดเข้ากล้าม + azithromycin 2 g กิน",
-   "<b>นอกสไลด์:</b> ชายมีหนองในที่คอหอยจากเพศสัมพันธ์ทางปาก → ceftriaxone ตามปกติ แล้วตรวจซ้ำ 7–14 วันหลังรักษา (เชื้อที่คอหอยกำจัดยากกว่า)"
+   "ชายหนองข้นออกจากท่อปัสสาวะ Gram stain พบ diplococci → ceftriaxone + doxycycline",
+   "ชายปัสสาวะแสบ น้ำใส ๆ Gram stain ไม่พบ diplococci → doxycycline",
+   "หญิงตั้งครรภ์เป็น chlamydia → azithromycin"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 139 — ตัวพิมพ์: <b>33. ชายไทย มาด้วยปัสสาวะแสบขัด ติดๆดับๆ ประวัติมี sexual intercourse มา 2 วัน ให้ยาอะไร — a. doxycycline + ceftriaxone</b><br>ลายมือ: เขียน \"ซ้ำ\" หน้าข้อ 33 · ขีด a<br>ไฮไลต์: \"ชายไทย\" · \"ปัสสาวะแสบขัด ติดๆดับๆ\" · \"sexual intercourse มา 2 วัน\" · a (เหลือง)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย a ข้อเดียว เว็บเพิ่ม B–E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 139",
+  "kimg": [
+   "fsk_p139",
+   "kp67d_33"
   ]
  },
  "MDCU67|RoD|34": {
-  "interp": "ชายมี LUTS PSA 6.0 DRE ต่อมไม่โต เรียบ ไม่มีก้อน → PSA สูงเกินขนาดต่อม → ถามการจัดการ",
-  "why": "<b>คีย์: ขีด c + ลายมือ &gt;4 · ต่อมไม่โตแต่ PSA สูง</b><br><b>นอกสไลด์:</b> PSA เกิน 4 ในต่อมที่ไม่โตอธิบายด้วย BPH ไม่ได้ (PSA density สูง) ต้องหามะเร็งด้วยการตัดชิ้นเนื้อ แม้ DRE ปกติ เพราะมะเร็งระยะต้นส่วนใหญ่คลำไม่ได้",
+  "interp": "ชายมี LUTS · <b>PSA 6.0</b> (สูงกว่า 4) แต่ DRE ต่อมไม่โต เรียบ ไม่มี nodule ถามการจัดการ",
+  "why": "PSA &gt; 4 ng/mL โดยเฉพาะเมื่อต่อมไม่โต (PSA density สูง) ต้องหา<b>มะเร็งต่อมลูกหมาก</b>ก่อน → <b>TRUS-guided biopsy</b> (ปัจจุบันมักทำ MRI prostate ก่อนเพื่อ targeted biopsy) · DRE ปกติไม่ได้ตัดมะเร็งออก · ไฟล์ขีด c ลายมือ <b>\"&gt; 4\"</b> และ <b>\"แนะนำ Bx\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าชายต่อมลูกหมากราว 80 mL มีปัสสาวะเป็นเลือดซ้ำจากหลอดเลือดของต่อม ตรวจแล้วไม่พบสาเหตุอื่น — 5-ARI ลดเลือดออก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าชายมีนิ่วท่อไตส่วนปลายขนาด 6 mm ปวดคุมได้ — alpha-blocker ช่วยขับนิ่ว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าชายอายุ 85 ปี โรคร่วมมาก อายุคาดสั้นกว่า 10 ปี ไม่มีอาการ — ไม่ต้องหามะเร็งต่อ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามีนิ่วกระเพาะปัสสาวะร่วม BPH ที่ยาไม่ได้ผล และตรวจแล้วไม่พบมะเร็ง"
+   "A": "5-alpha reductase inhibitor ใช้กับ BPH ต่อมโต (&gt; 30–40 mL) และทำให้ PSA ลดลงราวครึ่งหนึ่ง อาจบังมะเร็ง · จะถูกถ้าคำถามถาม BPH ต่อมโต PSA ปกติ",
+   "B": "Alpha-blocker รักษา LUTS จาก BPH แต่ต้องหามะเร็งก่อนเมื่อ PSA สูง · จะถูกถ้าคำถามถาม LUTS ที่ PSA ปกติ DRE ปกติ",
+   "D": "การติดตามอย่างเดียวพลาดมะเร็ง · จะถูกถ้าคำถามถาม PSA ปกติ หรือผู้สูงอายุมากที่คาดว่าชีวิตเหลือ &lt; 10 ปี",
+   "E": "TURP ใช้เมื่อ BPH มีภาวะแทรกซ้อน (retention ซ้ำ นิ่ว ไตเสื่อม) หรือยาไม่ได้ผล · จะถูกถ้าคำถามถาม BPH ปัสสาวะคั่งซ้ำหลังลองถอดสาย"
   },
-  "trap": "DRE ปกติและต่อมไม่โตจึงคิดว่า PSA 6 ไม่สำคัญ — มะเร็งระยะต้นส่วนใหญ่คลำไม่ได้ (T1c) และต่อมเล็กที่ PSA สูงยิ่งน่าสงสัย",
+  "trap": "เห็น DRE ปกติ ไม่มี nodule แล้วคิดว่าไม่ใช่มะเร็ง · PSA สูงในต่อมเล็กยิ่งน่าสงสัย",
   "summary": [
-   "<b>นอกสไลด์:</b> การตัดชิ้นเนื้อต่อมลูกหมาก: ผ่าน perineum ติดเชื้อและ sepsis น้อยกว่าผ่านไส้ตรง (EAU แนะนำ) · ผ่านไส้ตรงต้องให้ยาปฏิชีวนะป้องกัน · เก็บแบบสุ่มเป็นระบบราว 10–12 ชิ้น ร่วมเก็บตรงเป้าตาม MRI ถ้ามีรอยโรค"
+   "PSA ปกติ &lt; 4 ng/mL",
+   "PSA สูง/ DRE ผิดปกติ → mpMRI → biopsy",
+   "PSA density &gt; 0.15 → น่าสงสัยมะเร็ง",
+   "PSA สูงชั่วคราว: prostatitis · retention · หลังใส่สาย",
+   "5-ARI ลด PSA ราว 50%",
+   "BPH: alpha-blocker ± 5-ARI · TURP ถ้ามีภาวะแทรกซ้อน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง · ปัจจุบันนิยมยืนยัน PSA ซ้ำและทำ MRI ก่อนตัดชิ้นเนื้อ",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'PSA เกิน 4 → Biopsy ก่อน (4 → Bx)'</b>",
+  "guide": "AUA/SUO Guideline: Early Detection of Prostate Cancer (J Urol 2023;210:46)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังตัดชิ้นเนื้อผ่านไส้ตรง 2 วัน ไข้หนาวสั่น ความดันต่ำ → sepsis จากเชื้อลำไส้ที่มักดื้อ quinolone: เพาะเชื้อเลือดและปัสสาวะ ให้ยาฉีดกว้าง (เช่น carbapenem)",
-   "<b>นอกสไลด์:</b> ตัดชิ้นเนื้อครั้งแรกไม่พบมะเร็ง แต่ PSA ยังสูงขึ้นต่อเนื่อง → MRI แล้วตัดชิ้นเนื้อตรงเป้า"
+   "PSA 8 DRE ต่อมแข็งเป็นก้อน → MRI + biopsy",
+   "PSA 2 ต่อมโต LUTS รบกวน → alpha-blocker",
+   "BPH ปัสสาวะไม่ออกซ้ำหลังถอดสาย → TURP"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 139 — ตัวพิมพ์: <b>34. อาการ LUTS PSA 6.0 DRE พบ prostate ไม่โต ผิวเรียบ no nodule, Appropriate management? — a. 5-alpha reductase b. alpha-antagonist c. TRUS + biopsy d. follow up + observe e. TUR-P</b><br>ลายมือ: เขียน \"&gt; 4\" ใต้ PSA 6.0 ลากลูกศรลงไปช้อย c · เขียน \"แนะนำ Bx\" ข้างช้อย b · ขีด c<br>ไฮไลต์: \"อาการ LUTS PSA 6.0\" · \"prostate ไม่โต\" · \"ผิวเรียบ no nodule\" · \"management\" · c (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 139",
+  "kimg": [
+   "fsk_p139",
+   "kp67d_34"
   ]
  },
  "MDCU67|RoD|35": {
-  "interp": "ชายปัสสาวะกลางคืนบ่อยมา 6 เดือน (BPH) มาด้วยไข้ ปวดฝีเย็บ ปัสสาวะไม่ออก → acute bacterial prostatitis ร่วมปัสสาวะคั่ง → ถามการจัดการเบื้องต้น",
-  "why": "<b>คีย์: ขีด a + ลายมือ AUTI · ± α-blocker?</b><br><b>นอกสไลด์:</b> ต่อมลูกหมากอักเสบติดเชื้อเฉียบพลันมีไข้ต้องได้ยาปฏิชีวนะทางหลอดเลือด และปัสสาวะคั่งต้องระบายต่อเนื่อง การคาสายเป็นการระบายครั้งเดียวที่ไม่ต้องสวนผ่านต่อมที่อักเสบซ้ำ ๆ",
+  "interp": "ชายมีอาการ BPH (nocturia 6 เดือน) มา ER ด้วย <b>ไข้ 38 °C ปวด perineum ปัสสาวะไม่ออก</b> = acute urinary retention + <b>acute bacterial prostatitis</b> ถามการจัดการเริ่มต้น",
+  "why": "มีไข้ + ปัสสาวะคั่ง → ต้อง<b>ระบายปัสสาวะต่อเนื่อง (คาสาย Foley ขนาดเล็ก หรือ suprapubic)</b> และให้ <b>IV antibiotics</b> เพราะเป็นการติดเชื้อมีไข้ (febrile UTI/ prostatitis) · ไฟล์ขีด a ลายมือ <b>\"∴ มี UTI\"</b> และ <b>\"+α-blocker ?\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าชายปัสสาวะคั่งจาก BPH ไม่มีไข้ ค้างเกินราว 1,000 mL — คาสายร่วม alpha-blocker 2–3 วันแล้วลองถอด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าชายปัสสาวะคั่งจาก BPH ไม่มีไข้ ค้างราว 700 mL และไม่ต้องการคาสาย — สวนเป็นครั้ง ๆ ร่วม alpha-blocker แล้วลองปัสสาวะเอง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย neurogenic bladder ที่สวนตัวเองเป็นประจำเกิดกระเพาะปัสสาวะอักเสบ ไม่มีไข้สูง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงหลังคลอดทางช่องคลอด ฝีเย็บบวมเจ็บ ปัสสาวะไม่ออก ไม่มีไข้ — สวนครั้งเดียวและให้ยาแก้ปวด"
+   "B": "ไม่ได้ให้ยาฆ่าเชื้อทั้งที่มีไข้ · จะถูกถ้าคำถามถาม acute urinary retention จาก BPH ที่ไม่มีไข้ (คาสาย + alpha-blocker แล้วลองถอดสาย)",
+   "C": "ไม่ได้รักษาการติดเชื้อ และการสวนซ้ำผ่านต่อมที่อักเสบทำให้เจ็บและเสี่ยงเชื้อเข้ากระแสเลือด · จะถูกถ้าคำถามถาม chronic retention จาก neurogenic bladder",
+   "D": "ยากินไม่พอในผู้ป่วยมีไข้ที่มีปัสสาวะคั่ง และการสวนเป็นครั้งคราวระบายไม่ต่อเนื่อง · จะถูกถ้าคำถามถาม cystitis ไม่มีไข้ในผู้ป่วยที่สวนปัสสาวะเองเป็นประจำ",
+   "E": "ไม่ได้รักษาการติดเชื้อ · จะถูกถ้าคำถามถาม retention จากความปวดหลังผ่าตัดที่ไม่มีไข้"
   },
-  "trap": "สวนเป็นครั้ง ๆ เหมือนปัสสาวะคั่งจาก BPH ทั่วไป — ผ่านต่อมที่อักเสบซ้ำหลายครั้งทั้งเจ็บและเสี่ยงเชื้อเข้ากระแสเลือด จึงคาสายทางท่อ (หรือ suprapubic)",
+  "trap": "จำแค่สูตร retention จาก BPH = Foley + alpha-blocker แต่ลืมว่ามีไข้ต้องให้ยาฆ่าเชื้อทางหลอดเลือด",
   "summary": [
-   "<b>นอกสไลด์:</b> รักษา acute bacterial prostatitis: เพาะเชื้อปัสสาวะและเลือดก่อนให้ยา · ยาฉีด (ceftriaxone, fluoroquinolone หรือ piperacillin-tazobactam) แล้วเปลี่ยนเป็นยากินที่เข้าต่อมได้ดี (fluoroquinolone หรือ TMP-SMX) รวมราว 2–4 สัปดาห์ · ห้ามนวดต่อม"
+   "AUR: คาสาย Foley ก่อน (ใส่ไม่ได้ → suprapubic)",
+   "AUR จาก BPH ไม่มีไข้ → alpha-blocker แล้ว trial without catheter",
+   "Acute prostatitis: ไข้ ปวด perineum ต่อมกดเจ็บ (ห้ามนวดต่อม)",
+   "Prostatitis มี retention → ระบายต่อเนื่อง + IV ATB",
+   "ATB: fluoroquinolone/ ceftriaxone รวม 2–4 สัปดาห์",
+   "หลังระบาย: ระวัง post-obstructive diuresis"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง · แนวทางเดิมชอบใส่ suprapubic catheter แต่ปัจจุบันคาสายทางท่อยอมรับได้ และเพิ่ม alpha-blocker ร่วมได้",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ลายมือเสนอเพิ่ม alpha-blocker ได้ภายหลังเพื่อเตรียมถอดสาย",
+  "mnemonic": "<b>'Retention + ไข้ = คาสาย + ยาเข้าเส้น (Drain + Drip)'</b>",
+  "guide": "EAU Guidelines on Urological Infections (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> ให้ยามา 72 ชม. ยังไข้ ปวดฝีเย็บมาก → ทำ TRUS หรือ CT หาฝีต่อมลูกหมาก: ระบายผ่านไส้ตรงหรือผ่านกล้องทางท่อปัสสาวะ",
-   "<b>นอกสไลด์:</b> ชาย 25 ปี acute bacterial prostatitis → ส่ง NAAT หาหนองในและหนองในเทียมด้วย"
+   "ชายสูงอายุ BPH ปัสสาวะไม่ออก ไม่มีไข้ → Foley + alpha-blocker → TWOC",
+   "ชายมีไข้ ปวด perineum ต่อมกดเจ็บ ปัสสาวะไม่ออก → ระบาย + IV ATB",
+   "ใส่ Foley ไม่ผ่าน กระเพาะปัสสาวะเต็ม → suprapubic aspiration/ cystostomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 139 — ตัวพิมพ์: <b>35. nocturia 3-4 times/night x 6 months มา ER มีไข้ 38C ปวดที่ perineum ปัสสาวะไม่ออก proper initial management? (...acute urinary retention with UTI? lower/upper) — a. retain Foley's catheter + IV antibiotics b. retain Foley's catheter + alpha-blocker c. intermittent catheterisation + alpha-blocker d. intermittent catheterisation + oral antibiotics e. intermittent catheterisation + analgesia</b><br>ลายมือ: ขีด a · เขียน \"∴ มี UTI\" และ \"+α-blocker ?\" · ที่ช้อย b–c เขียน \"+α-blocker คา foley รอ residual urine ~3 wk (รอถอด F/U, α-blocker action)\" · \"ใน BPH มักกล้ามเนื้อเปลี่ยน\" · \"จาก decompensated bladder\" · \"เกิด acute urinary retention &gt; bladder capacity 500–600 cc [chronic urinary retention &gt;&gt;&gt; bladder capacity ถึง 2000 cc] → overflow incontinence, bilat. hydronephrosis\" · \"ปสว. ไม่ออก → Foley ไม่ผ่าน → suprapubic aspiration เหนือ pubic symphysis 2 cm ทำเมื่อ full bladder แล้ว refer\" · \"(ใส่ xylocaine jelly 10 cc)\" · โน้ตสีเขียวตัวเล็ก: ใส่ foley แล้วระวัง diuresis · admit + hydration ป้องกัน prerenal AKI · เจาะ Cr ดู baseline<br>ไฮไลต์: \"nocturia 3-4 times/night x 6 months\" · \"มีไข้ 38C\" · \"ปวดที่ perineum\" · \"ปัสสาวะไม่ออก\" · \"initial management?\" · a (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 139",
+  "kimg": [
+   "fsk_p139",
+   "kp67d_35"
   ]
  },
  "MDCU67|RoD|36": {
-  "interp": "ติดเชื้อทางเดินปัสสาวะ ปัสสาวะ pH 7.5 ร่วมนิ่วเขากวาง → ถามเชื้อที่พบบ่อยที่สุด",
-  "why": "<b>คีย์: ขีด a + ลายมือ urease, urea → NH₃</b><br><b>นอกสไลด์:</b> ปัสสาวะด่างร่วมนิ่วเขากวางเข้ากับนิ่ว struvite จากเชื้อที่สร้าง urease ซึ่ง Proteus mirabilis สร้าง urease แรงและพบบ่อยที่สุด",
+  "interp": "UTI + <b>ปัสสาวะด่าง (pH 7.5)</b> + <b>staghorn stone</b> ถามเชื้อที่พบบ่อยที่สุด",
+  "why": "เชื้อที่สร้าง <b>urease</b> ย่อย urea → <b>NH₃</b> ทำให้ปัสสาวะด่าง → ตกตะกอน <b>struvite (magnesium ammonium phosphate)</b> โตเป็น staghorn · เชื้อที่พบบ่อยที่สุดคือ <b>Proteus mirabilis</b> · ไฟล์ขีด a ลายมือ <b>\"urease; urea → NH₃\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าหญิงเป็นกระเพาะปัสสาวะอักเสบไม่ซับซ้อน ปัสสาวะเป็นกรด ไม่มีนิ่ว",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยเบาหวานชาวเอเชียเป็นฝีในตับจากเชื้อในชุมชน ร่วมตาอักเสบติดเชื้อ",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Enterobacter เป็นเชื้อที่พบบ่อยที่สุดของนิ่วเขากวางในปัสสาวะด่าง เพราะเป็นเชื้อที่มักพบในโรงพยาบาลและส่วนใหญ่ไม่สร้าง urease",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุเบาหวานมีหูชั้นนอกอักเสบรุนแรงลามถึงกระดูก (malignant otitis externa)"
+   "B": "E. coli เป็นเชื้อ UTI ที่พบบ่อยที่สุดโดยรวม แต่ไม่สร้าง urease · จะถูกถ้าคำถามถามเชื้อก่อ UTI ทั่วไปที่พบบ่อยที่สุด",
+   "C": "Klebsiella สร้าง urease ได้บางสายพันธุ์ แต่พบน้อยกว่า Proteus · จะถูกถ้าคำถามถามเชื้อ urease-producing รองลงมา",
+   "D": "Enterobacter ไม่ใช่เชื้อหลักของ struvite · จะถูกถ้าคำถามถามเชื้อ nosocomial UTI กลุ่ม Enterobacterales",
+   "E": "Pseudomonas สร้าง urease ได้บางส่วน พบในผู้ป่วยคาสาย/ ติดเชื้อในโรงพยาบาล · จะถูกถ้าคำถามถาม catheter-associated UTI ที่ดื้อยา"
   },
-  "trap": "ตอบ Klebsiella หรือ Pseudomonas เพราะจำได้ว่าสร้าง urease — สร้างได้จริงแต่ส่วนน้อย Proteus mirabilis สร้าง urease แรงและเป็นต้นเหตุที่พบบ่อยที่สุด",
+  "trap": "ตอบ E. coli เพราะเป็นเชื้อ UTI ที่พบบ่อยที่สุดโดยรวม แต่คำถามมี pH ด่าง + staghorn ชี้ไป urease",
   "summary": [
-   "<b>นอกสไลด์:</b> ผลของนิ่วเขากวางที่ไม่ได้รักษา: ติดเชื้อซ้ำ ไตเสียการทำงาน sepsis และ xanthogranulomatous pyelonephritis (ไตโตไม่ทำงาน มีนิ่วตรงกลาง CT เห็นรูปอุ้งเท้าหมี) · การรักษาต้องเอานิ่วออกให้หมด ไม่ใช่ให้ยาปฏิชีวนะอย่างเดียว"
+   "Struvite = MgNH₄PO₄ (infection stone)",
+   "เกิดจากเชื้อสร้าง urease: Proteus (พบบ่อยสุด) · Klebsiella · Pseudomonas",
+   "ปัสสาวะด่าง pH &gt; 7",
+   "ผลึกรูปฝาโลง (coffin-lid)",
+   "Staghorn: ต้องเอานิ่วออกทั้งหมด (PCNL)",
+   "Acetohydroxamic acid = urease inhibitor"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Proteus Pees Pee ด่าง → staghorn (P-P-P)'</b>",
+  "guide": "EAU Guidelines on Urolithiasis (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> นิ่วเขากวางที่ไตทำงานเหลือราว 8% และติดเชื้อซ้ำ → ตัดไตข้างนั้น",
-   "<b>นอกสไลด์:</b> ผู้ป่วยนิ่วเขากวางที่ทนการผ่าตัดไม่ได้ → ยาปฏิชีวนะกดเชื้อระยะยาวเพื่อลดการติดเชื้อ (ไม่ได้ทำให้นิ่วหาย)"
+   "หญิง UTI ซ้ำ ปัสสาวะ pH 8 KUB เห็นนิ่วเต็มกรวยไต → struvite → PCNL",
+   "ผลึกรูปฝาโลงในปัสสาวะ → struvite",
+   "ปัสสาวะเป็นกรด pH 5 นิ่วไม่ทึบแสง → uric acid stone"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 139 — ตัวพิมพ์: <b>36. presumed UTI, pH 7.5, staghorn stone What is most common organism — a. Proteus b. E. coli c. Klebsiella d. Enterobacter</b><br>ลายมือ: เขียน \"urease; urea → NH₃\" เหนือ pH 7.5 · ขีด a<br>ไฮไลต์: \"presumed UTI\" · \"pH 7.5\" · \"staghorn stone\" · \"most common organism\" · a (เหลือง)<br>ข้อ 37 ในไฟล์ (ตัวพิมพ์ \"คำนวณ fluid ตาม Parkland formula ไปดูมาาาา ตามแอคเก่า\") ถูกขีดฆ่าทั้งข้อ<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย a–d เว็บเพิ่ม E Pseudomonas",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 139",
+  "kimg": [
+   "fsk_p139",
+   "kp67d_36"
   ]
  },
  "MDCU67|RoD|38": {
-  "interp": "ถามลักษณะของแผลไหม้ระดับสาม (full thickness)",
-  "why": "<b>คีย์: ขีด a + ลายมือ b needed · c, d not · e painless</b><br><b>นอกสไลด์:</b> full thickness burn ทำลายหนังกำพร้าและหนังแท้ทั้งชั้น รวมรูขนและต่อมที่เป็นแหล่งเซลล์สร้างผิวใหม่",
+  "interp": "ถามลักษณะของ <b>third-degree (full-thickness) burn</b>",
+  "why": "Full-thickness burn ทำลาย<b>ผิวหนังทุกชั้น</b> (epidermis + dermis ทั้งหมด) รวมปลายประสาทและ skin appendage → ผิวขาวซีด/ น้ำตาลแข็งเหมือนหนัง <b>ไม่เจ็บ</b> หายเองไม่ได้ (ยกเว้นแผลเล็กมากที่หายจากขอบ) ต้อง <b>excision + skin graft</b> · ไฟล์ขีด a แก้ลายมือว่า graft <b>\"is needed\"</b> และ <b>\"painless\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูก (เป็นลักษณะที่ถูก) ถ้าเป็นแผลลึกทั้งชั้นขนาดเล็กมาก (ราว 1–2 cm) ที่หายจากขอบแผลหรือตัดแล้วเย็บปิดได้",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผลไหม้ชั้นตื้นที่สุด (superficial) ผิวแดงไม่พอง หายในราว 3–7 วัน",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผล superficial partial thickness พุพอง ผิวชมพูชื้น หายในราว 2 สัปดาห์",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นแผล partial thickness ที่ปลายประสาทในหนังแท้ยังอยู่"
+   "B": "Full-thickness ต้อง skin graft เพราะไม่มีเซลล์เหลือสร้างผิวใหม่ · จะถูกถ้าคำถามถาม superficial หรือ superficial partial-thickness burn",
+   "C": "หายเองใน ~7 วัน คือ <b>superficial (first-degree)</b> burn · จะถูกถ้าคำถามถามแผลแดงไม่มีตุ่มน้ำ เช่น ผิวไหม้แดด",
+   "D": "หายเองภายใน 14–21 วัน คือ <b>superficial partial-thickness</b> burn · จะถูกถ้าคำถามถามแผลตุ่มน้ำ ชมพู เจ็บมาก กดซีด",
+   "E": "Full-thickness <b>ไม่เจ็บ</b>เพราะปลายประสาทถูกทำลาย · จะถูกถ้าคำถามถาม partial-thickness burn ที่เจ็บมากที่สุด"
   },
-  "trap": "รอให้แผลลึกหายเองโดยทำแผลอย่างเดียว — full thickness ไม่มีรูขนเหลือให้สร้างผิว หายได้จากขอบแผลเท่านั้น ช้ามากและหดรั้ง จึงต้องตัดเนื้อตายและปลูกผิว",
+  "trap": "คิดว่าแผลไหม้ลึกต้องเจ็บมาก ความจริงแผลลึกสุดกลับไม่เจ็บ",
   "summary": [
-   "<b>นอกสไลด์:</b> early excision and grafting: เมื่อภาวะคงที่แล้ว (มักภายในราว 3–7 วัน) ตัดเนื้อตายออกเป็นชั้น ๆ (tangential) หรือถึง fascia แล้วปลูก split-thickness skin graft (แบบตาข่ายในแผลกว้าง) · ลดการติดเชื้อ วันนอนโรงพยาบาล และแผลเป็นหนาเมื่อเทียบกับรอให้หนังตายหลุดเอง"
+   "Superficial: แดง ไม่มีตุ่มน้ำ เจ็บ หาย 3–7 วัน",
+   "Superficial partial: ตุ่มน้ำ ชมพู ชื้น เจ็บมาก หาย &lt; 2–3 สัปดาห์",
+   "Deep partial: ซีด/ เป็นจุด เจ็บน้อย หาย &gt; 3 สัปดาห์ มักต้อง graft",
+   "Full thickness: ขาว/ น้ำตาล แข็ง ไม่เจ็บ → excision + graft",
+   "Fourth degree: ถึงกล้ามเนื้อ/ กระดูก",
+   "Circumferential full thickness → escharotomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Full thickness = Full (ทุกชั้น) · No pain · Need graft'</b>",
+  "guide": "Herndon's Total Burn Care 5th ed. (2018) — Burn wound depth and management",
   "variants": [
-   "<b>นอกสไลด์:</b> ไฟไหม้ full thickness 50% ผิวดีของผู้ป่วยไม่พอปลูก → คลุมชั่วคราวด้วยผิวผู้บริจาค (allograft) หรือวัสดุทดแทนหนังแท้ แล้วทยอยปลูกผิวของผู้ป่วย",
-   "<b>นอกสไลด์:</b> แผล full thickness ที่หลังมือ → ปลูกผิวแบบแผ่นไม่ทำตาข่าย (sheet graft) และดามมือในท่าที่ถูก ลดการหดรั้ง"
+   "แผลไหม้ตุ่มน้ำ ชมพู เจ็บมาก → superficial partial → dressing หายเองใน 2–3 สัปดาห์",
+   "แผลไหม้แข็งเหมือนหนัง ไม่เจ็บ → full thickness → excision + graft",
+   "แผลไหม้ลึกรอบแขนทั้งวง ชีพจรปลายมือเบา → escharotomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 140 — ตัวพิมพ์: <b>38. What is characteristics of — a. involves whole layer of epidermis b. graft is not needed c. spontaneous recovery in 7 days d. spontaneous recovery in 14 days e. pain</b><br>ลายมือ: เขียน \"3rd degree burn / full thickness\" ต่อท้ายคำถาม · ขีด a · กากบาทคำ \"not\" ในช้อย b · กากบาทกลางคำ spontaneous ในช้อย c และ d · กากบาทคำ pain ในช้อย e<br>ไฮไลต์: \"characteristics of 3rd degree burn / full thickness\" · a (เหลือง)<br>ที่ปรับในเว็บ: ช้อย A แก้จาก whole layer of epidermis เป็น whole skin thickness · ช้อย E เขียนเป็น Painful",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 140",
+  "kimg": [
+   "fsk_p140",
+   "kp67d_38"
   ]
  },
  "MDCU67|RoD|39": {
-  "interp": "ถุงน้ำ epidermal cyst 1 cm ที่หลัง ไม่บอกอาการอักเสบ → ถามการจัดการ",
-  "why": "<b>คีย์: ขีด d + ลายมือ a–c ✗ not CA · concern → complete excision</b><br><b>นอกสไลด์:</b> epidermal cyst เป็นถุงไม่ร้ายที่วินิจฉัยได้จากลักษณะ (ก้อนกลมใต้ผิวมีรูเปิดเล็กตรงกลาง) ไม่ต้องตัดชิ้นเนื้อ ถ้าไม่มีอาการให้คำแนะนำและเฝ้าดู ถ้าผู้ป่วยกังวลหรือรบกวนจึงตัดออกทั้งถุง",
+  "interp": "<b>Epidermal (epidermoid) cyst</b> ขนาด 1 cm ที่หลัง ไม่มีอาการ ถามการจัดการ",
+  "why": "Epidermal cyst เป็นถุงน้ำธรรมดา ไม่ใช่มะเร็ง ขนาดเล็กไม่มีอาการ → <b>ให้คำแนะนำและสังเกตอาการ</b> · ถ้ารำคาญ/ ต้องการเอาออก → ผ่าตัด<b>เอาออกทั้งถุง</b> (complete excision) ช่วงที่ไม่อักเสบ · ไฟล์ขีด d ลายมือ <b>\"∵ not CA\"</b> และ <b>\"or รำคาญ → complete excision\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นรอยโรคผิวหนังแบนที่ต้องการทราบชนิด เช่น ผื่นหนาเรื้อรังหรือรอยโรคที่หน้าซึ่งสงสัย BCC ขนาดใหญ่",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนใต้ผิวขนาดใหญ่ (> 5 cm) แข็ง โตเร็ว สงสัย sarcoma — เก็บชิ้นเนื้อบางส่วนตามแนวที่จะผ่าตัดใหญ่",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นไฝสีไม่สม่ำเสมอ ขอบไม่เรียบ สงสัย melanoma — ตัดทั้งรอยโรคขอบแคบราว 1–3 mm",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าถุงอักเสบเป็นฝี บวมแดงเจ็บ คลำนิ่ม"
+   "A": "Punch biopsy ใช้วินิจฉัยรอยโรคผิวหนังที่สงสัย ไม่จำเป็นในถุงน้ำที่วินิจฉัยทางคลินิกได้ · จะถูกถ้าคำถามถามผื่นผิวหนังที่ไม่ทราบสาเหตุ",
+   "B": "Incisional biopsy ใช้กับก้อนใหญ่ที่สงสัยมะเร็ง (เช่น sarcoma) · จะถูกถ้าคำถามถามก้อนลึกใต้ fascia &gt; 5 cm โตเร็ว",
+   "C": "Excision ทำเมื่อมีอาการ/ ต้องการเอาออก/ อักเสบซ้ำ ไม่ใช่ biopsy เพราะไม่ได้สงสัยมะเร็ง · จะถูกถ้าคำถามถามผู้ป่วยรำคาญก้อนหรืออักเสบซ้ำ",
+   "E": "I&amp;D ใช้เมื่อถุงอักเสบเป็นฝี (ลายมือ \"? abscess\") · จะถูกถ้าคำถามถามก้อนบวมแดงร้อนกดเจ็บมีหนอง"
   },
-  "trap": "บีบหรือเจาะเอาเนื้อข้างในออกเอง — ทำให้ถุงแตก อักเสบมากขึ้น และกลับเป็นซ้ำเพราะผนังถุงยังอยู่",
+  "trap": "เห็นก้อนแล้วรีบ biopsy ทั้งที่ลักษณะเป็นถุงน้ำธรรมดา",
   "summary": [
-   "<b>นอกสไลด์:</b> epidermal cyst: ถุงบุด้วยหนังกำพร้า ภายในเป็น keratin กลิ่นเหม็น · ไม่มีอาการไม่ต้องรักษา · ต้องการเอาออก → ตัดทั้งถุงรวมรูเปิดช่วงที่ไม่อักเสบ (ผนังถุงเหลือ → กลับเป็นซ้ำ) · อักเสบเป็นฝี → I&amp;D ก่อน แล้วตัดถุงภายหลัง"
+   "Epidermal cyst: ก้อนกลม มีรู punctum ตรงกลาง บีบมีสารคล้ายเนย",
+   "ไม่มีอาการ → สังเกต",
+   "รำคาญ/ อักเสบซ้ำ → excision ทั้งถุง (ไม่ให้เหลือ)",
+   "อักเสบเป็นฝี → I&amp;D ก่อน แล้ว excision ภายหลัง",
+   "เหลือผนังถุง → เป็นซ้ำ",
+   "ก้อนหลายก้อน + osteoma + polyp → Gardner syndrome"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจปานกลาง · ไฟล์มีช้อย 4 ข้อ Claude เติม E",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'ถุงน้ำเงียบ → ปล่อย · รำคาญ → ตัดทั้งถุง · เป็นหนอง → เปิด'</b>",
+  "guide": "Bolognia Dermatology 5th ed. (2024) — Cysts",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงวัยกลางคนมีก้อนแข็งหลายก้อนที่หนังศีรษะ ไม่มีรูเปิด → pilar (trichilemmal) cyst: ตัดออกได้ง่ายเพราะผนังถุงหนา",
-   "<b>นอกสไลด์:</b> ถุงน้ำใต้ผิวหลายก้อนร่วม osteoma ที่ขากรรไกรและติ่งเนื้อลำไส้ใหญ่จำนวนมาก → Gardner syndrome (FAP): ส่องลำไส้ใหญ่"
+   "ก้อนที่หลัง 1 cm มี punctum ไม่มีอาการ → advice and observe",
+   "Epidermal cyst บวมแดงร้อน fluctuation → I&amp;D",
+   "Epidermal cyst อักเสบซ้ำหลายครั้ง → complete excision ช่วงสงบ"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 140 — ตัวพิมพ์: <b>39. epidermal cyst 1 cm at the back What is management? — a. punch biopsy b. incisional biopsy c. excisional biopsy d. advice and observe</b><br>ลายมือ: กากบาทคำ biopsy ในช้อย a b c วงเล็บเขียน \"∵ not CA\" · ขีด d · เขียน \"? abscess\" ใต้ช้อย d · \"or รำคาญ → complete excision\"<br>ไฮไลต์: \"epidermal cyst 1 cm at the back\" · \"management\" · d (เหลือง)<br>ข้อ 40 (Which is indication for surgery in lung abscess? (ซ้ำ rotate 3 แจร้)) และข้อ 41 (What is true about lung abscess? (ซ้ำ rotate 3/57 ข้อ 51)) ถูกขีดฆ่าในไฟล์<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย a–d เว็บเพิ่ม E Incision and drainage",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 140",
+  "kimg": [
+   "fsk_p140",
+   "kp67d_39"
   ]
  },
  "MDCU67|RoD|42": {
-  "interp": "ไข้ กดเจ็บเฉพาะที่ท้องซ้ายล่าง ภาพรังสีเห็น coffee bean sign → sigmoid volvulus ที่ยังไม่มีช่องท้องอักเสบทั่ว → ถามการรักษา",
-  "why": "<b>คีย์: ขีด b + ลายมือ sigmoid volvulus · then elective Sx</b><br><b>นอกสไลด์:</b> sigmoid volvulus ที่ไม่มีช่องท้องอักเสบทั่วหรือลำไส้เน่า รักษาขั้นแรกด้วยส่องกล้องคลายเกลียว (ASCRS 2021) ซึ่งสำเร็จส่วนใหญ่ และได้ดูเยื่อบุว่ามีขาดเลือดหรือไม่ แล้วผ่าตัด sigmoid แบบนัดต่อ",
+  "interp": "มีไข้ กดเจ็บ LLQ + X-ray <b>coffee bean sign</b> = <b>sigmoid volvulus</b> ถามการรักษา",
+  "why": "Sigmoid volvulus ที่<b>ไม่มีลักษณะ peritonitis หรือลำไส้เน่า</b> → <b>endoscopic (sigmoidoscopic) detorsion</b> + ใส่ rectal tube แล้วผ่าตัด <b>sigmoid colectomy แบบ elective ในการนอนโรงพยาบาลครั้งเดียวกัน</b> เพราะเป็นซ้ำสูง · ไฟล์ขีด b ลายมือ <b>\"sigmoid volvulus\"</b> และ <b>\"แล้ว → elective Sx\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย sigmoid volvulus ท้องแข็งทั่ว ความดันต่ำ หรือภาพรังสีเห็นลมรั่วในช่องท้อง — ผ่าตัดฉุกเฉิน (มักทำ Hartmann)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารก 9 เดือนที่ลำไส้กลืนกัน ไม่มีช่องท้องอักเสบ — สวนสารทึบรังสีดันลำไส้ภายใต้ fluoroscopy (เดิมใช้ barium ปัจจุบันใช้สารละลายน้ำหรือลม)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นลำไส้เล็กอุดตันไม่สมบูรณ์จากพังผืดหลังผ่าตัด ไม่มีสัญญาณลำไส้ขาดเลือด",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็ง sigmoid อุดตันในผู้ป่วยระยะท้าย หรือใส่เป็นสะพานก่อนผ่าตัด"
+   "A": "Exploratory laparotomy ± colectomy (Hartmann) ทำเมื่อมี <b>peritonitis/ ลำไส้เน่า/ ทะลุ</b> หรือส่องกล้องแล้วเห็นเยื่อบุดำหรือ detorsion ไม่สำเร็จ · จะถูกถ้าคำถามระบุ guarding/ rebound ทั่วท้อง ช็อก หรือมีลมใต้กะบังลม",
+   "C": "Barium enema ใช้วินิจฉัย (bird's beak sign) ไม่ใช่การรักษามาตรฐาน และ barium อันตรายถ้าลำไส้ทะลุ · จะถูกถ้าคำถามถามภาพรังสีที่วินิจฉัย volvulus",
+   "D": "NG decompression อย่างเดียวคลายเกลียวไม่ได้ · จะถูกถ้าคำถามถาม small bowel obstruction จาก adhesion ที่ไม่มี strangulation",
+   "E": "Colonic stent ใช้กับ <b>malignant</b> large bowel obstruction · จะถูกถ้าคำถามถามมะเร็งลำไส้ซ้ายอุดตันเพื่อ bridge to surgery"
   },
-  "trap": "คลายเกลียวสำเร็จแล้วให้กลับบ้าน — กลับเป็นซ้ำราวครึ่งหนึ่งขึ้นไป ต้องผ่าตัด sigmoid แบบนัดในการนอนโรงพยาบาลครั้งเดียวกันถ้าทนผ่าตัดได้",
+  "trap": "ไข้ + กดเจ็บเฉพาะที่อาจทำให้ตอบผ่าตัดทันที แต่คำถามไม่ได้บอก peritonitis ทั่วท้องหรือสัญญาณลำไส้เน่า · ถ้ามีสัญญาณเหล่านี้คำตอบจะเปลี่ยนเป็น A ซึ่งต่างจากคีย์",
   "summary": [
-   "<b>นอกสไลด์:</b> ขั้นตอนส่องกล้องคลายเกลียว: ใช้ flexible sigmoidoscopy ดูเยื่อบุระหว่างทาง (ดำหรือเน่า → หยุดแล้วผ่าตัด) · หลังคลายใส่ rectal tube ค้างราว 1–3 วัน"
+   "Coffee bean/ bent inner tube sign → sigmoid volvulus",
+   "Contrast enema: bird's beak sign",
+   "ไม่มี peritonitis → endoscopic detorsion + rectal tube",
+   "แล้ว elective sigmoid colectomy (admission เดียวกัน)",
+   "Peritonitis/ gangrene → laparotomy + Hartmann",
+   "Cecal volvulus → ผ่าตัด right hemicolectomy (ไม่ส่องกล้องคลาย)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ตาม ASCRS 2021 ความมั่นใจปานกลาง–สูง · ไข้ร่วมกดเจ็บต้องประเมินว่าลำไส้ขาดเลือดหรือไม่ ถ้ามีช่องท้องอักเสบทั่วหรือเยื่อบุเน่าให้ผ่าตัด · ไฟล์มีช้อย 2 ข้อ Claude เติม C–E",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ไข้และกดเจ็บเฉพาะที่ควรระวังลำไส้ขาดเลือด ระหว่างส่องกล้องถ้าเห็นเยื่อบุดำต้องเปลี่ยนเป็นผ่าตัด",
+  "mnemonic": "<b>'Sigmoid = Scope ก่อน แล้ว Surgery (S-S) · Cecum = Cut เลย'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Colonic Volvulus and Acute Colonic Pseudo-Obstruction (Dis Colon Rectum 2016;59:589)",
   "variants": [
-   "<b>นอกสไลด์:</b> ภาพรังสีเห็น sigmoid โป่งร่วมลำไส้เล็กโป่งหลายห่วง ส่องกล้องคลายไม่ได้ → ileosigmoid knotting: ผ่าตัดฉุกเฉิน (ลำไส้เน่าเร็ว)",
-   "<b>นอกสไลด์:</b> ผู้ใหญ่อายุน้อยเป็น sigmoid volvulus ร่วมท้องผูกเรื้อรังตั้งแต่เด็ก → ตัดชิ้นเนื้อไส้ตรงหา Hirschsprung ก่อนวางแผนผ่าตัด"
+   "ผู้สูงอายุท้องผูกเรื้อรัง ท้องอืดมาก X-ray coffee bean ไม่มี peritonitis → sigmoidoscopic detorsion → elective colectomy",
+   "Sigmoid volvulus + peritonitis + ช็อก → laparotomy + Hartmann",
+   "X-ray ลำไส้โป่งชี้ไป LUQ (comma shape) → cecal volvulus → right hemicolectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 140 — ตัวพิมพ์: <b>42. มีไข้ localized tenderness at LLQ, X-ray เจอ coffee bean sign, Management? — a. Exploratory laparotomy +/- colectomy b. Sigmoidoscopy with detorsion</b><br>ลายมือ: เขียน \"sigmoid volvulus\" เหนือ coffee bean sign · ขีด b · \"แล้ว → elective Sx\"<br>ไฮไลต์: \"localized tenderness at LLQ\" · \"coffee bean sign\" · b · \"elective Sx\" (เหลือง)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย a–b เว็บเพิ่ม C Barium enema reduction · D Conservative NG decompression · E Colonic stent",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 140",
+  "kimg": [
+   "fsk_p140",
+   "kp67d_42"
   ]
  },
  "MDCU67|RoD|43": {
-  "interp": "ครอบครัวเป็นมะเร็งลำไส้ใหญ่ตั้งแต่อายุ 25, 35, 40 ปี → สงสัย Lynch syndrome → ถามการคัดกรองสมาชิกครอบครัว",
-  "why": "<b>คีย์: ขีด a + ตาราง screening guidelines</b><br><b>นอกสไลด์:</b> ครอบครัวที่เป็นมะเร็งลำไส้ใหญ่อายุน้อยหลายคนเข้ากับ Lynch syndrome ซึ่ง adenoma กลายเป็นมะเร็งเร็ว (ราว 1–3 ปี) จึงส่องกล้องทุก 1–2 ปี เริ่มอายุ 20–25 ปี",
+  "interp": "ครอบครัวเป็นมะเร็งลำไส้ใหญ่ <b>3 คน อายุ 25, 35, 40</b> (อายุน้อยและหลายคน) ถามวิธีคัดกรองสมาชิกในครอบครัว",
+  "why": "ญาติหลายคนเป็นมะเร็งลำไส้ตั้งแต่อายุน้อย (&lt; 50) เข้าได้กับ <b>Lynch syndrome (HNPCC)</b> ตาม Amsterdam criteria → <b>colonoscopy ทุก 1–2 ปี เริ่มอายุ 20–25 ปี</b> (หรือ 2–5 ปีก่อนอายุญาติที่เป็นน้อยที่สุด) · ไฟล์ขีด a และแปะตาราง screening guideline แถว HNPCC <b>\"20–25 y · Colonoscopy every 1–2 y\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นคนความเสี่ยงปกติตามแนวทางเดิมที่ยังเริ่มคัดกรองที่อายุ 50 ปี",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นคนความเสี่ยงปกติอายุ 45 ปีที่ไม่ต้องการส่องกล้อง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นคนความเสี่ยงปกติที่ส่องกล้องไม่ได้ เช่น กินยาต้านการแข็งตัวที่หยุดไม่ได้",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ครอบครัวที่มีมะเร็งลำไส้อายุน้อยหลายคนไม่ต้องคัดกรอง เพราะความเสี่ยงสูงกว่าคนทั่วไปหลายเท่า"
+   "B": "Colonoscopy ทุก 10 ปีเริ่ม 45–50 ปี สำหรับ <b>average risk</b> · จะถูกถ้าคำถามถามผู้ไม่มีประวัติครอบครัว",
+   "C": "FIT ทุกปีเริ่ม 45 ปี เป็นทางเลือกใน average risk · จะถูกถ้าคำถามถามการคัดกรองแบบไม่รุกล้ำในคนทั่วไป",
+   "D": "CT colonography ทุก 5 ปี เป็นทางเลือกใน average risk · จะถูกถ้าคำถามถามผู้ที่ไม่สามารถส่องกล้องได้",
+   "E": "ประวัติครอบครัวแบบนี้เสี่ยงสูงมาก ต้องคัดกรอง · จะถูกถ้าคำถามถามผู้ที่ตรวจยีนแล้วไม่มี mutation ที่พบในครอบครัว (กลับไปคัดกรองแบบ average risk)"
   },
-  "trap": "ใช้กฎ \"อายุญาติที่เป็นเร็วสุดลบ 10 ปี\" (จะได้ 15 ปี) — กฎนี้ใช้กับครอบครัวเสี่ยงทั่วไปที่ไม่ใช่กลุ่มอาการทางพันธุกรรม Lynch เริ่มที่ 20–25 ปี",
+  "trap": "ใช้เกณฑ์ญาติสายตรงทั่วไป (เริ่ม 10 ปีก่อนอายุญาติที่เป็นน้อยที่สุด ทุก 5 ปี) แทนที่จะนึกถึง Lynch syndrome ซึ่งต้องคัดกรองถี่กว่า · ลายมือในไฟล์แก้ช้อย a เป็นทุก 5 ปีเริ่มอายุ 15 ตามเกณฑ์ญาติสายตรง ต่างจากคีย์ในเว็บที่ใช้เกณฑ์ HNPCC",
   "summary": [
-   "<b>นอกสไลด์:</b> ยืนยัน Lynch: เข้าเกณฑ์ Amsterdam II (ญาติ ≥ 3 คนเป็นมะเร็งกลุ่ม Lynch, ≥ 2 รุ่นติดกัน, ≥ 1 คนอายุ &lt; 50, ไม่ใช่ FAP) หรือมะเร็งที่ตรวจ MMR/MSI ผิดปกติ → ตรวจยีน germline ในญาติที่เป็นมะเร็งก่อน แล้วตรวจ mutation นั้นในสมาชิกที่ยังไม่เป็น · MSH6/PMS2 เริ่มส่องราว 30–35 ปี"
+   "Average risk: เริ่ม 45–50 ปี colonoscopy ทุก 10 ปี",
+   "ญาติสายตรง 1 คนเป็น &lt; 60 ปี: เริ่ม 40 ปี หรือ 10 ปีก่อนอายุญาติ ทุก 5 ปี",
+   "Lynch/ HNPCC: เริ่ม 20–25 ปี ทุก 1–2 ปี",
+   "FAP: flexible sigmoidoscopy ทุกปีเริ่ม 10–12 ปี",
+   "UC/ Crohn colitis: เริ่ม 8 ปีหลังวินิจฉัย ทุก 1–2 ปี",
+   "Amsterdam II: 3 คน · 2 รุ่น · 1 คน &lt; 50 ปี"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง · ไฟล์มีช้อยเดียว Claude เติม B–E",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีดช้อย a · แต่ลายมือแก้ช่วงเป็น \"q5 yr\" และอายุเริ่ม \"−10 yr = 15 yo\" ตามเกณฑ์ญาติสายตรง ส่วนเว็บใช้เกณฑ์ Lynch (ทุก 1–2 ปีจาก 20–25 ปี) ซึ่งเหมาะกว่าเมื่อมีญาติเป็น 3 คนอายุน้อย",
+  "mnemonic": "<b>'Lynch = 3-2-1 (3 คน 2 รุ่น 1 คน &lt; 50) → ส่อง 1–2 ปี เริ่ม 20–25'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, and Gastric (current version)",
   "variants": [
-   "<b>นอกสไลด์:</b> สมาชิกครอบครัว Lynch ที่ยังไม่เป็นมะเร็ง ตรวจแล้วไม่พบ mutation ที่พบในครอบครัว → กลับไปคัดกรองแบบคนทั่วไป",
-   "<b>นอกสไลด์:</b> หญิง Lynch (MLH1) อายุ 40 ปี มีบุตรครบแล้ว → พิจารณาผ่าตัดมดลูกและรังไข่ป้องกันมะเร็ง"
+   "พ่อเป็นมะเร็งลำไส้ตอน 55 ปี → ลูกเริ่ม colonoscopy 40 ปี ทุก 5 ปี",
+   "ครอบครัวมีมะเร็งลำไส้และมะเร็งเยื่อบุโพรงมดลูกหลายคนอายุน้อย → Lynch → colonoscopy ทุก 1–2 ปี",
+   "วัยรุ่นมี polyp นับร้อย พ่อเป็น FAP → sigmoidoscopy ทุกปีตั้งแต่ 10–12 ปี"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 140 — ตัวพิมพ์: <b>43. family history of CA colon onset 25, 35, 40 (มีคนในบ้านเป็นตอนอายุเท่านี้) จะ screen อย่างไร — a. colonoscope q1-2 yr เริ่มตอนอายุ...</b><br>ลายมือ: กากบาท \"1-2\" เขียน \"5\" (q5 yr) · ต่อท้าย \"−10 yr = 15 yo\" · ขีด a<br>ไฮไลต์: \"family history of CA colon\" · \"onset 25, 35, 40\" · \"screen อย่างไร\" · a (เหลือง)<br>รูปที่แปะ: \"Screening\" Table 29-2 Screening guidelines for colorectal cancer — Average risk 50 y: Annual FOBT or flexible sigmoidoscopy every 5 y or annual FOBT and flexible sigmoidoscopy every 5 y or air-contrast barium enema every 5 y or colonoscopy every 10 y · Adenomatous polyps 50 y: colonoscopy at first detection; then colonoscopy in 3 y · Colorectal cancer at diagnosis: pretreatment colonoscopy; then at 12 mo after curative resection; then after 3 y; then every 5 y · Ulcerative colitis, Crohn's colitis: at diagnosis; then after 8 y for pancolitis, after 15 y for left-sided colitis — colonoscopy every 1–2 y · FAP 10–12 y: annual flexible sigmoidoscopy · Attenuated FAP 20 y · HNPCC 20–25 y: colonoscopy every 1–2 y · Familial colorectal cancer first-degree relative: 40 y or 10 y before the youngest affected relative — colonoscopy every 5 y · สรุปลายมือ: ทั่วไป start 50 yr FOBT q1yr, flexible sigmoidoscopy q5yr, colonoscope q10yr, Ba. enema q5yr · Adenoma polyp 50 yr 1st detec. colono → 3 yr → ยังมี → 3 yr / ไม่มี → 5 yr · Colorectal CA at dx → ผ่าตัดเสร็จ → colono 1 yr → 3 yr → 5 yr · UC, Crohn at dx pancolitis → 8 yr, Lt. side colitis → 15 yr → q 1–2 yr colono · FAP start 10–12 yr → flex. sigmoid q1yr · HNPCC 20–25 yr → colono q1–2 yr · 1st degree FH อายุน้อยสุด −10 yr → colono q5yr<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย a ข้อเดียว เว็บเขียนช้อย A เป็น every 1–2 years from age 20–25 และเพิ่ม B–E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 140",
+  "kimg": [
+   "fsk_p140",
+   "kp67d_43"
   ]
  }
 }
