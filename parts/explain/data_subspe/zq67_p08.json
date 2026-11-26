@@ -1,192 +1,332 @@
 {
  "MDCU67|RoA|76": {
-  "interp": "นิ่ว 1 cm ใน minor calyx ของไตขวา (ไม่ใช่ lower pole) ไม่มีไตบวมน้ำ แต่มีปวดและเลือดออก → ถามวิธีรักษา",
-  "why": "<b>คีย์: ขีด B + ลายมือ A 2 cm (>1 cm lower pole)</b><br><b>นอกสไลด์:</b> นิ่วไตที่มีอาการควรเอาออก · ขนาดราว 1 cm ที่ไม่ได้อยู่ lower pole การสลายนิ่วด้วยคลื่นกระแทกจากภายนอก (ESWL) ได้ผลดี ไม่ต้องผ่าตัดหรือส่องกล้อง เศษนิ่วหลุดออกเองได้ง่าย",
+  "interp": "หญิง 45 ปี IVP พบ<b>นิ่วขนาด 1 cm ใน minor calyx ไตขวา</b> ไม่มี hydronephrosis แต่<b>มีอาการปวดและปัสสาวะเป็นเลือด</b> → ถามการจัดการ",
+  "why": "นิ่วในไต<b>มีอาการ</b> (ปวด/ เลือดออก) → ควรเอาออก · ขนาด <b>&lt; 2 cm</b> (และไม่ใช่ lower pole ที่ใหญ่ &gt; 1 cm) → <b>ESWL</b> เป็นทางเลือกแรกที่รุกล้ำน้อย (หรือ RIRS) · นิ่วเล็ก &lt; 4–5 mm จึงจะรอให้หลุดเองได้ · ≥ 2 cm (หรือ lower pole &gt; 1 cm) → PCNL · ไฟล์ขีด B ลายมือ A <b>\"&lt; 4–5 mm\"</b> · B <b>\"&lt; 2 cm (&lt; 1 cm ใน lower pole)\"</b> · C <b>\"&gt; 2 cm (&gt; 1 cm ใน lower pole)\"</b> และแปะสไลด์ Treatment (general measures · medical · surgical)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้านิ่วในไตขนาดเล็กที่ไม่มีอาการ ไม่อุดตัน ไม่ติดเชื้อ — เฝ้าดูด้วยภาพเป็นระยะได้",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้านิ่วไตใหญ่เกินราว 2 cm นิ่วเขากวาง หรือนิ่ว lower pole เกิน 1 cm ที่ไม่เหมาะกับ ESWL — เจาะผ่านผิวหนังเข้าไตเอานิ่วออก (PCNL)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นนิ่ว uric acid (มองไม่เห็นในภาพรังสีธรรมดา ค่า CT ต่ำ ปัสสาวะเป็นกรด) — ให้ potassium citrate ปรับปัสสาวะเป็นด่างให้นิ่วละลาย",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าต้องแก้ความผิดปกติทางกายวิภาคร่วม (เช่น UPJ obstruction ที่มีนิ่วใหญ่) ในที่ที่ทำการส่องกล้องไม่ได้ — ปัจจุบันใช้น้อยมาก"
+   "A": "รอสังเกตใช้กับนิ่วเล็ก &lt; 4–5 mm (ลายมือ) หรือนิ่วไม่มีอาการ · จะถูกถ้านิ่ว 4 mm ไม่มีอาการ ไม่อุดกั้น",
+   "C": "PCNL ใช้นิ่ว &gt; 2 cm หรือ lower pole &gt; 1 cm (ลายมือ) · จะถูกถ้านิ่ว staghorn หรือ 2.5 cm ในไต",
+   "D": "ยาละลายนิ่วได้ผลเฉพาะ uric acid (โปร่งรังสี) — IVP เห็นก้อน (ทึบรังสี) · จะถูกถ้านิ่วโปร่งรังสี ปัสสาวะเป็นกรด เกาต์",
+   "E": "ผ่าตัดเปิดแทบไม่ใช้แล้ว · จะถูกถ้านิ่วใหญ่ซับซ้อนที่ endourology ล้มเหลว หรือต้องแก้ความผิดปกติทางกายวิภาคร่วม"
   },
-  "trap": "ไม่มีไตบวมน้ำแล้วเลือกเฝ้าดู — นิ่วที่ทำให้ปวดหรือเลือดออกถือว่ามีอาการ ควรเอาออก เกณฑ์เฝ้าดูใช้กับนิ่วเล็กที่ไม่มีอาการ",
+  "trap": "ไม่มี hydronephrosis จึงรอสังเกต — มีอาการปวดและเลือดออก นิ่ว 1 cm หลุดเองยาก ต้องเอาออก",
   "summary": [
-   "<b>นอกสไลด์:</b> เลือกวิธีตามขนาดและตำแหน่ง (EAU): นิ่วไต &lt; 1 cm → ESWL หรือส่องกล้องท่อไตแบบยืดหยุ่น (RIRS) · 1–2 cm → ESWL หรือส่องกล้อง (RIRS/PCNL) · > 2 cm → PCNL · lower pole 1–2 cm ที่กายวิภาคไม่เอื้อ (มุมแคบ infundibulum ยาวแคบ) หรือนิ่วแข็ง (ค่า CT สูงราว > 1,000 HU) → เลือกส่องกล้องแทน ESWL"
+   "นิ่ว &lt; 4–5 mm: มักหลุดเอง · &gt; 1 cm: ไม่น่าหลุด",
+   "นิ่วในไต &lt; 2 cm → ESWL/ RIRS",
+   "Lower pole 1–2 cm → RIRS/ PCNL (ESWL ผลไม่ดี)",
+   "&gt; 2 cm/ staghorn → PCNL",
+   "ต้องเอาออกเร่งด่วน: ติดเชื้อ · ปวดคุมไม่ได้ · ไตเสื่อม · ไตข้างเดียวอุดกั้น",
+   "Infected obstructed kidney → ระบายก่อน (stent/ PCN)"
   ],
-  "opinion": "ตรวจคีย์แล้ว คงคำตอบ B ESWL — ต้นฉบับระบุว่ามีปวดและปัสสาวะเป็นเลือด ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'นิ่วไต: เล็ก (&lt; 5 mm) รอ · กลาง (&lt; 2 cm) ยิง · ใหญ่ (&gt; 2 cm) เจาะ'</b>",
+  "guide": "EAU Guidelines on Urolithiasis (2025); AUA/Endourological Society Guideline on Surgical Management of Stones (J Urol 2016;196:1153)",
   "variants": [
-   "<b>นอกสไลด์:</b> นิ่ว lower pole 1.5 cm infundibulum แคบยาว ทำมุมแหลมกับเชิงกรวยไต → ESWL ได้ผลน้อย เลือก RIRS หรือ PCNL",
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์มีนิ่วไตอาการปวด → ห้าม ESWL ใส่ stent ท่อไตหรือ nephrostomy ชั่วคราว หรือส่องกล้องท่อไตเอานิ่วออก"
+   "นิ่วในไต 2.8 cm staghorn → PCNL",
+   "นิ่ว lower pole 1.5 cm → RIRS/ PCNL",
+   "นิ่วในไต + ไข้ + hydronephrosis → PCN/ stent ระบายก่อน"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 109 — หัวข้อ Uro · ตัวพิมพ์: <b>76. ผู้ป่วยหญิงไทยอายุ 45 ปี ทำ IVP พบก้อนหนึ่งขนาด 1 cm. @ minor calyx ที่ไตขวา ผู้ป่วยไม่เคยมี Hydronephosis มีปวด และปัสสาวะเป็นเลือด ควรทำอย่างไรต่อไป — A. Observe B. ESWL C. PCNL D. ให้ยาละลายนิ่ว E. ผ่าตัดเอานิ่วออก</b><br>ลายมือ: A \"&lt; 4–5 mm\" · ขีด B + \"&lt; 2 cm (&lt; 1 cm ใน lower pole)\" · C \"&gt; 2 cm (&gt; 1 cm ใน lower pole)\"<br>ไฮไลต์: \"หญิงไทยอายุ 45 ปี\" \"IVP พบก้อนหนึ่งขนาด 1 cm. @ minor calyx ที่ไตขวา\" \"ไม่เคยมี Hydronephosis\" \"มีปวด และปัสสาวะเป็นเลือด\" \"ทำอย่างไรต่อไป\" · B (เหลือง)<br>รูปที่แปะ: ① สไลด์ Treatment — General measures: Stone &lt; 4–5 mm likely to pass · &gt; 1 cm unlikely to pass · Indication for intervention: Fever and/or infection · Intractable pain · Unable to tolerate oral fluid and at risk for dehydration · Progressive renal deterioration · Obstruction in the solitary kidney ② Treatment — Medical: Infection: antibiotic · Hydration and adequate pain control · Drinking excessive amounts of fluid does not increase the likelihood of stone passage · Send home with analgesic (Stone &lt; 4–5 mm) — Come back if pain worsens, severe vomiting or fever · Intervene if stone has not passed within 4–6 wks ③ Treatment — Surgical: Active UTI/Sepsis → Kidney drainage (stent/PCN) · Calculi in kidney → ESWL with/without stent placement · PCNL · Open surgery · Ureteral calculi → ESWL · URS · Bladder calculi → Cystolithotomy · Cystolitholapaxy + ลายมือจำนวนมาก (เช่น \"≤ 2 cm: shock wave\" \"&gt; 2 cm: เจาะเข้าไปเอาออก\" \"upper ureter: shock wave · middle/ lower: ส่องกล้อง\" \"bladder &lt; 3 cm: laser · &gt; 3 cm: open abdomen\")",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 109",
+  "kimg": [
+   "fsk_p109",
+   "kp67a_76"
   ]
  },
  "MDCU67|RoA|77": {
-  "interp": "PSA 3.5 (ไม่สูง) แต่ DRE คลำได้ก้อนแข็ง → ถามขั้นตอนถัดไป",
-  "why": "<b>คีย์: ขีด C + ลายมือ cannot R/O CA</b><br><b>นอกสไลด์:</b> DRE ผิดปกติเป็นข้อบ่งชี้ตัดชิ้นเนื้อด้วยตัวเองไม่ว่า PSA เท่าไร เพราะมะเร็งต่อมลูกหมากส่วนหนึ่ง (บางชนิดเป็นเกรดสูง) สร้าง PSA น้อย · ก้อนแข็งตัดมะเร็งออกไม่ได้จนกว่าจะได้ชิ้นเนื้อ (ปัจจุบันทำ MRI ก่อนเพื่อนำทาง)",
+  "interp": "ชาย PSA 3.5 · DRE: ต่อมลูกหมากผิวเรียบแต่<b>คลำได้ก้อนแข็ง</b> → ถามขั้นต่อไป",
+  "why": "<b>DRE ผิดปกติ (คลำได้ก้อนแข็ง)</b> เป็นข้อบ่งชี้ตรวจชิ้นเนื้อ<b>ไม่ว่า PSA เท่าใด</b> (~25% ของมะเร็งต่อมลูกหมากมี PSA &lt; 4) → <b>TRUS-guided biopsy</b> (ปัจจุบันมักทำ MRI ก่อนเพื่อเจาะเป้าหมาย) · ยาสำหรับ BPH ไม่แก้ปัญหาและ 5-ARI ลด PSA ลงครึ่งหนึ่งทำให้แปลผลยาก · ไฟล์ขีด C ลายมือ <b>\"&gt; 4 โอกาส CA↑\"</b> เหนือ PSA · <b>\"BPH?\"</b> ใต้ firm smooth surface · <b>\"can't R/O CA\"</b> ที่ก้อนแข็ง และแปะสไลด์ <b>General Practice: \"TRUS-Biopsy if highly suspicious from DRE\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นชายมี LUTS จาก BPH ที่ DRE เรียบ ไม่มีก้อน PSA เข้ากับขนาดต่อม — เริ่ม alpha-blocker",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าต่อมโตชัด (ราว > 30–40 mL) LUTS ปานกลางขึ้นไป DRE เรียบไม่มีก้อน และ PSA ไม่น่าสงสัย — 5-ARI ลดขนาดต่อมและโอกาสปัสสาวะคั่ง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า DRE ปกติและ PSA ต่ำ (เช่นต่ำกว่าราว 1–2 ng/mL ในวัย 50–60) ในชายที่เลือกคัดกรอง — ตรวจซ้ำห่างได้",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ายืนยันมะเร็งแล้วและเสี่ยงแพร่กระดูก (PSA > 20, เกรด ISUP ≥ 4 หรือ cT3) หรือมีปวดกระดูก — bone scan หรือ PSMA PET เพื่อจัดระยะ"
+   "A": "Alpha-blocker รักษาอาการ LUTS จาก BPH ไม่ตัดมะเร็ง · จะถูกถ้า DRE ผิวเรียบ ยางนุ่ม ไม่มีก้อน PSA ปกติ มี LUTS",
+   "B": "5-ARI ลดขนาดต่อม และลด PSA ~50% บดบังมะเร็ง · จะถูกถ้าต่อมโต &gt; 30–40 mL ไม่มีก้อน มี LUTS",
+   "D": "เจาะ PSA ซ้ำใน 1 ปีเหมาะเมื่อ DRE ปกติและ PSA ไม่สูง · จะถูกถ้า DRE ปกติ PSA 1.5 ในชาย 55 ปี",
+   "E": "Bone scan ใช้ staging เมื่อยืนยันมะเร็งแล้วและเสี่ยงสูง (PSA &gt; 20/ Gleason ≥ 8/ ปวดกระดูก) · จะถูกถ้ายืนยันมะเร็ง Gleason 9 PSA 60"
   },
-  "trap": "เห็น PSA ต่ำกว่า 4 แล้ววางใจ — PSA ปกติไม่ตัดมะเร็ง ก้อนแข็งจาก DRE ต้อง biopsy",
+  "trap": "PSA &lt; 4 จึงไม่ต้องเจาะ — DRE ผิดปกติอย่างเดียวพอเป็นข้อบ่งชี้",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ตัดชิ้นเนื้อต่อมลูกหมาก: DRE ผิดปกติ (ก้อน แข็ง ไม่สมมาตร) ไม่ว่า PSA เท่าไร · PSA สูงที่ยืนยันซ้ำแล้ว · MRI ก่อน biopsy ช่วยเลือกตำแหน่งและลด biopsy ที่ไม่จำเป็น · การเจาะผ่าน perineum ติดเชื้อน้อยกว่าผ่านไส้ตรง"
+   "ข้อบ่งชี้ biopsy: DRE ผิดปกติ หรือ PSA &gt; 4 (ปรับตามอายุ)",
+   "MRI prostate ก่อน biopsy (PI-RADS) → targeted biopsy",
+   "PSA ปกติไม่ตัดมะเร็ง",
+   "5-ARI ลด PSA ~50% (คูณ 2 เมื่อแปลผล)",
+   "Staging เสี่ยงสูง: bone scan/ PSMA PET",
+   "คัดกรอง: ตัดสินใจร่วมกัน อายุ 50–69 ปี"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'คลำเจอก้อนแข็ง = เจาะ (PSA เท่าไรไม่สน)'</b>",
+  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer (2025); NCCN Prostate Cancer Early Detection v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายกิน finasteride มา 1 ปี PSA 2.5 → คูณ 2 ได้ราว 5 ถือว่าสูง ต้องประเมินต่อ",
-   "<b>นอกสไลด์:</b> คลำได้ก้อนแข็งที่ต่อมลูกหมากหลังเคยฉีด BCG รักษามะเร็งกระเพาะปัสสาวะ biopsy พบ granuloma ไม่พบมะเร็ง → granulomatous prostatitis เลียนแบบมะเร็งได้"
+   "PSA 2.1 แต่ DRE ก้อนแข็งกลีบซ้าย → MRI + biopsy",
+   "PSA 8 DRE ปกติ → MRI prostate → targeted biopsy",
+   "DRE ต่อมโตนุ่มผิวเรียบ PSA 1.8 มี LUTS → alpha-blocker"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 109 — ตัวพิมพ์: <b>77. ผู้ป่วยชาย ตรวจค่า PSA ได้ 3.5 ตรวจ DRE ได้ firm smooth surface prostate ได้ก้อนแข็ง ต้องทำอะไรต่อไป — A. Alpha blocker B. 5- Alpha inhibitor C. TRUS with biopsy</b><br>ลายมือ: \"&gt; 4 โอกาส CA↑\" เหนือ PSA · วงเส้นใต้ \"firm smooth surface prostate\" + \"BPH?\" · \"ก้อนแข็ง?\" + \"can't R/O CA\" · ขีด C<br>ไฮไลต์: \"ค่า PSA ได้ 3.5\" \"DRE ได้\" \"firm smooth surface prostate ได้ก้อนแข็ง\" \"ทำอะไรต่อไป\" · C (เหลือง)<br>รูปที่แปะ: ① สไลด์ General Practice — DRE every year from age 50 yr · PSA test in patients presenting with LUTS · PSA test if DRE positive · TRUS-Biopsy if highly suspicious from DRE · TRUS-Biopsy if PSA &gt; 4 ng/ml · Follow up every 6 months if TRUS-Bx negative · Repeat TRUS-Biopsy if PSA or DRE positive · 6–12 cores rebiopsy is recommended ② สไลด์ Digital Rectal Examination — Presence of prostate cancer · Size of the prostate gland + ภาพท่าตรวจ + ลายมือ<br>ที่ปรับในเว็บ: เพิ่มช้อย D–E (Repeat PSA in 1 year · Bone scan)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 109",
+  "kimg": [
+   "fsk_p109",
+   "kp67a_77"
   ]
  },
  "MDCU67|RoA|78": {
-  "interp": "ชายมี LUTS เดิม หลังใช้ยาหอบหืดปัสสาวะไม่ออก (ปัสสาวะคั่งเฉียบพลันจากยา) → ถามการจัดการ",
-  "why": "<b>คีย์: ขีด E + ลายมือ α-blocker ทำให้ TWOC สำเร็จ · drug-induced AUR · ห้ามหยุดยาหอบ</b><br><b>นอกสไลด์:</b> ยาหอบบางชนิด (anticholinergic, β-agonist) ลดแรงบีบของกระเพาะปัสสาวะในผู้ที่ต่อมลูกหมากโตอยู่เดิม · ระบายด้วยการคาสาย ให้ alpha-blocker เพื่อคลายคอกระเพาะและต่อม แล้วลองถอดสาย (TWOC) ซึ่งสำเร็จมากขึ้นเมื่อได้ alpha-blocker · ไม่หยุดยาหอบที่จำเป็น",
+  "interp": "ชาย<b>มี LUTS (BPH)</b> เป็นหอบหืด ก่อนหน้าไม่เคยปัสสาวะคั่ง แต่<b>หลังกินยาหอบหืดปัสสาวะไม่ออก</b> → ถามการจัดการ",
+  "why": "<b>Drug-induced acute urinary retention</b> ในผู้ป่วย BPH (ยาหอบหืดกลุ่ม anticholinergic/ β-agonist/ ยาแก้หวัดที่มี α-agonist ลดการบีบตัวกระเพาะปัสสาวะหรือเพิ่มความตึงคอกระเพาะ) → <b>คาสายสวน (indwelling Foley) ระบาย</b> + <b>เริ่ม α-blocker</b> แล้ว<b>นัดถอดสายลองปัสสาวะ (TWOC)</b> — α-blocker เพิ่มโอกาส TWOC สำเร็จ · <b>ไม่หยุดยาหอบหืด</b> (โรคหลักที่อันตราย) · ไฟล์ขีด E ลายมือ <b>\"β2 agonist, steroid\"</b> ที่ Asthma · <b>\"+ α-blocker คา foley ระบาย residual urine ~1 wk (รอ F/U, α-blocker action)\"</b> · <b>\"ปสว. ไม่ออก → foley ใส่ก่อน (ใส่ xylocaine jelly 10 cc) → ไม่ได้ → suprapubic aspiration เหนือ pubic symphysis 2 cm ทำเมื่อ full bladder แล้ว refer\"</b> · <b>\"ถ้า congestion → ให้ 5α-reductase inh. ไปก่อน\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้ายาเป็นยาพ่น anticholinergic ที่ใช้ช่วงหอบกำเริบแล้วหยุดได้ ต่อมลูกหมากไม่โต (LUTS เดิมจากเหตุอื่น) และผู้ป่วยสวนปัสสาวะเองเป็นครั้ง ๆ ได้",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยหรือผู้ดูแลสวนปัสสาวะเป็นครั้ง ๆ เองได้และไม่ต้องการคาสาย — ใช้แทนการคาสายระหว่างรอลองปัสสาวะเองหลังได้ alpha-blocker",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าปัสสาวะคั่งจากเหตุชั่วคราวที่หายเร็วในคนที่ไม่มีต่อมลูกหมากโต เช่นหลังดมยาสลบหรือผ่าตัดบริเวณทวาร — สวนครั้งเดียวหรือสองครั้งแล้วปัสสาวะเองได้",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าต่อมลูกหมากไม่โตเลย มีข้อห้ามใช้ alpha-blocker (ความดันต่ำเวลาลุกยืน หกล้มบ่อย) ยาหอบที่เป็นเหตุเปลี่ยนเป็นชนิดที่ไม่มีฤทธิ์ anticholinergic ได้ และสวนเองไม่ได้ (ติดเตียง มือสั่น)"
+   "A": "หยุดยาหอบหืดเสี่ยงหอบกำเริบ และสวนครั้งเดียวไม่พอ · จะถูกถ้ายาที่ทำให้คั่งเป็นยาแก้หวัด/ antihistamine ที่หยุดได้ และปัสสาวะคั่งไม่มาก",
+   "B": "Intermittent catheter + α-blocker ใช้ได้ในบางราย แต่ AUR ใน BPH มาตรฐานคือคาสายระยะสั้นก่อน TWOC · จะถูกถ้าผู้ป่วยสวนตัวเองได้ เช่น neurogenic bladder",
+   "C": "สวนครั้งเดียวไม่แก้ต้นเหตุ เสี่ยงคั่งซ้ำ · จะถูกถ้าคั่งจากยาสลบ/ หลังผ่าตัดที่คาดว่าจะหายเอง",
+   "D": "หยุดยาหอบหืดไม่เหมาะ · จะถูกถ้ายาที่ก่อเหตุไม่จำเป็น (เช่น ยาแก้หวัด pseudoephedrine) หยุดได้ทันที"
   },
-  "trap": "หยุดยาหอบเพื่อแก้ปัสสาวะคั่ง — เสี่ยงหอบกำเริบ ต้นเหตุจริงคือต่อมลูกหมากที่โตอยู่เดิม ยาเป็นแค่ตัวกระตุ้น จึงแก้ที่ต่อมด้วย alpha-blocker",
+  "trap": "หยุดยาหอบหืดเพราะเป็นต้นเหตุ — โรคหลักยังต้องคุม ใช้ α-blocker ช่วยให้ปัสสาวะได้แทน",
   "summary": [
-   "<b>นอกสไลด์:</b> จัดการ AUR: ระบายด้วยสาย บันทึกปริมาณที่ค้าง (เกินราว 800–1,000 mL ลองถอดสายไม่ผ่านบ่อย) → alpha-blocker อย่างน้อยราว 2–3 วันแล้วลองถอดสาย · ตัวกระตุ้นที่พบบ่อย: ยา anticholinergic/sympathomimetic/opioid ท้องผูก สุรา หลังผ่าตัดหรือดมยา"
+   "AUR: สวน Foley ระบาย (ถ้าใส่ไม่ได้ → suprapubic)",
+   "เริ่ม α-blocker ≥ 2–3 วัน → TWOC",
+   "TWOC ล้มเหลว → คาสายต่อ/ CIC → ผ่าตัด (TURP)",
+   "ยาที่กระตุ้น: anticholinergic · antihistamine · α-agonist (decongestant) · opioid",
+   "ข้อบ่งชี้ผ่าตัด BPH: AUR ซ้ำ · นิ่วกระเพาะ · ไตเสื่อม · hematuria ซ้ำ · UTI ซ้ำ",
+   "5-ARI สำหรับต่อมโต &gt; 30–40 mL"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง — หลักฐานปัจจุบันให้ alpha-blocker ราว 2–3 วันแล้วลองถอดสายได้ ไม่จำเป็นต้องรอ 2 สัปดาห์",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'AUR ใน BPH: คาสาย + α-blocker → TWOC (ไม่หยุดยาโรคหลัก)'</b>",
+  "guide": "EAU Guidelines on Management of Non-neurogenic Male LUTS (2025); AUA Guideline: Management of LUTS Attributed to BPH (J Urol 2021;206:806)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย BPH ลองถอดสายแล้วปัสสาวะคั่งซ้ำ → ผ่าตัด TURP (ถ้าไม่พร้อมผ่าตัดใช้การสวนเป็นครั้ง ๆ หรือคาสายระยะยาว)",
-   "<b>นอกสไลด์:</b> ระบายปัสสาวะคั่ง 1,500 mL แล้วปัสสาวะออกมากกว่า 200 mL/ชม.ต่อเนื่อง → post-obstructive diuresis: เฝ้าดูสัญญาณชีพ เกลือแร่ และให้สารน้ำทดแทนบางส่วน"
+   "ชายสูงอายุกินยาแก้หวัดแล้วปัสสาวะไม่ออก → Foley + α-blocker → TWOC (หยุดยาแก้หวัดได้)",
+   "TWOC ล้มเหลว 2 ครั้ง → TURP",
+   "ใส่ Foley ไม่ได้ กระเพาะปัสสาวะเต็มมาก → suprapubic aspiration/ cystostomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 109 — ตัวพิมพ์: <b>78. ผู้ป่วยชาย มีอาการ LUTS มี Underlying disease เป็น Asthma กินยาอยู่ ก่อนหน้าทานยาไม่มีปัญหาปัสสาวะคั่ง แต่หลังทานยาพบว่าตัวเองปัสสาวะไม่ออกจะ Management อย่างไร — A. Intermittent catheter และ หยุดยา Asthma B. Intermittent catheter และ ให้ Alpha blocker C. Intermittent catheter อย่างเดียว D. Retained catheter ให้ผู้ป่วยหยุดยา Follow up 2 wk E. Retained catheter ให้ยา Alpha blocker Follow up 2 wk</b><br>ลายมือ: \"β2 agonist, steroid\" · \"!\" หลัง \"ปัสสาวะไม่ออก\" · ขีด E · ด้านขวา: \"+ α-blocker · คา foley รอ residual urine ↓ ~1 wk (รอ F/U, α-blocker action)\" · \"ใน BPH มักจะคาสายไว้ ∴ ใส่ foley ไว้ในหน้า…\" · \"ถ้า decompensated bladder — เกิด acute urinary retention &gt; bladder capacity 500–600 cc · [chronic urinary retention &gt;&gt;&gt; bladder capacity ถึง 2000 cc] …\" · กล่อง \"ปสว. ไม่ออก → foley ใส่ก่อน (ใส่ xylocaine jelly 10 cc) not ดันๆ → ติดแค่ปลาย · ไม่ได้ → suprapubic aspiration เหนือ pubic symphysis 2 cm ทำเมื่อ full bladder แล้ว refer\" · \"ถ้า congestion → ให้ 5α-reductase inh. ไปก่อน\" + ลายมือเขียวเล็ก (admit + hydration · ป้องกัน prerenal AKI · ดู Cr) (อ่านได้บางส่วน)<br>ไฮไลต์: \"อาการ LUTS\" \"Underlying disease เป็น Asthma กินยาอยู่\" \"ก่อนหน้าทานยาไม่มีปัญหาปัสสาวะคั่ง\" \"หลังทานยาพบว่าตัวเองปัสสาวะไม่ออก\" \"Management อย่างไร\" · E (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 109",
+  "kimg": [
+   "fsk_p109",
+   "kp67a_78"
   ]
  },
  "MDCU67|RoA|79": {
-  "interp": "หญิงอายุ 35 ปี cystitis ครั้งแรก (แสบขัด ปวดหัวหน่าว เลือดออกตอนท้ายปัสสาวะ) → ถามการรักษาที่เหมาะ",
-  "why": "<b>คีย์: ขีด E + ลายมือ acute cystitis · terminal hematuria → bladder neck + สไลด์ short-course antibiotics</b><br><b>นอกสไลด์:</b> เลือดตอนท้ายปัสสาวะมาจากคอกระเพาะปัสสาวะที่อักเสบ (hemorrhagic cystitis) ซึ่งหายไปพร้อมการติดเชื้อ · หญิงอายุน้อยที่ไม่ตั้งครรภ์และเป็นครั้งแรกเป็น uncomplicated cystitis ให้ยาระยะสั้นโดยไม่ต้องตรวจภาพ และกลับมาถ้าไม่ดีขึ้นใน 2–3 วัน",
+  "interp": "หญิงโสด 35 ปี ปัสสาวะแสบขัด ปวดท้องน้อย <b>เลือดออกช่วงท้ายของปัสสาวะ</b> ไม่มีไข้ UA: RBC, WBC 30–50/HPF <b>เป็นครั้งแรก</b> → ถามการจัดการที่ดีที่สุด",
+  "why": "อาการเข้ากับ <b>acute uncomplicated cystitis</b> (ไม่มีไข้ = ไม่ใช่ pyelonephritis) · terminal hematuria บอกรอยโรคที่<b>คอกระเพาะปัสสาวะ/ trigone</b> ซึ่งอักเสบในกระเพาะปัสสาวะอักเสบได้ · รักษาด้วย<b>ยาปฏิชีวนะชนิดกินระยะสั้น (3–5 วัน)</b> ไม่ต้องสืบค้นภาพหรือส่องกล้องในครั้งแรก · แนะนำกลับมาถ้าไม่ดีขึ้นใน 2–3 วัน (และตรวจปัสสาวะซ้ำหลังรักษาว่าเลือดหายไป) · ไฟล์ขีด E ลายมือ <b>\"acute cystitis\"</b> · <b>\"not acute pyelonephritis\"</b> ที่ \"ไม่มีไข้\" · <b>\"lesion @ bladder neck\"</b> และแปะสไลด์ <b>Acute cystitis: \"A short course (3–5 days) of oral antibiotics\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดออกในปัสสาวะยังพบหลังการติดเชื้อหายแล้ว ในผู้ที่ความเสี่ยงมะเร็งปานกลาง — ส่องกล้องกระเพาะปัสสาวะร่วม US ไต (ปัจจุบันไม่ใช้ IVP)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าติดเชื้อซ้ำร่วมปัสสาวะมีลมหรือเศษอุจจาระ — สงสัยรูทะลุระหว่างลำไส้กับกระเพาะปัสสาวะ (เช่นจาก diverticulitis) ส่องกล้องกระเพาะปัสสาวะ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าต้องดูเยื่อบุทางเดินปัสสาวะส่วนบน (สงสัยมะเร็งเชิงกรวยไต/ท่อไต) แต่ทำ CT urography ไม่ได้เพราะไตเสื่อมหรือแพ้สารทึบรังสี",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดออกยังพบหลังการติดเชื้อหายในผู้เสี่ยงสูง (อายุ ≥ 60 สูบบุหรี่มาก เคยเห็นปัสสาวะเป็นเลือดชัด) — CT urography ร่วมส่องกล้องกระเพาะปัสสาวะ"
+   "A": "สืบค้นเต็มรูปแบบเกินจำเป็นในครั้งแรก · จะถูกถ้าเลือดยังออกหลังรักษาการติดเชื้อหายแล้ว หรือผู้ป่วยสูงอายุสูบบุหรี่ (สงสัยมะเร็ง)",
+   "B": "ส่องกล้องไม่ใช่ขั้นแรกใน cystitis ครั้งแรก · จะถูกถ้า hematuria ไม่มีอาการติดเชื้อในผู้สูบบุหรี่อายุ &gt; 40 ปี",
+   "C": "Retrograde pyelography ใช้ดูท่อไตส่วนบนเมื่อสงสัยก้อน/ อุดกั้น · จะถูกถ้า CT urography ไม่ชัดและสงสัย upper tract urothelial cancer",
+   "D": "CT urography ใช้ประเมิน hematuria ที่ไม่มีสาเหตุชัด/ เสี่ยงมะเร็ง · จะถูกถ้าเลือดออกไม่เจ็บในชายสูงอายุสูบบุหรี่"
   },
-  "trap": "เห็นปัสสาวะเป็นเลือดแล้วส่งตรวจหามะเร็งทันที — เลือดที่มาพร้อม cystitis ให้รักษาการติดเชื้อก่อนแล้วตรวจปัสสาวะซ้ำ ประเมินหาสาเหตุอื่นเมื่อเลือดยังอยู่หลังหาย",
+  "trap": "เห็นปัสสาวะเป็นเลือดแล้วส่งสืบค้นมะเร็งทันที — หญิงอายุน้อยมีอาการ cystitis ชัด ให้ยาก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> ตรวจภาพเพิ่มในหญิงที่ติดเชื้อทางเดินปัสสาวะเมื่อ: ไม่ดีขึ้นใน 48–72 ชม. · ไตอักเสบที่รุนแรงหรือสงสัยอุดตัน · ติดเชื้อซ้ำผิดปกติ (เชื้อแปลก นิ่ว ปัสสาวะมีลม) · เลือดออกยังอยู่หลังติดเชื้อหาย — cystitis ครั้งแรกหรือเป็นซ้ำแบบธรรมดาไม่ต้องตรวจภาพ"
+   "Cystitis: แสบขัด · ถ่ายบ่อย · ปวดท้องน้อย · ไม่มีไข้",
+   "ยา: nitrofurantoin 5 วัน · fosfomycin ครั้งเดียว · TMP-SMX 3 วัน",
+   "Pyelonephritis: ไข้ ปวดหลัง CVA tenderness",
+   "Timing hematuria: initial = urethra · terminal = bladder neck/ prostate · total = bladder/ upper tract",
+   "สืบค้นเมื่อ: เลือดไม่หายหลังรักษา · ติดเชื้อซ้ำ · ไข้ไม่ลง · เสี่ยงมะเร็ง",
+   "ผู้ชาย UTI = complicated"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ · หมายเหตุ: รายการ timing ในลายมือเขียน initial → sphincter/ bladder neck และ terminal → urethra ซึ่งสลับกับหลักทั่วไป (initial = urethra · terminal = bladder neck) แต่ลายมือที่โจทย์เขียน \"lesion @ bladder neck\" ตรงกับหลัก",
+  "mnemonic": "<b>'ครั้งแรก ไม่ไข้ แสบขัด = Cystitis → ยาสั้น ไม่ต้องส่อง'</b>",
+  "guide": "IDSA/ESCMID International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women (Clin Infect Dis 2011;52:e103); EAU Guidelines on Urological Infections (2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง cystitis กินยา 3 วันไม่ดีขึ้น เริ่มมีไข้ ปวดหลัง → pyelonephritis: เพาะเชื้อปัสสาวะ เปลี่ยนยาให้ครอบคลุมไต และ US ถ้ายังไม่ดีขึ้นใน 48–72 ชม.",
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์ตรวจปัสสาวะพบแบคทีเรียโดยไม่มีอาการ → ต้องรักษา (ต่างจากหญิงไม่ตั้งครรภ์ที่ไม่ต้องรักษา) เพราะลดโอกาสไตอักเสบ"
+   "หญิง 25 ปี แสบขัด ไม่มีไข้ → nitrofurantoin 5 วัน",
+   "หญิงไข้ หนาวสั่น ปวดเอว CVA tenderness → pyelonephritis",
+   "ชาย 65 ปี สูบบุหรี่ ปัสสาวะเป็นเลือดไม่เจ็บ → CT urography + cystoscopy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 109 — ตัวพิมพ์: <b>79. ผู้ป่วยหญิงไทยโสด อายุ 35 ปี dysuria suprapubic pain และ hematuria ตอนท้ายของปัสสาวะ ไม่มีไข้ UA: RBC, WBC 30 – 50 HPF ยังไม่ได้ทานยาอะไร ข้อใดเป็นการ manage ที่ดีที่สุด — A. ABT + u/s KUB, IVP, cystoscpoe B. ABT + cystoscope C. ABT + retrograde pyerography D. ABT + ……………… E. ABT + แนะนำว่า 2-3 วัน ถ้าไม่ดีขึ้นต้องมาตรวจเพิ่มเติม</b><br>ลายมือ: \"lesion @ bladder neck\" เหนือ hematuria ตอนท้าย · \"not acute pyelonephritis\" ที่ \"ไม่มีไข้\" · \"acute cystitis\" · \"timing — initial → lesion @ sphincter, bladder neck (มี squeeze ที่ท้าย…) · terminal → lesion @ urethra · total → lesion @ bladder, ureter, kidney ∴ สีตลอด\" · ขีด E + แก้ \"ABT\" (ขีดทับตัวอักษร)<br>ไฮไลต์: \"หญิงไทยโสด อายุ 35 ปี\" \"dysuria suprapubic pain\" \"hematuria ตอนท้ายของปัสสาวะ\" \"UA: RBC, WBC 30 – 50 HPF\" \"manage ที่ดีที่สุด\" · E (เหลือง)<br>รูปที่แปะ: สไลด์ Acute cystitis — A short course (3–5 days) of oral antibiotics · TMP-SMX, nitrofurantoin, and fluoroquinolones have excellent activity against most pathogens that cause cystitis<br>ที่ปรับในเว็บ: ช้อย D เติมเป็น CT urography (ไฟล์เว้นว่าง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 109",
+  "kimg": [
+   "fsk_p109",
+   "kp67a_79"
   ]
  },
  "MDCU67|RoA|80": {
-  "interp": "เด็ก 5 ปีรูดหนังหุ้มปลายไม่ได้ ไม่เคยติดเชื้อ ไม่ปวด ไม่โป่ง = physiologic phimosis → ถามการรักษาที่เหมาะ",
-  "why": "<b>คีย์: ขีด B + ลายมือ topical steroid · physiologic phimosis + สไลด์ phimosis treatment</b><br><b>นอกสไลด์:</b> หนังหุ้มปลายที่รูดไม่ได้โดยปลายยังนุ่มไม่มีแผลเป็นเป็นภาวะปกติตามวัย · ถ้าต้องการรักษา (เด็กโตหรือผู้ปกครองกังวล) ทาสเตียรอยด์อ่อนวันละ 2 ครั้งราว 4–8 สัปดาห์ร่วมกับรูดเบา ๆ ได้ผลราว 80–90% โดยไม่ต้องผ่าตัด",
+  "interp": "เด็ก 5 ปี <b>รูดหนังหุ้มปลายไม่ได้</b> ไม่เคยปัสสาวะแล้วหนังหุ้มโป่ง ไม่เคยอักเสบหรือปวด → ถามการรักษาที่เหมาะสมที่สุด",
+  "why": "หนังหุ้มปลายติดในเด็กส่วนใหญ่เป็น <b>physiologic phimosis</b> (ไม่มีแผลเป็น) ค่อย ๆ เปิดเองตามวัย · ถ้า<b>ยังคงอยู่หลังอายุ ~4 ปี</b> → <b>ทา topical steroid (0.1% triamcinolone) 4–6 สัปดาห์</b> ได้ผล ~80–90% ช่วยให้รูดได้และทำความสะอาดง่าย · ขลิบเมื่อดื้อต่อยาทา/ ballooning/ balanitis ซ้ำ/ pathologic phimosis · ไฟล์ขีด B ลายมือ <b>\"topical steroid\"</b> · <b>\"&gt; 4 yo\"</b> เหนือ \"5 ปี\" · <b>\"physiologic phimosis\"</b> · ลูกศร B → C <b>\"ถ้าไม่ดี\"</b> และแปะข้อความตำรา <b>\"การใช้ topical steroid อาจพิจารณาให้ในเด็กอายุ 4 ขวบขึ้นไปที่ยังมี physiologic phimosis\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กเล็ก (ราว 3–4 ปีลงมา) ไม่มีอาการ — ส่วนใหญ่รูดได้เองเมื่อโตขึ้น จึงเฝ้าดูและไม่ต้องดึง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น pathologic phimosis — ปลายหนังหุ้มเป็นแผลเป็นขาวแข็ง (lichen sclerosus/BXO) ติดเชื้อหนังหุ้มหรือทางเดินปัสสาวะซ้ำ หรือทาสเตียรอยด์แล้วไม่ได้ผล",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ดึงรั้งหนังหุ้มแรง ๆ เป็นการรักษา phimosis เพราะผิวฉีกแล้วหายเป็นแผลเป็นกลายเป็น phimosis จริง และเสี่ยง paraphimosis",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าหนังหุ้มบวมอักเสบจนปัสสาวะคั่งเฉียบพลันหรือต้องเปิดหนังหุ้มฉุกเฉินแต่ยังขลิบไม่ได้ — ผ่าหนังหุ้มด้านบนตามยาวชั่วคราว"
+   "A": "รอเฉย ๆ เหมาะกับเด็ก &lt; 4 ปีไม่มีอาการ (สไลด์ wait until 4 years ถูกขีดฆ่า) · จะถูกถ้าเด็ก 2 ปีรูดไม่ได้ ไม่มีอาการ",
+   "C": "ขลิบเมื่อยาทาไม่ได้ผล (ลายมือ \"ถ้าไม่ดี\") หรือ ballooning/ balanitis ซ้ำ/ pathologic phimosis · จะถูกถ้าทา steroid 6 สัปดาห์ไม่ดีขึ้น หรือมีแผลเป็นขาว (BXO)",
+   "D": "ฝืนรูดทำให้หนังหุ้มฉีก เกิดแผลเป็น (pathologic phimosis) · จะถูกถ้าคำถามถามการจัดการ paraphimosis (ลดหนังหุ้มที่รัดกลับ)",
+   "E": "Dorsal slit ใช้ในภาวะเร่งด่วน (paraphimosis ลดไม่ได้/ ปัสสาวะไม่ออก) · จะถูกถ้าคำถามถาม paraphimosis ที่ลดด้วยมือไม่ได้"
   },
-  "trap": "รูดไม่ได้ในเด็ก 5 ขวบแล้วส่งขลิบ — การรูดไม่ได้อย่างเดียวไม่ใช่ข้อบ่งชี้ผ่าตัด ข้อบ่งชี้คือแผลเป็นที่ปลายหนังหุ้ม ติดเชื้อซ้ำ หรือรักษาด้วยยาไม่ได้ผล",
+  "trap": "ส่งขลิบทันทีเพราะอายุ 5 ปีแล้ว — physiologic phimosis ไม่มีอาการ ลองยาทาก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> physiologic vs pathologic: physiologic → ปลายหนังหุ้มนุ่ม เวลารูดเห็นรูเปิดเป็นรูปดอกไม้ ไม่มีแผลเป็น หายเองส่วนใหญ่ภายในวัยรุ่น · pathologic → ปลายเป็นวงแผลเป็นขาวแข็ง หลังเคยรูดได้แล้วกลับรูดไม่ได้ ติดเชื้อซ้ำ"
+   "Physiologic phimosis: ปกติในเด็ก · ไม่มีแผลเป็น",
+   "&lt; 4 ปี ไม่มีอาการ → รอ",
+   "≥ 4 ปี ยังรูดไม่ได้ → topical steroid 4–6 สัปดาห์",
+   "ขลิบ: ดื้อยาทา · ballooning · balanitis ซ้ำ · pathologic (BXO) · UTI ซ้ำ",
+   "Paraphimosis → ลดด้วยมือ (ประคบ/ บีบ) → dorsal slit",
+   "ห้ามฝืนรูด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจปานกลาง — เด็กที่ไม่มีอาการเฝ้าดูได้เช่นกัน ยาทาใช้เมื่อต้องการให้รูดได้เร็วขึ้น",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และข้อความตำรา",
+  "mnemonic": "<b>'Phimosis เด็ก: &lt; 4 รอ · ≥ 4 ทา · ไม่หาย/ มีอาการ ขลิบ'</b>",
+  "guide": "EAU Guidelines on Paediatric Urology (2025) — Phimosis",
   "variants": [
-   "<b>นอกสไลด์:</b> ปลายหนังหุ้มโป่งเป็นลูกโป่งเวลาปัสสาวะในเด็กที่ไม่มีอาการอื่น → เป็นเรื่องปกติของ physiologic phimosis ไม่ใช่ข้อบ่งชี้ขลิบ",
-   "<b>นอกสไลด์:</b> เด็กรูดหนังหุ้มลงแล้วรูดกลับไม่ได้ หัวองคชาตบวมแดง → paraphimosis: บีบลดบวมแล้วดันหัวองคชาตกลับ ถ้าไม่ได้ผ่าหนังหุ้มด้านบน"
+   "เด็ก 2 ปีรูดไม่ได้ ไม่มีอาการ → รอ + แนะนำความสะอาด",
+   "เด็ก 6 ปี ทา steroid 6 สัปดาห์ไม่ดีขึ้น มี ballooning → circumcision",
+   "เด็กรูดหนังหุ้มค้าง ปลายบวมม่วง → paraphimosis → ลดด้วยมือ"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 109–110 — ตัวพิมพ์: <b>80. ผู้ป่วยเด็กอายุ 5 ปี มาด้วยอาการไม่สามารถรูดหนังหุ้มปลายองคชาตลงมาได้ ไม่เคยมีอาการปัสสาวะแล้วหนังหุ้มปลายโป่งพอง ไม่เคยมีอาการอักเสบหรือปวดแสบบริเวณปลายองคชาต จงให้การรักษาที่เหมาะสมที่สุดในผู้ป่วยราย&#8203;นี้ — A. รอให้หายเอง B. ทา 0.1% TA cream C. Circumsicion D. Sedate + พยายามรูดลง</b><br>ลายมือ: \"&gt; 4 yo\" เหนือ \"5 ปี\" · \"physiologic phimosis\" · ขีด B + \"topical steroid\" · ลูกศร B → C \"ถ้าไม่ดี\"<br>ไฮไลต์: \"เด็กอายุ 5 ปี\" \"ไม่สามารถรูดหนังหุ้มปลายองคชาตลงมาได้\" \"ไม่เคยมีอาการปัสสาวะแล้วหนังหุ้มปลายโป่งพอง\" \"ไม่เคยมีอาการอักเสบหรือปวดแสบบริเวณปลายองคชาต\" \"รักษาที่เหมาะสมที่สุดในผู้ป่วยราย&#8203;นี้\" · B (เหลือง)<br>รูปที่แปะ: ① ข้อความตำรา — \"2) การใช้ topical steroid สามารถช่วยลดการอักเสบบริเวณหนังหุ้มปลายลง จึงช่วยให้ด้านในของหนังหุ้มปลายและด้านนอกขององคชาตแยกออกจากกันได้ การรักษาด้วยวิธีนี้จะใช้ในกรณี physiologic phimosis ที่มีอาการ เช่น ขณะถ่ายปัสสาวะมีการโป่งพองของหนังหุ้มปลาย หรือในผู้ป่วยที่มี balanoposthitis ยาที่นิยมใช้คือ 0.1% triamcinolone acetate cream ทาบาง ๆ บริเวณปลายของหนังหุ้มปลายเช้าเย็นหลังอาบน้ำ โดยมักจะต้องทาต่อเนื่องกันนาน 1-2 เดือน … นอกจากนี้การใช้ topical steroid อาจพิจารณาให้ในเด็กอายุ 4 ขวบขึ้นไปที่ยังมี physiologic phimosis เพื่อช่วยเร่งให้หนังหุ้มปลายเปิดได้ อันจะเป็นประโยชน์ในการทำความสะอาดได้ง่ายต่อไปในอนาคต\" ② สไลด์ Treatment (ขีดฆ่าทั้งกรอบ) — No symptom: wait until 4 years of age · A topical corticosteroid cream to the foreskin for 6 weeks — phimosis that persists after 4 years old · balanitis, balanoposthitis ③ สไลด์ Treatment — Circumcision ☆☆☆ — phimosis that is resistant to topical corticosteroids · phimosis that causes ballooning of the foreskin or recurrent balanitis<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Dorsal slit)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 109",
+  "kimg": [
+   "fsk_p109",
+   "kp67a_80"
   ]
  },
  "MDCU67|RoA|81": {
-  "interp": "รูเปิดท่อปัสสาวะอยู่ด้านล่างกลางลำองคชาต (hypospadias) → ถามสิ่งที่ตรวจพบร่วม",
-  "why": "<b>คีย์: ขีด D + ลายมือ hypospadias + สไลด์ diagnosis of hypospadias</b><br><b>นอกสไลด์:</b> การปิดของ urethral fold ด้านล่างไม่สมบูรณ์ ทำให้ (1) รูเปิดอยู่ด้านล่าง (2) เนื้อเยื่อด้านล่างสั้นจนองคชาตโค้งลง (ventral curvature/chordee) (3) หนังหุ้มด้านล่างไม่ปิด รวมกองอยู่ด้านบนเป็นหมวก (dorsal hood)",
+  "interp": "เด็กมี<b>รูเปิดท่อปัสสาวะที่ ventral midshaft</b> ขององคชาต (hypospadias) → ถามสิ่งที่พบร่วม",
+  "why": "Hypospadias มีลักษณะ triad: ① <b>รูเปิดท่อปัสสาวะอยู่ด้านล่าง (ventral)</b> ② <b>องคชาตโค้งลงด้านล่าง (ventral curvature/ chordee)</b> ③ <b>หนังหุ้มปลายผิดรูป: เป็น \"hood\" อยู่ด้านบน (dorsal hood) และขาดด้านล่าง</b> → D · ห้ามขลิบก่อนผ่าตัดแก้ (ใช้หนังหุ้มปลายซ่อม) · ไฟล์ขีด D ลายมือ <b>\"hypospadias\"</b> และแปะสไลด์ <b>Diagnosis of hypospadias</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hypospadias มากับองคชาตโค้งขึ้นและหนังหุ้มยาวสมบูรณ์ เพราะการโค้งขึ้นเกิดจากด้านบนสั้น (epispadias) ส่วนหนังหุ้มที่สมบูรณ์รอบวงต้องอาศัยด้านล่างที่ปิดครบ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นองคชาตโค้งลงโดยรูเปิดอยู่ปลายปกติ (chordee without hypospadias) หรือ hypospadias ชนิดหนังหุ้มสมบูรณ์ (megameatus intact prepuce) ที่พบเมื่อรูดหนังหุ้ม",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hypospadias มากับ phimosis เพราะหนังหุ้มด้านล่างไม่ได้ปิดเป็นวงจึงไม่มีวงแคบที่รัดปลาย",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ารูเปิดอยู่ด้านบนขององคชาต (epispadias มักร่วม bladder exstrophy) — องคชาตโค้งขึ้น หนังหุ้มขาดด้านบนกองอยู่ด้านล่าง"
+   "A": "Dorsal curvature พบใน epispadias และหนังหุ้มไม่ยาวปกติ · จะถูกถ้าคำถามถาม epispadias (รูเปิดด้านบน) ยกเว้นเรื่องหนังหุ้ม",
+   "B": "Ventral curvature ถูก แต่หนังหุ้มขาดด้านล่าง ไม่ได้ยาว · จะถูกถ้าคำถามถาม chordee without hypospadias (หนังหุ้มปกติ)",
+   "C": "Dorsal curvature + phimosis ไม่ใช่ลักษณะ hypospadias · จะถูกถ้าคำถามถาม epispadias ที่มีหนังหุ้มตีบร่วม",
+   "E": "ทิศตรงข้ามกับความจริง (ventral hood) · จะถูกถ้าคำถามถาม epispadias (โค้งขึ้น หนังหุ้มอยู่ด้านล่าง)"
   },
-  "trap": "คิดว่า hypospadias มีแค่รูเปิดผิดที่ — ต้องตรวจความโค้งและหนังหุ้มด้วย เพราะเปลี่ยนวิธีผ่าตัด และหนังหุ้มรูปหมวกเป็นเบาะแสแรกที่เห็นในทารก",
+  "trap": "สลับ dorsal/ ventral — hypospadias: ทุกอย่างลงล่าง (รู · โค้ง) ยกเว้นหนังหุ้มที่กองอยู่ด้านบน",
   "summary": [
-   "<b>นอกสไลด์:</b> การดูแล hypospadias: ผ่าตัดแก้ที่อายุราว 6–18 เดือน (ยืดองคชาต สร้างท่อปัสสาวะ ย้ายรูไปปลาย ตกแต่งหนังหุ้ม) · ชนิดรูอยู่ต้นลำ/ถุงอัณฑะ หรือร่วมอัณฑะคลำไม่ได้ → ตรวจหา DSD (karyotype) ก่อน"
+   "Hypospadias: ventral meatus · chordee · dorsal hood",
+   "ห้ามขลิบก่อนซ่อม",
+   "ผ่าตัดอายุ ~6–18 เดือน",
+   "Proximal + undescended testis → ตรวจ DSD (karyotype)",
+   "Epispadias: รูด้านบน · โค้งขึ้น · สัมพันธ์ bladder exstrophy",
+   "ภาวะแทรกซ้อนหลังผ่าตัด: fistula · meatal stenosis · diverticulum"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'Hypo = ล่าง: รูล่าง โค้งล่าง · หมวก (hood) อยู่บน'</b>",
+  "guide": "EAU Guidelines on Paediatric Urology (2025) — Hypospadias; Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> พ่อแม่ขอขลิบทารกแรกเกิดที่มี hypospadias → ห้ามขลิบ เก็บหนังหุ้มไว้ใช้ในการผ่าตัดซ่อม",
-   "<b>นอกสไลด์:</b> ทารก hypospadias รูเปิดที่ถุงอัณฑะ ถุงอัณฑะแยกสองข้าง คลำอัณฑะไม่ได้ทั้งสองข้าง → ตรวจ karyotype และเกลือแร่ (CAH ในเด็กพันธุกรรมหญิง)"
+   "ทารกรูเปิดที่ penoscrotal + อัณฑะไม่ลงสองข้าง → ตรวจ DSD",
+   "ทารกรูเปิดด้านบนองคชาต → epispadias",
+   "พ่อแม่ขอขลิบทารก hypospadias → ห้าม เก็บหนังหุ้มไว้ซ่อม"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 110 — ตัวพิมพ์: <b>81. ผู้ป่วยเด็กมีรูเปิดท่อปัสสาวะในตำแหน่ง ventral midshaft of penis จะสามารถพบอะไรร่วมด้วยได้ — A. Dorsal curvature, long foreskin B. Ventral curvature, long foreskin C. Dorsal curvature, phimosis D. Ventral curvature, dorsa skin hood E. Dorsal curvature, ventral skin hood</b><br>ลายมือ: \"hypospadias\" · ขีด D<br>ไฮไลต์: \"รูเปิดท่อปัสสาวะในตำแหน่ง ventral midshaft of penis\" \"พบอะไรร่วมด้วยได้\" · D (เหลือง)<br>รูปที่แปะ: ① สไลด์ Diagnosis of hypospadias — (1) Ventral opening of the urethral meatus (2) Ventral curvature of the penis (chordee) (3) An abnormal distribution of foreskin, with a \"hood\" present dorsally and deficient foreskin ventrally ② ภาพผู้ป่วย hypospadias",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 110",
+  "kimg": [
+   "fsk_p110",
+   "kp67a_81"
   ]
  },
  "MDCU67|RoA|82": {
-  "interp": "เด็กหญิง 2 ปี pyelonephritis เฉียบพลันครั้งแรก → ถามการรักษาที่เหมาะ (โจทย์ไม่ครบ)",
-  "why": "<b>คีย์: ขีด A</b><br><b>นอกสไลด์:</b> เด็กเล็กที่ไตอักเสบเป็นมา 3 วัน มักไข้สูง กินได้น้อย เสี่ยงขาดน้ำและติดเชื้อในกระแสเลือด · ให้ยาปฏิชีวนะทางหลอดเลือดและสารน้ำก่อน (ช่วยรักษาเร็ว ลดแผลเป็นที่ไต) แล้วเปลี่ยนเป็นยากินเมื่อไข้ลงและกินได้",
+  "interp": "เด็กหญิง 2 ปี <b>acute pyelonephritis 3 วัน</b> เป็นครั้งแรก → ถามการรักษาที่เหมาะสมที่สุด (ตัวเลือกไม่มีการส่งภาพ)",
+  "why": "Pyelonephritis ในเด็กเล็กต้อง<b>รักษาด้วยยาปฏิชีวนะ</b>ทันทีเพื่อป้องกันแผลเป็นที่ไต · คีย์ในไฟล์เลือก <b>IV antibiotic</b> — เหมาะเมื่อเด็กดูป่วยมาก/ อาเจียนกินไม่ได้/ เป็นมาหลายวัน แล้วเปลี่ยนเป็นยากินเมื่อดีขึ้น (รวม 7–14 วัน) · การป้องกันด้วยยาระยะยาวไม่ใช่การรักษาครั้งแรก และต้องส่ง <b>ultrasound ไต</b>หลัง UTI ที่มีไข้ครั้งแรกในเด็กเล็ก · ไฟล์ขีด A",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กอายุเกิน 2–3 เดือนที่ไม่ดูป่วยหนัก กินได้ไม่อาเจียน — ยากิน (เช่น cephalosporin รุ่นที่สาม) ได้ผลเท่ายาฉีด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ารักษาหายแล้วพบ VUR ระดับสูง (III–V) หรือติดเชื้อมีไข้ซ้ำ — ให้ยาปฏิชีวนะขนาดต่ำป้องกันระยะยาว",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ไตอักเสบในเด็กเล็กเฝ้าดูโดยไม่ให้ยา เพราะการรักษาช้าเพิ่มโอกาสแผลเป็นที่ไต ซึ่งนำไปสู่ความดันสูงและไตเสื่อมในอนาคต",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าไตอักเสบร่วมกับทางเดินปัสสาวะส่วนบนอุดตันจนเป็นหนองในไต (pyonephrosis) เช่นจากนิ่วหรือ UPJ obstruction ที่ US เห็นไตบวมน้ำ"
+   "B": "ยากินได้ผลเท่ายาฉีดในเด็ก ≥ 2 เดือนที่ไม่ป่วยหนักและกินได้ (AAP) · จะถูกถ้าเด็กดูดี กินได้ ไม่อาเจียน ไม่ sepsis",
+   "C": "Prophylaxis ไม่ใช่การรักษาการติดเชื้อครั้งนี้ · จะถูกถ้าคำถามถามเด็กที่มี VUR grade สูง/ UTI ซ้ำหลังรักษาหาย",
+   "D": "ไม่รักษาเสี่ยงไตเป็นแผลเป็น/ sepsis · จะถูกถ้าคำถามถาม asymptomatic bacteriuria ในเด็ก",
+   "E": "Nephrostomy ใช้เมื่อมีอุดกั้นติดเชื้อ (pyonephrosis) · จะถูกถ้า ultrasound พบ hydronephrosis รุนแรง + ไข้ไม่ลงหลังยา 48 ชม."
   },
-  "trap": "จำว่าเด็กไตอักเสบต้องให้ยาฉีดเสมอ — ข้อบ่งชี้ยาฉีดคือเด็กอายุน้อยมาก ดูป่วยหนัก อาเจียน หรือยากินไม่ได้ผล เด็กที่ดูดีใช้ยากินได้",
+  "trap": "ให้ prophylaxis ทันที — ต้องรักษาการติดเชื้อก่อน แล้วสืบค้น (US ± VCUG) จึงตัดสินใจเรื่องป้องกัน",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ยาฉีดในเด็กติดเชื้อทางเดินปัสสาวะมีไข้: อายุ &lt; 2–3 เดือน · ดูป่วยหนัก/สงสัยติดเชื้อในกระแสเลือด · อาเจียน กินยาไม่ได้ ขาดน้ำ · ยากินไม่ดีขึ้นใน 48–72 ชม. · ทางเดินปัสสาวะผิดปกติซับซ้อน"
+   "Febrile UTI เด็ก &lt; 2 ปี: ATB 7–14 วัน",
+   "IV: ป่วยหนัก · อาเจียน · &lt; 2 เดือน · ไม่ตอบสนองยากิน",
+   "Oral = IV ในเด็กที่ไม่ป่วยหนัก (AAP)",
+   "Renal-bladder US หลัง febrile UTI ครั้งแรก",
+   "VCUG เมื่อ US ผิดปกติ/ UTI ซ้ำ",
+   "Prophylaxis: VUR grade สูง/ UTI ซ้ำ"
   ],
-  "opinion": "ตามคีย์ A ความมั่นใจปานกลาง — ถ้าเด็กไม่ป่วยหนักและกินได้ ยากินได้ผลเท่ากัน",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · โจทย์ไม่ได้บอกความรุนแรง หากเด็กดูดีกินได้ ยากิน (B) ก็เทียบเท่าตาม AAP",
+  "mnemonic": "<b>'UTI มีไข้ในเด็ก: รักษาก่อน (IV ถ้าป่วย) → US → ค่อยคิดเรื่องป้องกัน'</b>",
+  "guide": "AAP Clinical Practice Guideline: Urinary Tract Infection in Febrile Infants and Children 2–24 Months (Pediatrics 2011;128:595; reaffirmed 2016); EAU Guidelines on Paediatric Urology (2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> ให้ยาฉีด 48 ชม.ไข้ลง กินได้ → เปลี่ยนเป็นยากินตามผลเพาะเชื้อให้ครบรวมราว 7–14 วัน",
-   "<b>นอกสไลด์:</b> ให้ยามา 72 ชม.เด็กยังไข้สูง → US ไตหาฝีในไตหรือการอุดตัน และทบทวนผลเพาะเชื้อ"
+   "เด็ก 3 เดือน ไข้สูง ซึม UA WBC มาก → IV ATB + US",
+   "เด็ก 18 เดือน febrile UTI ดูดี กินได้ → oral ATB 10 วัน + US",
+   "เด็ก febrile UTI ครั้งที่ 2 US hydronephrosis → VCUG"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 110 — ตัวพิมพ์: <b>82. เด็กผู้หญิงอายุ 2 ปี มาด้วยอาการ Acute pyelonephritis 3 วัน โดยไม่มีประวัติเป็นมาก่อนในอดีต จงเลือกการรักษาที่เหมาะสมที่สุด [โจทย์ไม่สมบูรณ์, ในตัวเลือกไม่มี imaging ให้ทำ] — A. IV antibiotic B. Oral antibiotic C. Prophylaxis antibiotic D. Observe</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"หญิงอายุ 2 ปี\" \"Acute pyelonephritis 3 วัน\" \"ไม่มีประวัติเป็นมาก่อนในอดีต\" \"เลือกการรักษา\" · A (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Urgent nephrostomy)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 110",
+  "kimg": [
+   "fsk_p110",
+   "kp67a_82"
   ]
  },
  "MDCU67|RoA|83": {
-  "interp": "ปัสสาวะเป็นเลือด + ก้อนในเชิงกรวยไตขวา (filling defect 3 cm) กระเพาะปัสสาวะปกติ = มะเร็งเยื่อบุทางเดินปัสสาวะส่วนบน → ถามการรักษา",
-  "why": "<b>คีย์: ขีด A + ลายมือ upper TCC · with bladder cuff</b><br><b>นอกสไลด์:</b> มะเร็งเยื่อบุ (urothelial) เกิดได้ทั่วทั้งเยื่อบุตั้งแต่เชิงกรวยไตถึงท่อไต การผ่าตัดมาตรฐานจึงเอาไต ท่อไตทั้งเส้น และขอบกระเพาะปัสสาวะรอบรูเปิดท่อไต (bladder cuff) ออกด้วย — ถ้าเหลือท่อไตส่วนปลายไว้ มะเร็งกลับเป็นในตอนนั้นสูง",
+  "interp": "ปัสสาวะเป็นเลือด · IVP: <b>filling defect 3 cm ที่ renal pelvis ขวา</b> ไตซ้ายปกติ · CT: <b>ก้อนใน renal pelvis ขวา</b> · cystoscopy ปกติ → ถามการรักษาที่เหมาะสมที่สุด",
+  "why": "ก้อนใน renal pelvis (filling defect) = <b>upper tract urothelial carcinoma (TCC)</b> · มาตรฐาน (gold standard) คือ <b>radical nephroureterectomy with bladder cuff excision</b> — ตัดไต ท่อไตทั้งเส้น และขอบกระเพาะปัสสาวะรอบรูเปิดท่อไต เพราะ urothelium ทั้งเส้นเสี่ยงเกิดมะเร็ง (multifocal) และตอท่อไตที่เหลือเกิดเนื้องอกซ้ำได้บ่อย · ไตอีกข้างปกติจึงตัดได้ · ไฟล์ขีด A ลายมือ <b>\"upper TCC\"</b> และแปะสไลด์ <b>TCC TREATMENT: Gold standard — Radical nephroureterectomy with bladder cuff excision</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเป็นมะเร็งเนื้อไต (renal cell carcinoma) ขนาดใหญ่หรืออยู่กลางไตที่เก็บไตไว้ไม่ได้ — เอาไตออกโดยไม่ต้องเอาท่อไตทั้งเส้น",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งกระเพาะปัสสาวะที่ลุกชั้นกล้ามเนื้อ (หลังเคมีก่อนผ่าตัด) — ตัดกระเพาะปัสสาวะทั้งหมดและทำทางเบี่ยงปัสสาวะ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ายังแยกไม่ได้ว่า filling defect เป็นนิ่วโปร่งรังสีหรือก้อน และยังไม่ได้ทำ CT — US เห็นนิ่วเป็นจุดสว่างมีเงาดำด้านหลัง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยแพ้สารไอโอดีนรุนแรง (หรือไตเสื่อมปานกลางที่ eGFR ยัง ≥ 30) จนทำ CT urography ไม่ได้ — ใช้ MR urography ดูก้อนในทางเดินปัสสาวะส่วนบน"
+   "B": "Radical nephrectomy ใช้กับ RCC (ก้อนในเนื้อไต) — เหลือท่อไตซึ่งเกิดมะเร็งซ้ำได้ · จะถูกถ้า CT พบก้อนในเนื้อไต enhance แบบ RCC",
+   "C": "Radical cystectomy ใช้กับมะเร็งกระเพาะปัสสาวะลุกล้ามเนื้อ — cystoscopy ปกติ · จะถูกถ้า cystoscopy พบก้อน muscle-invasive bladder cancer",
+   "D": "Ultrasound ไม่เพิ่มข้อมูลเมื่อมี CT แล้ว · จะถูกถ้าคำถามถามการตรวจคัดกรองแรกของ hematuria ในเด็ก",
+   "E": "MRI ไม่จำเป็นเมื่อ CT วินิจฉัยได้ · จะถูกถ้าผู้ป่วยแพ้สารทึบรังสีหรือไตเสื่อมจนทำ CT urography ไม่ได้"
   },
-  "trap": "เห็นก้อนที่ไตแล้วนึกถึง radical nephrectomy แบบมะเร็งไต — ก้อนในเชิงกรวยไตที่เป็น filling defect คือมะเร็งเยื่อบุ ต้องเอาท่อไตทั้งเส้นและ bladder cuff ด้วย",
+  "trap": "ตอบ radical nephrectomy เหมือนก้อนไตทั่วไป — ก้อนใน renal pelvis คือ urothelial ต้องเอาท่อไตและ bladder cuff ด้วย",
   "summary": [
-   "<b>นอกสไลด์:</b> มะเร็งเยื่อบุทางเดินปัสสาวะส่วนบน: วินิจฉัยด้วย CT urography + ส่องกล้องท่อไตตัดชิ้นเนื้อ + เซลล์ในปัสสาวะ · ความเสี่ยงต่ำ (ก้อนเดียว &lt; 2 cm เกรดต่ำ ไม่ลุก) → รักษาผ่านกล้องเก็บไตได้ · ความเสี่ยงสูง → radical nephroureterectomy + bladder cuff"
+   "UTUC: filling defect ใน pelvis/ ureter",
+   "ตรวจ: CT urography + ureteroscopy/ biopsy + cytology",
+   "Gold standard: RNU + bladder cuff excision",
+   "Low-risk/ ไตข้างเดียว → endoscopic ablation (nephron-sparing)",
+   "ติดตามด้วย cystoscopy (มะเร็งกระเพาะเกิดตามมา ~22–47%)",
+   "Lynch syndrome สัมพันธ์ UTUC"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'TCC ไต = เอาออกทั้งท่อ (Kidney + Ureter + Cuff)'</b>",
+  "guide": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma (2025); NCCN Bladder Cancer v.2025 — Upper GU tract tumors",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยมะเร็งเยื่อบุทางเดินปัสสาวะส่วนบนอายุ 50 ปี ครอบครัวมีมะเร็งลำไส้และมดลูกหลายคน → ตรวจ Lynch syndrome",
-   "<b>นอกสไลด์:</b> หลัง nephroureterectomy → หยอดยาเคมีเข้ากระเพาะปัสสาวะครั้งเดียวหลังผ่าตัด และส่องกล้องกระเพาะปัสสาวะติดตาม เพราะมะเร็งเกิดซ้ำในกระเพาะปัสสาวะบ่อย"
+   "filling defect ใน ureter ส่วนล่าง ไตข้างเดียว → distal ureterectomy/ endoscopic",
+   "CT ก้อนในเนื้อไต 6 cm enhance → radical nephrectomy",
+   "ก้อนในเนื้อไต 3 cm ขอบนอก → partial nephrectomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 110 — ตัวพิมพ์: <b>83. ผู้ป่วยมาด้วยอาการ hematuria หลังตรวจ IVP พบ filling defect 3 cm at Rt pelvis and Normal Lt kidney, CT scan พบ \"mass at Rt pelvis\", Cystoscope พบ normal lower urinary tract จงเลือกวิธีการดูแลรักษาที่เหมาะสมที่สุด [จำโจทย์จริงไม่ได้ เลยแต่งโจทย์ให้แนวใกล้เคียงกับของจริง] — A. Right Radical nephroureterectomy B. Right Radiacal nephrectomy C. Right Radical cystectomy with ileum conduit D. U/S E. MRI Right kidney</b><br>ลายมือ: \"upper TCC\" (ลูกศรลงที่ A) · ขีด A + ลายมือเล็กใต้ A (อ่านได้ประมาณ \"ไม่งั้น urine ไหลผ่าน → tumor seeding\")<br>ไฮไลต์: \"อาการ hematuria\" \"ตรวจ IVP พบ filling defect 3 cm at Rt pelvis\" \"CT scan พบ mass at Rt pelvis\" \"Cystoscope พบ normal lower urinary tract\" \"การดูแลรักษา\" · A (เหลือง)<br>รูปที่แปะ: ① สไลด์ TCC TREATMENT — Gold standard ↓ Radical nephroureterectomy with bladder cuff excision + ภาพไต/ ท่อไต + ลายมือ ② สไลด์ RCC TREATMENT — Surgery: mainstay for curative treatment · Radical nephrectomy: principle — Remove kidney outside Gerota's fascia · Excision of ipsilateral adrenal gland · Regional lymphadenectomy + ภาพผ่าตัด ③ สไลด์ NEPHRON-SPARING SURGERY — Partial nephrectomy · Thermal ablative therapy: Cryosurgery · Radiofrequency ablation + ลายมือ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 110",
+  "kimg": [
+   "fsk_p110",
+   "kp67a_83"
   ]
  },
  "MDCU67|RoA|84": {
-  "interp": "ก้อนไม่เจ็บ 2 cm ที่ลำองคชาต สงสัยมะเร็ง (SCC) → ถามขั้นตอนถัดไป",
-  "why": "<b>คีย์: ขีด A + สไลด์ diagnosis: incisional biopsy, SCC</b><br><b>นอกสไลด์:</b> ก่อนผ่าตัดใหญ่ (penectomy) ต้องยืนยันชนิดเซลล์ ความลึก และเกรด · ก้อน 2 cm บนลำองคชาตตัดทั้งก้อนไม่ได้โดยไม่ทิ้งรอยเสียหาย จึงตัดชิ้นเนื้อบางส่วนรวมความลึกของก้อนเพื่อวางแผนการรักษา",
+  "interp": "ชายมี<b>ก้อนที่ลำองคชาต 2 cm ไม่เจ็บ</b> → ถามขั้นตอนที่เหมาะสมที่สุด",
+  "why": "ก้อนที่องคชาตสงสัย<b>มะเร็งองคชาต (squamous cell carcinoma)</b> → ต้อง<b>ยืนยันด้วยชิ้นเนื้อก่อน</b>รักษา — สไลด์ในไฟล์ระบุ <b>Diagnosis: Incisional biopsy · Pathology: squamous cell carcinoma</b> (ตัดเพียงบางส่วน ไม่ทำให้เสียขอบเขตผ่าตัดที่ต้องการ margin) จากนั้นจึงวางแผน partial/ total penectomy ตามตำแหน่งและขนาด + ประเมินต่อมน้ำเหลืองขาหนีบ · ไฟล์ขีด A ลายมือ <b>\"ทำก่อน\"</b> ที่ Incisional biopsy และแปะสไลด์ DIAGNOSIS และ TREATMENT",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ารอยโรคเล็ก (ราว 1 cm หรือน้อยกว่า) อยู่ที่ผิวหนังที่ตัดออกทั้งหมดได้ง่ายโดยไม่เสียโครงสร้าง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ารอยโรคเล็กจำกัดอยู่ที่หนังหุ้มปลาย (prepuce) — ขลิบตัดออกได้ทั้งวินิจฉัยและรักษา",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้ายืนยันเป็น SCC ที่หัวหรือส่วนปลายองคชาตลุกถึง corpora และตัดให้ขอบปลอดเนื้องอกได้โดยยังเหลือความยาวพอยืนปัสสาวะ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ายืนยันเป็น SCC ลุกถึงโคนองคชาตจนตัดแล้วเหลือความยาวไม่พอ — ตัดองคชาตทั้งหมดและเปิดท่อปัสสาวะที่ฝีเย็บ"
+   "B": "Excisional biopsy ไม่เหมาะกับก้อนสงสัยมะเร็งองคชาตที่ต้องการ margin กว้าง · จะถูกถ้าก้อนเล็กมากที่หนังหุ้มปลายซึ่งตัดหมดได้พร้อม margin",
+   "C": "ขลิบรักษาได้เฉพาะรอยโรคที่จำกัดอยู่หนังหุ้มปลาย · จะถูกถ้ายืนยันมะเร็งระยะต้นที่หนังหุ้มปลายเท่านั้น",
+   "D": "Partial penectomy ทำหลังยืนยันชิ้นเนื้อ (margin free ~1–2 cm) · จะถูกถ้ายืนยัน SCC ที่ glans/ ปลายองคชาตและเหลือความยาวพอยืนปัสสาวะ",
+   "E": "Total penectomy ทำหลังยืนยันชิ้นเนื้อเมื่อก้อนอยู่โคนหรือใหญ่ · จะถูกถ้ายืนยัน SCC ลุกลามโคนองคชาต"
   },
-  "trap": "ก้อนน่าจะเป็นมะเร็งจึงผ่าตัด penectomy ทันที — การผ่าตัดที่ทำให้พิการต้องมีชิ้นเนื้อยืนยันและรู้ระยะก่อน",
+  "trap": "ผ่าตัดใหญ่ทันทีเพราะสงสัยมะเร็ง — ต้องได้ชิ้นเนื้อก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> มะเร็งองคชาต (SCC): ปัจจัยเสี่ยง phimosis/ไม่ขลิบ HPV บุหรี่ lichen sclerosus · หลังยืนยันชิ้นเนื้อประเมินต่อมขาหนีบ: คลำได้ → FNA ถ้าบวก → เลาะต่อม · คลำไม่ได้แต่ก้อนเสี่ยงสูง (≥ T1b) → ตรวจต่อมเฝ้าระวัง (DSNB) หรือเลาะต่อม"
+   "Penile cancer: SCC · ปัจจัย: ไม่ขลิบ · phimosis · HPV · สูบบุหรี่",
+   "วินิจฉัย: incisional biopsy",
+   "Primary: circumcision (หนังหุ้ม) · partial · total penectomy",
+   "ต่อมน้ำเหลืองขาหนีบโต: ~50% ติดเชื้อ ~50% มะเร็ง",
+   "Adjuvant: groin lymph node dissection ± chemo",
+   "Sentinel node (DSNB) ในกลุ่มเสี่ยงกลาง–สูงที่คลำไม่ได้"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'ก้อนองคชาต: เจาะชิ้นเนื้อ (incisional) ก่อนตัด'</b>",
+  "guide": "EAU-ASCO Collaborative Guidelines on Penile Cancer (2023); NCCN Penile Cancer v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ผื่นแดงขอบชัดที่หัวองคชาต biopsy เป็นเซลล์ผิดปกติแต่ยังไม่ลุกลาม (penile intraepithelial neoplasia) → ทา imiquimod/5-FU หรือเลเซอร์ ไม่ต้องตัดองคชาต",
-   "<b>นอกสไลด์:</b> แผลที่หัวองคชาตเลี้ยงเชื้อขึ้น และเจาะต่อมขาหนีบที่คลำได้พบเซลล์มะเร็ง → เลาะต่อมขาหนีบ (ไม่ต้องให้ยาปฏิชีวนะรอดูว่าต่อมยุบก่อนแบบแนวทางเดิม)"
+   "ยืนยัน SCC ที่ glans 2 cm → partial penectomy + ประเมิน inguinal LN",
+   "SCC ลุกลามโคนองคชาต → total penectomy + perineal urethrostomy",
+   "ต่อมน้ำเหลืองขาหนีบโตหลังรักษา primary → ATB ก่อน/ FNA"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 110 — ตัวพิมพ์: <b>84. ผู้ป่วยชายมาด้วยก้อนบริเวณ shaft of penis ขนาด 2 cm ไม่เจ็บ จงเลือกวิธีการดูแลรักษาที่เหมาะสมที่สุด [จำโจทย์จริงไม่ได้ เลยแต่งโจทย์ให้แนวใกล้เคียงกับของจริง] — A. Incisional biopsy B. Excisional biopsy C. Circumscision D. Partial penectomy E. Total penectomy</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"ก้อนบริเวณ shaft of penis ขนาด 2 cm\" \"ไม่เจ็บ\" \"วิธีการดูแลรักษาที่เหมาะสมที่สุด\" · A (เหลือง)<br>รูปที่แปะ: ① สไลด์ DIAGNOSIS — Incisional biopsy (ลายมือ \"ทำก่อน\") · Pathology: squamous cell carcinoma · Primary lymphnode metastasis: inguinal LN · Inguinal lymphadenopathy — 50%: infection · 50%: metastasis ② สไลด์ TREATMENT — Primary treatment: Circumscision · Partial penectomy · Total penectomy (ลายมือ \"ต้องได้ margin free 2 cm\") · Adjuvant treatment: Groin lymph node dissection · Systemic chemotherapy + ลายมือแดง/ น้ำเงิน",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 110",
+  "kimg": [
+   "fsk_p110",
+   "kp67a_84"
   ]
  },
  "MDCU67|RoA|85": {
-  "interp": "มะเร็งผิวหนังถุงอัณฑะ → ถามต่อมน้ำเหลืองด่านแรก",
-  "why": "<b>คีย์: ขีด E + ลายมือ scrotum, penis → inguinal · C right testis · D left testis</b><br><b>นอกสไลด์:</b> ผิวหนังถุงอัณฑะ (และองคชาต ฝีเย็บ ทวารส่วนล่าง) ระบายน้ำเหลืองไปต่อมขาหนีบ (superficial inguinal) เหมือนผิวหนังส่วนล่างของลำตัว ต่างจากอัณฑะซึ่งเคลื่อนลงมาจากช่องท้องจึงระบายไปต่อมข้างหลอดเลือดใหญ่ในช่องหลังท้อง",
+  "interp": "มะเร็ง<b>ผิวหนังถุงอัณฑะ (scrotum)</b> กระจายไปต่อมน้ำเหลืองกลุ่มใดเป็นกลุ่มแรก",
+  "why": "น้ำเหลืองของ<b>ผิวหนังถุงอัณฑะ องคชาต และฝีเย็บ</b> ไหลสู่ <b>superficial inguinal lymph nodes</b> → มะเร็งผิวหนังถุงอัณฑะ (SCC — เช่นจากเขม่าในคนกวาดปล่องไฟ) กระจายไป inguinal ก่อน · ต่างจาก<b>ลูกอัณฑะ</b>ซึ่งน้ำเหลืองตามหลอดเลือดอัณฑะขึ้นไป retroperitoneum: <b>ขวา → interaortocaval</b> · <b>ซ้าย → para-aortic</b> · ไฟล์ขีด E ลายมือ <b>\"→ scrotum, penis\"</b> · C <b>\"Rt. side\"</b> · D <b>\"Lt. testis\"</b> และแปะสไลด์ <b>MANAGEMENT: Primary lymphatic drainage — Left: para-aortic LN · Right: interaortocaval LN · Scrotum: inguinal LN</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งที่ระบายไปต่อม external iliac เป็นด่านแรก เช่นมะเร็งกระเพาะปัสสาวะหรือปากมดลูก (หรือเป็นด่านที่สองต่อจากต่อมขาหนีบลึก)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งของอวัยวะในเชิงกรานส่วนลึก เช่นต่อมลูกหมาก หรือไส้ตรงส่วนล่างเหนือ dentate line",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งอัณฑะข้างขวา — ต่อมด่านแรกอยู่ระหว่าง aorta กับ IVC (interaortocaval)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นมะเร็งอัณฑะข้างซ้าย — ต่อมด่านแรกอยู่ข้าง aorta ใต้ left renal vein"
+   "A": "External iliac รับน้ำเหลืองจากขาหนีบลึก (ทางผ่านขั้นที่สอง) และกระเพาะปัสสาวะ · จะถูกถ้าคำถามถามต่อมน้ำเหลืองกลุ่มที่สองหลัง inguinal",
+   "B": "Internal iliac รับจากอวัยวะในอุ้งเชิงกราน (ต่อมลูกหมาก กระเพาะปัสสาวะ ทวารหนักส่วนล่าง) · จะถูกถ้าคำถามถามการกระจายของมะเร็งต่อมลูกหมาก",
+   "C": "Aortocaval (interaortocaval) เป็นกลุ่มแรกของ<b>ลูกอัณฑะขวา</b> (ลายมือ \"Rt. side\") · จะถูกถ้าคำถามถามมะเร็งอัณฑะขวา",
+   "D": "Para-aortic เป็นกลุ่มแรกของ<b>ลูกอัณฑะซ้าย</b> (ลายมือ \"Lt. testis\") · จะถูกถ้าคำถามถามมะเร็งอัณฑะซ้าย"
   },
-  "trap": "สับสนผิวถุงอัณฑะกับตัวอัณฑะ — อัณฑะระบายไปช่องหลังท้องตามหลอดเลือด gonadal ส่วนผิวหนังถุงอัณฑะระบายไปต่อมขาหนีบ",
+  "trap": "สับสนผิวถุงอัณฑะ (inguinal) กับลูกอัณฑะ (retroperitoneal)",
   "summary": [
-   "<b>นอกสไลด์:</b> หลักการระบายน้ำเหลือง: อวัยวะระบายตามหลอดเลือดที่เลี้ยงจากต้นกำเนิดตอนเป็นตัวอ่อน · อัณฑะ → ต่อมข้าง aorta/IVC ระดับไต · ผิวหนังถุงอัณฑะ องคชาต ช่องทวารใต้ dentate line → ต่อมขาหนีบ แล้วจึงต่อไปที่ต่อมในเชิงกราน"
+   "ผิวถุงอัณฑะ · องคชาต · ฝีเย็บ → inguinal",
+   "อัณฑะขวา → interaortocaval",
+   "อัณฑะซ้าย → para-aortic (ใต้ left renal vein)",
+   "Testicular cancer: ห้ามเจาะผ่านถุงอัณฑะ (เปลี่ยนทางน้ำเหลือง) → radical inguinal orchiectomy",
+   "Choriocarcinoma: กระจายทางเลือด",
+   "Scrotal SCC: เขม่า/ น้ำมันแร่ (chimney sweep)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'ผิวข้างนอก (scrotum/ penis) → ขาหนีบ · ไข่ข้างใน → หลังท้อง (ขวากลาง ซ้ายข้าง)'</b>",
+  "guide": "EAU Guidelines on Testicular Cancer (2025); Campbell-Walsh-Wein Urology 12th ed. (2020) — Scrotal/ penile lymphatic drainage",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายเคยผ่าตัดอัณฑะผ่านถุงอัณฑะ ต่อมาเป็นมะเร็งอัณฑะ → ต่อมขาหนีบอาจได้รับเซลล์มะเร็งด้วย จึงห้ามตัดหรือเจาะอัณฑะที่สงสัยมะเร็งผ่านถุงอัณฑะ (ใช้ radical inguinal orchiectomy)",
-   "<b>นอกสไลด์:</b> มะเร็งองคชาตลุกลึก → ต่อมขาหนีบเป็นด่านแรกเสมอ ก่อนลามไปต่อมในเชิงกราน การพบต่อมเชิงกรานโดยไม่มีต่อมขาหนีบบวกจึงพบน้อยมาก"
+   "ก้อนที่ลูกอัณฑะซ้าย → กระจาย para-aortic LN",
+   "ก้อนที่ลูกอัณฑะขวา → interaortocaval LN",
+   "แผลมะเร็งที่ผิวถุงอัณฑะ → คลำต่อมน้ำเหลืองขาหนีบ"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 110–111 — ตัวพิมพ์: <b>85. มะเร็งบริเวณ scotum จะตรวจพบการกระจายไปต่อมน้ำเหลืองบริเวณใดเป็นบริเวณแรก — A. External iliac node B. Internal iliac node C. Aortocaval node D. Paraaortic node E. Inguinal node</b><br>ลายมือ: C \"Rt. side\" · D \"Lt. testis\" · ขีด E + \"→ scrotum, penis\"<br>ไฮไลต์: \"มะเร็งบริเวณ scotum\" \"กระจายไปต่อมน้ำเหลืองบริเวณใด\" · C, D (ส้ม) · E (เหลือง)<br>รูปที่แปะ: สไลด์ MANAGEMENT — Principle: testicular cancer spreads in predictable and stepwise fashion except choriocarcinoma (distant metastasis) · Primary lymphatic drainage — Left: para-aortic LN · Right: interaortocaval LN · Scotum: inguinal LN (ลายมือ \"skin\" \"penis\" \"testis ไม่ใช่\") + ภาพต่อมน้ำเหลือง retroperitoneum (1. Paracaval 2. Precaval 3. Interaortocaval 4. Preaortic 5. Paraaortic …)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 110",
+  "kimg": [
+   "fsk_p110",
+   "kp67a_85"
   ]
  }
 }

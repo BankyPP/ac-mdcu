@@ -1,192 +1,332 @@
 {
  "MDCU67|RoA|86": {
-  "interp": "เด็กชาย 2 ปี ไข้ ปวดหลัง (flank) ปัสสาวะแสบ ซึม กินไม่ได้ ชีพจรเร็ว → ถามแหล่งการติดเชื้อ",
-  "why": "<b>คีย์: ขีด B + ลายมือ acute pyelonephritis</b><br><b>นอกสไลด์:</b> ไข้ร่วมปวดบั้นเอวและปัสสาวะแสบชี้ตรงไปที่ทางเดินปัสสาวะส่วนบน (ไตอักเสบ) · อาการซึม กินไม่ได้ ชีพจรเร็วบอกความรุนแรง ไม่ได้ชี้แหล่งอื่น",
+  "interp": "เด็กชาย 2 ปี <b>ไข้ ปวดหลัง ปัสสาวะแสบขัด</b> 2 วัน ร้องกวน ซึม ไม่กิน ชีพจรเร็ว → ถามสาเหตุ",
+  "why": "ไข้ + <b>ปวดหลัง/ เอว</b> + <b>ปัสสาวะแสบขัด</b> = <b>urinary tract infection ส่วนบน (acute pyelonephritis)</b> · ซึม ไม่กิน ชีพจรเร็ว บอกว่าป่วยค่อนข้างมาก (เสี่ยง urosepsis) · ไม่มีอาการทางเดินหายใจ อุจจาระร่วง หรือแผลผิวหนัง · ไฟล์ขีด B ลายมือ <b>\"acute pyelonephritis\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าไข้ร่วมไอ หายใจเร็ว ฟังปอดได้เสียง crackles หรือภาพรังสีทรวงอกมีปอดอักเสบ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าไข้ร่วมถ่ายเหลวบ่อย อาเจียน ปวดท้องบิดเป็นพัก ๆ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าไข้ร่วมแผลหรือฝีที่ผิวหนัง ผิวแดงร้อนลามออก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าไข้ ซึม ร่วมคอแข็ง กระหม่อมโป่ง ชัก หรือผื่นจ้ำเลือดที่กดไม่จาง"
+   "A": "ไม่มีไอ หอบ น้ำมูก · จะถูกถ้าเด็กไข้ ไอ หายใจเร็ว มีเสียง crepitation",
+   "C": "ไม่มีถ่ายเหลว อาเจียนเด่น · จะถูกถ้าเด็กไข้ ถ่ายเหลวเป็นน้ำ อาเจียน",
+   "D": "ไม่มีแผล/ ฝีที่ผิวหนัง · จะถูกถ้าเด็กมีแผลติดเชื้อที่ขา บวมแดง แล้วไข้สูงซึม",
+   "E": "Meningitis: ไข้ ซึม ชัก คอแข็ง/ กระหม่อมโป่ง ไม่ใช่ปวดหลัง ปัสสาวะแสบ · จะถูกถ้าเด็กไข้ ชัก คอแข็ง"
   },
-  "trap": "เด็กเล็กซึมและกินไม่ได้จึงนึกถึงเยื่อหุ้มสมองอักเสบก่อน — ต้องหาจุดติดเชื้อจากอาการเฉพาะที่ (ปวดบั้นเอว ปัสสาวะแสบ) ซึ่งในข้อนี้ชี้ไปที่ไต",
+  "trap": "เห็นซึม ชีพจรเร็วแล้วตอบ sepsis จากที่อื่น — อาการนำชี้ทางเดินปัสสาวะ",
   "summary": [
-   "<b>นอกสไลด์:</b> วินิจฉัยติดเชื้อทางเดินปัสสาวะในเด็กที่ยังไม่ฝึกขับถ่าย: เก็บปัสสาวะด้วยการสวนหรือเจาะเหนือหัวหน่าว (ถุงรองปนเปื้อนสูง ใช้ได้แค่ผลลบ) · ตรวจปัสสาวะพบเม็ดเลือดขาวหรือ nitrite ร่วมกับเพาะเชื้อขึ้นเชื้อชนิดเดียว (จากการสวนราว ≥ 50,000 CFU/mL)"
+   "Febrile UTI ในเด็ก = pyelonephritis จนกว่าจะพิสูจน์ว่าไม่ใช่",
+   "เด็กเล็กอาการไม่จำเพาะ: ไข้ งอแง กินน้อย อาเจียน",
+   "เก็บปัสสาวะ: catheter/ suprapubic (ไม่ใช่ bag)",
+   "UA + culture ก่อนให้ยา",
+   "ป่วยมาก/ กินไม่ได้ → IV ATB",
+   "หาความผิดปกติ: US ± VCUG"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'ไข้ + ปวดเอว + ฉี่แสบ = ไตอักเสบ'</b>",
+  "guide": "AAP Clinical Practice Guideline: Urinary Tract Infection in Febrile Infants and Children 2–24 Months (Pediatrics 2011;128:595); EAU Guidelines on Paediatric Urology (2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็กหญิง 3 ปี ปัสสาวะแสบ ปวดท้องน้อย ไม่ปวดหลัง ไข้ต่ำหรือไม่มีไข้ → cystitis มากกว่า pyelonephritis",
-   "<b>นอกสไลด์:</b> ทารกอายุ 6 สัปดาห์ไข้สูงไม่มีอาการเฉพาะที่ → ตรวจปัสสาวะทุกราย เพราะการติดเชื้อทางเดินปัสสาวะเป็นแหล่งไข้ที่พบบ่อยในทารก"
+   "ทารก 6 เดือน ไข้สูงไม่มีสาเหตุ UA WBC มาก → febrile UTI",
+   "เด็ก 4 ปี แสบขัด ไม่มีไข้ → cystitis",
+   "เด็กไข้ ชัก กระหม่อมโป่ง → meningitis → LP"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 111 — ตัวพิมพ์: <b>86. ผู้ป่วยเด็กชายอายุ 2 ปี มาด้วยอาการมีไข้ ปวดหลัง ปัสสาวะแสบขัด 2 วันก่อนมาโรงพยาบาล เด็กร้องไห้ งอแง ซึมๆ ไม่ยอมทานอาหาร ตรวจร่างกายพบว่าชีพจรเต้นเร็วขึ้น อาการในผู้ป่วยคนนี้เกิดจากสาเหตุใด [โจทย์จริงยาวกว่านี้] — A. Respiratory tract infection B. Urinary tract infection C. Gastrointestinal tract infection D. Sepsis from skin infection</b><br>ลายมือ: \"acute pyelonephritis\" เหนือ \"ปวดหลัง ปัสสาวะแสบขัด\" · ขีด B<br>ไฮไลต์: \"ชายอายุ 2 ปี\" \"ไข้ ปวดหลัง ปัสสาวะแสบขัด 2 วัน\" \"ร้องไห้ งอแง ซึมๆ ไม่ยอมทานอาหาร\" \"ชีพจรเต้นเร็วขึ้น\" \"เกิดจากสาเหตุใด\" · B (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Meningitis)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 111",
+  "kimg": [
+   "fsk_p111",
+   "kp67a_86"
   ]
  },
  "MDCU67|RoA|87": {
-  "interp": "เด็กชาย 2 ปีที่เป็นไตอักเสบ → ถามความผิดปกติพื้นฐานที่น่าจะเป็น",
-  "why": "<b>คีย์: ขีด A + ลายมือ VUR → febrile UTI · Dx VCUG + สไลด์ primary/secondary VUR</b><br><b>นอกสไลด์:</b> ปัสสาวะไหลย้อนจากกระเพาะปัสสาวะขึ้นท่อไตพาเชื้อขึ้นไปถึงไต จึงเป็นความผิดปกติที่พบบ่อยที่สุดในเด็กที่ติดเชื้อทางเดินปัสสาวะมีไข้ (ราวหนึ่งในสามของเด็กที่ติดเชื้อมีไข้) · วินิจฉัยด้วย VCUG",
+  "interp": "เด็กชาย 2 ปีจากข้อก่อน (febrile UTI/ pyelonephritis) → ถามสาเหตุพื้นฐานที่น่าจะเป็น",
+  "why": "<b>Vesicoureteral reflux (VUR)</b> เป็นความผิดปกติพื้นฐานที่<b>พบบ่อยที่สุดของ febrile UTI ในเด็ก</b> (~30–40% ของเด็กที่มี febrile UTI) — ปัสสาวะไหลย้อนจากกระเพาะขึ้นไต พาเชื้อขึ้นไปเกิด pyelonephritis · Primary VUR จาก submucosal tunnel ของท่อไตสั้น · วินิจฉัยและแบ่งเกรดด้วย <b>VCUG</b> · ไฟล์ขีด A ลายมือ <b>\"MC cause febrile UTI เด็ก\"</b> · <b>\"(VUR) → Ix: VCUG\"</b> และแปะสไลด์ Primary/ Secondary VUR, Investigation และ Treatment",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กชายปัสสาวะไม่พุ่ง หยด คลำได้กระเพาะปัสสาวะโต หรือ US ก่อนคลอดเห็นไตบวมน้ำสองข้างและกระเพาะปัสสาวะผนังหนา",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า US เห็นไตบวมน้ำข้างเดียวโดยเชิงกรวยไตโป่งแต่ท่อไตไม่ขยาย ร่วมปวดท้องเป็นพัก ๆ หลังดื่มน้ำมาก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กมีท่อปัสสาวะตีบหลังบาดเจ็บหรือคาสาย หรือรูเปิดตีบหลังขลิบ — ปัสสาวะลำเล็ก ต้องเบ่ง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กมีไขสันหลังผิดปกติแต่กำเนิด (myelomeningocele) หรือกระดูกก้นกบหายบางส่วน ปัสสาวะไหลซึม กลั้นไม่ได้"
+   "B": "PUV ทำให้ secondary VUR/ UTI ได้แต่พบน้อยกว่า มักวินิจฉัยตั้งแต่ทารก (hydronephrosis สองข้าง ปัสสาวะไม่พุ่ง) · จะถูกถ้าเด็กชายแรกเกิด ปัสสาวะหยด กระเพาะคลำได้ hydronephrosis สองข้าง",
+   "C": "UPJ obstruction → hydronephrosis ข้างเดียว ปวดเป็นพัก ๆ ก้อนในท้อง · จะถูกถ้า US พบ renal pelvis โตโดยท่อไตไม่โต",
+   "D": "BOO ในเด็กส่วนใหญ่คือ PUV/ urethral stricture · จะถูกถ้าคำถามถามเด็กชายปัสสาวะลำเล็ก เบ่ง กระเพาะหนา",
+   "E": "Neurogenic bladder (spina bifida) ทำ secondary VUR · จะถูกถ้าเด็กมี myelomeningocele ปัสสาวะราด"
   },
-  "trap": "นึกถึงการอุดตันก่อนเพราะเป็นเด็กชาย — ไม่มีอาการอุดตัน (ปัสสาวะไม่พุ่ง กระเพาะโต) สาเหตุพื้นฐานที่พบบ่อยที่สุดของการติดเชื้อมีไข้คือ VUR",
+  "trap": "ตอบ PUV เพราะเป็นเด็กชาย — febrile UTI ในเด็กสาเหตุพื้นฐานที่พบบ่อยที่สุดคือ VUR",
   "summary": [
-   "<b>นอกสไลด์:</b> ตรวจภาพหลังติดเชื้อทางเดินปัสสาวะมีไข้ครั้งแรก (AAP สำหรับเด็ก 2–24 เดือน): US ไตและกระเพาะปัสสาวะทุกราย · VCUG เมื่อ US ผิดปกติ (ไตบวมน้ำ แผลเป็น) ติดเชื้อมีไข้ซ้ำ หรือเชื้อ/อาการผิดปกติ · VUR แบ่ง grade I–V ตามความสูงที่ไหลย้อนและการขยายของท่อไต"
+   "Primary VUR: submucosal tunnel สั้น",
+   "Secondary VUR: PUV · neurogenic bladder (ความดันกระเพาะสูง)",
+   "Grade I–V จาก VCUG",
+   "DMSA: แผลเป็นที่ไต",
+   "Low grade → ติดตาม ± prophylaxis (มักหายเอง)",
+   "ผ่าตัด: breakthrough UTI · grade 4–5 คงอยู่ · แผลเป็นใหม่/ ไตเสื่อม · Hutch diverticulum"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'เด็กไตอักเสบ → คิด VUR → VCUG'</b>",
+  "guide": "AUA Guideline: Management and Screening of Primary Vesicoureteral Reflux in Children (J Urol 2010;184:1134); EAU Guidelines on Paediatric Urology (2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> น้องของเด็กที่มี VUR มีไตบวมน้ำหรือเคยติดเชื้อทางเดินปัสสาวะ → พิจารณาตรวจหา VUR เพราะพบในพี่น้องได้ราวหนึ่งในสาม",
-   "<b>นอกสไลด์:</b> เด็กที่มี VUR ร่วมท้องผูกเรื้อรังและกลั้นปัสสาวะนาน → แก้ bladder-bowel dysfunction ก่อน ช่วยลดการติดเชื้อซ้ำและทำให้ VUR หายได้มากขึ้น"
+   "เด็กหญิง febrile UTI ครั้งที่ 2 US hydroureter → VCUG → VUR grade IV",
+   "ทารกชาย hydronephrosis สองข้าง กระเพาะหนา → PUV → VCUG",
+   "เด็ก VUR grade V ติดเชื้อซ้ำแม้ได้ prophylaxis → ureteral reimplantation"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 111 — ตัวพิมพ์: <b>87. ข้อใดคือสาเหตุของอาการที่เกิดขึ้นในผู้ป่วยราย&#8203;นี้ — A. Vesicoureteric reflux B. Posterior urethral valve C. Ureteropelvic junction obstruction D. Bladder outlet obstruction</b><br>ลายมือ: \"MC cause febrile UTI เด็ก\" (ลูกศรลงที่ A) · ขีด A + \"(VUR) → Ix: VCUG\"<br>ไฮไลต์: \"สาเหตุของอาการที่เกิดขึ้น\" · A (เหลือง)<br>รูปที่แปะ: ① สไลด์ Primary VUR — Congenital anomaly of ureterovesical junction → inadequate submucosal length · Secondary VUR: high pressure in bladder — Anatomical obstruction: PUV · Functional obstruction: neurogenic bladder ② สไลด์ Investigation — Ultrasonography: hydronephrosis, hydroureter, renal size, renal scar · VCUG: vesicoureteral reflux, grading · DMSA scan: renal scar ③ สไลด์ Treatment — Indication for surgery: Breakthrough UTI despite prophylactic ATB · Noncompliance with medical management · High grade VUR (grade 4,5) · Failure of renal growth, new renal scar, deterioration of renal function · Reflux that persists in puberty girl · Reflux with congenital abnormality of UVJ (Hutch diverticulum)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Neurogenic bladder)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 111",
+  "kimg": [
+   "fsk_p111",
+   "kp67a_87"
   ]
  },
  "MDCU67|RoA|88": {
-  "interp": "เด็กเดิม (ไตอักเสบ ไข้ ซึม กินไม่ได้ ชีพจรเร็ว) → ถามการรักษาเริ่มต้น",
-  "why": "<b>คีย์: ขีด C + ลายมือ upper UTI · ceftriaxone + สไลด์ inpatient/outpatient</b><br><b>นอกสไลด์:</b> เด็กที่ซึม กินไม่ได้ ชีพจรเร็วคือขาดน้ำและอาจเริ่มติดเชื้อในกระแสเลือด → รับไว้ให้สารน้ำทางหลอดเลือดและยาปฏิชีวนะฉีด (เช่น ceftriaxone) หลังเก็บปัสสาวะเพาะเชื้อ",
+  "interp": "เด็กจากข้อ 86 (pyelonephritis มีไข้ <b>ซึม ไม่ยอมกิน ชีพจรเร็ว</b>) → ถามการรักษาเบื้องต้น",
+  "why": "เด็กป่วยมาก <b>ซึม กินไม่ได้ (ยากินไม่ได้) มีภาวะขาดน้ำ/ ชีพจรเร็ว</b> → ต้อง admit ให้ <b>IV antibiotic</b> (third-generation cephalosporin เช่น <b>ceftriaxone</b>; ampicillin + gentamicin ถ้าสงสัยความผิดปกติ/ enterococcus) ร่วมกับ <b>IV hydration</b> แล้วเปลี่ยนเป็นยากินเมื่อไข้ลงและกินได้ ครบ 10–14 วัน · ไฟล์ขีด C ลายมือขีดฆ่า \"Or\" ใน A, B · <b>\"กินไม่ได้\"</b> · C ใส่เครื่องหมายคำพูดที่ \"IV\" + <b>\"upper UTI\"</b> · <b>\"ceftri.\"</b> และแปะสไลด์ <b>Inpatient or Outpatient?</b> และ <b>Treatment</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กที่ไตอักเสบไม่ดูป่วยหนัก ดื่มกินได้ดี ไม่ขาดน้ำ — ยากินร่วมยาลดไข้ที่บ้านและนัดติดตาม",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กขาดน้ำเล็กน้อยแต่ยังดื่มได้ ไม่ซึม ไม่อาเจียน — ยากินร่วมดื่ม ORS",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เด็กไตอักเสบเฝ้าดูโดยไม่ให้ยา เพราะการติดเชื้อที่ไตลุกลามเป็นการติดเชื้อในกระแสเลือดได้และการรักษาช้าเพิ่มแผลเป็นที่ไต",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าการติดเชื้อหายแล้วและพบ VUR ระดับสูงหรือติดเชื้อมีไข้ซ้ำ — ยาป้องกันขนาดต่ำระยะยาว"
+   "A": "ยากินไม่เหมาะเมื่อเด็กซึมกินไม่ได้ (ลายมือ \"กินไม่ได้\") และยาลดไข้ไม่แก้ภาวะขาดน้ำ · จะถูกถ้าเด็กดูดี กินได้ ไข้ไม่สูง",
+   "B": "ยากินไม่เหมาะเมื่อกินไม่ได้ · จะถูกถ้าเด็ก pyelonephritis ไม่ซึม กินดื่มได้ ติดตามใกล้ชิดได้",
+   "D": "สังเกตอาการเสี่ยง sepsis และไตเป็นแผลเป็น · จะถูกถ้าคำถามถาม asymptomatic bacteriuria",
+   "E": "Prophylaxis ไม่ใช่การรักษาการติดเชื้อเฉียบพลัน · จะถูกถ้าคำถามถามหลังรักษาหาย ยืนยัน VUR เกรดสูง"
   },
-  "trap": "ให้ยากินเพราะเป็นแนวทางที่ใช้ได้ในเด็กไตอักเสบ — เด็กรายนี้ซึม กินไม่ได้ ชีพจรเร็ว เข้าเกณฑ์รับไว้ให้ยาฉีดและสารน้ำ",
+  "trap": "ให้ยากินกลับบ้านเพราะ oral = IV ในงานวิจัย — ข้อมูลนั้นใช้กับเด็กที่ไม่ป่วยหนักและกินได้",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาเริ่มต้นตามอายุ: ทารก &lt; 2 เดือน → ampicillin + gentamicin หรือ ampicillin + cefotaxime (พิจารณาเจาะหลังด้วย) · เด็กโตกว่า → cephalosporin รุ่นที่สาม (ceftriaxone ฉีด หรือยากินเมื่อไม่ป่วยหนัก) · ปรับตามผลเพาะเชื้อ ให้รวมราว 7–14 วัน"
+   "Admit/ IV: ป่วยหนัก · ซึม · กินไม่ได้ · ขาดน้ำ · &lt; 2–3 เดือน · ไม่ตอบสนองยากิน",
+   "IV: ceftriaxone/ cefotaxime · ampicillin + gentamicin ถ้าสงสัย anomaly/ enterococcus",
+   "Ceftriaxone ไม่ครอบคลุม Pseudomonas · Enterococcus",
+   "เปลี่ยนเป็นยากินเมื่อไข้ลง กินได้ → ครบ 10–14 วัน",
+   "Lower tract: ยาระยะสั้น 2–4 วันได้ผลเท่ายาว",
+   "หลังหาย: US ± VCUG"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
+  "mnemonic": "<b>'เด็กไตอักเสบ ซึม/ กินไม่ได้ = Admit + IV ยา + IV น้ำ'</b>",
+  "guide": "AAP Clinical Practice Guideline: Urinary Tract Infection in Febrile Infants and Children 2–24 Months (Pediatrics 2011;128:595); EAU Guidelines on Paediatric Urology (2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผลเพาะเชื้อเป็น E. coli ที่สร้าง ESBL ไข้ไม่ลงด้วย ceftriaxone → เปลี่ยนเป็น carbapenem (หรือ aminoglycoside ถ้าไวต่อยา)",
-   "<b>นอกสไลด์:</b> ไข้ลงและกินได้หลังยาฉีด 2 วัน → เปลี่ยนเป็นยากินที่เชื้อไวให้ครบ ไม่ต้องอยู่โรงพยาบาลจนครบยา"
+   "เด็ก febrile UTI อาเจียนทุกมื้อ → IV ceftriaxone + IV fluid",
+   "เด็ก febrile UTI ดูดี กินได้ → oral cephalosporin 10 วัน",
+   "เด็ก UTI ไข้ไม่ลงใน 48 ชม. → US หา abscess/ obstruction"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 111 — ตัวพิมพ์: <b>88. จากข้อ 86 จงให้การรักษาเบื้องต้นที่เหมาะสมสำหรับคนไข้ราย&#8203;นี้ — A. Oral antibiotic, antipyretic B. Oral antibiotic, hydration C. IV antibiotic, hydration</b><br>ลายมือ: A, B ขีดฆ่า \"Or\" + \"กินไม่ได้\" · ขีด C + เครื่องหมายคำพูดที่ \"IV\" + \"upper UTI\" · \"ceftri.\"<br>ไฮไลต์: \"รักษาเบื้องต้น\" · C (เหลือง)<br>รูปที่แปะ: ① สไลด์ Inpatient or Outpatient? — How sick - cystitis or pyelonephritis? · Does patient need IV to hold down medicines and for rehydration? · What if culture grows resistant organism? — How good is follow-up? · Ceftriaxone IM is OK, except for psuedomonas and enterococcus (ลายมือ \"Ampicillin/ Genta\") · Might there be compliance problems? ② สไลด์ Treatment — If IV, then third generation cephalosporin OR ampicillin plus gentamicin if suspect anomaly · When sensitivities are back, patient is afebrile and can take medicines by mouth, switch to oral antibiotics to complete a 10-14 day course — For upper tract: 10-14 days · For lower tract: short course (2-4 days) is as good as long course (7-14 days)<br>ที่ปรับในเว็บ: เพิ่มช้อย D–E (Observation · Prophylactic antibiotic)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 111",
+  "kimg": [
+   "fsk_p111",
+   "kp67a_88"
   ]
  },
  "MDCU67|RoA|89": {
-  "interp": "หญิงไม่ตั้งครรภ์สุขภาพดี cystitis แบบไม่ซับซ้อน → ถามยาปฏิชีวนะทางเลือกแรก",
-  "why": "<b>ไม่มีคีย์ (Claude สร้างโจทย์จากหัวข้อ ATB in UTI)</b><br><b>นอกสไลด์:</b> nitrofurantoin เข้มข้นในปัสสาวะ เชื้อ E. coli ดื้อน้อย กระทบเชื้อประจำถิ่นในลำไส้น้อย จึงเป็นยาแรกของ uncomplicated cystitis (IDSA/EAU) ให้ 5 วัน",
+  "interp": "ถามยาปฏิชีวนะ<b>ตัวแรก (first-line)</b> สำหรับ <b>acute uncomplicated cystitis</b> ในหญิงสุขภาพดีไม่ตั้งครรภ์",
+  "why": "First-line ของ acute uncomplicated cystitis: <b>nitrofurantoin 5 วัน</b> (หรือ fosfomycin ครั้งเดียว · TMP-SMX 3 วันถ้าเชื้อดื้อในพื้นที่ &lt; 20% · pivmecillinam) — ยาเข้มข้นในปัสสาวะ ผลกระทบต่อเชื้อดื้อยาน้อย · fluoroquinolone สำรองไว้ (ผลข้างเคียงและการดื้อยา) · ไฟล์มีเพียงหัวข้อ <b>\"ATB in UTI\"</b> ไม่มีรายละเอียดโจทย์/ ช้อย",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นไตอักเสบที่ต้องรับไว้ในโรงพยาบาล หรือติดเชื้อทางเดินปัสสาวะแบบซับซ้อน (มีไข้สูง อาเจียน ทางเดินปัสสาวะอุดตัน)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผลเพาะเชื้อยืนยันว่าเชื้อไวต่อ amoxicillin เช่นในหญิงตั้งครรภ์ที่ต้องเลือกยาปลอดภัยตามผลเพาะเชื้อ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเชื้อดื้อยากินทุกตัว (เช่น ESBL ที่ยังไวต่อ aminoglycoside) — ฉีด aminoglycoside ครั้งเดียวหรือระยะสั้น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ vancomycin ชนิดกินใช้รักษาการติดเชื้อทางเดินปัสสาวะ เพราะไม่ดูดซึมจากลำไส้ จึงไม่ถึงปัสสาวะ — ใช้รักษา C. difficile ในลำไส้"
+   "B": "Ceftriaxone IV 7 วันเกินจำเป็นสำหรับ cystitis · จะถูกถ้าคำถามถาม pyelonephritis ที่ต้อง admit",
+   "C": "Amoxicillin มีเชื้อ E. coli ดื้อสูง ไม่ใช่ยาแรก · จะถูกถ้าเพาะเชื้อพบ Enterococcus faecalis ไวต่อ ampicillin",
+   "D": "Gentamicin ฉีดไม่ใช้กับ cystitis ทั่วไป (พิษต่อไต/ หู) · จะถูกถ้าคำถามถามยาร่วมใน urosepsis/ pyelonephritis ที่ดื้อยา",
+   "E": "Vancomycin กินใช้รักษา C. difficile colitis ไม่ดูดซึม ไม่ใช่ยา UTI · จะถูกถ้าคำถามถามท้องเสียรุนแรงหลังได้ยาปฏิชีวนะ"
   },
-  "trap": "เลือก amoxicillin เพราะปลอดภัยและคุ้นเคย — E. coli ในชุมชนดื้อ amoxicillin สูง จึงไม่ใช้เป็นยาเดาโดยไม่มีผลเพาะเชื้อ",
+  "trap": "ใช้ยาแรงเกินไป (fluoroquinolone/ ceftriaxone) กับ cystitis ธรรมดา",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาทางเลือกแรกของ uncomplicated cystitis: nitrofurantoin 5 วัน · fosfomycin 3 g ครั้งเดียว · TMP-SMX 3 วัน (เมื่อเชื้อในพื้นที่ดื้อไม่เกินราว 20%) · pivmecillinam · เก็บ fluoroquinolone ไว้สำหรับการติดเชื้อที่รุนแรงกว่า (ผลข้างเคียงมาก)"
+   "Cystitis first-line: nitrofurantoin 5 วัน · fosfomycin 3 g ครั้งเดียว",
+   "TMP-SMX 3 วัน (เชื้อดื้อในพื้นที่ &lt; 20%)",
+   "Fluoroquinolone: สำรอง",
+   "Nitrofurantoin ห้ามใน pyelonephritis และ eGFR ต่ำ",
+   "Pyelonephritis: FQ/ ceftriaxone ± admit",
+   "ตั้งครรภ์: cephalexin/ amoxicillin-clavulanate · รักษา asymptomatic bacteriuria"
   ],
-  "opinion": "Claude สร้างโจทย์และช้อยเอง (ไฟล์มีแค่หัวข้อ) ความมั่นใจสูงในเนื้อหา",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่มีรายละเอียดโจทย์และไม่มีคีย์ (มีเพียงหัวข้อ \"ATB in UTI\") เว็บสร้างโจทย์ตามหัวข้อ",
+  "mnemonic": "<b>'Cystitis หญิง: Nitro 5 · Fosfo 1 · Bactrim 3'</b>",
+  "guide": "IDSA/ESCMID International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis in Women (Clin Infect Dis 2011;52:e103); EAU Guidelines on Urological Infections (2025)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิง cystitis ที่ไตเสื่อมมาก (eGFR ราว &lt; 30) → เลี่ยง nitrofurantoin (ยาเข้าปัสสาวะไม่พอและสะสมเป็นพิษ) ใช้ fosfomycin",
-   "<b>นอกสไลด์:</b> หญิงวัยหมดประจำเดือน cystitis เป็นซ้ำหลายครั้ง → เอสโตรเจนทางช่องคลอดลดการกลับเป็นซ้ำ"
+   "หญิง 28 ปี แสบขัด ไม่มีไข้ → nitrofurantoin 5 วัน",
+   "หญิงตั้งครรภ์ 20 สัปดาห์ แสบขัด → cephalexin",
+   "หญิงไข้ หนาวสั่น ปวดเอว อาเจียน → admit + IV ceftriaxone"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 111 — ตัวพิมพ์: <b>89. ATB in UTI</b> (ไม่มีรายละเอียดโจทย์/ ช้อยในไฟล์)<br>ที่ปรับในเว็บ: สร้างโจทย์และช้อยทั้งหมดตามหัวข้อ ATB in UTI",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 111",
+  "kimg": [
+   "fsk_p111",
+   "kp67a_89"
   ]
  },
  "MDCU67|RoA|90": {
-  "interp": "ข้อ EXCEPT — หาสถานการณ์ที่ไม่ต้องระบายไตด่วนในนิ่วท่อไตอุดตัน",
-  "why": "<b>ลายมือ: รายการข้อบ่งชี้ระบายด่วน (ไม่มีช้อยในไฟล์)</b><br><b>นอกสไลด์:</b> นิ่ว 4 mm ที่ปวดคุมได้ ไม่มีไข้ ไตอีกข้างปกติ หลุดเองได้ส่วนใหญ่ (นิ่ว ≤ 4 mm หลุดเองราว 75–80%, ≤ 5 mm ราว 70%) จึงรักษาแบบประคับประคองได้ ไม่ต้องใส่สายระบาย",
+  "interp": "ผู้ป่วย<b>นิ่วอุดท่อไต</b> — ข้อใด<b>ไม่ใช่</b>ข้อบ่งชี้ต้องระบายท่อไตเร่งด่วน (urgent decompression/ diversion)",
+  "why": "ข้อบ่งชี้ระบายเร่งด่วน (ใส่ ureteric stent หรือ percutaneous nephrostomy) ตามลายมือในไฟล์: <b>ไข้/ ติดเชื้อ (obstructed infected kidney)</b> · <b>ปวดคุมไม่ได้</b> · <b>กินไม่ได้ ขาดน้ำ</b> · <b>ไตเสื่อมลงเรื่อย ๆ</b> · <b>อุดกั้นในไตข้างเดียว (solitary kidney)</b> · <b>นิ่วอุดท่อไตทั้งสองข้าง</b> → นิ่วเล็ก 4 mm ที่คุมปวดได้ ไม่มีภาวะแทรกซ้อน = <b>รักษาแบบประคับประคอง (medical expulsive therapy)</b> รอให้หลุดเอง (~4–6 สัปดาห์) · ไฟล์มีกล่องลายมือ <b>\"stone &gt; 5 mm / any size ที่: ✓ Fever/ infect. ✓ intractable pain ✓ กินไม่ได้, dehydra ✓ progressive renal deterioration ✓ obs. in solitary kidney (มีไตอยู่ข้างเดียว) ✓ bilat. ureteric stone\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"มีไข้ร่วมการอุดตันต้องระบายด่วน\" ผิด เพราะหนองที่ค้างในไตภายใต้ความดันลุกลามเป็นติดเชื้อในกระแสเลือดเร็ว และยาปฏิชีวนะเข้าระบบที่อุดตันไม่ได้",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ปวดรุนแรงจนคุมด้วยยาไม่ได้ต้องระบายหรือเอานิ่วออก\" ผิด เพราะการปวดไม่หยุดบอกว่ารอนิ่วหลุดเองต่อไปไม่ได้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"การอุดตันของไตข้างเดียวที่มีอยู่ต้องระบายด่วน\" ผิด เพราะไม่มีไตอีกข้างทำงานแทน ไตวายเฉียบพลันและปัสสาวะไม่ออกเกิดได้ทันที",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"อุดตันสองข้างต้องระบายด่วน\" ผิด เพราะการอุดทั้งสองข้างทำให้ไตวายเฉียบพลัน โพแทสเซียมสูง และน้ำเกินได้"
+   "A": "ไข้ + อุดกั้น = obstructed infected kidney ต้องระบายด่วน (ไม่ทำ ESWL/ URS ทันที) · จะถูกถ้าผู้ป่วยมีนิ่วแต่ไม่มีการอุดกั้น และไข้มาจากที่อื่น",
+   "B": "ปวดคุมไม่ได้ด้วยยา เป็นข้อบ่งชี้ระบาย/ เอานิ่วออก · จะถูกถ้าปวดหายด้วย NSAID ครั้งเดียว",
+   "C": "อุดกั้นในไตข้างเดียวเสี่ยงไตวายเฉียบพลัน · จะถูกถ้าไตอีกข้างทำงานปกติ",
+   "D": "อุดกั้นสองข้างเสี่ยงไตวาย (anuria) · จะถูกถ้ามีนิ่วข้างเดียว ไตอีกข้างปกติ"
   },
-  "trap": "เห็นคำว่า obstructing แล้วคิดว่าต้องระบายทุกราย — นิ่วเล็กที่อุดบางส่วนโดยไม่มีไข้ ไตอีกข้างปกติ และปวดคุมได้ รอให้หลุดเองได้",
+  "trap": "คิดว่านิ่วอุดท่อไตทุกรายต้องใส่ stent — นิ่วเล็กคุมปวดได้ไม่มีภาวะแทรกซ้อน รอหลุดเองได้",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ระบายด่วน: ติดเชื้อหรือไข้ร่วมอุดตัน · ไตข้างเดียวหรือไตปลูกถ่าย · อุดสองข้าง · ไตวายเฉียบพลันหรือปัสสาวะไม่ออก · ปวดหรืออาเจียนคุมไม่ได้ — ใส่ stent หรือ nephrostomy ได้ผลพอกัน · รอได้: นิ่วเล็กปวดคุมได้ ไม่มีไข้ ไตดี เฝ้าดูราว 4–6 สัปดาห์"
+   "ระบายด่วน: ติดเชื้อ · ปวดคุมไม่ได้ · กินไม่ได้ · ไตเสื่อม · ไตข้างเดียว · อุดสองข้าง",
+   "วิธี: ureteric stent หรือ PCN (เท่ากัน)",
+   "Obstructed infected kidney: ระบายก่อน เอานิ่วออกทีหลัง",
+   "นิ่ว ≤ 5 mm: ~70–90% หลุดเอง",
+   "MET (tamsulosin) สำหรับนิ่วท่อไตส่วนล่าง &gt; 5 mm",
+   "ไม่หลุดใน 4–6 สัปดาห์ → URS/ ESWL"
   ],
-  "opinion": "Claude สร้างช้อยจากรายการลายมือ ความมั่นใจสูงในเนื้อหา",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่มีช้อยและไม่มีคีย์ แต่ลายมือรายการข้อบ่งชี้ตรงกับช้อย A–D และ E ไม่อยู่ในรายการ",
+  "mnemonic": "<b>'ระบายด่วนเมื่อ \"ไข้ ปวด กินไม่ได้ ไตแย่ ไตเดียว สองข้าง\"'</b>",
+  "guide": "EAU Guidelines on Urolithiasis (2025) — Decompression of obstructed kidney; AUA/Endourological Society Guideline on Surgical Management of Stones (J Urol 2016;196:1153)",
   "variants": [
-   "<b>นอกสไลด์:</b> นิ่วท่อไตส่วนปลาย 6 mm ผ่านไป 6 สัปดาห์ยังไม่หลุด → ส่องกล้องเอานิ่ว (ureteroscopy) หรือ ESWL",
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์นิ่วท่อไตอุดตันมีไข้ → ใส่ stent หรือ nephrostomy ร่วมยาปฏิชีวนะ ไม่ส่องกล้องเอานิ่วขณะติดเชื้อ"
+   "นิ่วท่อไต 7 mm + ไข้ 39 °C → PCN/ stent ด่วน + ATB",
+   "นิ่วท่อไต 4 mm ปวดดีขึ้นด้วย NSAID → MET + นัดติดตาม",
+   "ผู้ป่วยไตข้างเดียว นิ่วอุดท่อไต Cr สูงขึ้น → stent ด่วน"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 111 — ตัวพิมพ์: <b>90. ผู้ป่วยที่มีด้วยอาการ …. ต้องทำ urgent ureteric diversion ในทุกคน ยกเว้น</b> (ไม่มีช้อยในไฟล์)<br>ลายมือ (กล่องตาราง): \"stone &gt; 5 mm\" · \"any size ที่\" — ✓ Fever/ infect. ✓ intractable pain ✓ กินไม่ได้, dehydra ✓ progressive renal deterioration ✓ Obs. in solitary kidney (มีไตอยู่ข้างเดียว) ✓ bilat. ureteric stone + ภาพวาดท่อไตและไต<br>ไฮไลต์: \"urgent ureteric diversion\" · \"ยกเว้น\" (ขีดเส้นใต้)<br>ที่ปรับในเว็บ: สร้างโจทย์และช้อยทั้งหมดตามลายมือ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 111",
+  "kimg": [
+   "fsk_p111",
+   "kp67a_90"
   ]
  },
  "MDCU67|RoB|1": {
-  "interp": "ถามข้อความที่ถูกเกี่ยวกับ gastroschisis — ช้อยอื่นเป็นลักษณะของ omphalocele หรือตัวเลขที่ผิด",
-  "why": "<b>คีย์: ขีด A + ลายมือ B, C, E omphalocele · D 10%</b><br><b>นอกสไลด์:</b> ทารก gastroschisis ส่วนใหญ่ตัวเล็กกว่าอายุครรภ์ (SGA) และมักเกิดจากแม่อายุน้อย · ลำไส้ที่แช่น้ำคร่ำทำให้เสียโปรตีนและน้ำ ส่วนการเจริญในครรภ์ที่ช้าพบร่วมได้บ่อย",
+  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>gastroschisis</b>",
+  "why": "Gastroschisis: ผนังหน้าท้องเป็นรู<b>ด้านขวาของสะดือ</b> ไม่มีถุงหุ้ม ลำไส้ออกมาแช่น้ำคร่ำ · สัมพันธ์กับ<b>แม่อายุน้อย</b> และทารก<b>ตัวเล็กกว่าอายุครรภ์ (SGA/ IUGR)</b> → ข้อ A ถูก · ความผิดปกติร่วมพบ<b>น้อย</b> (&lt; 10% ส่วนใหญ่ intestinal atresia ~10%) · ตับม้าม<b>ไม่ค่อยออกมา</b> · หลังซ่อม<b>มี ileus นาน</b> (ลำไส้อักเสบหนาจากน้ำคร่ำ) · ไฟล์ขีด A ลายมือ B, C, E <b>\"omphalocele\"</b> · D แก้ 50 เป็น <b>\"10%\"</b> · E ขีดฆ่า \"No\" และแปะตาราง <b>Omphalocele vs Gastroschisis</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ความพิการร่วมหลายระบบเป็นลักษณะประจำของ gastroschisis เพราะเป็นรอยรั่วของผนังหน้าท้องเฉพาะที่ข้างสะดือ ไม่ใช่ความผิดปกติของการพับตัวของตัวอ่อนทั้งระบบเหมือน omphalocele",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ตับและม้ามออกมาเป็นลักษณะประจำของ gastroschisis เพราะรูเล็ก (ราว 2–4 cm) สิ่งที่ออกมาส่วนใหญ่คือลำไส้ — ตับที่อยู่นอกท้องเป็นลักษณะของ omphalocele ขนาดใหญ่",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ลำไส้ตีบตันราวครึ่งหนึ่งเป็นลักษณะของ gastroschisis เพราะลำไส้ตีบตันเกิดจากลำไส้ขาดเลือดตรงรูรั่วซึ่งพบราว 10%",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ไม่มี ileus นานหลังซ่อม\" เป็นลักษณะของ gastroschisis เพราะลำไส้ที่แช่น้ำคร่ำผนังหนาบวมเป็นแผ่นคลุม (peel) ทำงานช้าหลายสัปดาห์"
+   "B": "Associated anomaly พบบ่อยใน omphalocele (ลายมือ) gastroschisis &lt; 10% · จะถูกถ้าคำถามถาม omphalocele",
+   "C": "ตับ/ ม้ามออกมาพบใน omphalocele (ลายมือ) · จะถูกถ้าคำถามถาม giant omphalocele",
+   "D": "Intestinal atresia พบ ~10% ไม่ใช่ 50% (ลายมือแก้) · จะถูกถ้าตัวเลขเป็น 10%",
+   "E": "Gastroschisis มี prolonged ileus หลังซ่อม (ลายมือขีด No) · จะถูกถ้าคำถามถาม omphalocele ขนาดเล็กที่ลำไส้ปกติ"
   },
-  "trap": "จำว่า gastroschisis มี \"ปัญหาน้อยกว่า\" omphalocele แล้วเลือกข้อที่บอกว่าไม่มี ileus — ความพิการร่วมน้อยกว่าจริง แต่ปัญหาลำไส้ทำงานช้าหลังซ่อมเป็นลักษณะเด่นของ gastroschisis",
+  "trap": "สลับลักษณะ gastroschisis กับ omphalocele",
   "summary": [
-   "<b>นอกสไลด์:</b> ช่วงก่อนและหลังคลอด: AFP ในเลือดแม่สูง US ก่อนคลอดเห็นลำไส้ลอยในน้ำคร่ำ · คลอดในศูนย์ที่มีศัลยแพทย์เด็ก (คลอดทางช่องคลอดได้) · แบ่ง simple (ลำไส้ปกติ) กับ complex (ตีบตัน ทะลุ เน่า หรือบิด) ซึ่ง complex อยู่โรงพยาบาลนานกว่าและเสี่ยงลำไส้สั้น"
+   "Gastroschisis: ขวาของสะดือ · ไม่มีถุง · ลำไส้อย่างเดียว · แม่อายุน้อย · SGA",
+   "Omphalocele: ที่สะดือ · มีถุง · ± ตับ · anomaly ร่วมมาก (chromosome · หัวใจ · Beckwith-Wiedemann · Cantrell)",
+   "Gastroschisis: ผ่าตัดเร่งด่วน (ปิด primary/ silo) · พยากรณ์ขึ้นกับสภาพลำไส้",
+   "Omphalocele: ไม่เร่งด่วน · พยากรณ์ขึ้นกับ anomaly ร่วม",
+   "ดูแลแรกเกิด: คลุมลำไส้ด้วยถุงพลาสติก · ท่อดูดกระเพาะ · IV fluid (สูญเสียน้ำ/ ความร้อนมาก)",
+   "Gastroschisis: atresia ~10% · prolonged ileus · ต้อง TPN"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Gastro-SCHISIS = Small (SGA) · Side ขวา · Sac ไม่มี · Simple (anomaly น้อย)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก gastroschisis หลังซ่อม 3 สัปดาห์ยังกินไม่ได้ → ให้สารอาหารทางหลอดเลือดระหว่างรอลำไส้ทำงาน และเฝ้าระวังภาวะน้ำดีคั่งในตับจากสารอาหารทางหลอดเลือด",
-   "<b>นอกสไลด์:</b> gastroschisis ที่พบลำไส้ตีบตันร่วม ลำไส้บวมมาก → ปิดผนังหน้าท้องก่อน แล้วต่อลำไส้ภายหลังราว 4–6 สัปดาห์เมื่อลำไส้ยุบบวม"
+   "ทารกแม่อายุ 17 ปี ลำไส้ออกทางขวาของสะดือ ไม่มีถุง → gastroschisis → silo/ primary closure",
+   "ทารกลำไส้และตับอยู่ในถุงที่สะดือ + หัวใจผิดปกติ → omphalocele",
+   "omphalocele + ลิ้นโต + น้ำตาลต่ำ → Beckwith-Wiedemann"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 112–113 — หน้า 112 หัวเรื่อง <b>MDCU67 R2</b> + ตารางลายมือ Cong. Abd. wall defect — Gastroschisis (ออกทางขวาของสะดือ · ไม่มี sac · epidemio: แม่อายุน้อย, low socioeconomic, ทารก SGA, ใช้ ASA/ ibuprofen/ pseudoephedrine · asso. anomaly 15% — intest. malrota., intes. atresia) vs Omphalocele (อยู่ใน umb. ring · มี sac 3 layer: peritoneum, Wharton's jelly, amnion · failure of migration &amp; fusion of embryonic fold — cephalic: pentalogy of Cantrell · caudal: hypogastric omph. + vesical/ cloacal exstrophy · lateral fold · epide. 30% chr. abn. — trisomy 13, 18 · asso. anomaly 50–80%: ♥, GU, MS, Beckwith-Wiedemann, neural tube malforma, pentalogy of Cantrell → prog ∝ asso. anomaly) · หน้า 113 หัวเรื่อง Specialty Sx Rotate 2/2557 · ตัวพิมพ์: <b>1. เกี่ยวกับ gastroschisis ข้อใดถูก — A. เกี่ยวข้องกับ SGA B. มักมี associated anomaly C. Liver and spleen involvement D. 50% intestinal atresia E. No prolonged adynamic ileus following repair</b><br>ลายมือ: ขีด A · B \"omphalocele\" · C \"omphalocele\" · D ขีดฆ่า \"50\" + \"10%\" · E ขีดฆ่า \"No\" + \"omphalocele\"<br>ไฮไลต์: \"gastroschisis\" \"ข้อใดถูก\" · A (เหลือง) · B–E (ส้ม)<br>รูปที่แปะ: ตาราง Omphalocele vs Gastroschisis — Associated anomalies: Common / Uncommon (&lt; 10%) · Size of defects: Small or Big / Small · Location of defect: Umbilicus / Right of umbilicus · Herniated viscera: Bowel +/- Liver / Bowel · Sac: Present / Absence · Surgical management: Nonurgent / Urgent · Prognostic factors: Associated anomalies / Condition of bowel + ลายมือ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 113",
+  "kimg": [
+   "fsk_p113",
+   "kp67b_1"
   ]
  },
  "MDCU67|RoB|3": {
-  "interp": "เด็ก 1 ขวบไส้เลื่อนสะดือ 1 cm โป่งเวลาร้อง ยุบเวลาสงบ → ถามการจัดการ",
-  "why": "<b>คีย์: ขีด A + ลายมือ ผ่าเมื่อ >5 yr หรือ >2 cm</b><br><b>นอกสไลด์:</b> รูที่ fascia ของสะดือในเด็กปิดเองได้ส่วนใหญ่เมื่ออายุ 4–5 ปี โดยเฉพาะรูเล็ก และไส้ติดค้างพบน้อยมาก → เฝ้าดู ผ่าตัดเมื่อยังไม่ปิดหลังวัยนั้นหรือรูใหญ่",
+  "interp": "เด็กชาย 1 ปี <b>ก้อนที่สะดือ 1 cm</b> โผล่เวลาร้อง ดันกลับได้เมื่อหยุดร้อง → ถามการจัดการ",
+  "why": "<b>Umbilical hernia ในเด็ก</b> เกิดจาก umbilical ring ปิดไม่สมบูรณ์ · <b>ส่วนใหญ่ปิดเองภายในอายุ ~3 ปี</b> (ring แข็งแรงขึ้น) และ<b>ติดค้าง (incarceration) น้อยมาก</b> → <b>สังเกตอาการ</b> · ผ่าตัดเมื่อ<b>ยังไม่ปิดหลังอายุ ~3–4 ปี</b>หรือ<b>รูใหญ่ &gt; 2 cm</b>หรือมีภาวะติดค้าง · ไฟล์ขีด A ลายมือ <b>\"Sx ถ้า ≥ 3 ขวบ or ≥ 2 cm\"</b> และแปะสไลด์ <b>Umbilical hernia (Spontaneous closure · Indication for surgery: Age older than 3 years · Or Diameter more than 2 cm)</b> พร้อมข้อความตำรา <b>\"ภาวะนี้มักจะหายไปได้เองภายในอายุ 3 ปี\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าไส้เลื่อนสะดือติดค้าง ดันกลับไม่ได้ เจ็บ ผิวหนังแดงคล้ำ หรืออาเจียน (incarceration ซึ่งพบน้อยมากในเด็ก)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้ารูกว้างเกินราว 1.5–2 cm หรือผิวหนังยื่นยาวเป็นงวง (proboscoid) ซึ่งโอกาสปิดเองน้อย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การกดเหรียญหรือรัดสะดือเป็นการรักษา เพราะไม่ได้ทำให้รูของ fascia ปิดเร็วขึ้น และทำให้ผิวหนังระคายหรือเป็นแผล",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่สาร sclerosing ใช้รักษาไส้เลื่อนสะดือ เพราะสารนี้ใช้ทำให้โพรงหลอดเลือดหรือน้ำเหลืองตีบ ไม่ได้ปิดรูของผนังหน้าท้อง"
+   "B": "ผ่าตัดด่วนใช้เมื่อ incarcerated/ strangulated (ก้อนแข็ง เจ็บ ดันไม่กลับ) · จะถูกถ้าก้อนดันไม่เข้า เจ็บ ผิวแดง อาเจียน",
+   "C": "ผ่าตัดนัดใช้เมื่อเกินอายุ ~3–4 ปีหรือรู &gt; 2 cm · จะถูกถ้าเด็ก 5 ปีก้อนยังอยู่ หรือรู 2.5 cm",
+   "D": "การแปะเหรียญ/ รัดสะดือไม่ช่วยให้ปิดเร็วขึ้นและเสี่ยงผิวหนังอักเสบ · จะถูกถ้าคำถามถามความเชื่อพื้นบ้านที่ไม่แนะนำ",
+   "E": "สารทำให้แข็ง (sclerosing) ใช้กับ lymphatic malformation ไม่ใช่ hernia · จะถูกถ้าคำถามถาม macrocystic lymphatic malformation"
   },
-  "trap": "ใช้หลักของไส้เลื่อนขาหนีบ (ผ่าตัดเมื่อวินิจฉัยเพราะติดค้างบ่อย) กับไส้เลื่อนสะดือ — ไส้เลื่อนสะดือในเด็กปิดเองได้และติดค้างน้อย จึงรอได้",
+  "trap": "รีบผ่าตัดเพราะกลัวไส้ติด — umbilical hernia ในเด็กติดค้างน้อยมากและปิดเองส่วนใหญ่",
   "summary": [
-   "<b>นอกสไลด์:</b> ไส้เลื่อนสะดือในเด็ก: พบบ่อยในทารกคลอดก่อนกำหนดและเชื้อสายแอฟริกัน · ผ่าตัดเมื่อ ยังไม่ปิดหลังราว 4–5 ปี · รูกว้างราว > 1.5–2 cm (บางแนวทางผ่าหลังอายุ 2 ปี) · ติดค้าง · มีอาการปวด"
+   "Umbilical hernia เด็ก: ปิดเองส่วนใหญ่ภายใน 3–4 ปี",
+   "Incarceration พบน้อย",
+   "ผ่าตัด: &gt; 3–4 ปี · รู &gt; 1.5–2 cm · incarcerated",
+   "Inguinal hernia เด็ก: ไม่ปิดเอง → ผ่าตัดเมื่อวินิจฉัย",
+   "Epigastric hernia: ไม่ปิดเอง",
+   "ไม่แนะนำแปะเหรียญ/ รัดสะดือ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ไฟล์ใช้เกณฑ์อายุ 3 ปีหรือรู ≥ 2 cm)",
+  "mnemonic": "<b>'สะดือจุ่นเด็ก: รอ 3 (ปี) · ใหญ่ 2 (cm) ผ่า'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Umbilical and other abdominal wall hernias",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกไส้เลื่อนสะดือร่วมลิ้นโต ตัวโตเกินอายุ น้ำตาลในเลือดต่ำ → Beckwith-Wiedemann syndrome: เฝ้าระวังเนื้องอก (Wilms, hepatoblastoma) ด้วย US และ AFP เป็นระยะ",
-   "<b>นอกสไลด์:</b> ทารกตัวเหลืองนาน ท้องผูก ลิ้นโต ไส้เลื่อนสะดือ → hypothyroidism แต่กำเนิด: ตรวจ TSH"
+   "เด็ก 6 ปี สะดือจุ่น 1.5 cm ยังไม่ปิด → elective repair",
+   "เด็ก 2 ปี สะดือจุ่น ก้อนแข็ง เจ็บ ดันไม่เข้า อาเจียน → urgent surgery",
+   "เด็ก 1 ปี ก้อนขาหนีบโผล่เวลาร้อง → inguinal hernia → herniotomy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 113 — ตัวพิมพ์: <b>3. เด็กชายอายุ 1 ปี มาพบแพทย์ที่ OPD ด้วยเรื่องก้อนบริเวณสะดือโดยจะโผล่ออกมาเวลาที่เด็กร้อง และก้อนสามารถดันกลับได้เมื่อหยุดร้อง ก้อนอยู่ตรงกลางสะดือ ขนาด 1 cm ถามว่าควร management อย่างไร — A. ไม่ต้องทำอะไร รอจนกว่าอายุ 4 ขวบ B. Urgent surgery C. Elective surgery D. หาอะไรมาแปะ E. Sclerosing agent</b><br>ลายมือ: ขีด A + \"Sx ถ้า ≥ 3 ขวบ or ≥ 2 cm\"<br>ไฮไลต์: \"เด็กชายอายุ 1 ปี\" \"ก้อนบริเวณสะดือโดยจะโผล่ออกมาเวลาที่เด็กร้อง\" \"ดันกลับได้เมื่อหยุดร้อง\" \"กลางสะดือ\" \"ขนาด 1 cm\" \"management\" · A (เหลือง)<br>รูปที่แปะ: ① สไลด์ Umbilical hernia — Spontaneous closure · Indication for surgery: Age: older than 3 years · Or Diameter more than 2 cm + ภาพ ② ข้อความตำรา \"สะดือจุ่นหรือไส้เลื่อนสะดือ — เป็นภาวะที่เกิดจากการปิดของ umbilical ring ไม่สมบูรณ์ ทำให้เกิดเป็นช่องโหว่ของ rectus sheath บริเวณที่จะเป็นสะดือ … ภาวะนี้มักจะหายไปได้เองภายในอายุ 3 ปี เพราะเมื่อเด็กโตขึ้น umbilical ring จะถูกเสริมให้แข็งแรงขึ้นจากการยึดเกาะของ ligamentum teres hepatic, median umbilical ligament และ umbilical fascia (Richet's fascia) และเนื่องจากจะเกิดภาวะไส้เลื่อนติด (incarcerated umbilical hernia) ได้น้อยมาก\" (ไฮไลต์แดง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 113",
+  "kimg": [
+   "fsk_p113",
+   "kp67b_3"
   ]
  },
  "MDCU67|RoB|4": {
-  "interp": "ทารกน้ำลายฟูม สายสวนกระเพาะขดในคอ + ท้องไม่มีลม (gasless) → ถามชนิดของ esophageal atresia",
-  "why": "<b>คีย์: ขีด A + ลายมือ no distal TEF · type A → delayed repair + gastrostomy</b><br><b>นอกสไลด์:</b> สายขดในคอยืนยัน atresia · ลมจะเข้าท้องได้ทางเดียวคือ fistula จากหลอดลมไปหลอดอาหารส่วนปลาย เมื่อท้องไม่มีลมเลยจึงไม่มี distal fistula = EA ชนิดไม่มี fistula (pure EA) · ปอดกลีบบนขวาแฟบจากสำลักน้ำลายที่ล้นถุงหลอดอาหารส่วนต้น",
+  "interp": "ทารก 2.8 kg <b>น้ำลายมาก</b> หายใจลำบาก <b>ใส่สาย OG ไม่ผ่าน ขดในลำคอ</b> · CXR: <b>RUL atelectasis</b> และ<b>ไม่มีลมในท้อง (gasless abdomen)</b> → ถามการวินิจฉัย",
+  "why": "สาย OG ขดในคอ = <b>esophageal atresia</b> · <b>ไม่มีลมในท้อง</b> = ไม่มีทางให้อากาศจากหลอดลมลงกระเพาะ → <b>ไม่มี distal TEF</b> → <b>pure (isolated) EA without fistula (Gross type A ~7%)</b> · RUL atelectasis จากการสำลักน้ำลายที่ค้างในถุงหลอดอาหารส่วนบน · การรักษา: ปลายสองข้างห่างกันมาก (long gap) → <b>gastrostomy ให้อาหาร + ดูดน้ำลาย</b> แล้วรอ<b>ซ่อมภายหลัง (delayed primary repair)</b> · ไฟล์ขีด A ลายมือ <b>\"∴ no distal TEF\"</b> · <b>\"type A → delayed 1° repair ทำ gastrostomy รอ 6–12 mo ค่อยผ่า\"</b> และแปะตาราง Gross classification",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าใส่สายไม่ผ่านแต่ภาพเห็นลมในกระเพาะและลำไส้ (ลมผ่าน fistula ส่วนปลายเข้ากระเพาะ) — ชนิดที่พบบ่อยที่สุดราว 85%",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าใส่สายลงกระเพาะได้ แต่ทารกไอสำลักทุกครั้งที่กิน ปอดอักเสบซ้ำ ท้องอืดลม (H-type ไม่มี atresia)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าใส่สายไม่ผ่าน มีลมในท้อง และส่องหลอดลมก่อนผ่าตัดพบรูเปิดสองรู (ต่อกับถุงต้นและส่วนปลาย)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าทารกกินนมได้ แต่เริ่มอาเจียนและกลืนลำบากเมื่อเริ่มอาหารข้น ภาพกลืนสารทึบรังสีเห็นตีบที่หลอดอาหารส่วนล่าง"
+   "B": "EA + distal TEF (type C ~86% พบบ่อยที่สุด) จะมี<b>ลมในกระเพาะ/ ลำไส้</b> · จะถูกถ้า CXR พบสาย OG ขดในคอและมีลมในท้อง",
+   "C": "H-type TEF ไม่มี atresia — สาย OG ผ่านลงกระเพาะได้ อาการสำลัก/ ปอดอักเสบซ้ำเวลาดูดนม · จะถูกถ้าเด็กไอสำลักขณะดูดนม ปอดอักเสบซ้ำ ใส่สายได้",
+   "D": "EA + proximal และ distal TEF (type D &lt; 1%) มีลมในท้องจาก distal fistula · จะถูกถ้ามีลมในท้องและส่องกล้องพบรูเชื่อมทั้งสองตำแหน่ง",
+   "E": "Congenital esophageal stricture มักอาการช่วงเริ่มอาหารแข็ง สายผ่านได้บางส่วน · จะถูกถ้าเด็ก 6 เดือนกลืนลำบากเมื่อเริ่มอาหารบด"
   },
-  "trap": "เลือก EA + distal TEF เพราะเป็นชนิดที่พบบ่อยที่สุด (ราว 85%) — ท้องที่ไม่มีลมเลยบอกว่าไม่มี distal fistula จึงเป็น pure EA",
+  "trap": "ตอบ type C เพราะพบบ่อยที่สุด — gasless abdomen ตัด distal TEF ออก",
   "summary": [
-   "<b>นอกสไลด์:</b> ชนิด EA (Gross): pure EA ไม่มี fistula ราว 8% (ท้องไม่มีลม) · EA + fistula ส่วนต้นราว 1% (ท้องไม่มีลม) · EA + fistula ส่วนปลายราว 85% · fistula ทั้งสองส่วนราว 1% · H-type ราว 4% · pure EA มักช่องว่างระหว่างสองปลายยาว (long gap)"
+   "Gross: A pure EA 7% · B proximal TEF 2% · C distal TEF 86% · D both &lt; 1% · E (H) TEF only 4%",
+   "สาย OG ขดในคอ = EA",
+   "ลมในท้อง = มี distal TEF · ไม่มีลม = A หรือ B",
+   "VACTERL: ตรวจหัวใจ (echo — aortic arch) ไต กระดูกสันหลัง แขนขา ทวารหนัก",
+   "Type C: ผูก fistula + ต่อปลายหลอดอาหาร (primary repair)",
+   "Long gap (A): gastrostomy → delayed primary repair/ esophageal replacement"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'สายขดในคอ + ท้องไม่มีลม = Atresia ล้วน (type A)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Esophageal atresia and tracheoesophageal fistula; ERNICA Guidelines on Esophageal Atresia (2021)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก EA ทุกราย → ตรวจหา VACTERL: echo (ดูหัวใจและข้างของ aortic arch ก่อนผ่าตัด) US ไต กระดูกสันหลัง ทวารหนัก และแขน",
-   "<b>นอกสไลด์:</b> ทารก EA ที่มี fistula ส่วนปลาย ใส่ท่อช่วยหายใจแล้วท้องอืดตึงมาก หายใจลำบากขึ้น → ลมจากเครื่องช่วยหายใจไหลผ่าน fistula เข้ากระเพาะ: ผ่าตัดผูก fistula เร่งด่วน"
+   "ทารกน้ำลายฟูมปาก สาย OG ขดในคอ CXR มีลมในกระเพาะ → EA + distal TEF (type C)",
+   "ทารกไอสำลักทุกมื้อ ปอดอักเสบซ้ำ ใส่สายได้ → H-type TEF",
+   "EA + ดูไม่มีทวารหนัก + หัวใจผิดปกติ → VACTERL"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 113 — ตัวพิมพ์: <b>4. A 2.8-kg. neonate with excessive salivation develops respiratory distress. Attempts to pass an orogastric catheter fail because the catheter coils in the back of the throat. A chest film is obtained and shows right upper lobe atelectasis and a gasless abdomen. The most likely diagnosis is? — A. Proximal esophageal atresia without a fistula B. Proximal esophageal atresia with a distal tracheoesophageal (TE) fistula C. \"H-type\" TE fistula D. Esophageal atresia with both proximal and distal TE fistula E. Congenital esophageal stricture</b><br>ลายมือ: \"*\" ที่ coils in the back of the throat และ gasless abdomen · \"∴ no distal TEF\" · ขีด A + \"type A → delayed 1° repair ทำ gastrostomy รอ 6–12 mo ค่อยผ่า\"<br>ไฮไลต์: \"2.8-kg. neonate\" \"excessive salivation\" \"respiratory distress\" \"Attempts to pass an orogastric catheter fail\" \"coils in the back of the throat\" \"right upper lobe atelectasis\" \"gasless abdomen\" \"most likely\" \"diagnosis\" · A (เหลือง)<br>รูปที่แปะ: ① ภาพ Gross classification A B C D H + ตาราง A Isolated EA without tracheoesophageal fistula 7% (2nd) · B EA with proximal TEF 2% · C EA with distal TEF 86% (1st, MC) · D EA with proximal and distal TEF &lt;1% · H TEF without EA 4% + ลายมือ ② สไลด์ Management — Preoperative management: Fluid resuscitation · Environment · Position · Intermittent suction saliva via OG tube ③ Operative management — Immediate primary repair (Most common) · Delayed primary repair — dilated proximal pouch · isolated EA (feeding gastrostomy)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 113",
+  "kimg": [
+   "fsk_p113",
+   "kp67b_4"
   ]
  },
  "MDCU67|RoB|5": {
-  "interp": "ข้อ EXCEPT — หาก้อนที่คอเด็กที่การผ่าตัดเอาออกไม่ใช่การรักษาหลัก",
-  "why": "<b>คีย์: ขีด E + ลายมือ A Sistrunk · B excision · torticollis → physio</b><br><b>นอกสไลด์:</b> sternocleidomastoid tumor (fibromatosis colli) เป็นการหนาตัวเป็นพังผืดของกล้ามเนื้อ SCM ในทารก ยุบเองได้เกือบทั้งหมดด้วยการยืดกล้ามเนื้อ (กายภาพ) — ผ่าตัดคลายกล้ามเนื้อเฉพาะรายที่คอยังเอียงหลังกายภาพนานพอ",
+  "interp": "ถามโรคที่<b>ไม่ได้</b>รักษาหลักด้วยการผ่าตัดเอาออก (excision)",
+  "why": "<b>Sternocleidomastoid tumor (fibromatosis colli)</b> ในทารก → เกิด congenital muscular torticollis · รักษาหลักด้วย<b>กายภาพบำบัด ยืดกล้ามเนื้อ (conservative)</b> ได้ผล &gt; 90% · ผ่าตัด (ตัดยืดกล้ามเนื้อ ไม่ใช่ excision ก้อน) เมื่อยังตึงหลังอายุ ~1 ปี/ มี hemifacial hypoplasia · ส่วน thyroglossal duct cyst (Sistrunk), branchial cleft cyst, cystic hygroma และ dermoid cyst รักษาด้วยการตัดออก · ไฟล์ขีด E ลายมือ <b>\"torticollis\"</b> · A <b>\"Sistrunk operation → excision ตัด hyoid bone\"</b> · B <b>\"ทุก branchial cleft anomaly → excision\"</b> · <b>\"ถ้า long fistula tr. → step ladder incision\"</b> · C, D ✓",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"การตัดออกเป็นการรักษาหลักของ thyroglossal duct cyst\" ผิด เพราะถุงที่ทิ้งไว้ติดเชื้อซ้ำและมีโอกาสเป็นมะเร็งส่วนน้อย — Sistrunk ตัดกลางกระดูก hyoid ไปพร้อมกันเพื่อลดการกลับเป็นซ้ำ",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"การตัดออกเป็นการรักษาหลักของ branchial cleft cyst\" ผิด เพราะถุงและทางเดินที่เหลือไว้ติดเชื้อซ้ำ และการตัดทั้ง tract เป็นวิธีเดียวที่หายขาด",
-   "C": "<b>นอกสไลด์:</b> จะถูก (เป็นข้อที่การตัดไม่ใช่การรักษาหลัก) ถ้าเป็น lymphatic malformation ชนิดถุงใหญ่ (macrocystic) — ฉีดสาร sclerosing (เช่น OK-432, doxycycline, bleomycin) ได้ผลดีและเลี่ยงการบาดเจ็บเส้นประสาท",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"การตัดออกเป็นการรักษาหลักของ dermoid cyst\" ผิด เพราะเป็นถุงที่มีเยื่อบุผิวและอวัยวะผิวหนังอยู่ภายใน ไม่ยุบเอง และโตหรืออักเสบได้"
+   "A": "Thyroglossal duct cyst → Sistrunk (ตัด cyst + กลาง hyoid + ท่อถึงโคนลิ้น) (ลายมือ) · จะถูกถ้าคำถามถามโรคที่รักษาด้วย excision ตัด hyoid ร่วม",
+   "B": "Branchial cleft cyst → excision (fistula ยาวใช้ step-ladder incision) (ลายมือ) · จะถูกถ้าคำถามถามก้อนหน้า SCM ที่ติดเชื้อซ้ำ",
+   "C": "Cystic hygroma (lymphatic malformation) → excision หรือ sclerotherapy (macrocystic) · จะถูกถ้าคำถามถามรอยโรคที่รักษาด้วย sclerotherapy ได้ดี (เป็นข้อที่ใกล้ถูกที่สุดรองจาก E)",
+   "D": "Dermoid cyst → excision · จะถูกถ้าคำถามถามก้อนกลางคอใต้คางที่ไม่ขยับตามการแลบลิ้น"
   },
-  "trap": "เห็นคำว่า tumor แล้วคิดว่าต้องตัดออก — sternocleidomastoid tumor ไม่ใช่เนื้องอกจริง เป็นพังผืดในกล้ามเนื้อที่ยุบเองด้วยกายภาพ",
+  "trap": "เห็น \"tumor\" แล้วคิดว่าต้องตัด — SCM tumor ในทารกคือ fibrosis ของกล้ามเนื้อ รักษาด้วยกายภาพ",
   "summary": [
-   "<b>นอกสไลด์:</b> การรักษาก้อนที่คอเด็ก: thyroglossal duct cyst → Sistrunk · branchial anomaly → ตัดถุงและ tract ทั้งหมด (หลังหายอักเสบ) · lymphatic malformation → macrocystic ฉีด sclerosant / microcystic หรือกดทางเดินหายใจ ผ่าตัด · dermoid → ตัดออก · fibromatosis colli → กายภาพยืดคอ ส่วนใหญ่หายใน 4–6 เดือน"
+   "SCM tumor: ทารก 2–4 สัปดาห์ · ก้อนในกล้ามเนื้อ SCM · torticollis",
+   "รักษา: physiotherapy ยืดกล้ามเนื้อ",
+   "ผ่าตัด: ตึงคงอยู่ &gt; 12 เดือน · hemifacial hypoplasia · วินิจฉัยหลัง 1 ปี",
+   "Thyroglossal duct cyst: Sistrunk",
+   "Branchial cleft: excision ± step-ladder",
+   "Lymphatic malformation: excision/ sclerotherapy (macrocystic)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง — ปัจจุบัน cystic hygroma ชนิดถุงใหญ่ใช้ sclerotherapy เป็นหลักได้เช่นกัน",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'SCM tumor = Stretch ไม่ใช่ Scalpel'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Lesions of the neck; AAP/APTA Clinical Practice Guideline: Congenital Muscular Torticollis (Pediatr Phys Ther 2018;30:240)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก torticollis ทำกายภาพครบราว 1 ปีศีรษะยังเอียง ใบหน้าเริ่มไม่สมมาตร → ผ่าตัดคลายกล้ามเนื้อ SCM",
-   "<b>นอกสไลด์:</b> ก้อนแนวกลางคอขยับขึ้นเวลาแลบลิ้น → US ยืนยันว่ามีต่อมไทรอยด์ปกติในตำแหน่งเดิมก่อนตัด เพราะก้อนอาจเป็นเนื้อไทรอยด์ชิ้นเดียวที่มีอยู่"
+   "ทารก 3 สัปดาห์ ก้อนแข็งในกล้ามเนื้อคอ หน้าเอียง → physiotherapy",
+   "เด็กก้อนกลางคอ ขยับตามการแลบลิ้น → Sistrunk",
+   "ก้อนหน้าขอบ SCM ติดเชื้อซ้ำ → branchial cleft cyst → excision"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 113 — ตัวพิมพ์: <b>5. Excision is the treatment of choice for the following diseases EXCEPT. — A. Thyroglossal duct cyst B. Branchial cleft cyst C. Cystic hygroma D. Dermoid cyst E. Sternocleidomastoid tumor</b><br>ลายมือ: A \"sistrunk operation → excision ตัด hyoid bone\" · B \"ทุก branchial cleft anomaly → excision\" · \"ถ้า long fistula tr. → step ladder incision\" · C ✓ · D ✓ · ขีด E · \"torticollis\"<br>ไฮไลต์: \"Excision\" \"treatment of choice\" \"EXCEPT\" · A–E (เหลือง)<br>รูปที่แปะ: ① สไลด์ Lymphatic Malformations — Treatment: Observation · Surgical resection · Sclerotherapy · macrocystic lesions (in any neck location) are typically more responsive to excision or sclerotherapy than microcystic lesions · Simple observation might be reasonable and appropriate for small malformations or for lesions in risky locations + ภาพเด็ก ② ข้อความตำรา Management — \"ทารกอายุ 1-3 เดือน conservative … ทารกอายุ 4-10 เดือน กล้ามเนื้อเริ่มมี fibrosis … ทารกอายุ 10 เดือนหรือมากกว่า conservative ได้ผลน้อย ต้องรักษาโดยการผ่าตัด …\" ③ สไลด์ Indications for surgery (ลายมือ \"torticollis\") — Persistent sternomastoid tightness limiting head rotation in children more than 12 months of age · Persistent sternomastoid tightness with progressive hemifacial hypoplasia · Diagnosis in children older than 1 year",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 113",
+  "kimg": [
+   "fsk_p113",
+   "kp67b_5"
   ]
  },
  "MDCU67|RoB|6": {
-  "interp": "ทารกแรกเกิดอาเจียนน้ำดี ภาพเห็น double bubble แต่มีลมในลำไส้ส่วนปลาย (อุดไม่สมบูรณ์) → ถามขั้นตอนถัดไป",
-  "why": "<b>คีย์: ขีด B + ลายมือ DDx duodenal stenosis, annular pancreas, malrotation</b><br><b>นอกสไลด์:</b> double bubble ที่ยังมีลมส่วนปลายแปลว่าอุดไม่สมบูรณ์: duodenal stenosis/web, annular pancreas หรือ malrotation ที่ Ladd band กดหรือลำไส้บิด · แยก malrotation with volvulus ซึ่งต้องผ่าตัดด่วนออกก่อนด้วย upper GI contrast ทันที",
+  "interp": "ทารกชายแรกเกิด<b>อาเจียนเป็นน้ำดี</b> ภาพรังสี <b>double bubble มีลมส่วนปลาย</b> ใส่ NG ดูดได้น้ำดี → ถามการจัดการที่เหมาะสม",
+  "why": "Double bubble <b>ที่มีลมส่วนปลาย</b> = อุดกั้นลำไส้เล็กส่วนต้น<b>ไม่สมบูรณ์</b>: duodenal stenosis/ web, annular pancreas หรือ <b>malrotation ± midgut volvulus</b> · อาเจียนน้ำดีในทารกต้อง<b>แยก malrotation with volvulus ก่อนเสมอ</b> (ลำไส้ขาดเลือดได้ในไม่กี่ชั่วโมง) → <b>upper GI contrast study</b> ด่วน (ดูตำแหน่ง duodenojejunal junction/ ligament of Treitz) · ถ้าลมส่วนปลายไม่มีเลย (double bubble ล้วน) = duodenal atresia ผ่าตัดได้โดยไม่ต้องตรวจเพิ่ม · ไฟล์ขีด B ลายมือ <b>\"DDx ① duodenal stenosis ② annular pancreas ③ malrotation → Ix\"</b> และแปะสไลด์ <b>Double bubble with some more gas in the abdomen: Annular pancreas · Duodenal stenosis · Malrotation</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ gastrojejunostomy เป็นการแก้ duodenal obstruction ในทารก เพราะเลี่ยงทั้ง duodenum ทิ้ง duodenum ส่วนต้นเป็นถุงตัน — การแก้มาตรฐานคือต่อ duodenum ข้ามจุดอุด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าทารกท้องอืดมาก ไม่ถ่ายขี้เทา ภาพลำไส้โป่งหลายห่วง (การอุดตันระดับต่ำ) — contrast enema หา microcolon, meconium ileus หรือ Hirschsprung",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า upper GI ยืนยันการอุดที่ duodenum ส่วนที่สามหรือสี่โดยไม่มี malrotation — ต่อ duodenum ส่วนต้นข้ามจุดอุดไปยัง jejunum",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้า upper GI ยืนยัน malrotation (duodenum ไม่ข้ามกลางตัว DJ flexure อยู่ขวาของแนวกลาง)"
+   "A": "Gastrojejunostomy ไม่ใช่การผ่าตัดมาตรฐานของอุดกั้น duodenum ในทารก · จะถูกถ้าคำถามถาม bypass ในผู้ใหญ่ที่มีมะเร็งอุดกั้น gastric outlet",
+   "C": "Contrast enema ใช้กับอุดกั้นลำไส้ส่วนปลาย (Hirschsprung, meconium ileus, atresia ส่วนปลาย) · จะถูกถ้าภาพรังสีพบลำไส้ขยายหลายห่วง ไม่ถ่ายขี้เทา",
+   "D": "Duodenojejunostomy/ duodenoduodenostomy เป็นการผ่าตัดของ duodenal atresia/ stenosis หลังวินิจฉัยแน่นอน · จะถูกถ้า double bubble ไม่มีลมส่วนปลายเลย (duodenal atresia)",
+   "E": "Ladd's procedure ทำเมื่อยืนยัน malrotation (± volvulus) แล้ว · จะถูกถ้า UGI study พบ DJ junction อยู่ขวาของกระดูกสันหลัง/ corkscrew"
   },
-  "trap": "เห็น double bubble แล้วตอบ duodenal atresia จึงเตรียมผ่าตัดแบบไม่ฉุกเฉิน — ลมที่ผ่านไปส่วนปลายบอกว่าอุดไม่สมบูรณ์ ต้องแยก malrotation with volvulus ก่อนเสมอ",
+  "trap": "ผ่าตัดทันทีเหมือน duodenal atresia — มีลมส่วนปลายต้องแยก malrotation ด้วย UGI ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> double bubble: ไม่มีลมส่วนปลาย → duodenal atresia ไม่ต้องตรวจเพิ่ม ผ่าตัดเมื่อพร้อม · มีลมส่วนปลาย → อุดไม่สมบูรณ์ (stenosis/web, annular pancreas, malrotation) ต้องทำ upper GI ทันทีเพราะ volvulus ทำให้ลำไส้ทั้งเส้นตายได้ในไม่กี่ชั่วโมง"
+   "Double bubble ไม่มีลมปลาย → duodenal atresia → duodenoduodenostomy",
+   "Double bubble มีลมปลาย → stenosis · annular pancreas · malrotation → UGI",
+   "อาเจียนน้ำดีในทารก = malrotation/ volvulus จนกว่าจะพิสูจน์ว่าไม่ใช่",
+   "Volvulus + ช็อก/ ท้องอืด → ผ่าตัดทันที (ไม่รอตรวจ)",
+   "Ladd's: detorsion · ตัด Ladd's bands · ขยาย mesentery · appendectomy",
+   "Duodenal atresia สัมพันธ์ Down syndrome"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Double bubble + ลมปลาย = ส่ง UGI หา malrotation'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Duodenal atresia and stenosis; Malrotation",
   "variants": [
-   "<b>นอกสไลด์:</b> upper GI พบ DJ flexure ตำแหน่งปกติ duodenum ส่วนที่สองตีบมีสารผ่านเล็กน้อย → duodenal web/stenosis หรือ annular pancreas: ผ่าตัดแบบไม่ฉุกเฉิน (ตัด web ต้องระวังรูเปิดท่อน้ำดีที่อยู่ใกล้)",
-   "<b>นอกสไลด์:</b> double bubble ร่วมกับทารก Down syndrome → ตรวจ echo หัวใจก่อนผ่าตัด (หัวใจพิการร่วมบ่อย)"
+   "ทารก Down syndrome double bubble ไม่มีลมปลาย → duodenoduodenostomy",
+   "ทารก 5 วันอาเจียนน้ำดีเฉียบพลัน UGI corkscrew → Ladd's procedure ด่วน",
+   "ทารกอาเจียนน้ำดี ท้องอืด ไม่ถ่ายขี้เทา ลำไส้ขยายหลายห่วง → contrast enema"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 113 — ตัวพิมพ์: <b>6. A male newborn infant presents with bilious vomiting. On air-contrast upper GI study shows a \"double bubble\" sign with distal air. A nasogastric tube was placed and suction produces bilious fluid. What is the appropriate management? — A. Gastrojejunostomy B. Upper gastrointestinal study C. Lower gastrointestinal study D. Duodenojejunostomy E. Ladd's procedure</b><br>ลายมือ: \"DDx ① duodenal stenosis ② annular pancreas ③ malrotation\" → ลูกศร \"Ix\" ลงที่ B · ขีด B<br>ไฮไลต์: \"male newborn\" \"bilious vomiting\" \"double bubble sign with distal air\" \"nasogastric tube\" \"bilious fluid\" \"management\" · B (เหลือง)<br>รูปที่แปะ: ① สไลด์ Double bubble with some more gas in the abdomen — Annular pancreas · Duodenal stenosis · Malrotation (ลายมือ \"partial\" \"no volvulus\") + ภาพ X-ray ② สไลด์ Treatment — NG or OG decompression · Intravenous fluid, parenteral nutrition · Operation: Duodenoduodenostomy (diamond-shaped) · Duodenojejunostomy + ภาพ<br>ที่ปรับในเว็บ: ช้อย B/ C เขียนเป็น Upper GI contrast study/ Contrast enema",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 113",
+  "kimg": [
+   "fsk_p113",
+   "kp67b_6"
   ]
  }
 }
