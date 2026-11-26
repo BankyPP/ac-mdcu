@@ -1,0 +1,442 @@
+{
+ "121": {
+  "stem": "A 36-year-old man has a clean 3-cm laceration closed directly with sutures. Roughly how long until the wound has healed enough for routine suture removal?",
+  "opts": [
+   "About 1 day",
+   "About 1 week",
+   "About 4 weeks",
+   "About 3 months",
+   "About 1 year"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 37 — ตัวพิมพ์: <b>Reconstructive Ladder</b> — กล่องเรียงจากล่างขึ้นบน: <b>ALLOW WOUND TO HEAL BY SECONDARY INTENTION → DIRECT TISSUE CLOSURE → SKIN GRAFT → LOCAL TISSUE TRANSFER → REGIONAL TISSUE TRANSFER → FREE TISSUE TRANSFER</b><br>รูปในสไลด์หน้า 37: แผนภาพบันได 6 ขั้นในกรอบสี่เหลี่ยม ลูกศรชี้ขึ้นจากขั้นล่างไปขั้นบน<br>ลายมือ/ไฮไลต์หน้า 37: ไฮไลต์เหลือง หัว \"Reconstructive Ladder\" และชื่อทุกขั้น · ลายมือท้าย DIRECT TISSUE CLOSURE: <b>\"→ ถ้าไม่ disturb f<sup>n</sup> + ไม่ distort anatomy\"</b> · ใต้: <b>\"= เย็บแผล ~1 wk หาย\"</b> · ท้าย SECONDARY INTENTION: <b>\"= ปล่อยหายเอง : อาจต้องทำแผลยาวนานมาก\"</b> · <b>\"· moisture ที่พอเหมาะจะช่วยให้ epithelialization ได้เร็ว\"</b> · ข้างลูกศรจาก SKIN GRAFT ขึ้น LOCAL: <b>\"graft ไม่ได้, bare bone / bare tendon, bony prominence\"</b> · ท้าย LOCAL TISSUE TRANSFER: <b>\"= local flap\"</b> · วงเล็บใหญ่ด้านซ้ายคร่อมตั้งแต่ SKIN GRAFT ถึง FREE TISSUE TRANSFER: <b>\"GP ทำไม่ได้\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p37"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 37 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic",
+   "Trauma"
+  ],
+  "interp": "ชายแผลฉีกขาดสะอาด 3 cm เย็บปิดตรง → ถามราวกี่วันแผลจะติดพอให้ตัดไหมตามปกติ",
+  "why": "แผลที่เย็บปิดตรง (primary intention) ขอบชนกัน ช่องว่างแคบ เซลล์ผิวคลุมแนวแผลใน 1–2 วัน และ collagen เริ่มยึดขอบในสัปดาห์แรก · ลายมือกำกับขั้น direct closure ว่า<b>หายในราว 1 สัปดาห์</b> ซึ่งตรงกับเวลาตัดไหมผิว (ราว 5–7 วันในหลายตำแหน่ง ช้ากว่านั้นที่หลังหรือขา) · แต่ \"หาย\" ในความหมายนี้คือแผลติดพอให้ตัดไหม ความแข็งแรงจริงยังต่ำ (ราว 10% ที่ 1 สัปดาห์) จึงต้องมีไหมชั้นลึกยึดต่อ · สไลด์หน้า 37 ลายมือ <b>\"= เย็บแผล ~1 wk หาย\"</b>",
+  "wrong": {
+   "A": "1 วันขอบแผลยังไม่เชื่อม ตัดไหมแล้วแยก · ไม่มีสถานการณ์ใดที่แผลเย็บปิดตรงติดพอให้ตัดไหมใน 1 วัน",
+   "C": "4 สัปดาห์คือเวลาที่ไหมชั้น dermis ต้องยึดแผล ไม่ใช่เวลาตัดไหมผิว · จะถูกถ้าชายแผลยาวที่ต้นขามีไหมละลายชั้น dermis ซึ่งต้องคงแรงยึดราว 4 สัปดาห์",
+   "D": "3 เดือนนานเกินมาก ไหมผิวที่อยู่นานขนาดนั้นทิ้งรอยถาวร · จะถูกถ้าหญิงแผลเป็นที่แขนยังแดงนูน แพทย์นัดดูการจางของแผลเป็นราว 3 เดือน",
+   "E": "1 ปีคือเวลาที่แผลเป็นเปลี่ยนแปลงจนเกือบคงที่ · จะถูกถ้าชายต้องการตัดแก้แผลเป็นที่ยังแดงนูน แพทย์ให้รอราว 1 ปี"
+  },
+  "trap": "C, D, E เป็นเวลาจริงของกระบวนการแผล (ไหมชั้นลึก การจางของแผลเป็น) — แต่การติดพอให้ตัดไหมผิวคือราว 1 สัปดาห์",
+  "summary": [
+   "<b>Direct tissue closure</b> = เย็บแผล <b>~1 wk หาย</b> (ลายมือหน้า 37)",
+   "ใช้ได้ถ้าไม่ disturb f<sup>n</sup> + ไม่ distort anatomy",
+   "บันได: secondary intention → direct closure → skin graft → local → regional → free",
+   "หาย 1 สัปดาห์ = ติดพอให้ตัดไหม · ความแข็งแรงจริงยังต่ำ ต้องมีไหมชั้นลึก",
+   "Secondary intention = ปล่อยหายเอง ทำแผลนานกว่ามาก"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ลายมือหน้า 37 ตรงตัว · ตำราให้เวลาตัดไหมตามตำแหน่ง (หน้า 3–5 วัน · หนังศีรษะ ลำตัว 7–10 วัน · แขนขา 10–14 วัน) ค่าเฉลี่ยราว 1 สัปดาห์ตรงกับสไลด์",
+  "mnemonic": "<b>'เย็บตรง หนึ่งสัปดาห์ติด'</b>",
+  "guide": "Gottlieb LJ, Krieger LM. From the reconstructive ladder to the reconstructive elevator (Plast Reconstr Surg 1994;93:1503–1504); Grabb and Smith's Plastic Surgery 8th ed. (2020)",
+  "variants": [
+   "หญิงแผลเย็บที่หลังเท้า 1 สัปดาห์ยังแดงแยกเล็กน้อย → แผลที่ขาและเท้าหายช้ากว่า อาจทิ้งไหมนานขึ้น",
+   "ชายแผลเย็บที่หน้าผากสองชั้น → ตัดไหมผิววันที่ 5",
+   "เด็กแผลเย็บที่ข้อพับเข่า → ตัดไหมช้ากว่าปกติและจำกัดการงอช่วงแรก"
+  ]
+ },
+ "122": {
+  "stem": "A 38-year-old motorcyclist has a lower-leg wound with exposed tibia devoid of periosteum. Which is the lowest rung of the reconstructive ladder likely to succeed?",
+  "opts": [
+   "Skin graft",
+   "Local tissue transfer",
+   "Direct tissue closure",
+   "Secondary intention",
+   "Composite graft"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 37 — ตัวพิมพ์: <b>Reconstructive Ladder</b> — กล่องเรียงจากล่างขึ้นบน: <b>ALLOW WOUND TO HEAL BY SECONDARY INTENTION → DIRECT TISSUE CLOSURE → SKIN GRAFT → LOCAL TISSUE TRANSFER → REGIONAL TISSUE TRANSFER → FREE TISSUE TRANSFER</b><br>รูปในสไลด์หน้า 37: แผนภาพบันได 6 ขั้นในกรอบสี่เหลี่ยม ลูกศรชี้ขึ้นจากขั้นล่างไปขั้นบน<br>ลายมือ/ไฮไลต์หน้า 37: ไฮไลต์เหลือง หัว \"Reconstructive Ladder\" และชื่อทุกขั้น · ลายมือท้าย DIRECT TISSUE CLOSURE: <b>\"→ ถ้าไม่ disturb f<sup>n</sup> + ไม่ distort anatomy\"</b> · ใต้: <b>\"= เย็บแผล ~1 wk หาย\"</b> · ท้าย SECONDARY INTENTION: <b>\"= ปล่อยหายเอง : อาจต้องทำแผลยาวนานมาก\"</b> · <b>\"· moisture ที่พอเหมาะจะช่วยให้ epithelialization ได้เร็ว\"</b> · ข้างลูกศรจาก SKIN GRAFT ขึ้น LOCAL: <b>\"graft ไม่ได้, bare bone / bare tendon, bony prominence\"</b> · ท้าย LOCAL TISSUE TRANSFER: <b>\"= local flap\"</b> · วงเล็บใหญ่ด้านซ้ายคร่อมตั้งแต่ SKIN GRAFT ถึง FREE TISSUE TRANSFER: <b>\"GP ทำไม่ได้\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p37"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 37 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic",
+   "Trauma"
+  ],
+  "interp": "คนขี่มอเตอร์ไซค์มีแผลที่ขาส่วนล่างเห็นกระดูก tibia ที่ไม่มีเยื่อหุ้ม → ถามขั้นต่ำสุดของบันไดที่น่าจะได้ผล",
+  "why": "กระดูกที่<b>ไม่มี periosteum</b> ไม่มีเลือดพอให้ graft ติด (graft อาศัยเลือดจากพื้นแผล) · ขั้นล่าง (secondary intention, direct closure, skin graft) จึงไม่ได้ผล · ลายมือระบุตรงตัว: graft ไม่ได้ เห็นกระดูกหรือเอ็นเปลือย หรือกระดูกนูน → <b>ขึ้นไป local flap</b> · ที่ขาส่วนกลางมักใช้กล้ามเนื้อข้างเคียง (เช่น soleus, gastrocnemius) · แผลขาส่วนล่างหนึ่งในสามมักไม่มี local flap ที่พอ ต้องใช้ free flap · สไลด์หน้า 37 ลายมือ <b>\"graft ไม่ได้, bare bone / bare tendon, bony prominence\"</b>",
+  "wrong": {
+   "A": "graft ไม่ติดบนกระดูกที่ไม่มีเยื่อหุ้ม · จะถูกถ้าชายแผลที่ขาเห็นกล้ามเนื้อหรือกระดูกที่ยังมี periosteum ปกคลุม",
+   "C": "แผลที่เปิดเห็นกระดูกจากอุบัติเหตุมักขาดเนื้อเยื่อ ดึงปิดตรงไม่ได้หรือตึงเกิน · จะถูกถ้าชายแผลฉีกขาดที่ขาขอบชนกันได้โดยไม่ตึงและไม่เห็นกระดูก",
+   "D": "กระดูกเปลือยที่ปล่อยไว้จะแห้งตายและติดเชื้อ · จะถูกถ้าหญิงสูงอายุมีแผลตื้นที่ขาไม่เห็นกระดูก ปล่อยหายเองด้วย moist dressing",
+   "E": "composite graft เล็กราว 1 cm ใช้ที่ปีกจมูก · จะถูกถ้าชายมี defect ที่ขอบปีกจมูก 8 mm"
+  },
+  "trap": "A (skin graft) อยู่ล่างกว่าและดูง่ายกว่า — แต่ bare bone คือข้อห้ามของ graft ตามลายมือ",
+  "summary": [
+   "ลายมือหน้า 37: <b>graft ไม่ได้ / bare bone / bare tendon / bony prominence → local flap</b>",
+   "Graft อาศัยเลือดจากพื้นแผล → กระดูกไม่มี periosteum หรือเอ็นไม่มี paratenon = graft ไม่ติด",
+   "บันได: secondary intention → direct closure → skin graft → <b>local</b> → regional → free",
+   "ขาส่วนกลาง: local muscle flap (soleus, gastrocnemius) · ขาส่วนล่าง 1/3: มักต้อง free flap",
+   "ตั้งแต่ skin graft ขึ้นไป \"GP ทำไม่ได้\""
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ลายมือหน้า 37 ตรงตัว · ตำรา (และแนวทาง BOAST/BAPRAS สำหรับกระดูกหน้าแข้งหักแบบเปิด) ระบุว่ากระดูกเปลือยต้องปิดด้วย flap และขาส่วนล่างมักต้องใช้ free flap — ข้อนี้ถามขั้นต่ำสุดตามหลักบันได จึงตอบ local",
+  "mnemonic": "<b>'กระดูกเปลือย graft ไม่ติด → ขึ้น flap'</b>",
+  "guide": "Gottlieb LJ, Krieger LM. From the reconstructive ladder to the reconstructive elevator (Plast Reconstr Surg 1994;93:1503–1504); Grabb and Smith's Plastic Surgery 8th ed. (2020); BOAST/BAPRAS Standards for the management of open fractures (2017)",
+  "variants": [
+   "หญิงแผลที่ส้นเท้าเห็นกระดูก calcaneus → local flap จากฝ่าเท้า",
+   "ชายแผลที่หน้าแข้ง 1/3 ล่างเห็นกระดูกหัก → free flap เพราะไม่มี local flap ที่พอ",
+   "เด็กแผลกว้างที่ขาเห็นกล้ามเนื้อปกติ → skin graft พอ"
+  ]
+ },
+ "123": {
+  "stem": "A 45-year-old man presents to a district hospital with a wound that cannot be closed directly and will need a skin graft. Only a general practitioner is on duty. What is the most appropriate management?",
+  "opts": [
+   "Perform a free flap in the outpatient clinic",
+   "Close the wound directly under high tension anyway",
+   "Refer to a surgeon who can perform grafts",
+   "Harvest a split-thickness graft at the bedside",
+   "Always leave every such wound to granulate"
+  ],
+  "ans": 2,
+  "notes": "สไลด์หน้า 37 — ตัวพิมพ์: <b>Reconstructive Ladder</b> — กล่องเรียงจากล่างขึ้นบน: <b>ALLOW WOUND TO HEAL BY SECONDARY INTENTION → DIRECT TISSUE CLOSURE → SKIN GRAFT → LOCAL TISSUE TRANSFER → REGIONAL TISSUE TRANSFER → FREE TISSUE TRANSFER</b><br>รูปในสไลด์หน้า 37: แผนภาพบันได 6 ขั้นในกรอบสี่เหลี่ยม ลูกศรชี้ขึ้นจากขั้นล่างไปขั้นบน<br>ลายมือ/ไฮไลต์หน้า 37: ไฮไลต์เหลือง หัว \"Reconstructive Ladder\" และชื่อทุกขั้น · ลายมือท้าย DIRECT TISSUE CLOSURE: <b>\"→ ถ้าไม่ disturb f<sup>n</sup> + ไม่ distort anatomy\"</b> · ใต้: <b>\"= เย็บแผล ~1 wk หาย\"</b> · ท้าย SECONDARY INTENTION: <b>\"= ปล่อยหายเอง : อาจต้องทำแผลยาวนานมาก\"</b> · <b>\"· moisture ที่พอเหมาะจะช่วยให้ epithelialization ได้เร็ว\"</b> · ข้างลูกศรจาก SKIN GRAFT ขึ้น LOCAL: <b>\"graft ไม่ได้, bare bone / bare tendon, bony prominence\"</b> · ท้าย LOCAL TISSUE TRANSFER: <b>\"= local flap\"</b> · วงเล็บใหญ่ด้านซ้ายคร่อมตั้งแต่ SKIN GRAFT ถึง FREE TISSUE TRANSFER: <b>\"GP ทำไม่ได้\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p37"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 37 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic",
+   "Trauma"
+  ],
+  "interp": "ชายมาโรงพยาบาลชุมชนด้วยแผลที่เย็บปิดตรงไม่ได้และต้องปลูกผิว มีแต่แพทย์ทั่วไปอยู่เวร → ถามการจัดการที่เหมาะที่สุด",
+  "why": "ลายมือบนบันไดคร่อมตั้งแต่ <b>skin graft ขึ้นไป</b> ว่า \"<b>GP ทำไม่ได้</b>\" — ขั้นที่แพทย์ทั่วไปทำได้คือ secondary intention และ direct closure · เมื่อแผลต้องปลูกผิว สิ่งที่แพทย์ทั่วไปควรทำคือ<b>ล้างแผล ตัดเนื้อตาย ปิด dressing ที่เหมาะ ให้ยาตามข้อบ่งชี้ (เช่น tetanus)</b> แล้ว<b>ส่งต่อศัลยแพทย์</b>ที่ปลูกผิวได้ · ไม่ฝืนดึงปิดตรงทั้งที่ตึง และไม่ทำหัตถการเกินความสามารถ · สไลด์หน้า 37 ลายมือคร่อมขั้นบน <b>\"GP ทำไม่ได้\"</b>",
+  "wrong": {
+   "A": "free flap ต้องใช้ microsurgery ในห้องผ่าตัดโดยผู้เชี่ยวชาญ · ไม่มีสถานการณ์ใดที่ทำ free flap ในห้องตรวจผู้ป่วยนอก",
+   "B": "ดึงปิดตรงทั้งที่ตึงมากทำให้ขอบขาดเลือด แผลแยก หรือดึงโครงสร้างเบี้ยว · ไม่มีสถานการณ์ใดที่ตั้งใจเย็บปิดตรงทั้งที่ตึงสูงเพราะไม่มีผู้ทำ graft",
+   "D": "การตัด STSG ต้องใช้เครื่องมือ (dermatome) ทักษะ และห้องผ่าตัด · จะถูกถ้าชายแผลไฟไหม้กว้างอยู่ในโรงพยาบาลที่มีศัลยแพทย์ตกแต่ง ทำ STSG ในห้องผ่าตัด",
+   "E": "ไม่ใช่ทุกแผลที่ปล่อย granulate ได้ และคำว่า always ผิด · จะถูกถ้าหญิงสูงอายุติดเตียงมีแผลตื้นที่ขมับส่วนเว้า เลือกปล่อยหายเองด้วย moist dressing"
+  },
+  "trap": "E ฟังเหมือนทางออกของแพทย์ทั่วไป — แต่ \"always every wound\" ผิด และแผลที่ต้องปลูกผิวควรส่งต่อ",
+  "summary": [
+   "ลายมือหน้า 37: ตั้งแต่ skin graft ขึ้นไป <b>\"GP ทำไม่ได้\"</b>",
+   "GP ทำได้: secondary intention · direct closure (ถ้าไม่ disturb f<sup>n</sup> + ไม่ distort anatomy)",
+   "ก่อนส่งต่อ: ล้างแผล ตัดเนื้อตาย ปิด dressing ป้องกันบาดทะยัก",
+   "ห้ามดึงปิดตรงทั้งที่ตึงมาก",
+   "บันได: secondary intention → direct closure → skin graft → local → regional → free"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ลายมือหน้า 37 ระบุขอบเขตตรงตัว · ในบริบทไทย แพทย์ทั่วไปบางแห่งได้รับการฝึกตัด STSG แต่หลักการที่ปลอดภัยคือส่งต่อเมื่อเกินความสามารถหรือเครื่องมือ",
+  "mnemonic": "<b>'ถึงขั้นแปะผิว — ส่งต่อ'</b>",
+  "guide": "Gottlieb LJ, Krieger LM. From the reconstructive ladder to the reconstructive elevator (Plast Reconstr Surg 1994;93:1503–1504); Grabb and Smith's Plastic Surgery 8th ed. (2020)",
+  "variants": [
+   "หญิงแผลฉีกขาดที่แขนขอบชนกันได้ → แพทย์ทั่วไปเย็บปิดตรงได้",
+   "ชายแผลที่หลังมือเห็นเอ็น → ล้างแผล ปิดแผลชุ่มชื้น ส่งต่อศัลยแพทย์มือหรือศัลยแพทย์ตกแต่ง",
+   "เด็กแผลถลอกตื้นกว้างที่เข่า → แพทย์ทั่วไปดูแลด้วย moist dressing ให้หายเอง"
+  ]
+ },
+ "124": {
+  "stem": "A 52-year-old man has a sutured abdominal wound and asks why it needs a dressing at all. Which set of functions of a wound dressing is correct?",
+  "opts": [
+   "Barrier, drainage absorption and moisture",
+   "Sterilising the wound, closing it and preventing scars",
+   "Keeping the wound dry, cold and exposed",
+   "Replacing sutures and holding the wound for 4 weeks",
+   "Debriding all wounds and supplying oxygen"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 39 — ตัวพิมพ์: ภาพถ่ายจอ 4 สไลด์: <b>Wound dressing</b> — Provide temporary protective physical barrier · Absorb wound drainage · Provide moisture environment for re-epithelialization · <b>Factor to consider</b> — Viable or necrotic tissue? · Debride all necrotic tissue · Wet or dry wound? · Absorb enough exudate, but still provide moist surface · Dead or open space in the wound? · Needs packing to the base of the wound · Condition of the skin around the wound · <b>Gauze</b> — Oldest and most commonly used dressing · Dries wound surface and stick to the surface → impregnated gauze · Permeable to bacteria · <b>Hydrogel</b> — Donate moisture to the wound · Provide nonadherent cooling surface · Poor absorption · Provide autolytic debridement like moist gauze<br>รูปในสไลด์หน้า 39: รูปในจอ: ชุดอุปกรณ์ทำแผล (ผ้าก๊อซ สำลี ขวดน้ำยา ซองแผ่นปิดแผล) · แผลเนื้อตายที่ขา มีแถบสีวัดขนาด · ผ้าก๊อซพับ · ซอง INTRASITE Gel (Hydrogel Dressing)<br>ลายมือ/ไฮไลต์หน้า 39: ไฮไลต์ม่วงในจอ: \"Provide temporary protective physical barrier\", \"Absorb wound drainage\", \"moisture\", \"Debride all necrotic tissue\", \"Absorb enough exudate, but still provide moist surface\", \"Needs packing to the base of the wound\", \"Permeable to bacteria\", \"Donate moisture to the wound\", \"nonadherent\", \"Poor absorption\" · ลายมือ: ท้าย Debride: <b>\"อย่าให้เป็นแหล่งให้ organism\"</b> · ท้าย packing: <b>\"→ ไม่ให้เกิด dead space\"</b> · ท้าย impregnated gauze: <b>\"e.g. bactigras, vaseline └ ไม่ให้แผลติดกับ gauze\"</b> · ใต้ Permeable to bacteria: <b>\"· ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization\"</b> · ท้าย Poor absorption: <b>\"ให้ moist อย่างเดียว └ ดีกับ open wound ที่ exudate ไม่เยอะ\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p39"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 39 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic",
+   "Surgical infection"
+  ],
+  "interp": "ชายแผลเย็บที่หน้าท้อง ถามว่าทำไมต้องปิดแผล → ถามหน้าที่ของ wound dressing",
+  "why": "หน้าที่ของ wound dressing บนสไลด์มี 3 ข้อ: <b>(1) เป็นเกราะป้องกันชั่วคราว</b> (กันการปนเปื้อนและการกระแทกจนกว่าผิวจะปิด) · <b>(2) ดูดซับสิ่งคัดหลั่งจากแผล</b> · <b>(3) ให้ความชุ่มชื้นเพื่อให้ผิวงอกคลุม</b> · แผลเย็บปิดสนิทมีผิวคลุมแนวแผลใน 1–2 วัน จึงปิด dressing แค่ช่วงแรก · แผลเปิดต้องเลือก dressing ตามสภาพแผลมากขึ้น · สไลด์หน้า 39 <b>Provide temporary protective physical barrier</b> · <b>Absorb wound drainage</b> · <b>Provide moisture environment for re-epithelialization</b>",
+  "wrong": {
+   "B": "dressing ไม่ได้ทำให้แผลปลอดเชื้อ ไม่ได้ปิดแผล และป้องกันแผลเป็นไม่ได้ · ไม่มีสถานการณ์ใดที่ dressing ทำหน้าที่ฆ่าเชื้อ ปิดแผล และกันแผลเป็นแทนการเย็บ",
+   "C": "แผลแห้ง เย็น และเปิดโล่งหายช้า · ไม่มีสถานการณ์ใดที่ dressing ตั้งเป้าให้แผลแห้ง เย็น และเปิดโล่ง",
+   "D": "การยึดแผล 4 สัปดาห์เป็นหน้าที่ของไหมชั้น dermis · จะถูกถ้าชายแผลยาวที่ต้นขามีไหมละลายชั้น dermis ที่ต้องยึดแผลราว 4 สัปดาห์",
+   "E": "dressing ส่วนใหญ่ไม่ได้ตัดเนื้อตายทุกแผล และไม่ได้ให้ออกซิเจน · จะถูกถ้าหญิงมีแผลเท้าเบาหวานที่มีเนื้อตายและต้องตัดเนื้อตายออก (debridement) ก่อนเลือก dressing"
+  },
+  "trap": "D (ยึดแผล 4 สัปดาห์) เป็นหน้าที่จริงในบท แต่ของไหมชั้นลึก ไม่ใช่ dressing",
+  "summary": [
+   "หน้าที่ <b>Wound dressing</b> (หน้า 39): <b>Provide temporary protective physical barrier</b> · <b>Absorb wound drainage</b> · <b>Provide moisture environment for re-epithelialization</b>",
+   "Factor to consider: viable or necrotic · wet or dry · dead space · condition of surrounding skin",
+   "แผลเย็บปิดสนิท: ปิด dressing ช่วงแรก ผิวคลุมแนวแผลใน 1–2 วัน",
+   "แผลเปิด: เลือก dressing ตามปริมาณ exudate และเนื้อตาย",
+   "Gauze: เก่าแก่และใช้มากที่สุด แต่ทำให้ผิวแผลแห้งและติดแผล"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงตัวพิมพ์หน้า 39 · ตำรา wound care ให้คุณสมบัติ dressing ที่ดีเพิ่ม เช่น ไม่ติดแผล ลดความเจ็บตอนเปลี่ยน แลกเปลี่ยนก๊าซได้ ซึ่งสอดคล้องกัน",
+  "mnemonic": "<b>'ปิด–ซับ–ชื้น'</b>",
+  "guide": "Schwartz's Principles of Surgery 11th ed. (2019) — Wound healing (dressings)",
+  "variants": [
+   "หญิงแผลผ่าตัดคลอดเย็บปิดสนิท 2 วัน → ถอด dressing อาบน้ำได้",
+   "ชายแผลเปิดมีน้ำเหลืองมาก → dressing ที่ดูดซับมาก เช่น foam หรือ alginate",
+   "เด็กแผลถลอกตื้นแห้งเป็นสะเก็ด → dressing ที่ให้ความชื้น"
+  ]
+ },
+ "125": {
+  "stem": "A 40-year-old woman with a superficial abrasion asks whether she should leave it uncovered to dry out. Which reply best reflects the aim of modern wound dressing?",
+  "opts": [
+   "Leave it open to the air so a dry scab forms quickly",
+   "Soak it continuously in antiseptic",
+   "Cover it with dry gauze that sticks to the surface",
+   "Apply a free flap if healing is slow",
+   "Cover it to keep it moist so it re-epithelialises"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 39 — ตัวพิมพ์: ภาพถ่ายจอ 4 สไลด์: <b>Wound dressing</b> — Provide temporary protective physical barrier · Absorb wound drainage · Provide moisture environment for re-epithelialization · <b>Factor to consider</b> — Viable or necrotic tissue? · Debride all necrotic tissue · Wet or dry wound? · Absorb enough exudate, but still provide moist surface · Dead or open space in the wound? · Needs packing to the base of the wound · Condition of the skin around the wound · <b>Gauze</b> — Oldest and most commonly used dressing · Dries wound surface and stick to the surface → impregnated gauze · Permeable to bacteria · <b>Hydrogel</b> — Donate moisture to the wound · Provide nonadherent cooling surface · Poor absorption · Provide autolytic debridement like moist gauze<br>รูปในสไลด์หน้า 39: รูปในจอ: ชุดอุปกรณ์ทำแผล (ผ้าก๊อซ สำลี ขวดน้ำยา ซองแผ่นปิดแผล) · แผลเนื้อตายที่ขา มีแถบสีวัดขนาด · ผ้าก๊อซพับ · ซอง INTRASITE Gel (Hydrogel Dressing)<br>ลายมือ/ไฮไลต์หน้า 39: ไฮไลต์ม่วงในจอ: \"Provide temporary protective physical barrier\", \"Absorb wound drainage\", \"moisture\", \"Debride all necrotic tissue\", \"Absorb enough exudate, but still provide moist surface\", \"Needs packing to the base of the wound\", \"Permeable to bacteria\", \"Donate moisture to the wound\", \"nonadherent\", \"Poor absorption\" · ลายมือ: ท้าย Debride: <b>\"อย่าให้เป็นแหล่งให้ organism\"</b> · ท้าย packing: <b>\"→ ไม่ให้เกิด dead space\"</b> · ท้าย impregnated gauze: <b>\"e.g. bactigras, vaseline └ ไม่ให้แผลติดกับ gauze\"</b> · ใต้ Permeable to bacteria: <b>\"· ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization\"</b> · ท้าย Poor absorption: <b>\"ให้ moist อย่างเดียว └ ดีกับ open wound ที่ exudate ไม่เยอะ\"</b><br>สไลด์หน้า 37 — ตัวพิมพ์: <b>Reconstructive Ladder</b> — กล่องเรียงจากล่างขึ้นบน: <b>ALLOW WOUND TO HEAL BY SECONDARY INTENTION → DIRECT TISSUE CLOSURE → SKIN GRAFT → LOCAL TISSUE TRANSFER → REGIONAL TISSUE TRANSFER → FREE TISSUE TRANSFER</b><br>รูปในสไลด์หน้า 37: แผนภาพบันได 6 ขั้นในกรอบสี่เหลี่ยม ลูกศรชี้ขึ้นจากขั้นล่างไปขั้นบน<br>ลายมือ/ไฮไลต์หน้า 37: ไฮไลต์เหลือง หัว \"Reconstructive Ladder\" และชื่อทุกขั้น · ลายมือท้าย DIRECT TISSUE CLOSURE: <b>\"→ ถ้าไม่ disturb f<sup>n</sup> + ไม่ distort anatomy\"</b> · ใต้: <b>\"= เย็บแผล ~1 wk หาย\"</b> · ท้าย SECONDARY INTENTION: <b>\"= ปล่อยหายเอง : อาจต้องทำแผลยาวนานมาก\"</b> · <b>\"· moisture ที่พอเหมาะจะช่วยให้ epithelialization ได้เร็ว\"</b> · ข้างลูกศรจาก SKIN GRAFT ขึ้น LOCAL: <b>\"graft ไม่ได้, bare bone / bare tendon, bony prominence\"</b> · ท้าย LOCAL TISSUE TRANSFER: <b>\"= local flap\"</b> · วงเล็บใหญ่ด้านซ้ายคร่อมตั้งแต่ SKIN GRAFT ถึง FREE TISSUE TRANSFER: <b>\"GP ทำไม่ได้\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p39",
+   "l05_p37"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 39, 37 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic",
+   "Trauma"
+  ],
+  "interp": "หญิงมีแผลถลอกตื้น ถามว่าควรเปิดแผลให้แห้งไหม → ถามหลักของการทำแผลสมัยใหม่",
+  "why": "เซลล์ผิวคลุมแผลได้เร็วเมื่อพื้นแผล<b>ชุ่มชื้น</b> — เคลื่อนข้ามผิวแผลได้ตรง ๆ · แผลที่เปิดให้แห้งเกิดสะเก็ด เซลล์ต้องมุดลอดใต้สะเก็ด หายช้าและแผลเป็นมากกว่า · จึงปิดแผลด้วย dressing ที่<b>รักษาความชื้น</b>แต่ไม่แฉะ เช่น ผ้าก๊อซชุบวาสลีน hydrocolloid หรือ film · ลายมือหน้า 37 ก็เขียนว่าความชื้นที่พอเหมาะช่วยให้ epithelialization เร็ว · สไลด์หน้า 39 <b>Provide moisture environment for re-epithelialization</b>",
+  "wrong": {
+   "A": "สะเก็ดแห้งทำให้ผิวงอกช้าและแผลเป็นมากขึ้น · ไม่มีสถานการณ์ใดที่แผลถลอกหายเร็วที่สุดเมื่อปล่อยให้แห้งเป็นสะเก็ด",
+   "B": "น้ำยาฆ่าเชื้อแช่ต่อเนื่องทำลายเซลล์ที่กำลังงอก · จะถูกถ้าชายมีแผลติดเชื้อมีหนองที่ต้องล้างด้วยน้ำยาเป็นช่วงสั้นร่วมกับการรักษาอื่น",
+   "C": "ผ้าก๊อซแห้งดูดความชื้นออกและติดแผล ดึงผิวใหม่หลุดตอนเปลี่ยน · จะถูกถ้าหญิงมีแผลที่มีหนองมาก ต้องการวัสดุดูดซับมากและเปลี่ยนบ่อย",
+   "D": "free flap เป็นขั้นบนสุดของบันไดสำหรับแผลซับซ้อน ไม่ใช่แผลถลอก · จะถูกถ้าชายแผลหน้าแข้งส่วนล่างเห็นกระดูกที่ไม่มี local flap ใช้ได้"
+  },
+  "trap": "A คือความเชื่อเก่าที่ยังพบบ่อย (\"ให้แผลแห้งจะได้ตกสะเก็ด\") — หลักปัจจุบันคือ moist wound healing",
+  "summary": [
+   "หน้าที่ dressing: <b>Provide moisture environment for re-epithelialization</b>",
+   "Absorb enough exudate, but still provide moist surface",
+   "ลายมือหน้า 37: moisture ที่พอเหมาะจะช่วยให้ epithelialization ได้เร็ว",
+   "แผลแห้งเป็นสะเก็ด → เซลล์มุดลอดใต้ หายช้า แผลเป็นมาก",
+   "แผลถลอกตื้น: ผ้าก๊อซชุบวาสลีน hydrocolloid หรือ film"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตัวพิมพ์หน้า 39 และลายมือหน้า 37 ตรงกัน · หลัก moist wound healing มีหลักฐานตั้งแต่ Winter (1962) และเป็นมาตรฐานในตำรา",
+  "mnemonic": "<b>'แผลชื้นหายไว แผลแห้งตกสะเก็ดช้า'</b>",
+  "guide": "Schwartz's Principles of Surgery 11th ed. (2019) — Wound healing (dressings)",
+  "variants": [
+   "เด็กหกล้มแผลถลอกที่ศอก → ล้างน้ำสะอาด ปิด hydrocolloid หรือผ้าก๊อซชุบวาสลีน",
+   "ชายแผลถลอกที่หน้า → ทาขี้ผึ้งให้ชุ่มชื้น ไม่ปล่อยให้ตกสะเก็ดแข็ง",
+   "หญิงแผลถลอกมีน้ำเหลืองมาก → foam ที่ดูดซับแต่ยังชื้น"
+  ]
+ },
+ "126": {
+  "stem": "A 69-year-old diabetic man has a foot ulcer whose base is covered with black necrotic tissue. Before choosing a dressing, what should be done with this tissue and why?",
+  "opts": [
+   "Keep it as a natural biological dressing",
+   "Cover it with transparent film only",
+   "Graft directly over it",
+   "Pack it dry and leave it for a month",
+   "Debride it, as it feeds organisms"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 39 — ตัวพิมพ์: ภาพถ่ายจอ 4 สไลด์: <b>Wound dressing</b> — Provide temporary protective physical barrier · Absorb wound drainage · Provide moisture environment for re-epithelialization · <b>Factor to consider</b> — Viable or necrotic tissue? · Debride all necrotic tissue · Wet or dry wound? · Absorb enough exudate, but still provide moist surface · Dead or open space in the wound? · Needs packing to the base of the wound · Condition of the skin around the wound · <b>Gauze</b> — Oldest and most commonly used dressing · Dries wound surface and stick to the surface → impregnated gauze · Permeable to bacteria · <b>Hydrogel</b> — Donate moisture to the wound · Provide nonadherent cooling surface · Poor absorption · Provide autolytic debridement like moist gauze<br>รูปในสไลด์หน้า 39: รูปในจอ: ชุดอุปกรณ์ทำแผล (ผ้าก๊อซ สำลี ขวดน้ำยา ซองแผ่นปิดแผล) · แผลเนื้อตายที่ขา มีแถบสีวัดขนาด · ผ้าก๊อซพับ · ซอง INTRASITE Gel (Hydrogel Dressing)<br>ลายมือ/ไฮไลต์หน้า 39: ไฮไลต์ม่วงในจอ: \"Provide temporary protective physical barrier\", \"Absorb wound drainage\", \"moisture\", \"Debride all necrotic tissue\", \"Absorb enough exudate, but still provide moist surface\", \"Needs packing to the base of the wound\", \"Permeable to bacteria\", \"Donate moisture to the wound\", \"nonadherent\", \"Poor absorption\" · ลายมือ: ท้าย Debride: <b>\"อย่าให้เป็นแหล่งให้ organism\"</b> · ท้าย packing: <b>\"→ ไม่ให้เกิด dead space\"</b> · ท้าย impregnated gauze: <b>\"e.g. bactigras, vaseline └ ไม่ให้แผลติดกับ gauze\"</b> · ใต้ Permeable to bacteria: <b>\"· ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization\"</b> · ท้าย Poor absorption: <b>\"ให้ moist อย่างเดียว └ ดีกับ open wound ที่ exudate ไม่เยอะ\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p39"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 39 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic",
+   "Surgical infection"
+  ],
+  "interp": "ชายเบาหวานมีแผลที่เท้า พื้นแผลมีเนื้อตายสีดำ → ถามว่าก่อนเลือก dressing ต้องทำอะไรกับเนื้อตายและทำไม",
+  "why": "ปัจจัยแรกที่สไลด์ให้พิจารณาคือ<b>เนื้อเยื่อยังมีชีวิตหรือตาย</b> · เนื้อตายเป็น<b>แหล่งอาหารให้เชื้อโรค</b> ขวางไม่ให้ granulation และผิวงอก และทำให้ประเมินความลึกของแผลไม่ได้ → ต้อง<b>ตัดเนื้อตายออก (debridement)</b> ก่อน แล้วจึงเลือก dressing ตามแผลที่เหลือ · ในแผลเท้าเบาหวานต้องประเมิน<b>เลือดไหลเวียน</b>ก่อน — ถ้าขาขาดเลือดมาก การตัดเนื้อตายที่แห้งอาจทำให้แผลใหญ่ขึ้นและไม่หาย ต้องแก้หลอดเลือดก่อน · สไลด์หน้า 39 <b>Debride all necrotic tissue</b> · ลายมือ <b>\"อย่าให้เป็นแหล่งให้ organism\"</b>",
+  "wrong": {
+   "A": "เนื้อตายไม่ใช่ dressing ที่ดีในแผลทั่วไป เพราะเป็นแหล่งเชื้อ · จะถูกถ้าชายมีสะเก็ดดำแห้งแข็งไม่มีหนองที่ส้นเท้า และขาขาดเลือดรุนแรงที่ยังแก้หลอดเลือดไม่ได้ — คงสะเก็ดแห้งไว้ก่อน",
+   "B": "film ปิดทับเนื้อตายไม่ได้กำจัดแหล่งเชื้อ และกักความชื้นใต้เนื้อตายจนติดเชื้อ · จะถูกถ้าหญิงแผลถลอกตื้นสะอาดไม่มีเนื้อตาย exudate น้อย ปิดด้วย film ใสเพื่อดูแผล",
+   "C": "graft ไม่ติดบนเนื้อตาย · จะถูกถ้าชายแผลสะอาดที่มี granulation สีแดงดีหลังตัดเนื้อตายครบแล้ว",
+   "D": "อัดผ้าแห้งทิ้งไว้เป็นเดือนทำให้ติดเชื้อและไม่หาย · ไม่มีสถานการณ์ใดที่อัดผ้าแห้งบนเนื้อตายแล้วทิ้งไว้หนึ่งเดือนโดยไม่เปลี่ยน"
+  },
+  "trap": "A ไม่ผิดเสมอ — สะเก็ดแห้งบนขาขาดเลือดคงไว้ได้ แต่โจทย์เป็นแผลเท้าเบาหวานที่ต้องเตรียมพื้นแผล ซึ่งหลักบนสไลด์คือ debride",
+  "summary": [
+   "Factor to consider: <b>Viable or necrotic tissue? → Debride all necrotic tissue</b>",
+   "ลายมือ: อย่าให้เป็นแหล่งให้ organism",
+   "Wet or dry? → Absorb enough exudate, but still provide moist surface",
+   "Dead or open space? → Needs packing to the base of the wound (ไม่ให้เกิด dead space)",
+   "Condition of the skin around the wound",
+   "แผลเท้าเบาหวาน: ประเมินเลือดไหลเวียนก่อน debride — สะเก็ดแห้งบนขาขาดเลือดรุนแรงอาจคงไว้จนแก้หลอดเลือด"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตัวพิมพ์และลายมือหน้า 39 ตรงกัน · แนวทาง IWGDF 2023 แนะนำ sharp debridement ของเนื้อตายในแผลเท้าเบาหวาน แต่ให้ประเมินและแก้ภาวะขาดเลือดก่อนเมื่อขาขาดเลือดรุนแรง · ข้อยกเว้นเรื่องสะเก็ดแห้งไม่ได้อยู่บนสไลด์",
+  "mnemonic": "<b>'เนื้อตาย = อาหารเชื้อ → ตัดก่อน (ถ้าเลือดพอ)'</b>",
+  "guide": "Schwartz's Principles of Surgery 11th ed. (2019) — Wound healing (dressings); IWGDF Guidelines on the prevention and management of diabetes-related foot disease (2023)",
+  "variants": [
+   "หญิงแผลกดทับที่ก้นกบมีเนื้อตายเหลืองเหนียว → debride หรือใช้ hydrogel ช่วยละลายเนื้อตาย",
+   "ชายแผลเท้าเบาหวานมีหนองใต้เนื้อตายและไข้ → debride ด่วนร่วมยาปฏิชีวนะ",
+   "เด็กแผลไฟไหม้ลึกมีเนื้อตายแข็ง → ตัดเนื้อตายแล้วปลูกผิว"
+  ]
+ },
+ "127": {
+  "stem": "A 58-year-old woman has a deep sacral pressure wound with a cavity extending under the edges. How should the dressing be applied to this cavity?",
+  "opts": [
+   "Cover only the surface opening",
+   "Pack it loosely to the wound base",
+   "Seal it with transparent film",
+   "Leave it open without dressing",
+   "Suture the skin edges over the cavity"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 39 — ตัวพิมพ์: ภาพถ่ายจอ 4 สไลด์: <b>Wound dressing</b> — Provide temporary protective physical barrier · Absorb wound drainage · Provide moisture environment for re-epithelialization · <b>Factor to consider</b> — Viable or necrotic tissue? · Debride all necrotic tissue · Wet or dry wound? · Absorb enough exudate, but still provide moist surface · Dead or open space in the wound? · Needs packing to the base of the wound · Condition of the skin around the wound · <b>Gauze</b> — Oldest and most commonly used dressing · Dries wound surface and stick to the surface → impregnated gauze · Permeable to bacteria · <b>Hydrogel</b> — Donate moisture to the wound · Provide nonadherent cooling surface · Poor absorption · Provide autolytic debridement like moist gauze<br>รูปในสไลด์หน้า 39: รูปในจอ: ชุดอุปกรณ์ทำแผล (ผ้าก๊อซ สำลี ขวดน้ำยา ซองแผ่นปิดแผล) · แผลเนื้อตายที่ขา มีแถบสีวัดขนาด · ผ้าก๊อซพับ · ซอง INTRASITE Gel (Hydrogel Dressing)<br>ลายมือ/ไฮไลต์หน้า 39: ไฮไลต์ม่วงในจอ: \"Provide temporary protective physical barrier\", \"Absorb wound drainage\", \"moisture\", \"Debride all necrotic tissue\", \"Absorb enough exudate, but still provide moist surface\", \"Needs packing to the base of the wound\", \"Permeable to bacteria\", \"Donate moisture to the wound\", \"nonadherent\", \"Poor absorption\" · ลายมือ: ท้าย Debride: <b>\"อย่าให้เป็นแหล่งให้ organism\"</b> · ท้าย packing: <b>\"→ ไม่ให้เกิด dead space\"</b> · ท้าย impregnated gauze: <b>\"e.g. bactigras, vaseline └ ไม่ให้แผลติดกับ gauze\"</b> · ใต้ Permeable to bacteria: <b>\"· ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization\"</b> · ท้าย Poor absorption: <b>\"ให้ moist อย่างเดียว └ ดีกับ open wound ที่ exudate ไม่เยอะ\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p39"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 39 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic",
+   "Surgical infection"
+  ],
+  "interp": "หญิงแผลกดทับลึกที่ก้นกบ มีโพรงลอดใต้ขอบแผล → ถามวิธีปิด dressing ในโพรง",
+  "why": "แผลที่มีโพรงหรือช่องว่างใต้ขอบ ถ้าปิดแค่ปากแผล ผิวด้านบนจะปิดก่อนในขณะที่ข้างใต้ยังเป็นโพรง → น้ำเหลืองขัง ติดเชื้อ เป็นฝี · จึงต้อง<b>อัด dressing ลงไปถึงก้นแผลอย่างหลวม ๆ</b> ให้แผลหายจากข้างล่างขึ้นข้างบน · อัดแน่นเกินจะกดเนื้อเยื่อและขัดเลือด · วัสดุที่นิยม: alginate หรือ hydrofiber (ดูดซับดี) · สไลด์หน้า 39 <b>Needs packing to the base of the wound</b> · ลายมือ <b>\"→ ไม่ให้เกิด dead space\"</b>",
+  "wrong": {
+   "A": "ปิดแค่ปากแผลทำให้ผิวด้านบนปิดก่อน โพรงข้างใต้ยังอยู่ · จะถูกถ้าชายแผลตื้นเรียบไม่มีโพรงใต้ขอบ ปิดด้วย dressing บนผิวแผลก็พอ",
+   "C": "film ใสไม่ดูดซับ ปิดโพรงที่มีน้ำเหลืองไม่ได้ · จะถูกถ้าหญิงแผลถลอกตื้นสะอาด exudate น้อย ต้องการดูแผลผ่าน film",
+   "D": "เปิดโล่งไม่ดูดซับและแผลแห้ง · ไม่มีสถานการณ์ใดที่แผลกดทับลึกเป็นโพรงถูกปล่อยเปิดโดยไม่มี dressing",
+   "E": "เย็บผิวปิดทับโพรงที่มีเชื้อทำให้เกิดฝี · จะถูกถ้าชายแผลกดทับที่ล้างสะอาดและตัดโพรงออกหมดแล้ว ปิดด้วย flap ในห้องผ่าตัด"
+  },
+  "trap": "A ดูประหยัดและสะอาด — แต่ปิดแค่ปากแผลคือการสร้าง dead space ใต้ผิว",
+  "summary": [
+   "Dead or open space in the wound? → <b>Needs packing to the base of the wound</b>",
+   "ลายมือ: <b>→ ไม่ให้เกิด dead space</b>",
+   "อัดหลวม ๆ ให้แผลหายจากข้างล่างขึ้นข้างบน · อัดแน่นเกินกดเนื้อเยื่อ",
+   "วัสดุอัดโพรง: alginate · hydrofiber (Deep/Tunneling wounds ในตารางหน้า 41)",
+   "Factor to consider อื่น: viable or necrotic · wet or dry · condition of surrounding skin"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตัวพิมพ์และลายมือหน้า 39 ตรงกัน · ตำราแนะนำอัดโพรงหลวม ๆ และพิจารณา negative pressure wound therapy สำหรับแผลกดทับลึก ซึ่งสไลด์ไม่ได้กล่าวถึง",
+  "mnemonic": "<b>'มีโพรง อัดถึงก้น — หายจากล่างขึ้นบน'</b>",
+  "guide": "Schwartz's Principles of Surgery 11th ed. (2019) — Wound healing (dressings)",
+  "variants": [
+   "ชายฝีที่ก้นหลังผ่าระบาย → อัดผ้าหลวม ๆ ลงโพรงทุกวัน",
+   "หญิงแผลผ่าตัดหน้าท้องแยกเป็นโพรงลึก → อัด alginate หรือใช้ negative pressure",
+   "เด็กแผลตื้นเรียบที่เข่า → ไม่ต้องอัด ปิดผิวแผลด้วย dressing ชุ่มชื้น"
+  ]
+ },
+ "128": {
+  "stem": "A 45-year-old man has a graft donor site dressed with plain gauze. At the dressing change the gauze is stuck to the surface and tears new epithelium. Which modification is most appropriate?",
+  "opts": [
+   "Use vaseline-impregnated gauze",
+   "Use more layers of plain dry gauze",
+   "Leave the donor site exposed to air",
+   "Use an alginate on the dry surface",
+   "Change the gauze every hour"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 39 — ตัวพิมพ์: ภาพถ่ายจอ 4 สไลด์: <b>Wound dressing</b> — Provide temporary protective physical barrier · Absorb wound drainage · Provide moisture environment for re-epithelialization · <b>Factor to consider</b> — Viable or necrotic tissue? · Debride all necrotic tissue · Wet or dry wound? · Absorb enough exudate, but still provide moist surface · Dead or open space in the wound? · Needs packing to the base of the wound · Condition of the skin around the wound · <b>Gauze</b> — Oldest and most commonly used dressing · Dries wound surface and stick to the surface → impregnated gauze · Permeable to bacteria · <b>Hydrogel</b> — Donate moisture to the wound · Provide nonadherent cooling surface · Poor absorption · Provide autolytic debridement like moist gauze<br>รูปในสไลด์หน้า 39: รูปในจอ: ชุดอุปกรณ์ทำแผล (ผ้าก๊อซ สำลี ขวดน้ำยา ซองแผ่นปิดแผล) · แผลเนื้อตายที่ขา มีแถบสีวัดขนาด · ผ้าก๊อซพับ · ซอง INTRASITE Gel (Hydrogel Dressing)<br>ลายมือ/ไฮไลต์หน้า 39: ไฮไลต์ม่วงในจอ: \"Provide temporary protective physical barrier\", \"Absorb wound drainage\", \"moisture\", \"Debride all necrotic tissue\", \"Absorb enough exudate, but still provide moist surface\", \"Needs packing to the base of the wound\", \"Permeable to bacteria\", \"Donate moisture to the wound\", \"nonadherent\", \"Poor absorption\" · ลายมือ: ท้าย Debride: <b>\"อย่าให้เป็นแหล่งให้ organism\"</b> · ท้าย packing: <b>\"→ ไม่ให้เกิด dead space\"</b> · ท้าย impregnated gauze: <b>\"e.g. bactigras, vaseline └ ไม่ให้แผลติดกับ gauze\"</b> · ใต้ Permeable to bacteria: <b>\"· ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization\"</b> · ท้าย Poor absorption: <b>\"ให้ moist อย่างเดียว └ ดีกับ open wound ที่ exudate ไม่เยอะ\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p39"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 39 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic"
+  ],
+  "interp": "ชายปิด donor site ของ graft ด้วยผ้าก๊อซธรรมดา ตอนเปลี่ยนผ้าก๊อซติดผิวแผลและฉีกเยื่อบุผิวใหม่ → ถามการปรับที่เหมาะที่สุด",
+  "why": "ผ้าก๊อซธรรมดา<b>ทำให้ผิวแผลแห้งและติดกับแผล</b> พอเปลี่ยนจะดึงเซลล์ผิวที่เพิ่งงอกหลุด เจ็บ และหายช้า · แก้ด้วย<b>ผ้าก๊อซชุบสารไม่ติดแผล (impregnated gauze)</b> เช่น ผ้าก๊อซชุบวาสลีน หรือ Bactigras (ชุบพาราฟินและ chlorhexidine) เป็นชั้นสัมผัสแผล แล้ววางผ้าก๊อซดูดซับไว้ด้านบน · donor site ของ STSG ยังมีน้ำเหลืองช่วงแรก จึงต้องทั้งไม่ติดและดูดซับได้ · สไลด์หน้า 39 <b>Dries wound surface and stick to the surface→ impregnated gauze</b> · ลายมือ <b>\"e.g. bactigras, vaseline └ ไม่ให้แผลติดกับ gauze\"</b>",
+  "wrong": {
+   "B": "ผ้าก๊อซแห้งหลายชั้นยิ่งดูดความชื้นออกและติดแผลมากขึ้น · ไม่มีสถานการณ์ใดที่เพิ่มชั้นผ้าก๊อซแห้งเพื่อแก้ปัญหาผ้าติดแผล",
+   "C": "เปิดโล่งให้ donor แห้งเป็นสะเก็ด เจ็บและหายช้า · ไม่มีสถานการณ์ใดที่การปล่อย donor site ของ STSG ให้แห้งโล่งเป็นวิธีแก้ผ้าติดแผลที่ดีกว่า impregnated gauze",
+   "D": "alginate ต้องการความชื้นจาก exudate เพื่อกลายเป็นเจล บนผิวแห้งจะติดแผล · จะถูกถ้าหญิงแผลลึกมี exudate มากต้องการวัสดุดูดซับ",
+   "E": "เปลี่ยนทุกชั่วโมงเพิ่มการบาดเจ็บของผิวใหม่และเจ็บ · ไม่มีสถานการณ์ใดที่เปลี่ยนผ้าก๊อซบน donor site ทุกชั่วโมง"
+  },
+  "trap": "D (alginate) เป็น dressing สมัยใหม่ที่ฟังดีกว่า — แต่ใช้กับแผลที่ exudate มาก บนผิวแห้งกลับติดแผล",
+  "summary": [
+   "<b>Gauze</b>: Oldest and most commonly used dressing · <b>Dries wound surface and stick to the surface → impregnated gauze</b>",
+   "ลายมือ: e.g. <b>bactigras, vaseline</b> → ไม่ให้แผลติดกับ gauze",
+   "Gauze: Permeable to bacteria · ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization",
+   "ใช้ impregnated gauze เป็นชั้นสัมผัส แล้ววางผ้าก๊อซดูดซับด้านบน",
+   "Alginate: good absorption → good for exudative wound · do not use on dry wound (หน้า 40)"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตัวพิมพ์และลายมือหน้า 39 ตรงตัว · ตำราใช้ผ้าก๊อซชุบสาร (paraffin, xeroform) หรือ dressing สมัยใหม่ (hydrocolloid, film, foam) กับ donor site ของ STSG ซึ่งหายเร็วและเจ็บน้อยกว่าผ้าก๊อซแห้ง",
+  "mnemonic": "<b>'ผ้าก๊อซติดแผล → ชุบวาสลีน'</b>",
+  "guide": "Schwartz's Principles of Surgery 11th ed. (2019) — Wound healing (dressings)",
+  "variants": [
+   "เด็กแผลถลอกปิดผ้าก๊อซแห้งแล้วร้องไห้ทุกครั้งที่เปลี่ยน → เปลี่ยนเป็นผ้าก๊อซชุบวาสลีน",
+   "หญิงแผลไฟไหม้ตื้นที่แขน → Bactigras เป็นชั้นสัมผัส ทับด้วยผ้าก๊อซดูดซับ",
+   "ชาย donor site มีน้ำเหลืองมากวันแรก → ชั้นไม่ติดแผล + ผ้าดูดซับหนาด้านบน"
+  ]
+ },
+ "129": {
+  "stem": "A 63-year-old woman's open wound is dressed with plain dry gauze. Which pair of limitations of this dressing is correct?",
+  "opts": [
+   "It is impermeable to bacteria and too moist",
+   "It is very expensive and needs a secondary dressing",
+   "It causes gel and smell",
+   "Lets bacteria through and gives no moisture",
+   "It is cytotoxic like silver"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 39 — ตัวพิมพ์: ภาพถ่ายจอ 4 สไลด์: <b>Wound dressing</b> — Provide temporary protective physical barrier · Absorb wound drainage · Provide moisture environment for re-epithelialization · <b>Factor to consider</b> — Viable or necrotic tissue? · Debride all necrotic tissue · Wet or dry wound? · Absorb enough exudate, but still provide moist surface · Dead or open space in the wound? · Needs packing to the base of the wound · Condition of the skin around the wound · <b>Gauze</b> — Oldest and most commonly used dressing · Dries wound surface and stick to the surface → impregnated gauze · Permeable to bacteria · <b>Hydrogel</b> — Donate moisture to the wound · Provide nonadherent cooling surface · Poor absorption · Provide autolytic debridement like moist gauze<br>รูปในสไลด์หน้า 39: รูปในจอ: ชุดอุปกรณ์ทำแผล (ผ้าก๊อซ สำลี ขวดน้ำยา ซองแผ่นปิดแผล) · แผลเนื้อตายที่ขา มีแถบสีวัดขนาด · ผ้าก๊อซพับ · ซอง INTRASITE Gel (Hydrogel Dressing)<br>ลายมือ/ไฮไลต์หน้า 39: ไฮไลต์ม่วงในจอ: \"Provide temporary protective physical barrier\", \"Absorb wound drainage\", \"moisture\", \"Debride all necrotic tissue\", \"Absorb enough exudate, but still provide moist surface\", \"Needs packing to the base of the wound\", \"Permeable to bacteria\", \"Donate moisture to the wound\", \"nonadherent\", \"Poor absorption\" · ลายมือ: ท้าย Debride: <b>\"อย่าให้เป็นแหล่งให้ organism\"</b> · ท้าย packing: <b>\"→ ไม่ให้เกิด dead space\"</b> · ท้าย impregnated gauze: <b>\"e.g. bactigras, vaseline └ ไม่ให้แผลติดกับ gauze\"</b> · ใต้ Permeable to bacteria: <b>\"· ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization\"</b> · ท้าย Poor absorption: <b>\"ให้ moist อย่างเดียว └ ดีกับ open wound ที่ exudate ไม่เยอะ\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p39"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 39 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic",
+   "Surgical infection"
+  ],
+  "interp": "หญิงแผลเปิดปิดด้วยผ้าก๊อซแห้งธรรมดา → ถามคู่ข้อจำกัดที่ถูกต้องของ dressing นี้",
+  "why": "ผ้าก๊อซเป็นใยผ้าเปิด เมื่อเปียกเชื้อโรคผ่านได้ (<b>Permeable to bacteria</b>) และผ้าก๊อซแห้ง<b>ไม่ให้ความชื้น</b>แก่แผล กลับดูดความชื้นออกจนผิวแผลแห้งและติดผ้า · จึงไม่เหมาะกับแผลเปิดที่ต้องการให้ผิวงอก · ข้อดีคือถูก หาง่าย ดูดซับได้ และใช้อัดโพรงได้ · สไลด์หน้า 39 <b>Permeable to bacteria</b> · ลายมือ <b>\"· ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization\"</b>",
+  "wrong": {
+   "A": "ผ้าก๊อซให้เชื้อผ่านได้และทำให้แผลแห้ง ตรงข้ามทั้งสองข้อ · ไม่มีสถานการณ์ใดที่ผ้าก๊อซแห้งกันเชื้อได้และชื้นเกินไป",
+   "B": "ผ้าก๊อซราคาถูก · จะถูกถ้าหญิงแผลปิดด้วย alginate ซึ่งต้องมี dressing ชั้นที่สองยึดไว้ (Require secondary dressing) — แต่ alginate ราคาไม่ได้ถูกที่สุด",
+   "C": "เจลและกลิ่นเป็นข้อควรเตือนของ hydrocolloid · จะถูกถ้าชายแผลปิดด้วย hydrocolloid หลายวัน ตอนเปิดพบเจลสีเหลืองมีกลิ่นซึ่งไม่ใช่หนอง",
+   "E": "การเป็นพิษต่อเซลล์เป็นข้อเสียของ antimicrobial dressing · จะถูกถ้าหญิงแผลติดเชื้อปิดด้วย silver dressing แล้วผิวงอกช้า"
+  },
+  "trap": "C และ E เป็นข้อเสียจริงของ dressing ชนิดอื่นบนหน้า 40–41 — ผ้าก๊อซมีข้อเสียคือเชื้อผ่านได้และไม่ให้ความชื้น",
+  "summary": [
+   "<b>Gauze</b>: oldest and most commonly used · dries wound surface and sticks → impregnated gauze",
+   "<b>Permeable to bacteria</b>",
+   "ลายมือ: <b>ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization</b>",
+   "ข้อดี: ถูก หาง่าย ดูดซับได้ ใช้อัดโพรงได้",
+   "Impregnated gauze (bactigras, vaseline) แก้ปัญหาติดแผล"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตัวพิมพ์และลายมือหน้า 39 ตรงกัน · ตำราระบุข้อจำกัดของผ้าก๊อซเรื่องติดแผล แผลแห้ง และกันเชื้อไม่ได้เมื่อเปียก ตรงกัน",
+  "mnemonic": "<b>'ก๊อซ: เชื้อผ่าน แผลแห้ง'</b>",
+  "guide": "Schwartz's Principles of Surgery 11th ed. (2019) — Wound healing (dressings)",
+  "variants": [
+   "ชายแผลเปิดปิดผ้าก๊อซแห้งแล้วแผลแห้งเป็นสะเก็ด → เปลี่ยนเป็น dressing ที่ให้ความชื้น",
+   "หญิงแผลมีโพรงลึก → ผ้าก๊อซชุบน้ำเกลืออัดหลวม ๆ ก็ใช้ได้ถ้าไม่มี alginate",
+   "เด็กแผลเย็บปิดสนิท → ผ้าก๊อซแห้งปิด 1–2 วันพอ"
+  ]
+ },
+ "130": {
+  "stem": "A 71-year-old man has a dry wound covered with yellow slough and minimal exudate. The team wants a dressing that donates moisture and promotes autolytic debridement. Which dressing fits best?",
+  "opts": [
+   "Alginate",
+   "Foam",
+   "Plain dry gauze",
+   "Hydrofiber",
+   "Hydrogel"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 39 — ตัวพิมพ์: ภาพถ่ายจอ 4 สไลด์: <b>Wound dressing</b> — Provide temporary protective physical barrier · Absorb wound drainage · Provide moisture environment for re-epithelialization · <b>Factor to consider</b> — Viable or necrotic tissue? · Debride all necrotic tissue · Wet or dry wound? · Absorb enough exudate, but still provide moist surface · Dead or open space in the wound? · Needs packing to the base of the wound · Condition of the skin around the wound · <b>Gauze</b> — Oldest and most commonly used dressing · Dries wound surface and stick to the surface → impregnated gauze · Permeable to bacteria · <b>Hydrogel</b> — Donate moisture to the wound · Provide nonadherent cooling surface · Poor absorption · Provide autolytic debridement like moist gauze<br>รูปในสไลด์หน้า 39: รูปในจอ: ชุดอุปกรณ์ทำแผล (ผ้าก๊อซ สำลี ขวดน้ำยา ซองแผ่นปิดแผล) · แผลเนื้อตายที่ขา มีแถบสีวัดขนาด · ผ้าก๊อซพับ · ซอง INTRASITE Gel (Hydrogel Dressing)<br>ลายมือ/ไฮไลต์หน้า 39: ไฮไลต์ม่วงในจอ: \"Provide temporary protective physical barrier\", \"Absorb wound drainage\", \"moisture\", \"Debride all necrotic tissue\", \"Absorb enough exudate, but still provide moist surface\", \"Needs packing to the base of the wound\", \"Permeable to bacteria\", \"Donate moisture to the wound\", \"nonadherent\", \"Poor absorption\" · ลายมือ: ท้าย Debride: <b>\"อย่าให้เป็นแหล่งให้ organism\"</b> · ท้าย packing: <b>\"→ ไม่ให้เกิด dead space\"</b> · ท้าย impregnated gauze: <b>\"e.g. bactigras, vaseline └ ไม่ให้แผลติดกับ gauze\"</b> · ใต้ Permeable to bacteria: <b>\"· ไม่ provide moisture → ไม่เหมาะกับ open wound ที่ต้องการ epithelization\"</b> · ท้าย Poor absorption: <b>\"ให้ moist อย่างเดียว └ ดีกับ open wound ที่ exudate ไม่เยอะ\"</b><br>สัญลักษณ์คณะ: ไม่มีในหน้าที่อ้าง (ไฟล์นี้มี ❌ คณะ ไม่ออก เฉพาะหน้า 18 และ 22)",
+  "kimg": [
+   "l05_p39"
+  ],
+  "src": "L05 Basic plastic surgery · หน้า 39 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + ลายมือ + ไฮไลต์ + รูป",
+  "tags": [
+   "Plastic"
+  ],
+  "interp": "ชายแผลแห้งมีเนื้อตายสีเหลือง (slough) exudate น้อย ทีมต้องการ dressing ที่ให้ความชื้นและช่วยละลายเนื้อตายด้วยกลไกของร่างกาย → ถามชนิด · จุดหลอก: เลือกวัสดุดูดซับซึ่งทำให้แผลแห้งยิ่งขึ้น",
+  "why": "<b>Hydrogel</b> มีน้ำเป็นส่วนใหญ่ <b>ให้ความชื้นแก่แผล (donate moisture)</b> และ<b>ช่วย autolytic debridement</b> — เอนไซม์ในแผลเองย่อยเนื้อตายได้ดีขึ้นเมื่อแผลชุ่มชื้น · ผิวไม่ติดแผล ให้ความเย็นสบาย · แต่<b>ดูดซับได้น้อย</b> จึงเหมาะกับแผลที่ exudate น้อยหรือแผลแห้ง · ส่วน alginate, foam, hydrofiber เป็นวัสดุดูดซับที่ใช้กับแผล exudate มาก บนแผลแห้งจะดูดความชื้นออกจนแห้งยิ่งขึ้น · สไลด์หน้า 39 <b>Donate moisture to the wound</b> · <b>Provide autolytic debridement like moist gauze</b>",
+  "wrong": {
+   "A": "alginate ดูดซับมาก ห้ามใช้กับแผลแห้งหรือ exudate น้อย · จะถูกถ้าหญิงแผลลึกมีน้ำเหลืองมาก ต้องการวัสดุดูดซับและอัดโพรง",
+   "B": "foam ดูดซับ exudate เร็ว ห้ามใช้กับแผลแห้ง · จะถูกถ้าชายแผล granulation ดีมี exudate ปานกลางถึงมาก",
+   "C": "ผ้าก๊อซแห้งทำให้แผลแห้งยิ่งขึ้นและติดแผล · จะถูกถ้าหญิงแผลเย็บปิดสนิทต้องการแค่ปิดกันกระแทก 1–2 วัน",
+   "D": "hydrofiber ดูดซับ exudate มากเหมือน alginate · จะถูกถ้าชายแผลลึกเป็นโพรงมี exudate มาก"
+  },
+  "trap": "A, B, D เป็น dressing สมัยใหม่ที่ฟังดี แต่ทั้งหมดดูดซับ — แผลแห้งต้องการวัสดุที่ \"ให้\" ความชื้น = hydrogel",
+  "summary": [
+   "<b>Hydrogel</b>: Donate moisture to the wound · Provide nonadherent cooling surface",
+   "<b>Poor absorption</b> → ลายมือ: ให้ moist อย่างเดียว · ดีกับ open wound ที่ exudate ไม่เยอะ",
+   "<b>Provide autolytic debridement like moist gauze</b>",
+   "Alginate / hydrofiber / foam: ดูดซับมาก → แผล exudate มาก · ห้ามใช้กับแผลแห้ง (หน้า 40)",
+   "Sloughing wounds (ตารางหน้า 41): protease-lowering หรือ enzymatic dressings · hydrogels · hydrocolloids"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตัวพิมพ์และลายมือหน้า 39 ตรงกัน · ตำรา wound care ใช้ hydrogel เป็นตัวเลือกหลักของแผลแห้งที่มี slough หรือ eschar ตรงกัน",
+  "mnemonic": "<b>'แผลแห้งมีเนื้อตาย → ให้น้ำด้วย hydrogel'</b>",
+  "guide": "Schwartz's Principles of Surgery 11th ed. (2019) — Wound healing (dressings)",
+  "variants": [
+   "หญิงแผลกดทับมีสะเก็ดดำแห้ง เลือดเลี้ยงดี → hydrogel ช่วยให้สะเก็ดนุ่มก่อนตัดออก",
+   "ชายแผลไฟไหม้ตื้นแสบร้อน → hydrogel ให้ความเย็นและชุ่มชื้น",
+   "เด็กแผลมีน้ำเหลืองไหลเยิ้ม → hydrogel ไม่เหมาะ ใช้ foam หรือ alginate"
+  ]
+ }
+}
