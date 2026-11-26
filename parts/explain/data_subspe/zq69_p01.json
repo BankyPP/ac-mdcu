@@ -1,213 +1,377 @@
 {
  "MDCU69|RoA|1": {
-  "interp": "ชายไทย 40 ปี ปวดสีข้างขวาเป็นพัก ๆ 1 ปี US พบ simple renal cyst 6 cm ไม่มีไตบวมน้ำ ไม่มีนิ่ว · ถามการรักษา",
-  "why": "<b>คีย์: ขีด D · ลายมือ Bosniak I · สไลด์ treatment</b><br><b>นอกสไลด์:</b> simple cyst (Bosniak I) ไม่กลายเป็นมะเร็ง · ผู้ป่วยนี้ปวดเรื้อรังจากถุงน้ำใหญ่ → laparoscopic unroofing (ตัดผนังถุงที่ยื่นนอกไตออก) ได้ผลถาวรที่สุด",
+  "interp": "ชายไทย 40 ปี <b>ปวดหลังขวาเป็น ๆ หาย ๆ 1 ปี</b> US พบ <b>simple renal cyst 6 cm</b> ไม่มี hydronephrosis ไม่มีนิ่ว → ถามการรักษา",
+  "why": "Simple renal cyst (<b>Bosniak I</b>) ไม่ร้าย ส่วนใหญ่ไม่ต้องรักษาหรือติดตาม · รักษาเฉพาะเมื่อ<b>มีอาการ</b> (ปวด อุดตัน ติดเชื้อ ความดันสูงจากการกด) · เมื่อปวดและคิดว่ามาจาก cyst ขนาดใหญ่ → <b>laparoscopic cyst unroofing (decortication)</b> ได้ผลดีที่สุด กลับเป็นซ้ำน้อย (&lt; 10%) · การเจาะดูดอย่างเดียวกลับเป็นซ้ำสูงมาก (&gt; 80%) · เจาะ + ฉีด sclerosant ดีขึ้นแต่ยังกลับเป็นซ้ำมากกว่า · ไฟล์ขีด D ลายมือ <b>\"Bosniak I\"</b> และ <b>\"ดีสุด\"</b> ท้ายช้อย D พร้อมแปะสไลด์ <b>\"TREATMENT · No treatment · Surveillance not necessary · If symptomatic: Aspiration, Sclerosing therapy, Unroof renal cyst\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าพบ simple cyst โดยบังเอิญ ไม่มีอาการ ไม่กดทางเดินปัสสาวะ — ไม่ต้องรักษาหรือติดตาม",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ายังไม่แน่ใจว่าอาการปวดมาจากถุงน้ำ — เจาะดูดเพื่อดูว่าปวดหายไหมก่อนตัดสินผ่าตัด (ดูดอย่างเดียวเป็นซ้ำเกือบทุกราย)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยมีอาการจากถุงน้ำแต่ไม่พร้อมดมยาหรือผ่าตัด — เจาะดูดร่วมฉีดสาร sclerosant ทางผิวหนัง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นถุงน้ำซับซ้อน Bosniak IV ที่ตัดแบบเก็บเนื้อไตไม่ได้ หรือไตข้างนั้นไม่ทำงานแล้ว"
+   "A": "รักษาตามอาการอย่างเดียวเหมาะกับ cyst ที่ไม่มีอาการหรืออาการไม่สัมพันธ์ · จะถูกถ้าพบ simple cyst 4 cm โดยบังเอิญไม่มีอาการ",
+   "B": "เจาะดูดอย่างเดียวกลับเป็นซ้ำสูงมาก ใช้ทดสอบว่าอาการมาจาก cyst จริงหรือไม่ · จะถูกถ้าต้องการยืนยันว่าอาการปวดหายเมื่อ cyst ยุบ ก่อนตัดสินผ่าตัด",
+   "C": "เจาะ + ฉีดสาร sclerosant เป็นทางเลือกในผู้ที่ผ่าตัดไม่ได้ กลับเป็นซ้ำมากกว่าการ unroof · จะถูกถ้าผู้ป่วยสูงอายุโรคร่วมมาก ไม่พร้อมดมยาสลบ",
+   "E": "ตัดไตไม่เหมาะกับ cyst ไม่ร้าย · จะถูกถ้าไตข้างนั้นไม่ทำงาน (&lt; 10%) จากโรคอื่นร่วมกับมีอาการ"
   },
-  "trap": "ถุงน้ำใหญ่ไม่ได้แปลว่าต้องผ่าตัด — simple cyst รักษาตามอาการ ไม่ใช่ตามขนาด และก่อนผ่าตัดต้องหาสาเหตุอื่นของปวดสีข้างให้หมดก่อน",
+  "trap": "เจาะดูดเพราะง่าย — กลับเป็นซ้ำเกือบทั้งหมด การ unroof ผ่านกล้องได้ผลถาวรกว่า",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้รักษา simple renal cyst: ปวด, กดทางเดินปัสสาวะจนไตบวมน้ำ, ความดันสูงจากถุงน้ำกดไต, ติดเชื้อหรือเลือดออกในถุง · วิธี: เจาะดูด + sclerotherapy (เป็นซ้ำได้) หรือ laparoscopic unroofing (ถาวรกว่า)"
+   "Simple cyst (Bosniak I): ไม่ต้องติดตาม",
+   "รักษาเมื่อมีอาการ: ปวด · อุดตัน · ติดเชื้อ",
+   "Laparoscopic unroofing: ดีที่สุด กลับเป็นซ้ำน้อย",
+   "Aspiration อย่างเดียวกลับเป็นซ้ำ &gt; 80%",
+   "Aspiration + sclerotherapy: ทางเลือกในผู้เสี่ยงผ่าตัดสูง",
+   "Bosniak IIF ติดตาม · III–IV ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ที่แปะ",
+  "mnemonic": "<b>'Simple cyst มีอาการ = เปิดหลังคา (unroof) ไม่ใช่แค่ดูด'</b>",
+  "guide": "EAU Guidelines on Renal Cell Carcinoma 2024 — Cystic renal masses; Campbell-Walsh-Wein Urology 12th ed. (2020) — Renal cystic disease",
   "variants": [
-   "<b>นอกสไลด์:</b> CT เห็นถุงน้ำไตมีผนังหรือ septa หนาจับสี (Bosniak III) → ผ่าตัด (มักเป็น partial nephrectomy) หรือเฝ้าดูในผู้สูงอายุโรคร่วมมาก",
-   "<b>นอกสไลด์:</b> ถุงน้ำไต 8 cm มีไข้ ปวดสีข้าง ปัสสาวะปกติ CT ผนังถุงหนาขึ้น → ถุงน้ำติดเชื้อ: ยาปฏิชีวนะร่วมระบายทางผิวหนัง"
+   "simple cyst 3 cm พบบังเอิญ → ไม่ต้องทำอะไร",
+   "cyst ที่ไตมีผนังหนา enhance → Bosniak III → partial nephrectomy",
+   "simple cyst ใหญ่ ผู้สูงอายุผ่าตัดไม่ได้ ปวดมาก → aspiration + sclerotherapy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 48 — ตัวพิมพ์: <b>1. ชายไทย40ปี ปวดหลังขวาเป็นๆหายๆ 1 ปี u/s เจอ simple cyst 6 cm no hydronephrosis no stone รักษายังไง — A. Symptomatic treatment B. cyst aspiration C. sclerosing agent injection D. laparoscopic unroof renal cyst E. right nephrectomy</b> (หัวหน้า \"MCQ SUB SPECIALTY 1/2559\")<br>ลายมือ: \"Bosniak I\" เหนือ simple cyst · ขีด D + \"ดีสุด\"<br>ไฮไลต์: \"ชายไทย40ปี ปวดหลังขวาเป็นๆหายๆ 1 ปี u/s เจอ simple cyst 6 cm\" · D \"laparoscopic unroof renal cyst\" (เหลือง)<br>รูปที่แปะ: สไลด์ TREATMENT — No treatment · Surveillance not necessary · If symptomatic: Aspiration, Sclerosing therapy, Unroof renal cyst (พร้อมภาพผ่าตัดส่องกล้อง 4 ภาพและลายมือเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 39: ขีด D (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 48",
+  "kimg": [
+   "fsk_p48",
+   "kp69a_1",
+   "k2p_39"
   ]
  },
  "MDCU69|RoA|3": {
-  "interp": "TURBT แล้วพยาธิเป็นมะเร็งกระเพาะปัสสาวะลุกถึงกล้ามเนื้อ detrusor (≥ T2, MIBC) · ถามการรักษา",
-  "why": "<b>คีย์: ขีด E · ลายมือ ± bilateral pelvic lymphadenectomy (T2: + TAH ถ้าเป็นหญิง)</b><br><b>นอกสไลด์:</b> MIBC รักษาด้วยการผ่าตัดกระเพาะปัสสาวะทั้งหมดร่วมเลาะต่อมน้ำเหลืองอุ้งเชิงกรานสองข้าง และทำทางเดินปัสสาวะใหม่ · การรักษาเฉพาะในกระเพาะ (BCG, เคมีหยอด) ใช้กับ non-muscle invasive เท่านั้น",
+  "interp": "มะเร็งกระเพาะปัสสาวะ มาด้วยปัสสาวะเป็นเลือด TURBT พบ<b>ลุกลามถึงชั้นกล้ามเนื้อ detrusor</b> → ถามการจัดการ",
+  "why": "ลุกลาม muscularis propria (detrusor) = <b>muscle-invasive bladder cancer (T2 ขึ้นไป)</b> → มาตรฐานคือ <b>radical cystectomy + bilateral pelvic lymphadenectomy</b> (ชาย: เอากระเพาะปัสสาวะ ต่อมลูกหมาก seminal vesicle · หญิง: ร่วมกับมดลูก ปีกมดลูก ผนังช่องคลอดด้านหน้า) + urinary diversion (ileal conduit/ neobladder) · ปัจจุบันให้ <b>neoadjuvant cisplatin-based chemotherapy</b> ก่อนผ่าตัดในผู้ที่ให้ได้ · BCG/ intravesical chemo ใช้เฉพาะ non-muscle-invasive · ไฟล์ขีด E ลายมือ <b>\"ō bilat. pelvic lymphadenectomy (♀ : + TAH ō BSO)\"</b> และแปะสไลด์ <b>\"INVASIVE BLADDER CARCINOMA … TREATMENT · Radical cystectomy : standard treatment\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ตรวจปัสสาวะอย่างเดียวใช้ติดตามมะเร็งกระเพาะปัสสาวะ เพราะไม่ไวพอจับก้อนที่กลับเป็นซ้ำ — การติดตามต้องส่อง cystoscopy",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อน Ta low-grade ก้อนเดียวเล็ก ตัดหมดแล้วและได้เคมีหยอดครั้งเดียว (ความเสี่ยงต่ำ) — ส่อง cystoscopy ที่ 3 เดือนแล้วห่างออก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น non-muscle invasive ความเสี่ยงสูง (T1 high-grade หลัง re-TURBT หรือ CIS) — BCG induction + maintenance",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น non-muscle invasive ความเสี่ยงปานกลาง (low-grade หลายก้อนหรือเป็นซ้ำ) — หยอดเคมีเป็นชุด"
+   "A": "ติดตาม UA ไม่ใช่การรักษามะเร็งลุกลาม · จะถูกถ้าคำถามถามการติดตามผู้ป่วย microscopic hematuria ความเสี่ยงต่ำที่ตรวจครบแล้วปกติ",
+   "B": "ส่องกล้องติดตามทุก 3 เดือนใช้กับ NMIBC หลังรักษา · จะถูกถ้าเป็น NMIBC หลัง TURBT + BCG (ส่องทุก 3 เดือนในปีแรก)",
+   "C": "BCG ใช้กับ NMIBC ความเสี่ยงปานกลาง-สูง/ CIS ไม่ได้ผลใน MIBC · จะถูกถ้าผล TURBT เป็น T1 high grade หรือ CIS",
+   "D": "Intravesical chemo ใช้กับ NMIBC ความเสี่ยงต่ำ (ครั้งเดียวหลัง TURBT) · จะถูกถ้าเป็น Ta low grade ก้อนเดี่ยวเล็ก"
   },
-  "trap": "กล้ามเนื้อในชิ้นเนื้อต้องเป็น detrusor (muscularis propria) — ลุก muscularis mucosae ยังเป็นแค่ T1 · ถ้าชิ้นเนื้อไม่มีกล้ามเนื้อ detrusor เลย จัดระยะไม่ได้ ต้องทำ TURBT ซ้ำ",
+  "trap": "ใช้ BCG กับมะเร็งที่ลุกลามกล้ามเนื้อ — ถึงกล้ามเนื้อแล้วต้องตัดกระเพาะปัสสาวะ",
   "summary": [
-   "<b>นอกสไลด์:</b> MIBC (T2–T4a N0): เคมีที่มี cisplatin ก่อนผ่าตัด (± durvalumab แบบ NIAGARA) → radical cystectomy + เลาะต่อมน้ำเหลืองอุ้งเชิงกรานสองข้าง (ชาย cystoprostatectomy · หญิง anterior pelvic exenteration) + ileal conduit หรือ neobladder · ทางเลือกเก็บกระเพาะในผู้ป่วยคัดเลือก: TURBT ให้หมดร่วม chemoradiation (trimodality)"
+   "NMIBC (Ta, T1, CIS): TURBT ± intravesical chemo/ BCG",
+   "MIBC (≥ T2): neoadjuvant cisplatin → radical cystectomy + PLND",
+   "ชาย: cystoprostatectomy · หญิง: anterior exenteration",
+   "Diversion: ileal conduit (incontinent) · neobladder/ pouch (continent)",
+   "Hydronephrosis ร่วม → ชี้ว่าลุกลาม",
+   "ทางเลือกเก็บกระเพาะ: trimodal therapy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ที่แปะ · มาตรฐานปัจจุบันให้ neoadjuvant chemotherapy ก่อน cystectomy",
+  "mnemonic": "<b>'Bladder ถึงกล้าม (detrusor) = ตัดกระเพาะ (radical cystectomy)'</b>",
+  "guide": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer 2024; AUA/ ASCO/ SUO Guideline on Non-Metastatic MIBC (2024)",
   "variants": [
-   "<b>นอกสไลด์:</b> MIBC ในผู้ป่วยไตเสื่อม GFR 40 mL/min ให้ cisplatin ไม่ได้ → ผ่าตัด radical cystectomy เลยโดยไม่ให้เคมีก่อน",
-   "<b>นอกสไลด์:</b> MIBC ร่วมไตบวมน้ำสองข้าง creatinine สูง → ระบายไต (PCN) ก่อน ให้ไตฟื้นพอให้เคมีได้"
+   "TURBT พบ T1 high grade → re-TURBT + BCG",
+   "MIBC + hydronephrosis สองข้าง creatinine สูง → ระบายก่อน แล้ว cystectomy",
+   "TURBT พบ Ta low grade ก้อนเดี่ยว → mitomycin ครั้งเดียวหลังผ่าตัด"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 48 — ตัวพิมพ์: <b>3. Bladder CA, มาด้วย hematuria, ทำTUR-BT, ทำ biopsy พบว่า involve muscular layer ของ detrusor muscle ถาม management — A. UA f/u ทุกๆ 3 เดือน B. Cystoscopy f/u ทุกๆ 3 เดือน C. Intravesicular BCG D. Intravesicular chemotherapy E. Radical cystectomy</b><br>ลายมือ: \"*\" ที่ muscular layer · ขีด E + \"ō bilat. pelvic lymphadenectomy (♀ : + TAH ō BSO)\"<br>ไฮไลต์: \"Bladder CA\" \"hematuria\" \"ทำTUR-BT, ทำ biopsy พบว่า involve muscular layer\" \"management\" · E \"Radical cystectomy\" (เหลือง)<br>รูปที่แปะ: สไลด์ INVASIVE BLADDER CARCINOMA — Cancer invade through muscular layer (muscularis propria) of bladder · T2, T3, T4 · Presence of hydroureter or hydronephrosis suggested invasive carcinoma · TREATMENT — Radical cystectomy : standard treatment · En bloc removal of bladder, perivesicle fat, prostate gland and seminal vesicle · Bilateral pelvic lymphadenectomy · In female : removal of uterus, fallopian tubes, ovaries, urethral and anterior vaginal wall · Urinary diversion : Incontinent : conduit, Continent : neobladder, continence pouch (พร้อมลายมือเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 39: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 48",
+  "kimg": [
+   "fsk_p48",
+   "kp69a_3",
+   "k2p_39"
   ]
  },
  "MDCU69|RoA|5": {
-  "interp": "ชายมี LUTS ปัสสาวะไม่ออก คลำได้ก้อนเหนือหัวหน่าว (กระเพาะปัสสาวะเต็ม) = acute urinary retention จาก BPH · ถามการจัดการ",
-  "why": "<b>คีย์: ไฮไลต์ B · ลายมือ full bladder</b><br><b>นอกสไลด์:</b> ระบายกระเพาะด้วยสาย Foley ทันที ร่วมเริ่ม alpha-blocker ราว 2–3 วันก่อนลองถอดสาย (trial without catheter) — เพิ่มโอกาสปัสสาวะได้เองโดยไม่ต้องผ่าตัด",
+  "interp": "ชายมี LUTS <b>ปัสสาวะไม่ออก</b> ฉี่ไม่พุ่ง ไม่สุด คลำได้<b>ก้อน cystic เหนือหัวหน่าว (กระเพาะปัสสาวะเต็ม)</b> → ถามขั้นต่อไป",
+  "why": "ก้อน cystic เหนือหัวหน่าว = <b>กระเพาะปัสสาวะโป่งจาก acute urinary retention</b> (มักจาก BPH) → <b>ใส่สายสวนปัสสาวะระบาย</b> + เริ่ม <b>alpha-blocker</b> (tamsulosin/ alfuzosin) ราว 2–3 วันแล้วลอง<b>ถอดสาย (trial without catheter)</b> — alpha-blocker เพิ่มโอกาสถอดสายสำเร็จเกือบเท่าตัว · ถอดไม่สำเร็จ/ retention ซ้ำ/ มีภาวะแทรกซ้อน (ไตเสื่อม นิ่ว ติดเชื้อซ้ำ เลือดออกซ้ำ) → ผ่าตัด (TURP) ในภายหลัง · ไฟล์ไฮไลต์ B ลายมือ <b>\"full bladder\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าลองถอดสายแล้วปัสสาวะไม่ออกซ้ำทั้งที่ได้ alpha-blocker หรือมีภาวะแทรกซ้อนจาก BPH (นิ่วกระเพาะปัสสาวะ ไตเสื่อม UTI ซ้ำ)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าใส่สายทางท่อปัสสาวะไม่ได้ (ท่อตีบ) และยังใส่ suprapubic catheter ไม่ได้ทันที — เจาะดูดผ่านหน้าท้องชั่วคราวเพื่อระบาย",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ open prostatectomy ทันทีเป็นการจัดการแรกของ AUR เพราะต้องระบายปัสสาวะและให้โอกาสลองถอดสายก่อน — open prostatectomy ทำแบบ elective ในต่อมโตมาก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น LUTS อาการน้อย (IPSS ≤ 7) ไม่มีปัสสาวะค้างหรือภาวะแทรกซ้อน — เฝ้าติดตามอาการ (watchful waiting)"
+   "A": "TURP ทันทีระหว่าง AUR เฉียบพลันเสี่ยงภาวะแทรกซ้อนสูงกว่า ควรลองถอดสายหลังให้ alpha-blocker ก่อน · จะถูกถ้าถอดสายล้มเหลว 2 ครั้ง หรือมี refractory retention",
+   "C": "เจาะดูดเหนือหัวหน่าวไม่ใช่การรักษา (ก้อนคือกระเพาะปัสสาวะ) · จะถูกถ้าใส่สายทางท่อปัสสาวะไม่ได้ (urethral stricture) → suprapubic cystostomy",
+   "D": "Open prostatectomy ทันทีไม่ใช่ขั้นแรก ใช้กับต่อมลูกหมากใหญ่มาก (&gt; 80–100 mL) ที่มีข้อบ่งชี้ผ่าตัด · จะถูกถ้าต่อมลูกหมาก 150 mL retention ซ้ำ",
+   "E": "ปล่อยไว้ทำให้ปวด กระเพาะปัสสาวะเสียหาย ไตวาย · จะถูกถ้าคำถามเป็น LUTS เล็กน้อย IPSS ต่ำ ปัสสาวะได้ residual น้อย (watchful waiting)"
   },
-  "trap": "ก้อนเหนือหัวหน่าวที่เคาะทึบในชายปัสสาวะไม่ออก คือกระเพาะปัสสาวะเต็ม ไม่ใช่ก้อนเนื้องอก — ใส่สายแล้วก้อนยุบ",
+  "trap": "รีบผ่าตัดทันที — AUR จาก BPH ให้ระบาย + alpha-blocker แล้วลองถอดสายก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> AUR จาก BPH: คาสาย + alpha-blocker ≥ 2–3 วัน → ลองถอดสาย (สำเร็จราวครึ่งหนึ่งขึ้นไป) → ไม่สำเร็จหรือเป็นซ้ำ → ผ่าตัด (TURP) · หาและแก้ตัวกระตุ้น เช่น ยา anticholinergic ยาลดน้ำมูก ท้องผูก"
+   "AUR: ใส่สายระบายทันที (สายไม่เข้า → suprapubic cystostomy)",
+   "Alpha-blocker 2–3 วัน → trial without catheter",
+   "ล้มเหลว/ ซ้ำ → TURP",
+   "ข้อบ่งชี้ผ่าตัด BPH: retention ซ้ำ · ไตเสื่อม · นิ่วกระเพาะปัสสาวะ · UTI ซ้ำ · เลือดออกซ้ำ",
+   "ระวัง post-obstructive diuresis",
+   "ตรวจ PSA หลังพ้น AUR (AUR ทำให้ PSA สูงชั่วคราว)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 2 ช้อย จึงเติม C, D, E",
+  "mnemonic": "<b>'ฉี่ไม่ออกจากต่อมลูกหมาก = ใส่สาย + alpha-blocker → ลองถอด (TWOC)'</b>",
+  "guide": "EAU Guidelines on Non-neurogenic Male LUTS 2024; AUA Guideline: Management of LUTS Attributed to BPH (2021, amended 2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลังใส่สายปล่อยปัสสาวะ 2 ลิตร ต่อมาปัสสาวะออก 400 mL/ชม. → post-obstructive diuresis: ทดแทนสารน้ำและติดตามเกลือแร่",
-   "<b>นอกสไลด์:</b> ชายปัสสาวะค้างเรื้อรังไม่เจ็บ ปัสสาวะไหลซึมตลอด creatinine สูง US ไตบวมน้ำสองข้าง → chronic retention with overflow: คาสายระบายแล้วประเมินผ่าตัด"
+   "ถอดสายไม่สำเร็จ 2 ครั้ง → TURP",
+   "ใส่สายทางท่อปัสสาวะไม่ได้ เคยบาดเจ็บท่อปัสสาวะ → suprapubic cystostomy",
+   "หลังระบายปัสสาวะ 1.5 L ปัสสาวะออกมาก → post-obstructive diuresis → ติดตามสารน้ำ"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 48 — ตัวพิมพ์: <b>5. ชายอาการLUTS ปัสสาวะไม่ออก ฉี่ไม่พุ่ง ฉี่ไม่สุด พบcystic mass at suprapubic ทำอะไรต่อ — A. retain foley's catheter + turp B. retain foley's catheter + alpha blocker 2 wks</b><br>ลายมือ: \"full bladder\" เหนือ cystic mass · ขีด B<br>ไฮไลต์: \"อาการLUTS ปัสสาวะไม่ออก ฉี่ไม่พุ่ง ฉี่ไม่สุด พบcystic mass at suprapubic\" · B \"retain foley's catheter + alpha blocker 2 wks\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 39: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 2 ช้อย → เติม C, D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 48",
+  "kimg": [
+   "fsk_p48",
+   "kp69a_5",
+   "k2p_39"
   ]
  },
  "MDCU69|RoA|7": {
-  "interp": "เด็กหญิง 6 ปี febrile UTI 6 ครั้งทั้งที่กินยาป้องกันทุกวัน (breakthrough) VCUG เป็น VUR grade 2 สองข้าง · ถามการรักษา",
-  "why": "<b>คีย์: ขีด A · ลายมือ fail med. Tx → Sx · สไลด์ indication for surgery: breakthrough UTI</b><br><b>นอกสไลด์:</b> breakthrough febrile UTI ขณะได้ยาป้องกัน = ยาล้มเหลว เป็นข้อบ่งชี้ผ่าตัดแก้ reflux แม้ grade ต่ำ · ผ่าตัดย้ายท่อไต (ureteral reimplantation) สำเร็จสูงที่สุด",
+  "interp": "เด็กหญิง 6 ปี <b>febrile UTI 6 ครั้งแม้กินยาปฏิชีวนะป้องกันทุกวัน</b> VCUG พบ VUR grade 2 สองข้าง → ถามการจัดการ",
+  "why": "<b>Breakthrough febrile UTI ขณะได้ continuous antibiotic prophylaxis</b> = การรักษาด้วยยาล้มเหลว → <b>ข้อบ่งชี้ผ่าตัดแก้ VUR</b> ไม่ว่า grade ใด → <b>ureteral reimplantation</b> (open สำเร็จ ~95–98%) หรือ endoscopic injection (Deflux) ในบางราย · ข้อบ่งชี้ผ่าตัดอื่น: VUR grade สูง (4–5) ไม่หาย, ไม่ร่วมมือกินยา, ไตโตไม่ดี/ แผลเป็นใหม่/ ไตเสื่อม, VUR ยังอยู่ในหญิงวัยเจริญพันธุ์, ร่วมกับความผิดปกติ UVJ (Hutch diverticulum) · ไฟล์ขีด A ลายมือ <b>\"fail med. Tx → Sx\"</b> และแปะสไลด์ <b>\"Treatment · Indication for surgery · Breakthrough UTI despite prophylactic ATB …\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเพิ่งมี breakthrough UTI ครั้งเดียวจากเชื้อที่ดื้อต่อยาป้องกันเดิม — เปลี่ยนยาป้องกันตามผลเพาะเชื้อก่อนพิจารณาผ่าตัด",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกไตบวมน้ำมากสองข้างที่ติดเชื้อรุนแรงและระบายทางล่างไม่ได้ผล — ระบายกรวยไตออกผิวหนังชั่วคราว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก VUR grade ต่ำที่ยังไม่เคยมี UTI ขณะกินยาป้องกัน — ให้ยาต่อและติดตาม",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กโต VUR grade I–II ที่ไม่มีไข้จาก UTI มานาน ขับถ่ายดี ไม่มีท้องผูกหรือกลั้นปัสสาวะ — หยุดยาป้องกันและเฝ้าดู"
+   "B": "เพิ่มยาปฏิชีวนะไม่แก้ปัญหาหลักเมื่อ prophylaxis ล้มเหลวซ้ำ · จะถูกถ้าเด็กติดเชื้อครั้งแรก VUR grade ต่ำ เชื้อดื้อยาตัวเดิม (เปลี่ยนชนิดยาป้องกัน)",
+   "C": "Pyelostomy เป็นการระบายชั่วคราวในทารกอุดตันรุนแรง ไม่ใช่การรักษา VUR · จะถูกถ้าทารก posterior urethral valve ไตบวมรุนแรง ติดเชื้อ ต้องระบายชั่วคราว",
+   "D": "ให้ยาป้องกันต่อทั้งที่ล้มเหลว 6 ครั้งเสี่ยงแผลเป็นที่ไต · จะถูกถ้าเด็ก 1 ปี VUR grade 3 ติดเชื้อครั้งแรก (เริ่ม CAP)",
+   "E": "หยุดยาสังเกตอาการเสี่ยงติดเชื้อซ้ำและไตเสียหาย · จะถูกถ้าเด็ก VUR grade 1–2 ไม่มีอาการ ไม่มีแผลเป็นไต ไม่มีความผิดปกติการขับถ่าย"
   },
-  "trap": "คิดว่า grade 2 ต่ำจนไม่ต้องผ่าตัด — ข้อบ่งชี้ผ่าตัดดูที่การติดเชื้อซ้ำขณะได้ยาและไตเกิดแผลเป็นใหม่ ไม่ได้ดูแค่ grade",
+  "trap": "คิดว่า grade 2 ไม่ต้องผ่าตัด — breakthrough UTI เป็นข้อบ่งชี้ผ่าตัดไม่ว่า grade ใด",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ผ่าตัด VUR: breakthrough febrile UTI ขณะได้ยาป้องกัน · ไตเกิดแผลเป็นใหม่ (DMSA) · grade สูงที่ไม่หายเมื่อโต · กินยาไม่สม่ำเสมอ · วิธี: open/robotic ureteral reimplantation (สำเร็จสูงสุด) หรือฉีดสารใต้รูท่อไตทางกล้อง (endoscopic injection — รุกล้ำน้อยกว่า สำเร็จต่ำกว่า)"
+   "VUR grade 1–5 จาก VCUG · grade ต่ำมักหายเอง",
+   "Continuous antibiotic prophylaxis (TMP-SMX/ nitrofurantoin) ในเด็กเสี่ยง",
+   "ผ่าตัด: breakthrough UTI · grade 4–5 ไม่หาย · ไตเสียหายใหม่ · ไม่ร่วมมือ · หญิงวัยเจริญพันธุ์",
+   "Ureteral reimplantation สำเร็จ ~95–98%",
+   "Endoscopic injection: ทางเลือกรุกล้ำน้อย",
+   "แก้ bladder-bowel dysfunction ร่วมเสมอ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง (endoscopic injection ก็เป็นทางเลือกที่ยอมรับ)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ที่แปะ · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'VUR + ติดเชื้อทะลุยาป้องกัน (breakthrough) = ผ่าตัดย้ายท่อไต'</b>",
+  "guide": "EAU/ ESPU Guidelines on Paediatric Urology 2024 — Vesicoureteric reflux; AUA Guideline: Management and Screening of Primary VUR in Children (2010, reviewed 2017)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 3 เดือน febrile UTI ครั้งแรก VCUG เป็น VUR grade V สองข้าง → เริ่มยาปฏิชีวนะป้องกัน (ผ่าตัดเมื่อมี breakthrough)",
-   "<b>นอกสไลด์:</b> เด็กหญิง 7 ปี UTI ซ้ำ ท้องผูก กลั้นปัสสาวะจนเร่งรีบ VCUG ปกติ → bladder and bowel dysfunction: รักษาท้องผูกและฝึกปัสสาวะตามเวลา"
+   "เด็ก 1 ปี UTI ครั้งแรก VUR grade 4 → continuous antibiotic prophylaxis",
+   "เด็กหญิง 12 ปี VUR ยังไม่หาย แผลเป็นไต → ureteral reimplantation",
+   "เด็ก VUR ท้องผูก กลั้นปัสสาวะ → แก้ bladder-bowel dysfunction"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 48 — ตัวพิมพ์: <b>7. เด็กหญิงอายุ6ปี เป็น febrile UTI มาแล้ว6ครั้ง แม้ว่าจะกิน prophylactic antibioticวันละ1เม็ด พบvesicourethral reflux grade2, ข้อใดคือ proper management — A. Bilateral reimplantation of ureter B. Step up antibiotics C. Bilateral pyelostomy</b><br>ลายมือ: \"fail med. Tx → Sx\" · ขีด A · ขีดเขียนทับ \"stomy\" ในช้อย C<br>ไฮไลต์: \"หญิงอายุ6ปี\" \"febrile UTI มาแล้ว6ครั้ง\" \"prophylactic antibiotic\" \"vesicourethral reflux grade2\" \"proper management\" · A (เหลือง)<br>รูปที่แปะ: ตำราไทยเรื่อง VUR (ไฮไลต์แดง) · ภาพถ่ายสไลด์ Treatment of primary VUR — Surgery if there is a breakthrough UTI → ureteric reimplantation · สไลด์ Treatment — Indication for surgery: Breakthrough UTI despite prophylactic ATB · Noncompliance with medical management · High grade VUR (grade 4,5) · Failure of renal growth, new renal scar, deterioration of renal function · Reflux that persists in puberty girl · Reflux with congenital abnormality of UVJ (Hutch diverticulum)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 39: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 48",
+  "kimg": [
+   "fsk_p48",
+   "kp69a_7",
+   "k2p_39"
   ]
  },
  "MDCU69|RoA|8": {
-  "interp": "เด็กชายรูเปิดท่อปัสสาวะอยู่ด้านล่างส่วนต้นของ penis ร่วม chordee (proximal hypospadias) · ถามผลในวัยผู้ใหญ่ถ้าไม่ซ่อม",
-  "why": "<b>คีย์: ขีด A · ลายมือ hypospadias, sex · สไลด์ effects of hypospadias: ineffective insemination</b><br><b>นอกสไลด์:</b> รูเปิดอยู่ใกล้ฐาน penis และองคชาตโค้งลงเวลาแข็งตัว → ร่วมเพศยากและน้ำอสุจิไม่ถูกปล่อยใกล้ปากมดลูก จึงมีบุตรยาก แม้การสร้างอสุจิปกติ",
+  "interp": "เด็กชายมี<b>รูเปิดท่อปัสสาวะที่ด้านล่างโคนองคชาต + chordee</b> ถ้าไม่แก้ไข โตขึ้นจะเกิดอะไร",
+  "why": "รูเปิดท่อปัสสาวะด้านล่าง (ventral) ส่วนต้น + องคชาตโค้งงอ (chordee) = <b>proximal hypospadias</b> · ถ้าไม่ผ่าตัดแก้: (1) ยืนปัสสาวะไม่ได้ (ปัญหาจิตใจในวัยเรียน) (2) มีเพศสัมพันธ์ลำบากจากองคชาตโค้ง (3) <b>หลั่งน้ำอสุจิไม่เข้าถึงช่องคลอด (ineffective insemination) → มีบุตรยาก</b> · การสร้างอสุจิและการแข็งตัวยังปกติ · ผ่าตัดแก้ตอน<b>อายุ 6–18 เดือน</b> · ห้ามขลิบก่อน (ใช้หนังหุ้มปลายซ่อม) · ไฟล์ขีด A ลายมือ <b>\"hypospadius\"</b> และ <b>\"Infertile, sex, ฉี่\"</b> พร้อมแปะสไลด์ <b>\"Effects of hypospadias … Ineffectively inseminate : infertility\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hypospadias ที่ไม่ได้ซ่อมทำให้องคชาตไม่แข็งตัว เพราะ corpora cavernosa ปกติ — ปัญหาคือแข็งตัวแล้วโค้งลงจนร่วมเพศยาก",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hypospadias ทำให้ปวดขณะหลั่ง เพราะอาการนี้มาจากการอักเสบของต่อมลูกหมากหรือท่อนำอสุจิ ไม่ได้มาจากตำแหน่งรูเปิด",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ hypospadias ทำให้น้ำอสุจิไหลย้อนเข้ากระเพาะปัสสาวะ เพราะ bladder neck ปกติ — retrograde ejaculation เกิดจาก bladder neck ปิดไม่สนิท (หลัง TURP, ยา alpha-blocker, เบาหวาน, หลังเลาะต่อมน้ำเหลืองหลังช่องท้อง)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ารูเปิดของ hypospadias ตีบมาก (meatal stenosis) จนปัสสาวะออกลำบากและค้าง"
+   "B": "การแข็งตัวปกติ (ไม่มีความผิดปกติของเส้นประสาท/ หลอดเลือด) แต่โค้งทำให้มีเพศสัมพันธ์ลำบาก · จะถูกถ้าคำถามถามผลระยะยาวของการบาดเจ็บ pelvic fracture ที่ท่อปัสสาวะ (ED)",
+   "C": "การหลั่งไม่เจ็บ ปัญหาคือหลั่งไม่ถึงที่ · จะถูกถ้าคำถามถามอาการของต่อมลูกหมากอักเสบเรื้อรัง",
+   "D": "Retrograde ejaculation เกิดจากคอกระเพาะปัสสาวะปิดไม่สนิท (หลัง TURP, เบาหวาน, alpha-blocker) · จะถูกถ้าชายหลัง TURP น้ำอสุจิออกน้อย ปัสสาวะขุ่นหลังหลั่ง",
+   "E": "Hypospadias ไม่ทำให้ปัสสาวะไม่ออก (ยกเว้น meatal stenosis) · จะถูกถ้าคำถามถาม posterior urethral valve ในเด็กชาย"
   },
-  "trap": "มีบุตรยากในที่นี้ไม่ได้แปลว่าสร้างอสุจิไม่ได้ — อสุจิปกติถ้าอัณฑะลงปกติ แต่ไปไม่ถึงปากมดลูก · ถ้ามีอัณฑะไม่ลงร่วมด้วย การสร้างอสุจิก็ลดลงได้อีกทาง",
+  "trap": "คิดว่าทำให้อวัยวะเพศไม่แข็ง — hypospadias แข็งตัวปกติ แต่รูอยู่ผิดที่และโค้ง ทำให้น้ำอสุจิไม่เข้าถึง",
   "summary": [
-   "<b>นอกสไลด์:</b> เหตุผลที่ต้องซ่อม hypospadias: ปัสสาวะยืนไม่ได้ (พุ่งลง) · chordee ทำให้ร่วมเพศยาก · insemination ไม่ได้ · รูปลักษณ์และจิตใจ · ซ่อมช่วง 6–18 เดือน และห้ามขลิบก่อนซ่อม (ต้องใช้หนังหุ้มปลาย)"
+   "Hypospadias: รูเปิดด้านล่าง · chordee · dorsal hood",
+   "ผลถ้าไม่แก้: ยืนปัสสาวะไม่ได้ · เพศสัมพันธ์ลำบาก · มีบุตรยาก",
+   "ผ่าตัด 6–18 เดือน · ห้ามขลิบก่อน",
+   "Proximal + อัณฑะไม่ลง → ตรวจ DSD (karyotype)",
+   "เป้าหมาย: ปัสสาวะตรง องคชาตตรง หน้าตาปกติ",
+   "Epispadias: รูด้านบน · สัมพันธ์ bladder exstrophy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ที่แปะ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Hypospadias ไม่แก้ = ยืนฉี่ไม่ได้ · มีเซ็กซ์ลำบาก · ส่งน้ำเชื้อไม่ถึง (infertile)'</b>",
+  "guide": "EAU/ ESPU Guidelines on Paediatric Urology 2024 — Hypospadias",
   "variants": [
-   "<b>นอกสไลด์:</b> ชายวัยผู้ใหญ่ glanular hypospadias ไม่มี chordee ปัสสาวะพุ่งตรง มีบุตรแล้ว → ไม่จำเป็นต้องผ่าตัด",
-   "<b>นอกสไลด์:</b> หลังซ่อม hypospadias ปัสสาวะรั่วออกทางรูเล็กข้างตัวองคชาต → urethrocutaneous fistula"
+   "ทารกชาย hypospadias ส่วนปลาย → นัดผ่าตัด 6–18 เดือน ห้ามขลิบ",
+   "ทารก proximal hypospadias + อัณฑะไม่ลงสองข้าง → ตรวจ DSD",
+   "ชายหลัง TURP น้ำอสุจิไม่ออก → retrograde ejaculation"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 48 — ตัวพิมพ์: <b>8. เด็ก มีรูเปิดที่ ventral site of proximal penis + chordee จะมีโรคตามมาตอนโต — A. Infertile B. Erectile dysfunction C. Painful ejaculation D. Retrograde ejaculation</b><br>ลายมือ: \"hypospadius\" เหนือ ventral site · ขีด A + \"sex, ฉี่\"<br>ไฮไลต์: \"มีรูเปิดที่ ventral site of proximal penis + chordee\" · A \"Infertile\" (เหลือง)<br>รูปที่แปะ: สไลด์ Effects of hypospadias — Inability to micturate in a standing position : psychiatric problem in school age · Inability to achieve sexual intercourse · Ineffectively inseminate : infertility · สไลด์ Treatment — Surgical correction · Function : urination, intercourse, insemination · Cosmetic purpose · Age at surgical correction : between 6 – 12 months of age (พร้อมลายมือเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 39: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 48",
+  "kimg": [
+   "fsk_p48",
+   "kp69a_8",
+   "k2p_39"
   ]
  },
  "MDCU69|RoA|12": {
-  "interp": "หญิง 40 ปี นิ่วในไต 1 cm ทำให้ไตบวมน้ำ ไม่ปวด ปัสสาวะไม่มีติดเชื้อ · ถามการรักษา",
-  "why": "<b>คีย์: ขีด B · ลายมือ 2 cm → PCNL</b><br><b>นอกสไลด์:</b> นิ่วในไตที่ทำให้อุดตันต้องเอาออกแม้ไม่ปวด · ขนาดราว 1 cm ในไตใช้ ESWL ได้ (หรือส่องกล้อง RIRS) · นิ่วเกิน 2 cm จึงใช้ PCNL",
+  "interp": "หญิง 40 ปี <b>นิ่วในไต 1 cm</b> ไม่ปวดเอว UA RBC 100 US มี hydronephrosis → ถามการรักษา",
+  "why": "นิ่วในไต<b>ขนาด &lt; 2 cm</b> ที่ต้องรักษา (มี hydronephrosis/ อุดตัน, ไม่น่าหลุดเอง &gt; 5–10 mm) → <b>ESWL</b> หรือ RIRS (flexible ureteroscopy) เป็นทางเลือกแรก · นิ่ว &gt; 2 cm → PCNL · นิ่ว &lt; 4–5 mm ส่วนใหญ่หลุดเอง → สังเกตอาการ · ข้อห้าม ESWL: ตั้งครรภ์ coagulopathy UTI ที่ยังไม่รักษา aneurysm อุดตันใต้นิ่ว · ไฟล์ MCQ Key 2 ขีด B ลายมือ <b>\"&lt; 4-5 mm = observe · &lt; 2 cm = ESWL · &gt; 2 cm = PCNL\"</b> และแปะสไลด์ Treatment หลายแผ่น",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้านิ่วในไตเล็ก (ไม่ถึงราว 5 mm) ไม่มีอาการ ไม่อุดตัน ไม่ติดเชื้อ — ติดตามขนาดเป็นระยะ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ IVP เป็นการรักษานิ่ว เพราะเป็นเพียงการตรวจภาพ (ปัจจุบันใช้ CT ไม่ฉีดสีแทน)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นนิ่วในกระเพาะปัสสาวะ — ส่องกล้องเข้ากระเพาะปัสสาวะแล้วบดนิ่ว",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าไม่มีเครื่อง ESWL หรือกล้องส่องไต หรือมี UPJ obstruction ร่วมที่ต้องผ่าตัดตกแต่งกรวยไตไปพร้อมกัน"
+   "A": "สังเกตอาการเหมาะกับนิ่วเล็ก &lt; 5 mm ไม่อุดตัน · จะถูกถ้านิ่วในไต 3 mm ไม่มีอาการ ไม่มี hydronephrosis",
+   "C": "IVP เป็นการตรวจ ไม่ใช่การรักษา (ปัจจุบันใช้ NCCT) · จะถูกถ้าคำถามถามการตรวจวางแผนกายวิภาคก่อนรักษาในยุคก่อน CT",
+   "D": "Cystoscopy ใช้ตรวจกระเพาะปัสสาวะ ไม่ใช่รักษานิ่วในไต · จะถูกถ้าผู้ป่วย 60 ปีสูบบุหรี่ hematuria ไม่พบนิ่ว (หามะเร็งกระเพาะปัสสาวะ)",
+   "E": "Open pyelolithotomy ถูกแทนที่ด้วยวิธีส่องกล้อง · จะถูกถ้านิ่วซับซ้อนมากร่วมกับ UPJ obstruction ที่ต้องผ่าตัดแก้พร้อมกัน (ปัจจุบันมัก laparoscopic)"
   },
-  "trap": "ไม่ปวดไม่ได้แปลว่าปล่อยไว้ได้ — นิ่วที่ทำให้ไตบวมน้ำต้องเอาออกเพื่อกันไตเสื่อม · ESWL ได้ผลน้อยในนิ่วแข็ง (cystine, CT density สูงเกินราว 1,000 HU) และผิวหนังถึงนิ่วไกลเกินราว 10 cm",
+  "trap": "สังเกตอาการเพราะไม่ปวด — นิ่ว 1 cm + hydronephrosis ไม่น่าหลุดเองและต้องรักษา",
   "summary": [
-   "นิ่วในไตใหญ่กว่า 2 cm → PCNL",
-   "<b>นอกสไลด์:</b> นิ่วในไตไม่เกิน 2 cm: ESWL หรือ RIRS (ส่องกล้องท่อไตแบบอ่อน) · นิ่วท่อไต: ESWL หรือ ureteroscopy"
+   "นิ่วในไต &lt; 2 cm → ESWL หรือ RIRS",
+   "&gt; 2 cm/ staghorn → PCNL",
+   "Lower pole 1–2 cm → RIRS/ PCNL (ESWL ได้ผลน้อยกว่า)",
+   "&lt; 4–5 mm → มักหลุดเอง · &gt; 10 mm ไม่น่าหลุด",
+   "ข้อบ่งชี้แทรกแซงเร่งด่วน: ไข้/ ติดเชื้อ · ปวดคุมไม่ได้ · ไตเดียวอุดตัน · ไตเสื่อม",
+   "ESWL ข้อห้าม: ตั้งครรภ์ · coagulopathy · UTI · aneurysm"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ไฟล์ Key 1 ไม่ได้ขีด) · ปัจจุบัน RIRS ก็เป็นทางเลือกแรกเช่นกัน · ช้อย E ต้นฉบับว่าง จึงเติม",
+  "mnemonic": "<b>'นิ่วไต: &lt; 5 mm รอ · &lt; 2 cm ยิง (ESWL) · &gt; 2 cm เจาะ (PCNL)'</b>",
+  "guide": "EAU Guidelines on Urolithiasis 2024; AUA/ Endourological Society Guideline: Surgical Management of Stones (2016, amended 2026)",
   "variants": [
-   "<b>นอกสไลด์:</b> หญิงตั้งครรภ์นิ่วอุดท่อไตปวดมากและไตบวมน้ำ → ใส่ DJ stent หรือ ureteroscopy (ห้าม ESWL)",
-   "<b>นอกสไลด์:</b> นิ่ว 1.5 cm ที่ไตส่วนล่าง (lower pole) มุมกรวยไตแคบ → RIRS หรือ PCNL เพราะเศษนิ่วจาก ESWL หลุดออกยาก"
+   "นิ่วในไต 2.5 cm → PCNL",
+   "นิ่ว lower pole 1.5 cm → RIRS/ PCNL",
+   "นิ่วอุดตันไต + ไข้ → ระบายด่วน (DJ/ PCN) ก่อน"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 48 — ตัวพิมพ์: <b>12. ญ 40? เปนนิ่วไต ไม่ปวดเอว ua wbc 0-1 rbc 100? u/s hydronephrosis นิ่ว 1 cm — A. Follow up? B. ESWL C. ivp D. cystoscope E.</b><br>ลายมือ: \"&lt; 4-5 mm = observe · &lt; 2 cm = ESWL · &gt; 2 cm = PCNL\" (แดง) · ขีด B<br>ไฮไลต์: \"ญ 40\" \"นิ่วไต ไม่ปวดเอว\" \"ua wbc 0-1 rbc 100\" \"u/s hydronephrosis นิ่ว 1 cm\" · B ESWL (ส้ม)<br>รูปที่แปะ: แผนผัง Treatment (Surgical: Active UTI/ Sepsis → kidney drainage (stent/ PCN), Calculi in kidney: ESWL, PCNL, Open surgery, Ureteral calculi: ESWL, URS, Bladder calculi: cystolitholapaxy …) · สไลด์ Treatment — General measures: Stone &lt; 4-5 mm likely to pass · &gt; 1 cm unlikely to pass · Indication for intervention: Fever and/or infection · Intractable pain · Unable to tolerate oral fluid and at risk for dehydration · Progressive renal deterioration · Obstruction in the solitary kidney · สไลด์ Treatment — Medical: Infection : antibiotic · Hydration and adequate pain control · Drinking excessive amounts of fluid does not increase the likelihood of stone passage · Send home with analgesic (Stone &lt; 4-5 mm) · Come back if pain worsens, severe vomiting or fever · Intervene if stone has not passed within 4-6 wks (พร้อมลายมือเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 39: ไม่มีขีด<br>ที่ปรับในเว็บ: ช้อย E ว่าง → เติม open pyelolithotomy",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 48",
+  "kimg": [
+   "fsk_p48",
+   "kp69a_12",
+   "k2p_39"
   ]
  },
  "MDCU69|RoA|18": {
-  "interp": "ถามชนิดของสมองบวมรอบเนื้องอกสมอง และการตอบสนองต่อ steroid",
-  "why": "<b>คีย์: ขีด A · สไลด์ treatment: dexamethasone</b><br><b>นอกสไลด์:</b> หลอดเลือดในก้อนเนื้องอกมี blood-brain barrier รั่ว → น้ำซึมออกไปใน white matter รอบก้อน (vasogenic) · dexamethasone ช่วยให้ barrier รั่วน้อยลง บวมลดภายในไม่กี่วัน",
+  "interp": "ถาม<b>ชนิดของสมองบวมรอบเนื้องอกสมอง</b>และการรักษา",
+  "why": "เนื้องอกสมองสร้างหลอดเลือดใหม่ที่ <b>blood-brain barrier รั่ว</b> → น้ำและโปรตีนออกสู่ช่องนอกเซลล์ใน white matter = <b>vasogenic edema</b> ซึ่ง<b>ตอบสนองดีต่อ corticosteroid (dexamethasone)</b> — steroid ลดการรั่วของหลอดเลือด อาการดีขึ้นใน 24–72 ชม. · ต่างจาก <b>cytotoxic edema</b> (เซลล์บวมจากขาดพลังงาน เช่น stroke ขาดเลือด, บาดเจ็บสมอง) ที่<b>steroid ไม่ช่วย</b> (และอาจเป็นผลเสียใน TBI — CRASH trial) · ไฟล์ขีด A ไฮไลต์ <b>\"vasogenic ให้steroidลดบวมได้\"</b> และไฟล์ Key 1 ขีด A",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น PRES (posterior reversible encephalopathy) — vasogenic edema ที่ท้ายทอยจากความดันสูงหรือยา รักษาด้วยลดความดันและหยุดยาที่เป็นเหตุ ไม่ใช่ steroid",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ cytotoxic edema ตอบสนองต่อ steroid เพราะเกิดจากเซลล์ขาดพลังงานจนปั๊มไอออนล้มเหลว ส่วน steroid ออกฤทธิ์ที่ blood-brain barrier",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นสมองบวมจาก ischemic stroke ขนาดใหญ่หรือสมองขาดออกซิเจนหลังหัวใจหยุดเต้น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ interstitial edema ตอบสนองต่อ steroid เพราะเกิดจาก CSF ซึมผ่านผนังโพรงสมองใน hydrocephalus อุดตัน — แก้ด้วยการระบาย CSF"
+   "B": "Vasogenic ตอบสนองต่อ steroid · จะถูกถ้าคำถามถามสมองบวมแบบ vasogenic ที่ไม่ได้มาจากเนื้องอก/ การอักเสบ เช่น hypertensive encephalopathy (รักษาด้วยลดความดัน)",
+   "C": "Cytotoxic edema ไม่ตอบสนองต่อ steroid · จะถูกถ้าคำถามถามสมองบวมรอบฝีในสมอง/ เนื้องอก (vasogenic) แล้วช้อยเขียนผิดชนิด",
+   "D": "Cytotoxic edema ไม่ตอบสนองต่อ steroid จริง แต่เนื้องอกทำให้บวมแบบ vasogenic · จะถูกถ้าคำถามถามสมองบวมหลัง ischemic stroke ขนาดใหญ่",
+   "E": "Interstitial (hydrocephalic) edema เกิดจาก CSF ซึมผ่านผนังโพรงสมองใน hydrocephalus รักษาด้วยระบาย CSF · จะถูกถ้าคำถามถามสมองบวมรอบโพรงสมองใน obstructive hydrocephalus"
   },
-  "trap": "จำว่า steroid ลดสมองบวมแล้วใช้กับทุกชนิด — ได้ผลเฉพาะ vasogenic (เนื้องอก ฝี) ไม่ได้ผลใน cytotoxic (stroke ขาดออกซิเจน) ",
+  "trap": "ให้ steroid กับสมองบวมทุกชนิด — ได้ผลเฉพาะ vasogenic (เนื้องอก ฝี) ไม่ได้ผลกับ cytotoxic (stroke, TBI)",
   "summary": [
-   "<b>นอกสไลด์:</b> ชนิดสมองบวม: vasogenic (barrier รั่ว, white matter — เนื้องอก ฝี) → steroid ได้ผล · cytotoxic (เซลล์บวม ทั้ง gray และ white — ขาดเลือด ขาดออกซิเจน) → steroid ไม่ได้ผล · interstitial (CSF ซึมรอบโพรงสมอง — hydrocephalus) → ระบาย CSF",
-   "<b>นอกสไลด์:</b> dexamethasone ในเนื้องอกสมอง: อาการน้อยราว 4–8 mg/วัน อาการรุนแรงราว 16 mg/วัน แล้วลดขนาดเมื่ออาการดีขึ้น · ไม่มีอาการไม่ต้องให้"
+   "Vasogenic: BBB รั่ว · white matter · เนื้องอก ฝี → steroid ได้ผล",
+   "Cytotoxic: เซลล์บวม (Na-K pump ล้มเหลว) · gray + white · stroke, TBI → steroid ไม่ได้ผล",
+   "Interstitial: hydrocephalus → ระบาย CSF",
+   "Dexamethasone: 4–16 mg/วัน แบ่งให้",
+   "Steroid ใน TBI เพิ่มอัตราตาย (CRASH)",
+   "ICP สูงเฉียบพลัน → mannitol/ hypertonic saline"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Tumor = Vasogenic = Dexa ได้ผล · Stroke/ TBI = Cytotoxic = Dexa ไม่ช่วย'</b>",
+  "guide": "SNO/ EANO Joint Practice Guideline on Corticosteroid Use in Neuro-Oncology; CRASH Trial (Lancet 2004;364:1321)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยได้ dexamethasone นาน น้ำตาลสูง กล้ามเนื้อต้นขาอ่อนแรงลุกจากเก้าอี้ลำบาก → steroid myopathy: ลดขนาดเท่าที่ทำได้",
-   "<b>นอกสไลด์:</b> ผู้ป่วยเนื้องอกสมองได้ dexamethasone ขนาดสูง มีประวัติแผลในกระเพาะ → ให้ PPI ร่วม (ให้เฉพาะผู้ที่มีปัจจัยเสี่ยง)"
+   "ผู้ป่วย metastasis บวมรอบมาก ปวดหัว → dexamethasone",
+   "ischemic stroke ขนาดใหญ่ สมองบวมวันที่ 3 → decompressive craniectomy (ไม่ใช่ steroid)",
+   "บาดเจ็บสมองรุนแรง → ห้าม steroid"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 48 — ตัวพิมพ์: <b>18. brain tumor เปนedemaแบบไหน treatยังไง — A. vasogenic ให้steroidลดบวมได้ B. vasogenic ให้steroidลดบวมไม่ได้ C. cytotoxic ให้ steroid ลดบวมได้ D. cytotoxic ให้steroid ลดบวมไม่ได้</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"brain tumor เปนedemaแบบไหน treatยังไง\" · A \"vasogenic ให้steroid\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 39: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 48",
+  "kimg": [
+   "fsk_p48",
+   "kp69a_18",
+   "k2p_39"
   ]
  },
  "MDCU69|RoA|19": {
-  "interp": "มองขึ้นไม่ได้ร่วม light-near dissociation (Parinaud syndrome) · ถามเนื้องอกที่เป็นสาเหตุ",
-  "why": "<b>คีย์: ขีด E · ลายมือ Parinaud syndrome</b><br><b>นอกสไลด์:</b> Parinaud เกิดจากการกด dorsal midbrain (pretectum, posterior commissure) ซึ่งอยู่ใต้ต่อม pineal — pineal tumor กดตรงตำแหน่งนี้และมักอุด aqueduct จน hydrocephalus ร่วม",
+  "interp": "<b>มองขึ้นไม่ได้ (upward gaze paresis) + light-near dissociation</b> เกิดจากเนื้องอกชนิดใด",
+  "why": "มองขึ้นไม่ได้ + รูม่านตาหดเมื่อมองใกล้แต่ไม่หดต่อแสง = <b>Parinaud (dorsal midbrain) syndrome</b> จากการกด tectum/ pretectal area → สาเหตุเนื้องอกคลาสสิกคือ <b>pineal region tumor</b> (germinoma, pineocytoma/ pineoblastoma, teratoma) มักร่วมกับ hydrocephalus (aqueduct ถูกกด) · ไฟล์ขีด E ไฮไลต์ <b>\"Pineal tumour\"</b> และลายมือ <b>\"Parinaud syndrome\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Parinaud เป็นอาการบอกตำแหน่งของ craniopharyngioma เพราะก้อนอยู่ sella/suprasellar อาการหลักคือ bitemporal hemianopia ต่อมใต้สมองทำงานลดลง และเบาจืด",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น glioma ที่ thalamus หรือ glioblastoma ที่ลุกลามผ่าน splenium ของ corpus callosum ลงไปกด tectum",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Parinaud เป็นอาการบอกตำแหน่งของ pituitary macroadenoma เพราะก้อนใน sella โตขึ้นบนกด chiasm และออกข้างเข้า cavernous sinus (CN III, IV, VI) — ไม่ถึง dorsal midbrain",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Parinaud เป็นอาการบอกตำแหน่งของ acoustic neuroma เพราะก้อนอยู่ที่ cerebellopontine angle อาการบอกตำแหน่งคือหูตึงข้างเดียว เสียงในหู และ CN V, VII"
+   "A": "Craniopharyngioma อยู่เหนือ sella กด chiasm → bitemporal hemianopia + ฮอร์โมนต่ำ/ DI/ ตัวเตี้ย · จะถูกถ้าเด็กตัวเตี้ย ปัสสาวะมาก ตามัวด้านข้าง CT ก้อนมีหินปูน",
+   "B": "GBM อยู่ใน cerebral hemisphere ทำให้อ่อนแรง ชัก บุคลิกเปลี่ยนตามตำแหน่ง · จะถูกถ้าชาย 60 ปีอาการแย่ลงเร็ว MRI ก้อน ring ข้าม corpus callosum",
+   "C": "Pituitary macroadenoma กด chiasm → bitemporal hemianopia ± ฮอร์โมนผิดปกติ · จะถูกถ้าผู้ป่วยตามัวด้านข้างสองตา MRI ก้อนใน sella",
+   "D": "Acoustic neuroma อยู่ที่ CPA → หูไม่ได้ยินข้างเดียว tinnitus เซ · จะถูกถ้าผู้ป่วยหูไม่ได้ยินข้างเดียวค่อยเป็น"
   },
-  "trap": "Parinaud บอกตำแหน่ง (dorsal midbrain) ไม่ได้บอกชนิดเนื้องอก — ก้อนใดหรือโรคใดที่กดบริเวณนี้ก็ทำได้ รวมถึง hydrocephalus จาก aqueductal stenosis",
+  "trap": "สับสนอาการตาของ suprasellar tumor (ลานสายตา) กับ pineal tumor (การกลอกตาขึ้น + pupil)",
   "summary": [
-   "<b>นอกสไลด์:</b> ก้อนบริเวณ pineal: เด็ก/วัยรุ่นชายส่วนใหญ่เป็น germ cell tumor (germinoma มากสุด) · ตรวจ AFP และ β-hCG ในเลือดและ CSF · มี hydrocephalus → ETV ซึ่งเก็บ CSF และตัดชิ้นเนื้อได้ในคราวเดียว · germinoma ไวต่อรังสีและเคมีมาก"
+   "Parinaud: upgaze palsy · light-near dissociation · convergence-retraction nystagmus · Collier sign",
+   "สาเหตุ: pineal tumor · hydrocephalus · midbrain stroke",
+   "Germinoma: วัยรุ่นชาย · β-hCG/ PLAP · ไวต่อรังสี",
+   "Suprasellar (pituitary, craniopharyngioma) → bitemporal hemianopia",
+   "CPA (acoustic neuroma) → หู",
+   "Hydrocephalus → ETV + biopsy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ช้อย C ต้นฉบับว่าง จึงเติม pituitary macroadenoma",
+  "mnemonic": "<b>'Pineal → Parinaud (P-P) มองขึ้นไม่ได้'</b>",
+  "guide": "Youmans and Winn Neurological Surgery 8th ed. (2022) — Pineal region tumors; Walsh and Hoyt's Clinical Neuro-Ophthalmology 7th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> วัยรุ่นชาย ก้อนที่ pineal AFP ในเลือดสูงมาก → nonseminomatous germ cell tumor: เริ่มเคมีได้โดยไม่ต้องตัดชิ้นเนื้อ",
-   "<b>นอกสไลด์:</b> เด็กเป็น retinoblastoma ทั้งสองตา MRI พบก้อนที่ pineal → trilateral retinoblastoma"
+   "วัยรุ่นชายปวดหัว มองขึ้นไม่ได้ β-hCG ใน CSF สูง → pineal germinoma",
+   "เด็กตัวเตี้ย ตามัวด้านข้าง ก้อนหินปูนเหนือ sella → craniopharyngioma",
+   "ทารกหัวโต ตาเหลือบลง (setting sun) → hydrocephalus"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 48–49 — ตัวพิมพ์: <b>19. upward gaze paresia &amp; near light dissociation เสีย เกิดจาก — A. craniopharyngioma B. glioblastoma multiforme C. D. acoustic neuroma E. Pineal tumour</b><br>ลายมือ: \"Parinaud syndrome\" ใต้โจทย์ · ขีด E<br>ไฮไลต์: \"upward gaze paresia &amp; near light dissociation\" · E \"Pineal tumour\" (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 39–40: ขีด E (ตรงกัน)<br>ที่ปรับในเว็บ: ช้อย C ว่าง → เติม pituitary macroadenoma",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 48",
+  "kimg": [
+   "fsk_p48",
+   "kp69a_19",
+   "kp69a_19b",
+   "k2p_40"
   ]
  },
  "MDCU69|RoA|24": {
-  "interp": "ถามว่านอกจากก้อนเลือดในกะโหลก อะไรทำให้ ICP สูงขึ้น",
-  "why": "<b>คีย์: ไม่มีเฉลยในไฟล์</b><br><b>นอกสไลด์:</b> CO2 ในเลือดสูงทำให้หลอดเลือดสมองขยาย → ปริมาตรเลือดในกะโหลกเพิ่ม → ICP สูง (Monro-Kellie) · จึงต้องคุม PaCO2 ให้ปกติในผู้ป่วยบาดเจ็บสมอง",
+  "interp": "นอกจาก<b>ก้อนเลือดในสมอง</b>แล้ว ปัจจัยใดทำให้<b>ความดันในกะโหลกศีรษะ (ICP) สูงขึ้น</b>",
+  "why": "ICP ขึ้นกับปริมาตรสมอง เลือด และ CSF (Monro-Kellie) · <b>Hypercapnia (PaCO2 สูง)</b> ทำให้<b>หลอดเลือดสมองขยาย</b> → cerebral blood volume เพิ่ม → <b>ICP สูงขึ้น</b> (PaCO2 เพิ่ม 1 mmHg → CBF เพิ่ม ~3–4%) · สาเหตุอื่นที่เพิ่ม ICP: hypoxia, ไข้, ชัก, ไอ/ เบ่ง/ ดิ้น, ศีรษะต่ำ/ คอบิด (ขวางการไหลกลับของเลือดดำ), hyponatremia · ส่วน hyperventilation, ยกศีรษะ 30°, mannitol, sedation ล้วน<b>ลด ICP</b> · ไฟล์จดเพียงคำถาม <b>\"24. นอกจากก้อนเลือดในสมองแล้ว อะไรทำให้ ICP เพิ่มอีก\"</b> และถูก<b>ขีดฆ่าทั้งบรรทัด</b> ไม่มีช้อยและคีย์",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การหายใจเร็วทำให้ ICP สูงขึ้น เพราะ CO2 ลด หลอดเลือดสมองหด ปริมาตรเลือดในกะโหลกลดลง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ยกศีรษะ 30 องศาโดยคอตรงทำให้ ICP สูงขึ้น เพราะช่วยให้เลือดดำไหลออกจากกะโหลกได้ดีขึ้น",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าให้ mannitol ซ้ำหลายวันในสมองที่ blood-brain barrier เสียมาก — mannitol สะสมในเนื้อสมองแล้วดึงน้ำกลับ (rebound ICP)",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าให้ยานอนหลับขนาดสูงในผู้ป่วยที่ไม่ได้ใส่ท่อช่วยหายใจจนกดการหายใจ CO2 คั่ง"
+   "B": "Hyperventilation ลด PaCO2 → หลอดเลือดหด → ICP ลด (ใช้ชั่วคราวเมื่อจะ herniate) · จะถูกถ้าคำถามถามวิธีลด ICP ชั่วคราวระหว่างรอผ่าตัด (เป้า PaCO2 30–35)",
+   "C": "ยกศีรษะ 30° ช่วยเลือดดำไหลกลับ → ICP ลด · จะถูกถ้าคำถามถามมาตรการพื้นฐานลด ICP",
+   "D": "Mannitol ดึงน้ำออกจากสมอง (osmotic) → ICP ลด · จะถูกถ้าคำถามถามยาลด ICP เฉียบพลัน (0.25–1 g/kg)",
+   "E": "Sedation ลดการดิ้น ไอ และเมตาบอลิซึมสมอง → ICP ลด · จะถูกถ้าคำถามถามขั้นตอน tier 1 ในการคุม ICP ผู้ป่วยใส่ท่อ"
   },
-  "trap": "ยกศีรษะ 30 องศาและให้ยานอนหลับฟังดูเหมือนรบกวนสมอง แต่ทั้งคู่ลด ICP · hyperventilation ลด ICP ได้จริงแต่ใช้แค่ชั่วคราวเมื่อกำลังจะ herniate เพราะหลอดเลือดหดจนสมองขาดเลือด",
+  "trap": "คิดว่าหายใจเร็ว (hyperventilation) ทำให้ ICP สูง — ตรงกันข้าม CO2 ต่ำทำให้หลอดเลือดหด ICP ลด",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยที่ทำให้ ICP สูงนอกจากก้อน: สมองบวม · hydrocephalus · เลือดดำไหลออกไม่สะดวก (คอบิด นอนราบ PEEP สูง) · CO2 สูง ออกซิเจนต่ำ · ไข้ ชัก ดิ้น ไอ เบ่ง · โซเดียมต่ำ"
+   "ICP ปกติ &lt; 15 mmHg · รักษาเมื่อ &gt; 22 mmHg",
+   "เพิ่ม ICP: hypercapnia · hypoxia · ไข้ · ชัก · ไอ/ เบ่ง · คอบิด · hyponatremia",
+   "ลด ICP: ศีรษะสูง 30° · sedation · mannitol/ hypertonic saline · ระบาย CSF",
+   "Hyperventilation ชั่วคราว (PaCO2 30–35) ระวังสมองขาดเลือด",
+   "CPP = MAP − ICP เป้า 60–70",
+   "Cushing triad: ความดันสูง · ชีพจรช้า · หายใจผิดปกติ"
   ],
-  "opinion": "ไม่มีคีย์ — ตอบ A · มั่นใจสูง",
+  "opinion": "ตอบ A ความมั่นใจสูง — ไฟล์มีเพียงคำถามที่ถูกขีดฆ่า ไม่มีช้อยและคีย์ทั้งสองไฟล์ จึงแต่งช้อยตามสรีรวิทยา ICP",
+  "mnemonic": "<b>'CO2 สูง = หลอดเลือดสมองขยาย = ICP สูง'</b>",
+  "guide": "Brain Trauma Foundation: Guidelines for the Management of Severe Traumatic Brain Injury, 4th ed. (Neurosurgery 2017;80:6); SIBICC consensus (Intensive Care Med 2019;45:1783)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยบาดเจ็บสมองใส่ท่อ ICP สูงขึ้นหลังใส่ cervical collar แน่น → คลาย collar ให้เลือดดำที่คอไหลได้",
-   "<b>นอกสไลด์:</b> ผู้ป่วยบาดเจ็บสมองใส่ท่อ ชักกระตุกและไข้ 39 °C ICP สูงขึ้น → ให้ยากันชักและลดไข้"
+   "ผู้ป่วยบาดเจ็บสมองใส่ท่อ PaCO2 55 ICP สูง → ปรับเครื่องช่วยหายใจให้ PaCO2 35–40",
+   "ผู้ป่วยรูม่านตาข้างเดียวขยายขณะรอผ่าตัด → hyperventilation ชั่วคราว + mannitol",
+   "ผู้ป่วย ICP สูง มีไข้ 39 °C → ลดไข้ (ไข้เพิ่มเมตาบอลิซึมและ ICP)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 49 — ตัวพิมพ์: <b>24. นอกจากก้อนเลือดในสมองแล้ว อะไรทำให้ ICP เพิ่มอีก</b> (ไม่มีช้อย)<br>ลายมือ: ขีดฆ่าทั้งบรรทัดด้วยเส้นแดง<br>ไฮไลต์: ไม่มี<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 40: ไม่มีขีด<br>ที่ปรับในเว็บ: ไม่มีช้อยและคีย์ → แต่งช้อยและเฉลย",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 49",
+  "kimg": [
+   "fsk_p49",
+   "kp69a_24",
+   "k2p_40"
   ]
  },
  "MDCU69|RoA|25": {
-  "interp": "ถามลักษณะของ CSF ที่ชี้ว่าเลือดมาจากเข็มแทงโดนหลอดเลือด (traumatic tap) ไม่ใช่ SAH จริง · ทุกช้อย A–D เป็นลักษณะของ SAH",
-  "why": "<b>คีย์: ขีด E · ลายมือ A–D = SAH · ตาราง traumatic LP vs true SAH</b><br><b>นอกสไลด์:</b> A–D ล้วนชี้ SAH จริง: เลือดอยู่ใน CSF มาก่อนจึงไม่จางลงตามหลอด ความดันสูง RBC แตกเป็นสีเหลือง และมีการอักเสบตามมา — ไม่มีช้อยใดเป็นลักษณะของ traumatic tap",
+  "interp": "ถามลักษณะของ <b>traumatic lumbar tap</b> (ต่างจาก SAH จริง)",
+  "why": "ช้อย A–D ล้วนเป็นลักษณะของ <b>SAH จริง</b> ไม่ใช่ traumatic tap: <b>เลือดคงที่ทั้ง 3 หลอด</b> (traumatic tap: แดงในหลอดแรกแล้วจางลง), <b>ความดันเปิดสูง</b> (traumatic: ปกติ), <b>xanthochromia</b> (เลือดสลายใน CSF ≥ 2–12 ชม. — traumatic: ไม่มี), <b>WBC สูงเกินสัดส่วน</b> (traumatic: WBC ตามสัดส่วน RBC) → คำตอบคือ <b>none of the above</b> · ลักษณะ SAH อื่น: RBC crenated, erythrophages, ไม่จับเป็นลิ่ม · ไฟล์ขีด E ลายมือ <b>\"= SAH\"</b> ข้างช้อย A–D และแปะตาราง <b>\"Diagnosis: Lumbar Puncture — Traumatic LP vs True SAH\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เลือดไม่จางลงทุกหลอดเป็นลักษณะที่ชี้ traumatic tap เพราะเลือดที่ปนตอนเข็มผ่านหลอดเลือดจะค่อย ๆ จางลงในหลอดหลัง",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ opening pressure สูงชี้ traumatic tap เพราะการแทงโดนหลอดเลือดไม่ได้เพิ่มความดัน CSF",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ xanthochromia ชี้ traumatic tap เพราะต้องใช้เวลาหลายชั่วโมงในร่างกายให้ RBC แตกเป็น bilirubin — เลือดที่เพิ่งปนจากเข็มและปั่นทันทีจึงไม่เหลือง",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ WBC สูงเกินสัดส่วนชี้ traumatic tap เพราะเลือดจากเข็มให้ WBC ตามสัดส่วนของเลือด — WBC สูงเกินบ่งการอักเสบจากเลือดใน subarachnoid หรือการติดเชื้อ"
+   "A": "เลือดคงที่ทั้ง 3 หลอดเป็นลักษณะของ SAH จริง (ลายมือ \"= SAH\") · จะถูกถ้าคำถามถามลักษณะที่ช่วยยืนยัน SAH",
+   "B": "ความดันเปิดสูงพบใน SAH (~60%) traumatic tap ความดันปกติ (ลายมือ \"= SAH\") · จะถูกถ้าคำถามถามลักษณะ CSF ของ SAH",
+   "C": "Xanthochromia คือเครื่องหมายสำคัญของ SAH (ลายมือ \"= SAH\") · จะถูกถ้าคำถามถามการตรวจที่แยก SAH จาก traumatic tap ได้ดีที่สุด",
+   "D": "WBC สูงเกินสัดส่วน RBC พบใน SAH (การอักเสบ) traumatic tap WBC ตามสัดส่วน (ลายมือ \"= SAH\") · จะถูกถ้าคำถามถามลักษณะ SAH ระยะหลัง"
   },
-  "trap": "การนับ RBC หลอดแรกเทียบหลอดสุดท้ายที่ลดลงไม่ได้ตัด SAH ได้แน่นอน — ตัวที่เชื่อถือได้ที่สุดคือ xanthochromia เมื่อเจาะหลังปวดศีรษะอย่างน้อยราว 12 ชม.",
+  "trap": "อ่านคำถามกลับ — A–D เป็นลักษณะของ SAH ทั้งหมด จึงไม่ใช่ traumatic tap",
   "summary": [
-   "<b>นอกสไลด์:</b> SAH: RBC ไม่ลดลงตามหลอด · xanthochromia (เชื่อถือได้เมื่อ ≥ 12 ชม. อยู่ได้ราว 2 สัปดาห์) · opening pressure มักสูง · traumatic tap: RBC ลดลงจากหลอดแรกถึงหลอดสุดท้าย · ไม่มี xanthochromia · ความดันปกติ"
+   "Traumatic tap: เลือดลดลงตามหลอด · ความดันปกติ · ไม่มี xanthochromia · WBC ตามสัดส่วน · อาจเป็นลิ่ม",
+   "SAH: เลือดคงที่ · ความดันสูง · xanthochromia · crenated RBC · erythrophages",
+   "Xanthochromia ปรากฏ ≥ 2–12 ชม. อยู่ได้ ~2 สัปดาห์",
+   "LP เพื่อตัด SAH เมื่อ CT ปกติแต่ยังสงสัย",
+   "CT ภายใน 6 ชม. ไวเกือบ 100%",
+   "LP บวก → CTA/ DSA"
   ],
-  "opinion": "ตามคีย์ E · มั่นใจปานกลาง (stem ปรับให้ตรงเจตนาคีย์: ต้นฉบับถามกลับด้านทำให้ช้อยขัดกันเอง)",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และตารางที่แปะ · โจทย์ต้นฉบับถาม \"อะไรไม่ใช่ลักษณะของ traumatic tap\" ซึ่งคำตอบตามคีย์คือ none of above เว็บจึงเรียบเรียงคำถามให้สอดคล้อง",
+  "mnemonic": "<b>'Traumatic tap = เลือดจางลงทีละหลอด · SAH = เลือดเท่าเดิม + สีเหลือง'</b>",
+  "guide": "Edlow JA et al. Diagnosis of subarachnoid hemorrhage (J Emerg Med); 2023 AHA/ASA Guideline for Aneurysmal SAH (Stroke 2023;54:e314)",
   "variants": [
-   "<b>นอกสไลด์:</b> ปวดศีรษะทันทีแบบ thunderclap 3 ชม. ตรวจระบบประสาทปกติ CT ภายใน 6 ชม.ปกติ → SAH แทบตัดได้ ไม่ต้องเจาะหลัง",
-   "<b>นอกสไลด์:</b> CSF ที่เจาะได้มีเลือดจับตัวเป็นลิ่มในหลอด → traumatic tap (เลือดใน SAH ถูกสลาย fibrin จึงไม่แข็งตัว)"
+   "LP: RBC หลอดแรก 20,000 หลอดสี่ 500 ไม่มี xanthochromia → traumatic tap",
+   "LP 12 ชม.หลังปวดหัว พบ xanthochromia → SAH → CTA",
+   "ปวดหัวฟ้าผ่า 3 ชม. CT ปกติ → SAH แทบตัดได้ (ไม่จำเป็นต้อง LP ในบางแนวทาง)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 49 — ตัวพิมพ์: <b>25. อะไรไม่ใช่ลักษณะของ traumatic tap — A. 3-tube test: persistently bloody csf B. high opening pressure C. Xanthochromia D. High WBC count E. None of above</b><br>ลายมือ: \"= SAH\" ข้างช้อย A, B, C, D (แดง) · ขีด E<br>ไฮไลต์: \"ไม่ใช่\" \"ลักษณะของ traumatic tap\" · A–D (เหลือง)<br>รูปที่แปะ: ตาราง Diagnosis: Lumbar Puncture (CSF finding / Traumatic LP / True SAH) — Opening pressure: Normal / Elevated (60% of cases) · Xanthochromia: Absent / Present · 3-tube test: Initially bloody CSF / Persistently bloody CSF · RBC count: Decrease in following tubes / Persistent in following tubes · WBC count: Proportional to RBC / Proportional/Increase · Clot formation: Occurs rarely / Absent · Crenated RBCs: Absent / Present · Erythophages: Absent / Present (Edlow JA, et al. J Emerg Med)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 40: ขีด E (ตรงกัน)<br>ที่ปรับในเว็บ: เรียบเรียงคำถามเป็น feature of traumatic tap",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 49",
+  "kimg": [
+   "fsk_p49",
+   "kp69a_25",
+   "k2p_40"
   ]
  },
  "MDCU69|RoA|32": {
-  "interp": "ผู้ป่วยเบาหวานมีฝีรอบทวารร่วม cellulitis รอบ ๆ · ถามการจัดการ",
-  "why": "<b>คีย์: ขีด B · สไลด์ treatment</b><br><b>นอกสไลด์:</b> ฝีต้องระบายเสมอ · ยาปฏิชีวนะเสริมเมื่อมี cellulitis รอบกว้าง ภูมิคุ้มกันต่ำ (เช่นเบาหวาน) ลิ้นหัวใจเทียม หรือมี sepsis — ผู้ป่วยนี้มีทั้งเบาหวานและ cellulitis",
+  "interp": "ผู้ป่วย<b>เบาหวาน</b> มี <b>perianal abscess ร่วมกับ cellulitis</b> รอบ ๆ → ถามการรักษา",
+  "why": "ฝีรอบทวารรักษาหลักด้วย <b>incision and drainage</b> · <b>ยาปฏิชีวนะเสริม</b>เมื่อ: <b>มี cellulitis ลามรอบ</b>, <b>ภูมิคุ้มกันต่ำ/ เบาหวาน</b>, ลิ้นหัวใจเทียม/ เสี่ยง endocarditis, sepsis, ฝีลึก/ ซับซ้อน → ผู้ป่วยนี้มีทั้งเบาหวานและ cellulitis จึงต้อง <b>ระบาย + ยาปฏิชีวนะ</b> · ~40% เกิด fistula-in-ano ภายหลัง · ไฟล์ขีด B ไฮไลต์ <b>\"I and D and ATB\"</b> และแปะสไลด์ <b>Treatment</b> (perianal/ intersphincteric = simple → I&amp;D; ischioanal (horseshoe)/ supralevator = deep/ complex; drainage + ATB เมื่อ immunocompromise, cellulitis, deep infection, sepsis)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นฝีรอบทวารเล็ก ไม่มี cellulitis รอบ ในผู้ป่วยแข็งแรงไม่มีภูมิคุ้มกันบกพร่อง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ยาปฏิชีวนะอย่างเดียวรักษาฝีรอบทวาร เพราะยาเข้าไปในโพรงหนองได้น้อย ต้องระบายหนองออก",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าระหว่างระบายฝีพบรูเปิดภายในและทางเชื่อมที่ผ่านกล้ามเนื้อหูรูดเป็นส่วนมาก — ใส่ loose seton ระบาย",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ไม่ต้องรักษาฝีรอบทวาร เพราะหนองจะลามไปช่องลึกรอบทวาร"
+   "A": "I&amp;D อย่างเดียวพอในคนแข็งแรงไม่มี cellulitis · จะถูกถ้าชาย 30 ปีไม่มีโรคประจำตัว ฝีรอบทวารไม่มีผิวแดงลาม",
+   "C": "ยาปฏิชีวนะอย่างเดียวไม่ระบายหนอง ฝีไม่หาย · จะถูกถ้าเป็น cellulitis รอบทวารที่ยังไม่มีหนองเป็นก้อน",
+   "D": "Seton ใช้กับ fistula-in-ano ที่กินหูรูดมาก ไม่ใช่การรักษาฝีเฉียบพลันขั้นแรก · จะถูกถ้าหลังระบายฝีแล้วเหลือ transsphincteric fistula สูง",
+   "E": "มีคำตอบที่ถูก (B) · จะถูกถ้าทุกช้อยไม่ได้ระบายหนองเลย"
   },
-  "trap": "เลือก A เพราะจำว่าฝีต้องระบายอย่างเดียว — เบาหวานร่วม cellulitis รอบฝีเป็นข้อบ่งชี้ให้ยาปฏิชีวนะเสริม",
+  "trap": "ระบายอย่างเดียวเหมือนฝีทั่วไป — เบาหวาน + cellulitis ต้องให้ยาปฏิชีวนะร่วม",
   "summary": [
-   "<b>นอกสไลด์:</b> ระบายฝีรอบทวาร: ระบายเร็วแม้ยังคลำไม่นิ่ม (ฝีช่องลึกมักไม่ fluctuant) · กรีดใกล้ขอบทวารให้ทางเชื่อมที่อาจเกิดสั้น · ระบายให้หมด ไม่ต้องอัดผ้าแน่น · ไม่ต้องหารูเปิดภายในขณะอักเสบ"
+   "ฝีรอบทวาร: I&amp;D ทันที",
+   "ATB เสริม: cellulitis · เบาหวาน/ ภูมิต่ำ · ลิ้นเทียม · sepsis",
+   "Simple: perianal · intersphincteric (ต่ำ)",
+   "Complex: ischioanal (horseshoe) · supralevator → ผ่าตัดในห้องผ่าตัด",
+   "~40% เกิด fistula-in-ano",
+   "ลามเร็ว ผิวม่วงคล้ำ → Fournier gangrene"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ที่แปะ · ต้นฉบับมี 4 ช้อย (D = none of above) จึงแทรก seton เป็น D และย้าย none of above เป็น E",
+  "mnemonic": "<b>'ฝีก้น + เบาหวาน/ cellulitis = ผ่า + ยา'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
   "variants": [
-   "<b>นอกสไลด์:</b> ฝีเหนือกล้ามเนื้อ levator ที่มาจากช่องระหว่างหูรูด → ระบายเข้าทาง rectum (ระบายผ่านผิวหนังจะเกิด fistula ยาวผ่านหูรูด)",
-   "<b>นอกสไลด์:</b> ผู้ป่วยเบาหวานฝีรอบทวาร ผิวหนังรอบดำคล้ำ คลำได้ลมใต้ผิว ความดันต่ำ → Fournier gangrene: ตัดเนื้อตายด่วน"
+   "ชายแข็งแรง ฝีรอบทวาร ไม่มี cellulitis → I&amp;D อย่างเดียว",
+   "ฝี horseshoe ischioanal → ผ่าตัดระบายในห้องผ่าตัด (modified Hanley)",
+   "ฝีรอบทวาร ผิวม่วงคล้ำลามเร็ว ช็อก → Fournier gangrene"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 49 — ตัวพิมพ์: <b>32. Perianal abscess+dm+cellulitis — A. I and D B. I and D and ATB C. IVATB D. None of above</b><br>ลายมือ: ขีด B<br>ไฮไลต์: \"Perianal abscess+dm+cellulitis\" · B \"I and D and ATB\" (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ Treatment — Superficial/ Simple: Perianal abscess, Intersphincteric abscess → I&amp;D → fistula in ano 40% · Deep/ Complex: Ischioanal abscess (horseshoes), Supralevator abscess (I&amp;D + ATB …) · drainage * ATB if: immunocompromise, cellulitis, deep infection, abscess, sepsis (ลายมือเล็กหลายจุด)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 40: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: แทรกช้อย D seton และย้าย None of above เป็น E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 49",
+  "kimg": [
+   "fsk_p49",
+   "kp69a_32",
+   "k2p_40"
   ]
  }
 }
