@@ -14,7 +14,7 @@ import glob, json, os, re, sys
 LT = re.compile(r"<(?!/?(?:b|i|u|br|sup|sub|small)\b)")   # "<" ในข้อความ (เช่น pH < 7.2) → &lt; ไม่ให้หน้าเว็บกลืนเป็นแท็ก
 esc = lambda v: LT.sub("&lt;", v) if isinstance(v, str) else [esc(x) for x in v] if isinstance(v, list) else {k: esc(x) for k, x in v.items()} if isinstance(v, dict) else v
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OK = {"interp", "why", "wrong", "trap", "summary", "mnemonic", "opinion", "variants"}
+OK = {"interp", "why", "wrong", "trap", "summary", "mnemonic", "opinion", "variants", "guide", "notes", "kimg", "src"}  # guide/notes/kimg/src เพิ่ม 26 พ.ย. 2026: เฉลยข้อสอบเก่ารูปแบบ PDF L28 (ทริคจำ · อ้างอิง · ถอดตัวพิมพ์+ลายมือจากไฟล์)
 
 def build(slug):
     d = slug.replace("si_", "si/", 1) if slug.startswith("si_") else slug

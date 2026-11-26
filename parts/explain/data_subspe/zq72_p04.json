@@ -23,7 +23,9 @@
    "เด็ก 2 ขวบก้อน posterior mediastinum มีหินปูน → neuroblastoma",
    "ก้อนน้ำใสขอบเรียบที่มุมหัวใจกับกะบังลมขวา ไม่มีอาการ → pericardial cyst",
    "ผู้ป่วยธาลัสซีเมียมีก้อนเนื้อนุ่มสองข้างข้างกระดูกสันหลังส่วนอก → extramedullary hematopoiesis"
-  ]
+  ],
+  "mnemonic": "<b>'Anterior 4T: Thymus · Teratoma · Terrible lymphoma · Thyroid — pheo ไม่อยู่หน้า'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Mediastinum; Shields' General Thoracic Surgery 8th ed. (2019) — Mediastinal tumors"
  },
  "MDCU72|RoB|10": {
   "interp": "ผู้ป่วยอายุ 32 ปีใส่ลิ้นหัวใจเทียมชนิดโลหะ กิน warfarin INR 3.2 เป็น<b>ไส้ติ่งอักเสบเฉียบพลัน</b> — ถามการเตรียมผ่าตัดเร่งด่วน",
@@ -49,7 +51,9 @@
    "ผู้ป่วยลิ้น aortic bileaflet ไม่มี AF นัดผ่าตัดไส้เลื่อน → หยุด warfarin 5 วันโดยไม่ต้อง bridge",
    "ผู้ป่วยลิ้น mitral โลหะ นัด cholecystectomy → หยุด warfarin 5 วันและ bridge ด้วย LMWH",
    "ผู้ป่วยกิน warfarin INR 6 ไม่มีเลือดออก → หยุดยา 1–2 มื้อ ± vitamin K ขนาดต่ำทางปาก"
-  ]
+  ],
+  "mnemonic": "<b>'ลิ้นกล + ต้องผ่าด่วน: FFP/PCC แก้เร็ว ไม่ใช่ vitamin K'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72) — Anticoagulation for procedures"
  },
  "MDCU72|RoB|11": {
   "interp": "ชาย 60 ปีปวดหัวรุนแรงทันที (thunderclap) คอแข็ง ไม่มีอาการทางระบบประสาท CT ไม่ฉีดสีปกติ = ยังสงสัย <b>subarachnoid hemorrhage</b> — ถามการตรวจถัดไป",
@@ -76,7 +80,9 @@
    "LP ในผู้ป่วยสงสัย SAH เลือดในหลอดแรกมาก หลอดที่ 4 แทบใส ไม่มี xanthochromia → traumatic tap",
    "ผู้ป่วย SAH วันที่ 7 ซึมลงและแขนขวาอ่อนแรงใหม่ CT ไม่มีเลือดออกเพิ่ม → delayed cerebral ischemia จาก vasospasm",
    "ผู้ป่วย SAH 2 วันหลังเลือดออก ซึมลง CT เห็นโพรงสมองขยาย → hydrocephalus ใส่ EVD"
-  ]
+  ],
+  "mnemonic": "<b>'Thunderclap + CT ปกติ → LP (xanthochromia)'</b>",
+  "guide": "2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)"
  },
  "MDCU72|RoB|12": {
   "interp": "ถามว่าผลน้ำไขสันหลัง (CSF) ชุดไหน<b>เข้ากับ bacterial meningitis</b>",
@@ -103,7 +109,9 @@
    "CSF: WBC 150 lymphocyte น้ำตาล 25 โปรตีน 300 ผู้ป่วยไข้ต่ำ ๆ 3 สัปดาห์ เส้นประสาทสมองคู่ 6 อ่อนแรง → TB meningitis",
    "ผู้ป่วย HIV CD4 40 ปวดหัว ความดันเปิด 40 cmH₂O CSF เซลล์น้อย → cryptococcal meningitis ตรวจ cryptococcal antigen",
    "ผู้ป่วยอายุ 70 ปีสงสัย bacterial meningitis → ceftriaxone + vancomycin + ampicillin + dexamethasone"
-  ]
+  ],
+  "mnemonic": "<b>'Bacterial: WBC สูงหลักร้อย-พัน neutrophil + glucose ต่ำ'</b>",
+  "guide": "IDSA Practice Guidelines for the Management of Bacterial Meningitis (Clin Infect Dis 2004;39:1267)"
  },
  "MDCU72|RoB|13@p37": {
   "interp": "บาดเจ็บศีรษะด้านซ้าย หมดสติแล้วฟื้น (lucid interval) แล้วแย่ลง = <b>epidural hematoma</b> ซ้ายกด uncus — รูม่านตาซ้ายขยาย และ<b>อาการแขนขาด้านเดียวกับก้อน (ซ้าย)</b> ถามกลไกของอาการด้านเดียวกัน",
@@ -129,7 +137,9 @@
    "CT เห็นก้อนเลือดรูปเลนส์ 40 mL ที่ขมับซ้าย GCS 14 → craniotomy เอาก้อนออก (≥ 30 mL)",
    "ผู้ป่วยหลัง herniation นาน ผ่าตัดแล้ว CT ใหม่เห็นเลือดออกจุดเล็กกลาง pons → Duret hemorrhage",
    "ผู้สูงอายุกิน warfarin ล้มหัวกระแทก CT เห็นก้อนเลือดรูปพระจันทร์เสี้ยวข้ามรอยต่อกะโหลก → subdural hematoma"
-  ]
+  ],
+  "mnemonic": "<b>'Kernohan = รูม่านตาข้างเดียวกับก้อน แต่แขนขาอ่อนแรงข้างเดียวกัน (false localizing)'</b>",
+  "guide": "Youmans and Winn Neurological Surgery 8th ed. (2022) — Epidural hematoma; Brain herniation syndromes"
  },
  "MDCU72|RoB|14": {
   "interp": "ผู้ป่วยอายุน้อยชัก MRI เห็นถุงน้ำในสมองที่มีจุดตรงกลาง = <b>neurocysticercosis</b> — ถามการวินิจฉัย",
@@ -156,7 +166,9 @@
    "MRI พบถุงน้ำมีชีวิต 4 ถุงพร้อม scolex → albendazole + praziquantel + steroid หลังตรวจตาแล้ว",
    "ผู้ป่วยปวดหัว อาเจียน MRI เห็นถุงพยาธิใน ventricle ที่ 4 และ hydrocephalus → ผ่าตัดส่องกล้องเอาถุงออก",
    "ผู้ป่วย HIV CD4 30 มีก้อนวงแหวนหลายก้อนที่ basal ganglia → toxoplasmosis เริ่มยาแบบทดลองรักษา"
-  ]
+  ],
+  "mnemonic": "<b>'ถุงเล็กมีจุดตรงกลาง (scolex) = Neurocysticercosis'</b>",
+  "guide": "IDSA/ASTMH Clinical Practice Guidelines for the Diagnosis and Treatment of Neurocysticercosis (Clin Infect Dis 2018;66:e49)"
  },
  "MDCU72|RoB|15": {
   "interp": "ผู้ป่วยไข้ที่มี sinusitis MRI ฉีดสีเห็นหนองรูปพระจันทร์เสี้ยวใต้ dura ตามผิวสมอง = <b>subdural empyema</b> — ถามการวินิจฉัย",
@@ -182,7 +194,9 @@
    "ผู้ป่วย sphenoid sinusitis ตาโปนสองข้าง กลอกตาไม่ได้ ไข้สูง → cavernous sinus thrombosis",
    "MRI ผู้ป่วยไข้มีชั้นของเหลวใต้ dura ที่ DWI จำกัดการแพร่ → หนอง (empyema) ไม่ใช่ effusion",
    "เชื้อที่เพาะได้บ่อยจากหนองในกะโหลกที่มาจากไซนัส → Streptococcus anginosus group"
-  ]
+  ],
+  "mnemonic": "<b>'ไซนัสอักเสบ + ไข้ + ขอบ crescent enhance = Subdural empyema'</b>",
+  "guide": "Youmans and Winn Neurological Surgery 8th ed. (2022) — Intracranial infections; Osborn's Brain 2nd ed. (2018)"
  },
  "MDCU72|RoB|16": {
   "interp": "ผู้สูงอายุความดันสูง อาเจียนและเดินเซทันที CT ไม่ฉีดสีเห็นก้อนเลือดใน cerebellum = <b>cerebellar hemorrhage</b> — ถามการวินิจฉัย",
@@ -208,7 +222,9 @@
    "ผู้ป่วย AF เวียนหัว เดินเซ CT แรกปกติ วันที่ 3 ซึมลง → cerebellar infarct บวม กดก้านสมอง ผ่าตัดลดความดัน",
    "หญิง 75 ปีความจำเสื่อม เลือดออกในกลีบสมองซ้ำหลายครั้ง MRI เห็น microbleed ตามผิวสมอง → cerebral amyloid angiopathy",
    "ผู้ป่วยกิน warfarin INR 3.5 มีเลือดออกในสมอง → 4F-PCC + vitamin K IV"
-  ]
+  ],
+  "mnemonic": "<b>'สูงอายุ HT อาเจียน เดินเซ ก้อนขาวที่สมองน้อย = cerebellar bleed (> 3 cm → ผ่า)'</b>",
+  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)"
  },
  "MDCU72|RoB|17": {
   "interp": "MRI เห็นก้อนที่ <b>cerebellopontine angle (CPA)</b> — ถามอาการที่น่าจะพบมากที่สุด",
@@ -234,7 +250,9 @@
    "ผู้ป่วยอายุ 20 ปี MRI เห็น vestibular schwannoma ทั้งสองข้าง → neurofibromatosis type 2",
    "vestibular schwannoma 1.5 cm ในผู้สูงอายุ ไม่มีอาการนอกจากหูตึงเล็กน้อย → เฝ้าดูด้วย MRI หรือ radiosurgery",
    "ก้อน CPA ขนาด 4 cm ผู้ป่วยชาหน้าซีกเดียว corneal reflex ข้างนั้นลด → CN V ถูกกด ผ่าตัด"
-  ]
+  ],
+  "mnemonic": "<b>'CPA = Schwannoma → หูข้างเดียวเสื่อม (SNHL) อาการแรก'</b>",
+  "guide": "Congress of Neurological Surgeons Guidelines on the Management of Patients With Vestibular Schwannomas (Neurosurgery 2018;82:E32)"
  },
  "MDCU72|RoB|18": {
   "interp": "ข้อ NOT: MRI เห็นก้อนที่ <b>parietal lobe</b> (ในเนื้อสมอง) — หาโรคที่<b>ไม่อยู่</b>ในการวินิจฉัยแยกโรค",
@@ -260,7 +278,9 @@
    "ก้อนผนังหนาไม่เรียบลามข้าม corpus callosum ไปสองซีกรูปผีเสื้อ → glioblastoma",
    "ชาย 62 ปีสูบบุหรี่ MRI เห็นก้อนวงแหวน 3 ก้อนที่รอยต่อเนื้อสีเทาขาว → brain metastasis หาแหล่งปฐมภูมิที่ปอด",
    "ผู้ป่วยก้อนที่ parietal ซ้าย คำนวณเลขไม่ได้ เขียนไม่ได้ แยกซ้ายขวาไม่ได้ → Gerstmann syndrome"
-  ]
+  ],
+  "mnemonic": "<b>'ก้อนในเนื้อ parietal: GBM · mets · abscess — schwannoma อยู่ CPA'</b>",
+  "guide": "Osborn's Brain: Imaging, Pathology, and Anatomy 2nd ed. (2018)"
  },
  "MDCU72|RoB|19": {
   "interp": "หญิงอายุน้อยปวดหัว MRI เห็น <b>flow void</b> เป็นท่อคดเคี้ยว = <b>arteriovenous malformation (AVM)</b> — ถามการวินิจฉัย",
@@ -286,7 +306,9 @@
    "AVM 2 cm อยู่ลึกใน thalamus → radiosurgery",
    "ผู้ป่วยชักครั้งแรก MRI เห็น popcorn ขอบดำ DSA ปกติ → cavernous malformation",
    "การตรวจมาตรฐานเพื่อวางแผนรักษา AVM → digital subtraction angiography"
-  ]
+  ],
+  "mnemonic": "<b>'Flow void คดเคี้ยวเป็นงูในเนื้อสมอง = AVM'</b>",
+  "guide": "AHA/ASA Scientific Statement: Management of Brain Arteriovenous Malformations (Stroke 2017;48:e200)"
  },
  "MDCU72|RoB|20": {
   "interp": "ข้อ wrong เรื่อง <b>Wilms tumor</b> — หาข้อความที่ผิด คือ \"พยากรณ์โรคแย่\" ซึ่งจริง ๆ พยากรณ์ดีมาก",
@@ -312,6 +334,8 @@
    "ทารก 14 เดือนก้อนที่ท้องแข็งข้ามเส้นกลาง มีหินปูน ตาช้ำรอบสองข้าง → neuroblastoma",
    "เด็กชายอวัยวะเพศกำกวมและมีโปรตีนในปัสสาวะมากตั้งแต่ขวบปีแรก → Denys-Drash syndrome คัดกรอง Wilms ด้วย ultrasound",
    "เด็กมี Wilms ทั้งสองไต → เคมีบำบัดก่อนแล้วผ่าตัดแบบเก็บเนื้อไตไว้ให้มากที่สุด"
-  ]
+  ],
+  "mnemonic": "<b>'Wilms = ก้อนโต แต่พยากรณ์ดี (รอด > 90%)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Renal tumors (Wilms tumor); COG renal tumor risk stratification (AREN03B2)"
  }
 }

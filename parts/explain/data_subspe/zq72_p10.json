@@ -23,7 +23,9 @@
    "ทารก 2 เดือนกินนมผสม อุจจาระมีมูกเลือด เลี้ยงโตดี → แพ้โปรตีนนมวัว เปลี่ยนเป็นนมที่ย่อยโปรตีนสมบูรณ์",
    "เด็ก 4 ขวบถ่ายเลือดสดไม่เจ็บเป็นครั้ง ๆ บางครั้งมีก้อนยื่นจากทวาร → juvenile polyp ส่อง colonoscopy ตัด polyp",
    "ทารกแรกเกิดไม่ได้ฉีด vitamin K ตอนเกิด อายุ 5 วันเลือดออกทางเดินอาหารและสายสะดือ → vitamin K deficiency bleeding"
-  ]
+  ],
+  "mnemonic": "<b>'ทารกแรกเกิดเลือดออกล่าง: NEC · fissure · volvulus · กลืนเลือดแม่ — polyp โตแล้วค่อยเจอ'</b>",
+  "guide": "Nelson Textbook of Pediatrics 22nd ed. (2024) — GI bleeding; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)"
  },
  "MDCU72|RoD|60": {
   "interp": "ข้อ wrong เรื่อง <b>neuroblastoma</b> ของต่อมหมวกไตในเด็ก — หาข้อความที่ผิด คือ \"แพร่ไปกระดูก ตับ และปอด\"",
@@ -49,7 +51,9 @@
    "ทารก 6 เดือนก้อนต่อมหมวกไตเล็ก ตับโตและมีก้อนผิวหนังสีฟ้า ไขกระดูกมีเซลล์มะเร็งเล็กน้อย → ระยะ MS (4S) มักยุบเอง เฝ้าดู",
    "เด็ก 3 ขวบก้อนที่ไต CT ทรวงอกพบก้อนในปอดหลายก้อน → Wilms tumor แพร่ไปปอด",
    "ทารกตากระตุกทุกทิศ กล้ามเนื้อกระตุก เดินเซ → opsoclonus-myoclonus หา neuroblastoma"
-  ]
+  ],
+  "mnemonic": "<b>'Neuroblastoma กระจาย: กระดูก ไขกระดูก ตับ ผิว — ปอดน้อย'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Neuroblastoma; COG neuroblastoma risk classification"
  },
  "MDCU72|RoD|65": {
   "interp": "ชายปวดหัวรุนแรง (ภรรยาพามา) CT ไม่ฉีดสีไม่พบรอยโรค — ยังต้องตัด <b>subarachnoid hemorrhage</b> ถามขั้นตอนถัดไป",
@@ -75,7 +79,9 @@
    "ผู้ป่วย pituitary adenoma ปวดหัวรุนแรงทันที ตามัว เห็นภาพซ้อน ความดันต่ำ → pituitary apoplexy ให้ steroid และ MRI",
    "ชาย 40 ปีปวดคอข้างเดียวและปวดหัวหลังนวดคอแรง ๆ หนังตาตก รูม่านตาเล็ก → carotid dissection ทำ CTA คอ",
    "ผู้ป่วยปวดหัวรุนแรงทันที 3 ชม.ก่อน CT ปกติ (เครื่องรุ่นใหม่ ผู้อ่านเชี่ยวชาญ) ตรวจร่างกายปกติ → โอกาส SAH ต่ำมาก"
-  ]
+  ],
+  "mnemonic": "<b>'Thunderclap + CT ปกติ → LP'</b>",
+  "guide": "2023 AHA/ASA Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage (Stroke 2023;54:e314)"
  },
  "MDCU72|RoD|67": {
   "interp": "ชาย 60 ปีปวดหัว 1 เดือน อ่อนแรงซีกซ้าย 1 สัปดาห์ ภาพเห็นก้อนกด ventricle และ<b>สมองบวมรอบก้อน</b> = เนื้องอกสมองที่มี <b>vasogenic edema</b> — ถามยาที่ควรให้",
@@ -102,7 +108,9 @@
    "ผู้ป่วย HIV มีก้อนเดี่ยวรอบ ventricle สงสัย lymphoma → เลี่ยง steroid จนกว่าจะตัดชิ้นเนื้อ",
    "ผู้ป่วยก้อนในสมองซึมลงทันที รูม่านตาขวาขยาย → mannitol หรือ hypertonic saline ระหว่างนำเข้าห้องผ่าตัด",
    "ผู้ป่วยบาดเจ็บศีรษะรุนแรงสมองบวม → ไม่ให้ steroid (เพิ่มการตาย)"
-  ]
+  ],
+  "mnemonic": "<b>'ก้อนสมอง + บวมรอบ → Dexamethasone ก่อน'</b>",
+  "guide": "EANO Guidelines on diffuse gliomas of adulthood (Nat Rev Clin Oncol 2021;18:170); Youmans and Winn Neurological Surgery 8th ed. (2022) — Brain tumor edema"
  },
  "MDCU72|RoD|74": {
   "interp": "ผู้ป่วยไมเกรน — ถามอาการ/สิ่งตรวจพบที่<b>ต้องตรวจเพิ่ม</b> (สัญญาณอันตรายของปวดหัวทุติยภูมิ)",
@@ -128,7 +136,9 @@
    "หญิง 25 ปีไมเกรนมีภาพซิกแซกนำ 20 นาทีก่อนปวด ตรวจร่างกายปกติ → migraine with aura ไม่ต้องทำภาพ",
    "ผู้ป่วยไมเกรนเวียนหัวหมุนทันที เห็นภาพซ้อน เดินเซ พูดไม่ชัด → สงสัย stroke ที่ posterior circulation ทำ MRI ด่วน",
    "ผู้ป่วยปวดหัวทุกวันและกินยาแก้ปวด 20 วันต่อเดือน → medication overuse headache หยุดยาที่ใช้เกิน"
-  ]
+  ],
+  "mnemonic": "<b>'Migraine + papilledema = red flag (SNOOP4) → ตรวจต่อ'</b>",
+  "guide": "SNOOP4 red flags for secondary headache (Neurology 2019;92:134); American Headache Society Consensus Statement (Headache 2021;61:1021)"
  },
  "MDCU72|RoD|78": {
   "interp": "แผลลึกกลางแก้มพาดผ่านแนวท่อ parotid — ถามแขนงของเส้นประสาทใบหน้าที่เสี่ยงบาดเจ็บที่สุด",
@@ -154,7 +164,9 @@
    "แผลมีดบาดที่ขมับเหนือ zygomatic arch ยักคิ้วไม่ขึ้น → temporal branch ขาด",
    "หลังผ่าตัดต่อม submandibular มุมปากล่างข้างเดียวกันไม่ลงเวลายิ้ม → marginal mandibular branch บาดเจ็บ",
    "เส้นประสาทใบหน้าขาดเป็นช่วงยาว 2 cm ต่อชนไม่ได้ → nerve graft จาก great auricular nerve"
-  ]
+  ],
+  "mnemonic": "<b>'แผลแก้มกลาง ข้ามท่อ parotid = buccal branch (และ Stensen duct)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial soft-tissue injuries"
  },
  "MDCU72|RoD|79": {
   "interp": "ผู้ป่วย 70 kg ไหม้ 50% TBSA ได้สารน้ำ 2 L ระหว่างทาง 1 ชม.ก่อนถึงโรงพยาบาล — ถามอัตราที่ต้องให้เมื่อมาถึง (Parkland)",
@@ -180,7 +192,9 @@
    "ผู้ป่วย 80 kg ไหม้ 30% มาถึงทันที ยังไม่ได้สารน้ำ → 4,800 mL ใน 8 ชม.แรก = 600 mL/h",
    "ผู้ป่วยไหม้ 50% ได้สารน้ำตามสูตร 4 ชม. ปัสสาวะ 15 mL/h (70 kg) → เพิ่มอัตราราว 20–30%",
    "ผู้ป่วยไหม้ 50% ได้สารน้ำมาก ท้องตึง ปัสสาวะลด ความดันหายใจสูงขึ้น → วัดแรงดันในกระเพาะปัสสาวะหา abdominal compartment syndrome"
-  ]
+  ],
+  "mnemonic": "<b>'Parkland: ครึ่งแรกใน 8 ชม. หักน้ำที่ได้ไปแล้ว'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal injuries; ABA Guidelines for Burn Patient Referral (2022)"
  },
  "MDCU72|RoD|80": {
   "interp": "เด็ก 3 ขวบอยู่กับพ่อเลี้ยง มีแผลไหม้น้ำร้อนลวกระดับ 2 ที่เท้าทั้งสองข้าง<b>สมมาตร</b> (ลักษณะการจุ่ม) สงสัยถูกทำร้าย — ถามสิ่งที่ควรทำก่อน",
@@ -206,7 +220,9 @@
    "เด็ก 2 ขวบแผลไหม้ที่ก้นและขาสมมาตร เว้นตรงกลางก้น → แบบแผลจุ่มน้ำร้อน (doughnut sparing) สงสัยถูกทำร้าย",
    "เด็กดึงหม้อน้ำร้อนหกใส่ตัว รอยกระเซ็นไม่สม่ำเสมอที่หน้าอกและแขน เรื่องเล่าเข้ากับพัฒนาการ → แบบอุบัติเหตุ",
    "ทารกสงสัยถูกทำร้าย ซึม อาเจียน → CT สมองและตรวจจอตาหาเลือดออก (abusive head trauma)"
-  ]
+  ],
+  "mnemonic": "<b>'แผลสมมาตร + ไม่มีรอยกระเซ็น = สงสัยทำร้ายเด็ก → ส่ง burn center'</b>",
+  "guide": "AAP Clinical Report: The Evaluation of Suspected Child Physical Abuse (Pediatrics 2015;135:e1337); ABA Guidelines for Burn Patient Referral (2022)"
  },
  "MDCU72|RoD|ไม่มีเลข 1": {
   "interp": "หลังอุบัติเหตุรถยนต์ — ถามตำแหน่งที่ aorta บาดเจ็บบ่อยที่สุด",
@@ -232,7 +248,9 @@
    "CTA พบ intimal tear เล็กที่ isthmus → ยาคุมความดันและ CTA ซ้ำ",
    "หลัง TEVAR ที่คลุม left subclavian ผู้ป่วยเวียนหัวเวลาใช้แขนซ้าย → subclavian steal พิจารณา carotid-subclavian bypass",
    "ผู้ป่วยรถชนช็อกจากเลือดออกในช่องท้อง CT ทรวงอกพบ aortic injury เกรด II → ผ่าตัดช่องท้องห้ามเลือดก่อน"
-  ]
+  ],
+  "mnemonic": "<b>'รถชน → Isthmus 90%'</b>",
+  "guide": "SVS Clinical Practice Guidelines: Endovascular repair of traumatic thoracic aortic injury (J Vasc Surg 2011;53:187); ATLS 10th ed. (2018) — Thoracic trauma"
  },
  "MDCU72|RoD|ไม่มีเลข 2": {
   "interp": "ข้อ NOT: หาสิ่งที่<b>ไม่คาดว่าจะพบ</b>ใน cardiac tamponade — ภาพปอดบวมน้ำเป็นลักษณะของหัวใจซีกซ้ายล้มเหลว",
@@ -258,7 +276,9 @@
    "ECG ผู้ป่วยน้ำในเยื่อหุ้มหัวใจมาก QRS สูงต่ำสลับกันทุกจังหวะ → electrical alternans",
    "ผู้ป่วยวัณโรคเยื่อหุ้มหัวใจเดิม JVP สูงขึ้นขณะหายใจเข้า ฟังได้ pericardial knock CT เยื่อหุ้มหนามีหินปูน → constrictive pericarditis",
    "ผู้ป่วยหัวใจซีกซ้ายล้มเหลว หอบ นอนราบไม่ได้ CXR ปอดบวมน้ำ เงาเลือดคั่งที่ขั้วปอด → left heart failure"
-  ]
+  ],
+  "mnemonic": "<b>'Beck triad: BP ต่ำ · JVP สูง · เสียงหัวใจเบา — ปอดใสไม่บวมน้ำ'</b>",
+  "guide": "2015 ESC Guidelines for the diagnosis and management of pericardial diseases (Eur Heart J 2015;36:2921)"
  },
  "MDCU72|RoD|ไม่มีเลข 3": {
   "interp": "ถามกลุ่มต่อมน้ำเหลืองที่<b>ไม่ใช่</b>ทางระบายด่านแรกของมะเร็งอัณฑะ (ในรายที่ไม่เคยผ่าหรือเจาะถุงอัณฑะ)",
@@ -284,7 +304,9 @@
    "มะเร็งอัณฑะขวา CT พบต่อมโตระหว่าง aorta กับ IVC ระดับไต → interaortocaval node (ด่านแรก)",
    "ชายเคยผ่าตัด hydrocele ผ่านถุงอัณฑะ ต่อมามีมะเร็งอัณฑะ → ต้องประเมินต่อมขาหนีบด้วย",
    "ชาย 30 ปีมะเร็งอัณฑะ AFP สูงมาก → nonseminomatous germ cell tumor (seminoma บริสุทธิ์ไม่สร้าง AFP)"
-  ]
+  ],
+  "mnemonic": "<b>'อัณฑะ → ต่อมน้ำเหลือง retroperitoneal (para-aortic) ไม่ใช่ inguinal'</b>",
+  "guide": "EAU Guidelines on Testicular Cancer 2024"
  },
  "MDCU72|RoD|ไม่มีเลข 4": {
   "interp": "แผลกดทับที่ผิวหลุด<b>บางส่วน เห็นหนังแท้</b> — ถามระยะ",
@@ -310,6 +332,8 @@
    "แผลที่ sacrum ผิวยังดีแต่เป็นสีม่วงคล้ำเหมือนรอยช้ำลึก → deep tissue pressure injury",
    "ผู้ป่วยกลั้นอุจจาระไม่อยู่ ผิวรอบก้นแดงเปื่อยกระจายไม่เป็นขอบชัด ไม่ได้อยู่บนปุ่มกระดูก → incontinence-associated dermatitis ไม่ใช่แผลกดทับ",
    "Braden score 12 ในผู้ป่วยติดเตียง → ความเสี่ยงสูง เริ่มมาตรการป้องกันเต็มที่"
-  ]
+  ],
+  "mnemonic": "<b>'Stage II = แผลตื้นเห็น dermis'</b>",
+  "guide": "NPIAP/EPUAP/PPPIA International Guideline: Prevention and Treatment of Pressure Ulcers/Injuries 3rd ed. (2019)"
  }
 }

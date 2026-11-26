@@ -24,7 +24,9 @@
    "ชาย 3 วันหลังเจาะชิ้นเนื้อต่อมลูกหมากทาง rectum ไข้สูงหนาวสั่น → ยาครอบคลุมเชื้อดื้อยา (carbapenem) เพาะเชื้อเลือด",
    "ชาย 70 ปีปัสสาวะไม่ออกหลังกินยาแก้หวัด ไม่มีไข้ → สวนระบายแล้วให้ alpha-blocker 2–3 วันก่อนลองถอดสาย",
    "ชาย 35 ปีปวดฝีเย็บเป็น ๆ หาย ๆ UTI ซ้ำเชื้อเดิมหลายครั้ง → chronic bacterial prostatitis ยา fluoroquinolone 4–6 สัปดาห์"
-  ]
+  ],
+  "mnemonic": "<b>'Acute prostatitis + ปัสสาวะไม่ออก: ใส่สาย + ATB IV (suprapubic ถ้ากลัว)'</b>",
+  "guide": "EAU Guidelines on Urological Infections 2024 — Bacterial prostatitis"
  },
  "MDCU72|RoD|17": {
   "interp": "ทารกเกิดก่อนกำหนดน้ำหนัก 800 g มี<b>เสียงฟู่ต่อเนื่อง (continuous murmur)</b> = PDA — ข้อ incorrect: หาข้อความที่ผิด คือ \"ต้องผ่าตัดปิดก่อน\"",
@@ -50,7 +52,9 @@
    "ทารก 900 g ได้ ibuprofen 2 รอบ PDA ยังใหญ่ ต้องใช้เครื่องช่วยหายใจ → ผ่าตัดผูกหรือสายสวนปิด",
    "หลังผ่าตัดผูก PDA ไม่กี่ชั่วโมง ทารกความดันตก หายใจแย่ลง → post-ligation cardiac syndrome",
    "ทารกเกิดก่อนกำหนด PDA เล็ก ไม่มีผลต่อการหายใจและการไหลเวียน → เฝ้าดู มักปิดเอง"
-  ]
+  ],
+  "mnemonic": "<b>'PDA เด็กก่อนกำหนด: ยาก่อน ผ่าทีหลัง'</b>",
+  "guide": "AAP Clinical Report: Patent Ductus Arteriosus in Preterm Infants (Pediatrics 2016;137:e20153730)"
  },
  "MDCU72|RoD|18": {
   "interp": "ผู้ป่วยลิ้นหัวใจโลหะกิน warfarin (INR 3.2) เป็นไส้ติ่งอักเสบเฉียบพลัน — ถามการจัดการ (แก้ฤทธิ์ยาแล้วผ่าตัดภายในเวลาที่เหมาะ)",
@@ -76,7 +80,9 @@
    "ผู้ป่วยปวดท้องขวาล่าง 6 วัน คลำได้ก้อน CT เห็นฝีรอบไส้ติ่ง 5 cm → ยาปฏิชีวนะ + เจาะระบายผ่านผิวหนัง",
    "ไส้ติ่งอักเสบไม่ซับซ้อน ไม่มี appendicolith ผู้ป่วยไม่อยากผ่าตัด → ยาปฏิชีวนะอย่างเดียว อธิบายโอกาสกลับเป็นซ้ำ",
    "ผู้ป่วยกิน warfarin เพราะ AF จะผ่าตัดไส้ติ่ง → แก้ INR ด้วย PCC/FFP + vitamin K (ไม่มีปัญหาเรื่องลิ้นโลหะ)"
-  ]
+  ],
+  "mnemonic": "<b>'ลิ้นกล + ต้องผ่าด่วน: FFP/PCC แก้เร็ว แล้วผ่า'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72)"
  },
  "MDCU72|RoD|20": {
   "interp": "หญิง 60 ปี lung abscess ได้ยาปฏิชีวนะ 6 วัน แล้ว<b>โพรงฝีหายไปพร้อมมีน้ำในเยื่อหุ้มปอดใหม่</b> = ฝีแตกเข้าช่องเยื่อหุ้มปอด → <b>empyema</b> — ถามการจัดการ",
@@ -102,7 +108,9 @@
    "ผู้ป่วยปอดอักเสบมีน้ำในเยื่อหุ้มปอด เจาะได้น้ำขุ่น pH 7.0 → ใส่ท่อระบายทรวงอก",
    "empyema ใส่ท่อระบายแล้ว ultrasound ยังเห็นช่องหนองมีผนังกั้นหลายช่อง → ยาสลายลิ่ม (tPA + DNase) ทางท่อ หรือ VATS",
    "Lung abscess ได้ยา 6 สัปดาห์ไม่ดีขึ้น ส่องหลอดลมเห็นก้อนอุดหลอดลม → สงสัยมะเร็ง ตัดชิ้นเนื้อ"
-  ]
+  ],
+  "mnemonic": "<b>'ฝีในปอดไม่ดีขึ้น/มี empyema → ระบายออก'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Lung (infectious diseases); BTS Guideline for Pleural Disease (Thorax 2023;78:s1)"
  },
  "MDCU72|RoD|22": {
   "interp": "ชาย 65 ปีสูบบุหรี่หนัก มี<b>ก้อนขอบหนาม 2 cm กลีบบนซ้าย</b> = สงสัยมะเร็งปอด — ถามขั้นตอนถัดไป",
@@ -128,7 +136,9 @@
    "CT พบก้อนปอดและต่อม subcarinal โต 2 cm → EBUS เจาะต่อมให้ได้ทั้งการวินิจฉัยและระยะ N2",
    "มะเร็งปอด adenocarcinoma ในหญิงไม่สูบบุหรี่ระยะ IV → ตรวจ EGFR ถ้ากลายพันธุ์ให้ osimertinib",
    "มะเร็งปอดระยะ III ผ่าตัดไม่ได้ → chemoradiation แล้วให้ durvalumab ต่อ"
-  ]
+  ],
+  "mnemonic": "<b>'ก้อน spiculated → CT อกถึงช่องท้องบน'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Non-Small Cell Lung Cancer v.2024; Fleischner/ACCP lung nodule evaluation (Chest 2013;143:e93S)"
  },
  "MDCU72|RoD|28": {
   "interp": "บาดเจ็บ aorta จากแรงกระแทก (blunt aortic injury) หลังรถชน — ถามตำแหน่งที่พบบ่อยที่สุด",
@@ -154,7 +164,9 @@
    "ผู้ป่วยรถชนหายใจลำบาก หลอดเลือดดำคอโป่ง หลอดลมเบี่ยงขวา เสียงหายใจซ้ายหาย ความดันต่ำ → tension pneumothorax ซ้าย เจาะลดความดันทันที",
    "หลังรถชน ใส่ท่อระบายทรวงอกได้เลือด 1,600 mL ทันที → massive hemothorax ผ่าตัดเปิดทรวงอก",
    "ผู้ป่วยรถชน ECG หัวใจเต้นผิดจังหวะใหม่ troponin สูง → blunt cardiac injury เฝ้าดูด้วย monitor"
-  ]
+  ],
+  "mnemonic": "<b>'รถชน → Isthmus 90%'</b>",
+  "guide": "SVS Clinical Practice Guidelines: Endovascular repair of traumatic thoracic aortic injury (J Vasc Surg 2011;53:187); ATLS 10th ed. (2018) — Thoracic trauma"
  },
  "MDCU72|RoD|29": {
   "interp": "ถามก้อนใน <b>posterior mediastinum</b> ที่พบบ่อยที่สุด — มีทั้งเนื้องอกของผู้ใหญ่และของเด็กในช้อย",
@@ -180,7 +192,9 @@
    "เด็ก 1 ขวบตากระตุกทุกทิศทางและกล้ามเนื้อกระตุก → opsoclonus-myoclonus หา neuroblastoma",
    "วัยรุ่นอายุ 15 ปีมีก้อนขอบเรียบใน posterior mediastinum ไม่มีอาการ ชิ้นเนื้อเป็นเซลล์ปมประสาทโตเต็มที่ → ganglioneuroma ผ่าตัดออก",
    "CXR เด็ก 2 ขวบเห็นเงารูปใบเรือติดหัวใจด้านขวาบน → ต่อมไทมัสปกติ (sail sign)"
-  ]
+  ],
+  "mnemonic": "<b>'Posterior = Neurogenic (neurilemmoma มากสุด)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Mediastinum; Shields' General Thoracic Surgery 8th ed. (2019) — Mediastinal tumors"
  },
  "MDCU72|RoD|36": {
   "interp": "diverticulitis มีฝีรอบลำไส้ ไม่มีเยื่อบุช่องท้องอักเสบ — ถามระดับ Hinchey",
@@ -206,7 +220,9 @@
    "ผู้ป่วย diverticulitis ช็อก ผ่าตัดพบอุจจาระในช่องท้อง → Hartmann's procedure",
    "ฝี pericolic 5 cm ไม่ดีขึ้นหลังยาปฏิชีวนะ 3 วัน → เจาะระบายผ่านผิวหนังนำด้วย CT",
    "ผู้ป่วยอายุ 50 ปีเป็น diverticulitis ไม่ซับซ้อนครั้งที่ 2 หายดีด้วยยา → ไม่ต้องผ่าตัดเพียงเพราะจำนวนครั้ง"
-  ]
+  ],
+  "mnemonic": "<b>'Hinchey 1-2-3-4 = ฝีใกล้ · ฝีไกล · หนอง · อุจจาระ'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020;63:728)"
  },
  "MDCU72|RoD|37": {
   "interp": "ชายสูงอายุกิน <b>metoprolol</b> และ <b>aspirin</b> ถ่ายเป็นเลือดปริมาณมาก — ถามสาเหตุที่พบบ่อยที่สุดตามอุบัติการณ์",
@@ -232,7 +248,9 @@
    "ผู้ป่วย diverticular bleeding หยุดแล้ว กิน aspirin เพราะใส่ stent หัวใจ → ให้ aspirin ต่อ",
    "ผู้ป่วยกิน aspirin เพื่อป้องกันปฐมภูมิ (ไม่เคยมีโรคหลอดเลือด) เลือดออกจาก diverticula → หยุด aspirin",
    "ผู้สูงอายุหลังผ่าตัด aortic aneurysm ปวดท้องซ้ายล่างบิดและถ่ายเลือดปนในวันที่ 2 → ischemic colitis จากการผูก IMA ส่องกล้องดู sigmoid"
-  ]
+  ],
+  "mnemonic": "<b>'ผู้สูงอายุเลือดออกล่างมาก ไม่เจ็บ = Diverticulosis'</b>",
+  "guide": "ACG Clinical Guideline: Management of Acute Lower GI Bleeding (Am J Gastroenterol 2023;118:208)"
  },
  "MDCU72|RoD|43": {
   "interp": "ข้อ false เรื่อง <b>Fournier gangrene</b> — หาข้อความที่ผิด คือ \"มะเร็งทวารหนักเป็นสาเหตุที่พบบ่อยที่สุด\"",
@@ -258,7 +276,9 @@
    "หลังผ่าตัด Fournier แผลกว้างที่ฝีเย็บ เนื้อดีแดงสะอาด → vacuum dressing แล้วปิดด้วย skin graft",
    "ผ่าตัด Fournier ต้องตัดเนื้อรอบหูรูดทวารหนักออก → diverting colostomy",
    "Fournier gangrene ที่มีต้นเหตุจาก urethral stricture → suprapubic cystostomy ร่วมการผ่าตัด"
-  ]
+  ],
+  "mnemonic": "<b>'Fournier = เนื้อเน่าฝีเย็บ ไม่ใช่มะเร็ง'</b>",
+  "guide": "WSES/SIS-E Consensus: Management of skin and soft-tissue infections (World J Emerg Surg 2018;13:58); Sabiston Textbook of Surgery 21st ed. (2022) — Fournier gangrene"
  },
  "MDCU72|RoD|46": {
   "interp": "ทารกแรกเกิดน้ำลายฟูมปาก ใส่สาย NG ไม่ผ่าน ขดอยู่ในทรวงอก และ<b>ฟิล์มไม่มีลมในลำไส้เลย</b> = <b>esophageal atresia ที่ไม่มี fistula</b> (pure EA, Gross type A)",
@@ -285,7 +305,9 @@
    "ทารก pure EA ปลายห่างกัน 5 ปล้องกระดูกสันหลัง → gastrostomy รอปลายโตแล้วต่อภายหลัง",
    "ทารก EA ก่อนผ่าตัด → echo หาโรคหัวใจร่วมและดูข้างของ aortic arch",
    "เด็กหลังซ่อม EA กลืนอาหารแข็งติด → รอยต่อตีบ ขยายด้วยบอลลูน"
-  ]
+  ],
+  "mnemonic": "<b>'ใส่สายไม่ลง + ท้องไม่มีลม = EA ไม่มี TEF'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Esophageal atresia and tracheoesophageal fistula"
  },
  "MDCU72|RoD|47": {
   "interp": "ทารกอายุ 3 วัน<b>อาเจียนน้ำดี</b> UGI study เห็นลำไส้เป็น<b>เกลียว (corkscrew)</b> = <b>malrotation with midgut volvulus</b> — ถามการรักษา",
@@ -311,6 +333,8 @@
    "ระหว่าง Ladd procedure ลำไส้เล็กส่วนใหญ่สีคล้ำไม่แน่ใจว่าตาย → คลายเกลียวแล้วปิดท้องชั่วคราว กลับมาดูซ้ำใน 24–48 ชม.",
    "ทารก Down syndrome อาเจียนน้ำดีวันแรก ฟิล์ม double bubble ไม่มีลมส่วนล่าง → duodenal atresia ทำ duodenoduodenostomy",
    "ultrasound ทารกอาเจียนเขียวเห็น SMV อยู่ซ้ายของ SMA และหลอดเลือดหมุนเป็นวง → midgut volvulus ผ่าตัดด่วน"
-  ]
+  ],
+  "mnemonic": "<b>'อาเจียนเขียว + corkscrew = Volvulus → Ladd ทันที'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Malrotation and midgut volvulus"
  }
 }

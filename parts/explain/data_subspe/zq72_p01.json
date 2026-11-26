@@ -23,7 +23,9 @@
    "หลังผ่าตัดมะเร็งลำไส้ใหญ่ระยะ III 18 เดือน CEA ขึ้นจาก 2 เป็น 12 ng/mL ในการตรวจ 2 ครั้ง → CT ทรวงอกและช่องท้องหาการกลับเป็นซ้ำ",
    "CEA ก่อนผ่าตัด 45 ng/mL หลังผ่าตัด 6 สัปดาห์ยังสูง 30 ng/mL → สงสัยโรคเหลือค้างหรือแพร่กระจาย",
    "หญิงตับแข็งไม่มีอาการทางเดินอาหาร CEA 6 ng/mL colonoscopy ปกติ → สูงจากโรคตับ"
-  ]
+  ],
+  "mnemonic": "<b>'CEA = Check Every Again: ไว้ติดตามหลังผ่า ไม่ใช่คัดกรอง'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025 — Surveillance; ASCO Guideline: Follow-up care of colorectal cancer survivors (J Clin Oncol 2013;31:4465)"
  },
  "MDCU72|RoB|13@p10": {
   "interp": "ผ่าตัดมะเร็งลำไส้ใหญ่มา 1 ปี พบก้อนในตับ 3 ก้อนทั้งสองกลีบ CEA สูงขึ้น = <b>colorectal liver metastasis (CRLM)</b> ที่ไม่มีโรคนอกตับและตัดได้ครบโดยเหลือตับพอ — ถามการรักษาที่เหมาะที่สุด",
@@ -50,7 +52,9 @@
    "ผู้ป่วยมะเร็งลำไส้ใหญ่ที่ตัดก้อนตับได้ แต่ยังมีก้อนในปอด 1 ก้อนที่ตัดได้ → ยังพิจารณาผ่าตัดทั้งสองที่ได้",
    "ตรวจภาพที่ดีที่สุดในการนับจำนวนก้อน CRLM ก่อนผ่าตัด → MRI ตับ (มี hepatobiliary contrast)",
    "ก้อน CRLM เดี่ยว 2 cm อยู่ลึกใกล้ hepatic vein ผ่าตัดเสี่ยงสูง → thermal ablation"
-  ]
+  ],
+  "mnemonic": "<b>'ลำไส้ใหญ่กระจายไปตับ ตัดได้ = ตัด (Operable · Fitness · Financial · Surgeon)'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer v.2025 — Metastatic disease; ESMO Metastatic Colorectal Cancer Guideline (Ann Oncol 2023;34:10)"
  },
  "MDCU72|RoC|30": {
   "interp": "ชาย 55 ปีถ่ายมูกปนเลือด 1 เดือน (ต้องคิดถึงมะเร็งลำไส้ใหญ่) — ข้อ NOT: หาสิ่งที่<b>ไม่ใช่บทบาทของแพทย์ทั่วไป (GP)</b> ในการดูแลผู้ป่วยรายนี้",
@@ -76,7 +80,9 @@
    "ชาย 58 ปีถ่ายเป็นเลือด DRE พบริดสีดวงภายใน → ยังต้อง colonoscopy แยกมะเร็ง",
    "ผลชิ้นเนื้อยืนยันมะเร็ง rectum 6 cm จากปากทวาร → MRI pelvis + CT ทรวงอกและช่องท้อง + CEA",
    "ผู้ป่วยถ่ายมูกเลือดขอตรวจ CEA ก่อนตัดสินใจส่องกล้อง → อธิบายว่า CEA ปกติไม่ตัดมะเร็ง ต้องส่องกล้อง"
-  ]
+  ],
+  "mnemonic": "<b>'GP: ซัก · ตรวจ · คุย · ส่องได้ส่ง — CEA/PET ไม่ใช่งาน GP'</b>",
+  "guide": "NICE NG12 Suspected cancer: recognition and referral (2015, updated 2025) — Lower GI; Thai CPG มะเร็งลำไส้ใหญ่และไส้ตรง (สถาบันมะเร็งแห่งชาติ)"
  },
  "MDCU72|RoA|34": {
   "interp": "ข้อ NOT: หาสิ่งที่<b>ไม่ใช่</b>ภาวะแทรกซ้อนระยะยาวของ left-to-right shunt (VSD, ASD, PDA)",
@@ -102,7 +108,9 @@
    "เด็ก 2 ปี VSD เล็ก ไม่มีอาการ เสียงฟู่ดัง หัวใจไม่โต → เฝ้าดู มักปิดเอง",
    "ทารก 3 เดือน VSD ใหญ่ กินแล้วเหนื่อย น้ำหนักไม่ขึ้น → ยาขับปัสสาวะแล้วผ่าตัดปิดรูภายในขวบปีแรก",
    "เด็กโรคหัวใจเขียว CT พบ pulmonary artery เล็กมาก → ภาวะเลือดไปปอดน้อย เช่น TOF (ไม่ใช่ L→R shunt)"
-  ]
+  ],
+  "mnemonic": "<b>'L→R shunt นาน: Hyper ไม่ใช่ Hypo (ปอดหลอดเลือดโต → Eisenmenger)'</b>",
+  "guide": "2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease (Circulation 2019;139:e698); Nelson Textbook of Pediatrics 22nd ed. (2024) — Acyanotic congenital heart disease"
  },
  "MDCU72|RoA|11": {
   "interp": "ชายมี LUTS PSA 3.5 ng/mL แต่ <b>DRE คลำได้ก้อนแข็ง</b>ที่กลีบซ้าย — ถามการจัดการ",
@@ -129,7 +137,9 @@
    "ชาย 60 ปี PSA 6 ng/mL ครั้งเดียว มีไข้และปัสสาวะแสบ → รักษาการติดเชื้อแล้วตรวจ PSA ซ้ำหลังหายราว 6 สัปดาห์",
    "ชายกิน finasteride มา 1 ปี PSA 2.5 ng/mL → คิดเป็นประมาณ 5 ng/mL ต้องประเมินต่อ",
    "ชิ้นเนื้อพบ ISUP grade group 1 PSA 5 ng/mL T1c → active surveillance"
-  ]
+  ],
+  "mnemonic": "<b>'คลำได้ก้อนแข็ง = Biopsy แม้ PSA ปกติ'</b>",
+  "guide": "EAU–EANM–ESTRO–ESUR–ISUP–SIOG Guidelines on Prostate Cancer 2024 — Diagnostic evaluation"
  },
  "MDCU72|RoA|17": {
   "interp": "หญิง 34 ปีปวดหัวมากขึ้น 2 เดือน ตามัว เห็นภาพซ้อนจาก lateral rectus อ่อนแรงสองข้าง papilledema สองข้าง ไม่มีอาการเฉพาะที่อื่น = <b>ความดันในกะโหลกสูง</b> — ถามโรคที่น่าจะเป็นที่สุดในช้อย",
@@ -155,7 +165,9 @@
    "ผู้ป่วย CVST มีเลือดออกในสมองจาก venous infarct → ยังให้ anticoagulation",
    "หญิงอ้วนปวดหัว papilledema MRI สมองและ MRV ปกติ LP opening pressure 35 cmH₂O CSF ปกติ → IIH",
    "ผู้ป่วยความดันในกะโหลกสูงมีตาเหล่เข้าในทั้งสองข้าง → CN VI palsy เป็น false localizing sign"
-  ]
+  ],
+  "mnemonic": "<b>'หญิงสาว + ICP สูง + ไม่มี focal = นึก CVT (sinus) ก่อน'</b>",
+  "guide": "AHA/ASA Scientific Statement: Diagnosis and management of cerebral venous thrombosis (Stroke 2024;55:e77)"
  },
  "MDCU72|RoA|89": {
   "interp": "เด็กมี <b>frontoethmoidal encephalomeningocele (FEEM)</b> ก้อนที่กลางหน้าบริเวณดั้งจมูก — ถามอันตรายหลักของภาวะนี้",
@@ -181,7 +193,9 @@
    "เด็กมีก้อนแข็งที่ดั้งจมูก ไม่โตเวลาร้อง MRI ไม่ต่อกับสมอง → nasal glioma",
    "ก้อนกลางจมูกในเด็กที่ผิวคลุมบางมีน้ำใสซึม → CSF รั่ว เสี่ยงเยื่อหุ้มสมองอักเสบ ผ่าตัดเร็ว",
    "ทารกมีก้อนใหญ่ที่ท้ายทอยร่วมศีรษะโต → occipital encephalocele ร่วม hydrocephalus"
-  ]
+  ],
+  "mnemonic": "<b>'Encephalocele = สมองไหลออกมาติด (incarcerate) ก่อนอย่างอื่น'</b>",
+  "guide": "Youmans and Winn Neurological Surgery 8th ed. (2022) — Encephaloceles; Grabb and Smith's Plastic Surgery 8th ed. (2020) — Craniofacial clefts"
  },
  "MDCU72|RoA|ไม่มีเลข 1": {
   "interp": "ถามความผิดปกติของกระเพาะปัสสาวะที่พบตามแบบฉบับใน <b>Parkinson disease</b> — รอยโรคระดับเหนือ pons",
@@ -208,7 +222,9 @@
    "ผู้ป่วยบาดเจ็บไขสันหลัง C6 ความดันขึ้นเป็น 200/110 หัวใจเต้นช้า หน้าแดง → autonomic dysreflexia ตรวจหากระเพาะปัสสาวะเต็มและสวนทันที",
    "ผู้ป่วยเบาหวานมานาน 20 ปี ปัสสาวะไม่สุด ค้าง 600 mL → diabetic cystopathy (detrusor ไม่บีบ)",
    "ผู้สูงอายุ Parkinson ปัสสาวะรีบบ่อย ความจำเริ่มแย่ → เลือก mirabegron แทน antimuscarinic"
-  ]
+  ],
+  "mnemonic": "<b>'เหนือ pons = ไม่มีเบรก → OAB · ไขสันหลัง = DSD · ใต้ conus = retention'</b>",
+  "guide": "EAU Guidelines on Neuro-Urology 2024"
  },
  "MDCU72|RoA|86@p31": {
   "interp": "หลังตัดเนื้อตาย แผล<b>เลือดเลี้ยงไม่ดี</b> — ถามวิธีเย็บที่รบกวนเลือดไปเลี้ยงขอบแผลน้อยที่สุด",
@@ -234,7 +250,9 @@
    "แผลที่ฝ่ามือขอบม้วนเข้าเวลาเย็บ → vertical mattress ช่วยพลิกขอบออก",
    "แผลผ่าตัดที่ใบหน้าต้องการรอยแผลเป็นน้อยที่สุด → subcuticular continuous + ตัดไหมหรือใช้ไหมละลาย",
    "เย็บแผลที่ใบหน้าเมื่อ 5 วันก่อน → ตัดไหมได้"
-  ]
+  ],
+  "mnemonic": "<b>'เลือดน้อย → Half-buried: ปมไม่รัดผิวขอบที่บอบบาง'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Wound closure and suture techniques"
  },
  "MDCU72|RoA|43": {
   "interp": "บาดเจ็บหลอดเลือดแดงใหญ่จากแรงกระแทก (blunt aortic injury) หลังอุบัติเหตุรถยนต์ — ถามตำแหน่งที่พบบ่อยที่สุด",
@@ -261,7 +279,9 @@
    "CTA พบ pseudoaneurysm ที่ isthmus ผู้ป่วยมีม้ามแตกเลือดออกร่วม → ผ่าตัดม้ามก่อน คุมชีพจรและความดันแล้ว TEVAR",
    "ผู้ป่วยหลัง TEVAR ที่คลุม left subclavian มีแขนซ้ายเย็น ปวดเวลาใช้งาน → แขนขาดเลือด ทำ carotid-subclavian bypass",
    "CTA พบ intimal tear เล็กที่ isthmus ไม่มีเลือดออกรอบ (เกรด I) → ยาคุมความดันและตรวจภาพติดตาม"
-  ]
+  ],
+  "mnemonic": "<b>'รถชน เบรกกะทันหัน → Isthmus (หลัง ligamentum arteriosum) 90%'</b>",
+  "guide": "SVS Clinical Practice Guidelines: Endovascular repair of traumatic thoracic aortic injury (J Vasc Surg 2011;53:187); ATLS 10th ed. (2018) — Thoracic trauma"
  },
  "MDCU72|RoA|8": {
   "interp": "ถามข้อความที่<b>ถูก</b>เกี่ยวกับ renal cell carcinoma (RCC)",
@@ -288,7 +308,9 @@
    "ชาย 55 ปี varicocele ข้างซ้ายเพิ่งเป็น ไม่ยุบเมื่อนอน → CT ช่องท้องหาก้อนที่ไตซ้าย",
    "ก้อนตันในไต 3 cm เพิ่มความเข้มชัด ผู้ป่วยแข็งแรง → partial nephrectomy โดยไม่ต้องตัดชิ้นเนื้อก่อน",
    "ชาย 60 ปีสูบบุหรี่ ปัสสาวะเป็นเลือดไม่เจ็บ → cystoscopy + CT urography หา urothelial carcinoma"
-  ]
+  ],
+  "mnemonic": "<b>'RCC ส่วนใหญ่เจอบังเอิญ · ESRD/ไตฟอก = acquired cystic → RCC'</b>",
+  "guide": "EAU Guidelines on Renal Cell Carcinoma 2024"
  },
  "MDCU72|RoA|1": {
   "interp": "เด็ก 3 ขวบเป็น <b>VUR เกรด 4</b> ได้ยาปฏิชีวนะป้องกันมา 2 ปีไม่ติดเชื้อ VCUG ซ้ำ<b>ไม่พบ reflux แล้ว</b> — ถามการจัดการถัดไป",
@@ -315,6 +337,8 @@
    "ทารก 6 เดือนติดเชื้อทางเดินปัสสาวะมีไข้ VCUG พบ VUR เกรด 4 สองข้าง → ยาปฏิชีวนะป้องกันและติดตาม",
    "เด็กมี VUR ร่วมท้องผูกเรื้อรังและกลั้นปัสสาวะ → รักษา bladder and bowel dysfunction ร่วมด้วย",
    "เด็ก VUR เกรด 5 ไม่หายหลังติดตาม 3 ปี DMSA พบแผลเป็นใหม่ → ureteric reimplantation"
-  ]
+  ],
+  "mnemonic": "<b>'VCUG ไม่มี reflux + ไม่มีไข้ = หยุดยา'</b>",
+  "guide": "EAU/ESPU Guidelines on Paediatric Urology 2024 — Vesicoureteric reflux"
  }
 }

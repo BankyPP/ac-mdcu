@@ -24,7 +24,9 @@
    "ผู้ป่วยมีก้อน cavernoma ติดกับเส้นเลือดดำรูปหัวเมดูซ่า (caput medusae) ระหว่างผ่าตัด → ตัดเฉพาะ cavernoma เก็บ DVA ไว้",
    "ชายอายุ 25 ปี ชักครั้งแรก MRI พบ cavernoma 1 cm ที่ temporal lobe ชักซ้ำแม้ใช้ยา 2 ตัว → ผ่าตัดเอาก้อนออก",
    "เด็ก 7 ปีปวดหัวตอนเช้า อาเจียน เดินเซ MRI เห็นก้อนกลาง cerebellum เบียด ventricle ที่ 4 → medulloblastoma"
-  ]
+  ],
+  "mnemonic": "<b>'Pons ทั้ง VI + VII + ครึ่งตัวตรงข้าม · ก้อนเลือดหลายอายุ (popcorn) = cavernoma'</b>",
+  "guide": "Angioma Alliance Guidelines for the clinical management of cerebral cavernous malformations (Neurosurgery 2017;80:665); Youmans and Winn Neurological Surgery 8th ed. (2022)"
  },
  "MDCU72|RoA|70": {
   "interp": "ทารก 9 เดือน ปวดท้องเป็นพัก ๆ อาเจียน ถ่ายมูกปนเลือด = <b>intussusception</b> — ถามการตรวจที่ใช้วินิจฉัย",
@@ -52,7 +54,9 @@
    "เด็ก 1 ปี intussusception ร่วมไข้ ท้องแข็งทั้งท้อง ฟิล์มเห็นลมใต้กะบังลม → ผ่าตัดทันที ห้าม enema",
    "เด็ก 6 ปีมี intussusception ซ้ำครั้งที่ 3 → หา lead point เช่น Meckel's diverticulum หรือ lymphoma",
    "ultrasound เด็กปวดท้องพบ ileoileal intussusception ยาว 2 cm ไม่มี lead point ลำไส้เคลื่อนไหวดี → เฝ้าดู มักคลายเอง"
-  ]
+  ],
+  "mnemonic": "<b>'Intussusception: US เห็น target/doughnut'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Intussusception"
  },
  "MDCU72|RoA|ไม่มีเลข 2": {
   "interp": "แผลไหม้จากไฟฟ้า 57% TBSA — ข้อ NOT: หาข้อความที่<b>ผิด</b> ซึ่งคือเป้าปัสสาวะ 30 mL/h เพราะแผลไฟฟ้ามีกล้ามเนื้อตายลึกและ myoglobin",
@@ -80,7 +84,9 @@
    "ผู้ป่วยไฟฟ้าแรงสูง 12 ชม. ต่อมา แขนขวาตึงแข็ง ปวดมากเมื่อเหยียดนิ้ว ผิวที่แขนไม่ไหม้ → fasciotomy",
    "เด็กเอาส้อมแหย่ปลั๊กไฟบ้าน ไม่หมดสติ ECG ปกติ แผลเล็กที่นิ้ว → ทำแผลแล้วกลับบ้านได้ ไม่ต้อง monitor",
    "ชายถูกฟ้าผ่าในสนามกอล์ฟ มีลายแดงคล้ายใบเฟิร์นที่หลัง ขาอ่อนแรงชั่วคราว → Lichtenberg figures + keraunoparalysis"
-  ]
+  ],
+  "mnemonic": "<b>'ไฟดูด: ปัสสาวะ 75–100 mL/h จน myoglobin หาย ไม่ใช่ 30'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) — Thermal injuries; ABA Guidelines for Burn Patient Referral (2022)"
  },
  "MDCU72|RoA|24": {
   "interp": "ชายวัยรุ่น ไข้ ชัก อ่อนแรงครึ่งซีก CT เห็นหนองรูปพระจันทร์เสี้ยวใต้ dura = <b>subdural empyema</b> — ถามการวินิจฉัย",
@@ -107,7 +113,9 @@
    "ผู้ป่วยสงสัย subdural empyema แพทย์จะเจาะหลังหาเชื้อ → ไม่ควรทำ เสี่ยง herniation ให้ทำ MRI และผ่าตัด",
    "เด็กมี frontal sinusitis หน้าผากบวมนุ่ม → Pott's puffy tumor ต้องตรวจ CT/MRI หาหนองในกะโหลกร่วม",
    "เชื้อที่พบบ่อยสุดในหนองใต้ dura จากไซนัสอักเสบ → streptococci กลุ่ม S. anginosus ร่วม anaerobes"
-  ]
+  ],
+  "mnemonic": "<b>'ไซนัสอักเสบ + ไข้ + ชัก = Subdural empyema (ขอบ crescent)'</b>",
+  "guide": "Youmans and Winn Neurological Surgery 8th ed. (2022) — Intracranial infections; Osborn's Brain 2nd ed. (2018)"
  },
  "MDCU72|RoB|1": {
   "interp": "diverticulitis มีฝีรอบลำไส้ (pericolic abscess) ยังไม่มีเยื่อบุช่องท้องอักเสบ — ถามระดับ Hinchey",
@@ -134,7 +142,9 @@
    "ผ่าตัดผู้ป่วย diverticulitis พบหนองทั่วช่องท้อง ไม่เห็นรูทะลุ → Hinchey III",
    "หลังรักษาฝีจาก diverticulitis หายแล้ว 6 สัปดาห์ → colonoscopy แยกมะเร็ง",
    "CT เห็น sigmoid หนาตัว ไขมันรอบลำไส้อักเสบ ไม่มีฝี → modified Hinchey Ia"
-  ]
+  ],
+  "mnemonic": "<b>'Hinchey 1-2-3-4 = ฝีใกล้ · ฝีไกล · หนอง · อุจจาระ'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020;63:728)"
  },
  "MDCU72|RoB|2": {
   "interp": "ข้อ NOT: หาสิ่งที่<b>ไม่ใช่</b>ข้อห้ามของการรัดยางริดสีดวง (rubber band ligation, RBL)",
@@ -161,7 +171,9 @@
    "ผู้ป่วยรัดยางแล้วปวดมากทันทีบนเตียงตรวจ → ยางอยู่ใกล้ dentate line เกินไป ต้องตัดยางออก",
    "ชายมีริดสีดวงภายใน grade II เลือดออก กิน aspirin ขนาดต่ำป้องกันโรคหัวใจ → รัดยางได้ (ยาต้านเกล็ดเลือดเดี่ยวส่วนใหญ่ไม่ต้องหยุด)",
    "ผู้ป่วยตับแข็งมีเส้นเลือดขอดในทวารหนักเลือดออก → ไม่ใช้ RBL แบบริดสีดวง ต้องรักษา portal hypertension"
-  ]
+  ],
+  "mnemonic": "<b>'ห้ามรัด: ภูมิต่ำ · เลือดไม่แข็ง · ภายนอก/thrombosed — anal sex ไม่ใช่'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2018;61:284)"
  },
  "MDCU72|RoB|3": {
   "interp": "ข้อ false เรื่อง <b>Fournier gangrene</b> — หาข้อความที่ผิด คือ \"มะเร็งทวารหนักเป็นสาเหตุที่พบบ่อยที่สุด\"",
@@ -188,7 +200,9 @@
    "Fournier gangrene ลามถึงหูรูดทวารหนัก แผลเปื้อนอุจจาระตลอด → ทำ diverting colostomy",
    "ยาเบาหวานที่ FDA เตือนว่าสัมพันธ์กับ Fournier gangrene → SGLT2 inhibitor",
    "ยาปฏิชีวนะที่เพิ่มเพื่อยับยั้งการสร้าง toxin ใน necrotizing fasciitis → clindamycin"
-  ]
+  ],
+  "mnemonic": "<b>'Fournier = เนื้อเน่าฝีเย็บ มักจากฝีรอบก้น/ท่อปัสสาวะ ไม่ใช่มะเร็ง'</b>",
+  "guide": "WSES/SIS-E Consensus: Management of skin and soft-tissue infections (World J Emerg Surg 2018;13:58); Sabiston Textbook of Surgery 21st ed. (2022) — Fournier gangrene"
  },
  "MDCU72|RoB|4": {
   "interp": "ผู้ใหญ่ถ่ายเป็นเลือดปริมาณมาก โจทย์ถาม \"by incidence\" — สาเหตุที่พบบ่อยที่สุดของ <b>massive lower GI bleeding</b> ไม่ใช่เลือดออกทางทวารทั่วไป",
@@ -215,7 +229,9 @@
    "ถ่ายเลือดปริมาณมาก BUN 60 mg/dL Cr 1.0 mg/dL → ส่องกล้องทางเดินอาหารส่วนบนก่อน",
    "ชาย 22 ปีถ่ายเลือดแดงคล้ำปริมาณมาก ไม่ปวดท้อง → Meckel's diverticulum ตรวจด้วย Tc-99m pertechnetate scan",
    "ผู้ป่วย diverticular bleeding หยุดเองแล้ว กิน aspirin ป้องกันโรคหัวใจซ้ำหลังใส่ stent → ให้ aspirin ต่อ หยุด NSAIDs"
-  ]
+  ],
+  "mnemonic": "<b>'ผู้ใหญ่เลือดออกล่างมาก = Diverticulum (ไม่เจ็บ เลือดสด)'</b>",
+  "guide": "ACG Clinical Guideline: Management of Acute Lower GI Bleeding (Am J Gastroenterol 2023;118:208)"
  },
  "MDCU72|RoB|5": {
   "interp": "ข้อ NOT: หาสิ่งที่<b>ไม่ใช่</b>ลักษณะของ chronic anal fissure — ระยะเวลาน้อยกว่า 2 สัปดาห์เป็นลักษณะของ acute fissure",
@@ -242,7 +258,9 @@
    "ชายมีแผลทวารหนัก 2 แผลอยู่ด้านข้าง ร่วมท้องเสียเรื้อรังและน้ำหนักลด → สงสัย Crohn's ต้องตรวจใต้ดมยาและตัดชิ้นเนื้อ",
    "chronic fissure ใช้ยาทา diltiazem 8 สัปดาห์ไม่หาย ชายอายุ 35 หูรูดปกติ → lateral internal sphincterotomy",
    "หญิงหลังคลอดเป็น chronic anterior fissure ไม่หายด้วยยา → เลี่ยง LIS พิจารณา botulinum toxin หรือ advancement flap"
-  ]
+  ],
+  "mnemonic": "<b>'Chronic fissure ≥ 6–8 สัปดาห์ + sentinel tag + papilla + เห็น IAS'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Dis Colon Rectum 2023;66:190)"
  },
  "MDCU72|RoB|6": {
   "interp": "ถามสถานการณ์ที่<b>ห้ามปิด PDA</b> — ผู้ป่วยที่เป็น Eisenmenger แล้ว เลือดไหลกลับทิศจากขวาไปซ้าย",
@@ -269,7 +287,9 @@
    "ทารกแรกเกิดเขียว echo พบ pulmonary atresia เลือดไปปอดผ่าน PDA → ให้ prostaglandin E1 เปิด PDA ไว้ ห้ามปิด",
    "ทารกเกิดก่อนกำหนด 28 สัปดาห์ PDA ใหญ่ มี NEC อยู่ → ห้ามใช้ ibuprofen/indomethacin เลือก paracetamol หรือปิดด้วยการผ่าตัด",
    "หลังผ่าตัดผูก PDA ทารกเสียงแหบ → recurrent laryngeal nerve ซ้ายบาดเจ็บ"
-  ]
+  ],
+  "mnemonic": "<b>'ไหลกลับเป็น R→L แล้ว (Eisenmenger) ห้ามปิด'</b>",
+  "guide": "2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease (Circulation 2019;139:e698)"
  },
  "MDCU72|RoB|7": {
   "interp": "ชาย 18 ปีมีแผลในกระพุ้งแก้มเจ็บ ขอบเรียบ เป็นมา 7 วัน = แผลร้อนใน (aphthous) หรือแผลจากการกระแทก — ถามการจัดการ",
@@ -296,7 +316,9 @@
    "ชาย 55 ปีเคี้ยวหมาก มีรอยแดงกำมะหยี่ที่พื้นปาก ไม่เจ็บ → erythroplakia เสี่ยงมะเร็งสูง ต้องตัดชิ้นเนื้อ",
    "หญิง 20 ปีเป็นแผลร้อนในซ้ำบ่อย ร่วมแผลที่อวัยวะเพศและตาอักเสบ → Behçet's disease",
    "ชิ้นเนื้อยืนยัน SCC ที่ลิ้นลึก 6 mm ไม่คลำต่อมที่คอ → ตัดกว้างขอบ ~1 cm ร่วม elective neck dissection"
-  ]
+  ],
+  "mnemonic": "<b>'แผลในปากเจ็บ ขอบเรียบ &lt; 2 สัปดาห์ = aphthous ดูอาการ · ≥ 3 สัปดาห์ค่อย biopsy'</b>",
+  "guide": "NICE NG12 Suspected cancer: recognition and referral (2025) — Head and neck; Cummings Otolaryngology 7th ed. (2021)"
  },
  "MDCU72|RoB|8": {
   "interp": "ถามมะเร็งที่พบบ่อยที่สุดของต่อม parotid (ไม่ใช่เนื้องอกที่พบบ่อยที่สุด ซึ่งเป็นชนิดไม่ร้าย)",
@@ -323,6 +345,8 @@
    "ชาย 65 ปีสูบบุหรี่ มีก้อนนุ่มที่หางของ parotid ทั้งสองข้าง scan Tc-99m ติดสาร → Warthin tumor",
    "ก้อนที่เพดานแข็ง ชิ้นเนื้อเป็นมะเร็งที่ลามตามเส้นประสาท → adenoid cystic carcinoma",
    "หลัง parotidectomy 6 เดือน เหงื่อออกและแดงที่แก้มเวลากินอาหาร → Frey syndrome"
-  ]
+  ],
+  "mnemonic": "<b>'Parotid: ไม่ร้ายมากสุด Pleomorphic · ร้ายมากสุด Mucoepidermoid'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers v.2024 — Salivary gland tumors; Cummings Otolaryngology 7th ed. (2021)"
  }
 }
