@@ -1,29 +1,30 @@
 {
  "MDCU66|RoA|47": {
-  "interp": "ทารกแรกเกิดคลำได้<b>ก้อนในท้องใต้ชายโครงซ้าย</b> ถามว่าก้อนน่าจะเป็นอะไรมากที่สุด",
-  "why": "ก้อนในท้องทารกแรกเกิดส่วนใหญ่มาจาก<b>ไต</b> และที่พบบ่อยที่สุดคือ <b>hydronephrosis</b> โดยเฉพาะจาก <b>UPJ obstruction</b> (รองลงมาคือ multicystic dysplastic kidney) · ไฟล์ขีด C ลายมือ <b>\"MIC : UPJ obstruction\"</b>",
+  "interp": "ทารกแรกเกิดคลำได้<b>ก้อนในท้องใต้ชายโครงซ้าย</b> — ถามว่าก้อนน่าจะเป็นอะไรมากที่สุด ต้องรู้ว่าก้อนในท้องทารกแรกเกิดส่วนใหญ่มาจากอวัยวะใดและเป็นเนื้องอกหรือไม่",
+  "why": "ก้อนในท้องของทารกแรกเกิดราว <b>2 ใน 3 มาจากไต</b> และส่วนใหญ่<b>ไม่ใช่มะเร็ง</b> · ที่พบบ่อยที่สุดคือ <b>hydronephrosis</b> โดยเฉพาะจาก <b>UPJ obstruction</b> (กรวยไตโป่ง ท่อไตไม่โป่ง พบข้างซ้ายบ่อยกว่า) รองลงมาคือ <b>multicystic dysplastic kidney (MCDK)</b> · ปัจจุบันส่วนใหญ่ตรวจพบจาก ultrasound ตั้งแต่ในครรภ์ · ตรวจแรกคือ <b>ultrasound</b> แล้วตามด้วย VCUG/ diuretic renal scan ตามลักษณะ · เนื้องอกมะเร็ง เช่น neuroblastoma และ mesoblastic nephroma พบน้อยกว่ามาก ส่วน Wilms tumor พบในเด็ก 2–5 ปี · ไฟล์ขีด C ลายมือ <b>\"MIC : UPJ obstruction\"</b>",
   "wrong": {
-   "A": "Neuroblastoma เป็นมะเร็งก้อนแข็งนอกกะโหลกที่พบบ่อยในทารก แต่พบน้อยกว่า hydronephrosis ในวัยแรกเกิด · จะถูกถ้าคำถามถามก้อนแข็งข้ามเส้นกลาง มีหินปูน VMA/ HVA สูง",
-   "B": "Wilms tumor (nephroblastoma) พบอายุ 2–5 ปี ไม่ใช่แรกเกิด · จะถูกถ้าคำถามถามเด็ก 3 ปี ก้อนเรียบไม่ข้ามเส้นกลาง",
-   "D": "Polycystic kidney (ARPKD) มักไตโตทั้งสองข้าง + oligohydramnios · จะถูกถ้าคำถามถามทารกไตโตสองข้าง ปอดเจริญไม่ดี",
-   "E": "Duplication cyst ในไตพบน้อย · จะถูกถ้าคำถามถามถุงน้ำติดลำไส้ (enteric duplication cyst) ที่ทำให้ลำไส้อุดตัน"
+   "A": "Neuroblastoma เป็นมะเร็งก้อนแข็งนอกกะโหลกที่พบบ่อยที่สุดในทารก แต่เมื่อเทียบกับก้อนในท้องทารกแรกเกิดทั้งหมดยังพบน้อยกว่า hydronephrosis มาก ก้อนแข็ง ขรุขระ ข้ามเส้นกลาง มีหินปูน · จะถูกถ้าเป็นเด็ก 18 เดือนที่มีก้อนแข็งข้ามเส้นกลาง ตาช้ำรอบตา และ VMA/ HVA ในปัสสาวะสูง",
+   "B": "Nephroblastoma (Wilms tumor) พบมากอายุ 2–5 ปี ก้อนเรียบไม่ข้ามเส้นกลาง แทบไม่พบในทารกแรกเกิด · จะถูกถ้าเป็นเด็ก 3 ขวบที่แม่คลำพบก้อนท้องเรียบขณะอาบน้ำ ความดันสูง ปัสสาวะมีเลือด",
+   "D": "ARPKD ทำให้ไตโต<b>ทั้งสองข้าง</b> ร่วมกับ oligohydramnios ปอดเจริญไม่ดี และพังผืดในตับ · จะถูกถ้าเป็นทารกแรกเกิดหายใจลำบาก ไตโตทั้งสองข้าง แม่มีน้ำคร่ำน้อย",
+   "E": "Duplication cyst (enteric duplication) เป็นถุงน้ำติดลำไส้ พบน้อย อาจทำให้ลำไส้อุดตันหรือ intussusception · จะถูกถ้าเป็นทารกที่ ultrasound เห็นถุงน้ำผนังสองชั้น (gut signature) ติดกับ terminal ileum"
   },
-  "trap": "นึกถึงมะเร็ง (neuroblastoma/ Wilms) ก่อน ทั้งที่ทารกแรกเกิดก้อนจากไตที่ไม่ใช่มะเร็งพบบ่อยกว่ามาก",
+  "trap": "นึกถึงมะเร็ง (neuroblastoma, Wilms) ก่อนเพราะคุ้นกับก้อนท้องในเด็ก · แต่ในทารก<b>แรกเกิด</b> ก้อนที่พบบ่อยที่สุดคือไตบวมน้ำที่ไม่ใช่มะเร็ง และ Wilms พบในเด็กโตกว่า",
   "summary": [
-   "ก้อนในท้องทารกแรกเกิด: ส่วนใหญ่มาจากไต",
-   "อันดับ 1: hydronephrosis (UPJO) · MCDK",
-   "Neuroblastoma: มะเร็งก้อนแข็งในทารก ข้ามเส้นกลาง หินปูน",
-   "Wilms: 2–5 ปี ก้อนเรียบ ไม่ข้ามเส้นกลาง",
-   "ARPKD: ไตโตสองข้าง + oligohydramnios",
-   "ตรวจแรก: ultrasound"
+   "ก้อนในท้องทารกแรกเกิด ~2/3 มาจากไต และส่วนใหญ่ไม่ใช่มะเร็ง",
+   "อันดับ 1: hydronephrosis (UPJO) · อันดับ 2: multicystic dysplastic kidney (ไตเป็นถุงน้ำไม่ทำงาน มักฝ่อเอง)",
+   "ก้อนอื่น: adrenal hemorrhage (หลังคลอดยาก) · ovarian cyst (ทารกหญิง) · enteric duplication · mesoblastic nephroma (ก้อนไตแข็งในทารก &lt; 3 เดือน)",
+   "Neuroblastoma: มะเร็งก้อนแข็งในทารก/ เด็ก &lt; 2 ปี · ข้ามเส้นกลาง หินปูน · VMA/ HVA สูง",
+   "Wilms: 2–5 ปี · ก้อนเรียบไม่ข้ามเส้นกลาง · claw sign · ความดันสูง hematuria",
+   "ตรวจแรก: ultrasound · UPJO ยืนยันด้วย diuretic renal scan · pyeloplasty เมื่อ function &lt; 40% หรือแย่ลง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'ก้อนท้องทารก = ไตบวมน้ำ (Hydro) ก่อนมะเร็ง'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal masses in the newborn",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ลายมือระบุว่าเป็นก้อนที่พบบ่อยที่สุดจาก UPJ obstruction",
+  "mnemonic": "<b>'ก้อนท้องทารกแรกเกิด = ไตบวมน้ำ (Hydro) ก่อนนึกถึงมะเร็ง'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal masses in the newborn; Ureteropelvic junction obstruction",
   "variants": [
-   "ทารกแรกเกิดก้อนที่สีข้าง US ไตบวมน้ำ กรวยไตโป่ง ท่อไตไม่โป่ง → UPJ obstruction",
-   "เด็ก 3 ปี ก้อนท้องเรียบ ไม่ข้ามเส้นกลาง → Wilms tumor",
-   "ทารกก้อนท้องแข็ง ข้ามเส้นกลาง มีหินปูน ตาช้ำ → neuroblastoma"
+   "ทารกแรกเกิดก้อนที่สีข้างซ้าย US กรวยไตโป่ง calyces โป่ง ท่อไตไม่โป่ง → UPJ obstruction → diuretic renal scan",
+   "ทารกก้อนท้องเป็นถุงน้ำหลายขนาดไม่ต่อกัน ไม่มีเนื้อไต → multicystic dysplastic kidney → ติดตาม",
+   "เด็ก 3 ปี ก้อนท้องเรียบไม่ข้ามเส้นกลาง ความดันสูง → Wilms tumor → CT + radical nephrectomy",
+   "ทารกหลังคลอดยาก ซีด ตัวเหลือง ก้อนเหนือไตขวา → adrenal hemorrhage → US ติดตามจนก้อนยุบ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 143 — ตัวพิมพ์: <b>PED 46-60 · 47. เด็กคลอดใหม่ แพทย์คลำก้อนในท้องได้ใต้ชายโครงซ้าย ก้อนนี้ควรเป็น... — A. Neuroblastoma B. Nephroblastoma C. Hydronephrosis D. Polycystic kidney E. Duplication cyst in kidney</b><br>ลายมือ: ขีด C · เขียน \"MIC : UPJ obstruction\"<br>ไฮไลต์: \"คลอดใหม่\" · \"คลำก้อนในท้องได้ใต้ชายโครงซ้าย\" · C (เหลือง)<br>ที่ปรับในเว็บ: ช้อย E เขียนเป็น Duplication cyst",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 143",
@@ -33,30 +34,32 @@
   ]
  },
  "MDCU66|RoA|55": {
-  "interp": "ถามสิ่งที่<b>ไม่ใช่</b>ภาวะแทรกซ้อนระยะยาวหลัง <b>Kasai operation</b> ในเด็ก 4 ปี",
-  "why": "หลัง Kasai โรคตับยังดำเนินต่อ ภาวะแทรกซ้อนระยะยาวคือ ascending cholangitis · <b>portal hypertension</b> (varices) · chronic liver disease/ cirrhosis · hepatopulmonary syndrome · <b>intrahepatic biliary cysts</b> · ส่วน <b>hepatoblastoma ไม่ใช่</b>ภาวะแทรกซ้อนที่จำเพาะของ biliary atresia/ Kasai · ไฟล์ ✓ ที่ A–D ขีด E แปะสไลด์ <b>\"Complications\"</b>",
+  "interp": "คำถามแบบ <b>not</b> — เด็ก 4 ปีหลังผ่าตัด <b>Kasai</b> สำหรับ biliary atresia ถามสิ่งที่<b>ไม่ใช่</b>ภาวะแทรกซ้อนระยะยาว ต้องรู้ว่าโรคตับยังดำเนินต่อหลัง Kasai และมีภาวะแทรกซ้อนอะไรบ้าง",
+  "why": "Kasai hepatoportoenterostomy ทำให้น้ำดีไหลได้ราวครึ่งหนึ่งของผู้ป่วย แต่การอักเสบและพังผืดในท่อน้ำดีในตับยังดำเนินต่อ จึงมีภาวะแทรกซ้อนระยะยาว: <b>ascending cholangitis</b> (30–60% มักใน 2 ปีแรก) · <b>portal hypertension</b> (34–76%) → <b>esophageal varices</b> ม้ามโต · <b>chronic liver disease/ biliary cirrhosis</b> · <b>intrahepatic biliary cysts</b> (biliary lakes ทำให้ cholangitis ซ้ำ) · hepatopulmonary syndrome และ portopulmonary hypertension · ผู้ป่วยส่วนใหญ่ต้อง liver transplant ในที่สุด · ส่วน <b>hepatoblastoma ไม่ใช่</b>ภาวะแทรกซ้อนที่สัมพันธ์กับ biliary atresia (สัมพันธ์กับทารกน้ำหนักแรกเกิดน้อย Beckwith–Wiedemann และ FAP) · ไฟล์ ✓ ที่ A–D ขีด E และแปะสไลด์ <b>\"Complications\"</b>",
   "wrong": {
-   "A": "Intrahepatic biliary cysts (biliary lakes) พบได้หลัง Kasai และทำให้ cholangitis ซ้ำ · จะถูกถ้าคำถามถามสิ่งที่ไม่ใช่ภาวะแทรกซ้อนแล้วช้อยไม่มี hepatoblastoma",
-   "B": "Esophageal varices จาก portal hypertension พบบ่อย · จะถูกถ้าคำถามถามผู้ป่วยที่ไม่มี portal hypertension",
-   "C": "Portal hypertension พบ 34–76% (ลายมือ \"MIC\") · จะถูกถ้าคำถามถามภาวะแทรกซ้อนระยะสั้นหลังผ่าตัด",
-   "D": "Chronic liver disease/ cirrhosis ดำเนินต่อแม้ Kasai สำเร็จ · จะถูกถ้าคำถามถามผู้ป่วยหลังปลูกถ่ายตับที่ตับใหม่ทำงานดี"
+   "A": "Intrahepatic biliary cysts (biliary lakes) เป็นภาวะแทรกซ้อนจริงหลัง Kasai เกิดจากท่อน้ำดีในตับขยายเป็นถุง ทำให้ cholangitis ซ้ำ · จะถูกถ้าเป็นเด็กที่ Kasai ได้ผลดีมาก ตัวไม่เหลือง ไม่เคยมี cholangitis และ US ตับปกติ",
+   "B": "Esophageal varices เกิดจาก portal hypertension ซึ่งพบบ่อยแม้ Kasai สำเร็จ อาจอาเจียนเป็นเลือดครั้งแรกในวัยเด็กเล็ก · จะถูกถ้าเป็นผู้ป่วยหลังปลูกถ่ายตับที่ตับใหม่ทำงานดีและ portal pressure ปกติแล้ว",
+   "C": "Portal hypertension พบ 34–76% (ลายมือ \"MIC\") จากพังผืดในตับที่ดำเนินต่อ · จะถูกถ้าเป็นภาวะแทรกซ้อนระยะสั้นในสัปดาห์แรกหลังผ่าตัด ซึ่งคือ cholangitis และน้ำดีไม่ไหล",
+   "D": "Chronic liver disease/ biliary cirrhosis ดำเนินต่อในผู้ป่วยส่วนใหญ่ จนราว 2 ใน 3 ต้องปลูกถ่ายตับภายในวัยเด็ก · จะถูกถ้าเป็นเด็กหลังปลูกถ่ายตับที่การทำงานของตับใหม่ปกติ"
   },
-  "trap": "คิดว่าโรคตับเรื้อรังทุกชนิดเพิ่มมะเร็งตับในเด็ก · hepatoblastoma สัมพันธ์กับทารกน้ำหนักน้อย/ Beckwith–Wiedemann/ FAP ไม่ใช่ biliary atresia",
+  "trap": "คิดว่าโรคตับเรื้อรังทุกชนิดในเด็กนำไปสู่มะเร็งตับ hepatoblastoma · hepatoblastoma สัมพันธ์กับทารกน้ำหนักน้อยมากและกลุ่มอาการทางพันธุกรรม ไม่ใช่ biliary atresia (มะเร็งที่พบได้ในตับแข็งระยะยาวคือ HCC ซึ่งพบน้อยมาก)",
   "summary": [
-   "Cholangitis หลัง Kasai: 30–60% (พบบ่อยใน 2 ปีแรก)",
-   "Portal hypertension: 34–76% · varices",
-   "Hepatopulmonary syndrome · portopulmonary HT",
-   "Intrahepatic biliary cysts",
-   "Cirrhosis → liver transplant (BA เป็นข้อบ่งชี้อันดับ 1 ในเด็ก)",
-   "Hepatoblastoma: ทารกน้ำหนักน้อย · BWS · FAP"
+   "Kasai สำเร็จ (bilirubin กลับปกติใน 3 เดือน) ราว 50–60% เมื่อผ่าก่อน 60 วัน",
+   "Cholangitis 30–60%: ไข้ เหลืองมากขึ้น อุจจาระซีด → IV antibiotics · ป้องกันด้วยยาฆ่าเชื้อในช่วงแรก",
+   "Portal hypertension 34–76%: varices · ม้ามโต hypersplenism · ท้องมาน",
+   "Hepatopulmonary syndrome (SpO₂ ต่ำ เขียว) · portopulmonary hypertension · intrahepatic biliary cysts",
+   "ภาวะทุพโภชนาการ ขาดวิตามินที่ละลายในไขมัน (A, D, E, K) → ให้เสริม",
+   "Biliary atresia = ข้อบ่งชี้ปลูกถ่ายตับในเด็กอันดับ 1 · ราว 2 ใน 3 ต้องปลูกถ่ายในวัยเด็ก",
+   "Hepatoblastoma: เด็ก &lt; 3 ปี · AFP สูงมาก · ทารกน้ำหนักแรกเกิดน้อย · Beckwith–Wiedemann · FAP"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'หลัง Kasai: Cholangitis · Portal HT · Pulmonary · Cyst · Cirrhosis (ไม่มี Cancer)'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary atresia",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ Complications ที่ผู้จดแปะซึ่งระบุ cholangitis, portal hypertension, hepatopulmonary syndrome และ intrahepatic biliary cysts โดยไม่มี hepatoblastoma",
+  "mnemonic": "<b>'หลัง Kasai: Cholangitis · Portal HT · Pulmonary · Cyst · Cirrhosis — ไม่มี (hepatoblastoma) Cancer'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary atresia · Hartley JL, et al. Biliary atresia (Lancet 2009;374:1704)",
   "variants": [
-   "หลัง Kasai 3 เดือน ไข้ เหลืองมากขึ้น อุจจาระซีด → cholangitis → IV antibiotics",
-   "หลัง Kasai 5 ปี อาเจียนเป็นเลือด ม้ามโต → varices จาก portal hypertension",
-   "หลัง Kasai มีภาวะเขียวขณะยืน SpO₂ ต่ำ → hepatopulmonary syndrome"
+   "หลัง Kasai 3 เดือน ไข้ เหลืองมากขึ้น อุจจาระซีดกลับมา → ascending cholangitis → IV antibiotics",
+   "หลัง Kasai 5 ปี อาเจียนเป็นเลือด ม้ามโต เกล็ดเลือดต่ำ → varices จาก portal hypertension → endoscopic band ligation",
+   "หลัง Kasai มีภาวะเขียว SpO₂ ต่ำลงเวลายืน นิ้วปุ้ม → hepatopulmonary syndrome → พิจารณาปลูกถ่ายตับ",
+   "เด็ก 2 ปี คลอดน้ำหนัก 900 g มีก้อนตับใหญ่ AFP สูงมาก → hepatoblastoma"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>55. What is not a long-term complication after Kasai operation in 4-year-old patient? — A. Intrahepatic cysts B. Esophageal varices C. Portal hypertension D. Chronic liver disease E. Risk of Hepatoblastoma</b><br>ลายมือ: ✓ ที่ A B C D · เขียน \"MIC\" เหนือช้อย C · ขีด E<br>ไฮไลต์: \"not a long-term complication\" · \"after Kasai operation\" · \"4-year-old patient\" · A–D (เหลือง) · E (ส้ม)<br>รูปที่แปะ: สไลด์ Complications — Ascending cholangitis (30-60%) · Portal hypertension (34-76%) · Hepato-pulmonary syndrome · Intrahepatic biliary cysts",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -66,30 +69,32 @@
   ]
  },
  "MDCU66|RoA|58": {
-  "interp": "ทารก 24 วัน <b>อาเจียนพุ่งไม่มีน้ำดี</b>หลังกินนม 10 วัน คลำได้ก้อน 1 × 2 cm ใต้ชายโครงขวา (olive) ถามการวินิจฉัย",
-  "why": "อาเจียนพุ่งไม่มีน้ำดีอายุ 2–8 สัปดาห์ (<b>peak 3–5 สัปดาห์</b>) + คลำได้ก้อนรูปมะกอกที่ epigastrium/ ชายโครงขวา = <b>hypertrophic pyloric stenosis</b> · ไฟล์ขีด E ลายมือ <b>\"peak 3-5 wk\"</b>",
+  "interp": "ทารก 24 วัน <b>อาเจียนพุ่งเป็นนมสีขาวไม่มีน้ำดี</b>ภายในไม่กี่นาทีหลังกินนมมา 10 วัน คลำได้ก้อน 1 × 2 cm ใต้ชายโครงขวา — ถามการวินิจฉัย ต้องเชื่อมอายุ ลักษณะอาเจียน และก้อนรูปมะกอก",
+  "why": "<b>Hypertrophic pyloric stenosis</b> คือกล้ามเนื้อหูรูด pylorus หนาตัวจนอุดทางออกกระเพาะ พบอายุ 2–8 สัปดาห์ (<b>peak 3–5 สัปดาห์</b>) เพศชายมากกว่าหญิง 4–5 เท่า ลูกคนแรกบ่อย สัมพันธ์กับ erythromycin ในทารก · การอุดอยู่<b>เหนือ ampulla of Vater</b> จึงอาเจียน<b>ไม่มีน้ำดี</b> พุ่งแรง หลังกินนมไม่นาน และยังหิวหลังอาเจียน · ตรวจร่างกายคลำได้ <b>olive</b> (ก้อนรูปมะกอก ~1–2 cm) ใต้ชายโครงขวา/ epigastrium และเห็น gastric peristalsis · ทารกเสีย HCl จึงเกิด <b>hypochloremic hypokalemic metabolic alkalosis</b> · ยืนยันด้วย ultrasound (กล้ามเนื้อหนา ≥ 3–4 mm ยาว ≥ 15–17 mm) · แก้น้ำและเกลือแร่ก่อน แล้วทำ <b>Ramstedt pyloromyotomy</b> · ไฟล์ขีด E ลายมือ <b>\"peak 3-5 wk\"</b>",
   "wrong": {
-   "A": "Cow milk protein allergy มักมีถ่ายเป็นมูกเลือด ผื่น อาเจียนไม่พุ่ง ไม่มีก้อน · จะถูกถ้าคำถามถามทารกถ่ายมีมูกปนเลือด ผื่น eczema",
-   "B": "Overfeeding อาเจียนไม่พุ่ง น้ำหนักขึ้นดี ไม่มีก้อน · จะถูกถ้าคำถามถามทารกแหวะนมหลังกินมาก น้ำหนักขึ้นเกินเกณฑ์",
-   "C": "Choledochal cyst: ปวดท้อง เหลือง ก้อนใต้ชายโครงขวา (ใหญ่กว่า) ไม่อาเจียนพุ่ง · จะถูกถ้าคำถามถามเด็กเหลือง ก้อนท้องขวาบน",
-   "D": "Duodenal atresia อาเจียน<b>มีน้ำดี</b>ตั้งแต่วันแรก double bubble · จะถูกถ้าคำถามถามทารก Down syndrome อาเจียนเขียววันแรก"
+   "A": "Cow milk protein allergy ทำให้อาเจียน ถ่ายเป็นมูกเลือด ผื่น eczema งอแง แต่อาเจียนไม่พุ่งแรงเป็นแบบนี้และไม่มีก้อน · จะถูกถ้าเป็นทารก 6 สัปดาห์ที่ถ่ายมีมูกปนเลือดสด ผื่นที่แก้ม แข็งแรงดี น้ำหนักขึ้น",
+   "B": "Overfeeding ทำให้แหวะนมปริมาณน้อยหลังกิน ไม่พุ่ง น้ำหนักขึ้นดีหรือมากเกิน ไม่มีก้อนหรือ electrolyte ผิดปกติ · จะถูกถ้าเป็นทารก 1 เดือนที่กินนมผงมากกว่า 200 mL/kg/วัน แหวะเล็กน้อยหลังกิน น้ำหนักขึ้นเกินเกณฑ์",
+   "C": "Choledochal cyst ทำให้ปวดท้อง ตัวเหลือง และก้อนใต้ชายโครงขวา (มักใหญ่กว่า) ไม่ทำให้อาเจียนพุ่งหลังกินนม · จะถูกถ้าเป็นเด็กหญิง 3 ขวบที่ตัวเหลืองเป็นพัก ๆ ปวดท้อง และ ultrasound เห็นถุงน้ำต่อกับท่อน้ำดีร่วม",
+   "D": "Duodenal atresia มีอาการตั้งแต่วันแรกหลังคลอด อาเจียนมักมีน้ำดี (อุดใต้ ampulla ~85%) X-ray เห็น double bubble สัมพันธ์ Down syndrome · จะถูกถ้าเป็นทารก Down syndrome อาเจียนสีเขียวภายใน 24 ชั่วโมงแรกหลังคลอด แม่มีน้ำคร่ำมาก"
   },
-  "trap": "ก้อนอยู่ใต้ชายโครงขวาทำให้นึกถึง choledochal cyst · แต่ขนาด 1 × 2 cm + อาเจียนพุ่งไม่มีน้ำดี = pyloric olive",
+  "trap": "ก้อนอยู่ใต้ชายโครงขวาทำให้นึกถึง choledochal cyst หรือเห็นอาเจียนแล้วคิดว่าแพ้นม · ให้ดูชุดอาการ: อายุ 3–5 สัปดาห์ + อาเจียนพุ่งไม่มีน้ำดี + ก้อนเล็กรูปมะกอก = pyloric stenosis",
   "summary": [
-   "HPS: 2–8 สัปดาห์ (peak 3–5) · ชาย &gt; หญิง (4–5:1)",
-   "อาเจียนพุ่งไม่มีน้ำดี หิวหลังอาเจียน",
-   "Olive mass · visible gastric peristalsis",
-   "Hypochloremic hypokalemic metabolic alkalosis",
-   "US: pyloric muscle ≥ 3–4 mm ยาว ≥ 15–16 mm",
-   "แก้น้ำ-เกลือแร่ก่อน → Ramstedt pyloromyotomy"
+   "HPS: อายุ 2–8 สัปดาห์ (peak 3–5) · ชาย &gt; หญิง 4–5:1 · ลูกคนแรก · erythromycin ในทารก",
+   "อาเจียนพุ่งไม่มีน้ำดีหลังกินนม หิวหลังอาเจียน น้ำหนักลด ขาดน้ำ",
+   "ตรวจ: olive mass ที่ epigastrium/ ใต้ชายโครงขวา · visible gastric peristalsis",
+   "Electrolyte: hypochloremic hypokalemic metabolic alkalosis · paradoxical aciduria ในรายรุนแรง",
+   "US: กล้ามเนื้อ pylorus หนา ≥ 3–4 mm · ยาว ≥ 15–17 mm",
+   "แก้น้ำ/ Cl/ K ก่อน (HCO₃ &lt; 30, Cl &gt; 100) ไม่ใช่การผ่าตัดฉุกเฉิน → Ramstedt pyloromyotomy (open/ laparoscopic)",
+   "อาเจียน<b>มีน้ำดี</b>ในทารก → คิดถึงการอุดใต้ ampulla/ malrotation volvulus ซึ่งฉุกเฉินกว่า"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ Infantile Hypertrophic Pyloric Stenosis ที่ผู้จดแปะซึ่งระบุ nonbilious vomiting at 2 to 8 wks (peak 3–5 wks)",
   "mnemonic": "<b>'HPS = Hungry · Projectile · Pyloric olive · Paradoxical aciduria'</b>",
   "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Hypertrophic pyloric stenosis",
   "variants": [
-   "ทารกชาย 4 สัปดาห์ อาเจียนพุ่ง Cl ต่ำ K ต่ำ HCO₃ สูง → HPS → แก้ electrolyte → pyloromyotomy",
-   "ทารก Down syndrome อาเจียนเขียววันแรก X-ray double bubble → duodenal atresia",
-   "ทารกอาเจียนเขียวทันที ก่อนหน้าแข็งแรง → malrotation with volvulus"
+   "ทารกชาย 4 สัปดาห์ อาเจียนพุ่ง Cl 88 K 3.0 HCO₃ 34 → HPS → IV NSS + KCl ก่อน แล้ว pyloromyotomy",
+   "ทารก Down syndrome อาเจียนเขียวภายใน 24 ชม.แรก X-ray double bubble → duodenal atresia → duodenoduodenostomy",
+   "ทารก 2 สัปดาห์ แข็งแรงดี อาเจียนสีเขียวทันที → malrotation with midgut volvulus → UGI study ด่วน",
+   "ทำไม HPS เกิด metabolic alkalosis → อาเจียนเสียกรด HCl จากกระเพาะ ร่วมกับไตเก็บ Na แลก K/ H"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>58. เด็กอายุ 24 วัน อาเจียนพุ่งมา 10 วันก่อนมารพ. หลังกลับบ้านได้ 10 วัน กินนมได้ 10 นาที ก็อาเจียนเป็นนมสีขาว ไม่เคยมีสีเขียวสีเหลืองปน คลำก้อนได้ที่ชายโครงขวา 1x2 ซม. — A milk allergy B overfeeding C choledocal cyst D duodenal atresia E hypertrophic pyloric stenosis</b><br>ลายมือ: เขียน \"peak 3-5 wk\" เหนืออายุ 24 วัน · ขีด E<br>ไฮไลต์: \"อายุ 24 วัน\" · \"อาเจียนพุ่งมา 10 วัน\" · \"กินนมได้ 10 นาที ก็อาเจียนเป็นนมสีขาว\" · \"ไม่เคยมีสีเขียวสีเหลืองปน\" · \"ก้อนได้ที่ชายโครงขวา 1x2 ซม.\" · E (เหลือง)<br>รูปที่แปะ: สไลด์ Infantile Hypertrophic Pyloric Stenosis — Clinical presentation: Nonbilious vomiting at 2 to 8 wks (peak 3 – 5 wks) · Common in boys than girls 2:1 to 5:1 พร้อมโน้ตลายมือ scenario: ทารกแข็งแรง อาเจียนพุ่งไม่มีน้ำดี หิวหลังอาเจียน",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -99,30 +104,32 @@
   ]
  },
  "MDCU66|RoA|60": {
-  "interp": "ทารก 3 เดือนที่แข็งแรงดีมาก่อน มี<b>อาเจียนเป็นน้ำดีขึ้นทันที</b> ถามการวินิจฉัยที่น่าจะเป็นที่สุด",
-  "why": "อาเจียนเป็นน้ำดีทันทีในทารกที่เคยปกติ ต้องคิดถึง <b>malrotation with midgut volvulus</b> ก่อนเสมอ เพราะลำไส้ขาดเลือดทั้ง midgut ได้ในไม่กี่ชั่วโมง (ส่วนใหญ่เกิดในขวบปีแรก โดยเฉพาะเดือนแรก) → UGI study ด่วน/ Ladd procedure · ไฟล์ขีด c (intussusception) ลายมือที่ช้อย e <b>\"peak 1st mo\"</b>",
+  "interp": "ทารก 3 เดือนที่แข็งแรงดีมาก่อน มี<b>อาเจียนเป็นน้ำดีขึ้นทันที</b> — ถามการวินิจฉัยที่น่าจะเป็นที่สุด ซึ่งต้องคิดถึงภาวะที่อันตรายถึงชีวิตและต้องผ่าตัดด่วนก่อน",
+  "why": "อาเจียนเป็นน้ำดี (สีเขียว) ในทารกบ่งว่าการอุดอยู่<b>ใต้ ampulla of Vater</b> และถือเป็น surgical emergency จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ในทารกที่เคยปกติแล้วเกิดทันที ต้องคิดถึง <b>malrotation with midgut volvulus</b> เป็นอันดับแรก — ลำไส้หมุนผิดปกติทำให้ mesentery ฐานแคบ ลำไส้ทั้ง midgut บิดรอบ superior mesenteric artery → ขาดเลือดทั้งหมดได้ในไม่กี่ชั่วโมง · volvulus เกิดได้ทุกวัยแต่ราวครึ่งหนึ่งเกิดในเดือนแรกและส่วนใหญ่ในขวบปีแรก · ตรวจด่วนด้วย <b>UGI contrast study</b> (DJ flexure อยู่ขวาของกระดูกสันหลัง ลำไส้รูป corkscrew) แล้วผ่าตัด <b>Ladd procedure</b> · ไฟล์ขีด c (intussusception) แต่ลายมือที่ช้อย e เขียน <b>\"peak 1st mo\"</b>",
   "wrong": {
-   "A": "Pyloric stenosis อาเจียน<b>ไม่มีน้ำดี</b> อายุ 2–8 สัปดาห์ · จะถูกถ้าคำถามถามอาเจียนพุ่งเป็นนมสีขาว",
-   "B": "Duodenal atresia มีอาการตั้งแต่วันแรกหลังคลอด ไม่ใช่ 3 เดือน · จะถูกถ้าคำถามถามทารกแรกเกิด double bubble",
-   "C": "Intussusception พบบ่อยอายุ 3 เดือน–3 ปี (peak 6–18 เดือน) อาการเด่นคือปวดท้องเป็นพัก ๆ ร้องกวน ถ่ายมูกเลือด (currant jelly) อาเจียนน้ำดีเป็นอาการระยะหลัง · จะถูกถ้าคำถามถามเด็ก 8 เดือน ร้องเป็นพัก ๆ ขาขึ้นท้อง คลำได้ก้อนรูปไส้กรอก",
-   "D": "NEC พบในทารกคลอดก่อนกำหนดสัปดาห์แรก ๆ ท้องอืด ถ่ายเลือด pneumatosis · จะถูกถ้าคำถามถามทารกคลอดก่อนกำหนดเริ่มกินนมแล้วท้องอืด"
+   "A": "Pyloric stenosis อาเจียน<b>ไม่มีน้ำดี</b>เพราะอุดเหนือ ampulla และพบอายุ 2–8 สัปดาห์ (ลายมือ ✗) · จะถูกถ้าเป็นทารกชาย 4 สัปดาห์อาเจียนพุ่งเป็นนมสีขาวหลังกิน คลำได้ก้อนรูปมะกอก",
+   "B": "Duodenal atresia มีอาการตั้งแต่วันแรกหลังคลอด ไม่ใช่ทารกที่แข็งแรงมา 3 เดือน (ลายมือ ✗) · จะถูกถ้าเป็นทารก Down syndrome อาเจียนเขียวในวันแรก X-ray เห็น double bubble",
+   "C": "Intussusception พบอายุ 3 เดือน–3 ปี (peak 6–18 เดือน ลายมือเขียน 3–8 เดือน) อาการเด่นคือปวดท้องเป็นพัก ๆ ร้องกวนขาขึ้นท้อง อาเจียน ถ่ายมูกเลือด (currant jelly) และคลำได้ก้อนรูปไส้กรอก อาเจียนน้ำดีเป็นอาการระยะหลังเมื่ออุดตันมากแล้ว · จะถูกถ้าเป็นเด็ก 8 เดือนที่ร้องกวนเป็นพัก ๆ ทุก 15–20 นาที ระหว่างนั้นซึม ถ่ายมูกปนเลือด คลำได้ก้อนใต้ชายโครงขวา",
+   "D": "NEC พบในทารกคลอดก่อนกำหนดสัปดาห์แรก ๆ หลังเริ่มกินนม มีท้องอืด ถ่ายเป็นเลือด และ pneumatosis intestinalis ไม่ใช่ทารก 3 เดือนที่แข็งแรง · จะถูกถ้าเป็นทารกคลอด 30 สัปดาห์ที่เริ่มกินนมได้ 1 สัปดาห์แล้วท้องอืด ถ่ายมีเลือด"
   },
-  "trap": "อายุ 3 เดือนเข้ากับช่วงของ intussusception ทำให้เลือก c ตามคีย์ในไฟล์ · แต่คำถามเน้น <b>อาเจียนน้ำดีทันที</b>ในทารกปกติ ซึ่งเป็นสัญญาณอันตรายของ volvulus",
+  "trap": "อายุ 3 เดือนอยู่ในช่วงของ intussusception ทำให้เลือกตามคีย์ในไฟล์ (c) · แต่คำถามเน้น <b>อาเจียนน้ำดีทันที</b>ในทารกที่เคยปกติ โดยไม่มีปวดเป็นพัก ๆ หรือถ่ายมูกเลือด ซึ่งเป็นสัญญาณของ midgut volvulus ที่ถ้าพลาดลำไส้ตายทั้งหมด",
   "summary": [
-   "อาเจียนน้ำดีในทารก = surgical emergency จนกว่าจะพิสูจน์ได้",
-   "Malrotation + volvulus: ส่วนใหญ่ขวบปีแรก (เดือนแรกมากสุด)",
-   "UGI study: DJ flexure ผิดตำแหน่ง · corkscrew",
-   "Ladd procedure: คลายเกลียว · ตัด Ladd band · ขยาย mesentery · ตัดไส้ติ่ง",
-   "Intussusception: 3 เดือน–3 ปี · ปวดเป็นพัก ๆ · currant jelly · US target sign",
-   "Intussusception รักษา: air/ hydrostatic enema reduction"
+   "อาเจียนน้ำดีในทารก = surgical emergency → UGI study ด่วน (หรือผ่าตัดเลยถ้า peritonitis/ ช็อก)",
+   "Malrotation: DJ flexure อยู่ขวาของ midline · cecum อยู่สูง · Ladd band ข้าม duodenum · mesentery ฐานแคบ",
+   "Midgut volvulus: ~50% ในเดือนแรก ~75–90% ในขวบปีแรก · UGI เห็น corkscrew/ bird's beak ที่ duodenum",
+   "Ladd procedure: คลายเกลียวทวนเข็มนาฬิกา · ตัด Ladd band · ขยายฐาน mesentery · วางลำไส้เล็กขวา ลำไส้ใหญ่ซ้าย · ตัดไส้ติ่ง",
+   "Intussusception: 3 เดือน–3 ปี · ปวดเป็นพัก ๆ อาเจียน currant jelly ก้อนไส้กรอก · US target sign",
+   "Intussusception รักษา: air/ hydrostatic enema reduction สำเร็จ ~80–90% · peritonitis/ ทะลุ → ผ่าตัด",
+   "Pyloric stenosis: อาเจียนไม่มีน้ำดี 2–8 สัปดาห์ · duodenal atresia: วันแรก double bubble"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ในเว็บ ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ในไฟล์ MCQ Key 2 ที่ขีด c (intussusception) · อาเจียนน้ำดีทันทีในทารกที่เคยปกติเป็นลักษณะเด่นของ midgut volvulus ส่วน intussusception มักปวดเป็นพัก ๆ และถ่ายมูกเลือดก่อน",
+  "opinion": "เห็นด้วยกับคำตอบ E ในเว็บ ความมั่นใจปานกลางถึงสูง — ต่างจากคีย์ในไฟล์ MCQ Key 2 ที่ขีด c (intussusception) · อาเจียนน้ำดีทันทีในทารกที่เคยปกติเป็นลักษณะเด่นของ midgut volvulus และเป็นภาวะที่ต้องไม่พลาด ส่วน intussusception มักมาด้วยปวดเป็นพัก ๆ และถ่ายมูกเลือดก่อน",
   "mnemonic": "<b>'Bilious vomiting ในทารก = Volvulus until proven otherwise'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Malrotation and midgut volvulus",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Malrotation and midgut volvulus; Intussusception",
   "variants": [
-   "ทารก 2 สัปดาห์ อาเจียนเขียวทันที → UGI study ด่วน → malrotation with volvulus → Ladd procedure",
-   "เด็ก 9 เดือน ร้องเป็นพัก ๆ ขาขึ้นท้อง ถ่ายมูกเลือด → intussusception → air enema",
-   "ทารกคลอดก่อนกำหนด ท้องอืด ถ่ายเลือด pneumatosis intestinalis → NEC"
+   "ทารก 2 สัปดาห์ แข็งแรงดี อาเจียนเขียวทันที ท้องไม่อืด → UGI study ด่วน → malrotation with volvulus → Ladd procedure",
+   "ทารกอาเจียนเขียว ท้องอืดตึง ถ่ายเป็นเลือด ช็อก → ผ่าตัดทันทีไม่ต้องรอ UGI",
+   "เด็ก 9 เดือน ร้องขาขึ้นท้องเป็นพัก ๆ ถ่ายมูกปนเลือด US target sign → intussusception → air enema reduction",
+   "ทำไม volvulus อันตรายกว่า → ลำไส้บิดรอบ SMA ทำให้ midgut ทั้งหมดขาดเลือด อาจต้องตัดลำไส้เกือบทั้งหมด (short bowel)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>60. previously well 3-month-old infant present with sudden onset of bilious vomiting. most probable diagnosis? — a. pyloric stenosis b. duodenal atresia c. intussusception d. necrotizing enterocolitis e. midgut malrotation with volvulus</b><br>ลายมือ: กากบาท ✗ ที่ a และ b · ขีด c เขียน \"peak 3-8 mo\" และ \"2 mo–2 yr\" · ช้อย e เขียน \"peak 1st mo\"<br>ไฮไลต์: \"previously well\" · \"3-month-old infant\" · \"sudden onset of bilious vomiting\" · \"most probable diagnosis\" · c (เหลือง)<br>รูปที่แปะ: สไลด์ Intestinal malrotation — อาการแยกตามวัย Newborn · Older child · Adult · สไลด์ Incidence (2 months – 2 years · peak age · Male : Female) · Signs & Symptoms · 2/3 of intestinal malrotation → Mid gut volvulus → Abdominal distension · Bilious vomiting · Bloody stool พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: เฉลยเป็น E malrotation with midgut volvulus",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -132,30 +139,32 @@
   ]
  },
  "MDCU66|RoA|X8": {
-  "interp": "เด็กมี<b>มูก (mucus) ไหลออกจากรูเปิดด้านข้างคอ</b> ถามการวินิจฉัย",
-  "why": "มีรูเปิดที่ผิวหนังและมีน้ำ/ มูกไหล = <b>sinus</b> (ไม่ใช่ cyst ที่เป็นก้อนปิด) · รูเปิดที่<b>ขอบหน้าของ sternocleidomastoid ส่วนล่าง</b>เป็นของ <b>second branchial cleft</b> ซึ่งพบบ่อยที่สุด · ไฟล์ขีด D ลายมือ <b>\"sinus\"</b>",
+  "interp": "เด็กมี<b>มูก (mucus) ไหลออกจากรูเปิดเล็ก ๆ ที่ด้านข้างคอ</b> — ถามชนิดของ branchial anomaly ต้องแยกทั้งชนิด (cyst/ sinus/ fistula) และลำดับ cleft จากตำแหน่ง",
+  "why": "Branchial anomaly แยกตามรูปแบบ: <b>cyst</b> = ก้อนปิดไม่มีรูเปิด · <b>sinus</b> = มีรูเปิดด้านเดียว (มักที่ผิวหนัง) · <b>fistula</b> = เปิดทั้งผิวหนังและในคอหอย · การมีมูกไหลจากรูที่ผิวหนังจึงเป็น <b>sinus</b> (หรือ fistula) · ตำแหน่งบอกลำดับ: <b>second branchial cleft</b> พบบ่อยที่สุด (~90%) รูเปิดอยู่ <b>ขอบหน้าของกล้ามเนื้อ sternocleidomastoid ส่วนล่าง 1/3</b> ทางเดินผ่านระหว่าง internal และ external carotid ไปเปิดที่ tonsillar fossa · first cleft อยู่ใกล้หู/ มุมขากรรไกร สัมพันธ์ facial nerve · รักษาด้วยผ่าตัดเอาทางเดินออกทั้งหมด (step-ladder incision) ในช่วงที่ไม่อักเสบ · ไฟล์ขีด D ลายมือ <b>\"sinus\"</b>",
   "wrong": {
-   "A": "First branchial cleft cyst เป็นก้อนใกล้หู/ มุมขากรรไกร (ไม่มีรูเปิด) · จะถูกถ้าคำถามถามก้อนใต้ติ่งหูใกล้ parotid ติดเชื้อซ้ำ",
-   "B": "First branchial cleft sinus เปิดใต้มุมขากรรไกร ทางเชื่อมไปช่องหูภายนอก ใกล้ facial nerve · จะถูกถ้าคำถามถามรูเปิดใต้มุมขากรรไกร มีหนองไหลจากหู",
-   "C": "Second branchial cleft cyst เป็นก้อนนุ่มที่ขอบหน้า SCM มักโผล่ในวัยรุ่น/ ผู้ใหญ่ตอนติดเชื้อ ไม่มีรูเปิด · จะถูกถ้าคำถามถามก้อนข้างคอโตหลังเป็นหวัด",
-   "E": "Thyroglossal duct cyst อยู่<b>กลางคอ</b> เคลื่อนขึ้นเมื่อแลบลิ้น/ กลืน · จะถูกถ้าคำถามถามก้อนกลางคอเลื่อนตามการแลบลิ้น"
+   "A": "First branchial cleft cyst เป็นก้อนปิดใกล้หู ใต้ติ่งหู หรือในต่อม parotid ไม่มีรูเปิดให้มูกไหล · จะถูกถ้าเป็นเด็กที่มีก้อนนุ่มใต้ติ่งหูอักเสบซ้ำ ๆ คล้ายฝีต่อม parotid",
+   "B": "First branchial cleft sinus มีรูเปิดใต้มุมขากรรไกรล่าง ทางเดินไปช่องหูภายนอก ใกล้ facial nerve อาจมีหนองไหลจากหู · จะถูกถ้าเป็นเด็กที่มีรูเล็กใต้มุมขากรรไกรและมีน้ำหนองไหลจากช่องหูเป็นพัก ๆ",
+   "C": "Second branchial cleft cyst เป็นก้อนนุ่มที่ขอบหน้า SCM มักโผล่ในวัยรุ่นหรือผู้ใหญ่ตอนติดเชื้อทางเดินหายใจ ไม่มีรูเปิด · จะถูกถ้าเป็นชาย 20 ปีที่มีก้อนนุ่มข้างคอใต้มุมขากรรไกรโตขึ้นหลังเป็นหวัด",
+   "E": "Thyroglossal duct cyst อยู่<b>กลางคอ</b> ใกล้ hyoid เคลื่อนขึ้นเมื่อกลืนหรือแลบลิ้น และถ้าติดเชื้อแตกอาจมีรูเปิดได้ แต่ไม่ใช่ด้านข้างคอ · จะถูกถ้าเป็นเด็ก 5 ขวบที่มีก้อนกลางคอเลื่อนขึ้นตามการแลบลิ้น"
   },
-  "trap": "สับสน cyst (ก้อนปิด) กับ sinus (รูเปิดหนึ่งด้าน) กับ fistula (เปิดสองด้าน)",
+  "trap": "สับสน cyst (ก้อนปิด) กับ sinus/ fistula (มีรูเปิด) และจำตำแหน่ง cleft สลับกัน · มูกไหลจากรูที่ขอบหน้า SCM ส่วนล่าง = second branchial sinus",
   "summary": [
-   "Branchial anomaly ส่วนใหญ่: second cleft (~90%)",
-   "Second: รูเปิดขอบหน้า SCM ส่วนล่าง",
-   "ทางเดินผ่านระหว่าง ICA และ ECA ไป tonsillar fossa",
-   "First: ใกล้หู/ มุมขากรรไกร สัมพันธ์ facial nerve",
-   "Third/ fourth: ด้านซ้าย สัมพันธ์ pyriform sinus → thyroiditis ซ้ำ",
-   "รักษา: ผ่าตัดเอาออกทั้งหมด (step-ladder incision) ช่วงไม่อักเสบ"
+   "Branchial anomaly: cyst (ก้อนปิด) · sinus (เปิดด้านเดียว) · fistula (เปิดทั้งผิวหนังและคอหอย)",
+   "Second cleft (~90%): รูเปิดขอบหน้า SCM ส่วนล่าง · ทางเดินระหว่าง ICA และ ECA เหนือ CN XII ไปเปิดที่ tonsillar fossa",
+   "First cleft: ใกล้หู/ มุมขากรรไกร · สัมพันธ์ facial nerve และช่องหูภายนอก",
+   "Third/ fourth: ด้านซ้ายบ่อย · เปิดที่ pyriform sinus → acute suppurative thyroiditis/ ฝีที่คอซ้ำ",
+   "Cyst มักแสดงอาการวัยรุ่น/ ผู้ใหญ่ตอนติดเชื้อ · sinus/ fistula เห็นตั้งแต่เด็ก",
+   "รักษา: ผ่าตัดเอาออกทั้งหมด (step-ladder incision) ช่วงสงบ · อักเสบให้ยาฆ่าเชื้อก่อน · เหลือทางเดินเป็นซ้ำ",
+   "ก้อนข้างคอในผู้ใหญ่ &gt; 40 ปีที่ดูเหมือน branchial cyst → ต้องแยก cystic metastasis (HPV oropharyngeal SCC)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'รูเปิด = Sinus · ข้างคอล่าง = Second'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Branchial cleft anomalies",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ลายมือเขียนว่า sinus กำกับคำว่า mucus · ในไฟล์มีช้อย A–D เว็บเพิ่ม thyroglossal duct cyst เป็นช้อย E",
+  "mnemonic": "<b>'รูเปิด + มูกไหล = Sinus · ข้างคอล่างหน้า SCM = Second'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Branchial cleft anomalies · Cummings Otolaryngology 7th ed. (2021)",
   "variants": [
-   "เด็กมีรูเล็กที่ขอบหน้า SCM ส่วนล่าง มีน้ำใสซึม → second branchial sinus → complete excision",
-   "วัยรุ่นมีก้อนนุ่มข้างคอหลังเป็นหวัด → second branchial cleft cyst",
-   "ก้อนกลางคอเลื่อนขึ้นตามการแลบลิ้น → thyroglossal duct cyst → Sistrunk"
+   "เด็ก 4 ขวบ มีรูเล็กที่ขอบหน้า SCM ส่วนล่าง น้ำใสซึมเป็นพัก ๆ ตั้งแต่เกิด → second branchial sinus → complete excision",
+   "วัยรุ่นมีก้อนนุ่มข้างคอใต้มุมขากรรไกร โตหลังเป็นหวัด → second branchial cleft cyst → ยาฆ่าเชื้อ แล้วผ่าตัดช่วงสงบ",
+   "เด็กเป็นฝีที่คอซ้ายและต่อมไทรอยด์อักเสบซ้ำ → third/ fourth branchial anomaly (pyriform sinus fistula)",
+   "ชาย 55 ปี ก้อนถุงน้ำข้างคอใหม่ → ตรวจหามะเร็ง oropharynx ก่อนวินิจฉัย branchial cyst"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>ผู้ป่วยเด็กมี mucus ไหลจากข้างคอ — A. 1st branchial cleft cyst B. 1st branchial cleft sinus C. 2nd branchial cleft cyst D. 2nd branchial cleft sinus</b> (ไม่มีเลขข้อ)<br>ลายมือ: เขียน \"sinus\" เหนือ mucus · ขีด D<br>ไฮไลต์: \"เด็ก\" · \"mucus ไหลจากข้างคอ\" · D (เหลือง)<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–D เว็บเพิ่ม E Thyroglossal duct cyst",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -165,30 +174,32 @@
   ]
  },
  "MDCU66|RoA|X9": {
-  "interp": "ทารก 6 สัปดาห์ ตัวเหลือง <b>อุจจาระซีด ปัสสาวะเข้ม</b> ตับโต (cholestatic jaundice สงสัย biliary atresia) ถามการตรวจแรก",
-  "why": "ขั้นแรกของทารกตัวเหลืองเกิน 2 สัปดาห์คือ<b>ยืนยัน cholestasis</b> ด้วย <b>LFT (total/ direct bilirubin)</b> ร่วมกับ <b>ultrasound ตับ</b> (ดู gallbladder เล็ก, triangular cord sign และแยก choledochal cyst) ก่อนทำ HIDA/ biopsy/ intraoperative cholangiogram · ไฟล์ขีด A ลายมือ <b>\"แล้วก็ USG liver\"</b>",
+  "interp": "ทารก 6 สัปดาห์ ตัวเหลือง <b>อุจจาระซีด ปัสสาวะสีเข้ม</b> ตับโตมาก = cholestatic jaundice ที่ต้องสงสัย <b>biliary atresia</b> — ถามการตรวจลำดับแรก",
+  "why": "ทารกที่ตัวเหลืองนานเกิน 2 สัปดาห์ต้องแยก unconjugated (นมแม่, physiologic) ออกจาก <b>conjugated (direct) hyperbilirubinemia</b> ก่อน เพราะ cholestasis ในทารกเป็นโรคเสมอ · ขั้นแรกจึงเป็น <b>LFT ที่มี total และ direct bilirubin</b> (direct &gt; 1 mg/dL หรือ &gt; 20% ของ total = cholestasis) ร่วมกับ <b>ultrasound ตับและทางเดินน้ำดี</b> (ถุงน้ำดีเล็ก/ ไม่เห็น หดตัวไม่ได้ · triangular cord sign · แยก choledochal cyst) · จากนั้นตามด้วย HIDA scan หรือ liver biopsy และยืนยันด้วย <b>intraoperative cholangiogram</b> แล้วทำ Kasai ภายใน 60 วัน · เวลาจึงสำคัญมาก · ไฟล์ขีด A ลายมือ <b>\"แล้วก็ USG liver\"</b> และแปะแผนผังการตรวจทารกตัวเหลือง 2–12 สัปดาห์",
   "wrong": {
-   "B": "Hepatobiliary scintigraphy (HIDA/ DISIDA) ทำหลังยืนยัน cholestasis และ US แล้ว ถ้าไม่มีการขับออกสู่ลำไส้ สนับสนุน BA · จะถูกถ้าคำถามถามขั้นต่อจาก US ที่ไม่ชัดเจน",
-   "C": "Doppler ultrasound ไม่ใช่การตรวจหลัก (US ธรรมดาดู gallbladder/ triangular cord) · จะถูกถ้าคำถามถามประเมิน portal vein ก่อนปลูกถ่ายตับ",
-   "D": "Liver biopsy ทำหลังการตรวจเบื้องต้น ใช้แยก BA กับ neonatal hepatitis · จะถูกถ้าคำถามถามการตรวจยืนยันก่อนผ่าตัด",
-   "E": "MRCP ในทารกต้องดมยาและเห็นท่อน้ำดีเล็กได้ไม่ดี · จะถูกถ้าคำถามถามเด็กโตสงสัย choledochal cyst"
+   "B": "Hepatobiliary scintigraphy (HIDA/ DISIDA) ดูการขับน้ำดีสู่ลำไส้ ถ้าไม่ขับใน 24 ชม.สนับสนุน BA (ไวสูงแต่จำเพาะต่ำ) ใช้หลังยืนยัน cholestasis และทำ ultrasound แล้ว · จะถูกถ้าเป็นทารกที่ direct bilirubin สูงและ ultrasound ไม่ชัดเจน ต้องการข้อมูลเพิ่มก่อนผ่าตัด",
+   "C": "Doppler ultrasound ใช้ดูหลอดเลือด portal vein/ hepatic artery ไม่ใช่การตรวจหลักของ BA (ultrasound ธรรมดาดู gallbladder และ triangular cord) · จะถูกถ้าเป็นเด็กหลัง Kasai ที่สงสัย portal hypertension หรือประเมินก่อนปลูกถ่ายตับ",
+   "D": "Liver biopsy แยก BA (ductular proliferation, bile plug, portal fibrosis) จาก neonatal hepatitis (giant cell) ได้ดี แต่รุกล้ำ ทำหลังการตรวจเบื้องต้น · จะถูกถ้าเป็นทารกที่ direct bilirubin สูง ultrasound และ HIDA ยังแยกไม่ได้",
+   "E": "MRCP ในทารกต้องดมยาและเห็นท่อน้ำดีขนาดเล็กได้ไม่ดี จึงไม่ใช่การตรวจแรกของ BA · จะถูกถ้าเป็นเด็กโตที่ปวดท้อง เหลือง สงสัย choledochal cyst และต้องการดูกายวิภาคท่อน้ำดีก่อนผ่าตัด"
   },
-  "trap": "ข้ามไปทำ scintigraphy หรือ biopsy ก่อนยืนยันว่าเป็น direct hyperbilirubinemia",
+  "trap": "ข้ามไปทำ scintigraphy หรือ biopsy ก่อนยืนยันว่าเป็น direct hyperbilirubinemia · และคิดว่าทารกเหลืองทุกรายเป็นนมแม่ ทั้งที่อุจจาระซีดกับปัสสาวะเข้มเป็นสัญญาณ cholestasis",
   "summary": [
-   "ตัวเหลือง &gt; 2 สัปดาห์ → เจาะ total/ direct bilirubin",
-   "Direct &gt; 1 mg/dL (หรือ &gt; 20% ของ total) = cholestasis",
-   "US: gallbladder เล็ก/ ไม่เห็น · triangular cord sign",
-   "HIDA: ไม่ขับออกสู่ลำไส้ → สงสัย BA",
-   "Liver biopsy: ductular proliferation · bile plug",
-   "ยืนยัน: intraoperative cholangiogram ± Kasai (ก่อน 60 วัน)"
+   "ทารกเหลือง &gt; 2 สัปดาห์ → เจาะ total และ direct bilirubin ทุกราย",
+   "Direct &gt; 1 mg/dL (หรือ &gt; 20% ของ total) = cholestasis → หาสาเหตุด่วน",
+   "สีอุจจาระ: ซีด/ ขาว (acholic) = สงสัย BA · ใช้บัตรเทียบสีอุจจาระคัดกรอง",
+   "US: gallbladder เล็ก/ ไม่เห็น · triangular cord sign · แยก choledochal cyst",
+   "HIDA: ไม่ขับสู่ลำไส้ใน 24 ชม. → สนับสนุน BA · biopsy: ductular proliferation, bile plug, portal fibrosis",
+   "ยืนยัน: intraoperative cholangiogram → Kasai hepatoportoenterostomy ก่อน 60 วัน",
+   "สาเหตุอื่นของ cholestasis: neonatal hepatitis · Alagille · alpha-1 antitrypsin deficiency · TORCH · TPN"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (แนวทางทำ LFT คู่กับ US ตับเป็นขั้นแรก)",
-  "mnemonic": "<b>'เหลือง + อุจจาระซีด → Direct bili ก่อน → US → HIDA → IOC'</b>",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือที่ให้ทำ ultrasound ตับควบคู่ ซึ่งตรงกับแผนผังที่ผู้จดแปะ (Serum total and direct bilirubin เป็นขั้นแรก) · ช้อย E ในไฟล์เว้นว่าง เว็บเติม MRCP",
+  "mnemonic": "<b>'เหลือง + อุจจาระซีด → Direct bili ก่อน → US → HIDA/ biopsy → IOC + Kasai (ก่อน 60 วัน)'</b>",
   "guide": "NASPGHAN/ ESPGHAN Guideline for the Evaluation of Cholestatic Jaundice in Infants (J Pediatr Gastroenterol Nutr 2017;64:154)",
   "variants": [
-   "ทารก 5 สัปดาห์ ตัวเหลือง อุจจาระซีด direct bilirubin 6 → US → triangular cord sign → IOC + Kasai",
-   "ทารก 3 สัปดาห์ ตัวเหลือง กินนมแม่ indirect bilirubin สูง อุจจาระปกติ → breast milk jaundice",
-   "ทารกเหลือง US พบถุงน้ำที่ท่อน้ำดีร่วม → choledochal cyst"
+   "ทารก 5 สัปดาห์ ตัวเหลือง อุจจาระซีด direct bilirubin 6 mg/dL US triangular cord sign → intraoperative cholangiogram + Kasai",
+   "ทารก 3 สัปดาห์ กินนมแม่ ตัวเหลือง indirect bilirubin สูง อุจจาระเหลืองปกติ → breast milk jaundice → ติดตาม",
+   "ทารกเหลือง US เห็นถุงน้ำต่อกับท่อน้ำดีร่วม → choledochal cyst → excision + Roux-en-Y hepaticojejunostomy",
+   "ทารกเหลือง หน้าตาเฉพาะ กระดูกสันหลังรูปผีเสื้อ หัวใจ peripheral pulmonary stenosis → Alagille syndrome"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>เด็ก 6 สัปดาห์ jaundice, acholic stool, dark urine คลำได้ตับโตมาก ควรทำ investigation ใด — A. LFT B. hepatobiliary scintigraphy C. doppler ultrasound D. liver biopsy E. ____</b> (ไม่มีเลขข้อ)<br>ลายมือ: ขีด A เขียน \"แล้วก็ USG liver\"<br>ไฮไลต์: \"6 สัปดาห์\" · \"jaundice, acholic stool, dark urine\" · \"คลำได้ตับโตมาก\" · \"investigation\" · A (เหลือง)<br>รูปที่แปะ: แผนผังการตรวจ Jaundiced infant 2-12 weeks of age (Pthaigastro.org) — Serum total and direct bilirubin → Direct bilirubin (&gt; 20%) → Sick? · Pale stool? · Ultrasound (US-small GB, triangular cord sign) · DISIDA scan/ Liver bx · IOC ± Kasai operation · Refer to Ped GI พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: ช้อย E ในไฟล์เว้นว่าง เว็บใส่ MRCP",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -198,30 +209,32 @@
   ]
  },
  "MDCU66|RoA|X10": {
-  "interp": "ถามสิ่งที่<b>ไม่ใช่</b>อาการของ <b>neonatal gut obstruction</b>",
-  "why": "อาการของลำไส้อุดตันในทารกคือ maternal polyhydramnios · อาเจียนน้ำดี · ไม่ถ่ายขี้เทา · ท้องอืด · NG content &gt; 20 mL · ส่วน<b>ถ่ายเป็นเลือด</b>ไม่ใช่อาการของการอุดตันโดยตรง (บ่งถึงลำไส้ขาดเลือด/ NEC/ volvulus ระยะหลัง) · ไฟล์ขีด A และ ✓ ที่ B–E แปะสไลด์ <b>\"History\"</b>",
+  "interp": "คำถามแบบ <b>not</b> — ถามสิ่งที่<b>ไม่ใช่</b>อาการของลำไส้อุดตันในทารกแรกเกิด ต้องแยกอาการของการอุดตันเองออกจากอาการของลำไส้ขาดเลือดหรืออักเสบ",
+  "why": "ลำไส้อุดตันในทารกแรกเกิดมีอาการหลัก 4 ข้อ: <b>maternal polyhydramnios</b> (ทารกกลืนน้ำคร่ำไม่ได้ เด่นใน upper gut) · <b>อาเจียนน้ำดี</b> (อุดใต้ ampulla) · <b>ไม่ถ่ายขี้เทาใน 24–48 ชม.</b> (เด่นใน lower gut) · <b>ท้องอืด</b> (เด่นใน lower gut) และ NG aspirate &gt; 20 mL · ส่วน<b>ถ่ายเป็นเลือด</b>ไม่ใช่อาการของการอุดตันโดยตรง แต่บ่งว่าเยื่อบุลำไส้ขาดเลือดหรืออักเสบ เช่น NEC, midgut volvulus ระยะหลัง, intussusception หรือ Hirschsprung enterocolitis · ไฟล์ขีด A และ ✓ ที่ B–E พร้อมแปะสไลด์ <b>\"History\"</b>",
   "wrong": {
-   "B": "อาเจียนน้ำดีเป็นอาการเด่นของการอุดตันใต้ ampulla · จะถูกถ้าคำถามถามการอุดตันเหนือ ampulla (อาเจียนไม่มีน้ำดี)",
-   "C": "ไม่ถ่ายขี้เทาใน 24–48 ชม. เป็นอาการเด่นของ lower gut obstruction (Hirschsprung, atresia) · จะถูกถ้าคำถามถามทารกที่ถ่ายขี้เทาปกติแต่อาเจียน (upper gut)",
-   "D": "ท้องอืดพบชัดใน lower gut obstruction · จะถูกถ้าคำถามถาม duodenal atresia ที่ท้องแบน",
-   "E": "Polyhydramnios พบใน upper gut obstruction (ทารกกลืนน้ำคร่ำไม่ได้) · จะถูกถ้าคำถามถาม lower gut obstruction ที่น้ำคร่ำมักปกติ"
+   "B": "อาเจียนน้ำดีเป็นอาการเด่นของลำไส้อุดตันใต้ ampulla (duodenal atresia ส่วนใหญ่ jejunoileal atresia malrotation) และต้องแยก volvulus ด่วน · จะถูกถ้าเป็นการอุดตันเหนือ ampulla เช่น pyloric atresia ซึ่งอาเจียนไม่มีน้ำดี",
+   "C": "ไม่ถ่ายขี้เทาภายใน 24–48 ชม.เป็นอาการเด่นของ lower gut obstruction (Hirschsprung, ileal atresia, meconium ileus) · จะถูกถ้าเป็นทารก duodenal atresia ซึ่งมักถ่ายขี้เทาได้ปกติเพราะลำไส้ส่วนล่างมีขี้เทาอยู่แล้ว",
+   "D": "ท้องอืดเป็นอาการเด่นของ lower gut obstruction · จะถูกถ้าเป็นทารก duodenal atresia ที่ท้องแบนเพราะอุดสูง ลมลงไปไม่ถึงลำไส้ส่วนล่าง",
+   "E": "Maternal polyhydramnios พบบ่อยใน upper gut obstruction (esophageal atresia, duodenal atresia) เพราะทารกกลืนน้ำคร่ำไม่ได้ · จะถูกถ้าเป็น lower gut obstruction ซึ่งน้ำคร่ำมักปกติ"
   },
-  "trap": "เห็นถ่ายเลือดแล้วคิดว่าเป็นอาการรุนแรงของลำไส้อุดตัน แต่เป็นอาการของลำไส้ขาดเลือด/ อักเสบ ไม่ใช่การอุดตันเอง",
+  "trap": "เห็นถ่ายเป็นเลือดแล้วคิดว่าเป็นอาการรุนแรงของลำไส้อุดตัน · ความจริงเป็นสัญญาณของเยื่อบุขาดเลือด/ อักเสบ ซึ่งเป็นภาวะแทรกซ้อน ไม่ใช่อาการของการอุดตันเอง",
   "summary": [
-   "Upper gut: polyhydramnios +++ · อาเจียนน้ำดี +++ · ท้องอืดน้อย",
-   "Lower gut: ท้องอืด +++ · ไม่ถ่ายขี้เทา +++",
-   "NG aspirate &gt; 20 mL → สงสัยอุดตัน",
-   "Double bubble: duodenal atresia",
-   "ถ่ายเลือด: NEC · volvulus ขาดเลือด · intussusception",
-   "อาเจียนน้ำดี → ต้องแยก malrotation volvulus ด่วน"
+   "Upper gut (เหนือ/ ที่ duodenum–jejunum ต้น): polyhydramnios +++ · อาเจียนน้ำดี +++ · ท้องอืดน้อย · ขี้เทาออกได้",
+   "Lower gut (ileum–colon): ท้องอืด +++ · ไม่ถ่ายขี้เทา +++ · อาเจียนน้ำดีตามมาทีหลัง",
+   "NG aspirate &gt; 20 mL ในทารกแรกเกิด → สงสัยอุดตัน",
+   "X-ray: double bubble (duodenal atresia) · triple bubble (jejunal) · หลาย loop (ileal/ colon)",
+   "Lower gut: saline irrigation/ contrast enema แยก Hirschsprung, meconium plug, meconium ileus, atresia",
+   "ถ่ายเป็นเลือด → NEC · volvulus ขาดเลือด · intussusception · Hirschsprung enterocolitis",
+   "อาเจียนน้ำดี → UGI study ด่วนแยก malrotation with volvulus"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'ลำไส้อุดตันทารก: น้ำคร่ำเยอะ · อาเจียนเขียว · ไม่ถ่าย · ท้องอืด (ไม่ใช่เลือด)'</b>",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ History ที่ผู้จดแปะซึ่งระบุ polyhydramnios, delayed meconium, bilious vomiting, NG bile &gt; 20 mL และ abdominal distension โดยไม่มีถ่ายเป็นเลือด",
+  "mnemonic": "<b>'ลำไส้อุดตันทารก: น้ำคร่ำเยอะ · อาเจียนเขียว · ไม่ถ่าย · ท้องอืด — เลือด = ขาดเลือด/ อักเสบ'</b>",
   "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Neonatal intestinal obstruction",
   "variants": [
-   "ทารก Down syndrome อาเจียนเขียววันแรก ท้องแบน → duodenal atresia",
-   "ทารกไม่ถ่ายขี้เทา 48 ชม. ท้องอืด → Hirschsprung disease",
-   "ทารกคลอดก่อนกำหนด ท้องอืด ถ่ายเลือด → NEC"
+   "ทารก Down syndrome อาเจียนเขียววันแรก ท้องแบน X-ray double bubble → duodenal atresia",
+   "ทารกไม่ถ่ายขี้เทา 48 ชม. ท้องอืด rectal exam มีลมและอุจจาระพุ่ง → Hirschsprung disease → rectal suction biopsy",
+   "ทารกคลอดก่อนกำหนด ท้องอืด ถ่ายเลือด X-ray pneumatosis intestinalis → NEC",
+   "ทารก cystic fibrosis ท้องอืด X-ray soap bubble ไม่มี air-fluid level → meconium ileus → Gastrografin enema"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>Which is not a sign of gut obstruction — A. ถ่ายเลือด B. bilious vomitting C. not pass meconium D. abdominal distention E. polyhydramnios</b> (ไม่มีเลขข้อ)<br>ลายมือ: ขีด A · ✓ ที่ B C D E<br>ไฮไลต์: \"not\" · \"sign of gut obstruction\" · A (เหลือง) · B–E (ส้ม)<br>รูปที่แปะ: สไลด์ History — Maternal polyhydramnios · Delayed pass meconium (ไม่ถ่ายใน 24-48 hr) · Bilious vomiting (R/O surgical condition) · NG content bile &gt; 20 ml · Abdominal distension, visible peristalsis · Sick baby พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: ระบุเป็น neonatal gut obstruction และช้อย E เป็น Maternal polyhydramnios",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
@@ -231,30 +244,31 @@
   ]
  },
  "MDCU66|RoA|X11": {
-  "interp": "ถามอาการของ <b>duodenal atresia</b>",
-  "why": "Duodenal atresia เป็น <b>upper gut obstruction</b> → ทารกกลืนน้ำคร่ำไม่ได้ จึงมี <b>maternal polyhydramnios</b> (พบราว 30–50%) · อาเจียน (มักมีน้ำดี) ตั้งแต่วันแรก · ท้องไม่อืด · prenatal US/ X-ray เห็น double bubble · ไฟล์ขีด A ลายมือ <b>\"→ upper gut obs.\"</b>",
+  "interp": "ถามอาการของ <b>duodenal atresia</b> — ต้องรู้ว่าเป็นลำไส้อุดตันส่วน<b>บน (upper gut)</b> ซึ่งอาการต่างจากการอุดตันส่วนล่าง ทั้งเรื่องน้ำคร่ำ ท้องอืด และการถ่ายขี้เทา",
+  "why": "Duodenal atresia เกิดจาก duodenum ไม่กลับมาเป็นท่อ (failure of recanalization) ช่วงตั้งครรภ์ 8–10 สัปดาห์ · เป็น <b>upper gut obstruction</b> ทารกจึงกลืนน้ำคร่ำผ่านไปดูดซึมไม่ได้ → <b>maternal polyhydramnios</b> (~30–50%) · ultrasound ก่อนคลอดและ X-ray หลังคลอดเห็น <b>double bubble</b> (กระเพาะ + duodenum ส่วนต้น) ไม่มีลมส่วนล่าง · ทารกอาเจียน (มีน้ำดี ~85% เพราะอุดใต้ ampulla) ตั้งแต่วันแรก ท้องแบนไม่อืด ขี้เทาออกได้ · ~30% เป็น Down syndrome และมี annular pancreas หรือหัวใจพิการร่วม · รักษาด้วย NG decompression แก้น้ำเกลือแร่ แล้ว <b>duodenoduodenostomy</b> (diamond-shaped) · ไฟล์ขีด A ลายมือ <b>\"→ upper gut obs.\"</b>",
   "wrong": {
-   "B": "ท้องอืดมากเป็นลักษณะ<b>lower gut obstruction</b> (ลายมือ \"เด่น lower gut obs.\") duodenal atresia ท้องแบน · จะถูกถ้าคำถามถาม ileal atresia/ Hirschsprung",
-   "C": "Visible peristalsis เด่นใน pyloric stenosis (ลายมือ \"→ IHPS\") · จะถูกถ้าคำถามถามทารก 4 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี",
-   "D": "ถ่ายเป็นเลือดไม่ใช่อาการของ atresia · จะถูกถ้าคำถามถาม NEC/ volvulus ขาดเลือด",
-   "E": "ขี้เทามักผ่านได้ใน duodenal atresia (อุดสูง) · จะถูกถ้าคำถามถาม lower gut obstruction"
+   "B": "ท้องอืดมากเป็นลักษณะของ <b>lower gut obstruction</b> (ลายมือ \"เด่น lower gut obs.\") duodenal atresia อุดสูง ลมไปไม่ถึงลำไส้ส่วนล่าง ท้องจึงแบน (อาจโป่งเฉพาะ epigastrium) · จะถูกถ้าเป็นทารกที่ไม่ถ่ายขี้เทา 3 วันและท้องโป่งตึงทั้งท้องจาก ileal atresia",
+   "C": "Visible gastric peristalsis เด่นใน <b>pyloric stenosis</b> (ลายมือ \"→ IHPS\") ที่ทารกอายุหลายสัปดาห์และกระเพาะบีบแรงต้านการอุดตัน · จะถูกถ้าเป็นทารกชาย 4 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี เห็นคลื่นกระเพาะเคลื่อนซ้ายไปขวาหลังกินนม",
+   "D": "ถ่ายเป็นเลือดไม่ใช่อาการของ atresia บ่งถึงเยื่อบุขาดเลือด/ อักเสบ · จะถูกถ้าเป็นทารกคลอดก่อนกำหนดที่เป็น NEC หรือทารกที่ volvulus จนลำไส้ขาดเลือด",
+   "E": "ขี้เทามักออกได้ใน duodenal atresia เพราะลำไส้ส่วนล่างมีขี้เทาที่สร้างไว้แล้ว การถ่ายขี้เทาช้าเด่นใน lower gut obstruction · จะถูกถ้าเป็นทารก Hirschsprung ที่ไม่ถ่ายขี้เทาเกิน 48 ชม."
   },
-  "trap": "คิดว่าลำไส้อุดตันทุกชนิดต้องท้องอืด · อุดสูง (duodenum) ท้องแบน อุดต่ำท้องอืด",
+  "trap": "คิดว่าลำไส้อุดตันทุกชนิดต้องท้องอืดและไม่ถ่าย · อุดสูง (duodenum) ท้องแบน ขี้เทาออกได้ แต่แม่มีน้ำคร่ำมากและทารกอาเจียนตั้งแต่วันแรกหลังคลอด",
   "summary": [
-   "Duodenal atresia: polyhydramnios · double bubble",
-   "สัมพันธ์ Down syndrome (~30%) · annular pancreas · cardiac anomaly",
-   "อาเจียนน้ำดีวันแรก (ใต้ ampulla ~85%)",
-   "ท้องแบน ถ่ายขี้เทาได้",
-   "รักษา: NG decompression → duodenoduodenostomy (diamond-shaped)",
-   "Upper gut: polyhydramnios +++ · Lower gut: ท้องอืด +++"
+   "Duodenal atresia: failure of recanalization ช่วงตั้งครรภ์ 8–10 สัปดาห์ · ~1:5,000–10,000 ทารก",
+   "สัมพันธ์: Down syndrome (~30%) · annular pancreas · malrotation · หัวใจพิการ · VACTERL",
+   "ก่อนคลอด: polyhydramnios + double bubble · หลังคลอด: อาเจียน (น้ำดี ~85%) วันแรก ท้องแบน ขี้เทาออกได้",
+   "X-ray: double bubble ไม่มีลมส่วนล่าง = complete atresia · มีลมส่วนล่างต้องแยก malrotation volvulus ด่วน",
+   "รักษา: NG decompression + IV fluid → duodenoduodenostomy (diamond-shaped) · ตรวจหัวใจก่อนผ่าตัด",
+   "Upper gut: polyhydramnios +++ · อาเจียนน้ำดี +++ · Lower gut: ท้องอืด +++ · ไม่ถ่ายขี้เทา +++"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และตาราง Neonatal gut obstruction ที่ผู้จดแปะซึ่งให้ polyhydramnios +++ ใน upper gut · ในไฟล์มีช้อย A–D เว็บเพิ่ม delayed meconium เป็นช้อย E",
   "mnemonic": "<b>'Duodenal = Down syndrome · Double bubble · ท้อง Deflated · น้ำคร่ำเยอะ'</b>",
   "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Duodenal atresia and stenosis",
   "variants": [
-   "ทารก Down syndrome อาเจียนเขียว X-ray double bubble ไม่มีลมส่วนล่าง → duodenal atresia → duodenoduodenostomy",
-   "ทารกไม่ถ่ายขี้เทา ท้องอืดมาก → lower gut obstruction (ileal atresia/ Hirschsprung)",
-   "Prenatal US เห็น double bubble + polyhydramnios → วางแผนคลอดที่มีศัลยแพทย์เด็ก"
+   "ทารก Down syndrome อาเจียนเขียววันแรก ท้องแบน X-ray double bubble ไม่มีลมส่วนล่าง → duodenal atresia → duodenoduodenostomy",
+   "ultrasound 30 สัปดาห์เห็น double bubble + polyhydramnios → วางแผนคลอดในโรงพยาบาลที่มีศัลยแพทย์เด็ก + ตรวจโครโมโซม",
+   "ทารกไม่ถ่ายขี้เทา ท้องอืดมาก X-ray ลำไส้โป่งหลาย loop → lower gut obstruction (ileal atresia/ Hirschsprung)",
+   "ทารกเป็น double bubble แต่มีลมในลำไส้ส่วนล่าง อาเจียนเขียว → แยก malrotation with volvulus ด่วน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 144 — ตัวพิมพ์: <b>ข้อใดเป็นอาการของ duodenal atresia — A. maternal polyhydramnios B. abdominal dilatation C. visible peristalsis D. bloody stool</b> (ไม่มีเลขข้อ)<br>ลายมือ: เขียน \"→ upper gut obs.\" เหนือคำถาม · ขีด A · ช้อย B เขียน \"เด่น lower gut obs.\" · ช้อย C เขียน \"→ IHPS\"<br>ไฮไลต์: \"อาการของ duodenal atresia\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ Neonatal gut obstruction (Upper gut / Lower gut แบ่งที่ lig. of Treitz) — Polyhydramnios +++/ + · Bilious vomiting +++/ ++ · Abdominal distension +/ +++ · Delayed passage of meconium +/ +++ · สไลด์ Clinical presentation — Maternal polyhydramnios · Prenatal U/S \"DOUBLE BUBBLE\" obstructive pattern · Bilious or non-bilious vomiting · Non-distended abdomen · NG tube &gt; 20 ml intestinal obstruction · Meconium (delay or character change or normal meconium) พร้อมโน้ตลายมือ<br>ที่ปรับในเว็บ: ในไฟล์มีช้อย A–D เว็บเพิ่ม E Delayed meconium",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 144",
