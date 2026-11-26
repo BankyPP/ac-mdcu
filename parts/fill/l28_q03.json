@@ -1,0 +1,446 @@
+{
+ "21": {
+  "stem": "A 26-year-old woman at 19 weeks of gestation is referred because her maternal serum alpha-fetoprotein is elevated. A detailed ultrasound shows fetal bowel loops lying outside the anterior abdominal wall. Which additional ultrasound finding would most strongly indicate an omphalocele rather than gastroschisis?",
+  "opts": [
+   "Thickened, dilated bowel loops floating outside the abdomen",
+   "Estimated fetal weight below the tenth percentile",
+   "Absence of the liver from the herniated contents",
+   "A defect located to the right of a normal cord insertion",
+   "Cord insertion into a membrane-covered mass"
+  ],
+  "ans": 4,
+  "interp": "ไตรมาสสอง MSAFP สูง USG เห็นลำไส้อยู่นอกผนังท้องทารก → ถามว่าลักษณะ USG ใดบอก omphalocele มากกว่า gastroschisis ต้องรู้ลักษณะก่อนคลอดที่แยกสองโรค",
+  "why": "บน USG ก่อนคลอด ทั้งสองโรคทำให้ <b>maternal AFP สูง</b> และเห็นลำไส้นอกผนังท้อง จึงต้องแยกด้วยลักษณะของก้อน — <b>omphalocele</b> คือลำไส้ (± ตับ) อยู่ใน<b>ก้อนที่มีเยื่อหุ้ม (membrane-covered) ไม่ลอยอิสระ</b> ขอบเรียบ อยู่กลางลำตัว และ<b>สายสะดือเสียบเข้าก้อนโดยตรง</b> ส่วน <b>gastroschisis</b> คือขดลำไส้<b>ลอยอิสระในน้ำคร่ำ</b> ไม่มีเยื่อหุ้ม ผนังลำไส้หนาได้ รูอยู่<b>ขวาของสายสะดือที่เกาะผนังท้องปกติ</b> และมัก IUGR · ตำแหน่งที่สายสะดือเกาะ (เข้าก้อน vs เกาะผนังท้องข้าง ๆ รู) จึงเป็นตัวแยกที่ดีที่สุด และเมื่อพบ omphalocele ต้องทำ fetal echo + karyotype ต่อ · สไลด์หน้า 10: <b>Omphalocele: … Multiple bowel loops (and on occasion liver) herniate into a membrane-covered defect (i.e. not free-flowing) with insertion of cord directly into omphalocele</b>",
+  "wrong": {
+   "A": "ลำไส้หนา โป่ง ลอยอยู่นอกท้องเป็นลักษณะของ gastroschisis — ลำไส้สัมผัสน้ำคร่ำและถูกขอบรูรัดจนผนังหนาและโป่ง · จะถูกถ้าถามลักษณะ USG ที่สนับสนุน gastroschisis และบอกว่าลำไส้อาจได้รับความเสียหาย",
+   "B": "น้ำหนักทารกต่ำกว่าเปอร์เซ็นไทล์ที่ 10 (IUGR) พบบ่อยใน gastroschisis มากกว่า omphalocele ซึ่งบางกลุ่ม (Beckwith-Wiedemann) กลับตัวโต · จะถูกถ้าถามลักษณะที่พบร่วมกับ gastroschisis บน USG",
+   "C": "ไม่มีตับในสิ่งที่ออกมาเข้าได้กับ gastroschisis หรือ omphalocele ขนาดเล็ก จึงไม่ช่วยชี้ไปทาง omphalocele — ตรงข้าม ถ้า<b>มี</b>ตับออกมาจะชี้ omphalocele อย่างมาก · จะถูกถ้าถามลักษณะที่เข้าได้กับ gastroschisis",
+   "D": "รูขวาของสายสะดือที่เกาะผนังท้องปกติคือลักษณะเฉพาะของ gastroschisis · จะถูกถ้าถามลักษณะ USG ที่ยืนยัน gastroschisis"
+  },
+  "trap": "เห็นลำไส้นอกท้องแล้วดูแต่ตัวลำไส้ (หนา บวม) — สิ่งที่แยกสองโรคได้จริงคือเยื่อหุ้มและตำแหน่งที่สายสะดือเกาะ",
+  "summary": [
+   "แยกก่อนคลอด: omphalocele มีเยื่อหุ้ม + สายสะดือเสียบเข้าก้อน · gastroschisis ลำไส้ลอยอิสระ + รูขวาของสายสะดือปกติ",
+   "Maternal AFP สูงทั้งสองโรค ใช้คัดกรอง ไม่ใช่แยก",
+   "Omphalocele: ลำไส้ ± ตับ (มีตับ = ชี้ omphalocele) · ก้อนขอบเรียบ ไม่ลอยอิสระ · เห็นได้ตั้งแต่ราว 18 สัปดาห์",
+   "Gastroschisis: ลำไส้ผนังหนา/ โป่ง · IUGR · เห็นได้ราว 20 สัปดาห์หรือเร็วกว่า",
+   "พบ omphalocele → fetal echocardiography + karyotype/ microarray · พบ gastroschisis → ติดตามการเจริญเติบโตและลำไส้",
+   "ทั้งสองโรควางแผนคลอดในศูนย์ที่มีศัลยแพทย์เด็กและ NICU"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับสไลด์หน้า 10 ที่ระบุ membrane-covered defect (not free-flowing) with insertion of cord directly into omphalocele และเทียบกับ gastroschisis ที่ defect to the right of a normal umbilical cord · ตำรา (Callen, Holcomb) ใช้เกณฑ์เดียวกัน",
+  "mnemonic": "<b>'สายสะดือเสียบก้อน = Omphalocele · สายสะดือเกาะท้อง ลำไส้ลอยข้าง ๆ = Gastroschisis'</b>",
+  "guide": "Callen's Ultrasonography in Obstetrics and Gynecology 6th ed. (2017) — Fetal abdominal wall; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects",
+  "variants": [
+   "USG 20 สัปดาห์เห็นก้อนกลางท้องมีเยื่อหุ้ม มีตับอยู่ข้างใน → omphalocele ทำ fetal echo + karyotype",
+   "USG 22 สัปดาห์เห็นขดลำไส้ผนังหนาลอยในน้ำคร่ำ รูขวาของสายสะดือ ทารกตัวเล็ก → gastroschisis",
+   "USG เห็นก้อนเหนือสะดือมีเยื่อหุ้มร่วมกับหัวใจอยู่นอกช่องอก → pentalogy of Cantrell"
+  ],
+  "notes": "สไลด์หน้า 9 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · หัวข้อ <b>Omphalocele</b> · <b>Gastroschisis</b> (หน้านี้มีแต่รูป ข้อความอยู่หน้า 10)<br>รูปในสไลด์หน้า 9: ภาพ USG ครรภ์: omphalocele 2 ภาพ (ก้อนมีเยื่อหุ้มหน้าท้องทารก) · gastroschisis 1 ภาพ (ขดลำไส้ลอยในน้ำคร่ำ)<br>สไลด์หน้า 10 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · <b>Omphalocele: • USG by GA 18 weeks • Increased maternal AFP • Multiple bowel loops (and on occasion liver) herniate into a membrane-covered defect (i.e. not free-flowing) with insertion of cord directly into omphalocele</b> · <b>Gastroschisis: • USG by GA 20 weeks or sooner • Increased maternal AFP • Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord • IUGR</b><br>รูปในสไลด์หน้า 10: ภาพ USG เดียวกับหน้า 9<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p9",
+   "l28_p10"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 9, 10 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "22": {
+  "stem": "A woman's 18-week ultrasound shows a membrane-covered fetal abdominal mass at the cord insertion. What is the next step?",
+  "opts": [
+   "Fetal echocardiography and karyotype testing",
+   "Planned cesarean delivery at 34 weeks of gestation",
+   "Open fetal surgery to close the abdominal defect",
+   "Serial ultrasound alone until term",
+   "Immediate termination of the pregnancy"
+  ],
+  "ans": 0,
+  "interp": "USG 18 สัปดาห์เห็นก้อนมีเยื่อหุ้มที่สายสะดือเสียบ = omphalocele ก่อนคลอด → ถามขั้นต่อไป ต้องใช้หลักว่า omphalocele มี anomaly ร่วมบ่อยซึ่งกำหนดพยากรณ์",
+  "why": "เมื่อ USG พบ <b>omphalocele</b> (ก้อนมีเยื่อหุ้ม สายสะดือเสียบเข้าก้อน) ขั้นต่อไปคือ<b>หาความผิดปกติร่วม</b> เพราะพบราว 50% และเป็นตัวกำหนดพยากรณ์: <b>fetal echocardiography</b> (หัวใจพิการ 30–50%) · <b>karyotype/ chromosomal microarray</b> ทางน้ำคร่ำ (trisomy 13, 18, 21 — พบมากใน omphalocele เล็กที่มีแค่ลำไส้) · USG ละเอียดหา Beckwith-Wiedemann (ตัวโต ลิ้นโต ไตโต) และ pentalogy of Cantrell/ OEIS · ผลที่ได้ใช้ให้คำปรึกษาครอบครัว วางแผนคลอดในศูนย์ที่มีศัลยแพทย์เด็ก และเลือกวิธีคลอด · ไม่มีการผ่าตัดแก้ในครรภ์ และไม่ต้องคลอดก่อนกำหนด · สไลด์หน้า 10 <b>Omphalocele: • USG by GA 18 weeks • Increased maternal AFP • … membrane-covered defect (i.e. not free-flowing) with insertion of cord directly into omphalocele</b>",
+  "wrong": {
+   "B": "การคลอดก่อนกำหนดไม่ช่วย omphalocele และเพิ่มปัญหาปอดในทารกที่อาจมี pulmonary hypoplasia อยู่แล้ว · ผ่าคลอดเลือกใน giant omphalocele เมื่อครบกำหนด · จะถูกถ้าแม่มีข้อบ่งชี้ทางสูติศาสตร์ให้ยุติครรภ์ที่ 34 สัปดาห์ เช่น severe preeclampsia",
+   "C": "Abdominal wall defect ไม่มีการผ่าตัดแก้ในครรภ์ — รักษาหลังคลอดทั้งหมด · fetal surgery ใช้ในบางโรค เช่น myelomeningocele หรือ twin-twin transfusion · จะถูกถ้าทารกมี myelomeningocele ที่ 22 สัปดาห์และเข้าเกณฑ์ผ่าตัดในครรภ์",
+   "D": "ติดตาม USG อย่างเดียวพลาดโอกาสหาหัวใจพิการและโครโมโซมผิดปกติซึ่งกำหนดพยากรณ์และการวางแผน · จะถูกถ้าทารก gastroschisis ที่ไม่ต้องตรวจโครโมโซม routine แต่ต้องติดตามการเจริญเติบโตและลำไส้เป็นระยะ",
+   "E": "Omphalocele ที่ไม่มี anomaly ร่วมพยากรณ์ดี (รอด &gt;90%) การยุติครรภ์ไม่ใช่ขั้นแรกก่อนรู้ผลการประเมิน · จะถูกถ้าครอบครัวตัดสินใจหลังทราบผลว่ามี trisomy 13 หรือ 18 ร่วมกับหัวใจพิการซับซ้อน ตามกฎหมายและความประสงค์ของครอบครัว"
+  },
+  "trap": "เห็นอวัยวะนอกท้องแล้วนึกถึงการผ่าตัดหรือการคลอด — ก่อนคลอดสิ่งที่เปลี่ยนการจัดการคือ anomaly ร่วม จึงต้อง echo + karyotype ก่อน",
+  "summary": [
+   "พบ omphalocele ก่อนคลอด → fetal echocardiography + karyotype/ microarray ทันที",
+   "Anomaly ร่วม ~50%: หัวใจ · trisomy 13/18/21 · Beckwith-Wiedemann · Cantrell · OEIS",
+   "Omphalocele เล็กที่มีแค่ลำไส้สัมพันธ์กับโครโมโซมผิดปกติมากกว่าก้อนใหญ่ที่มีตับ",
+   "ไม่มี fetal surgery · ไม่คลอดก่อนกำหนด · คลอดในศูนย์ที่มีศัลยแพทย์เด็ก/ NICU",
+   "Giant omphalocele (รู &gt;5 cm/ ตับส่วนใหญ่ในถุง) → พิจารณาผ่าคลอดเมื่อครบกำหนด",
+   "ใช้ผลประเมินให้คำปรึกษาครอบครัวเรื่องพยากรณ์และทางเลือก"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — สไลด์หน้า 10 ให้ลักษณะวินิจฉัยก่อนคลอด และหน้า 5–7 ให้ anomaly ร่วม 50% ที่เป็นตัวกำหนดพยากรณ์ · สไลด์ไม่ได้เขียนขั้นตอนหลังวินิจฉัยตรง ๆ แต่ตำรา (Holcomb, Creasy) ให้ fetal echo + karyotype เป็นมาตรฐาน",
+  "mnemonic": "<b>'เจอถุงก่อนคลอด → ส่องหัวใจ + นับโครโมโซม'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; Creasy and Resnik's Maternal-Fetal Medicine 9th ed. (2023) — Prenatal screening",
+  "variants": [
+   "Fetal echo ปกติ karyotype ปกติ omphalocele 3 cm → คลอดทางช่องคลอดครบกำหนดในศูนย์ที่มีศัลยแพทย์เด็ก",
+   "Karyotype พบ trisomy 18 ร่วม omphalocele และ VSD → ให้คำปรึกษาเรื่องพยากรณ์แย่มาก ครอบครัวเลือกแนวทางได้",
+   "USG เห็นทารกตัวโต ลิ้นโต ไตโต ร่วม omphalocele → สงสัย Beckwith-Wiedemann ตรวจ methylation ที่ 11p15"
+  ],
+  "notes": "สไลด์หน้า 9 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · หัวข้อ <b>Omphalocele</b> · <b>Gastroschisis</b> (หน้านี้มีแต่รูป ข้อความอยู่หน้า 10)<br>รูปในสไลด์หน้า 9: ภาพ USG ครรภ์: omphalocele 2 ภาพ (ก้อนมีเยื่อหุ้มหน้าท้องทารก) · gastroschisis 1 ภาพ (ขดลำไส้ลอยในน้ำคร่ำ)<br>สไลด์หน้า 10 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · <b>Omphalocele: • USG by GA 18 weeks • Increased maternal AFP • Multiple bowel loops (and on occasion liver) herniate into a membrane-covered defect (i.e. not free-flowing) with insertion of cord directly into omphalocele</b> · <b>Gastroschisis: • USG by GA 20 weeks or sooner • Increased maternal AFP • Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord • IUGR</b><br>รูปในสไลด์หน้า 10: ภาพ USG เดียวกับหน้า 9<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p9",
+   "l28_p10"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 9, 10 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "23": {
+  "stem": "A 17-year-old primigravida who smokes and uses methamphetamine is seen at 20 weeks of gestation. Ultrasound shows multiple loops of bowel floating freely in the amniotic fluid adjacent to the fetal abdomen. The umbilical cord inserts into the abdominal wall just to the left of the herniated bowel, and the estimated fetal weight is at the 7th percentile. What is the most likely diagnosis?",
+  "opts": [
+   "Omphalocele",
+   "Gastroschisis",
+   "Ruptured omphalocele",
+   "Bladder exstrophy",
+   "Limb-body wall complex"
+  ],
+  "ans": 1,
+  "interp": "แม่อายุน้อย สูบบุหรี่ ใช้ยาบ้า USG 20 สัปดาห์เห็นลำไส้ลอยอิสระ สายสะดือเกาะผนังท้องข้างซ้ายของลำไส้ (= รูอยู่ขวาของสายสะดือ) และทารกตัวเล็ก → ถามวินิจฉัยก่อนคลอด",
+  "why": "ลักษณะก่อนคลอดของ <b>gastroschisis</b>: ขดลำไส้<b>ลอยอิสระในน้ำคร่ำ</b>ไม่มีเยื่อหุ้ม · รูผนังท้อง<b>อยู่ขวาของสายสะดือที่เกาะผนังท้องปกติ</b> (สายสะดือจึงอยู่ทางซ้ายของลำไส้ที่ออกมา) · <b>IUGR</b> (พบราว 30–60%) · maternal AFP สูง · ตรวจเห็นได้ตั้งแต่ 20 สัปดาห์หรือเร็วกว่า · ปัจจัยเสี่ยงสำคัญคือ<b>แม่อายุน้อย (&lt;20 ปี)</b> สูบบุหรี่ ใช้สารเสพติดหรือยาที่หดหลอดเลือด (methamphetamine, cocaine, pseudoephedrine) ซึ่งเข้ากับทฤษฎีหลอดเลือด · หลังวินิจฉัยติดตาม USG การเจริญเติบโตและลำไส้ วางแผนคลอดทางช่องคลอดในศูนย์ที่มีศัลยแพทย์เด็ก (ERNICA: 37+0–39+0 สัปดาห์) · สไลด์หน้า 10: <b>Gastroschisis: • USG by GA 20 weeks or sooner • Increased maternal AFP • Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord • IUGR</b>",
+  "wrong": {
+   "A": "Omphalocele บน USG เป็นก้อนมีเยื่อหุ้ม ไม่ลอยอิสระ และสายสะดือเสียบเข้าก้อน ไม่ได้เกาะผนังท้องข้าง ๆ · จะถูกถ้า USG เห็นก้อนกลางท้องขอบเรียบมีเยื่อหุ้ม มีตับอยู่ข้างใน สายสะดือออกจากยอดก้อน",
+   "C": "Ruptured omphalocele ก็เห็นลำไส้ลอยได้ แต่รูอยู่ที่สะดือเอง สายสะดือเกาะขอบรู มักมีตับและเศษเยื่อ ไม่ได้เกาะผนังท้องปกติข้าง ๆ · จะถูกถ้า USG ครั้งก่อนเห็นก้อนมีเยื่อหุ้มที่สะดือ แล้วครั้งนี้เห็นลำไส้และตับลอยจากรูที่สะดือเดิม",
+   "D": "Bladder exstrophy บน USG ไม่เห็นกระเพาะปัสสาวะซ้ำ ๆ มีก้อนเนื้อเยื่อที่ผนังท้องล่างใต้สายสะดือ สายสะดือเกาะต่ำ ไม่มีลำไส้ลอย · จะถูกถ้า USG ไม่เห็นกระเพาะปัสสาวะเลยทั้งที่น้ำคร่ำปกติ และสายสะดือเกาะต่ำผิดปกติ",
+   "E": "Limb–body wall complex มีรูผนังท้องใหญ่มาก อวัยวะติดกับรก สายสะดือสั้นมาก ร่วมกระดูกสันหลังคดและแขนขาผิดรูป · จะถูกถ้า USG เห็นตับและลำไส้ติดกับรก สายสะดือแทบไม่มี และ scoliosis รุนแรง"
+  },
+  "trap": "ไม่แน่ใจว่าสายสะดือ 'อยู่ทางซ้ายของลำไส้' แปลว่าอะไร — แปลว่ารูอยู่ขวาของสายสะดือที่เกาะปกติ = gastroschisis · อย่าสับสนกับ ruptured omphalocele ที่สายสะดือเกาะขอบรู",
+  "summary": [
+   "Gastroschisis ก่อนคลอด: ลำไส้ลอยอิสระ · รูขวาของสายสะดือปกติ · IUGR · MSAFP สูง · เห็นได้ ≤20 สัปดาห์",
+   "ปัจจัยเสี่ยง: แม่อายุ &lt;20 ปี · บุหรี่ · สารเสพติด/ ยาหดหลอดเลือด · BMI ต่ำ",
+   "Gastroschisis anomaly นอกลำไส้น้อย → ไม่ต้องตรวจโครโมโซม routine",
+   "ติดตาม: การเจริญเติบโต · ลำไส้โป่ง/ หนา · น้ำคร่ำ — ลำไส้ในช่องท้องโป่งทำนาย complex",
+   "คลอดทางช่องคลอด 37+0–39+0 สัปดาห์ในศูนย์ที่มีศัลยแพทย์เด็ก (ERNICA 2024)",
+   "แยก ruptured omphalocele: สายสะดือเกาะขอบรู มีตับ/ เศษเยื่อ"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ลำไส้ลอยอิสระ รูขวาของสายสะดือปกติ และ IUGR ตรงกับสไลด์หน้า 10 ทุกข้อ · ช่วงอายุครรภ์คลอด 37–39 สัปดาห์มาจาก ERNICA 2024 ซึ่งสไลด์ไม่ได้ระบุ (สไลด์เขียนเพียง Mode of delivery: Vaginal)",
+  "mnemonic": "<b>'G-a-s-t-r-o = Growth restriction + Away from cord (ขวา) + Swimming bowel'</b>",
+  "guide": "ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60); Callen's Ultrasonography in Obstetrics and Gynecology 6th ed. (2017) — Fetal abdominal wall",
+  "variants": [
+   "USG 30 สัปดาห์ของทารก gastroschisis เห็นลำไส้ในช่องท้องโป่งขึ้นเรื่อย ๆ → เสี่ยง complex ติดตามใกล้ชิดขึ้น",
+   "แม่ทารก gastroschisis ถามว่าต้องผ่าคลอดไหม → คลอดทางช่องคลอดได้ 37–39 สัปดาห์ในศูนย์ศัลยกรรมเด็ก",
+   "แม่ทารก gastroschisis ถามว่าต้องเจาะน้ำคร่ำตรวจโครโมโซมไหม → ไม่ต้องทำ routine เพราะความผิดปกติโครโมโซมพบน้อย"
+  ],
+  "notes": "สไลด์หน้า 9 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · หัวข้อ <b>Omphalocele</b> · <b>Gastroschisis</b> (หน้านี้มีแต่รูป ข้อความอยู่หน้า 10)<br>รูปในสไลด์หน้า 9: ภาพ USG ครรภ์: omphalocele 2 ภาพ (ก้อนมีเยื่อหุ้มหน้าท้องทารก) · gastroschisis 1 ภาพ (ขดลำไส้ลอยในน้ำคร่ำ)<br>สไลด์หน้า 10 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · <b>Omphalocele: • USG by GA 18 weeks • Increased maternal AFP • Multiple bowel loops (and on occasion liver) herniate into a membrane-covered defect (i.e. not free-flowing) with insertion of cord directly into omphalocele</b> · <b>Gastroschisis: • USG by GA 20 weeks or sooner • Increased maternal AFP • Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord • IUGR</b><br>รูปในสไลด์หน้า 10: ภาพ USG เดียวกับหน้า 9<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p9",
+   "l28_p10"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 9, 10 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "24": {
+  "stem": "A pregnant woman's fetus has free-floating bowel loops beside a normal cord insertion. Which associated finding is typical?",
+  "opts": [
+   "Fetal macrosomia",
+   "Polyhydramnios",
+   "Fetal growth restriction",
+   "Congenital heart disease",
+   "Macroglossia"
+  ],
+  "ans": 2,
+  "interp": "ลำไส้ลอยอิสระข้างสายสะดือที่เกาะปกติ = gastroschisis ก่อนคลอด → ถามสิ่งที่พบร่วมบ่อย ต้องรู้ว่า gastroschisis มัก IUGR",
+  "why": "ทารก <b>gastroschisis</b> มี<b>การเจริญเติบโตช้าในครรภ์ (IUGR/ FGR)</b> บ่อย — รายงานราว 30–60% ขึ้นกับเกณฑ์ · กลไกที่เสนอคือ<b>สูญเสียโปรตีนและสารอาหาร</b>จากลำไส้ที่เปิดอยู่ในน้ำคร่ำ ร่วมกับลำไส้อักเสบดูดซึมไม่ดี และปัจจัยของแม่ (อายุน้อย บุหรี่ สารเสพติด) · การประเมินน้ำหนักด้วย USG ในทารก gastroschisis มักต่ำกว่าจริงเพราะวัดเส้นรอบท้องได้เล็ก · ตรงข้ามกับ omphalocele ที่สัมพันธ์กับหัวใจพิการ และกลุ่ม Beckwith-Wiedemann ที่ตัวโต ลิ้นโต · สไลด์หน้า 10 <b>Gastroschisis: … Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord • IUGR</b>",
+  "wrong": {
+   "A": "ทารกตัวโต (macrosomia) เป็นลักษณะ Beckwith-Wiedemann syndrome ซึ่งสัมพันธ์กับ omphalocele และเบาหวานในแม่ · จะถูกถ้าทารก omphalocele ร่วมลิ้นโต ไตโต และน้ำคร่ำมาก",
+   "B": "Polyhydramnios พบเมื่อทารกกลืนน้ำคร่ำไม่ได้หรือลำไส้ส่วนต้นอุดตัน — gastroschisis มักมีน้ำคร่ำปกติหรือน้อย · จะถูกถ้าทารกมี esophageal atresia หรือ duodenal atresia (double bubble) ร่วมกับน้ำคร่ำมาก",
+   "D": "หัวใจพิการพบมากใน omphalocele (30–50%) ใน gastroschisis พบน้อย ไม่ต้องทำ fetal echo เป็น routine ในหลายศูนย์ · จะถูกถ้าทารกมีก้อนมีเยื่อหุ้มที่สายสะดือเสียบเข้า",
+   "E": "Macroglossia เป็นลักษณะ Beckwith-Wiedemann (ร่วม omphalocele ตัวโต น้ำตาลต่ำ) ไม่เกี่ยวกับ gastroschisis · จะถูกถ้าทารก omphalocele ที่ USG เห็นลิ้นยื่นพ้นริมฝีปากตลอดเวลา"
+  },
+  "trap": "จำ anomaly ร่วมของ omphalocele (หัวใจ ลิ้นโต ตัวโต) มาใส่ gastroschisis — gastroschisis ต้องนึกถึง 'ตัวเล็ก' และ 'ลำไส้'",
+  "summary": [
+   "Gastroschisis → IUGR/ FGR พบบ่อย (~30–60%)",
+   "กลไก: เสียโปรตีนผ่านลำไส้ที่เปิดในน้ำคร่ำ · ลำไส้อักเสบดูดซึมไม่ดี · ปัจจัยแม่ (อายุน้อย บุหรี่ สารเสพติด)",
+   "USG ประเมินน้ำหนักทารก gastroschisis มักต่ำกว่าจริง (เส้นรอบท้องเล็ก)",
+   "Omphalocele: หัวใจพิการ · โครโมโซม · Beckwith-Wiedemann (ตัวโต ลิ้นโต น้ำตาลต่ำ)",
+   "น้ำคร่ำมากชี้ลำไส้ส่วนต้นอุดตัน/ กลืนไม่ได้ ไม่ใช่ลักษณะของ gastroschisis",
+   "ติดตามการเจริญเติบโตเป็นระยะจนคลอดในศูนย์ที่มีศัลยแพทย์เด็ก"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — สไลด์หน้า 10 ระบุ IUGR เป็นข้อสุดท้ายของ gastroschisis · ตำรา (Holcomb, ERNICA 2024) ยืนยัน และเตือนว่า USG มักประเมินน้ำหนักต่ำเกินจริงในโรคนี้ ซึ่งสไลด์ไม่ได้กล่าวถึง",
+  "mnemonic": "<b>'Gastroschisis = ไส้ออก ตัวเล็ก · Omphalocele (BWS) = ไส้ในถุง ตัวโต ลิ้นโต'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60)",
+  "variants": [
+   "ทารก omphalocele ที่ USG ประเมินน้ำหนักเกินเปอร์เซ็นไทล์ที่ 90 ลิ้นยื่น → Beckwith-Wiedemann",
+   "ทารก gastroschisis ที่การเจริญเติบโตหยุดนิ่งร่วมกับ Doppler ผิดปกติ → พิจารณาคลอดตามข้อบ่งชี้ทางสูติศาสตร์",
+   "ทารกมี double bubble ร่วมน้ำคร่ำมาก → duodenal atresia ตรวจหา trisomy 21"
+  ],
+  "notes": "สไลด์หน้า 10 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · <b>Omphalocele: • USG by GA 18 weeks • Increased maternal AFP • Multiple bowel loops (and on occasion liver) herniate into a membrane-covered defect (i.e. not free-flowing) with insertion of cord directly into omphalocele</b> · <b>Gastroschisis: • USG by GA 20 weeks or sooner • Increased maternal AFP • Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord • IUGR</b><br>รูปในสไลด์หน้า 10: ภาพ USG เดียวกับหน้า 9<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p10"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 10 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "25": {
+  "stem": "A 19-year-old woman has a 12-week nuchal translucency scan. Several loops of bowel are seen floating freely in the amniotic fluid, arising from a small defect to the right of the umbilical cord, which inserts normally into the abdominal wall. No membrane covers the loops. What is the most likely interpretation?",
+  "opts": [
+   "Physiologic midgut herniation that will resolve",
+   "Omphalocele containing only bowel",
+   "Umbilical cord hernia",
+   "Gastroschisis detected in the first trimester",
+   "Normal finding requiring no follow-up"
+  ],
+  "ans": 3,
+  "interp": "USG 12 สัปดาห์ เห็นลำไส้ลอยอิสระจากรูขวาของสายสะดือที่เกาะปกติ ไม่มีเยื่อหุ้ม → ถามการแปลผล · จุดหลอก: อายุครรภ์ยังอยู่ในช่วง physiologic herniation",
+  "why": "Physiologic midgut herniation อยู่<b>ภายในฐานสายสะดือ</b> มีเยื่อหุ้มของสายสะดือ เป็นก้อนเล็กที่สายสะดือเสียบเข้า และกลับเข้าท้องภายใน 11–12 สัปดาห์ — ไม่เคยเป็นลำไส้<b>ลอยอิสระในน้ำคร่ำ</b> · ลำไส้ลอยอิสระจาก<b>รูขวาของสายสะดือที่เกาะผนังท้องปกติ</b> โดยไม่มีเยื่อหุ้ม = <b>gastroschisis</b> ไม่ว่าอายุครรภ์เท่าไร และเห็นได้ตั้งแต่ไตรมาสแรกในหลายราย (สไลด์ใช้คำว่า by GA 20 weeks <b>or sooner</b>) · การจัดการต่อ: ยืนยันด้วย anomaly scan ติดตามการเจริญเติบโตและลำไส้ ให้คำปรึกษา และวางแผนคลอดในศูนย์ที่มีศัลยแพทย์เด็ก · สไลด์หน้า 10: <b>Gastroschisis: • USG by GA 20 weeks or sooner • … Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord</b>",
+  "wrong": {
+   "A": "Physiologic herniation อยู่ในฐานสายสะดือ มีเยื่อหุ้ม สายสะดือเสียบเข้าก้อน และกลับเข้าท้องภายใน 12 สัปดาห์ — ไม่มีลำไส้ลอยอิสระและไม่มีรูข้างสายสะดือ · จะถูกถ้า USG 10 สัปดาห์เห็นก้อนเล็ก echogenic ที่ฐานสายสะดือ มีแค่ลำไส้ ผนังท้องปกติ",
+   "B": "Omphalocele มีเยื่อหุ้มและสายสะดือเสียบเข้าก้อน ไม่ใช่ลำไส้ลอยอิสระข้างสายสะดือที่เกาะปกติ · จะถูกถ้าที่ 13 สัปดาห์ยังเห็นก้อนมีเยื่อหุ้มที่ฐานสายสะดือ ภายในมีลำไส้",
+   "C": "Hernia of the umbilical cord คือ omphalocele ชนิดเล็กที่ลำไส้อยู่ในสายสะดือมีเยื่อหุ้ม ผนังท้องรอบสะดือปกติ · จะถูกถ้าหลังคลอดเห็นฐานสายสะดือโป่งใสมีขดลำไส้ข้างใน",
+   "E": "ลำไส้ลอยในน้ำคร่ำไม่ใช่ภาวะปกติในอายุครรภ์ใด ๆ และต้องติดตามต่อ · จะถูกถ้า USG 12 สัปดาห์เห็นผนังท้องปกติ ไม่มีก้อนหรือลำไส้นอกท้อง"
+  },
+  "trap": "จำว่า 'ก่อน 12 สัปดาห์ ลำไส้ออกไปได้ปกติ' แล้วตอบ physiologic herniation — physiologic herniation อยู่ในสายสะดือมีเยื่อหุ้ม ส่วนลำไส้ลอยอิสระจากรูข้างสายสะดือผิดปกติเสมอ",
+  "summary": [
+   "ลำไส้ลอยอิสระจากรูขวาของสายสะดือปกติ ไม่มีเยื่อ = gastroschisis แม้ในไตรมาสแรก",
+   "Physiologic herniation: ในฐานสายสะดือ · มีเยื่อหุ้ม · ลำไส้อย่างเดียว · กลับเข้าภายใน 11–12 สัปดาห์",
+   "สไลด์: gastroschisis USG by GA 20 weeks or sooner · omphalocele USG by GA 18 weeks",
+   "ตรวจไตรมาสแรกพบ → ยืนยันด้วย anomaly scan · ติดตามการเจริญเติบโต/ ลำไส้ · วางแผนคลอดในศูนย์ศัลยกรรมเด็ก",
+   "แม่อายุน้อยเป็นปัจจัยเสี่ยงสำคัญของ gastroschisis",
+   "ไม่ต้องรอดูว่าจะ 'กลับเข้า' เหมือน physiologic herniation"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — สไลด์หน้า 10 ใช้คำ 'or sooner' และให้ลักษณะ freely floating + right of a normal umbilical cord · ตำรา (Callen) ระบุว่า gastroschisis ตรวจพบได้ตั้งแต่ไตรมาสแรก ส่วน physiologic herniation อยู่ในสายสะดือเสมอ",
+  "mnemonic": "<b>'อยู่ในสาย = ปกติได้ (ก่อน 12 wk) · ลอยข้างสาย = Gastroschisis ทุกอายุครรภ์'</b>",
+  "guide": "Callen's Ultrasonography in Obstetrics and Gynecology 6th ed. (2017) — Fetal abdominal wall; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects",
+  "variants": [
+   "USG 11 สัปดาห์เห็นก้อน 4 mm ที่ฐานสายสะดือมีแค่ลำไส้ ผนังท้องปกติ → physiologic herniation ตรวจซ้ำหลัง 12 สัปดาห์",
+   "USG 12 สัปดาห์เห็นอวัยวะในท้องจำนวนมากติดกับรก สายสะดือสั้นมาก → limb–body wall complex",
+   "USG 12 สัปดาห์เห็นลำไส้ลอยอิสระข้างสายสะดือ แต่ครั้งต่อมาที่ 20 สัปดาห์ลำไส้ข้างนอกน้อยลงและลำไส้ในท้องโป่ง → closing gastroschisis เสี่ยง atresia/ short bowel"
+  ],
+  "notes": "สไลด์หน้า 9 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · หัวข้อ <b>Omphalocele</b> · <b>Gastroschisis</b> (หน้านี้มีแต่รูป ข้อความอยู่หน้า 10)<br>รูปในสไลด์หน้า 9: ภาพ USG ครรภ์: omphalocele 2 ภาพ (ก้อนมีเยื่อหุ้มหน้าท้องทารก) · gastroschisis 1 ภาพ (ขดลำไส้ลอยในน้ำคร่ำ)<br>สไลด์หน้า 10 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · <b>Omphalocele: • USG by GA 18 weeks • Increased maternal AFP • Multiple bowel loops (and on occasion liver) herniate into a membrane-covered defect (i.e. not free-flowing) with insertion of cord directly into omphalocele</b> · <b>Gastroschisis: • USG by GA 20 weeks or sooner • Increased maternal AFP • Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord • IUGR</b><br>รูปในสไลด์หน้า 10: ภาพ USG เดียวกับหน้า 9<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p9",
+   "l28_p10"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 9, 10 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "26": {
+  "stem": "A 22-year-old woman at 16 weeks of gestation, dated by a first-trimester ultrasound, has a maternal serum alpha-fetoprotein of 4.5 multiples of the median on quadruple screening. She smokes half a pack of cigarettes daily. Which of the following is a recognized cause of this result?",
+  "opts": [
+   "Gastroschisis",
+   "Trisomy 21",
+   "Trisomy 18",
+   "Isolated cleft lip and palate",
+   "Overestimated gestational age"
+  ],
+  "ans": 0,
+  "interp": "MSAFP สูง 4.5 MoM ในครรภ์ที่อายุครรภ์แม่นยำ (นับจาก USG ไตรมาสแรก) แม่อายุน้อยสูบบุหรี่ → ถามสาเหตุที่ทำให้ AFP สูง ต้องรู้ว่า abdominal wall defect ทำให้ maternal AFP สูง",
+  "why": "AFP สร้างจาก yolk sac และตับทารก รั่วเข้าน้ำคร่ำและเลือดแม่ได้มากเมื่อ<b>เนื้อเยื่อทารกเปิดสัมผัสน้ำคร่ำ</b> — สาเหตุ MSAFP สูง (≥2.0–2.5 MoM) ได้แก่ <b>open neural tube defect</b> · <b>abdominal wall defect</b> (<b>gastroschisis สูงมาก</b> มัก &gt;4–9 MoM เพราะลำไส้เปิดโล่ง · omphalocele สูงน้อยกว่าเพราะมีเยื่อหุ้ม) · อายุครรภ์จริง<b>มากกว่า</b>ที่คิด · ครรภ์แฝด · ทารกเสียชีวิต · ความผิดปกติของรก · หลังพบค่าสูงขั้นต่อไปคือ USG ละเอียด · ในโจทย์อายุครรภ์แม่นยำ และแม่อายุน้อยสูบบุหรี่เข้ากับ gastroschisis · ส่วน aneuploidy มักทำให้ AFP <b>ต่ำ</b> · สไลด์หน้า 10 ระบุ <b>Increased maternal AFP</b> ทั้ง omphalocele และ gastroschisis",
+  "wrong": {
+   "B": "Trisomy 21 ใน quad screen ให้ AFP ต่ำ uE3 ต่ำ hCG สูง inhibin A สูง · จะถูกถ้าผล quad screen เป็น AFP 0.6 MoM, hCG 2.5 MoM, inhibin A สูง",
+   "C": "Trisomy 18 ให้ AFP, uE3, hCG ต่ำทั้งหมด · จะถูกถ้าทุกค่าของ quad screen ต่ำ ร่วม USG เห็นกำมือนิ้วซ้อนและ omphalocele เล็ก",
+   "D": "ปากแหว่งเพดานโหว่เดี่ยว ๆ ไม่ทำให้ AFP ในเลือดแม่สูง (เนื้อเยื่อที่เปิดมีน้อยและเป็นเยื่อบุ) วินิจฉัยด้วย USG ใบหน้า · จะถูกถ้า USG 20 สัปดาห์เห็นริมฝีปากบนแยก",
+   "E": "ถ้าประเมินอายุครรภ์<b>มากเกิน</b>จริง ค่า AFP ที่ได้จะถูกเทียบกับค่ากลางของอายุครรภ์ที่มากกว่า จึงออกมา<b>ต่ำ</b> ไม่ใช่สูง · และครรภ์นี้นับอายุจาก USG ไตรมาสแรกจึงแม่นยำ · จะถูกถ้า (ในทางกลับกัน) อายุครรภ์จริงมากกว่าที่คิด เช่น นับจากประจำเดือนที่จำผิดแล้ว USG วัดได้ 19 สัปดาห์ ซึ่งทำให้ MSAFP สูงลวง"
+  },
+  "trap": "จำ 'AFP ผิดปกติ = โครโมโซม' โดยไม่แยกทิศทาง — AFP สูงคิดถึงเนื้อเยื่อเปิด (NTD, abdominal wall defect) · AFP ต่ำคิดถึง trisomy 21/18",
+  "summary": [
+   "MSAFP สูง: open NTD · abdominal wall defect (gastroschisis &gt; omphalocele) · อายุครรภ์จริงมากกว่าที่คิด · แฝด · ทารกเสียชีวิต · รกผิดปกติ",
+   "Gastroschisis ให้ AFP สูงกว่า omphalocele เพราะลำไส้เปิดโล่งไม่มีเยื่อหุ้ม",
+   "MSAFP ต่ำ: trisomy 21, 18 · อายุครรภ์จริงน้อยกว่าที่คิด · แม่อ้วน/ เบาหวาน",
+   "Quad screen Down: AFP↓ uE3↓ hCG↑ inhibin A↑ · Edwards: AFP↓ uE3↓ hCG↓",
+   "MSAFP สูง → ตรวจยืนยันอายุครรภ์ + USG ละเอียด (สมอง กระดูกสันหลัง ผนังท้อง)",
+   "สไลด์: Increased maternal AFP ทั้ง omphalocele และ gastroschisis"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — สไลด์หน้า 10 ระบุ Increased maternal AFP ในทั้งสองโรค · ตำรา (Creasy) ระบุ gastroschisis ให้ MSAFP สูงกว่า omphalocele ซึ่งสไลด์ไม่ได้เทียบ",
+  "mnemonic": "<b>'AFP สูง = มีรูรั่ว (NTD, ผนังท้อง) · AFP ต่ำ = Down/ Edwards'</b>",
+  "guide": "Creasy and Resnik's Maternal-Fetal Medicine 9th ed. (2023) — Prenatal screening; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects",
+  "variants": [
+   "MSAFP 3.8 MoM USG พบ myelomeningocele ระดับเอว → open neural tube defect",
+   "MSAFP สูง USG พบครรภ์แฝด ทารกปกติทั้งคู่ → ค่าสูงจากจำนวนทารก ไม่ใช่ความผิดปกติ",
+   "Quad screen AFP ต่ำ hCG สูง inhibin A สูง → เสี่ยง trisomy 21 เสนอ NIPT หรือ amniocentesis"
+  ],
+  "notes": "สไลด์หน้า 10 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · <b>Omphalocele: • USG by GA 18 weeks • Increased maternal AFP • Multiple bowel loops (and on occasion liver) herniate into a membrane-covered defect (i.e. not free-flowing) with insertion of cord directly into omphalocele</b> · <b>Gastroschisis: • USG by GA 20 weeks or sooner • Increased maternal AFP • Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord • IUGR</b><br>รูปในสไลด์หน้า 10: ภาพ USG เดียวกับหน้า 9<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p10"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 10 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "27": {
+  "stem": "A pregnant woman's elevated serum AFP prompts ultrasound showing a membrane-covered umbilical mass. How does AFP differ between wall defects?",
+  "opts": [
+   "Elevated only in gastroschisis",
+   "Elevated only in omphalocele",
+   "Elevated in both, typically higher in gastroschisis",
+   "Normal in both, elevated only with neural tube defects",
+   "Low in both because of chromosomal abnormalities"
+  ],
+  "ans": 2,
+  "interp": "MSAFP สูงร่วมกับก้อนมีเยื่อหุ้มที่สะดือ (omphalocele) → ถามว่า AFP ต่างกันอย่างไรระหว่าง omphalocele กับ gastroschisis",
+  "why": "AFP รั่วจากเนื้อเยื่อทารกเข้าน้ำคร่ำแล้วผ่านรกเข้าเลือดแม่ — <b>ทั้ง omphalocele และ gastroschisis ทำให้ maternal AFP สูง</b> แต่ <b>gastroschisis สูงกว่า</b> (มัก &gt;4 MoM ถึงเกือบ 10 MoM) เพราะลำไส้เปิดโล่งสัมผัสน้ำคร่ำโดยตรง ส่วน <b>omphalocele มีเยื่อหุ้ม</b> AFP จึงสูงน้อยกว่า (ราว 4 MoM โดยเฉลี่ย และอาจปกติในก้อนเล็ก) · ดังนั้น MSAFP ใช้คัดกรองว่ามี defect แต่<b>แยกชนิดไม่ได้</b> ต้องใช้ USG (เยื่อหุ้ม ตำแหน่งสายสะดือ) · ใน omphalocele ที่มี trisomy ค่า AFP อาจถูกดึงลงจาก aneuploidy ได้ · สไลด์หน้า 10 ระบุ <b>Increased maternal AFP</b> ทั้งใต้หัวข้อ <b>Omphalocele</b> และ <b>Gastroschisis</b>",
+  "wrong": {
+   "A": "Omphalocele ก็ทำให้ MSAFP สูงได้ (สไลด์เขียนไว้ทั้งสองโรค) แม้สูงน้อยกว่า gastroschisis · จะถูกถ้าถามโรคที่ทำให้ MSAFP สูงที่สุดในกลุ่ม abdominal wall defect",
+   "B": "Gastroschisis ทำให้ AFP สูงกว่า omphalocele ไม่ใช่ไม่สูง · ไม่มีสถานการณ์ใดที่ gastroschisis ให้ AFP ปกติเป็นลักษณะประจำ เพราะลำไส้เปิดสัมผัสน้ำคร่ำโดยตรงเสมอ",
+   "D": "Open neural tube defect ทำให้ AFP สูงจริง แต่ abdominal wall defect ก็ทำให้สูงเช่นกัน — สองกลุ่มนี้เป็นสาเหตุหลักของ MSAFP สูง · จะถูกถ้าถามความผิดปกติที่ทำให้ amniotic fluid acetylcholinesterase สูงร่วมกับ AFP โดยไม่มีรูผนังท้อง เช่น open spina bifida",
+   "E": "AFP ต่ำพบใน trisomy 21 และ 18 ซึ่งอาจพบร่วมกับ omphalocele แต่ตัว defect เองทำให้ AFP สูง · จะถูกถ้าถามผล quad screen ของทารก trisomy 18 ที่ไม่มีรูผนังท้อง (AFP, uE3, hCG ต่ำทั้งหมด)"
+  },
+  "trap": "คิดว่าถุงของ omphalocele กัน AFP ได้หมดจึงไม่สูง — ถุงแค่ลดการรั่ว AFP จึงสูงทั้งสองโรค แต่ gastroschisis สูงกว่า",
+  "summary": [
+   "Maternal AFP สูงทั้ง omphalocele และ gastroschisis · gastroschisis สูงกว่า (ลำไส้เปิดโล่ง)",
+   "Omphalocele มีเยื่อหุ้ม → AFP สูงน้อยกว่า อาจปกติในก้อนเล็ก",
+   "MSAFP คัดกรองว่ามี defect แต่แยกชนิดไม่ได้ → ใช้ USG (เยื่อหุ้ม ตำแหน่งสายสะดือ ลำไส้ลอย)",
+   "สาเหตุ MSAFP สูงอื่น: open NTD · อายุครรภ์จริงมากกว่าที่คิด · แฝด · ทารกเสียชีวิต",
+   "Aneuploidy (trisomy 21, 18) ทำให้ AFP ต่ำ อาจดึงค่าลงใน omphalocele ที่มี trisomy",
+   "Omphalocele ก่อนคลอด → fetal echo + karyotype"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง-สูง — สไลด์หน้า 10 ระบุ Increased maternal AFP ทั้งสองโรค แต่ไม่ได้บอกว่า gastroschisis สูงกว่า · ส่วน 'สูงกว่าใน gastroschisis' มาจากตำรา (Creasy, Callen) ซึ่งตัวเลขเฉลี่ยในแต่ละรายงานต่างกันบ้าง",
+  "mnemonic": "<b>'ไม่มีถุง AFP รั่วเต็มที่ · มีถุง AFP รั่วบางส่วน'</b>",
+  "guide": "Creasy and Resnik's Maternal-Fetal Medicine 9th ed. (2023) — Prenatal screening; Callen's Ultrasonography in Obstetrics and Gynecology 6th ed. (2017) — Fetal abdominal wall",
+  "variants": [
+   "MSAFP 9 MoM USG เห็นลำไส้ลอยในน้ำคร่ำข้างสายสะดือปกติ → gastroschisis",
+   "Omphalocele เล็กมีแค่ลำไส้ MSAFP เกือบปกติ แต่ uE3 และ hCG ต่ำ → สงสัย trisomy 18 ส่งตรวจโครโมโซม",
+   "MSAFP สูง amniotic fluid acetylcholinesterase สูง USG เห็นกะโหลกรูปมะนาวและ banana sign → open spina bifida"
+  ],
+  "notes": "สไลด์หน้า 10 — ตัวพิมพ์: <b>Prenatal diagnosis</b> · <b>Omphalocele: • USG by GA 18 weeks • Increased maternal AFP • Multiple bowel loops (and on occasion liver) herniate into a membrane-covered defect (i.e. not free-flowing) with insertion of cord directly into omphalocele</b> · <b>Gastroschisis: • USG by GA 20 weeks or sooner • Increased maternal AFP • Bowel loops freely floating in the amniotic fluid and a defect in the abdominal wall to the right of a normal umbilical cord • IUGR</b><br>รูปในสไลด์หน้า 10: ภาพ USG เดียวกับหน้า 9<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p10"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 10 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "28": {
+  "stem": "A 2.6-kg term newborn is born at a community hospital with bowel protruding through a defect to the right of the umbilical cord and no covering membrane. Transfer to a pediatric surgical center will take 3 hours. An intravenous line has been placed. How should the exposed bowel be managed while awaiting transfer?",
+  "opts": [
+   "Reduce the bowel manually into the abdomen at the bedside",
+   "Cover the bowel with dry sterile gauze and a tight binder",
+   "Apply a povidone-iodine soaked dressing to the bowel",
+   "Leave the bowel exposed under a radiant warmer",
+   "Warm saline-soaked gauze covered by a plastic wrap"
+  ],
+  "ans": 4,
+  "interp": "ทารก gastroschisis ที่โรงพยาบาลชุมชน รอส่งต่อ 3 ชั่วโมง ใส่ IV แล้ว → ถามวิธีดูแลลำไส้ที่เปิดระหว่างรอ หลัก: ลดการเสียน้ำ/ความร้อน กันบาดเจ็บและการพับของ mesentery",
+  "why": "ลำไส้ที่เปิดโล่งทำให้ทารก<b>เสียความร้อนและน้ำจากการระเหย</b>อย่างมาก บาดเจ็บ ติดเชื้อ และลำไส้อาจพับ/ บิดจนขาดเลือด — การดูแลมาตรฐานคือ<b>ห่อลำไส้ด้วยผ้าก๊อซชุบ NSS อุ่น แล้วคลุมด้วยวัสดุที่ไม่ให้ระเหย (ถุงพลาสติก/ bowel bag/ พลาสติกห่ออาหาร)</b> หรือใส่ลำตัวช่วงล่างลงในถุงพลาสติกใส ประคองลำไส้ให้อยู่กลางตัว ไม่ตึงหรือพับ และ<b>นอนตะแคงขวา</b>เพื่อไม่ให้ mesentery ถูกพับ · ร่วมกับ <b>IV fluid</b> (ต้องการมากกว่าปกติ) <b>OG decompression</b> ลดลำไส้โป่ง <b>empirical ATB</b> คุมอุณหภูมิในตู้อบ และดูสีลำไส้เป็นระยะผ่านพลาสติกใส · สไลด์หน้า 11: <b>Initial management • IV access and fluid resuscitation • OG decompression • Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag) • Empirical ATB • Thorough examinations to find out intestinal atresia/ associated anomalies</b>",
+  "wrong": {
+   "A": "ดันลำไส้กลับที่ข้างเตียงโดยไม่มีการประเมินและดมยา อาจทำให้ลำไส้ฉีก ขาดเลือด หรือความดันในช่องท้องสูงจนหายใจไม่ได้ (abdominal compartment syndrome) · จะถูกถ้าทารกอยู่ในศูนย์ศัลยกรรมเด็กแล้ว ลำไส้ไม่บวมมาก และศัลยแพทย์ทำ sutureless reduction โดยเฝ้าระวังความดันในช่องท้อง",
+   "B": "ผ้าก๊อซแห้งติดผิวลำไส้ (serosa) เมื่อดึงออกจะบาดเจ็บ ไม่กันการระเหย และผ้ารัดแน่นกดหลอดเลือด mesentery จนลำไส้ขาดเลือด · จะถูกถ้าเป็นแผลผ่าตัดผิวหนังปกติที่ต้องปิดด้วยผ้าก๊อซแห้งหลังเย็บ",
+   "C": "Povidone-iodine บนลำไส้ระคายเคืองเยื่อบุ ดูดซึม iodine ในทารกทำให้เกิด hypothyroidism ชั่วคราวได้ และไม่กันการระเหย · ยาฆ่าเชื้อทาภายนอกใช้กับถุง omphalocele ใน escharification · จะถูกถ้าทารก giant omphalocele ถุงสมบูรณ์ที่เลือกรักษาแบบ paint and wait (ปัจจุบันนิยม silver sulfadiazine มากกว่า)",
+   "D": "Radiant warmer ทำให้ลำไส้ที่เปิดแห้งและเสียน้ำจากการระเหยมากขึ้น · จะถูกถ้าทารกปกติที่ผิวหนังสมบูรณ์ ต้องการความอบอุ่นหลังคลอด"
+  },
+  "trap": "ห่วงเรื่องติดเชื้อจนเลือกยาฆ่าเชื้อหรือผ้าแห้ง — ปัญหาเร่งด่วนคือการระเหย ความร้อน และหลอดเลือดลำไส้ จึงต้อง 'ชุ่ม อุ่น ปิดด้วยพลาสติก ไม่รัด'",
+  "summary": [
+   "ลำไส้เปิด: ห่อผ้าก๊อซชุบ NSS อุ่น + คลุมพลาสติกกันระเหย (bowel bag/ ถุงพลาสติก)",
+   "ประคองลำไส้กลางตัว ไม่ตึง ไม่พับ · ตะแคงขวาลดการพับของ mesentery · ดูสีลำไส้ผ่านพลาสติกใส",
+   "IV access + fluid (ต้องการมากกว่าปกติ) · OG decompression · empirical ATB · คุมอุณหภูมิ",
+   "ห้ามผ้าแห้ง ห้ามรัด ห้ามดันกลับเองข้างเตียง ห้ามวางใต้ radiant warmer โดยไม่คลุม",
+   "ตรวจลำไส้หา atresia/ perforation และ anomaly ร่วมตั้งแต่แรกรับ",
+   "ส่งต่อศูนย์ศัลยกรรมเด็กเร็วที่สุด"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับสไลด์หน้า 11 ทุกคำ (warm saline-soaked gauze with non-evaporating wrap) · ตำรา (Holcomb) และ ERNICA 2024 เพิ่มการจัดท่าตะแคงขวาและประคองลำไส้ไม่ให้พับ ซึ่งสไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'ชุ่ม · อุ่น · ห่อพลาสติก · ไม่รัด · ตะแคงขวา'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60)",
+  "variants": [
+   "ทารก gastroschisis ห่อพลาสติกแล้ว แต่อุณหภูมิกาย 35.4 °C → อุ่นตู้อบ ให้สารน้ำอุ่น ตรวจว่าพลาสติกคลุมปิดดีไม่รั่ว",
+   "ทารก gastroschisis ใส่ OG แล้วได้น้ำดีออกมาก → ระบายต่อเนื่อง ลดลำไส้โป่ง และนึกถึง atresia/ obstruction",
+   "ทารก omphalocele ถุงสมบูรณ์รอส่งต่อ → คลุมถุงด้วยผ้าชุ่ม NSS + พลาสติกเช่นกัน ประคองไม่ให้ถุงพับ"
+  ],
+  "notes": "สไลด์หน้า 11 — ตัวพิมพ์: <b>Initial management</b> · <b>• IV access and fluid resuscitation • OG decompression • Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag) • Empirical ATB • Thorough examinations to find out intestinal atresia/ associated anomalies</b><br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p11"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 11 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "29": {
+  "stem": "A newborn with exposed bowel is wrapped in a plastic bag. What is the main purpose of the bag?",
+  "opts": [
+   "Preventing the bowel from twisting on its mesentery",
+   "Reducing evaporative heat and fluid loss",
+   "Delivering topical antibiotic to the bowel serosa",
+   "Compressing edema out of the bowel wall",
+   "Allowing the bowel to reduce by gravity"
+  ],
+  "ans": 1,
+  "interp": "ทารกลำไส้เปิด (gastroschisis) ห่อด้วยถุงพลาสติก → ถามจุดประสงค์หลักของถุง ต้องรู้ว่าปัญหาเร่งด่วนคือการเสียน้ำและความร้อนจากการระเหย",
+  "why": "ลำไส้ที่เปิดมีพื้นผิวกว้าง ชื้น และหลอดเลือดมาก ทำให้ทารก<b>เสียความร้อนและน้ำจากการระเหย (evaporative loss)</b> สูงมาก — ทารก gastroschisis จึงต้องการสารน้ำมากกว่าปกติ (มักราว 1.5–2 เท่าในช่วงแรก) และเสี่ยง<b>ภาวะตัวเย็น</b> ซึ่งทำให้เลือดเป็นกรด ไหลเวียนแย่ลง · <b>ถุงพลาสติก (non-evaporating wrap)</b> ปิดกั้นการระเหยและความร้อนที่สูญเสีย ขณะผ้าก๊อซชุบ NSS อุ่นด้านในกันลำไส้แห้งและบาดเจ็บ · พลาสติกใสยังช่วยให้มองสีลำไส้ได้และกันการปนเปื้อน แต่เป็นประโยชน์รอง · การกันลำไส้พับทำด้วยการ<b>จัดท่า</b>และประคอง ไม่ใช่ตัวถุง · สไลด์หน้า 11: <b>Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag)</b>",
+  "wrong": {
+   "A": "การกันลำไส้บิดหรือพับบน mesentery ทำด้วยการจัดท่าตะแคงขวาและประคองลำไส้ให้อยู่กลางตัว ไม่ใช่หน้าที่หลักของถุง · จะถูกถ้าถามเหตุผลที่จัดทารก gastroschisis นอนตะแคงขวาระหว่างรอผ่าตัด",
+   "C": "ถุงพลาสติกไม่ได้ส่งยาฆ่าเชื้อ — ยาปฏิชีวนะให้ทางหลอดเลือด (empirical ATB) · จะถูกถ้าถามวิธีป้องกันการติดเชื้อในทารก gastroschisis ก่อนผ่าตัด (IV ampicillin + gentamicin)",
+   "D": "การกดบีบลำไส้บวมไม่ได้ช่วยและอาจทำให้ขาดเลือด — การลดลำไส้ทีละน้อยทำด้วย silo หลังทารกถึงศูนย์ศัลยกรรม · จะถูกถ้าถามหลักการของ silo ที่ค่อย ๆ บีบลำไส้ลงช่องท้องทุกวันจนปิดได้",
+   "E": "การให้ลำไส้ค่อย ๆ ลงช่องท้องด้วยแรงโน้มถ่วงเป็นหลักของ silo ที่แขวนตั้งขึ้น ไม่ใช่ถุงห่อชั่วคราวในห้องคลอด · จะถูกถ้าถามว่าทำไมแขวน silo ตั้งตรงเหนือทารกหลังใส่"
+  },
+  "trap": "นึกว่าถุงมีไว้กันเชื้อเป็นหลัก — คำในสไลด์ 'non-evaporating' บอกตรง ๆ ว่ากันการระเหย ซึ่งเป็นสาเหตุหลักของการเสียน้ำและตัวเย็น",
+  "summary": [
+   "ถุงพลาสติก (non-evaporating wrap) → ลดการเสียความร้อนและน้ำจากการระเหย",
+   "ผ้าก๊อซชุบ NSS อุ่นด้านใน → กันลำไส้แห้ง บาดเจ็บ",
+   "ทารก gastroschisis ต้องการสารน้ำมากกว่าปกติ (ราว 1.5–2 เท่าช่วงแรก) · เฝ้าปัสสาวะ ความดัน lactate",
+   "ตัวเย็น → เลือดเป็นกรด การไหลเวียนแย่ · คุมอุณหภูมิในตู้อบ",
+   "กันลำไส้พับด้วยการจัดท่าตะแคงขวา + ประคองลำไส้ · กันติดเชื้อด้วย IV ATB",
+   "พลาสติกใสช่วยดูสีลำไส้ได้ตลอด"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — สไลด์หน้า 11 ใช้คำ non-evaporating wrap ตรงกับจุดประสงค์ · ตัวเลขความต้องการสารน้ำมากกว่าปกติมาจากตำรา (Holcomb) สไลด์ไม่ได้ระบุ",
+  "mnemonic": "<b>'Non-evaporating = กันน้ำระเหย กันตัวเย็น'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60)",
+  "variants": [
+   "ทารก gastroschisis ปัสสาวะ 0.5 mL/kg/hr และ lactate สูง หลังห่อลำไส้แล้ว → ให้สารน้ำเพิ่ม (bolus) และประเมินการไหลเวียน",
+   "ทารก gastroschisis ที่ถุงพลาสติกรั่วจนผ้าก๊อซแห้ง → เปลี่ยนผ้าชุบ NSS อุ่นและคลุมใหม่ให้ปิดสนิท",
+   "ทารกคลอดก่อนกำหนดผิวหนังบาง (ไม่มี defect) → ใส่ถุงพลาสติกตั้งแต่คอลงไปทันทีหลังคลอดเพื่อกันตัวเย็นเช่นกัน"
+  ],
+  "notes": "สไลด์หน้า 11 — ตัวพิมพ์: <b>Initial management</b> · <b>• IV access and fluid resuscitation • OG decompression • Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag) • Empirical ATB • Thorough examinations to find out intestinal atresia/ associated anomalies</b><br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p11"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 11 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ },
+ "30": {
+  "stem": "A 2.4-kg newborn with gastroschisis has the bowel wrapped in warm saline-soaked gauze and a plastic bag while lying supine, with the wrapped bowel draped over the left flank. Thirty minutes later the bowel appears dusky, although heart rate, capillary refill, and temperature are normal. What is the most appropriate immediate action?",
+  "opts": [
+   "Reposition the infant and bowel to relieve mesenteric kinking",
+   "Give a rapid 20 mL/kg bolus of normal saline intravenously",
+   "Replace the wet gauze with dry dressings to stop further cooling",
+   "Start inotropic support to improve splanchnic blood flow",
+   "Proceed to emergency resection of the dusky segment"
+  ],
+  "ans": 0,
+  "interp": "ห่อลำไส้ถูกวิธีแล้ว แต่ทารกนอนหงายและลำไส้ห้อยพาดไปด้านซ้าย 30 นาทีต่อมาลำไส้คล้ำ ขณะที่ระบบไหลเวียนทั้งตัวปกติ → ถามสิ่งที่ต้องทำทันที · จุดหลอก: การห่อถูกแล้ว ปัญหาอยู่ที่ท่าที่ทำให้ mesentery พับ",
+  "why": "ลำไส้คล้ำทั้งที่<b>ชีพจร capillary refill และอุณหภูมิปกติ</b> บอกว่าปัญหาไม่ใช่ทั้งตัว (shock) แต่เป็น<b>การไหลเวียนเฉพาะที่ของลำไส้</b> — ใน gastroschisis รูผนังท้องเล็ก ลำไส้ที่ห้อยพาดไปด้านข้างทำให้ <b>mesentery พับ/ บิดที่ขอบรู</b> หลอดเลือดดำไหลกลับไม่ได้ → ลำไส้บวมคล้ำและขาดเลือดได้ภายในเวลาไม่นาน · การแก้ทันทีคือ<b>จัดท่าใหม่</b>: ให้ทารก<b>นอนตะแคงขวา</b> หรือประคองลำไส้ให้ตั้งตรงกลางเหนือรู ไม่ห้อย ไม่ตึง คลายผ้าที่อาจรัด แล้วดูสีลำไส้ซ้ำ · ถ้ายังคล้ำเพราะรูแคบรัดลำไส้ ศัลยแพทย์ต้อง<b>ขยายรู</b>ทันที · สไลด์ให้ห่อลำไส้ด้วย <b>warm saline-soaked gauze with non-evaporating wrap (plastic bag)</b> แต่ไม่ได้เขียนการจัดท่า ซึ่งเป็นส่วนหนึ่งของ initial management ตามตำรา · สไลด์หน้า 11 <b>Initial management</b>",
+  "wrong": {
+   "B": "Bolus 20 mL/kg ใช้เมื่อมี hypovolemia/ shock (ชีพจรเร็ว CRT ช้า ปัสสาวะน้อย) — ระบบไหลเวียนปกติ ลำไส้คล้ำจากการพับเฉพาะที่ การให้น้ำไม่แก้ · จะถูกถ้าทารก gastroschisis ชีพจร 190 ครั้ง/นาที CRT 4 วินาที ปัสสาวะน้อย",
+   "C": "ผ้าแห้งติดผิวลำไส้และเพิ่มการระเหย ไม่ได้ทำให้ลำไส้อุ่นขึ้น และไม่เกี่ยวกับสาเหตุของลำไส้คล้ำ · ไม่มีสถานการณ์ใดที่เปลี่ยนเป็นผ้าแห้งบนลำไส้ที่เปิดอยู่ เพราะผ้าชุ่ม NSS อุ่น + พลาสติกเป็นวิธีที่ถูกทั้งเรื่องความร้อนและการบาดเจ็บ",
+   "D": "Inotrope ใช้ใน shock ที่ไม่ตอบสนองต่อสารน้ำ ไม่แก้การไหลเวียนที่ถูกกดเชิงกลที่ mesentery และ vasopressor บางตัวลดเลือดไปลำไส้ · จะถูกถ้าทารก gastroschisis ที่ septic shock ความดันต่ำหลังให้สารน้ำ 40–60 mL/kg แล้ว",
+   "E": "ลำไส้คล้ำจากการพับส่วนใหญ่กลับมาสีปกติหลังแก้ท่า การตัดลำไส้ทันทีทำให้เสียลำไส้โดยไม่จำเป็นและเพิ่มความเสี่ยง short bowel · จะถูกถ้าในห้องผ่าตัดหลังแก้การบิดและขยายรูแล้ว ลำไส้ส่วนนั้นยังดำ ไม่มีชีพจรที่ mesentery และไม่บีบตัว"
+  },
+  "trap": "เห็นลำไส้คล้ำแล้วรีบให้น้ำหรือคิดว่าห่อผิด — ห่อถูกแล้ว ระบบไหลเวียนปกติ แปลว่าเป็นปัญหาเชิงกลเฉพาะที่ แก้ด้วยการจัดท่าลำไส้ก่อน",
+  "summary": [
+   "ลำไส้คล้ำ + ระบบไหลเวียนทั้งตัวปกติ → mesentery พับ/ บิดที่ขอบรู → จัดท่าใหม่ทันที",
+   "ท่าที่ถูก: ตะแคงขวา หรือประคองลำไส้ตั้งตรงกลางเหนือรู ไม่ห้อย ไม่ตึง ไม่รัด",
+   "ยังคล้ำหลังจัดท่า → รูแคบรัดลำไส้ → ศัลยแพทย์ขยายรู/ ผ่าตัดด่วน",
+   "ลำไส้คล้ำ + shock (ชีพจรเร็ว CRT ช้า ปัสสาวะน้อย) → resuscitation ด้วยสารน้ำ",
+   "ห่อด้วยผ้าชุ่ม NSS อุ่น + พลาสติก ดูสีลำไส้ผ่านพลาสติกใสเป็นระยะ",
+   "ตัดลำไส้เฉพาะส่วนที่ตายจริงหลังแก้การพับและรอดูแล้ว"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง-สูง — สไลด์หน้า 11 ให้การห่อและ resuscitation แต่ไม่ได้เขียนการจัดท่า · ตำรา (Holcomb) และ ERNICA 2024 เน้นการประคองลำไส้ให้ mesentery ไม่พับและให้ทารกนอนตะแคงขวา ข้อนี้จึงใช้ความรู้เกินสไลด์แต่อยู่ในหัวข้อ initial management",
+  "mnemonic": "<b>'ลำไส้คล้ำแต่ตัวชมพู = แก้ท่า ไม่ใช่แก้น้ำ'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Abdominal wall defects; ERNICA evidence-based guideline on the management of gastroschisis (Orphanet J Rare Dis 2024;19:60)",
+  "variants": [
+   "ทารก gastroschisis จัดท่าตะแคงขวาแล้วลำไส้ยังคล้ำ เห็นขอบรูรัดลำไส้แน่น → ขยายรูผนังท้องทันที",
+   "ทารก gastroschisis ลำไส้คล้ำร่วมชีพจรเร็ว CRT 4 วินาที → ให้ NSS bolus และหา sepsis/ hypovolemia",
+   "ทารก gastroschisis ใส่ silo แล้วลำไส้ในถุงเปลี่ยนเป็นสีม่วง → คลาย silo/ ลดการบีบ เพราะบีบลงเร็วเกินจนขาดเลือด"
+  ],
+  "notes": "สไลด์หน้า 11 — ตัวพิมพ์: <b>Initial management</b> · <b>• IV access and fluid resuscitation • OG decompression • Wrap bowel in warm saline-soaked gauze with non-evaporating wrap (plastic bag) • Empirical ATB • Thorough examinations to find out intestinal atresia/ associated anomalies</b><br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p11"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 11 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ]
+ }
+}
