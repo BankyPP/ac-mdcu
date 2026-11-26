@@ -1,212 +1,377 @@
 {
  "MDCU69|RoC|8": {
-  "interp": "ผู้ป่วยเดิม (EDH ซ้าย) แต่เกร็งเหยียดซีกซ้าย ข้างเดียวกับก้อน และ pupil ซ้ายขยาย · ถามกลไกที่อธิบายอาการอ่อนแรงข้างเดียวกับรอยโรค",
-  "why": "<b>คีย์: ขีด A · ลายมือ ipsilateral weakness</b><br><b>นอกสไลด์:</b> uncus ที่เคลื่อนลงดัน midbrain ไปด้านตรงข้าม จน cerebral peduncle ฝั่งตรงข้ามถูกกดกับขอบ tentorium (Kernohan notch) → อ่อนแรงข้างเดียวกับก้อน เป็นอาการบอกข้างลวง (false localizing sign) ขณะที่ pupil ขยายยังอยู่ข้างเดียวกับก้อน",
+  "interp": "สถานการณ์เดียวกับข้อ 7 (ตีศีรษะซ้าย lucid interval) แต่อ่อนแรงแบบ decerebrate <b>ซีกซ้าย (ข้างเดียวกับรอยโรค)</b> + รูม่านตาซ้ายขยาย → ถามคำอธิบายอาการอ่อนแรงข้างเดียวกัน",
+  "why": "ก้อนเลือดซีกซ้ายดัน midbrain ไปทางขวาจน <b>cerebral peduncle ฝั่งตรงข้าม (ขวา) ถูกกดกับขอบ tentorium</b> (รอยบุ๋ม = Kernohan notch) → corticospinal tract ฝั่งขวา (เหนือ decussation) เสีย → <b>อ่อนแรงข้างเดียวกับรอยโรค (ซ้าย)</b> = <b>Kernohan notch phenomenon</b> ซึ่งเป็น <b>false localizing sign</b> · ดังนั้นต้องยึด<b>ข้างรูม่านตาขยาย</b>เป็นหลักในการบอกข้างของก้อน (~85–90% ตรง) และยืนยันด้วย CT · ไฟล์ขีด A ลายมือ <b>\"ipsilat. weakness\"</b> และมีคำว่า \"ซ้ำ\" หน้าข้อ",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Monro-Kellie อธิบายอาการอ่อนแรงข้างเดียวกับรอยโรค เพราะเป็นหลักปริมาตรในกะโหลกคงที่ อธิบายว่าทำไม ICP สูงเมื่อก้อนโตเกินการชดเชย แต่ไม่บอกข้างของอาการ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Cushing reflex อธิบายข้างของอาการอ่อนแรง เพราะคือความดันสูง ชีพจรช้า หายใจผิดปกติจากก้านสมองถูกกด",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ Duret hemorrhage อธิบายอาการอ่อนแรงข้างเดียวกับก้อน เพราะคือเลือดออกกลางก้านสมองจากแขนงของ basilar ฉีกเมื่อก้านสมองเคลื่อนลง ทำให้โคม่าลึก",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ central herniation ทำให้อาการเป็นข้างเดียว เพราะดันก้านสมองลงตรงกลาง อาการจึงเป็นสองข้างสมมาตร"
+   "B": "Monro-Kellie doctrine อธิบายว่าปริมาตรในกะโหลกคงที่ (สมอง + เลือด + CSF) ก้อนเพิ่มต้องชดเชยด้วยการลดส่วนอื่น · จะถูกถ้าคำถามถามหลักการที่อธิบายว่าทำไม ICP สูงขึ้นเร็วเมื่อการชดเชยหมด",
+   "C": "Cushing reflex คือความดันสูง ชีพจรช้า หายใจผิดปกติ จาก ICP สูงมาก · จะถูกถ้าคำถามถามสัญญาณชีพที่บ่งว่ากำลังจะ herniate",
+   "D": "Duret hemorrhage คือเลือดออกเล็ก ๆ ใน pons/ midbrain จากการดึงรั้งของหลอดเลือดเมื่อ herniate ลงล่าง · จะถูกถ้าคำถามถามรอยโรคที่พบใน CT หลัง descending transtentorial herniation",
+   "E": "Central transtentorial herniation: diencephalon เคลื่อนลงตรง ๆ รูม่านตาเล็กสองข้างก่อน แล้วอ่อนแรงทั้งสองข้าง · จะถูกถ้าผู้ป่วยมีก้อนบริเวณกลาง/ สองข้าง ซึมลง รูม่านตาเล็กเท่ากัน หายใจแบบ Cheyne-Stokes"
   },
-  "trap": "อ่อนแรงข้างเดียวกับก้อนหลอกให้ผ่าตัดผิดข้าง — ใช้ CT และข้างที่ pupil ขยาย (ส่วนใหญ่อยู่ข้างเดียวกับก้อน) กำหนดข้างผ่าตัด ไม่ใช่ข้างที่อ่อนแรง",
+  "trap": "ใช้ข้างของการอ่อนแรงบอกข้างของก้อน — อาจหลอก (Kernohan) ให้ใช้ข้างรูม่านตาขยายแทน",
   "summary": [
-   "<b>นอกสไลด์:</b> ชนิด herniation: subfalcine (cingulate ลอดใต้ falx กด ACA → ขาข้างตรงข้ามอ่อนแรง) · uncal (CN III ข้างเดียวกัน + อ่อนแรงข้างตรงข้าม กด PCA ได้) · central (ดันลงตรงกลาง อาการสองข้าง) · tonsillar (tonsil ลงช่อง foramen magnum กด medulla → หยุดหายใจ)"
+   "Uncal herniation: CN III ข้างเดียวกัน + อ่อนแรงซีกตรงข้าม",
+   "Kernohan notch: peduncle ฝั่งตรงข้ามถูกกด → อ่อนแรงข้างเดียวกัน (false localizing)",
+   "ข้างรูม่านตาขยาย บอกข้างก้อนได้แม่นกว่า",
+   "Monro-Kellie: สมอง + เลือด + CSF = คงที่",
+   "Cushing triad: HT + bradycardia + หายใจผิดปกติ",
+   "Duret hemorrhage: เลือดออกก้านสมองหลัง herniation"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ · ต้นฉบับมี 2 ช้อย จึงเติม C, D, E",
+  "mnemonic": "<b>'Kernohan = อ่อนแรงผิดข้าง (ข้างเดียวกับก้อน) → เชื่อรูม่านตา'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Herniation syndromes",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยรอดจาก uncal herniation แต่ตามองไม่เห็นครึ่งซีก (homonymous hemianopia) → PCA ถูกกดที่ขอบ tentorium จน occipital lobe ขาดเลือด",
-   "<b>นอกสไลด์:</b> ผู้ป่วย uncal herniation จาก EDH ระหว่างรอเข้าห้องผ่าตัด → ให้ mannitol หรือ hypertonic saline และ hyperventilation ชั่วคราว"
+   "EDH ขวา รูม่านตาขวาขยาย อ่อนแรงซีกซ้าย → uncal herniation ทั่วไป",
+   "EDH ขวา รูม่านตาขวาขยาย อ่อนแรงซีกขวา → Kernohan notch (ก้อนยังอยู่ขวา)",
+   "ผู้ป่วยความดันสูง ชีพจรช้า หายใจไม่สม่ำเสมอหลังบาดเจ็บศีรษะ → Cushing reflex"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 54–55 — ตัวพิมพ์: <b>8. ผู้ป่วยโดนตีหัวที่ด้านซ้าย สลบไป 5 นาที หลังจากนั้นตื่นมาถูกนำส่งโรงพยาบาลใน 2 ชั่วโมงถัดมา ผลการตรวจร่างกาย Glasgow coma score xxx puffy scalp at left frontotemporal region , left decerebrate , Right pupil 5 cm NRTL, left pupil 5 cm NRTL จงให้การวินิจฉัยผู้ป่วยราย&#8203;นี้ — A. Kernohan's phenomenon B. Monro Kellie phenomenon</b><br>ลายมือ: \"ซ้ำ\" หน้าข้อ (แดง) · \"ipsilat. weakness\" เหนือ left decerebrate · ขีด A<br>ไฮไลต์: \"left decerebrate\" \"left pupil 5 cm NRTL\" \"วินิจฉัย\" · A (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ตำแหน่งเลือดออกในสมอง (แผนภูมิวงกลม Lobar, Basal Ganglia, Thalamus, Brainstem, Cerebellum — Ruiz PC, et al. Neurol Clin 2008) พร้อมภาพพยาธิ<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 45: ขีด A (ตรงกัน)<br>ที่ปรับในเว็บ: เรียบเรียงเป็นคำถามคำอธิบายอาการอ่อนแรงข้างเดียวกัน · ต้นฉบับมี 2 ช้อย → เติม C, D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 54",
+  "kimg": [
+   "fsk_p54",
+   "kp69c_8",
+   "kp69c_8b",
+   "k2p_45"
   ]
  },
  "MDCU69|RoC|9": {
-  "interp": "หญิง 71 ปี หมดสติทันที ความดัน 200/120 GCS E1M4V2 ให้ CT · ถามชนิดเลือดออก",
-  "why": "<b>คีย์: ไม่มีเฉลยในไฟล์ (ลายมือเขียน HTN และ lobar ใกล้ช้อย D ไม่ชัด)</b><br><b>นอกสไลด์:</b> ผู้สูงอายุความดันสูงมาก หมดสติทันที = hypertensive ICH ซึ่งตำแหน่งที่พบบ่อยที่สุดคือ putamen/basal ganglia จาก lenticulostriate artery เสื่อม · ก้อนข้างโพรงสมองมักแตกเข้า ventricle ร่วมทำให้ซึมมาก",
+  "interp": "หญิง 71 ปี <b>หมดสติทันที BP 200/120</b> GCS E1M4V2 ภาพ CT แสดงเลือดออก → ถามชนิดของเลือดออก",
+  "why": "ผู้สูงอายุ<b>ความดันสูงมาก</b> + หมดสติทันที = <b>hypertensive intracerebral hemorrhage</b> · ตำแหน่งที่พบบ่อยที่สุดคือ <b>basal ganglia (putamen)</b> จาก lipohyalinosis ของ lenticulostriate arteries และก้อนใหญ่มัก<b>แตกเข้าโพรงสมอง (IVH)</b> ซึ่งทำให้ระดับความรู้สึกตัวแย่มากและพยากรณ์แย่ (ICH score สูง) · SAH ไม่ใช่ลักษณะของ hypertensive ICH · ไฟล์<b>ไม่มีคีย์</b> มีลายมือ <b>\"HTN\"</b> เหนือ BP และใกล้ช้อย D เขียน \"M/C : lobar\" กับ \"2nd\" พร้อมแปะตารางลักษณะเลือดออกแต่ละตำแหน่ง",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้า aneurysm ที่ anterior communicating artery แตก เลือดอยู่ใน basal cisterns และทะลักเข้า ventricle โดยไม่มีก้อนในเนื้อสมอง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้า aneurysm ของ middle cerebral artery แตก ทำให้ก้อนเลือดใน temporal lobe ร่วม SAH ใน Sylvian fissure",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดออกที่ putamen ขนาดใหญ่ลามออกด้านข้างเข้า temporal lobe โดยไม่แตกเข้า ventricle",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้สูงอายุกินยาต้านการแข็งตัวของเลือด หกล้ม CT เห็นเลือดรูปพระจันทร์เสี้ยวตามผิวสมอง"
+   "A": "IVH + SAH มักจาก aneurysm แตก (เช่น AComA) ไม่ใช่ hypertensive · จะถูกถ้าผู้ป่วยปวดหัวรุนแรงทันที คอแข็ง CT เลือดใน basal cisterns และโพรงสมอง",
+   "B": "Temporal + SAH เข้ากับ MCA aneurysm แตก (temporal hematoma + SAH) · จะถูกถ้าผู้ป่วยปวดหัวทันที CT เลือดใน sylvian fissure + temporal lobe",
+   "D": "Temporal lobar + basal ganglia พร้อมกันพบน้อย lobar มักจาก amyloid angiopathy (ไม่ใช่ความดันสูง) · จะถูกถ้าผู้สูงอายุไม่มีความดันสูง เลือดออก lobar ซ้ำ",
+   "E": "SDH เกิดจากบาดเจ็บ (bridging veins) ไม่ใช่ความดันสูง · จะถูกถ้าผู้สูงอายุล้มศีรษะกระแทก CT ก้อนเลือดรูปจันทร์เสี้ยว"
   },
-  "trap": "เห็นเลือดใน ventricle แล้วตอบ SAH หรือ IVH — ให้หาก้อนต้นเหตุในเนื้อสมองก่อน ก้อนที่ basal ganglia หรือ thalamus ข้างโพรงสมองแตกเข้า ventricle ได้",
+  "trap": "เห็นหมดสติทันทีแล้วนึกถึง SAH — ผู้สูงอายุความดันสูงมาก = hypertensive ICH ที่ basal ganglia ± IVH · ไฟล์ไม่มีคีย์",
   "summary": [
-   "<b>นอกสไลด์:</b> ICH จากความดันสูง: putamen มากที่สุด รองลงมา thalamus, pons, cerebellum · lobar ในผู้สูงอายุนึกถึง cerebral amyloid angiopathy · ดูแล: ลด SBP ราว 140 mmHg แก้การแข็งตัวของเลือด EVD เมื่อ hydrocephalus"
+   "Hypertensive ICH: putamen > thalamus > pons > cerebellum",
+   "Lenticulostriate arteries (lipohyalinosis, Charcot-Bouchard)",
+   "IVH ร่วม → พยากรณ์แย่ · hydrocephalus → EVD",
+   "ICH score: GCS · volume ≥ 30 mL · IVH · infratentorial · อายุ ≥ 80",
+   "คุม SBP ~140 mmHg",
+   "Lobar ในผู้สูงอายุ → amyloid angiopathy"
   ],
-  "opinion": "ไม่มีคีย์ในไฟล์ — ตอบ C ตามหลัก · ไม่มีรูปในไฟล์ · มั่นใจปานกลาง",
+  "opinion": "ตอบ C ความมั่นใจปานกลาง — ไฟล์ไม่มีคีย์และไม่มีภาพ (ลายมือใกล้ช้อย D เขียนว่า lobar พบบ่อยสุด แต่ไม่ได้ขีดคำตอบ) จากบริบทผู้สูงอายุความดันสูงมากและ GCS ต่ำมาก basal ganglia hemorrhage แตกเข้าโพรงสมองเข้ากันที่สุด",
+  "mnemonic": "<b>'คนแก่ความดันสูง + หมดสติทันที = Putamen แตกเข้าโพรงสมอง'</b>",
+  "guide": "2022 AHA/ASA Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage (Stroke 2022;53:e282)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยความดันสูงโคม่าทันที pupil เล็กจุดสองข้าง แขนขาอ่อนแรงทั้งสี่ → pontine hemorrhage",
-   "<b>นอกสไลด์:</b> ICH ที่ thalamus แตกเข้า third ventricle ซึมลง CT โพรงสมองโต → EVD"
+   "ผู้ป่วยความดันสูง อ่อนแรงซีกขวา ตาเหลือบซ้าย → left putaminal hemorrhage",
+   "ICH + IVH + hydrocephalus ซึมลง → EVD",
+   "ผู้สูงอายุไม่มีความดันสูง เลือดออก lobar ซ้ำ → amyloid angiopathy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 55 — ตัวพิมพ์: <b>9. ผู้ป่วยหญิงอายุ 71 ปี หมดสติทันที ตรวจร่างกายเบื้องต้น : BP 200/120 mmHg E1M4V2 ให้ภาพมา ถามว่าเป็น bleeding แบบใด — A. Intraventricular + Subarachnoid hemorrhage B. Temporal + Subarachnoid hemorrhage C. Basal + Intraventricular hemorrhage D. Temporal + Basal ganglion hemorrhage</b><br>ลายมือ: \"HTN\" เหนือ BP 200/120 · ใกล้ช้อย D \"M/C : lobar\" และ \"2nd\" · ไม่มีขีดคำตอบ<br>ไฮไลต์: \"หญิงอายุ 71 ปี หมดสติทันที\" \"BP 200/120\" \"E1M4V2\" \"ให้ภาพ\" \"bleeding แบบใด\" (เหลือง)<br>รูปที่แปะ: ตารางเลือดออกในเนื้อสมองแต่ละตำแหน่ง (caudate, putamen small/ large, thalamus, occipital lobar, pons, cerebellum — pathology/ CT scan/ pupils/ eye movements/ motor and sensory deficits/ other)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 46: ไม่มีขีด<br>ที่ปรับในเว็บ: ไม่มีภาพและคีย์ → เว็บตอบ C · เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 55",
+  "kimg": [
+   "fsk_p55",
+   "kp69c_9",
+   "k2p_46"
   ]
  },
  "MDCU69|RoC|10": {
-  "interp": "ผู้ป่วยข้อก่อน (ICH ที่ basal ganglia + IVH) เสียชีวิต 2 ชม.ต่อมา · ถามสาเหตุการตาย",
-  "why": "<b>คีย์: C (มีเครื่องหมาย ? ที่ C)</b><br><b>นอกสไลด์:</b> ก้อนเลือดใหญ่ร่วมสมองบวมดันเนื้อสมองลงเรื่อย ๆ จนสุดท้าย cerebellar tonsil ถูกดันลงผ่าน foramen magnum กด medulla ซึ่งคุมการหายใจและหัวใจ → หยุดหายใจ หัวใจหยุดเต้น",
+  "interp": "ผู้ป่วยข้อ 9 (ICH ขนาดใหญ่ + IVH) <b>เสียชีวิต 2 ชั่วโมงต่อมา</b> → ถามสาเหตุการตาย",
+  "why": "ก้อนเลือดใหญ่ + IVH/ hydrocephalus → ICP สูงขึ้นเร็ว → สมองเคลื่อนลงจนในที่สุด <b>cerebellar tonsils ถูกดันผ่าน foramen magnum (tonsillar herniation)</b> กด <b>medulla</b> ซึ่งมีศูนย์ควบคุมการหายใจและหัวใจ → <b>หยุดหายใจ/ หัวใจหยุดเต้นทันที</b> จึงเป็น<b>กลไกสุดท้ายของการเสียชีวิต</b> · herniation ชนิดอื่น (subfalcine, uncal, central) เกิดก่อนและทำให้ซึมลง/ CN III/ อ่อนแรง แต่การตายเฉียบพลันเกิดเมื่อก้านสมองส่วนล่างถูกกด · ไฟล์ใส่เครื่องหมาย <b>\"?\"</b> ที่ช้อย C (ไม่แน่ใจ) และแปะภาพชนิดของ brain herniation",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ subfalcine herniation เป็นสาเหตุการตายโดยตรง เพราะ cingulate gyrus เลื่อนลอดใต้ falx กดแค่ ACA ไม่ได้กดก้านสมอง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนเลือดด้านข้างใน temporal lobe หรือ EDH ใหญ่ ที่ดัน uncus ลงกด midbrain จน pupil ขยายและโคม่าลึกก่อนเสียชีวิต",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าสมองบวมทั่วทั้งสองซีกจากการบาดเจ็บ ดัน diencephalon และก้านสมองลงตรง ๆ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนใน posterior fossa ที่ระบาย CSF เหนือ tentorium เร็วเกินไป ก้านสมองและ vermis ถูกดันขึ้น"
+   "A": "Subfalcine (cingulate) herniation ใต้ falx กด anterior cerebral artery → ขาอ่อนแรง พบบ่อยแต่ไม่ทำให้ตายเฉียบพลันโดยตรง · จะถูกถ้าคำถามถาม herniation ที่พบบ่อยที่สุดและทำให้ ACA infarction",
+   "B": "Uncal herniation ทำให้ CN III เสีย + อ่อนแรงซีกตรงข้าม เป็นสัญญาณเตือน ยังแก้ไขได้ถ้าผ่าตัดเร็ว · จะถูกถ้าคำถามถามสาเหตุของรูม่านตาข้างเดียวขยายในผู้ป่วย EDH",
+   "D": "Central herniation diencephalon เคลื่อนลง รูม่านตาเล็ก Cheyne-Stokes ดำเนินต่อไปสู่ tonsillar · จะถูกถ้าคำถามถาม herniation จากก้อนกลาง/ สมองบวมทั้งสองข้าง",
+   "E": "Upward herniation เกิดจากก้อนใน posterior fossa ดันสมองน้อยขึ้น (หรือระบาย CSF เร็วเกินในก้อน posterior fossa) · จะถูกถ้าผู้ป่วยมีก้อนสมองน้อยใหญ่ แล้วใส่ EVD ระบายเร็วแล้วทรุดลง"
   },
-  "trap": "ข้อนี้ถามเหตุการณ์สุดท้ายที่ทำให้ตาย — ก้อนเหนือ tentorium ทำ subfalcine/uncal/central ก่อน แต่สุดท้ายก้านสมองและ tonsil ถูกดันลงจนหยุดหายใจ",
+  "trap": "ตอบ uncal herniation เพราะพบบ่อย — การตายเฉียบพลันเกิดจาก tonsil กด medulla (ศูนย์หายใจ)",
   "summary": [
-   "<b>นอกสไลด์:</b> สัญญาณ tonsillar herniation: คอแข็งหรือศีรษะเอียง หายใจผิดจังหวะจนหยุด ความดันสูงร่วมชีพจรช้า · ห้ามเจาะหลังเมื่อมีก้อนใน posterior fossa หรือ ICP สูง"
+   "Subfalcine: ใต้ falx → ACA → ขาอ่อนแรง",
+   "Uncal: CN III + PCA + อ่อนแรงซีกตรงข้าม",
+   "Central: diencephalon ลง → รูม่านตาเล็ก → Duret hemorrhage",
+   "Tonsillar: foramen magnum → medulla → หยุดหายใจ (ตาย)",
+   "Upward: ก้อน posterior fossa ดันขึ้น",
+   "ห้ามเจาะหลังเมื่อมี mass effect"
   ],
-  "opinion": "ตามคีย์ C (ผู้จดใส่ ?) · มั่นใจปานกลาง — uncal/central herniation ก็เกิดก่อนได้ แต่เหตุการณ์สุดท้ายคือ tonsil กด medulla",
+  "opinion": "ตอบ C ความมั่นใจปานกลาง — ตรงกับช้อยที่ผู้จดใส่ \"?\" ไว้ (ไม่มีขีดคำตอบ และไฟล์ Key 1 ไม่ได้ขีด) tonsillar herniation เป็นกลไกสุดท้ายที่ทำให้ตายเฉียบพลันจากการกดศูนย์หายใจใน medulla",
+  "mnemonic": "<b>'Tonsil ลงรู (foramen magnum) = กด medulla = หยุดหายใจ'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Herniation syndromes; Adams and Victor's Principles of Neurology 12th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยมีก้อนใน cerebellum ทำ LP แล้วหยุดหายใจทันที → tonsillar herniation",
-   "<b>นอกสไลด์:</b> ICH score: GCS 7 (1 คะแนน) ก้อน 40 mL (1) มี IVH (1) supratentorial (0) อายุ 71 (0) → 3 คะแนน (อัตราตาย 30 วันราว 70%)"
+   "EDH รูม่านตาข้างเดียวขยาย → uncal herniation → ผ่าตัดด่วน",
+   "เจาะหลังในผู้ป่วยก้อนในสมอง แล้วหยุดหายใจ → tonsillar herniation",
+   "ก้อนสมองน้อยใหญ่ ใส่ EVD ระบายเร็ว แล้วทรุด → upward herniation"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 55 — ตัวพิมพ์: <b>10. จากข้อ 9 ผู้ป่วยเสียชีวิต 2 ชมต่อมา ข้อใดเป็นสาเหตุของการเสียชีวิตในผู้ป่วยราย&#8203;นี้ — A. Subfalcine herniation B. Uncal herniation C. Tonsillar herniation D. Central herniation E. Upward herniation</b><br>ลายมือ: \"?\" ที่ช้อย C (แดง) · ไม่มีขีด<br>ไฮไลต์: \"เสียชีวิต 2 ชมต่อมา\" \"สาเหตุของการเสียชีวิต\" (เหลือง)<br>รูปที่แปะ: ภาพชนิดของ brain herniation (cingulate/ subfalcine, central/ transtentorial, transcalvarial, uncal, upward/ cerebellar/ transtentorial, downward cerebellar/ tonsillar)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 46: ไม่มีขีด",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 55",
+  "kimg": [
+   "fsk_p55",
+   "kp69c_10",
+   "k2p_46"
   ]
  },
  "MDCU69|RoC|11": {
-  "interp": "ถามเครื่องมือที่ใช้เอาก้อนเลือดออกจากเนื้อสมองในห้องผ่าตัด (ตามสไลด์เรื่อง minimally invasive)",
-  "why": "<b>คีย์: ขีด D · ลายมือ aspiration · สไลด์ surgical treatment: endoscopic aspiration</b><br><b>นอกสไลด์:</b> การผ่าตัดแบบรุกล้ำน้อยใช้กล้อง endoscope สอดผ่านรูเจาะกะโหลกเล็ก ๆ เข้าไปในก้อน แล้วดูดก้อนเลือดออกภายใต้การมองเห็น แหวกเนื้อสมองน้อยกว่า craniotomy",
+  "interp": "จากการสังเกตใน<b>ห้องผ่าตัดศัลยกรรมประสาท</b> แพทย์ใช้เครื่องมือ/ วิธีใดนำก้อนเลือดออกจากสมอง (ต่อจากผู้ป่วย ICH)",
+  "why": "การผ่าตัด spontaneous ICH ปัจจุบันนิยม <b>minimally invasive surgery</b> โดยเฉพาะ <b>endoscopic aspiration</b> (ใส่กล้อง endoscope ผ่านรูเล็กที่กะโหลกเข้าไปในก้อน แล้วดูดเลือดออกภายใต้การมองเห็น) ซึ่งบาดเจ็บเนื้อสมองน้อยกว่า craniotomy · ทางเลือกอื่น: stereotactic aspiration + thrombolysis (MISTIE), craniotomy (ก้อน lobar ใกล้ผิว/ สมองน้อย) · ไฟล์ MCQ Key 2 ขีด D ลายมือ <b>\"aspiration\"</b> และแปะภาพถ่ายสไลด์ <b>\"Surgical Treatment · Minimal Invasive Surgery · Endoscopic aspiration · Stereotactic surgery with thrombolysis\"</b> พร้อมภาพผ่านกล้อง แต่ไฟล์ Key 1 ขีด <b>B (Suction)</b> (คีย์ 2 ไฟล์ไม่ตรงกัน)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ curette ใช้เอาก้อนเลือดออกจากเนื้อสมอง เพราะเป็นเครื่องมือขูดเนื้อแข็ง จะทำลายเนื้อสมองรอบก้อน",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นการผ่าตัดเปิดกะโหลก (craniotomy) — ใช้ suction ร่วมฉีดน้ำล้างดูดก้อนเลือดออกโดยตรง",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ spatula ใช้เอาก้อนเลือดออก เพราะใช้แหวกหรือกันเนื้อสมองให้เห็นทาง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ dissector ใช้เอาก้อนเลือดออก เพราะใช้เลาะแยกเนื้อเยื่อ เช่นแยก dura ออกจากกระดูก"
+   "A": "Curette ใช้ขูดเนื้อเยื่อ/ กระดูก ไม่ใช่เครื่องมือเอาก้อนเลือดในสมอง · จะถูกถ้าคำถามถามเครื่องมือขูดเนื้องอกต่อมใต้สมองใน transsphenoidal surgery",
+   "B": "Suction ใช้ดูดเลือดในการผ่าตัดทุกชนิด (รวมถึงดูดผ่านกล้อง) แต่คำถามถามวิธีที่สังเกตได้ในห้องผ่าตัดนี้ซึ่งเป็น endoscopic aspiration (คีย์ไฟล์ Key 1 ตอบข้อนี้) · จะถูกถ้าคำถามถามเครื่องมือหลักในการเอาก้อนเลือดออกระหว่าง craniotomy แบบเปิด",
+   "C": "Spatula (brain retractor/ spatula) ใช้แหวกเนื้อสมอง ไม่ได้เอาก้อนเลือดออก · จะถูกถ้าคำถามถามเครื่องมือที่ใช้กันเนื้อสมองระหว่างเข้าถึงรอยโรคลึก",
+   "E": "Dissector ใช้เลาะแยกเนื้อเยื่อ · จะถูกถ้าคำถามถามเครื่องมือเลาะ aneurysm neck ก่อน clip"
   },
-  "trap": "เห็นคำว่าเอาก้อนเลือดออกแล้วตอบ suction ตามการผ่าตัดเปิด — โจทย์นี้อิงสไลด์การผ่าตัดแบบรุกล้ำน้อย (endoscopic aspiration)",
+  "trap": "ตอบ suction เพราะเป็นเครื่องมือดูดเลือดทั่วไป — คำถามอ้างถึงวิธีที่เห็นในห้องผ่าตัด (endoscopic aspiration) · คีย์ 2 ไฟล์ไม่ตรงกัน",
   "summary": [
-   "<b>นอกสไลด์:</b> เทคนิค: craniotomy เปิดกะโหลก ดูดก้อนด้วย suction + น้ำล้าง เห็นและห้ามเลือดได้กว้าง (ก้อนใหญ่ มี herniation) · แบบรุกล้ำน้อย: สอดกล้อง endoscope ผ่านรูเจาะ ดูดก้อนภายใต้การมองเห็น",
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้เอาก้อน supratentorial ICH ออก: อาการแย่ลงจากก้อนกด → ผ่าตัดช่วยชีวิต · การผ่าตัดแบบรุกล้ำน้อยมีหลักฐานใหม่ว่าช่วยผลการรักษาในบางกลุ่ม (เช่นก้อน lobar ขนาดปานกลาง ทำเร็ว) · cerebellar ICH ≥ 15 mL ร่วมอาการแย่ กดก้านสมอง หรือ hydrocephalus → ผ่าตัด"
+   "ICH ผ่าตัด: craniotomy · endoscopic evacuation · stereotactic aspiration ± thrombolysis",
+   "MIS (endoscopic) บาดเจ็บเนื้อสมองน้อยกว่า",
+   "ข้อบ่งชี้ชัด: cerebellar ICH &gt; 3 cm/ กดก้านสมอง/ hydrocephalus",
+   "Lobar ใกล้ผิว (&lt; 1 cm) ซึมลง → พิจารณาผ่าตัด",
+   "ENRICH trial: MIS ใน lobar ICH ผลดีขึ้น",
+   "IVH + hydrocephalus → EVD ± intraventricular tPA"
   ],
-  "opinion": "ตามคีย์ชุดแรก D · มั่นใจปานกลาง — คีย์ไฟล์ 01.2 ตอบ B (suction) ซึ่งเป็นเครื่องมือหลักในการผ่าตัดเปิด",
+  "opinion": "ตอบ D ความมั่นใจปานกลาง — ตรงกับคีย์ไฟล์ MCQ Key 2 และสไลด์ที่แปะ (endoscopic aspiration) ส่วนไฟล์ Key 1 ตอบ B suction (คีย์ 2 ไฟล์ไม่ตรง) ซึ่งในทางปฏิบัติก็ใช้ดูดเลือดผ่านกล้องร่วมกัน",
+  "mnemonic": "<b>'ICH ยุคใหม่ = ส่องกล้องดูด (endoscopic aspiration) ผ่านรูเล็ก'</b>",
+  "guide": "2022 AHA/ASA Guideline for Spontaneous ICH (Stroke 2022;53:e282); ENRICH Trial (N Engl J Med 2024;390:1277)",
   "variants": [
-   "<b>นอกสไลด์:</b> ICH ใหญ่ midline shift มาก pupil ขยาย → craniotomy เอาก้อนออก ± เปิดกะโหลกลดความดัน",
-   "<b>นอกสไลด์:</b> ICH ร่วม IVH อุดตันจน hydrocephalus → EVD (± ยาละลายลิ่มเลือดทางสาย)"
+   "ICH lobar 40 mL ซึมลง → minimally invasive evacuation",
+   "ICH สมองน้อย 4 cm กดก้านสมอง → suboccipital craniectomy",
+   "IVH + hydrocephalus → EVD"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 55 — ตัวพิมพ์: <b>11. จากการสังเกตในห้องผ่าตัดศัลย์ประสาท แพทย์ใช้วิธีใดในการนำเลือดออกจากสมอง — A. Currette B. Suction C. Spatula D. Endoscope E. Dissector</b><br>ลายมือ: ขีด D + \"aspiration\"<br>ไฮไลต์: \"สังเกตในห้องผ่าตัดศัลย์ประสาท แพทย์ใช้วิธีใดในการนำเลือดออกจากสมอง\" · D (เหลือง)<br>รูปที่แปะ: ภาพถ่ายสไลด์ Surgical Treatment — 2. Minimal Invasive Surgery · Endoscopic aspiration · Stereotactic surgery with thrombolysis (พร้อมภาพการผ่าตัดและภาพผ่านกล้องเห็นก้อนเลือด)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 46: ขีด B (⚠ คีย์ 2 ไฟล์ไม่ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 55",
+  "kimg": [
+   "fsk_p55",
+   "kp69c_11",
+   "k2p_46"
   ]
  },
  "MDCU69|RoC|12": {
-  "interp": "ชายมี LUTS (IPSS 25) คลำได้ก้อนแข็งที่ต่อมลูกหมาก PSA 8 ng/mL · ถามขั้นต่อไป",
-  "why": "<b>คีย์: ผู้จดเขียน E = TRUS + Bx</b><br><b>นอกสไลด์:</b> DRE ที่คลำได้ก้อนเป็นข้อบ่งชี้ตรวจหามะเร็งไม่ว่า PSA เท่าใด ร่วมกับ PSA สูง → ตัดชิ้นเนื้อต่อมลูกหมาก (ปัจจุบันทำ MRI ก่อนเพื่อเจาะตรงจุด)",
+  "interp": "ชายมี LUTS (IPSS 25) <b>DRE คลำได้ก้อน</b> และ <b>PSA 8 ng/mL</b> → ถามขั้นต่อไป",
+  "why": "<b>DRE ผิดปกติ (ก้อน/ แข็ง)</b> หรือ <b>PSA สูง</b> = สงสัย <b>มะเร็งต่อมลูกหมาก</b> → ต้อง<b>ตัดชิ้นเนื้อต่อมลูกหมาก</b> (TRUS-guided หรือ transperineal biopsy) · ปัจจุบันแนะนำ <b>mpMRI ก่อน biopsy</b> เพื่อทำ targeted biopsy (เมื่อเข้าถึงได้) แต่ DRE ผิดปกติชัดเป็นข้อบ่งชี้ biopsy อยู่แล้ว · ยังไม่ควร TURP เพื่อรักษา LUTS ก่อนตัดมะเร็งออก · ไฟล์ช้อย E ว่าง ผู้จดเขียนลายมือ <b>\"TRUS + Bx\"</b> และขีด E",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้ายืนยันมะเร็งต่อมลูกหมากความเสี่ยงสูงแล้ว (เช่น PSA &gt; 20 หรือ Gleason ≥ 8) และต้องการ staging ต่อมน้ำเหลือง",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้า LUTS จาก BPH รุนแรงที่ยาไม่ได้ผล โดย DRE ไม่มีก้อนแข็งและ PSA เข้ากับขนาดต่อม หรือปัสสาวะคั่งซ้ำ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า cystoscopy พบก้อนในกระเพาะปัสสาวะ — ตัดก้อนเพื่อวินิจฉัยและจัดระยะ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าชายสูงอายุปัสสาวะเป็นเลือดไม่เจ็บ ต้องหามะเร็งกระเพาะปัสสาวะ"
+   "A": "Pelvic CT ใช้ staging หลังวินิจฉัยมะเร็งความเสี่ยงสูงแล้ว (ต้นฉบับเขียน MRI ดู prostate ซึ่งใช้ก่อน biopsy เพื่อหาเป้า) · จะถูกถ้ายืนยันมะเร็งต่อมลูกหมาก Gleason 9 PSA 40 ต้อง staging",
+   "B": "TURP รักษา BPH ไม่ใช่ขั้นแรกเมื่อสงสัยมะเร็ง · จะถูกถ้า biopsy ปกติ ผู้ป่วย retention ซ้ำจาก BPH",
+   "C": "TURBT ใช้กับก้อนในกระเพาะปัสสาวะ · จะถูกถ้า cystoscopy พบก้อนในกระเพาะปัสสาวะในผู้ป่วย hematuria",
+   "D": "Cystoscopy ไม่ช่วยวินิจฉัยมะเร็งต่อมลูกหมาก · จะถูกถ้าผู้ป่วยปัสสาวะเป็นเลือดเห็นด้วยตา สูบบุหรี่"
   },
-  "trap": "LUTS ไม่ได้มาจากมะเร็งต่อมลูกหมากระยะต้น (มะเร็งมักเกิดที่ peripheral zone ไม่กดท่อปัสสาวะ) — แต่ก้อนแข็งจาก DRE ต้องหามะเร็งก่อนคิดผ่าตัด BPH",
+  "trap": "รักษา LUTS ด้วย TURP เลย — DRE มีก้อน + PSA สูง ต้องตัดมะเร็งออกก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ตัดชิ้นเนื้อ: DRE ผิดปกติ หรือ PSA สูง (ตรวจซ้ำแล้วยังสูง แยก UTI ออก) · MRI ก่อน biopsy (EAU แนะนำหนักแน่น) แล้วเจาะตรงรอยโรค PI-RADS ≥ 3 ร่วมเจาะแบบระบบ · เจาะผ่านฝีเย็บติดเชื้อน้อยกว่าผ่านทวารหนัก"
+   "PSA สูง/ DRE ผิดปกติ → prostate biopsy",
+   "mpMRI ก่อน biopsy (PI-RADS) → targeted ± systematic biopsy",
+   "Transperineal biopsy ลดการติดเชื้อ",
+   "Gleason/ ISUP grade group + PSA + T stage → risk group",
+   "Staging ความเสี่ยงสูง: bone scan/ PSMA PET, CT/ MRI",
+   "PSA ปกติ 0–4 ng/mL (ขึ้นกับอายุ/ ขนาดต่อม)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับลายมือ \"TRUS + Bx\" ในไฟล์ MCQ Key 2 (ไฟล์ Key 1 ไม่ได้ขีด) · ต้นฉบับช้อย A เป็น MRI ซึ่งปัจจุบันใช้ก่อน biopsy เว็บจึงเปลี่ยนเป็น pelvic CT",
+  "mnemonic": "<b>'ต่อมลูกหมากมีก้อน/ PSA สูง = Biopsy ก่อนทำอะไร'</b>",
+  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer 2024; NCCN Prostate Cancer Early Detection v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 60 ปี PSA 5.5 DRE ปกติ ไม่มี UTI → ตรวจ PSA ซ้ำ ถ้ายังสูงทำ MRI ก่อนตัดสินเจาะ",
-   "<b>นอกสไลด์:</b> MRI PI-RADS 2 และ PSA density ต่ำ → เฝ้าติดตาม PSA แทนการเจาะได้"
+   "ชาย 65 ปี PSA 6 DRE ปกติ → mpMRI → PI-RADS 4 → targeted biopsy",
+   "biopsy พบ Gleason 9 PSA 50 → PSMA PET/ bone scan staging",
+   "ชายกิน finasteride PSA 3 → แปลผลเป็น ~6"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 55 — ตัวพิมพ์: <b>12. ผู้ป่วยมีอาการของ LUTS (IPSS = 25) ทำ DRE พบก้อน PSA = 8 (normal 0-4) ควรทำอย่างไรต่อไป — A. MRI ดู prostate B. TURP C. TUR-BT D. ส่องกล้อง E.</b> (หัวข้อ URO)<br>ลายมือ: ช้อย E เขียน \"TRUS + Bx\" + ขีด E<br>ไฮไลต์: \"DRE พบก้อน PSA = 8\" · E (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 46: ไม่มีขีด<br>ที่ปรับในเว็บ: A MRI → pelvic CT · E = prostate biopsy",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 55",
+  "kimg": [
+   "fsk_p55",
+   "kp69c_12",
+   "k2p_46"
   ]
  },
  "MDCU69|RoC|13": {
-  "interp": "ชายไทย 70 ปี ต่อมลูกหมากแข็ง PSA 80 ชิ้นเนื้อเป็นมะเร็ง bone scan มีแพร่กระจายไปกระดูก · ถามการรักษา",
-  "why": "<b>คีย์: ขีด E · ลายมือ A, C, D = localized CA · สไลด์ advanced cancer: hormonal therapy</b><br><b>นอกสไลด์:</b> มะเร็งต่อมลูกหมากที่แพร่กระจายพึ่ง androgen → รักษาทั้งตัวด้วย androgen deprivation (ผ่าตัดอัณฑะ หรือ LHRH agonist/antagonist) ร่วมยา ARPI (abiraterone, enzalutamide, apalutamide) ± docetaxel",
+  "interp": "ชาย 70 ปี LUTS <b>ต่อมลูกหมากแข็ง PSA 80</b> biopsy เป็นมะเร็ง <b>bone scan พบกระจายไปกระดูก</b> → ถามการรักษา",
+  "why": "มะเร็งต่อมลูกหมาก<b>ระยะกระจาย (metastatic)</b> → การรักษาหลักคือ <b>androgen deprivation therapy (hormonal therapy)</b>: bilateral orchiectomy หรือ LHRH agonist/ antagonist ± antiandrogen · ปัจจุบันให้<b>ร่วมกับ</b> androgen receptor pathway inhibitor (abiraterone, enzalutamide, apalutamide) และ/ หรือ docetaxel (intensification) · รังสีที่กระดูกเพื่อบรรเทาปวด · การผ่าตัด radical prostatectomy, external beam RT, brachytherapy ใช้กับ <b>localized disease</b> · ไฟล์ขีด E ลายมือ A, C, D <b>\"ใน localized CA\"</b> และแปะสไลด์ <b>\"Advanced cancer · Hormonal therapy: Orchiectomy, LH-RH analogue, Antiandrogen e.g. flutamide, bicalutamide, Diethyl-stilbestrol, Ketoconazole\"</b>",
   "wrong": {
-   "A": "จะถูกถ้าเป็นมะเร็งเฉพาะที่ความเสี่ยงปานกลางถึงสูง ผู้ป่วยคาดอายุเกิน 10 ปี",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ MVAC ใช้รักษามะเร็งต่อมลูกหมาก เพราะเป็นสูตรของ urothelial carcinoma — เคมีที่ใช้ในต่อมลูกหมากคือ docetaxel ร่วมกับ ADT",
-   "C": "จะถูกถ้าเป็นมะเร็งเฉพาะที่ที่เลือกฉายรังสีแทนผ่าตัด (ร่วม ADT ระยะหนึ่งในกลุ่มเสี่ยงสูง)",
-   "D": "จะถูกถ้าเป็นมะเร็งเฉพาะที่ความเสี่ยงต่ำถึงปานกลาง ต่อมไม่ใหญ่ อาการปัสสาวะน้อย"
+   "A": "Radical prostatectomy ใช้กับ localized (ลายมือ \"ใน localized CA\") · จะถูกถ้าชาย 60 ปี Gleason 7 PSA 8 ไม่มีการกระจาย อายุคาดหมาย &gt; 10 ปี",
+   "B": "MVAC เป็นเคมีบำบัดของมะเร็งกระเพาะปัสสาวะ ไม่ใช่ต่อมลูกหมาก (ใช้ docetaxel) · จะถูกถ้าคำถามถาม neoadjuvant chemo ก่อน radical cystectomy ใน MIBC",
+   "C": "External beam RT รักษา localized/ locally advanced (ลายมือ \"ใน localized CA\") และใช้บรรเทาปวดกระดูก · จะถูกถ้าชาย 75 ปี มะเร็งต่อมลูกหมาก localized ความเสี่ยงสูง (RT + ADT)",
+   "D": "Brachytherapy ใช้กับ localized ความเสี่ยงต่ำ-ปานกลาง (ลายมือ \"ใน localized CA\") · จะถูกถ้ามะเร็ง localized Gleason 6 ต่อมเล็ก"
   },
-  "trap": "เริ่ม LHRH agonist แล้ว testosterone พุ่งขึ้นช่วงแรก (flare) ปวดกระดูกมากขึ้นหรือกดไขสันหลังได้ — ผู้ป่วยที่มีกระดูกสันหลังแพร่กระจายต้องให้ antiandrogen นำก่อน หรือใช้ antagonist หรือผ่าตัดอัณฑะ",
+  "trap": "เลือกการรักษาเฉพาะที่ — กระจายไปกระดูกแล้ว ต้องรักษาทั้งระบบด้วยฮอร์โมน",
   "summary": [
-   "<b>นอกสไลด์:</b> metastatic hormone-sensitive: ADT + ARPI ± docetaxel (ไม่ใช่ ADT เดี่ยว) · ติดตาม PSA และ testosterone · PSA สูงขึ้นทั้งที่ testosterone อยู่ระดับ castrate = castration-resistant · ดูแลกระดูก (แคลเซียม วิตามินดี และยาป้องกันกระดูกหักเมื่อดื้อฮอร์โมน)"
+   "Localized: active surveillance · radical prostatectomy · RT ± ADT · brachytherapy",
+   "Metastatic hormone-sensitive: ADT + ARPI (abiraterone/ enzalutamide/ apalutamide) ± docetaxel",
+   "ADT: orchiectomy · LHRH agonist (ระวัง flare → antiandrogen ก่อน) · LHRH antagonist",
+   "Castration-resistant: ARPI · docetaxel/ cabazitaxel · PARP inhibitor · Lu-PSMA",
+   "กระดูก: denosumab/ zoledronic acid · RT บรรเทาปวด",
+   "Cord compression → dexamethasone + RT/ ผ่าตัดด่วน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และสไลด์ · มาตรฐานปัจจุบันให้ ADT ร่วมกับ ARPI ± docetaxel",
+  "mnemonic": "<b>'ต่อมลูกหมากกระจาย = ตัดฮอร์โมน (ADT)'</b>",
+  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer 2024; NCCN Prostate Cancer v.2025",
   "variants": [
-   "<b>นอกสไลด์:</b> มะเร็งต่อมลูกหมากแพร่ไปกระดูกสันหลัง ขาอ่อนแรงทันที → metastatic spinal cord compression: dexamethasone + MRI ทั้งแนว + ฉายรังสีหรือผ่าตัดลดการกด",
-   "<b>นอกสไลด์:</b> มะเร็งต่อมลูกหมากแพร่กระจายปวดกระดูกจุดเดียวมาก → ฉายรังสีบรรเทาปวดครั้งเดียวที่จุดนั้น"
+   "มะเร็งต่อมลูกหมากกระจาย เริ่ม LHRH agonist → ให้ antiandrogen ก่อนป้องกัน flare",
+   "มะเร็งต่อมลูกหมากกระจายไปกระดูกสันหลัง ขาอ่อนแรงทันที → dexamethasone + MRI + RT/ ผ่าตัด",
+   "PSA สูงขึ้นทั้งที่ testosterone ระดับ castrate → castration-resistant"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 56 — ตัวพิมพ์: <b>13. ผู้ป่วยชายไทยอายุ 70 ปี มาด้วย LUTS DRE เจอ hard prostate PSA=80 ทำ TRUS-Bx พบว่าเป็น CA prostate ทำ bone scan เจอ metastasis ไป bone จะให้การรักษาผู้ป่วยราย&#8203;นี้อย่างไร — A. Radical prostatectomy B. Chemo with MVAC C. External beam radiation D. Brachytherapy E. Hormonal therapy</b><br>ลายมือ: A, C, D \"ใน localized CA\" (แดง) · ขีด E<br>ไฮไลต์: \"ชายไทยอายุ 70 ปี\" \"มาด้วย LUTS DRE เจอ hard prostate PSA=80\" \"TRUS-Bx พบว่าเป็น CA\" \"bone scan เจอ metastasis ไป bone\" \"ให้การรักษา\" · E (เหลือง)<br>รูปที่แปะ: สไลด์ Advanced cancer — Hormonal therapy: Orchiectomy · LH-RH analogue · Antiandrogen e.g. flutamide, bicalutamide · Diethyl-stilbestrol, Ketoconazole · สไลด์ Advanced cancer — Palliative treatment: Radiation to metastatic bone, Chemotherapy · Hormone Refractory Prostate Cancer (พร้อมลายมือเล็ก)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 47: ขีด E (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 56",
+  "kimg": [
+   "fsk_p56",
+   "kp69c_13",
+   "k2p_47"
   ]
  },
  "MDCU69|RoC|14": {
-  "interp": "ชาย 25 ปี มีเพศสัมพันธ์กับผู้ให้บริการทางเพศ 2 วันก่อน ปัสสาวะแสบ มีหนองท่อปัสสาวะ อัณฑะเจ็บสองข้าง = urethritis/epididymitis จาก STI · ถามสิ่งที่ต้องส่งตรวจ",
-  "why": "<b>คีย์: ขีด B · ลายมือ epididymo-orchitis, R/O GC, NGU · สไลด์ treatment</b><br><b>นอกสไลด์:</b> ชายอายุน้อยที่เสี่ยงเพศสัมพันธ์ เชื้อหลักคือ N. gonorrhoeae และ C. trachomatis → swab หนองท่อปัสสาวะย้อมแกรม (gram-negative diplococci ในเซลล์) และเพาะเชื้อ/NAAT เพื่อแยก gonococcal กับ non-gonococcal",
+  "interp": "ชาย 25 ปี <b>เที่ยวหญิงบริการ 2 วันก่อน</b> ตอนนี้<b>ปัสสาวะแสบขัด เจ็บอัณฑะสองข้าง มีหนองไหลจากท่อปัสสาวะ</b> → ถามการตรวจที่ควรส่ง",
+  "why": "มีหนองจากท่อปัสสาวะหลังมีเพศสัมพันธ์เสี่ยง = <b>urethritis</b> (gonococcal/ non-gonococcal) ± <b>epididymo-orchitis</b> จากเชื้อติดต่อทางเพศสัมพันธ์ (ชาย &lt; 35 ปี: N. gonorrhoeae, C. trachomatis) → ส่ง <b>urethral swab gram stain + culture</b> (เห็น gram-negative intracellular diplococci = GC) และ NAAT (swab หรือปัสสาวะครั้งแรก) เพื่อหา GC/ chlamydia · รักษาร่วมทันที: ceftriaxone + doxycycline · ไฟล์ MCQ Key 2 ขีด B ลายมือ <b>\"epididymo-orchitis\"</b> และแปะสไลด์ <b>\"Treatment · Acute epididymo-orchitis → antibiotic · Fluoroquinolone, +/- doxycycline for 10-14 days · Bed rest, hydration, scrotal support · If testicular torsion can't be excluded → refer to urologist as soon as possible\"</b> แต่ไฟล์ Key 1 ขีด <b>A (urine exam)</b> (คีย์ 2 ไฟล์ไม่ตรงกัน)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นชายสูงอายุมีต่อมลูกหมากโต epididymitis ข้างเดียวโดยไม่มีความเสี่ยงทางเพศ (มักเป็นเชื้อลำไส้) — ส่งตรวจและเพาะเชื้อปัสสาวะ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าปวดอัณฑะข้างเดียวทันทีรุนแรงในวัยรุ่น ไม่มีอาการท่อปัสสาวะ แยก testicular torsion ไม่ได้ — Doppler US ดูเลือดไปเลี้ยง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย acute bacterial prostatitis ได้ยาแล้วไข้ไม่ลง สงสัยฝีในต่อมลูกหมาก",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าชายสูงอายุสูบบุหรี่ปัสสาวะเป็นเลือดไม่เจ็บ สงสัยมะเร็งเยื่อบุทางเดินปัสสาวะ"
+   "A": "UA บอกว่ามี pyuria แต่ไม่ระบุเชื้อ (ปัจจุบัน NAAT จากปัสสาวะครั้งแรกใช้หา GC/ chlamydia ได้) (คีย์ไฟล์ Key 1 ตอบข้อนี้) · จะถูกถ้าคำถามถามการตรวจ first-void urine NAAT ในชายไม่มีหนองให้ swab",
+   "C": "US อัณฑะใช้แยก torsion/ ฝี ไม่ใช่การหาเชื้อ · จะถูกถ้าวัยรุ่นปวดอัณฑะข้างเดียวทันที ไม่มีหนอง สงสัย torsion",
+   "D": "TRUS ใช้ประเมินต่อมลูกหมาก/ ฝีต่อมลูกหมาก · จะถูกถ้าชายเบาหวานไข้สูง ปวดฝีเย็บ ต่อมลูกหมากกดเจ็บ fluctuate (prostatic abscess)",
+   "E": "Urine cytology ใช้หามะเร็งเยื่อบุทางเดินปัสสาวะ · จะถูกถ้าชายสูบบุหรี่ปัสสาวะเป็นเลือดไม่เจ็บ"
   },
-  "trap": "ชายอายุน้อยมีหนองท่อปัสสาวะและอัณฑะเจ็บหลังเพศสัมพันธ์เสี่ยง อย่ารักษาเป็น UTI ธรรมดา — เชื้อ ยา และการรักษาคู่นอนต่างกัน",
+  "trap": "ส่ง UA ทั่วไป — มีหนองจากท่อปัสสาวะ ให้ swab gram stain/ culture (± NAAT) เพื่อหาเชื้อ · คีย์ 2 ไฟล์ไม่ตรงกัน",
   "summary": [
-   "<b>นอกสไลด์:</b> epididymitis ตามกลุ่ม: เสี่ยง STI (มักอายุ &lt; 35) → gonorrhea/chlamydia: ceftriaxone 500 mg IM ครั้งเดียว + doxycycline 10 วัน · insertive anal sex → เพิ่มครอบคลุมเชื้อลำไส้ · สูงอายุ/ไม่มีความเสี่ยง → เชื้อลำไส้ ใช้ยาตามเพาะเชื้อปัสสาวะ · ทุกราย STI: รักษาคู่นอน ตรวจ HIV และซิฟิลิส"
+   "Urethritis: GC (หนองข้นเร็ว) · NGU (chlamydia, mycoplasma)",
+   "ตรวจ: urethral swab gram stain (GNID) + culture + NAAT",
+   "รักษาร่วม: ceftriaxone 500 mg IM + doxycycline 7 วัน",
+   "Epididymo-orchitis &lt; 35 ปี: STI · &gt; 35 ปี: E. coli (UTI)",
+   "แยก torsion: ปวดทันที · อัณฑะสูง · cremasteric reflex หาย → ผ่าตัดด่วน",
+   "รักษาคู่นอน + ตรวจ HIV/ syphilis"
   ],
-  "opinion": "ตามคีย์ชุดแรก B · มั่นใจปานกลาง–สูง — คีย์ไฟล์ 01.2 ตอบ A ซึ่งใช้ได้ถ้าหมายถึง NAAT ปัสสาวะส่วนแรก",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ไฟล์ MCQ Key 2 ส่วนไฟล์ Key 1 ตอบ A (คีย์ 2 ไฟล์ไม่ตรง) ในผู้ป่วยมีหนองไหล swab ตรวจได้ตรงที่สุด · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'หนองจากท่อปัสสาวะ = swab ย้อม gram (หา diplococci)'</b>",
+  "guide": "CDC Sexually Transmitted Infections Treatment Guidelines 2021 (MMWR Recomm Rep 2021;70:1); EAU Guidelines on Urological Infections 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> รักษา gonorrhea ครบแล้ว 2 สัปดาห์ต่อมาหนองกลับมา คู่นอนยังไม่ได้รักษา → ติดเชื้อซ้ำ: รักษาซ้ำพร้อมคู่นอน",
-   "<b>นอกสไลด์:</b> ท่อปัสสาวะอักเสบซ้ำหลังได้ doxycycline ครบ → Mycoplasma genitalium: moxifloxacin"
+   "swab พบ gram-negative intracellular diplococci → gonorrhea → ceftriaxone + doxycycline",
+   "วัยรุ่นปวดอัณฑะทันที cremasteric reflex หาย → torsion → ผ่าตัดด่วน",
+   "ชาย 60 ปีปวดอัณฑะค่อยเป็น UTI → epididymitis จาก E. coli → fluoroquinolone"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 56 — ตัวพิมพ์: <b>14. ผู้ป่วยชายอายุ 25 ปี 2 วันก่อนไปเที่ยวหญิงบริการ วันนี้ปัสสาวะแสบขัด เจ็บอัณฑะทั้ง 2 ข้าง มีหนองไหลจากท่อปัสสาวะ ควรส่งตรวจอะไรเพิ่ม — A. Urine exam B. Urethral swab with gram stain and culture C. Testis ultrasound D. Transrectal ultrasound</b><br>ลายมือ: \"epididymo-orchitis\" · ขีด B + ลายมือเล็กเรื่อง ATB<br>ไฮไลต์: \"ชายอายุ 25 ปี 2 วันก่อนไปเที่ยวหญิงบริการ\" \"ปัสสาวะแสบขัด เจ็บอัณฑะทั้ง 2 ข้าง มีหนองไหลจากท่อปัสสาวะ\" \"ส่งตรวจอะไรเพิ่ม\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment — Acute epididymo-orchitis → antibiotic · Fluoroquinolone, +/- doxycycline for 10-14 days · Bed rest, hydration, scrotal support · If testicular torsion can't be excluded → refer to urologist as soon as possible<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 47: ขีด A (⚠ คีย์ 2 ไฟล์ไม่ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 56",
+  "kimg": [
+   "fsk_p56",
+   "kp69c_14",
+   "k2p_47"
   ]
  },
  "MDCU69|RoC|15": {
-  "interp": "ปัสสาวะเป็นเลือด IVP เห็นเงาโปร่ง (filling defect) 2 cm ในกรวยไต CT เป็นเนื้อความหนาแน่นต่ำตำแหน่งเดียวกัน = สงสัย upper tract urothelial carcinoma · ถามขั้นต่อไป",
-  "why": "<b>คีย์: ขีด A · ลายมือ suspected upper TCC · R/O bladder TCC + Bx</b><br><b>นอกสไลด์:</b> ก่อนตัดสินผ่าตัดต้องยืนยันชนิดและ grade ด้วย ureteroscopy ตัดชิ้นเนื้อ (ร่วม cytology และ cystoscopy หาก้อนในกระเพาะปัสสาวะ) เพื่อแบ่งความเสี่ยงว่าจะเก็บไตได้หรือต้องตัดไตและท่อไต",
+  "interp": "ผู้ป่วยปัสสาวะเป็นเลือด IVP พบ <b>filling defect 2 cm ในกรวยไต</b> CT พบ hypodensity ตำแหน่งเดียวกัน → ถามขั้นต่อไป",
+  "why": "Filling defect ในกรวยไต + เลือดในปัสสาวะ = สงสัย <b>upper tract urothelial carcinoma (UTUC)</b> (แยกนิ่วโปร่งรังสี ลิ่มเลือด) → ต้อง<b>ยืนยันชิ้นเนื้อและเกรด</b>ด้วย <b>ureteroscopy + biopsy</b> (± selective cytology) ร่วมกับ <b>cystoscopy</b> หามะเร็งกระเพาะปัสสาวะร่วม · ผลชิ้นเนื้อกำหนดว่าจะเก็บไต (ความเสี่ยงต่ำ — endoscopic ablation) หรือทำ <b>radical nephroureterectomy + bladder cuff</b> (gold standard ความเสี่ยงสูง) · ไฟล์ MCQ Key 2 ขีด A ลายมือ <b>\"suspected upper TCC\"</b> และที่ A \"R/O bladder TCC + Bx\" ที่ C <b>\"Tx of choice\"</b> แต่ไฟล์ Key 1 ขีด <b>C (RNU)</b> (คีย์ 2 ไฟล์ไม่ตรงกัน)",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนเนื้อในเนื้อไต (renal cell carcinoma) ที่ใหญ่หรืออยู่ตรงกลางจนตัดบางส่วนไม่ได้",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าภาพและ cytology ชัดว่าเป็นมะเร็งความเสี่ยงสูงอยู่แล้ว (ก้อนใหญ่ลุกเนื้อไต ไตบวมน้ำ cytology บวก) จนผลชิ้นเนื้อไม่เปลี่ยนการรักษา",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อน renal cell carcinoma ขนาดเล็ก (T1) ในเนื้อไต",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเงาในกรวยไตเป็นลิ่มเลือดหลังบาดเจ็บ ซึ่งหายเองเมื่อตรวจซ้ำ"
+   "B": "Radical nephrectomy เหลือท่อไตและ bladder cuff ซึ่ง UTUC กลับเป็นซ้ำบ่อย · จะถูกถ้า CT พบก้อนเนื้อแข็งในเนื้อไต enhance (RCC)",
+   "C": "RNU เป็นการรักษามาตรฐาน (ลายมือ \"Tx of choice\") แต่ยังไม่มีชิ้นเนื้อยืนยัน และอาจเป็นก้อนความเสี่ยงต่ำที่เก็บไตได้ (คีย์ไฟล์ Key 1 ตอบข้อนี้) · จะถูกถ้า URS biopsy ยืนยัน UTUC เกรดสูง หรือ CT เห็นลุกลามชัด",
+   "D": "Partial nephrectomy ใช้กับ RCC ไม่ใช่ UTUC (เสี่ยงเซลล์มะเร็งฝังในช่องท้อง) · จะถูกถ้าก้อน RCC 3 cm ที่ขอบไต",
+   "E": "ไม่ควรเฝ้าดูก้อนสงสัยมะเร็ง · จะถูกถ้าเป็น filling defect ที่หายไปในภาพซ้ำ (ลิ่มเลือด)"
   },
-  "trap": "IVP เห็นเงาโปร่งแล้วคิดว่าเป็นนิ่ว uric acid — ใน CT นิ่วทุกชนิดรวมทั้ง uric acid มีความหนาแน่นสูง เงาที่ความหนาแน่นต่ำเหมือนเนื้อเยื่อจึงชี้ก้อนเนื้องอก",
+  "trap": "ข้ามไปผ่าตัดใหญ่ — ต้องได้ชิ้นเนื้อ (URS) และ cystoscopy ก่อน · คีย์ 2 ไฟล์ไม่ตรงกัน",
   "summary": [
-   "<b>นอกสไลด์:</b> UTUC: CT urography + cytology + cystoscopy (มะเร็งกระเพาะปัสสาวะร่วมได้) + ureteroscopy ตัดชิ้นเนื้อ → แบ่งความเสี่ยง: ต่ำ → รักษาผ่านกล้องเก็บไต · สูง → radical nephroureterectomy ร่วมตัด bladder cuff"
+   "Filling defect กรวยไต: UTUC · นิ่ว uric acid · ลิ่มเลือด",
+   "CT urography: ก้อนในระบบ collecting (10–70 HU) · นิ่ว &gt; 100 HU",
+   "URS + biopsy + cytology · cystoscopy หามะเร็งร่วม",
+   "ความเสี่ยงต่ำ → kidney-sparing (endoscopic ablation)",
+   "ความเสี่ยงสูง → RNU + bladder cuff excision",
+   "ติดตามกระเพาะปัสสาวะหลังรักษา"
   ],
-  "opinion": "ตามคีย์ชุดแรก A · มั่นใจสูง — คีย์ไฟล์ 01.2 ตอบ C ซึ่งเป็นการรักษาเมื่อยืนยันว่าความเสี่ยงสูงแล้ว",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง-สูง — ตรงกับคีย์ไฟล์ MCQ Key 2 ส่วนไฟล์ Key 1 ตอบ C (คีย์ 2 ไฟล์ไม่ตรง) แนวทาง EAU แนะนำ URS biopsy เมื่อผลจะเปลี่ยนการรักษา (เลือกเก็บไต) · ต้นฉบับมี 3 ช้อย จึงเติม D, E",
+  "mnemonic": "<b>'ก้อนกรวยไต = ส่อง (URS) ยืนยันก่อน ตัดยกชุด (RNU) ทีหลัง'</b>",
+  "guide": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma 2024",
   "variants": [
-   "<b>นอกสไลด์:</b> UTUC low-grade ก้อนเดียว 1 cm ในผู้ป่วยไตข้างเดียว → เลเซอร์ผ่านกล้องท่อไตเพื่อเก็บไต",
-   "<b>นอกสไลด์:</b> หลัง radical nephroureterectomy → หยอดเคมีเข้ากระเพาะปัสสาวะครั้งเดียว ลดการเกิดก้อนซ้ำในกระเพาะ"
+   "URS biopsy UTUC เกรดสูง → RNU + bladder cuff",
+   "filling defect โปร่งรังสี CT 450 HU → นิ่ว uric acid → alkalinize urine",
+   "UTUC เกรดต่ำ ก้อนเดี่ยว 1 cm ไตเดียว → endoscopic laser ablation"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 56 — ตัวพิมพ์: <b>15. ผู้ป่วยมาด้วยถ่ายปัสสาวะเป็นเลือด ส่งตรวจ IVP พบ filling defect ขนาด 2 cm ที่กรวยไต CT พบ hypodensity at same area จงบอกแนวทางการรักษา — A. Renoureteroscope B. Radical nephrectomy C. Radical nephrouretorectomy</b><br>ลายมือ: \"suspected upper TCC\" · ขีด A + \"R/O bladder TCC + Bx\" · C \"Tx of choice\"<br>ไฮไลต์: \"ปัสสาวะเป็นเลือด\" \"IVP พบ filling defect ขนาด 2 cm ที่กรวยไต\" \"hypodensity at same area\" \"แนวทางการรักษา\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ CT or MRI — Mass in collecting system (10-70 HU) · สไลด์ TREATMENT — Gold standard: Radical nephroureterectomy with bladder cuff excision · สไลด์ INVESTIGATION — Cystoscope: Search for concomitant bladder cancer · Ureteroscope (URS): In case uncertain diagnosis, Biopsy or tumor ablation · และสไลด์ RCC/ AML (CT, Diagnosis, Treatment) ที่แปะข้าง ๆ<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 47: ขีด C (⚠ คีย์ 2 ไฟล์ไม่ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 3 ช้อย → เติม D, E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 56",
+  "kimg": [
+   "fsk_p56",
+   "kp69c_15",
+   "k2p_47"
   ]
  },
  "MDCU69|RoC|16": {
-  "interp": "ข้อ NOT ถามสิ่งที่ไม่ใช่ภาวะแทรกซ้อนของ left-to-right shunt",
-  "why": "<b>คีย์: ขีด B</b><br><b>นอกสไลด์:</b> L→R shunt ทำให้เลือดไปปอดมากขึ้น หลอดเลือดแดงปอดจึงขยายใหญ่ (pulmonary plethora) ไม่ใช่เล็ก · pulmonary artery hypoplasia พบในโรคที่เลือดไปปอดน้อย เช่น TOF, pulmonary atresia",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>ภาวะแทรกซ้อนของ <b>left-to-right shunt</b>",
+  "why": "L→R shunt (ASD, VSD, PDA) ทำให้เลือดไปปอดมาก → (1) <b>หัวใจล้มเหลว</b> (volume overload) (2) <b>infective endocarditis</b> (กระแสเลือดพุ่งกระแทกเยื่อบุ โดยเฉพาะ VSD/ PDA) (3) ปอดได้เลือดมากนาน → <b>pulmonary vascular disease → pulmonary HT → shunt กลับทิศ (Eisenmenger) → เขียว</b> · หลอดเลือดแดงปอด<b>มักโป่งขยาย</b>ไม่ใช่เล็ก · <b>pulmonary artery hypoplasia</b> เป็นลักษณะของโรคที่เลือดไปปอดน้อย (TOF, pulmonary atresia) · ไฟล์ขีด B และมีคำว่า \"ซ้ำ\" หน้าข้อ",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ infective endocarditis ไม่ใช่ภาวะแทรกซ้อนของ L→R shunt เพราะเลือดพุ่งแรงผ่านรูเล็ก (เช่น VSD เล็ก PDA) ทำให้ endothelium บาดเจ็บ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การกลับทิศของ shunt ไม่ใช่ภาวะแทรกซ้อน เพราะเลือดไปปอดมากนานจนหลอดเลือดปอดหนาและความดันปอดสูงเกินฝั่งซ้าย (Eisenmenger)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่อาการเขียวไม่ใช่ภาวะแทรกซ้อน เพราะเมื่อ shunt กลับทิศ เลือดดำผสมเข้าระบบ — PDA ที่กลับทิศเขียวที่ขามากกว่ามือ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่หัวใจล้มเหลวไม่ใช่ภาวะแทรกซ้อน เพราะ shunt ใหญ่ (VSD, PDA, AVSD) ทำให้เลือดไปปอดมากและหัวใจทำงานเกิน โดยเฉพาะทารกเมื่อความต้านทานปอดลดลงช่วง 4–8 สัปดาห์"
+   "A": "เป็นภาวะแทรกซ้อน — กระแสเลือดผ่านรูทำให้เยื่อบุบาดเจ็บ เกิด endocarditis (โดยเฉพาะ VSD เล็ก PDA) · จะถูกถ้าคำถามถาม ASD secundum ที่เสี่ยง endocarditis ต่ำมาก",
+   "C": "เป็นภาวะแทรกซ้อน — pulmonary HT รุนแรงทำให้ shunt กลับเป็น R→L (Eisenmenger) · จะถูกถ้าคำถามถามภาวะที่ห้ามปิดรู (Eisenmenger)",
+   "D": "เป็นภาวะแทรกซ้อน — เมื่อ shunt กลับทิศ เลือดดำไปทั่วร่างกาย → เขียว นิ้วปุ้ม · จะถูกถ้าคำถามถาม L→R shunt ระยะแรกที่ยังไม่เขียว",
+   "E": "เป็นภาวะแทรกซ้อน — volume overload → หัวใจล้มเหลว เลี้ยงไม่โต · จะถูกถ้าคำถามถาม ASD ขนาดเล็กที่มักไม่มีอาการในวัยเด็ก"
   },
-  "trap": "เขียวไม่ได้แปลว่าเป็นโรคหัวใจเขียวแต่แรก — L→R shunt ที่ไม่รักษาจนเกิด Eisenmenger ก็เขียวได้ ซึ่งตอนนั้นผ่าตัดปิดรูไม่ได้แล้ว",
+  "trap": "สับสนว่า L→R ทำให้หลอดเลือดปอดเล็ก — ตรงข้าม เลือดไปปอดมาก หลอดเลือดโป่ง · PA เล็กเป็นลักษณะ TOF",
   "summary": [
-   "<b>นอกสไลด์:</b> ลำดับผลของ L→R shunt ใหญ่: เลือดไปปอดมาก → หัวใจล้มเหลว ปอดติดเชื้อบ่อย โตช้า → หลอดเลือดปอดหนาถาวร → Eisenmenger · ต้องปิดรูก่อนหลอดเลือดปอดเปลี่ยนถาวร (VSD ใหญ่มักภายในขวบปีแรก) · Eisenmenger แล้วห้ามปิดรู"
+   "L→R: ASD · VSD · PDA · AVSD",
+   "ภาวะแทรกซ้อน: CHF · IE · pulmonary HT → Eisenmenger · เขียว",
+   "Eisenmenger: ห้ามปิดรู · ห้ามตั้งครรภ์",
+   "PA hypoplasia: TOF · pulmonary atresia (เลือดไปปอดน้อย)",
+   "ปิดรูก่อนเกิด irreversible pulmonary vascular disease",
+   "CXR L→R: หัวใจโต pulmonary plethora"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'L→R = เลือดล้นปอด (ไม่ใช่ปอดเล็ก) → HF · IE · Eisenmenger'</b>",
+  "guide": "2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease (Circulation 2019;139:e698)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 6 สัปดาห์ VSD ใหญ่ หอบ ดูดนมเหนื่อย เหงื่อออก น้ำหนักไม่ขึ้น → หัวใจล้มเหลว: ยาขับปัสสาวะแล้วผ่าตัดปิด VSD",
-   "<b>นอกสไลด์:</b> ผู้ใหญ่ ASD secundum ใจสั่นเป็น AF หัวใจห้องขวาโต ความดันปอดยังไม่สูง → ปิดรูด้วยอุปกรณ์ทางสายสวน"
+   "ผู้ใหญ่ VSD ไม่ได้รักษา เขียว นิ้วปุ้ม → Eisenmenger → ห้ามปิด",
+   "ทารก VSD ใหญ่ เหนื่อย เลี้ยงไม่โต → ผ่าตัดปิดก่อน 1 ปี",
+   "เด็ก TOF CXR boot-shaped heart ปอดดำ → PA เล็ก"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 56 — ตัวพิมพ์: <b>16. Which is not complication of left to right shunt — A. Infective endocarditis B. Hypoplasia of pulmonary artery C. Reverse shunt D. Cyanosis</b> (หัวข้อ CVT)<br>ลายมือ: \"ซ้ำ\" หน้าข้อ · ขีด B<br>ไฮไลต์: \"not complication of left to right shunt\" · B (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 47: ขีด B (ตรงกัน)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 56",
+  "kimg": [
+   "fsk_p56",
+   "kp69c_16",
+   "k2p_47"
   ]
  },
  "MDCU69|RoC|17": {
-  "interp": "ถามปัจจัยที่กำหนดว่า tetralogy of Fallot จะผ่าตัดแก้ทั้งหมด (total correction) หรือทำ shunt ก่อน",
-  "why": "<b>คีย์: ขีด D · ลายมือ ใหญ่: total correction · เล็ก: MBTS</b><br><b>นอกสไลด์:</b> หลังแก้ทั้งหมด เลือดจาก RV ทั้งหมดต้องไหลเข้าหลอดเลือดแดงปอด ถ้าหลอดเลือดปอดเล็กเกิน RV ต้องบีบแรงจนล้มเหลว → ทำ modified BT shunt ก่อนให้หลอดเลือดปอดโต แล้วค่อยแก้ทั้งหมด",
+  "interp": "ถามปัจจัยที่<b>กำหนด</b>ว่าจะผ่าตัด <b>TOF แบบแก้ไขสมบูรณ์ (definitive) หรือทำ shunt ก่อน</b>",
+  "why": "การแก้ไขสมบูรณ์ (ปิด VSD + ขยาย RVOT) ต้องการให้<b>หลอดเลือดแดงปอดมีขนาดเพียงพอ</b>ที่จะรับเลือดทั้งหมดจาก RV ได้ · ถ้า <b>pulmonary arteries เล็กมาก (hypoplastic)</b> → ทำ <b>palliative shunt ก่อน</b> (modified Blalock-Taussig shunt: subclavian → pulmonary artery หรือ RVOT stent/ PDA stent) ให้หลอดเลือดปอดโตขึ้น แล้วจึงแก้ไขสมบูรณ์ภายหลัง · ปัจจุบันส่วนใหญ่แก้ไขสมบูรณ์ตอนอายุ 3–6 เดือน · ไฟล์ขีด D ลายมือ <b>\"ใหญ่ : total correction · เล็ก : MBTS\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกแรกเกิดตัวเล็กมากหรือคลอดก่อนกำหนดที่เขียวมาก ใน รพ.ที่ไม่แก้ทั้งหมดในวัยนี้ — ทำ shunt ก่อนแล้วแก้เมื่อโต",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ขนาด VSD กำหนดว่าจะแก้ทั้งหมดหรือทำ shunt เพราะ VSD ปิดด้วย patch ได้ทุกขนาดในการผ่าตัด",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ความรุนแรงของการตีบอย่างเดียวกำหนดชนิดการผ่าตัด เพราะการตีบของทางออก RV แก้ได้ด้วย patch และตัดกล้ามเนื้อระหว่างผ่าตัด — ความรุนแรงกำหนดแค่ว่าต้องผ่าตัดเร็วแค่ไหน",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ระดับการคร่อมของ aorta กำหนดว่าจะทำ shunt เพราะแก้ได้ด้วยการปิด VSD ให้ aorta อยู่ฝั่ง LV ในการผ่าตัดเดียวกัน"
+   "A": "อายุมีผลต่อจังหวะเวลา แต่ไม่ใช่ตัวกำหนดหลัก ทารกเล็กแก้ไขสมบูรณ์ได้ถ้า PA ใหญ่พอ · จะถูกถ้าคำถามถามอายุที่นิยมผ่าตัด TOF แบบ elective (3–6 เดือน)",
+   "B": "VSD ใน TOF ใหญ่และไม่ restrictive เสมอ ไม่ใช่ตัวตัดสิน · จะถูกถ้าคำถามถามลักษณะ VSD ของ TOF (malalignment, unrestrictive)",
+   "C": "ความรุนแรงของ PS กำหนดความเขียวและเวลาผ่าตัด แต่ขนาด PA กำหนดว่าแก้ไขสมบูรณ์ได้หรือไม่ · จะถูกถ้าคำถามถามปัจจัยที่กำหนดว่าเด็กจะเขียวมากหรือน้อย",
+   "E": "Overriding aorta ไม่ใช่ตัวกำหนดชนิดการผ่าตัด · จะถูกถ้าคำถามถามองค์ประกอบ 4 อย่างของ TOF"
   },
-  "trap": "เขียวมากหรือมี tet spell ไม่ได้บอกว่าต้องทำ shunt — บอกว่าต้องผ่าตัดเร็ว ส่วนชนิดการผ่าตัดขึ้นกับว่าหลอดเลือดปอดรับเลือดได้หรือไม่",
+  "trap": "คิดว่าความรุนแรงของ PS ตัดสิน — สิ่งที่บอกว่าซ่อมสมบูรณ์ได้คือหลอดเลือดปอดใหญ่พอหรือไม่",
   "summary": [
-   "<b>นอกสไลด์:</b> TOF: VSD + ทางออก RV ตีบ + aorta คร่อม + RV หนา · เขียวมากน้อยตามความรุนแรงของการตีบ · แก้ทั้งหมด (ปิด VSD + ขยายทางออก RV) มักทำช่วงอายุราว 3–6 เดือน · วัดขนาดหลอดเลือดแดงปอด (McGoon ratio ราว ≥ 1.2 หรือ Nakata index ราว ≥ 150 mm²/m²) → พอ: แก้ทั้งหมด · เล็กกว่า: shunt ก่อน"
+   "TOF: VSD · RVOT obstruction (PS) · overriding aorta · RVH",
+   "Tet spell: knee-chest · O2 · morphine · fluid · phenylephrine · propranolol",
+   "PA ใหญ่พอ → complete repair (3–6 เดือน)",
+   "PA เล็ก/ ทารกไม่คงที่ → modified BT shunt หรือ RVOT/ PDA stent ก่อน",
+   "Nakata index/ McGoon ratio ประเมินขนาด PA",
+   "ระยะยาว: pulmonary regurgitation → PVR"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'TOF: PA ใหญ่ = ซ่อมเลย · PA เล็ก = shunt ก่อน (MBTS)'</b>",
+  "guide": "Moss and Adams' Heart Disease in Infants, Children, and Adolescents 10th ed. (2021); Kirklin/Barratt-Boyes Cardiac Surgery 4th ed. (2013)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก TOF เขียวมาก หลอดเลือดปอดเล็ก → ทางเลือกแทน BT shunt คือใส่ stent ที่ PDA หรือที่ทางออก RV ผ่านสายสวน",
-   "<b>นอกสไลด์:</b> TOF ร่วม pulmonary atresia หลอดเลือดปอดเล็กมากและมีหลอดเลือดเลี้ยงปอดจาก aorta (MAPCAs) → ทำ shunt/รวมหลอดเลือดก่อน แก้ทั้งหมดภายหลัง"
+   "ทารก TOF PA ขนาดดี อายุ 4 เดือน → complete repair",
+   "ทารกแรกเกิด TOF PA เล็กมาก เขียวมาก → modified BT shunt",
+   "เด็ก TOF เขียวมากเวลาร้อง → tet spell → knee-chest + O2 + morphine"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 57 — ตัวพิมพ์: <b>17. ข้อใดเป็นตัวกำหนดว่าควรผ่าตัดรักษา TOF แบบ definitive / shunt — A. Age B. Size of VSD C. Severity of PS D. Size of PA E. Overriding aorta</b><br>ลายมือ: ขีด D + ปีกกา \"ใหญ่ : total correction · เล็ก : MBTS\"<br>ไฮไลต์: \"ตัวกำหนดว่าควรผ่าตัดรักษา TOF แบบ definitive / shunt\" · D (เหลือง)<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 48: ขีด D (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 57",
+  "kimg": [
+   "fsk_p57",
+   "kp69c_17",
+   "k2p_48"
   ]
  },
  "MDCU69|RoC|18": {
-  "interp": "หญิงเหนื่อย NYHA II echo เป็น severe MR จาก posterior mitral leaflet ขาด (flail) = primary degenerative MR · ถามการรักษา",
-  "why": "<b>คีย์: ขีด C · ลายมือ repair · replace ถ้าซ่อมไม่ได้</b><br><b>นอกสไลด์:</b> severe primary MR ที่มีอาการเป็นข้อบ่งชี้ผ่าตัด (class I) · ซ่อมลิ้นดีกว่าเปลี่ยน: รอดชีวิตดีกว่า รักษารูปร่าง LV ไม่ต้องกินยาต้านการแข็งตัวตลอดชีวิต และ posterior leaflet ขาดเป็นแบบที่ซ่อมได้ผลดีที่สุด",
+  "interp": "หญิง<b>หอบเหนื่อย NYHA FC II</b> echo พบ <b>severe mitral regurgitation จาก flail posterior mitral leaflet</b> → ถามการรักษา",
+  "why": "Severe <b>primary (degenerative) MR</b> ที่<b>มีอาการ</b> = ข้อบ่งชี้ผ่าตัด · flail <b>posterior leaflet</b> (เส้นเอ็นยึดลิ้นขาด) เป็นรอยโรคที่<b>ซ่อม (mitral valve repair) ได้สำเร็จสูง</b> (&gt; 95%) · <b>repair ดีกว่า replacement</b>: เก็บ subvalvular apparatus ไว้ → การทำงานของหัวใจห้องล่างซ้ายดีกว่า อัตราตายต่ำกว่า ไม่ต้องกินยาต้านการแข็งตัวตลอดชีวิต · เปลี่ยนลิ้น (MVR) เมื่อซ่อมไม่ได้ (เช่น rheumatic หินปูนมาก) · ไฟล์ขีด C ลายมือ <b>\"repair\"</b> เหนือ FC II และที่ D <b>\"replace – acute MR – FC 3\"</b> พร้อมแปะตำราไทยเรื่องข้อบ่งชี้ผ่าตัด MR",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น secondary MR จาก LV ขยาย (cardiomyopathy) — ให้ยารักษาหัวใจล้มเหลวเต็มที่ก่อน",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น mitral stenosis จากรูมาติกที่มีอาการ ลิ้นไม่แข็งมาก (Wilkins ≤ 8) ไม่มี MR ปานกลางขึ้นไป และไม่มีลิ่มเลือดใน LA",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าลิ้นซ่อมไม่ได้ เช่น ลิ้นรูมาติกหนาแข็งหดรั้ง หรือ endocarditis ทำลายลิ้นมาก",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ severe primary MR ที่มีอาการไม่ต้องรักษา เพราะ LV จะขยายและเสื่อมไปเรื่อย ๆ จนผ่าตัดแล้วไม่ฟื้น"
+   "A": "ยาอย่างเดียวไม่แก้ MR ปฐมภูมิ (ปัญหาที่ลิ้น) และไม่ลดอัตราตาย · จะถูกถ้าเป็น secondary (functional) MR จากหัวใจห้องล่างซ้ายขยาย ให้ GDMT ก่อน",
+   "B": "PBMV รักษา mitral stenosis ไม่ใช่ MR (และ MR ปานกลาง-รุนแรงเป็นข้อห้าม) · จะถูกถ้าหญิงเป็น rheumatic MS รุนแรง ลิ้นเหมาะ ไม่มี MR มาก",
+   "D": "MVR ใช้เมื่อซ่อมไม่ได้ หรือ acute MR/ ลิ้นเสียหายมาก (ลายมือ \"replace – acute MR – FC 3\") · จะถูกถ้าลิ้น rheumatic หนาแข็งหินปูนมาก ซ่อมไม่ได้",
+   "E": "มีคำตอบที่ถูก (repair) · จะถูกถ้าผู้ป่วยไม่มีอาการ EF ปกติ LV ไม่โต (ติดตาม echo)"
   },
-  "trap": "อาการแค่ NYHA II ไม่ได้แปลว่ารอได้ — severe primary MR ที่มีอาการเพียงเล็กน้อยก็เป็นข้อบ่งชี้ผ่าตัด",
+  "trap": "เลือกเปลี่ยนลิ้นเพราะ severe — flail posterior leaflet ซ่อมได้ผลดีกว่าเปลี่ยน",
   "summary": [
-   "<b>นอกสไลด์:</b> ACC/AHA 2020 severe primary MR: ผ่าตัดเมื่อมีอาการ · ไม่มีอาการแต่ LVEF ≤ 60% หรือ LVESD ≥ 40 mm · ไม่มีอาการ LV ปกติ → ซ่อมได้ถ้าศูนย์มีโอกาสซ่อมสำเร็จสูงมากและเสี่ยงต่ำ"
+   "Primary severe MR + อาการ → ผ่าตัด",
+   "ไม่มีอาการ: EF ≤ 60% หรือ LVESD ≥ 40 mm → ผ่าตัด",
+   "Repair &gt; replacement (degenerative, posterior leaflet สำเร็จสูง)",
+   "ผู้ป่วยผ่าตัดไม่ได้ → transcatheter edge-to-edge repair (TEER)",
+   "Secondary MR: GDMT ± CRT ± TEER",
+   "Acute MR (papillary rupture) → ผ่าตัดด่วน"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ทั้งสองไฟล์และลายมือ",
+  "mnemonic": "<b>'Flail posterior leaflet = ซ่อม (repair) ไม่ต้องเปลี่ยน'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72); 2025 ESC/EACTS Guidelines for Valvular Heart Disease",
   "variants": [
-   "<b>นอกสไลด์:</b> severe primary MR ผู้สูงอายุ 85 ปี มีอาการ NYHA III–IV เสี่ยงผ่าตัดสูงมาก → transcatheter edge-to-edge repair",
-   "<b>นอกสไลด์:</b> หลัง MI 3 วัน หอบทันที ปอดบวมน้ำ ช็อก มีเสียง murmur ใหม่ → papillary muscle ขาด: ผ่าตัดฉุกเฉิน"
+   "MR รุนแรงไม่มีอาการ EF 55% → MV repair",
+   "หลัง MI หอบทันที MR รุนแรง papillary muscle rupture → ผ่าตัดด่วน",
+   "MR รุนแรงผู้สูงอายุเสี่ยงผ่าตัดสูง → TEER (MitraClip)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 57 — ตัวพิมพ์: <b>18. ผู้ป่วยหญิงมาด้วยอาการเหนื่อยหอบ FC II ตรวจพบ severe mitral regurgitation และ flail posterior mitral leaflet ควรให้การรักษาอย่างไร — A. Medication B. PBMV C. MV repair D. MVR E. ไม่มีข้อใดถูก</b><br>ลายมือ: \"repair\" เหนือ FC II · ขีด C · D \"replace – acute MR – FC 3\"<br>ไฮไลต์: \"หญิงมาด้วยอาการเหนื่อยหอบ FC II\" \"severe mitral regurgitation\" \"flail posterior mitral leaflet\" \"ควรให้การรักษาอย่างไร\" · C (เหลือง)<br>รูปที่แปะ: ตำราไทยเรื่องข้อบ่งชี้การผ่าตัด MR (acute MR, chronic MR — ผู้ป่วยที่มีอาการ FC II ขึ้นไปควรผ่าตัด, valve repair หรือ replacement) ไฮไลต์เขียว/ แดง<br>ไฟล์ __01_2_MCQs_Key_1.pdf (Specialty Supplementary) หน้า 48: ขีด C (ตรงกัน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 57",
+  "kimg": [
+   "fsk_p57",
+   "kp69c_18",
+   "k2p_48"
   ]
  }
 }
