@@ -1,193 +1,332 @@
 {
  "MDCU67|RoA|9": {
-  "interp": "ถามลักษณะของ duodenal atresia · ช้อยผิดเป็นลักษณะของการอุดตันระดับต่ำหรือภาวะอื่น",
-  "why": "<b>ลายมือ: B ✗ ท้องแฟบ + สไลด์ neonatal gut obstruction</b><br><b>นอกสไลด์:</b> ทารกในครรภ์กลืนน้ำคร่ำแล้วดูดซึมที่ลำไส้ — การอุดตันระดับสูง (EA, duodenal atresia) ทำให้น้ำคร่ำผ่านไปดูดซึมไม่ได้ แม่จึงมีครรภ์แฝดน้ำ (polyhydramnios) ราวครึ่งหนึ่ง",
+  "interp": "ถามอาการ/ ลักษณะของ <b>duodenal atresia</b>",
+  "why": "Duodenal atresia = ลำไส้อุดตันส่วนต้น (upper gut) → ทารกในครรภ์กลืนน้ำคร่ำไม่ได้ → <b>maternal polyhydramnios</b> (พบ ~30–60%) · หลังคลอดอาเจียน (สีเขียว ~80%) ใน 24 ชม. แรก <b>ท้องไม่อืด/ แฟบ</b> (ส่วนปลายไม่มีลม) · X-ray double bubble · ไฟล์ขีด A ✓ ลายมือ B <b>\"✗ ∵ ท้องแฟบ\"</b> · C <b>\"IPHS\"</b> และแปะสไลด์ <b>Neonatal gut obstruction</b> (Upper gut: polyhydramnios +++, bilious vomiting +++, abdominal distension +, delayed meconium + · Lower gut: polyhydramnios +, bilious vomiting ++, distension +++, delayed meconium +++) และ <b>Clinical presentation</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ท้องโป่งทั้งท้องเป็นลักษณะประจำของ duodenal atresia เพราะลมและน้ำค้างแค่ในกระเพาะกับ duodenum ส่วนต้น ท้องส่วนล่างจึงแฟบ (อาจป่องเฉพาะลิ้นปี่)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ visible peristalsis เป็นลักษณะประจำของ duodenal atresia เพราะคลื่นบีบตัวของกระเพาะที่เห็นวิ่งจากซ้ายไปขวาเป็นลักษณะเด่นของ pyloric stenosis",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ถ่ายเป็นเลือดเป็นลักษณะของ duodenal atresia เพราะลำไส้ไม่ได้ขาดเลือด — ทารกอาเจียนร่วมถ่ายเป็นเลือดให้คิดถึง volvulus หรือ NEC",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การไม่ถ่ายขี้เทาเป็นลักษณะประจำของ duodenal atresia เพราะลำไส้ส่วนปลายปกติ ทารกจึงถ่ายขี้เทาได้"
+   "B": "ท้องอืดมากเป็นลักษณะของลำไส้อุดตันส่วนปลาย (ileal atresia, Hirschsprung) — duodenal atresia ท้องแฟบ (ลายมือ ✗) · จะถูกถ้าทารกท้องอืดมาก ไม่ถ่ายขี้เทา",
+   "C": "Visible peristalsis (คลื่นกระเพาะเห็นจากซ้ายไปขวา) เป็นลักษณะของ IHPS (ลายมือ) · จะถูกถ้าทารก 4 สัปดาห์อาเจียนพุ่งไม่มีน้ำดี",
+   "D": "ถ่ายเป็นเลือดเป็นลักษณะของ NEC/ volvulus ขาดเลือด/ intussusception · จะถูกถ้าทารกอาเจียนเขียวร่วมถ่ายเป็นเลือด (volvulus)",
+   "E": "ไม่ถ่ายขี้เทาเป็นลักษณะของลำไส้อุดตันส่วนปลาย/ Hirschsprung/ meconium ileus — duodenal atresia มักถ่ายขี้เทาได้ · จะถูกถ้าทารกไม่ถ่ายขี้เทา &gt; 48 ชม. ท้องอืด"
   },
-  "trap": "ทารกถ่ายขี้เทาได้จึงตัดการอุดตันของลำไส้ — ขี้เทาที่สร้างไว้ในลำไส้ส่วนปลายก่อนคลอดยังถ่ายออกได้ในการอุดตันระดับสูง",
+  "trap": "คิดว่าลำไส้อุดตันทุกชนิดท้องอืด — upper gut obstruction ท้องแฟบ",
   "summary": [
-   "<b>นอกสไลด์:</b> บอกระดับการอุดตันในทารกแรกเกิด: ระดับสูง (duodenum, jejunum ต้น) → อาเจียนเร็วตั้งแต่วันแรก ท้องแฟบ ครรภ์แฝดน้ำ ถ่ายขี้เทาได้ · ระดับต่ำ (ileal atresia, meconium ileus, Hirschsprung, ARM) → ท้องอืดมาก อาเจียนช้ากว่า ไม่ถ่ายขี้เทา"
+   "Upper gut obstruction: polyhydramnios · อาเจียนเร็ว · ท้องแฟบ",
+   "Lower gut obstruction: ท้องอืดมาก · ขี้เทาออกช้า · อาเจียนช้ากว่า",
+   "Duodenal atresia: double bubble · Down ~30%",
+   "NG aspirate &gt; 20 mL → สงสัยลำไส้อุดตัน",
+   "~80% อุดใต้ ampulla → อาเจียนสีเขียว",
+   "รักษา: duodenoduodenostomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์ · ต้นฉบับมี 4 ช้อย จึงเติม E",
+  "mnemonic": "<b>'Upper gut = Upper (น้ำคร่ำมาก) แต่ท้องแบน · Lower gut = ท้องป่อง'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Duodenal atresia; neonatal intestinal obstruction",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกแรกเกิดน้ำลายฟูม สำลักตอนดูดนมครั้งแรก ใส่สายลงกระเพาะไม่ได้ แม่ครรภ์แฝดน้ำ → esophageal atresia",
-   "<b>นอกสไลด์:</b> ทารก 2 วันท้องอืดมาก ไม่ถ่ายขี้เทา ภาพรังสีลำไส้โป่งหลายห่วง → การอุดตันระดับต่ำ: contrast enema (microcolon ชวนนึกถึง ileal atresia หรือ meconium ileus)"
+   "fetal US polyhydramnios + double bubble → duodenal atresia",
+   "ทารกท้องอืดมาก ไม่ถ่ายขี้เทา → lower gut obstruction (Hirschsprung/ ileal atresia/ meconium ileus)",
+   "ทารกเห็นคลื่นกระเพาะ อาเจียนพุ่ง → IHPS"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 94 — ตัวพิมพ์: <b>9. ข้อใดเป็นอาการของ duodenal atresia — A. Maternal polyhydramnios B. Abdominal dilation C. Visible peristalsis D. Bloody stool</b><br>ลายมือ: ขีด A ✓ · B \"✗ ∵ ท้องแฟบ\" · C \"IPHS\"<br>ไฮไลต์: \"อาการของ duodenal atresia\" · A (เหลือง)<br>รูปที่แปะ: ① สไลด์ Neonatal gut obstruction (ลายมือ \"แบ่งที่ lig. of Treitz\") — Upper gut/ Lower gut: Polyhydramnios +++/ + · Bilious vomiting +++/ ++ · Abdominal distension +/ +++ · Delayed passage of meconium +/ +++ (\"ถ้า &gt; 1 วันหลังคลอด\") ② สไลด์ Clinical presentation — Maternal polyhydramnios · Prenatal U/S \"DOUBLE BUBBLE\" obstructive pattern · Bilious or non-bilious vomiting · Non-distended abdomen · NG tube &gt; 20 ml intestinal obstruction · Meconium (delay or character change or normal meconium)<br>ที่ปรับในเว็บ: ต้นฉบับมี 4 ช้อย → เติม E",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 94",
+  "kimg": [
+   "fsk_p94",
+   "kp67a_9"
   ]
  },
  "MDCU67|RoA|10": {
-  "interp": "ทารก 1 เดือน อาเจียนพุ่งไม่มีน้ำดีหลังกิน + คลำก้อนที่ท้องขวาบน → ถามการวินิจฉัย",
-  "why": "<b>ลายมือ: peak 3–5 wk</b><br><b>นอกสไลด์:</b> กล้ามเนื้อ pylorus หนาตัวจนอุดทางออกกระเพาะ → อาเจียนพุ่งเป็นนมไม่มีน้ำดี ทารกยังหิวอยากกินอีก คลำได้ก้อนรูปมะกอก (olive) เหนือสะดือค่อนขวา · US: กล้ามเนื้อหนาราว ≥ 3–4 mm ยาวราว ≥ 15–17 mm",
+  "interp": "ทารก <b>30 วัน</b> <b>อาเจียนพุ่ง</b>หลังกินนม ~10 นาที อาเจียนเป็น<b>นมไม่มีน้ำดี</b> คลำได้<b>ก้อนที่ท้องด้านขวาบน</b> → ถามการวินิจฉัย",
+  "why": "อายุ 3–6 สัปดาห์ (peak 3–5 สัปดาห์) + <b>อาเจียนพุ่งไม่มีน้ำดี</b>หลังกินนม + ยังหิวอยากกินต่อ + <b>คลำได้ก้อน olive</b> ที่ epigastrium/ ขวาบน = <b>hypertrophic pyloric stenosis</b> · ชายมากกว่าหญิง ~4:1 ลูกคนแรก · เกลือแร่: <b>hypochloremic hypokalemic metabolic alkalosis</b> (paradoxical aciduria) · US: pyloric muscle ≥ 3–4 mm ยาว ≥ 15–17 mm · <b>แก้น้ำ/ เกลือแร่ก่อน</b> แล้วจึง <b>Ramstedt pyloromyotomy</b> · ไฟล์ขีด E ลายมือ <b>\"peak 3–5 wk\"</b> และแก้ \"30 วัน\" เป็น <b>\"1 mo\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าทารกอาเจียนร่วมถ่ายมีมูกเลือด ผื่น eczema และอาการดีขึ้นเมื่องดนมวัว (แม่งดนมวัวหรือเปลี่ยนเป็นนมสูตร extensively hydrolyzed)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าทารกน้ำหนักขึ้นเกินเกณฑ์ แหวะนมหลังกินปริมาณมาก ท้องนิ่ม ลดปริมาณต่อมื้อแล้วหาย",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนขวาบนมาพร้อมตัวเหลืองและอุจจาระสีซีด และ US พบท่อน้ำดีโป่งเป็นถุง",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้า US พบ pylorus ปกติ และ upper GI เห็นแผ่นกั้นใน duodenum เหนือรูเปิดท่อน้ำดีที่อุดไม่สมบูรณ์ (duodenal web) จึงมีอาการช้า"
+   "A": "แพ้โปรตีนนมวัวอาเจียน ถ่ายมีมูกเลือด ผื่น ไม่มีก้อน · จะถูกถ้าทารกอาเจียน ถ่ายมูกเลือด ผื่นผิวหนัง ดีขึ้นเมื่อแม่งดนมวัว",
+   "B": "Overfeeding แหวะนมหลังกินมาก ไม่พุ่ง ไม่มีก้อน น้ำหนักขึ้นดี · จะถูกถ้าทารกแหวะนมเล็กน้อยหลังกินมาก โตดี",
+   "C": "Choledochal cyst มาด้วยตัวเหลือง ก้อนท้องขวาบน ปวดท้อง (ทารก: ตัวเหลืองอุจจาระซีด) ไม่ใช่อาเจียนพุ่ง · จะถูกถ้าเด็กตัวเหลือง ปวดท้อง ก้อนท้องขวาบน",
+   "D": "Duodenal atresia อาเจียน (มักมีน้ำดี) ตั้งแต่วันแรก · จะถูกถ้าทารกแรกเกิด Down syndrome อาเจียนสีเขียววันแรก double bubble"
   },
-  "trap": "คลำก้อนไม่ได้แล้วตัด pyloric stenosis ทิ้ง — ทารกที่ร้องหรือท้องอืดคลำยาก ให้ดูดกระเพาะออกแล้วคลำใหม่ขณะดูดนม หรือทำ US",
+  "trap": "สับสนก้อนท้องขวาบนกับ choledochal cyst — อาเจียนพุ่งไม่มีน้ำดีที่ 3–5 สัปดาห์ = IHPS",
   "summary": [
-   "<b>นอกสไลด์:</b> เกลือแร่: hypochloremic hypokalemic metabolic alkalosis (ปัสสาวะเป็นกรดแบบ paradoxical ในระยะหลัง) → แก้สารน้ำและเกลือแร่ให้ใกล้ปกติก่อน แล้วจึงทำ pyloromyotomy (Ramstedt) — ไม่ใช่การผ่าตัดฉุกเฉิน เพราะทารกที่ยัง alkalosis เสี่ยงหยุดหายใจหลังดมยา"
+   "IHPS: 3–6 สัปดาห์ · ชาย · ลูกคนแรก · อาเจียนพุ่งไม่มีน้ำดี",
+   "คลำ olive · เห็นคลื่นกระเพาะ",
+   "Hypochloremic hypokalemic metabolic alkalosis",
+   "US: muscle ≥ 3–4 mm · length ≥ 15–17 mm",
+   "แก้น้ำ/ เกลือแร่ก่อน (ไม่ใช่ภาวะฉุกเฉินทางผ่าตัด)",
+   "Ramstedt pyloromyotomy (open/ laparoscopic)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Pyloric stenosis = Projectile · Peak 3–5 wk · Palpable olive · Pyloromyotomy หลังแก้เกลือแร่'</b>",
+  "guide": "Coran's Pediatric Surgery 8th ed. (2019) — Hypertrophic pyloric stenosis; ACR Appropriateness Criteria: Vomiting in Infants (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก pyloric stenosis ตัวเหลืองแบบ indirect → เอนไซม์ glucuronyl transferase ลดลงจากการขาดอาหาร หายเองหลังผ่าตัดและกินได้",
-   "<b>นอกสไลด์:</b> ทารกได้ erythromycin ในช่วง 2 สัปดาห์แรก แล้วอาเจียนพุ่งตอนอายุ 4 สัปดาห์ → นึกถึง pyloric stenosis (ยาเพิ่มความเสี่ยง)"
+   "ทารก 4 สัปดาห์อาเจียนพุ่ง Cl 85 HCO₃ 32 → IHPS → แก้เกลือแร่ → pyloromyotomy",
+   "ทารก 3 สัปดาห์อาเจียนสีเขียว → malrotation volvulus",
+   "ทารกได้ erythromycin ในสัปดาห์แรกแล้วอาเจียนพุ่ง → เสี่ยง IHPS"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 94–95 — ตัวพิมพ์: <b>10. เด็กอายุ 30 วัน อาเจียนพุ่งมา 2 วัน ก่อนมาโรงพยาบาล หลังกลับบ้านได้ 5 วัน กินนมได้ 10 นาที ก็อาเจียนเป็นนมสีขาว ไม่เคยมีสีเขียวสีเหลืองปน คลำก้อนได้ที่ชายโครงขวา จงให้การวินิจฉัย — A. Milk allergy B. Overfeeeding C. Choledocchal cyst D. Duodenal atresia E. Hypertrophic pyloric stenosis</b><br>ลายมือ: \"1 mo\" เหนือ \"30 วัน\" · ขีด E + \"peak 3-5 wk\"<br>ไฮไลต์: \"อายุ 30 วัน อาเจียนพุ่งมา 2 วัน\" \"กลับบ้านได้ 5 วัน กินนมได้ 10 นาที ก็อาเจียนเป็นนมสีขาว\" \"ไม่เคยมีสีเขียวสีเหลืองปน\" \"ก้อนได้ที่ชายโครงขวา\" \"วินิจฉัย\" · E (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 94",
+  "kimg": [
+   "fsk_p94",
+   "kp67a_10"
   ]
  },
  "MDCU67|RoA|11": {
-  "interp": "ทารก congenital diaphragmatic hernia — ถามเวลาที่เหมาะในการผ่าตัดซ่อมกระบังลม",
-  "why": "<b>ลายมือ: delayed repair</b><br><b>นอกสไลด์:</b> CDH ไม่ใช่ภาวะฉุกเฉินทางศัลยกรรม — ทารกตายจากปอดเล็ก (pulmonary hypoplasia) และความดันปอดสูง ไม่ใช่จากลำไส้ในอก จึงประคับประคองการหายใจและไหลเวียนจนคงที่ (กรดด่างแก้ได้) ก่อน แล้วจึงผ่าตัด",
+  "interp": "ถามเวลาที่เหมาะสมในการผ่าตัด <b>congenital diaphragmatic hernia (CDH)</b>",
+  "why": "CDH ไม่ใช่การผ่าตัดฉุกเฉิน — ปัญหาหลักคือ <b>pulmonary hypoplasia + pulmonary hypertension</b> → ต้อง<b>ทำให้ภาวะคงที่ก่อน (delayed repair)</b>: ใส่ท่อช่วยหายใจ (ห้าม bag-mask), OG/ NG suction, gentle ventilation, <b>แก้ไขภาวะกรด (acidosis) เกลือแร่ hypoxia และ hypercarbia</b>, ± iNO/ ECMO แล้วจึงผ่าตัดเมื่อคงที่ (มักหลังคลอด 2–7 วัน) · ไฟล์ขีด D และแปะตำราไทย <b>\"…ก่อนผ่าตัดต้องแก้ไขความผิดปกติของน้ำ เกลือแร่ และภาวะเป็นกรด รวมทั้ง hypoxia และ hypercarbia เสียก่อน เพราะการผ่าตัดรีบด่วน ในขณะที่เด็กยังไม่พร้อมนั้น มีผลเสีย ในปัจจุบันจึงแนะนำให้ผ่าตัดหลังจากเด็กมีสภาวะคงที่แล้ว\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น CDH ที่มาช้าในเด็กโต (late presentation) แล้วกระเพาะหรือลำไส้ในอกบิดขาดเลือด — ผ่าตัดด่วน",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ใช้เวลาตายตัว 6 ชม.หลังคลอดเป็นเกณฑ์ผ่าตัด เพราะช่วงแรกความดันปอดยังสูงและไม่คงที่ — เวลาผ่าตัดขึ้นกับสภาพทารก ไม่ใช่ชั่วโมงหลังคลอด",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การใส่สายระบายทรวงอกเป็นตัวกำหนดเวลาผ่าตัด CDH เพราะสิ่งที่อยู่ในอกคือลำไส้ ไม่ใช่ลมหรือน้ำ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่น้ำหนักตัวเป็นเกณฑ์ผ่าตัด CDH เพราะสิ่งที่ตัดสินคือการหายใจและไหลเวียนคงที่ ไม่ใช่ขนาดตัว"
+   "A": "ผ่าตัดทันทีหลังวินิจฉัยเป็นแนวทางเก่า ผลแย่กว่า · จะถูกถ้าคำถามถามแนวทางในอดีต (ก่อนยุค delayed repair)",
+   "B": "6 ชม.หลังคลอดยังไม่ใช่เกณฑ์ ใช้ความคงที่ทางสรีรวิทยาเป็นหลัก · จะถูกถ้าคำถามถามเวลาเริ่มให้ surfactant ในทารกก่อนกำหนด",
+   "C": "ไม่ใส่ chest tube ใน CDH (เสี่ยงทะลุลำไส้ในอก) · จะถูกถ้าทารก CDH เกิด pneumothorax ข้างตรงข้ามจากการช่วยหายใจ",
+   "E": "น้ำหนักไม่ใช่เกณฑ์ผ่าตัด CDH · จะถูกถ้าคำถามถามเกณฑ์ผ่าตัดไส้เลื่อนขาหนีบในทารกก่อนกำหนดก่อนกลับบ้าน"
   },
-  "trap": "เห็นลำไส้อยู่ในอกแล้วคิดว่าต้องรีบเอาออกเพื่อให้ปอดขยาย — ปอดที่เล็กมาแต่กำเนิดไม่ได้โตขึ้นทันทีหลังผ่าตัด และการผ่าตัดขณะไม่คงที่ทำให้ความดันปอดแย่ลง",
+  "trap": "คิดว่าอวัยวะในอกต้องผ่าตัดเอาออกทันที — CDH ต้อง stabilize ก่อน",
   "summary": [
-   "<b>นอกสไลด์:</b> เกณฑ์ว่าพร้อมผ่าตัด (CDH EURO Consortium): ความดันเลือดปกติตามอายุครรภ์ · preductal SpO2 85–95% ด้วย FiO2 &lt; 50% · lactate &lt; 3 mmol/L · ปัสสาวะ > 1 mL/kg/ชม. — มักผ่าตัดหลังวันที่ 2–3 ขึ้นไป บางศูนย์ผ่าตัดระหว่างอยู่บน ECMO"
+   "CDH: Bochdalek ซ้าย ~85% · scaphoid abdomen",
+   "ห้าม bag-mask → intubate + OG suction",
+   "Gentle ventilation · permissive hypercapnia · iNO/ ECMO",
+   "แก้ acidosis/ hypoxia/ hypercarbia → ผ่าตัดเมื่อคงที่",
+   "ห้ามใส่ chest tube เพื่อรักษา CDH",
+   "พยากรณ์ขึ้นกับ pulmonary hypoplasia/ HT"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และตำราที่แปะ",
+  "mnemonic": "<b>'CDH: Stabilize first, Surgery later'</b>",
+  "guide": "CDH EURO Consortium Consensus — 2015 update (Neonatology 2016;110:66); Coran's Pediatric Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> CDH ซ้ายวินิจฉัยก่อนคลอด อัตราส่วนปอดต่อศีรษะ (o/e LHR) ต่ำมาก → วางแผนคลอดที่ศูนย์ที่มี ECMO และพิจารณาใส่บอลลูนอุดหลอดลมในครรภ์ (FETO)",
-   "<b>นอกสไลด์:</b> ผู้ใหญ่ไม่มีอาการ ภาพอกพบลำไส้ผ่านช่องกระบังลมด้านหน้าหลังกระดูก sternum → Morgagni hernia: ผ่าตัดซ่อม (มักผ่านกล้อง) เพราะเสี่ยงลำไส้ติดค้าง"
+   "ทารก CDH หลังคลอดเขียว → intubate + OG → ventilate → ผ่าตัดเมื่อคงที่",
+   "ทารก CDH pulmonary HT รุนแรง → iNO/ ECMO",
+   "ทารก CDH ได้ bag-mask แล้วแย่ลง → ลมเข้าลำไส้ในอก"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 95 — ตัวพิมพ์: <b>11. เมื่อใดที่จะนำคนไข้congenital diaphragmatic hernia ไปทำการผ่าตัด — A. ทันทีที่วินิจฉัยได้ B. 6 ชม.หลังคลอด C. เมื่อใส่ chest tube D. เมื่อแก้ไขภาวะ acidosis ได้ E. เมื่อน้ำหนักรวมมากกว่า 2500 grams</b><br>ลายมือ: ขีด D<br>ไฮไลต์: \"นำคนไข้congenital diaphragmatic hernia ไปทำการผ่าตัด\" · D \"แก้ไขภาวะ acidosis ได้\" (เหลือง)<br>รูปที่แปะ: ตำราไทย (ลายมือ \"cong. diaphragmatic hernia\") — \"Treatment ในระยะแรกรับถ้าวินิจฉัยได้ หรือสงสัยโรคนี้ ควรช่วยการหายใจโดยใส่ endotracheal tube และบีบ ambu bag ไม่ควรใช้ mask เพราะจะอัดลมเข้าไปในกระเพาะอาหารและลำไส้ ทำให้ปอดถูกเบียดมากขึ้น ควรคาท่อ nasogastric ไว้ดูดลมและน้ำ … <b>ก่อนผ่าตัดต้องแก้ไขความผิดปกติของน้ำ เกลือแร่ และภาวะเป็นกรด รวมทั้ง hypoxia และ hypercarbia เสียก่อน เพราะการผ่าตัดรีบด่วน ในขณะที่เด็กยังไม่พร้อมนั้น มีผลเสีย ในปัจจุบันจึงแนะนำให้ผ่าตัดหลังจากเด็กมีสภาวะคงที่แล้ว</b> · ในปัจจุบัน นิยมทำผ่าตัดโดยเปิดช่องท้อง แล้วดึงส่วนของกระเพาะอาหาร ลำไส้ หรือม้าม ที่ขึ้นไปในทรวงอก ให้กลับเข้ามาในช่องท้อง … การใส่หรือไม่ใส่ท่อ intercostal drainage หลังผ่าตัด ยังมีความเห็นแตกต่างกันมาก …\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 95",
+  "kimg": [
+   "fsk_p95",
+   "kp67a_11"
   ]
  },
  "MDCU67|RoA|12": {
-  "interp": "เด็ก 3 ปี ก้อนคอข้างเดียว แข็ง เรียบ ไม่แดง PPD บวก → ถามขั้นต่อไป · ประเด็นคือ PPD บวกยังไม่ได้บอกว่าเป็น TB",
-  "why": "<b>คีย์: ขีด B (start anti-TB) — เฉลยนี้ตอบ E</b><br><b>นอกสไลด์:</b> PPD บวกไม่ได้ยืนยันว่าก้อนเป็นวัณโรค ผลบวกเกิดจากการติด NTM ได้ · ก้อนต่อมน้ำเหลืองควรพิสูจน์ทางเนื้อเยื่อหรือเชื้อก่อนให้ยาวัณโรค 6 เดือน: FNA ส่งเซลล์วิทยา ย้อม AFB, Xpert MTB/RIF และเพาะเชื้อ — แยก TB, NTM และมะเร็ง ซึ่งรักษาต่างกันมาก",
+  "interp": "เด็กชาย 3 ปี มี<b>ก้อนที่คอขวา แข็ง ผิวเรียบ ไม่แดง</b> และ <b>PPD บวก</b> → ถาม<b>การตรวจขั้นต่อไป (next investigation)</b>",
+  "why": "ก้อนต่อมน้ำเหลืองที่คอเรื้อรัง + PPD บวก สงสัย <b>TB lymphadenitis (scrofula)</b> แต่ในเด็กเล็กต้องแยก <b>nontuberculous mycobacteria (NTM)</b> ซึ่ง PPD อาจบวกได้และรักษาต่างกัน (NTM → ผ่าตัด excision) และแยก lymphoma → ขั้นต่อไปคือ<b>ยืนยันการวินิจฉัยด้วย FNA</b> ส่งเซลล์วิทยา AFB stain/ culture/ PCR (GeneXpert) ก่อนเริ่มยา · <b>ห้ามผ่า I&amp;D</b> (เกิด sinus/ fistula เรื้อรัง) · เมื่อยืนยัน TB → <b>2HRZE + 4HR</b> · ไฟล์ขีด B (Start anti-TB drug) ลายมือ <b>\"2HRZE + 4HR\"</b> และแปะสไลด์ <b>A 15-year-old girl with chronic lymphadenitis — Diagnosis: TB lymphadenitis · The most appropriate Rx (BW 60 kg) 2HRZE + 4HR · TB Tips: Do not perform I&amp;D</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้า FNA ไม่ได้คำตอบและยังสงสัย lymphoma (ก้อนโตเร็ว แข็ง ไข้ เหงื่อออกกลางคืน) — ตัดต่อมทั้งต่อมส่งตรวจ",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ามีหลักฐานว่าเป็น TB: สัมผัสผู้ป่วยวัณโรคในบ้าน CXR ผิดปกติ หรือ FNA พบ granuloma ร่วม PCR วัณโรคบวก — 2HRZE/4HR (ลายมือคีย์)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ตรวจ PPD ซ้ำช่วยในก้อนที่ PPD บวกแล้ว เพราะผลบวกไม่หายไปและไม่ได้แยก TB กับ NTM",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนเล็ก (ราว &lt; 1.5–2 cm) โตขึ้นหลังหวัด และ PPD บวกอธิบายได้จาก BCG — เฝ้าดู 2–4 สัปดาห์ (± US)"
+   "A": "Excisional biopsy เป็นการรักษาหลักของ NTM และใช้เมื่อ FNA ไม่ได้ผล/ สงสัย lymphoma แต่ไม่ใช่ขั้นแรกเมื่อสงสัย TB · จะถูกถ้าเด็กก้อนคอสีม่วงคล้ำ PPD บวกอ่อน CXR ปกติ สงสัย NTM",
+   "B": "เริ่มยาต้านวัณโรคตามคีย์ในไฟล์ (ขีด B + \"2HRZE + 4HR\") แต่ควรยืนยันด้วย FNA/ AFB/ culture ก่อนเพราะคำถามถาม next investigation · จะถูกถ้าคำถามถามการรักษาหลังยืนยัน TB lymphadenitis แล้ว",
+   "C": "ทำ PPD ซ้ำไม่ได้ข้อมูลเพิ่ม (ผลบวกแล้ว) · จะถูกถ้า PPD ครั้งแรกอ่านไม่ได้/ คลาดเคลื่อน",
+   "D": "US + เฝ้าดูใช้กับต่อมน้ำเหลืองโตจาก reactive ระยะสั้น ไม่ใช่ก้อนเรื้อรัง PPD บวก · จะถูกถ้าเด็กต่อมน้ำเหลืองโตเล็กน้อยหลังเป็นหวัด 2 สัปดาห์"
   },
-  "trap": "ให้ยาวัณโรค 6 เดือนเพราะ PPD บวกโดยไม่พิสูจน์เชื้อ — ก้อน NTM ไม่ตอบสนองต่อสูตรยาวัณโรค และมะเร็งจะถูกวินิจฉัยช้า",
+  "trap": "ผ่า I&amp;D ก้อน TB หรือเริ่มยาโดยไม่มีหลักฐานเชื้อ — ยืนยันด้วย FNA ก่อน (คำถามถาม next investigation) · คีย์ในไฟล์ขีด B",
   "summary": [
-   "<b>นอกสไลด์:</b> แยก TB กับ NTM: TB → อายุใดก็ได้ มีผู้สัมผัส CXR ผิดปกติ ต่อมหลายต่อมสองข้าง IGRA บวก · NTM → เด็ก 1–5 ปี ข้างเดียว (ใต้ขากรรไกร หน้าหู) ผิวเหนือก้อนกลายเป็นสีม่วงบางในระยะหลัง CXR ปกติ ไม่มีผู้สัมผัส IGRA มักลบ"
+   "TB lymphadenitis: ก้อนคอเรื้อรัง ไม่เจ็บ matted ± sinus",
+   "วินิจฉัย: FNA → cytology + AFB + culture + PCR",
+   "ห้าม I&amp;D (sinus/ fistula เรื้อรัง)",
+   "รักษา: 2HRZE + 4HR",
+   "NTM ในเด็กเล็ก: ก้อนสีม่วง ไม่มีอาการ → excision",
+   "ต่อมน้ำเหลืองไม่ยุบ/ สงสัย lymphoma → excisional biopsy"
   ],
-  "opinion": "ตอบ E (FNA) ต่างจากคีย์ B (start anti-TB) ความมั่นใจปานกลาง — ถ้าโจทย์จริงมีประวัติสัมผัสวัณโรคหรือ CXR ผิดปกติ คีย์ B สมเหตุผล",
+  "opinion": "เห็นด้วยกับคำตอบ E ของเว็บ ความมั่นใจปานกลาง — โจทย์ถาม next investigation จึงควรยืนยันด้วย FNA ก่อน · คีย์ในไฟล์ MCQ Key 2 ขีด B (start anti-TB drug) พร้อมสูตรยา ซึ่งเป็นการรักษาหลังยืนยันการวินิจฉัย",
+  "mnemonic": "<b>'ก้อนคอ TB: FNA ยืนยัน → ยา (2HRZE/4HR) · ห้ามผ่าระบาย'</b>",
+  "guide": "WHO Consolidated Guidelines on Tuberculosis Module 5: Management in Children and Adolescents (2022); แนวทางการควบคุมวัณโรคประเทศไทย พ.ศ. 2564",
   "variants": [
-   "<b>นอกสไลด์:</b> FNA ก้อนคอเด็กพบ granuloma ย้อม AFB บวก แต่ PCR วัณโรคลบ เพาะเชื้อขึ้น M. avium complex → NTM lymphadenitis",
-   "<b>นอกสไลด์:</b> เด็กไข้ 5 วัน ตาแดงไม่มีขี้ตา ริมฝีปากแดงแตก ต่อมคอโตข้างเดียว ≥ 1.5 cm → Kawasaki disease: echo หลอดเลือดหัวใจ"
+   "FNA พบ caseating granuloma AFB บวก → 2HRZE + 4HR",
+   "เด็ก 2 ปีก้อนใต้คางสีม่วง CXR ปกติ → NTM → excision",
+   "ก้อน TB แตกเป็นแผลเรื้อรัง → ยาต้านวัณโรค (ไม่ต้องผ่า)"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 95 — ตัวพิมพ์: <b>12. 3 years old boy come to your office with right neck mass, firm, smooth surface, no erythema, PPD +ve.* What is your next investigation? — A. Biopsy, Frozen-section, Excision B. Start Anti-TB drug C. PPD test again D. Ultrasound and watchful waiting E. FNA for diagnosis</b><br>ลายมือ: ดอกจันหลัง PPD +ve · ขีด B + \"2HRZE + 4HR\"<br>ไฮไลต์: \"3 years old boy\" \"right neck mass\" \"firm, smooth surface, no erythema\" \"PPD +ve\" \"next investigation\" · B (เหลือง)<br>รูปที่แปะ: สไลด์ A 15-year-old girl with chronic lymphadenitis — DIAGNOSIS: TB lymphadenitis · THE MOST APPROPRIATE RX (BW 60 KG): 2HRZE + 4HR · ภาพก้อนที่คอ ภาพ AFB และผล Mycobacterium culture · <b>TB Tips: Do not perform I&amp;D</b> (ลายมือ \"incision &amp; drainage → เกิด sinus …\")<br>ที่ปรับในเว็บ: คำตอบเว็บ E (FNA for diagnosis) ตามคำถาม next investigation (คีย์ไฟล์ B)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 95",
+  "kimg": [
+   "fsk_p95",
+   "kp67a_12"
   ]
  },
  "MDCU67|RoA|16": {
-  "interp": "ถามว่าใคร \"ต้องการการคัดกรอง\" มะเร็งลำไส้ใหญ่น้อยที่สุด · ต้นฉบับมีอายุและเวลาที่ตรวจครั้งล่าสุดซึ่ง recall ไม่ได้",
-  "why": "<b>คีย์: ไม่มีเฉลย (ผู้จดใส่ ? + ตารางความถี่การคัดกรอง)</b><br><b>นอกสไลด์:</b> การคัดกรองใช้กับคนที่ \"ไม่มีอาการ\" — ผู้ที่เลือดแฝงในอุจจาระบวกร่วมน้ำหนักลดมีอาการเตือนแล้ว ต้องส่องกล้องเพื่อวินิจฉัย (diagnostic) ทันที จึงไม่อยู่ในกลุ่มคัดกรอง · FAP, PJS และ UC ที่เป็นนาน เป็นกลุ่มเสี่ยงสูงที่ต้องคัดกรองตามรอบ",
+  "interp": "ถามว่าใคร<b>เข้าข่ายการ \"คัดกรอง\" มะเร็งลำไส้ใหญ่น้อยที่สุด</b> (ต้นฉบับให้อายุและเวลาที่ตรวจครั้งล่าสุดมาด้วย)",
+  "why": "การคัดกรอง (screening) ใช้กับผู้<b>ไม่มีอาการ</b>ตามระดับความเสี่ยง · ผู้ที่มี <b>occult blood บวก + น้ำหนักลด</b> เป็นผู้<b>มีอาการ/ สัญญาณเตือน</b> → ต้องได้ <b>diagnostic colonoscopy</b> (ไม่ใช่การคัดกรอง) จึงเข้าข่าย \"screening\" น้อยที่สุด · กลุ่มอื่นเป็นกลุ่มเสี่ยงสูงที่ต้องคัดกรองถี่: <b>FAP</b> (flexible sigmoidoscopy/ colonoscopy เริ่ม 10–12 ปี ทุก 1–2 ปี), <b>Peutz-Jeghers</b>, <b>UC/ Crohn colitis &gt; 8 ปี</b> (pancolitis) หรือ 15 ปี (left-sided) → colonoscopy ทุก 1–2 ปี · ไฟล์ไม่ได้ขีดคำตอบ (มี \"?\" หน้าเลขข้อ) แต่แปะตาราง <b>Screening guidelines for colorectal cancer (Table 29-2)</b> และสรุปลายมือความถี่การคัดกรอง",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย FAP ตัดลำไส้ใหญ่และ rectum ทั้งหมดแล้ว — ไม่มี colon ให้คัดกรอง (ยังต้องส่องถุง pouch และ duodenum)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย PJS เพิ่งส่องกล้องเมื่อไม่นานและผลปกติ ยังไม่ถึงรอบ (ทุก 2–3 ปี)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าอุจจาระดำเป็น melena จากเลือดออกทางเดินอาหารส่วนบน — ส่องกระเพาะก่อน ไม่ใช่การคัดกรองลำไส้ใหญ่",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย UC เพิ่งส่องกล้องคัดกรองตามรอบและผลปกติ (รอบทุก 1–3 ปีตามความเสี่ยงหลังเป็นมา 8 ปี)"
+   "B": "FAP ต้องคัดกรองเข้มข้น เริ่ม 10–12 ปี (flexible sigmoidoscopy/ colonoscopy ทุก 1–2 ปี) · จะถูกถ้าผู้ป่วย FAP ได้ proctocolectomy ไปแล้ว",
+   "C": "Peutz-Jeghers เสี่ยงมะเร็งลำไส้ใหญ่และทางเดินอาหาร ต้องส่องกล้องเป็นระยะ · จะถูกถ้าเป็นเด็กเล็กมากก่อนอายุเริ่มคัดกรอง",
+   "D": "อุจจาระดำ ลำเล็กลงเป็นอาการเตือน → ต้องส่องกล้องวินิจฉัย (ไม่ใช่ screening เช่นกัน) แต่ตัวเลือก A มีทั้งเลือดแฝงบวกและน้ำหนักลดชัดเจนกว่า · จะถูกถ้าคำถามถามผู้ที่ต้องส่องกล้องวินิจฉัยด่วน",
+   "E": "UC 14 ปีเสี่ยงมะเร็งสูง → colonoscopy surveillance ทุก 1–2 ปี · จะถูกถ้าเป็น ulcerative proctitis อย่างเดียว (เสี่ยงต่ำ)"
   },
-  "trap": "ส่งผู้ที่มีอาการเตือนไปตรวจ FIT หรือนัดตามรอบคัดกรอง — ผู้มีอาการต้องส่องกล้องเพื่อวินิจฉัยทันที",
+  "trap": "ข้อนี้คีย์ในไฟล์ไม่ได้เลือก — ต้องแยก screening (ไม่มีอาการ) กับ diagnostic workup (มีอาการ)",
   "summary": [
-   "<b>นอกสไลด์:</b> รอบคัดกรองกลุ่มเสี่ยงสูง: FAP ทุก 12 เดือนเริ่ม 10–15 ปี · Lynch ทุก 1–2 ปีเริ่ม 20–25 ปี · PJS เริ่มราววัยรุ่นตอนปลาย ทุก 2–3 ปี · UC/Crohn colitis เริ่มหลังเป็นมาราว 8 ปี ทุก 1–3 ปี (ร่วม PSC ทุกปีตั้งแต่วินิจฉัย)",
-   "<b>นอกสไลด์:</b> อาการเตือนที่ต้องส่องกล้องวินิจฉัยแทนการคัดกรอง: เลือดออกทางทวาร น้ำหนักลด การขับถ่ายเปลี่ยน อุจจาระลำเล็กลง"
+   "Average risk: เริ่ม 45–50 ปี · colonoscopy ทุก 10 ปี / FIT ทุกปี",
+   "Adenoma: colonoscopy 3–10 ปีตามความเสี่ยง",
+   "FAP: เริ่ม 10–12 ปี ทุก 1–2 ปี",
+   "HNPCC: เริ่ม 20–25 ปี ทุก 1–2 ปี",
+   "UC/ Crohn colitis: เริ่ม 8 ปีหลังเป็น ทุก 1–2 ปี",
+   "มีอาการ (เลือดออก น้ำหนักลด ซีด) → diagnostic colonoscopy"
   ],
-  "opinion": "ไม่มีคีย์ — ตอบ A ความมั่นใจต่ำ · recall ตัดอายุและเวลาที่ตรวจครั้งล่าสุดออก และช้อย D (อุจจาระดำ) ก็เป็นผู้มีอาการเช่นกัน",
+  "opinion": "ตอบ A ความมั่นใจปานกลาง — คีย์ในไฟล์ MCQ Key 2 ไม่ได้เลือก (มีเพียง \"?\") · ผู้มีอาการ/ เลือดแฝงบวกต้องส่องกล้องวินิจฉัยไม่ใช่คัดกรอง · โจทย์ต้นฉบับมีข้อมูลอายุและเวลาที่ตรวจครั้งล่าสุดซึ่งผู้จดจำไม่ได้",
+  "mnemonic": "<b>'Screening = ไม่มีอาการ · มีอาการ = Diagnostic'</b>",
+  "guide": "NCCN Colorectal Cancer Screening v.2025; US Multi-Society Task Force on Colorectal Cancer Screening (Gastroenterology 2017;153:307)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 60 ปีซีดจากขาดธาตุเหล็ก ไม่มีอาการทางเดินอาหาร → ส่องกล้องทั้งกระเพาะและลำไส้ใหญ่เพื่อวินิจฉัย",
-   "<b>นอกสไลด์:</b> ชาย 80 ปีคัดกรองสม่ำเสมอผลปกติ มีโรคร่วมหลายโรค → พิจารณาหยุดคัดกรองตามสุขภาพและอายุขัย (อายุ 76–85 ตัดสินรายบุคคล เกิน 85 ไม่แนะนำ)"
+   "ชาย 50 ปีไม่มีอาการ → colonoscopy ทุก 10 ปี",
+   "ชาย 60 ปีซีด เลือดแฝงบวก → diagnostic colonoscopy",
+   "UC pancolitis 10 ปี → surveillance colonoscopy ทุก 1–2 ปี"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 95 — หัวข้อ Colorectal · ตัวพิมพ์: <b>16. ใครควรทำ Colon cancer screening ด้วย Colonoscope/ Barium enema/ Rigid sigmoidoscope น้อยที่สุด (ให้อายุ และช่วงเวลาที่ทำล่าสุดมาให้ ไปดู Screening cancer ว่าทำอะไรเวลาไหน) — A. Occult blood positive &amp; Weight loss B. FAP C. Peutz-Jegher syndrome D. อุจจาระสีดำและลำเล็กลง E. Ulcerative colitis มา 14 ปี</b><br>ลายมือ: \"?\" หน้าเลขข้อ · ไม่ได้ขีดช้อย<br>ไฮไลต์: \"Colon cancer screening ด้วย Colonoscope/ Barium enema/ Rigid sigmoidoscope น้อยที่สุด\" (เหลือง)<br>รูปที่แปะ: ตาราง Screening guidelines for colorectal cancer (Table 29-2: Average risk · Adenomatous polyps · Colorectal cancer · Ulcerative colitis, Crohn's colitis · FAP · Attenuated FAP · HNPCC · Familial colorectal cancer first-degree relative) และสรุปลายมือ — ทั่วไป start 50 yr: FOBT q 1 yr, flexible sigmoidoscopy q 5 yr, colonoscope q 10 yr, Ba enema q 5 yr · Adenoma polyp 50 yr: colono 3 yr → 5 yr · Colorectal CA: at dx, หลังผ่าตัด 1 yr → 3 yr → 5 yr · UC, Crohn: pancolitis → 8 yr, left-side colitis → 15 yr → q 1–2 yr colono · FAP: start 10–12 yr → flex. sigmoid q 1 yr · HNPCC: 20–25 yr → colono q 1–2 yr · 1st degree FH: อายุญาติ −10 yr → colono q 5 yr",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 95",
+  "kimg": [
+   "fsk_p95",
+   "kp67a_16"
   ]
  },
  "MDCU67|RoA|17": {
-  "interp": "ถามวิธีคัดกรองมะเร็งลำไส้ใหญ่ที่ดีที่สุด",
-  "why": "<b>คีย์: ขีด A</b><br><b>นอกสไลด์:</b> colonoscopy เห็นทั้ง colon และตัด polyp ได้ในครั้งเดียว จึงทั้งตรวจหาและป้องกันมะเร็ง — เป็นมาตรฐานอ้างอิงที่การตรวจอื่นต้องตามด้วยเมื่อผลผิดปกติ",
+  "interp": "ถามวิธี<b>คัดกรองมะเร็งลำไส้ใหญ่ที่ดีที่สุด</b>",
+  "why": "<b>Colonoscopy</b> ดีที่สุด — เห็นลำไส้ใหญ่ทั้งหมด ไวสูงต่อ adenoma/ มะเร็ง และ<b>ตัด polyp ได้ในครั้งเดียว</b> (ป้องกันมะเร็ง) ทำทุก 10 ปีถ้าปกติ และเป็นขั้นตอนตามหลังทุกวิธีที่ผลผิดปกติ · ไฟล์ขีด A",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยไม่ยอมหรือไม่เหมาะกับการส่องกล้อง (เสี่ยงดมยา ส่องไม่ถึง cecum) — CT colonography ทุก 5 ปี",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าคัดกรองระดับประชากรที่ทรัพยากรจำกัด — FIT ทุกปีแล้วส่องกล้องเมื่อผลบวก (แนวทางของไทย)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ barium enema เป็นวิธีคัดกรองที่แนะนำในปัจจุบัน เพราะไว้ต่อ polyp เล็กต่ำ และถูกแทนด้วย CT colonography",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ rigid sigmoidoscopy เป็นวิธีคัดกรองที่ดีที่สุด เพราะเห็นได้แค่ rectum และ sigmoid ส่วนปลาย"
+   "B": "CT colonography เป็นทางเลือกทุก 5 ปี แต่ตัด polyp ไม่ได้ มีรังสี · จะถูกถ้าผู้ป่วยส่องกล้องไม่ได้/ ไม่ถึง cecum",
+   "C": "Stool occult blood (FIT) ง่าย ใช้ระดับประชากร แต่ไวน้อยกว่าและผลบวกต้องส่องกล้อง · จะถูกถ้าคำถามถามวิธีคัดกรองระดับประชากรที่คุ้มค่า",
+   "D": "Barium enema ไวต่ำ ถูกแทนที่แล้ว · จะถูกถ้าคำถามถามวิธีในอดีต",
+   "E": "Rigid sigmoidoscopy เห็นแค่ ~25 cm ล่าง · จะถูกถ้าคำถามถามการตรวจ rectum ที่ OPD"
   },
-  "trap": "การตรวจที่ \"ดีที่สุด\" ในระดับประชากรคือการที่คนยอมตรวจต่อเนื่อง — FIT ทุกปีลดการตายได้ใกล้เคียงถ้าทำครบ แต่ในข้อสอบ colonoscopy เป็นคำตอบมาตรฐาน",
+  "trap": "ตอบ FOBT เพราะใช้แพร่หลาย — ดีที่สุดคือ colonoscopy",
   "summary": [
-   "<b>นอกสไลด์:</b> ตัวเลือกคัดกรอง (เริ่มอายุ 45 ถึง 75 ปี): colonoscopy ทุก 10 ปี · FIT ทุกปี · stool DNA-FIT ทุก 1–3 ปี · CT colonography ทุก 5 ปี · flexible sigmoidoscopy ทุก 5 ปี · ผลผิดปกติจากการตรวจอื่นทุกชนิด → colonoscopy"
+   "Colonoscopy: ทุก 10 ปี · ตัด polyp ได้",
+   "FIT: ทุกปี · ผลบวก → colonoscopy",
+   "CT colonography/ flex sig: ทุก 5 ปี",
+   "เริ่ม 45 ปี (US) / 50 ปี (ไทย)",
+   "กลุ่มเสี่ยงสูง → เริ่มเร็วและถี่กว่า",
+   "วิธีที่ดีที่สุดคือวิธีที่ผู้ป่วยทำจริง"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'Colonoscopy = ดูทั้งเส้น + ตัดได้เลย'</b>",
+  "guide": "USPSTF Recommendation: Screening for Colorectal Cancer (JAMA 2021;325:1965)",
   "variants": [
-   "<b>นอกสไลด์:</b> colonoscopy ครั้งแรกพบ tubular adenoma 2 ตัว ขนาด &lt; 10 mm ตัดหมด → ส่องซ้ำราว 7–10 ปี",
-   "<b>นอกสไลด์:</b> ส่องกล้องแล้วลำไส้ไม่สะอาดพอ (เห็นเยื่อบุไม่ทั่ว) → เตรียมลำไส้ใหม่และส่องซ้ำภายใน 1 ปี"
+   "ชาย 50 ปีไม่มีอาการ → colonoscopy ทุก 10 ปี",
+   "FIT บวก → colonoscopy",
+   "ส่องไม่ถึง cecum → CT colonography"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 95 — ตัวพิมพ์: <b>17. ข้อใดเป็น screening for Colorectal cancer ได้ดีที่สุด — A. Colonoscope B. CT colonography C. Stool occult blood D. Barium enema E. Rigid sigmoidoscope</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"screening for Colorectal cancer ได้ดีที่สุด\" · A (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 95",
+  "kimg": [
+   "fsk_p95",
+   "kp67a_17"
   ]
  },
  "MDCU67|RoA|18": {
-  "interp": "เลือดสดออกทางทวาร 3 เดือน ตรวจพบริดสีดวงภายใน ไม่มีก้อน → ถามการรักษา · อายุ 2 ปีในโจทย์น่าจะ recall ผิด และโจทย์ไม่บอก grade",
-  "why": "<b>คีย์: ขีด A · ลายมือ: rubber band ก็ได้</b><br><b>นอกสไลด์:</b> ริดสีดวงภายในที่เลือดออกโดยไม่ปลิ้นหรือปลิ้นแล้วกลับเอง (grade I–II) และไม่หายด้วยอาหารเส้นใยและยา → หัตถการในห้องตรวจ: sclerotherapy ฉีดสารเข้าใต้เยื่อบุเหนือ dentate line ให้เกิดพังผืดยึดและหลอดเลือดฝ่อ",
+  "interp": "ชายมี<b>เลือดสดออกทางทวาร</b> (เคยมีมูกเลือด 3 เดือนก่อน) ตรวจพบ<b>ริดสีดวงภายใน ไม่มีก้อนที่คลำได้</b> → ถามการจัดการ (ต้นฉบับจำอายุได้ว่า 2 ปี ซึ่งน่าจะคลาดเคลื่อน)",
+  "why": "ริดสีดวงภายใน<b>ระดับต้น (grade I–II) ที่มีเลือดออก</b>และตรวจไม่พบก้อนอื่น → นอกจากปรับอาหาร (ใยอาหาร น้ำ) ใช้<b>หัตถการที่ OPD</b>: <b>sclerotherapy (ฉีดสารทำให้แข็ง)</b> เหมาะกับ grade I–II ที่มีเลือดออก และ <b>rubber band ligation</b> (ได้ผลดีที่สุดใน grade I–III) · การผ่าตัด hemorrhoidectomy สงวนไว้ grade III–IV/ ไม่ตอบสนอง · ในผู้ใหญ่อายุมากหรือมีอาการเตือน ควรส่องกล้องตัดมะเร็งร่วม · ไฟล์ขีด A ลายมือ <b>\"rubber band ก็ได้\"</b> และแปะสรุปลายมือการรักษาริดสีดวง",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นริดสีดวงภายใน grade III ที่ต้องดันกลับเอง ไม่มีส่วนภายนอก — RBL ได้ผลดีที่สุดในหัตถการที่ทำในห้องตรวจ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น grade IV หรือ mixed ก้อนใหญ่ หรือรักษาด้วยหัตถการในห้องตรวจแล้วไม่ได้ผล",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าอายุ ≥ 45–50 ปี มีอาการเตือน (ซีด น้ำหนักลด การถ่ายเปลี่ยนแปลง) หรือประวัติครอบครัวมะเร็งลำไส้ — ต้องหาสาเหตุอื่นก่อนสรุปว่าเลือดมาจากริดสีดวง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามีข้อบ่งชี้ตรวจทั้ง colon แต่ส่องกล้องไม่ได้หรือส่องไม่ถึง cecum"
+   "B": "Rubber band ligation ใช้ได้ดี (ลายมือ \"rubber band ก็ได้\") และเป็นหัตถการ OPD ที่ได้ผลดีที่สุดในหลายแนวทาง แต่คีย์เลือก sclerosing agent สำหรับเลือดออก grade ต้น · จะถูกถ้าริดสีดวง grade II–III ยื่นออกเวลาเบ่งแล้วกลับเอง",
+   "C": "Hemorrhoidectomy ใช้กับ grade III–IV, mixed, thrombosed ขนาดใหญ่ หรือไม่ตอบสนองหัตถการ · จะถูกถ้าริดสีดวง grade IV ดันกลับไม่ได้",
+   "D": "Colonoscopy ทำเมื่ออายุ &gt; 45–50 ปี มีอาการเตือน หรือประวัติครอบครัว · จะถูกถ้าชาย 60 ปีถ่ายเป็นเลือด น้ำหนักลด",
+   "E": "CT colonography ไม่ใช่การจัดการริดสีดวง · จะถูกถ้าผู้ป่วยต้องคัดกรองแต่ส่องกล้องไม่ได้"
   },
-  "trap": "ฉีดสารหรือรัดยางต่ำกว่า dentate line → ปวดมาก เพราะใต้ dentate line มีเส้นประสาทรับความรู้สึกแบบผิวหนัง ต้องทำเหนือแนวนี้เสมอ",
+  "trap": "รีบผ่าตัดริดสีดวงที่ยังเป็นระดับต้น — grade I–II ใช้หัตถการ OPD",
   "summary": [
-   "<b>นอกสไลด์:</b> sclerotherapy vs RBL: sclerotherapy ฉีดสาร (เช่น phenol ในน้ำมัน, polidocanol) เข้าใต้เยื่อบุที่ฐานก้อนเหนือ dentate line — ฉีดลึกด้านหน้าในชายเสี่ยงต่อมลูกหมากอักเสบ/ปัสสาวะคั่ง · RBL ได้ผลนานกว่า ใช้ได้ถึง grade III แต่ปวดและเลือดออกช่วงยางหลุด (ราว 7–10 วัน) มากกว่า"
+   "Grade I: ไม่ยื่น · II: ยื่นแล้วกลับเอง · III: ดันกลับ · IV: ดันไม่กลับ",
+   "ทุกระดับ: ใยอาหาร 25–30 g/ วัน · น้ำ · นิสัยการขับถ่าย",
+   "Grade I–II เลือดออก: sclerotherapy / rubber band / infrared",
+   "Grade II–III: rubber band ligation",
+   "Grade III–IV/ mixed: hemorrhoidectomy / stapled / DGHAL",
+   "อายุมาก/ อาการเตือน → colonoscopy"
   ],
-  "opinion": "ตามคีย์ A ความมั่นใจปานกลาง — อายุ 2 ปีน่าจะ recall ผิด และโจทย์ไม่บอก grade (ลายมือยอมรับ RBL ด้วย)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ลายมือในไฟล์ระบุ rubber band ก็ใช้ได้ (หลายแนวทางถือ RBL เป็นหัตถการที่ได้ผลดีที่สุดใน grade I–III) · อายุ 2 ปีในต้นฉบับน่าจะจำคลาดเคลื่อน",
+  "mnemonic": "<b>'ริดสีดวงเลือดออก grade ต้น = ฉีด (sclero) หรือ รัด (band)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024;67:614)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยกิน warfarin เลือดออกจากริดสีดวงภายใน grade II → เลือก sclerotherapy แทน RBL เพราะ RBL เสี่ยงเลือดออกมากตอนยางหลุด",
-   "<b>นอกสไลด์:</b> หลังรัดยางริดสีดวง 3 วัน ปวดทวารมากขึ้น มีไข้ ปัสสาวะลำบาก → pelvic sepsis: ยาปฏิชีวนะทางหลอดเลือดทันทีและ CT"
+   "ริดสีดวง grade I เลือดออก → ใยอาหาร + sclerotherapy/ RBL",
+   "ริดสีดวง grade III → RBL หรือ hemorrhoidectomy",
+   "ริดสีดวงภายนอกอักเสบอุดตัน &lt; 72 ชม. → excision"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 95–96 — ตัวพิมพ์: <b>18. ผู้ป่วยชายไทย อายุ 2 ปี!มีเลือดออก bright red blood เมื่อเช้า แพทย์ซักประวัติได้ว่า ถ่ายมีมูกเลือด 3 เดือนก่อน ตรวจร่างกายได้ Internal hemorrhoid without palpable mass* ควรจะ management อย่างไร — A. Sclerosing agent B. Rubber band C. Hemorrhoidectomy D. Colonoscopy E. CT colonography</b><br>ลายมือ: \"!\" หลังอายุ · ดอกจันหลัง mass · \"↳ rubber band ก็ได้\" · ขีด A<br>ไฮไลต์: \"ชายไทย อายุ 2 ปี\" \"เลือดออก bright red blood\" \"ถ่ายมีมูกเลือด 3 เดือนก่อน\" \"Internal hemorrhoid without palpable mass\" \"management\" · A (เหลือง)<br>รูปที่แปะ: สรุปลายมือการรักษาริดสีดวง — Tx: life style modification (fiber 25–30 g/d, toilet habit) · specific: 1. ambulatory procedure (rubber band ligation, sclerosing injection, bipolar coag) · 2. Sx: indication grade 3, 4 int. hemo., ext. hemo., combine hemo., complicate · Hemorrhoidectomy (open/ close/ stapler hemorrhoidopexy) · Hemorrhoid a. ligation · complication: urinary retention, bleeding, skin tag (ตัวเล็ก อ่านได้บางส่วน)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 95",
+  "kimg": [
+   "fsk_p95",
+   "kp67a_18"
   ]
  },
  "MDCU67|RoA|19": {
-  "interp": "ชาย 61 ปี acute diverticulitis — ถามการรักษาที่ดีที่สุดนอกจากสารน้ำ",
-  "why": "<b>ลายมือ: uncomplicated → IV fluid + ATB ± elective Sx · colonoscopy หลัง 6 wk</b><br><b>นอกสไลด์:</b> diverticulitis ที่ไม่มีภาวะแทรกซ้อนรักษาด้วยยาปฏิชีวนะครอบคลุมเชื้อ gram-negative และ anaerobe (เช่น ceftriaxone + metronidazole) ร่วมพักลำไส้ช่วงสั้น — ส่วนใหญ่หายโดยไม่ต้องผ่าตัด",
+  "interp": "ชายไทย 61 ปี <b>acute diverticulitis</b> → ถามการจัดการที่ดีที่สุดร่วมกับ IV fluid",
+  "why": "Diverticulitis ชนิด<b>ไม่ซับซ้อน (uncomplicated)</b> ที่ต้องนอนโรงพยาบาล → <b>IV fluid + ยาปฏิชีวนะครอบคลุม gram-negative และ anaerobe</b> (เช่น ceftriaxone + metronidazole) + พักลำไส้ · (แนวทางใหม่: uncomplicated ในผู้ป่วยแข็งแรงอาจไม่ต้องให้ยาปฏิชีวนะ) · <b>colonoscopy ทำหลังหายอักเสบ ~6–8 สัปดาห์</b>เพื่อตัดมะเร็ง (ห้ามทำช่วงอักเสบ เสี่ยงทะลุ) · ผ่าตัดฉุกเฉินเมื่อ peritonitis (Hartmann/ resection + anastomosis) · ไฟล์ขีด D ลายมือ <b>\"ถ้า Uncomplicated: IV fluid + ATB ± elective Sx · มี peritonitis: Emergency Sx! (1° resection + Hartmann procedure)\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ส่องกล้องเพื่อวินิจฉัยในช่วง acute diverticulitis เพราะลมที่เป่าเข้าไปเสี่ยงทำให้ลำไส้ที่อักเสบทะลุ — ส่องหลังหายราว 6–8 สัปดาห์",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้ามีลำไส้อุดตันหรือ ileus ร่วม อาเจียนท้องอืดมาก — ใส่สายดูดกระเพาะ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น Hinchey III–IV (หนองหรืออุจจาระกระจายในช่องท้อง) หรือไม่ดีขึ้นหลังให้ยาและระบายฝี — ผ่าตัดตัด sigmoid",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ APR เป็นการรักษา diverticulitis เพราะ rectum แทบไม่มี diverticula และ APR ตัดหูรูดทิ้ง ใช้กับมะเร็ง rectum ส่วนล่าง"
+   "A": "Colonoscopy ห้ามทำช่วงอักเสบเฉียบพลัน (เสี่ยงทะลุ) ทำหลัง 6–8 สัปดาห์ (ลายมือ \"for bleeding\") · จะถูกถ้าคำถามถามการตรวจหลังหายอักเสบเพื่อตัดมะเร็ง หรือ diverticular bleeding",
+   "B": "NG suction ใช้เมื่อมีลำไส้อุดตัน/ ileus อาเจียน ไม่ใช่การรักษาหลัก · จะถูกถ้า diverticulitis มีลำไส้อุดตันร่วม",
+   "C": "Sigmoidectomy ฉุกเฉินใช้เมื่อ peritonitis/ ทะลุ หรือ elective เมื่อเป็นซ้ำ/ ซับซ้อน · จะถูกถ้ามี purulent/ feculent peritonitis (Hinchey III–IV)",
+   "E": "APR ใช้กับมะเร็งไส้ตรงต่ำที่ลุกลามหูรูด (ลายมือ) · จะถูกถ้าคำถามถามมะเร็งไส้ตรงที่ลุกลามหูรูด"
   },
-  "trap": "ให้งดน้ำงดอาหารนานและรับนอนโรงพยาบาลทุกราย — uncomplicated ส่วนใหญ่กินอาหารเหลวได้ และรักษาแบบผู้ป่วยนอกได้ถ้ากินได้ ปวดคุมได้ ไม่มีโรคร่วมหนัก",
+  "trap": "ส่องกล้องดูทันทีระหว่างอักเสบ — ห้าม เสี่ยงทะลุ",
   "summary": [
-   "<b>นอกสไลด์:</b> ยาปฏิชีวนะใน uncomplicated diverticulitis (CT ไม่มีฝี ทะลุ ช่องทางผิดปกติ หรืออุดตัน): แนวทางปัจจุบัน (AGA) ให้แบบเลือกราย — ผู้ภูมิปกติอาการไม่มากอาจไม่ต้องให้ · ควรให้เมื่อ ภูมิต่ำ อายุมาก โรคร่วม ไข้สูง เม็ดเลือดขาวสูงมาก หรือดูป่วยมาก"
+   "Uncomplicated: ATB ± (ไม่ให้ในรายเลือก) + bowel rest",
+   "Abscess &gt; 3–4 cm → percutaneous drainage",
+   "Peritonitis (Hinchey III–IV) → Hartmann หรือ resection + anastomosis ± diverting",
+   "Colonoscopy หลัง 6–8 สัปดาห์ (ตัดมะเร็ง)",
+   "Elective sigmoidectomy: complicated/ ซ้ำบ่อย/ ภูมิต่ำ/ fistula",
+   "CT ท้อง: วินิจฉัยและจัดระดับ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Diverticulitis ไม่ซับซ้อน = น้ำเกลือ + ยา · ส่องกล้องรอ 6 สัปดาห์'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020;63:728); WSES Guidelines for Acute Left-Sided Colonic Diverticulitis (World J Emerg Surg 2020;15:32)",
   "variants": [
-   "<b>นอกสไลด์:</b> CT พบ pericolic abscess ขนาด 5 cm → ระบายฝีผ่านผิวหนัง (ฝี ≥ ราว 3 cm) ร่วมยาปฏิชีวนะ",
-   "<b>นอกสไลด์:</b> ผู้ป่วย diverticulitis มีลมออกปนปัสสาวะและปัสสาวะมีเศษอุจจาระ → colovesical fistula: ผ่าตัดตัด sigmoid และซ่อมกระเพาะปัสสาวะแบบนัด"
+   "CT diverticulitis + abscess 5 cm → percutaneous drainage + ATB",
+   "diverticulitis + free air + feculent peritonitis → Hartmann",
+   "หลังหาย diverticulitis 6 สัปดาห์ → colonoscopy"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 96 — ตัวพิมพ์: <b>19. ผู้ป่วยชายไทยอายุ 61 ปี มาด้วยอาการ Acute diverticulitis ข้อใดคือการ manage ที่ดีที่สุดร่วมกับการให้ IV fluid — A. Diagnostic colonoscopy B. NG suction C. Sigmoidectomy D. Empirical antibiotics E. APR</b><br>ลายมือ: A \"for bleeding\" + \"ตีด colonoscope\" · ขีด D · E \"abdominal-perineal resection → for colorectal CA ที่ involve sphincter\" · สรุปลายมือ \"ถ้า Uncomplicated: IV fluid + ATB ± elective Sx (complicated ex. มี fistula, ใช้ยาไม่หาย, เป็น severe diverticulitis มา 2 ครั้งแล้ว, แยกจาก CA ไม่ได้) · มี peritonitis: Emergency Sx! — 1° resection + Hartman procedure · 1 stage operation → not approved yet\"<br>ไฮไลต์: \"ชายไทยอายุ 61 ปี\" \"อาการ Acute diverticulitis\" \"manage ที่ดีที่สุดร่วมกับการให้ IV fluid\" · D (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 96",
+  "kimg": [
+   "fsk_p96",
+   "kp67a_19"
   ]
  },
  "MDCU67|RoA|20": {
-  "interp": "ริดสีดวงที่ปลิ้นออกเวลาเบ่งแล้วกลับเข้าไปเอง (ตรวจตอนนี้ไม่ปลิ้น) → ถาม grade",
-  "why": "<b>ลายมือ: I ไม่ปลิ้น · II กลับเอง · III ต้องดันกลับ · IV ดันกลับไม่ได้</b><br><b>นอกสไลด์:</b> การแบ่ง grade ของริดสีดวงภายใน (Goligher) ดูจากการปลิ้นและการกลับเข้า — ปลิ้นตอนเบ่งแล้วกลับเข้าเองคือ grade II",
+  "interp": "ชายมีเลือดออกทางทวารและมี<b>ก้อนยื่นออกมาเวลาเบ่ง</b> แต่<b>ตอนตรวจไม่พบก้อนยื่นออก (กลับเข้าเอง)</b> → ถาม grade ของริดสีดวง",
+  "why": "Goligher classification ของริดสีดวงภายใน: <b>Grade I</b> ไม่ยื่นออก (เลือดออกอย่างเดียว) · <b>Grade II ยื่นออกเวลาเบ่งแล้วกลับเข้าเอง (spontaneous reduction)</b> · Grade III ยื่นออกต้องดันกลับ (manual reduction) · Grade IV ดันกลับไม่ได้/ ติดค้าง (incarcerated) · โจทย์ยื่นเวลาเบ่งและตอนตรวจกลับเข้าไปแล้ว = <b>grade II</b> · ไฟล์ขีด B ลายมือ <b>\"I not prolapsed · II spontaneous reduction · III manual reduction · IV incarcerated\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดออกแต่ก้อนไม่เคยปลิ้นออกมานอกทวาร",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าปลิ้นตอนเบ่งแล้วต้องใช้นิ้วดันกลับ",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าปลิ้นค้างอยู่นอกทวารตลอดและดันกลับไม่ได้",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้ามีทั้งริดสีดวงภายในเหนือ dentate line และภายนอกใต้ dentate line ต่อกันเป็นก้อนเดียว — mixed บอกตำแหน่ง ไม่ใช่ grade"
+   "A": "Grade I ไม่ยื่นออกมาเลย (ลายมือ \"not prolapsed\") · จะถูกถ้าผู้ป่วยมีเลือดออกอย่างเดียวไม่มีก้อนยื่น",
+   "C": "Grade III ต้องใช้นิ้วดันกลับ (ลายมือ \"manual reduction\") · จะถูกถ้าผู้ป่วยต้องดันก้อนกลับเองหลังถ่าย",
+   "D": "Grade IV ดันกลับไม่ได้/ ติดค้าง (ลายมือ \"incarcerated\") · จะถูกถ้าตรวจพบก้อนยื่นค้างอยู่ตลอด",
+   "E": "Mixed = มีทั้งภายในและภายนอก · จะถูกถ้าตรวจพบริดสีดวงทั้งเหนือและใต้ dentate line ต่อกัน"
   },
-  "trap": "ตรวจไม่เห็นก้อนตอนนอนตรวจจึงให้เป็น grade I — grade ต้องถามว่าปลิ้นตอนเบ่งหรือไม่และกลับเองหรือไม่ หรือให้นั่งเบ่งดู",
+  "trap": "เห็นว่าตอนตรวจไม่มีก้อนแล้วตอบ grade I — ประวัติก้อนยื่นเวลาเบ่งแล้วกลับเอง = grade II",
   "summary": [
-   "<b>นอกสไลด์:</b> รักษาตาม grade: I–II → อาหารเส้นใย ยา แล้ว sclerotherapy/RBL · III → RBL หรือผ่าตัด (hemorrhoidectomy, stapled, ผูกหลอดเลือดนำทางด้วย Doppler) · IV หรือ mixed ก้อนใหญ่ → hemorrhoidectomy"
+   "Grade I: เลือดออก ไม่ยื่น",
+   "Grade II: ยื่นเวลาเบ่ง กลับเอง",
+   "Grade III: ยื่น ต้องดันกลับ",
+   "Grade IV: ดันกลับไม่ได้ (± thrombosed/ strangulated)",
+   "I–II: ใยอาหาร ± RBL/ sclerotherapy",
+   "III–IV: RBL (III) / hemorrhoidectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
+  "mnemonic": "<b>'Grade: 1 ไม่ยื่น · 2 ยื่น-กลับเอง · 3 ยื่น-ดันกลับ · 4 ยื่นค้าง'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024;67:614)",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนที่ขอบทวารเจ็บมากทันที สีม่วงคล้ำ มาภายใน 72 ชม. → thrombosed external hemorrhoid: ตัดก้อนออกใต้ยาชา",
-   "<b>นอกสไลด์:</b> ริดสีดวงปลิ้นค้าง บวมคล้ำ เจ็บมาก ดันไม่เข้า (strangulated) → hemorrhoidectomy เร่งด่วน"
+   "ต้องดันก้อนกลับทุกครั้งหลังถ่าย → grade III",
+   "ก้อนยื่นค้างบวมเจ็บดันไม่กลับ → grade IV",
+   "เลือดสดหยดหลังถ่าย ไม่มีก้อน → grade I"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 96 — ตัวพิมพ์: <b>20. ผู้ป่วยชายประวัติมาด้วยเลือดออกทางทวารและมีก้อนออกมาตอนเบ่งถ่ายอุจจาระ ตอนตรวจไม่พบก้อนออกมาจากรูทวาร จงให้การวินิจฉัย Grade ของ hemorrhoid ในผู้ป่วยราย&#8203;นี้ — A. I B. II C. III D. IV E. Mixed</b><br>ลายมือ: \"spontaneous reduction\" เหนือโจทย์ · A \"not prolapsed\" · ขีด B + \"spontaneous reduction\" · C \"manual reduction\" · D \"incarcerated\"<br>ไฮไลต์: \"ชายประวัติมาด้วยเลือดออกทางทวารและมีก้อนออกมาตอนเบ่งถ่ายอุจจาระ\" \"ตรวจไม่พบก้อนออกมาจากรู\" \"วินิจฉัย Grade ของ hemorrhoid\" · B (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 96",
+  "kimg": [
+   "fsk_p96",
+   "kp67a_20"
   ]
  },
  "MDCU67|RoA|21": {
-  "interp": "ถามภาวะที่เพิ่มอุบัติการณ์มะเร็งลำไส้ใหญ่",
-  "why": "<b>คีย์: ขีด C</b><br><b>นอกสไลด์:</b> FAP (ยีน APC) มี adenoma นับร้อยถึงพันตัวตั้งแต่วัยรุ่น ถ้าไม่ตัดลำไส้ใหญ่เกือบทุกรายเป็นมะเร็ง — เป็นภาวะที่เพิ่มความเสี่ยงมากที่สุดในช้อย",
+  "interp": "ถามภาวะที่<b>เพิ่มอุบัติการณ์มะเร็งลำไส้ใหญ่</b>",
+  "why": "<b>FAP</b> (APC mutation) มี adenoma นับร้อย–พัน → มะเร็งเกือบ 100% ภายใน ~40 ปีถ้าไม่ตัดลำไส้ใหญ่ · ภาวะอื่นในช้อยไม่เพิ่มความเสี่ยง: pseudomembranous colitis (C. difficile), solitary juvenile polyp (hamartoma), amoebic colitis, thrombosed hemorrhoid · ไฟล์ขีด C",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ pseudomembranous colitis เพิ่มความเสี่ยงมะเร็ง เพราะเป็นการอักเสบเฉียบพลันจาก toxin ของ C. difficile หายแล้วไม่ทิ้งรอยโรคก่อนมะเร็ง",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ solitary juvenile polyp เพิ่มความเสี่ยงมะเร็ง เพราะเป็น hamartoma ที่ไม่กลายเป็นมะเร็ง — ความเสี่ยงอยู่ในกลุ่มอาการ juvenile polyposis ที่มี polyp หลายตัว",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ amoebic colitis เพิ่มความเสี่ยงมะเร็ง เพราะเป็นการติดเชื้อที่หายด้วยยา (ก้อน amoeboma ต้องแยกจากมะเร็งแต่ไม่ได้กลายเป็นมะเร็ง)",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ thrombosed hemorrhoid เพิ่มความเสี่ยงมะเร็ง เพราะเป็นลิ่มเลือดในหลอดเลือดดำที่ทวาร ไม่เกี่ยวกับเยื่อบุลำไส้ใหญ่"
+   "A": "Pseudomembranous colitis (C. difficile) เป็นการอักเสบเฉียบพลัน ไม่เพิ่มความเสี่ยงมะเร็ง · จะถูกถ้าคำถามถามท้องเสียหลังได้ยาปฏิชีวนะ",
+   "B": "Solitary juvenile polyp ไม่ร้าย (ต่างจาก juvenile polyposis syndrome) · จะถูกถ้าช้อยเป็น juvenile polyposis syndrome",
+   "D": "Amoebic colitis ไม่เพิ่มความเสี่ยงมะเร็ง · จะถูกถ้าคำถามถาม amoeboma ที่คล้ายมะเร็ง",
+   "E": "Thrombosed hemorrhoid ไม่เกี่ยวมะเร็ง · จะถูกถ้าคำถามถามก้อนเจ็บที่ขอบทวารทันที"
   },
-  "trap": "polyp ที่ทำให้เด็กถ่ายเป็นเลือด (juvenile polyp) ทำให้กังวลมะเร็ง — polyp เดี่ยวในเด็กเป็น hamartoma ตัดออกเพื่อหยุดเลือดและวินิจฉัย ไม่ต้องติดตามแบบรอยโรคก่อนมะเร็ง",
+  "trap": "คิดว่า polyp ทุกชนิดเสี่ยงมะเร็ง — solitary juvenile polyp ไม่ร้าย",
   "summary": [
-   "<b>นอกสไลด์:</b> เพิ่มความเสี่ยง: adenoma (ยิ่งใหญ่ > 1 cm, villous, dysplasia สูง) · sessile serrated lesion · IBD colitis ที่เป็นนาน · กลุ่มอาการ FAP, Lynch, MUTYH, PJS, juvenile polyposis · ไม่เพิ่ม: hyperplastic polyp เล็กที่ rectosigmoid, inflammatory pseudopolyp, solitary juvenile polyp"
+   "FAP: APC · มะเร็งเกือบ 100%",
+   "Lynch: MMR · ลำไส้ขวา",
+   "IBD &gt; 8 ปี",
+   "Juvenile polyposis/ PJS เพิ่มความเสี่ยง",
+   "Solitary juvenile polyp ไม่เพิ่ม",
+   "FAP → proctocolectomy"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C ความมั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
+  "mnemonic": "<b>'FAP = มะเร็งแน่ถ้าไม่ตัด'</b>",
+  "guide": "ACG Clinical Guideline: Hereditary GI Cancer Syndromes (Am J Gastroenterol 2015;110:223)",
   "variants": [
-   "<b>นอกสไลด์:</b> ส่องกล้องพบ villous adenoma 25 mm ตัดออกชิ้นเดียว (en bloc) ได้หมด → ส่องซ้ำใน 3 ปี (ถ้าตัดเป็นหลายชิ้น → ส่องซ้ำใน 6 เดือน)",
-   "<b>นอกสไลด์:</b> เด็กมีจุดสีดำที่ริมฝีปากและในปาก ปวดท้องจากลำไส้เล็กกลืนกันที่มี polyp เป็นจุดนำ → Peutz-Jeghers syndrome: คัดกรองมะเร็งหลายอวัยวะตลอดชีวิต"
+   "วัยรุ่น polyp นับร้อย → FAP → proctocolectomy",
+   "เด็ก polyp เดี่ยว rectum → juvenile polyp → polypectomy",
+   "ญาติเป็นมะเร็งลำไส้ขวา/ มดลูก → Lynch"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 96 — ตัวพิมพ์: <b>21. Which condition found with increasing incidence of colorectal cancer — A. Pseudomembranous colitis B. Juvenile polyp C. FAP D. Amoebic colitis E. Thombosed hemorrhoid</b><br>ลายมือ: ขีด C<br>ไฮไลต์: \"increasing incidence of colorectal cancer\" · C (เหลือง)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 96",
+  "kimg": [
+   "fsk_p96",
+   "kp67a_21"
   ]
  }
 }
