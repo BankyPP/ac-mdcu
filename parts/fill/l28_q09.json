@@ -1,0 +1,222 @@
+{
+ "76": {
+  "stem": "A 13-year-old girl has an Alvarado score of 9 and a negative urine pregnancy test. What does the score stratification recommend?",
+  "opts": [
+   "Discharge; about 30% have appendicitis",
+   "Observation; about 66% have appendicitis",
+   "Observation; about 93% have appendicitis",
+   "Surgery; about 93% have appendicitis",
+   "Surgery; about 66% have appendicitis"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 18 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> · ตาราง <b>Pediatric Appendicitis Score (Points) | Alvarado Score (Points)</b>: <b>Cough/percussion/hopping tenderness in the right lower quadrant (2) | Rebound pain (1)</b> · <b>Anorexia (1) | Anorexia (1)</b> · <b>Fever (1) | Fever (&gt;37.3) (1)</b> · <b>Nausea/emesis (1) | Nausea/emesis (1)</b> · <b>Right lower quadrant tenderness (2) | Right lower quadrant tenderness (2)</b> · <b>Migration of pain (1) | Migration of pain (1)</b> · <b>Leukocytosis (WBCs 210,000) (1) | Leukocytosis (WBCs &gt;10,000) (2)</b> · <b>Polymorphonuclear neutrophilia (1) | Left shift (neutrophils &gt;75%) (1)</b> · <b>Sum of 6 suggests appendicitis | Sum of 7 suggests appendicitis</b> · กล่องซ้าย: <b>Low Risk PAS (&lt;4) Low likelihood of acute appendicitis, imaging may not be warranted. Consider other causes of acute abdominal pain. Equivocal PAS (4-6) Imaging can be helpful. Ultrasound is the first study of choice for pediatric patients to reduce the risk of radiation exposure. When not available, or if other imaging results are equivocal, cross sectional imaging such as CT abdomen/pelvis with IV contrast can be considered. Consider surgical consultation for patients with equivocal scores and imaging where the appendix cannot be visualized. High Risk PAS (&gt;6) Consider surgical consultation prior to or alongside imaging studies for these patients.</b> · แผนภาพขวา (Alvarado): <b>1-4 → Discharge · 5-6 → Observation / Admission · 7-10 → Surgery · Predicted number of patients with appendicitis: Alvarado score 1-4 - 30% · Alvarado score 5-6 - 66% · Alvarado score 7-10 - 93%</b><br>รูปในสไลด์หน้า 18: ตาราง PAS เทียบ Alvarado และแผนภาพลูกศรแบ่งคะแนน Alvarado 3 กลุ่ม (ไม่มีภาพผู้ป่วย) · ค่า WBC ในคอลัมน์ PAS พิมพ์เป็น \"210,000\" (ต้นฉบับคือ ≥10,000)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p18"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 18 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "วัยรุ่นหญิง 13 ปี Alvarado 9 UPT ลบ → ถามการจัดการและสัดส่วนที่เป็นไส้ติ่งของกลุ่ม 7–10",
+  "why": "Alvarado <b>7–10 = ความน่าจะเป็นสูง → Surgery</b> โดย<b>ราว 93%</b> เป็นไส้ติ่งอักเสบ · สไลด์ใช้ \"Sum of 7 suggests appendicitis\" เป็นจุดตัด · ในทางปฏิบัติคือ<b>ปรึกษาศัลยแพทย์เพื่อผ่าตัด</b> ให้ NPO IV fluid ยาแก้ปวด และ ATB ก่อนผ่าตัดเมื่อตัดสินใจผ่าแล้ว · ในวัยรุ่นหญิงต้อง UPT ลบก่อน (โจทย์ให้แล้ว) และหลายศูนย์ส่ง US ร่วมเพื่อลด negative appendectomy เพราะ Alvarado ทำนายเกินจริงในผู้หญิงและเด็ก — WSES 2020 ไม่ให้ใช้คะแนนตัดสินผ่าตัดเดี่ยว · สไลด์หน้า 18 <b>7-10 → Surgery</b> · <b>Alvarado score 7-10 - 93%</b> · <b>Sum of 7 suggests appendicitis</b>",
+  "wrong": {
+   "A": "Discharge และราว 30% เป็นของกลุ่ม <b>1–4</b> · จะถูกถ้าวัยรุ่นมีแค่เบื่ออาหารกับกดเจ็บขวาล่างเล็กน้อย ผลเลือดปกติ Alvarado 3",
+   "B": "Observation และราว 66% เป็นของกลุ่ม <b>5–6</b> · จะถูกถ้าเด็กมีปวดย้าย คลื่นไส้ กดเจ็บขวาล่าง และไข้ 37.5 °C ผลเลือดปกติ Alvarado 5",
+   "C": "จับคู่ผิด — 93% เป็นของกลุ่ม 7–10 ซึ่งแนะนำ surgery ไม่ใช่ observation · ไม่มีสถานการณ์ใดในการแบ่งกลุ่มของสไลด์ที่ observation คู่กับ 93%",
+   "E": "จับคู่ผิด — surgery คู่กับ 93% ส่วน 66% เป็นของกลุ่ม 5–6 ที่ให้สังเกตอาการ · ไม่มีสถานการณ์ใดในการแบ่งกลุ่มของสไลด์ที่ surgery คู่กับ 66%"
+  },
+  "trap": "จำตัวเลขได้แต่จับคู่การจัดการผิด — ต่ำ–กลาง–สูง = discharge 30% · observe 66% · surgery 93%",
+  "summary": [
+   "Alvarado 7–10 → surgery · ราว 93% เป็นไส้ติ่งอักเสบ",
+   "จุดตัดสไลด์: \"Sum of 7 suggests appendicitis\"",
+   "ปฏิบัติจริง: ปรึกษาศัลยแพทย์ · NPO · IV fluid · ยาแก้ปวด · ATB ก่อนผ่าตัด",
+   "วัยรุ่นหญิง: UPT ก่อน · Alvarado ทำนายเกินจริงในผู้หญิงและเด็ก → US ร่วมช่วยลด negative appendectomy",
+   "WSES 2020: คะแนนไม่ใช่ตัวตัดสินผ่าตัดเดี่ยว",
+   "ต้นฉบับ Alvarado: 7–8 probable · 9–10 very probable"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — สไลด์หน้า 18 ให้ 7-10 → Surgery และ 93% ตรง · ข้อจำกัดในผู้หญิงและเด็กและคำแนะนำไม่ใช้คะแนนเดี่ยวมาจาก WSES 2020 สไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'7 ขึ้นไป = ผ่า (93)'</b>",
+  "guide": "Alvarado A. A practical score for the early diagnosis of acute appendicitis (Ann Emerg Med 1986;15:557–564); WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27)",
+  "variants": [
+   "เด็กชาย 12 ปี Alvarado 8 ศัลยแพทย์ตรวจยืนยันภาพคลาสสิก → appendectomy ได้เลย",
+   "วัยรุ่นหญิง Alvarado 8 แต่ US เห็น ruptured hemorrhagic ovarian cyst ไส้ติ่งปกติ → ไม่ผ่าตัดไส้ติ่ง",
+   "เด็ก Alvarado 7 ที่ไส้ติ่งแตกมี peritonitis ทั่วท้อง → ATB + IV fluid ก่อนแล้วผ่าตัด"
+  ]
+ },
+ "77": {
+  "stem": "A 10-year-old girl has 16 hours of periumbilical and right lower quadrant discomfort with mild tenderness and no guarding. Her clinical picture is uncertain, so she is observed. Graded-compression ultrasound clearly shows a 4-mm compressible appendix without surrounding inflammation, and several enlarged mesenteric nodes. What is the most appropriate next step?",
+  "opts": [
+   "Look for other causes of her pain",
+   "Proceed to laparoscopic appendectomy",
+   "Contrast-enhanced CT of the abdomen",
+   "Start antibiotics for early appendicitis",
+   "Diagnostic laparoscopy within 24 hours"
+  ],
+  "ans": 0,
+  "notes": "สไลด์หน้า 19 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> → <b>Likely for appendicitis → Appendectomy</b> · <b>Uncertain for appendicitis → Close observation · USG</b> → <b>Normal appendix</b> (→ <b>Other diseases</b>) · <b>Not seen normal appendix</b> → <b>CT scan</b> · <b>Appendicitis → Appendectomy</b> · CT scan → <b>Normal appendix</b> (→ Other diseases) · <b>Not seen normal appendix → Close observation or diagnostic laparoscopy → Appendicitis → Appendectomy</b> · <b>Normal appendix</b> → Other diseases<br>รูปในสไลด์หน้า 19: แผนภาพลูกศรพื้นดำ (เส้นทึบ/เส้นประจาก close observation ไป USG, CT scan และ appendicitis)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p19"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 19 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กหญิง 10 ปีอาการไม่แน่ สังเกตอาการ US เห็นไส้ติ่งปกติชัด (4 mm กดแบน ไม่มีการอักเสบรอบ) และต่อมน้ำเหลืองโต → ถามขั้นต่อไปตามแผนภาพ",
+  "why": "ตามแผนภาพ: กลุ่ม<b>ไม่แน่ใจ (uncertain)</b> → <b>สังเกตอาการ + US</b> → ถ้า<b>เห็นไส้ติ่งปกติ</b> (ท่อปลายตัน<b>กดแบนได้ ≤6 mm</b> ไม่มีไขมันอักเสบรอบ) → <b>หาโรคอื่น (other diseases)</b> · US ที่เห็นไส้ติ่งปกติชัดมี<b>ค่าทำนายผลลบสูง</b> จึงไม่ต้อง CT ต่อ · ในเด็กนี้ต่อมน้ำเหลืองใน mesentery โตชี้ mesenteric lymphadenitis · เด็กหญิงต้องดูรังไข่ด้วย · ยังให้คำแนะนำกลับมาและตรวจซ้ำถ้าปวดมากขึ้น เพราะไส้ติ่งอักเสบเฉพาะปลายพบได้น้อยครั้ง · สไลด์หน้า 19 <b>Uncertain for appendicitis → Close observation · USG</b> → <b>Normal appendix</b> (→ <b>Other diseases</b>) · <b>Not seen normal appendix</b> → <b>CT scan</b>",
+  "wrong": {
+   "B": "ผ่าตัดใช้เมื่อภาพคลินิกชัด (likely) หรือภาพยืนยันไส้ติ่งอักเสบ — US เห็นไส้ติ่งปกติแล้วผ่าจะเป็น negative appendectomy · จะถูกถ้า US เห็นไส้ติ่ง 9 mm กดไม่แบน มี appendicolith",
+   "C": "CT ใช้เมื่อ US <b>มองไม่เห็นไส้ติ่ง</b> ไม่ใช่เมื่อเห็นไส้ติ่งปกติชัด · จะถูกถ้าเด็กอาการไม่แน่ US มองไม่เห็นไส้ติ่งเลย",
+   "D": "ให้ ATB โดยไม่มีหลักฐานไส้ติ่งอักเสบ บดบังอาการและไม่จำเป็น · การรักษาด้วย ATB ใช้กับ uncomplicated appendicitis ที่ยืนยันด้วยภาพแล้ว · จะถูกถ้า US ยืนยันไส้ติ่งอักเสบชนิดไม่แตกไม่มี appendicolith และครอบครัวเลือกไม่ผ่าตัด",
+   "E": "ส่องกล้องวินิจฉัยเป็นขั้นสุดท้ายเมื่อ US และ CT มองไม่เห็นไส้ติ่งแต่ยังสงสัย · จะถูกถ้าเด็กสังเกตอาการแล้วกดเจ็บมากขึ้น US และ CT มองไม่เห็นไส้ติ่ง"
+  },
+  "trap": "สับสน \"เห็นไส้ติ่งปกติ\" กับ \"มองไม่เห็นไส้ติ่ง\" — เห็นปกติชัด → หาโรคอื่น · มองไม่เห็น → CT",
+  "summary": [
+   "แผนภาพ: uncertain → close observation + US",
+   "US เห็นไส้ติ่งปกติ (กดแบน ≤6 mm ไม่มีอักเสบรอบ) → หาโรคอื่น ไม่ต้อง CT",
+   "US มองไม่เห็นไส้ติ่ง → CT",
+   "โรคอื่นที่พบบ่อย: mesenteric lymphadenitis · gastroenteritis · ท้องผูก · รังไข่ (เด็กหญิง) · UTI",
+   "US ไส้ติ่งปกติชัดมีค่าทำนายผลลบสูง แต่ยังให้คำแนะนำกลับมา",
+   "Likely appendicitis จากคลินิก → appendectomy โดยไม่ต้องรอภาพ"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — แผนภาพสไลด์หน้า 19 ให้ Normal appendix → Other diseases ตรง · ค่าทำนายผลลบของ US ที่เห็นไส้ติ่งปกติมาจากตำราและ WSES 2020",
+  "mnemonic": "<b>'เห็นปกติ = ไปหาโรคอื่น · ไม่เห็น = ไป CT'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็กหญิง 12 ปี US ไส้ติ่งปกติ รังไข่ขวาโต 6 cm เลือดไปเลี้ยงลด → ovarian torsion ส่องกล้องคลายบิด",
+   "เด็ก 9 ปี US ไส้ติ่งปกติ ไตขวาบวมน้ำ → ประเมินทางเดินปัสสาวะ (UPJ obstruction/ นิ่ว)",
+   "เด็ก 11 ปี ภาพคลาสสิกชัด peritoneal sign ชัด (likely) → appendectomy ไม่ต้องรอ US"
+  ]
+ },
+ "78": {
+  "stem": "A 12-year-old has equivocal findings for appendicitis, and ultrasound cannot visualize the appendix. Per the algorithm, what next?",
+  "opts": [
+   "Discharge as appendicitis is excluded",
+   "Immediate open appendectomy",
+   "Repeat the same ultrasound immediately",
+   "Plain abdominal radiograph",
+   "CT scan of the abdomen"
+  ],
+  "ans": 4,
+  "notes": "สไลด์หน้า 19 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> → <b>Likely for appendicitis → Appendectomy</b> · <b>Uncertain for appendicitis → Close observation · USG</b> → <b>Normal appendix</b> (→ <b>Other diseases</b>) · <b>Not seen normal appendix</b> → <b>CT scan</b> · <b>Appendicitis → Appendectomy</b> · CT scan → <b>Normal appendix</b> (→ Other diseases) · <b>Not seen normal appendix → Close observation or diagnostic laparoscopy → Appendicitis → Appendectomy</b> · <b>Normal appendix</b> → Other diseases<br>รูปในสไลด์หน้า 19: แผนภาพลูกศรพื้นดำ (เส้นทึบ/เส้นประจาก close observation ไป USG, CT scan และ appendicitis)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p19"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 19 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็ก 12 ปีอาการก้ำกึ่ง US มองไม่เห็นไส้ติ่ง → ถามขั้นต่อไปตามแผนภาพ",
+  "why": "ตามแผนภาพ: กลุ่มไม่แน่ใจ → สังเกตอาการ + US → ถ้า<b>มองไม่เห็นไส้ติ่งปกติ (not seen normal appendix)</b> → <b>CT scan</b> · US มองไม่เห็นไส้ติ่งได้บ่อย (เด็กอ้วน ลมในลำไส้มาก ไส้ติ่ง retrocecal ผู้ตรวจไม่ชำนาญ) และ<b>การมองไม่เห็นไม่ได้แปลว่าไส้ติ่งปกติ</b> · CT ไวและจำเพาะราว 95% · ทางเลือกที่ลดรังสี: <b>MRI</b> ถ้าทำได้เร็ว หรือ<b>สังเกตอาการแล้ว US ซ้ำ</b>ภายหลัง (ไส้ติ่งที่อักเสบมากขึ้นมองเห็นง่ายขึ้น) · ศูนย์ที่ใช้ US ภาพเดียวไม่ชัดควรปรึกษาศัลยแพทย์ร่วม · สไลด์หน้า 19 <b>Not seen normal appendix</b> → <b>CT scan</b> · <b>Appendicitis → Appendectomy</b>",
+  "wrong": {
+   "A": "มองไม่เห็นไส้ติ่ง ≠ ตัดไส้ติ่งอักเสบออก — จำหน่ายกลับทั้งที่คะแนนก้ำกึ่งเสี่ยงพลาดไส้ติ่งที่จะแตก · จะถูกถ้าเด็กคะแนนต่ำ (PAS &lt;4) ไม่มีจุดกดเจ็บ และหาสาเหตุอื่นพบ",
+   "B": "ผ่าตัดทันทีโดยยังไม่รู้ว่าเป็นไส้ติ่งเพิ่ม negative appendectomy · จะถูกถ้าภาพคลินิกชัด (likely) หรือมี peritonitis ทั่วท้อง",
+   "C": "US ซ้ำทันทีโดยผู้ตรวจเดิมไม่ได้ข้อมูลใหม่ — US ซ้ำมีประโยชน์เมื่อ<b>สังเกตอาการหลายชั่วโมง</b>แล้ว หรือให้ผู้ชำนาญกว่าตรวจ · จะถูกถ้าเด็กรับไว้สังเกตอาการ 6–12 ชั่วโมงแล้วอาการชัดขึ้น จึงส่ง US ซ้ำ",
+   "D": "ฟิล์มท้องไม่ช่วยวินิจฉัยไส้ติ่ง · จะถูกถ้าสงสัยลำไส้อุดตันหรือลมรั่วในช่องท้อง"
+  },
+  "trap": "ตีความ \"US ไม่เห็นไส้ติ่ง\" เป็นผลปกติแล้วจำหน่าย — แผนภาพให้ไปต่อ CT (หรือ MRI/ สังเกตอาการ US ซ้ำ)",
+  "summary": [
+   "US มองไม่เห็นไส้ติ่งปกติ → CT scan (แผนภาพสไลด์)",
+   "มองไม่เห็น ≠ ปกติ — พบบ่อยในเด็กอ้วน ลมมาก retrocecal",
+   "ทางเลือกลดรังสี: MRI · หรือสังเกตอาการแล้ว US ซ้ำ",
+   "CT: appendicitis → appendectomy · normal appendix → other diseases",
+   "CT ก็มองไม่เห็น → close observation หรือ diagnostic laparoscopy",
+   "ก้ำกึ่ง + ภาพไม่เห็นไส้ติ่ง → ปรึกษาศัลยแพทย์"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — แผนภาพสไลด์หน้า 19 ให้ Not seen normal appendix → CT scan ตรง · WSES 2020 ให้ MRI หรือ US ซ้ำเป็นทางเลือกลดรังสีในเด็ก สไลด์ไม่ได้เขียน",
+  "mnemonic": "<b>'US ไม่เห็น = ส่ง CT (หรือ MRI)'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็ก 10 ปี US ไม่เห็นไส้ติ่ง CT เห็นไส้ติ่ง 10 mm มี fat stranding → appendectomy",
+   "เด็ก 12 ปี US ไม่เห็นไส้ติ่ง ศูนย์มี MRI เร็ว → MRI แทน CT ได้ ไม่มีรังสี",
+   "เด็กอ้วน 14 ปี US ไม่เห็นไส้ติ่ง CT เห็นไส้ติ่งปกติลมเข้าเต็ม → หาโรคอื่น"
+  ]
+ },
+ "79": {
+  "stem": "A 14-year-old boy has 20 hours of right lower quadrant pain, anorexia, and increasing focal tenderness during observation. Ultrasound could not visualize the appendix. Contrast-enhanced CT shows no inflamed appendix but also cannot identify a normal appendix, and no other abnormality is seen. What is the most appropriate next step?",
+  "opts": [
+   "Discharge because the CT excludes appendicitis",
+   "Close observation or diagnostic laparoscopy",
+   "Repeat contrast CT in 24 hours",
+   "Empirical oral antibiotics and discharge",
+   "Barium enema to assess appendiceal filling"
+  ],
+  "ans": 1,
+  "notes": "สไลด์หน้า 19 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>History and Physical examination suspected acute appendicitis → CBC,UA +/- BUN Cr Elyte · UPT if teenage female</b> → <b>Likely for appendicitis → Appendectomy</b> · <b>Uncertain for appendicitis → Close observation · USG</b> → <b>Normal appendix</b> (→ <b>Other diseases</b>) · <b>Not seen normal appendix</b> → <b>CT scan</b> · <b>Appendicitis → Appendectomy</b> · CT scan → <b>Normal appendix</b> (→ Other diseases) · <b>Not seen normal appendix → Close observation or diagnostic laparoscopy → Appendicitis → Appendectomy</b> · <b>Normal appendix</b> → Other diseases<br>รูปในสไลด์หน้า 19: แผนภาพลูกศรพื้นดำ (เส้นทึบ/เส้นประจาก close observation ไป USG, CT scan และ appendicitis)<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p19"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 19 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "วัยรุ่นชาย 14 ปีกดเจ็บเฉพาะที่มากขึ้นระหว่างสังเกตอาการ US และ CT ไม่เห็นไส้ติ่งทั้งอักเสบและปกติ → ถามขั้นต่อไป · จุดหลอก: CT \"ไม่เห็นไส้ติ่งอักเสบ\" ชวนให้ตีความว่าปกติแล้วจำหน่าย",
+  "why": "แผนภาพปลายสุด: US <b>มองไม่เห็นไส้ติ่ง</b> → CT ก็<b>มองไม่เห็นไส้ติ่งปกติ (not seen normal appendix)</b> → <b>สังเกตอาการใกล้ชิด หรือส่องกล้องวินิจฉัย (diagnostic laparoscopy)</b> → ถ้าเป็นไส้ติ่งอักเสบตัดออก · การที่ CT <b>ไม่เห็นไส้ติ่งอักเสบ</b>ต่างจาก<b>เห็นไส้ติ่งปกติ</b> — ไส้ติ่งอักเสบระยะแรก ตำแหน่งผิดที่ หรือเด็กผอมไขมันน้อยอาจไม่ชัดบน CT · เด็กรายนี้<b>กดเจ็บเฉพาะที่มากขึ้น</b> จึงเอนไปทางส่องกล้อง ซึ่งทั้งวินิจฉัยและรักษาได้ และดูโรคอื่น (Meckel, รังไข่ในเด็กหญิง) ได้ในคราวเดียว · ถ้าอาการคงที่หรือดีขึ้น สังเกตอาการต่อและตรวจท้องซ้ำ · สไลด์หน้า 19 <b>Not seen normal appendix → Close observation or diagnostic laparoscopy → Appendicitis → Appendectomy</b> · <b>Normal appendix</b> → Other diseases",
+  "wrong": {
+   "A": "CT ที่ไม่เห็นไส้ติ่งเลยไม่ได้ตัดไส้ติ่งอักเสบออก — ตัดออกได้เมื่อ<b>เห็นไส้ติ่งปกติ</b> · จะถูกถ้า CT เห็นไส้ติ่งปกติเต็มเส้น ลมเข้าถึงปลาย ไม่มีการอักเสบรอบ และอาการดีขึ้น",
+   "C": "CT ซ้ำใน 24 ชั่วโมงเพิ่มรังสีซ้ำ ระหว่างนั้นไส้ติ่งอาจแตก · การประเมินซ้ำทำด้วยการตรวจท้องหรือ US · จะถูกถ้าผู้ป่วยหลังรักษาฝีจากไส้ติ่งด้วย ATB แล้วไข้ไม่ลง ต้องดูว่าฝีโตขึ้นหรือไม่",
+   "D": "ให้ ATB กินแล้วกลับบ้านโดยไม่มีวินิจฉัยบดบังอาการ และไส้ติ่งอาจแตกนอกโรงพยาบาล · จะถูกถ้ายืนยัน uncomplicated appendicitis ด้วยภาพ ไม่มี appendicolith ให้ IV ATB จนดีขึ้นแล้วเปลี่ยนเป็นยากิน",
+   "E": "Barium enema ไม่ใช้วินิจฉัยไส้ติ่งอักเสบแล้ว (ไส้ติ่งปกติก็ไม่เติมได้) · ไม่มีสถานการณ์ปัจจุบันที่ใช้ barium enema วินิจฉัยไส้ติ่งอักเสบ"
+  },
+  "trap": "อ่านว่า CT \"ไม่เห็นไส้ติ่งอักเสบ\" แล้วจำหน่าย — ต้องเห็นไส้ติ่งปกติจึงตัดออกได้ · ไม่เห็นทั้งคู่ → สังเกตอาการหรือส่องกล้อง",
+  "summary": [
+   "US ไม่เห็น → CT ไม่เห็นไส้ติ่งปกติ → close observation หรือ diagnostic laparoscopy",
+   "ไม่เห็นไส้ติ่งอักเสบ ≠ เห็นไส้ติ่งปกติ",
+   "กดเจ็บมากขึ้นระหว่างสังเกต → เอนไปทางส่องกล้อง (วินิจฉัย + รักษา + ดูโรคอื่น)",
+   "อาการคงที่/ ดีขึ้น → สังเกตต่อ ตรวจท้องซ้ำ",
+   "ส่องกล้องพบไส้ติ่งปกติ → หา Meckel's diverticulum และรังไข่/ ปีกมดลูก",
+   "ไม่ CT ซ้ำเร็ว · ไม่ให้ ATB ก่อนวินิจฉัย"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — แผนภาพสไลด์หน้า 19 ให้ Not seen normal appendix (หลัง CT) → Close observation or diagnostic laparoscopy ตรง · การเลือกระหว่างสองทางตามการเปลี่ยนแปลงของอาการมาจากตำรา (Holcomb) และ WSES 2020",
+  "mnemonic": "<b>'สองภาพไม่เห็น = ดูต่อหรือส่องเลย'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "วัยรุ่นส่องกล้องวินิจฉัยพบไส้ติ่งปกติ แต่มี diverticulum อักเสบที่ ileum → Meckel diverticulectomy",
+   "เด็กหญิงส่องกล้องวินิจฉัยพบไส้ติ่งปกติ ท่อนำไข่บวมแดงมีหนอง → PID/ salpingitis",
+   "เด็ก 12 ปี สองภาพไม่เห็นไส้ติ่ง สังเกต 12 ชั่วโมงแล้วปวดลดลง กินได้ → จำหน่าย พร้อมนัดตรวจซ้ำ"
+  ]
+ },
+ "80": {
+  "stem": "A 7-year-old girl has 3 days of abdominal pain, vomiting, and a temperature of 39 °C. She has diffuse tenderness with rigidity but no palpable mass. Heart rate is 150/min with delayed capillary refill. Ultrasound shows a perforated appendix with free fluid and no abscess. What is the most appropriate management?",
+  "opts": [
+   "Ultrasound-guided percutaneous drainage",
+   "IV antibiotics alone, then interval appendectomy",
+   "Appendectomy now, before fluids or antibiotics",
+   "IV antibiotics and fluids, then appendectomy",
+   "CT to define the anatomy before deciding"
+  ],
+  "ans": 3,
+  "notes": "สไลด์หน้า 20 — ตัวพิมพ์: <b>Acute appendicitis</b> · แผนภาพ: <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b> · <b>Peritonitis with RLQ mass → Non-surgical</b> → <b>improved → Consider interval appendectomy 6-8 weeks after discharge</b> · <b>Not improved within 24-48 hr → USG</b> (และเส้นประไป Appendectomy) → <b>Appendiceal phlegmon → Appendectomy</b> · <b>Appendiceal abscess → Appendectomy/ percutaneous drainage</b><br>รูปในสไลด์หน้า 20: แผนภาพลูกศรพื้นดำ<br>ลายมือ: ไม่มี (ไฟล์ L28 main ของปีนี้ไม่มีลายมือ/ไฮไลต์ · ไม่มีสัญลักษณ์คณะ)",
+  "kimg": [
+   "l28_p20"
+  ],
+  "src": "L28 Emergency in pediatric surgery · หน้า 20 · ไม่มีสัญลักษณ์คณะ · ตัวพิมพ์ + รูป (ไม่มีลายมือ)",
+  "tags": [
+   "Pediatric surgery"
+  ],
+  "interp": "เด็กหญิง 7 ปีไส้ติ่งแตก peritonitis ทั่วท้อง ไม่มีก้อน ชีพจรเร็ว capillary refill ช้า → ถามการรักษา ใช้แผนภาพไส้ติ่งแตก",
+  "why": "<b>ไส้ติ่งแตก</b>ทุกรายเริ่มด้วย<b>IV ATB + IV fluid</b> (resuscitation: isotonic crystalloid bolus ประเมินซ้ำ แก้เกลือแร่) แล้วแยกตามการตรวจ: <b>peritonitis ไม่มีก้อน → appendectomy</b> (เร่งด่วนหลัง resuscitate เพื่อควบคุมแหล่งติดเชื้อ ล้างช่องท้อง) · <b>มีก้อน (phlegmon/ abscess) ขวาล่าง</b> โดยไม่มี peritonitis ทั่วท้อง → รักษาด้วยยาก่อน ฝีใหญ่เจาะระบาย · ATB ครอบคลุม gram-negative และ anaerobe (เช่น ceftriaxone + metronidazole หรือ piperacillin-tazobactam) ให้ต่อหลังผ่าตัดระยะสั้นแล้วเปลี่ยนเป็นยากินเมื่อดีขึ้น · สไลด์หน้า 20 <b>Ruptured acute appendicitis → IV ATB and IV fluid</b> → <b>Peritonitis without mass → Appendectomy</b>",
+  "wrong": {
+   "A": "เจาะระบายผ่านผิวหนังใช้กับ<b>ฝี</b>ที่จำกัดตัวมีขอบชัด ไม่ใช่หนองกระจายทั่วท้อง · จะถูกถ้าเด็กปวดขวาล่าง 5 วัน คลำก้อน ไม่มี peritonitis ทั่วท้อง US เห็นฝี 5 cm",
+   "B": "ยาอย่างเดียวแล้วนัดตัดไส้ติ่งภายหลังเป็นแนวทางของ<b>ก้อน (phlegmon/ abscess)</b> ที่ไม่มี peritonitis ทั่วท้อง · peritonitis ทั่วท้องต้องผ่าตัดควบคุมแหล่งติดเชื้อ · จะถูกถ้าเด็กปวดขวาล่าง 6 วัน คลำก้อนกดเจ็บเฉพาะที่ ท้องส่วนอื่นนุ่ม",
+   "C": "ผ่าตัดทั้งที่ยังขาดน้ำและติดเชื้อในกระแสเลือดไม่ได้รับยา เสี่ยงความดันตกระหว่างดมยา — ต้อง resuscitate และให้ ATB ก่อน (ใช้เวลาไม่กี่ชั่วโมง ไม่ใช่รอข้ามวัน) · ไม่มีสถานการณ์ใดที่ควรดมยาผ่าตัดไส้ติ่งแตกก่อนให้ ATB และสารน้ำ",
+   "E": "CT ไม่เปลี่ยนการรักษาเมื่อมี peritonitis ทั่วท้องและ US เห็นไส้ติ่งแตกแล้ว และทำให้ล่าช้า · จะถูกถ้าเด็กมีก้อนขวาล่างที่รักษาด้วยยาแล้วไม่ดีขึ้น ต้องการดูฝีก่อนเจาะระบาย"
+  },
+  "trap": "เห็นคำว่าแตกแล้วเลือกรักษาด้วยยา + interval appendectomy — ทางนั้นใช้กับก้อน · peritonitis ทั่วท้องไม่มีก้อนต้อง resuscitate แล้วผ่าตัด",
+  "summary": [
+   "ไส้ติ่งแตกทุกราย: IV ATB + IV fluid ก่อน",
+   "Peritonitis ไม่มีก้อน → appendectomy (หลัง resuscitate) + ล้างช่องท้อง",
+   "มีก้อนขวาล่าง ไม่มี peritonitis ทั่วท้อง → non-surgical ก่อน ฝีใหญ่เจาะระบาย",
+   "ATB: ครอบคลุม gram-negative + anaerobe · ให้ต่อหลังผ่าตัดระยะสั้น แล้วเปลี่ยนเป็นยากิน",
+   "Resuscitation: isotonic bolus ประเมินซ้ำ · แก้เกลือแร่ · ปัสสาวะ ≥1 mL/kg/hr",
+   "ไม่ CT ถ้าไม่เปลี่ยนการรักษา"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — แผนภาพสไลด์หน้า 20 ให้ IV ATB and IV fluid → Peritonitis without mass → Appendectomy ตรง · WSES 2020 แนะนำผ่าตัดเร่งด่วนใน complicated appendicitis ที่มี peritonitis ทั่วท้อง · ชนิดยาและระยะให้ยามาจากตำรา (Holcomb) สไลด์ไม่ได้ระบุ",
+  "mnemonic": "<b>'แตกไม่มีก้อน = ให้น้ำให้ยาแล้วผ่า'</b>",
+  "guide": "WSES Jerusalem guidelines on diagnosis and treatment of acute appendicitis (World J Emerg Surg 2020;15:27); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Appendicitis",
+  "variants": [
+   "เด็กหลังตัดไส้ติ่งแตก ไข้ลง กินได้ ภายใน 2–3 วัน → เปลี่ยน ATB เป็นยากินแล้วจำหน่าย",
+   "เด็กไส้ติ่งแตก ความดันต่ำหลังให้สารน้ำ 60 mL/kg → septic shock ให้ vasoactive drug และผ่าตัดควบคุมแหล่งติดเชื้อโดยเร็ว",
+   "เด็ก 3 ปีไส้ติ่งแตกผ่าตัดพบหนองทั่วท้อง → ล้างช่องท้องให้ทั่วรวมถึงอุ้งเชิงกราน"
+  ]
+ }
+}
