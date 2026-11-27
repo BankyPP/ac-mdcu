@@ -1,29 +1,31 @@
 {
  "MDCU67|RoD|11": {
-  "interp": "ถามสาเหตุของ <b>Cushing disease</b>",
-  "why": "<b>Cushing disease</b> หมายถึง Cushing syndrome ที่เกิดจาก <b>pituitary adenoma ที่หลั่ง ACTH</b> (ทำให้ต่อมหมวกไตสร้าง cortisol มาก) · ต่างจาก Cushing <b>syndrome</b> ที่ใช้เรียกภาวะ cortisol เกินจากทุกสาเหตุ (steroid จากภายนอก, adrenal adenoma, ectopic ACTH) · ไฟล์ขีด a เครื่องหมายคำพูดที่ <b>\"disease\"</b>",
+  "interp": "ถามสาเหตุของ <b>Cushing disease</b> — ต้องแยกคำว่า <b>disease</b> (เฉพาะกรณีที่ต้นเหตุคือเนื้องอกต่อมใต้สมองหลั่ง ACTH) ออกจาก <b>Cushing syndrome</b> (กลุ่มอาการจาก cortisol เกินจากสาเหตุใดก็ได้ รวมทั้งยา steroid, adrenal adenoma, ectopic ACTH)",
+  "why": "<b>Cushing syndrome</b> คือกลุ่มอาการจาก glucocorticoid เกิน (central obesity, moon face, buffalo hump, purple striae กว้าง &gt; 1 cm, proximal myopathy, ผิวบางช้ำง่าย, HT, DM, osteoporosis) สาเหตุที่พบบ่อยที่สุดโดยรวมคือ <b>exogenous steroid</b> · ในกลุ่ม endogenous แบ่งเป็น <b>ACTH-dependent</b> (~80%: pituitary corticotroph adenoma ~70% ของ endogenous ทั้งหมด และ ectopic ACTH เช่น small cell lung cancer, bronchial carcinoid) กับ <b>ACTH-independent</b> (adrenal adenoma, adrenal carcinoma, nodular hyperplasia) · คำว่า <b>Cushing disease</b> สงวนไว้เฉพาะ <b>ACTH-secreting pituitary adenoma</b> ซึ่งส่วนใหญ่เป็น microadenoma (&lt; 1 cm) พบมากในหญิงวัยกลางคน · ลำดับตรวจ: ยืนยัน hypercortisolism ด้วย 1-mg overnight dexamethasone suppression test, late-night salivary cortisol หรือ 24-h urinary free cortisol (≥ 2 ใน 3 ผิดปกติ) → วัด plasma ACTH (ต่ำ = adrenal · ปกติ/สูง = pituitary หรือ ectopic) → MRI pituitary และ <b>inferior petrosal sinus sampling</b> ถ้า MRI ไม่ชัด → รักษาด้วย <b>transsphenoidal surgery</b> · ไฟล์ขีด a และใส่เครื่องหมายคำพูดที่คำว่า <b>\"disease\"</b> เพื่อเน้นว่าถามเฉพาะสาเหตุจากต่อมใต้สมอง",
   "wrong": {
-   "B": "Prolactinoma → galactorrhea/ amenorrhea · จะถูกถ้าคำถามถามสาเหตุน้ำนมไหล ประจำเดือนขาด",
-   "C": "GH adenoma → acromegaly/ gigantism · จะถูกถ้าคำถามถามสาเหตุมือเท้าใหญ่ คางยื่น",
-   "D": "อ้วนเป็นลักษณะหนึ่งไม่ใช่สาเหตุ · จะถูกถ้าคำถามถาม pseudo-Cushing (อ้วน/ สุรา/ ซึมเศร้า)",
-   "E": "Adrenal adenoma ทำ Cushing <b>syndrome</b> แบบ ACTH-independent ไม่เรียก disease · จะถูกถ้าคำถามถาม Cushing syndrome ที่ ACTH ต่ำ"
+   "B": "Prolactinoma เป็น pituitary adenoma ที่พบบ่อยที่สุด ทำให้ hypogonadism ไม่ใช่ cortisol เกิน: หญิงมี amenorrhea–galactorrhea ชายมีความต้องการทางเพศลดและก้อนใหญ่จนกด optic chiasm รักษาด้วย cabergoline ก่อนผ่าตัด · จะถูกถ้าเป็นหญิง 28 ปี ประจำเดือนขาด 6 เดือน มีน้ำนมไหล prolactin 180 ng/mL MRI พบ microadenoma",
+   "C": "GH-secreting adenoma ทำให้ <b>acromegaly</b> (มือเท้าโต ขากรรไกรยื่น ฟันห่าง เหงื่อออกมาก) หรือ gigantism ในเด็กก่อนกระดูกปิด ตรวจ IGF-1 สูงและ GH ไม่กดลงหลัง OGTT · จะถูกถ้าเป็นชาย 45 ปี ใส่แหวนและรองเท้าไม่ได้ จมูกและริมฝีปากหนาขึ้น มีเบาหวานและ HT IGF-1 สูงเกินเกณฑ์อายุ",
+   "D": "Obesity ทำให้เกิด <b>pseudo-Cushing</b> (เช่นเดียวกับซึมเศร้าและพิษสุรา) ที่ cortisol สูงเล็กน้อยแต่ไม่มีลักษณะจำเพาะ เช่น proximal myopathy และ striae สีม่วงกว้าง และไม่ใช่สาเหตุของ Cushing disease · จะถูกถ้าเป็นหญิง 35 ปี อ้วนลงพุง striae สีขาวเงิน กล้ามเนื้อแข็งแรงปกติ และ 1-mg DST กด cortisol ได้ &lt; 1.8 µg/dL",
+   "E": "Adrenal adenoma เป็นสาเหตุของ Cushing <b>syndrome</b> แบบ ACTH-independent: cortisol สูงกด ACTH ต่ำ (&lt; 10 pg/mL) ต่อม adrenal อีกข้างฝ่อ ไม่ได้เรียกว่า Cushing disease · จะถูกถ้าเป็นหญิง 40 ปี ลักษณะ Cushing ACTH ต่ำ CT พบก้อนที่ adrenal ซ้าย 3 cm (รักษาด้วย laparoscopic adrenalectomy)"
   },
-  "trap": "สับสน Cushing disease กับ Cushing syndrome",
+  "trap": "คนสับสนระหว่าง Cushing <b>syndrome</b> กับ Cushing <b>disease</b> แล้วเลือก adrenal adenoma เพราะเป็นโรคของ cortisol จาก adrenal โดยตรง · วิธีแยก: \"disease\" = ต่อมใต้สมองเท่านั้น ส่วน \"syndrome\" = ทุกสาเหตุ · อีกกับดักคือคิดว่า prolactinoma ซึ่งพบบ่อยที่สุดในบรรดา pituitary adenoma เป็นคำตอบ",
   "summary": [
-   "Cushing syndrome: cortisol เกินทุกสาเหตุ (พบบ่อยสุด: steroid ภายนอก)",
-   "Cushing disease: pituitary ACTH adenoma",
-   "ACTH สูง + กดด้วย high-dose dex ได้ → pituitary",
-   "ACTH สูง + กดไม่ได้ → ectopic",
-   "ACTH ต่ำ → adrenal",
-   "Cushing disease → transsphenoidal surgery"
+   "Cushing syndrome = ภาวะ glucocorticoid เกินทุกสาเหตุ · สาเหตุอันดับ 1 โดยรวมคือ exogenous steroid · Cushing disease = ACTH-secreting pituitary adenoma (~70% ของ endogenous)",
+   "ACTH-dependent: pituitary adenoma, ectopic ACTH (small cell lung cancer, carcinoid) · ACTH-independent: adrenal adenoma, adrenal carcinoma, nodular hyperplasia",
+   "Screening: 1-mg overnight DST (cortisol เช้า &gt; 1.8 µg/dL ผิดปกติ), late-night salivary cortisol, 24-h UFC — ต้องผิดปกติอย่างน้อย 2 การทดสอบ",
+   "Plasma ACTH ต่ำ → CT adrenal · ACTH ปกติหรือสูง → MRI pituitary (microadenoma ~40% มองไม่เห็นบน MRI) → IPSS แยก pituitary จาก ectopic",
+   "IPSS: อัตราส่วน ACTH ใน petrosal sinus ต่อ peripheral ≥ 2 (basal) หรือ ≥ 3 หลังกระตุ้น CRH/desmopressin → ต้นเหตุอยู่ที่ต่อมใต้สมอง",
+   "รักษา Cushing disease: transsphenoidal adenomectomy (remission ~70–90% ใน microadenoma) · ไม่หายหรือกลับเป็นซ้ำ → ผ่าซ้ำ, radiotherapy, ยา (ketoconazole, metyrapone, osilodrostat, pasireotide) หรือ bilateral adrenalectomy",
+   "หลัง bilateral adrenalectomy ในโรคนี้อาจเกิด <b>Nelson syndrome</b>: ก้อนต่อมใต้สมองโตเร็ว ACTH สูงมาก ผิวคล้ำ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Cushing Disease = Pituitary (D = หัว) · Syndrome = ทุกสาเหตุ'</b>",
-  "guide": "Endocrine Society Clinical Practice Guideline: Treatment of Cushing's Syndrome (J Clin Endocrinol Metab 2015;100:2807)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a และนิยามมาตรฐานว่า Cushing disease คือ ACTH-secreting pituitary adenoma · ช้อย E เว็บเปลี่ยนจาก Bitemporal hemianopia เป็น Adrenal adenoma ซึ่งทำให้ข้อนี้วัดความเข้าใจ disease กับ syndrome ได้ดีขึ้นโดยไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Disease = ต่อม (pituitary) · Syndrome = ทุกต้นเหตุ'</b>",
+  "guide": "Endocrine Society Clinical Practice Guideline: Treatment of Cushing's Syndrome (J Clin Endocrinol Metab 2015;100:2807); Pituitary Society Consensus on Diagnosis and Management of Cushing's Disease (Lancet Diabetes Endocrinol 2021;9:847)",
   "variants": [
-   "Cushing + ACTH สูง + MRI pituitary microadenoma → Cushing disease → TSS",
-   "Cushing + ACTH ต่ำ + ก้อนต่อมหมวกไต → adrenalectomy",
-   "ผู้ป่วยกิน prednisolone นาน หน้ากลม → iatrogenic Cushing syndrome"
+   "ชาย 55 ปี สูบบุหรี่จัด น้ำหนักลด กล้ามเนื้ออ่อนแรง hypokalemia รุนแรง ผิวคล้ำ ACTH สูงมาก IPSS ไม่มี gradient → ectopic ACTH จาก small cell lung cancer",
+   "หญิง 38 ปี ลักษณะ Cushing ACTH 60 pg/mL MRI pituitary ไม่พบก้อน → inferior petrosal sinus sampling ก่อนผ่าตัด",
+   "ผู้ป่วยหลังผ่าตัด transsphenoidal วันที่ 2 cortisol เช้าต่ำมาก อ่อนเพลีย ความดันต่ำ → ให้ hydrocortisone replacement (สัญญาณของ remission)",
+   "ทำไม high-dose DST กด cortisol ได้ในโรคต่อมใต้สมองแต่ไม่กดในก้อน adrenal → corticotroph adenoma ยังตอบสนองต่อ negative feedback บางส่วน ส่วนก้อน adrenal ทำงานอิสระจาก ACTH"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>11. Cushing's \"disease\" เกิดจากอะไร — a. ACTH producing from pituitary tumor b. Prolactin producing from pituitary tumor c. GH producing from pituitary tumor d. Obesity e. Bitemporal hemianopia</b><br>ลายมือ: เครื่องหมายคำพูดที่ \"disease\" · ขีด a<br>ไฮไลต์: \"Cushing's disease\" · a (เหลือง)<br>ที่ปรับในเว็บ: ช้อย E เปลี่ยนจาก Bitemporal hemianopia เป็น Adrenal adenoma",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU67|RoD|12": {
-  "interp": "<b>Pineal tumor</b> ทำให้เกิดกลุ่มอาการใด",
-  "why": "ก้อน pineal กด <b>tectum ของ midbrain</b> → <b>Parinaud (dorsal midbrain) syndrome</b>: มองขึ้นไม่ได้ · near-light dissociation · convergence-retraction nystagmus · lid retraction ± hydrocephalus (กด aqueduct) · ไฟล์ขีด a",
+  "interp": "ถามว่าก้อนที่ <b>pineal region</b> ทำให้เกิด syndrome ใด — ต้องรู้ตำแหน่งกายวิภาค: pineal อยู่เหนือ <b>tectum ของ dorsal midbrain</b> (superior colliculi) และชิดกับ cerebral aqueduct ก้อนจึงกดศูนย์ควบคุมการมองขึ้นและอุดทางเดิน CSF",
+  "why": "Pineal gland อยู่บน dorsal midbrain ก้อนในบริเวณนี้กด <b>superior colliculi และ pretectal area</b> (rostral interstitial nucleus of MLF, posterior commissure) ทำให้เกิด <b>Parinaud (dorsal midbrain) syndrome</b>: ① <b>upgaze palsy</b> (มองขึ้นไม่ได้ขณะที่มองลงยังได้) ② <b>light–near dissociation</b> (รูม่านตาไม่หดต่อแสงแต่หดเมื่อมองใกล้) ③ <b>convergence–retraction nystagmus</b> เมื่อพยายามมองขึ้น ④ <b>eyelid retraction (Collier sign)</b> · ร่วมกับกด <b>cerebral aqueduct</b> → obstructive hydrocephalus (ปวดหัว อาเจียน papilledema) ซึ่งมักเป็นอาการนำ · ก้อนที่พบบ่อยในวัยรุ่นชายคือ <b>germ cell tumor</b> (germinoma มากที่สุด) ตรวจ AFP และ β-hCG ในเลือดและ CSF · ก้อนอื่น ได้แก่ pineocytoma, pineoblastoma, pineal cyst · ไฟล์ขีด a (Perinaud's syndrome) และไฮไลต์คำถาม \"Pineal tumor ทำให้เกิดอะไร\"",
   "wrong": {
-   "B": "Wallenberg (lateral medullary) — PICA/ vertebral artery: เวียน เดินเซ ชาหน้าข้างเดียวกัน ชาตัวข้างตรงข้าม Horner · จะถูกถ้าคำถามถาม stroke ที่ lateral medulla",
-   "C": "Horner: หนังตาตกเล็กน้อย รูม่านตาเล็ก เหงื่อไม่ออก · จะถูกถ้าคำถามถาม Pancoast tumor/ carotid dissection",
-   "D": "Weber (ventral midbrain): CN III palsy ข้างเดียวกัน + อ่อนแรงข้างตรงข้าม · จะถูกถ้าคำถามถาม stroke ที่ cerebral peduncle",
-   "E": "Gerstmann (dominant angular gyrus): agraphia acalculia finger agnosia left-right confusion · จะถูกถ้าคำถามถามรอยโรค parietal lobe ข้างถนัด"
+   "B": "Wallenberg (lateral medullary) syndrome เกิดจาก vertebral artery หรือ PICA อุดตัน: เวียนหัว เสียงแหบ กลืนลำบาก ipsilateral Horner และหน้าชา contralateral ชาร้อนเย็นที่ลำตัวแขนขา ไม่ใช่ก้อนที่ midbrain · จะถูกถ้าเป็นชาย 60 ปี เวียนศีรษะทันทีหลังนวดคอ กลืนสำลัก หน้าซีกขวาชา แขนขาซ้ายไม่รู้ร้อนเย็น",
+   "C": "Horner syndrome คือ ptosis เล็กน้อย miosis และ anhidrosis จาก oculosympathetic pathway เสีย (hypothalamus → ไขสันหลัง T1 → ยอดปอด → carotid) ไม่ได้มาจาก pineal · จะถูกถ้าเป็นชาย 62 ปี สูบบุหรี่ ปวดไหล่ร้าวลงแขนด้าน ulnar มีหนังตาตกและรูม่านตาเล็กข้างเดียวกัน CXR พบก้อนยอดปอด (Pancoast tumor)",
+   "D": "Weber syndrome เกิดจากรอยโรคที่ <b>ventral midbrain</b> (cerebral peduncle) มักจาก paramedian branch ของ PCA: CN III palsy ข้างเดียวกันกับ hemiparesis ด้านตรงข้าม ไม่ใช่ความผิดปกติการมองขึ้นทั้งสองตา · จะถูกถ้าเป็นหญิง 70 ปี AF ตาขวาตกและมองออกนอก รูม่านตาขวาโต และแขนขาซ้ายอ่อนแรงทันที",
+   "E": "Gerstmann syndrome เกิดจากรอยโรคที่ <b>dominant angular gyrus</b> (parietal lobe): agraphia, acalculia, finger agnosia และ left–right disorientation ไม่เกี่ยวกับ midbrain · จะถูกถ้าเป็นชาย 65 ปีถนัดขวา หลัง MCA ซ้ายอุดตัน เขียนหนังสือและคิดเลขไม่ได้ บอกชื่อนิ้วไม่ได้ สับสนซ้ายขวา"
   },
-  "trap": "สับสนกลุ่มอาการ midbrain (Parinaud = dorsal · Weber = ventral)",
+  "trap": "ชื่อ syndrome หลายตัวคล้ายกัน (Parinaud, Weber, Wallenberg) ทำให้จำสลับ · วิธีแยกคือผูกกับตำแหน่ง: dorsal midbrain (pineal) = Parinaud มองขึ้นไม่ได้ · ventral midbrain = Weber CN III + อ่อนแรงซีกตรงข้าม · lateral medulla = Wallenberg · parietal dominant = Gerstmann · สะกดในไฟล์เป็น Perinaud's ซึ่งคือ Parinaud",
   "summary": [
-   "Parinaud: pineal · hydrocephalus · มองขึ้นไม่ได้",
-   "Weber: ventral midbrain · CN III + contralateral hemiplegia",
-   "Wallenberg: lateral medulla (PICA)",
-   "Horner: ptosis · miosis · anhidrosis",
-   "Pineal germinoma: เด็กชาย · ไวต่อรังสี",
-   "Pineal tumor + hydrocephalus → ETV + biopsy"
+   "Parinaud syndrome = dorsal midbrain: upgaze palsy, light–near dissociation, convergence–retraction nystagmus, Collier sign (lid retraction) ± pseudo-Argyll Robertson pupil",
+   "สาเหตุของ Parinaud: pineal tumor (เด็ก/วัยรุ่น), hydrocephalus จาก aqueductal stenosis หรือ shunt ทำงานผิดปกติ, stroke/เลือดออกที่ midbrain (ผู้ใหญ่), MS",
+   "Pineal region tumor: germ cell tumor เป็นกลุ่มที่พบบ่อยที่สุด (germinoma มากที่สุด พบในชายวัยรุ่นและพบบ่อยในเอเชียตะวันออก) · pineal parenchymal tumor (pineocytoma, pineoblastoma) · glioma · meningioma",
+   "Tumor marker: germinoma บริสุทธิ์ β-hCG ปกติหรือสูงเล็กน้อย AFP ปกติ · AFP สูง = yolk sac tumor · β-hCG สูงมาก = choriocarcinoma (nongerminomatous GCT)",
+   "การรักษา: obstructive hydrocephalus → endoscopic third ventriculostomy (ทำ biopsy พร้อมกันได้) · germinoma ไวต่อรังสีและเคมีบำบัดมาก (หายขาด &gt; 90%) จึงไม่ต้องตัดก้อน",
+   "Weber = ventral midbrain (CN III + contralateral hemiparesis) · Benedikt = tegmentum (CN III + tremor/ataxia ด้านตรงข้าม) · Claude = CN III + contralateral ataxia",
+   "Wallenberg = lateral medulla (PICA/vertebral) · Gerstmann = dominant angular gyrus · Horner = sympathetic chain"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Pineal → Parinaud (P–P)'</b>",
-  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Pineal region tumors",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a · ในไฟล์มีช้อยเพียง a–b เว็บเติม Horner, Weber, Gerstmann เป็นตัวลวงที่เป็นกลุ่มอาการทางระบบประสาทเฉพาะตำแหน่ง ไม่ทำให้คำตอบเปลี่ยน",
+  "mnemonic": "<b>'Pineal กด \"หลังคา\" midbrain → มองขึ้นฟ้าไม่ได้ (Parinaud = Pineal)'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Pineal region tumors; Germ cell tumors",
   "variants": [
-   "เด็กชายมองขึ้นไม่ได้ ปวดหัว → pineal tumor",
-   "stroke เวียน เดินเซ ชาหน้าซ้ายชาตัวขวา → Wallenberg",
-   "CN III palsy ขวา + อ่อนแรงซ้าย → Weber"
+   "ชายอายุ 14 ปี ปวดศีรษะ อาเจียนตอนเช้า มองขึ้นไม่ได้ CT พบก้อนที่ pineal และ ventricle โต → ตรวจ AFP/β-hCG ในเลือดและ CSF + endoscopic third ventriculostomy",
+   "วัยรุ่นชายมีก้อน pineal ร่วมกับก้อนที่ suprasellar และปัสสาวะมาก (diabetes insipidus) → bifocal germinoma รักษาด้วยรังสีรักษา ± เคมีบำบัด",
+   "ผู้ป่วยมี VP shunt มาด้วยซึมลง มองขึ้นไม่ได้ ตาเหลือกลงล่าง (sunset eyes) → shunt malfunction ทำให้ hydrocephalus กด dorsal midbrain",
+   "ทำไมรูม่านตาไม่หดต่อแสงแต่หดเมื่อมองใกล้ใน Parinaud → ก้อนกด pretectal nucleus (light reflex) แต่ทางของ near response ซึ่งอยู่ทาง ventral กว่ายังปกติ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>12. Pineal tumor ทำให้เกิดอะไร — a. Perinaud's syndrome b. Wellenberg's syndrome</b><br>ลายมือ: ขีด a<br>ไฮไลต์: \"Pineal tumor ทำให้เกิดอะไร\" · a (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย C–E (Horner · Weber · Gerstmann syndrome)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU67|RoD|13": {
-  "interp": "ทารกมี <b>prenatal hydronephrosis</b> ทำ US วันที่ 1 หลังคลอด<b>ไม่พบ hydronephrosis</b> → ถามขั้นต่อไป",
-  "why": "ทารกช่วง 48–72 ชม.แรกมี <b>physiologic oliguria (ภาวะขาดน้ำสัมพัทธ์)</b> → US เร็วเกินไป<b>อาจให้ผลลบลวง</b> (ไตไม่บวมเพราะปัสสาวะน้อย) → <b>ทำ US ซ้ำหลังวันที่ 3</b> (หรือ 1–2 สัปดาห์) · (ยกเว้นสงสัย PUV/ bilateral รุนแรง/ ไตข้างเดียว ทำ US เร็วได้) · ไฟล์ขีด b ลายมือ <b>\"@d3 ∵ เกิดมามี physiologic oliguria\"</b> และแปะสไลด์ <b>Postnatal evaluation: Ultrasonography: defer until day 3 of life → allow for improvement in the relative oliguria · VCUG: vesicoureteric reflux · IVP study: obstruction · Renal scan: function of kidney, obstruction</b>",
+  "interp": "ทารกที่ตรวจพบ <b>hydronephrosis ก่อนคลอด</b> ทำ ultrasound หลังคลอด<b>วันแรก</b>แล้วไม่เห็นน้ำในไต — ถามขั้นต่อไป ต้องรู้ว่าผลปกติในช่วง 48 ชม.แรกเชื่อไม่ได้เพราะทารกยังปัสสาวะน้อยตามสรีรวิทยา",
+  "why": "ในช่วง 24–48 ชม.แรกหลังคลอดทารกมี <b>physiologic oliguria</b> (ภาวะขาดน้ำสัมพัทธ์และ GFR ยังต่ำ) ปัสสาวะไหลผ่านไตน้อย การอุดตันหรือการขยายของ collecting system จึงอาจไม่ปรากฏ ultrasound ที่ทำเร็วเกินไปจะ<b>ประเมินความรุนแรงต่ำกว่าจริง</b>หรือดูปกติปลอม · แนวทางจึงให้<b>เลื่อน ultrasound ไปหลัง 48 ชม. (ราววันที่ 3)</b> และถ้ายังปกติให้ตรวจซ้ำอีกครั้งที่ 4–6 สัปดาห์ เพราะ hydronephrosis บางรายปรากฏภายหลัง · ข้อยกเว้นที่ต้องทำ ultrasound ภายใน 24–48 ชม.แรกคือ hydronephrosis สองข้างรุนแรง ไตข้างเดียวที่มีน้ำ ทารกชายสงสัย <b>posterior urethral valve</b> (กระเพาะปัสสาวะหนา ท่อไตขยายสองข้าง) หรือมี oligohydramnios · ส่วน VCUG ใช้หา vesicoureteral reflux และ PUV, renal scan (MAG3) ใช้ดูการทำงานและการอุดตัน · ไฟล์ขีด b ลายมือ <b>\"@d3 ∵ เกิดมามี physiologic oliguria\"</b> และแปะสไลด์ Postnatal evaluation ว่า <b>\"defer until day 3 of life\"</b>",
   "wrong": {
-   "A": "ปลอบใจแล้วจำหน่ายอาจพลาดโรค (US ผลลบลวง) · จะถูกถ้า US ซ้ำหลังสัปดาห์แรกปกติแล้ว",
-   "C": "IVP ในทารกแรกเกิดไม่เหมาะ (ไตยังกรองไม่ดี รังสี) · จะถูกถ้าคำถามถาม (ในอดีต) การดูการอุดกั้น — ปัจจุบันใช้ MAG3",
-   "D": "CT KUB รังสีสูง ไม่ใช่การตรวจในทารก · จะถูกถ้าคำถามถามผู้ใหญ่สงสัยนิ่ว",
-   "E": "VCUG ทันทีใช้เมื่อสงสัย PUV (hydronephrosis สองข้าง กระเพาะหนา) · จะถูกถ้าทารกชาย hydronephrosis สองข้างรุนแรง"
+   "A": "การ reassure แล้วจำหน่ายเลยอาจพลาด UPJ obstruction หรือ VUR ที่ยังซ่อนอยู่ เพราะผลวันแรกเป็น false negative ได้จาก oliguria · จะถูกถ้าเป็นทารกที่ hydronephrosis ก่อนคลอดเล็กน้อย (APD 5 mm) และ ultrasound หลังคลอดทั้งวันที่ 3 และที่ 6 สัปดาห์ปกติทั้งสองครั้ง",
+   "C": "IVP ใช้ยาก (ไตทารกยังกรองและ concentrate contrast ได้ไม่ดี ภาพไม่ชัด) และมีรังสี ปัจจุบันแทนด้วย diuretic renogram (MAG3) ซึ่งบอกทั้ง split function และการอุดตัน · จะถูกถ้าเป็นทารกอายุ 6 สัปดาห์ ultrasound พบ hydronephrosis ข้างซ้ายรุนแรง (APD 25 mm) ท่อไตไม่ขยาย สงสัย UPJ obstruction (ใช้ MAG3 renal scan แทน IVP)",
+   "D": "CT KUB มีรังสีสูงและไม่จำเป็นในการประเมิน hydronephrosis ทารก ultrasound ให้ข้อมูลกายวิภาคเพียงพอ · จะถูกถ้าเป็นเด็กโตที่ประสบอุบัติเหตุช่องท้อง ปัสสาวะเป็นเลือด และสงสัยไตฉีกขาดจาก hydronephrosis เดิม (ใช้ CT with contrast)",
+   "E": "VCUG ทันทีมีข้อบ่งชี้เฉพาะเมื่อสงสัย PUV หรือ ultrasound พบท่อไตขยาย/ไตผิดปกติ ไม่ใช่เมื่อ ultrasound ปกติ และการสวนท่อปัสสาวะมีความเสี่ยงติดเชื้อ · จะถูกถ้าเป็นทารกชายแรกเกิด ก่อนคลอดมี oligohydramnios hydronephrosis สองข้าง ultrasound หลังคลอดพบกระเพาะปัสสาวะผนังหนาและ posterior urethra ขยาย (keyhole sign)"
   },
-  "trap": "US วันแรกปกติแล้วสรุปว่าหาย",
+  "trap": "เห็น ultrasound ปกติแล้วคิดว่าโรคหายจึง reassure (A) หรือคิดว่าต้องหาการอุดตันด้วยภาพเอกซเรย์ทันที (C, D) · หลักคือ<b>เวลาที่ตรวจ</b>: ผลในวันแรกเชื่อไม่ได้เพราะ physiologic oliguria ต้องทำซ้ำหลัง 48 ชม. · ในไฟล์ตัวพิมพ์เขียน \"เด็กอายุ 1 เดือน\" แต่เนื้อหาคือ US ที่วันแรกหลังเกิด เว็บจึงเขียนเป็น newborn",
   "summary": [
-   "Antenatal hydronephrosis → US หลังวันที่ 3 (หรือ 1–2 สัปดาห์)",
-   "ยกเว้น: สงสัย PUV · bilateral รุนแรง · ไตข้างเดียว → US เร็ว",
-   "VCUG: หา VUR/ PUV",
-   "MAG3 renogram: การอุดกั้น + split function",
-   "CAP พิจารณาใน hydronephrosis รุนแรง/ VUR",
-   "US ซ้ำปกติ 2 ครั้ง → ติดตามได้ห่าง"
+   "Antenatal hydronephrosis พบ ~1–5% ของการตั้งครรภ์ · สาเหตุ: transient/physiologic (~50–70%) > UPJ obstruction (~10–30%) > VUR (~10–20%) > UVJ obstruction/megaureter, multicystic dysplastic kidney, PUV, duplex kidney",
+   "Postnatal US ครั้งแรกหลัง 48 ชม. (เลี่ยงช่วง physiologic oliguria) · ถ้าปกติ ทำซ้ำที่ 4–6 สัปดาห์ เพราะ hydronephrosis อาจปรากฏภายหลัง",
+   "ทำ US ภายใน 24–48 ชม.เลย: hydronephrosis สองข้างรุนแรง, solitary kidney, สงสัย PUV (ชาย ผนังกระเพาะปัสสาวะหนา keyhole sign), oligohydramnios",
+   "UTD classification (2014): postnatal ปกติ APRPD &lt; 10 mm · P1 = 10–15 mm หรือ central calyceal dilation · P2 = ≥ 15 mm หรือ peripheral calyx/ท่อไตขยาย · P3 = มีเนื้อไตบาง/เสียหรือกระเพาะปัสสาวะผิดปกติ",
+   "VCUG: หา VUR และ PUV — ทำเมื่อท่อไตขยาย, hydronephrosis สองข้าง, ผนังกระเพาะปัสสาวะผิดปกติ หรือหลังมี febrile UTI",
+   "MAG3 diuretic renogram ที่อายุ 4–6 สัปดาห์: split renal function และ drainage (T½ &gt; 20 นาทีบ่งอุดตัน) · ผ่าตัด pyeloplasty เมื่อ split function &lt; 40% หรือลดลง &gt; 10% หรือ APD เพิ่มขึ้น/มีอาการ",
+   "Continuous antibiotic prophylaxis พิจารณาใน hydronephrosis รุนแรง (SFU 3–4/UTD P2–P3), ท่อไตขยาย, VUR สูง และทารกชายที่ยังไม่ได้ขลิบ"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'ทารกแรกเกิด: US หลังวันที่ 3 (รอฉี่มาก่อน)'</b>",
-  "guide": "SFU/ Multidisciplinary Consensus on Urinary Tract Dilation (UTD) Classification (J Pediatr Urol 2014;10:982); EAU Guidelines on Paediatric Urology (2025)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด b พร้อมลายมือเหตุผล physiologic oliguria และสไลด์ที่ให้ defer ultrasound จนถึง day 3 · เว็บเพิ่มช้อย E (Immediate VCUG) เป็นตัวลวงซึ่งไม่มีข้อบ่งชี้เมื่อภาพปกติ",
+  "mnemonic": "<b>'วันแรกไตแห้ง (oliguria) → ภาพหลอก → US ซ้ำวันที่ 3'</b>",
+  "guide": "Nguyen HT, et al. Multidisciplinary consensus on the classification of prenatal and postnatal urinary tract dilation (UTD classification system). J Pediatr Urol 2014;10:982; EAU/ESPU Guidelines on Paediatric Urology 2024",
   "variants": [
-   "ทารกชาย hydronephrosis สองข้าง กระเพาะหนา → US + VCUG ทันที (PUV)",
-   "ทารก prenatal pelvis 12 mm → US วันที่ 3–7 → MAG3",
-   "US ซ้ำ 1 สัปดาห์และ 1 เดือนปกติ → ติดตามห่าง"
+   "ทารกชายแรกเกิด ก่อนคลอด hydronephrosis สองข้างและน้ำคร่ำน้อย ปัสสาวะไหลเป็นหยด → US ภายใน 24 ชม. + VCUG สงสัย posterior urethral valve",
+   "ทารก 6 สัปดาห์ US พบ hydronephrosis ข้างซ้าย APD 22 mm ท่อไตไม่ขยาย → MAG3 diuretic renogram ประเมิน split function และการอุดตันของ UPJ",
+   "ทารก 2 เดือนที่มี hydronephrosis เล็กน้อยติดตามอยู่ มีไข้ 39 °C UA มี pyuria → รักษา febrile UTI แล้วทำ VCUG หา VUR",
+   "US หลังคลอดวันที่ 3 พบไตซ้ายเป็นถุงน้ำหลายถุงไม่ต่อกัน ไม่มีเนื้อไต → multicystic dysplastic kidney (MAG3 ไม่มีการทำงาน) ติดตามด้วย US"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>13. เด็ก อายุ 1 เดือน prenatal hydronephrosis เกิดมาทำ USG ที่ 1 วัน ไม่มี hydronephrosis ถามทำอะไรต่อ — a. Reassure b. USG ซ้ำ c. IVP d. CT KUB</b><br>ลายมือ: ขีด b + \"@d3 ∵ เกิดมามี physiologic oliguria\"<br>ไฮไลต์: \"เด็ก อายุ 1 เดือน prenatal hydronephrosis\" \"ทำ USG ที่ 1 วัน ไม่มี hydronephrosis\" \"ทำอะไรต่อ\" · b (เหลือง)<br>รูปที่แปะ: สไลด์ Postnatal evaluation — Ultrasonography: defer until day 3 of life -&gt; allow for improvement in the relative oliguria · VCUG: vesicoureteric reflux · IVP study: obstruction · Renal scan: function of kidney, obstruction + ลายมือ<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Immediate VCUG)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU67|RoD|14": {
-  "interp": "ชายมีอาการ BPH <b>IPSS 22</b> แต่ <b>PSA 10</b> → ถามสิ่งที่ควรทำ",
-  "why": "PSA &gt; 4 ng/mL (10) เสี่ยงมะเร็งต่อมลูกหมาก (~25–30% เมื่อ PSA 4–10) → ต้อง<b>ตัดมะเร็งก่อน</b>ด้วย <b>TRUS-guided biopsy</b> (ปัจจุบันมักทำ MRI ก่อนแล้ว targeted biopsy) ก่อนรักษา BPH · 5-ARI ลด PSA ครึ่งหนึ่งจะบดบังมะเร็ง · ไฟล์ขีด a ลายมือ <b>\"&gt; 4\"</b> เหนือ PSA = 10 และแปะสไลด์ <b>Serum PSA (Protease enzyme · Tumor marker · Organ specific substance · Normal 0–4 ng/dl · High (&gt; 4 ng/dl))</b>",
+  "interp": "ชายที่มีอาการ BPH รุนแรง (<b>IPSS 22</b> = severe) แต่ <b>PSA 10 ng/mL</b> ซึ่งสูงเกินเกณฑ์ 4 ชัดเจน — ถามสิ่งที่ต้องทำ ประเด็นคือ PSA สูงต้องหามะเร็งต่อมลูกหมากก่อนจะรักษาอาการ BPH อย่างเดียว",
+  "why": "<b>IPSS</b> แบ่งความรุนแรง LUTS: 0–7 mild · 8–19 moderate · <b>20–35 severe</b> ใช้ตัดสินการรักษา BPH แต่<b>ไม่ได้บอกว่าเป็นมะเร็งหรือไม่</b> · <b>PSA</b> เป็น serine protease ที่จำเพาะต่ออวัยวะ (ต่อมลูกหมาก) ไม่จำเพาะต่อมะเร็ง ค่าปกติดั้งเดิม <b>0–4 ng/mL</b> · PSA 4–10 พบมะเร็งราว 1 ใน 4 และ <b>&gt; 10 พบมะเร็งราวครึ่งหนึ่ง</b> · BPH ทำให้ PSA สูงได้ (ราว 0.1–0.3 ng/mL ต่อกรัมของต่อม) แต่ค่า 10 สูงเกินกว่าจะสรุปว่าเป็นจาก BPH ต้องหามะเร็ง · ขั้นตอนปัจจุบัน: ตรวจ PSA ซ้ำ (ไม่มี UTI, retention, เพิ่งสวนหรือหลั่ง) + DRE → <b>multiparametric MRI</b> ก่อน biopsy → biopsy แบบ targeted ร่วม systematic (ทาง transrectal ภายใต้ TRUS หรือ transperineal ซึ่งติดเชื้อน้อยกว่า) · ระหว่างรอผลรักษาอาการด้วย α-blocker ได้ · ไฟล์ขีด a ลายมือ <b>\"&gt; 4\"</b> เหนือ PSA = 10 และแปะสไลด์ Serum PSA (normal 0–4, high &gt; 4)",
   "wrong": {
-   "B": "α-blocker รักษาอาการแต่ไม่ตัดมะเร็ง · จะถูกถ้า PSA ปกติ DRE ปกติ",
-   "C": "5-ARI ลด PSA ~50% บดบังมะเร็ง · จะถูกถ้ายืนยันไม่มีมะเร็งแล้วต่อมโต",
-   "D": "TURP ไม่ใช่การวินิจฉัยมะเร็ง · จะถูกถ้ามีภาวะแทรกซ้อน BPH หลังตัดมะเร็งแล้ว",
-   "E": "รอ PSA 2 ปีพลาดมะเร็ง · จะถูกถ้า PSA ปกติ DRE ปกติ"
+   "B": "α-blocker (tamsulosin, alfuzosin, doxazosin) เป็นยาขั้นแรกของ LUTS จาก BPH ลด dynamic component ได้ภายในไม่กี่วัน แต่ให้อย่างเดียวโดยไม่สืบค้น PSA 10 จะทำให้วินิจฉัยมะเร็งช้า · จะถูกถ้าเป็นชาย 65 ปี IPSS 15 DRE ต่อมโตเรียบ ขนาด 35 g PSA 1.8 ng/mL ไม่มีภาวะแทรกซ้อน",
+   "C": "5-ARI (finasteride, dutasteride) ลดขนาดต่อมราว 20–30% ใช้กับต่อมโต &gt; 30–40 mL และ<b>ลด PSA ลงราวครึ่งหนึ่งใน 6 เดือน</b> ถ้าเริ่มก่อนสืบค้นจะบดบังมะเร็ง (ต้องคูณ PSA สองเท่าเมื่ออ่านผล) · จะถูกถ้าเป็นชาย 70 ปี LUTS ปานกลาง ต่อมโต 60 mL PSA 2.5 ng/mL ที่ biopsy ไม่พบมะเร็งแล้ว (มักให้คู่กับ α-blocker)",
+   "D": "TURP เป็นการผ่าตัดของ BPH ที่มีข้อบ่งชี้ เช่น retention ซ้ำ, ไตเสื่อมจากการอุดกั้น, นิ่วในกระเพาะปัสสาวะ, เลือดออกซ้ำ, UTI ซ้ำ หรือยาไม่ได้ผล แต่ต้องสืบค้น PSA สูงก่อน · จะถูกถ้าเป็นชาย 72 ปี เคย acute urinary retention 2 ครั้งแม้ได้ยาสองตัว PSA 2 ng/mL และ biopsy ก่อนหน้าไม่พบมะเร็ง",
+   "E": "การนัดตรวจ PSA อีก 2 ปีเป็นช่วงตรวจคัดกรองของผู้ที่ PSA ต่ำ ไม่ใช่ PSA 10 ที่มีโอกาสเป็นมะเร็งสูง · จะถูกถ้าเป็นชาย 55 ปีไม่มีอาการ ผ่านการพูดคุยเรื่องข้อดีข้อเสียของการคัดกรองแล้ว PSA 1.2 ng/mL DRE ปกติ"
   },
-  "trap": "รักษา BPH ทันทีโดยไม่สนใจ PSA สูง",
+  "trap": "เห็นอาการ BPH รุนแรงแล้วรีบเลือกการรักษาอาการ (ยาหรือ TURP) โดยลืมว่า PSA 10 ต้องหามะเร็งก่อน · อีกจุดคือ 5-ARI ที่ลด PSA ลงครึ่งหนึ่งจะบดบังผลถ้าเริ่มก่อน · ช้อยในเว็บใช้ \"TRUS-guided biopsy\" ตามไฟล์ แต่แนวทางปัจจุบันจะทำ mpMRI ก่อนแล้วจึง biopsy",
   "summary": [
-   "PSA &gt; 4 (หรือตามอายุ) → ประเมินมะเร็ง",
-   "MRI prostate → targeted ± systematic biopsy",
-   "PSA สูงได้จาก BPH · prostatitis · AUR · หลังสวน",
-   "PSA density &gt; 0.15 · free PSA ต่ำ → สงสัยมะเร็ง",
-   "5-ARI: คูณ PSA × 2",
-   "ตัดมะเร็งก่อนรักษา BPH"
+   "IPSS 7 ข้อ คะแนน 0–35: mild 0–7 · moderate 8–19 · severe 20–35 + คำถาม quality of life 1 ข้อ",
+   "PSA ปกติดั้งเดิม 0–4 ng/mL · 4–10 = gray zone (มะเร็ง ~25%) · &gt; 10 มะเร็ง ~50% · ใช้เกณฑ์ตามอายุ, PSA density (&gt; 0.15 ng/mL/cc น่าสงสัย), free/total PSA (&lt; 10–15% สงสัยมะเร็ง) ช่วยตัดสินใจ",
+   "สาเหตุอื่นที่ทำให้ PSA สูง: BPH, prostatitis/UTI, urinary retention, สวนปัสสาวะหรือส่องกล้อง, หลั่งน้ำอสุจิ 48 ชม. ก่อนเจาะ — ควรตรวจซ้ำก่อนตัดสินใจ biopsy",
+   "EAU 2024: PSA สูงหรือ DRE ผิดปกติ → mpMRI ก่อน biopsy · PI-RADS ≥ 3 → targeted + systematic biopsy · ทาง transperineal แนะนำเพื่อลดการติดเชื้อ",
+   "5-ARI ลด PSA ราว 50% หลังใช้ 6–12 เดือน · ผู้ที่กินยาอยู่ให้คูณค่า PSA ด้วย 2 เมื่อแปลผล",
+   "BPH รักษาตามขั้น: watchful waiting (อาการน้อย) → α-blocker → เพิ่ม 5-ARI ถ้าต่อม &gt; 40 mL → ผ่าตัด (TURP, HoLEP, simple prostatectomy) เมื่อมีภาวะแทรกซ้อนหรือยาไม่ได้ผล",
+   "DRE ที่พบ nodule แข็ง ขอบไม่เรียบ ต้อง biopsy ได้แม้ PSA ปกติ (มะเร็งบางชนิดหลั่ง PSA น้อย)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ไฟล์ระบุว่า \"ตรง AC\")",
-  "mnemonic": "<b>'PSA &gt; 4 = หามะเร็งก่อน (MRI/ biopsy)'</b>",
-  "guide": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer (2025)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a พร้อมลายมือ \"&gt; 4\" · ในบริบทปัจจุบันควรตรวจ PSA ซ้ำและทำ mpMRI ก่อน biopsy แต่ในช้อยที่ให้มา biopsy คือทางเดียวที่สืบค้นมะเร็ง ส่วนช้อยอื่นเป็นการรักษา BPH หรือรอดูซึ่งไม่เหมาะกับ PSA 10",
+  "mnemonic": "<b>'PSA &gt; 4 = หาเนื้อร้ายก่อน แล้วค่อยรักษาต่อมโต'</b>",
+  "guide": "EAU–EANM–ESTRO–ESUR–ISUP–SIOG Guidelines on Prostate Cancer 2024; EAU Guidelines on Management of Non-neurogenic Male LUTS 2024; Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "LUTS + PSA 12 → MRI → biopsy",
-   "LUTS + PSA 2 DRE ปกติ → รักษา BPH",
-   "PSA สูงหลังใส่สายสวนเพราะ AUR → รอ 6 สัปดาห์แล้วตรวจซ้ำ"
+   "ชาย 68 ปี PSA 7.5 DRE ปกติ mpMRI พบ PI-RADS 4 ที่ peripheral zone → MRI-targeted + systematic biopsy",
+   "ชาย 70 ปี กิน dutasteride มา 2 ปี PSA 3.0 ng/mL → แปลผลเท่ากับ ~6.0 ควรสืบค้นต่อ",
+   "ชาย 66 ปี เพิ่งใส่สายสวนปัสสาวะจาก retention เมื่อวาน PSA 12 → รักษาและรอ 6–8 สัปดาห์แล้วตรวจ PSA ซ้ำก่อนตัดสินใจ biopsy",
+   "ชาย 74 ปี DRE พบก้อนแข็งเป็นตะปุ่มตะป่ำทั้งกลีบ PSA 85 ปวดหลัง → biopsy + bone scan/PSMA PET สงสัยแพร่กระจาย"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>14. อาการ BPH มี IPSS = 22, PSA = 10 ทำอะไร (ตรง AC) — a. TRUS with biopsy c. IVP d. CT KUB</b> (ช้อย c–d อยู่ในตำแหน่งที่ต่อจากข้ออื่นในไฟล์)<br>ลายมือ: \"&gt; 4\" เหนือ PSA = 10 · ขีด a<br>ไฮไลต์: \"BPH\" \"PSA = 10 ทำอะไร\" · a (เหลือง)<br>รูปที่แปะ: สไลด์ Serum PSA — Protease enzyme · Tumor marker · Organ specific substance · Normal 0 – 4 ng/dl · High (&gt; 4 ng/dl) + ลายมือ<br>ที่ปรับในเว็บ: เติมช้อย B–E",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU67|RoD|15": {
-  "interp": "ชาย<b>ไปเที่ยวกลางคืน</b> (เสี่ยง STI) มีอาการ<b>ท่อปัสสาวะอักเสบ</b> → ถามยาที่เหมาะสม",
-  "why": "Urethritis จากเพศสัมพันธ์ต้อง<b>ครอบคลุมทั้ง N. gonorrhoeae และ Chlamydia trachomatis</b> (มักติดร่วมกัน) → ยาสองตัว · คีย์ไฟล์: <b>ciprofloxacin + doxycycline</b> · ปัจจุบัน gonorrhea ดื้อ fluoroquinolone สูง → มาตรฐานคือ <b>ceftriaxone 500 mg IM + doxycycline 7 วัน</b> · ไฟล์ขีด b ลายมือ <b>\"cover N. gonorrhea + C. trachomatis\"</b>",
+  "interp": "ชายที่<b>ไปเที่ยวกลางคืน</b> (สื่อถึงการมีเพศสัมพันธ์ที่เสี่ยง) แล้วมีอาการท่อปัสสาวะอักเสบ — ถามยาที่ควรให้ ต้องรู้ว่าชายที่มีอาการปัสสาวะแสบขัดหลังมีเพศสัมพันธ์คือ <b>urethritis จากโรคติดต่อทางเพศสัมพันธ์</b> ไม่ใช่ UTI ธรรมดา และต้องให้ยาครอบคลุมทั้ง gonorrhea และ chlamydia",
+  "why": "Urethritis ในชายแบ่งเป็น <b>gonococcal</b> (N. gonorrhoeae: ระยะฟัก 2–7 วัน หนองข้นเหลืองเขียวมาก) และ <b>non-gonococcal</b> (C. trachomatis มากที่สุด, Mycoplasma genitalium, Trichomonas, Ureaplasma: หนองใสน้อย ระยะฟัก 1–3 สัปดาห์) · ทั้งสองโรค<b>พบร่วมกันบ่อย</b> (ผู้ติด gonorrhea มี chlamydia ร่วมราว 10–40%) และแยกด้วยอาการไม่ได้แน่นอน จึงรักษาแบบ <b>syndromic dual coverage</b> ทันทีโดยไม่รอผล · หลักคือยาตัวหนึ่งสำหรับ gonorrhea + doxycycline สำหรับ chlamydia · ปัจจุบัน <b>fluoroquinolone ไม่ใช้รักษา gonorrhea แล้ว</b> เพราะเชื้อดื้อสูง (CDC ถอดออกตั้งแต่ปี 2007 และในไทยดื้อเกินครึ่ง) ยามาตรฐานคือ <b>ceftriaxone 500 mg IM ครั้งเดียว + doxycycline 100 mg วันละ 2 ครั้ง 7 วัน</b> · รักษาคู่นอนในช่วง 60 วัน งดเพศสัมพันธ์ 7 วันหลังได้ยา ตรวจ HIV/syphilis ร่วม · ไฟล์ขีด b ลายมือ <b>\"cover N. gonorrhea + C. trachomatis\"</b>",
   "wrong": {
-   "A": "Ofloxacin เดี่ยวไม่ครอบคลุม gonorrhea ที่ดื้อ และไม่ใช่มาตรฐาน · จะถูกถ้าคำถามถาม (ในอดีต) ยาเดี่ยวสำหรับ chlamydia",
-   "C": "Amoxicillin ไม่ครอบคลุม gonorrhea (ดื้อ) · จะถูกถ้าคำถามถาม chlamydia ในหญิงตั้งครรภ์ (ทางเลือก)",
-   "D": "Nitrofurantoin ใช้ cystitis ไม่ใช่ urethritis จาก STI · จะถูกถ้าคำถามถาม uncomplicated cystitis ในหญิง",
-   "E": "Metronidazole ใช้กับ Trichomonas · จะถูกถ้าคำถามถาม urethritis ที่ไม่ตอบสนองยาแรก/ คู่นอนเป็น trichomoniasis"
+   "A": "Ofloxacin เคยใช้รักษาทั้ง gonorrhea และ chlamydia (ofloxacin 7 วันเป็นยาทางเลือกของ chlamydia) แต่การให้ตัวเดียวพึ่ง fluoroquinolone สำหรับ gonococcus ซึ่งดื้อยาสูงมาก จึงไม่ครอบคลุม · จะถูกถ้าเป็นหญิง 24 ปี ตรวจ NAAT พบ chlamydia อย่างเดียว แพ้ doxycycline และ azithromycin (ใช้ levofloxacin หรือ ofloxacin 7 วันเป็นทางเลือก)",
+   "C": "Amoxicillin ไม่ครอบคลุม gonococcus ที่สร้าง β-lactamase (PPNG) และให้เดี่ยวไม่เพียงพอสำหรับ urethritis ในชาย · จะถูกถ้าเป็นหญิงตั้งครรภ์ 20 สัปดาห์ ตรวจคัดกรองพบ chlamydia cervicitis และกิน azithromycin ไม่ได้ (amoxicillin 500 mg วันละ 3 ครั้ง 7 วันเป็นทางเลือก)",
+   "D": "Nitrofurantoin มีระดับยาเฉพาะในปัสสาวะ ใช้กับ uncomplicated cystitis ในหญิง ไม่ครอบคลุม gonococcus และ chlamydia ซึ่งอยู่ในเยื่อบุท่อปัสสาวะ · จะถูกถ้าเป็นหญิง 22 ปี ปัสสาวะแสบขัด ถ่ายบ่อย ปวดท้องน้อย ไม่มีตกขาวผิดปกติ ไม่มีไข้ UA พบ nitrite และ leukocyte esterase",
+   "E": "Metronidazole 2 g ครั้งเดียวรักษา <b>Trichomonas vaginalis</b> ซึ่งเป็นสาเหตุ urethritis ในชายส่วนน้อย และไม่ครอบคลุม gonorrhea/chlamydia · จะถูกถ้าเป็นชาย 30 ปีที่คู่นอนตรวจพบ trichomoniasis และตนเองตรวจ NAAT ยืนยันว่ามี T. vaginalis"
   },
-  "trap": "ให้ยาครอบคลุมเชื้อเดียว",
+  "trap": "อ่านว่า \"อาการ UTI\" แล้วให้ยาแบบ cystitis (nitrofurantoin) — ชายวัยเจริญพันธุ์ที่ปัสสาวะแสบขัดหลังมีเพศสัมพันธ์ต้องคิด <b>urethritis จาก STI</b> และต้องให้ยา<b>สองกลุ่ม</b> · อีกกับดักคือเลือกยาตัวเดียวที่เคยครอบคลุมสองเชื้อ (ofloxacin) ซึ่งใช้ไม่ได้แล้วเพราะ gonococcus ดื้อ fluoroquinolone",
   "summary": [
-   "Urethritis STI: ครอบคลุม gonorrhea + chlamydia",
-   "มาตรฐาน: ceftriaxone 500 mg IM + doxycycline 100 mg bid 7 วัน",
-   "Fluoroquinolone ไม่ใช้กับ gonorrhea (ดื้อ)",
-   "ไม่ดีขึ้น → Mycoplasma genitalium/ Trichomonas",
-   "รักษาคู่นอน · ตรวจ HIV/ syphilis",
-   "งดเพศสัมพันธ์ 7 วันหลังรักษา"
+   "Urethritis ในชาย: ปัสสาวะแสบ มีหนองที่ปลายท่อ · Gram stain หนองพบ ≥ 2 WBC/oil field ยืนยัน urethritis · พบ Gram-negative intracellular diplococci = gonorrhea",
+   "Gonococcal: ฟัก 2–7 วัน หนองข้นมาก · NGU (chlamydia มากที่สุด, M. genitalium, Trichomonas): ฟักนานกว่า หนองใส อาการน้อย",
+   "การรักษาตาม CDC 2021: ceftriaxone 500 mg IM ครั้งเดียว (≥ 150 kg ให้ 1 g) + doxycycline 100 mg bid 7 วัน (ถ้ายังไม่ตัด chlamydia) · ทางเลือกของ chlamydia: azithromycin 1 g ครั้งเดียว",
+   "Fluoroquinolone ไม่แนะนำสำหรับ gonorrhea ตั้งแต่ 2007 เพราะดื้อยา · แพ้ cephalosporin รุนแรง → gentamicin 240 mg IM + azithromycin 2 g",
+   "ตรวจ NAAT จากปัสสาวะส่วนแรกหรือ swab · ตรวจ HIV, syphilis ร่วมทุกราย · รักษาคู่นอนใน 60 วันที่ผ่านมา · งดเพศสัมพันธ์ 7 วันหลังรักษาและจนคู่ได้รับยา",
+   "ภาวะแทรกซ้อนในชาย: epididymitis (อายุ &lt; 35 ปีมักจาก GC/CT), urethral stricture, disseminated gonococcal infection (ข้ออักเสบ ผื่นตุ่มหนอง)",
+   "ตรวจซ้ำ (test of reinfection) ที่ 3 เดือนหลังรักษา เพราะติดซ้ำบ่อย"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (หลักการครอบคลุม 2 เชื้อถูก) แต่ปัจจุบันใช้ ceftriaxone แทน ciprofloxacin เพราะ gonorrhea ดื้อ fluoroquinolone",
-  "mnemonic": "<b>'หนองใน: 2 เชื้อ 2 ยา (ceftriaxone + doxy)'</b>",
-  "guide": "CDC Sexually Transmitted Infections Treatment Guidelines 2021 (MMWR 2021;70:1)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด b และหลักการ dual coverage gonorrhea + chlamydia · แต่ ciprofloxacin ไม่ใช่ยามาตรฐานของ gonorrhea แล้วเพราะดื้อยา ในทางปฏิบัติควรใช้ ceftriaxone + doxycycline · ในช้อยที่ให้ B เป็นตัวเลือกเดียวที่ครอบคลุมสองเชื้อจึงยังเป็นคำตอบที่ดีที่สุด",
+  "mnemonic": "<b>'Urethritis ชาย = 2 เชื้อ (GC + CT) = 2 ยา (Ceftriaxone + Doxy)'</b>",
+  "guide": "Workowski KA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep 2021;70(4):1–187; WHO Guidelines for the Treatment of Neisseria gonorrhoeae (2016, updated 2024)",
   "variants": [
-   "ชายหนองข้นหลังเที่ยว → ceftriaxone + doxycycline",
-   "ชาย urethritis หนองใส Gram stain ไม่พบเชื้อ → doxycycline 7 วัน",
-   "ยังไม่หายหลังรักษา → ตรวจ M. genitalium/ Trichomonas"
+   "ชาย 25 ปี มีหนองข้นสีเหลืองจากท่อปัสสาวะ 3 วันหลังมีเพศสัมพันธ์ Gram stain พบ Gram-negative intracellular diplococci → ceftriaxone 500 mg IM + doxycycline 7 วัน",
+   "ชาย 22 ปี ปวดอัณฑะข้างขวา บวมแดง มีหนองท่อปัสสาวะ → acute epididymitis จาก GC/CT: ceftriaxone + doxycycline 10 วัน",
+   "ชายรักษา urethritis ครบแล้วยังมีอาการต่อ คู่นอนไม่ได้รักษา → ติดซ้ำ ต้องรักษาคู่นอนพร้อมกันและตรวจ NAAT รวม M. genitalium",
+   "ทำไมต้องให้ยา chlamydia ด้วยแม้ Gram stain พบ gonococcus ชัด → ติดเชื้อร่วมพบบ่อยและ chlamydia มักไม่มีอาการ ถ้าไม่รักษาเกิด epididymitis และแพร่ให้คู่นอน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>15. ผู้ป่วยชายไปเที่ยวกลางคืน มีอาการ UTI ควร treat แบบใด — a. Ofloxacin b. Ciprofloxacin + Doxycyclin</b><br>ลายมือ: ขีด b + \"cover N. gonorrhea + C. trachomatis\"<br>ไฮไลต์: \"เที่ยวกลางคืน มีอาการ UTI\" \"treat แบบใด\" · b (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย C–E (Amoxicillin · Nitrofurantoin · Metronidazole)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU67|RoD|16": {
-  "interp": "หญิง 40 ปี <b>ปัสสาวะแสบขัดหลังมีเพศสัมพันธ์กับสามีทุกครั้ง</b> → ถามการรักษา",
-  "why": "<b>Postcoital (honeymoon) cystitis</b> — เพศสัมพันธ์ดันเชื้อจากบริเวณปากช่องคลอด/ ทวารหนักเข้าท่อปัสสาวะ → รักษาด้วย<b>ยาปฏิชีวนะ</b> · ป้องกันการเป็นซ้ำ: ปัสสาวะหลังมีเพศสัมพันธ์ ดื่มน้ำ และ <b>postcoital antibiotic prophylaxis</b> (ยาครั้งเดียวหลังเพศสัมพันธ์) · ไฟล์ขีด c ลายมือ <b>\"honey moon cystitis\"</b>",
+  "interp": "หญิง 40 ปี มี<b>ปัสสาวะแสบขัดหลังมีเพศสัมพันธ์กับสามีทุกครั้ง</b> — คือ <b>postcoital (honeymoon) cystitis</b> ซึ่งเป็น bacterial cystitis จากเชื้อในลำไส้ที่ถูกดันเข้าท่อปัสสาวะสั้นของผู้หญิงขณะมีเพศสัมพันธ์ ถามการรักษา",
+  "why": "ผู้หญิงมีท่อปัสสาวะสั้น (~4 cm) และอยู่ใกล้ช่องคลอดและทวารหนัก ระหว่างมีเพศสัมพันธ์แรงเสียดสีดันเชื้อ <b>uropathogenic E. coli</b> (~75–95%) จากบริเวณรอบท่อปัสสาวะเข้าสู่กระเพาะปัสสาวะ จึงเกิด <b>postcoital/honeymoon cystitis</b> (เรียกเช่นนี้เพราะพบบ่อยหลังเริ่มมีเพศสัมพันธ์บ่อยครั้ง) · อาการ: ปัสสาวะแสบขัด ถ่ายบ่อย ปวดท้องน้อย ภายใน 24–48 ชม.หลังมีเพศสัมพันธ์ ไม่มีไข้ · การรักษาคือ <b>antibiotic</b>: nitrofurantoin 100 mg bid 5 วัน, fosfomycin 3 g ครั้งเดียว หรือ TMP-SMX 3 วัน (ถ้าเชื้อดื้อในพื้นที่ &lt; 20%) · เมื่อเป็นซ้ำ (≥ 2 ครั้งใน 6 เดือน หรือ ≥ 3 ครั้งใน 1 ปี) ที่สัมพันธ์กับเพศสัมพันธ์ ให้ <b>postcoital prophylaxis</b> ยาครั้งเดียวภายใน 2 ชม.หลังมีเพศสัมพันธ์ (เช่น nitrofurantoin 50–100 mg) ร่วมกับดื่มน้ำมากและปัสสาวะหลังมีเพศสัมพันธ์ เลี่ยง spermicide · ไฟล์ขีด c ลายมือ <b>\"honey moon cystitis\"</b>",
   "wrong": {
-   "A": "งดเพศสัมพันธ์ไม่ใช่การรักษาที่เหมาะสม · จะถูกถ้าคำถามถามระหว่างรักษา STI",
-   "B": "Estrogen ทาช่องคลอดใช้ป้องกัน UTI ซ้ำใน<b>หญิงวัยหมดประจำเดือน</b> · จะถูกถ้าหญิง 65 ปี UTI ซ้ำ ช่องคลอดแห้ง",
-   "D": "Bladder instillation ใช้ใน interstitial cystitis · จะถูกถ้าปวดกระเพาะปัสสาวะเรื้อรัง ตรวจปัสสาวะปกติ",
-   "E": "Cystoscopy ไม่จำเป็นใน UTI ไม่ซับซ้อน · จะถูกถ้า hematuria ไม่หายหลังรักษา/ UTI ซ้ำผิดปกติ"
+   "A": "การงดเพศสัมพันธ์ 1 เดือนไม่ได้รักษาการติดเชื้อที่มีอยู่ และไม่ใช่การป้องกันที่ยั่งยืน แนวทางแนะนำให้มีเพศสัมพันธ์ได้โดยปัสสาวะหลังมีเพศสัมพันธ์และใช้ยาป้องกันแทน · จะถูกถ้าเป็นหญิงที่เพิ่งผ่าตัดซ่อม vesicovaginal fistula และแพทย์ให้งดเพศสัมพันธ์จนแผลหาย (ราว 6 สัปดาห์)",
+   "B": "Vaginal estrogen ช่วยฟื้น lactobacillus และ pH ในช่องคลอด ลด recurrent UTI ใน<b>หญิงวัยหมดประจำเดือน</b>ที่เยื่อบุบาง (genitourinary syndrome of menopause) แต่ไม่ใช่การรักษาการติดเชื้อเฉียบพลันในหญิง 40 ปีที่ยังมีประจำเดือน · จะถูกถ้าเป็นหญิง 62 ปี หมดประจำเดือนมา 10 ปี ช่องคลอดแห้ง เป็นกระเพาะปัสสาวะอักเสบซ้ำ 4 ครั้งในปีนี้",
+   "D": "Bladder instillation (เช่น DMSO, heparin, hyaluronic acid) ใช้ใน <b>interstitial cystitis/bladder pain syndrome</b> ซึ่งปวดกระเพาะปัสสาวะเรื้อรังโดยเพาะเชื้อไม่ขึ้น ไม่ใช่การติดเชื้อแบคทีเรีย · จะถูกถ้าเป็นหญิง 45 ปี ปวดท้องน้อยเมื่อกระเพาะปัสสาวะเต็ม ปัสสาวะบ่อยกลางคืนมากกว่า 6 เดือน เพาะเชื้อไม่ขึ้นหลายครั้ง และไม่ตอบสนองต่อการรักษาขั้นแรก",
+   "E": "Cystoscopy ไม่จำเป็นใน uncomplicated cystitis ไม่ว่าจะเป็นซ้ำหรือสัมพันธ์กับเพศสัมพันธ์ ใช้เมื่อมีข้อบ่งชี้ เช่น hematuria ที่ยังคงอยู่หลังรักษา สงสัยนิ่ว ความผิดปกติทางกายวิภาค หรือเชื้อแปลก · จะถูกถ้าเป็นหญิง 55 ปีสูบบุหรี่ ติดเชื้อซ้ำและยังมี microscopic hematuria หลังเชื้อหายแล้ว"
   },
-  "trap": "ใช้ estrogen cream กับหญิงวัยเจริญพันธุ์",
+  "trap": "คิดว่าอาการเกิดจากการบาดเจ็บหรือแพ้ แล้วเลือกงดเพศสัมพันธ์ หรือสับสนกับการป้องกันในหญิงวัยหมดประจำเดือน (estrogen) · หลักคือปัสสาวะแสบขัดหลังเพศสัมพันธ์ในหญิงวัยเจริญพันธุ์ = <b>bacterial cystitis</b> รักษาด้วย antibiotic และป้องกันด้วย postcoital prophylaxis",
   "summary": [
-   "Postcoital cystitis: ยาปฏิชีวนะ",
-   "ป้องกัน: ปัสสาวะหลังเพศสัมพันธ์ · ดื่มน้ำ",
-   "Recurrent UTI: postcoital prophylaxis (nitrofurantoin/ TMP-SMX ครั้งเดียว)",
-   "หมดประจำเดือน: vaginal estrogen",
-   "เลี่ยง spermicide/ diaphragm",
-   "Recurrent UTI = ≥ 2 ครั้ง/ 6 เดือน หรือ ≥ 3 ครั้ง/ ปี"
+   "ปัจจัยเสี่ยง UTI ในหญิง: เพศสัมพันธ์บ่อย, คู่ใหม่, spermicide/diaphragm, ประวัติ UTI ในแม่, หมดประจำเดือน (estrogen ต่ำ), กระเพาะปัสสาวะถ่ายไม่หมด",
+   "Uncomplicated cystitis: nitrofurantoin 100 mg bid 5 วัน · fosfomycin 3 g ครั้งเดียว · pivmecillinam 3–5 วัน · TMP-SMX 3 วัน ถ้าเชื้อดื้อในพื้นที่ &lt; 20%",
+   "Recurrent UTI = ≥ 2 ครั้งใน 6 เดือน หรือ ≥ 3 ครั้งใน 1 ปี (ยืนยันด้วยการเพาะเชื้อ)",
+   "ป้องกันเมื่อสัมพันธ์กับเพศสัมพันธ์: postcoital prophylaxis ครั้งเดียวภายใน 2 ชม. (nitrofurantoin 50–100 mg, TMP-SMX 40/200 mg หรือ cephalexin 250 mg) · ถ้าไม่สัมพันธ์ → continuous low-dose prophylaxis 6–12 เดือน",
+   "วิธีที่ไม่ใช้ยา: ดื่มน้ำมากขึ้น ปัสสาวะหลังมีเพศสัมพันธ์ เลี่ยง spermicide · ทางเลือกเสริม: D-mannose, cranberry, methenamine hippurate",
+   "หญิงวัยหมดประจำเดือนที่เป็นซ้ำ: vaginal estrogen ลดการเกิดซ้ำได้ชัด",
+   "ไม่ต้องส่องกล้องหรือถ่ายภาพในหญิงที่เป็นซ้ำแบบไม่ซับซ้อน ยกเว้นมี hematuria ค้าง, นิ่ว, ไข้/pyelonephritis ซ้ำ หรือเชื้อ urease-producing"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Honeymoon cystitis = ยา + ฉี่หลัง sex'</b>",
-  "guide": "AUA/CUA/SUFU Guideline: Recurrent Uncomplicated UTI in Women (J Urol 2019;202:282)",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด c พร้อมลายมือ \"honey moon cystitis\" · คำตอบที่สมบูรณ์คือรักษาการติดเชื้อด้วย antibiotic และถ้าเป็นซ้ำให้ postcoital prophylaxis ส่วนช้อย D–E ที่เว็บเพิ่มเป็นการรักษาของโรคอื่น",
+  "mnemonic": "<b>'Honeymoon = เชื้อเข้าท่อสั้น → ATB หลังเพศสัมพันธ์'</b>",
+  "guide": "EAU Guidelines on Urological Infections 2024; AUA/CUA/SUFU Guideline: Recurrent Uncomplicated Urinary Tract Infections in Women (J Urol 2019;202:282, amended 2022)",
   "variants": [
-   "หญิง 25 ปี UTI ทุกครั้งหลังเพศสัมพันธ์ → postcoital prophylaxis",
-   "หญิง 68 ปี UTI ซ้ำ → vaginal estrogen",
-   "หญิงปวดกระเพาะเรื้อรัง ตรวจปัสสาวะปกติ → interstitial cystitis"
+   "หญิง 26 ปี เป็นกระเพาะปัสสาวะอักเสบ 4 ครั้งในปีนี้ ทุกครั้งเกิดหลังมีเพศสัมพันธ์ → nitrofurantoin 50–100 mg ครั้งเดียวหลังมีเพศสัมพันธ์",
+   "หญิง 30 ปี ใช้ diaphragm ร่วม spermicide คุมกำเนิดและติดเชื้อทางเดินปัสสาวะซ้ำ → เปลี่ยนวิธีคุมกำเนิด เพราะ spermicide ทำลาย lactobacillus",
+   "หญิง 35 ปี ปัสสาวะแสบขัดร่วมกับไข้ 39 °C ปวดบั้นเอวขวา เคาะเจ็บ → acute pyelonephritis เพาะเชื้อปัสสาวะ ให้ยา 7–14 วัน ไม่ใช่ยา cystitis ระยะสั้น",
+   "หญิงตั้งครรภ์ 16 สัปดาห์ ตรวจปัสสาวะคัดกรองพบเชื้อ &gt; 10<sup>5</sup> CFU/mL ไม่มีอาการ → asymptomatic bacteriuria ต้องรักษา (ป้องกัน pyelonephritis)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>16. หญิง 40 ปี มี SI กับสามี หลังจากนั้นมีปัสสาวะแสบขัดทุกครั้ง รักษา อย่างไร — a. งด sex 1 mo b. ทา Estrogen cream c. Antibiotic</b><br>ลายมือ: \"honey moon cystitis\" · ขีด c<br>ไฮไลต์: \"หญิง 40 ปี มี SI กับสามี\" \"ปัสสาวะแสบขัดทุกครั้ง\" \"รักษา\" · c (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย D–E (Bladder instillation · Cystoscopy)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU67|RoD|17": {
-  "interp": "หญิง 28 ปี <b>ก้อนในกระพุ้งแก้ม 3×3 cm แข็ง ไม่เจ็บ</b> + <b>ต่อมน้ำเหลืองที่คอโต 2 cm</b> → ผลชิ้นเนื้อน่าจะเป็นอะไร",
-  "why": "มะเร็งในช่องปาก <b>~90% เป็น squamous cell carcinoma</b> — ก้อน/ แผลแข็ง ไม่เจ็บ ขอบนูน + กระจายต่อมน้ำเหลืองที่คอ · ปัจจัยเสี่ยง: บุหรี่ สุรา หมาก HPV · ไฟล์ขีด b ลายมือ <b>\"90% intraoral CA\"</b> และแปะ mind map มะเร็งช่องปาก",
+  "interp": "หญิง 28 ปี มี<b>ก้อนแข็งไม่เจ็บที่กระพุ้งแก้ม 3 × 3 cm</b> ร่วมกับ<b>ต่อมน้ำเหลืองที่คอโต 2 cm</b> — ลักษณะก้อนแข็ง ไม่เจ็บ และมีต่อมน้ำเหลืองโตเป็นมะเร็งที่แพร่ไปต่อมน้ำเหลืองแล้ว ถามผลชิ้นเนื้อที่น่าจะพบมากที่สุด",
+  "why": "เยื่อบุช่องปากทั้งหมดเป็น stratified squamous epithelium มะเร็งช่องปากจึงเป็น <b>squamous cell carcinoma ราว 90%</b> · ปัจจัยเสี่ยงหลักคือ <b>บุหรี่ สุรา และการเคี้ยวหมากพลู</b> (ในไทยพบ SCC กระพุ้งแก้มบ่อยในหญิงสูงอายุที่เคี้ยวหมาก) รวมถึง premalignant lesion เช่น leukoplakia, erythroplakia (เสี่ยงสูงสุด) และ oral submucous fibrosis · ก้อนหรือแผลที่<b>แข็ง (induration)</b> ไม่หายเกิน 2–3 สัปดาห์ ต้อง biopsy · SCC ช่องปากแพร่ทาง<b>ต่อมน้ำเหลือง</b>เป็นหลัก (buccal → level I–II) ส่วนการแพร่ทางเลือดพบน้อยและช้า · Staging AJCC 8th: T ขึ้นกับขนาดและ <b>depth of invasion</b> (DOI) — ก้อน 3 cm คือ T2 ถ้า DOI ≤ 10 mm · ต่อมน้ำเหลืองข้างเดียว ≤ 3 cm ไม่มี ENE = N1 → stage III · รักษาด้วย wide excision ขอบ ~1 cm + neck dissection ± adjuvant RT/CRT · แม้อายุ 28 ปีน้อยกว่าปกติ แต่ลักษณะก้อนแข็งร่วมต่อมน้ำเหลืองยังชี้ไปที่ SCC · ไฟล์ขีด b ลายมือ <b>\"90% intraoral CA\"</b> และแปะ mind map มะเร็งช่องปาก",
   "wrong": {
-   "A": "Melanoma ในช่องปากพบน้อย (สีดำ/ น้ำตาล เพดานปาก เหงือก) · จะถูกถ้าคำถามถามรอยดำโตเร็วที่เพดานปาก",
-   "C": "Adenocarcinoma มาจากต่อมน้ำลายเล็ก พบน้อยกว่า · จะถูกถ้าคำถามถามก้อนใต้เยื่อบุที่เพดานแข็ง (minor salivary gland)",
-   "D": "แผลเฉียบพลันเจ็บ หายใน 2 สัปดาห์ ไม่แข็ง ไม่มีต่อมน้ำเหลืองแข็ง · จะถูกถ้าแผลเจ็บหลังกัดกระพุ้งแก้มหายใน 1 สัปดาห์",
-   "E": "เชื้อรา (candidiasis) เป็นคราบขาวขูดออก · จะถูกถ้าผู้ป่วยภูมิต่ำมีคราบขาวขูดออกได้"
+   "A": "Mucosal melanoma ในช่องปากพบน้อยมาก (&lt; 1% ของมะเร็งช่องปาก) มักเป็นรอยดำหรือน้ำตาลที่เพดานแข็งหรือเหงือกบน พยากรณ์โรคแย่มาก · จะถูกถ้าเป็นชาย 60 ปี มีรอยดำขอบไม่เรียบขยายขึ้นที่เพดานแข็ง ผิวขรุขระ และมีจุดดำกระจายรอบ ๆ",
+   "C": "Adenocarcinoma ในช่องปากมาจาก<b>ต่อมน้ำลายเล็ก</b> (minor salivary gland) ที่พบมากที่<b>เพดานแข็ง</b> เช่น adenoid cystic carcinoma, mucoepidermoid carcinoma มักเป็นก้อนใต้เยื่อบุที่ผิวเรียบ ไม่ใช่ชนิดที่พบบ่อยที่สุด · จะถูกถ้าเป็นหญิง 50 ปี มีก้อนใต้เยื่อบุผิวเรียบที่เพดานแข็งด้านข้างโตช้า ๆ 2 ปี มีชาร้าวตามเส้นประสาท (perineural invasion ของ adenoid cystic)",
+   "D": "Acute ulcer (เช่น aphthous ulcer, แผลจากฟันบาด) เจ็บมาก ขอบนุ่ม ไม่แข็ง และหายเองใน 1–2 สัปดาห์ ไม่ทำให้ต่อมน้ำเหลืองโตแข็งขนาด 2 cm · จะถูกถ้าเป็นหญิง 22 ปี มีแผลตื้นกลมสีเหลืองขอบแดง เจ็บมากเวลากินอาหารเผ็ด เป็นช่วงเครียดก่อนสอบ และหายใน 10 วัน",
+   "E": "Fungal infection ในช่องปากที่พบบ่อยคือ candidiasis เป็นฝ้าขาวเช็ดออกได้ พบในผู้ใส่ฟันปลอม ภูมิคุ้มกันต่ำ หรือใช้ steroid พ่น ไม่ใช่ก้อนแข็ง · จะถูกถ้าเป็นผู้ป่วย HIV CD4 80 cells/µL มีฝ้าขาวทั่วกระพุ้งแก้มและลิ้น ขูดออกได้เหลือฐานแดง"
   },
-  "trap": "คิดว่าอายุน้อยจึงไม่ใช่มะเร็ง — ก้อนแข็งไม่เจ็บ + ต่อมน้ำเหลืองโต ต้องคิดถึง SCC",
+  "trap": "อายุ 28 ปีและเป็นผู้หญิงทำให้ลังเลว่าไม่น่าเป็นมะเร็ง แล้วไปเลือกแผลอักเสบหรือการติดเชื้อ · ตัวชี้คือ <b>ก้อนแข็ง ไม่เจ็บ + ต่อมน้ำเหลืองโต</b> ซึ่งบอกมะเร็ง และในช่องปากชนิดที่พบมากที่สุดคือ SCC ตามชนิดเซลล์ของเยื่อบุ",
   "summary": [
-   "Oral cavity CA ~90% SCC",
-   "ปัจจัยเสี่ยง: บุหรี่ · สุรา · หมาก · HPV (oropharynx)",
-   "Premalignant: leukoplakia · erythroplakia (เสี่ยงสูงกว่า)",
-   "แผล &gt; 2–3 สัปดาห์ไม่หาย → biopsy",
-   "รักษาหลัก: ผ่าตัด + neck dissection ± adjuvant RT/ CRT",
-   "ระยะลุกลาม → CRT"
+   "มะเร็งช่องปาก ~90% เป็น SCC · ตำแหน่งที่พบบ่อย: ลิ้นส่วนหน้าขอบข้าง, พื้นปาก, กระพุ้งแก้ม (เด่นในผู้เคี้ยวหมาก), เหงือก",
+   "Premalignant: leukoplakia (ปื้นขาวเช็ดไม่ออก) · erythroplakia (ปื้นแดง โอกาสเป็นมะเร็งสูงสุด) · oral submucous fibrosis (หมาก) · lichen planus ชนิด erosive",
+   "แผล/ก้อนในปากที่ไม่หายใน 2–3 สัปดาห์ แข็ง หรือมีต่อมน้ำเหลืองโต → incisional biopsy จากขอบรอยโรค ส่วนต่อมน้ำเหลืองใช้ FNA ไม่ตัดต่อมออก",
+   "Staging: CT/MRI หน้าและคอ (ดูกระดูกขากรรไกรและ DOI) + CT ทรวงอก · AJCC 8th ใช้ DOI: T1 ≤ 2 cm DOI ≤ 5 mm · T2 ≤ 2 cm DOI 5–10 mm หรือ 2–4 cm DOI ≤ 10 mm · T3 &gt; 4 cm หรือ DOI &gt; 10 mm",
+   "Lymphatic drainage: ริมฝีปาก/กระพุ้งแก้ม/พื้นปาก → level I (submental/submandibular) → level II–III · ลิ้นอาจ skip ไป level III–IV",
+   "รักษา: wide excision ขอบ 1 cm + neck dissection (therapeutic เมื่อ N+ · elective เมื่อ DOI &gt; 3–4 mm) · adjuvant RT สำหรับ T3–4, N2–3, perineural/LVI · margin บวกหรือ ENE → concurrent chemoradiation",
+   "HPV สัมพันธ์กับมะเร็ง oropharynx (ทอนซิล โคนลิ้น) มากกว่าช่องปาก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'มะเร็งในปาก = SCC (เก้าในสิบ)'</b>",
-  "guide": "NCCN Head and Neck Cancers v.2025 — Cancer of the oral cavity",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด b พร้อมลายมือ \"90% intraoral CA\" · อายุน้อยไม่ได้ตัดมะเร็ง และก้อนแข็งร่วมกับต่อมน้ำเหลืองโตเป็นภาพของ SCC ที่ลุกลามเฉพาะที่แล้ว",
+  "mnemonic": "<b>'ปากบุด้วย squamous → มะเร็งปาก 9 ใน 10 เป็น SCC'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Head and Neck Cancers (2025); AJCC Cancer Staging Manual 8th ed. (2017) — Oral cavity",
   "variants": [
-   "ผู้เคี้ยวหมาก แผลกระพุ้งแก้มไม่หาย 1 เดือน → biopsy → SCC",
-   "ปื้นแดงกำมะหยี่ในปากผู้สูบบุหรี่ → erythroplakia → biopsy",
-   "ก้อนใต้เยื่อบุเพดานแข็ง → minor salivary gland tumor"
+   "หญิง 70 ปี เคี้ยวหมากมา 40 ปี มีแผลขอบนูนแข็งที่กระพุ้งแก้มซ้าย 2 เดือน → incisional biopsy สงสัย SCC",
+   "ชาย 50 ปี สูบบุหรี่ มีปื้นสีแดงกำมะหยี่ที่พื้นปาก ไม่เจ็บ → erythroplakia ต้อง biopsy (โอกาสพบ dysplasia/มะเร็งสูง)",
+   "SCC ลิ้นขอบข้าง 1.5 cm DOI 6 mm คอคลำไม่พบต่อมน้ำเหลือง → wide excision + elective neck dissection level I–III",
+   "หลังผ่าตัด SCC กระพุ้งแก้ม ผลชิ้นเนื้อพบต่อมน้ำเหลืองมี extranodal extension → adjuvant concurrent chemoradiation (cisplatin)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>17. ผู้หญิง 28 ปี มาด้วยก้อนในกระพุ้งแก้ม 3x3 cm แข็ง กดไม่เจ็บ, \"LN ใต้คอโต 2 cm\" biopsy น่าจะเป็นอะไร — a. Melanoma b. SCC c. AdenoCA d. Acute ulcer e. Fungal infection</b><br>ลายมือ: ขีด b + \"90% intraoral CA\"<br>ไฮไลต์: \"หญิง 28 ปี\" \"ก้อนในกระพุ้งแก้ม 3x3 cm แข็ง กดไม่เจ็บ\" \"LN ใต้คอโต 2 cm\" \"biopsy น่าจะเป็นอะไร\" · b (เหลือง)<br>รูปที่แปะ: mind map ลายมือมะเร็งช่องปาก (อาการ: ก้อน/ แผล exophytic, pain, bleeding · PE · Dx · tumor spread: direct/ lymph/ hematogenous — ภาพเล็ก อ่านได้บางส่วน)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU67|RoD|18": {
-  "interp": "หญิง 42 ปี <b>ก้อนในกระพุ้งแก้มโตขึ้นเรื่อย ๆ และเลือดออก 2 ชม.</b> → ถามการจัดการ",
-  "why": "ก้อนที่<b>เลือดออก</b> (สงสัย vascular tumor/ AVM/ hemangioma หรือก้อนหลอดเลือดมาก) → <b>angiography</b> ได้ทั้ง<b>วินิจฉัย</b> (หาหลอดเลือดเลี้ยง) และ<b>รักษา</b> (embolization หยุดเลือด/ ลดเลือดก่อนผ่าตัด) · ไฟล์ขีด d ลายมือ <b>\"Dx + Tx\"</b> และแปะ mind map การวินิจฉัย (tissue Dx · FNA · imaging: X-ray, angiography, CT, MRI, US, bone scan, PET)",
+  "interp": "หญิง 42 ปี มี<b>ก้อนที่กระพุ้งแก้มโตขึ้นเรื่อย ๆ และเลือดออกมา 2 ชั่วโมง</b> — ก้อนที่โตและเลือดออกเองไม่หยุดชี้ไปที่ <b>vascular lesion</b> (เช่น arteriovenous malformation หรือก้อนที่มีเลือดมาเลี้ยงมาก) ถามสิ่งที่ควรทำ ซึ่งต้องได้ทั้งการวินิจฉัยและการห้ามเลือด",
+  "why": "ก้อนที่ใบหน้าและช่องปากที่ <b>โตขึ้นและเลือดออก</b> ต้องคิดถึง vascular anomaly ชนิด high-flow คือ <b>arteriovenous malformation (AVM)</b> ซึ่งตาม Schobinger staging: I quiescent (อุ่น แดง) → II expansion (โต มีเสียง bruit/thrill) → <b>III destruction (แผล ปวด เลือดออก)</b> → IV heart failure · เลือดออกจาก AVM เป็นเลือดแดงแรง กดหยุดยาก และอาจอุดทางเดินหายใจ · <b>Angiography</b> เป็นทั้ง<b>การวินิจฉัย</b> (เห็น feeding artery จาก facial/maxillary artery, nidus, early venous drainage) และ<b>การรักษา</b>ในครั้งเดียว ด้วย <b>transarterial embolization</b> (coil, particles, liquid embolic) ห้ามเลือดได้ทันที และใช้ลดเลือดก่อนผ่าตัดตัดออก (ผ่าตัดภายใน 24–72 ชม.หลัง embolization) · ระหว่างรอ: กดห้ามเลือด ดูแลทางเดินหายใจ เปิดเส้น จองเลือด · <b>ห้าม biopsy</b> ก้อนที่สงสัยเป็นหลอดเลือด · ไฟล์ขีด d ลายมือ <b>\"Dx + Tx\"</b> และแปะ mind map การวินิจฉัยที่มี angiography",
   "wrong": {
-   "A": "X-ray ไม่เห็นหลอดเลือด · จะถูกถ้าคำถามถามก้อนที่กัดกร่อนกระดูกขากรรไกร",
-   "B": "MRI ประเมินขอบเขตได้ดีแต่รักษาไม่ได้ ใช้เวลานาน · จะถูกถ้าไม่มีเลือดออก ต้องการวางแผนผ่าตัด",
-   "C": "US จำกัดในช่องปาก · จะถูกถ้าคำถามถามก้อนต่อมน้ำลายใต้ขากรรไกร",
-   "E": "เฝ้าดูไม่เหมาะเมื่อเลือดออก · จะถูกถ้าก้อนเล็กไม่มีอาการ"
+   "A": "X-ray ดูได้เพียงกระดูกและหินปูน เช่น phlebolith ใน venous malformation หรือการกร่อนของขากรรไกร ไม่ได้ห้ามเลือดหรือบอกหลอดเลือดที่มาเลี้ยง · จะถูกถ้าเป็นชาย 30 ปี มีก้อนนุ่มสีม่วงที่แก้มโตขึ้นเวลาก้มหน้า ไม่มีเลือดออก และต้องการดู phlebolith ประกอบการวินิจฉัย venous malformation",
+   "B": "MRI (พร้อม MRA) เป็นภาพที่ดีที่สุดสำหรับประเมินขอบเขต vascular malformation และแยก high-flow (flow voids) จาก low-flow ก่อนวางแผนรักษา แต่ใช้เวลาและไม่ได้หยุดเลือด · จะถูกถ้าเป็นหญิง 42 ปี มีก้อนที่กระพุ้งแก้มโตช้า ไม่มีเลือดออก อาการคงที่ และต้องการวางแผนผ่าตัดหรือ sclerotherapy",
+   "C": "Doppler ultrasound เป็นภาพแรกที่ดีสำหรับ vascular anomaly ผิวตื้น บอก flow ได้ ราคาถูก ไม่มีรังสี แต่ไม่ได้รักษาและเห็นรายละเอียดลึกในช่องปากได้จำกัด · จะถูกถ้าเป็นทารก 3 เดือน มีก้อนสีแดงสดนูนที่แก้มโตเร็วตั้งแต่อายุ 2 สัปดาห์ ไม่มีเลือดออก ต้องการยืนยัน infantile hemangioma",
+   "E": "การรอดูไม่เหมาะกับก้อนที่โตและเลือดออกต่อเนื่อง 2 ชม. เพราะอาจเสียเลือดมากและอุดทางเดินหายใจ · จะถูกถ้าเป็นทารก 4 เดือน มี infantile hemangioma ขนาดเล็กที่แก้ม ไม่อยู่ใกล้ตา ปาก หรือทางเดินหายใจ ไม่มีแผล ซึ่งยุบเองได้ส่วนใหญ่ภายในอายุ 4–5 ปี"
   },
-  "trap": "ส่งภาพที่ไม่รุกล้ำ — ก้อนเลือดออกต้องได้ทั้งวินิจฉัยและอุดหลอดเลือด",
+  "trap": "คนมักเลือก MRI เพราะเป็นภาพที่ดีที่สุดสำหรับก้อนเนื้อเยื่ออ่อน · แต่คำถามบอก<b>เลือดออกอยู่</b> ซึ่งต้องการการตรวจที่<b>หยุดเลือดได้ด้วย</b> คือ angiography with embolization · คำสำคัญคือ \"Bleed 2 hr\" ที่ไฟล์ไฮไลต์ไว้ และลายมือ Dx + Tx",
   "summary": [
-   "ก้อนเลือดออก → airway + resuscitation",
-   "Angiography + embolization: Dx + Tx",
-   "Vascular malformation: MRI/ Doppler แยก high/ low flow",
-   "High-flow AVM: embolization + resection",
-   "Low-flow: sclerotherapy",
-   "มะเร็งเลือดออก: embolization ก่อนผ่าตัด/ palliative"
+   "ISSVA แบ่ง vascular anomaly เป็น tumor (infantile hemangioma, pyogenic granuloma) กับ malformation (capillary, venous, lymphatic, arteriovenous) · malformation มีตั้งแต่เกิด โตตามตัว ไม่ยุบเอง",
+   "AVM: high-flow · อุ่น คลำได้ thrill ได้ยิน bruit · กระตุ้นให้โตด้วยวัยรุ่น ตั้งครรภ์ บาดเจ็บ หรือการผ่าตัดไม่หมด · Schobinger I–IV",
+   "Venous malformation: low-flow นุ่ม สีม่วงฟ้า โตเมื่อก้มหรือเบ่ง มี phlebolith · รักษาด้วย sclerotherapy (เช่น ethanol, bleomycin) ± ผ่าตัด",
+   "ภาพ: Doppler US เป็นด่านแรก · MRI/MRA ดูขอบเขต · Angiography (DSA) ใช้เมื่อจะ embolize หรือเลือดออก",
+   "เลือดออกจาก AVM ในช่องปาก: ดูแลทางเดินหายใจ กดห้ามเลือด → DSA + transarterial embolization → ผ่าตัดตัดออกทั้ง nidus ภายใน 24–72 ชม.",
+   "ห้ามผูก feeding artery โดยไม่เอา nidus ออก เพราะเกิด collateral และปิดทางสำหรับ embolization ครั้งต่อไป",
+   "Infantile hemangioma: GLUT-1 บวก โตเร็ว 3–6 เดือนแรกแล้วยุบ · รักษาด้วย propranolol เมื่ออยู่ตำแหน่งอันตรายหรือเป็นแผล"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'ก้อนเลือดออก = Angio (Dx + Tx)'</b>",
-  "guide": "ISSVA Classification for Vascular Anomalies (2018); Cummings Otolaryngology Head and Neck Surgery 7th ed. (2021)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด d และลายมือ \"Dx + Tx\" · ข้อมูลในคำถามน้อย (ไม่บอกสีหรือ thrill) แต่ก้อนที่โตและเลือดออกต้องการทั้งวินิจฉัยและหยุดเลือด ซึ่ง angiography ทำได้ทั้งสองอย่าง",
+  "mnemonic": "<b>'ก้อนเลือดออก → Angio = Dx + Tx (embolize)'</b>",
+  "guide": "ISSVA Classification for Vascular Anomalies (2018); Grabb and Smith's Plastic Surgery 8th ed. (2020) — Vascular anomalies",
   "variants": [
-   "ก้อนในปากเลือดพุ่ง → angiography + embolization",
-   "ก้อนม่วงนิ่มที่ริมฝีปาก ไม่มีเลือดออก → MRI → sclerotherapy",
-   "ก้อนอุ่นเต้นที่แก้ม → AVM → embolization + resection"
+   "หญิง 25 ปี ตั้งครรภ์ไตรมาสสอง ก้อนที่ริมฝีปากบนอุ่น คลำได้ thrill โตเร็วขึ้น → AVM Schobinger II ที่ถูกกระตุ้นด้วยการตั้งครรภ์ ประเมินด้วย Doppler/MRI",
+   "เด็กชาย 15 ปี ถอนฟันกรามล่างแล้วเลือดพุ่งไม่หยุด ภาพรังสีเห็นเงาโปร่งหลายช่องในขากรรไกร → intraosseous AVM ต้อง angiography + embolization",
+   "ชาย 35 ปี ก้อนนุ่มสีน้ำเงินที่ลิ้นโตเวลาก้มหัว ไม่มี thrill → venous malformation รักษาด้วย sclerotherapy",
+   "ทำไมไม่ควรตัดชิ้นเนื้อก้อนที่สงสัยเป็น AVM → เลือดออกรุนแรงควบคุมยาก ต้องยืนยันด้วยภาพก่อนและวางแผน embolization"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>18. ผู้หญิง 42 ปี มาด้วยก้อนในกระพุ้งแก้ม โตขึ้นเรื่อยๆ Bleed 2 hrPTA ควรทำ อย่างไร — a. X-ray b. MRI c. USG d. Angiogram</b><br>ลายมือ: ขีด d + \"Dx + Tx\"<br>ไฮไลต์: \"Bleed 2 hrPTA\" \"ควรทำ อย่างไร\" · d (เหลือง)<br>รูปที่แปะ: mind map ลายมือการวินิจฉัย (tissue Dx — incisional/ excisional · FNA · imaging — X-ray, angiography, CT scan, MRI, U/S, bone scan, PET scan — ภาพเล็ก อ่านได้บางส่วน)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Observation)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
@@ -264,30 +280,32 @@
   ]
  },
  "MDCU67|RoD|19": {
-  "interp": "ถามวิธี<b>ลดความดันในกะโหลก (ICP)</b> ในผู้ป่วยราย&#8203;นี้ (ICP สูงจากก้อน/ เลือดออก)",
-  "why": "การลด ICP ทำเป็นขั้น: <b>ยกหัวเตียง 30°</b> (เพิ่ม venous drainage) · <b>osmotic therapy</b> (mannitol 0.5–1 g/kg หรือ hypertonic saline) · <b>ผ่าตัด</b> เอาก้อน/ เลือดออก หรือระบาย CSF (EVD)/ decompressive craniectomy · ร่วมกับ sedation, hyperventilation ชั่วคราว (PaCO<sub>2</sub> 30–35) → <b>ทุกข้อ</b> · ไฟล์ไม่ได้ขีดคำตอบข้อนี้ (มีแต่สไลด์ <b>Treatment of ICP</b> และ <b>Surgical Treatment</b>)",
+  "interp": "ถามวิธี<b>ลดความดันในกะโหลกศีรษะ (ICP)</b> ที่ดีที่สุดในผู้ป่วยที่มี ICP สูงจากก้อนเลือดหรือก้อนในสมอง (ไฟล์แปะสไลด์ ICH และ cerebellar hemorrhage) — ต้องรู้ว่าการลด ICP เป็นการใช้<b>หลายวิธีร่วมกันเป็นขั้น</b> ไม่ใช่วิธีเดียว",
+  "why": "ตามหลัก <b>Monro–Kellie</b> กะโหลกเป็นกล่องปิดปริมาตรคงที่ (สมอง ~80% เลือด ~10% CSF ~10%) เมื่อมีก้อนเพิ่มขึ้น ส่วนอื่นต้องลดลงชดเชย เมื่อชดเชยไม่ไหว ICP จะสูงขึ้นเร็ว ลด <b>CPP = MAP − ICP</b> และเกิดสมองเคลื่อน (herniation) · การลด ICP จึงทำพร้อมกันหลายทาง: ① <b>ยกหัวเตียง 30°</b> ศีรษะตรง ไม่รัดคอ เพิ่ม venous drainage ② ระบาย CSF (EVD) ③ analgesia/sedation ลด metabolic demand ④ <b>osmotic therapy</b> — 20% mannitol 0.5–1 g/kg หรือ hypertonic saline ดึงน้ำออกจากเนื้อสมอง ⑤ hyperventilation ชั่วคราว PaCO<sub>2</sub> 30–35 mmHg ระหว่างรอผ่าตัดเมื่อมีสัญญาณ herniation ⑥ barbiturate coma เมื่อดื้อการรักษา ⑦ <b>ผ่าตัด</b>เอาต้นเหตุออก (craniotomy เอาก้อนเลือด, decompressive craniectomy) · เป้า ICP &lt; 22 mmHg และ CPP 60–70 mmHg · ทุกวิธีใน A–C จึงใช้ร่วมกัน → <b>all of the above</b> · ไฟล์<b>ไม่ได้ขีดคำตอบ</b>ข้อนี้ มีเพียงไฮไลต์ \"ลด intracranial P\" และแปะสไลด์ <b>Treatment of ICP</b> กับ <b>Surgical Treatment</b> ซึ่งครอบคลุมทั้งยกหัว osmotic therapy และผ่าตัด",
   "wrong": {
-   "A": "ยกหัวเตียงช่วยได้แต่ไม่ครบ · จะถูกถ้าคำถามให้เลือกขั้นแรกที่ง่ายที่สุด",
-   "B": "Osmotic therapy ช่วยได้แต่ไม่ครบ · จะถูกถ้าคำถามถามยาลด ICP เร่งด่วนขณะรอผ่าตัด",
-   "C": "ผ่าตัดเป็นการรักษาต้นเหตุแต่ใช้ร่วมกับวิธีอื่น · จะถูกถ้าคำถามถามการรักษาเด็ดขาดของก้อนเลือดที่กดเบียด",
-   "E": "Hypothermia ไม่แนะนำเป็นการรักษาหลัก (ไม่ช่วย outcome) · จะถูกถ้าคำถามถามการรักษาลำดับสุดท้ายใน refractory ICP (ข้อมูลยังขัดแย้ง)"
+   "A": "การยกหัวเตียง 30° เป็นขั้นพื้นฐานที่ทำทุกราย ลด ICP ได้เล็กน้อยโดยไม่ลด CPP มาก แต่ไม่พอสำหรับ ICP สูงจากก้อนเลือด · จะถูกถ้าเป็นผู้ป่วย ICH ขนาดเล็ก รู้ตัวดี ไม่มีสัญญาณ ICP สูงหรือสมองเคลื่อน ซึ่งต้องการเพียงการดูแลพื้นฐาน",
+   "B": "Osmotic therapy (mannitol 0.5–1 g/kg หรือ 3% saline) ลด ICP ได้เร็วภายใน 15–30 นาที แต่เป็นการซื้อเวลา ไม่ได้แก้ต้นเหตุ และ mannitol ทำให้ hypovolemia/ไตเสื่อม · จะถูกถ้าเป็นผู้ป่วย TBI ที่ซึมลงทันที รูม่านตาขวาโตขยายขณะรอเข้าห้องผ่าตัด ต้องให้ยาลดสมองบวมฉุกเฉินระหว่างทาง",
+   "C": "ผ่าตัดแก้ต้นเหตุ (เอาก้อนออก, decompressive craniectomy) แต่ไม่ใช่ทุกรายมีข้อบ่งชี้ และต้องใช้ร่วมกับการดูแลก่อนและหลังผ่าตัด · จะถูกถ้าเป็นผู้ป่วย cerebellar hemorrhage ขนาด 4 cm ซึมลง CT เห็น fourth ventricle ถูกกดและ hydrocephalus (ต้อง suboccipital craniectomy ด่วน)",
+   "E": "Hypothermia เคยใช้ลด ICP แต่ Eurotherm3235 (NEJM 2015) พบว่าการทำ hypothermia 32–35 °C ใน TBI ที่ ICP สูงทำให้ผลลัพธ์แย่ลง และ BTF ไม่แนะนำ prophylactic hypothermia จึงไม่ใช่วิธีหลัก · จะถูกถ้าเป็นผู้ป่วย TBI ใน ICU ที่ ICP ยังสูงหลังให้ sedation, osmotherapy, EVD และ paralysis ครบแล้ว (SIBICC tier 3 พิจารณา mild hypothermia 35–36 °C)"
   },
-  "trap": "เลือกวิธีเดียว — การลด ICP ใช้หลายวิธีร่วมกัน",
+  "trap": "คนเลือกวิธีเดียวที่ \"ดีที่สุด\" เช่น ผ่าตัด เพราะแก้ต้นเหตุ หรือ osmotic therapy เพราะลด ICP เร็ว · หลักคือ ICP สูงจากก้อนต้องรักษา<b>หลายวิธีพร้อมกันเป็นขั้น</b> · เว็บเพิ่มช้อย E (Hypothermia) ซึ่งไม่ได้ช่วยผลลัพธ์จึงไม่ทำให้ all of the above ผิด",
   "summary": [
-   "Tier 0–1: ยกหัว 30° · sedation/ analgesia · normocapnia · CSF drainage",
-   "Osmotic: mannitol 0.5–1 g/kg · hypertonic saline",
-   "Hyperventilation ชั่วคราว (PaCO<sub>2</sub> 30–35) ระหว่างรอผ่าตัด",
-   "Surgery: เอาก้อนออก · decompressive craniectomy",
-   "Refractory: barbiturate coma",
-   "เป้า ICP &lt; 22 mmHg · CPP 60–70"
+   "Monro–Kellie: ปริมาตรในกะโหลกคงที่ · ICP ปกติ 5–15 mmHg · BTF 4th ed. รักษาเมื่อ ICP &gt; 22 mmHg · CPP = MAP − ICP เป้า 60–70 mmHg",
+   "อาการ ICP สูง: ปวดหัวตอนเช้า อาเจียนพุ่ง papilledema ซึมลง CN VI palsy · Cushing triad (HT, bradycardia, หายใจผิดปกติ) = ใกล้ herniation",
+   "SIBICC tier 0–1: ยกหัว 30–45° sedation/analgesia normothermia PaCO<sub>2</sub> 35–38 CSF drainage ผ่าน EVD mannitol หรือ hypertonic saline bolus",
+   "SIBICC tier 2–3: hypocapnia เบา 32–35 mmHg, neuromuscular blockade · ดื้อต่อทุกขั้น → barbiturate coma, decompressive craniectomy, mild hypothermia",
+   "Mannitol 20% 0.5–1 g/kg ระวัง serum osmolality &gt; 320 mOsm/kg และ hypovolemia · hypertonic saline (3%, 23.4%) ใช้ได้ในผู้ป่วยความดันต่ำ",
+   "Hyperventilation ลด ICP โดยทำให้หลอดเลือดสมองหด ใช้ชั่วคราวเท่านั้น เพราะ PaCO<sub>2</sub> &lt; 30 ทำให้สมองขาดเลือด · หลีกเลี่ยงใน 24 ชม.แรกหลัง TBI",
+   "Steroid ไม่ใช้ลด ICP ใน TBI (CRASH trial: เพิ่มอัตราตาย) และไม่ใช้ใน ICH"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ไฟล์ MCQ Key 2 ไม่ได้ขีดคำตอบข้อนี้ (มีเพียงสไลด์ Treatment of ICP ซึ่งครอบคลุมทุกวิธีในตัวเลือก)",
-  "mnemonic": "<b>'ลด ICP: ยกหัว + ยาขับน้ำ + ผ่า (ทุกข้อ)'</b>",
-  "guide": "Brain Trauma Foundation Guidelines for the Management of Severe TBI 4th ed. (Neurosurgery 2017;80:6); SIBICC Consensus (Intensive Care Med 2019;45:1783)",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจปานกลาง — ไฟล์ MCQ Key 2 ไม่มีคีย์ขีดไว้สำหรับข้อนี้ แต่สไลด์ที่แปะครอบคลุมยกหัว osmotic therapy และผ่าตัดซึ่งใช้ร่วมกัน · คำถามขาดบริบทว่า \"ผู้ป่วย\" เป็นอย่างไร ถ้าเป็น ICH เล็กรู้ตัวดีอาจตอบยกหัวอย่างเดียว แต่ในข้อนี้ช้อยครบทุกวิธีจึงเลือก all of the above",
+  "mnemonic": "<b>'ICP สูง: ยกหัว → ยาขับน้ำ → หายใจเร็วชั่วคราว → ผ่าตัด (ใช้ร่วมกัน)'</b>",
+  "guide": "Carney N, et al. Guidelines for the Management of Severe Traumatic Brain Injury, 4th ed. Neurosurgery 2017;80:6–15; Hawryluk GWJ, et al. SIBICC algorithm. Intensive Care Med 2019;45:1783–94; Greenberg 2022 AHA/ASA Guideline for Spontaneous ICH (Stroke 2022;53:e282)",
   "variants": [
-   "ICH + ICP สูง → ยกหัว + mannitol + พิจารณาผ่าตัด",
-   "cerebellar hemorrhage &gt; 3 cm ซึมลง → craniotomy",
-   "TBI ICP ดื้อการรักษา → decompressive craniectomy/ barbiturate"
+   "ชาย 30 ปี TBI GCS 7 CT มี diffuse swelling ใส่ ICP monitor ได้ 28 mmHg → ยกหัว sedation ระบาย CSF และให้ mannitol/hypertonic saline",
+   "ผู้ป่วย ICH ซึมลงทันที รูม่านตาซ้ายโตไม่ตอบสนอง ระหว่างรอผ่าตัด → ใส่ท่อ hyperventilate ชั่วคราว PaCO<sub>2</sub> 30–35 + mannitol",
+   "ผู้ป่วย ICU ICP ยังสูง &gt; 25 mmHg แม้ได้การรักษา tier 1–2 ครบ → decompressive craniectomy หรือ barbiturate coma",
+   "ทำไมต้องยกหัวเตียงเพียง 30° ไม่ยกจนนั่ง → ยกมากเกินลด MAP ที่ระดับสมองจน CPP ตก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 137 — ตัวพิมพ์: <b>19. ลด intracranial P ดีที่สุดอย่างไรในผู้ป่วยราย&#8203;นี้ — a. นอนหัวสูง 30 องศา b. osmotic therapy c. surgery d. all of above</b><br>ลายมือ: ไม่มีเครื่องหมายขีดคำตอบ<br>ไฮไลต์: \"ลด intracranial P\" (เหลือง)<br>รูปที่แปะ: ① สไลด์ Treatment of ICP — Head-of-bed elevation 30° · CSF drainage · Analgesia and sedation/ Neuromuscular blockade · Osmotic therapy: 20% mannitol 0.5-1 gm/kg · Hyperventilation: target 30-35 mmHg · Barbiturate Coma + ลายมือ ② สไลด์ Surgical Treatment — 1. Craniotomy · Cerebellar hemorrhage &gt; 3 cm · Deteriorating neurologically · Brain stem compression · Hydrocephalus · Lobar clots within 1 cm of the surface + ภาพ CT<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Hypothermia)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 137",
@@ -297,30 +315,32 @@
   ]
  },
  "MDCU67|RoD|20": {
-  "interp": "ชาย 80 ปี เบาหวาน 10 ปี <b>แผล 10 cm นาน 6 เดือน บนแผลเป็นไฟไหม้ที่เท้าซ้ายเมื่อ 30 ปีก่อน</b> → ถามการวินิจฉัย",
-  "why": "แผลเรื้อรังที่เกิดบน<b>แผลเป็นเก่า (burn scar) หรือแผลเรื้อรังนาน</b> แล้วกลายเป็นมะเร็ง = <b>Marjolin ulcer</b> (ส่วนใหญ่เป็น <b>SCC</b>) · ระยะแฝงนานหลายสิบปี · ลักษณะ: แผลไม่หาย ขอบนูนแข็ง โตขึ้น · วินิจฉัยด้วย <b>biopsy</b> (ขอบแผลหลายจุด) แล้ว <b>wide excision</b> ± skin graft · ไฟล์ขีด c และแปะสไลด์ <b>Marjolin's ulcer (cancer) — on chronic ulcer · Mx: Bx + wide excision · Longstanding venous hypertension cause Majorlin's ulcer</b>",
+  "interp": "ชาย 80 ปี เบาหวาน 10 ปี มี<b>แผลเรื้อรัง 6 เดือนขนาด 10 cm บนแผลเป็นจากไฟไหม้เมื่อ 30 ปีก่อน</b> — ถามการวินิจฉัย ตัวชี้คือแผลที่เกิดบน<b>แผลเป็นเก่าที่นานหลายสิบปี</b> ไม่ใช่ตำแหน่งแผลเบาหวานทั่วไป",
+  "why": "<b>Marjolin ulcer</b> คือมะเร็งที่เกิดบนแผลเรื้อรังหรือแผลเป็นเก่า ส่วนใหญ่เป็น <b>squamous cell carcinoma</b> (รองลงมา BCC น้อยมากเป็น melanoma/sarcoma) ต้นเหตุที่พบบ่อยที่สุดคือ<b>แผลเป็นจากไฟไหม้</b> (โดยเฉพาะ burn ที่ปล่อยหายเองไม่ได้ทำ graft) รองลงมาคือ chronic venous ulcer, pressure ulcer, osteomyelitis sinus · กลไก: การอักเสบเรื้อรังและซ่อมแซมซ้ำ เลือดเลี้ยงน้อย และแผลเป็นไม่มีท่อน้ำเหลืองทำให้ภูมิคุ้มกันเฉพาะที่ลดลง · ระยะเวลาแฝงเฉลี่ย <b>~30 ปี</b> (ยิ่งอายุมากตอนถูกไฟไหม้ ยิ่งสั้น) · สงสัยเมื่อแผลเป็นเก่าแตกเป็นแผลไม่หาย &gt; 3 เดือน ขอบนูนม้วน (rolled/everted) แข็ง มีเนื้อนูนงอก เลือดออกง่าย กลิ่นเหม็น ขยายขนาด · ยืนยันด้วย <b>biopsy หลายตำแหน่ง</b> (ขอบและกลางแผล) · รักษาด้วย <b>wide local excision</b> ขอบ ≥ 2 cm แล้วปิดด้วย skin graft/flap · ลุกถึงกระดูกหรือข้อ → amputation · ตรวจต่อมน้ำเหลืองบริเวณขาหนีบเพราะแพร่บ่อยกว่า SCC ทั่วไป · ไฟล์ขีด c และแปะสไลด์ Majorlin's ulcer ลายมือ <b>\"cancer\"</b> พร้อม Mx: <b>Bx + wide excision</b>",
   "wrong": {
-   "A": "Diabetic ulcer พบที่จุดรับน้ำหนัก ไม่ได้เกิดบนแผลไฟไหม้เก่า · จะถูกถ้าแผลที่ฝ่าเท้าใต้หัวกระดูก metatarsal ในผู้ป่วยเบาหวานชาเท้า",
-   "B": "Neuropathic ulcer ที่จุดรับน้ำหนัก ขอบหนา (callus) · จะถูกถ้าผู้ป่วยเบาหวานชาเท้า แผลใต้นิ้วหัวแม่เท้า",
-   "D": "Venous ulcer ที่ gaiter area (เหนือตาตุ่มใน) ผิวคล้ำ บวม · จะถูกถ้าแผลเหนือตาตุ่มในร่วมเส้นเลือดขอด",
-   "E": "Ischemic ulcer ปลายนิ้ว ขอบเรียบ (punched-out) ชีพจรคลำไม่ได้ ปวดมาก · จะถูกถ้าแผลปลายนิ้วเท้า ABI 0.4"
+   "A": "Diabetic foot ulcer เกิดจาก neuropathy ร่วม ischemia และแรงกด มักอยู่ฝ่าเท้าใต้หัว metatarsal หรือนิ้วเท้า ไม่ได้เกิดบนแผลเป็นเก่า แม้มีเบาหวานจริงแต่ไม่อธิบายแผลบนรอยไหม้ 30 ปี · จะถูกถ้าเป็นชาย 60 ปี เบาหวาน 15 ปี ชาเท้าแบบถุงเท้า มีแผลกลมใต้หัว metatarsal ที่ 1 ขอบหนาด้วย callus หลังใส่รองเท้าคับ",
+   "B": "Neuropathic ulcer เป็นแผลจากการไม่รับรู้ความเจ็บที่จุดรับแรงกด (หัว metatarsal ส้นเท้า) ขอบ punched-out มี callus ไม่เจ็บ ชีพจรปกติ · จะถูกถ้าเป็นผู้ป่วยโรคเรื้อนหรือเบาหวานที่ตรวจ monofilament ไม่รู้สึก มีแผลลึกไม่เจ็บที่ส้นเท้าและชีพจรเท้าคลำได้ดี",
+   "D": "Venous ulcer เกิดจาก chronic venous hypertension อยู่บริเวณ <b>gaiter area</b> เหนือตาตุ่มด้านใน แผลตื้นขอบไม่เรียบ มี hemosiderin สีคล้ำ lipodermatosclerosis และขาบวม · จะถูกถ้าเป็นหญิง 55 ปี ยืนทำงานนาน มีเส้นเลือดขอด ขาบวมช่วงเย็น แผลตื้นเหนือตาตุ่มด้านใน ABI 1.0 (รักษาด้วย compression)",
+   "E": "Ischemic (arterial) ulcer เจ็บมาก อยู่ปลายนิ้วเท้า ส้นเท้า หรือตาตุ่มด้านนอก ขอบเรียบ punched-out ฐานซีด ชีพจรเท้าคลำไม่ได้ ปวดมากขึ้นเมื่อยกขา · จะถูกถ้าเป็นชาย 70 ปี สูบบุหรี่ มี claudication แผลปลายนิ้วเท้าเจ็บมากตอนกลางคืน ABI 0.4"
   },
-  "trap": "ผู้ป่วยเบาหวานแผลที่เท้าจึงตอบ diabetic ulcer — แผลอยู่บนแผลเป็นไฟไหม้เก่า",
+  "trap": "เห็นเบาหวาน 10 ปีกับแผลที่เท้าแล้วตอบ diabetic/neuropathic ulcer · ตัวชี้ที่ต้องจับคือ <b>แผลบนแผลเป็นจากไฟไหม้นาน 30 ปี</b> ขนาดใหญ่ ไม่หาย 6 เดือน ซึ่งต้องคิดถึงมะเร็งและ biopsy เสมอ · การวินิจฉัยแผลเรื้อรังผิดเป็นแผลเบาหวานทำให้ผ่าตัดช้าจนแพร่กระจาย",
   "summary": [
-   "Marjolin ulcer: มะเร็งบนแผลเป็น/ แผลเรื้อรัง (burn scar, venous ulcer, osteomyelitis sinus)",
-   "ส่วนใหญ่ SCC · ระยะแฝงหลายสิบปี",
-   "แผลเรื้อรังที่เปลี่ยนลักษณะ → biopsy ขอบแผลหลายจุด",
-   "รักษา: wide excision (≥ 2 cm) ± skin graft · ประเมินต่อมน้ำเหลือง",
-   "พยากรณ์แย่กว่า SCC ทั่วไป (กระจายต่อมน้ำเหลืองบ่อย)",
-   "แผลเรื้อรัง &gt; 3 เดือนไม่หาย → คิดถึงมะเร็ง"
+   "Marjolin ulcer = มะเร็งบนแผลเรื้อรัง/แผลเป็น · SCC มากที่สุด · ต้นเหตุอันดับ 1 คือ burn scar (พบราว 1–2% ของแผลเป็นไฟไหม้)",
+   "Latency เฉลี่ย ~30 ปี · แบบ acute (&lt; 1 ปีหลังบาดเจ็บ) พบน้อย · พบมากที่ขาและข้อพับ (แผลเป็นตึงแตกซ้ำ)",
+   "สัญญาณเตือน: แผลไม่หาย &gt; 3 เดือน, ขอบนูนม้วนแข็ง, เนื้อนูนงอก, เลือดออกง่าย, กลิ่นเหม็น, ปวดเปลี่ยนไป, โตเร็ว",
+   "วินิจฉัย: biopsy หลายจุดทั้งขอบและกลางแผล (wedge/incisional) · ประเมินต่อมน้ำเหลืองและ X-ray/MRI ดูกระดูก",
+   "รักษา: wide excision ขอบ 2–4 cm + skin graft/flap · ลุกกระดูกหรือข้อ → amputation · ต่อมน้ำเหลืองบวก → lymph node dissection ± radiotherapy",
+   "Marjolin ulcer รุนแรงกว่า SCC จากแสงแดด: แพร่ไปต่อมน้ำเหลืองบ่อยกว่าและกลับเป็นซ้ำสูง",
+   "ป้องกัน: แผลไฟไหม้ลึกควร excision + graft เร็ว ไม่ปล่อยให้หายเองเป็นแผลเป็นที่ไม่เสถียร · แผลเป็นที่แตกซ้ำควรตัดออก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'แผลบนแผลเป็นเก่า = Marjolin (SCC)'</b>",
-  "guide": "Neligan's Plastic Surgery 5th ed. (2023) — Marjolin ulcer; NCCN Squamous Cell Skin Cancer v.2025",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด c และสไลด์ Majorlin's ulcer ที่เขียนลายมือ \"cancer\" · แผลใหญ่ไม่หายบนแผลเป็นไฟไหม้ 30 ปีเป็นภาพคลาสสิก ส่วนเบาหวานในคำถามเป็นตัวลวง",
+  "mnemonic": "<b>'แผลเก่า 30 ปีกลายเป็นมะเร็ง = Marjolin (เป็น SCC → ตัดกว้าง)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Cutaneous malignancy; Sabiston Textbook of Surgery 21st ed. (2022) — Burns; Melanoma and cutaneous malignancies",
   "variants": [
-   "แผลเรื้อรังบนแผลไฟไหม้ 40 ปี ขอบนูนแข็ง → biopsy → SCC → wide excision",
-   "แผลเหนือตาตุ่มในเรื้อรัง 20 ปี เริ่มมีก้อนนูน → Marjolin → biopsy",
-   "แผลใต้นิ้วหัวแม่เท้าผู้ป่วยเบาหวานชา → neuropathic ulcer → offloading"
+   "หญิง 65 ปี แผลเป็นไฟไหม้ที่ข้อพับเข่าตั้งแต่เด็ก แตกเป็นแผลไม่หาย 4 เดือน ขอบนูน → biopsy หลายตำแหน่ง",
+   "ชาย 50 ปี มีโพรงหนองเรื้อรังจาก chronic osteomyelitis ของ tibia 20 ปี มีเนื้องอกงอกที่ปากโพรง → Marjolin ulcer จาก sinus tract (มักต้อง amputation)",
+   "ผลชิ้นเนื้อแผลเรื้อรังบนรอยไหม้เป็น SCC คลำได้ต่อมน้ำเหลืองขาหนีบโต → wide excision + inguinal lymph node dissection",
+   "ทำไมแผลเป็นจากไฟไหม้จึงเกิดมะเร็งได้ → แผลเป็นมีเลือดและท่อน้ำเหลืองน้อย แตกและซ่อมแซมซ้ำเรื้อรัง ทำให้เซลล์กลายพันธุ์และหลบภูมิคุ้มกัน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 138 — ตัวพิมพ์: <b>20. ชาย 80 ปี มีแผลที่เท้าซ้าย 6 เดือนก่อนบนแผลไฟไหม้บริเวณเท้าซ้ายที่มีเมื่อ 30 ปีที่แล้ว มีโรคประจำตัวเป็นเบาหวานมา 10 ปี ตรวจร่างกายพบ 10 cm ulcer on burn scar ถาม Dx — a. DM ulcer b. neuropathy ulcer c. Majorlin ulcer d. venous ulcer e. ischemic ulcer</b><br>ลายมือ: ขีด c<br>ไฮไลต์: \"ชาย 80 ปี มีแผลที่เท้าซ้าย 6 เดือนก่อนบนแผลไฟไหม้บริเวณเท้าซ้ายที่มีเมื่อ 30 ปีที่แล้ว\" \"เบาหวานมา 10 ปี\" \"10 cm ulcer on burn scar\" \"Dx\" · c (เหลือง)<br>รูปที่แปะ: สไลด์ Majorlin's ulcer (ลายมือ \"cancer\") — on ที่ chronic ulcer · Mx: Bx + wide excision · Longstanding venous hypertension cause Majorlin's ulcer + ภาพแผลที่ขา + ลายมือ (แผล burn/ chronic venous ulcer → เปลี่ยนเป็นมะเร็ง → wide excision → ใช้ skin graft/ dressing)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 138",

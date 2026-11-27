@@ -1,29 +1,31 @@
 {
  "MDCU67|RoB|46": {
-  "interp": "ผู้ป่วยติดอยู่ในเพลิงไหม้ในอาคาร (ที่ปิด) แผลไหม้ที่<b>หน้า คอ หน้าอก</b> มี<b>ผมและขนจมูกไหม้</b> → ถามการจัดการ",
-  "why": "ไฟไหม้ในที่ปิด + ไหม้ใบหน้า/ คอ + <b>ขนจมูก/ ผมไหม้ (singed nasal hair)</b> = สงสัย <b>inhalation injury</b> → ทางเดินหายใจส่วนบนบวมอย่างรวดเร็วในชั่วโมงต่อมา (โดยเฉพาะเมื่อให้สารน้ำ) → <b>ใส่ท่อช่วยหายใจตั้งแต่เนิ่น ๆ ก่อนบวม + ให้ 100% O<sub>2</sub></b> (รักษา CO poisoning ด้วย) · ไฟล์ขีด A",
+  "interp": "ผู้ป่วยติดอยู่ในเพลิงไหม้อพาร์ตเมนต์ (<b>ที่ปิด</b>) มีแผลไหม้ที่หน้า คอ หน้าอก ร่วมกับ<b>ผมและขนจมูกไหม้</b> = สงสัย <b>inhalation injury</b> และทางเดินหายใจส่วนบนบวม · ถามการจัดการแรก ซึ่งต้องยึด ABC ของ ATLS คือ airway ก่อนทุกอย่าง",
+  "why": "ไฟไหม้ในที่ปิดทำให้เกิด inhalation injury 3 แบบ: <b>thermal injury เหนือ glottis</b> (ลมร้อนทำให้ supraglottic airway บวม), <b>chemical injury ใต้ glottis</b> จากควันและสารเผาไหม้ (bronchospasm, ciliary dysfunction, cast, pneumonia) และ <b>systemic toxicity</b> จาก carbon monoxide/ cyanide · อาการบวมของคอหอยและกล่องเสียงจะ<b>มากขึ้นเรื่อย ๆ ใน 24–48 ชม.แรก</b> โดยเฉพาะเมื่อเริ่ม resuscitate ด้วยสารน้ำ ถ้ารอให้มี stridor แล้วค่อยใส่ท่อจะยากหรือใส่ไม่ได้ · ATLS 10th ระบุข้อบ่งชี้ใส่ท่อเร็ว เช่น เสียงแหบ stridor ใช้กล้ามเนื้อช่วยหายใจ <b>แผลไหม้ลึกกว้างที่หน้า</b> แผลในปาก กลืนลำบาก บวมมากหรือเสี่ยงบวม ซึมลง และ TBSA &gt; 40–50% · ผมหรือขนจมูกไหม้และเสมหะมีเขม่าเป็นหลักฐานว่าสูดควัน ร่วมกับแผลหน้าและคอ → <b>ใส่ endotracheal tube (ขนาดใหญ่ ≥ 7.5–8.0) และให้ 100% O2</b> ซึ่งรักษา CO poisoning ไปพร้อมกัน (ครึ่งชีวิต COHb ลดจากราว 4–5 ชม.ในอากาศปกติเหลือราว 1 ชม.) · ไฟล์ขีด A และไฮไลต์ \"ไฟไหม้ตามผมและขนจมูก\" พร้อมแปะ mind map BURN เรื่อง inhalation injury และข้อบ่งชี้ intubation",
   "wrong": {
-   "B": "Bronchoscopy ช่วยยืนยันความรุนแรงของ inhalation injury แต่ทำหลังคุมทางเดินหายใจ · จะถูกถ้าใส่ท่อแล้วต้องการประเมิน/ ล้างเขม่าในหลอดลม",
-   "C": "Escharotomy ที่หน้าอกใช้เมื่อแผล full-thickness รอบอกจนหายใจได้ไม่พอ · จะถูกถ้าแผลไหม้ลึกรอบอก ventilation pressure สูงขึ้น",
-   "D": "Oxygen mask ไม่ปกป้องทางเดินหายใจที่กำลังจะบวม · จะถูกถ้าไม่มีลักษณะ inhalation injury และต้องการให้ O<sub>2</sub> เพียงอย่างเดียว",
-   "E": "SpO<sub>2</sub> เชื่อถือไม่ได้ใน CO poisoning (อ่านค่าสูงเกินจริง) · จะถูกถ้าคำถามถามการเฝ้าระวังทั่วไปในผู้ป่วยไม่มีสัญญาณ inhalation"
+   "B": "Bronchoscopy เป็นมาตรฐานในการวินิจฉัยและประเมินความรุนแรงของ inhalation injury ใต้ glottis (เห็นเขม่า เยื่อบุแดงบวม) และใช้ดูดล้าง cast ได้ แต่เป็นขั้นหลังจาก airway ปลอดภัยแล้ว ไม่ใช่การจัดการแรก · จะถูกถ้าเป็นผู้ป่วยไฟไหม้ในห้องปิดที่ใส่ท่อช่วยหายใจแล้วในวันแรก และต้องการยืนยันระดับ inhalation injury หรือดูดเสมหะเขม่าอุดหลอดลม",
+   "C": "Chest escharotomy ใช้เมื่อแผลไหม้ลึก full-thickness <b>รอบทรวงอก</b>จน eschar รัดทำให้ทรวงอกขยายไม่ได้ ventilation แย่ peak airway pressure สูง ซึ่งแผลที่หน้าอกด้านหน้าอย่างเดียวยังไม่ถึง และไม่แก้ปัญหาทางเดินหายใจส่วนบนบวม · จะถูกถ้าเป็นผู้ป่วยแผลไหม้ลึกเป็นหนังแข็งรอบลำตัว ใส่ท่อแล้วแต่ยังช่วยหายใจไม่เข้า ความดันในทางเดินหายใจสูงขึ้นเรื่อย ๆ",
+   "D": "Oxygen mask (non-rebreather 100%) ช่วยรักษา CO poisoning ได้ แต่ไม่ป้องกันการบวมอุดของทางเดินหายใจส่วนบนที่กำลังจะเกิด ผู้ป่วยแผลหน้า คอ และขนจมูกไหม้อาจอุดภายในไม่กี่ชั่วโมง · จะถูกถ้าเป็นผู้ป่วยที่สูดควันในห้องปิด ปวดศีรษะ คลื่นไส้ จาก CO แต่ไม่มีแผลไหม้ที่หน้าและคอ เสียงปกติ ไม่มีเขม่าในปากหรือเสมหะ",
+   "E": "Pulse oximetry อ่านค่าปกติหลอกในพิษ CO เพราะเครื่องแยก carboxyhemoglobin ออกจาก oxyhemoglobin ไม่ได้ ต้องวัด COHb ด้วย co-oximetry จาก ABG และการวัดอย่างเดียวไม่ใช่การรักษา · จะถูกถ้าเป็นผู้ป่วยน้ำร้อนลวกที่แขนราว 5% TBSA ในที่โล่ง ไม่มีอาการทางเดินหายใจ ซึ่งเพียงติดตามสัญญาณชีพและ SpO2 ตามปกติ"
   },
-  "trap": "รอให้หายใจลำบากหรือเสียงแหบก่อนใส่ท่อ — ทางเดินหายใจบวมเร็ว ใส่ยากขึ้นมาก",
+  "trap": "เห็นผู้ป่วยยังพูดได้ หายใจได้ จึงเลือกให้ O2 mask หรือวัด saturation ก่อน · แต่ airway burn เป็นภาวะที่<b>แย่ลงตามเวลา</b> ยิ่งให้สารน้ำมากยิ่งบวม ต้องคิดล่วงหน้าแล้วใส่ท่อขณะที่ยังใส่ได้ · SpO2 ปกติไม่ได้แปลว่าไม่มีพิษ CO",
   "summary": [
-   "Inhalation injury: ไฟไหม้ในที่ปิด · ไหม้หน้า/ คอ · ขนจมูกไหม้ · เสมหะมีเขม่า · เสียงแหบ · stridor",
-   "ใส่ท่อเร็ว + 100% O<sub>2</sub>",
-   "CO poisoning: SpO<sub>2</sub> ปกติหลอก → วัด COHb · 100% O<sub>2</sub> ± hyperbaric",
-   "Cyanide (ไฟไหม้พลาสติก): lactate สูง → hydroxocobalamin",
-   "Escharotomy: full-thickness รอบอก/ แขนขา",
-   "Bronchoscopy ยืนยัน/ จัดระดับความรุนแรง"
+   "Inhalation injury สงสัยเมื่อ: ไฟไหม้ในที่ปิด · แผลไหม้ที่หน้า/ คอ · ผม คิ้ว ขนจมูกไหม้ · เขม่าในปากหรือเสมหะดำ · เสียงแหบ stridor · ซึมลง",
+   "ATLS: ข้อบ่งชี้ใส่ท่อเร็ว — สัญญาณอุดกั้น (แหบ stridor retraction) · แผลลึกกว้างที่หน้าหรือในปาก · กลืนลำบาก · ซึม · TBSA &gt; 40–50% · ต้องส่งต่อไกลโดยไม่มีผู้ใส่ท่อได้",
+   "ใช้ endotracheal tube ขนาดใหญ่ (ผู้ใหญ่ ≥ 7.5–8.0) เพื่อให้ทำ bronchoscopy และดูดเสมหะเขม่าได้ และห้ามตัดท่อสั้นเพราะหน้าจะบวมมากขึ้น",
+   "CO poisoning: SpO2 อ่านปกติหลอก ต้องวัด COHb ด้วย co-oximetry · ให้ 100% O2 ทันที ครึ่งชีวิต COHb ราว 4–5 ชม.ในอากาศปกติ เหลือราว 1 ชม.ด้วย 100% O2",
+   "Cyanide toxicity สงสัยเมื่อ lactic acidosis รุนแรงไม่อธิบายได้ในผู้ที่สูดควันพลาสติกหรือโฟมไหม้ → hydroxocobalamin",
+   "Escharotomy: แผลลึก full-thickness รอบแขนขา (ขาดเลือดปลาย) หรือรอบทรวงอก/ ท้อง (ventilation แย่) · กรีดผ่าน eschar ถึงไขมัน ไม่ต้องดมยาเพราะแผลไม่มีความรู้สึก",
+   "Parkland formula: 4 mL × น้ำหนัก (kg) × %TBSA (ATLS 10th ใช้ 2 mL ในผู้ใหญ่) ให้ครึ่งแรกใน 8 ชม.นับจากเวลาไฟไหม้ ปรับตาม urine output 0.5 mL/kg/hr"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'ไฟไหม้ในห้อง + ขนจมูกไหม้ = ใส่ท่อก่อนบวม'</b>",
-  "guide": "ATLS Student Course Manual 11th ed. (ACS 2025) — Thermal injuries; ABA Advanced Burn Life Support Provider Manual (2018)",
+  "opinion": "เห็นด้วยกับคำตอบ A ตรงกับคีย์ในไฟล์ (ขีด A) ความมั่นใจสูง — ไฟไหม้ในที่ปิดพร้อมแผลที่หน้า คอ และขนจมูกไหม้คือภาพของ inhalation injury ที่ทางเดินหายใจจะบวมขึ้นเรื่อย ๆ จึงต้องควบคุม airway และให้ 100% O2 ก่อน · ในทางปฏิบัติจริงขนจมูกไหม้อย่างเดียวไม่ใช่ข้อบ่งชี้เด็ดขาด ต้องประเมินร่วมกับอาการอื่น แต่ในช้อยนี้ A ดีที่สุด",
+  "mnemonic": "<b>'Face + Neck + Nose hair burnt = Tube early (ก่อนบวมจนใส่ไม่ได้)'</b>",
+  "guide": "ATLS Advanced Trauma Life Support 10th ed. (2018) Chapter 9 Thermal Injuries; Sabiston Textbook of Surgery 21st ed. (2022) Burns",
   "variants": [
-   "ติดในห้องไฟไหม้ เสียงแหบ เสมหะดำ → intubate",
-   "ไฟไหม้ในรถ ปวดหัว สับสน SpO<sub>2</sub> 99% → CO poisoning → 100% O<sub>2</sub>",
-   "แผลไหม้ลึกรอบอก ventilator pressure สูง → chest escharotomy"
+   "ผู้ป่วยไฟไหม้ในโรงงานปิด ปวดศีรษะ สับสน SpO2 99% ไม่มีแผลที่หน้า → สงสัย CO poisoning ส่ง ABG วัด COHb และให้ 100% O2 ทาง non-rebreather",
+   "ใส่ท่อแล้วเริ่มสารน้ำตาม Parkland ต่อมา peak airway pressure สูงขึ้น ทรวงอกขยายได้น้อย มีแผลลึกเป็นหนังแข็งรอบลำตัว → chest escharotomy",
+   "ผู้ป่วยสูดควันโฟมไหม้ ความดันต่ำ lactate &gt; 8 mmol/L ทั้งที่ให้สารน้ำพอ → สงสัย cyanide ให้ hydroxocobalamin",
+   "ทำไมต้องใส่ท่อตั้งแต่ยังไม่มี stridor → การบวมของ supraglottic airway มากที่สุดใน 24–48 ชม.และเพิ่มตามสารน้ำที่ให้ รอช้าอาจใส่ท่อไม่ได้ต้องเจาะคอฉุกเฉิน"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 117 — หัวข้อ Plastic · ตัวพิมพ์: <b>46. ผู้ป่วยประสบเหตุเพลิงไหม้ที่อพาร์ตเม้นแห่งหนึ่ง มีแผลไฟไหม้ที่หน้า คอ และหน้าอก มีไฟไหม้ตามผมและขนจมูก ควรให้ management อย่างไร — A. ใส่ tube และให้ Oxygen B. Bronchoscope C. ทำ Escharotomy ที่หน้าอก D. Oxygen mask E. วัด Oxygen saturation</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"ประสบเหตุเพลิงไหม้\" \"แผลไฟไหม้ที่หน้า คอ และหน้าอก\" \"ไฟไหม้ตามผมและขนจมูก\" \"management อย่างไร\" · A (เหลือง)<br>รูปที่แปะ: mind map ลายมือ BURN + WOUND (burn shock · inhalation injury: direct thermal injury, carbon monoxide inhalation, inhalation of product of combustion · ข้อบ่งชี้ intubation ฯลฯ — ภาพเล็ก อ่านรายละเอียดไม่ครบ)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 117",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU67|RoC|16": {
-  "interp": "ชายเลือดออกทางทวาร มี<b>ก้อนโผล่ตอนเบ่ง</b> แต่<b>ตอนตรวจไม่พบก้อนออกมา</b> (หดกลับเอง) → ถาม grade ของ internal hemorrhoid",
-  "why": "Internal hemorrhoid grade: <b>I</b> เลือดออก ไม่ยื่น · <b>II</b> ยื่นออกตอนเบ่ง <b>หดกลับเอง (spontaneous reduction)</b> · <b>III</b> ยื่นออกต้องดันกลับเอง (manual reduction) · <b>IV</b> ยื่นค้างดันกลับไม่ได้ (incarcerated) → เคสนี้ = <b>grade II</b> · ไฟล์ขีด B ลายมือ <b>\"prolapsed\"</b> · <b>\"spontaneous reduction\"</b> · A ขีดฆ่า \"prolapsed\" · B <b>\"spontaneous reduction\"</b> · C <b>\"manual reduction\"</b> · D <b>\"incarcerated\"</b>",
+  "interp": "ชายมีเลือดออกทางทวาร มีก้อนยื่นออกมาตอนเบ่งถ่าย แต่ตอนตรวจไม่พบก้อนอยู่นอกทวาร (คือก้อน<b>กลับเข้าไปเอง</b>) — ถามระดับของ internal hemorrhoid ตาม Goligher classification ซึ่งแบ่งจากการยื่นและการกลับเข้า",
+  "why": "Internal hemorrhoid เกิดจาก anal cushion เหนือ dentate line เลื่อนลงมา (ตำแหน่งหลัก left lateral, right anterior, right posterior) · เพราะอยู่เหนือ dentate line ได้ประสาท visceral จึง<b>ไม่เจ็บ</b> อาการเด่นคือเลือดแดงสดหยดหรือติดกระดาษหลังถ่าย · <b>Goligher grading</b>: grade I เลือดออก ไม่ยื่น · <b>grade II ยื่นออกตอนเบ่งแล้วกลับเข้าเอง (spontaneous reduction)</b> · grade III ยื่นออกแล้วต้องใช้มือดันกลับ (manual reduction) · grade IV ยื่นค้างดันกลับไม่ได้ หรือ incarcerated/ thrombosed · ประวัติก้อนออกตอนเบ่งแต่ตรวจไม่พบก้อนแปลว่ากลับเข้าเองแล้ว = <b>grade II</b> · การรักษา grade I–II คือ fiber น้ำ ลดการเบ่ง และหัตถการที่ OPD (rubber band ligation ได้ผลดีสุด) ส่วน grade III ใช้ banding หรือผ่าตัด grade IV ผ่าตัด · ไฟล์ขีด B ลายมือ <b>\"spontaneous reduction\"</b> และเขียนเทียบ C \"manual reduction\" D \"incarcerated\"",
   "wrong": {
-   "A": "Grade I ไม่ยื่นออก (ลายมือขีดฆ่า prolapsed) · จะถูกถ้ามีเพียงเลือดสดหยดหลังถ่าย ไม่มีก้อนยื่น",
-   "C": "Grade III ต้องดันกลับเอง (ลายมือ) · จะถูกถ้าผู้ป่วยบอกว่าต้องใช้นิ้วดันก้อนกลับทุกครั้ง",
-   "D": "Grade IV ดันกลับไม่ได้ (ลายมือ incarcerated) · จะถูกถ้าก้อนค้างอยู่นอกทวารตลอด",
-   "E": "Mixed = internal + external ร่วมกัน · จะถูกถ้าตรวจพบทั้งก้อนเหนือและใต้ dentate line"
+   "A": "Grade I คือ hemorrhoid ที่มีเลือดออกแต่<b>ไม่ยื่นออกนอกทวาร</b>เลย เห็นได้เฉพาะเมื่อส่อง anoscopy (ลายมือขีดฆ่า \"prolapsed\" ที่ A) แต่ประวัติมีก้อนออกตอนเบ่งแล้ว · จะถูกถ้าเป็นชาย 35 ปี เลือดแดงสดหยดหลังถ่ายเป็นพัก ๆ ไม่เคยมีก้อนยื่น anoscopy เห็นหัวริดสีม่วงนูนเหนือ dentate line",
+   "C": "Grade III ยื่นออกตอนเบ่งและ<b>ต้องใช้นิ้วดันกลับ</b>เอง (ลายมือ \"manual reduction\") ไม่กลับเข้าเองเหมือนข้อนี้ · รักษาด้วย rubber band ligation หรือผ่าตัด · จะถูกถ้าเป็นหญิง 50 ปี มีก้อนยื่นทุกครั้งที่ถ่ายและต้องใช้นิ้วดันกลับทุกครั้ง มีเลือดและมูกเปื้อนกางเกง",
+   "D": "Grade IV ยื่นค้างอยู่นอกทวาร<b>ดันกลับไม่ได้</b> หรือติดค้างจนบวมเป็นลิ่มเลือด (ลายมือ \"incarcerated\") ซึ่งตรวจต้องเห็นก้อนอยู่ภายนอก · จะถูกถ้าเป็นชาย 60 ปี มีก้อนยื่นค้างนอกทวาร 2 วัน บวมคล้ำ ปวดมาก ดันกลับไม่ได้ ต้องผ่าตัด hemorrhoidectomy",
+   "E": "Mixed hemorrhoid คือมีทั้ง internal (เหนือ dentate line) และ external (ใต้ dentate line คลุมด้วย anoderm) ต่อกันที่ตำแหน่งเดียว เป็นการบอกชนิดตามตำแหน่ง ไม่ใช่ระดับการยื่น · จะถูกถ้าเป็นผู้ป่วยที่ตรวจพบก้อนนูนต่อเนื่องจากเหนือ dentate line ลงมาถึงขอบทวารที่คลุมด้วยผิวหนัง"
   },
-  "trap": "สับสน II กับ III — ดูว่าหดกลับเองหรือต้องดัน",
+  "trap": "คำว่า \"มีก้อนออกมา\" ชวนให้เลือก grade III หรือ IV · ต้องดูว่าก้อนกลับเข้าอย่างไร: ตรวจไม่พบก้อน = กลับเข้าเอง = II · ต้องดันเอง = III · ดันไม่เข้า = IV · grade I ไม่มีการยื่นเลย",
   "summary": [
-   "I: เลือดออก ไม่ยื่น",
-   "II: ยื่น → หดเอง",
-   "III: ยื่น → ดันกลับ",
-   "IV: ดันกลับไม่ได้",
-   "I–II (± III): fiber/ ยา · rubber band ligation",
-   "III–IV/ ล้มเหลว: hemorrhoidectomy"
+   "Internal hemorrhoid อยู่เหนือ dentate line ประสาท visceral ไม่เจ็บ เลือดแดงสด · external อยู่ใต้ dentate line ประสาท somatic เจ็บมากเมื่อ thrombosed",
+   "ตำแหน่ง anal cushion หลัก 3 ตำแหน่ง: left lateral, right anterior, right posterior (ท่า lithotomy คือ 3, 7, 11 นาฬิกา)",
+   "Goligher: I เลือดออกไม่ยื่น · II ยื่นตอนเบ่งกลับเอง · III ยื่นต้องดันกลับ · IV ดันกลับไม่ได้/ incarcerated/ strangulated",
+   "Grade I–II: fiber 25–35 g/วัน น้ำ ลดการนั่งเบ่ง flavonoid + หัตถการ OPD (rubber band ligation, sclerotherapy, infrared coagulation)",
+   "Rubber band ligation ต้องรัดเหนือ dentate line อย่างน้อย 1–2 cm ถ้ารัดต่ำจะเจ็บมาก · ภาวะแทรกซ้อนสำคัญ pelvic sepsis (ปวดมาก ไข้ ปัสสาวะไม่ออก) ต้องตรวจด่วน",
+   "Grade III: banding หรือผ่าตัด · Grade IV/ ล้มเหลวจากหัตถการ: excisional hemorrhoidectomy (Milligan–Morgan เปิด, Ferguson ปิด) หรือ stapled hemorrhoidopexy",
+   "เลือดออกทางทวารในผู้ป่วยอายุ ≥ 45–50 ปี ซีด หรือถ่ายเปลี่ยนนิสัย ต้องส่อง colonoscopy แยกมะเร็งก่อนสรุปว่าเป็นจาก hemorrhoid"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Grade: 1 เลือด · 2 กลับเอง · 3 ดันกลับ · 4 กลับไม่ได้'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2018;61:284)",
+  "opinion": "เห็นด้วยกับคำตอบ B ตรงกับคีย์ในไฟล์ (ขีด B ลายมือ spontaneous reduction) ความมั่นใจสูง — ก้อนยื่นตอนเบ่งและไม่พบก้อนตอนตรวจหมายถึงกลับเข้าเองซึ่งตรงนิยาม Goligher grade II พอดี ไม่มีข้อมูลว่าต้องดันกลับหรือค้างอยู่",
+  "mnemonic": "<b>'I เลือด · II ออก-เข้าเอง · III ออก-มือดัน · IV ออก-ค้าง'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024); Sabiston Textbook of Surgery 21st ed. (2022) Anus",
   "variants": [
-   "ถ่ายเป็นเลือดสด ไม่มีก้อนยื่น → grade I",
-   "ก้อนยื่นต้องใช้นิ้วดันกลับ → grade III",
-   "ก้อนยื่นค้าง บวมเจ็บ ดันไม่เข้า → grade IV"
+   "หญิง 30 ปี หลังคลอด 1 สัปดาห์ ปวดมากทันทีที่ขอบทวาร คลำได้ก้อนสีม่วงคล้ำ 48 ชม. → thrombosed external hemorrhoid → ตัดก้อนเลือดออก (excision) ภายใน 72 ชม.",
+   "ชาย 40 ปี เลือดแดงหยดหลังถ่าย ก้อนยื่นตอนเบ่งกลับเข้าเอง ไม่ดีขึ้นหลังกิน fiber 6 สัปดาห์ → rubber band ligation ที่ OPD",
+   "หลังทำ rubber band ligation 2 วัน ปวดก้นมาก มีไข้ ปัสสาวะไม่ออก → สงสัย pelvic sepsis ต้อง admit ตรวจและให้ยาปฏิชีวนะ IV",
+   "ชาย 62 ปี เลือดออกทางทวาร คิดว่าเป็นริดสีดวง แต่ถ่ายลำเล็กลงและ Hb 9 g/dL → ส่อง colonoscopy แยกมะเร็งลำไส้ใหญ่ก่อนรักษาริดสีดวง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 125 — หัวข้อ COLORECTAL SURGERY · ตัวพิมพ์: <b>16. ผู้ป่วยชายประวัติมาด้วยเลือดออกทางทวาร และมีก้อนออกมาตอนเบ่งถ่ายอุจจาระ ตอนตรวจไม่พบก้อนออกมาจากรูทวาร จงให้การวินิจฉัย Grade ของ hemorrhoid ในผู้ป่วยราย&#8203;นี้ — A. I B. II C. III D. IV E. Mixed</b><br>ลายมือ: \"prolapsed\" เหนือ \"ก้อนออกมาตอนเบ่ง\" · \"spontaneous reduction\" เหนือ \"ไม่พบก้อนออกมา\" · A ขีดฆ่า \"prolapsed\" · ขีด B + \"spontaneous reduction\" · C \"manual reduction\" · D \"incarcerated\"<br>ไฮไลต์: \"เลือดออกทางทวาร\" \"มีก้อนออกมาตอนเบ่งถ่ายอุจจาระ\" \"ตรวจไม่พบก้อนออกมาจากรูทวาร\" \"วินิจฉัย Grade ของ hemorrhoid\" · B (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 125",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU67|RoC|17": {
-  "interp": "ถามภาวะแทรกซ้อนที่พบบ่อยที่สุดหลัง <b>hemorrhoidectomy</b>",
-  "why": "<b>Urinary retention</b> พบบ่อยที่สุด (ปวด/ หูรูดเกร็ง สะท้อนไปที่กระเพาะปัสสาวะ + spinal anesthesia + ให้สารน้ำมาก) · bleeding รองลงมา · anal stricture/ infection/ skin tag พบน้อย · ไฟล์ขีด A ลายมือ <b>\"ซ้ำ\"</b> ที่เลขข้อ",
+  "interp": "ถามภาวะแทรกซ้อนที่<b>พบบ่อยที่สุด</b>หลังผ่าตัด hemorrhoidectomy — ต้องรู้ทั้งภาวะแทรกซ้อนระยะแรกและระยะหลัง พร้อมอุบัติการณ์คร่าว ๆ เพื่อเปรียบเทียบ",
+  "why": "หลัง excisional hemorrhoidectomy ภาวะแทรกซ้อนที่พบบ่อยที่สุดคือ<b>ปัสสาวะไม่ออก (urinary retention)</b> พบได้ราว 2–36% ตามรายงาน (มักอ้างประมาณ 10–20%) เกิดจาก<b>ความปวดและการหดเกร็งของ pelvic floor</b>ทำให้หูรูดท่อปัสสาวะไม่คลาย ร่วมกับยาชาทาง spinal anesthesia, ยา opioid และการให้สารน้ำทางหลอดเลือดมากเกินระหว่างผ่าตัด · การป้องกันคือ<b>จำกัดสารน้ำระหว่างผ่าตัด</b> (มักไม่เกิน 250–500 mL) ระงับปวดดี (multimodal, NSAID, local anesthetic block) ลด opioid ให้ผู้ป่วยลุกปัสสาวะเอง และใส่สายสวนเป็นครั้งคราวถ้าไม่ออก · ส่วนเลือดออกพบน้อยกว่า: เลือดออกเร็ว (ภายใน 24 ชม.จาก ligature หลุด) และ <b>secondary hemorrhage</b> วันที่ 7–14 จากแผลลอก พบราว 1–2% · ไฟล์ขีด A และลายมือเขียน <b>\"ซ้ำ\"</b> ที่เลขข้อ (ข้อนี้ออกซ้ำหลายปี)",
   "wrong": {
-   "B": "Bleeding พบได้ (primary/ secondary ~7–10 วัน) แต่น้อยกว่า · จะถูกถ้าคำถามถามภาวะแทรกซ้อนที่ต้องกลับห้องผ่าตัดบ่อยที่สุด",
-   "C": "Anal stricture พบน้อย (ตัด anoderm มากเกินไป) · จะถูกถ้าคำถามถามภาวะแทรกซ้อนระยะยาวจากเหลือ skin bridge ไม่พอ",
-   "D": "Infection พบน้อย (เลือดมาเลี้ยงดี) · จะถูกถ้าคำถามถามภาวะแทรกซ้อนที่พบน้อยแม้แผลปนเปื้อน",
-   "E": "Skin tag ป้องกันโดยเลี่ยง dog ear · จะถูกถ้าคำถามถามปัญหาด้านความสวยงามระยะยาว"
+   "B": "เลือดออกเป็นภาวะแทรกซ้อนที่สำคัญและอันตรายกว่า แต่พบน้อยกว่าปัสสาวะไม่ออก (secondary hemorrhage ราว 1–2%) มักเกิดวันที่ 7–14 เมื่อแผลลอกหรือติดเชื้อ · จะถูกถ้าเป็นผู้ป่วยหลังผ่าตัด hemorrhoidectomy 10 วัน ถ่ายเป็นเลือดแดงสดปริมาณมากและมีก้อนเลือด ซึ่งต้องตรวจใต้ยาสลบและเย็บหยุดเลือดหรือใส่ balloon กด",
+   "C": "Anal stricture พบราว 1–5% เกิดเมื่อตัด anoderm และเยื่อบุออกมากเกินโดย<b>ไม่เหลือ skin bridge</b>ระหว่างแผล เป็นภาวะแทรกซ้อนระยะหลัง (หลายสัปดาห์) · จะถูกถ้าเป็นผู้ป่วยหลังผ่าตัดริดสีดวงทั้งวงรอบ 2 เดือน ถ่ายลำเล็ก เบ่งยาก ตรวจนิ้วผ่านไม่ได้ ต้องทำ dilatation หรือ anoplasty",
+   "D": "แผลติดเชื้อหลังผ่าตัดทวารหนักพบน้อยมาก (&lt; 1–2%) แม้แผลจะปนเปื้อนอุจจาระ เพราะบริเวณนี้มีเลือดมาเลี้ยงมาก · จะถูกถ้าเป็นผู้ป่วยเบาหวานคุมไม่ดีหลังผ่าตัด 4 วัน ปวดมากขึ้น ไข้ ปัสสาวะไม่ออก รอบแผลบวมแดง ซึ่งต้องคิดถึง pelvic sepsis หรือฝีที่ต้องระบายด่วน",
+   "E": "Skin tag เป็นผลข้างเคียงระยะยาวด้านความสวยงามหรือทำความสะอาดลำบาก เกิดจากผิวหนังที่เหลือหลังแผลหาย พบได้แต่ไม่ใช่ภาวะแทรกซ้อนที่พบบ่อยสุดและไม่อันตราย · จะถูกถ้าเป็นผู้ป่วยหลังผ่าตัดริดสีดวง 6 เดือน มีติ่งเนื้อนุ่มไม่เจ็บที่ขอบทวาร ทำความสะอาดลำบาก ต้องการตัดออก"
   },
-  "trap": "ตอบ bleeding",
+  "trap": "นึกว่าผ่าตัดบริเวณที่มีหลอดเลือดมากต้องเลือดออกบ่อยสุด จึงเลือก B · ความจริงเลือดออกอันตรายกว่าแต่พบน้อยกว่า ส่วนปัสสาวะไม่ออกพบบ่อยที่สุดจากความปวด spinal anesthesia และสารน้ำ · แยกคำว่า most common กับ most serious",
   "summary": [
-   "Urinary retention: พบบ่อยสุด",
-   "Secondary hemorrhage ~7–10 วัน",
-   "Anal stenosis: เหลือ mucocutaneous bridge ไม่พอ",
-   "คุมปวด multimodal · stool softener",
-   "จำกัดสารน้ำระหว่างผ่าตัด",
-   "Rubber band ligation: grade I–III"
+   "Urinary retention: ภาวะแทรกซ้อนหลัง hemorrhoidectomy ที่พบบ่อยที่สุด จากความปวด pelvic floor spasm, spinal anesthesia, opioid และสารน้ำมาก",
+   "ป้องกัน retention: จำกัด IV fluid ระหว่างผ่าตัด · ระงับปวดแบบ multimodal (NSAID, local block, metronidazole ลดปวดบางรายงาน) · ลด opioid · นั่งแช่น้ำอุ่นช่วยคลาย",
+   "เลือดออกเร็ว (ภายใน 24 ชม.): ligature หลุดหรือหยุดเลือดไม่ดี · secondary hemorrhage วันที่ 7–14 ราว 1–2% จากแผลลอก/ ติดเชื้อ",
+   "Anal stricture: ป้องกันโดยเหลือ skin bridge ระหว่างแผล (ไม่ตัดเกิน 3 ตำแหน่งรอบวง) · รักษาด้วย dilatation หรือ anoplasty",
+   "Fecal incontinence: จากการบาดเจ็บ internal sphincter ระหว่างผ่าตัด พบน้อยแต่รบกวนชีวิตมาก",
+   "ปวดหลังผ่าตัดเป็นปัญหาหลักของ excisional hemorrhoidectomy · stapled hemorrhoidopexy ปวดน้อยกว่าแต่กลับเป็นซ้ำและยื่นใหม่มากกว่า",
+   "อาการเตือน pelvic sepsis หลังหัตถการริดสีดวง: ปวดมากผิดปกติ ไข้ ปัสสาวะไม่ออก → ตรวจใต้ยาสลบ ยาปฏิชีวนะ IV และระบาย"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'ตัดริดสีดวง → ฉี่ไม่ออก'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2018;61:284)",
+  "opinion": "เห็นด้วยกับคำตอบ A ตรงกับคีย์ในไฟล์ (ขีด A และเขียนว่าข้อนี้ซ้ำ) ความมั่นใจสูง — ตำรามาตรฐานระบุ urinary retention เป็นภาวะแทรกซ้อนที่พบบ่อยที่สุดหลัง hemorrhoidectomy ส่วนเลือดออกสำคัญกว่าแต่พบน้อยกว่า",
+  "mnemonic": "<b>'Hemorrhoidectomy → ปวด → ฉี่ไม่ออก (common) · เลือดวันที่ 7–14 (dangerous)'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024); The ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022)",
   "variants": [
-   "หลังผ่าตัด 6 ชม. ปวดท้องน้อย ปัสสาวะไม่ออก → สวน",
-   "หลังผ่าตัด 9 วัน เลือดออกมาก → secondary hemorrhage",
-   "หลังผ่าตัดหลายเดือน ถ่ายลำเล็ก เจ็บ → anal stenosis"
+   "หลังผ่าตัดริดสีดวงด้วย spinal anesthesia 8 ชม. ยังปัสสาวะไม่ออก คลำกระเพาะปัสสาวะโป่ง → ใส่สายสวนปัสสาวะครั้งเดียว (in-out) แล้วให้ระงับปวดเพิ่ม",
+   "วิสัญญีถามว่าควรให้สารน้ำระหว่างผ่าตัด hemorrhoidectomy เท่าไร → จำกัดสารน้ำ (ไม่เกินราว 250–500 mL) เพื่อลดปัสสาวะคั่ง",
+   "ผู้ป่วยกลับบ้านหลังผ่าตัด 9 วัน ถ่ายเป็นเลือดสดปริมาณมาก หน้ามืด → secondary hemorrhage ต้องกลับมาตรวจใต้ยาสลบหยุดเลือด",
+   "ทำไมต้องเหลือ skin bridge ระหว่างแผล hemorrhoidectomy → ให้ anoderm งอกกลับมาคลุมได้ ป้องกัน anal stricture"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 125 — ตัวพิมพ์: <b>17.Most common complication of hemorrhoidectomy — A. Urinary retention B. Bleeding C. anal stricture D. Infection E. skin tag</b><br>ลายมือ: \"ซ้ำ\" ที่เลขข้อ · ขีด A<br>ไฮไลต์: \"Most common complication of hemorrhoidectomy\" · A (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 125",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU67|RoC|18": {
-  "interp": "ถามลักษณะของ <b>chronic anal fissure</b>",
-  "why": "Chronic anal fissure (&gt; 6–8 สัปดาห์): <b>ขอบแผลแข็งเป็น fibrosis</b> · <b>hypertrophied anal papilla</b> (ด้านบน) · <b>sentinel pile/ skin tag</b> (ด้านล่าง) · <b>ก้นแผลลึกเห็นเส้นใย internal sphincter</b> → ทุกข้อ = E · ไฟล์ขีด E และแปะ mind map <b>Anal fissure</b>",
+  "interp": "ถามลักษณะของ <b>chronic anal fissure</b> ช้อย A–D เป็น secondary changes ที่พบในแผลเรื้อรังทั้งหมด และมีช้อย E ถูกทุกข้อ — ต้องรู้ว่า fissure เรื้อรังต่างจากเฉียบพลันอย่างไร และองค์ประกอบใดบ้างที่บอกความเรื้อรัง",
+  "why": "Anal fissure คือรอยแยกของ anoderm ใต้ dentate line ส่วนใหญ่อยู่ <b>posterior midline</b> (ราว 90%) เพราะเลือดมาเลี้ยงน้อยที่สุด ร่วมกับ<b>ความตึงตัวของ internal anal sphincter สูง</b> ทำให้ขาดเลือด → ปวด → หูรูดเกร็ง → แผลไม่หาย เป็นวงจร · <b>Chronic</b> คือแผลนานเกิน 6–8 สัปดาห์ หรือมี secondary changes ได้แก่ <b>sentinel pile</b> (ติ่งผิวหนังบวมที่ปลายล่างของแผล) · <b>hypertrophied anal papilla</b> (ที่ปลายบนของแผลตรง dentate line) · <b>ขอบแผลนูนแข็งเป็น fibrosis</b> · และแผลลึกจน<b>เห็นใยกล้ามเนื้อ internal sphincter สีขาวเป็นเส้นขวาง</b>ที่ก้นแผล ทั้งหมดจึงถูก = E · การรักษาเริ่มด้วย fiber แช่น้ำอุ่น ยาทาลดการเกร็งของหูรูด (nitroglycerin 0.2–0.4% หรือ diltiazem 2%) 6–8 สัปดาห์ หรือ botulinum toxin ถ้าไม่หายทำ <b>lateral internal sphincterotomy</b> ซึ่งหายได้มากกว่า 90% · ไฟล์ขีด E และแปะ mind map Anal fissure ที่ระบุ secondary changes ครบทั้ง sentinel pile, hypertrophic anal papilla, fibrotic edge และ sphincter exposure",
   "wrong": {
-   "A": "Fibrotic edge เป็นลักษณะหนึ่ง · จะถูกถ้าคำถามให้เลือกข้อเดียว",
-   "B": "Hypertrophied anal papilla เป็นลักษณะหนึ่ง · จะถูกถ้าคำถามให้เลือกข้อเดียว",
-   "C": "Sentinel pile เป็นลักษณะหนึ่ง · จะถูกถ้าคำถามให้เลือกข้อเดียว",
-   "D": "เห็น internal sphincter เป็นลักษณะหนึ่ง · จะถูกถ้าคำถามให้เลือกข้อเดียว"
+   "A": "ข้อความถูก: ขอบแผลนูนแข็งจาก fibrosis เป็นลักษณะของ fissure เรื้อรัง ต่างจากแผลเฉียบพลันที่ขอบเรียบบางคล้ายรอยกระดาษบาด แต่เป็นเพียงหนึ่งในหลายลักษณะ ช้อย E จึงครบกว่า · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับลักษณะเดียวของ fissure เรื้อรัง เช่น หญิง 30 ปี ปวดแสบขณะถ่ายมา 3 เดือน ตรวจพบแผล posterior midline ขอบนูนแข็ง",
+   "B": "ข้อความถูก: hypertrophied anal papilla คือ papilla ที่ dentate line บวมโตเป็นติ่งที่ปลายบนของแผลจากการอักเสบเรื้อรัง พบใน fissure เรื้อรังจริงแต่ไม่ใช่ลักษณะเดียว · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับลักษณะที่ปลายบนของแผล เช่น ชาย 40 ปีปวดถ่ายเรื้อรัง ส่อง anoscopy พบติ่งขาวแข็งที่ dentate line เหนือแผลแยกด้านหลัง",
+   "C": "ข้อความถูก: sentinel pile (sentinel tag) คือติ่งผิวหนังบวมที่ปลายล่างของแผล มักเป็นสิ่งที่ผู้ป่วยคลำได้และเข้าใจผิดว่าเป็นริดสีดวง เป็นลักษณะสำคัญของ fissure เรื้อรังแต่ยังไม่ครบ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับลักษณะที่ปลายล่างของแผล เช่น หญิง 28 ปีปวดเหมือนมีดบาดขณะถ่าย มีติ่งเนื้อที่ขอบทวาร 6 นาฬิกา ซึ่งแท้จริงคือ sentinel pile",
+   "D": "ข้อความถูก: แผลเรื้อรังลึกจนเห็นใยกล้ามเนื้อ internal anal sphincter สีขาวเป็นเส้นขวางที่ก้นแผล บ่งว่าแผลลึกและเรื้อรัง ไม่ใช่ลักษณะเดียวที่พบ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับลักษณะของก้นแผล เช่น ชาย 35 ปีมีแผลแยกที่ด้านหลังมา 4 เดือน ตรวจพบใยสีขาวเป็นแนวขวางที่ก้นแผล ซึ่งเป็นข้อบ่งชี้ว่าต้องรักษาแบบ fissure เรื้อรัง"
   },
-  "trap": "เลือกเพียงลักษณะเดียว — chronic fissure มีครบ triad + sphincter",
+  "trap": "เห็นช้อยเดี่ยวที่ถูกแล้วเลือกเลยโดยไม่อ่านช้อย E · หรือคิดว่า sentinel pile เป็นริดสีดวงจึงตัดทิ้ง · secondary changes ของ fissure เรื้อรังมีครบทั้ง 4 อย่าง (จำเป็นสามเหลี่ยม: papilla บน · แผลกลางเห็น sphincter ขอบแข็ง · pile ล่าง)",
   "summary": [
-   "Anal fissure: posterior midline พบบ่อย",
-   "Acute: แผลตื้นขอบเรียบ · Chronic &gt; 6–8 สัปดาห์",
-   "Chronic: fibrotic edge · sentinel pile · hypertrophied papilla · เห็น internal sphincter",
-   "รักษา: fiber + sitz bath + topical nitrate/ diltiazem ± botox",
-   "ล้มเหลว → lateral internal sphincterotomy",
-   "Fissure นอกแนวกลาง → หา Crohn, TB, HIV, มะเร็ง, syphilis"
+   "Anal fissure: รอยแยกของ anoderm ใต้ dentate line · posterior midline ราว 90% · anterior midline พบมากขึ้นในหญิงโดยเฉพาะหลังคลอด",
+   "กลไก: internal anal sphincter เกร็งสูง → เลือดเลี้ยง posterior commissure ลดลง → แผลขาดเลือดไม่หาย → ปวด → เกร็งมากขึ้น",
+   "อาการ: ปวดแสบเหมือนมีดบาดขณะถ่ายและปวดต่อหลายชั่วโมง เลือดแดงสดเล็กน้อยติดกระดาษ · ตรวจแค่แหวกก้นดู ไม่ควรตรวจนิ้วในรายที่ปวดมาก",
+   "Acute (&lt; 6–8 สัปดาห์) ขอบเรียบบาง · chronic มี sentinel pile, hypertrophied papilla, ขอบ fibrosis, เห็นใย internal sphincter",
+   "Fissure ผิดตำแหน่ง (lateral) หลายแผล หรือไม่เจ็บ → คิด Crohn's, TB, HIV, syphilis, มะเร็ง → EUA + biopsy",
+   "การรักษา: fiber แช่น้ำอุ่น → ยาทา GTN 0.2–0.4% (ปวดศีรษะบ่อย) หรือ diltiazem 2% 6–8 สัปดาห์ หาย 50–70% → botulinum toxin",
+   "Lateral internal sphincterotomy เป็นมาตรฐานสำหรับ chronic fissure ที่ไม่หายด้วยยา หายมากกว่า 90% เสี่ยงกลั้นลมหรืออุจจาระไม่อยู่เล็กน้อย"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Chronic fissure: ติ่งล่าง (pile) · ติ่งบน (papilla) · ขอบแข็ง · เห็นหูรูด'</b>",
-  "guide": "ASCRS Clinical Practice Guideline for the Management of Anal Fissures (Dis Colon Rectum 2017;60:7)",
+  "opinion": "เห็นด้วยกับคำตอบ E ตรงกับคีย์ในไฟล์ (ขีด E) ความมั่นใจสูง — fibrotic edge, hypertrophied anal papilla, sentinel pile และเห็น internal sphincter ที่ก้นแผล ล้วนเป็น secondary changes ของ chronic anal fissure ตามตำราและ mind map ที่ผู้จดแปะไว้",
+  "mnemonic": "<b>'Chronic fissure = Pile ล่าง · Papilla บน · ขอบ Fibrosis · เห็น Sphincter (4 อย่าง)'</b>",
+  "guide": "ASCRS Clinical Practice Guideline for the Management of Anal Fissures (Dis Colon Rectum 2017); Sabiston Textbook of Surgery 21st ed. (2022) Anus",
   "variants": [
-   "ปวดแสบมากเวลาถ่าย เลือดสดเล็กน้อย แผลที่ 6 นาฬิกา → anal fissure",
-   "chronic fissure ไม่ดีขึ้นด้วย diltiazem 8 สัปดาห์ → LIS",
-   "fissure หลายแผลด้านข้าง → หา Crohn"
+   "หญิง 25 ปี ปวดแสบขณะถ่ายมา 2 สัปดาห์ แผลแยกขอบเรียบที่ posterior midline ไม่มีติ่ง → acute fissure → fiber แช่น้ำอุ่น ยาระบาย ± ยาทา",
+   "ชาย 30 ปี fissure เรื้อรัง 4 เดือนใช้ GTN และ diltiazem ครบแล้วไม่หาย กลั้นอุจจาระปกติ → lateral internal sphincterotomy",
+   "ผู้ป่วยมีแผลแยกที่ด้านข้างทวาร 3 แผล ไม่ค่อยเจ็บ ท้องเสียเรื้อรัง → EUA ตัดชิ้นเนื้อ และส่องกล้องหา Crohn's disease",
+   "ทำไม fissure มักเกิด posterior midline → เลือดที่มาเลี้ยง anoderm บริเวณนี้น้อยที่สุดเมื่อหูรูดเกร็ง จึงขาดเลือดและหายยาก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 125 — ตัวพิมพ์: <b>18.chronic anal fissure — A. fibrotic edge B. hypertrophic anal papilla C. sentinel pile D. ลึกเห็น internal sphincter E. ถูกทุกข้อ</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"chronic anal fissure\" · A–D (เหลือง)<br>รูปที่แปะ: mind map ลายมือ Anal fissure (หมายเลข 3) — definition · etiology · type (acute/ chronic) · physical examination · secondary changes (sentinel pile, hypertrophic anal papilla, fibrotic edge, sphincter exposure) · treatment + ภาพประกอบ (ภาพเล็ก อ่านรายละเอียดไม่ครบ)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 125",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU67|RoC|19": {
-  "interp": "ฝีคัณฑสูตร (anorectal abscess/ fistula) เฉียบพลัน — ควรให้<b>ยาปฏิชีวนะ</b>เมื่อใด",
-  "why": "หลักคือ<b>ระบายหนอง</b> · ยาปฏิชีวนะ<b>เพิ่ม</b>เมื่อ: <b>มีไข้/ systemic sign</b> · <b>ฝีลึก (ischioanal, supralevator)</b> · <b>cellulitis รอบ ๆ</b> · <b>ภูมิคุ้มกันต่ำ</b> (เบาหวาน, เคมีบำบัด) · ลิ้นหัวใจเทียม → ทุกข้อ = E · ไฟล์ขีด E และแปะสไลด์ Treatment (ชุดเดียวกับรอบ R2: \"drainage · ± ATB ดูเป็นรายๆ ex. low immune · มี systemic reaction · cellulitis แสดงว่าเป็น deep-seated abscess\")",
+  "interp": "ฝีรอบทวาร (anorectal abscess/ ฝีคัณฑสูตรเฉียบพลัน) ซึ่งรักษาหลักด้วยการผ่าระบาย — ถามว่าเมื่อใด<b>ต้องให้ยาปฏิชีวนะร่วม</b> ช้อย A–D เป็นข้อบ่งชี้แต่ละอย่างและ E คือถูกทุกข้อ",
+  "why": "ฝีรอบทวารส่วนใหญ่เกิดจาก <b>cryptoglandular infection</b> (ต่อม anal gland ที่ dentate line อุดตันติดเชื้อ) แล้วกระจายไปตามช่อง: perianal (พบบ่อยสุด) · ischioanal · intersphincteric · supralevator · ฝีที่ ischioanal ทั้งสองข้างเชื่อมกันผ่าน deep postanal space เป็น <b>horseshoe abscess</b> · หลักการรักษาคือ <b>incision and drainage โดยเร็ว</b> ไม่ต้องรอให้นุ่ม ยาปฏิชีวนะเพียงอย่างเดียวไม่พอ และฝีธรรมดาที่ระบายดีแล้ว<b>ไม่จำเป็นต้องให้ยา</b> · แต่ให้ยาปฏิชีวนะเสริมเมื่อมี <b>cellulitis รอบ ๆ</b>, <b>อาการติดเชื้อทั่วร่างกาย/ ไข้/ sepsis</b>, <b>ภูมิคุ้มกันบกพร่อง</b> (เบาหวานคุมไม่ดี HIV neutropenia ยากดภูมิ) ลิ้นหัวใจเทียมหรือโรคลิ้นหัวใจ และฝีที่ลึกกว้างหรือระบายไม่หมด เช่น ischioanal/ horseshoe/ supralevator (ASCRS 2022) · หลังระบายฝีราว 30–40% จะเกิด fistula-in-ano · ไฟล์ขีด E และแปะสไลด์ Treatment ที่เขียน drainage ± ATB ตามชนิดฝี",
   "wrong": {
-   "A": "ไข้เป็นข้อบ่งชี้หนึ่ง · จะถูกถ้าคำถามให้เลือกข้อเดียว",
-   "B": "Ischioanal (ฝีลึก) เป็นข้อบ่งชี้หนึ่ง · จะถูกถ้าคำถามให้เลือกข้อเดียว",
-   "C": "Cellulitis รอบ ๆ เป็นข้อบ่งชี้หนึ่ง · จะถูกถ้าคำถามให้เลือกข้อเดียว",
-   "D": "ภูมิคุ้มกันต่ำเป็นข้อบ่งชี้หนึ่ง · จะถูกถ้าคำถามให้เลือกข้อเดียว"
+   "A": "ข้อความถูก: ไข้หรือ systemic signs (ชีพจรเร็ว เม็ดเลือดขาวสูง sepsis) บ่งว่าการติดเชื้อลุกลามเกินฝี จึงต้องให้ยาปฏิชีวนะร่วมกับระบาย แต่เป็นข้อบ่งชี้เพียงข้อเดียว · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับข้อบ่งชี้เดียว เช่น ชาย 45 ปีฝีรอบทวาร ไข้ 39 °C ชีพจร 110 ครั้ง/นาที ต้องระบายร่วมกับยาปฏิชีวนะ IV",
+   "B": "ข้อความถูก: ฝีใน ischioanal space อยู่ลึกกว้าง ลามข้ามไปอีกข้างเป็น horseshoe ได้ และระบายให้หมดยากกว่าฝี perianal จึงมักให้ยาปฏิชีวนะร่วม แต่ไม่ใช่ข้อบ่งชี้เดียว · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชนิดฝี เช่น ชาย 50 ปีปวดก้นลึก ๆ บวมแข็งกว้างที่แก้มก้นข้างหนึ่ง CT พบฝีใน ischioanal fossa",
+   "C": "ข้อความถูก: cellulitis รอบฝีบ่งว่าการติดเชื้อลามเข้าเนื้อเยื่อรอบ ๆ ซึ่งการระบายอย่างเดียวรักษาไม่ครอบคลุม ต้องให้ยาร่วม แต่ยังมีข้อบ่งชี้อื่นอีก · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับข้อบ่งชี้เดียว เช่น หญิง 40 ปีหลังระบายฝีรอบทวาร มีผิวแดงร้อนลามออกไปรอบแผลกว้าง 5 cm",
+   "D": "ข้อความถูก: ผู้มีภูมิคุ้มกันบกพร่อง เช่น เบาหวานคุมไม่ดี HIV ได้ยาเคมีบำบัด neutropenia หรือปลูกถ่ายอวัยวะ เสี่ยงติดเชื้อลุกลามและ necrotizing infection (Fournier) จึงต้องให้ยาร่วม · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับปัจจัยผู้ป่วยข้อเดียว เช่น ผู้ป่วยมะเร็งเม็ดเลือดได้เคมีบำบัด neutrophil &lt; 500 มีปวดบวมรอบทวาร"
   },
-  "trap": "ให้ยาแทนการระบาย หรือให้ยาทุกราย",
+  "trap": "ท่องว่าฝีต้องระบายอย่างเดียวไม่ต้องให้ยา จึงลังเลไม่เลือก E · หลักที่ถูกคือฝีธรรมดาไม่ต้องให้ยา แต่ทุกช้อย A–D เป็นสถานการณ์ที่ต้องให้ยาร่วม (systemic sign, ฝีลึก, cellulitis, ภูมิคุ้มกันต่ำ) · ยาไม่ใช่สิ่งที่ทดแทนการระบาย",
   "summary": [
-   "Anorectal abscess: I&amp;D ทันที",
-   "ATB เพิ่ม: ไข้/ sepsis · cellulitis · ฝีลึก · ภูมิต่ำ · ลิ้นหัวใจเทียม",
-   "Superficial: I&amp;D ที่ ER · ~40% หาย ~60% fistula",
-   "Deep: I&amp;D ใน OR + ATB",
-   "Fistula: fistulotomy (simple) · seton/ LIFT/ flap (complex)",
-   "Goodsall rule: ทิศทางรูภายใน"
+   "Anorectal abscess ส่วนใหญ่เป็น cryptoglandular · ชนิดตามตำแหน่ง: perianal (บ่อยสุด) &gt; ischioanal &gt; intersphincteric &gt; supralevator",
+   "Horseshoe abscess: ischioanal ทั้งสองข้างเชื่อมกันผ่าน deep postanal space · ต้องระบาย deep postanal space (Hanley procedure)",
+   "การรักษาหลัก: incision and drainage ทันทีเมื่อวินิจฉัย ไม่ต้องรอ fluctuation · ใกล้ขอบทวารที่สุดเพื่อให้ fistula ที่อาจเกิดสั้น",
+   "ให้ยาปฏิชีวนะร่วมเมื่อ: cellulitis รอบ · systemic signs/ sepsis · ภูมิคุ้มกันบกพร่อง · ลิ้นหัวใจเทียม/ โรคลิ้นหัวใจ · ฝีลึกกว้างหรือระบายไม่หมด",
+   "Supralevator abscess: ต้องหาต้นเหตุ ถ้ามาจาก intersphincteric ระบายเข้า rectum · ถ้ามาจาก ischioanal ระบายออกทางผิวหนัง · ถ้ามาจากในท้อง (diverticulitis) ระบายผ่าน CT",
+   "หลังระบายฝีราว 30–40% กลายเป็น fistula-in-ano · Parks: intersphincteric บ่อยสุด &gt; transsphincteric &gt; suprasphincteric &gt; extrasphincteric",
+   "Goodsall's rule: รูนอกอยู่หลังเส้นขวางทวาร → ทางโค้งไป posterior midline · อยู่หน้าเส้น → ทางตรงเข้าหาทวาร (ยกเว้นรูหน้าที่ห่างเกิน 3 cm)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'ฝีก้น: ระบายเสมอ · ยาเมื่อ ไข้/ ลึก/ ลาม/ ภูมิต่ำ'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
+  "opinion": "เห็นด้วยกับคำตอบ E ตรงกับคีย์ในไฟล์ (ขีด E) ความมั่นใจปานกลางถึงสูง — ไข้ cellulitis และภูมิคุ้มกันบกพร่องเป็นข้อบ่งชี้ชัดตาม ASCRS ส่วนฝี ischioanal (เว็บปรับจาก ischioanal fistula ในไฟล์) เป็นฝีลึกที่ระบายหมดยากจึงมักให้ยาร่วม แต่ถ้าเป็นฝีเล็กระบายหมดในคนแข็งแรงก็อาจไม่ให้",
+  "mnemonic": "<b>'ฝี = Drain ก่อน · ยาเมื่อ \"ไข้ แดงลาม ภูมิต่ำ ฝีลึก\"'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022)",
   "variants": [
-   "ฝีรอบทวาร ไม่มีไข้ ผู้ป่วยแข็งแรง → I&amp;D อย่างเดียว",
-   "ฝี + DM + cellulitis → I&amp;D + ATB",
-   "ฝี horseshoe → I&amp;D ใน OR + ATB"
+   "ชาย 30 ปีแข็งแรง ฝี perianal 2 cm ไม่มีไข้ ไม่มีผิวแดงลาม → incision and drainage อย่างเดียว ไม่ต้องให้ยาปฏิชีวนะ",
+   "ผู้ป่วยเบาหวานคุมไม่ดีมีฝีรอบทวาร ต่อมาผิวดำคล้ำลามไปถุงอัณฑะ มี crepitus → Fournier's gangrene → debridement ด่วน + ยาปฏิชีวนะ broad spectrum",
+   "หลังระบายฝีรอบทวาร 2 เดือน ยังมีหนองซึมจากรูเดิมเป็นพัก ๆ → fistula-in-ano → ตรวจใต้ยาสลบหาทางและวางแผนรักษาตามชนิด",
+   "ชายมีปวดลึกในทวาร ไข้ ตรวจภายนอกไม่เห็นฝี คลำทางทวารพบก้อนกดเจ็บเหนือหูรูด → intersphincteric/ supralevator abscess → MRI หรือ EUA แล้วระบายเข้าทาง rectum"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 125 — ตัวพิมพ์: <b>19.ฝีคัณฑสูตรเฉียบพลัน ควรให้ antibiotic เมื่อใด — A. มีไข้ B. Ischioanal fistula C. Cellulitis บริเวณ fistula D. Immunocompromised host E. ถูกทุกข้อ</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"ฝีคัณฑสูตรเฉียบพลัน\" \"ให้ antibiotic เมื่อใด\" · A–D (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment (anorectal abscess — Perianal · Intersphincteric · Ischioanal (horseshoes) · Supralevator · drainage · ± ATB + ลายมือ) ชุดเดียวกับรอบ R2<br>ที่ปรับในเว็บ: โจทย์เขียนเป็น anorectal abscess/fistula และช้อย B เป็น Ischioanal abscess",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 125",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU67|RoC|21": {
-  "interp": "ถามสาเหตุที่พบบ่อยที่สุดของ <b>massive lower GI bleeding ในผู้สูงอายุ</b>",
-  "why": "<b>Diverticular bleeding</b> เป็นสาเหตุที่พบบ่อยที่สุดของ LGIB ปริมาณมากในผู้สูงอายุ — เลือดออกจาก <b>vasa recta (arterial bleed)</b> ที่ถูกยืดบางบริเวณคอ diverticulum · ไม่เจ็บ เลือดสดปริมาณมาก ส่วนใหญ่หยุดเอง · ไฟล์ขีด A ลายมือ <b>\"a. bleed\"</b>",
+  "interp": "ถามสาเหตุที่<b>พบบ่อยที่สุด</b>ของ <b>massive lower GI bleeding ในผู้สูงอายุ</b> — ต้องแยกสาเหตุที่เลือดออกมากเฉียบพลัน ออกจากสาเหตุที่เลือดออกเรื้อรังซ่อนเร้นหรือเลือดออกเล็กน้อย",
+  "why": "สาเหตุอันดับหนึ่งของ acute LGIB ในผู้ใหญ่และผู้สูงอายุคือ<b>diverticular bleeding</b> (ราว 30–40% ของทั้งหมด) · กลไก: diverticulum เกิดที่จุดอ่อนของผนังที่ <b>vasa recta</b> แทงผ่านชั้นกล้ามเนื้อ หลอดเลือดถูกยืดบางบนโดมของถุงจนแตก → <b>เลือดแดงสดหรือแดงคล้ำออกมากทันที ไม่เจ็บ</b> · แม้ diverticula ส่วนใหญ่อยู่ sigmoid แต่ที่ข้างขวาเลือดออกบ่อยกว่า · ประมาณ 75–80% หยุดเอง แต่กลับเป็นซ้ำได้ราว 20–40% · แนวทาง: resuscitate และแยก UGIB (hematochezia ที่ hemodynamic ไม่คงที่ราว 10–15% มาจากส่วนบน → EGD) · ถ้าคงที่ทำ <b>colonoscopy หลังเตรียมลำไส้ภายใน 24 ชม.</b> ถ้าไม่คงที่ทำ <b>CT angiography</b> แล้ว embolization · ผ่าตัดเมื่อเลือดไม่หยุดหรือให้เลือดมาก (มักอ้าง &gt; 6 ยูนิตใน 24 ชม.): segmental colectomy ถ้าระบุตำแหน่งได้ ถ้าไม่ได้ทำ subtotal colectomy · ไฟล์ขีด A ลายมือ <b>\"a. bleed\"</b> (ย่อจาก diverticular bleed)",
   "wrong": {
-   "B": "มะเร็งลำไส้ใหญ่มักเลือดออกน้อยเรื้อรัง (ซีด) · จะถูกถ้าคำถามถามซีดจากขาดเหล็ก + ถ่ายเป็นเลือดปนเล็กน้อย",
-   "C": "Angiodysplasia พบบ่อยรองลงมา (venous) มักออกเป็นพัก ๆ · จะถูกถ้าคำถามถามผู้ป่วย AS/ ไตวายเรื้อรัง เลือดออกซ้ำ ๆ จาก cecum",
-   "D": "ริดสีดวงทวารเลือดออกน้อย เลือดสดหยดหลังถ่าย · จะถูกถ้าคำถามถามเลือดหยดหลังถ่ายในคนอายุน้อย",
-   "E": "Ischemic colitis: ปวดท้องทันทีแล้วถ่ายเป็นเลือดปน ปริมาณไม่มาก · จะถูกถ้าผู้สูงอายุมีปวดท้องซ้ายฉับพลันแล้วถ่ายเลือด"
+   "B": "มะเร็งลำไส้ใหญ่มักทำให้เลือดออกช้า ๆ เรื้อรัง ซีดจากขาดธาตุเหล็ก (โดยเฉพาะข้างขวา) หรือมีเลือดปนอุจจาระร่วมกับถ่ายเปลี่ยนนิสัย ไม่ค่อยเป็นเลือดออกมากเฉียบพลัน · จะถูกถ้าเป็นชาย 68 ปี อ่อนเพลีย Hb 8 g/dL ขาดธาตุเหล็ก ถ่ายเลือดปนเป็นพัก ๆ น้ำหนักลด 5 kg ใน 3 เดือน",
+   "C": "Angiodysplasia (vascular ectasia) พบที่ cecum/ ascending colon ในผู้สูงอายุ สัมพันธ์กับ aortic stenosis (Heyde syndrome) และไตวาย มักเลือดออกช้า เรื้อรัง ซ้ำ ๆ จากหลอดเลือดดำฝอย แม้บางครั้งออกมากได้ แต่พบเป็นสาเหตุ massive LGIB น้อยกว่า diverticulum ในรายงานปัจจุบัน · จะถูกถ้าเป็นหญิง 78 ปีมี aortic stenosis ซีดจากขาดธาตุเหล็กเรื้อรัง ถ่ายดำแดงเป็นพัก ๆ colonoscopy เห็นจุดแดงแผ่เป็นแฉกที่ cecum",
+   "D": "Internal hemorrhoid เป็นสาเหตุที่พบบ่อยของเลือดออกทางทวาร<b>ปริมาณน้อย</b> เลือดแดงสดหยดหรือติดกระดาษหลังถ่าย ไม่ทำให้ hemodynamic ไม่คงที่ในคนทั่วไป (ยกเว้นมี portal hypertension หรือ coagulopathy) · จะถูกถ้าเป็นชาย 40 ปี เลือดแดงสดหยดหลังถ่ายเป็นพัก ๆ ไม่ซีด ส่อง anoscopy เห็นหัวริดสีดวงเลือดซึม",
+   "E": "Ischemic colitis พบในผู้สูงอายุที่มีโรคหลอดเลือดหรือภาวะ low flow มักเป็นบริเวณ watershed (splenic flexure, rectosigmoid) อาการคือปวดบิดท้องเฉียบพลันแล้วตามด้วยถ่ายเป็นเลือดปนอุจจาระ ปริมาณไม่มาก · จะถูกถ้าเป็นหญิง 75 ปีหลังผ่าตัดหัวใจ ความดันต่ำ ปวดท้องซ้ายเฉียบพลันแล้วถ่ายเลือดปนอุจจาระ colonoscopy เห็นเยื่อบุบวมคล้ำเป็นช่วงที่ splenic flexure"
   },
-  "trap": "ตอบ angiodysplasia — พบได้แต่ diverticular bleeding พบบ่อยกว่าใน massive LGIB",
+  "trap": "ตำราเก่าบางเล่มเคยระบุ angiodysplasia เป็นสาเหตุหลักในผู้สูงอายุ และมะเร็งเป็นสิ่งที่กลัวที่สุด จึงเลือก B หรือ C · คำว่า <b>massive</b> คือเลือดออกมากเฉียบพลันไม่เจ็บ ซึ่งเป็นแบบฉบับของ diverticular bleeding ส่วนมะเร็งและ angiodysplasia มักเลือดออกช้าเรื้อรัง",
   "summary": [
-   "Massive LGIB ผู้สูงอายุ: diverticular &gt; angiodysplasia",
-   "Diverticular: ไม่เจ็บ · arterial (vasa recta) · หยุดเอง ~75–80%",
-   "ขั้นแรก: resuscitation + แยก UGIB (NG/ EGD ถ้า hemodynamic ไม่คงที่)",
-   "Stable: colonoscopy ภายใน 24 ชม.",
-   "Unstable: CTA → embolization",
-   "ไม่หยุด/ ไม่พบตำแหน่ง → ผ่าตัด (segmental/ subtotal colectomy)"
+   "Acute LGIB สาเหตุบ่อย: diverticular bleeding (อันดับ 1) · ischemic colitis · hemorrhoid · post-polypectomy · angiodysplasia · มะเร็ง · IBD",
+   "Diverticular bleeding: vasa recta บนโดมของถุงแตก เลือดออกมากไม่เจ็บ · ราว 75–80% หยุดเอง · ข้างขวาเลือดออกบ่อยกว่า",
+   "Hematochezia ที่ hemodynamic ไม่คงที่: ราว 10–15% มาจาก UGIB → ใส่ NG หรือทำ EGD แยกก่อน",
+   "คงที่: colonoscopy ภายใน 24 ชม.หลังเตรียมลำไส้ (หยุดเลือดด้วย clip/ epinephrine) · ไม่คงที่: CT angiography → angiographic embolization",
+   "ความไวในการหาจุดเลือดออก: tagged RBC scan ราว 0.1 mL/min · CTA ราว 0.3–0.5 mL/min · conventional angiography ราว 0.5–1 mL/min",
+   "ผ่าตัดเมื่อเลือดไม่หยุดหลังวิธีอื่นหรือต้องให้เลือดมาก · ระบุตำแหน่งได้ → segmental colectomy · ไม่ได้ → subtotal colectomy (ห้าม blind segmental เพราะเลือดออกซ้ำสูง)",
+   "Angiodysplasia: cecum/ ascending colon ผู้สูงอายุ · สัมพันธ์ aortic stenosis (Heyde) · รักษาด้วย argon plasma coagulation ทางกล้อง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'ผู้สูงอายุถ่ายเลือดมาก ไม่เจ็บ = Diverticulum (arterial)'</b>",
-  "guide": "ACG Clinical Guideline: Management of Patients With Acute Lower GI Bleeding (Am J Gastroenterol 2023;118:208)",
+  "opinion": "เห็นด้วยกับคำตอบ A ตรงกับคีย์ในไฟล์ (ขีด A ลายมือ \"a. bleed\") ความมั่นใจสูง — แนวทาง ACG และ ASCRS ระบุ diverticular bleeding เป็นสาเหตุที่พบบ่อยที่สุดของ acute LGIB ในผู้ใหญ่และผู้สูงอายุ และเป็นเลือดออกมากเฉียบพลันไม่เจ็บตามโจทย์",
+  "mnemonic": "<b>'Massive + ไม่เจ็บ + สูงอายุ = Diverticulum (Angio = ซึมเรื้อรัง)'</b>",
+  "guide": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding (Am J Gastroenterol 2023); Sabiston Textbook of Surgery 21st ed. (2022) Colon and Rectum — Lower GI hemorrhage",
   "variants": [
-   "ชาย 75 ปี ถ่ายเลือดแดงสดจำนวนมาก ไม่เจ็บ → diverticular bleeding",
-   "LGIB + ความดันตก → CTA → embolization",
-   "หญิง 80 ปี AS ถ่ายเลือดเป็นพัก ๆ ซีด → angiodysplasia (Heyde)"
+   "ชาย 75 ปีถ่ายเป็นเลือดแดงคล้ำปริมาณมาก ความดัน 80/50 หลังให้สารน้ำยังไม่ขึ้น NG aspirate ไม่มีเลือด → CT angiography แล้ว angiographic embolization",
+   "หญิง 70 ปีถ่ายเลือดสดมาก ให้สารน้ำแล้วคงที่ → เตรียมลำไส้และ colonoscopy ภายใน 24 ชม. หยุดเลือดด้วย clip ที่ diverticulum",
+   "ผู้ป่วย LGIB ให้เลือดแล้ว 8 ยูนิตใน 24 ชม. หาจุดเลือดออกไม่ได้ → subtotal colectomy",
+   "ชาย 70 ปีถ่ายเป็นเลือดปริมาณมาก ความดันต่ำ มีประวัติกิน NSAID และ BUN สูงมาก → ทำ EGD ก่อนเพราะอาจเป็น peptic ulcer เลือดออกเร็วมาก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 125 — ตัวพิมพ์: <b>21.most common cause of massive LGIB in elderly — A. diverticulum B. cancer C. angiodysplasia D. internal hemorrhoid E. ischemic bowel</b><br>ลายมือ: ขีด A + \"a. bleed\"<br>ไฮไลต์: \"most common cause\" \"massive LGIB in elderly\" · A (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 125",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU67|RoC|26": {
-  "interp": "Sigmoid cancer T3N0M0 ผ่าตัดปี 2008 · ปี 2009 มี <b>liver metastasis ตัดตับซ้าย</b> · ปี 2010 พบ<b>ก้อนตับใหม่ 3 cm</b> ไม่มี local recurrence → ถามการจัดการ",
-  "why": "Colorectal liver metastasis ที่<b>ผ่าตัดเอาออกได้ (resectable)</b> และไม่มีโรคที่อื่น → <b>ผ่าตัดตับซ้ำ (repeat hepatectomy/ metastasectomy)</b> ± เคมีบำบัดก่อน/ หลัง ให้โอกาสรอดระยะยาวสูงสุด (5-year survival ~30–50%) · ประเมินว่าผ่าได้ ผู้ป่วยแข็งแรง เหลือตับพอ · RFA/ ablation ใช้กับก้อนเล็ก (&lt; 3 cm) หรือผ่าตัดไม่ได้ · ไฟล์ขีด A และแปะสไลด์ <b>Treatment of metastasis: Metastatectomy + Neoadjuvant treatment · 2nd line, 3rd line chemotherapy · Palliative care · Operable? Fitness? Financial? (Surgeon?)</b>",
+  "interp": "มะเร็ง sigmoid T3N0M0 ผ่าตัดแล้ว ปีต่อมามี liver metastasis ทำ left hepatectomy อีกปีพบ<b>ก้อนใหม่ในตับ 3 cm</b> โดยไม่มี local recurrence — ถามการรักษาของ <b>recurrent colorectal liver metastasis</b> ที่ยังจำกัดอยู่ในตับ ต้องรู้หลัก resectability",
+  "why": "Colorectal liver metastasis (CRLM) ต่างจากมะเร็งแพร่กระจายอื่นตรงที่<b>การผ่าตัดเอาออกหมด (R0) ให้โอกาสหายขาด</b> 5-year survival ราว 40–50% เทียบกับ chemotherapy อย่างเดียวที่อยู่ได้ราว 2–3 ปี · ใช้หลัก resectability ไม่ใช่จำนวนก้อน: ตัดได้ R0 ทุกก้อน · เหลือเนื้อตับ (<b>future liver remnant</b>) พอ — ≥ 20–25% ถ้าตับปกติ, ≥ 30% หลังเคมีบำบัดหนัก, ≥ 40% ถ้าตับแข็ง · เหลือ inflow outflow และท่อน้ำดีครบ · ไม่มีโรคนอกตับที่ตัดไม่ได้ · ผู้ป่วยแข็งแรงพอ · <b>การกลับเป็นซ้ำในตับหลัง hepatectomy</b>พบได้ราวครึ่งหนึ่ง และ<b>repeat hepatectomy</b>ให้ผลลัพธ์ใกล้เคียงการผ่าตัดครั้งแรกโดยภาวะแทรกซ้อนไม่สูงกว่ามาก จึงเป็นทางเลือกแรกเมื่อก้อนเดียวในตับที่ตัดได้ (มักให้ perioperative FOLFOX ร่วม) · ไฟล์ขีด A และแปะสไลด์ Treatment of metastasis: <b>Metastatectomy + Neoadjuvant treatment</b> พร้อมคำถาม Operable? Fitness? Financial?",
   "wrong": {
-   "B": "Palliative chemo ใช้เมื่อผ่าตัดไม่ได้ (หลายจุด/ กระจายนอกตับ) · จะถูกถ้ามีก้อนตับหลายก้อนทั้งสองกลีบ + ปอด",
-   "C": "RFA เป็นทางเลือกเมื่อก้อน ≤ 3 cm ในตำแหน่งที่ผ่าตัดยาก/ ผู้ป่วยผ่าตัดไม่ได้ · จะถูกถ้าก้อน 1.5 cm ลึกใกล้หลอดเลือดใหญ่ หรือผู้ป่วยมีโรคร่วมมาก",
-   "D": "Hepatic arterial infusion chemo ใช้ในโรคตับที่ผ่าตัดไม่ได้ (ในศูนย์เฉพาะ) · จะถูกถ้าคำถามถาม liver-only metastasis ที่ unresectable",
-   "E": "TACE ใช้หลักใน HCC ไม่ใช่มาตรฐานของ colorectal metastasis · จะถูกถ้าคำถามถาม HCC ระยะกลาง (BCLC B)"
+   "B": "Palliative chemotherapy (FOLFOX/ FOLFIRI ± bevacizumab หรือ anti-EGFR ถ้า RAS wild type) ใช้เมื่อโรค<b>ตัดไม่ได้</b>หรือกระจายหลายที่ ไม่ใช่ก้อนเดียวในตับที่ยังผ่าตัดได้และมีโอกาสหายขาด · จะถูกถ้าเป็นผู้ป่วยมะเร็งลำไส้ใหญ่ที่ CT พบก้อนในตับทั้งสองกลีบมากกว่า 10 ก้อน ร่วมกับก้อนในปอดหลายก้อนและเยื่อบุช่องท้อง",
+   "C": "RFA/ microwave ablation ได้ผลดีกับก้อนเล็ก (มักไม่เกิน 3 cm) และอยู่ห่างจากหลอดเลือดใหญ่ ใช้แทนการผ่าตัดในผู้ที่ผ่าตัดไม่ได้หรือก้อนลึกที่ต้องตัดตับมาก หรือใช้ร่วมกับการผ่าตัด แต่ก้อน 3 cm อยู่ที่ขอบบนของเกณฑ์และกลับเป็นซ้ำเฉพาะที่มากกว่า · จะถูกถ้าเป็นผู้ป่วย 80 ปี หัวใจล้มเหลว ผ่าตัดใหญ่ไม่ได้ มีก้อน CRLM ใหม่ 1.5 cm อยู่ลึกกลางตับ",
+   "D": "Hepatic arterial infusion chemotherapy ให้ยา (เช่น floxuridine) ผ่านปั๊มเข้า hepatic artery เพราะก้อนในตับได้เลือดจากหลอดเลือดแดง ใช้ในโรคที่จำกัดในตับแต่<b>ตัดไม่ได้</b> เพื่อลดขนาดให้ผ่าตัดได้ ทำเฉพาะศูนย์ใหญ่ · จะถูกถ้าเป็นผู้ป่วยมะเร็งลำไส้ใหญ่ที่มีก้อนในตับหลายก้อนทั้งสองกลีบเฉพาะในตับ ตัดไม่ได้ และไม่ตอบสนองต่อเคมีบำบัดทางหลอดเลือดดำ",
+   "E": "Chemoembolization (TACE) เป็นการรักษาหลักของ hepatocellular carcinoma ระยะกลาง (BCLC B) สำหรับ CRLM มีบทบาทน้อยเป็นทางเลือก salvage ไม่ใช่การรักษาหลักเมื่อตัดได้ · จะถูกถ้าเป็นชาย 60 ปีตับแข็งจาก hepatitis B (Child-Pugh A) มี HCC หลายก้อนในตับ ไม่มีหลอดเลือดถูกลุก ไม่มีการแพร่กระจายนอกตับ"
   },
-  "trap": "คิดว่าโรคกลับเป็นซ้ำแล้วต้องรักษาแบบประคับประคอง — liver mets จาก colorectal ที่ตัดได้ ตัดซ้ำได้",
+  "trap": "เห็นว่าเป็นการแพร่กระจายครั้งที่สองแล้วคิดว่าระยะท้ายจึงเลือก palliative chemotherapy · หรือเห็นก้อน 3 cm แล้วเลือก RFA · หลักคือ CRLM ที่ยังจำกัดในตับและตัดได้ R0 ให้ผ่าตัดซ้ำได้ ผลใกล้เคียงครั้งแรก",
   "summary": [
-   "CRC liver mets ที่ resectable → hepatectomy (± perioperative chemo)",
-   "เกณฑ์: R0 ได้ · เหลือตับ ≥ 20–30% (ปกติ) · ไม่มีโรคนอกตับที่คุมไม่ได้",
-   "Repeat hepatectomy ได้ผลใกล้เคียงครั้งแรก",
-   "Ablation: ก้อนเล็ก/ ผ่าตัดไม่ได้",
-   "Unresectable → systemic chemo ± biologic → ประเมินผ่าตัดใหม่ (conversion)",
-   "Recurrence ส่วนใหญ่ภายใน 2 ปี → ติดตามใกล้ชิด"
+   "Colon cancer ที่แพร่กระจายพบที่ตับบ่อยสุด (ผ่าน portal vein) · ราว 15–25% มี liver metastasis ตอนวินิจฉัย และอีกราว 20–30% เกิดภายหลัง",
+   "Resectability: ตัดได้ R0 · future liver remnant ≥ 20–25% ตับปกติ / ≥ 30% หลังเคมีหนัก / ≥ 40% ตับแข็ง · เก็บ inflow outflow ท่อน้ำดี · โรคนอกตับควบคุมได้",
+   "FLR ไม่พอ → portal vein embolization (หรือ ALPPS) ให้ตับส่วนที่เหลือโตก่อนผ่าตัด",
+   "Resection CRLM: 5-year survival ราว 40–50% · repeat hepatectomy เมื่อกลับเป็นซ้ำในตับให้ผลใกล้เคียงครั้งแรก",
+   "Perioperative FOLFOX (EORTC 40983) เพิ่ม progression-free survival · ก้อนตัดไม่ได้ → conversion chemotherapy แล้วประเมินผ่าตัดใหม่",
+   "Thermal ablation: ทางเลือกสำหรับก้อนเล็ก ≤ 3 cm ในผู้ที่ผ่าตัดไม่ได้หรือร่วมกับการผ่าตัด",
+   "ติดตามหลังผ่าตัดมะเร็งลำไส้ใหญ่: CEA ทุก 3–6 เดือนใน 2 ปีแรก · CT ทรวงอก/ ท้อง ทุก 6–12 เดือน 5 ปี · recurrence ส่วนใหญ่เกิดใน 2 ปีแรก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'CRC → ตับ (ตัดได้) = ตัด · ตัดซ้ำได้'</b>",
-  "guide": "NCCN Colon Cancer v.2025 — Metastatic disease; ESMO Metastatic Colorectal Cancer Guideline (Ann Oncol 2023;34:10)",
+  "opinion": "เห็นด้วยกับคำตอบ A ตรงกับคีย์ในไฟล์ (ขีด A + สไลด์ metastatectomy) ความมั่นใจสูง — ก้อนเดียวในตับ ไม่มี local recurrence และผู้ป่วยเคยผ่าตัดตับได้มาแล้ว จึงยังอยู่ในเกณฑ์ resectable การผ่าตัดซ้ำให้โอกาสหายขาดมากที่สุด (ในทางจริงต้องทำ CT ทรวงอก/ PET หาโรคนอกตับก่อนและมักให้ chemotherapy ร่วม)",
+  "mnemonic": "<b>'CRLM: \"Resectable = Resect (again)\" — ถาม Operable? Fit? FLR พอ?'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Colon Cancer (2025); ESMO Clinical Practice Guideline Metastatic Colorectal Cancer (Ann Oncol 2023)",
   "variants": [
-   "CRC + ก้อนตับเดี่ยว 4 cm → hepatectomy",
-   "CRC + ก้อนตับ 12 ก้อนสองกลีบ → systemic chemo",
-   "ก้อนตับ 2 cm ใกล้ hepatic vein ผู้ป่วยหัวใจไม่ดี → ablation"
+   "ผู้ป่วย CRLM ต้องตัดตับขวาขยาย แต่ CT volumetry ตับที่เหลือ 18% → portal vein embolization ข้างขวาก่อน รอให้ตับซ้ายโตแล้วผ่าตัด",
+   "มะเร็ง sigmoid พร้อมก้อนในตับ 2 ก้อนที่ตัดได้ ไม่มีอาการลำไส้อุดตัน → perioperative chemotherapy แล้วผ่าตัด colectomy + hepatectomy (พร้อมกันหรือแยกครั้ง)",
+   "CRLM 8 ก้อนทั้งสองกลีบตัดไม่ได้ ตรวจ RAS wild type ก้อนอยู่ด้านซ้าย → FOLFOX/ FOLFIRI + anti-EGFR (cetuximab/ panitumumab) แล้วประเมินผ่าตัดซ้ำ",
+   "ทำไม CRLM ผ่าตัดได้ แต่ metastasis จากมะเร็งตับอ่อนไม่ผ่าตัด → CRLM มักจำกัดในตับเป็นเวลานานผ่าน portal drainage การตัดหมดจึงยืดชีวิตและหายขาดได้บางราย"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 125 — ตัวพิมพ์: <b>26. ปี 2008 ตรวจพบว่ามี sigmoid cancer T3N0M0 รักษาโดยทำ sigmoidectomy ปี 2009 CT พบ liver metastasis รักษาโดยทำ left hepatectomy ปี 2010 ตรวจพบว่ามี liver nodule 3 cm no local recurrence ควร management อย่างไรต่อ — A. liver resection B. chemotherapy for palliative care C. RFA D. intrahepatic chemotherapy E. chemoembolization</b><br>ลายมือ: ขีด A · ขีดคั่นระหว่าง \"left hepatectomy / ปี 2010\"<br>ไฮไลต์: \"sigmoid cancer T3N0M0\" \"ทำ sigmoidectomy\" \"CT พบ liver metastasis\" \"ทำ left hepatectomy\" \"พบว่ามี liver nodule 3 cm no local recurrence\" \"management อย่างไรต่อ\" · A (เหลือง)<br>รูปที่แปะ: ① สไลด์ Treatment of metastasis — Metastatectomy + Neoadjuvant treatment · 2nd line, 3rd line chemotherapy · Palliative care / Operable? · Fitness? · Financial? · (Surgeon?) ② ข้อความตำราภาษาอังกฤษเรื่อง recurrent disease (ไฮไลต์ใจความ: recurrence ส่วนใหญ่เกิดภายใน 2 ปีแรกหลังวินิจฉัย · หลังผ่าตัดมะเร็งลำไส้ใหญ่มักกลับเป็นที่ตำแหน่งเดิมในช่องท้อง ตับ หรือปอด · อาจต้องตัดอวัยวะที่เกี่ยวข้องร่วม)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 125",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU67|RoC|28": {
-  "interp": "อายุ 55 ปี ส่องกล้องพบ <b>polyp 1 cm ที่ ascending colon</b> ตัดออก (polypectomy) ผลเป็น <b>intramucosal adenocarcinoma ขอบตัดปลอดเซลล์มะเร็ง</b> → ถามขั้นต่อไป",
-  "why": "<b>Intramucosal carcinoma</b> (ยังไม่ทะลุ muscularis mucosae = pTis) <b>ไม่มีความเสี่ยงกระจายต่อมน้ำเหลือง</b> (ไม่มีท่อน้ำเหลืองใน lamina propria) · ตัดออกหมดด้วย polypectomy (ขอบปลอดเซลล์) = <b>รักษาหายแล้ว</b> → <b>ติดตามด้วย colonoscopy ใกล้ชิด</b> (ซ้ำ ~1 ปี/ ตำแหน่งตัดภายใน 3–6 เดือนถ้าตัดเป็นชิ้น) · ผ่าตัดลำไส้เมื่อเป็น invasive (pT1) ที่มีลักษณะเสี่ยงสูง (poorly differentiated, LVI, margin &lt; 1 mm, tumor budding) · ไฟล์ขีด E และแปะสไลด์ <b>Follow up</b> (0–2 years: every 3 months · 2–5 years: every 6 months · &gt; 5 years: every year · CEA level · Liver US/ CT · Lung X-ray/ CT · Colonoscopy)",
+  "interp": "ชาย 55 ปีตัด polyp 1 cm ที่ ascending colon ผลพยาธิเป็น <b>intramucosal adenocarcinoma ขอบตัดปลอดเนื้องอก</b> — ถามขั้นต่อไป ซึ่งขึ้นกับว่ามะเร็งลงลึกถึง submucosa หรือไม่ เพราะเป็นตัวกำหนดความเสี่ยงต่อมน้ำเหลือง",
+  "why": "<b>Intramucosal carcinoma</b> คือเซลล์มะเร็งลุกเข้า lamina propria หรือ muscularis mucosae แต่<b>ยังไม่ผ่าน muscularis mucosae เข้า submucosa</b> = pTis · ในลำไส้ใหญ่ ท่อน้ำเหลืองอยู่ในชั้น submucosa เป็นต้นไป เยื่อบุแทบไม่มีท่อน้ำเหลือง จึง<b>แทบไม่มีโอกาสแพร่ไปต่อมน้ำเหลือง</b> · การตัด polyp ออกหมดพร้อมขอบปลอดเนื้องอกจึงเป็นการรักษาที่เพียงพอ (curative) ไม่ต้อง colectomy ไม่ต้องเคมีบำบัด · ต่อด้วย <b>surveillance colonoscopy</b> (ตามแนวทาง US Multi-Society Task Force 2020 adenoma ที่มี high-grade dysplasia ส่องซ้ำที่ 3 ปีถ้าตัดออกชิ้นเดียวหมด หรือ 6 เดือนถ้าตัดแบบ piecemeal ขนาด ≥ 20 mm) · ต่างจาก <b>T1 malignant polyp</b> (ลุก submucosa) ซึ่งเสี่ยงต่อมน้ำเหลืองราว 10% และต้อง colectomy เมื่อมีลักษณะไม่ดี · ไฟล์ขีด E และแปะสไลด์ Follow up (ลายมือ \"โอกาส recurrent สูง ช่วงแรก\")",
   "wrong": {
-   "A": "Right colectomy ใช้เมื่อเป็น invasive carcinoma (pT1 เสี่ยงสูง) หรือขอบตัดไม่ปลอดภัย · จะถูกถ้าผลเป็น pT1 poorly differentiated + lymphovascular invasion",
-   "B": "Subtotal colectomy ใช้ในมะเร็งหลายตำแหน่ง/ Lynch syndrome · จะถูกถ้าผู้ป่วยเป็น Lynch syndrome มีมะเร็งลำไส้ใหญ่",
-   "C": "Total colectomy ใช้ใน FAP · จะถูกถ้าพบ polyp &gt; 100 ตัวทั่วลำไส้ใหญ่",
-   "D": "Chemoradiation ใช้ใน rectal cancer ระยะลุกลามเฉพาะที่ · จะถูกถ้าเป็น rectal cancer T3N1"
+   "A": "Right hemicolectomy พร้อม lymphadenectomy เป็นการผ่าตัดมาตรฐานของมะเร็ง ascending colon ที่ลุกลาม หรือ malignant polyp T1 ที่มีลักษณะเสี่ยง ไม่จำเป็นใน Tis ที่ตัดหมดแล้ว · จะถูกถ้าเป็นชาย 55 ปี polyp 1.5 cm ที่ ascending colon ผลเป็น adenocarcinoma ลุก submucosa poorly differentiated มี lymphovascular invasion หรือขอบตัดห่างน้อยกว่า 1 mm",
+   "B": "Subtotal colectomy ตัดลำไส้ใหญ่เกือบทั้งหมดใช้ในมะเร็งลำไส้ใหญ่หลายตำแหน่ง (synchronous) หรือ Lynch syndrome ที่ต้องการลดความเสี่ยงมะเร็งใหม่ หรือ LGIB ที่หาตำแหน่งไม่ได้ ไม่เกี่ยวกับ Tis ที่ตัดหมด · จะถูกถ้าเป็นชาย 40 ปีมี Lynch syndrome (MLH1) พบมะเร็งที่ ascending colon ลุกลาม",
+   "C": "Total proctocolectomy ใช้ในโรคทั้งลำไส้ใหญ่ เช่น familial adenomatous polyposis ที่มี adenoma นับร้อย หรือ ulcerative colitis ที่ดื้อยาหรือมี dysplasia หลายตำแหน่ง ไม่ใช่ polyp ก้อนเดียว · จะถูกถ้าเป็นหญิง 22 ปีมี APC mutation ส่อง colonoscopy พบ adenoma หลายร้อยก้อนทั่วลำไส้ใหญ่และไส้ตรง",
+   "D": "Chemoradiation ใช้ในมะเร็งไส้ตรงระยะลุกลามเฉพาะที่ (T3–4 หรือ N+) ก่อนผ่าตัด ไม่ใช้กับมะเร็ง colon และไม่ใช้กับ Tis · จะถูกถ้าเป็นชาย 60 ปีมะเร็งไส้ตรงห่างขอบทวาร 6 cm MRI พบ T3N1 ไม่มีการแพร่กระจาย (neoadjuvant chemoradiation หรือ total neoadjuvant therapy)"
   },
-  "trap": "เห็นคำว่า adenocarcinoma แล้วผ่าตัดลำไส้ — intramucosal (Tis) ตัดหมดแล้วถือว่าหาย",
+  "trap": "เห็นคำว่า adenocarcinoma แล้วคิดว่าต้องผ่าตัด colectomy ทันที · ต้องดูความลึก: intramucosal (Tis) ไม่ผ่าน muscularis mucosae จึงไม่มีท่อน้ำเหลือง ตัดหมดพร้อมขอบปลอดก็หาย · ถ้าลุก submucosa (T1) จึงค่อยดูลักษณะเสี่ยง",
   "summary": [
-   "Intramucosal carcinoma = Tis → ไม่กระจาย LN",
-   "Polypectomy ขอบปลอด → ติดตามด้วยกล้อง",
-   "Malignant polyp pT1 เสี่ยงสูง → colectomy + LN",
-   "เสี่ยงสูง: poorly differentiated · LVI · margin &lt; 1 mm · tumor budding · submucosal invasion ลึก",
-   "Surveillance หลังผ่าตัด CRC: CEA · CT · colonoscopy",
-   "ติดตามถี่ใน 2 ปีแรก"
+   "Intramucosal carcinoma (pTis): ลุก lamina propria/ muscularis mucosae ไม่ถึง submucosa · ไม่มีท่อน้ำเหลือง → ตัด polyp หมดพอ",
+   "Malignant polyp T1 (ลุก submucosa): เสี่ยงต่อมน้ำเหลืองราว 8–15% ทั้งหมด · ต่ำมากถ้าไม่มีลักษณะเสี่ยง",
+   "ลักษณะเสี่ยงของ T1 ที่ต้อง colectomy: ขอบตัด &lt; 1 mm หรือบวก · poorly differentiated · lymphovascular invasion · tumor budding สูง · ตัดแบบ piecemeal",
+   "Haggitt level 4 (ลุกถึง submucosa ใต้ก้าน) ใน pedunculated และ sm3 (Kikuchi) หรือลึก &gt; 1000 µm ใน sessile เสี่ยงต่อมน้ำเหลืองสูง",
+   "Surveillance (USMSTF 2020): 1–2 tubular adenoma &lt; 10 mm → 7–10 ปี · 3–4 ก้อน → 3–5 ปี · ≥ 10 mm, villous, HGD หรือ 5–10 ก้อน → 3 ปี · piecemeal ≥ 20 mm → 6 เดือน",
+   "ควรสัก (tattoo) ตำแหน่ง polyp ที่สงสัยมะเร็งตอนส่อง เพื่อหาเจอได้ถ้าต้องผ่าตัดหรือส่องซ้ำ",
+   "Rectal cancer ต่างจาก colon: MRI pelvis ประเมิน T/N/ CRM · T3–4 หรือ N+ → neoadjuvant chemoradiation หรือ total neoadjuvant therapy"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'มะเร็งยังอยู่ในเยื่อบุ (intramucosal) + ขอบปลอด = ติดตาม ไม่ต้องผ่า'</b>",
-  "guide": "NCCN Colon Cancer v.2025 — Malignant polyp; US Multi-Society Task Force: Endoscopic Removal of Colorectal Lesions (Gastroenterology 2020;158:1095)",
+  "opinion": "เห็นด้วยกับคำตอบ E ตรงกับคีย์ในไฟล์ (ขีด E) ความมั่นใจสูง — intramucosal adenocarcinoma ที่ตัดหมดพร้อมขอบปลอดไม่มีความเสี่ยงต่อมน้ำเหลืองที่มีนัยสำคัญ จึงติดตามด้วย surveillance colonoscopy · สไลด์ที่แปะเป็นตาราง follow up ของมะเร็งลุกลาม (CEA, CT) ซึ่งเข้มกว่าที่ Tis ต้องการ",
+  "mnemonic": "<b>'Mucosa ไม่มีท่อน้ำเหลือง → Tis ตัดหมด = จบ · Sub-mucosa = เริ่มเสี่ยง'</b>",
+  "guide": "US Multi-Society Task Force: Recommendations for Follow-Up After Colonoscopy and Polypectomy (Gastroenterology 2020); NCCN Clinical Practice Guidelines in Oncology: Colon Cancer (2025)",
   "variants": [
-   "polyp ผลเป็น pT1 well differentiated ขอบ &gt; 1 mm ไม่มี LVI → ติดตาม",
-   "polyp ผลเป็น pT1 poorly differentiated + LVI → right hemicolectomy",
-   "หลังผ่าตัด CRC stage II → CEA ทุก 3–6 เดือน 2 ปี + CT + colonoscopy 1 ปี"
+   "Pedunculated polyp 2 cm ที่ sigmoid ผลเป็น adenocarcinoma ลุกหัว polyp (Haggitt level 1) ขอบตัด 3 mm well differentiated ไม่มี LVI → ส่องกล้องติดตามได้ ไม่ต้องผ่าตัด",
+   "Sessile polyp ผลเป็น adenocarcinoma ลุก submucosa ลึก 2000 µm มี lymphovascular invasion → colectomy พร้อม lymphadenectomy",
+   "ตัด polyp แบนขนาด 25 mm แบบ piecemeal ผลเป็น adenoma ที่มี high-grade dysplasia → ส่องกล้องซ้ำที่ 6 เดือนดูว่ามีเหลือที่ขอบหรือไม่",
+   "ระหว่างส่องกล้องเจอ polyp ที่สงสัยมะเร็งแต่ตัดไม่หมด → ตัดชิ้นเนื้อและสัก tattoo ใกล้ก้อน เพื่อให้ศัลยแพทย์หาตำแหน่งเจอ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 125–126 — ตัวพิมพ์: <b>28.ผู้ป่วย 55 ปี ทำ colonoscope พบ 1 cm polyp ที่ ascending colon ทำ polypec พบเป็น intramucosal adenocarcinoma with free resected margin ควรทำอย่างไรต่อ — A. Rt colectomy B. subtotal colectomy C. total colectomy D. chemoradiation E. closed follow up</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"55 ปี ทำ colonoscope พบ 1 cm polyp ที่ ascending colon\" \"intramucosal adenocarcinoma with free resected margin\" · E (เหลือง)<br>รูปที่แปะ: สไลด์ Follow up (ลายมือ \"โอกาส recurrent สูง ช่วงแรก\") — 0-2 years: every 3 months · 2-5 years: every 6 months · &gt; 5 years: every year · CEA LEVEL · LIVER US (CT) · LUNG X-RAY/ CT · COLONOSCOPY + ภาพวาดท่าส่องกล้อง + ลายมือ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 125",
@@ -264,30 +280,32 @@
   ]
  },
  "MDCU67|RoC|29": {
-  "interp": "ชาย 50 ปี <b>acute diverticulitis ครั้งแรก</b> → นอกจาก IV fluid การจัดการที่ดีที่สุดคือ",
-  "why": "Acute diverticulitis ที่ต้องรับไว้ในโรงพยาบาลและให้สารน้ำ → <b>empirical antibiotics</b> ครอบคลุม gram-negative + anaerobe ร่วมกับพักลำไส้ · ห้ามส่องกล้อง/ สวนแป้งระยะเฉียบพลัน · ผ่าตัดเฉพาะ complicated (perforation + peritonitis) · ไฟล์ขีด D และแปะแผนผัง diverticulitis (Complicated → Admission → IV antibiotics · Percutaneous drainage · Operative intervention / Uncomplicated → Mild → Oral antibiotics + clinical review)",
+  "interp": "ชาย 50 ปี <b>acute diverticulitis ครั้งแรก</b> (ไม่มีข้อมูลว่ามีฝี ทะลุ หรือเยื่อบุช่องท้องอักเสบ จึงเป็นแบบ uncomplicated) — ถามการรักษาที่ดีที่สุดร่วมกับสารน้ำ ต้องแยกการรักษาระยะเฉียบพลันออกจากสิ่งที่ทำภายหลัง",
+  "why": "Diverticulitis คือ diverticulum (ส่วนใหญ่ที่ sigmoid ในชาวตะวันตก ส่วนในเอเชียพบข้างขวาได้มาก) อักเสบจาก microperforation · วินิจฉัยด้วย <b>CT with IV contrast</b> แบ่งเป็น <b>uncomplicated</b> (ผนังหนา fat stranding) กับ <b>complicated</b> (ฝี ทะลุ fistula อุดตัน) ตาม <b>Hinchey</b>: I ฝีรอบลำไส้ · II ฝีในอุ้งเชิงกรานหรือไกล · III purulent peritonitis · IV fecal peritonitis · การรักษา uncomplicated: พักลำไส้หรืออาหารเหลวใส สารน้ำ ระงับปวด และ <b>empirical antibiotics ครอบคลุม gram-negative และ anaerobe</b> (เช่น amoxicillin-clavulanate หรือ ciprofloxacin + metronidazole) 4–7 วัน ผู้ป่วยกินได้อาการไม่มากรักษาแบบผู้ป่วยนอกได้ · แนวทางปัจจุบัน (ASCRS 2020, AGA 2021) ให้<b>งดยาปฏิชีวนะได้แบบเลือกราย</b>ในผู้ภูมิคุ้มกันปกติ ไม่มี systemic signs (หลักฐานจาก AVOD, DIABOLO) แต่ในช้อยที่ให้ D ยังเป็นคำตอบที่ดีที่สุด · ฝี ≥ 3–4 cm → percutaneous drainage · Hinchey III–IV → ผ่าตัด · ไฟล์ขีด D และแปะแผนผัง Diverticulitis (uncomplicated mild → oral antibiotics + clinical review)",
   "wrong": {
-   "A": "Colonoscopy ห้ามระยะเฉียบพลัน ทำหลัง 6–8 สัปดาห์ · จะถูกถ้าคำถามถามการตรวจหลังหายเพื่อแยกมะเร็ง",
-   "B": "NG suction ใช้เมื่อมี ileus/ อาเจียน/ ลำไส้อุดตัน · จะถูกถ้าผู้ป่วยท้องอืดมาก อาเจียนต่อเนื่อง",
-   "C": "Sigmoidectomy ฉุกเฉินใช้ใน perforation + generalized peritonitis หรือไม่ตอบสนอง · จะถูกถ้ามี free air + peritonitis ทั่วท้อง",
-   "E": "APR (abdominoperineal resection) ใช้กับมะเร็ง rectum ส่วนล่าง ไม่เกี่ยวกับ diverticulitis · จะถูกถ้าคำถามถาม low rectal cancer ลุกหูรูด"
+   "A": "Colonoscopy ห้ามทำระหว่างอักเสบเฉียบพลันเพราะเสี่ยงทำให้ลำไส้ทะลุ แต่ควรทำราว 6–8 สัปดาห์หลังหายเพื่อแยกมะเร็ง (โดยเฉพาะ complicated หรือยังไม่เคยส่อง) · จะถูกถ้าเป็นชาย 50 ปีหายจาก diverticulitis ที่มีฝีเล็กมาได้ 8 สัปดาห์ ยังไม่เคยส่องกล้อง และต้องการแยกมะเร็ง sigmoid ที่ภาพ CT คล้ายกัน",
+   "B": "NG suction ใช้เมื่อมีลำไส้อุดตันหรือ ileus ที่ท้องอืดอาเจียนมาก ไม่ใช่การรักษามาตรฐานของ diverticulitis ทั่วไป ผู้ป่วย uncomplicated ส่วนใหญ่กินอาหารเหลวได้ · จะถูกถ้าเป็นผู้ป่วย diverticulitis ที่เกิด large bowel obstruction จากการตีบของ sigmoid ท้องอืดมาก อาเจียนเป็นอุจจาระ",
+   "C": "Sigmoidectomy ไม่ทำในการอักเสบครั้งแรกที่เป็น uncomplicated และไม่ได้ตัดสินจากจำนวนครั้งอีกต่อไป (เลิกกฎผ่าตัดหลัง 2 ครั้ง) · ผ่าตัดฉุกเฉินเมื่อ peritonitis ทั่วท้อง (Hinchey III–IV) และพิจารณาผ่าตัดแบบนัดหลังการอักเสบแบบมีฝี fistula หรือตีบ · จะถูกถ้าเป็นผู้ป่วย diverticulitis ที่มี colovesical fistula ปัสสาวะมีลมและอุจจาระปน (pneumaturia, fecaluria)",
+   "E": "Abdominoperineal resection ตัด rectum และทวารหนักทั้งหมดพร้อมทำทวารเทียมถาวร ใช้ในมะเร็งไส้ตรงส่วนล่างที่ลุกหูรูดหรือเก็บหูรูดไม่ได้ ไม่เกี่ยวกับ diverticulitis · จะถูกถ้าเป็นชาย 60 ปีมะเร็งไส้ตรงห่างขอบทวาร 2 cm ลุก external sphincter หลังได้ neoadjuvant chemoradiation"
   },
-  "trap": "ส่องกล้องเพื่อยืนยัน หรือผ่าตัดเร็วเกินไป",
+  "trap": "เห็นคำว่าครั้งแรกแล้วคิดว่าต้องส่องกล้องหาสาเหตุทันที (A) หรือคิดว่าต้องตัดลำไส้กันเป็นซ้ำ (C) · ระยะเฉียบพลันห้ามส่องกล้อง ส่วนการผ่าตัดไม่ใช่สำหรับ uncomplicated ครั้งแรก · การรักษาระยะเฉียบพลันคือพักลำไส้ สารน้ำ ยาปฏิชีวนะ",
   "summary": [
-   "CT ยืนยัน + แยก complicated (Hinchey)",
-   "Uncomplicated ไม่รุนแรง ภูมิปกติ: ATB เลือกใช้ได้",
-   "Admit/ ให้ IV fluid: IV ATB",
-   "Abscess &gt; 3–4 cm → percutaneous drainage",
-   "Perforation + peritonitis → Hartmann/ resection + anastomosis",
-   "Colonoscopy หลังหาย 6–8 สัปดาห์"
+   "Diverticulosis: ถุงยื่นเฉพาะ mucosa/ submucosa (pseudodiverticula) ผ่านจุดอ่อนที่ vasa recta แทง · sigmoid บ่อยสุดในตะวันตก ข้างขวาพบมากในเอเชีย",
+   "อาการ diverticulitis: ปวด LLQ ไข้ กดเจ็บเฉพาะที่ เม็ดเลือดขาวสูง · วินิจฉัย CT with IV contrast (ไวและจำเพาะมากกว่า 90%)",
+   "Hinchey: I pericolic abscess · II pelvic/ distant abscess · III purulent peritonitis · IV fecal peritonitis",
+   "Uncomplicated: อาหารเหลว ระงับปวด ± ยาปฏิชีวนะ (gram-negative + anaerobe 4–7 วัน) · งดยาได้แบบเลือกรายในผู้ภูมิคุ้มกันปกติ ไม่มี systemic signs",
+   "ฝี &lt; 3 cm → ยาปฏิชีวนะ IV · ≥ 3–4 cm → CT-guided percutaneous drainage ร่วมยาปฏิชีวนะ",
+   "Hinchey III → laparoscopic lavage หรือ resection ± primary anastomosis · Hinchey IV → Hartmann's procedure หรือ resection + anastomosis + diverting ileostomy",
+   "หลังหาย 6–8 สัปดาห์: colonoscopy แยกมะเร็ง (complicated หรือยังไม่เคยส่อง) · elective sigmoidectomy ตัดสินรายบุคคล ไม่ใช่ตามจำนวนครั้ง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (แนวทางใหม่ให้ละเว้นยาได้ในรายเลือกที่ไม่รุนแรงและดูแลแบบผู้ป่วยนอก)",
-  "mnemonic": "<b>'Diverticulitis: น้ำ + ยา · ไม่ส่อง ไม่ผ่า (ถ้าไม่แตก)'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020;63:728)",
+  "opinion": "เห็นด้วยกับคำตอบ D ตรงกับคีย์ในไฟล์ (ขีด D) ความมั่นใจปานกลางถึงสูง — empirical antibiotics ร่วมกับสารน้ำเป็นการรักษามาตรฐานของ diverticulitis ครั้งแรกในช้อยที่ให้ และตรงแผนผังที่ผู้จดแปะ · แต่ควรรู้ว่าแนวทางใหม่อนุญาตให้งดยาได้ในรายไม่รุนแรงที่ภูมิคุ้มกันปกติ",
+  "mnemonic": "<b>'Diverticulitis ครั้งแรก: \"CT ยืนยัน → พักลำไส้ + ยา → 6 สัปดาห์ค่อยส่องกล้อง\"'</b>",
+  "guide": "ASCRS Clinical Practice Guidelines for the Management of Left-Sided Colonic Diverticulitis (Dis Colon Rectum 2020); AGA Clinical Practice Update on Medical Management of Colonic Diverticulitis (Gastroenterology 2021); WSES Guidelines for Acute Left Sided Colonic Diverticulitis (World J Emerg Surg 2020)",
   "variants": [
-   "diverticulitis + abscess 5 cm → ATB + percutaneous drainage",
-   "diverticulitis + free air + peritonitis → emergency surgery",
-   "หายจาก diverticulitis 2 เดือน ยังไม่เคยส่องกล้อง → colonoscopy"
+   "ชาย 55 ปีปวด LLQ ไข้ CT พบฝีรอบ sigmoid ขนาด 5 cm → percutaneous drainage ใต้ CT + ยาปฏิชีวนะ IV",
+   "หญิง 65 ปี diverticulitis ปวดทั่วท้อง ท้องแข็ง CT พบลมอิสระและอุจจาระในช่องท้อง (Hinchey IV) ความดันต่ำ → ผ่าตัดด่วน Hartmann's procedure",
+   "ชาย 45 ปีแข็งแรง CT ยืนยัน uncomplicated diverticulitis ไม่มีไข้ กินได้ → รักษาแบบผู้ป่วยนอก อาหารเหลว ระงับปวด อาจไม่ต้องให้ยาปฏิชีวนะ",
+   "ทำไมต้องส่อง colonoscopy หลังหาย diverticulitis 6–8 สัปดาห์ → มะเร็ง sigmoid ที่ทะลุเฉพาะที่ให้ภาพ CT คล้าย diverticulitis ต้องแยกให้ได้"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 126 — ตัวพิมพ์: <b>29. ผู้ป่วยชายไทยอายุ 50 ปี มาด้วยอาการ Acute diverticulitis ครั้งแรก ข้อใดคือการ manage ที่ดีที่สุดร่วมกับการให้ IV fluid — A. Diagnostic colonoscopy B. NG suction C. Sigmoidectomy D. Empirical antibiotics E. APR</b><br>ลายมือ: ขีด D<br>ไฮไลต์: \"ชายไทยอายุ 50 ปี\" \"อาการ Acute diverticulitis ครั้งแรก\" \"manage ที่ดีที่สุดร่วมกับการให้ IV fluid\" · D (เหลือง)<br>รูปที่แปะ: แผนผัง Diverticulitis — History/exam: LLQ pain, altered bowel habits, fever, tenderness and localised peritonitis → CT – IV and oral contrast → Complicated → Admission → IV antibiotics · Percutaneous drainage · Operative intervention / Uncomplicated → Mild → Oral antibiotics + clinical review → Consideration of operative intervention if recurrent episodes · Severe → Admission",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 126",
@@ -297,30 +315,32 @@
   ]
  },
  "MDCU67|RoC|31": {
-  "interp": "ภาพก้อนสีแดง <b>เป็นตั้งแต่เกิด โตขึ้นเรื่อย ๆ</b> ตอนนี้ 3 ขวบ<b>คงที่ ไม่ยุบหายเอง</b> คลำ<b>ไม่เต้น (no pulsatile mass)</b> → ถามการวินิจฉัย",
-  "why": "<b>Vascular malformation</b>: มีตั้งแต่เกิด <b>โตตามสัดส่วนร่างกาย ไม่ยุบหาย (never involute)</b> · ไม่เต้น = <b>low-flow</b> (capillary/ venous) → <b>capillary-venous malformation</b> · ต่างจาก <b>infantile hemangioma</b> ที่มักโผล่หลังเกิดไม่นาน <b>โตเร็วในขวบปีแรกแล้วยุบ</b> (~90% involute) · AVM เป็น high-flow คลำได้การเต้น/ thrill · ไฟล์ขีด B ลูกศรจาก <b>\"no pulsatile mass\"</b> ชี้ B และแปะสไลด์ <b>Haemangioma</b> และ <b>Vascular malformation</b>",
+  "interp": "รอยโรคสีแดง<b>เป็นตั้งแต่เกิด</b> โตขึ้นช้า ๆ จนตอนนี้ 3 ขวบเริ่มคงที่ <b>ไม่ยุบเอง</b> และ<b>ไม่เต้นตามชีพจร</b> — ถามชนิดของ vascular anomaly ต้องใช้ ISSVA แยก vascular tumor (hemangioma) กับ vascular malformation และแยก high flow กับ low flow",
+  "why": "ISSVA แบ่ง vascular anomaly เป็น 2 กลุ่ม: <b>vascular tumor</b> (เซลล์บุผนังหลอดเลือดแบ่งตัว เช่น infantile hemangioma) และ <b>vascular malformation</b> (โครงสร้างหลอดเลือดผิดรูปตั้งแต่ตัวอ่อน เซลล์ไม่แบ่งตัวผิดปกติ) · Infantile hemangioma มักไม่เห็นตอนเกิดหรือเป็นรอยจาง ๆ แล้ว<b>โตเร็วในเดือนแรก ๆ</b> (โตเกือบเต็มที่ราว 5 เดือน) จากนั้น<b>ยุบเอง</b>เป็นปี ๆ (ส่วนใหญ่ยุบเสร็จราว 4 ปี) และย้อม GLUT-1 บวก · Vascular malformation <b>มีตั้งแต่เกิด โตตามสัดส่วนร่างกาย ไม่ยุบเองเลย</b> อาจโตเร็วขึ้นช่วงวัยรุ่น ตั้งครรภ์ บาดเจ็บ หรือติดเชื้อ · แบ่งเป็น <b>low flow</b> (capillary, venous, lymphatic) กับ <b>high flow</b> (arteriovenous malformation ที่อุ่น เต้น มี thrill/ bruit) · รอยแดงตั้งแต่เกิด ไม่ยุบ ไม่เต้น = low-flow malformation ที่มีส่วน capillary และ venous · ไฟล์มีลูกศรจาก <b>\"no pulsatile mass\"</b> ชี้ไปที่ B ขีด B และแปะสไลด์ Haemangioma (90% involute) เทียบกับ Vascular malformation (never involute)",
   "wrong": {
-   "A": "Infantile hemangioma โตเร็วในปีแรกแล้วยุบ (~90%) · จะถูกถ้าก้อนแดงโผล่ 2 สัปดาห์หลังเกิด โตเร็ว 6 เดือน แล้วเริ่มซีดยุบ",
-   "C": "AVM เป็น high-flow: อุ่น เต้น คลำ thrill ได้ยิน bruit · จะถูกถ้าก้อนคลำได้การเต้นและ thrill",
-   "D": "Lymphatic malformation เป็นก้อนนิ่มใส ส่องไฟผ่าน (สีไม่แดง) · จะถูกถ้าก้อนนิ่มที่คอใส transillumination บวก",
-   "E": "Pyogenic granuloma เป็นก้อนแดงโตเร็วภายในสัปดาห์ เลือดออกง่าย เกิดภายหลัง · จะถูกถ้าก้อนแดงเลือดออกง่ายขึ้นมาใน 2 สัปดาห์หลังแผลถลอก"
+   "A": "Infantile hemangioma เป็น vascular tumor ที่มักปรากฏหลังเกิดไม่กี่สัปดาห์ โตเร็วในเดือนแรก ๆ แล้ว<b>ยุบเอง</b> ทำให้รอยโรคที่มีตั้งแต่เกิดและไม่ยุบที่ 3 ปีไม่เข้ากัน · รักษาด้วย propranolol เมื่อเสี่ยงต่อการทำงานหรือรูปลักษณ์ · จะถูกถ้าเป็นทารกหญิงคลอดก่อนกำหนด อายุ 6 สัปดาห์ ผิวปกติตอนคลอด แล้วมีก้อนแดงสดนูนเหมือนสตรอว์เบอร์รีที่หนังศีรษะโตเร็วในเวลา 2 สัปดาห์",
+   "C": "Arteriovenous malformation เป็น high-flow malformation มีตั้งแต่เกิดและไม่ยุบเหมือนกัน แต่ตรวจพบ<b>อุ่น เต้นตามชีพจร คลำได้ thrill ฟังได้ bruit</b> ซึ่งโจทย์ระบุว่าไม่เต้น · รักษาด้วย embolization แล้วตัดออก · จะถูกถ้าเป็นวัยรุ่นหญิง 14 ปีมีรอยแดงที่หูมาตั้งแต่เกิด ช่วงนี้โตเร็ว ผิวอุ่น คลำได้ thrill และมีแผลเลือดออก",
+   "D": "Lymphatic malformation เป็น low-flow malformation มีตั้งแต่เกิดและไม่ยุบเช่นกัน แต่ลักษณะเป็น<b>ก้อนนุ่มสีผิวปกติหรือฟ้าจาง ส่องไฟทะลุ (transillumination)</b> แบบ macrocystic หรือเป็นถุงน้ำใสเล็ก ๆ บนผิว ไม่ใช่รอยแดง · จะถูกถ้าเป็นทารกแรกเกิดมีก้อนนุ่มขนาดใหญ่ที่คอด้านข้าง ส่องไฟทะลุ ultrasound เป็นถุงน้ำหลายช่อง (cystic hygroma) รักษาด้วย sclerotherapy",
+   "E": "Pyogenic granuloma (lobular capillary hemangioma) เป็นก้อนแดงที่<b>เกิดภายหลัง</b> โตเร็วภายในไม่กี่สัปดาห์ ผิวเปื่อยยุ่ยเลือดออกง่าย มักหลังบาดเจ็บเล็กน้อย พบในเด็กโตหรือหญิงตั้งครรภ์ ไม่ได้มีตั้งแต่เกิด · จะถูกถ้าเป็นเด็ก 6 ขวบมีก้อนแดงเล็กที่นิ้วโผล่ขึ้นหลังโดนหนามตำ 3 สัปดาห์ เลือดออกง่ายเวลาเสียดสี"
   },
-  "trap": "ตอบ hemangioma เพราะเป็นก้อนแดงในเด็ก — ไม่ยุบตามเวลา = malformation",
+  "trap": "เห็นก้อนแดงในเด็กแล้วตอบ hemangioma ทันทีเพราะเป็น vascular lesion ที่พบบ่อยที่สุดในทารก · ต้องดูประวัติเวลา: มีตั้งแต่เกิด + โตตามตัว + ไม่ยุบ = malformation · แล้วแยก flow: ไม่เต้น ไม่อุ่น = low flow ไม่ใช่ AVM",
   "summary": [
-   "Hemangioma: โผล่หลังเกิดไม่นาน · โตเร็วปีแรก · ยุบ ~90%",
-   "Hemangioma รักษา: สังเกต ± propranolol/ ผ่าตัด (ตา ทางเดินหายใจ แผล)",
-   "Vascular malformation: มีตั้งแต่เกิด · โตตามตัว · ไม่ยุบ",
-   "Low-flow: capillary · venous · lymphatic → sclerotherapy/ laser/ ผ่าตัด",
-   "High-flow: AVM → embolization + ผ่าตัด",
-   "MRI/ Doppler แยก high vs low flow"
+   "ISSVA: vascular tumor (infantile hemangioma, congenital hemangioma, pyogenic granuloma, kaposiform hemangioendothelioma) กับ vascular malformation (capillary, venous, lymphatic, arteriovenous)",
+   "Infantile hemangioma: tumor ที่พบบ่อยสุดของทารก (ราว 4–5%) · ปรากฏในสัปดาห์แรก ๆ โตเร็วถึงราว 5 เดือน แล้วยุบช้า ๆ · GLUT-1 บวก",
+   "ข้อบ่งชี้รักษา hemangioma: บดบังตา/ ทางเดินหายใจ แผลแตก รูปลักษณ์ใบหน้า · propranolol 2–3 mg/kg/วัน (AAP 2019) เริ่มเร็วก่อน 5 เดือน",
+   "Congenital hemangioma (RICH, NICH) โตเต็มตั้งแต่เกิด GLUT-1 ลบ · RICH ยุบเร็วในขวบปีแรก · NICH ไม่ยุบ",
+   "Capillary malformation (port-wine stain): แดงแบน มีตั้งแต่เกิด เข้มและหนาขึ้นตามอายุ · ที่ใบหน้าแนว V1 → Sturge–Weber (ชัก ต้อหิน) · รักษา pulsed dye laser",
+   "Venous malformation: ก้อนนุ่มสีน้ำเงิน กดยุบ โตขึ้นเมื่อห้อยต่ำหรือเบ่ง มี phlebolith · รักษา compression, sclerotherapy, ผ่าตัด",
+   "AVM (high flow): อุ่น เต้น thrill bruit · Schobinger stage I–IV · โตเร็วช่วงวัยรุ่น/ ตั้งครรภ์ · embolization + ผ่าตัดตัดออก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'ยุบ = Hemangioma · ไม่ยุบ = Malformation (เต้น = AVM)'</b>",
-  "guide": "ISSVA Classification for Vascular Anomalies (2018); AAP Clinical Practice Guideline: Management of Infantile Hemangiomas (Pediatrics 2019;143:e20183475)",
+  "opinion": "เห็นด้วยกับคำตอบ B ตรงกับคีย์ในไฟล์ (ขีด B พร้อมลูกศรจาก no pulsatile mass) ความมั่นใจปานกลางถึงสูง — มีตั้งแต่เกิด โตตามตัว ไม่ยุบที่ 3 ปี และไม่เต้น เข้ากับ low-flow vascular malformation · โจทย์ต้นฉบับให้ดูรูปซึ่งเว็บแปลงเป็นคำบรรยาย จึงแยก capillary กับ venous จากรูปไม่ได้ แต่ช้อยอื่นตัดได้ชัด",
+  "mnemonic": "<b>'Hemangioma = มาทีหลัง โตเร็ว แล้วหายไป · Malformation = มาตั้งแต่เกิด โตตามตัว ไม่เคยหาย'</b>",
+  "guide": "ISSVA Classification of Vascular Anomalies (2018, issva.org); AAP Clinical Practice Guideline for the Management of Infantile Hemangiomas (Pediatrics 2019); Grabb and Smith's Plastic Surgery 8th ed. (2020) Vascular Anomalies",
   "variants": [
-   "ทารก 2 เดือน ก้อนแดงโตเร็วที่เปลือกตาบัง → infantile hemangioma → propranolol",
-   "เด็กก้อนแดงม่วงนิ่ม ยุบเมื่อกด โตตอนก้ม → venous malformation → sclerotherapy",
-   "ก้อนอุ่น เต้น มี thrill → AVM → embolization + ผ่าตัด"
+   "ทารก 2 เดือนมีก้อนแดงนูนที่เปลือกตาบนโตเร็วจนปิดตา → infantile hemangioma เสี่ยง amblyopia → propranolol ทันที",
+   "เด็ก 5 ขวบมีก้อนนุ่มสีน้ำเงินที่แก้ม โตขึ้นเวลาก้มหรือร้องไห้ X-ray เห็นจุดหินปูนกลม → venous malformation → sclerotherapy",
+   "ทารกมีรอยแดงแบนที่หน้าผากและเปลือกตาข้างเดียวตั้งแต่เกิด ต่อมามีชัก → Sturge–Weber syndrome ตรวจตาหาต้อหินและ MRI สมอง",
+   "ทำไมต้องถามว่าก้อนเต้นหรือไม่ → แยก high-flow AVM ที่ต้อง angiography/ embolization ออกจาก low-flow malformation ที่รักษาด้วย sclerotherapy หรือ laser"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 127 — ตัวพิมพ์: <b>31. ให้รูป ก้อนเนื้อแดงๆ เป็นตั้งแต่เกิดโตขึ้นเรื่อยๆ ตอนนี้ 3 ขวบเริ่มคงที่แล้ว ไม่หายเอง no pulsatile mass ถามว่าเป็นอะไร — A. hemangioma B. capillary-venous malformation C. arterio-venous mal formation D. lymphatic malformation E. pyogenic granuloma</b><br>ลายมือ: ลูกศรจาก \"no pulsatile mass\" ชี้ B · ขีด B<br>ไฮไลต์: \"ก้อนเนื้อแดงๆ เป็นตั้งแต่เกิดโตขึ้นเรื่อยๆ\" \"3 ขวบเริ่มคงที่แล้ว ไม่หายเอง no pulsatile mass\" · B (เหลือง)<br>รูปที่แปะ: ① สไลด์ Haemangioma — Present soon after birth · Rapid cellular proliferation over the first year of life · 90% involute over time · Treatment: Observe +/- medication or surgery + ภาพ ② สไลด์ Vascular malformation — Structural abnormalities formed during fetal development · Grow in proportion to the body · Never involute · High flow, low flow · Treatment: surgery, angiography and embolization + ภาพ capillary malformation/ venous malformation + ลายมือ<br>ที่ปรับในเว็บ: บรรยายภาพในโจทย์",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 127",

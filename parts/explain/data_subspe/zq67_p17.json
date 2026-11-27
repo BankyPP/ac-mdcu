@@ -1,29 +1,31 @@
 {
  "MDCU67|RoC|50": {
-  "interp": "ถาม<b>ข้อบ่งชี้ผ่าตัด</b>ใน lung abscess",
-  "why": "ข้อบ่งชี้ผ่าตัด: <b>ไม่หายหลังยาปฏิชีวนะที่เหมาะสม ~2 สัปดาห์</b> (หรือโพรงโตขึ้น/ &gt; 6 cm) · <b>massive hemoptysis</b> · สงสัยมะเร็ง → A ถูกตามคีย์ · ไอเป็นเลือดเล็กน้อย, abscess เล็กหลายจุดสองข้าง ใช้ยา · BPF ระยะแรกระบายด้วย ICD · ไฟล์ขีด A",
+  "interp": "ถาม<b>ข้อบ่งชี้ในการผ่าตัด lung abscess</b> โดยมีช้อยเป็นสถานการณ์ต่าง ๆ และช้อย E ถูกทุกข้อ — ต้องรู้ว่า lung abscess ส่วนใหญ่หายด้วยยา การผ่าตัดเก็บไว้เฉพาะเมื่อยาล้มเหลวหรือมีภาวะแทรกซ้อนรุนแรง",
+  "why": "Lung abscess ราว 80–90% <b>หายด้วยยาปฏิชีวนะ</b>ระยะยาวร่วมกับการระบายเสมหะตามธรรมชาติผ่านหลอดลม · ข้อบ่งชี้ทำหัตถการหรือผ่าตัดคือ <b>ไม่ตอบสนองต่อยา</b> — ยังมีไข้ เม็ดเลือดขาวสูง ก้อนไม่เล็กลงหลังให้ยาเหมาะสมราว 2 สัปดาห์ (บางตำราใช้ 4–6 สัปดาห์สำหรับโพรงที่ค้าง) · โพรงใหญ่ (มักอ้าง &gt; 6 cm) ที่ตอบสนองช้า · <b>ไอเป็นเลือดปริมาณมาก</b> (massive hemoptysis) · แตกเข้าเยื่อหุ้มปอดเป็น empyema/ pyopneumothorax หรือ bronchopleural fistula · และ<b>สงสัยมะเร็ง</b>ที่อุดหลอดลมอยู่เบื้องหลัง · ในผู้ป่วยที่ผ่าตัดเสี่ยงสูงใช้ percutaneous catheter drainage หรือ endoscopic drainage แทน · การผ่าตัดมาตรฐานคือ <b>lobectomy</b> (segmentectomy เมื่อโรคจำกัด) ระวังหนองไหลเข้าปอดข้างดีด้วย double-lumen tube · ไฟล์ขีด A (ไม่มีลายมือเพิ่มเติม)",
   "wrong": {
-   "B": "ไอเป็นเลือดเล็กน้อยครั้งคราวรักษาด้วยยา · จะถูกถ้าเป็น massive hemoptysis",
-   "C": "BPF/ แตกเข้าเยื่อหุ้มปอด ระยะแรกใส่ ICD · จะถูกถ้า BPF เรื้อรังไม่ปิดหลังระบายเต็มที่",
-   "D": "Abscess เล็กหลายจุดสองข้าง (septic emboli) ผ่าตัดไม่ได้ ใช้ยา · จะถูกถ้าคำถามถามกลุ่มที่รักษาด้วยยาอย่างเดียว",
-   "E": "ไม่ใช่ทุกข้อ · จะถูกถ้า B เป็น massive และ D เป็นก้อนเดียวขนาดใหญ่"
+   "B": "ไอเป็นเลือดเล็กน้อยเป็นครั้งคราวพบได้บ่อยใน lung abscess จากผนังโพรงที่อักเสบ หายได้เมื่อการติดเชื้อสงบ ไม่ใช่ข้อบ่งชี้ผ่าตัด ต่างจาก massive hemoptysis ที่คุกคามชีวิต · จะถูกถ้าเป็นชาย 50 ปี lung abscess ที่ไอเป็นเลือดสด 300 mL ใน 24 ชม. ซึ่งต้องป้องกันปอดข้างดี ทำ bronchial artery embolization และพิจารณา lobectomy",
+   "C": "Bronchopleural fistula เกิดเมื่อโพรงหนองแตกเข้าช่องเยื่อหุ้มปอดเป็น pyopneumothorax เป็นภาวะแทรกซ้อนที่ต้องทำหัตถการ (ใส่ ICD ระบายก่อน และบางรายต้องผ่าตัด) แต่การรักษาแรกคือระบาย ไม่ใช่ข้อบ่งชี้ผ่าตัดตัดปอดทันทีเสมอ · จะถูกถ้าเป็นผู้ป่วย lung abscess ที่หอบทันที CXR พบ hydropneumothorax มีลมรั่วต่อเนื่องหลังใส่ ICD หลายสัปดาห์ จนต้องผ่าตัดตัดปอดส่วนที่เป็นโรคและปิดรูรั่ว",
+   "D": "ฝีเล็กหลายจุดในปอดทั้งสองข้างของผู้ป่วยภูมิคุ้มกันบกพร่องมักเกิดจากเชื้อกระจายทางกระแสเลือด (septic emboli, เชื้อรา, Nocardia) รักษาด้วยยาตามเชื้อ การผ่าตัดเอาออกทำไม่ได้และไม่ช่วย · จะถูกถ้าเป็นผู้ป่วยที่มีฝีเดี่ยวขนาดใหญ่ไม่ตอบสนองต่อยา หรือ aspergilloma ที่ไอเป็นเลือดซ้ำ ซึ่งผ่าตัดตัดปอดเฉพาะส่วนได้",
+   "E": "ถูกทุกข้อไม่ได้ เพราะไอเป็นเลือดเล็กน้อยและฝีเล็กสองข้างในผู้ภูมิคุ้มกันต่ำไม่ใช่ข้อบ่งชี้ผ่าตัด · จะถูกถ้าช้อยทั้งหมดเป็นข้อบ่งชี้จริง เช่น ผู้ป่วยที่ล้มเหลวจากยา มี massive hemoptysis มี bronchopleural fistula ที่ไม่ปิด และสงสัยมะเร็งหลอดลมอุดตันอยู่หลังฝี"
   },
-  "trap": "ไอเป็นเลือดทุกระดับต้องผ่าตัด — ต้อง massive",
+  "trap": "เห็นคำว่า hemoptysis และ bronchopleural fistula แล้วคิดว่าทุกอย่างต้องผ่าตัด จึงเลือก E · ต้องแยก hemoptysis <b>เล็กน้อย</b> (พบบ่อย ไม่ต้องผ่าตัด) กับ massive และจำว่าฝีหลายจุดสองข้างจากกระแสเลือดรักษาด้วยยา",
   "summary": [
-   "ผ่าตัด: ไม่ดีขึ้นหลัง ATB 2 สัปดาห์ · &gt; 6 cm · โตขึ้น",
-   "Massive hemoptysis · สงสัยมะเร็ง",
-   "แตกเข้าเยื่อหุ้มปอด → ICD ก่อน",
-   "Multiple/ bilateral → ยา",
-   "ก่อนผ่าตัด: percutaneous/ endoscopic drainage",
-   "Lobectomy + double-lumen tube"
+   "Lung abscess หายด้วยยาราว 80–90% · ยาปฏิชีวนะครอบคลุม anaerobe นานหลายสัปดาห์ (มักจนภาพรังสีหายหรือเหลือรอยเล็กคงที่)",
+   "ข้อบ่งชี้ผ่าตัด/ หัตถการ: ล้มเหลวจากยา · โพรงใหญ่ &gt; 6 cm ตอบสนองช้า · massive hemoptysis · empyema/ bronchopleural fistula · สงสัยมะเร็ง",
+   "Massive hemoptysis: นอนตะแคงเอาข้างที่เลือดออกลง · แยกปอดด้วยการใส่ท่อเข้าหลอดลมข้างดีหรือ double-lumen tube · bronchial artery embolization · ผ่าตัด",
+   "ผู้ป่วยผ่าตัดเสี่ยงสูง: CT-guided percutaneous drainage หรือ endobronchial drainage แทน lobectomy",
+   "Bronchoscopy ในฝีที่ไม่มีปัจจัยเสี่ยงสำลัก ไม่มีฟัน หรือไม่ตอบสนอง: หามะเร็งหรือสิ่งแปลกปลอมอุดหลอดลม",
+   "ผ่าตัด: lobectomy เป็นหลัก · ใช้ double-lumen tube กันหนองไหลเข้าปอดข้างดีระหว่างดมยา",
+   "Septic pulmonary emboli: ก้อนหลายจุดบริเวณขอบปอดสองข้าง มีโพรง · พบใน IV drug use (tricuspid endocarditis, S. aureus) และ Lemierre syndrome"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'ผ่า abscess: ยาไม่ได้ผล · เลือดออกมาก · มะเร็ง'</b>",
-  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess",
+  "opinion": "เห็นด้วยกับคำตอบ A ตรงกับคีย์ในไฟล์ (ขีด A) ความมั่นใจปานกลาง — การล้มเหลวจากยาเป็นข้อบ่งชี้ผ่าตัดคลาสสิกที่ชัดที่สุด · ช้อย C bronchopleural fistula ก็เป็นข้อบ่งชี้ทำหัตถการได้จริง แต่ขั้นแรกคือระบาย จึงยอมรับ A เป็นคำตอบที่ดีที่สุด ส่วน E ผิดชัดเพราะมี B และ D",
+  "mnemonic": "<b>'Lung abscess ผ่าเมื่อ \"ยาไม่ไหว · เลือดออกมาก · แตกเข้า pleura · กลัวมะเร็ง\"'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) Lung (Infections); Shields' General Thoracic Surgery 8th ed. (2019)",
   "variants": [
-   "abscess ไม่ยุบหลัง ATB 3 สัปดาห์ → ผ่าตัด/ drainage",
-   "abscess + ไอเป็นเลือด 400 mL/ วัน → lobectomy/ embolization",
-   "ผู้ใช้ยาฉีด abscess หลายจุด → ATB + หา endocarditis"
+   "ผู้ป่วยติดสุรามี lung abscess 8 cm ได้ยาครบ 3 สัปดาห์ยังไข้สูง โพรงไม่เล็กลง อายุมากหลายโรค → CT-guided percutaneous catheter drainage",
+   "ชาย 65 ปีไม่มีปัจจัยเสี่ยงสำลัก มีโพรงในปอดขอบหนาไม่เรียบ น้ำหนักลด → bronchoscopy และตัดชิ้นเนื้อแยก cavitating squamous cell carcinoma",
+   "ผู้ใช้สารเสพติดทางหลอดเลือด ไข้ มีก้อนมีโพรงหลายจุดที่ขอบปอดทั้งสองข้าง → septic emboli จาก tricuspid endocarditis → เพาะเชื้อในเลือด echocardiography และยาฆ่าเชื้อ",
+   "ระหว่าง lobectomy ผ่าตัดฝีในปอด ต้องใช้ double-lumen endotracheal tube → แยกปอดกันหนองไหลไปปอดข้างดี"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 129 — ตัวพิมพ์: <b>50. Which is/are the indication(s) for surgery in lung abscess? — A. Failure to resolve after ATB 2 weeks B. Occasional hemoptysis C. Bronchopleural fistula D. Multiple small abscess in bilateral lung in immunocompromised host E. All of above</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"indication(s) for surgery in lung abscess\" · A (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 129",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU67|RoC|51": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>lung abscess</b>",
-  "why": "Lung abscess ส่วนใหญ่เกิดจาก<b>สำลัก</b> → ตำแหน่งพบบ่อย: <b>posterior segment ของ upper lobe และ superior segment ของ lower lobe ข้างขวา</b> → B ถูก · กลไกหลักไม่ใช่ทางเลือด · ไอเป็นเลือด/ เสมหะเหม็นพบบ่อย · เชื้อหลัก anaerobe · ไฟล์ขีด B",
+  "interp": "ถามข้อความที่<b>ถูก</b>เกี่ยวกับ lung abscess ช้อยครอบคลุมกลไกการเกิด ตำแหน่ง อาการ และเชื้อก่อโรค พร้อมช้อยถูกทุกข้อ — ต้องรู้ว่าส่วนใหญ่เกิดจากการสำลัก และตำแหน่งขึ้นกับท่าทางขณะสำลัก",
+  "why": "Lung abscess ส่วนใหญ่เป็น <b>primary abscess จากการสำลัก (aspiration)</b> สารคัดหลั่งจากช่องปากที่มีเชื้อ anaerobe มาก ในผู้ที่ระดับความรู้สึกตัวลดลง (สุรา ชัก ดมยา stroke) กลืนลำบาก หรือ<b>ฟันและเหงือกไม่ดี</b> · เพราะ<b>หลอดลมใหญ่ขวาสั้น กว้าง และตรงกว่าซ้าย</b> สิ่งที่สำลักจึงลงข้างขวาบ่อยกว่า และไหลตามแรงโน้มถ่วงไปส่วนที่อยู่ต่ำ: ขณะนอนหงายคือ <b>posterior segment ของ upper lobe</b> และ <b>superior segment ของ lower lobe</b> ขณะนั่งหรือยืนคือ basal segments ของ lower lobe · จึงพบมากที่สุดใน <b>dependent segments ของปอดขวา</b> · เชื้อมักเป็นแบบผสม anaerobe (Peptostreptococcus, Prevotella, Fusobacterium, Bacteroides) ร่วมกับ Streptococcus milleri group · อาการ: ไข้ ไอ <b>เสมหะเหม็นมาก</b> และไอเป็นเลือดพบบ่อย · CXR เห็นโพรงผนังหนามี air-fluid level · ไฟล์ขีด B (ไม่มีลายมือเพิ่มเติม)",
   "wrong": {
-   "A": "กลไกหลักคือ aspiration · จะถูกถ้าคำถามถาม septic emboli ใน IVDU",
-   "C": "ไอเป็นเลือดและเสมหะเหม็นพบบ่อย · จะถูกถ้าข้อความว่า common",
-   "D": "เชื้อหลักคือ anaerobe · จะถูกถ้าคำถามถาม abscess หลังไข้หวัดใหญ่/ IVDU",
-   "E": "มีเพียง B ถูก · จะถูกถ้าทุกข้อเป็นจริง"
+   "A": "การกระจายทางกระแสเลือดทำให้เกิดฝีในปอดได้ แต่ไม่ใช่กลไกที่พบบ่อย มักเห็นเป็นก้อนหลายจุดที่ขอบปอดทั้งสองข้าง จาก tricuspid endocarditis หรือหลอดเลือดดำอักเสบติดเชื้อ ส่วนใหญ่ของ lung abscess มาจากการสำลัก · จะถูกถ้าเป็นชาย 28 ปีฉีดสารเสพติดเข้าหลอดเลือด ไข้สูง มีเสียงฟู่ที่ tricuspid และ CT พบก้อนมีโพรงหลายจุดในปอดทั้งสองข้าง",
+   "C": "ข้อความนี้กลับกับความจริง: เสมหะเหม็นเน่า (putrid) จาก anaerobe และไอเป็นเลือดเป็นอาการที่<b>พบบ่อย</b>ของ lung abscess เพราะผนังโพรงอักเสบมีหลอดเลือดมาก · จะถูกถ้าเป็นผู้ป่วยปอดอักเสบจาก Mycoplasma ในวัยรุ่น ไอแห้ง ไม่มีเสมหะ ไม่มีเลือด CXR เป็น interstitial infiltrate ไม่มีโพรง",
+   "D": "Staphylococcus aureus ทำให้เกิดฝีในปอดได้ โดยเฉพาะหลังไข้หวัดใหญ่ ในเด็ก (pneumatocele) และจากกระแสเลือด แต่ไม่ใช่เชื้อที่พบตามปกติ เชื้อหลักคือ anaerobe ผสมจากช่องปาก · จะถูกถ้าเป็นชาย 30 ปีมีปอดอักเสบรุนแรงตามหลังไข้หวัดใหญ่ 1 สัปดาห์ ไอเป็นเลือด CT พบโพรงหลายจุด เพาะเชื้อได้ MRSA",
+   "E": "ถูกทุกข้อไม่ได้ เพราะ A, C และ D ผิด เหลือ B เท่านั้นที่ถูก · จะถูกถ้าข้อความทุกข้อถูก เช่น ผู้ป่วยติดสุราที่สำลักขณะเมา เกิดฝีที่ superior segment ของ right lower lobe เสมหะเหม็น ไอเป็นเลือด และเพาะเชื้อได้ anaerobe ผสม"
   },
-  "trap": "คิดว่า Staphylococcus เป็นเชื้อหลัก",
+  "trap": "ท่องว่าเชื้อ Staphylococcus ทำให้เกิดโพรงในปอด หรือคิดว่าฝีต้องมาจากกระแสเลือด · กลไกหลักคือ<b>สำลัก</b> จึงต้องคิดตามกายวิภาคหลอดลม (ขวาตรงกว่า) และแรงโน้มถ่วง (ส่วนที่อยู่ต่ำขณะสำลัก) เชื้อหลักคือ anaerobe ผสม",
   "summary": [
-   "Aspiration → anaerobe/ polymicrobial",
-   "RLL superior · RUL posterior",
-   "เสมหะเหม็น · ไอเป็นเลือด",
-   "CXR: โพรง + air-fluid level",
-   "ATB 4–6 สัปดาห์ + postural drainage",
-   "ไม่ดีขึ้น → drainage/ ผ่าตัด"
+   "ปัจจัยเสี่ยงสำลัก: สุรา ชัก ดมยา stroke dysphagia ใส่ NG · ฟันผุ/ เหงือกอักเสบเพิ่มปริมาณ anaerobe · คนไม่มีฟันที่เกิดฝีต้องสงสัยมะเร็ง",
+   "ตำแหน่ง: นอนหงาย → posterior segment RUL และ superior segment RLL · นั่ง/ ยืน → basal segments ของ lower lobe · ขวาบ่อยกว่าซ้าย",
+   "เชื้อ: anaerobe ผสม (Peptostreptococcus, Prevotella, Fusobacterium, Bacteroides) + Streptococcus anginosus group · Klebsiella ในผู้ติดสุรา/ เบาหวาน",
+   "Secondary lung abscess: หลอดลมอุดจากมะเร็งหรือสิ่งแปลกปลอม · septic emboli · ติดเชื้อลามจากใต้กะบังลม",
+   "อาการ: ไข้ ไอ เสมหะเหม็นมาก ไอเป็นเลือด น้ำหนักลด มักค่อยเป็นหลายสัปดาห์ · CXR โพรงผนังหนามี air-fluid level",
+   "Lung abscess vs empyema ที่มี air-fluid level บน CT: abscess กลม ทำมุมแหลมกับผนังอก ระดับน้ำเท่ากันทุกท่า · empyema รูปเลนส์ ทำมุมป้าน มี split pleura sign",
+   "ยาหลัก: ampicillin-sulbactam หรือ clindamycin หรือ amoxicillin-clavulanate · metronidazole เดี่ยวไม่พอเพราะไม่ครอบคลุม Streptococcus ในช่องปาก"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'สำลักนอนหงาย → ขวา (superior lower · posterior upper)'</b>",
-  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess",
+  "opinion": "เห็นด้วยกับคำตอบ B ตรงกับคีย์ในไฟล์ (ขีด B) ความมั่นใจสูง — lung abscess ส่วนใหญ่เกิดจากการสำลักและพบมากที่ dependent segments ของปอดขวา ส่วนช้อยอื่นผิดทั้งเรื่องกลไก อาการ และเชื้อหลัก",
+  "mnemonic": "<b>'Lung abscess = \"สำลัก ลงขวา ลงต่ำ เหม็น anaerobe\"'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) Lung (Infections); Harrison's Principles of Internal Medicine 21st ed. (2022) Lung Abscess",
   "variants": [
-   "ผู้ติดสุรา ไข้ เสมหะเหม็น โพรง RLL → lung abscess",
-   "ผู้ใช้ยาฉีด abscess หลายจุด → septic emboli",
-   "สำลักขณะยืน → basal segments"
+   "ชายติดสุราสำลักขณะเมาแล้วนอนหงาย 2 สัปดาห์ต่อมามีไข้ เสมหะเหม็น → โพรงที่ superior segment ของ right lower lobe",
+   "หญิง 70 ปีไม่มีฟัน มีโพรงในปอดขวาบน ไม่มีไข้ น้ำหนักลด → สงสัย cavitating carcinoma ทำ bronchoscopy",
+   "ผู้ป่วยลิ้นหัวใจ tricuspid ติดเชื้อมีก้อนในปอดสองข้างหลายจุด → septic pulmonary emboli ไม่ใช่ aspiration abscess",
+   "วัยรุ่นเจ็บคอ 1 สัปดาห์ต่อมาคอบวมกดเจ็บตามแนว sternocleidomastoid และมีโพรงในปอดหลายจุด → Lemierre syndrome (Fusobacterium necrophorum)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 129 — ตัวพิมพ์: <b>51. What is true about lung abscess — A. Hematologic seeding is a common mechanism B. Posterior upper lobe and superior lower lobe of right lung are the most common site C. Hemoptysis and foul smell sputum are uncommon D. Staphylococcus is a common pathogen E. All of the above</b><br>ลายมือ: ขีด B<br>ไฮไลต์: \"true about lung abscess\" · B (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 129",
@@ -65,31 +69,68 @@
    "kp67c_51"
   ]
  },
- "MDCU67|RoC|52": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>chronic constrictive pericarditis</b>",
-  "why": "<b>CT/ MRI เห็นเยื่อหุ้มหัวใจหนา (&gt; 3–4 mm) ± หินปูน</b> → D ถูก · ข้ออื่นผิด: อาการพบบ่อยสุดคือเหนื่อย/ บวม (ท้องมานจาก venous congestion พบได้) · pulsus paradoxus เด่นใน tamponade · สาเหตุพบบ่อยสุดคือ idiopathic/ viral (ไทย: TB) · ไฟล์ขีด D ลายมือ A <b>\"ถ้า portal HTN (venous return↓ → ท้อง)\"</b> · C ขีดฆ่า \"heart\" + <b>\"idiopathic\"</b>",
+ "MDCU67|RoC|58": {
+  "interp": "ผู้ป่วย <b>lung abscess ที่ไม่มีภาวะแทรกซ้อน</b> ได้ยาปฏิชีวนะแล้ว — ถามสิ่งที่ควรทำ<b>เพิ่มตั้งแต่แรก</b> ซึ่งต้องเป็นการช่วยให้หนองในโพรงระบายออกทางหลอดลมเองแบบไม่รุกล้ำ",
+  "why": "โพรงหนองในปอดส่วนใหญ่<b>ติดต่อกับหลอดลม</b>อยู่แล้ว (เห็นได้จาก air-fluid level) การรักษาจึงอาศัยยาปฏิชีวนะร่วมกับ<b>การระบายหนองผ่านหลอดลมตามธรรมชาติ</b> · <b>postural drainage</b> คือจัดท่าให้ส่วนของปอดที่มีโพรงอยู่สูงกว่าหลอดลมหลัก (เช่น โพรงที่ superior segment ของ lower lobe ให้นอนคว่ำ) ร่วมกับ chest physiotherapy เคาะปอด และกระตุ้นให้ไอ เพื่อให้หนองไหลออกตามแรงโน้มถ่วง ทำให้ไข้ลงเร็วขึ้นและโพรงยุบ · ต้องระวังในโพรงใหญ่ที่หนองมากเพราะอาจไหลท่วมเข้าปอดส่วนอื่นหรือปอดข้างดี · หลักการคือหลีกเลี่ยงการรุกล้ำผ่านช่องเยื่อหุ้มปอดในฝีที่ไม่มีภาวะแทรกซ้อน เพราะจะทำให้ปนเปื้อน pleura เกิด empyema หรือ bronchopleural fistula · หัตถการเจาะระบายหรือผ่าตัดเก็บไว้เมื่อไม่ตอบสนอง · ไฟล์ขีด A และไฮไลต์ <b>\"lung abscess ที่ไม่มีภาวะแทรกซ้อน\"</b> กับ <b>\"นอกจากการให้ยาปฏิชีวนะ\"</b>",
   "wrong": {
-   "A": "อาการพบบ่อยสุดคือเหนื่อย/ อ่อนเพลีย/ บวม ท้องมานพบได้ (ลายมือ) · จะถูกถ้าคำถามถามอาการที่ทำให้สับสนกับโรคตับ",
-   "B": "Pulsus paradoxus เด่นใน tamponade · จะถูกถ้าคำถามถาม cardiac tamponade",
-   "C": "สาเหตุพบบ่อยสุดคือ idiopathic/ viral (ลายมือแก้) · จะถูกถ้าคำถามถามสาเหตุในประเทศกำลังพัฒนา (TB)",
-   "E": "มีเพียง D ถูก · จะถูกถ้าทุกข้อเป็นจริง"
+   "B": "Intercostal chest drain ระบายช่อง<b>เยื่อหุ้มปอด</b> ไม่ใช่โพรงในเนื้อปอด ใช้เมื่อมี empyema, pneumothorax หรือ pyopneumothorax ถ้าแทงเข้าฝีในปอดจะทำให้เกิด bronchopleural fistula · จะถูกถ้าเป็นผู้ป่วยปอดอักเสบที่มีน้ำในเยื่อหุ้มปอด เจาะได้หนองข้น pH 6.9 ซึ่งเป็น empyema ต้องใส่ ICD",
+   "C": "Lobectomy ใช้เมื่อยาล้มเหลว มีไอเป็นเลือดปริมาณมาก ฝีใหญ่มากที่ไม่ยุบ หรือสงสัยมะเร็ง ไม่ใช่การรักษาเพิ่มตั้งแต่แรกของฝีไม่มีภาวะแทรกซ้อนที่ส่วนใหญ่หายด้วยยา · จะถูกถ้าเป็นผู้ป่วยฝีในปอดที่ right lower lobe ได้ยาครบ 6 สัปดาห์แล้วยังมีโพรงใหญ่ ไข้เป็นพัก ๆ และไอเป็นเลือดซ้ำ",
+   "D": "การเจาะดูดด้วยเข็มผ่านผนังทรวงอกใช้ในฝีที่อยู่ชิดผนังอกเพื่อเก็บหนองเพาะเชื้อในผู้ภูมิคุ้มกันต่ำ หรือระบายเมื่อไม่ตอบสนองต่อยา เสี่ยง pneumothorax และ empyema จึงไม่ทำเป็นขั้นแรก · จะถูกถ้าเป็นผู้ป่วยปลูกถ่ายไขกระดูกที่มีฝีในปอดชิดผนังอก ไม่ตอบสนองต่อยา broad spectrum และต้องการเชื้อก่อโรคเพื่อเลือกยา",
+   "E": "Bronchial stent ใช้ค้ำหลอดลมใหญ่ที่ตีบจากก้อนมะเร็งกดหรือโตเข้ารูหลอดลม (malignant central airway obstruction) ไม่ใช่การรักษาฝีในปอด · จะถูกถ้าเป็นผู้ป่วยมะเร็งปอดระยะลุกลามที่ก้อนกดหลอดลมใหญ่ขวาจนปอดแฟบ หอบมาก และต้องการเปิดทางเดินหายใจแบบประคับประคอง"
   },
-  "trap": "สับสน constriction กับ tamponade",
+  "trap": "เห็นคำว่าฝีแล้วนึกถึงหลักศัลยกรรมว่าฝีต้องระบายด้วยท่อหรือเข็ม จึงเลือก B หรือ D · ฝีในปอดระบายผ่านหลอดลมได้เอง การแทงผ่านช่องเยื่อหุ้มปอดเสี่ยงทำให้หนองปนเปื้อน pleura ขั้นแรกจึงเป็น postural drainage ร่วมกับยา",
   "summary": [
-   "Constrictive: เยื่อหุ้มหนาแข็ง → diastolic filling บกพร่อง",
-   "Kussmaul sign · pericardial knock",
-   "CT/ MRI: หนา ± หินปูน",
-   "สาเหตุ: idiopathic/ viral · หลังผ่าตัดหัวใจ · รังสี · TB",
-   "รักษา: pericardiectomy",
-   "Tamponade: Beck triad + pulsus paradoxus"
+   "Lung abscess ไม่มีภาวะแทรกซ้อน: ยาปฏิชีวนะ + postural drainage + chest physiotherapy + ดูแลช่องปากและฟัน",
+   "จัดท่า postural drainage ตามตำแหน่ง: superior segment lower lobe → นอนคว่ำ · posterior segment upper lobe → นอนคว่ำเอียงตัว · basal segments → นอนหัวต่ำ",
+   "ระยะเวลายา: มักอย่างน้อย 3–6 สัปดาห์ หรือจนโพรงหายหรือเหลือรอยเล็กคงที่ · เปลี่ยนเป็นยากินเมื่อไข้ลงและกินได้",
+   "ระวังโพรงใหญ่หนองมาก: การระบายฉับพลันทำให้หนองท่วมปอดส่วนอื่น · ไอเป็นเลือดมากควรงดเคาะปอด",
+   "Percutaneous catheter drainage: ใช้เมื่อไม่ตอบสนองและผ่าตัดเสี่ยงสูง โดยเฉพาะโพรงที่ชิดผนังอกซึ่ง pleura ติดกันแล้ว",
+   "ICD ใช้กับพยาธิในช่องเยื่อหุ้มปอด (empyema, pneumothorax, pyopneumothorax) ไม่ใช่ระบายเนื้อปอด",
+   "ติดตาม CXR/ CT จนโพรงหาย · โพรงที่ไม่ยุบหรือผนังหนาไม่เรียบ → bronchoscopy หามะเร็ง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Constrictive = เปลือกแข็ง (CT เห็นหนา)'</b>",
-  "guide": "ESC Guidelines for the Diagnosis and Management of Pericardial Diseases (Eur Heart J 2015;36:2921)",
+  "opinion": "เห็นด้วยกับคำตอบ A ตรงกับคีย์ในไฟล์ (ขีด A) ความมั่นใจปานกลางถึงสูง — postural drainage ร่วมกับยาเป็นการรักษาคลาสสิกของฝีในปอดที่ไม่มีภาวะแทรกซ้อน (หลักฐานเชิงทดลองมีน้อยแต่ตำราศัลยศาสตร์ยังแนะนำ) ช้อยอื่นเป็นหัตถการสำหรับรายล้มเหลวหรือภาวะอื่น",
+  "mnemonic": "<b>'ฝีในปอด: \"ยา + ท่า (postural)\" ก่อน · \"เข็ม/ ท่อ/ มีด\" เมื่อล้มเหลว'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) Lung (Infections); Schwartz's Principles of Surgery 11th ed. (2019) Chest Wall, Lung, Mediastinum, and Pleura",
   "variants": [
-   "เคยเป็น TB ท้องมาน JVP สูง Kussmaul → constrictive → pericardiectomy",
-   "หลังอุบัติเหตุ ความดันต่ำ JVP สูง เสียงหัวใจเบา → tamponade",
-   "หลังฉายแสงทรวงอก บวม ท้องมาน → constrictive"
+   "ผู้ป่วยฝีที่ superior segment right lower lobe ได้ยาแล้ว → จัดนอนคว่ำทำ postural drainage วันละหลายครั้งร่วมกับเคาะปอด",
+   "หลังให้ยา 10 วัน ผู้ป่วยฝีในปอดหอบทันที CXR พบ hydropneumothorax ข้างเดียวกัน → ฝีแตกเข้า pleura → ใส่ ICD",
+   "ผู้ป่วยฝีในปอดไอเป็นเลือดสดปริมาณมาก → งด postural drainage และเคาะปอด นอนตะแคงข้างที่เป็นลง เตรียม bronchial artery embolization",
+   "ทำไมไม่ใส่ ICD เข้าไปในฝีในปอด → ท่อผ่านช่องเยื่อหุ้มปอดที่ยังปกติ ทำให้หนองปนเปื้อน pleura เกิด empyema และ bronchopleural fistula"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 130 — ตัวพิมพ์: <b>58. ข้อใดเป็นสิ่งที่ควรทำเพิ่มเติมเพื่อรักษาผู้ป่วย lung abscess ที่ไม่มีภาวะแทรกซ้อน ในระยะแรก นอกจากการให้ยาปฏิชีวนะ — A. Postural drainage &amp; physiotherapy B. ICD C. Lobectomy D. Aspiration</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"สิ่งที่ควรทำเพิ่มเติม\" \"lung abscess ที่ไม่มีภาวะแทรกซ้อน\" \"นอกจากการให้ยาปฏิชีวนะ\" · A (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Bronchial stent)",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 130",
+  "kimg": [
+   "fsk_p130",
+   "kp67c_58"
+  ]
+ },
+ "MDCU67|RoC|52": {
+  "interp": "ถามข้อความที่<b>ถูก</b>เกี่ยวกับ <b>chronic constrictive pericarditis</b> ช้อยครอบคลุมอาการหลัก สิ่งตรวจพบ สาเหตุ และการตรวจทางภาพ — ต้องรู้ทั้งพยาธิสรีระและว่าสาเหตุใดพบบ่อยในบริบทใด",
+  "why": "Constrictive pericarditis คือเยื่อหุ้มหัวใจ<b>หนาตัว แข็ง (มักมีหินปูน)</b> ห่อหัวใจไว้จนหัวใจคลายตัวรับเลือดได้จำกัดในช่วงกลางถึงท้าย diastole · ทำให้ความดันใน 4 ห้องช่วง diastole สูงเท่ากัน และเกิด <b>ventricular interdependence</b> · อาการเด่นเป็น<b>หัวใจซีกขวาล้มเหลว</b>: JVP สูงมี y descent ลึก · <b>Kussmaul sign</b> (JVP สูงขึ้นตอนหายใจเข้า) · pericardial knock ต้น diastole · ตับโต ท้องมาน ขาบวม · ร่วมกับเหนื่อยง่ายอ่อนเพลีย · การวินิจฉัย: <b>CT หรือ cardiac MRI เห็นเยื่อหุ้มหัวใจหนา (&gt; 3–4 mm) ± หินปูน</b> (CT ดีที่สุดในการดูหินปูน) · echocardiography เห็น septal bounce และการไหลผ่าน mitral แปรผันตามการหายใจ &gt; 25% · cardiac catheterization เห็น dip-and-plateau (square root sign) · การรักษาที่หายขาดคือ <b>pericardiectomy</b> · ไฟล์ขีด D ลายมือที่ C ขีดฆ่า \"heart\" แล้วเขียน <b>\"idiopathic\"</b> และที่ A เขียน \"ถ้า portal HTN (venous return↓ → ท้อง)\"",
+  "wrong": {
+   "A": "ท้องมานและท้องโตพบได้เด่นและบางครั้งมากกว่าขาบวม (ascites precox) จนถูกวินิจฉัยผิดเป็นตับแข็ง แต่อาการที่พบบ่อยที่สุดคือเหนื่อยง่าย อ่อนเพลีย และบวม · จะถูกถ้าเป็นชาย 50 ปีตับแข็งจากสุรามี portal hypertension ม้ามโต เส้นเลือดขอดหน้าท้อง อาการหลักคือท้องโตจากน้ำในช่องท้อง (SAAG ≥ 1.1)",
+   "B": "Pulsus paradoxus (ความดัน systolic ลดลง &gt; 10 mmHg ตอนหายใจเข้า) เป็นลักษณะเด่นของ cardiac tamponade พบใน constrictive pericarditis เพียงส่วนน้อย และไม่ได้พบมากขึ้นเมื่อมี AF (จังหวะไม่สม่ำเสมอทำให้ประเมินยาก) · จะถูกถ้าเป็นผู้ป่วยมะเร็งปอดมีน้ำในเยื่อหุ้มหัวใจปริมาณมาก ความดันต่ำ JVP สูง เสียงหัวใจเบา (Beck triad) และความดันลดลงชัดเมื่อหายใจเข้า",
+   "C": "ผ่าตัดหัวใจมาก่อนเป็นสาเหตุสำคัญในประเทศพัฒนาแล้ว แต่สาเหตุที่พบบ่อยที่สุดคือ<b>idiopathic/ viral</b> (ลายมือแก้เป็น idiopathic) ตามด้วยหลังผ่าตัดหัวใจและหลังฉายรังสี ส่วนในประเทศกำลังพัฒนารวมถึงไทย <b>วัณโรค</b>เป็นสาเหตุหลัก · จะถูกถ้าเป็นชาย 65 ปีหลังทำ CABG 2 ปี เริ่มเหนื่อย ขาบวม ท้องมาน JVP สูงมี Kussmaul sign และ CT พบเยื่อหุ้มหัวใจหนา",
+   "E": "ถูกทุกข้อไม่ได้ เพราะ A ไม่ใช่อาการที่พบบ่อยที่สุด B ผิดเรื่อง pulsus paradoxus และ C ผิดเรื่องสาเหตุอันดับหนึ่ง เหลือ D ข้อเดียวที่ถูก · จะถูกถ้าข้อความทุกข้อเป็นจริง เช่น ผู้ป่วยที่ทุกช้อยบรรยายลักษณะของ constrictive pericarditis ได้ถูกต้อง ทั้ง Kussmaul sign, dip-and-plateau และเยื่อหุ้มหัวใจหนาบน CT"
+  },
+  "trap": "สับสน constrictive pericarditis กับ cardiac tamponade จึงเลือก pulsus paradoxus · หรือท่องว่าหลังผ่าตัดหัวใจเป็นสาเหตุหลัก · ลักษณะของ constriction คือ Kussmaul sign, pericardial knock, y descent ลึก และภาพเยื่อหุ้มหัวใจหนา ส่วน tamponade คือ pulsus paradoxus และ y descent หายไป",
+  "summary": [
+   "สาเหตุ: idiopathic/ viral บ่อยสุดในประเทศพัฒนาแล้ว · หลังผ่าตัดหัวใจ · หลังฉายรังสีทรวงอก · connective tissue disease · ประเทศกำลังพัฒนา (รวมไทย) วัณโรคเป็นสาเหตุสำคัญ",
+   "อาการ: เหนื่อยง่าย อ่อนเพลีย ขาบวม ท้องมาน ตับโต · JVP สูงมี y descent ลึก (Friedreich) · Kussmaul sign · pericardial knock",
+   "Constriction vs tamponade: constriction มี Kussmaul sign, y descent ลึก, knock · tamponade มี pulsus paradoxus, y descent หาย, Beck triad",
+   "ภาพ: CT/ MRI เยื่อหุ้มหัวใจหนา &gt; 3–4 mm ± หินปูน (แต่ราว 1 ใน 5 หนาไม่ชัดก็ยังเป็นได้) · MRI เห็นการอักเสบที่อาจหายด้วยยา",
+   "Echo/ cath: septal bounce · mitral inflow แปรผันตามหายใจ &gt; 25% · ความดัน diastole ทุกห้องต่างกัน &lt; 5 mmHg · dip-and-plateau · discordance ของ LV/ RV systolic pressure",
+   "แยก restrictive cardiomyopathy: กล้ามเนื้อหัวใจผิดปกติเอง (amyloid) · tissue Doppler e' ลดลง · BNP สูงกว่ามาก · ไม่มี ventricular interdependence",
+   "รักษา: transient constriction ที่ยังอักเสบลองยาต้านการอักเสบ 2–3 เดือน · chronic → radical pericardiectomy (phrenic ถึง phrenic) · วัณโรคให้ยาต้านวัณโรคร่วม"
+  ],
+  "opinion": "เห็นด้วยกับคำตอบ D ตรงกับคีย์ในไฟล์ (ขีด D) ความมั่นใจสูง — CT เห็นเยื่อหุ้มหัวใจหนาเป็นหลักฐานที่ใช้วินิจฉัย ส่วนช้อยอื่นผิดทั้งเรื่องอาการหลัก pulsus paradoxus และสาเหตุอันดับหนึ่ง (ลายมือในไฟล์แก้ C เป็น idiopathic) · ในบริบทไทยต้องนึกถึงวัณโรคเสมอ",
+  "mnemonic": "<b>'Constriction = \"Kussmaul + Knock + เยื่อหุ้มหนาบน CT\" · Tamponade = \"Paradoxus + Beck\"'</b>",
+  "guide": "ESC Guidelines for the Diagnosis and Management of Pericardial Diseases (Eur Heart J 2015); Sabiston Textbook of Surgery 21st ed. (2022) Pericardium",
+  "variants": [
+   "ชาย 40 ปีเคยเป็นวัณโรคปอด ท้องมาน ขาบวม JVP สูงขึ้นตอนหายใจเข้า CXR เห็นหินปูนรอบหัวใจ → tuberculous constrictive pericarditis → ยาต้านวัณโรค + pericardiectomy",
+   "หญิงหลังผ่าตัดหัวใจ 3 สัปดาห์มีอาการ constriction CRP สูง MRI เยื่อหุ้มหัวใจอักเสบ → transient constriction ลอง NSAID + colchicine ก่อนผ่าตัด",
+   "ผู้ป่วยหัวใจซีกขวาล้มเหลว echo มี septal bounce และ tissue Doppler e' ปกติ BNP ไม่สูงมาก → constrictive pericarditis มากกว่า restrictive cardiomyopathy",
+   "ทำไม Kussmaul sign เกิดใน constriction → หายใจเข้าเลือดกลับหัวใจขวามากขึ้น แต่หัวใจที่ถูกเยื่อแข็งรัดขยายรับไม่ได้ ความดันในหลอดเลือดดำคอจึงสูงขึ้นแทนที่จะลดลง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 129 — ตัวพิมพ์: <b>52. Which is/are true regarding to chronic constrictive pericarditis? — A. Abdominal distention is the most common symptoms B. Pulsus paradoxus is more common in the setting of atrial fibrillation C. The most common cause of chronic constrictive pericarditis is previous heart surgery D. CT scan demonstrates thickened pericardium E. All of above</b><br>ลายมือ: A \"ถ้า portal HTN (venous return↓ → ท้อง)\" · C ขีดฆ่า \"heart\" + \"idiopathic\" · ขีด D<br>ไฮไลต์: \"true regarding to chronic constrictive pericarditis\" · D (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 129",
@@ -99,30 +140,32 @@
   ]
  },
  "MDCU67|RoC|53": {
-  "interp": "ถามข้อที่<b>ไม่ใช่</b>เกณฑ์ของ <b>empyema thoracis</b>",
-  "why": "เกณฑ์: Gram stain/ culture บวก · LDH &gt; 1,000 · glucose &lt; 40 · pH &lt; 7 · WBC &gt; <b>15,000</b> → WBC &gt; 10,000 ไม่ใช่เกณฑ์ (B) · ไฟล์ขีด B แก้ 10 → <b>\"15\"</b> และ ✓ ที่ A, C, D, E",
+  "interp": "ถามข้อที่<b>ไม่ใช่</b>เกณฑ์ของ <b>empyema thoracis</b> (หรือน้ำในเยื่อหุ้มปอดจากการติดเชื้อที่ต้องระบาย) — ต้องรู้ค่าจากการเจาะน้ำในช่องเยื่อหุ้มปอดที่บ่งว่าเป็นหนองหรือ complicated parapneumonic effusion",
+  "why": "น้ำในเยื่อหุ้มปอดจากปอดอักเสบ (parapneumonic effusion) แบ่งเป็น 3 ระยะ: <b>exudative</b> (ใส ไหลอิสระ) → <b>fibrinopurulent</b> (เชื้อเข้าช่อง pleura มี fibrin แบ่งเป็นช่อง) → <b>organizing</b> (เกิดเปลือกหนา peel รัดปอด) · ข้อบ่งชี้ว่าเป็น empyema หรือ complicated effusion ที่<b>ต้องใส่สายระบาย</b>: เจาะได้<b>หนองจริง</b> · <b>Gram stain หรือเพาะเชื้อขึ้น</b> · <b>pH &lt; 7.20</b> (ตำราเก่าใช้ &lt; 7.0) · <b>glucose &lt; 40–60 mg/dL</b> · <b>LDH &gt; 1,000 IU/L</b> · ซึ่งสะท้อนการที่แบคทีเรียและเม็ดเลือดขาวใช้กลูโคสและสร้างกรด · ส่วน<b>จำนวนเม็ดเลือดขาวในน้ำ</b>ไม่ใช่เกณฑ์หลักในแนวทางปัจจุบัน และค่า 10,000/µL ก็ต่ำเกินที่จะบอกว่าเป็นหนอง (หนองจริงมักมีเม็ดเลือดขาวสูงมาก มักเกิน 50,000/µL) · ไฟล์ขีด B และ<b>แก้ \"10\" เป็น \"15\"</b> (คือ 15,000) พร้อมติ๊กถูก A C D E",
   "wrong": {
-   "A": "เป็นเกณฑ์ (ลายมือ ✓) · จะถูกถ้าคำถามถามสิ่งที่ไม่จำเพาะ",
-   "C": "เป็นเกณฑ์ (ลายมือ ✓) · จะถูกถ้าข้อความเป็น LDH &gt; 200",
-   "D": "เป็นเกณฑ์ (ลายมือ ✓) · จะถูกถ้าข้อความเป็น glucose &gt; 60",
-   "E": "เป็นเกณฑ์ (ลายมือ ✓) · จะถูกถ้าข้อความเป็น pH &gt; 7.3"
+   "A": "ข้อความถูก: Gram stain หรือเพาะเชื้อจากน้ำในเยื่อหุ้มปอดขึ้นแบคทีเรีย แสดงว่าเชื้อเข้าช่อง pleura แล้ว ถือเป็น complicated effusion/ empyema ต้องใส่สายระบายร่วมกับยา (ลายมือติ๊กถูก) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเกณฑ์ empyema เช่น ชาย 60 ปีปอดอักเสบ เจาะน้ำเยื่อหุ้มปอดย้อม Gram พบ gram-positive cocci เป็นสาย แม้น้ำยังไม่ขุ่น",
+   "C": "ข้อความถูก: LDH &gt; 1,000 IU/L ในน้ำเยื่อหุ้มปอดสะท้อนการอักเสบและเซลล์ตายจำนวนมาก เป็นหนึ่งในเกณฑ์ของ complicated parapneumonic effusion (ลายมือติ๊กถูก) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเกณฑ์ empyema เช่น หญิง 55 ปีปอดอักเสบไข้ไม่ลง เจาะน้ำเยื่อหุ้มปอดได้ LDH 2,400 IU/L ร่วมกับน้ำเริ่มแบ่งเป็นช่องใน ultrasound",
+   "D": "ข้อความถูก: glucose &lt; 40 mg/dL ในน้ำเยื่อหุ้มปอดเกิดจากแบคทีเรียและเม็ดเลือดขาวใช้กลูโคส เป็นเกณฑ์ที่บ่งว่าต้องระบาย (ลายมือติ๊กถูก) · glucose ต่ำยังพบใน rheumatoid effusion, วัณโรค และมะเร็ง · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเกณฑ์ empyema เช่น ผู้ป่วยเบาหวานปอดอักเสบ น้ำเยื่อหุ้มปอด glucose 25 mg/dL ขณะ glucose ในเลือด 180 mg/dL",
+   "E": "ข้อความถูก: pH ต่ำ (ตำราเก่า &lt; 7.0 ปัจจุบันใช้ &lt; 7.20) เป็นตัวบ่งชี้ที่ไวที่สุดว่าต้องระบาย ต้องเก็บใน syringe มี heparin ไม่ให้สัมผัสอากาศและวัดด้วยเครื่อง blood gas (ลายมือติ๊กถูก) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเกณฑ์ empyema เช่น ชาย 45 ปีปอดอักเสบ น้ำเยื่อหุ้มปอดขุ่นเล็กน้อย pH 6.95 ต้องใส่ ICD"
   },
-  "trap": "จำตัวเลข WBC ผิด",
+  "trap": "ทุกช้อยเป็นค่าที่ฟังดูผิดปกติ จึงต้องรู้ว่าเกณฑ์จริงคือ pus, Gram/ culture บวก, pH ต่ำ, glucose ต่ำ, LDH สูง · จำนวนเม็ดเลือดขาว 10,000 ไม่อยู่ในเกณฑ์ (ลายมือแก้เป็น 15,000 และหนองจริงมักสูงกว่านั้นมาก) · ระวังคำว่า NOT",
   "summary": [
-   "Direct: Gram/ culture บวก · หนอง",
-   "Indirect: WBC &gt; 15,000 · protein &gt; 3 · pH &lt; 7 · glucose &lt; 40 · LDH &gt; 1,000",
-   "pH &lt; 7.2 → ICD",
-   "Loculated → fibrinolytic/ VATS",
-   "Organizing → decortication",
-   "Simple parapneumonic → ATB"
+   "Parapneumonic effusion 3 ระยะ: exudative (ราว 1–2 สัปดาห์แรก) → fibrinopurulent (loculation) → organizing (peel รัดปอด ราว 3–6 สัปดาห์)",
+   "ต้องระบาย (complicated/ empyema): หนองจริง · Gram/ culture บวก · pH &lt; 7.20 · glucose &lt; 60 mg/dL (ตำราศัลย์ &lt; 40) · LDH &gt; 1,000 IU/L · น้ำแบ่งช่องหรือมากกว่าครึ่งทรวงอก",
+   "Light's criteria แยก exudate: protein น้ำ/ เลือด &gt; 0.5 · LDH น้ำ/ เลือด &gt; 0.6 · LDH น้ำ &gt; 2/3 ของค่าสูงสุดปกติในเลือด",
+   "รักษา empyema: ยาปฏิชีวนะครอบคลุม anaerobe + chest tube · loculation → intrapleural tPA + DNase (MIST-2) · ไม่ดีขึ้น → VATS decortication",
+   "Organizing empyema ที่ปอดขยายไม่ได้ → decortication (VATS หรือ open) · ผู้ป่วยอ่อนแอ → open window thoracostomy (Eloesser flap)",
+   "Ultrasound ทรวงอกช่วยเจาะ ดู septation และนำทางใส่สาย · CT เห็น split pleura sign ของ empyema",
+   "เก็บน้ำวัด pH ด้วย heparinized syringe ไม่มีอากาศ วัดด้วยเครื่อง blood gas · ค่าเพี้ยนถ้ามียาชา lidocaine หรืออากาศปน"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Empyema WBC 15K'</b>",
-  "guide": "BTS Guideline for Pleural Disease (Thorax 2023;78:s1)",
+  "opinion": "เห็นด้วยกับคำตอบ B ตรงกับคีย์ในไฟล์ (ขีด B และแก้ตัวเลขเป็น 15,000) ความมั่นใจสูง — Gram stain บวก LDH &gt; 1,000 glucose &lt; 40 และ pH &lt; 7 เป็นเกณฑ์ของ empyema/ complicated effusion ที่ใช้กันทั่วไป ส่วนจำนวนเม็ดเลือดขาว 10,000 ไม่ใช่เกณฑ์",
+  "mnemonic": "<b>'Empyema = \"Pus · Gram+ · pH &lt; 7.2 · Glucose &lt; 40–60 · LDH &gt; 1000\" (ไม่มี WBC 10,000)'</b>",
+  "guide": "British Thoracic Society Guideline for Pleural Disease (Thorax 2023); Sabiston Textbook of Surgery 21st ed. (2022) Pleura",
   "variants": [
-   "pH 6.8 glucose 20 → ICD",
-   "Gram stain พบเชื้อ → empyema",
-   "parapneumonic pH 7.35 → ATB อย่างเดียว"
+   "ปอดอักเสบมีน้ำเยื่อหุ้มปอดใส pH 7.35 glucose 90 LDH 400 Gram ลบ → uncomplicated parapneumonic effusion ให้ยาปฏิชีวนะอย่างเดียว",
+   "ใส่ ICD ระบาย empyema แล้วน้ำออกน้อย ultrasound มีหลายช่อง ไข้ยังอยู่ → intrapleural tPA + DNase แล้วประเมินซ้ำ",
+   "Empyema 6 สัปดาห์ CT เห็นเปลือกหนารัดปอดจนขยายไม่ได้ → decortication",
+   "น้ำเยื่อหุ้มปอด glucose ต่ำมาก pH ต่ำ ในผู้ป่วย rheumatoid arthritis ไม่มีไข้ เพาะเชื้อไม่ขึ้น → rheumatoid effusion ไม่ใช่ empyema"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 130 — ตัวพิมพ์: <b>53. ข้อใดไม่ใช่ criteria ของ Emphyema thoracis — A. Stain positive B. WBC &gt; 10,000 C. LDH &gt; 1000 D. Glucose &lt; 40 E. pH &lt; 7</b><br>ลายมือ: A ✓ · ขีด B + แก้ \"10\" เป็น \"15\" · C ✓ · D ✓ · E ✓<br>ไฮไลต์: \"ไม่ใช่ criteria ของ Emphyema thoracis\" · B (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 130",
@@ -132,30 +175,32 @@
   ]
  },
  "MDCU67|RoC|54": {
-  "interp": "ถาม <b>anterior mediastinal tumor ที่พบบ่อยที่สุด</b>",
-  "why": "ก้อน anterior mediastinum (3T 1L): <b>thymoma พบบ่อยที่สุดในผู้ใหญ่</b> ตามด้วย lymphoma, germ cell tumor/ teratoma, thyroid · neurogenic tumor อยู่ posterior · ไฟล์ขีด A",
+  "interp": "ถามเนื้องอกที่<b>พบบ่อยที่สุดใน anterior mediastinum</b> (ในผู้ใหญ่) ช้อยเป็นเนื้องอกที่อยู่ช่องหน้า 4 ชนิดและเนื้องอกช่องหลัง 1 ชนิด — ต้องรู้การแบ่งช่อง mediastinum และสัดส่วนของเนื้องอกแต่ละช่อง",
+  "why": "Mediastinum แบ่งเป็นช่อง<b>หน้า (prevascular)</b> · <b>กลาง (visceral)</b> · <b>หลัง (paravertebral)</b> · ก้อนช่องหน้าจำด้วย \"4 T\": <b>Thymoma</b>, Teratoma/ germ cell tumor, \"Terrible\" lymphoma และ Thyroid (retrosternal goiter) · ในผู้ใหญ่ <b>thymoma เป็นเนื้องอกที่พบบ่อยที่สุดของ anterior mediastinum</b> (ราวครึ่งหนึ่งของก้อนช่องหน้า) พบมากช่วงอายุ 40–60 ปี · thymoma สัมพันธ์กับ <b>myasthenia gravis</b> (ผู้ป่วย thymoma ราว 30–50% มี MG และผู้ป่วย MG ราว 10–15% มี thymoma) รวมถึง pure red cell aplasia และ hypogammaglobulinemia · จัดระยะตาม Masaoka–Koga หรือ TNM จัดชนิดตาม WHO (A, AB, B1–B3 และ thymic carcinoma) · การรักษาหลักคือ<b>ผ่าตัด thymectomy เอาออกทั้งหมด</b> ผ่าน median sternotomy หรือส่องกล้อง และให้รังสีเสริมเมื่อลุกลามหรือตัดไม่หมด · ในเด็ก lymphoma และ germ cell tumor พบบ่อยกว่า · ไฟล์ขีด A (ไม่มีลายมือเพิ่มเติม)",
   "wrong": {
-   "B": "Teratoma ~15% · จะถูกถ้าคำถามถามก้อนมีไขมัน/ หินปูน/ ฟัน",
-   "C": "Thyroid ~15% · จะถูกถ้าคำถามถามก้อนต่อเนื่องจากคอ",
-   "D": "Lymphoma พบรองลงมาและพบบ่อยในเด็ก · จะถูกถ้าคำถามถามในเด็ก",
-   "E": "Neurogenic tumor อยู่ posterior · จะถูกถ้าคำถามถาม posterior mediastinum"
+   "B": "Teratoma (germ cell tumor) อยู่ช่องหน้าเช่นกัน พบในวัยรุ่นและผู้ใหญ่ตอนต้น แต่พบน้อยกว่า thymoma · CT เห็นไขมัน หินปูน หรือฟันปนในก้อน marker ปกติ ผ่าตัดเอาออก · จะถูกถ้าเป็นหญิง 20 ปีไอมีเส้นผมปนในเสมหะ (trichoptysis) CT พบก้อน anterior mediastinum มีไขมันและหินปูน",
+   "C": "ต่อมไทรอยด์โตลงในทรวงอก (retrosternal goiter) พบบ่อยในก้อนช่องหน้าบน แต่ส่วนใหญ่ต่อเนื่องจากคอ จึงมักไม่นับเป็นเนื้องอกแท้ของ mediastinum · จะถูกถ้าเป็นหญิง 65 ปีมีคอพอกมานาน หายใจเสียงดังเวลานอนราบ CT พบก้อนไทรอยด์ต่อเนื่องจากคอลงหลังกระดูก sternum กดหลอดลม",
+   "D": "Lymphoma (Hodgkin และ non-Hodgkin เช่น primary mediastinal large B-cell) พบบ่อยในช่องหน้าและเป็นอันดับต้นในเด็กและคนหนุ่มสาว แต่ในผู้ใหญ่โดยรวมตำราศัลยศาสตร์ระบุ thymoma บ่อยที่สุด · จะถูกถ้าเป็นหญิง 25 ปีไอ แน่นอก ไข้ เหงื่อออกกลางคืน ต่อมน้ำเหลืองคอโต CT พบก้อน anterior mediastinum ใหญ่เป็นก้อนหลายก้อนรวมกัน",
+   "E": "Neurogenic tumor (schwannoma, neurofibroma, ganglioneuroma, neuroblastoma) เป็นเนื้องอกที่พบบ่อยที่สุดของ<b>posterior mediastinum</b>และของ mediastinum ทั้งหมดในเด็ก ไม่ได้อยู่ช่องหน้า · จะถูกถ้าเป็นชาย 35 ปีไม่มีอาการ CXR พบก้อนกลมขอบเรียบข้างกระดูกสันหลังทรวงอก MRI เห็นก้อนยื่นเข้า neural foramen รูปดัมเบล"
   },
-  "trap": "ตอบ neurogenic tumor",
+  "trap": "Lymphoma ก็พบบ่อยมากในช่องหน้า และในเด็กหรือวัยรุ่นอาจพบมากกว่า thymoma จึงชวนลังเล · คำถามถามเนื้องอกช่องหน้าโดยรวม (ผู้ใหญ่) ซึ่งตำราศัลยศาสตร์ระบุ thymoma อันดับหนึ่ง · และอย่าสับสนกับเนื้องอกที่พบบ่อยสุดของ mediastinum ทั้งหมดซึ่งบางตำราให้ neurogenic tumor",
   "summary": [
-   "Anterior: thymoma · lymphoma · GCT · thyroid",
-   "Middle: cyst · LN",
-   "Posterior: neurogenic",
-   "Thymoma + MG → thymectomy",
-   "GCT: AFP/ β-hCG",
-   "Lymphoma → biopsy"
+   "ช่องหน้า (4 T): thymoma · teratoma/ germ cell · lymphoma · thyroid · ช่องกลาง: ต่อมน้ำเหลือง bronchogenic/ pericardial cyst · ช่องหลัง: neurogenic tumor",
+   "Thymoma: เนื้องอกช่องหน้าที่พบบ่อยที่สุดในผู้ใหญ่ · อายุ 40–60 ปี · หลายรายไม่มีอาการ พบจาก CXR หรือจากอาการ MG",
+   "Paraneoplastic ของ thymoma: myasthenia gravis (บ่อยสุด) · pure red cell aplasia · hypogammaglobulinemia (Good syndrome)",
+   "ผู้ป่วย MG ต้องทำ CT ทรวงอกหา thymoma · ก่อนผ่าตัดต้องคุมอาการ MG ให้ดี (pyridostigmine, IVIG/ plasmapheresis) ป้องกัน myasthenic crisis หลังผ่าตัด",
+   "Masaoka–Koga: I มีเปลือกหุ้มครบ · II ลุกผ่านเปลือก · III ลุกอวัยวะข้างเคียง · IVa กระจายในเยื่อหุ้มปอด/ หัวใจ · IVb ต่อมน้ำเหลืองหรือแพร่กระจายทางเลือด",
+   "รักษา: complete thymectomy (R0) เป็นปัจจัยพยากรณ์สำคัญที่สุด · ให้รังสีเสริมเมื่อ stage III หรือตัดไม่หมด · ไม่ควร biopsy ผ่านผนังอกในก้อนที่ดูเป็น thymoma ชัดและตัดได้",
+   "ก้อนช่องหน้าในชายหนุ่มต้องตรวจ AFP และ β-hCG ก่อน · ก้อนกับอาการ B → คิด lymphoma ตัดชิ้นเนื้อต่อมน้ำเหลือง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Anterior = 3T 1L (Thymoma นำ)'</b>",
-  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Mediastinal masses",
+  "opinion": "เห็นด้วยกับคำตอบ A ตรงกับคีย์ในไฟล์ (ขีด A) ความมั่นใจปานกลางถึงสูง — Sabiston และตำราศัลยศาสตร์ทรวงอกระบุ thymoma เป็นเนื้องอกที่พบบ่อยที่สุดของ anterior mediastinum ในผู้ใหญ่ แม้ lymphoma จะพบใกล้เคียงและเด่นกว่าในเด็กและวัยรุ่น",
+  "mnemonic": "<b>'Anterior = \"4 T\" (Thymoma อันดับ 1 ในผู้ใหญ่) · Posterior = Neurogenic'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) The Mediastinum; NCCN Clinical Practice Guidelines in Oncology: Thymomas and Thymic Carcinomas (2025)",
   "variants": [
-   "ผู้ใหญ่ก้อน anterior mediastinum + MG → thymoma",
-   "เด็กก้อน anterior mediastinum → lymphoma",
-   "ก้อน paravertebral → neurogenic tumor"
+   "หญิง 45 ปีหนังตาตกและเห็นภาพซ้อนตอนเย็น anti-AChR บวก CT พบก้อน anterior mediastinum 4 cm ขอบเรียบ → thymoma ร่วม MG → คุม MG แล้วทำ thymectomy",
+   "ชาย 50 ปีซีดมาก reticulocyte ต่ำ ไขกระดูกไม่มีเซลล์ตั้งต้นเม็ดเลือดแดง CT พบก้อนช่องหน้า → pure red cell aplasia จาก thymoma",
+   "หลังผ่าตัด thymoma ผลพยาธิลุกเยื่อหุ้มหัวใจและขอบตัดยังมีเนื้องอก → postoperative radiotherapy",
+   "เด็ก 6 ปีมีก้อน posterior mediastinum ร่วมกับ catecholamine ในปัสสาวะสูง → neuroblastoma (neurogenic tumor ช่องหลังที่พบบ่อยในเด็ก)"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 130 — ตัวพิมพ์: <b>54. ข้อใดเป็น most common anterior mediastinal tumor? — A. thymoma B. teratoma C. thyroid D. lymphoma E. neurogenic tumor</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"most common anterior mediastinal tumor\" · A (เหลือง)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 130",
@@ -165,30 +210,32 @@
   ]
  },
  "MDCU67|RoC|55": {
-  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>acute mediastinitis</b>",
-  "why": "Mediastinitis ต้องรักษาเชิงรุก: ยาปฏิชีวนะ <b>+ ระบายหนอง + ตัดเนื้อตาย</b> + จัดการต้นเหตุ → ให้ยาอย่างเดียวพอ <b>ผิด</b> = A · ข้ออื่นถูก (S. aureus หลังผ่ากระดูกอก, DNM จากคอ, หลอดอาหารทะลุ) · ไฟล์ขีด A ขีดฆ่า \"เพียงพอ\" เขียน <b>\"+ drainage + debridement\"</b> · B ✓ และแปะสไลด์ <b>Treatment (Aggressive treatment · Antibiotic · Drainage + Debridement · Origin of infection management)</b>",
+  "interp": "ถามข้อความที่<b>ผิด</b>เกี่ยวกับ <b>acute mediastinitis</b> ช้อยครอบคลุมการรักษา เชื้อหลังผ่าตัดหัวใจ ชนิด descending และสาเหตุจากหลอดอาหารทะลุ — ต้องรู้ว่าการติดเชื้อในช่องปิดแบบนี้รักษาด้วยยาอย่างเดียวไม่ได้",
+  "why": "Acute mediastinitis คือการติดเชื้อรุนแรงของเนื้อเยื่อใน mediastinum อัตราตายสูง สาเหตุหลัก 3 กลุ่ม: <b>หลังผ่าตัดผ่าน median sternotomy</b> (deep sternal wound infection ราว 1–2% เชื้อหลัก <b>S. aureus</b> และ coagulase-negative staphylococci) · <b>หลอดอาหารทะลุ</b> (จากการส่องกล้องหรือ Boerhaave) · <b>descending necrotizing mediastinitis</b> ที่ลามลงจากการติดเชื้อที่ฟัน ทอนซิล หรือ retropharyngeal ผ่าน retropharyngeal/ danger space และ pretracheal space · หลักการรักษาคือ <b>aggressive treatment</b>: ยาปฏิชีวนะ broad spectrum ร่วมกับ<b>ระบายหนองและตัดเนื้อตาย (drainage + debridement)</b> และ<b>ควบคุมต้นเหตุ</b> (ซ่อมหรือแยกหลอดอาหาร, debride กระดูก sternum และปิดด้วย flap) · ยาปฏิชีวนะอย่างเดียวเข้าไม่ถึงหนองและเนื้อตายในช่องปิด จึง<b>ไม่เพียงพอ</b> · ไฟล์ขีด A ลายมือขีดฆ่าคำว่า \"เพียงพอ\" แล้วเขียน <b>\"+ drainage + debridement\"</b> พร้อมสไลด์ Treatment: Aggressive treatment ① Antibiotic ② Drainage + Debridement (Sx) และ Origin of infection management",
   "wrong": {
-   "B": "ถูก — S. aureus/ MRSA หลังผ่ากระดูกอก (ลายมือ ✓) · จะถูกถ้าข้อความระบุเชื้อหลักเป็น anaerobe",
-   "C": "ถูก — DNM ลามจากคอ/ ช่องปาก · จะถูกถ้าข้อความว่าลามจากช่องท้อง",
-   "D": "ถูก — หลอดอาหารทะลุเป็นสาเหตุสำคัญ · จะถูกถ้าข้อความว่าไม่เกี่ยวข้อง",
-   "E": "มีข้อผิดคือ A · จะถูกถ้าทุกข้อถูก"
+   "B": "ข้อความถูก: หลัง median sternotomy เชื้อที่พบบ่อยที่สุดของ deep sternal wound infection/ mediastinitis คือ S. aureus (รวม MRSA) และ coagulase-negative staphylococci ปัจจัยเสี่ยงคือเบาหวาน อ้วน COPD ใช้ IMA ทั้งสองข้าง และใส่เครื่องช่วยหายใจนาน · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเชื้อก่อโรค เช่น ชายเบาหวานหลัง CABG 10 วัน ไข้ แผลอกมีหนอง กระดูก sternum ขยับได้ เพาะเชื้อได้ S. aureus",
+   "C": "ข้อความถูก: descending necrotizing mediastinitis เกิดจากการติดเชื้อที่คอ (ฟันกรามล่าง peritonsillar หรือ retropharyngeal abscess) ลามลงตาม fascial plane เข้า mediastinum ต้องระบายทั้งคอและทรวงอก · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับชนิด descending เช่น ชาย 40 ปีฟันกรามล่างอักเสบ คอบวมแข็ง 5 วันต่อมาเจ็บอก หอบ CT พบลมและหนองใน mediastinum",
+   "D": "ข้อความถูก: หลอดอาหารทะลุเป็นสาเหตุสำคัญของ mediastinitis ส่วนใหญ่เกิดจากหัตถการส่องกล้อง และจากการอาเจียนรุนแรง (Boerhaave) ซึ่งมี Mackler triad (อาเจียน เจ็บอก ลมใต้ผิวหนัง) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับสาเหตุ เช่น ชาย 50 ปีดื่มสุราแล้วอาเจียนรุนแรง เจ็บอกทันที คลำมีลมใต้ผิวหนังที่คอ esophagogram มีสารทึบรั่วที่ด้านซ้ายของหลอดอาหารส่วนล่าง",
+   "E": "None of the above หมายความว่าไม่มีข้อใดผิด ซึ่งไม่จริงเพราะ A ผิดชัด (ยาอย่างเดียวไม่เพียงพอ) · จะถูกถ้าช้อย A ระบุการรักษาครบ เช่น ผู้ป่วย mediastinitis จากหลอดอาหารทะลุที่ได้ยาปฏิชีวนะ ระบายหนอง ตัดเนื้อตาย และซ่อมรูทะลุ ทำให้ทุกข้อความถูกต้อง"
   },
-  "trap": "ยาอย่างเดียวพอ",
+  "trap": "ท่องว่าการติดเชื้อรักษาด้วยยาปฏิชีวนะ จึงไม่สังเกตคำว่า <b>alone/ เพียงพอ</b> ในช้อย A · mediastinitis เป็นหนองและเนื้อตายในช่องปิด ต้องผ่าตัดระบายและควบคุมต้นเหตุเสมอ · ระวังโจทย์ถามข้อผิด ช้อย B–D เป็นความรู้ที่ถูกทั้งหมด",
   "summary": [
-   "ATB + drainage + debridement + ต้นเหตุ",
-   "Post-sternotomy: S. aureus/ MRSA",
-   "DNM: polymicrobial",
-   "Boerhaave: ซ่อม ± ระบาย",
-   "แผลกระดูกอก: debridement · NPWT · flap",
-   "ล่าช้า = อัตราตายสูง"
+   "สาเหตุ acute mediastinitis: หลัง sternotomy · หลอดอาหารทะลุ (iatrogenic บ่อยสุด, Boerhaave) · descending necrotizing จากคอ · ลามจาก pleura/ ปอด",
+   "Deep sternal wound infection: ราว 1–2% หลัง sternotomy · S. aureus/ CoNS · ปัจจัยเสี่ยง เบาหวาน อ้วน COPD bilateral IMA ผ่าตัดซ้ำ",
+   "รักษา post-sternotomy mediastinitis: debridement กระดูกและเนื้อตาย · negative pressure wound therapy · ปิดด้วย pectoralis major, rectus abdominis หรือ omental flap",
+   "Descending necrotizing mediastinitis: CT คอและทรวงอก · ระบายคอทุกราย · ลามต่ำกว่า carina หรือ T4 → ระบายทางทรวงอก (VATS/ thoracotomy) ด้วย",
+   "Danger space (ระหว่าง alar และ prevertebral fascia) ทอดจากฐานกะโหลกลงถึงกะบังลม เป็นทางให้หนองจากคอลงทรวงอกได้เร็ว",
+   "Esophageal perforation: esophagogram ด้วย water-soluble contrast หรือ CT · ภายใน 24 ชม.มักซ่อมตรงได้ · ช้ากว่านั้นพิจารณา stent/ drainage/ esophageal exclusion ตามสภาพ",
+   "ยาปฏิชีวนะเริ่มต้นต้องครอบคลุม gram-positive (รวม MRSA ในรายหลังผ่าตัด) gram-negative และ anaerobe (ชนิดจากช่องปาก/ หลอดอาหาร)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Mediastinitis: ยา + ระบาย + ตัด + ต้นเหตุ'</b>",
-  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Mediastinal infections",
+  "opinion": "เห็นด้วยกับคำตอบ A ตรงกับคีย์ในไฟล์ (ขีด A ลายมือขีดฆ่า \"เพียงพอ\" เติม drainage + debridement) ความมั่นใจสูง — mediastinitis ต้องรักษาเชิงรุกด้วยยาร่วมผ่าตัดระบายและควบคุมต้นเหตุ ส่วน B–D ถูกต้องตามตำรา (ช้อย C–D เว็บเติมเองเพราะในไฟล์เว้นว่าง)",
+  "mnemonic": "<b>'Mediastinitis = \"ยา + Drain + Debride + Source control\" (ยาเดี่ยว = ไม่พอ)'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) The Mediastinum; Shields' General Thoracic Surgery 8th ed. (2019) Mediastinal Infections",
   "variants": [
-   "หลัง CABG แผลกระดูกอกมีหนอง → debridement + ATB",
-   "ฝีคอลามลงทรวงอก → drainage",
-   "อาเจียนรุนแรงเจ็บอก ลมใต้ผิวหนัง → Boerhaave"
+   "หญิงหลังเปลี่ยนลิ้นหัวใจ 2 สัปดาห์ แผลอกมีหนอง กระดูก sternum ขยับ CT มีหนองหลัง sternum → debridement + NPWT แล้วปิดด้วย pectoralis major flap",
+   "ชายฝีที่คอจากฟันผุ CT พบหนองลามลงถึงระดับใต้ carina → ระบายทางคอร่วมกับ VATS หรือ thoracotomy ระบาย mediastinum",
+   "หลังขยายหลอดอาหารด้วยบอลลูน ผู้ป่วยเจ็บอก ไข้ มีลมใต้ผิวหนังที่คอ → สงสัย iatrogenic esophageal perforation ทำ CT/ esophagogram และงดน้ำงดอาหาร",
+   "ทำไม descending necrotizing mediastinitis อัตราตายสูง → ลามเร็วผ่าน danger space ลงสู่ทรวงอก มักวินิจฉัยช้าและระบายไม่ครบ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 130 — ตัวพิมพ์: <b>55. ข้อใดต่อไปนี้ผิดเกี่ยวกับ Acute mediastinitis — A. Mediastinitis ส่วนใหญ่ให้ antibiotic เพียงอย่างเดียวก็เพียงพอต่อการรักษา B. เชื้อก่อโรคที่สำคัญใน Post mediansternotomy mediastinitis คือ Staphylococcus aureus C. . D. . E. None of above</b><br>ลายมือ: ขีด A + ขีดฆ่า \"เพียงพอ\" + \"+ drainage + debridement\" · B ✓<br>ไฮไลต์: \"ผิด\" \"Acute mediastinitis\" (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment — * Aggressive treatment · ① Antibiotic · ② Drainage + Debridement (Sx) · Origin of infection management · ลายมือ \"infection control\"<br>ที่ปรับในเว็บ: เติมช้อย C–D ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 130",
@@ -198,30 +245,32 @@
   ]
  },
  "MDCU67|RoC|56": {
-  "interp": "ใน <b>CABG</b> graft ใดมีผลต่อ<b>การรอดชีวิตระยะยาว</b>มากที่สุด",
-  "why": "<b>LIMA → LAD</b> มี patency สูงสุด (~90–95% ที่ 10 ปี) และเพิ่มการรอดชีวิตระยะยาวชัดเจนที่สุด · SVG ~50–60% ที่ 10 ปี · ไฟล์ขีด E (พิมพ์ \"LDA\") และแปะข้อความ <b>\"เมื่อเปรียบเทียบ conduits for CABG ทั้งหมดพบว่าการใช้ LIMA ต่อกับ LAD มี patency rate ดีที่สุด (90–95% ที่ 10 ปี)\"</b>",
+  "interp": "ถามใน CABG ว่า<b>การต่อ graft แบบใดส่งผลต่อ long-term survival มากที่สุด</b> ช้อยผสมชนิด conduit (LIMA, SVG, radial artery) กับหลอดเลือดเป้าหมาย (LAD, LCX, RCA) — ต้องรู้ทั้ง patency ของ conduit และความสำคัญของหลอดเลือดที่ต่อ",
+  "why": "ผลระยะยาวของ CABG ขึ้นกับ 2 อย่างคือ <b>conduit ที่ทนทาน</b> และ<b>หลอดเลือดเป้าหมายที่เลี้ยงกล้ามเนื้อหัวใจมาก</b> · <b>Left internal mammary artery (LIMA)</b> เป็นหลอดเลือดแดงที่ต้านการเกิด atherosclerosis (endothelium สร้าง nitric oxide มาก มี internal elastic lamina สมบูรณ์) มี <b>patency ราว 90–95% ที่ 10 ปี</b> เทียบกับ saphenous vein graft ราว 50–60% ที่ 10 ปี · <b>LAD</b> เลี้ยงผนังหน้าและ septum ซึ่งเป็นกล้ามเนื้อหัวใจส่วนใหญ่ของ LV · การศึกษาของ Cleveland Clinic (Loop, NEJM 1986) แสดงว่า <b>LIMA ต่อ LAD เพิ่มการรอดชีวิตระยะยาว</b>และลด MI และการผ่าตัดซ้ำเมื่อเทียบกับ vein graft อย่างเดียว จึงเป็นมาตรฐาน (Class I) ของ CABG ทุกรายที่ต้อง bypass LAD · ไฟล์ขีด E และแปะข้อความ <b>\"การใช้ LIMA ต่อกับ LAD มี patency rate ดีที่สุด (90–95% ที่ 10 ปี)\"</b>",
   "wrong": {
-   "A": "LIMA → LCX ประโยชน์น้อยกว่า LIMA → LAD · จะถูกถ้าคำถามถาม bilateral IMA (RIMA ต่อ LAD)",
-   "B": "SVG patency ต่ำกว่า · จะถูกถ้าคำถามถาม conduit ที่ใช้บ่อยสำหรับเส้นอื่น",
-   "C": "Radial → RCA ใช้ได้ดีกว่า SVG · จะถูกถ้าคำถามถาม arterial conduit ตัวที่สอง",
-   "D": "Radial → LCA ไม่ใช่มาตรฐานต่อ LAD · จะถูกถ้าคำถามถาม conduit ทางเลือกเมื่อไม่มี IMA"
+   "A": "LIMA เป็น conduit ที่ดีที่สุด แต่ประโยชน์ด้านการรอดชีวิตสูงสุดเกิดเมื่อต่อกับ LAD ที่เลี้ยงกล้ามเนื้อหัวใจมากที่สุด การนำ LIMA ไปต่อ LCX/ OM ใช้เฉพาะเมื่อ LAD ไม่ต้องทำ bypass · จะถูกถ้าเป็นผู้ป่วยที่ LAD เคยใส่ stent ไว้และยังเปิดดี แต่มีหลอดเลือด obtuse marginal ตีบรุนแรงหลายจุดที่ต้องผ่าตัด (ใช้ LIMA ต่อ OM)",
+   "B": "Saphenous vein graft หาง่าย ยาวพอ แต่เกิด intimal hyperplasia และ atherosclerosis ของ graft ทำให้ patency ที่ 10 ปีเหลือราวครึ่งหนึ่ง ใช้ต่อหลอดเลือดเป้าหมายรอง · จะถูกถ้าเป็นผู้ป่วยอายุ 80 ปีที่ทำ emergency CABG ขณะ cardiogenic shock ต้องการ conduit เร็ว และต่อ SVG ไป LCX และ RCA หลังต่อ LIMA–LAD แล้ว",
+   "C": "Radial artery มี patency ระยะยาวดีกว่า SVG (RADIAL pooled analysis) แต่หดเกร็งง่ายและเสี่ยงอุดตันถ้าต่อเข้าหลอดเลือดที่ตีบไม่มาก (competitive flow) ใช้เป็น conduit ที่สองไม่ใช่ตัวหลักของการรอดชีวิต · จะถูกถ้าเป็นชาย 60 ปีที่ RCA ตีบ &gt; 90% ต้องการ arterial graft เส้นที่สองและ Allen test ปกติ",
+   "D": "Radial artery ไปยัง left coronary system (LCX/ OM) ใช้เป็นการต่อหลอดเลือดแดงเส้นที่สองแทน SVG ได้ แต่ไม่ใช่ graft ที่กำหนด long-term survival มากที่สุดเท่า LIMA–LAD · จะถูกถ้าเป็นผู้ป่วยอายุน้อยกว่า 70 ปี ไม่มีไตวาย มี OM ตีบ &gt; 90% ต้องการ total arterial revascularization ร่วมกับ LIMA–LAD"
   },
-  "trap": "คิดว่า graft ทุกเส้นมีผลเท่ากัน",
+  "trap": "คิดว่า graft ใดที่เป็นหลอดเลือดแดงก็ให้ผลดีเท่ากัน หรือเลือกตามเป้าหมายที่ตีบมาก · ประโยชน์ด้าน survival ที่พิสูจน์ชัดที่สุดคือการจับคู่ conduit ที่ดีที่สุด (LIMA) กับหลอดเลือดที่สำคัญที่สุด (LAD) ต้องจำเป็นคู่",
   "summary": [
-   "LIMA → LAD: patency ~90–95% ที่ 10 ปี",
-   "SVG ~50–60% ที่ 10 ปี",
-   "Radial &gt; SVG",
-   "CABG: left main · 3-vessel (DM/ EF ต่ำ)",
-   "SYNTAX score",
-   "Bilateral IMA: ระวังแผลกระดูกอกในเบาหวาน"
+   "LIMA–LAD: patency ราว 90–95% ที่ 10 ปี · เพิ่ม survival (Loop, NEJM 1986) · เป็นหัวใจของ CABG ทุกราย",
+   "SVG: patency ราว 50–60% ที่ 10 ปี · ล้มเหลวจาก thrombosis ระยะแรก intimal hyperplasia และ atherosclerosis ระยะหลัง · aspirin และ statin ช่วยลด",
+   "Radial artery: patency ดีกว่า SVG · ใช้กับเป้าหมายที่ตีบรุนแรง (&gt; 70–90%) · ตรวจ Allen test ก่อนเก็บ · ป้องกันหดเกร็งด้วย calcium channel blocker",
+   "RIMA/ bilateral IMA: เพิ่ม arterial revascularization แต่เสี่ยงแผล sternum ติดเชื้อในเบาหวาน อ้วน · ART trial ไม่พบความต่างชัดที่ 10 ปีแบบ intention-to-treat",
+   "ข้อบ่งชี้ CABG ที่เพิ่ม survival: left main ตีบ &gt; 50% · 3-vessel disease (โดยเฉพาะเบาหวาน — FREEDOM) · LV ejection fraction ลดลงร่วม multivessel (STICH)",
+   "SYNTAX score ช่วยเลือก CABG vs PCI: คะแนนสูง (โรคซับซ้อน) ได้ประโยชน์จาก CABG มากกว่า",
+   "Off-pump vs on-pump CABG: ผลระยะยาวใกล้เคียงหรือ on-pump ดีกว่าเล็กน้อยในหลายการศึกษา เลือกตามความชำนาญและผู้ป่วย"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 (ต้นฉบับเขียน \"ลิ้นหัวใจตีบ\" น่าจะหมายถึงหลอดเลือดหัวใจตีบ)",
-  "mnemonic": "<b>'LIMA–LAD = ท่อทองคำ'</b>",
-  "guide": "ACC/AHA/SCAI Guideline for Coronary Artery Revascularization (Circulation 2022;145:e18)",
+  "opinion": "เห็นด้วยกับคำตอบ E ตรงกับคีย์ในไฟล์ (ขีด E และแปะข้อความ patency ของ LIMA–LAD) ความมั่นใจสูง — LIMA–LAD เป็น graft เดียวที่หลักฐานชัดว่าเพิ่ม long-term survival เพราะรวม conduit ที่ทนทานที่สุดกับหลอดเลือดที่เลี้ยงกล้ามเนื้อหัวใจมากที่สุด",
+  "mnemonic": "<b>'\"LIMA loves LAD\" — 10 ปียังเปิด 90%+'</b>",
+  "guide": "2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization (Circulation 2022); Sabiston Textbook of Surgery 21st ed. (2022) Acquired Heart Disease: Coronary Insufficiency",
   "variants": [
-   "3-vessel + DM → CABG (LIMA → LAD)",
-   "left main disease → CABG",
-   "หลัง CABG 10 ปี เจ็บอก → SVG ตัน"
+   "ชายเบาหวาน 3-vessel disease SYNTAX score สูง EF 45% → CABG (LIMA–LAD ร่วมกับ graft อื่น) ดีกว่า PCI ตาม FREEDOM",
+   "ผู้ป่วยต้องการใช้ radial artery แต่ Allen test ผิดปกติ (มือซีดนานหลังปล่อย ulnar) → ห้ามเก็บ radial ข้างนั้น ใช้ SVG หรือ RIMA แทน",
+   "หลัง CABG 8 ปี เจ็บหน้าอกซ้ำ angiogram พบ SVG อุดตันแต่ LIMA–LAD ยังเปิดดี → เป็นธรรมชาติของ SVG ที่ patency ลดลงตามเวลา พิจารณา PCI ที่หลอดเลือดเดิม",
+   "ทำไม LIMA ทนทานกว่า SVG → endothelium ของหลอดเลือดแดงสร้าง nitric oxide มาก internal elastic lamina ไม่มีรูพรุน จึงต้าน intimal hyperplasia และ atherosclerosis"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 130 — ตัวพิมพ์: <b>56. CABG ในผู้ป่วยลิ้นหัวใจตีบ ข้อใดส่งผลต่อ long term survival มากสุด — A. LIMA → LCX B. SVG → LCX C. Radial a. → RCA D. Radial a. → LCA E. LIMA → LDA</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"long term survival มากสุด\" · E (เหลือง)<br>รูปที่แปะ: ข้อความ \"เมื่อเปรียบเทียบ conduits for CABG ทั้งหมดพบว่าการใช้ LIMA ต่อกับ LAD มี patency rate ดีที่สุด (90–95% ที่ 10 ปี)\"",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 130",
@@ -231,30 +280,32 @@
   ]
  },
  "MDCU67|RoC|57": {
-  "interp": "<b>Severe MS + mild MR + severe TR</b> เหนื่อยทำงานไม่ไหว → ถามการรักษา",
-  "why": "Severe MS ที่มีอาการมาก + severe TR → ต้องผ่าตัด: <b>mitral valve replacement</b> (rheumatic MS ลิ้นเสียหาย ซ่อมผลไม่ทนทาน) + <b>tricuspid valve repair (annuloplasty)</b> (TR ส่วนใหญ่ functional) · ไฟล์ขีด D ลายมือ <b>\"almost always ใน rheumatic → replacement\"</b> เหนือ severe MS · <b>\"repair\"</b> ใต้ Severe TR และแปะสไลด์ <b>MITRAL REGURGITATION: Repair is better outcome than replacement</b> (MV repair technique)",
+  "interp": "ผู้ป่วย <b>severe MS</b> + mild MR + <b>severe TR</b> มีอาการเหนื่อยจนทำงานไม่ไหว (NYHA III) — ถามการรักษา ต้องตัดสินว่าทำ balloon ได้หรือต้องผ่าตัด แล้วลิ้น mitral ควรซ่อมหรือเปลี่ยน และลิ้น tricuspid ควรซ่อมหรือเปลี่ยน",
+  "why": "MS ในผู้ใหญ่เกือบทั้งหมดเกิดจาก<b>ไข้รูมาติก</b> ลิ้นหนา commissure เชื่อมติด หินปูน และ chordae หดสั้นติดกัน · MS รุนแรง (MVA ≤ 1.5 cm²) ที่มีอาการต้องทำ intervention · ทางเลือกแรกคือ <b>percutaneous mitral balloon commissurotomy (PMBC)</b> เมื่อรูปลิ้นเหมาะ ไม่มีลิ่มเลือดใน LA และ MR ไม่เกินเล็กน้อย แต่<b>ข้อห้ามคือมีโรคอื่นที่ต้องผ่าตัดหัวใจร่วม</b> เช่น <b>TR รุนแรง</b> ซึ่งแนวทาง ACC/AHA 2020 ให้ผ่าตัด tricuspid ร่วมเมื่อผ่าตัดลิ้นหัวใจซีกซ้าย (Class 1) · ในการผ่าตัด ลิ้นรูมาติกที่หนาแข็งมีหินปูน<b>ซ่อมแล้วไม่ทนทาน</b> จึงมักทำ <b>mitral valve replacement</b> (ลายมือ \"almost always ใน rheumatic → replacement\") · ส่วน TR ใน MS ส่วนใหญ่เป็น <b>functional (secondary) TR</b> จาก pulmonary hypertension และวงลิ้น tricuspid ขยาย ตัวลิ้นปกติ จึง<b>ซ่อมด้วย ring annuloplasty</b> ได้ผลดีกว่าการเปลี่ยนลิ้น · ไฟล์ขีด D ลายมือ <b>\"repair\"</b> ใต้ Severe TR และแปะสไลด์ MR \"Repair is better outcome than replacement\" (ซึ่งใช้กับ degenerative MR)",
   "wrong": {
-   "A": "ปรับยาไม่พอเมื่อ FC III และโรคลิ้นหลายตำแหน่ง · จะถูกถ้าคำถามถามการเตรียมก่อนผ่าตัด",
-   "B": "Balloon ไม่แก้ severe TR · จะถูกถ้า severe MS อย่างเดียว ลิ้นเหมาะ",
-   "C": "ซ่อมลิ้นไมตรัลใน rheumatic MS ผลไม่ทนทาน · จะถูกถ้าเป็น degenerative MR",
-   "E": "เปลี่ยนลิ้น tricuspid เมื่อซ่อมไม่ได้ · จะถูกถ้าลิ้น tricuspid เสียหายเชิงโครงสร้าง"
+   "A": "การปรับยา (ขับปัสสาวะ beta-blocker คุมอัตราหัวใจ และ warfarin ถ้ามี AF) ช่วยบรรเทาอาการแต่ไม่แก้การตีบทางกลไก ผู้ป่วยที่มีอาการ NYHA III จากลิ้นตีบรุนแรงต้องทำ intervention · จะถูกถ้าเป็นหญิง 35 ปี MS ปานกลาง (MVA 1.8 cm²) ไม่มีอาการขณะพัก เหนื่อยเล็กน้อยเฉพาะตอนมี AF ใจสั่นเร็ว (คุมอัตราหัวใจและให้ warfarin)",
+   "B": "Balloon valvotomy เป็นการรักษาแรกของ rheumatic MS ที่รูปลิ้นเหมาะ (Wilkins score ≤ 8) แต่ห้ามทำเมื่อมีลิ่มเลือดใน LA, MR ตั้งแต่ปานกลาง หรือมีโรคอื่นที่ต้องผ่าตัดร่วม ซึ่ง severe TR ต้องผ่าตัด tricuspid จึงควรผ่าตัดรวมครั้งเดียว · จะถูกถ้าเป็นหญิง 30 ปี severe MS ลิ้นบางเคลื่อนไหวดี ไม่มีหินปูน MR เล็กน้อย ไม่มีลิ่มเลือดใน LA และ TR เล็กน้อย",
+   "C": "MV repair เหมาะกับ <b>degenerative MR</b> (mitral valve prolapse/ flail leaflet) ซึ่งซ่อมได้ทนทานและดีกว่าเปลี่ยน แต่ลิ้นรูมาติกที่ตีบ หนาแข็ง หินปูนและ chordae หดซ่อมแล้วมักกลับตีบหรือรั่วซ้ำ · จะถูกถ้าเป็นชาย 55 ปี MR รุนแรงจาก flail posterior leaflet (P2) ร่วมกับ TR และวง tricuspid ขยาย &gt; 40 mm (MV repair + TV annuloplasty)",
+   "E": "การเปลี่ยนลิ้น tricuspid ใช้เมื่อตัวลิ้นเสียหายเองจนซ่อมไม่ได้ ผลระยะยาวด้อยกว่าการซ่อม (ลิ้นเทียมฝั่งขวาเกิดลิ่มเลือดหรือเสื่อมได้) TR ในข้อนี้เป็น functional จึงควรซ่อม · จะถูกถ้าเป็นหญิง 40 ปี rheumatic MS รุนแรงร่วมกับลิ้น tricuspid หนาแข็งหดสั้นทั้ง stenosis และ regurgitation จากรูมาติกเอง หรือ TV ถูกทำลายจาก endocarditis จนซ่อมไม่ได้"
   },
-  "trap": "ใช้ balloon เพราะเป็น MS",
+  "trap": "จำได้ว่า repair ดีกว่า replacement (จากสไลด์ MR) จึงเลือก C · แต่หลักนี้ใช้กับ degenerative MR ไม่ใช่ rheumatic MS · อีกกับดักคือเห็น severe MS แล้วตอบ balloon ทันที โดยลืมว่า severe TR ต้องผ่าตัดร่วม และ functional TR ควรซ่อมไม่ใช่เปลี่ยน",
   "summary": [
-   "Severe MS + severe TR → MVR + TV repair",
-   "Rheumatic → replacement (ลายมือ)",
-   "Degenerative MR → repair ดีกว่า",
-   "Functional TR → ring annuloplasty",
-   "PBMV: MS อย่างเดียว ลิ้นเหมาะ",
-   "ผ่าตัดลิ้นซ้าย → ซ่อม TR moderate+/ annulus ≥ 40 mm"
+   "Rheumatic MS: commissure เชื่อมติด ลิ้นหนา หินปูน chordae สั้น · severe MVA ≤ 1.5 cm² · very severe ≤ 1.0 cm² · อาการเหนื่อย AF ลิ่มเลือด ไอเป็นเลือด",
+   "PMBC: ทางเลือกแรกของ severe MS ที่มีอาการและลิ้นเหมาะ (Wilkins score ≤ 8) · ห้ามเมื่อมีลิ่มเลือดใน LA · MR ≥ ปานกลาง · หินปูนมาก · ต้องผ่าตัดหัวใจอื่นร่วม",
+   "ผ่าตัดในรูมาติก: ส่วนใหญ่ mitral valve replacement · open commissurotomy ทำได้ในลิ้นที่ยังนุ่ม",
+   "Degenerative MR: repair ดีกว่า replacement (เก็บ subvalvular apparatus รักษาการบีบตัวของ LV ไม่ต้องใช้ยาต้านเลือดตลอด)",
+   "TV surgery ร่วมกับผ่าตัดลิ้นซีกซ้าย: severe TR → Class 1 · TR ปานกลางหรือวงขยาย &gt; 40 mm (&gt; 21 mm/m²) หรือมี right heart failure → Class 2a · ส่วนใหญ่ ring annuloplasty",
+   "Anticoagulation ใน rheumatic MS ร่วม AF: warfarin (DOAC ด้อยกว่าตาม INVICTUS 2022) · ลิ้นเทียมแบบโลหะต้องใช้ warfarin ตลอดชีวิต",
+   "ป้องกันไข้รูมาติกซ้ำ: benzathine penicillin G ทุก 3–4 สัปดาห์ ระยะเวลาตามความรุนแรงของโรคหัวใจ (มักถึงอายุ 40 ปีหรือนานกว่า)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Mitral (rheumatic) เปลี่ยน · Tricuspid ซ่อม'</b>",
-  "guide": "ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72)",
+  "opinion": "เห็นด้วยกับคำตอบ D ตรงกับคีย์ในไฟล์ (ขีด D ลายมือ rheumatic → replacement และ TR → repair) ความมั่นใจสูง — severe TR ทำให้ต้องผ่าตัดแทน balloon ลิ้น mitral รูมาติกตีบรุนแรงเหมาะกับการเปลี่ยน และ functional TR เหมาะกับ annuloplasty ตามแนวทาง ACC/AHA 2020",
+  "mnemonic": "<b>'Rheumatic Mitral → \"Replace\" · Functional Tricuspid → \"Ring repair\"'</b>",
+  "guide": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021); 2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease (Eur Heart J 2025)",
   "variants": [
-   "MVR + annulus tricuspid 45 mm → TV annuloplasty",
-   "degenerative MR flail P2 → MV repair",
-   "severe MS ลิ้นยืดหยุ่น → PBMV"
+   "หญิง 28 ปีตั้งครรภ์ 20 สัปดาห์ severe MS เหนื่อยมาก ลิ้นบาง Wilkins score 7 ไม่มีลิ่มเลือดใน LA → PMBC ระหว่างตั้งครรภ์",
+   "severe MS ที่ TEE พบลิ่มเลือดใน left atrial appendage และไม่หายหลังให้ warfarin → ผ่าตัด MVR และเอาลิ่มเลือดออก (ห้ามทำ balloon)",
+   "ผู้ป่วยผ่าตัด MVR จาก MS วง tricuspid ขยาย 45 mm แต่ TR เพียงเล็กน้อย → พิจารณาทำ tricuspid ring annuloplasty ร่วมด้วย",
+   "ทำไมซ่อมลิ้นรูมาติกได้ผลไม่ทนทาน → กระบวนการอักเสบรูมาติกยังดำเนินต่อ ลิ้นหนาหดตัวต่อและหินปูนเพิ่ม ทำให้กลับตีบหรือรั่วซ้ำ"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 130 — ตัวพิมพ์: <b>57. ผู้ป่วยมี severe MS, mild MR, Severe TR มีอาการเหนื่อย ทำงานไม่ไหว ควรได้รับการรักษาด้วยวิธีใด — A. Adjust medication B. Balloon C. Mitral valve repair, tricuspid valve repair D. Mitral valve replacement, tricuspid valve repair E. Mitral valve replacement, tricuspid valve replacement</b><br>ลายมือ: \"almost always ใน rheumatic → replacement\" เหนือ severe MS · \"repair\" ใต้ Severe TR · ขีด D<br>ไฮไลต์: \"severe MS, mild MR, Severe TR\" \"เหนื่อย ทำงานไม่ไหว\" \"รับการรักษา\" · D (เหลือง)<br>รูปที่แปะ: สไลด์ MITRAL REGURGITATION — Repair is better outcome than replacement + ภาพ MV REPAIR TECHNIQUE (Neochordae · Triangular Resection · Quadrangular Resection)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 130",
@@ -263,64 +314,33 @@
    "kp67c_57"
   ]
  },
- "MDCU67|RoC|58": {
-  "interp": "<b>Lung abscess ไม่มีภาวะแทรกซ้อน</b> ระยะแรก นอกจากยาปฏิชีวนะควรทำอะไรเพิ่ม",
-  "why": "ยาปฏิชีวนะนาน + <b>postural drainage และ physiotherapy</b> ให้หนองไหลออกทางหลอดลม · หัตถการ (เจาะ/ ใส่ท่อ/ ผ่าตัด) สำรองไว้เมื่อไม่ตอบสนอง · ไฟล์ขีด A",
-  "wrong": {
-   "B": "ICD ใช้กับช่องเยื่อหุ้มปอด ไม่ใช่โพรงในปอด · จะถูกถ้า abscess แตกเข้าเยื่อหุ้มปอด",
-   "C": "Lobectomy เมื่อไม่ตอบสนอง/ massive hemoptysis/ สงสัยมะเร็ง · จะถูกถ้าคำถามถามข้อบ่งชี้ผ่าตัด",
-   "D": "เจาะดูดเมื่อไม่ตอบสนอง/ ก้อนใหญ่ · จะถูกถ้า abscess 8 cm ไข้ไม่ลง 2 สัปดาห์",
-   "E": "Bronchial stent ไม่ใช่การรักษา abscess · จะถูกถ้าคำถามถามมะเร็งกดหลอดลม"
-  },
-  "trap": "รีบทำหัตถการ",
-  "summary": [
-   "ATB 4–6 สัปดาห์ + postural drainage",
-   "Bronchoscopy: สิ่งแปลกปลอม/ มะเร็ง",
-   "ไม่ตอบสนอง → drainage",
-   "ผ่าตัด: &gt; 6 cm · massive hemoptysis · มะเร็ง",
-   "แตกเข้าเยื่อหุ้มปอด → ICD",
-   "Anaerobe: ampicillin-sulbactam/ clindamycin"
-  ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'Abscess ระยะแรก: ยา + จัดท่า'</b>",
-  "guide": "Shields' General Thoracic Surgery 8th ed. (2019) — Lung abscess",
-  "variants": [
-   "abscess หลังสำลัก 4 cm → ATB + postural drainage",
-   "ไม่ดีขึ้น 2 สัปดาห์ → percutaneous drainage",
-   "abscess + empyema → ICD"
-  ],
-  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 130 — ตัวพิมพ์: <b>58. ข้อใดเป็นสิ่งที่ควรทำเพิ่มเติมเพื่อรักษาผู้ป่วย lung abscess ที่ไม่มีภาวะแทรกซ้อน ในระยะแรก นอกจากการให้ยาปฏิชีวนะ — A. Postural drainage &amp; physiotherapy B. ICD C. Lobectomy D. Aspiration</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"สิ่งที่ควรทำเพิ่มเติม\" \"lung abscess ที่ไม่มีภาวะแทรกซ้อน\" \"นอกจากการให้ยาปฏิชีวนะ\" · A (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Bronchial stent)",
-  "src": "__01_3_MCQs_Key_2.pdf · หน้า 130",
-  "kimg": [
-   "fsk_p130",
-   "kp67c_58"
-  ]
- },
  "MDCU67|RoC|61": {
-  "interp": "ทารกแรกเกิด<b>น้ำลายมาก</b> ใส่ OG ไม่ผ่าน · CXR: <b>ปอดขวาแฟบ</b> และ<b>ไม่มีลมในท้อง</b> → ถามการวินิจฉัย",
-  "why": "OG ไม่ผ่าน = esophageal atresia · <b>ไม่มีลมในท้อง = ไม่มี distal TEF</b> → <b>pure EA without fistula (type A)</b> · ปอดแฟบจากสำลักน้ำลาย · รักษา: <b>gastrostomy</b> + ดูดน้ำลาย แล้ว<b>ซ่อมภายหลัง (delayed primary repair)</b> · ไฟล์ขีด A ลายมือ <b>\": no distal TEF\"</b> · <b>\"type A → delayed 1° repair ทำ gastrostomy รอ 6–12 mo ค่อยผ่า\"</b> และแปะ Gross classification",
+  "interp": "ทารกแรกเกิด<b>น้ำลายมากล้นปาก</b> ใส่สาย OG ลงไม่ได้ CXR พบปอดขวาแฟบ และ<b>ไม่มีลมในช่องท้องเลย (gasless abdomen)</b> — ถามชนิดของ esophageal atresia ตาม Gross classification ซึ่งแยกจากการมีหรือไม่มี distal tracheoesophageal fistula",
+  "why": "Esophageal atresia (EA) วินิจฉัยเมื่อทารกน้ำลายฟูมปาก สำลัก ไอ เขียวเวลาดูดนม และ<b>ใส่สาย OG/ NG ไม่ผ่าน</b> (CXR เห็นสายขดในถุงหลอดอาหารส่วนบน) · การดู<b>ลมในกระเพาะและลำไส้</b>บอกว่ามี <b>distal TEF</b> หรือไม่: ลมจากหลอดลมผ่าน fistula ลงกระเพาะได้เมื่อมี distal TEF (Gross C ราว 85% และ D ราว 1%) · ถ้า<b>ไม่มีลมในช่องท้อง</b> แสดงว่าไม่มี distal fistula = <b>Gross A (pure EA ราว 7–8%)</b> หรือ B (EA + proximal TEF ราว 2%) ซึ่งช้อยที่ตรงคือ A · ปอดขวาแฟบเกิดจากการสำลักน้ำลายจากถุงบน · pure EA มักเป็น <b>long-gap</b> (ปลายสองข้างห่างกันมาก) จึงไม่เย็บต่อทันที: ดูดถุงบนต่อเนื่องด้วย Replogle tube · ทำ <b>gastrostomy ให้อาหาร</b> · รอให้หลอดอาหารโตแล้วทำ <b>delayed primary anastomosis</b> หรือถ้าต่อไม่ได้ทำ esophageal replacement · ต้องหาความผิดปกติร่วมแบบ <b>VACTERL</b> โดยเฉพาะหัวใจ · ไฟล์ขีด A ลายมือ <b>\": no distal TEF\"</b> และ <b>\"type A → delayed 1° repair ทำ gastrostomy รอ 6–12 mo ค่อยผ่า\"</b>",
   "wrong": {
-   "B": "EA + distal TEF (type C) มีลมในท้อง · จะถูกถ้า CXR มีลมในกระเพาะ",
-   "C": "H-type ไม่มี atresia สายผ่านได้ · จะถูกถ้าสำลักขณะดูดนม ปอดอักเสบซ้ำ",
-   "D": "EA + ทั้งสอง fistula มีลมในท้อง · จะถูกถ้ามีลมในท้องและพบ fistula สองตำแหน่ง",
-   "E": "Congenital stricture มักอาการช่วงเริ่มอาหารแข็ง · จะถูกถ้าเด็ก 6 เดือนกลืนลำบาก"
+   "B": "EA ร่วมกับ distal TEF (Gross C) พบบ่อยที่สุดราว 85% ใส่สายไม่ผ่านเหมือนกัน แต่ลมจากหลอดลมลงกระเพาะผ่าน fistula ทำให้<b>มีลมในกระเพาะและลำไส้</b> ท้องอาจอืด และกรดไหลย้อนขึ้นปอดได้ · จะถูกถ้าเป็นทารกแรกเกิดน้ำลายฟูมปาก ใส่ OG ไม่ผ่าน CXR เห็นสายขดในถุงบนและมีลมในกระเพาะและลำไส้ ท้องอืด (เย็บปิด fistula และต่อหลอดอาหารภายในไม่กี่วันแรก)",
+   "C": "H-type TEF (Gross E ราว 4%) ไม่มี atresia หลอดอาหารต่อเนื่อง ใส่สาย OG ลงกระเพาะได้ อาการมาช้ากว่า เช่น ไอ สำลักเวลากินนม ปอดอักเสบซ้ำ ท้องอืดจากลม · จะถูกถ้าเป็นทารก 2 เดือนสำลักและไอทุกครั้งที่ดูดนม ปอดอักเสบ 3 ครั้ง ท้องอืด ทำ prone pull-back esophagogram หรือ bronchoscopy พบรูเชื่อมระดับคอ (ผ่าตัดทางคอ)",
+   "D": "EA ร่วมกับทั้ง proximal และ distal TEF (Gross D) พบน้อยมาก มีลมในช่องท้องเพราะมี distal fistula และมักพบ proximal fistula ขณะส่อง bronchoscopy ก่อนผ่าตัด · จะถูกถ้าเป็นทารกที่ใส่ OG ไม่ผ่าน มีลมในกระเพาะ และ bronchoscopy ก่อนผ่าตัดพบรูเชื่อมจากหลอดลมไปทั้งถุงหลอดอาหารบนและส่วนล่าง",
+   "E": "Congenital esophageal stenosis เป็นการตีบของหลอดอาหารส่วนกลางหรือล่าง (บางชนิดมีกระดูกอ่อนจากหลอดลมฝังอยู่) มักไม่มีอาการแรกเกิดเพราะนมเหลวผ่านได้ อาการกลืนติดหรืออาเจียนเริ่มเมื่อเริ่มอาหารข้น · จะถูกถ้าเป็นทารก 7 เดือนเริ่มกินข้าวบดแล้วอาเจียนและกลืนติด esophagogram พบหลอดอาหารส่วนล่างตีบเป็นช่วงสั้น"
   },
-  "trap": "ตอบ type C เพราะพบบ่อยที่สุด",
+  "trap": "ท่องว่า EA ที่พบบ่อยที่สุดคือมี distal TEF จึงเลือก B ทุกครั้ง · ต้องดู<b>ลมในช่องท้อง</b>: มีลม = มี distal fistula (C/ D) · ไม่มีลมเลย = pure EA (A) หรือ proximal fistula (B ใน Gross) · ปอดแฟบมาจากสำลักน้ำลาย ไม่ได้บอกว่ามี fistula",
   "summary": [
-   "Gross: A 7% · B 2% · C 86% · D &lt; 1% · H 4%",
-   "OG ขดในคอ = EA",
-   "ลมในท้อง = มี distal TEF",
-   "VACTERL work-up",
-   "Type C: primary repair",
-   "Long gap (A): gastrostomy → delayed repair"
+   "Gross classification: A pure EA ราว 7–8% · B EA + proximal TEF ราว 2% · C EA + distal TEF ราว 85% · D ทั้งสอง ราว 1% · E H-type TEF ราว 4%",
+   "ก่อนคลอด: polyhydramnios กระเพาะเล็กหรือไม่เห็นใน ultrasound · หลังคลอด: น้ำลายฟูมปาก สำลักตอนดูดนม ใส่ OG ไม่ผ่าน (ขดในถุงบนราว 10 cm จากเหงือก)",
+   "Gasless abdomen = ไม่มี distal fistula → pure EA ซึ่งมัก long-gap · มีลมในช่องท้อง = มี distal TEF",
+   "VACTERL: Vertebral · Anorectal · Cardiac · TE fistula · Renal · Limb · ต้องทำ echocardiography ทุกราย (หัวใจพิการเป็นตัวกำหนดการรอดชีวิตและบอกด้าน aortic arch)",
+   "Gross C: ดูด Replogle tube · ผ่าตัดทาง right thoracotomy (extrapleural) ปิด fistula และต่อหลอดอาหารแบบ primary ในไม่กี่วันแรก",
+   "Pure/ long-gap EA: gastrostomy ให้อาหาร · ดูดถุงบน · delayed primary anastomosis เมื่อหลอดอาหารโต (มักรอราว 2–3 เดือน) · ต่อไม่ได้ → gastric pull-up/ colon interposition หรือ Foker traction",
+   "ภาวะแทรกซ้อนหลังผ่าตัด: anastomotic leak · stricture (ขยายด้วยบอลลูน) · GERD · tracheomalacia · recurrent TEF"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'สายขด + ท้องไม่มีลม = Atresia ล้วน'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Esophageal atresia",
+  "opinion": "เห็นด้วยกับคำตอบ A ตรงกับคีย์ในไฟล์ (ขีด A ลายมือ no distal TEF) ความมั่นใจสูง — ใส่สายไม่ผ่านบอกว่ามี atresia และไม่มีลมในช่องท้องบอกว่าไม่มี distal fistula ซึ่งตรงกับ pure EA (ช้อย B–E เว็บเติมเองเพราะในไฟล์มีเพียงช้อย A) · ลายมือเขียนว่ารอ 6–12 เดือน ส่วนตำรามักรอราว 2–3 เดือนก่อนต่อ",
+  "mnemonic": "<b>'EA + ท้อง \"ไม่มีลม\" = ไม่มีทางลมลงท้อง = Pure EA (Gross A)'</b>",
+  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) Esophageal Atresia and Tracheoesophageal Fistula",
   "variants": [
-   "สายขด + มีลมในกระเพาะ → type C",
-   "สำลักทุกมื้อ ใส่สายได้ → H-type",
-   "EA + ไม่มีทวาร + หัวใจผิดปกติ → VACTERL"
+   "ทารกน้ำลายฟูมปาก ใส่ OG ไม่ผ่าน มีลมในกระเพาะ ไม่มีหัวใจพิการ น้ำหนัก 2.8 kg → Gross C → ปิด fistula และต่อหลอดอาหาร primary ทาง right thoracotomy",
+   "ทารก pure EA ระยะห่างของปลายหลอดอาหารวัดได้หลายช่วงกระดูกสันหลัง → gastrostomy + Replogle tube ดูดถุงบน รอทำ delayed primary anastomosis",
+   "ทารก EA มีหลอดเลือดแดงใหญ่โค้งไปทางขวาจาก echocardiography → พิจารณาผ่าตัดทาง left thoracotomy",
+   "หลังผ่าตัดต่อหลอดอาหาร 2 เดือน ทารกกลืนนมติด อาเจียน esophagogram พบรอยตีบที่รอยต่อ → balloon dilatation และรักษา GERD"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 131 — หัวข้อ Pediatric Surgery · ตัวพิมพ์: <b>61. Newborn มีexcessive salivation, OG cannot pass, CXR : Rt lung atelectesis, no air in abdomen ถามว่าเป็นอะไร — A. Proximal esophageal atresia without TE fistula</b><br>ลายมือ: \": no distal TEF\" · ขีด A + \"type A → delayed 1° repair ทำ gastrostomy รอ 6–12 mo ค่อยผ่า\"<br>ไฮไลต์: \"excessive salivation\" \"OG cannot pass\" \"CXR : Rt lung atelectesis\" \"no air in abdomen\" · A (เหลือง)<br>รูปที่แปะ: ภาพ Gross classification A B C D H + ตาราง A Isolated EA without tracheoesophageal fistula 7% · B EA with proximal TEF 2% · C EA with distal TEF 86% · D EA with proximal and distal TEF &lt;1% · H TEF with out EA 4% + ลายมือ<br>ที่ปรับในเว็บ: เติมช้อย B–E (ไฟล์มีเพียงช้อย A)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 131",
