@@ -1,29 +1,31 @@
 {
  "MDCU67|RoB|7": {
-  "interp": "ถามข้อ<b>ถูก</b>เกี่ยวกับ <b>biliary atresia</b>",
-  "why": "หลังผ่าตัด <b>Kasai (hepatic portoenterostomy)</b> ผลแบ่งได้ราว ๆ <b>1/3 ดี</b> (ดีซ่านหาย) · ที่เหลือ <b>~2/3 เกิด chronic liver disease</b> (cholangitis, portal hypertension, cirrhosis) และส่วนใหญ่ต้องปลูกถ่ายตับในที่สุด → ข้อ A ถูก · ข้ออื่นผิด: ควรผ่าตัด<b>ก่อน</b>อายุ 60 วัน (ยิ่งเร็วผลยิ่งดี) · ชนิดที่พบบ่อยที่สุดคือ <b>type 3 (ตีบตันที่ porta hepatis &gt; 90%)</b> · ผ่าตัดมาตรฐานคือ <b>hepatic portoenterostomy (Kasai)</b> ไม่ใช่ hepatoduodenostomy · ไฟล์ขีด A ลายมือ <b>\"s/p Kasai [1/3 → ดี]\"</b> · B แก้ \"หลัง\" → <b>\"ก่อน\"</b> และ 80 → <b>\"60\"</b> · C แก้ 2 → <b>\"3\"</b> และ common hepatic → <b>\"porta hepatis\"</b> · D แก้เป็น <b>\"hepatic portoenterostomy (Kasai)\"</b>",
+  "interp": "ถามข้อความที่ถูกเกี่ยวกับ biliary atresia — ต้องรู้ผลระยะยาวหลังผ่าตัด Kasai (ราวหนึ่งในสามดีระยะยาว ที่เหลือเป็นโรคตับเรื้อรัง) เวลาที่ควรผ่าตัด (ก่อน 60 วัน) ชนิดที่พบบ่อย (type 3 ที่ porta hepatis) และการผ่าตัดมาตรฐาน (hepatic portoenterostomy)",
+  "why": "<b>Biliary atresia</b> คือท่อน้ำดีนอกตับอักเสบและอุดตันจนเป็นพังผืด ทำให้ทารกอายุ 2–8 สัปดาห์<b>ตัวเหลืองนาน อุจจาระสีซีด ปัสสาวะสีเข้ม ตับโต</b> · ชนิด (Japanese/ Kasai): type 1 common bile duct (~5%), type 2 common hepatic duct (~2%), <b>type 3 ถึง porta hepatis ~90%</b> · การรักษา: <b>Kasai hepatic portoenterostomy</b> — ตัดพังผืดที่ porta hepatis แล้วต่อ Roux-en-Y jejunum เข้ากับ porta เพื่อให้น้ำดีจากท่อเล็กในตับไหลออก · ผลดีที่สุดเมื่อผ่าตัด<b>ก่อนอายุ 60 วัน</b> (ยิ่งเร็วยิ่งดี) · ผลระยะยาวราว<b>สามส่วน</b>: <b>~1/3 ดีระยะยาว</b>รักษาตับตัวเองได้ · ~1/3 น้ำดีไหลแต่ตับแข็งค่อยเป็นต้องปลูกถ่ายภายหลัง · ~1/3 ผ่าตัดไม่สำเร็จต้องปลูกถ่ายเร็ว → รวม<b>ราว 2/3 เป็นโรคตับเรื้อรัง</b> · biliary atresia เป็นข้อบ่งชี้ปลูกถ่ายตับในเด็กที่พบบ่อยที่สุด · ตรงคีย์ A — ไฟล์ขีด A เขียน \"<b>s/p Kasai [1/3 → ดี]</b>\" แก้ B เป็น \"<b>ก่อน 60</b>\" แก้ C เป็น \"<b>3 · porta hepatis</b>\" และแก้ D เป็น \"<b>hepatic portoenterostomy (Kasai)</b>\"",
   "wrong": {
-   "B": "ต้องผ่าตัด<b>ก่อน</b> 60 วัน (ลายมือแก้) · จะถูกถ้าข้อความว่า \"ควรผ่าตัดก่อนอายุ 60 วัน\"",
-   "C": "Type 3 (porta hepatis) พบบ่อยที่สุด &gt; 90% · type 2 ~2% (ลายมือแก้) · จะถูกถ้าข้อความว่า common type คือ type 3",
-   "D": "ผ่าตัดมาตรฐานคือ hepatic portoenterostomy (Kasai) — Roux-en-Y ต่อกับ porta hepatis · จะถูกถ้าคำถามถาม type 1 ที่มี cyst (ต่อ cyst กับลำไส้ได้)",
-   "E": "ผู้ป่วยส่วนใหญ่ต้องปลูกถ่ายตับในที่สุด (BA เป็นข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก) · จะถูกถ้าคำถามถามกลุ่ม Kasai ผลดีที่ดีซ่านหายสมบูรณ์ (บางรายไม่ต้องปลูกถ่าย)"
+   "B": "ตรงกันข้าม: ควรผ่าตัด<b>ก่อนอายุ 60 วัน</b> (ไฟล์ขีดฆ่า \"หลัง\" แก้เป็น \"ก่อน\") เพราะตับเป็นพังผืดมากขึ้นทุกสัปดาห์ ผลการระบายน้ำดีลดลงชัดเมื่อผ่าตัดหลัง 60–90 วัน · จะถูกถ้าเป็นทารกที่มาพบแพทย์ครั้งแรกเมื่ออายุ 120 วัน ตับแข็งมาก ม้ามโต ascites ซึ่งหลายสถาบันพิจารณาส่งปลูกถ่ายตับโดยตรงแทน Kasai",
+   "C": "ชนิดที่พบบ่อยที่สุดคือ <b>type 3</b> (อุดตันถึง porta hepatis ~90%) ไม่ใช่ type 2 ที่อุดเฉพาะ common hepatic duct (~2%) ตามที่ไฟล์แก้ · type 1 และ 2 ยังมีท่อส่วนต้นที่ต่อได้จึงพยากรณ์ดีกว่า · จะถูกถ้าเป็นทารกที่ intraoperative cholangiogram เห็นท่อน้ำดีในตับและท่อส่วนต้นเปิดดี มีเพียง common hepatic duct ที่ตีบตันเป็นพังผืด",
+   "D": "Hepatoduodenostomy (ต่อท่อกับ duodenum) ไม่ใช่มาตรฐานเพราะเสี่ยง cholangitis จากอาหารไหลย้อน การผ่าตัดมาตรฐานคือ <b>hepatic portoenterostomy (Kasai)</b> ด้วย Roux-en-Y loop ยาว ~40 cm · จะถูกถ้าเป็นเด็ก 4 ปีที่มี choledochal cyst ตัดถุงออกแล้วบางสถาบันเลือกต่อ hepaticoduodenostomy แทน hepaticojejunostomy",
+   "E": "ไม่จริง: biliary atresia เป็น<b>ข้อบ่งชี้ปลูกถ่ายตับในเด็กที่พบบ่อยที่สุด</b> (ราวครึ่งหนึ่งของการปลูกถ่ายตับเด็ก) เพราะราว 2/3 ของผู้ป่วยต้องปลูกถ่ายในที่สุด · จะถูกถ้าเป็นเด็กที่ทำ Kasai อายุ 40 วัน ตัวเหลืองหายภายใน 3 เดือน bilirubin ปกติ และติดตามถึงอายุ 20 ปีโดยตับยังทำงานดี (กลุ่มหนึ่งในสามที่ดีระยะยาว)"
   },
-  "trap": "จำตัวเลขสลับ — ผ่าตัดก่อน 60 วัน · type 3 พบบ่อยสุด · Kasai ไม่ใช่ hepatoduodenostomy",
+  "trap": "ช้อย B, C, D เขียนตัวเลขหรือชื่อที่ใกล้ความจริงแต่สลับ (หลัง/ ก่อน, type 2/ 3, hepatoduodeno/ portoentero) จึงต้องจำให้แม่น · ช้อย A ฟังดูแง่ร้ายจึงลังเล แต่ความจริงคือ<b>ผลระยะยาวแบ่งสามส่วน</b> และ 2/3 เป็นโรคตับเรื้อรัง",
   "summary": [
-   "BA: ดีซ่าน direct &gt; 2 สัปดาห์ · อุจจาระซีด · ปัสสาวะเข้ม",
-   "US: triangular cord sign · ถุงน้ำดีเล็ก/ ไม่มี",
-   "ยืนยัน: intraoperative cholangiogram",
-   "Kasai ก่อน 60 วัน",
-   "ผล Kasai: ~1/3 ดี · ~1/3 พอใช้ · ~1/3 แย่",
-   "BA = ข้อบ่งชี้ปลูกถ่ายตับที่พบบ่อยที่สุดในเด็ก"
+   "Biliary atresia: ~1 ใน 8,000–15,000 (เอเชียสูงกว่า) · ตัวเหลืองหลัง 2 สัปดาห์ + direct bilirubin สูง + อุจจาระซีด (stool color card) = ต้องตรวจด่วน",
+   "ตรวจ: US (triangular cord sign, ถุงน้ำดีเล็กหรือไม่มี), HIDA (ไม่มีสารไปลำไส้), MMP-7 ในเลือด, liver biopsy (bile duct proliferation, bile plug) → intraoperative cholangiogram ยืนยัน",
+   "Type 1 CBD ~5% · type 2 CHD ~2% · type 3 porta hepatis ~90% · ~10% มี BASM (polysplenia, situs inversus, preduodenal portal vein)",
+   "Kasai portoenterostomy ก่อน 60 วัน (ผลดีกว่าชัดถ้า &lt; 45 วัน) · Roux-en-Y ~40 cm · หลังผ่าตัดให้ steroid/ ursodeoxycholic acid/ prophylactic antibiotic ตามสถาบัน",
+   "ผลแบบสามส่วน: ~1/3 ดีระยะยาว · ~1/3 ตับแข็งค่อยเป็น · ~1/3 ล้มเหลวเร็ว → ~2/3 ต้องปลูกถ่ายตับในที่สุด",
+   "ภาวะแทรกซ้อน: cholangitis (พบบ่อยสุด ~40–60% ในปีแรก), portal hypertension, hepatopulmonary syndrome, ขาดวิตามินที่ละลายในไขมัน",
+   "ปลูกถ่ายตับ: ข้อบ่งชี้ที่พบบ่อยที่สุดในเด็ก · living donor (left lateral segment) อัตรารอดชีพ &gt; 90%"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'BA: Kasai ก่อน 60 · Type 3 ที่ Porta · 2/3 ตับยังเสื่อม'</b>",
-  "guide": "Hartley JL, et al. Biliary atresia. Lancet 2009;374:1704; Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Biliary atresia",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A และแก้ช้อยอื่นทั้งหมด) มั่นใจสูง — ผลหลัง Kasai แบ่งสามส่วนตามสไลด์ outcome ในไฟล์ ทำให้ราว 2/3 เป็นโรคตับเรื้อรัง · ข้อสังเกต: ตัวพิมพ์ในไฟล์เขียน B ว่า \"หลังอายุ 80 วัน\" แต่ลายมือแก้เป็น 60 เว็บใช้ 60 ตามที่แก้ และไฟล์ไม่มีช้อย E เว็บเติมเป็นข้อความผิดเรื่องการปลูกถ่ายตับ",
+  "mnemonic": "<b>'Biliary atresia: 60 วัน · Type 3 · Kasai · 1/3–1/3–1/3'</b>",
+  "guide": "Holcomb and Ashcraft Pediatric Surgery 7th ed. (2020) ch. Biliary atresia; Hartley JL, Davenport M, Kelly DA. Biliary atresia (Lancet 2009)",
   "variants": [
-   "ทารก 6 สัปดาห์ ดีซ่าน อุจจาระสีซีด direct bilirubin สูง → BA → Kasai ด่วน",
-   "หลัง Kasai ไข้ ดีซ่านกลับมา → cholangitis → IV ATB",
-   "หลัง Kasai ล้มเหลว ตับแข็ง → liver transplantation"
+   "ทารก 5 สัปดาห์ตัวเหลือง อุจจาระสีขาวซีด direct bilirubin 6 mg/dL US ไม่เห็นถุงน้ำดี → biliary atresia ผ่าตัด Kasai โดยเร็ว",
+   "หลัง Kasai 3 เดือนไข้ ตัวเหลืองกลับมา อุจจาระซีดลง → ascending cholangitis ให้ยาปฏิชีวนะฉีด",
+   "เด็ก 2 ปีหลัง Kasai ตับแข็ง ascites อาเจียนเป็นเลือดจาก varices → ส่งประเมินปลูกถ่ายตับ",
+   "ทำไมยิ่งผ่าเร็วยิ่งดี → พังผืดในตับเพิ่มต่อเนื่อง ท่อน้ำดีเล็กที่ porta หายไปเมื่อเวลาผ่านไป"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 113 — ตัวพิมพ์: <b>7. ข้อใดถูกเกี่ยวกับ biliary atresia — A. 2/3 จะ develop chronic liver disease B. ควรทำผ่าตัดหลังอายุ 80 วัน C. common type คือ type 2 (common hepatic duct) D. ควรทำ hepatoduodenostomy E.</b><br>ลายมือ: ขีด A + \"s/p Kasai [1/3 → ดี]\" · B ขีดฆ่า \"หลัง\" + \"ก่อน\" · ขีดฆ่า \"80\" + \"60\" · C ขีดฆ่า \"2\" + \"3\" · ขีดฆ่า \"common hepatic\" + \"porta hepatis\" · D ขีดฆ่า \"hepatoduodenostomy\" + \"hepatic portoenterostomy (Kasai)\"<br>ไฮไลต์: \"ถูกเกี่ยวกับ biliary atresia\" · A (เหลือง) · B, C (ส้ม)<br>รูปที่แปะ: ① สไลด์ Outcome of Kasai operation — Good outcome (40-60%) (ลายมือ \"~1/3\"): Jaundice-free, yellow stool, TB &lt; 2 mg% · Survival &gt; 5 years · Fair outcome (20-30%): Decreased Jaundice, yellow stool, but TB &gt; 2 mg% · Survival &gt; 3 years · Poor outcome (20-30%): Increased Jaundice and signs of chronic liver disease · Survival &lt; 3years ② ภาพ classification Type 1 (~5%) · Type 2 (~2%) · Type 3 (&gt;90%) (Hartley et al., Lancet 2009) + ข้อความ \"Type I: ตีบตันที่ common bile duct · Type II: ตีบตันที่ common hepatic duct · Type III (MC): ตีบตันที่ porta hepatis\"<br>ที่ปรับในเว็บ: ข้อ B เขียนเป็น \"after 60 days\" · เพิ่มช้อย E (Liver transplant is never needed) ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 113",
@@ -33,30 +35,32 @@
   ]
  },
  "MDCU67|RoB|8": {
-  "interp": "ถามข้อ<b>ผิด</b>เกี่ยวกับ <b>anorectal malformation (ARM)</b>",
-  "why": "<b>Prone cross-table lateral film (invertogram)</b> ใช้วัดระยะปลายลำไส้ถึงผิวหนังเพื่อแยก high/ low <b>เฉพาะรายที่ไม่มี fistula ให้เห็น</b> (ทำหลังอายุ ~24 ชม.) · รายที่มี perineal fistula เห็นชัดไม่จำเป็นต้องทำ → \"ทุกราย\" ผิด = B · ข้ออื่นถูก: ARM สัมพันธ์กับ <b>VACTERL</b> · ส่วนใหญ่มี fistula ร่วม · rectourethral fistula (high/ intermediate) ต้อง <b>colostomy ก่อน</b> แล้วจึง PSARP และปิด colostomy (3 ขั้น) · ต้องตรวจกระดูกสันหลัง/ sacrum (tethered cord, sacral ratio) · ไฟล์ขีด B ขีดฆ่า \"ทุกราย\" เขียน <b>\"กรณี no fistula\"</b> + <b>\"invertogram\"</b> · A ลายมือ <b>\"vertebral cardiac renal anorectal TEF limb\"</b> ✓ · C <b>\"high type → 3 step Sx\"</b> ✓ · D ✓",
+  "interp": "ถามข้อความที่ผิดเกี่ยวกับ anorectal malformation — ต้องรู้ว่าส่วนใหญ่มี fistula ที่ตรวจเห็นได้ใน 24 ชม. แรก ภาพรังสี prone cross-table lateral ใช้เฉพาะกรณีไม่เห็น fistula ส่วนชนิดสูง (rectourethral fistula) ทำ colostomy ก่อน และต้องตรวจ VACTERL และกระดูกสันหลังทุกราย",
+  "why": "<b>Anorectal malformation (ARM)</b> พบราว 1 ใน 5,000 · <b>ส่วนใหญ่ (~95%) มี fistula</b> เปิดที่ perineum (ชนิดต่ำ) หรือเข้าทางเดินปัสสาวะ/ ช่องคลอด (ชนิดสูง) · หลักการแรก: <b>รอ 24 ชั่วโมง</b>ให้แรงดันในลำไส้ดันขี้เทาออกมาทาง fistula แล้ว<b>ตรวจ perineum และปัสสาวะ</b> (ขี้เทาในปัสสาวะ = rectourinary fistula) · <b>prone cross-table lateral film</b> (หรือ invertogram แบบเก่า) ใช้<b>เฉพาะเมื่อไม่เห็น fistula</b>หลัง 24 ชม. เพื่อวัดระยะปลายลำไส้กับผิวหนัง (&lt; 1 cm ทำ PSARP ได้ &gt; 1 cm ทำ colostomy) จึงไม่ใช่ \"ทุกราย\" · ชนิดสูงในเด็กชาย (<b>rectourethral/ rectovesical fistula</b>) → <b>สามขั้น</b>: colostomy → PSARP (posterior sagittal anorectoplasty) ราว 1–3 เดือน → ปิด colostomy · ชนิดต่ำ (perineal fistula) → anoplasty ในช่วงแรกเกิด · ตรวจหา <b>VACTERL</b> และ<b>กระดูกสันหลัง/ sacrum</b> (sacral ratio, tethered cord) ทุกราย · ข้อ B จึงผิด — ไฟล์ขีด B ขีดฆ่า \"<b>ทุกราย</b>\" เขียนแทนว่า \"<b>กรณี no fistula</b>\" และเขียนที่ C ว่า \"<b>high type → 3 step Sx</b>\"",
   "wrong": {
-   "A": "ถูก — ARM เป็นส่วนหนึ่งของ VACTERL (ลายมือ) · จะถูกถ้าข้อความว่า ARM ไม่สัมพันธ์กับความผิดปกติอื่น",
-   "C": "ถูก — rectourethral fistula เป็น high/ intermediate ต้อง colostomy ก่อน (3 ขั้น) · จะถูกถ้าข้อความว่า rectourethral fistula ทำ anoplasty ได้เลย",
-   "D": "ถูก — ARM ส่วนใหญ่มี fistula (perineal, rectourethral, rectovestibular) · จะถูกถ้าข้อความว่าส่วนใหญ่ไม่มี fistula",
-   "E": "ถูก — ต้องตรวจ sacrum/ spine (tethered cord) ซึ่งมีผลต่อพยากรณ์การกลั้นอุจจาระ · จะถูกถ้าข้อความว่าไม่ต้องตรวจกระดูกสันหลัง"
+   "A": "ข้อความนี้จริง: ARM สัมพันธ์กับ <b>VACTERL</b> (Vertebral, Anorectal, Cardiac, TE fistula, Renal, Limb) ราว 50–60% มีความผิดปกติอื่นร่วม ที่พบบ่อยคือไตและทางเดินปัสสาวะ จึงต้อง echo, US ไต, X-ray กระดูกสันหลัง และใส่สายลงกระเพาะทุกราย · จะถูกถ้าเป็นทารกที่มีแค่ anal stenosis เล็กน้อยจากผิวหนังหนาบริเวณทวาร ซึ่งเป็นความผิดปกติต่ำมากที่มักไม่มี VACTERL ร่วม",
+   "C": "ข้อความนี้จริง: เด็กชายที่มี <b>rectourethral fistula</b> เป็นชนิดสูง ต้อง <b>colostomy ก่อน</b> (divided descending colostomy) แล้วจึงทำ PSARP และปิด colostomy (3 ขั้นตามลายมือ) บางศูนย์ทำ primary PSARP ในทารกที่แข็งแรงแต่ไม่ใช่มาตรฐานทั่วไป · จะถูกถ้าเป็นทารกชายที่มี perineal fistula (รูเปิดเล็กหน้าตำแหน่งทวารปกติ) ซึ่งทำ anoplasty ได้เลยโดยไม่ต้อง colostomy",
+   "D": "ข้อความนี้จริง: <b>ส่วนใหญ่ (~95%) มี fistula</b> — เด็กชายพบ rectourethral (bulbar/ prostatic) และ perineal fistula บ่อย เด็กหญิงพบ rectovestibular fistula บ่อยที่สุด ชนิด<b>ไม่มี fistula</b>พบเพียง ~5% และครึ่งหนึ่งเป็น Down syndrome · จะถูกถ้าเป็นทารก Down syndrome ที่ไม่มีรูทวาร ไม่มีขี้เทาออกที่ perineum หรือปัสสาวะหลัง 24 ชม. (ARM without fistula)",
+   "E": "ข้อความนี้จริง: ต้องตรวจ<b>กระดูกสันหลังและ sacrum</b> ทุกราย (X-ray ดู sacral ratio, hemivertebra และ US/ MRI ไขสันหลังหา tethered cord) เพราะ sacrum ผิดรูปบอกพยากรณ์การกลั้นอุจจาระที่แย่ · จะถูกถ้าเป็นทารกที่มี anal fissure เล็กน้อยจากท้องผูก ซึ่งไม่ใช่ ARM และไม่ต้องตรวจ sacrum"
   },
-  "trap": "คิดว่าต้องทำ invertogram ทุกราย — ใช้เฉพาะรายที่ไม่เห็น fistula หลัง 24 ชม.",
+  "trap": "คำว่า \"ทุกราย\" ที่ฟังดูเคร่งครัดทำให้คนคิดว่าถูก — หลักของ ARM คือ<b>รอ 24 ชม. แล้วดู perineum และปัสสาวะ</b> ส่วนใหญ่เห็น fistula และวางแผนได้เลย ภาพ prone cross-table lateral ใช้เฉพาะ<b>กรณีไม่เห็น fistula</b>",
   "summary": [
-   "ARM: รอ 24 ชม. ดู meconium ทาง perineum/ ปัสสาวะ",
-   "Perineal fistula (low) → anoplasty/ PSARP ไม่ต้อง colostomy",
-   "Rectourethral/ ไม่เห็น fistula + ปลายลำไส้สูง → colostomy → PSARP → ปิด colostomy",
-   "Cross-table lateral (prone) เมื่อไม่มี fistula ให้เห็น",
-   "ตรวจ VACTERL: echo · US ไต · กระดูกสันหลัง/ sacrum · แขนขา · TEF",
-   "ผู้หญิง: rectovestibular fistula พบบ่อยสุด"
+   "ARM ~1 ใน 5,000 · ส่วนใหญ่มี fistula (~95%) · ไม่มี fistula ~5% (ครึ่งหนึ่ง Down syndrome)",
+   "ชาย: perineal fistula (ต่ำ) · rectourethral bulbar/ prostatic · rectobladder neck (สูงสุด) · หญิง: perineal, vestibular (พบบ่อยสุด), cloaca (ท่อเดียว)",
+   "รอ 24 ชม. → ดู perineum + ขี้เทาในปัสสาวะ · ไม่เห็น fistula → prone cross-table lateral (ระยะ &lt; 1 cm → PSARP, &gt; 1 cm → colostomy)",
+   "Perineal fistula → anoplasty แรกเกิด · ชนิดอื่น → colostomy → PSARP (1–3 เดือน) → ปิด colostomy · หลังผ่าตัดขยายทวาร (Hegar)",
+   "VACTERL work-up: echo, US ไต/ กระเพาะปัสสาวะ, X-ray กระดูกสันหลังและ sacrum, US/ MRI ไขสันหลัง, ใส่ OG tube (หา EA)",
+   "Sacral ratio &lt; 0.4 + tethered cord → พยากรณ์การกลั้นอุจจาระไม่ดี",
+   "Cloaca: ทวาร ช่องคลอด และท่อปัสสาวะรวมเป็นท่อเดียว · ยาว &gt; 3 cm ซับซ้อนมาก ต้องศูนย์เฉพาะทาง"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'Invertogram เฉพาะ \"ไม่เห็นรู\" · Fistula ในท่อปัสสาวะ = Colostomy ก่อน'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Anorectal malformations; Levitt MA, Peña A. Orphanet J Rare Dis 2007;2:33",
+  "opinion": "เห็นด้วยกับคีย์ B (ไฟล์ขีด B และแก้เป็น \"กรณี no fistula\") มั่นใจสูง — ภาพ prone cross-table lateral ไม่ต้องทำทุกราย ใช้เมื่อไม่เห็น fistula หลัง 24 ชม. · ไฟล์ไม่มีช้อย E เว็บเติม \"Assess spine and sacrum\" ซึ่งเป็นข้อความจริงตามแนวทางปัจจุบัน",
+  "mnemonic": "<b>'ARM: รอ 24 ชม. → ดูก้น ดูปัสสาวะ → เห็นรู = วางแผนได้ · ไม่เห็นรู = cross-table lateral'</b>",
+  "guide": "Levitt MA, Peña A. Anorectal malformations (Orphanet J Rare Dis 2007); Holcomb and Ashcraft Pediatric Surgery 7th ed. (2020) ch. Anorectal atresia and cloacal malformations",
   "variants": [
-   "ทารกชายไม่มีทวาร มี meconium ในปัสสาวะ → rectourethral fistula → colostomy",
-   "ทารกมี meconium ออกที่ฝีเย็บ → perineal fistula → anoplasty",
-   "ทารกไม่มีทวาร ไม่เห็น fistula หลัง 24 ชม. → prone cross-table lateral"
+   "ทารกชายไม่มีรูทวาร 24 ชม. ต่อมาเห็นขี้เทาในปัสสาวะ → rectourethral fistula ทำ colostomy ก่อน",
+   "ทารกชายมีรูเล็กเปิดหน้าตำแหน่งทวารปกติมีขี้เทาออก → perineal fistula ทำ anoplasty",
+   "ทารกหญิงมีรูเดียวที่ perineum → cloaca ใส่ colostomy ระบาย และประเมิน hydrocolpos/ ไต",
+   "ทำไมต้องรอ 24 ชม. ก่อนตัดสินใจ → ต้องให้แรงดันในลำไส้ดันขี้เทาผ่าน fistula ออกมาให้เห็น"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 114 — ตัวพิมพ์: <b>8. ข้อใดผิดเกี่ยวกับ anorectal malformation — A. Associate กับ VACTERL B. ต้องทำ x-ray lateral prone cross table ทุกราย C. ถ้ามี urethrorectal fistula ต้องทำ colostomy ก่อน D. ส่วนใหญ่มักจะมี fistula ร่วมด้วย E.</b><br>ลายมือ: A \"vertebral cardiac renal / anorectal TEF limb\" ✓ · ขีด B + \"· invertogram\" · ขีดฆ่า \"ทุกราย\" + \"กรณี no fistula\" · C \"high type → 3 step Sx\" ✓ · D ✓<br>ไฮไลต์: \"ผิด\" \"anorectal malformation\" · A, C, D (ส้ม) · B (เหลือง)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Assess spine and sacrum) ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 114",
@@ -66,30 +70,32 @@
   ]
  },
  "MDCU67|RoB|9": {
-  "interp": "เด็กชายมี <b>non-communicating hydrocele</b> ไม่มีอาการ → ถามเวลาที่ควรผ่าตัด",
-  "why": "Non-communicating hydrocele ในทารกเกิดจาก processus vaginalis ปิดแล้วแต่ยังมีน้ำค้าง → <b>ส่วนใหญ่ดูดซึมหายเองภายใน 1–2 ปีแรก</b> · จึง<b>สังเกตอาการ</b>และผ่าตัด (hydrocelectomy) เมื่อ<b>ยังคงอยู่เกินอายุ ~1–2 ปี</b> · คีย์ไฟล์ตอบ E (&gt; 2 ปี) · ส่วน communicating hydrocele (ขนาดเปลี่ยนตามวัน) เสี่ยงเป็นไส้เลื่อน ผ่าตัดเร็วกว่า · ไฟล์ขีด E และแปะข้อความตำรา (ลายมือ \"ตำราศัลยฯ\") <b>\"Hydrocele ในเด็กเล็กอายุยุบหายได้เอง ดังนั้นไม่จำเป็นต้องทำผ่าตัด แต่หากพบในเด็กอายุเกิน 1 ปี หรือถุงน้ำยังคงอยู่เมื่อตรวจติดตามจนเด็กอายุเกิน 1 ปี ให้รักษาโดยการผ่าตัดทำ hydrocelectomy\"</b>",
+  "interp": "เด็กชายมี non-communicating hydrocele ไม่มีอาการ ถามว่าควรผ่าตัดเมื่อใด — ต้องรู้ว่า hydrocele ในทารกส่วนใหญ่ยุบเองเมื่อ processus vaginalis ปิดและน้ำถูกดูดซึม จึงเฝ้าดูได้ถึงอายุราว 1–2 ปี ผ่าตัดเมื่อยังไม่หายหลังจากนั้น",
+  "why": "<b>Hydrocele</b> คือน้ำสะสมใน tunica vaginalis · ในเด็กเกิดจาก <b>processus vaginalis</b> ปิดไม่สมบูรณ์ · <b>Non-communicating</b>: ช่องปิดแล้วเหลือน้ำค้างในถุง ขนาดคงที่ ไม่เปลี่ยนตามเวลา · <b>Communicating</b>: ช่องยังเปิดถึงช่องท้อง ขนาด<b>เปลี่ยนในวัน</b> (เล็กตอนเช้า ใหญ่ตอนเย็นหรือหลังร้อง) ซึ่งเป็นไส้เลื่อนชนิดหนึ่ง · hydrocele ในทารกส่วนใหญ่<b>ยุบเองภายใน 12–24 เดือน</b> จึง<b>เฝ้าดู</b> · ผ่าตัดเมื่อ<b>ยังไม่หายเมื่ออายุ &gt; 2 ปี</b> (บางแนวทางใช้ 1–2 ปี), มีขนาดใหญ่ตึง, หรือเป็นชนิด communicating ที่มีแนวโน้มเป็นไส้เลื่อน · การผ่าตัดในเด็กคือ <b>inguinal approach ผูก patent processus vaginalis (high ligation)</b> เหมือนผ่าตัดไส้เลื่อน ไม่ใช่ผ่าทางถุงอัณฑะแบบผู้ใหญ่ · ตรงคีย์ E — ไฟล์ขีด E และแปะข้อความตำราศัลยศาสตร์ว่า hydrocele ในเด็กเล็ก<b>ยุบหายได้เอง</b>",
   "wrong": {
-   "A": "ผ่าตัดทันทีไม่จำเป็น ส่วนใหญ่หายเอง · จะถูกถ้าคำถามถาม inguinal hernia (ผ่าตัดเมื่อวินิจฉัย)",
-   "B": "&lt; 1 เดือนเร็วเกินไป · จะถูกถ้าคำถามถาม incarcerated hernia ในทารกแรกเกิด",
-   "C": "&lt; 1 ปียังอยู่ในช่วงที่หายเองได้ · จะถูกถ้าคำถามถาม hydrocele ที่ใหญ่ตึงมากหรือเป็น communicating ชัด",
-   "D": "&lt; 2 ปียังอยู่ในช่วงรอ (ตำราในไฟล์ใช้ &gt; 1 ปี) · จะถูกถ้าคำถามใช้เกณฑ์ \"ผ่าตัดเมื่อเกิน 1 ปีแต่ก่อน 2 ปี\""
+   "A": "การผ่าตัดทันทีที่พบไม่จำเป็นสำหรับ non-communicating hydrocele เพราะส่วนใหญ่หายเอง และการดมยาสลบในทารกมีความเสี่ยงโดยไม่ได้ประโยชน์ · จะถูกถ้าเป็นเด็กชาย 1 ปีที่มีก้อนขาหนีบลงถุงอัณฑะ ใหญ่ขึ้นเวลาร้องและดันกลับได้ (inguinal hernia) ซึ่งต้องนัดผ่าตัดเร็วหลังวินิจฉัยเพราะเสี่ยงติดค้าง",
+   "B": "การผ่าตัดในเดือนแรกยิ่งเสี่ยงต่อยาสลบ (โดยเฉพาะทารกคลอดก่อนกำหนดที่มี apnea หลังดมยา) และไม่จำเป็นสำหรับ hydrocele ที่ยุบเองได้ · จะถูกถ้าเป็นทารกคลอดก่อนกำหนดอายุ 3 สัปดาห์ที่มี inguinal hernia ติดค้างดันกลับไม่ได้ ซึ่งต้องผ่าตัดด่วนแม้อายุน้อย",
+   "C": "อายุก่อน 1 ปียังเป็นช่วงที่ hydrocele ยุบเองได้มาก การผ่าตัดในช่วงนี้จึงเร็วเกินไป แนวทางส่วนใหญ่รอถึง 1–2 ปี · จะถูกถ้าเป็นทารก 8 เดือนที่ hydrocele เป็นชนิด communicating ขนาดเปลี่ยนชัดในวัน ใหญ่ขึ้นเรื่อย ๆ และคลำได้ไส้เลื่อนที่ขาหนีบร่วม",
+   "D": "ก่อนอายุ 2 ปียังเป็นช่วงเฝ้าดูตามที่ไฟล์เลือก และเป็นตัวเลือกที่ใกล้เคียงกับแนวทางบางแหล่งที่ผ่าตัดเมื่อไม่หายใน 12–18 เดือน แต่ข้อนี้ใช้เกณฑ์ &gt; 2 ปี · จะถูกถ้าเป็นเด็กชาย 18 เดือน hydrocele ขนาดใหญ่ตึงจนเดินลำบาก หรือมีขนาดเพิ่มขึ้นเรื่อย ๆ ซึ่งพิจารณาผ่าตัดก่อนอายุ 2 ปี"
   },
-  "trap": "ผ่าตัดทันทีเหมือน hernia — non-communicating hydrocele หายเองได้",
+  "trap": "คนเทียบกับ inguinal hernia ในเด็กที่ต้องผ่าเร็ว จึงเลือกผ่าตัดทันทีหรือก่อน 1 ปี — <b>non-communicating hydrocele ยุบเองบ่อย</b> จึงรอถึง &gt; 2 ปี ส่วนชนิด communicating ที่ขนาดเปลี่ยนในวันคือไส้เลื่อนซึ่งผ่าเร็วกว่า",
   "summary": [
-   "Non-communicating: ขนาดคงที่ · หายเองส่วนใหญ่ใน 1–2 ปี",
-   "Communicating: ขนาดเปลี่ยน (เล็กตอนเช้า ใหญ่ตอนเย็น) → ผ่าตัดแบบ hernia (high ligation)",
-   "Transillumination บวก",
-   "ผ่าตัดเมื่อยังอยู่หลัง 1–2 ปี หรือตึงมาก/ สงสัย hernia",
-   "เด็กโต/ ผู้ใหญ่: US หาสาเหตุ (เนื้องอก/ อักเสบ)",
-   "Hydrocele of cord: ก้อนตามสายอสุจิ"
+   "Hydrocele เด็ก: patent processus vaginalis · ส่องไฟทะลุ (transillumination) · คลำขอบบนของก้อนได้ (ต่างจากไส้เลื่อนที่ต่อขึ้นไปขาหนีบ)",
+   "Non-communicating: ขนาดคงที่ ส่วนใหญ่ยุบเองใน 12–24 เดือน → เฝ้าดู ผ่าเมื่อ &gt; 2 ปีหรือมีอาการ",
+   "Communicating: ขนาดเปลี่ยนในวัน → ผ่าตัด (ถือเป็นไส้เลื่อน) โดยทั่วไปหลังอายุ 1–2 ปีถ้าไม่หาย หรือเร็วถ้ามีไส้เลื่อนชัด",
+   "ผ่าตัดเด็ก: inguinal incision ผูก processus vaginalis (high ligation) + เปิดถุง/ ระบายน้ำ · ผู้ใหญ่ใช้ scrotal approach (Jaboulay, Lord)",
+   "Hydrocele of the cord: ก้อนตามแนว spermatic cord แยกจากอัณฑะ · encysted",
+   "Hydrocele เกิดใหม่ในเด็กโตหรือผู้ใหญ่ → US หาสาเหตุ (เนื้องอกอัณฑะ, epididymitis, torsion, บาดเจ็บ)",
+   "Inguinal hernia เด็ก: ไม่หายเอง เสี่ยงติดค้างสูงในทารก → ผ่าตัดเร็ว"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 · ข้อความตำราที่แปะในไฟล์ใช้เกณฑ์ \"เกิน 1 ปี\" ส่วน EAU ใช้ 12–24 เดือน",
-  "mnemonic": "<b>'Hydrocele ทารก: รอ 1–2 ขวบ · ไส้เลื่อน: ผ่าเลย'</b>",
-  "guide": "EAU Guidelines on Paediatric Urology (2025) — Hydrocele",
+  "opinion": "เห็นด้วยกับคีย์ E (ไฟล์ขีด E) มั่นใจปานกลางถึงสูง — non-communicating hydrocele ที่ไม่มีอาการให้รอจนอายุมากกว่า 2 ปีตามตำราที่ไฟล์แปะ · ข้อสังเกต: AUA และบางตำราให้ผ่าตัดเมื่อยังไม่หายหลัง 12–18 เดือน จึงมีความต่างระหว่างแหล่ง แต่ทุกแหล่งยอมรับว่าเฝ้าดูได้อย่างน้อยถึงขวบปีแรก",
+  "mnemonic": "<b>'Hydrocele เด็ก: น้ำนิ่ง (non-comm) รอ &gt; 2 ปี · น้ำขึ้นลง (comm) = ไส้เลื่อน ผ่า'</b>",
+  "guide": "Holcomb and Ashcraft Pediatric Surgery 7th ed. (2020) ch. Inguinal hernias and hydroceles; Kolon TF et al. Evaluation and Treatment of Cryptorchidism: AUA Guideline (J Urol 2014) ส่วน hydrocele/ hernia ร่วม",
   "variants": [
-   "ทารก 3 เดือน ถุงอัณฑะบวมน้ำใส ขนาดคงที่ → สังเกต",
-   "เด็ก 2.5 ปี hydrocele ยังอยู่ → hydrocelectomy",
-   "ทารกถุงอัณฑะใหญ่ตอนเย็น ยุบตอนเช้า → communicating → high ligation"
+   "ทารก 3 เดือนถุงอัณฑะขวาบวมใส ส่องไฟทะลุ ขนาดคงที่ → non-communicating hydrocele เฝ้าดู",
+   "เด็ก 3 ปี hydrocele ยังไม่หาย → inguinal high ligation of processus vaginalis",
+   "เด็ก 2 ปีถุงอัณฑะเล็กตอนเช้า ใหญ่ตอนเย็น → communicating hydrocele นัดผ่าตัด",
+   "ชาย 25 ปีเกิด hydrocele ใหม่ทันที → US อัณฑะหาเนื้องอกก่อนผ่าตัด"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 114 — ตัวพิมพ์: <b>9. เด็กชายมี non-communicating hydrocele ไม่มีอาการใดๆ ควรทำการผ่าตัดเมื่อใด — A. ทันทีที่พบ B. เมื่ออายุน้อยกว่า 1 เดือน C. เมื่ออายุน้อยกว่า 1 ปี D. เมื่ออายุน้อยกว่า 2 ปี E. เมื่ออายุมากกว่า 2 ปี</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"non-communicating hydrocele\" \"ผ่าตัดเมื่อใด\" · E (เหลือง)<br>รูปที่แปะ: ① ข้อความตำรา (ลายมือ \"ตำราศัลยฯ\") — \"Hydrocele ในเด็กเล็กอายุยุบหายได้เอง ดังนั้นไม่จำเป็นต้องทำผ่าตัด แต่หากพบในเด็กอายุเกิน 1 ปี หรือถุงน้ำยังคงอยู่ เมื่อตรวจติดตามจนเด็กอายุเกิน 1 ปี ให้รักษาโดยการผ่าตัดทำ hydrocelectomy\" ② ภาพ transillumination test positive ③ แผนภาพ Communicating hydrocele · Hydrocele of cord · Non-communicating hydrocele + ลายมือ",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 114",
@@ -99,30 +105,32 @@
   ]
  },
  "MDCU67|RoB|10": {
-  "interp": "ถามผลชิ้นเนื้อทวารหนัก (rectal biopsy) ใน <b>Hirschsprung disease</b>",
-  "why": "Hirschsprung disease: ลำไส้ส่วนปลาย<b>ไม่มี ganglion cells</b> (aganglionosis) ใน submucosal และ myenteric plexus · พบ<b>เส้นใยประสาท hypertrophic</b> และ <b>acetylcholinesterase (AChE) activity เพิ่มขึ้น</b>ใน lamina propria/ muscularis mucosae → C · วินิจฉัยด้วย <b>suction rectal biopsy</b> (มาตรฐาน) · ไฟล์ขีด C และแปะ mind map Hirschsprung's disease",
+  "interp": "ถามผลชิ้นเนื้อทางทวารหนักใน Hirschsprung disease — ต้องรู้ว่าโรคเกิดจากไม่มี ganglion cell ในผนังลำไส้ส่วนปลาย และใยประสาท cholinergic เพิ่มขึ้น ซึ่งย้อมเห็นเป็น acetylcholinesterase (AChE) สูง",
+  "why": "<b>Hirschsprung disease</b> เกิดจาก <b>neural crest cell เคลื่อนลงไม่ถึง</b>ลำไส้ส่วนปลาย (สัปดาห์ที่ 5–12) ทำให้<b>ไม่มี ganglion cell</b> ทั้งใน <b>submucosal (Meissner)</b> และ <b>myenteric (Auerbach) plexus</b> เริ่มจาก internal anal sphincter ขึ้นไปต่อเนื่อง (rectosigmoid ~75–80%) · ลำไส้ส่วนนั้นหดตัวค้าง ไม่คลาย เกิดการอุดตันแบบ functional · ส่วนเหนือขึ้นไปขยาย · ชิ้นเนื้อ (<b>suction rectal biopsy</b> เหนือ dentate line 1–3 cm ในทารก เป็นมาตรฐาน): <b>ไม่พบ ganglion cell</b>, <b>เส้นใยประสาทหนาตัว (hypertrophied nerve trunks &gt; 40 µm)</b> และ <b>AChE staining เพิ่มขึ้น</b>ใน lamina propria/ muscularis mucosae จากใยประสาท cholinergic ภายนอก · ย้อม <b>calretinin ลบ</b> ช่วยยืนยัน · ตรงคีย์ C — ไฟล์ขีด C และขีดคั่น \"<b>Absent ganglion cell / increased AChE activity</b>\"",
   "wrong": {
-   "A": "Ganglion cells ไม่เพิ่ม · จะถูกถ้าคำถามถาม intestinal neuronal dysplasia type B (hyperganglionosis)",
-   "B": "Ganglion cells ไม่เพิ่ม และ AChE ไม่ลด · จะถูกถ้าคำถามถามรอยโรคที่ไม่เกี่ยวกับ HD",
-   "D": "AChE เพิ่มขึ้น ไม่ใช่ลดลง · จะถูกถ้าข้อความว่า AChE เพิ่มขึ้น",
-   "E": "ผลปกติจะตัด HD ได้ · จะถูกถ้าคำถามถาม functional constipation"
+   "A": "Ganglion cell เพิ่มขึ้นไม่ใช่ภาพของ Hirschsprung · การมี ganglion cell มากผิดปกติร่วมกับ giant ganglia พบใน <b>intestinal neuronal dysplasia type B</b> ซึ่งเป็นโรคเลียนแบบที่ทำให้ท้องผูกเรื้อรัง · จะถูกถ้าเป็นเด็ก 3 ปีท้องผูกเรื้อรัง rectal biopsy พบ hyperganglionosis มี giant submucosal ganglia (&gt; 8 เซลล์ต่อ ganglion) และ AChE สูง",
+   "B": "Ganglion cell เพิ่มขึ้นร่วม AChE ลดลงไม่ใช่ภาพของโรคใดที่ชัดเจนใน Hirschsprung · การพบ ganglion cell ในชิ้นเนื้อที่ได้ความลึกพอ<b>ตัดโรค Hirschsprung ได้</b> · จะถูกถ้าเป็นเด็ก 2 ปีที่มี functional constipation (กลั้นอุจจาระ) rectal biopsy พบ ganglion cell ปกติ และ calretinin บวก ซึ่งไม่ใช่ Hirschsprung",
+   "D": "Ganglion cell ไม่มีถูกต้อง แต่ AChE <b>เพิ่มขึ้น</b> ไม่ใช่ลดลง เพราะใยประสาท cholinergic ภายนอกงอกเข้ามาแทนมาก · AChE ปกติหรือต่ำร่วมไม่มี ganglion อาจพบเมื่อชิ้นเนื้อเอามาจากตำแหน่งต่ำเกินไป (ใกล้ dentate line ซึ่งมี hypoganglionic zone ปกติ) · จะถูกถ้าเป็นชิ้นเนื้อจากทารกที่ตัดต่ำเกินที่ระดับ dentate line ซึ่งปกติมีเซลล์ประสาทน้อยอยู่แล้ว ทำให้ผลอ่านผิดและต้องทำซ้ำสูงขึ้น",
+   "E": "Ganglion cell และ AChE ปกติหมายถึงลำไส้ปกติ <b>ตัดโรค Hirschsprung</b> · อาการท้องผูกมาจากสาเหตุอื่น · จะถูกถ้าเป็นเด็ก 4 ปีท้องผูกหลังเริ่มฝึกขับถ่าย กลั้นอุจจาระ มีอุจจาระเล็ด ถ่ายขี้เทาภายใน 24 ชม. หลังคลอด และ rectal biopsy ปกติ"
   },
-  "trap": "คิดว่าไม่มีเซลล์ประสาทแล้ว AChE ต้องลด — กลับเพิ่มขึ้นจากเส้นใย cholinergic ที่หนาตัว",
+  "trap": "สับสนระหว่าง \"ไม่มีเซลล์ประสาท\" กับ \"ไม่มีกิจกรรมของประสาท\" จึงเลือก AChE ลดลง — ใน Hirschsprung ganglion cell หาย แต่<b>ใยประสาท cholinergic จากภายนอกเพิ่มขึ้น</b> จึงย้อม <b>AChE สูง</b>",
   "summary": [
-   "HD: aganglionosis เริ่มจาก internal sphincter ขึ้นไปต่อเนื่อง",
-   "อาการ: ไม่ถ่ายขี้เทาใน 48 ชม. · ท้องอืด · อาเจียน",
-   "Contrast enema: transition zone",
-   "Suction rectal biopsy: ไม่มี ganglion · AChE ↑ · calretinin ลบ",
-   "Anorectal manometry: ไม่มี RAIR",
-   "ภาวะแทรกซ้อนอันตราย: Hirschsprung-associated enterocolitis"
+   "Hirschsprung ~1 ใน 5,000 · ชาย:หญิง ~4:1 (short segment) · Down syndrome ~10% · ยีน RET",
+   "ตำแหน่ง: rectosigmoid ~75–80% · long segment ~15% · total colonic ~5% · ไม่มี ganglion เริ่มจาก internal sphincter ขึ้นไปต่อเนื่อง",
+   "อาการ: ไม่ถ่ายขี้เทาใน 24–48 ชม. (~90% ของผู้ป่วย), ท้องอืด อาเจียนน้ำดี, ล้วงทวารแล้วอุจจาระพุ่ง (blast sign), enterocolitis",
+   "Contrast enema: transition zone, rectosigmoid index &lt; 1, ขี้เทาค้างหลัง 24 ชม. · anorectal manometry: ไม่มี RAIR",
+   "Rectal biopsy (gold standard): suction biopsy 1–3 cm เหนือ dentate line · ไม่มี ganglion + nerve trunk หนา + AChE สูง + calretinin ลบ",
+   "Enterocolitis: ไข้ ท้องอืด ถ่ายเหลวเหม็น → NPO, rectal irrigation, metronidazole/ ยาปฏิชีวนะ · สาเหตุตายสำคัญ",
+   "ผ่าตัด: transanal endorectal pull-through (Soave/ De la Torre) · Swenson · Duhamel · ทำ frozen section ยืนยันขอบมี ganglion"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2",
-  "mnemonic": "<b>'HD biopsy: Ganglion 0 · AChE ↑'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Hirschsprung disease; APSA Hirschsprung Disease Interest Group guidelines",
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ขีด C) มั่นใจสูงมาก — การไม่มี ganglion cell ร่วม AChE เพิ่มขึ้นเป็นภาพทางพยาธิวิทยาคลาสสิกของ Hirschsprung · ไฟล์ไม่มีช้อย E เว็บเติม \"Normal ganglion cells, normal AChE\" เป็นภาพลำไส้ปกติ",
+  "mnemonic": "<b>'Hirschsprung: Ganglion หาย · ใยประสาทหนา · AChE ขึ้น · Calretinin ลบ'</b>",
+  "guide": "Kyrklund K et al. ERNICA guidelines for the management of rectosigmoid Hirschsprung disease (Orphanet J Rare Dis 2020); Holcomb and Ashcraft Pediatric Surgery 7th ed. (2020) ch. Hirschsprung disease",
   "variants": [
-   "ทารกไม่ถ่ายขี้เทา 3 วัน ท้องอืด → contrast enema + suction rectal biopsy",
-   "HD ไข้ ท้องอืด ถ่ายเหลวเหม็น → enterocolitis → rectal washout + ATB",
-   "ทารก biopsy calretinin ลบ → HD"
+   "ทารกครบกำหนดไม่ถ่ายขี้เทา 48 ชม. ท้องอืด ล้วงทวารอุจจาระพุ่ง → suction rectal biopsy",
+   "Contrast enema เห็นลำไส้ตรงเล็กกว่า sigmoid (rectosigmoid index &lt; 1) → สงสัย Hirschsprung ยืนยันด้วยชิ้นเนื้อ",
+   "เด็ก Hirschsprung ไข้ ท้องอืด ถ่ายเหลวเหม็นมาก → Hirschsprung-associated enterocolitis ทำ rectal irrigation + ยาปฏิชีวนะ",
+   "ทำไมต้องตัดชิ้นเนื้อเหนือ dentate line อย่างน้อย 1–2 cm → บริเวณใกล้ dentate มี ganglion น้อยตามปกติ อ่านผลผิดได้"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 114 — ตัวพิมพ์: <b>10. เมื่อ biopsy ใน Hirschsprung's disease จะพบอะไร — A. Increased ganglion cell, increased AChE activity B. Increased ganglion cell, decreased AChE activity C. Absent ganglion cell, increased AChE activity D. Absent ganglion cell, decreased AChE activity E.</b><br>ลายมือ: ขีด C + เส้นคั่นระหว่าง \"Absent ganglion cell / increased AChE activity\"<br>ไฮไลต์: \"biopsy ใน Hirschsprung's disease จะพบ\" · C (เหลือง)<br>รูปที่แปะ: mind map Hirschsprung's disease (ภาพเล็ก มีภาพรังสีและลายมือ อ่านรายละเอียดไม่ได้)<br>ที่ปรับในเว็บ: เพิ่มช้อย E (Normal ganglion cells, normal AChE) ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 114",
@@ -132,30 +140,32 @@
   ]
  },
  "MDCU67|RoB|11": {
-  "interp": "ทารกแรกเกิดมี PDA (ไม่มีหัวใจล้มเหลว) ได้ <b>indomethacin</b> แล้วตอบสนองดี 4 วันต่อมา<b>กินไม่ได้ ท้องอืด</b> X-ray: <b>ลำไส้ขยาย มีลมในผนังลำไส้ (pneumatosis intestinalis)</b> → ถามการจัดการ",
-  "why": "Pneumatosis intestinalis + ท้องอืด + feeding intolerance = <b>necrotizing enterocolitis (NEC) — Bell stage II</b> (indomethacin และ PDA เป็นปัจจัยเสี่ยง) · ยังไม่มีลมรั่ว (pneumoperitoneum) → <b>รักษาแบบประคับประคอง: NPO, OG decompression, IV fluid/ TPN, IV antibiotics</b> (ampicillin + gentamicin ± metronidazole) · ผ่าตัดเมื่อ<b>ลำไส้ทะลุ</b>หรืออาการแย่ลงไม่ตอบสนอง · ไฟล์ขีด A ลายมือ <b>\"NEC\"</b> · <b>\"ไม่ response\"</b> → B และแปะ Management NEC",
+  "interp": "ทารกแรกเกิดที่ได้ indomethacin ปิด PDA 4 วันต่อมากินนมไม่ได้ ท้องอืด ภาพรังสีเห็นลำไส้ขยายและลมในผนังลำไส้ (pneumatosis intestinalis) — คือ necrotizing enterocolitis ระยะที่ยังไม่ทะลุ ถามการรักษา ซึ่งเป็นการรักษาทางยา",
+  "why": "<b>Necrotizing enterocolitis (NEC)</b> เป็นภาวะลำไส้อักเสบตายในทารก โดยเฉพาะ<b>คลอดก่อนกำหนด/ น้ำหนักน้อย</b> หลังเริ่มนม (ส่วนใหญ่นมผสม) ปัจจัยเสี่ยงคือภาวะเลือดไปเลี้ยงลำไส้ลด เช่น <b>PDA และยา indomethacin</b> (ลดเลือดไป mesentery) asphyxia และ polycythemia · ภาพรังสีจำเพาะคือ <b>pneumatosis intestinalis</b> (ฟองก๊าซจากแบคทีเรียในผนังลำไส้) และ portal venous gas · <b>Modified Bell staging</b>: I สงสัย · <b>II ยืนยัน (pneumatosis)</b> → <b>รักษาทางยา</b> · III รุนแรง (ช็อก หรือลำไส้ทะลุ) · การรักษาทางยา: <b>NPO + OG decompression + IV antibiotics</b> (ampicillin + gentamicin ± metronidazole) <b>7–14 วัน</b> + สารน้ำ/ TPN + ถ่ายภาพรังสีท้องซ้ำทุก 6–12 ชม. · <b>ผ่าตัด</b>เมื่อ<b>ลำไส้ทะลุ (pneumoperitoneum)</b> เป็นข้อบ่งชี้แน่นอน หรืออาการทรุดลงแม้รักษาเต็มที่ · ตรงคีย์ A — ไฟล์ขีด A เขียน \"<b>NEC</b>\" และ \"<b>!</b>\" ที่ \"air in bowel wall\" และลากวงเล็บไป B ว่า \"<b>ไม่ response</b>\"",
   "wrong": {
-   "B": "ผ่าตัดเปิดหน้าท้องใช้เมื่อลำไส้ทะลุ (pneumoperitoneum) หรือไม่ตอบสนองการรักษา (ลายมือ \"ไม่ response\") · จะถูกถ้า X-ray พบลมใต้กระบังลม/ football sign",
-   "C": "Peritoneal drain ใช้ในทารกน้ำหนักน้อยมาก (&lt; 1,000 g) ที่ลำไส้ทะลุและอาการไม่คงที่ · จะถูกถ้าทารก 800 g มี pneumoperitoneum ช็อก",
-   "D": "ให้นมต่อทำให้ NEC รุนแรงขึ้น · จะถูกถ้าคำถามถาม feeding intolerance เล็กน้อยไม่มี pneumatosis",
-   "E": "Contrast enema ห้ามในระยะเฉียบพลัน (เสี่ยงทะลุ) ใช้หลังหายเพื่อหา stricture · จะถูกถ้าคำถามถามทารกหลัง NEC 6 สัปดาห์ ท้องอืดเป็นพัก ๆ"
+   "B": "Exploratory laparotomy ทำเมื่อ<b>ลำไส้ทะลุ</b> (ลมใต้กระบังลม football sign) หรือ<b>ไม่ตอบสนองต่อการรักษาทางยา</b> (ตามวงเล็บในไฟล์ \"ไม่ response\") เช่นช็อกต่อเนื่อง เกล็ดเลือดลดต่อเนื่อง ผนังหน้าท้องแดง ก้อนในท้อง · จะถูกถ้าเป็นทารก 30 สัปดาห์ NEC ที่รักษาทางยา 2 วันแล้ว ภาพรังสีท้องท่า left lateral decubitus เห็นลมอิสระในช่องท้อง",
+   "C": "Peritoneal drain (ใส่สายระบายช่องท้องข้างเตียง) ใช้ใน<b>ทารกน้ำหนักน้อยมาก (&lt; 1,000 g)</b> ที่ลำไส้ทะลุและไม่คงที่พอจะผ่าตัด เป็นการรักษาชั่วคราวหรือบางรายหายได้ ไม่ใช่ NEC ที่ยังไม่ทะลุ · จะถูกถ้าเป็นทารก 26 สัปดาห์ น้ำหนัก 750 g NEC ลำไส้ทะลุ ใช้เครื่องช่วยหายใจความถี่สูงและยาเพิ่มความดัน ย้ายไปห้องผ่าตัดไม่ได้",
+   "D": "การให้นมต่อร่วมยากระตุ้นการบีบตัว<b>อันตราย</b>ใน NEC เพราะอาหารในลำไส้เป็นอาหารของแบคทีเรียและเพิ่มความต้องการออกซิเจนของลำไส้ที่ขาดเลือด ต้องงดอาหารและดูดลมออก · จะถูกถ้าเป็นทารกคลอดก่อนกำหนดที่มี residual นมก่อนมื้อเล็กน้อย ท้องไม่อืด ไม่มีถ่ายเป็นเลือด ภาพรังสีปกติ (feeding intolerance จากลำไส้ยังไม่พร้อม) ซึ่งให้นมต่อในปริมาณเท่าเดิมและเฝ้าดู",
+   "E": "Contrast enema <b>ห้ามทำ</b>ใน NEC ระยะเฉียบพลันเพราะเสี่ยงลำไส้ทะลุ ใช้หลังหายแล้ว 4–8 สัปดาห์เพื่อหา<b>ลำไส้ตีบ (post-NEC stricture)</b> ซึ่งพบราว 10–35% · จะถูกถ้าเป็นทารกที่หาย NEC แล้ว 6 สัปดาห์ เริ่มนมแล้วท้องอืดซ้ำ อาเจียน ถ่ายน้อย สงสัยลำไส้ใหญ่ตีบที่ splenic flexure"
   },
-  "trap": "เห็นลมในผนังลำไส้แล้วผ่าตัดทันที — pneumatosis ไม่ใช่ข้อบ่งชี้ผ่าตัด; ลมในช่องท้อง (perforation) จึงผ่าตัด",
+  "trap": "เห็น \"air in bowel wall\" ซึ่งฟังดูน่ากลัวจึงเลือกผ่าตัด — pneumatosis คือ NEC <b>Bell II</b> ซึ่ง<b>รักษาทางยา</b> (NPO, OG, ยาปฏิชีวนะ) · ข้อบ่งชี้ผ่าตัดแน่นอนคือ<b>ลมอิสระในช่องท้อง (perforation)</b> หรือทรุดลงแม้รักษาเต็มที่",
   "summary": [
-   "NEC: ทารกคลอดก่อนกำหนด · เริ่มนม · PDA/ indomethacin",
-   "Pneumatosis intestinalis · portal venous gas = stage II–III",
-   "รักษา: NPO + OG + IV fluid/ TPN + ATB 7–14 วัน",
-   "ผ่าตัด: pneumoperitoneum · แย่ลงแม้รักษาเต็มที่",
-   "ทารก &lt; 1,000 g + perforation → peritoneal drain",
-   "ภาวะแทรกซ้อนระยะยาว: stricture · short bowel"
+   "NEC: ~90% ในทารกคลอดก่อนกำหนด · ยิ่งน้ำหนักน้อยยิ่งเสี่ยง · เริ่มหลังให้นม 1–3 สัปดาห์ · นมแม่ลดเสี่ยง",
+   "ปัจจัยเสี่ยง: prematurity, นมผสม, hypoxia/ ischemia (PDA, indomethacin, asphyxia, polycythemia, exchange transfusion), ติดเชื้อ",
+   "ภาพรังสี: ลำไส้ขยาย, pneumatosis intestinalis (Bell II), portal venous gas, fixed loop, pneumoperitoneum (Bell IIIB)",
+   "Modified Bell: I สงสัย (NPO 3 วัน) · IIA/ IIB ยืนยัน (ยา 7–14 วัน) · IIIA รุนแรงไม่ทะลุ · IIIB ทะลุ (ผ่าตัด)",
+   "รักษาทางยา: NPO, OG decompression, ampicillin + gentamicin ± metronidazole, TPN, ถ่ายภาพรังสีซ้ำ, ดู CBC เกล็ดเลือด กรด-ด่าง",
+   "ผ่าตัด: laparotomy ตัดลำไส้ตาย + stoma (หรือ clip and drop, second look) · peritoneal drain ในทารก &lt; 1,000 g ที่ไม่คงที่",
+   "ภาวะแทรกซ้อนระยะยาว: stricture (~10–35%, ลำไส้ใหญ่ซ้าย), short bowel syndrome, พัฒนาการช้า"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'NEC ไม่ทะลุ = พักลำไส้ + ยา · ทะลุ = ผ่า'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Necrotizing enterocolitis; Bell MJ, et al. Ann Surg 1978;187:1 (modified Bell staging)",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A \"NEC\") มั่นใจสูง — pneumatosis โดยไม่มีลำไส้ทะลุเป็น Bell stage II ซึ่งรักษาทางยาตามเอกสาร management ที่ไฟล์แปะ · ไฟล์มีช้อยเพียง A และ B เว็บเติม C–E เป็นทางเลือกที่ใช้ในสถานการณ์อื่นของ NEC",
+  "mnemonic": "<b>'NEC: ลมในผนัง = งด–ดูด–ยา (NPO · OG · ATB) · ลมนอกลำไส้ = ผ่า'</b>",
+  "guide": "Neu J, Walker WA. Necrotizing enterocolitis (N Engl J Med 2011); Holcomb and Ashcraft Pediatric Surgery 7th ed. (2020) ch. Necrotizing enterocolitis",
   "variants": [
-   "ทารก 30 สัปดาห์ ท้องอืด ถ่ายเป็นเลือด pneumatosis → NPO + ATB",
-   "ทารก NEC X-ray ลมใต้กระบังลม → laparotomy (หรือ drain ถ้า &lt; 1 kg)",
-   "หลังหาย NEC 4 สัปดาห์ ท้องอืด อาเจียน → contrast enema หา stricture"
+   "ทารก 28 สัปดาห์หลังเริ่มนมผสม ท้องอืด ถ่ายเป็นเลือด ภาพรังสีมี pneumatosis → NPO, OG, ampicillin + gentamicin + metronidazole",
+   "NEC ที่รักษาทางยา ภาพรังสีเห็นลมใต้กระบังลม → laparotomy ตัดลำไส้ตาย + stoma",
+   "ทารก 700 g NEC ลำไส้ทะลุ ไม่คงที่ → peritoneal drain ข้างเตียง",
+   "ทำไม indomethacin เสี่ยง NEC → ลดการไหลเวียนเลือดไปลำไส้ผ่านการยับยั้ง prostaglandin"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 114 — ตัวพิมพ์: <b>11. เด็กแรกเกิดมี PDA ไม่มี heart failure ตอบสนองดีต่อ indomethacin 4 วันต่อมา มี feeding intolerance, bloating ทำ x-ray พบ dilated bowel, air in bowel wall จงบอก management — A. NPO, IV antibiotic B. Explore laparotomy C. D. E.</b><br>ลายมือ: \"NEC\" + \"!\" ที่ air in bowel wall · ขีด A + \"ไม่ response\" (วงเล็บชี้ไป B)<br>ไฮไลต์: \"แรกเกิดมี PDA\" \"ไม่มี heart failure\" \"4 วันต่อมา\" \"feeding intolerance\" \"bloating\" \"x-ray พบ dilated bowel\" \"air in bowel wall\" \"management\" · A (เหลือง)<br>รูปที่แปะ: ① เอกสาร Management (NEC) — 1. NPO + OG decompression 2. จัด position: นอนหงาย หัวสูง 3. IV fluid, พิจารณาให้ TPN (ลายมือ \"E'lyte ∵ 3rd space loss\") 4. ตรวจ V/S, ให้ initial management … 4) Correct เรื่อง Metabolic acidosis, Electrolyte imbalance, Abnormal coagulogram 5. Specific treatment 1) ATB - 1st line: Ampicillin + Gentamicin; ถ้า severe อาจ add Metronidazole หรือ Clindamycin เพื่อ cover กลุ่ม Anaerobe ด้วย … 2) ถ้าอาการ severe มาก, ไม่ response ต่อ ATB → Sx: Bowel resection · Prevention … ② (คอลัมน์ขวาบนหน้า 114) สไลด์ Intestinal malrotation — Symptom: Newborn (Duodenal obstruction with or without midgut volvulus) · Older child (Intermittent vomiting · Recurrent abdominal colic · Failure to thrive) · Adult (20% asymptomatic · 80% symptomatic — Acute mid gut volvulus · Chronic abdominal pain &amp; gut obstruction) + ลายมือ<br>ที่ปรับในเว็บ: เติมช้อย C–E (Peritoneal drain · Continue feeds with prokinetic · Contrast enema) ซึ่งในไฟล์เว้นว่าง",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 114",
@@ -165,30 +175,32 @@
   ]
  },
  "MDCU67|RoB|12": {
-  "interp": "เด็ก 9 เดือน สบายดีมาก่อน <b>อาเจียน ถ่ายมูกปนเลือด ปวดท้องเป็นพัก ๆ</b> → ถามการตรวจที่ควรส่ง",
-  "why": "อาการเข้ากับ <b>intussusception</b> (อายุ peak 3–8 เดือน ช่วง 2 เดือน–2 ปี): ปวดท้องเป็นพัก ๆ อาเจียน ถ่าย red currant jelly · <b>Ultrasound</b> เป็นการตรวจหลัก (ความไวและจำเพาะสูง ไม่มีรังสี) พบ <b>target/ donut sign</b> (ภาพตัดขวาง) และ <b>pseudokidney sign</b> (ภาพตามยาว) · ไฟล์ขีด C ลายมือ <b>\"R/O intussusception peak 3–8 mo ; 2 mo – 2 yo\"</b> · C <b>\"→ target/ donut/ pseudokidney sign\"</b> และแปะสไลด์ Signs &amp; Symptoms",
+  "interp": "เด็ก 9 เดือนที่เคยแข็งแรง อาเจียน ถ่ายมูกเลือด และปวดท้องเป็นพัก — สงสัย intussusception ถามการตรวจที่ควรส่ง ต้องรู้ว่า ultrasound เป็นการตรวจมาตรฐานที่ไวและจำเพาะสูง ไม่ใช้รังสี",
+  "why": "<b>Intussusception</b> คือลำไส้ส่วนต้นมุดเข้าไปในส่วนปลาย ส่วนใหญ่เป็น <b>ileocolic</b> · พบบ่อยอายุ <b>3–36 เดือน</b> (peak 5–9 เดือน) ส่วนใหญ่ไม่มีจุดนำ (idiopathic, lymphoid hyperplasia ของ Peyer patch หลังติดเชื้อไวรัส) · อาการ: <b>ปวดท้องเป็นพัก</b> ร้องขาคู้ทุก 15–20 นาที แล้วเงียบซึม · อาเจียน · <b>อุจจาระมูกเลือด (red currant jelly)</b> เป็นอาการช้า · คลำได้<b>ก้อนรูปไส้กรอก</b>ท้องขวาบน · triad ครบพบไม่ถึงครึ่ง · การตรวจ: <b>ultrasound</b> ความไว ~98–100% ความจำเพาะ ~98% เห็น <b>target/ donut sign</b> (ภาพตัดขวาง) และ <b>pseudokidney sign</b> (ภาพตามยาว) · รักษา: <b>air หรือ hydrostatic enema reduction</b> ภายใต้ fluoroscopy/ US สำเร็จ ~80–90% · ผ่าตัดเมื่อมี peritonitis ลำไส้ทะลุ ช็อก หรือดันไม่สำเร็จ · ตรงคีย์ C — ไฟล์ขีด C เขียน \"<b>R/O intussusception</b>\" และ \"<b>→ target/ donut/ pseudokidney sign</b>\"",
   "wrong": {
-   "A": "CT ไม่จำเป็นและมีรังสีมากในเด็ก · จะถูกถ้าคำถามถามผู้ใหญ่ที่มี intussusception สงสัยก้อนนำ (lead point)",
-   "B": "Proctoscopy ไม่เห็นรอยโรคที่ ileocolic · จะถูกถ้าคำถามถามเด็กถ่ายเลือดสดไม่ปวดท้อง สงสัย juvenile polyp",
-   "D": "ตรวจอุจจาระใช้ในลำไส้อักเสบติดเชื้อ (มีไข้ ถ่ายเหลวบ่อย) · จะถูกถ้าเด็กไข้ ถ่ายเหลวมีมูกเลือดบ่อย ไม่มีปวดเป็นพัก ๆ",
-   "E": "Barium meal (กลืนแป้ง) ไม่ใช่การตรวจ intussusception · จะถูกถ้าคำถามถามหา malrotation (upper GI study)"
+   "A": "CT เห็น intussusception ได้ แต่<b>ใช้รังสีสูง</b> อาจต้องให้ยานอนหลับ และไม่ได้ดีกว่า US ในเด็ก จึงสงวนไว้สำหรับกรณีสงสัยจุดนำหรือผู้ใหญ่ · จะถูกถ้าเป็นชาย 50 ปีปวดท้องเป็นพัก ลำไส้อุดตันไม่สมบูรณ์ น้ำหนักลด ซึ่ง intussusception ในผู้ใหญ่มักมีจุดนำเป็นเนื้องอกและต้อง CT ประเมิน",
+   "B": "Proctoscopy ใช้ดูสาเหตุเลือดออกจากทวารหนักส่วนปลาย (anal fissure, ริดสีดวง, polyp ลำไส้ตรง) ไม่เห็น intussusception ที่อยู่สูงในลำไส้ และทำในเด็กเล็กยาก · จะถูกถ้าเป็นเด็ก 4 ปีมีเลือดสดหยดหลังถ่ายโดยไม่ปวดท้อง ไม่อาเจียน และคลำได้ก้อนเนื้อนุ่มที่ปลายนิ้วเมื่อล้วงทวาร (juvenile polyp)",
+   "D": "การตรวจอุจจาระหาเม็ดเลือดและเชื้อเหมาะกับ<b>บิด (dysentery)</b> ซึ่งก็ถ่ายมูกเลือดได้ แต่บิดมักมีไข้ ถ่ายบ่อย ปวดเบ่ง ไม่ใช่ปวดเป็นพักแล้วเงียบ การรอผลอุจจาระทำให้วินิจฉัย intussusception ช้าจนลำไส้ขาดเลือด · จะถูกถ้าเป็นเด็ก 2 ปีไข้สูง ถ่ายเหลวมีมูกเลือดวันละ 10 ครั้ง ปวดเบ่ง ไม่มีก้อนในท้อง ในช่วงที่มี Shigella ระบาด",
+   "E": "Barium meal (upper GI series) ดูหลอดอาหาร กระเพาะ และลำไส้เล็กส่วนต้น ไม่ได้ดูตำแหน่ง ileocecal ที่เกิด intussusception และยังเสี่ยงถ้าลำไส้ทะลุ · ที่ใช้ในอดีตคือ <b>barium enema</b> ซึ่งทั้งวินิจฉัยและดันกลับได้ · จะถูกถ้าเป็นทารก 3 สัปดาห์อาเจียนน้ำดี ต้องดูตำแหน่ง duodenojejunal junction หา malrotation"
   },
-  "trap": "ส่งตรวจอุจจาระเพราะถ่ายมูกเลือด — ปวดเป็นพัก ๆ + อายุเข้า = intussusception → US",
+  "trap": "อุจจาระมูกเลือดทำให้คิดถึงบิดแล้วส่งตรวจอุจจาระ — ต้องดูลักษณะปวด: <b>ปวดเป็นพักแล้วเงียบในเด็กอายุ 3–36 เดือน</b> = intussusception จนกว่าจะพิสูจน์ ตรวจ <b>US</b> ทันที และ red currant jelly stool เป็นอาการช้าที่บอกว่าลำไส้เริ่มขาดเลือด",
   "summary": [
-   "Intussusception: 3 เดือน–3 ปี · ileocolic พบบ่อย",
-   "Triad: ปวดเป็นพัก ๆ · ก้อนรูปไส้กรอก · red currant jelly (ครบ &lt; 50%)",
-   "US: target/ donut · pseudokidney",
-   "รักษา: air/ hydrostatic reduction (ถ้าไม่มี peritonitis/ perforation/ ช็อก)",
-   "ลดไม่สำเร็จ/ peritonitis → ผ่าตัด",
-   "เด็กโต/ ผู้ใหญ่: หา lead point (Meckel's, polyp, lymphoma)"
+   "Intussusception: 3–36 เดือน (peak 5–9 เดือน) · ileocolic ~90% · idiopathic (lymphoid hyperplasia) ในเด็กเล็ก",
+   "Lead point (~5–10%, พบมากเมื่ออายุ &gt; 3–5 ปี): Meckel diverticulum, polyp, lymphoma, HSP (ileoileal), duplication cyst",
+   "อาการ: ปวดเป็นพัก ร้องขาคู้ (~80%), อาเจียน (~85%), red currant jelly stool (~50%, อาการช้า), ก้อนรูปไส้กรอก, Dance sign (RLQ ว่าง), ซึม",
+   "US: target/ donut sign (ตัดขวาง), pseudokidney (ตามยาว) · ไว ~98–100%",
+   "รักษา: สารน้ำ + NG → air (pneumatic) หรือ hydrostatic enema reduction สำเร็จ ~80–90% · ทะลุ ~0.5–1% · กลับเป็นซ้ำ ~10%",
+   "ข้อห้าม enema: peritonitis, ลำไส้ทะลุ (ลมอิสระ), ช็อกที่แก้ไม่ได้ → ผ่าตัด manual reduction (บีบดันจากปลาย ไม่ดึง) ± ตัดลำไส้",
+   "ผู้ใหญ่: ส่วนใหญ่มีจุดนำ (เนื้องอก) → CT และผ่าตัดตัดลำไส้"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'ทารกปวดเป็นพัก ถ่ายเยลลี่แดง = US หาโดนัท'</b>",
-  "guide": "ACR Appropriateness Criteria: Intussusception — Child (2019); Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020)",
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ขีด C) มั่นใจสูงมาก — US เป็นการตรวจมาตรฐานของ intussusception ในเด็ก · ข้อสังเกต: ลายมือในไฟล์ระบุ peak 3–8 เดือนและช่วง 2 เดือนถึง 2 ปี ตำราส่วนใหญ่ใช้ 3–36 เดือน · ไฟล์ช้อย E เป็น \"PR\" เว็บเปลี่ยนเป็น barium meal เพราะ PR เป็นการตรวจร่างกายมากกว่า investigation",
+  "mnemonic": "<b>'ปวดเป็นพัก + มูกเลือด + ก้อนไส้กรอก → US (Target = Telescope)'</b>",
+  "guide": "Edwards EA et al. Intussusception: past, present and future (Pediatr Radiol 2017); Holcomb and Ashcraft Pediatric Surgery 7th ed. (2020) ch. Intussusception",
   "variants": [
-   "เด็ก 1 ปี ปวดเป็นพัก ๆ ร้องงอขา คลำก้อนท้องขวาบน → US → air enema reduction",
-   "เด็ก intussusception + peritonitis → ผ่าตัด",
-   "เด็ก 6 ปี intussusception ซ้ำ → หา lead point (Meckel's diverticulum)"
+   "เด็ก 8 เดือนร้องขาคู้เป็นพัก US เห็น target sign ไม่มี peritonitis → air enema reduction",
+   "ทำ air enema แล้วเกิดลมรั่วในช่องท้อง ท้องตึง หายใจลำบาก → เจาะลดลมด้วยเข็ม (tension pneumoperitoneum) แล้วผ่าตัด",
+   "เด็ก 6 ปี intussusception ซ้ำ 3 ครั้ง → หาจุดนำ (Meckel, polyp, lymphoma)",
+   "ทำไมอุจจาระเป็น red currant jelly → ลำไส้ที่มุดถูกบีบเกิด venous congestion เลือดปนมูกหลุดออกมา"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 114 — ตัวพิมพ์: <b>12. เด็กอายุ 9 เดือน ก่อนหน้านี้สบายดี มีอาการคลื่นไส้อาเจียน, mucous bloody stool และมี intermittent abdominal clamp ควรส่ง investigation อะไร — A. CT scan B. Proctoscope C. Ultrasound D. Stool examination E. PR</b><br>ลายมือ: \"R/O intussusception peak 3–8 mo ; 2 mo – 2 yo\" · ขีด C + \"→ target/ donut/ pseudokidney sign\"<br>ไฮไลต์: \"9 เดือน\" \"คลื่นไส้อาเจียน\" \"mucous bloody stool\" \"intermittent abdominal clamp\" \"investigation\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ Signs &amp; Symptoms — Vomiting 85% · Abdominal colic 80% · Red currant jelly stool 50% (ลายมือ \"severe!\") · Sausage liked mass 50% (ลายมือ \"@ Right middle quadrant\") · 1-2% prolapse of intussusception through anus · 7-30% has diarrhea · progressive dehydration &amp; strangulating bowel obstruction · usually fatal within 5 days + ลายมือ<br>ที่ปรับในเว็บ: ช้อย E เปลี่ยนจาก PR เป็น Barium meal",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 114",
@@ -198,30 +210,32 @@
   ]
  },
  "MDCU67|RoB|14": {
-  "interp": "เด็กชาย 3 ปี <b>คลำอัณฑะขวาไม่ได้ (non-palpable testis)</b> US ขาหนีบและถุงอัณฑะไม่พบ → ถามการจัดการ",
-  "why": "Non-palpable testis: อาจเป็น <b>intra-abdominal testis</b> หรืออัณฑะฝ่อ/ ไม่มี (vanishing testis) · การตรวจภาพ (US/ CT/ MRI) <b>ไม่ได้ช่วยและไม่แนะนำ</b> เพราะผลลบไม่ตัดอัณฑะในช่องท้อง → <b>diagnostic laparoscopy</b> เป็นมาตรฐาน ทั้งวินิจฉัยและรักษาในคราวเดียว (orchidopexy — Fowler-Stephens ถ้าหลอดเลือดสั้น หรือตัดเนื้อที่ฝ่อออก) · ควรทำก่อนอายุ 18 เดือน (เด็กรายนี้ช้าแล้ว) · ไฟล์ขีด C ลายมือ <b>\"∴ intraabdominal testis\"</b> และแปะสไลด์ Undescended testis (Treatment: Orchidopexy — Inguinal testis · Intra-abdominal testis · Ectopic testis) พร้อมภาพผ่านกล้อง",
+  "interp": "เด็กชาย 3 ปีคลำอัณฑะขวาไม่ได้ ultrasound ที่ขาหนีบและถุงอัณฑะไม่พบ — ถามการจัดการ ต้องรู้ว่า nonpalpable testis ไม่ควรใช้ภาพทางรังสีตัดสิน การหาและรักษาที่ดีที่สุดคือ diagnostic laparoscopy",
+  "why": "<b>Undescended testis (cryptorchidism)</b> พบ ~1–3% ของทารกครบกำหนด (มากกว่าในทารกคลอดก่อนกำหนด) ส่วนใหญ่ลงเองภายใน 6 เดือน หลังจากนั้นไม่ลงเองแล้ว · <b>Nonpalpable (~20%)</b>: อาจเป็น intra-abdominal testis (~50%), อัณฑะฝ่อหรือไม่มี (vanishing testis จาก torsion ในครรภ์) หรืออยู่ในคลองขาหนีบที่คลำไม่ได้ · <b>ภาพรังสี (US, CT, MRI) ไม่แนะนำ</b> (AUA/ EAU) เพราะความไวต่ำ ผลลบไม่ตัดว่ามีอัณฑะ และไม่เปลี่ยนการรักษา · <b>Diagnostic laparoscopy</b> ทั้งวินิจฉัยและรักษาได้ในครั้งเดียว: เห็นอัณฑะในช่องท้อง → laparoscopic orchidopexy (<b>Fowler-Stephens</b> แบบ 1 หรือ 2 ขั้นถ้าหลอดเลือดสั้น) · เห็นหลอดเลือดและ vas ปลายตัน (blind-ending) → ไม่มีอัณฑะ · หลอดเลือดเข้า internal ring → สำรวจขาหนีบหา nubbin · อายุที่ควรผ่าตัดคือ <b>6–18 เดือน</b> เพื่อรักษาการสร้างอสุจิและลดเสี่ยงมะเร็ง · ตรงคีย์ C — ไฟล์ขีด C และเขียน \"<b>∴ intraabdominal testis</b>\"",
   "wrong": {
-   "A": "CT ไม่ไวพอและมีรังสี ผลลบไม่ตัดอัณฑะในช่องท้อง · จะถูกถ้าคำถามถามผู้ใหญ่ UDT สงสัยมะเร็งกระจาย (staging)",
-   "B": "MRI ความไวจำกัด ต้องดมยาในเด็ก ไม่เปลี่ยนการรักษา · จะถูกถ้าคำถามถามกรณีที่ไม่สามารถส่องกล้องได้ (ไม่ใช่มาตรฐาน)",
-   "D": "รอจนอายุ 4 ปีช้าเกินไป — ควรรักษาภายใน 18 เดือน · จะถูกถ้าคำถามถาม retractile testis (ดึงลงถุงได้และค้างอยู่)",
-   "E": "ยังสรุปว่าไม่มีอัณฑะไม่ได้ต้องส่องกล้องพิสูจน์ · จะถูกถ้าส่องกล้องพบหลอดเลือดและท่อนำอสุจิปลายตัน (blind-ending vessels)"
+   "A": "CT abdomen อาจเห็นอัณฑะในช่องท้องได้ แต่<b>ใช้รังสีสูง</b>ในเด็ก ความไวต่ำสำหรับอัณฑะเล็ก ผลลบไม่ตัดว่ามีอัณฑะ และยังต้องผ่าตัดอยู่ดี แนวทางจึงไม่แนะนำ · จะถูกถ้าเป็นชาย 30 ปีที่มีประวัติอัณฑะไม่ลงถุงไม่เคยผ่าตัด ตอนนี้มีก้อนในช่องท้องและ β-hCG สูง สงสัย seminoma จากอัณฑะในช่องท้อง ต้อง CT staging",
+   "B": "MRI ไม่มีรังสีแต่ความไวยังไม่สูงพอ (~60–80%) มักต้องให้ยาสลบในเด็ก และผลไม่เปลี่ยนการตัดสินใจผ่าตัด แนวทางไม่แนะนำเป็นการตรวจปกติ · จะถูกถ้าเป็นเด็กที่อวัยวะเพศกำกวม (ambiguous genitalia) และอัณฑะคลำไม่ได้ทั้งสองข้าง ซึ่ง MRI ช่วยดูมดลูกและอวัยวะภายในประกอบการประเมิน DSD",
+   "D": "การเฝ้าดูไม่เหมาะเพราะอัณฑะที่ไม่ลงเมื่ออายุ<b>เกิน 6 เดือน</b>จะไม่ลงเองแล้ว และการรอทำให้ germ cell เสื่อม เสี่ยงมีบุตรยากและมะเร็งอัณฑะ ควรผ่าตัดภายใน 18 เดือน เด็ก 3 ปีจึงต้องทำทันที · จะถูกถ้าเป็นทารกครบกำหนดอายุ 2 เดือนที่อัณฑะขวาอยู่ที่ขาหนีบส่วนล่าง ซึ่งยังมีโอกาสลงเองภายใน 6 เดือน",
+   "E": "การวินิจฉัยว่าไม่มีอัณฑะตั้งแต่กำเนิดจาก US ที่ไม่พบ<b>ไม่ถูกต้อง</b> เพราะ US ความไวต่ำ อัณฑะในช่องท้องอาจซ่อนอยู่ การยืนยันว่าไม่มีอัณฑะต้องเห็นหลอดเลือดอัณฑะปลายตันจาก laparoscopy (หรือตรวจฮอร์โมนในรายสองข้าง) · จะถูกถ้าเป็นเด็กชาย 2 ปีที่ laparoscopy เห็น spermatic vessels และ vas deferens ปลายตันเหนือ internal ring ข้างขวา (vanishing testis)"
   },
-  "trap": "ส่ง CT/ MRI หาอัณฑะ — non-palpable testis ส่องกล้องเลย",
+  "trap": "เห็นว่า US ไม่พบแล้วส่ง CT/ MRI ต่อ หรือสรุปว่าไม่มีอัณฑะ — แนวทางปัจจุบัน<b>ไม่ใช้ภาพรังสีในอัณฑะคลำไม่ได้</b> เพราะผลไม่เปลี่ยนการรักษา · <b>laparoscopy</b> ทั้งหาและแก้ในครั้งเดียว",
   "summary": [
-   "UDT: palpable → inguinal orchidopexy",
-   "Non-palpable → diagnostic laparoscopy (ไม่ส่งภาพ)",
-   "Orchidopexy ภายใน 6–18 เดือน",
-   "Intra-abdominal + vessel สั้น → Fowler-Stephens (1–2 ขั้น)",
-   "Bilateral non-palpable + hypospadias → ตรวจ DSD",
-   "UDT เสี่ยง: มีบุตรยาก · มะเร็ง · torsion · hernia"
+   "Cryptorchidism: ~1–3% ทารกครบกำหนด, ~30% ทารกคลอดก่อนกำหนด · ลงเองภายใน 6 เดือน หลังจากนั้นไม่ลง",
+   "Palpable (~80%) → inguinal orchidopexy · nonpalpable (~20%) → EUA แล้ว diagnostic laparoscopy",
+   "ไม่แนะนำ US/ CT/ MRI ก่อนส่งต่อหรือผ่าตัด (AUA 2014, EAU) · ยกเว้นสงสัย DSD",
+   "Laparoscopy: อัณฑะในช่องท้อง → orchidopexy (Fowler-Stephens 1 หรือ 2 ขั้น) · หลอดเลือดปลายตัน → absent · หลอดเลือดเข้า ring → สำรวจขาหนีบ",
+   "อายุผ่าตัด: 6–18 เดือน · ลดเสี่ยงมีบุตรยากและมะเร็ง (เสี่ยงมะเร็ง ~2–8 เท่า แม้ผ่าตัดแล้ว แต่ตรวจคลำได้)",
+   "อัณฑะคลำไม่ได้ทั้งสองข้าง หรือร่วม hypospadias → ตรวจ DSD (karyotype, 17-OHP, AMH/ inhibin B)",
+   "Retractile testis: ดึงลงถุงได้และค้างอยู่ → เฝ้าดูปีละครั้ง (เสี่ยงกลายเป็น ascending testis)"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'คลำไม่เจอ = ส่องกล้อง ไม่ใช่ส่งภาพ'</b>",
-  "guide": "AUA Guideline: Evaluation and Treatment of Cryptorchidism (J Urol 2014;192:337); EAU Guidelines on Paediatric Urology (2025)",
+  "opinion": "เห็นด้วยกับคีย์ C (ไฟล์ขีด C \"intraabdominal testis\") มั่นใจสูง — nonpalpable testis ที่ US ไม่พบให้ทำ diagnostic laparoscopy ตามแนวทาง AUA/ EAU · ข้อสังเกต: ไฟล์พิมพ์ว่าคลำอัณฑะขวาไม่ได้แต่ทำ US ที่ \"left inguinal\" และช้อย E เขียน \"ไม่มีอัณฑะด้านซ้าย\" ซึ่งน่าจะพิมพ์ผิด เว็บใช้ข้างเดียวกันตลอดคือข้างที่คลำไม่ได้",
+  "mnemonic": "<b>'คลำอัณฑะไม่ได้ → ไม่ส่ง Scan ส่ง Scope (laparoscopy)'</b>",
+  "guide": "Kolon TF et al. Evaluation and Treatment of Cryptorchidism: AUA Guideline (J Urol 2014); EAU Guidelines on Paediatric Urology 2025 (Undescended testes)",
   "variants": [
-   "เด็ก 1 ปี คลำอัณฑะได้ที่ขาหนีบ → inguinal orchidopexy",
-   "ส่องกล้องพบ vessel ปลายตันเหนือ internal ring → vanishing testis",
-   "ทารกแรกเกิดคลำอัณฑะไม่ได้ทั้งสองข้าง + hypospadias → karyotype/ DSD work-up"
+   "ทารก 8 เดือนคลำได้อัณฑะซ้ายที่ขาหนีบ ดึงลงถุงไม่ได้ → inguinal orchidopexy",
+   "Laparoscopy เห็นอัณฑะอยู่เหนือ internal ring 3 cm หลอดเลือดสั้น → Fowler-Stephens orchidopexy แบบสองขั้น",
+   "ทารกคลำอัณฑะไม่ได้ทั้งสองข้าง มี hypospadias → ตรวจ karyotype และ 17-OHP หา CAH/ DSD",
+   "ทำไมต้องผ่าตัดก่อน 18 เดือน → germ cell ในอัณฑะที่ร้อนกว่าถุงอัณฑะเสื่อมลงตั้งแต่ขวบปีแรก"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 114 — ตัวพิมพ์: <b>14. ผู้ป่วยเด็กชายไทย อายุ 3 ปี คลำไม่ได้ testis ด้านขวา ทำ ultrasound ที่ left inguinal และ scrotum ก็ไม่พบอะไร ควร management อย่างไร — A. CT abdomen B. MRI abdomen C. Diagnostic laparoscopy D. Observe จนอายุ 4 ขวบ E. วินิจฉัยว่าไม่มีอัณฑะด้านซ้ายตั้งแต่แรกเกิด</b><br>ลายมือ: \"∴ intraabdominal testis\" · ขีด C<br>ไฮไลต์: \"ชายไทย อายุ 3 ปี\" \"คลำไม่ได้ testis ด้านขวา\" \"ultrasound ที่ left inguinal และ scrotum\" \"ไม่พบอะไร\" \"management อย่างไร\" · C (เหลือง)<br>รูปที่แปะ: สไลด์ Undescended testis — Treatment: Orchidopexy (Orchiopexy) · Inguinal testis · Intra-abdominal testis · Ectopic testis + ภาพอัณฑะในช่องท้องผ่านกล้อง<br>ที่ปรับในเว็บ: ใช้ด้านขวาทั้งโจทย์ (ไฟล์พิมพ์ testis ด้านขวาแต่ US/ ช้อย E เขียนด้านซ้าย)",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 114",
@@ -231,30 +245,32 @@
   ]
  },
  "MDCU67|RoB|15": {
-  "interp": "เด็กหญิง 10 ปี <b>ลำไส้ใหญ่ส่วนต้นขยาย แต่ sigmoid และ rectum ขนาดปกติ</b> (Hirschsprung disease ที่วินิจฉัยในเด็กโต) → ถามการจัดการ<b>เบื้องต้น</b>",
-  "why": "ลำไส้ส่วนปลายแคบปกติ (aganglionic) และส่วนต้นขยายมาก = <b>Hirschsprung disease</b> · ในเด็กโตลำไส้ส่วนต้นขยายและผนังหนามาก → ต้อง<b>ลดขนาดลำไส้ก่อน (decompression)</b> ด้วย<b>การสวนล้างทุกวัน (daily enema/ rectal washout)</b> ~1–3 เดือน ให้ลำไส้ยุบแฟบ แล้วจึงทำ <b>definitive pull-through</b> (เช่น transanal endorectal pull-through) · ถ้าสวนล้างไม่ได้ผล → colostomy ก่อน · ไฟล์ขีด E ลายมือ <b>\"Hirschsprung Dz.\"</b> · <b>\"decompress 2–3 mo แล้วทำ transanal endorectal pull through\"</b> และแปะข้อความ <b>\"การรักษาขั้นผ่าตัด definitive surgery … หรือประมาณ 1-2 เดือนหลังจากวินิจฉัยได้ในเด็กโต เพื่อประโยชน์ในการ decompress bowel ให้ลำไส้ยุบแฟบลงมากที่สุด\"</b>",
+  "interp": "เด็กหญิง 10 ปีมีลำไส้ใหญ่ส่วนต้นขยายมาก แต่ sigmoid และ rectum ขนาดปกติ (aganglionic segment ที่ไม่ขยาย) = Hirschsprung disease ที่วินิจฉัยช้า ถามการจัดการเริ่มต้น หลักคือลดการขยายของลำไส้ก่อนผ่าตัด pull-through",
+  "why": "<b>Hirschsprung disease ที่วินิจฉัยในเด็กโต</b> มักเป็น short segment ที่มีอาการท้องผูกเรื้อรังตั้งแต่เกิด ท้องโป่ง น้ำหนักขึ้นช้า ลำไส้ส่วนที่มี ganglion เหนือรอยโรคจะ<b>ขยายและผนังหนามาก (megacolon)</b> เพราะต้องดันผ่านส่วนที่หดค้างมาเป็นเวลานาน · ส่วนที่ไม่มี ganglion (sigmoid, rectum) กลับดูขนาดปกติหรือเล็ก · การนำลำไส้ที่ขยายมากมาต่อทันทีเสี่ยงรอยต่อรั่วและทำงานไม่ดี จึง <b>decompress ก่อน</b> ด้วย <b>rectal irrigation/ daily enema</b> (หรือ colostomy ถ้าไม่ได้ผล) ราว <b>2–3 เดือน</b> ให้ลำไส้เล็กลงและภาวะโภชนาการดีขึ้น แล้วจึงทำ <b>definitive pull-through</b> (transanal endorectal, Soave, Swenson, Duhamel) · ต้องยืนยันด้วย rectal biopsy ก่อน · ตรงคีย์ E — ไฟล์ใส่เครื่องหมายคำพูดที่ \"<b>initial management</b>\" เขียน \"<b>Hirschsprung Dz.</b>\" และ \"<b>decompress 2–3 mo แล้วทำ transanal endorectal pull through</b>\"",
   "wrong": {
-   "A": "Swenson เป็น definitive pull-through ทำหลัง decompression · จะถูกถ้าคำถามถาม definitive surgery หลังลำไส้ยุบแล้ว",
-   "B": "Duhamel เป็น definitive pull-through (นิยมในเด็กโต/ re-do) ทำหลัง decompression · จะถูกถ้าคำถามถาม definitive surgery ที่เก็บ rectum ด้านหน้าไว้",
-   "C": "Soave (endorectal pull-through) เป็น definitive surgery ทำหลัง decompression · จะถูกถ้าคำถามถามการผ่าตัดที่ลอก mucosa ของ rectum แล้วดึงลำไส้ผ่าน muscular cuff",
-   "D": "Ileostomy ใช้ใน total colonic aganglionosis หรือ enterocolitis รุนแรง · จะถูกถ้า biopsy ไม่พบ ganglion ทั้งลำไส้ใหญ่"
+   "A": "Swenson operation คือการตัดลำไส้ส่วนที่ไม่มี ganglion ออกและต่อลำไส้ปกติกับทวารหนักนอกผนัง เป็น <b>definitive surgery</b> ที่ทำ<b>หลัง</b>ลดการขยายแล้ว การทำทันทีในลำไส้ที่ขยายมากเสี่ยงรอยต่อรั่ว · จะถูกถ้าเป็นเด็กหญิง 10 ปีเดียวกันที่ทำ rectal irrigation ครบ 3 เดือน ลำไส้ส่วนต้นขนาดลดลงใกล้ปกติ biopsy ยืนยัน และพร้อมผ่าตัดแก้ไข",
+   "B": "Duhamel operation (ดึงลำไส้ปกติมาหลังลำไส้ตรงแล้วเย็บต่อด้านข้างด้วย stapler) เป็น definitive pull-through ที่เหมาะกับเด็กโตหรือลำไส้ขยายมาก แต่ยังต้อง decompress ก่อน · จะถูกถ้าเป็นเด็กชาย 12 ปี Hirschsprung ที่ลดการขยายด้วย colostomy มาแล้ว 3 เดือน และพร้อมทำ pull-through",
+   "C": "Soave (endorectal) pull-through ลอกเยื่อบุลำไส้ตรงแล้วดึงลำไส้ปกติผ่านปลอกกล้ามเนื้อ เป็นพื้นฐานของ transanal endorectal pull-through ที่ทำได้ในทารกเลย แต่ในเด็กโตที่ลำไส้ขยายมากต้องลดการขยายก่อน · จะถูกถ้าเป็นทารกอายุ 1 เดือน Hirschsprung ชนิด rectosigmoid ที่ลำไส้ไม่ขยายมาก ทำ irrigation ได้ดี และทำ transanal endorectal pull-through ครั้งเดียว",
+   "D": "Ileostomy ใช้เมื่อโรคลามทั้งลำไส้ใหญ่ (<b>total colonic aganglionosis</b>) หรือ enterocolitis รุนแรงที่ระบายด้วยวิธีอื่นไม่ได้ ส่วนเด็กที่โรคอยู่แค่ sigmoid และ rectum ถ้าต้องทำ stoma จะใช้ colostomy เหนือรอยโรค · จะถูกถ้าเป็นทารกที่ biopsy ระหว่างผ่าตัดไม่พบ ganglion ตลอดลำไส้ใหญ่ถึงลำไส้เล็กส่วนปลาย"
   },
-  "trap": "ผ่าตัด pull-through ทันที — ลำไส้ที่ขยายมากในเด็กโตต้อง decompress ก่อน",
+  "trap": "เห็นชื่อการผ่าตัดคลาสสิก (Swenson, Duhamel, Soave) จึงเลือกการผ่าตัดทันที — คำถามถาม <b>\"initial management\"</b> (ไฟล์ใส่เครื่องหมายคำพูด) ในเด็กโตที่ลำไส้ขยายมาก ซึ่งต้อง<b>ลดการขยายก่อน</b>ด้วยการสวนล้าง",
   "summary": [
-   "HD เด็กโต: ท้องผูกเรื้อรังตั้งแต่แรกเกิด · ท้องอืด · ไม่มี soiling",
-   "ทารก: definitive surgery 4–6 เดือน · เด็กโต: decompress 1–3 เดือนก่อน",
-   "Decompression: daily washout/ enema หรือ colostomy",
-   "Pull-through: Swenson · Duhamel · Soave · TERPT",
-   "เป้าหมาย: ตัด aganglionic segment ต่อ ganglionic bowel กับ anorectum",
-   "ระวัง Hirschsprung-associated enterocolitis"
+   "Hirschsprung ส่วนใหญ่วินิจฉัยในทารก (~90% ไม่ถ่ายขี้เทาใน 48 ชม.) · เด็กโต: ท้องผูกเรื้อรังตั้งแต่เกิด ท้องโป่ง ทวารว่าง โตช้า",
+   "Contrast enema: aganglionic rectum/ sigmoid ขนาดปกติหรือเล็ก + transition zone + ส่วนต้นขยาย · rectosigmoid index &lt; 1",
+   "ยืนยัน: rectal biopsy (suction ในทารก, full-thickness ในเด็กโต) · ไม่มี ganglion, AChE สูง, calretinin ลบ",
+   "เริ่มต้น: rectal irrigation/ enema (หรือ colostomy เหนือ transition zone ที่ยืนยันด้วย frozen section) · ลำไส้ขยายมากใช้เวลา 2–3 เดือน",
+   "Definitive: transanal endorectal pull-through (De la Torre, ทำได้ตั้งแต่ทารก) · Soave · Swenson · Duhamel (เหมาะเด็กโต)",
+   "Total colonic aganglionosis → ileostomy แล้ว pull-through ภายหลัง",
+   "หลังผ่าตัด: enterocolitis (สำคัญที่สุด), ท้องผูก, กลั้นอุจจาระไม่ได้ · ติดตามระยะยาว"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และลายมือ",
-  "mnemonic": "<b>'HD เด็กโต: ยุบก่อน (enema) · ดึงทีหลัง (pull-through)'</b>",
-  "guide": "Holcomb and Ashcraft's Pediatric Surgery 7th ed. (2020) — Hirschsprung disease",
+  "opinion": "เห็นด้วยกับคีย์ E (ไฟล์ขีด E และลายมือ \"decompress 2–3 mo\") มั่นใจสูง — เด็กโตที่ลำไส้ขยายมากต้องลดการขยายก่อน definitive pull-through · ข้อสังเกต: โจทย์ไม่ได้บอกว่ายืนยันด้วยชิ้นเนื้อแล้ว ในทางปฏิบัติต้องทำ rectal biopsy ยืนยันก่อน และถ้าสวนล้างไม่ได้ผลจะทำ colostomy แทน",
+  "mnemonic": "<b>'Hirschsprung เด็กโต: ล้างก่อน ลากทีหลัง (Irrigate → Pull-through)'</b>",
+  "guide": "Kyrklund K et al. ERNICA guidelines for the management of rectosigmoid Hirschsprung disease (Orphanet J Rare Dis 2020); Holcomb and Ashcraft Pediatric Surgery 7th ed. (2020) ch. Hirschsprung disease",
   "variants": [
-   "ทารก 2 สัปดาห์ biopsy ยืนยัน HD → rectal washout → TERPT ใน 1–3 เดือน",
-   "เด็กโต HD ลำไส้ขยายมาก สวนล้างไม่ได้ผล → colostomy → pull-through",
-   "HD ไข้ ท้องอืด ถ่ายเหลวเหม็น → enterocolitis → washout + ATB"
+   "ทารก 2 สัปดาห์ Hirschsprung ชนิด rectosigmoid ยืนยันแล้ว irrigation ได้ดี → transanal endorectal pull-through ครั้งเดียว",
+   "เด็ก 8 ปีลำไส้ใหญ่ขยายมาก สวนล้างไม่ได้ผล มี enterocolitis ซ้ำ → colostomy เหนือ transition zone ก่อน",
+   "Biopsy ระหว่างผ่าตัดไม่พบ ganglion ถึงลำไส้เล็กส่วนปลาย → total colonic aganglionosis ทำ ileostomy",
+   "ทำไมไม่ต่อลำไส้ที่ขยายมากทันที → ผนังหนาบวม เลือดเลี้ยงไม่ดี รอยต่อรั่วและลำไส้ทำงานไม่ดีหลังผ่าตัด"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 114 — ตัวพิมพ์: <b>15. What is an initial management in 10-year-old girl with proximal dilated colon and normal size sigmoid and rectum? — A. Swenson's operation B. Duhamel's operation C. Soave's operation D. Ileostomy E. Daily enema</b><br>ลายมือ: เครื่องหมายคำพูดที่ \"initial management\" · \"Hirschsprung Dz.\" · ขีด E + \"decompress 2–3 mo แล้วทำ transanal endorectal pull through\"<br>ไฮไลต์: \"initial management\" \"10-year-old girl\" \"proximal dilated colon\" \"normal size sigmoid and rectum\" · E (เหลือง)<br>รูปที่แปะ: ① ข้อความตำรา — \"การรักษาขั้นผ่าตัด definitive surgery ส่วนใหญ่จะทำในเด็กอายุประมาณ 4-6 เดือน สำหรับเด็ก HD ที่มาในระยะแรกคลอด หรือประมาณ 1-2 เดือน หลังจากวินิจฉัยได้ในเด็กโต เพื่อประโยชน์ในการ decompress bowel ให้ลำไส้ยุบแฟบลงมากที่สุด วัตถุประสงค์หลักของการผ่าตัดใน Hirschsprung's disease คือ ต้องการตัดส่วนที่เป็น aganglionic segment ออก และนำส่วน proximal ganglionic bowel มาต่อกับ normal anorectum\" ② ภาพวิธีผ่าตัด Rehbein · State · Duhamel · Swenson · Soave (ERPT) + ลายมือ \"1 stage → transanal endorectal pull through · 2 stages → ทำ colostomy ก่อน + abdominoperineal pull through · 3 stages → colostomy ก่อน + pull through + closure colostomy\"",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 114",
@@ -264,30 +280,32 @@
   ]
  },
  "MDCU67|RoB|16": {
-  "interp": "ถาม<b>ภาวะแทรกซ้อนที่พบบ่อยที่สุด</b>หลังผ่าตัดริดสีดวงทวาร (hemorrhoidectomy)",
-  "why": "<b>Urinary retention</b> พบบ่อยที่สุดหลัง hemorrhoidectomy (ปวดแผล/ กล้ามเนื้อหูรูดเกร็งสะท้อนไปที่กระเพาะปัสสาวะ ร่วมกับ spinal anesthesia และให้น้ำมาก) · ป้องกันด้วยจำกัดน้ำระหว่างผ่าตัด คุมปวดดี · ไฟล์ขีด A และแปะสไลด์ <b>postop Complications: Urinary retention — most common</b> · Bleeding — re-suture · Skin tag — avoid dog ear · Infection — uncommon · Wound disruption — uncommon · Stricture — non · Ectropion — non",
+  "interp": "ถามภาวะแทรกซ้อนที่พบบ่อยที่สุดหลังผ่าตัดริดสีดวงทวาร (hemorrhoidectomy) — ต้องรู้ว่าปัสสาวะคั่งพบบ่อยที่สุด จากความปวดและการเกร็งของหูรูด ยาชาไขสันหลัง และสารน้ำมาก ส่วนเลือดออกเป็นภาวะที่สำคัญแต่พบน้อยกว่า",
+  "why": "<b>ปัสสาวะคั่ง (urinary retention)</b> เป็นภาวะแทรกซ้อนที่พบบ่อยที่สุดหลัง hemorrhoidectomy (ราว <b>2–30%</b> ตามรายงาน) กลไก: <b>ปวดแผลกระตุ้นการเกร็งของหูรูดและ pelvic floor</b> สะท้อนยับยั้งการคลายตัวของคอกระเพาะปัสสาวะ · <b>spinal anesthesia</b> (เส้นประสาท sacral เดียวกันคุมทั้งทวารและกระเพาะปัสสาวะ — ตามลายมือในไฟล์) · <b>สารน้ำมากระหว่างผ่าตัด</b>ทำให้กระเพาะปัสสาวะเต็มเร็ว · opioid · การป้องกัน: จำกัดสารน้ำ (&lt; 250 mL) ใช้ยาชาเฉพาะที่ (local/ pudendal block) คุมปวดดี ไปห้องน้ำได้ทันที · <b>เลือดออก</b>: reactionary ใน 24 ชม. (หลุดผูก) หรือ secondary ราว 7–10 วัน (ติดเชื้อ/ เนื้อเยื่อหลุด) พบ ~1–5% · ภาวะอื่น: ปวด แผลหายช้า anal stenosis (ตัดเยื่อเกินโดยไม่เว้นสะพาน) กลั้นอุจจาระไม่อยู่ · ตรงคีย์ A — ไฟล์ขีด A และแปะสไลด์ \"<b>Urinary retention - most common</b>\" ลายมือ \"<b>เกิดได้จาก spinal block (same nerve), local</b>\"",
   "wrong": {
-   "B": "Bleeding พบได้ (ทั้งทันทีและ secondary 7–10 วัน) แต่น้อยกว่า urinary retention · จะถูกถ้าคำถามถามภาวะแทรกซ้อนที่ต้องกลับเข้าห้องผ่าตัดบ่อยที่สุด",
-   "C": "Skin tag ป้องกันโดยเลี่ยง dog ear · จะถูกถ้าคำถามถามภาวะแทรกซ้อนระยะยาวด้านความสวยงาม",
-   "D": "Infection พบน้อย (เลือดมาเลี้ยงดี) · จะถูกถ้าคำถามถามภาวะแทรกซ้อนที่พบน้อยแม้แผลปนเปื้อน",
-   "E": "Wound disruption พบน้อย · จะถูกถ้าคำถามถามแผลแบบปิด (Ferguson) ที่แยก"
+   "B": "เลือดออกเป็นภาวะแทรกซ้อน<b>ที่สำคัญและอันตรายที่สุด</b> แต่พบน้อยกว่าปัสสาวะคั่ง แบ่งเป็น reactionary (ใน 24 ชม. แก้โดยเย็บซ้ำตามสไลด์ \"re-suture\") และ secondary (7–10 วัน) · จะถูกถ้าเป็นชาย 45 ปีหลัง hemorrhoidectomy 8 วัน ถ่ายเป็นเลือดสดปริมาณมากเป็นก้อน ชีพจรเร็ว ต้องกลับมาห้องผ่าตัดห้ามเลือด",
+   "C": "Skin tag หลังผ่าตัดเกิดจากขอบแผลบวมหรือตัดเนื้อเยื่อไม่เรียบ (dog ear) เป็นปัญหาความงามมากกว่า ป้องกันด้วยการตัดแผลให้เรียวรีตามสไลด์ \"avoid dog ear\" พบไม่บ่อยเท่าปัสสาวะคั่ง · จะถูกถ้าเป็นหญิง 40 ปีหลัง hemorrhoidectomy 3 เดือน แผลหายดีแต่มีติ่งเนื้อนุ่มที่ขอบทวารทำความสะอาดลำบาก",
+   "D": "การติดเชื้อหลัง hemorrhoidectomy <b>พบน้อย</b> (สไลด์ในไฟล์เขียน uncommon) เพราะบริเวณทวารมีเลือดไปเลี้ยงมาก แม้จะเป็นแผลปนเปื้อน · จะถูกถ้าเป็นชาย 60 ปีเบาหวานคุมไม่ได้ หลังผ่าตัด 5 วันปวดมากขึ้น ไข้ แผลบวมแดงมีหนองลามไปฝีเย็บ สงสัย necrotizing soft tissue infection",
+   "E": "แผลแยก (wound disruption) พบน้อย (uncommon ตามสไลด์) โดยเฉพาะเทคนิค open (Milligan-Morgan) ที่ไม่เย็บปิดแผลอยู่แล้ว ส่วน closed (Ferguson) อาจแยกได้บ้างแต่ไม่เป็นปัญหาใหญ่ · จะถูกถ้าเป็นชาย 50 ปีหลัง Ferguson hemorrhoidectomy 4 วัน ท้องผูกเบ่งแรงจนรอยเย็บแยก มีเลือดซึมเล็กน้อย"
   },
-  "trap": "ตอบ bleeding เพราะคิดว่าเป็นปัญหาหลักของริดสีดวง — urinary retention พบบ่อยที่สุด",
+  "trap": "เลือดออกเป็นภาวะที่<b>สำคัญ</b>และผู้ป่วยกังวลที่สุด จึงชวนตอบว่าพบบ่อยที่สุด — คำถามถาม <b>\"most common\"</b> ซึ่งคือ<b>ปัสสาวะคั่ง</b>จากความปวด หูรูดเกร็ง ยาชาไขสันหลัง และสารน้ำมาก",
   "summary": [
-   "Hemorrhoidectomy: urinary retention พบบ่อยสุด",
-   "Secondary bleeding ~7–10 วัน",
-   "Anal stenosis จากตัด anoderm มากเกินไป",
-   "ปวดมาก: ใช้ multimodal analgesia",
-   "ข้อบ่งชี้: grade III–IV · ล้มเหลวจากการรักษาด้วยหัตถการ · mixed + external ใหญ่",
-   "Grade I–II: fiber/ ยา · rubber band ligation"
+   "Hemorrhoid: internal (เหนือ dentate line ไม่เจ็บ เลือดออก) เกรด I–IV ตาม Goligher · external (ใต้ dentate เจ็บ thrombosed)",
+   "รักษา: เกรด I–II → fiber น้ำ ยา flavonoid, rubber band ligation · III → band/ stapled/ excision · IV หรือ mixed/ strangulated → excisional hemorrhoidectomy",
+   "Excisional: Milligan-Morgan (open) · Ferguson (closed) · เว้น mucocutaneous bridge ระหว่างแผลป้องกัน anal stenosis",
+   "ภาวะแทรกซ้อน: urinary retention (พบบ่อยสุด) · ปวด · bleeding reactionary (&lt; 24 ชม.)/ secondary (7–10 วัน) · fecal impaction · stenosis · incontinence",
+   "ป้องกันปัสสาวะคั่ง: จำกัดสารน้ำ, local anesthesia/ pudendal block, คุมปวด (NSAIDs, metronidazole ลดปวด), alpha-blocker ในบางราย",
+   "Thrombosed external hemorrhoid ภายใน 72 ชม. → excision · หลัง 72 ชม. → รักษาตามอาการ",
+   "Stapled hemorrhoidopexy: ปวดน้อยกว่า แต่กลับเป็นซ้ำมากกว่า · ภาวะแทรกซ้อนเฉพาะ: rectovaginal fistula, pelvic sepsis"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'ตัดริดสีดวง → ฉี่ไม่ออก (most common)'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2018;61:284)",
+  "opinion": "เห็นด้วยกับคีย์ A (ไฟล์ขีด A และสไลด์ \"Urinary retention - most common\") มั่นใจสูง — ปัสสาวะคั่งเป็นภาวะแทรกซ้อนที่พบบ่อยที่สุดหลัง hemorrhoidectomy ในตำราศัลยศาสตร์ · ข้อสังเกต: บางงานวิจัยรายงานความปวดหลังผ่าตัดเป็นปัญหาที่พบบ่อยที่สุด แต่ไม่จัดเป็น \"complication\" ในความหมายของข้อนี้",
+  "mnemonic": "<b>'หลังผ่าริดสีดวง: ฉี่ไม่ออกมากสุด (Pain → Spasm → Retention) · เลือดออกอันตรายสุด'</b>",
+  "guide": "Davis BR et al. ASCRS Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2018); Sabiston Textbook of Surgery 21st ed. (2022) ch. Anus",
   "variants": [
-   "หลัง hemorrhoidectomy 6 ชม. ปวดท้องน้อย ปัสสาวะไม่ออก → สวนปัสสาวะ",
-   "หลัง hemorrhoidectomy 8 วัน เลือดออกมาก → secondary hemorrhage → ตรวจ/ ห้ามเลือด",
-   "ริดสีดวง grade II เลือดออก → rubber band ligation"
+   "หลัง hemorrhoidectomy ใต้ spinal block 8 ชม. ปวดท้องน้อย ปัสสาวะไม่ออก → สวนปัสสาวะทิ้งครั้งเดียว คุมปวด",
+   "หลัง hemorrhoidectomy 9 วันถ่ายเลือดสดมาก ชีพจรเร็ว → secondary hemorrhage กลับห้องผ่าตัดห้ามเลือด",
+   "หลังผ่าตัดริดสีดวง 2 เดือนถ่ายลำบาก อุจจาระเส้นเล็ก ใส่นิ้วไม่ผ่าน → anal stenosis ขยายทวารหรือ anoplasty",
+   "ทำไมควรจำกัดสารน้ำระหว่างผ่าตัดริดสีดวง → กระเพาะปัสสาวะเต็มเร็วขณะที่หูรูดยังเกร็งจากความปวด ทำให้ปัสสาวะคั่ง"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 115 — หัวข้อ Colo · ตัวพิมพ์: <b>16. Most common complication of hemorrhoidectomy — A. Urinary retention B. Bleeding C. Skin tag D. Infection E. Wound disruption</b><br>ลายมือ: ขีด A<br>ไฮไลต์: \"Most common complication\" \"hemorrhoidectomy\" · A (เหลือง)<br>รูปที่แปะ: สไลด์ postop Complications — Urinary retention - most common (ลายมือ \"เกิดได้จาก spinal block (same nerve), local\") · Bleeding - re-suture · Skin tag - avoid dog ear · Infection - uncommon · Wound disruption - uncommon · Stricture - non · Ectropion - non",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 115",
@@ -297,30 +315,32 @@
   ]
  },
  "MDCU67|RoB|17": {
-  "interp": "ถาม <b>perianal abscess</b> แบบใดควรให้<b>ยาปฏิชีวนะ</b>ร่วมกับการระบายหนอง",
-  "why": "หลักการรักษาฝีรอบทวาร: <b>ระบายหนอง (incision &amp; drainage)</b> เป็นหลัก · <b>± ยาปฏิชีวนะ</b> เฉพาะบางกลุ่ม: <b>มีไข้/ systemic response (sepsis)</b> · <b>ฝีลึก/ complex (ischioanal — horseshoe, supralevator)</b> · <b>cellulitis รอบ ๆ</b> · <b>ภูมิคุ้มกันต่ำ (เบาหวาน, เคมีบำบัด)</b> · ลิ้นหัวใจเทียม/ โรคหัวใจลิ้น → ทุกข้อถูก = E · ไฟล์ขีด E และแปะสไลด์ <b>Treatment</b> ลายมือ <b>\"Deep/ complex — systemic response เยอะ · มีไข้, cellulitis รอบ anus · leukocytosis\"</b> · <b>\"* drainage * ± ATB ดูเป็นรายๆ ex. low immune · มี systemic reaction (ไข้, pulse↑) ไข้, WBC↑, มี metabolic response to sepsis · cellulitis แสดงว่าเป็น deep-seated abscess (ischioanal, supralevator) · deep infection abscess\"</b>",
+  "interp": "ถามว่าผู้ป่วย perianal abscess แบบใดควรได้ยาปฏิชีวนะร่วมกับการระบายหนอง — หลักคือการระบายเป็นการรักษาหลัก ยาปฏิชีวนะเสริมเมื่อมีการติดเชื้อทั่วร่างกาย ฝีลึก/ ซับซ้อน cellulitis รอบข้าง หรือผู้ป่วยภูมิคุ้มกันต่ำ",
+  "why": "<b>Anorectal abscess</b> ส่วนใหญ่เกิดจาก <b>cryptoglandular infection</b> (ต่อม anal gland ที่ dentate line อุดตันและติดเชื้อ) แบ่งตามตำแหน่ง: <b>perianal</b> (พบบ่อยสุด) · <b>ischioanal</b> · intersphincteric · supralevator · <b>การรักษาหลักคือระบายหนอง (I&D) ทันที</b> โดยไม่ต้องรอฝีนุ่ม · ฝีตื้นธรรมดาในคนแข็งแรง <b>ไม่จำเป็นต้องให้ยาปฏิชีวนะ</b> · ยาปฏิชีวนะเสริม (ASCRS) เมื่อ: <b>มีอาการทั่วร่างกาย (ไข้ sepsis)</b>, <b>cellulitis รอบข้าง</b>ลามกว้าง, <b>ภูมิคุ้มกันต่ำ</b> (เบาหวาน HIV เคมีบำบัด ยากดภูมิ), ลิ้นหัวใจเทียม/ โรคลิ้นหัวใจ, และ<b>ฝีลึกหรือซับซ้อน</b> (ischioanal, supralevator, horseshoe) ที่มักต้องระบายในห้องผ่าตัด · หลังระบายราว <b>30–60% เกิด fistula-in-ano</b> · ตรงคีย์ E — ไฟล์ขีด E ไฮไลต์ทุกช้อย และแปะสไลด์ treatment ที่แยก supf/ simple (ระบายที่ ER ได้) กับ deep/ complex (ลายมือ \"<b>sys</b>…\" หมายถึงต้องให้ยาร่วม)",
   "wrong": {
-   "A": "ถูกบางส่วน — ไข้/ systemic sign เป็นข้อบ่งชี้ · จะถูกถ้าคำถามให้เลือกข้อเดียว",
-   "B": "ถูกบางส่วน — ฝีลึก ischioanal ควรให้ยา · จะถูกถ้าคำถามให้เลือกข้อเดียวเรื่องตำแหน่ง",
-   "C": "ถูกบางส่วน — cellulitis รอบ ๆ เป็นข้อบ่งชี้ · จะถูกถ้าคำถามให้เลือกข้อเดียว",
-   "D": "ถูกบางส่วน — ภูมิคุ้มกันต่ำเป็นข้อบ่งชี้ · จะถูกถ้าคำถามให้เลือกข้อเดียว"
+   "A": "ไข้เป็นข้อบ่งชี้ให้ยาปฏิชีวนะจริง เพราะบ่งว่าการติดเชื้อลามเข้าสู่ระบบ (systemic infection/ sepsis) แต่ไม่ใช่ข้อเดียว ช้อย B, C, D ก็เป็นข้อบ่งชี้ด้วย คำตอบจึงเป็น E · จะถูกถ้าเป็นชาย 35 ปีสุขภาพดีมีฝีที่ขอบทวาร 3 cm ไม่มี cellulitis ไม่มีโรคประจำตัว แต่มีไข้ 38.8 °C หนาวสั่น และคำถามให้เลือกข้อบ่งชี้เพียงข้อเดียว",
+   "B": "Ischioanal abscess เป็นฝีลึกในโพรง ischioanal ซึ่งกว้างและอาจลามเป็น horseshoe ข้ามไปอีกข้าง มักต้องระบายในห้องผ่าตัดและให้ยาร่วม จึงเป็นข้อบ่งชี้จริง แต่ยังมีข้ออื่นด้วย · จะถูกถ้าเป็นชาย 50 ปีปวดก้นลึก ๆ ไข้ ก้นแก้มบวมแข็งกว้างแต่ผิวขอบทวารปกติ CT เห็นหนองในโพรง ischioanal และคำถามถามชนิดฝีที่ต้องได้ยาร่วม",
+   "C": "Cellulitis รอบฝีเป็นข้อบ่งชี้ให้ยาปฏิชีวนะจริง เพราะการระบายหนองไม่ได้รักษาเนื้อเยื่อที่อักเสบลามรอบข้าง แต่ไม่ใช่ข้อเดียว · จะถูกถ้าเป็นหญิง 40 ปีมีฝีที่ขอบทวารซึ่งผิวหนังรอบ ๆ แดงร้อนลามกว้าง 5 cm ไปถึงก้นแก้ม และคำถามให้เลือกลักษณะเฉพาะที่ต้องให้ยา",
+   "D": "ผู้ป่วยภูมิคุ้มกันต่ำ (เบาหวาน HIV เคมีบำบัด neutropenia ยากดภูมิ) ต้องได้ยาปฏิชีวนะเพราะการติดเชื้อลามเร็วและเสี่ยง necrotizing infection แต่ไม่ใช่ข้อเดียว · จะถูกถ้าเป็นชาย 55 ปีกำลังได้เคมีบำบัด เม็ดเลือดขาวต่ำ มีปวดทวารและบวมแดงเล็กน้อย ซึ่งต้องให้ยาครอบคลุมกว้างทันทีแม้หนองยังไม่ชัด"
   },
-  "trap": "คิดว่าฝีทุกรายต้องให้ยา หรือให้ยาแทนการระบาย — ระบายคือหลัก ยาเฉพาะกลุ่มเสี่ยง",
+  "trap": "หลายคนจำว่า \"ฝีต้องระบาย ไม่ต้องให้ยา\" จึงลังเลจะเลือก E — หลักคือฝี<b>ตื้นธรรมดาในคนแข็งแรง</b>ระบายอย่างเดียวพอ แต่ทุกช้อยในข้อนี้เป็น<b>ข้อยกเว้น</b>ที่ต้องให้ยาร่วม (ไข้, ฝีลึก, cellulitis, ภูมิคุ้มกันต่ำ)",
   "summary": [
-   "Anorectal abscess: I&amp;D เป็นหลัก ไม่รอ fluctuation",
-   "ATB เพิ่ม: ไข้/ sepsis · cellulitis · ฝีลึก/ complex · ภูมิคุ้มกันต่ำ · ลิ้นหัวใจเทียม",
-   "Superficial (perianal/ intersphincteric): I&amp;D ที่ ER ได้ · ~40% หาย ~60% fistula",
-   "Deep (ischioanal/ supralevator): I&amp;D ใน OR + ATB · fistula ~80% complex",
-   "Horseshoe: deep postanal space",
-   "Supralevator: ระวังต้นเหตุจากช่องท้อง"
+   "Anorectal abscess: cryptoglandular ~90% · อื่น: Crohn disease, TB, มะเร็ง, บาดเจ็บ, HIV",
+   "ตำแหน่ง: perianal (~60%) > ischioanal (~20–30%) > intersphincteric > supralevator · horseshoe ลามผ่าน deep postanal space",
+   "รักษาหลัก: I&D ทันที (ไม่รอให้นุ่ม) แผลใกล้ขอบทวารเพื่อให้ fistula ที่เกิดภายหลังสั้น · ฝีลึก/ ซับซ้อนระบายในห้องผ่าตัด",
+   "ยาปฏิชีวนะเสริม: systemic signs/ sepsis, cellulitis, ภูมิคุ้มกันต่ำ/ เบาหวาน, ลิ้นหัวใจเทียม, ฝีลึก/ ซับซ้อน · ครอบ gram-negative + anaerobe",
+   "หลังระบาย: fistula-in-ano ~30–60% · ฝีกลับเป็นซ้ำ",
+   "Fournier gangrene: necrotizing infection ของฝีเย็บ (เบาหวาน) → debridement ด่วน + ยาครอบกว้าง",
+   "Fistula-in-ano: Goodsall rule · simple → fistulotomy · complex (ผ่านหูรูดมาก) → seton, LIFT, advancement flap"
   ],
-  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 และสไลด์",
-  "mnemonic": "<b>'ฝีก้น: ระบายก่อนเสมอ · ยาเมื่อ \"ไข้ ลึก แดงลาม ภูมิต่ำ\"'</b>",
-  "guide": "ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964)",
+  "opinion": "เห็นด้วยกับคีย์ E (ไฟล์ขีด E) มั่นใจสูง — ทุกช้อยเป็นข้อบ่งชี้ให้ยาปฏิชีวนะร่วมกับการระบายตามแนวทาง ASCRS และสไลด์ที่แยกฝี simple กับ deep/ complex · ข้อสังเกต: ischioanal abscess ขนาดเล็กในคนแข็งแรงบางแหล่งระบายอย่างเดียว แต่ในทางปฏิบัติมักให้ยาร่วมเพราะเป็นฝีลึก",
+  "mnemonic": "<b>'ฝีทวาร: ระบายเสมอ · ให้ยาเมื่อ \"ไข้ · ลึก · ลาม · ภูมิต่ำ\"'</b>",
+  "guide": "Gaertner WB et al. ASCRS Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022)",
   "variants": [
-   "ฝีรอบทวาร ไม่มีไข้ ผู้ป่วยแข็งแรง → I&amp;D อย่างเดียว",
-   "ฝีรอบทวาร + เบาหวานคุมไม่ได้ + cellulitis → I&amp;D + ATB",
-   "ฝี ischioanal สองข้าง (horseshoe) → I&amp;D ใน OR + ATB"
+   "ชาย 30 ปีฝีที่ขอบทวาร 2 cm ไม่มีไข้ ไม่มีโรคประจำตัว → I&D ที่ห้องฉุกเฉิน ไม่ต้องให้ยาปฏิชีวนะ",
+   "ชายเบาหวานคุมไม่ได้ ฝีทวารร่วมผิวหนังรอบแดงลามกว้าง → I&D + ยาปฏิชีวนะครอบ gram-negative และ anaerobe",
+   "ปวดทวารลึกมาก ไข้ คลำผนังลำไส้ตรงด้านบนบวมเจ็บ ผิวนอกปกติ → supralevator หรือ intersphincteric abscess ทำ CT/ MRI และระบายในห้องผ่าตัด",
+   "ทำไมฝีทวารธรรมดาไม่ต้องให้ยา → หนองในโพรงยาเข้าไม่ถึง การระบายแก้ปัญหาได้ ยาไม่ลดการเกิด fistula"
   ],
   "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 115 — ตัวพิมพ์: <b>17. Perianal abscess แบบใดที่ควรให้ antibiotic — A. มีไข้ B. Ischioanal abscess C. Cellulitis D. Immunocompromised host E. ถูกทุกข้อ</b><br>ลายมือ: ขีด E<br>ไฮไลต์: \"Perianal abscess แบบใดที่ควรให้ antibiotic\" · A–D (เหลือง)<br>รูปที่แปะ: สไลด์ Treatment (ลายมือ \"→ drainage ระบายหนอง\") — Supf/ simple: Perianal abscess (I&amp;D ทาง perianal skin) · Intersphincteric abscess (I&amp;D ทาง intersphincteric space) → ทำ local I&amp;D ที่ ER ได้ @ บริเวณ bulging ตาม ก.ตรวจ · หายขาด ~40% · 60% → fistula in ano / Deep/ complex (ลายมือ \"systemic response เยอะ · มีไข้, cellulitis รอบ anus · leukocytosis\"): Ischioanal abscess (horseshoes) · Supralevator abscess → deep I&amp;D + ATB ที่ OR + anesthesia (spinal block/ GA) · หายขาด 20% · 80% complex fistula · \"∴ ต้องอธิบายคนไข้ให้เรียบร้อย!\" · \"* drainage * ± ATB ดูเป็นรายๆ ex. low immune · มี systemic reaction (ไข้, pulse↑) ไข้, WBC↑, มี metabolic response to sepsis · cellulitis แสดงว่าเป็น deep-seated abscess (Ischioanal, Supralevator) · deep infection abscess\"",
   "src": "__01_3_MCQs_Key_2.pdf · หน้า 115",
