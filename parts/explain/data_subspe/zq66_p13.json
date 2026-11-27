@@ -1,159 +1,282 @@
 {
  "MDCU66|RoD|9": {
-  "interp": "ถามกลับด้าน: ใคร \"จำเป็นน้อยที่สุด\" ต้องส่องกล้องลำไส้ใหญ่ · ช้อยอื่นเป็น red flag ในผู้สูงอายุ กลุ่มอาการ polyposis และ IBD ที่ถึงรอบ surveillance",
-  "why": "<b>ลายมือ: only (น้ำหนักลดอย่างเดียว) · b bowel habit change · e ส่อง sig. 10 yo</b><br><b>นอกสไลด์:</b> น้ำหนักลดโดยไม่มีอาการทางลำไส้ ไม่ซีด ไม่มีเลือดออก เป็นอาการไม่จำเพาะ — เริ่มจากประวัติ ตรวจร่างกาย และตรวจเลือดพื้นฐาน (CBC, TSH, น้ำตาล, HIV) หาสาเหตุทั่วร่างก่อน ส่วนช้อยอื่นมีข้อบ่งชี้ส่องกล้องชัดเจน",
+  "interp": "ให้ผู้ป่วย 5 แบบแล้วถามว่าใคร<b>จำเป็นต้องส่อง colonoscopy น้อยที่สุด</b> (least require) — ต้องแยกคนที่มีข้อบ่งชี้ชัด ได้แก่ อาการเตือนมะเร็งลำไส้ใหญ่ กลุ่มพันธุกรรม polyposis และ IBD ที่ถึงรอบเฝ้าระวัง ออกจากคนที่มีอาการไม่จำเพาะต่อลำไส้",
+  "why": "ข้อบ่งชี้ส่องกล้องลำไส้ใหญ่แบ่งเป็น 3 กลุ่ม: (1) <b>มีอาการ → diagnostic colonoscopy</b> เช่น ถ่ายเปลี่ยนนิสัย อุจจาระลำเล็กลง ถ่ายเป็นเลือด ซีดจากขาดธาตุเหล็ก คลำได้ก้อน โดยเฉพาะอายุ ≥ 50 ปี · (2) <b>กลุ่มพันธุกรรม → surveillance เข้มข้น</b>: FAP (APC) มี adenoma นับร้อย เสี่ยงมะเร็งเกือบ 100% ถ้าไม่ผ่าตัด ต้องส่องทุก 1 ปีตั้งแต่อายุ 10–12 ปี · Peutz–Jeghers (STK11) ส่องเฝ้าระวังทุก 2–3 ปีตั้งแต่วัยเด็ก · (3) <b>IBD colitis ≥ 8 ปี</b> ต้องส่องหา dysplasia ทุก 1–3 ปี — UC รุนแรง 10 ปีที่ส่องครั้งสุดท้าย 5 ปีก่อนจึงเลยกำหนด · ส่วน<b>น้ำหนักลดเพียงอย่างเดียว</b>โดยไม่มีอาการทางลำไส้ ไม่ซีด ไม่มีเลือดออก เป็นอาการไม่จำเพาะ ต้องเริ่มจากประวัติ ตรวจร่างกาย CBC, TSH, น้ำตาล, HIV, CXR หาสาเหตุทั่วร่างกายก่อน colonoscopy จึงจำเป็นน้อยที่สุด · ไฟล์ขีด a และเขียนลายมือ <b>\"only\"</b> เหนือ weight loss",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเพิ่งส่องกล้องลำไส้ใหญ่ตลอดสายปกติไม่กี่เดือนก่อน และอุจจาระสีเข้มอธิบายได้จากยาธาตุเหล็ก",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก Peutz-Jeghers อายุ 3 ปีที่ไม่มีอาการ ยังไม่ถึงอายุเริ่มส่องกล้องเฝ้าระวัง (ราว 8 ปี)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วย UC รายนี้ผ่าตัดเอาลำไส้ใหญ่และ rectum ออกหมดแล้ว (total proctocolectomy + end ileostomy) จึงไม่เหลือลำไส้ใหญ่ให้เฝ้าระวัง",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก FAP อายุ 5 ปีที่ไม่มีอาการ ยังไม่ถึงอายุเริ่มส่องกล้อง (10–12 ปี)"
+   "B": "อายุ 70 ปี อุจจาระลำเล็กลงและสีเข้ม คือ<b>ถ่ายเปลี่ยนนิสัยในผู้สูงอายุ</b> (ลายมือ \"&gt;50 yr\" และ \"bowel habit change\") เป็นอาการเตือนมะเร็งลำไส้ซีกซ้าย/ไส้ตรงที่ตีบแคบ ต้องส่อง colonoscopy ตลอดสายโดยเร็ว · จะถูกถ้าเป็นชาย 70 ปีที่เพิ่งส่องกล้องตลอดสายปกติเมื่อ 3 เดือนก่อน และอุจจาระสีเข้มอธิบายได้จากเพิ่งเริ่มกินยาธาตุเหล็ก",
+   "C": "Peutz–Jeghers syndrome (STK11, autosomal dominant) มี hamartomatous polyp ทั่วทางเดินอาหาร (ลายมือ \"มี polyp\") เสี่ยงมะเร็งลำไส้ใหญ่ กระเพาะ ลำไส้เล็ก ตับอ่อน เต้านม และเกิด intussusception จาก polyp ใหญ่ จึงต้องส่องเฝ้าระวังเป็นรอบ · จะถูกถ้าเป็นเด็ก 3 ปีที่เพิ่งได้รับการวินิจฉัยจากจุดดำที่ริมฝีปาก ยังไม่มีอาการและยังไม่ถึงอายุเริ่มส่องกล้องครั้งแรก",
+   "D": "UC รุนแรงนาน 10 ปีเสี่ยง dysplasia และมะเร็งลำไส้ใหญ่ ต้องส่อง surveillance ทุก 1–3 ปีหลังเป็นโรค 8 ปี (ทุกปีถ้ามี PSC อักเสบต่อเนื่อง หรือเคยพบ dysplasia) ครั้งล่าสุด 5 ปีก่อนจึงเลยกำหนดแล้ว · จะถูกถ้าเป็นผู้ป่วย UC ที่ผ่าตัด total proctocolectomy ทำ end ileostomy ไปแล้ว จึงไม่เหลือลำไส้ใหญ่ให้เฝ้าระวัง",
+   "E": "FAP มี adenoma เป็นร้อยถึงพันเม็ด เกือบทุกรายเป็นมะเร็งราวอายุ 40 ปีถ้าไม่รักษา ต้องส่องทุกปีตั้งแต่อายุ 10–12 ปี (ลายมือ \"ส่อง ตต. 18 yo\") แล้วทำ prophylactic colectomy เมื่อ polyp มากเกินคุมได้ · จะถูกถ้าเป็นน้องชายของผู้ป่วย FAP ที่ตรวจยีนแล้วไม่มี APC mutation เดียวกับครอบครัว จึงคัดกรองแบบคนทั่วไป"
   },
-  "trap": "\"น้ำหนักลด\" ฟังดูเหมือน red flag ของมะเร็ง — แต่จะเป็นข้อบ่งชี้ส่องกล้องเมื่อมีอาการลำไส้ ซีดขาดเหล็ก เลือดออก หรือ FIT บวกร่วมด้วย",
+  "trap": "เห็น weight loss แล้วนึกถึงมะเร็งลำไส้จนตัดช้อยนี้ทิ้ง และไปเลือก Peutz–Jeghers เพราะคิดว่าเป็นโรคไม่ร้าย (hamartoma) · ต้องอ่านคำว่า <b>least require</b> ให้ดี แล้วถามว่าแต่ละช้อยมีข้อบ่งชี้ตามกลุ่มไหน: อาการเตือน · พันธุกรรม · IBD ถึงรอบ — น้ำหนักลดเดี่ยว ๆ ไม่เข้ากลุ่มใดเลย",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ส่องกล้องเพื่อวินิจฉัย: เลือดออกทางทวาร, ซีดขาดเหล็ก, ลำ/นิสัยการถ่ายเปลี่ยนในผู้สูงอายุ, FIT บวก, ก้อนในท้อง",
-   "<b>นอกสไลด์:</b> กลุ่มเสี่ยงสูงที่ต้องเฝ้าระวัง: FAP ส่องทุกปีเริ่ม 10–12 ปี · Peutz-Jeghers เริ่มราว 8 ปี · UC/Crohn colitis เริ่ม 8 ปีหลังมีอาการ ทุก 1–5 ปีตามความเสี่ยง (มี PSC ทุกปีตั้งแต่วินิจฉัย)"
+   "อาการเตือนที่ต้องส่อง colonoscopy: ถ่ายเปลี่ยนนิสัย อุจจาระลำเล็ก ถ่ายเป็นเลือด ซีดจากขาดธาตุเหล็ก คลำได้ก้อนในท้อง FIT/FOBT บวก โดยเฉพาะในผู้ที่อายุ ≥ 50 ปี",
+   "น้ำหนักลดไม่ทราบสาเหตุ (&gt; 5% ใน 6–12 เดือน): หาสาเหตุทั่วร่างกายก่อน — เบาหวาน ไทรอยด์เป็นพิษ วัณโรค HIV มะเร็งอวัยวะอื่น ซึมเศร้า โรคหัวใจ/ไตเรื้อรัง",
+   "Average risk ไม่มีอาการ: เริ่มคัดกรองอายุ 45–50 ปี ด้วย colonoscopy ทุก 10 ปี หรือ FIT ทุกปี ถ้า FIT บวกต้องตาม colonoscopy",
+   "ญาติสายตรงเป็นมะเร็งหรือ advanced adenoma อายุ &lt; 60 ปี หรือญาติสายตรง ≥ 2 คน: colonoscopy เริ่มอายุ 40 ปีหรือ 10 ปีก่อนอายุญาติที่เป็นน้อยที่สุด ทุก 5 ปี",
+   "FAP: sigmoidoscopy/colonoscopy ทุกปีตั้งแต่ 10–12 ปี → prophylactic colectomy (มักช่วงวัยรุ่นปลาย–ต้น 20) และส่อง duodenum หา ampullary adenoma",
+   "Peutz–Jeghers: hamartomatous polyp + จุดสีดำที่ริมฝีปาก/เยื่อบุแก้ม · เฝ้าระวัง colonoscopy + EGD + capsule ทุก 2–3 ปี · เสี่ยง intussusception จาก polyp ใหญ่",
+   "IBD colitis (UC หรือ Crohn ที่ลำไส้ใหญ่ ≥ 1/3): เริ่มส่องเฝ้าระวัง 8 ปีหลังมีอาการ ทุก 1–3 ปี · มี PSC → ทุกปีตั้งแต่วินิจฉัย · ใช้ chromoendoscopy หา dysplasia"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a และเขียน \"only\" ย้ำว่าน้ำหนักลดอย่างเดียว ส่วนช้อยอื่นมีข้อบ่งชี้ชัดทั้งหมด · ถ้าน้ำหนักลดร่วมกับซีดขาดเหล็ก ถ่ายเปลี่ยนนิสัย หรือเลือดออก จะกลายเป็นข้อบ่งชี้ส่องกล้องทันที (ตรงกับลายมือสรุปบนสไลด์)",
+  "mnemonic": "<b>'Least require = อาการไม่จำเพาะ (weight loss only) · ที่เหลือคือ Red flag / Gene / IBD'</b>",
+  "guide": "NCCN Clinical Practice Guidelines in Oncology: Genetic/Familial High-Risk Assessment: Colorectal (version ปัจจุบัน) · ACG Clinical Guideline: Ulcerative Colitis in Adults (Am J Gastroenterol 2019;114:384–413) · US Multi-Society Task Force on Colorectal Cancer screening recommendations (Gastroenterology 2017;153:307–323)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 55 ปี น้ำหนักลด 8% ใน 6 เดือน ร่วมกับซีดขาดธาตุเหล็ก → ส่องกล้องทั้งกระเพาะและลำไส้ใหญ่ (bidirectional endoscopy)",
-   "<b>นอกสไลด์:</b> UC จำกัดเฉพาะ rectum (proctitis) มา 10 ปี → ไม่ต้องส่องเฝ้าระวังมะเร็งถี่กว่าคนทั่วไป"
+   "ชาย 72 ปี อุจจาระลำเล็กลง 2 เดือน Hb 9 g/dL ferritin ต่ำ → colonoscopy ตลอดสาย (ร่วมกับ EGD ถ้าไม่พบสาเหตุ)",
+   "หญิง 30 ปี น้ำหนักลด 6 kg ใน 3 เดือน ใจสั่น มือสั่น เหงื่อออก ไม่มีอาการทางลำไส้ → ตรวจ TSH/free T4 ก่อน ยังไม่ต้องส่องกล้อง",
+   "ผู้ป่วย UC 12 ปีร่วมกับ primary sclerosing cholangitis → colonoscopy เฝ้าระวัง dysplasia ทุกปี",
+   "เด็ก 11 ปี พ่อเป็น FAP ตรวจพบ APC mutation เดียวกัน ยังไม่มีอาการ → เริ่ม sigmoidoscopy/colonoscopy ทุกปี"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 (คอลัมน์ขวา) — ตัวพิมพ์: <b>9. Least require for colonoscope — a. มี weight loss b. อายุ 70 ถ่ายก้อนเล็กลง สีเข้ม c. เป็น Peutz jagher d. อายุ42ปี severe ulcerative colitis 10ปี last colonoscope 5 ปี e. FAP</b><br>ลายมือ: ขีด a · เขียน \"only\" เหนือ weight loss · ช้อย b เขียน \"&gt;50 yr\" เหนือ อายุ 70 และ \"bowel habit change\" เหนือ ถ่ายก้อนเล็กลง · ช้อย c เขียน \"มี polyp\" · ช้อย e ✓ และ \"→ ส่อง ตต. 18 yo\"<br>ไฮไลต์: \"Least require\" · \"colonoscope\" · \"weight loss\" (เหลือง) · \"Peutz jagher\" · \"42ปี severe ulcerative colitis 10ปี last colonoscope 5 ปี\" · \"FAP\" (ส้ม)<br>รูปที่แปะ: แผนผัง \"Symptoms of CRC?\" — Yes → Diagnostic studies · No → Risk? → Average: อายุ &lt;50 yr ไม่คัดกรอง, ≥50 yr: Colonoscopy every 10 yr · CTC every 5 yr · Flexible sigmoidoscopy every 5 yr · DCBE every 5 yr · gFOBT/FIT/sDNA → ถ้าบวก Evaluate entire colon: Colonoscopy · Increased → Personal history (Surveillance colonoscopy · IBD: Consider surveillance colonoscopy — ขีดเส้นใต้แดงและเขียน \"D\") · Family history (Genetic syndromes FAP, HNPCC: Early, intense screening, genetic counseling, genetic testing — เขียน \"E\" · CRC or adenoma in 1 FDR &lt;60 yr หรือ 2 FDR: colonoscopy เริ่มอายุ 40 หรือ 10 ปีก่อนอายุญาติที่น้อยที่สุด · CRC or adenoma in FDR ≥60 yr หรือ 2 SDR: average risk screening เริ่มอายุ 50) + ข้อความ \"Presence of symptoms – Diagnostic test · Absence of symptoms – Average risk: screening · Increased risk: surveillance\" + ตัวพิมพ์สีน้ำเงิน \"ถ้าตัดตั้งแต่เป็น adenoma ก็จะไม่เป็น CA ได้ จึงแนะนำให้ตรวจคัดกรองตั้งแต่อายุ 50\" + ลายมือสรุป \"2 อ &lt; อาการ: น้ำหนักลด, เบื่ออาหาร, ถ่ายเป็นเลือด, anemia, อุจจาระเล็กลง, bowel habit change → ส่องกล้องทันที · อายุ: &gt;50yr → screening (moderate risk → คัดกรอง) ถ้า high risk → surveillance: เฝ้าระวัง · ex FAP: familial adenomatous polyposis; พอโตเป็นวัยรุ่น → ตัด colon ทั้งหมด\"<br>ที่ปรับในเว็บ: แปลโจทย์และช้อยเป็นภาษาอังกฤษ · ช้อย a เป็น \"Weight loss alone\" ตามลายมือ only · ช้อย d ตัดอายุ 42 ปีออก · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_9"
   ]
  },
  "MDCU66|RoD|10": {
-  "interp": "ข้อ NOT — ถามช้อยที่ \"ไม่ใช่\" สาเหตุของท้องผูก · ช้อยเป็นสามกลุ่ม: โรคระบบประสาท (Parkinson, MS), ยา (anticholinergic), เมตาบอลิก (hypothyroidism, hypercalcemia)",
-  "why": "<b>ลายมือ: ขีด a · ติ๊ก b–e</b><br><b>นอกสไลด์:</b> ในเนื้อหา Parkinson ก็ทำให้ท้องผูกได้บ่อย (Lewy body ในระบบประสาทลำไส้ และมักนำอาการทางการเคลื่อนไหวมาหลายปี) — ทุกช้อยจึงเป็นสาเหตุจริง ข้อนี้ตอบ A ตามคีย์เท่านั้น",
+  "interp": "คำถามแบบ <b>NOT</b> (ลายมือเติม \"not\" หน้า Cause) ถามว่าข้อใด<b>ไม่ใช่สาเหตุของท้องผูก</b> — ช้อยมีทั้งโรคระบบประสาท ยา และความผิดปกติเมตาบอลิก ต้องรู้ว่าแต่ละข้อทำให้ท้องผูกได้หรือไม่ และกลไกคืออะไร",
+  "why": "ท้องผูกทุติยภูมิ (secondary constipation) มี 3 กลุ่มหลัก: <b>ยา</b> — opioid, <b>anticholinergic</b> (TCA, oxybutynin, antihistamine รุ่นแรก, antipsychotic), calcium channel blocker (verapamil), ธาตุเหล็ก, calcium, aluminium antacid · <b>เมตาบอลิก/ต่อมไร้ท่อ</b> — <b>hypothyroidism</b> (ลำไส้เคลื่อนไหวช้า), <b>hypercalcemia</b> (กล้ามเนื้อเรียบและเส้นประสาทถูกกด), hypokalemia, เบาหวาน (autonomic neuropathy) · <b>ระบบประสาท</b> — <b>Parkinson disease</b>, <b>multiple sclerosis</b>, spinal cord injury, Hirschsprung · ในความรู้ปัจจุบัน<b>ทุกช้อยในข้อนี้เป็นสาเหตุของท้องผูกได้</b> — Parkinson ทำให้ท้องผูกพบบ่อยมาก (ราวครึ่งหนึ่งถึงสองในสาม) จาก α-synuclein สะสมใน enteric nervous system ลด colonic transit และ anorectal dyssynergia และมักนำอาการทางการเคลื่อนไหวมาหลายปี · ไฟล์เขียนลายมือ <b>\"not\"</b> หน้า Cause และขีด <b>a (Parkinson)</b> พร้อม ✓ ที่ b–e เว็บจึงตั้งเฉลย A ตามคีย์ซึ่งขัดกับความรู้ปัจจุบัน",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"anticholinergic ทำให้ท้องผูก\" ผิด เพราะยายับยั้ง muscarinic receptor ลดการบีบตัวของลำไส้โดยตรง (TCA, antihistamine รุ่นแรก, oxybutynin, antipsychotic)",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"multiple sclerosis ทำให้ท้องผูก\" ผิด เพราะรอยโรคที่ไขสันหลังรบกวนการควบคุมลำไส้และการเบ่ง ร่วมกับการเคลื่อนไหวน้อยและยา",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"hypothyroidism ทำให้ท้องผูก\" ผิด เพราะฮอร์โมนไทรอยด์ต่ำลดการบีบตัวของลำไส้ทั้งสาย รุนแรงถึง ileus ได้",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"hypercalcemia ทำให้ท้องผูก\" ผิด เพราะแคลเซียมสูงลดความไวของกล้ามเนื้อเรียบและเส้นประสาทในลำไส้"
+   "B": "ข้อความถูก: anticholinergic (oxybutynin, TCA, diphenhydramine, benztropine) ยับยั้ง muscarinic receptor ที่กล้ามเนื้อเรียบลำไส้ ลดการบีบตัวจนท้องผูกจริง และพบบ่อยในผู้สูงอายุที่ใช้ยาหลายตัว · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับยาที่ทำให้ท้องผูก เช่น หญิง 75 ปีเริ่มกิน oxybutynin รักษา urge incontinence แล้วท้องผูก ปากแห้ง",
+   "C": "ข้อความถูก: multiple sclerosis ทำให้ท้องผูกได้ราวครึ่งหนึ่งของผู้ป่วย จากรอยโรคที่ไขสันหลังรบกวน autonomic control ของลำไส้และหูรูด ร่วมกับเคลื่อนไหวน้อยและยาที่ใช้ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับโรคระบบประสาทที่ทำให้ท้องผูก เช่น หญิง 32 ปีเป็น MS มีขาอ่อนแรง ปัสสาวะลำบาก และถ่ายยากมา 6 เดือน",
+   "D": "ข้อความถูก: hypothyroidism ลด metabolic rate และการเคลื่อนไหวของลำไส้ ทำให้ท้องผูกร่วมกับขี้หนาว น้ำหนักขึ้น ผิวแห้ง reflex คลายตัวช้า รุนแรงมากเกิด pseudo-obstruction ได้ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับสาเหตุเมตาบอลิก เช่น หญิง 50 ปีท้องผูก เหนื่อยง่าย ขี้หนาว TSH สูง free T4 ต่ำ",
+   "E": "ข้อความถูก: hypercalcemia ลดความไวของเซลล์ประสาทและกล้ามเนื้อเรียบ ทำให้ท้องผูก ร่วมกับปวดกระดูก นิ่ว ปัสสาวะมาก ซึมสับสน (bones, stones, groans, moans) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับ hypercalcemia of malignancy เช่น ชาย 65 ปีมะเร็งปอดชนิด squamous มีท้องผูก ซึม ปัสสาวะบ่อย calcium 13 mg/dL"
   },
-  "trap": "ภาวะต่อมไทรอยด์และแคลเซียมสลับทิศง่าย: hypothyroidism และ hypercalcemia → ท้องผูก · hyperthyroidism → ถ่ายบ่อย · hypokalemia ก็ทำให้ลำไส้เคลื่อนไหวช้า",
+  "trap": "ข้อนี้ทุกช้อยเป็นสาเหตุของท้องผูกจริง · คนเลือก Parkinson เพราะคิดถึงแต่อาการสั่น เกร็ง เคลื่อนไหวช้า ลืมว่า<b>ท้องผูกเป็น non-motor symptom ที่พบบ่อยที่สุดอย่างหนึ่ง</b>และเป็น prodromal sign · คีย์ในไฟล์ขีด a จึงน่าจะคลาดเคลื่อน หรือช้อยที่จดมาไม่ครบ (ข้อสอบจริงอาจมีช้อยอื่นที่ไม่ใช่สาเหตุ)",
   "summary": [
-   "<b>นอกสไลด์:</b> ท้องผูกจากสาเหตุอื่น (secondary) จำเป็นกลุ่ม: ยา (opioid, anticholinergic, verapamil, ธาตุเหล็ก, แคลเซียม, aluminium antacid) · เมตาบอลิก (hypothyroidism, hypercalcemia, hypokalemia, เบาหวาน) · ระบบประสาท (Parkinson, MS, ไขสันหลังบาดเจ็บ, Hirschsprung) · ลำไส้ตีบ (มะเร็ง)"
+   "ท้องผูกปฐมภูมิแบ่ง 3 แบบ: normal transit (รวม IBS-C) · slow transit · defecatory disorder (pelvic floor dyssynergia) — แยกด้วย anorectal manometry, balloon expulsion test และ colonic transit study",
+   "ยาที่ทำให้ท้องผูก: opioid · anticholinergic · TCA · antipsychotic · CCB (verapamil) · ธาตุเหล็ก · calcium · aluminium antacid · 5-HT3 antagonist (ondansetron)",
+   "เมตาบอลิก/ต่อมไร้ท่อ: hypothyroidism · hypercalcemia · hypokalemia · hypermagnesemia · เบาหวาน (autonomic neuropathy) · ตั้งครรภ์ (progesterone)",
+   "ระบบประสาท: Parkinson (ท้องผูกนำอาการเคลื่อนไหวได้หลายปี) · MS · spinal cord injury · autonomic neuropathy · Hirschsprung disease ในเด็ก",
+   "Red flags ที่ต้องส่อง colonoscopy: อายุ ≥ 45–50 ปีที่ยังไม่เคยคัดกรอง · ถ่ายเป็นเลือด · ซีดขาดเหล็ก · น้ำหนักลด · เพิ่งเริ่มเป็นในผู้สูงอายุ · ประวัติครอบครัวมะเร็งลำไส้",
+   "รักษาเป็นขั้น: ไฟเบอร์ + น้ำ → osmotic laxative (PEG, lactulose, magnesium) → stimulant (bisacodyl, senna) → secretagogue/prucalopride · defecatory disorder → biofeedback",
+   "Opioid-induced constipation: ให้ stimulant ± osmotic laxative ป้องกันตั้งแต่เริ่มยา · ดื้อยาระบาย → PAMORA (methylnaltrexone, naloxegol)"
   ],
-  "opinion": "ตอบตามคีย์ A แต่ไม่เห็นด้วยในเนื้อหา — Parkinson เป็นสาเหตุท้องผูกที่ชัดเจน ทุกช้อยเป็นสาเหตุจริง โจทย์น่าจะจำมาผิด · มั่นใจต่ำ",
+  "opinion": "ไม่เห็นด้วยกับคำตอบ A ที่ตั้งตามคีย์ในไฟล์ MCQ Key 2 (ขีด a, ✓ b–e) — ความมั่นใจสูงว่าทุกช้อยเป็นสาเหตุของท้องผูก โดย Parkinson disease ทำให้ท้องผูกได้บ่อยมากและถือเป็นอาการนำ · ข้อนี้น่าจะจดช้อยมาไม่ครบหรือคีย์ผิด ถ้าเจอข้อสอบจริงให้มองหาช้อยที่ทำให้<b>ท้องเสีย</b> เช่น hyperthyroidism, metformin, magnesium antacid ซึ่งจะเป็นคำตอบ NOT ที่ถูกต้อง",
+  "mnemonic": "<b>'ท้องผูกทุติยภูมิ = Drugs · Metabolic · Neuro — Parkinson อยู่ในกลุ่ม Neuro (ท้องผูกนำอาการสั่น)'</b>",
+  "guide": "Bharucha AE et al. AGA Technical Review on Constipation (Gastroenterology 2013;144:218–238) · AGA–ACG Clinical Practice Guideline: Pharmacological Management of Chronic Idiopathic Constipation (Gastroenterology 2023;164:1086–1106)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยมะเร็งเต้านมแพร่กระจายไปกระดูก ท้องผูกมากขึ้น ซึม กระหายน้ำ ปัสสาวะบ่อย → hypercalcemia จากมะเร็ง: ตรวจแคลเซียมก่อนให้ยาระบาย",
-   "<b>นอกสไลด์:</b> ผู้ป่วยมะเร็งได้ morphine ขนาดคงที่ ท้องผูกไม่ดีขึ้นด้วย senna + PEG → PAMORA (methylnaltrexone, naloxegol)"
+   "ชาย 68 ปี ท้องผูกเรื้อรัง 5 ปี เพิ่งเริ่มมีมือสั่นขณะพัก เดินช้า → Parkinson disease (ท้องผูกเป็น prodromal non-motor symptom)",
+   "ผู้ป่วยมะเร็งระยะลุกลามเริ่ม morphine → ให้ senna ± PEG ป้องกันท้องผูกตั้งแต่วันแรกที่เริ่ม opioid",
+   "หญิง 45 ปี ท้องเสียเรื้อรัง ใจสั่น น้ำหนักลด TSH ต่ำมาก → hyperthyroidism (ทำให้ถ่ายบ่อย ไม่ใช่ท้องผูก)",
+   "ทำไม hypercalcemia ทำให้ท้องผูก → แคลเซียมสูงลดความไวต่อการกระตุ้นของประสาทและกล้ามเนื้อเรียบ ลำไส้จึงบีบตัวช้า"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 (คอลัมน์ขวา) — ตัวพิมพ์: <b>10. Cause of constipation — a. Parkinson b. Anticholinergic drug c. Multiple sclerosis d. Hypothyroid e. Hypercalcemia</b><br>ลายมือ: เขียน \"not\" (สีแดง) แทรกหน้า Cause · ขีด a · ✓ ที่ b c d e<br>ไฮไลต์: \"Cause of constipation\" · \"Parkinson\" · \"Anticholinergic drug\" · \"Multiple sclerosis\" · \"Hypothyroid\" · \"Hypercalcemia\" (เหลือง)<br>ที่ปรับในเว็บ: โจทย์เป็น \"Which is NOT a cause of constipation (per key)?\" ตามลายมือ not และตั้งเฉลย A ตามคีย์ในไฟล์ · ช้อยเป็นภาษาอังกฤษเต็ม (Parkinson disease, Anticholinergic drugs, Hypothyroidism) · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_10"
   ]
  },
  "MDCU66|RoD|11": {
-  "interp": "เด็กเคยมี febrile UTI (ติดเชื้อถึงไต) รักษาหายแล้ว · US พบไตบวม (hydronephrosis) และท่อไตขยาย (hydroureter) ทั้งสองข้าง → ปัญหาอยู่ที่รอยต่อท่อไต–กระเพาะปัสสาวะหรือต่ำกว่า · ถามการตรวจถัดไป",
-  "why": "<b>ลายมือ: VUR · b ไม่ทำแล้ว (radiation)</b><br><b>นอกสไลด์:</b> ท่อไตขยายทั้งสองข้างหลัง febrile UTI ทำให้สงสัย vesicoureteral reflux (หรือ posterior urethral valve ในเด็กชาย) → VCUG เป็นการตรวจเดียวที่เห็น reflux ขณะปัสสาวะ บอก grade และเห็นท่อปัสสาวะ · ทำหลังการติดเชื้อหายแล้ว",
+  "interp": "เด็กเคยเป็น <b>febrile UTI</b> (ติดเชื้อถึงเนื้อไต) เมื่อ 3 เดือนก่อน รักษาหายแล้ว · US พบ <b>hydronephrosis + hydroureter ทั้งสองข้าง</b> แปลว่าปัญหาอยู่ที่รอยต่อท่อไต–กระเพาะปัสสาวะหรือต่ำกว่า (VUR grade สูง, posterior urethral valve, neurogenic bladder) · ถามการตรวจขั้นถัดไป",
+  "why": "หลัง febrile UTI ครั้งแรกในเด็กเล็ก แนวทาง AAP ให้ทำ <b>renal and bladder US</b> ทุกราย ส่วน <b>VCUG</b> ไม่ทำเป็น routine แต่<b>ต้องทำเมื่อ US ผิดปกติ</b> — มี hydronephrosis, renal scar หรือสิ่งที่บ่งว่าเป็น VUR grade สูงหรือ obstructive uropathy — หรือเมื่อติดเชื้อซ้ำ · ท่อไตขยายทั้งสองข้างบ่งว่า reflux ขึ้นไปถึงไตและขยายระบบ (อย่างน้อย grade IV) หรือมีการอุดตันที่ทางออกกระเพาะปัสสาวะ · <b>VCUG เป็น gold standard</b>: ใส่สาย contrast เข้ากระเพาะปัสสาวะแล้วถ่ายภาพขณะปัสสาวะ เห็น reflux บอก <b>grade I–V</b> (International Reflux Study) และเห็นท่อปัสสาวะส่วนหลังจึงวินิจฉัย <b>PUV</b> ในเด็กชายได้ (ท่อปัสสาวะส่วนต้นขยาย กระเพาะปัสสาวะผนังหนา trabeculation) · ทำได้เมื่อปัสสาวะปราศจากเชื้อแล้ว · DMSA ใช้ดู renal scar หลังติดเชื้อ 4–6 เดือน ไม่บอก reflux · ไฟล์ขีด a ลายมือ <b>\"gold std.\"</b> และ <b>\"VUR: vesicoureteral reflux\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นสถานพยาบาลที่ไม่มี MR urography และต้องดูกายวิภาคท่อไตซ้อนหรือท่อไตเปิดผิดที่ (ectopic ureter) ในเด็กหญิงที่ปัสสาวะหยดตลอดเวลา",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก febrile UTI ไม่ตอบสนองต่อยาหลัง 48–72 ชม. และ US สงสัยฝีในไตหรือรอบไต",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเด็ก febrile UTI ที่ US ปกติ และใช้แนวทาง top-down — DMSA เป็นการตรวจเดียว ถ้าไม่พบแผลเป็นก็ไม่ต้องตรวจต่อ",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกที่ไตบวมเล็กน้อยจาก US ก่อนคลอด ท่อไตไม่ขยาย ไม่เคยติดเชื้อ → เฝ้าดูด้วย US ซ้ำ"
+   "B": "IVP ฉีด contrast เข้าหลอดเลือดดูการขับของไตและรูปร่าง collecting system แต่<b>ไม่เห็น reflux</b> (ไม่มี contrast ในกระเพาะปัสสาวะที่ไหลย้อน) ได้รังสีมาก และเลิกใช้ในเด็กแล้ว (ลายมือ \"ไม่ทำในเด็ก ∵ ฉีด contrast\") · จะถูกถ้าเป็นชาย 40 ปี ปวดบั้นเอวร้าวลงขาหนีบ มี hematuria อยู่ในโรงพยาบาลที่ไม่มี CT และไตทำงานปกติ",
+   "C": "CT abdomen ได้รังสีสูงในเด็ก ไม่เห็น reflux และไม่ได้ช่วยตัดสินใจรักษา VUR หรือ PUV · จะถูกถ้าเป็นเด็ก 8 ปี febrile UTI ที่ไข้สูงไม่ลดหลังให้ยาฆ่าเชื้อที่เหมาะสม 72 ชั่วโมง และ US สงสัย renal abscess หรือ xanthogranulomatous pyelonephritis ที่ต้องดูขอบเขตก่อนระบายหนอง",
+   "D": "DMSA scan (Tc-99m dimercaptosuccinic acid) จับเนื้อไตที่ทำงาน เห็น <b>renal scar</b> และ acute pyelonephritis และบอก split renal function แต่ไม่เห็น reflux หรือท่อปัสสาวะ จึงใช้คนเดียวไม่ได้เมื่อ US พบท่อไตขยาย · จะถูกถ้าเป็นเด็ก 2 ปีที่วินิจฉัย VUR grade IV จาก VCUG แล้ว และต้องการประเมินแผลเป็นที่ไต 4–6 เดือนหลังติดเชื้อ เพื่อวางแผนผ่าตัด",
+   "E": "Observation เหมาะกับเด็กที่ US ปกติหลัง febrile UTI ครั้งแรก เพราะส่วนใหญ่ไม่มี VUR grade สูง · แต่ hydroureteronephrosis สองข้างเสี่ยงติดเชื้อซ้ำ renal scar และไตเสื่อม ปล่อยไว้ไม่ได้ · จะถูกถ้าเป็นเด็กหญิง 1 ปี febrile UTI ครั้งแรก ตอบสนองยาดี US ไตและกระเพาะปัสสาวะปกติ — นัดติดตามและตรวจปัสสาวะทุกครั้งที่มีไข้"
   },
-  "trap": "DMSA เกี่ยวกับ febrile UTI ก็จริง แต่บอกได้แค่แผลเป็นที่ไต ไม่เห็น reflux · ตำแหน่งที่ขยายบอกระดับปัญหา: ไตบวมแต่ท่อไตไม่ขยาย = อุดที่ UPJ (ส่ง MAG3 เป็นหลัก)",
+  "trap": "คนเลือก IVP เพราะคุ้นว่าเป็นการตรวจทางเดินปัสสาวะแบบเก่า หรือเลือก DMSA เพราะคิดว่าต้องดูไตเสียก่อน · หลักคือ <b>hydroureter = ต้องหาว่ามี reflux หรืออุดตันที่ทางออกหรือไม่</b> ซึ่งต้องเห็นตอนปัสสาวะ → VCUG เท่านั้นที่ตอบได้ทั้ง VUR grade และ PUV",
   "summary": [
-   "<b>นอกสไลด์:</b> AAP 2011 (febrile UTI อายุ 2–24 เดือน): US ไตและกระเพาะปัสสาวะทุกราย · VCUG เมื่อ US พบ hydronephrosis/แผลเป็น/สงสัย high-grade VUR หรือการอุดกั้น หรือเมื่อ febrile UTI ซ้ำ",
-   "<b>นอกสไลด์:</b> VUR grade I–V (จาก VCUG) · grade ต่ำส่วนใหญ่หายเองเมื่อโต · ผ่าตัดเมื่อติดเชื้อซ้ำขณะได้ยาป้องกันหรือมีแผลเป็นใหม่"
+   "VUR: ปัสสาวะไหลย้อนจากกระเพาะปัสสาวะขึ้นท่อไต เป็นสาเหตุสำคัญของ febrile UTI ในเด็ก · primary = submucosal tunnel ของท่อไตสั้นจน flap valve ไม่ทำงาน · secondary = แรงดันในกระเพาะปัสสาวะสูง (PUV, neurogenic bladder)",
+   "Grade (International Reflux Study): I ท่อไตอย่างเดียว · II ถึงกรวยไตไม่ขยาย · III ขยายเล็กน้อย–ปานกลาง · IV ขยายปานกลาง fornix ทู่ · V ขยายมาก ท่อไตคดเคี้ยว papillary impression หาย",
+   "AAP (febrile UTI อายุ 2–24 เดือน): US ไตและกระเพาะปัสสาวะทุกราย · VCUG เมื่อ US ผิดปกติ (hydronephrosis, scar, สงสัย VUR grade สูงหรือ obstructive uropathy) หรือ febrile UTI ซ้ำ",
+   "VCUG: gold standard บอก grade และเห็นท่อปัสสาวะ (PUV: ท่อปัสสาวะส่วนหลังขยาย กระเพาะปัสสาวะผนังหนา) · ทางเลือกรังสีน้อย: radionuclide cystogram (ติดตาม) และ contrast-enhanced voiding urosonography",
+   "DMSA: ดู renal scar 4–6 เดือนหลังติดเชื้อ และ split function · acute phase ใช้ยืนยัน pyelonephritis · ไม่บอก reflux",
+   "รักษา: continuous antibiotic prophylaxis (RIVUR trial ลดการติดเชื้อซ้ำราวครึ่งหนึ่ง) + รักษา bladder and bowel dysfunction · grade I–III มักหายเองเมื่อโต",
+   "ผ่าตัด (ureteral reimplantation แบบเปิด/laparoscopic หรือฉีด bulking agent ทางกล้อง): breakthrough UTI ทั้งที่ได้ยาป้องกัน · grade IV–V ที่ไม่หาย · มี scar ใหม่หรือไตเสื่อม · ไม่ร่วมมือกินยา · ไม่หายในเด็กหญิงวัยรุ่น"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a ลายมือ \"gold std.\" และสไลด์ Investigation ที่เขียนว่า VCUG ใช้ดู vesicoureteral reflux และ grading · ช้อย C–E เว็บเติมเพิ่มจากไฟล์ที่มีแค่ a–b แต่ไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'Febrile UTI + ท่อไตบวม → VCUG (เห็น Valve + Reflux) · ไตเป็นแผล → DMSA'</b>",
+  "guide": "AAP Subcommittee on UTI. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children 2 to 24 Months (Pediatrics 2011;128:595–610, reaffirmed 2016) · AUA Guideline: Management and Screening of Primary Vesicoureteral Reflux in Children (2010, amended 2017) · Campbell-Walsh-Wein Urology 12th ed. (2020)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารกชาย US ไตบวมและท่อไตขยายสองข้าง ผนังกระเพาะปัสสาวะหนา ท่อปัสสาวะส่วนหลังโป่ง (keyhole sign) → posterior urethral valve: ใส่สายสวนทันทีแล้ว VCUG ยืนยัน",
-   "<b>นอกสไลด์:</b> เด็ก 6 ปี UTI ซ้ำ ท้องผูกเรื้อรัง กลั้นปัสสาวะ VUR grade II → รักษา bladder–bowel dysfunction ร่วม (ยาระบาย ฝึกปัสสาวะตามเวลา)"
+   "เด็กชายแรกเกิด US ก่อนคลอดพบไตบวมสองข้าง กระเพาะปัสสาวะผนังหนา หลังคลอดปัสสาวะลำเล็ก → VCUG พบท่อปัสสาวะส่วนหลังขยาย → posterior urethral valve → ใส่สายสวนแล้วตัด valve ทางกล้อง",
+   "เด็กหญิง 2 ปี VUR grade II ได้ยาป้องกันมา 1 ปี ไม่มีการติดเชื้อซ้ำ → ติดตามต่อ ส่วนใหญ่หายเอง",
+   "เด็ก VUR grade IV ได้ prophylaxis แต่ยังเป็น febrile UTI ซ้ำ 2 ครั้ง DMSA พบ scar ใหม่ → ผ่าตัด ureteral reimplantation",
+   "ทำไม VUR ทำให้ไตเป็นแผล → ปัสสาวะติดเชื้อไหลย้อนเข้า collecting duct ผ่าน compound papilla (intrarenal reflux) เกิด pyelonephritis ซ้ำจนเนื้อไตเป็นแผล (reflux nephropathy) → ความดันสูงและไตวาย"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 (คอลัมน์ขวา) — ตัวพิมพ์: <b>11. Febrile UTI 3เดือนที่แล้ว รักษาหายแล้ว ทำUSG พบ bilateral hydronephrosis hydroureter ควรทำอะไรต่อ — a. VCUG b. IVP</b><br>ลายมือ: ขีด a · วง \"gold std.\" เหนือ VCUG · \"VUR: vesicoureteral reflux\" ลากลูกศรมาที่ VCUG · ช้อย b เขียน \"ไม่ทำในเด็ก ∵ ฉีด contrast\"<br>ไฮไลต์: \"Febrile UTI 3เดือนที่แล้ว\" · \"รักษาหายแล้ว\" · \"USG พบ\" · \"bilateral hydronephrosis hydroureter\" · \"ทำอะไรต่อ\" · \"VCUG\" (เหลือง)<br>รูปที่แปะ: (1) สไลด์ Definition — \"Retrograde flow of urine from bladder into ureter\" ลายมือ \"จาก flap valve reflux …\" (คำท้ายอ่านไม่ชัด) · \"Most common cause of febrile UTI\" (2) Classification — Primary VUR: Congenital anomaly of ureterovesical junction → inadequate submucosal length (ลายมือ \"no flap valve mecha. ⊕ VUR\") · Secondary VUR: high pressure in bladder — Anatomical obstruction: PUV (Posterior urethral valve) · Functional obstruction: neurogenic bladder (3) สไลด์ Investigation — Ultrasonography: hydronephrosis, hydroureter, renal size, renal scar · VCUG: vesicoureteral reflux, grading (ลายมือ \"Std: voiding cystourethrogram ใส่ contrast เข้า bladder\") · DMSA scan: renal scar (ลายมือ \"radio⊕ scan สารจับ normal kidney ไม่จับ scar\") (4) Treatment — Prophylactic antibiotic and follow up: spontaneous resolution · Surgical treatment: antireflux surgery — Open (ลายมือ \"ureteric reimplantation ทำ submu. tunnel ให้ยาวขึ้น\") · Laparoscopic · Endoscopic (5) Indication for surgery — Breakthrough UTI despite prophylactic ATB · Noncompliance with medical management · High grade VUR (grade 4,5) (ลายมือ \"1,2,3 มักหายเองได้\") · Failure of renal growth, new renal scar, deterioration of renal function · Reflux that persists in puberty girl · Reflux with congenital abnormality of UVJ (Hutch diverticulum)<br>ที่ปรับในเว็บ: ไฟล์มีช้อยแค่ a–b เว็บเติม C. CT abdomen · D. DMSA scan alone · E. Observation · แปลโจทย์เป็นภาษาอังกฤษ (\"A child had febrile UTI 3 months ago…\")",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_11"
   ]
  },
  "MDCU66|RoD|12": {
-  "interp": "ถามอัตราการ \"สร้าง\" CSF ต่อวัน — ต่างจากปริมาตร CSF ที่มีอยู่ในระบบขณะหนึ่ง",
-  "why": "<b>ลายมือ: ~500 cc/day</b><br><b>นอกสไลด์:</b> CSF สร้างต่อเนื่องตลอดวัน ส่วนใหญ่จาก choroid plexus ในโพรงสมอง (ที่เหลือจาก ependyma) · ช้อยที่ใกล้ค่าในลายมือที่สุดคือ 450 mL",
+  "interp": "ถามตัวเลขพื้นฐานทาง neurosurgery: <b>อัตราการสร้าง CSF ต่อวัน</b>ในผู้ใหญ่ — ต้องแยกให้ออกจากปริมาตร CSF ทั้งระบบ ณ เวลาหนึ่ง (~150 mL) ซึ่งเป็นตัวลวงที่พบบ่อย",
+  "why": "CSF สร้างราว <b>0.3–0.35 mL/นาที (~20 mL/ชม.)</b> ≈ <b>450–500 mL/วัน</b> ส่วนใหญ่ (~70–80%) จาก <b>choroid plexus</b> โดยเฉพาะใน lateral ventricle ที่เหลือจาก ependyma และ interstitial fluid ของสมอง · ปริมาตร CSF ทั้งระบบในผู้ใหญ่ราว <b>150 mL</b> (ใน ventricle ~25 mL ที่เหลืออยู่ใน subarachnoid space) จึง<b>ถูกสร้างใหม่หมุนเวียน 3–4 รอบต่อวัน</b> · ไหลจาก lateral ventricle → foramen of Monro → 3rd ventricle → aqueduct of Sylvius → 4th ventricle → foramina of Luschka/Magendie → subarachnoid space → ดูดกลับที่ <b>arachnoid granulation</b> เข้า dural venous sinus · การสร้างค่อนข้างคงที่แม้ ICP สูง จึงเป็นเหตุให้การอุดตันทำให้เกิด hydrocephalus ได้เร็ว · ไฟล์ขีด e ลายมือ <b>\"~500 cc/day\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นปริมาณ CSF ที่เจาะระบายใน high-volume tap test ของ normal pressure hydrocephalus (30–50 mL)",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นปริมาตร CSF ทั้งหมดในโพรงสมองและช่องใต้เยื่อหุ้มสมองของผู้ใหญ่ขณะหนึ่ง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้สูงอายุมาก ซึ่งอัตราสร้าง CSF ลดลงได้ราวครึ่งหนึ่งของคนหนุ่มสาว",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยได้ acetazolamide ซึ่งยับยั้ง carbonic anhydrase ที่ choroid plexus ลดการสร้างลงบางส่วน"
+   "A": "50 mL ต่ำกว่าการสร้างจริงเกือบ 10 เท่า — ตัวเลขนี้ใกล้กับปริมาตร CSF ทั้งระบบของทารกแรกเกิด (ราว 40–60 mL) ไม่ใช่อัตราสร้างต่อวัน · จะถูกถ้าเป็นทารกแรกเกิดครบกำหนดที่ต้องประมาณปริมาตร CSF ทั้งหมดในระบบเพื่อคำนวณปริมาณที่เจาะระบายได้อย่างปลอดภัย",
+   "B": "150 mL คือ<b>ปริมาตร CSF ทั้งระบบในผู้ใหญ่ ณ เวลาหนึ่ง</b> (ventricle + subarachnoid space ของสมองและไขสันหลัง) ไม่ใช่ปริมาณที่สร้างต่อวัน ซึ่งมากกว่าราว 3 เท่า · จะถูกถ้าเป็นชาย 40 ปีปกติที่ต้องการทราบปริมาตร CSF ที่มีอยู่ในร่างกายขณะทำ lumbar drain ก่อนผ่าตัด aortic aneurysm",
+   "C": "250 mL ต่ำกว่าอัตราสร้างปกติราวครึ่งหนึ่ง แต่ใกล้กับปริมาณที่ระบายออกทาง EVD ใน 1 วันเมื่อตั้งระดับให้ไหลราว 10 mL/ชม. (ระบายเพียงบางส่วนของที่สร้าง ที่เหลือยังดูดกลับเอง) · จะถูกถ้าเป็นผู้ป่วยหลัง SAH ใส่ external ventricular drain ที่ตั้งระดับ 15 cmH2O แล้วบันทึกปริมาณที่ไหลออกใน 24 ชั่วโมง",
+   "D": "350 mL ยังต่ำกว่าค่าปกติในผู้ใหญ่ (~450–500 mL) — การสร้างลดลงได้จากยา เช่น acetazolamide (ยับยั้ง carbonic anhydrase ที่ choroid plexus) หรือ furosemide และลดลงตามอายุ · จะถูกถ้าเป็นผู้ป่วย idiopathic intracranial hypertension ที่ได้ acetazolamide ขนาดสูงจนการสร้าง CSF ลดลงจากเดิมราวหนึ่งในสี่"
   },
-  "trap": "สับสน \"ปริมาณที่สร้างต่อวัน\" กับ \"ปริมาตรที่มีอยู่ในระบบ\" — ช้อย 150 mL คือปริมาตร ไม่ใช่อัตราสร้าง",
+  "trap": "จำสับสนระหว่าง <b>ปริมาตรทั้งระบบ 150 mL</b> กับ <b>อัตราสร้าง ~500 mL/วัน</b> จึงเลือก 150 · ให้จำว่า CSF ทั้งก้อนถูกเปลี่ยนใหม่ราว 3–4 รอบต่อวัน (150 × 3 ≈ 450) และอัตรา 0.3 mL/นาทีคูณ 1,440 นาทีได้ราว 430–500 mL",
   "summary": [
-   "<b>นอกสไลด์:</b> อัตราสร้างราว 0.35 mL/นาที ≈ 500 mL/วัน · ปริมาตรรวมผู้ใหญ่ราว 150 mL · ทางไหล: lateral ventricle → foramen of Monro → 3rd ventricle → aqueduct → 4th ventricle → Luschka/Magendie → subarachnoid space → ดูดซึมที่ arachnoid granulations · CSF จึงถูกแทนที่ราว 3–4 รอบต่อวัน",
-   "<b>นอกสไลด์:</b> การสร้างค่อนข้างคงที่ไม่ขึ้นกับความดัน — เมื่อทางไหลหรือการดูดซึมอุดตัน CSF จึงคั่งจนโพรงสมองขยาย (hydrocephalus)"
+   "อัตราสร้าง CSF ~0.3–0.35 mL/นาที (~20 mL/ชม.) ≈ 450–500 mL/วัน · ~70–80% จาก choroid plexus ที่เหลือจาก ependyma และ interstitial fluid",
+   "ปริมาตร CSF ผู้ใหญ่ ~150 mL (ventricle ~25 mL) · ทารกแรกเกิด ~50 mL · หมุนเวียนใหม่ 3–4 รอบต่อวัน",
+   "ทางไหล: lateral ventricle → foramen of Monro → 3rd ventricle → aqueduct of Sylvius → 4th ventricle → Luschka (ด้านข้าง) / Magendie (กลาง) → subarachnoid space",
+   "ดูดกลับ: arachnoid granulation เข้า superior sagittal sinus เป็นหลัก ร่วมกับทาง lymphatic และ perineural · การดูดกลับแปรตามความดัน ส่วนการสร้างค่อนข้างคงที่",
+   "Opening pressure ปกติ (นอนตะแคง) ราว 6–20 cmH2O ในผู้ใหญ่ · &gt; 20–25 cmH2O ถือว่าสูง",
+   "Hydrocephalus: obstructive (non-communicating) อุดในระบบ ventricle เช่น aqueductal stenosis หรือก้อนใน posterior fossa · communicating ดูดกลับไม่ได้ เช่น หลัง SAH หรือ meningitis",
+   "ยาลดการสร้าง CSF: acetazolamide (carbonic anhydrase inhibitor) และ furosemide — ใช้ใน idiopathic intracranial hypertension แต่ไม่ใช่การรักษาหลักของ hydrocephalus"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด e และลายมือ \"~500 cc/day\" และตรงกับตำราที่ให้ค่า ~0.3 mL/นาทีหรือราว 450 mL/วัน · ช้อย 450 เป็นตัวเลขใกล้ค่าจริงที่สุดในโจทย์",
+  "mnemonic": "<b>'CSF: 150 อยู่ในตัว · 500 สร้างต่อวัน · เปลี่ยนวันละ 3 รอบ'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — CSF physiology · Youmans and Winn Neurological Surgery 8th ed. (2022) — Cerebrospinal fluid physiology",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก 4 เดือน หัวโตเร็ว โพรงสมองโตทุกช่อง มีก้อนใน lateral ventricle → choroid plexus papilloma สร้าง CSF มากเกิน: ผ่าตัดเอาก้อนออก",
-   "<b>นอกสไลด์:</b> ก้อนใน posterior fossa: lateral และ 3rd ventricle โต แต่ 4th ventricle ไม่โต → อุดที่ aqueduct (obstructive hydrocephalus)"
+   "ทารก 3 เดือน หัวโตเร็ว กระหม่อมโป่ง ตามองลง (sunset eyes) CT พบ lateral และ 3rd ventricle โต 4th ventricle ปกติ → aqueductal stenosis (obstructive hydrocephalus)",
+   "ผู้ป่วยใส่ EVD แล้วสายหลุด CSF ไม่ระบายหลายชั่วโมง → ซึมลงเพราะ CSF ยังถูกสร้างต่อ ~20 mL/ชม. ทำให้ ICP สูงขึ้นเร็ว",
+   "หญิงอ้วน 28 ปี ปวดศีรษะ papilledema MRI ปกติ opening pressure 32 cmH2O → idiopathic intracranial hypertension → ลดน้ำหนัก + acetazolamide",
+   "ชาย 75 ปี เดินลำบาก หลงลืม ปัสสาวะราด ventricle โตโดยไม่มีสาเหตุอุด → normal pressure hydrocephalus → large-volume tap test ก่อนพิจารณา VP shunt"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 (คอลัมน์ขวา) — ตัวพิมพ์: <b>12. ผลิตCSFวันละเท่าไหร่ — a. 50 b. 150 c. 250 d. 350 e. 450</b><br>ลายมือ: ขีด e · เขียน \"~500 cc/day\" ต่อท้าย 450<br>ไฮไลต์: \"450\" (เหลือง)<br>ที่ปรับในเว็บ: แปลโจทย์เป็น \"How much CSF is produced per day?\" · เติมหน่วย mL ทุกช้อย · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_12"
   ]
  },
  "MDCU66|RoD|13": {
-  "interp": "ฝีในสมองเป็นก้อนกินที่ (mass lesion) ที่มีบวมรอบ · ถามหัตถการที่เป็นข้อห้าม (โจทย์เดียวกับ RoD 1 ช้อยเรียงต่าง)",
-  "why": "<b>ลายมือ: ↑ICP</b><br><b>นอกสไลด์:</b> ความดันในกะโหลกสูงจากก้อน + บวมรอบ → เจาะหลังทำให้ความดันใต้ foramen magnum ลดลงทันที สมองเคลื่อนลง (herniation) และฝีอาจแตกเข้าโพรงสมอง · ส่วนการตรวจอื่นในช้อยใช้หาเชื้อและต้นเหตุ",
+  "interp": "ผู้ป่วย <b>brain abscess</b> ถามว่าการตรวจใด<b>ห้ามทำ</b> (contraindicated) — ช้อยที่เหลือเป็นการตรวจหาแหล่งติดเชื้อและวางแผนรักษา ต้องรู้ว่าก้อนหนองในสมองมี mass effect และ ICP สูงซึ่งทำให้การเจาะหลังเสี่ยง herniation",
+  "why": "Brain abscess เป็นก้อนหนองที่มีแคปซูล มักมี<b>สมองบวมรอบก้อน (vasogenic edema) และ mass effect</b> · การทำ <b>lumbar puncture</b> ทำให้ความดันใน spinal canal ลดลงทันที เกิด pressure gradient ระหว่างช่องกะโหลกกับไขสันหลัง → <b>transtentorial (uncal) หรือ tonsillar herniation</b> ซึ่งอาจทำให้ทรุดลงหรือเสียชีวิตทันที และผล CSF ยังไม่ช่วยวินิจฉัย (เพาะเชื้อขึ้นน้อยมาก ผลเป็นแค่ protein สูง เซลล์เพิ่มเล็กน้อย) จึงถือเป็นข้อห้าม · การตรวจที่ควรทำคือ <b>MRI with gadolinium + DWI</b> (ring-enhancing lesion ขอบบางเรียบ ตรงกลาง <b>restricted diffusion</b> ต่างจาก necrotic tumor) หรือ <b>CT with contrast</b> · <b>hemoculture</b> ก่อนให้ยา (บวกราว 1 ใน 4) · <b>echocardiogram</b> หา endocarditis หรือ cyanotic heart disease เมื่อสงสัยแพร่ทางเลือด · วินิจฉัยเชื้อแน่นอนจาก <b>stereotactic aspiration</b> · ไฟล์ขีด a ลายมือ <b>\"∵ ICP↑\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นการตรวจผ่านหลอดอาหาร (TEE) ในผู้ป่วยที่เพิ่งผ่าตัดหลอดอาหารหรือมีมะเร็งหลอดอาหาร",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่การเจาะเลือดเพาะเชื้อเป็นข้อห้ามในฝีในสมอง เพราะเจาะจากหลอดเลือดส่วนปลาย ไม่กระทบความดันในกะโหลก และช่วยระบุเชื้อก่อนให้ยา",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าผู้ป่วยมีภาวะต่อมไทรอยด์เป็นพิษที่ยังคุมไม่ได้ — สารทึบรังสีที่มี iodine อาจกระตุ้น thyroid storm จึงใช้ MRI แทน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเคยเป็นฝีในสมองและรักษาครบจน MRI ไม่เหลือก้อนหรือบวม แล้วกลับมาด้วยอาการของเยื่อหุ้มสมองอักเสบ"
+   "B": "ข้อความถูก (ทำได้): echocardiogram หา infective endocarditis หรือ congenital heart disease ชนิด right-to-left shunt ซึ่งเป็นแหล่งแพร่เชื้อทางเลือด มักเกิด abscess หลายก้อนที่รอยต่อ gray–white matter ในเขต MCA · จะถูกถ้าต้องเลือกการตรวจที่ควรทำ เช่น เด็ก 6 ปีเป็น tetralogy of Fallot ที่ไม่ได้ผ่าตัด มีไข้ ปวดศีรษะ แขนขาซีกซ้ายอ่อนแรง",
+   "C": "ข้อความถูก (ทำได้): hemoculture ควรเจาะก่อนให้ antibiotic ทุกราย ผลบวกราวหนึ่งในสี่ ช่วยเลือกยาและบอกแหล่งติดเชื้อทางเลือด ไม่เพิ่มความเสี่ยงต่อสมอง · จะถูกถ้าต้องเลือกการตรวจที่ควรทำ เช่น ชาย 50 ปีฟันผุหลายซี่ มีไข้ ปวดศีรษะ ชักครั้งแรก CT พบ ring-enhancing lesion ที่ frontal lobe ก่อนเริ่ม ceftriaxone + metronidazole",
+   "D": "ข้อความถูก (ทำได้): CT with contrast เห็น ring-enhancing lesion พร้อม edema และ mass effect เป็นการตรวจแรกที่เร็วเมื่อไม่มี MRI (MRI + DWI ดีกว่าในการแยกจากเนื้องอก) และใช้ติดตามขนาดก้อนระหว่างรักษา · จะถูกถ้าต้องเลือกการตรวจที่ควรทำ เช่น หญิง 35 ปี หูน้ำหนวกเรื้อรัง มีไข้ ปวดศีรษะ ซึม ตรวจพบ ataxia ในโรงพยาบาลที่มีเฉพาะ CT",
+   "E": "ช้อยนี้ผิดเพราะ LP ห้ามทำเมื่อมีก้อนใน posterior fossa หรือก้อนที่มี mass effect · LP ทำได้เมื่อภาพสมองไม่มีก้อนหรือ mass effect · จะถูกถ้าเป็นชาย 20 ปี ไข้ ปวดศีรษะ คอแข็ง ไม่มี focal neurological deficit ไม่ซึม ไม่มี papilledema และ CT สมองปกติ สงสัย bacterial meningitis ไม่ใช่ abscess — เจาะหลังได้"
   },
-  "trap": "ข้อนี้ถามสิ่งที่ \"ห้าม\" — echo และเพาะเชื้อเลือดดูไม่เกี่ยวกับสมอง แต่เป็นการหาต้นเหตุ (endocarditis, หัวใจพิการแต่กำเนิดชนิดเขียว) ที่ควรทำ",
+  "trap": "บางคนลังเลที่ CT with contrast หรือ echocardiogram เพราะคิดว่า contrast อันตรายหรือ echo ไม่เกี่ยวกับสมอง · หลักคือการตรวจที่<b>เปลี่ยนความดันในช่องกะโหลกทันที</b> (LP) เท่านั้นที่เสี่ยงถึงชีวิต ส่วนการตรวจอื่นเป็นการหาแหล่งเชื้อและติดตามขนาดก้อนซึ่งต้องทำ · ข้อนี้มีซ้ำในไฟล์เดียวกัน (ข้อแรกของคอลัมน์ซ้าย ช้อยเรียงต่างกัน) คำตอบเหมือนกัน",
   "summary": [
-   "<b>นอกสไลด์:</b> การรักษาฝีในสมอง: เจาะดูดหนองแบบ stereotactic (หรือผ่าตัดเอาออก) เมื่อก้อนใหญ่ (มากกว่าราว 2.5 cm) เข้าถึงได้ หรือยังไม่รู้เชื้อ · ยาอย่างเดียวเมื่อก้อนเล็ก หลายก้อน อยู่ลึก หรือยังเป็น cerebritis · ยาเริ่มต้นจากชุมชน: 3rd-generation cephalosporin + metronidazole · รวมราว 6 สัปดาห์ (ESCMID 2024 เปลี่ยนเป็นยากินได้หลังยาฉีดราว 2 สัปดาห์)"
+   "แหล่งเชื้อ: ลามจากข้างเคียง (หูชั้นกลาง/mastoid → temporal lobe/cerebellum · sinus/ฟัน → frontal lobe) ราวครึ่งหนึ่ง · ทางเลือด (endocarditis, cyanotic heart disease, lung abscess) มักหลายก้อน · trauma/หลังผ่าตัด · ไม่ทราบสาเหตุ 20–30%",
+   "เชื้อ: Streptococcus (viridans/S. anginosus group) พบบ่อยที่สุด ร่วมกับ anaerobe · S. aureus หลัง trauma/ผ่าตัด · Toxoplasma, Nocardia, fungus ในภูมิคุ้มกันบกพร่อง",
+   "อาการ: ปวดศีรษะพบบ่อยที่สุด · triad ไข้ + ปวดศีรษะ + focal deficit พบไม่ถึงครึ่ง · ชัก ซึม papilledema จาก ICP สูง",
+   "ภาพ: ring-enhancing lesion ขอบบางเรียบ ผนังด้าน ventricle บางกว่า · DWI restricted diffusion ตรงกลาง (แยกจาก necrotic glioma/metastasis)",
+   "LP ห้ามทำ: เสี่ยง herniation และผล CSF ไม่ช่วยวินิจฉัย · ทำ hemoculture, echo (สงสัยทางเลือด) และ stereotactic aspiration ส่งย้อมเพาะเชื้อ",
+   "รักษา: empirical ceftriaxone/cefotaxime + metronidazole (+ vancomycin ถ้าหลังผ่าตัดหรือ trauma) IV 6–8 สัปดาห์ · aspiration/excision เมื่อก้อน &gt; 2.5 cm มี mass effect หรืออยู่ใกล้ ventricle",
+   "แตกเข้า ventricle (intraventricular rupture) ทำให้ ventriculitis และ hydrocephalus อัตราตายสูงมาก จึงต้องระบายก้อนที่อยู่ชิด ventricle เร็ว"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a และเขียน \"∵ ICP↑\" และตรงกับข้อเดียวกันที่ซ้ำอยู่ในคอลัมน์ซ้ายของหน้า 153 ซึ่งขีด lumbar puncture พร้อมเหตุผลเดียวกัน · ช้อยอื่นเป็นการตรวจที่ทำได้และควรทำ",
+  "mnemonic": "<b>'Abscess ในสมอง = ห้ามเจาะหลัง (LP → Herniation) · ให้ Scan + Culture + Echo + Aspirate'</b>",
+  "guide": "Brouwer MC, Tunkel AR, McKhann GM, van de Beek D. Brain Abscess (N Engl J Med 2014;371:447–456) · ESCMID guideline: management of brain abscess (Clin Microbiol Infect 2024) · Greenberg's Handbook of Neurosurgery 10th ed. (2023)",
   "variants": [
-   "<b>นอกสไลด์:</b> ไข้ ปวดหัว ซึม แขนขาอ่อนแรงครึ่งซีก แพทย์เตรียมเจาะหลัง → ทำ CT/MRI สมองก่อน (ให้ยาปฏิชีวนะไปก่อนได้โดยไม่ต้องรอ)",
-   "<b>นอกสไลด์:</b> ฝีในสมองหลังผ่าตัดสมองหรือกะโหลกแตก → ยาเริ่มต้น vancomycin + meropenem (หรือ cefepime) คลุม S. aureus และ gram-negative"
+   "ชาย 45 ปี ไข้ ปวดศีรษะ ซึมลง CT พบ ring-enhancing lesion 3.5 cm ที่ parietal lobe มี midline shift → stereotactic aspiration + IV antibiotic",
+   "ทำไม DWI ช่วยแยก abscess จากเนื้องอก → หนองข้นมีเซลล์และโปรตีนหนาแน่น น้ำเคลื่อนที่ได้น้อยจึง restricted diffusion ส่วน necrotic tumor มักไม่ restrict",
+   "ผู้ป่วย HIV CD4 50 มีก้อน ring-enhancing หลายก้อนที่ basal ganglia → คิดถึง toxoplasmosis → ให้ยารักษาเชิงประจักษ์แล้วดูการตอบสนอง",
+   "ผู้ป่วย brain abscess ที่รักษาด้วยยาอยู่ ปวดศีรษะรุนแรงทันที ไข้สูง คอแข็ง ภาพพบ ventricle มีหนองและโต → intraventricular rupture → ventricular drain + ยาฆ่าเชื้อ"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 (คอลัมน์ขวา) — ตัวพิมพ์: <b>13. Brain abscess ห้ามทำอะไร — a. Lumbar puncture b. Echocardiogram c. Hemoculture d. CT contrast e. ทำได้ทุกอัน</b><br>ลายมือ: ขีด a · เขียน \"∵ ICP↑\" ต่อท้าย Lumbar puncture<br>ไฮไลต์: \"Brain abscess ห้ามทำ\" · \"Lumbar puncture\" (เหลือง)<br>ข้อซ้ำในหน้าเดียวกัน: คอลัมน์ซ้าย ข้อ 1 — ตัวพิมพ์ <b>1. ผู้ป่วยมีBrain abcess ห้ามทำอะไร — A. with contrast B. hemoculture C. lumbar puncture D. echocardiogram E. ทำได้ทุกอย่าง</b> ลายมือขีด C และเขียน \"∵ ICP↑\" · ไฮไลต์ \"Brain abcess ห้ามทำ\" · \"lumbar puncture\"<br>ที่ปรับในเว็บ: แปลโจทย์เป็น \"In brain abscess, which is contraindicated?\" · ช้อย e \"ทำได้ทุกอัน\" เป็น \"All are allowed\" · ช้อย d เป็น \"Contrast CT\" · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_13"
   ]
  },
  "MDCU66|RoD|14": {
-  "interp": "ข้อ NOT — ถามช้อยที่ \"ไม่ใช่\" เกณฑ์ของ empyema · ช้อยเป็นตัวเลขของน้ำเยื่อหุ้มปอด ต้องจำ cut-off ตามสไลด์",
-  "why": "<b>ลายมือ: 15,000</b><br><b>นอกสไลด์:</b> เกณฑ์ WBC ของสไลด์คือมากกว่า 15,000 — 10,000 ไม่ถึงเกณฑ์ เพราะน้ำจากปอดอักเสบที่ยังไม่ติดเชื้อก็มี WBC ระดับหมื่นได้",
+  "interp": "ถามแบบ <b>NOT</b>: ข้อใด<b>ไม่ใช่เกณฑ์วินิจฉัย empyema</b> จากการเจาะน้ำในช่องเยื่อหุ้มปอด — ต้องรู้เกณฑ์ทั้งแบบเห็นเชื้อโดยตรง (Gram stain/culture) และแบบบ่งการติดเชื้อทางอ้อม (pH, glucose, LDH, protein, WBC) พร้อมตัวเลขตัดสิน",
+  "why": "Empyema คือ<b>หนองในช่องเยื่อหุ้มปอด</b> วินิจฉัยแน่นอนเมื่อเจาะได้<b>หนองข้น</b> หรือ<b>Gram stain/culture บวก</b> (direct evidence) · ข้อมูลทางอ้อมที่บ่งว่าน้ำติดเชื้อและต้องระบาย (complicated parapneumonic effusion) ได้แก่ <b>pH &lt; 7.2</b> (ตำราเก่า &lt; 7.0) · <b>glucose &lt; 40–60 mg/dL</b> (แบคทีเรียและ neutrophil ใช้น้ำตาลแล้วสร้าง lactate และ CO2 จึงเป็นกรด) · <b>LDH &gt; 1,000 IU/L</b> · ร่วมกับ protein &gt; 3 g/dL ซึ่งบอกว่าเป็น exudate · ส่วนเกณฑ์เม็ดเลือดขาวในตำราที่ใช้สอนคือ <b>WBC &gt; 15,000/mm³</b> (empyema จริงมักสูงกว่า 50,000) ค่า &gt; 10,000 พบได้ใน exudate ทั่วไป (parapneumonic ธรรมดา วัณโรค มะเร็ง) จึงไม่ใช่เกณฑ์ · ไฟล์ขีด b ขีดฆ่า 10000 แล้วเขียนลายมือ <b>\"15000\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ใช่ของ empyema) ถ้าเป็นน้ำเยื่อหุ้มปอดจากมะเร็งแพร่กระจาย — LDH สูงมากแต่ไม่มีการติดเชื้อ",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"Gram stain พบเชื้อเป็นเกณฑ์ของ empyema\" ผิด เพราะเชื้อในน้ำเยื่อหุ้มปอดคือการติดเชื้อในช่องเยื่อหุ้มปอดตามนิยาม",
-   "D": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ใช่ของ empyema) ถ้าเป็นวัณโรคเยื่อหุ้มปอด — โปรตีนสูงเป็น exudate แต่ไม่ใช่หนอง",
-   "E": "<b>นอกสไลด์:</b> จะถูก (เป็นค่าที่ไม่ใช่ของ empyema) ถ้าเป็น rheumatoid pleurisy — glucose ต่ำมากแต่ไม่มีเชื้อ"
+   "A": "ข้อความถูก: LDH ในน้ำ &gt; 1,000 IU/L สะท้อนการอักเสบและเซลล์ตายในช่องเยื่อหุ้มปอดมาก เป็นเกณฑ์ของ complicated parapneumonic effusion/empyema ที่ต้องใส่สายระบาย · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเกณฑ์ empyema เช่น ชาย 60 ปี ปอดอักเสบ 10 วันไข้ไม่ลง น้ำเยื่อหุ้มปอดขุ่น LDH 2,400 IU/L",
+   "C": "ข้อความถูก: Gram stain บวกคือเห็นเชื้อในน้ำโดยตรง (direct evidence) ถือว่าเป็น empyema แม้น้ำยังไม่ขุ่นเป็นหนอง และต้องระบายทุกราย · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเกณฑ์ empyema เช่น หญิง 55 ปีเบาหวาน ปอดอักเสบ น้ำเยื่อหุ้มปอดใส แต่ย้อมพบ gram-positive cocci in chains",
+   "D": "ข้อความถูก: protein &gt; 3 g/dL บอกว่าเป็น exudate (Light's criteria ใช้ protein ratio &gt; 0.5) ซึ่ง empyema ต้องเป็น exudate เสมอ ตำราเก่าจึงจัดอยู่ในเกณฑ์ทางอ้อม แม้ไม่จำเพาะต่อการติดเชื้อ · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับลักษณะน้ำ empyema เช่น ชาย 45 ปีติดสุรา สำลัก น้ำเยื่อหุ้มปอดขุ่น protein 5 g/dL pH 6.9",
+   "E": "ข้อความถูก: glucose &lt; 40 mg/dL เกิดจากแบคทีเรียและ neutrophil ใช้น้ำตาล เป็นเกณฑ์ทางอ้อมของ empyema (แนวทางปัจจุบันใช้ &lt; 60 mg/dL ร่วมกับ pH &lt; 7.2) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับเกณฑ์ empyema เช่น เด็ก 6 ปีปอดอักเสบจาก pneumococcus ไข้ไม่ลง 5 วัน น้ำเยื่อหุ้มปอด glucose 20 mg/dL pH 6.95"
   },
-  "trap": "อาจตัดช้อยโปรตีนหรือ LDH ทิ้งเพราะสูงได้ในทุก exudate — แต่สไลด์นับเป็นเกณฑ์ร่วม ข้อที่ผิดมีแค่ WBC ที่ cut-off ต่ำกว่าสไลด์",
+  "trap": "ทุกช้อยเป็นตัวเลขที่ดูคุ้นจาก Light's criteria และ parapneumonic effusion จึงต้องจำ<b>ตัวเลขตัดสินให้แม่น</b> · จุดหลอกคือ WBC ที่ใส่ตัวเลข 10,000 แทน 15,000 · อีกกับดักคือ protein &gt; 3 ซึ่งแม้แนวทางใหม่ไม่ใช้ตัดสินการระบาย แต่ตำราที่ใช้สอน (สไลด์ในไฟล์) ยังจัดเป็นเกณฑ์ทางอ้อม",
   "summary": [
-   "<b>นอกสไลด์:</b> Light แบ่งน้ำจากปอดอักเสบ: LDH มากกว่า 1,000 หรือ pH 7.0–7.2 = ก้ำกึ่ง · pH ต่ำกว่า 7.0 หรือ glucose ต่ำกว่า 40 หรือ Gram/culture บวก = complicated ต้องระบาย · หนองชัด = empyema",
-   "<b>นอกสไลด์:</b> Light's criteria (exudate): โปรตีนน้ำ/ซีรัม มากกว่า 0.5 · LDH น้ำ/ซีรัม มากกว่า 0.6 · LDH ในน้ำมากกว่า 2/3 ของค่าสูงสุดปกติในซีรัม — บอกแค่ exudate ไม่ได้บอกว่าติดเชื้อ"
+   "Parapneumonic effusion 3 ระยะ: exudative (ใส ไหลอิสระ) → fibrinopurulent (fibrin กั้นเป็นช่อง loculation, pH และ glucose ลด) → organizing (peel หนาบีบปอด trapped lung) ใช้เวลาราว 2–6 สัปดาห์",
+   "Light's criteria (exudate ถ้าเข้าข้อใดข้อหนึ่ง): protein น้ำ/ซีรั่ม &gt; 0.5 · LDH น้ำ/ซีรั่ม &gt; 0.6 · LDH น้ำ &gt; 2/3 ของค่าสูงสุดปกติในซีรั่ม",
+   "Empyema = หนองข้น หรือ Gram stain/culture บวก (direct evidence) → ระบายด้วย chest drain ทุกราย",
+   "Complicated parapneumonic effusion (ต้องระบาย): pH &lt; 7.2 · glucose &lt; 60 mg/dL · LDH &gt; 1,000 IU/L · loculation · น้ำมากกว่าครึ่ง hemithorax",
+   "เกณฑ์ empyema ในตำราที่ใช้สอน: Gram stain/culture บวก · WBC &gt; 15,000/mm³ · protein &gt; 3 g/dL · pH &lt; 7 · glucose &lt; 40 mg/dL · LDH &gt; 1,000 IU/L",
+   "เก็บ pH ต้องใช้ syringe แบบ blood gas ไม่ให้มีอากาศ และวัดด้วยเครื่อง blood gas · ห้ามเจาะวัด pH จากน้ำที่เป็นหนองข้นชัดแล้ว (ระบายได้เลย)",
+   "รักษา: ยาฆ่าเชื้อครอบ anaerobe + chest drain · loculated → intrapleural tPA + DNase (MIST2) · ไม่ดีขึ้นหรือระยะ organizing → VATS/open decortication"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B ตามสไลด์ · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด b พร้อมแก้ตัวเลขเป็น \"15000\" และตรงกับสไลด์ Diagnosis ในไฟล์ (WBC &gt; 15,000/mm³) · ตัวเลขเกณฑ์ WBC ต่างกันบ้างตามตำรา และแนวทางปัจจุบัน (BTS 2023) ตัดสินการระบายด้วย pH/glucose/LDH มากกว่า WBC แต่ไม่มีที่ใดใช้ 10,000",
+  "mnemonic": "<b>'Empyema เกณฑ์ตัวเลข: pH 7 · Glu 40 · LDH 1000 · WBC 15000 · Protein 3'</b>",
+  "guide": "Light RW. Pleural Diseases 6th ed. (2013) · BTS Guideline for Pleural Disease (Thorax 2023;78:s1–s42) · Shen KR et al. AATS expert consensus guidelines for the management of empyema (J Thorac Cardiovasc Surg 2017;153:e129–e146)",
   "variants": [
-   "<b>นอกสไลด์:</b> ผู้ป่วยหัวใจล้มเหลวได้ furosemide ขนาดสูงหลายวัน น้ำเยื่อหุ้มปอดเข้าเกณฑ์ exudate เล็กน้อย → ดู albumin ซีรัม ลบ albumin ในน้ำ มากกว่า 1.2 g/dL = ยังเป็น transudate",
-   "<b>นอกสไลด์:</b> น้ำเยื่อหุ้มปอดหลังปอดอักเสบ pH 7.15 glucose 50 mg/dL Gram stain ลบ → complicated parapneumonic effusion: ใส่สายระบายร่วมยาปฏิชีวนะ"
+   "ชาย 50 ปี ปอดอักเสบ 7 วัน ไข้ไม่ลง US พบน้ำเยื่อหุ้มปอดมีผนังกั้นหลายช่อง → chest drain + intrapleural tPA/DNase",
+   "เจาะน้ำเยื่อหุ้มปอดได้หนองข้นกลิ่นเหม็น → empyema → ใส่ chest drain ทันทีโดยไม่ต้องรอผล pH",
+   "หลังระบายและให้ยา 1 เดือน ยังมีไข้ CT พบ pleural peel หนา ปอดไม่ขยาย → VATS หรือ open decortication",
+   "น้ำเยื่อหุ้มปอด exudate ลิมโฟไซต์เด่น ADA สูง glucose ปกติ ไม่มีหนอง → tuberculous pleurisy ไม่ใช่ empyema"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 (คอลัมน์ขวา) — ตัวพิมพ์: <b>14. ไม่ใช่ Criteria ในการ Dx empyema — a. LDH &gt; 1000 b. WBC&gt; 10000 c. positive gram stain d. protein &gt; 3 e. sugar &lt; 40</b><br>ลายมือ: ขีด b · ขีดฆ่า \"10000\" แล้วเขียน \"15000\" · ✓ ที่ a c d e<br>ไฮไลต์: \"ไม่ใช่\" · \"Criteria ในการ Dx empyema\" · \"WBC&gt; 10000\" (เหลือง)<br>รูปที่แปะ: สไลด์ \"Diagnosis\" (กรอบแดง + ดาวเหลือง ลายมือ \"สอบ\") — Gram stain positive · Culture Positive (วงเล็บลายมือ \"direct\" และ \"empyema dx จากตัวนี้เท่านั้นได้\") · WBC &gt; 15,000/mm³ (ดอกจันแดง ลายมือ \"ท่อง!\") · Protein &gt;3 g/dl · pH &lt; 7 (ลายมือ \"เป็นกรด ∵ เชื้อใช้ Glc ได้ lactate\") · Glu &lt; 40 mg/dl · LDH &gt; 1000 U/L (วงเล็บลายมือ \"indirect\" และ \"indirect evidence ว่ามี infect.\") · ลายมือด้านบน \"Fluid เปียก ปอด → หายใจไม่สะดวก + มี infection → เกิดไข้\"<br>ที่ปรับในเว็บ: แปลโจทย์เป็น \"Which is NOT a criterion for empyema?\" · \"sugar\" เป็น \"Glucose below 40\" · ใช้คำว่า above/below แทนเครื่องหมาย · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_14"
   ]
  },
  "MDCU66|RoD|15": {
-  "interp": "ฝีในปอด (lung abscess) ส่วนใหญ่หายด้วยยาปฏิชีวนะ · ถามข้อบ่งชี้ผ่าตัด",
-  "why": "<b>ลายมือ: b ต้องเป็น massive</b><br><b>นอกสไลด์:</b> ฝีที่ได้ยาเต็มที่แล้วไม่ดีขึ้น (ยังไข้ โพรงไม่ยุบ) คือข้อบ่งชี้ให้ระบายหรือผ่าตัด · ไอเป็นเลือดต้องเป็นปริมาณมากจึงเป็นข้อบ่งชี้",
+  "interp": "ถาม<b>ข้อบ่งชี้ผ่าตัด lung abscess</b> — ต้องรู้ว่า lung abscess ส่วนใหญ่หายด้วยยาฆ่าเชื้อ การผ่าตัดสงวนไว้สำหรับรักษาด้วยยาไม่ได้ผล ก้อนใหญ่ สงสัยมะเร็ง หรือมีภาวะแทรกซ้อนรุนแรง และต้องแยกคำว่า occasional ออกจาก massive hemoptysis",
+  "why": "Lung abscess ส่วนใหญ่เกิดจาก<b>การสำลัก</b> (สุรา ชัก หมดสติ ฟันผุ กลืนลำบาก) เชื้อเป็น anaerobe ปนกับ streptococcus พบบ่อยที่ posterior segment ของ RUL และ superior segment ของ RLL · รักษาหลักด้วย<b>ยาฆ่าเชื้อ</b> (ampicillin–sulbactam หรือ clindamycin) นานหลายสัปดาห์จนภาพรังสีดีขึ้นมาก ร่วมกับ postural drainage ได้ผลราว 80–90% · ส่องหลอดลมเมื่อสงสัยสิ่งแปลกปลอมหรือเนื้องอกอุดหลอดลม · <b>ข้อบ่งชี้ผ่าตัด</b> (มักเป็น lobectomy): <b>ไม่ดีขึ้นหรือโตขึ้นหลังได้ยาเหมาะสม (ภาพรังสีไม่ดีขึ้นหลัง ~2 สัปดาห์)</b> · ก้อน &gt; 6 cm · สงสัยมะเร็ง · <b>massive hemoptysis</b> · แตกเข้าช่องเยื่อหุ้มปอด (empyema/pyopneumothorax ที่ระบายแล้วไม่หาย) · ผู้ที่ผ่าตัดไม่ไหวใช้ CT-guided percutaneous drainage แทน · ไฟล์ขีด a และแก้ช้อย b ด้วยลายมือ <b>\"massive\"</b> ทับคำว่า occasional",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ไอเป็นเลือดเล็กน้อยเป็นครั้งคราวเป็นข้อบ่งชี้ผ่าตัดในตัวเอง เพราะเลือดออกเล็กน้อยพบได้ในฝีที่หายด้วยยา ข้อบ่งชี้คือเลือดออกมากจนเสี่ยงชีวิต",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้า bronchopleural fistula จากฝีแตกยังมีลมรั่วต่อเนื่องแม้ใส่สายระบายทรวงอกนานพอ → ผ่าตัดปิดรูรั่ว ± decortication",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ฝีเล็กหลายก้อนทั้งสองข้างเป็นข้อบ่งชี้ผ่าตัด เพราะตัดออกทุกก้อนไม่ได้ และเป็นโรคทั่วร่าง (septic emboli, เชื้อรา) ที่รักษาด้วยยาและแก้ต้นเหตุ",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ทุกข้อเป็นข้อบ่งชี้ผ่าตัด\" เป็นจริง เพราะไอเลือดเล็กน้อยและฝีเล็กหลายก้อนไม่ได้ต้องผ่าตัด"
+   "B": "ไอเป็นเลือดเล็กน้อยเป็นครั้งคราวพบได้บ่อยใน lung abscess จากผนังโพรงอักเสบ หายได้เมื่อรักษาด้วยยา ไม่ใช่ข้อบ่งชี้ผ่าตัด · ที่เป็นข้อบ่งชี้คือ <b>massive hemoptysis</b> (ลายมือแก้เป็น \"massive\") ซึ่งเลือดท่วมทางเดินหายใจจนขาดอากาศได้ · จะถูกถ้าเป็นชาย 50 ปี lung abscess ไอเป็นเลือดสดปริมาณมากหลายร้อย mL ใน 24 ชั่วโมง SpO2 ลดลง",
+   "C": "Bronchopleural fistula เกิดจากโพรงหนองแตกเข้าช่องเยื่อหุ้มปอดเกิด pyopneumothorax ขั้นแรกต้องใส่ chest drain และให้ยา ส่วนใหญ่ไม่ต้องผ่าตัดทันที (สไลด์ในไฟล์จัด \"Ruptured to pleural space\" เป็นข้อบ่งชี้ด้วย แต่คีย์เลือก a เป็นคำตอบเดียว) · จะถูกถ้าเป็นชาย 55 ปี lung abscess แตกเข้าช่องเยื่อหุ้มปอด ใส่ chest drain แล้วยังมี air leak และหนองต่อเนื่องหลายสัปดาห์ ปอดไม่ขยาย",
+   "D": "ฝีเล็กหลายก้อนในปอดทั้งสองข้างในผู้ป่วยภูมิคุ้มกันบกพร่อง มักเกิดจากเชื้อแพร่ทางเลือด (septic emboli, S. aureus, เชื้อรา, Nocardia) รักษาด้วยยาตามเชื้อและหาแหล่งต้นทาง การผ่าตัดเอาออกทำไม่ได้และไม่ช่วย · จะถูกถ้าเป็นผู้ป่วยภูมิคุ้มกันบกพร่องที่มีฝีก้อนเดียวขนาด 7 cm ใน lobe เดียว ให้ยาต้านเชื้อที่เหมาะสมแล้วก้อนยังโตขึ้น",
+   "E": "ช้อยนี้ผิดเพราะ occasional hemoptysis และ multiple small bilateral abscesses ไม่ใช่ข้อบ่งชี้ผ่าตัด · จะถูกถ้าทุกช้อยเป็นข้อบ่งชี้จริง เช่น ผู้ป่วย lung abscess ที่ก้อนโตขึ้นหลังยา 2 สัปดาห์ ร่วมกับ massive hemoptysis และ bronchopleural fistula ที่ระบายแล้วไม่ปิด"
   },
-  "trap": "bronchopleural fistula เป็นภาวะแทรกซ้อนที่ต้องจัดการ แต่ขั้นแรกคือใส่สายระบายทรวงอก ไม่ใช่ผ่าตัดทันที",
+  "trap": "ช้อย b ใช้คำว่า <b>occasional</b> ซึ่งต่างจาก massive เพียงคำเดียว (ไฟล์ลายมือขีดแก้ให้เห็น) และช้อย e ล่อคนที่จำได้ว่า hemoptysis เป็นข้อบ่งชี้ · อีกจุดคือ bronchopleural fistula/แตกเข้าช่องเยื่อหุ้มปอดอยู่ในรายการข้อบ่งชี้ของบางตำรา แต่การรักษาแรกคือระบาย จึงไม่ใช่คำตอบที่ตรงที่สุดในข้อนี้",
   "summary": [
-   "<b>นอกสไลด์:</b> ข้อบ่งชี้ระบายหรือผ่าตัดฝีในปอด: ไม่ตอบสนองต่อยา · ไอเป็นเลือดมาก · สงสัยมะเร็งหรือหลอดลมอุด · ฝีใหญ่มาก · ภาวะแทรกซ้อนที่ระบายแล้วไม่หาย (empyema, ลมรั่วค้าง) · ผ่าตัดส่วนใหญ่เป็น lobectomy"
+   "Lung abscess: โพรงหนองในเนื้อปอด &gt; 2 cm มี air-fluid level · primary จากสำลัก · secondary จากหลอดลมอุด (เนื้องอก สิ่งแปลกปลอม) หรือแพร่ทางเลือด",
+   "ตำแหน่งจากการสำลักท่านอน: posterior segment ของ RUL และ superior segment ของ RLL · ท่ายืน: basal segment ของ lower lobe · ข้างขวาบ่อยกว่าเพราะหลอดลมขวาตรงกว่า",
+   "เชื้อ: anaerobe (Peptostreptococcus, Prevotella, Fusobacterium, Bacteroides) + Streptococcus anginosus group · Klebsiella และ S. aureus ในกลุ่มเสี่ยง",
+   "รักษา: ampicillin–sulbactam หรือ clindamycin นานหลายสัปดาห์ (มัก 4–6 สัปดาห์หรือจนภาพรังสีดีขึ้นมาก) · ได้ผลราว 80–90% · ส่องหลอดลมเมื่อสงสัยการอุดหรือมะเร็ง",
+   "ข้อบ่งชี้ผ่าตัด: ยาไม่ได้ผล/ก้อนโตขึ้นหลังยา ~2 สัปดาห์ · ก้อน &gt; 6 cm · สงสัยมะเร็ง · massive hemoptysis · แตกเข้าช่องเยื่อหุ้มปอด/bronchopleural fistula ที่ระบายแล้วไม่หาย",
+   "ผ่าตัดมาตรฐานคือ lobectomy (ไม่ทำ wedge) ใช้ double-lumen tube ป้องกันหนองไหลเข้าปอดอีกข้าง · ผู้ที่ผ่าตัดไม่ไหว → CT-guided percutaneous drainage",
+   "Massive hemoptysis: ป้องกันทางเดินหายใจก่อน — นอนตะแคงให้ข้างที่เลือดออกอยู่ล่าง ใส่ท่อช่วยหายใจ (single-lung ventilation) → bronchial artery embolization หรือผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลางถึงสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a และตรงกับสไลด์ Indication for Surgery (\"CXR not better after 2 week ATB\") · ข้อเดียวกันซ้ำในหน้า 154 (ข้อ 29 ภาษาอังกฤษ) ก็ขีด A · ข้อสังเกต: bronchopleural fistula/แตกเข้าช่องเยื่อหุ้มปอดอยู่ในรายการข้อบ่งชี้ของสไลด์ด้วย แต่โดยทั่วไประบายก่อน จึงยอมรับ A เป็นคำตอบที่ดีที่สุด",
+  "mnemonic": "<b>'Lung abscess ผ่าเมื่อ: ยาไม่ได้ผล (2 wk) · ใหญ่ &gt; 6 · สงสัย CA · เลือด Massive · แตกเข้า Pleura'</b>",
+  "guide": "Sabiston Textbook of Surgery 21st ed. (2022) — Lung infections · Schwartz's Principles of Surgery 11th ed. (2019) — Chest wall, lung, mediastinum and pleura · Shields' General Thoracic Surgery 8th ed. (2019)",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 65 ปี สูบบุหรี่จัด โพรงผนังหนาไม่เรียบที่ปอดกลีบบน ไม่มีไข้ ไม่มีประวัติสำลัก → bronchoscopy/biopsy หา squamous cell carcinoma ที่มีโพรง",
-   "<b>นอกสไลด์:</b> ผู้ป่วยฝีในปอดไอเป็นเลือดสดปริมาณมากต่อเนื่อง → นอนตะแคงข้างที่เป็นลง ใส่ท่อแยกปอดหรือ bronchial blocker แล้ว bronchial artery embolization"
+   "ชาย 50 ปี ติดสุรา ไข้ ไอเสมหะเหม็น CXR พบโพรงมี air-fluid level ที่ superior segment ของ RLL → ampicillin–sulbactam นานหลายสัปดาห์",
+   "ชาย 65 ปี สูบบุหรี่หนัก โพรงผนังหนาไม่เรียบใน upper lobe ไม่มีไข้ ไม่ดีขึ้นกับยา → สงสัย cavitating squamous cell carcinoma → bronchoscopy/biopsy",
+   "ผู้ป่วย lung abscess ไอเป็นเลือดสด 400 mL ใน 1 วัน → ป้องกันทางเดินหายใจ แล้ว bronchial artery embolization หรือ lobectomy",
+   "ผู้ป่วย lung abscess ขนาด 8 cm ที่ผ่าตัดไม่ไหว (หัวใจล้มเหลว) ยาไม่ได้ผล → CT-guided percutaneous drainage"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 153 (คอลัมน์ขวา) ต่อหน้า 154 (คอลัมน์ซ้าย) — ตัวพิมพ์: <b>15. Indication ในการ surgery lung abscess — a. ไม่ดีขึ้นหลัง ATB 2 wk b. occasional hemoptysis c. bronchopleural fistula d. multiple small abscess in bilateral lung in immunocompromised host e. all of above</b><br>ลายมือ: ขีด a · ช้อย b ขีดฆ่าคำ \"occasional\" แล้วเขียน \"massive\" แทน<br>ไฮไลต์: \"Indication\" · \"surgery lung abscess\" · \"ไม่ดีขึ้นหลัง ATB 2 wk\" (เหลือง)<br>รูปที่แปะ (หน้า 153): สไลด์ \"Indication for Surgery\" (กรอบแดง ดาวแดง ลายมือ \"I/C\") — &gt; 6 cm (ลายมือ \"ขึ้นไป\") · Persistent or enlarging abcess (\"หลัง Tx 2 wk ATB\") · CXR not better after 2 week ATB (\"2wk\" · \"ให้ ATB ไม่ตอบสนอง\") · Massive Hemoptysis (\"life threatening → asphyxia ได้ → แม้ abscess จะ 1–2 cm ก็ lobectomy เลย\" · \"invade vss. แล้วแตกเข้า airway = life threatening → ต้อง lobectomy เลย ∵ เกิด airway obstruct → asphyxia\") · Ruptured to Pleural space (\"CXR อยู่ดี ๆ abscess หายไป → pleural effusion มากขึ้น อาจสงสัย rupture\" · \"abscess ทะลุ → empyema → ใส่ ICD drain หนอง\") · R/O CA (\"ต้อง Bx ให้ชัวร์ ต้องเอา tissue\" · \"ทำ CT scan → biopsy\" · \"central necrosis\")<br>ข้อซ้ำในหน้า 154: ข้อ 29 \"Indication for surgery in lung abscess — A. 2wk antibiotics with no improvement B. multiple abscess both lungs in immunocompromised patient C. Occasional hemoptysis D. Bronchopleural fistula E. All of the above\" ลายมือขีด A และขีดฆ่า Occasional เขียน \"massive\" พร้อมสไลด์ Indication for Surgery ชุดเดียวกัน<br>ที่ปรับในเว็บ: แปลเป็นภาษาอังกฤษ · ช้อย a เป็น \"No improvement after 2 weeks of antibiotics\" · ช้อย d เป็น \"Bilateral small abscesses in immunocompromised host\" · ช้อย b คง \"Occasional\" ตามตัวพิมพ์ · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 153",
+  "kimg": [
+   "fsk_p153",
+   "kp66d_15"
   ]
  },
  "MDCU66|RoD|16": {
-  "interp": "ข้อ NOT — ถามช้อยที่ \"ไม่ใช่\" ปัจจัยเสี่ยงมะเร็งกระเพาะปัสสาวะ (urothelial carcinoma)",
-  "why": "<b>ลายมือ: upper TCC · bladder TCC + สไลด์ etiology</b><br><b>นอกสไลด์:</b> กาแฟไม่ใช่ปัจจัยเสี่ยงที่ยืนยันได้ — IARC (2016) จัดกาแฟอยู่กลุ่ม 3 (ไม่สามารถจัดได้ว่าก่อมะเร็ง) ส่วนช้อยอื่นเป็นปัจจัยเสี่ยงที่ตำราและแนวทางระบุ",
+  "interp": "ถามแบบ <b>NOT</b>: ข้อใด<b>ไม่ใช่ปัจจัยเสี่ยงของมะเร็งกระเพาะปัสสาวะ</b> (urothelial/transitional cell carcinoma) — ช้อยมีบุหรี่ สารเคมีจากอาชีพ ยาเคมีบำบัด พันธุกรรม และเครื่องดื่ม ต้องรู้ว่าตัวไหนมีหลักฐานยืนยัน",
+  "why": "ปัจจัยเสี่ยงที่ยืนยันแล้วของ urothelial carcinoma: <b>สูบบุหรี่</b> สำคัญที่สุด (เพิ่มเสี่ยงราว 2–4 เท่า เป็นสาเหตุราวครึ่งหนึ่งของผู้ป่วย) เพราะ aromatic amine ในควันบุหรี่ถูกขับทางปัสสาวะสัมผัสเยื่อบุนาน · <b>aromatic amine จากอาชีพ</b> (benzidine, 2-naphthylamine, 4-aminobiphenyl ในโรงงานสีย้อม ยาง หนัง สีทาบ้าน) ระยะแฝง ~20 ปี · <b>cyclophosphamide</b> (สาร acrolein) · ฉายรังสีอุ้งเชิงกราน · phenacetin · arsenic · aristolochic acid (ส่วนบนของทางเดินปัสสาวะ) · <b>พันธุกรรม</b> เช่น ญาติสายตรงเป็นโรค และ Lynch syndrome (ส่วนบนเด่น) · ระคายเคืองเรื้อรัง (Schistosoma, สายสวนค้าง, นิ่ว) ทำให้ squamous cell carcinoma · ส่วน<b>กาแฟ</b>หลักฐานไม่สม่ำเสมอและมักถูกบดบังด้วยการสูบบุหรี่ร่วม — IARC (2016) จัดการดื่มกาแฟเป็น<b>กลุ่ม 3</b> (จัดไม่ได้ว่าก่อมะเร็ง) · ไฟล์ขีด c และเขียนลายมือ <b>\"risk upper TCC\"</b> (สไลด์ในไฟล์ใส่ coffee ไว้ใน risk ของ upper tract TCC ไม่ใช่ bladder TCC)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"สูบบุหรี่เป็นปัจจัยเสี่ยง\" ผิด เพราะสาร aromatic amine ในควันบุหรี่ถูกขับทางปัสสาวะสัมผัสเยื่อบุโดยตรง และเป็นสาเหตุที่สำคัญที่สุด",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"พันธุกรรมเป็นปัจจัยเสี่ยง\" ผิด เพราะญาติสายตรงเป็นมะเร็งนี้เพิ่มความเสี่ยง และ Lynch syndrome เพิ่มมะเร็งเยื่อบุทางเดินปัสสาวะ (โดยเฉพาะส่วนบน)",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"cyclophosphamide เป็นปัจจัยเสี่ยง\" ผิด เพราะ acrolein ซึ่งเป็นสารเมตาบอไลต์สัมผัสเยื่อบุกระเพาะปัสสาวะ ทำให้ทั้ง hemorrhagic cystitis และมะเร็ง",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"aromatic amine ในสีย้อมเป็นปัจจัยเสี่ยง\" ผิด เพราะเป็นสารก่อมะเร็งจากอาชีพที่ยืนยันแล้ว (benzidine, 2-naphthylamine — โรงงานสี ยาง หนัง)"
+   "A": "ข้อความถูก: บุหรี่เป็นปัจจัยเสี่ยงสำคัญที่สุดของมะเร็งกระเพาะปัสสาวะ (สไลด์ในไฟล์ \"Cigarette smoking: 4 folds\") ความเสี่ยงสัมพันธ์กับจำนวนซองปีและลดลงช้า ๆ หลังเลิก · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับปัจจัยเสี่ยงหลัก เช่น ชาย 65 ปีสูบบุหรี่ 40 ซองปี ปัสสาวะเป็นเลือดสดไม่เจ็บ cystoscopy พบก้อน papillary",
+   "B": "ข้อความถูก: พันธุกรรมเพิ่มความเสี่ยง — ญาติสายตรงเป็นมะเร็งนี้เพิ่มเสี่ยงราว 2 เท่า และ Lynch syndrome (MSH2) เพิ่ม urothelial carcinoma โดยเฉพาะ renal pelvis และ ureter · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับมะเร็งทางเดินปัสสาวะในกลุ่มพันธุกรรม เช่น หญิง 50 ปีเคยเป็นมะเร็งลำไส้ใหญ่อายุน้อย มีญาติเป็นมะเร็งเยื่อบุโพรงมดลูก พบก้อนใน ureter",
+   "D": "ข้อความถูก: cyclophosphamide ถูกเปลี่ยนเป็น acrolein ขับทางปัสสาวะ ทำให้ทั้ง hemorrhagic cystitis และมะเร็งกระเพาะปัสสาวะ (ความเสี่ยงสัมพันธ์กับขนาดยาสะสม ระยะแฝงหลายปี) · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับยาที่ก่อมะเร็งกระเพาะปัสสาวะ เช่น หญิง 45 ปีเคยได้ cyclophosphamide รักษา lupus nephritis เมื่อ 10 ปีก่อน มาด้วยปัสสาวะเป็นเลือด",
+   "E": "ข้อความถูก: aromatic amine (benzidine, 2-naphthylamine) ในสีย้อมเป็นสารก่อมะเร็งจากอาชีพที่ยืนยันแล้ว พบในคนงานโรงงานสี ยาง หนัง และช่างทำผม ระยะแฝงยาวราว 20 ปี · จะถูกถ้าต้องเลือกข้อที่ถูกเกี่ยวกับมะเร็งจากอาชีพ เช่น ชาย 60 ปีเคยทำงานโรงงานย้อมผ้า 25 ปี มี gross hematuria ไม่เจ็บ"
   },
-  "trap": "ข้อ NOT ที่ช้อยเป็นสารเคมีหลายตัว — สีย้อม (aromatic amine) เป็นปัจจัยเสี่ยงจริง ส่วนเครื่องดื่ม (กาแฟ สารให้ความหวาน) หลักฐานไม่ชัด",
+  "trap": "สไลด์ในไฟล์มี coffee consumption อยู่ในรายการ risk factor ของ <b>upper tract TCC</b> ทำให้คนที่จำสไลด์ปนกันลังเล · และกาแฟเคยถูก IARC จัดเป็น possibly carcinogenic ต่อกระเพาะปัสสาวะ (1991) ก่อนถูกปรับลงเป็นกลุ่ม 3 (2016) · ให้ยึดว่าปัจจัยที่ยืนยันคือ บุหรี่ สารเคมี ยา รังสี การระคายเคืองเรื้อรัง และพันธุกรรม",
   "summary": [
-   "<b>นอกสไลด์:</b> ปัจจัยเสี่ยง urothelial carcinoma: สูบบุหรี่ (สำคัญที่สุด) · aromatic amine จากอาชีพ · cyclophosphamide · ฉายรังสีอุ้งเชิงกราน · aristolochic acid (ส่วนบนของทางเดินปัสสาวะ) · Lynch syndrome (ส่วนบน)",
-   "<b>นอกสไลด์:</b> กาแฟและสารให้ความหวานเทียม: หลักฐานไม่พอว่าเพิ่มความเสี่ยง"
+   "Urothelial carcinoma เป็นชนิดที่พบมากที่สุดของมะเร็งกระเพาะปัสสาวะ (~90%) · ชาย:หญิง ราว 3–4:1 · พบมากอายุ 70 ปีขึ้นไป · อาการหลักคือ gross hematuria ไม่เจ็บ",
+   "บุหรี่: ปัจจัยเสี่ยงสำคัญที่สุด เพิ่มเสี่ยง 2–4 เท่า เป็นสาเหตุราวครึ่งหนึ่ง · เลิกแล้วความเสี่ยงลดลงช้า ๆ ใช้เวลาหลายสิบปี",
+   "สารเคมีจากอาชีพ: aromatic amine (benzidine, 2-naphthylamine, 4-aminobiphenyl) ในอุตสาหกรรมสี ยาง หนัง · polycyclic aromatic hydrocarbon · arsenic ในน้ำดื่ม",
+   "ยาและรังสี: cyclophosphamide (acrolein) · phenacetin · pioglitazone (หลักฐานจำกัด) · ฉายรังสีอุ้งเชิงกราน (มะเร็งปากมดลูก ต่อมลูกหมาก ไส้ตรง)",
+   "Upper tract urothelial carcinoma: บุหรี่ · aristolochic acid (Balkan/Chinese herb nephropathy) · phenacetin · Lynch syndrome (MSH2) · ต้อง CT urography ทุกรายที่สงสัย",
+   "Squamous cell carcinoma ของกระเพาะปัสสาวะ: ระคายเคืองเรื้อรัง — Schistosoma haematobium (อียิปต์) · ใส่สายสวนค้างนานในผู้ป่วยไขสันหลังบาดเจ็บ · นิ่วในกระเพาะปัสสาวะ",
+   "สิ่งที่ไม่ใช่ปัจจัยเสี่ยงที่ยืนยัน: กาแฟ (IARC 2016 กลุ่ม 3) · สารให้ความหวานเทียม (หลักฐานในคนไม่ชัด) · การดื่มน้ำมากอาจลดความเสี่ยงเล็กน้อย"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด c (✓ ที่ a b d e) และลายมือ \"risk upper TCC\" ซึ่งอธิบายว่าสไลด์ใส่ coffee ไว้ในหัวข้อ upper tract ไม่ใช่ bladder · หลักฐานปัจจุบันไม่ถือว่ากาแฟเป็นปัจจัยเสี่ยงที่ยืนยัน ส่วนช้อยอื่นยืนยันแล้วทั้งหมด",
+  "mnemonic": "<b>'Bladder CA risk = \"Smoke · Dye · Drug (Cyclo) · Ray · Irritation · Gene\" — กาแฟไม่อยู่ในลิสต์'</b>",
+  "guide": "Campbell-Walsh-Wein Urology 12th ed. (2020) — Tumors of the bladder · IARC Monographs Volume 116: Drinking Coffee, Mate, and Very Hot Beverages (2018) · EAU Guidelines on Non-muscle-invasive Bladder Cancer 2025",
   "variants": [
-   "<b>นอกสไลด์:</b> ชาย 60 ปี ใส่สายสวนปัสสาวะค้างมาหลายปีจากไขสันหลังบาดเจ็บ มีก้อนในกระเพาะปัสสาวะ → squamous cell carcinoma (ระคายเคืองเรื้อรัง เช่นเดียวกับ schistosomiasis)",
-   "<b>นอกสไลด์:</b> ชาย 62 ปี สูบบุหรี่ ปัสสาวะเป็นเลือดสดไม่เจ็บ → cystoscopy + CT urography"
+   "ชาย 60 ปีใส่สายสวนปัสสาวะค้างมา 20 ปีจากไขสันหลังบาดเจ็บ cystoscopy พบก้อนแข็งมี keratin → squamous cell carcinoma ของกระเพาะปัสสาวะ",
+   "หญิง 50 ปีได้ cyclophosphamide ปัสสาวะเป็นเลือดมีลิ่มเลือดระหว่างได้ยา → hemorrhagic cystitis → ป้องกันด้วย mesna + ดื่มน้ำมาก",
+   "ชาย 55 ปีเคยกินยาสมุนไพรจีนลดน้ำหนักที่มี aristolochic acid มีไตเสื่อม และพบก้อนใน renal pelvis → upper tract urothelial carcinoma",
+   "ชาย 70 ปีสูบบุหรี่ gross hematuria ไม่เจ็บ → CT urography (upper tract) + cystoscopy (lower tract) ทุกราย"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 (คอลัมน์ซ้าย) — ตัวพิมพ์: <b>16. ข้อใดไม่ใช่ risk ของ CA bladder — a. cigarette b. hereditary c. coffee consumption d. cyclophosphamide e. chemical dye</b><br>ลายมือ: ขีด c · เขียน \"risk upper TCC\" เหนือ coffee consumption · ✓ ที่ a b d e · ดาวแดงหลัง CA bladder · โน้ตลายมือสีแดงยาวข้างช้อย สรุปเนื้องอกทางเดินปัสสาวะ — ชนิด: benign angiomyolipoma (AML) · malignant renal cell CA (RCC) · transitional cell CA (TCC) ใน collecting system (bladder, pelvis ไต, ureter) · squamous cell CA ใน chronic irritation/infection · CA prostate: adenoCA · sarcoma · risk factor: intrinsic (FH esp. prostate, RCC → VHL, gender, race) · extrinsic: smoking (5–6 เท่าใน bladder TCC, 3–4 เท่าใน ureter TCC) · smoking, HTN, obesity ใน RCC · occupational hydrocarbon → ↑TCC bladder · Chinese herb nephropathy (Balkan nephropathy) → ↑TCC · radiation exposure · cyclophosphamide → TCC bladder · blood fluke → SCC bladder (ใน Egypt) จาก chronic inflam. · stone · foley retain life long · symptom: irritative voiding symptom ใน CA bladder · too late triad RCC (flank pain, gross hematuria, palpable abn. mass) · CA prostate → LUTS, hematuria, bone pain (metas) · Mx: R/O malignancy → upper tr.: CT urography (CTWA + delayed phase) ห้าม contrast → MR urography หรือ retrograde pyelography + USG/CT non-contrast · lower tr.: cystoscopy ∵ CA in situ, small papillary lesion มองไม่เห็นใน CT<br>ไฮไลต์: \"ไม่ใช่ risk\" · \"CA bladder\" · \"coffee consumption\" (เหลือง)<br>รูปที่แปะ: (1) สไลด์ \"ETIOLOGY AND RISK FACTOR\" (ลายมือหัวสไลด์ \"upper TCC\") — Smoking (\"RR 2–6\" \"ยิ่งกว่า RCC\") · Chemical dye (\"สีย้อมผ้า สีทำเล็บ\") · Chronic inflammation, infection (SCC) (\"Renal stone\") · Analgesic: phenacetin (\"Arsenic, aromatic hydrocarbon\") · Coffee consumption · Hereditary (\"Lynch syndrome\") (2) สไลด์ \"TRANSITIONAL CELL CARCINOMA\" (ลายมือ \"bladder TCC\") — Male : female = 3:1 · White &gt; black · Incidence increase with age: mean 70 yr (\"peak 70–80 yr\") · Etiology and risk factor: Cigarette smoking: 4 folds · Chemical dye, aromatic amines · Analgesic: phenacetin · Pelvic irradiation (\"CA rectum/colon, prostate, gyne\") · Cyclophosphamide (chemotherapy) → hemorrhagic cystitis · Hereditary<br>ที่ปรับในเว็บ: แปลโจทย์เป็น \"Which is NOT a risk factor for bladder cancer?\" · ช้อย b เป็น \"Hereditary factors\" · ช้อย e \"chemical dye\" เป็น \"Aromatic amine dyes\" · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_16"
   ]
  }
 }

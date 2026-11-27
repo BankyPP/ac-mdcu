@@ -1,160 +1,282 @@
 {
  "MDCU66|RoD|17": {
-  "interp": "ผู้ป่วย mitral regurgitation (MR) ยังเหนื่อยจนทำงานไม่ได้แม้ยาช่วยให้อาการดีขึ้นบ้าง (NYHA III) · ถามการรักษา",
-  "why": "<b>ลายมือ: FC III</b><br><b>นอกสไลด์:</b> MR รุนแรงที่ยังมีอาการแม้ได้ยา = ข้อบ่งชี้ผ่าตัดลิ้น (ซ่อมหรือเปลี่ยน) · ยาแค่บรรเทาอาการ ไม่แก้ลิ้นที่รั่ว และการรอจนหัวใจห้องล่างซ้ายเสื่อมทำให้ผลหลังผ่าตัดแย่ลง",
+  "interp": "ผู้ป่วย <b>mitral regurgitation</b> มีเหนื่อยและนอนราบไม่ได้ (orthopnea) รักษาด้วยยาแล้วดีขึ้นแต่<b>ยังทำงานไม่ได้</b> = ยังมีอาการระดับ NYHA FC III (ลายมือในไฟล์) · ถามการรักษาขั้นต่อไป ซึ่งต้องรู้ว่า severe MR ที่มีอาการเป็นข้อบ่งชี้ผ่าตัดลิ้นหัวใจ ยาไม่เปลี่ยนการดำเนินโรค",
+  "why": "ใน <b>chronic severe primary MR</b> ยาขับปัสสาวะหรือยาลด afterload ช่วยบรรเทาอาการได้ชั่วคราวแต่<b>ไม่แก้ลิ้นที่รั่ว</b> และไม่ชะลอการเสื่อมของ LV · แนวทาง ACC/AHA 2020 ให้ <b>ผ่าตัดลิ้น mitral (class 1) เมื่อมีอาการ</b> ไม่ว่า LV function เป็นอย่างไร (ถ้า LVEF &gt; 30%) และในผู้ไม่มีอาการเมื่อ <b>LVEF ≤ 60% หรือ LVESD ≥ 40 mm</b> · พิจารณาเมื่อเกิด AF ใหม่หรือ pulmonary hypertension (PASP &gt; 50 mmHg) · เลือก <b>mitral valve repair</b> ก่อนถ้าซ่อมได้ทนทาน (เช่น degenerative posterior leaflet prolapse) ส่วน <b>replacement</b> เมื่อซ่อมไม่ได้ เช่น ลิ้นรูมาติกที่หนาแข็งหดรั้ง ซึ่งพบบ่อยในไทย · ผู้เสี่ยงผ่าตัดสูงใช้ transcatheter edge-to-edge repair · ไฟล์ขีด d และเขียนลายมือ <b>\"FC III\"</b> ที่ mitral valve replacement (ช้อย c เขียน \"FC II\")",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น MR ทุติยภูมิ (functional) จากหัวใจห้องล่างซ้ายขยายหรือขาดเลือด ที่ยังได้ยารักษาหัวใจล้มเหลวไม่เต็มขนาด — ปรับยาให้เต็มก่อน",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นผู้ป่วย mitral stenosis รูมาติกที่มีอาการ และลิ้นเหมาะกับการขยายด้วยบอลลูน",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น mitral stenosis ที่ลิ้นยังยืดหยุ่น แต่มีลิ่มเลือดใน left atrium ที่ไม่หายด้วยยา จึงขยายด้วยบอลลูนไม่ได้",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ข้อความ \"ทุกข้อใช้รักษาผู้ป่วยรายเดียวกันได้\" เป็นจริง เพราะ PBMV และ commissurotomy แยกลิ้นที่ติดกัน ซึ่งทำให้ลิ้นที่รั่วอยู่แล้วรั่วมากขึ้น"
+   "A": "เปลี่ยนหรือเพิ่มยา (diuretic, vasodilator) ทำให้อาการดีขึ้นชั่วคราวแต่ไม่แก้ MR ที่เกิดจากตัวลิ้น การรอนานทำให้ LV เสื่อมถาวรและผลผ่าตัดแย่ลง · จะถูกถ้าเป็นชาย 60 ปี dilated cardiomyopathy LVEF 30% มี secondary MR ปานกลาง ยังไม่ได้ guideline-directed medical therapy เต็มที่ (ACEI/ARNI, beta-blocker, MRA, SGLT2i) — ปรับยาก่อนพิจารณาหัตถการ",
+   "B": "PBMV (percutaneous balloon mitral valvotomy) ใช้ขยาย<b>ลิ้นตีบ</b>จากรูมาติก และห้ามทำเมื่อมี MR ปานกลางขึ้นไปเพราะบอลลูนทำให้รั่วมากขึ้น · จะถูกถ้าเป็นหญิง 28 ปี rheumatic MS เหนื่อย FC III MVA 1.0 cm² Wilkins score 7 ไม่มี LA thrombus และ MR เพียงเล็กน้อย",
+   "C": "Open mitral commissurotomy (ไฟล์สะกด commissulopaty) คือผ่าตัดเปิดแยก commissure ที่เชื่อมติดใน<b>mitral stenosis</b> ไม่ได้แก้ลิ้นรั่ว (ลายมือ \"FC II\") · จะถูกถ้าเป็นหญิง 30 ปี rheumatic MS รุนแรงที่มีลิ่มเลือดค้างใน left atrium แม้ได้ warfarin แล้ว (ทำ PBMV ไม่ได้) แต่ลิ้นยังยืดหยุ่น ไม่มีหินปูนมาก",
+   "E": "ช้อยนี้ผิดเพราะ PBMV และ open commissurotomy เป็นการรักษา mitral stenosis และการเปลี่ยนยาไม่พอสำหรับ severe MR ที่ยังมีอาการ · จะถูกถ้าเป็นผู้ป่วย rheumatic mixed mitral valve disease ที่ MS เด่นและ MR เล็กน้อย ซึ่งทุกวิธีอาจอยู่ในแผนตามลำดับ (ยาควบคุมอาการ → PBMV → ผ่าตัด) — แต่ไม่ตรงกับโจทย์ MR"
   },
-  "trap": "PBMV/commissurotomy เป็นการรักษาลิ้น \"ตีบ\" — MR ปานกลางขึ้นไปเป็นข้อห้ามของ PBMV",
+  "trap": "คำว่า <b>\"อาการดีขึ้นด้วยยา\"</b> ชวนให้เลือกปรับยาต่อ · แต่ MR ที่ยังมีอาการถึงขั้นทำงานไม่ได้คือข้อบ่งชี้ผ่าตัด · อีกกับดักคือ PBMV และ commissurotomy ซึ่งเป็นการรักษา<b>ลิ้นตีบ</b> ต้องแยก MS ออกจาก MR ให้ขาด",
   "summary": [
-   "<b>นอกสไลด์:</b> ACC/AHA 2020 severe primary MR: มีอาการ → ผ่าตัด (Class I) · ไม่มีอาการแต่ LVEF ≤ 60% หรือ LVESD ≥ 40 mm → ผ่าตัด · ลิ้นเสื่อม (prolapse/flail) → ซ่อมดีกว่าเปลี่ยน",
-   "<b>นอกสไลด์:</b> MR ทุติยภูมิ: รักษาหัวใจล้มเหลวเต็มที่ก่อน (ยา ± CRT) ยังมีอาการจึงพิจารณาหัตถการ"
+   "NYHA FC: I ไม่มีอาการ · II เหนื่อยเมื่อทำกิจกรรมปกติ · III เหนื่อยเมื่อทำน้อยกว่าปกติ (ทำงานไม่ได้) สบายเมื่อพัก · IV มีอาการขณะพัก",
+   "Severe primary MR มีอาการ → ผ่าตัดลิ้น (class 1) · ไม่มีอาการแต่ LVEF ≤ 60% หรือ LVESD ≥ 40 mm → ผ่าตัด (ACC/AHA 2020)",
+   "ไม่มีอาการ LV ปกติ: พิจารณาผ่าตัดเมื่อซ่อมได้สำเร็จ &gt; 95% และเสี่ยงตาย &lt; 1% หรือเมื่อมี AF ใหม่ หรือ PASP &gt; 50 mmHg",
+   "Repair ดีกว่า replacement (เก็บ subvalvular apparatus ไว้ช่วยการบีบตัวของ LV ไม่ต้องกินยาต้านการแข็งตัวของเลือดตลอดชีวิต) · รูมาติกซ่อมได้ยากกว่า degenerative",
+   "Secondary (functional) MR: ปัญหาอยู่ที่ LV ขยาย → GDMT + CRT ก่อน · ยังมีอาการ → transcatheter edge-to-edge repair (COAPT)",
+   "Acute severe MR (papillary muscle rupture, chordae ขาด, endocarditis): ปอดบวมน้ำ ช็อก → ลด afterload (nitroprusside, IABP) แล้วผ่าตัดด่วน",
+   "Mitral stenosis รูมาติก: MVA ≤ 1.5 cm² มีอาการ → PBMV ถ้าลิ้นเหมาะ (Wilkins ≤ 8, ไม่มี LA thrombus, MR ≤ mild) · ไม่เหมาะ → ผ่าตัด"
   ],
-  "opinion": "เห็นด้วยกับคีย์ D · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ D ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด d (เดิม mitral valve replacement) พร้อมลายมือ \"FC III\" และตรงกับสไลด์ในไฟล์ที่ว่า chronic MR มีอาการ FC II ขึ้นไปผ่าตัดซ่อมถ้าซ่อมได้ FC III ขึ้นไปทำ valve replacement · เว็บเปลี่ยนเป็น \"Mitral valve surgery\" ให้ครอบทั้ง repair และ replacement ตามแนวทางปัจจุบัน",
+  "mnemonic": "<b>'MR มีอาการ = ผ่า (Repair ก่อน Replace) · MS = บอลลูน (PBMV) / commissurotomy'</b>",
+  "guide": "Otto CM et al. 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Circulation 2021;143:e72–e227) · 2021 ESC/EACTS Guidelines for the management of valvular heart disease (Eur Heart J 2022;43:561–632)",
   "variants": [
-   "<b>นอกสไลด์:</b> severe primary MR ไม่มีอาการ หัวใจขนาดและการบีบตัวปกติ อยู่ในศูนย์ที่ซ่อมลิ้นสำเร็จสูง → พิจารณาซ่อมลิ้นได้เลย (Class 2a)",
-   "<b>นอกสไลด์:</b> severe primary MR มีอาการ แต่อายุมากและความเสี่ยงผ่าตัดสูงมาก → transcatheter edge-to-edge repair (TEER)"
+   "ชาย 55 ปี MVP posterior leaflet severe MR ไม่มีอาการ echo LVEF 58% → ผ่าตัด mitral valve repair",
+   "หญิง 40 ปี rheumatic MR รุนแรง ลิ้นหนาแข็งหดรั้ง เหนื่อย FC III → mitral valve replacement (ซ่อมไม่ได้)",
+   "ชาย 82 ปี severe degenerative MR มีอาการ แต่เสี่ยงผ่าตัดสูงมาก (STS score สูง) → transcatheter edge-to-edge repair",
+   "ทำไมต้องผ่าตัด MR ก่อน LVEF ลดต่ำ → MR ทำให้ LV บีบเลือดออกง่าย (afterload ต่ำ) LVEF จึงดูสูงเกินจริง ค่า ≤ 60% แปลว่า LV เริ่มเสื่อมแล้ว"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 (คอลัมน์ซ้าย) — ตัวพิมพ์: <b>17. มีเหนื่อย นอนราบไม่ได้ เป็น MR รักษาด้วยยา อาการดีขึ้น แต่ยังทำงานไม่ได้ ควรรักษายังไงต่อ — a. เปลี่ยนยา b. PBMV c. open mitral commissulopaty d. mitral valve replacement e. all of above</b><br>ลายมือ: ขีด d · เขียน \"FC III\" ต่อท้าย mitral valve replacement · เขียน \"FC II\" ต่อท้าย open mitral commissulopaty<br>ไฮไลต์: \"เหนื่อย นอนราบไม่ได้\" · \"MR\" · \"รักษาด้วยยา อาการดีขึ้น\" · \"ยังทำงานไม่ได้\" · \"รักษายังไงต่อ\" · \"mitral valve replacement\" (เหลือง)<br>รูปที่แปะ (บนสุดของหน้า 154 คอลัมน์ซ้าย เนื้อหาตรงกับข้อนี้): ภาพถ่ายตำราภาษาไทย \"ข้อบ่งชี้ในการทำผ่าตัด 1. Acute MR มักจำเป็นต้องได้รับการผ่าตัดทุกราย 2. Chronic MR – ผู้ป่วยที่มีอาการ F.C. II ขึ้นไปในกรณีที่คาดว่าสามารถผ่าตัดซ่อมลิ้นหัวใจ (mitral valve repair) ได้ และ F.C. III ขึ้นไปในกรณีที่การผ่าตัดต้องทำ valve replacement (MVR) – ผู้ป่วยที่ไม่มีอาการ แต่พบว่า 1. เริ่มมี LV dysfunction โดยพิจารณาจาก LVEF &lt; 60% และขนาดของ LV ขณะบีบตัว (LVESD) &gt; 50–55 mm. 2. เกิด atrial fibrillation\" (ไฮไลต์เขียวและวง F.C. II, F.C. III) + ลายมือสีน้ำเงิน \"3. มี Pulm. HTN โดยมี Mean pulm. a. pressure &gt; 50 mmHg\"<br>ที่ปรับในเว็บ: แปลเป็นภาษาอังกฤษ · ช้อย c สะกดเป็น \"Open mitral commissurotomy\" · ช้อย d เดิม \"mitral valve replacement\" เปลี่ยนเป็น \"Mitral valve surgery\" · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_17"
   ]
  },
  "MDCU66|RoD|20": {
-  "interp": "หลังกล้ามเนื้อหัวใจขาดเลือด มีเสียงฟู่ systolic ใหม่ที่ apex (ใต้ราวนมซ้าย) → ภาวะแทรกซ้อนเชิงกลที่ทำให้ลิ้น mitral รั่วเฉียบพลัน",
-  "why": "<b>ลายมือ: เกิด MR</b><br><b>นอกสไลด์:</b> papillary muscle ขาด → ลิ้น mitral รั่วเฉียบพลัน (เสียงฟู่ที่ apex ร้าวไปรักแร้) ปอดบวมน้ำรุนแรงหรือช็อก · มักเป็น posteromedial papillary muscle เพราะได้เลือดจากหลอดเลือดเส้นเดียว (PDA) จึงพบหลัง inferior MI",
+  "interp": "หลัง <b>myocardial infarction</b> ฟังได้ <b>systolic murmur ใหม่ใต้ราวนมซ้าย</b> (ตำแหน่ง apex — ลายมือ \"@ apex\") · ถามสาเหตุ ต้องแยก mechanical complication ของ MI ตามตำแหน่งเสียงฟู่ ระยะเวลา และอาการ",
+  "why": "Mechanical complication หลัง MI มักเกิดใน<b>วันที่ 2–7</b> (ยุคเปิดหลอดเลือดเร็วอาจเกิดภายใน 24 ชม.) · <b>Papillary muscle rupture</b> ทำให้ <b>acute MR</b>: holosystolic murmur ที่ <b>apex ร้าวไป axilla</b> (อาจเบาหรือไม่ได้ยินเพราะความดัน LA และ LV เท่ากันเร็ว) ร่วมกับปอดบวมน้ำเฉียบพลันและ cardiogenic shock · พบที่ <b>posteromedial papillary muscle</b> บ่อยกว่าหลายเท่าเพราะได้เลือดจาก PDA เส้นเดียว จึงสัมพันธ์กับ <b>inferior MI</b> ส่วน anterolateral ได้เลือดสองทาง (LAD + LCx) · ยืนยันด้วย <b>echocardiogram</b> (flail leaflet) · รักษา: ลด afterload (nitroprusside), IABP/mechanical circulatory support แล้ว<b>ผ่าตัดลิ้น mitral ด่วน</b> (ส่วนใหญ่ต้อง replacement) · ต่างจาก VSR ที่เสียงฟู่ดังหยาบที่ <b>left lower sternal border</b> มี thrill และ O2 step-up ใน RV · ไฟล์ขีด b ใส่เครื่องหมายคำพูดที่ \"rupture papillary muscle\" และเขียนลายมือ <b>\"จะเกิด MR\"</b> กับ <b>\"MR\"</b>",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเสียงฟู่ใหม่ดังที่ขอบซ้ายกระดูกอกส่วนล่าง คลำได้ thrill และวัดออกซิเจนพบค่าเพิ่มขึ้นใน right ventricle (O₂ step-up)",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าการแตกของผนังหัวใจถูกเยื่อหุ้มหัวใจหุ้มไว้เป็นถุง (pseudoaneurysm) ซึ่งมีเสียงฟู่จากเลือดไหลเข้าออกถุงได้",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่เยื่อหุ้มหัวใจอักเสบทำให้เกิดเสียงฟู่ systolic เพราะเสียงที่เกิดคือ friction rub (เสียงเสียดสีหลายจังหวะ เปลี่ยนตามท่า) ไม่ใช่เลือดไหลผ่านรูหรือลิ้น",
-   "E": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ aortic dissection เป็นต้นเหตุโดยตรงของเสียงฟู่ systolic ใหม่ที่ apex เพราะลิ้นที่ dissection ลามถึงคือ aortic valve ซึ่งรั่วแล้วให้เสียงฟู่ diastolic"
+   "A": "Ventricular septal rupture (post-MI VSD) เกิดวันที่ 3–5 ทำให้ left-to-right shunt เสียงฟู่ holosystolic <b>ดังหยาบที่ left lower sternal border</b> มัก thrill ร่วม right heart failure · ตำแหน่ง apex ใต้ราวนมไม่เข้ากับ VSR · จะถูกถ้าเป็นชาย 65 ปี anterior MI 4 วัน มีเสียงฟู่ดังใหม่ที่ LLSB คลำได้ thrill ความดันตก O2 saturation เพิ่มจาก RA ไป RV",
+   "C": "Free wall rupture ทำให้เลือดเข้าช่องเยื่อหุ้มหัวใจเกิด <b>cardiac tamponade</b> → hypotension, JVP สูง, PEA และเสียชีวิตทันที <b>ไม่มีเสียงฟู่ใหม่</b> พบในหญิงสูงอายุ MI ครั้งแรก ได้ thrombolysis ช้า · จะถูกถ้าเป็นหญิง 75 ปี anterior MI ครั้งแรก 3 วัน เจ็บอกซ้ำ ความดันตกทันที คอโป่ง EKG ยังมีคลื่นแต่คลำชีพจรไม่ได้ (PEA)",
+   "D": "Pericarditis หลัง MI มีทั้งชนิดเร็ว (1–3 วัน จาก transmural infarct) และ Dressler syndrome (หลายสัปดาห์ จากภูมิคุ้มกัน) ฟังได้ <b>pericardial friction rub</b> ไม่ใช่ systolic murmur · จะถูกถ้าเป็นชาย 60 ปี หลัง MI 3 สัปดาห์ มีไข้ เจ็บอกแหลมดีขึ้นเมื่อนั่งโน้มตัวไปข้างหน้า ฟังได้เสียงเสียดสีสามจังหวะ",
+   "E": "Aortic dissection ทำให้ <b>diastolic murmur ของ aortic regurgitation</b> ปวดอกฉีกร้าวทะลุหลัง ชีพจรหรือความดันแขนสองข้างต่างกัน mediastinum กว้าง ไม่ใช่ systolic murmur ที่ apex หลัง MI · จะถูกถ้าเป็นชาย 55 ปีความดันสูง ปวดอกฉีกร้าวไปหลังทันที ความดันแขนขวาซ้ายต่างกัน 30 mmHg ฟังได้ early diastolic murmur"
   },
-  "trap": "เสียงฟู่ใหม่หลัง MI มีสองโรคหลัก แยกด้วยตำแหน่งและ thrill: apex ร้าวไปรักแร้ ไม่มี thrill = papillary muscle rupture · ขอบซ้ายกระดูกอก มี thrill = ventricular septal rupture · เสียงฟู่ของ MR เฉียบพลันอาจเบาหรือไม่ได้ยินเมื่อความดันในห้องเท่ากันเร็ว",
+  "trap": "ตำแหน่ง \"ใต้ราวนมซ้าย\" อาจถูกตีความว่าเป็นขอบซ้ายของกระดูกอกส่วนล่างจนเลือก VSD · ให้แยกด้วย <b>ตำแหน่ง + thrill + ภาวะ</b>: apex ร้าว axilla + ปอดบวมน้ำ = papillary muscle rupture (MR) · LLSB ดังหยาบ + thrill + right heart failure = VSR · ไม่มีเสียงฟู่ + tamponade = free wall rupture",
   "summary": [
-   "<b>นอกสไลด์:</b> ภาวะแทรกซ้อนเชิงกลหลัง MI: papillary muscle rupture, ventricular septal rupture, free wall rupture — มักเกิดในไม่กี่วันแรก (พบน้อยลงมากในยุคเปิดหลอดเลือดเร็ว) · ยืนยันด้วย echocardiogram · ทั้งหมดต้องผ่าตัดด่วน"
+   "Mechanical complications หลัง MI: papillary muscle rupture · ventricular septal rupture · free wall rupture · LV aneurysm (หลายสัปดาห์) — ส่วนใหญ่ 2–7 วัน พบน้อยลงในยุค primary PCI",
+   "Papillary muscle rupture: posteromedial (เลือดจาก PDA เส้นเดียว) &gt; anterolateral (LAD + LCx) · สัมพันธ์ inferior MI · acute MR ปอดบวมน้ำ ช็อก",
+   "VSR: holosystolic murmur ดังหยาบที่ LLSB + thrill · O2 step-up RA→RV · เกิดได้ทั้ง anterior MI (apical septum) และ inferior MI (basal septum)",
+   "Free wall rupture: tamponade → PEA/เสียชีวิตทันที · ปัจจัยเสี่ยง หญิง สูงอายุ MI ครั้งแรก thrombolysis ช้า · บางรายเป็น contained rupture (pseudoaneurysm)",
+   "วินิจฉัยทุกภาวะด้วย echocardiogram ข้างเตียงทันทีเมื่อมีเสียงฟู่ใหม่ ความดันตก หรือปอดบวมน้ำเฉียบพลันหลัง MI",
+   "รักษา acute MR/VSR: ลด afterload (nitroprusside) + IABP หรือ mechanical support → ผ่าตัดด่วน (mitral replacement/patch ปิด VSD) · VSR บางรายปิดด้วยอุปกรณ์ผ่านสายสวน",
+   "Pericarditis หลัง MI: early (1–3 วัน) และ Dressler (2–6 สัปดาห์) ฟังได้ friction rub · รักษาด้วย aspirin ขนาดสูง ± colchicine เลี่ยง NSAID อื่นและ steroid ช่วงแรก"
   ],
-  "opinion": "เห็นด้วยกับคีย์ B · มั่นใจปานกลาง–สูง (โจทย์ระบุ apex จึงเข้ากับ MR มากกว่า septal rupture)",
+  "opinion": "เห็นด้วยกับคำตอบ B ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด b พร้อมลายมือ \"จะเกิด MR\" และ \"@ apex\" · ตำแหน่งใต้ราวนมซ้าย (apex) และ systolic murmur ใหม่หลัง MI เข้ากับ acute MR จาก papillary muscle rupture ไฟล์มีช้อยแค่ a–c เว็บเติม D–E โดยไม่เปลี่ยนคำตอบ",
+  "mnemonic": "<b>'หลัง MI เสียงฟู่ใหม่: Apex → Papillary (MR) · Sternum ซ้ายล่าง + Thrill → Septum (VSR) · ไม่มีเสียง + ช็อก → Free wall'</b>",
+  "guide": "Damluji AA et al. Mechanical Complications of Acute Myocardial Infarction: A Scientific Statement From the American Heart Association (Circulation 2021;144:e16–e35) · 2023 ESC Guidelines for the management of acute coronary syndromes (Eur Heart J 2023;44:3720–3826)",
   "variants": [
-   "<b>นอกสไลด์:</b> หลัง MI 4 วัน เจ็บหน้าอกซ้ำ ความดันตก หลอดเลือดดำที่คอโป่ง แล้วหัวใจหยุดเต้นแบบ PEA → free wall rupture จน tamponade",
-   "<b>นอกสไลด์:</b> หลัง MI 2 สัปดาห์ ST ยกค้าง echo พบผนังหัวใจโป่งบางเคลื่อนไหวผิดทาง → LV aneurysm"
+   "ชาย 62 ปี inferior STEMI วันที่ 3 หอบเหนื่อยทันที ปอดบวมน้ำ ฟังได้ systolic murmur เบา ๆ ที่ apex → echo พบ flail posterior mitral leaflet → ผ่าตัด mitral valve ด่วน",
+   "หญิง 70 ปี anterior MI วันที่ 4 มีเสียงฟู่ดังหยาบที่ LLSB thrill JVP สูง ตับโต → ventricular septal rupture",
+   "ผู้ป่วยหลัง MI หลายสัปดาห์ EKG ST elevation ค้าง echo พบผนังโป่งบาง dyskinetic → LV aneurysm เสี่ยง thrombus และ VT",
+   "ทำไม papillary muscle rupture บางรายแทบไม่มีเสียงฟู่ → LA ที่ไม่เคยขยายรับเลือดย้อนทันทีจนความดัน LA สูงใกล้ LV แรงดันต่างน้อย เสียงฟู่จึงสั้นและเบา"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 (คอลัมน์ซ้าย) — ตัวพิมพ์: <b>20. มี ischemic ของ heart แล้วฟังได้ systolic murmur ที่ใต้ราวนมซ้าย — a. Complicated MI with VSD b. Complicated MI with rupture papillary muscle c. Complicated MI with free LV wall rupture</b><br>ลายมือ: ขีด b · ใส่เครื่องหมายคำพูดคร่อม \"rupture papillary muscle\" และเขียน \"จะเกิด MR\" เหนือ papillary · เขียน \"= @ apex\" ต่อท้าย ราวนมซ้าย · เขียน \"MR\" (แดง) ใต้บรรทัดแรกของโจทย์<br>ไฮไลต์: \"ischemic ของ heart\" · \"systolic murmur ที่ใต้\" · \"ราวนมซ้าย\" · \"Complicated MI with rupture papillary muscle\" (เหลือง)<br>ที่ปรับในเว็บ: ไฟล์มีช้อยแค่ a–c เว็บเติม D. Pericarditis · E. Aortic dissection · ช้อยเหลือชื่อโรคสั้น (Ventricular septal rupture / Papillary muscle rupture / Free wall rupture) · โจทย์ระบุ \"left inframammary area (cardiac apex)\" ตามลายมือ @ apex",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_20"
   ]
  },
  "MDCU66|RoD|21": {
-  "interp": "ถามว่าลักษณะใดจัดเป็น complex fistula-in-ano (ทางเปิดผิดปกติที่การตัดเปิดเสี่ยงกลั้นอุจจาระไม่อยู่หรือหายยาก)",
-  "why": "<b>สไลด์ (complex fistula)</b><br><b>นอกสไลด์:</b> ทุกช้อยเข้านิยาม complex: ผ่านหูรูดภายนอกสูง · มีหลายทาง/หลายรู · มีแขนงอ้อม (hemihorseshoe) · มีโรคร่วมอย่าง Crohn",
+  "interp": "ถามว่าลักษณะใดจัดเป็น <b>complex fistula-in-ano</b> — ต้องรู้นิยามว่า complex คือ fistula ที่ผ่าเปิด (fistulotomy) แล้วเสี่ยงกลั้นอุจจาระไม่อยู่หรือกลับเป็นซ้ำสูง ทั้งจากกายวิภาคของทางเดินฝีและจากโรคร่วม",
+  "why": "แบ่ง fistula ตามความสัมพันธ์กับหูรูด (Parks): <b>intersphincteric</b> (พบบ่อยสุด) · <b>transsphincteric</b> · <b>suprasphincteric</b> · <b>extrasphincteric</b> · <b>Simple</b> = intersphincteric หรือ <b>low transsphincteric</b> (ผ่าน external sphincter &lt; 30%) ไม่มีปัจจัยเสี่ยง → <b>fistulotomy</b> หายราว 90% ขึ้นไป · <b>Complex</b> (ASCRS) = transsphincteric ที่กิน external sphincter &gt; 30% (<b>high transsphincteric</b>) · suprasphincteric · extrasphincteric · <b>horseshoe/hemihorseshoe</b> (ลามรอบทวารผ่าน deep postanal space) · <b>anterior fistula ในผู้หญิง</b> (หูรูดด้านหน้าสั้น) · <b>หลายทาง/หลายรูเปิด</b> หรือกลับเป็นซ้ำ · ร่วมกับ <b>Crohn disease</b>, ฉายรังสี, มะเร็ง, กลั้นไม่อยู่เดิม หรือท้องเสียเรื้อรัง · กลุ่มนี้ต้องประเมินด้วย <b>MRI pelvis</b> หรือ endoanal US และรักษาแบบเก็บหูรูด (seton, LIFT, advancement flap) · ทุกช้อยจึงเป็น complex · ไฟล์ขีด e และแปะสไลด์ <b>\"Complex Fistula in Ano\"</b> ที่มี High transphincteric type, Multiple openings และ Specific etiology eg. TB, Crohn's",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะการแบ่ง simple/complex ใช้หลายแกนพร้อมกัน ความสูงของทางผ่านหูรูดเป็นเพียงแกนหนึ่ง",
-   "B": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะจำนวนทางเป็นแกนกายวิภาคแกนหนึ่ง ทางเดียวที่ผ่านหูรูดสูงหรือมีโรคร่วมก็จัดเป็น complex ได้",
-   "C": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะแขนงอ้อม (horseshoe) เป็นแบบหนึ่งของทางซับซ้อน ขณะที่ทางตรงแต่ผ่านหูรูดสูงก็จัดเป็น complex",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ช้อยนี้เป็นคำตอบเดียว เพราะโรคร่วมเป็นแกนของผู้ป่วย แยกจากแกนกายวิภาคซึ่งทำให้ fistula เป็น complex ได้เอง"
+   "A": "ข้อความถูก: high transsphincteric กิน external sphincter เกิน 30% ถ้าผ่าเปิดตรงจะตัดหูรูดมากจนกลั้นไม่อยู่ จึงเป็น complex ต้องใช้ seton/LIFT/advancement flap · จะถูกถ้าต้องเลือกลักษณะเดียวที่ถูก เช่น ชาย 40 ปี MRI พบทางฝีผ่าน external sphincter ส่วนบนเกินครึ่งความหนา ไม่มีโรคร่วม",
+   "B": "ข้อความถูก: รูเปิดภายนอกหลายรูมักหมายถึงทางแยกหลายทางหรือ horseshoe ผ่าเปิดหมดในครั้งเดียวต้องตัดเนื้อและหูรูดมาก และกลับเป็นซ้ำบ่อย จึงเป็น complex · จะถูกถ้าต้องเลือกลักษณะเดียวที่ถูก เช่น ชาย 50 ปีเคยผ่าฝีคัณฑสูตร 2 ครั้ง ตอนนี้มีรูหนองไหล 3 รูรอบทวาร",
+   "C": "ข้อความถูก: hemihorseshoe คือทางฝีจาก deep postanal space ลามรอบทวารไป ischioanal fossa ข้างเดียว (horseshoe = สองข้าง) มักผ่าน external sphincter สูงและมีหลายทาง จึงเป็น complex ต้องระบาย deep postanal space (Hanley procedure) ร่วมกับ seton · จะถูกถ้าต้องเลือกลักษณะเดียวที่ถูก เช่น ชาย 35 ปีปวดก้นลึก รูเปิดด้านหลังซ้าย MRI พบทางฝีโค้งรอบทวารจาก posterior midline",
+   "D": "ข้อความถูก: fistula ใน Crohn disease แผลหายยาก กลับเป็นซ้ำสูง และลำไส้ไส้ตรงอักเสบทำให้ผ่าเปิดเสี่ยงแผลไม่หายและกลั้นไม่อยู่ จึงเป็น complex — รักษาด้วย draining seton ร่วมกับ anti-TNF (infliximab) · จะถูกถ้าต้องเลือกลักษณะเดียวที่ถูก เช่น หญิง 25 ปีเป็น Crohn ileocolitis มีฝีคัณฑสูตรหลายทางรอบทวาร"
   },
-  "trap": "\"complex\" ไม่ได้ดูแค่ความสูงของทาง — fistula ที่อยู่ต่ำแต่อยู่ด้านหน้าในผู้หญิง เป็นซ้ำ หรือมีปัญหากลั้นอยู่เดิม ก็จัดเป็น complex",
+  "trap": "คนที่จำแค่ Parks classification อาจคิดว่า complex หมายถึงกายวิภาคเท่านั้น (high transsphincteric) แล้วลังเลกับ Crohn หรือ multiple opening · นิยาม complex รวมทั้ง<b>กายวิภาค</b>และ<b>ปัจจัยผู้ป่วย</b> (Crohn รังสี มะเร็ง กลั้นไม่อยู่เดิม ผู้หญิงด้านหน้า) จึงเลือก all of the above",
   "summary": [
-   "<b>นอกสไลด์:</b> ASCRS: complex = ผ่านหูรูดภายนอกมากกว่าราว 30% · อยู่ด้านหน้าในผู้หญิง · เป็นซ้ำ · กลั้นไม่ดีอยู่เดิม · เคยฉายรังสี · Crohn · หลายทาง/horseshoe",
-   "<b>นอกสไลด์:</b> simple → fistulotomy · complex → วิธีเก็บหูรูด (seton, LIFT, advancement flap)"
+   "Parks classification: intersphincteric (พบบ่อยสุด ราวครึ่งหนึ่งขึ้นไป) · transsphincteric (ราวหนึ่งในสี่) · suprasphincteric · extrasphincteric (พบน้อย มักมาจากโรคในอุ้งเชิงกรานหรือ iatrogenic)",
+   "Simple: intersphincteric หรือ low transsphincteric &lt; 30% ของ external sphincter ไม่มีปัจจัยเสี่ยง → fistulotomy หายสูง เสี่ยงกลั้นไม่อยู่น้อย",
+   "Complex: &gt; 30% ของ external sphincter · supra/extrasphincteric · horseshoe · anterior ในผู้หญิง · หลายทางหรือกลับเป็นซ้ำ · Crohn · ฉายรังสี · มะเร็ง · กลั้นไม่อยู่เดิม · ท้องเสียเรื้อรัง",
+   "Goodsall's rule: รูเปิดภายนอกหลังเส้นขวางทวาร → ทางโค้งเข้า posterior midline · หน้าเส้น → ทางตรงตามแนวรัศมี (ยกเว้นรูด้านหน้าที่ห่าง anal verge &gt; 3 cm มักโค้งไปด้านหลัง)",
+   "ภาพ: MRI pelvis เป็นมาตรฐานสำหรับ complex/recurrent/Crohn · endoanal US เป็นทางเลือก · ระหว่างผ่าตัดหา internal opening ด้วย probe ฉีด hydrogen peroxide",
+   "รักษา complex: loose (draining) seton ระบายก่อน → LIFT (ligation of intersphincteric fistula tract) หรือ endorectal advancement flap · fibrin glue/plug ผลระยะยาวต่ำกว่า",
+   "Crohn perianal fistula: ระบายฝี + loose seton + anti-TNF (infliximab) · เลี่ยง fistulotomy ยกเว้น low simple และไส้ตรงไม่อักเสบ"
   ],
-  "opinion": "เห็นด้วยกับคีย์ E · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ E ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด e และสไลด์ Complex Fistula in Ano ในไฟล์ (High transphincteric, Supra/Extrasphincteric, Anterior transphincteric in women, Multiple openings, Impaired sphincter function, Radiation injury, TB/Crohn's) · hemihorseshoe ไม่อยู่บนสไลด์แต่จัดเป็น complex ตามแนวทาง ASCRS",
+  "mnemonic": "<b>'Complex fistula = High · Horseshoe · Hole หลายรู · Her (ด้านหน้าผู้หญิง) · Hx (Crohn/รังสี/มะเร็ง/หูรูดแย่)'</b>",
+  "guide": "Gaertner WB et al. The American Society of Colon and Rectal Surgeons Clinical Practice Guidelines for the Management of Anorectal Abscess, Fistula-in-Ano, and Rectovaginal Fistula (Dis Colon Rectum 2022;65:964–985) · The ASCRS Textbook of Colon and Rectal Surgery 4th ed. (2022)",
   "variants": [
-   "<b>นอกสไลด์:</b> Crohn มี perianal fistula หลายทางร่วมกับฝี → ระบายฝี ใส่ loose seton แล้วให้ anti-TNF (infliximab)",
-   "<b>นอกสไลด์:</b> รูเปิดภายนอกอยู่หลังเส้นขวางผ่านกลางทวารหนัก → ทางมักโค้งไปเปิดภายในที่แนวกลางด้านหลัง (Goodsall rule)"
+   "ชาย 30 ปี รูเปิดภายนอกด้านหน้าที่ 2 นาฬิกา ห่างขอบทวาร 1.5 cm MRI พบ intersphincteric fistula → fistulotomy",
+   "หญิง 35 ปี fistula ด้านหน้าผ่าน external sphincter 20% เคยคลอดบุตรทางช่องคลอดฉีกขาด → complex แม้ดู low → LIFT หรือ advancement flap",
+   "ชาย 45 ปีปวดก้นลึกรุนแรง ตรวจภายนอกไม่พบก้อน คลำทางทวารเจ็บด้านหลัง → deep postanal space abscess (ต้นทาง horseshoe) → ระบายผ่าน Hanley approach",
+   "ทำไมใส่ loose seton ก่อนใน complex fistula → ให้หนองระบายต่อเนื่อง ลดการอักเสบ และทำให้ทางฝีเป็นท่อที่ชัดก่อนทำหัตถการเก็บหูรูดขั้นต่อไป"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 (คอลัมน์ซ้าย) — ตัวพิมพ์: <b>21. Complex fistula in ano — a. high transphincteric b. multiple opening c. hemihorseshoe d. มี Crohn's disease e. all of above</b><br>ลายมือ: ขีด e<br>ไฮไลต์: \"Complex fistula in ano\" · \"high transphincteric\" · \"multiple opening\" · \"hemihorseshoe\" · \"Crohn's disease\" (เหลือง)<br>รูปที่แปะ: สไลด์พื้นดำ \"Complex Fistula in Ano\" (โลโก้ Colorectal Surgery) — กรอบ: High transphincteric type · Suprasphincteric type · Extrasphincteric type · Anterior transphincteric type in women · Multiple openings (วงเล็บลายมือ \"Sx ยาก, recurrence↑, เสี่ยง incontinence\") · นอกกรอบ: Impaired sphincter function (ลายมือ \"→ จะแย่ลง s/p Sx\") · Radiation injury · Specific etiology eg. TB, Crohn's (ลายมือ \"tissue healing ไม่ดี\") · ลายมือหัวสไลด์ \"simple fistula in ano = intersphincteric fistula, low transphincteric fistula · อย่างอื่นที่เหลือ → complex fistula in ano\"<br>ที่ปรับในเว็บ: แปลเป็นภาษาอังกฤษ · สะกด \"High transsphincteric\" · \"Multiple openings\" · \"With Crohn disease\" · \"All of the above\" · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_21"
   ]
  },
  "MDCU66|RoD|22": {
-  "interp": "ภาพเด็ก Crouzon syndrome (craniosynostosis + ใบหน้าส่วนกลางเล็ก + ตาโปน) · ถามสิ่งที่ต้องประเมิน \"ด่วน\"",
-  "why": "<b>ลายมือ: Mx taping, tarsorrhaphy · b not sure</b><br><b>นอกสไลด์:</b> เบ้าตาตื้นจากใบหน้าส่วนกลางเล็ก → ตาโปนมาก ปิดตาไม่สนิท → กระจกตาแห้ง เป็นแผล ติดเชื้อ ตาบอดถาวรได้ในเวลาสั้น จึงต้องป้องกันทันที (น้ำตาเทียม ปิดเทปเปลือกตา เย็บเปลือกตา)",
+  "interp": "ให้รูปเด็ก <b>Crouzon syndrome</b> (craniosynostosis + midface hypoplasia + ตาโปน) แล้วถามสิ่งที่ต้อง<b>ประเมินด่วน</b> — ต้องรู้ว่าเบ้าตาตื้นทำให้ลูกตาโปนจนหนังตาปิดไม่สนิท กระจกตาแห้งและเป็นแผลจนตาบอดได้ ซึ่งต้องจัดการทันทีร่วมกับเรื่อง ICP และทางเดินหายใจ",
+  "why": "Crouzon syndrome เป็น <b>FGFR2-related syndromic craniosynostosis</b> (autosomal dominant) มักปิดเร็วที่ coronal suture ทั้งสองข้าง (brachycephaly) ร่วมกับ <b>midface hypoplasia</b> และ<b>เบ้าตาตื้น</b> → <b>exorbitism</b> ตาห่าง จมูกงุ้ม class III malocclusion มือเท้าปกติ (ต่างจาก Apert ที่นิ้วติด และ Pfeiffer ที่นิ้วโป้งมือเท้ากว้าง) · ลูกตาโปนจนหนังตาปิดไม่มิด → <b>exposure keratitis</b>, corneal ulcer และ<b>ลูกตาหลุดออกนอกหนังตา (globe luxation)</b> เมื่อร้องไห้หรือเบ่ง → ตาบอดได้ในเวลาสั้น จึงต้องประเมินตาด่วนและป้องกันด้วย lubricant, <b>taping</b>, <b>tarsorrhaphy</b> จนกว่าจะผ่าตัดเลื่อนกระดูก (fronto-orbital/monobloc advancement) · ปัญหาเร่งด่วนอื่นที่ต้องเฝ้าดูคือ ICP สูง (papilledema) และ OSA จาก midface แคบ · ไฟล์ขีด c ลายมือ <b>\"Mx: taping, เย็บตา\"</b> และเขียน <b>\"not sure\"</b> หน้าข้อ (✓ ที่ b และ d ด้วย)",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเด็กที่เคยพูดได้ปกติ พูดไม่ได้ทันทีร่วมแขนขาอ่อนแรงซีกหนึ่ง — การพูดที่เสียเฉียบพลันคืออาการของ stroke ต้องประเมินด่วน",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก craniosynostosis หลายรอย (เช่น Apert) ที่ปวดศีรษะ อาเจียน หรือตรวจพบ papilledema",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารก Pierre Robin sequence (คางเล็ก ลิ้นตก) ที่หายใจลำบากและออกซิเจนตกขณะนอนหงาย",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็กที่เพิ่งหายจาก bacterial meningitis — ต้องตรวจการได้ยินโดยเร็ว เพราะหูชั้นในอาจกลายเป็นกระดูกจนฝังประสาทหูเทียมไม่ได้"
+   "A": "การพูดอาจได้รับผลจาก malocclusion เพดานสูงแคบ หรือการได้ยินลดลง แต่เป็นการประเมินตามพัฒนาการ ไม่ใช่เรื่องด่วน · จะถูกถ้าเป็นเด็ก 4 ปีหลังผ่าตัดเพดานโหว่ พูดเสียงขึ้นจมูก (hypernasality) มีลมรั่วออกจมูกขณะพูด → ประเมิน velopharyngeal insufficiency โดยนักแก้ไขการพูด",
+   "B": "ICP สูงพบได้บ่อยใน Crouzon (หลาย suture ปิด ร่วม hydrocephalus/Chiari) และเป็นปัญหาสำคัญที่ต้องตรวจ fundus และติดตามเป็นระยะ (ลายมือ ✓) แต่มักค่อยเป็นค่อยไป · จะถูกถ้าเป็นเด็ก Crouzon 2 ปีปวดศีรษะ อาเจียนตอนเช้า ซึมลง ตรวจพบ papilledema หนังตายังปิดได้ → ประเมิน ICP ด่วนและผ่าตัดขยายกะโหลก (posterior vault distraction)",
+   "D": "Upper airway obstruction/OSA จาก midface hypoplasia และ choanal ตีบพบได้ (ลายมือ \"ปัญหา ① upper airway obs.\") และอาจด่วนในทารกที่หายใจลำบาก · จะถูกถ้าเป็นทารก Crouzon หรือ Apert ที่หายใจอกบุ๋ม กรนดัง หยุดหายใจขณะหลับ SpO2 ตกเป็นพัก ๆ → ประเมินทางเดินหายใจด่วน (polysomnography, nasopharyngeal airway, tracheostomy หรือ midface advancement)",
+   "E": "Conductive hearing loss พบบ่อยใน Crouzon (ช่องหูตีบ ความผิดปกติของ ossicle) ต้องตรวจการได้ยินเป็น routine แต่ไม่ใช่เรื่องด่วนที่คุกคามอวัยวะทันที · จะถูกถ้าเป็นเด็ก Treacher Collins แรกเกิดใบหูเล็กผิดรูป ช่องหูตีบตัน → ตรวจ ABR และวางแผนเครื่องช่วยฟังชนิด bone conduction"
   },
-  "trap": "อาจเลือกความดันในกะโหลกเพราะ Crouzon คือ craniosynostosis — แต่ความดันมักสูงแบบค่อยเป็นค่อยไป (เว้นแต่มี papilledema หรืออาการ) ส่วนกระจกตาที่ปิดไม่สนิทเสียหายถาวรในไม่กี่วัน",
+  "trap": "ทั้ง ICP และ airway ก็เป็นปัญหาจริงของ Crouzon (ผู้จดเองเขียน \"not sure\" และติ๊กไว้ด้วย) · จุดตัดสินคือรูปที่ให้มาเห็น <b>ตาโปนมาก</b>ชัดที่สุด และกระจกตาที่สัมผัสอากาศเสียหายได้ในเวลาเป็นชั่วโมงถึงวัน · ICP สูงและ OSA มักค่อยเป็นค่อยไปและวินิจฉัยด้วยการติดตาม (fundus, polysomnography)",
   "summary": [
-   "<b>นอกสไลด์:</b> Crouzon (FGFR2, autosomal dominant): กะโหลกปิดก่อนกำหนดหลายรอย + ใบหน้าส่วนกลางเล็ก + ตาโปน · มือเท้าปกติ (ต่างจาก Apert ที่นิ้วติดกัน)",
-   "<b>นอกสไลด์:</b> ผ่าตัดขยายกะโหลกส่วนหลังราว 3–6 เดือน และเลื่อนหน้าผาก–เบ้าตาราว 9–12 เดือน · ตาโปนมากหรือทางหายใจอุดกั้นรุนแรงพิจารณาเลื่อนใบหน้าส่วนกลาง"
+   "Syndromic craniosynostosis กลุ่ม FGFR (autosomal dominant): Crouzon · Apert · Pfeiffer · Muenke · ส่วน Saethre–Chotzen เกิดจาก TWIST1",
+   "Crouzon: coronal synostosis สองข้าง + midface hypoplasia + exorbitism + hypertelorism + จมูกงุ้ม + class III malocclusion · มือเท้าปกติ · สติปัญญามักปกติ",
+   "Apert: turribrachycephaly + complex syndactyly มือเท้า (mitten hand) + สติปัญญาบกพร่องได้ · Pfeiffer: นิ้วโป้งมือและเท้ากว้างเบี่ยง ± cloverleaf skull",
+   "ตา: เบ้าตาตื้น → exposure keratopathy, corneal ulcer, globe luxation → lubricant, taping, tarsorrhaphy · ตรวจ fundus หา papilledema/optic atrophy",
+   "ICP สูง: พบบ่อยใน syndromic และหลาย suture · อาการปวดศีรษะ อาเจียน papilledema copper-beaten skull · รักษาด้วย cranial vault expansion",
+   "ทางเดินหายใจ: midface hypoplasia/choanal stenosis → OSA · รุนแรงอาจต้อง tracheostomy หรือ midface (Le Fort III/monobloc) distraction",
+   "ผ่าตัดเป็นขั้น: cranial vault/fronto-orbital advancement ในขวบปีแรก → midface advancement วัยเด็ก → orthognathic surgery เมื่อกระดูกโตเต็มที่ · Chiari I พบบ่อยใน Crouzon"
   ],
-  "opinion": "ตามคีย์ C · มั่นใจปานกลาง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด c พร้อมแผนรักษา \"taping, เย็บตา\" และตารางในไฟล์ที่จัดปัญหาตา (exposed cornea) เป็นข้อแรก · แต่ผู้จดเขียน \"not sure\" และติ๊ก ICP กับ airway ไว้ด้วย เพราะสองข้อนี้ก็อาจด่วนได้ในบางราย (โดยเฉพาะทารกที่หายใจลำบาก) ข้อสอบนี้จึงขึ้นกับรูปที่ให้ซึ่งน่าจะเห็นตาโปนเด่น",
+  "mnemonic": "<b>'Crouzon = ตาโปน (Cornea ก่อน) · มือปกติ · Apert = นิ้วติด · Pfeiffer = นิ้วโป้งกว้าง'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Syndromic craniosynostosis · Mathijssen IMJ et al. Updated Guideline on Treatment and Management of Craniosynostosis (J Craniofac Surg 2021;32:371–450)",
   "variants": [
-   "<b>นอกสไลด์:</b> เด็ก Crouzon ร้องไห้แรงแล้วลูกตาเคลื่อนหลุดออกมาหน้าเปลือกตา (globe subluxation) → ดันลูกตากลับ ปิดตาชุ่มน้ำเกลือ ปรึกษาจักษุแพทย์ด่วน",
-   "<b>นอกสไลด์:</b> เด็ก Crouzon นอนกรน หยุดหายใจขณะหลับ → sleep study · รุนแรงพิจารณาเลื่อนใบหน้าส่วนกลางหรือเจาะคอ"
+   "ทารก Crouzon ร้องไห้แล้วลูกตาหลุดออกมานอกหนังตา → ดันลูกตากลับทันที ปิดตา และพิจารณา tarsorrhaphy",
+   "เด็ก 1 ปี นิ้วมือนิ้วเท้าติดกันทั้งหมด กะโหลกสูงแบน ตาโปน → Apert syndrome",
+   "ทารกกะโหลกรูปใบโคลเวอร์ นิ้วโป้งมือเท้ากว้างเบี่ยง ตาโปนรุนแรง → Pfeiffer syndrome type 2 → ประเมินทางเดินหายใจและ ICP ด่วน",
+   "ทำไม Crouzon มี class III malocclusion → maxilla เจริญน้อย (midface hypoplasia) ขณะที่ mandible โตปกติ ฟันล่างจึงยื่นเลยฟันบน"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 (คอลัมน์ซ้าย) — ตัวพิมพ์: <b>22. รูป Crouzon ถาม \"urgent\" evaluation — a. speech b. ICP c. exposural keratitis d. airway obstruction</b><br>ลายมือ: เขียน \"not sure\" หน้าเลขข้อ · ขีด c · เขียน \"Mx: taping, เย็บตา\" ใต้ exposural keratitis · ✓ ที่ b ICP · ✓ ที่ c และ d · ใส่เครื่องหมายคำพูดคร่อม \"urgent\"<br>ไฮไลต์: \"Crouzon\" · \"urgent evaluation\" · \"exposural keratitis\" (เหลือง)<br>รูปที่แปะ: ภาพทารกตาโปนมาก 2 ภาพ (หน้าตรงและด้านข้าง) พร้อมลายมือ \"ปัญหา ① upper airway obs. esp. วัยอนุบาล ∵ ติดหวัด → tonsillar, adenoid hypertrophy → นอนกรน ② brain โตไม่ได้ ∵ suture ปิด → clover leaf skull ③ ร้องไห้ → ตาถลนออกมา!? ∴ เป็น corneal ulcer ได้ → ตาบอด\" · โน้ตตารางลายมือ \"② synostosis (skull ปิดเร็ว): กด. เชื่อมกันเร็วกว่าปกติ → brain โตผิดรูป, ICP↑ → ถ้า severe → สมองดันทะลุออกมาจาก skull · อาจ brain herniation ได้, ตาโปน\" · Symmetric (เชื่อมหลายเส้น): Crouzon, Apert, Pfeiffer, Saethre-Chotzen, Carpenter synd., Sagittal synostosis, Metopic synos (\"เส้น suture ที่ปิดก่อน 1 yr\") · FGFR2-related syndromic craniosynostosis · \"ปัญหา ① ตา → exposed cornea Mx: taping, เย็บตา ② ICP↑ → Mx: Sx ขยาย skull ③ OSA\" · Asym.: Unilat coronal synos, Unilat lambdoid synos · ตาราง Crouzon/Apert/Pfeiffer — Crouzon: 1. ตาโปน (exorbitism) w/ downslanting eye 2. base of skull เล็ก → Midface hypoplasia → mandible ดูยื่น → class 3 malocclusion · flat nasal bridge → แน่น airway 3. brain โตผิดรูป forehead: high prominent forehead · normal hand · สติปัญญาปกติ | Apert: syndactyly · Delay | Pfeiffer: big thumb &amp; great toe · Delay · ภาพ suture (metopic, coronal, sagittal, lambdoid) และรูปกะโหลกแบบต่าง ๆ (scaphocephaly, trigonocephaly, plagiocephaly, brachycephaly)<br>ที่ปรับในเว็บ: ไฟล์มีช้อยแค่ a–d เว็บเติม E. Hearing · สะกด \"Exposure keratitis\" · \"Intracranial pressure\" · แปลโจทย์เป็น \"A picture of Crouzon syndrome. What needs urgent evaluation?\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_22"
   ]
  },
  "MDCU66|RoD|23": {
-  "interp": "ภาพเด็ก Treacher Collins syndrome · ถามสิ่งที่ต้องประเมิน \"เป็นประจำ\" (ไม่ใช่เรื่องด่วน) — โจทย์เดียวกับ RoA 69",
-  "why": "<b>คีย์: ขีด a</b><br><b>นอกสไลด์:</b> หูชั้นนอกตีบ/ไม่มีรูหู และกระดูกหูผิดรูป → การได้ยินแบบ conductive บกพร่องราวครึ่งหนึ่งของผู้ป่วย ต้องตรวจการได้ยินตั้งแต่แรกเกิดและติดตามตลอด เพื่อไม่ให้พัฒนาการภาษาช้า",
+  "interp": "ให้รูปเด็ก <b>Treacher Collins syndrome</b> (หน้าเรียวยาว ตาเอียงลง โหนกแก้มแบน คางเล็ก หูผิดรูป) แล้วถามสิ่งที่ต้อง<b>ประเมินเป็น routine ทุกราย</b> — ต้องรู้ความผิดปกติของ 1st–2nd pharyngeal arch ที่พบบ่อยและส่งผลต่อพัฒนาการ คือการได้ยินแบบ conductive",
+  "why": "Treacher Collins syndrome (mandibulofacial dysostosis) เกิดจากยีน <b>TCOF1</b> เป็นส่วนใหญ่ (autosomal dominant · ส่วนน้อย POLR1C/POLR1D) ทำให้ <b>1st และ 2nd pharyngeal arch</b> เจริญผิดปกติ<b>ทั้งสองข้างสมมาตร</b>: zygoma และ maxilla เล็ก/ไม่มี → <b>palpebral fissure เอียงลง (antimongoloid slant)</b> · lower eyelid coloboma และไม่มีขนตาล่างด้านใน · <b>mandible เล็ก (micrognathia/retrognathia)</b> · <b>microtia ช่องหูตีบตัน และ ossicle ผิดรูป</b> → <b>conductive hearing loss</b> ราวครึ่งหนึ่งของผู้ป่วย มักสองข้าง · cleft palate ราวหนึ่งในสาม · สติปัญญาปกติ จึงต้อง<b>ตรวจการได้ยิน (ABR) ตั้งแต่แรกเกิดทุกราย</b> และใส่เครื่องช่วยฟังแบบ bone conduction เร็วเพื่อพัฒนาการพูด · เรื่องด่วนคือทางเดินหายใจอุดจากคางเล็ก · ไฟล์ขีด a และแปะสไลด์พร้อมลายมือ <b>\"② 50–60% hearing loss (มักเป็น 2 ข้าง) ∴ ต้อง consult ENT ประเมิน hearing\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก Möbius syndrome ที่ปิดตาไม่สนิทจากเส้นประสาทใบหน้าอ่อนแรงสองข้าง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นเด็ก syndromic craniosynostosis (Crouzon, Apert) ที่กะโหลกปิดก่อนกำหนดหลายรอย",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกที่พ่อหรือแม่มีหลุมที่ริมฝีปากล่าง (Van der Woude, ถ่ายทอดแบบ dominant) — ตรวจหาปากแหว่งเพดานโหว่ตั้งแต่ในครรภ์",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นทารกที่สงสัย trisomy 13 (ปากแหว่งเพดานโหว่ ตาเล็ก ความผิดปกติของสมอง) ซึ่งนิ้วเกินเป็นลักษณะที่ต้องตรวจ"
+   "B": "Exposure keratitis เด่นใน Crouzon/Apert ที่เบ้าตาตื้นจนลูกตาโปน ส่วน Treacher Collins มีหนังตาล่างแหว่ง (coloboma) และหนังตาล่างห้อย ซึ่งทำให้ตาแห้งระคายเคืองได้บางราย ควรตรวจตาแต่ไม่ใช่ประเด็น routine หลักแบบการได้ยิน · จะถูกถ้าเป็นทารก Crouzon ตาโปนมากจนหลับตาไม่สนิท กระจกตาขุ่นแดง",
+   "C": "Raised ICP เกิดจาก craniosynostosis (Crouzon, Apert, Pfeiffer) ซึ่ง Treacher Collins ไม่มี กะโหลกและสมองเจริญปกติ · จะถูกถ้าเป็นเด็ก 3 ปีกะโหลกรูปทรงสูงสั้นจาก bicoronal synostosis ปวดศีรษะ อาเจียน ตรวจพบ papilledema และ copper-beaten skull ในภาพรังสี",
+   "D": "Treacher Collins มี <b>cleft palate</b> ได้ราวหนึ่งในสาม แต่ cleft lip พบน้อยมาก (ลายมือในสไลด์เน้น Cleft palate) จึงไม่ใช่สิ่งที่ประเมินเป็น routine ในข้อนี้ · จะถูกถ้าเป็นทารกที่มีหลุมที่ริมฝีปากล่างสองข้าง (lip pits) ร่วมกับปากแหว่งเพดานโหว่ และพ่อมีลักษณะเดียวกัน → Van der Woude syndrome",
+   "E": "Treacher Collins มือเท้าปกติ (ความผิดปกติจำกัดที่ใบหน้าและหู) ส่วนความผิดปกติของรยางค์พบใน Nager syndrome (radial ray hypoplasia) หรือกลุ่ม trisomy · จะถูกถ้าเป็นทารกแรกเกิดที่มี postaxial polydactyly ร่วมกับปากแหว่งเพดานโหว่ ตาเล็ก และ holoprosencephaly → trisomy 13 (Patau)"
   },
-  "trap": "Treacher Collins ไม่มีกะโหลกปิดก่อนกำหนดและตาไม่โปน — อย่าสลับกับ Crouzon/Apert ที่ปัญหาคือกระจกตาและความดันในกะโหลก",
+  "trap": "ภาพหน้าเด็กชวนนึกถึงปัญหาตา (ตาเอียงลง หนังตาล่างแหว่ง) จนเลือก exposure keratitis หรือคิดว่าทุก craniofacial syndrome ต้องประเมิน ICP · ให้แยก <b>dysostosis</b> (กระดูกใบหน้าเจริญน้อย ไม่มีปัญหา suture: Treacher Collins → หู/การได้ยิน/ทางเดินหายใจ) ออกจาก <b>synostosis</b> (suture ปิดเร็ว: Crouzon/Apert → ICP/ตาโปน)",
   "summary": [
-   "<b>นอกสไลด์:</b> สิ่งที่ต้องดูแลประจำใน Treacher Collins นอกจากการได้ยิน: ทางหายใจ (คาง/ขากรรไกรล่างเล็ก — หยุดหายใจขณะหลับ ใส่ท่อช่วยหายใจยาก) · เพดานโหว่ (ราวหนึ่งในสาม) · ตา (รอยแหว่งเปลือกตาล่าง ขนตาหาย)"
+   "Treacher Collins: TCOF1 (autosomal dominant, ~60% เป็น de novo) · 1st–2nd pharyngeal arch ผิดปกติสองข้างสมมาตร · สติปัญญาปกติ",
+   "ใบหน้า: antimongoloid slant · lower eyelid coloboma + ขาดขนตาล่างด้านใน · zygoma/maxilla hypoplasia · micrognathia · microtia · ช่องหูตีบตัน · cleft palate ราว 1/3",
+   "Conductive hearing loss ราวครึ่งหนึ่ง (สองข้าง) จาก ossicle และช่องหูผิดรูป → ตรวจ ABR แรกเกิดทุกราย → bone-anchored/bone conduction hearing aid ตั้งแต่ทารก",
+   "ทางเดินหายใจ: micrognathia + glossoptosis → อุดตันตั้งแต่แรกเกิด/OSA · จัดท่านอนคว่ำ nasopharyngeal airway · รุนแรง → mandibular distraction osteogenesis หรือ tracheostomy",
+   "ผ่าตัดเป็นขั้น: เพดานโหว่ ~9–12 เดือน · zygoma/orbit reconstruction (กระดูกปลูก) หลังอายุ ~5–7 ปี · หูเทียม (microtia) ~6–10 ปี · orthognathic surgery เมื่อโตเต็มที่",
+   "แยกจาก hemifacial microsomia (oculo-auriculo-vertebral spectrum): ข้างเดียว ไม่สมมาตร ร่วม epibulbar dermoid และกระดูกสันหลังผิดปกติใน Goldenhar",
+   "Nager syndrome (acrofacial dysostosis): หน้าคล้าย Treacher Collins แต่มี radial ray/นิ้วโป้งผิดปกติ — ใช้แยกโรคเมื่อมีความผิดปกติของรยางค์"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจปานกลาง–สูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a (ไฟล์จดมาเพียงช้อยเดียว) และลายมือในสไลด์ \"50–60% hearing loss (มักเป็น 2 ข้าง) ∴ ต้อง consult ENT ประเมิน hearing\" · ช้อย B–E เว็บเติมเป็นตัวลวงที่ไม่ใช่ลักษณะของ Treacher Collins",
+  "mnemonic": "<b>'Treacher Collins = Tilt ตาลง · Teeny jaw · Tiny ears → Test hearing ทุกราย'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Craniofacial clefts and Treacher Collins syndrome · GeneReviews: Treacher Collins Syndrome (NCBI Bookshelf)",
   "variants": [
-   "<b>นอกสไลด์:</b> ทารก Treacher Collins หายใจลำบาก ออกซิเจนตกขณะนอนหงาย → นอนคว่ำ/ตะแคง ใส่ nasopharyngeal airway แล้วประเมินยืดขากรรไกรล่าง (distraction) หรือเจาะคอ",
-   "<b>นอกสไลด์:</b> พ่อเป็น Treacher Collins ถามโอกาสลูกเป็นโรค → ราว 50% (autosomal dominant) ส่วนผู้ป่วยที่พ่อแม่ปกติมักเป็น mutation ใหม่"
+   "ทารกแรกเกิดคางเล็กมาก ลิ้นตกไปด้านหลัง หายใจลำบาก มีเพดานโหว่รูปตัว U → Pierre Robin sequence → จัดท่านอนคว่ำ ± mandibular distraction",
+   "ทารก Treacher Collins คางเล็กมาก SpO2 ตกขณะหลับแม้จัดท่า → ประเมินทางเดินหายใจด่วน → mandibular distraction หรือ tracheostomy",
+   "เด็กใบหน้าไม่สมมาตร ใบหูข้างขวาเล็ก มีติ่งเนื้อหน้าหู ก้อนขาวที่ตาขาว กระดูกสันหลังผิดรูป → Goldenhar syndrome",
+   "ทำไม Treacher Collins ตาเอียงลง → zygoma ที่เป็นที่ยึด lateral canthus เจริญน้อยหรือไม่มี หางตาจึงตกลง"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 (คอลัมน์ซ้าย) — ตัวพิมพ์: <b>23. รูป Treacher collin ถาม routine evaluation — a. conductive hearing loss</b><br>ลายมือ: ขีด a<br>ไฮไลต์: \"รูป Treacher collin\" · \"routine evaluation\" · \"conductive hearing loss\" (เหลือง)<br>รูปที่แปะ: สไลด์ \"Treacher Collins Syndrome\" ภาพเด็กหญิงหน้าด้านข้าง (ลายมือที่ตา \"anti-Mongoloid slant\") · ลายมือหัวสไลด์ \"∂ pharyngeal arch 1&amp;2 ผิดปกติ\" · \"ไม่มีโหนกแก้ม → palpebral fissure เป็น anti-Mongoloid slant (Mongoloid ตาเฉียงขึ้น) ∵ zygoma เป็นที่เกาะ lat. canthus (หางตา)\" · \"emergency ① airway obs. จาก micrognathia (กรามล่างเล็ก) ② 50–60% hearing loss (มักเป็น 2 ข้าง) ∴ ต้อง consult ENT ประเมิน hearing\" · กล่องสรุป \"Treacher Collins Syndrome: A narrow forehead · Eyes that tilt downward (antimongoloid slant) · Pulled down lower eyelids · Absent eyelashes on the lower eyelids · Thin skin overlying absent cheekbones (orbital clefts with absent zygomas) · Absent ears (microtia), or malformed ears · Cleft palate · Small lower jaw\" · ตาราง Pharyngeal arch derivatives และ Pharyngeal pouch derivatives (ไฮไลต์หลายสี) · รูป Cleft lip and cleft palate<br>ที่ปรับในเว็บ: ไฟล์มีช้อยเดียว (a) เว็บเติม B. Exposure keratitis · C. Raised intracranial pressure · D. Cleft lip · E. Polydactyly · แปลโจทย์เป็น \"A picture of Treacher Collins syndrome. What needs routine evaluation?\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_23"
   ]
  },
  "MDCU66|RoD|24": {
-  "interp": "ผู้ป่วยมี diverticular disease ถ่ายเป็นเลือด (diverticular bleeding — ไม่ใช่ diverticulitis) · ถามการจัดการภายใน 24 ชม.",
-  "why": "<b>ลายมือ: ฉีด epinephrine</b><br><b>นอกสไลด์:</b> colonoscopy หลังเตรียมลำไส้หาตำแหน่งและหยุดเลือดได้ในครั้งเดียว (ฉีด epinephrine ร่วมกับ clip หรือรัดยาง) · เลือดจาก diverticulum ส่วนใหญ่หยุดเองแต่ออกซ้ำได้",
+  "interp": "ผู้ป่วย 40 ปีที่มี<b>โรคถุงผนังลำไส้ใหญ่ (diverticular disease)</b> มา<b>ถ่ายเป็นเลือด</b> ถามการจัดการภายใน 24 ชม. — คือ acute lower GI bleeding ที่ต้องกู้ชีพ หาตำแหน่งเลือดออก และห้ามเลือด โดยไฟล์เดิมจดว่า acute diverticulitis",
+  "why": "<b>Diverticular bleeding</b> เป็นสาเหตุที่พบบ่อยที่สุดของ lower GI bleeding ในผู้ใหญ่ เกิดจาก <b>vasa recta</b> ที่พาดผ่านคอ/โดมของถุงถูกยืดบางจนแตก → ถ่ายเลือดสดหรือเลือดแดงคล้ำปริมาณมาก<b>ไม่ปวดท้อง</b> · ราว 3 ใน 4 หยุดเอง แต่เลือดออกซ้ำได้ · ขั้นตอน: <b>กู้ชีพ</b> (IV fluid, ให้เลือดเมื่อ Hb &lt; 7–8 g/dL) แก้ coagulopathy ทบทวนยาต้านเกล็ดเลือด/anticoagulant → ถ้า hemodynamic ไม่คงที่หรือเลือดออกต่อเนื่อง ทำ <b>CT angiography</b> แล้ว embolization · ส่วนใหญ่ทำ <b>colonoscopy หลังเตรียมลำไส้ (PEG 4–6 L)</b> ซึ่งหาตำแหน่งและ<b>ห้ามเลือดได้ในครั้งเดียว</b> (clip, band ligation, ฉีด epinephrine ร่วมกับวิธีอื่น) · ผ่าตัดเมื่อห้ามเลือดทางกล้อง/รังสีร่วมรักษาไม่สำเร็จ · หมายเหตุ: ACG 2023 ไม่พบว่าการส่องภายใน 24 ชม.ลดเลือดออกซ้ำหรือการตาย แต่ข้อสอบไทยยังใช้ \"urgent colonoscopy\" เป็นคำตอบ · ส่วน <b>acute diverticulitis</b> จริง ๆ เลือดออกน้อยมากและห้ามส่องกล้องช่วงอักเสบ · ไฟล์ขีด a ลายมือ <b>\"→ ฉีด epinephrine\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็น acute diverticulitis (ปวดท้องซ้ายล่าง ไข้ CT เห็นการอักเสบ) ที่มีภาวะแทรกซ้อนหรือภูมิคุ้มกันต่ำ",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดยังออกต่อเนื่องจนช็อกแม้ให้เลือดมาก และส่องกล้อง/embolization หยุดไม่ได้ — รู้ตำแหน่งตัดลำไส้เฉพาะส่วน",
-   "D": "<b>นอกสไลด์:</b> ไม่มีสถานการณ์ใดที่ barium enema ใช้ในเลือดออกเฉียบพลัน เพราะไม่บอกจุดที่กำลังออก และ barium ที่ค้างบดบังทั้งการส่องกล้องและ CTA/angiography",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าเลือดออกเล็กน้อยหยุดเอง สัญญาณชีพปกติ ไม่ซีด (ความเสี่ยงต่ำตาม Oakland score) — ไม่ต้องทำหัตถการภายใน 24 ชม. ให้กลับบ้านได้"
+   "B": "Broad-spectrum antibiotics ใช้รักษา diverticulitis ที่มีการติดเชื้อ (ไข้ ปวดท้องซ้ายล่าง กดเจ็บ WBC สูง) ไม่ใช่ diverticular bleeding ซึ่งเป็นการแตกของหลอดเลือดโดยไม่มีการอักเสบ ยาไม่ช่วยหยุดเลือด · จะถูกถ้าเป็นชาย 60 ปีปวดท้องซ้ายล่าง 3 วัน ไข้ 38.8 °C CT พบ sigmoid diverticulitis มี pericolic abscess 2 cm ไม่ถ่ายเป็นเลือด",
+   "C": "Emergency colectomy สงวนไว้สำหรับเลือดออกต่อเนื่องจน hemodynamic ไม่คงที่หลังห้ามเลือดทางกล้องและ embolization ล้มเหลว (หรือให้เลือดจำนวนมาก) ถ้ารู้ตำแหน่งทำ segmental resection ถ้าไม่รู้ต้อง subtotal colectomy ซึ่งภาวะแทรกซ้อนสูง · จะถูกถ้าเป็นชาย 75 ปีถ่ายเลือดต่อเนื่อง ให้เลือดไป 8 ยูนิต ส่องกล้องและ embolization ไม่สำเร็จ ความดันยังต่ำ",
+   "D": "Barium enema ไม่มีบทบาทใน GI bleeding — ไม่ห้ามเลือด และ barium ค้างในลำไส้บดบังการส่องกล้องและ angiography ที่ต้องทำต่อ · จะถูกถ้าเป็นผู้ป่วยที่หายจาก diverticulitis แล้วหลายสัปดาห์ ไม่มีเลือดออก ส่องกล้องไม่ผ่าน sigmoid ที่ตีบ และสถานพยาบาลไม่มี CT colonography จึงใช้ contrast enema ดูส่วนที่เหลือของลำไส้",
+   "E": "Observation อย่างเดียวเหมาะกับเลือดออกน้อยที่หยุดเองในผู้ป่วยความเสี่ยงต่ำ แต่เลือดออกที่ต้องรักษาในโรงพยาบาลต้องหาตำแหน่งและห้ามเลือด · จะถูกถ้าเป็นหญิง 35 ปีถ่ายเลือดสดหยดหลังอุจจาระครั้งเดียว ชีพจรและความดันปกติ Hb ปกติ Oakland score ≤ 8 → ให้กลับบ้านและนัดส่องกล้องแบบ elective"
   },
-  "trap": "diverticular bleeding ไม่ปวดและไม่มีไข้ — ปวดท้องและไข้คือ diverticulitis ซึ่งห้ามส่องกล้องช่วงอักเสบ",
+  "trap": "ไฟล์จดว่า <b>acute diverticulitis</b> มีถ่ายเป็นเลือด ทำให้คิดถึงยาฆ่าเชื้อ และกลัวส่องกล้องในลำไส้อักเสบ · ให้แยก <b>diverticulitis</b> (ติดเชื้อ ปวด ไข้ → antibiotic/CT ห้ามส่องช่วงอักเสบ) ออกจาก <b>diverticular bleeding</b> (ไม่ปวด เลือดออกมาก → colonoscopy ห้ามเลือด หรือ CTA)",
   "summary": [
-   "<b>นอกสไลด์:</b> หยุดเลือดจาก diverticulum ผ่านกล้อง: เห็นเลือดออก/visible vessel/ลิ่มเลือดติด → epinephrine (ไม่ใช้เดี่ยว) ร่วมกับ clip หรือ band ligation · เตรียมลำไส้ด้วย PEG ก่อนส่อง",
-   "<b>นอกสไลด์:</b> ACG 2023: สัญญาณชีพคงที่ไม่ต้องรีบส่องภายใน 24 ชม. เพราะไม่ลดการเสียชีวิตหรือเลือดออกซ้ำ"
+   "Diverticular bleeding: สาเหตุอันดับต้นของ lower GI bleeding ในผู้ใหญ่ · จาก vasa recta แตก · ไม่ปวดท้อง · หยุดเองราว 3 ใน 4 · ถุงอยู่ซีกซ้ายมากแต่เลือดออกจากซีกขวาได้บ่อย",
+   "กู้ชีพก่อน: IV fluid · ให้เลือดเมื่อ Hb &lt; 7 g/dL (&lt; 8 ถ้ามีโรคหัวใจ) · แก้ coagulopathy · ใส่ NG/ส่อง EGD ถ้าสงสัย upper GI bleeding (ถ่ายเลือดมาก + hemodynamic ไม่คงที่ + BUN สูง)",
+   "Hemodynamic ไม่คงที่หรือเลือดออกต่อเนื่อง → CT angiography (เห็นเลือดออก ≥ ~0.3–0.5 mL/นาที) → transcatheter embolization",
+   "Colonoscopy หลังเตรียมลำไส้ (PEG 4–6 L): หาตำแหน่ง + ห้ามเลือด · diverticular bleeding ใช้ clip หรือ band ligation · epinephrine injection ใช้ร่วมกับวิธีอื่น ไม่ใช้เดี่ยว",
+   "ACG 2023: ส่องกล้องภายใน 24 ชม.ไม่ลดเลือดออกซ้ำหรือการตายเมื่อเทียบกับส่องในโรงพยาบาลแบบไม่เร่งด่วน · ใช้ Oakland score ≤ 8 คัดผู้ที่กลับบ้านได้",
+   "ผ่าตัด: ห้ามเลือดทางกล้อง/embolization ล้มเหลว หรือเลือดออกซ้ำหลายครั้ง · รู้ตำแหน่ง → segmental resection · ไม่รู้ → subtotal colectomy",
+   "Acute diverticulitis: ไข้ ปวดท้องซ้ายล่าง → CT · uncomplicated อาจไม่ต้องใช้ยาฆ่าเชื้อในผู้แข็งแรง · ฝี &gt; 3–4 cm → percutaneous drainage · ส่องกล้องหลังหาย 6–8 สัปดาห์เพื่อแยกมะเร็ง"
   ],
-  "opinion": "ตามคีย์ A · มั่นใจปานกลาง (เรื่องเวลา ดู summary)",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจปานกลาง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a พร้อมลายมือ \"→ ฉีด epinephrine\" และข้อความตำราที่แปะไว้ (ส่องกล้องพบจุดเลือดออกรักษาด้วยการฉีด epinephrine 1:10,000–1:20,000) · ข้อสังเกต: แนวทาง ACG 2023 ไม่ได้บังคับว่าต้องส่องภายใน 24 ชม. และถ้าเป็น acute diverticulitis จริงไม่ควรส่องกล้องช่วงอักเสบ เว็บจึงปรับโจทย์เป็น diverticular disease ให้ตรงกับ diverticular bleeding",
+  "mnemonic": "<b>'DiverticulOSIS = Bleed (ไม่ปวด → Colonoscopy/CTA) · DiverticulITIS = Infect (ปวด ไข้ → CT/ATB ห้ามส่อง)'</b>",
+  "guide": "Sengupta N et al. ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding (Am J Gastroenterol 2023;118:208–231) · Hawkins AT et al. ASCRS Clinical Practice Guidelines for the Management of Left-sided Colonic Diverticulitis (Dis Colon Rectum 2020;63:728–747)",
   "variants": [
-   "<b>นอกสไลด์:</b> หยุดเลือด diverticulum ได้แล้ว ผู้ป่วยกิน aspirin ป้องกันโรคหัวใจซ้ำ → ให้ aspirin ต่อ แต่หยุด NSAIDs",
-   "<b>นอกสไลด์:</b> diverticular bleeding ซ้ำหลายครั้งจากตำแหน่งเดิมที่รู้แน่นอน → ผ่าตัดลำไส้ส่วนนั้นแบบนัด"
+   "ชาย 70 ปีกินแอสไพริน ถ่ายเลือดแดงคล้ำปริมาณมาก ไม่ปวดท้อง ความดัน 80/50 หลังให้สารน้ำยังไม่ขึ้น → CT angiography → embolization",
+   "ชาย 68 ปีถ่ายเลือดสดมาก ความดันคงที่หลังให้สารน้ำ → เตรียมลำไส้ด้วย PEG แล้ว colonoscopy พบเลือดซึมจากถุงที่ ascending colon → ใส่ clip",
+   "หญิง 55 ปีปวดท้องซ้ายล่าง ไข้ CT พบ sigmoid diverticulitis มีฝี 5 cm → antibiotic + CT-guided percutaneous drainage",
+   "ทำไมห้ามส่องกล้องใน acute diverticulitis → ลำไส้อักเสบบางและอาจมีรูทะลุเล็ก การเป่าลมและดันกล้องเพิ่มความเสี่ยงทะลุ จึงรอ 6–8 สัปดาห์"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 (คอลัมน์ขวา) — ตัวพิมพ์: <b>24. ผู้ป่วยอายุ 40ปี acute diverticulitis มี ถ่ายเป็นเลือด ถาม management ใน 24ชม — a. emergency colonoscope b. broad spectrum antibiotics</b><br>ลายมือ: ขีด a · เขียน \"→ ฉีด epinephrine\" ต่อท้าย emergency colonoscope<br>ไฮไลต์: \"40ปี acute diverticulitis\" · \"ถ่ายเป็นเลือด\" · \"management ใน 24ชม\" · \"emergency colonoscope\" (เหลือง)<br>รูปที่แปะ: ภาพตำราภาษาไทย \"ภาวะเลือดออกจาก diverticulum — เนื่องจากตำแหน่งที่เกิด diverticulae คือบริเวณที่เส้นเลือดทะลุเข้าผนังลำไส้จึงเกิดการเลือดออกได้ ผู้ป่วยจะมาด้วยอาการของการเสียเลือดจากทางเดินอาหารส่วนล่าง การรักษาเบื้องต้นคือการให้สารน้ำให้เพียงพอและตรวจหาภาวะที่ทำให้เกิดเลือดออกง่าย เช่น การได้รับยาแอสไพริน หรือยาต้านการแข็งตัวของเลือดซึ่งมักพบร่วมด้วยเสมอในผู้สูงอายุ แนวทางการรักษาผู้ป่วยที่มีภาวะเลือดออกในทางเดินอาหารส่วนล่างสามารถดูได้กล่าวแยกไว้แล้ว ในกรณีที่ทำการส่องกล้องตรวจลำไส้ใหญ่และพบตำแหน่งที่มีเลือดกำลังออกอย่างชัดเจน สามารถรักษาผ่านการส่องกล้องได้โดยการฉีด epinephrine (1:10,000 หรือ 1:20,000 ใน normal saline) ปริมาณ 0.5–1.0 ml รอบ ๆ จุดเลือดออก และ…\" (ไฮไลต์แดงที่ \"การรักษาเบื้องต้นคือการให้สารน้ำให้เพียงพอและตรวจหาภาวะที่ทำให้เกิดเลือดออกง่าย\" · \"ในกรณีที่ทำการส่องกล้อง…\" · \"ฉีด epinephrine\")<br>ที่ปรับในเว็บ: ไฟล์มีช้อยแค่ a–b เว็บเติม C. Emergency colectomy · D. Barium enema · E. Observation only · โจทย์เปลี่ยน \"acute diverticulitis\" เป็น \"diverticular disease\" · ช้อย a เป็น \"Urgent colonoscopy\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_24"
   ]
  },
  "MDCU66|RoD|25": {
-  "interp": "แผลฉีกขาดกลางแก้ม (ภาพตามที่บันทึกไว้) · ถามโครงสร้างที่เสี่ยงบาดเจ็บ",
-  "why": "<b>ลายมือ: parotid duct, buccal br.</b><br><b>นอกสไลด์:</b> Stensen duct วิ่งตามช่วงกลางของเส้นจาก tragus ถึงกึ่งกลางริมฝีปากบน บนกล้ามเนื้อ masseter แล้วเจาะ buccinator ไปเปิดตรงฟันกรามบนซี่ที่สอง · buccal branch ของเส้นประสาทใบหน้าวิ่งคู่กัน จึงบาดเจ็บร่วมกันบ่อย",
+  "interp": "ให้รูป<b>แผลฉีกขาดกลางแก้ม</b> (ไฟล์: แผลโดนฟันแถวแก้ม) ถามโครงสร้างที่เสี่ยงบาดเจ็บ — ต้องรู้กายวิภาคพื้นผิวของ <b>parotid (Stensen) duct</b> และ buccal branch ของ facial nerve ที่วิ่งคู่กันกลางแก้ม",
+  "why": "<b>Stensen (parotid) duct</b> ยาวราว 5–7 cm ออกจากขอบหน้าของต่อม parotid วิ่งบนกล้ามเนื้อ masseter ใต้ zygomatic arch ราว 1–1.5 cm ตาม<b>แนวกึ่งกลางของเส้นจาก tragus ไปจุดกึ่งกลางริมฝีปากบน</b> แล้วเลี้ยวเข้าในที่ขอบหน้า masseter แทงผ่าน buccinator เปิดที่กระพุ้งแก้มตรง<b>ฟันกรามบนซี่ที่ 2</b> · <b>buccal branch ของ facial nerve</b> วิ่งคู่ไปกับ duct แผลกลางแก้มจึงต้องตรวจทั้งสอง: ให้ผู้ป่วยยิ้ม/ย่นจมูก และใส่สายเข้าทางรูเปิดในปากฉีด saline หรือ methylene blue ดูว่ารั่วออกแผลหรือไม่ · duct ขาดให้<b>ต่อปลายชนปลายบน stent</b> (ไม่ต่อทำให้เกิด sialocele หรือ salivary fistula) · facial nerve ขาดที่อยู่หลังแนวดิ่งจาก lateral canthus ควรต่อภายใน 72 ชม. ขณะที่ปลายประสาทยังกระตุ้นได้ ส่วนหน้าแนวนี้แตกแขนงมากมักฟื้นเอง · ไฟล์ขีด a ลายมือ <b>\"= parotid duct\"</b> และ <b>\"buccal br.\"</b>",
   "wrong": {
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าแผลอยู่ตามแนวขอบล่างของขากรรไกรล่างหลังมุมปาก (เช่นแผลคอส่วนบนหรือผ่าตัด submandibular gland) — ยิ้มแล้วมุมปากล่างข้างนั้นไม่ลง",
-   "C": "<b>นอกสไลด์:</b> จะถูกถ้าแผลอยู่ระหว่างคิ้วเหนือสันจมูก (glabella)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าแผลหรือกระดูกหักอยู่ใต้ขอบล่างของเบ้าตาตรง infraorbital foramen — ชาแก้ม ปีกจมูก และริมฝีปากบน",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าแผลอยู่บนแนวจากติ่งหูไปเหนือหางคิ้วผ่านขมับ — ยักคิ้วข้างนั้นไม่ได้"
+   "B": "Marginal mandibular branch วิ่งตามขอบล่างของ mandible (ลายมือ \"ตามขอบ mandible\") เลี้ยงกล้ามเนื้อดึงมุมปากและริมฝีปากล่างลง บาดเจ็บแล้วยิ้มเบี้ยว ริมฝีปากล่างข้างนั้นไม่ลง · จะถูกถ้าเป็นชาย 30 ปีถูกมีดฟันเป็นแผลตามแนวขอบล่างของกรามซ้าย แล้วยิ้มริมฝีปากล่างซ้ายไม่ลงเมื่อแสยะยิ้ม",
+   "C": "Procerus เป็นกล้ามเนื้อเล็กที่สันจมูกระหว่างคิ้ว ทำให้เกิดรอยย่นแนวขวางที่สันจมูก (เป้าหมายฉีด botulinum toxin) อยู่ห่างจากกลางแก้มมาก · จะถูกถ้าเป็นหญิง 25 ปีมีแผลฉีกขาดแนวขวางที่สันจมูกระหว่างหัวคิ้ว แล้วย่นสันจมูกไม่ได้ (ต้องตรวจ frontal/zygomatic branch ร่วม)",
+   "D": "Infraorbital nerve (V2) ออกจาก infraorbital foramen ใต้ขอบล่างของเบ้าตาราว 1 cm รับความรู้สึกแก้มส่วนบน ข้างจมูก ริมฝีปากบน มักบาดเจ็บจากกระดูก zygoma/orbital floor หัก (ลายมือ \"อยู่ใน zygoma inj.\") · จะถูกถ้าเป็นชาย 25 ปีถูกต่อยที่โหนกแก้ม แก้มยุบ มีชาบริเวณแก้มบนและริมฝีปากบน เปิดปากลำบาก",
+   "E": "Frontal (temporal) branch วิ่งข้ามกลาง zygomatic arch ตามแนว Pitanguy (จากใต้ tragus 0.5 cm ไปเหนือหางคิ้ว 1.5 cm) เลี้ยง frontalis บาดเจ็บแล้วยักคิ้วไม่ได้ อยู่สูงกว่ากลางแก้ม · จะถูกถ้าเป็นชาย 35 ปีมีแผลฉีกขาดที่ขมับเหนือ zygomatic arch แล้วยักคิ้วข้างนั้นไม่ได้ หน้าผากไม่ย่น"
   },
-  "trap": "แผลแก้มที่เย็บผิวสวยแล้วอาจพลาดท่อน้ำลายขาด — ต้องตรวจท่อและการขยับมุมปากก่อนเย็บทุกครั้ง",
+  "trap": "คนเลือก infraorbital nerve เพราะเป็นเส้นประสาทที่ \"อยู่บนแก้ม\" หรือเลือก facial nerve branch อื่นเพราะนึกแต่เส้นประสาท · ต้องจำว่า<b>แผลกลางแก้ม = duct + buccal branch</b> ตามแนว tragus–ริมฝีปากบน ส่วน infraorbital nerve อยู่ใต้ขอบเบ้าตาและเป็นเส้นประสาทรับความรู้สึก ไม่ได้อยู่ในแนวแผลกลางแก้ม",
   "summary": [
-   "<b>นอกสไลด์:</b> ตรวจท่อ parotid ขาด: สอดสายเล็กทางรูเปิดในกระพุ้งแก้มแล้วฉีดน้ำเกลือ (หรือ methylene blue) ดูรั่วออกที่แผล หรือบีบต่อมดูน้ำลายไหลในแผล",
-   "<b>นอกสไลด์:</b> buccal branch: แผลอยู่หน้าต่อแนวดิ่งจาก lateral canthus มักไม่ต้องต่อเส้นประสาท (แขนงเชื่อมกันมาก) · แผลหลังแนวนี้ต่อเส้นประสาทภายใน 72 ชม."
+   "Parotid duct: ยาว ~5–7 cm · อยู่กึ่งกลางเส้น tragus → กึ่งกลางริมฝีปากบน · บน masseter ใต้ zygomatic arch ~1–1.5 cm · แทง buccinator เปิดตรงฟันกรามบนซี่ที่ 2",
+   "แบ่ง 3 ส่วน (Van Sickels): A ในต่อม · B บน masseter · C หน้า masseter ถึงในปาก — ส่วน B ต่อได้ง่ายที่สุด ส่วน A มักรักษาแบบอนุรักษ์ (ต่อมรั่ว → pressure dressing)",
+   "ตรวจ duct: ใส่สายทางรูเปิดในปาก ฉีด saline/methylene blue ดูรั่วที่แผล · ขาด → ต่อปลายชนปลายบน silastic stent ทิ้งไว้ราว 2 สัปดาห์",
+   "ไม่ซ่อม duct → sialocele หรือ salivary-cutaneous fistula · รักษาด้วยเจาะดูด pressure dressing ยาลดน้ำลาย (anticholinergic) หรือ botulinum toxin เข้าต่อม",
+   "Facial nerve 5 แขนง: temporal (frontalis) · zygomatic (หลับตา) · buccal (ยิ้ม/nasolabial fold) · marginal mandibular (ดึงริมฝีปากล่าง) · cervical (platysma)",
+   "ซ่อม facial nerve: แผลหลังแนวดิ่ง lateral canthus ต่อภายใน 72 ชม. (ใช้เครื่องกระตุ้นหาปลายประสาทก่อน Wallerian degeneration) · หน้าแนวนี้แตกแขนงมากมักฟื้นเอง",
+   "Infraorbital nerve (V2): ใต้ขอบเบ้าตาล่าง ~1 cm · ชาแก้มบน/ริมฝีปากบนบ่งถึง zygomaticomaxillary complex หรือ orbital floor fracture"
   ],
-  "opinion": "เห็นด้วยกับคีย์ A · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ A ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด a พร้อมลายมือ \"= parotid duct\" และ \"buccal br.\" และภาพ Netter ในไฟล์ที่ลายมือเขียนว่า buccal branch \"มัก injure พร้อม parotid duct\" · ช้อยอื่นอยู่ผิดตำแหน่งจากแผลกลางแก้ม",
+  "mnemonic": "<b>'แผลกลางแก้ม = Duct + Buccal (ลากเส้น Tragus → ริมฝีปากบน แล้วดูตรงกลาง)'</b>",
+  "guide": "Grabb and Smith's Plastic Surgery 8th ed. (2020) — Facial soft-tissue trauma · Neligan's Plastic Surgery 5th ed. (2023) Vol.3 — Facial injuries",
   "variants": [
-   "<b>นอกสไลด์:</b> แผลกลางแก้มลึก ยิ้มแล้วริมฝีปากบนข้างนั้นยกไม่ขึ้น แผลอยู่หลังแนวดิ่งจากหางตา → buccal branch ขาด: ต่อเส้นประสาทแบบ microsurgery",
-   "<b>นอกสไลด์:</b> แผลแก้มที่ไม่ตรงแนวท่อ แต่สอดสายฉีดน้ำเกลือแล้วไม่รั่ว → เย็บแผลตามปกติ ไม่ต้องใส่ stent"
+   "ชาย 28 ปีถูกขวดแก้วบาดกลางแก้มซ้าย มีน้ำใสไหลออกจากแผลเวลากินอาหาร → parotid duct ขาด → ต่อบน stent",
+   "หลังเย็บแผลแก้ม 2 สัปดาห์ มีก้อนนุ่มบวมขึ้นเวลากินอาหาร เจาะได้น้ำใสมี amylase สูง → sialocele",
+   "ชายถูกฟันแก้มลึก ยิ้มแล้วมุมปากข้างนั้นไม่ยก nasolabial fold แบน แผลอยู่หลังแนว lateral canthus → สำรวจและต่อ buccal branch ภายใน 72 ชม.",
+   "ทำไมต้องต่อ facial nerve ภายใน 72 ชม. → หลังจากนั้นปลายประสาทส่วนปลายเกิด Wallerian degeneration กระตุ้นด้วยไฟฟ้าไม่ตอบสนอง จึงหาปลายเส้นที่ขาดได้ยาก"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 (คอลัมน์ขวา) — ตัวพิมพ์: <b>25. ให้รูปแผลโดนฟัน \"แถวแก้ม\" ถามว่าโดนอะไร — a. stensen's duct b. marginal branch c. procerus muscle d. infraorbital nerve e. frontal branch of facial nerve</b><br>ลายมือ: ขีด a · เขียน \"= parotid duct\" เหนือ stensen's และ \", buccal br.\" ต่อท้าย (ไฮไลต์เหลือง) · ช้อย b \"ตามขอบ mandible\" · ช้อย d \"อยู่ใน zygoma inj.\" · ช้อย e กากบาทแดง ✗ · ใส่เครื่องหมายคำพูดคร่อม \"แถวแก้ม\"<br>ไฮไลต์: \"แผลโดนฟัน\" · \"แถวแก้ม\" · \"โดนอะไร\" · \"stensen's duct\" (เหลือง)<br>รูปที่แปะ: ภาพ Netter \"Facial Nerve Branches and Parotid Gland in Situ\" + ตัวพิมพ์ \"Facial nerve แยกออกเป็น 5 branches\" และ \"ถ้ามี nerve injury จะต้องซ่อมภายใน 72 ชั่วโมง ไม่งั้นจะเกิด wallerian degeneration แล้วหลังจากนั้นจะซ่อมยาก\" · ลายมือ \"ควบคุม fx of muscle\" · Temporal branches \"→ frontalis\" · Zygomatic branches \"หลับตา\" \"ไปทางด้านหางตา\" · Buccal branches \"ยิ้ม → nasolabial fold\" \"มัก injure พร้อม parotid duct\" · Marginal mandibular branch \"วิ่งตามขอบ mandible\" \"depress lip\" \"ตามขอบ mandible เลี้ยง m. ดึงปากล่างลง\" · Cervical branch \"เลี้ยง platysma\" · เส้น \"tragus to upper lips\" · Parotid duct (ไฮไลต์)<br>ที่ปรับในเว็บ: แปลโจทย์เป็น \"A picture of a mid-cheek laceration. Which structure is at risk?\" · ช้อย b \"marginal branch\" เป็น \"Marginal mandibular branch\" · ช้อย a เป็น \"Stensen duct\" · ช้อย a–e ในไฟล์เป็น A–E ในเว็บ",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_25"
   ]
  },
  "MDCU66|RoD|26": {
-  "interp": "ภาพสมองมีก้อนหลายก้อน (ตามที่บันทึกไว้) · ถามการวินิจฉัย",
-  "why": "<b>คีย์: ขีด c</b><br><b>นอกสไลด์:</b> ก้อนหลายก้อนในเนื้อสมองผู้ใหญ่ = มะเร็งแพร่กระจายจนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · มักอยู่ที่รอยต่อเนื้อสมองสีเทา–ขาว (หลอดเลือดเล็กลงจนเซลล์มะเร็งติด) ขอบชัด จับสี มีสมองบวมรอบก้อนมากเมื่อเทียบกับขนาด",
+  "interp": "ให้ภาพสมองที่มี<b>ก้อนหลายก้อน</b> (multiple brain masses) ถามว่าเป็นอะไร — ต้องรู้ว่าก้อนหลายก้อนในเนื้อสมองผู้ใหญ่ที่พบบ่อยที่สุดคือ<b>มะเร็งแพร่กระจาย</b> และแยกจากเนื้องอกปฐมภูมิที่มักเป็นก้อนเดียว",
+  "why": "<b>Brain metastasis</b> เป็นเนื้องอกในกะโหลกที่พบบ่อยที่สุดในผู้ใหญ่ (มากกว่าเนื้องอกปฐมภูมิหลายเท่า) แหล่งต้นทางบ่อย: <b>มะเร็งปอด</b> (มากที่สุด) · เต้านม · melanoma (มีแนวโน้มกระจายไปสมองสูงสุด) · ไต · ลำไส้ใหญ่ · ไปตามกระแสเลือดจึงอยู่ที่<b>รอยต่อ gray–white matter</b> และบริเวณ watershed ราว 80% อยู่ใน cerebral hemisphere ที่เหลือใน cerebellum และ brainstem · MRI เห็น<b>ก้อนกลมขอบชัดหลายก้อน enhance แบบวงแหวนหรือทึบ</b> และ<b>สมองบวมรอบก้อนมากเกินขนาดก้อน</b> · ราวครึ่งหนึ่งขึ้นไปพบหลายก้อนเมื่อทำ MRI · รักษา: dexamethasone ลดบวม → ก้อนน้อย (1–4) ใช้ผ่าตัดและ/หรือ stereotactic radiosurgery · ก้อนมากใช้ SRS หรือ whole-brain RT (hippocampal avoidance + memantine) ร่วมกับ systemic/targeted therapy · ไฟล์ขีด <b>c (Metastatic tumor)</b> ไม่มีลายมือเพิ่ม",
   "wrong": {
-   "A": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนเดียวในเนื้อสมองสีขาว ขอบไม่ชัด จับสีน้อย ในผู้ใหญ่อายุน้อยที่มาด้วยชัก",
-   "B": "<b>นอกสไลด์:</b> จะถูกถ้าเป็นก้อนเดียวผนังหนาไม่เรียบ ตรงกลางเนื้อตาย ลามข้าม corpus callosum (butterfly)",
-   "D": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนหลายก้อนอยู่นอกเนื้อสมองติดเยื่อดูรา จับสีสม่ำเสมอมี dural tail ในผู้ป่วย neurofibromatosis type 2",
-   "E": "<b>นอกสไลด์:</b> จะถูกถ้าก้อนขอบบางเรียบจับสีเป็นวง ตรงกลาง restrict บน DWI ในผู้ป่วยมีไข้และแหล่งติดเชื้อ (เช่น endocarditis หรือหัวใจพิการชนิดเขียว)"
+   "A": "Glioma (astrocytoma, oligodendroglioma) เป็นเนื้องอกปฐมภูมิของ glial cell โตแทรกซึมเนื้อสมอง ส่วนใหญ่เป็นก้อนเดียว ขอบไม่ชัด low-grade มักไม่ enhance · จะถูกถ้าเป็นชาย 35 ปีชักครั้งแรก MRI พบก้อนเดียวที่ frontal lobe T2/FLAIR สว่างขอบไม่ชัด ไม่ enhance → low-grade glioma",
+   "B": "Glioblastoma (เดิมเรียก glioblastoma multiforme ไฟล์เขียน glioma multiforme) เป็น glioma grade 4 ส่วนใหญ่เป็นก้อนเดียวขนาดใหญ่ ผนังหนาไม่เรียบ เนื้อตายตรงกลาง ลามข้าม corpus callosum เป็นรูปผีเสื้อ ส่วนน้อยเป็น multifocal · จะถูกถ้าเป็นชาย 60 ปีอ่อนแรงซีกซ้ายและบุคลิกเปลี่ยน 1 เดือน MRI พบก้อนเดียวขอบหนาไม่เรียบ enhance แบบวงแหวนข้าม corpus callosum",
+   "D": "Meningioma เป็นก้อนนอกเนื้อสมอง (extra-axial) ติดเยื่อหุ้มสมอง enhance ทึบสม่ำเสมอ มี dural tail และกระดูกหนาตัว โตช้า ส่วนใหญ่ก้อนเดียว (หลายก้อนพบใน NF2 หรือหลังฉายรังสี) · จะถูกถ้าเป็นหญิง 55 ปีปวดศีรษะเรื้อรัง MRI พบก้อนเดียวติด falx enhance ทึบมี dural tail กดเนื้อสมองจากภายนอก",
+   "E": "Brain abscess เกิดหลายก้อนได้เมื่อเชื้อมาทางเลือด (endocarditis, cyanotic heart disease) แต่มักมีไข้ แหล่งติดเชื้อ ผนังบางเรียบ และ DWI restricted diffusion ตรงกลาง · จะถูกถ้าเป็นชาย 30 ปีฉีดยาเสพติด มีไข้ เสียงฟู่หัวใจใหม่ MRI พบก้อน ring-enhancing หลายก้อนผนังบาง DWI สว่างตรงกลาง"
   },
-  "trap": "ฝีในสมองก็หลายก้อนและจับสีเป็นวงได้ — แยกด้วย DWI (ฝี restrict ตรงกลาง มะเร็งเนื้อตายตรงกลางไม่ restrict) และผนังฝีบางเรียบ",
+  "trap": "เห็นก้อนในสมองแล้วนึกถึง glioma/glioblastoma ซึ่งเป็นเนื้องอกปฐมภูมิที่ได้ยินบ่อย · คำสำคัญคือ<b>หลายก้อน</b> ในผู้ใหญ่ → metastasis จนกว่าจะพิสูจน์ได้ว่าไม่ใช่ · ส่วน abscess หลายก้อนต้องมีไข้และ DWI restricted ช่วยแยก",
   "summary": [
-   "<b>นอกสไลด์:</b> แยกก้อนในสมองจากภาพ: metastasis หลายก้อน รอยต่อสีเทา–ขาว บวมมาก · glioblastoma ก้อนเดียว ขอบหนาไม่เรียบ เนื้อตายกลาง ข้าม corpus callosum · meningioma นอกเนื้อสมอง dural tail · ฝี ผนังบางเรียบ DWI restrict",
-   "<b>นอกสไลด์:</b> สงสัย metastasis: CT ทรวงอก–ท้อง (หรือ PET) หาต้นตอ · ไม่พบต้นตอ → ตัดชิ้นเนื้อหรือผ่าตัดก้อนที่เข้าถึงง่าย"
+   "Metastasis: เนื้องอกในกะโหลกที่พบบ่อยที่สุดในผู้ใหญ่ · ต้นทาง: ปอด &gt; เต้านม &gt; melanoma &gt; ไต &gt; ลำไส้ใหญ่ · ราว 10–20% ของผู้ป่วยมะเร็งมีก้อนในสมองให้เห็นทางคลินิก",
+   "ตำแหน่ง: gray–white junction และ watershed · cerebral hemisphere ~80% · cerebellum ~15% · brainstem ~5% · ก้อนเดียวใน posterior fossa ของผู้ใหญ่ให้คิดถึง metastasis ก่อน",
+   "ภาพ MRI: ก้อนกลมขอบชัด enhance (วงแหวนหรือทึบ) · edema รอบก้อนมากเกินขนาด · มักหลายก้อน · melanoma/ไต/choriocarcinoma/thyroid มักมีเลือดออกในก้อน",
+   "รักษาเบื้องต้น: dexamethasone ลด vasogenic edema · ยากันชักเฉพาะผู้ที่ชักแล้ว (ไม่ให้ป้องกันเป็น routine)",
+   "ก้อนน้อย (1–4) ผู้ป่วยแข็งแรง โรคนอกสมองคุมได้ → ผ่าตัด (ก้อนใหญ่มี mass effect หรือไม่ทราบชนิด) และ/หรือ stereotactic radiosurgery",
+   "ก้อนมาก → SRS (ตามจำนวนและปริมาตรรวม) หรือ whole-brain RT แบบ hippocampal avoidance + memantine ลดผลต่อความจำ · มะเร็งปอดที่มี EGFR/ALK ใช้ยามุ่งเป้าที่เข้าสมองได้",
+   "ก้อนหลายก้อนอื่น: abscess (DWI restricted, มีไข้) · toxoplasmosis (HIV, basal ganglia) · tuberculoma · CNS lymphoma (รอบ ventricle, ภูมิคุ้มกันบกพร่อง) · multiple meningioma (NF2)"
   ],
-  "opinion": "เห็นด้วยกับคีย์ C · มั่นใจสูง",
+  "opinion": "เห็นด้วยกับคำตอบ C ความมั่นใจสูง — ตรงกับคีย์ในไฟล์ MCQ Key 2 ที่ขีด c (Metastatic tumor) · ก้อนหลายก้อนในเนื้อสมองผู้ใหญ่คือ metastasis เป็นอันดับแรก ส่วน glioma/glioblastoma และ meningioma มักเป็นก้อนเดียว · ไฟล์มีช้อย a–d เว็บเติม E. Abscess ซึ่งเป็นตัวแยกโรคสำคัญเมื่อมีไข้",
+  "mnemonic": "<b>'ก้อนสมองหลายก้อนในผู้ใหญ่ = Mets ก่อน (Lung · Breast · Melanoma · Kidney · Colon)'</b>",
+  "guide": "Greenberg's Handbook of Neurosurgery 10th ed. (2023) — Cerebral metastases · Vogelbaum MA et al. Treatment for Brain Metastases: ASCO-SNO-ASTRO Guideline (J Clin Oncol 2022;40:492–516)",
   "variants": [
-   "<b>นอกสไลด์:</b> ก้อนหลายก้อนในสมองมีเลือดออกในก้อน → metastasis ชนิดเลือดออกง่าย: melanoma, renal cell carcinoma, choriocarcinoma, thyroid",
-   "<b>นอกสไลด์:</b> ผู้ป่วย HIV CD4 ต่ำ ก้อนจับสีเป็นวงหลายก้อนที่ basal ganglia → toxoplasmosis: ให้ยารักษาแล้วดูภาพซ้ำ ไม่ดีขึ้นจึงคิดถึง lymphoma"
+   "ชาย 62 ปีสูบบุหรี่ ปวดศีรษะ ซึม MRI พบก้อน enhance 3 ก้อนที่ gray–white junction edema มาก → CT chest/abdomen หาต้นทาง (มะเร็งปอด) + dexamethasone",
+   "หญิง 50 ปีเคยผ่าตัดมะเร็งเต้านม มีก้อนเดียวในสมอง 3.5 cm มี mass effect โรคนอกสมองคุมได้ → ผ่าตัดเอาก้อนออก + SRS ที่โพรงผ่าตัด",
+   "ผู้ป่วย melanoma มีก้อนในสมองหลายก้อนบางก้อนมีเลือดออก → metastatic melanoma (hemorrhagic metastasis)",
+   "ผู้ป่วย HIV CD4 40 ก้อน ring-enhancing หลายก้อนที่ basal ganglia → ให้ยารักษา toxoplasmosis 2 สัปดาห์ ถ้าไม่ยุบคิดถึง CNS lymphoma"
+  ],
+  "notes": "ไฟล์ __01_3_MCQs_Key_2.pdf (MCQ Key 2) หน้า 154 (คอลัมน์ขวา) — ตัวพิมพ์: <b>26. รูป ใน brain มี mass มีหลายๆเม็ดอ่ะ — a. glioma b. glioma multiforme c. Metastatic tumor d. meningioma</b><br>ลายมือ: ขีด c<br>ไฮไลต์: \"brain มี mass มีหลายๆเม็ด\" · \"Metastatic tumor\" (เหลือง)<br>ที่ปรับในเว็บ: ไฟล์มีช้อยแค่ a–d เว็บเติม E. Abscess · ช้อย b \"glioma multiforme\" เป็น \"Glioblastoma\" · แปลโจทย์เป็น \"A picture shows multiple brain masses. What is it?\"",
+  "src": "__01_3_MCQs_Key_2.pdf · หน้า 154",
+  "kimg": [
+   "fsk_p154",
+   "kp66d_26"
   ]
  }
 }
